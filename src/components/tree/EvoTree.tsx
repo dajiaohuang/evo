@@ -66,6 +66,10 @@ export function EvoTree() {
 
     const zoom = d3.zoom<SVGSVGElement, unknown>()
       .scaleExtent([0.1, 20])
+      .filter((event) => {
+        if (event.type === 'dblclick') return false
+        return true
+      })
       .on('zoom', (event) => {
         g.attr('transform', `translate(${event.transform.x + offsetX}, ${event.transform.y + offsetY}) scale(${event.transform.k * scale})`)
       })
