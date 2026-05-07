@@ -1,0 +1,1860 @@
+{
+  "id": "life",
+  "name": "Life",
+  "commonName": "Life on Earth",
+  "rank": "",
+  "taxonId": "",
+  "firstAppearance": 3800,
+  "lastAppearance": 0,
+  "extinct": false,
+  "children": [
+    {
+      "id": "plantae",
+      "name": "Plantae",
+      "commonName": "Plants",
+      "rank": "kingdom",
+      "taxonId": "txn:57260",
+      "firstAppearance": 470,
+      "lastAppearance": 0,
+      "extinct": false,
+      "children": [
+        {
+          "id": "bryophyta",
+          "name": "Bryophyta",
+          "commonName": "Mosses & Liverworts",
+          "rank": "phylum",
+          "taxonId": "txn:55134",
+          "firstAppearance": 470,
+          "lastAppearance": 0,
+          "extinct": false,
+          "children": []
+        },
+        {
+          "id": "lycophyta",
+          "name": "Lycopodiophyta",
+          "commonName": "Club Mosses",
+          "rank": "phylum",
+          "taxonId": "txn:249949",
+          "firstAppearance": 425,
+          "lastAppearance": 0,
+          "extinct": false,
+          "children": [
+            {
+              "id": "lepidodendron",
+              "name": "Lepidodendrales",
+              "commonName": "Scale Trees",
+              "rank": "order",
+              "taxonId": "txn:125777",
+              "firstAppearance": 359,
+              "lastAppearance": 299,
+              "extinct": true,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "pteridophyta",
+          "name": "Pteridophyta",
+          "commonName": "Ferns & Horsetails",
+          "rank": "phylum",
+          "taxonId": "txn:55164",
+          "firstAppearance": 385,
+          "lastAppearance": 0,
+          "extinct": false,
+          "children": [
+            {
+              "id": "equisetopsida",
+              "name": "Equisetopsida",
+              "commonName": "Horsetails",
+              "rank": "class",
+              "taxonId": "txn:125773",
+              "firstAppearance": 375,
+              "lastAppearance": 0,
+              "extinct": false,
+              "children": []
+            },
+            {
+              "id": "filicopsida",
+              "name": "Filicopsida",
+              "commonName": "True Ferns",
+              "rank": "class",
+              "taxonId": "txn:263774",
+              "firstAppearance": 360,
+              "lastAppearance": 0,
+              "extinct": false,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "gymnospermae",
+          "name": "Gymnospermae",
+          "commonName": "Gymnosperms",
+          "rank": "superclass",
+          "taxonId": "txn:54800",
+          "firstAppearance": 370,
+          "lastAppearance": 0,
+          "extinct": false,
+          "children": [
+            {
+              "id": "cycadophyta",
+              "name": "Cycadophyta",
+              "commonName": "Cycads",
+              "rank": "phylum",
+              "taxonId": "txn:54801",
+              "firstAppearance": 280,
+              "lastAppearance": 0,
+              "extinct": false,
+              "children": []
+            },
+            {
+              "id": "ginkgophyta",
+              "name": "Ginkgophyta",
+              "commonName": "Ginkgos",
+              "rank": "phylum",
+              "taxonId": "txn:54802",
+              "firstAppearance": 270,
+              "lastAppearance": 0,
+              "extinct": false,
+              "children": []
+            },
+            {
+              "id": "coniferophyta",
+              "name": "Coniferophyta",
+              "commonName": "Conifers",
+              "rank": "phylum",
+              "taxonId": "txn:54803",
+              "firstAppearance": 310,
+              "lastAppearance": 0,
+              "extinct": false,
+              "children": [
+                {
+                  "id": "araucariaceae",
+                  "name": "Araucariaceae",
+                  "commonName": "Monkey Puzzles",
+                  "rank": "family",
+                  "taxonId": "txn:54769",
+                  "firstAppearance": 245,
+                  "lastAppearance": 0,
+                  "extinct": false,
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "angiospermae",
+          "name": "Angiospermae",
+          "commonName": "Flowering Plants",
+          "rank": "clade",
+          "taxonId": "txn:53872",
+          "firstAppearance": 135,
+          "lastAppearance": 0,
+          "extinct": false,
+          "children": [
+            {
+              "id": "monocotyledones",
+              "name": "Monocotyledones",
+              "commonName": "Monocots",
+              "rank": "class",
+              "taxonId": "txn:53873",
+              "firstAppearance": 120,
+              "lastAppearance": 0,
+              "extinct": false,
+              "children": [
+                {
+                  "id": "poaceae",
+                  "name": "Poaceae",
+                  "commonName": "Grasses",
+                  "rank": "family",
+                  "taxonId": "txn:53581",
+                  "firstAppearance": 66,
+                  "lastAppearance": 0,
+                  "extinct": false,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "eudicotyledones",
+              "name": "Eudicotyledones",
+              "commonName": "Eudicots",
+              "rank": "class",
+              "taxonId": "txn:53874",
+              "firstAppearance": 125,
+              "lastAppearance": 0,
+              "extinct": false,
+              "children": [
+                {
+                  "id": "fabaceae",
+                  "name": "Fabaceae",
+                  "commonName": "Legumes",
+                  "rank": "family",
+                  "taxonId": "txn:53875",
+                  "firstAppearance": 66,
+                  "lastAppearance": 0,
+                  "extinct": false,
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "invertebrata",
+      "name": "Invertebrata",
+      "commonName": "Invertebrates",
+      "rank": "grade",
+      "taxonId": "",
+      "firstAppearance": 600,
+      "lastAppearance": 0,
+      "extinct": false,
+      "children": [
+        {
+          "id": "porifera",
+          "name": "Porifera",
+          "commonName": "Sponges",
+          "rank": "phylum",
+          "taxonId": "txn:3670",
+          "firstAppearance": 635,
+          "lastAppearance": 0,
+          "extinct": false,
+          "children": [
+            {
+              "id": "stromatoporoidea",
+              "name": "Stromatoporoidea",
+              "commonName": "Stromatoporoids",
+              "rank": "class",
+              "taxonId": "txn:70358",
+              "firstAppearance": 485,
+              "lastAppearance": 359,
+              "extinct": true,
+              "children": []
+            },
+            {
+              "id": "demospongiae",
+              "name": "Demospongiae",
+              "commonName": "Demosponges",
+              "rank": "class",
+              "taxonId": "txn:70357",
+              "firstAppearance": 540,
+              "lastAppearance": 0,
+              "extinct": false,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "cnidaria",
+          "name": "Cnidaria",
+          "commonName": "Corals & Jellyfish",
+          "rank": "phylum",
+          "taxonId": "txn:3671",
+          "firstAppearance": 580,
+          "lastAppearance": 0,
+          "extinct": false,
+          "children": [
+            {
+              "id": "anthozoa",
+              "name": "Anthozoa",
+              "commonName": "Corals & Anemones",
+              "rank": "class",
+              "taxonId": "txn:3673",
+              "firstAppearance": 540,
+              "lastAppearance": 0,
+              "extinct": false,
+              "children": [
+                {
+                  "id": "rugosa",
+                  "name": "Rugosa",
+                  "commonName": "Horn Corals",
+                  "rank": "order",
+                  "taxonId": "txn:69550",
+                  "firstAppearance": 488,
+                  "lastAppearance": 252,
+                  "extinct": true,
+                  "children": []
+                },
+                {
+                  "id": "tabulata",
+                  "name": "Tabulata",
+                  "commonName": "Tabulate Corals",
+                  "rank": "order",
+                  "taxonId": "txn:69551",
+                  "firstAppearance": 488,
+                  "lastAppearance": 252,
+                  "extinct": true,
+                  "children": []
+                },
+                {
+                  "id": "scleractinia",
+                  "name": "Scleractinia",
+                  "commonName": "Stony Corals",
+                  "rank": "order",
+                  "taxonId": "txn:69552",
+                  "firstAppearance": 245,
+                  "lastAppearance": 0,
+                  "extinct": false,
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "brachiopoda",
+          "name": "Brachiopoda",
+          "commonName": "Lamp Shells",
+          "rank": "phylum",
+          "taxonId": "txn:3675",
+          "firstAppearance": 540,
+          "lastAppearance": 0,
+          "extinct": false,
+          "children": [
+            {
+              "id": "articulata",
+              "name": "Articulata",
+              "commonName": "Articulate Brachiopods",
+              "rank": "class",
+              "taxonId": "txn:69560",
+              "firstAppearance": 540,
+              "lastAppearance": 0,
+              "extinct": false,
+              "children": [
+                {
+                  "id": "spiriferida",
+                  "name": "Spiriferida",
+                  "commonName": "Spiriferids",
+                  "rank": "order",
+                  "taxonId": "txn:69561",
+                  "firstAppearance": 443,
+                  "lastAppearance": 201,
+                  "extinct": true,
+                  "children": []
+                },
+                {
+                  "id": "terebratulida",
+                  "name": "Terebratulida",
+                  "commonName": "Terebratulids",
+                  "rank": "order",
+                  "taxonId": "txn:69562",
+                  "firstAppearance": 409,
+                  "lastAppearance": 0,
+                  "extinct": false,
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "mollusca",
+          "name": "Mollusca",
+          "commonName": "Mollusks",
+          "rank": "phylum",
+          "taxonId": "txn:3678",
+          "firstAppearance": 540,
+          "lastAppearance": 0,
+          "extinct": false,
+          "children": [
+            {
+              "id": "bivalvia",
+              "name": "Bivalvia",
+              "commonName": "Clams & Oysters",
+              "rank": "class",
+              "taxonId": "txn:3680",
+              "firstAppearance": 520,
+              "lastAppearance": 0,
+              "extinct": false,
+              "children": [
+                {
+                  "id": "rudistae",
+                  "name": "Hippuritoida",
+                  "commonName": "Rudist Bivalves",
+                  "rank": "order",
+                  "taxonId": "txn:69570",
+                  "firstAppearance": 160,
+                  "lastAppearance": 66,
+                  "extinct": true,
+                  "children": []
+                },
+                {
+                  "id": "ostreoida",
+                  "name": "Ostreoida",
+                  "commonName": "True Oysters",
+                  "rank": "order",
+                  "taxonId": "txn:69571",
+                  "firstAppearance": 250,
+                  "lastAppearance": 0,
+                  "extinct": false,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "gastropoda",
+              "name": "Gastropoda",
+              "commonName": "Snails & Slugs",
+              "rank": "class",
+              "taxonId": "txn:3681",
+              "firstAppearance": 510,
+              "lastAppearance": 0,
+              "extinct": false,
+              "children": []
+            },
+            {
+              "id": "cephalopoda",
+              "name": "Cephalopoda",
+              "commonName": "Cephalopods",
+              "rank": "class",
+              "taxonId": "txn:3682",
+              "firstAppearance": 500,
+              "lastAppearance": 0,
+              "extinct": false,
+              "children": [
+                {
+                  "id": "nautiloidea",
+                  "name": "Nautiloidea",
+                  "commonName": "Nautiloids",
+                  "rank": "subclass",
+                  "taxonId": "txn:69580",
+                  "firstAppearance": 500,
+                  "lastAppearance": 0,
+                  "extinct": false,
+                  "children": []
+                },
+                {
+                  "id": "ammonoidea",
+                  "name": "Ammonoidea",
+                  "commonName": "Ammonites",
+                  "rank": "subclass",
+                  "taxonId": "txn:69581",
+                  "firstAppearance": 409,
+                  "lastAppearance": 66,
+                  "extinct": true,
+                  "children": [
+                    {
+                      "id": "goniatitida",
+                      "name": "Goniatitida",
+                      "commonName": "Goniatites",
+                      "rank": "order",
+                      "taxonId": "txn:69582",
+                      "firstAppearance": 409,
+                      "lastAppearance": 252,
+                      "extinct": true,
+                      "children": []
+                    },
+                    {
+                      "id": "ceratitida",
+                      "name": "Ceratitida",
+                      "commonName": "Ceratites",
+                      "rank": "order",
+                      "taxonId": "txn:69583",
+                      "firstAppearance": 280,
+                      "lastAppearance": 201,
+                      "extinct": true,
+                      "children": []
+                    },
+                    {
+                      "id": "ammonitida",
+                      "name": "Ammonitida",
+                      "commonName": "True Ammonites",
+                      "rank": "order",
+                      "taxonId": "txn:69584",
+                      "firstAppearance": 201,
+                      "lastAppearance": 66,
+                      "extinct": true,
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "id": "coleoidea",
+                  "name": "Coleoidea",
+                  "commonName": "Squids & Octopuses",
+                  "rank": "subclass",
+                  "taxonId": "txn:69585",
+                  "firstAppearance": 390,
+                  "lastAppearance": 0,
+                  "extinct": false,
+                  "children": [
+                    {
+                      "id": "belemnitida",
+                      "name": "Belemnitida",
+                      "commonName": "Belemnites",
+                      "rank": "order",
+                      "taxonId": "txn:69586",
+                      "firstAppearance": 228,
+                      "lastAppearance": 66,
+                      "extinct": true,
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "arthropoda",
+          "name": "Arthropoda",
+          "commonName": "Arthropods",
+          "rank": "phylum",
+          "taxonId": "txn:3686",
+          "firstAppearance": 540,
+          "lastAppearance": 0,
+          "extinct": false,
+          "children": [
+            {
+              "id": "trilobita",
+              "name": "Trilobita",
+              "commonName": "Trilobites",
+              "rank": "class",
+              "taxonId": "txn:19114",
+              "firstAppearance": 521,
+              "lastAppearance": 252,
+              "extinct": true,
+              "children": [
+                {
+                  "id": "phacopida",
+                  "name": "Phacopida",
+                  "commonName": "Phacopids",
+                  "rank": "order",
+                  "taxonId": "txn:69590",
+                  "firstAppearance": 488,
+                  "lastAppearance": 359,
+                  "extinct": true,
+                  "children": []
+                },
+                {
+                  "id": "ptychopariida",
+                  "name": "Ptychopariida",
+                  "commonName": "Ptychopariids",
+                  "rank": "order",
+                  "taxonId": "txn:69591",
+                  "firstAppearance": 521,
+                  "lastAppearance": 443,
+                  "extinct": true,
+                  "children": []
+                },
+                {
+                  "id": "corynexochida",
+                  "name": "Corynexochida",
+                  "commonName": "Corynexochids",
+                  "rank": "order",
+                  "taxonId": "txn:69592",
+                  "firstAppearance": 516,
+                  "lastAppearance": 393,
+                  "extinct": true,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "chelicerata",
+              "name": "Chelicerata",
+              "commonName": "Spiders & Scorpions",
+              "rank": "subphylum",
+              "taxonId": "txn:3687",
+              "firstAppearance": 510,
+              "lastAppearance": 0,
+              "extinct": false,
+              "children": [
+                {
+                  "id": "eurypterida",
+                  "name": "Eurypterida",
+                  "commonName": "Sea Scorpions",
+                  "rank": "order",
+                  "taxonId": "txn:69595",
+                  "firstAppearance": 467,
+                  "lastAppearance": 252,
+                  "extinct": true,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "insecta",
+              "name": "Insecta",
+              "commonName": "Insects",
+              "rank": "class",
+              "taxonId": "txn:3688",
+              "firstAppearance": 410,
+              "lastAppearance": 0,
+              "extinct": false,
+              "children": [
+                {
+                  "id": "odonata",
+                  "name": "Odonata",
+                  "commonName": "Dragonflies",
+                  "rank": "order",
+                  "taxonId": "txn:69596",
+                  "firstAppearance": 325,
+                  "lastAppearance": 0,
+                  "extinct": false,
+                  "children": [
+                    {
+                      "id": "meganeura",
+                      "name": "Meganeura",
+                      "commonName": "Giant Dragonfly",
+                      "rank": "genus",
+                      "taxonId": "txn:175866",
+                      "firstAppearance": 305,
+                      "lastAppearance": 299,
+                      "extinct": true,
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "id": "coleoptera",
+                  "name": "Coleoptera",
+                  "commonName": "Beetles",
+                  "rank": "order",
+                  "taxonId": "txn:69597",
+                  "firstAppearance": 299,
+                  "lastAppearance": 0,
+                  "extinct": false,
+                  "children": []
+                },
+                {
+                  "id": "hymenoptera",
+                  "name": "Hymenoptera",
+                  "commonName": "Ants, Bees & Wasps",
+                  "rank": "order",
+                  "taxonId": "txn:69598",
+                  "firstAppearance": 200,
+                  "lastAppearance": 0,
+                  "extinct": false,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "crustacea",
+              "name": "Crustacea",
+              "commonName": "Crustaceans",
+              "rank": "subphylum",
+              "taxonId": "txn:3689",
+              "firstAppearance": 510,
+              "lastAppearance": 0,
+              "extinct": false,
+              "children": [
+                {
+                  "id": "ostracoda",
+                  "name": "Ostracoda",
+                  "commonName": "Seed Shrimp",
+                  "rank": "class",
+                  "taxonId": "txn:69600",
+                  "firstAppearance": 485,
+                  "lastAppearance": 0,
+                  "extinct": false,
+                  "children": []
+                },
+                {
+                  "id": "malacostraca",
+                  "name": "Malacostraca",
+                  "commonName": "Crabs & Shrimp",
+                  "rank": "class",
+                  "taxonId": "txn:69601",
+                  "firstAppearance": 360,
+                  "lastAppearance": 0,
+                  "extinct": false,
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "echinodermata",
+          "name": "Echinodermata",
+          "commonName": "Echinoderms",
+          "rank": "phylum",
+          "taxonId": "txn:3676",
+          "firstAppearance": 540,
+          "lastAppearance": 0,
+          "extinct": false,
+          "children": [
+            {
+              "id": "crinoidea",
+              "name": "Crinoidea",
+              "commonName": "Sea Lilies & Feather Stars",
+              "rank": "class",
+              "taxonId": "txn:69610",
+              "firstAppearance": 488,
+              "lastAppearance": 0,
+              "extinct": false,
+              "children": []
+            },
+            {
+              "id": "blastoidea",
+              "name": "Blastoidea",
+              "commonName": "Blastoids",
+              "rank": "class",
+              "taxonId": "txn:69611",
+              "firstAppearance": 470,
+              "lastAppearance": 252,
+              "extinct": true,
+              "children": []
+            },
+            {
+              "id": "echinoidea",
+              "name": "Echinoidea",
+              "commonName": "Sea Urchins & Sand Dollars",
+              "rank": "class",
+              "taxonId": "txn:69612",
+              "firstAppearance": 460,
+              "lastAppearance": 0,
+              "extinct": false,
+              "children": []
+            },
+            {
+              "id": "asteroidea",
+              "name": "Asteroidea",
+              "commonName": "Starfish",
+              "rank": "class",
+              "taxonId": "txn:69613",
+              "firstAppearance": 488,
+              "lastAppearance": 0,
+              "extinct": false,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "graptolithina",
+          "name": "Graptolithina",
+          "commonName": "Graptolites",
+          "rank": "class",
+          "taxonId": "txn:31939",
+          "firstAppearance": 510,
+          "lastAppearance": 323,
+          "extinct": true,
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "vertebrata",
+      "name": "Vertebrata",
+      "commonName": "Vertebrates",
+      "rank": "subphylum",
+      "taxonId": "txn:35530",
+      "firstAppearance": 525,
+      "lastAppearance": 0,
+      "extinct": false,
+      "children": [
+        {
+          "id": "agnatha",
+          "name": "Agnatha",
+          "commonName": "Jawless Fish",
+          "rank": "infraphylum",
+          "taxonId": "txn:35141",
+          "firstAppearance": 520,
+          "lastAppearance": 0,
+          "extinct": false,
+          "children": [
+            {
+              "id": "conodonta",
+              "name": "Conodonta",
+              "commonName": "Conodonts",
+              "rank": "class",
+              "taxonId": "txn:55282",
+              "firstAppearance": 520,
+              "lastAppearance": 201.4,
+              "extinct": true,
+              "children": []
+            },
+            {
+              "id": "ostracodermi",
+              "name": "Ostracodermi",
+              "commonName": "Armored Jawless Fish",
+              "rank": "grade",
+              "taxonId": "txn:64117",
+              "firstAppearance": 485,
+              "lastAppearance": 359,
+              "extinct": true,
+              "children": [
+                {
+                  "id": "heterostraci",
+                  "name": "Heterostraci",
+                  "commonName": "Heterostracans",
+                  "rank": "subclass",
+                  "taxonId": "txn:117957",
+                  "firstAppearance": 443,
+                  "lastAppearance": 378,
+                  "extinct": true,
+                  "children": []
+                },
+                {
+                  "id": "osteostraci",
+                  "name": "Osteostraci",
+                  "commonName": "Osteostracans",
+                  "rank": "subclass",
+                  "taxonId": "txn:117958",
+                  "firstAppearance": 435,
+                  "lastAppearance": 370,
+                  "extinct": true,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "cyclostomata",
+              "name": "Cyclostomata",
+              "commonName": "Lampreys & Hagfish",
+              "rank": "class",
+              "taxonId": "txn:69419",
+              "firstAppearance": 360,
+              "lastAppearance": 0,
+              "extinct": false,
+              "children": [
+                {
+                  "id": "petromyzontida",
+                  "name": "Petromyzontida",
+                  "commonName": "Lampreys",
+                  "rank": "order",
+                  "taxonId": "txn:117959",
+                  "firstAppearance": 360,
+                  "lastAppearance": 0,
+                  "extinct": false,
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "gnathostomata",
+          "name": "Gnathostomata",
+          "commonName": "Jawed Vertebrates",
+          "rank": "infraphylum",
+          "taxonId": "txn:35142",
+          "firstAppearance": 443,
+          "lastAppearance": 0,
+          "extinct": false,
+          "children": [
+            {
+              "id": "placodermi",
+              "name": "Placodermi",
+              "commonName": "Placoderms",
+              "rank": "class",
+              "taxonId": "txn:54562",
+              "firstAppearance": 443,
+              "lastAppearance": 358.9,
+              "extinct": true,
+              "children": [
+                {
+                  "id": "arthrodira",
+                  "name": "Arthrodira",
+                  "commonName": "Arthrodires",
+                  "rank": "order",
+                  "taxonId": "txn:117960",
+                  "firstAppearance": 419,
+                  "lastAppearance": 359,
+                  "extinct": true,
+                  "children": [
+                    {
+                      "id": "dunkleosteus",
+                      "name": "Dunkleosteus",
+                      "commonName": "Dunkleosteus",
+                      "rank": "genus",
+                      "taxonId": "txn:34369",
+                      "firstAppearance": 380,
+                      "lastAppearance": 359,
+                      "extinct": true,
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "chondrichthyes",
+              "name": "Chondrichthyes",
+              "commonName": "Cartilaginous Fish",
+              "rank": "class",
+              "taxonId": "txn:63052",
+              "firstAppearance": 420,
+              "lastAppearance": 0,
+              "extinct": false,
+              "children": [
+                {
+                  "id": "elasmobranchii",
+                  "name": "Elasmobranchii",
+                  "commonName": "Sharks & Rays",
+                  "rank": "subclass",
+                  "taxonId": "txn:54497",
+                  "firstAppearance": 409,
+                  "lastAppearance": 0,
+                  "extinct": false,
+                  "children": [
+                    {
+                      "id": "carcharocles",
+                      "name": "Otodus megalodon",
+                      "commonName": "Megalodon",
+                      "rank": "species",
+                      "taxonId": "txn:118110",
+                      "firstAppearance": 23,
+                      "lastAppearance": 3.6,
+                      "extinct": true,
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "id": "holocephali",
+                  "name": "Holocephali",
+                  "commonName": "Chimaeras",
+                  "rank": "subclass",
+                  "taxonId": "txn:89268",
+                  "firstAppearance": 358.9,
+                  "lastAppearance": 0,
+                  "extinct": false,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "acanthodii",
+              "name": "Acanthodii",
+              "commonName": "Spiny Sharks",
+              "rank": "class",
+              "taxonId": "txn:54657",
+              "firstAppearance": 443,
+              "lastAppearance": 252,
+              "extinct": true,
+              "children": []
+            },
+            {
+              "id": "osteichthyes",
+              "name": "Osteichthyes",
+              "commonName": "Bony Fish",
+              "rank": "superclass",
+              "taxonId": "txn:54572",
+              "firstAppearance": 425,
+              "lastAppearance": 0,
+              "extinct": false,
+              "children": [
+                {
+                  "id": "actinopterygii",
+                  "name": "Actinopterygii",
+                  "commonName": "Ray-finned Fish",
+                  "rank": "class",
+                  "taxonId": "txn:54969",
+                  "firstAppearance": 420,
+                  "lastAppearance": 0,
+                  "extinct": false,
+                  "children": [
+                    {
+                      "id": "teleostei",
+                      "name": "Teleostei",
+                      "commonName": "Teleosts",
+                      "rank": "infraclass",
+                      "taxonId": "txn:63027",
+                      "firstAppearance": 251.9,
+                      "lastAppearance": 0,
+                      "extinct": false,
+                      "children": [
+                        {
+                          "id": "salmoniformes",
+                          "name": "Salmoniformes",
+                          "commonName": "Salmon & Trout",
+                          "rank": "order",
+                          "taxonId": "txn:35521",
+                          "firstAppearance": 56,
+                          "lastAppearance": 0,
+                          "extinct": false,
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "sarcopterygii",
+                  "name": "Sarcopterygii",
+                  "commonName": "Lobe-finned Fish",
+                  "rank": "class",
+                  "taxonId": "txn:54783",
+                  "firstAppearance": 418,
+                  "lastAppearance": 0,
+                  "extinct": false,
+                  "children": [
+                    {
+                      "id": "coelacanthimorpha",
+                      "name": "Coelacanthimorpha",
+                      "commonName": "Coelacanths",
+                      "rank": "order",
+                      "taxonId": "txn:89195",
+                      "firstAppearance": 409,
+                      "lastAppearance": 0,
+                      "extinct": false,
+                      "children": []
+                    },
+                    {
+                      "id": "dipnoi",
+                      "name": "Dipnoi",
+                      "commonName": "Lungfish",
+                      "rank": "subclass",
+                      "taxonId": "txn:57639",
+                      "firstAppearance": 409,
+                      "lastAppearance": 0,
+                      "extinct": false,
+                      "children": []
+                    },
+                    {
+                      "id": "tetrapodomorpha",
+                      "name": "Tetrapodomorpha",
+                      "commonName": "Tetrapod Ancestors",
+                      "rank": "clade",
+                      "taxonId": "txn:63077",
+                      "firstAppearance": 392,
+                      "lastAppearance": 359,
+                      "extinct": true,
+                      "children": [
+                        {
+                          "id": "tiktaalik",
+                          "name": "Tiktaalik",
+                          "commonName": "Tiktaalik",
+                          "rank": "genus",
+                          "taxonId": "txn:130709",
+                          "firstAppearance": 375,
+                          "lastAppearance": 375,
+                          "extinct": true,
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "id": "tetrapoda",
+                      "name": "Tetrapoda",
+                      "commonName": "Tetrapods",
+                      "rank": "superclass",
+                      "taxonId": "txn:137279",
+                      "firstAppearance": 370,
+                      "lastAppearance": 0,
+                      "extinct": false,
+                      "children": [
+                        {
+                          "id": "amphibia",
+                          "name": "Amphibia",
+                          "commonName": "Amphibians",
+                          "rank": "class",
+                          "taxonId": "txn:36326",
+                          "firstAppearance": 350,
+                          "lastAppearance": 0,
+                          "extinct": false,
+                          "children": [
+                            {
+                              "id": "temnospondyli",
+                              "name": "Temnospondyli",
+                              "commonName": "Temnospondyls",
+                              "rank": "order",
+                              "taxonId": "txn:64075",
+                              "firstAppearance": 330,
+                              "lastAppearance": 120,
+                              "extinct": true,
+                              "children": []
+                            },
+                            {
+                              "id": "lissamphibia",
+                              "name": "Lissamphibia",
+                              "commonName": "Frogs & Salamanders",
+                              "rank": "subclass",
+                              "taxonId": "txn:67329",
+                              "firstAppearance": 250,
+                              "lastAppearance": 0,
+                              "extinct": false,
+                              "children": [
+                                {
+                                  "id": "anura",
+                                  "name": "Anura",
+                                  "commonName": "Frogs & Toads",
+                                  "rank": "order",
+                                  "taxonId": "txn:37427",
+                                  "firstAppearance": 190,
+                                  "lastAppearance": 0,
+                                  "extinct": false,
+                                  "children": []
+                                },
+                                {
+                                  "id": "caudata",
+                                  "name": "Caudata",
+                                  "commonName": "Salamanders",
+                                  "rank": "order",
+                                  "taxonId": "txn:37428",
+                                  "firstAppearance": 165,
+                                  "lastAppearance": 0,
+                                  "extinct": false,
+                                  "children": []
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": "amniota",
+                          "name": "Amniota",
+                          "commonName": "Amniotes",
+                          "rank": "clade",
+                          "taxonId": "txn:67216",
+                          "firstAppearance": 315,
+                          "lastAppearance": 0,
+                          "extinct": false,
+                          "children": [
+                            {
+                              "id": "synapsida",
+                              "name": "Synapsida",
+                              "commonName": "Synapsids",
+                              "rank": "class",
+                              "taxonId": "txn:67325",
+                              "firstAppearance": 315,
+                              "lastAppearance": 0,
+                              "extinct": false,
+                              "children": [
+                                {
+                                  "id": "pelycosauria",
+                                  "name": "Pelycosauria",
+                                  "commonName": "Pelycosaurs",
+                                  "rank": "order",
+                                  "taxonId": "txn:67327",
+                                  "firstAppearance": 308,
+                                  "lastAppearance": 260,
+                                  "extinct": true,
+                                  "children": [
+                                    {
+                                      "id": "dimetrodon",
+                                      "name": "Dimetrodon",
+                                      "commonName": "Dimetrodon",
+                                      "rank": "genus",
+                                      "taxonId": "txn:38903",
+                                      "firstAppearance": 295,
+                                      "lastAppearance": 272,
+                                      "extinct": true,
+                                      "children": []
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": "therapsida",
+                                  "name": "Therapsida",
+                                  "commonName": "Therapsids",
+                                  "rank": "order",
+                                  "taxonId": "txn:67328",
+                                  "firstAppearance": 275,
+                                  "lastAppearance": 0,
+                                  "extinct": false,
+                                  "children": [
+                                    {
+                                      "id": "dicynodontia",
+                                      "name": "Dicynodontia",
+                                      "commonName": "Dicynodonts",
+                                      "rank": "suborder",
+                                      "taxonId": "txn:38981",
+                                      "firstAppearance": 268,
+                                      "lastAppearance": 201,
+                                      "extinct": true,
+                                      "children": []
+                                    },
+                                    {
+                                      "id": "cynodontia",
+                                      "name": "Cynodontia",
+                                      "commonName": "Cynodonts",
+                                      "rank": "suborder",
+                                      "taxonId": "txn:67330",
+                                      "firstAppearance": 260,
+                                      "lastAppearance": 0,
+                                      "extinct": false,
+                                      "children": [
+                                        {
+                                          "id": "mammalia",
+                                          "name": "Mammalia",
+                                          "commonName": "Mammals",
+                                          "rank": "class",
+                                          "taxonId": "txn:36651",
+                                          "firstAppearance": 225,
+                                          "lastAppearance": 0,
+                                          "extinct": false,
+                                          "children": [
+                                            {
+                                              "id": "monotremata",
+                                              "name": "Monotremata",
+                                              "commonName": "Monotremes",
+                                              "rank": "order",
+                                              "taxonId": "txn:39733",
+                                              "firstAppearance": 120,
+                                              "lastAppearance": 0,
+                                              "extinct": false,
+                                              "children": []
+                                            },
+                                            {
+                                              "id": "marsupialia",
+                                              "name": "Marsupialia",
+                                              "commonName": "Marsupials",
+                                              "rank": "infraclass",
+                                              "taxonId": "txn:41409",
+                                              "firstAppearance": 110,
+                                              "lastAppearance": 0,
+                                              "extinct": false,
+                                              "children": [
+                                                {
+                                                  "id": "diprotodontia",
+                                                  "name": "Diprotodontia",
+                                                  "commonName": "Kangaroos & Wombats",
+                                                  "rank": "order",
+                                                  "taxonId": "txn:40587",
+                                                  "firstAppearance": 28,
+                                                  "lastAppearance": 0,
+                                                  "extinct": false,
+                                                  "children": []
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "id": "placentalia",
+                                              "name": "Placentalia",
+                                              "commonName": "Placental Mammals",
+                                              "rank": "infraclass",
+                                              "taxonId": "txn:40210",
+                                              "firstAppearance": 100,
+                                              "lastAppearance": 0,
+                                              "extinct": false,
+                                              "children": [
+                                                {
+                                                  "id": "carnivora",
+                                                  "name": "Carnivora",
+                                                  "commonName": "Carnivorans",
+                                                  "rank": "order",
+                                                  "taxonId": "txn:36985",
+                                                  "firstAppearance": 56,
+                                                  "lastAppearance": 0,
+                                                  "extinct": false,
+                                                  "children": [
+                                                    {
+                                                      "id": "felidae",
+                                                      "name": "Felidae",
+                                                      "commonName": "Cats",
+                                                      "rank": "family",
+                                                      "taxonId": "txn:41046",
+                                                      "firstAppearance": 30,
+                                                      "lastAppearance": 0,
+                                                      "extinct": false,
+                                                      "children": [
+                                                        {
+                                                          "id": "smilodon",
+                                                          "name": "Smilodon",
+                                                          "commonName": "Saber-toothed Cat",
+                                                          "rank": "genus",
+                                                          "taxonId": "txn:41047",
+                                                          "firstAppearance": 2.5,
+                                                          "lastAppearance": 0.01,
+                                                          "extinct": true,
+                                                          "children": []
+                                                        }
+                                                      ]
+                                                    },
+                                                    {
+                                                      "id": "canidae",
+                                                      "name": "Canidae",
+                                                      "commonName": "Dogs & Wolves",
+                                                      "rank": "family",
+                                                      "taxonId": "txn:41234",
+                                                      "firstAppearance": 40,
+                                                      "lastAppearance": 0,
+                                                      "extinct": false,
+                                                      "children": []
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  "id": "cetacea",
+                                                  "name": "Cetacea",
+                                                  "commonName": "Whales & Dolphins",
+                                                  "rank": "order",
+                                                  "taxonId": "txn:36652",
+                                                  "firstAppearance": 53,
+                                                  "lastAppearance": 0,
+                                                  "extinct": false,
+                                                  "children": [
+                                                    {
+                                                      "id": "basilosauridae",
+                                                      "name": "Basilosauridae",
+                                                      "commonName": "Basilosaurids",
+                                                      "rank": "family",
+                                                      "taxonId": "txn:53282",
+                                                      "firstAppearance": 41,
+                                                      "lastAppearance": 34,
+                                                      "extinct": true,
+                                                      "children": []
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  "id": "primates",
+                                                  "name": "Primates",
+                                                  "commonName": "Primates",
+                                                  "rank": "order",
+                                                  "taxonId": "txn:40700",
+                                                  "firstAppearance": 66,
+                                                  "lastAppearance": 0,
+                                                  "extinct": false,
+                                                  "children": [
+                                                    {
+                                                      "id": "hominidae",
+                                                      "name": "Hominidae",
+                                                      "commonName": "Great Apes & Humans",
+                                                      "rank": "family",
+                                                      "taxonId": "txn:40841",
+                                                      "firstAppearance": 20,
+                                                      "lastAppearance": 0,
+                                                      "extinct": false,
+                                                      "children": [
+                                                        {
+                                                          "id": "homo",
+                                                          "name": "Homo",
+                                                          "commonName": "Humans & Relatives",
+                                                          "rank": "genus",
+                                                          "taxonId": "txn:40842",
+                                                          "firstAppearance": 2.8,
+                                                          "lastAppearance": 0,
+                                                          "extinct": false,
+                                                          "children": [
+                                                            {
+                                                              "id": "homo_sapiens",
+                                                              "name": "Homo sapiens",
+                                                              "commonName": "Modern Humans",
+                                                              "rank": "species",
+                                                              "taxonId": "txn:83088",
+                                                              "firstAppearance": 0.3,
+                                                              "lastAppearance": 0,
+                                                              "extinct": false,
+                                                              "children": []
+                                                            },
+                                                            {
+                                                              "id": "homo_neanderthalensis",
+                                                              "name": "Homo neanderthalensis",
+                                                              "commonName": "Neanderthals",
+                                                              "rank": "species",
+                                                              "taxonId": "txn:83089",
+                                                              "firstAppearance": 0.4,
+                                                              "lastAppearance": 0.04,
+                                                              "extinct": true,
+                                                              "children": []
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  "id": "proboscidea",
+                                                  "name": "Proboscidea",
+                                                  "commonName": "Elephants & Relatives",
+                                                  "rank": "order",
+                                                  "taxonId": "txn:43261",
+                                                  "firstAppearance": 56,
+                                                  "lastAppearance": 0,
+                                                  "extinct": false,
+                                                  "children": [
+                                                    {
+                                                      "id": "mammuthus",
+                                                      "name": "Mammuthus",
+                                                      "commonName": "Mammoths",
+                                                      "rank": "genus",
+                                                      "taxonId": "txn:43262",
+                                                      "firstAppearance": 5,
+                                                      "lastAppearance": 0.004,
+                                                      "extinct": true,
+                                                      "children": []
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  "id": "chiroptera",
+                                                  "name": "Chiroptera",
+                                                  "commonName": "Bats",
+                                                  "rank": "order",
+                                                  "taxonId": "txn:40667",
+                                                  "firstAppearance": 52,
+                                                  "lastAppearance": 0,
+                                                  "extinct": false,
+                                                  "children": []
+                                                },
+                                                {
+                                                  "id": "rodentia",
+                                                  "name": "Rodentia",
+                                                  "commonName": "Rodents",
+                                                  "rank": "order",
+                                                  "taxonId": "txn:41367",
+                                                  "firstAppearance": 56,
+                                                  "lastAppearance": 0,
+                                                  "extinct": false,
+                                                  "children": []
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "id": "sauropsida",
+                              "name": "Sauropsida",
+                              "commonName": "Reptiles & Birds",
+                              "rank": "class",
+                              "taxonId": "txn:67326",
+                              "firstAppearance": 312,
+                              "lastAppearance": 0,
+                              "extinct": false,
+                              "children": [
+                                {
+                                  "id": "testudines",
+                                  "name": "Testudines",
+                                  "commonName": "Turtles & Tortoises",
+                                  "rank": "order",
+                                  "taxonId": "txn:37661",
+                                  "firstAppearance": 220,
+                                  "lastAppearance": 0,
+                                  "extinct": false,
+                                  "children": []
+                                },
+                                {
+                                  "id": "ichthyosauria",
+                                  "name": "Ichthyosauria",
+                                  "commonName": "Ichthyosaurs",
+                                  "rank": "order",
+                                  "taxonId": "txn:38118",
+                                  "firstAppearance": 250,
+                                  "lastAppearance": 90,
+                                  "extinct": true,
+                                  "children": [
+                                    {
+                                      "id": "ichthyosaurus",
+                                      "name": "Ichthyosaurus",
+                                      "commonName": "Ichthyosaurus",
+                                      "rank": "genus",
+                                      "taxonId": "txn:38119",
+                                      "firstAppearance": 200,
+                                      "lastAppearance": 190,
+                                      "extinct": true,
+                                      "children": []
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": "plesiosauria",
+                                  "name": "Plesiosauria",
+                                  "commonName": "Plesiosaurs",
+                                  "rank": "order",
+                                  "taxonId": "txn:38141",
+                                  "firstAppearance": 228,
+                                  "lastAppearance": 66,
+                                  "extinct": true,
+                                  "children": [
+                                    {
+                                      "id": "elasmosauridae",
+                                      "name": "Elasmosauridae",
+                                      "commonName": "Elasmosaurs",
+                                      "rank": "family",
+                                      "taxonId": "txn:38177",
+                                      "firstAppearance": 130,
+                                      "lastAppearance": 66,
+                                      "extinct": true,
+                                      "children": []
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": "lepidosauria",
+                                  "name": "Lepidosauria",
+                                  "commonName": "Lizards & Snakes",
+                                  "rank": "superorder",
+                                  "taxonId": "txn:37808",
+                                  "firstAppearance": 240,
+                                  "lastAppearance": 0,
+                                  "extinct": false,
+                                  "children": [
+                                    {
+                                      "id": "squamata",
+                                      "name": "Squamata",
+                                      "commonName": "Lizards & Snakes",
+                                      "rank": "order",
+                                      "taxonId": "txn:37809",
+                                      "firstAppearance": 201.4,
+                                      "lastAppearance": 0,
+                                      "extinct": false,
+                                      "children": []
+                                    },
+                                    {
+                                      "id": "mosasauridae",
+                                      "name": "Mosasauridae",
+                                      "commonName": "Mosasaurs",
+                                      "rank": "family",
+                                      "taxonId": "txn:38045",
+                                      "firstAppearance": 101,
+                                      "lastAppearance": 66,
+                                      "extinct": true,
+                                      "children": []
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": "archosauria",
+                                  "name": "Archosauria",
+                                  "commonName": "Archosaurs",
+                                  "rank": "infraclass",
+                                  "taxonId": "txn:38596",
+                                  "firstAppearance": 250,
+                                  "lastAppearance": 0,
+                                  "extinct": false,
+                                  "children": [
+                                    {
+                                      "id": "crocodylomorpha",
+                                      "name": "Crocodylomorpha",
+                                      "commonName": "Crocodilians",
+                                      "rank": "superorder",
+                                      "taxonId": "txn:53181",
+                                      "firstAppearance": 228,
+                                      "lastAppearance": 0,
+                                      "extinct": false,
+                                      "children": []
+                                    },
+                                    {
+                                      "id": "pterosauria",
+                                      "name": "Pterosauria",
+                                      "commonName": "Pterosaurs",
+                                      "rank": "order",
+                                      "taxonId": "txn:38480",
+                                      "firstAppearance": 228,
+                                      "lastAppearance": 66,
+                                      "extinct": true,
+                                      "children": [
+                                        {
+                                          "id": "pteranodontidae",
+                                          "name": "Pteranodontidae",
+                                          "commonName": "Pteranodons",
+                                          "rank": "family",
+                                          "taxonId": "txn:38481",
+                                          "firstAppearance": 86,
+                                          "lastAppearance": 72,
+                                          "extinct": true,
+                                          "children": []
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": "dinosauria",
+                                      "name": "Dinosauria",
+                                      "commonName": "Dinosaurs",
+                                      "rank": "superorder",
+                                      "taxonId": "txn:52777",
+                                      "firstAppearance": 233,
+                                      "lastAppearance": 0,
+                                      "extinct": false,
+                                      "children": [
+                                        {
+                                          "id": "ornithischia",
+                                          "name": "Ornithischia",
+                                          "commonName": "Ornithischians",
+                                          "rank": "order",
+                                          "taxonId": "txn:52776",
+                                          "firstAppearance": 228,
+                                          "lastAppearance": 66,
+                                          "extinct": true,
+                                          "children": [
+                                            {
+                                              "id": "stegosauria",
+                                              "name": "Stegosauria",
+                                              "commonName": "Stegosaurs",
+                                              "rank": "suborder",
+                                              "taxonId": "txn:52783",
+                                              "firstAppearance": 170,
+                                              "lastAppearance": 140,
+                                              "extinct": true,
+                                              "children": []
+                                            },
+                                            {
+                                              "id": "ankylosauria",
+                                              "name": "Ankylosauria",
+                                              "commonName": "Ankylosaurs",
+                                              "rank": "suborder",
+                                              "taxonId": "txn:52790",
+                                              "firstAppearance": 170,
+                                              "lastAppearance": 66,
+                                              "extinct": true,
+                                              "children": [
+                                                {
+                                                  "id": "ankylosaurus",
+                                                  "name": "Ankylosaurus",
+                                                  "commonName": "Ankylosaurus",
+                                                  "rank": "genus",
+                                                  "taxonId": "txn:52791",
+                                                  "firstAppearance": 68,
+                                                  "lastAppearance": 66,
+                                                  "extinct": true,
+                                                  "children": []
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "id": "ceratopsia",
+                                              "name": "Ceratopsia",
+                                              "commonName": "Ceratopsians",
+                                              "rank": "suborder",
+                                              "taxonId": "txn:52796",
+                                              "firstAppearance": 161,
+                                              "lastAppearance": 66,
+                                              "extinct": true,
+                                              "children": [
+                                                {
+                                                  "id": "triceratops",
+                                                  "name": "Triceratops",
+                                                  "commonName": "Triceratops",
+                                                  "rank": "genus",
+                                                  "taxonId": "txn:52798",
+                                                  "firstAppearance": 68,
+                                                  "lastAppearance": 66,
+                                                  "extinct": true,
+                                                  "children": []
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "id": "hadrosauridae",
+                                              "name": "Hadrosauridae",
+                                              "commonName": "Duck-billed Dinosaurs",
+                                              "rank": "family",
+                                              "taxonId": "txn:52804",
+                                              "firstAppearance": 100,
+                                              "lastAppearance": 66,
+                                              "extinct": true,
+                                              "children": [
+                                                {
+                                                  "id": "edmontosaurus",
+                                                  "name": "Edmontosaurus",
+                                                  "commonName": "Edmontosaurus",
+                                                  "rank": "genus",
+                                                  "taxonId": "txn:52805",
+                                                  "firstAppearance": 73,
+                                                  "lastAppearance": 66,
+                                                  "extinct": true,
+                                                  "children": []
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "id": "saurischia",
+                                          "name": "Saurischia",
+                                          "commonName": "Saurischians",
+                                          "rank": "order",
+                                          "taxonId": "txn:52775",
+                                          "firstAppearance": 233,
+                                          "lastAppearance": 0,
+                                          "extinct": false,
+                                          "children": [
+                                            {
+                                              "id": "sauropodomorpha",
+                                              "name": "Sauropodomorpha",
+                                              "commonName": "Sauropods",
+                                              "rank": "suborder",
+                                              "taxonId": "txn:52834",
+                                              "firstAppearance": 228,
+                                              "lastAppearance": 66,
+                                              "extinct": true,
+                                              "children": [
+                                                {
+                                                  "id": "brachiosauridae",
+                                                  "name": "Brachiosauridae",
+                                                  "commonName": "Brachiosaurs",
+                                                  "rank": "family",
+                                                  "taxonId": "txn:52835",
+                                                  "firstAppearance": 165,
+                                                  "lastAppearance": 145,
+                                                  "extinct": true,
+                                                  "children": []
+                                                },
+                                                {
+                                                  "id": "diplodocidae",
+                                                  "name": "Diplodocidae",
+                                                  "commonName": "Diplodocids",
+                                                  "rank": "family",
+                                                  "taxonId": "txn:52841",
+                                                  "firstAppearance": 155,
+                                                  "lastAppearance": 145,
+                                                  "extinct": true,
+                                                  "children": []
+                                                },
+                                                {
+                                                  "id": "titanosauria",
+                                                  "name": "Titanosauria",
+                                                  "commonName": "Titanosaurs",
+                                                  "rank": "clade",
+                                                  "taxonId": "txn:52868",
+                                                  "firstAppearance": 145,
+                                                  "lastAppearance": 66,
+                                                  "extinct": true,
+                                                  "children": []
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "id": "theropoda",
+                                              "name": "Theropoda",
+                                              "commonName": "Theropods",
+                                              "rank": "suborder",
+                                              "taxonId": "txn:52859",
+                                              "firstAppearance": 228,
+                                              "lastAppearance": 0,
+                                              "extinct": false,
+                                              "children": [
+                                                {
+                                                  "id": "tyrannosauridae",
+                                                  "name": "Tyrannosauridae",
+                                                  "commonName": "Tyrannosaurs",
+                                                  "rank": "family",
+                                                  "taxonId": "txn:38602",
+                                                  "firstAppearance": 83,
+                                                  "lastAppearance": 66,
+                                                  "extinct": true,
+                                                  "children": [
+                                                    {
+                                                      "id": "tyrannosaurus",
+                                                      "name": "Tyrannosaurus rex",
+                                                      "commonName": "T. rex",
+                                                      "rank": "species",
+                                                      "taxonId": "txn:38603",
+                                                      "firstAppearance": 68,
+                                                      "lastAppearance": 66,
+                                                      "extinct": true,
+                                                      "children": []
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  "id": "spinosauridae",
+                                                  "name": "Spinosauridae",
+                                                  "commonName": "Spinosaurids",
+                                                  "rank": "family",
+                                                  "taxonId": "txn:52860",
+                                                  "firstAppearance": 139,
+                                                  "lastAppearance": 93,
+                                                  "extinct": true,
+                                                  "children": [
+                                                    {
+                                                      "id": "spinosaurus",
+                                                      "name": "Spinosaurus",
+                                                      "commonName": "Spinosaurus",
+                                                      "rank": "genus",
+                                                      "taxonId": "txn:52861",
+                                                      "firstAppearance": 112,
+                                                      "lastAppearance": 93,
+                                                      "extinct": true,
+                                                      "children": []
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  "id": "dromaeosauridae",
+                                                  "name": "Dromaeosauridae",
+                                                  "commonName": "Raptors",
+                                                  "rank": "family",
+                                                  "taxonId": "txn:38595",
+                                                  "firstAppearance": 145,
+                                                  "lastAppearance": 66,
+                                                  "extinct": true,
+                                                  "children": [
+                                                    {
+                                                      "id": "velociraptor",
+                                                      "name": "Velociraptor",
+                                                      "commonName": "Velociraptor",
+                                                      "rank": "genus",
+                                                      "taxonId": "txn:38598",
+                                                      "firstAppearance": 75,
+                                                      "lastAppearance": 71,
+                                                      "extinct": true,
+                                                      "children": []
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  "id": "aves",
+                                                  "name": "Aves",
+                                                  "commonName": "Birds",
+                                                  "rank": "class",
+                                                  "taxonId": "txn:36622",
+                                                  "firstAppearance": 150,
+                                                  "lastAppearance": 0,
+                                                  "extinct": false,
+                                                  "children": [
+                                                    {
+                                                      "id": "archaeopteryx",
+                                                      "name": "Archaeopteryx",
+                                                      "commonName": "Archaeopteryx",
+                                                      "rank": "genus",
+                                                      "taxonId": "txn:36623",
+                                                      "firstAppearance": 150,
+                                                      "lastAppearance": 148,
+                                                      "extinct": true,
+                                                      "children": []
+                                                    },
+                                                    {
+                                                      "id": "neornithes",
+                                                      "name": "Neornithes",
+                                                      "commonName": "Modern Birds",
+                                                      "rank": "subclass",
+                                                      "taxonId": "txn:40033",
+                                                      "firstAppearance": 72,
+                                                      "lastAppearance": 0,
+                                                      "extinct": false,
+                                                      "children": [
+                                                        {
+                                                          "id": "phorusrhacidae",
+                                                          "name": "Phorusrhacidae",
+                                                          "commonName": "Terror Birds",
+                                                          "rank": "family",
+                                                          "taxonId": "txn:53564",
+                                                          "firstAppearance": 62,
+                                                          "lastAppearance": 1.8,
+                                                          "extinct": true,
+                                                          "children": []
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
