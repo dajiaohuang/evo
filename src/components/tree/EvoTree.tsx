@@ -36,19 +36,38 @@ export function EvoTree() {
     const svg = svgRef.current
     if (!svg) return
 
+    const width = svg.clientWidth || 340
+    const height = svg.clientHeight || 600
+
     svg.innerHTML = ''
 
     const root = d3.hierarchy(treeData as TreeNode)
-    const treeLayout = d3.tree<TreeNode>().nodeSize([160, 26])
+    const treeLayout = d3.tree<TreeNode>().nodeSize([80, 140])
     treeLayout(root)
 
+    const bounds = { x0: Infinity, y0: Infinity, x1: -Infinity, y1: -Infinity }
+    root.each((d) => {
+      if (d.x! < bounds.x0) bounds.x0 = d.x!
+      if (d.x! > bounds.x1) bounds.x1 = d.x!
+      if (d.y! < bounds.y0) bounds.y0 = d.y!
+      if (d.y! > bounds.y1) bounds.y1 = d.y!
+    })
+
+    const treeW = bounds.x1 - bounds.x0 || 1
+    const treeH = bounds.y1 - bounds.y0 || 1
+    const scaleX = (width - 24) / treeW
+    const scaleY = Math.min(1, (height - 32) / treeH)
+    const scale = Math.min(scaleX, scaleY, 1.2)
+    const offsetX = (width - treeW * scale) / 2 - bounds.x0 * scale
+    const offsetY = 16 - bounds.y0 * scale
+
     const g = d3.select(svg).append('g')
-      .attr('transform', 'translate(40, 20)')
+      .attr('transform', `translate(${offsetX},${offsetY}) scale(${scale})`)
 
     const zoom = d3.zoom<SVGSVGElement, unknown>()
-      .scaleExtent([0.2, 3])
+      .scaleExtent([0.1, 20])
       .on('zoom', (event) => {
-        g.attr('transform', `translate(${event.transform.x + 40}, ${event.transform.y + 20}) scale(${event.transform.k})`)
+        g.attr('transform', `translate(${event.transform.x + offsetX}, ${event.transform.y + offsetY}) scale(${event.transform.k * scale})`)
       })
 
     d3.select(svg).call(zoom)
@@ -64,8 +83,8 @@ export function EvoTree() {
         const sy = d.source.y!
         const tx = d.target.x!
         const ty = d.target.y!
-        const mx = (sx + tx) / 2
-        return `M${sx},${sy} C${mx},${sy} ${mx},${ty} ${tx},${ty}`
+        const my = (sy + ty) / 2
+        return `M${sx},${sy} C${sx},${my} ${tx},${my} ${tx},${ty}`
       })
       .attr('fill', 'none')
       .attr('stroke', (d) => {
@@ -94,13 +113,14 @@ export function EvoTree() {
           .attr('stroke', nodeSelected ? '#ffd700' : 'none')
           .attr('stroke-width', nodeSelected ? 2 : 0)
 
+        const label = (d.data.commonName || d.data.name).slice(0, 22)
         el.append('text')
-          .attr('dy', -8)
+          .attr('dy', -7)
           .attr('text-anchor', 'middle')
           .attr('fill', '#e6edf3')
-          .attr('font-size', 10)
+          .attr('font-size', 9)
           .attr('font-family', 'var(--font-sans)')
-          .text(d.data.commonName || d.data.name)
+          .text(label)
 
         if (d.data.extinct) {
           el.append('text')
@@ -130,7 +150,7 @@ export function EvoTree() {
       <div style={{
         position: 'absolute', top: 8, left: 12,
         fontSize: 11, color: 'var(--color-text-muted)',
-        zIndex: 10,
+        zIndex: 10, pointerEvents: 'none',
       }}>
         Tree of Life — {currentAge.toFixed(1)} Ma
       </div>
