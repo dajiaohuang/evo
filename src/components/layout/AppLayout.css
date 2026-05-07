@@ -1,0 +1,40 @@
+.app-layout {
+  display: grid;
+  grid-template-areas:
+    "tree map"
+    "details map"
+    "timeline timeline";
+  grid-template-columns: var(--details-width) 1fr;
+  grid-template-rows: 1fr 280px var(--timeline-height);
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+
+.app-layout__map {
+  grid-area: map;
+  position: relative;
+  overflow: hidden;
+  border-left: 1px solid var(--color-border);
+}
+
+.app-layout__tree {
+  grid-area: tree;
+  position: relative;
+  overflow: auto;
+  background: var(--color-surface);
+  border-bottom: 1px solid var(--color-border);
+}
+
+.app-layout__details {
+  grid-area: details;
+  overflow-y: auto;
+  background: var(--color-surface);
+}
+
+.app-layout__timeline {
+  grid-area: timeline;
+  border-top: 1px solid var(--color-border);
+  background: var(--color-surface-alt);
+  position: relative;
+}
