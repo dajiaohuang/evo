@@ -26,7 +26,8 @@ export function dataFiles() {
 }
 
 export function sha256(path) {
-  return createHash('sha256').update(readFileSync(join(rootDir, path))).digest('hex')
+  const canonicalJson = readFileSync(join(rootDir, path), 'utf8').replaceAll('\r\n', '\n')
+  return createHash('sha256').update(canonicalJson, 'utf8').digest('hex')
 }
 
 export function countTreeNodes(root) {
