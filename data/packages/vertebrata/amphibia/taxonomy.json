@@ -1,0 +1,28 @@
+{
+  "ontology": "data/navigation/atlas-ontology.json",
+  "rootEntityIds": [
+    "amphibia"
+  ],
+  "relationships": [
+    {
+      "id": "amphibia",
+      "parentId": "tetrapoda"
+    },
+    {
+      "id": "temnospondyli",
+      "parentId": "amphibia"
+    },
+    {
+      "id": "lissamphibia",
+      "parentId": "amphibia"
+    },
+    {
+      "id": "anura",
+      "parentId": "lissamphibia"
+    },
+    {
+      "id": "caudata",
+      "parentId": "lissamphibia"
+    }
+  ]
+}

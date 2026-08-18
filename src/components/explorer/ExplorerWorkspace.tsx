@@ -9,6 +9,7 @@ import { getEvolutionEvent, getEvolutionStory, getTaxonProfile } from '../../ser
 import { periods } from '../../services/geology'
 import { buildRouteHash, getFiniteRouteNumber, parseRouteHash } from '../../utils/routing'
 import { MAX_MAP_ZOOM, MIN_MAP_ZOOM } from '../../constants'
+import { loadPackageForEntity } from '../../data-client/staticDataClient'
 import { useI18n } from '../../i18n'
 import { GeoTimeline } from '../timeline/GeoTimeline'
 import { SpeciesDetail } from '../details/SpeciesDetail'
@@ -32,6 +33,7 @@ interface FlatNode {
   id: string
   name: string
   commonName?: string
+  commonNameZh?: string
   taxonId?: string
   firstAppearance: number
   lastAppearance: number
@@ -111,10 +113,10 @@ export function ExplorerWorkspace() {
     return nodes.filter((node) => (
       node.name.toLowerCase().includes(needle)
       || node.commonName?.toLowerCase().includes(needle)
-      || t(node.commonName ?? node.name).toLowerCase().includes(needle)
+      || node.commonNameZh?.toLowerCase().includes(needle)
       || getTaxonProfile(node.id)?.commonNameZh.includes(needle)
     )).slice(0, 8)
-  }, [nodes, query, t])
+  }, [nodes, query])
 
   useEffect(() => {
     const params = initialRoute.params
@@ -152,6 +154,10 @@ export function ExplorerWorkspace() {
   useEffect(() => {
     if (currentPeriod) void loadOccurrencesForInterval(currentPeriod)
   }, [currentPeriod, loadOccurrencesForInterval])
+
+  useEffect(() => {
+    if (selectedNodeId) void loadPackageForEntity(selectedNodeId).catch(() => undefined)
+  }, [selectedNodeId])
 
   useEffect(() => {
     const requestedId = initialRoute.params.get('occurrence')
@@ -260,7 +266,7 @@ export function ExplorerWorkspace() {
               >
                 <span className="taxon-node-dot" />
                 <span>
-                  <strong>{language === 'zh' ? (getTaxonProfile(node.id)?.commonNameZh ?? t(node.commonName ?? node.name)) : (node.commonName ?? node.name)}</strong>
+                  <strong>{language === 'zh' ? (getTaxonProfile(node.id)?.commonNameZh ?? node.commonNameZh ?? node.commonName ?? node.name) : (node.commonName ?? node.name)}</strong>
                   <small>{node.name}</small>
                 </span>
                 <i>→</i>
@@ -295,7 +301,7 @@ export function ExplorerWorkspace() {
         <div className="stage-toolbar">
           <div>
             <span className="stage-eyebrow">{t('Primary view')}</span>
-            <strong>{t(view === 'map' ? 'Paleogeographic distribution' : view === 'tree' ? 'Tree of life' : 'Sampling & diversity')}</strong>
+            <strong>{t(view === 'map' ? 'Fossil occurrence map' : view === 'tree' ? 'Tree of life' : 'Sampling & diversity')}</strong>
           </div>
           <div className="view-switcher" role="group" aria-label={t('Primary view')}>
             <button className={view === 'map' ? 'is-active' : ''} onClick={() => setView('map')}>{t('Map')}</button>

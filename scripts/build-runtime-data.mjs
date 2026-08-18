@@ -1,0 +1,350 @@
+import { createHash } from 'node:crypto'
+import { mkdirSync, readFileSync, readdirSync, rmSync, statSync, writeFileSync } from 'node:fs'
+import { dirname, join, relative, resolve, sep } from 'node:path'
+import { gzipSync } from 'node:zlib'
+import { strToU8, zipSync } from 'fflate'
+import { flattenTree, readJson, rootDir } from './data-lib.mjs'
+
+const args = process.argv.slice(2)
+const outputIndex = args.indexOf('--out')
+const requestedOutput = outputIndex >= 0 ? args[outputIndex + 1] : 'dist/data'
+if (!requestedOutput) throw new Error('--out requires a path')
+const outputRoot = resolve(rootDir, requestedOutput)
+const allowedRoots = [resolve(rootDir, 'dist/data'), resolve(rootDir, 'public/data')]
+if (!allowedRoots.some((allowed) => outputRoot === allowed || outputRoot.startsWith(`${allowed}${sep}`))) {
+  throw new Error(`Refusing to write runtime data outside dist/data or public/data: ${outputRoot}`)
+}
+
+const startedAt = Date.now()
+rmSync(outputRoot, { recursive: true, force: true })
+mkdirSync(outputRoot, { recursive: true })
+
+const sourceManifest = readJson('data/manifest.json')
+const registry = readJson('data/registry/package-registry.json')
+const entities = readJson('data/registry/entities/entities.json')
+const ontology = readJson('data/navigation/atlas-ontology.json')
+const timeScale = readJson('data/time-scale.json')
+const profiles = readJson('data/packages/mammalia/perissodactyla/profiles.json')
+const claims = readJson('data/evidence/claims.json')
+const references = readJson('data/references.json')
+const events = readJson('data/events.json')
+const stories = readJson('data/stories.json')
+const places = readJson('data/places.json')
+const media = readJson('data/media.json')
+const calibrations = readJson('data/packages/mammalia/perissodactyla/phylogeny/calibrations.json')
+const perissodactylPhylogeny = readJson('data/packages/mammalia/perissodactyla/phylogeny/hypothesis.json')
+const periodMetadata = readJson('data/period-map-metadata.json')
+const occurrenceSource = readJson('data/sources/pbdb-occurrence-bundle.json')
+const treeEvidence = readJson('data/tree/evidence.json')
+const packageById = new Map(registry.packages.map((entry) => [entry.id, entry]))
+const entityById = new Map(entities.map((entry) => [entry.id, entry]))
+const packageForPbdbTaxon = new Map(entities.flatMap((entry) => entry.externalIds.pbdb ? [[entry.externalIds.pbdb, entry.packageId]] : []))
+const files = new Map()
+
+function sha256(bytes) {
+  return createHash('sha256').update(bytes).digest('hex')
+}
+
+function jsonBytes(value, pretty = false) {
+  return Buffer.from(`${JSON.stringify(value, null, pretty ? 2 : 0)}\n`, 'utf8')
+}
+
+function write(relativePath, bytes) {
+  const normalized = relativePath.replaceAll('\\', '/')
+  const absolutePath = join(outputRoot, normalized)
+  mkdirSync(dirname(absolutePath), { recursive: true })
+  writeFileSync(absolutePath, bytes)
+  const record = { url: normalized, bytes: bytes.byteLength, sha256: sha256(bytes) }
+  files.set(normalized, record)
+  return record
+}
+
+function writeJson(relativePath, value, pretty = false) {
+  return write(relativePath, jsonBytes(value, pretty))
+}
+
+function writeGzipJson(relativePath, value) {
+  const source = jsonBytes(value)
+  const compressed = gzipSync(source, { level: 9, mtime: 0 })
+  return { ...write(relativePath, compressed), sourceBytes: source.byteLength, sourceSha256: sha256(source), encoding: 'gzip', mediaType: 'application/json' }
+}
+
+function filesBelow(directory) {
+  if (!statSafe(directory)?.isDirectory()) return []
+  return readdirSync(directory).flatMap((name) => {
+    const path = join(directory, name)
+    return statSync(path).isDirectory() ? filesBelow(path) : [path]
+  })
+}
+
+function statSafe(path) {
+  try { return statSync(path) } catch { return null }
+}
+
+function canonicalPackageBytes(packageEntry) {
+  const directory = join(rootDir, packageEntry.canonicalPath)
+  return filesBelow(directory).reduce((sum, path) => sum + statSync(path).size, 0)
+}
+
+function chunkRecords(records, targetSourceBytes = 6 * 1024 * 1024) {
+  const chunks = []
+  let current = []
+  let currentBytes = 2
+  for (const record of records) {
+    const bytes = Buffer.byteLength(JSON.stringify(record), 'utf8') + 1
+    if (current.length && currentBytes + bytes > targetSourceBytes) {
+      chunks.push(current)
+      current = []
+      currentBytes = 2
+    }
+    current.push(record)
+    currentBytes += bytes
+  }
+  if (current.length) chunks.push(current)
+  return chunks
+}
+
+function ownerForClaim(claim) {
+  const [kind, subjectId] = claim.subjectId.split(':')
+  if (kind === 'taxon') return entityById.get(subjectId)?.packageId ?? 'atlas-core'
+  const explicit = {
+    'plants-on-land': 'early-land-plants',
+    'angiosperm-expansion': 'angiospermae',
+    'c4-grassland-expansion': 'angiospermae',
+    'tetrapods-on-land': 'tetrapod-transition',
+    'dinosaur-radiation': 'dinosauria',
+    'perissodactyl-radiation': 'perissodactyla',
+    'eocene-oligocene-transition': 'perissodactyla',
+    'homo-dispersal': 'primates',
+  }
+  return explicit[subjectId] ?? 'atlas-core'
+}
+
+function ownerForStory(story) {
+  for (const step of story.steps) {
+    for (const entityId of step.taxonIds ?? []) {
+      const packageId = entityById.get(entityId)?.packageId
+      if (packageId && packageId !== 'atlas-core') return packageId
+    }
+  }
+  return 'atlas-core'
+}
+
+function coreSearchEntries() {
+  const entityEntries = entities.map((entity) => ({
+    id: entity.id,
+    kind: entity.entityType,
+    title: entity.names.scientific,
+    titleEn: entity.names.en,
+    titleZh: entity.names.zh,
+    packageId: entity.packageId,
+    route: `#/explore?taxon=${encodeURIComponent(entity.id)}&view=tree`,
+    terms: [entity.names.scientific, entity.names.en, entity.names.zh, entity.rank, ...entity.synonyms, ...Object.values(entity.externalIds)],
+  }))
+  const eventEntries = events.map((event) => ({ id: event.id, kind: 'event', title: event.title, titleZh: event.titleZh, route: `#/events?id=${event.id}`, terms: [event.title, event.titleZh, ...event.clades, ...event.regions] }))
+  const storyEntries = stories.map((story) => ({ id: story.id, kind: 'story', title: story.title, titleZh: story.titleZh, route: `#/stories?id=${story.id}`, terms: [story.title, story.titleZh, story.dek] }))
+  const placeEntries = places.map((place) => ({ id: place.code, kind: 'place', title: place.name, titleZh: place.nameZh, route: `#/lab?country=${place.code}`, terms: [place.code, place.name, place.nameZh] }))
+  const periodEntries = timeScale.units.filter((unit) => unit.itp === 'period').map((period) => ({ id: period.oid, kind: 'period', title: period.nam, titleZh: period.namZh, route: `#/explore?age=${((period.eag + period.lag) / 2).toFixed(1)}&view=diversity`, terms: [period.nam, period.namZh] }))
+  return [...entityEntries, ...eventEntries, ...storyEntries, ...placeEntries, ...periodEntries]
+}
+
+const core = {}
+core.entities = writeGzipJson('core/entity-index.json.gz', entities)
+core.packages = writeGzipJson('core/package-registry.json.gz', registry)
+core.navigation = writeGzipJson('core/navigation-tree.json.gz', ontology)
+core.geologicalTime = writeGzipJson('core/geological-time.json.gz', timeScale)
+core.search = writeGzipJson('core/search-index.json.gz', coreSearchEntries())
+core.references = writeGzipJson('core/references.json.gz', references)
+core.localeZh = writeGzipJson('core/locale-zh.json.gz', {
+  entities: Object.fromEntries(entities.map((entity) => [entity.id, entity.names.zh])),
+  packages: Object.fromEntries(registry.packages.map((entry) => [entry.id, entry.titleZh])),
+})
+
+const occurrencesByPackagePeriod = new Map()
+let occurrenceTotal = 0
+let unresolvedPackageAssignmentCount = 0
+for (const period of timeScale.units.filter((unit) => unit.itp === 'period')) {
+  const records = readJson(`data/fossils/${period.nam.toLowerCase()}.json`)
+  occurrenceTotal += records.length
+  for (const record of records) {
+    const packageId = record.packageId ?? packageForPbdbTaxon.get(record.tid) ?? 'atlas-core'
+    if (record.packageAssignmentStatus === 'unresolved' || (!record.packageId && !packageForPbdbTaxon.has(record.tid))) unresolvedPackageAssignmentCount += 1
+    const key = `${packageId}:${period.nam}`
+    if (!occurrencesByPackagePeriod.has(key)) occurrencesByPackagePeriod.set(key, [])
+    occurrencesByPackagePeriod.get(key).push(record)
+  }
+}
+
+const occurrenceManifest = {
+  schemaVersion: 3,
+  version: sourceManifest.datasetVersion,
+  source: occurrenceSource,
+  totalRecords: occurrenceTotal,
+  assignmentMethod: 'exact registry PBDB ID, then explicit PBDB higher-classification rules; unmatched records remain in atlas-core unresolved shards',
+  unresolvedPackageAssignmentCount,
+  periods: {},
+  packages: {},
+}
+
+for (const [key, records] of [...occurrencesByPackagePeriod].sort(([left], [right]) => left.localeCompare(right))) {
+  const separator = key.indexOf(':')
+  const packageId = key.slice(0, separator)
+  const period = key.slice(separator + 1)
+  const chunks = chunkRecords(records)
+  const shardRecords = chunks.map((chunk, index) => {
+    const name = `${period.toLowerCase()}-${String(index).padStart(3, '0')}.json.gz`
+    const file = writeGzipJson(`occurrences/${packageId}/${name}`, chunk)
+    if (file.bytes > 8 * 1024 * 1024) throw new Error(`${file.url} exceeds the 8 MiB shard hard limit`)
+    return { ...file, records: chunk.length, period, packageId }
+  })
+  occurrenceManifest.packages[packageId] ??= []
+  occurrenceManifest.packages[packageId].push(...shardRecords)
+  occurrenceManifest.periods[period] ??= []
+  occurrenceManifest.periods[period].push(...shardRecords)
+}
+
+const packageRuntimeManifests = []
+for (const packageEntry of registry.packages) {
+  const packageId = packageEntry.id
+  const packageEntities = entities.filter((entity) => entity.packageId === packageId)
+  const packageProfiles = profiles.filter((profile) => entityById.get(profile.treeNodeId)?.packageId === packageId)
+  const packageClaims = claims.filter((claim) => ownerForClaim(claim) === packageId)
+  const packageEvents = events.filter((event) => packageClaims.some((claim) => claim.subjectId === `event:${event.id}`))
+  const packageStories = stories.filter((story) => ownerForStory(story) === packageId)
+  const packageMedia = media.filter((asset) => entityById.get(asset.taxonId)?.packageId === packageId)
+  const packageReferenceIds = new Set([
+    ...packageEntities.flatMap((entity) => entity.referenceIds),
+    ...packageProfiles.flatMap((profile) => profile.referenceIds),
+    ...packageClaims.flatMap((claim) => claim.referenceLinks.map((link) => link.referenceId)),
+    ...packageEvents.flatMap((event) => event.referenceIds),
+    ...packageStories.flatMap((story) => story.steps.flatMap((step) => step.referenceIds)),
+  ])
+  const payloadFiles = {}
+  payloadFiles.identity = writeGzipJson(`packages/${packageId}/identity.json.gz`, packageEntities)
+  if (packageProfiles.length) payloadFiles.profiles = writeGzipJson(`packages/${packageId}/profiles.json.gz`, packageProfiles)
+  if (packageClaims.length) payloadFiles.claims = writeGzipJson(`packages/${packageId}/claims.json.gz`, packageClaims)
+  if (packageEvents.length) payloadFiles.events = writeGzipJson(`packages/${packageId}/events.json.gz`, packageEvents)
+  if (packageStories.length) payloadFiles.stories = writeGzipJson(`packages/${packageId}/stories.json.gz`, packageStories)
+  if (packageMedia.length) payloadFiles.media = writeGzipJson(`packages/${packageId}/media.json.gz`, packageMedia)
+  const packageReferences = references.filter((reference) => packageReferenceIds.has(reference.id))
+  payloadFiles.ranges = writeGzipJson(`packages/${packageId}/ranges.json.gz`, packageEntities.map((entity) => ({
+    id: `range:${entity.id}`,
+    entityId: entity.id,
+    ...entity.temporalRange,
+    confidence: entity.evidenceStatus === 'strong' ? 'high' : entity.evidenceStatus === 'contested' ? 'contested' : 'medium',
+    referenceIds: entity.referenceIds,
+  })))
+  payloadFiles.localeZh = writeGzipJson(`packages/${packageId}/locale-zh.json.gz`, {
+    language: 'zh',
+    version: sourceManifest.datasetVersion,
+    strings: Object.fromEntries(packageEntities.map((entity) => [`entity.${entity.id}.name`, entity.names.zh])),
+  })
+  payloadFiles.search = writeGzipJson(`package-search-index/${packageId}.json.gz`, [
+    ...packageEntities.map((entity) => ({ id: entity.id, kind: entity.entityType, title: entity.names.scientific, titleEn: entity.names.en, titleZh: entity.names.zh, route: `#/explore?taxon=${encodeURIComponent(entity.id)}&view=tree`, terms: [entity.names.scientific, entity.names.en, entity.names.zh, ...entity.synonyms, entity.definition.en, entity.definition.zh] })),
+    ...packageProfiles.map((profile) => ({ id: profile.id, kind: 'profile', title: profile.scientificName, titleEn: profile.commonName, titleZh: profile.commonNameZh, route: `#/taxa?id=${encodeURIComponent(profile.id)}`, terms: [profile.overview, profile.evidenceSummary, ...profile.traits] })),
+    ...packageClaims.map((claim) => ({ id: claim.id, kind: 'claim', title: claim.statement, route: '#/data', terms: [claim.statement, claim.confidenceRationale, claim.claimType] })),
+    ...packageReferences.map((reference) => ({ id: reference.id, kind: 'reference', title: reference.title, route: '#/data', terms: [reference.title, reference.authors, reference.doi, reference.url].filter(Boolean) })),
+  ])
+  if (packageId === 'perissodactyla') {
+    payloadFiles.phylogeny = writeGzipJson(`packages/${packageId}/phylogeny.json.gz`, perissodactylPhylogeny)
+    payloadFiles.calibrations = writeGzipJson(`packages/${packageId}/calibrations.json.gz`, calibrations)
+  }
+  const occurrenceShards = occurrenceManifest.packages[packageId] ?? []
+  const knowledgeBytes = Object.values(payloadFiles).reduce((sum, file) => sum + file.bytes, 0)
+  const occurrenceBytes = occurrenceShards.reduce((sum, file) => sum + file.bytes, 0)
+  const manifest = {
+    schemaVersion: 3,
+    packageId,
+    version: sourceManifest.datasetVersion,
+    title: packageEntry.title,
+    titleZh: packageEntry.titleZh,
+    maturity: packageEntry.maturity,
+    entityCount: packageEntities.length,
+    profileCount: packageProfiles.length,
+    claimCount: packageClaims.length,
+    occurrenceCount: occurrenceShards.reduce((sum, file) => sum + file.records, 0),
+    metrics: {
+      canonicalRawBytes: canonicalPackageBytes(packageEntry),
+      runtimeKnowledgeCompressedBytes: knowledgeBytes,
+      numberOfShards: occurrenceShards.length,
+      largestShardBytes: Math.max(0, ...occurrenceShards.map((file) => file.bytes)),
+      initialLoadImpactBytes: 0,
+      packageLoadTime: 'client-measured',
+      offlineCacheSizeBytes: knowledgeBytes + occurrenceBytes,
+    },
+    files: payloadFiles,
+    occurrences: occurrenceShards,
+  }
+  const manifestFile = writeJson(`packages/${packageId}/manifest.json`, manifest, true)
+  packageRuntimeManifests.push({ ...manifest, manifest: manifestFile })
+
+  const zipEntries = {
+    'manifest.json': strToU8(`${JSON.stringify(manifest, null, 2)}\n`),
+  }
+  for (const file of [...Object.values(payloadFiles), ...occurrenceShards]) {
+    zipEntries[file.url] = new Uint8Array(readFileSync(join(outputRoot, file.url)))
+  }
+  const archive = zipSync(zipEntries, { level: 0 })
+  write(`downloads/${packageId}-${sourceManifest.datasetVersion}.zip`, archive)
+}
+
+writeJson('occurrences/manifest.json', occurrenceManifest, true)
+writeJson('maps/manifest.json', {
+  schemaVersion: 3,
+  snapshots: periodMetadata.map((period) => ({
+    period: period.name,
+    status: period.mapLayerStatus,
+    description: period.description,
+    descriptionZh: period.descriptionZh,
+    geometry: period.mapLayerStatus === 'available' ? 'unmapped' : 'withheld-pending-provenance',
+  })),
+  provenancePolicy: 'Geometry is published only after source, license, model, processing script and checksum are complete.',
+}, true)
+
+const coreCompressedBytes = Object.values(core).reduce((sum, file) => sum + file.bytes, 0)
+const current = {
+  schemaVersion: 3,
+  datasetVersion: sourceManifest.datasetVersion,
+  appVersion: sourceManifest.appVersion,
+  publication: 'GitHub Pages static data platform',
+  core,
+  packages: {
+    count: packageRuntimeManifests.length,
+    registry: core.packages,
+    manifestTemplate: 'packages/{packageId}/manifest.json',
+  },
+  occurrences: {
+    manifest: { url: 'occurrences/manifest.json' },
+    totalRecords: occurrenceTotal,
+    unresolvedPackageAssignmentCount,
+  },
+  maps: { manifest: { url: 'maps/manifest.json' } },
+  downloads: { template: `downloads/{packageId}-${sourceManifest.datasetVersion}.zip` },
+  budgets: {
+    coreCompressedBytes,
+    coreLimitBytes: 5 * 1024 * 1024,
+    shardLimitBytes: 8 * 1024 * 1024,
+    pagesLimitBytes: 650 * 1024 * 1024,
+  },
+  evidenceBoundary: {
+    entityRegistry: `${entities.length}/${entities.length}`,
+    chineseNamesPresent: `${entities.filter((entity) => entity.names.zh).length}/${entities.length}`,
+    packageOwnership: `${entities.filter((entity) => entity.packageId).length}/${entities.length}`,
+    goldScientificPackages: `${registry.packages.filter((entry) => entry.id !== 'atlas-core' && entry.maturity === 'gold-v2').length}/${registry.packages.filter((entry) => entry.id !== 'atlas-core').length}`,
+    scientificPeerReview: 'Only records explicitly marked expert-reviewed should be interpreted as human scientific review.',
+  },
+}
+writeJson('current.json', current, true)
+
+const duplicateGroups = new Map()
+for (const file of files.values()) {
+  if (!duplicateGroups.has(file.sha256)) duplicateGroups.set(file.sha256, [])
+  duplicateGroups.get(file.sha256).push(file.url)
+}
+const duplicatedPayloads = [...duplicateGroups.values()].filter((group) => group.length > 1)
+if (duplicatedPayloads.length) {
+  throw new Error(`Runtime contains duplicate byte-identical files: ${JSON.stringify(duplicatedPayloads.slice(0, 5))}`)
+}
+
+const elapsedMs = Date.now() - startedAt
+console.log(`Built ${relative(rootDir, outputRoot).replaceAll('\\', '/')} with ${files.size} files, ${occurrenceTotal.toLocaleString()} occurrences and ${packageRuntimeManifests.length} packages in ${(elapsedMs / 1000).toFixed(2)}s.`)

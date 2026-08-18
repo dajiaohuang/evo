@@ -20,6 +20,8 @@ describe('catalog', () => {
 
   it('searches geological intervals and curated place index entries', () => {
     expect(searchCatalog('Jurassic').some((result) => result.kind === 'interval')).toBe(true)
+    expect(searchCatalog('侏罗纪').some((result) => result.kind === 'interval' && result.id === 'jurassic')).toBe(true)
+    expect(searchCatalog('哺乳动物').some((result) => result.kind === 'tree' && result.id === 'mammalia')).toBe(true)
     expect(searchCatalog('中国').some((result) => result.kind === 'place' && result.id === 'CN')).toBe(true)
   })
 })

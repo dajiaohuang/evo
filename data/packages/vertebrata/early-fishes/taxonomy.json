@@ -1,0 +1,54 @@
+{
+  "ontology": "data/navigation/atlas-ontology.json",
+  "rootEntityIds": [
+    "agnatha",
+    "placodermi",
+    "acanthodii"
+  ],
+  "relationships": [
+    {
+      "id": "agnatha",
+      "parentId": "vertebrata"
+    },
+    {
+      "id": "conodonta",
+      "parentId": "agnatha"
+    },
+    {
+      "id": "ostracodermi",
+      "parentId": "agnatha"
+    },
+    {
+      "id": "heterostraci",
+      "parentId": "ostracodermi"
+    },
+    {
+      "id": "osteostraci",
+      "parentId": "ostracodermi"
+    },
+    {
+      "id": "cyclostomata",
+      "parentId": "agnatha"
+    },
+    {
+      "id": "petromyzontida",
+      "parentId": "cyclostomata"
+    },
+    {
+      "id": "placodermi",
+      "parentId": "gnathostomata"
+    },
+    {
+      "id": "arthrodira",
+      "parentId": "placodermi"
+    },
+    {
+      "id": "dunkleosteus",
+      "parentId": "arthrodira"
+    },
+    {
+      "id": "acanthodii",
+      "parentId": "gnathostomata"
+    }
+  ]
+}

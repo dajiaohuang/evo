@@ -1,0 +1,34 @@
+{
+  "ontology": "data/navigation/atlas-ontology.json",
+  "rootEntityIds": [
+    "ichthyosauria",
+    "plesiosauria",
+    "pterosauria"
+  ],
+  "relationships": [
+    {
+      "id": "ichthyosauria",
+      "parentId": "sauropsida"
+    },
+    {
+      "id": "ichthyosaurus",
+      "parentId": "ichthyosauria"
+    },
+    {
+      "id": "plesiosauria",
+      "parentId": "sauropsida"
+    },
+    {
+      "id": "elasmosauridae",
+      "parentId": "plesiosauria"
+    },
+    {
+      "id": "pterosauria",
+      "parentId": "archosauria"
+    },
+    {
+      "id": "pteranodontidae",
+      "parentId": "pterosauria"
+    }
+  ]
+}

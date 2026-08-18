@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://dajiaohuang.github.io/evo/schemas/translation.schema.json",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["language", "version", "strings"],
+  "properties": {
+    "language": { "type": "string", "pattern": "^[a-z]{2}(?:-[A-Z]{2})?$" },
+    "version": { "type": "string", "minLength": 1 },
+    "strings": { "type": "object", "additionalProperties": { "type": "string" } }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "ontology": "data/navigation/atlas-ontology.json",
+  "rootEntityIds": [
+    "sarcopterygii",
+    "tetrapodomorpha"
+  ],
+  "relationships": [
+    {
+      "id": "sarcopterygii",
+      "parentId": "osteichthyes"
+    },
+    {
+      "id": "coelacanthimorpha",
+      "parentId": "sarcopterygii"
+    },
+    {
+      "id": "dipnoi",
+      "parentId": "sarcopterygii"
+    },
+    {
+      "id": "tetrapodomorpha",
+      "parentId": "sarcopterygii"
+    },
+    {
+      "id": "tiktaalik",
+      "parentId": "tetrapodomorpha"
+    }
+  ]
+}

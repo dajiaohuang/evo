@@ -1,0 +1,39 @@
+{
+  "ontology": "data/navigation/atlas-ontology.json",
+  "rootEntityIds": [
+    "plantae",
+    "bryophyta",
+    "lycophyta",
+    "pteridophyta"
+  ],
+  "relationships": [
+    {
+      "id": "plantae",
+      "parentId": "life"
+    },
+    {
+      "id": "bryophyta",
+      "parentId": "plantae"
+    },
+    {
+      "id": "lycophyta",
+      "parentId": "plantae"
+    },
+    {
+      "id": "lepidodendron",
+      "parentId": "lycophyta"
+    },
+    {
+      "id": "pteridophyta",
+      "parentId": "plantae"
+    },
+    {
+      "id": "equisetopsida",
+      "parentId": "pteridophyta"
+    },
+    {
+      "id": "filicopsida",
+      "parentId": "pteridophyta"
+    }
+  ]
+}

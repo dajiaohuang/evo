@@ -1,4 +1,28 @@
-import { describe, expect, it } from 'vitest'
+import { describe, expect, it, vi } from 'vitest'
+
+vi.mock('../data-client/staticDataClient', () => {
+  const periods = ['Cambrian', 'Ordovician', 'Silurian', 'Devonian', 'Carboniferous', 'Permian', 'Triassic', 'Jurassic', 'Cretaceous', 'Paleogene', 'Neogene', 'Quaternary']
+  const files = Object.fromEntries(periods.map((period) => [period, [{ url: `test/${period.toLowerCase()}.json.gz`, records: 0, packageId: 'test', period }]]))
+  const loadRuntimeFile = async (file: { url: string }) => {
+    if (file.url.includes('cambrian')) return (await import('../../data/fossils/cambrian.json')).default
+    if (file.url.includes('ordovician')) return (await import('../../data/fossils/ordovician.json')).default
+    if (file.url.includes('silurian')) return (await import('../../data/fossils/silurian.json')).default
+    if (file.url.includes('devonian')) return (await import('../../data/fossils/devonian.json')).default
+    if (file.url.includes('carboniferous')) return (await import('../../data/fossils/carboniferous.json')).default
+    if (file.url.includes('permian')) return (await import('../../data/fossils/permian.json')).default
+    if (file.url.includes('triassic')) return (await import('../../data/fossils/triassic.json')).default
+    if (file.url.includes('jurassic')) return (await import('../../data/fossils/jurassic.json')).default
+    if (file.url.includes('cretaceous')) return (await import('../../data/fossils/cretaceous.json')).default
+    if (file.url.includes('paleogene')) return (await import('../../data/fossils/paleogene.json')).default
+    if (file.url.includes('neogene')) return (await import('../../data/fossils/neogene.json')).default
+    if (file.url.includes('quaternary')) return (await import('../../data/fossils/quaternary.json')).default
+    return []
+  }
+  return {
+    loadOccurrenceManifest: async () => ({ periods: files }),
+    loadRuntimeFile,
+  }
+})
 import { getFossilsByInterval, getFossilsByTaxon, getLoadedFossilTotal } from './localFossils'
 
 describe('local fossil chunks', () => {

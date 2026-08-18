@@ -1,0 +1,25 @@
+{
+  "ontology": "data/navigation/atlas-ontology.json",
+  "rootEntityIds": [
+    "testudines",
+    "lepidosauria"
+  ],
+  "relationships": [
+    {
+      "id": "testudines",
+      "parentId": "sauropsida"
+    },
+    {
+      "id": "lepidosauria",
+      "parentId": "sauropsida"
+    },
+    {
+      "id": "squamata",
+      "parentId": "lepidosauria"
+    },
+    {
+      "id": "mosasauridae",
+      "parentId": "lepidosauria"
+    }
+  ]
+}

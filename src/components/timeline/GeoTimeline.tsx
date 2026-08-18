@@ -133,7 +133,7 @@ export function GeoTimeline() {
       <div className="timeline-scale-switch" role="group" aria-label={t('Timeline scale')}>
         <button className={activeScaleMode === 'earth' ? 'is-active' : ''} onClick={() => setScaleMode('earth')}>4.567 Ga</button>
         <button className={activeScaleMode === 'phanerozoic' ? 'is-active' : ''} onClick={() => {
-          if (currentAge > PHANEROZOIC_TOTAL_MA) setTime(PHANEROZOIC_TOTAL_MA)
+          if (currentAge >= PHANEROZOIC_TOTAL_MA) setTime(PHANEROZOIC_TOTAL_MA - 0.001)
           setScaleMode('phanerozoic')
         }}>538.8 Ma</button>
       </div>
@@ -169,7 +169,7 @@ export function GeoTimeline() {
                   fontSize={10}
                   fontFamily="var(--font-sans)"
                 >
-                  {t(eon.nam)}
+                  {language === 'zh' ? (eon.namZh ?? eon.nam) : eon.nam}
                 </text>
               )}
             </g>

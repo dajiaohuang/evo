@@ -1,0 +1,76 @@
+{
+  "ontology": "data/navigation/atlas-ontology.json",
+  "rootEntityIds": [
+    "perissodactyla"
+  ],
+  "relationships": [
+    {
+      "id": "perissodactyla",
+      "parentId": "placentalia"
+    },
+    {
+      "id": "brontotheriidae",
+      "parentId": "perissodactyla"
+    },
+    {
+      "id": "hippomorpha",
+      "parentId": "perissodactyla"
+    },
+    {
+      "id": "palaeotherium",
+      "parentId": "hippomorpha"
+    },
+    {
+      "id": "equidae",
+      "parentId": "hippomorpha"
+    },
+    {
+      "id": "anchitherium",
+      "parentId": "equidae"
+    },
+    {
+      "id": "hipparionini",
+      "parentId": "equidae"
+    },
+    {
+      "id": "ancylopoda",
+      "parentId": "perissodactyla"
+    },
+    {
+      "id": "chalicotherium",
+      "parentId": "ancylopoda"
+    },
+    {
+      "id": "ceratomorpha",
+      "parentId": "perissodactyla"
+    },
+    {
+      "id": "tapiroidea",
+      "parentId": "ceratomorpha"
+    },
+    {
+      "id": "rhinocerotoidea",
+      "parentId": "ceratomorpha"
+    },
+    {
+      "id": "metamynodon",
+      "parentId": "rhinocerotoidea"
+    },
+    {
+      "id": "paraceratherium",
+      "parentId": "rhinocerotoidea"
+    },
+    {
+      "id": "rhinocerotidae",
+      "parentId": "rhinocerotoidea"
+    },
+    {
+      "id": "teleoceras",
+      "parentId": "rhinocerotidae"
+    },
+    {
+      "id": "coelodonta",
+      "parentId": "rhinocerotidae"
+    }
+  ]
+}

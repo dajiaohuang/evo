@@ -1,0 +1,24 @@
+{
+  "ontology": "data/navigation/atlas-ontology.json",
+  "rootEntityIds": [
+    "chondrichthyes"
+  ],
+  "relationships": [
+    {
+      "id": "chondrichthyes",
+      "parentId": "gnathostomata"
+    },
+    {
+      "id": "elasmobranchii",
+      "parentId": "chondrichthyes"
+    },
+    {
+      "id": "carcharocles",
+      "parentId": "elasmobranchii"
+    },
+    {
+      "id": "holocephali",
+      "parentId": "chondrichthyes"
+    }
+  ]
+}

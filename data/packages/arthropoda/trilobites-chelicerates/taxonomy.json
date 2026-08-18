@@ -1,0 +1,33 @@
+{
+  "ontology": "data/navigation/atlas-ontology.json",
+  "rootEntityIds": [
+    "trilobita",
+    "chelicerata"
+  ],
+  "relationships": [
+    {
+      "id": "trilobita",
+      "parentId": "arthropoda"
+    },
+    {
+      "id": "phacopida",
+      "parentId": "trilobita"
+    },
+    {
+      "id": "ptychopariida",
+      "parentId": "trilobita"
+    },
+    {
+      "id": "corynexochida",
+      "parentId": "trilobita"
+    },
+    {
+      "id": "chelicerata",
+      "parentId": "arthropoda"
+    },
+    {
+      "id": "eurypterida",
+      "parentId": "chelicerata"
+    }
+  ]
+}

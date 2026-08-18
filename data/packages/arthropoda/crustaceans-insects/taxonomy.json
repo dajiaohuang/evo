@@ -1,0 +1,46 @@
+{
+  "ontology": "data/navigation/atlas-ontology.json",
+  "rootEntityIds": [
+    "arthropoda",
+    "crustacea",
+    "insecta"
+  ],
+  "relationships": [
+    {
+      "id": "arthropoda",
+      "parentId": "invertebrata"
+    },
+    {
+      "id": "insecta",
+      "parentId": "arthropoda"
+    },
+    {
+      "id": "odonata",
+      "parentId": "insecta"
+    },
+    {
+      "id": "meganeura",
+      "parentId": "odonata"
+    },
+    {
+      "id": "coleoptera",
+      "parentId": "insecta"
+    },
+    {
+      "id": "hymenoptera",
+      "parentId": "insecta"
+    },
+    {
+      "id": "crustacea",
+      "parentId": "arthropoda"
+    },
+    {
+      "id": "ostracoda",
+      "parentId": "crustacea"
+    },
+    {
+      "id": "malacostraca",
+      "parentId": "crustacea"
+    }
+  ]
+}

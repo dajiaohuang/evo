@@ -1,0 +1,57 @@
+{
+  "ontology": "data/navigation/atlas-ontology.json",
+  "rootEntityIds": [
+    "life",
+    "invertebrata",
+    "vertebrata",
+    "gnathostomata",
+    "osteichthyes",
+    "tetrapoda",
+    "amniota",
+    "sauropsida",
+    "archosauria",
+    "placentalia"
+  ],
+  "relationships": [
+    {
+      "id": "life",
+      "parentId": null
+    },
+    {
+      "id": "invertebrata",
+      "parentId": "life"
+    },
+    {
+      "id": "vertebrata",
+      "parentId": "life"
+    },
+    {
+      "id": "gnathostomata",
+      "parentId": "vertebrata"
+    },
+    {
+      "id": "osteichthyes",
+      "parentId": "gnathostomata"
+    },
+    {
+      "id": "tetrapoda",
+      "parentId": "sarcopterygii"
+    },
+    {
+      "id": "amniota",
+      "parentId": "tetrapoda"
+    },
+    {
+      "id": "placentalia",
+      "parentId": "mammalia"
+    },
+    {
+      "id": "sauropsida",
+      "parentId": "amniota"
+    },
+    {
+      "id": "archosauria",
+      "parentId": "sauropsida"
+    }
+  ]
+}

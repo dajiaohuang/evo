@@ -1,13 +1,12 @@
-import profilesData from '../../data/taxa/profiles.json'
+import profilesData from '../../data/packages/mammalia/perissodactyla/profiles.json'
 import eventsData from '../../data/events.json'
 import storiesData from '../../data/stories.json'
 import referencesData from '../../data/references.json'
 import treeData from '../../data/navigation/atlas-ontology.json'
 import placesData from '../../data/places.json'
-import perissodactylCalibrationsData from '../../data/phylogenies/perissodactyla-calibrations.json'
-import perissodactylHypothesisData from '../../data/phylogenies/perissodactyla-hypothesis.json'
+import perissodactylCalibrationsData from '../../data/packages/mammalia/perissodactyla/phylogeny/calibrations.json'
+import perissodactylHypothesisData from '../../data/packages/mammalia/perissodactyla/phylogeny/hypothesis.json'
 import mediaData from '../../data/media.json'
-import evidenceClaimsData from '../../data/evidence/claims.json'
 import type {
   EvolutionEvent,
   EvolutionStory,
@@ -17,7 +16,6 @@ import type {
   PlaceRecord,
   DivergenceEstimate,
   MediaAsset,
-  EvidenceClaim,
 } from '../types/catalog'
 import type { TreeNode } from '../types/tree'
 import { periods } from './geology'
@@ -29,7 +27,6 @@ export const references = referencesData as ReferenceRecord[]
 export const places = placesData as PlaceRecord[]
 export const perissodactylCalibrations = perissodactylCalibrationsData.estimates as DivergenceEstimate[]
 export const mediaAssets = mediaData as MediaAsset[]
-export const evidenceClaims = evidenceClaimsData as EvidenceClaim[]
 
 const taxonById = new Map(taxonProfiles.map((profile) => [profile.id, profile]))
 const eventById = new Map(evolutionEvents.map((event) => [event.id, event]))
@@ -57,10 +54,6 @@ export function getReferences(ids: string[]): ReferenceRecord[] {
 
 export function getMediaForTaxon(taxonId: string): MediaAsset[] {
   return mediaAssets.filter((asset) => asset.taxonId === taxonId)
-}
-
-export function getClaimsForSubject(subjectId: string): EvidenceClaim[] {
-  return evidenceClaims.filter((claim) => claim.subjectId === subjectId)
 }
 
 function flattenTree(node: TreeNode, output: TreeNode[] = []): TreeNode[] {
@@ -184,27 +177,31 @@ export function searchCatalog(rawQuery: string, limit = 16): SearchResult[] {
 
   for (const node of treeNodes) {
     if (taxonById.has(node.id)) continue
-    const title = `${node.commonName ?? ''} ${node.name}`
-    const resultScore = score(searchable(title), query)
+    const keywords = `${node.name} ${node.commonName ?? ''} ${node.commonNameZh ?? ''}`
+    const resultScore = score(searchable(keywords), query)
     if (resultScore > 0) candidates.push({
       id: node.id,
       kind: 'tree',
       title: node.commonName ?? node.name,
+      titleZh: node.commonNameZh ?? node.commonName ?? node.name,
       subtitle: `${node.name} · tree node`,
-      keywords: title,
+      subtitleZh: `${node.name} · 树节点`,
+      keywords,
       route: `#/explore?taxon=${node.id}&age=${Math.min(node.firstAppearance, 4567).toFixed(1)}&view=tree`,
       score: resultScore,
     })
   }
 
   for (const period of periods) {
-    const keywords = `${period.name} ${period.abr} ${period.era} ${period.eon} ${period.description}`
+    const keywords = `${period.name} ${period.nameZh} ${period.abr} ${period.era} ${period.eraZh} ${period.eon} ${period.eonZh} ${period.description} ${period.descriptionZh}`
     const resultScore = score(searchable(keywords), query)
     if (resultScore > 0) candidates.push({
       id: period.name.toLowerCase(),
       kind: 'interval',
       title: period.name,
+      titleZh: period.nameZh,
       subtitle: `${period.era} · ${period.eag}–${period.lag} Ma`,
+      subtitleZh: `${period.eraZh} · ${period.eag}–${period.lag} Ma`,
       keywords,
       route: `#/explore?age=${((period.eag + period.lag) / 2).toFixed(1)}&view=diversity`,
       score: resultScore + 1,

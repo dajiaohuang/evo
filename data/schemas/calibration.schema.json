@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://dajiaohuang.github.io/evo/schemas/calibration.schema.json",
+  "type": "object",
+  "required": ["id", "cladePackageId", "topologyHypothesisId", "mappingStatus", "medianMa", "referenceId"],
+  "properties": {
+    "id": { "type": "string", "minLength": 1 },
+    "cladePackageId": { "type": "string", "minLength": 1 },
+    "topologyHypothesisId": { "type": "string", "minLength": 1 },
+    "mappingStatus": { "enum": ["mapped", "unmapped"] },
+    "medianMa": { "type": "number", "minimum": 0 },
+    "referenceId": { "type": "string", "minLength": 1 }
+  }
+}

@@ -1,7 +1,10 @@
 import Ajv2020 from 'ajv/dist/2020.js'
 import { collectDataSummary, flattenTree, readJson } from './data-lib.mjs'
+import { validatePlatform } from './platform-validation-lib.mjs'
+import { assignOccurrencePackage } from './occurrence-package-map.mjs'
 
 const failures = []
+failures.push(...validatePlatform('all'))
 const check = (condition, message) => { if (!condition) failures.push(message) }
 const unique = (items) => new Set(items).size === items.length
 const sameValues = (left, right) => JSON.stringify(left) === JSON.stringify(right)
@@ -11,19 +14,23 @@ const timeScale = readJson('data/time-scale.json')
 const references = readJson('data/references.json')
 const places = readJson('data/places.json')
 const media = readJson('data/media.json')
-const calibrations = readJson('data/phylogenies/perissodactyla-calibrations.json')
-const phylogenyPackage = readJson('data/phylogenies/perissodactyla-hypothesis.json')
+const calibrations = readJson('data/packages/mammalia/perissodactyla/phylogeny/calibrations.json')
+const phylogenyPackage = readJson('data/packages/mammalia/perissodactyla/phylogeny/hypothesis.json')
 const events = readJson('data/events.json')
 const stories = readJson('data/stories.json')
-const profiles = readJson('data/taxa/profiles.json')
+const profiles = readJson('data/packages/mammalia/perissodactyla/profiles.json')
 const ontology = readJson('data/navigation/atlas-ontology.json')
 const treeEvidence = readJson('data/tree/evidence.json')
 const claims = readJson('data/evidence/claims.json')
+const claimRationalesZh = readJson('data/evidence/claim-rationales.zh.json')
 const editorialDecisions = readJson('data/evidence/editorial-decisions.json')
 const taxonIndex = readJson('data/indexes/taxon-period-index.json')
 const sourceMetadata = readJson('data/sources/pbdb-occurrence-bundle.json')
 const manifest = readJson('data/manifest.json')
 const packageMetadata = readJson('package.json')
+const packageIds = new Set(readJson('data/registry/package-registry.json').packages.map((entry) => entry.id))
+const registryEntities = readJson('data/registry/entities/entities.json')
+const exactPackageByTaxonId = new Map(registryEntities.flatMap((entity) => entity.externalIds.pbdb ? [[entity.externalIds.pbdb, entity.packageId]] : []))
 
 const ajv = new Ajv2020({ allErrors: true, strict: true })
 const validators = {
@@ -57,11 +64,14 @@ check(sameValues([...periodUnits.map((unit) => unit.nam)].sort(), [...periodMeta
 for (const metadata of periodMetadata) {
   check(!['eag', 'lag', 'color', 'era', 'eon'].some((key) => Object.hasOwn(metadata, key)), `${metadata.name}: map metadata must not duplicate time-scale facts`)
   check(['available', 'withheld-pending-provenance'].includes(metadata.mapLayerStatus), `${metadata.name}: invalid mapLayerStatus`)
+  check(typeof metadata.descriptionZh === 'string' && metadata.descriptionZh.length > 0, `${metadata.name}: Chinese description is required`)
 }
+for (const unit of timeScale.units) check(typeof unit.namZh === 'string' && unit.namZh.length > 0, `${unit.oid}: Chinese name is required`)
 
 check(manifest.appVersion === packageMetadata.version, 'manifest appVersion must match package.json version')
 check(manifest.datasetVersion !== manifest.appVersion, 'datasetVersion and appVersion must remain separate identifiers')
-check(manifest.commitSha === 'unreleased' || /^[0-9a-f]{40}$/.test(manifest.commitSha), 'manifest commitSha must be a full Git SHA or unreleased')
+check(manifest.schemaVersion === 3, 'manifest schemaVersion must be 3')
+check(!Object.hasOwn(manifest, 'commitSha'), 'dataset manifest must not contain deployment-specific commit metadata')
 for (let index = 0; index < periodUnits.length; index += 1) {
   const period = periodUnits[index]
   check(period.eag > period.lag, `${period.nam}: older bound must exceed younger bound`)
@@ -150,6 +160,7 @@ function inspectTree(root, label) {
 
 const ontologyTree = inspectTree(ontology, 'navigation ontology')
 const phylogenyTree = inspectTree(phylogenyPackage.root, 'Perissodactyla hypothesis')
+for (const node of ontologyTree.nodes) check(typeof node.commonNameZh === 'string' && node.commonNameZh.length > 0, `navigation node ${node.id}: Chinese common name is required`)
 check(phylogenyPackage.id === calibrations.topologyHypothesisId, 'calibration package must name the loaded topology hypothesis')
 check(phylogenyPackage.scopeNodeId === phylogenyPackage.root.id, 'phylogeny scopeNodeId must match its root')
 check(treeEvidence.navigationModel?.toLowerCase().includes('navigation ontology'), 'tree evidence must describe a navigation ontology, not assert a topology model')
@@ -168,11 +179,15 @@ for (const asset of media) {
 
 for (const claim of claims) {
   check(claim.claimKind === 'scientific', `claim ${claim.id}: editorial decisions belong in editorial-decisions.json`)
+  check(claim.confidenceRationale !== 'Confidence reflects the cited source and the stated scope; locator precision is retained where available.', `claim ${claim.id}: confidence rationale must be claim-specific`)
   const [kind, subjectId] = claim.subjectId.split(':')
   check(kind === 'event' ? eventIds.has(subjectId) : kind === 'taxon' && profileIds.has(subjectId), `claim ${claim.id}: unknown subject ${claim.subjectId}`)
   for (const link of claim.referenceLinks) validateReferences(`claim ${claim.id}`, [link.referenceId])
   if (kind === 'event') check(claim.referenceLinks.some((link) => referencesById.get(link.referenceId)?.type === 'paper'), `claim ${claim.id}: event claims require a domain paper`)
 }
+check(unique(claims.map((claim) => claim.confidenceRationale)), 'claim confidence rationales must not be reused across claims')
+check(sameValues(Object.keys(claimRationalesZh).sort(), claims.map((claim) => claim.id).sort()), 'Chinese claim rationale IDs must exactly match evidence claim IDs')
+for (const [id, rationale] of Object.entries(claimRationalesZh)) check(typeof rationale === 'string' && rationale.length >= 20, `${id}: Chinese confidence rationale is required`)
 for (const decision of editorialDecisions) {
   const [kind, subjectId] = decision.subjectId.split(':')
   check(kind === 'event' ? eventIds.has(subjectId) : kind === 'taxon' && profileIds.has(subjectId), `editorial decision ${decision.id}: unknown subject ${decision.subjectId}`)
@@ -206,10 +221,13 @@ const countryCounts = new Map()
 let fossilCount = 0
 let recordsWithReferences = 0
 let recordsWithCoordinatePrecision = 0
+let mappedPackageRecords = 0
+let unresolvedPackageRecords = 0
 for (const period of periodUnits) {
   const metadata = periodMetadata.find((record) => record.name === period.nam)
   if (!metadata) continue
   const fossils = readJson(`data/fossils/${period.nam.toLowerCase()}.json`)
+  check(sourceMetadata.periodLimits?.[period.nam] === fossils.length, `${period.nam}: PBDB source period limit is stale`)
   fossilsByPeriod.set(period.nam, fossils)
   fossilCount += fossils.length
   for (const occurrence of fossils) {
@@ -224,6 +242,15 @@ for (const period of periodUnits) {
     const hasPaleoLat = Number.isFinite(occurrence.paleolat)
     check(hasPaleoLng === hasPaleoLat, `${period.nam}/${occurrence.oid}: paleocoordinates must be a complete pair`)
     if (hasPaleoLng && hasPaleoLat) check(Boolean(occurrence.paleoModelId), `${period.nam}/${occurrence.oid}: reconstructed coordinates require a model label`)
+    check(packageIds.has(occurrence.packageId), `${period.nam}/${occurrence.oid}: occurrence package is missing or unknown`)
+    check(Boolean(occurrence.packageAssignmentStatus && occurrence.packageAssignmentBasis), `${period.nam}/${occurrence.oid}: occurrence package assignment provenance is incomplete`)
+    const expectedAssignment = assignOccurrencePackage(occurrence, exactPackageByTaxonId)
+    check(occurrence.packageId === expectedAssignment.packageId && occurrence.packageAssignmentStatus === expectedAssignment.packageAssignmentStatus && occurrence.packageAssignmentBasis === expectedAssignment.packageAssignmentBasis, `${period.nam}/${occurrence.oid}: occurrence package assignment is stale`)
+    if (occurrence.packageAssignmentStatus === 'mapped') mappedPackageRecords += 1
+    if (occurrence.packageAssignmentStatus === 'unresolved') {
+      unresolvedPackageRecords += 1
+      check(occurrence.packageId === 'atlas-core', `${period.nam}/${occurrence.oid}: unresolved occurrence must remain in atlas-core`)
+    }
   }
 }
 check(unique(allOccurrenceIds), 'occurrence IDs must be globally unique across period files')
@@ -261,6 +288,9 @@ check(sourceMetadata.samplingMethod === 'bounded non-random API-prefix sample', 
 check(sourceMetadata.randomized === false && sourceMetadata.selectionProbabilityKnown === false && sourceMetadata.sourceTotalsRetained === false, 'PBDB bundle must disclose randomization, selection probability and source-total limitations')
 check(sourceMetadata.order === 'id' && sourceMetadata.queryTemplate.includes('order=id'), 'PBDB bundle must record deterministic API ordering')
 check(sourceMetadata.limitations.some((note) => /not (?:a )?random or representative sample/i.test(note)), 'PBDB bundle must explicitly state that the prefix is not representative')
+check(sourceMetadata.packageAssignment?.mappedRecords === mappedPackageRecords, 'PBDB package-assignment mapped count is stale')
+check(sourceMetadata.packageAssignment?.unresolvedRecords === unresolvedPackageRecords, 'PBDB package-assignment unresolved count is stale')
+check(sourceMetadata.packageAssignment?.rules === 'scripts/occurrence-package-map.mjs', 'PBDB package-assignment rules path is missing')
 
 const palaeotherium = profiles.find((profile) => profile.id === 'palaeotherium')
 check(Boolean(palaeotherium) && palaeotherium.lastAppearance >= 33 && palaeotherium.lastAppearance <= 34.2, 'Palaeotherium curated LAD must remain near the Eocene–Oligocene transition')

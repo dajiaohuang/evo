@@ -2,6 +2,7 @@ export interface TreeNode {
   id: string;
   name: string;
   commonName?: string;
+  commonNameZh?: string;
   taxonId?: string;
   firstAppearance: number;
   lastAppearance: number;

@@ -8,9 +8,10 @@ import {
   getTaxonProfile,
   getMediaForTaxon,
   getCalibrationsForTaxon,
-  getClaimsForSubject,
   taxonProfiles,
 } from '../../services/catalog'
+import { getClaimsForSubject } from '../../services/evidence'
+import { loadPackageForEntity } from '../../data-client/staticDataClient'
 import { useAppStore } from '../../store'
 import type { AppRoute } from '../../utils/routing'
 import type { ConfidenceLevel, EvidenceClaim, ReferenceRecord } from '../../types'
@@ -59,7 +60,7 @@ function ReferenceList({ records }: { records: ReferenceRecord[] }) {
 }
 
 function ClaimLedger({ claims }: { claims: EvidenceClaim[] }) {
-  const { t } = useI18n()
+  const { language, t } = useI18n()
   if (!claims.length) return <p>{t('No claim-level evidence record is bundled for this subject.')}</p>
   return (
     <div className="statement-grid">
@@ -68,7 +69,8 @@ function ClaimLedger({ claims }: { claims: EvidenceClaim[] }) {
           <span>{String(index + 1).padStart(2, '0')}</span>
           <p><strong>{t(claim.claimType.replace('-', ' '))}</strong><br />{t(claim.statement)}</p>
           <small>{t(claim.confidence)} · {claim.referenceLinks.map((link) => `${link.relation}: ${link.referenceId}`).join(' · ')}</small>
-          <small>{t(claim.confidenceRationale)}</small>
+          <small>{language === 'zh' ? claim.confidenceRationaleZh : claim.confidenceRationale}</small>
+          <small>{t('Reviewed {date} by {reviewer} against {version}', { date: claim.reviewedAt, reviewer: claim.reviewedBy, version: claim.reviewedAgainstReferenceVersion })}</small>
         </article>
       ))}
     </div>
@@ -139,6 +141,10 @@ export function TaxonPage({ id, onNavigate }: CatalogPageProps) {
   useEffect(() => {
     if (profile?.pbdbTaxonId) void loadOccurrences(profile.pbdbTaxonId)
   }, [loadOccurrences, profile?.pbdbTaxonId])
+
+  useEffect(() => {
+    if (id) void loadPackageForEntity(id).catch(() => undefined)
+  }, [id])
 
   if (!profile) return <TaxonDirectory onNavigate={onNavigate} />
   const midpoint = (profile.firstAppearance + profile.lastAppearance) / 2

@@ -1,0 +1,24 @@
+{
+  "ontology": "data/navigation/atlas-ontology.json",
+  "rootEntityIds": [
+    "carnivora"
+  ],
+  "relationships": [
+    {
+      "id": "carnivora",
+      "parentId": "placentalia"
+    },
+    {
+      "id": "felidae",
+      "parentId": "carnivora"
+    },
+    {
+      "id": "smilodon",
+      "parentId": "felidae"
+    },
+    {
+      "id": "canidae",
+      "parentId": "carnivora"
+    }
+  ]
+}

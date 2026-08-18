@@ -1,6 +1,7 @@
 export interface GeoInterval {
   oid: string;
   nam: string;
+  namZh?: string;
   itp: 'eon' | 'era' | 'period' | 'epoch' | 'age';
   lag: number;
   eag: number;
@@ -11,15 +12,19 @@ export interface GeoInterval {
 
 export interface PeriodInfo {
   name: string;
+  nameZh: string;
   abr: string;
   era: string;
+  eraZh: string;
   eon: string;
+  eonZh: string;
   lag: number;
   eag: number;
   color: string;
   keyContinentalConfig: string;
   mapLayerStatus: 'available' | 'withheld-pending-provenance';
   description: string;
+  descriptionZh: string;
 }
 
 export const PHANEROZOIC_START = 538.8;

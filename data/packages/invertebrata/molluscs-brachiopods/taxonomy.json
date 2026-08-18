@@ -1,0 +1,82 @@
+{
+  "ontology": "data/navigation/atlas-ontology.json",
+  "rootEntityIds": [
+    "mollusca",
+    "brachiopoda",
+    "graptolithina"
+  ],
+  "relationships": [
+    {
+      "id": "brachiopoda",
+      "parentId": "invertebrata"
+    },
+    {
+      "id": "articulata",
+      "parentId": "brachiopoda"
+    },
+    {
+      "id": "spiriferida",
+      "parentId": "articulata"
+    },
+    {
+      "id": "terebratulida",
+      "parentId": "articulata"
+    },
+    {
+      "id": "mollusca",
+      "parentId": "invertebrata"
+    },
+    {
+      "id": "bivalvia",
+      "parentId": "mollusca"
+    },
+    {
+      "id": "rudistae",
+      "parentId": "bivalvia"
+    },
+    {
+      "id": "ostreoida",
+      "parentId": "bivalvia"
+    },
+    {
+      "id": "gastropoda",
+      "parentId": "mollusca"
+    },
+    {
+      "id": "cephalopoda",
+      "parentId": "mollusca"
+    },
+    {
+      "id": "nautiloidea",
+      "parentId": "cephalopoda"
+    },
+    {
+      "id": "ammonoidea",
+      "parentId": "cephalopoda"
+    },
+    {
+      "id": "goniatitida",
+      "parentId": "ammonoidea"
+    },
+    {
+      "id": "ceratitida",
+      "parentId": "ammonoidea"
+    },
+    {
+      "id": "ammonitida",
+      "parentId": "ammonoidea"
+    },
+    {
+      "id": "coleoidea",
+      "parentId": "cephalopoda"
+    },
+    {
+      "id": "belemnitida",
+      "parentId": "coleoidea"
+    },
+    {
+      "id": "graptolithina",
+      "parentId": "invertebrata"
+    }
+  ]
+}

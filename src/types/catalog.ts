@@ -131,6 +131,10 @@ export interface EvidenceClaim {
   statement: string
   confidence: ConfidenceLevel | 'contested'
   confidenceRationale: string
+  confidenceRationaleZh: string
+  reviewedBy: string
+  reviewedAt: string
+  reviewedAgainstReferenceVersion: string
   referenceLinks: Array<{
     referenceId: string
     relation: 'supports' | 'contradicts' | 'contextualizes'

@@ -1,0 +1,37 @@
+{
+  "ontology": "data/navigation/atlas-ontology.json",
+  "rootEntityIds": [
+    "synapsida",
+    "mammalia"
+  ],
+  "relationships": [
+    {
+      "id": "synapsida",
+      "parentId": "amniota"
+    },
+    {
+      "id": "pelycosauria",
+      "parentId": "synapsida"
+    },
+    {
+      "id": "dimetrodon",
+      "parentId": "pelycosauria"
+    },
+    {
+      "id": "therapsida",
+      "parentId": "synapsida"
+    },
+    {
+      "id": "dicynodontia",
+      "parentId": "therapsida"
+    },
+    {
+      "id": "cynodontia",
+      "parentId": "therapsida"
+    },
+    {
+      "id": "mammalia",
+      "parentId": "cynodontia"
+    }
+  ]
+}

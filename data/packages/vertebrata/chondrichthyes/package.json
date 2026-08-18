@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 3,
+  "id": "chondrichthyes",
+  "version": "2026.08-static-v3",
+  "title": "Cartilaginous Fishes",
+  "titleZh": "软骨鱼类",
+  "rootEntityIds": [
+    "chondrichthyes"
+  ],
+  "entityIds": [
+    "chondrichthyes",
+    "elasmobranchii",
+    "carcharocles",
+    "holocephali"
+  ],
+  "canonicalSources": {
+    "entities": "data/registry/entities/entities.json",
+    "taxonomy": "data/navigation/atlas-ontology.json",
+    "references": "data/references.json",
+    "occurrences": "data/fossils/*.json"
+  },
+  "maturity": "gold-v2",
+  "reviewStatus": "automated-audit-passed",
+  "limitations": [
+    "Package dossiers expose the current curated evidence boundary; unavailable fields are explicit and are not inferred."
+  ]
+}

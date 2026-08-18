@@ -1,6 +1,7 @@
 import { existsSync, mkdirSync, writeFileSync } from 'node:fs'
 import { dirname, join, resolve } from 'node:path'
 import { readJson, rootDir } from './data-lib.mjs'
+import { assignOccurrencePackage, occurrenceClassification } from './occurrence-package-map.mjs'
 
 const outputDirectory = resolve(process.argv.includes('--output')
   ? process.argv[process.argv.indexOf('--output') + 1]
@@ -10,6 +11,8 @@ const requestedPeriod = process.argv.includes('--period')
   ? process.argv[process.argv.indexOf('--period') + 1]
   : null
 const metadata = readJson('data/period-map-metadata.json')
+const entities = readJson('data/registry/entities/entities.json')
+const exactPackageByTaxonId = new Map(entities.flatMap((entity) => entity.externalIds.pbdb ? [[entity.externalIds.pbdb, entity.packageId]] : []))
 const periods = requestedPeriod
   ? metadata.filter((period) => period.name.toLowerCase() === requestedPeriod.toLowerCase())
   : metadata
@@ -21,7 +24,7 @@ function chunks(values, size) {
 }
 
 async function fetchChunk(ids, attempt = 1) {
-  const query = new URLSearchParams({ id: ids.join(','), show: 'full' })
+  const query = new URLSearchParams({ id: ids.join(','), show: 'full,class' })
   const response = await fetch(`https://paleobiodb.org/data1.2/occs/list.json?${query}`, {
     headers: { 'user-agent': 'EvoAtlasDataPipeline/2026.08 (static educational snapshot)' },
   })
@@ -65,7 +68,10 @@ for (const period of periods) {
   const missing = input.filter((record) => !byId.has(record.oid))
   if (missing.length) throw new Error(`${period.name}: ${missing.length} source occurrence IDs were not returned`)
   const enriched = input.map((record) => {
-    const result = { ...record, ...optionalFields(byId.get(record.oid)) }
+    const source = byId.get(record.oid)
+    const classification = occurrenceClassification(source)
+    const assignment = assignOccurrencePackage({ ...record, ...source, classification }, exactPackageByTaxonId)
+    const result = { ...record, ...optionalFields(source), classification, ...assignment }
     if (!Number.isFinite(result.paleolng) || !Number.isFinite(result.paleolat)) {
       delete result.paleolng
       delete result.paleolat

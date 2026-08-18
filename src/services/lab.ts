@@ -5,6 +5,7 @@ import type { FossilOccurrence } from '../types'
 import { FOSSIL_PERIODS, getAllFossils, getFossilsByInterval } from './localFossils'
 import { getSpatialPosition, hasSpatialPosition, type CoordinateMode } from '../utils/spatial'
 import { EARTH_HISTORY_TOTAL_MA } from '../constants'
+import { loadReleaseMetadata, localReleaseMetadata, type ReleaseMetadata } from './release'
 
 export interface LabQuery {
   periods: string[]
@@ -40,20 +41,42 @@ function intersectsAge(record: FossilOccurrence, olderMa: number | null, younger
   return record.eag >= younger && record.lag <= older
 }
 
+export type LabQueryErrorCode =
+  | 'OLDER_BOUND_OUT_OF_RANGE'
+  | 'YOUNGER_BOUND_OUT_OF_RANGE'
+  | 'AGE_BOUNDS_REVERSED'
+  | 'UNKNOWN_PERIOD'
+  | 'RESULT_LIMIT_OUT_OF_RANGE'
+
+export class LabQueryError extends Error {
+  readonly code: LabQueryErrorCode
+  readonly details: Record<string, string | number>
+
+  constructor(
+    code: LabQueryErrorCode,
+    details: Record<string, string | number> = {},
+  ) {
+    super(code)
+    this.name = 'LabQueryError'
+    this.code = code
+    this.details = details
+  }
+}
+
 export function validateLabQuery(query: LabQuery): void {
   if (query.olderMa !== null && (!Number.isFinite(query.olderMa) || query.olderMa < 0 || query.olderMa > EARTH_HISTORY_TOTAL_MA)) {
-    throw new Error(`Older bound must be between 0 and ${EARTH_HISTORY_TOTAL_MA} Ma.`)
+    throw new LabQueryError('OLDER_BOUND_OUT_OF_RANGE', { max: EARTH_HISTORY_TOTAL_MA })
   }
   if (query.youngerMa !== null && (!Number.isFinite(query.youngerMa) || query.youngerMa < 0 || query.youngerMa > EARTH_HISTORY_TOTAL_MA)) {
-    throw new Error(`Younger bound must be between 0 and ${EARTH_HISTORY_TOTAL_MA} Ma.`)
+    throw new LabQueryError('YOUNGER_BOUND_OUT_OF_RANGE', { max: EARTH_HISTORY_TOTAL_MA })
   }
   if (query.olderMa !== null && query.youngerMa !== null && query.olderMa < query.youngerMa) {
-    throw new Error('Older bound must be greater than or equal to younger bound.')
+    throw new LabQueryError('AGE_BOUNDS_REVERSED')
   }
   const unknownPeriod = query.periods.find((period) => !FOSSIL_PERIODS.includes(period))
-  if (unknownPeriod) throw new Error(`Unknown geological period: ${unknownPeriod}`)
+  if (unknownPeriod) throw new LabQueryError('UNKNOWN_PERIOD', { period: unknownPeriod })
   if (!Number.isFinite(query.limit) || query.limit < 1 || query.limit > 5000) {
-    throw new Error('Result limit must be between 1 and 5,000 rows.')
+    throw new LabQueryError('RESULT_LIMIT_OUT_OF_RANGE', { max: 5000 })
   }
 }
 
@@ -164,10 +187,14 @@ function makeBibtex(): string {
   ].join('\n\n')
 }
 
-function createQueryPackageFiles(result: LabResult): Record<string, Uint8Array> {
+function createQueryPackageFiles(result: LabResult, release: ReleaseMetadata): Record<string, Uint8Array> {
   const readme = [
     'Evo Atlas query export',
+    `Application version: ${release.appVersion}`,
     `Dataset version: ${manifest.datasetVersion}`,
+    `Deployment commit: ${release.deploymentCommitSha}`,
+    `Deployment built: ${release.builtAt ?? 'local/unreleased'}`,
+    `Workflow run: ${release.workflowRunId ?? 'local/unreleased'}`,
     `Generated: ${new Date().toISOString()}`,
     `Matched records: ${result.stats.totalMatched}`,
     `Returned records: ${result.stats.returned}`,
@@ -188,16 +215,17 @@ function createQueryPackageFiles(result: LabResult): Record<string, Uint8Array> 
     'README.txt': strToU8(readme),
     'citations.bib': strToU8(makeBibtex()),
     'dataset-manifest.json': strToU8(JSON.stringify(manifest, null, 2)),
+    'release.json': strToU8(JSON.stringify(release, null, 2)),
   }
 }
 
-export function createQueryPackage(result: LabResult): Uint8Array {
-  return zipSync(createQueryPackageFiles(result), { level: 6 })
+export function createQueryPackage(result: LabResult, release: ReleaseMetadata = localReleaseMetadata): Uint8Array {
+  return zipSync(createQueryPackageFiles(result, release), { level: 6 })
 }
 
-async function createQueryPackageInWorker(result: LabResult): Promise<Uint8Array> {
-  if (typeof Worker === 'undefined') return createQueryPackage(result)
-  const files = createQueryPackageFiles(result)
+async function createQueryPackageInWorker(result: LabResult, release: ReleaseMetadata): Promise<Uint8Array> {
+  if (typeof Worker === 'undefined') return createQueryPackage(result, release)
+  const files = createQueryPackageFiles(result, release)
   return new Promise((resolve, reject) => {
     const worker = new Worker(new URL('../workers/queryPackage.worker.ts', import.meta.url), { type: 'module' })
     worker.onmessage = (event: MessageEvent<Uint8Array>) => {
@@ -213,7 +241,13 @@ async function createQueryPackageInWorker(result: LabResult): Promise<Uint8Array
 }
 
 export async function downloadQueryPackage(result: LabResult): Promise<void> {
-  const bytes = await createQueryPackageInWorker(result)
+  const release = await loadReleaseMetadata()
+  let bytes: Uint8Array
+  try {
+    bytes = await createQueryPackageInWorker(result, release)
+  } catch {
+    bytes = createQueryPackage(result, release)
+  }
   const blob = new Blob([bytes.buffer as ArrayBuffer], { type: 'application/zip' })
   const url = URL.createObjectURL(blob)
   const anchor = document.createElement('a')

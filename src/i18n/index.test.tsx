@@ -1,13 +1,14 @@
 import { fireEvent, render, screen } from '@testing-library/react'
 import { beforeEach, describe, expect, it } from 'vitest'
-import profiles from '../../data/taxa/profiles.json'
+import profiles from '../../data/packages/mammalia/perissodactyla/profiles.json'
 import events from '../../data/events.json'
 import stories from '../../data/stories.json'
 import claims from '../../data/evidence/claims.json'
+import claimRationalesZh from '../../data/evidence/claim-rationales.zh.json'
 import media from '../../data/media.json'
 import tree from '../../data/navigation/atlas-ontology.json'
 import treeEvidence from '../../data/tree/evidence.json'
-import calibrations from '../../data/phylogenies/perissodactyla-calibrations.json'
+import calibrations from '../../data/packages/mammalia/perissodactyla/phylogeny/calibrations.json'
 import manifest from '../../data/manifest.json'
 import { periods } from '../services/geology'
 import { hasChineseTranslation, I18nProvider, useI18n } from '.'
@@ -63,6 +64,7 @@ describe('Chinese catalog coverage', () => {
   })
 
   it('covers every dynamic narrative rendered through the translator', () => {
+    expect(Object.keys(claimRationalesZh).sort()).toEqual(claims.map((claim) => claim.id).sort())
     const dynamicCopy = [
       ...profiles.flatMap((profile) => [
         profile.overview,

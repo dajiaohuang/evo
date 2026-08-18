@@ -15,6 +15,8 @@ Evo Atlas is a static-first web atlas for exploring 4.567 billion years of Earth
 - **Local research workspace** — Recent query definitions are retained in browser IndexedDB and never sent to an application server.
 - **Offline PWA** — Installable, precached app shell; large immutable scientific chunks are cached only when opened.
 - **Static release pipeline** — Cross-file data validation, per-file SHA-256 checksums, tests, lint and GitHub Pages deployment gates.
+- **Pages Data Platform v3** — 179 bilingual registry entities assigned to 24 static packages, with all 23 scientific packages at the Gold v2 dossier baseline, gzip runtime projections, two-level search indexes, occurrence shards and per-package downloads under `/evo/data/`.
+- **Explicit offline packages** — Core data is precached; package and occurrence data is cached on access or when the user explicitly saves a package from the Data page.
 
 ## Architecture
 
@@ -24,8 +26,9 @@ Evo Atlas is a static-first web atlas for exploring 4.567 billion years of Earth
 | Map | Leaflet / react-leaflet with local occurrence chunks; no continental geometry is currently distributed |
 | Tree and charts | D3 plus lightweight SVG/CSS visualizations |
 | State | Zustand slices for geological time, map, tree and fossil evidence |
-| Data | Versioned JSON snapshots under `data/`, dynamically split by Vite |
-| Offline | `vite-plugin-pwa` and Workbox precaching |
+| Data | Canonical versioned JSON under `data/`; generated `.json.gz` runtime packages under `/evo/data/` |
+| Data loading | Static `fetch`, SHA-256 verification and Worker-based decompression/parsing; occurrence data is not compiled into JavaScript |
+| Offline | `vite-plugin-pwa`; app/Core precache plus demand-driven package caches |
 | Hosting | GitHub Pages under the `/evo/` base path |
 
 The main routes are `#/home`, `#/explore`, `#/taxa`, `#/events`, `#/stories`, `#/compare`, `#/lab`, `#/data` and `#/methods`. Explorer URLs encode dataset version, age/window, primary view, selected taxon/occurrence, map center/zoom, marker and coordinate modes, tree mode and story/event context. A link targeting another dataset snapshot requires explicit confirmation before it is rewritten. Reconstruction model labels remain occurrence-level evidence and are not exposed as a no-op global selector. Global search covers scientific/English/Chinese taxon names, navigation nodes, geological periods, events, stories and a curated place index.
@@ -46,16 +49,21 @@ Release checks:
 npm run verify
 ```
 
-This runs ESLint, Vitest, schema and cross-file data validation, TypeScript, the production PWA build, bundle budgets, Playwright route tests and axe accessibility checks.
+`predev` generates ignored runtime data under `public/data/`. `verify` runs ESLint, Vitest, all registry/package/claim/translation/provenance/review gates, TypeScript, the production PWA build, source and Pages budgets, static-data smoke tests, Playwright route tests and axe accessibility checks.
 
 ## Data workflow
 
 ```bash
 npm run data:manifest
 npm run data:validate
+npm run data:build
+npm run pages:budget
+npm run pages:smoke
 ```
 
-`data:manifest` intentionally rewrites record counts and SHA-256 checksums after a reviewed data change. Run it before the final validation when the snapshot changes. The taxon-period descendant index and fossil normalization steps are reproducible commands. Optional staging helpers are available for PBDB occurrence retrieval/enrichment and splitting a source GeoJSON FeatureCollection; no geometry may be promoted from staging until the provenance fields required by `DATA_LICENSES.md` are complete. Staging fetches refuse to overwrite an existing target unless `--replace` is supplied.
+`data:manifest` intentionally rewrites record counts and SHA-256 checksums after a reviewed canonical change. `data:build` creates the publishable static projection at `dist/data/`; it does not write runtime copies into canonical `data/`. The taxon-period descendant index, fossil normalization and `data:assign:fossils` package-assignment steps are reproducible commands. Optional staging helpers are available for PBDB occurrence retrieval/enrichment and splitting a source GeoJSON FeatureCollection; no geometry may be promoted from staging until the provenance fields required by `DATA_LICENSES.md` are complete. Staging fetches refuse to overwrite an existing target unless `--replace` is supplied.
+
+The public bootstrap is `/evo/data/current.json`. It links Core files, 24 package manifests, occurrence/map manifests and per-package downloads. See [Static Data Platform v3](docs/static-data-platform-v3.md) for formats, caching rules and budgets.
 
 ```bash
 npm run data:fetch:fossils -- --period Cretaceous --limit 1000

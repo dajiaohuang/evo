@@ -146,7 +146,7 @@ export function SpeciesDetail() {
       {node ? (
         <>
           <h2 style={{ fontSize: 18, fontWeight: 700, marginBottom: 2, color: 'var(--color-accent)' }}>
-            {language === 'zh' ? (getTaxonProfile(node.id)?.commonNameZh ?? t(node.commonName || node.name)) : (node.commonName || node.name)}
+            {language === 'zh' ? (getTaxonProfile(node.id)?.commonNameZh ?? node.commonNameZh ?? node.commonName ?? node.name) : (node.commonName || node.name)}
           </h2>
           <p style={{ fontSize: 12, color: 'var(--color-text-muted)', marginBottom: 12 }}>
             {node.name}{node.rank ? ` · ${t(node.rank)}` : ''}

@@ -2,6 +2,7 @@ import { useEffect, useState, type FormEvent } from 'react'
 import { getEvolutionEvent, getTaxonProfile, taxonProfiles } from '../../services/catalog'
 import {
   downloadQueryPackage,
+  LabQueryError,
   runLabQuery,
   type LabQuery,
   type LabResult,
@@ -22,6 +23,7 @@ interface WorkbenchProps {
 }
 
 type LabView = 'table' | 'periods' | 'ranges' | 'latitude' | 'map'
+type ExportStatus = 'idle' | 'exporting' | 'ready' | 'failed'
 
 const defaultQuery: LabQuery = {
   periods: ['Cretaceous'],
@@ -34,6 +36,17 @@ const defaultQuery: LabQuery = {
 
 function formatPercent(value: number): string {
   return `${Math.round(value * 100)}%`
+}
+
+function labErrorMessage(error: unknown, t: (key: string, values?: Record<string, string | number>) => string): string {
+  if (!(error instanceof LabQueryError)) return t('Query failed')
+  switch (error.code) {
+    case 'OLDER_BOUND_OUT_OF_RANGE': return t('Older bound must be between 0 and {max} Ma.', error.details)
+    case 'YOUNGER_BOUND_OUT_OF_RANGE': return t('Younger bound must be between 0 and {max} Ma.', error.details)
+    case 'AGE_BOUNDS_REVERSED': return t('Older bound must be greater than or equal to younger bound.')
+    case 'UNKNOWN_PERIOD': return t('Unknown geological period: {period}', error.details)
+    case 'RESULT_LIMIT_OUT_OF_RANGE': return t('Result limit must be between 1 and {max} rows.', error.details)
+  }
 }
 
 function ResultMap({ records, coordinateMode }: { records: FossilOccurrence[]; coordinateMode: CoordinateMode }) {
@@ -167,6 +180,7 @@ export function LabPage({ params }: WorkbenchProps) {
   const [view, setView] = useState<LabView>('table')
   const [coordinateMode, setCoordinateMode] = useState<CoordinateMode>('paleo')
   const [queryHistory, setQueryHistory] = useState<SavedLabQuery[]>([])
+  const [exportStatus, setExportStatus] = useState<ExportStatus>('idle')
 
   useEffect(() => {
     void listSavedLabQueries().then(setQueryHistory).catch(() => setQueryHistory([]))
@@ -186,9 +200,20 @@ export function LabPage({ params }: WorkbenchProps) {
         // Query results remain usable if private-mode storage is unavailable.
       }
     } catch (caught) {
-      setError(caught instanceof Error ? caught.message : t('Query failed'))
+      setError(labErrorMessage(caught, t))
     } finally {
       setLoading(false)
+    }
+  }
+
+  const exportPackage = async () => {
+    if (!result || exportStatus === 'exporting') return
+    setExportStatus('exporting')
+    try {
+      await downloadQueryPackage(result)
+      setExportStatus('ready')
+    } catch {
+      setExportStatus('failed')
     }
   }
 
@@ -271,10 +296,12 @@ export function LabPage({ params }: WorkbenchProps) {
             <div className="lab-view-switcher" role="group" aria-label={t('Coordinate mode')}>
               {(['paleo', 'modern'] as CoordinateMode[]).map((mode) => <button key={mode} className={coordinateMode === mode ? 'is-active' : ''} onClick={() => setCoordinateMode(mode)}>{t(mode)}</button>)}
             </div>
-            <button className="export-package" disabled={!result} onClick={() => result && downloadQueryPackage(result)}>{t('Export package .zip')}</button>
+            <button className="export-package" disabled={!result || exportStatus === 'exporting'} onClick={() => void exportPackage()}>{t(exportStatus === 'exporting' ? 'Exporting…' : exportStatus === 'ready' ? 'Export ready' : exportStatus === 'failed' ? 'Retry export' : 'Export package .zip')}</button>
           </div>
 
-          {error && <div className="lab-error">{error}</div>}
+          {exportStatus === 'ready' && <div className="lab-export-status" role="status">{t('Export ready')}</div>}
+          {exportStatus === 'failed' && <div className="lab-error" role="alert">{t('Export failed')}</div>}
+          {error && <div className="lab-error" role="alert">{error}</div>}
           {!result && !error && <div className="lab-empty"><span>{t('SQL-like filtering without a server')}</span><h2>{t('Define a query, then inspect the evidence.')}</h2><p>{t('Results can be explored as rows, period counts or reconstructed-coordinate points.')}</p></div>}
           {result && (
             <>
@@ -291,7 +318,7 @@ export function LabPage({ params }: WorkbenchProps) {
                 {view === 'latitude' && <LatitudeChart records={result.records} coordinateMode={coordinateMode} />}
                 {view === 'map' && <ResultMap records={result.records} coordinateMode={coordinateMode} />}
               </div>
-              <div className="reproducibility-strip"><span>{t('Export contains')}</span><strong>query.json · results.csv/json · separate paleo/modern GeoJSON · README · citations.bib · dataset-manifest.json</strong></div>
+              <div className="reproducibility-strip"><span>{t('Export contains')}</span><strong>query.json · results.csv/json · separate paleo/modern GeoJSON · README · citations.bib · dataset-manifest.json · release.json</strong></div>
             </>
           )}
         </section>

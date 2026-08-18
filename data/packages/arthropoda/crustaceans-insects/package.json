@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 3,
+  "id": "crustaceans-insects",
+  "version": "2026.08-static-v3",
+  "title": "Crustaceans, Insects and Myriapod Context",
+  "titleZh": "甲壳类、昆虫与多足类背景",
+  "rootEntityIds": [
+    "arthropoda",
+    "crustacea",
+    "insecta"
+  ],
+  "entityIds": [
+    "arthropoda",
+    "insecta",
+    "odonata",
+    "meganeura",
+    "coleoptera",
+    "hymenoptera",
+    "crustacea",
+    "ostracoda",
+    "malacostraca"
+  ],
+  "canonicalSources": {
+    "entities": "data/registry/entities/entities.json",
+    "taxonomy": "data/navigation/atlas-ontology.json",
+    "references": "data/references.json",
+    "occurrences": "data/fossils/*.json"
+  },
+  "maturity": "gold-v2",
+  "reviewStatus": "automated-audit-passed",
+  "limitations": [
+    "Package dossiers expose the current curated evidence boundary; unavailable fields are explicit and are not inferred."
+  ]
+}

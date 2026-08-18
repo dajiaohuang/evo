@@ -1,0 +1,28 @@
+{
+  "ontology": "data/navigation/atlas-ontology.json",
+  "rootEntityIds": [
+    "angiospermae"
+  ],
+  "relationships": [
+    {
+      "id": "angiospermae",
+      "parentId": "plantae"
+    },
+    {
+      "id": "monocotyledones",
+      "parentId": "angiospermae"
+    },
+    {
+      "id": "poaceae",
+      "parentId": "monocotyledones"
+    },
+    {
+      "id": "eudicotyledones",
+      "parentId": "angiospermae"
+    },
+    {
+      "id": "fabaceae",
+      "parentId": "eudicotyledones"
+    }
+  ]
+}

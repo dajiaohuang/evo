@@ -20,6 +20,38 @@ test('language switch localizes the shell and scientific content, then persists'
   expect(await page.evaluate(() => window.localStorage.getItem('evo-atlas-language'))).toBe('zh')
 })
 
+test('global search indexes structured Chinese ontology and interval names', async ({ page }) => {
+  await page.addInitScript(() => window.localStorage.setItem('evo-atlas-language', 'zh'))
+  await page.goto('./#/home')
+  await page.locator('.global-search-trigger').click()
+  const search = page.getByPlaceholder('搜索类群、地质时段、事件、地点…')
+
+  await search.fill('哺乳动物')
+  await expect(page.getByRole('button', { name: /哺乳动物.*Mammalia/ })).toBeVisible()
+
+  await search.fill('侏罗纪')
+  await expect(page.getByRole('button', { name: /侏罗纪.*中生代/ })).toBeVisible()
+})
+
+test('Data Lab localizes validation errors and reports export completion', async ({ page }) => {
+  await page.addInitScript(() => window.localStorage.setItem('evo-atlas-language', 'zh'))
+  await page.goto('./#/lab')
+
+  await page.getByLabel('较老边界（Ma）').fill('10')
+  await page.getByLabel('较新边界（Ma）').fill('20')
+  await page.getByRole('button', { name: '运行查询 →' }).click()
+  await expect(page.getByRole('alert')).toContainText('较老边界必须大于或等于较年轻边界')
+
+  await page.getByLabel('较老边界（Ma）').fill('20')
+  await page.getByLabel('较新边界（Ma）').fill('10')
+  await page.getByRole('button', { name: '运行查询 →' }).click()
+  await expect(page.locator('.lab-results__toolbar strong')).toContainText(/匹配 .* 条/)
+  const downloadPromise = page.waitForEvent('download')
+  await page.getByRole('button', { name: '导出数据包 .zip' }).click()
+  await downloadPromise
+  await expect(page.getByRole('button', { name: '导出已就绪' })).toBeVisible()
+})
+
 test('deep links keep route state and do not coerce a missing age to zero', async ({ page }) => {
   await page.goto('./#/explore?taxon=perissodactyla')
   await expect(page).toHaveTitle('Explore — Evo Atlas')
@@ -46,7 +78,7 @@ test('Explorer restores state and removes the unsupported global model parameter
   await expect(page.getByRole('button', { name: 'points' })).toHaveClass(/is-active/)
   await expect(page.getByRole('button', { name: 'modern' })).toHaveClass(/is-active/)
   await expect(page.getByText('Shared time window 20–5 Ma')).toBeVisible()
-  await expect.poll(() => page.url()).toContain('dataset=2026.08-m2')
+  await expect.poll(() => page.url()).toContain('dataset=2026.08-static-v3')
   for (const fragment of ['older=20', 'younger=5', 'lat=10.000', 'lng=20.000', 'zoom=3.00', 'treeMode=fossil-range']) {
     expect(page.url()).toContain(fragment)
   }
@@ -59,7 +91,7 @@ test('Explorer requires confirmation before replacing a mismatched dataset versi
   await expect(page.getByRole('alertdialog')).toContainText('2025.01-old')
   expect(page.url()).toContain('dataset=2025.01-old')
   await page.getByRole('button', { name: 'Use current dataset' }).click()
-  await expect.poll(() => page.url()).toContain('dataset=2026.08-m2')
+  await expect.poll(() => page.url()).toContain('dataset=2026.08-static-v3')
 })
 
 test('browser back and forward preserve hash navigation', async ({ page }) => {

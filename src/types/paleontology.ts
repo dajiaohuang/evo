@@ -28,6 +28,16 @@ export interface FossilOccurrence {
   specimenBasis?: string;
   paleoModelId?: string;
   plateId?: string;
+  classification?: {
+    phylum?: string;
+    class?: string;
+    order?: string;
+    family?: string;
+    genus?: string;
+  };
+  packageId?: string;
+  packageAssignmentStatus?: 'mapped' | 'unresolved';
+  packageAssignmentBasis?: string;
 }
 
 export type TaxonQueryScope = 'exact' | 'descendants'

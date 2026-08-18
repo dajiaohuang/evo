@@ -1,6 +1,7 @@
 import { describe, expect, it } from 'vitest'
+import { strFromU8, unzipSync } from 'fflate'
 import type { FossilOccurrence } from '../types'
-import { createQueryPackage, filterFossils, fossilsToCsv, fossilsToGeoJson, validateLabQuery, type LabQuery } from './lab'
+import { createQueryPackage, filterFossils, fossilsToCsv, fossilsToGeoJson, LabQueryError, validateLabQuery, type LabQuery } from './lab'
 
 const records: FossilOccurrence[] = [
   { oid: 'occ:1', tna: 'Hipparion', idn: '', tid: 'txn:1', rnk: 5, lng: '10', lat: '20', paleolng: 12, paleolat: 22, eag: 10, lag: 8, cid: 'c1', oei: '', cc2: 'CN' },
@@ -21,7 +22,13 @@ describe('lab query helpers', () => {
   })
 
   it('rejects a reversed age window', () => {
-    expect(() => validateLabQuery({ ...query, olderMa: 7, youngerMa: 11 })).toThrow(/Older bound/)
+    try {
+      validateLabQuery({ ...query, olderMa: 7, youngerMa: 11 })
+      throw new Error('Expected validation to fail')
+    } catch (error) {
+      expect(error).toBeInstanceOf(LabQueryError)
+      expect((error as LabQueryError).code).toBe('AGE_BOUNDS_REVERSED')
+    }
   })
 
   it('neutralizes spreadsheet formulas in text cells', () => {
@@ -40,5 +47,8 @@ describe('lab query helpers', () => {
       samplingMethod: 'bounded non-random PBDB API prefix sample',
     })
     expect(payload.byteLength).toBeGreaterThan(500)
+    const files = unzipSync(payload)
+    expect(Object.keys(files)).toContain('release.json')
+    expect(JSON.parse(strFromU8(files['release.json'])).datasetVersion).toBe('2026.08-static-v3')
   })
 })

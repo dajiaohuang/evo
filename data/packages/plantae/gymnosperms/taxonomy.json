@@ -1,0 +1,28 @@
+{
+  "ontology": "data/navigation/atlas-ontology.json",
+  "rootEntityIds": [
+    "gymnospermae"
+  ],
+  "relationships": [
+    {
+      "id": "gymnospermae",
+      "parentId": "plantae"
+    },
+    {
+      "id": "cycadophyta",
+      "parentId": "gymnospermae"
+    },
+    {
+      "id": "ginkgophyta",
+      "parentId": "gymnospermae"
+    },
+    {
+      "id": "coniferophyta",
+      "parentId": "gymnospermae"
+    },
+    {
+      "id": "araucariaceae",
+      "parentId": "coniferophyta"
+    }
+  ]
+}
