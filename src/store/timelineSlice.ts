@@ -1,7 +1,7 @@
 import type { GeoInterval } from '../types'
 import type { AppState } from './index'
 import { EARTH_HISTORY_TOTAL_MA } from '../constants'
-import timeScaleData from '../../data/time-scale.json'
+import { containsAge, timeScaleUnits } from '../services/geology'
 
 export interface TimelineSlice {
   allIntervals: GeoInterval[]
@@ -17,18 +17,18 @@ export interface TimelineSlice {
 
 function resolvePeriod(intervals: GeoInterval[], age: number): GeoInterval | null {
   return intervals.find(
-    (i) => i.itp === 'period' && age >= i.lag && age < i.eag
+    (i) => i.itp === 'period' && containsAge(i, age)
   ) ?? null
 }
 
 function resolveUnit(intervals: GeoInterval[], age: number, type: GeoInterval['itp']): GeoInterval | null {
   return intervals.find((interval) => (
-    interval.itp === type && age >= interval.lag && age <= interval.eag
+    interval.itp === type && containsAge(interval, age)
   )) ?? null
 }
 
 function buildLocalIntervals(): GeoInterval[] {
-  return timeScaleData.units as GeoInterval[]
+  return timeScaleUnits
 }
 
 export const createTimelineSlice = (

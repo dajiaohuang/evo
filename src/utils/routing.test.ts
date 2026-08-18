@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest'
-import { buildRouteHash, parseRouteHash } from './routing'
+import { buildRouteHash, getFiniteRouteNumber, parseRouteHash } from './routing'
 
 describe('route hash helpers', () => {
   it('defaults unknown and empty routes to home', () => {
@@ -17,5 +17,12 @@ describe('route hash helpers', () => {
   it('builds a stable shareable hash', () => {
     expect(buildRouteHash('explore', { age: 66, view: 'tree', taxon: null }))
       .toBe('#/explore?age=66&view=tree')
+  })
+
+  it('does not turn a missing or blank numeric parameter into zero', () => {
+    expect(getFiniteRouteNumber(new URLSearchParams(), 'age')).toBeNull()
+    expect(getFiniteRouteNumber(new URLSearchParams('age='), 'age')).toBeNull()
+    expect(getFiniteRouteNumber(new URLSearchParams('age=0'), 'age')).toBe(0)
+    expect(getFiniteRouteNumber(new URLSearchParams('age=66.1'), 'age')).toBe(66.1)
   })
 })

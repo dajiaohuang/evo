@@ -37,9 +37,15 @@ export function AppShell({ route, onNavigate, children, immersive = false }: App
     }
   }, [])
 
+  const skipToContent = () => {
+    const main = document.getElementById('main-content')
+    main?.scrollIntoView({ block: 'start' })
+    main?.focus({ preventScroll: true })
+  }
+
   return (
     <div className={`app-shell${immersive ? ' app-shell--immersive' : ''}`}>
-      <a className="skip-link" href="#main-content">Skip to atlas content</a>
+      <button className="skip-link" type="button" onClick={skipToContent}>Skip to atlas content</button>
       <header className="topbar">
         <button className="brand" onClick={() => onNavigate('home')} aria-label="Evo Atlas home">
           <span className="brand__mark" aria-hidden="true">

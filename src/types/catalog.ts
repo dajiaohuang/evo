@@ -4,10 +4,15 @@ export interface ReferenceRecord {
   id: string
   title: string
   authors: string
-  year: number
+  publishedYear?: number
   type: 'paper' | 'database' | 'standard' | 'museum' | 'documentation'
   url: string
   doi?: string
+  accessedAt?: string
+  version?: string
+  publisher?: string
+  pages?: string
+  datasetSnapshot?: string
   note?: string
 }
 
@@ -104,7 +109,29 @@ export interface DivergenceEstimate {
   olderMa: number | null
   method: string
   referenceId: string
+  nodeId: string
+  topologyHypothesisId: string
+  cladePackageId: string
+  locator?: { pages?: string; table?: string; figure?: string }
+  compatibilityGroup: string
   note: string
+}
+
+export type EvidenceClaimType = 'topology' | 'divergence-time' | 'fossil-range' | 'morphology' | 'ecology' | 'biogeography' | 'event-mechanism'
+
+export interface EvidenceClaim {
+  id: string
+  subjectId: string
+  claimType: EvidenceClaimType
+  statement: string
+  confidence: ConfidenceLevel | 'contested'
+  referenceLinks: Array<{
+    referenceId: string
+    pages?: string
+    table?: string
+    figure?: string
+    quoteLocator?: string
+  }>
 }
 
 export interface MediaAsset {

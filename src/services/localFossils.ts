@@ -1,4 +1,6 @@
 import type { FossilOccurrence } from '../types'
+import type { TaxonOccurrenceQueryResult, TaxonQueryScope } from '../types'
+import taxonPeriodIndexData from '../../data/indexes/taxon-period-index.json'
 
 const asFossils = (arr: unknown): FossilOccurrence[] => arr as FossilOccurrence[]
 
@@ -23,26 +25,19 @@ export const FOSSIL_PERIODS = Object.freeze(Object.keys(fossilLoaders))
 
 const fossilStore: Record<string, FossilOccurrence[]> = {}
 const loadingPeriods = new Map<string, Promise<FossilOccurrence[]>>()
-const taxonIndex: Record<string, FossilOccurrence[]> = {}
-let indexPromise: Promise<void> | null = null
-
-async function buildTaxonIndex(): Promise<void> {
-  if (indexPromise) return indexPromise
-  indexPromise = (async () => {
-    await Promise.all(Object.keys(fossilLoaders).map(getFossilsByInterval))
-    for (const records of Object.values(fossilStore)) {
-      for (const occ of records) {
-        if (occ.tid) {
-          if (!taxonIndex[occ.tid]) taxonIndex[occ.tid] = []
-          if (taxonIndex[occ.tid].length < 100) {
-            taxonIndex[occ.tid].push(occ)
-          }
-        }
-      }
-    }
-  })()
-  return indexPromise
+interface TaxonPeriodIndexEntry {
+  descendantTaxonIds: string[]
+  periods: string[]
+  matchedTotal: number
 }
+
+interface TaxonPeriodIndex {
+  sourceTotal: number
+  samplingMethod: string
+  nodes: Record<string, TaxonPeriodIndexEntry>
+}
+
+const taxonPeriodIndex = taxonPeriodIndexData as TaxonPeriodIndex
 
 export async function getFossilsByInterval(period: string): Promise<FossilOccurrence[]> {
   if (fossilStore[period]) return fossilStore[period]
@@ -60,9 +55,28 @@ export async function getFossilsByInterval(period: string): Promise<FossilOccurr
   return promise
 }
 
-export async function getFossilsByTaxon(taxonId: string): Promise<FossilOccurrence[]> {
-  await buildTaxonIndex()
-  return taxonIndex[taxonId] ?? []
+export async function getFossilsByTaxon(
+  taxonId: string,
+  scope: TaxonQueryScope = 'descendants',
+): Promise<TaxonOccurrenceQueryResult> {
+  const indexed = taxonPeriodIndex.nodes[taxonId]
+  const taxonIds = scope === 'descendants' && indexed
+    ? new Set(indexed.descendantTaxonIds)
+    : new Set([taxonId])
+  const periods = indexed?.periods.length ? indexed.periods : [...FOSSIL_PERIODS]
+  const chunks = await Promise.all(periods.map(getFossilsByInterval))
+  const records = chunks.flat().filter((occurrence) => Boolean(occurrence.tid && taxonIds.has(occurrence.tid)))
+  return {
+    taxonId,
+    scope,
+    sourceTotal: taxonPeriodIndex.sourceTotal,
+    matchedTotal: records.length,
+    rowsLoaded: records.length,
+    truncated: false,
+    samplingMethod: taxonPeriodIndex.samplingMethod,
+    loadedPeriods: periods,
+    records,
+  }
 }
 
 export async function getAllFossils(): Promise<FossilOccurrence[]> {

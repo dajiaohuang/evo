@@ -1,11 +1,13 @@
-import { useCallback, useEffect, useRef, useState } from 'react'
+import { useCallback, useEffect, useRef } from 'react'
 import * as d3 from 'd3'
 import { useAppStore } from '../../store'
 import type { TreeNode } from '../../types'
-import treeData from '../../../data/tree/life-cladogram.json'
+import treeData from '../../../data/navigation/atlas-ontology.json'
+import perissodactylHypothesisData from '../../../data/phylogenies/perissodactyla-hypothesis.json'
+import type { TreeDisplayMode } from '../../types'
 import './EvoTree.css'
 
-export type TreeMode = 'cladogram' | 'first-appearance' | 'fossil-range' | 'radial'
+export type TreeMode = TreeDisplayMode
 
 function findNode(nodes: TreeNode[], id: string): TreeNode | null {
   for (const node of nodes) {
@@ -22,7 +24,8 @@ function activeAt(node: TreeNode, age: number): boolean {
 
 export function EvoTree() {
   const svgRef = useRef<SVGSVGElement>(null)
-  const [mode, setMode] = useState<TreeMode>('cladogram')
+  const mode = useAppStore((state) => state.treeMode)
+  const setMode = useAppStore((state) => state.setTreeMode)
   const currentAge = useAppStore((state) => state.currentAge)
   const selectedNodeId = useAppStore((state) => state.selectedNodeId)
   const selectNode = useAppStore((state) => state.selectNode)
@@ -47,7 +50,10 @@ export function EvoTree() {
     svg.selectAll('*').remove()
     svg.on('.zoom', null)
 
-    const root = d3.hierarchy(treeData as TreeNode)
+    const sourceTree = mode === 'navigation' || mode === 'radial'
+      ? treeData as TreeNode
+      : perissodactylHypothesisData.root as TreeNode
+    const root = d3.hierarchy(sourceTree)
     const descendants = root.descendants()
     const maxAge = Math.max(...descendants.map((node) => node.data.firstAppearance), 540)
 
@@ -84,8 +90,6 @@ export function EvoTree() {
 
     svg.attr('height', '100%').attr('viewBox', null)
     const g = svg.append('g')
-    const zoom = d3.zoom<SVGSVGElement, unknown>().scaleExtent([0.2, 12]).on('zoom', (event) => g.attr('transform', event.transform.toString()))
-    svg.call(zoom)
 
     if (mode === 'radial') {
       const radius = Math.max(120, Math.min(width, viewportHeight) / 2 - 58)
@@ -148,6 +152,9 @@ export function EvoTree() {
       return
     }
 
+    const zoom = d3.zoom<SVGSVGElement, unknown>().scaleExtent([0.2, 12]).on('zoom', (event) => g.attr('transform', event.transform.toString()))
+    svg.call(zoom)
+
     d3.tree<TreeNode>().nodeSize([76, 128])(root)
     const bounds = { x0: Infinity, y0: Infinity, x1: -Infinity, y1: -Infinity }
     root.each((node) => {
@@ -159,7 +166,10 @@ export function EvoTree() {
     const treeWidth = bounds.x1 - bounds.x0 || 1
     const treeHeight = bounds.y1 - bounds.y0 || 1
     const scale = Math.min((width - 24) / treeWidth, (viewportHeight - 36) / treeHeight, 1.2)
-    g.attr('transform', `translate(${(width - treeWidth * scale) / 2 - bounds.x0 * scale},${18 - bounds.y0 * scale}) scale(${scale})`)
+    const initialTransform = d3.zoomIdentity
+      .translate((width - treeWidth * scale) / 2 - bounds.x0 * scale, 18 - bounds.y0 * scale)
+      .scale(scale)
+    svg.call(zoom.transform, initialTransform)
     g.selectAll('path').data(root.links()).join('path').attr('class', 'tree-link')
       .attr('d', (link) => {
         const sx = link.source.x ?? 0
@@ -189,7 +199,8 @@ export function EvoTree() {
       <div className="tree-mode-control" role="group" aria-label="Tree time model">
         <span>Tree model</span>
         {([
-          ['cladogram', 'Cladogram'],
+          ['navigation', 'Navigation ontology'],
+          ['cladogram', 'Periss. topology'],
           ['first-appearance', 'First appearance'],
           ['fossil-range', 'Fossil ranges'],
           ['radial', 'Radial'],
@@ -199,7 +210,8 @@ export function EvoTree() {
       </div>
       <svg ref={svgRef} aria-label={`${mode} visualization of the tree of life`} />
       <div className="tree-model-note">
-        {mode === 'cladogram' && 'Topology only · branch length does not encode elapsed time.'}
+        {mode === 'navigation' && 'Navigation ontology · convenient groupings may be paraphyletic and do not assert a phylogenetic hypothesis.'}
+        {mode === 'cladogram' && 'Curated Perissodactyla hypothesis · branch length does not encode elapsed time.'}
         {mode === 'first-appearance' && 'Horizontal position uses curated first appearance as a fossil-record proxy, not a divergence-time estimate.'}
         {mode === 'fossil-range' && 'Bars show curated first–last appearance ranges; gaps and endpoints remain sampling-dependent.'}
         {mode === 'radial' && 'Radial mode supports high-level navigation; angular and radial distances do not encode elapsed time.'}

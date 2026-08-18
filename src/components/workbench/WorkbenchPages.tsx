@@ -9,6 +9,7 @@ import {
 import { FOSSIL_PERIODS } from '../../services/localFossils'
 import { useAppStore } from '../../store'
 import type { FossilOccurrence } from '../../types'
+import { getSpatialPosition, type CoordinateMode } from '../../utils/spatial'
 import type { AppRoute } from '../../utils/routing'
 import { listSavedLabQueries, saveLabQuery, type SavedLabQuery } from '../../services/workspaceDb'
 import './WorkbenchPages.css'
@@ -33,12 +34,11 @@ function formatPercent(value: number): string {
   return `${Math.round(value * 100)}%`
 }
 
-function ResultMap({ records }: { records: FossilOccurrence[] }) {
+function ResultMap({ records, coordinateMode }: { records: FossilOccurrence[]; coordinateMode: CoordinateMode }) {
   const points = records.flatMap((record) => {
-    const lng = record.paleolng ?? Number(record.lng)
-    const lat = record.paleolat ?? Number(record.lat)
-    if (!Number.isFinite(lng) || !Number.isFinite(lat)) return []
-    return [{ id: record.oid, name: record.tna, x: ((lng + 180) / 360) * 100, y: ((90 - lat) / 180) * 100 }]
+    const position = getSpatialPosition(record, coordinateMode)
+    if (position.mode !== coordinateMode) return []
+    return [{ id: record.oid, name: record.tna || record.idn || 'Unresolved identification', x: ((position.lng + 180) / 360) * 100, y: ((90 - position.lat) / 180) * 100 }]
   }).slice(0, 1000)
 
   return (
@@ -47,7 +47,7 @@ function ResultMap({ records }: { records: FossilOccurrence[] }) {
       {points.map((point) => (
         <span key={point.id} style={{ left: `${point.x}%`, top: `${point.y}%` }} title={point.name} />
       ))}
-      <small>Plate Carrée preview · reconstructed coordinates preferred · max 1,000 rendered points</small>
+      <small>Plate Carrée preview · {coordinateMode} coordinates only · max 1,000 rendered points</small>
     </div>
   )
 }
@@ -77,10 +77,11 @@ function ResultChart({ result }: { result: LabResult }) {
 
 function RangeThroughChart({ records }: { records: FossilOccurrence[] }) {
   const ranges = [...records.reduce((map, record) => {
-    const current = map.get(record.tna)
-    map.set(record.tna, current
-      ? { name: record.tna, first: Math.max(current.first, record.eag), last: Math.min(current.last, record.lag), count: current.count + 1 }
-      : { name: record.tna, first: record.eag, last: record.lag, count: 1 })
+    const name = record.tna || record.idn || 'Unresolved identification'
+    const current = map.get(name)
+    map.set(name, current
+      ? { name, first: Math.max(current.first, record.eag), last: Math.min(current.last, record.lag), count: current.count + 1 }
+      : { name, first: record.eag, last: record.lag, count: 1 })
     return map
   }, new Map<string, { name: string; first: number; last: number; count: number }>()).values()]
     .sort((a, b) => b.count - a.count || b.first - a.first)
@@ -102,41 +103,43 @@ function RangeThroughChart({ records }: { records: FossilOccurrence[] }) {
   )
 }
 
-function LatitudeChart({ records }: { records: FossilOccurrence[] }) {
+function LatitudeChart({ records, coordinateMode }: { records: FossilOccurrence[]; coordinateMode: CoordinateMode }) {
   const bins = Array.from({ length: 18 }, (_, index) => ({ lower: -90 + index * 10, count: 0 }))
   for (const record of records) {
-    const latitude = record.paleolat ?? Number(record.lat)
-    if (!Number.isFinite(latitude)) continue
-    const index = Math.min(17, Math.max(0, Math.floor((latitude + 90) / 10)))
+    const position = getSpatialPosition(record, coordinateMode)
+    if (position.mode !== coordinateMode) continue
+    const index = Math.min(17, Math.max(0, Math.floor((position.lat + 90) / 10)))
     bins[index].count += 1
   }
   const max = Math.max(1, ...bins.map((bin) => bin.count))
   return (
     <div className="latitude-chart">
-      <header><span>Paleolatitude distribution</span><strong>10° occurrence bins</strong></header>
+      <header><span>{coordinateMode === 'paleo' ? 'Paleolatitude' : 'Modern locality latitude'} distribution</span><strong>10° occurrence bins</strong></header>
       <div className="latitude-bars">
         {bins.map((bin) => <div key={bin.lower}><span>{bin.count}</span><i style={{ height: `${Math.max(2, bin.count / max * 100)}%` }} /><small>{bin.lower}°</small></div>)}
       </div>
-      <p>Reconstructed latitude is preferred; records without it fall back to modern locality latitude.</p>
+      <p>Only paired {coordinateMode} coordinates are included; missing values are not filled from the other coordinate system.</p>
     </div>
   )
 }
 
-function ResultTable({ records }: { records: FossilOccurrence[] }) {
+function ResultTable({ records, coordinateMode }: { records: FossilOccurrence[]; coordinateMode: CoordinateMode }) {
   return (
     <div className="lab-table-wrap">
       <table className="lab-table">
         <thead><tr><th>Accepted name</th><th>Age range</th><th>Country</th><th>Coordinates</th><th>Occurrence</th></tr></thead>
         <tbody>
-          {records.slice(0, 250).map((record) => (
+          {records.slice(0, 250).map((record) => {
+            const position = getSpatialPosition(record, coordinateMode)
+            return (
             <tr key={record.oid}>
-              <td><strong><em>{record.tna}</em></strong><small>{record.idn || '—'}</small></td>
+              <td><strong><em>{record.tna || record.idn || 'Unresolved identification'}</em></strong><small>{record.tna && record.idn ? record.idn : '—'}</small></td>
               <td>{record.eag?.toFixed(1)}—{record.lag?.toFixed(1)} Ma</td>
               <td>{record.cc2 || '—'}</td>
-              <td>{record.paleolng != null ? `${record.paleolng.toFixed(1)}, ${record.paleolat?.toFixed(1)} paleo` : `${record.lng}, ${record.lat} modern`}</td>
+              <td>{position.mode === coordinateMode ? `${position.lng.toFixed(1)}, ${position.lat.toFixed(1)} ${coordinateMode}` : `No ${coordinateMode} pair`}</td>
               <td>{record.oid}</td>
             </tr>
-          ))}
+          )})}
         </tbody>
       </table>
       {records.length > 250 && <p className="table-limit-note">Showing 250 of {records.length.toLocaleString()} returned rows. The export contains every returned row.</p>}
@@ -154,6 +157,7 @@ export function LabPage({ params }: WorkbenchProps) {
   const [loading, setLoading] = useState(false)
   const [error, setError] = useState<string | null>(null)
   const [view, setView] = useState<LabView>('table')
+  const [coordinateMode, setCoordinateMode] = useState<CoordinateMode>('paleo')
   const [queryHistory, setQueryHistory] = useState<SavedLabQuery[]>([])
 
   useEffect(() => {
@@ -194,7 +198,7 @@ export function LabPage({ params }: WorkbenchProps) {
       <header className="workbench-hero">
         <span className="section-label">Data lab / browser query engine</span>
         <h1>Ask a bounded question of the fossil record.</h1>
-        <p>Build a reproducible query against 13,600 bundled PBDB occurrence samples. Filtering and export happen locally in your browser.</p>
+        <p>Build a reproducible query against 13,600 bounded, non-random PBDB API-prefix rows. Filtering and export happen locally in your browser.</p>
       </header>
 
       <div className="lab-layout">
@@ -202,7 +206,7 @@ export function LabPage({ params }: WorkbenchProps) {
           <div className="query-builder__heading"><span>Query definition</span><small>Static snapshot</small></div>
 
           <label className="query-field">
-            <span>Taxon name contains</span>
+            <span>Name text contains</span>
             <input value={query.taxon} onChange={(event) => setQuery({ ...query, taxon: event.target.value })} placeholder="e.g. Hipparion" />
           </label>
 
@@ -234,7 +238,7 @@ export function LabPage({ params }: WorkbenchProps) {
           </label>
 
           <button className="run-query" type="submit" disabled={loading}>{loading ? 'Querying local chunks…' : 'Run query →'}</button>
-          <p className="query-method-note">Age filtering uses range intersection. Taxon matching searches accepted and identified names.</p>
+          <p className="query-method-note">Age filtering uses range intersection. This field is a name-text filter, not a descendant-inclusive classification query.</p>
           <div className="query-history">
             <div><span>Local workspace</span><small>IndexedDB · latest {queryHistory.length}</small></div>
             {queryHistory.slice(0, 4).map((saved) => (
@@ -256,6 +260,9 @@ export function LabPage({ params }: WorkbenchProps) {
             <div className="lab-view-switcher">
               {(['table', 'periods', 'ranges', 'latitude', 'map'] as LabView[]).map((item) => <button key={item} className={view === item ? 'is-active' : ''} onClick={() => setView(item)} disabled={!result}>{item}</button>)}
             </div>
+            <div className="lab-view-switcher" role="group" aria-label="Coordinate mode">
+              {(['paleo', 'modern'] as CoordinateMode[]).map((mode) => <button key={mode} className={coordinateMode === mode ? 'is-active' : ''} onClick={() => setCoordinateMode(mode)}>{mode}</button>)}
+            </div>
             <button className="export-package" disabled={!result} onClick={() => result && downloadQueryPackage(result)}>Export package .zip</button>
           </div>
 
@@ -267,16 +274,16 @@ export function LabPage({ params }: WorkbenchProps) {
                 <div><strong>{result.stats.returned.toLocaleString()}</strong><span>returned</span></div>
                 <div><strong>{result.stats.uniqueTaxa.toLocaleString()}</strong><span>taxa</span></div>
                 <div><strong>{result.stats.countries}</strong><span>countries</span></div>
-                <div><strong>{formatPercent(result.stats.paleoCoordinateCoverage)}</strong><span>paleo coords</span></div>
+                <div><strong>{formatPercent(coordinateMode === 'paleo' ? result.stats.paleoCoordinateCoverage : result.stats.modernCoordinateCoverage)}</strong><span>{coordinateMode} coords</span></div>
               </div>
               <div className="lab-result-canvas">
-                {view === 'table' && <ResultTable records={result.records} />}
+                {view === 'table' && <ResultTable records={result.records} coordinateMode={coordinateMode} />}
                 {view === 'periods' && <ResultChart result={result} />}
                 {view === 'ranges' && <RangeThroughChart records={result.records} />}
-                {view === 'latitude' && <LatitudeChart records={result.records} />}
-                {view === 'map' && <ResultMap records={result.records} />}
+                {view === 'latitude' && <LatitudeChart records={result.records} coordinateMode={coordinateMode} />}
+                {view === 'map' && <ResultMap records={result.records} coordinateMode={coordinateMode} />}
               </div>
-              <div className="reproducibility-strip"><span>Export contains</span><strong>query.json · results.csv/json/geojson · README · citations.bib · dataset-manifest.json</strong></div>
+              <div className="reproducibility-strip"><span>Export contains</span><strong>query.json · results.csv/json · separate paleo/modern GeoJSON · README · citations.bib · dataset-manifest.json</strong></div>
             </>
           )}
         </section>
@@ -290,9 +297,9 @@ type CompareMode = 'taxa' | 'time' | 'geography' | 'hypotheses'
 function CompareStats({ left, right, leftLabel, rightLabel }: { left: LabResult | null; right: LabResult | null; leftLabel: string; rightLabel: string }) {
   if (!left || !right) return <div className="compare-empty">Run the comparison to load both bounded result sets.</div>
   const rows = [
-    ['Observed occurrences', left.stats.totalMatched, right.stats.totalMatched],
-    ['Unique taxa', left.stats.uniqueTaxa, right.stats.uniqueTaxa],
-    ['Countries represented', left.stats.countries, right.stats.countries],
+    ['Bundled rows matching filters', left.stats.totalMatched, right.stats.totalMatched],
+    ['Observed taxon concepts', left.stats.uniqueTaxa, right.stats.uniqueTaxa],
+    ['Country codes represented', left.stats.countries, right.stats.countries],
     ['Paleo-coordinate coverage', formatPercent(left.stats.paleoCoordinateCoverage), formatPercent(right.stats.paleoCoordinateCoverage)],
   ]
   return (
@@ -351,7 +358,7 @@ export function ComparePage({ params, onNavigate }: WorkbenchProps) {
   return (
     <main className="workbench-page compare-page">
       <header className="workbench-hero compare-hero">
-        <span className="section-label">Compare / matched evidence</span>
+        <span className="section-label">Compare / bounded evidence</span>
         <h1>Difference needs a shared frame.</h1>
         <p>Compare taxa, time windows, regions or model assumptions while keeping definitions and evidence limits visible.</p>
       </header>
@@ -370,7 +377,7 @@ export function ComparePage({ params, onNavigate }: WorkbenchProps) {
           <div className="taxa-compare-grid">
             {[leftProfile, rightProfile].map((profile) => {
               const count = profile.pbdbTaxonId ? occurrencesByTaxon[profile.pbdbTaxonId]?.length : undefined
-              return <article key={profile.id}><span>{profile.commonNameZh}</span><h2><em>{profile.scientificName}</em></h2><p>{profile.overview}</p><dl><div><dt>Range</dt><dd>{profile.firstAppearance}—{profile.lastAppearance || 'Present'} Ma</dd></div><div><dt>Guild</dt><dd>{profile.ecology.guild}</dd></div><div><dt>Body size</dt><dd>{profile.ecology.bodySize}</dd></div><div><dt>Local sample</dt><dd>{count ?? 'Loading…'}</dd></div><div><dt>Confidence</dt><dd>{profile.confidence}</dd></div></dl><button onClick={() => onNavigate('taxa', { id: profile.id })}>Open evidence page →</button></article>
+              return <article key={profile.id}><span>{profile.commonNameZh}</span><h2><em>{profile.scientificName}</em></h2><p>{profile.overview}</p><dl><div><dt>Range</dt><dd>{profile.firstAppearance}—{profile.lastAppearance || 'Present'} Ma</dd></div><div><dt>Guild</dt><dd>{profile.ecology.guild}</dd></div><div><dt>Body size</dt><dd>{profile.ecology.bodySize}</dd></div><div><dt>Bundled descendant rows</dt><dd>{count ?? 'Loading…'}</dd></div><div><dt>Profile confidence</dt><dd>{profile.confidence}</dd></div></dl><button onClick={() => onNavigate('taxa', { id: profile.id })}>Open evidence page →</button></article>
             })}
           </div>
         </section>
@@ -392,7 +399,7 @@ export function ComparePage({ params, onNavigate }: WorkbenchProps) {
               </>
             )}
           </div>
-          <button className="run-comparison" onClick={runComparison} disabled={loading}>{loading ? 'Loading all period chunks…' : 'Run matched comparison'}</button>
+          <button className="run-comparison" onClick={runComparison} disabled={loading}>{loading ? 'Loading all period chunks…' : 'Run bounded comparison'}</button>
           <CompareStats left={leftResult} right={rightResult} leftLabel={mode === 'time' ? `${olderA}–${youngerA} Ma` : countryA} rightLabel={mode === 'time' ? `${olderB}–${youngerB} Ma` : countryB} />
         </section>
       )}
@@ -400,7 +407,7 @@ export function ComparePage({ params, onNavigate }: WorkbenchProps) {
       {mode === 'hypotheses' && (
         <section className="hypothesis-grid">
           <article><span>Tree representation</span><div><h2>Cladogram</h2><p>Branch length carries no time meaning. Best for topology and navigation.</p></div><div><h2>First-appearance proxy</h2><p>Node positions use fossil observations, not calibrated divergence estimates.</p></div><footer>Current atlas: topology, first-appearance proxy and fossil-range modes are kept distinct</footer></article>
-          <article><span>Coordinate representation</span><div><h2>Modern discovery</h2><p>Where the fossil locality exists on today's continents.</p></div><div><h2>Paleocoordinate</h2><p>Model-derived location at a chosen reconstruction age.</p></div><footer>Current atlas: both fields preserved · paleocoordinates preferred on map</footer></article>
+          <article><span>Coordinate representation</span><div><h2>Modern discovery</h2><p>Where the fossil locality exists on today's continents.</p></div><div><h2>Paleocoordinate</h2><p>Model-derived location at a chosen reconstruction age.</p></div><footer>Current atlas: both fields are preserved and selected explicitly; neither fills gaps in the other</footer></article>
           <article><span>Ecological interpretation</span><div><h2>Observed occurrence</h2><p>A database record linked to a collection and identification.</p></div><div><h2>Inferred absence</h2><p>Not supported by a missing point without sampling and rock-availability controls.</p></div><footer>Current atlas: absence is never inferred from raw occurrence density</footer></article>
         </section>
       )}

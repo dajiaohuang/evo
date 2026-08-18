@@ -1,36 +1,53 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
+  "cladePackageId": "clade:perissodactyla-2026-08",
+  "topologyHypothesisId": "phylogeny:perissodactyla-curated-2026-08",
   "scope": "Selected published calibrations within Perissodactyla",
   "model": "Multiple-study evidence ledger; estimates are not merged into one synthetic clock",
   "estimates": [
     {
       "id": "tapiroidea-rhinocerotoidea",
+      "nodeId": "ceratomorpha",
+      "cladePackageId": "clade:perissodactyla-2026-08",
+      "topologyHypothesisId": "phylogeny:perissodactyla-curated-2026-08",
+      "compatibilityGroup": "bai-2020-tip-dating",
       "nodeLabel": "Tapiroidea ↔ Rhinocerotoidea",
       "medianMa": 54.6,
       "youngerMa": null,
       "olderMa": null,
       "method": "Bayesian tip-dating",
       "referenceId": "bai-2020-rhinocerotoidea",
+      "locator": { "figure": "Bayesian tip-dating tree in the article supplementary information" },
       "note": "Study-specific estimate for the split between tapiroid and rhinocerotoid lines."
     },
     {
       "id": "eggysodontidae-paraceratheriidae-rhinocerotidae",
+      "nodeId": "rhinocerotoidea",
+      "cladePackageId": "clade:perissodactyla-2026-08",
+      "topologyHypothesisId": "phylogeny:perissodactyla-curated-2026-08",
+      "compatibilityGroup": "bai-2020-tip-dating",
       "nodeLabel": "Eggysodontidae / Paraceratheriidae / Rhinocerotidae",
       "medianMa": 43.9,
       "youngerMa": 41.1,
       "olderMa": 47.0,
       "method": "Bayesian tip-dating · 95% HPD",
       "referenceId": "bai-2020-rhinocerotoidea",
+      "locator": { "figure": "Bayesian tip-dating tree in the article supplementary information" },
       "note": "A published internal rhinocerotoid calibration with its reported uncertainty."
     },
     {
       "id": "african-eurasian-rhinocerotina",
+      "nodeId": "rhinocerotidae",
+      "cladePackageId": "clade:perissodactyla-2026-08",
+      "topologyHypothesisId": "phylogeny:perissodactyla-curated-2026-08",
+      "compatibilityGroup": "liu-2021-genome-tree",
       "nodeLabel": "African ↔ Eurasian living rhinoceros lineages",
       "medianMa": 16.0,
       "youngerMa": null,
       "olderMa": null,
       "method": "Genome-scale species tree with fossil time context",
       "referenceId": "liu-2021-rhinoceros-genomes",
+      "locator": { "figure": "Genome-scale rhinoceros family tree" },
       "note": "Approximate early Miocene split reported by the genomic study."
     }
   ]

@@ -27,11 +27,13 @@ export interface TreeViewState {
   transform: { x: number; y: number; k: number };
 }
 
+export type TreeDisplayMode = 'navigation' | 'cladogram' | 'first-appearance' | 'fossil-range' | 'radial'
+
 export type TreeEvidenceSupport = 'strong' | 'moderate' | 'contextual' | 'contested'
 
 export interface TreeEvidenceRecord {
   support: TreeEvidenceSupport
-  topologyBasis?: string
+  groupingBasis?: string
   rangeBasis?: string
   conflicts: string
   references: string[]
@@ -39,7 +41,7 @@ export interface TreeEvidenceRecord {
 
 export interface TreeEvidenceCatalog {
   schemaVersion: number
-  topologyModel: string
+  navigationModel: string
   default: TreeEvidenceRecord
   nodes: Record<string, Partial<TreeEvidenceRecord>>
 }

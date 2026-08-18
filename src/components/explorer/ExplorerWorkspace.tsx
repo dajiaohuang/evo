@@ -1,17 +1,24 @@
 import { lazy, Suspense, useEffect, useMemo, useState } from 'react'
-import treeData from '../../../data/tree/life-cladogram.json'
-import periods from '../../../data/periods.json'
+import treeData from '../../../data/navigation/atlas-ontology.json'
 import manifest from '../../../data/manifest.json'
 import { useAppStore } from '../../store'
-import type { TreeNode } from '../../types'
+import type { TreeDisplayMode, TreeNode } from '../../types'
+import type { FossilMarkerMode } from '../../store/mapSlice'
+import type { CoordinateMode } from '../../utils/spatial'
 import { getEvolutionEvent, getEvolutionStory, getTaxonProfile } from '../../services/catalog'
-import { buildRouteHash, parseRouteHash } from '../../utils/routing'
+import { periods } from '../../services/geology'
+import { buildRouteHash, getFiniteRouteNumber, parseRouteHash } from '../../utils/routing'
+import { MAX_MAP_ZOOM, MIN_MAP_ZOOM } from '../../constants'
 import { GeoTimeline } from '../timeline/GeoTimeline'
 import { SpeciesDetail } from '../details/SpeciesDetail'
 import { ErrorBoundary } from '../common/ErrorBoundary'
 import './ExplorerWorkspace.css'
 
 type ExplorerView = 'map' | 'tree' | 'diversity'
+
+const TREE_MODES = new Set<TreeDisplayMode>(['navigation', 'cladogram', 'first-appearance', 'fossil-range', 'radial'])
+const MARKER_MODES = new Set<FossilMarkerMode>(['clusters', 'density', 'points'])
+const COORDINATE_MODES = new Set<CoordinateMode>(['paleo', 'modern'])
 
 const PaleoMap = lazy(() => import('../map/PaleoMap')
   .then((module) => ({ default: module.PaleoMap })))
@@ -44,7 +51,7 @@ function ModuleLoading() {
 }
 
 export function ExplorerWorkspace() {
-  const initialRoute = parseRouteHash(window.location.hash)
+  const [initialRoute] = useState(() => parseRouteHash(window.location.hash))
   const routeView = initialRoute.params.get('view')
   const initialView: ExplorerView = routeView === 'tree' || routeView === 'diversity' ? routeView : 'map'
   const [context] = useState(() => ({
@@ -52,6 +59,8 @@ export function ExplorerWorkspace() {
     event: initialRoute.params.get('event'),
     story: initialRoute.params.get('story'),
     step: initialRoute.params.get('step'),
+    older: getFiniteRouteNumber(initialRoute.params, 'older'),
+    younger: getFiniteRouteNumber(initialRoute.params, 'younger'),
   }))
   const [view, setView] = useState<ExplorerView>(initialView)
   const [mobilePanel, setMobilePanel] = useState<'navigator' | 'inspector' | null>(null)
@@ -68,8 +77,24 @@ export function ExplorerWorkspace() {
   const highlightTaxon = useAppStore((state) => state.highlightTaxon)
   const loadOccurrencesForTaxon = useAppStore((state) => state.loadOccurrencesForTaxon)
   const loadOccurrencesForInterval = useAppStore((state) => state.loadOccurrencesForInterval)
+  const viewState = useAppStore((state) => state.viewState)
+  const markerMode = useAppStore((state) => state.markerMode)
+  const coordinateMode = useAppStore((state) => state.coordinateMode)
+  const showContinents = useAppStore((state) => state.showContinents)
+  const reconstructionModelId = useAppStore((state) => state.reconstructionModelId)
+  const treeMode = useAppStore((state) => state.treeMode)
+  const selectedOccurrence = useAppStore((state) => state.selectedOccurrence)
+  const occurrencesByInterval = useAppStore((state) => state.occurrencesByInterval)
+  const occurrencesByTaxon = useAppStore((state) => state.occurrencesByTaxon)
+  const setViewState = useAppStore((state) => state.setViewState)
+  const setMarkerMode = useAppStore((state) => state.setMarkerMode)
+  const setCoordinateMode = useAppStore((state) => state.setCoordinateMode)
+  const setShowContinents = useAppStore((state) => state.setShowContinents)
+  const setReconstructionModelId = useAppStore((state) => state.setReconstructionModelId)
+  const setTreeMode = useAppStore((state) => state.setTreeMode)
+  const selectFossilOccurrence = useAppStore((state) => state.selectFossilOccurrence)
   const periodOccurrences = useAppStore((state) => (
-    currentPeriod ? state.occurrencesByInterval[currentPeriod] ?? [] : []
+    currentPeriod ? state.occurrencesByInterval[currentPeriod] : undefined
   ))
 
   const nodes = useMemo(() => flattenTree(treeData as TreeNode), [])
@@ -88,8 +113,26 @@ export function ExplorerWorkspace() {
 
   useEffect(() => {
     const params = initialRoute.params
-    const age = Number(params.get('age'))
-    if (Number.isFinite(age)) setTime(age)
+    const age = getFiniteRouteNumber(params, 'age')
+    if (age !== null) setTime(age)
+
+    const lat = getFiniteRouteNumber(params, 'lat')
+    const lng = getFiniteRouteNumber(params, 'lng')
+    const zoom = getFiniteRouteNumber(params, 'zoom')
+    if (lat !== null && lng !== null && lat >= -90 && lat <= 90 && lng >= -180 && lng <= 180) {
+      setViewState({ center: [lat, lng] })
+    }
+    if (zoom !== null && zoom >= MIN_MAP_ZOOM && zoom <= MAX_MAP_ZOOM) setViewState({ zoom })
+
+    const requestedMarkerMode = params.get('markers') as FossilMarkerMode | null
+    if (requestedMarkerMode && MARKER_MODES.has(requestedMarkerMode)) setMarkerMode(requestedMarkerMode)
+    const requestedCoordinateMode = params.get('coords') as CoordinateMode | null
+    if (requestedCoordinateMode && COORDINATE_MODES.has(requestedCoordinateMode)) setCoordinateMode(requestedCoordinateMode)
+    if (params.has('land')) setShowContinents(params.get('land') !== '0')
+    const requestedTreeMode = params.get('treeMode') as TreeDisplayMode | null
+    if (requestedTreeMode && TREE_MODES.has(requestedTreeMode)) setTreeMode(requestedTreeMode)
+    const requestedModel = params.get('model')
+    if (requestedModel) setReconstructionModelId(requestedModel)
 
     const taxon = params.get('taxon')
     if (taxon) {
@@ -116,6 +159,17 @@ export function ExplorerWorkspace() {
   }, [currentPeriod, loadOccurrencesForInterval])
 
   useEffect(() => {
+    const requestedId = initialRoute.params.get('occurrence')
+    if (!requestedId || selectedOccurrence?.oid === requestedId) return
+    const availableRecords = [
+      ...Object.values(occurrencesByInterval).flat(),
+      ...Object.values(occurrencesByTaxon).flat(),
+    ]
+    const match = availableRecords.find((record) => record.oid === requestedId)
+    if (match) selectFossilOccurrence(match)
+  }, [initialRoute.params, occurrencesByInterval, occurrencesByTaxon, selectFossilOccurrence, selectedOccurrence?.oid])
+
+  useEffect(() => {
     const hash = buildRouteHash('explore', {
       age: currentAge.toFixed(1),
       view,
@@ -124,9 +178,21 @@ export function ExplorerWorkspace() {
       event: context.event,
       story: context.story,
       step: context.step,
+      older: context.older,
+      younger: context.younger,
+      dataset: manifest.datasetVersion,
+      lat: viewState.center[0].toFixed(3),
+      lng: viewState.center[1].toFixed(3),
+      zoom: viewState.zoom.toFixed(2),
+      markers: markerMode,
+      coords: coordinateMode,
+      land: showContinents ? 1 : 0,
+      model: reconstructionModelId,
+      treeMode,
+      occurrence: selectedOccurrence?.oid,
     })
     window.history.replaceState(null, '', `${window.location.pathname}${window.location.search}${hash}`)
-  }, [context, currentAge, selectedNodeId, view])
+  }, [context, coordinateMode, currentAge, markerMode, reconstructionModelId, selectedNodeId, selectedOccurrence?.oid, showContinents, treeMode, view, viewState])
 
   const chooseNode = (node: FlatNode) => {
     selectNode(node.id)
@@ -156,7 +222,10 @@ export function ExplorerWorkspace() {
       <aside className={`explorer-nav${mobilePanel === 'navigator' ? ' is-open' : ''}`} aria-label="Taxon and time navigator">
         <div className="panel-heading">
           <span>Taxon navigator</span>
-          <small>{manifest.records.treeNodes} nodes</small>
+          <div className="panel-heading-actions">
+            <small>{manifest.records.treeNodes} nodes</small>
+            <button className="mobile-panel-close" aria-label="Close taxon panel" onClick={() => setMobilePanel(null)}>×</button>
+          </div>
         </div>
 
         <label className="taxon-search">
@@ -230,7 +299,7 @@ export function ExplorerWorkspace() {
             <button aria-expanded={mobilePanel === 'inspector'} onClick={() => setMobilePanel((panel) => panel === 'inspector' ? null : 'inspector')}>Evidence</button>
           </div>
           <div className="stage-metric">
-            <strong>{periodOccurrences.length.toLocaleString()}</strong>
+            <strong>{(periodOccurrences?.length ?? 0).toLocaleString()}</strong>
             <span>visible records</span>
           </div>
         </div>
@@ -252,7 +321,9 @@ export function ExplorerWorkspace() {
           {view === 'map'
             ? eventContext
               ? `${eventContext.title} · event window ${eventContext.startAge}–${eventContext.endAge} Ma`
-              : 'Period-level paleogeography · markers prefer reconstructed coordinates'
+              : context.older !== null && context.younger !== null
+                ? `Shared time window ${context.older}–${context.younger} Ma · map shown at ${currentAge.toFixed(1)} Ma`
+                : 'Period-level paleogeography · coordinate layers never mix modern and reconstructed positions'
             : view === 'tree'
               ? 'Cladogram, first-appearance proxy and fossil-range modes expose distinct time assumptions'
               : 'Observed sample patterns · absence and record counts are not direct biological richness estimates'}
@@ -262,7 +333,10 @@ export function ExplorerWorkspace() {
       <aside className={`explorer-inspector${mobilePanel === 'inspector' ? ' is-open' : ''}`} aria-label="Evidence inspector">
         <div className="panel-heading">
           <span>Evidence inspector</span>
-          <small>Selection</small>
+          <div className="panel-heading-actions">
+            <small>Selection</small>
+            <button className="mobile-panel-close" aria-label="Close evidence panel" onClick={() => setMobilePanel(null)}>×</button>
+          </div>
         </div>
         <div className="inspector-scroll">
           {(profileContext || eventContext) && (

@@ -38,7 +38,7 @@ export function summarizeSampling(records: FossilOccurrence[]): SamplingQuality 
   const ratio = (count: number) => records.length ? count / records.length : 0
   return {
     totalOccurrences: records.length,
-    observedTaxa: new Set(records.map((record) => record.tna).filter(Boolean)).size,
+    observedTaxa: new Set(records.map((record) => record.tid || record.tna || record.idn).filter(Boolean)).size,
     collections: new Set(records.map((record) => record.cid).filter(Boolean)).size,
     countries: new Set(records.map((record) => record.cc2).filter(Boolean)).size,
     paleoCoordinateCoverage: ratio(records.filter((record) => Number.isFinite(record.paleolat) && Number.isFinite(record.paleolng)).length),
@@ -69,14 +69,17 @@ export function buildDiversityBins(records: FossilOccurrence[], binCount = 10): 
       olderMa,
       youngerMa,
       occurrences: sampled.length,
-      observedTaxa: new Set(sampled.map((record) => record.tna).filter(Boolean)).size,
+      observedTaxa: new Set(sampled.map((record) => record.tid || record.tna || record.idn).filter(Boolean)).size,
     }
   })
 }
 
 export function topObservedTaxa(records: FossilOccurrence[], limit = 8): Array<{ name: string; count: number }> {
   const counts = new Map<string, number>()
-  for (const record of records) counts.set(record.tna, (counts.get(record.tna) ?? 0) + 1)
+  for (const record of records) {
+    const name = record.tna || record.idn || 'Unresolved identification'
+    counts.set(name, (counts.get(name) ?? 0) + 1)
+  }
   return [...counts.entries()]
     .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]))
     .slice(0, limit)

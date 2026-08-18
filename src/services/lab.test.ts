@@ -16,16 +16,19 @@ describe('lab query helpers', () => {
 
   it('creates CSV and GeoJSON representations', () => {
     expect(fossilsToCsv(records)).toContain('Hipparion')
-    expect(fossilsToGeoJson(records).features).toHaveLength(2)
+    expect(fossilsToGeoJson(records, 'paleo').features).toHaveLength(1)
+    expect(fossilsToGeoJson(records, 'modern').features).toHaveLength(2)
   })
 
   it('creates a reproducible zip payload', () => {
     const payload = createQueryPackage({
       query,
       records,
-      stats: { totalMatched: 2, returned: 2, uniqueTaxa: 2, countries: 2, paleoCoordinateCoverage: 0.5 },
+      stats: { totalMatched: 2, returned: 2, uniqueTaxa: 2, countries: 2, paleoCoordinateCoverage: 0.5, modernCoordinateCoverage: 1 },
       countsByPeriod: [],
       topTaxa: [],
+      truncated: false,
+      samplingMethod: 'bounded non-random PBDB API prefix sample',
     })
     expect(payload.byteLength).toBeGreaterThan(500)
   })

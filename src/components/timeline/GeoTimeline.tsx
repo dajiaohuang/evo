@@ -1,10 +1,9 @@
 import { useRef, useCallback, useEffect, useState } from 'react'
 import { useAppStore } from '../../store'
 import { EARTH_HISTORY_TOTAL_MA, ERA_COLORS, PHANEROZOIC_TOTAL_MA } from '../../constants'
-import periodsData from '../../../data/periods.json'
-import timeScaleData from '../../../data/time-scale.json'
 import eventsData from '../../../data/events.json'
 import type { GeoInterval } from '../../types'
+import { periods, timeScaleUnits } from '../../services/geology'
 
 const TIMELINE_HEIGHT = 100
 const PADDING_X = 8
@@ -114,7 +113,7 @@ export function GeoTimeline() {
     { name: 'Paleozoic', lag: 251.9, eag: 538.8, color: ERA_COLORS['Paleozoic'] },
   ]
 
-  const eons = (timeScaleData.units as GeoInterval[]).filter((unit) => unit.itp === 'eon')
+  const eons = (timeScaleUnits as GeoInterval[]).filter((unit) => unit.itp === 'eon')
 
   const ageLabel = currentAge >= 1000
     ? `${(currentAge / 1000).toFixed(2)} Ga`
@@ -191,7 +190,7 @@ export function GeoTimeline() {
             />
           )
         })}
-        {scaleMode === 'phanerozoic' && periodsData.map((p) => {
+        {scaleMode === 'phanerozoic' && periods.map((p) => {
           const left = ageToX(p.eag, width)
           const right = ageToX(p.lag, width)
           const periodW = Math.max(1, right - left)

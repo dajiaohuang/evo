@@ -57,13 +57,14 @@ describe('computeClusters', () => {
     expect(result.length).toBe(0)
   })
 
-  it('handles occurrences without paleocoordinates', () => {
+  it('does not fall back to modern coordinates when paleocoordinates are missing', () => {
     const occ = makeOcc('1', 10, 20)
     occ.paleolng = undefined
     occ.paleolat = undefined
-    const result = computeClusters([occ], 2)
-    expect(result.length).toBe(1)
-    expect(result[0].type).toBe('individual')
+    expect(computeClusters([occ], 2)).toHaveLength(0)
+    const modern = computeClusters([occ], 2, { gridSize: 40, maxZoom: 5, coordinateMode: 'modern' })
+    expect(modern).toHaveLength(1)
+    expect(modern[0].type).toBe('individual')
   })
 
   it('clusters at low zoom with default config', () => {

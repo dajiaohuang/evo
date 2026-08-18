@@ -3,6 +3,7 @@ import manifest from '../../data/manifest.json'
 import references from '../../data/references.json'
 import type { FossilOccurrence } from '../types'
 import { FOSSIL_PERIODS, getAllFossils, getFossilsByInterval } from './localFossils'
+import { getSpatialPosition, hasSpatialPosition, type CoordinateMode } from '../utils/spatial'
 
 export interface LabQuery {
   periods: string[]
@@ -19,6 +20,7 @@ export interface LabStats {
   uniqueTaxa: number
   countries: number
   paleoCoordinateCoverage: number
+  modernCoordinateCoverage: number
 }
 
 export interface LabResult {
@@ -27,6 +29,8 @@ export interface LabResult {
   stats: LabStats
   countsByPeriod: Array<{ period: string; count: number }>
   topTaxa: Array<{ taxon: string; count: number }>
+  truncated: boolean
+  samplingMethod: string
 }
 
 function intersectsAge(record: FossilOccurrence, olderMa: number | null, youngerMa: number | null): boolean {
@@ -39,7 +43,7 @@ export function filterFossils(records: FossilOccurrence[], query: LabQuery): Fos
   const taxon = query.taxon.trim().toLocaleLowerCase()
   const country = query.country.trim().toLocaleUpperCase()
   return records.filter((record) => {
-    if (taxon && !`${record.tna} ${record.idn}`.toLocaleLowerCase().includes(taxon)) return false
+    if (taxon && !`${record.tna ?? ''} ${record.idn}`.toLocaleLowerCase().includes(taxon)) return false
     if (country && (record.cc2 ?? '').toLocaleUpperCase() !== country) return false
     return intersectsAge(record, query.olderMa, query.youngerMa)
   })
@@ -61,7 +65,7 @@ export async function runLabQuery(query: LabQuery): Promise<LabResult> {
     : (await Promise.all(selectedPeriods.map(getFossilsByInterval))).flat()
   const matched = filterFossils(chunks, query)
   const records = matched
-    .sort((a, b) => b.eag - a.eag || a.tna.localeCompare(b.tna))
+    .sort((a, b) => b.eag - a.eag || (a.tna || a.idn).localeCompare(b.tna || b.idn))
     .slice(0, Math.max(1, Math.min(query.limit, 5000)))
 
   const countsByPeriod = await Promise.all(selectedPeriods.map(async (period) => {
@@ -69,9 +73,8 @@ export async function runLabQuery(query: LabQuery): Promise<LabResult> {
     return { period, count: filterFossils(periodRecords, query).length }
   }))
 
-  const paleoCoordinates = matched.filter((record) => (
-    Number.isFinite(record.paleolat) && Number.isFinite(record.paleolng)
-  )).length
+  const paleoCoordinates = matched.filter((record) => hasSpatialPosition(record, 'paleo')).length
+  const modernCoordinates = matched.filter((record) => hasSpatialPosition(record, 'modern')).length
 
   return {
     query,
@@ -79,12 +82,15 @@ export async function runLabQuery(query: LabQuery): Promise<LabResult> {
     stats: {
       totalMatched: matched.length,
       returned: records.length,
-      uniqueTaxa: new Set(matched.map((record) => record.tna)).size,
+      uniqueTaxa: new Set(matched.map((record) => record.tid || `name:${record.tna || record.idn}`)).size,
       countries: new Set(matched.map((record) => record.cc2).filter(Boolean)).size,
       paleoCoordinateCoverage: matched.length ? paleoCoordinates / matched.length : 0,
+      modernCoordinateCoverage: matched.length ? modernCoordinates / matched.length : 0,
     },
     countsByPeriod,
-    topTaxa: topCounts(matched.map((record) => record.tna), 12),
+    topTaxa: topCounts(matched.map((record) => record.tna || record.idn || 'Unresolved identification'), 12),
+    truncated: records.length < matched.length,
+    samplingMethod: 'bounded non-random PBDB API prefix sample',
   }
 }
 
@@ -94,24 +100,25 @@ function csvCell(value: unknown): string {
 }
 
 export function fossilsToCsv(records: FossilOccurrence[]): string {
-  const headers = ['occurrence_id', 'accepted_name', 'identified_name', 'taxon_id', 'early_age_ma', 'late_age_ma', 'country', 'modern_lng', 'modern_lat', 'paleo_lng', 'paleo_lat', 'collection_id']
+  const headers = ['occurrence_id', 'accepted_name', 'identified_name', 'taxon_id', 'early_age_ma', 'late_age_ma', 'country', 'modern_lng', 'modern_lat', 'paleo_lng', 'paleo_lat', 'paleo_model', 'coordinate_precision', 'formation', 'member', 'environment', 'reference_id', 'collection_id']
   const rows = records.map((record) => [
     record.oid, record.tna, record.idn, record.tid, record.eag, record.lag, record.cc2,
-    record.lng, record.lat, record.paleolng, record.paleolat, record.cid,
+    record.lng, record.lat, record.paleolng, record.paleolat, record.paleoModelId,
+    record.coordinatePrecision, record.formation, record.member, record.paleoenvironment,
+    record.referenceId, record.cid,
   ].map(csvCell).join(','))
   return [headers.join(','), ...rows].join('\n')
 }
 
-export function fossilsToGeoJson(records: FossilOccurrence[]) {
+export function fossilsToGeoJson(records: FossilOccurrence[], mode: CoordinateMode) {
   return {
     type: 'FeatureCollection',
     features: records.flatMap((record) => {
-      const lng = record.paleolng ?? Number(record.lng)
-      const lat = record.paleolat ?? Number(record.lat)
-      if (!Number.isFinite(lng) || !Number.isFinite(lat)) return []
+      const position = getSpatialPosition(record, mode)
+      if (position.mode !== mode) return []
       return [{
         type: 'Feature',
-        geometry: { type: 'Point', coordinates: [lng, lat] },
+        geometry: { type: 'Point', coordinates: [position.lng, position.lat] },
         properties: {
           occurrenceId: record.oid,
           acceptedName: record.tna,
@@ -119,7 +126,9 @@ export function fossilsToGeoJson(records: FossilOccurrence[]) {
           earlyAgeMa: record.eag,
           lateAgeMa: record.lag,
           country: record.cc2 ?? null,
-          coordinateMode: record.paleolng != null ? 'paleo' : 'modern',
+          coordinateMode: mode,
+          reconstructionAgeMa: position.mode === 'paleo' ? position.reconstructionAgeMa : null,
+          reconstructionModel: position.mode === 'paleo' ? position.modelId : null,
         },
       }]
     }),
@@ -130,8 +139,8 @@ function makeBibtex(): string {
   const pbdb = references.find((reference) => reference.id === 'pbdb-api-2016')
   const ics = references.find((reference) => reference.id === 'ics-2026-06')
   return [
-    `@article{peters2016pbdb,\n  title={${pbdb?.title}},\n  author={${pbdb?.authors}},\n  year={${pbdb?.year}},\n  doi={${pbdb?.doi}}\n}`,
-    `@misc{ics2026chart,\n  title={${ics?.title}},\n  author={${ics?.authors}},\n  year={${ics?.year}},\n  url={${ics?.url}}\n}`,
+    `@article{peters2016pbdb,\n  title={${pbdb?.title}},\n  author={${pbdb?.authors}},\n  year={${pbdb?.publishedYear}},\n  doi={${pbdb?.doi}}\n}`,
+    `@misc{ics2026chart,\n  title={${ics?.title}},\n  author={${ics?.authors}},\n  year={${ics?.publishedYear}},\n  url={${ics?.url}}\n}`,
   ].join('\n\n')
 }
 
@@ -143,14 +152,19 @@ export function createQueryPackage(result: LabResult): Uint8Array {
     `Matched records: ${result.stats.totalMatched}`,
     `Returned records: ${result.stats.returned}`,
     '',
-    'This bundle contains a bounded, sampled fossil-occurrence result. Absence from the result is not evidence of biological absence.',
+    `Result truncated by query limit: ${result.truncated ? 'yes' : 'no'}`,
+    `Sampling method: ${result.samplingMethod}`,
+    '',
+    'This bundle contains a bounded, non-random API-prefix sample. Absence from the result is not evidence of biological absence.',
+    'Paleo and modern coordinates are exported separately and are never used to fill missing halves of another coordinate pair.',
   ].join('\n')
 
   return zipSync({
     'query.json': strToU8(JSON.stringify(result.query, null, 2)),
     'results.csv': strToU8(fossilsToCsv(result.records)),
     'results.json': strToU8(JSON.stringify(result.records, null, 2)),
-    'results.geojson': strToU8(JSON.stringify(fossilsToGeoJson(result.records), null, 2)),
+    'results-paleo.geojson': strToU8(JSON.stringify(fossilsToGeoJson(result.records, 'paleo'), null, 2)),
+    'results-modern.geojson': strToU8(JSON.stringify(fossilsToGeoJson(result.records, 'modern'), null, 2)),
     'README.txt': strToU8(readme),
     'citations.bib': strToU8(makeBibtex()),
     'dataset-manifest.json': strToU8(JSON.stringify(manifest, null, 2)),

@@ -8,13 +8,18 @@
     "build": "tsc -b && vite build",
     "test": "vitest run --config vitest.config.ts",
     "test:watch": "vitest --config vitest.config.ts",
+    "test:e2e": "playwright test",
     "lint": "eslint .",
     "preview": "vite preview",
+    "size:check": "node scripts/check-bundle-size.mjs",
     "data:manifest": "node scripts/build-manifest.mjs",
+    "data:indexes": "node scripts/build-taxon-index.mjs",
     "data:validate": "node scripts/validate-data.mjs",
     "data:fetch:fossils": "node scripts/fetch-fossils.mjs",
+    "data:enrich:fossils": "node scripts/enrich-bundled-fossils.mjs",
+    "data:normalize:fossils": "node scripts/normalize-fossil-records.mjs",
     "data:split:geojson": "node scripts/subdivide-geojson.mjs",
-    "verify": "npm run lint && npm test && npm run data:validate && npm run build"
+    "verify": "npm run lint && npm test && npm run data:validate && npm run build && npm run size:check && npm run test:e2e"
   },
   "dependencies": {
     "d3": "^7.9.0",
@@ -26,7 +31,9 @@
     "zustand": "^5.0.13"
   },
   "devDependencies": {
+    "@axe-core/playwright": "^4.13.0",
     "@eslint/js": "^10.0.1",
+    "@playwright/test": "^1.62.1",
     "@testing-library/jest-dom": "^6.9.1",
     "@testing-library/react": "^16.3.2",
     "@testing-library/user-event": "^14.6.1",
@@ -37,6 +44,7 @@
     "@types/react-dom": "^19.2.3",
     "@vitejs/plugin-react": "^6.0.1",
     "@vitest/ui": "^4.1.5",
+    "ajv": "^8.20.0",
     "eslint": "^10.2.1",
     "eslint-plugin-react-hooks": "^7.1.1",
     "eslint-plugin-react-refresh": "^0.5.2",

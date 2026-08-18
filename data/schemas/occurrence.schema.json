@@ -1,0 +1,42 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://dajiaohuang.github.io/evo/schemas/occurrence.schema.json",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["oid", "idn", "lng", "lat", "eag", "lag", "cid", "oei"],
+  "anyOf": [
+    { "required": ["tna"], "properties": { "tna": { "type": "string", "minLength": 1 } } },
+    { "properties": { "idn": { "type": "string", "minLength": 1 } } }
+  ],
+  "properties": {
+    "oid": { "type": "string", "pattern": "^occ:[0-9]+$" },
+    "tna": { "type": "string", "minLength": 1 },
+    "idn": { "type": "string" },
+    "tid": { "type": "string", "pattern": "^txn:[0-9]+$" },
+    "rnk": { "type": "number" },
+    "lng": { "type": "string", "pattern": "^-?(?:180(?:\\.0+)?|(?:1[0-7][0-9]|[1-9]?[0-9])(?:\\.[0-9]+)?)$" },
+    "lat": { "type": "string", "pattern": "^-?(?:90(?:\\.0+)?|(?:[1-8]?[0-9])(?:\\.[0-9]+)?)$" },
+    "eag": { "type": "number", "minimum": 0, "maximum": 4567 },
+    "lag": { "type": "number", "minimum": 0, "maximum": 4567 },
+    "paleolng": { "type": "number", "minimum": -180, "maximum": 180 },
+    "paleolat": { "type": "number", "minimum": -90, "maximum": 90 },
+    "cid": { "type": "string", "minLength": 1 },
+    "oei": { "type": "string" },
+    "nmn": { "type": "string" },
+    "srs": { "type": "string" },
+    "cc2": { "type": "string", "pattern": "^[A-Z]{2}$" },
+    "stp": { "type": "string" },
+    "referenceId": { "type": "string", "pattern": "^ref:[0-9]+$" },
+    "referenceAuthor": { "type": "string", "minLength": 1 },
+    "referenceYear": { "type": "integer", "minimum": 1600, "maximum": 2100 },
+    "formation": { "type": "string", "minLength": 1 },
+    "member": { "type": "string", "minLength": 1 },
+    "lithology": { "type": "string", "minLength": 1 },
+    "paleoenvironment": { "type": "string", "minLength": 1 },
+    "coordinatePrecision": { "type": "string", "minLength": 1 },
+    "geographicScale": { "type": "string", "minLength": 1 },
+    "specimenBasis": { "type": "string", "minLength": 1 },
+    "paleoModelId": { "type": "string", "minLength": 1 },
+    "plateId": { "type": "string", "minLength": 1 }
+  }
+}

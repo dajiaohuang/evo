@@ -24,9 +24,20 @@ export default defineConfig({
         ],
       },
       workbox: {
-        globPatterns: ['**/*.{js,css,html,svg,json}'],
+        globPatterns: ['**/*.{html,css,svg}', 'assets/index-*.js', 'assets/workbox-window*.js'],
         navigateFallback: '/evo/index.html',
         cleanupOutdatedCaches: true,
+        runtimeCaching: [
+          {
+            urlPattern: ({ url, sameOrigin }) => sameOrigin && url.pathname.startsWith('/evo/assets/'),
+            handler: 'CacheFirst',
+            options: {
+              cacheName: 'evo-lazy-assets-v1',
+              expiration: { maxEntries: 80, maxAgeSeconds: 60 * 60 * 24 * 30 },
+              cacheableResponse: { statuses: [0, 200] },
+            },
+          },
+        ],
       },
     }),
   ],

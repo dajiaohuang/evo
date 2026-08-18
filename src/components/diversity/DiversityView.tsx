@@ -1,7 +1,10 @@
 import { useMemo } from 'react'
 import { useAppStore } from '../../store'
 import { buildDiversityBins, summarizeSampling, topObservedTaxa } from '../../services/diversity'
+import type { FossilOccurrence } from '../../types'
 import './DiversityView.css'
+
+const EMPTY_OCCURRENCES: FossilOccurrence[] = []
 
 function percentage(value: number): string {
   return `${(value * 100).toFixed(0)}%`
@@ -9,7 +12,8 @@ function percentage(value: number): string {
 
 export function DiversityView() {
   const currentPeriod = useAppStore((state) => state.currentPeriod)
-  const records = useAppStore((state) => currentPeriod ? state.occurrencesByInterval[currentPeriod] ?? [] : [])
+  const loadedRecords = useAppStore((state) => currentPeriod ? state.occurrencesByInterval[currentPeriod] : undefined)
+  const records = loadedRecords ?? EMPTY_OCCURRENCES
   const quality = useMemo(() => summarizeSampling(records), [records])
   const bins = useMemo(() => buildDiversityBins(records, 12), [records])
   const topTaxa = useMemo(() => topObservedTaxa(records), [records])

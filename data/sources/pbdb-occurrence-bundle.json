@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "source": "PBDB Data Service 1.2",
+  "endpoint": "https://paleobiodb.org/data1.2/occs/list.json",
+  "fetchedAt": "2026-08-18",
+  "samplingMethod": "bounded non-random API-prefix sample",
+  "order": "id",
+  "stratification": "geological period",
+  "randomized": false,
+  "selectionProbabilityKnown": false,
+  "sourceTotalsRetained": false,
+  "queryTemplate": "interval={period}&limit={limit}&offset={offset}&show=full&order=id",
+  "limitations": [
+    "Each period stops at a configured row limit.",
+    "Rows are ordered by PBDB occurrence identifier and are not a random or representative sample.",
+    "Counts may not be compared as unbiased estimates of biological diversity.",
+    "Paleocoordinates retain the model label returned by PBDB when supplied."
+  ]
+}

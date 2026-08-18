@@ -121,7 +121,7 @@
 .connectivity-status.is-offline { color: #d7b68c; }
 .connectivity-status.is-offline i { background: #f2a65a; box-shadow: none; }
 
-.skip-link { position: fixed; top: 8px; left: 8px; z-index: 5000; padding: 8px 11px; background: var(--color-accent); color: #06110d; font-weight: 750; text-decoration: none; transform: translateY(-150%); }
+.skip-link { position: fixed; top: 8px; left: 8px; z-index: 5000; padding: 8px 11px; border: 0; background: var(--color-accent); color: #06110d; font: inherit; font-weight: 750; cursor: pointer; transform: translateY(-150%); }
 .skip-link:focus { transform: translateY(0); }
 
 .status-dot {

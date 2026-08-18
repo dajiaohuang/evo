@@ -29,3 +29,11 @@ export function buildRouteHash(
   const suffix = query.toString()
   return `#/${route}${suffix ? `?${suffix}` : ''}`
 }
+
+export function getFiniteRouteNumber(params: URLSearchParams, key: string): number | null {
+  if (!params.has(key)) return null
+  const raw = params.get(key)
+  if (raw === null || raw.trim() === '') return null
+  const parsed = Number(raw)
+  return Number.isFinite(parsed) ? parsed : null
+}

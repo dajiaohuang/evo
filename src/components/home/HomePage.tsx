@@ -1,7 +1,7 @@
-import periods from '../../../data/periods.json'
 import manifest from '../../../data/manifest.json'
 import storiesData from '../../../data/stories.json'
 import { useAppStore } from '../../store'
+import { periods } from '../../services/geology'
 import type { AppRoute } from '../../utils/routing'
 import './HomePage.css'
 

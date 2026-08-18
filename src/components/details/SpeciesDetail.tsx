@@ -1,9 +1,10 @@
 import { useAppStore } from '../../store'
-import treeData from '../../../data/tree/life-cladogram.json'
+import treeData from '../../../data/navigation/atlas-ontology.json'
 import type { TreeNode } from '../../types'
 import type { TreeEvidenceCatalog, TreeEvidenceRecord } from '../../types'
 import treeEvidenceData from '../../../data/tree/evidence.json'
 import references from '../../../data/references.json'
+import { getSpatialPosition } from '../../utils/spatial'
 
 function findNode(nodes: TreeNode[], id: string): TreeNode | null {
   for (const node of nodes) {
@@ -22,6 +23,8 @@ export function SpeciesDetail() {
   const currentAge = useAppStore((s) => s.currentAge)
   const highlightedTaxonId = useAppStore((s) => s.highlightedTaxonId)
   const occurrencesByTaxon = useAppStore((s) => s.occurrencesByTaxon)
+  const taxonOccurrenceStatus = useAppStore((s) => s.taxonOccurrenceStatus)
+  const taxonOccurrenceErrors = useAppStore((s) => s.taxonOccurrenceErrors)
   const occurrencesByInterval = useAppStore((s) => s.occurrencesByInterval)
   const selectedOccurrence = useAppStore((s) => s.selectedOccurrence)
   const selectFossilOccurrence = useAppStore((s) => s.selectFossilOccurrence)
@@ -36,9 +39,14 @@ export function SpeciesDetail() {
   } : null
   const taxonOccurrences = highlightedTaxonId ? occurrencesByTaxon[highlightedTaxonId] ?? [] : []
   const periodCache = currentPeriod ? (occurrencesByInterval[currentPeriod] ?? null) : null
-  const periodFossils = periodCache?.slice(0, 100) ?? []
+  const periodFossils = periodCache ?? []
+  const taxonQueryKey = highlightedTaxonId ? `descendants:${highlightedTaxonId}` : ''
+  const taxonStatus = taxonQueryKey ? taxonOccurrenceStatus[taxonQueryKey] ?? 'idle' : 'idle'
+  const taxonError = taxonQueryKey ? taxonOccurrenceErrors[taxonQueryKey] : null
 
   if (selectedOccurrence) {
+    const paleoPosition = getSpatialPosition(selectedOccurrence, 'paleo')
+    const modernPosition = getSpatialPosition(selectedOccurrence, 'modern')
     return (
       <div style={{ padding: 16 }}>
         <button
@@ -51,7 +59,7 @@ export function SpeciesDetail() {
           ← Back
         </button>
         <h3 style={{ fontSize: 16, fontWeight: 700, color: 'var(--color-accent)', marginBottom: 4 }}>
-          {selectedOccurrence.tna}
+          {selectedOccurrence.tna || selectedOccurrence.idn || 'Unresolved identification'}
         </h3>
         {selectedOccurrence.idn && (
           <p style={{ fontSize: 12, color: 'var(--color-text-muted)', marginBottom: 12 }}>
@@ -71,19 +79,20 @@ export function SpeciesDetail() {
             </div>
             <div style={{ marginTop: 3, color: 'var(--color-text-muted)', fontSize: 10 }}>Displayed midpoint: {((selectedOccurrence.eag + selectedOccurrence.lag) / 2).toFixed(1)} Ma</div>
           </div>
-          {Number.isFinite(selectedOccurrence.paleolat) && Number.isFinite(selectedOccurrence.paleolng) && (
+          {paleoPosition.mode === 'paleo' && (
             <div style={{ padding: 10, background: 'var(--color-surface-alt)', borderRadius: 6 }}>
               <div style={{ color: 'var(--color-text-muted)' }}>Reconstructed Coordinates</div>
-              <div style={{ fontFamily: 'var(--font-mono)' }}>{selectedOccurrence.paleolat?.toFixed(2)}°, {selectedOccurrence.paleolng?.toFixed(2)}°</div>
-              <div style={{ marginTop: 3, color: 'var(--color-text-muted)', fontSize: 10 }}>Bundled PBDB paleolocation; per-record plate model is not retained.</div>
+              <div style={{ fontFamily: 'var(--font-mono)' }}>{paleoPosition.lat.toFixed(2)}°, {paleoPosition.lng.toFixed(2)}°</div>
+              <div style={{ marginTop: 3, color: 'var(--color-text-muted)', fontSize: 10 }}>Model: {paleoPosition.modelId} · reconstruction age {paleoPosition.reconstructionAgeMa.toFixed(2)} Ma.</div>
             </div>
           )}
-          <div style={{ padding: 10, background: 'var(--color-surface-alt)', borderRadius: 6 }}>
+          {modernPosition.mode === 'modern' && <div style={{ padding: 10, background: 'var(--color-surface-alt)', borderRadius: 6 }}>
             <div style={{ color: 'var(--color-text-muted)' }}>Modern Coordinates</div>
             <div style={{ fontFamily: 'var(--font-mono)' }}>
-              {parseFloat(selectedOccurrence.lat).toFixed(2)}°, {parseFloat(selectedOccurrence.lng).toFixed(2)}°
+              {modernPosition.lat.toFixed(2)}°, {modernPosition.lng.toFixed(2)}°
             </div>
-          </div>
+            {modernPosition.coordinatePrecision && <div style={{ marginTop: 3, color: 'var(--color-text-muted)', fontSize: 10 }}>Precision: {modernPosition.coordinatePrecision}</div>}
+          </div>}
           {selectedOccurrence.cc2 && (
             <div style={{ padding: 10, background: 'var(--color-surface-alt)', borderRadius: 6 }}>
               <div style={{ color: 'var(--color-text-muted)' }}>Country</div>
@@ -97,7 +106,9 @@ export function SpeciesDetail() {
           {selectedOccurrence.tid && (
             <button
               onClick={() => {
-                const treeNode = findNodeByTaxon([treeData as TreeNode], selectedOccurrence.tid)
+                const taxonId = selectedOccurrence.tid
+                if (!taxonId) return
+                const treeNode = findNodeByTaxon([treeData as TreeNode], taxonId)
                 if (treeNode) {
                   selectNode(treeNode.id)
                   selectFossilOccurrence(null)
@@ -171,10 +182,10 @@ export function SpeciesDetail() {
             {nodeEvidence && (
               <div className="tree-evidence-card">
                 <div><span>Tree evidence</span><strong>{nodeEvidence.support}</strong></div>
-                <p>{nodeEvidence.topologyBasis}</p>
+                <p>{nodeEvidence.groupingBasis}</p>
                 <p>{nodeEvidence.rangeBasis}</p>
                 <p className="tree-evidence-conflict"><b>Uncertainty</b> {nodeEvidence.conflicts}</p>
-                <small>{evidenceCatalog.topologyModel}</small>
+                <small>{evidenceCatalog.navigationModel}</small>
                 <div className="tree-evidence-links">
                   {nodeEvidence.references.map((referenceId) => {
                     const reference = references.find((item) => item.id === referenceId)
@@ -189,8 +200,12 @@ export function SpeciesDetail() {
                 <div style={{ color: 'var(--color-text-muted)', marginBottom: 4 }}>
                   Fossil Records ({taxonOccurrences.length})
                 </div>
-                {taxonOccurrences.length === 0 ? (
-                  <div style={{ color: 'var(--color-text-muted)', fontSize: 11 }}>Loading...</div>
+                {taxonStatus === 'loading' || taxonStatus === 'idle' ? (
+                  <div style={{ color: 'var(--color-text-muted)', fontSize: 11 }}>Loading represented descendants…</div>
+                ) : taxonStatus === 'error' ? (
+                  <div style={{ color: 'var(--color-danger)', fontSize: 11 }}>Query failed: {taxonError}</div>
+                ) : taxonStatus === 'empty' ? (
+                  <div style={{ color: 'var(--color-text-muted)', fontSize: 11 }}>No matching row in the bounded local sample.</div>
                 ) : (
                   <div style={{ maxHeight: 200, overflowY: 'auto', display: 'flex', flexDirection: 'column', gap: 4 }}>
                     {taxonOccurrences.slice(0, 30).map((occ) => (
@@ -210,6 +225,7 @@ export function SpeciesDetail() {
                         {occ.cc2 ?? 'Unknown'}
                       </button>
                     ))}
+                    {taxonOccurrences.length > 30 && <small style={{ color: 'var(--color-text-muted)' }}>Showing 30 of {taxonOccurrences.length.toLocaleString()} matched rows.</small>}
                   </div>
                 )}
               </div>
@@ -239,9 +255,7 @@ export function SpeciesDetail() {
                     key={occ.oid}
                     onClick={() => {
                       selectFossilOccurrence(occ)
-                      if (occ.paleolat && occ.paleolng) {
-                        setTime((occ.eag + occ.lag) / 2)
-                      }
+                      setTime((occ.eag + occ.lag) / 2)
                     }}
                     style={{
                       background: '#21262d', border: '1px solid #30363d',
@@ -250,7 +264,7 @@ export function SpeciesDetail() {
                       display: 'flex', justifyContent: 'space-between',
                     }}
                   >
-                    <span>{occ.tna}</span>
+                    <span>{occ.tna || occ.idn || 'Unresolved identification'}</span>
                     <span style={{ fontFamily: 'var(--font-mono)', color: 'var(--color-text-muted)', fontSize: 10 }}>
                       {occ.eag?.toFixed(0)} Ma
                     </span>

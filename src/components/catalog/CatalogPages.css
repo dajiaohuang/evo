@@ -42,13 +42,15 @@
 .catalog-facts strong { margin-top: 7px; font-size: 11px; }
 .is-extinct { color: #d9967d; }
 .is-extant { color: var(--color-accent); }
+.catalog-query-state { width: min(1120px, calc(100% - 48px)); margin: 12px auto 0; color: var(--color-text-faint); font: 8px/1.6 var(--font-mono); }
+.catalog-query-state--error { color: var(--color-danger); }
 
 .catalog-body { display: grid; grid-template-columns: 180px minmax(0, 1fr); gap: 80px; padding-top: 85px; }
 .catalog-body--wide { grid-template-columns: 1fr; }
 .catalog-toc { position: sticky; top: calc(var(--topbar-height) + 30px); align-self: start; display: flex; flex-direction: column; gap: 11px; }
 .catalog-toc span { margin-bottom: 8px; color: var(--color-text-faint); font: 8px var(--font-mono); text-transform: uppercase; }
-.catalog-toc a { color: var(--color-text-muted); font-size: 10px; text-decoration: none; }
-.catalog-toc a:hover { color: var(--color-accent); }
+.catalog-toc button { padding: 0; border: 0; background: none; color: var(--color-text-muted); font: inherit; font-size: 10px; text-align: left; cursor: pointer; }
+.catalog-toc button:hover, .catalog-toc button:focus-visible { color: var(--color-accent); }
 .catalog-content { min-width: 0; }
 .catalog-section { padding: 0 0 90px; scroll-margin-top: calc(var(--topbar-height) + 24px); }
 .catalog-section h2 { margin: 9px 0 27px; font: 500 36px var(--font-display); letter-spacing: -0.03em; }

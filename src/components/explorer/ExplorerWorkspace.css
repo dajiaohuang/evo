@@ -52,6 +52,9 @@
   font-weight: 500;
 }
 
+.panel-heading-actions { display: flex; align-items: center; gap: 8px; }
+.mobile-panel-close { display: none; width: 28px; height: 28px; border: 1px solid var(--color-border); background: var(--color-bg-elevated); color: var(--color-text); font-size: 18px; line-height: 1; cursor: pointer; }
+
 .taxon-search {
   height: 38px;
   margin: 14px 14px 4px;
@@ -211,6 +214,7 @@
   .explorer-nav.is-open,
   .explorer-inspector.is-open { display: flex; }
   .explorer-panel-backdrop { display: block; position: fixed; inset: var(--topbar-height) 0 62px; z-index: 1700; border: 0; background: rgba(0, 0, 0, .58); }
+  .mobile-panel-close { display: inline-grid; place-items: center; }
   .stage-toolbar { padding: 7px 9px; grid-template-columns: minmax(0, 1fr) auto; gap: 6px; }
   .stage-toolbar > div:first-child { display: none; }
   .view-switcher { min-width: 0; }

@@ -1,19 +1,25 @@
-import { useEffect, useMemo, useRef, useState } from 'react'
+import { useEffect, useMemo, useRef } from 'react'
 import { MapContainer, GeoJSON } from 'react-leaflet'
+import type { Map as LeafletMap } from 'leaflet'
 import { useAppStore } from '../../store'
 import { usePaleogeography } from '../../hooks/usePaleogeography'
-import { FossilMarkers, type CoordinateMode, type MarkerMode } from './FossilMarkers'
+import { FossilMarkers, type MarkerMode } from './FossilMarkers'
+import { hasSpatialPosition, type CoordinateMode } from '../../utils/spatial'
 import { MIN_MAP_ZOOM, MAX_MAP_ZOOM, DEFAULT_MAP_CENTER, DEFAULT_MAP_ZOOM } from '../../constants'
 
 export function PaleoMap() {
-  const [markerMode, setMarkerMode] = useState<MarkerMode>('clusters')
-  const [coordinateMode, setCoordinateMode] = useState<CoordinateMode>('paleo')
-  const [showContinents, setShowContinents] = useState(true)
+  const markerMode = useAppStore((s) => s.markerMode) as MarkerMode
+  const coordinateMode = useAppStore((s) => s.coordinateMode) as CoordinateMode
+  const showContinents = useAppStore((s) => s.showContinents)
+  const setMarkerMode = useAppStore((s) => s.setMarkerMode)
+  const setCoordinateMode = useAppStore((s) => s.setCoordinateMode)
+  const setShowContinents = useAppStore((s) => s.setShowContinents)
+  const viewState = useAppStore((s) => s.viewState)
   const setViewState = useAppStore((s) => s.setViewState)
   const currentPeriod = useAppStore((s) => s.currentPeriod)
   const loadOccurrencesForInterval = useAppStore((s) => s.loadOccurrencesForInterval)
   const occurrencesByInterval = useAppStore((s) => s.occurrencesByInterval)
-  const mapRef = useRef<L.Map | null>(null)
+  const mapRef = useRef<LeafletMap | null>(null)
   const { geoJson } = usePaleogeography(currentPeriod)
 
   useEffect(() => {
@@ -28,25 +34,45 @@ export function PaleoMap() {
     const handler = () => {
       const c = map.getCenter()
       const z = map.getZoom()
-      setViewState({ center: [c.lat, c.lng], zoom: z })
+      const current = useAppStore.getState().viewState
+      if (
+        Math.abs(current.center[0] - c.lat) > 0.0001
+        || Math.abs(current.center[1] - c.lng) > 0.0001
+        || Math.abs(current.zoom - z) > 0.0001
+      ) {
+        setViewState({ center: [c.lat, c.lng], zoom: z })
+      }
     }
     map.on('moveend', handler)
     return () => { map.off('moveend', handler) }
   }, [setViewState])
+
+  useEffect(() => {
+    const map = mapRef.current
+    if (!map) return
+    const center = map.getCenter()
+    if (
+      Math.abs(center.lat - viewState.center[0]) > 0.0001
+      || Math.abs(center.lng - viewState.center[1]) > 0.0001
+      || Math.abs(map.getZoom() - viewState.zoom) > 0.0001
+    ) {
+      map.setView(viewState.center, viewState.zoom, { animate: false })
+    }
+  }, [viewState])
 
   const records = useMemo(() => currentPeriod ? (occurrencesByInterval[currentPeriod] ?? []) : [], [currentPeriod, occurrencesByInterval])
   const fossilCount = records.length
   const recordsLoaded = currentPeriod ? Object.hasOwn(occurrencesByInterval, currentPeriod) : true
   const paleoCoverage = useMemo(() => {
     if (!records.length) return 0
-    return records.filter((record) => Number.isFinite(record.paleolat) && Number.isFinite(record.paleolng)).length / records.length
+    return records.filter((record) => hasSpatialPosition(record, 'paleo')).length / records.length
   }, [records])
 
   return (
     <div style={{ height: '100%', width: '100%', position: 'relative' }}>
       <MapContainer
-        center={DEFAULT_MAP_CENTER}
-        zoom={DEFAULT_MAP_ZOOM}
+        center={viewState.center ?? DEFAULT_MAP_CENTER}
+        zoom={viewState.zoom ?? DEFAULT_MAP_ZOOM}
         minZoom={MIN_MAP_ZOOM}
         maxZoom={MAX_MAP_ZOOM}
         zoomControl={true}
@@ -99,7 +125,7 @@ export function PaleoMap() {
           ))}
         </div>
         <label><input type="checkbox" checked={showContinents} onChange={(event) => setShowContinents(event.target.checked)} /> period land snapshot</label>
-        <small>{coordinateMode === 'paleo' ? 'Reconstructed coordinates where available; modern fallback otherwise.' : 'Modern collection coordinates; not aligned to reconstructed land.'}</small>
+        <small>{coordinateMode === 'paleo' ? 'Only records with paired reconstructed coordinates are shown; no modern fallback.' : 'Only paired modern collection coordinates are shown; not aligned to reconstructed land.'}</small>
         <dl className="map-model-ledger">
           <div><dt>Land</dt><dd>period snapshot</dd></div>
           <div><dt>Paleo points</dt><dd>PBDB bundled field</dd></div>

@@ -1,5 +1,5 @@
 import manifest from '../../../data/manifest.json'
-import periods from '../../../data/periods.json'
+import { periods } from '../../services/geology'
 import type { AppRoute } from '../../utils/routing'
 import './InfoPages.css'
 

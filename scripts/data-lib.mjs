@@ -1,5 +1,5 @@
 import { createHash } from 'node:crypto'
-import { readFileSync, readdirSync } from 'node:fs'
+import { readFileSync, readdirSync, statSync } from 'node:fs'
 import { join, relative } from 'node:path'
 
 export const rootDir = process.cwd()
@@ -8,25 +8,21 @@ export function readJson(path) {
   return JSON.parse(readFileSync(join(rootDir, path), 'utf8'))
 }
 
-export function dataFiles() {
-  const fixed = [
-    'data/periods.json',
-    'data/time-scale.json',
-    'data/references.json',
-    'data/places.json',
-    'data/media.json',
-    'data/phylogenies/perissodactyla-calibrations.json',
-    'data/events.json',
-    'data/stories.json',
-    'data/taxa/profiles.json',
-    'data/tree/life-cladogram.json',
-    'data/tree/evidence.json',
-  ]
-  const fromDirectory = (directory) => readdirSync(join(rootDir, directory))
-    .filter((name) => name.endsWith('.json'))
+function jsonFilesBelow(directory) {
+  const absoluteDirectory = join(rootDir, directory)
+  return readdirSync(absoluteDirectory)
     .sort()
-    .map((name) => `${directory}/${name}`)
-  return [...fixed, ...fromDirectory('data/fossils'), ...fromDirectory('data/paleogeography')]
+    .flatMap((name) => {
+      const absolutePath = join(absoluteDirectory, name)
+      const relativePath = `${directory}/${name}`.replaceAll('\\', '/')
+      return statSync(absolutePath).isDirectory()
+        ? jsonFilesBelow(relativePath)
+        : name.endsWith('.json') ? [relativePath] : []
+    })
+}
+
+export function dataFiles() {
+  return jsonFilesBelow('data').filter((path) => path !== 'data/manifest.json')
 }
 
 export function sha256(path) {
@@ -44,7 +40,7 @@ export function flattenTree(root, output = []) {
 }
 
 export function collectDataSummary() {
-  const periods = readJson('data/periods.json')
+  const periodMetadata = readJson('data/period-map-metadata.json')
   const timeScale = readJson('data/time-scale.json')
   const references = readJson('data/references.json')
   const places = readJson('data/places.json')
@@ -53,18 +49,20 @@ export function collectDataSummary() {
   const events = readJson('data/events.json')
   const stories = readJson('data/stories.json')
   const profiles = readJson('data/taxa/profiles.json')
-  const tree = readJson('data/tree/life-cladogram.json')
+  const ontology = readJson('data/navigation/atlas-ontology.json')
   const treeEvidence = readJson('data/tree/evidence.json')
-  const fossilOccurrences = periods.reduce((sum, period) => {
-    return sum + readJson(`data/fossils/${period.name.toLowerCase()}.json`).length
+  const claims = readJson('data/evidence/claims.json')
+  const periodNames = timeScale.units.filter((unit) => unit.itp === 'period').map((unit) => unit.nam)
+  const fossilOccurrences = periodNames.reduce((sum, periodName) => {
+    return sum + readJson(`data/fossils/${periodName.toLowerCase()}.json`).length
   }, 0)
 
   return {
     records: {
       fossilOccurrences,
-      treeNodes: countTreeNodes(tree),
-      geologicalPeriods: periods.length,
-      paleogeographicSnapshots: periods.length,
+      treeNodes: countTreeNodes(ontology),
+      geologicalPeriods: periodNames.length,
+      paleogeographicSnapshots: periodMetadata.length,
       earthHistoryMa: timeScale.earthAgeMa,
       timeScaleUnits: timeScale.units.length,
       taxonProfiles: profiles.length,
@@ -75,6 +73,7 @@ export function collectDataSummary() {
       mediaAssets: media.length,
       divergenceEstimates: perissodactylCalibrations.estimates.length,
       treeEvidenceOverrides: Object.keys(treeEvidence.nodes).length,
+      evidenceClaims: claims.length,
     },
     checksums: Object.fromEntries(dataFiles().map((path) => [relative(rootDir, join(rootDir, path)).replaceAll('\\', '/'), sha256(path)])),
   }

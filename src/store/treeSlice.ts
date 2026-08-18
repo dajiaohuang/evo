@@ -1,12 +1,15 @@
 import type { AppState } from './index'
+import type { TreeDisplayMode } from '../types'
 
 export interface TreeSlice {
   selectedNodeId: string | null
   expandedNodeIds: Set<string>
   visibleNodeIds: string[]
+  treeMode: TreeDisplayMode
   selectNode: (nodeId: string | null) => void
   toggleExpand: (nodeId: string) => void
   setVisibleNodes: (ids: string[]) => void
+  setTreeMode: (mode: TreeDisplayMode) => void
 }
 
 export const createTreeSlice = (
@@ -16,6 +19,7 @@ export const createTreeSlice = (
   selectedNodeId: null,
   expandedNodeIds: new Set<string>(),
   visibleNodeIds: [],
+  treeMode: 'navigation',
 
   selectNode: (nodeId) => set({ selectedNodeId: nodeId }),
 
@@ -27,4 +31,5 @@ export const createTreeSlice = (
   },
 
   setVisibleNodes: (ids) => set({ visibleNodeIds: ids }),
+  setTreeMode: (mode) => set({ treeMode: mode }),
 })

@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "topologyModel": "Evo Atlas educational synthesis 2026.08",
+  "navigationModel": "Evo Atlas navigation ontology 2026.08",
   "default": {
     "support": "contextual",
-    "topologyBasis": "Curated teaching topology aligned at major clade level; it is not a complete species-level phylogeny.",
+    "groupingBasis": "Curated navigation hierarchy aligned at major clade level; it is not a phylogenetic hypothesis.",
     "rangeBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
     "conflicts": "A missing branch or fossil occurrence does not imply biological absence. Internal nodes are not calibrated divergence estimates.",
     "references": ["open-tree", "pbdb-api-2016"]
@@ -11,25 +11,25 @@
   "nodes": {
     "life": {
       "support": "contextual",
-      "topologyBasis": "Root-level teaching scaffold spanning major living and fossil groups.",
+      "groupingBasis": "Root-level navigation scaffold spanning major living and fossil groups.",
       "conflicts": "The 3.8 Ga start is a broad evidence context, not a single resolved origin-of-life timestamp.",
       "references": ["open-tree"]
     },
     "mammalia": {
       "support": "moderate",
-      "topologyBasis": "Major mammal relationships are simplified to keep the atlas navigable.",
+      "groupingBasis": "Major mammal groups are simplified to keep the atlas navigable.",
       "conflicts": "Stem/crown definitions and divergence estimates vary among morphological and molecular analyses.",
       "references": ["open-tree", "pbdb-api-2016"]
     },
     "dinosauria": {
       "support": "moderate",
-      "topologyBasis": "Major dinosaur groups are represented as a compact consensus-style hierarchy.",
+      "groupingBasis": "Major dinosaur groups are represented as a compact navigation hierarchy.",
       "conflicts": "Alternative hypotheses for early dinosaur relationships are not resolved by this display.",
       "references": ["open-tree", "pbdb-api-2016"]
     },
     "perissodactyla": {
       "support": "moderate",
-      "topologyBasis": "Order-level teaching synthesis; the positions of several extinct early lineages remain analysis-dependent.",
+      "groupingBasis": "Order-level navigation synthesis; the positions of several extinct early lineages remain analysis-dependent.",
       "conflicts": "The displayed branching order is intentionally non-exhaustive and must not be read as a fully resolved binary consensus tree.",
       "references": ["pnas-2026-perissodactyls", "amnh-perissodactyl-evolution", "open-tree"]
     }

@@ -2,11 +2,12 @@ import profilesData from '../../data/taxa/profiles.json'
 import eventsData from '../../data/events.json'
 import storiesData from '../../data/stories.json'
 import referencesData from '../../data/references.json'
-import treeData from '../../data/tree/life-cladogram.json'
-import periodsData from '../../data/periods.json'
+import treeData from '../../data/navigation/atlas-ontology.json'
 import placesData from '../../data/places.json'
 import perissodactylCalibrationsData from '../../data/phylogenies/perissodactyla-calibrations.json'
+import perissodactylHypothesisData from '../../data/phylogenies/perissodactyla-hypothesis.json'
 import mediaData from '../../data/media.json'
+import evidenceClaimsData from '../../data/evidence/claims.json'
 import type {
   EvolutionEvent,
   EvolutionStory,
@@ -16,9 +17,10 @@ import type {
   PlaceRecord,
   DivergenceEstimate,
   MediaAsset,
+  EvidenceClaim,
 } from '../types/catalog'
-import type { PeriodInfo } from '../types/geology'
 import type { TreeNode } from '../types/tree'
+import { periods } from './geology'
 
 export const taxonProfiles = profilesData as TaxonProfile[]
 export const evolutionEvents = eventsData as EvolutionEvent[]
@@ -27,7 +29,7 @@ export const references = referencesData as ReferenceRecord[]
 export const places = placesData as PlaceRecord[]
 export const perissodactylCalibrations = perissodactylCalibrationsData.estimates as DivergenceEstimate[]
 export const mediaAssets = mediaData as MediaAsset[]
-const periods = periodsData as PeriodInfo[]
+export const evidenceClaims = evidenceClaimsData as EvidenceClaim[]
 
 const taxonById = new Map(taxonProfiles.map((profile) => [profile.id, profile]))
 const eventById = new Map(evolutionEvents.map((event) => [event.id, event]))
@@ -57,6 +59,10 @@ export function getMediaForTaxon(taxonId: string): MediaAsset[] {
   return mediaAssets.filter((asset) => asset.taxonId === taxonId)
 }
 
+export function getClaimsForSubject(subjectId: string): EvidenceClaim[] {
+  return evidenceClaims.filter((claim) => claim.subjectId === subjectId)
+}
+
 function flattenTree(node: TreeNode, output: TreeNode[] = []): TreeNode[] {
   output.push(node)
   for (const child of node.children ?? []) flattenTree(child, output)
@@ -64,6 +70,33 @@ function flattenTree(node: TreeNode, output: TreeNode[] = []): TreeNode[] {
 }
 
 const treeNodes = flattenTree(treeData as TreeNode)
+
+const phylogenyRoot = perissodactylHypothesisData.root as TreeNode
+const phylogenyParent = new Map<string, string | null>()
+function indexPhylogeny(node: TreeNode, parentId: string | null = null): void {
+  phylogenyParent.set(node.id, parentId)
+  for (const child of node.children ?? []) indexPhylogeny(child, node.id)
+}
+indexPhylogeny(phylogenyRoot)
+
+function isAncestorOrSelf(ancestorId: string, nodeId: string): boolean {
+  let cursor: string | null | undefined = nodeId
+  while (cursor) {
+    if (cursor === ancestorId) return true
+    cursor = phylogenyParent.get(cursor)
+  }
+  return false
+}
+
+export function getCalibrationsForTaxon(profileId: string): DivergenceEstimate[] {
+  const profile = getTaxonProfile(profileId)
+  if (!profile?.treeNodeId || !phylogenyParent.has(profile.treeNodeId)) return []
+  const treeNodeId = profile.treeNodeId
+  return perissodactylCalibrations.filter((estimate) => (
+    isAncestorOrSelf(estimate.nodeId, treeNodeId)
+    || isAncestorOrSelf(treeNodeId, estimate.nodeId)
+  ))
+}
 
 function searchable(value: string): string {
   return value.normalize('NFKD').toLocaleLowerCase()

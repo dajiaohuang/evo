@@ -7,12 +7,13 @@ import {
   getReferences,
   getTaxonProfile,
   getMediaForTaxon,
-  perissodactylCalibrations,
+  getCalibrationsForTaxon,
+  getClaimsForSubject,
   taxonProfiles,
 } from '../../services/catalog'
 import { useAppStore } from '../../store'
 import type { AppRoute } from '../../utils/routing'
-import type { ConfidenceLevel, ReferenceRecord } from '../../types'
+import type { ConfidenceLevel, EvidenceClaim, ReferenceRecord } from '../../types'
 import './CatalogPages.css'
 
 interface CatalogPageProps {
@@ -27,6 +28,12 @@ function formatAge(age: number): string {
   return `${Number.isInteger(age) ? age : age.toFixed(1)} Ma`
 }
 
+function explorerTaxonState(id: string | undefined): Record<string, string> {
+  if (!id) return {}
+  const profile = getTaxonProfile(id)
+  return profile ? { profile: profile.id } : { taxon: id }
+}
+
 function ConfidenceBadge({ level }: { level: ConfidenceLevel }) {
   return <span className={`confidence confidence--${level}`}>{level} confidence</span>
 }
@@ -39,7 +46,7 @@ function ReferenceList({ records }: { records: ReferenceRecord[] }) {
           <span>{String(index + 1).padStart(2, '0')}</span>
           <div>
             <strong>{reference.title}</strong>
-            <small>{reference.authors} · {reference.year}{reference.doi ? ` · DOI ${reference.doi}` : ''}</small>
+            <small>{reference.authors} · {reference.publishedYear ?? 'n.d.'}{reference.version ? ` · v${reference.version}` : ''}{reference.accessedAt ? ` · accessed ${reference.accessedAt}` : ''}{reference.doi ? ` · DOI ${reference.doi}` : ''}</small>
           </div>
           <i>↗</i>
         </a>
@@ -48,12 +55,31 @@ function ReferenceList({ records }: { records: ReferenceRecord[] }) {
   )
 }
 
-function DivergenceLedger() {
-  const maximumAge = 60
+function ClaimLedger({ claims }: { claims: EvidenceClaim[] }) {
+  if (!claims.length) return <p>No claim-level evidence record is bundled for this subject.</p>
+  return (
+    <div className="statement-grid">
+      {claims.map((claim, index) => (
+        <article key={claim.id}>
+          <span>{String(index + 1).padStart(2, '0')}</span>
+          <p><strong>{claim.claimType.replace('-', ' ')}</strong><br />{claim.statement}</p>
+          <small>{claim.confidence} · {claim.referenceLinks.map((link) => link.referenceId).join(' · ')}</small>
+        </article>
+      ))}
+    </div>
+  )
+}
+
+function DivergenceLedger({ profileId }: { profileId: string }) {
+  const estimates = getCalibrationsForTaxon(profileId)
+  const maximumAge = Math.max(1, ...estimates.map((estimate) => estimate.olderMa ?? estimate.medianMa)) * 1.08
+  if (!estimates.length) {
+    return <div className="divergence-ledger"><aside><strong>No compatible published node estimate is bundled for this profile.</strong><span>The atlas does not substitute a fossil first appearance or an unrelated clade clock.</span></aside></div>
+  }
   return (
     <div className="divergence-ledger">
-      <div className="divergence-axis"><span>60 Ma</span><span>Published node estimate</span><span>0 Ma</span></div>
-      {perissodactylCalibrations.map((estimate) => {
+      <div className="divergence-axis"><span>{maximumAge.toFixed(0)} Ma</span><span>Compatible published node estimate</span><span>0 Ma</span></div>
+      {estimates.map((estimate) => {
         const older = estimate.olderMa ?? estimate.medianMa
         const younger = estimate.youngerMa ?? estimate.medianMa
         const reference = getReferences([estimate.referenceId])[0]
@@ -65,7 +91,7 @@ function DivergenceLedger() {
               <b style={{ left: `${(1 - estimate.medianMa / maximumAge) * 100}%` }} />
             </div>
             <span>{estimate.medianMa.toFixed(1)} Ma{estimate.youngerMa != null && estimate.olderMa != null ? ` · ${estimate.olderMa.toFixed(1)}–${estimate.youngerMa.toFixed(1)}` : ''}</span>
-            <p>{estimate.note}</p>
+            <p>{estimate.note} · {estimate.topologyHypothesisId} · {estimate.locator?.figure ?? estimate.locator?.table ?? estimate.locator?.pages}</p>
             {reference && <a href={reference.url} target="_blank" rel="noreferrer">Source ↗</a>}
           </article>
         )
@@ -92,6 +118,15 @@ export function TaxonPage({ id, onNavigate }: CatalogPageProps) {
   const occurrences = useAppStore((state) => (
     profile?.pbdbTaxonId ? state.occurrencesByTaxon[profile.pbdbTaxonId] : undefined
   ))
+  const taxonQuery = useAppStore((state) => (
+    profile?.pbdbTaxonId ? state.taxonOccurrenceQueries[`descendants:${profile.pbdbTaxonId}`] : undefined
+  ))
+  const taxonStatus = useAppStore((state) => (
+    profile?.pbdbTaxonId ? state.taxonOccurrenceStatus[`descendants:${profile.pbdbTaxonId}`] ?? 'idle' : 'idle'
+  ))
+  const taxonError = useAppStore((state) => (
+    profile?.pbdbTaxonId ? state.taxonOccurrenceErrors[`descendants:${profile.pbdbTaxonId}`] : null
+  ))
 
   useEffect(() => {
     if (profile?.pbdbTaxonId) void loadOccurrences(profile.pbdbTaxonId)
@@ -101,6 +136,10 @@ export function TaxonPage({ id, onNavigate }: CatalogPageProps) {
   const midpoint = (profile.firstAppearance + profile.lastAppearance) / 2
   const references = getReferences(profile.referenceIds)
   const media = getMediaForTaxon(profile.id)
+  const claims = getClaimsForSubject(`taxon:${profile.id}`)
+  const scrollToSection = (sectionId: string) => {
+    document.getElementById(sectionId)?.scrollIntoView({ behavior: 'smooth', block: 'start' })
+  }
 
   return (
     <main className="catalog-page taxon-page">
@@ -134,27 +173,30 @@ export function TaxonPage({ id, onNavigate }: CatalogPageProps) {
 
       <section className="catalog-facts">
         <div><span>Status</span><strong className={profile.extinct ? 'is-extinct' : 'is-extant'}>{profile.extinct ? 'Extinct †' : 'Extant'}</strong></div>
-        <div><span>Local occurrence sample</span><strong>{occurrences ? occurrences.length.toLocaleString() : 'Loading…'}</strong></div>
+        <div><span>Bundled occurrences · represented descendants</span><strong>{taxonStatus === 'loading' || taxonStatus === 'idle' ? 'Loading…' : taxonStatus === 'error' ? 'Error' : (occurrences?.length ?? 0).toLocaleString()}</strong></div>
         <div><span>PBDB identifier</span><strong>{profile.pbdbTaxonId ?? 'Not linked'}</strong></div>
-        <div><span>Known geography</span><strong>{profile.geography.length} regions</strong></div>
+        <div><span>Query completeness</span><strong>{taxonQuery?.truncated ? 'Truncated' : taxonStatus === 'ready' || taxonStatus === 'empty' ? 'No UI truncation' : 'Pending'}</strong></div>
       </section>
+      {taxonStatus === 'empty' && <p className="catalog-query-state">No matching row occurs in the bounded local sample; this is not evidence of biological absence.</p>}
+      {taxonStatus === 'error' && <p className="catalog-query-state catalog-query-state--error">Local taxon query failed: {taxonError}</p>}
+      {taxonQuery && <p className="catalog-query-state">Loaded {taxonQuery.rowsLoaded.toLocaleString()} rows from {taxonQuery.loadedPeriods.length} relevant period chunk(s). Scope: represented descendants. Source: {taxonQuery.samplingMethod}.</p>}
 
       <div className="catalog-body">
         <aside className="catalog-toc">
           <span>On this page</span>
-          <a href="#evolution">Evolution</a>
-          <a href="#ecology">Ecology</a>
-          <a href="#traits">Diagnostic context</a>
-          <a href="#evidence">Evidence</a>
-          <a href="#media">Media</a>
-          <a href="#references">References</a>
+          <button type="button" onClick={() => scrollToSection('evolution')}>Evolution</button>
+          <button type="button" onClick={() => scrollToSection('ecology')}>Ecology</button>
+          <button type="button" onClick={() => scrollToSection('traits')}>Diagnostic context</button>
+          <button type="button" onClick={() => scrollToSection('evidence')}>Evidence</button>
+          <button type="button" onClick={() => scrollToSection('media')}>Media</button>
+          <button type="button" onClick={() => scrollToSection('references')}>References</button>
         </aside>
 
         <div className="catalog-content">
           <section id="evolution" className="catalog-section">
             <span className="section-label">01 / Evolution</span>
             <h2>Time-calibrated evidence, kept separate from fossil ranges</h2>
-            <DivergenceLedger />
+            <DivergenceLedger profileId={profile.id} />
           </section>
 
           <section id="ecology" className="catalog-section">
@@ -180,6 +222,7 @@ export function TaxonPage({ id, onNavigate }: CatalogPageProps) {
             <span className="section-label">04 / Evidence quality</span>
             <h2>What supports this reconstruction?</h2>
             <p>{profile.evidenceSummary}</p>
+            <ClaimLedger claims={claims} />
             <div className="evidence-note">
               <strong>Interpretive boundary</strong>
               <span>Age ranges summarize current catalog evidence and are not exact origination or extinction instants.</span>
@@ -232,6 +275,7 @@ export function EventPage({ id, onNavigate }: CatalogPageProps) {
   if (!event) return <EventDirectory onNavigate={onNavigate} />
   const midpoint = (event.startAge + event.endAge) / 2
   const references = getReferences(event.referenceIds)
+  const claims = getClaimsForSubject(`event:${event.id}`)
 
   return (
     <main className="catalog-page event-page">
@@ -245,7 +289,13 @@ export function EventPage({ id, onNavigate }: CatalogPageProps) {
         <div className="event-range"><strong>{formatAge(event.startAge)}</strong><span>→</span><strong>{formatAge(event.endAge)}</strong></div>
         <p className="catalog-dek">{event.summary}</p>
         <div className="catalog-actions">
-          <button className="button button--primary" onClick={() => onNavigate('explore', { age: midpoint.toFixed(2), view: 'map' })}>Open time state</button>
+          <button className="button button--primary" onClick={() => onNavigate('explore', {
+            age: midpoint.toFixed(2),
+            older: event.startAge.toFixed(2),
+            younger: event.endAge.toFixed(2),
+            view: 'map',
+            event: event.id,
+          })}>Open time state</button>
           <button className="button button--ghost" onClick={() => onNavigate('compare', { event: event.id })}>Compare windows</button>
         </div>
       </header>
@@ -263,6 +313,8 @@ export function EventPage({ id, onNavigate }: CatalogPageProps) {
             <div className="statement-grid">
               {event.evidence.map((item, index) => <article key={item}><span>{index + 1}</span><p>{item}</p></article>)}
             </div>
+            <h2>Claim-level source links</h2>
+            <ClaimLedger claims={claims} />
           </section>
           <section className="catalog-section">
             <span className="section-label">02 / Uncertainty</span>
@@ -332,8 +384,10 @@ export function StoriesPage({ id, onNavigate }: CatalogPageProps) {
               {step.annotation && <blockquote>{step.annotation}</blockquote>}
               <button onClick={() => onNavigate('explore', {
                 age: step.age.toFixed(2),
+                older: step.timeRange[0].toFixed(2),
+                younger: step.timeRange[1].toFixed(2),
                 view: step.view === 'tree' || step.view === 'diversity' ? step.view : 'map',
-                ...(step.taxonIds[0] ? { profile: step.taxonIds[0] } : {}),
+                ...explorerTaxonState(step.taxonIds[0]),
                 ...(step.eventId ? { event: step.eventId } : {}),
                 story: story.id,
                 step: step.id,

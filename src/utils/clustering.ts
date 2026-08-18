@@ -1,19 +1,15 @@
 import type { FossilOccurrence, ClusterMarker, IndividualMarker } from '../types'
+import { getSpatialPosition, type CoordinateMode } from './spatial'
 
 interface ClusterConfig {
   gridSize: number
   maxZoom: number
-  coordinateMode?: 'paleo' | 'modern'
+  coordinateMode?: CoordinateMode
 }
 
-function coordinatesFor(occurrence: FossilOccurrence, mode: 'paleo' | 'modern'): [number, number] | null {
-  const lng = mode === 'paleo'
-    ? occurrence.paleolng ?? Number(occurrence.lng)
-    : Number(occurrence.lng)
-  const lat = mode === 'paleo'
-    ? occurrence.paleolat ?? Number(occurrence.lat)
-    : Number(occurrence.lat)
-  return Number.isFinite(lng) && Number.isFinite(lat) ? [lng, lat] : null
+function coordinatesFor(occurrence: FossilOccurrence, mode: CoordinateMode): [number, number] | null {
+  const position = getSpatialPosition(occurrence, mode)
+  return position.mode === mode ? [position.lng, position.lat] : null
 }
 
 export function computeClusters(
@@ -21,8 +17,10 @@ export function computeClusters(
   zoom: number,
   config: ClusterConfig = { gridSize: 40, maxZoom: 5 }
 ): (ClusterMarker | IndividualMarker)[] {
-  if (zoom >= config.maxZoom || occurrences.length <= 20) {
-    return occurrences.map((o) => ({
+  const coordinateMode = config.coordinateMode ?? 'paleo'
+  const eligible = occurrences.filter((occurrence) => coordinatesFor(occurrence, coordinateMode))
+  if (zoom >= config.maxZoom || eligible.length <= 20) {
+    return eligible.map((o) => ({
       type: 'individual' as const,
       occurrence: o,
     }))
@@ -30,9 +28,7 @@ export function computeClusters(
 
   const cellSize = config.gridSize / Math.pow(2, zoom - 1)
   const grid = new Map<string, FossilOccurrence[]>()
-  const coordinateMode = config.coordinateMode ?? 'paleo'
-
-  for (const occ of occurrences) {
+  for (const occ of eligible) {
     const coordinates = coordinatesFor(occ, coordinateMode)
     if (!coordinates) continue
     const [lng, lat] = coordinates

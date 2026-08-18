@@ -1,10 +1,10 @@
 import { CircleMarker, Tooltip } from 'react-leaflet'
 import { useAppStore } from '../../store'
 import { computeClusters } from '../../utils/clustering'
+import { getSpatialPosition, type CoordinateMode } from '../../utils/spatial'
+import type { FossilMarkerMode } from '../../store/mapSlice'
 
-export type MarkerMode = 'clusters' | 'points' | 'density'
-export type CoordinateMode = 'paleo' | 'modern'
-
+export type MarkerMode = FossilMarkerMode
 interface FossilMarkersProps {
   mode: MarkerMode
   coordinateMode: CoordinateMode
@@ -23,7 +23,9 @@ export function FossilMarkers({ mode, coordinateMode }: FossilMarkersProps) {
   if (!records || records.length === 0) return null
 
   const markers = mode === 'points'
-    ? records.map((occurrence) => ({ type: 'individual' as const, occurrence }))
+    ? records
+      .filter((occurrence) => getSpatialPosition(occurrence, coordinateMode).mode === coordinateMode)
+      .map((occurrence) => ({ type: 'individual' as const, occurrence }))
     : computeClusters(records, viewState.zoom, {
       gridSize: mode === 'density' ? 70 : 40,
       maxZoom: mode === 'density' ? 20 : 5,
@@ -56,9 +58,9 @@ export function FossilMarkers({ mode, coordinateMode }: FossilMarkersProps) {
         }
 
         const occ = marker.occurrence
-        const lat = coordinateMode === 'paleo' ? occ.paleolat ?? Number(occ.lat) : Number(occ.lat)
-        const lng = coordinateMode === 'paleo' ? occ.paleolng ?? Number(occ.lng) : Number(occ.lng)
-        if (isNaN(lat) || isNaN(lng)) return null
+        const position = getSpatialPosition(occ, coordinateMode)
+        if (position.mode !== coordinateMode) return null
+        const { lat, lng } = position
 
         const isHighlighted = highlightedTaxonId && occ.tid === highlightedTaxonId
         const opacity = isHighlighted ? 1 : highlightedTaxonId ? 0.12 : 0.6
@@ -79,7 +81,7 @@ export function FossilMarkers({ mode, coordinateMode }: FossilMarkersProps) {
           >
             <Tooltip direction="top" offset={[0, -8]} opacity={1}>
               <div style={{ fontSize: 11 }}>
-                <strong>{occ.tna}</strong>
+                <strong>{occ.tna || occ.idn || 'Unresolved identification'}</strong>
                 {occ.idn ? <div>{occ.idn}</div> : null}
                 <div style={{ color: '#8b949e' }}>
                   {occ.eag?.toFixed(1)} – {occ.lag?.toFixed(1)} Ma
