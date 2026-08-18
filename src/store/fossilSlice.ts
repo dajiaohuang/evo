@@ -4,7 +4,7 @@ import { getFossilsByInterval, getFossilsByTaxon } from '../services/localFossil
 
 export interface FossilSlice {
   occurrencesByInterval: Record<string, FossilOccurrence[]>
-  occurrencesByTaxon: Record<string, FossilOccurrence[]>
+  occurrencesByTaxonQuery: Record<string, FossilOccurrence[]>
   taxonOccurrenceQueries: Record<string, TaxonOccurrenceQueryResult>
   taxonOccurrenceStatus: Record<string, LoadStatus>
   taxonOccurrenceErrors: Record<string, string | null>
@@ -19,7 +19,7 @@ export const createFossilSlice = (
   get: () => AppState
 ): FossilSlice => ({
   occurrencesByInterval: {},
-  occurrencesByTaxon: {},
+  occurrencesByTaxonQuery: {},
   taxonOccurrenceQueries: {},
   taxonOccurrenceStatus: {},
   taxonOccurrenceErrors: {},
@@ -46,7 +46,7 @@ export const createFossilSlice = (
     try {
       const result = await getFossilsByTaxon(taxonId, scope)
       set({
-        occurrencesByTaxon: { ...get().occurrencesByTaxon, [taxonId]: result.records },
+        occurrencesByTaxonQuery: { ...get().occurrencesByTaxonQuery, [cacheKey]: result.records },
         taxonOccurrenceQueries: { ...get().taxonOccurrenceQueries, [cacheKey]: result },
         taxonOccurrenceStatus: {
           ...get().taxonOccurrenceStatus,

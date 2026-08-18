@@ -144,6 +144,21 @@
 .share-button:hover { color: var(--color-text); border-color: var(--color-accent-dim); }
 .share-button span { color: var(--color-accent); margin-right: 6px; }
 
+.dataset-status { margin: 0 14px 14px; padding: 9px 10px; border-left: 2px solid var(--color-accent-dim); background: var(--color-bg-elevated); }
+.dataset-status span, .dataset-status strong, .dataset-status small { display: block; }
+.dataset-status span { color: var(--color-text-faint); font: 7px var(--font-mono); text-transform: uppercase; }
+.dataset-status strong { margin-top: 3px; color: var(--color-accent); font: 9px var(--font-mono); }
+.dataset-status small { margin-top: 3px; color: var(--color-text-faint); font-size: 7px; line-height: 1.45; }
+
+.dataset-mismatch { position: fixed; inset: 0; z-index: 5000; display: grid; place-items: center; padding: 24px; background: rgba(2, 8, 11, .78); backdrop-filter: blur(4px); }
+.dataset-mismatch > div { width: min(520px, 100%); padding: 25px; border: 1px solid #d9ab6c; background: var(--color-surface); box-shadow: var(--shadow-lg); }
+.dataset-mismatch span { color: #d9ab6c; font: 8px var(--font-mono); text-transform: uppercase; letter-spacing: .09em; }
+.dataset-mismatch h2 { margin-top: 8px; font: 500 25px var(--font-display); }
+.dataset-mismatch p { margin-top: 12px; color: var(--color-text-muted); font-size: 11px; line-height: 1.65; }
+.dataset-mismatch > div > div { margin-top: 20px; display: flex; justify-content: flex-end; gap: 8px; }
+.dataset-mismatch a, .dataset-mismatch button { padding: 9px 12px; border: 1px solid var(--color-border); background: transparent; color: var(--color-text-muted); font-size: 9px; text-decoration: none; cursor: pointer; }
+.dataset-mismatch button { border-color: var(--color-accent); background: var(--color-accent); color: #06130f; font-weight: 750; }
+
 .explorer-stage {
   grid-area: stage;
   min-width: 0;

@@ -31,22 +31,17 @@ export function EvoTree() {
   const setMode = useAppStore((state) => state.setTreeMode)
   const currentAge = useAppStore((state) => state.currentAge)
   const selectedNodeId = useAppStore((state) => state.selectedNodeId)
-  const selectNode = useAppStore((state) => state.selectNode)
-  const highlightTaxon = useAppStore((state) => state.highlightTaxon)
-  const loadOccurrencesForTaxon = useAppStore((state) => state.loadOccurrencesForTaxon)
+  const selectSubject = useAppStore((state) => state.selectSubject)
   const nodeLabel = useCallback((node: TreeNode) => {
     if (language !== 'zh') return node.commonName || node.name
     return getTaxonProfile(node.id)?.commonNameZh ?? t(node.commonName || node.name)
   }, [language, t])
 
   const handleNodeClick = useCallback((nodeId: string) => {
-    selectNode(nodeId)
     const node = findNode([treeData as TreeNode], nodeId)
-    if (node?.taxonId) {
-      highlightTaxon(node.taxonId)
-      void loadOccurrencesForTaxon(node.taxonId)
-    }
-  }, [highlightTaxon, loadOccurrencesForTaxon, selectNode])
+      ?? findNode([perissodactylHypothesisData.root as TreeNode], nodeId)
+    void selectSubject({ nodeId, taxonId: node?.taxonId })
+  }, [selectSubject])
 
   const renderTree = useCallback(() => {
     const svgElement = svgRef.current
@@ -62,7 +57,7 @@ export function EvoTree() {
       : perissodactylHypothesisData.root as TreeNode
     const root = d3.hierarchy(sourceTree)
     const descendants = root.descendants()
-    const maxAge = Math.max(...descendants.map((node) => node.data.firstAppearance), 540)
+    const maxAge = Math.max(1, ...descendants.map((node) => node.data.firstAppearance)) * 1.08
 
     if (mode === 'fossil-range') {
       const rowHeight = 21
@@ -80,8 +75,16 @@ export function EvoTree() {
       const rows = svg.append('g').selectAll('g.range-row').data(ordered).join('g')
         .attr('class', (node) => `range-row${node.data.id === selectedNodeId ? ' is-selected' : ''}`)
         .attr('transform', (_node, index) => `translate(0,${67 + index * rowHeight})`)
+        .attr('role', 'treeitem')
+        .attr('tabindex', 0)
+        .attr('aria-label', (node) => `${nodeLabel(node.data)}: ${node.data.firstAppearance}–${node.data.lastAppearance || t('present')} Ma`)
         .style('cursor', 'pointer')
         .on('click', (_event, node) => handleNodeClick(node.data.id))
+        .on('keydown', (event: KeyboardEvent, node) => {
+          if (event.key !== 'Enter' && event.key !== ' ') return
+          event.preventDefault()
+          handleNodeClick(node.data.id)
+        })
 
       rows.append('text').attr('x', 10).attr('y', 4).attr('class', 'range-label')
         .attr('font-style', (node) => node.data.rank && node.data.rank !== 'kingdom' ? 'italic' : null)
@@ -112,8 +115,15 @@ export function EvoTree() {
           const point = node as d3.HierarchyPointNode<TreeNode>
           return `rotate(${point.x * 180 / Math.PI - 90}) translate(${point.y},0)`
         })
+        .attr('role', 'treeitem').attr('tabindex', 0)
+        .attr('aria-label', (node) => `${nodeLabel(node.data)}: ${node.data.firstAppearance}–${node.data.lastAppearance || t('present')} Ma`)
         .style('cursor', 'pointer').style('opacity', (node) => activeAt(node.data, currentAge) ? 1 : .22)
         .on('click', (_event, node) => handleNodeClick(node.data.id))
+        .on('keydown', (event: KeyboardEvent, node) => {
+          if (event.key !== 'Enter' && event.key !== ' ') return
+          event.preventDefault()
+          handleNodeClick(node.data.id)
+        })
       nodes.append('circle').attr('r', (node) => node.data.id === selectedNodeId ? 5.5 : 3.5)
         .attr('fill', (node) => node.data.extinct ? '#8b949e' : '#58a6ff')
         .attr('stroke', (node) => node.data.id === selectedNodeId ? '#ffd700' : 'none').attr('stroke-width', 2)
@@ -153,8 +163,15 @@ export function EvoTree() {
           const point = node as d3.HierarchyPointNode<TreeNode>
           return `translate(${xFor(point)},${yFor(point)})`
         })
+        .attr('role', 'treeitem').attr('tabindex', 0)
+        .attr('aria-label', (node) => `${nodeLabel(node.data)}: ${node.data.firstAppearance}–${node.data.lastAppearance || t('present')} Ma`)
         .style('cursor', 'pointer').style('opacity', (node) => activeAt(node.data, currentAge) ? 1 : .3)
         .on('click', (_event, node) => handleNodeClick(node.data.id))
+        .on('keydown', (event: KeyboardEvent, node) => {
+          if (event.key !== 'Enter' && event.key !== ' ') return
+          event.preventDefault()
+          handleNodeClick(node.data.id)
+        })
       drawNodes(nodes, selectedNodeId, 'right', nodeLabel, t('present'))
       return
     }
@@ -187,8 +204,15 @@ export function EvoTree() {
       })
     const nodes = g.selectAll<SVGGElement, d3.HierarchyNode<TreeNode>>('g.node').data(root.descendants()).join('g').attr('class', 'node')
       .attr('transform', (node) => `translate(${node.x},${node.y})`)
+      .attr('role', 'treeitem').attr('tabindex', 0)
+      .attr('aria-label', (node) => `${nodeLabel(node.data)}: ${node.data.firstAppearance}–${node.data.lastAppearance || t('present')} Ma`)
       .style('cursor', 'pointer').style('opacity', (node) => activeAt(node.data, currentAge) ? 1 : .2)
       .on('click', (_event, node) => handleNodeClick(node.data.id))
+      .on('keydown', (event: KeyboardEvent, node) => {
+        if (event.key !== 'Enter' && event.key !== ' ') return
+        event.preventDefault()
+        handleNodeClick(node.data.id)
+      })
     drawNodes(nodes, selectedNodeId, 'above', nodeLabel, t('present'))
   }, [currentAge, handleNodeClick, mode, nodeLabel, selectedNodeId, t])
 
@@ -215,7 +239,7 @@ export function EvoTree() {
           <button key={value} className={mode === value ? 'is-active' : ''} onClick={() => setMode(value)}>{t(label)}</button>
         ))}
       </div>
-      <svg ref={svgRef} aria-label={t('{mode} visualization of the tree of life', { mode: t(mode) })} />
+      <svg ref={svgRef} role="tree" aria-label={t('{mode} visualization of the tree of life', { mode: t(mode) })} />
       <div className="tree-model-note">
         {mode === 'navigation' && t('Navigation ontology · convenient groupings may be paraphyletic and do not assert a phylogenetic hypothesis.')}
         {mode === 'cladogram' && t('Curated Perissodactyla hypothesis · branch length does not encode elapsed time.')}

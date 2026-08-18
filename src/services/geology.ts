@@ -12,7 +12,7 @@ interface TimeScaleData {
 interface PeriodMapMetadata {
   name: string
   keyContinentalConfig: string
-  geoJsonFile: string
+  mapLayerStatus: 'available' | 'withheld-pending-provenance'
   description: string
 }
 
@@ -47,7 +47,7 @@ export const periods: PeriodInfo[] = timeScaleUnits
       eag: unit.eag,
       color: unit.col,
       keyContinentalConfig: metadata.keyContinentalConfig,
-      geoJsonFile: metadata.geoJsonFile,
+      mapLayerStatus: metadata.mapLayerStatus,
       description: metadata.description,
     }
   })

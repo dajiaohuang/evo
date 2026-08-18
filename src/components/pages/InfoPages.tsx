@@ -16,6 +16,7 @@ export function DataPage({ onNavigate }: PageProps) {
         <span className="section-label">{t('Dataset registry')} / {manifest.datasetVersion}</span>
         <h1>{t('Know what the atlas knows.')}</h1>
         <p>{t('Every view in Evo is backed by a named static artifact. This registry exposes its current scope, provenance and the places where the evidence remains incomplete.')}</p>
+        <p>{t('App {appVersion} · schema {schemaVersion} · commit {commitSha}', { appVersion: manifest.appVersion, schemaVersion: manifest.schemaVersion, commitSha: manifest.commitSha })}</p>
         <button className="button button--primary" onClick={() => onNavigate('explore')}>{t('Explore the records')}</button>
       </header>
 
@@ -58,7 +59,7 @@ export function DataPage({ onNavigate }: PageProps) {
             <div className="coverage-row" role="row" key={period.name}>
               <strong><i style={{ background: period.color }} />{t(period.name)}</strong>
               <span>{period.eag.toFixed(1)}—{period.lag.toFixed(1)} Ma</span>
-              <span className="coverage-ok">{t('Available')}</span>
+              <span className={period.mapLayerStatus === 'available' ? 'coverage-ok' : ''}>{t(period.mapLayerStatus === 'available' ? 'Available' : 'Withheld pending provenance')}</span>
               <span className="coverage-ok">{t('Bundled')}</span>
             </div>
           ))}
@@ -121,7 +122,7 @@ export function MethodsPage({ onNavigate }: PageProps) {
         <article>
           <span className="section-label">{t('Space')}</span>
           <h2>{t('Maps are discrete models.')}</h2>
-          <p>{t('Current maps summarize broad period configurations. They are not continuous tectonic reconstructions and should be labeled as snapshots.')}</p>
+          <p>{t('Continental geometry is withheld until source, license and processing provenance is complete. Occurrence coordinates remain explicitly separated into reconstructed and modern modes.')}</p>
         </article>
         <article>
           <span className="section-label">{t('Topology')}</span>

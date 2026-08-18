@@ -7,6 +7,7 @@ function setup() {
   const state: Partial<AppState> = {
     viewState: { center: DEFAULT_MAP_CENTER, zoom: DEFAULT_MAP_ZOOM },
     highlightedTaxonId: null,
+    highlightedOccurrenceIds: [],
     selectedOccurrenceId: null,
   }
 

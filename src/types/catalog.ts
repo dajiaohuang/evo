@@ -111,7 +111,9 @@ export interface DivergenceEstimate {
   olderMa: number | null
   method: string
   referenceId: string
-  nodeId: string
+  nodeId: string | null
+  mappingStatus: 'mapped' | 'unmapped'
+  displayOnTree: boolean
   topologyHypothesisId: string
   cladePackageId: string
   locator?: { pages?: string; table?: string; figure?: string }
@@ -125,10 +127,13 @@ export interface EvidenceClaim {
   id: string
   subjectId: string
   claimType: EvidenceClaimType
+  claimKind: 'scientific' | 'editorial'
   statement: string
   confidence: ConfidenceLevel | 'contested'
+  confidenceRationale: string
   referenceLinks: Array<{
     referenceId: string
+    relation: 'supports' | 'contradicts' | 'contextualizes'
     pages?: string
     table?: string
     figure?: string

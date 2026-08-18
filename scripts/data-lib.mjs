@@ -53,6 +53,7 @@ export function collectDataSummary() {
   const ontology = readJson('data/navigation/atlas-ontology.json')
   const treeEvidence = readJson('data/tree/evidence.json')
   const claims = readJson('data/evidence/claims.json')
+  const editorialDecisions = readJson('data/evidence/editorial-decisions.json')
   const periodNames = timeScale.units.filter((unit) => unit.itp === 'period').map((unit) => unit.nam)
   const fossilOccurrences = periodNames.reduce((sum, periodName) => {
     return sum + readJson(`data/fossils/${periodName.toLowerCase()}.json`).length
@@ -63,7 +64,7 @@ export function collectDataSummary() {
       fossilOccurrences,
       treeNodes: countTreeNodes(ontology),
       geologicalPeriods: periodNames.length,
-      paleogeographicSnapshots: periodMetadata.length,
+      paleogeographicSnapshots: periodMetadata.filter((record) => record.mapLayerStatus === 'available').length,
       earthHistoryMa: timeScale.earthAgeMa,
       timeScaleUnits: timeScale.units.length,
       taxonProfiles: profiles.length,
@@ -75,6 +76,7 @@ export function collectDataSummary() {
       divergenceEstimates: perissodactylCalibrations.estimates.length,
       treeEvidenceOverrides: Object.keys(treeEvidence.nodes).length,
       evidenceClaims: claims.length,
+      editorialDecisions: editorialDecisions.length,
     },
     checksums: Object.fromEntries(dataFiles().map((path) => [relative(rootDir, join(rootDir, path)).replaceAll('\\', '/'), sha256(path)])),
   }

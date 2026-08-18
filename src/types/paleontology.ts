@@ -31,10 +31,15 @@ export interface FossilOccurrence {
 }
 
 export type TaxonQueryScope = 'exact' | 'descendants'
+export type TaxonIndexStatus = 'hit' | 'miss'
 
 export interface TaxonOccurrenceQueryResult {
   taxonId: string
+  /** Scope requested by the caller. */
   scope: TaxonQueryScope
+  effectiveScope: TaxonQueryScope
+  indexStatus: TaxonIndexStatus
+  fallbackApplied: boolean
   sourceTotal: number
   matchedTotal: number
   rowsLoaded: number

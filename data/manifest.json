@@ -1,12 +1,14 @@
 {
   "schemaVersion": 2,
-  "datasetVersion": "2026.08-m1",
-  "generatedAt": "2026-08-18",
+  "datasetVersion": "2026.08-m2",
+  "appVersion": "0.8.0",
+  "commitSha": "unreleased",
+  "generatedAt": "2026-08-19",
   "records": {
     "fossilOccurrences": 13600,
     "treeNodes": 179,
     "geologicalPeriods": 12,
-    "paleogeographicSnapshots": 12,
+    "paleogeographicSnapshots": 0,
     "earthHistoryMa": 4567,
     "timeScaleUnits": 26,
     "taxonProfiles": 10,
@@ -17,7 +19,8 @@
     "mediaAssets": 10,
     "divergenceEstimates": 3,
     "treeEvidenceOverrides": 4,
-    "evidenceClaims": 28
+    "evidenceClaims": 28,
+    "editorialDecisions": 3
   },
   "sources": [
     {
@@ -33,10 +36,10 @@
       "mode": "Versioned local table derived from ICS 2026/06"
     },
     {
-      "name": "Evo curated paleogeography",
-      "role": "Period-level continental outlines",
-      "url": "https://github.com/dajiaohuang/evo",
-      "mode": "Bundled GeoJSON snapshots"
+      "name": "Paleogeographic geometry",
+      "role": "Continental outline layer withheld pending complete source and redistribution provenance",
+      "url": "https://github.com/dajiaohuang/evo/blob/main/DATA_LICENSES.md",
+      "mode": "Not bundled"
     },
     {
       "name": "Open Tree of Life",
@@ -53,14 +56,15 @@
   ],
   "limitations": [
     "Occurrence files are bounded, non-random PBDB API-prefix samples with unknown selection probability; they are not exhaustive or statistically representative exports.",
-    "Paleogeographic outlines are period-level visual summaries, not continuous plate reconstructions.",
+    "Continental paleogeographic geometry is not bundled until source, license and processing provenance is complete.",
     "The atlas-wide hierarchy is a navigation ontology, not a phylogenetic hypothesis; the separate Perissodactyla hypothesis has no time-scaled branch lengths.",
     "First and last appearances are sampling-dependent observations, not exact origination or extinction dates.",
     "Observed density and missing records cannot be interpreted as biological richness or absence without sampling controls."
   ],
   "checksums": {
     "data/events.json": "6d2081057f7ba6df33730948aac08a2ade99236efacb13f0e8f09b0c919cbc51",
-    "data/evidence/claims.json": "32fcef6353424ca3d4cb1aaa64bb8a918e4696450ad3b241468c0369e1f101f0",
+    "data/evidence/claims.json": "e11ac5f3362d7273e947f7ab0cb48228ac748c204fa369eb14ea06086faa6191",
+    "data/evidence/editorial-decisions.json": "c78b78fa1d32acc0542dc826d0c7da8d27ca5ee32a07331485072cda9144052f",
     "data/fossils/cambrian.json": "5a04f1fd4f4ba9b22a7f6bcf3a4a9fe7bec321be0335121c9a19c6bd9a49a58f",
     "data/fossils/carboniferous.json": "dc0916f740a64dd66c1123fa520fd7d501e9bdcdca0fa7b922509b8ad917cac7",
     "data/fossils/cretaceous.json": "460bc1f8ab15f6b47a7acee612be8585ddb75e2843d1b8ffda0dbf4e132ed4a4",
@@ -76,24 +80,12 @@
     "data/indexes/taxon-period-index.json": "d6e3928793e430254f3a073ace7f6d168bb2d39004364f5c4a3d79fa152add92",
     "data/media.json": "ad0c5c0b1f011d1c8783e45cfcaacf77d12492e0f936f2b1487b1f626b8ed03f",
     "data/navigation/atlas-ontology.json": "75f09aa27d136747a4c2c0e2d3a0161f664f4091bbc62737eed0e7f06c65db3b",
-    "data/paleogeography/cambrian.json": "61c8c28e440ee3bb423551f59022b8f10c953b70c5bf520f7bfaba15f0562c5f",
-    "data/paleogeography/carboniferous.json": "c9f399421c1bea4c90a1e341fd2589c809d6f0e623fbe26a8963a6714bf29f4e",
-    "data/paleogeography/cretaceous.json": "7f8528baf660865e8282259bc12f8686d1e71f1b425ac461c7a61467b61c2407",
-    "data/paleogeography/devonian.json": "db8972b2cb05fffcbdaadc12273c5282372003a7d33c24d5d85359656e1b3dd4",
-    "data/paleogeography/jurassic.json": "260aca8e34d6dd0868db155b908d7c66f8cdd821f236353e0539699ab9c9d4bd",
-    "data/paleogeography/neogene.json": "c31c03927c7b22a760532a1be192e60d0012f751be2da6003ab71dcd7b3dfe55",
-    "data/paleogeography/ordovician.json": "3ff864f7a8f4b39aa6256324856eb11e79be2ecc53df72579c4160fe0459ef13",
-    "data/paleogeography/paleogene.json": "ac70f66c1234efa6fd4d4af029bc3cdd162d5b621941090abe00c26fd661aff1",
-    "data/paleogeography/permian.json": "18348109833cdd18049e55dc818292b9dbc929a89b0a75a6794a197655a7b8b6",
-    "data/paleogeography/quaternary.json": "84e2577cf354ecbad83135daa79be6815748f1cc9a6b6f0cac86a1ac006b4ded",
-    "data/paleogeography/silurian.json": "8d79f2a99715ee6214cd427921390bcf0ab70609faac8e9825956d05d5c5c8f5",
-    "data/paleogeography/triassic.json": "3784b7d81c527103715db5e3cbabae2cc213a9125fd8a2c842daeb317d1cfe1c",
-    "data/period-map-metadata.json": "d24ca1345056862cb46e93b28160dd4494bf70d0e517e27e16e921553cc6ddbc",
-    "data/phylogenies/perissodactyla-calibrations.json": "6ff01c81f1495218d0bd5508d41c218848629003a31e9f23b1dd875fb88efdc4",
+    "data/period-map-metadata.json": "10cfcf5de98283d3a7104c0a36d269be760537e1a0e18c60744581882cd97f4e",
+    "data/phylogenies/perissodactyla-calibrations.json": "4f1d7acb2a8007a991f01f32f925b4981cf4c54c228493fb43ca3189fbcdd2a6",
     "data/phylogenies/perissodactyla-hypothesis.json": "13fadb57ab700075ddd6b5f7e3d9ef25969f150c07e9b34afd9ca0580c3a58ae",
     "data/places.json": "5c9d3c64f30a569be9f03d144879ed498ed185450503b72bd5ba855d38a06aef",
     "data/references.json": "3685ee3c16b7bdfc0852414851d1f5294fa9fc94ba817f99b3e231263257fefb",
-    "data/schemas/claim.schema.json": "d9da9d13a151ee61590f4e0ae997e97592e47baf5d0f0cca3d22478e602c687f",
+    "data/schemas/claim.schema.json": "95820309d70f63e6a996f55836506c89ebfa682bfd118fdc3ad24496c56eaad0",
     "data/schemas/event.schema.json": "1eb269c7e0f5dfd1b073ccafc54286be6cc59820752e3a2bf90a1196b17cba5c",
     "data/schemas/occurrence.schema.json": "979649d440556a8a051a10e89342eb234b5b1a0634fc1261e4ac182fe85f537e",
     "data/schemas/profile.schema.json": "052924fec6fb1148a14adf1b7442c884ff10b56b9ec01124fd1c9f6b398d9a80",

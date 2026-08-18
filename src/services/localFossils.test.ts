@@ -19,6 +19,12 @@ describe('local fossil chunks', () => {
     expect(descendants.records).toHaveLength(2)
     expect(descendants.loadedPeriods).toEqual(['Quaternary'])
     expect(descendants.truncated).toBe(false)
+    expect(descendants).toMatchObject({ indexStatus: 'hit', effectiveScope: 'descendants', fallbackApplied: false })
     expect(exact.records).toHaveLength(0)
+  })
+
+  it('reports an explicit exact fallback when a descendant index is missing', async () => {
+    const result = await getFossilsByTaxon('txn:not-indexed', 'descendants')
+    expect(result).toMatchObject({ indexStatus: 'miss', effectiveScope: 'exact', fallbackApplied: true })
   })
 })

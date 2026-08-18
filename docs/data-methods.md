@@ -14,7 +14,7 @@ Observed counts are not treated as true richness. Rock availability, collecting 
 
 ## Paleogeography
 
-The 12 GeoJSON files are period-level visual snapshots. They are not a continuous plate-rotation model. Occurrence markers use either paired reconstructed coordinates or paired modern collection coordinates in an explicitly selected mode. Missing reconstructed coordinates never fall back to modern coordinates (or vice versa), and exports create separate GeoJSON files.
+Continental geometry is currently withheld: the previous 12 illustrative GeoJSON snapshots did not have enough source and redistribution provenance for public release. The map therefore renders occurrence coordinates without a continental reconstruction layer. A replacement snapshot cannot be promoted until its source dataset/version/URL, license, attribution, processing script/commit, reconstruction age/model and geometry checksum are recorded. Occurrence markers still use either paired reconstructed coordinates or paired modern collection coordinates in an explicitly selected mode. Missing reconstructed coordinates never fall back to modern coordinates (or vice versa), and exports create separate point GeoJSON files.
 
 ## Tree representations
 
@@ -28,4 +28,4 @@ Recent Data Lab query definitions are stored in browser IndexedDB, capped to 20 
 
 ## Reproducibility and validation
 
-After an intentional occurrence change, run `npm run data:normalize:fossils`, `npm run data:indexes`, `npm run data:manifest`, then `npm run data:validate`. The manifest stores record counts and SHA-256 checksums for every data/schema file; JSON text is normalized from CRLF to LF before hashing so identical snapshots verify on Windows and Linux. Validation uses JSON Schema and checks interval hierarchy/continuity, duplicate identifiers, claim/reference coverage, story links, ontology and hypothesis graphs, calibration compatibility, descendant-index correctness, coordinate pairing, scientific regression assertions, GeoJSON structure and manifest integrity. `npm run verify` adds unit, build, size, browser-route and accessibility gates.
+After an intentional occurrence change, run `npm run data:normalize:fossils`, `npm run data:indexes`, `npm run data:manifest`, then `npm run data:validate`. The manifest stores record counts and SHA-256 checksums for every data/schema file; JSON text is normalized from CRLF to LF before hashing so identical snapshots verify on Windows and Linux. Validation uses JSON Schema and checks interval hierarchy/continuity, duplicate identifiers, claim/reference coverage, editorial/scientific separation, story links, ontology and hypothesis graphs, calibration mapping status, descendant-index correctness, coordinate pairing, scientific regression assertions, map-layer availability and manifest integrity. `npm run verify` adds unit, build, size, browser-route and accessibility gates.

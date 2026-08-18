@@ -41,15 +41,25 @@ test('skip and catalog section controls do not corrupt the hash route', async ({
   expect(await page.evaluate(() => window.location.hash)).toBe(originalHash)
 })
 
-test('Explorer restores and rewrites a complete shareable state', async ({ page }) => {
+test('Explorer restores state and removes the unsupported global model parameter', async ({ page }) => {
   await page.goto('./#/explore?age=12.3&older=20&younger=5&view=map&lat=10&lng=20&zoom=3&markers=points&coords=modern&land=0&treeMode=fossil-range&model=test-model')
   await expect(page.getByRole('button', { name: 'points' })).toHaveClass(/is-active/)
   await expect(page.getByRole('button', { name: 'modern' })).toHaveClass(/is-active/)
   await expect(page.getByText('Shared time window 20–5 Ma')).toBeVisible()
-  await expect.poll(() => page.url()).toContain('dataset=2026.08-m1')
-  for (const fragment of ['older=20', 'younger=5', 'lat=10.000', 'lng=20.000', 'zoom=3.00', 'treeMode=fossil-range', 'model=test-model']) {
+  await expect.poll(() => page.url()).toContain('dataset=2026.08-m2')
+  for (const fragment of ['older=20', 'younger=5', 'lat=10.000', 'lng=20.000', 'zoom=3.00', 'treeMode=fossil-range']) {
     expect(page.url()).toContain(fragment)
   }
+  expect(page.url()).not.toContain('model=')
+  expect(page.url()).not.toContain('land=')
+})
+
+test('Explorer requires confirmation before replacing a mismatched dataset version', async ({ page }) => {
+  await page.goto('./#/explore?dataset=2025.01-old&age=66')
+  await expect(page.getByRole('alertdialog')).toContainText('2025.01-old')
+  expect(page.url()).toContain('dataset=2025.01-old')
+  await page.getByRole('button', { name: 'Use current dataset' }).click()
+  await expect.poll(() => page.url()).toContain('dataset=2026.08-m2')
 })
 
 test('browser back and forward preserve hash navigation', async ({ page }) => {
@@ -74,7 +84,7 @@ test('mobile Explorer panels remain operable', async ({ page }) => {
   await expect(inspector).not.toHaveClass(/is-open/)
 })
 
-for (const route of ['#/home', '#/taxa?id=perissodactyla']) {
+for (const route of ['#/home', '#/taxa?id=perissodactyla', '#/explore?view=tree&treeMode=cladogram&age=20', '#/lab', '#/compare']) {
   test(`has no serious automated accessibility violations on ${route}`, async ({ page }) => {
     await page.goto(`./${route}`)
     await page.waitForLoadState('networkidle')

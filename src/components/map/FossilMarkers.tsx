@@ -16,13 +16,18 @@ export function FossilMarkers({ mode, coordinateMode }: FossilMarkersProps) {
   const currentPeriod = useAppStore((s) => s.currentPeriod)
   const occurrencesByInterval = useAppStore((s) => s.occurrencesByInterval)
   const viewState = useAppStore((s) => s.viewState)
-  const highlightedTaxonId = useAppStore((s) => s.highlightedTaxonId)
+  const highlightedOccurrenceIds = useAppStore((s) => s.highlightedOccurrenceIds)
   const selectFossilOccurrence = useAppStore((s) => s.selectFossilOccurrence)
 
   if (!currentPeriod) return null
 
   const records = occurrencesByInterval[currentPeriod]
   if (!records || records.length === 0) return null
+  const highlightedIds = new Set(highlightedOccurrenceIds)
+  const highlightedRecords = records.filter((occurrence) => (
+    highlightedIds.has(occurrence.oid)
+    && getSpatialPosition(occurrence, coordinateMode).mode === coordinateMode
+  ))
 
   const markers = mode === 'points'
     ? records
@@ -30,8 +35,9 @@ export function FossilMarkers({ mode, coordinateMode }: FossilMarkersProps) {
       .map((occurrence) => ({ type: 'individual' as const, occurrence }))
     : computeClusters(records, viewState.zoom, {
       gridSize: mode === 'density' ? 70 : 40,
-      maxZoom: mode === 'density' ? 20 : 5,
+      maxZoom: 20,
       coordinateMode,
+      centerLongitude: viewState.center[1],
     })
 
   return (
@@ -64,8 +70,8 @@ export function FossilMarkers({ mode, coordinateMode }: FossilMarkersProps) {
         if (position.mode !== coordinateMode) return null
         const { lat, lng } = position
 
-        const isHighlighted = highlightedTaxonId && occ.tid === highlightedTaxonId
-        const opacity = isHighlighted ? 1 : highlightedTaxonId ? 0.12 : 0.6
+        const isHighlighted = highlightedIds.has(occ.oid)
+        const opacity = isHighlighted ? 1 : highlightedIds.size ? 0.12 : 0.6
         const radius = isHighlighted ? 7 : 4
 
         return (
@@ -88,6 +94,26 @@ export function FossilMarkers({ mode, coordinateMode }: FossilMarkersProps) {
                 <div style={{ color: '#8b949e' }}>
                   {occ.eag?.toFixed(1)} – {occ.lag?.toFixed(1)} Ma
                 </div>
+              </div>
+            </Tooltip>
+          </CircleMarker>
+        )
+      })}
+      {mode !== 'points' && highlightedRecords.map((occurrence) => {
+        const position = getSpatialPosition(occurrence, coordinateMode)
+        if (position.mode !== coordinateMode) return null
+        return (
+          <CircleMarker
+            key={`highlight-${occurrence.oid}`}
+            center={[position.lat, position.lng]}
+            radius={7}
+            pathOptions={{ color: '#ffd700', weight: 2, fillColor: '#ffd700', fillOpacity: 1 }}
+            eventHandlers={{ click: () => selectFossilOccurrence(occurrence) }}
+          >
+            <Tooltip direction="top" offset={[0, -8]} opacity={1}>
+              <div style={{ fontSize: 11 }}>
+                <strong>{occurrence.tna || occurrence.idn || t('Unresolved identification')}</strong>
+                <div style={{ color: '#8b949e' }}>{occurrence.eag.toFixed(1)} – {occurrence.lag.toFixed(1)} Ma</div>
               </div>
             </Tooltip>
           </CircleMarker>

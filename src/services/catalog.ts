@@ -91,10 +91,13 @@ function isAncestorOrSelf(ancestorId: string, nodeId: string): boolean {
 export function getCalibrationsForTaxon(profileId: string): DivergenceEstimate[] {
   const profile = getTaxonProfile(profileId)
   if (!profile?.treeNodeId || !phylogenyParent.has(profile.treeNodeId)) return []
+  if (profileId === 'perissodactyla') return perissodactylCalibrations
   const treeNodeId = profile.treeNodeId
   return perissodactylCalibrations.filter((estimate) => (
-    isAncestorOrSelf(estimate.nodeId, treeNodeId)
-    || isAncestorOrSelf(treeNodeId, estimate.nodeId)
+    estimate.mappingStatus === 'mapped'
+    && estimate.nodeId !== null
+    && (isAncestorOrSelf(estimate.nodeId, treeNodeId)
+      || isAncestorOrSelf(treeNodeId, estimate.nodeId))
   ))
 }
 

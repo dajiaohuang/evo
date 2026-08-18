@@ -8,6 +8,8 @@
     {
       "id": "tapiroidea-rhinocerotoidea",
       "nodeId": "ceratomorpha",
+      "mappingStatus": "mapped",
+      "displayOnTree": true,
       "cladePackageId": "clade:perissodactyla-2026-08",
       "topologyHypothesisId": "phylogeny:perissodactyla-curated-2026-08",
       "compatibilityGroup": "bai-2020-tip-dating",
@@ -22,7 +24,9 @@
     },
     {
       "id": "eggysodontidae-paraceratheriidae-rhinocerotidae",
-      "nodeId": "rhinocerotoidea",
+      "nodeId": null,
+      "mappingStatus": "unmapped",
+      "displayOnTree": false,
       "cladePackageId": "clade:perissodactyla-2026-08",
       "topologyHypothesisId": "phylogeny:perissodactyla-curated-2026-08",
       "compatibilityGroup": "bai-2020-tip-dating",
@@ -33,11 +37,13 @@
       "method": "Bayesian tip-dating · 95% HPD",
       "referenceId": "bai-2020-rhinocerotoidea",
       "locator": { "figure": "Bayesian tip-dating tree in the article supplementary information" },
-      "note": "A published internal rhinocerotoid calibration with its reported uncertainty."
+      "note": "A published internal rhinocerotoid calibration with its reported uncertainty. The current topology lacks the exact three-lineage node, so this estimate is not displayed on the tree."
     },
     {
       "id": "african-eurasian-rhinocerotina",
-      "nodeId": "rhinocerotidae",
+      "nodeId": null,
+      "mappingStatus": "unmapped",
+      "displayOnTree": false,
       "cladePackageId": "clade:perissodactyla-2026-08",
       "topologyHypothesisId": "phylogeny:perissodactyla-curated-2026-08",
       "compatibilityGroup": "liu-2021-genome-tree",
@@ -48,7 +54,7 @@
       "method": "Genome-scale species tree with fossil time context",
       "referenceId": "liu-2021-rhinoceros-genomes",
       "locator": { "figure": "Genome-scale rhinoceros family tree" },
-      "note": "Approximate early Miocene split reported by the genomic study."
+      "note": "Approximate early Miocene split reported by the genomic study. The current topology lacks the crown African–Eurasian lineage node, so this estimate is not displayed on the tree."
     }
   ]
 }

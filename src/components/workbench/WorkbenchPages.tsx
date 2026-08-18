@@ -14,6 +14,7 @@ import type { AppRoute } from '../../utils/routing'
 import { listSavedLabQueries, saveLabQuery, type SavedLabQuery } from '../../services/workspaceDb'
 import './WorkbenchPages.css'
 import { useI18n } from '../../i18n'
+import manifest from '../../../data/manifest.json'
 
 interface WorkbenchProps {
   params: URLSearchParams
@@ -251,7 +252,7 @@ export function LabPage({ params }: WorkbenchProps) {
             {queryHistory.slice(0, 4).map((saved) => (
               <button type="button" key={saved.id} onClick={() => setQuery(saved.query)}>
                 <span>{saved.query.taxon || saved.query.country || saved.query.periods.map((period) => t(period)).join(', ') || t('All occurrences')}</span>
-                <small>{number(saved.matched)} · {new Date(saved.savedAt).toLocaleDateString(language === 'zh' ? 'zh-CN' : 'en-US')}</small>
+                <small>{saved.datasetVersion === manifest.datasetVersion ? number(saved.matched) : t('rerun required')} · {new Date(saved.savedAt).toLocaleDateString(language === 'zh' ? 'zh-CN' : 'en-US')}</small>
               </button>
             ))}
             {queryHistory.length === 0 && <p>{t('Completed queries will be saved only in this browser.')}</p>}
@@ -333,10 +334,11 @@ export function ComparePage({ params, onNavigate }: WorkbenchProps) {
   const [leftResult, setLeftResult] = useState<LabResult | null>(null)
   const [rightResult, setRightResult] = useState<LabResult | null>(null)
   const [loading, setLoading] = useState(false)
-  const occurrencesByTaxon = useAppStore((state) => state.occurrencesByTaxon)
+  const occurrencesByTaxonQuery = useAppStore((state) => state.occurrencesByTaxonQuery)
   const loadOccurrences = useAppStore((state) => state.loadOccurrencesForTaxon)
   const leftProfile = getTaxonProfile(leftTaxon) ?? taxonProfiles[0]
   const rightProfile = getTaxonProfile(rightTaxon) ?? taxonProfiles[1]
+  const timeWindowsValid = olderA >= youngerA && olderB >= youngerB
 
   useEffect(() => {
     if (mode !== 'taxa') return
@@ -385,7 +387,7 @@ export function ComparePage({ params, onNavigate }: WorkbenchProps) {
           </div>
           <div className="taxa-compare-grid">
             {[leftProfile, rightProfile].map((profile) => {
-              const count = profile.pbdbTaxonId ? occurrencesByTaxon[profile.pbdbTaxonId]?.length : undefined
+              const count = profile.pbdbTaxonId ? occurrencesByTaxonQuery[`descendants:${profile.pbdbTaxonId}`]?.length : undefined
               return <article key={profile.id}><span>{language === 'zh' ? profile.commonNameZh : profile.commonName}</span><h2><em>{profile.scientificName}</em></h2><p>{t(profile.overview)}</p><dl><div><dt>{t('Range')}</dt><dd>{profile.firstAppearance}—{profile.lastAppearance || t('Present')} Ma</dd></div><div><dt>{t('Guild')}</dt><dd>{t(profile.ecology.guild)}</dd></div><div><dt>{t('Body size')}</dt><dd>{t(profile.ecology.bodySize)}</dd></div><div><dt>{t('Bundled descendant rows')}</dt><dd>{count == null ? t('Loading…') : number(count)}</dd></div><div><dt>{t('Profile confidence')}</dt><dd>{t(profile.confidence)}</dd></div></dl><button onClick={() => onNavigate('taxa', { id: profile.id })}>{t('Open evidence page →')}</button></article>
             })}
           </div>
@@ -408,7 +410,8 @@ export function ComparePage({ params, onNavigate }: WorkbenchProps) {
               </>
             )}
           </div>
-          <button className="run-comparison" onClick={runComparison} disabled={loading}>{t(loading ? 'Loading all period chunks…' : 'Run bounded comparison')}</button>
+          {mode === 'time' && !timeWindowsValid && <p className="lab-error" role="alert">{t('Older bounds must be greater than or equal to younger bounds.')}</p>}
+          <button className="run-comparison" onClick={runComparison} disabled={loading || (mode === 'time' && !timeWindowsValid)}>{t(loading ? 'Loading all period chunks…' : 'Run bounded comparison')}</button>
           <CompareStats left={leftResult} right={rightResult} leftLabel={mode === 'time' ? `${olderA}–${youngerA} Ma` : countryA} rightLabel={mode === 'time' ? `${olderB}–${youngerB} Ma` : countryB} />
         </section>
       )}
