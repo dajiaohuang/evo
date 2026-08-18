@@ -1,7 +1,10 @@
 import { useRef, useCallback, useEffect, useState } from 'react'
 import { useAppStore } from '../../store'
-import { ERA_COLORS, PHANEROZOIC_TOTAL_MA } from '../../constants'
+import { EARTH_HISTORY_TOTAL_MA, ERA_COLORS, PHANEROZOIC_TOTAL_MA } from '../../constants'
 import periodsData from '../../../data/periods.json'
+import timeScaleData from '../../../data/time-scale.json'
+import eventsData from '../../../data/events.json'
+import type { GeoInterval } from '../../types'
 
 const TIMELINE_HEIGHT = 100
 const PADDING_X = 8
@@ -12,19 +15,30 @@ const PERIOD_TRACK_HEIGHT = 28
 export function GeoTimeline() {
   const currentAge = useAppStore((s) => s.currentAge)
   const currentPeriod = useAppStore((s) => s.currentPeriod)
+  const currentEon = useAppStore((s) => s.currentEon)
   const setTime = useAppStore((s) => s.setTime)
   const svgRef = useRef<SVGSVGElement>(null)
   const [dragging, setDragging] = useState(false)
+  const [width, setWidth] = useState(800)
+  const [scaleMode, setScaleMode] = useState<'earth' | 'phanerozoic'>(() => (
+    currentAge > PHANEROZOIC_TOTAL_MA ? 'earth' : 'phanerozoic'
+  ))
+  const [playing, setPlaying] = useState(false)
+  const [speed, setSpeed] = useState(10)
   const rafRef = useRef<number>(0)
+  const playbackRafRef = useRef<number>(0)
+  const playbackAgeRef = useRef(currentAge)
+
+  const totalMa = scaleMode === 'earth' ? EARTH_HISTORY_TOTAL_MA : PHANEROZOIC_TOTAL_MA
 
   const ageToX = useCallback((age: number, width: number) => {
-    return PADDING_X + (1 - age / PHANEROZOIC_TOTAL_MA) * (width - PADDING_X * 2)
-  }, [])
+    return PADDING_X + (1 - Math.min(age, totalMa) / totalMa) * (width - PADDING_X * 2)
+  }, [totalMa])
 
   const xToAge = useCallback((x: number, width: number) => {
     const ratio = (x - PADDING_X) / (width - PADDING_X * 2)
-    return (1 - Math.max(0, Math.min(1, ratio))) * PHANEROZOIC_TOTAL_MA
-  }, [])
+    return (1 - Math.max(0, Math.min(1, ratio))) * totalMa
+  }, [totalMa])
 
   const handlePointerMove = useCallback((e: PointerEvent) => {
     if (!dragging || !svgRef.current) return
@@ -52,6 +66,34 @@ export function GeoTimeline() {
     }
   }, [dragging, handlePointerMove, handlePointerUp])
 
+  useEffect(() => {
+    const svg = svgRef.current
+    if (!svg) return
+    const updateWidth = () => setWidth(svg.clientWidth || 800)
+    const observer = new ResizeObserver(updateWidth)
+    observer.observe(svg)
+    window.requestAnimationFrame(updateWidth)
+    return () => observer.disconnect()
+  }, [])
+
+  useEffect(() => { playbackAgeRef.current = currentAge }, [currentAge])
+
+  useEffect(() => {
+    if (!playing) return
+    let previous = performance.now()
+    const tick = (now: number) => {
+      const elapsedSeconds = Math.min((now - previous) / 1000, 0.1)
+      previous = now
+      const nextAge = Math.max(0, playbackAgeRef.current - speed * elapsedSeconds)
+      playbackAgeRef.current = nextAge
+      setTime(nextAge)
+      if (nextAge === 0) setPlaying(false)
+      else playbackRafRef.current = requestAnimationFrame(tick)
+    }
+    playbackRafRef.current = requestAnimationFrame(tick)
+    return () => cancelAnimationFrame(playbackRafRef.current)
+  }, [playing, setTime, speed])
+
   const handlePointerDown = useCallback(() => {
     setDragging(true)
   }, [])
@@ -64,7 +106,6 @@ export function GeoTimeline() {
     setTime(age)
   }, [xToAge, setTime])
 
-  const width = svgRef.current?.clientWidth ?? 800
   const handleX = ageToX(currentAge, width)
 
   const eras = [
@@ -73,23 +114,69 @@ export function GeoTimeline() {
     { name: 'Paleozoic', lag: 251.9, eag: 538.8, color: ERA_COLORS['Paleozoic'] },
   ]
 
+  const eons = (timeScaleData.units as GeoInterval[]).filter((unit) => unit.itp === 'eon')
+
+  const ageLabel = currentAge >= 1000
+    ? `${(currentAge / 1000).toFixed(2)} Ga`
+    : `${currentAge.toFixed(1)} Ma`
+
   return (
     <div style={{ height: '100%', width: '100%', position: 'relative', userSelect: 'none' }}>
-      <div style={{
-        position: 'absolute', top: 4, left: PADDING_X,
-        fontSize: 11, color: 'var(--color-text-muted)',
-        fontFamily: 'var(--font-mono)',
-        pointerEvents: 'none',
-      }}>
-        {currentPeriod ?? 'Cretaceous'}
+      <div className="timeline-controls" onPointerDown={(event) => event.stopPropagation()}>
+        <button onClick={() => setPlaying((value) => !value)} aria-label={playing ? 'Pause geological time playback' : 'Play toward the present'}>{playing ? 'Ⅱ' : '▶'}</button>
+        <label><span>Ma</span><input type="number" min="0" max={EARTH_HISTORY_TOTAL_MA} step="0.1" value={Number(currentAge.toFixed(1))} onChange={(event) => setTime(Number(event.target.value))} /></label>
+        <label><span>speed</span><select value={speed} onChange={(event) => setSpeed(Number(event.target.value))}><option value={1}>1 Ma/s</option><option value={10}>10 Ma/s</option><option value={50}>50 Ma/s</option><option value={200}>200 Ma/s</option></select></label>
+        <label className="timeline-event-jump"><span>event</span><select value="" onChange={(event) => {
+          const selected = eventsData.find((item) => item.id === event.target.value)
+          if (!selected) return
+          const age = (selected.startAge + selected.endAge) / 2
+          setTime(age)
+          if (age > PHANEROZOIC_TOTAL_MA) setScaleMode('earth')
+        }}><option value="">Jump to…</option>{eventsData.map((event) => <option value={event.id} key={event.id}>{event.titleZh}</option>)}</select></label>
+      </div>
+      <div className="timeline-scale-switch" role="group" aria-label="Timeline scale">
+        <button className={scaleMode === 'earth' ? 'is-active' : ''} onClick={() => setScaleMode('earth')}>4.567 Ga</button>
+        <button className={scaleMode === 'phanerozoic' ? 'is-active' : ''} onClick={() => setScaleMode('phanerozoic')}>538.8 Ma</button>
       </div>
       <svg
         ref={svgRef}
         style={{ width: '100%', height: '100%', cursor: dragging ? 'ew-resize' : 'default' }}
         onPointerDown={handleTrackClick}
       >
+        <title>Geological time control. Current context: {currentPeriod ?? currentEon ?? 'Deep time'}.</title>
         <rect x={0} y={0} width="100%" height="100%" fill="transparent" />
-        {eras.map((era) => {
+        {scaleMode === 'earth' && eons.map((eon) => {
+          const left = ageToX(eon.eag, width)
+          const right = ageToX(eon.lag, width)
+          const eonWidth = Math.max(1, right - left)
+          return (
+            <g key={eon.oid}>
+              <rect
+                x={left}
+                y={TRACK_TOP}
+                width={eonWidth}
+                height={ERA_TRACK_HEIGHT + PERIOD_TRACK_HEIGHT}
+                fill={eon.col}
+                opacity={0.68}
+                stroke="var(--color-surface)"
+                strokeWidth={0.5}
+              />
+              {eonWidth > 55 && (
+                <text
+                  x={left + eonWidth / 2}
+                  y={TRACK_TOP + 29}
+                  textAnchor="middle"
+                  fill="var(--color-text)"
+                  fontSize={10}
+                  fontFamily="var(--font-sans)"
+                >
+                  {eon.nam}
+                </text>
+              )}
+            </g>
+          )
+        })}
+        {scaleMode === 'phanerozoic' && eras.map((era) => {
           const left = ageToX(era.eag, width)
           const right = ageToX(era.lag, width)
           return (
@@ -104,7 +191,7 @@ export function GeoTimeline() {
             />
           )
         })}
-        {periodsData.map((p) => {
+        {scaleMode === 'phanerozoic' && periodsData.map((p) => {
           const left = ageToX(p.eag, width)
           const right = ageToX(p.lag, width)
           const periodW = Math.max(1, right - left)
@@ -164,7 +251,7 @@ export function GeoTimeline() {
           fontFamily="var(--font-mono)"
           style={{ pointerEvents: 'none' }}
         >
-          {currentAge.toFixed(1)} Ma
+          {ageLabel}
         </text>
       </svg>
     </div>

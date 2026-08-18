@@ -1,13 +1,14 @@
 import type { GeoInterval } from '../types'
 import type { AppState } from './index'
-import { PHANEROZOIC_TOTAL_MA } from '../constants'
-import { fetchIntervals } from '../services/pbdb'
+import { EARTH_HISTORY_TOTAL_MA } from '../constants'
+import timeScaleData from '../../data/time-scale.json'
 
 export interface TimelineSlice {
   allIntervals: GeoInterval[]
   currentAge: number
   currentPeriod: string | null
   currentEra: string | null
+  currentEon: string | null
   intervalsLoading: boolean
   intervalsError: string | null
   setTime: (age: number) => void
@@ -20,9 +21,14 @@ function resolvePeriod(intervals: GeoInterval[], age: number): GeoInterval | nul
   ) ?? null
 }
 
-function resolveEra(period: GeoInterval | null, intervals: GeoInterval[]): GeoInterval | null {
-  if (!period?.pid) return null
-  return intervals.find((i) => i.oid === period.pid) ?? null
+function resolveUnit(intervals: GeoInterval[], age: number, type: GeoInterval['itp']): GeoInterval | null {
+  return intervals.find((interval) => (
+    interval.itp === type && age >= interval.lag && age <= interval.eag
+  )) ?? null
+}
+
+function buildLocalIntervals(): GeoInterval[] {
+  return timeScaleData.units as GeoInterval[]
 }
 
 export const createTimelineSlice = (
@@ -33,18 +39,21 @@ export const createTimelineSlice = (
   currentAge: 66,
   currentPeriod: 'Cretaceous',
   currentEra: 'Mesozoic',
+  currentEon: 'Phanerozoic',
   intervalsLoading: false,
   intervalsError: null,
 
   setTime: (age: number) => {
-    const clamped = Math.max(0, Math.min(PHANEROZOIC_TOTAL_MA, age))
+    const clamped = Math.max(0, Math.min(EARTH_HISTORY_TOTAL_MA, age))
     const { allIntervals } = get()
     const period = resolvePeriod(allIntervals, clamped)
-    const era = resolveEra(period, allIntervals)
+    const era = resolveUnit(allIntervals, clamped, 'era')
+    const eon = resolveUnit(allIntervals, clamped, 'eon')
     set({
       currentAge: clamped,
       currentPeriod: period?.nam ?? null,
       currentEra: era?.nam ?? null,
+      currentEon: eon?.nam ?? null,
     })
   },
 
@@ -52,21 +61,16 @@ export const createTimelineSlice = (
     const { allIntervals, currentAge } = get()
     if (allIntervals.length > 0) return
     set({ intervalsLoading: true, intervalsError: null })
-    try {
-      const intervals = await fetchIntervals()
-      const period = resolvePeriod(intervals, currentAge)
-      const era = resolveEra(period, intervals)
-      set({
-        allIntervals: intervals,
-        currentPeriod: period?.nam ?? null,
-        currentEra: era?.nam ?? null,
-        intervalsLoading: false,
-      })
-    } catch (err) {
-      set({
-        intervalsLoading: false,
-        intervalsError: err instanceof Error ? err.message : 'Unknown error',
-      })
-    }
+    const intervals = buildLocalIntervals()
+    const period = resolvePeriod(intervals, currentAge)
+    const era = resolveUnit(intervals, currentAge, 'era')
+    const eon = resolveUnit(intervals, currentAge, 'eon')
+    set({
+      allIntervals: intervals,
+      currentPeriod: period?.nam ?? null,
+      currentEra: era?.nam ?? null,
+      currentEon: eon?.nam ?? null,
+      intervalsLoading: false,
+    })
   },
 })

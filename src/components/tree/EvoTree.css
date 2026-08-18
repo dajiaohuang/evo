@@ -1,0 +1,20 @@
+.evo-tree { position: relative; width: 100%; height: 100%; overflow: hidden; background: radial-gradient(circle at 50% 45%, rgba(88, 166, 255, .055), transparent 50%); }
+.evo-tree--fossil-range { overflow: auto; }
+.evo-tree > svg { display: block; width: 100%; height: 100%; min-height: 100%; }
+.tree-mode-control { position: absolute; top: 8px; left: 12px; z-index: 20; max-width: calc(100% - 24px); display: flex; flex-wrap: wrap; gap: 2px; padding: 3px; border: 1px solid var(--color-border); background: rgba(8, 17, 21, .93); }
+.evo-tree--fossil-range .tree-mode-control, .evo-tree--fossil-range .tree-model-note { position: sticky; width: max-content; }
+.tree-mode-control span { padding: 5px 7px; color: var(--color-text-faint); font: 7px var(--font-mono); text-transform: uppercase; letter-spacing: .08em; }
+.tree-mode-control button { padding: 5px 8px; border: 0; background: transparent; color: var(--color-text-muted); font-size: 8px; cursor: pointer; }
+.tree-mode-control button.is-active { background: var(--color-surface-raised); color: var(--color-accent); }
+.tree-model-note { position: absolute; bottom: 8px; left: 12px; z-index: 20; width: max-content; max-width: calc(100% - 24px); padding: 6px 9px; border-left: 2px solid var(--color-accent-dim); background: rgba(8, 17, 21, .9); color: var(--color-text-muted); font: 7px var(--font-mono); }
+.tree-link { fill: none; stroke: #303b43; stroke-width: 1.2; }
+.tree-node-label { fill: var(--color-text-secondary); font: 8px var(--font-sans); }
+.tree-time-axis path, .tree-time-axis line { stroke: var(--color-border); }
+.tree-time-axis text { fill: var(--color-text-faint); font: 7px var(--font-mono); }
+.tree-current-line { stroke: #ffd700; stroke-width: 1; stroke-dasharray: 3 4; opacity: .65; pointer-events: none; }
+.range-track { stroke: var(--color-border-subtle); stroke-width: 1; }
+.range-bar { stroke: var(--color-text-faint); stroke-width: 4; stroke-linecap: round; }
+.range-bar[data-active='true'] { stroke: var(--color-accent); }
+.range-label { fill: var(--color-text-muted); font: 8px var(--font-sans); }
+.range-row.is-selected .range-label { fill: #ffd700; font-weight: 700; }
+.range-row.is-selected .range-bar { stroke: #ffd700; stroke-width: 6; }

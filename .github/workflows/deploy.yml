@@ -3,9 +3,14 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches: [main]
+  pull_request:
+
+concurrency:
+  group: pages-${{ github.ref }}
+  cancel-in-progress: true
 
 jobs:
-  build-and-deploy:
+  validate-build-and-deploy:
     runs-on: ubuntu-latest
     permissions:
       contents: read
@@ -21,10 +26,16 @@ jobs:
           node-version: 22
           cache: npm
       - run: npm ci
+      - run: npm run lint
+      - run: npm test
+      - run: npm run data:validate
       - run: npm run build
       - uses: actions/configure-pages@v4
+        if: github.event_name == 'push'
       - uses: actions/upload-pages-artifact@v3
+        if: github.event_name == 'push'
         with:
           path: dist
       - id: deployment
+        if: github.event_name == 'push'
         uses: actions/deploy-pages@v4

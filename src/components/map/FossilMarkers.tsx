@@ -2,18 +2,33 @@ import { CircleMarker, Tooltip } from 'react-leaflet'
 import { useAppStore } from '../../store'
 import { computeClusters } from '../../utils/clustering'
 
-export function FossilMarkers() {
+export type MarkerMode = 'clusters' | 'points' | 'density'
+export type CoordinateMode = 'paleo' | 'modern'
+
+interface FossilMarkersProps {
+  mode: MarkerMode
+  coordinateMode: CoordinateMode
+}
+
+export function FossilMarkers({ mode, coordinateMode }: FossilMarkersProps) {
   const currentPeriod = useAppStore((s) => s.currentPeriod)
   const occurrencesByInterval = useAppStore((s) => s.occurrencesByInterval)
   const viewState = useAppStore((s) => s.viewState)
   const highlightedTaxonId = useAppStore((s) => s.highlightedTaxonId)
+  const selectFossilOccurrence = useAppStore((s) => s.selectFossilOccurrence)
 
   if (!currentPeriod) return null
 
   const records = occurrencesByInterval[currentPeriod]
   if (!records || records.length === 0) return null
 
-  const markers = computeClusters(records, viewState.zoom)
+  const markers = mode === 'points'
+    ? records.map((occurrence) => ({ type: 'individual' as const, occurrence }))
+    : computeClusters(records, viewState.zoom, {
+      gridSize: mode === 'density' ? 70 : 40,
+      maxZoom: mode === 'density' ? 20 : 5,
+      coordinateMode,
+    })
 
   return (
     <>
@@ -23,17 +38,17 @@ export function FossilMarkers() {
             <CircleMarker
               key={`cluster-${i}`}
               center={[marker.lat, marker.lng]}
-              radius={Math.min(20, 6 + Math.log2(marker.count + 1) * 3)}
+              radius={Math.min(mode === 'density' ? 28 : 20, 6 + Math.log2(marker.count + 1) * 3)}
               pathOptions={{
-                color: '#ffd700',
-                weight: 2,
-                fillColor: '#ffd700',
-                fillOpacity: 0.4,
+                color: mode === 'density' ? '#f58a65' : '#ffd700',
+                weight: mode === 'density' ? 0.5 : 2,
+                fillColor: mode === 'density' ? '#f58a65' : '#ffd700',
+                fillOpacity: mode === 'density' ? 0.24 : 0.4,
               }}
             >
               <Tooltip direction="top" offset={[0, -8]} opacity={1} permanent={false}>
                 <div style={{ fontSize: 11 }}>
-                  {marker.count} fossils
+                  {marker.count} sampled occurrences
                 </div>
               </Tooltip>
             </CircleMarker>
@@ -41,8 +56,8 @@ export function FossilMarkers() {
         }
 
         const occ = marker.occurrence
-        const lat = occ.paleolat ?? parseFloat(occ.lat)
-        const lng = occ.paleolng ?? parseFloat(occ.lng)
+        const lat = coordinateMode === 'paleo' ? occ.paleolat ?? Number(occ.lat) : Number(occ.lat)
+        const lng = coordinateMode === 'paleo' ? occ.paleolng ?? Number(occ.lng) : Number(occ.lng)
         if (isNaN(lat) || isNaN(lng)) return null
 
         const isHighlighted = highlightedTaxonId && occ.tid === highlightedTaxonId
@@ -60,6 +75,7 @@ export function FossilMarkers() {
               fillColor: isHighlighted ? '#ffd700' : '#58a6ff',
               fillOpacity: opacity,
             }}
+            eventHandlers={{ click: () => selectFossilOccurrence(occ) }}
           >
             <Tooltip direction="top" offset={[0, -8]} opacity={1}>
               <div style={{ fontSize: 11 }}>

@@ -16,6 +16,7 @@ export const CACHE_TTL = {
 };
 
 export const PHANEROZOIC_TOTAL_MA = 538.8;
+export const EARTH_HISTORY_TOTAL_MA = 4567;
 
 export const PERIOD_COLORS: Record<string, string> = {
   Quaternary: '#F9F080',

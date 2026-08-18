@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 2,
+  "datasetVersion": "2026.08-m1",
+  "generatedAt": "2026-08-18",
+  "records": {
+    "fossilOccurrences": 13600,
+    "treeNodes": 179,
+    "geologicalPeriods": 12,
+    "paleogeographicSnapshots": 12,
+    "earthHistoryMa": 4567,
+    "timeScaleUnits": 26,
+    "taxonProfiles": 10,
+    "evolutionEvents": 18,
+    "evolutionStories": 10,
+    "references": 14,
+    "searchablePlaces": 20,
+    "mediaAssets": 10,
+    "divergenceEstimates": 3,
+    "treeEvidenceOverrides": 4
+  },
+  "sources": [
+    {
+      "name": "Paleobiology Database",
+      "role": "Fossil occurrences, taxonomy and occurrence ages",
+      "url": "https://paleobiodb.org/",
+      "mode": "Bundled snapshot"
+    },
+    {
+      "name": "International Chronostratigraphic Chart v2026/06",
+      "role": "Geological boundaries and display metadata",
+      "url": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+      "mode": "Versioned local table derived from ICS 2026/06"
+    },
+    {
+      "name": "Evo curated paleogeography",
+      "role": "Period-level continental outlines",
+      "url": "https://github.com/dajiaohuang/evo",
+      "mode": "Bundled GeoJSON snapshots"
+    },
+    {
+      "name": "Open Tree of Life",
+      "role": "Topology context and identifier-oriented phylogeny guidance",
+      "url": "https://opentreeoflife.github.io/use",
+      "mode": "Reference context for curated teaching topology"
+    },
+    {
+      "name": "GPlates Web Service",
+      "role": "Plate reconstruction model and paleocoordinate method context",
+      "url": "https://gwsdoc.gplates.org/",
+      "mode": "Method reference; bundled coordinates are used at runtime"
+    }
+  ],
+  "limitations": [
+    "Occurrence files are representative samples, not exhaustive PBDB exports.",
+    "Paleogeographic outlines are period-level visual summaries, not continuous plate reconstructions.",
+    "Tree branch lengths express hierarchy, not calibrated divergence time.",
+    "First and last appearances are sampling-dependent observations, not exact origination or extinction dates.",
+    "Observed density and missing records cannot be interpreted as biological richness or absence without sampling controls."
+  ],
+  "checksums": {
+    "data/periods.json": "f31a72f3327a82a226a69114e0e48d59d9ff2f6839376da8b3a120834de2a5a2",
+    "data/time-scale.json": "8ac7e454e89983dc7a4f6aaf05785bca836575a034e58ae89341974b8b0a77cb",
+    "data/references.json": "9988b06dd9f0c6e6c1b9b5cba8f07a08097d2b20af7b2a7eb1812cdc85f284af",
+    "data/places.json": "5c9d3c64f30a569be9f03d144879ed498ed185450503b72bd5ba855d38a06aef",
+    "data/media.json": "0e9451653d2582d99ec49ea08b90652811cbde9f2e8b54ce5165514bdbe32f14",
+    "data/phylogenies/perissodactyla-calibrations.json": "e8d19e4c3997c67288e89d85fbb0e77d40ee8c491d28fbd00f94668ccad15db6",
+    "data/events.json": "7030d20b6a316c9f33f95f2131333a631feea8d0ca9ea819fa23e63692430dd9",
+    "data/stories.json": "2d8de50c2c4e8eae2013d11c7f88eaa8327c5daa7d679ecbd4aab4fd3621be7b",
+    "data/taxa/profiles.json": "fd23642100babbec7f10c6802453ef1eb9d0fb88a6e2af6e7510cf0ff6a2faa3",
+    "data/tree/life-cladogram.json": "70502669546475dad1703c000b26d4fd57e079903f8d434fe8c03cfd635f1ea1",
+    "data/tree/evidence.json": "f30bfdd0e6be9e767ba1463624e3b76ee32181a0188b7b7974b72bddde805838",
+    "data/fossils/cambrian.json": "85b28fbbe26ba08d22c99a9b8ecdfee798bdd91d3c6f37e53fc09445703d7e38",
+    "data/fossils/carboniferous.json": "4578c8397e25823629d0a3e8d52d58db1d5403ab83e56767f04cfb3bf632215a",
+    "data/fossils/cretaceous.json": "af7be32d99dba7e8d5c0d1ac50655351084b652b4a0b91918e7c0a79827e1909",
+    "data/fossils/devonian.json": "b269395f35927b5fc8a3d96cadec8e5461d4f39e330b56fdea11632609570efc",
+    "data/fossils/jurassic.json": "527ad91de71781af9a6212d07686f251b7d7e9bb44bcd5e81c67eb74f42a7b31",
+    "data/fossils/neogene.json": "e82cd224d254d40b63d70f16a9aba5a055a89bf6317e0c9dd64fd1cf61cb6aab",
+    "data/fossils/ordovician.json": "eb210151cfbe60f4a14b91e1546dcdab317ba095242caf4cdf47cf40e3359a28",
+    "data/fossils/paleogene.json": "7fe45ca69874c5e3c4a4cb705a6853eb0f2af07156f9205432b2bc4bf31f83b2",
+    "data/fossils/permian.json": "4447aa744fe80b4f5598ac6dfe3cc7ca13ee548485bbfd54164da65064f9093a",
+    "data/fossils/quaternary.json": "2d9f0ff5b557f5b3257b80b1ec5573b432b67f9e172ca9a55d8d53bf5378eb13",
+    "data/fossils/silurian.json": "6d1d1ff78c73fec32ab10dbcdb604d4a42e4c0eb486946468bddeacc2d1aa10a",
+    "data/fossils/triassic.json": "5388d9df057fc0025ea41eb914c80dca159445c1a99e3efdf9a33f88bb37c38a",
+    "data/paleogeography/cambrian.json": "61c8c28e440ee3bb423551f59022b8f10c953b70c5bf520f7bfaba15f0562c5f",
+    "data/paleogeography/carboniferous.json": "c9f399421c1bea4c90a1e341fd2589c809d6f0e623fbe26a8963a6714bf29f4e",
+    "data/paleogeography/cretaceous.json": "7f8528baf660865e8282259bc12f8686d1e71f1b425ac461c7a61467b61c2407",
+    "data/paleogeography/devonian.json": "db8972b2cb05fffcbdaadc12273c5282372003a7d33c24d5d85359656e1b3dd4",
+    "data/paleogeography/jurassic.json": "260aca8e34d6dd0868db155b908d7c66f8cdd821f236353e0539699ab9c9d4bd",
+    "data/paleogeography/neogene.json": "c31c03927c7b22a760532a1be192e60d0012f751be2da6003ab71dcd7b3dfe55",
+    "data/paleogeography/ordovician.json": "3ff864f7a8f4b39aa6256324856eb11e79be2ecc53df72579c4160fe0459ef13",
+    "data/paleogeography/paleogene.json": "ac70f66c1234efa6fd4d4af029bc3cdd162d5b621941090abe00c26fd661aff1",
+    "data/paleogeography/permian.json": "18348109833cdd18049e55dc818292b9dbc929a89b0a75a6794a197655a7b8b6",
+    "data/paleogeography/quaternary.json": "84e2577cf354ecbad83135daa79be6815748f1cc9a6b6f0cac86a1ac006b4ded",
+    "data/paleogeography/silurian.json": "8d79f2a99715ee6214cd427921390bcf0ab70609faac8e9825956d05d5c5c8f5",
+    "data/paleogeography/triassic.json": "3784b7d81c527103715db5e3cbabae2cc213a9125fd8a2c842daeb317d1cfe1c"
+  }
+}

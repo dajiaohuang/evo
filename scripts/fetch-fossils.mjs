@@ -1,87 +1,64 @@
-import { writeFileSync } from 'fs'
+import { existsSync, mkdirSync, writeFileSync } from 'node:fs'
+import { dirname, resolve } from 'node:path'
 
-const BASE = 'https://paleobiodb.org/data1.2'
-
-const PERIOD_EPOCHS = {
-  Cambrian: ['Furongian', 'Miaolingian', 'Series 2', 'Terreneuvian'],
-  Ordovician: ['Late Ordovician', 'Middle Ordovician', 'Early Ordovician'],
-  Silurian: ['Pridoli', 'Ludlow', 'Wenlock', 'Llandovery'],
-  Devonian: ['Late Devonian', 'Middle Devonian', 'Early Devonian'],
-  Carboniferous: ['Pennsylvanian', 'Mississippian'],
-  Permian: ['Lopingian', 'Guadalupian', 'Cisuralian'],
-  Triassic: ['Late Triassic', 'Middle Triassic', 'Early Triassic'],
-  Jurassic: ['Late Jurassic', 'Middle Jurassic', 'Early Jurassic'],
-  Cretaceous: ['Late Cretaceous', 'Early Cretaceous'],
-  Paleogene: ['Oligocene', 'Eocene', 'Paleocene'],
-  Neogene: ['Pliocene', 'Miocene'],
-  Quaternary: ['Holocene', 'Pleistocene'],
+function argument(name, fallback = null) {
+  const index = process.argv.indexOf(`--${name}`)
+  return index >= 0 ? process.argv[index + 1] : fallback
 }
 
-async function fetchEpoch(epoch, limit, offset) {
-  const url = `${BASE}/occs/list.json?interval=${encodeURIComponent(epoch)}&show=coords,paleoloc,loc,time&limit=${limit}&offset=${offset}`
-  const res = await fetch(url)
-  if (!res.ok) throw new Error(`HTTP ${res.status}`)
-  const data = await res.json()
-  return (data.records || []).map((r) => ({
-    oid: r.oid,
-    tna: r.tna,
-    idn: r.idn ?? '',
-    tid: r.tid,
-    rnk: r.rnk,
-    lng: r.lng,
-    lat: r.lat,
-    paleolng: typeof r.pln === 'number' ? r.pln : null,
-    paleolat: typeof r.pla === 'number' ? r.pla : null,
-    eag: r.eag,
-    lag: r.lag,
-    cid: r.cid,
-    oei: r.oei,
-    cc2: r.cc2 ?? '',
-    stp: r.stp ?? '',
-  }))
+const period = argument('period')
+const requestedLimit = Number(argument('limit', '1000'))
+const output = resolve(argument('output', period ? `staging/${period.toLowerCase()}.json` : 'staging/fossils.json'))
+const replace = process.argv.includes('--replace')
+
+if (!period || !Number.isInteger(requestedLimit) || requestedLimit < 1 || requestedLimit > 100000) {
+  console.error('Usage: node scripts/fetch-fossils.mjs --period Cretaceous [--limit 1000] [--output staging/cretaceous.json] [--replace]')
+  process.exit(1)
+}
+if (existsSync(output) && !replace) {
+  console.error(`Refusing to overwrite ${output}. Pass --replace after reviewing the target.`)
+  process.exit(1)
 }
 
-async function fetchPeriod(period, epochs) {
-  const all = []
-  const seen = new Set()
-  for (const epoch of epochs) {
-    for (const offset of [0, 200]) {
-      try {
-        const records = await fetchEpoch(epoch, 200, offset)
-        for (const r of records) {
-          if (!seen.has(r.oid)) {
-            seen.add(r.oid)
-            all.push(r)
-          }
-        }
-        console.log(`  ${epoch} offset=${offset}: ${records.length} records`)
-        await new Promise((r) => setTimeout(r, 300))
-      } catch (err) {
-        console.error(`  ${epoch} offset=${offset}: ${err.message}`)
-      }
-    }
-  }
-  return all
+const records = []
+let offset = 0
+while (records.length < requestedLimit) {
+  const pageSize = Math.min(5000, requestedLimit - records.length)
+  const query = new URLSearchParams({
+    interval: period,
+    limit: String(pageSize),
+    offset: String(offset),
+    show: 'coords,paleoloc,ident,loc',
+  })
+  const response = await fetch(`https://paleobiodb.org/data1.2/occs/list.json?${query}`, {
+    headers: { 'user-agent': 'EvoAtlasDataPipeline/2026.08 (static educational snapshot)' },
+  })
+  if (!response.ok) throw new Error(`PBDB returned ${response.status} ${response.statusText}`)
+  const payload = await response.json()
+  const page = payload.records ?? []
+  records.push(...page)
+  if (page.length < pageSize) break
+  offset += page.length
 }
 
-async function main() {
-  let grandTotal = 0
-  for (const [period, epochs] of Object.entries(PERIOD_EPOCHS)) {
-    console.log(`\nFetching ${period} (${epochs.length} epochs)...`)
-    try {
-      const records = await fetchPeriod(period, epochs)
-      const file = `data/fossils/${period.toLowerCase()}.json`
-      writeFileSync(file, JSON.stringify(records))
-      // Log coordinate stats
-      const hasPaleo = records.filter((r) => r.paleolng != null).length
-      const countries = [...new Set(records.map((r) => r.cc2).filter(Boolean))]
-      console.log(`  -> ${records.length} total (${hasPaleo} with paleo-coords), countries: ${countries.join(', ')}`)
-      grandTotal += records.length
-    } catch (err) {
-      console.error(`Failed ${period}:`, err.message)
-    }
-  }
-  console.log(`\nDone. ${grandTotal} total fossil records.`)
-}
+const normalized = records.slice(0, requestedLimit).map((record) => ({
+  oid: record.oid ?? '',
+  tna: record.tna ?? '',
+  idn: [record.idg, record.ids].filter(Boolean).join(' '),
+  tid: record.tid ?? '',
+  rnk: record.rnk ?? 0,
+  lng: String(record.lng ?? ''),
+  lat: String(record.lat ?? ''),
+  eag: record.eag,
+  lag: record.lag,
+  ...(Number.isFinite(record.pln) && Number.isFinite(record.pla) ? { paleolng: record.pln, paleolat: record.pla } : {}),
+  cid: record.cid ?? '',
+  oei: record.oei ?? '',
+  ...(record.cc2 ? { cc2: record.cc2 } : {}),
+  ...(record.stp ? { stp: record.stp } : {}),
+}))
 
-main()
+mkdirSync(dirname(output), { recursive: true })
+writeFileSync(output, `${JSON.stringify(normalized, null, 2)}\n`)
+console.log(`Fetched ${normalized.length.toLocaleString()} ${period} occurrences to ${output}.`)
+console.log('Review sampling, licenses, field coverage and diffs before replacing a bundled period file.')

@@ -1,36 +1,27 @@
-import { useState, useEffect } from 'react'
+import { useEffect, useState } from 'react'
 import type { ContinentFeatureCollection } from '../types'
 
-import cambrian from '../../data/paleogeography/cambrian.json'
-import ordovician from '../../data/paleogeography/ordovician.json'
-import silurian from '../../data/paleogeography/silurian.json'
-import devonian from '../../data/paleogeography/devonian.json'
-import carboniferous from '../../data/paleogeography/carboniferous.json'
-import permian from '../../data/paleogeography/permian.json'
-import triassic from '../../data/paleogeography/triassic.json'
-import jurassic from '../../data/paleogeography/jurassic.json'
-import cretaceous from '../../data/paleogeography/cretaceous.json'
-import paleogene from '../../data/paleogeography/paleogene.json'
-import neogene from '../../data/paleogeography/neogene.json'
-import quaternary from '../../data/paleogeography/quaternary.json'
+type GeoModule = { default: unknown }
 
-const geoJsonMap: Record<string, ContinentFeatureCollection> = {
-  cambrian: cambrian as ContinentFeatureCollection,
-  ordovician: ordovician as ContinentFeatureCollection,
-  silurian: silurian as ContinentFeatureCollection,
-  devonian: devonian as ContinentFeatureCollection,
-  carboniferous: carboniferous as ContinentFeatureCollection,
-  permian: permian as ContinentFeatureCollection,
-  triassic: triassic as ContinentFeatureCollection,
-  jurassic: jurassic as ContinentFeatureCollection,
-  cretaceous: cretaceous as ContinentFeatureCollection,
-  paleogene: paleogene as ContinentFeatureCollection,
-  neogene: neogene as ContinentFeatureCollection,
-  quaternary: quaternary as ContinentFeatureCollection,
+const geoJsonLoaders: Record<string, () => Promise<GeoModule>> = {
+  cambrian: () => import('../../data/paleogeography/cambrian.json'),
+  ordovician: () => import('../../data/paleogeography/ordovician.json'),
+  silurian: () => import('../../data/paleogeography/silurian.json'),
+  devonian: () => import('../../data/paleogeography/devonian.json'),
+  carboniferous: () => import('../../data/paleogeography/carboniferous.json'),
+  permian: () => import('../../data/paleogeography/permian.json'),
+  triassic: () => import('../../data/paleogeography/triassic.json'),
+  jurassic: () => import('../../data/paleogeography/jurassic.json'),
+  cretaceous: () => import('../../data/paleogeography/cretaceous.json'),
+  paleogene: () => import('../../data/paleogeography/paleogene.json'),
+  neogene: () => import('../../data/paleogeography/neogene.json'),
+  quaternary: () => import('../../data/paleogeography/quaternary.json'),
 }
 
-function getGeoJsonFile(period: string | null): string {
-  if (!period) return 'cretaceous'
+const geoJsonCache = new Map<string, ContinentFeatureCollection>()
+
+function getGeoJsonFile(period: string | null): string | null {
+  if (!period) return null
   const periodToFile: Record<string, string> = {
     Cambrian: 'cambrian',
     Ordovician: 'ordovician',
@@ -49,12 +40,31 @@ function getGeoJsonFile(period: string | null): string {
 }
 
 export function usePaleogeography(period: string | null) {
-  const [geoJson, setGeoJson] = useState<ContinentFeatureCollection | null>(null)
+  const file = getGeoJsonFile(period)
+  const fileKey = file ?? 'none'
+  const [loaded, setLoaded] = useState<{ file: string; data: ContinentFeatureCollection | null } | null>(() => {
+    const cached = file ? geoJsonCache.get(file) : null
+    return cached && file ? { file, data: cached } : file ? null : { file: fileKey, data: null }
+  })
 
   useEffect(() => {
-    const file = getGeoJsonFile(period)
-    setGeoJson(geoJsonMap[file] ?? null)
-  }, [period])
+    let cancelled = false
+    const cached = file ? geoJsonCache.get(file) : null
+    const request = !file
+      ? Promise.resolve(null)
+      : cached
+        ? Promise.resolve(cached)
+        : geoJsonLoaders[file]().then((module) => module.default as ContinentFeatureCollection)
 
-  return { geoJson, loading: false, error: null }
+    request.then((data) => {
+      if (cancelled) return
+      if (file && data) geoJsonCache.set(file, data)
+      setLoaded({ file: fileKey, data })
+    })
+
+    return () => { cancelled = true }
+  }, [file, fileKey])
+
+  const geoJson = loaded?.file === fileKey ? loaded.data : null
+  return { geoJson, loading: loaded?.file !== fileKey, error: null }
 }

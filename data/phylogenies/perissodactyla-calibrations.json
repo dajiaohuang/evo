@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "scope": "Selected published calibrations within Perissodactyla",
+  "model": "Multiple-study evidence ledger; estimates are not merged into one synthetic clock",
+  "estimates": [
+    {
+      "id": "tapiroidea-rhinocerotoidea",
+      "nodeLabel": "Tapiroidea ↔ Rhinocerotoidea",
+      "medianMa": 54.6,
+      "youngerMa": null,
+      "olderMa": null,
+      "method": "Bayesian tip-dating",
+      "referenceId": "bai-2020-rhinocerotoidea",
+      "note": "Study-specific estimate for the split between tapiroid and rhinocerotoid lines."
+    },
+    {
+      "id": "eggysodontidae-paraceratheriidae-rhinocerotidae",
+      "nodeLabel": "Eggysodontidae / Paraceratheriidae / Rhinocerotidae",
+      "medianMa": 43.9,
+      "youngerMa": 41.1,
+      "olderMa": 47.0,
+      "method": "Bayesian tip-dating · 95% HPD",
+      "referenceId": "bai-2020-rhinocerotoidea",
+      "note": "A published internal rhinocerotoid calibration with its reported uncertainty."
+    },
+    {
+      "id": "african-eurasian-rhinocerotina",
+      "nodeLabel": "African ↔ Eurasian living rhinoceros lineages",
+      "medianMa": 16.0,
+      "youngerMa": null,
+      "olderMa": null,
+      "method": "Genome-scale species tree with fossil time context",
+      "referenceId": "liu-2021-rhinoceros-genomes",
+      "note": "Approximate early Miocene split reported by the genomic study."
+    }
+  ]
+}

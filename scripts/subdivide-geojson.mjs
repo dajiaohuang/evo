@@ -1,82 +1,47 @@
-import { readFileSync, writeFileSync, readdirSync } from 'fs'
-import { join } from 'path'
+import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs'
+import { basename, dirname, resolve } from 'node:path'
 
-const DIR = 'data/paleogeography'
-const SUBDIVISIONS = 4
-const ROUGHNESS = 0.015
-
-let seed = 42
-function rand() {
-  seed = (seed * 16807) % 2147483647
-  return (seed - 1) / 2147483646
+function argument(name, fallback = null) {
+  const index = process.argv.indexOf(`--${name}`)
+  return index >= 0 ? process.argv[index + 1] : fallback
 }
 
-function subdivideRing(coords, level, roughness) {
-  if (level <= 0) return coords
-  const result = []
-  for (let i = 0; i < coords.length - 1; i++) {
-    const [lng1, lat1] = coords[i]
-    const [lng2, lat2] = coords[i + 1]
-    const midLng = (lng1 + lng2) / 2
-    const midLat = (lat1 + lat2) / 2
-    const dx = lng2 - lng1
-    const dy = lat2 - lat1
-    const len = Math.sqrt(dx * dx + dy * dy)
-    if (len < 0.001) {
-      result.push([lng1, lat1])
-      continue
-    }
-    const nx = -dy / len
-    const ny = dx / len
-    const offset = (rand() - 0.5) * len * roughness * 2
-    result.push([lng1, lat1])
-    result.push([
-      midLng + nx * offset,
-      midLat + ny * offset,
-    ])
-  }
-  result.push(coords[coords.length - 1])
-  return subdivideRing(result, level - 1, roughness * 0.5)
+const inputArg = argument('input')
+const outputDirectory = resolve(argument('output', 'staging/paleogeography'))
+const property = argument('property', 'period')
+const precision = Number(argument('precision', '4'))
+const replace = process.argv.includes('--replace')
+
+if (!inputArg || !Number.isInteger(precision) || precision < 0 || precision > 8) {
+  console.error('Usage: node scripts/subdivide-geojson.mjs --input source.geojson [--output staging/paleogeography] [--property period] [--precision 4] [--replace]')
+  process.exit(1)
 }
 
-function subdivideGeometry(geom, level, roughness) {
-  if (geom.type === 'Polygon') {
-    return {
-      type: 'Polygon',
-      coordinates: geom.coordinates.map((ring) => subdivideRing(ring, level, roughness)),
-    }
-  }
-  if (geom.type === 'MultiPolygon') {
-    return {
-      type: 'MultiPolygon',
-      coordinates: geom.coordinates.map((poly) =>
-        poly.map((ring) => subdivideRing(ring, level, roughness))
-      ),
-    }
-  }
-  return geom
+const input = resolve(inputArg)
+const source = JSON.parse(readFileSync(input, 'utf8'))
+if (source.type !== 'FeatureCollection' || !Array.isArray(source.features)) throw new Error('Input must be a GeoJSON FeatureCollection.')
+
+const roundCoordinates = (value) => Array.isArray(value)
+  ? value.map(roundCoordinates)
+  : typeof value === 'number'
+    ? Number(value.toFixed(precision))
+    : value
+
+const groups = new Map()
+for (const feature of source.features) {
+  const key = String(feature.properties?.[property] ?? 'unclassified').trim().toLowerCase().replaceAll(/[^a-z0-9]+/g, '-')
+  const normalized = structuredClone(feature)
+  normalized.geometry.coordinates = roundCoordinates(normalized.geometry.coordinates)
+  if (!groups.has(key)) groups.set(key, [])
+  groups.get(key).push(normalized)
 }
 
-const files = readdirSync(DIR).filter((f) => f.endsWith('.json'))
-let totalVerts = 0
-
-for (const file of files) {
-  const path = join(DIR, file)
-  const data = JSON.parse(readFileSync(path, 'utf8'))
-  let fileVerts = 0
-  data.features = data.features.map((feature) => {
-    feature.geometry = subdivideGeometry(feature.geometry, SUBDIVISIONS, ROUGHNESS)
-    if (feature.geometry.type === 'Polygon') {
-      feature.geometry.coordinates.forEach((ring) => { fileVerts += ring.length })
-    } else if (feature.geometry.type === 'MultiPolygon') {
-      feature.geometry.coordinates.forEach((poly) => {
-        poly.forEach((ring) => { fileVerts += ring.length })
-      })
-    }
-    return feature
-  })
-  writeFileSync(path, JSON.stringify(data))
-  console.log(`${file}: ${fileVerts} vertices`)
-  totalVerts += fileVerts
+mkdirSync(outputDirectory, { recursive: true })
+for (const [key, features] of groups) {
+  const output = resolve(outputDirectory, `${key}.json`)
+  if (existsSync(output) && !replace) throw new Error(`Refusing to overwrite ${output}. Pass --replace after reviewing the target.`)
+  writeFileSync(output, `${JSON.stringify({ type: 'FeatureCollection', features })}\n`)
+  console.log(`${basename(input)} → ${key}.json (${features.length} features, ${precision}-decimal coordinates)`)
 }
-console.log(`\nTotal: ${totalVerts} vertices across ${files.length} files`)
+
+console.log(`Wrote ${groups.size} period file(s) to ${outputDirectory}. Validate before promoting them into data/paleogeography.`)

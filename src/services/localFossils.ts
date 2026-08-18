@@ -1,62 +1,75 @@
 import type { FossilOccurrence } from '../types'
 
-import cambrianRaw from '../../data/fossils/cambrian.json'
-import ordovicianRaw from '../../data/fossils/ordovician.json'
-import silurianRaw from '../../data/fossils/silurian.json'
-import devonianRaw from '../../data/fossils/devonian.json'
-import carboniferousRaw from '../../data/fossils/carboniferous.json'
-import permianRaw from '../../data/fossils/permian.json'
-import triassicRaw from '../../data/fossils/triassic.json'
-import jurassicRaw from '../../data/fossils/jurassic.json'
-import cretaceousRaw from '../../data/fossils/cretaceous.json'
-import paleogeneRaw from '../../data/fossils/paleogene.json'
-import neogeneRaw from '../../data/fossils/neogene.json'
-import quaternaryRaw from '../../data/fossils/quaternary.json'
-
 const asFossils = (arr: unknown): FossilOccurrence[] => arr as FossilOccurrence[]
 
-const fossilStore: Record<string, FossilOccurrence[]> = {
-  Cambrian: asFossils(cambrianRaw),
-  Ordovician: asFossils(ordovicianRaw),
-  Silurian: asFossils(silurianRaw),
-  Devonian: asFossils(devonianRaw),
-  Carboniferous: asFossils(carboniferousRaw),
-  Permian: asFossils(permianRaw),
-  Triassic: asFossils(triassicRaw),
-  Jurassic: asFossils(jurassicRaw),
-  Cretaceous: asFossils(cretaceousRaw),
-  Paleogene: asFossils(paleogeneRaw),
-  Neogene: asFossils(neogeneRaw),
-  Quaternary: asFossils(quaternaryRaw),
+type FossilModule = { default: unknown }
+
+const fossilLoaders: Record<string, () => Promise<FossilModule>> = {
+  Cambrian: () => import('../../data/fossils/cambrian.json'),
+  Ordovician: () => import('../../data/fossils/ordovician.json'),
+  Silurian: () => import('../../data/fossils/silurian.json'),
+  Devonian: () => import('../../data/fossils/devonian.json'),
+  Carboniferous: () => import('../../data/fossils/carboniferous.json'),
+  Permian: () => import('../../data/fossils/permian.json'),
+  Triassic: () => import('../../data/fossils/triassic.json'),
+  Jurassic: () => import('../../data/fossils/jurassic.json'),
+  Cretaceous: () => import('../../data/fossils/cretaceous.json'),
+  Paleogene: () => import('../../data/fossils/paleogene.json'),
+  Neogene: () => import('../../data/fossils/neogene.json'),
+  Quaternary: () => import('../../data/fossils/quaternary.json'),
 }
 
-const taxonIndex: Record<string, FossilOccurrence[]> = {}
-let indexBuilt = false
+export const FOSSIL_PERIODS = Object.freeze(Object.keys(fossilLoaders))
 
-function buildTaxonIndex(): void {
-  if (indexBuilt) return
-  for (const records of Object.values(fossilStore)) {
-    for (const occ of records) {
-      if (occ.tid) {
-        if (!taxonIndex[occ.tid]) taxonIndex[occ.tid] = []
-        if (taxonIndex[occ.tid].length < 100) {
-          taxonIndex[occ.tid].push(occ)
+const fossilStore: Record<string, FossilOccurrence[]> = {}
+const loadingPeriods = new Map<string, Promise<FossilOccurrence[]>>()
+const taxonIndex: Record<string, FossilOccurrence[]> = {}
+let indexPromise: Promise<void> | null = null
+
+async function buildTaxonIndex(): Promise<void> {
+  if (indexPromise) return indexPromise
+  indexPromise = (async () => {
+    await Promise.all(Object.keys(fossilLoaders).map(getFossilsByInterval))
+    for (const records of Object.values(fossilStore)) {
+      for (const occ of records) {
+        if (occ.tid) {
+          if (!taxonIndex[occ.tid]) taxonIndex[occ.tid] = []
+          if (taxonIndex[occ.tid].length < 100) {
+            taxonIndex[occ.tid].push(occ)
+          }
         }
       }
     }
-  }
-  indexBuilt = true
+  })()
+  return indexPromise
 }
 
-export function getFossilsByInterval(period: string): FossilOccurrence[] {
-  return fossilStore[period] ?? []
+export async function getFossilsByInterval(period: string): Promise<FossilOccurrence[]> {
+  if (fossilStore[period]) return fossilStore[period]
+  if (loadingPeriods.has(period)) return loadingPeriods.get(period)!
+  const loader = fossilLoaders[period]
+  if (!loader) return []
+
+  const promise = loader().then((module) => {
+    const records = asFossils(module.default)
+    fossilStore[period] = records
+    loadingPeriods.delete(period)
+    return records
+  })
+  loadingPeriods.set(period, promise)
+  return promise
 }
 
-export function getFossilsByTaxon(taxonId: string): FossilOccurrence[] {
-  buildTaxonIndex()
+export async function getFossilsByTaxon(taxonId: string): Promise<FossilOccurrence[]> {
+  await buildTaxonIndex()
   return taxonIndex[taxonId] ?? []
 }
 
-export function getFossilTotal(period: string): number {
+export async function getAllFossils(): Promise<FossilOccurrence[]> {
+  const chunks = await Promise.all(FOSSIL_PERIODS.map(getFossilsByInterval))
+  return chunks.flat()
+}
+
+export function getLoadedFossilTotal(period: string): number {
   return fossilStore[period]?.length ?? 0
 }

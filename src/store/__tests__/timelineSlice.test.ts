@@ -4,11 +4,12 @@ import type { AppState } from '../index'
 import { clearCache } from '../../services/pbdb'
 
 function setup() {
-  let state: Partial<AppState> = {
+  const state: Partial<AppState> = {
     allIntervals: [],
     currentAge: 66,
     currentPeriod: null,
     currentEra: null,
+    currentEon: null,
     intervalsLoading: false,
     intervalsError: null,
   }
@@ -51,7 +52,10 @@ describe('createTimelineSlice', () => {
     expect(get().currentAge).toBe(0)
 
     slice.setTime(600)
-    expect(get().currentAge).toBe(538.8)
+    expect(get().currentAge).toBe(600)
+
+    slice.setTime(5000)
+    expect(get().currentAge).toBe(4567)
   })
 
   it('setTime resolves period from intervals', () => {
@@ -59,45 +63,31 @@ describe('createTimelineSlice', () => {
       allIntervals: [
         { oid: 'p1', nam: 'Cretaceous', itp: 'period', lag: 66, eag: 145, col: '#0f0', pid: 'era1' },
         { oid: 'era1', nam: 'Mesozoic', itp: 'era', lag: 66, eag: 251.9, col: '#00f', pid: null },
+        { oid: 'eon1', nam: 'Phanerozoic', itp: 'eon', lag: 0, eag: 538.8, col: '#0ff', pid: null },
       ],
     })
     slice.setTime(100)
     expect(get().currentAge).toBe(100)
     expect(get().currentPeriod).toBe('Cretaceous')
     expect(get().currentEra).toBe('Mesozoic')
+    expect(get().currentEon).toBe('Phanerozoic')
   })
 
-  it('loadIntervals fetches from PBDB', async () => {
-    const mockIntervals = [
-      {
-        oid: 'int:1', nam: 'Cretaceous', itp: 'period' as const,
-        lag: '66', eag: '145', col: '#0f0', pid: 'int:2',
-      },
-      {
-        oid: 'int:2', nam: 'Mesozoic', itp: 'era' as const,
-        lag: '66', eag: '251.9', col: '#00f', pid: null,
-      },
-    ]
-
-    vi.spyOn(globalThis, 'fetch').mockResolvedValueOnce({
-      ok: true,
-      json: () => Promise.resolve({ records: mockIntervals }),
-    } as Response)
-
+  it('loadIntervals uses the bundled static timescale', async () => {
     await slice.loadIntervals()
 
-    expect(get().allIntervals.length).toBe(2)
-    expect(get().allIntervals[0].nam).toBe('Cretaceous')
+    expect(get().allIntervals.length).toBeGreaterThan(12)
+    expect(get().allIntervals.some((interval) => interval.nam === 'Cretaceous')).toBe(true)
     expect(get().intervalsLoading).toBe(false)
+    expect(get().intervalsError).toBeNull()
   })
 
-  it('loadIntervals handles errors', async () => {
-    vi.spyOn(globalThis, 'fetch').mockRejectedValueOnce(new Error('Network error'))
-
+  it('resolves Precambrian eons without inventing a fossil period', async () => {
     await slice.loadIntervals()
-
-    expect(get().intervalsLoading).toBe(false)
-    expect(get().intervalsError).toBe('Network error')
+    slice.setTime(3500)
+    expect(get().currentEon).toBe('Archean')
+    expect(get().currentEra).toBe('Paleoarchean')
+    expect(get().currentPeriod).toBeNull()
   })
 
   it('loadIntervals skips if already loaded', async () => {

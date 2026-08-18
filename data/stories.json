@@ -1,0 +1,145 @@
+[
+  {
+    "id": "rise-and-fall-perissodactyls",
+    "title": "The rise and retreat of odd-toed ungulates",
+    "titleZh": "奇蹄目的兴衰",
+    "dek": "From Eocene dominance to a small modern remnant, follow 56 million years of changing herbivore worlds.",
+    "theme": "amber",
+    "durationMinutes": 8,
+    "featured": true,
+    "steps": [
+      { "id": "arrival", "title": "A rapid Eocene arrival", "text": "Perissodactyls appear across northern continents and quickly diversify into horse-like, tapir-like, rhinoceros-like and wholly extinct forms.", "age": 54, "timeRange": [56, 50], "taxonIds": ["perissodactyla", "brontotheriidae"], "view": "tree", "eventId": "perissodactyl-radiation", "annotation": "First appearances are fossil observations, not exact origination dates.", "referenceIds": ["amnh-perissodactyl-evolution"] },
+      { "id": "eocene-world", "title": "Browsers in a greenhouse world", "text": "Warm forests support palaeotheres, brontotheres and early rhinocerotoids across Eurasia and North America.", "age": 44, "timeRange": [50, 38], "taxonIds": ["palaeotherium", "brontotheriidae", "metamynodon"], "view": "map", "referenceIds": ["amnh-perissodactyl-evolution", "pbdb-api-2016"] },
+      { "id": "turnover", "title": "Cooling changes the guild", "text": "At the Eocene–Oligocene transition, climate, habitat and migration reorganize mammal communities; this is ecological turnover, not a simple competitive defeat.", "age": 34, "timeRange": [36, 32], "taxonIds": ["perissodactyla", "metamynodon"], "view": "evidence", "eventId": "eocene-oligocene-transition", "referenceIds": ["amnh-perissodactyl-evolution"] },
+      { "id": "survivors", "title": "Specialists and survivors", "text": "Horses, tapirs and rhinoceroses persist, but the modern order is only a narrow sample of its former ecological range.", "age": 1, "timeRange": [5, 0], "taxonIds": ["coelodonta", "perissodactyla"], "view": "tree", "referenceIds": ["amnh-perissodactyl-evolution"] }
+    ]
+  },
+  {
+    "id": "ungulate-guild-turnover",
+    "title": "Changing of the herbivore guild",
+    "titleZh": "大型有蹄动物生态位换班",
+    "dek": "Compare ecological succession with ancestry—and see why resemblance does not imply descent.",
+    "theme": "sage",
+    "durationMinutes": 7,
+    "featured": true,
+    "steps": [
+      { "id": "eocene", "title": "An odd-toed world", "text": "Many Eocene large-herbivore guilds are rich in perissodactyl lineages that have no living equivalent.", "age": 45, "timeRange": [55, 38], "taxonIds": ["brontotheriidae", "palaeotherium"], "view": "map", "referenceIds": ["amnh-perissodactyl-evolution"] },
+      { "id": "transition", "title": "The rules change", "text": "Cooling and increasingly seasonal habitats restructure vegetation and dispersal routes near 34 Ma.", "age": 34, "timeRange": [36, 32], "taxonIds": ["perissodactyla"], "view": "diversity", "eventId": "eocene-oligocene-transition", "referenceIds": ["pbdb-api-2016"] },
+      { "id": "miocene", "title": "Overlap before replacement", "text": "Miocene horses and rhinoceroses coexist with expanding deer, giraffids and bovids; turnover is prolonged and regionally variable.", "age": 12, "timeRange": [20, 5], "taxonIds": ["anchitherium", "hipparion", "teleoceras"], "view": "evidence", "referenceIds": ["amnh-equidae", "pbdb-api-2016"] }
+    ]
+  },
+  {
+    "id": "semi-aquatic-ungulates",
+    "title": "Repeated returns to the water's edge",
+    "titleZh": "半水生哺乳动物的多次独立演化",
+    "dek": "Metamynodon shows how body shape, eye position and sedimentary context can suggest—but not prove—behavior.",
+    "theme": "blue",
+    "durationMinutes": 6,
+    "featured": true,
+    "steps": [
+      { "id": "anatomy", "title": "A hippo-like rhinocerotoid", "text": "Metamynodon combines short limbs, a broad trunk and high-set eyes in an animal unrelated to hippopotamuses.", "age": 31, "timeRange": [40, 23], "taxonIds": ["metamynodon"], "view": "evidence", "referenceIds": ["amnh-amynodonts"] },
+      { "id": "context", "title": "Deposits add context", "text": "Frequent recovery from river sandstones strengthens the semi-aquatic interpretation, while still leaving behavior inferential.", "age": 30, "timeRange": [34, 26], "taxonIds": ["metamynodon"], "view": "map", "referenceIds": ["amnh-amynodonts"] },
+      { "id": "convergence", "title": "Convergence is not ancestry", "text": "Later semi-aquatic artiodactyls occupy analogous guilds. Similar ecology evolved independently in separate branches.", "age": 15, "timeRange": [25, 5], "taxonIds": ["metamynodon"], "view": "tree", "referenceIds": ["open-tree", "amnh-amynodonts"] }
+    ]
+  },
+  {
+    "id": "horse-forest-to-grassland",
+    "title": "Horses from forest browsers to open-country runners",
+    "titleZh": "马科从林地食叶者到草原奔跑者",
+    "dek": "Horse evolution is a branching experiment, not a ladder marching toward one toe.",
+    "theme": "gold",
+    "durationMinutes": 7,
+    "featured": true,
+    "steps": [
+      { "id": "early", "title": "Small forest equids", "text": "Early horses retain multiple toes and low-crowned teeth in warm Eocene forests.", "age": 50, "timeRange": [56, 40], "taxonIds": ["perissodactyla"], "view": "tree", "referenceIds": ["amnh-equidae"] },
+      { "id": "anchitheres", "title": "Browsing persists", "text": "Anchitherium carries a three-toed, low-crowned browsing strategy into the Miocene.", "age": 17, "timeRange": [20, 9], "taxonIds": ["anchitherium"], "view": "evidence", "referenceIds": ["amnh-equidae"] },
+      { "id": "hipparionines", "title": "Open habitats diversify the experiment", "text": "Hipparionine horses spread widely and range from mixed feeders to specialized grazers; multiple lineages coexist.", "age": 9, "timeRange": [13, 3], "taxonIds": ["hipparion"], "view": "map", "eventId": "c4-grassland-expansion", "referenceIds": ["amnh-equidae", "pbdb-api-2016"] }
+    ]
+  },
+  {
+    "id": "big-five-extinctions",
+    "title": "Five mass extinctions",
+    "titleZh": "五次大灭绝",
+    "dek": "Read extinction as changes in sampled ranges, ecological structure and Earth-system proxies.",
+    "theme": "red",
+    "durationMinutes": 10,
+    "featured": false,
+    "steps": [
+      { "id": "end-ordovician", "title": "End-Ordovician", "text": "Glaciation and sea-level change coincide with a major marine diversity loss.", "age": 444, "timeRange": [446, 443], "taxonIds": [], "view": "diversity", "referenceIds": ["ics-2026-06", "pbdb-api-2016"] },
+      { "id": "late-devonian", "title": "Late Devonian pulses", "text": "Multiple crises affect reef and marine communities over an extended interval.", "age": 372, "timeRange": [376, 359], "taxonIds": [], "view": "diversity", "referenceIds": ["ics-2026-06", "pbdb-api-2016"] },
+      { "id": "end-permian", "title": "The largest crisis", "text": "The end-Permian event produces the deepest known Phanerozoic restructuring.", "age": 252, "timeRange": [253, 251], "taxonIds": [], "view": "evidence", "eventId": "end-permian-extinction", "referenceIds": ["ics-2026-06", "pbdb-api-2016"] },
+      { "id": "end-triassic", "title": "End-Triassic", "text": "Turnover across marine and terrestrial ecosystems precedes Jurassic dinosaur dominance.", "age": 201.4, "timeRange": [203, 200], "taxonIds": ["dinosauria"], "view": "tree", "referenceIds": ["ics-2026-06", "pbdb-api-2016"] },
+      { "id": "kpg", "title": "K–Pg", "text": "The Chicxulub impact marks an abrupt global boundary and a selective survival event.", "age": 66, "timeRange": [67, 65], "taxonIds": ["dinosauria", "mammalia", "aves"], "view": "evidence", "eventId": "k-pg-extinction", "referenceIds": ["ics-2026-06", "pbdb-api-2016"] }
+    ]
+  },
+  {
+    "id": "tetrapods-onto-land",
+    "title": "Vertebrates onto land",
+    "titleZh": "四足动物登陆",
+    "dek": "The shoreline transition was a mosaic of aquatic innovations, not one heroic step onto land.",
+    "theme": "teal",
+    "durationMinutes": 6,
+    "featured": false,
+    "steps": [
+      { "id": "fins", "title": "Fins with internal scaffolds", "text": "Tetrapodomorph fishes already possess bones homologous to later limb elements.", "age": 385, "timeRange": [400, 380], "taxonIds": ["tetrapodomorpha"], "view": "tree", "referenceIds": ["open-tree"] },
+      { "id": "limbs", "title": "Limbs in the water", "text": "Digits and limbs first appear in animals that remain strongly aquatic.", "age": 370, "timeRange": [380, 360], "taxonIds": ["tetrapoda"], "view": "evidence", "eventId": "tetrapods-on-land", "referenceIds": ["pbdb-api-2016"] },
+      { "id": "terrestrial", "title": "Terrestrial ecosystems expand", "text": "Carboniferous tetrapods diversify alongside increasingly complex vegetation and food webs.", "age": 330, "timeRange": [359, 310], "taxonIds": ["tetrapoda"], "view": "map", "referenceIds": ["pbdb-api-2016"] }
+    ]
+  },
+  {
+    "id": "mammals-before-kpg",
+    "title": "Mammals did not begin at K–Pg",
+    "titleZh": "哺乳动物并非在恐龙灭绝后才出现",
+    "dek": "Mammals have a deep Mesozoic history; the boundary changes ecological opportunity, not their date of origin.",
+    "theme": "violet",
+    "durationMinutes": 6,
+    "featured": false,
+    "steps": [
+      { "id": "synapsids", "title": "A much older branch", "text": "The synapsid lineage begins hundreds of millions of years before crown mammals.", "age": 300, "timeRange": [320, 250], "taxonIds": ["synapsida"], "view": "tree", "referenceIds": ["open-tree"] },
+      { "id": "mesozoic", "title": "Mesozoic mammal diversity", "text": "Small body size does not mean ecological uniformity: Mesozoic mammals include climbers, diggers, swimmers and gliders.", "age": 150, "timeRange": [220, 66], "taxonIds": ["mammalia"], "view": "evidence", "referenceIds": ["pbdb-api-2016"] },
+      { "id": "after", "title": "Radiation after survival", "text": "Surviving mammal lineages expand body size and guild diversity after 66 Ma.", "age": 58, "timeRange": [66, 50], "taxonIds": ["mammalia", "placentalia"], "view": "tree", "eventId": "k-pg-extinction", "referenceIds": ["open-tree", "pbdb-api-2016"] }
+    ]
+  },
+  {
+    "id": "whales-return-to-sea",
+    "title": "Whales return to the sea",
+    "titleZh": "鲸类重返海洋",
+    "dek": "A terrestrial artiodactyl branch acquires aquatic hearing, propulsion and reproduction in a richly documented transition.",
+    "theme": "blue",
+    "durationMinutes": 7,
+    "featured": false,
+    "steps": [
+      { "id": "terrestrial", "title": "Terrestrial ancestry", "text": "Early cetacean relatives sit within the even-toed ungulate branch, not outside hoofed mammals.", "age": 53, "timeRange": [56, 50], "taxonIds": [], "view": "tree", "referenceIds": ["open-tree"] },
+      { "id": "amphibious", "title": "Amphibious intermediates", "text": "Eocene skeletons combine weight-bearing limbs with increasingly aquatic hearing and locomotion.", "age": 48, "timeRange": [52, 45], "taxonIds": [], "view": "evidence", "referenceIds": ["pbdb-api-2016"] },
+      { "id": "pelagic", "title": "Fully marine whales", "text": "Later archaeocetes lose terrestrial locomotion and disperse through warm oceans.", "age": 38, "timeRange": [42, 34], "taxonIds": [], "view": "map", "referenceIds": ["pbdb-api-2016"] }
+    ]
+  },
+  {
+    "id": "synapsids-to-mammals",
+    "title": "From synapsids to mammals",
+    "titleZh": "从合弓纲到现代哺乳类",
+    "dek": "Follow changes in jaws, ears, teeth and posture across one of the fossil record's classic transitions.",
+    "theme": "copper",
+    "durationMinutes": 8,
+    "featured": false,
+    "steps": [
+      { "id": "split", "title": "The amniote split", "text": "Synapsids and sauropsids diverge early in amniote history.", "age": 312, "timeRange": [320, 300], "taxonIds": ["synapsida", "sauropsida"], "view": "tree", "eventId": "amniote-divergence", "referenceIds": ["open-tree"] },
+      { "id": "therapsids", "title": "Therapsid experiments", "text": "Posture, feeding and skull architecture change across Permian and Triassic synapsids.", "age": 255, "timeRange": [280, 230], "taxonIds": ["synapsida"], "view": "evidence", "referenceIds": ["pbdb-api-2016"] },
+      { "id": "mammals", "title": "A new jaw and middle ear", "text": "The mammalian jaw joint and detached middle-ear bones emerge through a sequence of small-bodied forms.", "age": 205, "timeRange": [225, 180], "taxonIds": ["mammalia"], "view": "tree", "referenceIds": ["open-tree", "pbdb-api-2016"] }
+    ]
+  },
+  {
+    "id": "humans-in-tree-of-life",
+    "title": "Humans in the tree of life",
+    "titleZh": "人类在生命树上的位置",
+    "dek": "Zoom out from Homo sapiens to see nested ancestry, deep time and repeated hominin dispersals.",
+    "theme": "rose",
+    "durationMinutes": 6,
+    "featured": false,
+    "steps": [
+      { "id": "primates", "title": "One primate branch", "text": "Humans are nested within primates, mammals, tetrapods and vertebrates; each name identifies a shared ancestry at a different scale.", "age": 55, "timeRange": [66, 40], "taxonIds": ["mammalia", "placentalia"], "view": "tree", "referenceIds": ["open-tree"] },
+      { "id": "hominins", "title": "A branching hominin record", "text": "Hominin evolution contains multiple contemporaneous lineages rather than a single file of ancestors.", "age": 3, "timeRange": [7, 1], "taxonIds": [], "view": "evidence", "referenceIds": ["pbdb-api-2016"] },
+      { "id": "dispersal", "title": "Repeated movement and contact", "text": "Homo dispersals occur in multiple waves and later include genetic exchange among populations.", "age": 0.1, "timeRange": [2, 0], "taxonIds": [], "view": "map", "eventId": "homo-dispersal", "referenceIds": ["open-tree"] }
+    ]
+  }
+]

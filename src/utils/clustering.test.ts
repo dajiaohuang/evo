@@ -74,4 +74,15 @@ describe('computeClusters', () => {
     const totalItems = result.reduce((sum, r) => sum + (r.type === 'cluster' ? r.count : 1), 0)
     expect(totalItems).toBe(50)
   })
+
+  it('can cluster by modern collection coordinates', () => {
+    const occs = Array.from({ length: 25 }, (_, i) => {
+      const occurrence = makeOcc(String(i), 120 + i * 0.01, 30 + i * 0.01)
+      occurrence.paleolng = -80 + i
+      occurrence.paleolat = -30 + i
+      return occurrence
+    })
+    const result = computeClusters(occs, 2, { gridSize: 40, maxZoom: 5, coordinateMode: 'modern' })
+    expect(result.some((marker) => marker.type === 'cluster')).toBe(true)
+  })
 })

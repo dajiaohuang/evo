@@ -1,164 +1,226 @@
-import { useEffect, useRef, useCallback } from 'react'
+import { useCallback, useEffect, useRef, useState } from 'react'
 import * as d3 from 'd3'
 import { useAppStore } from '../../store'
 import type { TreeNode } from '../../types'
 import treeData from '../../../data/tree/life-cladogram.json'
+import './EvoTree.css'
+
+export type TreeMode = 'cladogram' | 'first-appearance' | 'fossil-range' | 'radial'
 
 function findNode(nodes: TreeNode[], id: string): TreeNode | null {
   for (const node of nodes) {
     if (node.id === id) return node
-    if (node.children) {
-      const found = findNode(node.children, id)
-      if (found) return found
-    }
+    const found = node.children ? findNode(node.children, id) : null
+    if (found) return found
   }
   return null
 }
 
+function activeAt(node: TreeNode, age: number): boolean {
+  return age <= node.firstAppearance && age >= node.lastAppearance
+}
+
 export function EvoTree() {
   const svgRef = useRef<SVGSVGElement>(null)
-  const currentAge = useAppStore((s) => s.currentAge)
-  const selectedNodeId = useAppStore((s) => s.selectedNodeId)
-  const selectNode = useAppStore((s) => s.selectNode)
-  const highlightTaxon = useAppStore((s) => s.highlightTaxon)
-  const loadOccurrencesForTaxon = useAppStore((s) => s.loadOccurrencesForTaxon)
+  const [mode, setMode] = useState<TreeMode>('cladogram')
+  const currentAge = useAppStore((state) => state.currentAge)
+  const selectedNodeId = useAppStore((state) => state.selectedNodeId)
+  const selectNode = useAppStore((state) => state.selectNode)
+  const highlightTaxon = useAppStore((state) => state.highlightTaxon)
+  const loadOccurrencesForTaxon = useAppStore((state) => state.loadOccurrencesForTaxon)
 
   const handleNodeClick = useCallback((nodeId: string) => {
     selectNode(nodeId)
     const node = findNode([treeData as TreeNode], nodeId)
     if (node?.taxonId) {
       highlightTaxon(node.taxonId)
-      loadOccurrencesForTaxon(node.taxonId)
+      void loadOccurrencesForTaxon(node.taxonId)
     }
-  }, [selectNode, highlightTaxon, loadOccurrencesForTaxon])
+  }, [highlightTaxon, loadOccurrencesForTaxon, selectNode])
 
   const renderTree = useCallback(() => {
-    const svg = svgRef.current
-    if (!svg) return
-
-    const width = svg.clientWidth || 340
-    const height = svg.clientHeight || 600
-
-    svg.innerHTML = ''
+    const svgElement = svgRef.current
+    if (!svgElement) return
+    const width = svgElement.parentElement?.clientWidth || 700
+    const viewportHeight = svgElement.parentElement?.clientHeight || 560
+    const svg = d3.select(svgElement)
+    svg.selectAll('*').remove()
+    svg.on('.zoom', null)
 
     const root = d3.hierarchy(treeData as TreeNode)
-    const treeLayout = d3.tree<TreeNode>().nodeSize([80, 140])
-    treeLayout(root)
+    const descendants = root.descendants()
+    const maxAge = Math.max(...descendants.map((node) => node.data.firstAppearance), 540)
 
-    const bounds = { x0: Infinity, y0: Infinity, x1: -Infinity, y1: -Infinity }
-    root.each((d) => {
-      if (d.x! < bounds.x0) bounds.x0 = d.x!
-      if (d.x! > bounds.x1) bounds.x1 = d.x!
-      if (d.y! < bounds.y0) bounds.y0 = d.y!
-      if (d.y! > bounds.y1) bounds.y1 = d.y!
-    })
+    if (mode === 'fossil-range') {
+      const rowHeight = 21
+      const ordered = [...descendants].sort((a, b) => b.data.firstAppearance - a.data.firstAppearance || a.depth - b.depth)
+      const height = Math.max(viewportHeight, ordered.length * rowHeight + 82)
+      svg.attr('height', height).attr('viewBox', `0 0 ${width} ${height}`)
+      const labelWidth = Math.min(190, Math.max(120, width * 0.26))
+      const x = d3.scaleLinear().domain([maxAge, 0]).range([labelWidth, width - 34])
+      const axis = d3.axisTop(x).ticks(Math.max(4, Math.floor(width / 130))).tickFormat((value) => `${value} Ma`)
+      svg.append('g').attr('class', 'tree-time-axis').attr('transform', 'translate(0,48)').call(axis)
 
-    const treeW = bounds.x1 - bounds.x0 || 1
-    const treeH = bounds.y1 - bounds.y0 || 1
-    const scaleX = (width - 24) / treeW
-    const scaleY = Math.min(1, (height - 32) / treeH)
-    const scale = Math.min(scaleX, scaleY, 1.2)
-    const offsetX = (width - treeW * scale) / 2 - bounds.x0 * scale
-    const offsetY = 16 - bounds.y0 * scale
+      const currentX = x(Math.min(currentAge, maxAge))
+      svg.append('line').attr('class', 'tree-current-line').attr('x1', currentX).attr('x2', currentX).attr('y1', 48).attr('y2', height)
 
-    const g = d3.select(svg).append('g')
-      .attr('transform', `translate(${offsetX},${offsetY}) scale(${scale})`)
+      const rows = svg.append('g').selectAll('g.range-row').data(ordered).join('g')
+        .attr('class', (node) => `range-row${node.data.id === selectedNodeId ? ' is-selected' : ''}`)
+        .attr('transform', (_node, index) => `translate(0,${67 + index * rowHeight})`)
+        .style('cursor', 'pointer')
+        .on('click', (_event, node) => handleNodeClick(node.data.id))
 
-    const zoom = d3.zoom<SVGSVGElement, unknown>()
-      .scaleExtent([0.1, 20])
-      .filter((event) => {
-        if (event.type === 'dblclick') return false
-        return true
-      })
-      .on('zoom', (event) => {
-        g.attr('transform', `translate(${event.transform.x + offsetX}, ${event.transform.y + offsetY}) scale(${event.transform.k * scale})`)
-      })
-
-    d3.select(svg).call(zoom)
-
-    const inRange = (node: d3.HierarchyNode<TreeNode>) =>
-      currentAge <= node.data.firstAppearance && currentAge >= node.data.lastAppearance
-
-    g.selectAll('path')
-      .data(root.links())
-      .join('path')
-      .attr('d', (d) => {
-        const sx = d.source.x!
-        const sy = d.source.y!
-        const tx = d.target.x!
-        const ty = d.target.y!
-        const my = (sy + ty) / 2
-        return `M${sx},${sy} C${sx},${my} ${tx},${my} ${tx},${ty}`
-      })
-      .attr('fill', 'none')
-      .attr('stroke', (d) => {
-        const visible = inRange(d.source) || inRange(d.target)
-        return visible ? '#30363d' : '#1a2030'
-      })
-      .attr('stroke-width', 1.5)
-
-    g.selectAll('g.node')
-      .data(root.descendants())
-      .join('g')
-      .attr('class', 'node')
-      .attr('transform', (d) => `translate(${d.x},${d.y})`)
-      .style('cursor', 'pointer')
-      .style('opacity', (d) => inRange(d) ? 1 : 0.2)
-      .on('click', (_event, d) => {
-        handleNodeClick(d.data.id)
-      })
-      .each(function (d) {
-        const el = d3.select(this)
-        const nodeSelected = d.data.id === selectedNodeId
-
-        el.append('circle')
-          .attr('r', nodeSelected ? 7 : 5)
-          .attr('fill', d.data.extinct ? '#8b949e' : '#58a6ff')
-          .attr('stroke', nodeSelected ? '#ffd700' : 'none')
-          .attr('stroke-width', nodeSelected ? 2 : 0)
-
-        const label = (d.data.commonName || d.data.name).slice(0, 22)
-        el.append('text')
-          .attr('dy', -7)
-          .attr('text-anchor', 'middle')
-          .attr('fill', '#e6edf3')
-          .attr('font-size', 9)
-          .attr('font-family', 'var(--font-sans)')
-          .text(label)
-
-        if (d.data.extinct) {
-          el.append('text')
-            .attr('dy', 14)
-            .attr('text-anchor', 'middle')
-            .attr('fill', '#8b949e')
-            .attr('font-size', 8)
-            .text('†')
-        }
-      })
-  }, [currentAge, selectedNodeId, handleNodeClick])
-
-  useEffect(() => {
-    renderTree()
-  }, [renderTree])
-
-  useEffect(() => {
-    const observer = new ResizeObserver(() => renderTree())
-    if (svgRef.current?.parentElement) {
-      observer.observe(svgRef.current.parentElement)
+      rows.append('text').attr('x', 10).attr('y', 4).attr('class', 'range-label')
+        .attr('font-style', (node) => node.data.rank && node.data.rank !== 'kingdom' ? 'italic' : null)
+        .text((node) => `${'·'.repeat(Math.min(node.depth, 5))} ${node.data.commonName || node.data.name}`)
+      rows.append('line').attr('class', 'range-track').attr('x1', labelWidth).attr('x2', width - 34)
+      rows.append('line').attr('class', 'range-bar')
+        .attr('x1', (node) => x(node.data.firstAppearance))
+        .attr('x2', (node) => x(node.data.lastAppearance))
+        .attr('data-active', (node) => activeAt(node.data, currentAge) ? 'true' : 'false')
+      rows.append('title').text((node) => `${node.data.name}: ${node.data.firstAppearance}–${node.data.lastAppearance || 'present'} Ma`)
+      return
     }
+
+    svg.attr('height', '100%').attr('viewBox', null)
+    const g = svg.append('g')
+    const zoom = d3.zoom<SVGSVGElement, unknown>().scaleExtent([0.2, 12]).on('zoom', (event) => g.attr('transform', event.transform.toString()))
+    svg.call(zoom)
+
+    if (mode === 'radial') {
+      const radius = Math.max(120, Math.min(width, viewportHeight) / 2 - 58)
+      d3.cluster<TreeNode>().size([Math.PI * 2, radius])(root)
+      const radial = g.append('g').attr('transform', `translate(${width / 2},${viewportHeight / 2})`)
+      const radialLink = d3.linkRadial<d3.HierarchyPointLink<TreeNode>, d3.HierarchyPointNode<TreeNode>>()
+        .angle((node) => node.x)
+        .radius((node) => node.y)
+      radial.selectAll('path').data(root.links()).join('path').attr('class', 'tree-link').attr('d', (link) => radialLink(link as d3.HierarchyPointLink<TreeNode>))
+      const nodes = radial.selectAll<SVGGElement, d3.HierarchyNode<TreeNode>>('g.node').data(root.descendants()).join('g')
+        .attr('class', 'node')
+        .attr('transform', (node) => {
+          const point = node as d3.HierarchyPointNode<TreeNode>
+          return `rotate(${point.x * 180 / Math.PI - 90}) translate(${point.y},0)`
+        })
+        .style('cursor', 'pointer').style('opacity', (node) => activeAt(node.data, currentAge) ? 1 : .22)
+        .on('click', (_event, node) => handleNodeClick(node.data.id))
+      nodes.append('circle').attr('r', (node) => node.data.id === selectedNodeId ? 5.5 : 3.5)
+        .attr('fill', (node) => node.data.extinct ? '#8b949e' : '#58a6ff')
+        .attr('stroke', (node) => node.data.id === selectedNodeId ? '#ffd700' : 'none').attr('stroke-width', 2)
+      nodes.filter((node) => !node.children || node.depth < 2).append('text').attr('class', 'tree-node-label')
+        .attr('x', 7).attr('y', 3)
+        .attr('transform', (node) => {
+          const point = node as d3.HierarchyPointNode<TreeNode>
+          return point.x >= Math.PI ? 'rotate(180)' : null
+        })
+        .attr('text-anchor', (node) => (node as d3.HierarchyPointNode<TreeNode>).x >= Math.PI ? 'end' : 'start')
+        .text((node) => (node.data.commonName || node.data.name).slice(0, 20))
+      nodes.append('title').text((node) => `${node.data.name} · ${node.data.firstAppearance}–${node.data.lastAppearance || 'present'} Ma`)
+      return
+    }
+
+    if (mode === 'first-appearance') {
+      const layoutHeight = Math.max(viewportHeight - 70, descendants.length * 5)
+      d3.tree<TreeNode>().size([layoutHeight, 1])(root)
+      const timeX = d3.scaleLinear().domain([maxAge, 0]).range([55, width - 125])
+      const yOffset = Math.max(35, (viewportHeight - layoutHeight) / 2)
+      const xFor = (node: d3.HierarchyPointNode<TreeNode>) => timeX(node.data.firstAppearance)
+      const yFor = (node: d3.HierarchyPointNode<TreeNode>) => node.x + yOffset
+
+      const axis = d3.axisTop(timeX).ticks(Math.max(4, Math.floor(width / 130))).tickFormat((value) => `${value} Ma`)
+      svg.append('g').attr('class', 'tree-time-axis').attr('transform', 'translate(0,28)').call(axis)
+      svg.append('line').attr('class', 'tree-current-line').attr('x1', timeX(Math.min(currentAge, maxAge))).attr('x2', timeX(Math.min(currentAge, maxAge))).attr('y1', 28).attr('y2', viewportHeight)
+
+      g.selectAll('path').data(root.links()).join('path').attr('class', 'tree-link')
+        .attr('d', (link) => {
+          const source = link.source as d3.HierarchyPointNode<TreeNode>
+          const target = link.target as d3.HierarchyPointNode<TreeNode>
+          return `M${xFor(source)},${yFor(source)}H${xFor(target)}V${yFor(target)}`
+        })
+
+      const nodes = g.selectAll<SVGGElement, d3.HierarchyNode<TreeNode>>('g.node').data(root.descendants()).join('g').attr('class', 'node')
+        .attr('transform', (node) => {
+          const point = node as d3.HierarchyPointNode<TreeNode>
+          return `translate(${xFor(point)},${yFor(point)})`
+        })
+        .style('cursor', 'pointer').style('opacity', (node) => activeAt(node.data, currentAge) ? 1 : .3)
+        .on('click', (_event, node) => handleNodeClick(node.data.id))
+      drawNodes(nodes, selectedNodeId, 'right')
+      return
+    }
+
+    d3.tree<TreeNode>().nodeSize([76, 128])(root)
+    const bounds = { x0: Infinity, y0: Infinity, x1: -Infinity, y1: -Infinity }
+    root.each((node) => {
+      bounds.x0 = Math.min(bounds.x0, node.x ?? 0)
+      bounds.x1 = Math.max(bounds.x1, node.x ?? 0)
+      bounds.y0 = Math.min(bounds.y0, node.y ?? 0)
+      bounds.y1 = Math.max(bounds.y1, node.y ?? 0)
+    })
+    const treeWidth = bounds.x1 - bounds.x0 || 1
+    const treeHeight = bounds.y1 - bounds.y0 || 1
+    const scale = Math.min((width - 24) / treeWidth, (viewportHeight - 36) / treeHeight, 1.2)
+    g.attr('transform', `translate(${(width - treeWidth * scale) / 2 - bounds.x0 * scale},${18 - bounds.y0 * scale}) scale(${scale})`)
+    g.selectAll('path').data(root.links()).join('path').attr('class', 'tree-link')
+      .attr('d', (link) => {
+        const sx = link.source.x ?? 0
+        const sy = link.source.y ?? 0
+        const tx = link.target.x ?? 0
+        const ty = link.target.y ?? 0
+        return `M${sx},${sy}C${sx},${(sy + ty) / 2} ${tx},${(sy + ty) / 2} ${tx},${ty}`
+      })
+    const nodes = g.selectAll<SVGGElement, d3.HierarchyNode<TreeNode>>('g.node').data(root.descendants()).join('g').attr('class', 'node')
+      .attr('transform', (node) => `translate(${node.x},${node.y})`)
+      .style('cursor', 'pointer').style('opacity', (node) => activeAt(node.data, currentAge) ? 1 : .2)
+      .on('click', (_event, node) => handleNodeClick(node.data.id))
+    drawNodes(nodes, selectedNodeId, 'above')
+  }, [currentAge, handleNodeClick, mode, selectedNodeId])
+
+  useEffect(() => { renderTree() }, [renderTree])
+  useEffect(() => {
+    const parent = svgRef.current?.parentElement
+    if (!parent) return
+    const observer = new ResizeObserver(renderTree)
+    observer.observe(parent)
     return () => observer.disconnect()
   }, [renderTree])
 
   return (
-    <div style={{ height: '100%', width: '100%', overflow: 'hidden', position: 'relative' }}>
-      <div style={{
-        position: 'absolute', top: 8, left: 12,
-        fontSize: 11, color: 'var(--color-text-muted)',
-        zIndex: 10, pointerEvents: 'none',
-      }}>
-        Tree of Life — {currentAge.toFixed(1)} Ma
+    <div className={`evo-tree evo-tree--${mode}`}>
+      <div className="tree-mode-control" role="group" aria-label="Tree time model">
+        <span>Tree model</span>
+        {([
+          ['cladogram', 'Cladogram'],
+          ['first-appearance', 'First appearance'],
+          ['fossil-range', 'Fossil ranges'],
+          ['radial', 'Radial'],
+        ] as Array<[TreeMode, string]>).map(([value, label]) => (
+          <button key={value} className={mode === value ? 'is-active' : ''} onClick={() => setMode(value)}>{label}</button>
+        ))}
       </div>
-      <svg ref={svgRef} style={{ width: '100%', height: '100%' }} />
+      <svg ref={svgRef} aria-label={`${mode} visualization of the tree of life`} />
+      <div className="tree-model-note">
+        {mode === 'cladogram' && 'Topology only · branch length does not encode elapsed time.'}
+        {mode === 'first-appearance' && 'Horizontal position uses curated first appearance as a fossil-record proxy, not a divergence-time estimate.'}
+        {mode === 'fossil-range' && 'Bars show curated first–last appearance ranges; gaps and endpoints remain sampling-dependent.'}
+        {mode === 'radial' && 'Radial mode supports high-level navigation; angular and radial distances do not encode elapsed time.'}
+      </div>
     </div>
   )
+}
+
+function drawNodes(
+  nodes: d3.Selection<SVGGElement, d3.HierarchyNode<TreeNode>, SVGGElement, unknown>,
+  selectedNodeId: string | null,
+  labelPosition: 'right' | 'above',
+) {
+  nodes.append('circle').attr('r', (node) => node.data.id === selectedNodeId ? 6.5 : 4.5)
+    .attr('fill', (node) => node.data.extinct ? '#8b949e' : '#58a6ff')
+    .attr('stroke', (node) => node.data.id === selectedNodeId ? '#ffd700' : 'none')
+    .attr('stroke-width', 2)
+  nodes.append('text').attr('class', 'tree-node-label')
+    .attr('x', labelPosition === 'right' ? 8 : 0)
+    .attr('y', labelPosition === 'right' ? 3 : -8)
+    .attr('text-anchor', labelPosition === 'right' ? 'start' : 'middle')
+    .text((node) => `${node.data.commonName || node.data.name}${node.data.extinct ? ' †' : ''}`.slice(0, 24))
+  nodes.append('title').text((node) => `${node.data.name} · ${node.data.firstAppearance}–${node.data.lastAppearance || 'present'} Ma`)
 }

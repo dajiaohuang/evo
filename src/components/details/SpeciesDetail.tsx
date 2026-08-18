@@ -1,6 +1,9 @@
 import { useAppStore } from '../../store'
 import treeData from '../../../data/tree/life-cladogram.json'
 import type { TreeNode } from '../../types'
+import type { TreeEvidenceCatalog, TreeEvidenceRecord } from '../../types'
+import treeEvidenceData from '../../../data/tree/evidence.json'
+import references from '../../../data/references.json'
 
 function findNode(nodes: TreeNode[], id: string): TreeNode | null {
   for (const node of nodes) {
@@ -26,6 +29,11 @@ export function SpeciesDetail() {
   const setTime = useAppStore((s) => s.setTime)
 
   const node = selectedNodeId ? findNode([treeData as TreeNode], selectedNodeId) : null
+  const evidenceCatalog = treeEvidenceData as TreeEvidenceCatalog
+  const nodeEvidence: TreeEvidenceRecord | null = node ? {
+    ...evidenceCatalog.default,
+    ...evidenceCatalog.nodes[node.id],
+  } : null
   const taxonOccurrences = highlightedTaxonId ? occurrencesByTaxon[highlightedTaxonId] ?? [] : []
   const periodCache = currentPeriod ? (occurrencesByInterval[currentPeriod] ?? null) : null
   const periodFossils = periodCache?.slice(0, 100) ?? []
@@ -52,11 +60,24 @@ export function SpeciesDetail() {
         )}
         <div style={{ display: 'flex', flexDirection: 'column', gap: 8, fontSize: 12 }}>
           <div style={{ padding: 10, background: 'var(--color-surface-alt)', borderRadius: 6 }}>
+            <div style={{ color: 'var(--color-text-muted)' }}>Identification</div>
+            <div><strong>{selectedOccurrence.tna || 'Accepted name unresolved'}</strong></div>
+            <div style={{ marginTop: 3, color: 'var(--color-text-muted)', fontSize: 10 }}>Original: {selectedOccurrence.idn || 'not retained'} · rank code {selectedOccurrence.rnk}</div>
+          </div>
+          <div style={{ padding: 10, background: 'var(--color-surface-alt)', borderRadius: 6 }}>
             <div style={{ color: 'var(--color-text-muted)' }}>Age Range</div>
             <div style={{ fontFamily: 'var(--font-mono)' }}>
               {selectedOccurrence.eag?.toFixed(1)} – {selectedOccurrence.lag?.toFixed(1)} Ma
             </div>
+            <div style={{ marginTop: 3, color: 'var(--color-text-muted)', fontSize: 10 }}>Displayed midpoint: {((selectedOccurrence.eag + selectedOccurrence.lag) / 2).toFixed(1)} Ma</div>
           </div>
+          {Number.isFinite(selectedOccurrence.paleolat) && Number.isFinite(selectedOccurrence.paleolng) && (
+            <div style={{ padding: 10, background: 'var(--color-surface-alt)', borderRadius: 6 }}>
+              <div style={{ color: 'var(--color-text-muted)' }}>Reconstructed Coordinates</div>
+              <div style={{ fontFamily: 'var(--font-mono)' }}>{selectedOccurrence.paleolat?.toFixed(2)}°, {selectedOccurrence.paleolng?.toFixed(2)}°</div>
+              <div style={{ marginTop: 3, color: 'var(--color-text-muted)', fontSize: 10 }}>Bundled PBDB paleolocation; per-record plate model is not retained.</div>
+            </div>
+          )}
           <div style={{ padding: 10, background: 'var(--color-surface-alt)', borderRadius: 6 }}>
             <div style={{ color: 'var(--color-text-muted)' }}>Modern Coordinates</div>
             <div style={{ fontFamily: 'var(--font-mono)' }}>
@@ -91,6 +112,13 @@ export function SpeciesDetail() {
               View on Tree →
             </button>
           )}
+          <div className="occurrence-quality-card">
+            <div>Quality flags</div>
+            <span className={selectedOccurrence.eag - selectedOccurrence.lag > 10 ? 'is-warning' : ''}>{selectedOccurrence.eag - selectedOccurrence.lag > 10 ? 'Broad age range >10 Ma' : 'Age range ≤10 Ma'}</span>
+            <span className={selectedOccurrence.paleolat == null || selectedOccurrence.paleolng == null ? 'is-warning' : ''}>{selectedOccurrence.paleolat == null || selectedOccurrence.paleolng == null ? 'No reconstructed coordinate' : 'Reconstructed coordinate present'}</span>
+            <span className={!selectedOccurrence.tna ? 'is-warning' : ''}>{selectedOccurrence.tna ? 'Accepted name present' : 'Accepted name unresolved; original retained'}</span>
+            <a href={`https://paleobiodb.org/classic/displayCollResults?collection_no=${selectedOccurrence.cid.replace('col:', '')}`} target="_blank" rel="noreferrer">Open PBDB collection ↗</a>
+          </div>
         </div>
       </div>
     )
@@ -121,7 +149,7 @@ export function SpeciesDetail() {
                 <div style={{
                   position: 'absolute', left: 0, top: 0, bottom: 0,
                   background: 'var(--color-accent)', opacity: 0.6,
-                  width: `${Math.max(2, ((node.firstAppearance - node.lastAppearance) / 540) * 100)}%`,
+                  width: `${Math.max(2, ((node.firstAppearance - node.lastAppearance) / 4567) * 100)}%`,
                 }} />
               </div>
             </div>
@@ -137,6 +165,22 @@ export function SpeciesDetail() {
               <div style={{ padding: 10, background: 'var(--color-surface-alt)', borderRadius: 6 }}>
                 <div style={{ color: 'var(--color-text-muted)', marginBottom: 2 }}>PBDB Taxon ID</div>
                 <div style={{ fontFamily: 'var(--font-mono)', fontSize: 11 }}>{node.taxonId}</div>
+              </div>
+            )}
+
+            {nodeEvidence && (
+              <div className="tree-evidence-card">
+                <div><span>Tree evidence</span><strong>{nodeEvidence.support}</strong></div>
+                <p>{nodeEvidence.topologyBasis}</p>
+                <p>{nodeEvidence.rangeBasis}</p>
+                <p className="tree-evidence-conflict"><b>Uncertainty</b> {nodeEvidence.conflicts}</p>
+                <small>{evidenceCatalog.topologyModel}</small>
+                <div className="tree-evidence-links">
+                  {nodeEvidence.references.map((referenceId) => {
+                    const reference = references.find((item) => item.id === referenceId)
+                    return reference ? <a key={referenceId} href={reference.url} target="_blank" rel="noreferrer">{reference.title} ↗</a> : null
+                  })}
+                </div>
               </div>
             )}
 

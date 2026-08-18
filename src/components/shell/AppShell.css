@@ -1,0 +1,170 @@
+.app-shell {
+  min-height: 100vh;
+  background: var(--color-bg);
+}
+
+.app-shell--immersive {
+  height: 100vh;
+  overflow: hidden;
+}
+
+.topbar {
+  height: var(--topbar-height);
+  display: grid;
+  grid-template-columns: minmax(155px, 1fr) auto minmax(170px, 1fr);
+  align-items: center;
+  gap: 20px;
+  padding: 0 28px;
+  background: color-mix(in srgb, var(--color-bg) 88%, transparent);
+  border-bottom: 1px solid var(--color-border-subtle);
+  backdrop-filter: blur(18px);
+  position: relative;
+  z-index: 1200;
+}
+
+.brand {
+  appearance: none;
+  border: 0;
+  background: transparent;
+  color: var(--color-text);
+  display: inline-flex;
+  align-items: center;
+  gap: 11px;
+  justify-self: start;
+  cursor: pointer;
+  letter-spacing: 0.04em;
+}
+
+.brand__mark {
+  width: 28px;
+  height: 28px;
+  position: relative;
+  display: block;
+}
+
+.brand__mark::before {
+  content: '';
+  position: absolute;
+  left: 13px;
+  top: 2px;
+  width: 1px;
+  height: 24px;
+  background: linear-gradient(var(--color-accent), rgba(109, 218, 177, 0.08));
+  transform: rotate(-18deg);
+  transform-origin: center;
+}
+
+.brand__mark span {
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--color-accent);
+  box-shadow: 0 0 14px rgba(109, 218, 177, 0.45);
+}
+
+.brand__mark span:nth-child(1) { left: 3px; top: 3px; }
+.brand__mark span:nth-child(2) { right: 2px; top: 10px; }
+.brand__mark span:nth-child(3) { left: 7px; bottom: 1px; }
+
+.brand__text {
+  display: flex;
+  align-items: baseline;
+  gap: 7px;
+}
+
+.brand__text strong {
+  font-family: var(--font-display);
+  font-size: 16px;
+  letter-spacing: 0.12em;
+}
+
+.brand__text small {
+  color: var(--color-text-muted);
+  font-size: 9px;
+  letter-spacing: 0.24em;
+}
+
+.topbar__nav {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 4px;
+  border: 1px solid var(--color-border-subtle);
+  background: rgba(11, 20, 25, 0.6);
+  border-radius: 999px;
+}
+
+.topbar__nav button {
+  appearance: none;
+  border: 0;
+  border-radius: 999px;
+  background: transparent;
+  color: var(--color-text-muted);
+  padding: 7px 15px;
+  font-size: 11px;
+  font-weight: 650;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  transition: color 160ms ease, background 160ms ease;
+}
+
+.topbar__nav button:hover,
+.topbar__nav button.is-active {
+  color: var(--color-text);
+  background: var(--color-surface-raised);
+}
+
+.topbar__utilities { justify-self: end; display: flex; align-items: center; gap: 8px; min-width: 0; }
+.connectivity-status { display: inline-flex; align-items: center; gap: 5px; color: var(--color-text-faint); font: 7px var(--font-mono); text-transform: uppercase; }
+.connectivity-status i { width: 5px; height: 5px; border-radius: 50%; background: var(--color-accent); box-shadow: 0 0 7px rgba(109, 218, 177, .5); }
+.connectivity-status.is-offline { color: #d7b68c; }
+.connectivity-status.is-offline i { background: #f2a65a; box-shadow: none; }
+
+.skip-link { position: fixed; top: 8px; left: 8px; z-index: 5000; padding: 8px 11px; background: var(--color-accent); color: #06110d; font-weight: 750; text-decoration: none; transform: translateY(-150%); }
+.skip-link:focus { transform: translateY(0); }
+
+.status-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--color-accent);
+  box-shadow: 0 0 12px rgba(109, 218, 177, 0.7);
+}
+
+.app-shell__content {
+  min-height: calc(100vh - var(--topbar-height));
+}
+
+.app-shell--immersive .app-shell__content {
+  height: calc(100vh - var(--topbar-height));
+  min-height: 0;
+}
+
+@media (max-width: 720px) {
+  .topbar {
+    grid-template-columns: 1fr auto;
+    padding: 0 14px;
+  }
+
+  .topbar__nav {
+    position: fixed;
+    z-index: 2000;
+    left: 12px;
+    right: 12px;
+    bottom: 12px;
+    justify-content: space-around;
+    box-shadow: var(--shadow-lg);
+  }
+
+  .global-search-trigger { width: 34px; justify-content: center; }
+  .global-search-trigger:not(:focus) { font-size: 0; }
+  .global-search-trigger kbd { display: none; }
+  .connectivity-status { display: none; }
+}
+
+@media (max-width: 1080px) {
+  .topbar__nav button { padding-inline: 10px; }
+  .global-search-trigger { width: 42px; font-size: 0; justify-content: center; }
+  .global-search-trigger kbd { display: none; }
+}

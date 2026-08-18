@@ -1,0 +1,32 @@
+import { describe, expect, it } from 'vitest'
+import type { FossilOccurrence } from '../types'
+import { createQueryPackage, filterFossils, fossilsToCsv, fossilsToGeoJson, type LabQuery } from './lab'
+
+const records: FossilOccurrence[] = [
+  { oid: 'occ:1', tna: 'Hipparion', idn: '', tid: 'txn:1', rnk: 5, lng: '10', lat: '20', paleolng: 12, paleolat: 22, eag: 10, lag: 8, cid: 'c1', oei: '', cc2: 'CN' },
+  { oid: 'occ:2', tna: 'Teleoceras', idn: '', tid: 'txn:2', rnk: 5, lng: '-90', lat: '35', eag: 12, lag: 10, cid: 'c2', oei: '', cc2: 'US' },
+]
+
+const query: LabQuery = { periods: [], taxon: 'hip', country: 'CN', olderMa: 11, youngerMa: 7, limit: 100 }
+
+describe('lab query helpers', () => {
+  it('combines taxon, country and intersecting age filters', () => {
+    expect(filterFossils(records, query).map((record) => record.oid)).toEqual(['occ:1'])
+  })
+
+  it('creates CSV and GeoJSON representations', () => {
+    expect(fossilsToCsv(records)).toContain('Hipparion')
+    expect(fossilsToGeoJson(records).features).toHaveLength(2)
+  })
+
+  it('creates a reproducible zip payload', () => {
+    const payload = createQueryPackage({
+      query,
+      records,
+      stats: { totalMatched: 2, returned: 2, uniqueTaxa: 2, countries: 2, paleoCoordinateCoverage: 0.5 },
+      countsByPeriod: [],
+      topTaxa: [],
+    })
+    expect(payload.byteLength).toBeGreaterThan(500)
+  })
+})
