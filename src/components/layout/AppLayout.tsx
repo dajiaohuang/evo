@@ -1,5 +1,6 @@
 import { useState, useEffect, useCallback, type ReactNode } from 'react'
 import './AppLayout.css'
+import { useI18n } from '../../i18n'
 
 interface AppLayoutProps {
   map: ReactNode
@@ -9,6 +10,7 @@ interface AppLayoutProps {
 }
 
 export function AppLayout({ map, tree, timeline, details }: AppLayoutProps) {
+  const { t } = useI18n()
   const [fullscreen, setFullscreen] = useState<'tree' | 'map' | null>(null)
 
   const exitFullscreen = useCallback(() => setFullscreen(null), [])
@@ -38,7 +40,7 @@ export function AppLayout({ map, tree, timeline, details }: AppLayoutProps) {
       >
         {tree}
         {fullscreen === 'tree' && (
-          <button className="app-layout__fs-exit" onClick={exitFullscreen}>
+          <button className="app-layout__fs-exit" onClick={exitFullscreen} aria-label={t('Exit fullscreen')} title={t('Exit fullscreen')}>
             ✕
           </button>
         )}
@@ -55,7 +57,7 @@ export function AppLayout({ map, tree, timeline, details }: AppLayoutProps) {
       >
         {map}
         {fullscreen === 'map' && (
-          <button className="app-layout__fs-exit" onClick={exitFullscreen}>
+          <button className="app-layout__fs-exit" onClick={exitFullscreen} aria-label={t('Exit fullscreen')} title={t('Exit fullscreen')}>
             ✕
           </button>
         )}

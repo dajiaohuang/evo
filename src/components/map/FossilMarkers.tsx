@@ -3,6 +3,7 @@ import { useAppStore } from '../../store'
 import { computeClusters } from '../../utils/clustering'
 import { getSpatialPosition, type CoordinateMode } from '../../utils/spatial'
 import type { FossilMarkerMode } from '../../store/mapSlice'
+import { useI18n } from '../../i18n'
 
 export type MarkerMode = FossilMarkerMode
 interface FossilMarkersProps {
@@ -11,6 +12,7 @@ interface FossilMarkersProps {
 }
 
 export function FossilMarkers({ mode, coordinateMode }: FossilMarkersProps) {
+  const { t } = useI18n()
   const currentPeriod = useAppStore((s) => s.currentPeriod)
   const occurrencesByInterval = useAppStore((s) => s.occurrencesByInterval)
   const viewState = useAppStore((s) => s.viewState)
@@ -50,7 +52,7 @@ export function FossilMarkers({ mode, coordinateMode }: FossilMarkersProps) {
             >
               <Tooltip direction="top" offset={[0, -8]} opacity={1} permanent={false}>
                 <div style={{ fontSize: 11 }}>
-                  {marker.count} sampled occurrences
+                  {t('{count} sampled occurrences', { count: marker.count })}
                 </div>
               </Tooltip>
             </CircleMarker>
@@ -81,7 +83,7 @@ export function FossilMarkers({ mode, coordinateMode }: FossilMarkersProps) {
           >
             <Tooltip direction="top" offset={[0, -8]} opacity={1}>
               <div style={{ fontSize: 11 }}>
-                <strong>{occ.tna || occ.idn || 'Unresolved identification'}</strong>
+                <strong>{occ.tna || occ.idn || t('Unresolved identification')}</strong>
                 {occ.idn ? <div>{occ.idn}</div> : null}
                 <div style={{ color: '#8b949e' }}>
                   {occ.eag?.toFixed(1)} – {occ.lag?.toFixed(1)} Ma

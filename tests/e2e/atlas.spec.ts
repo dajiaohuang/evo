@@ -1,6 +1,25 @@
 import AxeBuilder from '@axe-core/playwright'
 import { expect, test } from '@playwright/test'
 
+test('language switch localizes the shell and scientific content, then persists', async ({ page }) => {
+  await page.addInitScript(() => {
+    if (!window.localStorage.getItem('evo-atlas-language')) window.localStorage.setItem('evo-atlas-language', 'en')
+  })
+  await page.goto('./#/taxa?id=perissodactyla')
+  await expect(page.getByText('A once-dominant radiation of hoofed mammals', { exact: false })).toBeVisible()
+
+  await page.getByRole('button', { name: '中文', exact: true }).click()
+
+  await expect(page.locator('html')).toHaveAttribute('lang', 'zh-CN')
+  await expect(page).toHaveTitle('类群 — Evo Atlas')
+  await expect(page.getByRole('button', { name: '探索', exact: true })).toBeVisible()
+  await expect(page.getByText('这是一支曾占优势的有蹄哺乳动物辐射', { exact: false })).toBeVisible()
+
+  await page.reload()
+  await expect(page.getByRole('button', { name: '探索', exact: true })).toBeVisible()
+  expect(await page.evaluate(() => window.localStorage.getItem('evo-atlas-language'))).toBe('zh')
+})
+
 test('deep links keep route state and do not coerce a missing age to zero', async ({ page }) => {
   await page.goto('./#/explore?taxon=perissodactyla')
   await expect(page).toHaveTitle('Explore — Evo Atlas')
@@ -46,6 +65,8 @@ test('browser back and forward preserve hash navigation', async ({ page }) => {
 test('mobile Explorer panels remain operable', async ({ page }) => {
   await page.setViewportSize({ width: 390, height: 844 })
   await page.goto('./#/explore?age=66')
+  const navigationBox = await page.getByRole('navigation', { name: 'Primary navigation' }).boundingBox()
+  expect(navigationBox?.y).toBeGreaterThan(760)
   const inspector = page.locator('aside.explorer-inspector')
   await page.getByRole('button', { name: 'Evidence', exact: true }).click()
   await expect(inspector).toHaveClass(/is-open/)

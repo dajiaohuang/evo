@@ -14,6 +14,7 @@ import {
 import { useAppStore } from '../../store'
 import type { AppRoute } from '../../utils/routing'
 import type { ConfidenceLevel, EvidenceClaim, ReferenceRecord } from '../../types'
+import { useI18n } from '../../i18n'
 import './CatalogPages.css'
 
 interface CatalogPageProps {
@@ -21,8 +22,8 @@ interface CatalogPageProps {
   onNavigate: (route: AppRoute, params?: Record<string, string>) => void
 }
 
-function formatAge(age: number): string {
-  if (age === 0) return 'Present'
+function formatAge(age: number, present = 'Present'): string {
+  if (age === 0) return present
   if (age >= 1000) return `${(age / 1000).toFixed(2)} Ga`
   if (age < 1) return `${Math.round(age * 1000)} ka`
   return `${Number.isInteger(age) ? age : age.toFixed(1)} Ma`
@@ -35,10 +36,12 @@ function explorerTaxonState(id: string | undefined): Record<string, string> {
 }
 
 function ConfidenceBadge({ level }: { level: ConfidenceLevel }) {
-  return <span className={`confidence confidence--${level}`}>{level} confidence</span>
+  const { t } = useI18n()
+  return <span className={`confidence confidence--${level}`}>{t('{level} confidence', { level: t(level) })}</span>
 }
 
 function ReferenceList({ records }: { records: ReferenceRecord[] }) {
+  const { t } = useI18n()
   return (
     <div className="reference-list">
       {records.map((reference, index) => (
@@ -46,7 +49,7 @@ function ReferenceList({ records }: { records: ReferenceRecord[] }) {
           <span>{String(index + 1).padStart(2, '0')}</span>
           <div>
             <strong>{reference.title}</strong>
-            <small>{reference.authors} · {reference.publishedYear ?? 'n.d.'}{reference.version ? ` · v${reference.version}` : ''}{reference.accessedAt ? ` · accessed ${reference.accessedAt}` : ''}{reference.doi ? ` · DOI ${reference.doi}` : ''}</small>
+            <small>{reference.authors} · {reference.publishedYear ?? t('n.d.')}{reference.version ? ` · v${reference.version}` : ''}{reference.accessedAt ? ` · ${t('accessed {date}', { date: reference.accessedAt })}` : ''}{reference.doi ? ` · DOI ${reference.doi}` : ''}</small>
           </div>
           <i>↗</i>
         </a>
@@ -56,14 +59,15 @@ function ReferenceList({ records }: { records: ReferenceRecord[] }) {
 }
 
 function ClaimLedger({ claims }: { claims: EvidenceClaim[] }) {
-  if (!claims.length) return <p>No claim-level evidence record is bundled for this subject.</p>
+  const { t } = useI18n()
+  if (!claims.length) return <p>{t('No claim-level evidence record is bundled for this subject.')}</p>
   return (
     <div className="statement-grid">
       {claims.map((claim, index) => (
         <article key={claim.id}>
           <span>{String(index + 1).padStart(2, '0')}</span>
-          <p><strong>{claim.claimType.replace('-', ' ')}</strong><br />{claim.statement}</p>
-          <small>{claim.confidence} · {claim.referenceLinks.map((link) => link.referenceId).join(' · ')}</small>
+          <p><strong>{t(claim.claimType.replace('-', ' '))}</strong><br />{t(claim.statement)}</p>
+          <small>{t(claim.confidence)} · {claim.referenceLinks.map((link) => link.referenceId).join(' · ')}</small>
         </article>
       ))}
     </div>
@@ -71,48 +75,51 @@ function ClaimLedger({ claims }: { claims: EvidenceClaim[] }) {
 }
 
 function DivergenceLedger({ profileId }: { profileId: string }) {
+  const { t } = useI18n()
   const estimates = getCalibrationsForTaxon(profileId)
   const maximumAge = Math.max(1, ...estimates.map((estimate) => estimate.olderMa ?? estimate.medianMa)) * 1.08
   if (!estimates.length) {
-    return <div className="divergence-ledger"><aside><strong>No compatible published node estimate is bundled for this profile.</strong><span>The atlas does not substitute a fossil first appearance or an unrelated clade clock.</span></aside></div>
+    return <div className="divergence-ledger"><aside><strong>{t('No compatible published node estimate is bundled for this profile.')}</strong><span>{t('The atlas does not substitute a fossil first appearance or an unrelated clade clock.')}</span></aside></div>
   }
   return (
     <div className="divergence-ledger">
-      <div className="divergence-axis"><span>{maximumAge.toFixed(0)} Ma</span><span>Compatible published node estimate</span><span>0 Ma</span></div>
+      <div className="divergence-axis"><span>{maximumAge.toFixed(0)} Ma</span><span>{t('Compatible published node estimate')}</span><span>0 Ma</span></div>
       {estimates.map((estimate) => {
         const older = estimate.olderMa ?? estimate.medianMa
         const younger = estimate.youngerMa ?? estimate.medianMa
         const reference = getReferences([estimate.referenceId])[0]
         return (
           <article key={estimate.id}>
-            <div><strong>{estimate.nodeLabel}</strong><small>{estimate.method}</small></div>
+            <div><strong>{t(estimate.nodeLabel)}</strong><small>{t(estimate.method)}</small></div>
             <div className="divergence-track">
               <i style={{ left: `${(1 - older / maximumAge) * 100}%`, width: `${Math.max(.4, (older - younger) / maximumAge * 100)}%` }} />
               <b style={{ left: `${(1 - estimate.medianMa / maximumAge) * 100}%` }} />
             </div>
             <span>{estimate.medianMa.toFixed(1)} Ma{estimate.youngerMa != null && estimate.olderMa != null ? ` · ${estimate.olderMa.toFixed(1)}–${estimate.youngerMa.toFixed(1)}` : ''}</span>
-            <p>{estimate.note} · {estimate.topologyHypothesisId} · {estimate.locator?.figure ?? estimate.locator?.table ?? estimate.locator?.pages}</p>
-            {reference && <a href={reference.url} target="_blank" rel="noreferrer">Source ↗</a>}
+            <p>{t(estimate.note)} · {estimate.topologyHypothesisId} · {t(estimate.locator?.figure ?? estimate.locator?.table ?? estimate.locator?.pages ?? '')}</p>
+            {reference && <a href={reference.url} target="_blank" rel="noreferrer">{t('Source ↗')}</a>}
           </article>
         )
       })}
-      <aside><strong>Do not merge unlike clocks silently.</strong><span>These are study-specific node estimates with different datasets and methods. The atlas preserves them as an evidence ledger rather than forcing them into the occurrence-derived whole-life tree.</span></aside>
+      <aside><strong>{t('Do not merge unlike clocks silently.')}</strong><span>{t('These are study-specific node estimates with different datasets and methods. The atlas preserves them as an evidence ledger rather than forcing them into the occurrence-derived whole-life tree.')}</span></aside>
     </div>
   )
 }
 
 function MissingEntry({ kind, onNavigate }: { kind: string; onNavigate: CatalogPageProps['onNavigate'] }) {
+  const { t } = useI18n()
   return (
     <main className="catalog-page catalog-missing">
-      <span className="section-label">Catalog / not found</span>
-      <h1>No {kind} selected.</h1>
-      <p>Use global search to open a stable catalog entry.</p>
-      <button className="button button--primary" onClick={() => onNavigate('home')}>Return to atlas</button>
+      <span className="section-label">{t('Catalog / not found')}</span>
+      <h1>{t('No {kind} selected.', { kind: t(kind) })}</h1>
+      <p>{t('Use global search to open a stable catalog entry.')}</p>
+      <button className="button button--primary" onClick={() => onNavigate('home')}>{t('Return to atlas')}</button>
     </main>
   )
 }
 
 export function TaxonPage({ id, onNavigate }: CatalogPageProps) {
+  const { language, number, t } = useI18n()
   const profile = getTaxonProfile(id)
   const loadOccurrences = useAppStore((state) => state.loadOccurrencesForTaxon)
   const occurrences = useAppStore((state) => (
@@ -145,101 +152,101 @@ export function TaxonPage({ id, onNavigate }: CatalogPageProps) {
     <main className="catalog-page taxon-page">
       <header className="catalog-hero">
         <div className="catalog-hero__meta">
-          <span>Taxon / {profile.rank}</span>
+          <span>{t('Taxon / {rank}', { rank: t(profile.rank) })}</span>
           <ConfidenceBadge level={profile.confidence} />
         </div>
         <div className="catalog-hero__title">
           <div>
-            <span className="catalog-zh">{profile.commonNameZh}</span>
+            <span className="catalog-zh">{language === 'zh' ? profile.commonNameZh : profile.commonName}</span>
             <h1><em>{profile.scientificName}</em></h1>
-            <p>{profile.commonName} · {profile.parentName}</p>
+            <p>{t(profile.rank)} · <em>{profile.parentName}</em></p>
           </div>
           <div className="catalog-age-seal">
-            <strong>{formatAge(profile.firstAppearance)}</strong>
-            <span>to</span>
-            <strong>{formatAge(profile.lastAppearance)}</strong>
+            <strong>{formatAge(profile.firstAppearance, t('Present'))}</strong>
+            <span>{t('to')}</span>
+            <strong>{formatAge(profile.lastAppearance, t('Present'))}</strong>
           </div>
         </div>
-        <p className="catalog-dek">{profile.overview}</p>
+        <p className="catalog-dek">{t(profile.overview)}</p>
         <div className="catalog-actions">
           <button className="button button--primary" onClick={() => onNavigate('explore', {
             age: midpoint.toFixed(1),
             view: 'map',
             ...(profile.treeNodeId ? { taxon: profile.treeNodeId } : {}),
-          })}>Open in explorer</button>
-          <button className="button button--ghost" onClick={() => onNavigate('compare', { left: profile.id })}>Compare taxon</button>
+          })}>{t('Open in explorer')}</button>
+          <button className="button button--ghost" onClick={() => onNavigate('compare', { left: profile.id })}>{t('Compare taxon')}</button>
         </div>
       </header>
 
       <section className="catalog-facts">
-        <div><span>Status</span><strong className={profile.extinct ? 'is-extinct' : 'is-extant'}>{profile.extinct ? 'Extinct †' : 'Extant'}</strong></div>
-        <div><span>Bundled occurrences · represented descendants</span><strong>{taxonStatus === 'loading' || taxonStatus === 'idle' ? 'Loading…' : taxonStatus === 'error' ? 'Error' : (occurrences?.length ?? 0).toLocaleString()}</strong></div>
-        <div><span>PBDB identifier</span><strong>{profile.pbdbTaxonId ?? 'Not linked'}</strong></div>
-        <div><span>Query completeness</span><strong>{taxonQuery?.truncated ? 'Truncated' : taxonStatus === 'ready' || taxonStatus === 'empty' ? 'No UI truncation' : 'Pending'}</strong></div>
+        <div><span>{t('Status')}</span><strong className={profile.extinct ? 'is-extinct' : 'is-extant'}>{t(profile.extinct ? 'Extinct †' : 'Extant')}</strong></div>
+        <div><span>{t('Bundled occurrences · represented descendants')}</span><strong>{taxonStatus === 'loading' || taxonStatus === 'idle' ? t('Loading…') : taxonStatus === 'error' ? t('Error') : number(occurrences?.length ?? 0)}</strong></div>
+        <div><span>{t('PBDB identifier')}</span><strong>{profile.pbdbTaxonId ?? t('Not linked')}</strong></div>
+        <div><span>{t('Query completeness')}</span><strong>{t(taxonQuery?.truncated ? 'Truncated' : taxonStatus === 'ready' || taxonStatus === 'empty' ? 'No UI truncation' : 'Pending')}</strong></div>
       </section>
-      {taxonStatus === 'empty' && <p className="catalog-query-state">No matching row occurs in the bounded local sample; this is not evidence of biological absence.</p>}
-      {taxonStatus === 'error' && <p className="catalog-query-state catalog-query-state--error">Local taxon query failed: {taxonError}</p>}
-      {taxonQuery && <p className="catalog-query-state">Loaded {taxonQuery.rowsLoaded.toLocaleString()} rows from {taxonQuery.loadedPeriods.length} relevant period chunk(s). Scope: represented descendants. Source: {taxonQuery.samplingMethod}.</p>}
+      {taxonStatus === 'empty' && <p className="catalog-query-state">{t('No matching row occurs in the bounded local sample; this is not evidence of biological absence.')}</p>}
+      {taxonStatus === 'error' && <p className="catalog-query-state catalog-query-state--error">{t('Local taxon query failed: {error}', { error: taxonError ?? t('Unknown') })}</p>}
+      {taxonQuery && <p className="catalog-query-state">{t('Loaded {rows} rows from {periods} relevant period chunk(s). Scope: represented descendants. Source: {method}.', { rows: number(taxonQuery.rowsLoaded), periods: taxonQuery.loadedPeriods.length, method: t(taxonQuery.samplingMethod) })}</p>}
 
       <div className="catalog-body">
         <aside className="catalog-toc">
-          <span>On this page</span>
-          <button type="button" onClick={() => scrollToSection('evolution')}>Evolution</button>
-          <button type="button" onClick={() => scrollToSection('ecology')}>Ecology</button>
-          <button type="button" onClick={() => scrollToSection('traits')}>Diagnostic context</button>
-          <button type="button" onClick={() => scrollToSection('evidence')}>Evidence</button>
-          <button type="button" onClick={() => scrollToSection('media')}>Media</button>
-          <button type="button" onClick={() => scrollToSection('references')}>References</button>
+          <span>{t('On this page')}</span>
+          <button type="button" onClick={() => scrollToSection('evolution')}>{t('Evolution')}</button>
+          <button type="button" onClick={() => scrollToSection('ecology')}>{t('Ecology')}</button>
+          <button type="button" onClick={() => scrollToSection('traits')}>{t('Diagnostic context')}</button>
+          <button type="button" onClick={() => scrollToSection('evidence')}>{t('Evidence')}</button>
+          <button type="button" onClick={() => scrollToSection('media')}>{t('Media')}</button>
+          <button type="button" onClick={() => scrollToSection('references')}>{t('References')}</button>
         </aside>
 
         <div className="catalog-content">
           <section id="evolution" className="catalog-section">
-            <span className="section-label">01 / Evolution</span>
-            <h2>Time-calibrated evidence, kept separate from fossil ranges</h2>
+            <span className="section-label">{t('01 / Evolution')}</span>
+            <h2>{t('Time-calibrated evidence, kept separate from fossil ranges')}</h2>
             <DivergenceLedger profileId={profile.id} />
           </section>
 
           <section id="ecology" className="catalog-section">
-            <span className="section-label">02 / Ecology</span>
-            <h2>Reconstructed way of life</h2>
+            <span className="section-label">{t('02 / Ecology')}</span>
+            <h2>{t('Reconstructed way of life')}</h2>
             <div className="ecology-grid">
               {Object.entries(profile.ecology).map(([key, value]) => (
-                <article key={key}><span>{key.replace(/([A-Z])/g, ' $1')}</span><strong>{value}</strong></article>
+                <article key={key}><span>{t(key.replace(/([A-Z])/g, ' $1'))}</span><strong>{t(value)}</strong></article>
               ))}
             </div>
-            <div className="region-line"><span>Occurrences and inferred range</span><p>{profile.geography.join(' · ')}</p></div>
+            <div className="region-line"><span>{t('Occurrences and inferred range')}</span><p>{profile.geography.map((item) => t(item)).join(' · ')}</p></div>
           </section>
 
           <section id="traits" className="catalog-section">
-            <span className="section-label">03 / Morphology</span>
-            <h2>Diagnostic context</h2>
+            <span className="section-label">{t('03 / Morphology')}</span>
+            <h2>{t('Diagnostic context')}</h2>
             <div className="trait-list">
-              {profile.traits.map((trait, index) => <div key={trait}><span>{String(index + 1).padStart(2, '0')}</span><strong>{trait}</strong></div>)}
+              {profile.traits.map((trait, index) => <div key={trait}><span>{String(index + 1).padStart(2, '0')}</span><strong>{t(trait)}</strong></div>)}
             </div>
           </section>
 
           <section id="evidence" className="catalog-section evidence-callout">
-            <span className="section-label">04 / Evidence quality</span>
-            <h2>What supports this reconstruction?</h2>
-            <p>{profile.evidenceSummary}</p>
+            <span className="section-label">{t('04 / Evidence quality')}</span>
+            <h2>{t('What supports this reconstruction?')}</h2>
+            <p>{t(profile.evidenceSummary)}</p>
             <ClaimLedger claims={claims} />
             <div className="evidence-note">
-              <strong>Interpretive boundary</strong>
-              <span>Age ranges summarize current catalog evidence and are not exact origination or extinction instants.</span>
+              <strong>{t('Interpretive boundary')}</strong>
+              <span>{t('Age ranges summarize current catalog evidence and are not exact origination or extinction instants.')}</span>
             </div>
           </section>
 
           <section id="media" className="catalog-section">
-            <span className="section-label">05 / Museum media</span>
-            <h2>Specimens and reconstructions at their source</h2>
+            <span className="section-label">{t('05 / Museum media')}</span>
+            <h2>{t('Specimens and reconstructions at their source')}</h2>
             <div className="media-ledger">
-              {media.map((asset) => <a key={asset.id} href={asset.sourceUrl} target="_blank" rel="noreferrer"><span>{asset.type.replace('-', ' ')}</span><strong>{asset.title}</strong><small>{asset.sourceName}</small><p>{asset.licenseNote}</p><i>↗</i></a>)}
+              {media.map((asset) => <a key={asset.id} href={asset.sourceUrl} target="_blank" rel="noreferrer"><span>{t(asset.type.replace('-', ' '))}</span><strong>{t(asset.title)}</strong><small>{asset.sourceName}</small><p>{t(asset.licenseNote)}</p><i>↗</i></a>)}
             </div>
           </section>
 
           <section id="references" className="catalog-section">
-            <span className="section-label">06 / Sources</span>
-            <h2>Reference ledger</h2>
+            <span className="section-label">{t('06 / Sources')}</span>
+            <h2>{t('Reference ledger')}</h2>
             <ReferenceList records={references} />
           </section>
         </div>
@@ -249,20 +256,21 @@ export function TaxonPage({ id, onNavigate }: CatalogPageProps) {
 }
 
 function TaxonDirectory({ onNavigate }: { onNavigate: CatalogPageProps['onNavigate'] }) {
+  const { language, t } = useI18n()
   return (
     <main className="catalog-page directory-page">
       <header className="directory-hero">
-        <span className="section-label">Taxon catalog</span>
-        <h1>Curated branches with evidence.</h1>
-        <p>Milestone two begins with ten richly annotated perissodactyl exemplars; the tree remains searchable at broader scale.</p>
+        <span className="section-label">{t('Taxon catalog')}</span>
+        <h1>{t('Curated branches with evidence.')}</h1>
+        <p>{t('Milestone two begins with ten richly annotated perissodactyl exemplars; the tree remains searchable at broader scale.')}</p>
       </header>
       <div className="directory-grid">
         {taxonProfiles.map((profile) => (
           <button key={profile.id} onClick={() => onNavigate('taxa', { id: profile.id })}>
-            <span>{profile.commonNameZh}</span>
+            <span>{language === 'zh' ? profile.commonNameZh : profile.commonName}</span>
             <h2><em>{profile.scientificName}</em></h2>
-            <p>{profile.overview}</p>
-            <small>{profile.rank} · {formatAge(profile.firstAppearance)}—{formatAge(profile.lastAppearance)}</small>
+            <p>{t(profile.overview)}</p>
+            <small>{t(profile.rank)} · {formatAge(profile.firstAppearance, t('Present'))}—{formatAge(profile.lastAppearance, t('Present'))}</small>
           </button>
         ))}
       </div>
@@ -271,6 +279,7 @@ function TaxonDirectory({ onNavigate }: { onNavigate: CatalogPageProps['onNaviga
 }
 
 export function EventPage({ id, onNavigate }: CatalogPageProps) {
+  const { language, t } = useI18n()
   const event = getEvolutionEvent(id)
   if (!event) return <EventDirectory onNavigate={onNavigate} />
   const midpoint = (event.startAge + event.endAge) / 2
@@ -281,13 +290,12 @@ export function EventPage({ id, onNavigate }: CatalogPageProps) {
     <main className="catalog-page event-page">
       <header className="catalog-hero event-hero">
         <div className="catalog-hero__meta">
-          <span>Event / {event.category}</span>
+          <span>{t('Event / {category}', { category: t(event.category) })}</span>
           <ConfidenceBadge level={event.confidence} />
         </div>
-        <span className="catalog-zh">{event.titleZh}</span>
-        <h1>{event.title}</h1>
-        <div className="event-range"><strong>{formatAge(event.startAge)}</strong><span>→</span><strong>{formatAge(event.endAge)}</strong></div>
-        <p className="catalog-dek">{event.summary}</p>
+        <h1>{language === 'zh' ? event.titleZh : event.title}</h1>
+        <div className="event-range"><strong>{formatAge(event.startAge, t('Present'))}</strong><span>→</span><strong>{formatAge(event.endAge, t('Present'))}</strong></div>
+        <p className="catalog-dek">{t(event.summary)}</p>
         <div className="catalog-actions">
           <button className="button button--primary" onClick={() => onNavigate('explore', {
             age: midpoint.toFixed(2),
@@ -295,37 +303,37 @@ export function EventPage({ id, onNavigate }: CatalogPageProps) {
             younger: event.endAge.toFixed(2),
             view: 'map',
             event: event.id,
-          })}>Open time state</button>
-          <button className="button button--ghost" onClick={() => onNavigate('compare', { event: event.id })}>Compare windows</button>
+          })}>{t('Open time state')}</button>
+          <button className="button button--ghost" onClick={() => onNavigate('compare', { event: event.id })}>{t('Compare windows')}</button>
         </div>
       </header>
 
       <section className="event-context-grid">
-        <article><span>Regions</span><p>{event.regions.join(' · ')}</p></article>
-        <article><span>Affected branches</span><p>{event.clades.join(' · ')}</p></article>
+        <article><span>{t('Regions')}</span><p>{event.regions.map((item) => t(item)).join(' · ')}</p></article>
+        <article><span>{t('Affected branches')}</span><p>{event.clades.map((item) => t(item)).join(' · ')}</p></article>
       </section>
 
       <div className="catalog-body catalog-body--wide">
         <div className="catalog-content">
           <section className="catalog-section">
-            <span className="section-label">01 / Observations</span>
-            <h2>Evidence in the record</h2>
+            <span className="section-label">{t('01 / Observations')}</span>
+            <h2>{t('Evidence in the record')}</h2>
             <div className="statement-grid">
-              {event.evidence.map((item, index) => <article key={item}><span>{index + 1}</span><p>{item}</p></article>)}
+              {event.evidence.map((item, index) => <article key={item}><span>{index + 1}</span><p>{t(item)}</p></article>)}
             </div>
-            <h2>Claim-level source links</h2>
+            <h2>{t('Claim-level source links')}</h2>
             <ClaimLedger claims={claims} />
           </section>
           <section className="catalog-section">
-            <span className="section-label">02 / Uncertainty</span>
-            <h2>What remains unresolved</h2>
+            <span className="section-label">{t('02 / Uncertainty')}</span>
+            <h2>{t('What remains unresolved')}</h2>
             <div className="uncertainty-list">
-              {event.uncertainties.map((item) => <p key={item}>{item}</p>)}
+              {event.uncertainties.map((item) => <p key={item}>{t(item)}</p>)}
             </div>
           </section>
           <section className="catalog-section">
-            <span className="section-label">03 / Sources</span>
-            <h2>Reference ledger</h2>
+            <span className="section-label">{t('03 / Sources')}</span>
+            <h2>{t('Reference ledger')}</h2>
             <ReferenceList records={references} />
           </section>
         </div>
@@ -335,19 +343,20 @@ export function EventPage({ id, onNavigate }: CatalogPageProps) {
 }
 
 function EventDirectory({ onNavigate }: { onNavigate: CatalogPageProps['onNavigate'] }) {
+  const { language, t } = useI18n()
   return (
     <main className="catalog-page directory-page">
       <header className="directory-hero">
-        <span className="section-label">Event catalog / 4.567 Ga—Present</span>
-        <h1>Turning points in Earth and life.</h1>
-        <p>Events are bounded evidence objects: each separates observations, interpretation and unresolved questions.</p>
+        <span className="section-label">{t('Event catalog / 4.567 Ga—Present')}</span>
+        <h1>{t('Turning points in Earth and life.')}</h1>
+        <p>{t('Events are bounded evidence objects: each separates observations, interpretation and unresolved questions.')}</p>
       </header>
       <div className="event-directory">
         {evolutionEvents.map((event, index) => (
           <button key={event.id} onClick={() => onNavigate('events', { id: event.id })}>
             <span className="event-directory__index">{String(index + 1).padStart(2, '0')}</span>
-            <div><small>{event.category}</small><h2>{event.titleZh}</h2><p>{event.title}</p></div>
-            <strong>{formatAge(event.startAge)}</strong>
+            <div><small>{t(event.category)}</small><h2>{language === 'zh' ? event.titleZh : event.title}</h2><p>{t(event.summary)}</p></div>
+            <strong>{formatAge(event.startAge, t('Present'))}</strong>
             <i>→</i>
           </button>
         ))}
@@ -357,17 +366,17 @@ function EventDirectory({ onNavigate }: { onNavigate: CatalogPageProps['onNaviga
 }
 
 export function StoriesPage({ id, onNavigate }: CatalogPageProps) {
+  const { language, t } = useI18n()
   const story = getEvolutionStory(id)
   if (!story) return <StoryDirectory onNavigate={onNavigate} />
 
   return (
     <main className={`catalog-page story-reader story-reader--${story.theme}`}>
       <header className="story-reader__hero">
-        <button className="story-back" onClick={() => onNavigate('stories')}>← All stories</button>
-        <span className="section-label">Field story / {story.durationMinutes} min</span>
-        <span className="catalog-zh">{story.titleZh}</span>
-        <h1>{story.title}</h1>
-        <p>{story.dek}</p>
+        <button className="story-back" onClick={() => onNavigate('stories')}>← {t('All stories')}</button>
+        <span className="section-label">{t('Field story / {minutes} min', { minutes: story.durationMinutes })}</span>
+        <h1>{language === 'zh' ? story.titleZh : story.title}</h1>
+        <p>{t(story.dek)}</p>
       </header>
 
       <div className="story-sequence">
@@ -378,10 +387,10 @@ export function StoriesPage({ id, onNavigate }: CatalogPageProps) {
               <i />
             </div>
             <div className="story-step__content">
-              <small>{formatAge(step.age)} · {step.view}</small>
-              <h2>{step.title}</h2>
-              <p>{step.text}</p>
-              {step.annotation && <blockquote>{step.annotation}</blockquote>}
+              <small>{formatAge(step.age, t('Present'))} · {t(step.view)}</small>
+              <h2>{t(step.title)}</h2>
+              <p>{t(step.text)}</p>
+              {step.annotation && <blockquote>{t(step.annotation)}</blockquote>}
               <button onClick={() => onNavigate('explore', {
                 age: step.age.toFixed(2),
                 older: step.timeRange[0].toFixed(2),
@@ -391,12 +400,12 @@ export function StoriesPage({ id, onNavigate }: CatalogPageProps) {
                 ...(step.eventId ? { event: step.eventId } : {}),
                 story: story.id,
                 step: step.id,
-              })}>Open this state in Explorer <span>↗</span></button>
+              })}>{t('Open this state in Explorer')} <span>↗</span></button>
             </div>
             <aside className="story-step__meta">
-              <span>Window</span>
-              <strong>{formatAge(step.timeRange[0])}<br />{formatAge(step.timeRange[1])}</strong>
-              <span>References</span>
+              <span>{t('Window')}</span>
+              <strong>{formatAge(step.timeRange[0], t('Present'))}<br />{formatAge(step.timeRange[1], t('Present'))}</strong>
+              <span>{t('References')}</span>
               <strong>{step.referenceIds.length}</strong>
             </aside>
           </article>
@@ -407,19 +416,20 @@ export function StoriesPage({ id, onNavigate }: CatalogPageProps) {
 }
 
 function StoryDirectory({ onNavigate }: { onNavigate: CatalogPageProps['onNavigate'] }) {
+  const { language, t } = useI18n()
   return (
     <main className="catalog-page directory-page story-directory-page">
       <header className="directory-hero">
-        <span className="section-label">Field stories / reproducible states</span>
-        <h1>Follow an argument through deep time.</h1>
-        <p>Every chapter is a real Explorer state with a time window, primary view, highlighted evidence and reference set.</p>
+        <span className="section-label">{t('Field stories / reproducible states')}</span>
+        <h1>{t('Follow an argument through deep time.')}</h1>
+        <p>{t('Every chapter is a real Explorer state with a time window, primary view, highlighted evidence and reference set.')}</p>
       </header>
       <div className="story-directory">
         {evolutionStories.map((story, index) => (
           <button key={story.id} className={`story-directory__card story-directory__card--${story.theme}`} onClick={() => onNavigate('stories', { id: story.id })}>
-            <div className="story-directory__top"><span>{String(index + 1).padStart(2, '0')}</span><small>{story.durationMinutes} min</small></div>
-            <div><span className="story-directory__zh">{story.titleZh}</span><h2>{story.title}</h2><p>{story.dek}</p></div>
-            <footer><span>{story.steps.length} explorer states</span><i>→</i></footer>
+            <div className="story-directory__top"><span>{String(index + 1).padStart(2, '0')}</span><small>{story.durationMinutes} {language === 'zh' ? '分钟' : 'min'}</small></div>
+            <div><h2>{language === 'zh' ? story.titleZh : story.title}</h2><p>{t(story.dek)}</p></div>
+            <footer><span>{t('{count} explorer states', { count: story.steps.length })}</span><i>→</i></footer>
           </button>
         ))}
       </div>

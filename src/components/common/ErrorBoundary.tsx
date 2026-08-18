@@ -24,7 +24,7 @@ export class ErrorBoundary extends Component<Props, State> {
           flexDirection: 'column', gap: 8, padding: 24,
           color: 'var(--color-danger)', fontSize: 13,
         }}>
-          <div>Something went wrong</div>
+          <div>{document.documentElement.lang.startsWith('zh') ? '出现错误' : 'Something went wrong'}</div>
           <div style={{ fontSize: 11, color: 'var(--color-text-muted)', maxWidth: 400, textAlign: 'center' }}>
             {this.state.error.message}
           </div>

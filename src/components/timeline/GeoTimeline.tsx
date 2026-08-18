@@ -4,6 +4,7 @@ import { EARTH_HISTORY_TOTAL_MA, ERA_COLORS, PHANEROZOIC_TOTAL_MA } from '../../
 import eventsData from '../../../data/events.json'
 import type { GeoInterval } from '../../types'
 import { periods, timeScaleUnits } from '../../services/geology'
+import { useI18n } from '../../i18n'
 
 const TIMELINE_HEIGHT = 100
 const PADDING_X = 8
@@ -12,6 +13,7 @@ const ERA_TRACK_HEIGHT = 20
 const PERIOD_TRACK_HEIGHT = 28
 
 export function GeoTimeline() {
+  const { language, t } = useI18n()
   const currentAge = useAppStore((s) => s.currentAge)
   const currentPeriod = useAppStore((s) => s.currentPeriod)
   const currentEon = useAppStore((s) => s.currentEon)
@@ -122,18 +124,18 @@ export function GeoTimeline() {
   return (
     <div style={{ height: '100%', width: '100%', position: 'relative', userSelect: 'none' }}>
       <div className="timeline-controls" onPointerDown={(event) => event.stopPropagation()}>
-        <button onClick={() => setPlaying((value) => !value)} aria-label={playing ? 'Pause geological time playback' : 'Play toward the present'}>{playing ? 'Ⅱ' : '▶'}</button>
+        <button onClick={() => setPlaying((value) => !value)} aria-label={t(playing ? 'Pause geological time playback' : 'Play toward the present')}>{playing ? 'Ⅱ' : '▶'}</button>
         <label><span>Ma</span><input type="number" min="0" max={EARTH_HISTORY_TOTAL_MA} step="0.1" value={Number(currentAge.toFixed(1))} onChange={(event) => setTime(Number(event.target.value))} /></label>
-        <label><span>speed</span><select value={speed} onChange={(event) => setSpeed(Number(event.target.value))}><option value={1}>1 Ma/s</option><option value={10}>10 Ma/s</option><option value={50}>50 Ma/s</option><option value={200}>200 Ma/s</option></select></label>
-        <label className="timeline-event-jump"><span>event</span><select value="" onChange={(event) => {
+        <label><span>{t('speed')}</span><select value={speed} onChange={(event) => setSpeed(Number(event.target.value))}><option value={1}>1 Ma/s</option><option value={10}>10 Ma/s</option><option value={50}>50 Ma/s</option><option value={200}>200 Ma/s</option></select></label>
+        <label className="timeline-event-jump"><span>{t('event')}</span><select value="" onChange={(event) => {
           const selected = eventsData.find((item) => item.id === event.target.value)
           if (!selected) return
           const age = (selected.startAge + selected.endAge) / 2
           setTime(age)
           if (age > PHANEROZOIC_TOTAL_MA) setScaleMode('earth')
-        }}><option value="">Jump to…</option>{eventsData.map((event) => <option value={event.id} key={event.id}>{event.titleZh}</option>)}</select></label>
+        }}><option value="">{t('Jump to…')}</option>{eventsData.map((event) => <option value={event.id} key={event.id}>{language === 'zh' ? event.titleZh : event.title}</option>)}</select></label>
       </div>
-      <div className="timeline-scale-switch" role="group" aria-label="Timeline scale">
+      <div className="timeline-scale-switch" role="group" aria-label={t('Timeline scale')}>
         <button className={scaleMode === 'earth' ? 'is-active' : ''} onClick={() => setScaleMode('earth')}>4.567 Ga</button>
         <button className={scaleMode === 'phanerozoic' ? 'is-active' : ''} onClick={() => setScaleMode('phanerozoic')}>538.8 Ma</button>
       </div>
@@ -142,7 +144,7 @@ export function GeoTimeline() {
         style={{ width: '100%', height: '100%', cursor: dragging ? 'ew-resize' : 'default' }}
         onPointerDown={handleTrackClick}
       >
-        <title>Geological time control. Current context: {currentPeriod ?? currentEon ?? 'Deep time'}.</title>
+        <title>{t('Geological time control. Current context: {context}.', { context: t(currentPeriod ?? currentEon ?? 'Deep time') })}</title>
         <rect x={0} y={0} width="100%" height="100%" fill="transparent" />
         {scaleMode === 'earth' && eons.map((eon) => {
           const left = ageToX(eon.eag, width)
@@ -169,7 +171,7 @@ export function GeoTimeline() {
                   fontSize={10}
                   fontFamily="var(--font-sans)"
                 >
-                  {eon.nam}
+                  {t(eon.nam)}
                 </text>
               )}
             </g>

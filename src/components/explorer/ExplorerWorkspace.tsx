@@ -9,6 +9,7 @@ import { getEvolutionEvent, getEvolutionStory, getTaxonProfile } from '../../ser
 import { periods } from '../../services/geology'
 import { buildRouteHash, getFiniteRouteNumber, parseRouteHash } from '../../utils/routing'
 import { MAX_MAP_ZOOM, MIN_MAP_ZOOM } from '../../constants'
+import { useI18n } from '../../i18n'
 import { GeoTimeline } from '../timeline/GeoTimeline'
 import { SpeciesDetail } from '../details/SpeciesDetail'
 import { ErrorBoundary } from '../common/ErrorBoundary'
@@ -43,14 +44,17 @@ function flattenTree(node: TreeNode, output: FlatNode[] = []): FlatNode[] {
 }
 
 function ViewFallback({ label }: { label: string }) {
-  return <div className="explorer-fallback">{label} could not be rendered.</div>
+  const { t } = useI18n()
+  return <div className="explorer-fallback">{t('{label} could not be rendered.', { label: t(label) })}</div>
 }
 
 function ModuleLoading() {
-  return <div className="explorer-module-loading">Loading view…</div>
+  const { t } = useI18n()
+  return <div className="explorer-module-loading">{t('Loading view…')}</div>
 }
 
 export function ExplorerWorkspace() {
+  const { language, number, t } = useI18n()
   const [initialRoute] = useState(() => parseRouteHash(window.location.hash))
   const routeView = initialRoute.params.get('view')
   const initialView: ExplorerView = routeView === 'tree' || routeView === 'diversity' ? routeView : 'map'
@@ -65,7 +69,7 @@ export function ExplorerWorkspace() {
   const [view, setView] = useState<ExplorerView>(initialView)
   const [mobilePanel, setMobilePanel] = useState<'navigator' | 'inspector' | null>(null)
   const [query, setQuery] = useState('')
-  const [shareLabel, setShareLabel] = useState('Share state')
+  const [shareStatus, setShareStatus] = useState<'idle' | 'copied' | 'ready'>('idle')
 
   const currentAge = useAppStore((state) => state.currentAge)
   const currentPeriod = useAppStore((state) => state.currentPeriod)
@@ -108,8 +112,10 @@ export function ExplorerWorkspace() {
     return nodes.filter((node) => (
       node.name.toLowerCase().includes(needle)
       || node.commonName?.toLowerCase().includes(needle)
+      || t(node.commonName ?? node.name).toLowerCase().includes(needle)
+      || getTaxonProfile(node.id)?.commonNameZh.includes(needle)
     )).slice(0, 8)
-  }, [nodes, query])
+  }, [nodes, query, t])
 
   useEffect(() => {
     const params = initialRoute.params
@@ -208,23 +214,23 @@ export function ExplorerWorkspace() {
   const shareState = async () => {
     try {
       await navigator.clipboard.writeText(window.location.href)
-      setShareLabel('Link copied')
+      setShareStatus('copied')
     } catch {
-      setShareLabel('URL is ready')
+      setShareStatus('ready')
     }
-    window.setTimeout(() => setShareLabel('Share state'), 1600)
+    window.setTimeout(() => setShareStatus('idle'), 1600)
   }
 
   const selectedPeriod = periods.find((period) => period.name === currentPeriod)
 
   return (
     <main className="explorer-workspace">
-      <aside className={`explorer-nav${mobilePanel === 'navigator' ? ' is-open' : ''}`} aria-label="Taxon and time navigator">
+      <aside className={`explorer-nav${mobilePanel === 'navigator' ? ' is-open' : ''}`} aria-label={t('Taxon and time navigator')}>
         <div className="panel-heading">
-          <span>Taxon navigator</span>
+          <span>{t('Taxon navigator')}</span>
           <div className="panel-heading-actions">
-            <small>{manifest.records.treeNodes} nodes</small>
-            <button className="mobile-panel-close" aria-label="Close taxon panel" onClick={() => setMobilePanel(null)}>×</button>
+            <small>{t('{count} nodes', { count: number(manifest.records.treeNodes) })}</small>
+            <button className="mobile-panel-close" aria-label={t('Close taxon panel')} onClick={() => setMobilePanel(null)}>×</button>
           </div>
         </div>
 
@@ -233,21 +239,21 @@ export function ExplorerWorkspace() {
           <input
             value={query}
             onChange={(event) => setQuery(event.target.value)}
-            placeholder="Search the tree…"
-            aria-label="Search taxa"
+            placeholder={t('Search the tree…')}
+            aria-label={t('Search taxa')}
           />
         </label>
 
         {(storyContext || eventContext || profileContext) && (
           <div className="explorer-context-card">
-            <span>{storyContext ? 'Story state' : eventContext ? 'Event context' : 'Taxon context'}</span>
-            <strong>{storyStep?.title ?? eventContext?.titleZh ?? profileContext?.commonNameZh}</strong>
-            <small>{storyContext?.titleZh ?? eventContext?.title ?? profileContext?.scientificName}</small>
+            <span>{t(storyContext ? 'Story state' : eventContext ? 'Event context' : 'Taxon context')}</span>
+            <strong>{storyStep ? t(storyStep.title) : eventContext ? (language === 'zh' ? eventContext.titleZh : eventContext.title) : profileContext ? (language === 'zh' ? profileContext.commonNameZh : profileContext.commonName) : ''}</strong>
+            <small>{storyContext ? (language === 'zh' ? storyContext.titleZh : storyContext.title) : eventContext ? (language === 'zh' ? eventContext.titleZh : eventContext.title) : profileContext?.scientificName}</small>
           </div>
         )}
 
         <div className="navigator-section">
-          <span className="navigator-label">{query ? 'Matches' : 'Quick access'}</span>
+          <span className="navigator-label">{t(query ? 'Matches' : 'Quick access')}</span>
           <div className="taxon-results">
             {searchResults.map((node) => (
               <button
@@ -257,7 +263,7 @@ export function ExplorerWorkspace() {
               >
                 <span className="taxon-node-dot" />
                 <span>
-                  <strong>{node.commonName ?? node.name}</strong>
+                  <strong>{language === 'zh' ? (getTaxonProfile(node.id)?.commonNameZh ?? t(node.commonName ?? node.name)) : (node.commonName ?? node.name)}</strong>
                   <small>{node.name}</small>
                 </span>
                 <i>→</i>
@@ -267,40 +273,40 @@ export function ExplorerWorkspace() {
         </div>
 
         <div className="navigator-section navigator-section--time">
-          <span className="navigator-label">Current context</span>
+          <span className="navigator-label">{t('Current context')}</span>
           <div className="time-readout">
             <strong>{currentAge.toFixed(1)}</strong>
             <span>Ma</span>
           </div>
-          <p>{currentEon ?? 'Earth history'} / {currentEra ?? currentPeriod ?? 'Unsubdivided'}</p>
-          {selectedPeriod && <small>{selectedPeriod.description}</small>}
+          <p>{t(currentEon ?? 'Earth history')} / {t(currentEra ?? currentPeriod ?? 'Unsubdivided')}</p>
+          {selectedPeriod && <small>{t(selectedPeriod.description)}</small>}
         </div>
 
         <button className="share-button" onClick={shareState}>
-          <span>↗</span> {shareLabel}
+          <span>↗</span> {t(shareStatus === 'copied' ? 'Link copied' : shareStatus === 'ready' ? 'URL is ready' : 'Share state')}
         </button>
       </aside>
 
-      {mobilePanel && <button className="explorer-panel-backdrop" aria-label="Close Explorer panel" onClick={() => setMobilePanel(null)} />}
+      {mobilePanel && <button className="explorer-panel-backdrop" aria-label={t('Close Explorer panel')} onClick={() => setMobilePanel(null)} />}
 
       <section className="explorer-stage">
         <div className="stage-toolbar">
           <div>
-            <span className="stage-eyebrow">Primary view</span>
-            <strong>{view === 'map' ? 'Paleogeographic distribution' : view === 'tree' ? 'Tree of life' : 'Sampling & diversity'}</strong>
+            <span className="stage-eyebrow">{t('Primary view')}</span>
+            <strong>{t(view === 'map' ? 'Paleogeographic distribution' : view === 'tree' ? 'Tree of life' : 'Sampling & diversity')}</strong>
           </div>
-          <div className="view-switcher" role="group" aria-label="Primary view">
-            <button className={view === 'map' ? 'is-active' : ''} onClick={() => setView('map')}>Map</button>
-            <button className={view === 'tree' ? 'is-active' : ''} onClick={() => setView('tree')}>Tree</button>
-            <button className={view === 'diversity' ? 'is-active' : ''} onClick={() => setView('diversity')}>Diversity</button>
+          <div className="view-switcher" role="group" aria-label={t('Primary view')}>
+            <button className={view === 'map' ? 'is-active' : ''} onClick={() => setView('map')}>{t('Map')}</button>
+            <button className={view === 'tree' ? 'is-active' : ''} onClick={() => setView('tree')}>{t('Tree')}</button>
+            <button className={view === 'diversity' ? 'is-active' : ''} onClick={() => setView('diversity')}>{t('Diversity')}</button>
           </div>
-          <div className="mobile-panel-switcher" role="group" aria-label="Explorer side panels">
-            <button aria-expanded={mobilePanel === 'navigator'} onClick={() => setMobilePanel((panel) => panel === 'navigator' ? null : 'navigator')}>Taxa & time</button>
-            <button aria-expanded={mobilePanel === 'inspector'} onClick={() => setMobilePanel((panel) => panel === 'inspector' ? null : 'inspector')}>Evidence</button>
+          <div className="mobile-panel-switcher" role="group" aria-label={t('Explorer side panels')}>
+            <button aria-expanded={mobilePanel === 'navigator'} onClick={() => setMobilePanel((panel) => panel === 'navigator' ? null : 'navigator')}>{t('Taxa & time')}</button>
+            <button aria-expanded={mobilePanel === 'inspector'} onClick={() => setMobilePanel((panel) => panel === 'inspector' ? null : 'inspector')}>{t('Evidence')}</button>
           </div>
           <div className="stage-metric">
-            <strong>{(periodOccurrences?.length ?? 0).toLocaleString()}</strong>
-            <span>visible records</span>
+            <strong>{number(periodOccurrences?.length ?? 0)}</strong>
+            <span>{t('visible records')}</span>
           </div>
         </div>
 
@@ -320,32 +326,32 @@ export function ExplorerWorkspace() {
           <span className="status-dot" />
           {view === 'map'
             ? eventContext
-              ? `${eventContext.title} · event window ${eventContext.startAge}–${eventContext.endAge} Ma`
+              ? t('{event} · event window {start}–{end} Ma', { event: language === 'zh' ? eventContext.titleZh : eventContext.title, start: eventContext.startAge, end: eventContext.endAge })
               : context.older !== null && context.younger !== null
-                ? `Shared time window ${context.older}–${context.younger} Ma · map shown at ${currentAge.toFixed(1)} Ma`
-                : 'Period-level paleogeography · coordinate layers never mix modern and reconstructed positions'
+                ? t('Shared time window {older}–{younger} Ma · map shown at {age} Ma', { older: context.older, younger: context.younger, age: currentAge.toFixed(1) })
+                : t('Period-level paleogeography · coordinate layers never mix modern and reconstructed positions')
             : view === 'tree'
-              ? 'Cladogram, first-appearance proxy and fossil-range modes expose distinct time assumptions'
-              : 'Observed sample patterns · absence and record counts are not direct biological richness estimates'}
+              ? t('Cladogram, first-appearance proxy and fossil-range modes expose distinct time assumptions')
+              : t('Observed sample patterns · absence and record counts are not direct biological richness estimates')}
         </div>
       </section>
 
-      <aside className={`explorer-inspector${mobilePanel === 'inspector' ? ' is-open' : ''}`} aria-label="Evidence inspector">
+      <aside className={`explorer-inspector${mobilePanel === 'inspector' ? ' is-open' : ''}`} aria-label={t('Evidence inspector')}>
         <div className="panel-heading">
-          <span>Evidence inspector</span>
+          <span>{t('Evidence inspector')}</span>
           <div className="panel-heading-actions">
-            <small>Selection</small>
-            <button className="mobile-panel-close" aria-label="Close evidence panel" onClick={() => setMobilePanel(null)}>×</button>
+            <small>{t('Selection')}</small>
+            <button className="mobile-panel-close" aria-label={t('Close evidence panel')} onClick={() => setMobilePanel(null)}>×</button>
           </div>
         </div>
         <div className="inspector-scroll">
           {(profileContext || eventContext) && (
             <div className="context-inspector-card">
-              <span>{profileContext ? 'Curated taxon profile' : 'Curated event'}</span>
-              <h2>{profileContext?.scientificName ?? eventContext?.title}</h2>
-              <p>{profileContext?.evidenceSummary ?? eventContext?.summary}</p>
+              <span>{t(profileContext ? 'Curated taxon profile' : 'Curated event')}</span>
+              <h2>{profileContext?.scientificName ?? (language === 'zh' ? eventContext?.titleZh : eventContext?.title)}</h2>
+              <p>{t(profileContext?.evidenceSummary ?? eventContext?.summary ?? '')}</p>
               <a href={profileContext ? `#/taxa?id=${profileContext.id}` : `#/events?id=${eventContext?.id}`}>
-                Open full evidence page →
+                {t('Open full evidence page →')}
               </a>
             </div>
           )}

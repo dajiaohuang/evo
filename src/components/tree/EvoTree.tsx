@@ -5,6 +5,8 @@ import type { TreeNode } from '../../types'
 import treeData from '../../../data/navigation/atlas-ontology.json'
 import perissodactylHypothesisData from '../../../data/phylogenies/perissodactyla-hypothesis.json'
 import type { TreeDisplayMode } from '../../types'
+import { useI18n } from '../../i18n'
+import { getTaxonProfile } from '../../services/catalog'
 import './EvoTree.css'
 
 export type TreeMode = TreeDisplayMode
@@ -23,6 +25,7 @@ function activeAt(node: TreeNode, age: number): boolean {
 }
 
 export function EvoTree() {
+  const { language, t } = useI18n()
   const svgRef = useRef<SVGSVGElement>(null)
   const mode = useAppStore((state) => state.treeMode)
   const setMode = useAppStore((state) => state.setTreeMode)
@@ -31,6 +34,10 @@ export function EvoTree() {
   const selectNode = useAppStore((state) => state.selectNode)
   const highlightTaxon = useAppStore((state) => state.highlightTaxon)
   const loadOccurrencesForTaxon = useAppStore((state) => state.loadOccurrencesForTaxon)
+  const nodeLabel = useCallback((node: TreeNode) => {
+    if (language !== 'zh') return node.commonName || node.name
+    return getTaxonProfile(node.id)?.commonNameZh ?? t(node.commonName || node.name)
+  }, [language, t])
 
   const handleNodeClick = useCallback((nodeId: string) => {
     selectNode(nodeId)
@@ -78,13 +85,13 @@ export function EvoTree() {
 
       rows.append('text').attr('x', 10).attr('y', 4).attr('class', 'range-label')
         .attr('font-style', (node) => node.data.rank && node.data.rank !== 'kingdom' ? 'italic' : null)
-        .text((node) => `${'·'.repeat(Math.min(node.depth, 5))} ${node.data.commonName || node.data.name}`)
+        .text((node) => `${'·'.repeat(Math.min(node.depth, 5))} ${nodeLabel(node.data)}`)
       rows.append('line').attr('class', 'range-track').attr('x1', labelWidth).attr('x2', width - 34)
       rows.append('line').attr('class', 'range-bar')
         .attr('x1', (node) => x(node.data.firstAppearance))
         .attr('x2', (node) => x(node.data.lastAppearance))
         .attr('data-active', (node) => activeAt(node.data, currentAge) ? 'true' : 'false')
-      rows.append('title').text((node) => `${node.data.name}: ${node.data.firstAppearance}–${node.data.lastAppearance || 'present'} Ma`)
+      rows.append('title').text((node) => `${node.data.name}: ${node.data.firstAppearance}–${node.data.lastAppearance || t('present')} Ma`)
       return
     }
 
@@ -117,8 +124,8 @@ export function EvoTree() {
           return point.x >= Math.PI ? 'rotate(180)' : null
         })
         .attr('text-anchor', (node) => (node as d3.HierarchyPointNode<TreeNode>).x >= Math.PI ? 'end' : 'start')
-        .text((node) => (node.data.commonName || node.data.name).slice(0, 20))
-      nodes.append('title').text((node) => `${node.data.name} · ${node.data.firstAppearance}–${node.data.lastAppearance || 'present'} Ma`)
+        .text((node) => nodeLabel(node.data).slice(0, 20))
+      nodes.append('title').text((node) => `${node.data.name} · ${node.data.firstAppearance}–${node.data.lastAppearance || t('present')} Ma`)
       return
     }
 
@@ -148,7 +155,7 @@ export function EvoTree() {
         })
         .style('cursor', 'pointer').style('opacity', (node) => activeAt(node.data, currentAge) ? 1 : .3)
         .on('click', (_event, node) => handleNodeClick(node.data.id))
-      drawNodes(nodes, selectedNodeId, 'right')
+      drawNodes(nodes, selectedNodeId, 'right', nodeLabel, t('present'))
       return
     }
 
@@ -182,8 +189,8 @@ export function EvoTree() {
       .attr('transform', (node) => `translate(${node.x},${node.y})`)
       .style('cursor', 'pointer').style('opacity', (node) => activeAt(node.data, currentAge) ? 1 : .2)
       .on('click', (_event, node) => handleNodeClick(node.data.id))
-    drawNodes(nodes, selectedNodeId, 'above')
-  }, [currentAge, handleNodeClick, mode, selectedNodeId])
+    drawNodes(nodes, selectedNodeId, 'above', nodeLabel, t('present'))
+  }, [currentAge, handleNodeClick, mode, nodeLabel, selectedNodeId, t])
 
   useEffect(() => { renderTree() }, [renderTree])
   useEffect(() => {
@@ -196,8 +203,8 @@ export function EvoTree() {
 
   return (
     <div className={`evo-tree evo-tree--${mode}`}>
-      <div className="tree-mode-control" role="group" aria-label="Tree time model">
-        <span>Tree model</span>
+      <div className="tree-mode-control" role="group" aria-label={t('Tree time model')}>
+        <span>{t('Tree model')}</span>
         {([
           ['navigation', 'Navigation ontology'],
           ['cladogram', 'Periss. topology'],
@@ -205,16 +212,16 @@ export function EvoTree() {
           ['fossil-range', 'Fossil ranges'],
           ['radial', 'Radial'],
         ] as Array<[TreeMode, string]>).map(([value, label]) => (
-          <button key={value} className={mode === value ? 'is-active' : ''} onClick={() => setMode(value)}>{label}</button>
+          <button key={value} className={mode === value ? 'is-active' : ''} onClick={() => setMode(value)}>{t(label)}</button>
         ))}
       </div>
-      <svg ref={svgRef} aria-label={`${mode} visualization of the tree of life`} />
+      <svg ref={svgRef} aria-label={t('{mode} visualization of the tree of life', { mode: t(mode) })} />
       <div className="tree-model-note">
-        {mode === 'navigation' && 'Navigation ontology · convenient groupings may be paraphyletic and do not assert a phylogenetic hypothesis.'}
-        {mode === 'cladogram' && 'Curated Perissodactyla hypothesis · branch length does not encode elapsed time.'}
-        {mode === 'first-appearance' && 'Horizontal position uses curated first appearance as a fossil-record proxy, not a divergence-time estimate.'}
-        {mode === 'fossil-range' && 'Bars show curated first–last appearance ranges; gaps and endpoints remain sampling-dependent.'}
-        {mode === 'radial' && 'Radial mode supports high-level navigation; angular and radial distances do not encode elapsed time.'}
+        {mode === 'navigation' && t('Navigation ontology · convenient groupings may be paraphyletic and do not assert a phylogenetic hypothesis.')}
+        {mode === 'cladogram' && t('Curated Perissodactyla hypothesis · branch length does not encode elapsed time.')}
+        {mode === 'first-appearance' && t('Horizontal position uses curated first appearance as a fossil-record proxy, not a divergence-time estimate.')}
+        {mode === 'fossil-range' && t('Bars show curated first–last appearance ranges; gaps and endpoints remain sampling-dependent.')}
+        {mode === 'radial' && t('Radial mode supports high-level navigation; angular and radial distances do not encode elapsed time.')}
       </div>
     </div>
   )
@@ -224,6 +231,8 @@ function drawNodes(
   nodes: d3.Selection<SVGGElement, d3.HierarchyNode<TreeNode>, SVGGElement, unknown>,
   selectedNodeId: string | null,
   labelPosition: 'right' | 'above',
+  labelFor: (node: TreeNode) => string,
+  presentLabel: string,
 ) {
   nodes.append('circle').attr('r', (node) => node.data.id === selectedNodeId ? 6.5 : 4.5)
     .attr('fill', (node) => node.data.extinct ? '#8b949e' : '#58a6ff')
@@ -233,6 +242,6 @@ function drawNodes(
     .attr('x', labelPosition === 'right' ? 8 : 0)
     .attr('y', labelPosition === 'right' ? 3 : -8)
     .attr('text-anchor', labelPosition === 'right' ? 'start' : 'middle')
-    .text((node) => `${node.data.commonName || node.data.name}${node.data.extinct ? ' †' : ''}`.slice(0, 24))
-  nodes.append('title').text((node) => `${node.data.name} · ${node.data.firstAppearance}–${node.data.lastAppearance || 'present'} Ma`)
+    .text((node) => `${labelFor(node.data)}${node.data.extinct ? ' †' : ''}`.slice(0, 24))
+  nodes.append('title').text((node) => `${node.data.name} · ${node.data.firstAppearance}–${node.data.lastAppearance || presentLabel} Ma`)
 }

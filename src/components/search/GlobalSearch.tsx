@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from 'react'
 import { searchCatalog } from '../../services/catalog'
 import { parseRouteHash, type AppRoute } from '../../utils/routing'
+import { useI18n } from '../../i18n'
 import './GlobalSearch.css'
 
 const kindLabels = {
@@ -17,6 +18,7 @@ interface GlobalSearchProps {
 }
 
 export function GlobalSearch({ onNavigate }: GlobalSearchProps) {
+  const { language, t } = useI18n()
   const [open, setOpen] = useState(false)
   const [query, setQuery] = useState('')
   const inputRef = useRef<HTMLInputElement>(null)
@@ -51,13 +53,13 @@ export function GlobalSearch({ onNavigate }: GlobalSearchProps) {
     <>
       <button className="global-search-trigger" onClick={() => setOpen(true)}>
         <span aria-hidden="true">⌕</span>
-        Search
+        {t('Search')}
         <kbd>⌘ K</kbd>
       </button>
 
       {open && (
-        <div className="global-search-overlay" role="dialog" aria-modal="true" aria-label="Search Evo Atlas">
-          <button className="global-search-backdrop" onClick={() => setOpen(false)} aria-label="Close search" />
+        <div className="global-search-overlay" role="dialog" aria-modal="true" aria-label={t('Search Evo Atlas')}>
+          <button className="global-search-backdrop" onClick={() => setOpen(false)} aria-label={t('Close search')} />
           <section className="global-search-panel">
             <label className="global-search-input">
               <span aria-hidden="true">⌕</span>
@@ -65,29 +67,29 @@ export function GlobalSearch({ onNavigate }: GlobalSearchProps) {
                 ref={inputRef}
                 value={query}
                 onChange={(event) => setQuery(event.target.value)}
-                placeholder="Search taxa, intervals, events, places…"
+                placeholder={t('Search taxa, intervals, events, places…')}
               />
               <kbd>ESC</kbd>
             </label>
 
             <div className="global-search-summary">
-              <span>{query ? `${results.length} results` : 'Featured field stories'}</span>
-              <span>English / 中文 / scientific names</span>
+              <span>{query ? t('{count} results', { count: results.length }) : t('Featured field stories')}</span>
+              <span>{t('English / 中文 / scientific names')}</span>
             </div>
 
             <div className="global-search-results">
               {results.map((result) => (
                 <button key={`${result.kind}:${result.id}`} onClick={() => selectResult(result.route)}>
-                  <span className={`search-kind search-kind--${result.kind}`}>{kindLabels[result.kind]}</span>
+                  <span className={`search-kind search-kind--${result.kind}`}>{t(kindLabels[result.kind])}</span>
                   <span className="search-result-copy">
-                    <strong>{result.title}</strong>
-                    <small>{result.subtitle}</small>
+                    <strong>{t(language === 'zh' ? result.titleZh ?? result.title : result.title)}</strong>
+                    <small>{(language === 'zh' ? result.subtitleZh ?? result.subtitle : result.subtitle).split(' · ').map((part) => t(part)).join(' · ')}</small>
                   </span>
                   <i aria-hidden="true">↗</i>
                 </button>
               ))}
               {results.length === 0 && (
-                <div className="global-search-empty">No catalog entry matches “{query}”.</div>
+                <div className="global-search-empty">{t('No catalog entry matches “{query}”.', { query })}</div>
               )}
             </div>
           </section>

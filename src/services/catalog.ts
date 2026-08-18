@@ -119,8 +119,10 @@ export function searchCatalog(rawQuery: string, limit = 16): SearchResult[] {
       .map((story) => ({
         id: story.id,
         kind: 'story' as const,
-        title: story.titleZh,
-        subtitle: story.title,
+        title: story.title,
+        titleZh: story.titleZh,
+        subtitle: `${story.durationMinutes} min field story`,
+        subtitleZh: `${story.durationMinutes} 分钟主题故事`,
         keywords: '',
         route: `#/stories?id=${story.id}`,
       }))
@@ -135,8 +137,10 @@ export function searchCatalog(rawQuery: string, limit = 16): SearchResult[] {
     if (resultScore > 0) candidates.push({
       id: profile.id,
       kind: 'taxon',
-      title: `${profile.commonNameZh} · ${profile.scientificName}`,
+      title: `${profile.commonName} · ${profile.scientificName}`,
+      titleZh: `${profile.commonNameZh} · ${profile.scientificName}`,
       subtitle: `${profile.rank} · ${profile.firstAppearance}–${profile.lastAppearance || 'Present'} Ma`,
+      subtitleZh: `${profile.rank} · ${profile.firstAppearance}–${profile.lastAppearance || '现今'} Ma`,
       keywords,
       route: `#/taxa?id=${profile.id}`,
       score: resultScore + 4,
@@ -149,8 +153,10 @@ export function searchCatalog(rawQuery: string, limit = 16): SearchResult[] {
     if (resultScore > 0) candidates.push({
       id: event.id,
       kind: 'event',
-      title: event.titleZh,
-      subtitle: `${event.title} · ${event.startAge}–${event.endAge} Ma`,
+      title: event.title,
+      titleZh: event.titleZh,
+      subtitle: `${event.category} · ${event.startAge}–${event.endAge} Ma`,
+      subtitleZh: `${event.startAge}–${event.endAge} Ma`,
       keywords,
       route: `#/events?id=${event.id}`,
       score: resultScore + 2,
@@ -163,8 +169,10 @@ export function searchCatalog(rawQuery: string, limit = 16): SearchResult[] {
     if (resultScore > 0) candidates.push({
       id: story.id,
       kind: 'story',
-      title: story.titleZh,
-      subtitle: `${story.title} · ${story.durationMinutes} min`,
+      title: story.title,
+      titleZh: story.titleZh,
+      subtitle: `${story.durationMinutes} min field story`,
+      subtitleZh: `${story.durationMinutes} 分钟主题故事`,
       keywords,
       route: `#/stories?id=${story.id}`,
       score: resultScore + (story.featured ? 3 : 0),
@@ -206,8 +214,10 @@ export function searchCatalog(rawQuery: string, limit = 16): SearchResult[] {
     if (resultScore > 0) candidates.push({
       id: place.code,
       kind: 'place',
-      title: `${place.nameZh} · ${place.name}`,
+      titleZh: place.nameZh,
+      title: place.name,
       subtitle: `${place.code} · ${place.occurrences.toLocaleString()} bundled occurrences`,
+      subtitleZh: `${place.code} · ${place.occurrences.toLocaleString('zh-CN')} 条内置记录`,
       keywords,
       route: `#/lab?country=${place.code}`,
       score: resultScore + 1,
@@ -217,7 +227,7 @@ export function searchCatalog(rawQuery: string, limit = 16): SearchResult[] {
   return candidates
     .sort((a, b) => b.score - a.score || a.title.localeCompare(b.title))
     .slice(0, limit)
-    .map(({ id, kind, title, subtitle, keywords, route }) => ({
-      id, kind, title, subtitle, keywords, route,
+    .map(({ id, kind, title, titleZh, subtitle, subtitleZh, keywords, route }) => ({
+      id, kind, title, titleZh, subtitle, subtitleZh, keywords, route,
     }))
 }

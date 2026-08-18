@@ -4,6 +4,7 @@ import { ErrorBoundary } from './components/common/ErrorBoundary'
 import { AppShell } from './components/shell/AppShell'
 import { HomePage } from './components/home/HomePage'
 import { buildRouteHash, parseRouteHash, type AppRoute } from './utils/routing'
+import { useI18n } from './i18n'
 
 const ExplorerWorkspace = lazy(() => import('./components/explorer/ExplorerWorkspace')
   .then((module) => ({ default: module.ExplorerWorkspace })))
@@ -23,14 +24,16 @@ const LabPage = lazy(() => import('./components/workbench/WorkbenchPages')
   .then((module) => ({ default: module.LabPage })))
 
 function RouteLoading() {
+  const { t } = useI18n()
   return (
     <div style={{ minHeight: 'calc(100vh - var(--topbar-height))', display: 'grid', placeItems: 'center' }}>
-      <span style={{ color: 'var(--color-text-faint)', font: '10px var(--font-mono)' }}>LOADING ATLAS MODULE…</span>
+      <span style={{ color: 'var(--color-text-faint)', font: '10px var(--font-mono)' }}>{t('Loading atlas module…').toUpperCase()}</span>
     </div>
   )
 }
 
 export default function App() {
+  const { language, t } = useI18n()
   const [routeState, setRouteState] = useState(() => parseRouteHash(window.location.hash))
   const route = routeState.route
   const loadIntervals = useAppStore((s) => s.loadIntervals)
@@ -57,8 +60,8 @@ export default function App() {
       data: 'Data — Evo Atlas',
       methods: 'Methods — Evo Atlas',
     }
-    document.title = labels[route]
-  }, [route])
+    document.title = t(labels[route])
+  }, [language, route, t])
 
   const navigate = useCallback((nextRoute: AppRoute, params: Record<string, string> = {}) => {
     const nextHash = buildRouteHash(nextRoute, params)

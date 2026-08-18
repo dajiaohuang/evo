@@ -3,6 +3,7 @@ import { useAppStore } from '../../store'
 import { buildDiversityBins, summarizeSampling, topObservedTaxa } from '../../services/diversity'
 import type { FossilOccurrence } from '../../types'
 import './DiversityView.css'
+import { useI18n } from '../../i18n'
 
 const EMPTY_OCCURRENCES: FossilOccurrence[] = []
 
@@ -11,6 +12,7 @@ function percentage(value: number): string {
 }
 
 export function DiversityView() {
+  const { number, t } = useI18n()
   const currentPeriod = useAppStore((state) => state.currentPeriod)
   const loadedRecords = useAppStore((state) => currentPeriod ? state.occurrencesByInterval[currentPeriod] : undefined)
   const records = loadedRecords ?? EMPTY_OCCURRENCES
@@ -21,36 +23,36 @@ export function DiversityView() {
   const maxTaxon = Math.max(1, ...topTaxa.map((taxon) => taxon.count))
 
   if (!currentPeriod) {
-    return <div className="diversity-empty">Choose a Phanerozoic period to inspect its bundled occurrence sample.</div>
+    return <div className="diversity-empty">{t('Choose a Phanerozoic period to inspect its bundled occurrence sample.')}</div>
   }
 
   return (
     <div className="diversity-view">
       <header>
         <div>
-          <span>Sampling-aware summary</span>
-          <h2>{currentPeriod} occurrence evidence</h2>
+          <span>{t('Sampling-aware summary')}</span>
+          <h2>{t('{period} occurrence evidence', { period: t(currentPeriod) })}</h2>
         </div>
-        <p>Counts describe this bundled PBDB sample. They are not direct estimates of true biodiversity.</p>
+        <p>{t('Counts describe this bundled PBDB sample. They are not direct estimates of true biodiversity.')}</p>
       </header>
 
-      <section className="quality-grid" aria-label="Sampling quality summary">
-        <article><strong>{quality.totalOccurrences.toLocaleString()}</strong><span>occurrences</span></article>
-        <article><strong>{quality.observedTaxa.toLocaleString()}</strong><span>observed names</span></article>
-        <article><strong>{quality.collections.toLocaleString()}</strong><span>collections</span></article>
-        <article><strong>{quality.countries.toLocaleString()}</strong><span>countries</span></article>
+      <section className="quality-grid" aria-label={t('Sampling quality summary')}>
+        <article><strong>{number(quality.totalOccurrences)}</strong><span>{t('occurrences')}</span></article>
+        <article><strong>{number(quality.observedTaxa)}</strong><span>{t('observed names')}</span></article>
+        <article><strong>{number(quality.collections)}</strong><span>{t('collections')}</span></article>
+        <article><strong>{number(quality.countries)}</strong><span>{t('countries')}</span></article>
       </section>
 
       <div className="diversity-columns">
         <section className="diversity-panel">
           <div className="diversity-panel-heading">
-            <div><span>Temporal coverage</span><h3>Observed taxon names by midpoint bin</h3></div>
-            <small>Occurrence age midpoint · older → younger</small>
+            <div><span>{t('Temporal coverage')}</span><h3>{t('Observed taxon names by midpoint bin')}</h3></div>
+            <small>{t('Occurrence age midpoint · older → younger')}</small>
           </div>
-          <div className="age-bin-chart" role="img" aria-label="Observed taxon names by age bin">
+          <div className="age-bin-chart" role="img" aria-label={t('Observed taxon names by age bin')}>
             {bins.map((bin) => (
               <div className="age-bin" key={`${bin.olderMa}-${bin.youngerMa}`}>
-                <div className="age-bin-bar" style={{ height: `${Math.max(2, bin.observedTaxa / maxBin * 100)}%` }} title={`${bin.observedTaxa} observed names; ${bin.occurrences} occurrences`} />
+                <div className="age-bin-bar" style={{ height: `${Math.max(2, bin.observedTaxa / maxBin * 100)}%` }} title={t('{names} observed names; {occurrences} occurrences', { names: number(bin.observedTaxa), occurrences: number(bin.occurrences) })} />
                 <small>{bin.olderMa.toFixed(0)}</small>
               </div>
             ))}
@@ -58,7 +60,7 @@ export function DiversityView() {
         </section>
 
         <section className="diversity-panel">
-          <div className="diversity-panel-heading"><div><span>Composition</span><h3>Most-recorded taxon names</h3></div></div>
+          <div className="diversity-panel-heading"><div><span>{t('Composition')}</span><h3>{t('Most-recorded taxon names')}</h3></div></div>
           <div className="taxon-bars">
             {topTaxa.map((taxon) => (
               <div className="taxon-bar" key={taxon.name}>
@@ -72,15 +74,15 @@ export function DiversityView() {
       </div>
 
       <section className="coverage-panel">
-        <div><span>Paleo coordinates</span><strong>{percentage(quality.paleoCoordinateCoverage)}</strong></div>
-        <div><span>Country metadata</span><strong>{percentage(quality.countryCoverage)}</strong></div>
-        <div><span>Age range ≤10 Ma</span><strong>{percentage(quality.narrowAgeCoverage)}</strong></div>
-        <div><span>Median age range</span><strong>{quality.medianAgeUncertaintyMa.toFixed(1)} Ma</strong></div>
+        <div><span>{t('Paleo coordinates')}</span><strong>{percentage(quality.paleoCoordinateCoverage)}</strong></div>
+        <div><span>{t('Country metadata')}</span><strong>{percentage(quality.countryCoverage)}</strong></div>
+        <div><span>{t('Age range ≤10 Ma')}</span><strong>{percentage(quality.narrowAgeCoverage)}</strong></div>
+        <div><span>{t('Median age range')}</span><strong>{quality.medianAgeUncertaintyMa.toFixed(1)} Ma</strong></div>
       </section>
 
       <aside className="bias-callout">
-        <strong>Interpretation guardrail</strong>
-        <p>Uneven rock exposure, collecting intensity, taxonomic practice, spatial coverage and age precision all shape these patterns. A zero is an unobserved cell in this sample—not evidence of biological absence.</p>
+        <strong>{t('Interpretation guardrail')}</strong>
+        <p>{t('Uneven rock exposure, collecting intensity, taxonomic practice, spatial coverage and age precision all shape these patterns. A zero is an unobserved cell in this sample—not evidence of biological absence.')}</p>
       </aside>
     </div>
   )

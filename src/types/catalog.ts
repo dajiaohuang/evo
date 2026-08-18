@@ -89,7 +89,9 @@ export interface SearchResult {
   id: string
   kind: 'taxon' | 'event' | 'story' | 'tree' | 'interval' | 'place'
   title: string
+  titleZh?: string
   subtitle: string
+  subtitleZh?: string
   keywords: string
   route: string
 }

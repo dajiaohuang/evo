@@ -1,6 +1,7 @@
 import { useEffect, useState, type ReactNode } from 'react'
 import type { AppRoute } from '../../utils/routing'
 import { GlobalSearch } from '../search/GlobalSearch'
+import { useI18n } from '../../i18n'
 import './AppShell.css'
 
 interface AppShellProps {
@@ -20,6 +21,7 @@ const navItems: Array<{ route: AppRoute; label: string }> = [
 ]
 
 export function AppShell({ route, onNavigate, children, immersive = false }: AppShellProps) {
+  const { language, setLanguage, t } = useI18n()
   const [online, setOnline] = useState(() => navigator.onLine)
   const [offlineReady, setOfflineReady] = useState(() => document.documentElement.dataset.offlineReady === 'true')
 
@@ -45,9 +47,9 @@ export function AppShell({ route, onNavigate, children, immersive = false }: App
 
   return (
     <div className={`app-shell${immersive ? ' app-shell--immersive' : ''}`}>
-      <button className="skip-link" type="button" onClick={skipToContent}>Skip to atlas content</button>
+      <button className="skip-link" type="button" onClick={skipToContent}>{t('Skip to atlas content')}</button>
       <header className="topbar">
-        <button className="brand" onClick={() => onNavigate('home')} aria-label="Evo Atlas home">
+        <button className="brand" onClick={() => onNavigate('home')} aria-label={t('Evo Atlas home')}>
           <span className="brand__mark" aria-hidden="true">
             <span />
             <span />
@@ -59,7 +61,7 @@ export function AppShell({ route, onNavigate, children, immersive = false }: App
           </span>
         </button>
 
-        <nav className="topbar__nav" aria-label="Primary navigation">
+        <nav className="topbar__nav" aria-label={t('Primary navigation')}>
           {navItems.map((item) => (
             <button
               key={item.route}
@@ -67,15 +69,19 @@ export function AppShell({ route, onNavigate, children, immersive = false }: App
               onClick={() => onNavigate(item.route)}
               aria-current={route === item.route ? 'page' : undefined}
             >
-              {item.label}
+              {t(item.label)}
             </button>
           ))}
         </nav>
 
         <div className="topbar__utilities">
-          <span className={`connectivity-status${online ? '' : ' is-offline'}`} title={online ? offlineReady ? 'Online · offline cache ready' : 'Online' : 'Offline · using cached atlas'}>
-            <i />{online ? offlineReady ? 'cached' : 'online' : 'offline'}
+          <span className={`connectivity-status${online ? '' : ' is-offline'}`} title={t(online ? offlineReady ? 'Online · offline cache ready' : 'Online' : 'Offline · using cached atlas')}>
+            <i />{t(online ? offlineReady ? 'cached' : 'online' : 'offline')}
           </span>
+          <div className="language-switch" role="group" aria-label={t('Switch language')}>
+            <button className={language === 'en' ? 'is-active' : ''} onClick={() => setLanguage('en')} aria-pressed={language === 'en'} lang="en">EN</button>
+            <button className={language === 'zh' ? 'is-active' : ''} onClick={() => setLanguage('zh')} aria-pressed={language === 'zh'} lang="zh-CN">中文</button>
+          </div>
           <GlobalSearch onNavigate={onNavigate} />
         </div>
       </header>

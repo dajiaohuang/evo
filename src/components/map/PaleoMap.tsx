@@ -6,8 +6,10 @@ import { usePaleogeography } from '../../hooks/usePaleogeography'
 import { FossilMarkers, type MarkerMode } from './FossilMarkers'
 import { hasSpatialPosition, type CoordinateMode } from '../../utils/spatial'
 import { MIN_MAP_ZOOM, MAX_MAP_ZOOM, DEFAULT_MAP_CENTER, DEFAULT_MAP_ZOOM } from '../../constants'
+import { useI18n } from '../../i18n'
 
 export function PaleoMap() {
+  const { number, t } = useI18n()
   const markerMode = useAppStore((s) => s.markerMode) as MarkerMode
   const coordinateMode = useAppStore((s) => s.coordinateMode) as CoordinateMode
   const showContinents = useAppStore((s) => s.showContinents)
@@ -102,34 +104,36 @@ export function PaleoMap() {
         border: '1px solid #2a4248', pointerEvents: 'none',
       }}>
         {currentPeriod
-          ? `${currentPeriod} — ${recordsLoaded ? `${fossilCount.toLocaleString()} fossils` : 'loading records…'}`
-          : 'No detailed map snapshot for this age'}
+          ? recordsLoaded
+            ? t('{period} — {count} fossils', { period: t(currentPeriod), count: number(fossilCount) })
+            : `${t(currentPeriod)} — ${t('loading records…')}`
+          : t('No detailed map snapshot for this age')}
         {currentPeriod && recordsLoaded && (
           <div style={{ marginTop: 2, color: '#82938c', fontSize: 9 }}>
-            Paleo-coordinate coverage {(paleoCoverage * 100).toFixed(0)}%
+            {t('Paleo-coordinate coverage {coverage}%', { coverage: (paleoCoverage * 100).toFixed(0) })}
           </div>
         )}
       </div>
 
-      <div className="map-layer-control" aria-label="Map layer controls">
-        <span>Evidence layer</span>
-        <div role="group" aria-label="Fossil marker style">
+      <div className="map-layer-control" aria-label={t('Map layer controls')}>
+        <span>{t('Evidence layer')}</span>
+        <div role="group" aria-label={t('Fossil marker style')}>
           {(['clusters', 'density', 'points'] as MarkerMode[]).map((mode) => (
-            <button key={mode} className={markerMode === mode ? 'is-active' : ''} onClick={() => setMarkerMode(mode)}>{mode}</button>
+            <button key={mode} className={markerMode === mode ? 'is-active' : ''} onClick={() => setMarkerMode(mode)}>{t(mode)}</button>
           ))}
         </div>
-        <span>Coordinates</span>
-        <div role="group" aria-label="Coordinate model">
+        <span>{t('Coordinates')}</span>
+        <div role="group" aria-label={t('Coordinate model')}>
           {(['paleo', 'modern'] as CoordinateMode[]).map((mode) => (
-            <button key={mode} className={coordinateMode === mode ? 'is-active' : ''} onClick={() => setCoordinateMode(mode)}>{mode}</button>
+            <button key={mode} className={coordinateMode === mode ? 'is-active' : ''} onClick={() => setCoordinateMode(mode)}>{t(mode)}</button>
           ))}
         </div>
-        <label><input type="checkbox" checked={showContinents} onChange={(event) => setShowContinents(event.target.checked)} /> period land snapshot</label>
-        <small>{coordinateMode === 'paleo' ? 'Only records with paired reconstructed coordinates are shown; no modern fallback.' : 'Only paired modern collection coordinates are shown; not aligned to reconstructed land.'}</small>
+        <label><input type="checkbox" checked={showContinents} onChange={(event) => setShowContinents(event.target.checked)} /> {t('period land snapshot')}</label>
+        <small>{t(coordinateMode === 'paleo' ? 'Only records with paired reconstructed coordinates are shown; no modern fallback.' : 'Only paired modern collection coordinates are shown; not aligned to reconstructed land.')}</small>
         <dl className="map-model-ledger">
-          <div><dt>Land</dt><dd>period snapshot</dd></div>
-          <div><dt>Paleo points</dt><dd>PBDB bundled field</dd></div>
-          <div><dt>Runtime</dt><dd>no live reconstruction</dd></div>
+          <div><dt>{t('Land')}</dt><dd>{t('period snapshot')}</dd></div>
+          <div><dt>{t('Paleo points')}</dt><dd>{t('PBDB bundled field')}</dd></div>
+          <div><dt>{t('Runtime')}</dt><dd>{t('no live reconstruction')}</dd></div>
         </dl>
       </div>
     </div>
