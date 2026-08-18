@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 3,
+  "id": "sponges-cnidarians",
+  "version": "2026.08-static-v3",
+  "title": "Sponges and Cnidarians",
+  "titleZh": "海绵与刺胞动物",
+  "rootEntityIds": [
+    "porifera",
+    "cnidaria"
+  ],
+  "entityIds": [
+    "porifera",
+    "stromatoporoidea",
+    "demospongiae",
+    "cnidaria",
+    "anthozoa",
+    "rugosa",
+    "tabulata",
+    "scleractinia"
+  ],
+  "canonicalSources": {
+    "entities": "data/registry/entities/entities.json",
+    "taxonomy": "data/navigation/atlas-ontology.json",
+    "references": "data/references.json",
+    "occurrences": "data/fossils/*.json"
+  },
+  "maturity": "gold-v2",
+  "reviewStatus": "automated-audit-passed",
+  "limitations": [
+    "Package dossiers expose the current curated evidence boundary; unavailable fields are explicit and are not inferred."
+  ]
+}

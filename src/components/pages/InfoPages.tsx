@@ -1,5 +1,10 @@
+import { useEffect, useState } from 'react'
 import manifest from '../../../data/manifest.json'
 import { periods } from '../../services/geology'
+import { loadReleaseMetadata, localReleaseMetadata } from '../../services/release'
+import { loadCurrentManifest, loadPackageManifest, loadPackageRegistry } from '../../data-client/staticDataClient'
+import { clearOfflinePackages, saveAllPackagesOffline, savePackageOffline } from '../../data-client/offlinePackages'
+import type { CurrentRuntimeManifest, RuntimePackageManifest, RuntimePackageRegistry } from '../../data-client/types'
 import type { AppRoute } from '../../utils/routing'
 import { useI18n } from '../../i18n'
 import './InfoPages.css'
@@ -9,14 +14,55 @@ interface PageProps {
 }
 
 export function DataPage({ onNavigate }: PageProps) {
-  const { number, t } = useI18n()
+  const { language, number, t } = useI18n()
+  const [release, setRelease] = useState(localReleaseMetadata)
+  const [runtime, setRuntime] = useState<CurrentRuntimeManifest | null>(null)
+  const [packageRegistry, setPackageRegistry] = useState<RuntimePackageRegistry | null>(null)
+  const [packageManifests, setPackageManifests] = useState<RuntimePackageManifest[]>([])
+  const [platformError, setPlatformError] = useState<string | null>(null)
+  const [offlineStatus, setOfflineStatus] = useState('idle')
+
+  useEffect(() => {
+    void loadReleaseMetadata().then(setRelease)
+  }, [])
+
+  useEffect(() => {
+    let cancelled = false
+    void Promise.all([loadCurrentManifest(), loadPackageRegistry()]).then(async ([current, registry]) => {
+      const packages = await Promise.all(registry.packages.map((entry) => loadPackageManifest(entry.id)))
+      if (cancelled) return
+      setRuntime(current)
+      setPackageRegistry(registry)
+      setPackageManifests(packages)
+    }).catch((error: unknown) => {
+      if (!cancelled) setPlatformError(error instanceof Error ? error.message : String(error))
+    })
+    return () => { cancelled = true }
+  }, [])
+
+  const storeOffline = async (packageId?: string) => {
+    setOfflineStatus('saving')
+    try {
+      if (packageId) await savePackageOffline(packageId)
+      else await saveAllPackagesOffline()
+      setOfflineStatus('saved')
+    } catch {
+      setOfflineStatus('failed')
+    }
+  }
+
+  const clearOffline = async () => {
+    await clearOfflinePackages()
+    setOfflineStatus('cleared')
+  }
+
   return (
     <main className="info-page">
       <header className="info-hero">
         <span className="section-label">{t('Dataset registry')} / {manifest.datasetVersion}</span>
         <h1>{t('Know what the atlas knows.')}</h1>
         <p>{t('Every view in Evo is backed by a named static artifact. This registry exposes its current scope, provenance and the places where the evidence remains incomplete.')}</p>
-        <p>{t('App {appVersion} · schema {schemaVersion} · commit {commitSha}', { appVersion: manifest.appVersion, schemaVersion: manifest.schemaVersion, commitSha: manifest.commitSha })}</p>
+        <p>{t('App {appVersion} · schema {schemaVersion} · deployment commit {commitSha}', { appVersion: release.appVersion, schemaVersion: manifest.schemaVersion, commitSha: release.deploymentCommitSha })}</p>
         <button className="button button--primary" onClick={() => onNavigate('explore')}>{t('Explore the records')}</button>
       </header>
 
@@ -49,6 +95,40 @@ export function DataPage({ onNavigate }: PageProps) {
       <section className="info-section">
         <div className="info-section__heading">
           <span>02</span>
+          <div><small>{t('Static packages')}</small><h2>{t('Package coverage dashboard')}</h2></div>
+        </div>
+        {platformError && <p className="platform-error" role="alert">{t('Runtime registry unavailable')}: {platformError}</p>}
+        {runtime && packageRegistry && (
+          <div className="platform-summary">
+            <article><strong>{packageRegistry.entityCount}/{packageRegistry.entityCount}</strong><span>{t('registry entities assigned')}</span></article>
+            <article><strong>{packageRegistry.packageCount}</strong><span>{t('static packages')}</span></article>
+            <article><strong>{number(runtime.occurrences.totalRecords)}</strong><span>{t('published occurrence rows')}</span></article>
+            <article><strong>{(runtime.budgets.coreCompressedBytes / 1024).toFixed(1)} KiB</strong><span>{t('compressed core')}</span></article>
+          </div>
+        )}
+        <div className="package-table" role="table" aria-label={t('Static package coverage')}>
+          <div className="package-row package-row--head" role="row"><span>{t('Package')}</span><span>{t('Maturity')}</span><span>{t('Entities')}</span><span>{t('Runtime')}</span><span>{t('Occurrences')}</span><span>{t('Offline')}</span></div>
+          {packageManifests.map((entry) => (
+            <div className="package-row" role="row" key={entry.packageId}>
+              <strong>{language === 'zh' ? entry.titleZh : entry.title}<small>{entry.packageId}</small></strong>
+              <span>{entry.maturity}</span>
+              <span>{number(entry.entityCount)}</span>
+              <span>{(entry.metrics.runtimeKnowledgeCompressedBytes / 1024).toFixed(1)} KiB</span>
+              <span>{number(entry.occurrenceCount)}</span>
+              <button type="button" onClick={() => void storeOffline(entry.packageId)}>{t('Save')}</button>
+            </div>
+          ))}
+        </div>
+        <div className="offline-actions">
+          <button className="button button--ghost" type="button" disabled={offlineStatus === 'saving'} onClick={() => void storeOffline()}>{t(offlineStatus === 'saving' ? 'Saving…' : offlineStatus === 'saved' ? 'Saved for offline use' : 'Save all published packages')}</button>
+          <button className="button button--ghost" type="button" onClick={() => void clearOffline()}>{t('Clear offline data')}</button>
+          {offlineStatus === 'failed' && <span role="alert">{t('Offline storage failed')}</span>}
+        </div>
+      </section>
+
+      <section className="info-section">
+        <div className="info-section__heading">
+          <span>03</span>
           <div><small>{t('Coverage')}</small><h2>{t('Period inventory')}</h2></div>
         </div>
         <div className="coverage-table" role="table" aria-label={t('Period coverage')}>
@@ -57,7 +137,7 @@ export function DataPage({ onNavigate }: PageProps) {
           </div>
           {[...periods].reverse().map((period) => (
             <div className="coverage-row" role="row" key={period.name}>
-              <strong><i style={{ background: period.color }} />{t(period.name)}</strong>
+              <strong><i style={{ background: period.color }} />{language === 'zh' ? period.nameZh : period.name}</strong>
               <span>{period.eag.toFixed(1)}—{period.lag.toFixed(1)} Ma</span>
               <span className={period.mapLayerStatus === 'available' ? 'coverage-ok' : ''}>{t(period.mapLayerStatus === 'available' ? 'Available' : 'Withheld pending provenance')}</span>
               <span className="coverage-ok">{t('Bundled')}</span>
@@ -68,7 +148,7 @@ export function DataPage({ onNavigate }: PageProps) {
 
       <section className="info-section info-section--limitations">
         <div className="info-section__heading">
-          <span>03</span>
+          <span>04</span>
           <div><small>{t('Known limits')}</small><h2>{t('Read before interpreting')}</h2></div>
         </div>
         <ol className="limitation-list">

@@ -6,7 +6,7 @@ const manifest = readJson('data/manifest.json')
 const summary = collectDataSummary()
 const next = {
   ...manifest,
-  schemaVersion: 2,
+  schemaVersion: 3,
   generatedAt: new Date().toISOString().slice(0, 10),
   records: summary.records,
   checksums: summary.checksums,

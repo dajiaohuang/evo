@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 3,
+  "id": "angiospermae",
+  "version": "2026.08-static-v3",
+  "title": "Angiosperms and Grasses",
+  "titleZh": "被子植物与禾草",
+  "rootEntityIds": [
+    "angiospermae"
+  ],
+  "entityIds": [
+    "angiospermae",
+    "monocotyledones",
+    "poaceae",
+    "eudicotyledones",
+    "fabaceae"
+  ],
+  "canonicalSources": {
+    "entities": "data/registry/entities/entities.json",
+    "taxonomy": "data/navigation/atlas-ontology.json",
+    "references": "data/references.json",
+    "occurrences": "data/fossils/*.json"
+  },
+  "maturity": "gold-v2",
+  "reviewStatus": "automated-audit-passed",
+  "limitations": [
+    "Package dossiers expose the current curated evidence boundary; unavailable fields are explicit and are not inferred."
+  ]
+}

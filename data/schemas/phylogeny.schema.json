@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://dajiaohuang.github.io/evo/schemas/phylogeny.schema.json",
+  "type": "object",
+  "required": ["id", "scopeNodeId", "root"],
+  "properties": {
+    "id": { "type": "string", "minLength": 1 },
+    "scopeNodeId": { "type": "string", "minLength": 1 },
+    "root": { "$ref": "#/$defs/node" }
+  },
+  "$defs": {
+    "node": {
+      "type": "object",
+      "required": ["id", "name", "firstAppearance", "lastAppearance", "extinct", "children"],
+      "properties": {
+        "id": { "type": "string" },
+        "name": { "type": "string" },
+        "firstAppearance": { "type": "number", "minimum": 0 },
+        "lastAppearance": { "type": "number", "minimum": 0 },
+        "extinct": { "type": "boolean" },
+        "children": { "type": "array", "items": { "$ref": "#/$defs/node" } }
+      }
+    }
+  }
+}

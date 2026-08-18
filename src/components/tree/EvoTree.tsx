@@ -3,7 +3,7 @@ import * as d3 from 'd3'
 import { useAppStore } from '../../store'
 import type { TreeNode } from '../../types'
 import treeData from '../../../data/navigation/atlas-ontology.json'
-import perissodactylHypothesisData from '../../../data/phylogenies/perissodactyla-hypothesis.json'
+import perissodactylHypothesisData from '../../../data/packages/mammalia/perissodactyla/phylogeny/hypothesis.json'
 import type { TreeDisplayMode } from '../../types'
 import { useI18n } from '../../i18n'
 import { getTaxonProfile } from '../../services/catalog'
@@ -34,8 +34,8 @@ export function EvoTree() {
   const selectSubject = useAppStore((state) => state.selectSubject)
   const nodeLabel = useCallback((node: TreeNode) => {
     if (language !== 'zh') return node.commonName || node.name
-    return getTaxonProfile(node.id)?.commonNameZh ?? t(node.commonName || node.name)
-  }, [language, t])
+    return getTaxonProfile(node.id)?.commonNameZh ?? node.commonNameZh ?? node.commonName ?? node.name
+  }, [language])
 
   const handleNodeClick = useCallback((nodeId: string) => {
     const node = findNode([treeData as TreeNode], nodeId)

@@ -1,0 +1,28 @@
+{
+  "ontology": "data/navigation/atlas-ontology.json",
+  "rootEntityIds": [
+    "primates"
+  ],
+  "relationships": [
+    {
+      "id": "primates",
+      "parentId": "placentalia"
+    },
+    {
+      "id": "hominidae",
+      "parentId": "primates"
+    },
+    {
+      "id": "homo",
+      "parentId": "hominidae"
+    },
+    {
+      "id": "homo_sapiens",
+      "parentId": "homo"
+    },
+    {
+      "id": "homo_neanderthalensis",
+      "parentId": "homo"
+    }
+  ]
+}

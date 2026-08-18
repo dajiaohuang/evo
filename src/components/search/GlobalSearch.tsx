@@ -1,10 +1,14 @@
 import { useEffect, useRef, useState } from 'react'
 import { searchCatalog } from '../../services/catalog'
+import { searchStaticData } from '../../data-client/staticDataClient'
 import { parseRouteHash, type AppRoute } from '../../utils/routing'
+import type { SearchResult } from '../../types'
 import { useI18n } from '../../i18n'
 import './GlobalSearch.css'
 
-const kindLabels = {
+type SearchResultKind = SearchResult['kind']
+
+const kindLabels: Record<SearchResultKind, string> = {
   taxon: 'Taxon',
   event: 'Event',
   story: 'Story',
@@ -21,8 +25,45 @@ export function GlobalSearch({ onNavigate }: GlobalSearchProps) {
   const { language, t } = useI18n()
   const [open, setOpen] = useState(false)
   const [query, setQuery] = useState('')
+  const [staticResults, setStaticResults] = useState<SearchResult[] | null>(null)
   const inputRef = useRef<HTMLInputElement>(null)
-  const results = searchCatalog(query)
+  const fallbackResults = searchCatalog(query)
+  const results = query.trim() && staticResults ? staticResults : fallbackResults
+
+  useEffect(() => {
+    let cancelled = false
+    const normalized = query.trim()
+    if (!normalized) return () => { cancelled = true }
+    const timer = window.setTimeout(() => {
+      void searchStaticData(normalized).then((entries) => {
+        if (cancelled) return
+        setStaticResults(entries.filter((entry) => entry.route).map((entry) => {
+          const kind: SearchResultKind = entry.kind === 'event' ? 'event'
+            : entry.kind === 'story' ? 'story'
+              : entry.kind === 'period' ? 'interval'
+                : entry.kind === 'place' ? 'place'
+                  : entry.kind === 'profile' ? 'taxon'
+                    : 'tree'
+          return {
+            id: entry.id,
+            kind,
+            title: entry.titleEn ?? entry.title,
+            titleZh: entry.titleZh,
+            subtitle: entry.title,
+            subtitleZh: entry.title,
+            keywords: entry.terms.filter((term): term is string => typeof term === 'string').join(' '),
+            route: entry.route!,
+          }
+        }))
+      }).catch(() => {
+        if (!cancelled) setStaticResults(null)
+      })
+    }, 120)
+    return () => {
+      cancelled = true
+      window.clearTimeout(timer)
+    }
+  }, [query])
 
   useEffect(() => {
     const handler = (event: KeyboardEvent) => {
@@ -45,6 +86,7 @@ export function GlobalSearch({ onNavigate }: GlobalSearchProps) {
   const selectResult = (route: string) => {
     setOpen(false)
     setQuery('')
+    setStaticResults(null)
     const parsed = parseRouteHash(route)
     onNavigate(parsed.route, Object.fromEntries(parsed.params.entries()))
   }
@@ -66,7 +108,10 @@ export function GlobalSearch({ onNavigate }: GlobalSearchProps) {
               <input
                 ref={inputRef}
                 value={query}
-                onChange={(event) => setQuery(event.target.value)}
+                onChange={(event) => {
+                  setQuery(event.target.value)
+                  setStaticResults(null)
+                }}
                 placeholder={t('Search taxa, intervals, events, places…')}
               />
               <kbd>ESC</kbd>
@@ -83,7 +128,9 @@ export function GlobalSearch({ onNavigate }: GlobalSearchProps) {
                   <span className={`search-kind search-kind--${result.kind}`}>{t(kindLabels[result.kind])}</span>
                   <span className="search-result-copy">
                     <strong>{t(language === 'zh' ? result.titleZh ?? result.title : result.title)}</strong>
-                    <small>{(language === 'zh' ? result.subtitleZh ?? result.subtitle : result.subtitle).split(' · ').map((part) => t(part)).join(' · ')}</small>
+                    <small>{language === 'zh' && result.subtitleZh
+                      ? result.subtitleZh
+                      : result.subtitle.split(' · ').map((part) => t(part)).join(' · ')}</small>
                   </span>
                   <i aria-hidden="true">↗</i>
                 </button>

@@ -1,0 +1,40 @@
+{
+  "ontology": "data/navigation/atlas-ontology.json",
+  "rootEntityIds": [
+    "monotremata",
+    "marsupialia",
+    "proboscidea",
+    "chiroptera",
+    "rodentia"
+  ],
+  "relationships": [
+    {
+      "id": "monotremata",
+      "parentId": "mammalia"
+    },
+    {
+      "id": "marsupialia",
+      "parentId": "mammalia"
+    },
+    {
+      "id": "diprotodontia",
+      "parentId": "marsupialia"
+    },
+    {
+      "id": "proboscidea",
+      "parentId": "placentalia"
+    },
+    {
+      "id": "mammuthus",
+      "parentId": "proboscidea"
+    },
+    {
+      "id": "chiroptera",
+      "parentId": "placentalia"
+    },
+    {
+      "id": "rodentia",
+      "parentId": "placentalia"
+    }
+  ]
+}

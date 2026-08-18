@@ -1,27 +1,12 @@
 import type { FossilOccurrence } from '../types'
 import type { TaxonOccurrenceQueryResult, TaxonQueryScope } from '../types'
 import taxonPeriodIndexData from '../../data/indexes/taxon-period-index.json'
+import { loadOccurrenceManifest, loadRuntimeFile } from '../data-client/staticDataClient'
 
-const asFossils = (arr: unknown): FossilOccurrence[] => arr as FossilOccurrence[]
-
-type FossilModule = { default: unknown }
-
-const fossilLoaders: Record<string, () => Promise<FossilModule>> = {
-  Cambrian: () => import('../../data/fossils/cambrian.json'),
-  Ordovician: () => import('../../data/fossils/ordovician.json'),
-  Silurian: () => import('../../data/fossils/silurian.json'),
-  Devonian: () => import('../../data/fossils/devonian.json'),
-  Carboniferous: () => import('../../data/fossils/carboniferous.json'),
-  Permian: () => import('../../data/fossils/permian.json'),
-  Triassic: () => import('../../data/fossils/triassic.json'),
-  Jurassic: () => import('../../data/fossils/jurassic.json'),
-  Cretaceous: () => import('../../data/fossils/cretaceous.json'),
-  Paleogene: () => import('../../data/fossils/paleogene.json'),
-  Neogene: () => import('../../data/fossils/neogene.json'),
-  Quaternary: () => import('../../data/fossils/quaternary.json'),
-}
-
-export const FOSSIL_PERIODS = Object.freeze(Object.keys(fossilLoaders))
+export const FOSSIL_PERIODS = Object.freeze([
+  'Cambrian', 'Ordovician', 'Silurian', 'Devonian', 'Carboniferous', 'Permian',
+  'Triassic', 'Jurassic', 'Cretaceous', 'Paleogene', 'Neogene', 'Quaternary',
+])
 
 const fossilStore: Record<string, FossilOccurrence[]> = {}
 const loadingPeriods = new Map<string, Promise<FossilOccurrence[]>>()
@@ -42,14 +27,17 @@ const taxonPeriodIndex = taxonPeriodIndexData as TaxonPeriodIndex
 export async function getFossilsByInterval(period: string): Promise<FossilOccurrence[]> {
   if (fossilStore[period]) return fossilStore[period]
   if (loadingPeriods.has(period)) return loadingPeriods.get(period)!
-  const loader = fossilLoaders[period]
-  if (!loader) return []
+  if (!FOSSIL_PERIODS.includes(period)) return []
 
-  const promise = loader().then((module) => {
-    const records = asFossils(module.default)
+  const promise = loadOccurrenceManifest().then(async (manifest) => {
+    const shards = manifest.periods[period] ?? []
+    const records = (await Promise.all(shards.map((file) => loadRuntimeFile<FossilOccurrence[]>(file)))).flat()
     fossilStore[period] = records
     loadingPeriods.delete(period)
     return records
+  }, (error) => {
+    loadingPeriods.delete(period)
+    throw error
   })
   loadingPeriods.set(period, promise)
   return promise

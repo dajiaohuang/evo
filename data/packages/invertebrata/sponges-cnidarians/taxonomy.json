@@ -1,0 +1,41 @@
+{
+  "ontology": "data/navigation/atlas-ontology.json",
+  "rootEntityIds": [
+    "porifera",
+    "cnidaria"
+  ],
+  "relationships": [
+    {
+      "id": "porifera",
+      "parentId": "invertebrata"
+    },
+    {
+      "id": "stromatoporoidea",
+      "parentId": "porifera"
+    },
+    {
+      "id": "demospongiae",
+      "parentId": "porifera"
+    },
+    {
+      "id": "cnidaria",
+      "parentId": "invertebrata"
+    },
+    {
+      "id": "anthozoa",
+      "parentId": "cnidaria"
+    },
+    {
+      "id": "rugosa",
+      "parentId": "anthozoa"
+    },
+    {
+      "id": "tabulata",
+      "parentId": "anthozoa"
+    },
+    {
+      "id": "scleractinia",
+      "parentId": "anthozoa"
+    }
+  ]
+}

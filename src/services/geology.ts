@@ -14,6 +14,7 @@ interface PeriodMapMetadata {
   keyContinentalConfig: string
   mapLayerStatus: 'available' | 'withheld-pending-provenance'
   description: string
+  descriptionZh: string
 }
 
 export const timeScale = timeScaleData as TimeScaleData
@@ -33,6 +34,15 @@ function ancestorName(unit: GeoInterval, type: GeoInterval['itp']): string {
   return ''
 }
 
+function ancestorNameZh(unit: GeoInterval, type: GeoInterval['itp']): string {
+  let cursor = unit.pid ? unitsById.get(unit.pid) : undefined
+  while (cursor) {
+    if (cursor.itp === type) return cursor.namZh ?? cursor.nam
+    cursor = cursor.pid ? unitsById.get(cursor.pid) : undefined
+  }
+  return ''
+}
+
 export const periods: PeriodInfo[] = timeScaleUnits
   .filter((unit) => unit.itp === 'period')
   .map((unit) => {
@@ -40,15 +50,19 @@ export const periods: PeriodInfo[] = timeScaleUnits
     if (!metadata) throw new Error(`Missing map metadata for geological period ${unit.nam}`)
     return {
       name: unit.nam,
+      nameZh: unit.namZh ?? unit.nam,
       abr: unit.abr ?? unit.nam.slice(0, 2),
       era: ancestorName(unit, 'era'),
+      eraZh: ancestorNameZh(unit, 'era'),
       eon: ancestorName(unit, 'eon'),
+      eonZh: ancestorNameZh(unit, 'eon'),
       lag: unit.lag,
       eag: unit.eag,
       color: unit.col,
       keyContinentalConfig: metadata.keyContinentalConfig,
       mapLayerStatus: metadata.mapLayerStatus,
       description: metadata.description,
+      descriptionZh: metadata.descriptionZh,
     }
   })
   .sort((a, b) => a.lag - b.lag)

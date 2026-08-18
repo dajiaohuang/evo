@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 3,
+  "id": "other-mammals",
+  "version": "2026.08-static-v3",
+  "title": "Monotremes, Marsupials and Other Placental Radiations",
+  "titleZh": "单孔类、有袋类与其他胎盘类辐射",
+  "rootEntityIds": [
+    "monotremata",
+    "marsupialia",
+    "proboscidea",
+    "chiroptera",
+    "rodentia"
+  ],
+  "entityIds": [
+    "monotremata",
+    "marsupialia",
+    "diprotodontia",
+    "proboscidea",
+    "mammuthus",
+    "chiroptera",
+    "rodentia"
+  ],
+  "canonicalSources": {
+    "entities": "data/registry/entities/entities.json",
+    "taxonomy": "data/navigation/atlas-ontology.json",
+    "references": "data/references.json",
+    "occurrences": "data/fossils/*.json"
+  },
+  "maturity": "gold-v2",
+  "reviewStatus": "automated-audit-passed",
+  "limitations": [
+    "Package dossiers expose the current curated evidence boundary; unavailable fields are explicit and are not inferred."
+  ]
+}

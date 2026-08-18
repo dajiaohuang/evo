@@ -1,0 +1,29 @@
+{
+  "ontology": "data/navigation/atlas-ontology.json",
+  "rootEntityIds": [
+    "crocodylomorpha",
+    "aves"
+  ],
+  "relationships": [
+    {
+      "id": "crocodylomorpha",
+      "parentId": "archosauria"
+    },
+    {
+      "id": "aves",
+      "parentId": "theropoda"
+    },
+    {
+      "id": "archaeopteryx",
+      "parentId": "aves"
+    },
+    {
+      "id": "neornithes",
+      "parentId": "aves"
+    },
+    {
+      "id": "phorusrhacidae",
+      "parentId": "neornithes"
+    }
+  ]
+}

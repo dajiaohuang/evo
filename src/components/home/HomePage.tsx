@@ -89,10 +89,10 @@ export function HomePage({ onNavigate }: HomePageProps) {
               key={period.name}
               style={{ '--period-color': period.color } as React.CSSProperties}
               onClick={() => enterAt((period.eag + period.lag) / 2)}
-              title={t(period.description)}
+              title={language === 'zh' ? period.descriptionZh : period.description}
             >
               <span>{period.abr}</span>
-              <strong>{t(period.name)}</strong>
+              <strong>{language === 'zh' ? period.nameZh : period.name}</strong>
               <small>{period.eag.toFixed(1)} Ma</small>
             </button>
           ))}

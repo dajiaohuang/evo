@@ -46,14 +46,16 @@ export function collectDataSummary() {
   const references = readJson('data/references.json')
   const places = readJson('data/places.json')
   const media = readJson('data/media.json')
-  const perissodactylCalibrations = readJson('data/phylogenies/perissodactyla-calibrations.json')
+  const perissodactylCalibrations = readJson('data/packages/mammalia/perissodactyla/phylogeny/calibrations.json')
   const events = readJson('data/events.json')
   const stories = readJson('data/stories.json')
-  const profiles = readJson('data/taxa/profiles.json')
+  const profiles = readJson('data/packages/mammalia/perissodactyla/profiles.json')
   const ontology = readJson('data/navigation/atlas-ontology.json')
   const treeEvidence = readJson('data/tree/evidence.json')
   const claims = readJson('data/evidence/claims.json')
   const editorialDecisions = readJson('data/evidence/editorial-decisions.json')
+  const entityRegistry = readJson('data/registry/entities/entities.json')
+  const packageRegistry = readJson('data/registry/package-registry.json')
   const periodNames = timeScale.units.filter((unit) => unit.itp === 'period').map((unit) => unit.nam)
   const fossilOccurrences = periodNames.reduce((sum, periodName) => {
     return sum + readJson(`data/fossils/${periodName.toLowerCase()}.json`).length
@@ -77,6 +79,10 @@ export function collectDataSummary() {
       treeEvidenceOverrides: Object.keys(treeEvidence.nodes).length,
       evidenceClaims: claims.length,
       editorialDecisions: editorialDecisions.length,
+      registryEntities: entityRegistry.length,
+      dataPackages: packageRegistry.packages.length,
+      bilingualRegistryEntities: entityRegistry.filter((entity) => entity.names.en && entity.names.zh).length,
+      packageOwnedEntities: entityRegistry.filter((entity) => entity.packageId).length,
     },
     checksums: Object.fromEntries(dataFiles().map((path) => [relative(rootDir, join(rootDir, path)).replaceAll('\\', '/'), sha256(path)])),
   }

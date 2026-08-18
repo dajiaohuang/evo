@@ -24,7 +24,7 @@ export default defineConfig({
         ],
       },
       workbox: {
-        globPatterns: ['**/*.{html,css,svg}', 'assets/index-*.js', 'assets/workbox-window*.js'],
+        globPatterns: ['**/*.{html,css,svg}', 'assets/index-*.js', 'assets/workbox-window*.js', 'data/current.json', 'data/core/*.json.gz'],
         navigateFallback: '/evo/index.html',
         cleanupOutdatedCaches: true,
         runtimeCaching: [
@@ -34,6 +34,15 @@ export default defineConfig({
             options: {
               cacheName: 'evo-lazy-assets-v1',
               expiration: { maxEntries: 80, maxAgeSeconds: 60 * 60 * 24 * 30 },
+              cacheableResponse: { statuses: [0, 200] },
+            },
+          },
+          {
+            urlPattern: ({ url, sameOrigin }) => sameOrigin && /^\/evo\/data\/(?:packages|package-search-index|occurrences|maps)\//.test(url.pathname),
+            handler: 'CacheFirst',
+            options: {
+              cacheName: 'evo-runtime-data-v1',
+              expiration: { maxEntries: 220, maxAgeSeconds: 60 * 60 * 24 * 30 },
               cacheableResponse: { statuses: [0, 200] },
             },
           },

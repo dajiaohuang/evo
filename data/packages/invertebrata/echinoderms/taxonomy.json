@@ -1,0 +1,28 @@
+{
+  "ontology": "data/navigation/atlas-ontology.json",
+  "rootEntityIds": [
+    "echinodermata"
+  ],
+  "relationships": [
+    {
+      "id": "echinodermata",
+      "parentId": "invertebrata"
+    },
+    {
+      "id": "crinoidea",
+      "parentId": "echinodermata"
+    },
+    {
+      "id": "blastoidea",
+      "parentId": "echinodermata"
+    },
+    {
+      "id": "echinoidea",
+      "parentId": "echinodermata"
+    },
+    {
+      "id": "asteroidea",
+      "parentId": "echinodermata"
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "ontology": "data/navigation/atlas-ontology.json",
+  "rootEntityIds": [
+    "dinosauria"
+  ],
+  "relationships": [
+    {
+      "id": "dinosauria",
+      "parentId": "archosauria"
+    },
+    {
+      "id": "ornithischia",
+      "parentId": "dinosauria"
+    },
+    {
+      "id": "stegosauria",
+      "parentId": "ornithischia"
+    },
+    {
+      "id": "ankylosauria",
+      "parentId": "ornithischia"
+    },
+    {
+      "id": "ankylosaurus",
+      "parentId": "ankylosauria"
+    },
+    {
+      "id": "ceratopsia",
+      "parentId": "ornithischia"
+    },
+    {
+      "id": "triceratops",
+      "parentId": "ceratopsia"
+    },
+    {
+      "id": "hadrosauridae",
+      "parentId": "ornithischia"
+    },
+    {
+      "id": "edmontosaurus",
+      "parentId": "hadrosauridae"
+    },
+    {
+      "id": "saurischia",
+      "parentId": "dinosauria"
+    },
+    {
+      "id": "sauropodomorpha",
+      "parentId": "saurischia"
+    },
+    {
+      "id": "brachiosauridae",
+      "parentId": "sauropodomorpha"
+    },
+    {
+      "id": "diplodocidae",
+      "parentId": "sauropodomorpha"
+    },
+    {
+      "id": "titanosauria",
+      "parentId": "sauropodomorpha"
+    },
+    {
+      "id": "theropoda",
+      "parentId": "saurischia"
+    },
+    {
+      "id": "tyrannosauridae",
+      "parentId": "theropoda"
+    },
+    {
+      "id": "tyrannosaurus",
+      "parentId": "tyrannosauridae"
+    },
+    {
+      "id": "spinosauridae",
+      "parentId": "theropoda"
+    },
+    {
+      "id": "spinosaurus",
+      "parentId": "spinosauridae"
+    },
+    {
+      "id": "dromaeosauridae",
+      "parentId": "theropoda"
+    },
+    {
+      "id": "velociraptor",
+      "parentId": "dromaeosauridae"
+    }
+  ]
+}

@@ -3,6 +3,8 @@
   "source": "PBDB Data Service 1.2",
   "endpoint": "https://paleobiodb.org/data1.2/occs/list.json",
   "fetchedAt": "2026-08-18",
+  "classificationEnrichedAt": "2026-08-19",
+  "classificationQuery": "id={occurrenceIds}&show=full,class",
   "samplingMethod": "bounded non-random API-prefix sample",
   "order": "id",
   "stratification": "geological period",
@@ -10,6 +12,27 @@
   "selectionProbabilityKnown": false,
   "sourceTotalsRetained": false,
   "queryTemplate": "interval={period}&limit={limit}&offset={offset}&show=full&order=id",
+  "periodLimits": {
+    "Cambrian": 1600,
+    "Ordovician": 1200,
+    "Silurian": 1600,
+    "Devonian": 1200,
+    "Carboniferous": 800,
+    "Permian": 1200,
+    "Triassic": 1200,
+    "Jurassic": 1200,
+    "Cretaceous": 800,
+    "Paleogene": 1200,
+    "Neogene": 800,
+    "Quaternary": 800
+  },
+  "packageAssignment": {
+    "method": "exact registry PBDB taxon ID, then version-controlled PBDB higher-classification rules",
+    "rules": "scripts/occurrence-package-map.mjs",
+    "mappedRecords": 12034,
+    "unresolvedRecords": 1566,
+    "unresolvedOwner": "atlas-core"
+  },
   "limitations": [
     "Each period stops at a configured row limit.",
     "Rows are ordered by PBDB occurrence identifier and are not a random or representative sample.",

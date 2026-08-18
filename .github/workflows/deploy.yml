@@ -30,7 +30,12 @@ jobs:
           node-version: 22
           cache: npm
       - run: npm ci
-      - run: npm run build
+      - name: Build the verified deployment revision
+        run: npm run build
+        env:
+          DEPLOYMENT_COMMIT_SHA: ${{ github.event.workflow_run.head_sha }}
+      - run: npm run pages:budget
+      - run: npm run pages:smoke
       - uses: actions/configure-pages@v4
       - uses: actions/upload-pages-artifact@v3
         with:
