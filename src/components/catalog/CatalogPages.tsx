@@ -67,7 +67,8 @@ function ClaimLedger({ claims }: { claims: EvidenceClaim[] }) {
         <article key={claim.id}>
           <span>{String(index + 1).padStart(2, '0')}</span>
           <p><strong>{t(claim.claimType.replace('-', ' '))}</strong><br />{t(claim.statement)}</p>
-          <small>{t(claim.confidence)} · {claim.referenceLinks.map((link) => link.referenceId).join(' · ')}</small>
+          <small>{t(claim.confidence)} · {claim.referenceLinks.map((link) => `${link.relation}: ${link.referenceId}`).join(' · ')}</small>
+          <small>{t(claim.confidenceRationale)}</small>
         </article>
       ))}
     </div>
@@ -90,7 +91,7 @@ function DivergenceLedger({ profileId }: { profileId: string }) {
         const reference = getReferences([estimate.referenceId])[0]
         return (
           <article key={estimate.id}>
-            <div><strong>{t(estimate.nodeLabel)}</strong><small>{t(estimate.method)}</small></div>
+            <div><strong>{t(estimate.nodeLabel)}</strong><small>{t(estimate.method)} · {t(estimate.mappingStatus === 'mapped' ? 'mapped to exact topology node' : 'unmapped; not shown on tree')}</small></div>
             <div className="divergence-track">
               <i style={{ left: `${(1 - older / maximumAge) * 100}%`, width: `${Math.max(.4, (older - younger) / maximumAge * 100)}%` }} />
               <b style={{ left: `${(1 - estimate.medianMa / maximumAge) * 100}%` }} />
@@ -123,7 +124,7 @@ export function TaxonPage({ id, onNavigate }: CatalogPageProps) {
   const profile = getTaxonProfile(id)
   const loadOccurrences = useAppStore((state) => state.loadOccurrencesForTaxon)
   const occurrences = useAppStore((state) => (
-    profile?.pbdbTaxonId ? state.occurrencesByTaxon[profile.pbdbTaxonId] : undefined
+    profile?.pbdbTaxonId ? state.occurrencesByTaxonQuery[`descendants:${profile.pbdbTaxonId}`] : undefined
   ))
   const taxonQuery = useAppStore((state) => (
     profile?.pbdbTaxonId ? state.taxonOccurrenceQueries[`descendants:${profile.pbdbTaxonId}`] : undefined
@@ -186,7 +187,7 @@ export function TaxonPage({ id, onNavigate }: CatalogPageProps) {
       </section>
       {taxonStatus === 'empty' && <p className="catalog-query-state">{t('No matching row occurs in the bounded local sample; this is not evidence of biological absence.')}</p>}
       {taxonStatus === 'error' && <p className="catalog-query-state catalog-query-state--error">{t('Local taxon query failed: {error}', { error: taxonError ?? t('Unknown') })}</p>}
-      {taxonQuery && <p className="catalog-query-state">{t('Loaded {rows} rows from {periods} relevant period chunk(s). Scope: represented descendants. Source: {method}.', { rows: number(taxonQuery.rowsLoaded), periods: taxonQuery.loadedPeriods.length, method: t(taxonQuery.samplingMethod) })}</p>}
+      {taxonQuery && <p className="catalog-query-state">{t('Loaded {rows} rows from {periods} relevant period chunk(s). Scope: {scope}. Index: {index}. Source: {method}.', { rows: number(taxonQuery.rowsLoaded), periods: taxonQuery.loadedPeriods.length, scope: t(taxonQuery.effectiveScope), index: t(taxonQuery.indexStatus), method: t(taxonQuery.samplingMethod) })}{taxonQuery.fallbackApplied ? ` ${t('The descendant index was unavailable, so this result fell back to exact taxon matching.')}` : ''}</p>}
 
       <div className="catalog-body">
         <aside className="catalog-toc">

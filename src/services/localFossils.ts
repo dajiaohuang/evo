@@ -60,7 +60,9 @@ export async function getFossilsByTaxon(
   scope: TaxonQueryScope = 'descendants',
 ): Promise<TaxonOccurrenceQueryResult> {
   const indexed = taxonPeriodIndex.nodes[taxonId]
-  const taxonIds = scope === 'descendants' && indexed
+  const fallbackApplied = scope === 'descendants' && !indexed
+  const effectiveScope: TaxonQueryScope = fallbackApplied ? 'exact' : scope
+  const taxonIds = effectiveScope === 'descendants' && indexed
     ? new Set(indexed.descendantTaxonIds)
     : new Set([taxonId])
   const periods = indexed?.periods.length ? indexed.periods : [...FOSSIL_PERIODS]
@@ -69,6 +71,9 @@ export async function getFossilsByTaxon(
   return {
     taxonId,
     scope,
+    effectiveScope,
+    indexStatus: indexed ? 'hit' : 'miss',
+    fallbackApplied,
     sourceTotal: taxonPeriodIndex.sourceTotal,
     matchedTotal: records.length,
     rowsLoaded: records.length,

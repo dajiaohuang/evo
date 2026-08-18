@@ -25,13 +25,13 @@ export function SpeciesDetail() {
   const currentPeriod = useAppStore((s) => s.currentPeriod)
   const currentAge = useAppStore((s) => s.currentAge)
   const highlightedTaxonId = useAppStore((s) => s.highlightedTaxonId)
-  const occurrencesByTaxon = useAppStore((s) => s.occurrencesByTaxon)
+  const occurrencesByTaxonQuery = useAppStore((s) => s.occurrencesByTaxonQuery)
   const taxonOccurrenceStatus = useAppStore((s) => s.taxonOccurrenceStatus)
   const taxonOccurrenceErrors = useAppStore((s) => s.taxonOccurrenceErrors)
   const occurrencesByInterval = useAppStore((s) => s.occurrencesByInterval)
   const selectedOccurrence = useAppStore((s) => s.selectedOccurrence)
   const selectFossilOccurrence = useAppStore((s) => s.selectFossilOccurrence)
-  const selectNode = useAppStore((s) => s.selectNode)
+  const selectSubject = useAppStore((s) => s.selectSubject)
   const setTime = useAppStore((s) => s.setTime)
 
   const node = selectedNodeId ? findNode([treeData as TreeNode], selectedNodeId) : null
@@ -40,10 +40,10 @@ export function SpeciesDetail() {
     ...evidenceCatalog.default,
     ...evidenceCatalog.nodes[node.id],
   } : null
-  const taxonOccurrences = highlightedTaxonId ? occurrencesByTaxon[highlightedTaxonId] ?? [] : []
+  const taxonQueryKey = highlightedTaxonId ? `descendants:${highlightedTaxonId}` : ''
+  const taxonOccurrences = taxonQueryKey ? occurrencesByTaxonQuery[taxonQueryKey] ?? [] : []
   const periodCache = currentPeriod ? (occurrencesByInterval[currentPeriod] ?? null) : null
   const periodFossils = periodCache ?? []
-  const taxonQueryKey = highlightedTaxonId ? `descendants:${highlightedTaxonId}` : ''
   const taxonStatus = taxonQueryKey ? taxonOccurrenceStatus[taxonQueryKey] ?? 'idle' : 'idle'
   const taxonError = taxonQueryKey ? taxonOccurrenceErrors[taxonQueryKey] : null
 
@@ -113,8 +113,7 @@ export function SpeciesDetail() {
                 if (!taxonId) return
                 const treeNode = findNodeByTaxon([treeData as TreeNode], taxonId)
                 if (treeNode) {
-                  selectNode(treeNode.id)
-                  selectFossilOccurrence(null)
+                  void selectSubject({ nodeId: treeNode.id, taxonId })
                 }
               }}
               style={{

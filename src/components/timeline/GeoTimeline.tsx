@@ -1,6 +1,6 @@
 import { useRef, useCallback, useEffect, useState } from 'react'
 import { useAppStore } from '../../store'
-import { EARTH_HISTORY_TOTAL_MA, ERA_COLORS, PHANEROZOIC_TOTAL_MA } from '../../constants'
+import { EARTH_HISTORY_TOTAL_MA, PHANEROZOIC_TOTAL_MA } from '../../constants'
 import eventsData from '../../../data/events.json'
 import type { GeoInterval } from '../../types'
 import { periods, timeScaleUnits } from '../../services/geology'
@@ -30,7 +30,8 @@ export function GeoTimeline() {
   const playbackRafRef = useRef<number>(0)
   const playbackAgeRef = useRef(currentAge)
 
-  const totalMa = scaleMode === 'earth' ? EARTH_HISTORY_TOTAL_MA : PHANEROZOIC_TOTAL_MA
+  const activeScaleMode = currentAge > PHANEROZOIC_TOTAL_MA ? 'earth' : scaleMode
+  const totalMa = activeScaleMode === 'earth' ? EARTH_HISTORY_TOTAL_MA : PHANEROZOIC_TOTAL_MA
 
   const ageToX = useCallback((age: number, width: number) => {
     return PADDING_X + (1 - Math.min(age, totalMa) / totalMa) * (width - PADDING_X * 2)
@@ -78,7 +79,6 @@ export function GeoTimeline() {
   }, [])
 
   useEffect(() => { playbackAgeRef.current = currentAge }, [currentAge])
-
   useEffect(() => {
     if (!playing) return
     let previous = performance.now()
@@ -109,12 +109,7 @@ export function GeoTimeline() {
 
   const handleX = ageToX(currentAge, width)
 
-  const eras = [
-    { name: 'Cenozoic', lag: 0, eag: 66, color: ERA_COLORS['Cenozoic'] },
-    { name: 'Mesozoic', lag: 66, eag: 251.9, color: ERA_COLORS['Mesozoic'] },
-    { name: 'Paleozoic', lag: 251.9, eag: 538.8, color: ERA_COLORS['Paleozoic'] },
-  ]
-
+  const eras = (timeScaleUnits as GeoInterval[]).filter((unit) => unit.itp === 'era' && unit.eag <= PHANEROZOIC_TOTAL_MA)
   const eons = (timeScaleUnits as GeoInterval[]).filter((unit) => unit.itp === 'eon')
 
   const ageLabel = currentAge >= 1000
@@ -136,8 +131,11 @@ export function GeoTimeline() {
         }}><option value="">{t('Jump to…')}</option>{eventsData.map((event) => <option value={event.id} key={event.id}>{language === 'zh' ? event.titleZh : event.title}</option>)}</select></label>
       </div>
       <div className="timeline-scale-switch" role="group" aria-label={t('Timeline scale')}>
-        <button className={scaleMode === 'earth' ? 'is-active' : ''} onClick={() => setScaleMode('earth')}>4.567 Ga</button>
-        <button className={scaleMode === 'phanerozoic' ? 'is-active' : ''} onClick={() => setScaleMode('phanerozoic')}>538.8 Ma</button>
+        <button className={activeScaleMode === 'earth' ? 'is-active' : ''} onClick={() => setScaleMode('earth')}>4.567 Ga</button>
+        <button className={activeScaleMode === 'phanerozoic' ? 'is-active' : ''} onClick={() => {
+          if (currentAge > PHANEROZOIC_TOTAL_MA) setTime(PHANEROZOIC_TOTAL_MA)
+          setScaleMode('phanerozoic')
+        }}>538.8 Ma</button>
       </div>
       <svg
         ref={svgRef}
@@ -146,7 +144,7 @@ export function GeoTimeline() {
       >
         <title>{t('Geological time control. Current context: {context}.', { context: t(currentPeriod ?? currentEon ?? 'Deep time') })}</title>
         <rect x={0} y={0} width="100%" height="100%" fill="transparent" />
-        {scaleMode === 'earth' && eons.map((eon) => {
+        {activeScaleMode === 'earth' && eons.map((eon) => {
           const left = ageToX(eon.eag, width)
           const right = ageToX(eon.lag, width)
           const eonWidth = Math.max(1, right - left)
@@ -177,22 +175,22 @@ export function GeoTimeline() {
             </g>
           )
         })}
-        {scaleMode === 'phanerozoic' && eras.map((era) => {
+        {activeScaleMode === 'phanerozoic' && eras.map((era) => {
           const left = ageToX(era.eag, width)
           const right = ageToX(era.lag, width)
           return (
             <rect
-              key={era.name}
+              key={era.oid}
               x={left}
               y={TRACK_TOP}
               width={Math.max(1, right - left)}
               height={ERA_TRACK_HEIGHT}
-              fill={era.color}
+              fill={era.col}
               opacity={0.6}
             />
           )
         })}
-        {scaleMode === 'phanerozoic' && periods.map((p) => {
+        {activeScaleMode === 'phanerozoic' && periods.map((p) => {
           const left = ageToX(p.eag, width)
           const right = ageToX(p.lag, width)
           const periodW = Math.max(1, right - left)

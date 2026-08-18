@@ -1,4 +1,5 @@
 import type { LabQuery } from './lab'
+import manifest from '../../data/manifest.json'
 
 const DATABASE_NAME = 'evo-atlas-workspace'
 const STORE_NAME = 'query-history'
@@ -8,6 +9,7 @@ export interface SavedLabQuery {
   id: string
   savedAt: string
   matched: number
+  datasetVersion?: string
   query: LabQuery
 }
 
@@ -49,6 +51,7 @@ export async function saveLabQuery(query: LabQuery, matched: number): Promise<vo
     id: `${savedAt}:${crypto.randomUUID?.() ?? Math.random().toString(36).slice(2)}`,
     savedAt,
     matched,
+    datasetVersion: manifest.datasetVersion,
     query: structuredClone(query),
   }
   await new Promise<void>((resolve, reject) => {

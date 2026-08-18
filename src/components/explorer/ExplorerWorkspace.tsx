@@ -67,6 +67,11 @@ export function ExplorerWorkspace() {
     younger: getFiniteRouteNumber(initialRoute.params, 'younger'),
   }))
   const [view, setView] = useState<ExplorerView>(initialView)
+  const requestedDataset = initialRoute.params.get('dataset')
+  const datasetMismatch = requestedDataset && requestedDataset !== manifest.datasetVersion
+    ? { requested: requestedDataset, current: manifest.datasetVersion }
+    : null
+  const [datasetAccepted, setDatasetAccepted] = useState(!datasetMismatch)
   const [mobilePanel, setMobilePanel] = useState<'navigator' | 'inspector' | null>(null)
   const [query, setQuery] = useState('')
   const [shareStatus, setShareStatus] = useState<'idle' | 'copied' | 'ready'>('idle')
@@ -77,24 +82,18 @@ export function ExplorerWorkspace() {
   const currentEon = useAppStore((state) => state.currentEon)
   const selectedNodeId = useAppStore((state) => state.selectedNodeId)
   const setTime = useAppStore((state) => state.setTime)
-  const selectNode = useAppStore((state) => state.selectNode)
-  const highlightTaxon = useAppStore((state) => state.highlightTaxon)
-  const loadOccurrencesForTaxon = useAppStore((state) => state.loadOccurrencesForTaxon)
+  const selectSubject = useAppStore((state) => state.selectSubject)
   const loadOccurrencesForInterval = useAppStore((state) => state.loadOccurrencesForInterval)
   const viewState = useAppStore((state) => state.viewState)
   const markerMode = useAppStore((state) => state.markerMode)
   const coordinateMode = useAppStore((state) => state.coordinateMode)
-  const showContinents = useAppStore((state) => state.showContinents)
-  const reconstructionModelId = useAppStore((state) => state.reconstructionModelId)
   const treeMode = useAppStore((state) => state.treeMode)
   const selectedOccurrence = useAppStore((state) => state.selectedOccurrence)
   const occurrencesByInterval = useAppStore((state) => state.occurrencesByInterval)
-  const occurrencesByTaxon = useAppStore((state) => state.occurrencesByTaxon)
+  const occurrencesByTaxonQuery = useAppStore((state) => state.occurrencesByTaxonQuery)
   const setViewState = useAppStore((state) => state.setViewState)
   const setMarkerMode = useAppStore((state) => state.setMarkerMode)
   const setCoordinateMode = useAppStore((state) => state.setCoordinateMode)
-  const setShowContinents = useAppStore((state) => state.setShowContinents)
-  const setReconstructionModelId = useAppStore((state) => state.setReconstructionModelId)
   const setTreeMode = useAppStore((state) => state.setTreeMode)
   const selectFossilOccurrence = useAppStore((state) => state.selectFossilOccurrence)
   const periodOccurrences = useAppStore((state) => (
@@ -134,27 +133,17 @@ export function ExplorerWorkspace() {
     if (requestedMarkerMode && MARKER_MODES.has(requestedMarkerMode)) setMarkerMode(requestedMarkerMode)
     const requestedCoordinateMode = params.get('coords') as CoordinateMode | null
     if (requestedCoordinateMode && COORDINATE_MODES.has(requestedCoordinateMode)) setCoordinateMode(requestedCoordinateMode)
-    if (params.has('land')) setShowContinents(params.get('land') !== '0')
     const requestedTreeMode = params.get('treeMode') as TreeDisplayMode | null
     if (requestedTreeMode && TREE_MODES.has(requestedTreeMode)) setTreeMode(requestedTreeMode)
-    const requestedModel = params.get('model')
-    if (requestedModel) setReconstructionModelId(requestedModel)
-
     const taxon = params.get('taxon')
     if (taxon) {
       const node = nodes.find((candidate) => candidate.id === taxon)
       if (node) {
-        selectNode(node.id)
-        if (node.taxonId) {
-          highlightTaxon(node.taxonId)
-          loadOccurrencesForTaxon(node.taxonId)
-        }
+        void selectSubject({ nodeId: node.id, taxonId: node.taxonId })
       }
     }
     if (profileContext?.pbdbTaxonId) {
-      if (profileContext.treeNodeId) selectNode(profileContext.treeNodeId)
-      highlightTaxon(profileContext.pbdbTaxonId)
-      void loadOccurrencesForTaxon(profileContext.pbdbTaxonId)
+      void selectSubject({ nodeId: profileContext.treeNodeId ?? null, taxonId: profileContext.pbdbTaxonId })
     }
     // Initial URL hydration only.
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -169,13 +158,14 @@ export function ExplorerWorkspace() {
     if (!requestedId || selectedOccurrence?.oid === requestedId) return
     const availableRecords = [
       ...Object.values(occurrencesByInterval).flat(),
-      ...Object.values(occurrencesByTaxon).flat(),
+      ...Object.values(occurrencesByTaxonQuery).flat(),
     ]
     const match = availableRecords.find((record) => record.oid === requestedId)
     if (match) selectFossilOccurrence(match)
-  }, [initialRoute.params, occurrencesByInterval, occurrencesByTaxon, selectFossilOccurrence, selectedOccurrence?.oid])
+  }, [initialRoute.params, occurrencesByInterval, occurrencesByTaxonQuery, selectFossilOccurrence, selectedOccurrence?.oid])
 
   useEffect(() => {
+    if (!datasetAccepted) return
     const hash = buildRouteHash('explore', {
       age: currentAge.toFixed(1),
       view,
@@ -192,20 +182,14 @@ export function ExplorerWorkspace() {
       zoom: viewState.zoom.toFixed(2),
       markers: markerMode,
       coords: coordinateMode,
-      land: showContinents ? 1 : 0,
-      model: reconstructionModelId,
       treeMode,
       occurrence: selectedOccurrence?.oid,
     })
     window.history.replaceState(null, '', `${window.location.pathname}${window.location.search}${hash}`)
-  }, [context, coordinateMode, currentAge, markerMode, reconstructionModelId, selectedNodeId, selectedOccurrence?.oid, showContinents, treeMode, view, viewState])
+  }, [context, coordinateMode, currentAge, datasetAccepted, markerMode, selectedNodeId, selectedOccurrence?.oid, treeMode, view, viewState])
 
   const chooseNode = (node: FlatNode) => {
-    selectNode(node.id)
-    if (node.taxonId) {
-      highlightTaxon(node.taxonId)
-      loadOccurrencesForTaxon(node.taxonId)
-    }
+    void selectSubject({ nodeId: node.id, taxonId: node.taxonId })
     const midpoint = (node.firstAppearance + node.lastAppearance) / 2
     if (Number.isFinite(midpoint)) setTime(midpoint)
     setMobilePanel(null)
@@ -225,6 +209,19 @@ export function ExplorerWorkspace() {
 
   return (
     <main className="explorer-workspace">
+      {datasetMismatch && !datasetAccepted && (
+        <section className="dataset-mismatch" role="alertdialog" aria-modal="true" aria-labelledby="dataset-mismatch-title">
+          <div>
+            <span>{t('Dataset version mismatch')}</span>
+            <h2 id="dataset-mismatch-title">{t('This shared link targets a different data snapshot.')}</h2>
+            <p>{t('Requested {requested}; this deployment provides {current}. Continuing may change scientific results.', datasetMismatch)}</p>
+            <div>
+              <a href="#/home">{t('Leave Explorer')}</a>
+              <button autoFocus onClick={() => setDatasetAccepted(true)}>{t('Use current dataset')}</button>
+            </div>
+          </div>
+        </section>
+      )}
       <aside className={`explorer-nav${mobilePanel === 'navigator' ? ' is-open' : ''}`} aria-label={t('Taxon and time navigator')}>
         <div className="panel-heading">
           <span>{t('Taxon navigator')}</span>
@@ -285,6 +282,11 @@ export function ExplorerWorkspace() {
         <button className="share-button" onClick={shareState}>
           <span>↗</span> {t(shareStatus === 'copied' ? 'Link copied' : shareStatus === 'ready' ? 'URL is ready' : 'Share state')}
         </button>
+        <div className="dataset-status" role="status">
+          <span>{t('Dataset')}</span>
+          <strong>{manifest.datasetVersion}</strong>
+          <small>{t(datasetMismatch ? 'Mismatch acknowledged; using the current snapshot.' : requestedDataset ? 'Shared snapshot matches this deployment.' : 'Current deployment snapshot.')}</small>
+        </div>
       </aside>
 
       {mobilePanel && <button className="explorer-panel-backdrop" aria-label={t('Close Explorer panel')} onClick={() => setMobilePanel(null)} />}
@@ -329,7 +331,7 @@ export function ExplorerWorkspace() {
               ? t('{event} · event window {start}–{end} Ma', { event: language === 'zh' ? eventContext.titleZh : eventContext.title, start: eventContext.startAge, end: eventContext.endAge })
               : context.older !== null && context.younger !== null
                 ? t('Shared time window {older}–{younger} Ma · map shown at {age} Ma', { older: context.older, younger: context.younger, age: currentAge.toFixed(1) })
-                : t('Period-level paleogeography · coordinate layers never mix modern and reconstructed positions')
+                : t('Continental geometry is withheld · coordinate layers never mix modern and reconstructed positions')
             : view === 'tree'
               ? t('Cladogram, first-appearance proxy and fossil-range modes expose distinct time assumptions')
               : t('Observed sample patterns · absence and record counts are not direct biological richness estimates')}

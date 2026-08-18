@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest'
 import type { FossilOccurrence } from '../types'
-import { createQueryPackage, filterFossils, fossilsToCsv, fossilsToGeoJson, type LabQuery } from './lab'
+import { createQueryPackage, filterFossils, fossilsToCsv, fossilsToGeoJson, validateLabQuery, type LabQuery } from './lab'
 
 const records: FossilOccurrence[] = [
   { oid: 'occ:1', tna: 'Hipparion', idn: '', tid: 'txn:1', rnk: 5, lng: '10', lat: '20', paleolng: 12, paleolat: 22, eag: 10, lag: 8, cid: 'c1', oei: '', cc2: 'CN' },
@@ -18,6 +18,15 @@ describe('lab query helpers', () => {
     expect(fossilsToCsv(records)).toContain('Hipparion')
     expect(fossilsToGeoJson(records, 'paleo').features).toHaveLength(1)
     expect(fossilsToGeoJson(records, 'modern').features).toHaveLength(2)
+  })
+
+  it('rejects a reversed age window', () => {
+    expect(() => validateLabQuery({ ...query, olderMa: 7, youngerMa: 11 })).toThrow(/Older bound/)
+  })
+
+  it('neutralizes spreadsheet formulas in text cells', () => {
+    const dangerous = [{ ...records[0], tna: '=HYPERLINK("https://example.test")' }]
+    expect(fossilsToCsv(dangerous)).toContain("'=HYPERLINK")
   })
 
   it('creates a reproducible zip payload', () => {

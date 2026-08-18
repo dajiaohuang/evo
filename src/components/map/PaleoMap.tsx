@@ -22,7 +22,7 @@ export function PaleoMap() {
   const loadOccurrencesForInterval = useAppStore((s) => s.loadOccurrencesForInterval)
   const occurrencesByInterval = useAppStore((s) => s.occurrencesByInterval)
   const mapRef = useRef<LeafletMap | null>(null)
-  const { geoJson } = usePaleogeography(currentPeriod)
+  const { geoJson, available: landLayerAvailable } = usePaleogeography(currentPeriod)
 
   useEffect(() => {
     if (currentPeriod) {
@@ -82,7 +82,7 @@ export function PaleoMap() {
         style={{ height: '100%', width: '100%', background: '#07171c' }}
         ref={mapRef}
       >
-        {showContinents && geoJson && (
+        {showContinents && landLayerAvailable && geoJson && (
           <GeoJSON
             key={currentPeriod ?? 'cretaceous'}
             data={geoJson}
@@ -128,10 +128,13 @@ export function PaleoMap() {
             <button key={mode} className={coordinateMode === mode ? 'is-active' : ''} onClick={() => setCoordinateMode(mode)}>{t(mode)}</button>
           ))}
         </div>
-        <label><input type="checkbox" checked={showContinents} onChange={(event) => setShowContinents(event.target.checked)} /> {t('period land snapshot')}</label>
+        <label title={landLayerAvailable ? undefined : t('Continental geometry is withheld pending source and license provenance.')}>
+          <input type="checkbox" checked={showContinents && landLayerAvailable} disabled={!landLayerAvailable} onChange={(event) => setShowContinents(event.target.checked)} /> {t('period land snapshot')}
+        </label>
+        {!landLayerAvailable && <small role="status">{t('Continental geometry withheld pending provenance; occurrence coordinates remain available.')}</small>}
         <small>{t(coordinateMode === 'paleo' ? 'Only records with paired reconstructed coordinates are shown; no modern fallback.' : 'Only paired modern collection coordinates are shown; not aligned to reconstructed land.')}</small>
         <dl className="map-model-ledger">
-          <div><dt>{t('Land')}</dt><dd>{t('period snapshot')}</dd></div>
+          <div><dt>{t('Land')}</dt><dd>{t(landLayerAvailable ? 'period snapshot' : 'withheld')}</dd></div>
           <div><dt>{t('Paleo points')}</dt><dd>{t('PBDB bundled field')}</dd></div>
           <div><dt>{t('Runtime')}</dt><dd>{t('no live reconstruction')}</dd></div>
         </dl>

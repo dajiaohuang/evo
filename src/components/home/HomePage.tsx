@@ -70,7 +70,7 @@ export function HomePage({ onNavigate }: HomePageProps) {
       <section className="atlas-strip" aria-label={t('Atlas statistics')}>
         <div><strong>{number(manifest.records.fossilOccurrences)}</strong><span>{t('fossil records')}</span></div>
         <div><strong>{number(manifest.records.treeNodes)}</strong><span>{t('curated tree nodes')}</span></div>
-        <div><strong>{number(manifest.records.paleogeographicSnapshots)}</strong><span>{t('world snapshots')}</span></div>
+        <div><strong>{number(manifest.records.paleogeographicSnapshots)}</strong><span>{t('licensed land snapshots')}</span></div>
         <div><strong>{language === 'zh' ? '45.67 亿年' : '4.567 Gyr'}</strong><span>{t('visible timespan')}</span></div>
       </section>
 

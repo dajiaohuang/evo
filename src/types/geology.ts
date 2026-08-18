@@ -18,7 +18,7 @@ export interface PeriodInfo {
   eag: number;
   color: string;
   keyContinentalConfig: string;
-  geoJsonFile: string;
+  mapLayerStatus: 'available' | 'withheld-pending-provenance';
   description: string;
 }
 

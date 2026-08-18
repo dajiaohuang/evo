@@ -1,5 +1,12 @@
 import type { AppState } from './index'
-import type { TreeDisplayMode } from '../types'
+import type { TaxonQueryScope, TreeDisplayMode } from '../types'
+
+export interface SubjectSelection {
+  nodeId: string | null
+  taxonId?: string | null
+  scope?: TaxonQueryScope
+  clearOccurrence?: boolean
+}
 
 export interface TreeSlice {
   selectedNodeId: string | null
@@ -10,6 +17,7 @@ export interface TreeSlice {
   toggleExpand: (nodeId: string) => void
   setVisibleNodes: (ids: string[]) => void
   setTreeMode: (mode: TreeDisplayMode) => void
+  selectSubject: (selection: SubjectSelection) => Promise<void>
 }
 
 export const createTreeSlice = (
@@ -32,4 +40,18 @@ export const createTreeSlice = (
 
   setVisibleNodes: (ids) => set({ visibleNodeIds: ids }),
   setTreeMode: (mode) => set({ treeMode: mode }),
+  selectSubject: async ({ nodeId, taxonId = null, scope = 'descendants', clearOccurrence = true }) => {
+    set({
+      selectedNodeId: nodeId,
+      highlightedTaxonId: taxonId,
+      highlightedOccurrenceIds: [],
+      ...(clearOccurrence ? { selectedOccurrence: null, selectedOccurrenceId: null } : {}),
+    })
+    if (!taxonId) return
+    await get().loadOccurrencesForTaxon(taxonId, scope)
+    const queryKey = `${scope}:${taxonId}`
+    const state = get()
+    if (state.selectedNodeId !== nodeId || state.highlightedTaxonId !== taxonId) return
+    set({ highlightedOccurrenceIds: (state.occurrencesByTaxonQuery[queryKey] ?? []).map((occurrence) => occurrence.oid) })
+  },
 })

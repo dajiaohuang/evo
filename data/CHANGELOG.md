@@ -1,5 +1,13 @@
 # Dataset changelog
 
+## 2026.08-m2 — 2026-08-19
+
+- Removed all 12 provenance-unknown paleogeographic GeoJSON snapshots from the repository and build; the continental layer is withheld until source and redistribution provenance is complete.
+- Split application version `0.8.0`, dataset version `2026.08-m2`, schema version and commit provenance into distinct manifest fields.
+- Separated three curation choices into `editorial-decisions.json` and upgraded scientific claims with kind, evidence relation and confidence rationale.
+- Marked two rhinoceros divergence estimates as unmapped instead of attaching them to broader topology nodes.
+- Kept exact and descendant taxon query results in independent caches and exposed index fallback semantics.
+
 ## 2026.08-m1 — 2026-08-18
 
 - Added a versioned 4,567 Ma time scale derived from ICS 2026/06 display boundaries.

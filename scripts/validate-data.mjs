@@ -19,9 +19,11 @@ const profiles = readJson('data/taxa/profiles.json')
 const ontology = readJson('data/navigation/atlas-ontology.json')
 const treeEvidence = readJson('data/tree/evidence.json')
 const claims = readJson('data/evidence/claims.json')
+const editorialDecisions = readJson('data/evidence/editorial-decisions.json')
 const taxonIndex = readJson('data/indexes/taxon-period-index.json')
 const sourceMetadata = readJson('data/sources/pbdb-occurrence-bundle.json')
 const manifest = readJson('data/manifest.json')
+const packageMetadata = readJson('package.json')
 
 const ajv = new Ajv2020({ allErrors: true, strict: true })
 const validators = {
@@ -54,7 +56,12 @@ check(unique(periodMetadata.map((period) => period.name)), 'period map metadata 
 check(sameValues([...periodUnits.map((unit) => unit.nam)].sort(), [...periodMetadata.map((period) => period.name)].sort()), 'time scale and period map metadata names must match')
 for (const metadata of periodMetadata) {
   check(!['eag', 'lag', 'color', 'era', 'eon'].some((key) => Object.hasOwn(metadata, key)), `${metadata.name}: map metadata must not duplicate time-scale facts`)
+  check(['available', 'withheld-pending-provenance'].includes(metadata.mapLayerStatus), `${metadata.name}: invalid mapLayerStatus`)
 }
+
+check(manifest.appVersion === packageMetadata.version, 'manifest appVersion must match package.json version')
+check(manifest.datasetVersion !== manifest.appVersion, 'datasetVersion and appVersion must remain separate identifiers')
+check(manifest.commitSha === 'unreleased' || /^[0-9a-f]{40}$/.test(manifest.commitSha), 'manifest commitSha must be a full Git SHA or unreleased')
 for (let index = 0; index < periodUnits.length; index += 1) {
   const period = periodUnits[index]
   check(period.eag > period.lag, `${period.nam}: older bound must exceed younger bound`)
@@ -93,6 +100,7 @@ check(unique(places.map((place) => place.code)), 'place codes must be unique')
 check(unique(media.map((asset) => asset.id)), 'media IDs must be unique')
 check(unique(stories.map((story) => story.id)), 'story IDs must be unique')
 check(unique(claims.map((claim) => claim.id)), 'claim IDs must be unique')
+check(unique(editorialDecisions.map((decision) => decision.id)), 'editorial decision IDs must be unique')
 for (const reference of references) {
   if (reference.type === 'paper') {
     check(Number.isInteger(reference.publishedYear), `paper ${reference.id}: publishedYear is required`)
@@ -159,10 +167,17 @@ for (const asset of media) {
 }
 
 for (const claim of claims) {
+  check(claim.claimKind === 'scientific', `claim ${claim.id}: editorial decisions belong in editorial-decisions.json`)
   const [kind, subjectId] = claim.subjectId.split(':')
   check(kind === 'event' ? eventIds.has(subjectId) : kind === 'taxon' && profileIds.has(subjectId), `claim ${claim.id}: unknown subject ${claim.subjectId}`)
   for (const link of claim.referenceLinks) validateReferences(`claim ${claim.id}`, [link.referenceId])
   if (kind === 'event') check(claim.referenceLinks.some((link) => referencesById.get(link.referenceId)?.type === 'paper'), `claim ${claim.id}: event claims require a domain paper`)
+}
+for (const decision of editorialDecisions) {
+  const [kind, subjectId] = decision.subjectId.split(':')
+  check(kind === 'event' ? eventIds.has(subjectId) : kind === 'taxon' && profileIds.has(subjectId), `editorial decision ${decision.id}: unknown subject ${decision.subjectId}`)
+  check(typeof decision.rationale === 'string' && decision.rationale.length >= 20, `editorial decision ${decision.id}: rationale is required`)
+  check(/^\d{4}-\d{2}-\d{2}$/.test(decision.decidedAt), `editorial decision ${decision.id}: decidedAt must be an ISO date`)
 }
 for (const eventId of eventIds) check(claims.some((claim) => claim.subjectId === `event:${eventId}`), `event ${eventId}: missing claim-level evidence`)
 for (const profileId of profileIds) check(claims.some((claim) => claim.subjectId === `taxon:${profileId}`), `taxon ${profileId}: missing claim-level evidence`)
@@ -171,7 +186,14 @@ for (const estimate of calibrations.estimates) {
   validateReferences(`divergence estimate ${estimate.id}`, [estimate.referenceId])
   check(estimate.cladePackageId === calibrations.cladePackageId, `divergence estimate ${estimate.id}: clade package mismatch`)
   check(estimate.topologyHypothesisId === phylogenyPackage.id, `divergence estimate ${estimate.id}: topology hypothesis mismatch`)
-  check(phylogenyTree.idSet.has(estimate.nodeId), `divergence estimate ${estimate.id}: unknown hypothesis node ${estimate.nodeId}`)
+  check(['mapped', 'unmapped'].includes(estimate.mappingStatus), `divergence estimate ${estimate.id}: mappingStatus is required`)
+  if (estimate.mappingStatus === 'mapped') {
+    check(typeof estimate.nodeId === 'string' && phylogenyTree.idSet.has(estimate.nodeId), `divergence estimate ${estimate.id}: mapped estimate requires an exact hypothesis node`)
+    check(estimate.displayOnTree === true, `divergence estimate ${estimate.id}: mapped estimate must be displayed on the tree`)
+  } else {
+    check(estimate.nodeId === null, `divergence estimate ${estimate.id}: unmapped estimate must not name an approximate node`)
+    check(estimate.displayOnTree === false, `divergence estimate ${estimate.id}: unmapped estimate must not display on the tree`)
+  }
   check(Boolean(estimate.compatibilityGroup), `divergence estimate ${estimate.id}: compatibilityGroup is required`)
   check(Object.values(estimate.locator ?? {}).some(Boolean), `divergence estimate ${estimate.id}: publication locator is required`)
   if (estimate.youngerMa != null) check(estimate.youngerMa <= estimate.medianMa, `divergence estimate ${estimate.id}: younger bound exceeds median`)
@@ -188,10 +210,8 @@ for (const period of periodUnits) {
   const metadata = periodMetadata.find((record) => record.name === period.nam)
   if (!metadata) continue
   const fossils = readJson(`data/fossils/${period.nam.toLowerCase()}.json`)
-  const geography = readJson(`data/paleogeography/${metadata.geoJsonFile}`)
   fossilsByPeriod.set(period.nam, fossils)
   fossilCount += fossils.length
-  check(geography.type === 'FeatureCollection' && Array.isArray(geography.features), `${period.nam}: invalid paleogeography FeatureCollection`)
   for (const occurrence of fossils) {
     validateSchema('occurrence', occurrence, `${period.nam}/${occurrence.oid ?? '<missing>'}`)
     allOccurrenceIds.push(occurrence.oid)

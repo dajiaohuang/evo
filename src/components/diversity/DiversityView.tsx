@@ -57,6 +57,19 @@ export function DiversityView() {
               </div>
             ))}
           </div>
+          <table className="visually-hidden">
+            <caption>{t('Observed taxon names by age bin')}</caption>
+            <thead><tr><th>{t('Age Range')}</th><th>{t('Observed names')}</th><th>{t('occurrences')}</th></tr></thead>
+            <tbody>
+              {bins.map((bin) => (
+                <tr key={`table-${bin.olderMa}-${bin.youngerMa}`}>
+                  <td>{bin.olderMa.toFixed(1)}–{bin.youngerMa.toFixed(1)} Ma</td>
+                  <td>{bin.observedTaxa}</td>
+                  <td>{bin.occurrences}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
         </section>
 
         <section className="diversity-panel">

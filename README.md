@@ -1,13 +1,13 @@
 # Evo Atlas — Deep-Time Evolution & Evidence Explorer
 
-Evo Atlas is a static-first web atlas for exploring 4.567 billion years of Earth and life history through linked geological time, fossil occurrences, paleogeography, phylogenetic hypotheses and curated evidence. The production target is GitHub Pages: runtime use requires no server, database or private API key.
+Evo Atlas is a static-first web atlas for exploring 4.567 billion years of Earth and life history through linked geological time, fossil occurrence coordinates, phylogenetic hypotheses and curated evidence. The production target is GitHub Pages: runtime use requires no server, database or private API key.
 
 ## What is implemented
 
 - **Deep-time portal** — Hadean to present navigation, period entry points and ten guided evolutionary stories.
-- **Synchronized Explorer** — Geological timeline, period paleogeography, tree of life, evidence inspector and shareable URL state.
+- **Synchronized Explorer** — Geological timeline, occurrence-coordinate map, tree of life, evidence inspector and dataset-checked shareable URL state. Continental geometry is withheld until provenance is complete.
 - **Separated tree semantics** — Atlas-wide navigation ontology, a scoped Perissodactyla topology hypothesis, first-appearance proxy, fossil ranges and radial navigation, plus a compatible published calibration ledger.
-- **Multi-scale occurrence map** — Cluster, density and point modes; reconstructed and modern coordinates; optional period land snapshot.
+- **Multi-scale occurrence map** — Projected-pixel cluster, density and point modes with reconstructed and modern coordinates kept separate. The continental layer is visibly unavailable while provenance is incomplete.
 - **Sampling-aware diversity view** — Observed taxon names, collection coverage, age precision and spatial metadata without treating record counts as true richness.
 - **Evidence catalog** — Bilingual taxon and event directories with source links, confidence and uncertainty kept separate.
 - **Compare workbench** — Taxa, time windows, countries and competing representation assumptions.
@@ -21,14 +21,14 @@ Evo Atlas is a static-first web atlas for exploring 4.567 billion years of Earth
 | Area | Implementation |
 | --- | --- |
 | Application | React 19, TypeScript, Vite 8, hash routing |
-| Map | Leaflet / react-leaflet with period GeoJSON and local occurrence chunks |
+| Map | Leaflet / react-leaflet with local occurrence chunks; no continental geometry is currently distributed |
 | Tree and charts | D3 plus lightweight SVG/CSS visualizations |
 | State | Zustand slices for geological time, map, tree and fossil evidence |
 | Data | Versioned JSON snapshots under `data/`, dynamically split by Vite |
 | Offline | `vite-plugin-pwa` and Workbox precaching |
 | Hosting | GitHub Pages under the `/evo/` base path |
 
-The main routes are `#/home`, `#/explore`, `#/taxa`, `#/events`, `#/stories`, `#/compare`, `#/lab`, `#/data` and `#/methods`. Explorer URLs encode dataset version, age/window, primary view, selected taxon/occurrence, map center/zoom, marker and coordinate modes, land layer, tree mode, reconstruction model and story/event context. Global search covers scientific/English/Chinese taxon names, navigation nodes, geological periods, events, stories and a curated place index.
+The main routes are `#/home`, `#/explore`, `#/taxa`, `#/events`, `#/stories`, `#/compare`, `#/lab`, `#/data` and `#/methods`. Explorer URLs encode dataset version, age/window, primary view, selected taxon/occurrence, map center/zoom, marker and coordinate modes, tree mode and story/event context. A link targeting another dataset snapshot requires explicit confirmation before it is rewritten. Reconstruction model labels remain occurrence-level evidence and are not exposed as a no-op global selector. Global search covers scientific/English/Chinese taxon names, navigation nodes, geological periods, events, stories and a curated place index.
 
 ## Local development
 
@@ -55,7 +55,7 @@ npm run data:manifest
 npm run data:validate
 ```
 
-`data:manifest` intentionally rewrites record counts and SHA-256 checksums after a reviewed data change. Run it before the final validation when the snapshot changes. The taxon-period descendant index and fossil normalization steps are reproducible commands. Optional staging helpers are available for PBDB occurrence retrieval/enrichment and splitting a source GeoJSON FeatureCollection; staging fetches refuse to overwrite an existing target unless `--replace` is supplied.
+`data:manifest` intentionally rewrites record counts and SHA-256 checksums after a reviewed data change. Run it before the final validation when the snapshot changes. The taxon-period descendant index and fossil normalization steps are reproducible commands. Optional staging helpers are available for PBDB occurrence retrieval/enrichment and splitting a source GeoJSON FeatureCollection; no geometry may be promoted from staging until the provenance fields required by `DATA_LICENSES.md` are complete. Staging fetches refuse to overwrite an existing target unless `--replace` is supplied.
 
 ```bash
 npm run data:fetch:fossils -- --period Cretaceous --limit 1000

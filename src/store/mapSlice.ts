@@ -8,18 +8,17 @@ export type FossilMarkerMode = 'clusters' | 'points' | 'density'
 export interface MapSlice {
   viewState: MapViewState
   highlightedTaxonId: string | null
+  highlightedOccurrenceIds: string[]
   selectedOccurrenceId: string | null
   markerMode: FossilMarkerMode
   coordinateMode: CoordinateMode
   showContinents: boolean
-  reconstructionModelId: string
   setViewState: (state: Partial<MapViewState>) => void
   highlightTaxon: (taxonId: string | null) => void
   selectOccurrence: (occId: string | null) => void
   setMarkerMode: (mode: FossilMarkerMode) => void
   setCoordinateMode: (mode: CoordinateMode) => void
   setShowContinents: (visible: boolean) => void
-  setReconstructionModelId: (modelId: string) => void
 }
 
 export const createMapSlice = (
@@ -28,20 +27,22 @@ export const createMapSlice = (
 ): MapSlice => ({
   viewState: { center: DEFAULT_MAP_CENTER, zoom: DEFAULT_MAP_ZOOM },
   highlightedTaxonId: null,
+  highlightedOccurrenceIds: [],
   selectedOccurrenceId: null,
   markerMode: 'clusters',
   coordinateMode: 'paleo',
   showContinents: true,
-  reconstructionModelId: 'pbdb:unspecified-model',
 
   setViewState: (partial) => {
     const current = get().viewState
     set({ viewState: { ...current, ...partial } })
   },
-  highlightTaxon: (taxonId) => set({ highlightedTaxonId: taxonId }),
+  highlightTaxon: (taxonId) => set({
+    highlightedTaxonId: taxonId,
+    highlightedOccurrenceIds: [],
+  }),
   selectOccurrence: (occId) => set({ selectedOccurrenceId: occId }),
   setMarkerMode: (markerMode) => set({ markerMode }),
   setCoordinateMode: (coordinateMode) => set({ coordinateMode }),
   setShowContinents: (showContinents) => set({ showContinents }),
-  setReconstructionModelId: (reconstructionModelId) => set({ reconstructionModelId }),
 })

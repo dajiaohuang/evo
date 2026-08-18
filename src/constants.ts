@@ -15,26 +15,6 @@ export const CACHE_TTL = {
   occurrences: 30 * 60 * 1000,
 };
 
-export const PHANEROZOIC_TOTAL_MA = 538.8;
-export const EARTH_HISTORY_TOTAL_MA = 4567;
-
-export const PERIOD_COLORS: Record<string, string> = {
-  Quaternary: '#F9F080',
-  Neogene: '#FFE619',
-  Paleogene: '#FD9A52',
-  Cretaceous: '#8CC55E',
-  Jurassic: '#4DB6AC',
-  Triassic: '#B388C9',
-  Permian: '#F05548',
-  Carboniferous: '#67B29C',
-  Devonian: '#C9853B',
-  Silurian: '#B2DFB0',
-  Ordovician: '#41B6C4',
-  Cambrian: '#9AD9DD',
-};
-
-export const ERA_COLORS: Record<string, string> = {
-  Cenozoic: '#F2F281',
-  Mesozoic: '#8CC55E',
-  Paleozoic: '#7AC5CD',
-};
+export const EARTH_HISTORY_TOTAL_MA = timeScaleData.earthAgeMa;
+export const PHANEROZOIC_TOTAL_MA = timeScaleData.units.find((unit) => unit.oid === 'eon:phanerozoic')?.eag ?? 538.8;
+import timeScaleData from '../data/time-scale.json'

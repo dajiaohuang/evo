@@ -86,4 +86,19 @@ describe('computeClusters', () => {
     const result = computeClusters(occs, 2, { gridSize: 40, maxZoom: 5, coordinateMode: 'modern' })
     expect(result.some((marker) => marker.type === 'cluster')).toBe(true)
   })
+
+  it('uses projected pixels and keeps dateline clusters near the dateline', () => {
+    const occs = Array.from({ length: 30 }, (_, index) => (
+      makeOcc(String(index), index % 2 ? 179.8 : -179.8, 70 + index * 0.001)
+    ))
+    const result = computeClusters(occs, 2, {
+      gridSize: 80,
+      maxZoom: 20,
+      coordinateMode: 'paleo',
+      centerLongitude: 180,
+    })
+    const cluster = result.find((marker) => marker.type === 'cluster')
+    expect(cluster?.type).toBe('cluster')
+    if (cluster?.type === 'cluster') expect(Math.abs(cluster.lng)).toBeGreaterThan(170)
+  })
 })

@@ -4,6 +4,7 @@ import references from '../../data/references.json'
 import type { FossilOccurrence } from '../types'
 import { FOSSIL_PERIODS, getAllFossils, getFossilsByInterval } from './localFossils'
 import { getSpatialPosition, hasSpatialPosition, type CoordinateMode } from '../utils/spatial'
+import { EARTH_HISTORY_TOTAL_MA } from '../constants'
 
 export interface LabQuery {
   periods: string[]
@@ -39,6 +40,23 @@ function intersectsAge(record: FossilOccurrence, olderMa: number | null, younger
   return record.eag >= younger && record.lag <= older
 }
 
+export function validateLabQuery(query: LabQuery): void {
+  if (query.olderMa !== null && (!Number.isFinite(query.olderMa) || query.olderMa < 0 || query.olderMa > EARTH_HISTORY_TOTAL_MA)) {
+    throw new Error(`Older bound must be between 0 and ${EARTH_HISTORY_TOTAL_MA} Ma.`)
+  }
+  if (query.youngerMa !== null && (!Number.isFinite(query.youngerMa) || query.youngerMa < 0 || query.youngerMa > EARTH_HISTORY_TOTAL_MA)) {
+    throw new Error(`Younger bound must be between 0 and ${EARTH_HISTORY_TOTAL_MA} Ma.`)
+  }
+  if (query.olderMa !== null && query.youngerMa !== null && query.olderMa < query.youngerMa) {
+    throw new Error('Older bound must be greater than or equal to younger bound.')
+  }
+  const unknownPeriod = query.periods.find((period) => !FOSSIL_PERIODS.includes(period))
+  if (unknownPeriod) throw new Error(`Unknown geological period: ${unknownPeriod}`)
+  if (!Number.isFinite(query.limit) || query.limit < 1 || query.limit > 5000) {
+    throw new Error('Result limit must be between 1 and 5,000 rows.')
+  }
+}
+
 export function filterFossils(records: FossilOccurrence[], query: LabQuery): FossilOccurrence[] {
   const taxon = query.taxon.trim().toLocaleLowerCase()
   const country = query.country.trim().toLocaleUpperCase()
@@ -59,6 +77,7 @@ function topCounts(values: string[], limit: number): Array<{ taxon: string; coun
 }
 
 export async function runLabQuery(query: LabQuery): Promise<LabResult> {
+  validateLabQuery(query)
   const selectedPeriods = query.periods.length ? query.periods : [...FOSSIL_PERIODS]
   const chunks = selectedPeriods.length === FOSSIL_PERIODS.length
     ? await getAllFossils()
@@ -95,7 +114,8 @@ export async function runLabQuery(query: LabQuery): Promise<LabResult> {
 }
 
 function csvCell(value: unknown): string {
-  const text = String(value ?? '')
+  const raw = String(value ?? '')
+  const text = typeof value === 'string' && /^[=+\-@]/.test(raw) ? `'${raw}` : raw
   return /[",\n]/.test(text) ? `"${text.replaceAll('"', '""')}"` : text
 }
 
@@ -103,7 +123,7 @@ export function fossilsToCsv(records: FossilOccurrence[]): string {
   const headers = ['occurrence_id', 'accepted_name', 'identified_name', 'taxon_id', 'early_age_ma', 'late_age_ma', 'country', 'modern_lng', 'modern_lat', 'paleo_lng', 'paleo_lat', 'paleo_model', 'coordinate_precision', 'formation', 'member', 'environment', 'reference_id', 'collection_id']
   const rows = records.map((record) => [
     record.oid, record.tna, record.idn, record.tid, record.eag, record.lag, record.cc2,
-    record.lng, record.lat, record.paleolng, record.paleolat, record.paleoModelId,
+    Number(record.lng), Number(record.lat), record.paleolng, record.paleolat, record.paleoModelId,
     record.coordinatePrecision, record.formation, record.member, record.paleoenvironment,
     record.referenceId, record.cid,
   ].map(csvCell).join(','))
@@ -144,7 +164,7 @@ function makeBibtex(): string {
   ].join('\n\n')
 }
 
-export function createQueryPackage(result: LabResult): Uint8Array {
+function createQueryPackageFiles(result: LabResult): Record<string, Uint8Array> {
   const readme = [
     'Evo Atlas query export',
     `Dataset version: ${manifest.datasetVersion}`,
@@ -159,7 +179,7 @@ export function createQueryPackage(result: LabResult): Uint8Array {
     'Paleo and modern coordinates are exported separately and are never used to fill missing halves of another coordinate pair.',
   ].join('\n')
 
-  return zipSync({
+  return {
     'query.json': strToU8(JSON.stringify(result.query, null, 2)),
     'results.csv': strToU8(fossilsToCsv(result.records)),
     'results.json': strToU8(JSON.stringify(result.records, null, 2)),
@@ -168,11 +188,32 @@ export function createQueryPackage(result: LabResult): Uint8Array {
     'README.txt': strToU8(readme),
     'citations.bib': strToU8(makeBibtex()),
     'dataset-manifest.json': strToU8(JSON.stringify(manifest, null, 2)),
-  }, { level: 6 })
+  }
 }
 
-export function downloadQueryPackage(result: LabResult): void {
-  const bytes = createQueryPackage(result)
+export function createQueryPackage(result: LabResult): Uint8Array {
+  return zipSync(createQueryPackageFiles(result), { level: 6 })
+}
+
+async function createQueryPackageInWorker(result: LabResult): Promise<Uint8Array> {
+  if (typeof Worker === 'undefined') return createQueryPackage(result)
+  const files = createQueryPackageFiles(result)
+  return new Promise((resolve, reject) => {
+    const worker = new Worker(new URL('../workers/queryPackage.worker.ts', import.meta.url), { type: 'module' })
+    worker.onmessage = (event: MessageEvent<Uint8Array>) => {
+      worker.terminate()
+      resolve(event.data)
+    }
+    worker.onerror = (event) => {
+      worker.terminate()
+      reject(new Error(event.message || 'Query package worker failed'))
+    }
+    worker.postMessage(files, Object.values(files).map((file) => file.buffer))
+  })
+}
+
+export async function downloadQueryPackage(result: LabResult): Promise<void> {
+  const bytes = await createQueryPackageInWorker(result)
   const blob = new Blob([bytes.buffer as ArrayBuffer], { type: 'application/zip' })
   const url = URL.createObjectURL(blob)
   const anchor = document.createElement('a')
