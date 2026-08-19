@@ -8,75 +8,93 @@
   "relationships": [
     {
       "id": "brachiopoda",
-      "parentId": "invertebrata"
+      "parentId": "invertebrata",
+      "relationshipKind": "navigation-parent"
     },
     {
       "id": "articulata",
-      "parentId": "brachiopoda"
+      "parentId": "brachiopoda",
+      "relationshipKind": "historical-grade-membership"
     },
     {
       "id": "spiriferida",
-      "parentId": "articulata"
+      "parentId": "articulata",
+      "relationshipKind": "taxonomic-parent"
     },
     {
       "id": "terebratulida",
-      "parentId": "articulata"
+      "parentId": "articulata",
+      "relationshipKind": "taxonomic-parent"
     },
     {
       "id": "mollusca",
-      "parentId": "invertebrata"
+      "parentId": "invertebrata",
+      "relationshipKind": "navigation-parent"
     },
     {
       "id": "bivalvia",
-      "parentId": "mollusca"
+      "parentId": "mollusca",
+      "relationshipKind": "taxonomic-parent"
     },
     {
       "id": "rudistae",
-      "parentId": "bivalvia"
+      "parentId": "bivalvia",
+      "relationshipKind": "taxonomic-parent"
     },
     {
       "id": "ostreoida",
-      "parentId": "bivalvia"
+      "parentId": "bivalvia",
+      "relationshipKind": "taxonomic-parent"
     },
     {
       "id": "gastropoda",
-      "parentId": "mollusca"
+      "parentId": "mollusca",
+      "relationshipKind": "taxonomic-parent"
     },
     {
       "id": "cephalopoda",
-      "parentId": "mollusca"
+      "parentId": "mollusca",
+      "relationshipKind": "taxonomic-parent"
     },
     {
       "id": "nautiloidea",
-      "parentId": "cephalopoda"
+      "parentId": "cephalopoda",
+      "relationshipKind": "taxonomic-parent"
     },
     {
       "id": "ammonoidea",
-      "parentId": "cephalopoda"
+      "parentId": "cephalopoda",
+      "relationshipKind": "taxonomic-parent"
     },
     {
       "id": "goniatitida",
-      "parentId": "ammonoidea"
+      "parentId": "ammonoidea",
+      "relationshipKind": "taxonomic-parent"
     },
     {
       "id": "ceratitida",
-      "parentId": "ammonoidea"
+      "parentId": "ammonoidea",
+      "relationshipKind": "taxonomic-parent"
     },
     {
       "id": "ammonitida",
-      "parentId": "ammonoidea"
+      "parentId": "ammonoidea",
+      "relationshipKind": "taxonomic-parent"
     },
     {
       "id": "coleoidea",
-      "parentId": "cephalopoda"
+      "parentId": "cephalopoda",
+      "relationshipKind": "taxonomic-parent"
     },
     {
       "id": "belemnitida",
-      "parentId": "coleoidea"
+      "parentId": "coleoidea",
+      "relationshipKind": "taxonomic-parent"
     },
     {
       "id": "graptolithina",
-      "parentId": "pterobranchia"
+      "parentId": "pterobranchia",
+      "relationshipKind": "taxonomic-parent"
     }
   ]
 }

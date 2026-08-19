@@ -1,9 +1,9 @@
 {
   "schemaVersion": 5,
-  "version": "2026.08-static-v5-rc1",
+  "version": "2026.08-static-v5-rc2",
   "schemaStatus": "candidate",
   "packageCount": 24,
-  "entityCount": 186,
+  "entityCount": 189,
   "packages": [
     {
       "id": "atlas-core",
@@ -143,9 +143,10 @@
       "rootEntityIds": [
         "arthropoda",
         "crustacea",
-        "insecta"
+        "insecta",
+        "myriapoda"
       ],
-      "entityCount": 11,
+      "entityCount": 14,
       "platformMaturity": "published",
       "scientificMaturity": "generated-scaffold",
       "automatedReviewStatus": "passed",
@@ -484,6 +485,9 @@
     "crustacea": "crustaceans-insects",
     "ostracoda": "crustaceans-insects",
     "malacostraca": "crustaceans-insects",
+    "myriapoda": "crustaceans-insects",
+    "chilopoda": "crustaceans-insects",
+    "diplopoda": "crustaceans-insects",
     "echinodermata": "echinoderms",
     "crinoidea": "echinoderms",
     "blastoidea": "echinoderms",

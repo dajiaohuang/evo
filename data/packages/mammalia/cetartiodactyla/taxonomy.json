@@ -6,11 +6,13 @@
   "relationships": [
     {
       "id": "cetacea",
-      "parentId": "placentalia"
+      "parentId": "placentalia",
+      "relationshipKind": "taxonomic-parent"
     },
     {
       "id": "basilosauridae",
-      "parentId": "cetacea"
+      "parentId": "cetacea",
+      "relationshipKind": "taxonomic-parent"
     }
   ]
 }

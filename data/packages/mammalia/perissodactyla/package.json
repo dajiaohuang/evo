@@ -1,7 +1,7 @@
 {
   "schemaVersion": 5,
   "id": "perissodactyla",
-  "version": "2026.08-static-v5-rc1",
+  "version": "2026.08-static-v5-rc2",
   "title": "Odd-toed Ungulates",
   "titleZh": "奇蹄目",
   "rootEntityIds": [
@@ -32,8 +32,8 @@
     "externalResolutions": "data/sources/pbdb-taxon-resolution.json",
     "references": "data/references.json",
     "occurrences": "data/fossils/*.json",
-    "profiles": "data/packages/mammalia/perissodactyla/profiles.json",
-    "phylogeny": "data/packages/mammalia/perissodactyla/phylogeny/hypothesis.json",
+    "profilesSource": "data/packages/mammalia/perissodactyla/profiles.source.json",
+    "phylogenySource": "data/packages/mammalia/perissodactyla/phylogeny/hypothesis.source.json",
     "calibrations": "data/packages/mammalia/perissodactyla/phylogeny/calibrations.json"
   },
   "platformMaturity": "published",

@@ -15,7 +15,7 @@ Evo Atlas is a static-first web atlas for exploring 4.567 billion years of Earth
 - **Local research workspace** — Recent query definitions are retained in browser IndexedDB and never sent to an application server.
 - **Offline PWA** — Installable, precached app shell; large immutable scientific chunks are cached only when opened.
 - **Static release pipeline** — Cross-file data validation, per-file SHA-256 checksums, tests, lint and GitHub Pages deployment gates.
-- **Pages Data Platform v5 candidate** — 186 bilingual registry entities assigned to 24 static packages, with entity kind separated from external-ID resolution and content level: Perissodactyla is a curated draft and the other 22 scientific packages are generated scaffolds, not Gold datasets.
+- **Pages Data Platform v5 candidate** — 189 bilingual registry entities assigned to 24 registry-driven static packages. This is an explicit educational subset, not a whole-life completeness claim; Perissodactyla is a curated draft and the other 22 scientific packages are generated scaffolds, not Gold datasets.
 - **Explicit offline packages** — Core data is precached; package and occurrence data is cached on access or when the user explicitly saves a package from the Data page.
 
 ## Architecture

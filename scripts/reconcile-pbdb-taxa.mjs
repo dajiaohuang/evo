@@ -66,6 +66,7 @@ function indexParents(node, parent = null) {
 indexParents(ontology)
 const names = new Set(nodes.map((node) => node.name))
 const candidatesByName = new Map(nodes.map((node) => [node.name, []]))
+const conceptsByAcceptedNo = new Map()
 const input = createInterface({ input: createReadStream(sourcePath, { encoding: 'utf8' }), crlfDelay: Infinity })
 let headers
 let indexes
@@ -86,10 +87,31 @@ for await (const line of input) {
   }
 
   const name = values[indexes.taxon_name]
+  const acceptedNo = values[indexes.accepted_no]
+  const concept = {
+    acceptedNo,
+    name: values[indexes.accepted_name] || name,
+    parentNo: values[indexes.parent_no] || null,
+    parentName: values[indexes.parent_name] || null,
+  }
+  if (acceptedNo && (!conceptsByAcceptedNo.has(acceptedNo) || values[indexes.taxon_no] === acceptedNo)) conceptsByAcceptedNo.set(acceptedNo, concept)
   if (!names.has(name)) continue
   candidatesByName.get(name).push(Object.fromEntries(
     Object.entries(indexes).map(([key, index]) => [key, values[index]]),
   ))
+}
+
+function ancestorChain(acceptedNo) {
+  const chain = []
+  const seen = new Set()
+  let cursor = conceptsByAcceptedNo.get(acceptedNo)
+  while (cursor?.parentNo && cursor.parentNo !== '0' && !seen.has(cursor.parentNo)) {
+    seen.add(cursor.parentNo)
+    const parent = conceptsByAcceptedNo.get(cursor.parentNo) ?? { acceptedNo: cursor.parentNo, name: cursor.parentName, parentNo: null, parentName: null }
+    chain.push({ pbdbId: `txn:${parent.acceptedNo}`, name: parent.name || cursor.parentName || null })
+    cursor = conceptsByAcceptedNo.get(cursor.parentNo)
+  }
+  return chain
 }
 
 function resolveNode(node) {
@@ -112,6 +134,7 @@ function resolveNode(node) {
   const resolved = reason === 'resolved-exact-name-and-rank' ? ranked[0] : null
   const diagnostic = resolved ?? acceptedNameMatches[0] ?? candidates[0] ?? null
   const localExpectedParentConcept = parentByEntityId.get(node.id)?.name ?? null
+  const parentRelationshipKind = node.parentRelationshipKind ?? (localExpectedParentConcept ? 'taxonomic-parent' : null)
   const resolvedClassification = diagnostic ? {
     phylum: diagnostic.phylum || null,
     class: diagnostic.class || null,
@@ -119,16 +142,23 @@ function resolveNode(node) {
     family: diagnostic.family || null,
   } : null
   const classificationNames = Object.values(resolvedClassification ?? {}).filter(Boolean)
-  const lineageCompatibility = !diagnostic
+  const resolvedAncestorChain = diagnostic ? ancestorChain(diagnostic.accepted_no) : []
+  const lineageCompatibility = parentRelationshipKind !== 'taxonomic-parent'
+    ? 'not-applicable-non-taxonomic-edge'
+    : !diagnostic
     ? 'indeterminate'
     : diagnostic.parent_name === localExpectedParentConcept
       ? 'compatible-immediate-parent'
       : classificationNames.includes(localExpectedParentConcept)
         ? 'compatible-classification'
+        : resolvedAncestorChain.some((ancestor) => ancestor.name === localExpectedParentConcept)
+          ? 'compatible-ancestor-chain'
         : localExpectedParentConcept && (diagnostic.parent_name || classificationNames.length)
           ? 'incompatible'
           : 'indeterminate'
-  const conceptReviewStatus = lineageCompatibility === 'incompatible' ? 'needs-concept-review' : resolved ? 'compatible' : 'unresolved'
+  const conceptReviewStatus = parentRelationshipKind !== 'taxonomic-parent' && resolved
+    ? 'not-required-navigation-edge'
+    : lineageCompatibility === 'incompatible' ? 'needs-concept-review' : resolved ? 'compatible' : 'unresolved'
   return {
     entityId: node.id,
     localName: node.name,
@@ -149,12 +179,18 @@ function resolveNode(node) {
     resolvedRank: diagnostic?.accepted_rank || null,
     resolvedImmediateParent: diagnostic?.parent_name || null,
     resolvedClassification,
+    resolvedAncestorChain,
     localExpectedParentConcept,
+    parentRelationshipKind,
     lineageCompatibility,
     conceptReviewStatus,
-    curatorDecision: lineageCompatibility === 'incompatible'
+    automatedRecommendation: lineageCompatibility === 'incompatible'
       ? 'needs-concept-review'
       : resolved ? 'accept-external-mapping' : 'withhold-external-mapping',
+    humanCuratorDecision: null,
+    curatorRationale: null,
+    curatorReviewedAt: null,
+    curatorReviewer: null,
     occurrenceCount: diagnostic ? numberOrNull(diagnostic.n_occs) : null,
     referenceNo: diagnostic?.reference_no ? `ref:${diagnostic.reference_no}` : null,
     snapshotModifiedAt: diagnostic?.modified || null,
@@ -165,9 +201,9 @@ const resolutions = nodes.map(resolveNode)
 const byEntityId = new Map(resolutions.map((entry) => [entry.entityId, entry]))
 const resolvedCount = resolutions.filter((entry) => entry.resolutionStatus === 'resolved').length
 const output = {
-  schemaVersion: 2,
+  schemaVersion: 3,
   generatedAt: new Date().toISOString().slice(0, 10),
-  policy: 'PBDB IDs are published only when an exact local name resolves to one accepted concept and the accepted rank matches. Entity kind is independent of PBDB. Parent and classification compatibility are recorded separately and an incompatibility triggers needs-concept-review.',
+  policy: 'PBDB name/rank resolution, automated lineage recommendations and human curator decisions are separate. Only taxonomic-parent edges use the complete pinned PBDB ancestor chain for compatibility; navigation and display edges do not assert taxonomic parentage.',
   rankNormalization: { clade: 'unranked clade' },
   source: SNAPSHOT,
   summary: {
@@ -175,6 +211,7 @@ const output = {
     resolved: resolvedCount,
     unresolved: resolutions.length - resolvedCount,
     needsConceptReview: resolutions.filter((entry) => entry.conceptReviewStatus === 'needs-concept-review').length,
+    humanCuratorDecisions: resolutions.filter((entry) => entry.humanCuratorDecision).length,
   },
   resolutions,
 }

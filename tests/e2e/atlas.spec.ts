@@ -78,7 +78,7 @@ test('Explorer restores state and removes the unsupported global model parameter
   await expect(page.getByRole('button', { name: 'points' })).toHaveClass(/is-active/)
   await expect(page.getByRole('button', { name: 'modern' })).toHaveClass(/is-active/)
   await expect(page.getByText('Shared time window 20–5 Ma')).toBeVisible()
-  await expect.poll(() => page.url()).toContain('dataset=2026.08-static-v5-rc1')
+  await expect.poll(() => page.url()).toContain('dataset=2026.08-static-v5-rc2')
   for (const fragment of ['older=20', 'younger=5', 'lat=10.000', 'lng=20.000', 'zoom=3.00', 'treeMode=fossil-range']) {
     expect(page.url()).toContain(fragment)
   }
@@ -91,7 +91,7 @@ test('Explorer requires confirmation before replacing a mismatched dataset versi
   await expect(page.getByRole('alertdialog')).toContainText('2025.01-old')
   expect(page.url()).toContain('dataset=2025.01-old')
   await page.getByRole('button', { name: 'Use current dataset' }).click()
-  await expect.poll(() => page.url()).toContain('dataset=2026.08-static-v5-rc1')
+  await expect.poll(() => page.url()).toContain('dataset=2026.08-static-v5-rc2')
 })
 
 test('a service-worker upgrade removes dataset A caches and dataset B remains coherent', async ({ page }) => {
@@ -100,7 +100,7 @@ test('a service-worker upgrade removes dataset A caches and dataset B remains co
     await navigator.serviceWorker.ready
     const oldCache = await caches.open('evo-runtime-data-2026.08-static-v3')
     await oldCache.put('/evo/data/packages/atlas-core/manifest.json', new Response(JSON.stringify({ version: '2026.08-static-v3' })))
-    const upgraded = await navigator.serviceWorker.register('/evo/sw.js?upgrade-test=2026.08-static-v5-rc1', { scope: '/evo/upgrade-test/' })
+    const upgraded = await navigator.serviceWorker.register('/evo/sw.js?upgrade-test=2026.08-static-v5-rc2', { scope: '/evo/upgrade-test/' })
     const worker = upgraded.installing ?? upgraded.waiting ?? upgraded.active
     if (worker?.state !== 'activated') await new Promise<void>((resolve) => worker?.addEventListener('statechange', () => {
       if (worker.state === 'activated') resolve()
@@ -122,7 +122,7 @@ test('a service-worker upgrade removes dataset A caches and dataset B remains co
     const versions = await Promise.all(manifestFiles.map((file) => fetch(`/evo/data/${file.url}`).then((response) => response.json()).then((manifest) => manifest.version as string)))
     return { datasetVersion: current.datasetVersion, releaseBase: current.releaseBase, urls: manifestFiles.map((file) => file.url), versions, retained: history.releases.map((entry) => entry.datasetVersion) }
   })
-  expect(releaseState.releaseBase).toBe('releases/2026.08-static-v5-rc1/')
+  expect(releaseState.releaseBase).toBe('releases/2026.08-static-v5-rc2/')
   expect(releaseState.urls.every((url) => url.startsWith(releaseState.releaseBase))).toBe(true)
   expect(releaseState.versions.every((version) => version === releaseState.datasetVersion)).toBe(true)
   expect(releaseState.retained[0]).toBe(releaseState.datasetVersion)

@@ -1,5 +1,13 @@
 # Dataset changelog
 
+## 2026.08-static-v5-rc2 — 2026-08-20
+
+- Split direct entity links from broad higher-classification placement and made zero-sample package coverage explicit.
+- Added evidence levels for canonical ranges, source/generated separation, typed field claims and source-metadata review gates.
+- Added complete paginated Perissodactyla occurrence queries with checksums and concept-review query gating.
+- Added relationship kinds, separate automated and human PBDB decisions, Myriapoda coverage and an explicit non-whole-life scope statement.
+- Made release-history retention checksum-first, failure-blocking, atomic and byte-budgeted.
+
 ## 2026.08-static-v5-rc1 — 2026-08-20
 
 - Separated canonical `entityKind`, `contentLevel` and PBDB `externalResolutionStatus`; unresolved biological taxa remain taxa.

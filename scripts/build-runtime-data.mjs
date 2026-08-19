@@ -47,6 +47,7 @@ const occurrenceSource = readJson('data/sources/pbdb-occurrence-bundle.json')
 const treeEvidence = readJson('data/tree/evidence.json')
 const canonicalRanges = readJson('data/ranges/range-evidence.json')
 const linkageCoverage = readJson('data/indexes/entity-linkage-coverage.json')
+const perissodactylaOccurrenceSnapshot = readJson('data/sources/perissodactyla-occurrence-snapshot-v2.json')
 const claimsById = new Map(claims.map((claim) => [claim.id, claim]))
 const packageById = new Map(registry.packages.map((entry) => [entry.id, entry]))
 const entityById = new Map(entities.map((entry) => [entry.id, entry]))
@@ -264,6 +265,7 @@ for (const packageEntry of registry.packages) {
   if (packageId === 'perissodactyla') {
     payloadFiles.phylogeny = writeGzipJson(`packages/${packageId}/phylogeny.json.gz`, perissodactylPhylogeny)
     payloadFiles.calibrations = writeGzipJson(`packages/${packageId}/calibrations.json.gz`, calibrations)
+    payloadFiles.occurrenceSnapshot = writeGzipJson(`packages/${packageId}/occurrence-snapshot-v2.json.gz`, perissodactylaOccurrenceSnapshot)
   }
   const occurrenceShards = occurrenceManifest.packages[packageId] ?? []
   const knowledgeBytes = Object.values(payloadFiles).reduce((sum, file) => sum + file.bytes, 0)
@@ -326,6 +328,10 @@ const current = {
   datasetVersion: sourceManifest.datasetVersion,
   appVersion: sourceManifest.appVersion,
   publication: 'GitHub Pages static data platform',
+  scopeStatement: sourceManifest.scopeStatement,
+  includedMajorGroups: sourceManifest.includedMajorGroups,
+  excludedMajorGroups: sourceManifest.excludedMajorGroups,
+  wholeLifeCoverageClaim: sourceManifest.wholeLifeCoverageClaim,
   releaseBase: `${releasePrefix}/`,
   core,
   packages: {
@@ -358,6 +364,7 @@ const current = {
         return summary
       }, {}),
     scientificPeerReview: 'Only records explicitly marked expert-reviewed should be interpreted as human scientific review.',
+    wholeLifeCoverageClaim: false,
   },
 }
 writeBootstrapJson('current.json', current, true)
@@ -368,16 +375,31 @@ const releaseFilesIndex = writeJson('release-files.json', {
   datasetVersion: sourceManifest.datasetVersion,
   files: releaseFiles,
 }, true)
-const retainedReleases = [
-  {
-    datasetVersion: sourceManifest.datasetVersion,
-    releaseBase: `${releasePrefix}/`,
-    filesIndex: releaseFilesIndex.url,
-    generatedAt: sourceManifest.generatedAt,
-  },
-  ...(previousReleaseHistory.releases ?? []).filter((entry) => entry.datasetVersion !== sourceManifest.datasetVersion),
-].slice(0, 3)
-writeBootstrapJson('releases.json', { schemaVersion: 1, retentionLimit: 3, releases: retainedReleases }, true)
+const retentionByteLimit = previousReleaseHistory.retentionByteLimit ?? 400 * 1024 * 1024
+const currentReleaseBytes = releaseFiles.reduce((sum, file) => sum + file.bytes, 0) + releaseFilesIndex.bytes
+const currentRelease = {
+  datasetVersion: sourceManifest.datasetVersion,
+  releaseBase: `${releasePrefix}/`,
+  filesIndex: releaseFilesIndex.url,
+  generatedAt: sourceManifest.generatedAt,
+  bytes: currentReleaseBytes,
+}
+const retainedReleases = [currentRelease]
+let retainedBytes = currentReleaseBytes
+for (const entry of (previousReleaseHistory.releases ?? []).filter((candidate) => candidate.datasetVersion !== sourceManifest.datasetVersion)) {
+  if (retainedReleases.length >= 3) break
+  let releaseBytes = entry.bytes
+  if (!Number.isFinite(releaseBytes)) {
+    try {
+      const index = JSON.parse(readFileSync(join(outputRoot, entry.filesIndex), 'utf8'))
+      releaseBytes = (index.files ?? []).reduce((sum, file) => sum + (file.bytes ?? 0), 0) + statSync(join(outputRoot, entry.filesIndex)).size
+    } catch { continue }
+  }
+  if (retainedBytes + releaseBytes > retentionByteLimit) continue
+  retainedReleases.push({ ...entry, bytes: releaseBytes })
+  retainedBytes += releaseBytes
+}
+writeBootstrapJson('releases.json', { schemaVersion: 1, retentionLimit: 3, retentionByteLimit, retainedBytes, releases: retainedReleases }, true)
 const retainedVersions = new Set(retainedReleases.map((entry) => entry.datasetVersion))
 const releasesDirectory = join(outputRoot, 'releases')
 for (const name of readdirSync(releasesDirectory)) {

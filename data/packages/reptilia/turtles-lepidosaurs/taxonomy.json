@@ -7,19 +7,23 @@
   "relationships": [
     {
       "id": "testudines",
-      "parentId": "sauropsida"
+      "parentId": "sauropsida",
+      "relationshipKind": "taxonomic-parent"
     },
     {
       "id": "lepidosauria",
-      "parentId": "sauropsida"
+      "parentId": "sauropsida",
+      "relationshipKind": "taxonomic-parent"
     },
     {
       "id": "squamata",
-      "parentId": "lepidosauria"
+      "parentId": "lepidosauria",
+      "relationshipKind": "taxonomic-parent"
     },
     {
       "id": "mosasauridae",
-      "parentId": "lepidosauria"
+      "parentId": "lepidosauria",
+      "relationshipKind": "taxonomic-parent"
     }
   ]
 }

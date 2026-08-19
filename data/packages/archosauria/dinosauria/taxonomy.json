@@ -6,87 +6,108 @@
   "relationships": [
     {
       "id": "dinosauria",
-      "parentId": "archosauria"
+      "parentId": "archosauria",
+      "relationshipKind": "taxonomic-parent"
     },
     {
       "id": "ornithischia",
-      "parentId": "dinosauria"
+      "parentId": "dinosauria",
+      "relationshipKind": "taxonomic-parent"
     },
     {
       "id": "stegosauria",
-      "parentId": "ornithischia"
+      "parentId": "ornithischia",
+      "relationshipKind": "taxonomic-parent"
     },
     {
       "id": "ankylosauria",
-      "parentId": "ornithischia"
+      "parentId": "ornithischia",
+      "relationshipKind": "taxonomic-parent"
     },
     {
       "id": "ankylosaurus",
-      "parentId": "ankylosauria"
+      "parentId": "ankylosauria",
+      "relationshipKind": "taxonomic-parent"
     },
     {
       "id": "ceratopsia",
-      "parentId": "ornithischia"
+      "parentId": "ornithischia",
+      "relationshipKind": "taxonomic-parent"
     },
     {
       "id": "triceratops",
-      "parentId": "ceratopsia"
+      "parentId": "ceratopsia",
+      "relationshipKind": "taxonomic-parent"
     },
     {
       "id": "hadrosauridae",
-      "parentId": "ornithischia"
+      "parentId": "ornithischia",
+      "relationshipKind": "taxonomic-parent"
     },
     {
       "id": "edmontosaurus",
-      "parentId": "hadrosauridae"
+      "parentId": "hadrosauridae",
+      "relationshipKind": "taxonomic-parent"
     },
     {
       "id": "saurischia",
-      "parentId": "dinosauria"
+      "parentId": "dinosauria",
+      "relationshipKind": "taxonomic-parent"
     },
     {
       "id": "sauropodomorpha",
-      "parentId": "saurischia"
+      "parentId": "saurischia",
+      "relationshipKind": "taxonomic-parent"
     },
     {
       "id": "brachiosauridae",
-      "parentId": "sauropodomorpha"
+      "parentId": "sauropodomorpha",
+      "relationshipKind": "taxonomic-parent"
     },
     {
       "id": "diplodocidae",
-      "parentId": "sauropodomorpha"
+      "parentId": "sauropodomorpha",
+      "relationshipKind": "taxonomic-parent"
     },
     {
       "id": "titanosauria",
-      "parentId": "sauropodomorpha"
+      "parentId": "sauropodomorpha",
+      "relationshipKind": "taxonomic-parent"
     },
     {
       "id": "theropoda",
-      "parentId": "saurischia"
+      "parentId": "saurischia",
+      "relationshipKind": "taxonomic-parent"
     },
     {
       "id": "tyrannosauridae",
-      "parentId": "theropoda"
+      "parentId": "theropoda",
+      "relationshipKind": "taxonomic-parent"
     },
     {
       "id": "tyrannosaurus",
-      "parentId": "tyrannosauridae"
+      "parentId": "tyrannosauridae",
+      "relationshipKind": "taxonomic-parent"
     },
     {
       "id": "spinosauridae",
-      "parentId": "theropoda"
+      "parentId": "theropoda",
+      "relationshipKind": "taxonomic-parent"
     },
     {
       "id": "spinosaurus",
-      "parentId": "spinosauridae"
+      "parentId": "spinosauridae",
+      "relationshipKind": "taxonomic-parent"
     },
     {
       "id": "dromaeosauridae",
-      "parentId": "theropoda"
+      "parentId": "theropoda",
+      "relationshipKind": "taxonomic-parent"
     },
     {
       "id": "velociraptor",
-      "parentId": "dromaeosauridae"
+      "parentId": "dromaeosauridae",
+      "relationshipKind": "taxonomic-parent"
     }
   ]
 }

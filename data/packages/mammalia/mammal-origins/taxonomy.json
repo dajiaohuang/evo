@@ -7,31 +7,38 @@
   "relationships": [
     {
       "id": "synapsida",
-      "parentId": "amniota"
+      "parentId": "amniota",
+      "relationshipKind": "taxonomic-parent"
     },
     {
       "id": "pelycosauria",
-      "parentId": "synapsida"
+      "parentId": "synapsida",
+      "relationshipKind": "historical-grade-membership"
     },
     {
       "id": "dimetrodon",
-      "parentId": "pelycosauria"
+      "parentId": "pelycosauria",
+      "relationshipKind": "taxonomic-parent"
     },
     {
       "id": "therapsida",
-      "parentId": "synapsida"
+      "parentId": "synapsida",
+      "relationshipKind": "taxonomic-parent"
     },
     {
       "id": "dicynodontia",
-      "parentId": "therapsida"
+      "parentId": "therapsida",
+      "relationshipKind": "taxonomic-parent"
     },
     {
       "id": "cynodontia",
-      "parentId": "therapsida"
+      "parentId": "therapsida",
+      "relationshipKind": "taxonomic-parent"
     },
     {
       "id": "mammalia",
-      "parentId": "cynodontia"
+      "parentId": "cynodontia",
+      "relationshipKind": "taxonomic-parent"
     }
   ]
 }

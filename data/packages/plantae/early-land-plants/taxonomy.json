@@ -9,39 +9,48 @@
   "relationships": [
     {
       "id": "plantae",
-      "parentId": "life"
+      "parentId": "life",
+      "relationshipKind": "navigation-parent"
     },
     {
       "id": "bryophyta",
-      "parentId": "plantae"
+      "parentId": "plantae",
+      "relationshipKind": "taxonomic-parent"
     },
     {
       "id": "lycophyta",
-      "parentId": "plantae"
+      "parentId": "plantae",
+      "relationshipKind": "taxonomic-parent"
     },
     {
       "id": "lepidodendron",
-      "parentId": "lycophyta"
+      "parentId": "lycophyta",
+      "relationshipKind": "taxonomic-parent"
     },
     {
       "id": "pteridophyta",
-      "parentId": "plantae"
+      "parentId": "plantae",
+      "relationshipKind": "historical-grade-membership"
     },
     {
       "id": "equisetopsida",
-      "parentId": "pteridophyta"
+      "parentId": "pteridophyta",
+      "relationshipKind": "taxonomic-parent"
     },
     {
       "id": "filicopsida",
-      "parentId": "pteridophyta"
+      "parentId": "pteridophyta",
+      "relationshipKind": "taxonomic-parent"
     },
     {
       "id": "marchantiophyta",
-      "parentId": "plantae"
+      "parentId": "plantae",
+      "relationshipKind": "taxonomic-parent"
     },
     {
       "id": "anthocerotophyta",
-      "parentId": "plantae"
+      "parentId": "plantae",
+      "relationshipKind": "taxonomic-parent"
     }
   ]
 }

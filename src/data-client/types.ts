@@ -15,6 +15,7 @@ export interface RuntimeEntity {
   externalResolutionStatus: 'resolved-exact' | 'resolved-synonym' | 'resolved-rank-variant' | 'resolved-broader' | 'resolved-narrower' | 'ambiguous' | 'not-found' | 'not-applicable'
   packageId: string
   parentId: string | null
+  parentRelationshipKind: 'taxonomic-parent' | 'navigation-parent' | 'display-grouping' | 'historical-grade-membership' | 'cross-package-reference' | null
   names: { scientific: string; en: string; zh: string }
   synonyms: string[]
   rank: string
@@ -26,11 +27,16 @@ export interface RuntimeEntityLinkageCoverage {
   sourceTotal: number
   linkedOccurrenceTotal: number
   linkedOccurrenceRate: number
+  broadLinkTotal: number
+  broadLinkRate: number
+  directLinkTotal: number
+  directLinkRate: number
+  precisionStatement: string
   unmatchedOccurrenceTotal: number
   linkageMethods: { exactExternalId: number; acceptedName: number; higherClassification: number }
   indexedEntityCount: number
-  resolutionSummary: { resolved: number; unresolved: number; needsConceptReview: number }
-  packageCoverage: Record<string, { sourceTotal: number; linkedTotal: number; linkedRate: number }>
+  resolutionSummary: { resolved: number; unresolved: number; needsConceptReview: number; conceptResolved: number; humanCuratorDecisions: number }
+  packageCoverage: Record<string, { sourceTotal: number; linkedTotal: number; linkedRate: number | null; coverageStatus: 'sampled' | 'no-sampled-rows' }>
 }
 
 export interface RuntimePackageRegistryEntry {
@@ -109,6 +115,10 @@ export interface CurrentRuntimeManifest {
   datasetVersion: string
   appVersion: string
   publication: string
+  scopeStatement: string
+  includedMajorGroups: string[]
+  excludedMajorGroups: string[]
+  wholeLifeCoverageClaim: false
   releaseBase: string
   core: Record<string, RuntimeFile>
   packages: {

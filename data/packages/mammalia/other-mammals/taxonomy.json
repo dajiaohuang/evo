@@ -10,31 +10,38 @@
   "relationships": [
     {
       "id": "monotremata",
-      "parentId": "mammalia"
+      "parentId": "mammalia",
+      "relationshipKind": "taxonomic-parent"
     },
     {
       "id": "marsupialia",
-      "parentId": "mammalia"
+      "parentId": "mammalia",
+      "relationshipKind": "taxonomic-parent"
     },
     {
       "id": "diprotodontia",
-      "parentId": "marsupialia"
+      "parentId": "marsupialia",
+      "relationshipKind": "taxonomic-parent"
     },
     {
       "id": "proboscidea",
-      "parentId": "placentalia"
+      "parentId": "placentalia",
+      "relationshipKind": "taxonomic-parent"
     },
     {
       "id": "mammuthus",
-      "parentId": "proboscidea"
+      "parentId": "proboscidea",
+      "relationshipKind": "taxonomic-parent"
     },
     {
       "id": "chiroptera",
-      "parentId": "placentalia"
+      "parentId": "placentalia",
+      "relationshipKind": "taxonomic-parent"
     },
     {
       "id": "rodentia",
-      "parentId": "placentalia"
+      "parentId": "placentalia",
+      "relationshipKind": "taxonomic-parent"
     }
   ]
 }

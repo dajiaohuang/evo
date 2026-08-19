@@ -3,7 +3,7 @@
   "$id": "https://dajiaohuang.github.io/evo/schemas/entity.schema.json",
   "type": "object",
   "additionalProperties": false,
-  "required": ["id", "entityKind", "contentLevel", "externalResolutionStatus", "packageId", "parentId", "names", "synonyms", "rank", "definition", "compositionScope", "temporalRange", "externalIds", "referenceIds", "evidenceStatus", "limitations", "dataAvailability", "review", "version"],
+  "required": ["id", "entityKind", "contentLevel", "externalResolutionStatus", "packageId", "parentId", "parentRelationshipKind", "names", "synonyms", "rank", "definition", "compositionScope", "temporalRange", "externalIds", "referenceIds", "evidenceStatus", "limitations", "dataAvailability", "review", "version"],
   "properties": {
     "id": { "type": "string", "minLength": 1 },
     "entityKind": { "enum": ["taxon", "navigation-group", "historical-grade", "informal-group", "hypothesis-node"] },
@@ -11,6 +11,7 @@
     "externalResolutionStatus": { "enum": ["resolved-exact", "resolved-synonym", "resolved-rank-variant", "resolved-broader", "resolved-narrower", "ambiguous", "not-found", "not-applicable"] },
     "packageId": { "type": "string", "minLength": 1 },
     "parentId": { "type": ["string", "null"] },
+    "parentRelationshipKind": { "type": ["string", "null"], "enum": ["taxonomic-parent", "navigation-parent", "display-grouping", "historical-grade-membership", "cross-package-reference", null] },
     "names": {
       "type": "object",
       "additionalProperties": false,
@@ -44,12 +45,14 @@
     "temporalRange": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["olderMa", "youngerMa", "status", "basis"],
+      "required": ["olderMa", "youngerMa", "status", "basis", "evidenceLevel", "provisional"],
       "properties": {
         "olderMa": { "type": "number", "minimum": 0, "maximum": 4567 },
         "youngerMa": { "type": "number", "minimum": 0, "maximum": 4567 },
         "status": { "enum": ["available", "unknown", "unavailable", "unmapped", "withheld-pending-provenance"] },
-        "basis": { "type": "string", "minLength": 20 }
+        "basis": { "type": "string", "minLength": 20 },
+        "evidenceLevel": { "enum": ["legacy-display", "database-derived", "literature-synthesized", "expert-reviewed"] },
+        "provisional": { "type": "boolean" }
       }
     },
     "externalIds": {

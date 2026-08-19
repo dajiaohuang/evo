@@ -1,10 +1,11 @@
 import Ajv2020 from 'ajv/dist/2020.js'
+import { createHash } from 'node:crypto'
 import { existsSync } from 'node:fs'
 import { join } from 'node:path'
 import { collectDataSummary, flattenTree, readJson, rootDir } from './data-lib.mjs'
 import { validatePlatform } from './platform-validation-lib.mjs'
 import { assignOccurrencePackage } from './occurrence-package-map.mjs'
-import { descendantTaxonScope, occurrenceMatchMethod } from './taxon-linkage.mjs'
+import { descendantTaxonScope, normalizeTaxonName, occurrenceMatchMethod } from './taxon-linkage.mjs'
 
 const failures = []
 failures.push(...validatePlatform('all'))
@@ -33,6 +34,7 @@ const entityLinkageBaseline = readJson('data/indexes/entity-linkage-baseline.jso
 const canonicalRanges = readJson('data/ranges/range-evidence.json')
 const taxonResolution = readJson('data/sources/pbdb-taxon-resolution.json')
 const sourceMetadata = readJson('data/sources/pbdb-occurrence-bundle.json')
+const perissodactylaSnapshot = readJson('data/sources/perissodactyla-occurrence-snapshot-v2.json')
 const manifest = readJson('data/manifest.json')
 const packageMetadata = readJson('package.json')
 const packageIds = new Set(readJson('data/registry/package-registry.json').packages.map((entry) => entry.id))
@@ -211,9 +213,12 @@ function findParentId(root, childId, parentId = null) {
 const ontologyTree = inspectTree(ontology, 'navigation ontology')
 const phylogenyTree = inspectTree(phylogenyPackage.root, 'Perissodactyla hypothesis')
 for (const node of ontologyTree.nodes) {
+  const parent = ontologyTree.nodes.find((candidate) => (candidate.children ?? []).some((child) => child.id === node.id))
+  const parentRelationshipKind = node.parentRelationshipKind ?? (parent ? 'taxonomic-parent' : null)
   check(typeof node.commonNameZh === 'string' && node.commonNameZh.length > 0, `navigation node ${node.id}: Chinese common name is required`)
   check(['taxon', 'navigation-group', 'historical-grade', 'informal-group', 'hypothesis-node'].includes(node.entityKind), `navigation node ${node.id}: explicit entityKind is required`)
   check(['registry-only', 'dossier', 'full-profile'].includes(node.contentLevel), `navigation node ${node.id}: explicit contentLevel is required`)
+  check(parentRelationshipKind === null || ['taxonomic-parent', 'navigation-parent', 'display-grouping', 'historical-grade-membership', 'cross-package-reference'].includes(parentRelationshipKind), `navigation node ${node.id}: relationship kind is invalid`)
 }
 check(taxonResolution.source?.doi === '10.5281/zenodo.21620933' && taxonResolution.source?.archiveMd5 === 'fca5fde5e8d5922d06fe332a42b955f9', 'PBDB taxon reconciliation must identify the pinned 2026-07-19 full snapshot')
 check(taxonResolution.summary?.ontologyNodes === ontologyTree.nodes.length, 'PBDB taxon reconciliation node count is stale')
@@ -224,9 +229,18 @@ for (const node of ontologyTree.nodes) {
   check(Boolean(resolution), `navigation node ${node.id}: missing PBDB resolution record`)
   if (!resolution) continue
   check(resolution.resolvedName === resolution.acceptedName && resolution.resolvedRank === resolution.acceptedRank, `navigation node ${node.id}: PBDB resolved fields are stale`)
-  check(resolution.localExpectedParentConcept === (ontologyTree.nodes.find((candidate) => (candidate.children ?? []).some((child) => child.id === node.id))?.name ?? null), `navigation node ${node.id}: expected parent concept is stale`)
-  check(['compatible-immediate-parent', 'compatible-classification', 'incompatible', 'indeterminate'].includes(resolution.lineageCompatibility), `navigation node ${node.id}: lineage compatibility is missing`)
-  if (resolution.lineageCompatibility === 'incompatible') check(resolution.conceptReviewStatus === 'needs-concept-review' && resolution.curatorDecision === 'needs-concept-review', `navigation node ${node.id}: incompatible lineage must trigger concept review`)
+  const parent = ontologyTree.nodes.find((candidate) => (candidate.children ?? []).some((child) => child.id === node.id))
+  const parentRelationshipKind = node.parentRelationshipKind ?? (parent ? 'taxonomic-parent' : null)
+  check(resolution.localExpectedParentConcept === (parent?.name ?? null), `navigation node ${node.id}: expected parent concept is stale`)
+  check(resolution.parentRelationshipKind === parentRelationshipKind, `navigation node ${node.id}: relationship kind is stale in PBDB ledger`)
+  check(Array.isArray(resolution.resolvedAncestorChain), `navigation node ${node.id}: PBDB ancestor chain must be recorded`)
+  check(['compatible-immediate-parent', 'compatible-classification', 'compatible-ancestor-chain', 'not-applicable-non-taxonomic-edge', 'incompatible', 'indeterminate'].includes(resolution.lineageCompatibility), `navigation node ${node.id}: lineage compatibility is missing`)
+  if (resolution.parentRelationshipKind !== 'taxonomic-parent' && resolution.resolutionStatus === 'resolved') check(resolution.lineageCompatibility === 'not-applicable-non-taxonomic-edge' || resolution.conceptReviewStatus === 'not-required-navigation-edge', `navigation node ${node.id}: non-taxonomic edges must not create lineage mismatch`)
+  if (resolution.lineageCompatibility === 'incompatible' && resolution.parentRelationshipKind === 'taxonomic-parent') {
+    const expectedRecommendation = resolution.resolutionStatus === 'resolved' ? 'needs-concept-review' : 'withhold-external-mapping'
+    check(resolution.conceptReviewStatus === 'needs-concept-review' && resolution.automatedRecommendation === expectedRecommendation, `navigation node ${node.id}: incompatible lineage must trigger the correct automated recommendation`)
+  }
+  check(!resolution.humanCuratorDecision || (resolution.curatorRationale && resolution.curatorReviewedAt && resolution.curatorReviewer), `navigation node ${node.id}: human curator decisions require reviewer, date and rationale`)
   if (resolution.resolutionStatus === 'resolved') {
     check(node.taxonId === resolution.pbdbId, `navigation node ${node.id}: PBDB ID differs from the pinned resolution`)
     check(resolution.acceptedName === node.name, `navigation node ${node.id}: PBDB accepted name does not match`)
@@ -362,11 +376,24 @@ check(unique(ontologyTaxonIds), 'navigation ontology PBDB taxon IDs must be uniq
 check(entityIndex.sourceTotal === fossilCount, 'entity index sourceTotal must match bundled occurrences')
 const recomputedLinkedIds = new Set()
 const recomputedMethodIds = { exactExternalId: new Set(), acceptedName: new Set(), higherClassification: new Set() }
+const entityPackageById = new Map(registryEntities.map((entity) => [entity.id, entity.packageId]))
+const recomputedPackageLinkedIds = new Map([...packageIds].map((packageId) => [packageId, new Set()]))
+const mappingCanDriveQuery = (entityId) => {
+  const resolution = resolutionsByEntityId.get(entityId)
+  return resolution?.resolutionStatus === 'resolved' && (resolution.conceptReviewStatus !== 'needs-concept-review' || resolution.humanCuratorDecision === 'accept-external-mapping')
+}
+const canonicalTaxonIds = new Set(ontologyTree.nodes.filter((node) => mappingCanDriveQuery(node.id)).map((node) => node.taxonId).filter(Boolean))
+const canonicalNames = new Set(ontologyTree.nodes.filter((node) => mappingCanDriveQuery(node.id)).map((node) => normalizeTaxonName(node.name)))
 for (const node of ontologyTree.nodes) {
   const entry = entityIndex.nodes[node.id]
   check(Boolean(entry), `entity index: missing ${node.id}`)
   if (!entry) continue
   const scope = descendantTaxonScope(node)
+  for (const candidate of flattenTree(node)) {
+    if (mappingCanDriveQuery(candidate.id)) continue
+    if (candidate.taxonId) scope.ids.delete(candidate.taxonId)
+    scope.names.delete(normalizeTaxonName(candidate.name))
+  }
   const descendants = [...scope.ids]
   const descendantNames = [...scope.names]
   const expectedPeriods = []
@@ -382,8 +409,8 @@ for (const node of ontologyTree.nodes) {
     expectedTotal += count
     for (const { record, method } of matched) {
       expectedMethods[method] += 1
-      recomputedLinkedIds.add(record.oid)
-      if (![...Object.values(recomputedMethodIds)].some((ids) => ids.has(record.oid))) recomputedMethodIds[method].add(record.oid)
+      const packageId = entityPackageById.get(node.id) ?? 'atlas-core'
+      if ((record.packageId ?? 'atlas-core') === packageId) recomputedPackageLinkedIds.get(packageId)?.add(record.oid)
     }
   }
   check(entry.entityId === node.id, `entity index ${node.id}: stable entity ID is stale`)
@@ -393,17 +420,62 @@ for (const node of ontologyTree.nodes) {
   check(entry.matchedTotal === expectedTotal, `entity index ${node.id}: matchedTotal is stale`)
   check(JSON.stringify(entry.matchMethods) === JSON.stringify(expectedMethods), `entity index ${node.id}: match methods are stale`)
 }
+for (const records of fossilsByPeriod.values()) for (const record of records) {
+  let method = null
+  if (record.tid && canonicalTaxonIds.has(record.tid)) method = 'exactExternalId'
+  else if (record.tna && canonicalNames.has(normalizeTaxonName(record.tna))) method = 'acceptedName'
+  else if (occurrenceMatchMethod(record, { ids: canonicalTaxonIds, names: canonicalNames }) === 'higherClassification') method = 'higherClassification'
+  if (method) {
+    recomputedLinkedIds.add(record.oid)
+    recomputedMethodIds[method].add(record.oid)
+  }
+}
 check(entityLinkageCoverage.sourceTotal === fossilCount, 'entity linkage coverage sourceTotal is stale')
 check(entityLinkageCoverage.linkedOccurrenceTotal + entityLinkageCoverage.unmatchedOccurrenceTotal === fossilCount, 'entity linkage coverage totals do not reconcile')
 check(entityLinkageCoverage.linkedOccurrenceTotal === recomputedLinkedIds.size, 'entity linkage union must be independently recomputed from occurrence rows')
 for (const [method, ids] of Object.entries(recomputedMethodIds)) check(entityLinkageCoverage.linkageMethods?.[method] === ids.size, `entity linkage ${method} count is stale`)
+const recomputedDirectTotal = recomputedMethodIds.exactExternalId.size + recomputedMethodIds.acceptedName.size
+check(entityLinkageCoverage.directLinkTotal === recomputedDirectTotal, 'entity linkage direct total is stale')
+check(entityLinkageCoverage.broadLinkTotal === recomputedLinkedIds.size, 'entity linkage broad total is stale')
+check(entityLinkageCoverage.directLinkRate === Number((recomputedDirectTotal / fossilCount).toFixed(6)), 'entity linkage direct rate is stale')
+check(entityLinkageCoverage.broadLinkRate === Number((recomputedLinkedIds.size / fossilCount).toFixed(6)), 'entity linkage broad rate is stale')
 check(entityLinkageCoverage.linkedOccurrenceRate >= entityLinkageBaseline.minimumLinkedOccurrenceRate, `entity linkage rate ${entityLinkageCoverage.linkedOccurrenceRate} regressed below frozen baseline gate ${entityLinkageBaseline.minimumLinkedOccurrenceRate}`)
 for (const [method, minimum] of Object.entries(entityLinkageBaseline.minimumLinkageMethods)) check(entityLinkageCoverage.linkageMethods?.[method] >= minimum, `entity linkage ${method} regressed below frozen baseline ${minimum}`)
 for (const [packageId, minimumRate] of Object.entries(entityLinkageBaseline.packageMinimumRates)) check(entityLinkageCoverage.packageCoverage?.[packageId]?.linkedRate >= minimumRate, `entity linkage package ${packageId} regressed below ${minimumRate}`)
+for (const packageId of packageIds) {
+  const sourceTotal = [...fossilsByPeriod.values()].flat().filter((record) => (record.packageId ?? 'atlas-core') === packageId).length
+  const linkedTotal = recomputedPackageLinkedIds.get(packageId)?.size ?? 0
+  const expectedRate = sourceTotal ? Number((linkedTotal / sourceTotal).toFixed(6)) : null
+  const expectedStatus = sourceTotal ? 'sampled' : 'no-sampled-rows'
+  const actual = entityLinkageCoverage.packageCoverage?.[packageId]
+  check(actual?.sourceTotal === sourceTotal && actual?.linkedTotal === linkedTotal && actual?.linkedRate === expectedRate && actual?.coverageStatus === expectedStatus, `entity linkage package ${packageId} coverage must be independently recomputed`)
+}
+check(sameValues([...(entityLinkageBaseline.noSamplePackageIds ?? [])].sort(), [...packageIds].filter((packageId) => entityLinkageCoverage.packageCoverage?.[packageId]?.coverageStatus === 'no-sampled-rows').sort()), 'zero-sample package baseline is stale')
+for (const packageId of entityLinkageBaseline.noSamplePackageIds ?? []) {
+  const packageCoverage = entityLinkageCoverage.packageCoverage?.[packageId]
+  check(packageCoverage?.sourceTotal === 0 && packageCoverage?.linkedRate === null && packageCoverage?.coverageStatus === 'no-sampled-rows', `entity linkage package ${packageId} must disclose no sampled rows instead of 100% coverage`)
+}
 check(sameValues(entityLinkageCoverage.ambiguousNameCollisions, entityLinkageBaseline.ambiguousNameCollisions), 'new entity-name collision requires an explicit baseline review')
 const unresolvedEntityIds = taxonResolution.resolutions.filter((entry) => entry.resolutionStatus !== 'resolved').map((entry) => entry.entityId).sort()
 check(sameValues(unresolvedEntityIds, entityLinkageBaseline.unresolvedEntityIds), 'new unresolved entities require an explicit external-resolution baseline review')
-for (const profile of profiles) check(entityLinkageCoverage.profileTotals?.[profile.id] === entityIndex.nodes[profile.treeNodeId]?.matchedTotal, `entity linkage coverage for ${profile.id} is stale`)
+const snapshotQueriesByEntityId = new Map(perissodactylaSnapshot.queryResults.map((entry) => [entry.entityId, entry]))
+check(unique(perissodactylaSnapshot.records.map((record) => record.oid)), 'Perissodactyla snapshot occurrence IDs must be unique')
+check(perissodactylaSnapshot.uniqueRecordCount === perissodactylaSnapshot.records.length, 'Perissodactyla snapshot unique record count is stale')
+check(perissodactylaSnapshot.recordsSha256 === createHash('sha256').update(JSON.stringify(perissodactylaSnapshot.records)).digest('hex'), 'Perissodactyla snapshot checksum is stale')
+for (const profile of profiles) {
+  const query = snapshotQueriesByEntityId.get(profile.treeNodeId)
+  check(Boolean(query), `Perissodactyla snapshot is missing complete query metadata for ${profile.id}`)
+  if (!query) continue
+  const actualRows = perissodactylaSnapshot.records.filter((record) => record.matchedProfileIds.includes(profile.id))
+  check(query.paginationComplete && query.inclusionProbability === 1 && query.selectionMethod === 'complete-pagination', `Perissodactyla snapshot ${profile.id} must be a complete paginated query`)
+  const resolution = resolutionsByEntityId.get(profile.treeNodeId)
+  const queryEligible = resolution?.resolutionStatus === 'resolved' && (resolution.conceptReviewStatus !== 'needs-concept-review' || resolution.humanCuratorDecision === 'accept-external-mapping')
+  check(query.queryEligible === queryEligible && query.conceptReviewStatus === resolution?.conceptReviewStatus, `Perissodactyla snapshot ${profile.id} concept-review gate is stale`)
+  check(query.rowsFetched === query.upstreamTotal && query.rowsFetched === actualRows.length, `Perissodactyla snapshot ${profile.id} row count is stale`)
+  check(query.occurrenceIdSha256 === createHash('sha256').update(actualRows.map((record) => record.oid).sort().join('\n')).digest('hex'), `Perissodactyla snapshot ${profile.id} occurrence checksum is stale`)
+  check(entityIndex.nodes[profile.treeNodeId]?.completeSnapshotAvailable === queryEligible && entityIndex.nodes[profile.treeNodeId]?.completeSnapshotRows === query.rowsFetched, `entity index complete snapshot status for ${profile.id} is stale`)
+  check(entityLinkageCoverage.profileTotals?.[profile.id] === query.rowsFetched, `entity linkage coverage for ${profile.id} is stale`)
+}
 
 check(sourceMetadata.samplingMethod === 'bounded non-random API-prefix sample', 'PBDB bundle must use an accurate sampling label')
 check(sourceMetadata.randomized === false && sourceMetadata.selectionProbabilityKnown === false && sourceMetadata.sourceTotalsRetained === false, 'PBDB bundle must disclose randomization, selection probability and source-total limitations')
@@ -423,9 +495,11 @@ check(findParentId(ontology, 'meganeura') === 'meganisoptera', 'Meganeura must b
 check(findParentId(ontology, 'tetrapoda') === 'tetrapodomorpha', 'Tetrapoda must be nested within the Tetrapodomorpha total group')
 check(findParentId(ontology, 'graptolithina') === 'pterobranchia', 'Graptolithina must be nested within Pterobranchia')
 check(findParentId(ontology, 'marchantiophyta') === 'plantae' && findParentId(ontology, 'anthocerotophyta') === 'plantae', 'liverwort and hornwort entities must be explicit beside Bryophyta sensu stricto')
+check(findParentId(ontology, 'myriapoda') === 'arthropoda' && findParentId(ontology, 'chilopoda') === 'myriapoda' && findParentId(ontology, 'diplopoda') === 'myriapoda', 'Myriapoda, Chilopoda and Diplopoda must be explicit in the arthropod package')
 check(claimsById.get('claim:event:quaternary-megafauna-extinction')?.statement.includes('tracks human expansion more strongly than climate'), 'Quaternary megafauna claim must reflect the cited source position')
 
 const summary = collectDataSummary()
+check(manifest.wholeLifeCoverageClaim === false && manifest.scopeStatement && manifest.includedMajorGroups?.length && manifest.excludedMajorGroups?.includes('Bacteria'), 'manifest must explicitly disclose the non-whole-life coverage scope')
 check(summary.records.fossilOccurrences === fossilCount, 'summary fossil count must match loaded records')
 for (const [key, value] of Object.entries(summary.records)) check(manifest.records[key] === value, `manifest records.${key} is ${manifest.records[key]} but should be ${value}`)
 for (const [path, checksum] of Object.entries(summary.checksums)) check(manifest.checksums?.[path] === checksum, `manifest checksum is stale for ${path}`)

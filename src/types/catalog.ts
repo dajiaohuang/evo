@@ -8,6 +8,7 @@ export interface ReferenceRecord {
   type: 'paper' | 'database' | 'dataset' | 'standard' | 'museum' | 'documentation'
   sourceRole: 'primary-study' | 'systematic-review' | 'taxonomic-database' | 'occurrence-database' | 'museum-overview' | 'documentation' | 'standard'
   fitnessFor: Array<'taxonomy' | 'topology' | 'range' | 'morphology' | 'ecology' | 'biogeography' | 'event-mechanism' | 'occurrence' | 'paleogeography' | 'geochronology' | 'methods'>
+  metadataAssignment: 'automated' | 'curator-reviewed'
   url: string
   doi?: string
   accessedAt?: string
@@ -30,6 +31,9 @@ export interface TaxonProfile {
   extinct: boolean
   firstAppearance: number
   lastAppearance: number
+  rangeEvidenceLevel: 'legacy-display' | 'database-derived' | 'literature-synthesized' | 'expert-reviewed'
+  rangeReviewStatus: 'not-reviewed' | 'automated-audit-passed' | 'expert-reviewed'
+  rangeProvisional: boolean
   geography: string[]
   regionalRanges?: Array<{
     label: string
@@ -39,6 +43,8 @@ export interface TaxonProfile {
     youngerMa: number
     basis: string
     confidence: ConfidenceLevel
+    evidenceLevel: 'legacy-display' | 'database-derived' | 'literature-synthesized' | 'expert-reviewed'
+    provisional: boolean
     referenceIds: string[]
   }>
   overview: string

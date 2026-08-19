@@ -5,6 +5,7 @@ import events from '../../data/events.json'
 import stories from '../../data/stories.json'
 import claims from '../../data/evidence/claims.json'
 import claimRationalesZh from '../../data/evidence/claim-rationales.zh.json'
+import claimStatementsZh from '../../data/evidence/claim-statements.zh.json'
 import media from '../../data/media.json'
 import tree from '../../data/navigation/atlas-ontology.json'
 import treeEvidence from '../../data/tree/evidence.json'
@@ -30,8 +31,13 @@ function LanguageProbe() {
   )
 }
 
-function flattenCommonNames(node: typeof tree): string[] {
-  return [node.commonName, ...node.children.flatMap((child) => flattenCommonNames(child as typeof tree))]
+interface CommonNameNode {
+  commonName: string
+  children: CommonNameNode[]
+}
+
+function flattenCommonNames(node: CommonNameNode): string[] {
+  return [node.commonName, ...node.children.flatMap((child) => flattenCommonNames(child))]
 }
 
 describe('site language state', () => {
@@ -65,6 +71,7 @@ describe('Chinese catalog coverage', () => {
 
   it('covers every dynamic narrative rendered through the translator', () => {
     expect(Object.keys(claimRationalesZh).sort()).toEqual(claims.map((claim) => claim.id).sort())
+    expect(Object.keys(claimStatementsZh).sort()).toEqual(claims.filter((claim) => claim.reviewedBy === 'Evo Atlas automated evidence decomposition').map((claim) => claim.statement).sort())
     const dynamicCopy = [
       ...profiles.flatMap((profile) => [
         profile.overview,
@@ -84,7 +91,7 @@ describe('Chinese catalog coverage', () => {
         story.dek,
         ...story.steps.flatMap((step) => [step.title, step.text, step.annotation, step.view].filter(Boolean)),
       ]),
-      ...claims.map((claim) => claim.statement),
+      ...claims.filter((claim) => !Object.hasOwn(claimStatementsZh, claim.statement)).map((claim) => claim.statement),
       ...media.flatMap((asset) => [asset.title, asset.type.replace('-', ' '), asset.licenseNote]),
       calibrations.scope,
       calibrations.model,

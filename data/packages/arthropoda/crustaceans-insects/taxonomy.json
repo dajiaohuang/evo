@@ -3,52 +3,79 @@
   "rootEntityIds": [
     "arthropoda",
     "crustacea",
-    "insecta"
+    "insecta",
+    "myriapoda"
   ],
   "relationships": [
     {
       "id": "arthropoda",
-      "parentId": "invertebrata"
+      "parentId": "invertebrata",
+      "relationshipKind": "navigation-parent"
     },
     {
       "id": "insecta",
-      "parentId": "arthropoda"
+      "parentId": "arthropoda",
+      "relationshipKind": "taxonomic-parent"
     },
     {
       "id": "odonatoptera",
-      "parentId": "insecta"
+      "parentId": "insecta",
+      "relationshipKind": "taxonomic-parent"
     },
     {
       "id": "odonata",
-      "parentId": "odonatoptera"
+      "parentId": "odonatoptera",
+      "relationshipKind": "navigation-parent"
     },
     {
       "id": "meganisoptera",
-      "parentId": "odonatoptera"
+      "parentId": "odonatoptera",
+      "relationshipKind": "navigation-parent"
     },
     {
       "id": "meganeura",
-      "parentId": "meganisoptera"
+      "parentId": "meganisoptera",
+      "relationshipKind": "taxonomic-parent"
     },
     {
       "id": "coleoptera",
-      "parentId": "insecta"
+      "parentId": "insecta",
+      "relationshipKind": "taxonomic-parent"
     },
     {
       "id": "hymenoptera",
-      "parentId": "insecta"
+      "parentId": "insecta",
+      "relationshipKind": "taxonomic-parent"
     },
     {
       "id": "crustacea",
-      "parentId": "arthropoda"
+      "parentId": "arthropoda",
+      "relationshipKind": "taxonomic-parent"
     },
     {
       "id": "ostracoda",
-      "parentId": "crustacea"
+      "parentId": "crustacea",
+      "relationshipKind": "taxonomic-parent"
     },
     {
       "id": "malacostraca",
-      "parentId": "crustacea"
+      "parentId": "crustacea",
+      "relationshipKind": "taxonomic-parent"
+    },
+    {
+      "id": "myriapoda",
+      "parentId": "arthropoda",
+      "relationshipKind": "taxonomic-parent"
+    },
+    {
+      "id": "chilopoda",
+      "parentId": "myriapoda",
+      "relationshipKind": "taxonomic-parent"
+    },
+    {
+      "id": "diplopoda",
+      "parentId": "myriapoda",
+      "relationshipKind": "taxonomic-parent"
     }
   ]
 }

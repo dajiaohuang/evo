@@ -3,7 +3,7 @@
   "$id": "https://dajiaohuang.github.io/evo/schemas/range-evidence.schema.json",
   "type": "object",
   "additionalProperties": false,
-  "required": ["id", "entityId", "rangeKind", "taxonomicConcept", "geographicScope", "olderMa", "youngerMa", "status", "uncertainty", "evidenceBasis", "confidence", "claimIds", "referenceLocators", "reviewStatus"],
+  "required": ["id", "entityId", "rangeKind", "taxonomicConcept", "geographicScope", "olderMa", "youngerMa", "status", "uncertainty", "evidenceBasis", "evidenceLevel", "confidence", "claimIds", "referenceLocators", "reviewStatus"],
   "properties": {
     "id": { "type": "string", "minLength": 1 },
     "entityId": { "type": "string", "minLength": 1 },
@@ -24,6 +24,7 @@
       }
     },
     "evidenceBasis": { "type": "string", "minLength": 20 },
+    "evidenceLevel": { "enum": ["legacy-display", "database-derived", "literature-synthesized", "expert-reviewed"] },
     "confidence": { "enum": ["high", "medium", "low", "contested"] },
     "claimIds": { "type": "array", "uniqueItems": true, "items": { "type": "string", "pattern": "^claim:" } },
     "referenceLocators": {

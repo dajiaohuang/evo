@@ -1,0 +1,169 @@
+{
+  "schemaVersion": 1,
+  "id": "phylogeny:perissodactyla-curated-2026-08",
+  "label": "Curated Perissodactyla topology hypothesis",
+  "scopeNodeId": "perissodactyla",
+  "referenceIds": [
+    "pnas-2026-perissodactyls",
+    "bai-2020-rhinocerotoidea",
+    "liu-2021-rhinoceros-genomes"
+  ],
+  "note": "A compact, non-exhaustive hypothesis for the flagship package. Branch lengths do not encode elapsed time.",
+  "root": {
+    "id": "perissodactyla",
+    "name": "Perissodactyla",
+    "commonName": "Odd-toed Ungulates",
+    "rank": "order",
+    "taxonId": "txn:106418",
+    "extinct": false,
+    "children": [
+      {
+        "id": "brontotheriidae",
+        "name": "Brontotheriidae",
+        "commonName": "Brontotheres",
+        "rank": "family",
+        "taxonId": "txn:43027",
+        "extinct": true,
+        "children": []
+      },
+      {
+        "id": "hippomorpha",
+        "name": "Hippomorpha",
+        "commonName": "Horse-line Perissodactyls",
+        "rank": "clade",
+        "extinct": false,
+        "children": [
+          {
+            "id": "palaeotherium",
+            "name": "Palaeotherium",
+            "commonName": "Palaeotheres",
+            "rank": "genus",
+            "taxonId": "txn:49711",
+            "extinct": true,
+            "children": []
+          },
+          {
+            "id": "equidae",
+            "name": "Equidae",
+            "commonName": "Horses",
+            "rank": "family",
+            "taxonId": "txn:42938",
+            "extinct": false,
+            "children": [
+              {
+                "id": "anchitherium",
+                "name": "Anchitherium",
+                "commonName": "Three-toed Browsing Horses",
+                "rank": "genus",
+                "taxonId": "txn:42987",
+                "extinct": true,
+                "children": []
+              },
+              {
+                "id": "hipparionini",
+                "name": "Hipparionini",
+                "commonName": "Hipparionine Horses",
+                "rank": "tribe",
+                "taxonId": "txn:65579",
+                "extinct": true,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ancylopoda",
+        "name": "Ancylopoda",
+        "commonName": "Chalicothere-line Perissodactyls",
+        "rank": "clade",
+        "extinct": true,
+        "children": [
+          {
+            "id": "chalicotherium",
+            "name": "Chalicotherium",
+            "commonName": "Chalicotheres",
+            "rank": "genus",
+            "taxonId": "txn:43079",
+            "extinct": true,
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "ceratomorpha",
+        "name": "Ceratomorpha",
+        "commonName": "Tapir and Rhino Line",
+        "rank": "clade",
+        "extinct": false,
+        "children": [
+          {
+            "id": "tapiroidea",
+            "name": "Tapiroidea",
+            "commonName": "Tapirs and Relatives",
+            "rank": "superfamily",
+            "taxonId": "txn:43095",
+            "extinct": false,
+            "children": []
+          },
+          {
+            "id": "rhinocerotoidea",
+            "name": "Rhinocerotoidea",
+            "commonName": "Rhinos and Relatives",
+            "rank": "superfamily",
+            "taxonId": "txn:43102",
+            "extinct": false,
+            "children": [
+              {
+                "id": "metamynodon",
+                "name": "Metamynodon",
+                "commonName": "Amynodont Rhinos",
+                "rank": "genus",
+                "taxonId": "txn:43179",
+                "extinct": true,
+                "children": []
+              },
+              {
+                "id": "paraceratherium",
+                "name": "Paraceratherium",
+                "commonName": "Giant Rhinos",
+                "rank": "genus",
+                "taxonId": "txn:43161",
+                "extinct": true,
+                "children": []
+              },
+              {
+                "id": "rhinocerotidae",
+                "name": "Rhinocerotidae",
+                "commonName": "True Rhinoceroses",
+                "rank": "family",
+                "taxonId": "txn:43104",
+                "extinct": false,
+                "children": [
+                  {
+                    "id": "teleoceras",
+                    "name": "Teleoceras",
+                    "commonName": "Short-legged Rhinos",
+                    "rank": "genus",
+                    "taxonId": "txn:43226",
+                    "extinct": true,
+                    "children": []
+                  },
+                  {
+                    "id": "coelodonta",
+                    "name": "Coelodonta",
+                    "commonName": "Woolly Rhinoceroses",
+                    "rank": "genus",
+                    "taxonId": "txn:43197",
+                    "extinct": true,
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

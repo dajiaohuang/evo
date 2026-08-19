@@ -1,8 +1,9 @@
-import { useEffect, useState, type ReactNode } from 'react'
+import { lazy, Suspense, useEffect, useState, type ReactNode } from 'react'
 import type { AppRoute } from '../../utils/routing'
-import { GlobalSearch } from '../search/GlobalSearch'
 import { useI18n } from '../../i18n'
 import './AppShell.css'
+
+const GlobalSearch = lazy(() => import('../search/GlobalSearch').then((module) => ({ default: module.GlobalSearch })))
 
 interface AppShellProps {
   route: AppRoute
@@ -82,7 +83,7 @@ export function AppShell({ route, onNavigate, children, immersive = false }: App
             <button className={language === 'en' ? 'is-active' : ''} onClick={() => setLanguage('en')} aria-pressed={language === 'en'} lang="en">EN</button>
             <button className={language === 'zh' ? 'is-active' : ''} onClick={() => setLanguage('zh')} aria-pressed={language === 'zh'} lang="zh-CN">中文</button>
           </div>
-          <GlobalSearch onNavigate={onNavigate} />
+          <Suspense fallback={null}><GlobalSearch onNavigate={onNavigate} /></Suspense>
         </div>
       </header>
       <div className="app-shell__content" id="main-content" tabIndex={-1}>{children}</div>

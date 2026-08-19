@@ -8,47 +8,58 @@
   "relationships": [
     {
       "id": "agnatha",
-      "parentId": "vertebrata"
+      "parentId": "vertebrata",
+      "relationshipKind": "historical-grade-membership"
     },
     {
       "id": "conodonta",
-      "parentId": "agnatha"
+      "parentId": "agnatha",
+      "relationshipKind": "taxonomic-parent"
     },
     {
       "id": "ostracodermi",
-      "parentId": "agnatha"
+      "parentId": "agnatha",
+      "relationshipKind": "historical-grade-membership"
     },
     {
       "id": "heterostraci",
-      "parentId": "ostracodermi"
+      "parentId": "ostracodermi",
+      "relationshipKind": "taxonomic-parent"
     },
     {
       "id": "osteostraci",
-      "parentId": "ostracodermi"
+      "parentId": "ostracodermi",
+      "relationshipKind": "taxonomic-parent"
     },
     {
       "id": "cyclostomata",
-      "parentId": "agnatha"
+      "parentId": "agnatha",
+      "relationshipKind": "taxonomic-parent"
     },
     {
       "id": "petromyzontida",
-      "parentId": "cyclostomata"
+      "parentId": "cyclostomata",
+      "relationshipKind": "taxonomic-parent"
     },
     {
       "id": "placodermi",
-      "parentId": "gnathostomata"
+      "parentId": "gnathostomata",
+      "relationshipKind": "historical-grade-membership"
     },
     {
       "id": "arthrodira",
-      "parentId": "placodermi"
+      "parentId": "placodermi",
+      "relationshipKind": "taxonomic-parent"
     },
     {
       "id": "dunkleosteus",
-      "parentId": "arthrodira"
+      "parentId": "arthrodira",
+      "relationshipKind": "taxonomic-parent"
     },
     {
       "id": "acanthodii",
-      "parentId": "gnathostomata"
+      "parentId": "gnathostomata",
+      "relationshipKind": "historical-grade-membership"
     }
   ]
 }

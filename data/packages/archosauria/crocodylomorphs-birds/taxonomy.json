@@ -7,23 +7,28 @@
   "relationships": [
     {
       "id": "crocodylomorpha",
-      "parentId": "archosauria"
+      "parentId": "archosauria",
+      "relationshipKind": "taxonomic-parent"
     },
     {
       "id": "aves",
-      "parentId": "theropoda"
+      "parentId": "theropoda",
+      "relationshipKind": "taxonomic-parent"
     },
     {
       "id": "archaeopteryx",
-      "parentId": "aves"
+      "parentId": "aves",
+      "relationshipKind": "taxonomic-parent"
     },
     {
       "id": "neornithes",
-      "parentId": "aves"
+      "parentId": "aves",
+      "relationshipKind": "taxonomic-parent"
     },
     {
       "id": "phorusrhacidae",
-      "parentId": "neornithes"
+      "parentId": "neornithes",
+      "relationshipKind": "taxonomic-parent"
     }
   ]
 }

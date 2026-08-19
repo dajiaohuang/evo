@@ -55,7 +55,7 @@ describe('static runtime release coherence', () => {
     const current = {
       schemaVersion: 5,
       datasetVersion: 'dataset-b',
-      appVersion: '0.10.0',
+      appVersion: '0.11.0',
       publication: 'test',
       releaseBase: 'releases/dataset-b/',
       core: {},

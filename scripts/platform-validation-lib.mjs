@@ -7,6 +7,7 @@ const unique = (items) => new Set(items).size === items.length
 const scientificMaturityOrder = ['generated-scaffold', 'source-inventory-complete', 'curated-draft', 'expert-reviewed', 'gold-v2']
 const scientificMaturityAtLeast = (value, minimum) => scientificMaturityOrder.indexOf(value) >= scientificMaturityOrder.indexOf(minimum)
 const scientificSourceRoles = new Set(['primary-study', 'systematic-review'])
+const claimFitness = { taxonomy: 'taxonomy', topology: 'topology', 'divergence-time': 'geochronology', 'fossil-range': 'range', biogeography: 'biogeography', morphology: 'morphology', ecology: 'ecology', 'event-mechanism': 'event-mechanism' }
 
 function schemaValidator(schemaPath) {
   const ajv = new Ajv2020({ allErrors: true, strict: true })
@@ -23,8 +24,10 @@ function registryFailures() {
   const failures = []
   const entities = readJson('data/registry/entities/entities.json')
   const registry = readJson('data/registry/package-registry.json')
+  const packageInventoryBaseline = readJson('data/registry/package-inventory-baseline.json')
   const references = new Set(readJson('data/references.json').map((reference) => reference.id))
   const ontology = readJson('data/navigation/atlas-ontology.json')
+  const generatedFileLedger = readJson('data/registry/generated-files.json')
   const resolutions = new Map(readJson('data/sources/pbdb-taxon-resolution.json').resolutions.map((entry) => [entry.entityId, entry]))
   const validateEntity = schemaValidator('data/schemas/entity.schema.json')
   const ids = entities.map((entity) => entity.id)
@@ -32,9 +35,14 @@ function registryFailures() {
   const packageIds = new Set(registry.packages.map((entry) => entry.id))
   if (entities.length !== countTreeNodes(ontology)) failures.push(`entity registry has ${entities.length} entries; navigation ontology has ${countTreeNodes(ontology)}`)
   if (registry.entityCount !== entities.length) failures.push('package registry entityCount is stale')
-  if (registry.packageCount !== 24 || registry.packages.length !== 24) failures.push('package registry must contain 24 packages')
+  const registryPackageIds = [...packageIds].sort()
+  const approvedPackageIds = [...packageInventoryBaseline.packageIds].sort()
+  if (registry.packageCount !== registry.packages.length) failures.push('package registry packageCount is stale')
+  if (JSON.stringify(registryPackageIds) !== JSON.stringify(approvedPackageIds)) failures.push('package inventory changed without updating the reviewed package-inventory baseline')
   if (!unique(ids)) failures.push('entity registry IDs must be unique')
   if (!unique([...packageIds])) failures.push('package IDs must be unique')
+  const generatedCanonicalOverlap = generatedFileLedger.canonicalInputs.filter((path) => generatedFileLedger.generatedFiles.includes(path))
+  if (generatedCanonicalOverlap.length) failures.push(`generated files cannot also be canonical inputs: ${generatedCanonicalOverlap.join(', ')}`)
   if (registry.schemaVersion !== 5 || registry.schemaStatus !== 'candidate') failures.push('package registry must use candidate schema v5')
   for (const entity of entities) {
     failures.push(...schemaFailure(validateEntity, entity, `entity ${entity.id}`))
@@ -105,15 +113,24 @@ function packageFailures() {
       failures.push(...schemaFailure(validateRange, range, `package ${entry.id} range ${range.id}`))
       if (!canonicalRangeIds.has(range.id)) failures.push(`package ${entry.id} range ${range.id}: not present in canonical range evidence`)
       for (const locator of range.referenceLocators ?? []) if (!referencesById.has(locator.referenceId)) failures.push(`package ${entry.id} range ${range.id}: unknown reference ${locator.referenceId}`)
+      if (range.evidenceLevel === 'legacy-display' && range.confidence === 'high') failures.push(`package ${entry.id} range ${range.id}: legacy display ranges cannot have high confidence`)
+      if (range.evidenceLevel === 'literature-synthesized') {
+        const hasCuratedRangeSource = range.referenceLocators.some((locator) => {
+          const reference = referencesById.get(locator.referenceId)
+          return scientificSourceRoles.has(reference?.sourceRole) && reference?.fitnessFor.includes('range') && reference?.metadataAssignment === 'curator-reviewed' && locator.locator
+        })
+        if (!hasCuratedRangeSource || !range.claimIds.length) failures.push(`package ${entry.id} range ${range.id}: literature synthesis requires a curator-reviewed range-fit primary/review source, locator and supports claim`)
+      }
+      if (range.evidenceLevel === 'expert-reviewed' && range.reviewStatus !== 'expert-reviewed') failures.push(`package ${entry.id} range ${range.id}: expert-reviewed evidence level requires expert review status`)
     }
     if (packageData.scientificMaturity === 'gold-v2') {
       for (const range of ranges) {
-        if (!range.referenceLocators.some((locator) => scientificSourceRoles.has(referencesById.get(locator.referenceId)?.sourceRole) && referencesById.get(locator.referenceId)?.fitnessFor.includes('range'))) failures.push(`package ${entry.id} range ${range.id}: gold-v2 requires a range-fit primary study or systematic review`)
-        if (!range.claimIds.length || range.reviewStatus !== 'expert-reviewed') failures.push(`package ${entry.id} range ${range.id}: gold-v2 requires expert-reviewed claim linkage`)
+        if (!range.referenceLocators.some((locator) => scientificSourceRoles.has(referencesById.get(locator.referenceId)?.sourceRole) && referencesById.get(locator.referenceId)?.fitnessFor.includes('range') && referencesById.get(locator.referenceId)?.metadataAssignment === 'curator-reviewed')) failures.push(`package ${entry.id} range ${range.id}: gold-v2 requires curator-reviewed metadata for a range-fit primary study or systematic review`)
+        if (!range.claimIds.length || range.reviewStatus !== 'expert-reviewed' || range.evidenceLevel !== 'expert-reviewed') failures.push(`package ${entry.id} range ${range.id}: gold-v2 requires expert-reviewed claim linkage and evidence level`)
       }
       const claims = readJson('data/evidence/claims.json').filter((claim) => packageClaimIds.includes(claim.id))
       for (const claim of claims) {
-        if (!claim.referenceLinks.some((link) => link.relation === 'supports' && scientificSourceRoles.has(referencesById.get(link.referenceId)?.sourceRole) && referencesById.get(link.referenceId)?.fitnessFor.includes(claim.claimType) && (link.pages || link.figure || link.quoteLocator))) failures.push(`package ${entry.id} claim ${claim.id}: gold-v2 requires a fit primary/review support source with a locator`)
+        if (!claim.referenceLinks.some((link) => link.relation === 'supports' && scientificSourceRoles.has(referencesById.get(link.referenceId)?.sourceRole) && referencesById.get(link.referenceId)?.fitnessFor.includes(claimFitness[claim.claimType]) && referencesById.get(link.referenceId)?.metadataAssignment === 'curator-reviewed' && (link.pages || link.figure || link.quoteLocator) && !/pending/i.test(link.pages ?? link.figure ?? link.quoteLocator ?? ''))) failures.push(`package ${entry.id} claim ${claim.id}: gold-v2 requires curator-reviewed fit primary/review metadata and a concrete locator`)
       }
       const humanReviewers = review.reviewers.filter((reviewer) => reviewer.identityType === 'human' && reviewer.orcid && reviewer.expertise.length && reviewer.reviewScope.includes('all-scientific-claims'))
       if (!humanReviewers.length) failures.push(`package ${entry.id}: gold-v2 requires an identified human domain reviewer with ORCID, expertise, scope and conflict disclosure`)
@@ -124,7 +141,7 @@ function packageFailures() {
       const calibrations = readJson(`${entry.canonicalPath}/phylogeny/calibrations.json`)
       for (const calibration of calibrations.estimates) failures.push(...schemaFailure(validateCalibration, calibration, `calibration ${calibration.id}`))
       const links = readJson(`${entry.canonicalPath}/evidence/field-claim-links.json`)
-      const claimIds = new Set(readJson('data/evidence/claims.json').map((claim) => claim.id))
+      const claimsById = new Map(readJson('data/evidence/claims.json').map((claim) => [claim.id, claim]))
       const profiles = readJson(`${entry.canonicalPath}/profiles.json`)
       for (const link of links) {
         const profile = profiles.find((candidate) => candidate.id === link.profileId)
@@ -136,8 +153,12 @@ function packageFailures() {
         ] : []
         for (const field of expectedFields) if (!link.fields[field]) failures.push(`profile ${link.profileId}: visible field ${field} has no claim link`)
         for (const [field, fieldLink] of Object.entries(link.fields)) {
-          if (!claimIds.has(fieldLink.claimId)) failures.push(`profile ${link.profileId}/${field}: unknown field claim ${fieldLink.claimId}`)
+          const claim = claimsById.get(fieldLink.claimId)
+          if (!claim) failures.push(`profile ${link.profileId}/${field}: unknown field claim ${fieldLink.claimId}`)
           if (!fieldLink.sourceLocators?.length) failures.push(`profile ${link.profileId}/${field}: field claim has no source locator`)
+          const expectedClaimType = field === 'firstAppearance' || field === 'lastAppearance' || field.startsWith('regionalRanges')
+            ? 'fossil-range' : field === 'geography' ? 'biogeography' : field.startsWith('ecology.') ? 'ecology' : field.startsWith('traits') ? 'morphology' : 'taxonomy'
+          if (fieldLink.relation !== 'supports' || fieldLink.claimType !== expectedClaimType || claim?.claimType !== expectedClaimType || claim?.subjectId !== `taxon:${link.profileId}`) failures.push(`profile ${link.profileId}/${field}: field requires a matching supports ${expectedClaimType} claim`)
         }
       }
     }

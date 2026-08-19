@@ -1,7 +1,7 @@
 import type { FossilOccurrence } from '../types'
 import type { TaxonOccurrenceQueryResult, TaxonQueryScope } from '../types'
 import entityOccurrenceIndexData from '../../data/indexes/entity-occurrence-index.json'
-import { loadOccurrenceManifest, loadRuntimeFile } from '../data-client/staticDataClient'
+import { loadOccurrenceManifest, loadPackageManifest, loadRuntimeFile } from '../data-client/staticDataClient'
 
 export const FOSSIL_PERIODS = Object.freeze([
   'Cambrian', 'Ordovician', 'Silurian', 'Devonian', 'Carboniferous', 'Permian',
@@ -10,14 +10,30 @@ export const FOSSIL_PERIODS = Object.freeze([
 
 const fossilStore: Record<string, FossilOccurrence[]> = {}
 const loadingPeriods = new Map<string, Promise<FossilOccurrence[]>>()
+interface CompleteProfileSnapshot {
+  queryResults: Array<{ profileId: string; entityId: string; rowsFetched: number; paginationComplete: boolean; zeroInterpretation: 'complete-query-observed' | 'complete-query-zero' }>
+  records: Array<FossilOccurrence & { matchedProfileIds: string[] }>
+}
+let completeProfileSnapshotPromise: Promise<CompleteProfileSnapshot> | null = null
+
+async function loadCompleteProfileSnapshot(): Promise<CompleteProfileSnapshot> {
+  if (!completeProfileSnapshotPromise) completeProfileSnapshotPromise = loadPackageManifest('perissodactyla').then((manifest) => {
+    const file = manifest.files.occurrenceSnapshot
+    if (!file) throw new Error('Perissodactyla package manifest is missing its complete occurrence snapshot')
+    return loadRuntimeFile<CompleteProfileSnapshot>(file)
+  })
+  return completeProfileSnapshotPromise
+}
 interface EntityOccurrenceIndexEntry {
   entityId: string
   externalTaxonId: string | null
   scientificNameNormalized: string
   descendantTaxonIds: string[]
   descendantScientificNames: string[]
-  queryStatus: 'resolved-and-observed' | 'resolved-zero-in-bounded-sample' | 'external-id-unresolved' | 'navigation-only' | 'historical-grade' | 'outside-snapshot-scope'
+  queryStatus: 'complete-query-observed' | 'complete-query-zero' | 'concept-review-required' | 'resolved-and-observed' | 'resolved-zero-in-bounded-sample' | 'external-id-unresolved' | 'navigation-only' | 'historical-grade' | 'outside-snapshot-scope'
   matchMethods: { exactExternalId: number; acceptedName: number; higherClassification: number }
+  completeSnapshotAvailable: boolean
+  completeSnapshotRows: number | null
   periods: string[]
   matchedTotal: number
 }
@@ -54,6 +70,21 @@ export async function getFossilsByEntity(
   scope: TaxonQueryScope = 'descendants',
 ): Promise<TaxonOccurrenceQueryResult> {
   const indexed = entityOccurrenceIndex.nodes[entityId]
+  if (indexed?.completeSnapshotAvailable) {
+    const completeSnapshot = await loadCompleteProfileSnapshot()
+    const completeQuery = completeSnapshot.queryResults.find((entry) => entry.entityId === entityId)
+    if (!completeQuery) throw new Error(`Complete occurrence snapshot metadata is missing ${entityId}`)
+    const represented = completeSnapshot.records.filter((record) => record.matchedProfileIds.includes(completeQuery.profileId))
+    const records = scope === 'exact'
+      ? represented.filter((record) => record.tid === indexed.externalTaxonId || (record.tna ?? '').trim().toLocaleLowerCase() === indexed.scientificNameNormalized)
+      : represented
+    return {
+      entityId, scope, effectiveScope: scope, indexStatus: 'hit', fallbackApplied: false,
+      queryStatus: completeQuery.zeroInterpretation, matchMethods: indexed?.matchMethods ?? { exactExternalId: 0, acceptedName: 0, higherClassification: 0 },
+      sourceTotal: completeSnapshot.records.length, matchedTotal: records.length, rowsLoaded: records.length, truncated: !completeQuery.paginationComplete,
+      samplingMethod: 'complete paginated PBDB base-id snapshot', loadedPeriods: [...FOSSIL_PERIODS], records,
+    }
+  }
   const fallbackApplied = !indexed
   const effectiveScope: TaxonQueryScope = fallbackApplied ? 'exact' : scope
   const taxonIds = effectiveScope === 'descendants' && indexed

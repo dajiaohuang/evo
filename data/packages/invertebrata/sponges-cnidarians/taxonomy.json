@@ -7,35 +7,43 @@
   "relationships": [
     {
       "id": "porifera",
-      "parentId": "invertebrata"
+      "parentId": "invertebrata",
+      "relationshipKind": "navigation-parent"
     },
     {
       "id": "stromatoporoidea",
-      "parentId": "porifera"
+      "parentId": "porifera",
+      "relationshipKind": "taxonomic-parent"
     },
     {
       "id": "demospongiae",
-      "parentId": "porifera"
+      "parentId": "porifera",
+      "relationshipKind": "taxonomic-parent"
     },
     {
       "id": "cnidaria",
-      "parentId": "invertebrata"
+      "parentId": "invertebrata",
+      "relationshipKind": "navigation-parent"
     },
     {
       "id": "anthozoa",
-      "parentId": "cnidaria"
+      "parentId": "cnidaria",
+      "relationshipKind": "taxonomic-parent"
     },
     {
       "id": "rugosa",
-      "parentId": "anthozoa"
+      "parentId": "anthozoa",
+      "relationshipKind": "taxonomic-parent"
     },
     {
       "id": "tabulata",
-      "parentId": "anthozoa"
+      "parentId": "anthozoa",
+      "relationshipKind": "taxonomic-parent"
     },
     {
       "id": "scleractinia",
-      "parentId": "anthozoa"
+      "parentId": "anthozoa",
+      "relationshipKind": "taxonomic-parent"
     }
   ]
 }

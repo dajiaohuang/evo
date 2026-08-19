@@ -6,19 +6,23 @@
   "relationships": [
     {
       "id": "carnivora",
-      "parentId": "placentalia"
+      "parentId": "placentalia",
+      "relationshipKind": "taxonomic-parent"
     },
     {
       "id": "felidae",
-      "parentId": "carnivora"
+      "parentId": "carnivora",
+      "relationshipKind": "taxonomic-parent"
     },
     {
       "id": "smilodon",
-      "parentId": "felidae"
+      "parentId": "felidae",
+      "relationshipKind": "taxonomic-parent"
     },
     {
       "id": "canidae",
-      "parentId": "carnivora"
+      "parentId": "carnivora",
+      "relationshipKind": "taxonomic-parent"
     }
   ]
 }

@@ -6,15 +6,18 @@
   "relationships": [
     {
       "id": "actinopterygii",
-      "parentId": "osteichthyes"
+      "parentId": "osteichthyes",
+      "relationshipKind": "taxonomic-parent"
     },
     {
       "id": "teleostei",
-      "parentId": "actinopterygii"
+      "parentId": "actinopterygii",
+      "relationshipKind": "taxonomic-parent"
     },
     {
       "id": "salmoniformes",
-      "parentId": "teleostei"
+      "parentId": "teleostei",
+      "relationshipKind": "taxonomic-parent"
     }
   ]
 }

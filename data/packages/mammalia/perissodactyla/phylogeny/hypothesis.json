@@ -15,8 +15,6 @@
     "commonName": "Odd-toed Ungulates",
     "rank": "order",
     "taxonId": "txn:106418",
-    "firstAppearance": 56,
-    "lastAppearance": 0,
     "extinct": false,
     "children": [
       {
@@ -25,18 +23,16 @@
         "commonName": "Brontotheres",
         "rank": "family",
         "taxonId": "txn:43027",
-        "firstAppearance": 53,
-        "lastAppearance": 34,
         "extinct": true,
-        "children": []
+        "children": [],
+        "firstAppearance": 53,
+        "lastAppearance": 34
       },
       {
         "id": "hippomorpha",
         "name": "Hippomorpha",
         "commonName": "Horse-line Perissodactyls",
         "rank": "clade",
-        "firstAppearance": 56,
-        "lastAppearance": 0,
         "extinct": false,
         "children": [
           {
@@ -45,10 +41,10 @@
             "commonName": "Palaeotheres",
             "rank": "genus",
             "taxonId": "txn:49711",
-            "firstAppearance": 47.8,
-            "lastAppearance": 33.9,
             "extinct": true,
-            "children": []
+            "children": [],
+            "firstAppearance": 47.8,
+            "lastAppearance": 33.9
           },
           {
             "id": "equidae",
@@ -56,8 +52,6 @@
             "commonName": "Horses",
             "rank": "family",
             "taxonId": "txn:42938",
-            "firstAppearance": 56,
-            "lastAppearance": 0,
             "extinct": false,
             "children": [
               {
@@ -66,10 +60,10 @@
                 "commonName": "Three-toed Browsing Horses",
                 "rank": "genus",
                 "taxonId": "txn:42987",
-                "firstAppearance": 20.4,
-                "lastAppearance": 9,
                 "extinct": true,
-                "children": []
+                "children": [],
+                "firstAppearance": 20.4,
+                "lastAppearance": 9
               },
               {
                 "id": "hipparionini",
@@ -77,22 +71,24 @@
                 "commonName": "Hipparionine Horses",
                 "rank": "tribe",
                 "taxonId": "txn:65579",
-                "firstAppearance": 17,
-                "lastAppearance": 0.6,
                 "extinct": true,
-                "children": []
+                "children": [],
+                "firstAppearance": 17,
+                "lastAppearance": 0.6
               }
-            ]
+            ],
+            "firstAppearance": 56,
+            "lastAppearance": 0
           }
-        ]
+        ],
+        "firstAppearance": 56,
+        "lastAppearance": 0
       },
       {
         "id": "ancylopoda",
         "name": "Ancylopoda",
         "commonName": "Chalicothere-line Perissodactyls",
         "rank": "clade",
-        "firstAppearance": 52,
-        "lastAppearance": 1.8,
         "extinct": true,
         "children": [
           {
@@ -101,20 +97,20 @@
             "commonName": "Chalicotheres",
             "rank": "genus",
             "taxonId": "txn:43079",
-            "firstAppearance": 15.97,
-            "lastAppearance": 5.33,
             "extinct": true,
-            "children": []
+            "children": [],
+            "firstAppearance": 15.97,
+            "lastAppearance": 5.33
           }
-        ]
+        ],
+        "firstAppearance": 52,
+        "lastAppearance": 1.8
       },
       {
         "id": "ceratomorpha",
         "name": "Ceratomorpha",
         "commonName": "Tapir and Rhino Line",
         "rank": "clade",
-        "firstAppearance": 56,
-        "lastAppearance": 0,
         "extinct": false,
         "children": [
           {
@@ -123,10 +119,10 @@
             "commonName": "Tapirs and Relatives",
             "rank": "superfamily",
             "taxonId": "txn:43095",
-            "firstAppearance": 55,
-            "lastAppearance": 0,
             "extinct": false,
-            "children": []
+            "children": [],
+            "firstAppearance": 55,
+            "lastAppearance": 0
           },
           {
             "id": "rhinocerotoidea",
@@ -134,8 +130,6 @@
             "commonName": "Rhinos and Relatives",
             "rank": "superfamily",
             "taxonId": "txn:43102",
-            "firstAppearance": 54,
-            "lastAppearance": 0,
             "extinct": false,
             "children": [
               {
@@ -144,10 +138,10 @@
                 "commonName": "Amynodont Rhinos",
                 "rank": "genus",
                 "taxonId": "txn:43179",
-                "firstAppearance": 40.4,
-                "lastAppearance": 23,
                 "extinct": true,
-                "children": []
+                "children": [],
+                "firstAppearance": 40.4,
+                "lastAppearance": 23
               },
               {
                 "id": "paraceratherium",
@@ -155,10 +149,10 @@
                 "commonName": "Giant Rhinos",
                 "rank": "genus",
                 "taxonId": "txn:43161",
-                "firstAppearance": 34,
-                "lastAppearance": 20,
                 "extinct": true,
-                "children": []
+                "children": [],
+                "firstAppearance": 34,
+                "lastAppearance": 20
               },
               {
                 "id": "rhinocerotidae",
@@ -166,8 +160,6 @@
                 "commonName": "True Rhinoceroses",
                 "rank": "family",
                 "taxonId": "txn:43104",
-                "firstAppearance": 40,
-                "lastAppearance": 0,
                 "extinct": false,
                 "children": [
                   {
@@ -176,10 +168,10 @@
                     "commonName": "Short-legged Rhinos",
                     "rank": "genus",
                     "taxonId": "txn:43226",
-                    "firstAppearance": 16,
-                    "lastAppearance": 4.5,
                     "extinct": true,
-                    "children": []
+                    "children": [],
+                    "firstAppearance": 16,
+                    "lastAppearance": 4.5
                   },
                   {
                     "id": "coelodonta",
@@ -187,17 +179,25 @@
                     "commonName": "Woolly Rhinoceroses",
                     "rank": "genus",
                     "taxonId": "txn:43197",
-                    "firstAppearance": 3.6,
-                    "lastAppearance": 0.014,
                     "extinct": true,
-                    "children": []
+                    "children": [],
+                    "firstAppearance": 3.6,
+                    "lastAppearance": 0.014
                   }
-                ]
+                ],
+                "firstAppearance": 40,
+                "lastAppearance": 0
               }
-            ]
+            ],
+            "firstAppearance": 54,
+            "lastAppearance": 0
           }
-        ]
+        ],
+        "firstAppearance": 56,
+        "lastAppearance": 0
       }
-    ]
+    ],
+    "firstAppearance": 56,
+    "lastAppearance": 0
   }
 }

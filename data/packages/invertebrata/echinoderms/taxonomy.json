@@ -6,23 +6,28 @@
   "relationships": [
     {
       "id": "echinodermata",
-      "parentId": "invertebrata"
+      "parentId": "invertebrata",
+      "relationshipKind": "navigation-parent"
     },
     {
       "id": "crinoidea",
-      "parentId": "echinodermata"
+      "parentId": "echinodermata",
+      "relationshipKind": "taxonomic-parent"
     },
     {
       "id": "blastoidea",
-      "parentId": "echinodermata"
+      "parentId": "echinodermata",
+      "relationshipKind": "taxonomic-parent"
     },
     {
       "id": "echinoidea",
-      "parentId": "echinodermata"
+      "parentId": "echinodermata",
+      "relationshipKind": "taxonomic-parent"
     },
     {
       "id": "asteroidea",
-      "parentId": "echinodermata"
+      "parentId": "echinodermata",
+      "relationshipKind": "taxonomic-parent"
     }
   ]
 }

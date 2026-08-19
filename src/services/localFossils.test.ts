@@ -4,6 +4,13 @@ vi.mock('../data-client/staticDataClient', () => {
   const periods = ['Cambrian', 'Ordovician', 'Silurian', 'Devonian', 'Carboniferous', 'Permian', 'Triassic', 'Jurassic', 'Cretaceous', 'Paleogene', 'Neogene', 'Quaternary']
   const files = Object.fromEntries(periods.map((period) => [period, [{ url: `test/${period.toLowerCase()}.json.gz`, records: 0, packageId: 'test', period }]]))
   const loadRuntimeFile = async (file: { url: string }) => {
+    if (file.url.includes('occurrence-snapshot-v2')) return {
+      queryResults: [{ profileId: 'brontotheriidae', entityId: 'brontotheriidae', rowsFetched: 2, paginationComplete: true, zeroInterpretation: 'complete-query-observed' }],
+      records: [
+        { oid: 'snapshot-1', tna: 'Brontotheriidae', idn: '', tid: 'txn:43027', rnk: 9, lng: '0', lat: '0', eag: 45, lag: 40, cid: 'c1', oei: 'Eocene', matchedProfileIds: ['brontotheriidae'] },
+        { oid: 'snapshot-2', tna: 'Megacerops', idn: '', tid: 'txn:1', rnk: 5, lng: '0', lat: '0', eag: 38, lag: 34, cid: 'c2', oei: 'Eocene', matchedProfileIds: ['brontotheriidae'] },
+      ],
+    }
     if (file.url.includes('cambrian')) return (await import('../../data/fossils/cambrian.json')).default
     if (file.url.includes('ordovician')) return (await import('../../data/fossils/ordovician.json')).default
     if (file.url.includes('silurian')) return (await import('../../data/fossils/silurian.json')).default
@@ -20,6 +27,7 @@ vi.mock('../data-client/staticDataClient', () => {
   }
   return {
     loadOccurrenceManifest: async () => ({ periods: files }),
+    loadPackageManifest: async () => ({ files: { occurrenceSnapshot: { url: 'occurrence-snapshot-v2.json.gz' } } }),
     loadRuntimeFile,
   }
 })
@@ -50,5 +58,12 @@ describe('local fossil chunks', () => {
   it('reports an explicit exact fallback when a descendant index is missing', async () => {
     const result = await getFossilsByEntity('not-indexed', 'descendants')
     expect(result).toMatchObject({ indexStatus: 'miss', effectiveScope: 'exact', fallbackApplied: true })
+  })
+
+  it('uses the complete package-specific snapshot for eligible flagship profiles', async () => {
+    const descendants = await getFossilsByEntity('brontotheriidae', 'descendants')
+    const exact = await getFossilsByEntity('brontotheriidae', 'exact')
+    expect(descendants).toMatchObject({ queryStatus: 'complete-query-observed', rowsLoaded: 2, truncated: false, samplingMethod: 'complete paginated PBDB base-id snapshot' })
+    expect(exact.records).toHaveLength(1)
   })
 })

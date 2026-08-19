@@ -18,7 +18,7 @@ Continental geometry is currently withheld: the previous 12 illustrative GeoJSON
 
 ## Tree representations
 
-`data/navigation/atlas-ontology.json` is a browsing hierarchy and does not assert a phylogenetic hypothesis. The scoped Perissodactyla hypothesis is stored at `data/packages/mammalia/perissodactyla/phylogeny/hypothesis.json`; its cladogram branch lengths have no time meaning. The first-appearance view positions hypothesis nodes using curated fossil-record first appearances and is explicitly a proxy rather than a divergence-time estimate. Fossil-range bars show rounded first-to-last appearance intervals and remain sampling-dependent.
+`data/navigation/atlas-ontology.json` is a browsing hierarchy and does not assert a phylogenetic hypothesis. Non-taxonomic parent edges are annotated in the compact navigation source; the generated entity registry and PBDB ledger materialize a relationship kind for every edge, using `taxonomic-parent` as the documented default. The scoped Perissodactyla hypothesis source is stored separately from its generated range-injected projection; its cladogram branch lengths have no time meaning. The first-appearance view positions hypothesis nodes using curated fossil-record first appearances and is explicitly a proxy rather than a divergence-time estimate. Fossil-range bars display their evidence level and remain provisional unless explicitly expert-reviewed.
 
 For the flagship perissodactyl catalog, a separate evidence ledger stores selected published divergence estimates, method labels and reported uncertainty. Estimates from unlike studies are not silently merged into a synthetic clock. The radial tree is a navigation view only.
 

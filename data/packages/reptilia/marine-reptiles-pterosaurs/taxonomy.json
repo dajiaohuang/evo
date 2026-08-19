@@ -8,27 +8,33 @@
   "relationships": [
     {
       "id": "ichthyosauria",
-      "parentId": "sauropsida"
+      "parentId": "sauropsida",
+      "relationshipKind": "taxonomic-parent"
     },
     {
       "id": "ichthyosaurus",
-      "parentId": "ichthyosauria"
+      "parentId": "ichthyosauria",
+      "relationshipKind": "taxonomic-parent"
     },
     {
       "id": "plesiosauria",
-      "parentId": "sauropsida"
+      "parentId": "sauropsida",
+      "relationshipKind": "taxonomic-parent"
     },
     {
       "id": "elasmosauridae",
-      "parentId": "plesiosauria"
+      "parentId": "plesiosauria",
+      "relationshipKind": "taxonomic-parent"
     },
     {
       "id": "pterosauria",
-      "parentId": "archosauria"
+      "parentId": "archosauria",
+      "relationshipKind": "taxonomic-parent"
     },
     {
       "id": "pteranodontidae",
-      "parentId": "pterosauria"
+      "parentId": "pterosauria",
+      "relationshipKind": "taxonomic-parent"
     }
   ]
 }

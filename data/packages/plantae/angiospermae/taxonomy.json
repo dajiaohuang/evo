@@ -6,23 +6,28 @@
   "relationships": [
     {
       "id": "angiospermae",
-      "parentId": "plantae"
+      "parentId": "plantae",
+      "relationshipKind": "taxonomic-parent"
     },
     {
       "id": "monocotyledones",
-      "parentId": "angiospermae"
+      "parentId": "angiospermae",
+      "relationshipKind": "taxonomic-parent"
     },
     {
       "id": "poaceae",
-      "parentId": "monocotyledones"
+      "parentId": "monocotyledones",
+      "relationshipKind": "taxonomic-parent"
     },
     {
       "id": "eudicotyledones",
-      "parentId": "angiospermae"
+      "parentId": "angiospermae",
+      "relationshipKind": "taxonomic-parent"
     },
     {
       "id": "fabaceae",
-      "parentId": "eudicotyledones"
+      "parentId": "eudicotyledones",
+      "relationshipKind": "taxonomic-parent"
     }
   ]
 }

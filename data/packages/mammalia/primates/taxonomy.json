@@ -6,23 +6,28 @@
   "relationships": [
     {
       "id": "primates",
-      "parentId": "placentalia"
+      "parentId": "placentalia",
+      "relationshipKind": "taxonomic-parent"
     },
     {
       "id": "hominidae",
-      "parentId": "primates"
+      "parentId": "primates",
+      "relationshipKind": "taxonomic-parent"
     },
     {
       "id": "homo",
-      "parentId": "hominidae"
+      "parentId": "hominidae",
+      "relationshipKind": "taxonomic-parent"
     },
     {
       "id": "homo_sapiens",
-      "parentId": "homo"
+      "parentId": "homo",
+      "relationshipKind": "taxonomic-parent"
     },
     {
       "id": "homo_neanderthalensis",
-      "parentId": "homo"
+      "parentId": "homo",
+      "relationshipKind": "taxonomic-parent"
     }
   ]
 }

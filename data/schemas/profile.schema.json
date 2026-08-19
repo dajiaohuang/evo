@@ -3,7 +3,7 @@
   "$id": "https://dajiaohuang.github.io/evo/schemas/profile.schema.json",
   "type": "object",
   "additionalProperties": false,
-  "required": ["id", "treeNodeId", "pbdbTaxonId", "scientificName", "commonName", "commonNameZh", "rank", "parentName", "extinct", "firstAppearance", "lastAppearance", "geography", "overview", "ecology", "traits", "evidenceSummary", "confidence", "referenceIds"],
+  "required": ["id", "treeNodeId", "pbdbTaxonId", "scientificName", "commonName", "commonNameZh", "rank", "parentName", "extinct", "firstAppearance", "lastAppearance", "rangeEvidenceLevel", "rangeReviewStatus", "rangeProvisional", "geography", "overview", "ecology", "traits", "evidenceSummary", "confidence", "referenceIds"],
   "properties": {
     "id": { "type": "string", "minLength": 1 },
     "treeNodeId": { "type": "string", "minLength": 1 },
@@ -16,6 +16,9 @@
     "extinct": { "type": "boolean" },
     "firstAppearance": { "type": "number", "minimum": 0, "maximum": 4567 },
     "lastAppearance": { "type": "number", "minimum": 0, "maximum": 4567 },
+    "rangeEvidenceLevel": { "enum": ["legacy-display", "database-derived", "literature-synthesized", "expert-reviewed"] },
+    "rangeReviewStatus": { "enum": ["not-reviewed", "automated-audit-passed", "expert-reviewed"] },
+    "rangeProvisional": { "type": "boolean" },
     "geography": { "type": "array", "minItems": 1, "items": { "type": "string", "minLength": 1 } },
     "regionalRanges": {
       "type": "array",
@@ -23,7 +26,7 @@
       "items": {
         "type": "object",
         "additionalProperties": false,
-        "required": ["label", "region", "rangeKind", "olderMa", "youngerMa", "basis", "confidence", "referenceIds"],
+        "required": ["label", "region", "rangeKind", "olderMa", "youngerMa", "basis", "confidence", "evidenceLevel", "provisional", "referenceIds"],
         "properties": {
           "label": { "type": "string", "minLength": 1 },
           "region": { "type": "string", "minLength": 1 },
@@ -32,6 +35,8 @@
           "youngerMa": { "type": "number", "minimum": 0, "maximum": 4567 },
           "basis": { "type": "string", "minLength": 20 },
           "confidence": { "enum": ["high", "medium", "low", "contested"] },
+          "evidenceLevel": { "enum": ["legacy-display", "database-derived", "literature-synthesized", "expert-reviewed"] },
+          "provisional": { "type": "boolean" },
           "referenceIds": { "type": "array", "minItems": 1, "items": { "type": "string", "minLength": 1 } }
         }
       }

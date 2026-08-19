@@ -24,8 +24,20 @@ if (!existsSync(join(dataRoot, 'releases.json'))) failures.push('release retenti
 else {
   const history = readJson('releases.json')
   if (history.retentionLimit < 2 || history.releases?.[0]?.datasetVersion !== current.datasetVersion) failures.push('release retention index does not lead with the current dataset')
+  if (!Number.isFinite(history.retentionByteLimit) || history.retainedBytes > history.retentionByteLimit) failures.push('release retention byte budget is missing or exceeded')
   for (const release of history.releases ?? []) {
     if (!existsSync(join(dataRoot, release.filesIndex))) failures.push(`retained release ${release.datasetVersion}: files index is missing`)
+    else {
+      const index = readJson(release.filesIndex)
+      const sample = index.files?.[0]
+      if (!sample) failures.push(`retained release ${release.datasetVersion}: files index is empty`)
+      else checkFile(sample, `retained release ${release.datasetVersion} sample`)
+    }
+  }
+  if (history.releases?.length > 1) {
+    const previous = history.releases[1]
+    const previousIndex = readJson(previous.filesIndex)
+    if (previousIndex.datasetVersion !== previous.datasetVersion) failures.push('previous release files index has a mismatched dataset version')
   }
 }
 const releaseUrl = (file, label) => {

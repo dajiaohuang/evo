@@ -3,7 +3,7 @@
   "$id": "https://dajiaohuang.github.io/evo/schemas/reference.schema.json",
   "type": "object",
   "additionalProperties": false,
-  "required": ["id", "title", "authors", "type", "url", "sourceRole", "fitnessFor"],
+  "required": ["id", "title", "authors", "type", "url", "sourceRole", "fitnessFor", "metadataAssignment"],
   "properties": {
     "id": { "type": "string", "minLength": 1 },
     "title": { "type": "string", "minLength": 1 },
@@ -22,6 +22,7 @@
       "uniqueItems": true,
       "items": { "enum": ["taxonomy", "topology", "range", "morphology", "ecology", "biogeography", "event-mechanism", "occurrence", "paleogeography", "geochronology", "methods"] }
     },
+    "metadataAssignment": { "enum": ["automated", "curator-reviewed"] },
     "url": { "type": "string", "pattern": "^https://" },
     "doi": { "type": "string", "minLength": 1 },
     "note": { "type": "string", "minLength": 1 }

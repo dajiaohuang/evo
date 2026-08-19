@@ -1,5 +1,5 @@
 export const PACKAGE_SCHEMA_VERSION = 5
-export const DATASET_PACKAGE_VERSION = '2026.08-static-v5-rc1'
+export const DATASET_PACKAGE_VERSION = '2026.08-static-v5-rc2'
 
 export const packageDefinitions = [
   {
@@ -63,7 +63,7 @@ export const packageDefinitions = [
     path: 'arthropoda/crustaceans-insects',
     title: 'Crustaceans, Insects and Myriapod Context',
     titleZh: '甲壳类、昆虫与多足类背景',
-    rootEntityIds: ['arthropoda', 'crustacea', 'insecta'],
+    rootEntityIds: ['arthropoda', 'crustacea', 'insecta', 'myriapoda'],
     wave: 'D',
   },
   {

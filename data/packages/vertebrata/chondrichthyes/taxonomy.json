@@ -6,19 +6,23 @@
   "relationships": [
     {
       "id": "chondrichthyes",
-      "parentId": "gnathostomata"
+      "parentId": "gnathostomata",
+      "relationshipKind": "taxonomic-parent"
     },
     {
       "id": "elasmobranchii",
-      "parentId": "chondrichthyes"
+      "parentId": "chondrichthyes",
+      "relationshipKind": "taxonomic-parent"
     },
     {
       "id": "carcharocles",
-      "parentId": "elasmobranchii"
+      "parentId": "elasmobranchii",
+      "relationshipKind": "taxonomic-parent"
     },
     {
       "id": "holocephali",
-      "parentId": "chondrichthyes"
+      "parentId": "chondrichthyes",
+      "relationshipKind": "taxonomic-parent"
     }
   ]
 }

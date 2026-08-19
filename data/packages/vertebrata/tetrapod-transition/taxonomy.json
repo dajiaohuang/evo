@@ -7,27 +7,33 @@
   "relationships": [
     {
       "id": "sarcopterygii",
-      "parentId": "osteichthyes"
+      "parentId": "osteichthyes",
+      "relationshipKind": "taxonomic-parent"
     },
     {
       "id": "coelacanthimorpha",
-      "parentId": "sarcopterygii"
+      "parentId": "sarcopterygii",
+      "relationshipKind": "taxonomic-parent"
     },
     {
       "id": "dipnoi",
-      "parentId": "sarcopterygii"
+      "parentId": "sarcopterygii",
+      "relationshipKind": "taxonomic-parent"
     },
     {
       "id": "tetrapodomorpha",
-      "parentId": "sarcopterygii"
+      "parentId": "sarcopterygii",
+      "relationshipKind": "taxonomic-parent"
     },
     {
       "id": "stem-tetrapodomorphs",
-      "parentId": "tetrapodomorpha"
+      "parentId": "tetrapodomorpha",
+      "relationshipKind": "historical-grade-membership"
     },
     {
       "id": "tiktaalik",
-      "parentId": "stem-tetrapodomorphs"
+      "parentId": "stem-tetrapodomorphs",
+      "relationshipKind": "taxonomic-parent"
     }
   ]
 }

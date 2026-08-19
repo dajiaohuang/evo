@@ -6,23 +6,28 @@
   "relationships": [
     {
       "id": "amphibia",
-      "parentId": "tetrapoda"
+      "parentId": "tetrapoda",
+      "relationshipKind": "taxonomic-parent"
     },
     {
       "id": "temnospondyli",
-      "parentId": "amphibia"
+      "parentId": "amphibia",
+      "relationshipKind": "taxonomic-parent"
     },
     {
       "id": "lissamphibia",
-      "parentId": "amphibia"
+      "parentId": "amphibia",
+      "relationshipKind": "taxonomic-parent"
     },
     {
       "id": "anura",
-      "parentId": "lissamphibia"
+      "parentId": "lissamphibia",
+      "relationshipKind": "taxonomic-parent"
     },
     {
       "id": "caudata",
-      "parentId": "lissamphibia"
+      "parentId": "lissamphibia",
+      "relationshipKind": "taxonomic-parent"
     }
   ]
 }

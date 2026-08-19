@@ -70,6 +70,7 @@ export function DataPage({ onNavigate }: PageProps) {
         <span className="section-label">{t('Dataset registry')} / {manifest.datasetVersion}</span>
         <h1>{t('Know what the atlas knows.')}</h1>
         <p>{t('Every view in Evo is backed by a named static artifact. This registry exposes its current scope, provenance and the places where the evidence remains incomplete.')}</p>
+        <p><strong>{t('Scope')}:</strong> {t(manifest.scopeStatement)}</p>
         <p>{t('App {appVersion} · schema {schemaVersion} · deployment commit {commitSha}', { appVersion: release.appVersion, schemaVersion: manifest.schemaVersion, commitSha: release.deploymentCommitSha })}</p>
         <button className="button button--primary" onClick={() => onNavigate('explore')}>{t('Explore the records')}</button>
       </header>
@@ -116,14 +117,22 @@ export function DataPage({ onNavigate }: PageProps) {
         )}
         {linkageCoverage && (
           <div className="platform-summary platform-summary--quality" aria-label={t('Taxonomy and entity linkage quality')}>
-            <article><strong>{linkageCoverage.resolutionSummary.resolved}/{linkageCoverage.indexedEntityCount}</strong><span>{t('PBDB concepts resolved')}</span></article>
+            <article><strong>{linkageCoverage.resolutionSummary.resolved}/{linkageCoverage.indexedEntityCount}</strong><span>{t('PBDB names and ranks resolved')}</span></article>
             <article><strong>{linkageCoverage.resolutionSummary.unresolved}</strong><span>{t('external concepts unresolved')}</span></article>
-            <article><strong>{number(linkageCoverage.linkedOccurrenceTotal)}/{number(linkageCoverage.sourceTotal)}</strong><span>{t('entity-linked occurrence rows')}</span></article>
+            <article><strong>{linkageCoverage.resolutionSummary.conceptResolved}</strong><span>{t('concept mappings cleared')}</span></article>
+            <article><strong>{linkageCoverage.resolutionSummary.needsConceptReview}</strong><span>{t('PBDB concepts needing review')}</span></article>
+            <article><strong>{linkageCoverage.resolutionSummary.humanCuratorDecisions}</strong><span>{t('human curator decisions')}</span></article>
+            <article><strong>{number(linkageCoverage.directLinkTotal)}/{number(linkageCoverage.sourceTotal)}</strong><span>{t('direct entity links')}</span></article>
+            <article><strong>{(linkageCoverage.directLinkRate * 100).toFixed(2)}%</strong><span>{t('direct-link rate')}</span></article>
+            <article><strong>{number(linkageCoverage.broadLinkTotal)}/{number(linkageCoverage.sourceTotal)}</strong><span>{t('broad ontology links')}</span></article>
+            <article><strong>{(linkageCoverage.broadLinkRate * 100).toFixed(2)}%</strong><span>{t('broad-link rate')}</span></article>
             <article><strong>{number(linkageCoverage.linkageMethods.exactExternalId)}</strong><span>{t('exact external-ID matches')}</span></article>
-            <article><strong>{number(linkageCoverage.linkageMethods.acceptedName + linkageCoverage.linkageMethods.higherClassification)}</strong><span>{t('name/classification matches')}</span></article>
+            <article><strong>{number(linkageCoverage.linkageMethods.acceptedName)}</strong><span>{t('accepted-name matches')}</span></article>
+            <article><strong>{number(linkageCoverage.linkageMethods.higherClassification)}</strong><span>{t('higher-classification matches')}</span></article>
             <article><strong>{number(linkageCoverage.unmatchedOccurrenceTotal)}</strong><span>{t('unmatched occurrence rows')}</span></article>
           </div>
         )}
+        {linkageCoverage && <p className="quality-disclaimer">{t(linkageCoverage.precisionStatement)}</p>}
         <div className="package-table" role="table" aria-label={t('Static package coverage')}>
           <div className="package-row package-row--head" role="row"><span>{t('Package')}</span><span>{t('Maturity')}</span><span>{t('Entities')}</span><span>{t('Runtime')}</span><span>{t('Occurrences')}</span><span>{t('Offline')}</span></div>
           {packageManifests.map((entry) => (

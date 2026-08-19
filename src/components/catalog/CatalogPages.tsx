@@ -1,4 +1,5 @@
 import { useEffect } from 'react'
+import claimStatementsZh from '../../../data/evidence/claim-statements.zh.json'
 import {
   evolutionEvents,
   evolutionStories,
@@ -17,6 +18,8 @@ import type { AppRoute } from '../../utils/routing'
 import type { ConfidenceLevel, EvidenceClaim, ReferenceRecord } from '../../types'
 import { useI18n } from '../../i18n'
 import './CatalogPages.css'
+
+const generatedClaimStatementsZh = claimStatementsZh as Record<string, string>
 
 interface CatalogPageProps {
   id: string | null
@@ -67,7 +70,7 @@ function ClaimLedger({ claims }: { claims: EvidenceClaim[] }) {
       {claims.map((claim, index) => (
         <article key={claim.id}>
           <span>{String(index + 1).padStart(2, '0')}</span>
-          <p><strong>{t(claim.claimType.replace('-', ' '))}</strong><br />{t(claim.statement)}</p>
+          <p><strong>{t(claim.claimType.replace('-', ' '))}</strong><br />{language === 'zh' ? generatedClaimStatementsZh[claim.statement] ?? t(claim.statement) : claim.statement}</p>
           <small>{t(claim.confidence)} · {claim.referenceLinks.map((link) => `${link.relation}: ${link.referenceId}`).join(' · ')}</small>
           <small>{language === 'zh' ? claim.confidenceRationaleZh : claim.confidenceRationale}</small>
           <small>{t('Reviewed {date} by {reviewer} against {version}', { date: claim.reviewedAt, reviewer: claim.reviewedBy, version: claim.reviewedAgainstReferenceVersion })}</small>
@@ -104,7 +107,7 @@ function DivergenceLedger({ profileId }: { profileId: string }) {
           </article>
         )
       })}
-      <aside><strong>{t('Do not merge unlike clocks silently.')}</strong><span>{t('These are study-specific node estimates with different datasets and methods. The atlas preserves them as an evidence ledger rather than forcing them into the occurrence-derived whole-life tree.')}</span></aside>
+      <aside><strong>{t('Do not merge unlike clocks silently.')}</strong><span>{t('These are study-specific node estimates with different datasets and methods. The atlas preserves them as an evidence ledger rather than forcing them into the occurrence-derived atlas navigation tree.')}</span></aside>
     </div>
   )
 }
@@ -190,6 +193,7 @@ export function TaxonPage({ id, onNavigate }: CatalogPageProps) {
         <div><span>{t('Bundled occurrences · represented descendants')}</span><strong>{taxonStatus === 'loading' || taxonStatus === 'idle' ? t('Loading…') : taxonStatus === 'error' ? t('Error') : number(occurrences?.length ?? 0)}</strong></div>
         <div><span>{t('PBDB identifier')}</span><strong>{profile.pbdbTaxonId ?? t('Not linked')}</strong></div>
         <div><span>{t('Query completeness')}</span><strong>{t(taxonQuery?.truncated ? 'Truncated' : taxonStatus === 'ready' || taxonStatus === 'empty' ? 'No UI truncation' : 'Pending')}</strong></div>
+        <div><span>{t('Range evidence')}</span><strong>{t(profile.rangeEvidenceLevel)}{profile.rangeProvisional ? ` · ${t('Provisional')}` : ''}</strong></div>
       </section>
       {taxonStatus === 'empty' && <p className="catalog-query-state">{t('No matching row occurs in the bounded local sample; this is not evidence of biological absence.')}</p>}
       {taxonStatus === 'error' && <p className="catalog-query-state catalog-query-state--error">{t('Local taxon query failed: {error}', { error: taxonError ?? t('Unknown') })}</p>}
@@ -217,7 +221,7 @@ export function TaxonPage({ id, onNavigate }: CatalogPageProps) {
                 <div className="statement-grid">
                   {profile.regionalRanges.map((range) => (
                     <article key={`${range.label}-${range.region}`}>
-                      <span>{t(range.rangeKind)}</span>
+                      <span>{t(range.rangeKind)} · {t(range.evidenceLevel)}{range.provisional ? ` · ${t('Provisional')}` : ''}</span>
                       <strong>{t(range.label)}</strong>
                       <p>{t(range.region)} · {formatAge(range.olderMa, t('Present'))}—{formatAge(range.youngerMa, t('Present'))}</p>
                       <p>{t(range.basis)}</p>

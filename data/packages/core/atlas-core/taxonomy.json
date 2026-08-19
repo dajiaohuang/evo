@@ -15,51 +15,63 @@
   "relationships": [
     {
       "id": "life",
-      "parentId": null
+      "parentId": null,
+      "relationshipKind": null
     },
     {
       "id": "invertebrata",
-      "parentId": "life"
+      "parentId": "life",
+      "relationshipKind": "display-grouping"
     },
     {
       "id": "hemichordata",
-      "parentId": "invertebrata"
+      "parentId": "invertebrata",
+      "relationshipKind": "navigation-parent"
     },
     {
       "id": "pterobranchia",
-      "parentId": "hemichordata"
+      "parentId": "hemichordata",
+      "relationshipKind": "taxonomic-parent"
     },
     {
       "id": "vertebrata",
-      "parentId": "life"
+      "parentId": "life",
+      "relationshipKind": "navigation-parent"
     },
     {
       "id": "gnathostomata",
-      "parentId": "vertebrata"
+      "parentId": "vertebrata",
+      "relationshipKind": "taxonomic-parent"
     },
     {
       "id": "osteichthyes",
-      "parentId": "gnathostomata"
+      "parentId": "gnathostomata",
+      "relationshipKind": "taxonomic-parent"
     },
     {
       "id": "tetrapoda",
-      "parentId": "tetrapodomorpha"
+      "parentId": "tetrapodomorpha",
+      "relationshipKind": "taxonomic-parent"
     },
     {
       "id": "amniota",
-      "parentId": "tetrapoda"
+      "parentId": "tetrapoda",
+      "relationshipKind": "taxonomic-parent"
     },
     {
       "id": "placentalia",
-      "parentId": "mammalia"
+      "parentId": "mammalia",
+      "relationshipKind": "taxonomic-parent"
     },
     {
       "id": "sauropsida",
-      "parentId": "amniota"
+      "parentId": "amniota",
+      "relationshipKind": "taxonomic-parent"
     },
     {
       "id": "archosauria",
-      "parentId": "sauropsida"
+      "parentId": "sauropsida",
+      "relationshipKind": "taxonomic-parent"
     }
   ]
 }
