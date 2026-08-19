@@ -1,7 +1,7 @@
 {
-  "schemaVersion": 4,
+  "schemaVersion": 5,
   "id": "crocodylomorphs-birds",
-  "version": "2026.08-static-v4-rc1",
+  "version": "2026.08-static-v5-rc1",
   "title": "Crocodylomorphs and Birds",
   "titleZh": "鳄形类与鸟类",
   "rootEntityIds": [
@@ -16,8 +16,9 @@
     "phorusrhacidae"
   ],
   "canonicalSources": {
-    "entities": "data/registry/entities/entities.json",
-    "taxonomy": "data/navigation/atlas-ontology.json",
+    "entityDefinitions": "data/navigation/atlas-ontology.json",
+    "ranges": "data/ranges/range-evidence.json",
+    "externalResolutions": "data/sources/pbdb-taxon-resolution.json",
     "references": "data/references.json",
     "occurrences": "data/fossils/*.json"
   },

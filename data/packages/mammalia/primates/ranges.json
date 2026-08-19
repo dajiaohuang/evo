@@ -1,72 +1,147 @@
 [
   {
-    "id": "range:primates",
+    "id": "range:primates:global",
     "entityId": "primates",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Primates",
+    "geographicScope": "Global or represented navigation composite",
     "olderMa": 66,
     "youngerMa": 0,
     "status": "available",
-    "basis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+    },
+    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
     "confidence": "medium",
-    "referenceIds": [
-      "open-tree",
-      "pbdb-api-2016",
-      "pbdb-taxa-2026-07-19"
-    ]
+    "claimIds": [],
+    "referenceLocators": [
+      {
+        "referenceId": "open-tree",
+        "locator": "https://opentreeoflife.github.io/use"
+      },
+      {
+        "referenceId": "pbdb-api-2016",
+        "locator": "doi:10.1017/pab.2015.39"
+      }
+    ],
+    "reviewStatus": "not-reviewed"
   },
   {
-    "id": "range:hominidae",
+    "id": "range:hominidae:global",
     "entityId": "hominidae",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Hominidae",
+    "geographicScope": "Global or represented navigation composite",
     "olderMa": 20,
     "youngerMa": 0,
     "status": "available",
-    "basis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+    },
+    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
     "confidence": "medium",
-    "referenceIds": [
-      "open-tree",
-      "pbdb-api-2016",
-      "pbdb-taxa-2026-07-19"
-    ]
+    "claimIds": [],
+    "referenceLocators": [
+      {
+        "referenceId": "open-tree",
+        "locator": "https://opentreeoflife.github.io/use"
+      },
+      {
+        "referenceId": "pbdb-api-2016",
+        "locator": "doi:10.1017/pab.2015.39"
+      }
+    ],
+    "reviewStatus": "not-reviewed"
   },
   {
-    "id": "range:homo",
+    "id": "range:homo:global",
     "entityId": "homo",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Homo",
+    "geographicScope": "Global or represented navigation composite",
     "olderMa": 2.8,
     "youngerMa": 0,
     "status": "available",
-    "basis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+    },
+    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
     "confidence": "medium",
-    "referenceIds": [
-      "open-tree",
-      "pbdb-api-2016",
-      "pbdb-taxa-2026-07-19"
-    ]
+    "claimIds": [],
+    "referenceLocators": [
+      {
+        "referenceId": "open-tree",
+        "locator": "https://opentreeoflife.github.io/use"
+      },
+      {
+        "referenceId": "pbdb-api-2016",
+        "locator": "doi:10.1017/pab.2015.39"
+      }
+    ],
+    "reviewStatus": "not-reviewed"
   },
   {
-    "id": "range:homo_sapiens",
+    "id": "range:homo_sapiens:global",
     "entityId": "homo_sapiens",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Homo sapiens",
+    "geographicScope": "Global or represented navigation composite",
     "olderMa": 0.3,
     "youngerMa": 0,
     "status": "available",
-    "basis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+    },
+    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
     "confidence": "medium",
-    "referenceIds": [
-      "open-tree",
-      "pbdb-api-2016",
-      "pbdb-taxa-2026-07-19"
-    ]
+    "claimIds": [],
+    "referenceLocators": [
+      {
+        "referenceId": "open-tree",
+        "locator": "https://opentreeoflife.github.io/use"
+      },
+      {
+        "referenceId": "pbdb-api-2016",
+        "locator": "doi:10.1017/pab.2015.39"
+      }
+    ],
+    "reviewStatus": "not-reviewed"
   },
   {
-    "id": "range:homo_neanderthalensis",
+    "id": "range:homo_neanderthalensis:global",
     "entityId": "homo_neanderthalensis",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Homo neanderthalensis",
+    "geographicScope": "Global or represented navigation composite",
     "olderMa": 0.4,
     "youngerMa": 0.04,
     "status": "available",
-    "basis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+    },
+    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
     "confidence": "medium",
-    "referenceIds": [
-      "open-tree",
-      "pbdb-api-2016",
-      "pbdb-taxa-2026-07-19"
-    ]
+    "claimIds": [],
+    "referenceLocators": [
+      {
+        "referenceId": "open-tree",
+        "locator": "https://opentreeoflife.github.io/use"
+      },
+      {
+        "referenceId": "pbdb-api-2016",
+        "locator": "doi:10.1017/pab.2015.39"
+      }
+    ],
+    "reviewStatus": "not-reviewed"
   }
 ]

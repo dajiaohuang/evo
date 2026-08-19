@@ -3,12 +3,14 @@ import type { AppState } from '../index'
 import { createFossilSlice } from '../fossilSlice'
 
 vi.mock('../../services/localFossils', () => ({
-  getFossilsByTaxon: async (taxonId: string, scope: 'exact' | 'descendants') => ({
-    taxonId,
+  getFossilsByEntity: async (entityId: string, scope: 'exact' | 'descendants') => ({
+    entityId,
     scope,
     effectiveScope: scope,
     indexStatus: 'hit',
     fallbackApplied: false,
+    queryStatus: 'resolved-and-observed',
+    matchMethods: { exactExternalId: 2, acceptedName: 0, higherClassification: 0 },
     sourceTotal: 2,
     matchedTotal: scope === 'descendants' ? 2 : 0,
     rowsLoaded: scope === 'descendants' ? 2 : 0,
@@ -29,12 +31,12 @@ describe('createFossilSlice', () => {
     const get = () => state as AppState
     Object.assign(state, createFossilSlice(set, get))
 
-    await get().loadOccurrencesForTaxon('txn:40700', 'descendants')
-    await get().loadOccurrencesForTaxon('txn:40700', 'exact')
+    await get().loadOccurrencesForEntity('test-entity', 'descendants')
+    await get().loadOccurrencesForEntity('test-entity', 'exact')
 
-    expect(get().occurrencesByTaxonQuery['descendants:txn:40700']).toHaveLength(2)
-    expect(get().occurrencesByTaxonQuery['exact:txn:40700']).toHaveLength(0)
-    expect(get().taxonOccurrenceQueries['descendants:txn:40700'].effectiveScope).toBe('descendants')
-    expect(get().taxonOccurrenceQueries['exact:txn:40700'].effectiveScope).toBe('exact')
+    expect(get().occurrencesByTaxonQuery['descendants:test-entity']).toHaveLength(2)
+    expect(get().occurrencesByTaxonQuery['exact:test-entity']).toHaveLength(0)
+    expect(get().taxonOccurrenceQueries['descendants:test-entity'].effectiveScope).toBe('descendants')
+    expect(get().taxonOccurrenceQueries['exact:test-entity'].effectiveScope).toBe('exact')
   })
 })

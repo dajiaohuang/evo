@@ -23,7 +23,7 @@ vi.mock('../data-client/staticDataClient', () => {
     loadRuntimeFile,
   }
 })
-import { getFossilsByInterval, getFossilsByTaxon, getLoadedFossilTotal } from './localFossils'
+import { getFossilsByEntity, getFossilsByInterval, getLoadedFossilTotal } from './localFossils'
 
 describe('local fossil chunks', () => {
   it('loads a geological period on demand and caches its total', async () => {
@@ -38,17 +38,17 @@ describe('local fossil chunks', () => {
   })
 
   it('distinguishes exact taxon rows from the represented descendant closure', async () => {
-    const descendants = await getFossilsByTaxon('txn:40700', 'descendants')
-    const exact = await getFossilsByTaxon('txn:40700', 'exact')
-    expect(descendants.records).toHaveLength(42)
+    const descendants = await getFossilsByEntity('felidae', 'descendants')
+    const exact = await getFossilsByEntity('felidae', 'exact')
+    expect(descendants.records).toHaveLength(44)
     expect(descendants.loadedPeriods).toEqual(['Neogene', 'Quaternary'])
     expect(descendants.truncated).toBe(false)
     expect(descendants).toMatchObject({ indexStatus: 'hit', effectiveScope: 'descendants', fallbackApplied: false })
-    expect(exact.records).toHaveLength(0)
+    expect(exact.records).toHaveLength(4)
   })
 
   it('reports an explicit exact fallback when a descendant index is missing', async () => {
-    const result = await getFossilsByTaxon('txn:not-indexed', 'descendants')
+    const result = await getFossilsByEntity('not-indexed', 'descendants')
     expect(result).toMatchObject({ indexStatus: 'miss', effectiveScope: 'exact', fallbackApplied: true })
   })
 })

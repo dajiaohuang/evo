@@ -90,3 +90,7 @@
   .package-row { grid-template-columns: 1fr 0.7fr 0.4fr 50px; }
   .package-row > :nth-child(4), .package-row > :nth-child(5) { display: none; }
 }
+.platform-summary--quality { margin-top: 10px; }
+.boundary-range b, .boundary-range small { display: block; }
+.boundary-range b { font-weight: 500; }
+.boundary-range small { margin-top: 3px; color: var(--color-text-faint); font: 7px var(--font-mono); }

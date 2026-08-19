@@ -58,6 +58,12 @@ function numberOrNull(value) {
 
 const ontology = readJson('data/navigation/atlas-ontology.json')
 const nodes = flattenTree(ontology)
+const parentByEntityId = new Map()
+function indexParents(node, parent = null) {
+  parentByEntityId.set(node.id, parent)
+  for (const child of node.children ?? []) indexParents(child, node)
+}
+indexParents(ontology)
 const names = new Set(nodes.map((node) => node.name))
 const candidatesByName = new Map(nodes.map((node) => [node.name, []]))
 const input = createInterface({ input: createReadStream(sourcePath, { encoding: 'utf8' }), crlfDelay: Infinity })
@@ -97,14 +103,32 @@ function resolveNode(node) {
     return rightAccepted - leftAccepted || Number(right.n_occs || 0) - Number(left.n_occs || 0) || Number(left.accepted_no) - Number(right.accepted_no)
   })
 
-  let reason = 'resolved-name-rank-and-concept'
+  let reason = 'resolved-exact-name-and-rank'
   if (!candidates.length) reason = 'no-exact-name-in-snapshot'
   else if (!acceptedNameMatches.length) reason = 'accepted-name-mismatch'
   else if (!rankMatches.length) reason = 'accepted-rank-mismatch'
   else if (acceptedConcepts.size > 1) reason = 'ambiguous-accepted-concept'
 
-  const resolved = reason === 'resolved-name-rank-and-concept' ? ranked[0] : null
+  const resolved = reason === 'resolved-exact-name-and-rank' ? ranked[0] : null
   const diagnostic = resolved ?? acceptedNameMatches[0] ?? candidates[0] ?? null
+  const localExpectedParentConcept = parentByEntityId.get(node.id)?.name ?? null
+  const resolvedClassification = diagnostic ? {
+    phylum: diagnostic.phylum || null,
+    class: diagnostic.class || null,
+    order: diagnostic.order || null,
+    family: diagnostic.family || null,
+  } : null
+  const classificationNames = Object.values(resolvedClassification ?? {}).filter(Boolean)
+  const lineageCompatibility = !diagnostic
+    ? 'indeterminate'
+    : diagnostic.parent_name === localExpectedParentConcept
+      ? 'compatible-immediate-parent'
+      : classificationNames.includes(localExpectedParentConcept)
+        ? 'compatible-classification'
+        : localExpectedParentConcept && (diagnostic.parent_name || classificationNames.length)
+          ? 'incompatible'
+          : 'indeterminate'
+  const conceptReviewStatus = lineageCompatibility === 'incompatible' ? 'needs-concept-review' : resolved ? 'compatible' : 'unresolved'
   return {
     entityId: node.id,
     localName: node.name,
@@ -112,17 +136,25 @@ function resolveNode(node) {
     previousPbdbId: node.taxonId || null,
     resolutionStatus: resolved ? 'resolved' : 'unresolved',
     resolutionReason: reason,
+    externalResolutionStatus: resolved
+      ? diagnostic.taxon_name === diagnostic.accepted_name ? 'resolved-exact' : 'resolved-synonym'
+      : reason === 'no-exact-name-in-snapshot' ? 'not-found' : 'ambiguous',
     pbdbId: resolved ? `txn:${resolved.accepted_no}` : null,
     acceptedName: diagnostic?.accepted_name || null,
     acceptedRank: diagnostic?.accepted_rank || null,
     matchedTaxonName: diagnostic?.taxon_name || null,
     pbdbParentName: diagnostic?.parent_name || null,
-    pbdbClassification: diagnostic ? {
-      phylum: diagnostic.phylum || null,
-      class: diagnostic.class || null,
-      order: diagnostic.order || null,
-      family: diagnostic.family || null,
-    } : null,
+    pbdbClassification: resolvedClassification,
+    resolvedName: diagnostic?.accepted_name || null,
+    resolvedRank: diagnostic?.accepted_rank || null,
+    resolvedImmediateParent: diagnostic?.parent_name || null,
+    resolvedClassification,
+    localExpectedParentConcept,
+    lineageCompatibility,
+    conceptReviewStatus,
+    curatorDecision: lineageCompatibility === 'incompatible'
+      ? 'needs-concept-review'
+      : resolved ? 'accept-external-mapping' : 'withhold-external-mapping',
     occurrenceCount: diagnostic ? numberOrNull(diagnostic.n_occs) : null,
     referenceNo: diagnostic?.reference_no ? `ref:${diagnostic.reference_no}` : null,
     snapshotModifiedAt: diagnostic?.modified || null,
@@ -133,15 +165,16 @@ const resolutions = nodes.map(resolveNode)
 const byEntityId = new Map(resolutions.map((entry) => [entry.entityId, entry]))
 const resolvedCount = resolutions.filter((entry) => entry.resolutionStatus === 'resolved').length
 const output = {
-  schemaVersion: 1,
-  generatedAt: '2026-08-19',
-  policy: 'PBDB IDs are published only when an exact local name resolves to one accepted concept and the accepted rank matches. Unresolved or ambiguous concepts retain no external ID.',
+  schemaVersion: 2,
+  generatedAt: new Date().toISOString().slice(0, 10),
+  policy: 'PBDB IDs are published only when an exact local name resolves to one accepted concept and the accepted rank matches. Entity kind is independent of PBDB. Parent and classification compatibility are recorded separately and an incompatibility triggers needs-concept-review.',
   rankNormalization: { clade: 'unranked clade' },
   source: SNAPSHOT,
   summary: {
     ontologyNodes: resolutions.length,
     resolved: resolvedCount,
     unresolved: resolutions.length - resolvedCount,
+    needsConceptReview: resolutions.filter((entry) => entry.conceptReviewStatus === 'needs-concept-review').length,
   },
   resolutions,
 }

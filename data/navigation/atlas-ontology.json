@@ -23,14 +23,16 @@
         {
           "id": "bryophyta",
           "name": "Bryophyta",
-          "commonName": "Mosses & Liverworts",
-          "commonNameZh": "藓类与地钱",
+          "commonName": "Mosses (Bryophyta sensu stricto)",
+          "commonNameZh": "藓类（狭义苔藓植物门）",
           "rank": "phylum",
           "taxonId": "txn:55134",
           "firstAppearance": 470,
           "lastAppearance": 0,
           "extinct": false,
-          "children": []
+          "children": [],
+          "entityKind": "taxon",
+          "contentLevel": "dossier"
         },
         {
           "id": "lycophyta",
@@ -53,9 +55,13 @@
               "firstAppearance": 359,
               "lastAppearance": 299,
               "extinct": true,
-              "children": []
+              "children": [],
+              "entityKind": "taxon",
+              "contentLevel": "dossier"
             }
-          ]
+          ],
+          "entityKind": "taxon",
+          "contentLevel": "dossier"
         },
         {
           "id": "pteridophyta",
@@ -78,7 +84,9 @@
               "firstAppearance": 375,
               "lastAppearance": 0,
               "extinct": false,
-              "children": []
+              "children": [],
+              "entityKind": "taxon",
+              "contentLevel": "dossier"
             },
             {
               "id": "filicopsida",
@@ -90,9 +98,13 @@
               "firstAppearance": 360,
               "lastAppearance": 0,
               "extinct": false,
-              "children": []
+              "children": [],
+              "entityKind": "taxon",
+              "contentLevel": "dossier"
             }
-          ]
+          ],
+          "entityKind": "historical-grade",
+          "contentLevel": "dossier"
         },
         {
           "id": "gymnospermae",
@@ -115,7 +127,9 @@
               "firstAppearance": 280,
               "lastAppearance": 0,
               "extinct": false,
-              "children": []
+              "children": [],
+              "entityKind": "taxon",
+              "contentLevel": "dossier"
             },
             {
               "id": "ginkgophyta",
@@ -127,7 +141,9 @@
               "firstAppearance": 270,
               "lastAppearance": 0,
               "extinct": false,
-              "children": []
+              "children": [],
+              "entityKind": "taxon",
+              "contentLevel": "dossier"
             },
             {
               "id": "coniferophyta",
@@ -150,11 +166,17 @@
                   "firstAppearance": 245,
                   "lastAppearance": 0,
                   "extinct": false,
-                  "children": []
+                  "children": [],
+                  "entityKind": "taxon",
+                  "contentLevel": "dossier"
                 }
-              ]
+              ],
+              "entityKind": "taxon",
+              "contentLevel": "dossier"
             }
-          ]
+          ],
+          "entityKind": "taxon",
+          "contentLevel": "dossier"
         },
         {
           "id": "angiospermae",
@@ -188,9 +210,13 @@
                   "firstAppearance": 66,
                   "lastAppearance": 0,
                   "extinct": false,
-                  "children": []
+                  "children": [],
+                  "entityKind": "taxon",
+                  "contentLevel": "dossier"
                 }
-              ]
+              ],
+              "entityKind": "taxon",
+              "contentLevel": "dossier"
             },
             {
               "id": "eudicotyledones",
@@ -213,13 +239,49 @@
                   "firstAppearance": 66,
                   "lastAppearance": 0,
                   "extinct": false,
-                  "children": []
+                  "children": [],
+                  "entityKind": "taxon",
+                  "contentLevel": "dossier"
                 }
-              ]
+              ],
+              "entityKind": "taxon",
+              "contentLevel": "dossier"
             }
-          ]
+          ],
+          "entityKind": "taxon",
+          "contentLevel": "dossier"
+        },
+        {
+          "taxonId": "",
+          "extinct": false,
+          "children": [],
+          "id": "marchantiophyta",
+          "name": "Marchantiophyta",
+          "commonName": "Liverworts",
+          "commonNameZh": "地钱门",
+          "rank": "phylum",
+          "firstAppearance": 470,
+          "lastAppearance": 0,
+          "entityKind": "taxon",
+          "contentLevel": "dossier"
+        },
+        {
+          "taxonId": "",
+          "extinct": false,
+          "children": [],
+          "id": "anthocerotophyta",
+          "name": "Anthocerotophyta",
+          "commonName": "Hornworts",
+          "commonNameZh": "角苔门",
+          "rank": "phylum",
+          "firstAppearance": 470,
+          "lastAppearance": 0,
+          "entityKind": "taxon",
+          "contentLevel": "dossier"
         }
-      ]
+      ],
+      "entityKind": "taxon",
+      "contentLevel": "dossier"
     },
     {
       "id": "invertebrata",
@@ -253,7 +315,9 @@
               "firstAppearance": 485,
               "lastAppearance": 359,
               "extinct": true,
-              "children": []
+              "children": [],
+              "entityKind": "taxon",
+              "contentLevel": "dossier"
             },
             {
               "id": "demospongiae",
@@ -265,9 +329,13 @@
               "firstAppearance": 540,
               "lastAppearance": 0,
               "extinct": false,
-              "children": []
+              "children": [],
+              "entityKind": "taxon",
+              "contentLevel": "dossier"
             }
-          ]
+          ],
+          "entityKind": "taxon",
+          "contentLevel": "dossier"
         },
         {
           "id": "cnidaria",
@@ -301,7 +369,9 @@
                   "firstAppearance": 488,
                   "lastAppearance": 252,
                   "extinct": true,
-                  "children": []
+                  "children": [],
+                  "entityKind": "taxon",
+                  "contentLevel": "dossier"
                 },
                 {
                   "id": "tabulata",
@@ -313,7 +383,9 @@
                   "firstAppearance": 488,
                   "lastAppearance": 252,
                   "extinct": true,
-                  "children": []
+                  "children": [],
+                  "entityKind": "taxon",
+                  "contentLevel": "dossier"
                 },
                 {
                   "id": "scleractinia",
@@ -325,11 +397,17 @@
                   "firstAppearance": 245,
                   "lastAppearance": 0,
                   "extinct": false,
-                  "children": []
+                  "children": [],
+                  "entityKind": "taxon",
+                  "contentLevel": "dossier"
                 }
-              ]
+              ],
+              "entityKind": "taxon",
+              "contentLevel": "dossier"
             }
-          ]
+          ],
+          "entityKind": "taxon",
+          "contentLevel": "dossier"
         },
         {
           "id": "brachiopoda",
@@ -363,7 +441,9 @@
                   "firstAppearance": 443,
                   "lastAppearance": 201,
                   "extinct": true,
-                  "children": []
+                  "children": [],
+                  "entityKind": "taxon",
+                  "contentLevel": "dossier"
                 },
                 {
                   "id": "terebratulida",
@@ -375,11 +455,17 @@
                   "firstAppearance": 409,
                   "lastAppearance": 0,
                   "extinct": false,
-                  "children": []
+                  "children": [],
+                  "entityKind": "taxon",
+                  "contentLevel": "dossier"
                 }
-              ]
+              ],
+              "entityKind": "historical-grade",
+              "contentLevel": "dossier"
             }
-          ]
+          ],
+          "entityKind": "taxon",
+          "contentLevel": "dossier"
         },
         {
           "id": "mollusca",
@@ -413,7 +499,9 @@
                   "firstAppearance": 160,
                   "lastAppearance": 66,
                   "extinct": true,
-                  "children": []
+                  "children": [],
+                  "entityKind": "taxon",
+                  "contentLevel": "dossier"
                 },
                 {
                   "id": "ostreoida",
@@ -425,9 +513,13 @@
                   "firstAppearance": 250,
                   "lastAppearance": 0,
                   "extinct": false,
-                  "children": []
+                  "children": [],
+                  "entityKind": "taxon",
+                  "contentLevel": "dossier"
                 }
-              ]
+              ],
+              "entityKind": "taxon",
+              "contentLevel": "dossier"
             },
             {
               "id": "gastropoda",
@@ -439,7 +531,9 @@
               "firstAppearance": 510,
               "lastAppearance": 0,
               "extinct": false,
-              "children": []
+              "children": [],
+              "entityKind": "taxon",
+              "contentLevel": "dossier"
             },
             {
               "id": "cephalopoda",
@@ -462,7 +556,9 @@
                   "firstAppearance": 500,
                   "lastAppearance": 0,
                   "extinct": false,
-                  "children": []
+                  "children": [],
+                  "entityKind": "taxon",
+                  "contentLevel": "dossier"
                 },
                 {
                   "id": "ammonoidea",
@@ -485,7 +581,9 @@
                       "firstAppearance": 409,
                       "lastAppearance": 252,
                       "extinct": true,
-                      "children": []
+                      "children": [],
+                      "entityKind": "taxon",
+                      "contentLevel": "dossier"
                     },
                     {
                       "id": "ceratitida",
@@ -497,7 +595,9 @@
                       "firstAppearance": 280,
                       "lastAppearance": 201,
                       "extinct": true,
-                      "children": []
+                      "children": [],
+                      "entityKind": "taxon",
+                      "contentLevel": "dossier"
                     },
                     {
                       "id": "ammonitida",
@@ -509,9 +609,13 @@
                       "firstAppearance": 201,
                       "lastAppearance": 66,
                       "extinct": true,
-                      "children": []
+                      "children": [],
+                      "entityKind": "taxon",
+                      "contentLevel": "dossier"
                     }
-                  ]
+                  ],
+                  "entityKind": "taxon",
+                  "contentLevel": "dossier"
                 },
                 {
                   "id": "coleoidea",
@@ -534,13 +638,21 @@
                       "firstAppearance": 228,
                       "lastAppearance": 66,
                       "extinct": true,
-                      "children": []
+                      "children": [],
+                      "entityKind": "taxon",
+                      "contentLevel": "dossier"
                     }
-                  ]
+                  ],
+                  "entityKind": "taxon",
+                  "contentLevel": "dossier"
                 }
-              ]
+              ],
+              "entityKind": "taxon",
+              "contentLevel": "dossier"
             }
-          ]
+          ],
+          "entityKind": "taxon",
+          "contentLevel": "dossier"
         },
         {
           "id": "arthropoda",
@@ -574,7 +686,9 @@
                   "firstAppearance": 488,
                   "lastAppearance": 359,
                   "extinct": true,
-                  "children": []
+                  "children": [],
+                  "entityKind": "taxon",
+                  "contentLevel": "dossier"
                 },
                 {
                   "id": "ptychopariida",
@@ -586,7 +700,9 @@
                   "firstAppearance": 521,
                   "lastAppearance": 443,
                   "extinct": true,
-                  "children": []
+                  "children": [],
+                  "entityKind": "taxon",
+                  "contentLevel": "dossier"
                 },
                 {
                   "id": "corynexochida",
@@ -598,9 +714,13 @@
                   "firstAppearance": 516,
                   "lastAppearance": 393,
                   "extinct": true,
-                  "children": []
+                  "children": [],
+                  "entityKind": "taxon",
+                  "contentLevel": "dossier"
                 }
-              ]
+              ],
+              "entityKind": "taxon",
+              "contentLevel": "dossier"
             },
             {
               "id": "chelicerata",
@@ -623,9 +743,13 @@
                   "firstAppearance": 467,
                   "lastAppearance": 252,
                   "extinct": true,
-                  "children": []
+                  "children": [],
+                  "entityKind": "taxon",
+                  "contentLevel": "dossier"
                 }
-              ]
+              ],
+              "entityKind": "taxon",
+              "contentLevel": "dossier"
             },
             {
               "id": "insecta",
@@ -639,29 +763,62 @@
               "extinct": false,
               "children": [
                 {
-                  "id": "odonata",
-                  "name": "Odonata",
-                  "commonName": "Dragonflies",
-                  "commonNameZh": "蜻蜓类",
-                  "rank": "order",
-                  "taxonId": "txn:71353",
-                  "firstAppearance": 325,
-                  "lastAppearance": 0,
+                  "taxonId": "",
                   "extinct": false,
                   "children": [
                     {
-                      "id": "meganeura",
-                      "name": "Meganeura",
-                      "commonName": "Giant Dragonfly",
-                      "commonNameZh": "巨脉蜻蜓",
-                      "rank": "genus",
-                      "taxonId": "txn:175803",
-                      "firstAppearance": 305,
-                      "lastAppearance": 299,
+                      "id": "odonata",
+                      "name": "Odonata",
+                      "commonName": "Dragonflies",
+                      "commonNameZh": "蜻蜓类",
+                      "rank": "order",
+                      "taxonId": "txn:71353",
+                      "firstAppearance": 325,
+                      "lastAppearance": 0,
+                      "extinct": false,
+                      "children": [],
+                      "entityKind": "taxon",
+                      "contentLevel": "dossier"
+                    },
+                    {
+                      "taxonId": "",
                       "extinct": true,
-                      "children": []
+                      "children": [
+                        {
+                          "id": "meganeura",
+                          "name": "Meganeura",
+                          "commonName": "Giant Dragonfly",
+                          "commonNameZh": "巨脉蜻蜓",
+                          "rank": "genus",
+                          "taxonId": "txn:175803",
+                          "firstAppearance": 305,
+                          "lastAppearance": 299,
+                          "extinct": true,
+                          "children": [],
+                          "entityKind": "taxon",
+                          "contentLevel": "dossier"
+                        }
+                      ],
+                      "id": "meganisoptera",
+                      "name": "Meganisoptera",
+                      "commonName": "Griffinflies",
+                      "commonNameZh": "巨脉蜻蜓目",
+                      "rank": "order",
+                      "firstAppearance": 325,
+                      "lastAppearance": 250,
+                      "entityKind": "taxon",
+                      "contentLevel": "dossier"
                     }
-                  ]
+                  ],
+                  "id": "odonatoptera",
+                  "name": "Odonatoptera",
+                  "commonName": "Odonatopteran navigation group",
+                  "commonNameZh": "蜻蜓总群导航组",
+                  "rank": "navigation group",
+                  "firstAppearance": 325,
+                  "lastAppearance": 0,
+                  "entityKind": "navigation-group",
+                  "contentLevel": "dossier"
                 },
                 {
                   "id": "coleoptera",
@@ -673,7 +830,9 @@
                   "firstAppearance": 299,
                   "lastAppearance": 0,
                   "extinct": false,
-                  "children": []
+                  "children": [],
+                  "entityKind": "taxon",
+                  "contentLevel": "dossier"
                 },
                 {
                   "id": "hymenoptera",
@@ -685,9 +844,13 @@
                   "firstAppearance": 200,
                   "lastAppearance": 0,
                   "extinct": false,
-                  "children": []
+                  "children": [],
+                  "entityKind": "taxon",
+                  "contentLevel": "dossier"
                 }
-              ]
+              ],
+              "entityKind": "taxon",
+              "contentLevel": "dossier"
             },
             {
               "id": "crustacea",
@@ -710,7 +873,9 @@
                   "firstAppearance": 485,
                   "lastAppearance": 0,
                   "extinct": false,
-                  "children": []
+                  "children": [],
+                  "entityKind": "taxon",
+                  "contentLevel": "dossier"
                 },
                 {
                   "id": "malacostraca",
@@ -722,11 +887,17 @@
                   "firstAppearance": 360,
                   "lastAppearance": 0,
                   "extinct": false,
-                  "children": []
+                  "children": [],
+                  "entityKind": "taxon",
+                  "contentLevel": "dossier"
                 }
-              ]
+              ],
+              "entityKind": "taxon",
+              "contentLevel": "dossier"
             }
-          ]
+          ],
+          "entityKind": "taxon",
+          "contentLevel": "dossier"
         },
         {
           "id": "echinodermata",
@@ -749,7 +920,9 @@
               "firstAppearance": 488,
               "lastAppearance": 0,
               "extinct": false,
-              "children": []
+              "children": [],
+              "entityKind": "taxon",
+              "contentLevel": "dossier"
             },
             {
               "id": "blastoidea",
@@ -761,7 +934,9 @@
               "firstAppearance": 470,
               "lastAppearance": 252,
               "extinct": true,
-              "children": []
+              "children": [],
+              "entityKind": "taxon",
+              "contentLevel": "dossier"
             },
             {
               "id": "echinoidea",
@@ -773,7 +948,9 @@
               "firstAppearance": 460,
               "lastAppearance": 0,
               "extinct": false,
-              "children": []
+              "children": [],
+              "entityKind": "taxon",
+              "contentLevel": "dossier"
             },
             {
               "id": "asteroidea",
@@ -785,23 +962,61 @@
               "firstAppearance": 488,
               "lastAppearance": 0,
               "extinct": false,
-              "children": []
+              "children": [],
+              "entityKind": "taxon",
+              "contentLevel": "dossier"
             }
-          ]
+          ],
+          "entityKind": "taxon",
+          "contentLevel": "dossier"
         },
         {
-          "id": "graptolithina",
-          "name": "Graptolithina",
-          "commonName": "Graptolites",
-          "commonNameZh": "笔石类",
-          "rank": "class",
           "taxonId": "",
-          "firstAppearance": 510,
-          "lastAppearance": 323,
-          "extinct": true,
-          "children": []
+          "extinct": false,
+          "children": [
+            {
+              "taxonId": "",
+              "extinct": false,
+              "children": [
+                {
+                  "id": "graptolithina",
+                  "name": "Graptolithina",
+                  "commonName": "Graptolites",
+                  "commonNameZh": "笔石类",
+                  "rank": "class",
+                  "taxonId": "",
+                  "firstAppearance": 510,
+                  "lastAppearance": 323,
+                  "extinct": true,
+                  "children": [],
+                  "entityKind": "taxon",
+                  "contentLevel": "dossier"
+                }
+              ],
+              "id": "pterobranchia",
+              "name": "Pterobranchia",
+              "commonName": "Pterobranchs",
+              "commonNameZh": "羽鳃纲",
+              "rank": "class",
+              "firstAppearance": 530,
+              "lastAppearance": 0,
+              "entityKind": "taxon",
+              "contentLevel": "dossier"
+            }
+          ],
+          "id": "hemichordata",
+          "name": "Hemichordata",
+          "commonName": "Hemichordates",
+          "commonNameZh": "半索动物门",
+          "rank": "phylum",
+          "firstAppearance": 540,
+          "lastAppearance": 0,
+          "entityKind": "taxon",
+          "contentLevel": "dossier"
         }
-      ]
+      ],
+      "entityKind": "informal-group",
+      "contentLevel": "dossier"
     },
     {
       "id": "vertebrata",
@@ -835,7 +1050,9 @@
               "firstAppearance": 520,
               "lastAppearance": 201.4,
               "extinct": true,
-              "children": []
+              "children": [],
+              "entityKind": "taxon",
+              "contentLevel": "dossier"
             },
             {
               "id": "ostracodermi",
@@ -858,7 +1075,9 @@
                   "firstAppearance": 443,
                   "lastAppearance": 378,
                   "extinct": true,
-                  "children": []
+                  "children": [],
+                  "entityKind": "taxon",
+                  "contentLevel": "dossier"
                 },
                 {
                   "id": "osteostraci",
@@ -870,9 +1089,13 @@
                   "firstAppearance": 435,
                   "lastAppearance": 370,
                   "extinct": true,
-                  "children": []
+                  "children": [],
+                  "entityKind": "taxon",
+                  "contentLevel": "dossier"
                 }
-              ]
+              ],
+              "entityKind": "historical-grade",
+              "contentLevel": "dossier"
             },
             {
               "id": "cyclostomata",
@@ -895,11 +1118,17 @@
                   "firstAppearance": 360,
                   "lastAppearance": 0,
                   "extinct": false,
-                  "children": []
+                  "children": [],
+                  "entityKind": "taxon",
+                  "contentLevel": "dossier"
                 }
-              ]
+              ],
+              "entityKind": "taxon",
+              "contentLevel": "dossier"
             }
-          ]
+          ],
+          "entityKind": "historical-grade",
+          "contentLevel": "dossier"
         },
         {
           "id": "gnathostomata",
@@ -944,11 +1173,17 @@
                       "firstAppearance": 380,
                       "lastAppearance": 359,
                       "extinct": true,
-                      "children": []
+                      "children": [],
+                      "entityKind": "taxon",
+                      "contentLevel": "dossier"
                     }
-                  ]
+                  ],
+                  "entityKind": "taxon",
+                  "contentLevel": "dossier"
                 }
-              ]
+              ],
+              "entityKind": "historical-grade",
+              "contentLevel": "dossier"
             },
             {
               "id": "chondrichthyes",
@@ -982,9 +1217,13 @@
                       "firstAppearance": 23,
                       "lastAppearance": 3.6,
                       "extinct": true,
-                      "children": []
+                      "children": [],
+                      "entityKind": "taxon",
+                      "contentLevel": "dossier"
                     }
-                  ]
+                  ],
+                  "entityKind": "taxon",
+                  "contentLevel": "dossier"
                 },
                 {
                   "id": "holocephali",
@@ -996,9 +1235,13 @@
                   "firstAppearance": 358.9,
                   "lastAppearance": 0,
                   "extinct": false,
-                  "children": []
+                  "children": [],
+                  "entityKind": "taxon",
+                  "contentLevel": "dossier"
                 }
-              ]
+              ],
+              "entityKind": "taxon",
+              "contentLevel": "dossier"
             },
             {
               "id": "acanthodii",
@@ -1010,7 +1253,9 @@
               "firstAppearance": 443,
               "lastAppearance": 252,
               "extinct": true,
-              "children": []
+              "children": [],
+              "entityKind": "historical-grade",
+              "contentLevel": "dossier"
             },
             {
               "id": "osteichthyes",
@@ -1055,11 +1300,17 @@
                           "firstAppearance": 56,
                           "lastAppearance": 0,
                           "extinct": false,
-                          "children": []
+                          "children": [],
+                          "entityKind": "taxon",
+                          "contentLevel": "dossier"
                         }
-                      ]
+                      ],
+                      "entityKind": "taxon",
+                      "contentLevel": "dossier"
                     }
-                  ]
+                  ],
+                  "entityKind": "taxon",
+                  "contentLevel": "dossier"
                 },
                 {
                   "id": "sarcopterygii",
@@ -1082,7 +1333,9 @@
                       "firstAppearance": 409,
                       "lastAppearance": 0,
                       "extinct": false,
-                      "children": []
+                      "children": [],
+                      "entityKind": "taxon",
+                      "contentLevel": "dossier"
                     },
                     {
                       "id": "dipnoi",
@@ -1094,1140 +1347,1347 @@
                       "firstAppearance": 409,
                       "lastAppearance": 0,
                       "extinct": false,
-                      "children": []
+                      "children": [],
+                      "entityKind": "taxon",
+                      "contentLevel": "dossier"
                     },
                     {
                       "id": "tetrapodomorpha",
                       "name": "Tetrapodomorpha",
-                      "commonName": "Tetrapod Ancestors",
-                      "commonNameZh": "四足动物祖先",
+                      "commonName": "Tetrapodomorph total group",
+                      "commonNameZh": "四足形类总群",
                       "rank": "clade",
                       "taxonId": "",
                       "firstAppearance": 392,
-                      "lastAppearance": 359,
-                      "extinct": true,
-                      "children": [
-                        {
-                          "id": "tiktaalik",
-                          "name": "Tiktaalik",
-                          "commonName": "Tiktaalik",
-                          "commonNameZh": "提塔利克鱼",
-                          "rank": "genus",
-                          "taxonId": "txn:77132",
-                          "firstAppearance": 375,
-                          "lastAppearance": 375,
-                          "extinct": true,
-                          "children": []
-                        }
-                      ]
-                    },
-                    {
-                      "id": "tetrapoda",
-                      "name": "Tetrapoda",
-                      "commonName": "Tetrapods",
-                      "commonNameZh": "四足动物",
-                      "rank": "superclass",
-                      "taxonId": "",
-                      "firstAppearance": 370,
                       "lastAppearance": 0,
                       "extinct": false,
                       "children": [
                         {
-                          "id": "amphibia",
-                          "name": "Amphibia",
-                          "commonName": "Amphibians",
-                          "commonNameZh": "两栖动物",
-                          "rank": "class",
-                          "taxonId": "txn:36319",
-                          "firstAppearance": 350,
+                          "taxonId": "",
+                          "extinct": true,
+                          "children": [
+                            {
+                              "id": "tiktaalik",
+                              "name": "Tiktaalik",
+                              "commonName": "Tiktaalik",
+                              "commonNameZh": "提塔利克鱼",
+                              "rank": "genus",
+                              "taxonId": "txn:77132",
+                              "firstAppearance": 375,
+                              "lastAppearance": 375,
+                              "extinct": true,
+                              "children": [],
+                              "entityKind": "taxon",
+                              "contentLevel": "dossier"
+                            }
+                          ],
+                          "id": "stem-tetrapodomorphs",
+                          "name": "stem-tetrapodomorphs",
+                          "commonName": "Stem tetrapodomorph navigation grade",
+                          "commonNameZh": "四足形类干群导航级",
+                          "rank": "paraphyletic navigation grade",
+                          "firstAppearance": 392,
+                          "lastAppearance": 359,
+                          "entityKind": "historical-grade",
+                          "contentLevel": "dossier"
+                        },
+                        {
+                          "id": "tetrapoda",
+                          "name": "Tetrapoda",
+                          "commonName": "Tetrapods",
+                          "commonNameZh": "四足动物",
+                          "rank": "superclass",
+                          "taxonId": "",
+                          "firstAppearance": 370,
                           "lastAppearance": 0,
                           "extinct": false,
                           "children": [
                             {
-                              "id": "temnospondyli",
-                              "name": "Temnospondyli",
-                              "commonName": "Temnospondyls",
-                              "commonNameZh": "离片椎类",
-                              "rank": "order",
-                              "taxonId": "txn:36320",
-                              "firstAppearance": 330,
-                              "lastAppearance": 120,
-                              "extinct": true,
-                              "children": []
-                            },
-                            {
-                              "id": "lissamphibia",
-                              "name": "Lissamphibia",
-                              "commonName": "Frogs & Salamanders",
-                              "commonNameZh": "蛙与蝾螈",
-                              "rank": "subclass",
-                              "taxonId": "",
-                              "firstAppearance": 250,
+                              "id": "amphibia",
+                              "name": "Amphibia",
+                              "commonName": "Amphibians",
+                              "commonNameZh": "两栖动物",
+                              "rank": "class",
+                              "taxonId": "txn:36319",
+                              "firstAppearance": 350,
                               "lastAppearance": 0,
                               "extinct": false,
                               "children": [
                                 {
-                                  "id": "anura",
-                                  "name": "Anura",
-                                  "commonName": "Frogs & Toads",
-                                  "commonNameZh": "蛙与蟾蜍",
+                                  "id": "temnospondyli",
+                                  "name": "Temnospondyli",
+                                  "commonName": "Temnospondyls",
+                                  "commonNameZh": "离片椎类",
                                   "rank": "order",
-                                  "taxonId": "",
-                                  "firstAppearance": 190,
-                                  "lastAppearance": 0,
-                                  "extinct": false,
-                                  "children": []
+                                  "taxonId": "txn:36320",
+                                  "firstAppearance": 330,
+                                  "lastAppearance": 120,
+                                  "extinct": true,
+                                  "children": [],
+                                  "entityKind": "taxon",
+                                  "contentLevel": "dossier"
                                 },
                                 {
-                                  "id": "caudata",
-                                  "name": "Caudata",
-                                  "commonName": "Salamanders",
-                                  "commonNameZh": "蝾螈",
-                                  "rank": "order",
+                                  "id": "lissamphibia",
+                                  "name": "Lissamphibia",
+                                  "commonName": "Frogs & Salamanders",
+                                  "commonNameZh": "蛙与蝾螈",
+                                  "rank": "subclass",
                                   "taxonId": "",
-                                  "firstAppearance": 165,
+                                  "firstAppearance": 250,
                                   "lastAppearance": 0,
                                   "extinct": false,
-                                  "children": []
+                                  "children": [
+                                    {
+                                      "id": "anura",
+                                      "name": "Anura",
+                                      "commonName": "Frogs & Toads",
+                                      "commonNameZh": "蛙与蟾蜍",
+                                      "rank": "order",
+                                      "taxonId": "",
+                                      "firstAppearance": 190,
+                                      "lastAppearance": 0,
+                                      "extinct": false,
+                                      "children": [],
+                                      "entityKind": "taxon",
+                                      "contentLevel": "dossier"
+                                    },
+                                    {
+                                      "id": "caudata",
+                                      "name": "Caudata",
+                                      "commonName": "Salamanders",
+                                      "commonNameZh": "蝾螈",
+                                      "rank": "order",
+                                      "taxonId": "",
+                                      "firstAppearance": 165,
+                                      "lastAppearance": 0,
+                                      "extinct": false,
+                                      "children": [],
+                                      "entityKind": "taxon",
+                                      "contentLevel": "dossier"
+                                    }
+                                  ],
+                                  "entityKind": "taxon",
+                                  "contentLevel": "dossier"
                                 }
-                              ]
-                            }
-                          ]
-                        },
-                        {
-                          "id": "amniota",
-                          "name": "Amniota",
-                          "commonName": "Amniotes",
-                          "commonNameZh": "羊膜动物",
-                          "rank": "clade",
-                          "taxonId": "txn:53189",
-                          "firstAppearance": 315,
-                          "lastAppearance": 0,
-                          "extinct": false,
-                          "children": [
+                              ],
+                              "entityKind": "taxon",
+                              "contentLevel": "dossier"
+                            },
                             {
-                              "id": "synapsida",
-                              "name": "Synapsida",
-                              "commonName": "Synapsids",
-                              "commonNameZh": "合弓类",
-                              "rank": "class",
-                              "taxonId": "",
+                              "id": "amniota",
+                              "name": "Amniota",
+                              "commonName": "Amniotes",
+                              "commonNameZh": "羊膜动物",
+                              "rank": "clade",
+                              "taxonId": "txn:53189",
                               "firstAppearance": 315,
                               "lastAppearance": 0,
                               "extinct": false,
                               "children": [
                                 {
-                                  "id": "pelycosauria",
-                                  "name": "Pelycosauria",
-                                  "commonName": "Pelycosaurs",
-                                  "commonNameZh": "盘龙类",
-                                  "rank": "order",
-                                  "taxonId": "txn:38883",
-                                  "firstAppearance": 308,
-                                  "lastAppearance": 260,
-                                  "extinct": true,
-                                  "children": [
-                                    {
-                                      "id": "dimetrodon",
-                                      "name": "Dimetrodon",
-                                      "commonName": "Dimetrodon",
-                                      "commonNameZh": "异齿龙",
-                                      "rank": "genus",
-                                      "taxonId": "txn:38904",
-                                      "firstAppearance": 295,
-                                      "lastAppearance": 272,
-                                      "extinct": true,
-                                      "children": []
-                                    }
-                                  ]
-                                },
-                                {
-                                  "id": "therapsida",
-                                  "name": "Therapsida",
-                                  "commonName": "Therapsids",
-                                  "commonNameZh": "兽孔类",
-                                  "rank": "order",
+                                  "id": "synapsida",
+                                  "name": "Synapsida",
+                                  "commonName": "Synapsids",
+                                  "commonNameZh": "合弓类",
+                                  "rank": "class",
                                   "taxonId": "",
-                                  "firstAppearance": 275,
+                                  "firstAppearance": 315,
                                   "lastAppearance": 0,
                                   "extinct": false,
                                   "children": [
                                     {
-                                      "id": "dicynodontia",
-                                      "name": "Dicynodontia",
-                                      "commonName": "Dicynodonts",
-                                      "commonNameZh": "二齿兽类",
-                                      "rank": "suborder",
-                                      "taxonId": "txn:312556",
-                                      "firstAppearance": 268,
-                                      "lastAppearance": 201,
+                                      "id": "pelycosauria",
+                                      "name": "Pelycosauria",
+                                      "commonName": "Pelycosaurs",
+                                      "commonNameZh": "盘龙类",
+                                      "rank": "order",
+                                      "taxonId": "txn:38883",
+                                      "firstAppearance": 308,
+                                      "lastAppearance": 260,
                                       "extinct": true,
-                                      "children": []
+                                      "children": [
+                                        {
+                                          "id": "dimetrodon",
+                                          "name": "Dimetrodon",
+                                          "commonName": "Dimetrodon",
+                                          "commonNameZh": "异齿龙",
+                                          "rank": "genus",
+                                          "taxonId": "txn:38904",
+                                          "firstAppearance": 295,
+                                          "lastAppearance": 272,
+                                          "extinct": true,
+                                          "children": [],
+                                          "entityKind": "taxon",
+                                          "contentLevel": "dossier"
+                                        }
+                                      ],
+                                      "entityKind": "historical-grade",
+                                      "contentLevel": "dossier"
                                     },
                                     {
-                                      "id": "cynodontia",
-                                      "name": "Cynodontia",
-                                      "commonName": "Cynodonts",
-                                      "commonNameZh": "犬齿兽类",
-                                      "rank": "suborder",
+                                      "id": "therapsida",
+                                      "name": "Therapsida",
+                                      "commonName": "Therapsids",
+                                      "commonNameZh": "兽孔类",
+                                      "rank": "order",
                                       "taxonId": "",
-                                      "firstAppearance": 260,
+                                      "firstAppearance": 275,
                                       "lastAppearance": 0,
                                       "extinct": false,
                                       "children": [
                                         {
-                                          "id": "mammalia",
-                                          "name": "Mammalia",
-                                          "commonName": "Mammals",
-                                          "commonNameZh": "哺乳动物",
-                                          "rank": "class",
-                                          "taxonId": "txn:36651",
-                                          "firstAppearance": 225,
+                                          "id": "dicynodontia",
+                                          "name": "Dicynodontia",
+                                          "commonName": "Dicynodonts",
+                                          "commonNameZh": "二齿兽类",
+                                          "rank": "suborder",
+                                          "taxonId": "txn:312556",
+                                          "firstAppearance": 268,
+                                          "lastAppearance": 201,
+                                          "extinct": true,
+                                          "children": [],
+                                          "entityKind": "taxon",
+                                          "contentLevel": "dossier"
+                                        },
+                                        {
+                                          "id": "cynodontia",
+                                          "name": "Cynodontia",
+                                          "commonName": "Cynodonts",
+                                          "commonNameZh": "犬齿兽类",
+                                          "rank": "suborder",
+                                          "taxonId": "",
+                                          "firstAppearance": 260,
                                           "lastAppearance": 0,
                                           "extinct": false,
                                           "children": [
                                             {
-                                              "id": "monotremata",
-                                              "name": "Monotremata",
-                                              "commonName": "Monotremes",
-                                              "commonNameZh": "单孔类",
-                                              "rank": "order",
-                                              "taxonId": "txn:39737",
-                                              "firstAppearance": 120,
-                                              "lastAppearance": 0,
-                                              "extinct": false,
-                                              "children": []
-                                            },
-                                            {
-                                              "id": "marsupialia",
-                                              "name": "Marsupialia",
-                                              "commonName": "Marsupials",
-                                              "commonNameZh": "有袋类",
-                                              "rank": "infraclass",
-                                              "taxonId": "txn:247806",
-                                              "firstAppearance": 110,
+                                              "id": "mammalia",
+                                              "name": "Mammalia",
+                                              "commonName": "Mammals",
+                                              "commonNameZh": "哺乳动物",
+                                              "rank": "class",
+                                              "taxonId": "txn:36651",
+                                              "firstAppearance": 225,
                                               "lastAppearance": 0,
                                               "extinct": false,
                                               "children": [
                                                 {
-                                                  "id": "diprotodontia",
-                                                  "name": "Diprotodontia",
-                                                  "commonName": "Kangaroos & Wombats",
-                                                  "commonNameZh": "袋鼠与袋熊",
+                                                  "id": "monotremata",
+                                                  "name": "Monotremata",
+                                                  "commonName": "Monotremes",
+                                                  "commonNameZh": "单孔类",
                                                   "rank": "order",
-                                                  "taxonId": "txn:66275",
-                                                  "firstAppearance": 28,
+                                                  "taxonId": "txn:39737",
+                                                  "firstAppearance": 120,
                                                   "lastAppearance": 0,
                                                   "extinct": false,
-                                                  "children": []
-                                                }
-                                              ]
-                                            },
-                                            {
-                                              "id": "placentalia",
-                                              "name": "Placentalia",
-                                              "commonName": "Placental Mammals",
-                                              "commonNameZh": "胎盘类哺乳动物",
-                                              "rank": "infraclass",
-                                              "taxonId": "",
-                                              "firstAppearance": 100,
-                                              "lastAppearance": 0,
-                                              "extinct": false,
-                                              "children": [
+                                                  "children": [],
+                                                  "entityKind": "taxon",
+                                                  "contentLevel": "dossier"
+                                                },
                                                 {
-                                                  "id": "perissodactyla",
-                                                  "name": "Perissodactyla",
-                                                  "commonName": "Odd-toed Ungulates",
-                                                  "commonNameZh": "奇蹄类",
-                                                  "rank": "order",
-                                                  "taxonId": "txn:106418",
-                                                  "firstAppearance": 56,
+                                                  "id": "marsupialia",
+                                                  "name": "Marsupialia",
+                                                  "commonName": "Marsupials",
+                                                  "commonNameZh": "有袋类",
+                                                  "rank": "infraclass",
+                                                  "taxonId": "txn:247806",
+                                                  "firstAppearance": 110,
                                                   "lastAppearance": 0,
                                                   "extinct": false,
                                                   "children": [
                                                     {
-                                                      "id": "brontotheriidae",
-                                                      "name": "Brontotheriidae",
-                                                      "commonName": "Brontotheres",
-                                                      "commonNameZh": "雷兽类",
-                                                      "rank": "family",
-                                                      "taxonId": "txn:43027",
-                                                      "firstAppearance": 53,
-                                                      "lastAppearance": 34,
-                                                      "extinct": true,
-                                                      "children": []
-                                                    },
+                                                      "id": "diprotodontia",
+                                                      "name": "Diprotodontia",
+                                                      "commonName": "Kangaroos & Wombats",
+                                                      "commonNameZh": "袋鼠与袋熊",
+                                                      "rank": "order",
+                                                      "taxonId": "txn:66275",
+                                                      "firstAppearance": 28,
+                                                      "lastAppearance": 0,
+                                                      "extinct": false,
+                                                      "children": [],
+                                                      "entityKind": "taxon",
+                                                      "contentLevel": "dossier"
+                                                    }
+                                                  ],
+                                                  "entityKind": "taxon",
+                                                  "contentLevel": "dossier"
+                                                },
+                                                {
+                                                  "id": "placentalia",
+                                                  "name": "Placentalia",
+                                                  "commonName": "Placental Mammals",
+                                                  "commonNameZh": "胎盘类哺乳动物",
+                                                  "rank": "infraclass",
+                                                  "taxonId": "",
+                                                  "firstAppearance": 100,
+                                                  "lastAppearance": 0,
+                                                  "extinct": false,
+                                                  "children": [
                                                     {
-                                                      "id": "hippomorpha",
-                                                      "name": "Hippomorpha",
-                                                      "commonName": "Horse-line Perissodactyls",
-                                                      "commonNameZh": "马形奇蹄类",
-                                                      "rank": "suborder",
-                                                      "taxonId": "",
+                                                      "id": "perissodactyla",
+                                                      "name": "Perissodactyla",
+                                                      "commonName": "Odd-toed Ungulates",
+                                                      "commonNameZh": "奇蹄类",
+                                                      "rank": "order",
+                                                      "taxonId": "txn:106418",
                                                       "firstAppearance": 56,
                                                       "lastAppearance": 0,
                                                       "extinct": false,
                                                       "children": [
                                                         {
-                                                          "id": "palaeotherium",
-                                                          "name": "Palaeotherium",
-                                                          "commonName": "Palaeotheres",
-                                                          "commonNameZh": "古兽马类",
-                                                          "rank": "genus",
-                                                          "taxonId": "txn:49711",
-                                                          "firstAppearance": 47.8,
-                                                          "lastAppearance": 33.9,
+                                                          "id": "brontotheriidae",
+                                                          "name": "Brontotheriidae",
+                                                          "commonName": "Brontotheres",
+                                                          "commonNameZh": "雷兽类",
+                                                          "rank": "family",
+                                                          "taxonId": "txn:43027",
+                                                          "firstAppearance": 53,
+                                                          "lastAppearance": 34,
                                                           "extinct": true,
-                                                          "children": []
+                                                          "children": [],
+                                                          "entityKind": "taxon",
+                                                          "contentLevel": "full-profile"
                                                         },
                                                         {
-                                                          "id": "equidae",
-                                                          "name": "Equidae",
-                                                          "commonName": "Horses",
-                                                          "commonNameZh": "马科",
-                                                          "rank": "family",
-                                                          "taxonId": "txn:42984",
+                                                          "id": "hippomorpha",
+                                                          "name": "Hippomorpha",
+                                                          "commonName": "Horse-line Perissodactyls",
+                                                          "commonNameZh": "马形奇蹄类",
+                                                          "rank": "suborder",
+                                                          "taxonId": "",
                                                           "firstAppearance": 56,
                                                           "lastAppearance": 0,
                                                           "extinct": false,
                                                           "children": [
                                                             {
-                                                              "id": "anchitherium",
-                                                              "name": "Anchitherium",
-                                                              "commonName": "Three-toed Browsing Horses",
-                                                              "commonNameZh": "三趾食叶马类",
+                                                              "id": "palaeotherium",
+                                                              "name": "Palaeotherium",
+                                                              "commonName": "Palaeotheres",
+                                                              "commonNameZh": "古兽马类",
                                                               "rank": "genus",
-                                                              "taxonId": "txn:42987",
-                                                              "firstAppearance": 20.4,
-                                                              "lastAppearance": 9,
+                                                              "taxonId": "txn:49711",
+                                                              "firstAppearance": 47.8,
+                                                              "lastAppearance": 33.9,
                                                               "extinct": true,
-                                                              "children": []
+                                                              "children": [],
+                                                              "entityKind": "taxon",
+                                                              "contentLevel": "full-profile"
                                                             },
                                                             {
-                                                              "id": "hipparionini",
-                                                              "name": "Hipparionini",
-                                                              "commonName": "Hipparionine Horses",
-                                                              "commonNameZh": "三趾马族",
-                                                              "rank": "tribe",
-                                                              "taxonId": "txn:65579",
-                                                              "firstAppearance": 17,
-                                                              "lastAppearance": 0.6,
-                                                              "extinct": true,
-                                                              "children": []
+                                                              "id": "equidae",
+                                                              "name": "Equidae",
+                                                              "commonName": "Horses",
+                                                              "commonNameZh": "马科",
+                                                              "rank": "family",
+                                                              "taxonId": "txn:42984",
+                                                              "firstAppearance": 56,
+                                                              "lastAppearance": 0,
+                                                              "extinct": false,
+                                                              "children": [
+                                                                {
+                                                                  "id": "anchitherium",
+                                                                  "name": "Anchitherium",
+                                                                  "commonName": "Three-toed Browsing Horses",
+                                                                  "commonNameZh": "三趾食叶马类",
+                                                                  "rank": "genus",
+                                                                  "taxonId": "txn:42987",
+                                                                  "firstAppearance": 20.4,
+                                                                  "lastAppearance": 9,
+                                                                  "extinct": true,
+                                                                  "children": [],
+                                                                  "entityKind": "taxon",
+                                                                  "contentLevel": "full-profile"
+                                                                },
+                                                                {
+                                                                  "id": "hipparionini",
+                                                                  "name": "Hipparionini",
+                                                                  "commonName": "Hipparionine Horses",
+                                                                  "commonNameZh": "三趾马族",
+                                                                  "rank": "tribe",
+                                                                  "taxonId": "txn:65579",
+                                                                  "firstAppearance": 17,
+                                                                  "lastAppearance": 0.6,
+                                                                  "extinct": true,
+                                                                  "children": [],
+                                                                  "entityKind": "taxon",
+                                                                  "contentLevel": "full-profile"
+                                                                }
+                                                              ],
+                                                              "entityKind": "taxon",
+                                                              "contentLevel": "dossier"
                                                             }
-                                                          ]
-                                                        }
-                                                      ]
-                                                    },
-                                                    {
-                                                      "id": "ancylopoda",
-                                                      "name": "Ancylopoda",
-                                                      "commonName": "Chalicothere-line Perissodactyls",
-                                                      "commonNameZh": "爪兽形奇蹄类",
-                                                      "rank": "suborder",
-                                                      "taxonId": "",
-                                                      "firstAppearance": 52,
-                                                      "lastAppearance": 1.8,
-                                                      "extinct": true,
-                                                      "children": [
+                                                          ],
+                                                          "entityKind": "taxon",
+                                                          "contentLevel": "dossier"
+                                                        },
                                                         {
-                                                          "id": "chalicotherium",
-                                                          "name": "Chalicotherium",
-                                                          "commonName": "Chalicotheres",
-                                                          "commonNameZh": "爪兽类",
-                                                          "rank": "genus",
-                                                          "taxonId": "txn:43079",
-                                                          "firstAppearance": 15.97,
-                                                          "lastAppearance": 5.33,
+                                                          "id": "ancylopoda",
+                                                          "name": "Ancylopoda",
+                                                          "commonName": "Chalicothere-line Perissodactyls",
+                                                          "commonNameZh": "爪兽形奇蹄类",
+                                                          "rank": "suborder",
+                                                          "taxonId": "",
+                                                          "firstAppearance": 52,
+                                                          "lastAppearance": 1.8,
                                                           "extinct": true,
-                                                          "children": []
+                                                          "children": [
+                                                            {
+                                                              "id": "chalicotherium",
+                                                              "name": "Chalicotherium",
+                                                              "commonName": "Chalicotheres",
+                                                              "commonNameZh": "爪兽类",
+                                                              "rank": "genus",
+                                                              "taxonId": "txn:43079",
+                                                              "firstAppearance": 15.97,
+                                                              "lastAppearance": 5.33,
+                                                              "extinct": true,
+                                                              "children": [],
+                                                              "entityKind": "taxon",
+                                                              "contentLevel": "full-profile"
+                                                            }
+                                                          ],
+                                                          "entityKind": "taxon",
+                                                          "contentLevel": "dossier"
+                                                        },
+                                                        {
+                                                          "id": "ceratomorpha",
+                                                          "name": "Ceratomorpha",
+                                                          "commonName": "Tapir and Rhino Line",
+                                                          "commonNameZh": "貘—犀支系",
+                                                          "rank": "suborder",
+                                                          "taxonId": "",
+                                                          "firstAppearance": 56,
+                                                          "lastAppearance": 0,
+                                                          "extinct": false,
+                                                          "children": [
+                                                            {
+                                                              "id": "tapiroidea",
+                                                              "name": "Tapiroidea",
+                                                              "commonName": "Tapirs and Relatives",
+                                                              "commonNameZh": "貘及其近亲",
+                                                              "rank": "superfamily",
+                                                              "taxonId": "txn:43104",
+                                                              "firstAppearance": 55,
+                                                              "lastAppearance": 0,
+                                                              "extinct": false,
+                                                              "children": [],
+                                                              "entityKind": "taxon",
+                                                              "contentLevel": "dossier"
+                                                            },
+                                                            {
+                                                              "id": "rhinocerotoidea",
+                                                              "name": "Rhinocerotoidea",
+                                                              "commonName": "Rhinos and Relatives",
+                                                              "commonNameZh": "犀牛及其近亲",
+                                                              "rank": "superfamily",
+                                                              "taxonId": "txn:43140",
+                                                              "firstAppearance": 54,
+                                                              "lastAppearance": 0,
+                                                              "extinct": false,
+                                                              "children": [
+                                                                {
+                                                                  "id": "metamynodon",
+                                                                  "name": "Metamynodon",
+                                                                  "commonName": "Amynodont Rhinos",
+                                                                  "commonNameZh": "两栖犀类",
+                                                                  "rank": "genus",
+                                                                  "taxonId": "txn:43179",
+                                                                  "firstAppearance": 40.4,
+                                                                  "lastAppearance": 23,
+                                                                  "extinct": true,
+                                                                  "children": [],
+                                                                  "entityKind": "taxon",
+                                                                  "contentLevel": "full-profile"
+                                                                },
+                                                                {
+                                                                  "id": "paraceratherium",
+                                                                  "name": "Paraceratherium",
+                                                                  "commonName": "Giant Rhinos",
+                                                                  "commonNameZh": "巨犀类",
+                                                                  "rank": "genus",
+                                                                  "taxonId": "txn:43161",
+                                                                  "firstAppearance": 34,
+                                                                  "lastAppearance": 20,
+                                                                  "extinct": true,
+                                                                  "children": [],
+                                                                  "entityKind": "taxon",
+                                                                  "contentLevel": "full-profile"
+                                                                },
+                                                                {
+                                                                  "id": "rhinocerotidae",
+                                                                  "name": "Rhinocerotidae",
+                                                                  "commonName": "True Rhinoceroses",
+                                                                  "commonNameZh": "真犀牛类",
+                                                                  "rank": "family",
+                                                                  "taxonId": "txn:43187",
+                                                                  "firstAppearance": 40,
+                                                                  "lastAppearance": 0,
+                                                                  "extinct": false,
+                                                                  "children": [
+                                                                    {
+                                                                      "id": "teleoceras",
+                                                                      "name": "Teleoceras",
+                                                                      "commonName": "Short-legged Rhinos",
+                                                                      "commonNameZh": "短腿犀类",
+                                                                      "rank": "genus",
+                                                                      "taxonId": "txn:43226",
+                                                                      "firstAppearance": 16,
+                                                                      "lastAppearance": 4.5,
+                                                                      "extinct": true,
+                                                                      "children": [],
+                                                                      "entityKind": "taxon",
+                                                                      "contentLevel": "full-profile"
+                                                                    },
+                                                                    {
+                                                                      "id": "coelodonta",
+                                                                      "name": "Coelodonta",
+                                                                      "commonName": "Woolly Rhinoceroses",
+                                                                      "commonNameZh": "披毛犀类",
+                                                                      "rank": "genus",
+                                                                      "taxonId": "txn:43197",
+                                                                      "firstAppearance": 3.6,
+                                                                      "lastAppearance": 0.014,
+                                                                      "extinct": true,
+                                                                      "children": [],
+                                                                      "entityKind": "taxon",
+                                                                      "contentLevel": "full-profile"
+                                                                    }
+                                                                  ],
+                                                                  "entityKind": "taxon",
+                                                                  "contentLevel": "dossier"
+                                                                }
+                                                              ],
+                                                              "entityKind": "taxon",
+                                                              "contentLevel": "dossier"
+                                                            }
+                                                          ],
+                                                          "entityKind": "taxon",
+                                                          "contentLevel": "dossier"
                                                         }
-                                                      ]
+                                                      ],
+                                                      "entityKind": "taxon",
+                                                      "contentLevel": "full-profile"
                                                     },
                                                     {
-                                                      "id": "ceratomorpha",
-                                                      "name": "Ceratomorpha",
-                                                      "commonName": "Tapir and Rhino Line",
-                                                      "commonNameZh": "貘—犀支系",
-                                                      "rank": "suborder",
-                                                      "taxonId": "",
+                                                      "id": "carnivora",
+                                                      "name": "Carnivora",
+                                                      "commonName": "Carnivorans",
+                                                      "commonNameZh": "食肉类",
+                                                      "rank": "order",
+                                                      "taxonId": "txn:36905",
                                                       "firstAppearance": 56,
                                                       "lastAppearance": 0,
                                                       "extinct": false,
                                                       "children": [
                                                         {
-                                                          "id": "tapiroidea",
-                                                          "name": "Tapiroidea",
-                                                          "commonName": "Tapirs and Relatives",
-                                                          "commonNameZh": "貘及其近亲",
-                                                          "rank": "superfamily",
-                                                          "taxonId": "txn:43104",
-                                                          "firstAppearance": 55,
-                                                          "lastAppearance": 0,
-                                                          "extinct": false,
-                                                          "children": []
-                                                        },
-                                                        {
-                                                          "id": "rhinocerotoidea",
-                                                          "name": "Rhinocerotoidea",
-                                                          "commonName": "Rhinos and Relatives",
-                                                          "commonNameZh": "犀牛及其近亲",
-                                                          "rank": "superfamily",
-                                                          "taxonId": "txn:43140",
-                                                          "firstAppearance": 54,
+                                                          "id": "felidae",
+                                                          "name": "Felidae",
+                                                          "commonName": "Cats",
+                                                          "commonNameZh": "猫科",
+                                                          "rank": "family",
+                                                          "taxonId": "txn:41045",
+                                                          "firstAppearance": 30,
                                                           "lastAppearance": 0,
                                                           "extinct": false,
                                                           "children": [
                                                             {
-                                                              "id": "metamynodon",
-                                                              "name": "Metamynodon",
-                                                              "commonName": "Amynodont Rhinos",
-                                                              "commonNameZh": "两栖犀类",
+                                                              "id": "smilodon",
+                                                              "name": "Smilodon",
+                                                              "commonName": "Saber-toothed Cat",
+                                                              "commonNameZh": "剑齿虎",
                                                               "rank": "genus",
-                                                              "taxonId": "txn:43179",
-                                                              "firstAppearance": 40.4,
-                                                              "lastAppearance": 23,
+                                                              "taxonId": "txn:41079",
+                                                              "firstAppearance": 2.5,
+                                                              "lastAppearance": 0.01,
                                                               "extinct": true,
-                                                              "children": []
-                                                            },
+                                                              "children": [],
+                                                              "entityKind": "taxon",
+                                                              "contentLevel": "dossier"
+                                                            }
+                                                          ],
+                                                          "entityKind": "taxon",
+                                                          "contentLevel": "dossier"
+                                                        },
+                                                        {
+                                                          "id": "canidae",
+                                                          "name": "Canidae",
+                                                          "commonName": "Dogs & Wolves",
+                                                          "commonNameZh": "犬与狼",
+                                                          "rank": "family",
+                                                          "taxonId": "txn:41189",
+                                                          "firstAppearance": 40,
+                                                          "lastAppearance": 0,
+                                                          "extinct": false,
+                                                          "children": [],
+                                                          "entityKind": "taxon",
+                                                          "contentLevel": "dossier"
+                                                        }
+                                                      ],
+                                                      "entityKind": "taxon",
+                                                      "contentLevel": "dossier"
+                                                    },
+                                                    {
+                                                      "id": "cetacea",
+                                                      "name": "Cetacea",
+                                                      "commonName": "Whales & Dolphins",
+                                                      "commonNameZh": "鲸与海豚",
+                                                      "rank": "order",
+                                                      "taxonId": "txn:36652",
+                                                      "firstAppearance": 53,
+                                                      "lastAppearance": 0,
+                                                      "extinct": false,
+                                                      "children": [
+                                                        {
+                                                          "id": "basilosauridae",
+                                                          "name": "Basilosauridae",
+                                                          "commonName": "Basilosaurids",
+                                                          "commonNameZh": "龙王鲸类",
+                                                          "rank": "family",
+                                                          "taxonId": "txn:42936",
+                                                          "firstAppearance": 41,
+                                                          "lastAppearance": 34,
+                                                          "extinct": true,
+                                                          "children": [],
+                                                          "entityKind": "taxon",
+                                                          "contentLevel": "dossier"
+                                                        }
+                                                      ],
+                                                      "entityKind": "taxon",
+                                                      "contentLevel": "dossier"
+                                                    },
+                                                    {
+                                                      "id": "primates",
+                                                      "name": "Primates",
+                                                      "commonName": "Primates",
+                                                      "commonNameZh": "灵长类",
+                                                      "rank": "order",
+                                                      "taxonId": "txn:40700",
+                                                      "firstAppearance": 66,
+                                                      "lastAppearance": 0,
+                                                      "extinct": false,
+                                                      "children": [
+                                                        {
+                                                          "id": "hominidae",
+                                                          "name": "Hominidae",
+                                                          "commonName": "Great Apes & Humans",
+                                                          "commonNameZh": "大型类人猿与人类",
+                                                          "rank": "family",
+                                                          "taxonId": "txn:40899",
+                                                          "firstAppearance": 20,
+                                                          "lastAppearance": 0,
+                                                          "extinct": false,
+                                                          "children": [
                                                             {
-                                                              "id": "paraceratherium",
-                                                              "name": "Paraceratherium",
-                                                              "commonName": "Giant Rhinos",
-                                                              "commonNameZh": "巨犀类",
+                                                              "id": "homo",
+                                                              "name": "Homo",
+                                                              "commonName": "Humans & Relatives",
+                                                              "commonNameZh": "人属及其近亲",
                                                               "rank": "genus",
-                                                              "taxonId": "txn:43161",
-                                                              "firstAppearance": 34,
-                                                              "lastAppearance": 20,
-                                                              "extinct": true,
-                                                              "children": []
-                                                            },
-                                                            {
-                                                              "id": "rhinocerotidae",
-                                                              "name": "Rhinocerotidae",
-                                                              "commonName": "True Rhinoceroses",
-                                                              "commonNameZh": "真犀牛类",
-                                                              "rank": "family",
-                                                              "taxonId": "txn:43187",
-                                                              "firstAppearance": 40,
+                                                              "taxonId": "txn:40901",
+                                                              "firstAppearance": 2.8,
                                                               "lastAppearance": 0,
                                                               "extinct": false,
                                                               "children": [
                                                                 {
-                                                                  "id": "teleoceras",
-                                                                  "name": "Teleoceras",
-                                                                  "commonName": "Short-legged Rhinos",
-                                                                  "commonNameZh": "短腿犀类",
-                                                                  "rank": "genus",
-                                                                  "taxonId": "txn:43226",
-                                                                  "firstAppearance": 16,
-                                                                  "lastAppearance": 4.5,
-                                                                  "extinct": true,
-                                                                  "children": []
+                                                                  "id": "homo_sapiens",
+                                                                  "name": "Homo sapiens",
+                                                                  "commonName": "Modern Humans",
+                                                                  "commonNameZh": "现代人类",
+                                                                  "rank": "species",
+                                                                  "taxonId": "txn:83088",
+                                                                  "firstAppearance": 0.3,
+                                                                  "lastAppearance": 0,
+                                                                  "extinct": false,
+                                                                  "children": [],
+                                                                  "entityKind": "taxon",
+                                                                  "contentLevel": "dossier"
                                                                 },
                                                                 {
-                                                                  "id": "coelodonta",
-                                                                  "name": "Coelodonta",
-                                                                  "commonName": "Woolly Rhinoceroses",
-                                                                  "commonNameZh": "披毛犀类",
-                                                                  "rank": "genus",
-                                                                  "taxonId": "txn:43197",
-                                                                  "firstAppearance": 3.6,
-                                                                  "lastAppearance": 0.014,
+                                                                  "id": "homo_neanderthalensis",
+                                                                  "name": "Homo neanderthalensis",
+                                                                  "commonName": "Neanderthals",
+                                                                  "commonNameZh": "尼安德特人",
+                                                                  "rank": "species",
+                                                                  "taxonId": "txn:83087",
+                                                                  "firstAppearance": 0.4,
+                                                                  "lastAppearance": 0.04,
                                                                   "extinct": true,
-                                                                  "children": []
+                                                                  "children": [],
+                                                                  "entityKind": "taxon",
+                                                                  "contentLevel": "dossier"
                                                                 }
-                                                              ]
+                                                              ],
+                                                              "entityKind": "taxon",
+                                                              "contentLevel": "dossier"
                                                             }
-                                                          ]
+                                                          ],
+                                                          "entityKind": "taxon",
+                                                          "contentLevel": "dossier"
                                                         }
-                                                      ]
-                                                    }
-                                                  ]
-                                                },
-                                                {
-                                                  "id": "carnivora",
-                                                  "name": "Carnivora",
-                                                  "commonName": "Carnivorans",
-                                                  "commonNameZh": "食肉类",
-                                                  "rank": "order",
-                                                  "taxonId": "txn:36905",
-                                                  "firstAppearance": 56,
-                                                  "lastAppearance": 0,
-                                                  "extinct": false,
-                                                  "children": [
-                                                    {
-                                                      "id": "felidae",
-                                                      "name": "Felidae",
-                                                      "commonName": "Cats",
-                                                      "commonNameZh": "猫科",
-                                                      "rank": "family",
-                                                      "taxonId": "txn:41045",
-                                                      "firstAppearance": 30,
-                                                      "lastAppearance": 0,
-                                                      "extinct": false,
-                                                      "children": [
-                                                        {
-                                                          "id": "smilodon",
-                                                          "name": "Smilodon",
-                                                          "commonName": "Saber-toothed Cat",
-                                                          "commonNameZh": "剑齿虎",
-                                                          "rank": "genus",
-                                                          "taxonId": "txn:41079",
-                                                          "firstAppearance": 2.5,
-                                                          "lastAppearance": 0.01,
-                                                          "extinct": true,
-                                                          "children": []
-                                                        }
-                                                      ]
+                                                      ],
+                                                      "entityKind": "taxon",
+                                                      "contentLevel": "dossier"
                                                     },
                                                     {
-                                                      "id": "canidae",
-                                                      "name": "Canidae",
-                                                      "commonName": "Dogs & Wolves",
-                                                      "commonNameZh": "犬与狼",
-                                                      "rank": "family",
-                                                      "taxonId": "txn:41189",
-                                                      "firstAppearance": 40,
-                                                      "lastAppearance": 0,
-                                                      "extinct": false,
-                                                      "children": []
-                                                    }
-                                                  ]
-                                                },
-                                                {
-                                                  "id": "cetacea",
-                                                  "name": "Cetacea",
-                                                  "commonName": "Whales & Dolphins",
-                                                  "commonNameZh": "鲸与海豚",
-                                                  "rank": "order",
-                                                  "taxonId": "txn:36652",
-                                                  "firstAppearance": 53,
-                                                  "lastAppearance": 0,
-                                                  "extinct": false,
-                                                  "children": [
-                                                    {
-                                                      "id": "basilosauridae",
-                                                      "name": "Basilosauridae",
-                                                      "commonName": "Basilosaurids",
-                                                      "commonNameZh": "龙王鲸类",
-                                                      "rank": "family",
-                                                      "taxonId": "txn:42936",
-                                                      "firstAppearance": 41,
-                                                      "lastAppearance": 34,
-                                                      "extinct": true,
-                                                      "children": []
-                                                    }
-                                                  ]
-                                                },
-                                                {
-                                                  "id": "primates",
-                                                  "name": "Primates",
-                                                  "commonName": "Primates",
-                                                  "commonNameZh": "灵长类",
-                                                  "rank": "order",
-                                                  "taxonId": "txn:40700",
-                                                  "firstAppearance": 66,
-                                                  "lastAppearance": 0,
-                                                  "extinct": false,
-                                                  "children": [
-                                                    {
-                                                      "id": "hominidae",
-                                                      "name": "Hominidae",
-                                                      "commonName": "Great Apes & Humans",
-                                                      "commonNameZh": "大型类人猿与人类",
-                                                      "rank": "family",
-                                                      "taxonId": "txn:40899",
-                                                      "firstAppearance": 20,
+                                                      "id": "proboscidea",
+                                                      "name": "Proboscidea",
+                                                      "commonName": "Elephants & Relatives",
+                                                      "commonNameZh": "象及其近亲",
+                                                      "rank": "order",
+                                                      "taxonId": "txn:43230",
+                                                      "firstAppearance": 56,
                                                       "lastAppearance": 0,
                                                       "extinct": false,
                                                       "children": [
                                                         {
-                                                          "id": "homo",
-                                                          "name": "Homo",
-                                                          "commonName": "Humans & Relatives",
-                                                          "commonNameZh": "人属及其近亲",
+                                                          "id": "mammuthus",
+                                                          "name": "Mammuthus",
+                                                          "commonName": "Mammoths",
+                                                          "commonNameZh": "猛犸象",
                                                           "rank": "genus",
-                                                          "taxonId": "txn:40901",
-                                                          "firstAppearance": 2.8,
-                                                          "lastAppearance": 0,
-                                                          "extinct": false,
-                                                          "children": [
-                                                            {
-                                                              "id": "homo_sapiens",
-                                                              "name": "Homo sapiens",
-                                                              "commonName": "Modern Humans",
-                                                              "commonNameZh": "现代人类",
-                                                              "rank": "species",
-                                                              "taxonId": "txn:83088",
-                                                              "firstAppearance": 0.3,
-                                                              "lastAppearance": 0,
-                                                              "extinct": false,
-                                                              "children": []
-                                                            },
-                                                            {
-                                                              "id": "homo_neanderthalensis",
-                                                              "name": "Homo neanderthalensis",
-                                                              "commonName": "Neanderthals",
-                                                              "commonNameZh": "尼安德特人",
-                                                              "rank": "species",
-                                                              "taxonId": "txn:83087",
-                                                              "firstAppearance": 0.4,
-                                                              "lastAppearance": 0.04,
-                                                              "extinct": true,
-                                                              "children": []
-                                                            }
-                                                          ]
+                                                          "taxonId": "txn:43266",
+                                                          "firstAppearance": 5,
+                                                          "lastAppearance": 0.004,
+                                                          "extinct": true,
+                                                          "children": [],
+                                                          "entityKind": "taxon",
+                                                          "contentLevel": "dossier"
                                                         }
-                                                      ]
-                                                    }
-                                                  ]
-                                                },
-                                                {
-                                                  "id": "proboscidea",
-                                                  "name": "Proboscidea",
-                                                  "commonName": "Elephants & Relatives",
-                                                  "commonNameZh": "象及其近亲",
-                                                  "rank": "order",
-                                                  "taxonId": "txn:43230",
-                                                  "firstAppearance": 56,
-                                                  "lastAppearance": 0,
-                                                  "extinct": false,
-                                                  "children": [
+                                                      ],
+                                                      "entityKind": "taxon",
+                                                      "contentLevel": "dossier"
+                                                    },
                                                     {
-                                                      "id": "mammuthus",
-                                                      "name": "Mammuthus",
-                                                      "commonName": "Mammoths",
-                                                      "commonNameZh": "猛犸象",
-                                                      "rank": "genus",
-                                                      "taxonId": "txn:43266",
-                                                      "firstAppearance": 5,
-                                                      "lastAppearance": 0.004,
-                                                      "extinct": true,
-                                                      "children": []
+                                                      "id": "chiroptera",
+                                                      "name": "Chiroptera",
+                                                      "commonName": "Bats",
+                                                      "commonNameZh": "蝙蝠",
+                                                      "rank": "order",
+                                                      "taxonId": "txn:40622",
+                                                      "firstAppearance": 52,
+                                                      "lastAppearance": 0,
+                                                      "extinct": false,
+                                                      "children": [],
+                                                      "entityKind": "taxon",
+                                                      "contentLevel": "dossier"
+                                                    },
+                                                    {
+                                                      "id": "rodentia",
+                                                      "name": "Rodentia",
+                                                      "commonName": "Rodents",
+                                                      "commonNameZh": "啮齿类",
+                                                      "rank": "order",
+                                                      "taxonId": "txn:41370",
+                                                      "firstAppearance": 56,
+                                                      "lastAppearance": 0,
+                                                      "extinct": false,
+                                                      "children": [],
+                                                      "entityKind": "taxon",
+                                                      "contentLevel": "dossier"
                                                     }
-                                                  ]
-                                                },
-                                                {
-                                                  "id": "chiroptera",
-                                                  "name": "Chiroptera",
-                                                  "commonName": "Bats",
-                                                  "commonNameZh": "蝙蝠",
-                                                  "rank": "order",
-                                                  "taxonId": "txn:40622",
-                                                  "firstAppearance": 52,
-                                                  "lastAppearance": 0,
-                                                  "extinct": false,
-                                                  "children": []
-                                                },
-                                                {
-                                                  "id": "rodentia",
-                                                  "name": "Rodentia",
-                                                  "commonName": "Rodents",
-                                                  "commonNameZh": "啮齿类",
-                                                  "rank": "order",
-                                                  "taxonId": "txn:41370",
-                                                  "firstAppearance": 56,
-                                                  "lastAppearance": 0,
-                                                  "extinct": false,
-                                                  "children": []
+                                                  ],
+                                                  "entityKind": "taxon",
+                                                  "contentLevel": "dossier"
                                                 }
-                                              ]
+                                              ],
+                                              "entityKind": "taxon",
+                                              "contentLevel": "dossier"
                                             }
-                                          ]
+                                          ],
+                                          "entityKind": "taxon",
+                                          "contentLevel": "dossier"
                                         }
-                                      ]
+                                      ],
+                                      "entityKind": "taxon",
+                                      "contentLevel": "dossier"
                                     }
-                                  ]
-                                }
-                              ]
-                            },
-                            {
-                              "id": "sauropsida",
-                              "name": "Sauropsida",
-                              "commonName": "Reptiles & Birds",
-                              "commonNameZh": "爬行动物与鸟类",
-                              "rank": "class",
-                              "taxonId": "",
-                              "firstAppearance": 312,
-                              "lastAppearance": 0,
-                              "extinct": false,
-                              "children": [
+                                  ],
+                                  "entityKind": "taxon",
+                                  "contentLevel": "dossier"
+                                },
                                 {
-                                  "id": "testudines",
-                                  "name": "Testudines",
-                                  "commonName": "Turtles & Tortoises",
-                                  "commonNameZh": "龟鳖类",
-                                  "rank": "order",
-                                  "taxonId": "txn:56475",
-                                  "firstAppearance": 220,
+                                  "id": "sauropsida",
+                                  "name": "Sauropsida",
+                                  "commonName": "Reptiles & Birds",
+                                  "commonNameZh": "爬行动物与鸟类",
+                                  "rank": "class",
+                                  "taxonId": "",
+                                  "firstAppearance": 312,
                                   "lastAppearance": 0,
                                   "extinct": false,
-                                  "children": []
-                                },
-                                {
-                                  "id": "ichthyosauria",
-                                  "name": "Ichthyosauria",
-                                  "commonName": "Ichthyosaurs",
-                                  "commonNameZh": "鱼龙类",
-                                  "rank": "order",
-                                  "taxonId": "",
-                                  "firstAppearance": 250,
-                                  "lastAppearance": 90,
-                                  "extinct": true,
                                   "children": [
                                     {
-                                      "id": "ichthyosaurus",
-                                      "name": "Ichthyosaurus",
-                                      "commonName": "Ichthyosaurus",
-                                      "commonNameZh": "鱼龙",
-                                      "rank": "genus",
-                                      "taxonId": "txn:36558",
-                                      "firstAppearance": 200,
-                                      "lastAppearance": 190,
+                                      "id": "testudines",
+                                      "name": "Testudines",
+                                      "commonName": "Turtles & Tortoises",
+                                      "commonNameZh": "龟鳖类",
+                                      "rank": "order",
+                                      "taxonId": "txn:56475",
+                                      "firstAppearance": 220,
+                                      "lastAppearance": 0,
+                                      "extinct": false,
+                                      "children": [],
+                                      "entityKind": "taxon",
+                                      "contentLevel": "dossier"
+                                    },
+                                    {
+                                      "id": "ichthyosauria",
+                                      "name": "Ichthyosauria",
+                                      "commonName": "Ichthyosaurs",
+                                      "commonNameZh": "鱼龙类",
+                                      "rank": "order",
+                                      "taxonId": "",
+                                      "firstAppearance": 250,
+                                      "lastAppearance": 90,
                                       "extinct": true,
-                                      "children": []
-                                    }
-                                  ]
-                                },
-                                {
-                                  "id": "plesiosauria",
-                                  "name": "Plesiosauria",
-                                  "commonName": "Plesiosaurs",
-                                  "commonNameZh": "蛇颈龙类",
-                                  "rank": "order",
-                                  "taxonId": "txn:36454",
-                                  "firstAppearance": 228,
-                                  "lastAppearance": 66,
-                                  "extinct": true,
-                                  "children": [
+                                      "children": [
+                                        {
+                                          "id": "ichthyosaurus",
+                                          "name": "Ichthyosaurus",
+                                          "commonName": "Ichthyosaurus",
+                                          "commonNameZh": "鱼龙",
+                                          "rank": "genus",
+                                          "taxonId": "txn:36558",
+                                          "firstAppearance": 200,
+                                          "lastAppearance": 190,
+                                          "extinct": true,
+                                          "children": [],
+                                          "entityKind": "taxon",
+                                          "contentLevel": "dossier"
+                                        }
+                                      ],
+                                      "entityKind": "taxon",
+                                      "contentLevel": "dossier"
+                                    },
                                     {
-                                      "id": "elasmosauridae",
-                                      "name": "Elasmosauridae",
-                                      "commonName": "Elasmosaurs",
-                                      "commonNameZh": "薄板龙类",
-                                      "rank": "family",
-                                      "taxonId": "txn:38175",
-                                      "firstAppearance": 130,
+                                      "id": "plesiosauria",
+                                      "name": "Plesiosauria",
+                                      "commonName": "Plesiosaurs",
+                                      "commonNameZh": "蛇颈龙类",
+                                      "rank": "order",
+                                      "taxonId": "txn:36454",
+                                      "firstAppearance": 228,
                                       "lastAppearance": 66,
                                       "extinct": true,
-                                      "children": []
-                                    }
-                                  ]
-                                },
-                                {
-                                  "id": "lepidosauria",
-                                  "name": "Lepidosauria",
-                                  "commonName": "Lizards & Snakes",
-                                  "commonNameZh": "蜥蜴与蛇",
-                                  "rank": "superorder",
-                                  "taxonId": "txn:95312",
-                                  "firstAppearance": 240,
-                                  "lastAppearance": 0,
-                                  "extinct": false,
-                                  "children": [
+                                      "children": [
+                                        {
+                                          "id": "elasmosauridae",
+                                          "name": "Elasmosauridae",
+                                          "commonName": "Elasmosaurs",
+                                          "commonNameZh": "薄板龙类",
+                                          "rank": "family",
+                                          "taxonId": "txn:38175",
+                                          "firstAppearance": 130,
+                                          "lastAppearance": 66,
+                                          "extinct": true,
+                                          "children": [],
+                                          "entityKind": "taxon",
+                                          "contentLevel": "dossier"
+                                        }
+                                      ],
+                                      "entityKind": "taxon",
+                                      "contentLevel": "dossier"
+                                    },
                                     {
-                                      "id": "squamata",
-                                      "name": "Squamata",
+                                      "id": "lepidosauria",
+                                      "name": "Lepidosauria",
                                       "commonName": "Lizards & Snakes",
                                       "commonNameZh": "蜥蜴与蛇",
-                                      "rank": "order",
-                                      "taxonId": "",
-                                      "firstAppearance": 201.4,
-                                      "lastAppearance": 0,
-                                      "extinct": false,
-                                      "children": []
-                                    },
-                                    {
-                                      "id": "mosasauridae",
-                                      "name": "Mosasauridae",
-                                      "commonName": "Mosasaurs",
-                                      "commonNameZh": "沧龙类",
-                                      "rank": "family",
-                                      "taxonId": "txn:38049",
-                                      "firstAppearance": 101,
-                                      "lastAppearance": 66,
-                                      "extinct": true,
-                                      "children": []
-                                    }
-                                  ]
-                                },
-                                {
-                                  "id": "archosauria",
-                                  "name": "Archosauria",
-                                  "commonName": "Archosaurs",
-                                  "commonNameZh": "主龙类",
-                                  "rank": "infraclass",
-                                  "taxonId": "",
-                                  "firstAppearance": 250,
-                                  "lastAppearance": 0,
-                                  "extinct": false,
-                                  "children": [
-                                    {
-                                      "id": "crocodylomorpha",
-                                      "name": "Crocodylomorpha",
-                                      "commonName": "Crocodilians",
-                                      "commonNameZh": "鳄形类",
                                       "rank": "superorder",
-                                      "taxonId": "",
-                                      "firstAppearance": 228,
-                                      "lastAppearance": 0,
-                                      "extinct": false,
-                                      "children": []
-                                    },
-                                    {
-                                      "id": "pterosauria",
-                                      "name": "Pterosauria",
-                                      "commonName": "Pterosaurs",
-                                      "commonNameZh": "翼龙类",
-                                      "rank": "order",
-                                      "taxonId": "txn:38461",
-                                      "firstAppearance": 228,
-                                      "lastAppearance": 66,
-                                      "extinct": true,
-                                      "children": [
-                                        {
-                                          "id": "pteranodontidae",
-                                          "name": "Pteranodontidae",
-                                          "commonName": "Pteranodons",
-                                          "commonNameZh": "无齿翼龙类",
-                                          "rank": "family",
-                                          "taxonId": "txn:52933",
-                                          "firstAppearance": 86,
-                                          "lastAppearance": 72,
-                                          "extinct": true,
-                                          "children": []
-                                        }
-                                      ]
-                                    },
-                                    {
-                                      "id": "dinosauria",
-                                      "name": "Dinosauria",
-                                      "commonName": "Dinosaurs",
-                                      "commonNameZh": "恐龙",
-                                      "rank": "superorder",
-                                      "taxonId": "",
-                                      "firstAppearance": 233,
+                                      "taxonId": "txn:95312",
+                                      "firstAppearance": 240,
                                       "lastAppearance": 0,
                                       "extinct": false,
                                       "children": [
                                         {
-                                          "id": "ornithischia",
-                                          "name": "Ornithischia",
-                                          "commonName": "Ornithischians",
-                                          "commonNameZh": "鸟臀类",
+                                          "id": "squamata",
+                                          "name": "Squamata",
+                                          "commonName": "Lizards & Snakes",
+                                          "commonNameZh": "蜥蜴与蛇",
                                           "rank": "order",
                                           "taxonId": "",
+                                          "firstAppearance": 201.4,
+                                          "lastAppearance": 0,
+                                          "extinct": false,
+                                          "children": [],
+                                          "entityKind": "taxon",
+                                          "contentLevel": "dossier"
+                                        },
+                                        {
+                                          "id": "mosasauridae",
+                                          "name": "Mosasauridae",
+                                          "commonName": "Mosasaurs",
+                                          "commonNameZh": "沧龙类",
+                                          "rank": "family",
+                                          "taxonId": "txn:38049",
+                                          "firstAppearance": 101,
+                                          "lastAppearance": 66,
+                                          "extinct": true,
+                                          "children": [],
+                                          "entityKind": "taxon",
+                                          "contentLevel": "dossier"
+                                        }
+                                      ],
+                                      "entityKind": "taxon",
+                                      "contentLevel": "dossier"
+                                    },
+                                    {
+                                      "id": "archosauria",
+                                      "name": "Archosauria",
+                                      "commonName": "Archosaurs",
+                                      "commonNameZh": "主龙类",
+                                      "rank": "infraclass",
+                                      "taxonId": "",
+                                      "firstAppearance": 250,
+                                      "lastAppearance": 0,
+                                      "extinct": false,
+                                      "children": [
+                                        {
+                                          "id": "crocodylomorpha",
+                                          "name": "Crocodylomorpha",
+                                          "commonName": "Crocodilians",
+                                          "commonNameZh": "鳄形类",
+                                          "rank": "superorder",
+                                          "taxonId": "",
+                                          "firstAppearance": 228,
+                                          "lastAppearance": 0,
+                                          "extinct": false,
+                                          "children": [],
+                                          "entityKind": "taxon",
+                                          "contentLevel": "dossier"
+                                        },
+                                        {
+                                          "id": "pterosauria",
+                                          "name": "Pterosauria",
+                                          "commonName": "Pterosaurs",
+                                          "commonNameZh": "翼龙类",
+                                          "rank": "order",
+                                          "taxonId": "txn:38461",
                                           "firstAppearance": 228,
                                           "lastAppearance": 66,
                                           "extinct": true,
                                           "children": [
                                             {
-                                              "id": "stegosauria",
-                                              "name": "Stegosauria",
-                                              "commonName": "Stegosaurs",
-                                              "commonNameZh": "剑龙类",
-                                              "rank": "suborder",
-                                              "taxonId": "",
-                                              "firstAppearance": 170,
-                                              "lastAppearance": 140,
-                                              "extinct": true,
-                                              "children": []
-                                            },
-                                            {
-                                              "id": "ankylosauria",
-                                              "name": "Ankylosauria",
-                                              "commonName": "Ankylosaurs",
-                                              "commonNameZh": "甲龙类",
-                                              "rank": "suborder",
-                                              "taxonId": "",
-                                              "firstAppearance": 170,
-                                              "lastAppearance": 66,
-                                              "extinct": true,
-                                              "children": [
-                                                {
-                                                  "id": "ankylosaurus",
-                                                  "name": "Ankylosaurus",
-                                                  "commonName": "Ankylosaurus",
-                                                  "commonNameZh": "甲龙",
-                                                  "rank": "genus",
-                                                  "taxonId": "txn:38837",
-                                                  "firstAppearance": 68,
-                                                  "lastAppearance": 66,
-                                                  "extinct": true,
-                                                  "children": []
-                                                }
-                                              ]
-                                            },
-                                            {
-                                              "id": "ceratopsia",
-                                              "name": "Ceratopsia",
-                                              "commonName": "Ceratopsians",
-                                              "commonNameZh": "角龙类",
-                                              "rank": "suborder",
-                                              "taxonId": "txn:38842",
-                                              "firstAppearance": 161,
-                                              "lastAppearance": 66,
-                                              "extinct": true,
-                                              "children": [
-                                                {
-                                                  "id": "triceratops",
-                                                  "name": "Triceratops",
-                                                  "commonName": "Triceratops",
-                                                  "commonNameZh": "三角龙",
-                                                  "rank": "genus",
-                                                  "taxonId": "txn:38862",
-                                                  "firstAppearance": 68,
-                                                  "lastAppearance": 66,
-                                                  "extinct": true,
-                                                  "children": []
-                                                }
-                                              ]
-                                            },
-                                            {
-                                              "id": "hadrosauridae",
-                                              "name": "Hadrosauridae",
-                                              "commonName": "Duck-billed Dinosaurs",
-                                              "commonNameZh": "鸭嘴龙类",
+                                              "id": "pteranodontidae",
+                                              "name": "Pteranodontidae",
+                                              "commonName": "Pteranodons",
+                                              "commonNameZh": "无齿翼龙类",
                                               "rank": "family",
-                                              "taxonId": "txn:38755",
-                                              "firstAppearance": 100,
-                                              "lastAppearance": 66,
+                                              "taxonId": "txn:52933",
+                                              "firstAppearance": 86,
+                                              "lastAppearance": 72,
                                               "extinct": true,
-                                              "children": [
-                                                {
-                                                  "id": "edmontosaurus",
-                                                  "name": "Edmontosaurus",
-                                                  "commonName": "Edmontosaurus",
-                                                  "commonNameZh": "埃德蒙顿龙",
-                                                  "rank": "genus",
-                                                  "taxonId": "txn:38761",
-                                                  "firstAppearance": 73,
-                                                  "lastAppearance": 66,
-                                                  "extinct": true,
-                                                  "children": []
-                                                }
-                                              ]
+                                              "children": [],
+                                              "entityKind": "taxon",
+                                              "contentLevel": "dossier"
                                             }
-                                          ]
+                                          ],
+                                          "entityKind": "taxon",
+                                          "contentLevel": "dossier"
                                         },
                                         {
-                                          "id": "saurischia",
-                                          "name": "Saurischia",
-                                          "commonName": "Saurischians",
-                                          "commonNameZh": "蜥臀类",
-                                          "rank": "order",
+                                          "id": "dinosauria",
+                                          "name": "Dinosauria",
+                                          "commonName": "Dinosaurs",
+                                          "commonNameZh": "恐龙",
+                                          "rank": "superorder",
                                           "taxonId": "",
                                           "firstAppearance": 233,
                                           "lastAppearance": 0,
                                           "extinct": false,
                                           "children": [
                                             {
-                                              "id": "sauropodomorpha",
-                                              "name": "Sauropodomorpha",
-                                              "commonName": "Sauropods",
-                                              "commonNameZh": "蜥脚类",
-                                              "rank": "suborder",
+                                              "id": "ornithischia",
+                                              "name": "Ornithischia",
+                                              "commonName": "Ornithischians",
+                                              "commonNameZh": "鸟臀类",
+                                              "rank": "order",
                                               "taxonId": "",
                                               "firstAppearance": 228,
                                               "lastAppearance": 66,
                                               "extinct": true,
                                               "children": [
                                                 {
-                                                  "id": "brachiosauridae",
-                                                  "name": "Brachiosauridae",
-                                                  "commonName": "Brachiosaurs",
-                                                  "commonNameZh": "腕龙类",
-                                                  "rank": "family",
-                                                  "taxonId": "txn:38673",
-                                                  "firstAppearance": 165,
-                                                  "lastAppearance": 145,
-                                                  "extinct": true,
-                                                  "children": []
-                                                },
-                                                {
-                                                  "id": "diplodocidae",
-                                                  "name": "Diplodocidae",
-                                                  "commonName": "Diplodocids",
-                                                  "commonNameZh": "梁龙类",
-                                                  "rank": "family",
+                                                  "id": "stegosauria",
+                                                  "name": "Stegosauria",
+                                                  "commonName": "Stegosaurs",
+                                                  "commonNameZh": "剑龙类",
+                                                  "rank": "suborder",
                                                   "taxonId": "",
-                                                  "firstAppearance": 155,
-                                                  "lastAppearance": 145,
+                                                  "firstAppearance": 170,
+                                                  "lastAppearance": 140,
                                                   "extinct": true,
-                                                  "children": []
+                                                  "children": [],
+                                                  "entityKind": "taxon",
+                                                  "contentLevel": "dossier"
                                                 },
                                                 {
-                                                  "id": "titanosauria",
-                                                  "name": "Titanosauria",
-                                                  "commonName": "Titanosaurs",
-                                                  "commonNameZh": "泰坦巨龙类",
-                                                  "rank": "clade",
-                                                  "taxonId": "txn:55585",
-                                                  "firstAppearance": 145,
+                                                  "id": "ankylosauria",
+                                                  "name": "Ankylosauria",
+                                                  "commonName": "Ankylosaurs",
+                                                  "commonNameZh": "甲龙类",
+                                                  "rank": "suborder",
+                                                  "taxonId": "",
+                                                  "firstAppearance": 170,
                                                   "lastAppearance": 66,
                                                   "extinct": true,
-                                                  "children": []
+                                                  "children": [
+                                                    {
+                                                      "id": "ankylosaurus",
+                                                      "name": "Ankylosaurus",
+                                                      "commonName": "Ankylosaurus",
+                                                      "commonNameZh": "甲龙",
+                                                      "rank": "genus",
+                                                      "taxonId": "txn:38837",
+                                                      "firstAppearance": 68,
+                                                      "lastAppearance": 66,
+                                                      "extinct": true,
+                                                      "children": [],
+                                                      "entityKind": "taxon",
+                                                      "contentLevel": "dossier"
+                                                    }
+                                                  ],
+                                                  "entityKind": "taxon",
+                                                  "contentLevel": "dossier"
+                                                },
+                                                {
+                                                  "id": "ceratopsia",
+                                                  "name": "Ceratopsia",
+                                                  "commonName": "Ceratopsians",
+                                                  "commonNameZh": "角龙类",
+                                                  "rank": "suborder",
+                                                  "taxonId": "txn:38842",
+                                                  "firstAppearance": 161,
+                                                  "lastAppearance": 66,
+                                                  "extinct": true,
+                                                  "children": [
+                                                    {
+                                                      "id": "triceratops",
+                                                      "name": "Triceratops",
+                                                      "commonName": "Triceratops",
+                                                      "commonNameZh": "三角龙",
+                                                      "rank": "genus",
+                                                      "taxonId": "txn:38862",
+                                                      "firstAppearance": 68,
+                                                      "lastAppearance": 66,
+                                                      "extinct": true,
+                                                      "children": [],
+                                                      "entityKind": "taxon",
+                                                      "contentLevel": "dossier"
+                                                    }
+                                                  ],
+                                                  "entityKind": "taxon",
+                                                  "contentLevel": "dossier"
+                                                },
+                                                {
+                                                  "id": "hadrosauridae",
+                                                  "name": "Hadrosauridae",
+                                                  "commonName": "Duck-billed Dinosaurs",
+                                                  "commonNameZh": "鸭嘴龙类",
+                                                  "rank": "family",
+                                                  "taxonId": "txn:38755",
+                                                  "firstAppearance": 100,
+                                                  "lastAppearance": 66,
+                                                  "extinct": true,
+                                                  "children": [
+                                                    {
+                                                      "id": "edmontosaurus",
+                                                      "name": "Edmontosaurus",
+                                                      "commonName": "Edmontosaurus",
+                                                      "commonNameZh": "埃德蒙顿龙",
+                                                      "rank": "genus",
+                                                      "taxonId": "txn:38761",
+                                                      "firstAppearance": 73,
+                                                      "lastAppearance": 66,
+                                                      "extinct": true,
+                                                      "children": [],
+                                                      "entityKind": "taxon",
+                                                      "contentLevel": "dossier"
+                                                    }
+                                                  ],
+                                                  "entityKind": "taxon",
+                                                  "contentLevel": "dossier"
                                                 }
-                                              ]
+                                              ],
+                                              "entityKind": "taxon",
+                                              "contentLevel": "dossier"
                                             },
                                             {
-                                              "id": "theropoda",
-                                              "name": "Theropoda",
-                                              "commonName": "Theropods",
-                                              "commonNameZh": "兽脚类",
-                                              "rank": "suborder",
+                                              "id": "saurischia",
+                                              "name": "Saurischia",
+                                              "commonName": "Saurischians",
+                                              "commonNameZh": "蜥臀类",
+                                              "rank": "order",
                                               "taxonId": "",
-                                              "firstAppearance": 228,
+                                              "firstAppearance": 233,
                                               "lastAppearance": 0,
                                               "extinct": false,
                                               "children": [
                                                 {
-                                                  "id": "tyrannosauridae",
-                                                  "name": "Tyrannosauridae",
-                                                  "commonName": "Tyrannosaurs",
-                                                  "commonNameZh": "暴龙类",
-                                                  "rank": "family",
-                                                  "taxonId": "txn:38606",
-                                                  "firstAppearance": 83,
+                                                  "id": "sauropodomorpha",
+                                                  "name": "Sauropodomorpha",
+                                                  "commonName": "Sauropods",
+                                                  "commonNameZh": "蜥脚类",
+                                                  "rank": "suborder",
+                                                  "taxonId": "",
+                                                  "firstAppearance": 228,
                                                   "lastAppearance": 66,
                                                   "extinct": true,
                                                   "children": [
                                                     {
-                                                      "id": "tyrannosaurus",
-                                                      "name": "Tyrannosaurus rex",
-                                                      "commonName": "T. rex",
-                                                      "commonNameZh": "霸王龙",
-                                                      "rank": "species",
-                                                      "taxonId": "txn:54833",
-                                                      "firstAppearance": 68,
+                                                      "id": "brachiosauridae",
+                                                      "name": "Brachiosauridae",
+                                                      "commonName": "Brachiosaurs",
+                                                      "commonNameZh": "腕龙类",
+                                                      "rank": "family",
+                                                      "taxonId": "txn:38673",
+                                                      "firstAppearance": 165,
+                                                      "lastAppearance": 145,
+                                                      "extinct": true,
+                                                      "children": [],
+                                                      "entityKind": "taxon",
+                                                      "contentLevel": "dossier"
+                                                    },
+                                                    {
+                                                      "id": "diplodocidae",
+                                                      "name": "Diplodocidae",
+                                                      "commonName": "Diplodocids",
+                                                      "commonNameZh": "梁龙类",
+                                                      "rank": "family",
+                                                      "taxonId": "",
+                                                      "firstAppearance": 155,
+                                                      "lastAppearance": 145,
+                                                      "extinct": true,
+                                                      "children": [],
+                                                      "entityKind": "taxon",
+                                                      "contentLevel": "dossier"
+                                                    },
+                                                    {
+                                                      "id": "titanosauria",
+                                                      "name": "Titanosauria",
+                                                      "commonName": "Titanosaurs",
+                                                      "commonNameZh": "泰坦巨龙类",
+                                                      "rank": "clade",
+                                                      "taxonId": "txn:55585",
+                                                      "firstAppearance": 145,
                                                       "lastAppearance": 66,
                                                       "extinct": true,
-                                                      "children": []
+                                                      "children": [],
+                                                      "entityKind": "taxon",
+                                                      "contentLevel": "dossier"
                                                     }
-                                                  ]
+                                                  ],
+                                                  "entityKind": "taxon",
+                                                  "contentLevel": "dossier"
                                                 },
                                                 {
-                                                  "id": "spinosauridae",
-                                                  "name": "Spinosauridae",
-                                                  "commonName": "Spinosaurids",
-                                                  "commonNameZh": "棘龙类",
-                                                  "rank": "family",
-                                                  "taxonId": "txn:38595",
-                                                  "firstAppearance": 139,
-                                                  "lastAppearance": 93,
-                                                  "extinct": true,
-                                                  "children": [
-                                                    {
-                                                      "id": "spinosaurus",
-                                                      "name": "Spinosaurus",
-                                                      "commonName": "Spinosaurus",
-                                                      "commonNameZh": "棘龙",
-                                                      "rank": "genus",
-                                                      "taxonId": "txn:38598",
-                                                      "firstAppearance": 112,
-                                                      "lastAppearance": 93,
-                                                      "extinct": true,
-                                                      "children": []
-                                                    }
-                                                  ]
-                                                },
-                                                {
-                                                  "id": "dromaeosauridae",
-                                                  "name": "Dromaeosauridae",
-                                                  "commonName": "Raptors",
-                                                  "commonNameZh": "驰龙类",
-                                                  "rank": "family",
-                                                  "taxonId": "txn:38561",
-                                                  "firstAppearance": 145,
-                                                  "lastAppearance": 66,
-                                                  "extinct": true,
-                                                  "children": [
-                                                    {
-                                                      "id": "velociraptor",
-                                                      "name": "Velociraptor",
-                                                      "commonName": "Velociraptor",
-                                                      "commonNameZh": "伶盗龙",
-                                                      "rank": "genus",
-                                                      "taxonId": "txn:38564",
-                                                      "firstAppearance": 75,
-                                                      "lastAppearance": 71,
-                                                      "extinct": true,
-                                                      "children": []
-                                                    }
-                                                  ]
-                                                },
-                                                {
-                                                  "id": "aves",
-                                                  "name": "Aves",
-                                                  "commonName": "Birds",
-                                                  "commonNameZh": "鸟类",
-                                                  "rank": "class",
-                                                  "taxonId": "txn:36616",
-                                                  "firstAppearance": 150,
+                                                  "id": "theropoda",
+                                                  "name": "Theropoda",
+                                                  "commonName": "Theropods",
+                                                  "commonNameZh": "兽脚类",
+                                                  "rank": "suborder",
+                                                  "taxonId": "",
+                                                  "firstAppearance": 228,
                                                   "lastAppearance": 0,
                                                   "extinct": false,
                                                   "children": [
                                                     {
-                                                      "id": "archaeopteryx",
-                                                      "name": "Archaeopteryx",
-                                                      "commonName": "Archaeopteryx",
-                                                      "commonNameZh": "始祖鸟",
-                                                      "rank": "genus",
-                                                      "taxonId": "txn:39240",
-                                                      "firstAppearance": 150,
-                                                      "lastAppearance": 148,
+                                                      "id": "tyrannosauridae",
+                                                      "name": "Tyrannosauridae",
+                                                      "commonName": "Tyrannosaurs",
+                                                      "commonNameZh": "暴龙类",
+                                                      "rank": "family",
+                                                      "taxonId": "txn:38606",
+                                                      "firstAppearance": 83,
+                                                      "lastAppearance": 66,
                                                       "extinct": true,
-                                                      "children": []
+                                                      "children": [
+                                                        {
+                                                          "id": "tyrannosaurus",
+                                                          "name": "Tyrannosaurus rex",
+                                                          "commonName": "T. rex",
+                                                          "commonNameZh": "霸王龙",
+                                                          "rank": "species",
+                                                          "taxonId": "txn:54833",
+                                                          "firstAppearance": 68,
+                                                          "lastAppearance": 66,
+                                                          "extinct": true,
+                                                          "children": [],
+                                                          "entityKind": "taxon",
+                                                          "contentLevel": "dossier"
+                                                        }
+                                                      ],
+                                                      "entityKind": "taxon",
+                                                      "contentLevel": "dossier"
                                                     },
                                                     {
-                                                      "id": "neornithes",
-                                                      "name": "Neornithes",
-                                                      "commonName": "Modern Birds",
-                                                      "commonNameZh": "今鸟类",
-                                                      "rank": "subclass",
-                                                      "taxonId": "txn:39241",
-                                                      "firstAppearance": 72,
+                                                      "id": "spinosauridae",
+                                                      "name": "Spinosauridae",
+                                                      "commonName": "Spinosaurids",
+                                                      "commonNameZh": "棘龙类",
+                                                      "rank": "family",
+                                                      "taxonId": "txn:38595",
+                                                      "firstAppearance": 139,
+                                                      "lastAppearance": 93,
+                                                      "extinct": true,
+                                                      "children": [
+                                                        {
+                                                          "id": "spinosaurus",
+                                                          "name": "Spinosaurus",
+                                                          "commonName": "Spinosaurus",
+                                                          "commonNameZh": "棘龙",
+                                                          "rank": "genus",
+                                                          "taxonId": "txn:38598",
+                                                          "firstAppearance": 112,
+                                                          "lastAppearance": 93,
+                                                          "extinct": true,
+                                                          "children": [],
+                                                          "entityKind": "taxon",
+                                                          "contentLevel": "dossier"
+                                                        }
+                                                      ],
+                                                      "entityKind": "taxon",
+                                                      "contentLevel": "dossier"
+                                                    },
+                                                    {
+                                                      "id": "dromaeosauridae",
+                                                      "name": "Dromaeosauridae",
+                                                      "commonName": "Raptors",
+                                                      "commonNameZh": "驰龙类",
+                                                      "rank": "family",
+                                                      "taxonId": "txn:38561",
+                                                      "firstAppearance": 145,
+                                                      "lastAppearance": 66,
+                                                      "extinct": true,
+                                                      "children": [
+                                                        {
+                                                          "id": "velociraptor",
+                                                          "name": "Velociraptor",
+                                                          "commonName": "Velociraptor",
+                                                          "commonNameZh": "伶盗龙",
+                                                          "rank": "genus",
+                                                          "taxonId": "txn:38564",
+                                                          "firstAppearance": 75,
+                                                          "lastAppearance": 71,
+                                                          "extinct": true,
+                                                          "children": [],
+                                                          "entityKind": "taxon",
+                                                          "contentLevel": "dossier"
+                                                        }
+                                                      ],
+                                                      "entityKind": "taxon",
+                                                      "contentLevel": "dossier"
+                                                    },
+                                                    {
+                                                      "id": "aves",
+                                                      "name": "Aves",
+                                                      "commonName": "Birds",
+                                                      "commonNameZh": "鸟类",
+                                                      "rank": "class",
+                                                      "taxonId": "txn:36616",
+                                                      "firstAppearance": 150,
                                                       "lastAppearance": 0,
                                                       "extinct": false,
                                                       "children": [
                                                         {
-                                                          "id": "phorusrhacidae",
-                                                          "name": "Phorusrhacidae",
-                                                          "commonName": "Terror Birds",
-                                                          "commonNameZh": "恐鹤类",
-                                                          "rank": "family",
-                                                          "taxonId": "txn:39461",
-                                                          "firstAppearance": 62,
-                                                          "lastAppearance": 1.8,
+                                                          "id": "archaeopteryx",
+                                                          "name": "Archaeopteryx",
+                                                          "commonName": "Archaeopteryx",
+                                                          "commonNameZh": "始祖鸟",
+                                                          "rank": "genus",
+                                                          "taxonId": "txn:39240",
+                                                          "firstAppearance": 150,
+                                                          "lastAppearance": 148,
                                                           "extinct": true,
-                                                          "children": []
+                                                          "children": [],
+                                                          "entityKind": "taxon",
+                                                          "contentLevel": "dossier"
+                                                        },
+                                                        {
+                                                          "id": "neornithes",
+                                                          "name": "Neornithes",
+                                                          "commonName": "Modern Birds",
+                                                          "commonNameZh": "今鸟类",
+                                                          "rank": "subclass",
+                                                          "taxonId": "txn:39241",
+                                                          "firstAppearance": 72,
+                                                          "lastAppearance": 0,
+                                                          "extinct": false,
+                                                          "children": [
+                                                            {
+                                                              "id": "phorusrhacidae",
+                                                              "name": "Phorusrhacidae",
+                                                              "commonName": "Terror Birds",
+                                                              "commonNameZh": "恐鹤类",
+                                                              "rank": "family",
+                                                              "taxonId": "txn:39461",
+                                                              "firstAppearance": 62,
+                                                              "lastAppearance": 1.8,
+                                                              "extinct": true,
+                                                              "children": [],
+                                                              "entityKind": "taxon",
+                                                              "contentLevel": "dossier"
+                                                            }
+                                                          ],
+                                                          "entityKind": "taxon",
+                                                          "contentLevel": "dossier"
                                                         }
-                                                      ]
+                                                      ],
+                                                      "entityKind": "taxon",
+                                                      "contentLevel": "dossier"
                                                     }
-                                                  ]
+                                                  ],
+                                                  "entityKind": "taxon",
+                                                  "contentLevel": "dossier"
                                                 }
-                                              ]
+                                              ],
+                                              "entityKind": "taxon",
+                                              "contentLevel": "dossier"
                                             }
-                                          ]
+                                          ],
+                                          "entityKind": "taxon",
+                                          "contentLevel": "dossier"
                                         }
-                                      ]
+                                      ],
+                                      "entityKind": "taxon",
+                                      "contentLevel": "dossier"
                                     }
-                                  ]
+                                  ],
+                                  "entityKind": "taxon",
+                                  "contentLevel": "dossier"
                                 }
-                              ]
+                              ],
+                              "entityKind": "taxon",
+                              "contentLevel": "dossier"
                             }
-                          ]
+                          ],
+                          "entityKind": "taxon",
+                          "contentLevel": "dossier"
                         }
-                      ]
+                      ],
+                      "entityKind": "taxon",
+                      "contentLevel": "dossier"
                     }
-                  ]
+                  ],
+                  "entityKind": "taxon",
+                  "contentLevel": "dossier"
                 }
-              ]
+              ],
+              "entityKind": "taxon",
+              "contentLevel": "dossier"
             }
-          ]
+          ],
+          "entityKind": "taxon",
+          "contentLevel": "dossier"
         }
-      ]
+      ],
+      "entityKind": "taxon",
+      "contentLevel": "dossier"
     }
-  ]
+  ],
+  "entityKind": "navigation-group",
+  "contentLevel": "dossier"
 }

@@ -35,7 +35,7 @@ npm run data:validate
 - Bundled occurrence rows are bounded, non-random PBDB API-prefix samples. Never call them representative, exhaustive or unbiased richness estimates.
 - Higher-taxon queries default to the ontology’s represented descendant closure and return explicit query metadata/status.
 - Large scientific data is generated as static `.json.gz` shards and loaded through `src/data-client/`; do not compile occurrence shards into Vite modules or add package/occurrence/map/download data to the PWA precache.
-- `data/registry/` and `data/packages/` are canonical. `public/data/` and `dist/data/` are generated runtime projections and must not be committed.
+- `data/navigation/atlas-ontology.json`, `data/ranges/range-evidence.json`, the evidence ledgers and flagship narrative/profile files are canonical. `data/registry/` plus package registry/taxonomy/range/review/locale files are generated projections guarded by `npm run data:registry:check`. `public/data/` and `dist/data/` are generated runtime projections and must not be committed.
 
 ## Important files
 
@@ -47,6 +47,7 @@ npm run data:validate
 - `scripts/build-runtime-data.mjs` — canonical-to-Pages generator.
 - `scripts/validate-data.mjs` — schemas, graph integrity, evidence and scientific regression checks.
 - `data/manifest.json` — generated counts and SHA-256 checksums.
+- `data/indexes/entity-occurrence-index.json` — stable entity-ID occurrence query index and explicit match-method status.
 - `DATA_LICENSES.md` and `THIRD_PARTY_NOTICES.md` — controlling provenance boundaries.
 
 Do not hand-edit generated manifest checksums or the taxon-period index. Preserve unrelated worktree changes.

@@ -10,7 +10,9 @@ export interface RuntimeFile {
 
 export interface RuntimeEntity {
   id: string
-  entityType: 'taxon-profile' | 'navigation-dossier' | 'informal-group-dossier' | 'phylogeny-node'
+  entityKind: 'taxon' | 'navigation-group' | 'historical-grade' | 'informal-group' | 'hypothesis-node'
+  contentLevel: 'registry-only' | 'dossier' | 'full-profile'
+  externalResolutionStatus: 'resolved-exact' | 'resolved-synonym' | 'resolved-rank-variant' | 'resolved-broader' | 'resolved-narrower' | 'ambiguous' | 'not-found' | 'not-applicable'
   packageId: string
   parentId: string | null
   names: { scientific: string; en: string; zh: string }
@@ -18,6 +20,17 @@ export interface RuntimeEntity {
   rank: string
   evidenceStatus: 'strong' | 'moderate' | 'contextual' | 'contested'
   review: { status: string; scientificPeerReview: boolean }
+}
+
+export interface RuntimeEntityLinkageCoverage {
+  sourceTotal: number
+  linkedOccurrenceTotal: number
+  linkedOccurrenceRate: number
+  unmatchedOccurrenceTotal: number
+  linkageMethods: { exactExternalId: number; acceptedName: number; higherClassification: number }
+  indexedEntityCount: number
+  resolutionSummary: { resolved: number; unresolved: number; needsConceptReview: number }
+  packageCoverage: Record<string, { sourceTotal: number; linkedTotal: number; linkedRate: number }>
 }
 
 export interface RuntimePackageRegistryEntry {

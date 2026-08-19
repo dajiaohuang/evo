@@ -124,23 +124,23 @@ function MissingEntry({ kind, onNavigate }: { kind: string; onNavigate: CatalogP
 export function TaxonPage({ id, onNavigate }: CatalogPageProps) {
   const { language, number, t } = useI18n()
   const profile = getTaxonProfile(id)
-  const loadOccurrences = useAppStore((state) => state.loadOccurrencesForTaxon)
+  const loadOccurrences = useAppStore((state) => state.loadOccurrencesForEntity)
   const occurrences = useAppStore((state) => (
-    profile?.pbdbTaxonId ? state.occurrencesByTaxonQuery[`descendants:${profile.pbdbTaxonId}`] : undefined
+    profile ? state.occurrencesByTaxonQuery[`descendants:${profile.id}`] : undefined
   ))
   const taxonQuery = useAppStore((state) => (
-    profile?.pbdbTaxonId ? state.taxonOccurrenceQueries[`descendants:${profile.pbdbTaxonId}`] : undefined
+    profile ? state.taxonOccurrenceQueries[`descendants:${profile.id}`] : undefined
   ))
   const taxonStatus = useAppStore((state) => (
-    profile?.pbdbTaxonId ? state.taxonOccurrenceStatus[`descendants:${profile.pbdbTaxonId}`] ?? 'idle' : 'idle'
+    profile ? state.taxonOccurrenceStatus[`descendants:${profile.id}`] ?? 'idle' : 'idle'
   ))
   const taxonError = useAppStore((state) => (
-    profile?.pbdbTaxonId ? state.taxonOccurrenceErrors[`descendants:${profile.pbdbTaxonId}`] : null
+    profile ? state.taxonOccurrenceErrors[`descendants:${profile.id}`] : null
   ))
 
   useEffect(() => {
-    if (profile?.pbdbTaxonId) void loadOccurrences(profile.pbdbTaxonId)
-  }, [loadOccurrences, profile?.pbdbTaxonId])
+    if (profile) void loadOccurrences(profile.id)
+  }, [loadOccurrences, profile])
 
   useEffect(() => {
     if (id) void loadPackageForEntity(id).catch(() => undefined)
@@ -342,7 +342,7 @@ export function EventPage({ id, onNavigate }: CatalogPageProps) {
             <span className="section-label">{t('01 / Observations')}</span>
             <h2>{t('Evidence in the record')}</h2>
             <div className="statement-grid">
-              {event.evidence.map((item, index) => <article key={item}><span>{index + 1}</span><p>{t(item)}</p></article>)}
+              {event.evidenceItems.map((item, index) => <article key={item.statement}><span>{index + 1}</span><p>{t(item.statement)}</p></article>)}
             </div>
             <h2>{t('Claim-level source links')}</h2>
             <ClaimLedger claims={claims} />
@@ -351,7 +351,7 @@ export function EventPage({ id, onNavigate }: CatalogPageProps) {
             <span className="section-label">{t('02 / Uncertainty')}</span>
             <h2>{t('What remains unresolved')}</h2>
             <div className="uncertainty-list">
-              {event.uncertainties.map((item) => <p key={item}>{t(item)}</p>)}
+              {event.uncertaintyItems.map((item) => <p key={item.statement}>{t(item.statement)}</p>)}
             </div>
           </section>
           <section className="catalog-section">

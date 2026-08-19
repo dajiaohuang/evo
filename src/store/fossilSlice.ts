@@ -1,6 +1,6 @@
 import type { FossilOccurrence, LoadStatus, TaxonOccurrenceQueryResult, TaxonQueryScope } from '../types'
 import type { AppState } from './index'
-import { getFossilsByInterval, getFossilsByTaxon } from '../services/localFossils'
+import { getFossilsByEntity, getFossilsByInterval } from '../services/localFossils'
 
 export interface FossilSlice {
   occurrencesByInterval: Record<string, FossilOccurrence[]>
@@ -10,7 +10,7 @@ export interface FossilSlice {
   taxonOccurrenceErrors: Record<string, string | null>
   selectedOccurrence: FossilOccurrence | null
   loadOccurrencesForInterval: (intervalName: string) => Promise<void>
-  loadOccurrencesForTaxon: (taxonId: string, scope?: TaxonQueryScope) => Promise<void>
+  loadOccurrencesForEntity: (entityId: string, scope?: TaxonQueryScope) => Promise<void>
   selectFossilOccurrence: (occ: FossilOccurrence | null) => void
 }
 
@@ -36,15 +36,15 @@ export const createFossilSlice = (
     })
   },
 
-  loadOccurrencesForTaxon: async (taxonId: string, scope: TaxonQueryScope = 'descendants') => {
-    const cacheKey = `${scope}:${taxonId}`
+  loadOccurrencesForEntity: async (entityId: string, scope: TaxonQueryScope = 'descendants') => {
+    const cacheKey = `${scope}:${entityId}`
     if (Object.hasOwn(get().taxonOccurrenceQueries, cacheKey)) return
     set({
       taxonOccurrenceStatus: { ...get().taxonOccurrenceStatus, [cacheKey]: 'loading' },
       taxonOccurrenceErrors: { ...get().taxonOccurrenceErrors, [cacheKey]: null },
     })
     try {
-      const result = await getFossilsByTaxon(taxonId, scope)
+      const result = await getFossilsByEntity(entityId, scope)
       set({
         occurrencesByTaxonQuery: { ...get().occurrencesByTaxonQuery, [cacheKey]: result.records },
         taxonOccurrenceQueries: { ...get().taxonOccurrenceQueries, [cacheKey]: result },

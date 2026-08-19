@@ -1,7 +1,7 @@
 {
   "name": "evo",
   "private": true,
-  "version": "0.9.0",
+  "version": "0.10.0",
   "type": "module",
   "scripts": {
     "predev": "npm run data:stage",
@@ -16,6 +16,7 @@
     "size:check": "node scripts/check-bundle-size.mjs",
     "release:metadata": "node scripts/build-release.mjs",
     "data:registry:build": "node scripts/build-entity-registry.mjs",
+    "data:registry:check": "node scripts/check-entity-registry.mjs",
     "data:taxonomy:reconcile": "node scripts/reconcile-pbdb-taxa.mjs",
     "data:registry:validate": "node scripts/validate-platform.mjs registry",
     "data:packages:validate": "node scripts/validate-platform.mjs packages",
@@ -36,7 +37,7 @@
     "source:budget": "node scripts/check-source-budget.mjs",
     "pages:budget": "node scripts/check-pages-budget.mjs",
     "pages:smoke": "node scripts/smoke-pages-data.mjs",
-    "verify": "npm run lint && npm test && npm run data:registry:validate && npm run data:packages:validate && npm run data:claims:validate && npm run data:translations:validate && npm run data:provenance:validate && npm run data:review:validate && npm run data:validate && npm run source:budget && npm run build && npm run size:check && npm run pages:budget && npm run pages:smoke && npm run test:e2e"
+    "verify": "npm run lint && npm test && npm run data:registry:check && npm run data:registry:validate && npm run data:packages:validate && npm run data:claims:validate && npm run data:translations:validate && npm run data:provenance:validate && npm run data:review:validate && npm run data:validate && npm run source:budget && npm run build && npm run size:check && npm run pages:budget && npm run pages:smoke && npm run test:e2e"
   },
   "dependencies": {
     "d3": "^7.9.0",

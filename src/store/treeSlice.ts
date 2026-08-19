@@ -47,9 +47,9 @@ export const createTreeSlice = (
       highlightedOccurrenceIds: [],
       ...(clearOccurrence ? { selectedOccurrence: null, selectedOccurrenceId: null } : {}),
     })
-    if (!taxonId) return
-    await get().loadOccurrencesForTaxon(taxonId, scope)
-    const queryKey = `${scope}:${taxonId}`
+    if (!nodeId) return
+    await get().loadOccurrencesForEntity(nodeId, scope)
+    const queryKey = `${scope}:${nodeId}`
     const state = get()
     if (state.selectedNodeId !== nodeId || state.highlightedTaxonId !== taxonId) return
     set({ highlightedOccurrenceIds: (state.occurrencesByTaxonQuery[queryKey] ?? []).map((occurrence) => occurrence.oid) })

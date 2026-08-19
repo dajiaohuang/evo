@@ -1,10 +1,11 @@
 import { mkdirSync, writeFileSync } from 'node:fs'
-import { dirname, join } from 'node:path'
+import { dirname, isAbsolute, join, resolve } from 'node:path'
 import { flattenTree, readJson, rootDir } from './data-lib.mjs'
 import { DATASET_PACKAGE_VERSION, PACKAGE_SCHEMA_VERSION, packageDefinitions } from './package-definitions.mjs'
 
 const ontology = readJson('data/navigation/atlas-ontology.json')
 const profiles = readJson('data/packages/mammalia/perissodactyla/profiles.json')
+const perissodactylPhylogeny = readJson('data/packages/mammalia/perissodactyla/phylogeny/hypothesis.json')
 const treeEvidence = readJson('data/tree/evidence.json')
 const media = readJson('data/media.json')
 const claims = readJson('data/evidence/claims.json')
@@ -14,9 +15,47 @@ const stories = readJson('data/stories.json')
 const publishedStories = stories.filter((story) => story.evidenceStatus === 'available-with-limitations')
 const taxonResolution = readJson('data/sources/pbdb-taxon-resolution.json')
 const taxonResolutionByEntityId = new Map(taxonResolution.resolutions.map((entry) => [entry.entityId, entry]))
+const canonicalRanges = readJson('data/ranges/range-evidence.json')
+const rangesByEntityId = new Map()
+for (const range of canonicalRanges) {
+  if (!rangesByEntityId.has(range.entityId)) rangesByEntityId.set(range.entityId, [])
+  rangesByEntityId.get(range.entityId).push(range)
+}
+for (const profile of profiles) {
+  const ranges = rangesByEntityId.get(profile.treeNodeId) ?? []
+  const globalRange = ranges.find((range) => range.rangeKind === 'global-composite')
+  if (!globalRange) throw new Error(`Profile ${profile.id} has no canonical global range`)
+  profile.firstAppearance = globalRange.olderMa
+  profile.lastAppearance = globalRange.youngerMa
+  for (const regional of profile.regionalRanges ?? []) {
+    const canonical = ranges.find((range) => range.rangeKind === regional.rangeKind && range.geographicScope === regional.region)
+    if (!canonical) throw new Error(`Profile ${profile.id}/${regional.label} has no canonical regional range`)
+    regional.olderMa = canonical.olderMa
+    regional.youngerMa = canonical.youngerMa
+    regional.basis = canonical.evidenceBasis
+    regional.confidence = canonical.confidence
+    regional.referenceIds = canonical.referenceLocators.map((locator) => locator.referenceId)
+  }
+}
+
+function synchronizePhylogenyRanges(node) {
+  const range = (rangesByEntityId.get(node.id) ?? []).find((entry) => entry.rangeKind === 'global-composite')
+  if (range) {
+    node.firstAppearance = range.olderMa
+    node.lastAppearance = range.youngerMa
+  }
+  for (const child of node.children ?? []) synchronizePhylogenyRanges(child)
+}
+synchronizePhylogenyRanges(perissodactylPhylogeny.root)
 const profileIds = new Set(profiles.map((profile) => profile.treeNodeId))
 const mediaIds = new Set(media.map((asset) => asset.taxonId))
-const informalGroups = new Set(['invertebrata', 'agnatha', 'ostracodermi', 'acanthodii', 'pelycosauria', 'bryophyta', 'pteridophyta', 'articulata'])
+const args = process.argv.slice(2)
+const outIndex = args.indexOf('--out')
+const requestedOutput = outIndex >= 0 ? args[outIndex + 1] : rootDir
+if (!requestedOutput) throw new Error('--out requires a path')
+const outputRoot = isAbsolute(requestedOutput) ? requestedOutput : resolve(rootDir, requestedOutput)
+const quiet = args.includes('--quiet')
+const generatedFiles = []
 
 const parents = new Map()
 const depths = new Map()
@@ -48,12 +87,6 @@ function descendantIds(node, output = []) {
     descendantIds(child, output)
   }
   return output
-}
-
-function entityType(node) {
-  if (informalGroups.has(node.id)) return 'informal-group-dossier'
-  if (!node.taxonId || ['life', 'vertebrata', 'gnathostomata', 'osteichthyes', 'tetrapoda', 'amniota', 'sauropsida', 'archosauria', 'placentalia'].includes(node.id)) return 'navigation-dossier'
-  return 'taxon-profile'
 }
 
 function ownerForClaim(claim) {
@@ -90,15 +123,20 @@ const entities = flattenTree(ontology).map((node) => {
   const evidence = { ...treeEvidence.default, ...treeEvidence.nodes[node.id] }
   const resolution = taxonResolutionByEntityId.get(node.id)
   const parentId = parents.get(node.id)
+  const ranges = rangesByEntityId.get(node.id) ?? []
+  const globalRange = ranges.find((range) => range.rangeKind === 'global-composite')
+  if (!globalRange) throw new Error(`Entity ${node.id} has no canonical global range`)
   const availability = {
     narrativeProfile: profileIds.has(node.id) ? 'available' : 'unavailable',
-    ecology: profileIds.has(node.id) ? 'available' : entityType(node) === 'taxon-profile' ? 'unknown' : 'not-applicable',
+    ecology: profileIds.has(node.id) ? 'available' : ['taxon', 'historical-grade'].includes(node.entityKind) ? 'unknown' : 'not-applicable',
     media: mediaIds.has(node.id) ? 'available' : 'unavailable',
     topologyHypothesis: node.id === 'perissodactyla' || descendantIds(node, []).includes('perissodactyla') ? 'available' : 'unmapped',
   }
   return {
     id: node.id,
-    entityType: entityType(node),
+    entityKind: node.entityKind,
+    contentLevel: node.contentLevel,
+    externalResolutionStatus: resolution?.externalResolutionStatus ?? 'not-applicable',
     packageId: packageForEntity(node.id),
     parentId,
     names: {
@@ -117,18 +155,21 @@ const entities = flattenTree(ontology).map((node) => {
       descendantEntityIds: descendantIds(node, []),
     },
     temporalRange: {
-      olderMa: node.firstAppearance,
-      youngerMa: node.lastAppearance,
-      status: 'available',
-      basis: evidence.rangeBasis,
+      olderMa: globalRange.olderMa,
+      youngerMa: globalRange.youngerMa,
+      status: globalRange.status,
+      basis: globalRange.evidenceBasis,
     },
     externalIds: node.taxonId ? { pbdb: node.taxonId } : {},
-    referenceIds: [...new Set([...evidence.references, ...(node.taxonId ? ['pbdb-taxa-2026-07-19'] : [])])],
+    referenceIds: [...new Set([...ranges.flatMap((range) => range.referenceLocators.map((locator) => locator.referenceId)), ...evidence.references, ...(node.taxonId ? ['pbdb-taxa-2026-07-19'] : [])])],
     evidenceStatus: evidence.support,
     limitations: [
       evidence.conflicts,
       ...(resolution?.resolutionStatus === 'unresolved'
         ? [`PBDB external identifier withheld: ${resolution.resolutionReason}.`]
+        : []),
+      ...(resolution?.conceptReviewStatus === 'needs-concept-review'
+        ? [`PBDB mapping requires concept review because the pinned lineage is incompatible with the local expected parent ${resolution.localExpectedParentConcept}.`]
         : []),
     ],
     dataAvailability: availability,
@@ -138,6 +179,14 @@ const entities = flattenTree(ontology).map((node) => {
       reviewedAt: '2026-08-19',
       scope: ['schema', 'external-identifier-resolution', 'identifier-linkage', 'bilingual-field-presence'],
       scientificPeerReview: false,
+      reviewers: [{
+        name: 'Evo Atlas automated validation',
+        identityType: 'automated-system',
+        orcid: null,
+        expertise: ['data engineering', 'schema validation'],
+        reviewScope: ['schema', 'identifier linkage', 'bilingual field presence'],
+        conflictOfInterest: 'Automated system; no human scientific expertise is claimed.',
+      }],
     },
     version: DATASET_PACKAGE_VERSION,
   }
@@ -167,13 +216,16 @@ const registry = {
 }
 
 function writeJson(relativePath, value) {
-  const absolutePath = join(rootDir, relativePath)
+  const absolutePath = join(outputRoot, relativePath)
   mkdirSync(dirname(absolutePath), { recursive: true })
   writeFileSync(absolutePath, `${JSON.stringify(value, null, 2)}\n`, 'utf8')
+  generatedFiles.push(relativePath.replaceAll('\\', '/'))
 }
 
 writeJson('data/registry/entities/entities.json', entities)
 writeJson('data/registry/package-registry.json', registry)
+writeJson('data/packages/mammalia/perissodactyla/profiles.json', profiles)
+writeJson('data/packages/mammalia/perissodactyla/phylogeny/hypothesis.json', perissodactylPhylogeny)
 
 for (const definition of packageDefinitions) {
   const packageEntities = entities.filter((entity) => entity.packageId === definition.id)
@@ -186,8 +238,9 @@ for (const definition of packageDefinitions) {
     rootEntityIds: definition.rootEntityIds,
     entityIds: packageEntities.map((entity) => entity.id),
     canonicalSources: {
-      entities: 'data/registry/entities/entities.json',
-      taxonomy: 'data/navigation/atlas-ontology.json',
+      entityDefinitions: 'data/navigation/atlas-ontology.json',
+      ranges: 'data/ranges/range-evidence.json',
+      externalResolutions: 'data/sources/pbdb-taxon-resolution.json',
       references: 'data/references.json',
       occurrences: 'data/fossils/*.json',
       ...(definition.id === 'perissodactyla' ? {
@@ -202,10 +255,10 @@ for (const definition of packageDefinitions) {
   writeJson(`data/packages/${definition.path}/provenance.json`, {
     packageId: definition.id,
     version: DATASET_PACKAGE_VERSION,
-    canonicalInputs: ['data/navigation/atlas-ontology.json', 'data/sources/pbdb-taxon-resolution.json', 'data/tree/evidence.json', 'data/references.json'],
+    canonicalInputs: ['data/navigation/atlas-ontology.json', 'data/ranges/range-evidence.json', 'data/sources/pbdb-taxon-resolution.json', 'data/tree/evidence.json', 'data/references.json'],
     occurrenceSnapshot: 'data/sources/pbdb-occurrence-bundle.json',
-    generatedProjection: false,
-    notes: ['The package owns its registry entities. Runtime gzip files are generated projections and are not canonical sources.'],
+    generatedProjection: true,
+    notes: ['Package registry, taxonomy, range, review and locale files are generated projections. Canonical entity concepts, ranges, evidence and external-resolution decisions live in the listed canonical inputs.'],
   })
   writeJson(`data/packages/${definition.path}/review.json`, {
     subjectId: `package:${definition.id}`,
@@ -214,6 +267,12 @@ for (const definition of packageDefinitions) {
     reviewedAt: '2026-08-19',
     scope: ['schema', 'identifier-linkage', 'bilingual-field-presence'],
     scientificPeerReview: false,
+    reviewers: [{
+      name: 'Evo Atlas automated validation', identityType: 'automated-system', orcid: null,
+      expertise: ['data engineering', 'schema validation'],
+      reviewScope: ['schema', 'identifier linkage', 'bilingual field presence'],
+      conflictOfInterest: 'Automated system; no human scientific expertise is claimed.',
+    }],
     version: DATASET_PACKAGE_VERSION,
   })
   const packageClaims = claims.filter((claim) => ownerForClaim(claim) === definition.id)
@@ -227,13 +286,7 @@ for (const definition of packageDefinitions) {
     rootEntityIds: definition.rootEntityIds,
     relationships: packageEntities.map((entity) => ({ id: entity.id, parentId: entity.parentId })),
   })
-  writeJson(`data/packages/${definition.path}/ranges.json`, packageEntities.map((entity) => ({
-    id: `range:${entity.id}`,
-    entityId: entity.id,
-    ...entity.temporalRange,
-    confidence: entity.evidenceStatus === 'strong' ? 'high' : entity.evidenceStatus === 'contested' ? 'contested' : 'medium',
-    referenceIds: entity.referenceIds,
-  })))
+  writeJson(`data/packages/${definition.path}/ranges.json`, canonicalRanges.filter((range) => packageEntities.some((entity) => entity.id === range.entityId)))
   writeJson(`data/packages/${definition.path}/evidence/claim-ids.json`, packageClaims.map((claim) => claim.id))
   writeJson(`data/packages/${definition.path}/events.json`, packageClaims.filter((claim) => claim.subjectId.startsWith('event:')).map((claim) => claim.subjectId.slice(6)))
   writeJson(`data/packages/${definition.path}/stories.json`, publishedStories.filter((story) => story.steps.some((step) => (step.taxonIds ?? []).some((id) => packageForEntity(id) === definition.id))).map((story) => story.id))
@@ -248,15 +301,54 @@ for (const definition of packageDefinitions) {
     ]),
   })
   if (definition.id === 'perissodactyla') {
+    const claimBySubjectId = new Map(packageClaims.map((claim) => [claim.subjectId, claim]))
+    const fieldLink = (claim, field) => {
+      const supportsField = claim.claimType === 'fossil-range'
+        ? field === 'firstAppearance' || field === 'lastAppearance' || field.startsWith('regionalRanges')
+        : claim.claimType === 'ecology'
+          ? field.startsWith('ecology.') || field === 'geography' || field.startsWith('traits')
+          : claim.claimType === 'morphology'
+            ? field.startsWith('traits') || field.startsWith('ecology.')
+            : claim.claimType === 'biogeography'
+              ? field === 'geography'
+              : false
+      return {
+        claimId: claim.id,
+        relation: supportsField ? 'supports' : 'contextualizes',
+        sourceLocators: claim.referenceLinks
+          .filter((link) => link.relation === 'supports')
+          .map((link) => ({ referenceId: link.referenceId, locator: link.pages ?? link.figure ?? link.quoteLocator ?? 'reference record' })),
+        confidence: claim.confidence,
+        reviewStatus: 'automated-audit-passed',
+      }
+    }
     writeJson(`data/packages/${definition.path}/evidence/field-claim-links.json`, packageProfiles.map((profile) => ({
       profileId: profile.id,
-      fields: {
-        overview: `claim:taxon:${profile.id}`,
-        evidenceSummary: `claim:taxon:${profile.id}`,
-        confidence: `claim:taxon:${profile.id}`,
-      },
+      fields: (() => {
+        const claim = claimBySubjectId.get(`taxon:${profile.id}`)
+        if (!claim) throw new Error(`Profile ${profile.id} is missing its scientific claim`)
+        const fieldNames = [
+          'firstAppearance', 'lastAppearance', 'geography', 'overview', 'evidenceSummary', 'confidence',
+          ...Object.keys(profile.ecology).map((key) => `ecology.${key}`),
+          ...profile.traits.map((_, index) => `traits[${index}]`),
+          ...(profile.regionalRanges ?? []).map((_, index) => `regionalRanges[${index}]`),
+        ]
+        return Object.fromEntries(fieldNames.map((field) => [field, fieldLink(claim, field)]))
+      })(),
     })))
   }
 }
 
-console.log(`Built registry for ${entities.length} entities across ${packageDefinitions.length} packages.`)
+writeJson('data/registry/generated-files.json', {
+  schemaVersion: 1,
+  generator: 'scripts/build-entity-registry.mjs',
+  canonicalInputs: [
+    'data/navigation/atlas-ontology.json', 'data/ranges/range-evidence.json',
+    'data/sources/pbdb-taxon-resolution.json', 'data/tree/evidence.json',
+    'data/evidence/claims.json', 'data/evidence/claim-rationales.zh.json',
+    'data/packages/mammalia/perissodactyla/profiles.json', 'data/references.json',
+  ],
+  generatedFiles: [...generatedFiles].sort(),
+})
+
+if (!quiet) console.log(`Built registry for ${entities.length} entities across ${packageDefinitions.length} packages.`)

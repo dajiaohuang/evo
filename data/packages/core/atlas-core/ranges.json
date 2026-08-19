@@ -1,133 +1,346 @@
 [
   {
-    "id": "range:life",
+    "id": "range:life:global",
     "entityId": "life",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Life",
+    "geographicScope": "Global or represented navigation composite",
     "olderMa": 3800,
     "youngerMa": 0,
     "status": "available",
-    "basis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+    },
+    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
     "confidence": "medium",
-    "referenceIds": [
-      "open-tree"
-    ]
+    "claimIds": [],
+    "referenceLocators": [
+      {
+        "referenceId": "open-tree",
+        "locator": "https://opentreeoflife.github.io/use"
+      }
+    ],
+    "reviewStatus": "not-reviewed"
   },
   {
-    "id": "range:invertebrata",
+    "id": "range:invertebrata:global",
     "entityId": "invertebrata",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Invertebrata",
+    "geographicScope": "Global or represented navigation composite",
     "olderMa": 635,
     "youngerMa": 0,
     "status": "available",
-    "basis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+    },
+    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
     "confidence": "medium",
-    "referenceIds": [
-      "open-tree",
-      "pbdb-api-2016"
-    ]
+    "claimIds": [],
+    "referenceLocators": [
+      {
+        "referenceId": "open-tree",
+        "locator": "https://opentreeoflife.github.io/use"
+      },
+      {
+        "referenceId": "pbdb-api-2016",
+        "locator": "doi:10.1017/pab.2015.39"
+      }
+    ],
+    "reviewStatus": "not-reviewed"
   },
   {
-    "id": "range:vertebrata",
+    "id": "range:hemichordata:global",
+    "entityId": "hemichordata",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Hemichordata",
+    "geographicScope": "Global or represented navigation composite",
+    "olderMa": 540,
+    "youngerMa": 0,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+    },
+    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "confidence": "medium",
+    "claimIds": [],
+    "referenceLocators": [
+      {
+        "referenceId": "open-tree",
+        "locator": "https://opentreeoflife.github.io/use"
+      },
+      {
+        "referenceId": "pbdb-api-2016",
+        "locator": "doi:10.1017/pab.2015.39"
+      }
+    ],
+    "reviewStatus": "not-reviewed"
+  },
+  {
+    "id": "range:pterobranchia:global",
+    "entityId": "pterobranchia",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Pterobranchia",
+    "geographicScope": "Global or represented navigation composite",
+    "olderMa": 530,
+    "youngerMa": 0,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+    },
+    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "confidence": "medium",
+    "claimIds": [],
+    "referenceLocators": [
+      {
+        "referenceId": "open-tree",
+        "locator": "https://opentreeoflife.github.io/use"
+      },
+      {
+        "referenceId": "pbdb-api-2016",
+        "locator": "doi:10.1017/pab.2015.39"
+      }
+    ],
+    "reviewStatus": "not-reviewed"
+  },
+  {
+    "id": "range:vertebrata:global",
     "entityId": "vertebrata",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Vertebrata",
+    "geographicScope": "Global or represented navigation composite",
     "olderMa": 525,
     "youngerMa": 0,
     "status": "available",
-    "basis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+    },
+    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
     "confidence": "medium",
-    "referenceIds": [
-      "open-tree",
-      "pbdb-api-2016",
-      "pbdb-taxa-2026-07-19"
-    ]
+    "claimIds": [],
+    "referenceLocators": [
+      {
+        "referenceId": "open-tree",
+        "locator": "https://opentreeoflife.github.io/use"
+      },
+      {
+        "referenceId": "pbdb-api-2016",
+        "locator": "doi:10.1017/pab.2015.39"
+      }
+    ],
+    "reviewStatus": "not-reviewed"
   },
   {
-    "id": "range:gnathostomata",
+    "id": "range:gnathostomata:global",
     "entityId": "gnathostomata",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Gnathostomata",
+    "geographicScope": "Global or represented navigation composite",
     "olderMa": 443,
     "youngerMa": 0,
     "status": "available",
-    "basis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+    },
+    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
     "confidence": "medium",
-    "referenceIds": [
-      "open-tree",
-      "pbdb-api-2016"
-    ]
+    "claimIds": [],
+    "referenceLocators": [
+      {
+        "referenceId": "open-tree",
+        "locator": "https://opentreeoflife.github.io/use"
+      },
+      {
+        "referenceId": "pbdb-api-2016",
+        "locator": "doi:10.1017/pab.2015.39"
+      }
+    ],
+    "reviewStatus": "not-reviewed"
   },
   {
-    "id": "range:osteichthyes",
+    "id": "range:osteichthyes:global",
     "entityId": "osteichthyes",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Osteichthyes",
+    "geographicScope": "Global or represented navigation composite",
     "olderMa": 425,
     "youngerMa": 0,
     "status": "available",
-    "basis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+    },
+    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
     "confidence": "medium",
-    "referenceIds": [
-      "open-tree",
-      "pbdb-api-2016"
-    ]
+    "claimIds": [],
+    "referenceLocators": [
+      {
+        "referenceId": "open-tree",
+        "locator": "https://opentreeoflife.github.io/use"
+      },
+      {
+        "referenceId": "pbdb-api-2016",
+        "locator": "doi:10.1017/pab.2015.39"
+      }
+    ],
+    "reviewStatus": "not-reviewed"
   },
   {
-    "id": "range:tetrapoda",
+    "id": "range:tetrapoda:global",
     "entityId": "tetrapoda",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Tetrapoda",
+    "geographicScope": "Global or represented navigation composite",
     "olderMa": 370,
     "youngerMa": 0,
     "status": "available",
-    "basis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+    },
+    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
     "confidence": "medium",
-    "referenceIds": [
-      "open-tree",
-      "pbdb-api-2016"
-    ]
+    "claimIds": [],
+    "referenceLocators": [
+      {
+        "referenceId": "open-tree",
+        "locator": "https://opentreeoflife.github.io/use"
+      },
+      {
+        "referenceId": "pbdb-api-2016",
+        "locator": "doi:10.1017/pab.2015.39"
+      }
+    ],
+    "reviewStatus": "not-reviewed"
   },
   {
-    "id": "range:amniota",
+    "id": "range:amniota:global",
     "entityId": "amniota",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Amniota",
+    "geographicScope": "Global or represented navigation composite",
     "olderMa": 315,
     "youngerMa": 0,
     "status": "available",
-    "basis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+    },
+    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
     "confidence": "medium",
-    "referenceIds": [
-      "open-tree",
-      "pbdb-api-2016",
-      "pbdb-taxa-2026-07-19"
-    ]
+    "claimIds": [],
+    "referenceLocators": [
+      {
+        "referenceId": "open-tree",
+        "locator": "https://opentreeoflife.github.io/use"
+      },
+      {
+        "referenceId": "pbdb-api-2016",
+        "locator": "doi:10.1017/pab.2015.39"
+      }
+    ],
+    "reviewStatus": "not-reviewed"
   },
   {
-    "id": "range:placentalia",
+    "id": "range:placentalia:global",
     "entityId": "placentalia",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Placentalia",
+    "geographicScope": "Global or represented navigation composite",
     "olderMa": 100,
     "youngerMa": 0,
     "status": "available",
-    "basis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+    },
+    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
     "confidence": "medium",
-    "referenceIds": [
-      "open-tree",
-      "pbdb-api-2016"
-    ]
+    "claimIds": [],
+    "referenceLocators": [
+      {
+        "referenceId": "open-tree",
+        "locator": "https://opentreeoflife.github.io/use"
+      },
+      {
+        "referenceId": "pbdb-api-2016",
+        "locator": "doi:10.1017/pab.2015.39"
+      }
+    ],
+    "reviewStatus": "not-reviewed"
   },
   {
-    "id": "range:sauropsida",
+    "id": "range:sauropsida:global",
     "entityId": "sauropsida",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Sauropsida",
+    "geographicScope": "Global or represented navigation composite",
     "olderMa": 312,
     "youngerMa": 0,
     "status": "available",
-    "basis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+    },
+    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
     "confidence": "medium",
-    "referenceIds": [
-      "open-tree",
-      "pbdb-api-2016"
-    ]
+    "claimIds": [],
+    "referenceLocators": [
+      {
+        "referenceId": "open-tree",
+        "locator": "https://opentreeoflife.github.io/use"
+      },
+      {
+        "referenceId": "pbdb-api-2016",
+        "locator": "doi:10.1017/pab.2015.39"
+      }
+    ],
+    "reviewStatus": "not-reviewed"
   },
   {
-    "id": "range:archosauria",
+    "id": "range:archosauria:global",
     "entityId": "archosauria",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Archosauria",
+    "geographicScope": "Global or represented navigation composite",
     "olderMa": 250,
     "youngerMa": 0,
     "status": "available",
-    "basis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+    },
+    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
     "confidence": "medium",
-    "referenceIds": [
-      "open-tree",
-      "pbdb-api-2016"
-    ]
+    "claimIds": [],
+    "referenceLocators": [
+      {
+        "referenceId": "open-tree",
+        "locator": "https://opentreeoflife.github.io/use"
+      },
+      {
+        "referenceId": "pbdb-api-2016",
+        "locator": "doi:10.1017/pab.2015.39"
+      }
+    ],
+    "reviewStatus": "not-reviewed"
   }
 ]

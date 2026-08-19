@@ -30,6 +30,9 @@ export interface PeriodInfo {
   eonZh: string;
   lag: number;
   eag: number;
+  olderBoundary: ChronostratigraphicBoundary;
+  youngerBoundary: ChronostratigraphicBoundary;
+  officialVersion: string;
   color: string;
   keyContinentalConfig: string;
   mapLayerStatus: 'available' | 'withheld-pending-provenance';

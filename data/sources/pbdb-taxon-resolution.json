@@ -1,7 +1,7 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-08-19",
-  "policy": "PBDB IDs are published only when an exact local name resolves to one accepted concept and the accepted rank matches. Unresolved or ambiguous concepts retain no external ID.",
+  "schemaVersion": 2,
+  "generatedAt": "2026-08-20",
+  "policy": "PBDB mappings publish only after exact name/rank resolution. Entity kind is independent of PBDB. Parent and classification compatibility are recorded separately; incompatibility triggers needs-concept-review without silently deleting an otherwise exact mapping.",
   "rankNormalization": {
     "clade": "unranked clade"
   },
@@ -14,9 +14,10 @@
     "sourceUrl": "https://zenodo.org/records/21620933"
   },
   "summary": {
-    "ontologyNodes": 179,
+    "ontologyNodes": 186,
     "resolved": 127,
-    "unresolved": 52
+    "unresolved": 59,
+    "needsConceptReview": 80
   },
   "resolutions": [
     {
@@ -39,7 +40,21 @@
       },
       "occurrenceCount": 1938652,
       "referenceNo": "ref:12782",
-      "snapshotModifiedAt": "2024-07-19 10:46:31"
+      "snapshotModifiedAt": "2024-07-19 10:46:31",
+      "externalResolutionStatus": "ambiguous",
+      "resolvedName": "Life",
+      "resolvedRank": "unranked clade",
+      "resolvedImmediateParent": null,
+      "resolvedClassification": {
+        "phylum": null,
+        "class": null,
+        "order": null,
+        "family": null
+      },
+      "localExpectedParentConcept": null,
+      "lineageCompatibility": "compatible-immediate-parent",
+      "conceptReviewStatus": "unresolved",
+      "curatorDecision": "withhold-external-mapping"
     },
     {
       "entityId": "plantae",
@@ -47,7 +62,7 @@
       "localRank": "kingdom",
       "previousPbdbId": "txn:57260",
       "resolutionStatus": "resolved",
-      "resolutionReason": "resolved-name-rank-and-concept",
+      "resolutionReason": "resolved-exact-name-and-rank",
       "pbdbId": "txn:54311",
       "acceptedName": "Plantae",
       "acceptedRank": "kingdom",
@@ -61,7 +76,21 @@
       },
       "occurrenceCount": 152782,
       "referenceNo": "ref:35418",
-      "snapshotModifiedAt": "2013-10-27 04:21:23"
+      "snapshotModifiedAt": "2013-10-27 04:21:23",
+      "externalResolutionStatus": "resolved-exact",
+      "resolvedName": "Plantae",
+      "resolvedRank": "kingdom",
+      "resolvedImmediateParent": "Eukaryota",
+      "resolvedClassification": {
+        "phylum": null,
+        "class": null,
+        "order": null,
+        "family": null
+      },
+      "localExpectedParentConcept": "Life",
+      "lineageCompatibility": "incompatible",
+      "conceptReviewStatus": "needs-concept-review",
+      "curatorDecision": "needs-concept-review"
     },
     {
       "entityId": "bryophyta",
@@ -69,7 +98,7 @@
       "localRank": "phylum",
       "previousPbdbId": "txn:55134",
       "resolutionStatus": "resolved",
-      "resolutionReason": "resolved-name-rank-and-concept",
+      "resolutionReason": "resolved-exact-name-and-rank",
       "pbdbId": "txn:55134",
       "acceptedName": "Bryophyta",
       "acceptedRank": "phylum",
@@ -83,7 +112,21 @@
       },
       "occurrenceCount": 1305,
       "referenceNo": "ref:9410",
-      "snapshotModifiedAt": "2013-04-30 15:43:10"
+      "snapshotModifiedAt": "2013-04-30 15:43:10",
+      "externalResolutionStatus": "resolved-exact",
+      "resolvedName": "Bryophyta",
+      "resolvedRank": "phylum",
+      "resolvedImmediateParent": "Embryophyta",
+      "resolvedClassification": {
+        "phylum": "Bryophyta",
+        "class": null,
+        "order": null,
+        "family": null
+      },
+      "localExpectedParentConcept": "Plantae",
+      "lineageCompatibility": "incompatible",
+      "conceptReviewStatus": "needs-concept-review",
+      "curatorDecision": "needs-concept-review"
     },
     {
       "entityId": "lycophyta",
@@ -91,7 +134,7 @@
       "localRank": "phylum",
       "previousPbdbId": "txn:249949",
       "resolutionStatus": "resolved",
-      "resolutionReason": "resolved-name-rank-and-concept",
+      "resolutionReason": "resolved-exact-name-and-rank",
       "pbdbId": "txn:249949",
       "acceptedName": "Lycopodiophyta",
       "acceptedRank": "phylum",
@@ -105,7 +148,21 @@
       },
       "occurrenceCount": 2251,
       "referenceNo": "ref:43480",
-      "snapshotModifiedAt": "2013-04-30 15:43:10"
+      "snapshotModifiedAt": "2013-04-30 15:43:10",
+      "externalResolutionStatus": "resolved-exact",
+      "resolvedName": "Lycopodiophyta",
+      "resolvedRank": "phylum",
+      "resolvedImmediateParent": "Tracheophyta",
+      "resolvedClassification": {
+        "phylum": "Lycopodiophyta",
+        "class": null,
+        "order": null,
+        "family": null
+      },
+      "localExpectedParentConcept": "Plantae",
+      "lineageCompatibility": "incompatible",
+      "conceptReviewStatus": "needs-concept-review",
+      "curatorDecision": "needs-concept-review"
     },
     {
       "entityId": "lepidodendron",
@@ -113,7 +170,7 @@
       "localRank": "order",
       "previousPbdbId": "txn:125777",
       "resolutionStatus": "resolved",
-      "resolutionReason": "resolved-name-rank-and-concept",
+      "resolutionReason": "resolved-exact-name-and-rank",
       "pbdbId": "txn:157277",
       "acceptedName": "Lepidodendrales",
       "acceptedRank": "order",
@@ -127,7 +184,21 @@
       },
       "occurrenceCount": 491,
       "referenceNo": "ref:31141",
-      "snapshotModifiedAt": "2013-04-30 15:43:19"
+      "snapshotModifiedAt": "2013-04-30 15:43:19",
+      "externalResolutionStatus": "resolved-exact",
+      "resolvedName": "Lepidodendrales",
+      "resolvedRank": "order",
+      "resolvedImmediateParent": "Lycophyta",
+      "resolvedClassification": {
+        "phylum": "Lycophyta",
+        "class": "NO_CLASS_SPECIFIED",
+        "order": "Lepidodendrales",
+        "family": null
+      },
+      "localExpectedParentConcept": "Lycopodiophyta",
+      "lineageCompatibility": "incompatible",
+      "conceptReviewStatus": "needs-concept-review",
+      "curatorDecision": "needs-concept-review"
     },
     {
       "entityId": "pteridophyta",
@@ -135,7 +206,7 @@
       "localRank": "phylum",
       "previousPbdbId": "txn:55164",
       "resolutionStatus": "resolved",
-      "resolutionReason": "resolved-name-rank-and-concept",
+      "resolutionReason": "resolved-exact-name-and-rank",
       "pbdbId": "txn:54828",
       "acceptedName": "Pteridophyta",
       "acceptedRank": "phylum",
@@ -149,7 +220,21 @@
       },
       "occurrenceCount": 27926,
       "referenceNo": "ref:45895",
-      "snapshotModifiedAt": "2023-02-01 05:24:15"
+      "snapshotModifiedAt": "2023-02-01 05:24:15",
+      "externalResolutionStatus": "resolved-exact",
+      "resolvedName": "Pteridophyta",
+      "resolvedRank": "phylum",
+      "resolvedImmediateParent": "Tracheophyta",
+      "resolvedClassification": {
+        "phylum": "Pteridophyta",
+        "class": null,
+        "order": null,
+        "family": null
+      },
+      "localExpectedParentConcept": "Plantae",
+      "lineageCompatibility": "incompatible",
+      "conceptReviewStatus": "needs-concept-review",
+      "curatorDecision": "needs-concept-review"
     },
     {
       "entityId": "equisetopsida",
@@ -157,7 +242,7 @@
       "localRank": "class",
       "previousPbdbId": "txn:125773",
       "resolutionStatus": "resolved",
-      "resolutionReason": "resolved-name-rank-and-concept",
+      "resolutionReason": "resolved-exact-name-and-rank",
       "pbdbId": "txn:54758",
       "acceptedName": "Equisetopsida",
       "acceptedRank": "class",
@@ -171,7 +256,21 @@
       },
       "occurrenceCount": 4758,
       "referenceNo": "ref:8820",
-      "snapshotModifiedAt": "2013-04-30 15:43:10"
+      "snapshotModifiedAt": "2013-04-30 15:43:10",
+      "externalResolutionStatus": "resolved-exact",
+      "resolvedName": "Equisetopsida",
+      "resolvedRank": "class",
+      "resolvedImmediateParent": "Equisetophyta",
+      "resolvedClassification": {
+        "phylum": "Equisetophyta",
+        "class": "Equisetopsida",
+        "order": null,
+        "family": null
+      },
+      "localExpectedParentConcept": "Pteridophyta",
+      "lineageCompatibility": "incompatible",
+      "conceptReviewStatus": "needs-concept-review",
+      "curatorDecision": "needs-concept-review"
     },
     {
       "entityId": "filicopsida",
@@ -193,7 +292,21 @@
       },
       "occurrenceCount": 3766,
       "referenceNo": "ref:8806",
-      "snapshotModifiedAt": "2015-07-26 01:02:22"
+      "snapshotModifiedAt": "2015-07-26 01:02:22",
+      "externalResolutionStatus": "ambiguous",
+      "resolvedName": "Pteridopsida",
+      "resolvedRank": "class",
+      "resolvedImmediateParent": "Pteridophyta",
+      "resolvedClassification": {
+        "phylum": "Pteridophyta",
+        "class": "Pteridopsida",
+        "order": null,
+        "family": null
+      },
+      "localExpectedParentConcept": "Pteridophyta",
+      "lineageCompatibility": "compatible-immediate-parent",
+      "conceptReviewStatus": "unresolved",
+      "curatorDecision": "withhold-external-mapping"
     },
     {
       "entityId": "gymnospermae",
@@ -215,7 +328,21 @@
       },
       "occurrenceCount": 13532,
       "referenceNo": "ref:8820",
-      "snapshotModifiedAt": "2013-04-30 15:43:10"
+      "snapshotModifiedAt": "2013-04-30 15:43:10",
+      "externalResolutionStatus": "ambiguous",
+      "resolvedName": "Gymnospermae",
+      "resolvedRank": "phylum",
+      "resolvedImmediateParent": "Spermatophytata",
+      "resolvedClassification": {
+        "phylum": "Gymnospermae",
+        "class": null,
+        "order": null,
+        "family": null
+      },
+      "localExpectedParentConcept": "Plantae",
+      "lineageCompatibility": "incompatible",
+      "conceptReviewStatus": "needs-concept-review",
+      "curatorDecision": "needs-concept-review"
     },
     {
       "entityId": "cycadophyta",
@@ -223,7 +350,7 @@
       "localRank": "phylum",
       "previousPbdbId": "txn:54801",
       "resolutionStatus": "resolved",
-      "resolutionReason": "resolved-name-rank-and-concept",
+      "resolutionReason": "resolved-exact-name-and-rank",
       "pbdbId": "txn:56134",
       "acceptedName": "Cycadophyta",
       "acceptedRank": "phylum",
@@ -237,7 +364,21 @@
       },
       "occurrenceCount": 3961,
       "referenceNo": "ref:6475",
-      "snapshotModifiedAt": "2013-04-30 15:43:19"
+      "snapshotModifiedAt": "2013-04-30 15:43:19",
+      "externalResolutionStatus": "resolved-exact",
+      "resolvedName": "Cycadophyta",
+      "resolvedRank": "phylum",
+      "resolvedImmediateParent": "Embryophyta",
+      "resolvedClassification": {
+        "phylum": "Cycadophyta",
+        "class": null,
+        "order": null,
+        "family": null
+      },
+      "localExpectedParentConcept": "Gymnospermae",
+      "lineageCompatibility": "incompatible",
+      "conceptReviewStatus": "needs-concept-review",
+      "curatorDecision": "needs-concept-review"
     },
     {
       "entityId": "ginkgophyta",
@@ -245,7 +386,7 @@
       "localRank": "phylum",
       "previousPbdbId": "txn:54802",
       "resolutionStatus": "resolved",
-      "resolutionReason": "resolved-name-rank-and-concept",
+      "resolutionReason": "resolved-exact-name-and-rank",
       "pbdbId": "txn:56140",
       "acceptedName": "Ginkgophyta",
       "acceptedRank": "phylum",
@@ -259,7 +400,21 @@
       },
       "occurrenceCount": 5568,
       "referenceNo": "ref:6475",
-      "snapshotModifiedAt": "2013-04-30 15:43:19"
+      "snapshotModifiedAt": "2013-04-30 15:43:19",
+      "externalResolutionStatus": "resolved-exact",
+      "resolvedName": "Ginkgophyta",
+      "resolvedRank": "phylum",
+      "resolvedImmediateParent": "Embryophyta",
+      "resolvedClassification": {
+        "phylum": "Ginkgophyta",
+        "class": null,
+        "order": null,
+        "family": null
+      },
+      "localExpectedParentConcept": "Gymnospermae",
+      "lineageCompatibility": "incompatible",
+      "conceptReviewStatus": "needs-concept-review",
+      "curatorDecision": "needs-concept-review"
     },
     {
       "entityId": "coniferophyta",
@@ -267,7 +422,7 @@
       "localRank": "phylum",
       "previousPbdbId": "txn:54803",
       "resolutionStatus": "resolved",
-      "resolutionReason": "resolved-name-rank-and-concept",
+      "resolutionReason": "resolved-exact-name-and-rank",
       "pbdbId": "txn:56176",
       "acceptedName": "Coniferophyta",
       "acceptedRank": "phylum",
@@ -281,7 +436,21 @@
       },
       "occurrenceCount": 963,
       "referenceNo": "ref:6474",
-      "snapshotModifiedAt": "2023-02-07 05:11:53"
+      "snapshotModifiedAt": "2023-02-07 05:11:53",
+      "externalResolutionStatus": "resolved-exact",
+      "resolvedName": "Coniferophyta",
+      "resolvedRank": "phylum",
+      "resolvedImmediateParent": "Embryophyta",
+      "resolvedClassification": {
+        "phylum": "Coniferophyta",
+        "class": null,
+        "order": null,
+        "family": null
+      },
+      "localExpectedParentConcept": "Gymnospermae",
+      "lineageCompatibility": "incompatible",
+      "conceptReviewStatus": "needs-concept-review",
+      "curatorDecision": "needs-concept-review"
     },
     {
       "entityId": "araucariaceae",
@@ -289,7 +458,7 @@
       "localRank": "family",
       "previousPbdbId": "txn:54769",
       "resolutionStatus": "resolved",
-      "resolutionReason": "resolved-name-rank-and-concept",
+      "resolutionReason": "resolved-exact-name-and-rank",
       "pbdbId": "txn:54789",
       "acceptedName": "Araucariaceae",
       "acceptedRank": "family",
@@ -303,7 +472,21 @@
       },
       "occurrenceCount": 2458,
       "referenceNo": "ref:8820",
-      "snapshotModifiedAt": "2026-01-27 12:56:29"
+      "snapshotModifiedAt": "2026-01-27 12:56:29",
+      "externalResolutionStatus": "resolved-exact",
+      "resolvedName": "Araucariaceae",
+      "resolvedRank": "family",
+      "resolvedImmediateParent": "Pinidae",
+      "resolvedClassification": {
+        "phylum": "Equisetophyta",
+        "class": "Equisetopsida",
+        "order": "NO_ORDER_SPECIFIED",
+        "family": "Araucariaceae"
+      },
+      "localExpectedParentConcept": "Coniferophyta",
+      "lineageCompatibility": "incompatible",
+      "conceptReviewStatus": "needs-concept-review",
+      "curatorDecision": "needs-concept-review"
     },
     {
       "entityId": "angiospermae",
@@ -325,7 +508,21 @@
       },
       "occurrenceCount": 44203,
       "referenceNo": "ref:8820",
-      "snapshotModifiedAt": "2022-02-25 01:05:26"
+      "snapshotModifiedAt": "2022-02-25 01:05:26",
+      "externalResolutionStatus": "ambiguous",
+      "resolvedName": "Angiospermae",
+      "resolvedRank": "class",
+      "resolvedImmediateParent": "Spermatophyta",
+      "resolvedClassification": {
+        "phylum": "Angiospermae",
+        "class": null,
+        "order": null,
+        "family": null
+      },
+      "localExpectedParentConcept": "Plantae",
+      "lineageCompatibility": "incompatible",
+      "conceptReviewStatus": "needs-concept-review",
+      "curatorDecision": "needs-concept-review"
     },
     {
       "entityId": "monocotyledones",
@@ -347,7 +544,21 @@
       },
       "occurrenceCount": 1274,
       "referenceNo": "ref:4023",
-      "snapshotModifiedAt": "2013-04-30 15:43:10"
+      "snapshotModifiedAt": "2013-04-30 15:43:10",
+      "externalResolutionStatus": "ambiguous",
+      "resolvedName": "Monocotyledoneae",
+      "resolvedRank": "subclass",
+      "resolvedImmediateParent": "Angiospermae",
+      "resolvedClassification": {
+        "phylum": "Angiospermae",
+        "class": null,
+        "order": null,
+        "family": null
+      },
+      "localExpectedParentConcept": "Angiospermae",
+      "lineageCompatibility": "compatible-immediate-parent",
+      "conceptReviewStatus": "unresolved",
+      "curatorDecision": "withhold-external-mapping"
     },
     {
       "entityId": "poaceae",
@@ -355,7 +566,7 @@
       "localRank": "family",
       "previousPbdbId": "txn:53581",
       "resolutionStatus": "resolved",
-      "resolutionReason": "resolved-name-rank-and-concept",
+      "resolutionReason": "resolved-exact-name-and-rank",
       "pbdbId": "txn:53546",
       "acceptedName": "Poaceae",
       "acceptedRank": "family",
@@ -369,7 +580,21 @@
       },
       "occurrenceCount": 488,
       "referenceNo": "ref:76133",
-      "snapshotModifiedAt": "2022-05-24 02:43:24"
+      "snapshotModifiedAt": "2022-05-24 02:43:24",
+      "externalResolutionStatus": "resolved-exact",
+      "resolvedName": "Poaceae",
+      "resolvedRank": "family",
+      "resolvedImmediateParent": "Poales",
+      "resolvedClassification": {
+        "phylum": "Angiospermae",
+        "class": "NO_CLASS_SPECIFIED",
+        "order": "Poales",
+        "family": "Poaceae"
+      },
+      "localExpectedParentConcept": "Monocotyledones",
+      "lineageCompatibility": "incompatible",
+      "conceptReviewStatus": "needs-concept-review",
+      "curatorDecision": "needs-concept-review"
     },
     {
       "entityId": "eudicotyledones",
@@ -386,7 +611,16 @@
       "pbdbClassification": null,
       "occurrenceCount": null,
       "referenceNo": null,
-      "snapshotModifiedAt": null
+      "snapshotModifiedAt": null,
+      "externalResolutionStatus": "not-found",
+      "resolvedName": null,
+      "resolvedRank": null,
+      "resolvedImmediateParent": null,
+      "resolvedClassification": null,
+      "localExpectedParentConcept": "Angiospermae",
+      "lineageCompatibility": "indeterminate",
+      "conceptReviewStatus": "unresolved",
+      "curatorDecision": "withhold-external-mapping"
     },
     {
       "entityId": "fabaceae",
@@ -394,7 +628,7 @@
       "localRank": "family",
       "previousPbdbId": "txn:53875",
       "resolutionStatus": "resolved",
-      "resolutionReason": "resolved-name-rank-and-concept",
+      "resolutionReason": "resolved-exact-name-and-rank",
       "pbdbId": "txn:183021",
       "acceptedName": "Fabaceae",
       "acceptedRank": "family",
@@ -408,7 +642,73 @@
       },
       "occurrenceCount": 1251,
       "referenceNo": "ref:35420",
-      "snapshotModifiedAt": "2022-11-07 05:37:28"
+      "snapshotModifiedAt": "2022-11-07 05:37:28",
+      "externalResolutionStatus": "resolved-exact",
+      "resolvedName": "Fabaceae",
+      "resolvedRank": "family",
+      "resolvedImmediateParent": "Fabales",
+      "resolvedClassification": {
+        "phylum": "Angiospermae",
+        "class": "NO_CLASS_SPECIFIED",
+        "order": "Fabales",
+        "family": "Fabaceae"
+      },
+      "localExpectedParentConcept": "Eudicotyledones",
+      "lineageCompatibility": "incompatible",
+      "conceptReviewStatus": "needs-concept-review",
+      "curatorDecision": "needs-concept-review"
+    },
+    {
+      "entityId": "marchantiophyta",
+      "localName": "Marchantiophyta",
+      "localRank": "phylum",
+      "previousPbdbId": null,
+      "resolutionStatus": "unresolved",
+      "resolutionReason": "no-exact-name-in-snapshot",
+      "pbdbId": null,
+      "acceptedName": null,
+      "acceptedRank": null,
+      "matchedTaxonName": null,
+      "pbdbParentName": null,
+      "pbdbClassification": null,
+      "occurrenceCount": null,
+      "referenceNo": null,
+      "snapshotModifiedAt": null,
+      "externalResolutionStatus": "not-found",
+      "resolvedName": null,
+      "resolvedRank": null,
+      "resolvedImmediateParent": null,
+      "resolvedClassification": null,
+      "localExpectedParentConcept": "Plantae",
+      "lineageCompatibility": "indeterminate",
+      "conceptReviewStatus": "unresolved",
+      "curatorDecision": "withhold-external-mapping"
+    },
+    {
+      "entityId": "anthocerotophyta",
+      "localName": "Anthocerotophyta",
+      "localRank": "phylum",
+      "previousPbdbId": null,
+      "resolutionStatus": "unresolved",
+      "resolutionReason": "no-exact-name-in-snapshot",
+      "pbdbId": null,
+      "acceptedName": null,
+      "acceptedRank": null,
+      "matchedTaxonName": null,
+      "pbdbParentName": null,
+      "pbdbClassification": null,
+      "occurrenceCount": null,
+      "referenceNo": null,
+      "snapshotModifiedAt": null,
+      "externalResolutionStatus": "not-found",
+      "resolvedName": null,
+      "resolvedRank": null,
+      "resolvedImmediateParent": null,
+      "resolvedClassification": null,
+      "localExpectedParentConcept": "Plantae",
+      "lineageCompatibility": "indeterminate",
+      "conceptReviewStatus": "unresolved",
+      "curatorDecision": "withhold-external-mapping"
     },
     {
       "entityId": "invertebrata",
@@ -425,7 +725,16 @@
       "pbdbClassification": null,
       "occurrenceCount": null,
       "referenceNo": null,
-      "snapshotModifiedAt": null
+      "snapshotModifiedAt": null,
+      "externalResolutionStatus": "not-found",
+      "resolvedName": null,
+      "resolvedRank": null,
+      "resolvedImmediateParent": null,
+      "resolvedClassification": null,
+      "localExpectedParentConcept": "Life",
+      "lineageCompatibility": "indeterminate",
+      "conceptReviewStatus": "unresolved",
+      "curatorDecision": "withhold-external-mapping"
     },
     {
       "entityId": "porifera",
@@ -433,7 +742,7 @@
       "localRank": "phylum",
       "previousPbdbId": "txn:3670",
       "resolutionStatus": "resolved",
-      "resolutionReason": "resolved-name-rank-and-concept",
+      "resolutionReason": "resolved-exact-name-and-rank",
       "pbdbId": "txn:2894",
       "acceptedName": "Porifera",
       "acceptedRank": "phylum",
@@ -447,7 +756,21 @@
       },
       "occurrenceCount": 24638,
       "referenceNo": "ref:6930",
-      "snapshotModifiedAt": "2013-04-30 15:43:10"
+      "snapshotModifiedAt": "2013-04-30 15:43:10",
+      "externalResolutionStatus": "resolved-exact",
+      "resolvedName": "Porifera",
+      "resolvedRank": "phylum",
+      "resolvedImmediateParent": "Animalia",
+      "resolvedClassification": {
+        "phylum": "Porifera",
+        "class": null,
+        "order": null,
+        "family": null
+      },
+      "localExpectedParentConcept": "Invertebrata",
+      "lineageCompatibility": "incompatible",
+      "conceptReviewStatus": "needs-concept-review",
+      "curatorDecision": "needs-concept-review"
     },
     {
       "entityId": "stromatoporoidea",
@@ -455,7 +778,7 @@
       "localRank": "class",
       "previousPbdbId": "txn:70358",
       "resolutionStatus": "resolved",
-      "resolutionReason": "resolved-name-rank-and-concept",
+      "resolutionReason": "resolved-exact-name-and-rank",
       "pbdbId": "txn:3338",
       "acceptedName": "Stromatoporoidea",
       "acceptedRank": "class",
@@ -469,7 +792,21 @@
       },
       "occurrenceCount": 5049,
       "referenceNo": "ref:25011",
-      "snapshotModifiedAt": "2022-12-21 01:05:41"
+      "snapshotModifiedAt": "2022-12-21 01:05:41",
+      "externalResolutionStatus": "resolved-exact",
+      "resolvedName": "Stromatoporoidea",
+      "resolvedRank": "class",
+      "resolvedImmediateParent": "Porifera",
+      "resolvedClassification": {
+        "phylum": "Porifera",
+        "class": "Stromatoporoidea",
+        "order": null,
+        "family": null
+      },
+      "localExpectedParentConcept": "Porifera",
+      "lineageCompatibility": "compatible-immediate-parent",
+      "conceptReviewStatus": "compatible",
+      "curatorDecision": "accept-external-mapping"
     },
     {
       "entityId": "demospongiae",
@@ -477,7 +814,7 @@
       "localRank": "class",
       "previousPbdbId": "txn:70357",
       "resolutionStatus": "resolved",
-      "resolutionReason": "resolved-name-rank-and-concept",
+      "resolutionReason": "resolved-exact-name-and-rank",
       "pbdbId": "txn:2895",
       "acceptedName": "Demospongiae",
       "acceptedRank": "class",
@@ -491,7 +828,21 @@
       },
       "occurrenceCount": 9392,
       "referenceNo": "ref:15612",
-      "snapshotModifiedAt": "2022-12-17 01:05:32"
+      "snapshotModifiedAt": "2022-12-17 01:05:32",
+      "externalResolutionStatus": "resolved-exact",
+      "resolvedName": "Demospongiae",
+      "resolvedRank": "class",
+      "resolvedImmediateParent": "Porifera",
+      "resolvedClassification": {
+        "phylum": "Porifera",
+        "class": "Demospongiae",
+        "order": null,
+        "family": null
+      },
+      "localExpectedParentConcept": "Porifera",
+      "lineageCompatibility": "compatible-immediate-parent",
+      "conceptReviewStatus": "compatible",
+      "curatorDecision": "accept-external-mapping"
     },
     {
       "entityId": "cnidaria",
@@ -499,7 +850,7 @@
       "localRank": "phylum",
       "previousPbdbId": "txn:3671",
       "resolutionStatus": "resolved",
-      "resolutionReason": "resolved-name-rank-and-concept",
+      "resolutionReason": "resolved-exact-name-and-rank",
       "pbdbId": "txn:4524",
       "acceptedName": "Cnidaria",
       "acceptedRank": "phylum",
@@ -513,7 +864,21 @@
       },
       "occurrenceCount": 70697,
       "referenceNo": "ref:6930",
-      "snapshotModifiedAt": "2019-03-20 01:07:53"
+      "snapshotModifiedAt": "2019-03-20 01:07:53",
+      "externalResolutionStatus": "resolved-exact",
+      "resolvedName": "Cnidaria",
+      "resolvedRank": "phylum",
+      "resolvedImmediateParent": "Animalia",
+      "resolvedClassification": {
+        "phylum": "Cnidaria",
+        "class": null,
+        "order": null,
+        "family": null
+      },
+      "localExpectedParentConcept": "Invertebrata",
+      "lineageCompatibility": "incompatible",
+      "conceptReviewStatus": "needs-concept-review",
+      "curatorDecision": "needs-concept-review"
     },
     {
       "entityId": "anthozoa",
@@ -521,7 +886,7 @@
       "localRank": "class",
       "previousPbdbId": "txn:3673",
       "resolutionStatus": "resolved",
-      "resolutionReason": "resolved-name-rank-and-concept",
+      "resolutionReason": "resolved-exact-name-and-rank",
       "pbdbId": "txn:4742",
       "acceptedName": "Anthozoa",
       "acceptedRank": "class",
@@ -535,7 +900,21 @@
       },
       "occurrenceCount": 68369,
       "referenceNo": "ref:6930",
-      "snapshotModifiedAt": "2017-09-19 15:38:22"
+      "snapshotModifiedAt": "2017-09-19 15:38:22",
+      "externalResolutionStatus": "resolved-exact",
+      "resolvedName": "Anthozoa",
+      "resolvedRank": "class",
+      "resolvedImmediateParent": "Cnidaria",
+      "resolvedClassification": {
+        "phylum": "Cnidaria",
+        "class": "Anthozoa",
+        "order": null,
+        "family": null
+      },
+      "localExpectedParentConcept": "Cnidaria",
+      "lineageCompatibility": "compatible-immediate-parent",
+      "conceptReviewStatus": "compatible",
+      "curatorDecision": "accept-external-mapping"
     },
     {
       "entityId": "rugosa",
@@ -557,7 +936,21 @@
       },
       "occurrenceCount": 16690,
       "referenceNo": "ref:6930",
-      "snapshotModifiedAt": "2014-12-01 02:31:40"
+      "snapshotModifiedAt": "2014-12-01 02:31:40",
+      "externalResolutionStatus": "ambiguous",
+      "resolvedName": "Rugosa",
+      "resolvedRank": "subclass",
+      "resolvedImmediateParent": "Hexacorallia",
+      "resolvedClassification": {
+        "phylum": "Cnidaria",
+        "class": "Anthozoa",
+        "order": null,
+        "family": null
+      },
+      "localExpectedParentConcept": "Anthozoa",
+      "lineageCompatibility": "compatible-classification",
+      "conceptReviewStatus": "unresolved",
+      "curatorDecision": "withhold-external-mapping"
     },
     {
       "entityId": "tabulata",
@@ -579,7 +972,21 @@
       },
       "occurrenceCount": 10513,
       "referenceNo": "ref:9159",
-      "snapshotModifiedAt": "2014-12-01 02:56:34"
+      "snapshotModifiedAt": "2014-12-01 02:56:34",
+      "externalResolutionStatus": "ambiguous",
+      "resolvedName": "Tabulata",
+      "resolvedRank": "subclass",
+      "resolvedImmediateParent": "Anthozoa",
+      "resolvedClassification": {
+        "phylum": "Cnidaria",
+        "class": "Anthozoa",
+        "order": null,
+        "family": null
+      },
+      "localExpectedParentConcept": "Anthozoa",
+      "lineageCompatibility": "compatible-immediate-parent",
+      "conceptReviewStatus": "unresolved",
+      "curatorDecision": "withhold-external-mapping"
     },
     {
       "entityId": "scleractinia",
@@ -587,7 +994,7 @@
       "localRank": "order",
       "previousPbdbId": "txn:69552",
       "resolutionStatus": "resolved",
-      "resolutionReason": "resolved-name-rank-and-concept",
+      "resolutionReason": "resolved-exact-name-and-rank",
       "pbdbId": "txn:6108",
       "acceptedName": "Scleractinia",
       "acceptedRank": "order",
@@ -601,7 +1008,21 @@
       },
       "occurrenceCount": 38625,
       "referenceNo": "ref:6930",
-      "snapshotModifiedAt": "2022-12-11 19:40:51"
+      "snapshotModifiedAt": "2022-12-11 19:40:51",
+      "externalResolutionStatus": "resolved-exact",
+      "resolvedName": "Scleractinia",
+      "resolvedRank": "order",
+      "resolvedImmediateParent": "Hexacorallia",
+      "resolvedClassification": {
+        "phylum": "Cnidaria",
+        "class": "Anthozoa",
+        "order": "Scleractinia",
+        "family": null
+      },
+      "localExpectedParentConcept": "Anthozoa",
+      "lineageCompatibility": "compatible-classification",
+      "conceptReviewStatus": "compatible",
+      "curatorDecision": "accept-external-mapping"
     },
     {
       "entityId": "brachiopoda",
@@ -609,7 +1030,7 @@
       "localRank": "phylum",
       "previousPbdbId": "txn:3675",
       "resolutionStatus": "resolved",
-      "resolutionReason": "resolved-name-rank-and-concept",
+      "resolutionReason": "resolved-exact-name-and-rank",
       "pbdbId": "txn:26322",
       "acceptedName": "Brachiopoda",
       "acceptedRank": "phylum",
@@ -623,7 +1044,21 @@
       },
       "occurrenceCount": 187503,
       "referenceNo": "ref:6930",
-      "snapshotModifiedAt": "2013-10-27 02:51:19"
+      "snapshotModifiedAt": "2013-10-27 02:51:19",
+      "externalResolutionStatus": "resolved-exact",
+      "resolvedName": "Brachiopoda",
+      "resolvedRank": "phylum",
+      "resolvedImmediateParent": "Panbrachiopoda",
+      "resolvedClassification": {
+        "phylum": "Brachiopoda",
+        "class": null,
+        "order": null,
+        "family": null
+      },
+      "localExpectedParentConcept": "Invertebrata",
+      "lineageCompatibility": "incompatible",
+      "conceptReviewStatus": "needs-concept-review",
+      "curatorDecision": "needs-concept-review"
     },
     {
       "entityId": "articulata",
@@ -645,7 +1080,21 @@
       },
       "occurrenceCount": 1902,
       "referenceNo": "ref:23016",
-      "snapshotModifiedAt": "2019-07-15 08:15:51"
+      "snapshotModifiedAt": "2019-07-15 08:15:51",
+      "externalResolutionStatus": "ambiguous",
+      "resolvedName": "Articulata",
+      "resolvedRank": "subclass",
+      "resolvedImmediateParent": "Eucladida",
+      "resolvedClassification": {
+        "phylum": "Echinodermata",
+        "class": "Crinoidea",
+        "order": null,
+        "family": null
+      },
+      "localExpectedParentConcept": "Brachiopoda",
+      "lineageCompatibility": "incompatible",
+      "conceptReviewStatus": "needs-concept-review",
+      "curatorDecision": "needs-concept-review"
     },
     {
       "entityId": "spiriferida",
@@ -653,7 +1102,7 @@
       "localRank": "order",
       "previousPbdbId": "txn:69561",
       "resolutionStatus": "resolved",
-      "resolutionReason": "resolved-name-rank-and-concept",
+      "resolutionReason": "resolved-exact-name-and-rank",
       "pbdbId": "txn:29043",
       "acceptedName": "Spiriferida",
       "acceptedRank": "order",
@@ -667,7 +1116,21 @@
       },
       "occurrenceCount": 20002,
       "referenceNo": "ref:27310",
-      "snapshotModifiedAt": "2015-01-24 03:46:40"
+      "snapshotModifiedAt": "2015-01-24 03:46:40",
+      "externalResolutionStatus": "resolved-exact",
+      "resolvedName": "Spiriferida",
+      "resolvedRank": "order",
+      "resolvedImmediateParent": "Rhynchonellata",
+      "resolvedClassification": {
+        "phylum": "Brachiopoda",
+        "class": "Rhynchonellata",
+        "order": "Spiriferida",
+        "family": null
+      },
+      "localExpectedParentConcept": "Articulata",
+      "lineageCompatibility": "incompatible",
+      "conceptReviewStatus": "needs-concept-review",
+      "curatorDecision": "needs-concept-review"
     },
     {
       "entityId": "terebratulida",
@@ -675,7 +1138,7 @@
       "localRank": "order",
       "previousPbdbId": "txn:69562",
       "resolutionStatus": "resolved",
-      "resolutionReason": "resolved-name-rank-and-concept",
+      "resolutionReason": "resolved-exact-name-and-rank",
       "pbdbId": "txn:29979",
       "acceptedName": "Terebratulida",
       "acceptedRank": "order",
@@ -689,7 +1152,21 @@
       },
       "occurrenceCount": 18417,
       "referenceNo": "ref:27310",
-      "snapshotModifiedAt": "2015-01-25 04:31:07"
+      "snapshotModifiedAt": "2015-01-25 04:31:07",
+      "externalResolutionStatus": "resolved-exact",
+      "resolvedName": "Terebratulida",
+      "resolvedRank": "order",
+      "resolvedImmediateParent": "Rhynchonellata",
+      "resolvedClassification": {
+        "phylum": "Brachiopoda",
+        "class": "Rhynchonellata",
+        "order": "Terebratulida",
+        "family": null
+      },
+      "localExpectedParentConcept": "Articulata",
+      "lineageCompatibility": "incompatible",
+      "conceptReviewStatus": "needs-concept-review",
+      "curatorDecision": "needs-concept-review"
     },
     {
       "entityId": "mollusca",
@@ -697,7 +1174,7 @@
       "localRank": "phylum",
       "previousPbdbId": "txn:3678",
       "resolutionStatus": "resolved",
-      "resolutionReason": "resolved-name-rank-and-concept",
+      "resolutionReason": "resolved-exact-name-and-rank",
       "pbdbId": "txn:7805",
       "acceptedName": "Mollusca",
       "acceptedRank": "phylum",
@@ -711,7 +1188,21 @@
       },
       "occurrenceCount": 501721,
       "referenceNo": "ref:12782",
-      "snapshotModifiedAt": "2013-10-27 04:21:23"
+      "snapshotModifiedAt": "2013-10-27 04:21:23",
+      "externalResolutionStatus": "resolved-exact",
+      "resolvedName": "Mollusca",
+      "resolvedRank": "phylum",
+      "resolvedImmediateParent": "Lophotrochozoa",
+      "resolvedClassification": {
+        "phylum": "Mollusca",
+        "class": null,
+        "order": null,
+        "family": null
+      },
+      "localExpectedParentConcept": "Invertebrata",
+      "lineageCompatibility": "incompatible",
+      "conceptReviewStatus": "needs-concept-review",
+      "curatorDecision": "needs-concept-review"
     },
     {
       "entityId": "bivalvia",
@@ -719,7 +1210,7 @@
       "localRank": "class",
       "previousPbdbId": "txn:3680",
       "resolutionStatus": "resolved",
-      "resolutionReason": "resolved-name-rank-and-concept",
+      "resolutionReason": "resolved-exact-name-and-rank",
       "pbdbId": "txn:16005",
       "acceptedName": "Bivalvia",
       "acceptedRank": "class",
@@ -733,7 +1224,21 @@
       },
       "occurrenceCount": 211046,
       "referenceNo": "ref:12782",
-      "snapshotModifiedAt": "2013-10-27 04:21:23"
+      "snapshotModifiedAt": "2013-10-27 04:21:23",
+      "externalResolutionStatus": "resolved-exact",
+      "resolvedName": "Bivalvia",
+      "resolvedRank": "class",
+      "resolvedImmediateParent": "Mollusca",
+      "resolvedClassification": {
+        "phylum": "Mollusca",
+        "class": "Bivalvia",
+        "order": null,
+        "family": null
+      },
+      "localExpectedParentConcept": "Mollusca",
+      "lineageCompatibility": "compatible-immediate-parent",
+      "conceptReviewStatus": "compatible",
+      "curatorDecision": "accept-external-mapping"
     },
     {
       "entityId": "rudistae",
@@ -755,7 +1260,21 @@
       },
       "occurrenceCount": 5113,
       "referenceNo": "ref:28394",
-      "snapshotModifiedAt": "2019-02-06 01:05:05"
+      "snapshotModifiedAt": "2019-02-06 01:05:05",
+      "externalResolutionStatus": "ambiguous",
+      "resolvedName": "Hippuritida",
+      "resolvedRank": "order",
+      "resolvedImmediateParent": "Cardiiformii",
+      "resolvedClassification": {
+        "phylum": "Mollusca",
+        "class": "Bivalvia",
+        "order": "Hippuritida",
+        "family": null
+      },
+      "localExpectedParentConcept": "Bivalvia",
+      "lineageCompatibility": "compatible-classification",
+      "conceptReviewStatus": "unresolved",
+      "curatorDecision": "withhold-external-mapping"
     },
     {
       "entityId": "ostreoida",
@@ -777,7 +1296,21 @@
       },
       "occurrenceCount": 26789,
       "referenceNo": "ref:38358",
-      "snapshotModifiedAt": "2014-11-18 18:22:56"
+      "snapshotModifiedAt": "2014-11-18 18:22:56",
+      "externalResolutionStatus": "ambiguous",
+      "resolvedName": "Ostreida",
+      "resolvedRank": "order",
+      "resolvedImmediateParent": "Pteriomorphia",
+      "resolvedClassification": {
+        "phylum": "Mollusca",
+        "class": "Bivalvia",
+        "order": "Ostreida",
+        "family": null
+      },
+      "localExpectedParentConcept": "Bivalvia",
+      "lineageCompatibility": "compatible-classification",
+      "conceptReviewStatus": "unresolved",
+      "curatorDecision": "withhold-external-mapping"
     },
     {
       "entityId": "gastropoda",
@@ -785,7 +1318,7 @@
       "localRank": "class",
       "previousPbdbId": "txn:3681",
       "resolutionStatus": "resolved",
-      "resolutionReason": "resolved-name-rank-and-concept",
+      "resolutionReason": "resolved-exact-name-and-rank",
       "pbdbId": "txn:8304",
       "acceptedName": "Gastropoda",
       "acceptedRank": "class",
@@ -799,7 +1332,21 @@
       },
       "occurrenceCount": 168657,
       "referenceNo": "ref:78996",
-      "snapshotModifiedAt": "2025-12-17 03:27:10"
+      "snapshotModifiedAt": "2025-12-17 03:27:10",
+      "externalResolutionStatus": "resolved-exact",
+      "resolvedName": "Gastropoda",
+      "resolvedRank": "class",
+      "resolvedImmediateParent": "Mollusca",
+      "resolvedClassification": {
+        "phylum": "Mollusca",
+        "class": "Gastropoda",
+        "order": null,
+        "family": null
+      },
+      "localExpectedParentConcept": "Mollusca",
+      "lineageCompatibility": "compatible-immediate-parent",
+      "conceptReviewStatus": "compatible",
+      "curatorDecision": "accept-external-mapping"
     },
     {
       "entityId": "cephalopoda",
@@ -807,7 +1354,7 @@
       "localRank": "class",
       "previousPbdbId": "txn:3682",
       "resolutionStatus": "resolved",
-      "resolutionReason": "resolved-name-rank-and-concept",
+      "resolutionReason": "resolved-exact-name-and-rank",
       "pbdbId": "txn:12315",
       "acceptedName": "Cephalopoda",
       "acceptedRank": "class",
@@ -821,7 +1368,21 @@
       },
       "occurrenceCount": 111624,
       "referenceNo": "ref:6930",
-      "snapshotModifiedAt": "2017-09-05 06:26:40"
+      "snapshotModifiedAt": "2017-09-05 06:26:40",
+      "externalResolutionStatus": "resolved-exact",
+      "resolvedName": "Cephalopoda",
+      "resolvedRank": "class",
+      "resolvedImmediateParent": "Mollusca",
+      "resolvedClassification": {
+        "phylum": "Mollusca",
+        "class": "Cephalopoda",
+        "order": null,
+        "family": null
+      },
+      "localExpectedParentConcept": "Mollusca",
+      "lineageCompatibility": "compatible-immediate-parent",
+      "conceptReviewStatus": "compatible",
+      "curatorDecision": "accept-external-mapping"
     },
     {
       "entityId": "nautiloidea",
@@ -829,7 +1390,7 @@
       "localRank": "subclass",
       "previousPbdbId": "txn:69580",
       "resolutionStatus": "resolved",
-      "resolutionReason": "resolved-name-rank-and-concept",
+      "resolutionReason": "resolved-exact-name-and-rank",
       "pbdbId": "txn:61323",
       "acceptedName": "Nautiloidea",
       "acceptedRank": "subclass",
@@ -843,7 +1404,21 @@
       },
       "occurrenceCount": 490,
       "referenceNo": "ref:11861",
-      "snapshotModifiedAt": "2013-04-30 15:43:10"
+      "snapshotModifiedAt": "2013-04-30 15:43:10",
+      "externalResolutionStatus": "resolved-exact",
+      "resolvedName": "Nautiloidea",
+      "resolvedRank": "subclass",
+      "resolvedImmediateParent": "Cephalopoda",
+      "resolvedClassification": {
+        "phylum": "Mollusca",
+        "class": "Cephalopoda",
+        "order": null,
+        "family": null
+      },
+      "localExpectedParentConcept": "Cephalopoda",
+      "lineageCompatibility": "compatible-immediate-parent",
+      "conceptReviewStatus": "compatible",
+      "curatorDecision": "accept-external-mapping"
     },
     {
       "entityId": "ammonoidea",
@@ -851,7 +1426,7 @@
       "localRank": "subclass",
       "previousPbdbId": "txn:69581",
       "resolutionStatus": "resolved",
-      "resolutionReason": "resolved-name-rank-and-concept",
+      "resolutionReason": "resolved-exact-name-and-rank",
       "pbdbId": "txn:14505",
       "acceptedName": "Ammonoidea",
       "acceptedRank": "subclass",
@@ -865,7 +1440,21 @@
       },
       "occurrenceCount": 94276,
       "referenceNo": "ref:87757",
-      "snapshotModifiedAt": "2013-04-30 15:43:10"
+      "snapshotModifiedAt": "2013-04-30 15:43:10",
+      "externalResolutionStatus": "resolved-exact",
+      "resolvedName": "Ammonoidea",
+      "resolvedRank": "subclass",
+      "resolvedImmediateParent": "Cephalopoda",
+      "resolvedClassification": {
+        "phylum": "Mollusca",
+        "class": "Cephalopoda",
+        "order": "Ammonoidea",
+        "family": null
+      },
+      "localExpectedParentConcept": "Cephalopoda",
+      "lineageCompatibility": "compatible-immediate-parent",
+      "conceptReviewStatus": "compatible",
+      "curatorDecision": "accept-external-mapping"
     },
     {
       "entityId": "goniatitida",
@@ -873,7 +1462,7 @@
       "localRank": "order",
       "previousPbdbId": "txn:69582",
       "resolutionStatus": "resolved",
-      "resolutionReason": "resolved-name-rank-and-concept",
+      "resolutionReason": "resolved-exact-name-and-rank",
       "pbdbId": "txn:13602",
       "acceptedName": "Goniatitida",
       "acceptedRank": "order",
@@ -887,7 +1476,21 @@
       },
       "occurrenceCount": 8560,
       "referenceNo": "ref:6930",
-      "snapshotModifiedAt": "2013-04-30 15:43:10"
+      "snapshotModifiedAt": "2013-04-30 15:43:10",
+      "externalResolutionStatus": "resolved-exact",
+      "resolvedName": "Goniatitida",
+      "resolvedRank": "order",
+      "resolvedImmediateParent": "Ammonoidea",
+      "resolvedClassification": {
+        "phylum": "Mollusca",
+        "class": "Cephalopoda",
+        "order": "Goniatitida",
+        "family": null
+      },
+      "localExpectedParentConcept": "Ammonoidea",
+      "lineageCompatibility": "compatible-immediate-parent",
+      "conceptReviewStatus": "compatible",
+      "curatorDecision": "accept-external-mapping"
     },
     {
       "entityId": "ceratitida",
@@ -895,7 +1498,7 @@
       "localRank": "order",
       "previousPbdbId": "txn:69583",
       "resolutionStatus": "resolved",
-      "resolutionReason": "resolved-name-rank-and-concept",
+      "resolutionReason": "resolved-exact-name-and-rank",
       "pbdbId": "txn:14000",
       "acceptedName": "Ceratitida",
       "acceptedRank": "order",
@@ -909,7 +1512,21 @@
       },
       "occurrenceCount": 20055,
       "referenceNo": "ref:6930",
-      "snapshotModifiedAt": "2020-09-04 06:04:04"
+      "snapshotModifiedAt": "2020-09-04 06:04:04",
+      "externalResolutionStatus": "resolved-exact",
+      "resolvedName": "Ceratitida",
+      "resolvedRank": "order",
+      "resolvedImmediateParent": "Ammonoidea",
+      "resolvedClassification": {
+        "phylum": "Mollusca",
+        "class": "Cephalopoda",
+        "order": "Ceratitida",
+        "family": null
+      },
+      "localExpectedParentConcept": "Ammonoidea",
+      "lineageCompatibility": "compatible-immediate-parent",
+      "conceptReviewStatus": "compatible",
+      "curatorDecision": "accept-external-mapping"
     },
     {
       "entityId": "ammonitida",
@@ -917,7 +1534,7 @@
       "localRank": "order",
       "previousPbdbId": "txn:69584",
       "resolutionStatus": "resolved",
-      "resolutionReason": "resolved-name-rank-and-concept",
+      "resolutionReason": "resolved-exact-name-and-rank",
       "pbdbId": "txn:84931",
       "acceptedName": "Ammonitida",
       "acceptedRank": "order",
@@ -931,7 +1548,21 @@
       },
       "occurrenceCount": 57693,
       "referenceNo": "ref:87787",
-      "snapshotModifiedAt": "2025-03-19 20:33:57"
+      "snapshotModifiedAt": "2025-03-19 20:33:57",
+      "externalResolutionStatus": "resolved-exact",
+      "resolvedName": "Ammonitida",
+      "resolvedRank": "order",
+      "resolvedImmediateParent": "Ammonoidea",
+      "resolvedClassification": {
+        "phylum": "Mollusca",
+        "class": "Cephalopoda",
+        "order": "Ammonitida",
+        "family": null
+      },
+      "localExpectedParentConcept": "Ammonoidea",
+      "lineageCompatibility": "compatible-immediate-parent",
+      "conceptReviewStatus": "compatible",
+      "curatorDecision": "accept-external-mapping"
     },
     {
       "entityId": "coleoidea",
@@ -939,7 +1570,7 @@
       "localRank": "subclass",
       "previousPbdbId": "txn:69585",
       "resolutionStatus": "resolved",
-      "resolutionReason": "resolved-name-rank-and-concept",
+      "resolutionReason": "resolved-exact-name-and-rank",
       "pbdbId": "txn:59785",
       "acceptedName": "Coleoidea",
       "acceptedRank": "subclass",
@@ -953,7 +1584,21 @@
       },
       "occurrenceCount": 3008,
       "referenceNo": "ref:11861",
-      "snapshotModifiedAt": "2013-04-30 15:43:10"
+      "snapshotModifiedAt": "2013-04-30 15:43:10",
+      "externalResolutionStatus": "resolved-exact",
+      "resolvedName": "Coleoidea",
+      "resolvedRank": "subclass",
+      "resolvedImmediateParent": "Cephalopoda",
+      "resolvedClassification": {
+        "phylum": "Mollusca",
+        "class": "Cephalopoda",
+        "order": null,
+        "family": null
+      },
+      "localExpectedParentConcept": "Cephalopoda",
+      "lineageCompatibility": "compatible-immediate-parent",
+      "conceptReviewStatus": "compatible",
+      "curatorDecision": "accept-external-mapping"
     },
     {
       "entityId": "belemnitida",
@@ -961,7 +1606,7 @@
       "localRank": "order",
       "previousPbdbId": "txn:69586",
       "resolutionStatus": "resolved",
-      "resolutionReason": "resolved-name-rank-and-concept",
+      "resolutionReason": "resolved-exact-name-and-rank",
       "pbdbId": "txn:15832",
       "acceptedName": "Belemnitida",
       "acceptedRank": "order",
@@ -975,7 +1620,21 @@
       },
       "occurrenceCount": 2081,
       "referenceNo": "ref:6930",
-      "snapshotModifiedAt": "2025-03-19 20:38:59"
+      "snapshotModifiedAt": "2025-03-19 20:38:59",
+      "externalResolutionStatus": "resolved-exact",
+      "resolvedName": "Belemnitida",
+      "resolvedRank": "order",
+      "resolvedImmediateParent": "Decabrachia",
+      "resolvedClassification": {
+        "phylum": "Mollusca",
+        "class": "Cephalopoda",
+        "order": "Belemnitida",
+        "family": null
+      },
+      "localExpectedParentConcept": "Coleoidea",
+      "lineageCompatibility": "incompatible",
+      "conceptReviewStatus": "needs-concept-review",
+      "curatorDecision": "needs-concept-review"
     },
     {
       "entityId": "arthropoda",
@@ -983,7 +1642,7 @@
       "localRank": "phylum",
       "previousPbdbId": "txn:3686",
       "resolutionStatus": "resolved",
-      "resolutionReason": "resolved-name-rank-and-concept",
+      "resolutionReason": "resolved-exact-name-and-rank",
       "pbdbId": "txn:18891",
       "acceptedName": "Arthropoda",
       "acceptedRank": "phylum",
@@ -997,7 +1656,21 @@
       },
       "occurrenceCount": 167029,
       "referenceNo": "ref:6930",
-      "snapshotModifiedAt": "2025-06-19 20:56:36"
+      "snapshotModifiedAt": "2025-06-19 20:56:36",
+      "externalResolutionStatus": "resolved-exact",
+      "resolvedName": "Arthropoda",
+      "resolvedRank": "phylum",
+      "resolvedImmediateParent": "Panarthropoda",
+      "resolvedClassification": {
+        "phylum": "Arthropoda",
+        "class": null,
+        "order": null,
+        "family": null
+      },
+      "localExpectedParentConcept": "Invertebrata",
+      "lineageCompatibility": "incompatible",
+      "conceptReviewStatus": "needs-concept-review",
+      "curatorDecision": "needs-concept-review"
     },
     {
       "entityId": "trilobita",
@@ -1005,7 +1678,7 @@
       "localRank": "class",
       "previousPbdbId": "txn:19114",
       "resolutionStatus": "resolved",
-      "resolutionReason": "resolved-name-rank-and-concept",
+      "resolutionReason": "resolved-exact-name-and-rank",
       "pbdbId": "txn:19100",
       "acceptedName": "Trilobita",
       "acceptedRank": "class",
@@ -1019,7 +1692,21 @@
       },
       "occurrenceCount": 55955,
       "referenceNo": "ref:6930",
-      "snapshotModifiedAt": "2018-01-29 01:04:33"
+      "snapshotModifiedAt": "2018-01-29 01:04:33",
+      "externalResolutionStatus": "resolved-exact",
+      "resolvedName": "Trilobita",
+      "resolvedRank": "class",
+      "resolvedImmediateParent": "Artiopoda",
+      "resolvedClassification": {
+        "phylum": "Arthropoda",
+        "class": "Trilobita",
+        "order": null,
+        "family": null
+      },
+      "localExpectedParentConcept": "Arthropoda",
+      "lineageCompatibility": "compatible-classification",
+      "conceptReviewStatus": "compatible",
+      "curatorDecision": "accept-external-mapping"
     },
     {
       "entityId": "phacopida",
@@ -1027,7 +1714,7 @@
       "localRank": "order",
       "previousPbdbId": "txn:69590",
       "resolutionStatus": "resolved",
-      "resolutionReason": "resolved-name-rank-and-concept",
+      "resolutionReason": "resolved-exact-name-and-rank",
       "pbdbId": "txn:21421",
       "acceptedName": "Phacopida",
       "acceptedRank": "order",
@@ -1041,7 +1728,21 @@
       },
       "occurrenceCount": 12078,
       "referenceNo": "ref:6930",
-      "snapshotModifiedAt": "2017-11-17 07:40:41"
+      "snapshotModifiedAt": "2017-11-17 07:40:41",
+      "externalResolutionStatus": "resolved-exact",
+      "resolvedName": "Phacopida",
+      "resolvedRank": "order",
+      "resolvedImmediateParent": "Trilobita",
+      "resolvedClassification": {
+        "phylum": "Arthropoda",
+        "class": "Trilobita",
+        "order": "Phacopida",
+        "family": null
+      },
+      "localExpectedParentConcept": "Trilobita",
+      "lineageCompatibility": "compatible-immediate-parent",
+      "conceptReviewStatus": "compatible",
+      "curatorDecision": "accept-external-mapping"
     },
     {
       "entityId": "ptychopariida",
@@ -1049,7 +1750,7 @@
       "localRank": "order",
       "previousPbdbId": "txn:69591",
       "resolutionStatus": "resolved",
-      "resolutionReason": "resolved-name-rank-and-concept",
+      "resolutionReason": "resolved-exact-name-and-rank",
       "pbdbId": "txn:20239",
       "acceptedName": "Ptychopariida",
       "acceptedRank": "order",
@@ -1063,7 +1764,21 @@
       },
       "occurrenceCount": 6339,
       "referenceNo": "ref:6930",
-      "snapshotModifiedAt": "2017-12-22 10:01:42"
+      "snapshotModifiedAt": "2017-12-22 10:01:42",
+      "externalResolutionStatus": "resolved-exact",
+      "resolvedName": "Ptychopariida",
+      "resolvedRank": "order",
+      "resolvedImmediateParent": "Libristoma",
+      "resolvedClassification": {
+        "phylum": "Arthropoda",
+        "class": "Trilobita",
+        "order": "Ptychopariida",
+        "family": null
+      },
+      "localExpectedParentConcept": "Trilobita",
+      "lineageCompatibility": "compatible-classification",
+      "conceptReviewStatus": "compatible",
+      "curatorDecision": "accept-external-mapping"
     },
     {
       "entityId": "corynexochida",
@@ -1071,7 +1786,7 @@
       "localRank": "order",
       "previousPbdbId": "txn:69592",
       "resolutionStatus": "resolved",
-      "resolutionReason": "resolved-name-rank-and-concept",
+      "resolutionReason": "resolved-exact-name-and-rank",
       "pbdbId": "txn:19472",
       "acceptedName": "Corynexochida",
       "acceptedRank": "order",
@@ -1085,7 +1800,21 @@
       },
       "occurrenceCount": 6142,
       "referenceNo": "ref:15308",
-      "snapshotModifiedAt": "2024-01-14 01:04:30"
+      "snapshotModifiedAt": "2024-01-14 01:04:30",
+      "externalResolutionStatus": "resolved-exact",
+      "resolvedName": "Corynexochida",
+      "resolvedRank": "order",
+      "resolvedImmediateParent": "Trilobita",
+      "resolvedClassification": {
+        "phylum": "Arthropoda",
+        "class": "Trilobita",
+        "order": "Corynexochida",
+        "family": null
+      },
+      "localExpectedParentConcept": "Trilobita",
+      "lineageCompatibility": "compatible-immediate-parent",
+      "conceptReviewStatus": "compatible",
+      "curatorDecision": "accept-external-mapping"
     },
     {
       "entityId": "chelicerata",
@@ -1093,7 +1822,7 @@
       "localRank": "subphylum",
       "previousPbdbId": "txn:3687",
       "resolutionStatus": "resolved",
-      "resolutionReason": "resolved-name-rank-and-concept",
+      "resolutionReason": "resolved-exact-name-and-rank",
       "pbdbId": "txn:91508",
       "acceptedName": "Chelicerata",
       "acceptedRank": "subphylum",
@@ -1107,7 +1836,21 @@
       },
       "occurrenceCount": 4901,
       "referenceNo": "ref:19523",
-      "snapshotModifiedAt": "2017-02-21 13:46:38"
+      "snapshotModifiedAt": "2017-02-21 13:46:38",
+      "externalResolutionStatus": "resolved-exact",
+      "resolvedName": "Chelicerata",
+      "resolvedRank": "subphylum",
+      "resolvedImmediateParent": "Deuteropoda",
+      "resolvedClassification": {
+        "phylum": "Arthropoda",
+        "class": null,
+        "order": null,
+        "family": null
+      },
+      "localExpectedParentConcept": "Arthropoda",
+      "lineageCompatibility": "compatible-classification",
+      "conceptReviewStatus": "compatible",
+      "curatorDecision": "accept-external-mapping"
     },
     {
       "entityId": "eurypterida",
@@ -1115,7 +1858,7 @@
       "localRank": "order",
       "previousPbdbId": "txn:69595",
       "resolutionStatus": "resolved",
-      "resolutionReason": "resolved-name-rank-and-concept",
+      "resolutionReason": "resolved-exact-name-and-rank",
       "pbdbId": "txn:18947",
       "acceptedName": "Eurypterida",
       "acceptedRank": "order",
@@ -1129,7 +1872,21 @@
       },
       "occurrenceCount": 603,
       "referenceNo": "ref:29262",
-      "snapshotModifiedAt": "2020-06-03 01:05:04"
+      "snapshotModifiedAt": "2020-06-03 01:05:04",
+      "externalResolutionStatus": "resolved-exact",
+      "resolvedName": "Eurypterida",
+      "resolvedRank": "order",
+      "resolvedImmediateParent": "Chelicerata",
+      "resolvedClassification": {
+        "phylum": "Arthropoda",
+        "class": "NO_CLASS_SPECIFIED",
+        "order": "Eurypterida",
+        "family": null
+      },
+      "localExpectedParentConcept": "Chelicerata",
+      "lineageCompatibility": "compatible-immediate-parent",
+      "conceptReviewStatus": "compatible",
+      "curatorDecision": "accept-external-mapping"
     },
     {
       "entityId": "insecta",
@@ -1137,7 +1894,7 @@
       "localRank": "class",
       "previousPbdbId": "txn:3688",
       "resolutionStatus": "resolved",
-      "resolutionReason": "resolved-name-rank-and-concept",
+      "resolutionReason": "resolved-exact-name-and-rank",
       "pbdbId": "txn:56637",
       "acceptedName": "Insecta",
       "acceptedRank": "class",
@@ -1151,7 +1908,47 @@
       },
       "occurrenceCount": 53460,
       "referenceNo": "ref:12782",
-      "snapshotModifiedAt": "2013-10-27 04:21:23"
+      "snapshotModifiedAt": "2013-10-27 04:21:23",
+      "externalResolutionStatus": "resolved-exact",
+      "resolvedName": "Insecta",
+      "resolvedRank": "class",
+      "resolvedImmediateParent": "Cercofilata",
+      "resolvedClassification": {
+        "phylum": "Arthropoda",
+        "class": "Insecta",
+        "order": null,
+        "family": null
+      },
+      "localExpectedParentConcept": "Arthropoda",
+      "lineageCompatibility": "compatible-classification",
+      "conceptReviewStatus": "compatible",
+      "curatorDecision": "accept-external-mapping"
+    },
+    {
+      "entityId": "odonatoptera",
+      "localName": "Odonatoptera",
+      "localRank": "navigation group",
+      "previousPbdbId": null,
+      "resolutionStatus": "unresolved",
+      "resolutionReason": "no-exact-name-in-snapshot",
+      "pbdbId": null,
+      "acceptedName": null,
+      "acceptedRank": null,
+      "matchedTaxonName": null,
+      "pbdbParentName": null,
+      "pbdbClassification": null,
+      "occurrenceCount": null,
+      "referenceNo": null,
+      "snapshotModifiedAt": null,
+      "externalResolutionStatus": "not-found",
+      "resolvedName": null,
+      "resolvedRank": null,
+      "resolvedImmediateParent": null,
+      "resolvedClassification": null,
+      "localExpectedParentConcept": "Insecta",
+      "lineageCompatibility": "indeterminate",
+      "conceptReviewStatus": "unresolved",
+      "curatorDecision": "withhold-external-mapping"
     },
     {
       "entityId": "odonata",
@@ -1159,7 +1956,7 @@
       "localRank": "order",
       "previousPbdbId": "txn:69596",
       "resolutionStatus": "resolved",
-      "resolutionReason": "resolved-name-rank-and-concept",
+      "resolutionReason": "resolved-exact-name-and-rank",
       "pbdbId": "txn:71353",
       "acceptedName": "Odonata",
       "acceptedRank": "order",
@@ -1173,7 +1970,47 @@
       },
       "occurrenceCount": 1679,
       "referenceNo": "ref:56416",
-      "snapshotModifiedAt": "2015-09-20 01:02:23"
+      "snapshotModifiedAt": "2015-09-20 01:02:23",
+      "externalResolutionStatus": "resolved-exact",
+      "resolvedName": "Odonata",
+      "resolvedRank": "order",
+      "resolvedImmediateParent": "Panodonata",
+      "resolvedClassification": {
+        "phylum": "Arthropoda",
+        "class": "Insecta",
+        "order": "Odonata",
+        "family": null
+      },
+      "localExpectedParentConcept": "Odonatoptera",
+      "lineageCompatibility": "incompatible",
+      "conceptReviewStatus": "needs-concept-review",
+      "curatorDecision": "needs-concept-review"
+    },
+    {
+      "entityId": "meganisoptera",
+      "localName": "Meganisoptera",
+      "localRank": "order",
+      "previousPbdbId": null,
+      "resolutionStatus": "unresolved",
+      "resolutionReason": "no-exact-name-in-snapshot",
+      "pbdbId": null,
+      "acceptedName": null,
+      "acceptedRank": null,
+      "matchedTaxonName": null,
+      "pbdbParentName": null,
+      "pbdbClassification": null,
+      "occurrenceCount": null,
+      "referenceNo": null,
+      "snapshotModifiedAt": null,
+      "externalResolutionStatus": "not-found",
+      "resolvedName": null,
+      "resolvedRank": null,
+      "resolvedImmediateParent": null,
+      "resolvedClassification": null,
+      "localExpectedParentConcept": "Odonatoptera",
+      "lineageCompatibility": "indeterminate",
+      "conceptReviewStatus": "unresolved",
+      "curatorDecision": "withhold-external-mapping"
     },
     {
       "entityId": "meganeura",
@@ -1181,7 +2018,7 @@
       "localRank": "genus",
       "previousPbdbId": "txn:175866",
       "resolutionStatus": "resolved",
-      "resolutionReason": "resolved-name-rank-and-concept",
+      "resolutionReason": "resolved-exact-name-and-rank",
       "pbdbId": "txn:175803",
       "acceptedName": "Meganeura",
       "acceptedRank": "genus",
@@ -1195,7 +2032,21 @@
       },
       "occurrenceCount": 7,
       "referenceNo": "ref:49230",
-      "snapshotModifiedAt": "2014-04-14 00:19:57"
+      "snapshotModifiedAt": "2014-04-14 00:19:57",
+      "externalResolutionStatus": "resolved-exact",
+      "resolvedName": "Meganeura",
+      "resolvedRank": "genus",
+      "resolvedImmediateParent": "Meganeurinae",
+      "resolvedClassification": {
+        "phylum": "Arthropoda",
+        "class": "Insecta",
+        "order": "Meganisoptera",
+        "family": "Meganeuridae"
+      },
+      "localExpectedParentConcept": "Meganisoptera",
+      "lineageCompatibility": "compatible-classification",
+      "conceptReviewStatus": "compatible",
+      "curatorDecision": "accept-external-mapping"
     },
     {
       "entityId": "coleoptera",
@@ -1203,7 +2054,7 @@
       "localRank": "order",
       "previousPbdbId": "txn:69597",
       "resolutionStatus": "resolved",
-      "resolutionReason": "resolved-name-rank-and-concept",
+      "resolutionReason": "resolved-exact-name-and-rank",
       "pbdbId": "txn:69148",
       "acceptedName": "Coleoptera",
       "acceptedRank": "order",
@@ -1217,7 +2068,21 @@
       },
       "occurrenceCount": 14702,
       "referenceNo": "ref:12782",
-      "snapshotModifiedAt": "2015-09-13 10:20:19"
+      "snapshotModifiedAt": "2015-09-13 10:20:19",
+      "externalResolutionStatus": "resolved-exact",
+      "resolvedName": "Coleoptera",
+      "resolvedRank": "order",
+      "resolvedImmediateParent": "Coleopterida",
+      "resolvedClassification": {
+        "phylum": "Arthropoda",
+        "class": "Insecta",
+        "order": "Coleoptera",
+        "family": null
+      },
+      "localExpectedParentConcept": "Insecta",
+      "lineageCompatibility": "compatible-classification",
+      "conceptReviewStatus": "compatible",
+      "curatorDecision": "accept-external-mapping"
     },
     {
       "entityId": "hymenoptera",
@@ -1225,7 +2090,7 @@
       "localRank": "order",
       "previousPbdbId": "txn:69598",
       "resolutionStatus": "resolved",
-      "resolutionReason": "resolved-name-rank-and-concept",
+      "resolutionReason": "resolved-exact-name-and-rank",
       "pbdbId": "txn:70707",
       "acceptedName": "Hymenoptera",
       "acceptedRank": "order",
@@ -1239,7 +2104,21 @@
       },
       "occurrenceCount": 6564,
       "referenceNo": "ref:12782",
-      "snapshotModifiedAt": "2015-09-13 10:21:55"
+      "snapshotModifiedAt": "2015-09-13 10:21:55",
+      "externalResolutionStatus": "resolved-exact",
+      "resolvedName": "Hymenoptera",
+      "resolvedRank": "order",
+      "resolvedImmediateParent": "Hymenopterida",
+      "resolvedClassification": {
+        "phylum": "Arthropoda",
+        "class": "Insecta",
+        "order": "Hymenoptera",
+        "family": null
+      },
+      "localExpectedParentConcept": "Insecta",
+      "lineageCompatibility": "compatible-classification",
+      "conceptReviewStatus": "compatible",
+      "curatorDecision": "accept-external-mapping"
     },
     {
       "entityId": "crustacea",
@@ -1247,7 +2126,7 @@
       "localRank": "subphylum",
       "previousPbdbId": "txn:3689",
       "resolutionStatus": "resolved",
-      "resolutionReason": "resolved-name-rank-and-concept",
+      "resolutionReason": "resolved-exact-name-and-rank",
       "pbdbId": "txn:82629",
       "acceptedName": "Crustacea",
       "acceptedRank": "subphylum",
@@ -1261,7 +2140,21 @@
       },
       "occurrenceCount": 2168,
       "referenceNo": "ref:12074",
-      "snapshotModifiedAt": "2015-09-27 01:02:21"
+      "snapshotModifiedAt": "2015-09-27 01:02:21",
+      "externalResolutionStatus": "resolved-exact",
+      "resolvedName": "Crustacea",
+      "resolvedRank": "subphylum",
+      "resolvedImmediateParent": "Arthropoda",
+      "resolvedClassification": {
+        "phylum": "Arthropoda",
+        "class": null,
+        "order": null,
+        "family": null
+      },
+      "localExpectedParentConcept": "Arthropoda",
+      "lineageCompatibility": "compatible-immediate-parent",
+      "conceptReviewStatus": "compatible",
+      "curatorDecision": "accept-external-mapping"
     },
     {
       "entityId": "ostracoda",
@@ -1269,7 +2162,7 @@
       "localRank": "class",
       "previousPbdbId": "txn:69600",
       "resolutionStatus": "resolved",
-      "resolutionReason": "resolved-name-rank-and-concept",
+      "resolutionReason": "resolved-exact-name-and-rank",
       "pbdbId": "txn:22826",
       "acceptedName": "Ostracoda",
       "acceptedRank": "class",
@@ -1283,7 +2176,21 @@
       },
       "occurrenceCount": 31613,
       "referenceNo": "ref:12074",
-      "snapshotModifiedAt": "2023-10-11 01:04:05"
+      "snapshotModifiedAt": "2023-10-11 01:04:05",
+      "externalResolutionStatus": "resolved-exact",
+      "resolvedName": "Ostracoda",
+      "resolvedRank": "class",
+      "resolvedImmediateParent": "Oligostraca",
+      "resolvedClassification": {
+        "phylum": "Arthropoda",
+        "class": "Ostracoda",
+        "order": null,
+        "family": null
+      },
+      "localExpectedParentConcept": "Crustacea",
+      "lineageCompatibility": "incompatible",
+      "conceptReviewStatus": "needs-concept-review",
+      "curatorDecision": "needs-concept-review"
     },
     {
       "entityId": "malacostraca",
@@ -1291,7 +2198,7 @@
       "localRank": "class",
       "previousPbdbId": "txn:69601",
       "resolutionStatus": "resolved",
-      "resolutionReason": "resolved-name-rank-and-concept",
+      "resolutionReason": "resolved-exact-name-and-rank",
       "pbdbId": "txn:22215",
       "acceptedName": "Malacostraca",
       "acceptedRank": "class",
@@ -1305,7 +2212,21 @@
       },
       "occurrenceCount": 9486,
       "referenceNo": "ref:12074",
-      "snapshotModifiedAt": "2013-11-23 21:43:46"
+      "snapshotModifiedAt": "2013-11-23 21:43:46",
+      "externalResolutionStatus": "resolved-exact",
+      "resolvedName": "Malacostraca",
+      "resolvedRank": "class",
+      "resolvedImmediateParent": "Multicrustacea",
+      "resolvedClassification": {
+        "phylum": "Arthropoda",
+        "class": "Malacostraca",
+        "order": null,
+        "family": null
+      },
+      "localExpectedParentConcept": "Crustacea",
+      "lineageCompatibility": "incompatible",
+      "conceptReviewStatus": "needs-concept-review",
+      "curatorDecision": "needs-concept-review"
     },
     {
       "entityId": "echinodermata",
@@ -1313,7 +2234,7 @@
       "localRank": "phylum",
       "previousPbdbId": "txn:3676",
       "resolutionStatus": "resolved",
-      "resolutionReason": "resolved-name-rank-and-concept",
+      "resolutionReason": "resolved-exact-name-and-rank",
       "pbdbId": "txn:30739",
       "acceptedName": "Echinodermata",
       "acceptedRank": "phylum",
@@ -1327,7 +2248,21 @@
       },
       "occurrenceCount": 34404,
       "referenceNo": "ref:17459",
-      "snapshotModifiedAt": "2018-01-26 12:42:03"
+      "snapshotModifiedAt": "2018-01-26 12:42:03",
+      "externalResolutionStatus": "resolved-exact",
+      "resolvedName": "Echinodermata",
+      "resolvedRank": "phylum",
+      "resolvedImmediateParent": "Ambulacraria",
+      "resolvedClassification": {
+        "phylum": "Echinodermata",
+        "class": null,
+        "order": null,
+        "family": null
+      },
+      "localExpectedParentConcept": "Invertebrata",
+      "lineageCompatibility": "incompatible",
+      "conceptReviewStatus": "needs-concept-review",
+      "curatorDecision": "needs-concept-review"
     },
     {
       "entityId": "crinoidea",
@@ -1335,7 +2270,7 @@
       "localRank": "class",
       "previousPbdbId": "txn:69610",
       "resolutionStatus": "resolved",
-      "resolutionReason": "resolved-name-rank-and-concept",
+      "resolutionReason": "resolved-exact-name-and-rank",
       "pbdbId": "txn:31590",
       "acceptedName": "Crinoidea",
       "acceptedRank": "class",
@@ -1349,7 +2284,21 @@
       },
       "occurrenceCount": 14518,
       "referenceNo": "ref:6930",
-      "snapshotModifiedAt": "2018-01-26 12:42:52"
+      "snapshotModifiedAt": "2018-01-26 12:42:52",
+      "externalResolutionStatus": "resolved-exact",
+      "resolvedName": "Crinoidea",
+      "resolvedRank": "class",
+      "resolvedImmediateParent": "Blastozoa",
+      "resolvedClassification": {
+        "phylum": "Echinodermata",
+        "class": "Crinoidea",
+        "order": null,
+        "family": null
+      },
+      "localExpectedParentConcept": "Echinodermata",
+      "lineageCompatibility": "compatible-classification",
+      "conceptReviewStatus": "compatible",
+      "curatorDecision": "accept-external-mapping"
     },
     {
       "entityId": "blastoidea",
@@ -1357,7 +2306,7 @@
       "localRank": "class",
       "previousPbdbId": "txn:69611",
       "resolutionStatus": "resolved",
-      "resolutionReason": "resolved-name-rank-and-concept",
+      "resolutionReason": "resolved-exact-name-and-rank",
       "pbdbId": "txn:30820",
       "acceptedName": "Blastoidea",
       "acceptedRank": "class",
@@ -1371,7 +2320,21 @@
       },
       "occurrenceCount": 760,
       "referenceNo": "ref:6930",
-      "snapshotModifiedAt": "2022-12-04 07:17:37"
+      "snapshotModifiedAt": "2022-12-04 07:17:37",
+      "externalResolutionStatus": "resolved-exact",
+      "resolvedName": "Blastoidea",
+      "resolvedRank": "class",
+      "resolvedImmediateParent": "Blastozoa",
+      "resolvedClassification": {
+        "phylum": "Echinodermata",
+        "class": "Blastoidea",
+        "order": null,
+        "family": null
+      },
+      "localExpectedParentConcept": "Echinodermata",
+      "lineageCompatibility": "compatible-classification",
+      "conceptReviewStatus": "compatible",
+      "curatorDecision": "accept-external-mapping"
     },
     {
       "entityId": "echinoidea",
@@ -1379,7 +2342,7 @@
       "localRank": "class",
       "previousPbdbId": "txn:69612",
       "resolutionStatus": "resolved",
-      "resolutionReason": "resolved-name-rank-and-concept",
+      "resolutionReason": "resolved-exact-name-and-rank",
       "pbdbId": "txn:168786",
       "acceptedName": "Echinoidea",
       "acceptedRank": "class",
@@ -1393,7 +2356,21 @@
       },
       "occurrenceCount": 11632,
       "referenceNo": "ref:32967",
-      "snapshotModifiedAt": "2013-10-27 04:21:23"
+      "snapshotModifiedAt": "2013-10-27 04:21:23",
+      "externalResolutionStatus": "resolved-exact",
+      "resolvedName": "Echinoidea",
+      "resolvedRank": "class",
+      "resolvedImmediateParent": "Echinozoa",
+      "resolvedClassification": {
+        "phylum": "Echinodermata",
+        "class": "Echinoidea",
+        "order": null,
+        "family": null
+      },
+      "localExpectedParentConcept": "Echinodermata",
+      "lineageCompatibility": "compatible-classification",
+      "conceptReviewStatus": "compatible",
+      "curatorDecision": "accept-external-mapping"
     },
     {
       "entityId": "asteroidea",
@@ -1401,7 +2378,7 @@
       "localRank": "class",
       "previousPbdbId": "txn:69613",
       "resolutionStatus": "resolved",
-      "resolutionReason": "resolved-name-rank-and-concept",
+      "resolutionReason": "resolved-exact-name-and-rank",
       "pbdbId": "txn:31341",
       "acceptedName": "Asteroidea",
       "acceptedRank": "class",
@@ -1415,7 +2392,73 @@
       },
       "occurrenceCount": 1328,
       "referenceNo": "ref:17440",
-      "snapshotModifiedAt": "2013-10-27 04:21:23"
+      "snapshotModifiedAt": "2013-10-27 04:21:23",
+      "externalResolutionStatus": "resolved-exact",
+      "resolvedName": "Asteroidea",
+      "resolvedRank": "class",
+      "resolvedImmediateParent": "Asterozoa",
+      "resolvedClassification": {
+        "phylum": "Echinodermata",
+        "class": "Asteroidea",
+        "order": null,
+        "family": null
+      },
+      "localExpectedParentConcept": "Echinodermata",
+      "lineageCompatibility": "compatible-classification",
+      "conceptReviewStatus": "compatible",
+      "curatorDecision": "accept-external-mapping"
+    },
+    {
+      "entityId": "hemichordata",
+      "localName": "Hemichordata",
+      "localRank": "phylum",
+      "previousPbdbId": null,
+      "resolutionStatus": "unresolved",
+      "resolutionReason": "no-exact-name-in-snapshot",
+      "pbdbId": null,
+      "acceptedName": null,
+      "acceptedRank": null,
+      "matchedTaxonName": null,
+      "pbdbParentName": null,
+      "pbdbClassification": null,
+      "occurrenceCount": null,
+      "referenceNo": null,
+      "snapshotModifiedAt": null,
+      "externalResolutionStatus": "not-found",
+      "resolvedName": null,
+      "resolvedRank": null,
+      "resolvedImmediateParent": null,
+      "resolvedClassification": null,
+      "localExpectedParentConcept": "Invertebrata",
+      "lineageCompatibility": "indeterminate",
+      "conceptReviewStatus": "unresolved",
+      "curatorDecision": "withhold-external-mapping"
+    },
+    {
+      "entityId": "pterobranchia",
+      "localName": "Pterobranchia",
+      "localRank": "class",
+      "previousPbdbId": null,
+      "resolutionStatus": "unresolved",
+      "resolutionReason": "no-exact-name-in-snapshot",
+      "pbdbId": null,
+      "acceptedName": null,
+      "acceptedRank": null,
+      "matchedTaxonName": null,
+      "pbdbParentName": null,
+      "pbdbClassification": null,
+      "occurrenceCount": null,
+      "referenceNo": null,
+      "snapshotModifiedAt": null,
+      "externalResolutionStatus": "not-found",
+      "resolvedName": null,
+      "resolvedRank": null,
+      "resolvedImmediateParent": null,
+      "resolvedClassification": null,
+      "localExpectedParentConcept": "Hemichordata",
+      "lineageCompatibility": "indeterminate",
+      "conceptReviewStatus": "unresolved",
+      "curatorDecision": "withhold-external-mapping"
     },
     {
       "entityId": "graptolithina",
@@ -1437,7 +2480,21 @@
       },
       "occurrenceCount": 8114,
       "referenceNo": "ref:55131",
-      "snapshotModifiedAt": "2013-04-30 15:43:10"
+      "snapshotModifiedAt": "2013-04-30 15:43:10",
+      "externalResolutionStatus": "ambiguous",
+      "resolvedName": "Graptolithina",
+      "resolvedRank": "subclass",
+      "resolvedImmediateParent": "Pterobranchia",
+      "resolvedClassification": {
+        "phylum": "Hemichordata",
+        "class": "Pterobranchia",
+        "order": null,
+        "family": null
+      },
+      "localExpectedParentConcept": "Pterobranchia",
+      "lineageCompatibility": "compatible-immediate-parent",
+      "conceptReviewStatus": "unresolved",
+      "curatorDecision": "withhold-external-mapping"
     },
     {
       "entityId": "vertebrata",
@@ -1445,7 +2502,7 @@
       "localRank": "subphylum",
       "previousPbdbId": "txn:35530",
       "resolutionStatus": "resolved",
-      "resolutionReason": "resolved-name-rank-and-concept",
+      "resolutionReason": "resolved-exact-name-and-rank",
       "pbdbId": "txn:67149",
       "acceptedName": "Vertebrata",
       "acceptedRank": "subphylum",
@@ -1459,7 +2516,21 @@
       },
       "occurrenceCount": 270795,
       "referenceNo": "ref:17809",
-      "snapshotModifiedAt": "2013-10-27 04:21:23"
+      "snapshotModifiedAt": "2013-10-27 04:21:23",
+      "externalResolutionStatus": "resolved-exact",
+      "resolvedName": "Vertebrata",
+      "resolvedRank": "subphylum",
+      "resolvedImmediateParent": "Chordata",
+      "resolvedClassification": {
+        "phylum": "Chordata",
+        "class": null,
+        "order": null,
+        "family": null
+      },
+      "localExpectedParentConcept": "Life",
+      "lineageCompatibility": "incompatible",
+      "conceptReviewStatus": "needs-concept-review",
+      "curatorDecision": "needs-concept-review"
     },
     {
       "entityId": "agnatha",
@@ -1481,7 +2552,21 @@
       },
       "occurrenceCount": 8,
       "referenceNo": "ref:19552",
-      "snapshotModifiedAt": "2013-04-30 15:43:10"
+      "snapshotModifiedAt": "2013-04-30 15:43:10",
+      "externalResolutionStatus": "ambiguous",
+      "resolvedName": "Agnatha",
+      "resolvedRank": "class",
+      "resolvedImmediateParent": "Vertebrata",
+      "resolvedClassification": {
+        "phylum": "Chordata",
+        "class": "Agnatha",
+        "order": null,
+        "family": null
+      },
+      "localExpectedParentConcept": "Vertebrata",
+      "lineageCompatibility": "compatible-immediate-parent",
+      "conceptReviewStatus": "unresolved",
+      "curatorDecision": "withhold-external-mapping"
     },
     {
       "entityId": "conodonta",
@@ -1489,7 +2574,7 @@
       "localRank": "class",
       "previousPbdbId": "txn:55282",
       "resolutionStatus": "resolved",
-      "resolutionReason": "resolved-name-rank-and-concept",
+      "resolutionReason": "resolved-exact-name-and-rank",
       "pbdbId": "txn:33816",
       "acceptedName": "Conodonta",
       "acceptedRank": "class",
@@ -1503,7 +2588,21 @@
       },
       "occurrenceCount": 41212,
       "referenceNo": "ref:75803",
-      "snapshotModifiedAt": "2013-04-30 15:43:10"
+      "snapshotModifiedAt": "2013-04-30 15:43:10",
+      "externalResolutionStatus": "resolved-exact",
+      "resolvedName": "Conodonta",
+      "resolvedRank": "class",
+      "resolvedImmediateParent": "Conodontophorida",
+      "resolvedClassification": {
+        "phylum": "Chordata",
+        "class": "Conodonta",
+        "order": null,
+        "family": null
+      },
+      "localExpectedParentConcept": "Agnatha",
+      "lineageCompatibility": "incompatible",
+      "conceptReviewStatus": "needs-concept-review",
+      "curatorDecision": "needs-concept-review"
     },
     {
       "entityId": "ostracodermi",
@@ -1525,7 +2624,21 @@
       },
       "occurrenceCount": 0,
       "referenceNo": "ref:62148",
-      "snapshotModifiedAt": "2017-06-10 01:04:15"
+      "snapshotModifiedAt": "2017-06-10 01:04:15",
+      "externalResolutionStatus": "ambiguous",
+      "resolvedName": "Hypostomata",
+      "resolvedRank": "superclass",
+      "resolvedImmediateParent": "Craniota",
+      "resolvedClassification": {
+        "phylum": "Chordata",
+        "class": "NO_CLASS_SPECIFIED",
+        "order": "NO_ORDER_SPECIFIED",
+        "family": null
+      },
+      "localExpectedParentConcept": "Agnatha",
+      "lineageCompatibility": "incompatible",
+      "conceptReviewStatus": "needs-concept-review",
+      "curatorDecision": "needs-concept-review"
     },
     {
       "entityId": "heterostraci",
@@ -1533,7 +2646,7 @@
       "localRank": "subclass",
       "previousPbdbId": "txn:117957",
       "resolutionStatus": "resolved",
-      "resolutionReason": "resolved-name-rank-and-concept",
+      "resolutionReason": "resolved-exact-name-and-rank",
       "pbdbId": "txn:117963",
       "acceptedName": "Heterostraci",
       "acceptedRank": "subclass",
@@ -1547,7 +2660,21 @@
       },
       "occurrenceCount": 784,
       "referenceNo": "ref:69467",
-      "snapshotModifiedAt": "2019-07-20 01:04:41"
+      "snapshotModifiedAt": "2019-07-20 01:04:41",
+      "externalResolutionStatus": "resolved-exact",
+      "resolvedName": "Heterostraci",
+      "resolvedRank": "subclass",
+      "resolvedImmediateParent": "Pteraspidomorpha",
+      "resolvedClassification": {
+        "phylum": "Chordata",
+        "class": "Pteraspidomorpha",
+        "order": null,
+        "family": null
+      },
+      "localExpectedParentConcept": "Ostracodermi",
+      "lineageCompatibility": "incompatible",
+      "conceptReviewStatus": "needs-concept-review",
+      "curatorDecision": "needs-concept-review"
     },
     {
       "entityId": "osteostraci",
@@ -1569,7 +2696,21 @@
       },
       "occurrenceCount": 331,
       "referenceNo": "ref:26510",
-      "snapshotModifiedAt": "2024-10-07 16:46:29"
+      "snapshotModifiedAt": "2024-10-07 16:46:29",
+      "externalResolutionStatus": "ambiguous",
+      "resolvedName": "Osteostraci",
+      "resolvedRank": "class",
+      "resolvedImmediateParent": "Osteostracomorphi",
+      "resolvedClassification": {
+        "phylum": "Chordata",
+        "class": "Osteostraci",
+        "order": null,
+        "family": null
+      },
+      "localExpectedParentConcept": "Ostracodermi",
+      "lineageCompatibility": "incompatible",
+      "conceptReviewStatus": "needs-concept-review",
+      "curatorDecision": "needs-concept-review"
     },
     {
       "entityId": "cyclostomata",
@@ -1591,7 +2732,21 @@
       },
       "occurrenceCount": 41981,
       "referenceNo": "ref:69467",
-      "snapshotModifiedAt": "2019-07-20 01:04:41"
+      "snapshotModifiedAt": "2019-07-20 01:04:41",
+      "externalResolutionStatus": "ambiguous",
+      "resolvedName": "Cyclostomata",
+      "resolvedRank": "subclass",
+      "resolvedImmediateParent": "Cyclostomi",
+      "resolvedClassification": {
+        "phylum": "Chordata",
+        "class": "Cyclostomi",
+        "order": null,
+        "family": null
+      },
+      "localExpectedParentConcept": "Agnatha",
+      "lineageCompatibility": "incompatible",
+      "conceptReviewStatus": "needs-concept-review",
+      "curatorDecision": "needs-concept-review"
     },
     {
       "entityId": "petromyzontida",
@@ -1613,7 +2768,21 @@
       },
       "occurrenceCount": 12,
       "referenceNo": "ref:39842",
-      "snapshotModifiedAt": "2025-08-10 10:09:36"
+      "snapshotModifiedAt": "2025-08-10 10:09:36",
+      "externalResolutionStatus": "ambiguous",
+      "resolvedName": "Petromyzontida",
+      "resolvedRank": "class",
+      "resolvedImmediateParent": "Cyclostomata",
+      "resolvedClassification": {
+        "phylum": "Chordata",
+        "class": "Petromyzontida",
+        "order": null,
+        "family": null
+      },
+      "localExpectedParentConcept": "Cyclostomata",
+      "lineageCompatibility": "compatible-immediate-parent",
+      "conceptReviewStatus": "unresolved",
+      "curatorDecision": "withhold-external-mapping"
     },
     {
       "entityId": "gnathostomata",
@@ -1635,7 +2804,21 @@
       },
       "occurrenceCount": 267958,
       "referenceNo": "ref:35737",
-      "snapshotModifiedAt": "2013-10-27 04:21:23"
+      "snapshotModifiedAt": "2013-10-27 04:21:23",
+      "externalResolutionStatus": "ambiguous",
+      "resolvedName": "Gnathostomata",
+      "resolvedRank": "superclass",
+      "resolvedImmediateParent": "Vertebrata",
+      "resolvedClassification": {
+        "phylum": "Chordata",
+        "class": null,
+        "order": null,
+        "family": null
+      },
+      "localExpectedParentConcept": "Vertebrata",
+      "lineageCompatibility": "compatible-immediate-parent",
+      "conceptReviewStatus": "unresolved",
+      "curatorDecision": "withhold-external-mapping"
     },
     {
       "entityId": "placodermi",
@@ -1643,7 +2826,7 @@
       "localRank": "class",
       "previousPbdbId": "txn:54562",
       "resolutionStatus": "resolved",
-      "resolutionReason": "resolved-name-rank-and-concept",
+      "resolutionReason": "resolved-exact-name-and-rank",
       "pbdbId": "txn:34249",
       "acceptedName": "Placodermi",
       "acceptedRank": "class",
@@ -1657,7 +2840,21 @@
       },
       "occurrenceCount": 1034,
       "referenceNo": "ref:15348",
-      "snapshotModifiedAt": "2019-07-31 01:04:42"
+      "snapshotModifiedAt": "2019-07-31 01:04:42",
+      "externalResolutionStatus": "resolved-exact",
+      "resolvedName": "Placodermi",
+      "resolvedRank": "class",
+      "resolvedImmediateParent": "Gnathostomata",
+      "resolvedClassification": {
+        "phylum": "Chordata",
+        "class": "Placodermi",
+        "order": null,
+        "family": null
+      },
+      "localExpectedParentConcept": "Gnathostomata",
+      "lineageCompatibility": "compatible-immediate-parent",
+      "conceptReviewStatus": "compatible",
+      "curatorDecision": "accept-external-mapping"
     },
     {
       "entityId": "arthrodira",
@@ -1679,7 +2876,21 @@
       },
       "occurrenceCount": 536,
       "referenceNo": "ref:6930",
-      "snapshotModifiedAt": "2013-04-30 15:43:10"
+      "snapshotModifiedAt": "2013-04-30 15:43:10",
+      "externalResolutionStatus": "ambiguous",
+      "resolvedName": "Arthrodira",
+      "resolvedRank": "unranked clade",
+      "resolvedImmediateParent": "Placodermi",
+      "resolvedClassification": {
+        "phylum": "Chordata",
+        "class": "Placodermi",
+        "order": "Arthrodira",
+        "family": null
+      },
+      "localExpectedParentConcept": "Placodermi",
+      "lineageCompatibility": "compatible-immediate-parent",
+      "conceptReviewStatus": "unresolved",
+      "curatorDecision": "withhold-external-mapping"
     },
     {
       "entityId": "dunkleosteus",
@@ -1687,7 +2898,7 @@
       "localRank": "genus",
       "previousPbdbId": "txn:34369",
       "resolutionStatus": "resolved",
-      "resolutionReason": "resolved-name-rank-and-concept",
+      "resolutionReason": "resolved-exact-name-and-rank",
       "pbdbId": "txn:34328",
       "acceptedName": "Dunkleosteus",
       "acceptedRank": "genus",
@@ -1701,7 +2912,21 @@
       },
       "occurrenceCount": 7,
       "referenceNo": "ref:6930",
-      "snapshotModifiedAt": "2020-06-12 11:09:51"
+      "snapshotModifiedAt": "2020-06-12 11:09:51",
+      "externalResolutionStatus": "resolved-exact",
+      "resolvedName": "Dunkleosteus",
+      "resolvedRank": "genus",
+      "resolvedImmediateParent": "Dunkleosteidae",
+      "resolvedClassification": {
+        "phylum": "Chordata",
+        "class": "Placodermi",
+        "order": "Phlyctaeniiformes",
+        "family": "Dunkleosteidae"
+      },
+      "localExpectedParentConcept": "Arthrodira",
+      "lineageCompatibility": "incompatible",
+      "conceptReviewStatus": "needs-concept-review",
+      "curatorDecision": "needs-concept-review"
     },
     {
       "entityId": "chondrichthyes",
@@ -1709,7 +2934,7 @@
       "localRank": "class",
       "previousPbdbId": "txn:63052",
       "resolutionStatus": "resolved",
-      "resolutionReason": "resolved-name-rank-and-concept",
+      "resolutionReason": "resolved-exact-name-and-rank",
       "pbdbId": "txn:34422",
       "acceptedName": "Chondrichthyes",
       "acceptedRank": "class",
@@ -1723,7 +2948,21 @@
       },
       "occurrenceCount": 26779,
       "referenceNo": "ref:32625",
-      "snapshotModifiedAt": "2013-10-27 04:21:23"
+      "snapshotModifiedAt": "2013-10-27 04:21:23",
+      "externalResolutionStatus": "resolved-exact",
+      "resolvedName": "Chondrichthyes",
+      "resolvedRank": "class",
+      "resolvedImmediateParent": "Gnathostomata",
+      "resolvedClassification": {
+        "phylum": "Chordata",
+        "class": "Chondrichthyes",
+        "order": null,
+        "family": null
+      },
+      "localExpectedParentConcept": "Gnathostomata",
+      "lineageCompatibility": "compatible-immediate-parent",
+      "conceptReviewStatus": "compatible",
+      "curatorDecision": "accept-external-mapping"
     },
     {
       "entityId": "elasmobranchii",
@@ -1745,7 +2984,21 @@
       },
       "occurrenceCount": 24485,
       "referenceNo": "ref:10232",
-      "snapshotModifiedAt": "2017-05-31 17:02:54"
+      "snapshotModifiedAt": "2017-05-31 17:02:54",
+      "externalResolutionStatus": "ambiguous",
+      "resolvedName": "Elasmobranchii",
+      "resolvedRank": "infraclass",
+      "resolvedImmediateParent": "Chondrichthyes",
+      "resolvedClassification": {
+        "phylum": "Chordata",
+        "class": "Chondrichthyes",
+        "order": null,
+        "family": null
+      },
+      "localExpectedParentConcept": "Chondrichthyes",
+      "lineageCompatibility": "compatible-immediate-parent",
+      "conceptReviewStatus": "unresolved",
+      "curatorDecision": "withhold-external-mapping"
     },
     {
       "entityId": "carcharocles",
@@ -1753,7 +3006,7 @@
       "localRank": "species",
       "previousPbdbId": "txn:118110",
       "resolutionStatus": "resolved",
-      "resolutionReason": "resolved-name-rank-and-concept",
+      "resolutionReason": "resolved-exact-name-and-rank",
       "pbdbId": "txn:80603",
       "acceptedName": "Otodus megalodon",
       "acceptedRank": "species",
@@ -1767,7 +3020,21 @@
       },
       "occurrenceCount": 343,
       "referenceNo": "ref:77551",
-      "snapshotModifiedAt": "2019-02-20 01:04:55"
+      "snapshotModifiedAt": "2019-02-20 01:04:55",
+      "externalResolutionStatus": "resolved-exact",
+      "resolvedName": "Otodus megalodon",
+      "resolvedRank": "species",
+      "resolvedImmediateParent": "Otodus",
+      "resolvedClassification": {
+        "phylum": "Chordata",
+        "class": "Chondrichthyes",
+        "order": "Lamniformes",
+        "family": "Otodontidae"
+      },
+      "localExpectedParentConcept": "Elasmobranchii",
+      "lineageCompatibility": "incompatible",
+      "conceptReviewStatus": "needs-concept-review",
+      "curatorDecision": "needs-concept-review"
     },
     {
       "entityId": "holocephali",
@@ -1775,7 +3042,7 @@
       "localRank": "subclass",
       "previousPbdbId": "txn:89268",
       "resolutionStatus": "resolved",
-      "resolutionReason": "resolved-name-rank-and-concept",
+      "resolutionReason": "resolved-exact-name-and-rank",
       "pbdbId": "txn:34760",
       "acceptedName": "Holocephali",
       "acceptedRank": "subclass",
@@ -1789,7 +3056,21 @@
       },
       "occurrenceCount": 997,
       "referenceNo": "ref:69467",
-      "snapshotModifiedAt": "2019-07-20 01:04:41"
+      "snapshotModifiedAt": "2019-07-20 01:04:41",
+      "externalResolutionStatus": "resolved-exact",
+      "resolvedName": "Holocephali",
+      "resolvedRank": "subclass",
+      "resolvedImmediateParent": "Chondrichthyes",
+      "resolvedClassification": {
+        "phylum": "Chordata",
+        "class": "Chondrichthyes",
+        "order": null,
+        "family": null
+      },
+      "localExpectedParentConcept": "Chondrichthyes",
+      "lineageCompatibility": "compatible-immediate-parent",
+      "conceptReviewStatus": "compatible",
+      "curatorDecision": "accept-external-mapping"
     },
     {
       "entityId": "acanthodii",
@@ -1797,7 +3078,7 @@
       "localRank": "class",
       "previousPbdbId": "txn:54657",
       "resolutionStatus": "resolved",
-      "resolutionReason": "resolved-name-rank-and-concept",
+      "resolutionReason": "resolved-exact-name-and-rank",
       "pbdbId": "txn:34849",
       "acceptedName": "Acanthodii",
       "acceptedRank": "class",
@@ -1811,7 +3092,21 @@
       },
       "occurrenceCount": 681,
       "referenceNo": "ref:16226",
-      "snapshotModifiedAt": "2021-12-03 01:05:40"
+      "snapshotModifiedAt": "2021-12-03 01:05:40",
+      "externalResolutionStatus": "resolved-exact",
+      "resolvedName": "Acanthodii",
+      "resolvedRank": "class",
+      "resolvedImmediateParent": "Gnathostomata",
+      "resolvedClassification": {
+        "phylum": "Chordata",
+        "class": "Acanthodii",
+        "order": "NO_ORDER_SPECIFIED",
+        "family": null
+      },
+      "localExpectedParentConcept": "Gnathostomata",
+      "lineageCompatibility": "compatible-immediate-parent",
+      "conceptReviewStatus": "compatible",
+      "curatorDecision": "accept-external-mapping"
     },
     {
       "entityId": "osteichthyes",
@@ -1833,7 +3128,21 @@
       },
       "occurrenceCount": 239443,
       "referenceNo": "ref:32625",
-      "snapshotModifiedAt": "2014-10-16 17:05:26"
+      "snapshotModifiedAt": "2014-10-16 17:05:26",
+      "externalResolutionStatus": "ambiguous",
+      "resolvedName": "Osteichthyes",
+      "resolvedRank": "class",
+      "resolvedImmediateParent": "Gnathostomata",
+      "resolvedClassification": {
+        "phylum": "Chordata",
+        "class": "Osteichthyes",
+        "order": null,
+        "family": null
+      },
+      "localExpectedParentConcept": "Gnathostomata",
+      "lineageCompatibility": "compatible-immediate-parent",
+      "conceptReviewStatus": "unresolved",
+      "curatorDecision": "withhold-external-mapping"
     },
     {
       "entityId": "actinopterygii",
@@ -1855,7 +3164,21 @@
       },
       "occurrenceCount": 1976,
       "referenceNo": "ref:38882",
-      "snapshotModifiedAt": "2023-08-08 01:04:20"
+      "snapshotModifiedAt": "2023-08-08 01:04:20",
+      "externalResolutionStatus": "ambiguous",
+      "resolvedName": "Actinopterygii",
+      "resolvedRank": "superclass",
+      "resolvedImmediateParent": "Osteichthyes",
+      "resolvedClassification": {
+        "phylum": "Chordata",
+        "class": "Actinopterygii",
+        "order": null,
+        "family": null
+      },
+      "localExpectedParentConcept": "Osteichthyes",
+      "lineageCompatibility": "compatible-immediate-parent",
+      "conceptReviewStatus": "unresolved",
+      "curatorDecision": "withhold-external-mapping"
     },
     {
       "entityId": "teleostei",
@@ -1877,7 +3200,21 @@
       },
       "occurrenceCount": 8668,
       "referenceNo": "ref:11964",
-      "snapshotModifiedAt": "2013-04-30 15:43:10"
+      "snapshotModifiedAt": "2013-04-30 15:43:10",
+      "externalResolutionStatus": "ambiguous",
+      "resolvedName": "Teleostei",
+      "resolvedRank": "unranked clade",
+      "resolvedImmediateParent": "Teleosteomorpha",
+      "resolvedClassification": {
+        "phylum": "Chordata",
+        "class": "Osteichthyes",
+        "order": null,
+        "family": null
+      },
+      "localExpectedParentConcept": "Actinopterygii",
+      "lineageCompatibility": "incompatible",
+      "conceptReviewStatus": "needs-concept-review",
+      "curatorDecision": "needs-concept-review"
     },
     {
       "entityId": "salmoniformes",
@@ -1885,7 +3222,7 @@
       "localRank": "order",
       "previousPbdbId": "txn:35521",
       "resolutionStatus": "resolved",
-      "resolutionReason": "resolved-name-rank-and-concept",
+      "resolutionReason": "resolved-exact-name-and-rank",
       "pbdbId": "txn:35506",
       "acceptedName": "Salmoniformes",
       "acceptedRank": "order",
@@ -1899,7 +3236,21 @@
       },
       "occurrenceCount": 150,
       "referenceNo": "ref:6930",
-      "snapshotModifiedAt": "2013-04-30 15:43:10"
+      "snapshotModifiedAt": "2013-04-30 15:43:10",
+      "externalResolutionStatus": "resolved-exact",
+      "resolvedName": "Salmoniformes",
+      "resolvedRank": "order",
+      "resolvedImmediateParent": "Protacanthopterygii",
+      "resolvedClassification": {
+        "phylum": "Chordata",
+        "class": "Osteichthyes",
+        "order": "Salmoniformes",
+        "family": null
+      },
+      "localExpectedParentConcept": "Teleostei",
+      "lineageCompatibility": "incompatible",
+      "conceptReviewStatus": "needs-concept-review",
+      "curatorDecision": "needs-concept-review"
     },
     {
       "entityId": "sarcopterygii",
@@ -1921,7 +3272,21 @@
       },
       "occurrenceCount": 212668,
       "referenceNo": "ref:39325",
-      "snapshotModifiedAt": "2013-10-27 04:21:23"
+      "snapshotModifiedAt": "2013-10-27 04:21:23",
+      "externalResolutionStatus": "ambiguous",
+      "resolvedName": "Sarcopterygii",
+      "resolvedRank": "subclass",
+      "resolvedImmediateParent": "Osteichthyes",
+      "resolvedClassification": {
+        "phylum": "Chordata",
+        "class": "Osteichthyes",
+        "order": null,
+        "family": null
+      },
+      "localExpectedParentConcept": "Osteichthyes",
+      "lineageCompatibility": "compatible-immediate-parent",
+      "conceptReviewStatus": "unresolved",
+      "curatorDecision": "withhold-external-mapping"
     },
     {
       "entityId": "coelacanthimorpha",
@@ -1943,7 +3308,21 @@
       },
       "occurrenceCount": 378,
       "referenceNo": "ref:39842",
-      "snapshotModifiedAt": "2013-04-30 15:43:10"
+      "snapshotModifiedAt": "2013-04-30 15:43:10",
+      "externalResolutionStatus": "ambiguous",
+      "resolvedName": "Actinistia",
+      "resolvedRank": "infraclass",
+      "resolvedImmediateParent": "Sarcopterygii",
+      "resolvedClassification": {
+        "phylum": "Chordata",
+        "class": "Osteichthyes",
+        "order": null,
+        "family": null
+      },
+      "localExpectedParentConcept": "Sarcopterygii",
+      "lineageCompatibility": "compatible-immediate-parent",
+      "conceptReviewStatus": "unresolved",
+      "curatorDecision": "withhold-external-mapping"
     },
     {
       "entityId": "dipnoi",
@@ -1965,7 +3344,21 @@
       },
       "occurrenceCount": 829,
       "referenceNo": "ref:10654",
-      "snapshotModifiedAt": "2019-07-15 10:03:07"
+      "snapshotModifiedAt": "2019-07-15 10:03:07",
+      "externalResolutionStatus": "ambiguous",
+      "resolvedName": "Dipnoi",
+      "resolvedRank": "superorder",
+      "resolvedImmediateParent": "Dipnomorpha",
+      "resolvedClassification": {
+        "phylum": "Chordata",
+        "class": "Osteichthyes",
+        "order": null,
+        "family": null
+      },
+      "localExpectedParentConcept": "Sarcopterygii",
+      "lineageCompatibility": "incompatible",
+      "conceptReviewStatus": "needs-concept-review",
+      "curatorDecision": "needs-concept-review"
     },
     {
       "entityId": "tetrapodomorpha",
@@ -1987,7 +3380,47 @@
       },
       "occurrenceCount": 210942,
       "referenceNo": "ref:30398",
-      "snapshotModifiedAt": "2013-10-27 04:21:23"
+      "snapshotModifiedAt": "2013-10-27 04:21:23",
+      "externalResolutionStatus": "ambiguous",
+      "resolvedName": "Tetrapodomorpha",
+      "resolvedRank": "subclass",
+      "resolvedImmediateParent": "Dipnotetrapodomorpha",
+      "resolvedClassification": {
+        "phylum": "Chordata",
+        "class": "Osteichthyes",
+        "order": null,
+        "family": null
+      },
+      "localExpectedParentConcept": "Sarcopterygii",
+      "lineageCompatibility": "incompatible",
+      "conceptReviewStatus": "needs-concept-review",
+      "curatorDecision": "needs-concept-review"
+    },
+    {
+      "entityId": "stem-tetrapodomorphs",
+      "localName": "stem-tetrapodomorphs",
+      "localRank": "paraphyletic navigation grade",
+      "previousPbdbId": null,
+      "resolutionStatus": "unresolved",
+      "resolutionReason": "no-exact-name-in-snapshot",
+      "pbdbId": null,
+      "acceptedName": null,
+      "acceptedRank": null,
+      "matchedTaxonName": null,
+      "pbdbParentName": null,
+      "pbdbClassification": null,
+      "occurrenceCount": null,
+      "referenceNo": null,
+      "snapshotModifiedAt": null,
+      "externalResolutionStatus": "not-found",
+      "resolvedName": null,
+      "resolvedRank": null,
+      "resolvedImmediateParent": null,
+      "resolvedClassification": null,
+      "localExpectedParentConcept": "Tetrapodomorpha",
+      "lineageCompatibility": "indeterminate",
+      "conceptReviewStatus": "unresolved",
+      "curatorDecision": "withhold-external-mapping"
     },
     {
       "entityId": "tiktaalik",
@@ -1995,7 +3428,7 @@
       "localRank": "genus",
       "previousPbdbId": "txn:130709",
       "resolutionStatus": "resolved",
-      "resolutionReason": "resolved-name-rank-and-concept",
+      "resolutionReason": "resolved-exact-name-and-rank",
       "pbdbId": "txn:77132",
       "acceptedName": "Tiktaalik",
       "acceptedRank": "genus",
@@ -2009,7 +3442,21 @@
       },
       "occurrenceCount": 2,
       "referenceNo": "ref:17081",
-      "snapshotModifiedAt": "2020-04-21 10:34:31"
+      "snapshotModifiedAt": "2020-04-21 10:34:31",
+      "externalResolutionStatus": "resolved-exact",
+      "resolvedName": "Tiktaalik",
+      "resolvedRank": "genus",
+      "resolvedImmediateParent": "Panderichthyidae",
+      "resolvedClassification": {
+        "phylum": "Chordata",
+        "class": "Osteichthyes",
+        "order": "Osteolepidiformes",
+        "family": "Panderichthyidae"
+      },
+      "localExpectedParentConcept": "stem-tetrapodomorphs",
+      "lineageCompatibility": "incompatible",
+      "conceptReviewStatus": "needs-concept-review",
+      "curatorDecision": "needs-concept-review"
     },
     {
       "entityId": "tetrapoda",
@@ -2031,7 +3478,21 @@
       },
       "occurrenceCount": 210904,
       "referenceNo": "ref:58890",
-      "snapshotModifiedAt": "2019-12-17 12:08:51"
+      "snapshotModifiedAt": "2019-12-17 12:08:51",
+      "externalResolutionStatus": "ambiguous",
+      "resolvedName": "Tetrapoda",
+      "resolvedRank": "unranked clade",
+      "resolvedImmediateParent": "Tetrapodomorpha",
+      "resolvedClassification": {
+        "phylum": "Chordata",
+        "class": "Osteichthyes",
+        "order": null,
+        "family": null
+      },
+      "localExpectedParentConcept": "Tetrapodomorpha",
+      "lineageCompatibility": "compatible-immediate-parent",
+      "conceptReviewStatus": "unresolved",
+      "curatorDecision": "withhold-external-mapping"
     },
     {
       "entityId": "amphibia",
@@ -2039,7 +3500,7 @@
       "localRank": "class",
       "previousPbdbId": "txn:36326",
       "resolutionStatus": "resolved",
-      "resolutionReason": "resolved-name-rank-and-concept",
+      "resolutionReason": "resolved-exact-name-and-rank",
       "pbdbId": "txn:36319",
       "acceptedName": "Amphibia",
       "acceptedRank": "class",
@@ -2053,7 +3514,21 @@
       },
       "occurrenceCount": 6314,
       "referenceNo": "ref:12782",
-      "snapshotModifiedAt": "2021-12-03 01:05:40"
+      "snapshotModifiedAt": "2021-12-03 01:05:40",
+      "externalResolutionStatus": "resolved-exact",
+      "resolvedName": "Amphibia",
+      "resolvedRank": "class",
+      "resolvedImmediateParent": "Tetrapoda",
+      "resolvedClassification": {
+        "phylum": "Chordata",
+        "class": "Amphibia",
+        "order": null,
+        "family": null
+      },
+      "localExpectedParentConcept": "Tetrapoda",
+      "lineageCompatibility": "compatible-immediate-parent",
+      "conceptReviewStatus": "compatible",
+      "curatorDecision": "accept-external-mapping"
     },
     {
       "entityId": "temnospondyli",
@@ -2061,7 +3536,7 @@
       "localRank": "order",
       "previousPbdbId": "txn:64075",
       "resolutionStatus": "resolved",
-      "resolutionReason": "resolved-name-rank-and-concept",
+      "resolutionReason": "resolved-exact-name-and-rank",
       "pbdbId": "txn:36320",
       "acceptedName": "Temnospondyli",
       "acceptedRank": "order",
@@ -2075,7 +3550,21 @@
       },
       "occurrenceCount": 6123,
       "referenceNo": "ref:30586",
-      "snapshotModifiedAt": "2013-10-27 04:21:23"
+      "snapshotModifiedAt": "2013-10-27 04:21:23",
+      "externalResolutionStatus": "resolved-exact",
+      "resolvedName": "Temnospondyli",
+      "resolvedRank": "order",
+      "resolvedImmediateParent": "Amphibia",
+      "resolvedClassification": {
+        "phylum": "Chordata",
+        "class": "Amphibia",
+        "order": "Temnospondyli",
+        "family": null
+      },
+      "localExpectedParentConcept": "Amphibia",
+      "lineageCompatibility": "compatible-immediate-parent",
+      "conceptReviewStatus": "compatible",
+      "curatorDecision": "accept-external-mapping"
     },
     {
       "entityId": "lissamphibia",
@@ -2097,7 +3586,21 @@
       },
       "occurrenceCount": 4302,
       "referenceNo": "ref:35418",
-      "snapshotModifiedAt": "2013-10-27 04:21:23"
+      "snapshotModifiedAt": "2013-10-27 04:21:23",
+      "externalResolutionStatus": "ambiguous",
+      "resolvedName": "Lissamphibia",
+      "resolvedRank": "unranked clade",
+      "resolvedImmediateParent": "Temnospondyli",
+      "resolvedClassification": {
+        "phylum": "Chordata",
+        "class": "Amphibia",
+        "order": "Temnospondyli",
+        "family": null
+      },
+      "localExpectedParentConcept": "Amphibia",
+      "lineageCompatibility": "compatible-classification",
+      "conceptReviewStatus": "unresolved",
+      "curatorDecision": "withhold-external-mapping"
     },
     {
       "entityId": "anura",
@@ -2119,7 +3622,21 @@
       },
       "occurrenceCount": 2635,
       "referenceNo": "ref:38996",
-      "snapshotModifiedAt": "2013-10-27 04:21:23"
+      "snapshotModifiedAt": "2013-10-27 04:21:23",
+      "externalResolutionStatus": "ambiguous",
+      "resolvedName": "Anura",
+      "resolvedRank": "suborder",
+      "resolvedImmediateParent": "Salientia",
+      "resolvedClassification": {
+        "phylum": "Chordata",
+        "class": "Amphibia",
+        "order": "Anura",
+        "family": null
+      },
+      "localExpectedParentConcept": "Lissamphibia",
+      "lineageCompatibility": "incompatible",
+      "conceptReviewStatus": "needs-concept-review",
+      "curatorDecision": "needs-concept-review"
     },
     {
       "entityId": "caudata",
@@ -2141,7 +3658,21 @@
       },
       "occurrenceCount": 1329,
       "referenceNo": "ref:4377",
-      "snapshotModifiedAt": "2021-05-28 14:38:52"
+      "snapshotModifiedAt": "2021-05-28 14:38:52",
+      "externalResolutionStatus": "ambiguous",
+      "resolvedName": "Caudata",
+      "resolvedRank": "unranked clade",
+      "resolvedImmediateParent": "Batrachia",
+      "resolvedClassification": {
+        "phylum": "Chordata",
+        "class": "Amphibia",
+        "order": "Caudata",
+        "family": null
+      },
+      "localExpectedParentConcept": "Lissamphibia",
+      "lineageCompatibility": "incompatible",
+      "conceptReviewStatus": "needs-concept-review",
+      "curatorDecision": "needs-concept-review"
     },
     {
       "entityId": "amniota",
@@ -2149,7 +3680,7 @@
       "localRank": "clade",
       "previousPbdbId": "txn:67216",
       "resolutionStatus": "resolved",
-      "resolutionReason": "resolved-name-rank-and-concept",
+      "resolutionReason": "resolved-exact-name-and-rank",
       "pbdbId": "txn:53189",
       "acceptedName": "Amniota",
       "acceptedRank": "unranked clade",
@@ -2163,7 +3694,21 @@
       },
       "occurrenceCount": 203790,
       "referenceNo": "ref:35418",
-      "snapshotModifiedAt": "2013-10-27 04:21:23"
+      "snapshotModifiedAt": "2013-10-27 04:21:23",
+      "externalResolutionStatus": "resolved-exact",
+      "resolvedName": "Amniota",
+      "resolvedRank": "unranked clade",
+      "resolvedImmediateParent": "Cotylosauria",
+      "resolvedClassification": {
+        "phylum": "Chordata",
+        "class": "Osteichthyes",
+        "order": "Cotylosauria",
+        "family": null
+      },
+      "localExpectedParentConcept": "Tetrapoda",
+      "lineageCompatibility": "incompatible",
+      "conceptReviewStatus": "needs-concept-review",
+      "curatorDecision": "needs-concept-review"
     },
     {
       "entityId": "synapsida",
@@ -2185,7 +3730,21 @@
       },
       "occurrenceCount": 130908,
       "referenceNo": "ref:34185",
-      "snapshotModifiedAt": "2013-10-27 04:21:23"
+      "snapshotModifiedAt": "2013-10-27 04:21:23",
+      "externalResolutionStatus": "ambiguous",
+      "resolvedName": "Synapsida",
+      "resolvedRank": "subclass",
+      "resolvedImmediateParent": "Amniota",
+      "resolvedClassification": {
+        "phylum": "Chordata",
+        "class": "Osteichthyes",
+        "order": "Cotylosauria",
+        "family": null
+      },
+      "localExpectedParentConcept": "Amniota",
+      "lineageCompatibility": "compatible-immediate-parent",
+      "conceptReviewStatus": "unresolved",
+      "curatorDecision": "withhold-external-mapping"
     },
     {
       "entityId": "pelycosauria",
@@ -2193,7 +3752,7 @@
       "localRank": "order",
       "previousPbdbId": "txn:67327",
       "resolutionStatus": "resolved",
-      "resolutionReason": "resolved-name-rank-and-concept",
+      "resolutionReason": "resolved-exact-name-and-rank",
       "pbdbId": "txn:38883",
       "acceptedName": "Pelycosauria",
       "acceptedRank": "order",
@@ -2207,7 +3766,21 @@
       },
       "occurrenceCount": 15,
       "referenceNo": "ref:9273",
-      "snapshotModifiedAt": "2017-10-07 01:04:21"
+      "snapshotModifiedAt": "2017-10-07 01:04:21",
+      "externalResolutionStatus": "resolved-exact",
+      "resolvedName": "Pelycosauria",
+      "resolvedRank": "order",
+      "resolvedImmediateParent": "Synapsida",
+      "resolvedClassification": {
+        "phylum": "Chordata",
+        "class": "Osteichthyes",
+        "order": "Pelycosauria",
+        "family": null
+      },
+      "localExpectedParentConcept": "Synapsida",
+      "lineageCompatibility": "compatible-immediate-parent",
+      "conceptReviewStatus": "compatible",
+      "curatorDecision": "accept-external-mapping"
     },
     {
       "entityId": "dimetrodon",
@@ -2215,7 +3788,7 @@
       "localRank": "genus",
       "previousPbdbId": "txn:38903",
       "resolutionStatus": "resolved",
-      "resolutionReason": "resolved-name-rank-and-concept",
+      "resolutionReason": "resolved-exact-name-and-rank",
       "pbdbId": "txn:38904",
       "acceptedName": "Dimetrodon",
       "acceptedRank": "genus",
@@ -2229,7 +3802,21 @@
       },
       "occurrenceCount": 94,
       "referenceNo": "ref:9273",
-      "snapshotModifiedAt": "2024-12-12 08:36:05"
+      "snapshotModifiedAt": "2024-12-12 08:36:05",
+      "externalResolutionStatus": "resolved-exact",
+      "resolvedName": "Dimetrodon",
+      "resolvedRank": "genus",
+      "resolvedImmediateParent": "Sphenacodontinae",
+      "resolvedClassification": {
+        "phylum": "Chordata",
+        "class": "Osteichthyes",
+        "order": "Cotylosauria",
+        "family": "Sphenacodontidae"
+      },
+      "localExpectedParentConcept": "Pelycosauria",
+      "lineageCompatibility": "incompatible",
+      "conceptReviewStatus": "needs-concept-review",
+      "curatorDecision": "needs-concept-review"
     },
     {
       "entityId": "therapsida",
@@ -2251,7 +3838,21 @@
       },
       "occurrenceCount": 130448,
       "referenceNo": "ref:32088",
-      "snapshotModifiedAt": "2021-05-28 14:41:14"
+      "snapshotModifiedAt": "2021-05-28 14:41:14",
+      "externalResolutionStatus": "ambiguous",
+      "resolvedName": "Therapsida",
+      "resolvedRank": "unranked clade",
+      "resolvedImmediateParent": "Synapsida",
+      "resolvedClassification": {
+        "phylum": "Chordata",
+        "class": "Osteichthyes",
+        "order": "Cotylosauria",
+        "family": null
+      },
+      "localExpectedParentConcept": "Synapsida",
+      "lineageCompatibility": "compatible-immediate-parent",
+      "conceptReviewStatus": "unresolved",
+      "curatorDecision": "withhold-external-mapping"
     },
     {
       "entityId": "dicynodontia",
@@ -2259,7 +3860,7 @@
       "localRank": "suborder",
       "previousPbdbId": "txn:38981",
       "resolutionStatus": "resolved",
-      "resolutionReason": "resolved-name-rank-and-concept",
+      "resolutionReason": "resolved-exact-name-and-rank",
       "pbdbId": "txn:312556",
       "acceptedName": "Dicynodontia",
       "acceptedRank": "suborder",
@@ -2273,7 +3874,21 @@
       },
       "occurrenceCount": 10,
       "referenceNo": "ref:16226",
-      "snapshotModifiedAt": "2021-12-03 01:05:40"
+      "snapshotModifiedAt": "2021-12-03 01:05:40",
+      "externalResolutionStatus": "resolved-exact",
+      "resolvedName": "Dicynodontia",
+      "resolvedRank": "suborder",
+      "resolvedImmediateParent": "Anomodontia",
+      "resolvedClassification": {
+        "phylum": "Chordata",
+        "class": "Osteichthyes",
+        "order": "Anomodontia",
+        "family": null
+      },
+      "localExpectedParentConcept": "Therapsida",
+      "lineageCompatibility": "incompatible",
+      "conceptReviewStatus": "needs-concept-review",
+      "curatorDecision": "needs-concept-review"
     },
     {
       "entityId": "cynodontia",
@@ -2295,7 +3910,21 @@
       },
       "occurrenceCount": 128396,
       "referenceNo": "ref:16227",
-      "snapshotModifiedAt": "2021-05-28 14:41:29"
+      "snapshotModifiedAt": "2021-05-28 14:41:29",
+      "externalResolutionStatus": "ambiguous",
+      "resolvedName": "Cynodontia",
+      "resolvedRank": "infraorder",
+      "resolvedImmediateParent": "Therapsida",
+      "resolvedClassification": {
+        "phylum": "Chordata",
+        "class": "Osteichthyes",
+        "order": "Cotylosauria",
+        "family": null
+      },
+      "localExpectedParentConcept": "Therapsida",
+      "lineageCompatibility": "compatible-immediate-parent",
+      "conceptReviewStatus": "unresolved",
+      "curatorDecision": "withhold-external-mapping"
     },
     {
       "entityId": "mammalia",
@@ -2303,7 +3932,7 @@
       "localRank": "class",
       "previousPbdbId": "txn:36651",
       "resolutionStatus": "resolved",
-      "resolutionReason": "resolved-name-rank-and-concept",
+      "resolutionReason": "resolved-exact-name-and-rank",
       "pbdbId": "txn:36651",
       "acceptedName": "Mammalia",
       "acceptedRank": "class",
@@ -2317,7 +3946,21 @@
       },
       "occurrenceCount": 127691,
       "referenceNo": "ref:12782",
-      "snapshotModifiedAt": "2013-10-27 04:21:23"
+      "snapshotModifiedAt": "2013-10-27 04:21:23",
+      "externalResolutionStatus": "resolved-exact",
+      "resolvedName": "Mammalia",
+      "resolvedRank": "class",
+      "resolvedImmediateParent": "Mammaliaformes",
+      "resolvedClassification": {
+        "phylum": "Chordata",
+        "class": "Mammalia",
+        "order": null,
+        "family": null
+      },
+      "localExpectedParentConcept": "Cynodontia",
+      "lineageCompatibility": "incompatible",
+      "conceptReviewStatus": "needs-concept-review",
+      "curatorDecision": "needs-concept-review"
     },
     {
       "entityId": "monotremata",
@@ -2325,7 +3968,7 @@
       "localRank": "order",
       "previousPbdbId": "txn:39733",
       "resolutionStatus": "resolved",
-      "resolutionReason": "resolved-name-rank-and-concept",
+      "resolutionReason": "resolved-exact-name-and-rank",
       "pbdbId": "txn:39737",
       "acceptedName": "Monotremata",
       "acceptedRank": "order",
@@ -2339,7 +3982,21 @@
       },
       "occurrenceCount": 42,
       "referenceNo": "ref:28691",
-      "snapshotModifiedAt": "2017-08-18 01:04:16"
+      "snapshotModifiedAt": "2017-08-18 01:04:16",
+      "externalResolutionStatus": "resolved-exact",
+      "resolvedName": "Monotremata",
+      "resolvedRank": "order",
+      "resolvedImmediateParent": "Australosphenida",
+      "resolvedClassification": {
+        "phylum": "Chordata",
+        "class": "Mammalia",
+        "order": "Monotremata",
+        "family": null
+      },
+      "localExpectedParentConcept": "Mammalia",
+      "lineageCompatibility": "compatible-classification",
+      "conceptReviewStatus": "compatible",
+      "curatorDecision": "accept-external-mapping"
     },
     {
       "entityId": "marsupialia",
@@ -2347,7 +4004,7 @@
       "localRank": "infraclass",
       "previousPbdbId": "txn:41409",
       "resolutionStatus": "resolved",
-      "resolutionReason": "resolved-name-rank-and-concept",
+      "resolutionReason": "resolved-exact-name-and-rank",
       "pbdbId": "txn:247806",
       "acceptedName": "Marsupialia",
       "acceptedRank": "infraclass",
@@ -2361,7 +4018,21 @@
       },
       "occurrenceCount": 36,
       "referenceNo": "ref:18770",
-      "snapshotModifiedAt": "2018-12-22 01:04:41"
+      "snapshotModifiedAt": "2018-12-22 01:04:41",
+      "externalResolutionStatus": "resolved-exact",
+      "resolvedName": "Marsupialia",
+      "resolvedRank": "infraclass",
+      "resolvedImmediateParent": "Mammalia",
+      "resolvedClassification": {
+        "phylum": "Chordata",
+        "class": "Mammalia",
+        "order": null,
+        "family": null
+      },
+      "localExpectedParentConcept": "Mammalia",
+      "lineageCompatibility": "compatible-immediate-parent",
+      "conceptReviewStatus": "compatible",
+      "curatorDecision": "accept-external-mapping"
     },
     {
       "entityId": "diprotodontia",
@@ -2369,7 +4040,7 @@
       "localRank": "order",
       "previousPbdbId": "txn:40587",
       "resolutionStatus": "resolved",
-      "resolutionReason": "resolved-name-rank-and-concept",
+      "resolutionReason": "resolved-exact-name-and-rank",
       "pbdbId": "txn:66275",
       "acceptedName": "Diprotodontia",
       "acceptedRank": "order",
@@ -2383,7 +4054,21 @@
       },
       "occurrenceCount": 1551,
       "referenceNo": "ref:4766",
-      "snapshotModifiedAt": "2013-04-30 15:43:10"
+      "snapshotModifiedAt": "2013-04-30 15:43:10",
+      "externalResolutionStatus": "resolved-exact",
+      "resolvedName": "Diprotodontia",
+      "resolvedRank": "order",
+      "resolvedImmediateParent": "Australidelphia",
+      "resolvedClassification": {
+        "phylum": "Chordata",
+        "class": "Mammalia",
+        "order": "Diprotodontia",
+        "family": null
+      },
+      "localExpectedParentConcept": "Marsupialia",
+      "lineageCompatibility": "incompatible",
+      "conceptReviewStatus": "needs-concept-review",
+      "curatorDecision": "needs-concept-review"
     },
     {
       "entityId": "placentalia",
@@ -2405,7 +4090,21 @@
       },
       "occurrenceCount": 116247,
       "referenceNo": "ref:36731",
-      "snapshotModifiedAt": "2014-11-17 10:54:59"
+      "snapshotModifiedAt": "2014-11-17 10:54:59",
+      "externalResolutionStatus": "ambiguous",
+      "resolvedName": "Placentalia",
+      "resolvedRank": "unranked clade",
+      "resolvedImmediateParent": "Eutheria",
+      "resolvedClassification": {
+        "phylum": "Chordata",
+        "class": "Mammalia",
+        "order": null,
+        "family": null
+      },
+      "localExpectedParentConcept": "Mammalia",
+      "lineageCompatibility": "compatible-classification",
+      "conceptReviewStatus": "unresolved",
+      "curatorDecision": "withhold-external-mapping"
     },
     {
       "entityId": "perissodactyla",
@@ -2413,7 +4112,7 @@
       "localRank": "order",
       "previousPbdbId": "txn:106418",
       "resolutionStatus": "resolved",
-      "resolutionReason": "resolved-name-rank-and-concept",
+      "resolutionReason": "resolved-exact-name-and-rank",
       "pbdbId": "txn:106418",
       "acceptedName": "Perissodactyla",
       "acceptedRank": "order",
@@ -2427,7 +4126,21 @@
       },
       "occurrenceCount": 13169,
       "referenceNo": "ref:32616",
-      "snapshotModifiedAt": "2013-10-27 04:21:23"
+      "snapshotModifiedAt": "2013-10-27 04:21:23",
+      "externalResolutionStatus": "resolved-exact",
+      "resolvedName": "Perissodactyla",
+      "resolvedRank": "order",
+      "resolvedImmediateParent": "Perissodactylamorpha",
+      "resolvedClassification": {
+        "phylum": "Chordata",
+        "class": "Mammalia",
+        "order": "Perissodactyla",
+        "family": null
+      },
+      "localExpectedParentConcept": "Placentalia",
+      "lineageCompatibility": "incompatible",
+      "conceptReviewStatus": "needs-concept-review",
+      "curatorDecision": "needs-concept-review"
     },
     {
       "entityId": "brontotheriidae",
@@ -2435,7 +4148,7 @@
       "localRank": "family",
       "previousPbdbId": "txn:43027",
       "resolutionStatus": "resolved",
-      "resolutionReason": "resolved-name-rank-and-concept",
+      "resolutionReason": "resolved-exact-name-and-rank",
       "pbdbId": "txn:43027",
       "acceptedName": "Brontotheriidae",
       "acceptedRank": "family",
@@ -2449,7 +4162,21 @@
       },
       "occurrenceCount": 564,
       "referenceNo": "ref:57302",
-      "snapshotModifiedAt": "2017-02-18 01:03:30"
+      "snapshotModifiedAt": "2017-02-18 01:03:30",
+      "externalResolutionStatus": "resolved-exact",
+      "resolvedName": "Brontotheriidae",
+      "resolvedRank": "family",
+      "resolvedImmediateParent": "Perissodactyla",
+      "resolvedClassification": {
+        "phylum": "Chordata",
+        "class": "Mammalia",
+        "order": "Perissodactyla",
+        "family": "Brontotheriidae"
+      },
+      "localExpectedParentConcept": "Perissodactyla",
+      "lineageCompatibility": "compatible-immediate-parent",
+      "conceptReviewStatus": "compatible",
+      "curatorDecision": "accept-external-mapping"
     },
     {
       "entityId": "hippomorpha",
@@ -2471,7 +4198,21 @@
       },
       "occurrenceCount": 4,
       "referenceNo": "ref:4783",
-      "snapshotModifiedAt": "2013-04-30 15:43:10"
+      "snapshotModifiedAt": "2013-04-30 15:43:10",
+      "externalResolutionStatus": "ambiguous",
+      "resolvedName": "Hippomorpha",
+      "resolvedRank": "unranked clade",
+      "resolvedImmediateParent": "Euperissodactyla",
+      "resolvedClassification": {
+        "phylum": "Chordata",
+        "class": "Mammalia",
+        "order": "Perissodactyla",
+        "family": null
+      },
+      "localExpectedParentConcept": "Perissodactyla",
+      "lineageCompatibility": "compatible-classification",
+      "conceptReviewStatus": "unresolved",
+      "curatorDecision": "withhold-external-mapping"
     },
     {
       "entityId": "palaeotherium",
@@ -2479,7 +4220,7 @@
       "localRank": "genus",
       "previousPbdbId": "txn:49711",
       "resolutionStatus": "resolved",
-      "resolutionReason": "resolved-name-rank-and-concept",
+      "resolutionReason": "resolved-exact-name-and-rank",
       "pbdbId": "txn:49711",
       "acceptedName": "Palaeotherium",
       "acceptedRank": "genus",
@@ -2493,7 +4234,21 @@
       },
       "occurrenceCount": 157,
       "referenceNo": "ref:2708",
-      "snapshotModifiedAt": "2018-08-03 14:32:02"
+      "snapshotModifiedAt": "2018-08-03 14:32:02",
+      "externalResolutionStatus": "resolved-exact",
+      "resolvedName": "Palaeotherium",
+      "resolvedRank": "genus",
+      "resolvedImmediateParent": "Palaeotheriinae",
+      "resolvedClassification": {
+        "phylum": "Chordata",
+        "class": "Mammalia",
+        "order": "Perissodactyla",
+        "family": "Palaeotheriidae"
+      },
+      "localExpectedParentConcept": "Hippomorpha",
+      "lineageCompatibility": "incompatible",
+      "conceptReviewStatus": "needs-concept-review",
+      "curatorDecision": "needs-concept-review"
     },
     {
       "entityId": "equidae",
@@ -2501,7 +4256,7 @@
       "localRank": "family",
       "previousPbdbId": "txn:42938",
       "resolutionStatus": "resolved",
-      "resolutionReason": "resolved-name-rank-and-concept",
+      "resolutionReason": "resolved-exact-name-and-rank",
       "pbdbId": "txn:42984",
       "acceptedName": "Equidae",
       "acceptedRank": "family",
@@ -2515,7 +4270,21 @@
       },
       "occurrenceCount": 6515,
       "referenceNo": "ref:23420",
-      "snapshotModifiedAt": "2021-01-01 12:33:55"
+      "snapshotModifiedAt": "2021-01-01 12:33:55",
+      "externalResolutionStatus": "resolved-exact",
+      "resolvedName": "Equidae",
+      "resolvedRank": "family",
+      "resolvedImmediateParent": "Equoidea",
+      "resolvedClassification": {
+        "phylum": "Chordata",
+        "class": "Mammalia",
+        "order": "Perissodactyla",
+        "family": "Equidae"
+      },
+      "localExpectedParentConcept": "Hippomorpha",
+      "lineageCompatibility": "incompatible",
+      "conceptReviewStatus": "needs-concept-review",
+      "curatorDecision": "needs-concept-review"
     },
     {
       "entityId": "anchitherium",
@@ -2523,7 +4292,7 @@
       "localRank": "genus",
       "previousPbdbId": "txn:42987",
       "resolutionStatus": "resolved",
-      "resolutionReason": "resolved-name-rank-and-concept",
+      "resolutionReason": "resolved-exact-name-and-rank",
       "pbdbId": "txn:42987",
       "acceptedName": "Anchitherium",
       "acceptedRank": "genus",
@@ -2537,7 +4306,21 @@
       },
       "occurrenceCount": 88,
       "referenceNo": "ref:6294",
-      "snapshotModifiedAt": "2019-11-26 16:27:46"
+      "snapshotModifiedAt": "2019-11-26 16:27:46",
+      "externalResolutionStatus": "resolved-exact",
+      "resolvedName": "Anchitherium",
+      "resolvedRank": "genus",
+      "resolvedImmediateParent": "Anchitheriinae",
+      "resolvedClassification": {
+        "phylum": "Chordata",
+        "class": "Mammalia",
+        "order": "Perissodactyla",
+        "family": "Equidae"
+      },
+      "localExpectedParentConcept": "Equidae",
+      "lineageCompatibility": "compatible-classification",
+      "conceptReviewStatus": "compatible",
+      "curatorDecision": "accept-external-mapping"
     },
     {
       "entityId": "hipparionini",
@@ -2545,7 +4328,7 @@
       "localRank": "tribe",
       "previousPbdbId": "txn:65579",
       "resolutionStatus": "resolved",
-      "resolutionReason": "resolved-name-rank-and-concept",
+      "resolutionReason": "resolved-exact-name-and-rank",
       "pbdbId": "txn:65579",
       "acceptedName": "Hipparionini",
       "acceptedRank": "tribe",
@@ -2559,7 +4342,21 @@
       },
       "occurrenceCount": 1698,
       "referenceNo": "ref:56476",
-      "snapshotModifiedAt": "2015-11-15 01:02:59"
+      "snapshotModifiedAt": "2015-11-15 01:02:59",
+      "externalResolutionStatus": "resolved-exact",
+      "resolvedName": "Hipparionini",
+      "resolvedRank": "tribe",
+      "resolvedImmediateParent": "Equinae",
+      "resolvedClassification": {
+        "phylum": "Chordata",
+        "class": "Mammalia",
+        "order": "Perissodactyla",
+        "family": "Equidae"
+      },
+      "localExpectedParentConcept": "Equidae",
+      "lineageCompatibility": "compatible-classification",
+      "conceptReviewStatus": "compatible",
+      "curatorDecision": "accept-external-mapping"
     },
     {
       "entityId": "ancylopoda",
@@ -2581,7 +4378,21 @@
       },
       "occurrenceCount": 369,
       "referenceNo": "ref:56837",
-      "snapshotModifiedAt": "2015-10-31 01:02:30"
+      "snapshotModifiedAt": "2015-10-31 01:02:30",
+      "externalResolutionStatus": "ambiguous",
+      "resolvedName": "Ancylopoda",
+      "resolvedRank": "unranked clade",
+      "resolvedImmediateParent": "Tapiromorpha",
+      "resolvedClassification": {
+        "phylum": "Chordata",
+        "class": "Mammalia",
+        "order": "Perissodactyla",
+        "family": null
+      },
+      "localExpectedParentConcept": "Perissodactyla",
+      "lineageCompatibility": "compatible-classification",
+      "conceptReviewStatus": "unresolved",
+      "curatorDecision": "withhold-external-mapping"
     },
     {
       "entityId": "chalicotherium",
@@ -2589,7 +4400,7 @@
       "localRank": "genus",
       "previousPbdbId": "txn:43079",
       "resolutionStatus": "resolved",
-      "resolutionReason": "resolved-name-rank-and-concept",
+      "resolutionReason": "resolved-exact-name-and-rank",
       "pbdbId": "txn:43079",
       "acceptedName": "Chalicotherium",
       "acceptedRank": "genus",
@@ -2603,7 +4414,21 @@
       },
       "occurrenceCount": 40,
       "referenceNo": "ref:61242",
-      "snapshotModifiedAt": "2022-12-02 12:55:18"
+      "snapshotModifiedAt": "2022-12-02 12:55:18",
+      "externalResolutionStatus": "resolved-exact",
+      "resolvedName": "Chalicotherium",
+      "resolvedRank": "genus",
+      "resolvedImmediateParent": "Chalicotheriinae",
+      "resolvedClassification": {
+        "phylum": "Chordata",
+        "class": "Mammalia",
+        "order": "Perissodactyla",
+        "family": "Chalicotheriidae"
+      },
+      "localExpectedParentConcept": "Ancylopoda",
+      "lineageCompatibility": "incompatible",
+      "conceptReviewStatus": "needs-concept-review",
+      "curatorDecision": "needs-concept-review"
     },
     {
       "entityId": "ceratomorpha",
@@ -2625,7 +4450,21 @@
       },
       "occurrenceCount": 4259,
       "referenceNo": "ref:4783",
-      "snapshotModifiedAt": "2013-04-30 15:43:10"
+      "snapshotModifiedAt": "2013-04-30 15:43:10",
+      "externalResolutionStatus": "ambiguous",
+      "resolvedName": "Ceratomorpha",
+      "resolvedRank": "unranked clade",
+      "resolvedImmediateParent": "Tapiromorpha",
+      "resolvedClassification": {
+        "phylum": "Chordata",
+        "class": "Mammalia",
+        "order": "Perissodactyla",
+        "family": null
+      },
+      "localExpectedParentConcept": "Perissodactyla",
+      "lineageCompatibility": "compatible-classification",
+      "conceptReviewStatus": "unresolved",
+      "curatorDecision": "withhold-external-mapping"
     },
     {
       "entityId": "tapiroidea",
@@ -2633,7 +4472,7 @@
       "localRank": "superfamily",
       "previousPbdbId": "txn:43095",
       "resolutionStatus": "resolved",
-      "resolutionReason": "resolved-name-rank-and-concept",
+      "resolutionReason": "resolved-exact-name-and-rank",
       "pbdbId": "txn:43104",
       "acceptedName": "Tapiroidea",
       "acceptedRank": "superfamily",
@@ -2647,7 +4486,21 @@
       },
       "occurrenceCount": 741,
       "referenceNo": "ref:4783",
-      "snapshotModifiedAt": "2021-02-16 16:44:27"
+      "snapshotModifiedAt": "2021-02-16 16:44:27",
+      "externalResolutionStatus": "resolved-exact",
+      "resolvedName": "Tapiroidea",
+      "resolvedRank": "superfamily",
+      "resolvedImmediateParent": "Ceratomorpha",
+      "resolvedClassification": {
+        "phylum": "Chordata",
+        "class": "Mammalia",
+        "order": "Perissodactyla",
+        "family": null
+      },
+      "localExpectedParentConcept": "Ceratomorpha",
+      "lineageCompatibility": "compatible-immediate-parent",
+      "conceptReviewStatus": "compatible",
+      "curatorDecision": "accept-external-mapping"
     },
     {
       "entityId": "rhinocerotoidea",
@@ -2655,7 +4508,7 @@
       "localRank": "superfamily",
       "previousPbdbId": "txn:43102",
       "resolutionStatus": "resolved",
-      "resolutionReason": "resolved-name-rank-and-concept",
+      "resolutionReason": "resolved-exact-name-and-rank",
       "pbdbId": "txn:43140",
       "acceptedName": "Rhinocerotoidea",
       "acceptedRank": "superfamily",
@@ -2669,7 +4522,21 @@
       },
       "occurrenceCount": 3498,
       "referenceNo": "ref:23420",
-      "snapshotModifiedAt": "2021-01-27 09:05:55"
+      "snapshotModifiedAt": "2021-01-27 09:05:55",
+      "externalResolutionStatus": "resolved-exact",
+      "resolvedName": "Rhinocerotoidea",
+      "resolvedRank": "superfamily",
+      "resolvedImmediateParent": "Ceratomorpha",
+      "resolvedClassification": {
+        "phylum": "Chordata",
+        "class": "Mammalia",
+        "order": "Perissodactyla",
+        "family": null
+      },
+      "localExpectedParentConcept": "Ceratomorpha",
+      "lineageCompatibility": "compatible-immediate-parent",
+      "conceptReviewStatus": "compatible",
+      "curatorDecision": "accept-external-mapping"
     },
     {
       "entityId": "metamynodon",
@@ -2677,7 +4544,7 @@
       "localRank": "genus",
       "previousPbdbId": "txn:43179",
       "resolutionStatus": "resolved",
-      "resolutionReason": "resolved-name-rank-and-concept",
+      "resolutionReason": "resolved-exact-name-and-rank",
       "pbdbId": "txn:43179",
       "acceptedName": "Metamynodon",
       "acceptedRank": "genus",
@@ -2691,7 +4558,21 @@
       },
       "occurrenceCount": 23,
       "referenceNo": "ref:57329",
-      "snapshotModifiedAt": "2015-12-11 01:02:59"
+      "snapshotModifiedAt": "2015-12-11 01:02:59",
+      "externalResolutionStatus": "resolved-exact",
+      "resolvedName": "Metamynodon",
+      "resolvedRank": "genus",
+      "resolvedImmediateParent": "Metamynodontini",
+      "resolvedClassification": {
+        "phylum": "Chordata",
+        "class": "Mammalia",
+        "order": "Perissodactyla",
+        "family": "Amynodontidae"
+      },
+      "localExpectedParentConcept": "Rhinocerotoidea",
+      "lineageCompatibility": "incompatible",
+      "conceptReviewStatus": "needs-concept-review",
+      "curatorDecision": "needs-concept-review"
     },
     {
       "entityId": "paraceratherium",
@@ -2699,7 +4580,7 @@
       "localRank": "genus",
       "previousPbdbId": "txn:43161",
       "resolutionStatus": "resolved",
-      "resolutionReason": "resolved-name-rank-and-concept",
+      "resolutionReason": "resolved-exact-name-and-rank",
       "pbdbId": "txn:43161",
       "acceptedName": "Paraceratherium",
       "acceptedRank": "genus",
@@ -2713,7 +4594,21 @@
       },
       "occurrenceCount": 38,
       "referenceNo": "ref:4783",
-      "snapshotModifiedAt": "2013-04-30 15:43:10"
+      "snapshotModifiedAt": "2013-04-30 15:43:10",
+      "externalResolutionStatus": "resolved-exact",
+      "resolvedName": "Paraceratherium",
+      "resolvedRank": "genus",
+      "resolvedImmediateParent": "Paraceratheriinae",
+      "resolvedClassification": {
+        "phylum": "Chordata",
+        "class": "Mammalia",
+        "order": "Perissodactyla",
+        "family": "Paraceratheriidae"
+      },
+      "localExpectedParentConcept": "Rhinocerotoidea",
+      "lineageCompatibility": "incompatible",
+      "conceptReviewStatus": "needs-concept-review",
+      "curatorDecision": "needs-concept-review"
     },
     {
       "entityId": "rhinocerotidae",
@@ -2721,7 +4616,7 @@
       "localRank": "family",
       "previousPbdbId": "txn:43104",
       "resolutionStatus": "resolved",
-      "resolutionReason": "resolved-name-rank-and-concept",
+      "resolutionReason": "resolved-exact-name-and-rank",
       "pbdbId": "txn:43187",
       "acceptedName": "Rhinocerotidae",
       "acceptedRank": "family",
@@ -2735,7 +4630,21 @@
       },
       "occurrenceCount": 2640,
       "referenceNo": "ref:23420",
-      "snapshotModifiedAt": "2021-01-27 08:23:50"
+      "snapshotModifiedAt": "2021-01-27 08:23:50",
+      "externalResolutionStatus": "resolved-exact",
+      "resolvedName": "Rhinocerotidae",
+      "resolvedRank": "family",
+      "resolvedImmediateParent": "Rhinocerotoidea",
+      "resolvedClassification": {
+        "phylum": "Chordata",
+        "class": "Mammalia",
+        "order": "Perissodactyla",
+        "family": "Rhinocerotidae"
+      },
+      "localExpectedParentConcept": "Rhinocerotoidea",
+      "lineageCompatibility": "compatible-immediate-parent",
+      "conceptReviewStatus": "compatible",
+      "curatorDecision": "accept-external-mapping"
     },
     {
       "entityId": "teleoceras",
@@ -2743,7 +4652,7 @@
       "localRank": "genus",
       "previousPbdbId": "txn:43226",
       "resolutionStatus": "resolved",
-      "resolutionReason": "resolved-name-rank-and-concept",
+      "resolutionReason": "resolved-exact-name-and-rank",
       "pbdbId": "txn:43226",
       "acceptedName": "Teleoceras",
       "acceptedRank": "genus",
@@ -2757,7 +4666,21 @@
       },
       "occurrenceCount": 348,
       "referenceNo": "ref:58944",
-      "snapshotModifiedAt": "2020-04-25 13:14:41"
+      "snapshotModifiedAt": "2020-04-25 13:14:41",
+      "externalResolutionStatus": "resolved-exact",
+      "resolvedName": "Teleoceras",
+      "resolvedRank": "genus",
+      "resolvedImmediateParent": "Teleoceratina",
+      "resolvedClassification": {
+        "phylum": "Chordata",
+        "class": "Mammalia",
+        "order": "Perissodactyla",
+        "family": "Rhinocerotidae"
+      },
+      "localExpectedParentConcept": "Rhinocerotidae",
+      "lineageCompatibility": "compatible-classification",
+      "conceptReviewStatus": "compatible",
+      "curatorDecision": "accept-external-mapping"
     },
     {
       "entityId": "coelodonta",
@@ -2765,7 +4688,7 @@
       "localRank": "genus",
       "previousPbdbId": "txn:43197",
       "resolutionStatus": "resolved",
-      "resolutionReason": "resolved-name-rank-and-concept",
+      "resolutionReason": "resolved-exact-name-and-rank",
       "pbdbId": "txn:43197",
       "acceptedName": "Coelodonta",
       "acceptedRank": "genus",
@@ -2779,7 +4702,21 @@
       },
       "occurrenceCount": 37,
       "referenceNo": "ref:4783",
-      "snapshotModifiedAt": "2013-04-30 15:43:10"
+      "snapshotModifiedAt": "2013-04-30 15:43:10",
+      "externalResolutionStatus": "resolved-exact",
+      "resolvedName": "Coelodonta",
+      "resolvedRank": "genus",
+      "resolvedImmediateParent": "Rhinocerotini",
+      "resolvedClassification": {
+        "phylum": "Chordata",
+        "class": "Mammalia",
+        "order": "Perissodactyla",
+        "family": "Rhinocerotidae"
+      },
+      "localExpectedParentConcept": "Rhinocerotidae",
+      "lineageCompatibility": "compatible-classification",
+      "conceptReviewStatus": "compatible",
+      "curatorDecision": "accept-external-mapping"
     },
     {
       "entityId": "carnivora",
@@ -2787,7 +4724,7 @@
       "localRank": "order",
       "previousPbdbId": "txn:36985",
       "resolutionStatus": "resolved",
-      "resolutionReason": "resolved-name-rank-and-concept",
+      "resolutionReason": "resolved-exact-name-and-rank",
       "pbdbId": "txn:36905",
       "acceptedName": "Carnivora",
       "acceptedRank": "order",
@@ -2801,7 +4738,21 @@
       },
       "occurrenceCount": 13090,
       "referenceNo": "ref:87636",
-      "snapshotModifiedAt": "2017-11-10 01:04:19"
+      "snapshotModifiedAt": "2017-11-10 01:04:19",
+      "externalResolutionStatus": "resolved-exact",
+      "resolvedName": "Carnivora",
+      "resolvedRank": "order",
+      "resolvedImmediateParent": "Carnivoraformes",
+      "resolvedClassification": {
+        "phylum": "Chordata",
+        "class": "Mammalia",
+        "order": "Carnivora",
+        "family": null
+      },
+      "localExpectedParentConcept": "Placentalia",
+      "lineageCompatibility": "incompatible",
+      "conceptReviewStatus": "needs-concept-review",
+      "curatorDecision": "needs-concept-review"
     },
     {
       "entityId": "felidae",
@@ -2809,7 +4760,7 @@
       "localRank": "family",
       "previousPbdbId": "txn:41046",
       "resolutionStatus": "resolved",
-      "resolutionReason": "resolved-name-rank-and-concept",
+      "resolutionReason": "resolved-exact-name-and-rank",
       "pbdbId": "txn:41045",
       "acceptedName": "Felidae",
       "acceptedRank": "family",
@@ -2823,7 +4774,21 @@
       },
       "occurrenceCount": 2058,
       "referenceNo": "ref:23420",
-      "snapshotModifiedAt": "2019-12-02 12:55:35"
+      "snapshotModifiedAt": "2019-12-02 12:55:35",
+      "externalResolutionStatus": "resolved-exact",
+      "resolvedName": "Felidae",
+      "resolvedRank": "family",
+      "resolvedImmediateParent": "Feloidea",
+      "resolvedClassification": {
+        "phylum": "Chordata",
+        "class": "Mammalia",
+        "order": "Carnivora",
+        "family": "Felidae"
+      },
+      "localExpectedParentConcept": "Carnivora",
+      "lineageCompatibility": "compatible-classification",
+      "conceptReviewStatus": "compatible",
+      "curatorDecision": "accept-external-mapping"
     },
     {
       "entityId": "smilodon",
@@ -2831,7 +4796,7 @@
       "localRank": "genus",
       "previousPbdbId": "txn:41047",
       "resolutionStatus": "resolved",
-      "resolutionReason": "resolved-name-rank-and-concept",
+      "resolutionReason": "resolved-exact-name-and-rank",
       "pbdbId": "txn:41079",
       "acceptedName": "Smilodon",
       "acceptedRank": "genus",
@@ -2845,7 +4810,21 @@
       },
       "occurrenceCount": 137,
       "referenceNo": "ref:6294",
-      "snapshotModifiedAt": "2019-09-13 14:10:16"
+      "snapshotModifiedAt": "2019-09-13 14:10:16",
+      "externalResolutionStatus": "resolved-exact",
+      "resolvedName": "Smilodon",
+      "resolvedRank": "genus",
+      "resolvedImmediateParent": "Smilodontini",
+      "resolvedClassification": {
+        "phylum": "Chordata",
+        "class": "Mammalia",
+        "order": "Carnivora",
+        "family": "Felidae"
+      },
+      "localExpectedParentConcept": "Felidae",
+      "lineageCompatibility": "compatible-classification",
+      "conceptReviewStatus": "compatible",
+      "curatorDecision": "accept-external-mapping"
     },
     {
       "entityId": "canidae",
@@ -2853,7 +4832,7 @@
       "localRank": "family",
       "previousPbdbId": "txn:41234",
       "resolutionStatus": "resolved",
-      "resolutionReason": "resolved-name-rank-and-concept",
+      "resolutionReason": "resolved-exact-name-and-rank",
       "pbdbId": "txn:41189",
       "acceptedName": "Canidae",
       "acceptedRank": "family",
@@ -2867,7 +4846,21 @@
       },
       "occurrenceCount": 3487,
       "referenceNo": "ref:4759",
-      "snapshotModifiedAt": "2024-02-28 13:03:54"
+      "snapshotModifiedAt": "2024-02-28 13:03:54",
+      "externalResolutionStatus": "resolved-exact",
+      "resolvedName": "Canidae",
+      "resolvedRank": "family",
+      "resolvedImmediateParent": "Carnivora",
+      "resolvedClassification": {
+        "phylum": "Chordata",
+        "class": "Mammalia",
+        "order": "Carnivora",
+        "family": "Canidae"
+      },
+      "localExpectedParentConcept": "Carnivora",
+      "lineageCompatibility": "compatible-immediate-parent",
+      "conceptReviewStatus": "compatible",
+      "curatorDecision": "accept-external-mapping"
     },
     {
       "entityId": "cetacea",
@@ -2875,7 +4868,7 @@
       "localRank": "order",
       "previousPbdbId": "txn:36652",
       "resolutionStatus": "resolved",
-      "resolutionReason": "resolved-name-rank-and-concept",
+      "resolutionReason": "resolved-exact-name-and-rank",
       "pbdbId": "txn:36652",
       "acceptedName": "Cetacea",
       "acceptedRank": "order",
@@ -2889,7 +4882,21 @@
       },
       "occurrenceCount": 5983,
       "referenceNo": "ref:16880",
-      "snapshotModifiedAt": "2024-05-31 13:39:23"
+      "snapshotModifiedAt": "2024-05-31 13:39:23",
+      "externalResolutionStatus": "resolved-exact",
+      "resolvedName": "Cetacea",
+      "resolvedRank": "order",
+      "resolvedImmediateParent": "Whippomorpha",
+      "resolvedClassification": {
+        "phylum": "Chordata",
+        "class": "Mammalia",
+        "order": "Cetacea",
+        "family": null
+      },
+      "localExpectedParentConcept": "Placentalia",
+      "lineageCompatibility": "incompatible",
+      "conceptReviewStatus": "needs-concept-review",
+      "curatorDecision": "needs-concept-review"
     },
     {
       "entityId": "basilosauridae",
@@ -2897,7 +4904,7 @@
       "localRank": "family",
       "previousPbdbId": "txn:53282",
       "resolutionStatus": "resolved",
-      "resolutionReason": "resolved-name-rank-and-concept",
+      "resolutionReason": "resolved-exact-name-and-rank",
       "pbdbId": "txn:42936",
       "acceptedName": "Basilosauridae",
       "acceptedRank": "family",
@@ -2911,7 +4918,21 @@
       },
       "occurrenceCount": 323,
       "referenceNo": "ref:12189",
-      "snapshotModifiedAt": "2020-11-24 16:31:56"
+      "snapshotModifiedAt": "2020-11-24 16:31:56",
+      "externalResolutionStatus": "resolved-exact",
+      "resolvedName": "Basilosauridae",
+      "resolvedRank": "family",
+      "resolvedImmediateParent": "Pelagiceti",
+      "resolvedClassification": {
+        "phylum": "Chordata",
+        "class": "Mammalia",
+        "order": "Cetacea",
+        "family": "Basilosauridae"
+      },
+      "localExpectedParentConcept": "Cetacea",
+      "lineageCompatibility": "compatible-classification",
+      "conceptReviewStatus": "compatible",
+      "curatorDecision": "accept-external-mapping"
     },
     {
       "entityId": "primates",
@@ -2919,7 +4940,7 @@
       "localRank": "order",
       "previousPbdbId": "txn:40700",
       "resolutionStatus": "resolved",
-      "resolutionReason": "resolved-name-rank-and-concept",
+      "resolutionReason": "resolved-exact-name-and-rank",
       "pbdbId": "txn:40700",
       "acceptedName": "Primates",
       "acceptedRank": "order",
@@ -2933,7 +4954,21 @@
       },
       "occurrenceCount": 5102,
       "referenceNo": "ref:12782",
-      "snapshotModifiedAt": "2014-09-17 18:09:05"
+      "snapshotModifiedAt": "2014-09-17 18:09:05",
+      "externalResolutionStatus": "resolved-exact",
+      "resolvedName": "Primates",
+      "resolvedRank": "order",
+      "resolvedImmediateParent": "Euarchonta",
+      "resolvedClassification": {
+        "phylum": "Chordata",
+        "class": "Mammalia",
+        "order": "Primates",
+        "family": null
+      },
+      "localExpectedParentConcept": "Placentalia",
+      "lineageCompatibility": "incompatible",
+      "conceptReviewStatus": "needs-concept-review",
+      "curatorDecision": "needs-concept-review"
     },
     {
       "entityId": "hominidae",
@@ -2941,7 +4976,7 @@
       "localRank": "family",
       "previousPbdbId": "txn:40841",
       "resolutionStatus": "resolved",
-      "resolutionReason": "resolved-name-rank-and-concept",
+      "resolutionReason": "resolved-exact-name-and-rank",
       "pbdbId": "txn:40899",
       "acceptedName": "Hominidae",
       "acceptedRank": "family",
@@ -2955,7 +4990,21 @@
       },
       "occurrenceCount": 619,
       "referenceNo": "ref:4783",
-      "snapshotModifiedAt": "2013-04-30 15:43:10"
+      "snapshotModifiedAt": "2013-04-30 15:43:10",
+      "externalResolutionStatus": "resolved-exact",
+      "resolvedName": "Hominidae",
+      "resolvedRank": "family",
+      "resolvedImmediateParent": "Hominoidea",
+      "resolvedClassification": {
+        "phylum": "Chordata",
+        "class": "Mammalia",
+        "order": "Primates",
+        "family": "Hominidae"
+      },
+      "localExpectedParentConcept": "Primates",
+      "lineageCompatibility": "compatible-classification",
+      "conceptReviewStatus": "compatible",
+      "curatorDecision": "accept-external-mapping"
     },
     {
       "entityId": "homo",
@@ -2963,7 +5012,7 @@
       "localRank": "genus",
       "previousPbdbId": "txn:40842",
       "resolutionStatus": "resolved",
-      "resolutionReason": "resolved-name-rank-and-concept",
+      "resolutionReason": "resolved-exact-name-and-rank",
       "pbdbId": "txn:40901",
       "acceptedName": "Homo",
       "acceptedRank": "genus",
@@ -2977,7 +5026,21 @@
       },
       "occurrenceCount": 238,
       "referenceNo": "ref:12782",
-      "snapshotModifiedAt": "2018-05-12 19:22:17"
+      "snapshotModifiedAt": "2018-05-12 19:22:17",
+      "externalResolutionStatus": "resolved-exact",
+      "resolvedName": "Homo",
+      "resolvedRank": "genus",
+      "resolvedImmediateParent": "Hominini",
+      "resolvedClassification": {
+        "phylum": "Chordata",
+        "class": "Mammalia",
+        "order": "Primates",
+        "family": "Hominidae"
+      },
+      "localExpectedParentConcept": "Hominidae",
+      "lineageCompatibility": "compatible-classification",
+      "conceptReviewStatus": "compatible",
+      "curatorDecision": "accept-external-mapping"
     },
     {
       "entityId": "homo_sapiens",
@@ -2985,7 +5048,7 @@
       "localRank": "species",
       "previousPbdbId": "txn:83088",
       "resolutionStatus": "resolved",
-      "resolutionReason": "resolved-name-rank-and-concept",
+      "resolutionReason": "resolved-exact-name-and-rank",
       "pbdbId": "txn:83088",
       "acceptedName": "Homo sapiens",
       "acceptedRank": "species",
@@ -2999,7 +5062,21 @@
       },
       "occurrenceCount": 97,
       "referenceNo": "ref:12782",
-      "snapshotModifiedAt": "2013-10-27 04:21:23"
+      "snapshotModifiedAt": "2013-10-27 04:21:23",
+      "externalResolutionStatus": "resolved-exact",
+      "resolvedName": "Homo sapiens",
+      "resolvedRank": "species",
+      "resolvedImmediateParent": "Homo",
+      "resolvedClassification": {
+        "phylum": "Chordata",
+        "class": "Mammalia",
+        "order": "Primates",
+        "family": "Hominidae"
+      },
+      "localExpectedParentConcept": "Homo",
+      "lineageCompatibility": "compatible-immediate-parent",
+      "conceptReviewStatus": "compatible",
+      "curatorDecision": "accept-external-mapping"
     },
     {
       "entityId": "homo_neanderthalensis",
@@ -3007,7 +5084,7 @@
       "localRank": "species",
       "previousPbdbId": "txn:83089",
       "resolutionStatus": "resolved",
-      "resolutionReason": "resolved-name-rank-and-concept",
+      "resolutionReason": "resolved-exact-name-and-rank",
       "pbdbId": "txn:83087",
       "acceptedName": "Homo neanderthalensis",
       "acceptedRank": "species",
@@ -3021,7 +5098,21 @@
       },
       "occurrenceCount": 6,
       "referenceNo": "ref:18101",
-      "snapshotModifiedAt": "2013-04-30 15:43:10"
+      "snapshotModifiedAt": "2013-04-30 15:43:10",
+      "externalResolutionStatus": "resolved-exact",
+      "resolvedName": "Homo neanderthalensis",
+      "resolvedRank": "species",
+      "resolvedImmediateParent": "Homo",
+      "resolvedClassification": {
+        "phylum": "Chordata",
+        "class": "Mammalia",
+        "order": "Primates",
+        "family": "Hominidae"
+      },
+      "localExpectedParentConcept": "Homo",
+      "lineageCompatibility": "compatible-immediate-parent",
+      "conceptReviewStatus": "compatible",
+      "curatorDecision": "accept-external-mapping"
     },
     {
       "entityId": "proboscidea",
@@ -3029,7 +5120,7 @@
       "localRank": "order",
       "previousPbdbId": "txn:43261",
       "resolutionStatus": "resolved",
-      "resolutionReason": "resolved-name-rank-and-concept",
+      "resolutionReason": "resolved-exact-name-and-rank",
       "pbdbId": "txn:43230",
       "acceptedName": "Proboscidea",
       "acceptedRank": "order",
@@ -3043,7 +5134,21 @@
       },
       "occurrenceCount": 4371,
       "referenceNo": "ref:18770",
-      "snapshotModifiedAt": "2013-10-27 04:21:23"
+      "snapshotModifiedAt": "2013-10-27 04:21:23",
+      "externalResolutionStatus": "resolved-exact",
+      "resolvedName": "Proboscidea",
+      "resolvedRank": "order",
+      "resolvedImmediateParent": "Tethytheria",
+      "resolvedClassification": {
+        "phylum": "Chordata",
+        "class": "Mammalia",
+        "order": "Proboscidea",
+        "family": null
+      },
+      "localExpectedParentConcept": "Placentalia",
+      "lineageCompatibility": "incompatible",
+      "conceptReviewStatus": "needs-concept-review",
+      "curatorDecision": "needs-concept-review"
     },
     {
       "entityId": "mammuthus",
@@ -3051,7 +5156,7 @@
       "localRank": "genus",
       "previousPbdbId": "txn:43262",
       "resolutionStatus": "resolved",
-      "resolutionReason": "resolved-name-rank-and-concept",
+      "resolutionReason": "resolved-exact-name-and-rank",
       "pbdbId": "txn:43266",
       "acceptedName": "Mammuthus",
       "acceptedRank": "genus",
@@ -3065,7 +5170,21 @@
       },
       "occurrenceCount": 692,
       "referenceNo": "ref:93969",
-      "snapshotModifiedAt": "2026-01-22 18:33:08"
+      "snapshotModifiedAt": "2026-01-22 18:33:08",
+      "externalResolutionStatus": "resolved-exact",
+      "resolvedName": "Mammuthus",
+      "resolvedRank": "genus",
+      "resolvedImmediateParent": "Elephantini",
+      "resolvedClassification": {
+        "phylum": "Chordata",
+        "class": "Mammalia",
+        "order": "Proboscidea",
+        "family": "Elephantidae"
+      },
+      "localExpectedParentConcept": "Proboscidea",
+      "lineageCompatibility": "compatible-classification",
+      "conceptReviewStatus": "compatible",
+      "curatorDecision": "accept-external-mapping"
     },
     {
       "entityId": "chiroptera",
@@ -3073,7 +5192,7 @@
       "localRank": "order",
       "previousPbdbId": "txn:40667",
       "resolutionStatus": "resolved",
-      "resolutionReason": "resolved-name-rank-and-concept",
+      "resolutionReason": "resolved-exact-name-and-rank",
       "pbdbId": "txn:40622",
       "acceptedName": "Chiroptera",
       "acceptedRank": "order",
@@ -3087,7 +5206,21 @@
       },
       "occurrenceCount": 1707,
       "referenceNo": "ref:4783",
-      "snapshotModifiedAt": "2013-04-30 15:43:10"
+      "snapshotModifiedAt": "2013-04-30 15:43:10",
+      "externalResolutionStatus": "resolved-exact",
+      "resolvedName": "Chiroptera",
+      "resolvedRank": "order",
+      "resolvedImmediateParent": "Placentalia",
+      "resolvedClassification": {
+        "phylum": "Chordata",
+        "class": "Mammalia",
+        "order": "Chiroptera",
+        "family": null
+      },
+      "localExpectedParentConcept": "Placentalia",
+      "lineageCompatibility": "compatible-immediate-parent",
+      "conceptReviewStatus": "compatible",
+      "curatorDecision": "accept-external-mapping"
     },
     {
       "entityId": "rodentia",
@@ -3095,7 +5228,7 @@
       "localRank": "order",
       "previousPbdbId": "txn:41367",
       "resolutionStatus": "resolved",
-      "resolutionReason": "resolved-name-rank-and-concept",
+      "resolutionReason": "resolved-exact-name-and-rank",
       "pbdbId": "txn:41370",
       "acceptedName": "Rodentia",
       "acceptedRank": "order",
@@ -3109,7 +5242,21 @@
       },
       "occurrenceCount": 25038,
       "referenceNo": "ref:43100",
-      "snapshotModifiedAt": "2019-07-20 01:04:41"
+      "snapshotModifiedAt": "2019-07-20 01:04:41",
+      "externalResolutionStatus": "resolved-exact",
+      "resolvedName": "Rodentia",
+      "resolvedRank": "order",
+      "resolvedImmediateParent": "Simplicidentata",
+      "resolvedClassification": {
+        "phylum": "Chordata",
+        "class": "Mammalia",
+        "order": "Rodentia",
+        "family": null
+      },
+      "localExpectedParentConcept": "Placentalia",
+      "lineageCompatibility": "incompatible",
+      "conceptReviewStatus": "needs-concept-review",
+      "curatorDecision": "needs-concept-review"
     },
     {
       "entityId": "sauropsida",
@@ -3131,7 +5278,21 @@
       },
       "occurrenceCount": 72675,
       "referenceNo": "ref:28402",
-      "snapshotModifiedAt": "2013-10-27 04:21:23"
+      "snapshotModifiedAt": "2013-10-27 04:21:23",
+      "externalResolutionStatus": "ambiguous",
+      "resolvedName": "Sauropsida",
+      "resolvedRank": "unranked clade",
+      "resolvedImmediateParent": "Amniota",
+      "resolvedClassification": {
+        "phylum": "Chordata",
+        "class": "Osteichthyes",
+        "order": "Cotylosauria",
+        "family": null
+      },
+      "localExpectedParentConcept": "Amniota",
+      "lineageCompatibility": "compatible-immediate-parent",
+      "conceptReviewStatus": "unresolved",
+      "curatorDecision": "withhold-external-mapping"
     },
     {
       "entityId": "testudines",
@@ -3139,7 +5300,7 @@
       "localRank": "order",
       "previousPbdbId": "txn:37661",
       "resolutionStatus": "resolved",
-      "resolutionReason": "resolved-name-rank-and-concept",
+      "resolutionReason": "resolved-exact-name-and-rank",
       "pbdbId": "txn:56475",
       "acceptedName": "Testudines",
       "acceptedRank": "order",
@@ -3153,7 +5314,21 @@
       },
       "occurrenceCount": 9183,
       "referenceNo": "ref:28363",
-      "snapshotModifiedAt": "2013-04-30 15:43:10"
+      "snapshotModifiedAt": "2013-04-30 15:43:10",
+      "externalResolutionStatus": "resolved-exact",
+      "resolvedName": "Testudines",
+      "resolvedRank": "order",
+      "resolvedImmediateParent": "Testudinata",
+      "resolvedClassification": {
+        "phylum": "Chordata",
+        "class": "Reptilia",
+        "order": "Testudines",
+        "family": null
+      },
+      "localExpectedParentConcept": "Sauropsida",
+      "lineageCompatibility": "incompatible",
+      "conceptReviewStatus": "needs-concept-review",
+      "curatorDecision": "needs-concept-review"
     },
     {
       "entityId": "ichthyosauria",
@@ -3175,7 +5350,21 @@
       },
       "occurrenceCount": 686,
       "referenceNo": "ref:6930",
-      "snapshotModifiedAt": "2013-04-30 15:43:10"
+      "snapshotModifiedAt": "2013-04-30 15:43:10",
+      "externalResolutionStatus": "ambiguous",
+      "resolvedName": "Ichthyosauria",
+      "resolvedRank": "unranked clade",
+      "resolvedImmediateParent": "Eoichthyosauria",
+      "resolvedClassification": {
+        "phylum": "Chordata",
+        "class": "Reptilia",
+        "order": "Ichthyosauria",
+        "family": null
+      },
+      "localExpectedParentConcept": "Sauropsida",
+      "lineageCompatibility": "incompatible",
+      "conceptReviewStatus": "needs-concept-review",
+      "curatorDecision": "needs-concept-review"
     },
     {
       "entityId": "ichthyosaurus",
@@ -3183,7 +5372,7 @@
       "localRank": "genus",
       "previousPbdbId": "txn:38119",
       "resolutionStatus": "resolved",
-      "resolutionReason": "resolved-name-rank-and-concept",
+      "resolutionReason": "resolved-exact-name-and-rank",
       "pbdbId": "txn:36558",
       "acceptedName": "Ichthyosaurus",
       "acceptedRank": "genus",
@@ -3197,7 +5386,21 @@
       },
       "occurrenceCount": 101,
       "referenceNo": "ref:6930",
-      "snapshotModifiedAt": "2021-12-03 09:41:53"
+      "snapshotModifiedAt": "2021-12-03 09:41:53",
+      "externalResolutionStatus": "resolved-exact",
+      "resolvedName": "Ichthyosaurus",
+      "resolvedRank": "genus",
+      "resolvedImmediateParent": "Ichthyosauridae",
+      "resolvedClassification": {
+        "phylum": "Chordata",
+        "class": "Reptilia",
+        "order": "Ichthyosauria",
+        "family": "Ichthyosauridae"
+      },
+      "localExpectedParentConcept": "Ichthyosauria",
+      "lineageCompatibility": "compatible-classification",
+      "conceptReviewStatus": "compatible",
+      "curatorDecision": "accept-external-mapping"
     },
     {
       "entityId": "plesiosauria",
@@ -3205,7 +5408,7 @@
       "localRank": "order",
       "previousPbdbId": "txn:38141",
       "resolutionStatus": "resolved",
-      "resolutionReason": "resolved-name-rank-and-concept",
+      "resolutionReason": "resolved-exact-name-and-rank",
       "pbdbId": "txn:36454",
       "acceptedName": "Plesiosauria",
       "acceptedRank": "order",
@@ -3219,7 +5422,21 @@
       },
       "occurrenceCount": 1170,
       "referenceNo": "ref:69467",
-      "snapshotModifiedAt": "2019-07-20 01:04:41"
+      "snapshotModifiedAt": "2019-07-20 01:04:41",
+      "externalResolutionStatus": "resolved-exact",
+      "resolvedName": "Plesiosauria",
+      "resolvedRank": "order",
+      "resolvedImmediateParent": "Sauropterygia",
+      "resolvedClassification": {
+        "phylum": "Chordata",
+        "class": "Reptilia",
+        "order": "Plesiosauria",
+        "family": null
+      },
+      "localExpectedParentConcept": "Sauropsida",
+      "lineageCompatibility": "incompatible",
+      "conceptReviewStatus": "needs-concept-review",
+      "curatorDecision": "needs-concept-review"
     },
     {
       "entityId": "elasmosauridae",
@@ -3227,7 +5444,7 @@
       "localRank": "family",
       "previousPbdbId": "txn:38177",
       "resolutionStatus": "resolved",
-      "resolutionReason": "resolved-name-rank-and-concept",
+      "resolutionReason": "resolved-exact-name-and-rank",
       "pbdbId": "txn:38175",
       "acceptedName": "Elasmosauridae",
       "acceptedRank": "family",
@@ -3241,7 +5458,21 @@
       },
       "occurrenceCount": 313,
       "referenceNo": "ref:4783",
-      "snapshotModifiedAt": "2017-09-11 16:04:56"
+      "snapshotModifiedAt": "2017-09-11 16:04:56",
+      "externalResolutionStatus": "resolved-exact",
+      "resolvedName": "Elasmosauridae",
+      "resolvedRank": "family",
+      "resolvedImmediateParent": "Plesiosauroidea",
+      "resolvedClassification": {
+        "phylum": "Chordata",
+        "class": "Reptilia",
+        "order": "Plesiosauria",
+        "family": "Elasmosauridae"
+      },
+      "localExpectedParentConcept": "Plesiosauria",
+      "lineageCompatibility": "compatible-classification",
+      "conceptReviewStatus": "compatible",
+      "curatorDecision": "accept-external-mapping"
     },
     {
       "entityId": "lepidosauria",
@@ -3249,7 +5480,7 @@
       "localRank": "superorder",
       "previousPbdbId": "txn:37808",
       "resolutionStatus": "resolved",
-      "resolutionReason": "resolved-name-rank-and-concept",
+      "resolutionReason": "resolved-exact-name-and-rank",
       "pbdbId": "txn:95312",
       "acceptedName": "Lepidosauria",
       "acceptedRank": "superorder",
@@ -3263,7 +5494,21 @@
       },
       "occurrenceCount": 372,
       "referenceNo": "ref:35418",
-      "snapshotModifiedAt": "2018-01-13 01:04:29"
+      "snapshotModifiedAt": "2018-01-13 01:04:29",
+      "externalResolutionStatus": "resolved-exact",
+      "resolvedName": "Lepidosauria",
+      "resolvedRank": "superorder",
+      "resolvedImmediateParent": "Lepidosauromorpha",
+      "resolvedClassification": {
+        "phylum": "Chordata",
+        "class": "Reptilia",
+        "order": null,
+        "family": null
+      },
+      "localExpectedParentConcept": "Sauropsida",
+      "lineageCompatibility": "incompatible",
+      "conceptReviewStatus": "needs-concept-review",
+      "curatorDecision": "needs-concept-review"
     },
     {
       "entityId": "squamata",
@@ -3285,7 +5530,21 @@
       },
       "occurrenceCount": 9785,
       "referenceNo": "ref:12910",
-      "snapshotModifiedAt": "2019-08-27 11:16:04"
+      "snapshotModifiedAt": "2019-08-27 11:16:04",
+      "externalResolutionStatus": "ambiguous",
+      "resolvedName": "Squamata",
+      "resolvedRank": "unranked clade",
+      "resolvedImmediateParent": "Reptilia",
+      "resolvedClassification": {
+        "phylum": "Chordata",
+        "class": "Reptilia",
+        "order": "Squamata",
+        "family": null
+      },
+      "localExpectedParentConcept": "Lepidosauria",
+      "lineageCompatibility": "incompatible",
+      "conceptReviewStatus": "needs-concept-review",
+      "curatorDecision": "needs-concept-review"
     },
     {
       "entityId": "mosasauridae",
@@ -3293,7 +5552,7 @@
       "localRank": "family",
       "previousPbdbId": "txn:38045",
       "resolutionStatus": "resolved",
-      "resolutionReason": "resolved-name-rank-and-concept",
+      "resolutionReason": "resolved-exact-name-and-rank",
       "pbdbId": "txn:38049",
       "acceptedName": "Mosasauridae",
       "acceptedRank": "family",
@@ -3307,7 +5566,21 @@
       },
       "occurrenceCount": 848,
       "referenceNo": "ref:28567",
-      "snapshotModifiedAt": "2023-11-07 10:50:39"
+      "snapshotModifiedAt": "2023-11-07 10:50:39",
+      "externalResolutionStatus": "resolved-exact",
+      "resolvedName": "Mosasauridae",
+      "resolvedRank": "family",
+      "resolvedImmediateParent": "Squamata",
+      "resolvedClassification": {
+        "phylum": "Chordata",
+        "class": "Reptilia",
+        "order": "Squamata",
+        "family": "Mosasauridae"
+      },
+      "localExpectedParentConcept": "Lepidosauria",
+      "lineageCompatibility": "incompatible",
+      "conceptReviewStatus": "needs-concept-review",
+      "curatorDecision": "needs-concept-review"
     },
     {
       "entityId": "archosauria",
@@ -3329,7 +5602,21 @@
       },
       "occurrenceCount": 46628,
       "referenceNo": "ref:58984",
-      "snapshotModifiedAt": "2017-10-17 17:10:30"
+      "snapshotModifiedAt": "2017-10-17 17:10:30",
+      "externalResolutionStatus": "ambiguous",
+      "resolvedName": "Archosauria",
+      "resolvedRank": "unranked clade",
+      "resolvedImmediateParent": "Eucrocopoda",
+      "resolvedClassification": {
+        "phylum": "Chordata",
+        "class": "Reptilia",
+        "order": null,
+        "family": null
+      },
+      "localExpectedParentConcept": "Sauropsida",
+      "lineageCompatibility": "incompatible",
+      "conceptReviewStatus": "needs-concept-review",
+      "curatorDecision": "needs-concept-review"
     },
     {
       "entityId": "crocodylomorpha",
@@ -3351,7 +5638,21 @@
       },
       "occurrenceCount": 5611,
       "referenceNo": "ref:24920",
-      "snapshotModifiedAt": "2013-10-27 04:21:23"
+      "snapshotModifiedAt": "2013-10-27 04:21:23",
+      "externalResolutionStatus": "ambiguous",
+      "resolvedName": "Crocodylomorpha",
+      "resolvedRank": "unranked clade",
+      "resolvedImmediateParent": "Loricata",
+      "resolvedClassification": {
+        "phylum": "Chordata",
+        "class": "Reptilia",
+        "order": null,
+        "family": null
+      },
+      "localExpectedParentConcept": "Archosauria",
+      "lineageCompatibility": "incompatible",
+      "conceptReviewStatus": "needs-concept-review",
+      "curatorDecision": "needs-concept-review"
     },
     {
       "entityId": "pterosauria",
@@ -3359,7 +5660,7 @@
       "localRank": "order",
       "previousPbdbId": "txn:38480",
       "resolutionStatus": "resolved",
-      "resolutionReason": "resolved-name-rank-and-concept",
+      "resolutionReason": "resolved-exact-name-and-rank",
       "pbdbId": "txn:38461",
       "acceptedName": "Pterosauria",
       "acceptedRank": "order",
@@ -3373,7 +5674,21 @@
       },
       "occurrenceCount": 1157,
       "referenceNo": "ref:4783",
-      "snapshotModifiedAt": "2019-07-20 01:04:41"
+      "snapshotModifiedAt": "2019-07-20 01:04:41",
+      "externalResolutionStatus": "resolved-exact",
+      "resolvedName": "Pterosauria",
+      "resolvedRank": "order",
+      "resolvedImmediateParent": "Pterosauromorpha",
+      "resolvedClassification": {
+        "phylum": "Chordata",
+        "class": "Reptilia",
+        "order": "Pterosauria",
+        "family": null
+      },
+      "localExpectedParentConcept": "Archosauria",
+      "lineageCompatibility": "incompatible",
+      "conceptReviewStatus": "needs-concept-review",
+      "curatorDecision": "needs-concept-review"
     },
     {
       "entityId": "pteranodontidae",
@@ -3381,7 +5696,7 @@
       "localRank": "family",
       "previousPbdbId": "txn:38481",
       "resolutionStatus": "resolved",
-      "resolutionReason": "resolved-name-rank-and-concept",
+      "resolutionReason": "resolved-exact-name-and-rank",
       "pbdbId": "txn:52933",
       "acceptedName": "Pteranodontidae",
       "acceptedRank": "family",
@@ -3395,7 +5710,21 @@
       },
       "occurrenceCount": 15,
       "referenceNo": "ref:7807",
-      "snapshotModifiedAt": "2013-10-27 04:21:23"
+      "snapshotModifiedAt": "2013-10-27 04:21:23",
+      "externalResolutionStatus": "resolved-exact",
+      "resolvedName": "Pteranodontidae",
+      "resolvedRank": "family",
+      "resolvedImmediateParent": "Pteranodontia",
+      "resolvedClassification": {
+        "phylum": "Chordata",
+        "class": "Reptilia",
+        "order": "Pterosauria",
+        "family": "Pteranodontidae"
+      },
+      "localExpectedParentConcept": "Pterosauria",
+      "lineageCompatibility": "compatible-classification",
+      "conceptReviewStatus": "compatible",
+      "curatorDecision": "accept-external-mapping"
     },
     {
       "entityId": "dinosauria",
@@ -3417,7 +5746,21 @@
       },
       "occurrenceCount": 37805,
       "referenceNo": "ref:14071",
-      "snapshotModifiedAt": "2017-11-07 12:20:53"
+      "snapshotModifiedAt": "2017-11-07 12:20:53",
+      "externalResolutionStatus": "ambiguous",
+      "resolvedName": "Dinosauria",
+      "resolvedRank": "unranked clade",
+      "resolvedImmediateParent": "Dinosauriformes",
+      "resolvedClassification": {
+        "phylum": "Chordata",
+        "class": "Reptilia",
+        "order": null,
+        "family": null
+      },
+      "localExpectedParentConcept": "Archosauria",
+      "lineageCompatibility": "incompatible",
+      "conceptReviewStatus": "needs-concept-review",
+      "curatorDecision": "needs-concept-review"
     },
     {
       "entityId": "ornithischia",
@@ -3439,7 +5782,21 @@
       },
       "occurrenceCount": 7059,
       "referenceNo": "ref:9798",
-      "snapshotModifiedAt": "2021-05-28 14:37:57"
+      "snapshotModifiedAt": "2021-05-28 14:37:57",
+      "externalResolutionStatus": "ambiguous",
+      "resolvedName": "Ornithischia",
+      "resolvedRank": "unranked clade",
+      "resolvedImmediateParent": "Dinosauria",
+      "resolvedClassification": {
+        "phylum": "Chordata",
+        "class": "Ornithischia",
+        "order": null,
+        "family": null
+      },
+      "localExpectedParentConcept": "Dinosauria",
+      "lineageCompatibility": "compatible-immediate-parent",
+      "conceptReviewStatus": "unresolved",
+      "curatorDecision": "withhold-external-mapping"
     },
     {
       "entityId": "stegosauria",
@@ -3461,7 +5818,21 @@
       },
       "occurrenceCount": 316,
       "referenceNo": "ref:7808",
-      "snapshotModifiedAt": "2013-10-27 04:21:23"
+      "snapshotModifiedAt": "2013-10-27 04:21:23",
+      "externalResolutionStatus": "ambiguous",
+      "resolvedName": "Stegosauria",
+      "resolvedRank": "unranked clade",
+      "resolvedImmediateParent": "Eurypoda",
+      "resolvedClassification": {
+        "phylum": "Chordata",
+        "class": "Ornithischia",
+        "order": "NO_ORDER_SPECIFIED",
+        "family": null
+      },
+      "localExpectedParentConcept": "Ornithischia",
+      "lineageCompatibility": "compatible-classification",
+      "conceptReviewStatus": "unresolved",
+      "curatorDecision": "withhold-external-mapping"
     },
     {
       "entityId": "ankylosauria",
@@ -3483,7 +5854,21 @@
       },
       "occurrenceCount": 829,
       "referenceNo": "ref:9632",
-      "snapshotModifiedAt": "2021-05-28 14:37:23"
+      "snapshotModifiedAt": "2021-05-28 14:37:23",
+      "externalResolutionStatus": "ambiguous",
+      "resolvedName": "Ankylosauria",
+      "resolvedRank": "unranked clade",
+      "resolvedImmediateParent": "Eurypoda",
+      "resolvedClassification": {
+        "phylum": "Chordata",
+        "class": "Ornithischia",
+        "order": "NO_ORDER_SPECIFIED",
+        "family": null
+      },
+      "localExpectedParentConcept": "Ornithischia",
+      "lineageCompatibility": "compatible-classification",
+      "conceptReviewStatus": "unresolved",
+      "curatorDecision": "withhold-external-mapping"
     },
     {
       "entityId": "ankylosaurus",
@@ -3491,7 +5876,7 @@
       "localRank": "genus",
       "previousPbdbId": "txn:52791",
       "resolutionStatus": "resolved",
-      "resolutionReason": "resolved-name-rank-and-concept",
+      "resolutionReason": "resolved-exact-name-and-rank",
       "pbdbId": "txn:38837",
       "acceptedName": "Ankylosaurus",
       "acceptedRank": "genus",
@@ -3505,7 +5890,21 @@
       },
       "occurrenceCount": 16,
       "referenceNo": "ref:4210",
-      "snapshotModifiedAt": "2022-06-08 16:18:33"
+      "snapshotModifiedAt": "2022-06-08 16:18:33",
+      "externalResolutionStatus": "resolved-exact",
+      "resolvedName": "Ankylosaurus",
+      "resolvedRank": "genus",
+      "resolvedImmediateParent": "Ankylosaurinae",
+      "resolvedClassification": {
+        "phylum": "Chordata",
+        "class": "Ornithischia",
+        "order": "NO_ORDER_SPECIFIED",
+        "family": "Ankylosauridae"
+      },
+      "localExpectedParentConcept": "Ankylosauria",
+      "lineageCompatibility": "incompatible",
+      "conceptReviewStatus": "needs-concept-review",
+      "curatorDecision": "needs-concept-review"
     },
     {
       "entityId": "ceratopsia",
@@ -3513,7 +5912,7 @@
       "localRank": "suborder",
       "previousPbdbId": "txn:52796",
       "resolutionStatus": "resolved",
-      "resolutionReason": "resolved-name-rank-and-concept",
+      "resolutionReason": "resolved-exact-name-and-rank",
       "pbdbId": "txn:38842",
       "acceptedName": "Ceratopsia",
       "acceptedRank": "suborder",
@@ -3527,7 +5926,21 @@
       },
       "occurrenceCount": 1142,
       "referenceNo": "ref:7806",
-      "snapshotModifiedAt": "2016-03-30 01:03:03"
+      "snapshotModifiedAt": "2016-03-30 01:03:03",
+      "externalResolutionStatus": "resolved-exact",
+      "resolvedName": "Ceratopsia",
+      "resolvedRank": "suborder",
+      "resolvedImmediateParent": "Marginocephalia",
+      "resolvedClassification": {
+        "phylum": "Chordata",
+        "class": "Ornithischia",
+        "order": null,
+        "family": null
+      },
+      "localExpectedParentConcept": "Ornithischia",
+      "lineageCompatibility": "compatible-classification",
+      "conceptReviewStatus": "compatible",
+      "curatorDecision": "accept-external-mapping"
     },
     {
       "entityId": "triceratops",
@@ -3535,7 +5948,7 @@
       "localRank": "genus",
       "previousPbdbId": "txn:52798",
       "resolutionStatus": "resolved",
-      "resolutionReason": "resolved-name-rank-and-concept",
+      "resolutionReason": "resolved-exact-name-and-rank",
       "pbdbId": "txn:38862",
       "acceptedName": "Triceratops",
       "acceptedRank": "genus",
@@ -3549,7 +5962,21 @@
       },
       "occurrenceCount": 166,
       "referenceNo": "ref:7835",
-      "snapshotModifiedAt": "2022-12-09 13:36:59"
+      "snapshotModifiedAt": "2022-12-09 13:36:59",
+      "externalResolutionStatus": "resolved-exact",
+      "resolvedName": "Triceratops",
+      "resolvedRank": "genus",
+      "resolvedImmediateParent": "Triceratopsini",
+      "resolvedClassification": {
+        "phylum": "Chordata",
+        "class": "Ornithischia",
+        "order": "NO_ORDER_SPECIFIED",
+        "family": "Ceratopsidae"
+      },
+      "localExpectedParentConcept": "Ceratopsia",
+      "lineageCompatibility": "incompatible",
+      "conceptReviewStatus": "needs-concept-review",
+      "curatorDecision": "needs-concept-review"
     },
     {
       "entityId": "hadrosauridae",
@@ -3557,7 +5984,7 @@
       "localRank": "family",
       "previousPbdbId": "txn:52804",
       "resolutionStatus": "resolved",
-      "resolutionReason": "resolved-name-rank-and-concept",
+      "resolutionReason": "resolved-exact-name-and-rank",
       "pbdbId": "txn:38755",
       "acceptedName": "Hadrosauridae",
       "acceptedRank": "family",
@@ -3571,7 +5998,21 @@
       },
       "occurrenceCount": 1622,
       "referenceNo": "ref:58984",
-      "snapshotModifiedAt": "2021-04-22 01:06:27"
+      "snapshotModifiedAt": "2021-04-22 01:06:27",
+      "externalResolutionStatus": "resolved-exact",
+      "resolvedName": "Hadrosauridae",
+      "resolvedRank": "family",
+      "resolvedImmediateParent": "Hadrosauroidea",
+      "resolvedClassification": {
+        "phylum": "Chordata",
+        "class": "Ornithischia",
+        "order": "NO_ORDER_SPECIFIED",
+        "family": "Hadrosauridae"
+      },
+      "localExpectedParentConcept": "Ornithischia",
+      "lineageCompatibility": "compatible-classification",
+      "conceptReviewStatus": "compatible",
+      "curatorDecision": "accept-external-mapping"
     },
     {
       "entityId": "edmontosaurus",
@@ -3579,7 +6020,7 @@
       "localRank": "genus",
       "previousPbdbId": "txn:52805",
       "resolutionStatus": "resolved",
-      "resolutionReason": "resolved-name-rank-and-concept",
+      "resolutionReason": "resolved-exact-name-and-rank",
       "pbdbId": "txn:38761",
       "acceptedName": "Edmontosaurus",
       "acceptedRank": "genus",
@@ -3593,7 +6034,21 @@
       },
       "occurrenceCount": 85,
       "referenceNo": "ref:17549",
-      "snapshotModifiedAt": "2023-01-20 13:46:26"
+      "snapshotModifiedAt": "2023-01-20 13:46:26",
+      "externalResolutionStatus": "resolved-exact",
+      "resolvedName": "Edmontosaurus",
+      "resolvedRank": "genus",
+      "resolvedImmediateParent": "Edmontosaurini",
+      "resolvedClassification": {
+        "phylum": "Chordata",
+        "class": "Ornithischia",
+        "order": "NO_ORDER_SPECIFIED",
+        "family": "Hadrosauridae"
+      },
+      "localExpectedParentConcept": "Hadrosauridae",
+      "lineageCompatibility": "compatible-classification",
+      "conceptReviewStatus": "compatible",
+      "curatorDecision": "accept-external-mapping"
     },
     {
       "entityId": "saurischia",
@@ -3615,7 +6070,21 @@
       },
       "occurrenceCount": 4399,
       "referenceNo": "ref:9798",
-      "snapshotModifiedAt": "2020-06-11 15:24:45"
+      "snapshotModifiedAt": "2020-06-11 15:24:45",
+      "externalResolutionStatus": "ambiguous",
+      "resolvedName": "Saurischia",
+      "resolvedRank": "unranked clade",
+      "resolvedImmediateParent": "Dinosauria",
+      "resolvedClassification": {
+        "phylum": "Chordata",
+        "class": "Saurischia",
+        "order": null,
+        "family": null
+      },
+      "localExpectedParentConcept": "Dinosauria",
+      "lineageCompatibility": "compatible-immediate-parent",
+      "conceptReviewStatus": "unresolved",
+      "curatorDecision": "withhold-external-mapping"
     },
     {
       "entityId": "sauropodomorpha",
@@ -3637,7 +6106,21 @@
       },
       "occurrenceCount": 4178,
       "referenceNo": "ref:4783",
-      "snapshotModifiedAt": "2021-05-28 14:38:41"
+      "snapshotModifiedAt": "2021-05-28 14:38:41",
+      "externalResolutionStatus": "ambiguous",
+      "resolvedName": "Sauropodomorpha",
+      "resolvedRank": "unranked clade",
+      "resolvedImmediateParent": "Saurischia",
+      "resolvedClassification": {
+        "phylum": "Chordata",
+        "class": "Saurischia",
+        "order": "NO_ORDER_SPECIFIED",
+        "family": null
+      },
+      "localExpectedParentConcept": "Saurischia",
+      "lineageCompatibility": "compatible-immediate-parent",
+      "conceptReviewStatus": "unresolved",
+      "curatorDecision": "withhold-external-mapping"
     },
     {
       "entityId": "brachiosauridae",
@@ -3645,7 +6128,7 @@
       "localRank": "family",
       "previousPbdbId": "txn:52835",
       "resolutionStatus": "resolved",
-      "resolutionReason": "resolved-name-rank-and-concept",
+      "resolutionReason": "resolved-exact-name-and-rank",
       "pbdbId": "txn:38673",
       "acceptedName": "Brachiosauridae",
       "acceptedRank": "family",
@@ -3659,7 +6142,21 @@
       },
       "occurrenceCount": 93,
       "referenceNo": "ref:9791",
-      "snapshotModifiedAt": "2021-12-08 15:55:07"
+      "snapshotModifiedAt": "2021-12-08 15:55:07",
+      "externalResolutionStatus": "resolved-exact",
+      "resolvedName": "Brachiosauridae",
+      "resolvedRank": "family",
+      "resolvedImmediateParent": "Titanosauriformes",
+      "resolvedClassification": {
+        "phylum": "Chordata",
+        "class": "Saurischia",
+        "order": "NO_ORDER_SPECIFIED",
+        "family": "Brachiosauridae"
+      },
+      "localExpectedParentConcept": "Sauropodomorpha",
+      "lineageCompatibility": "incompatible",
+      "conceptReviewStatus": "needs-concept-review",
+      "curatorDecision": "needs-concept-review"
     },
     {
       "entityId": "diplodocidae",
@@ -3681,7 +6178,21 @@
       },
       "occurrenceCount": 270,
       "referenceNo": "ref:10626",
-      "snapshotModifiedAt": "2021-09-21 09:31:00"
+      "snapshotModifiedAt": "2021-09-21 09:31:00",
+      "externalResolutionStatus": "ambiguous",
+      "resolvedName": "Diplodocidae",
+      "resolvedRank": "unranked clade",
+      "resolvedImmediateParent": "Flagellicaudata",
+      "resolvedClassification": {
+        "phylum": "Chordata",
+        "class": "Saurischia",
+        "order": "NO_ORDER_SPECIFIED",
+        "family": "Diplodocidae"
+      },
+      "localExpectedParentConcept": "Sauropodomorpha",
+      "lineageCompatibility": "incompatible",
+      "conceptReviewStatus": "needs-concept-review",
+      "curatorDecision": "needs-concept-review"
     },
     {
       "entityId": "titanosauria",
@@ -3689,7 +6200,7 @@
       "localRank": "clade",
       "previousPbdbId": "txn:52868",
       "resolutionStatus": "resolved",
-      "resolutionReason": "resolved-name-rank-and-concept",
+      "resolutionReason": "resolved-exact-name-and-rank",
       "pbdbId": "txn:55585",
       "acceptedName": "Titanosauria",
       "acceptedRank": "unranked clade",
@@ -3703,7 +6214,21 @@
       },
       "occurrenceCount": 798,
       "referenceNo": "ref:13901",
-      "snapshotModifiedAt": "2013-10-27 04:21:23"
+      "snapshotModifiedAt": "2013-10-27 04:21:23",
+      "externalResolutionStatus": "resolved-exact",
+      "resolvedName": "Titanosauria",
+      "resolvedRank": "unranked clade",
+      "resolvedImmediateParent": "Somphospondyli",
+      "resolvedClassification": {
+        "phylum": "Chordata",
+        "class": "Saurischia",
+        "order": null,
+        "family": null
+      },
+      "localExpectedParentConcept": "Sauropodomorpha",
+      "lineageCompatibility": "incompatible",
+      "conceptReviewStatus": "needs-concept-review",
+      "curatorDecision": "needs-concept-review"
     },
     {
       "entityId": "theropoda",
@@ -3725,7 +6250,21 @@
       },
       "occurrenceCount": 24736,
       "referenceNo": "ref:7816",
-      "snapshotModifiedAt": "2021-05-28 14:37:00"
+      "snapshotModifiedAt": "2021-05-28 14:37:00",
+      "externalResolutionStatus": "ambiguous",
+      "resolvedName": "Theropoda",
+      "resolvedRank": "unranked clade",
+      "resolvedImmediateParent": "Dinosauria",
+      "resolvedClassification": {
+        "phylum": "Chordata",
+        "class": "Reptilia",
+        "order": null,
+        "family": null
+      },
+      "localExpectedParentConcept": "Saurischia",
+      "lineageCompatibility": "incompatible",
+      "conceptReviewStatus": "needs-concept-review",
+      "curatorDecision": "needs-concept-review"
     },
     {
       "entityId": "tyrannosauridae",
@@ -3733,7 +6272,7 @@
       "localRank": "family",
       "previousPbdbId": "txn:38602",
       "resolutionStatus": "resolved",
-      "resolutionReason": "resolved-name-rank-and-concept",
+      "resolutionReason": "resolved-exact-name-and-rank",
       "pbdbId": "txn:38606",
       "acceptedName": "Tyrannosauridae",
       "acceptedRank": "family",
@@ -3747,7 +6286,21 @@
       },
       "occurrenceCount": 514,
       "referenceNo": "ref:17198",
-      "snapshotModifiedAt": "2026-06-29 15:16:42"
+      "snapshotModifiedAt": "2026-06-29 15:16:42",
+      "externalResolutionStatus": "resolved-exact",
+      "resolvedName": "Tyrannosauridae",
+      "resolvedRank": "family",
+      "resolvedImmediateParent": "Tyrannosauroidea",
+      "resolvedClassification": {
+        "phylum": "Chordata",
+        "class": "Reptilia",
+        "order": "NO_ORDER_SPECIFIED",
+        "family": "Tyrannosauridae"
+      },
+      "localExpectedParentConcept": "Theropoda",
+      "lineageCompatibility": "incompatible",
+      "conceptReviewStatus": "needs-concept-review",
+      "curatorDecision": "needs-concept-review"
     },
     {
       "entityId": "tyrannosaurus",
@@ -3755,7 +6308,7 @@
       "localRank": "species",
       "previousPbdbId": "txn:38603",
       "resolutionStatus": "resolved",
-      "resolutionReason": "resolved-name-rank-and-concept",
+      "resolutionReason": "resolved-exact-name-and-rank",
       "pbdbId": "txn:54833",
       "acceptedName": "Tyrannosaurus rex",
       "acceptedRank": "species",
@@ -3769,7 +6322,21 @@
       },
       "occurrenceCount": 69,
       "referenceNo": "ref:9259",
-      "snapshotModifiedAt": "2016-05-12 12:56:02"
+      "snapshotModifiedAt": "2016-05-12 12:56:02",
+      "externalResolutionStatus": "resolved-exact",
+      "resolvedName": "Tyrannosaurus rex",
+      "resolvedRank": "species",
+      "resolvedImmediateParent": "Tyrannosaurus",
+      "resolvedClassification": {
+        "phylum": "Chordata",
+        "class": "Reptilia",
+        "order": "NO_ORDER_SPECIFIED",
+        "family": "Tyrannosauridae"
+      },
+      "localExpectedParentConcept": "Tyrannosauridae",
+      "lineageCompatibility": "compatible-classification",
+      "conceptReviewStatus": "compatible",
+      "curatorDecision": "accept-external-mapping"
     },
     {
       "entityId": "spinosauridae",
@@ -3777,7 +6344,7 @@
       "localRank": "family",
       "previousPbdbId": "txn:52860",
       "resolutionStatus": "resolved",
-      "resolutionReason": "resolved-name-rank-and-concept",
+      "resolutionReason": "resolved-exact-name-and-rank",
       "pbdbId": "txn:38595",
       "acceptedName": "Spinosauridae",
       "acceptedRank": "family",
@@ -3791,7 +6358,21 @@
       },
       "occurrenceCount": 172,
       "referenceNo": "ref:7054",
-      "snapshotModifiedAt": "2023-03-16 09:23:31"
+      "snapshotModifiedAt": "2023-03-16 09:23:31",
+      "externalResolutionStatus": "resolved-exact",
+      "resolvedName": "Spinosauridae",
+      "resolvedRank": "family",
+      "resolvedImmediateParent": "Megalosauroidea",
+      "resolvedClassification": {
+        "phylum": "Chordata",
+        "class": "Reptilia",
+        "order": "NO_ORDER_SPECIFIED",
+        "family": "Spinosauridae"
+      },
+      "localExpectedParentConcept": "Theropoda",
+      "lineageCompatibility": "incompatible",
+      "conceptReviewStatus": "needs-concept-review",
+      "curatorDecision": "needs-concept-review"
     },
     {
       "entityId": "spinosaurus",
@@ -3799,7 +6380,7 @@
       "localRank": "genus",
       "previousPbdbId": "txn:52861",
       "resolutionStatus": "resolved",
-      "resolutionReason": "resolved-name-rank-and-concept",
+      "resolutionReason": "resolved-exact-name-and-rank",
       "pbdbId": "txn:38598",
       "acceptedName": "Spinosaurus",
       "acceptedRank": "genus",
@@ -3813,7 +6394,21 @@
       },
       "occurrenceCount": 44,
       "referenceNo": "ref:7054",
-      "snapshotModifiedAt": "2025-03-06 14:31:48"
+      "snapshotModifiedAt": "2025-03-06 14:31:48",
+      "externalResolutionStatus": "resolved-exact",
+      "resolvedName": "Spinosaurus",
+      "resolvedRank": "genus",
+      "resolvedImmediateParent": "Spinosaurini",
+      "resolvedClassification": {
+        "phylum": "Chordata",
+        "class": "Reptilia",
+        "order": "NO_ORDER_SPECIFIED",
+        "family": "Spinosauridae"
+      },
+      "localExpectedParentConcept": "Spinosauridae",
+      "lineageCompatibility": "compatible-classification",
+      "conceptReviewStatus": "compatible",
+      "curatorDecision": "accept-external-mapping"
     },
     {
       "entityId": "dromaeosauridae",
@@ -3821,7 +6416,7 @@
       "localRank": "family",
       "previousPbdbId": "txn:38595",
       "resolutionStatus": "resolved",
-      "resolutionReason": "resolved-name-rank-and-concept",
+      "resolutionReason": "resolved-exact-name-and-rank",
       "pbdbId": "txn:38561",
       "acceptedName": "Dromaeosauridae",
       "acceptedRank": "family",
@@ -3835,7 +6430,21 @@
       },
       "occurrenceCount": 1015,
       "referenceNo": "ref:14354",
-      "snapshotModifiedAt": "2016-04-07 12:27:47"
+      "snapshotModifiedAt": "2016-04-07 12:27:47",
+      "externalResolutionStatus": "resolved-exact",
+      "resolvedName": "Dromaeosauridae",
+      "resolvedRank": "family",
+      "resolvedImmediateParent": "Deinonychosauria",
+      "resolvedClassification": {
+        "phylum": "Chordata",
+        "class": "Reptilia",
+        "order": "NO_ORDER_SPECIFIED",
+        "family": "Dromaeosauridae"
+      },
+      "localExpectedParentConcept": "Theropoda",
+      "lineageCompatibility": "incompatible",
+      "conceptReviewStatus": "needs-concept-review",
+      "curatorDecision": "needs-concept-review"
     },
     {
       "entityId": "velociraptor",
@@ -3843,7 +6452,7 @@
       "localRank": "genus",
       "previousPbdbId": "txn:38598",
       "resolutionStatus": "resolved",
-      "resolutionReason": "resolved-name-rank-and-concept",
+      "resolutionReason": "resolved-exact-name-and-rank",
       "pbdbId": "txn:38564",
       "acceptedName": "Velociraptor",
       "acceptedRank": "genus",
@@ -3857,7 +6466,21 @@
       },
       "occurrenceCount": 20,
       "referenceNo": "ref:13096",
-      "snapshotModifiedAt": "2021-09-30 14:05:08"
+      "snapshotModifiedAt": "2021-09-30 14:05:08",
+      "externalResolutionStatus": "resolved-exact",
+      "resolvedName": "Velociraptor",
+      "resolvedRank": "genus",
+      "resolvedImmediateParent": "Velociraptorinae",
+      "resolvedClassification": {
+        "phylum": "Chordata",
+        "class": "Reptilia",
+        "order": "NO_ORDER_SPECIFIED",
+        "family": "Dromaeosauridae"
+      },
+      "localExpectedParentConcept": "Dromaeosauridae",
+      "lineageCompatibility": "compatible-classification",
+      "conceptReviewStatus": "compatible",
+      "curatorDecision": "accept-external-mapping"
     },
     {
       "entityId": "aves",
@@ -3865,7 +6488,7 @@
       "localRank": "class",
       "previousPbdbId": "txn:36622",
       "resolutionStatus": "resolved",
-      "resolutionReason": "resolved-name-rank-and-concept",
+      "resolutionReason": "resolved-exact-name-and-rank",
       "pbdbId": "txn:36616",
       "acceptedName": "Aves",
       "acceptedRank": "class",
@@ -3879,7 +6502,21 @@
       },
       "occurrenceCount": 15176,
       "referenceNo": "ref:12782",
-      "snapshotModifiedAt": "2015-07-26 01:02:22"
+      "snapshotModifiedAt": "2015-07-26 01:02:22",
+      "externalResolutionStatus": "resolved-exact",
+      "resolvedName": "Aves",
+      "resolvedRank": "class",
+      "resolvedImmediateParent": "Paraves",
+      "resolvedClassification": {
+        "phylum": "Chordata",
+        "class": "Aves",
+        "order": null,
+        "family": null
+      },
+      "localExpectedParentConcept": "Theropoda",
+      "lineageCompatibility": "incompatible",
+      "conceptReviewStatus": "needs-concept-review",
+      "curatorDecision": "needs-concept-review"
     },
     {
       "entityId": "archaeopteryx",
@@ -3887,7 +6524,7 @@
       "localRank": "genus",
       "previousPbdbId": "txn:36623",
       "resolutionStatus": "resolved",
-      "resolutionReason": "resolved-name-rank-and-concept",
+      "resolutionReason": "resolved-exact-name-and-rank",
       "pbdbId": "txn:39240",
       "acceptedName": "Archaeopteryx",
       "acceptedRank": "genus",
@@ -3901,7 +6538,21 @@
       },
       "occurrenceCount": 10,
       "referenceNo": "ref:35969",
-      "snapshotModifiedAt": "2018-04-25 16:48:09"
+      "snapshotModifiedAt": "2018-04-25 16:48:09",
+      "externalResolutionStatus": "resolved-exact",
+      "resolvedName": "Archaeopteryx",
+      "resolvedRank": "genus",
+      "resolvedImmediateParent": "Avialae",
+      "resolvedClassification": {
+        "phylum": "Chordata",
+        "class": "Reptilia",
+        "order": "NO_ORDER_SPECIFIED",
+        "family": "NO_FAMILY_SPECIFIED"
+      },
+      "localExpectedParentConcept": "Aves",
+      "lineageCompatibility": "incompatible",
+      "conceptReviewStatus": "needs-concept-review",
+      "curatorDecision": "needs-concept-review"
     },
     {
       "entityId": "neornithes",
@@ -3909,7 +6560,7 @@
       "localRank": "subclass",
       "previousPbdbId": "txn:40033",
       "resolutionStatus": "resolved",
-      "resolutionReason": "resolved-name-rank-and-concept",
+      "resolutionReason": "resolved-exact-name-and-rank",
       "pbdbId": "txn:39241",
       "acceptedName": "Neornithes",
       "acceptedRank": "subclass",
@@ -3923,7 +6574,21 @@
       },
       "occurrenceCount": 11104,
       "referenceNo": "ref:28688",
-      "snapshotModifiedAt": "2013-04-30 15:43:10"
+      "snapshotModifiedAt": "2013-04-30 15:43:10",
+      "externalResolutionStatus": "resolved-exact",
+      "resolvedName": "Neornithes",
+      "resolvedRank": "subclass",
+      "resolvedImmediateParent": "Aves",
+      "resolvedClassification": {
+        "phylum": "Chordata",
+        "class": "Aves",
+        "order": null,
+        "family": null
+      },
+      "localExpectedParentConcept": "Aves",
+      "lineageCompatibility": "compatible-immediate-parent",
+      "conceptReviewStatus": "compatible",
+      "curatorDecision": "accept-external-mapping"
     },
     {
       "entityId": "phorusrhacidae",
@@ -3931,7 +6596,7 @@
       "localRank": "family",
       "previousPbdbId": "txn:53564",
       "resolutionStatus": "resolved",
-      "resolutionReason": "resolved-name-rank-and-concept",
+      "resolutionReason": "resolved-exact-name-and-rank",
       "pbdbId": "txn:39461",
       "acceptedName": "Phorusrhacidae",
       "acceptedRank": "family",
@@ -3945,7 +6610,21 @@
       },
       "occurrenceCount": 109,
       "referenceNo": "ref:15092",
-      "snapshotModifiedAt": "2017-12-15 01:04:22"
+      "snapshotModifiedAt": "2017-12-15 01:04:22",
+      "externalResolutionStatus": "resolved-exact",
+      "resolvedName": "Phorusrhacidae",
+      "resolvedRank": "family",
+      "resolvedImmediateParent": "Cariamae",
+      "resolvedClassification": {
+        "phylum": "Chordata",
+        "class": "Aves",
+        "order": "Gruiformes",
+        "family": "Phorusrhacidae"
+      },
+      "localExpectedParentConcept": "Neornithes",
+      "lineageCompatibility": "incompatible",
+      "conceptReviewStatus": "needs-concept-review",
+      "curatorDecision": "needs-concept-review"
     }
   ]
 }

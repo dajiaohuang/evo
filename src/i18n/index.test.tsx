@@ -77,8 +77,8 @@ describe('Chinese catalog coverage', () => {
         event.summary,
         ...event.regions,
         ...event.clades,
-        ...event.evidence,
-        ...event.uncertainties,
+        ...event.evidenceItems.map((item) => item.statement),
+        ...event.uncertaintyItems.map((item) => item.statement),
       ]),
       ...stories.flatMap((story) => [
         story.dek,

@@ -49,6 +49,6 @@ describe('lab query helpers', () => {
     expect(payload.byteLength).toBeGreaterThan(500)
     const files = unzipSync(payload)
     expect(Object.keys(files)).toContain('release.json')
-    expect(JSON.parse(strFromU8(files['release.json'])).datasetVersion).toBe('2026.08-static-v4-rc1')
+    expect(JSON.parse(strFromU8(files['release.json'])).datasetVersion).toBe('2026.08-static-v5-rc1')
   })
 })

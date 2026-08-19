@@ -24,7 +24,6 @@ export function SpeciesDetail() {
   const selectedNodeId = useAppStore((s) => s.selectedNodeId)
   const currentPeriod = useAppStore((s) => s.currentPeriod)
   const currentAge = useAppStore((s) => s.currentAge)
-  const highlightedTaxonId = useAppStore((s) => s.highlightedTaxonId)
   const occurrencesByTaxonQuery = useAppStore((s) => s.occurrencesByTaxonQuery)
   const taxonOccurrenceStatus = useAppStore((s) => s.taxonOccurrenceStatus)
   const taxonOccurrenceErrors = useAppStore((s) => s.taxonOccurrenceErrors)
@@ -40,7 +39,7 @@ export function SpeciesDetail() {
     ...evidenceCatalog.default,
     ...evidenceCatalog.nodes[node.id],
   } : null
-  const taxonQueryKey = highlightedTaxonId ? `descendants:${highlightedTaxonId}` : ''
+  const taxonQueryKey = selectedNodeId ? `descendants:${selectedNodeId}` : ''
   const taxonOccurrences = taxonQueryKey ? occurrencesByTaxonQuery[taxonQueryKey] ?? [] : []
   const periodCache = currentPeriod ? (occurrencesByInterval[currentPeriod] ?? null) : null
   const periodFossils = periodCache ?? []

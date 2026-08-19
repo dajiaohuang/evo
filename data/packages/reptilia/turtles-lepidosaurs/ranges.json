@@ -1,57 +1,118 @@
 [
   {
-    "id": "range:testudines",
+    "id": "range:testudines:global",
     "entityId": "testudines",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Testudines",
+    "geographicScope": "Global or represented navigation composite",
     "olderMa": 220,
     "youngerMa": 0,
     "status": "available",
-    "basis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+    },
+    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
     "confidence": "medium",
-    "referenceIds": [
-      "open-tree",
-      "pbdb-api-2016",
-      "pbdb-taxa-2026-07-19"
-    ]
+    "claimIds": [],
+    "referenceLocators": [
+      {
+        "referenceId": "open-tree",
+        "locator": "https://opentreeoflife.github.io/use"
+      },
+      {
+        "referenceId": "pbdb-api-2016",
+        "locator": "doi:10.1017/pab.2015.39"
+      }
+    ],
+    "reviewStatus": "not-reviewed"
   },
   {
-    "id": "range:lepidosauria",
+    "id": "range:lepidosauria:global",
     "entityId": "lepidosauria",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Lepidosauria",
+    "geographicScope": "Global or represented navigation composite",
     "olderMa": 240,
     "youngerMa": 0,
     "status": "available",
-    "basis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+    },
+    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
     "confidence": "medium",
-    "referenceIds": [
-      "open-tree",
-      "pbdb-api-2016",
-      "pbdb-taxa-2026-07-19"
-    ]
+    "claimIds": [],
+    "referenceLocators": [
+      {
+        "referenceId": "open-tree",
+        "locator": "https://opentreeoflife.github.io/use"
+      },
+      {
+        "referenceId": "pbdb-api-2016",
+        "locator": "doi:10.1017/pab.2015.39"
+      }
+    ],
+    "reviewStatus": "not-reviewed"
   },
   {
-    "id": "range:squamata",
+    "id": "range:squamata:global",
     "entityId": "squamata",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Squamata",
+    "geographicScope": "Global or represented navigation composite",
     "olderMa": 201.4,
     "youngerMa": 0,
     "status": "available",
-    "basis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+    },
+    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
     "confidence": "medium",
-    "referenceIds": [
-      "open-tree",
-      "pbdb-api-2016"
-    ]
+    "claimIds": [],
+    "referenceLocators": [
+      {
+        "referenceId": "open-tree",
+        "locator": "https://opentreeoflife.github.io/use"
+      },
+      {
+        "referenceId": "pbdb-api-2016",
+        "locator": "doi:10.1017/pab.2015.39"
+      }
+    ],
+    "reviewStatus": "not-reviewed"
   },
   {
-    "id": "range:mosasauridae",
+    "id": "range:mosasauridae:global",
     "entityId": "mosasauridae",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Mosasauridae",
+    "geographicScope": "Global or represented navigation composite",
     "olderMa": 101,
     "youngerMa": 66,
     "status": "available",
-    "basis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+    },
+    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
     "confidence": "medium",
-    "referenceIds": [
-      "open-tree",
-      "pbdb-api-2016",
-      "pbdb-taxa-2026-07-19"
-    ]
+    "claimIds": [],
+    "referenceLocators": [
+      {
+        "referenceId": "open-tree",
+        "locator": "https://opentreeoflife.github.io/use"
+      },
+      {
+        "referenceId": "pbdb-api-2016",
+        "locator": "doi:10.1017/pab.2015.39"
+      }
+    ],
+    "reviewStatus": "not-reviewed"
   }
 ]

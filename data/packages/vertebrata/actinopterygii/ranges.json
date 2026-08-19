@@ -1,42 +1,89 @@
 [
   {
-    "id": "range:actinopterygii",
+    "id": "range:actinopterygii:global",
     "entityId": "actinopterygii",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Actinopterygii",
+    "geographicScope": "Global or represented navigation composite",
     "olderMa": 420,
     "youngerMa": 0,
     "status": "available",
-    "basis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+    },
+    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
     "confidence": "medium",
-    "referenceIds": [
-      "open-tree",
-      "pbdb-api-2016"
-    ]
+    "claimIds": [],
+    "referenceLocators": [
+      {
+        "referenceId": "open-tree",
+        "locator": "https://opentreeoflife.github.io/use"
+      },
+      {
+        "referenceId": "pbdb-api-2016",
+        "locator": "doi:10.1017/pab.2015.39"
+      }
+    ],
+    "reviewStatus": "not-reviewed"
   },
   {
-    "id": "range:teleostei",
+    "id": "range:teleostei:global",
     "entityId": "teleostei",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Teleostei",
+    "geographicScope": "Global or represented navigation composite",
     "olderMa": 251.9,
     "youngerMa": 0,
     "status": "available",
-    "basis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+    },
+    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
     "confidence": "medium",
-    "referenceIds": [
-      "open-tree",
-      "pbdb-api-2016"
-    ]
+    "claimIds": [],
+    "referenceLocators": [
+      {
+        "referenceId": "open-tree",
+        "locator": "https://opentreeoflife.github.io/use"
+      },
+      {
+        "referenceId": "pbdb-api-2016",
+        "locator": "doi:10.1017/pab.2015.39"
+      }
+    ],
+    "reviewStatus": "not-reviewed"
   },
   {
-    "id": "range:salmoniformes",
+    "id": "range:salmoniformes:global",
     "entityId": "salmoniformes",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Salmoniformes",
+    "geographicScope": "Global or represented navigation composite",
     "olderMa": 56,
     "youngerMa": 0,
     "status": "available",
-    "basis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+    },
+    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
     "confidence": "medium",
-    "referenceIds": [
-      "open-tree",
-      "pbdb-api-2016",
-      "pbdb-taxa-2026-07-19"
-    ]
+    "claimIds": [],
+    "referenceLocators": [
+      {
+        "referenceId": "open-tree",
+        "locator": "https://opentreeoflife.github.io/use"
+      },
+      {
+        "referenceId": "pbdb-api-2016",
+        "locator": "doi:10.1017/pab.2015.39"
+      }
+    ],
+    "reviewStatus": "not-reviewed"
   }
 ]

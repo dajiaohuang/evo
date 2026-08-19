@@ -1,43 +1,649 @@
 [
-  { "id": "ics-2026-06", "title": "International Chronostratigraphic Chart v2026/06", "authors": "Cohen, K.M.; Harper, D.A.T.; Gibbard, P.L.; Car, N.", "publishedYear": 2026, "type": "standard", "url": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf", "doi": "10.18814/epiiugs/2025/025001", "version": "2026/06", "publisher": "International Commission on Stratigraphy", "note": "Numerical ages are revision-prone; the atlas stores the exact chart version." },
-  { "id": "pbdb-api-2016", "title": "The Paleobiology Database application programming interface", "authors": "Peters, S.E.; McClennen, M.", "publishedYear": 2016, "type": "paper", "url": "https://www.cambridge.org/core/journals/paleobiology/article/the-paleobiology-database-application-programming-interface/4D20F5CAFA1B0AC7033975418668D82B", "doi": "10.1017/pab.2015.39", "publisher": "Paleobiology" },
-  { "id": "pbdb-taxa-2026-07-19", "title": "Denormalized occurrence and taxon tables of the Paleobiology Database", "authors": "The Paleobiology Database Community; Kocsis, Á.T.", "publishedYear": 2026, "type": "dataset", "url": "https://zenodo.org/records/21620933", "doi": "10.5281/zenodo.21620933", "publisher": "Zenodo", "datasetSnapshot": "PBDB full taxon table downloaded 2026-07-19; pbdb_taxa_csv.zip MD5 fca5fde5e8d5922d06fe332a42b955f9" },
-  { "id": "pbdb-data-service", "title": "PBDB Data Service 1.2 documentation", "authors": "Paleobiology Database", "type": "documentation", "url": "https://www.paleodata.org/data1.2/general_doc.html", "version": "1.2", "accessedAt": "2026-08-18", "datasetSnapshot": "bounded API-prefix bundle assembled 2026-08", "note": "Documents identifiers, coordinate precision, references, vocabularies and query semantics." },
-  { "id": "open-tree", "title": "Open Tree of Life web services", "authors": "OpenTreeOfLife Project", "type": "database", "url": "https://opentreeoflife.github.io/use", "accessedAt": "2026-08-18", "note": "Topology and taxonomy context; divergence dates require separate evidence." },
-  { "id": "gplates-web-service", "title": "GPlates Web Service documentation", "authors": "GPlates Project", "type": "documentation", "url": "https://gwsdoc.gplates.org/", "accessedAt": "2026-08-18", "note": "Plate reconstruction service considered for build-time model-specific coordinates." },
-  { "id": "amnh-perissodactyl-evolution", "title": "Perissodactyl evolution", "authors": "American Museum of Natural History", "type": "museum", "url": "https://research.amnh.org/paleontology/perissodactyl/evolution/intro", "accessedAt": "2026-08-18" },
-  { "id": "amnh-perissodactyl-evidence", "title": "Evidence for perissodactyl evolution", "authors": "American Museum of Natural History", "type": "museum", "url": "https://research.amnh.org/paleontology/perissodactyl/evidence/intro", "accessedAt": "2026-08-18" },
-  { "id": "amnh-amynodonts", "title": "Amynodontidae", "authors": "American Museum of Natural History", "type": "museum", "url": "https://research.amnh.org/paleontology/perissodactyl/evolution/groups/amynodonts", "accessedAt": "2026-08-18" },
-  { "id": "amnh-brontotheres", "title": "Brontotheriidae", "authors": "American Museum of Natural History", "type": "museum", "url": "https://research.amnh.org/paleontology/perissodactyl/evolution/groups/brontotheriidae", "accessedAt": "2026-08-18" },
-  { "id": "amnh-equidae", "title": "Equidae", "authors": "American Museum of Natural History", "type": "museum", "url": "https://research.amnh.org/paleontology/perissodactyl/evolution/groups/equidae", "accessedAt": "2026-08-18" },
-  { "id": "deng-2021-paraceratherium", "title": "An Oligocene giant rhino provides insights into Paraceratherium evolution", "authors": "Deng, T.; Lu, X.; Wang, S.; et al.", "publishedYear": 2021, "type": "paper", "url": "https://www.nature.com/articles/s42003-021-02170-6", "doi": "10.1038/s42003-021-02170-6", "publisher": "Communications Biology" },
-  { "id": "pnas-2026-perissodactyls", "title": "Earliest perissodactyls reveal large-scale dispersals during the PETM", "authors": "Tissier, J.; Smith, T.", "publishedYear": 2026, "type": "paper", "url": "https://doi.org/10.1073/pnas.2519690122", "doi": "10.1073/pnas.2519690122", "publisher": "PNAS", "note": "Morphological analysis of early perissodactyl relationships and dispersal." },
-  { "id": "bai-2020-rhinocerotoidea", "title": "The origin of Rhinocerotoidea and phylogeny of Ceratomorpha", "authors": "Bai, B.; Meng, J.; Zhang, C.; Gong, Y.-X.; Wang, Y.-Q.; et al.", "publishedYear": 2020, "type": "paper", "url": "https://www.nature.com/articles/s42003-020-01205-8", "doi": "10.1038/s42003-020-01205-8", "publisher": "Communications Biology", "note": "Morphological phylogeny and Bayesian tip-dating of early ceratomorphs." },
-  { "id": "liu-2021-rhinoceros-genomes", "title": "Ancient and modern genomes unravel the evolutionary history of the rhinoceros family", "authors": "Liu, S.; Westbury, M.V.; Dussex, N.; et al.", "publishedYear": 2021, "type": "paper", "url": "https://www.cell.com/cell/fulltext/S0092-8674(21)00891-6", "doi": "10.1016/j.cell.2021.07.032", "publisher": "Cell" },
-  { "id": "hooker-2004-grande-coupure", "title": "The Grande Coupure in the Hampshire Basin, UK: taxonomy and stratigraphy of the mammals on either side of this major Palaeogene faunal turnover", "authors": "Hooker, J.J.; Collinson, M.E.; Sille, N.P.", "publishedYear": 2004, "type": "paper", "url": "https://doi.org/10.1111/j.1096-3642.2004.00104.x", "doi": "10.1111/j.1096-3642.2004.00104.x", "publisher": "Zoological Journal of the Linnean Society" },
-  { "id": "lyons-2014-oxygenation", "title": "The rise of oxygen in Earth's early ocean and atmosphere", "authors": "Lyons, T.W.; Reinhard, C.T.; Planavsky, N.J.", "publishedYear": 2014, "type": "paper", "url": "https://doi.org/10.1038/nature13068", "doi": "10.1038/nature13068", "publisher": "Nature", "pages": "307–315" },
-  { "id": "narbonne-2005-ediacara", "title": "The Ediacara biota: Neoproterozoic origin of animals and their ecosystems", "authors": "Narbonne, G.M.", "publishedYear": 2005, "type": "paper", "url": "https://doi.org/10.1146/annurev.earth.33.092203.122519", "doi": "10.1146/annurev.earth.33.092203.122519", "publisher": "Annual Review of Earth and Planetary Sciences", "pages": "421–442" },
-  { "id": "erwin-2011-cambrian", "title": "The Cambrian conundrum: early divergence and later ecological success in the early history of animals", "authors": "Erwin, D.H.; Laflamme, M.; Tweedt, S.M.; et al.", "publishedYear": 2011, "type": "paper", "url": "https://doi.org/10.1126/science.1206375", "doi": "10.1126/science.1206375", "publisher": "Science", "pages": "1091–1097" },
-  { "id": "servais-2010-gobe", "title": "The Great Ordovician Biodiversification Event (GOBE): the palaeoecological dimension", "authors": "Servais, T.; Owen, A.W.; Harper, D.A.T.; et al.", "publishedYear": 2010, "type": "paper", "url": "https://doi.org/10.1111/j.1502-3931.2009.00184.x", "doi": "10.1111/j.1502-3931.2009.00184.x", "publisher": "Palaeogeography, Palaeoclimatology, Palaeoecology" },
-  { "id": "morris-2018-land-plants", "title": "The timescale of early land plant evolution", "authors": "Morris, J.L.; Puttick, M.N.; Clark, J.W.; et al.", "publishedYear": 2018, "type": "paper", "url": "https://doi.org/10.1073/pnas.1719588115", "doi": "10.1073/pnas.1719588115", "publisher": "PNAS" },
-  { "id": "clack-2009-tetrapods", "title": "The fish-tetrapod transition: new fossils and interpretations", "authors": "Clack, J.A.", "publishedYear": 2009, "type": "paper", "url": "https://doi.org/10.1093/oso/9780199237980.003.0007", "doi": "10.1093/oso/9780199237980.003.0007", "publisher": "Oxford University Press" },
-  { "id": "burgess-2014-end-permian", "title": "High-precision timeline for Earth's most severe extinction", "authors": "Burgess, S.D.; Bowring, S.; Shen, S.-Z.", "publishedYear": 2014, "type": "paper", "url": "https://doi.org/10.1073/pnas.1317692111", "doi": "10.1073/pnas.1317692111", "publisher": "PNAS" },
-  { "id": "alvarez-1980-kpg", "title": "Extraterrestrial cause for the Cretaceous–Tertiary extinction", "authors": "Alvarez, L.W.; Alvarez, W.; Asaro, F.; Michel, H.V.", "publishedYear": 1980, "type": "paper", "url": "https://doi.org/10.1126/science.208.4448.1095", "doi": "10.1126/science.208.4448.1095", "publisher": "Science", "pages": "1095–1108" },
-  { "id": "mcinerney-2011-petm", "title": "The Paleocene–Eocene Thermal Maximum: a perturbation of carbon cycle, climate, and biosphere with implications for the future", "authors": "McInerney, F.A.; Wing, S.L.", "publishedYear": 2011, "type": "paper", "url": "https://doi.org/10.1146/annurev-earth-040610-133431", "doi": "10.1146/annurev-earth-040610-133431", "publisher": "Annual Review of Earth and Planetary Sciences", "pages": "489–516" },
-  { "id": "coxall-2005-eot", "title": "Rapid stepwise onset of Antarctic glaciation and deeper calcite compensation in the Pacific Ocean", "authors": "Coxall, H.K.; Wilson, P.A.; Pälike, H.; Lear, C.H.; Backman, J.", "publishedYear": 2005, "type": "paper", "url": "https://doi.org/10.1038/nature03837", "doi": "10.1038/nature03837", "publisher": "Nature" },
-  { "id": "cerling-1997-c4", "title": "Global vegetation change through the Miocene/Pliocene boundary", "authors": "Cerling, T.E.; Harris, J.M.; MacFadden, B.J.; et al.", "publishedYear": 1997, "type": "paper", "url": "https://doi.org/10.1038/37270", "doi": "10.1038/37270", "publisher": "Nature" },
-  { "id": "sandom-2014-megafauna", "title": "Global late Quaternary megafauna extinctions linked to humans, not climate change", "authors": "Sandom, C.; Faurby, S.; Sandel, B.; Svenning, J.-C.", "publishedYear": 2014, "type": "paper", "url": "https://doi.org/10.1098/rspb.2013.3254", "doi": "10.1098/rspb.2013.3254", "publisher": "Proceedings of the Royal Society B" },
-  { "id": "anton-2014-early-homo", "title": "Evolution of early Homo: an integrated biological perspective", "authors": "Antón, S.C.; Potts, R.; Aiello, L.C.", "publishedYear": 2014, "type": "paper", "url": "https://doi.org/10.1126/science.1236828", "doi": "10.1126/science.1236828", "publisher": "Science" },
-  { "id": "ford-2020-amniote", "title": "The phylogeny of early amniotes and the affinities of Parareptilia and Varanopidae", "authors": "Ford, D.P.; Benson, R.B.J.", "publishedYear": 2020, "type": "paper", "url": "https://doi.org/10.1038/s41559-019-1047-3", "doi": "10.1038/s41559-019-1047-3", "publisher": "Nature Ecology & Evolution" },
-  { "id": "chen-2012-triassic-recovery", "title": "The timing and pattern of biotic recovery following the end-Permian mass extinction", "authors": "Chen, Z.-Q.; Benton, M.J.", "publishedYear": 2012, "type": "paper", "url": "https://doi.org/10.1038/ngeo1475", "doi": "10.1038/ngeo1475", "publisher": "Nature Geoscience" },
-  { "id": "brusatte-2010-dinosaur-radiation", "title": "The origin and early radiation of dinosaurs", "authors": "Brusatte, S.L.; Nesbitt, S.J.; Irmis, R.B.; et al.", "publishedYear": 2010, "type": "paper", "url": "https://doi.org/10.1016/j.earscirev.2010.04.001", "doi": "10.1016/j.earscirev.2010.04.001", "publisher": "Earth-Science Reviews" },
-  { "id": "magallon-2015-angiosperms", "title": "A metacalibrated time-tree documents the early rise of flowering plant phylogenetic diversity", "authors": "Magallón, S.; Gómez-Acevedo, S.; Sánchez-Reyes, L.L.; Hernández-Hernández, T.", "publishedYear": 2015, "type": "paper", "url": "https://doi.org/10.1038/nplants.2015.6", "doi": "10.1038/nplants.2015.6", "publisher": "Nature Plants" },
-  { "id": "mc-horse-monodactyly-2019", "title": "The Evolution of Equid Monodactyly: A Review Including a New Hypothesis", "authors": "McHorse, B.K.; Biewener, A.A.; Pierce, S.E.", "publishedYear": 2019, "type": "paper", "url": "https://doi.org/10.3389/fevo.2019.00119", "doi": "10.3389/fevo.2019.00119", "publisher": "Frontiers in Ecology and Evolution" },
-  { "id": "bernor-2021-hipparions", "title": "Old world hipparion evolution, biogeography, climatology and ecology", "authors": "Bernor, R.L.; Kaya, F.; Kaakinen, A.; Saarinen, J.; Fortelius, M.", "publishedYear": 2021, "type": "paper", "url": "https://doi.org/10.1016/j.earscirev.2021.103784", "doi": "10.1016/j.earscirev.2021.103784", "publisher": "Earth-Science Reviews" },
-  { "id": "macfadden-1998-teleoceras", "title": "Tale of two rhinos: isotopic ecology, paleodiet, and niche differentiation of Aphelops and Teleoceras from the Florida Neogene", "authors": "MacFadden, B.J.", "publishedYear": 1998, "type": "paper", "url": "https://doi.org/10.1666/0094-8373(1998)024%5B0274:TOTRIE%5D2.3.CO;2", "doi": "10.1666/0094-8373(1998)024[0274:TOTRIE]2.3.CO;2", "publisher": "Paleobiology", "pages": "274–286" },
-  { "id": "ward-2024-teleoceras", "title": "Home on the range: A multi-isotope investigation of ungulate resource partitioning at Ashfall Fossil Beds, Nebraska, USA", "authors": "Ward, C.T.; Crowley, B.E.; Secord, R.", "publishedYear": 2024, "type": "paper", "url": "https://doi.org/10.1016/j.palaeo.2024.112375", "doi": "10.1016/j.palaeo.2024.112375", "publisher": "Palaeogeography, Palaeoclimatology, Palaeoecology" },
-  { "id": "ward-2025-teleoceras", "title": "Enamel carbon, oxygen, and strontium isotopes reveal limited mobility in Teleoceras major at Ashfall Fossil Beds, Nebraska, USA", "authors": "Ward, C.T.; Crowley, B.E.; Secord, R.", "publishedYear": 2025, "type": "paper", "url": "https://doi.org/10.1038/s41598-025-94263-z", "doi": "10.1038/s41598-025-94263-z", "publisher": "Scientific Reports" },
-  { "id": "gudjonsdottir-2026-coelodonta", "title": "Genome shows no recent inbreeding in near-extinction woolly rhinoceros sample found in ancient wolf's stomach", "authors": "Guðjónsdóttir, S.M.; Lord, E.; Pochon, Z.; et al.", "publishedYear": 2026, "type": "paper", "url": "https://doi.org/10.1093/gbe/evaf239", "doi": "10.1093/gbe/evaf239", "publisher": "Genome Biology and Evolution" },
-  { "id": "green-2010-neanderthal", "title": "A Draft Sequence of the Neandertal Genome", "authors": "Green, R.E.; Krause, J.; Briggs, A.W.; et al.", "publishedYear": 2010, "type": "paper", "url": "https://doi.org/10.1126/science.1188021", "doi": "10.1126/science.1188021", "publisher": "Science" },
-  { "id": "meyer-2012-denisovan", "title": "A High-Coverage Genome Sequence from an Archaic Denisovan Individual", "authors": "Meyer, M.; Kircher, M.; Gansauge, M.-T.; et al.", "publishedYear": 2012, "type": "paper", "url": "https://doi.org/10.1126/science.1224344", "doi": "10.1126/science.1224344", "publisher": "Science" }
+  {
+    "id": "ics-2026-06",
+    "title": "International Chronostratigraphic Chart v2026/06",
+    "authors": "Cohen, K.M.; Harper, D.A.T.; Gibbard, P.L.; Car, N.",
+    "publishedYear": 2026,
+    "type": "standard",
+    "url": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+    "doi": "10.18814/epiiugs/2025/025001",
+    "version": "2026/06",
+    "publisher": "International Commission on Stratigraphy",
+    "note": "Numerical ages are revision-prone; the atlas stores the exact chart version.",
+    "sourceRole": "standard",
+    "fitnessFor": [
+      "geochronology",
+      "range"
+    ]
+  },
+  {
+    "id": "pbdb-api-2016",
+    "title": "The Paleobiology Database application programming interface",
+    "authors": "Peters, S.E.; McClennen, M.",
+    "publishedYear": 2016,
+    "type": "paper",
+    "url": "https://www.cambridge.org/core/journals/paleobiology/article/the-paleobiology-database-application-programming-interface/4D20F5CAFA1B0AC7033975418668D82B",
+    "doi": "10.1017/pab.2015.39",
+    "publisher": "Paleobiology",
+    "sourceRole": "occurrence-database",
+    "fitnessFor": [
+      "taxonomy",
+      "range",
+      "occurrence"
+    ]
+  },
+  {
+    "id": "pbdb-taxa-2026-07-19",
+    "title": "Denormalized occurrence and taxon tables of the Paleobiology Database",
+    "authors": "The Paleobiology Database Community; Kocsis, Á.T.",
+    "publishedYear": 2026,
+    "type": "dataset",
+    "url": "https://zenodo.org/records/21620933",
+    "doi": "10.5281/zenodo.21620933",
+    "publisher": "Zenodo",
+    "datasetSnapshot": "PBDB full taxon table downloaded 2026-07-19; pbdb_taxa_csv.zip MD5 fca5fde5e8d5922d06fe332a42b955f9",
+    "sourceRole": "occurrence-database",
+    "fitnessFor": [
+      "taxonomy",
+      "range",
+      "occurrence"
+    ]
+  },
+  {
+    "id": "pbdb-data-service",
+    "title": "PBDB Data Service 1.2 documentation",
+    "authors": "Paleobiology Database",
+    "type": "documentation",
+    "url": "https://www.paleodata.org/data1.2/general_doc.html",
+    "version": "1.2",
+    "accessedAt": "2026-08-18",
+    "datasetSnapshot": "bounded API-prefix bundle assembled 2026-08",
+    "note": "Documents identifiers, coordinate precision, references, vocabularies and query semantics.",
+    "sourceRole": "documentation",
+    "fitnessFor": [
+      "taxonomy",
+      "range",
+      "occurrence"
+    ]
+  },
+  {
+    "id": "open-tree",
+    "title": "Open Tree of Life web services",
+    "authors": "OpenTreeOfLife Project",
+    "type": "database",
+    "url": "https://opentreeoflife.github.io/use",
+    "accessedAt": "2026-08-18",
+    "note": "Topology and taxonomy context; divergence dates require separate evidence.",
+    "sourceRole": "taxonomic-database",
+    "fitnessFor": [
+      "taxonomy",
+      "topology"
+    ]
+  },
+  {
+    "id": "gplates-web-service",
+    "title": "GPlates Web Service documentation",
+    "authors": "GPlates Project",
+    "type": "documentation",
+    "url": "https://gwsdoc.gplates.org/",
+    "accessedAt": "2026-08-18",
+    "note": "Plate reconstruction service considered for build-time model-specific coordinates.",
+    "sourceRole": "documentation",
+    "fitnessFor": [
+      "paleogeography"
+    ]
+  },
+  {
+    "id": "amnh-perissodactyl-evolution",
+    "title": "Perissodactyl evolution",
+    "authors": "American Museum of Natural History",
+    "type": "museum",
+    "url": "https://research.amnh.org/paleontology/perissodactyl/evolution/intro",
+    "accessedAt": "2026-08-18",
+    "sourceRole": "museum-overview",
+    "fitnessFor": [
+      "taxonomy",
+      "morphology",
+      "ecology"
+    ]
+  },
+  {
+    "id": "amnh-perissodactyl-evidence",
+    "title": "Evidence for perissodactyl evolution",
+    "authors": "American Museum of Natural History",
+    "type": "museum",
+    "url": "https://research.amnh.org/paleontology/perissodactyl/evidence/intro",
+    "accessedAt": "2026-08-18",
+    "sourceRole": "museum-overview",
+    "fitnessFor": [
+      "taxonomy",
+      "morphology",
+      "ecology"
+    ]
+  },
+  {
+    "id": "amnh-amynodonts",
+    "title": "Amynodontidae",
+    "authors": "American Museum of Natural History",
+    "type": "museum",
+    "url": "https://research.amnh.org/paleontology/perissodactyl/evolution/groups/amynodonts",
+    "accessedAt": "2026-08-18",
+    "sourceRole": "museum-overview",
+    "fitnessFor": [
+      "taxonomy",
+      "morphology",
+      "ecology"
+    ]
+  },
+  {
+    "id": "amnh-brontotheres",
+    "title": "Brontotheriidae",
+    "authors": "American Museum of Natural History",
+    "type": "museum",
+    "url": "https://research.amnh.org/paleontology/perissodactyl/evolution/groups/brontotheriidae",
+    "accessedAt": "2026-08-18",
+    "sourceRole": "museum-overview",
+    "fitnessFor": [
+      "taxonomy",
+      "morphology",
+      "ecology"
+    ]
+  },
+  {
+    "id": "amnh-equidae",
+    "title": "Equidae",
+    "authors": "American Museum of Natural History",
+    "type": "museum",
+    "url": "https://research.amnh.org/paleontology/perissodactyl/evolution/groups/equidae",
+    "accessedAt": "2026-08-18",
+    "sourceRole": "museum-overview",
+    "fitnessFor": [
+      "taxonomy",
+      "morphology",
+      "ecology"
+    ]
+  },
+  {
+    "id": "deng-2021-paraceratherium",
+    "title": "An Oligocene giant rhino provides insights into Paraceratherium evolution",
+    "authors": "Deng, T.; Lu, X.; Wang, S.; et al.",
+    "publishedYear": 2021,
+    "type": "paper",
+    "url": "https://www.nature.com/articles/s42003-021-02170-6",
+    "doi": "10.1038/s42003-021-02170-6",
+    "publisher": "Communications Biology",
+    "sourceRole": "primary-study",
+    "fitnessFor": [
+      "taxonomy"
+    ]
+  },
+  {
+    "id": "pnas-2026-perissodactyls",
+    "title": "Earliest perissodactyls reveal large-scale dispersals during the PETM",
+    "authors": "Tissier, J.; Smith, T.",
+    "publishedYear": 2026,
+    "type": "paper",
+    "url": "https://doi.org/10.1073/pnas.2519690122",
+    "doi": "10.1073/pnas.2519690122",
+    "publisher": "PNAS",
+    "note": "Morphological analysis of early perissodactyl relationships and dispersal.",
+    "sourceRole": "primary-study",
+    "fitnessFor": [
+      "taxonomy",
+      "biogeography"
+    ]
+  },
+  {
+    "id": "bai-2020-rhinocerotoidea",
+    "title": "The origin of Rhinocerotoidea and phylogeny of Ceratomorpha",
+    "authors": "Bai, B.; Meng, J.; Zhang, C.; Gong, Y.-X.; Wang, Y.-Q.; et al.",
+    "publishedYear": 2020,
+    "type": "paper",
+    "url": "https://www.nature.com/articles/s42003-020-01205-8",
+    "doi": "10.1038/s42003-020-01205-8",
+    "publisher": "Communications Biology",
+    "note": "Morphological phylogeny and Bayesian tip-dating of early ceratomorphs.",
+    "sourceRole": "primary-study",
+    "fitnessFor": [
+      "taxonomy",
+      "topology"
+    ]
+  },
+  {
+    "id": "liu-2021-rhinoceros-genomes",
+    "title": "Ancient and modern genomes unravel the evolutionary history of the rhinoceros family",
+    "authors": "Liu, S.; Westbury, M.V.; Dussex, N.; et al.",
+    "publishedYear": 2021,
+    "type": "paper",
+    "url": "https://www.cell.com/cell/fulltext/S0092-8674(21)00891-6",
+    "doi": "10.1016/j.cell.2021.07.032",
+    "publisher": "Cell",
+    "sourceRole": "primary-study",
+    "fitnessFor": [
+      "taxonomy",
+      "topology"
+    ]
+  },
+  {
+    "id": "hooker-2004-grande-coupure",
+    "title": "The Grande Coupure in the Hampshire Basin, UK: taxonomy and stratigraphy of the mammals on either side of this major Palaeogene faunal turnover",
+    "authors": "Hooker, J.J.; Collinson, M.E.; Sille, N.P.",
+    "publishedYear": 2004,
+    "type": "paper",
+    "url": "https://doi.org/10.1111/j.1096-3642.2004.00104.x",
+    "doi": "10.1111/j.1096-3642.2004.00104.x",
+    "publisher": "Zoological Journal of the Linnean Society",
+    "sourceRole": "primary-study",
+    "fitnessFor": [
+      "taxonomy",
+      "range"
+    ]
+  },
+  {
+    "id": "lyons-2014-oxygenation",
+    "title": "The rise of oxygen in Earth's early ocean and atmosphere",
+    "authors": "Lyons, T.W.; Reinhard, C.T.; Planavsky, N.J.",
+    "publishedYear": 2014,
+    "type": "paper",
+    "url": "https://doi.org/10.1038/nature13068",
+    "doi": "10.1038/nature13068",
+    "publisher": "Nature",
+    "pages": "307–315",
+    "sourceRole": "systematic-review",
+    "fitnessFor": [
+      "taxonomy",
+      "event-mechanism"
+    ]
+  },
+  {
+    "id": "narbonne-2005-ediacara",
+    "title": "The Ediacara biota: Neoproterozoic origin of animals and their ecosystems",
+    "authors": "Narbonne, G.M.",
+    "publishedYear": 2005,
+    "type": "paper",
+    "url": "https://doi.org/10.1146/annurev.earth.33.092203.122519",
+    "doi": "10.1146/annurev.earth.33.092203.122519",
+    "publisher": "Annual Review of Earth and Planetary Sciences",
+    "pages": "421–442",
+    "sourceRole": "systematic-review",
+    "fitnessFor": [
+      "taxonomy"
+    ]
+  },
+  {
+    "id": "erwin-2011-cambrian",
+    "title": "The Cambrian conundrum: early divergence and later ecological success in the early history of animals",
+    "authors": "Erwin, D.H.; Laflamme, M.; Tweedt, S.M.; et al.",
+    "publishedYear": 2011,
+    "type": "paper",
+    "url": "https://doi.org/10.1126/science.1206375",
+    "doi": "10.1126/science.1206375",
+    "publisher": "Science",
+    "pages": "1091–1097",
+    "sourceRole": "systematic-review",
+    "fitnessFor": [
+      "taxonomy",
+      "topology",
+      "ecology"
+    ]
+  },
+  {
+    "id": "servais-2010-gobe",
+    "title": "The Great Ordovician Biodiversification Event (GOBE): the palaeoecological dimension",
+    "authors": "Servais, T.; Owen, A.W.; Harper, D.A.T.; et al.",
+    "publishedYear": 2010,
+    "type": "paper",
+    "url": "https://doi.org/10.1111/j.1502-3931.2009.00184.x",
+    "doi": "10.1111/j.1502-3931.2009.00184.x",
+    "publisher": "Palaeogeography, Palaeoclimatology, Palaeoecology",
+    "sourceRole": "primary-study",
+    "fitnessFor": [
+      "taxonomy",
+      "ecology",
+      "event-mechanism"
+    ]
+  },
+  {
+    "id": "morris-2018-land-plants",
+    "title": "The timescale of early land plant evolution",
+    "authors": "Morris, J.L.; Puttick, M.N.; Clark, J.W.; et al.",
+    "publishedYear": 2018,
+    "type": "paper",
+    "url": "https://doi.org/10.1073/pnas.1719588115",
+    "doi": "10.1073/pnas.1719588115",
+    "publisher": "PNAS",
+    "sourceRole": "primary-study",
+    "fitnessFor": [
+      "taxonomy"
+    ]
+  },
+  {
+    "id": "clack-2009-tetrapods",
+    "title": "The fish-tetrapod transition: new fossils and interpretations",
+    "authors": "Clack, J.A.",
+    "publishedYear": 2009,
+    "type": "paper",
+    "url": "https://doi.org/10.1093/oso/9780199237980.003.0007",
+    "doi": "10.1093/oso/9780199237980.003.0007",
+    "publisher": "Oxford University Press",
+    "sourceRole": "primary-study",
+    "fitnessFor": [
+      "taxonomy",
+      "range"
+    ]
+  },
+  {
+    "id": "burgess-2014-end-permian",
+    "title": "High-precision timeline for Earth's most severe extinction",
+    "authors": "Burgess, S.D.; Bowring, S.; Shen, S.-Z.",
+    "publishedYear": 2014,
+    "type": "paper",
+    "url": "https://doi.org/10.1073/pnas.1317692111",
+    "doi": "10.1073/pnas.1317692111",
+    "publisher": "PNAS",
+    "sourceRole": "primary-study",
+    "fitnessFor": [
+      "taxonomy",
+      "range",
+      "event-mechanism"
+    ]
+  },
+  {
+    "id": "alvarez-1980-kpg",
+    "title": "Extraterrestrial cause for the Cretaceous–Tertiary extinction",
+    "authors": "Alvarez, L.W.; Alvarez, W.; Asaro, F.; Michel, H.V.",
+    "publishedYear": 1980,
+    "type": "paper",
+    "url": "https://doi.org/10.1126/science.208.4448.1095",
+    "doi": "10.1126/science.208.4448.1095",
+    "publisher": "Science",
+    "pages": "1095–1108",
+    "sourceRole": "primary-study",
+    "fitnessFor": [
+      "taxonomy",
+      "range",
+      "event-mechanism"
+    ]
+  },
+  {
+    "id": "mcinerney-2011-petm",
+    "title": "The Paleocene–Eocene Thermal Maximum: a perturbation of carbon cycle, climate, and biosphere with implications for the future",
+    "authors": "McInerney, F.A.; Wing, S.L.",
+    "publishedYear": 2011,
+    "type": "paper",
+    "url": "https://doi.org/10.1146/annurev-earth-040610-133431",
+    "doi": "10.1146/annurev-earth-040610-133431",
+    "publisher": "Annual Review of Earth and Planetary Sciences",
+    "pages": "489–516",
+    "sourceRole": "primary-study",
+    "fitnessFor": [
+      "taxonomy",
+      "ecology",
+      "event-mechanism"
+    ]
+  },
+  {
+    "id": "coxall-2005-eot",
+    "title": "Rapid stepwise onset of Antarctic glaciation and deeper calcite compensation in the Pacific Ocean",
+    "authors": "Coxall, H.K.; Wilson, P.A.; Pälike, H.; Lear, C.H.; Backman, J.",
+    "publishedYear": 2005,
+    "type": "paper",
+    "url": "https://doi.org/10.1038/nature03837",
+    "doi": "10.1038/nature03837",
+    "publisher": "Nature",
+    "sourceRole": "primary-study",
+    "fitnessFor": [
+      "taxonomy"
+    ]
+  },
+  {
+    "id": "cerling-1997-c4",
+    "title": "Global vegetation change through the Miocene/Pliocene boundary",
+    "authors": "Cerling, T.E.; Harris, J.M.; MacFadden, B.J.; et al.",
+    "publishedYear": 1997,
+    "type": "paper",
+    "url": "https://doi.org/10.1038/37270",
+    "doi": "10.1038/37270",
+    "publisher": "Nature",
+    "sourceRole": "primary-study",
+    "fitnessFor": [
+      "taxonomy",
+      "ecology"
+    ]
+  },
+  {
+    "id": "sandom-2014-megafauna",
+    "title": "Global late Quaternary megafauna extinctions linked to humans, not climate change",
+    "authors": "Sandom, C.; Faurby, S.; Sandel, B.; Svenning, J.-C.",
+    "publishedYear": 2014,
+    "type": "paper",
+    "url": "https://doi.org/10.1098/rspb.2013.3254",
+    "doi": "10.1098/rspb.2013.3254",
+    "publisher": "Proceedings of the Royal Society B",
+    "sourceRole": "primary-study",
+    "fitnessFor": [
+      "taxonomy",
+      "range",
+      "ecology",
+      "event-mechanism"
+    ]
+  },
+  {
+    "id": "anton-2014-early-homo",
+    "title": "Evolution of early Homo: an integrated biological perspective",
+    "authors": "Antón, S.C.; Potts, R.; Aiello, L.C.",
+    "publishedYear": 2014,
+    "type": "paper",
+    "url": "https://doi.org/10.1126/science.1236828",
+    "doi": "10.1126/science.1236828",
+    "publisher": "Science",
+    "sourceRole": "systematic-review",
+    "fitnessFor": [
+      "taxonomy"
+    ]
+  },
+  {
+    "id": "ford-2020-amniote",
+    "title": "The phylogeny of early amniotes and the affinities of Parareptilia and Varanopidae",
+    "authors": "Ford, D.P.; Benson, R.B.J.",
+    "publishedYear": 2020,
+    "type": "paper",
+    "url": "https://doi.org/10.1038/s41559-019-1047-3",
+    "doi": "10.1038/s41559-019-1047-3",
+    "publisher": "Nature Ecology & Evolution",
+    "sourceRole": "primary-study",
+    "fitnessFor": [
+      "taxonomy",
+      "topology"
+    ]
+  },
+  {
+    "id": "chen-2012-triassic-recovery",
+    "title": "The timing and pattern of biotic recovery following the end-Permian mass extinction",
+    "authors": "Chen, Z.-Q.; Benton, M.J.",
+    "publishedYear": 2012,
+    "type": "paper",
+    "url": "https://doi.org/10.1038/ngeo1475",
+    "doi": "10.1038/ngeo1475",
+    "publisher": "Nature Geoscience",
+    "sourceRole": "primary-study",
+    "fitnessFor": [
+      "taxonomy",
+      "range",
+      "event-mechanism"
+    ]
+  },
+  {
+    "id": "brusatte-2010-dinosaur-radiation",
+    "title": "The origin and early radiation of dinosaurs",
+    "authors": "Brusatte, S.L.; Nesbitt, S.J.; Irmis, R.B.; et al.",
+    "publishedYear": 2010,
+    "type": "paper",
+    "url": "https://doi.org/10.1016/j.earscirev.2010.04.001",
+    "doi": "10.1016/j.earscirev.2010.04.001",
+    "publisher": "Earth-Science Reviews",
+    "sourceRole": "primary-study",
+    "fitnessFor": [
+      "taxonomy",
+      "event-mechanism"
+    ]
+  },
+  {
+    "id": "magallon-2015-angiosperms",
+    "title": "A metacalibrated time-tree documents the early rise of flowering plant phylogenetic diversity",
+    "authors": "Magallón, S.; Gómez-Acevedo, S.; Sánchez-Reyes, L.L.; Hernández-Hernández, T.",
+    "publishedYear": 2015,
+    "type": "paper",
+    "url": "https://doi.org/10.1038/nplants.2015.6",
+    "doi": "10.1038/nplants.2015.6",
+    "publisher": "Nature Plants",
+    "sourceRole": "primary-study",
+    "fitnessFor": [
+      "taxonomy",
+      "topology"
+    ]
+  },
+  {
+    "id": "mc-horse-monodactyly-2019",
+    "title": "The Evolution of Equid Monodactyly: A Review Including a New Hypothesis",
+    "authors": "McHorse, B.K.; Biewener, A.A.; Pierce, S.E.",
+    "publishedYear": 2019,
+    "type": "paper",
+    "url": "https://doi.org/10.3389/fevo.2019.00119",
+    "doi": "10.3389/fevo.2019.00119",
+    "publisher": "Frontiers in Ecology and Evolution",
+    "sourceRole": "systematic-review",
+    "fitnessFor": [
+      "taxonomy",
+      "morphology"
+    ]
+  },
+  {
+    "id": "bernor-2021-hipparions",
+    "title": "Old world hipparion evolution, biogeography, climatology and ecology",
+    "authors": "Bernor, R.L.; Kaya, F.; Kaakinen, A.; Saarinen, J.; Fortelius, M.",
+    "publishedYear": 2021,
+    "type": "paper",
+    "url": "https://doi.org/10.1016/j.earscirev.2021.103784",
+    "doi": "10.1016/j.earscirev.2021.103784",
+    "publisher": "Earth-Science Reviews",
+    "sourceRole": "primary-study",
+    "fitnessFor": [
+      "taxonomy",
+      "ecology",
+      "biogeography"
+    ]
+  },
+  {
+    "id": "macfadden-1998-teleoceras",
+    "title": "Tale of two rhinos: isotopic ecology, paleodiet, and niche differentiation of Aphelops and Teleoceras from the Florida Neogene",
+    "authors": "MacFadden, B.J.",
+    "publishedYear": 1998,
+    "type": "paper",
+    "url": "https://doi.org/10.1666/0094-8373(1998)024%5B0274:TOTRIE%5D2.3.CO;2",
+    "doi": "10.1666/0094-8373(1998)024[0274:TOTRIE]2.3.CO;2",
+    "publisher": "Paleobiology",
+    "pages": "274–286",
+    "sourceRole": "primary-study",
+    "fitnessFor": [
+      "taxonomy",
+      "ecology"
+    ]
+  },
+  {
+    "id": "ward-2024-teleoceras",
+    "title": "Home on the range: A multi-isotope investigation of ungulate resource partitioning at Ashfall Fossil Beds, Nebraska, USA",
+    "authors": "Ward, C.T.; Crowley, B.E.; Secord, R.",
+    "publishedYear": 2024,
+    "type": "paper",
+    "url": "https://doi.org/10.1016/j.palaeo.2024.112375",
+    "doi": "10.1016/j.palaeo.2024.112375",
+    "publisher": "Palaeogeography, Palaeoclimatology, Palaeoecology",
+    "sourceRole": "primary-study",
+    "fitnessFor": [
+      "taxonomy",
+      "range",
+      "ecology"
+    ]
+  },
+  {
+    "id": "ward-2025-teleoceras",
+    "title": "Enamel carbon, oxygen, and strontium isotopes reveal limited mobility in Teleoceras major at Ashfall Fossil Beds, Nebraska, USA",
+    "authors": "Ward, C.T.; Crowley, B.E.; Secord, R.",
+    "publishedYear": 2025,
+    "type": "paper",
+    "url": "https://doi.org/10.1038/s41598-025-94263-z",
+    "doi": "10.1038/s41598-025-94263-z",
+    "publisher": "Scientific Reports",
+    "sourceRole": "primary-study",
+    "fitnessFor": [
+      "taxonomy",
+      "range",
+      "ecology",
+      "event-mechanism"
+    ]
+  },
+  {
+    "id": "gudjonsdottir-2026-coelodonta",
+    "title": "Genome shows no recent inbreeding in near-extinction woolly rhinoceros sample found in ancient wolf's stomach",
+    "authors": "Guðjónsdóttir, S.M.; Lord, E.; Pochon, Z.; et al.",
+    "publishedYear": 2026,
+    "type": "paper",
+    "url": "https://doi.org/10.1093/gbe/evaf239",
+    "doi": "10.1093/gbe/evaf239",
+    "publisher": "Genome Biology and Evolution",
+    "sourceRole": "primary-study",
+    "fitnessFor": [
+      "taxonomy",
+      "topology",
+      "range",
+      "event-mechanism"
+    ]
+  },
+  {
+    "id": "green-2010-neanderthal",
+    "title": "A Draft Sequence of the Neandertal Genome",
+    "authors": "Green, R.E.; Krause, J.; Briggs, A.W.; et al.",
+    "publishedYear": 2010,
+    "type": "paper",
+    "url": "https://doi.org/10.1126/science.1188021",
+    "doi": "10.1126/science.1188021",
+    "publisher": "Science",
+    "sourceRole": "primary-study",
+    "fitnessFor": [
+      "taxonomy",
+      "topology"
+    ]
+  },
+  {
+    "id": "meyer-2012-denisovan",
+    "title": "A High-Coverage Genome Sequence from an Archaic Denisovan Individual",
+    "authors": "Meyer, M.; Kircher, M.; Gansauge, M.-T.; et al.",
+    "publishedYear": 2012,
+    "type": "paper",
+    "url": "https://doi.org/10.1126/science.1224344",
+    "doi": "10.1126/science.1224344",
+    "publisher": "Science",
+    "sourceRole": "primary-study",
+    "fitnessFor": [
+      "taxonomy",
+      "topology"
+    ]
+  },
+  {
+    "id": "schulte-2010-chicxulub",
+    "title": "The Chicxulub asteroid impact and mass extinction at the Cretaceous-Paleogene boundary",
+    "authors": "Schulte, P. et al.",
+    "publishedYear": 2010,
+    "type": "paper",
+    "url": "https://doi.org/10.1126/science.1177265",
+    "doi": "10.1126/science.1177265",
+    "publisher": "Science",
+    "sourceRole": "primary-study",
+    "fitnessFor": [
+      "taxonomy",
+      "range",
+      "event-mechanism"
+    ]
+  }
 ]

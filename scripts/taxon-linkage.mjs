@@ -14,6 +14,12 @@ export function occurrenceClassificationNames(record) {
 }
 
 export function occurrenceMatchesTaxonScope(record, scope) {
-  if (record.tid && scope.ids.has(record.tid)) return true
-  return occurrenceClassificationNames(record).some((name) => scope.names.has(name))
+  return occurrenceMatchMethod(record, scope) !== null
+}
+
+export function occurrenceMatchMethod(record, scope) {
+  if (record.tid && scope.ids.has(record.tid)) return 'exactExternalId'
+  if (record.tna && scope.names.has(normalizeTaxonName(record.tna))) return 'acceptedName'
+  if (occurrenceClassificationNames(record).some((name) => scope.names.has(name))) return 'higherClassification'
+  return null
 }

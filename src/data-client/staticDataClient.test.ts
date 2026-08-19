@@ -23,7 +23,7 @@ afterEach(() => {
 describe('static runtime release coherence', () => {
   it('uses the current release manifest, evicts a checksum mismatch, and refetches once', async () => {
     const packageManifest = {
-      schemaVersion: 4,
+      schemaVersion: 5,
       packageId: 'demo',
       version: 'dataset-b',
       title: 'Demo',
@@ -53,9 +53,9 @@ describe('static runtime release coherence', () => {
       sha256: await sha256(packageManifest),
     }
     const current = {
-      schemaVersion: 4,
+      schemaVersion: 5,
       datasetVersion: 'dataset-b',
-      appVersion: '0.9.0',
+      appVersion: '0.10.0',
       publication: 'test',
       releaseBase: 'releases/dataset-b/',
       core: {},

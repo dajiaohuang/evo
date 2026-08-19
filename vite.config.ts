@@ -27,6 +27,7 @@ export default defineConfig({
         ],
       },
       workbox: {
+        importScripts: ['cache-lifecycle.js'],
         globPatterns: ['**/*.{html,css,svg}', 'assets/index-*.js', 'assets/rolldown-runtime-*.js', 'assets/vendor~index-*.js', 'assets/vendor~index~*.js', 'assets/vendor~workbox-window*.js', `data/releases/${datasetVersion}/core/*.json.gz`],
         navigateFallback: '/evo/index.html',
         cleanupOutdatedCaches: true,
@@ -45,7 +46,7 @@ export default defineConfig({
             handler: 'CacheFirst',
             options: {
               cacheName: 'evo-lazy-assets-v1',
-              expiration: { maxEntries: 80, maxAgeSeconds: 60 * 60 * 24 * 30 },
+              expiration: { maxEntries: 80, maxAgeSeconds: 60 * 60 * 24 * 30, purgeOnQuotaError: true },
               cacheableResponse: { statuses: [0, 200] },
             },
           },
@@ -54,7 +55,7 @@ export default defineConfig({
             handler: 'CacheFirst',
             options: {
               cacheName: `evo-runtime-data-${datasetVersion}`,
-              expiration: { maxEntries: 220, maxAgeSeconds: 60 * 60 * 24 * 30 },
+              expiration: { maxEntries: 220, maxAgeSeconds: 60 * 60 * 24 * 30, purgeOnQuotaError: true },
               cacheableResponse: { statuses: [0, 200] },
             },
           },

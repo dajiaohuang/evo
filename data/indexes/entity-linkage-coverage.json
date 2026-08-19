@@ -1,0 +1,170 @@
+{
+  "schemaVersion": 2,
+  "generatedFrom": [
+    "data/navigation/atlas-ontology.json",
+    "data/registry/entities/entities.json",
+    "data/sources/pbdb-taxon-resolution.json",
+    "data/fossils/*.json"
+  ],
+  "scope": "Bundled bounded occurrence sample only; this is entity-linkage coverage, not biological coverage or sampling completeness.",
+  "sourceTotal": 13600,
+  "linkedOccurrenceTotal": 11801,
+  "linkedOccurrenceRate": 0.867721,
+  "unmatchedOccurrenceTotal": 1799,
+  "linkageMethods": {
+    "exactExternalId": 486,
+    "acceptedName": 72,
+    "higherClassification": 11243
+  },
+  "indexedEntityCount": 186,
+  "resolutionSummary": {
+    "resolved": 127,
+    "unresolved": 59,
+    "needsConceptReview": 80
+  },
+  "packageCoverage": {
+    "actinopterygii": {
+      "sourceTotal": 10,
+      "linkedTotal": 10,
+      "linkedRate": 1
+    },
+    "amphibia": {
+      "sourceTotal": 8,
+      "linkedTotal": 8,
+      "linkedRate": 1
+    },
+    "angiospermae": {
+      "sourceTotal": 48,
+      "linkedTotal": 48,
+      "linkedRate": 1
+    },
+    "atlas-core": {
+      "sourceTotal": 1559,
+      "linkedTotal": 74,
+      "linkedRate": 0.047466
+    },
+    "carnivora": {
+      "sourceTotal": 155,
+      "linkedTotal": 155,
+      "linkedRate": 1
+    },
+    "cetartiodactyla": {
+      "sourceTotal": 274,
+      "linkedTotal": 10,
+      "linkedRate": 0.036496
+    },
+    "chondrichthyes": {
+      "sourceTotal": 17,
+      "linkedTotal": 17,
+      "linkedRate": 1
+    },
+    "crocodylomorphs-birds": {
+      "sourceTotal": 21,
+      "linkedTotal": 15,
+      "linkedRate": 0.714286
+    },
+    "crustaceans-insects": {
+      "sourceTotal": 215,
+      "linkedTotal": 215,
+      "linkedRate": 1
+    },
+    "dinosauria": {
+      "sourceTotal": 2,
+      "linkedTotal": 2,
+      "linkedRate": 1
+    },
+    "early-fishes": {
+      "sourceTotal": 73,
+      "linkedTotal": 61,
+      "linkedRate": 0.835616
+    },
+    "early-land-plants": {
+      "sourceTotal": 383,
+      "linkedTotal": 280,
+      "linkedRate": 0.73107
+    },
+    "echinoderms": {
+      "sourceTotal": 309,
+      "linkedTotal": 309,
+      "linkedRate": 1
+    },
+    "gymnosperms": {
+      "sourceTotal": 345,
+      "linkedTotal": 188,
+      "linkedRate": 0.544928
+    },
+    "mammal-origins": {
+      "sourceTotal": 0,
+      "linkedTotal": 0,
+      "linkedRate": 1
+    },
+    "marine-reptiles-pterosaurs": {
+      "sourceTotal": 3,
+      "linkedTotal": 2,
+      "linkedRate": 0.666667
+    },
+    "molluscs-brachiopods": {
+      "sourceTotal": 7252,
+      "linkedTotal": 7134,
+      "linkedRate": 0.983729
+    },
+    "other-mammals": {
+      "sourceTotal": 731,
+      "linkedTotal": 521,
+      "linkedRate": 0.712722
+    },
+    "perissodactyla": {
+      "sourceTotal": 154,
+      "linkedTotal": 154,
+      "linkedRate": 1
+    },
+    "primates": {
+      "sourceTotal": 42,
+      "linkedTotal": 42,
+      "linkedRate": 1
+    },
+    "sponges-cnidarians": {
+      "sourceTotal": 652,
+      "linkedTotal": 652,
+      "linkedRate": 1
+    },
+    "tetrapod-transition": {
+      "sourceTotal": 0,
+      "linkedTotal": 0,
+      "linkedRate": 1
+    },
+    "trilobites-chelicerates": {
+      "sourceTotal": 1292,
+      "linkedTotal": 1168,
+      "linkedRate": 0.904025
+    },
+    "turtles-lepidosaurs": {
+      "sourceTotal": 55,
+      "linkedTotal": 20,
+      "linkedRate": 0.363636
+    }
+  },
+  "profileTotals": {
+    "perissodactyla": 154,
+    "brontotheriidae": 0,
+    "palaeotherium": 0,
+    "metamynodon": 0,
+    "paraceratherium": 0,
+    "chalicotherium": 3,
+    "anchitherium": 0,
+    "hipparionini": 0,
+    "teleoceras": 0,
+    "coelodonta": 0
+  },
+  "zeroMatchProfiles": [
+    "brontotheriidae",
+    "palaeotherium",
+    "metamynodon",
+    "paraceratherium",
+    "anchitherium",
+    "hipparionini",
+    "teleoceras",
+    "coelodonta"
+  ],
+  "ambiguousNameCollisions": []
+}

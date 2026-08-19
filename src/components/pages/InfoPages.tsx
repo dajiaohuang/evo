@@ -2,9 +2,9 @@ import { useEffect, useState } from 'react'
 import manifest from '../../../data/manifest.json'
 import { periods } from '../../services/geology'
 import { loadReleaseMetadata, localReleaseMetadata } from '../../services/release'
-import { loadCurrentManifest, loadPackageManifest, loadPackageRegistry } from '../../data-client/staticDataClient'
+import { loadCurrentManifest, loadEntityLinkageCoverage, loadPackageManifest, loadPackageRegistry } from '../../data-client/staticDataClient'
 import { clearOfflinePackages, saveAllPackagesOffline, savePackageOffline } from '../../data-client/offlinePackages'
-import type { CurrentRuntimeManifest, RuntimePackageManifest, RuntimePackageRegistry } from '../../data-client/types'
+import type { CurrentRuntimeManifest, RuntimeEntityLinkageCoverage, RuntimePackageManifest, RuntimePackageRegistry } from '../../data-client/types'
 import type { AppRoute } from '../../utils/routing'
 import { useI18n } from '../../i18n'
 import './InfoPages.css'
@@ -13,12 +13,19 @@ interface PageProps {
   onNavigate: (route: AppRoute) => void
 }
 
+function formatBoundary(boundary: { valueMa: number; uncertaintyMa: number | null; approximate: boolean }): string {
+  const value = Number.isInteger(boundary.valueMa) ? boundary.valueMa.toFixed(0) : String(boundary.valueMa)
+  const uncertainty = boundary.uncertaintyMa == null ? '' : ` ± ${boundary.uncertaintyMa.toFixed(2)}`
+  return `${boundary.approximate ? '~' : ''}${value}${uncertainty} Ma`
+}
+
 export function DataPage({ onNavigate }: PageProps) {
   const { language, number, t } = useI18n()
   const [release, setRelease] = useState(localReleaseMetadata)
   const [runtime, setRuntime] = useState<CurrentRuntimeManifest | null>(null)
   const [packageRegistry, setPackageRegistry] = useState<RuntimePackageRegistry | null>(null)
   const [packageManifests, setPackageManifests] = useState<RuntimePackageManifest[]>([])
+  const [linkageCoverage, setLinkageCoverage] = useState<RuntimeEntityLinkageCoverage | null>(null)
   const [platformError, setPlatformError] = useState<string | null>(null)
   const [offlineStatus, setOfflineStatus] = useState('idle')
 
@@ -28,12 +35,13 @@ export function DataPage({ onNavigate }: PageProps) {
 
   useEffect(() => {
     let cancelled = false
-    void Promise.all([loadCurrentManifest(), loadPackageRegistry()]).then(async ([current, registry]) => {
+    void Promise.all([loadCurrentManifest(), loadPackageRegistry(), loadEntityLinkageCoverage()]).then(async ([current, registry, linkage]) => {
       const packages = await Promise.all(registry.packages.map((entry) => loadPackageManifest(entry.id)))
       if (cancelled) return
       setRuntime(current)
       setPackageRegistry(registry)
       setPackageManifests(packages)
+      setLinkageCoverage(linkage)
     }).catch((error: unknown) => {
       if (!cancelled) setPlatformError(error instanceof Error ? error.message : String(error))
     })
@@ -106,6 +114,16 @@ export function DataPage({ onNavigate }: PageProps) {
             <article><strong>{(runtime.budgets.coreCompressedBytes / 1024).toFixed(1)} KiB</strong><span>{t('compressed core')}</span></article>
           </div>
         )}
+        {linkageCoverage && (
+          <div className="platform-summary platform-summary--quality" aria-label={t('Taxonomy and entity linkage quality')}>
+            <article><strong>{linkageCoverage.resolutionSummary.resolved}/{linkageCoverage.indexedEntityCount}</strong><span>{t('PBDB concepts resolved')}</span></article>
+            <article><strong>{linkageCoverage.resolutionSummary.unresolved}</strong><span>{t('external concepts unresolved')}</span></article>
+            <article><strong>{number(linkageCoverage.linkedOccurrenceTotal)}/{number(linkageCoverage.sourceTotal)}</strong><span>{t('entity-linked occurrence rows')}</span></article>
+            <article><strong>{number(linkageCoverage.linkageMethods.exactExternalId)}</strong><span>{t('exact external-ID matches')}</span></article>
+            <article><strong>{number(linkageCoverage.linkageMethods.acceptedName + linkageCoverage.linkageMethods.higherClassification)}</strong><span>{t('name/classification matches')}</span></article>
+            <article><strong>{number(linkageCoverage.unmatchedOccurrenceTotal)}</strong><span>{t('unmatched occurrence rows')}</span></article>
+          </div>
+        )}
         <div className="package-table" role="table" aria-label={t('Static package coverage')}>
           <div className="package-row package-row--head" role="row"><span>{t('Package')}</span><span>{t('Maturity')}</span><span>{t('Entities')}</span><span>{t('Runtime')}</span><span>{t('Occurrences')}</span><span>{t('Offline')}</span></div>
           {packageManifests.map((entry) => (
@@ -138,7 +156,10 @@ export function DataPage({ onNavigate }: PageProps) {
           {[...periods].reverse().map((period) => (
             <div className="coverage-row" role="row" key={period.name}>
               <strong><i style={{ background: period.color }} />{language === 'zh' ? period.nameZh : period.name}</strong>
-              <span>{period.eag.toFixed(1)}—{period.lag.toFixed(1)} Ma</span>
+              <span className="boundary-range">
+                <b>{formatBoundary(period.olderBoundary)} — {formatBoundary(period.youngerBoundary)}</b>
+                <small>{period.olderBoundary.definitionType} → {period.youngerBoundary.definitionType} · ICS {period.officialVersion}</small>
+              </span>
               <span className={period.mapLayerStatus === 'available' ? 'coverage-ok' : ''}>{t(period.mapLayerStatus === 'available' ? 'Available' : 'Withheld pending provenance')}</span>
               <span className="coverage-ok">{t('Bundled')}</span>
             </div>

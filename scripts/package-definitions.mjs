@@ -1,5 +1,5 @@
-export const PACKAGE_SCHEMA_VERSION = 4
-export const DATASET_PACKAGE_VERSION = '2026.08-static-v4-rc1'
+export const PACKAGE_SCHEMA_VERSION = 5
+export const DATASET_PACKAGE_VERSION = '2026.08-static-v5-rc1'
 
 export const packageDefinitions = [
   {
@@ -45,8 +45,8 @@ export const packageDefinitions = [
   {
     id: 'molluscs-brachiopods',
     path: 'invertebrata/molluscs-brachiopods',
-    title: 'Molluscs, Brachiopods and Graptolites',
-    titleZh: '软体动物、腕足动物与笔石',
+    title: 'Molluscs, Brachiopods and Graptolites (teaching collection)',
+    titleZh: '软体动物、腕足动物与笔石（教学集合）',
     rootEntityIds: ['mollusca', 'brachiopoda', 'graptolithina'],
     wave: 'D',
   },

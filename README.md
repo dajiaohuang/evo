@@ -4,7 +4,7 @@ Evo Atlas is a static-first web atlas for exploring 4.567 billion years of Earth
 
 ## What is implemented
 
-- **Deep-time portal** — Hadean to present navigation, period entry points and ten guided evolutionary stories.
+- **Deep-time portal** — Hadean to present navigation, period entry points, 4 published guided stories and 6 evidence-blocked canonical drafts.
 - **Synchronized Explorer** — Geological timeline, occurrence-coordinate map, tree of life, evidence inspector and dataset-checked shareable URL state. Continental geometry is withheld until provenance is complete.
 - **Separated tree semantics** — Atlas-wide navigation ontology, a scoped Perissodactyla topology hypothesis, first-appearance proxy, fossil ranges and radial navigation, plus a compatible published calibration ledger.
 - **Multi-scale occurrence map** — Projected-pixel cluster, density and point modes with reconstructed and modern coordinates kept separate. The continental layer is visibly unavailable while provenance is incomplete.
@@ -15,7 +15,7 @@ Evo Atlas is a static-first web atlas for exploring 4.567 billion years of Earth
 - **Local research workspace** — Recent query definitions are retained in browser IndexedDB and never sent to an application server.
 - **Offline PWA** — Installable, precached app shell; large immutable scientific chunks are cached only when opened.
 - **Static release pipeline** — Cross-file data validation, per-file SHA-256 checksums, tests, lint and GitHub Pages deployment gates.
-- **Pages Data Platform v4 candidate** — 179 bilingual registry entities assigned to 24 static packages, with platform publication status separated from scientific maturity: Perissodactyla is a curated draft and the other 22 scientific packages are generated scaffolds, not Gold datasets.
+- **Pages Data Platform v5 candidate** — 186 bilingual registry entities assigned to 24 static packages, with entity kind separated from external-ID resolution and content level: Perissodactyla is a curated draft and the other 22 scientific packages are generated scaffolds, not Gold datasets.
 - **Explicit offline packages** — Core data is precached; package and occurrence data is cached on access or when the user explicitly saves a package from the Data page.
 
 ## Architecture
@@ -63,7 +63,7 @@ npm run pages:smoke
 
 `data:manifest` intentionally rewrites record counts and SHA-256 checksums after a reviewed canonical change. `data:build` creates the publishable static projection at `dist/data/`; it does not write runtime copies into canonical `data/`. The taxon-period descendant index, fossil normalization and `data:assign:fossils` package-assignment steps are reproducible commands. Optional staging helpers are available for PBDB occurrence retrieval/enrichment and splitting a source GeoJSON FeatureCollection; no geometry may be promoted from staging until the provenance fields required by `DATA_LICENSES.md` are complete. Staging fetches refuse to overwrite an existing target unless `--replace` is supplied.
 
-The public bootstrap is `/evo/data/current.json`. It links checksum-addressed manifests and immutable files under `/evo/data/releases/<datasetVersion>/`; clients reject package/version mismatches and evict then refetch checksum failures once. See [Static Data Platform v4](docs/static-data-platform-v4.md) for formats, caching rules and budgets.
+The public bootstrap is `/evo/data/current.json`. It links checksum-addressed manifests and immutable files under `/evo/data/releases/<datasetVersion>/`; `/evo/data/releases.json` retains published snapshots, clients reject package/version mismatches, and checksum failures are evicted then refetched once. See [Static Data Platform v5](docs/static-data-platform-v4.md) for formats, caching rules and budgets.
 
 ```bash
 npm run data:fetch:fossils -- --period Cretaceous --limit 1000

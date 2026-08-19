@@ -50,13 +50,18 @@ if (!existsSync(swPath)) {
   failures.push('service worker is missing')
 } else {
   const serviceWorker = readFileSync(swPath, 'utf8')
+  if (!serviceWorker.includes('cache-lifecycle.js') || !existsSync(join(dist, 'cache-lifecycle.js'))) failures.push('service worker cache lifecycle hook is missing')
+  else {
+    const lifecycle = readFileSync(join(dist, 'cache-lifecycle.js'), 'utf8')
+    if (!lifecycle.includes('evo-runtime-data-') || !lifecycle.includes("addEventListener('activate'")) failures.push('service worker does not clean stale versioned runtime caches on activate')
+  }
   const precachedFiles = files.filter((path) => serviceWorker.includes(relativePath(path)))
   const precacheBytes = size(precachedFiles)
   if (precacheBytes > 10 * 1024 * 1024) failures.push(`precache is ${(precacheBytes / 1024 / 1024).toFixed(2)} MiB; limit is 10 MiB`)
   if (/data\/(?:releases\/[^/]+\/)?(packages|occurrences|maps|downloads)\//.test(serviceWorker)) failures.push('service worker precaches package, occurrence, map or download data')
 }
 
-const runtimeFiles = files.filter((path) => relativePath(path).startsWith('data/') && !relativePath(path).endsWith('build-metrics.json'))
+const runtimeFiles = files.filter((path) => path.startsWith(releaseRoot) && !relativePath(path).endsWith('build-metrics.json'))
 const checksumGroups = new Map()
 for (const path of runtimeFiles) {
   const checksum = createHash('sha256').update(readFileSync(path)).digest('hex')

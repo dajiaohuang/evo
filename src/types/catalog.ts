@@ -6,6 +6,8 @@ export interface ReferenceRecord {
   authors: string
   publishedYear?: number
   type: 'paper' | 'database' | 'dataset' | 'standard' | 'museum' | 'documentation'
+  sourceRole: 'primary-study' | 'systematic-review' | 'taxonomic-database' | 'occurrence-database' | 'museum-overview' | 'documentation' | 'standard'
+  fitnessFor: Array<'taxonomy' | 'topology' | 'range' | 'morphology' | 'ecology' | 'biogeography' | 'event-mechanism' | 'occurrence' | 'paleogeography' | 'geochronology' | 'methods'>
   url: string
   doi?: string
   accessedAt?: string
@@ -63,11 +65,24 @@ export interface EvolutionEvent {
   regions: string[]
   clades: string[]
   summary: string
-  evidence: string[]
-  uncertainties: string[]
+  evidenceItems: EventEvidenceItem[]
+  uncertaintyItems: EventEvidenceItem[]
   claimIds: string[]
   confidence: ConfidenceLevel
   referenceIds: string[]
+}
+
+export interface EventEvidenceItem {
+  statement: string
+  relation: 'supports' | 'contradicts' | 'contextualizes'
+  claimIds: string[]
+  referenceLinks: Array<{
+    referenceId: string
+    relation: 'supports' | 'contradicts' | 'contextualizes'
+    pages?: string
+    figure?: string
+    quoteLocator?: string
+  }>
 }
 
 export type StoryView = 'map' | 'tree' | 'diversity' | 'evidence'

@@ -1,12 +1,12 @@
-# GitHub Pages Data Platform v4 Candidate
+# GitHub Pages Data Platform v5 Candidate
 
 Evo Atlas publishes one static application and one static scientific-data namespace at `/evo/data/`. Runtime use has no database, API server, external object store or required release asset.
 
 ## Canonical and runtime layers
 
-`data/` is the version-controlled canonical layer. The 179 navigation entities live in `data/registry/`; 24 ownership packages live in `data/packages/`; shared references, claims, events, stories and the normalized PBDB snapshot remain single canonical sources. `atlas-core` is Core, Perissodactyla is a curated draft, and the other 22 scientific packages are generated scaffolds. None is currently represented as expert-reviewed or Gold.
+`data/` is the version-controlled scientific layer. The 186 canonical entity concepts live in the navigation ontology, canonical range evidence has its own ledger, and shared references, claims, events, stories and the normalized PBDB snapshot remain single sources. Registry and package identity/taxonomy/range/review/locale files are generated projections; `npm run data:registry:check` regenerates them in a temporary directory and requires byte-for-byte equality. `atlas-core` is Core, Perissodactyla is a curated draft, and the other 22 scientific packages are generated scaffolds. None is currently represented as expert-reviewed or Gold.
 
-Package schema v4 separates `platformMaturity`, `scientificMaturity`, `automatedReviewStatus` and `scientificReviewStatus`. Automated schema validation is not scientific review. A package with no claims cannot advance beyond `generated-scaffold`; packages without scientific peer review cannot be `expert-reviewed` or `gold-v2`; Gold additionally requires taxon-specific range and claim sources.
+Package schema v5 separates `entityKind`, `contentLevel` and `externalResolutionStatus`, and keeps platform maturity separate from scientific maturity. Automated schema validation is not scientific review. A package with no claims cannot advance beyond `generated-scaffold`; packages without identified human scientific review cannot be `expert-reviewed` or `gold-v2`; Gold additionally requires fit primary/review sources, locators, claim linkage and reviewer identity/scope/conflict metadata.
 
 `public/data/` and `dist/data/` are generated and ignored. `scripts/build-runtime-data.mjs` produces one compact representation:
 
@@ -31,12 +31,15 @@ The current PBDB snapshot contains 13,600 bounded, non-random API-prefix rows. P
 
 The precached Core search index contains navigation entities, package names, periods, events, stories and places. Entering an entity loads its package search index with profiles, claims and references. Package knowledge, occurrence shards, maps and downloads are not default precache entries.
 
-The Data page can explicitly save one package or all published packages through the Cache API. Workbox runtime-cache names include the dataset version. Clearing offline data deletes explicit package caches, every Evo runtime-data cache generation and the in-memory data cache.
+The Data page can explicitly save one package or all published packages through the Cache API. Workbox runtime-cache names include the dataset version. Service-worker activation removes stale runtime and explicit-package cache generations, quota errors are purgeable, and clearing offline data still deletes every Evo runtime-data generation plus the in-memory cache.
+
+Deployments fetch the published release inventory before building and retain the current plus two prior version directories. `current.json` moves the active pointer while `releases.json` and per-release file inventories keep retained snapshot URLs independently addressable.
 
 ## Release gates
 
 ```bash
 npm run data:registry:validate
+npm run data:registry:check
 npm run data:packages:validate
 npm run data:claims:validate
 npm run data:translations:validate

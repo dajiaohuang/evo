@@ -25,6 +25,7 @@ export const timeScale = timeScaleData as TimeScaleData
 export const timeScaleUnits = timeScale.units
 
 const unitsById = new Map(timeScaleUnits.map((unit) => [unit.oid, unit]))
+const boundaryByValue = new Map(timeScale.boundaries.map((boundary) => [boundary.valueMa, boundary]))
 const metadataByName = new Map(
   (periodMetadataData as PeriodMapMetadata[]).map((record) => [record.name, record]),
 )
@@ -52,6 +53,9 @@ export const periods: PeriodInfo[] = timeScaleUnits
   .map((unit) => {
     const metadata = metadataByName.get(unit.nam)
     if (!metadata) throw new Error(`Missing map metadata for geological period ${unit.nam}`)
+    const olderBoundary = boundaryByValue.get(unit.eag)
+    const youngerBoundary = boundaryByValue.get(unit.lag)
+    if (!olderBoundary || !youngerBoundary) throw new Error(`Missing boundary evidence for geological period ${unit.nam}`)
     return {
       name: unit.nam,
       nameZh: unit.namZh ?? unit.nam,
@@ -62,6 +66,9 @@ export const periods: PeriodInfo[] = timeScaleUnits
       eonZh: ancestorNameZh(unit, 'eon'),
       lag: unit.lag,
       eag: unit.eag,
+      olderBoundary,
+      youngerBoundary,
+      officialVersion: timeScale.officialVersion,
       color: unit.col,
       keyContinentalConfig: metadata.keyContinentalConfig,
       mapLayerStatus: metadata.mapLayerStatus,

@@ -1,6 +1,6 @@
 import type { FossilOccurrence } from '../types'
 import type { TaxonOccurrenceQueryResult, TaxonQueryScope } from '../types'
-import taxonPeriodIndexData from '../../data/indexes/taxon-period-index.json'
+import entityOccurrenceIndexData from '../../data/indexes/entity-occurrence-index.json'
 import { loadOccurrenceManifest, loadRuntimeFile } from '../data-client/staticDataClient'
 
 export const FOSSIL_PERIODS = Object.freeze([
@@ -10,20 +10,25 @@ export const FOSSIL_PERIODS = Object.freeze([
 
 const fossilStore: Record<string, FossilOccurrence[]> = {}
 const loadingPeriods = new Map<string, Promise<FossilOccurrence[]>>()
-interface TaxonPeriodIndexEntry {
+interface EntityOccurrenceIndexEntry {
+  entityId: string
+  externalTaxonId: string | null
+  scientificNameNormalized: string
   descendantTaxonIds: string[]
   descendantScientificNames: string[]
+  queryStatus: 'resolved-and-observed' | 'resolved-zero-in-bounded-sample' | 'external-id-unresolved' | 'navigation-only' | 'historical-grade' | 'outside-snapshot-scope'
+  matchMethods: { exactExternalId: number; acceptedName: number; higherClassification: number }
   periods: string[]
   matchedTotal: number
 }
 
-interface TaxonPeriodIndex {
+interface EntityOccurrenceIndex {
   sourceTotal: number
   samplingMethod: string
-  nodes: Record<string, TaxonPeriodIndexEntry>
+  nodes: Record<string, EntityOccurrenceIndexEntry>
 }
 
-const taxonPeriodIndex = taxonPeriodIndexData as TaxonPeriodIndex
+const entityOccurrenceIndex = entityOccurrenceIndexData as EntityOccurrenceIndex
 
 export async function getFossilsByInterval(period: string): Promise<FossilOccurrence[]> {
   if (fossilStore[period]) return fossilStore[period]
@@ -44,36 +49,40 @@ export async function getFossilsByInterval(period: string): Promise<FossilOccurr
   return promise
 }
 
-export async function getFossilsByTaxon(
-  taxonId: string,
+export async function getFossilsByEntity(
+  entityId: string,
   scope: TaxonQueryScope = 'descendants',
 ): Promise<TaxonOccurrenceQueryResult> {
-  const indexed = taxonPeriodIndex.nodes[taxonId]
-  const fallbackApplied = scope === 'descendants' && !indexed
+  const indexed = entityOccurrenceIndex.nodes[entityId]
+  const fallbackApplied = !indexed
   const effectiveScope: TaxonQueryScope = fallbackApplied ? 'exact' : scope
   const taxonIds = effectiveScope === 'descendants' && indexed
     ? new Set(indexed.descendantTaxonIds)
-    : new Set([taxonId])
+    : new Set(indexed?.externalTaxonId ? [indexed.externalTaxonId] : [])
   const scientificNames = effectiveScope === 'descendants' && indexed
     ? new Set(indexed.descendantScientificNames)
-    : new Set<string>()
+    : new Set(indexed ? [indexed.scientificNameNormalized] : [])
   const periods = indexed?.periods.length ? indexed.periods : [...FOSSIL_PERIODS]
   const chunks = await Promise.all(periods.map(getFossilsByInterval))
   const records = chunks.flat().filter((occurrence) => {
     if (occurrence.tid && taxonIds.has(occurrence.tid)) return true
+    if (occurrence.tna && scientificNames.has(occurrence.tna.trim().toLocaleLowerCase())) return true
+    if (effectiveScope === 'exact') return false
     return Object.values(occurrence.classification ?? {}).some((name) => scientificNames.has(name.trim().toLocaleLowerCase()))
   })
   return {
-    taxonId,
+    entityId,
     scope,
     effectiveScope,
     indexStatus: indexed ? 'hit' : 'miss',
     fallbackApplied,
-    sourceTotal: taxonPeriodIndex.sourceTotal,
+    queryStatus: indexed?.queryStatus ?? 'outside-snapshot-scope',
+    matchMethods: indexed?.matchMethods ?? { exactExternalId: 0, acceptedName: 0, higherClassification: 0 },
+    sourceTotal: entityOccurrenceIndex.sourceTotal,
     matchedTotal: records.length,
     rowsLoaded: records.length,
     truncated: false,
-    samplingMethod: taxonPeriodIndex.samplingMethod,
+    samplingMethod: entityOccurrenceIndex.samplingMethod,
     loadedPeriods: periods,
     records,
   }

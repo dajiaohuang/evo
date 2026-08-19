@@ -1,12 +1,12 @@
 import Ajv2020 from 'ajv/dist/2020.js'
 import { existsSync, readFileSync, readdirSync, statSync } from 'node:fs'
 import { dirname, join } from 'node:path'
-import { readJson, rootDir } from './data-lib.mjs'
+import { countTreeNodes, readJson, rootDir } from './data-lib.mjs'
 
 const unique = (items) => new Set(items).size === items.length
 const scientificMaturityOrder = ['generated-scaffold', 'source-inventory-complete', 'curated-draft', 'expert-reviewed', 'gold-v2']
 const scientificMaturityAtLeast = (value, minimum) => scientificMaturityOrder.indexOf(value) >= scientificMaturityOrder.indexOf(minimum)
-const isGenericScientificReference = (referenceId) => /(?:^|[-_])(pbdb|open-?tree|opentree|ics|gplates)(?:[-_]|$)/i.test(referenceId)
+const scientificSourceRoles = new Set(['primary-study', 'systematic-review'])
 
 function schemaValidator(schemaPath) {
   const ajv = new Ajv2020({ allErrors: true, strict: true })
@@ -24,17 +24,18 @@ function registryFailures() {
   const entities = readJson('data/registry/entities/entities.json')
   const registry = readJson('data/registry/package-registry.json')
   const references = new Set(readJson('data/references.json').map((reference) => reference.id))
+  const ontology = readJson('data/navigation/atlas-ontology.json')
   const resolutions = new Map(readJson('data/sources/pbdb-taxon-resolution.json').resolutions.map((entry) => [entry.entityId, entry]))
   const validateEntity = schemaValidator('data/schemas/entity.schema.json')
   const ids = entities.map((entity) => entity.id)
   const idSet = new Set(ids)
   const packageIds = new Set(registry.packages.map((entry) => entry.id))
-  if (entities.length !== 179) failures.push(`entity registry has ${entities.length} entries; expected 179`)
+  if (entities.length !== countTreeNodes(ontology)) failures.push(`entity registry has ${entities.length} entries; navigation ontology has ${countTreeNodes(ontology)}`)
   if (registry.entityCount !== entities.length) failures.push('package registry entityCount is stale')
   if (registry.packageCount !== 24 || registry.packages.length !== 24) failures.push('package registry must contain 24 packages')
   if (!unique(ids)) failures.push('entity registry IDs must be unique')
   if (!unique([...packageIds])) failures.push('package IDs must be unique')
-  if (registry.schemaVersion !== 4 || registry.schemaStatus !== 'candidate') failures.push('package registry must use candidate schema v4')
+  if (registry.schemaVersion !== 5 || registry.schemaStatus !== 'candidate') failures.push('package registry must use candidate schema v5')
   for (const entity of entities) {
     failures.push(...schemaFailure(validateEntity, entity, `entity ${entity.id}`))
     if (entity.parentId && !idSet.has(entity.parentId)) failures.push(`entity ${entity.id}: unknown parent ${entity.parentId}`)
@@ -46,6 +47,8 @@ function registryFailures() {
     if (!resolution) failures.push(`entity ${entity.id}: missing PBDB resolution`)
     else if (resolution.resolutionStatus === 'resolved' && entity.externalIds.pbdb !== resolution.pbdbId) failures.push(`entity ${entity.id}: PBDB ID differs from the pinned resolution`)
     else if (resolution.resolutionStatus === 'unresolved' && entity.externalIds.pbdb) failures.push(`entity ${entity.id}: unresolved PBDB concept publishes an external ID`)
+    if (entity.entityKind === 'taxon' && resolution?.resolutionStatus !== 'resolved' && entity.contentLevel === 'dossier' && entity.dataAvailability.ecology === 'not-applicable') failures.push(`entity ${entity.id}: unresolved taxon must not make ecology not-applicable`)
+    if (entity.contentLevel === 'full-profile' && entity.dataAvailability.narrativeProfile !== 'available') failures.push(`entity ${entity.id}: full-profile content level requires a narrative profile`)
     if (entity.temporalRange.olderMa < entity.temporalRange.youngerMa) failures.push(`entity ${entity.id}: temporal range is reversed`)
   }
   for (const packageEntry of registry.packages) {
@@ -69,6 +72,9 @@ function packageFailures() {
   const validateTranslation = schemaValidator('data/schemas/translation.schema.json')
   const validatePhylogeny = schemaValidator('data/schemas/phylogeny.schema.json')
   const validateCalibration = schemaValidator('data/schemas/calibration.schema.json')
+  const referencesById = new Map(readJson('data/references.json').map((reference) => [reference.id, reference]))
+  const canonicalRanges = readJson('data/ranges/range-evidence.json')
+  const canonicalRangeIds = new Set(canonicalRanges.map((range) => range.id))
   for (const entry of registry.packages) {
     const path = `${entry.canonicalPath}/package.json`
     if (!existsSync(join(rootDir, path))) {
@@ -95,15 +101,22 @@ function packageFailures() {
     if (packageClaimIds.length === 0 && entry.id !== 'atlas-core' && scientificMaturityAtLeast(packageData.scientificMaturity, 'source-inventory-complete')) failures.push(`package ${entry.id}: packages without claims cannot exceed generated-scaffold`)
     if (review.scientificPeerReview === false && scientificMaturityAtLeast(packageData.scientificMaturity, 'expert-reviewed')) failures.push(`package ${entry.id}: expert-reviewed or gold-v2 maturity requires scientificPeerReview`)
     const ranges = readJson(`${entry.canonicalPath}/ranges.json`)
-    for (const range of ranges) failures.push(...schemaFailure(validateRange, range, `package ${entry.id} range ${range.id}`))
+    for (const range of ranges) {
+      failures.push(...schemaFailure(validateRange, range, `package ${entry.id} range ${range.id}`))
+      if (!canonicalRangeIds.has(range.id)) failures.push(`package ${entry.id} range ${range.id}: not present in canonical range evidence`)
+      for (const locator of range.referenceLocators ?? []) if (!referencesById.has(locator.referenceId)) failures.push(`package ${entry.id} range ${range.id}: unknown reference ${locator.referenceId}`)
+    }
     if (packageData.scientificMaturity === 'gold-v2') {
       for (const range of ranges) {
-        if (!range.referenceIds.some((referenceId) => !isGenericScientificReference(referenceId))) failures.push(`package ${entry.id} range ${range.id}: gold-v2 requires a taxon-specific source`)
+        if (!range.referenceLocators.some((locator) => scientificSourceRoles.has(referencesById.get(locator.referenceId)?.sourceRole) && referencesById.get(locator.referenceId)?.fitnessFor.includes('range'))) failures.push(`package ${entry.id} range ${range.id}: gold-v2 requires a range-fit primary study or systematic review`)
+        if (!range.claimIds.length || range.reviewStatus !== 'expert-reviewed') failures.push(`package ${entry.id} range ${range.id}: gold-v2 requires expert-reviewed claim linkage`)
       }
       const claims = readJson('data/evidence/claims.json').filter((claim) => packageClaimIds.includes(claim.id))
       for (const claim of claims) {
-        if (!claim.referenceLinks.some((link) => !isGenericScientificReference(link.referenceId))) failures.push(`package ${entry.id} claim ${claim.id}: gold-v2 cannot rely only on generic PBDB/OpenTree references`)
+        if (!claim.referenceLinks.some((link) => link.relation === 'supports' && scientificSourceRoles.has(referencesById.get(link.referenceId)?.sourceRole) && referencesById.get(link.referenceId)?.fitnessFor.includes(claim.claimType) && (link.pages || link.figure || link.quoteLocator))) failures.push(`package ${entry.id} claim ${claim.id}: gold-v2 requires a fit primary/review support source with a locator`)
       }
+      const humanReviewers = review.reviewers.filter((reviewer) => reviewer.identityType === 'human' && reviewer.orcid && reviewer.expertise.length && reviewer.reviewScope.includes('all-scientific-claims'))
+      if (!humanReviewers.length) failures.push(`package ${entry.id}: gold-v2 requires an identified human domain reviewer with ORCID, expertise, scope and conflict disclosure`)
     }
     failures.push(...schemaFailure(validateTranslation, readJson(`${entry.canonicalPath}/locales/zh.json`), `package ${entry.id} Chinese locale`))
     if (entry.id === 'perissodactyla') {
@@ -112,7 +125,21 @@ function packageFailures() {
       for (const calibration of calibrations.estimates) failures.push(...schemaFailure(validateCalibration, calibration, `calibration ${calibration.id}`))
       const links = readJson(`${entry.canonicalPath}/evidence/field-claim-links.json`)
       const claimIds = new Set(readJson('data/evidence/claims.json').map((claim) => claim.id))
-      for (const link of links) for (const claimId of Object.values(link.fields)) if (!claimIds.has(claimId)) failures.push(`profile ${link.profileId}: unknown field claim ${claimId}`)
+      const profiles = readJson(`${entry.canonicalPath}/profiles.json`)
+      for (const link of links) {
+        const profile = profiles.find((candidate) => candidate.id === link.profileId)
+        const expectedFields = profile ? [
+          'firstAppearance', 'lastAppearance', 'geography', 'overview', 'evidenceSummary', 'confidence',
+          ...Object.keys(profile.ecology).map((key) => `ecology.${key}`),
+          ...profile.traits.map((_, index) => `traits[${index}]`),
+          ...(profile.regionalRanges ?? []).map((_, index) => `regionalRanges[${index}]`),
+        ] : []
+        for (const field of expectedFields) if (!link.fields[field]) failures.push(`profile ${link.profileId}: visible field ${field} has no claim link`)
+        for (const [field, fieldLink] of Object.entries(link.fields)) {
+          if (!claimIds.has(fieldLink.claimId)) failures.push(`profile ${link.profileId}/${field}: unknown field claim ${fieldLink.claimId}`)
+          if (!fieldLink.sourceLocators?.length) failures.push(`profile ${link.profileId}/${field}: field claim has no source locator`)
+        }
+      }
     }
   }
   return failures
@@ -129,6 +156,8 @@ function claimsFailures() {
     failures.push(...schemaFailure(validateClaim, claim, `claim ${claim.id}`))
     if (!rationalesZh[claim.id] || rationalesZh[claim.id].length < 20) failures.push(`claim ${claim.id}: missing Chinese confidence rationale`)
     for (const link of claim.referenceLinks) if (!references.has(link.referenceId)) failures.push(`claim ${claim.id}: unknown reference ${link.referenceId}`)
+    if (claim.claimKind === 'scientific' && !claim.referenceLinks.some((link) => link.relation === 'supports')) failures.push(`claim ${claim.id}: scientific claims require at least one supports relation`)
+    if (claim.referenceLinks.some((link) => link.relation === 'contradicts') && claim.confidence !== 'contested' && !/contradict|conflict|contested/i.test(claim.confidenceRationale)) failures.push(`claim ${claim.id}: contradictory evidence requires contested confidence or an explicit rationale`)
   }
   if (Object.keys(rationalesZh).length !== claims.length) failures.push('Chinese claim rationale count must match claim count')
   return failures
@@ -182,6 +211,7 @@ function reviewFailures() {
     const review = readJson(`${entry.canonicalPath}/review.json`)
     failures.push(...schemaFailure(validateReview, review, `package review ${entry.id}`))
     if (review.subjectId !== `package:${entry.id}`) failures.push(`package ${entry.id}: review subject mismatch`)
+    if (review.scientificPeerReview && !review.reviewers.some((reviewer) => reviewer.identityType === 'human')) failures.push(`package ${entry.id}: scientific peer review requires a human reviewer record`)
   }
   for (const entity of entities) {
     if (entity.review.scientificPeerReview && entity.review.status !== 'expert-reviewed') failures.push(`entity ${entity.id}: scientific peer review requires expert-reviewed status`)

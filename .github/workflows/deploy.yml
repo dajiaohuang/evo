@@ -30,6 +30,8 @@ jobs:
           node-version: 22
           cache: npm
       - run: npm ci
+      - name: Retain published data snapshots
+        run: node scripts/fetch-release-history.mjs --base https://dajiaohuang.github.io/evo/data/ --out public/data --keep 2
       - name: Build the verified deployment revision
         run: npm run build
         env:

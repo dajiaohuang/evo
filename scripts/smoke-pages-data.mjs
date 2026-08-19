@@ -20,6 +20,14 @@ if (!existsSync(join(dataRoot, 'current.json'))) {
 }
 
 const current = readJson('current.json')
+if (!existsSync(join(dataRoot, 'releases.json'))) failures.push('release retention index is missing')
+else {
+  const history = readJson('releases.json')
+  if (history.retentionLimit < 2 || history.releases?.[0]?.datasetVersion !== current.datasetVersion) failures.push('release retention index does not lead with the current dataset')
+  for (const release of history.releases ?? []) {
+    if (!existsSync(join(dataRoot, release.filesIndex))) failures.push(`retained release ${release.datasetVersion}: files index is missing`)
+  }
+}
 const releaseUrl = (file, label) => {
   if (!file?.url?.startsWith(current.releaseBase)) failures.push(`${label}: URL is outside current release ${current.releaseBase}`)
 }

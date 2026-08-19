@@ -3,7 +3,7 @@
   "$id": "https://dajiaohuang.github.io/evo/schemas/event.schema.json",
   "type": "object",
   "additionalProperties": false,
-  "required": ["id", "title", "titleZh", "category", "startAge", "endAge", "regions", "clades", "summary", "evidence", "uncertainties", "claimIds"],
+  "required": ["id", "title", "titleZh", "category", "startAge", "endAge", "regions", "clades", "summary", "evidenceItems", "uncertaintyItems", "claimIds"],
   "properties": {
     "id": { "type": "string", "minLength": 1 },
     "title": { "type": "string", "minLength": 1 },
@@ -14,8 +14,40 @@
     "regions": { "type": "array", "minItems": 1, "items": { "type": "string", "minLength": 1 } },
     "clades": { "type": "array", "minItems": 1, "items": { "type": "string", "minLength": 1 } },
     "summary": { "type": "string", "minLength": 20 },
-    "evidence": { "type": "array", "minItems": 1, "items": { "type": "string", "minLength": 1 } },
-    "uncertainties": { "type": "array", "minItems": 1, "items": { "type": "string", "minLength": 1 } },
+    "evidenceItems": { "$ref": "#/$defs/evidenceItems" },
+    "uncertaintyItems": { "$ref": "#/$defs/evidenceItems" },
     "claimIds": { "type": "array", "minItems": 1, "uniqueItems": true, "items": { "type": "string", "pattern": "^claim:event:" } }
+  },
+  "$defs": {
+    "evidenceItems": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["statement", "relation", "claimIds", "referenceLinks"],
+        "properties": {
+          "statement": { "type": "string", "minLength": 1 },
+          "relation": { "enum": ["supports", "contradicts", "contextualizes"] },
+          "claimIds": { "type": "array", "minItems": 1, "uniqueItems": true, "items": { "type": "string", "pattern": "^claim:event:" } },
+          "referenceLinks": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["referenceId", "relation"],
+              "properties": {
+                "referenceId": { "type": "string", "minLength": 1 },
+                "relation": { "enum": ["supports", "contradicts", "contextualizes"] },
+                "pages": { "type": "string", "minLength": 1 },
+                "figure": { "type": "string", "minLength": 1 },
+                "quoteLocator": { "type": "string", "minLength": 1 }
+              }
+            }
+          }
+        }
+      }
+    }
   }
 }

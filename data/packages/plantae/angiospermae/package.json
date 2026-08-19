@@ -1,7 +1,7 @@
 {
-  "schemaVersion": 4,
+  "schemaVersion": 5,
   "id": "angiospermae",
-  "version": "2026.08-static-v4-rc1",
+  "version": "2026.08-static-v5-rc1",
   "title": "Angiosperms and Grasses",
   "titleZh": "被子植物与禾草",
   "rootEntityIds": [
@@ -15,8 +15,9 @@
     "fabaceae"
   ],
   "canonicalSources": {
-    "entities": "data/registry/entities/entities.json",
-    "taxonomy": "data/navigation/atlas-ontology.json",
+    "entityDefinitions": "data/navigation/atlas-ontology.json",
+    "ranges": "data/ranges/range-evidence.json",
+    "externalResolutions": "data/sources/pbdb-taxon-resolution.json",
     "references": "data/references.json",
     "occurrences": "data/fossils/*.json"
   },

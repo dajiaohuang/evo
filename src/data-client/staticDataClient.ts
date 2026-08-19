@@ -3,6 +3,7 @@ import type {
   CurrentRuntimeManifest,
   OccurrenceRuntimeManifest,
   RuntimeEntity,
+  RuntimeEntityLinkageCoverage,
   RuntimeFile,
   RuntimePackageManifest,
   RuntimePackageRegistry,
@@ -141,6 +142,13 @@ export async function loadPackageRegistry(): Promise<RuntimePackageRegistry> {
 export async function loadEntityIndex(): Promise<RuntimeEntity[]> {
   const current = await loadCurrentManifest()
   return loadRuntimeFile<RuntimeEntity[]>(current.core.entities)
+}
+
+export async function loadEntityLinkageCoverage(): Promise<RuntimeEntityLinkageCoverage> {
+  const current = await loadCurrentManifest()
+  const file = current.core.linkageCoverage
+  if (!file) throw new Error('Current release does not publish entity linkage coverage')
+  return loadRuntimeFile<RuntimeEntityLinkageCoverage>(file)
 }
 
 export async function loadPackageManifest(packageId: string): Promise<RuntimePackageManifest> {

@@ -362,16 +362,16 @@ export function ComparePage({ params, onNavigate }: WorkbenchProps) {
   const [rightResult, setRightResult] = useState<LabResult | null>(null)
   const [loading, setLoading] = useState(false)
   const occurrencesByTaxonQuery = useAppStore((state) => state.occurrencesByTaxonQuery)
-  const loadOccurrences = useAppStore((state) => state.loadOccurrencesForTaxon)
+  const loadOccurrences = useAppStore((state) => state.loadOccurrencesForEntity)
   const leftProfile = getTaxonProfile(leftTaxon) ?? taxonProfiles[0]
   const rightProfile = getTaxonProfile(rightTaxon) ?? taxonProfiles[1]
   const timeWindowsValid = olderA >= youngerA && olderB >= youngerB
 
   useEffect(() => {
     if (mode !== 'taxa') return
-    if (leftProfile.pbdbTaxonId) void loadOccurrences(leftProfile.pbdbTaxonId)
-    if (rightProfile.pbdbTaxonId) void loadOccurrences(rightProfile.pbdbTaxonId)
-  }, [leftProfile.pbdbTaxonId, loadOccurrences, mode, rightProfile.pbdbTaxonId])
+    void loadOccurrences(leftProfile.id)
+    void loadOccurrences(rightProfile.id)
+  }, [leftProfile.id, loadOccurrences, mode, rightProfile.id])
 
   const runComparison = async () => {
     setLoading(true)
@@ -414,7 +414,7 @@ export function ComparePage({ params, onNavigate }: WorkbenchProps) {
           </div>
           <div className="taxa-compare-grid">
             {[leftProfile, rightProfile].map((profile) => {
-              const count = profile.pbdbTaxonId ? occurrencesByTaxonQuery[`descendants:${profile.pbdbTaxonId}`]?.length : undefined
+              const count = occurrencesByTaxonQuery[`descendants:${profile.id}`]?.length
               return <article key={profile.id}><span>{language === 'zh' ? profile.commonNameZh : profile.commonName}</span><h2><em>{profile.scientificName}</em></h2><p>{t(profile.overview)}</p><dl><div><dt>{t('Range')}</dt><dd>{profile.firstAppearance}—{profile.lastAppearance || t('Present')} Ma</dd></div><div><dt>{t('Guild')}</dt><dd>{t(profile.ecology.guild)}</dd></div><div><dt>{t('Body size')}</dt><dd>{t(profile.ecology.bodySize)}</dd></div><div><dt>{t('Bundled descendant rows')}</dt><dd>{count == null ? t('Loading…') : number(count)}</dd></div><div><dt>{t('Profile confidence')}</dt><dd>{t(profile.confidence)}</dd></div></dl><button onClick={() => onNavigate('taxa', { id: profile.id })}>{t('Open evidence page →')}</button></article>
             })}
           </div>

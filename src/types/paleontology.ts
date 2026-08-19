@@ -44,12 +44,14 @@ export type TaxonQueryScope = 'exact' | 'descendants'
 export type TaxonIndexStatus = 'hit' | 'miss'
 
 export interface TaxonOccurrenceQueryResult {
-  taxonId: string
+  entityId: string
   /** Scope requested by the caller. */
   scope: TaxonQueryScope
   effectiveScope: TaxonQueryScope
   indexStatus: TaxonIndexStatus
   fallbackApplied: boolean
+  queryStatus: 'resolved-and-observed' | 'resolved-zero-in-bounded-sample' | 'external-id-unresolved' | 'navigation-only' | 'historical-grade' | 'outside-snapshot-scope'
+  matchMethods: { exactExternalId: number; acceptedName: number; higherClassification: number }
   sourceTotal: number
   matchedTotal: number
   rowsLoaded: number

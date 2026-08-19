@@ -1,7 +1,7 @@
 {
-  "schemaVersion": 4,
+  "schemaVersion": 5,
   "id": "mammal-origins",
-  "version": "2026.08-static-v4-rc1",
+  "version": "2026.08-static-v5-rc1",
   "title": "Synapsids and Mammal Origins",
   "titleZh": "合弓类与哺乳动物起源",
   "rootEntityIds": [
@@ -18,8 +18,9 @@
     "mammalia"
   ],
   "canonicalSources": {
-    "entities": "data/registry/entities/entities.json",
-    "taxonomy": "data/navigation/atlas-ontology.json",
+    "entityDefinitions": "data/navigation/atlas-ontology.json",
+    "ranges": "data/ranges/range-evidence.json",
+    "externalResolutions": "data/sources/pbdb-taxon-resolution.json",
     "references": "data/references.json",
     "occurrences": "data/fossils/*.json"
   },

@@ -1,15 +1,16 @@
 {
   "packageId": "carnivora",
-  "version": "2026.08-static-v4-rc1",
+  "version": "2026.08-static-v5-rc1",
   "canonicalInputs": [
     "data/navigation/atlas-ontology.json",
+    "data/ranges/range-evidence.json",
     "data/sources/pbdb-taxon-resolution.json",
     "data/tree/evidence.json",
     "data/references.json"
   ],
   "occurrenceSnapshot": "data/sources/pbdb-occurrence-bundle.json",
-  "generatedProjection": false,
+  "generatedProjection": true,
   "notes": [
-    "The package owns its registry entities. Runtime gzip files are generated projections and are not canonical sources."
+    "Package registry, taxonomy, range, review and locale files are generated projections. Canonical entity concepts, ranges, evidence and external-resolution decisions live in the listed canonical inputs."
   ]
 }

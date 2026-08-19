@@ -15,14 +15,18 @@ if (!allowedRoots.some((allowed) => outputRoot === allowed || outputRoot.startsW
   throw new Error(`Refusing to write runtime data outside dist/data or public/data: ${outputRoot}`)
 }
 
-const startedAt = Date.now()
-rmSync(outputRoot, { recursive: true, force: true })
-mkdirSync(outputRoot, { recursive: true })
-
 const sourceManifest = readJson('data/manifest.json')
 if (!/^[a-zA-Z0-9][a-zA-Z0-9._-]*$/.test(sourceManifest.datasetVersion)) {
   throw new Error(`datasetVersion is not safe for a release path: ${sourceManifest.datasetVersion}`)
 }
+const startedAt = Date.now()
+mkdirSync(outputRoot, { recursive: true })
+const releaseHistoryPath = join(outputRoot, 'releases.json')
+let previousReleaseHistory = { releases: [] }
+try { previousReleaseHistory = JSON.parse(readFileSync(releaseHistoryPath, 'utf8')) } catch { /* first build */ }
+const currentReleaseRoot = resolve(outputRoot, 'releases', sourceManifest.datasetVersion)
+if (!currentReleaseRoot.startsWith(`${outputRoot}${sep}`)) throw new Error(`Unsafe current release path: ${currentReleaseRoot}`)
+rmSync(currentReleaseRoot, { recursive: true, force: true })
 const releasePrefix = `releases/${sourceManifest.datasetVersion}`
 const registry = readJson('data/registry/package-registry.json')
 const entities = readJson('data/registry/entities/entities.json')
@@ -41,6 +45,8 @@ const perissodactylPhylogeny = readJson('data/packages/mammalia/perissodactyla/p
 const periodMetadata = readJson('data/period-map-metadata.json')
 const occurrenceSource = readJson('data/sources/pbdb-occurrence-bundle.json')
 const treeEvidence = readJson('data/tree/evidence.json')
+const canonicalRanges = readJson('data/ranges/range-evidence.json')
+const linkageCoverage = readJson('data/indexes/entity-linkage-coverage.json')
 const claimsById = new Map(claims.map((claim) => [claim.id, claim]))
 const packageById = new Map(registry.packages.map((entry) => [entry.id, entry]))
 const entityById = new Map(entities.map((entry) => [entry.id, entry]))
@@ -149,7 +155,7 @@ function ownerForStory(story) {
 function coreSearchEntries() {
   const entityEntries = entities.map((entity) => ({
     id: entity.id,
-    kind: entity.entityType,
+    kind: entity.entityKind,
     title: entity.names.scientific,
     titleEn: entity.names.en,
     titleZh: entity.names.zh,
@@ -171,6 +177,7 @@ core.navigation = writeGzipJson('core/navigation-tree.json.gz', ontology)
 core.geologicalTime = writeGzipJson('core/geological-time.json.gz', timeScale)
 core.search = writeGzipJson('core/search-index.json.gz', coreSearchEntries())
 core.references = writeGzipJson('core/references.json.gz', references)
+core.linkageCoverage = writeGzipJson('core/entity-linkage-coverage.json.gz', linkageCoverage)
 core.localeZh = writeGzipJson('core/locale-zh.json.gz', {
   entities: Object.fromEntries(entities.map((entity) => [entity.id, entity.names.zh])),
   packages: Object.fromEntries(registry.packages.map((entry) => [entry.id, entry.titleZh])),
@@ -192,7 +199,7 @@ for (const period of timeScale.units.filter((unit) => unit.itp === 'period')) {
 }
 
 const occurrenceManifest = {
-  schemaVersion: 4,
+  schemaVersion: 5,
   version: sourceManifest.datasetVersion,
   source: occurrenceSource,
   totalRecords: occurrenceTotal,
@@ -242,20 +249,14 @@ for (const packageEntry of registry.packages) {
   if (packageStories.length) payloadFiles.stories = writeGzipJson(`packages/${packageId}/stories.json.gz`, packageStories)
   if (packageMedia.length) payloadFiles.media = writeGzipJson(`packages/${packageId}/media.json.gz`, packageMedia)
   const packageReferences = references.filter((reference) => packageReferenceIds.has(reference.id))
-  payloadFiles.ranges = writeGzipJson(`packages/${packageId}/ranges.json.gz`, packageEntities.map((entity) => ({
-    id: `range:${entity.id}`,
-    entityId: entity.id,
-    ...entity.temporalRange,
-    confidence: entity.evidenceStatus === 'strong' ? 'high' : entity.evidenceStatus === 'contested' ? 'contested' : 'medium',
-    referenceIds: entity.referenceIds,
-  })))
+  payloadFiles.ranges = writeGzipJson(`packages/${packageId}/ranges.json.gz`, canonicalRanges.filter((range) => packageEntities.some((entity) => entity.id === range.entityId)))
   payloadFiles.localeZh = writeGzipJson(`packages/${packageId}/locale-zh.json.gz`, {
     language: 'zh',
     version: sourceManifest.datasetVersion,
     strings: Object.fromEntries(packageEntities.map((entity) => [`entity.${entity.id}.name`, entity.names.zh])),
   })
   payloadFiles.search = writeGzipJson(`package-search-index/${packageId}.json.gz`, [
-    ...packageEntities.map((entity) => ({ id: entity.id, kind: entity.entityType, title: entity.names.scientific, titleEn: entity.names.en, titleZh: entity.names.zh, route: `#/explore?taxon=${encodeURIComponent(entity.id)}&view=tree`, terms: [entity.names.scientific, entity.names.en, entity.names.zh, ...entity.synonyms, entity.definition.en, entity.definition.zh] })),
+    ...packageEntities.map((entity) => ({ id: entity.id, kind: entity.entityKind, title: entity.names.scientific, titleEn: entity.names.en, titleZh: entity.names.zh, route: `#/explore?taxon=${encodeURIComponent(entity.id)}&view=tree`, terms: [entity.names.scientific, entity.names.en, entity.names.zh, ...entity.synonyms, entity.definition.en, entity.definition.zh] })),
     ...packageProfiles.map((profile) => ({ id: profile.id, kind: 'profile', title: profile.scientificName, titleEn: profile.commonName, titleZh: profile.commonNameZh, route: `#/taxa?id=${encodeURIComponent(profile.id)}`, terms: [profile.overview, profile.evidenceSummary, ...profile.traits] })),
     ...packageClaims.map((claim) => ({ id: claim.id, kind: 'claim', title: claim.statement, route: '#/data', terms: [claim.statement, claim.confidenceRationale, claim.claimType] })),
     ...packageReferences.map((reference) => ({ id: reference.id, kind: 'reference', title: reference.title, route: '#/data', terms: [reference.title, reference.authors, reference.doi, reference.url].filter(Boolean) })),
@@ -268,7 +269,7 @@ for (const packageEntry of registry.packages) {
   const knowledgeBytes = Object.values(payloadFiles).reduce((sum, file) => sum + file.bytes, 0)
   const occurrenceBytes = occurrenceShards.reduce((sum, file) => sum + file.bytes, 0)
   const manifest = {
-    schemaVersion: 4,
+    schemaVersion: 5,
     packageId,
     version: sourceManifest.datasetVersion,
     title: packageEntry.title,
@@ -308,7 +309,7 @@ for (const packageEntry of registry.packages) {
 
 const occurrenceManifestFile = writeJson('occurrences/manifest.json', occurrenceManifest, true)
 const mapsManifestFile = writeJson('maps/manifest.json', {
-  schemaVersion: 4,
+  schemaVersion: 5,
   snapshots: periodMetadata.map((period) => ({
     period: period.name,
     status: period.mapLayerStatus,
@@ -321,7 +322,7 @@ const mapsManifestFile = writeJson('maps/manifest.json', {
 
 const coreCompressedBytes = Object.values(core).reduce((sum, file) => sum + file.bytes, 0)
 const current = {
-  schemaVersion: 4,
+  schemaVersion: 5,
   datasetVersion: sourceManifest.datasetVersion,
   appVersion: sourceManifest.appVersion,
   publication: 'GitHub Pages static data platform',
@@ -360,6 +361,31 @@ const current = {
   },
 }
 writeBootstrapJson('current.json', current, true)
+
+const releaseFiles = [...files.values()].map((file) => ({ url: file.url, bytes: file.bytes, sha256: file.sha256 })).sort((left, right) => left.url.localeCompare(right.url))
+const releaseFilesIndex = writeJson('release-files.json', {
+  schemaVersion: 1,
+  datasetVersion: sourceManifest.datasetVersion,
+  files: releaseFiles,
+}, true)
+const retainedReleases = [
+  {
+    datasetVersion: sourceManifest.datasetVersion,
+    releaseBase: `${releasePrefix}/`,
+    filesIndex: releaseFilesIndex.url,
+    generatedAt: sourceManifest.generatedAt,
+  },
+  ...(previousReleaseHistory.releases ?? []).filter((entry) => entry.datasetVersion !== sourceManifest.datasetVersion),
+].slice(0, 3)
+writeBootstrapJson('releases.json', { schemaVersion: 1, retentionLimit: 3, releases: retainedReleases }, true)
+const retainedVersions = new Set(retainedReleases.map((entry) => entry.datasetVersion))
+const releasesDirectory = join(outputRoot, 'releases')
+for (const name of readdirSync(releasesDirectory)) {
+  if (retainedVersions.has(name)) continue
+  const staleReleaseRoot = resolve(releasesDirectory, name)
+  if (!staleReleaseRoot.startsWith(`${releasesDirectory}${sep}`)) throw new Error(`Unsafe stale release path: ${staleReleaseRoot}`)
+  rmSync(staleReleaseRoot, { recursive: true, force: true })
+}
 
 const duplicateGroups = new Map()
 for (const file of files.values()) {

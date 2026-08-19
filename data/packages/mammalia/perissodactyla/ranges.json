@@ -1,238 +1,664 @@
 [
   {
-    "id": "range:perissodactyla",
+    "id": "range:perissodactyla:global",
     "entityId": "perissodactyla",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Perissodactyla",
+    "geographicScope": "Global or represented navigation composite",
     "olderMa": 56,
     "youngerMa": 0,
     "status": "available",
-    "basis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+    },
+    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
     "confidence": "medium",
-    "referenceIds": [
-      "pnas-2026-perissodactyls",
-      "amnh-perissodactyl-evolution",
-      "open-tree",
-      "pbdb-taxa-2026-07-19"
-    ]
+    "claimIds": [
+      "claim:taxon:perissodactyla"
+    ],
+    "referenceLocators": [
+      {
+        "referenceId": "pnas-2026-perissodactyls",
+        "locator": "doi:10.1073/pnas.2519690122"
+      },
+      {
+        "referenceId": "amnh-perissodactyl-evolution",
+        "locator": "https://research.amnh.org/paleontology/perissodactyl/evolution/intro"
+      },
+      {
+        "referenceId": "amnh-perissodactyl-evidence",
+        "locator": "https://research.amnh.org/paleontology/perissodactyl/evidence/intro"
+      },
+      {
+        "referenceId": "pbdb-api-2016",
+        "locator": "doi:10.1017/pab.2015.39"
+      },
+      {
+        "referenceId": "open-tree",
+        "locator": "https://opentreeoflife.github.io/use"
+      }
+    ],
+    "reviewStatus": "automated-audit-passed"
   },
   {
-    "id": "range:brontotheriidae",
+    "id": "range:brontotheriidae:global",
     "entityId": "brontotheriidae",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Brontotheriidae",
+    "geographicScope": "Global or represented navigation composite",
     "olderMa": 53,
     "youngerMa": 34,
     "status": "available",
-    "basis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+    },
+    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
     "confidence": "medium",
-    "referenceIds": [
-      "open-tree",
-      "pbdb-api-2016",
-      "pbdb-taxa-2026-07-19"
-    ]
+    "claimIds": [
+      "claim:taxon:brontotheriidae"
+    ],
+    "referenceLocators": [
+      {
+        "referenceId": "amnh-brontotheres",
+        "locator": "https://research.amnh.org/paleontology/perissodactyl/evolution/groups/brontotheriidae"
+      },
+      {
+        "referenceId": "pbdb-api-2016",
+        "locator": "doi:10.1017/pab.2015.39"
+      },
+      {
+        "referenceId": "open-tree",
+        "locator": "https://opentreeoflife.github.io/use"
+      }
+    ],
+    "reviewStatus": "automated-audit-passed"
   },
   {
-    "id": "range:hippomorpha",
+    "id": "range:hippomorpha:global",
     "entityId": "hippomorpha",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Hippomorpha",
+    "geographicScope": "Global or represented navigation composite",
     "olderMa": 56,
     "youngerMa": 0,
     "status": "available",
-    "basis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+    },
+    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
     "confidence": "medium",
-    "referenceIds": [
-      "open-tree",
-      "pbdb-api-2016"
-    ]
+    "claimIds": [],
+    "referenceLocators": [
+      {
+        "referenceId": "open-tree",
+        "locator": "https://opentreeoflife.github.io/use"
+      },
+      {
+        "referenceId": "pbdb-api-2016",
+        "locator": "doi:10.1017/pab.2015.39"
+      }
+    ],
+    "reviewStatus": "not-reviewed"
   },
   {
-    "id": "range:palaeotherium",
+    "id": "range:palaeotherium:global",
     "entityId": "palaeotherium",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Palaeotherium",
+    "geographicScope": "Global or represented navigation composite",
     "olderMa": 47.8,
     "youngerMa": 33.9,
     "status": "available",
-    "basis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+    },
+    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
     "confidence": "medium",
-    "referenceIds": [
-      "open-tree",
-      "pbdb-api-2016",
-      "pbdb-taxa-2026-07-19"
-    ]
+    "claimIds": [
+      "claim:taxon:palaeotherium"
+    ],
+    "referenceLocators": [
+      {
+        "referenceId": "amnh-perissodactyl-evolution",
+        "locator": "https://research.amnh.org/paleontology/perissodactyl/evolution/intro"
+      },
+      {
+        "referenceId": "hooker-2004-grande-coupure",
+        "locator": "doi:10.1111/j.1096-3642.2004.00104.x"
+      },
+      {
+        "referenceId": "pbdb-api-2016",
+        "locator": "doi:10.1017/pab.2015.39"
+      },
+      {
+        "referenceId": "open-tree",
+        "locator": "https://opentreeoflife.github.io/use"
+      }
+    ],
+    "reviewStatus": "automated-audit-passed"
   },
   {
-    "id": "range:equidae",
+    "id": "range:equidae:global",
     "entityId": "equidae",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Equidae",
+    "geographicScope": "Global or represented navigation composite",
     "olderMa": 56,
     "youngerMa": 0,
     "status": "available",
-    "basis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+    },
+    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
     "confidence": "medium",
-    "referenceIds": [
-      "open-tree",
-      "pbdb-api-2016",
-      "pbdb-taxa-2026-07-19"
-    ]
+    "claimIds": [],
+    "referenceLocators": [
+      {
+        "referenceId": "open-tree",
+        "locator": "https://opentreeoflife.github.io/use"
+      },
+      {
+        "referenceId": "pbdb-api-2016",
+        "locator": "doi:10.1017/pab.2015.39"
+      }
+    ],
+    "reviewStatus": "not-reviewed"
   },
   {
-    "id": "range:anchitherium",
+    "id": "range:anchitherium:global",
     "entityId": "anchitherium",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Anchitherium",
+    "geographicScope": "Global or represented navigation composite",
     "olderMa": 20.4,
     "youngerMa": 9,
     "status": "available",
-    "basis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+    },
+    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
     "confidence": "medium",
-    "referenceIds": [
-      "open-tree",
-      "pbdb-api-2016",
-      "pbdb-taxa-2026-07-19"
-    ]
+    "claimIds": [
+      "claim:taxon:anchitherium"
+    ],
+    "referenceLocators": [
+      {
+        "referenceId": "amnh-equidae",
+        "locator": "https://research.amnh.org/paleontology/perissodactyl/evolution/groups/equidae"
+      },
+      {
+        "referenceId": "pbdb-api-2016",
+        "locator": "doi:10.1017/pab.2015.39"
+      },
+      {
+        "referenceId": "open-tree",
+        "locator": "https://opentreeoflife.github.io/use"
+      }
+    ],
+    "reviewStatus": "automated-audit-passed"
   },
   {
-    "id": "range:hipparionini",
+    "id": "range:hipparionini:global",
     "entityId": "hipparionini",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Hipparionini",
+    "geographicScope": "Global or represented navigation composite",
     "olderMa": 17,
     "youngerMa": 0.6,
     "status": "available",
-    "basis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+    },
+    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
     "confidence": "medium",
-    "referenceIds": [
-      "open-tree",
-      "pbdb-api-2016",
-      "pbdb-taxa-2026-07-19"
-    ]
+    "claimIds": [
+      "claim:taxon:hipparionini"
+    ],
+    "referenceLocators": [
+      {
+        "referenceId": "mc-horse-monodactyly-2019",
+        "locator": "doi:10.3389/fevo.2019.00119"
+      },
+      {
+        "referenceId": "bernor-2021-hipparions",
+        "locator": "doi:10.1016/j.earscirev.2021.103784"
+      },
+      {
+        "referenceId": "pbdb-api-2016",
+        "locator": "doi:10.1017/pab.2015.39"
+      },
+      {
+        "referenceId": "open-tree",
+        "locator": "https://opentreeoflife.github.io/use"
+      }
+    ],
+    "reviewStatus": "automated-audit-passed"
   },
   {
-    "id": "range:ancylopoda",
+    "id": "range:hipparionini:north-american-tribe-level-range",
+    "entityId": "hipparionini",
+    "rangeKind": "taxon-range",
+    "taxonomicConcept": "Hipparionini",
+    "geographicScope": "North America",
+    "olderMa": 17,
+    "youngerMa": 2,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Endpoint is review-pending."
+    },
+    "evidenceBasis": "The North American hipparionin radiation begins near 17 Ma and the classic four-genus synthesis extends to about 2 Ma; exact endpoints remain pending a revised genus-level synthesis.",
+    "confidence": "contested",
+    "claimIds": [
+      "claim:taxon:hipparionini"
+    ],
+    "referenceLocators": [
+      {
+        "referenceId": "mc-horse-monodactyly-2019",
+        "locator": "doi:10.3389/fevo.2019.00119"
+      }
+    ],
+    "reviewStatus": "automated-audit-passed"
+  },
+  {
+    "id": "range:hipparionini:old-world-first-dispersal",
+    "entityId": "hipparionini",
+    "rangeKind": "dispersal-window",
+    "taxonomicConcept": "Hipparionini",
+    "geographicScope": "Eurasia",
+    "olderMa": 11.4,
+    "youngerMa": 11,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Published regional synthesis; lineage-level endpoints may vary."
+    },
+    "evidenceBasis": "The oldest well-supported Old World dispersal window is represented by early Hippotherium records in the Vienna Basin.",
+    "confidence": "medium",
+    "claimIds": [
+      "claim:taxon:hipparionini"
+    ],
+    "referenceLocators": [
+      {
+        "referenceId": "bernor-2021-hipparions",
+        "locator": "doi:10.1016/j.earscirev.2021.103784"
+      }
+    ],
+    "reviewStatus": "automated-audit-passed"
+  },
+  {
+    "id": "range:hipparionini:latest-old-world-regional-records",
+    "entityId": "hipparionini",
+    "rangeKind": "regional-last-appearance-window",
+    "taxonomicConcept": "Hipparionini",
+    "geographicScope": "East Asia and Africa",
+    "olderMa": 1,
+    "youngerMa": 0.6,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Published regional synthesis; lineage-level endpoints may vary."
+    },
+    "evidenceBasis": "Terminal records vary by lineage and region; the review places the latest Chinese and African hipparionins around or below 1 Ma rather than at the Holocene boundary.",
+    "confidence": "medium",
+    "claimIds": [
+      "claim:taxon:hipparionini"
+    ],
+    "referenceLocators": [
+      {
+        "referenceId": "bernor-2021-hipparions",
+        "locator": "doi:10.1016/j.earscirev.2021.103784"
+      }
+    ],
+    "reviewStatus": "automated-audit-passed"
+  },
+  {
+    "id": "range:ancylopoda:global",
     "entityId": "ancylopoda",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Ancylopoda",
+    "geographicScope": "Global or represented navigation composite",
     "olderMa": 52,
     "youngerMa": 1.8,
     "status": "available",
-    "basis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+    },
+    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
     "confidence": "medium",
-    "referenceIds": [
-      "open-tree",
-      "pbdb-api-2016"
-    ]
+    "claimIds": [],
+    "referenceLocators": [
+      {
+        "referenceId": "open-tree",
+        "locator": "https://opentreeoflife.github.io/use"
+      },
+      {
+        "referenceId": "pbdb-api-2016",
+        "locator": "doi:10.1017/pab.2015.39"
+      }
+    ],
+    "reviewStatus": "not-reviewed"
   },
   {
-    "id": "range:chalicotherium",
+    "id": "range:chalicotherium:global",
     "entityId": "chalicotherium",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Chalicotherium",
+    "geographicScope": "Global or represented navigation composite",
     "olderMa": 15.97,
     "youngerMa": 5.33,
     "status": "available",
-    "basis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+    },
+    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
     "confidence": "medium",
-    "referenceIds": [
-      "open-tree",
-      "pbdb-api-2016",
-      "pbdb-taxa-2026-07-19"
-    ]
+    "claimIds": [
+      "claim:taxon:chalicotherium"
+    ],
+    "referenceLocators": [
+      {
+        "referenceId": "amnh-perissodactyl-evolution",
+        "locator": "https://research.amnh.org/paleontology/perissodactyl/evolution/intro"
+      },
+      {
+        "referenceId": "pbdb-api-2016",
+        "locator": "doi:10.1017/pab.2015.39"
+      },
+      {
+        "referenceId": "open-tree",
+        "locator": "https://opentreeoflife.github.io/use"
+      }
+    ],
+    "reviewStatus": "automated-audit-passed"
   },
   {
-    "id": "range:ceratomorpha",
+    "id": "range:ceratomorpha:global",
     "entityId": "ceratomorpha",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Ceratomorpha",
+    "geographicScope": "Global or represented navigation composite",
     "olderMa": 56,
     "youngerMa": 0,
     "status": "available",
-    "basis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+    },
+    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
     "confidence": "medium",
-    "referenceIds": [
-      "open-tree",
-      "pbdb-api-2016"
-    ]
+    "claimIds": [],
+    "referenceLocators": [
+      {
+        "referenceId": "open-tree",
+        "locator": "https://opentreeoflife.github.io/use"
+      },
+      {
+        "referenceId": "pbdb-api-2016",
+        "locator": "doi:10.1017/pab.2015.39"
+      }
+    ],
+    "reviewStatus": "not-reviewed"
   },
   {
-    "id": "range:tapiroidea",
+    "id": "range:tapiroidea:global",
     "entityId": "tapiroidea",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Tapiroidea",
+    "geographicScope": "Global or represented navigation composite",
     "olderMa": 55,
     "youngerMa": 0,
     "status": "available",
-    "basis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+    },
+    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
     "confidence": "medium",
-    "referenceIds": [
-      "open-tree",
-      "pbdb-api-2016",
-      "pbdb-taxa-2026-07-19"
-    ]
+    "claimIds": [],
+    "referenceLocators": [
+      {
+        "referenceId": "open-tree",
+        "locator": "https://opentreeoflife.github.io/use"
+      },
+      {
+        "referenceId": "pbdb-api-2016",
+        "locator": "doi:10.1017/pab.2015.39"
+      }
+    ],
+    "reviewStatus": "not-reviewed"
   },
   {
-    "id": "range:rhinocerotoidea",
+    "id": "range:rhinocerotoidea:global",
     "entityId": "rhinocerotoidea",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Rhinocerotoidea",
+    "geographicScope": "Global or represented navigation composite",
     "olderMa": 54,
     "youngerMa": 0,
     "status": "available",
-    "basis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+    },
+    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
     "confidence": "medium",
-    "referenceIds": [
-      "open-tree",
-      "pbdb-api-2016",
-      "pbdb-taxa-2026-07-19"
-    ]
+    "claimIds": [],
+    "referenceLocators": [
+      {
+        "referenceId": "open-tree",
+        "locator": "https://opentreeoflife.github.io/use"
+      },
+      {
+        "referenceId": "pbdb-api-2016",
+        "locator": "doi:10.1017/pab.2015.39"
+      }
+    ],
+    "reviewStatus": "not-reviewed"
   },
   {
-    "id": "range:metamynodon",
+    "id": "range:metamynodon:global",
     "entityId": "metamynodon",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Metamynodon",
+    "geographicScope": "Global or represented navigation composite",
     "olderMa": 40.4,
     "youngerMa": 23,
     "status": "available",
-    "basis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+    },
+    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
     "confidence": "medium",
-    "referenceIds": [
-      "open-tree",
-      "pbdb-api-2016",
-      "pbdb-taxa-2026-07-19"
-    ]
+    "claimIds": [
+      "claim:taxon:metamynodon"
+    ],
+    "referenceLocators": [
+      {
+        "referenceId": "amnh-amynodonts",
+        "locator": "https://research.amnh.org/paleontology/perissodactyl/evolution/groups/amynodonts"
+      },
+      {
+        "referenceId": "pbdb-api-2016",
+        "locator": "doi:10.1017/pab.2015.39"
+      },
+      {
+        "referenceId": "open-tree",
+        "locator": "https://opentreeoflife.github.io/use"
+      }
+    ],
+    "reviewStatus": "automated-audit-passed"
   },
   {
-    "id": "range:paraceratherium",
+    "id": "range:paraceratherium:global",
     "entityId": "paraceratherium",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Paraceratherium",
+    "geographicScope": "Global or represented navigation composite",
     "olderMa": 34,
     "youngerMa": 20,
     "status": "available",
-    "basis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+    },
+    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
     "confidence": "medium",
-    "referenceIds": [
-      "open-tree",
-      "pbdb-api-2016",
-      "pbdb-taxa-2026-07-19"
-    ]
+    "claimIds": [
+      "claim:taxon:paraceratherium"
+    ],
+    "referenceLocators": [
+      {
+        "referenceId": "deng-2021-paraceratherium",
+        "locator": "doi:10.1038/s42003-021-02170-6"
+      },
+      {
+        "referenceId": "pbdb-api-2016",
+        "locator": "doi:10.1017/pab.2015.39"
+      },
+      {
+        "referenceId": "open-tree",
+        "locator": "https://opentreeoflife.github.io/use"
+      }
+    ],
+    "reviewStatus": "automated-audit-passed"
   },
   {
-    "id": "range:rhinocerotidae",
+    "id": "range:rhinocerotidae:global",
     "entityId": "rhinocerotidae",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Rhinocerotidae",
+    "geographicScope": "Global or represented navigation composite",
     "olderMa": 40,
     "youngerMa": 0,
     "status": "available",
-    "basis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+    },
+    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
     "confidence": "medium",
-    "referenceIds": [
-      "open-tree",
-      "pbdb-api-2016",
-      "pbdb-taxa-2026-07-19"
-    ]
+    "claimIds": [],
+    "referenceLocators": [
+      {
+        "referenceId": "open-tree",
+        "locator": "https://opentreeoflife.github.io/use"
+      },
+      {
+        "referenceId": "pbdb-api-2016",
+        "locator": "doi:10.1017/pab.2015.39"
+      }
+    ],
+    "reviewStatus": "not-reviewed"
   },
   {
-    "id": "range:teleoceras",
+    "id": "range:teleoceras:global",
     "entityId": "teleoceras",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Teleoceras",
+    "geographicScope": "Global or represented navigation composite",
     "olderMa": 16,
     "youngerMa": 4.5,
     "status": "available",
-    "basis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+    },
+    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
     "confidence": "medium",
-    "referenceIds": [
-      "open-tree",
-      "pbdb-api-2016",
-      "pbdb-taxa-2026-07-19"
-    ]
+    "claimIds": [
+      "claim:taxon:teleoceras"
+    ],
+    "referenceLocators": [
+      {
+        "referenceId": "macfadden-1998-teleoceras",
+        "locator": "doi:10.1666/0094-8373(1998)024[0274:TOTRIE]2.3.CO;2"
+      },
+      {
+        "referenceId": "ward-2024-teleoceras",
+        "locator": "doi:10.1016/j.palaeo.2024.112375"
+      },
+      {
+        "referenceId": "ward-2025-teleoceras",
+        "locator": "doi:10.1038/s41598-025-94263-z"
+      },
+      {
+        "referenceId": "pbdb-api-2016",
+        "locator": "doi:10.1017/pab.2015.39"
+      },
+      {
+        "referenceId": "open-tree",
+        "locator": "https://opentreeoflife.github.io/use"
+      }
+    ],
+    "reviewStatus": "automated-audit-passed"
   },
   {
-    "id": "range:coelodonta",
+    "id": "range:coelodonta:global",
     "entityId": "coelodonta",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Coelodonta",
+    "geographicScope": "Global or represented navigation composite",
     "olderMa": 3.6,
     "youngerMa": 0.014,
     "status": "available",
-    "basis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+    },
+    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
     "confidence": "medium",
-    "referenceIds": [
-      "open-tree",
-      "pbdb-api-2016",
-      "pbdb-taxa-2026-07-19"
-    ]
+    "claimIds": [
+      "claim:taxon:coelodonta"
+    ],
+    "referenceLocators": [
+      {
+        "referenceId": "gudjonsdottir-2026-coelodonta",
+        "locator": "doi:10.1093/gbe/evaf239"
+      },
+      {
+        "referenceId": "liu-2021-rhinoceros-genomes",
+        "locator": "doi:10.1016/j.cell.2021.07.032"
+      },
+      {
+        "referenceId": "pbdb-api-2016",
+        "locator": "doi:10.1017/pab.2015.39"
+      },
+      {
+        "referenceId": "open-tree",
+        "locator": "https://opentreeoflife.github.io/use"
+      }
+    ],
+    "reviewStatus": "automated-audit-passed"
   }
 ]
