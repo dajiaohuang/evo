@@ -1,33 +1,60 @@
 [
   {
     "id": "great-oxidation",
-    "title": "Great Oxidation Event",
-    "titleZh": "大氧化事件",
+    "title": "Great Oxidation interval",
+    "titleZh": "大氧化阶段",
     "category": "transition",
     "startAge": 2450,
     "endAge": 2050,
-    "regions": ["Global"],
-    "clades": ["Bacteria", "Archaea", "early eukaryotic lineages"],
+    "regions": [
+      "Global"
+    ],
+    "clades": [
+      "Bacteria",
+      "Archaea",
+      "early eukaryotic lineages"
+    ],
     "summary": "Atmospheric and oceanic oxygen rose in a prolonged transformation that changed planetary chemistry and the selective environment for life.",
-    "evidence": ["Mass-independent sulfur isotope signal disappears", "Oxidized continental deposits become widespread", "Carbon and sulfur cycles reorganize"],
-    "uncertainties": ["Oxygenation was episodic rather than a single instant", "Local oceans followed different redox histories"],
-    "confidence": "high",
-    "referenceIds": ["lyons-2014-oxygenation", "ics-2026-06"]
+    "evidence": [
+      "Mass-independent sulfur isotope signal disappears",
+      "Oxidized continental deposits become widespread",
+      "Carbon and sulfur cycles reorganize"
+    ],
+    "uncertainties": [
+      "Oxygenation was episodic rather than a single instant",
+      "Local oceans followed different redox histories"
+    ],
+    "claimIds": [
+      "claim:event:great-oxidation"
+    ]
   },
   {
     "id": "ediacaran-biota",
-    "title": "Ediacaran macroscopic life",
-    "titleZh": "埃迪卡拉生物群",
+    "title": "Ediacaran macroscopic ecosystems",
+    "titleZh": "埃迪卡拉宏体生态系统",
     "category": "radiation",
     "startAge": 575,
     "endAge": 538.8,
-    "regions": ["Global marine shelves"],
-    "clades": ["Ediacaran organisms", "early animals"],
+    "regions": [
+      "Global marine shelves"
+    ],
+    "clades": [
+      "Ediacaran organisms",
+      "early animals"
+    ],
     "summary": "Large, complex organisms became conspicuous in late Neoproterozoic seas before the Cambrian diversification of skeletonized animals.",
-    "evidence": ["Body and trace fossils", "Repeated assemblages on multiple continents", "Stratigraphic association with late Ediacaran environments"],
-    "uncertainties": ["Biological affinities of many forms remain disputed", "Preservational windows strongly structure the record"],
-    "confidence": "high",
-    "referenceIds": ["narbonne-2005-ediacara", "ics-2026-06", "pbdb-api-2016"]
+    "evidence": [
+      "Body and trace fossils",
+      "Repeated assemblages on multiple continents",
+      "Stratigraphic association with late Ediacaran environments"
+    ],
+    "uncertainties": [
+      "Biological affinities of many forms remain disputed",
+      "Preservational windows strongly structure the record"
+    ],
+    "claimIds": [
+      "claim:event:ediacaran-biota"
+    ]
   },
   {
     "id": "cambrian-radiation",
@@ -36,58 +63,115 @@
     "category": "radiation",
     "startAge": 538.8,
     "endAge": 520,
-    "regions": ["Global shallow seas"],
-    "clades": ["Arthropoda", "Mollusca", "Brachiopoda", "Chordata"],
+    "regions": [
+      "Global shallow seas"
+    ],
+    "clades": [
+      "Arthropoda",
+      "Mollusca",
+      "Brachiopoda",
+      "Chordata"
+    ],
     "summary": "Animal body plans, ecological interactions and mineralized skeletons expanded rapidly in the early Cambrian fossil record.",
-    "evidence": ["Burgess Shale-type preservation", "Small shelly fossils", "Trace-fossil diversification"],
-    "uncertainties": ["Molecular divergences often predate obvious body fossils", "The apparent tempo depends on sampling and preservation"],
-    "confidence": "high",
-    "referenceIds": ["erwin-2011-cambrian", "ics-2026-06", "pbdb-api-2016"]
+    "evidence": [
+      "Burgess Shale-type preservation",
+      "Small shelly fossils",
+      "Trace-fossil diversification"
+    ],
+    "uncertainties": [
+      "Molecular divergences often predate obvious body fossils",
+      "The apparent tempo depends on sampling and preservation"
+    ],
+    "claimIds": [
+      "claim:event:cambrian-radiation"
+    ]
   },
   {
     "id": "ordovician-biodiversification",
     "title": "Great Ordovician Biodiversification",
     "titleZh": "奥陶纪生物多样化",
     "category": "radiation",
-    "startAge": 485.4,
+    "startAge": 486.85,
     "endAge": 460,
-    "regions": ["Global oceans"],
-    "clades": ["Brachiopoda", "Bryozoa", "Mollusca", "Echinodermata"],
+    "regions": [
+      "Global oceans"
+    ],
+    "clades": [
+      "Brachiopoda",
+      "Bryozoa",
+      "Mollusca",
+      "Echinodermata"
+    ],
     "summary": "Marine taxonomic and ecological diversity increased across many groups, building more complex Paleozoic ecosystems.",
-    "evidence": ["Rising genus and family richness", "Expansion of reef and tiering structures", "Broad geographic recurrence"],
-    "uncertainties": ["Regional pulses are asynchronous", "Observed richness is sensitive to rock and collection availability"],
-    "confidence": "high",
-    "referenceIds": ["servais-2010-gobe", "ics-2026-06", "pbdb-api-2016"]
+    "evidence": [
+      "Rising genus and family richness",
+      "Expansion of reef and tiering structures",
+      "Broad geographic recurrence"
+    ],
+    "uncertainties": [
+      "Regional pulses are asynchronous",
+      "Observed richness is sensitive to rock and collection availability"
+    ],
+    "claimIds": [
+      "claim:event:ordovician-biodiversification"
+    ]
   },
   {
     "id": "plants-on-land",
-    "title": "Plants colonize land",
-    "titleZh": "植物登陆",
+    "title": "Early land-plant diversification (composite)",
+    "titleZh": "早期陆生植物多样化（复合事件）",
     "category": "transition",
     "startAge": 470,
     "endAge": 420,
-    "regions": ["Lowland terrestrial environments"],
-    "clades": ["Embryophyta", "early vascular plants"],
+    "regions": [
+      "Lowland terrestrial environments"
+    ],
+    "clades": [
+      "Embryophyta",
+      "early vascular plants"
+    ],
     "summary": "Spores, cuticles and plant bodies record the establishment and diversification of terrestrial vegetation.",
-    "evidence": ["Cryptospores", "Vascular plant macrofossils", "Rooting and soil-development signals"],
-    "uncertainties": ["The earliest stages are represented mostly by dispersed microfossils", "Definitions of crown and stem groups affect timing"],
-    "confidence": "high",
-    "referenceIds": ["morris-2018-land-plants", "ics-2026-06", "pbdb-api-2016"]
+    "evidence": [
+      "Cryptospores",
+      "Vascular plant macrofossils",
+      "Rooting and soil-development signals"
+    ],
+    "uncertainties": [
+      "This composite window conflates lineage divergence, cryptospore evidence and later vascular-plant ecosystem expansion",
+      "The earliest stages are represented mostly by dispersed microfossils",
+      "Definitions of crown and stem groups affect timing"
+    ],
+    "claimIds": [
+      "claim:event:plants-on-land"
+    ]
   },
   {
     "id": "tetrapods-on-land",
-    "title": "Tetrapods move onto land",
-    "titleZh": "四足动物登陆",
+    "title": "Fish–tetrapod transition and terrestrialization",
+    "titleZh": "鱼类—四足动物转型与陆地化",
     "category": "transition",
     "startAge": 385,
     "endAge": 350,
-    "regions": ["Devonian and Carboniferous wetlands"],
-    "clades": ["Tetrapodomorpha", "Tetrapoda"],
+    "regions": [
+      "Devonian and Carboniferous wetlands"
+    ],
+    "clades": [
+      "Tetrapodomorpha",
+      "Tetrapoda"
+    ],
     "summary": "A mosaic transition from finned aquatic vertebrates to limbed tetrapods unfolded across freshwater and marginal habitats.",
-    "evidence": ["Limb and girdle transformations", "Trackways", "Skulls combining aquatic and terrestrial features"],
-    "uncertainties": ["Limbs initially evolved in animals that remained substantially aquatic", "Trackway and body-fossil records do not align perfectly"],
-    "confidence": "high",
-    "referenceIds": ["clack-2009-tetrapods", "ics-2026-06", "pbdb-api-2016"]
+    "evidence": [
+      "Limb and girdle transformations",
+      "Trackways",
+      "Skulls combining aquatic and terrestrial features"
+    ],
+    "uncertainties": [
+      "Limbs initially evolved in animals that remained substantially aquatic",
+      "Trackway and body-fossil records do not align perfectly"
+    ],
+    "claimIds": [
+      "claim:event:tetrapods-on-land"
+    ]
   },
   {
     "id": "amniote-divergence",
@@ -96,13 +180,26 @@
     "category": "origin",
     "startAge": 320,
     "endAge": 300,
-    "regions": ["Equatorial Pangaea"],
-    "clades": ["Synapsida", "Sauropsida"],
+    "regions": [
+      "Equatorial Pangaea"
+    ],
+    "clades": [
+      "Synapsida",
+      "Sauropsida"
+    ],
     "summary": "Early amniotes split into the major lineages that would later produce mammals and reptiles, including birds.",
-    "evidence": ["Diagnostic skull openings", "Reproductive and skeletal adaptations inferred from phylogeny", "Carboniferous body fossils"],
-    "uncertainties": ["The earliest members are rare", "Exact divergence dates depend on tree calibration"],
-    "confidence": "medium",
-    "referenceIds": ["ford-2020-amniote", "open-tree", "pbdb-api-2016"]
+    "evidence": [
+      "Diagnostic skull openings",
+      "Reproductive and skeletal adaptations inferred from phylogeny",
+      "Carboniferous body fossils"
+    ],
+    "uncertainties": [
+      "The earliest members are rare",
+      "Exact divergence dates depend on tree calibration"
+    ],
+    "claimIds": [
+      "claim:event:amniote-divergence"
+    ]
   },
   {
     "id": "end-permian-extinction",
@@ -110,29 +207,58 @@
     "titleZh": "二叠纪末大灭绝",
     "category": "extinction",
     "startAge": 252.1,
-    "endAge": 251.8,
-    "regions": ["Global"],
-    "clades": ["Marine invertebrates", "Synapsida", "terrestrial plants"],
+    "endAge": 251.902,
+    "regions": [
+      "Global"
+    ],
+    "clades": [
+      "Marine invertebrates",
+      "Synapsida",
+      "terrestrial plants"
+    ],
     "summary": "The most severe known Phanerozoic biotic crisis reorganized marine and terrestrial ecosystems near the Permian–Triassic boundary.",
-    "evidence": ["Abrupt fossil range terminations", "Carbon-isotope excursion", "Volcanic and warming proxies"],
-    "uncertainties": ["Kill mechanisms interacted across ocean and land", "Regional ecological collapse and recovery were asynchronous"],
-    "confidence": "high",
-    "referenceIds": ["burgess-2014-end-permian", "ics-2026-06", "pbdb-api-2016"]
+    "evidence": [
+      "Abrupt fossil range terminations",
+      "Carbon-isotope excursion",
+      "Volcanic and warming proxies"
+    ],
+    "uncertainties": [
+      "Kill mechanisms interacted across ocean and land",
+      "Regional ecological collapse and recovery were asynchronous"
+    ],
+    "claimIds": [
+      "claim:event:end-permian-extinction"
+    ]
   },
   {
     "id": "triassic-recovery",
     "title": "Triassic ecological recovery",
     "titleZh": "三叠纪生态恢复",
     "category": "radiation",
-    "startAge": 251.9,
+    "startAge": 251.902,
     "endAge": 235,
-    "regions": ["Pangaea", "Tethys Ocean"],
-    "clades": ["Archosauromorpha", "marine reptiles", "modern-style marine guilds"],
+    "regions": [
+      "Pangaea",
+      "Tethys Ocean"
+    ],
+    "clades": [
+      "Archosauromorpha",
+      "marine reptiles",
+      "modern-style marine guilds"
+    ],
     "summary": "Ecosystems rebuilt in multiple pulses after the end-Permian crisis, eventually supporting new marine and terrestrial radiations.",
-    "evidence": ["Changing food-web structure", "New reptile radiations", "Recovery of reef and pelagic systems"],
-    "uncertainties": ["Recovery duration differs by metric and region", "Repeated Early Triassic environmental stress delayed some communities"],
-    "confidence": "high",
-    "referenceIds": ["chen-2012-triassic-recovery", "ics-2026-06", "pbdb-api-2016"]
+    "evidence": [
+      "Changing food-web structure",
+      "New reptile radiations",
+      "Recovery of reef and pelagic systems"
+    ],
+    "uncertainties": [
+      "Recovery duration differs by metric and region",
+      "Repeated Early Triassic environmental stress delayed some communities"
+    ],
+    "claimIds": [
+      "claim:event:triassic-recovery"
+    ]
   },
   {
     "id": "dinosaur-radiation",
@@ -141,13 +267,27 @@
     "category": "radiation",
     "startAge": 235,
     "endAge": 200,
-    "regions": ["Pangaea"],
-    "clades": ["Dinosauria", "Pterosauria", "Crocodylomorpha"],
+    "regions": [
+      "Pangaea"
+    ],
+    "clades": [
+      "Dinosauria",
+      "Pterosauria",
+      "Crocodylomorpha"
+    ],
     "summary": "Dinosaurs emerged within a broader archosaur radiation and became ecologically dominant only through a prolonged Triassic-to-Jurassic transition.",
-    "evidence": ["Body fossils", "Trackway assemblages", "Phylogenetic distribution of character states"],
-    "uncertainties": ["Earliest dinosaur identifications are contested", "Dominance followed origin by millions of years"],
-    "confidence": "high",
-    "referenceIds": ["brusatte-2010-dinosaur-radiation", "open-tree", "pbdb-api-2016"]
+    "evidence": [
+      "Body fossils",
+      "Trackway assemblages",
+      "Phylogenetic distribution of character states"
+    ],
+    "uncertainties": [
+      "Earliest dinosaur identifications are contested",
+      "Dominance followed origin by millions of years"
+    ],
+    "claimIds": [
+      "claim:event:dinosaur-radiation"
+    ]
   },
   {
     "id": "angiosperm-expansion",
@@ -156,13 +296,26 @@
     "category": "radiation",
     "startAge": 135,
     "endAge": 90,
-    "regions": ["Global terrestrial environments"],
-    "clades": ["Angiospermae", "pollinating insects"],
+    "regions": [
+      "Global terrestrial environments"
+    ],
+    "clades": [
+      "Angiospermae",
+      "pollinating insects"
+    ],
     "summary": "Flowering plants expanded in diversity and ecological importance through the Cretaceous, reshaping terrestrial communities.",
-    "evidence": ["Pollen record", "Leaves and reproductive structures", "Insect–plant associations"],
-    "uncertainties": ["Crown-group origin may predate abundant diagnostic fossils", "Ecological dominance was geographically uneven"],
-    "confidence": "high",
-    "referenceIds": ["magallon-2015-angiosperms", "open-tree", "pbdb-api-2016"]
+    "evidence": [
+      "Pollen record",
+      "Leaves and reproductive structures",
+      "Insect–plant associations"
+    ],
+    "uncertainties": [
+      "Crown-group origin may predate abundant diagnostic fossils",
+      "Ecological dominance was geographically uneven"
+    ],
+    "claimIds": [
+      "claim:event:angiosperm-expansion"
+    ]
   },
   {
     "id": "k-pg-extinction",
@@ -171,43 +324,90 @@
     "category": "extinction",
     "startAge": 66.1,
     "endAge": 65.9,
-    "regions": ["Global"],
-    "clades": ["Non-avian Dinosauria", "Ammonitida", "marine plankton", "Mammalia", "Aves"],
+    "regions": [
+      "Global"
+    ],
+    "clades": [
+      "Non-avian Dinosauria",
+      "Ammonitida",
+      "marine plankton",
+      "Mammalia",
+      "Aves"
+    ],
     "summary": "An impact-driven global crisis ended the non-avian dinosaurs and many marine groups while opening ecological space for surviving lineages.",
-    "evidence": ["Iridium-rich boundary layer", "Chicxulub crater", "Abrupt fossil turnover"],
-    "uncertainties": ["Deccan volcanism contributed background environmental stress", "Survival and recovery patterns varied among regions and clades"],
-    "confidence": "high",
-    "referenceIds": ["alvarez-1980-kpg", "ics-2026-06", "pbdb-api-2016"]
+    "evidence": [
+      "Iridium-rich boundary layer",
+      "Chicxulub crater",
+      "Abrupt fossil turnover"
+    ],
+    "uncertainties": [
+      "Deccan volcanism contributed background environmental stress",
+      "Survival and recovery patterns varied among regions and clades"
+    ],
+    "claimIds": [
+      "claim:event:k-pg-extinction"
+    ]
   },
   {
     "id": "petm",
     "title": "Paleocene–Eocene Thermal Maximum",
     "titleZh": "古新世—始新世极热事件",
     "category": "climate",
-    "startAge": 56.0,
+    "startAge": 56,
     "endAge": 55.8,
-    "regions": ["Global"],
-    "clades": ["Mammalia", "marine plankton", "benthic foraminifera"],
+    "regions": [
+      "Global"
+    ],
+    "clades": [
+      "Mammalia",
+      "marine plankton",
+      "benthic foraminifera"
+    ],
     "summary": "A geologically rapid carbon release and warming interval coincided with major migrations, body-size shifts and marine turnover.",
-    "evidence": ["Negative carbon-isotope excursion", "Deep-sea benthic extinction", "Poleward biogeographic shifts"],
-    "uncertainties": ["Carbon sources and release pacing remain debated", "Onset and recovery durations depend on archive resolution"],
-    "confidence": "high",
-    "referenceIds": ["mcinerney-2011-petm", "ics-2026-06", "pbdb-api-2016"]
+    "evidence": [
+      "Negative carbon-isotope excursion",
+      "Deep-sea benthic extinction",
+      "Poleward biogeographic shifts"
+    ],
+    "uncertainties": [
+      "Carbon sources and release pacing remain debated",
+      "Onset and recovery durations depend on archive resolution"
+    ],
+    "claimIds": [
+      "claim:event:petm"
+    ]
   },
   {
     "id": "perissodactyl-radiation",
-    "title": "Perissodactyl radiation",
-    "titleZh": "奇蹄目辐射",
+    "title": "Early Eocene perissodactyl radiation and dispersal",
+    "titleZh": "早始新世奇蹄目辐射与扩散",
     "category": "radiation",
     "startAge": 56,
     "endAge": 45,
-    "regions": ["Asia", "Europe", "North America"],
-    "clades": ["Perissodactyla", "Equoidea", "Ceratomorpha", "Brontotheriidae"],
+    "regions": [
+      "Asia",
+      "Europe",
+      "North America"
+    ],
+    "clades": [
+      "Perissodactyla",
+      "Equoidea",
+      "Ceratomorpha",
+      "Brontotheriidae"
+    ],
     "summary": "Odd-toed ungulates appeared and rapidly diversified into many of the dominant large-herbivore roles of Eocene northern continents.",
-    "evidence": ["Rapid early Eocene occurrence expansion", "Diverse dental and locomotor morphologies", "Intercontinental first appearances"],
-    "uncertainties": ["The precise ancestral group and relationships of early branches remain debated", "First appearances reflect sampling as well as evolution"],
-    "confidence": "high",
-    "referenceIds": ["amnh-perissodactyl-evolution", "amnh-perissodactyl-evidence", "pbdb-api-2016"]
+    "evidence": [
+      "Rapid early Eocene occurrence expansion",
+      "Diverse dental and locomotor morphologies",
+      "Intercontinental first appearances"
+    ],
+    "uncertainties": [
+      "The precise ancestral group and relationships of early branches remain debated",
+      "First appearances reflect sampling as well as evolution"
+    ],
+    "claimIds": [
+      "claim:event:perissodactyl-radiation"
+    ]
   },
   {
     "id": "eocene-oligocene-transition",
@@ -216,13 +416,29 @@
     "category": "climate",
     "startAge": 34.2,
     "endAge": 33.5,
-    "regions": ["Global", "Europe", "Antarctica"],
-    "clades": ["Perissodactyla", "Artiodactyla", "marine plankton"],
+    "regions": [
+      "Global",
+      "Europe",
+      "Antarctica"
+    ],
+    "clades": [
+      "Perissodactyla",
+      "Artiodactyla",
+      "marine plankton"
+    ],
     "summary": "Global cooling, Antarctic glaciation and habitat reorganization coincided with major mammalian and marine faunal turnover.",
-    "evidence": ["Marine oxygen-isotope shift", "Antarctic ice-volume proxies", "European Grande Coupure turnover"],
-    "uncertainties": ["Immigration, climate and habitat change contributed differently by region", "Ecological replacement was not a simple one-to-one competition"],
-    "confidence": "high",
-    "referenceIds": ["coxall-2005-eot", "hooker-2004-grande-coupure", "ics-2026-06", "amnh-perissodactyl-evolution", "pbdb-api-2016"]
+    "evidence": [
+      "Marine oxygen-isotope shift",
+      "Antarctic ice-volume proxies",
+      "European Grande Coupure turnover"
+    ],
+    "uncertainties": [
+      "Immigration, climate and habitat change contributed differently by region",
+      "Ecological replacement was not a simple one-to-one competition"
+    ],
+    "claimIds": [
+      "claim:event:eocene-oligocene-transition"
+    ]
   },
   {
     "id": "c4-grassland-expansion",
@@ -231,13 +447,31 @@
     "category": "transition",
     "startAge": 10,
     "endAge": 5,
-    "regions": ["Africa", "Asia", "North America", "South America"],
-    "clades": ["Poaceae", "Bovidae", "Equidae", "Rodentia"],
+    "regions": [
+      "Africa",
+      "Asia",
+      "North America",
+      "South America"
+    ],
+    "clades": [
+      "Poaceae",
+      "Bovidae",
+      "Equidae",
+      "Rodentia"
+    ],
     "summary": "C4-dominated grasslands expanded in several regions, restructuring herbivore diets and open-habitat communities.",
-    "evidence": ["Stable carbon isotopes in soils and teeth", "Grass phytoliths", "Dental adaptation and faunal turnover"],
-    "uncertainties": ["Expansion timing varies substantially among continents", "Open habitats existed before widespread C4 dominance"],
-    "confidence": "high",
-    "referenceIds": ["cerling-1997-c4", "pbdb-api-2016"]
+    "evidence": [
+      "Stable carbon isotopes in soils and teeth",
+      "Grass phytoliths",
+      "Dental adaptation and faunal turnover"
+    ],
+    "uncertainties": [
+      "Expansion timing varies substantially among continents",
+      "Open habitats existed before widespread C4 dominance"
+    ],
+    "claimIds": [
+      "claim:event:c4-grassland-expansion"
+    ]
   },
   {
     "id": "quaternary-megafauna-extinction",
@@ -246,27 +480,87 @@
     "category": "extinction",
     "startAge": 0.126,
     "endAge": 0.01,
-    "regions": ["Australia", "Eurasia", "North America", "South America"],
-    "clades": ["Mammalia", "Aves"],
+    "regions": [
+      "Australia",
+      "Eurasia",
+      "North America",
+      "South America"
+    ],
+    "clades": [
+      "Mammalia",
+      "Aves"
+    ],
     "summary": "Large-bodied vertebrates disappeared in geographically staggered waves during the late Quaternary.",
-    "evidence": ["Radiometric last-appearance records", "Archaeological association", "Paleoenvironmental archives"],
-    "uncertainties": ["Relative effects of human pressure and climate vary by continent", "Last-appearance dates underestimate true extinction when sampling is sparse"],
-    "confidence": "high",
-    "referenceIds": ["sandom-2014-megafauna", "ics-2026-06", "pbdb-api-2016"]
+    "evidence": [
+      "Radiometric last-appearance records",
+      "Archaeological association",
+      "Paleoenvironmental archives"
+    ],
+    "uncertainties": [
+      "Relative effects of human pressure and climate vary by continent",
+      "Last-appearance dates underestimate true extinction when sampling is sparse"
+    ],
+    "claimIds": [
+      "claim:event:quaternary-megafauna-extinction"
+    ]
   },
   {
-    "id": "homo-dispersal",
-    "title": "Hominin dispersals",
-    "titleZh": "人属扩散",
+    "id": "early-homo-dispersal",
+    "title": "Early Homo Eurasian dispersals",
+    "titleZh": "早期人属向欧亚扩散",
     "category": "dispersal",
     "startAge": 2,
-    "endAge": 0.05,
-    "regions": ["Africa", "Eurasia", "Australasia"],
-    "clades": ["Homo"],
-    "summary": "Multiple hominin populations expanded beyond Africa at different times, producing repeated contact, replacement and admixture.",
-    "evidence": ["Fossils", "Stone-tool assemblages", "Ancient and modern genomes"],
-    "uncertainties": ["Sparse fossils leave route and population identity uncertain", "Dispersal was a series of events rather than one migration"],
-    "confidence": "high",
-    "referenceIds": ["anton-2014-early-homo", "pbdb-api-2016", "open-tree"]
+    "endAge": 0.3,
+    "regions": [
+      "Africa",
+      "Eurasia"
+    ],
+    "clades": [
+      "Homo"
+    ],
+    "summary": "Early Homo populations expanded into Eurasia in multiple episodes that remain incompletely resolved by fossils and archaeology.",
+    "evidence": [
+      "Fossils",
+      "Stone-tool assemblages",
+      "Regional chronologies"
+    ],
+    "uncertainties": [
+      "Sparse fossils leave route and population identity uncertain",
+      "Dispersal was a series of events rather than one migration"
+    ],
+    "claimIds": [
+      "claim:event:early-homo-dispersal"
+    ]
+  },
+  {
+    "id": "homo-sapiens-admixture",
+    "title": "Homo sapiens dispersal and archaic admixture",
+    "titleZh": "智人扩散与古老人群基因交流",
+    "category": "dispersal",
+    "startAge": 0.3,
+    "endAge": 0.04,
+    "regions": [
+      "Africa",
+      "Eurasia",
+      "Australasia"
+    ],
+    "clades": [
+      "Homo sapiens",
+      "Homo neanderthalensis",
+      "Denisovans"
+    ],
+    "summary": "Later Homo sapiens dispersals included contact and gene flow with Neanderthal and Denisovan populations.",
+    "evidence": [
+      "Ancient nuclear genomes",
+      "Modern human introgressed segments",
+      "Archaeological and fossil context"
+    ],
+    "uncertainties": [
+      "Dates, routes and the number of contact episodes remain model-dependent",
+      "Genetic contact is not equivalent to one migration event"
+    ],
+    "claimIds": [
+      "claim:event:homo-sapiens-admixture"
+    ]
   }
 ]

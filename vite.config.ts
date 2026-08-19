@@ -24,7 +24,7 @@ export default defineConfig({
         ],
       },
       workbox: {
-        globPatterns: ['**/*.{html,css,svg}', 'assets/index-*.js', 'assets/workbox-window*.js', 'data/current.json', 'data/core/*.json.gz'],
+        globPatterns: ['**/*.{html,css,svg}', 'assets/index-*.js', 'assets/rolldown-runtime-*.js', 'assets/vendor~index-*.js', 'assets/vendor~index~*.js', 'assets/vendor~workbox-window*.js', 'data/current.json', 'data/core/*.json.gz'],
         navigateFallback: '/evo/index.html',
         cleanupOutdatedCaches: true,
         runtimeCaching: [
@@ -51,4 +51,13 @@ export default defineConfig({
     }),
   ],
   base: '/evo/',
+  build: {
+    rolldownOptions: {
+      output: {
+        codeSplitting: {
+          groups: [{ name: 'vendor', test: /node_modules[\\/]/, entriesAware: true }],
+        },
+      },
+    },
+  },
 })

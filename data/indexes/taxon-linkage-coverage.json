@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "generatedFrom": [
+    "data/navigation/atlas-ontology.json",
+    "data/sources/pbdb-taxon-resolution.json",
+    "data/fossils/*.json"
+  ],
+  "scope": "Bundled bounded occurrence sample only; this is linkage coverage, not biological coverage or sampling completeness.",
+  "sourceTotal": 13600,
+  "linkedOccurrenceTotal": 11673,
+  "linkedOccurrenceRate": 0.858309,
+  "unmatchedOccurrenceTotal": 1927,
+  "indexedOntologyNodes": 127,
+  "profileTotals": {
+    "perissodactyla": 154,
+    "brontotheriidae": 0,
+    "palaeotherium": 0,
+    "metamynodon": 0,
+    "paraceratherium": 0,
+    "chalicotherium": 3,
+    "anchitherium": 0,
+    "hipparionini": 0,
+    "teleoceras": 0,
+    "coelodonta": 0
+  },
+  "zeroMatchProfiles": [
+    "brontotheriidae",
+    "palaeotherium",
+    "metamynodon",
+    "paraceratherium",
+    "anchitherium",
+    "hipparionini",
+    "teleoceras",
+    "coelodonta"
+  ]
+}

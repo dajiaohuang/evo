@@ -40,8 +40,8 @@ describe('local fossil chunks', () => {
   it('distinguishes exact taxon rows from the represented descendant closure', async () => {
     const descendants = await getFossilsByTaxon('txn:40700', 'descendants')
     const exact = await getFossilsByTaxon('txn:40700', 'exact')
-    expect(descendants.records).toHaveLength(2)
-    expect(descendants.loadedPeriods).toEqual(['Quaternary'])
+    expect(descendants.records).toHaveLength(42)
+    expect(descendants.loadedPeriods).toEqual(['Neogene', 'Quaternary'])
     expect(descendants.truncated).toBe(false)
     expect(descendants).toMatchObject({ indexStatus: 'hit', effectiveScope: 'descendants', fallbackApplied: false })
     expect(exact.records).toHaveLength(0)

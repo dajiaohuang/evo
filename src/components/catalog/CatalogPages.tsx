@@ -211,6 +211,22 @@ export function TaxonPage({ id, onNavigate }: CatalogPageProps) {
             <span className="section-label">{t('01 / Evolution')}</span>
             <h2>{t('Time-calibrated evidence, kept separate from fossil ranges')}</h2>
             <DivergenceLedger profileId={profile.id} />
+            {profile.regionalRanges && profile.regionalRanges.length > 0 && (
+              <>
+                <h2>{t('Regional and concept-specific ranges')}</h2>
+                <div className="statement-grid">
+                  {profile.regionalRanges.map((range) => (
+                    <article key={`${range.label}-${range.region}`}>
+                      <span>{t(range.rangeKind)}</span>
+                      <strong>{t(range.label)}</strong>
+                      <p>{t(range.region)} · {formatAge(range.olderMa, t('Present'))}—{formatAge(range.youngerMa, t('Present'))}</p>
+                      <p>{t(range.basis)}</p>
+                      <ConfidenceBadge level={range.confidence} />
+                    </article>
+                  ))}
+                </div>
+              </>
+            )}
           </section>
 
           <section id="ecology" className="catalog-section">
@@ -247,7 +263,7 @@ export function TaxonPage({ id, onNavigate }: CatalogPageProps) {
             <span className="section-label">{t('05 / Museum media')}</span>
             <h2>{t('Specimens and reconstructions at their source')}</h2>
             <div className="media-ledger">
-              {media.map((asset) => <a key={asset.id} href={asset.sourceUrl} target="_blank" rel="noreferrer"><span>{t(asset.type.replace('-', ' '))}</span><strong>{t(asset.title)}</strong><small>{asset.sourceName}</small><p>{t(asset.licenseNote)}</p><i>↗</i></a>)}
+              {media.map((asset) => <a key={asset.id} href={asset.sourceUrl} target="_blank" rel="noreferrer"><span>{t(asset.type.replace('-', ' '))}</span><strong>{t(asset.title)}</strong><small>{asset.sourceName} · {asset.subjectScope}</small><p>{language === 'zh' ? asset.captionZh : asset.caption}</p><p>{t(asset.licenseNote)}</p><i>↗</i></a>)}
             </div>
           </section>
 
@@ -376,6 +392,18 @@ export function StoriesPage({ id, onNavigate }: CatalogPageProps) {
   const { language, t } = useI18n()
   const story = getEvolutionStory(id)
   if (!story) return <StoryDirectory onNavigate={onNavigate} />
+  if (story.evidenceStatus === 'blocked-pending-step-evidence') {
+    return (
+      <main className={`catalog-page story-reader story-reader--${story.theme}`}>
+        <header className="story-reader__hero">
+          <button className="story-back" onClick={() => onNavigate('stories')}>← {t('All stories')}</button>
+          <span className="section-label">{t('Story withheld')}</span>
+          <h1>{language === 'zh' ? story.titleZh : story.title}</h1>
+          <p>{t('This story is not published because one or more steps lack claim-level scientific evidence.')}</p>
+        </header>
+      </main>
+    )
+  }
 
   return (
     <main className={`catalog-page story-reader story-reader--${story.theme}`}>
@@ -384,6 +412,7 @@ export function StoriesPage({ id, onNavigate }: CatalogPageProps) {
         <span className="section-label">{t('Field story / {minutes} min', { minutes: story.durationMinutes })}</span>
         <h1>{language === 'zh' ? story.titleZh : story.title}</h1>
         <p>{t(story.dek)}</p>
+        <p className="catalog-query-state">{t('Available with limitations: every step links to a reviewed claim, but the story remains an editorial synthesis.')}</p>
       </header>
 
       <div className="story-sequence">
@@ -412,8 +441,8 @@ export function StoriesPage({ id, onNavigate }: CatalogPageProps) {
             <aside className="story-step__meta">
               <span>{t('Window')}</span>
               <strong>{formatAge(step.timeRange[0], t('Present'))}<br />{formatAge(step.timeRange[1], t('Present'))}</strong>
-              <span>{t('References')}</span>
-              <strong>{step.referenceIds.length}</strong>
+              <span>{t('Evidence claims')}</span>
+              <strong>{step.claimLinks.length}</strong>
             </aside>
           </article>
         ))}
@@ -432,7 +461,7 @@ function StoryDirectory({ onNavigate }: { onNavigate: CatalogPageProps['onNaviga
         <p>{t('Every chapter is a real Explorer state with a time window, primary view, highlighted evidence and reference set.')}</p>
       </header>
       <div className="story-directory">
-        {evolutionStories.map((story, index) => (
+        {evolutionStories.filter((story) => story.evidenceStatus === 'available-with-limitations').map((story, index) => (
           <button key={story.id} className={`story-directory__card story-directory__card--${story.theme}`} onClick={() => onNavigate('stories', { id: story.id })}>
             <div className="story-directory__top"><span>{String(index + 1).padStart(2, '0')}</span><small>{story.durationMinutes} {language === 'zh' ? '分钟' : 'min'}</small></div>
             <div><h2>{language === 'zh' ? story.titleZh : story.title}</h2><p>{t(story.dek)}</p></div>

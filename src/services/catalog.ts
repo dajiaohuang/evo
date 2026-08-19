@@ -7,6 +7,7 @@ import placesData from '../../data/places.json'
 import perissodactylCalibrationsData from '../../data/packages/mammalia/perissodactyla/phylogeny/calibrations.json'
 import perissodactylHypothesisData from '../../data/packages/mammalia/perissodactyla/phylogeny/hypothesis.json'
 import mediaData from '../../data/media.json'
+import evidenceClaimsData from '../../data/evidence/claims.json'
 import type {
   EvolutionEvent,
   EvolutionStory,
@@ -16,13 +17,25 @@ import type {
   PlaceRecord,
   DivergenceEstimate,
   MediaAsset,
+  EvidenceClaim,
 } from '../types/catalog'
 import type { TreeNode } from '../types/tree'
 import { periods } from './geology'
 
 export const taxonProfiles = profilesData as TaxonProfile[]
-export const evolutionEvents = eventsData as EvolutionEvent[]
-export const evolutionStories = storiesData as EvolutionStory[]
+const evidenceClaimById = new Map((evidenceClaimsData as EvidenceClaim[]).map((claim) => [claim.id, claim]))
+export const evolutionEvents = eventsData.map((event) => {
+  const eventClaims = event.claimIds.flatMap((claimId) => {
+    const claim = evidenceClaimById.get(claimId)
+    return claim ? [claim] : []
+  })
+  return {
+    ...event,
+    confidence: eventClaims[0]?.confidence ?? 'low',
+    referenceIds: [...new Set(eventClaims.flatMap((claim) => claim.referenceLinks.map((link) => link.referenceId)))],
+  }
+}) as EvolutionEvent[]
+export const evolutionStories = (storiesData as EvolutionStory[]).filter((story) => story.evidenceStatus === 'available-with-limitations')
 export const references = referencesData as ReferenceRecord[]
 export const places = placesData as PlaceRecord[]
 export const perissodactylCalibrations = perissodactylCalibrationsData.estimates as DivergenceEstimate[]

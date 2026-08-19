@@ -1,11 +1,15 @@
 import timeScaleData from '../../data/time-scale.json'
 import periodMetadataData from '../../data/period-map-metadata.json'
-import type { GeoInterval, PeriodInfo } from '../types'
+import type { ChronostratigraphicBoundary, GeoInterval, PeriodInfo } from '../types'
 
 interface TimeScaleData {
   schemaVersion: number
   version: string
+  officialVersion: string
+  source: { referenceId: string; publisher: string; url: string; accessedAt: string }
+  boundaryPolicy: string
   earthAgeMa: number
+  boundaries: ChronostratigraphicBoundary[]
   units: GeoInterval[]
 }
 

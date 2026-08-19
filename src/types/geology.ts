@@ -1,3 +1,13 @@
+export interface ChronostratigraphicBoundary {
+  id: string;
+  officialVersion: string;
+  valueMa: number;
+  uncertaintyMa: number | null;
+  approximate: boolean;
+  definitionType: 'GSSP' | 'GSSA' | 'chronometric boundary' | 'Earth-age reference' | 'present';
+  sourceLocator: string;
+}
+
 export interface GeoInterval {
   oid: string;
   nam: string;

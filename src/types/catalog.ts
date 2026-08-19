@@ -1,11 +1,11 @@
-export type ConfidenceLevel = 'high' | 'medium' | 'low'
+export type ConfidenceLevel = 'high' | 'medium' | 'low' | 'contested'
 
 export interface ReferenceRecord {
   id: string
   title: string
   authors: string
   publishedYear?: number
-  type: 'paper' | 'database' | 'standard' | 'museum' | 'documentation'
+  type: 'paper' | 'database' | 'dataset' | 'standard' | 'museum' | 'documentation'
   url: string
   doi?: string
   accessedAt?: string
@@ -29,6 +29,16 @@ export interface TaxonProfile {
   firstAppearance: number
   lastAppearance: number
   geography: string[]
+  regionalRanges?: Array<{
+    label: string
+    region: string
+    rangeKind: 'taxon-range' | 'dispersal-window' | 'regional-last-appearance-window'
+    olderMa: number
+    youngerMa: number
+    basis: string
+    confidence: ConfidenceLevel
+    referenceIds: string[]
+  }>
   overview: string
   ecology: {
     diet: string
@@ -55,6 +65,7 @@ export interface EvolutionEvent {
   summary: string
   evidence: string[]
   uncertainties: string[]
+  claimIds: string[]
   confidence: ConfidenceLevel
   referenceIds: string[]
 }
@@ -71,7 +82,10 @@ export interface StoryStep {
   view: StoryView
   eventId?: string
   annotation?: string
-  referenceIds: string[]
+  claimLinks: Array<{
+    claimId: string
+    relation: 'supports' | 'contradicts' | 'contextualizes'
+  }>
 }
 
 export interface EvolutionStory {
@@ -82,6 +96,7 @@ export interface EvolutionStory {
   theme: string
   durationMinutes: number
   featured: boolean
+  evidenceStatus: 'available-with-limitations' | 'blocked-pending-step-evidence'
   steps: StoryStep[]
 }
 
@@ -129,7 +144,7 @@ export interface EvidenceClaim {
   claimType: EvidenceClaimType
   claimKind: 'scientific' | 'editorial'
   statement: string
-  confidence: ConfidenceLevel | 'contested'
+  confidence: ConfidenceLevel
   confidenceRationale: string
   confidenceRationaleZh: string
   reviewedBy: string
@@ -152,5 +167,14 @@ export interface MediaAsset {
   type: 'museum-gallery' | 'specimen-feature' | 'reconstruction' | '3d-model'
   sourceName: string
   sourceUrl: string
+  creator: string
+  license: string
+  rightsStatus: 'external-link-only' | 'cleared-for-reuse'
+  caption: string
+  captionZh: string
+  altText: string
+  altTextZh: string
+  subjectScope: string
+  reviewedAt: string
   licenseNote: string
 }

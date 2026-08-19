@@ -16,6 +16,7 @@
     "size:check": "node scripts/check-bundle-size.mjs",
     "release:metadata": "node scripts/build-release.mjs",
     "data:registry:build": "node scripts/build-entity-registry.mjs",
+    "data:taxonomy:reconcile": "node scripts/reconcile-pbdb-taxa.mjs",
     "data:registry:validate": "node scripts/validate-platform.mjs registry",
     "data:packages:validate": "node scripts/validate-platform.mjs packages",
     "data:claims:validate": "node scripts/validate-platform.mjs claims",

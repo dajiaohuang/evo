@@ -12,6 +12,7 @@ const fossilStore: Record<string, FossilOccurrence[]> = {}
 const loadingPeriods = new Map<string, Promise<FossilOccurrence[]>>()
 interface TaxonPeriodIndexEntry {
   descendantTaxonIds: string[]
+  descendantScientificNames: string[]
   periods: string[]
   matchedTotal: number
 }
@@ -53,9 +54,15 @@ export async function getFossilsByTaxon(
   const taxonIds = effectiveScope === 'descendants' && indexed
     ? new Set(indexed.descendantTaxonIds)
     : new Set([taxonId])
+  const scientificNames = effectiveScope === 'descendants' && indexed
+    ? new Set(indexed.descendantScientificNames)
+    : new Set<string>()
   const periods = indexed?.periods.length ? indexed.periods : [...FOSSIL_PERIODS]
   const chunks = await Promise.all(periods.map(getFossilsByInterval))
-  const records = chunks.flat().filter((occurrence) => Boolean(occurrence.tid && taxonIds.has(occurrence.tid)))
+  const records = chunks.flat().filter((occurrence) => {
+    if (occurrence.tid && taxonIds.has(occurrence.tid)) return true
+    return Object.values(occurrence.classification ?? {}).some((name) => scientificNames.has(name.trim().toLocaleLowerCase()))
+  })
   return {
     taxonId,
     scope,

@@ -1,1675 +1,1995 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "generatedFrom": "data/navigation/atlas-ontology.json and bundled occurrence chunks",
   "sourceTotal": 13600,
-  "samplingMethod": "bounded non-random PBDB API prefix sample; descendant scope covers only taxon IDs represented in the bundled navigation ontology",
+  "samplingMethod": "bounded non-random PBDB API prefix sample; matching uses verified represented PBDB IDs plus the stored PBDB higher-classification names",
   "nodes": {
-    "txn:57260": {
+    "txn:54311": {
       "descendantTaxonIds": [
-        "txn:57260",
+        "txn:54311",
         "txn:55134",
         "txn:249949",
-        "txn:125777",
-        "txn:55164",
-        "txn:125773",
-        "txn:263774",
-        "txn:54800",
-        "txn:54801",
-        "txn:54802",
-        "txn:54803",
-        "txn:54769",
-        "txn:53872",
-        "txn:53873",
-        "txn:53581",
-        "txn:53874",
-        "txn:53875"
+        "txn:157277",
+        "txn:54828",
+        "txn:54758",
+        "txn:56134",
+        "txn:56140",
+        "txn:56176",
+        "txn:54789",
+        "txn:53546",
+        "txn:183021"
       ],
-      "periods": [],
-      "matchedTotal": 0
+      "descendantScientificNames": [
+        "plantae",
+        "bryophyta",
+        "lycopodiophyta",
+        "lepidodendrales",
+        "pteridophyta",
+        "equisetopsida",
+        "filicopsida",
+        "gymnospermae",
+        "cycadophyta",
+        "ginkgophyta",
+        "coniferophyta",
+        "araucariaceae",
+        "angiospermae",
+        "monocotyledones",
+        "poaceae",
+        "eudicotyledones",
+        "fabaceae"
+      ],
+      "matchingMethods": [
+        "accepted-pbdb-id",
+        "pbdb-higher-classification-name"
+      ],
+      "periods": [
+        "Silurian",
+        "Permian",
+        "Triassic",
+        "Neogene",
+        "Quaternary"
+      ],
+      "matchedTotal": 516
     },
     "txn:55134": {
       "descendantTaxonIds": [
         "txn:55134"
       ],
-      "periods": [],
-      "matchedTotal": 0
+      "descendantScientificNames": [
+        "bryophyta"
+      ],
+      "matchingMethods": [
+        "accepted-pbdb-id",
+        "pbdb-higher-classification-name"
+      ],
+      "periods": [
+        "Silurian",
+        "Triassic",
+        "Neogene"
+      ],
+      "matchedTotal": 16
     },
     "txn:249949": {
       "descendantTaxonIds": [
         "txn:249949",
-        "txn:125777"
+        "txn:157277"
+      ],
+      "descendantScientificNames": [
+        "lycopodiophyta",
+        "lepidodendrales"
+      ],
+      "matchingMethods": [
+        "accepted-pbdb-id",
+        "pbdb-higher-classification-name"
+      ],
+      "periods": [
+        "Triassic"
+      ],
+      "matchedTotal": 32
+    },
+    "txn:157277": {
+      "descendantTaxonIds": [
+        "txn:157277"
+      ],
+      "descendantScientificNames": [
+        "lepidodendrales"
+      ],
+      "matchingMethods": [
+        "accepted-pbdb-id",
+        "pbdb-higher-classification-name"
       ],
       "periods": [],
       "matchedTotal": 0
     },
-    "txn:125777": {
+    "txn:54828": {
       "descendantTaxonIds": [
-        "txn:125777"
+        "txn:54828",
+        "txn:54758"
+      ],
+      "descendantScientificNames": [
+        "pteridophyta",
+        "equisetopsida",
+        "filicopsida"
+      ],
+      "matchingMethods": [
+        "accepted-pbdb-id",
+        "pbdb-higher-classification-name"
+      ],
+      "periods": [
+        "Permian",
+        "Triassic",
+        "Neogene"
+      ],
+      "matchedTotal": 225
+    },
+    "txn:54758": {
+      "descendantTaxonIds": [
+        "txn:54758"
+      ],
+      "descendantScientificNames": [
+        "equisetopsida"
+      ],
+      "matchingMethods": [
+        "accepted-pbdb-id",
+        "pbdb-higher-classification-name"
+      ],
+      "periods": [
+        "Permian",
+        "Triassic"
+      ],
+      "matchedTotal": 10
+    },
+    "txn:56134": {
+      "descendantTaxonIds": [
+        "txn:56134"
+      ],
+      "descendantScientificNames": [
+        "cycadophyta"
+      ],
+      "matchingMethods": [
+        "accepted-pbdb-id",
+        "pbdb-higher-classification-name"
+      ],
+      "periods": [
+        "Permian",
+        "Triassic",
+        "Neogene"
+      ],
+      "matchedTotal": 62
+    },
+    "txn:56140": {
+      "descendantTaxonIds": [
+        "txn:56140"
+      ],
+      "descendantScientificNames": [
+        "ginkgophyta"
+      ],
+      "matchingMethods": [
+        "accepted-pbdb-id",
+        "pbdb-higher-classification-name"
+      ],
+      "periods": [
+        "Triassic"
+      ],
+      "matchedTotal": 37
+    },
+    "txn:56176": {
+      "descendantTaxonIds": [
+        "txn:56176",
+        "txn:54789"
+      ],
+      "descendantScientificNames": [
+        "coniferophyta",
+        "araucariaceae"
+      ],
+      "matchingMethods": [
+        "accepted-pbdb-id",
+        "pbdb-higher-classification-name"
+      ],
+      "periods": [
+        "Permian",
+        "Triassic"
+      ],
+      "matchedTotal": 20
+    },
+    "txn:54789": {
+      "descendantTaxonIds": [
+        "txn:54789"
+      ],
+      "descendantScientificNames": [
+        "araucariaceae"
+      ],
+      "matchingMethods": [
+        "accepted-pbdb-id",
+        "pbdb-higher-classification-name"
+      ],
+      "periods": [
+        "Permian",
+        "Triassic"
+      ],
+      "matchedTotal": 10
+    },
+    "txn:53546": {
+      "descendantTaxonIds": [
+        "txn:53546"
+      ],
+      "descendantScientificNames": [
+        "poaceae"
+      ],
+      "matchingMethods": [
+        "accepted-pbdb-id",
+        "pbdb-higher-classification-name"
       ],
       "periods": [],
       "matchedTotal": 0
     },
-    "txn:55164": {
+    "txn:183021": {
       "descendantTaxonIds": [
-        "txn:55164",
-        "txn:125773",
-        "txn:263774"
+        "txn:183021"
       ],
-      "periods": [],
-      "matchedTotal": 0
-    },
-    "txn:125773": {
-      "descendantTaxonIds": [
-        "txn:125773"
+      "descendantScientificNames": [
+        "fabaceae"
       ],
-      "periods": [],
-      "matchedTotal": 0
-    },
-    "txn:263774": {
-      "descendantTaxonIds": [
-        "txn:263774"
+      "matchingMethods": [
+        "accepted-pbdb-id",
+        "pbdb-higher-classification-name"
       ],
-      "periods": [],
-      "matchedTotal": 0
-    },
-    "txn:54800": {
-      "descendantTaxonIds": [
-        "txn:54800",
-        "txn:54801",
-        "txn:54802",
-        "txn:54803",
-        "txn:54769"
+      "periods": [
+        "Neogene"
       ],
-      "periods": [],
-      "matchedTotal": 0
+      "matchedTotal": 3
     },
-    "txn:54801": {
+    "txn:2894": {
       "descendantTaxonIds": [
-        "txn:54801"
+        "txn:2894",
+        "txn:3338",
+        "txn:2895"
       ],
-      "periods": [],
-      "matchedTotal": 0
-    },
-    "txn:54802": {
-      "descendantTaxonIds": [
-        "txn:54802"
+      "descendantScientificNames": [
+        "porifera",
+        "stromatoporoidea",
+        "demospongiae"
       ],
-      "periods": [],
-      "matchedTotal": 0
-    },
-    "txn:54803": {
-      "descendantTaxonIds": [
-        "txn:54803",
-        "txn:54769"
+      "matchingMethods": [
+        "accepted-pbdb-id",
+        "pbdb-higher-classification-name"
       ],
-      "periods": [],
-      "matchedTotal": 0
-    },
-    "txn:54769": {
-      "descendantTaxonIds": [
-        "txn:54769"
+      "periods": [
+        "Cambrian",
+        "Ordovician",
+        "Silurian",
+        "Devonian",
+        "Carboniferous",
+        "Permian",
+        "Triassic",
+        "Jurassic",
+        "Cretaceous",
+        "Paleogene"
       ],
-      "periods": [],
-      "matchedTotal": 0
+      "matchedTotal": 184
     },
-    "txn:53872": {
+    "txn:3338": {
       "descendantTaxonIds": [
-        "txn:53872",
-        "txn:53873",
-        "txn:53581",
-        "txn:53874",
-        "txn:53875"
+        "txn:3338"
       ],
-      "periods": [],
-      "matchedTotal": 0
-    },
-    "txn:53873": {
-      "descendantTaxonIds": [
-        "txn:53873",
-        "txn:53581"
+      "descendantScientificNames": [
+        "stromatoporoidea"
       ],
-      "periods": [],
-      "matchedTotal": 0
-    },
-    "txn:53581": {
-      "descendantTaxonIds": [
-        "txn:53581"
+      "matchingMethods": [
+        "accepted-pbdb-id",
+        "pbdb-higher-classification-name"
       ],
-      "periods": [],
-      "matchedTotal": 0
-    },
-    "txn:53874": {
-      "descendantTaxonIds": [
-        "txn:53874",
-        "txn:53875"
+      "periods": [
+        "Ordovician",
+        "Silurian",
+        "Devonian"
       ],
-      "periods": [],
-      "matchedTotal": 0
+      "matchedTotal": 31
     },
-    "txn:53875": {
+    "txn:2895": {
       "descendantTaxonIds": [
-        "txn:53875"
+        "txn:2895"
       ],
-      "periods": [],
-      "matchedTotal": 0
-    },
-    "txn:3670": {
-      "descendantTaxonIds": [
-        "txn:3670",
-        "txn:70358",
-        "txn:70357"
+      "descendantScientificNames": [
+        "demospongiae"
       ],
-      "periods": [],
-      "matchedTotal": 0
-    },
-    "txn:70358": {
-      "descendantTaxonIds": [
-        "txn:70358"
+      "matchingMethods": [
+        "accepted-pbdb-id",
+        "pbdb-higher-classification-name"
       ],
-      "periods": [],
-      "matchedTotal": 0
-    },
-    "txn:70357": {
-      "descendantTaxonIds": [
-        "txn:70357"
+      "periods": [
+        "Cambrian",
+        "Ordovician",
+        "Silurian",
+        "Carboniferous",
+        "Permian",
+        "Triassic",
+        "Jurassic"
       ],
-      "periods": [],
-      "matchedTotal": 0
+      "matchedTotal": 87
     },
-    "txn:3671": {
+    "txn:4524": {
       "descendantTaxonIds": [
-        "txn:3671",
-        "txn:3673",
-        "txn:69550",
-        "txn:69551",
-        "txn:69552"
+        "txn:4524",
+        "txn:4742",
+        "txn:6108"
       ],
-      "periods": [],
-      "matchedTotal": 0
-    },
-    "txn:3673": {
-      "descendantTaxonIds": [
-        "txn:3673",
-        "txn:69550",
-        "txn:69551",
-        "txn:69552"
+      "descendantScientificNames": [
+        "cnidaria",
+        "anthozoa",
+        "rugosa",
+        "tabulata",
+        "scleractinia"
       ],
-      "periods": [],
-      "matchedTotal": 0
-    },
-    "txn:69550": {
-      "descendantTaxonIds": [
-        "txn:69550"
+      "matchingMethods": [
+        "accepted-pbdb-id",
+        "pbdb-higher-classification-name"
       ],
-      "periods": [],
-      "matchedTotal": 0
-    },
-    "txn:69551": {
-      "descendantTaxonIds": [
-        "txn:69551"
+      "periods": [
+        "Cambrian",
+        "Ordovician",
+        "Silurian",
+        "Devonian",
+        "Carboniferous",
+        "Permian",
+        "Triassic",
+        "Jurassic",
+        "Cretaceous",
+        "Paleogene",
+        "Neogene"
       ],
-      "periods": [],
-      "matchedTotal": 0
+      "matchedTotal": 468
     },
-    "txn:69552": {
+    "txn:4742": {
       "descendantTaxonIds": [
-        "txn:69552"
+        "txn:4742",
+        "txn:6108"
       ],
-      "periods": [],
-      "matchedTotal": 0
-    },
-    "txn:3675": {
-      "descendantTaxonIds": [
-        "txn:3675",
-        "txn:69560",
-        "txn:69561",
-        "txn:69562"
+      "descendantScientificNames": [
+        "anthozoa",
+        "rugosa",
+        "tabulata",
+        "scleractinia"
       ],
-      "periods": [],
-      "matchedTotal": 0
-    },
-    "txn:69560": {
-      "descendantTaxonIds": [
-        "txn:69560",
-        "txn:69561",
-        "txn:69562"
+      "matchingMethods": [
+        "accepted-pbdb-id",
+        "pbdb-higher-classification-name"
       ],
-      "periods": [],
-      "matchedTotal": 0
-    },
-    "txn:69561": {
-      "descendantTaxonIds": [
-        "txn:69561"
+      "periods": [
+        "Cambrian",
+        "Ordovician",
+        "Silurian",
+        "Devonian",
+        "Carboniferous",
+        "Permian",
+        "Triassic",
+        "Jurassic",
+        "Cretaceous",
+        "Paleogene",
+        "Neogene"
       ],
-      "periods": [],
-      "matchedTotal": 0
+      "matchedTotal": 403
     },
-    "txn:69562": {
+    "txn:6108": {
       "descendantTaxonIds": [
-        "txn:69562"
+        "txn:6108"
       ],
-      "periods": [],
-      "matchedTotal": 0
-    },
-    "txn:3678": {
-      "descendantTaxonIds": [
-        "txn:3678",
-        "txn:3680",
-        "txn:69570",
-        "txn:69571",
-        "txn:3681",
-        "txn:3682",
-        "txn:69580",
-        "txn:69581",
-        "txn:69582",
-        "txn:69583",
-        "txn:69584",
-        "txn:69585",
-        "txn:69586"
+      "descendantScientificNames": [
+        "scleractinia"
       ],
-      "periods": [],
-      "matchedTotal": 0
-    },
-    "txn:3680": {
-      "descendantTaxonIds": [
-        "txn:3680",
-        "txn:69570",
-        "txn:69571"
+      "matchingMethods": [
+        "accepted-pbdb-id",
+        "pbdb-higher-classification-name"
       ],
-      "periods": [],
-      "matchedTotal": 0
-    },
-    "txn:69570": {
-      "descendantTaxonIds": [
-        "txn:69570"
+      "periods": [
+        "Triassic",
+        "Jurassic",
+        "Cretaceous",
+        "Paleogene",
+        "Neogene"
       ],
-      "periods": [],
-      "matchedTotal": 0
+      "matchedTotal": 101
     },
-    "txn:69571": {
+    "txn:26322": {
       "descendantTaxonIds": [
-        "txn:69571"
+        "txn:26322",
+        "txn:29043",
+        "txn:29979"
       ],
-      "periods": [],
-      "matchedTotal": 0
-    },
-    "txn:3681": {
-      "descendantTaxonIds": [
-        "txn:3681"
+      "descendantScientificNames": [
+        "brachiopoda",
+        "articulata",
+        "spiriferida",
+        "terebratulida"
       ],
-      "periods": [],
-      "matchedTotal": 0
-    },
-    "txn:3682": {
-      "descendantTaxonIds": [
-        "txn:3682",
-        "txn:69580",
-        "txn:69581",
-        "txn:69582",
-        "txn:69583",
-        "txn:69584",
-        "txn:69585",
-        "txn:69586"
+      "matchingMethods": [
+        "accepted-pbdb-id",
+        "pbdb-higher-classification-name"
       ],
-      "periods": [],
-      "matchedTotal": 0
-    },
-    "txn:69580": {
-      "descendantTaxonIds": [
-        "txn:69580"
+      "periods": [
+        "Cambrian",
+        "Ordovician",
+        "Silurian",
+        "Devonian",
+        "Carboniferous",
+        "Permian",
+        "Triassic",
+        "Jurassic",
+        "Cretaceous",
+        "Paleogene"
       ],
-      "periods": [],
-      "matchedTotal": 0
+      "matchedTotal": 2777
     },
-    "txn:69581": {
+    "txn:29043": {
       "descendantTaxonIds": [
-        "txn:69581",
-        "txn:69582",
-        "txn:69583",
-        "txn:69584"
+        "txn:29043"
       ],
-      "periods": [],
-      "matchedTotal": 0
-    },
-    "txn:69582": {
-      "descendantTaxonIds": [
-        "txn:69582"
+      "descendantScientificNames": [
+        "spiriferida"
       ],
-      "periods": [],
-      "matchedTotal": 0
-    },
-    "txn:69583": {
-      "descendantTaxonIds": [
-        "txn:69583"
-      ],
-      "periods": [],
-      "matchedTotal": 0
-    },
-    "txn:69584": {
-      "descendantTaxonIds": [
-        "txn:69584"
-      ],
-      "periods": [],
-      "matchedTotal": 0
-    },
-    "txn:69585": {
-      "descendantTaxonIds": [
-        "txn:69585",
-        "txn:69586"
-      ],
-      "periods": [],
-      "matchedTotal": 0
-    },
-    "txn:69586": {
-      "descendantTaxonIds": [
-        "txn:69586"
-      ],
-      "periods": [],
-      "matchedTotal": 0
-    },
-    "txn:3686": {
-      "descendantTaxonIds": [
-        "txn:3686",
-        "txn:19114",
-        "txn:69590",
-        "txn:69591",
-        "txn:69592",
-        "txn:3687",
-        "txn:69595",
-        "txn:3688",
-        "txn:69596",
-        "txn:175866",
-        "txn:69597",
-        "txn:69598",
-        "txn:3689",
-        "txn:69600",
-        "txn:69601"
+      "matchingMethods": [
+        "accepted-pbdb-id",
+        "pbdb-higher-classification-name"
       ],
       "periods": [
         "Silurian",
+        "Devonian",
+        "Carboniferous",
+        "Permian"
+      ],
+      "matchedTotal": 302
+    },
+    "txn:29979": {
+      "descendantTaxonIds": [
+        "txn:29979"
+      ],
+      "descendantScientificNames": [
+        "terebratulida"
+      ],
+      "matchingMethods": [
+        "accepted-pbdb-id",
+        "pbdb-higher-classification-name"
+      ],
+      "periods": [
+        "Devonian",
+        "Carboniferous",
+        "Permian",
+        "Triassic",
+        "Jurassic",
+        "Cretaceous",
+        "Paleogene"
+      ],
+      "matchedTotal": 124
+    },
+    "txn:7805": {
+      "descendantTaxonIds": [
+        "txn:7805",
+        "txn:16005",
+        "txn:8304",
+        "txn:12315",
+        "txn:61323",
+        "txn:14505",
+        "txn:13602",
+        "txn:14000",
+        "txn:84931",
+        "txn:59785",
+        "txn:15832"
+      ],
+      "descendantScientificNames": [
+        "mollusca",
+        "bivalvia",
+        "hippuritoida",
+        "ostreoida",
+        "gastropoda",
+        "cephalopoda",
+        "nautiloidea",
+        "ammonoidea",
+        "goniatitida",
+        "ceratitida",
+        "ammonitida",
+        "coleoidea",
+        "belemnitida"
+      ],
+      "matchingMethods": [
+        "accepted-pbdb-id",
+        "pbdb-higher-classification-name"
+      ],
+      "periods": [
+        "Cambrian",
+        "Ordovician",
+        "Silurian",
+        "Devonian",
+        "Carboniferous",
+        "Permian",
+        "Triassic",
+        "Jurassic",
+        "Cretaceous",
+        "Paleogene",
+        "Neogene",
+        "Quaternary"
+      ],
+      "matchedTotal": 4357
+    },
+    "txn:16005": {
+      "descendantTaxonIds": [
+        "txn:16005"
+      ],
+      "descendantScientificNames": [
+        "bivalvia",
+        "hippuritoida",
+        "ostreoida"
+      ],
+      "matchingMethods": [
+        "accepted-pbdb-id",
+        "pbdb-higher-classification-name"
+      ],
+      "periods": [
+        "Cambrian",
+        "Ordovician",
+        "Silurian",
+        "Devonian",
+        "Carboniferous",
+        "Permian",
+        "Triassic",
+        "Jurassic",
+        "Cretaceous",
+        "Paleogene",
+        "Neogene",
+        "Quaternary"
+      ],
+      "matchedTotal": 2745
+    },
+    "txn:8304": {
+      "descendantTaxonIds": [
+        "txn:8304"
+      ],
+      "descendantScientificNames": [
+        "gastropoda"
+      ],
+      "matchingMethods": [
+        "accepted-pbdb-id",
+        "pbdb-higher-classification-name"
+      ],
+      "periods": [
+        "Cambrian",
+        "Ordovician",
+        "Silurian",
+        "Devonian",
+        "Carboniferous",
+        "Permian",
+        "Triassic",
+        "Jurassic",
+        "Cretaceous",
+        "Paleogene",
+        "Neogene",
+        "Quaternary"
+      ],
+      "matchedTotal": 887
+    },
+    "txn:12315": {
+      "descendantTaxonIds": [
+        "txn:12315",
+        "txn:61323",
+        "txn:14505",
+        "txn:13602",
+        "txn:14000",
+        "txn:84931",
+        "txn:59785",
+        "txn:15832"
+      ],
+      "descendantScientificNames": [
+        "cephalopoda",
+        "nautiloidea",
+        "ammonoidea",
+        "goniatitida",
+        "ceratitida",
+        "ammonitida",
+        "coleoidea",
+        "belemnitida"
+      ],
+      "matchingMethods": [
+        "accepted-pbdb-id",
+        "pbdb-higher-classification-name"
+      ],
+      "periods": [
+        "Ordovician",
+        "Silurian",
+        "Devonian",
+        "Carboniferous",
+        "Permian",
+        "Jurassic",
+        "Cretaceous",
+        "Paleogene",
+        "Neogene"
+      ],
+      "matchedTotal": 488
+    },
+    "txn:61323": {
+      "descendantTaxonIds": [
+        "txn:61323"
+      ],
+      "descendantScientificNames": [
+        "nautiloidea"
+      ],
+      "matchingMethods": [
+        "accepted-pbdb-id",
+        "pbdb-higher-classification-name"
+      ],
+      "periods": [
+        "Ordovician",
+        "Silurian",
+        "Devonian",
+        "Carboniferous"
+      ],
+      "matchedTotal": 16
+    },
+    "txn:14505": {
+      "descendantTaxonIds": [
+        "txn:14505",
+        "txn:13602",
+        "txn:14000",
+        "txn:84931"
+      ],
+      "descendantScientificNames": [
+        "ammonoidea",
+        "goniatitida",
+        "ceratitida",
+        "ammonitida"
+      ],
+      "matchingMethods": [
+        "accepted-pbdb-id",
+        "pbdb-higher-classification-name"
+      ],
+      "periods": [
+        "Devonian",
+        "Carboniferous",
+        "Permian",
+        "Jurassic",
+        "Cretaceous"
+      ],
+      "matchedTotal": 252
+    },
+    "txn:13602": {
+      "descendantTaxonIds": [
+        "txn:13602"
+      ],
+      "descendantScientificNames": [
+        "goniatitida"
+      ],
+      "matchingMethods": [
+        "accepted-pbdb-id",
+        "pbdb-higher-classification-name"
+      ],
+      "periods": [
+        "Devonian",
+        "Carboniferous",
+        "Permian"
+      ],
+      "matchedTotal": 24
+    },
+    "txn:14000": {
+      "descendantTaxonIds": [
+        "txn:14000"
+      ],
+      "descendantScientificNames": [
+        "ceratitida"
+      ],
+      "matchingMethods": [
+        "accepted-pbdb-id",
+        "pbdb-higher-classification-name"
+      ],
+      "periods": [],
+      "matchedTotal": 0
+    },
+    "txn:84931": {
+      "descendantTaxonIds": [
+        "txn:84931"
+      ],
+      "descendantScientificNames": [
+        "ammonitida"
+      ],
+      "matchingMethods": [
+        "accepted-pbdb-id",
+        "pbdb-higher-classification-name"
+      ],
+      "periods": [
+        "Jurassic",
+        "Cretaceous"
+      ],
+      "matchedTotal": 208
+    },
+    "txn:59785": {
+      "descendantTaxonIds": [
+        "txn:59785",
+        "txn:15832"
+      ],
+      "descendantScientificNames": [
+        "coleoidea",
+        "belemnitida"
+      ],
+      "matchingMethods": [
+        "accepted-pbdb-id",
+        "pbdb-higher-classification-name"
+      ],
+      "periods": [
+        "Permian",
+        "Jurassic",
+        "Cretaceous"
+      ],
+      "matchedTotal": 28
+    },
+    "txn:15832": {
+      "descendantTaxonIds": [
+        "txn:15832"
+      ],
+      "descendantScientificNames": [
+        "belemnitida"
+      ],
+      "matchingMethods": [
+        "accepted-pbdb-id",
+        "pbdb-higher-classification-name"
+      ],
+      "periods": [
+        "Permian",
+        "Jurassic",
+        "Cretaceous"
+      ],
+      "matchedTotal": 28
+    },
+    "txn:18891": {
+      "descendantTaxonIds": [
+        "txn:18891",
+        "txn:19100",
+        "txn:21421",
+        "txn:20239",
+        "txn:19472",
+        "txn:91508",
+        "txn:18947",
+        "txn:56637",
+        "txn:71353",
+        "txn:175803",
+        "txn:69148",
+        "txn:70707",
+        "txn:82629",
+        "txn:22826",
+        "txn:22215"
+      ],
+      "descendantScientificNames": [
+        "arthropoda",
+        "trilobita",
+        "phacopida",
+        "ptychopariida",
+        "corynexochida",
+        "chelicerata",
+        "eurypterida",
+        "insecta",
+        "odonata",
+        "meganeura",
+        "coleoptera",
+        "hymenoptera",
+        "crustacea",
+        "ostracoda",
+        "malacostraca"
+      ],
+      "matchingMethods": [
+        "accepted-pbdb-id",
+        "pbdb-higher-classification-name"
+      ],
+      "periods": [
+        "Cambrian",
+        "Ordovician",
+        "Silurian",
+        "Devonian",
+        "Carboniferous",
+        "Permian",
+        "Triassic",
+        "Jurassic",
+        "Cretaceous",
+        "Paleogene",
+        "Neogene"
+      ],
+      "matchedTotal": 1507
+    },
+    "txn:19100": {
+      "descendantTaxonIds": [
+        "txn:19100",
+        "txn:21421",
+        "txn:20239",
+        "txn:19472"
+      ],
+      "descendantScientificNames": [
+        "trilobita",
+        "phacopida",
+        "ptychopariida",
+        "corynexochida"
+      ],
+      "matchingMethods": [
+        "accepted-pbdb-id",
+        "pbdb-higher-classification-name"
+      ],
+      "periods": [
+        "Cambrian",
+        "Ordovician",
+        "Silurian",
+        "Devonian",
+        "Carboniferous"
+      ],
+      "matchedTotal": 1136
+    },
+    "txn:21421": {
+      "descendantTaxonIds": [
+        "txn:21421"
+      ],
+      "descendantScientificNames": [
+        "phacopida"
+      ],
+      "matchingMethods": [
+        "accepted-pbdb-id",
+        "pbdb-higher-classification-name"
+      ],
+      "periods": [
+        "Ordovician",
+        "Silurian",
+        "Devonian"
+      ],
+      "matchedTotal": 158
+    },
+    "txn:20239": {
+      "descendantTaxonIds": [
+        "txn:20239"
+      ],
+      "descendantScientificNames": [
+        "ptychopariida"
+      ],
+      "matchingMethods": [
+        "accepted-pbdb-id",
+        "pbdb-higher-classification-name"
+      ],
+      "periods": [
+        "Cambrian",
+        "Ordovician",
+        "Silurian"
+      ],
+      "matchedTotal": 309
+    },
+    "txn:19472": {
+      "descendantTaxonIds": [
+        "txn:19472"
+      ],
+      "descendantScientificNames": [
+        "corynexochida"
+      ],
+      "matchingMethods": [
+        "accepted-pbdb-id",
+        "pbdb-higher-classification-name"
+      ],
+      "periods": [
+        "Cambrian",
+        "Ordovician",
+        "Silurian",
+        "Devonian"
+      ],
+      "matchedTotal": 174
+    },
+    "txn:91508": {
+      "descendantTaxonIds": [
+        "txn:91508",
+        "txn:18947"
+      ],
+      "descendantScientificNames": [
+        "chelicerata",
+        "eurypterida"
+      ],
+      "matchingMethods": [
+        "accepted-pbdb-id",
+        "pbdb-higher-classification-name"
+      ],
+      "periods": [
+        "Ordovician",
+        "Silurian",
+        "Devonian"
+      ],
+      "matchedTotal": 32
+    },
+    "txn:18947": {
+      "descendantTaxonIds": [
+        "txn:18947"
+      ],
+      "descendantScientificNames": [
+        "eurypterida"
+      ],
+      "matchingMethods": [
+        "accepted-pbdb-id",
+        "pbdb-higher-classification-name"
+      ],
+      "periods": [
+        "Ordovician",
+        "Silurian",
+        "Devonian"
+      ],
+      "matchedTotal": 32
+    },
+    "txn:56637": {
+      "descendantTaxonIds": [
+        "txn:56637",
+        "txn:71353",
+        "txn:175803",
+        "txn:69148",
+        "txn:70707"
+      ],
+      "descendantScientificNames": [
+        "insecta",
+        "odonata",
+        "meganeura",
+        "coleoptera",
+        "hymenoptera"
+      ],
+      "matchingMethods": [
+        "accepted-pbdb-id",
+        "pbdb-higher-classification-name"
+      ],
+      "periods": [],
+      "matchedTotal": 0
+    },
+    "txn:71353": {
+      "descendantTaxonIds": [
+        "txn:71353",
+        "txn:175803"
+      ],
+      "descendantScientificNames": [
+        "odonata",
+        "meganeura"
+      ],
+      "matchingMethods": [
+        "accepted-pbdb-id",
+        "pbdb-higher-classification-name"
+      ],
+      "periods": [],
+      "matchedTotal": 0
+    },
+    "txn:175803": {
+      "descendantTaxonIds": [
+        "txn:175803"
+      ],
+      "descendantScientificNames": [
+        "meganeura"
+      ],
+      "matchingMethods": [
+        "accepted-pbdb-id",
+        "pbdb-higher-classification-name"
+      ],
+      "periods": [],
+      "matchedTotal": 0
+    },
+    "txn:69148": {
+      "descendantTaxonIds": [
+        "txn:69148"
+      ],
+      "descendantScientificNames": [
+        "coleoptera"
+      ],
+      "matchingMethods": [
+        "accepted-pbdb-id",
+        "pbdb-higher-classification-name"
+      ],
+      "periods": [],
+      "matchedTotal": 0
+    },
+    "txn:70707": {
+      "descendantTaxonIds": [
+        "txn:70707"
+      ],
+      "descendantScientificNames": [
+        "hymenoptera"
+      ],
+      "matchingMethods": [
+        "accepted-pbdb-id",
+        "pbdb-higher-classification-name"
+      ],
+      "periods": [],
+      "matchedTotal": 0
+    },
+    "txn:82629": {
+      "descendantTaxonIds": [
+        "txn:82629",
+        "txn:22826",
+        "txn:22215"
+      ],
+      "descendantScientificNames": [
+        "crustacea",
+        "ostracoda",
+        "malacostraca"
+      ],
+      "matchingMethods": [
+        "accepted-pbdb-id",
+        "pbdb-higher-classification-name"
+      ],
+      "periods": [
+        "Cambrian",
+        "Ordovician",
+        "Silurian",
+        "Devonian",
+        "Carboniferous",
+        "Permian",
+        "Triassic",
+        "Jurassic",
+        "Cretaceous",
+        "Paleogene",
+        "Neogene"
+      ],
+      "matchedTotal": 176
+    },
+    "txn:22826": {
+      "descendantTaxonIds": [
+        "txn:22826"
+      ],
+      "descendantScientificNames": [
+        "ostracoda"
+      ],
+      "matchingMethods": [
+        "accepted-pbdb-id",
+        "pbdb-higher-classification-name"
+      ],
+      "periods": [
+        "Cambrian",
+        "Ordovician",
+        "Silurian",
+        "Devonian",
+        "Carboniferous",
+        "Permian",
         "Triassic"
       ],
-      "matchedTotal": 4
+      "matchedTotal": 129
     },
-    "txn:19114": {
+    "txn:22215": {
       "descendantTaxonIds": [
-        "txn:19114",
-        "txn:69590",
-        "txn:69591",
-        "txn:69592"
+        "txn:22215"
       ],
-      "periods": [],
-      "matchedTotal": 0
-    },
-    "txn:69590": {
-      "descendantTaxonIds": [
-        "txn:69590"
+      "descendantScientificNames": [
+        "malacostraca"
       ],
-      "periods": [],
-      "matchedTotal": 0
-    },
-    "txn:69591": {
-      "descendantTaxonIds": [
-        "txn:69591"
+      "matchingMethods": [
+        "accepted-pbdb-id",
+        "pbdb-higher-classification-name"
       ],
-      "periods": [],
-      "matchedTotal": 0
-    },
-    "txn:69592": {
-      "descendantTaxonIds": [
-        "txn:69592"
+      "periods": [
+        "Cambrian",
+        "Ordovician",
+        "Silurian",
+        "Devonian",
+        "Triassic",
+        "Jurassic",
+        "Cretaceous",
+        "Paleogene",
+        "Neogene"
       ],
-      "periods": [],
-      "matchedTotal": 0
+      "matchedTotal": 47
     },
-    "txn:3687": {
+    "txn:30739": {
       "descendantTaxonIds": [
-        "txn:3687",
-        "txn:69595"
+        "txn:30739",
+        "txn:31590",
+        "txn:30820",
+        "txn:168786",
+        "txn:31341"
       ],
-      "periods": [],
-      "matchedTotal": 0
-    },
-    "txn:69595": {
-      "descendantTaxonIds": [
-        "txn:69595"
+      "descendantScientificNames": [
+        "echinodermata",
+        "crinoidea",
+        "blastoidea",
+        "echinoidea",
+        "asteroidea"
       ],
-      "periods": [],
-      "matchedTotal": 0
-    },
-    "txn:3688": {
-      "descendantTaxonIds": [
-        "txn:3688",
-        "txn:69596",
-        "txn:175866",
-        "txn:69597",
-        "txn:69598"
+      "matchingMethods": [
+        "accepted-pbdb-id",
+        "pbdb-higher-classification-name"
       ],
-      "periods": [],
-      "matchedTotal": 0
-    },
-    "txn:69596": {
-      "descendantTaxonIds": [
-        "txn:69596",
-        "txn:175866"
+      "periods": [
+        "Cambrian",
+        "Ordovician",
+        "Silurian",
+        "Devonian",
+        "Carboniferous",
+        "Permian",
+        "Triassic",
+        "Jurassic",
+        "Cretaceous",
+        "Paleogene"
       ],
-      "periods": [],
-      "matchedTotal": 0
+      "matchedTotal": 309
     },
-    "txn:175866": {
+    "txn:31590": {
       "descendantTaxonIds": [
-        "txn:175866"
+        "txn:31590"
       ],
-      "periods": [],
-      "matchedTotal": 0
-    },
-    "txn:69597": {
-      "descendantTaxonIds": [
-        "txn:69597"
+      "descendantScientificNames": [
+        "crinoidea"
       ],
-      "periods": [],
-      "matchedTotal": 0
-    },
-    "txn:69598": {
-      "descendantTaxonIds": [
-        "txn:69598"
+      "matchingMethods": [
+        "accepted-pbdb-id",
+        "pbdb-higher-classification-name"
       ],
-      "periods": [],
-      "matchedTotal": 0
+      "periods": [
+        "Ordovician",
+        "Silurian",
+        "Devonian",
+        "Carboniferous",
+        "Permian",
+        "Triassic",
+        "Jurassic"
+      ],
+      "matchedTotal": 154
     },
-    "txn:3689": {
+    "txn:30820": {
       "descendantTaxonIds": [
-        "txn:3689",
-        "txn:69600",
-        "txn:69601"
+        "txn:30820"
+      ],
+      "descendantScientificNames": [
+        "blastoidea"
+      ],
+      "matchingMethods": [
+        "accepted-pbdb-id",
+        "pbdb-higher-classification-name"
       ],
       "periods": [
         "Silurian",
-        "Triassic"
+        "Carboniferous"
+      ],
+      "matchedTotal": 11
+    },
+    "txn:168786": {
+      "descendantTaxonIds": [
+        "txn:168786"
+      ],
+      "descendantScientificNames": [
+        "echinoidea"
+      ],
+      "matchingMethods": [
+        "accepted-pbdb-id",
+        "pbdb-higher-classification-name"
+      ],
+      "periods": [
+        "Carboniferous",
+        "Permian",
+        "Triassic",
+        "Jurassic",
+        "Cretaceous",
+        "Paleogene"
+      ],
+      "matchedTotal": 66
+    },
+    "txn:31341": {
+      "descendantTaxonIds": [
+        "txn:31341"
+      ],
+      "descendantScientificNames": [
+        "asteroidea"
+      ],
+      "matchingMethods": [
+        "accepted-pbdb-id",
+        "pbdb-higher-classification-name"
+      ],
+      "periods": [
+        "Ordovician",
+        "Silurian",
+        "Devonian",
+        "Cretaceous"
       ],
       "matchedTotal": 4
     },
-    "txn:69600": {
+    "txn:67149": {
       "descendantTaxonIds": [
-        "txn:69600"
+        "txn:67149",
+        "txn:33816",
+        "txn:117963",
+        "txn:34249",
+        "txn:34328",
+        "txn:34422",
+        "txn:80603",
+        "txn:34760",
+        "txn:34849",
+        "txn:35506",
+        "txn:77132",
+        "txn:36319",
+        "txn:36320",
+        "txn:53189",
+        "txn:38883",
+        "txn:38904",
+        "txn:312556",
+        "txn:36651",
+        "txn:39737",
+        "txn:247806",
+        "txn:66275",
+        "txn:106418",
+        "txn:43027",
+        "txn:49711",
+        "txn:42984",
+        "txn:42987",
+        "txn:65579",
+        "txn:43079",
+        "txn:43104",
+        "txn:43140",
+        "txn:43179",
+        "txn:43161",
+        "txn:43187",
+        "txn:43226",
+        "txn:43197",
+        "txn:36905",
+        "txn:41045",
+        "txn:41079",
+        "txn:41189",
+        "txn:36652",
+        "txn:42936",
+        "txn:40700",
+        "txn:40899",
+        "txn:40901",
+        "txn:83088",
+        "txn:83087",
+        "txn:43230",
+        "txn:43266",
+        "txn:40622",
+        "txn:41370",
+        "txn:56475",
+        "txn:36558",
+        "txn:36454",
+        "txn:38175",
+        "txn:95312",
+        "txn:38049",
+        "txn:38461",
+        "txn:52933",
+        "txn:38837",
+        "txn:38842",
+        "txn:38862",
+        "txn:38755",
+        "txn:38761",
+        "txn:38673",
+        "txn:55585",
+        "txn:38606",
+        "txn:54833",
+        "txn:38595",
+        "txn:38598",
+        "txn:38561",
+        "txn:38564",
+        "txn:36616",
+        "txn:39240",
+        "txn:39241",
+        "txn:39461"
+      ],
+      "descendantScientificNames": [
+        "vertebrata",
+        "agnatha",
+        "conodonta",
+        "ostracodermi",
+        "heterostraci",
+        "osteostraci",
+        "cyclostomata",
+        "petromyzontida",
+        "gnathostomata",
+        "placodermi",
+        "arthrodira",
+        "dunkleosteus",
+        "chondrichthyes",
+        "elasmobranchii",
+        "otodus megalodon",
+        "holocephali",
+        "acanthodii",
+        "osteichthyes",
+        "actinopterygii",
+        "teleostei",
+        "salmoniformes",
+        "sarcopterygii",
+        "coelacanthimorpha",
+        "dipnoi",
+        "tetrapodomorpha",
+        "tiktaalik",
+        "tetrapoda",
+        "amphibia",
+        "temnospondyli",
+        "lissamphibia",
+        "anura",
+        "caudata",
+        "amniota",
+        "synapsida",
+        "pelycosauria",
+        "dimetrodon",
+        "therapsida",
+        "dicynodontia",
+        "cynodontia",
+        "mammalia",
+        "monotremata",
+        "marsupialia",
+        "diprotodontia",
+        "placentalia",
+        "perissodactyla",
+        "brontotheriidae",
+        "hippomorpha",
+        "palaeotherium",
+        "equidae",
+        "anchitherium",
+        "hipparionini",
+        "ancylopoda",
+        "chalicotherium",
+        "ceratomorpha",
+        "tapiroidea",
+        "rhinocerotoidea",
+        "metamynodon",
+        "paraceratherium",
+        "rhinocerotidae",
+        "teleoceras",
+        "coelodonta",
+        "carnivora",
+        "felidae",
+        "smilodon",
+        "canidae",
+        "cetacea",
+        "basilosauridae",
+        "primates",
+        "hominidae",
+        "homo",
+        "homo sapiens",
+        "homo neanderthalensis",
+        "proboscidea",
+        "mammuthus",
+        "chiroptera",
+        "rodentia",
+        "sauropsida",
+        "testudines",
+        "ichthyosauria",
+        "ichthyosaurus",
+        "plesiosauria",
+        "elasmosauridae",
+        "lepidosauria",
+        "squamata",
+        "mosasauridae",
+        "archosauria",
+        "crocodylomorpha",
+        "pterosauria",
+        "pteranodontidae",
+        "dinosauria",
+        "ornithischia",
+        "stegosauria",
+        "ankylosauria",
+        "ankylosaurus",
+        "ceratopsia",
+        "triceratops",
+        "hadrosauridae",
+        "edmontosaurus",
+        "saurischia",
+        "sauropodomorpha",
+        "brachiosauridae",
+        "diplodocidae",
+        "titanosauria",
+        "theropoda",
+        "tyrannosauridae",
+        "tyrannosaurus rex",
+        "spinosauridae",
+        "spinosaurus",
+        "dromaeosauridae",
+        "velociraptor",
+        "aves",
+        "archaeopteryx",
+        "neornithes",
+        "phorusrhacidae"
+      ],
+      "matchingMethods": [
+        "accepted-pbdb-id",
+        "pbdb-higher-classification-name"
+      ],
+      "periods": [
+        "Cambrian",
+        "Ordovician",
+        "Silurian",
+        "Devonian",
+        "Carboniferous",
+        "Permian",
+        "Triassic",
+        "Jurassic",
+        "Paleogene",
+        "Neogene",
+        "Quaternary"
+      ],
+      "matchedTotal": 1555
+    },
+    "txn:33816": {
+      "descendantTaxonIds": [
+        "txn:33816"
+      ],
+      "descendantScientificNames": [
+        "conodonta"
+      ],
+      "matchingMethods": [
+        "accepted-pbdb-id",
+        "pbdb-higher-classification-name"
+      ],
+      "periods": [
+        "Cambrian",
+        "Ordovician",
+        "Silurian",
+        "Devonian",
+        "Carboniferous"
+      ],
+      "matchedTotal": 59
+    },
+    "txn:117963": {
+      "descendantTaxonIds": [
+        "txn:117963"
+      ],
+      "descendantScientificNames": [
+        "heterostraci"
+      ],
+      "matchingMethods": [
+        "accepted-pbdb-id",
+        "pbdb-higher-classification-name"
+      ],
+      "periods": [],
+      "matchedTotal": 0
+    },
+    "txn:34249": {
+      "descendantTaxonIds": [
+        "txn:34249",
+        "txn:34328"
+      ],
+      "descendantScientificNames": [
+        "placodermi",
+        "arthrodira",
+        "dunkleosteus"
+      ],
+      "matchingMethods": [
+        "accepted-pbdb-id",
+        "pbdb-higher-classification-name"
+      ],
+      "periods": [
+        "Devonian"
+      ],
+      "matchedTotal": 1
+    },
+    "txn:34328": {
+      "descendantTaxonIds": [
+        "txn:34328"
+      ],
+      "descendantScientificNames": [
+        "dunkleosteus"
+      ],
+      "matchingMethods": [
+        "accepted-pbdb-id",
+        "pbdb-higher-classification-name"
+      ],
+      "periods": [],
+      "matchedTotal": 0
+    },
+    "txn:34422": {
+      "descendantTaxonIds": [
+        "txn:34422",
+        "txn:80603",
+        "txn:34760"
+      ],
+      "descendantScientificNames": [
+        "chondrichthyes",
+        "elasmobranchii",
+        "otodus megalodon",
+        "holocephali"
+      ],
+      "matchingMethods": [
+        "accepted-pbdb-id",
+        "pbdb-higher-classification-name"
+      ],
+      "periods": [
+        "Carboniferous",
+        "Permian",
+        "Triassic",
+        "Paleogene",
+        "Neogene"
+      ],
+      "matchedTotal": 17
+    },
+    "txn:80603": {
+      "descendantTaxonIds": [
+        "txn:80603"
+      ],
+      "descendantScientificNames": [
+        "otodus megalodon"
+      ],
+      "matchingMethods": [
+        "accepted-pbdb-id",
+        "pbdb-higher-classification-name"
+      ],
+      "periods": [],
+      "matchedTotal": 0
+    },
+    "txn:34760": {
+      "descendantTaxonIds": [
+        "txn:34760"
+      ],
+      "descendantScientificNames": [
+        "holocephali"
+      ],
+      "matchingMethods": [
+        "accepted-pbdb-id",
+        "pbdb-higher-classification-name"
+      ],
+      "periods": [],
+      "matchedTotal": 0
+    },
+    "txn:34849": {
+      "descendantTaxonIds": [
+        "txn:34849"
+      ],
+      "descendantScientificNames": [
+        "acanthodii"
+      ],
+      "matchingMethods": [
+        "accepted-pbdb-id",
+        "pbdb-higher-classification-name"
       ],
       "periods": [
         "Silurian"
       ],
       "matchedTotal": 1
     },
-    "txn:69601": {
+    "txn:35506": {
       "descendantTaxonIds": [
-        "txn:69601"
+        "txn:35506"
+      ],
+      "descendantScientificNames": [
+        "salmoniformes"
+      ],
+      "matchingMethods": [
+        "accepted-pbdb-id",
+        "pbdb-higher-classification-name"
       ],
       "periods": [],
       "matchedTotal": 0
     },
-    "txn:3676": {
+    "txn:77132": {
       "descendantTaxonIds": [
-        "txn:3676",
-        "txn:69610",
-        "txn:69611",
-        "txn:69612",
-        "txn:69613"
+        "txn:77132"
+      ],
+      "descendantScientificNames": [
+        "tiktaalik"
+      ],
+      "matchingMethods": [
+        "accepted-pbdb-id",
+        "pbdb-higher-classification-name"
       ],
       "periods": [],
       "matchedTotal": 0
     },
-    "txn:69610": {
+    "txn:36319": {
       "descendantTaxonIds": [
-        "txn:69610"
+        "txn:36319",
+        "txn:36320"
       ],
-      "periods": [],
-      "matchedTotal": 0
-    },
-    "txn:69611": {
-      "descendantTaxonIds": [
-        "txn:69611"
+      "descendantScientificNames": [
+        "amphibia",
+        "temnospondyli",
+        "lissamphibia",
+        "anura",
+        "caudata"
       ],
-      "periods": [],
-      "matchedTotal": 0
-    },
-    "txn:69612": {
-      "descendantTaxonIds": [
-        "txn:69612"
+      "matchingMethods": [
+        "accepted-pbdb-id",
+        "pbdb-higher-classification-name"
       ],
-      "periods": [],
-      "matchedTotal": 0
-    },
-    "txn:69613": {
-      "descendantTaxonIds": [
-        "txn:69613"
+      "periods": [
+        "Triassic",
+        "Neogene"
       ],
-      "periods": [],
-      "matchedTotal": 0
+      "matchedTotal": 8
     },
-    "txn:31939": {
+    "txn:36320": {
       "descendantTaxonIds": [
-        "txn:31939"
+        "txn:36320"
       ],
-      "periods": [],
-      "matchedTotal": 0
+      "descendantScientificNames": [
+        "temnospondyli"
+      ],
+      "matchingMethods": [
+        "accepted-pbdb-id",
+        "pbdb-higher-classification-name"
+      ],
+      "periods": [
+        "Triassic"
+      ],
+      "matchedTotal": 7
     },
-    "txn:35530": {
+    "txn:53189": {
       "descendantTaxonIds": [
-        "txn:35530",
-        "txn:35141",
-        "txn:55282",
-        "txn:64117",
-        "txn:117957",
-        "txn:117958",
-        "txn:69419",
-        "txn:117959",
-        "txn:35142",
-        "txn:54562",
-        "txn:117960",
-        "txn:34369",
-        "txn:63052",
-        "txn:54497",
-        "txn:118110",
-        "txn:89268",
-        "txn:54657",
-        "txn:54572",
-        "txn:54969",
-        "txn:63027",
-        "txn:35521",
-        "txn:54783",
-        "txn:89195",
-        "txn:57639",
-        "txn:63077",
-        "txn:130709",
-        "txn:137279",
-        "txn:36326",
-        "txn:64075",
-        "txn:67329",
-        "txn:37427",
-        "txn:37428",
-        "txn:67216",
-        "txn:67325",
-        "txn:67327",
-        "txn:38903",
-        "txn:67328",
-        "txn:38981",
-        "txn:67330",
+        "txn:53189",
+        "txn:38883",
+        "txn:38904",
+        "txn:312556",
         "txn:36651",
-        "txn:39733",
-        "txn:41409",
-        "txn:40587",
-        "txn:40210",
+        "txn:39737",
+        "txn:247806",
+        "txn:66275",
         "txn:106418",
         "txn:43027",
         "txn:49711",
-        "txn:42938",
+        "txn:42984",
         "txn:42987",
         "txn:65579",
         "txn:43079",
-        "txn:43095",
-        "txn:43102",
+        "txn:43104",
+        "txn:43140",
         "txn:43179",
         "txn:43161",
-        "txn:43104",
+        "txn:43187",
         "txn:43226",
         "txn:43197",
-        "txn:36985",
-        "txn:41046",
-        "txn:41047",
-        "txn:41234",
+        "txn:36905",
+        "txn:41045",
+        "txn:41079",
+        "txn:41189",
         "txn:36652",
-        "txn:53282",
+        "txn:42936",
         "txn:40700",
-        "txn:40841",
-        "txn:40842",
+        "txn:40899",
+        "txn:40901",
         "txn:83088",
-        "txn:83089",
-        "txn:43261",
-        "txn:43262",
-        "txn:40667",
-        "txn:41367",
-        "txn:67326",
-        "txn:37661",
-        "txn:38118",
-        "txn:38119",
-        "txn:38141",
-        "txn:38177",
-        "txn:37808",
-        "txn:37809",
-        "txn:38045",
-        "txn:38596",
-        "txn:53181",
-        "txn:38480",
-        "txn:38481",
-        "txn:52777",
-        "txn:52776",
-        "txn:52783",
-        "txn:52790",
-        "txn:52791",
-        "txn:52796",
-        "txn:52798",
-        "txn:52804",
-        "txn:52805",
-        "txn:52775",
-        "txn:52834",
-        "txn:52835",
-        "txn:52841",
-        "txn:52868",
-        "txn:52859",
-        "txn:38602",
-        "txn:38603",
-        "txn:52860",
-        "txn:52861",
+        "txn:83087",
+        "txn:43230",
+        "txn:43266",
+        "txn:40622",
+        "txn:41370",
+        "txn:56475",
+        "txn:36558",
+        "txn:36454",
+        "txn:38175",
+        "txn:95312",
+        "txn:38049",
+        "txn:38461",
+        "txn:52933",
+        "txn:38837",
+        "txn:38842",
+        "txn:38862",
+        "txn:38755",
+        "txn:38761",
+        "txn:38673",
+        "txn:55585",
+        "txn:38606",
+        "txn:54833",
         "txn:38595",
         "txn:38598",
-        "txn:36622",
-        "txn:36623",
-        "txn:40033",
-        "txn:53564"
+        "txn:38561",
+        "txn:38564",
+        "txn:36616",
+        "txn:39240",
+        "txn:39241",
+        "txn:39461"
+      ],
+      "descendantScientificNames": [
+        "amniota",
+        "synapsida",
+        "pelycosauria",
+        "dimetrodon",
+        "therapsida",
+        "dicynodontia",
+        "cynodontia",
+        "mammalia",
+        "monotremata",
+        "marsupialia",
+        "diprotodontia",
+        "placentalia",
+        "perissodactyla",
+        "brontotheriidae",
+        "hippomorpha",
+        "palaeotherium",
+        "equidae",
+        "anchitherium",
+        "hipparionini",
+        "ancylopoda",
+        "chalicotherium",
+        "ceratomorpha",
+        "tapiroidea",
+        "rhinocerotoidea",
+        "metamynodon",
+        "paraceratherium",
+        "rhinocerotidae",
+        "teleoceras",
+        "coelodonta",
+        "carnivora",
+        "felidae",
+        "smilodon",
+        "canidae",
+        "cetacea",
+        "basilosauridae",
+        "primates",
+        "hominidae",
+        "homo",
+        "homo sapiens",
+        "homo neanderthalensis",
+        "proboscidea",
+        "mammuthus",
+        "chiroptera",
+        "rodentia",
+        "sauropsida",
+        "testudines",
+        "ichthyosauria",
+        "ichthyosaurus",
+        "plesiosauria",
+        "elasmosauridae",
+        "lepidosauria",
+        "squamata",
+        "mosasauridae",
+        "archosauria",
+        "crocodylomorpha",
+        "pterosauria",
+        "pteranodontidae",
+        "dinosauria",
+        "ornithischia",
+        "stegosauria",
+        "ankylosauria",
+        "ankylosaurus",
+        "ceratopsia",
+        "triceratops",
+        "hadrosauridae",
+        "edmontosaurus",
+        "saurischia",
+        "sauropodomorpha",
+        "brachiosauridae",
+        "diplodocidae",
+        "titanosauria",
+        "theropoda",
+        "tyrannosauridae",
+        "tyrannosaurus rex",
+        "spinosauridae",
+        "spinosaurus",
+        "dromaeosauridae",
+        "velociraptor",
+        "aves",
+        "archaeopteryx",
+        "neornithes",
+        "phorusrhacidae"
+      ],
+      "matchingMethods": [
+        "accepted-pbdb-id",
+        "pbdb-higher-classification-name"
       ],
       "periods": [
+        "Triassic",
+        "Jurassic",
         "Neogene",
         "Quaternary"
       ],
-      "matchedTotal": 3
+      "matchedTotal": 1397
     },
-    "txn:35141": {
+    "txn:38883": {
       "descendantTaxonIds": [
-        "txn:35141",
-        "txn:55282",
-        "txn:64117",
-        "txn:117957",
-        "txn:117958",
-        "txn:69419",
-        "txn:117959"
+        "txn:38883",
+        "txn:38904"
+      ],
+      "descendantScientificNames": [
+        "pelycosauria",
+        "dimetrodon"
+      ],
+      "matchingMethods": [
+        "accepted-pbdb-id",
+        "pbdb-higher-classification-name"
       ],
       "periods": [],
       "matchedTotal": 0
     },
-    "txn:55282": {
+    "txn:38904": {
       "descendantTaxonIds": [
-        "txn:55282"
+        "txn:38904"
+      ],
+      "descendantScientificNames": [
+        "dimetrodon"
+      ],
+      "matchingMethods": [
+        "accepted-pbdb-id",
+        "pbdb-higher-classification-name"
       ],
       "periods": [],
       "matchedTotal": 0
     },
-    "txn:64117": {
+    "txn:312556": {
       "descendantTaxonIds": [
-        "txn:64117",
-        "txn:117957",
-        "txn:117958"
+        "txn:312556"
       ],
-      "periods": [],
-      "matchedTotal": 0
-    },
-    "txn:117957": {
-      "descendantTaxonIds": [
-        "txn:117957"
+      "descendantScientificNames": [
+        "dicynodontia"
       ],
-      "periods": [],
-      "matchedTotal": 0
-    },
-    "txn:117958": {
-      "descendantTaxonIds": [
-        "txn:117958"
-      ],
-      "periods": [],
-      "matchedTotal": 0
-    },
-    "txn:69419": {
-      "descendantTaxonIds": [
-        "txn:69419",
-        "txn:117959"
-      ],
-      "periods": [],
-      "matchedTotal": 0
-    },
-    "txn:117959": {
-      "descendantTaxonIds": [
-        "txn:117959"
-      ],
-      "periods": [],
-      "matchedTotal": 0
-    },
-    "txn:35142": {
-      "descendantTaxonIds": [
-        "txn:35142",
-        "txn:54562",
-        "txn:117960",
-        "txn:34369",
-        "txn:63052",
-        "txn:54497",
-        "txn:118110",
-        "txn:89268",
-        "txn:54657",
-        "txn:54572",
-        "txn:54969",
-        "txn:63027",
-        "txn:35521",
-        "txn:54783",
-        "txn:89195",
-        "txn:57639",
-        "txn:63077",
-        "txn:130709",
-        "txn:137279",
-        "txn:36326",
-        "txn:64075",
-        "txn:67329",
-        "txn:37427",
-        "txn:37428",
-        "txn:67216",
-        "txn:67325",
-        "txn:67327",
-        "txn:38903",
-        "txn:67328",
-        "txn:38981",
-        "txn:67330",
-        "txn:36651",
-        "txn:39733",
-        "txn:41409",
-        "txn:40587",
-        "txn:40210",
-        "txn:106418",
-        "txn:43027",
-        "txn:49711",
-        "txn:42938",
-        "txn:42987",
-        "txn:65579",
-        "txn:43079",
-        "txn:43095",
-        "txn:43102",
-        "txn:43179",
-        "txn:43161",
-        "txn:43104",
-        "txn:43226",
-        "txn:43197",
-        "txn:36985",
-        "txn:41046",
-        "txn:41047",
-        "txn:41234",
-        "txn:36652",
-        "txn:53282",
-        "txn:40700",
-        "txn:40841",
-        "txn:40842",
-        "txn:83088",
-        "txn:83089",
-        "txn:43261",
-        "txn:43262",
-        "txn:40667",
-        "txn:41367",
-        "txn:67326",
-        "txn:37661",
-        "txn:38118",
-        "txn:38119",
-        "txn:38141",
-        "txn:38177",
-        "txn:37808",
-        "txn:37809",
-        "txn:38045",
-        "txn:38596",
-        "txn:53181",
-        "txn:38480",
-        "txn:38481",
-        "txn:52777",
-        "txn:52776",
-        "txn:52783",
-        "txn:52790",
-        "txn:52791",
-        "txn:52796",
-        "txn:52798",
-        "txn:52804",
-        "txn:52805",
-        "txn:52775",
-        "txn:52834",
-        "txn:52835",
-        "txn:52841",
-        "txn:52868",
-        "txn:52859",
-        "txn:38602",
-        "txn:38603",
-        "txn:52860",
-        "txn:52861",
-        "txn:38595",
-        "txn:38598",
-        "txn:36622",
-        "txn:36623",
-        "txn:40033",
-        "txn:53564"
+      "matchingMethods": [
+        "accepted-pbdb-id",
+        "pbdb-higher-classification-name"
       ],
       "periods": [
-        "Neogene",
-        "Quaternary"
+        "Triassic"
       ],
-      "matchedTotal": 3
-    },
-    "txn:54562": {
-      "descendantTaxonIds": [
-        "txn:54562",
-        "txn:117960",
-        "txn:34369"
-      ],
-      "periods": [],
-      "matchedTotal": 0
-    },
-    "txn:117960": {
-      "descendantTaxonIds": [
-        "txn:117960",
-        "txn:34369"
-      ],
-      "periods": [],
-      "matchedTotal": 0
-    },
-    "txn:34369": {
-      "descendantTaxonIds": [
-        "txn:34369"
-      ],
-      "periods": [],
-      "matchedTotal": 0
-    },
-    "txn:63052": {
-      "descendantTaxonIds": [
-        "txn:63052",
-        "txn:54497",
-        "txn:118110",
-        "txn:89268"
-      ],
-      "periods": [],
-      "matchedTotal": 0
-    },
-    "txn:54497": {
-      "descendantTaxonIds": [
-        "txn:54497",
-        "txn:118110"
-      ],
-      "periods": [],
-      "matchedTotal": 0
-    },
-    "txn:118110": {
-      "descendantTaxonIds": [
-        "txn:118110"
-      ],
-      "periods": [],
-      "matchedTotal": 0
-    },
-    "txn:89268": {
-      "descendantTaxonIds": [
-        "txn:89268"
-      ],
-      "periods": [],
-      "matchedTotal": 0
-    },
-    "txn:54657": {
-      "descendantTaxonIds": [
-        "txn:54657"
-      ],
-      "periods": [],
-      "matchedTotal": 0
-    },
-    "txn:54572": {
-      "descendantTaxonIds": [
-        "txn:54572",
-        "txn:54969",
-        "txn:63027",
-        "txn:35521",
-        "txn:54783",
-        "txn:89195",
-        "txn:57639",
-        "txn:63077",
-        "txn:130709",
-        "txn:137279",
-        "txn:36326",
-        "txn:64075",
-        "txn:67329",
-        "txn:37427",
-        "txn:37428",
-        "txn:67216",
-        "txn:67325",
-        "txn:67327",
-        "txn:38903",
-        "txn:67328",
-        "txn:38981",
-        "txn:67330",
-        "txn:36651",
-        "txn:39733",
-        "txn:41409",
-        "txn:40587",
-        "txn:40210",
-        "txn:106418",
-        "txn:43027",
-        "txn:49711",
-        "txn:42938",
-        "txn:42987",
-        "txn:65579",
-        "txn:43079",
-        "txn:43095",
-        "txn:43102",
-        "txn:43179",
-        "txn:43161",
-        "txn:43104",
-        "txn:43226",
-        "txn:43197",
-        "txn:36985",
-        "txn:41046",
-        "txn:41047",
-        "txn:41234",
-        "txn:36652",
-        "txn:53282",
-        "txn:40700",
-        "txn:40841",
-        "txn:40842",
-        "txn:83088",
-        "txn:83089",
-        "txn:43261",
-        "txn:43262",
-        "txn:40667",
-        "txn:41367",
-        "txn:67326",
-        "txn:37661",
-        "txn:38118",
-        "txn:38119",
-        "txn:38141",
-        "txn:38177",
-        "txn:37808",
-        "txn:37809",
-        "txn:38045",
-        "txn:38596",
-        "txn:53181",
-        "txn:38480",
-        "txn:38481",
-        "txn:52777",
-        "txn:52776",
-        "txn:52783",
-        "txn:52790",
-        "txn:52791",
-        "txn:52796",
-        "txn:52798",
-        "txn:52804",
-        "txn:52805",
-        "txn:52775",
-        "txn:52834",
-        "txn:52835",
-        "txn:52841",
-        "txn:52868",
-        "txn:52859",
-        "txn:38602",
-        "txn:38603",
-        "txn:52860",
-        "txn:52861",
-        "txn:38595",
-        "txn:38598",
-        "txn:36622",
-        "txn:36623",
-        "txn:40033",
-        "txn:53564"
-      ],
-      "periods": [
-        "Neogene",
-        "Quaternary"
-      ],
-      "matchedTotal": 3
-    },
-    "txn:54969": {
-      "descendantTaxonIds": [
-        "txn:54969",
-        "txn:63027",
-        "txn:35521"
-      ],
-      "periods": [],
-      "matchedTotal": 0
-    },
-    "txn:63027": {
-      "descendantTaxonIds": [
-        "txn:63027",
-        "txn:35521"
-      ],
-      "periods": [],
-      "matchedTotal": 0
-    },
-    "txn:35521": {
-      "descendantTaxonIds": [
-        "txn:35521"
-      ],
-      "periods": [],
-      "matchedTotal": 0
-    },
-    "txn:54783": {
-      "descendantTaxonIds": [
-        "txn:54783",
-        "txn:89195",
-        "txn:57639",
-        "txn:63077",
-        "txn:130709",
-        "txn:137279",
-        "txn:36326",
-        "txn:64075",
-        "txn:67329",
-        "txn:37427",
-        "txn:37428",
-        "txn:67216",
-        "txn:67325",
-        "txn:67327",
-        "txn:38903",
-        "txn:67328",
-        "txn:38981",
-        "txn:67330",
-        "txn:36651",
-        "txn:39733",
-        "txn:41409",
-        "txn:40587",
-        "txn:40210",
-        "txn:106418",
-        "txn:43027",
-        "txn:49711",
-        "txn:42938",
-        "txn:42987",
-        "txn:65579",
-        "txn:43079",
-        "txn:43095",
-        "txn:43102",
-        "txn:43179",
-        "txn:43161",
-        "txn:43104",
-        "txn:43226",
-        "txn:43197",
-        "txn:36985",
-        "txn:41046",
-        "txn:41047",
-        "txn:41234",
-        "txn:36652",
-        "txn:53282",
-        "txn:40700",
-        "txn:40841",
-        "txn:40842",
-        "txn:83088",
-        "txn:83089",
-        "txn:43261",
-        "txn:43262",
-        "txn:40667",
-        "txn:41367",
-        "txn:67326",
-        "txn:37661",
-        "txn:38118",
-        "txn:38119",
-        "txn:38141",
-        "txn:38177",
-        "txn:37808",
-        "txn:37809",
-        "txn:38045",
-        "txn:38596",
-        "txn:53181",
-        "txn:38480",
-        "txn:38481",
-        "txn:52777",
-        "txn:52776",
-        "txn:52783",
-        "txn:52790",
-        "txn:52791",
-        "txn:52796",
-        "txn:52798",
-        "txn:52804",
-        "txn:52805",
-        "txn:52775",
-        "txn:52834",
-        "txn:52835",
-        "txn:52841",
-        "txn:52868",
-        "txn:52859",
-        "txn:38602",
-        "txn:38603",
-        "txn:52860",
-        "txn:52861",
-        "txn:38595",
-        "txn:38598",
-        "txn:36622",
-        "txn:36623",
-        "txn:40033",
-        "txn:53564"
-      ],
-      "periods": [
-        "Neogene",
-        "Quaternary"
-      ],
-      "matchedTotal": 3
-    },
-    "txn:89195": {
-      "descendantTaxonIds": [
-        "txn:89195"
-      ],
-      "periods": [],
-      "matchedTotal": 0
-    },
-    "txn:57639": {
-      "descendantTaxonIds": [
-        "txn:57639"
-      ],
-      "periods": [],
-      "matchedTotal": 0
-    },
-    "txn:63077": {
-      "descendantTaxonIds": [
-        "txn:63077",
-        "txn:130709"
-      ],
-      "periods": [],
-      "matchedTotal": 0
-    },
-    "txn:130709": {
-      "descendantTaxonIds": [
-        "txn:130709"
-      ],
-      "periods": [],
-      "matchedTotal": 0
-    },
-    "txn:137279": {
-      "descendantTaxonIds": [
-        "txn:137279",
-        "txn:36326",
-        "txn:64075",
-        "txn:67329",
-        "txn:37427",
-        "txn:37428",
-        "txn:67216",
-        "txn:67325",
-        "txn:67327",
-        "txn:38903",
-        "txn:67328",
-        "txn:38981",
-        "txn:67330",
-        "txn:36651",
-        "txn:39733",
-        "txn:41409",
-        "txn:40587",
-        "txn:40210",
-        "txn:106418",
-        "txn:43027",
-        "txn:49711",
-        "txn:42938",
-        "txn:42987",
-        "txn:65579",
-        "txn:43079",
-        "txn:43095",
-        "txn:43102",
-        "txn:43179",
-        "txn:43161",
-        "txn:43104",
-        "txn:43226",
-        "txn:43197",
-        "txn:36985",
-        "txn:41046",
-        "txn:41047",
-        "txn:41234",
-        "txn:36652",
-        "txn:53282",
-        "txn:40700",
-        "txn:40841",
-        "txn:40842",
-        "txn:83088",
-        "txn:83089",
-        "txn:43261",
-        "txn:43262",
-        "txn:40667",
-        "txn:41367",
-        "txn:67326",
-        "txn:37661",
-        "txn:38118",
-        "txn:38119",
-        "txn:38141",
-        "txn:38177",
-        "txn:37808",
-        "txn:37809",
-        "txn:38045",
-        "txn:38596",
-        "txn:53181",
-        "txn:38480",
-        "txn:38481",
-        "txn:52777",
-        "txn:52776",
-        "txn:52783",
-        "txn:52790",
-        "txn:52791",
-        "txn:52796",
-        "txn:52798",
-        "txn:52804",
-        "txn:52805",
-        "txn:52775",
-        "txn:52834",
-        "txn:52835",
-        "txn:52841",
-        "txn:52868",
-        "txn:52859",
-        "txn:38602",
-        "txn:38603",
-        "txn:52860",
-        "txn:52861",
-        "txn:38595",
-        "txn:38598",
-        "txn:36622",
-        "txn:36623",
-        "txn:40033",
-        "txn:53564"
-      ],
-      "periods": [
-        "Neogene",
-        "Quaternary"
-      ],
-      "matchedTotal": 3
-    },
-    "txn:36326": {
-      "descendantTaxonIds": [
-        "txn:36326",
-        "txn:64075",
-        "txn:67329",
-        "txn:37427",
-        "txn:37428"
-      ],
-      "periods": [],
-      "matchedTotal": 0
-    },
-    "txn:64075": {
-      "descendantTaxonIds": [
-        "txn:64075"
-      ],
-      "periods": [],
-      "matchedTotal": 0
-    },
-    "txn:67329": {
-      "descendantTaxonIds": [
-        "txn:67329",
-        "txn:37427",
-        "txn:37428"
-      ],
-      "periods": [],
-      "matchedTotal": 0
-    },
-    "txn:37427": {
-      "descendantTaxonIds": [
-        "txn:37427"
-      ],
-      "periods": [],
-      "matchedTotal": 0
-    },
-    "txn:37428": {
-      "descendantTaxonIds": [
-        "txn:37428"
-      ],
-      "periods": [],
-      "matchedTotal": 0
-    },
-    "txn:67216": {
-      "descendantTaxonIds": [
-        "txn:67216",
-        "txn:67325",
-        "txn:67327",
-        "txn:38903",
-        "txn:67328",
-        "txn:38981",
-        "txn:67330",
-        "txn:36651",
-        "txn:39733",
-        "txn:41409",
-        "txn:40587",
-        "txn:40210",
-        "txn:106418",
-        "txn:43027",
-        "txn:49711",
-        "txn:42938",
-        "txn:42987",
-        "txn:65579",
-        "txn:43079",
-        "txn:43095",
-        "txn:43102",
-        "txn:43179",
-        "txn:43161",
-        "txn:43104",
-        "txn:43226",
-        "txn:43197",
-        "txn:36985",
-        "txn:41046",
-        "txn:41047",
-        "txn:41234",
-        "txn:36652",
-        "txn:53282",
-        "txn:40700",
-        "txn:40841",
-        "txn:40842",
-        "txn:83088",
-        "txn:83089",
-        "txn:43261",
-        "txn:43262",
-        "txn:40667",
-        "txn:41367",
-        "txn:67326",
-        "txn:37661",
-        "txn:38118",
-        "txn:38119",
-        "txn:38141",
-        "txn:38177",
-        "txn:37808",
-        "txn:37809",
-        "txn:38045",
-        "txn:38596",
-        "txn:53181",
-        "txn:38480",
-        "txn:38481",
-        "txn:52777",
-        "txn:52776",
-        "txn:52783",
-        "txn:52790",
-        "txn:52791",
-        "txn:52796",
-        "txn:52798",
-        "txn:52804",
-        "txn:52805",
-        "txn:52775",
-        "txn:52834",
-        "txn:52835",
-        "txn:52841",
-        "txn:52868",
-        "txn:52859",
-        "txn:38602",
-        "txn:38603",
-        "txn:52860",
-        "txn:52861",
-        "txn:38595",
-        "txn:38598",
-        "txn:36622",
-        "txn:36623",
-        "txn:40033",
-        "txn:53564"
-      ],
-      "periods": [
-        "Neogene",
-        "Quaternary"
-      ],
-      "matchedTotal": 3
-    },
-    "txn:67325": {
-      "descendantTaxonIds": [
-        "txn:67325",
-        "txn:67327",
-        "txn:38903",
-        "txn:67328",
-        "txn:38981",
-        "txn:67330",
-        "txn:36651",
-        "txn:39733",
-        "txn:41409",
-        "txn:40587",
-        "txn:40210",
-        "txn:106418",
-        "txn:43027",
-        "txn:49711",
-        "txn:42938",
-        "txn:42987",
-        "txn:65579",
-        "txn:43079",
-        "txn:43095",
-        "txn:43102",
-        "txn:43179",
-        "txn:43161",
-        "txn:43104",
-        "txn:43226",
-        "txn:43197",
-        "txn:36985",
-        "txn:41046",
-        "txn:41047",
-        "txn:41234",
-        "txn:36652",
-        "txn:53282",
-        "txn:40700",
-        "txn:40841",
-        "txn:40842",
-        "txn:83088",
-        "txn:83089",
-        "txn:43261",
-        "txn:43262",
-        "txn:40667",
-        "txn:41367"
-      ],
-      "periods": [
-        "Neogene",
-        "Quaternary"
-      ],
-      "matchedTotal": 3
-    },
-    "txn:67327": {
-      "descendantTaxonIds": [
-        "txn:67327",
-        "txn:38903"
-      ],
-      "periods": [],
-      "matchedTotal": 0
-    },
-    "txn:38903": {
-      "descendantTaxonIds": [
-        "txn:38903"
-      ],
-      "periods": [],
-      "matchedTotal": 0
-    },
-    "txn:67328": {
-      "descendantTaxonIds": [
-        "txn:67328",
-        "txn:38981",
-        "txn:67330",
-        "txn:36651",
-        "txn:39733",
-        "txn:41409",
-        "txn:40587",
-        "txn:40210",
-        "txn:106418",
-        "txn:43027",
-        "txn:49711",
-        "txn:42938",
-        "txn:42987",
-        "txn:65579",
-        "txn:43079",
-        "txn:43095",
-        "txn:43102",
-        "txn:43179",
-        "txn:43161",
-        "txn:43104",
-        "txn:43226",
-        "txn:43197",
-        "txn:36985",
-        "txn:41046",
-        "txn:41047",
-        "txn:41234",
-        "txn:36652",
-        "txn:53282",
-        "txn:40700",
-        "txn:40841",
-        "txn:40842",
-        "txn:83088",
-        "txn:83089",
-        "txn:43261",
-        "txn:43262",
-        "txn:40667",
-        "txn:41367"
-      ],
-      "periods": [
-        "Neogene",
-        "Quaternary"
-      ],
-      "matchedTotal": 3
-    },
-    "txn:38981": {
-      "descendantTaxonIds": [
-        "txn:38981"
-      ],
-      "periods": [],
-      "matchedTotal": 0
-    },
-    "txn:67330": {
-      "descendantTaxonIds": [
-        "txn:67330",
-        "txn:36651",
-        "txn:39733",
-        "txn:41409",
-        "txn:40587",
-        "txn:40210",
-        "txn:106418",
-        "txn:43027",
-        "txn:49711",
-        "txn:42938",
-        "txn:42987",
-        "txn:65579",
-        "txn:43079",
-        "txn:43095",
-        "txn:43102",
-        "txn:43179",
-        "txn:43161",
-        "txn:43104",
-        "txn:43226",
-        "txn:43197",
-        "txn:36985",
-        "txn:41046",
-        "txn:41047",
-        "txn:41234",
-        "txn:36652",
-        "txn:53282",
-        "txn:40700",
-        "txn:40841",
-        "txn:40842",
-        "txn:83088",
-        "txn:83089",
-        "txn:43261",
-        "txn:43262",
-        "txn:40667",
-        "txn:41367"
-      ],
-      "periods": [
-        "Neogene",
-        "Quaternary"
-      ],
-      "matchedTotal": 3
+      "matchedTotal": 2
     },
     "txn:36651": {
       "descendantTaxonIds": [
         "txn:36651",
-        "txn:39733",
-        "txn:41409",
-        "txn:40587",
-        "txn:40210",
+        "txn:39737",
+        "txn:247806",
+        "txn:66275",
         "txn:106418",
         "txn:43027",
         "txn:49711",
-        "txn:42938",
+        "txn:42984",
         "txn:42987",
         "txn:65579",
         "txn:43079",
-        "txn:43095",
-        "txn:43102",
+        "txn:43104",
+        "txn:43140",
         "txn:43179",
         "txn:43161",
-        "txn:43104",
+        "txn:43187",
         "txn:43226",
         "txn:43197",
-        "txn:36985",
-        "txn:41046",
-        "txn:41047",
-        "txn:41234",
+        "txn:36905",
+        "txn:41045",
+        "txn:41079",
+        "txn:41189",
         "txn:36652",
-        "txn:53282",
+        "txn:42936",
         "txn:40700",
-        "txn:40841",
-        "txn:40842",
+        "txn:40899",
+        "txn:40901",
         "txn:83088",
-        "txn:83089",
-        "txn:43261",
-        "txn:43262",
-        "txn:40667",
-        "txn:41367"
+        "txn:83087",
+        "txn:43230",
+        "txn:43266",
+        "txn:40622",
+        "txn:41370"
+      ],
+      "descendantScientificNames": [
+        "mammalia",
+        "monotremata",
+        "marsupialia",
+        "diprotodontia",
+        "placentalia",
+        "perissodactyla",
+        "brontotheriidae",
+        "hippomorpha",
+        "palaeotherium",
+        "equidae",
+        "anchitherium",
+        "hipparionini",
+        "ancylopoda",
+        "chalicotherium",
+        "ceratomorpha",
+        "tapiroidea",
+        "rhinocerotoidea",
+        "metamynodon",
+        "paraceratherium",
+        "rhinocerotidae",
+        "teleoceras",
+        "coelodonta",
+        "carnivora",
+        "felidae",
+        "smilodon",
+        "canidae",
+        "cetacea",
+        "basilosauridae",
+        "primates",
+        "hominidae",
+        "homo",
+        "homo sapiens",
+        "homo neanderthalensis",
+        "proboscidea",
+        "mammuthus",
+        "chiroptera",
+        "rodentia"
+      ],
+      "matchingMethods": [
+        "accepted-pbdb-id",
+        "pbdb-higher-classification-name"
       ],
       "periods": [
         "Neogene",
         "Quaternary"
       ],
-      "matchedTotal": 3
+      "matchedTotal": 1356
     },
-    "txn:39733": {
+    "txn:39737": {
       "descendantTaxonIds": [
-        "txn:39733"
+        "txn:39737"
       ],
-      "periods": [],
-      "matchedTotal": 0
-    },
-    "txn:41409": {
-      "descendantTaxonIds": [
-        "txn:41409",
-        "txn:40587"
+      "descendantScientificNames": [
+        "monotremata"
       ],
-      "periods": [],
-      "matchedTotal": 0
-    },
-    "txn:40587": {
-      "descendantTaxonIds": [
-        "txn:40587"
-      ],
-      "periods": [],
-      "matchedTotal": 0
-    },
-    "txn:40210": {
-      "descendantTaxonIds": [
-        "txn:40210",
-        "txn:106418",
-        "txn:43027",
-        "txn:49711",
-        "txn:42938",
-        "txn:42987",
-        "txn:65579",
-        "txn:43079",
-        "txn:43095",
-        "txn:43102",
-        "txn:43179",
-        "txn:43161",
-        "txn:43104",
-        "txn:43226",
-        "txn:43197",
-        "txn:36985",
-        "txn:41046",
-        "txn:41047",
-        "txn:41234",
-        "txn:36652",
-        "txn:53282",
-        "txn:40700",
-        "txn:40841",
-        "txn:40842",
-        "txn:83088",
-        "txn:83089",
-        "txn:43261",
-        "txn:43262",
-        "txn:40667",
-        "txn:41367"
+      "matchingMethods": [
+        "accepted-pbdb-id",
+        "pbdb-higher-classification-name"
       ],
       "periods": [
-        "Neogene",
         "Quaternary"
       ],
-      "matchedTotal": 3
+      "matchedTotal": 2
+    },
+    "txn:247806": {
+      "descendantTaxonIds": [
+        "txn:247806",
+        "txn:66275"
+      ],
+      "descendantScientificNames": [
+        "marsupialia",
+        "diprotodontia"
+      ],
+      "matchingMethods": [
+        "accepted-pbdb-id",
+        "pbdb-higher-classification-name"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "matchedTotal": 19
+    },
+    "txn:66275": {
+      "descendantTaxonIds": [
+        "txn:66275"
+      ],
+      "descendantScientificNames": [
+        "diprotodontia"
+      ],
+      "matchingMethods": [
+        "accepted-pbdb-id",
+        "pbdb-higher-classification-name"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "matchedTotal": 19
     },
     "txn:106418": {
       "descendantTaxonIds": [
         "txn:106418",
         "txn:43027",
         "txn:49711",
-        "txn:42938",
+        "txn:42984",
         "txn:42987",
         "txn:65579",
         "txn:43079",
-        "txn:43095",
-        "txn:43102",
+        "txn:43104",
+        "txn:43140",
         "txn:43179",
         "txn:43161",
-        "txn:43104",
+        "txn:43187",
         "txn:43226",
         "txn:43197"
       ],
-      "periods": [],
-      "matchedTotal": 0
+      "descendantScientificNames": [
+        "perissodactyla",
+        "brontotheriidae",
+        "hippomorpha",
+        "palaeotherium",
+        "equidae",
+        "anchitherium",
+        "hipparionini",
+        "ancylopoda",
+        "chalicotherium",
+        "ceratomorpha",
+        "tapiroidea",
+        "rhinocerotoidea",
+        "metamynodon",
+        "paraceratherium",
+        "rhinocerotidae",
+        "teleoceras",
+        "coelodonta"
+      ],
+      "matchingMethods": [
+        "accepted-pbdb-id",
+        "pbdb-higher-classification-name"
+      ],
+      "periods": [
+        "Neogene",
+        "Quaternary"
+      ],
+      "matchedTotal": 154
     },
     "txn:43027": {
       "descendantTaxonIds": [
         "txn:43027"
+      ],
+      "descendantScientificNames": [
+        "brontotheriidae"
+      ],
+      "matchingMethods": [
+        "accepted-pbdb-id",
+        "pbdb-higher-classification-name"
       ],
       "periods": [],
       "matchedTotal": 0
@@ -1678,21 +1998,47 @@
       "descendantTaxonIds": [
         "txn:49711"
       ],
-      "periods": [],
-      "matchedTotal": 0
-    },
-    "txn:42938": {
-      "descendantTaxonIds": [
-        "txn:42938",
-        "txn:42987",
-        "txn:65579"
+      "descendantScientificNames": [
+        "palaeotherium"
+      ],
+      "matchingMethods": [
+        "accepted-pbdb-id",
+        "pbdb-higher-classification-name"
       ],
       "periods": [],
       "matchedTotal": 0
     },
+    "txn:42984": {
+      "descendantTaxonIds": [
+        "txn:42984",
+        "txn:42987",
+        "txn:65579"
+      ],
+      "descendantScientificNames": [
+        "equidae",
+        "anchitherium",
+        "hipparionini"
+      ],
+      "matchingMethods": [
+        "accepted-pbdb-id",
+        "pbdb-higher-classification-name"
+      ],
+      "periods": [
+        "Neogene",
+        "Quaternary"
+      ],
+      "matchedTotal": 111
+    },
     "txn:42987": {
       "descendantTaxonIds": [
         "txn:42987"
+      ],
+      "descendantScientificNames": [
+        "anchitherium"
+      ],
+      "matchingMethods": [
+        "accepted-pbdb-id",
+        "pbdb-higher-classification-name"
       ],
       "periods": [],
       "matchedTotal": 0
@@ -1701,6 +2047,13 @@
       "descendantTaxonIds": [
         "txn:65579"
       ],
+      "descendantScientificNames": [
+        "hipparionini"
+      ],
+      "matchingMethods": [
+        "accepted-pbdb-id",
+        "pbdb-higher-classification-name"
+      ],
       "periods": [],
       "matchedTotal": 0
     },
@@ -1708,31 +2061,69 @@
       "descendantTaxonIds": [
         "txn:43079"
       ],
-      "periods": [],
-      "matchedTotal": 0
+      "descendantScientificNames": [
+        "chalicotherium"
+      ],
+      "matchingMethods": [
+        "accepted-pbdb-id",
+        "pbdb-higher-classification-name"
+      ],
+      "periods": [
+        "Neogene"
+      ],
+      "matchedTotal": 3
     },
-    "txn:43095": {
+    "txn:43104": {
       "descendantTaxonIds": [
-        "txn:43095"
+        "txn:43104"
+      ],
+      "descendantScientificNames": [
+        "tapiroidea"
+      ],
+      "matchingMethods": [
+        "accepted-pbdb-id",
+        "pbdb-higher-classification-name"
       ],
       "periods": [],
       "matchedTotal": 0
     },
-    "txn:43102": {
+    "txn:43140": {
       "descendantTaxonIds": [
-        "txn:43102",
+        "txn:43140",
         "txn:43179",
         "txn:43161",
-        "txn:43104",
+        "txn:43187",
         "txn:43226",
         "txn:43197"
       ],
-      "periods": [],
-      "matchedTotal": 0
+      "descendantScientificNames": [
+        "rhinocerotoidea",
+        "metamynodon",
+        "paraceratherium",
+        "rhinocerotidae",
+        "teleoceras",
+        "coelodonta"
+      ],
+      "matchingMethods": [
+        "accepted-pbdb-id",
+        "pbdb-higher-classification-name"
+      ],
+      "periods": [
+        "Neogene",
+        "Quaternary"
+      ],
+      "matchedTotal": 30
     },
     "txn:43179": {
       "descendantTaxonIds": [
         "txn:43179"
+      ],
+      "descendantScientificNames": [
+        "metamynodon"
+      ],
+      "matchingMethods": [
+        "accepted-pbdb-id",
+        "pbdb-higher-classification-name"
       ],
       "periods": [],
       "matchedTotal": 0
@@ -1741,21 +2132,47 @@
       "descendantTaxonIds": [
         "txn:43161"
       ],
-      "periods": [],
-      "matchedTotal": 0
-    },
-    "txn:43104": {
-      "descendantTaxonIds": [
-        "txn:43104",
-        "txn:43226",
-        "txn:43197"
+      "descendantScientificNames": [
+        "paraceratherium"
+      ],
+      "matchingMethods": [
+        "accepted-pbdb-id",
+        "pbdb-higher-classification-name"
       ],
       "periods": [],
       "matchedTotal": 0
     },
+    "txn:43187": {
+      "descendantTaxonIds": [
+        "txn:43187",
+        "txn:43226",
+        "txn:43197"
+      ],
+      "descendantScientificNames": [
+        "rhinocerotidae",
+        "teleoceras",
+        "coelodonta"
+      ],
+      "matchingMethods": [
+        "accepted-pbdb-id",
+        "pbdb-higher-classification-name"
+      ],
+      "periods": [
+        "Neogene",
+        "Quaternary"
+      ],
+      "matchedTotal": 30
+    },
     "txn:43226": {
       "descendantTaxonIds": [
         "txn:43226"
+      ],
+      "descendantScientificNames": [
+        "teleoceras"
+      ],
+      "matchingMethods": [
+        "accepted-pbdb-id",
+        "pbdb-higher-classification-name"
       ],
       "periods": [],
       "matchedTotal": 0
@@ -1764,54 +2181,119 @@
       "descendantTaxonIds": [
         "txn:43197"
       ],
-      "periods": [],
-      "matchedTotal": 0
-    },
-    "txn:36985": {
-      "descendantTaxonIds": [
-        "txn:36985",
-        "txn:41046",
-        "txn:41047",
-        "txn:41234"
+      "descendantScientificNames": [
+        "coelodonta"
+      ],
+      "matchingMethods": [
+        "accepted-pbdb-id",
+        "pbdb-higher-classification-name"
       ],
       "periods": [],
       "matchedTotal": 0
     },
-    "txn:41046": {
+    "txn:36905": {
       "descendantTaxonIds": [
-        "txn:41046",
-        "txn:41047"
+        "txn:36905",
+        "txn:41045",
+        "txn:41079",
+        "txn:41189"
       ],
-      "periods": [],
-      "matchedTotal": 0
+      "descendantScientificNames": [
+        "carnivora",
+        "felidae",
+        "smilodon",
+        "canidae"
+      ],
+      "matchingMethods": [
+        "accepted-pbdb-id",
+        "pbdb-higher-classification-name"
+      ],
+      "periods": [
+        "Neogene",
+        "Quaternary"
+      ],
+      "matchedTotal": 155
     },
-    "txn:41047": {
+    "txn:41045": {
       "descendantTaxonIds": [
-        "txn:41047"
+        "txn:41045",
+        "txn:41079"
       ],
-      "periods": [],
-      "matchedTotal": 0
+      "descendantScientificNames": [
+        "felidae",
+        "smilodon"
+      ],
+      "matchingMethods": [
+        "accepted-pbdb-id",
+        "pbdb-higher-classification-name"
+      ],
+      "periods": [
+        "Neogene",
+        "Quaternary"
+      ],
+      "matchedTotal": 44
     },
-    "txn:41234": {
+    "txn:41079": {
       "descendantTaxonIds": [
-        "txn:41234"
+        "txn:41079"
       ],
-      "periods": [],
-      "matchedTotal": 0
+      "descendantScientificNames": [
+        "smilodon"
+      ],
+      "matchingMethods": [
+        "accepted-pbdb-id",
+        "pbdb-higher-classification-name"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "matchedTotal": 3
+    },
+    "txn:41189": {
+      "descendantTaxonIds": [
+        "txn:41189"
+      ],
+      "descendantScientificNames": [
+        "canidae"
+      ],
+      "matchingMethods": [
+        "accepted-pbdb-id",
+        "pbdb-higher-classification-name"
+      ],
+      "periods": [
+        "Neogene",
+        "Quaternary"
+      ],
+      "matchedTotal": 29
     },
     "txn:36652": {
       "descendantTaxonIds": [
         "txn:36652",
-        "txn:53282"
+        "txn:42936"
+      ],
+      "descendantScientificNames": [
+        "cetacea",
+        "basilosauridae"
+      ],
+      "matchingMethods": [
+        "accepted-pbdb-id",
+        "pbdb-higher-classification-name"
       ],
       "periods": [
         "Neogene"
       ],
-      "matchedTotal": 1
+      "matchedTotal": 10
     },
-    "txn:53282": {
+    "txn:42936": {
       "descendantTaxonIds": [
-        "txn:53282"
+        "txn:42936"
+      ],
+      "descendantScientificNames": [
+        "basilosauridae"
+      ],
+      "matchingMethods": [
+        "accepted-pbdb-id",
+        "pbdb-higher-classification-name"
       ],
       "periods": [],
       "matchedTotal": 0
@@ -1819,33 +2301,65 @@
     "txn:40700": {
       "descendantTaxonIds": [
         "txn:40700",
-        "txn:40841",
-        "txn:40842",
+        "txn:40899",
+        "txn:40901",
         "txn:83088",
-        "txn:83089"
+        "txn:83087"
+      ],
+      "descendantScientificNames": [
+        "primates",
+        "hominidae",
+        "homo",
+        "homo sapiens",
+        "homo neanderthalensis"
+      ],
+      "matchingMethods": [
+        "accepted-pbdb-id",
+        "pbdb-higher-classification-name"
       ],
       "periods": [
+        "Neogene",
         "Quaternary"
       ],
-      "matchedTotal": 2
+      "matchedTotal": 42
     },
-    "txn:40841": {
+    "txn:40899": {
       "descendantTaxonIds": [
-        "txn:40841",
-        "txn:40842",
+        "txn:40899",
+        "txn:40901",
         "txn:83088",
-        "txn:83089"
+        "txn:83087"
+      ],
+      "descendantScientificNames": [
+        "hominidae",
+        "homo",
+        "homo sapiens",
+        "homo neanderthalensis"
+      ],
+      "matchingMethods": [
+        "accepted-pbdb-id",
+        "pbdb-higher-classification-name"
       ],
       "periods": [
+        "Neogene",
         "Quaternary"
       ],
-      "matchedTotal": 2
+      "matchedTotal": 6
     },
-    "txn:40842": {
+    "txn:40901": {
       "descendantTaxonIds": [
-        "txn:40842",
+        "txn:40901",
         "txn:83088",
-        "txn:83089"
+        "txn:83087"
+      ],
+      "descendantScientificNames": [
+        "homo",
+        "homo sapiens",
+        "homo neanderthalensis"
+      ],
+      "matchingMethods": [
+        "accepted-pbdb-id",
+        "pbdb-higher-classification-name"
       ],
       "periods": [
         "Quaternary"
@@ -1856,401 +2370,356 @@
       "descendantTaxonIds": [
         "txn:83088"
       ],
+      "descendantScientificNames": [
+        "homo sapiens"
+      ],
+      "matchingMethods": [
+        "accepted-pbdb-id",
+        "pbdb-higher-classification-name"
+      ],
       "periods": [
         "Quaternary"
       ],
       "matchedTotal": 2
     },
-    "txn:83089": {
+    "txn:83087": {
       "descendantTaxonIds": [
-        "txn:83089"
+        "txn:83087"
+      ],
+      "descendantScientificNames": [
+        "homo neanderthalensis"
+      ],
+      "matchingMethods": [
+        "accepted-pbdb-id",
+        "pbdb-higher-classification-name"
       ],
       "periods": [],
       "matchedTotal": 0
     },
-    "txn:43261": {
+    "txn:43230": {
       "descendantTaxonIds": [
-        "txn:43261",
-        "txn:43262"
+        "txn:43230",
+        "txn:43266"
+      ],
+      "descendantScientificNames": [
+        "proboscidea",
+        "mammuthus"
+      ],
+      "matchingMethods": [
+        "accepted-pbdb-id",
+        "pbdb-higher-classification-name"
+      ],
+      "periods": [
+        "Neogene",
+        "Quaternary"
+      ],
+      "matchedTotal": 51
+    },
+    "txn:43266": {
+      "descendantTaxonIds": [
+        "txn:43266"
+      ],
+      "descendantScientificNames": [
+        "mammuthus"
+      ],
+      "matchingMethods": [
+        "accepted-pbdb-id",
+        "pbdb-higher-classification-name"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "matchedTotal": 3
+    },
+    "txn:40622": {
+      "descendantTaxonIds": [
+        "txn:40622"
+      ],
+      "descendantScientificNames": [
+        "chiroptera"
+      ],
+      "matchingMethods": [
+        "accepted-pbdb-id",
+        "pbdb-higher-classification-name"
+      ],
+      "periods": [
+        "Neogene",
+        "Quaternary"
+      ],
+      "matchedTotal": 55
+    },
+    "txn:41370": {
+      "descendantTaxonIds": [
+        "txn:41370"
+      ],
+      "descendantScientificNames": [
+        "rodentia"
+      ],
+      "matchingMethods": [
+        "accepted-pbdb-id",
+        "pbdb-higher-classification-name"
+      ],
+      "periods": [
+        "Neogene",
+        "Quaternary"
+      ],
+      "matchedTotal": 394
+    },
+    "txn:56475": {
+      "descendantTaxonIds": [
+        "txn:56475"
+      ],
+      "descendantScientificNames": [
+        "testudines"
+      ],
+      "matchingMethods": [
+        "accepted-pbdb-id",
+        "pbdb-higher-classification-name"
+      ],
+      "periods": [
+        "Neogene",
+        "Quaternary"
+      ],
+      "matchedTotal": 17
+    },
+    "txn:36558": {
+      "descendantTaxonIds": [
+        "txn:36558"
+      ],
+      "descendantScientificNames": [
+        "ichthyosaurus"
+      ],
+      "matchingMethods": [
+        "accepted-pbdb-id",
+        "pbdb-higher-classification-name"
+      ],
+      "periods": [
+        "Jurassic"
+      ],
+      "matchedTotal": 1
+    },
+    "txn:36454": {
+      "descendantTaxonIds": [
+        "txn:36454",
+        "txn:38175"
+      ],
+      "descendantScientificNames": [
+        "plesiosauria",
+        "elasmosauridae"
+      ],
+      "matchingMethods": [
+        "accepted-pbdb-id",
+        "pbdb-higher-classification-name"
       ],
       "periods": [],
       "matchedTotal": 0
     },
-    "txn:43262": {
+    "txn:38175": {
       "descendantTaxonIds": [
-        "txn:43262"
+        "txn:38175"
+      ],
+      "descendantScientificNames": [
+        "elasmosauridae"
+      ],
+      "matchingMethods": [
+        "accepted-pbdb-id",
+        "pbdb-higher-classification-name"
       ],
       "periods": [],
       "matchedTotal": 0
     },
-    "txn:40667": {
+    "txn:95312": {
       "descendantTaxonIds": [
-        "txn:40667"
+        "txn:95312",
+        "txn:38049"
+      ],
+      "descendantScientificNames": [
+        "lepidosauria",
+        "squamata",
+        "mosasauridae"
+      ],
+      "matchingMethods": [
+        "accepted-pbdb-id",
+        "pbdb-higher-classification-name"
+      ],
+      "periods": [
+        "Neogene",
+        "Quaternary"
+      ],
+      "matchedTotal": 3
+    },
+    "txn:38049": {
+      "descendantTaxonIds": [
+        "txn:38049"
+      ],
+      "descendantScientificNames": [
+        "mosasauridae"
+      ],
+      "matchingMethods": [
+        "accepted-pbdb-id",
+        "pbdb-higher-classification-name"
       ],
       "periods": [],
       "matchedTotal": 0
     },
-    "txn:41367": {
+    "txn:38461": {
       "descendantTaxonIds": [
-        "txn:41367"
+        "txn:38461",
+        "txn:52933"
+      ],
+      "descendantScientificNames": [
+        "pterosauria",
+        "pteranodontidae"
+      ],
+      "matchingMethods": [
+        "accepted-pbdb-id",
+        "pbdb-higher-classification-name"
       ],
       "periods": [],
       "matchedTotal": 0
     },
-    "txn:67326": {
+    "txn:52933": {
       "descendantTaxonIds": [
-        "txn:67326",
-        "txn:37661",
-        "txn:38118",
-        "txn:38119",
-        "txn:38141",
-        "txn:38177",
-        "txn:37808",
-        "txn:37809",
-        "txn:38045",
-        "txn:38596",
-        "txn:53181",
-        "txn:38480",
-        "txn:38481",
-        "txn:52777",
-        "txn:52776",
-        "txn:52783",
-        "txn:52790",
-        "txn:52791",
-        "txn:52796",
-        "txn:52798",
-        "txn:52804",
-        "txn:52805",
-        "txn:52775",
-        "txn:52834",
-        "txn:52835",
-        "txn:52841",
-        "txn:52868",
-        "txn:52859",
-        "txn:38602",
-        "txn:38603",
-        "txn:52860",
-        "txn:52861",
-        "txn:38595",
-        "txn:38598",
-        "txn:36622",
-        "txn:36623",
-        "txn:40033",
-        "txn:53564"
+        "txn:52933"
+      ],
+      "descendantScientificNames": [
+        "pteranodontidae"
+      ],
+      "matchingMethods": [
+        "accepted-pbdb-id",
+        "pbdb-higher-classification-name"
       ],
       "periods": [],
       "matchedTotal": 0
     },
-    "txn:37661": {
+    "txn:38837": {
       "descendantTaxonIds": [
-        "txn:37661"
+        "txn:38837"
+      ],
+      "descendantScientificNames": [
+        "ankylosaurus"
+      ],
+      "matchingMethods": [
+        "accepted-pbdb-id",
+        "pbdb-higher-classification-name"
       ],
       "periods": [],
       "matchedTotal": 0
     },
-    "txn:38118": {
+    "txn:38842": {
       "descendantTaxonIds": [
-        "txn:38118",
-        "txn:38119"
+        "txn:38842",
+        "txn:38862"
+      ],
+      "descendantScientificNames": [
+        "ceratopsia",
+        "triceratops"
+      ],
+      "matchingMethods": [
+        "accepted-pbdb-id",
+        "pbdb-higher-classification-name"
       ],
       "periods": [],
       "matchedTotal": 0
     },
-    "txn:38119": {
+    "txn:38862": {
       "descendantTaxonIds": [
-        "txn:38119"
+        "txn:38862"
+      ],
+      "descendantScientificNames": [
+        "triceratops"
+      ],
+      "matchingMethods": [
+        "accepted-pbdb-id",
+        "pbdb-higher-classification-name"
       ],
       "periods": [],
       "matchedTotal": 0
     },
-    "txn:38141": {
+    "txn:38755": {
       "descendantTaxonIds": [
-        "txn:38141",
-        "txn:38177"
+        "txn:38755",
+        "txn:38761"
+      ],
+      "descendantScientificNames": [
+        "hadrosauridae",
+        "edmontosaurus"
+      ],
+      "matchingMethods": [
+        "accepted-pbdb-id",
+        "pbdb-higher-classification-name"
       ],
       "periods": [],
       "matchedTotal": 0
     },
-    "txn:38177": {
+    "txn:38761": {
       "descendantTaxonIds": [
-        "txn:38177"
+        "txn:38761"
+      ],
+      "descendantScientificNames": [
+        "edmontosaurus"
+      ],
+      "matchingMethods": [
+        "accepted-pbdb-id",
+        "pbdb-higher-classification-name"
       ],
       "periods": [],
       "matchedTotal": 0
     },
-    "txn:37808": {
+    "txn:38673": {
       "descendantTaxonIds": [
-        "txn:37808",
-        "txn:37809",
-        "txn:38045"
+        "txn:38673"
+      ],
+      "descendantScientificNames": [
+        "brachiosauridae"
+      ],
+      "matchingMethods": [
+        "accepted-pbdb-id",
+        "pbdb-higher-classification-name"
       ],
       "periods": [],
       "matchedTotal": 0
     },
-    "txn:37809": {
+    "txn:55585": {
       "descendantTaxonIds": [
-        "txn:37809"
+        "txn:55585"
+      ],
+      "descendantScientificNames": [
+        "titanosauria"
+      ],
+      "matchingMethods": [
+        "accepted-pbdb-id",
+        "pbdb-higher-classification-name"
       ],
       "periods": [],
       "matchedTotal": 0
     },
-    "txn:38045": {
+    "txn:38606": {
       "descendantTaxonIds": [
-        "txn:38045"
+        "txn:38606",
+        "txn:54833"
+      ],
+      "descendantScientificNames": [
+        "tyrannosauridae",
+        "tyrannosaurus rex"
+      ],
+      "matchingMethods": [
+        "accepted-pbdb-id",
+        "pbdb-higher-classification-name"
       ],
       "periods": [],
       "matchedTotal": 0
     },
-    "txn:38596": {
+    "txn:54833": {
       "descendantTaxonIds": [
-        "txn:38596",
-        "txn:53181",
-        "txn:38480",
-        "txn:38481",
-        "txn:52777",
-        "txn:52776",
-        "txn:52783",
-        "txn:52790",
-        "txn:52791",
-        "txn:52796",
-        "txn:52798",
-        "txn:52804",
-        "txn:52805",
-        "txn:52775",
-        "txn:52834",
-        "txn:52835",
-        "txn:52841",
-        "txn:52868",
-        "txn:52859",
-        "txn:38602",
-        "txn:38603",
-        "txn:52860",
-        "txn:52861",
-        "txn:38595",
-        "txn:38598",
-        "txn:36622",
-        "txn:36623",
-        "txn:40033",
-        "txn:53564"
+        "txn:54833"
       ],
-      "periods": [],
-      "matchedTotal": 0
-    },
-    "txn:53181": {
-      "descendantTaxonIds": [
-        "txn:53181"
+      "descendantScientificNames": [
+        "tyrannosaurus rex"
       ],
-      "periods": [],
-      "matchedTotal": 0
-    },
-    "txn:38480": {
-      "descendantTaxonIds": [
-        "txn:38480",
-        "txn:38481"
-      ],
-      "periods": [],
-      "matchedTotal": 0
-    },
-    "txn:38481": {
-      "descendantTaxonIds": [
-        "txn:38481"
-      ],
-      "periods": [],
-      "matchedTotal": 0
-    },
-    "txn:52777": {
-      "descendantTaxonIds": [
-        "txn:52777",
-        "txn:52776",
-        "txn:52783",
-        "txn:52790",
-        "txn:52791",
-        "txn:52796",
-        "txn:52798",
-        "txn:52804",
-        "txn:52805",
-        "txn:52775",
-        "txn:52834",
-        "txn:52835",
-        "txn:52841",
-        "txn:52868",
-        "txn:52859",
-        "txn:38602",
-        "txn:38603",
-        "txn:52860",
-        "txn:52861",
-        "txn:38595",
-        "txn:38598",
-        "txn:36622",
-        "txn:36623",
-        "txn:40033",
-        "txn:53564"
-      ],
-      "periods": [],
-      "matchedTotal": 0
-    },
-    "txn:52776": {
-      "descendantTaxonIds": [
-        "txn:52776",
-        "txn:52783",
-        "txn:52790",
-        "txn:52791",
-        "txn:52796",
-        "txn:52798",
-        "txn:52804",
-        "txn:52805"
-      ],
-      "periods": [],
-      "matchedTotal": 0
-    },
-    "txn:52783": {
-      "descendantTaxonIds": [
-        "txn:52783"
-      ],
-      "periods": [],
-      "matchedTotal": 0
-    },
-    "txn:52790": {
-      "descendantTaxonIds": [
-        "txn:52790",
-        "txn:52791"
-      ],
-      "periods": [],
-      "matchedTotal": 0
-    },
-    "txn:52791": {
-      "descendantTaxonIds": [
-        "txn:52791"
-      ],
-      "periods": [],
-      "matchedTotal": 0
-    },
-    "txn:52796": {
-      "descendantTaxonIds": [
-        "txn:52796",
-        "txn:52798"
-      ],
-      "periods": [],
-      "matchedTotal": 0
-    },
-    "txn:52798": {
-      "descendantTaxonIds": [
-        "txn:52798"
-      ],
-      "periods": [],
-      "matchedTotal": 0
-    },
-    "txn:52804": {
-      "descendantTaxonIds": [
-        "txn:52804",
-        "txn:52805"
-      ],
-      "periods": [],
-      "matchedTotal": 0
-    },
-    "txn:52805": {
-      "descendantTaxonIds": [
-        "txn:52805"
-      ],
-      "periods": [],
-      "matchedTotal": 0
-    },
-    "txn:52775": {
-      "descendantTaxonIds": [
-        "txn:52775",
-        "txn:52834",
-        "txn:52835",
-        "txn:52841",
-        "txn:52868",
-        "txn:52859",
-        "txn:38602",
-        "txn:38603",
-        "txn:52860",
-        "txn:52861",
-        "txn:38595",
-        "txn:38598",
-        "txn:36622",
-        "txn:36623",
-        "txn:40033",
-        "txn:53564"
-      ],
-      "periods": [],
-      "matchedTotal": 0
-    },
-    "txn:52834": {
-      "descendantTaxonIds": [
-        "txn:52834",
-        "txn:52835",
-        "txn:52841",
-        "txn:52868"
-      ],
-      "periods": [],
-      "matchedTotal": 0
-    },
-    "txn:52835": {
-      "descendantTaxonIds": [
-        "txn:52835"
-      ],
-      "periods": [],
-      "matchedTotal": 0
-    },
-    "txn:52841": {
-      "descendantTaxonIds": [
-        "txn:52841"
-      ],
-      "periods": [],
-      "matchedTotal": 0
-    },
-    "txn:52868": {
-      "descendantTaxonIds": [
-        "txn:52868"
-      ],
-      "periods": [],
-      "matchedTotal": 0
-    },
-    "txn:52859": {
-      "descendantTaxonIds": [
-        "txn:52859",
-        "txn:38602",
-        "txn:38603",
-        "txn:52860",
-        "txn:52861",
-        "txn:38595",
-        "txn:38598",
-        "txn:36622",
-        "txn:36623",
-        "txn:40033",
-        "txn:53564"
-      ],
-      "periods": [],
-      "matchedTotal": 0
-    },
-    "txn:38602": {
-      "descendantTaxonIds": [
-        "txn:38602",
-        "txn:38603"
-      ],
-      "periods": [],
-      "matchedTotal": 0
-    },
-    "txn:38603": {
-      "descendantTaxonIds": [
-        "txn:38603"
-      ],
-      "periods": [],
-      "matchedTotal": 0
-    },
-    "txn:52860": {
-      "descendantTaxonIds": [
-        "txn:52860",
-        "txn:52861"
-      ],
-      "periods": [],
-      "matchedTotal": 0
-    },
-    "txn:52861": {
-      "descendantTaxonIds": [
-        "txn:52861"
+      "matchingMethods": [
+        "accepted-pbdb-id",
+        "pbdb-higher-classification-name"
       ],
       "periods": [],
       "matchedTotal": 0
@@ -2260,6 +2729,14 @@
         "txn:38595",
         "txn:38598"
       ],
+      "descendantScientificNames": [
+        "spinosauridae",
+        "spinosaurus"
+      ],
+      "matchingMethods": [
+        "accepted-pbdb-id",
+        "pbdb-higher-classification-name"
+      ],
       "periods": [],
       "matchedTotal": 0
     },
@@ -2267,37 +2744,109 @@
       "descendantTaxonIds": [
         "txn:38598"
       ],
-      "periods": [],
-      "matchedTotal": 0
-    },
-    "txn:36622": {
-      "descendantTaxonIds": [
-        "txn:36622",
-        "txn:36623",
-        "txn:40033",
-        "txn:53564"
+      "descendantScientificNames": [
+        "spinosaurus"
+      ],
+      "matchingMethods": [
+        "accepted-pbdb-id",
+        "pbdb-higher-classification-name"
       ],
       "periods": [],
       "matchedTotal": 0
     },
-    "txn:36623": {
+    "txn:38561": {
       "descendantTaxonIds": [
-        "txn:36623"
+        "txn:38561",
+        "txn:38564"
+      ],
+      "descendantScientificNames": [
+        "dromaeosauridae",
+        "velociraptor"
+      ],
+      "matchingMethods": [
+        "accepted-pbdb-id",
+        "pbdb-higher-classification-name"
       ],
       "periods": [],
       "matchedTotal": 0
     },
-    "txn:40033": {
+    "txn:38564": {
       "descendantTaxonIds": [
-        "txn:40033",
-        "txn:53564"
+        "txn:38564"
+      ],
+      "descendantScientificNames": [
+        "velociraptor"
+      ],
+      "matchingMethods": [
+        "accepted-pbdb-id",
+        "pbdb-higher-classification-name"
       ],
       "periods": [],
       "matchedTotal": 0
     },
-    "txn:53564": {
+    "txn:36616": {
       "descendantTaxonIds": [
-        "txn:53564"
+        "txn:36616",
+        "txn:39240",
+        "txn:39241",
+        "txn:39461"
+      ],
+      "descendantScientificNames": [
+        "aves",
+        "archaeopteryx",
+        "neornithes",
+        "phorusrhacidae"
+      ],
+      "matchingMethods": [
+        "accepted-pbdb-id",
+        "pbdb-higher-classification-name"
+      ],
+      "periods": [
+        "Neogene",
+        "Quaternary"
+      ],
+      "matchedTotal": 15
+    },
+    "txn:39240": {
+      "descendantTaxonIds": [
+        "txn:39240"
+      ],
+      "descendantScientificNames": [
+        "archaeopteryx"
+      ],
+      "matchingMethods": [
+        "accepted-pbdb-id",
+        "pbdb-higher-classification-name"
+      ],
+      "periods": [],
+      "matchedTotal": 0
+    },
+    "txn:39241": {
+      "descendantTaxonIds": [
+        "txn:39241",
+        "txn:39461"
+      ],
+      "descendantScientificNames": [
+        "neornithes",
+        "phorusrhacidae"
+      ],
+      "matchingMethods": [
+        "accepted-pbdb-id",
+        "pbdb-higher-classification-name"
+      ],
+      "periods": [],
+      "matchedTotal": 0
+    },
+    "txn:39461": {
+      "descendantTaxonIds": [
+        "txn:39461"
+      ],
+      "descendantScientificNames": [
+        "phorusrhacidae"
+      ],
+      "matchingMethods": [
+        "accepted-pbdb-id",
+        "pbdb-higher-classification-name"
       ],
       "periods": [],
       "matchedTotal": 0

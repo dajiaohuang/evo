@@ -16,8 +16,8 @@
     "ecology": { "diet": "Herbivorous", "habitat": "Forest to open grassland", "locomotion": "Terrestrial cursorial to graviportal", "bodySize": "Small to extremely large", "guild": "Browser, mixed feeder and grazer" },
     "traits": ["Mesaxonic foot", "Hindgut fermentation", "Lophodont or specialized grinding teeth"],
     "evidenceSummary": "The group is documented by abundant Eocene-to-Recent skeletons, teeth and occurrences; relationships among some early branches remain debated.",
-    "confidence": "high",
-    "referenceIds": ["amnh-perissodactyl-evolution", "amnh-perissodactyl-evidence", "pbdb-api-2016"]
+    "confidence": "medium",
+    "referenceIds": ["pnas-2026-perissodactyls", "amnh-perissodactyl-evolution", "amnh-perissodactyl-evidence", "pbdb-api-2016"]
   },
   {
     "id": "brontotheriidae",
@@ -31,7 +31,7 @@
     "extinct": true,
     "firstAppearance": 53,
     "lastAppearance": 34,
-    "geography": ["Asia", "North America"],
+    "geography": ["Asia", "South Asia", "Indo-Pakistan", "North America"],
     "overview": "Eocene browsers that evolved rapidly from modest-bodied ancestors into rhinoceros-sized forms with distinctive skull appendages.",
     "ecology": { "diet": "Browsing herbivore", "habitat": "Woodland and forest", "locomotion": "Terrestrial graviportal", "bodySize": "Medium to very large", "guild": "Large browser" },
     "traits": ["W-shaped upper molar ectoloph", "Large late members", "Paired nasal or frontal appendages in some genera"],
@@ -112,10 +112,10 @@
     "firstAppearance": 15.97,
     "lastAppearance": 5.33,
     "geography": ["Europe", "Asia"],
-    "overview": "A highly specialized perissodactyl with claw-bearing digits and powerful forelimbs, unlike the hoofed condition of most relatives.",
-    "ecology": { "diet": "Browsing herbivore", "habitat": "Woodland", "locomotion": "Slow terrestrial", "bodySize": "Large", "guild": "High browser" },
-    "traits": ["Large curved claws", "Elongate forelimbs", "Reduced incisors", "Specialized browsing posture"],
-    "evidenceSummary": "The skeleton clearly documents clawed limbs; branch-pulling and feeding-posture reconstructions are functional interpretations rather than direct observations.",
+    "overview": "A genus within the more diverse chalicothere radiation; this profile does not treat every family- or subfamily-level trait as diagnostic of Chalicotherium itself.",
+    "ecology": { "diet": "Browsing herbivore", "habitat": "Woodland", "locomotion": "Terrestrial; detailed posture is reconstructed", "bodySize": "Large", "guild": "Browser" },
+    "traits": ["Claw-bearing chalicothere limbs (family context)", "Forelimb and feeding-posture interpretations require specimen-level attribution"],
+    "evidenceSummary": "Claw-bearing limbs are secure for chalicotheres, but this genus-level profile withholds family-wide branch-pulling and posture claims unless they are tied to identified Chalicotherium material.",
     "confidence": "medium",
     "referenceIds": ["amnh-perissodactyl-evolution", "pbdb-api-2016"]
   },
@@ -149,15 +149,20 @@
     "rank": "tribe",
     "parentName": "Equidae",
     "extinct": true,
-    "firstAppearance": 23.04,
-    "lastAppearance": 0.0117,
+    "firstAppearance": 17,
+    "lastAppearance": 0.6,
     "geography": ["Africa", "Asia", "Europe", "North America"],
+    "regionalRanges": [
+      { "label": "North American tribe-level range", "region": "North America", "rangeKind": "taxon-range", "olderMa": 17, "youngerMa": 0.6, "basis": "The North American hipparionin radiation begins near 17 Ma; late regional occurrences are taxonomically and chronologically heterogeneous.", "confidence": "medium", "referenceIds": ["mc-horse-monodactyly-2019"] },
+      { "label": "Old World first dispersal", "region": "Eurasia", "rangeKind": "dispersal-window", "olderMa": 11.4, "youngerMa": 11.0, "basis": "The oldest well-supported Old World dispersal window is represented by early Hippotherium records in the Vienna Basin.", "confidence": "medium", "referenceIds": ["bernor-2021-hipparions"] },
+      { "label": "Latest Old World regional records", "region": "East Asia and Africa", "rangeKind": "regional-last-appearance-window", "olderMa": 1.0, "youngerMa": 0.6, "basis": "Terminal records vary by lineage and region; the review places the latest Chinese and African hipparionins around or below 1 Ma rather than at the Holocene boundary.", "confidence": "medium", "referenceIds": ["bernor-2021-hipparions"] }
+    ],
     "overview": "A tribe of tridactyl horses that diversified across the Old and New Worlds; this entity avoids treating the genus Hipparion sensu stricto as the entire radiation.",
     "ecology": { "diet": "Mixed feeding to grazing", "habitat": "Open woodland and grassland", "locomotion": "Cursorial terrestrial", "bodySize": "Medium", "guild": "Open-country herbivore" },
     "traits": ["Three toes", "High-crowned teeth in many species", "Expanded geographic range"],
     "evidenceSummary": "Abundant teeth and limb bones document wide ecological variation. Hipparionini is used here deliberately because historical broad use of Hipparion obscures distinct genera such as Cormohipparion and Neohipparion.",
     "confidence": "medium",
-    "referenceIds": ["amnh-equidae", "pbdb-api-2016"]
+    "referenceIds": ["mc-horse-monodactyly-2019", "bernor-2021-hipparions", "pbdb-api-2016"]
   },
   {
     "id": "teleoceras",
@@ -172,12 +177,12 @@
     "firstAppearance": 16,
     "lastAppearance": 4.5,
     "geography": ["North America"],
-    "overview": "A common North American rhinoceros with short limbs and a long barrel-shaped trunk, superficially reminiscent of a hippopotamus.",
-    "ecology": { "diet": "Grazing to mixed-feeding herbivore", "habitat": "Open habitat and river-adjacent plains", "locomotion": "Terrestrial", "bodySize": "Large", "guild": "Bulk-feeding grazer" },
+    "overview": "A short-legged, barrel-bodied rhinoceros whose aquatic ecology is contested: Florida isotopes favor principally terrestrial populations, while multi-isotope evidence supports semi-aquatic T. major at Ashfall.",
+    "ecology": { "diet": "Grazing and mixed feeding", "habitat": "Open habitats, wetlands and river-adjacent plains; locality dependent", "locomotion": "Terrestrial to locally semi-aquatic (contested)", "bodySize": "Large", "guild": "Bulk grazer or wet-habitat mixed feeder" },
     "traits": ["Short limbs", "Barrel-shaped body", "Small nasal horn", "High-crowned teeth"],
-    "evidenceSummary": "Mass-death assemblages and skeletons provide unusually rich population evidence; body shape alone is insufficient to demonstrate semi-aquatic behavior.",
-    "confidence": "high",
-    "referenceIds": ["amnh-perissodactyl-evolution", "pbdb-api-2016"]
+    "evidenceSummary": "Body shape alone is insufficient to infer behavior. Florida and Ashfall isotope studies reach different ecological conclusions, so behavior is represented as species-, locality- and time-dependent.",
+    "confidence": "contested",
+    "referenceIds": ["macfadden-1998-teleoceras", "ward-2024-teleoceras", "ward-2025-teleoceras", "pbdb-api-2016"]
   },
   {
     "id": "coelodonta",
@@ -195,8 +200,8 @@
     "overview": "A cold-adapted Pleistocene rhinoceros of Eurasian steppe-tundra, known from skeletons, soft-tissue remains and prehistoric art.",
     "ecology": { "diet": "Grazing herbivore", "habitat": "Cold steppe-tundra", "locomotion": "Terrestrial", "bodySize": "Large", "guild": "Cold-steppe grazer" },
     "traits": ["Dense hair", "Short distal limbs", "Large flattened anterior horn", "Cold-adapted body form"],
-    "evidenceSummary": "Multiple evidence classes support cold adaptation and grazing; extinction timing varies geographically and is represented here as a broad terminal estimate.",
+    "evidenceSummary": "Morphology supports cold adaptation and grazing. The display LAD is a global synthesis, distinct from regional fossil dates and from a 14.4 ka genomic sample that shows no obvious pre-extinction genomic erosion.",
     "confidence": "high",
-    "referenceIds": ["amnh-perissodactyl-evolution", "pbdb-api-2016"]
+    "referenceIds": ["gudjonsdottir-2026-coelodonta", "liu-2021-rhinoceros-genomes", "pbdb-api-2016"]
   }
 ]

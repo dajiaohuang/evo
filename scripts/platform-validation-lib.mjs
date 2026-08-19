@@ -21,6 +21,7 @@ function registryFailures() {
   const entities = readJson('data/registry/entities/entities.json')
   const registry = readJson('data/registry/package-registry.json')
   const references = new Set(readJson('data/references.json').map((reference) => reference.id))
+  const resolutions = new Map(readJson('data/sources/pbdb-taxon-resolution.json').resolutions.map((entry) => [entry.entityId, entry]))
   const validateEntity = schemaValidator('data/schemas/entity.schema.json')
   const ids = entities.map((entity) => entity.id)
   const idSet = new Set(ids)
@@ -37,6 +38,10 @@ function registryFailures() {
     if (registry.entityToPackage[entity.id] !== entity.packageId) failures.push(`entity ${entity.id}: entityToPackage is stale`)
     for (const descendantId of entity.compositionScope.descendantEntityIds) if (!idSet.has(descendantId)) failures.push(`entity ${entity.id}: unknown descendant ${descendantId}`)
     for (const referenceId of entity.referenceIds) if (!references.has(referenceId)) failures.push(`entity ${entity.id}: unknown reference ${referenceId}`)
+    const resolution = resolutions.get(entity.id)
+    if (!resolution) failures.push(`entity ${entity.id}: missing PBDB resolution`)
+    else if (resolution.resolutionStatus === 'resolved' && entity.externalIds.pbdb !== resolution.pbdbId) failures.push(`entity ${entity.id}: PBDB ID differs from the pinned resolution`)
+    else if (resolution.resolutionStatus === 'unresolved' && entity.externalIds.pbdb) failures.push(`entity ${entity.id}: unresolved PBDB concept publishes an external ID`)
     if (entity.temporalRange.olderMa < entity.temporalRange.youngerMa) failures.push(`entity ${entity.id}: temporal range is reversed`)
   }
   for (const packageEntry of registry.packages) {

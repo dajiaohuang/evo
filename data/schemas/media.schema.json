@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://dajiaohuang.github.io/evo/schemas/media.schema.json",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "taxonId", "title", "type", "sourceName", "sourceUrl", "creator", "license", "rightsStatus", "caption", "captionZh", "altText", "altTextZh", "subjectScope", "reviewedAt", "licenseNote"],
+  "properties": {
+    "id": { "type": "string", "minLength": 1 },
+    "taxonId": { "type": "string", "minLength": 1 },
+    "title": { "type": "string", "minLength": 1 },
+    "type": { "enum": ["museum-gallery", "specimen-feature", "reconstruction", "3d-model"] },
+    "sourceName": { "type": "string", "minLength": 1 },
+    "sourceUrl": { "type": "string", "pattern": "^https://" },
+    "creator": { "type": "string", "minLength": 1 },
+    "license": { "type": "string", "minLength": 1 },
+    "rightsStatus": { "enum": ["external-link-only", "cleared-for-reuse"] },
+    "caption": { "type": "string", "minLength": 20 },
+    "captionZh": { "type": "string", "minLength": 5 },
+    "altText": { "type": "string", "minLength": 10 },
+    "altTextZh": { "type": "string", "minLength": 5 },
+    "subjectScope": { "type": "string", "minLength": 1 },
+    "reviewedAt": { "type": "string", "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$" },
+    "licenseNote": { "type": "string", "minLength": 1 }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://dajiaohuang.github.io/evo/schemas/story.schema.json",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "title", "titleZh", "dek", "theme", "durationMinutes", "featured", "steps", "evidenceStatus"],
+  "properties": {
+    "id": { "type": "string", "minLength": 1 },
+    "title": { "type": "string", "minLength": 1 },
+    "titleZh": { "type": "string", "minLength": 1 },
+    "dek": { "type": "string", "minLength": 20 },
+    "theme": { "type": "string", "minLength": 1 },
+    "durationMinutes": { "type": "integer", "minimum": 1 },
+    "featured": { "type": "boolean" },
+    "evidenceStatus": { "enum": ["available-with-limitations", "blocked-pending-step-evidence"] },
+    "steps": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "title", "text", "age", "timeRange", "taxonIds", "view", "claimLinks"],
+        "properties": {
+          "id": { "type": "string", "minLength": 1 },
+          "title": { "type": "string", "minLength": 1 },
+          "text": { "type": "string", "minLength": 20 },
+          "age": { "type": "number", "minimum": 0, "maximum": 4567 },
+          "timeRange": {
+            "type": "array",
+            "minItems": 2,
+            "maxItems": 2,
+            "prefixItems": [
+              { "type": "number", "minimum": 0, "maximum": 4567 },
+              { "type": "number", "minimum": 0, "maximum": 4567 }
+            ]
+          },
+          "taxonIds": { "type": "array", "uniqueItems": true, "items": { "type": "string", "minLength": 1 } },
+          "view": { "enum": ["map", "tree", "diversity", "evidence"] },
+          "eventId": { "type": "string", "minLength": 1 },
+          "annotation": { "type": "string", "minLength": 1 },
+          "claimLinks": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["claimId", "relation"],
+              "properties": {
+                "claimId": { "type": "string", "pattern": "^claim:(event|taxon):" },
+                "relation": { "enum": ["supports", "contradicts", "contextualizes"] }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

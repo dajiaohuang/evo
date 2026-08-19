@@ -29,6 +29,7 @@ const claims = readJson('data/evidence/claims.json')
 const references = readJson('data/references.json')
 const events = readJson('data/events.json')
 const stories = readJson('data/stories.json')
+const publishedStories = stories.filter((story) => story.evidenceStatus === 'available-with-limitations')
 const places = readJson('data/places.json')
 const media = readJson('data/media.json')
 const calibrations = readJson('data/packages/mammalia/perissodactyla/phylogeny/calibrations.json')
@@ -36,6 +37,7 @@ const perissodactylPhylogeny = readJson('data/packages/mammalia/perissodactyla/p
 const periodMetadata = readJson('data/period-map-metadata.json')
 const occurrenceSource = readJson('data/sources/pbdb-occurrence-bundle.json')
 const treeEvidence = readJson('data/tree/evidence.json')
+const claimsById = new Map(claims.map((claim) => [claim.id, claim]))
 const packageById = new Map(registry.packages.map((entry) => [entry.id, entry]))
 const entityById = new Map(entities.map((entry) => [entry.id, entry]))
 const packageForPbdbTaxon = new Map(entities.flatMap((entry) => entry.externalIds.pbdb ? [[entry.externalIds.pbdb, entry.packageId]] : []))
@@ -115,7 +117,8 @@ function ownerForClaim(claim) {
     'dinosaur-radiation': 'dinosauria',
     'perissodactyl-radiation': 'perissodactyla',
     'eocene-oligocene-transition': 'perissodactyla',
-    'homo-dispersal': 'primates',
+    'early-homo-dispersal': 'primates',
+    'homo-sapiens-admixture': 'primates',
   }
   return explicit[subjectId] ?? 'atlas-core'
 }
@@ -142,7 +145,7 @@ function coreSearchEntries() {
     terms: [entity.names.scientific, entity.names.en, entity.names.zh, entity.rank, ...entity.synonyms, ...Object.values(entity.externalIds)],
   }))
   const eventEntries = events.map((event) => ({ id: event.id, kind: 'event', title: event.title, titleZh: event.titleZh, route: `#/events?id=${event.id}`, terms: [event.title, event.titleZh, ...event.clades, ...event.regions] }))
-  const storyEntries = stories.map((story) => ({ id: story.id, kind: 'story', title: story.title, titleZh: story.titleZh, route: `#/stories?id=${story.id}`, terms: [story.title, story.titleZh, story.dek] }))
+  const storyEntries = publishedStories.map((story) => ({ id: story.id, kind: 'story', title: story.title, titleZh: story.titleZh, route: `#/stories?id=${story.id}`, terms: [story.title, story.titleZh, story.dek] }))
   const placeEntries = places.map((place) => ({ id: place.code, kind: 'place', title: place.name, titleZh: place.nameZh, route: `#/lab?country=${place.code}`, terms: [place.code, place.name, place.nameZh] }))
   const periodEntries = timeScale.units.filter((unit) => unit.itp === 'period').map((period) => ({ id: period.oid, kind: 'period', title: period.nam, titleZh: period.namZh, route: `#/explore?age=${((period.eag + period.lag) / 2).toFixed(1)}&view=diversity`, terms: [period.nam, period.namZh] }))
   return [...entityEntries, ...eventEntries, ...storyEntries, ...placeEntries, ...periodEntries]
@@ -210,14 +213,13 @@ for (const packageEntry of registry.packages) {
   const packageProfiles = profiles.filter((profile) => entityById.get(profile.treeNodeId)?.packageId === packageId)
   const packageClaims = claims.filter((claim) => ownerForClaim(claim) === packageId)
   const packageEvents = events.filter((event) => packageClaims.some((claim) => claim.subjectId === `event:${event.id}`))
-  const packageStories = stories.filter((story) => ownerForStory(story) === packageId)
+  const packageStories = publishedStories.filter((story) => ownerForStory(story) === packageId)
   const packageMedia = media.filter((asset) => entityById.get(asset.taxonId)?.packageId === packageId)
   const packageReferenceIds = new Set([
     ...packageEntities.flatMap((entity) => entity.referenceIds),
     ...packageProfiles.flatMap((profile) => profile.referenceIds),
     ...packageClaims.flatMap((claim) => claim.referenceLinks.map((link) => link.referenceId)),
-    ...packageEvents.flatMap((event) => event.referenceIds),
-    ...packageStories.flatMap((story) => story.steps.flatMap((step) => step.referenceIds)),
+    ...packageStories.flatMap((story) => story.steps.flatMap((step) => step.claimLinks.flatMap((link) => claimsById.get(link.claimId)?.referenceLinks.map((referenceLink) => referenceLink.referenceId) ?? []))),
   ])
   const payloadFiles = {}
   payloadFiles.identity = writeGzipJson(`packages/${packageId}/identity.json.gz`, packageEntities)

@@ -11,6 +11,9 @@ const claims = readJson('data/evidence/claims.json')
 const claimRationalesZh = readJson('data/evidence/claim-rationales.zh.json')
 const events = readJson('data/events.json')
 const stories = readJson('data/stories.json')
+const publishedStories = stories.filter((story) => story.evidenceStatus === 'available-with-limitations')
+const taxonResolution = readJson('data/sources/pbdb-taxon-resolution.json')
+const taxonResolutionByEntityId = new Map(taxonResolution.resolutions.map((entry) => [entry.entityId, entry]))
 const profileIds = new Set(profiles.map((profile) => profile.treeNodeId))
 const mediaIds = new Set(media.map((asset) => asset.taxonId))
 const informalGroups = new Set(['invertebrata', 'agnatha', 'ostracodermi', 'acanthodii', 'pelycosauria', 'bryophyta', 'pteridophyta', 'articulata'])
@@ -64,7 +67,8 @@ function ownerForClaim(claim) {
     'dinosaur-radiation': 'dinosauria',
     'perissodactyl-radiation': 'perissodactyla',
     'eocene-oligocene-transition': 'perissodactyla',
-    'homo-dispersal': 'primates',
+    'early-homo-dispersal': 'primates',
+    'homo-sapiens-admixture': 'primates',
   }
   return explicit[subjectId] ?? 'atlas-core'
 }
@@ -78,6 +82,7 @@ function packageMaturity(definition) {
 
 const entities = flattenTree(ontology).map((node) => {
   const evidence = { ...treeEvidence.default, ...treeEvidence.nodes[node.id] }
+  const resolution = taxonResolutionByEntityId.get(node.id)
   const parentId = parents.get(node.id)
   const availability = {
     narrativeProfile: profileIds.has(node.id) ? 'available' : 'unavailable',
@@ -112,15 +117,20 @@ const entities = flattenTree(ontology).map((node) => {
       basis: evidence.rangeBasis,
     },
     externalIds: node.taxonId ? { pbdb: node.taxonId } : {},
-    referenceIds: evidence.references,
+    referenceIds: [...new Set([...evidence.references, ...(node.taxonId ? ['pbdb-taxa-2026-07-19'] : [])])],
     evidenceStatus: evidence.support,
-    limitations: [evidence.conflicts],
+    limitations: [
+      evidence.conflicts,
+      ...(resolution?.resolutionStatus === 'unresolved'
+        ? [`PBDB external identifier withheld: ${resolution.resolutionReason}.`]
+        : []),
+    ],
     dataAvailability: availability,
     review: {
       status: 'automated-audit-passed',
       reviewedBy: 'Evo Atlas schema and linkage audit',
       reviewedAt: '2026-08-19',
-      scope: ['schema', 'identifier-linkage', 'bilingual-field-presence'],
+      scope: ['schema', 'external-identifier-resolution', 'identifier-linkage', 'bilingual-field-presence'],
       scientificPeerReview: false,
     },
     version: DATASET_PACKAGE_VERSION,
@@ -187,7 +197,7 @@ for (const definition of packageDefinitions) {
   writeJson(`data/packages/${definition.path}/provenance.json`, {
     packageId: definition.id,
     version: DATASET_PACKAGE_VERSION,
-    canonicalInputs: ['data/navigation/atlas-ontology.json', 'data/tree/evidence.json', 'data/references.json'],
+    canonicalInputs: ['data/navigation/atlas-ontology.json', 'data/sources/pbdb-taxon-resolution.json', 'data/tree/evidence.json', 'data/references.json'],
     occurrenceSnapshot: 'data/sources/pbdb-occurrence-bundle.json',
     generatedProjection: false,
     notes: ['The package owns its registry entities. Runtime gzip files are generated projections and are not canonical sources.'],
@@ -221,7 +231,7 @@ for (const definition of packageDefinitions) {
   })))
   writeJson(`data/packages/${definition.path}/evidence/claim-ids.json`, packageClaims.map((claim) => claim.id))
   writeJson(`data/packages/${definition.path}/events.json`, packageClaims.filter((claim) => claim.subjectId.startsWith('event:')).map((claim) => claim.subjectId.slice(6)))
-  writeJson(`data/packages/${definition.path}/stories.json`, stories.filter((story) => story.steps.some((step) => (step.taxonIds ?? []).some((id) => packageForEntity(id) === definition.id))).map((story) => story.id))
+  writeJson(`data/packages/${definition.path}/stories.json`, publishedStories.filter((story) => story.steps.some((step) => (step.taxonIds ?? []).some((id) => packageForEntity(id) === definition.id))).map((story) => story.id))
   writeJson(`data/packages/${definition.path}/media.json`, media.filter((asset) => packageForEntity(asset.taxonId) === definition.id).map((asset) => asset.id))
   writeJson(`data/packages/${definition.path}/locales/zh.json`, {
     language: 'zh',

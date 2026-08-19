@@ -1,7 +1,10 @@
 import Ajv2020 from 'ajv/dist/2020.js'
-import { collectDataSummary, flattenTree, readJson } from './data-lib.mjs'
+import { existsSync } from 'node:fs'
+import { join } from 'node:path'
+import { collectDataSummary, flattenTree, readJson, rootDir } from './data-lib.mjs'
 import { validatePlatform } from './platform-validation-lib.mjs'
 import { assignOccurrencePackage } from './occurrence-package-map.mjs'
+import { descendantTaxonScope, occurrenceMatchesTaxonScope } from './taxon-linkage.mjs'
 
 const failures = []
 failures.push(...validatePlatform('all'))
@@ -25,6 +28,8 @@ const claims = readJson('data/evidence/claims.json')
 const claimRationalesZh = readJson('data/evidence/claim-rationales.zh.json')
 const editorialDecisions = readJson('data/evidence/editorial-decisions.json')
 const taxonIndex = readJson('data/indexes/taxon-period-index.json')
+const taxonLinkageCoverage = readJson('data/indexes/taxon-linkage-coverage.json')
+const taxonResolution = readJson('data/sources/pbdb-taxon-resolution.json')
 const sourceMetadata = readJson('data/sources/pbdb-occurrence-bundle.json')
 const manifest = readJson('data/manifest.json')
 const packageMetadata = readJson('package.json')
@@ -39,6 +44,8 @@ const validators = {
   claim: ajv.compile(readJson('data/schemas/claim.schema.json')),
   profile: ajv.compile(readJson('data/schemas/profile.schema.json')),
   event: ajv.compile(readJson('data/schemas/event.schema.json')),
+  story: ajv.compile(readJson('data/schemas/story.schema.json')),
+  media: ajv.compile(readJson('data/schemas/media.schema.json')),
 }
 
 function validateSchema(kind, record, label) {
@@ -52,12 +59,26 @@ function validateSchema(kind, record, label) {
 for (const reference of references) validateSchema('reference', reference, `reference ${reference.id ?? '<missing>'}`)
 for (const profile of profiles) validateSchema('profile', profile, `profile ${profile.id ?? '<missing>'}`)
 for (const event of events) validateSchema('event', event, `event ${event.id ?? '<missing>'}`)
+for (const story of stories) validateSchema('story', story, `story ${story.id ?? '<missing>'}`)
+for (const asset of media) validateSchema('media', asset, `media ${asset.id ?? '<missing>'}`)
 for (const claim of claims) validateSchema('claim', claim, `claim ${claim.id ?? '<missing>'}`)
 
 const periodUnits = timeScale.units.filter((unit) => unit.itp === 'period')
 check(periodUnits.length > 0, 'time-scale.json must contain periods')
 check(timeScale.earthAgeMa === 4567, 'time scale must span 4,567 Ma')
 check(timeScale.version === 'ICS-2026-06', 'time scale version must be explicit')
+check(timeScale.schemaVersion === 2 && timeScale.officialVersion === '2026/06', 'time scale must identify the official ICS 2026/06 structure')
+check(timeScale.source?.referenceId === 'ics-2026-06' && /ChronostratChart2026-06\.pdf$/.test(timeScale.source?.url ?? ''), 'time scale must retain the official ICS source locator')
+check(unique(timeScale.boundaries.map((boundary) => boundary.id)), 'time-scale boundary IDs must be unique')
+const boundariesByValue = new Map(timeScale.boundaries.map((boundary) => [boundary.valueMa, boundary]))
+for (const boundary of timeScale.boundaries) {
+  check(boundary.officialVersion === '2026/06', `time boundary ${boundary.id}: officialVersion must be 2026/06`)
+  check(typeof boundary.approximate === 'boolean' && typeof boundary.definitionType === 'string' && boundary.sourceLocator, `time boundary ${boundary.id}: definition metadata is incomplete`)
+}
+for (const [valueMa, uncertaintyMa] of [[4031, 3], [486.85, 1.5], [443.1, 0.9], [419.62, 1.36]]) {
+  const boundary = boundariesByValue.get(valueMa)
+  check(boundary?.uncertaintyMa === uncertaintyMa && boundary.approximate === false, `official ICS 2026/06 boundary ${valueMa} ± ${uncertaintyMa} Ma is missing`)
+}
 check(unique(timeScale.units.map((unit) => unit.oid)), 'time-scale unit IDs must be unique')
 check(unique(periodMetadata.map((period) => period.name)), 'period map metadata names must be unique')
 check(sameValues([...periodUnits.map((unit) => unit.nam)].sort(), [...periodMetadata.map((period) => period.name)].sort()), 'time scale and period map metadata names must match')
@@ -66,7 +87,10 @@ for (const metadata of periodMetadata) {
   check(['available', 'withheld-pending-provenance'].includes(metadata.mapLayerStatus), `${metadata.name}: invalid mapLayerStatus`)
   check(typeof metadata.descriptionZh === 'string' && metadata.descriptionZh.length > 0, `${metadata.name}: Chinese description is required`)
 }
-for (const unit of timeScale.units) check(typeof unit.namZh === 'string' && unit.namZh.length > 0, `${unit.oid}: Chinese name is required`)
+for (const unit of timeScale.units) {
+  check(typeof unit.namZh === 'string' && unit.namZh.length > 0, `${unit.oid}: Chinese name is required`)
+  check(boundariesByValue.has(unit.eag) && boundariesByValue.has(unit.lag), `${unit.oid}: eag and lag must project versioned boundary records`)
+}
 
 check(manifest.appVersion === packageMetadata.version, 'manifest appVersion must match package.json version')
 check(manifest.datasetVersion !== manifest.appVersion, 'datasetVersion and appVersion must remain separate identifiers')
@@ -103,6 +127,7 @@ const eventIds = new Set(eventIdsArray)
 const profileIds = new Set(profileIdsArray)
 const navigationIdsForStories = new Set(flattenTree(ontology).map((node) => node.id))
 const referencesById = new Map(references.map((reference) => [reference.id, reference]))
+const claimsById = new Map(claims.map((claim) => [claim.id, claim]))
 check(unique(referenceIdsArray), 'reference IDs must be unique')
 check(unique(eventIdsArray), 'event IDs must be unique')
 check(unique(profileIdsArray), 'taxon profile IDs must be unique')
@@ -123,18 +148,28 @@ for (const reference of references) {
 const validateReferences = (owner, ids) => {
   for (const id of ids ?? []) check(referenceIds.has(id), `${owner}: unknown reference ${id}`)
 }
-for (const profile of profiles) validateReferences(`taxon ${profile.id}`, profile.referenceIds)
+for (const profile of profiles) {
+  validateReferences(`taxon ${profile.id}`, profile.referenceIds)
+  for (const range of profile.regionalRanges ?? []) {
+    check(range.olderMa >= range.youngerMa, `taxon ${profile.id}/${range.label}: olderMa must be older than youngerMa`)
+    validateReferences(`taxon ${profile.id}/${range.label}`, range.referenceIds)
+  }
+}
 for (const event of events) {
-  validateReferences(`event ${event.id}`, event.referenceIds)
   check(event.startAge >= event.endAge, `event ${event.id}: startAge must be older than endAge`)
 }
 for (const story of stories) {
   check(unique(story.steps.map((step) => step.id)), `story ${story.id}: step IDs must be unique`)
+  if (story.evidenceStatus === 'available-with-limitations') check(story.steps.every((step) => step.claimLinks.length > 0), `story ${story.id}: every available step requires a claim link`)
+  if (story.evidenceStatus === 'blocked-pending-step-evidence') {
+    check(story.steps.some((step) => step.claimLinks.length === 0), `story ${story.id}: blocked status requires an explicit step-level evidence gap`)
+    check(story.featured === false, `story ${story.id}: blocked stories must not be featured`)
+  }
   for (const step of story.steps) {
-    validateReferences(`story ${story.id}/${step.id}`, step.referenceIds)
     if (step.eventId) check(eventIds.has(step.eventId), `story ${story.id}/${step.id}: unknown event ${step.eventId}`)
     check(step.age <= step.timeRange[0] && step.age >= step.timeRange[1], `story ${story.id}/${step.id}: age must fall inside timeRange`)
     for (const taxonId of step.taxonIds ?? []) check(profileIds.has(taxonId) || navigationIdsForStories.has(taxonId), `story ${story.id}/${step.id}: unknown taxon ${taxonId}`)
+    for (const link of step.claimLinks) check(claimsById.has(link.claimId), `story ${story.id}/${step.id}: unknown claim ${link.claimId}`)
   }
 }
 
@@ -151,7 +186,11 @@ function inspectTree(root, label) {
     seen.add(node.id)
     check(node.firstAppearance >= node.lastAppearance, `${label} ${node.id}: invalid temporal range`)
     check(node.lastAppearance >= 0, `${label} ${node.id}: negative last appearance`)
-    for (const child of node.children ?? []) visit(child)
+    for (const child of node.children ?? []) {
+      check(child.firstAppearance <= node.firstAppearance, `${label} ${child.id}: first appearance falls outside parent ${node.id}`)
+      check(child.lastAppearance >= node.lastAppearance, `${label} ${child.id}: last appearance falls outside parent ${node.id}`)
+      visit(child)
+    }
     active.delete(node.id)
   }
   visit(root)
@@ -161,13 +200,31 @@ function inspectTree(root, label) {
 const ontologyTree = inspectTree(ontology, 'navigation ontology')
 const phylogenyTree = inspectTree(phylogenyPackage.root, 'Perissodactyla hypothesis')
 for (const node of ontologyTree.nodes) check(typeof node.commonNameZh === 'string' && node.commonNameZh.length > 0, `navigation node ${node.id}: Chinese common name is required`)
+check(taxonResolution.source?.doi === '10.5281/zenodo.21620933' && taxonResolution.source?.archiveMd5 === 'fca5fde5e8d5922d06fe332a42b955f9', 'PBDB taxon reconciliation must identify the pinned 2026-07-19 full snapshot')
+check(taxonResolution.summary?.ontologyNodes === ontologyTree.nodes.length, 'PBDB taxon reconciliation node count is stale')
+const resolutionsByEntityId = new Map(taxonResolution.resolutions.map((entry) => [entry.entityId, entry]))
+check(unique(taxonResolution.resolutions.map((entry) => entry.entityId)), 'PBDB taxon reconciliation entity IDs must be unique')
+for (const node of ontologyTree.nodes) {
+  const resolution = resolutionsByEntityId.get(node.id)
+  check(Boolean(resolution), `navigation node ${node.id}: missing PBDB resolution record`)
+  if (!resolution) continue
+  if (resolution.resolutionStatus === 'resolved') {
+    check(node.taxonId === resolution.pbdbId, `navigation node ${node.id}: PBDB ID differs from the pinned resolution`)
+    check(resolution.acceptedName === node.name, `navigation node ${node.id}: PBDB accepted name does not match`)
+  } else {
+    check(!node.taxonId, `navigation node ${node.id}: unresolved PBDB concept must not publish an external ID`)
+  }
+}
 check(phylogenyPackage.id === calibrations.topologyHypothesisId, 'calibration package must name the loaded topology hypothesis')
 check(phylogenyPackage.scopeNodeId === phylogenyPackage.root.id, 'phylogeny scopeNodeId must match its root')
 check(treeEvidence.navigationModel?.toLowerCase().includes('navigation ontology'), 'tree evidence must describe a navigation ontology, not assert a topology model')
 for (const profile of profiles) {
   if (profile.treeNodeId) check(ontologyTree.idSet.has(profile.treeNodeId), `taxon ${profile.id}: unknown navigation node ${profile.treeNodeId}`)
+  const resolution = resolutionsByEntityId.get(profile.treeNodeId)
+  check(resolution?.resolutionStatus === 'resolved' && profile.pbdbTaxonId === resolution.pbdbId, `taxon ${profile.id}: profile PBDB ID must match a verified ontology resolution`)
   check(profile.firstAppearance >= profile.lastAppearance, `taxon ${profile.id}: invalid temporal range`)
 }
+check(!existsSync(join(rootDir, 'data/tree/vertebrate-cladogram.json')), 'the unowned vertebrate-cladogram dataset must remain removed or be formally registered')
 for (const id of Object.keys(treeEvidence.nodes)) check(ontologyTree.idSet.has(id), `tree evidence: unknown navigation node ${id}`)
 validateReferences('tree evidence default', treeEvidence.default.references)
 for (const [id, evidence] of Object.entries(treeEvidence.nodes)) validateReferences(`tree evidence ${id}`, evidence.references)
@@ -175,6 +232,8 @@ for (const [id, evidence] of Object.entries(treeEvidence.nodes)) validateReferen
 for (const asset of media) {
   check(profileIds.has(asset.taxonId), `media ${asset.id}: unknown taxon ${asset.taxonId}`)
   check(/^https:\/\//.test(asset.sourceUrl), `media ${asset.id}: source URL must use HTTPS`)
+  check(asset.rightsStatus !== 'external-link-only' || asset.license === 'No reusable-content license verified', `media ${asset.id}: external-only media must not imply a reusable license`)
+  check(asset.reviewedAt === '2026-08-19', `media ${asset.id}: rights review date is stale`)
 }
 
 for (const claim of claims) {
@@ -184,6 +243,14 @@ for (const claim of claims) {
   check(kind === 'event' ? eventIds.has(subjectId) : kind === 'taxon' && profileIds.has(subjectId), `claim ${claim.id}: unknown subject ${claim.subjectId}`)
   for (const link of claim.referenceLinks) validateReferences(`claim ${claim.id}`, [link.referenceId])
   if (kind === 'event') check(claim.referenceLinks.some((link) => referencesById.get(link.referenceId)?.type === 'paper'), `claim ${claim.id}: event claims require a domain paper`)
+  if (claim.confidence === 'high') check(claim.referenceLinks.some((link) => referencesById.get(link.referenceId)?.type === 'paper'), `claim ${claim.id}: high confidence requires peer-reviewed support`)
+}
+for (const event of events) {
+  for (const claimId of event.claimIds) {
+    const claim = claimsById.get(claimId)
+    check(Boolean(claim), `event ${event.id}: unknown claim ${claimId}`)
+    check(claim?.subjectId === `event:${event.id}`, `event ${event.id}: claim ${claimId} has the wrong subject`)
+  }
 }
 check(unique(claims.map((claim) => claim.confidenceRationale)), 'claim confidence rationales must not be reused across claims')
 check(sameValues(Object.keys(claimRationalesZh).sort(), claims.map((claim) => claim.id).sort()), 'Chinese claim rationale IDs must exactly match evidence claim IDs')
@@ -258,11 +325,6 @@ check(recordsWithReferences === fossilCount, 'every bundled occurrence must reta
 check(recordsWithCoordinatePrecision === fossilCount, 'every bundled occurrence must retain coordinate precision metadata')
 for (const place of places) check(countryCounts.get(place.code) === place.occurrences, `place ${place.code}: occurrence count is stale`)
 
-function descendantTaxonIds(node, output = new Set()) {
-  if (node.taxonId) output.add(node.taxonId)
-  for (const child of node.children ?? []) descendantTaxonIds(child, output)
-  return output
-}
 const ontologyTaxonIds = ontologyTree.nodes.filter((node) => node.taxonId).map((node) => node.taxonId)
 check(unique(ontologyTaxonIds), 'navigation ontology PBDB taxon IDs must be unique so descendant queries are unambiguous')
 check(taxonIndex.sourceTotal === fossilCount, 'taxon index sourceTotal must match bundled occurrences')
@@ -270,19 +332,25 @@ for (const node of ontologyTree.nodes.filter((candidate) => candidate.taxonId)) 
   const entry = taxonIndex.nodes[node.taxonId]
   check(Boolean(entry), `taxon index: missing ${node.taxonId}`)
   if (!entry) continue
-  const descendants = [...descendantTaxonIds(node)]
-  const descendantSet = new Set(descendants)
+  const scope = descendantTaxonScope(node)
+  const descendants = [...scope.ids]
+  const descendantNames = [...scope.names]
   const expectedPeriods = []
   let expectedTotal = 0
   for (const period of periodUnits) {
-    const count = (fossilsByPeriod.get(period.nam) ?? []).filter((record) => descendantSet.has(record.tid)).length
+    const count = (fossilsByPeriod.get(period.nam) ?? []).filter((record) => occurrenceMatchesTaxonScope(record, scope)).length
     if (count) expectedPeriods.push(period.nam)
     expectedTotal += count
   }
   check(sameValues(entry.descendantTaxonIds, descendants), `taxon index ${node.taxonId}: descendant closure is stale`)
+  check(sameValues(entry.descendantScientificNames, descendantNames), `taxon index ${node.taxonId}: scientific-name closure is stale`)
   check(sameValues(entry.periods, expectedPeriods), `taxon index ${node.taxonId}: period list is stale`)
   check(entry.matchedTotal === expectedTotal, `taxon index ${node.taxonId}: matchedTotal is stale`)
 }
+check(taxonLinkageCoverage.sourceTotal === fossilCount, 'taxon linkage coverage sourceTotal is stale')
+check(taxonLinkageCoverage.linkedOccurrenceTotal + taxonLinkageCoverage.unmatchedOccurrenceTotal === fossilCount, 'taxon linkage coverage totals do not reconcile')
+check(taxonLinkageCoverage.linkedOccurrenceRate >= 0.01, 'ontology linkage coverage regressed below 1% of the bounded sample')
+for (const profile of profiles) check(taxonLinkageCoverage.profileTotals?.[profile.id] === taxonIndex.nodes[profile.pbdbTaxonId]?.matchedTotal, `taxon linkage coverage for ${profile.id} is stale`)
 
 check(sourceMetadata.samplingMethod === 'bounded non-random API-prefix sample', 'PBDB bundle must use an accurate sampling label')
 check(sourceMetadata.randomized === false && sourceMetadata.selectionProbabilityKnown === false && sourceMetadata.sourceTotalsRetained === false, 'PBDB bundle must disclose randomization, selection probability and source-total limitations')
