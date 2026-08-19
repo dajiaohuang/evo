@@ -78,7 +78,7 @@ test('Explorer restores state and removes the unsupported global model parameter
   await expect(page.getByRole('button', { name: 'points' })).toHaveClass(/is-active/)
   await expect(page.getByRole('button', { name: 'modern' })).toHaveClass(/is-active/)
   await expect(page.getByText('Shared time window 20–5 Ma')).toBeVisible()
-  await expect.poll(() => page.url()).toContain('dataset=2026.08-static-v3')
+  await expect.poll(() => page.url()).toContain('dataset=2026.08-static-v4-rc1')
   for (const fragment of ['older=20', 'younger=5', 'lat=10.000', 'lng=20.000', 'zoom=3.00', 'treeMode=fossil-range']) {
     expect(page.url()).toContain(fragment)
   }
@@ -91,7 +91,34 @@ test('Explorer requires confirmation before replacing a mismatched dataset versi
   await expect(page.getByRole('alertdialog')).toContainText('2025.01-old')
   expect(page.url()).toContain('dataset=2025.01-old')
   await page.getByRole('button', { name: 'Use current dataset' }).click()
-  await expect.poll(() => page.url()).toContain('dataset=2026.08-static-v3')
+  await expect.poll(() => page.url()).toContain('dataset=2026.08-static-v4-rc1')
+})
+
+test('a cached dataset A cannot be mixed into dataset B and offline clearing removes runtime caches', async ({ page }) => {
+  await page.goto('./#/home')
+  await page.evaluate(async () => {
+    const oldCache = await caches.open('evo-runtime-data-2026.08-static-v3')
+    await oldCache.put('/evo/data/packages/atlas-core/manifest.json', new Response(JSON.stringify({ version: '2026.08-static-v3' })))
+  })
+
+  await page.goto('./#/data')
+  await expect(page.locator('.package-row')).toHaveCount(25)
+  const releaseState = await page.evaluate(async () => {
+    const current = await fetch('/evo/data/current.json', { cache: 'no-store' }).then((response) => response.json()) as {
+      datasetVersion: string
+      releaseBase: string
+      packages: { manifests: Record<string, { url: string }> }
+    }
+    const manifestFiles = Object.values(current.packages.manifests)
+    const versions = await Promise.all(manifestFiles.map((file) => fetch(`/evo/data/${file.url}`).then((response) => response.json()).then((manifest) => manifest.version as string)))
+    return { datasetVersion: current.datasetVersion, releaseBase: current.releaseBase, urls: manifestFiles.map((file) => file.url), versions }
+  })
+  expect(releaseState.releaseBase).toBe('releases/2026.08-static-v4-rc1/')
+  expect(releaseState.urls.every((url) => url.startsWith(releaseState.releaseBase))).toBe(true)
+  expect(releaseState.versions.every((version) => version === releaseState.datasetVersion)).toBe(true)
+
+  await page.getByRole('button', { name: 'Clear offline data' }).click()
+  await expect.poll(() => page.evaluate(async () => (await caches.keys()).filter((name) => name.startsWith('evo-runtime-data-') || name.startsWith('evo-explicit-offline-packages-')))).toEqual([])
 })
 
 test('browser back and forward preserve hash navigation', async ({ page }) => {

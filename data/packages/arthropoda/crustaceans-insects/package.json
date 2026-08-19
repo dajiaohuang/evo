@@ -1,7 +1,7 @@
 {
-  "schemaVersion": 3,
+  "schemaVersion": 4,
   "id": "crustaceans-insects",
-  "version": "2026.08-static-v3",
+  "version": "2026.08-static-v4-rc1",
   "title": "Crustaceans, Insects and Myriapod Context",
   "titleZh": "甲壳类、昆虫与多足类背景",
   "rootEntityIds": [
@@ -26,8 +26,10 @@
     "references": "data/references.json",
     "occurrences": "data/fossils/*.json"
   },
-  "maturity": "gold-v2",
-  "reviewStatus": "automated-audit-passed",
+  "platformMaturity": "published",
+  "scientificMaturity": "generated-scaffold",
+  "automatedReviewStatus": "passed",
+  "scientificReviewStatus": "not-reviewed",
   "limitations": [
     "Package dossiers expose the current curated evidence boundary; unavailable fields are explicit and are not inferred."
   ]

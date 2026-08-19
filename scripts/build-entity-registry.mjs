@@ -74,10 +74,16 @@ function ownerForClaim(claim) {
 }
 
 function packageMaturity(definition) {
-  // Gold v2 is a completeness/traceability standard, not a claim of human
-  // scientific peer review. Every owned entity is bilingual, source-linked,
-  // limitation-aware, versioned and explicitly marks unavailable fields.
-  return definition.id === 'atlas-core' ? 'core' : 'gold-v2'
+  return {
+    platformMaturity: 'published',
+    scientificMaturity: definition.id === 'atlas-core'
+      ? 'core'
+      : definition.id === 'perissodactyla'
+        ? 'curated-draft'
+        : 'generated-scaffold',
+    automatedReviewStatus: 'passed',
+    scientificReviewStatus: 'not-reviewed',
+  }
 }
 
 const entities = flattenTree(ontology).map((node) => {
@@ -143,7 +149,7 @@ for (const entity of entities) entityIdsByPackage.get(entity.packageId).push(ent
 const registry = {
   schemaVersion: PACKAGE_SCHEMA_VERSION,
   version: DATASET_PACKAGE_VERSION,
-  schemaStatus: 'frozen',
+  schemaStatus: 'candidate',
   packageCount: packageDefinitions.length,
   entityCount: entities.length,
   packages: packageDefinitions.map((definition) => ({
@@ -155,7 +161,7 @@ const registry = {
     wave: definition.wave,
     rootEntityIds: definition.rootEntityIds,
     entityCount: entityIdsByPackage.get(definition.id).length,
-    maturity: packageMaturity(definition),
+    ...packageMaturity(definition),
   })),
   entityToPackage: Object.fromEntries(entities.map((entity) => [entity.id, entity.packageId])),
 }
@@ -190,8 +196,7 @@ for (const definition of packageDefinitions) {
         calibrations: 'data/packages/mammalia/perissodactyla/phylogeny/calibrations.json',
       } : {}),
     },
-    maturity: packageMaturity(definition),
-    reviewStatus: 'automated-audit-passed',
+    ...packageMaturity(definition),
     limitations: ['Package dossiers expose the current curated evidence boundary; unavailable fields are explicit and are not inferred.'],
   })
   writeJson(`data/packages/${definition.path}/provenance.json`, {

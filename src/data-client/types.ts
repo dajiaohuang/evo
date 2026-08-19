@@ -25,7 +25,10 @@ export interface RuntimePackageRegistryEntry {
   title: string
   titleZh: string
   wave: string
-  maturity: 'core' | 'gold-v2'
+  platformMaturity: 'generated' | 'validated' | 'published'
+  scientificMaturity: 'core' | 'generated-scaffold' | 'source-inventory-complete' | 'curated-draft' | 'expert-reviewed' | 'gold-v2'
+  automatedReviewStatus: 'pending' | 'passed' | 'failed'
+  scientificReviewStatus: 'not-reviewed' | 'in-review' | 'expert-reviewed'
   entityCount: number
   runtimePath: string
 }
@@ -33,7 +36,7 @@ export interface RuntimePackageRegistryEntry {
 export interface RuntimePackageRegistry {
   schemaVersion: number
   version: string
-  schemaStatus: 'frozen'
+  schemaStatus: 'candidate' | 'frozen'
   packageCount: number
   entityCount: number
   packages: RuntimePackageRegistryEntry[]
@@ -57,7 +60,10 @@ export interface RuntimePackageManifest {
   version: string
   title: string
   titleZh: string
-  maturity: RuntimePackageRegistryEntry['maturity']
+  platformMaturity: RuntimePackageRegistryEntry['platformMaturity']
+  scientificMaturity: RuntimePackageRegistryEntry['scientificMaturity']
+  automatedReviewStatus: RuntimePackageRegistryEntry['automatedReviewStatus']
+  scientificReviewStatus: RuntimePackageRegistryEntry['scientificReviewStatus']
   entityCount: number
   profileCount: number
   claimCount: number
@@ -90,11 +96,13 @@ export interface CurrentRuntimeManifest {
   datasetVersion: string
   appVersion: string
   publication: string
+  releaseBase: string
   core: Record<string, RuntimeFile>
   packages: {
     count: number
     registry: RuntimeFile
     manifestTemplate: string
+    manifests: Record<string, RuntimeFile>
   }
   occurrences: {
     manifest: RuntimeFile
@@ -109,5 +117,5 @@ export interface CurrentRuntimeManifest {
     shardLimitBytes: number
     pagesLimitBytes: number
   }
-  evidenceBoundary: Record<string, string>
+  evidenceBoundary: Record<string, string | Record<string, number>>
 }

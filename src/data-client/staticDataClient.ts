@@ -17,6 +17,10 @@ let worker: Worker | null = null
 let requestId = 0
 const workerRequests = new Map<number, { resolve: (data: unknown) => void; reject: (error: Error) => void }>()
 
+function cacheKey(file: RuntimeFile): string {
+  return `${file.url}#${file.sha256 ?? 'unverified'}`
+}
+
 function dataUrl(relativeUrl: string): string {
   if (/^https?:\/\//.test(relativeUrl)) return relativeUrl
   return `${dataRoot}${relativeUrl.replace(/^\/+/, '')}`
@@ -27,14 +31,37 @@ async function digestHex(bytes: ArrayBuffer): Promise<string> {
   return [...new Uint8Array(digest)].map((value) => value.toString(16).padStart(2, '0')).join('')
 }
 
-async function loadWithoutWorker<T>(file: RuntimeFile): Promise<T> {
-  const response = await fetch(dataUrl(file.url))
+async function evictUrlFromCaches(url: string): Promise<void> {
+  if (!('caches' in globalThis)) return
+  const cacheNames = await caches.keys()
+  await Promise.all(cacheNames.map(async (cacheName) => {
+    const cache = await caches.open(cacheName)
+    await cache.delete(url)
+  }))
+}
+
+async function fetchVerifiedBytes(file: RuntimeFile, retry = true): Promise<ArrayBuffer> {
+  const url = dataUrl(file.url)
+  const response = await fetch(url, retry ? undefined : { cache: 'reload' })
   if (!response.ok) throw new Error(`Static data request failed (${response.status}) for ${file.url}`)
   const bytes = await response.arrayBuffer()
   const byteView = new Uint8Array(bytes)
   const isGzip = byteView[0] === 0x1f && byteView[1] === 0x8b
-  const expectedChecksum = isGzip ? file.sha256 : file.sourceSha256
-  if (expectedChecksum && await digestHex(bytes) !== expectedChecksum) throw new Error(`Checksum mismatch for ${file.url}`)
+  const expectedChecksum = isGzip ? file.sha256 : file.sourceSha256 ?? file.sha256
+  if (expectedChecksum && await digestHex(bytes) !== expectedChecksum) {
+    if (retry) {
+      await evictUrlFromCaches(url)
+      return fetchVerifiedBytes(file, false)
+    }
+    throw new Error(`Checksum mismatch for ${file.url} after network refetch`)
+  }
+  return bytes
+}
+
+async function loadWithoutWorker<T>(file: RuntimeFile): Promise<T> {
+  const bytes = await fetchVerifiedBytes(file)
+  const byteView = new Uint8Array(bytes)
+  const isGzip = byteView[0] === 0x1f && byteView[1] === 0x8b
   return JSON.parse(strFromU8(isGzip ? gunzipSync(byteView) : byteView)) as T
 }
 
@@ -70,34 +97,40 @@ async function loadWithWorker<T>(file: RuntimeFile): Promise<T> {
 }
 
 export async function loadRuntimeFile<T>(file: RuntimeFile): Promise<T> {
-  const cached = jsonCache.get(file.url)
+  const key = cacheKey(file)
+  const cached = jsonCache.get(key)
   if (cached !== undefined) return cached as T
-  const pending = inFlight.get(file.url)
+  const pending = inFlight.get(key)
   if (pending) return pending as Promise<T>
   const request = loadWithWorker<T>(file).then((data) => {
-    jsonCache.set(file.url, data)
-    inFlight.delete(file.url)
+    jsonCache.set(key, data)
+    inFlight.delete(key)
     return data
   }, (error) => {
-    inFlight.delete(file.url)
+    inFlight.delete(key)
     throw error
   })
-  inFlight.set(file.url, request)
+  inFlight.set(key, request)
   return request
 }
 
-async function loadPlainJson<T>(file: RuntimeFile): Promise<T> {
-  const cached = jsonCache.get(file.url)
-  if (cached !== undefined) return cached as T
-  const response = await fetch(dataUrl(file.url))
-  if (!response.ok) throw new Error(`Static data request failed (${response.status}) for ${file.url}`)
-  const data = await response.json() as T
-  jsonCache.set(file.url, data)
+async function loadBootstrapManifest(): Promise<CurrentRuntimeManifest> {
+  const key = 'current.json#bootstrap'
+  const cached = jsonCache.get(key)
+  if (cached !== undefined) return cached as CurrentRuntimeManifest
+  const response = await fetch(dataUrl('current.json'), { cache: 'no-store' })
+  if (!response.ok) throw new Error(`Static data request failed (${response.status}) for current.json`)
+  const data = await response.json() as CurrentRuntimeManifest
+  const expectedReleaseBase = `releases/${data.datasetVersion}/`
+  if (data.releaseBase !== expectedReleaseBase) {
+    throw new Error(`Runtime bootstrap release mismatch: expected ${expectedReleaseBase}, received ${data.releaseBase}`)
+  }
+  jsonCache.set(key, data)
   return data
 }
 
 export function loadCurrentManifest(): Promise<CurrentRuntimeManifest> {
-  return loadPlainJson<CurrentRuntimeManifest>({ url: 'current.json' })
+  return loadBootstrapManifest()
 }
 
 export async function loadPackageRegistry(): Promise<RuntimePackageRegistry> {
@@ -112,8 +145,13 @@ export async function loadEntityIndex(): Promise<RuntimeEntity[]> {
 
 export async function loadPackageManifest(packageId: string): Promise<RuntimePackageManifest> {
   const current = await loadCurrentManifest()
-  const path = current.packages.manifestTemplate.replace('{packageId}', encodeURIComponent(packageId))
-  return loadPlainJson<RuntimePackageManifest>({ url: path })
+  const file = current.packages.manifests[packageId]
+  if (!file) throw new Error(`Unknown runtime package: ${packageId}`)
+  const manifest = await loadRuntimeFile<RuntimePackageManifest>(file)
+  if (manifest.packageId !== packageId || manifest.version !== current.datasetVersion) {
+    throw new Error(`Runtime package ${packageId} does not belong to dataset ${current.datasetVersion}`)
+  }
+  return manifest
 }
 
 export async function loadPackageForEntity(entityId: string): Promise<RuntimePackageManifest | null> {
@@ -131,7 +169,11 @@ export async function loadPackageForEntity(entityId: string): Promise<RuntimePac
 
 export async function loadOccurrenceManifest(): Promise<OccurrenceRuntimeManifest> {
   const current = await loadCurrentManifest()
-  return loadPlainJson<OccurrenceRuntimeManifest>(current.occurrences.manifest)
+  const manifest = await loadRuntimeFile<OccurrenceRuntimeManifest>(current.occurrences.manifest)
+  if (manifest.version !== current.datasetVersion) {
+    throw new Error(`Occurrence manifest does not belong to dataset ${current.datasetVersion}`)
+  }
+  return manifest
 }
 
 function matchesSearch(entry: RuntimeSearchEntry, normalized: string): boolean {

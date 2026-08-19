@@ -94,7 +94,7 @@ for (const unit of timeScale.units) {
 
 check(manifest.appVersion === packageMetadata.version, 'manifest appVersion must match package.json version')
 check(manifest.datasetVersion !== manifest.appVersion, 'datasetVersion and appVersion must remain separate identifiers')
-check(manifest.schemaVersion === 3, 'manifest schemaVersion must be 3')
+check(manifest.schemaVersion === 4, 'manifest schemaVersion must be 4')
 check(!Object.hasOwn(manifest, 'commitSha'), 'dataset manifest must not contain deployment-specific commit metadata')
 for (let index = 0; index < periodUnits.length; index += 1) {
   const period = periodUnits[index]

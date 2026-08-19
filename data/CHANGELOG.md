@@ -1,5 +1,13 @@
 # Dataset changelog
 
+## 2026.08-static-v4-rc1 — 2026-08-19
+
+- Moved every runtime payload and manifest under an immutable dataset-versioned release path; `current.json` remains the only mutable bootstrap.
+- Added checksums for package, occurrence and map manifests, enforced package/dataset coherence in the client, and added one cache-evicting network retry after checksum failure.
+- Versioned Workbox runtime caches by dataset and made “Clear offline data” remove both explicit package caches and runtime data caches.
+- Replaced the forced `core | gold-v2` flag with separate platform maturity, scientific maturity, automated review and scientific review axes under candidate package schema v4.
+- Migrated Perissodactyla to `curated-draft`, the other 22 scientific packages to `generated-scaffold`, and removed the misleading 23/23 Gold claim.
+
 ## 2026.08-static-v3 — 2026-08-19
 
 - Rebuilt the geological-time table against the official ICS 2026/06 chart, retaining boundary uncertainty, approximation status, definition type and source locator instead of presenting every boundary as an unqualified float.

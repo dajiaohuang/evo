@@ -1,7 +1,7 @@
 {
-  "schemaVersion": 3,
+  "schemaVersion": 4,
   "id": "molluscs-brachiopods",
-  "version": "2026.08-static-v3",
+  "version": "2026.08-static-v4-rc1",
   "title": "Molluscs, Brachiopods and Graptolites",
   "titleZh": "软体动物、腕足动物与笔石",
   "rootEntityIds": [
@@ -35,8 +35,10 @@
     "references": "data/references.json",
     "occurrences": "data/fossils/*.json"
   },
-  "maturity": "gold-v2",
-  "reviewStatus": "automated-audit-passed",
+  "platformMaturity": "published",
+  "scientificMaturity": "generated-scaffold",
+  "automatedReviewStatus": "passed",
+  "scientificReviewStatus": "not-reviewed",
   "limitations": [
     "Package dossiers expose the current curated evidence boundary; unavailable fields are explicit and are not inferred."
   ]

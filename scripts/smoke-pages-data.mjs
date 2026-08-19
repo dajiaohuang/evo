@@ -20,7 +20,11 @@ if (!existsSync(join(dataRoot, 'current.json'))) {
 }
 
 const current = readJson('current.json')
+const releaseUrl = (file, label) => {
+  if (!file?.url?.startsWith(current.releaseBase)) failures.push(`${label}: URL is outside current release ${current.releaseBase}`)
+}
 for (const [name, file] of Object.entries(current.core)) {
+  releaseUrl(file, `core ${name}`)
   checkFile(file, `core ${name}`)
   if (file.url?.endsWith('.json.gz')) {
     try { readGzipJson(file.url) } catch (error) { failures.push(`core ${name}: cannot parse gzip JSON (${error.message})`) }
@@ -30,25 +34,35 @@ for (const [name, file] of Object.entries(current.core)) {
 const packageRegistry = readGzipJson(current.packages.registry.url)
 if (packageRegistry.packages.length !== current.packages.count) failures.push('package count mismatch')
 for (const packageEntry of packageRegistry.packages) {
-  const manifestPath = current.packages.manifestTemplate.replace('{packageId}', packageEntry.id)
-  if (!existsSync(join(dataRoot, manifestPath))) {
+  const manifestFile = current.packages.manifests[packageEntry.id]
+  releaseUrl(manifestFile, `package ${packageEntry.id} manifest`)
+  checkFile(manifestFile, `package ${packageEntry.id} manifest`)
+  if (!manifestFile?.url || !existsSync(join(dataRoot, manifestFile.url))) {
     failures.push(`package ${packageEntry.id}: manifest missing`)
     continue
   }
-  const manifest = readJson(manifestPath)
+  const manifest = readJson(manifestFile.url)
+  if (manifest.version !== current.datasetVersion) failures.push(`package ${packageEntry.id}: dataset version mismatch`)
   for (const [name, file] of Object.entries(manifest.files)) {
+    releaseUrl(file, `package ${packageEntry.id}/${name}`)
     checkFile(file, `package ${packageEntry.id}/${name}`)
     try { readGzipJson(file.url) } catch (error) { failures.push(`package ${packageEntry.id}/${name}: cannot parse gzip JSON (${error.message})`) }
   }
-  for (const shard of manifest.occurrences) checkFile(shard, `package ${packageEntry.id} occurrence`)
+  for (const shard of manifest.occurrences) {
+    releaseUrl(shard, `package ${packageEntry.id} occurrence`)
+    checkFile(shard, `package ${packageEntry.id} occurrence`)
+  }
   const download = current.downloads.template.replace('{packageId}', packageEntry.id)
   if (!existsSync(join(dataRoot, download))) failures.push(`package ${packageEntry.id}: download missing`)
 }
 
+releaseUrl(current.occurrences.manifest, 'occurrence manifest')
+checkFile(current.occurrences.manifest, 'occurrence manifest')
 const occurrences = readJson(current.occurrences.manifest.url)
 let occurrenceCount = 0
 for (const shards of Object.values(occurrences.packages)) {
   for (const shard of shards) {
+    releaseUrl(shard, `occurrence ${shard.packageId}/${shard.period}`)
     checkFile(shard, `occurrence ${shard.packageId}/${shard.period}`)
     try {
       const records = readGzipJson(shard.url)
@@ -61,6 +75,8 @@ for (const shards of Object.values(occurrences.packages)) {
 }
 if (occurrenceCount !== occurrences.totalRecords || occurrenceCount !== current.occurrences.totalRecords) failures.push(`occurrence total is ${occurrenceCount}; manifests disagree`)
 
+releaseUrl(current.maps.manifest, 'map manifest')
+checkFile(current.maps.manifest, 'map manifest')
 const maps = readJson(current.maps.manifest.url)
 for (const snapshot of maps.snapshots) if (snapshot.status === 'available' && snapshot.geometry === 'withheld-pending-provenance') failures.push(`${snapshot.period}: available map is withheld`)
 

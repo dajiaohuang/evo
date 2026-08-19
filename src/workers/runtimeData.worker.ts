@@ -14,17 +14,41 @@ async function digestHex(bytes: ArrayBuffer): Promise<string> {
   return [...new Uint8Array(digest)].map((value) => value.toString(16).padStart(2, '0')).join('')
 }
 
+async function evictUrlFromCaches(url: string): Promise<void> {
+  const cacheNames = await caches.keys()
+  await Promise.all(cacheNames.map(async (cacheName) => {
+    const cache = await caches.open(cacheName)
+    await cache.delete(url)
+  }))
+}
+
+async function fetchVerifiedBytes(url: string, sha256?: string, sourceSha256?: string, retry = true): Promise<ArrayBuffer> {
+  const response = await fetch(url, retry ? undefined : { cache: 'reload' })
+  if (!response.ok) throw new Error(`Static data request failed (${response.status}) for ${url}`)
+  const bytes = await response.arrayBuffer()
+  const byteView = new Uint8Array(bytes)
+  const isGzip = byteView[0] === 0x1f && byteView[1] === 0x8b
+  const expectedChecksum = isGzip ? sha256 : sourceSha256 ?? sha256
+  if (expectedChecksum && await digestHex(bytes) !== expectedChecksum) {
+    if (retry) {
+      await evictUrlFromCaches(url)
+      return fetchVerifiedBytes(url, sha256, sourceSha256, false)
+    }
+    throw new Error(`Checksum mismatch for ${url} after network refetch`)
+  }
+  return bytes
+}
+
 self.onmessage = async (event: MessageEvent<RuntimeWorkerRequest>) => {
   const { id, url, sha256, sourceSha256 } = event.data
   try {
-    const response = await fetch(url)
-    if (!response.ok) throw new Error(`Static data request failed (${response.status}) for ${url}`)
-    const bytes = await response.arrayBuffer()
+    const bytes = await fetchVerifiedBytes(url, sha256, sourceSha256)
     const byteView = new Uint8Array(bytes)
     const isGzip = byteView[0] === 0x1f && byteView[1] === 0x8b
-    const expectedChecksum = isGzip ? sha256 : sourceSha256
-    if (expectedChecksum && await digestHex(bytes) !== expectedChecksum) throw new Error(`Checksum mismatch for ${url}`)
     const jsonBytes = isGzip ? gunzipSync(byteView) : byteView
+    if (isGzip && sourceSha256 && await digestHex(Uint8Array.from(jsonBytes).buffer) !== sourceSha256) {
+      throw new Error(`Decompressed checksum mismatch for ${url}`)
+    }
     const data = JSON.parse(strFromU8(jsonBytes)) as unknown
     self.postMessage({ id, data })
   } catch (error) {

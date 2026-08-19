@@ -15,7 +15,7 @@ Evo Atlas is a static-first web atlas for exploring 4.567 billion years of Earth
 - **Local research workspace** — Recent query definitions are retained in browser IndexedDB and never sent to an application server.
 - **Offline PWA** — Installable, precached app shell; large immutable scientific chunks are cached only when opened.
 - **Static release pipeline** — Cross-file data validation, per-file SHA-256 checksums, tests, lint and GitHub Pages deployment gates.
-- **Pages Data Platform v3** — 179 bilingual registry entities assigned to 24 static packages, with all 23 scientific packages at the Gold v2 dossier baseline, gzip runtime projections, two-level search indexes, occurrence shards and per-package downloads under `/evo/data/`.
+- **Pages Data Platform v4 candidate** — 179 bilingual registry entities assigned to 24 static packages, with platform publication status separated from scientific maturity: Perissodactyla is a curated draft and the other 22 scientific packages are generated scaffolds, not Gold datasets.
 - **Explicit offline packages** — Core data is precached; package and occurrence data is cached on access or when the user explicitly saves a package from the Data page.
 
 ## Architecture
@@ -63,7 +63,7 @@ npm run pages:smoke
 
 `data:manifest` intentionally rewrites record counts and SHA-256 checksums after a reviewed canonical change. `data:build` creates the publishable static projection at `dist/data/`; it does not write runtime copies into canonical `data/`. The taxon-period descendant index, fossil normalization and `data:assign:fossils` package-assignment steps are reproducible commands. Optional staging helpers are available for PBDB occurrence retrieval/enrichment and splitting a source GeoJSON FeatureCollection; no geometry may be promoted from staging until the provenance fields required by `DATA_LICENSES.md` are complete. Staging fetches refuse to overwrite an existing target unless `--replace` is supplied.
 
-The public bootstrap is `/evo/data/current.json`. It links Core files, 24 package manifests, occurrence/map manifests and per-package downloads. See [Static Data Platform v3](docs/static-data-platform-v3.md) for formats, caching rules and budgets.
+The public bootstrap is `/evo/data/current.json`. It links checksum-addressed manifests and immutable files under `/evo/data/releases/<datasetVersion>/`; clients reject package/version mismatches and evict then refetch checksum failures once. See [Static Data Platform v4](docs/static-data-platform-v4.md) for formats, caching rules and budgets.
 
 ```bash
 npm run data:fetch:fossils -- --period Cretaceous --limit 1000

@@ -1,7 +1,7 @@
 {
-  "schemaVersion": 3,
+  "schemaVersion": 4,
   "id": "perissodactyla",
-  "version": "2026.08-static-v3",
+  "version": "2026.08-static-v4-rc1",
   "title": "Odd-toed Ungulates",
   "titleZh": "奇蹄目",
   "rootEntityIds": [
@@ -35,8 +35,10 @@
     "phylogeny": "data/packages/mammalia/perissodactyla/phylogeny/hypothesis.json",
     "calibrations": "data/packages/mammalia/perissodactyla/phylogeny/calibrations.json"
   },
-  "maturity": "gold-v2",
-  "reviewStatus": "automated-audit-passed",
+  "platformMaturity": "published",
+  "scientificMaturity": "curated-draft",
+  "automatedReviewStatus": "passed",
+  "scientificReviewStatus": "not-reviewed",
   "limitations": [
     "Package dossiers expose the current curated evidence boundary; unavailable fields are explicit and are not inferred."
   ]

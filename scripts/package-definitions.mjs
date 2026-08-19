@@ -1,5 +1,5 @@
-export const PACKAGE_SCHEMA_VERSION = 3
-export const DATASET_PACKAGE_VERSION = '2026.08-static-v3'
+export const PACKAGE_SCHEMA_VERSION = 4
+export const DATASET_PACKAGE_VERSION = '2026.08-static-v4-rc1'
 
 export const packageDefinitions = [
   {
@@ -128,7 +128,7 @@ export const packageDefinitions = [
     title: 'Odd-toed Ungulates',
     titleZh: '奇蹄目',
     rootEntityIds: ['perissodactyla'],
-    wave: 'gold-v2',
+    wave: 'scientific-pilot',
   },
   {
     id: 'cetartiodactyla',

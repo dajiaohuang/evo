@@ -20,6 +20,10 @@ rmSync(outputRoot, { recursive: true, force: true })
 mkdirSync(outputRoot, { recursive: true })
 
 const sourceManifest = readJson('data/manifest.json')
+if (!/^[a-zA-Z0-9][a-zA-Z0-9._-]*$/.test(sourceManifest.datasetVersion)) {
+  throw new Error(`datasetVersion is not safe for a release path: ${sourceManifest.datasetVersion}`)
+}
+const releasePrefix = `releases/${sourceManifest.datasetVersion}`
 const registry = readJson('data/registry/package-registry.json')
 const entities = readJson('data/registry/entities/entities.json')
 const ontology = readJson('data/navigation/atlas-ontology.json')
@@ -52,7 +56,7 @@ function jsonBytes(value, pretty = false) {
 }
 
 function write(relativePath, bytes) {
-  const normalized = relativePath.replaceAll('\\', '/')
+  const normalized = `${releasePrefix}/${relativePath.replaceAll('\\', '/').replace(/^\/+/, '')}`
   const absolutePath = join(outputRoot, normalized)
   mkdirSync(dirname(absolutePath), { recursive: true })
   writeFileSync(absolutePath, bytes)
@@ -63,6 +67,15 @@ function write(relativePath, bytes) {
 
 function writeJson(relativePath, value, pretty = false) {
   return write(relativePath, jsonBytes(value, pretty))
+}
+
+function writeBootstrapJson(relativePath, value, pretty = false) {
+  const normalized = relativePath.replaceAll('\\', '/').replace(/^\/+/, '')
+  const bytes = jsonBytes(value, pretty)
+  const absolutePath = join(outputRoot, normalized)
+  mkdirSync(dirname(absolutePath), { recursive: true })
+  writeFileSync(absolutePath, bytes)
+  return { url: normalized, bytes: bytes.byteLength, sha256: sha256(bytes) }
 }
 
 function writeGzipJson(relativePath, value) {
@@ -179,7 +192,7 @@ for (const period of timeScale.units.filter((unit) => unit.itp === 'period')) {
 }
 
 const occurrenceManifest = {
-  schemaVersion: 3,
+  schemaVersion: 4,
   version: sourceManifest.datasetVersion,
   source: occurrenceSource,
   totalRecords: occurrenceTotal,
@@ -255,12 +268,15 @@ for (const packageEntry of registry.packages) {
   const knowledgeBytes = Object.values(payloadFiles).reduce((sum, file) => sum + file.bytes, 0)
   const occurrenceBytes = occurrenceShards.reduce((sum, file) => sum + file.bytes, 0)
   const manifest = {
-    schemaVersion: 3,
+    schemaVersion: 4,
     packageId,
     version: sourceManifest.datasetVersion,
     title: packageEntry.title,
     titleZh: packageEntry.titleZh,
-    maturity: packageEntry.maturity,
+    platformMaturity: packageEntry.platformMaturity,
+    scientificMaturity: packageEntry.scientificMaturity,
+    automatedReviewStatus: packageEntry.automatedReviewStatus,
+    scientificReviewStatus: packageEntry.scientificReviewStatus,
     entityCount: packageEntities.length,
     profileCount: packageProfiles.length,
     claimCount: packageClaims.length,
@@ -290,9 +306,9 @@ for (const packageEntry of registry.packages) {
   write(`downloads/${packageId}-${sourceManifest.datasetVersion}.zip`, archive)
 }
 
-writeJson('occurrences/manifest.json', occurrenceManifest, true)
-writeJson('maps/manifest.json', {
-  schemaVersion: 3,
+const occurrenceManifestFile = writeJson('occurrences/manifest.json', occurrenceManifest, true)
+const mapsManifestFile = writeJson('maps/manifest.json', {
+  schemaVersion: 4,
   snapshots: periodMetadata.map((period) => ({
     period: period.name,
     status: period.mapLayerStatus,
@@ -305,23 +321,25 @@ writeJson('maps/manifest.json', {
 
 const coreCompressedBytes = Object.values(core).reduce((sum, file) => sum + file.bytes, 0)
 const current = {
-  schemaVersion: 3,
+  schemaVersion: 4,
   datasetVersion: sourceManifest.datasetVersion,
   appVersion: sourceManifest.appVersion,
   publication: 'GitHub Pages static data platform',
+  releaseBase: `${releasePrefix}/`,
   core,
   packages: {
     count: packageRuntimeManifests.length,
     registry: core.packages,
-    manifestTemplate: 'packages/{packageId}/manifest.json',
+    manifestTemplate: `${releasePrefix}/packages/{packageId}/manifest.json`,
+    manifests: Object.fromEntries(packageRuntimeManifests.map((manifest) => [manifest.packageId, manifest.manifest])),
   },
   occurrences: {
-    manifest: { url: 'occurrences/manifest.json' },
+    manifest: occurrenceManifestFile,
     totalRecords: occurrenceTotal,
     unresolvedPackageAssignmentCount,
   },
-  maps: { manifest: { url: 'maps/manifest.json' } },
-  downloads: { template: `downloads/{packageId}-${sourceManifest.datasetVersion}.zip` },
+  maps: { manifest: mapsManifestFile },
+  downloads: { template: `${releasePrefix}/downloads/{packageId}-${sourceManifest.datasetVersion}.zip` },
   budgets: {
     coreCompressedBytes,
     coreLimitBytes: 5 * 1024 * 1024,
@@ -332,11 +350,16 @@ const current = {
     entityRegistry: `${entities.length}/${entities.length}`,
     chineseNamesPresent: `${entities.filter((entity) => entity.names.zh).length}/${entities.length}`,
     packageOwnership: `${entities.filter((entity) => entity.packageId).length}/${entities.length}`,
-    goldScientificPackages: `${registry.packages.filter((entry) => entry.id !== 'atlas-core' && entry.maturity === 'gold-v2').length}/${registry.packages.filter((entry) => entry.id !== 'atlas-core').length}`,
+    scientificMaturitySummary: registry.packages
+      .filter((entry) => entry.id !== 'atlas-core')
+      .reduce((summary, entry) => {
+        summary[entry.scientificMaturity] = (summary[entry.scientificMaturity] ?? 0) + 1
+        return summary
+      }, {}),
     scientificPeerReview: 'Only records explicitly marked expert-reviewed should be interpreted as human scientific review.',
   },
 }
-writeJson('current.json', current, true)
+writeBootstrapJson('current.json', current, true)
 
 const duplicateGroups = new Map()
 for (const file of files.values()) {

@@ -4,6 +4,9 @@ import { dirname, join } from 'node:path'
 import { readJson, rootDir } from './data-lib.mjs'
 
 const unique = (items) => new Set(items).size === items.length
+const scientificMaturityOrder = ['generated-scaffold', 'source-inventory-complete', 'curated-draft', 'expert-reviewed', 'gold-v2']
+const scientificMaturityAtLeast = (value, minimum) => scientificMaturityOrder.indexOf(value) >= scientificMaturityOrder.indexOf(minimum)
+const isGenericScientificReference = (referenceId) => /(?:^|[-_])(pbdb|open-?tree|opentree|ics|gplates)(?:[-_]|$)/i.test(referenceId)
 
 function schemaValidator(schemaPath) {
   const ajv = new Ajv2020({ allErrors: true, strict: true })
@@ -31,6 +34,7 @@ function registryFailures() {
   if (registry.packageCount !== 24 || registry.packages.length !== 24) failures.push('package registry must contain 24 packages')
   if (!unique(ids)) failures.push('entity registry IDs must be unique')
   if (!unique([...packageIds])) failures.push('package IDs must be unique')
+  if (registry.schemaVersion !== 4 || registry.schemaStatus !== 'candidate') failures.push('package registry must use candidate schema v4')
   for (const entity of entities) {
     failures.push(...schemaFailure(validateEntity, entity, `entity ${entity.id}`))
     if (entity.parentId && !idSet.has(entity.parentId)) failures.push(`entity ${entity.id}: unknown parent ${entity.parentId}`)
@@ -47,8 +51,11 @@ function registryFailures() {
   for (const packageEntry of registry.packages) {
     const count = entities.filter((entity) => entity.packageId === packageEntry.id).length
     if (packageEntry.entityCount !== count) failures.push(`package ${packageEntry.id}: entityCount is stale`)
-    const expectedMaturity = packageEntry.id === 'atlas-core' ? 'core' : 'gold-v2'
-    if (packageEntry.maturity !== expectedMaturity) failures.push(`package ${packageEntry.id}: maturity must be ${expectedMaturity}`)
+    if (packageEntry.platformMaturity !== 'published') failures.push(`package ${packageEntry.id}: generated release packages must be platform-published`)
+    if (packageEntry.automatedReviewStatus !== 'passed') failures.push(`package ${packageEntry.id}: automated validation must pass before publication`)
+    if (packageEntry.id === 'atlas-core' && packageEntry.scientificMaturity !== 'core') failures.push('package atlas-core: scientificMaturity must be core')
+    if (packageEntry.id !== 'atlas-core' && !scientificMaturityOrder.includes(packageEntry.scientificMaturity)) failures.push(`package ${packageEntry.id}: invalid scientificMaturity`)
+    if (packageEntry.scientificReviewStatus !== 'expert-reviewed' && scientificMaturityAtLeast(packageEntry.scientificMaturity, 'expert-reviewed')) failures.push(`package ${packageEntry.id}: expert-reviewed maturity requires scientific review`)
   }
   return failures
 }
@@ -71,7 +78,9 @@ function packageFailures() {
     const packageData = readJson(path)
     failures.push(...schemaFailure(validatePackage, packageData, `package ${entry.id}`))
     if (packageData.id !== entry.id) failures.push(`package ${entry.id}: package.json ID mismatch`)
-    if (packageData.maturity !== entry.maturity) failures.push(`package ${entry.id}: maturity does not match the package registry`)
+    for (const field of ['platformMaturity', 'scientificMaturity', 'automatedReviewStatus', 'scientificReviewStatus']) {
+      if (packageData[field] !== entry[field]) failures.push(`package ${entry.id}: ${field} does not match the package registry`)
+    }
     const expectedIds = entities.filter((entity) => entity.packageId === entry.id).map((entity) => entity.id)
     if (JSON.stringify(packageData.entityIds) !== JSON.stringify(expectedIds)) failures.push(`package ${entry.id}: entityIds are stale`)
     for (const source of Object.values(packageData.canonicalSources)) {
@@ -81,8 +90,21 @@ function packageFailures() {
     for (const companion of ['provenance.json', 'review.json']) {
       if (!existsSync(join(rootDir, entry.canonicalPath, companion))) failures.push(`package ${entry.id}: missing ${companion}`)
     }
+    const packageClaimIds = readJson(`${entry.canonicalPath}/evidence/claim-ids.json`)
+    const review = readJson(`${entry.canonicalPath}/review.json`)
+    if (packageClaimIds.length === 0 && entry.id !== 'atlas-core' && scientificMaturityAtLeast(packageData.scientificMaturity, 'source-inventory-complete')) failures.push(`package ${entry.id}: packages without claims cannot exceed generated-scaffold`)
+    if (review.scientificPeerReview === false && scientificMaturityAtLeast(packageData.scientificMaturity, 'expert-reviewed')) failures.push(`package ${entry.id}: expert-reviewed or gold-v2 maturity requires scientificPeerReview`)
     const ranges = readJson(`${entry.canonicalPath}/ranges.json`)
     for (const range of ranges) failures.push(...schemaFailure(validateRange, range, `package ${entry.id} range ${range.id}`))
+    if (packageData.scientificMaturity === 'gold-v2') {
+      for (const range of ranges) {
+        if (!range.referenceIds.some((referenceId) => !isGenericScientificReference(referenceId))) failures.push(`package ${entry.id} range ${range.id}: gold-v2 requires a taxon-specific source`)
+      }
+      const claims = readJson('data/evidence/claims.json').filter((claim) => packageClaimIds.includes(claim.id))
+      for (const claim of claims) {
+        if (!claim.referenceLinks.some((link) => !isGenericScientificReference(link.referenceId))) failures.push(`package ${entry.id} claim ${claim.id}: gold-v2 cannot rely only on generic PBDB/OpenTree references`)
+      }
+    }
     failures.push(...schemaFailure(validateTranslation, readJson(`${entry.canonicalPath}/locales/zh.json`), `package ${entry.id} Chinese locale`))
     if (entry.id === 'perissodactyla') {
       failures.push(...schemaFailure(validatePhylogeny, readJson(`${entry.canonicalPath}/phylogeny/hypothesis.json`), 'Perissodactyla phylogeny'))

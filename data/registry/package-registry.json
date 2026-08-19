@@ -1,7 +1,7 @@
 {
-  "schemaVersion": 3,
-  "version": "2026.08-static-v3",
-  "schemaStatus": "frozen",
+  "schemaVersion": 4,
+  "version": "2026.08-static-v4-rc1",
+  "schemaStatus": "candidate",
   "packageCount": 24,
   "entityCount": 179,
   "packages": [
@@ -25,7 +25,10 @@
         "placentalia"
       ],
       "entityCount": 10,
-      "maturity": "core"
+      "platformMaturity": "published",
+      "scientificMaturity": "core",
+      "automatedReviewStatus": "passed",
+      "scientificReviewStatus": "not-reviewed"
     },
     {
       "id": "early-land-plants",
@@ -41,7 +44,10 @@
         "pteridophyta"
       ],
       "entityCount": 7,
-      "maturity": "gold-v2"
+      "platformMaturity": "published",
+      "scientificMaturity": "generated-scaffold",
+      "automatedReviewStatus": "passed",
+      "scientificReviewStatus": "not-reviewed"
     },
     {
       "id": "gymnosperms",
@@ -54,7 +60,10 @@
         "gymnospermae"
       ],
       "entityCount": 5,
-      "maturity": "gold-v2"
+      "platformMaturity": "published",
+      "scientificMaturity": "generated-scaffold",
+      "automatedReviewStatus": "passed",
+      "scientificReviewStatus": "not-reviewed"
     },
     {
       "id": "angiospermae",
@@ -67,7 +76,10 @@
         "angiospermae"
       ],
       "entityCount": 5,
-      "maturity": "gold-v2"
+      "platformMaturity": "published",
+      "scientificMaturity": "generated-scaffold",
+      "automatedReviewStatus": "passed",
+      "scientificReviewStatus": "not-reviewed"
     },
     {
       "id": "sponges-cnidarians",
@@ -81,7 +93,10 @@
         "cnidaria"
       ],
       "entityCount": 8,
-      "maturity": "gold-v2"
+      "platformMaturity": "published",
+      "scientificMaturity": "generated-scaffold",
+      "automatedReviewStatus": "passed",
+      "scientificReviewStatus": "not-reviewed"
     },
     {
       "id": "molluscs-brachiopods",
@@ -96,7 +111,10 @@
         "graptolithina"
       ],
       "entityCount": 18,
-      "maturity": "gold-v2"
+      "platformMaturity": "published",
+      "scientificMaturity": "generated-scaffold",
+      "automatedReviewStatus": "passed",
+      "scientificReviewStatus": "not-reviewed"
     },
     {
       "id": "trilobites-chelicerates",
@@ -110,7 +128,10 @@
         "chelicerata"
       ],
       "entityCount": 6,
-      "maturity": "gold-v2"
+      "platformMaturity": "published",
+      "scientificMaturity": "generated-scaffold",
+      "automatedReviewStatus": "passed",
+      "scientificReviewStatus": "not-reviewed"
     },
     {
       "id": "crustaceans-insects",
@@ -125,7 +146,10 @@
         "insecta"
       ],
       "entityCount": 9,
-      "maturity": "gold-v2"
+      "platformMaturity": "published",
+      "scientificMaturity": "generated-scaffold",
+      "automatedReviewStatus": "passed",
+      "scientificReviewStatus": "not-reviewed"
     },
     {
       "id": "echinoderms",
@@ -138,7 +162,10 @@
         "echinodermata"
       ],
       "entityCount": 5,
-      "maturity": "gold-v2"
+      "platformMaturity": "published",
+      "scientificMaturity": "generated-scaffold",
+      "automatedReviewStatus": "passed",
+      "scientificReviewStatus": "not-reviewed"
     },
     {
       "id": "early-fishes",
@@ -153,7 +180,10 @@
         "acanthodii"
       ],
       "entityCount": 11,
-      "maturity": "gold-v2"
+      "platformMaturity": "published",
+      "scientificMaturity": "generated-scaffold",
+      "automatedReviewStatus": "passed",
+      "scientificReviewStatus": "not-reviewed"
     },
     {
       "id": "chondrichthyes",
@@ -166,7 +196,10 @@
         "chondrichthyes"
       ],
       "entityCount": 4,
-      "maturity": "gold-v2"
+      "platformMaturity": "published",
+      "scientificMaturity": "generated-scaffold",
+      "automatedReviewStatus": "passed",
+      "scientificReviewStatus": "not-reviewed"
     },
     {
       "id": "actinopterygii",
@@ -179,7 +212,10 @@
         "actinopterygii"
       ],
       "entityCount": 3,
-      "maturity": "gold-v2"
+      "platformMaturity": "published",
+      "scientificMaturity": "generated-scaffold",
+      "automatedReviewStatus": "passed",
+      "scientificReviewStatus": "not-reviewed"
     },
     {
       "id": "tetrapod-transition",
@@ -193,7 +229,10 @@
         "tetrapodomorpha"
       ],
       "entityCount": 5,
-      "maturity": "gold-v2"
+      "platformMaturity": "published",
+      "scientificMaturity": "generated-scaffold",
+      "automatedReviewStatus": "passed",
+      "scientificReviewStatus": "not-reviewed"
     },
     {
       "id": "amphibia",
@@ -206,7 +245,10 @@
         "amphibia"
       ],
       "entityCount": 5,
-      "maturity": "gold-v2"
+      "platformMaturity": "published",
+      "scientificMaturity": "generated-scaffold",
+      "automatedReviewStatus": "passed",
+      "scientificReviewStatus": "not-reviewed"
     },
     {
       "id": "mammal-origins",
@@ -220,7 +262,10 @@
         "mammalia"
       ],
       "entityCount": 7,
-      "maturity": "gold-v2"
+      "platformMaturity": "published",
+      "scientificMaturity": "generated-scaffold",
+      "automatedReviewStatus": "passed",
+      "scientificReviewStatus": "not-reviewed"
     },
     {
       "id": "perissodactyla",
@@ -228,12 +273,15 @@
       "runtimePath": "data/packages/perissodactyla",
       "title": "Odd-toed Ungulates",
       "titleZh": "奇蹄目",
-      "wave": "gold-v2",
+      "wave": "scientific-pilot",
       "rootEntityIds": [
         "perissodactyla"
       ],
       "entityCount": 17,
-      "maturity": "gold-v2"
+      "platformMaturity": "published",
+      "scientificMaturity": "curated-draft",
+      "automatedReviewStatus": "passed",
+      "scientificReviewStatus": "not-reviewed"
     },
     {
       "id": "cetartiodactyla",
@@ -246,7 +294,10 @@
         "cetacea"
       ],
       "entityCount": 2,
-      "maturity": "gold-v2"
+      "platformMaturity": "published",
+      "scientificMaturity": "generated-scaffold",
+      "automatedReviewStatus": "passed",
+      "scientificReviewStatus": "not-reviewed"
     },
     {
       "id": "primates",
@@ -259,7 +310,10 @@
         "primates"
       ],
       "entityCount": 5,
-      "maturity": "gold-v2"
+      "platformMaturity": "published",
+      "scientificMaturity": "generated-scaffold",
+      "automatedReviewStatus": "passed",
+      "scientificReviewStatus": "not-reviewed"
     },
     {
       "id": "carnivora",
@@ -272,7 +326,10 @@
         "carnivora"
       ],
       "entityCount": 4,
-      "maturity": "gold-v2"
+      "platformMaturity": "published",
+      "scientificMaturity": "generated-scaffold",
+      "automatedReviewStatus": "passed",
+      "scientificReviewStatus": "not-reviewed"
     },
     {
       "id": "other-mammals",
@@ -289,7 +346,10 @@
         "rodentia"
       ],
       "entityCount": 7,
-      "maturity": "gold-v2"
+      "platformMaturity": "published",
+      "scientificMaturity": "generated-scaffold",
+      "automatedReviewStatus": "passed",
+      "scientificReviewStatus": "not-reviewed"
     },
     {
       "id": "turtles-lepidosaurs",
@@ -303,7 +363,10 @@
         "lepidosauria"
       ],
       "entityCount": 4,
-      "maturity": "gold-v2"
+      "platformMaturity": "published",
+      "scientificMaturity": "generated-scaffold",
+      "automatedReviewStatus": "passed",
+      "scientificReviewStatus": "not-reviewed"
     },
     {
       "id": "marine-reptiles-pterosaurs",
@@ -318,7 +381,10 @@
         "pterosauria"
       ],
       "entityCount": 6,
-      "maturity": "gold-v2"
+      "platformMaturity": "published",
+      "scientificMaturity": "generated-scaffold",
+      "automatedReviewStatus": "passed",
+      "scientificReviewStatus": "not-reviewed"
     },
     {
       "id": "crocodylomorphs-birds",
@@ -332,7 +398,10 @@
         "aves"
       ],
       "entityCount": 5,
-      "maturity": "gold-v2"
+      "platformMaturity": "published",
+      "scientificMaturity": "generated-scaffold",
+      "automatedReviewStatus": "passed",
+      "scientificReviewStatus": "not-reviewed"
     },
     {
       "id": "dinosauria",
@@ -345,7 +414,10 @@
         "dinosauria"
       ],
       "entityCount": 21,
-      "maturity": "gold-v2"
+      "platformMaturity": "published",
+      "scientificMaturity": "generated-scaffold",
+      "automatedReviewStatus": "passed",
+      "scientificReviewStatus": "not-reviewed"
     }
   ],
   "entityToPackage": {

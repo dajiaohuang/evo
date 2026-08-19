@@ -111,7 +111,7 @@ export function DataPage({ onNavigate }: PageProps) {
           {packageManifests.map((entry) => (
             <div className="package-row" role="row" key={entry.packageId}>
               <strong>{language === 'zh' ? entry.titleZh : entry.title}<small>{entry.packageId}</small></strong>
-              <span>{entry.maturity}</span>
+              <span title={`${entry.platformMaturity} · ${entry.scientificReviewStatus}`}>{entry.scientificMaturity}</span>
               <span>{number(entry.entityCount)}</span>
               <span>{(entry.metrics.runtimeKnowledgeCompressedBytes / 1024).toFixed(1)} KiB</span>
               <span>{number(entry.occurrenceCount)}</span>

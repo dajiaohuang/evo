@@ -1,10 +1,11 @@
-import { loadCurrentManifest, loadPackageManifest, loadPackageRegistry, runtimeDataUrl } from './staticDataClient'
+import { clearRuntimeMemoryCache, loadCurrentManifest, loadPackageManifest, loadPackageRegistry, runtimeDataUrl } from './staticDataClient'
 
-const OFFLINE_CACHE = 'evo-explicit-offline-packages-v1'
+const OFFLINE_CACHE_PREFIX = 'evo-explicit-offline-packages-'
+const RUNTIME_CACHE_PREFIX = 'evo-runtime-data-'
 
-async function cacheUrls(urls: string[], onProgress?: (completed: number, total: number) => void): Promise<void> {
+async function cacheUrls(cacheName: string, urls: string[], onProgress?: (completed: number, total: number) => void): Promise<void> {
   if (!('caches' in window)) throw new Error('Offline package storage is unavailable in this browser')
-  const cache = await caches.open(OFFLINE_CACHE)
+  const cache = await caches.open(cacheName)
   let completed = 0
   for (const url of urls) {
     const response = await fetch(url)
@@ -18,13 +19,14 @@ async function cacheUrls(urls: string[], onProgress?: (completed: number, total:
 export async function savePackageOffline(packageId: string, onProgress?: (completed: number, total: number) => void): Promise<void> {
   const current = await loadCurrentManifest()
   const manifest = await loadPackageManifest(packageId)
-  const manifestPath = current.packages.manifestTemplate.replace('{packageId}', encodeURIComponent(packageId))
+  const manifestFile = current.packages.manifests[packageId]
+  if (!manifestFile) throw new Error(`Unknown runtime package: ${packageId}`)
   const urls = [
-    runtimeDataUrl(manifestPath),
+    runtimeDataUrl(manifestFile.url),
     ...Object.values(manifest.files).map((file) => runtimeDataUrl(file.url)),
     ...manifest.occurrences.map((file) => runtimeDataUrl(file.url)),
   ]
-  await cacheUrls(urls, onProgress)
+  await cacheUrls(`${OFFLINE_CACHE_PREFIX}${current.datasetVersion}`, urls, onProgress)
 }
 
 export async function saveAllPackagesOffline(onProgress?: (completed: number, total: number) => void): Promise<void> {
@@ -32,13 +34,19 @@ export async function saveAllPackagesOffline(onProgress?: (completed: number, to
   const manifests = await Promise.all(registry.packages.map((entry) => loadPackageManifest(entry.id)))
   const current = await loadCurrentManifest()
   const urls = manifests.flatMap((manifest) => [
-    runtimeDataUrl(current.packages.manifestTemplate.replace('{packageId}', encodeURIComponent(manifest.packageId))),
+    runtimeDataUrl(current.packages.manifests[manifest.packageId].url),
     ...Object.values(manifest.files).map((file) => runtimeDataUrl(file.url)),
     ...manifest.occurrences.map((file) => runtimeDataUrl(file.url)),
   ])
-  await cacheUrls([...new Set(urls)], onProgress)
+  await cacheUrls(`${OFFLINE_CACHE_PREFIX}${current.datasetVersion}`, [...new Set(urls)], onProgress)
 }
 
 export async function clearOfflinePackages(): Promise<void> {
-  if ('caches' in window) await caches.delete(OFFLINE_CACHE)
+  if ('caches' in window) {
+    const names = await caches.keys()
+    await Promise.all(names
+      .filter((name) => name.startsWith(OFFLINE_CACHE_PREFIX) || name.startsWith(RUNTIME_CACHE_PREFIX))
+      .map((name) => caches.delete(name)))
+  }
+  clearRuntimeMemoryCache()
 }
