@@ -1,6 +1,7 @@
 import { existsSync, writeFileSync } from 'node:fs'
 import { join } from 'node:path'
 import { flattenTree, readJson, rootDir } from './data-lib.mjs'
+import { DATASET_PACKAGE_VERSION } from './package-definitions.mjs'
 
 function writeJson(relativePath, value) {
   writeFileSync(join(rootDir, relativePath), `${JSON.stringify(value, null, 2)}\n`, 'utf8')
@@ -118,9 +119,9 @@ for (const profile of profiles) {
       id, subjectId, claimKind: 'scientific', claimType,
       statement: claimStatement(profile, claimType, globalRange),
       confidence: claimType === 'fossil-range' ? 'low' : 'medium',
-      confidenceRationale: `This is an automated curated-draft decomposition of the visible ${claimType} field. It records the current source inventory but remains pending claim-specific locator review by a human specialist.`,
+      confidenceRationale: `This is an automated curator-draft decomposition of the visible ${claimType} field. It records the current source inventory but remains pending claim-specific locator review by a human specialist.`,
       reviewedBy: 'Evo Atlas automated evidence decomposition', reviewedAt: '2026-08-20',
-      reviewedAgainstReferenceVersion: `${link.referenceId} source inventory at static-v5-rc2`, referenceLinks: [link],
+      reviewedAgainstReferenceVersion: `${link.referenceId} source inventory at ${DATASET_PACKAGE_VERSION}`, referenceLinks: [link],
     })
     rationalesZh[id] = `该条${claimType}主张由自动化流程从可见字段拆分而来，已连接当前来源清单，但仍需领域专家逐条核对具体页码、图表或标本定位信息。`
   }
@@ -129,8 +130,8 @@ for (const profile of profiles) {
 for (const claim of claims) {
   if (claim.reviewedBy === 'Evo Atlas automated evidence decomposition') {
     const profile = profileById.get(claim.subjectId.slice('taxon:'.length))
-    claim.reviewedAgainstReferenceVersion = claim.reviewedAgainstReferenceVersion.replace('static-v5-rc1', 'static-v5-rc2')
-    claim.confidenceRationale = `${profile.scientificName} ${claim.claimType} is an automated curated-draft decomposition tied to its visible fields and current source inventory; human claim-specific locator review remains pending.`
+    claim.reviewedAgainstReferenceVersion = claim.reviewedAgainstReferenceVersion.replace(/static-v5-rc\d+/, DATASET_PACKAGE_VERSION)
+    claim.confidenceRationale = `${profile.scientificName} ${claim.claimType} is an automated curator-draft decomposition tied to its visible fields and current source inventory; human claim-specific locator review remains pending.`
     rationalesZh[claim.id] = `${profile.commonNameZh}（${profile.scientificName}）的${claim.claimType}主张由自动化流程从其可见字段独立拆分并连接当前来源清单，仍需领域专家核对具体定位信息。`
     claimStatementsZh[claim.statement] = claim.claimType === 'taxonomy'
       ? `${profile.scientificName} 在当前整理草案中作为与 ${profile.parentName} 关联的${profile.rank}呈现；其概念仍受固定外部解析台账约束。`

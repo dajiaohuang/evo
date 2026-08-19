@@ -230,6 +230,7 @@ for (const [key, records] of [...occurrencesByPackagePeriod].sort(([left], [righ
 const packageRuntimeManifests = []
 for (const packageEntry of registry.packages) {
   const packageId = packageEntry.id
+  const packageQueryLedger = readJson(`${packageEntry.canonicalPath}/query-ledger.json`)
   const packageEntities = entities.filter((entity) => entity.packageId === packageId)
   const packageProfiles = profiles.filter((profile) => entityById.get(profile.treeNodeId)?.packageId === packageId)
   const packageClaims = claims.filter((claim) => ownerForClaim(claim) === packageId)
@@ -256,9 +257,10 @@ for (const packageEntry of registry.packages) {
     version: sourceManifest.datasetVersion,
     strings: Object.fromEntries(packageEntities.map((entity) => [`entity.${entity.id}.name`, entity.names.zh])),
   })
+  payloadFiles.queryLedger = writeGzipJson(`packages/${packageId}/query-ledger.json.gz`, packageQueryLedger)
   payloadFiles.search = writeGzipJson(`package-search-index/${packageId}.json.gz`, [
     ...packageEntities.map((entity) => ({ id: entity.id, kind: entity.entityKind, title: entity.names.scientific, titleEn: entity.names.en, titleZh: entity.names.zh, route: `#/explore?taxon=${encodeURIComponent(entity.id)}&view=tree`, terms: [entity.names.scientific, entity.names.en, entity.names.zh, ...entity.synonyms, entity.definition.en, entity.definition.zh] })),
-    ...packageProfiles.map((profile) => ({ id: profile.id, kind: 'profile', title: profile.scientificName, titleEn: profile.commonName, titleZh: profile.commonNameZh, route: `#/taxa?id=${encodeURIComponent(profile.id)}`, terms: [profile.overview, profile.evidenceSummary, ...profile.traits] })),
+    ...packageProfiles.map((profile) => ({ id: profile.id, kind: 'profile', packageId, title: profile.scientificName, titleEn: profile.commonName, titleZh: profile.commonNameZh, route: `#/taxa?id=${encodeURIComponent(profile.id)}`, terms: [profile.overview, profile.evidenceSummary, ...profile.traits] })),
     ...packageClaims.map((claim) => ({ id: claim.id, kind: 'claim', title: claim.statement, route: '#/data', terms: [claim.statement, claim.confidenceRationale, claim.claimType] })),
     ...packageReferences.map((reference) => ({ id: reference.id, kind: 'reference', title: reference.title, route: '#/data', terms: [reference.title, reference.authors, reference.doi, reference.url].filter(Boolean) })),
   ])
@@ -284,6 +286,15 @@ for (const packageEntry of registry.packages) {
     profileCount: packageProfiles.length,
     claimCount: packageClaims.length,
     occurrenceCount: occurrenceShards.reduce((sum, file) => sum + file.records, 0),
+    queryCoverage: {
+      completeness: packageQueryLedger.completeness,
+      upstreamReportedTotal: packageQueryLedger.upstreamReportedTotal,
+      rowsFetched: packageQueryLedger.rowsFetched,
+      rowsAccepted: packageQueryLedger.rowsAccepted,
+      rowsRejected: packageQueryLedger.rowsRejected,
+      rowsOutsidePackage: packageQueryLedger.rowsOutsidePackage,
+      pagesFetched: packageQueryLedger.pagesFetched,
+    },
     metrics: {
       canonicalRawBytes: canonicalPackageBytes(packageEntry),
       runtimeKnowledgeCompressedBytes: knowledgeBytes,

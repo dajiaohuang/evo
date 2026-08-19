@@ -10,9 +10,24 @@ export default defineConfig({
   use: {
     baseURL: 'http://127.0.0.1:4173/evo/',
     trace: 'retain-on-failure',
-    ...devices['Desktop Chrome'],
     locale: 'en-US',
   },
+  projects: [
+    {
+      name: 'chromium',
+      use: { ...devices['Desktop Chrome'] },
+    },
+    {
+      name: 'firefox-smoke',
+      grep: /@cross-browser/,
+      use: { ...devices['Desktop Firefox'] },
+    },
+    {
+      name: 'webkit-smoke',
+      grep: /@cross-browser/,
+      use: { ...devices['Desktop Safari'] },
+    },
+  ],
   webServer: {
     command: 'npm run preview -- --host 127.0.0.1 --port 4173',
     url: 'http://127.0.0.1:4173/evo/',

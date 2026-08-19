@@ -4,6 +4,7 @@ import { searchStaticData } from '../../data-client/staticDataClient'
 import { parseRouteHash, type AppRoute } from '../../utils/routing'
 import type { SearchResult } from '../../types'
 import { useI18n } from '../../i18n'
+import { getPackagePublication, scientificMaturityLabel } from '../../services/publication'
 import './GlobalSearch.css'
 
 type SearchResultKind = SearchResult['kind']
@@ -44,6 +45,7 @@ export function GlobalSearch({ onNavigate }: GlobalSearchProps) {
                 : entry.kind === 'place' ? 'place'
                   : entry.kind === 'profile' ? 'taxon'
                     : 'tree'
+          const publication = getPackagePublication(entry.packageId)
           return {
             id: entry.id,
             kind,
@@ -53,6 +55,7 @@ export function GlobalSearch({ onNavigate }: GlobalSearchProps) {
             subtitleZh: entry.title,
             keywords: entry.terms.filter((term): term is string => typeof term === 'string').join(' '),
             route: entry.route!,
+            scientificMaturity: publication?.scientificMaturity,
           }
         }))
       }).catch(() => {
@@ -131,6 +134,7 @@ export function GlobalSearch({ onNavigate }: GlobalSearchProps) {
                     <small>{language === 'zh' && result.subtitleZh
                       ? result.subtitleZh
                       : result.subtitle.split(' · ').map((part) => t(part)).join(' · ')}</small>
+                    {result.scientificMaturity && <small className={`search-maturity search-maturity--${result.scientificMaturity}`}>{t(scientificMaturityLabel(result.scientificMaturity))}</small>}
                   </span>
                   <i aria-hidden="true">↗</i>
                 </button>

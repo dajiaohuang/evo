@@ -15,7 +15,7 @@ export default defineConfig({
         id: '/evo/',
         name: 'Evo Atlas — Deep-Time Evidence Explorer',
         short_name: 'Evo Atlas',
-        description: 'Explore deep-time evolution through linked fossil, paleogeographic and phylogenetic evidence.',
+        description: 'Explore deep-time evolution through linked fossil occurrences, reconstructed coordinates, geological intervals and evolutionary hypotheses.',
         theme_color: '#081115',
         background_color: '#081115',
         display: 'standalone',
@@ -30,6 +30,7 @@ export default defineConfig({
         importScripts: ['cache-lifecycle.js'],
         globPatterns: ['**/*.{html,css,svg}', 'assets/index-*.js', 'assets/rolldown-runtime-*.js', 'assets/vendor~index-*.js', 'assets/vendor~index~*.js', 'assets/vendor~workbox-window*.js', `data/releases/${datasetVersion}/core/*.json.gz`],
         navigateFallback: '/evo/index.html',
+        navigateFallbackDenylist: [/^\/evo\/.+/],
         cleanupOutdatedCaches: true,
         runtimeCaching: [
           {

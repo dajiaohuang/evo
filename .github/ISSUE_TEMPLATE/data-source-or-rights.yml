@@ -1,0 +1,35 @@
+name: Data source or rights issue
+description: Report provenance, licensing, attribution, privacy, or reuse concerns.
+title: "[Data/source]: "
+labels: ["data-quality", "rights"]
+body:
+  - type: input
+    id: url
+    attributes:
+      label: Affected page or file
+      placeholder: URL or repository path
+    validations:
+      required: true
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Issue type
+      options:
+        - Provenance or attribution
+        - License or reuse terms
+        - Incorrect source linkage
+        - Privacy or sensitive-location concern
+        - Other data-quality concern
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: Explain the concern and include an authoritative source when available.
+    validations:
+      required: true
+  - type: textarea
+    id: remedy
+    attributes:
+      label: Suggested remedy

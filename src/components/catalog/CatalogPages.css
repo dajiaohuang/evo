@@ -7,6 +7,10 @@
     var(--color-bg);
 }
 
+.catalog-page > .evidence-status { width: min(1120px, calc(100% - 48px)); margin: 0 auto 28px; }
+.claim-report-link { display: inline-block; margin-top: 7px; color: var(--color-accent-soft); font: 700 7px var(--font-mono); text-decoration: none; text-transform: uppercase; }
+.directory-maturity { width: fit-content; margin-top: 10px !important; padding: 3px 6px; border: 1px solid #7a684e; color: #d7b68c !important; text-transform: uppercase; }
+
 .catalog-hero,
 .directory-hero,
 .catalog-facts,

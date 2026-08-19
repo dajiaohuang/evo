@@ -1,0 +1,57 @@
+name: Scientific correction
+description: Report a scientific claim, taxonomy, time range, reconstruction, or citation that needs correction.
+title: "[Scientific correction]: "
+labels: ["scientific-review", "evidence"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for helping improve Evo Atlas. Please identify the visible claim and the evidence needed to assess it.
+  - type: input
+    id: entity
+    attributes:
+      label: Entity or page
+      description: Scientific name, event, story, or URL.
+      placeholder: Perissodactyla — https://dajiaohuang.github.io/evo/taxa/perissodactyla/
+    validations:
+      required: true
+  - type: input
+    id: claim
+    attributes:
+      label: Claim or field
+      description: Quote or describe the smallest disputed statement.
+    validations:
+      required: true
+  - type: input
+    id: dataset
+    attributes:
+      label: Dataset version
+      description: Copy the dataset version shown on the page or in the report link.
+      placeholder: 2026.08-static-v5-rc3
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What appears incorrect or incomplete?
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Supporting source and locator
+      description: DOI or stable URL plus page, figure, table, or record identifier where possible.
+    validations:
+      required: true
+  - type: textarea
+    id: conflicts
+    attributes:
+      label: Competing interpretations
+      description: Note reasonable alternatives or unresolved disagreement.
+  - type: checkboxes
+    id: rights
+    attributes:
+      label: Rights acknowledgement
+      options:
+        - label: I have not pasted copyrighted full text or uploaded media without permission.
+          required: true

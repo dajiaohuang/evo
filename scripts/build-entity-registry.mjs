@@ -1,7 +1,8 @@
-import { mkdirSync, writeFileSync } from 'node:fs'
+import { createHash } from 'node:crypto'
+import { mkdirSync, readFileSync, writeFileSync } from 'node:fs'
 import { dirname, isAbsolute, join, resolve } from 'node:path'
 import { flattenTree, readJson, rootDir } from './data-lib.mjs'
-import { DATASET_PACKAGE_VERSION, PACKAGE_SCHEMA_VERSION, packageDefinitions } from './package-definitions.mjs'
+import { DATASET_PACKAGE_VERSION, DATASET_RELEASE_DATE, PACKAGE_SCHEMA_VERSION, packageDefinitions } from './package-definitions.mjs'
 
 const ontology = readJson('data/navigation/atlas-ontology.json')
 const profileSources = readJson('data/packages/mammalia/perissodactyla/profiles.source.json')
@@ -14,6 +15,9 @@ const events = readJson('data/events.json')
 const stories = readJson('data/stories.json')
 const publishedStories = stories.filter((story) => story.evidenceStatus === 'available-with-limitations')
 const taxonResolution = readJson('data/sources/pbdb-taxon-resolution.json')
+const occurrenceSource = readJson('data/sources/pbdb-occurrence-bundle.json')
+const perissodactylaOccurrenceSnapshot = readJson('data/sources/perissodactyla-occurrence-snapshot-v2.json')
+const timeScale = readJson('data/time-scale.json')
 const taxonResolutionByEntityId = new Map(taxonResolution.resolutions.map((entry) => [entry.entityId, entry]))
 const canonicalRanges = readJson('data/ranges/range-evidence.json')
 const rangesByEntityId = new Map()
@@ -62,6 +66,20 @@ function synchronizePhylogenyRanges(node) {
 synchronizePhylogenyRanges(perissodactylPhylogeny.root)
 const profileIds = new Set(profiles.map((profile) => profile.treeNodeId))
 const mediaIds = new Set(media.map((asset) => asset.taxonId))
+const periodNames = timeScale.units.filter((unit) => unit.itp === 'period').map((unit) => unit.nam)
+const occurrenceCountsByPackage = new Map()
+let bundledOccurrenceCount = 0
+const boundedResponseChecksums = []
+for (const periodName of periodNames) {
+  const relativePath = `data/fossils/${periodName.toLowerCase()}.json`
+  const records = readJson(relativePath)
+  bundledOccurrenceCount += records.length
+  boundedResponseChecksums.push(createHash('sha256').update(readFileSync(join(rootDir, relativePath))).digest('hex'))
+  for (const record of records) {
+    const packageId = record.packageId ?? 'atlas-core'
+    occurrenceCountsByPackage.set(packageId, (occurrenceCountsByPackage.get(packageId) ?? 0) + 1)
+  }
+}
 const args = process.argv.slice(2)
 const outIndex = args.indexOf('--out')
 const requestedOutput = outIndex >= 0 ? args[outIndex + 1] : rootDir
@@ -125,7 +143,7 @@ function packageMaturity(definition) {
     scientificMaturity: definition.id === 'atlas-core'
       ? 'core'
       : definition.id === 'perissodactyla'
-        ? 'curated-draft'
+        ? 'curator-draft'
         : 'generated-scaffold',
     automatedReviewStatus: 'passed',
     scientificReviewStatus: 'not-reviewed',
@@ -192,9 +210,11 @@ const entities = flattenTree(ontology).map((node) => {
     review: {
       status: 'automated-audit-passed',
       reviewedBy: 'Evo Atlas schema and linkage audit',
-      reviewedAt: '2026-08-19',
+      reviewedAt: DATASET_RELEASE_DATE,
       scope: ['schema', 'external-identifier-resolution', 'identifier-linkage', 'bilingual-field-presence'],
       scientificPeerReview: false,
+      decision: 'automated-audit-only',
+      reviewedDatasetVersion: DATASET_PACKAGE_VERSION,
       reviewers: [{
         name: 'Evo Atlas automated validation',
         identityType: 'automated-system',
@@ -202,6 +222,7 @@ const entities = flattenTree(ontology).map((node) => {
         expertise: ['data engineering', 'schema validation'],
         reviewScope: ['schema', 'identifier linkage', 'bilingual field presence'],
         conflictOfInterest: 'Automated system; no human scientific expertise is claimed.',
+        decision: 'automated-audit-only',
       }],
     },
     version: DATASET_PACKAGE_VERSION,
@@ -245,6 +266,71 @@ writeJson('data/packages/mammalia/perissodactyla/phylogeny/hypothesis.json', per
 
 for (const definition of packageDefinitions) {
   const packageEntities = entities.filter((entity) => entity.packageId === definition.id)
+  const acceptedRows = occurrenceCountsByPackage.get(definition.id) ?? 0
+  const perissodactylaRootQuery = perissodactylaOccurrenceSnapshot.queryResults.find((query) => query.entityId === 'perissodactyla')
+  const queryLedger = definition.id === 'perissodactyla'
+    ? {
+        schemaVersion: 1,
+        packageId: definition.id,
+        provider: 'Paleobiology Database',
+        endpoint: perissodactylaOccurrenceSnapshot.source.endpoint,
+        endpointVersion: perissodactylaOccurrenceSnapshot.source.apiVersion,
+        queryParameters: perissodactylaRootQuery.queryParameters,
+        requestedAt: perissodactylaOccurrenceSnapshot.source.fetchedAt,
+        upstreamReportedTotal: perissodactylaRootQuery.upstreamTotal,
+        pagesFetched: Math.ceil(perissodactylaRootQuery.rowsFetched / perissodactylaRootQuery.queryParameters.pageSize),
+        rowsFetched: perissodactylaRootQuery.rowsFetched,
+        rowsAccepted: perissodactylaOccurrenceSnapshot.uniqueRecordCount,
+        rowsRejected: 0,
+        rowsOutsidePackage: 0,
+        responseChecksums: [perissodactylaOccurrenceSnapshot.recordsSha256],
+        completeness: 'complete',
+        selectionMethod: 'Complete pagination of a pinned PBDB accepted base_id, with overlapping profile queries retained as an auditable concept ledger.',
+        limitations: [
+          'Complete describes the pinned PBDB query response at the recorded retrieval time, not the completeness of the fossil record.',
+          'Profile subqueries may overlap the root query and are not summed to estimate abundance.',
+          'Palaeotherium remains excluded from profile-level interpretation pending taxon-concept review, while root-query rows remain preserved.',
+        ],
+        subqueries: perissodactylaOccurrenceSnapshot.queryResults.map((query) => ({
+          entityId: query.entityId,
+          queryParameters: query.queryParameters,
+          upstreamReportedTotal: query.upstreamTotal,
+          rowsFetched: query.rowsFetched,
+          pagesFetched: Math.ceil(query.rowsFetched / query.queryParameters.pageSize),
+          completeness: query.paginationComplete ? 'complete' : 'bounded',
+          conceptReviewStatus: query.conceptReviewStatus,
+          queryEligible: query.queryEligible,
+          responseChecksum: query.occurrenceIdSha256,
+        })),
+      }
+    : {
+        schemaVersion: 1,
+        packageId: definition.id,
+        provider: 'Paleobiology Database',
+        endpoint: occurrenceSource.endpoint,
+        endpointVersion: '1.2',
+        queryParameters: {
+          template: occurrenceSource.queryTemplate,
+          order: occurrenceSource.order,
+          stratification: occurrenceSource.stratification,
+          periodLimits: occurrenceSource.periodLimits,
+        },
+        requestedAt: occurrenceSource.fetchedAt,
+        upstreamReportedTotal: null,
+        pagesFetched: periodNames.length,
+        rowsFetched: bundledOccurrenceCount,
+        rowsAccepted: acceptedRows,
+        rowsRejected: 0,
+        rowsOutsidePackage: bundledOccurrenceCount - acceptedRows,
+        responseChecksums: boundedResponseChecksums,
+        completeness: 'bounded',
+        selectionMethod: `${occurrenceSource.samplingMethod}; rows are assigned to packages after retrieval using version-controlled taxon rules.`,
+        limitations: [
+          ...occurrenceSource.limitations,
+          'Checksums cover normalized canonical period files; raw provider response bodies were not retained for this legacy bounded snapshot.',
+          'Rows outside this package are reported separately and are not rejected scientific observations.',
+        ],
+      }
   writeJson(`data/packages/${definition.path}/package.json`, {
     schemaVersion: PACKAGE_SCHEMA_VERSION,
     id: definition.id,
@@ -280,17 +366,22 @@ for (const definition of packageDefinitions) {
     subjectId: `package:${definition.id}`,
     status: 'automated-audit-passed',
     reviewedBy: 'Evo Atlas schema and linkage audit',
-    reviewedAt: '2026-08-19',
+    reviewedAt: DATASET_RELEASE_DATE,
     scope: ['schema', 'identifier-linkage', 'bilingual-field-presence'],
     scientificPeerReview: false,
+    decision: 'automated-audit-only',
+    decisionNotes: 'Automated checks passed. Human scientific review, claim decisions and conflict review remain pending.',
+    reviewedDatasetVersion: DATASET_PACKAGE_VERSION,
     reviewers: [{
       name: 'Evo Atlas automated validation', identityType: 'automated-system', orcid: null,
       expertise: ['data engineering', 'schema validation'],
       reviewScope: ['schema', 'identifier linkage', 'bilingual field presence'],
       conflictOfInterest: 'Automated system; no human scientific expertise is claimed.',
+      decision: 'automated-audit-only',
     }],
     version: DATASET_PACKAGE_VERSION,
   })
+  writeJson(`data/packages/${definition.path}/query-ledger.json`, queryLedger)
   const packageClaims = claims.filter((claim) => ownerForClaim(claim) === definition.id)
   const packageProfiles = profiles.filter((profile) => packageEntities.some((entity) => entity.id === profile.treeNodeId))
   writeJson(`data/packages/${definition.path}/entities.json`, {
@@ -352,7 +443,12 @@ for (const definition of packageDefinitions) {
           const claimType = claimTypeForField(field)
           const claim = claimBySubjectAndType.get(`taxon:${profile.id}|${claimType}`)
           if (!claim) throw new Error(`Profile ${profile.id}/${field} is missing a ${claimType} claim`)
-          return [field, fieldLink(claim)]
+          return [field, {
+            ...fieldLink(claim),
+            contentOrigin: field === 'firstAppearance' || field === 'lastAppearance' || field.startsWith('regionalRanges')
+              ? 'source-derived-fact'
+              : 'editorial-synthesis',
+          }]
         }))
       })(),
     })))

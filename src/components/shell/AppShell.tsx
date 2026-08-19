@@ -12,13 +12,13 @@ interface AppShellProps {
   immersive?: boolean
 }
 
-const navItems: Array<{ route: AppRoute; label: string }> = [
-  { route: 'home', label: 'Atlas' },
-  { route: 'explore', label: 'Explore' },
-  { route: 'stories', label: 'Stories' },
-  { route: 'compare', label: 'Compare' },
-  { route: 'lab', label: 'Lab' },
-  { route: 'data', label: 'Data' },
+const navItems: Array<{ route: AppRoute; label: string; activeRoutes: AppRoute[] }> = [
+  { route: 'home', label: 'Atlas', activeRoutes: ['home'] },
+  { route: 'catalog', label: 'Catalog', activeRoutes: ['catalog', 'taxa', 'events'] },
+  { route: 'stories', label: 'Stories', activeRoutes: ['stories'] },
+  { route: 'explore', label: 'Explorer', activeRoutes: ['explore'] },
+  { route: 'research', label: 'Research', activeRoutes: ['research', 'compare', 'lab', 'data', 'methods'] },
+  { route: 'about', label: 'About', activeRoutes: ['about'] },
 ]
 
 export function AppShell({ route, onNavigate, children, immersive = false }: AppShellProps) {
@@ -66,9 +66,9 @@ export function AppShell({ route, onNavigate, children, immersive = false }: App
           {navItems.map((item) => (
             <button
               key={item.route}
-              className={route === item.route ? 'is-active' : ''}
+              className={item.activeRoutes.includes(route) ? 'is-active' : ''}
               onClick={() => onNavigate(item.route)}
-              aria-current={route === item.route ? 'page' : undefined}
+              aria-current={item.activeRoutes.includes(route) ? 'page' : undefined}
             >
               {t(item.label)}
             </button>

@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "packageId": "crocodylomorphs-birds",
+  "provider": "Paleobiology Database",
+  "endpoint": "https://paleobiodb.org/data1.2/occs/list.json",
+  "endpointVersion": "1.2",
+  "queryParameters": {
+    "template": "interval={period}&limit={limit}&offset={offset}&show=full&order=id",
+    "order": "id",
+    "stratification": "geological period",
+    "periodLimits": {
+      "Cambrian": 1600,
+      "Ordovician": 1200,
+      "Silurian": 1600,
+      "Devonian": 1200,
+      "Carboniferous": 800,
+      "Permian": 1200,
+      "Triassic": 1200,
+      "Jurassic": 1200,
+      "Cretaceous": 800,
+      "Paleogene": 1200,
+      "Neogene": 800,
+      "Quaternary": 800
+    }
+  },
+  "requestedAt": "2026-08-18",
+  "upstreamReportedTotal": null,
+  "pagesFetched": 12,
+  "rowsFetched": 13600,
+  "rowsAccepted": 21,
+  "rowsRejected": 0,
+  "rowsOutsidePackage": 13579,
+  "responseChecksums": [
+    "50282f50de7eea6c7356664a1a8fc2c06a5efe32257634ff4be233187eb41e93",
+    "0711a69b62b0b3e7793406f0544811bc89d0daad0e584f6bf5fe4ab2e3f4799a",
+    "2f68bb8e693004960c689b3f81638d8a355895d27e5aaffcc8e40153103d9d6c",
+    "c3e65da1f394e11ad6a2e191be9bc50b6a85e159eef16b7ca1c055b64d527d77",
+    "28f90fd63493870ac016d6eb520971c0054af78daa6e939b8744cb2ae17375ee",
+    "9a250839958334f54c86d9efe64878eea5359fa3fd80beb49c7e6a9025bdac06",
+    "d4398cc3e87d5041eaa746b226824924d0a209df6227001e9064aae5a8c8e930",
+    "82ae32d6b12c78b2b9566969ff9406d1f23208cfbf123e33ed61f022768d8efe",
+    "3c651f1c1902a4a912d038d8bafb6d20fea82527e6f36ca410e48e59a3746101",
+    "317372397a2dd6a1e5316f910dadb33b49827d9f0fd8a2ba5a19083cc9d1786a",
+    "e60a45b58fd2d0b67a4efde4e47f7c0fd8d886de8e54131c97028c46fee7387d",
+    "929271171fb480be393917ca6e0ee0252f698d11db9b5362999200d47232cc25"
+  ],
+  "completeness": "bounded",
+  "selectionMethod": "bounded non-random API-prefix sample; rows are assigned to packages after retrieval using version-controlled taxon rules.",
+  "limitations": [
+    "Each period stops at a configured row limit.",
+    "Rows are ordered by PBDB occurrence identifier and are not a random or representative sample.",
+    "Counts may not be compared as unbiased estimates of biological diversity.",
+    "Paleocoordinates retain the model label returned by PBDB when supplied.",
+    "Checksums cover normalized canonical period files; raw provider response bodies were not retained for this legacy bounded snapshot.",
+    "Rows outside this package are reported separately and are not rejected scientific observations."
+  ]
+}

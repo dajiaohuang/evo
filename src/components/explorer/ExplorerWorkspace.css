@@ -161,12 +161,25 @@
 
 .explorer-stage {
   grid-area: stage;
+  position: relative;
   min-width: 0;
   min-height: 0;
   display: grid;
   grid-template-rows: 58px minmax(0, 1fr) 28px;
   background: #081218;
 }
+
+.explorer-first-run { position: absolute; z-index: 1050; top: 62px; left: 18px; right: 18px; max-width: 760px; margin-inline: auto; padding: 14px; border: 1px solid #7a684e; background: rgba(8, 17, 21, .97); box-shadow: var(--shadow-lg); }
+.explorer-first-run__heading { display: flex; justify-content: space-between; align-items: center; }
+.explorer-first-run__heading strong { color: #d7b68c; font: 700 9px var(--font-mono); text-transform: uppercase; letter-spacing: .08em; }
+.explorer-first-run__heading button { width: 27px; height: 27px; border: 1px solid var(--color-border); background: transparent; color: var(--color-text-muted); cursor: pointer; }
+.explorer-first-run ol { list-style: none; display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; margin-top: 11px; }
+.explorer-first-run li { display: grid; grid-template-columns: 23px 1fr; gap: 6px; padding: 9px; background: var(--color-surface); }
+.explorer-first-run li > span { color: var(--color-accent); font: 7px var(--font-mono); }
+.explorer-first-run li p { color: var(--color-text-faint); font-size: 8px; line-height: 1.45; }
+.explorer-first-run li p strong { display: block; margin-bottom: 3px; color: var(--color-text-secondary); font-size: 9px; }
+.explorer-first-run__done { margin-top: 10px; padding: 7px 10px; border: 1px solid var(--color-accent-dim); background: transparent; color: var(--color-accent); font: 700 8px var(--font-mono); cursor: pointer; text-transform: uppercase; }
+.explorer-inspector .evidence-status { width: 100%; margin-bottom: 10px; }
 
 .stage-toolbar {
   display: grid;
@@ -238,4 +251,6 @@
   .mobile-panel-switcher button { padding: 6px 7px; border: 1px solid var(--color-border-subtle); background: var(--color-bg-elevated); color: var(--color-text-muted); font-size: 8px; }
   .mobile-panel-switcher button[aria-expanded='true'] { border-color: var(--color-accent-dim); color: var(--color-accent); }
   .stage-metric { display: none; }
+  .explorer-first-run { top: 52px; left: 8px; right: 8px; }
+  .explorer-first-run ol { grid-template-columns: 1fr; }
 }

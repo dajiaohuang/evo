@@ -14,7 +14,7 @@
     "entityIds": { "type": "array", "uniqueItems": true, "items": { "type": "string" } },
     "canonicalSources": { "type": "object", "minProperties": 1, "additionalProperties": { "type": "string", "minLength": 1 } },
     "platformMaturity": { "enum": ["generated", "validated", "published"] },
-    "scientificMaturity": { "enum": ["core", "generated-scaffold", "source-inventory-complete", "curated-draft", "expert-reviewed", "gold-v2"] },
+    "scientificMaturity": { "enum": ["core", "generated-scaffold", "curator-draft", "source-complete", "expert-reviewed", "published-featured"] },
     "automatedReviewStatus": { "enum": ["pending", "passed", "failed"] },
     "scientificReviewStatus": { "enum": ["not-reviewed", "in-review", "expert-reviewed"] },
     "limitations": { "type": "array", "minItems": 1, "items": { "type": "string", "minLength": 10 } }

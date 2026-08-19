@@ -6,6 +6,7 @@ import type { TreeDisplayMode, TreeNode } from '../../types'
 import type { FossilMarkerMode } from '../../store/mapSlice'
 import type { CoordinateMode } from '../../utils/spatial'
 import { getEvolutionEvent, getEvolutionStory, getTaxonProfile } from '../../services/catalog'
+import { getEntityPublication } from '../../services/publication'
 import { periods } from '../../services/geology'
 import { buildRouteHash, getFiniteRouteNumber, parseRouteHash } from '../../utils/routing'
 import { MAX_MAP_ZOOM, MIN_MAP_ZOOM } from '../../constants'
@@ -14,6 +15,7 @@ import { useI18n } from '../../i18n'
 import { GeoTimeline } from '../timeline/GeoTimeline'
 import { SpeciesDetail } from '../details/SpeciesDetail'
 import { ErrorBoundary } from '../common/ErrorBoundary'
+import { EvidenceStatus } from '../common/EvidenceStatus'
 import './ExplorerWorkspace.css'
 
 type ExplorerView = 'map' | 'tree' | 'diversity'
@@ -55,6 +57,10 @@ function ModuleLoading() {
   return <div className="explorer-module-loading">{t('Loading view…')}</div>
 }
 
+function shouldShowFirstRunGuide(): boolean {
+  try { return window.localStorage.getItem('evo-explorer-guide-v1') !== 'dismissed' } catch { return true }
+}
+
 export function ExplorerWorkspace() {
   const { language, number, t } = useI18n()
   const [initialRoute] = useState(() => parseRouteHash(window.location.hash))
@@ -77,6 +83,7 @@ export function ExplorerWorkspace() {
   const [mobilePanel, setMobilePanel] = useState<'navigator' | 'inspector' | null>(null)
   const [query, setQuery] = useState('')
   const [shareStatus, setShareStatus] = useState<'idle' | 'copied' | 'ready'>('idle')
+  const [showFirstRunGuide, setShowFirstRunGuide] = useState(shouldShowFirstRunGuide)
 
   const currentAge = useAppStore((state) => state.currentAge)
   const currentPeriod = useAppStore((state) => state.currentPeriod)
@@ -107,6 +114,7 @@ export function ExplorerWorkspace() {
   const eventContext = getEvolutionEvent(context.event)
   const storyContext = getEvolutionStory(context.story)
   const storyStep = storyContext?.steps.find((step) => step.id === context.step)
+  const selectedPublication = getEntityPublication(profileContext?.treeNodeId ?? selectedNodeId)
   const searchResults = useMemo(() => {
     const needle = query.trim().toLowerCase()
     if (!needle) return nodes.filter((node) => ['life', 'mammalia', 'dinosauria', 'tetrapoda', 'arthropoda'].includes(node.id))
@@ -211,6 +219,11 @@ export function ExplorerWorkspace() {
     window.setTimeout(() => setShareStatus('idle'), 1600)
   }
 
+  const dismissFirstRunGuide = () => {
+    setShowFirstRunGuide(false)
+    try { window.localStorage.setItem('evo-explorer-guide-v1', 'dismissed') } catch { /* Guide can still close for this session. */ }
+  }
+
   const selectedPeriod = periods.find((period) => period.name === currentPeriod)
 
   return (
@@ -298,6 +311,17 @@ export function ExplorerWorkspace() {
       {mobilePanel && <button className="explorer-panel-backdrop" aria-label={t('Close Explorer panel')} onClick={() => setMobilePanel(null)} />}
 
       <section className="explorer-stage">
+        {showFirstRunGuide && (
+          <aside className="explorer-first-run" aria-label={t('Explorer quick guide')}>
+            <div className="explorer-first-run__heading"><strong>{t('Three things to know')}</strong><button onClick={dismissFirstRunGuide} aria-label={t('Dismiss Explorer guide')}>×</button></div>
+            <ol>
+              <li><span>01</span><p><strong>{t('Time filters every view.')}</strong>{t('The timeline changes which occurrence and branch context is visible.')}</p></li>
+              <li><span>02</span><p><strong>{t('Map, tree and evidence stay synchronized.')}</strong>{t('A selection follows you while each view keeps its own scientific meaning.')}</p></li>
+              <li><span>03</span><p><strong>{t('A data point is not biological truth.')}</strong>{t('Missing or dense records also reflect rock exposure, collection and publication.')}</p></li>
+            </ol>
+            <button className="explorer-first-run__done" onClick={dismissFirstRunGuide}>{t('Start exploring')}</button>
+          </aside>
+        )}
         <div className="stage-toolbar">
           <div>
             <span className="stage-eyebrow">{t('Primary view')}</span>
@@ -363,6 +387,7 @@ export function ExplorerWorkspace() {
               </a>
             </div>
           )}
+          {selectedPublication && <EvidenceStatus publication={selectedPublication} entityId={profileContext?.id ?? selectedNodeId ?? undefined} compact />}
           <ErrorBoundary fallback={<ViewFallback label="Inspector" />}><SpeciesDetail /></ErrorBoundary>
         </div>
       </aside>

@@ -6,6 +6,7 @@ import { loadCurrentManifest, loadEntityLinkageCoverage, loadPackageManifest, lo
 import { clearOfflinePackages, saveAllPackagesOffline, savePackageOffline } from '../../data-client/offlinePackages'
 import type { CurrentRuntimeManifest, RuntimeEntityLinkageCoverage, RuntimePackageManifest, RuntimePackageRegistry } from '../../data-client/types'
 import type { AppRoute } from '../../utils/routing'
+import { reviewStatusLabel, scientificMaturityLabel } from '../../services/publication'
 import { useI18n } from '../../i18n'
 import './InfoPages.css'
 
@@ -133,12 +134,15 @@ export function DataPage({ onNavigate }: PageProps) {
           </div>
         )}
         {linkageCoverage && <p className="quality-disclaimer">{t(linkageCoverage.precisionStatement)}</p>}
+        <p className="quality-disclaimer quality-disclaimer--review">{t('Automated data audits verify schemas, identifiers, translations and links. Only the separate human-review label can indicate expert scientific review.')}</p>
+        <p className="quality-disclaimer">{t('Occurrence counts describe atlas-wide period shards; query coverage may describe a separate package-specific source snapshot.')}</p>
         <div className="package-table" role="table" aria-label={t('Static package coverage')}>
-          <div className="package-row package-row--head" role="row"><span>{t('Package')}</span><span>{t('Maturity')}</span><span>{t('Entities')}</span><span>{t('Runtime')}</span><span>{t('Occurrences')}</span><span>{t('Offline')}</span></div>
+          <div className="package-row package-row--head" role="row"><span>{t('Package')}</span><span>{t('Maturity / review')}</span><span>{t('Query coverage')}</span><span>{t('Entities')}</span><span>{t('Runtime')}</span><span>{t('Occurrences')}</span><span>{t('Offline')}</span></div>
           {packageManifests.map((entry) => (
             <div className="package-row" role="row" key={entry.packageId}>
               <strong>{language === 'zh' ? entry.titleZh : entry.title}<small>{entry.packageId}</small></strong>
-              <span title={`${entry.platformMaturity} · ${entry.scientificReviewStatus}`}>{entry.scientificMaturity}</span>
+              <span className={`package-maturity package-maturity--${entry.scientificMaturity}`} title={`${entry.platformMaturity} · ${entry.scientificReviewStatus}`}><b>{t(scientificMaturityLabel(entry.scientificMaturity))}</b><small>{t(reviewStatusLabel(entry.scientificReviewStatus))}</small></span>
+              <span className={`query-coverage query-coverage--${entry.queryCoverage.completeness}`} title={t('Fetched {rows} source rows across {pages} page(s)', { rows: number(entry.queryCoverage.rowsFetched), pages: number(entry.queryCoverage.pagesFetched) })}>{t(entry.queryCoverage.completeness)}<small>{entry.queryCoverage.upstreamReportedTotal == null ? t('upstream total unavailable') : t('{count} upstream rows', { count: number(entry.queryCoverage.upstreamReportedTotal) })}</small><small>{t('{accepted} accepted source rows · {outside} outside package rules', { accepted: number(entry.queryCoverage.rowsAccepted), outside: number(entry.queryCoverage.rowsOutsidePackage) })}</small></span>
               <span>{number(entry.entityCount)}</span>
               <span>{(entry.metrics.runtimeKnowledgeCompressedBytes / 1024).toFixed(1)} KiB</span>
               <span>{number(entry.occurrenceCount)}</span>

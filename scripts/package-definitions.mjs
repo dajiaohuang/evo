@@ -1,5 +1,6 @@
 export const PACKAGE_SCHEMA_VERSION = 5
-export const DATASET_PACKAGE_VERSION = '2026.08-static-v5-rc2'
+export const DATASET_PACKAGE_VERSION = '2026.08-static-v5-rc3'
+export const DATASET_RELEASE_DATE = '2026-08-20'
 
 export const packageDefinitions = [
   {

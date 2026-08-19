@@ -45,7 +45,7 @@ export interface RuntimePackageRegistryEntry {
   titleZh: string
   wave: string
   platformMaturity: 'generated' | 'validated' | 'published'
-  scientificMaturity: 'core' | 'generated-scaffold' | 'source-inventory-complete' | 'curated-draft' | 'expert-reviewed' | 'gold-v2'
+  scientificMaturity: 'core' | 'generated-scaffold' | 'curator-draft' | 'source-complete' | 'expert-reviewed' | 'published-featured'
   automatedReviewStatus: 'pending' | 'passed' | 'failed'
   scientificReviewStatus: 'not-reviewed' | 'in-review' | 'expert-reviewed'
   entityCount: number
@@ -87,6 +87,15 @@ export interface RuntimePackageManifest {
   profileCount: number
   claimCount: number
   occurrenceCount: number
+  queryCoverage: {
+    completeness: 'complete' | 'bounded' | 'unknown'
+    upstreamReportedTotal: number | null
+    rowsFetched: number
+    rowsAccepted: number
+    rowsRejected: number
+    rowsOutsidePackage: number
+    pagesFetched: number
+  }
   metrics: {
     canonicalRawBytes: number
     runtimeKnowledgeCompressedBytes: number

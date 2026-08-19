@@ -15,7 +15,9 @@ Evo Atlas is a static-first web atlas for exploring 4.567 billion years of Earth
 - **Local research workspace** — Recent query definitions are retained in browser IndexedDB and never sent to an application server.
 - **Offline PWA** — Installable, precached app shell; large immutable scientific chunks are cached only when opened.
 - **Static release pipeline** — Cross-file data validation, per-file SHA-256 checksums, tests, lint and GitHub Pages deployment gates.
-- **Pages Data Platform v5 candidate** — 189 bilingual registry entities assigned to 24 registry-driven static packages. This is an explicit educational subset, not a whole-life completeness claim; Perissodactyla is a curated draft and the other 22 scientific packages are generated scaffolds, not Gold datasets.
+- **Pages Data Platform v5 candidate** — 189 bilingual registry entities assigned to 24 registry-driven static packages. This is an explicit educational subset, not a whole-life completeness claim; Perissodactyla is a curator draft and the other 22 scientific packages are generated scaffolds, not expert-reviewed datasets.
+- **Indexable knowledge pages** — Build-time bilingual HTML for taxa, events, stories, methods and the dataset release, with canonical URLs, Open Graph metadata, JSON-LD, `hreflang`, sitemap, feed and direct Explorer links.
+- **Explicit scientific maturity** — Generated scaffold, curator draft, source complete, expert reviewed and published featured are separate from automated engineering validation.
 - **Explicit offline packages** — Core data is precached; package and occurrence data is cached on access or when the user explicitly saves a package from the Data page.
 
 ## Architecture
@@ -31,13 +33,13 @@ Evo Atlas is a static-first web atlas for exploring 4.567 billion years of Earth
 | Offline | `vite-plugin-pwa`; app/Core precache plus demand-driven package caches |
 | Hosting | GitHub Pages under the `/evo/` base path |
 
-The main routes are `#/home`, `#/explore`, `#/taxa`, `#/events`, `#/stories`, `#/compare`, `#/lab`, `#/data` and `#/methods`. Explorer URLs encode dataset version, age/window, primary view, selected taxon/occurrence, map center/zoom, marker and coordinate modes, tree mode and story/event context. A link targeting another dataset snapshot requires explicit confirmation before it is rewritten. Reconstruction model labels remain occurrence-level evidence and are not exposed as a no-op global selector. Global search covers scientific/English/Chinese taxon names, navigation nodes, geological periods, events, stories and a curated place index.
+The main routes are `#/home`, `#/catalog`, `#/stories`, `#/explore`, `#/research`, `#/about`, `#/taxa`, `#/events`, `#/compare`, `#/lab`, `#/data` and `#/methods`. Explorer URLs encode dataset version, age/window, primary view, selected taxon/occurrence, map center/zoom, marker and coordinate modes, tree mode and story/event context. A link targeting another dataset snapshot requires explicit confirmation before it is rewritten. Reconstruction model labels remain occurrence-level evidence and are not exposed as a no-op global selector. Global search covers scientific/English/Chinese taxon names, navigation nodes, geological periods, events, stories and a curated place index.
 
 ## Local development
 
 ```bash
 npm ci
-npx playwright install chromium
+npx playwright install chromium firefox webkit
 npm run dev
 ```
 
@@ -63,7 +65,7 @@ npm run pages:smoke
 
 `data:manifest` intentionally rewrites record counts and SHA-256 checksums after a reviewed canonical change. `data:build` creates the publishable static projection at `dist/data/`; it does not write runtime copies into canonical `data/`. The taxon-period descendant index, fossil normalization and `data:assign:fossils` package-assignment steps are reproducible commands. Optional staging helpers are available for PBDB occurrence retrieval/enrichment and splitting a source GeoJSON FeatureCollection; no geometry may be promoted from staging until the provenance fields required by `DATA_LICENSES.md` are complete. Staging fetches refuse to overwrite an existing target unless `--replace` is supplied.
 
-The public bootstrap is `/evo/data/current.json`. It links checksum-addressed manifests and immutable files under `/evo/data/releases/<datasetVersion>/`; `/evo/data/releases.json` retains published snapshots, clients reject package/version mismatches, and checksum failures are evicted then refetched once. See [Static Data Platform v5](docs/static-data-platform-v4.md) for formats, caching rules and budgets.
+The public bootstrap is `/evo/data/current.json`. It links checksum-addressed manifests and immutable files under `/evo/data/releases/<datasetVersion>/`; `/evo/data/releases.json` retains published snapshots, clients reject package/version mismatches, and checksum failures are evicted then refetched once. See [Static Data Platform v5](docs/static-data-platform-v5.md) for formats, caching rules and budgets.
 
 ```bash
 npm run data:fetch:fossils -- --period Cretaceous --limit 1000
@@ -72,11 +74,11 @@ npm run data:indexes
 npm run data:split:geojson -- --input staging/world.geojson
 ```
 
-See [data methods](docs/data-methods.md), the [dataset changelog](data/CHANGELOG.md) and the [release checklist](docs/release-checklist.md).
+See [data methods](docs/data-methods.md), the [dataset changelog](data/CHANGELOG.md), the [release checklist](docs/release-checklist.md), the [scientific review protocol](SCIENTIFIC_REVIEW.md) and the [package authoring guide](DATA_PACKAGE_AUTHORING.md).
 
 ## Evidence boundaries
 
-The 13,600 fossil rows are bounded, non-random PBDB API-prefix samples with unknown selection probability and no retained upstream totals; they are neither exhaustive nor statistically representative. Paleogeographic outlines are period-level visual summaries, not a continuous plate reconstruction. The atlas-wide hierarchy is a navigation ontology, while the separate Perissodactyla topology hypothesis remains non-exhaustive. First/last appearances are sampling-dependent and are not molecular-clock divergence estimates. The interface repeats these limits at the point of interpretation.
+The atlas exposes two occurrence scopes: a 13,600-row bounded, non-random period-stratified PBDB bundle for cross-clade views, and a separate 13,210-row complete pinned Perissodactyla base-ID snapshot. “Complete” means every page returned by that exact PBDB query was retained; it does not mean the fossil record is complete. The bounded bundle has unknown selection probability and no retained upstream totals, so its counts are neither exhaustive nor statistically representative. Paleogeographic outlines are withheld pending complete redistribution provenance. The atlas-wide hierarchy is a navigation ontology, while the separate Perissodactyla topology hypothesis remains non-exhaustive. First/last appearances are sampling-dependent and are not molecular-clock divergence estimates. The interface repeats these limits at the point of interpretation.
 
 ## License
 

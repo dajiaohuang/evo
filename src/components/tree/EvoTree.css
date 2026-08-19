@@ -7,6 +7,14 @@
 .tree-mode-control button { padding: 5px 8px; border: 0; background: transparent; color: var(--color-text-muted); font-size: 8px; cursor: pointer; }
 .tree-mode-control button.is-active { background: var(--color-surface-raised); color: var(--color-accent); }
 .tree-model-note { position: absolute; bottom: 8px; left: 12px; z-index: 20; width: max-content; max-width: calc(100% - 24px); padding: 6px 9px; border-left: 2px solid var(--color-accent-dim); background: rgba(8, 17, 21, .9); color: var(--color-text-muted); font: 7px var(--font-mono); }
+.tree-data-alternative { position: absolute; top: 8px; right: 12px; z-index: 30; max-width: min(520px, calc(100% - 24px)); border: 1px solid var(--color-border); background: rgba(8, 17, 21, .96); color: var(--color-text-muted); }
+.tree-data-alternative summary { padding: 7px 9px; color: var(--color-accent-soft); font: 700 7px var(--font-mono); text-transform: uppercase; cursor: pointer; }
+.tree-data-alternative > div { width: min(500px, calc(100vw - 50px)); max-height: min(440px, 70vh); padding: 10px; overflow: auto; border-top: 1px solid var(--color-border-subtle); }
+.tree-data-alternative p { margin-bottom: 8px; font-size: 9px; line-height: 1.5; }
+.tree-data-alternative table { width: 100%; border-collapse: collapse; font-size: 8px; }
+.tree-data-alternative caption { padding: 6px 0; color: var(--color-text-secondary); text-align: left; }
+.tree-data-alternative th, .tree-data-alternative td { padding: 6px; border-bottom: 1px solid var(--color-border-subtle); text-align: left; }
+.tree-data-alternative th { color: var(--color-text-faint); font: 7px var(--font-mono); text-transform: uppercase; }
 .tree-link { fill: none; stroke: #303b43; stroke-width: 1.2; }
 .tree-node-label { fill: var(--color-text-secondary); font: 8px var(--font-sans); }
 .tree-time-axis path, .tree-time-axis line { stroke: var(--color-border); }

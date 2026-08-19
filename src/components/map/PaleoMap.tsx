@@ -69,6 +69,7 @@ export function PaleoMap() {
     if (!records.length) return 0
     return records.filter((record) => hasSpatialPosition(record, 'paleo')).length / records.length
   }, [records])
+  const positionedRecords = useMemo(() => records.filter((record) => hasSpatialPosition(record, coordinateMode)), [coordinateMode, records])
 
   return (
     <div style={{ height: '100%', width: '100%', position: 'relative' }}>
@@ -139,6 +140,18 @@ export function PaleoMap() {
           <div><dt>{t('Runtime')}</dt><dd>{t('no live reconstruction')}</dd></div>
         </dl>
       </div>
+
+      <details className="map-data-alternative">
+        <summary>{t('Text and table alternative')}</summary>
+        <div>
+          <p>{t('{count} records have {mode} coordinates in the loaded {period} sample. The table shows the first {shown}.', { count: number(positionedRecords.length), mode: t(coordinateMode), period: t(currentPeriod ?? 'selected interval'), shown: number(Math.min(100, positionedRecords.length)) })}</p>
+          <table>
+            <caption>{t('Occurrence coordinate data')}</caption>
+            <thead><tr><th>{t('Taxon')}</th><th>{t('Age Range')}</th><th>{t('Latitude')}</th><th>{t('Longitude')}</th><th>{t('Collection')}</th></tr></thead>
+            <tbody>{positionedRecords.slice(0, 100).map((record) => <tr key={record.oid}><td>{record.tna ?? record.idn ?? t('Unknown')}</td><td>{record.eag}–{record.lag} Ma</td><td>{coordinateMode === 'paleo' ? record.paleolat : record.lat}</td><td>{coordinateMode === 'paleo' ? record.paleolng : record.lng}</td><td>{record.cid}</td></tr>)}</tbody>
+          </table>
+        </div>
+      </details>
     </div>
   )
 }

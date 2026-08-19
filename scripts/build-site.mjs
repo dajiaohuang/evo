@@ -19,6 +19,7 @@ run(['run', 'release:metadata'])
 run(['run', 'data:stage'])
 run(['run', 'typecheck'])
 run(['exec', '--', 'vite', 'build'])
+run(['run', 'static:generate'])
 
 const elapsedMs = Date.now() - startedAt
 const metrics = {

@@ -4,7 +4,7 @@ import { dirname, join } from 'node:path'
 import { countTreeNodes, readJson, rootDir } from './data-lib.mjs'
 
 const unique = (items) => new Set(items).size === items.length
-const scientificMaturityOrder = ['generated-scaffold', 'source-inventory-complete', 'curated-draft', 'expert-reviewed', 'gold-v2']
+const scientificMaturityOrder = ['generated-scaffold', 'curator-draft', 'source-complete', 'expert-reviewed', 'published-featured']
 const scientificMaturityAtLeast = (value, minimum) => scientificMaturityOrder.indexOf(value) >= scientificMaturityOrder.indexOf(minimum)
 const scientificSourceRoles = new Set(['primary-study', 'systematic-review'])
 const claimFitness = { taxonomy: 'taxonomy', topology: 'topology', 'divergence-time': 'geochronology', 'fossil-range': 'range', biogeography: 'biogeography', morphology: 'morphology', ecology: 'ecology', 'event-mechanism': 'event-mechanism' }
@@ -80,6 +80,7 @@ function packageFailures() {
   const validateTranslation = schemaValidator('data/schemas/translation.schema.json')
   const validatePhylogeny = schemaValidator('data/schemas/phylogeny.schema.json')
   const validateCalibration = schemaValidator('data/schemas/calibration.schema.json')
+  const validateQueryLedger = schemaValidator('data/schemas/query-ledger.schema.json')
   const referencesById = new Map(readJson('data/references.json').map((reference) => [reference.id, reference]))
   const canonicalRanges = readJson('data/ranges/range-evidence.json')
   const canonicalRangeIds = new Set(canonicalRanges.map((range) => range.id))
@@ -101,13 +102,20 @@ function packageFailures() {
       const checkPath = source.includes('*') ? dirname(source) : source
       if (!existsSync(join(rootDir, checkPath))) failures.push(`package ${entry.id}: missing canonical source ${source}`)
     }
-    for (const companion of ['provenance.json', 'review.json']) {
+    for (const companion of ['provenance.json', 'review.json', 'query-ledger.json']) {
       if (!existsSync(join(rootDir, entry.canonicalPath, companion))) failures.push(`package ${entry.id}: missing ${companion}`)
     }
     const packageClaimIds = readJson(`${entry.canonicalPath}/evidence/claim-ids.json`)
     const review = readJson(`${entry.canonicalPath}/review.json`)
-    if (packageClaimIds.length === 0 && entry.id !== 'atlas-core' && scientificMaturityAtLeast(packageData.scientificMaturity, 'source-inventory-complete')) failures.push(`package ${entry.id}: packages without claims cannot exceed generated-scaffold`)
-    if (review.scientificPeerReview === false && scientificMaturityAtLeast(packageData.scientificMaturity, 'expert-reviewed')) failures.push(`package ${entry.id}: expert-reviewed or gold-v2 maturity requires scientificPeerReview`)
+    const queryLedger = readJson(`${entry.canonicalPath}/query-ledger.json`)
+    failures.push(...schemaFailure(validateQueryLedger, queryLedger, `package ${entry.id} query ledger`))
+    if (queryLedger.packageId !== entry.id) failures.push(`package ${entry.id}: query ledger packageId mismatch`)
+    if (queryLedger.rowsAccepted + queryLedger.rowsOutsidePackage > queryLedger.rowsFetched) failures.push(`package ${entry.id}: query ledger row accounting exceeds rowsFetched`)
+    if (queryLedger.completeness === 'complete' && queryLedger.upstreamReportedTotal !== queryLedger.rowsFetched) failures.push(`package ${entry.id}: complete query ledger must retain and match the upstream total`)
+    if (entry.id === 'perissodactyla' && queryLedger.completeness !== 'complete') failures.push('package perissodactyla: flagship query ledger must preserve complete pagination')
+    if (entry.id !== 'perissodactyla' && queryLedger.completeness === 'complete') failures.push(`package ${entry.id}: legacy bounded sample must not claim complete coverage`)
+    if (packageClaimIds.length === 0 && entry.id !== 'atlas-core' && scientificMaturityAtLeast(packageData.scientificMaturity, 'source-complete')) failures.push(`package ${entry.id}: packages without claims cannot exceed curator-draft`)
+    if (review.scientificPeerReview === false && scientificMaturityAtLeast(packageData.scientificMaturity, 'expert-reviewed')) failures.push(`package ${entry.id}: expert-reviewed or published-featured maturity requires scientificPeerReview`)
     const ranges = readJson(`${entry.canonicalPath}/ranges.json`)
     for (const range of ranges) {
       failures.push(...schemaFailure(validateRange, range, `package ${entry.id} range ${range.id}`))
@@ -123,17 +131,17 @@ function packageFailures() {
       }
       if (range.evidenceLevel === 'expert-reviewed' && range.reviewStatus !== 'expert-reviewed') failures.push(`package ${entry.id} range ${range.id}: expert-reviewed evidence level requires expert review status`)
     }
-    if (packageData.scientificMaturity === 'gold-v2') {
+    if (packageData.scientificMaturity === 'published-featured') {
       for (const range of ranges) {
-        if (!range.referenceLocators.some((locator) => scientificSourceRoles.has(referencesById.get(locator.referenceId)?.sourceRole) && referencesById.get(locator.referenceId)?.fitnessFor.includes('range') && referencesById.get(locator.referenceId)?.metadataAssignment === 'curator-reviewed')) failures.push(`package ${entry.id} range ${range.id}: gold-v2 requires curator-reviewed metadata for a range-fit primary study or systematic review`)
-        if (!range.claimIds.length || range.reviewStatus !== 'expert-reviewed' || range.evidenceLevel !== 'expert-reviewed') failures.push(`package ${entry.id} range ${range.id}: gold-v2 requires expert-reviewed claim linkage and evidence level`)
+        if (!range.referenceLocators.some((locator) => scientificSourceRoles.has(referencesById.get(locator.referenceId)?.sourceRole) && referencesById.get(locator.referenceId)?.fitnessFor.includes('range') && referencesById.get(locator.referenceId)?.metadataAssignment === 'curator-reviewed')) failures.push(`package ${entry.id} range ${range.id}: published-featured requires curator-reviewed metadata for a range-fit primary study or systematic review`)
+        if (!range.claimIds.length || range.reviewStatus !== 'expert-reviewed' || range.evidenceLevel !== 'expert-reviewed') failures.push(`package ${entry.id} range ${range.id}: published-featured requires expert-reviewed claim linkage and evidence level`)
       }
       const claims = readJson('data/evidence/claims.json').filter((claim) => packageClaimIds.includes(claim.id))
       for (const claim of claims) {
-        if (!claim.referenceLinks.some((link) => link.relation === 'supports' && scientificSourceRoles.has(referencesById.get(link.referenceId)?.sourceRole) && referencesById.get(link.referenceId)?.fitnessFor.includes(claimFitness[claim.claimType]) && referencesById.get(link.referenceId)?.metadataAssignment === 'curator-reviewed' && (link.pages || link.figure || link.quoteLocator) && !/pending/i.test(link.pages ?? link.figure ?? link.quoteLocator ?? ''))) failures.push(`package ${entry.id} claim ${claim.id}: gold-v2 requires curator-reviewed fit primary/review metadata and a concrete locator`)
+        if (!claim.referenceLinks.some((link) => link.relation === 'supports' && scientificSourceRoles.has(referencesById.get(link.referenceId)?.sourceRole) && referencesById.get(link.referenceId)?.fitnessFor.includes(claimFitness[claim.claimType]) && referencesById.get(link.referenceId)?.metadataAssignment === 'curator-reviewed' && (link.pages || link.figure || link.quoteLocator) && !/pending/i.test(link.pages ?? link.figure ?? link.quoteLocator ?? ''))) failures.push(`package ${entry.id} claim ${claim.id}: published-featured requires curator-reviewed fit primary/review metadata and a concrete locator`)
       }
       const humanReviewers = review.reviewers.filter((reviewer) => reviewer.identityType === 'human' && reviewer.orcid && reviewer.expertise.length && reviewer.reviewScope.includes('all-scientific-claims'))
-      if (!humanReviewers.length) failures.push(`package ${entry.id}: gold-v2 requires an identified human domain reviewer with ORCID, expertise, scope and conflict disclosure`)
+      if (!humanReviewers.length) failures.push(`package ${entry.id}: published-featured requires an identified human domain reviewer with ORCID, expertise, scope and conflict disclosure`)
     }
     failures.push(...schemaFailure(validateTranslation, readJson(`${entry.canonicalPath}/locales/zh.json`), `package ${entry.id} Chinese locale`))
     if (entry.id === 'perissodactyla') {
@@ -156,9 +164,20 @@ function packageFailures() {
           const claim = claimsById.get(fieldLink.claimId)
           if (!claim) failures.push(`profile ${link.profileId}/${field}: unknown field claim ${fieldLink.claimId}`)
           if (!fieldLink.sourceLocators?.length) failures.push(`profile ${link.profileId}/${field}: field claim has no source locator`)
+          if (!['source-derived-fact', 'editorial-synthesis', 'automated-text', 'unavailable'].includes(fieldLink.contentOrigin)) failures.push(`profile ${link.profileId}/${field}: content origin is missing or invalid`)
           const expectedClaimType = field === 'firstAppearance' || field === 'lastAppearance' || field.startsWith('regionalRanges')
             ? 'fossil-range' : field === 'geography' ? 'biogeography' : field.startsWith('ecology.') ? 'ecology' : field.startsWith('traits') ? 'morphology' : 'taxonomy'
           if (fieldLink.relation !== 'supports' || fieldLink.claimType !== expectedClaimType || claim?.claimType !== expectedClaimType || claim?.subjectId !== `taxon:${link.profileId}`) failures.push(`profile ${link.profileId}/${field}: field requires a matching supports ${expectedClaimType} claim`)
+        }
+      }
+      const flagshipStory = readJson('data/stories.json').find((story) => story.id === 'rise-and-fall-perissodactyls')
+      const claimsByIdForStory = new Map(readJson('data/evidence/claims.json').map((claim) => [claim.id, claim]))
+      if (!flagshipStory || flagshipStory.evidenceStatus !== 'available-with-limitations') failures.push('Perissodactyla flagship story must be published with explicit limitations')
+      else for (const step of flagshipStory.steps) {
+        if (!step.claimLinks.length) failures.push(`Perissodactyla flagship story step ${step.id}: missing claim link`)
+        for (const link of step.claimLinks) {
+          const claim = claimsByIdForStory.get(link.claimId)
+          if (!claim?.referenceLinks.some((referenceLink) => referenceLink.relation === 'supports')) failures.push(`Perissodactyla flagship story step ${step.id}: claim ${link.claimId} has no supporting reference`)
         }
       }
     }
@@ -169,6 +188,7 @@ function packageFailures() {
 function claimsFailures() {
   const failures = []
   const claims = readJson('data/evidence/claims.json')
+  const datasetVersion = readJson('data/registry/package-registry.json').version
   const references = new Set(readJson('data/references.json').map((reference) => reference.id))
   const rationalesZh = readJson('data/evidence/claim-rationales.zh.json')
   const validateClaim = schemaValidator('data/schemas/claim.schema.json')
@@ -178,6 +198,7 @@ function claimsFailures() {
     if (!rationalesZh[claim.id] || rationalesZh[claim.id].length < 20) failures.push(`claim ${claim.id}: missing Chinese confidence rationale`)
     for (const link of claim.referenceLinks) if (!references.has(link.referenceId)) failures.push(`claim ${claim.id}: unknown reference ${link.referenceId}`)
     if (claim.claimKind === 'scientific' && !claim.referenceLinks.some((link) => link.relation === 'supports')) failures.push(`claim ${claim.id}: scientific claims require at least one supports relation`)
+    if (claim.reviewedBy === 'Evo Atlas automated evidence decomposition' && !claim.reviewedAgainstReferenceVersion.endsWith(`at ${datasetVersion}`)) failures.push(`claim ${claim.id}: automated decomposition is stale for ${datasetVersion}`)
     if (claim.referenceLinks.some((link) => link.relation === 'contradicts') && claim.confidence !== 'contested' && !/contradict|conflict|contested/i.test(claim.confidenceRationale)) failures.push(`claim ${claim.id}: contradictory evidence requires contested confidence or an explicit rationale`)
   }
   if (Object.keys(rationalesZh).length !== claims.length) failures.push('Chinese claim rationale count must match claim count')
@@ -232,7 +253,10 @@ function reviewFailures() {
     const review = readJson(`${entry.canonicalPath}/review.json`)
     failures.push(...schemaFailure(validateReview, review, `package review ${entry.id}`))
     if (review.subjectId !== `package:${entry.id}`) failures.push(`package ${entry.id}: review subject mismatch`)
+    if (review.reviewedDatasetVersion !== registry.version) failures.push(`package ${entry.id}: review dataset version is stale`)
     if (review.scientificPeerReview && !review.reviewers.some((reviewer) => reviewer.identityType === 'human')) failures.push(`package ${entry.id}: scientific peer review requires a human reviewer record`)
+    if (!review.scientificPeerReview && review.decision !== 'automated-audit-only') failures.push(`package ${entry.id}: non-scientific review must retain the automated-audit-only decision`)
+    if (review.scientificPeerReview && !['accepted', 'accepted-with-reservations'].includes(review.decision)) failures.push(`package ${entry.id}: scientific review requires an explicit acceptance decision`)
   }
   for (const entity of entities) {
     if (entity.review.scientificPeerReview && entity.review.status !== 'expert-reviewed') failures.push(`entity ${entity.id}: scientific peer review requires expert-reviewed status`)

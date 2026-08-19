@@ -47,6 +47,38 @@ a {
   color: var(--color-accent);
 }
 
+.evidence-status {
+  display: grid;
+  grid-template-columns: minmax(180px, 1fr) auto;
+  gap: 9px 24px;
+  padding: 15px 17px;
+  border: 1px solid #586069;
+  background: rgba(130, 147, 140, .07);
+  color: var(--color-text-muted);
+}
+
+.evidence-status > div:first-child { display: flex; align-items: baseline; flex-wrap: wrap; gap: 8px; }
+.evidence-status strong { color: var(--color-text); font: 500 13px var(--font-serif); }
+.evidence-status__maturity { padding: 3px 6px; border: 1px solid currentColor; color: var(--color-text-secondary); font: 700 7px var(--font-mono); letter-spacing: .08em; text-transform: uppercase; }
+.evidence-status__checks { display: flex; align-items: center; flex-wrap: wrap; justify-content: flex-end; gap: 6px; }
+.evidence-status__checks span { padding: 3px 6px; border: 1px solid var(--color-border); color: var(--color-text-faint); font: 7px var(--font-mono); text-transform: uppercase; }
+.evidence-status__checks span.is-reviewed { border-color: var(--color-accent-dim); color: var(--color-accent); }
+.evidence-status__checks span.is-pending { border-color: #7a684e; color: #d7b68c; }
+.evidence-status p { max-width: 740px; font-size: 10px; line-height: 1.55; }
+.evidence-status > a { justify-self: end; color: var(--color-accent-soft); font: 700 8px var(--font-mono); text-decoration: none; text-transform: uppercase; }
+.evidence-status--curator-draft { border-color: #7a684e; background: rgba(215, 182, 140, .055); }
+.evidence-status--expert-reviewed,
+.evidence-status--published-featured { border-color: var(--color-accent-dim); background: rgba(109, 218, 177, .055); }
+.evidence-status--compact { display: inline-grid; grid-template-columns: auto; gap: 5px; padding: 8px; }
+.evidence-status--compact .evidence-status__checks { justify-content: flex-start; }
+.evidence-status--compact > a { justify-self: start; }
+
+@media (max-width: 720px) {
+  .evidence-status { grid-template-columns: 1fr; }
+  .evidence-status__checks { justify-content: flex-start; }
+  .evidence-status > a { justify-self: start; }
+}
+
 button,
 input {
   font: inherit;
@@ -140,6 +172,14 @@ a:focus-visible {
 .map-model-ledger div { display: flex; justify-content: space-between; gap: 7px; }
 .map-model-ledger dt, .map-model-ledger dd { color: var(--color-text-faint); font: 6px/1.6 var(--font-mono); }
 .map-model-ledger dd { color: var(--color-text-muted); text-align: right; }
+.map-data-alternative { position: absolute; left: 12px; bottom: 10px; z-index: 1001; max-width: min(620px, calc(100% - 24px)); border: 1px solid var(--color-border); background: rgba(8, 17, 21, .96); color: var(--color-text-muted); }
+.map-data-alternative summary { padding: 7px 9px; color: var(--color-accent-soft); font: 700 7px var(--font-mono); text-transform: uppercase; cursor: pointer; }
+.map-data-alternative > div { width: min(600px, calc(100vw - 48px)); max-height: min(400px, 60vh); padding: 10px; overflow: auto; border-top: 1px solid var(--color-border-subtle); }
+.map-data-alternative p { margin-bottom: 8px; font-size: 9px; line-height: 1.5; }
+.map-data-alternative table { width: 100%; border-collapse: collapse; font-size: 8px; }
+.map-data-alternative caption { padding: 6px 0; color: var(--color-text-secondary); text-align: left; }
+.map-data-alternative th, .map-data-alternative td { padding: 6px; border-bottom: 1px solid var(--color-border-subtle); text-align: left; }
+.map-data-alternative th { color: var(--color-text-faint); font: 7px var(--font-mono); text-transform: uppercase; }
 
 .tree-evidence-card { padding: 10px; border: 1px solid var(--color-border-subtle); background: rgba(109, 218, 177, .035); }
 .tree-evidence-card > div:first-child { display: flex; justify-content: space-between; color: var(--color-text-faint); font-size: 9px; }
@@ -158,6 +198,8 @@ a:focus-visible {
 
 @media (max-width: 720px) {
   .map-layer-control { top: auto; right: 8px; bottom: 8px; width: 190px; }
+  .map-data-alternative { left: 8px; bottom: 8px; max-width: 150px; }
+  .map-data-alternative[open] { max-width: calc(100% - 16px); }
   .timeline-event-jump, .timeline-controls label:nth-of-type(2) { display: none; }
 }
 

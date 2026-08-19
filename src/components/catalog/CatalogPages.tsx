@@ -12,7 +12,9 @@ import {
   taxonProfiles,
 } from '../../services/catalog'
 import { getClaimsForSubject } from '../../services/evidence'
+import { buildEvidenceIssueUrl, getEntityPublication, scientificMaturityLabel } from '../../services/publication'
 import { loadPackageForEntity } from '../../data-client/staticDataClient'
+import { EvidenceStatus } from '../common/EvidenceStatus'
 import { useAppStore } from '../../store'
 import type { AppRoute } from '../../utils/routing'
 import type { ConfidenceLevel, EvidenceClaim, ReferenceRecord } from '../../types'
@@ -74,6 +76,7 @@ function ClaimLedger({ claims }: { claims: EvidenceClaim[] }) {
           <small>{t(claim.confidence)} · {claim.referenceLinks.map((link) => `${link.relation}: ${link.referenceId}`).join(' · ')}</small>
           <small>{language === 'zh' ? claim.confidenceRationaleZh : claim.confidenceRationale}</small>
           <small>{t('Reviewed {date} by {reviewer} against {version}', { date: claim.reviewedAt, reviewer: claim.reviewedBy, version: claim.reviewedAgainstReferenceVersion })}</small>
+          <a className="claim-report-link" href={buildEvidenceIssueUrl({ entityId: claim.subjectId.split(':')[1], claimId: claim.id })} target="_blank" rel="noreferrer">{t('Report this claim')} ↗</a>
         </article>
       ))}
     </div>
@@ -154,6 +157,7 @@ export function TaxonPage({ id, onNavigate }: CatalogPageProps) {
   const references = getReferences(profile.referenceIds)
   const media = getMediaForTaxon(profile.id)
   const claims = getClaimsForSubject(`taxon:${profile.id}`)
+  const publication = getEntityPublication(profile.treeNodeId ?? profile.id)
   const scrollToSection = (sectionId: string) => {
     document.getElementById(sectionId)?.scrollIntoView({ behavior: 'smooth', block: 'start' })
   }
@@ -187,6 +191,8 @@ export function TaxonPage({ id, onNavigate }: CatalogPageProps) {
           <button className="button button--ghost" onClick={() => onNavigate('compare', { left: profile.id })}>{t('Compare taxon')}</button>
         </div>
       </header>
+
+      {publication && <EvidenceStatus publication={publication} entityId={profile.id} />}
 
       <section className="catalog-facts">
         <div><span>{t('Status')}</span><strong className={profile.extinct ? 'is-extinct' : 'is-extant'}>{t(profile.extinct ? 'Extinct †' : 'Extant')}</strong></div>
@@ -292,14 +298,18 @@ function TaxonDirectory({ onNavigate }: { onNavigate: CatalogPageProps['onNaviga
         <p>{t('Milestone two begins with ten richly annotated perissodactyl exemplars; the tree remains searchable at broader scale.')}</p>
       </header>
       <div className="directory-grid">
-        {taxonProfiles.map((profile) => (
-          <button key={profile.id} onClick={() => onNavigate('taxa', { id: profile.id })}>
-            <span>{language === 'zh' ? profile.commonNameZh : profile.commonName}</span>
-            <h2><em>{profile.scientificName}</em></h2>
-            <p>{t(profile.overview)}</p>
-            <small>{t(profile.rank)} · {formatAge(profile.firstAppearance, t('Present'))}—{formatAge(profile.lastAppearance, t('Present'))}</small>
-          </button>
-        ))}
+        {taxonProfiles.map((profile) => {
+          const publication = getEntityPublication(profile.treeNodeId ?? profile.id)
+          return (
+            <button key={profile.id} onClick={() => onNavigate('taxa', { id: profile.id })}>
+              <span>{language === 'zh' ? profile.commonNameZh : profile.commonName}</span>
+              <h2><em>{profile.scientificName}</em></h2>
+              <p>{t(profile.overview)}</p>
+              <small>{t(profile.rank)} · {formatAge(profile.firstAppearance, t('Present'))}—{formatAge(profile.lastAppearance, t('Present'))}</small>
+              {publication && <small className={`directory-maturity directory-maturity--${publication.scientificMaturity}`}>{t(scientificMaturityLabel(publication.scientificMaturity))} · {t('No human scientific review')}</small>}
+            </button>
+          )
+        })}
       </div>
     </main>
   )

@@ -32,7 +32,7 @@ export function HomePage({ onNavigate }: HomePageProps) {
             {t('Life has a history.')}<br />
             <em>{t('Read the evidence.')}</em>
           </h1>
-          <p>{t('Navigate 4.567 billion years of fossils, shifting continents and evolutionary branches in one connected, source-aware atlas.')}</p>
+          <p>{t('Navigate deep time through fossil occurrences, reconstructed coordinates, geological intervals and evolutionary hypotheses.')}</p>
           <div className="hero__actions">
             <button className="button button--primary" onClick={() => enterAt(66)}>
               {t('Open explorer')} <span aria-hidden="true">↗</span>
@@ -72,6 +72,34 @@ export function HomePage({ onNavigate }: HomePageProps) {
         <div><strong>{number(manifest.records.treeNodes)}</strong><span>{t('curated tree nodes')}</span></div>
         <div><strong>{number(manifest.records.paleogeographicSnapshots)}</strong><span>{t('licensed land snapshots')}</span></div>
         <div><strong>{language === 'zh' ? '45.67 亿年' : '4.567 Gyr'}</strong><span>{t('visible timespan')}</span></div>
+      </section>
+
+      <section className="home-section audience-section">
+        <div className="section-heading">
+          <div>
+            <span className="section-label">{t('Choose your path')}</span>
+            <h2>{t('One atlas, three ways in')}</h2>
+          </div>
+          <p>{t('Start with a story, look up a branch, or move directly into the evidence and data tools.')}</p>
+        </div>
+        <div className="audience-grid">
+          <button onClick={() => onNavigate('stories')}>
+            <span>01</span><small>{t('I want to understand life history')}</small>
+            <h3>{t('Stories and turning points')}</h3>
+            <p>{t('Follow guided, claim-linked narratives through major transitions and events.')}</p><i>→</i>
+          </button>
+          <button onClick={() => onNavigate('catalog')}>
+            <span>02</span><small>{t('I want to look up a group')}</small>
+            <h3>{t('Taxa and events catalog')}</h3>
+            <p>{t('Inspect ranges, ecology, uncertainty, maturity and source fit without hiding provisional content.')}</p><i>→</i>
+          </button>
+          <button onClick={() => onNavigate('research')}>
+            <span>03</span><small>{t('I want to inspect data or analyze')}</small>
+            <h3>{t('Explorer and research tools')}</h3>
+            <p>{t('Compare views, run local queries and export a reproducible evidence bundle.')}</p><i>→</i>
+          </button>
+        </div>
+        <p className="home-maturity-note"><strong>{t('Current evidence boundary')}:</strong> {t('Perissodactyla is a curator draft with automated audit passed; all other scientific packages are generated scaffolds. No package currently claims human expert review.')}</p>
       </section>
 
       <section className="home-section period-section">

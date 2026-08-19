@@ -1,0 +1,192 @@
+{
+  "schemaVersion": 1,
+  "packageId": "perissodactyla",
+  "provider": "Paleobiology Database",
+  "endpoint": "https://paleobiodb.org/data1.2/occs/list.json",
+  "endpointVersion": "1.2",
+  "queryParameters": {
+    "base_id": "106418",
+    "show": "full,class",
+    "order": "id",
+    "pageSize": 5000
+  },
+  "requestedAt": "2026-08-19T19:03:45.156Z",
+  "upstreamReportedTotal": 13210,
+  "pagesFetched": 3,
+  "rowsFetched": 13210,
+  "rowsAccepted": 13210,
+  "rowsRejected": 0,
+  "rowsOutsidePackage": 0,
+  "responseChecksums": [
+    "fd405ca8346555fb35685be7066642188db897622fabcddd7e949a1a4fdb6c32"
+  ],
+  "completeness": "complete",
+  "selectionMethod": "Complete pagination of a pinned PBDB accepted base_id, with overlapping profile queries retained as an auditable concept ledger.",
+  "limitations": [
+    "Complete describes the pinned PBDB query response at the recorded retrieval time, not the completeness of the fossil record.",
+    "Profile subqueries may overlap the root query and are not summed to estimate abundance.",
+    "Palaeotherium remains excluded from profile-level interpretation pending taxon-concept review, while root-query rows remain preserved."
+  ],
+  "subqueries": [
+    {
+      "entityId": "perissodactyla",
+      "queryParameters": {
+        "base_id": "106418",
+        "show": "full,class",
+        "order": "id",
+        "pageSize": 5000
+      },
+      "upstreamReportedTotal": 13210,
+      "rowsFetched": 13210,
+      "pagesFetched": 3,
+      "completeness": "complete",
+      "conceptReviewStatus": "compatible",
+      "queryEligible": true,
+      "responseChecksum": "060af792b1adc3f2d73ad5204b223274bd421a84e797700be5c13087303e62fc"
+    },
+    {
+      "entityId": "brontotheriidae",
+      "queryParameters": {
+        "base_id": "43027",
+        "show": "full,class",
+        "order": "id",
+        "pageSize": 5000
+      },
+      "upstreamReportedTotal": 578,
+      "rowsFetched": 578,
+      "pagesFetched": 1,
+      "completeness": "complete",
+      "conceptReviewStatus": "compatible",
+      "queryEligible": true,
+      "responseChecksum": "0767329d122a92c02b25f1d64dd00aa2f8b9b014c9cac7d09868b8be7dc60680"
+    },
+    {
+      "entityId": "palaeotherium",
+      "queryParameters": {
+        "base_id": "49711",
+        "show": "full,class",
+        "order": "id",
+        "pageSize": 5000
+      },
+      "upstreamReportedTotal": 157,
+      "rowsFetched": 157,
+      "pagesFetched": 1,
+      "completeness": "complete",
+      "conceptReviewStatus": "needs-concept-review",
+      "queryEligible": false,
+      "responseChecksum": "033817b7cf3b773219586d0760535c4845068f6747e4a40c3d7b077430f32026"
+    },
+    {
+      "entityId": "metamynodon",
+      "queryParameters": {
+        "base_id": "43179",
+        "show": "full,class",
+        "order": "id",
+        "pageSize": 5000
+      },
+      "upstreamReportedTotal": 23,
+      "rowsFetched": 23,
+      "pagesFetched": 1,
+      "completeness": "complete",
+      "conceptReviewStatus": "compatible",
+      "queryEligible": true,
+      "responseChecksum": "6025140b202e6349f7196f2478eae127f48bccf11fb5188b50dc09b32a81aa5c"
+    },
+    {
+      "entityId": "paraceratherium",
+      "queryParameters": {
+        "base_id": "43161",
+        "show": "full,class",
+        "order": "id",
+        "pageSize": 5000
+      },
+      "upstreamReportedTotal": 38,
+      "rowsFetched": 38,
+      "pagesFetched": 1,
+      "completeness": "complete",
+      "conceptReviewStatus": "compatible",
+      "queryEligible": true,
+      "responseChecksum": "386b0ba3a2c4cefdb4a2ab39a5bf2d32a21edcd74bf064d2ea6e469ea3a30207"
+    },
+    {
+      "entityId": "chalicotherium",
+      "queryParameters": {
+        "base_id": "43079",
+        "show": "full,class",
+        "order": "id",
+        "pageSize": 5000
+      },
+      "upstreamReportedTotal": 40,
+      "rowsFetched": 40,
+      "pagesFetched": 1,
+      "completeness": "complete",
+      "conceptReviewStatus": "compatible",
+      "queryEligible": true,
+      "responseChecksum": "cbafe1ac6f9b384a46f523d8e8ce132f694b8a0fa06d4f80755b46b484a84fff"
+    },
+    {
+      "entityId": "anchitherium",
+      "queryParameters": {
+        "base_id": "42987",
+        "show": "full,class",
+        "order": "id",
+        "pageSize": 5000
+      },
+      "upstreamReportedTotal": 88,
+      "rowsFetched": 88,
+      "pagesFetched": 1,
+      "completeness": "complete",
+      "conceptReviewStatus": "compatible",
+      "queryEligible": true,
+      "responseChecksum": "ef972e74f653750d0853cb533f0213be270494d3043ebf8b1f4021a2ead38be8"
+    },
+    {
+      "entityId": "hipparionini",
+      "queryParameters": {
+        "base_id": "65579",
+        "show": "full,class",
+        "order": "id",
+        "pageSize": 5000
+      },
+      "upstreamReportedTotal": 1698,
+      "rowsFetched": 1698,
+      "pagesFetched": 1,
+      "completeness": "complete",
+      "conceptReviewStatus": "compatible",
+      "queryEligible": true,
+      "responseChecksum": "bc3cb696358a2784ac02caf4e939dc57ff22347c64ad2d42592c5cb0d8d0b5c2"
+    },
+    {
+      "entityId": "teleoceras",
+      "queryParameters": {
+        "base_id": "43226",
+        "show": "full,class",
+        "order": "id",
+        "pageSize": 5000
+      },
+      "upstreamReportedTotal": 348,
+      "rowsFetched": 348,
+      "pagesFetched": 1,
+      "completeness": "complete",
+      "conceptReviewStatus": "compatible",
+      "queryEligible": true,
+      "responseChecksum": "cfd8a2227ca4ca768f48edb7ef0fbc84ef9800545085b494aa2f45b81f6ad834"
+    },
+    {
+      "entityId": "coelodonta",
+      "queryParameters": {
+        "base_id": "43197",
+        "show": "full,class",
+        "order": "id",
+        "pageSize": 5000
+      },
+      "upstreamReportedTotal": 37,
+      "rowsFetched": 37,
+      "pagesFetched": 1,
+      "completeness": "complete",
+      "conceptReviewStatus": "compatible",
+      "queryEligible": true,
+      "responseChecksum": "db92a81e093babe94a7340a50a977a876eebf3941f1bbfd11cd88e24e50bb2d7"
+    }
+  ]
+}

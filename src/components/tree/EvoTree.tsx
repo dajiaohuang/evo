@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useRef } from 'react'
+import { useCallback, useEffect, useMemo, useRef } from 'react'
 import * as d3 from 'd3'
 import { useAppStore } from '../../store'
 import type { TreeNode } from '../../types'
@@ -24,6 +24,12 @@ function activeAt(node: TreeNode, age: number): boolean {
   return age <= node.firstAppearance && age >= node.lastAppearance
 }
 
+function flattenNodes(node: TreeNode, output: TreeNode[] = []): TreeNode[] {
+  output.push(node)
+  for (const child of node.children ?? []) flattenNodes(child, output)
+  return output
+}
+
 export function EvoTree() {
   const { language, t } = useI18n()
   const svgRef = useRef<SVGSVGElement>(null)
@@ -32,6 +38,10 @@ export function EvoTree() {
   const currentAge = useAppStore((state) => state.currentAge)
   const selectedNodeId = useAppStore((state) => state.selectedNodeId)
   const selectSubject = useAppStore((state) => state.selectSubject)
+  const alternativeNodes = useMemo(() => flattenNodes(mode === 'navigation' || mode === 'radial'
+    ? treeData as TreeNode
+    : perissodactylHypothesisData.root as TreeNode, []), [mode])
+  const activeNodeCount = alternativeNodes.filter((node) => activeAt(node, currentAge)).length
   const nodeLabel = useCallback((node: TreeNode) => {
     if (language !== 'zh') return node.commonName || node.name
     return getTaxonProfile(node.id)?.commonNameZh ?? node.commonNameZh ?? node.commonName ?? node.name
@@ -240,6 +250,17 @@ export function EvoTree() {
         ))}
       </div>
       <svg ref={svgRef} role="tree" aria-label={t('{mode} visualization of the tree of life', { mode: t(mode) })} />
+      <details className="tree-data-alternative">
+        <summary>{t('Text and table alternative')}</summary>
+        <div>
+          <p>{t('{active} of {total} represented nodes overlap {age} Ma in this {mode} view.', { active: activeNodeCount, total: alternativeNodes.length, age: currentAge.toFixed(1), mode: t(mode) })}</p>
+          <table>
+            <caption>{t('Tree nodes and represented fossil ranges')}</caption>
+            <thead><tr><th>{t('Node')}</th><th>{t('Rank')}</th><th>{t('Range')}</th><th>{t('At current time')}</th></tr></thead>
+            <tbody>{alternativeNodes.map((node) => <tr key={node.id}><td>{nodeLabel(node)}</td><td>{t(node.rank ?? 'not applicable')}</td><td>{node.firstAppearance}–{node.lastAppearance || t('present')} Ma</td><td>{t(activeAt(node, currentAge) ? 'yes' : 'no')}</td></tr>)}</tbody>
+          </table>
+        </div>
+      </details>
       <div className="tree-model-note">
         {mode === 'navigation' && t('Navigation ontology · convenient groupings may be paraphyletic and do not assert a phylogenetic hypothesis.')}
         {mode === 'cladogram' && t('Curated Perissodactyla hypothesis · branch length does not encode elapsed time.')}

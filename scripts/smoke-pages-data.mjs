@@ -5,6 +5,7 @@ import { gunzipSync } from 'node:zlib'
 import { rootDir } from './data-lib.mjs'
 
 const dataRoot = join(rootDir, 'dist/data')
+const pagesRoot = join(rootDir, 'dist')
 const failures = []
 const readJson = (relativePath) => JSON.parse(readFileSync(join(dataRoot, relativePath), 'utf8'))
 const readGzipJson = (relativePath) => JSON.parse(gunzipSync(readFileSync(join(dataRoot, relativePath))).toString('utf8'))
@@ -94,6 +95,26 @@ for (const shards of Object.values(occurrences.packages)) {
   }
 }
 if (occurrenceCount !== occurrences.totalRecords || occurrenceCount !== current.occurrences.totalRecords) failures.push(`occurrence total is ${occurrenceCount}; manifests disagree`)
+
+const staticManifestPath = join(pagesRoot, 'static-pages-manifest.json')
+if (!existsSync(staticManifestPath)) failures.push('static knowledge-page manifest is missing')
+else {
+  const staticManifest = JSON.parse(readFileSync(staticManifestPath, 'utf8'))
+  if (staticManifest.datasetVersion !== current.datasetVersion) failures.push('static knowledge pages use a stale dataset version')
+  if (staticManifest.pages?.taxa < 2 || staticManifest.pages?.events < 2 || staticManifest.pages?.stories < 2) failures.push('bilingual static knowledge-page coverage is incomplete')
+}
+for (const relativePath of ['sitemap.xml', 'robots.txt', 'feed.xml', '404.html', 'taxa/perissodactyla/index.html', 'zh/taxa/perissodactyla/index.html', 'events/perissodactyl-radiation/index.html', 'stories/rise-and-fall-perissodactyls/index.html', 'methods/index.html', `datasets/${current.datasetVersion}/index.html`]) {
+  if (!existsSync(join(pagesRoot, relativePath))) failures.push(`static page artifact is missing: ${relativePath}`)
+}
+const flagshipStaticPath = join(pagesRoot, 'taxa/perissodactyla/index.html')
+if (existsSync(flagshipStaticPath)) {
+  const html = readFileSync(flagshipStaticPath, 'utf8')
+  for (const marker of ['rel="canonical"', 'application/ld+json', 'No human scientific review', 'Report an evidence issue', '/evo/#/explore?profile=perissodactyla']) {
+    if (!html.includes(marker)) failures.push(`flagship static page is missing ${marker}`)
+  }
+}
+const scaffoldStaticPath = join(pagesRoot, 'taxa/dinosauria/index.html')
+if (existsSync(scaffoldStaticPath) && !readFileSync(scaffoldStaticPath, 'utf8').includes('name="robots" content="noindex,follow"')) failures.push('generated scaffold static pages must be noindex')
 
 releaseUrl(current.maps.manifest, 'map manifest')
 checkFile(current.maps.manifest, 'map manifest')

@@ -1,0 +1,45 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://dajiaohuang.github.io/evo/schemas/query-ledger.schema.json",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schemaVersion", "packageId", "provider", "endpoint", "endpointVersion", "queryParameters", "requestedAt", "upstreamReportedTotal", "pagesFetched", "rowsFetched", "rowsAccepted", "rowsRejected", "rowsOutsidePackage", "responseChecksums", "completeness", "selectionMethod", "limitations"],
+  "properties": {
+    "schemaVersion": { "const": 1 },
+    "packageId": { "type": "string", "minLength": 1 },
+    "provider": { "type": "string", "minLength": 1 },
+    "endpoint": { "type": "string", "pattern": "^https://" },
+    "endpointVersion": { "type": "string", "minLength": 1 },
+    "queryParameters": { "type": "object" },
+    "requestedAt": { "type": "string", "minLength": 10 },
+    "upstreamReportedTotal": { "type": ["integer", "null"], "minimum": 0 },
+    "pagesFetched": { "type": "integer", "minimum": 0 },
+    "rowsFetched": { "type": "integer", "minimum": 0 },
+    "rowsAccepted": { "type": "integer", "minimum": 0 },
+    "rowsRejected": { "type": "integer", "minimum": 0 },
+    "rowsOutsidePackage": { "type": "integer", "minimum": 0 },
+    "responseChecksums": { "type": "array", "items": { "type": "string", "pattern": "^[a-f0-9]{64}$" } },
+    "completeness": { "enum": ["complete", "bounded", "unknown"] },
+    "selectionMethod": { "type": "string", "minLength": 1 },
+    "limitations": { "type": "array", "minItems": 1, "items": { "type": "string", "minLength": 1 } },
+    "subqueries": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["entityId", "queryParameters", "upstreamReportedTotal", "rowsFetched", "pagesFetched", "completeness", "conceptReviewStatus", "queryEligible", "responseChecksum"],
+        "properties": {
+          "entityId": { "type": "string", "minLength": 1 },
+          "queryParameters": { "type": "object" },
+          "upstreamReportedTotal": { "type": "integer", "minimum": 0 },
+          "rowsFetched": { "type": "integer", "minimum": 0 },
+          "pagesFetched": { "type": "integer", "minimum": 0 },
+          "completeness": { "enum": ["complete", "bounded", "unknown"] },
+          "conceptReviewStatus": { "type": "string", "minLength": 1 },
+          "queryEligible": { "type": "boolean" },
+          "responseChecksum": { "type": "string", "pattern": "^[a-f0-9]{64}$" }
+        }
+      }
+    }
+  }
+}

@@ -231,6 +231,17 @@
   padding: 100px 0 20px;
 }
 
+.audience-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; }
+.audience-grid button { min-height: 245px; padding: 24px; display: flex; flex-direction: column; align-items: flex-start; border: 1px solid var(--color-border-subtle); background: var(--color-surface); color: var(--color-text); text-align: left; cursor: pointer; }
+.audience-grid button:hover { border-color: var(--color-accent-dim); transform: translateY(-2px); }
+.audience-grid span { align-self: flex-end; color: var(--color-text-faint); font: 8px var(--font-mono); }
+.audience-grid small { color: var(--color-accent); font: 8px var(--font-mono); text-transform: uppercase; }
+.audience-grid h3 { margin-top: 17px; font: 500 27px var(--font-display); }
+.audience-grid p { margin-top: 13px; color: var(--color-text-muted); font-size: 11px; line-height: 1.65; }
+.audience-grid i { margin-top: auto; color: var(--color-accent); font-style: normal; }
+.home-maturity-note { margin-top: 12px; padding: 14px 16px; border: 1px solid #7a684e; background: rgba(215, 182, 140, .045); color: var(--color-text-muted); font-size: 10px; line-height: 1.6; }
+.home-maturity-note strong { color: #d7b68c; }
+
 .section-heading {
   display: flex;
   align-items: end;
@@ -339,7 +350,7 @@
 @media (max-width: 900px) {
   .hero { grid-template-columns: 1fr; padding: 70px 24px; gap: 50px; }
   .hero__instrument { max-width: 520px; width: 100%; }
-  .atlas-strip, .story-grid { grid-template-columns: repeat(2, 1fr); }
+  .atlas-strip, .story-grid, .audience-grid { grid-template-columns: repeat(2, 1fr); }
   .home-section, .atlas-strip, .home-footer { margin-inline: 24px; }
   .section-heading { align-items: start; flex-direction: column; }
 }
@@ -348,7 +359,7 @@
   .hero { padding-top: 52px; }
   .hero h1 { font-size: 48px; }
   .hero__instrument { min-height: auto; }
-  .atlas-strip, .story-grid { grid-template-columns: 1fr; }
+  .atlas-strip, .story-grid, .audience-grid { grid-template-columns: 1fr; }
   .atlas-strip > div { border-right: 0; border-bottom: 1px solid var(--color-border-subtle); }
   .home-footer { margin-bottom: 70px; flex-direction: column; gap: 8px; }
 }
