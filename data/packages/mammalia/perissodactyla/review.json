@@ -1,34 +1,23 @@
 {
+  "schemaVersion": 1,
   "subjectId": "package:perissodactyla",
-  "status": "automated-audit-passed",
-  "reviewedBy": "Evo Atlas schema and linkage audit",
-  "reviewedAt": "2026-08-20",
+  "status": "in-review",
+  "reviewedBy": null,
+  "reviewedAt": null,
+  "reviewedCommit": null,
+  "contentDigest": "sha256:5219d28de2e780f1a5add6b72b6cdcac85a1eaf413302502248bd79af3ccfe6f",
+  "chatgptAssisted": false,
   "scope": [
-    "schema",
-    "identifier-linkage",
-    "bilingual-field-presence"
+    "taxonomy",
+    "fossil-ranges",
+    "morphology",
+    "ecology",
+    "biogeography",
+    "references",
+    "bilingual-consistency"
   ],
-  "scientificPeerReview": false,
-  "decision": "automated-audit-only",
-  "decisionNotes": "Automated checks passed. Human scientific review, claim decisions and conflict review remain pending.",
-  "reviewedDatasetVersion": "2026.08-static-v5-rc3",
-  "reviewers": [
-    {
-      "name": "Evo Atlas automated validation",
-      "identityType": "automated-system",
-      "orcid": null,
-      "expertise": [
-        "data engineering",
-        "schema validation"
-      ],
-      "reviewScope": [
-        "schema",
-        "identifier linkage",
-        "bilingual field presence"
-      ],
-      "conflictOfInterest": "Automated system; no human scientific expertise is claimed.",
-      "decision": "automated-audit-only"
-    }
-  ],
-  "version": "2026.08-static-v5-rc3"
+  "openIssues": [
+    "The first complete review packet has been generated; maintainer disposition is still pending.",
+    "No external domain-expert review has been performed."
+  ]
 }

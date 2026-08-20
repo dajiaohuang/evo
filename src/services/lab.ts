@@ -11,6 +11,8 @@ export interface LabQuery {
   periods: string[]
   taxon: string
   country: string
+  formation?: string
+  collection?: string
   olderMa: number | null
   youngerMa: number | null
   limit: number
@@ -33,6 +35,15 @@ export interface LabResult {
   topTaxa: Array<{ taxon: string; count: number }>
   truncated: boolean
   samplingMethod: string
+}
+
+export function diffLabQueries(left: LabQuery, right: LabQuery): Array<{ field: keyof LabQuery; left: unknown; right: unknown }> {
+  const fields: Array<keyof LabQuery> = ['periods', 'taxon', 'country', 'formation', 'collection', 'olderMa', 'youngerMa', 'limit']
+  return fields.flatMap((field) => {
+    const leftValue = left[field] ?? ''
+    const rightValue = right[field] ?? ''
+    return JSON.stringify(leftValue) === JSON.stringify(rightValue) ? [] : [{ field, left: leftValue, right: rightValue }]
+  })
 }
 
 function intersectsAge(record: FossilOccurrence, olderMa: number | null, youngerMa: number | null): boolean {
@@ -83,9 +94,13 @@ export function validateLabQuery(query: LabQuery): void {
 export function filterFossils(records: FossilOccurrence[], query: LabQuery): FossilOccurrence[] {
   const taxon = query.taxon.trim().toLocaleLowerCase()
   const country = query.country.trim().toLocaleUpperCase()
+  const formation = (query.formation ?? '').trim().toLocaleLowerCase()
+  const collection = (query.collection ?? '').trim().toLocaleLowerCase()
   return records.filter((record) => {
     if (taxon && !`${record.tna ?? ''} ${record.idn}`.toLocaleLowerCase().includes(taxon)) return false
     if (country && (record.cc2 ?? '').toLocaleUpperCase() !== country) return false
+    if (formation && !`${record.formation ?? ''} ${record.member ?? ''}`.toLocaleLowerCase().includes(formation)) return false
+    if (collection && !record.cid.toLocaleLowerCase().includes(collection)) return false
     return intersectsAge(record, query.olderMa, query.youngerMa)
   })
 }
@@ -187,7 +202,29 @@ function makeBibtex(): string {
   ].join('\n\n')
 }
 
-function createQueryPackageFiles(result: LabResult, release: ReleaseMetadata): Record<string, Uint8Array> {
+function resultChartSvg(result: LabResult): string {
+  const width = 960
+  const height = 420
+  const padding = 52
+  const max = Math.max(1, ...result.countsByPeriod.map((entry) => entry.count))
+  const slot = result.countsByPeriod.length ? (width - padding * 2) / result.countsByPeriod.length : 0
+  const bars = result.countsByPeriod.map((entry, index) => {
+    const barHeight = entry.count / max * (height - padding * 2)
+    const x = padding + index * slot + slot * 0.14
+    const y = height - padding - barHeight
+    return `<g><rect x="${x.toFixed(2)}" y="${y.toFixed(2)}" width="${Math.max(1, slot * 0.72).toFixed(2)}" height="${barHeight.toFixed(2)}" fill="#4f9f82"/><text x="${(x + slot * 0.36).toFixed(2)}" y="${height - 28}" text-anchor="middle" font-size="11">${entry.period.slice(0, 3)}</text><text x="${(x + slot * 0.36).toFixed(2)}" y="${Math.max(18, y - 7).toFixed(2)}" text-anchor="middle" font-size="10">${entry.count}</text></g>`
+  }).join('')
+  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${width} ${height}" role="img" aria-labelledby="title desc"><title id="title">Evo Atlas query counts by geological period</title><desc id="desc">Counts come from the bounded returned query and do not estimate biological diversity.</desc><rect width="100%" height="100%" fill="#f7faf8"/><line x1="${padding}" y1="${height - padding}" x2="${width - padding}" y2="${height - padding}" stroke="#21342c"/>${bars}<text x="${padding}" y="22" font-family="sans-serif" font-size="14" font-weight="700">Bounded occurrence counts by period</text></svg>`
+}
+
+async function sha256(bytes: Uint8Array): Promise<string> {
+  const copy = new Uint8Array(bytes.byteLength)
+  copy.set(bytes)
+  const digest = await crypto.subtle.digest('SHA-256', copy.buffer)
+  return [...new Uint8Array(digest)].map((value) => value.toString(16).padStart(2, '0')).join('')
+}
+
+async function createQueryPackageFiles(result: LabResult, release: ReleaseMetadata): Promise<Record<string, Uint8Array>> {
   const readme = [
     'Evo Atlas query export',
     `Application version: ${release.appVersion}`,
@@ -206,26 +243,43 @@ function createQueryPackageFiles(result: LabResult, release: ReleaseMetadata): R
     'Paleo and modern coordinates are exported separately and are never used to fill missing halves of another coordinate pair.',
   ].join('\n')
 
-  return {
+  const citationRecords = references.filter((reference) => ['pbdb-api-2016', 'ics-2026-06'].includes(reference.id) || result.records.some((record) => record.referenceId === reference.id))
+  const methods = [
+    '# Methods',
+    '',
+    `Dataset version: ${manifest.datasetVersion}`,
+    `Sampling frame: ${result.samplingMethod}`,
+    '',
+    'Records were filtered locally by selected geological periods, intersecting numerical age bounds, accepted/identified-name text, country code, formation/member text, and collection identifier.',
+    'The result limit is applied after matching. Range-through endpoints and chart counts describe only returned or matched records, not origination, extinction, abundance, or true diversity.',
+    'Paleocoordinates and modern collection coordinates remain separate representations and are never substituted for one another.',
+  ].join('\n')
+  const files: Record<string, Uint8Array> = {
     'query.json': strToU8(JSON.stringify(result.query, null, 2)),
     'results.csv': strToU8(fossilsToCsv(result.records)),
     'results.json': strToU8(JSON.stringify(result.records, null, 2)),
     'results-paleo.geojson': strToU8(JSON.stringify(fossilsToGeoJson(result.records, 'paleo'), null, 2)),
     'results-modern.geojson': strToU8(JSON.stringify(fossilsToGeoJson(result.records, 'modern'), null, 2)),
-    'README.txt': strToU8(readme),
+    'chart.svg': strToU8(resultChartSvg(result)),
+    'README.md': strToU8(`# Reproducible Evo Atlas query\n\n${readme.split('\n').join('  \n')}\n`),
+    'methods.md': strToU8(`${methods}\n`),
+    'citations.json': strToU8(JSON.stringify(citationRecords, null, 2)),
     'citations.bib': strToU8(makeBibtex()),
     'dataset-manifest.json': strToU8(JSON.stringify(manifest, null, 2)),
     'release.json': strToU8(JSON.stringify(release, null, 2)),
   }
+  const checksumLines = await Promise.all(Object.entries(files).sort(([left], [right]) => left.localeCompare(right)).map(async ([path, bytes]) => `${await sha256(bytes)}  ${path}`))
+  files['checksums.txt'] = strToU8(`${checksumLines.join('\n')}\n`)
+  return files
 }
 
-export function createQueryPackage(result: LabResult, release: ReleaseMetadata = localReleaseMetadata): Uint8Array {
-  return zipSync(createQueryPackageFiles(result, release), { level: 6 })
+export async function createQueryPackage(result: LabResult, release: ReleaseMetadata = localReleaseMetadata): Promise<Uint8Array> {
+  return zipSync(await createQueryPackageFiles(result, release), { level: 6 })
 }
 
 async function createQueryPackageInWorker(result: LabResult, release: ReleaseMetadata): Promise<Uint8Array> {
   if (typeof Worker === 'undefined') return createQueryPackage(result, release)
-  const files = createQueryPackageFiles(result, release)
+  const files = await createQueryPackageFiles(result, release)
   return new Promise((resolve, reject) => {
     const worker = new Worker(new URL('../workers/queryPackage.worker.ts', import.meta.url), { type: 'module' })
     worker.onmessage = (event: MessageEvent<Uint8Array>) => {
@@ -246,7 +300,7 @@ export async function downloadQueryPackage(result: LabResult): Promise<void> {
   try {
     bytes = await createQueryPackageInWorker(result, release)
   } catch {
-    bytes = createQueryPackage(result, release)
+    bytes = await createQueryPackage(result, release)
   }
   const blob = new Blob([bytes.buffer as ArrayBuffer], { type: 'application/zip' })
   const url = URL.createObjectURL(blob)

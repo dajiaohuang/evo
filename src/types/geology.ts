@@ -18,6 +18,14 @@ export interface GeoInterval {
   col: string;
   pid: string | null;
   abr?: string;
+  sourceId?: string;
+  sourceParentId?: string;
+  eagUncertaintyMa?: number | null;
+  lagUncertaintyMa?: number | null;
+  eagApproximate?: boolean;
+  lagApproximate?: boolean;
+  ratifiedGssp?: boolean;
+  sourceNote?: string;
 }
 
 export interface PeriodInfo {

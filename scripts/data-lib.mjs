@@ -57,13 +57,14 @@ export function collectDataSummary() {
   const entityRegistry = readJson('data/registry/entities/entities.json')
   const packageRegistry = readJson('data/registry/package-registry.json')
   const periodNames = timeScale.units.filter((unit) => unit.itp === 'period').map((unit) => unit.nam)
-  const fossilOccurrences = periodNames.reduce((sum, periodName) => {
-    return sum + readJson(`data/fossils/${periodName.toLowerCase()}.json`).length
-  }, 0)
+  const occurrences = periodNames.flatMap((periodName) => readJson(`data/fossils/${periodName.toLowerCase()}.json`))
+  const formationNames = new Set(occurrences.map((record) => record.formation).filter(Boolean))
+  const fossilCollections = new Set(occurrences.map((record) => record.cid).filter(Boolean))
+  const traitTerms = new Set(profiles.flatMap((profile) => profile.traits ?? []))
 
   return {
     records: {
-      fossilOccurrences,
+      fossilOccurrences: occurrences.length,
       treeNodes: countTreeNodes(ontology),
       geologicalPeriods: periodNames.length,
       paleogeographicSnapshots: periodMetadata.filter((record) => record.mapLayerStatus === 'available').length,
@@ -76,6 +77,9 @@ export function collectDataSummary() {
       references: references.length,
       searchablePlaces: places.length,
       mediaAssets: media.length,
+      formationNames: formationNames.size,
+      fossilCollections: fossilCollections.size,
+      traitTerms: traitTerms.size,
       divergenceEstimates: perissodactylCalibrations.estimates.length,
       treeEvidenceOverrides: Object.keys(treeEvidence.nodes).length,
       evidenceClaims: claims.length,

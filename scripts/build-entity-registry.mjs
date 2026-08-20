@@ -1,8 +1,8 @@
 import { createHash } from 'node:crypto'
-import { mkdirSync, readFileSync, writeFileSync } from 'node:fs'
+import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs'
 import { dirname, isAbsolute, join, resolve } from 'node:path'
 import { flattenTree, readJson, rootDir } from './data-lib.mjs'
-import { DATASET_PACKAGE_VERSION, DATASET_RELEASE_DATE, PACKAGE_SCHEMA_VERSION, packageDefinitions } from './package-definitions.mjs'
+import { DATASET_PACKAGE_VERSION, PACKAGE_SCHEMA_VERSION, packageDefinitions } from './package-definitions.mjs'
 
 const ontology = readJson('data/navigation/atlas-ontology.json')
 const profileSources = readJson('data/packages/mammalia/perissodactyla/profiles.source.json')
@@ -10,6 +10,8 @@ const perissodactylPhylogeny = structuredClone(readJson('data/packages/mammalia/
 const treeEvidence = readJson('data/tree/evidence.json')
 const media = readJson('data/media.json')
 const claims = readJson('data/evidence/claims.json')
+const claimsById = new Map(claims.map((claim) => [claim.id, claim]))
+const references = readJson('data/references.json')
 const claimRationalesZh = readJson('data/evidence/claim-rationales.zh.json')
 const events = readJson('data/events.json')
 const stories = readJson('data/stories.json')
@@ -137,16 +139,59 @@ function ownerForClaim(claim) {
   return explicit[subjectId] ?? 'atlas-core'
 }
 
+const maintainerReviewScope = [
+  'taxonomy',
+  'fossil-ranges',
+  'morphology',
+  'ecology',
+  'biogeography',
+  'references',
+  'bilingual-consistency',
+]
+
+function defaultPackageReview(definition) {
+  return {
+    schemaVersion: 1,
+    subjectId: `package:${definition.id}`,
+    status: 'not-reviewed',
+    reviewedBy: null,
+    reviewedAt: null,
+    reviewedCommit: null,
+    contentDigest: null,
+    chatgptAssisted: false,
+    scope: maintainerReviewScope,
+    openIssues: [
+      'No maintainer review packet has been completed.',
+      'No external domain-expert review has been performed.',
+    ],
+  }
+}
+
+const packageReviewsNeedingMigration = new Set()
+const packageReviewById = new Map(packageDefinitions.map((definition) => {
+  const relativePath = `data/packages/${definition.path}/review.json`
+  if (!existsSync(join(rootDir, relativePath))) {
+    packageReviewsNeedingMigration.add(definition.id)
+    return [definition.id, defaultPackageReview(definition)]
+  }
+  const current = readJson(relativePath)
+  if (current.schemaVersion !== 1 || !['not-reviewed', 'in-review', 'reviewed-with-caveats', 'reviewed'].includes(current.status)) {
+    packageReviewsNeedingMigration.add(definition.id)
+    return [definition.id, defaultPackageReview(definition)]
+  }
+  return [definition.id, current]
+}))
+
 function packageMaturity(definition) {
   return {
     platformMaturity: 'published',
     scientificMaturity: definition.id === 'atlas-core'
-      ? 'core'
+      ? 'structured'
       : definition.id === 'perissodactyla'
-        ? 'curator-draft'
+        ? 'curated-draft'
         : 'generated-scaffold',
     automatedReviewStatus: 'passed',
-    scientificReviewStatus: 'not-reviewed',
+    reviewStatus: packageReviewById.get(definition.id).status,
   }
 }
 
@@ -207,24 +252,6 @@ const entities = flattenTree(ontology).map((node) => {
         : []),
     ],
     dataAvailability: availability,
-    review: {
-      status: 'automated-audit-passed',
-      reviewedBy: 'Evo Atlas schema and linkage audit',
-      reviewedAt: DATASET_RELEASE_DATE,
-      scope: ['schema', 'external-identifier-resolution', 'identifier-linkage', 'bilingual-field-presence'],
-      scientificPeerReview: false,
-      decision: 'automated-audit-only',
-      reviewedDatasetVersion: DATASET_PACKAGE_VERSION,
-      reviewers: [{
-        name: 'Evo Atlas automated validation',
-        identityType: 'automated-system',
-        orcid: null,
-        expertise: ['data engineering', 'schema validation'],
-        reviewScope: ['schema', 'identifier linkage', 'bilingual field presence'],
-        conflictOfInterest: 'Automated system; no human scientific expertise is claimed.',
-        decision: 'automated-audit-only',
-      }],
-    },
     version: DATASET_PACKAGE_VERSION,
   }
 })
@@ -259,6 +286,12 @@ function writeJson(relativePath, value) {
   generatedFiles.push(relativePath.replaceAll('\\', '/'))
 }
 
+function writeCanonicalJson(relativePath, value) {
+  const absolutePath = join(outputRoot, relativePath)
+  mkdirSync(dirname(absolutePath), { recursive: true })
+  writeFileSync(absolutePath, `${JSON.stringify(value, null, 2)}\n`, 'utf8')
+}
+
 writeJson('data/registry/entities/entities.json', entities)
 writeJson('data/registry/package-registry.json', registry)
 writeJson('data/packages/mammalia/perissodactyla/profiles.json', profiles)
@@ -266,6 +299,24 @@ writeJson('data/packages/mammalia/perissodactyla/phylogeny/hypothesis.json', per
 
 for (const definition of packageDefinitions) {
   const packageEntities = entities.filter((entity) => entity.packageId === definition.id)
+  const packageEntityIds = new Set(packageEntities.map((entity) => entity.id))
+  const packageClaims = claims.filter((claim) => ownerForClaim(claim) === definition.id)
+  const packageProfiles = profiles.filter((profile) => packageEntityIds.has(profile.treeNodeId))
+  const packageRanges = canonicalRanges.filter((range) => packageEntityIds.has(range.entityId))
+  const packageStoryIds = publishedStories
+    .filter((story) => story.steps.some((step) => (step.taxonIds ?? []).some((id) => packageForEntity(id) === definition.id)))
+    .map((story) => story.id)
+  const packageMediaIds = media.filter((asset) => packageForEntity(asset.taxonId) === definition.id).map((asset) => asset.id)
+  const packageReferenceIds = new Set([
+    ...packageEntities.flatMap((entity) => entity.referenceIds),
+    ...packageProfiles.flatMap((profile) => profile.referenceIds ?? []),
+    ...packageClaims.flatMap((claim) => claim.referenceLinks.map((link) => link.referenceId)),
+    ...packageRanges.flatMap((range) => range.referenceLocators.map((locator) => locator.referenceId)),
+    ...publishedStories
+      .filter((story) => packageStoryIds.includes(story.id))
+      .flatMap((story) => story.steps.flatMap((step) => step.claimLinks.flatMap((link) => claimsById.get(link.claimId)?.referenceLinks.map((referenceLink) => referenceLink.referenceId) ?? []))),
+  ])
+  const packageReferences = references.filter((reference) => packageReferenceIds.has(reference.id))
   const acceptedRows = occurrenceCountsByPackage.get(definition.id) ?? 0
   const perissodactylaRootQuery = perissodactylaOccurrenceSnapshot.queryResults.find((query) => query.entityId === 'perissodactyla')
   const queryLedger = definition.id === 'perissodactyla'
@@ -337,6 +388,10 @@ for (const definition of packageDefinitions) {
     version: DATASET_PACKAGE_VERSION,
     title: definition.title,
     titleZh: definition.titleZh,
+    conceptScope: {
+      en: `Evidence and navigation concepts rooted at ${definition.rootEntityIds.join(', ')}; membership follows the committed entity registry and does not imply exhaustive taxonomic coverage.`,
+      zh: `以 ${definition.rootEntityIds.join('、')} 为根的证据与导航概念；成员范围以已提交的实体注册表为准，不表示穷尽性的分类覆盖。`,
+    },
     rootEntityIds: definition.rootEntityIds,
     entityIds: packageEntities.map((entity) => entity.id),
     canonicalSources: {
@@ -360,30 +415,12 @@ for (const definition of packageDefinitions) {
     canonicalInputs: ['data/navigation/atlas-ontology.json', 'data/ranges/range-evidence.json', 'data/sources/pbdb-taxon-resolution.json', 'data/tree/evidence.json', 'data/references.json', ...(definition.id === 'perissodactyla' ? ['data/packages/mammalia/perissodactyla/profiles.source.json', 'data/packages/mammalia/perissodactyla/phylogeny/hypothesis.source.json'] : [])],
     occurrenceSnapshot: 'data/sources/pbdb-occurrence-bundle.json',
     generatedProjection: true,
-    notes: ['Package registry, taxonomy, range, review and locale files are generated projections. Canonical entity concepts, ranges, evidence and external-resolution decisions live in the listed canonical inputs.'],
+    notes: ['Package registry, taxonomy, range and locale files are generated projections. review.json is maintained separately as the single package review record. Canonical entity concepts, ranges, evidence and external-resolution decisions live in the listed canonical inputs.'],
   })
-  writeJson(`data/packages/${definition.path}/review.json`, {
-    subjectId: `package:${definition.id}`,
-    status: 'automated-audit-passed',
-    reviewedBy: 'Evo Atlas schema and linkage audit',
-    reviewedAt: DATASET_RELEASE_DATE,
-    scope: ['schema', 'identifier-linkage', 'bilingual-field-presence'],
-    scientificPeerReview: false,
-    decision: 'automated-audit-only',
-    decisionNotes: 'Automated checks passed. Human scientific review, claim decisions and conflict review remain pending.',
-    reviewedDatasetVersion: DATASET_PACKAGE_VERSION,
-    reviewers: [{
-      name: 'Evo Atlas automated validation', identityType: 'automated-system', orcid: null,
-      expertise: ['data engineering', 'schema validation'],
-      reviewScope: ['schema', 'identifier linkage', 'bilingual field presence'],
-      conflictOfInterest: 'Automated system; no human scientific expertise is claimed.',
-      decision: 'automated-audit-only',
-    }],
-    version: DATASET_PACKAGE_VERSION,
-  })
+  if (packageReviewsNeedingMigration.has(definition.id)) {
+    writeCanonicalJson(`data/packages/${definition.path}/review.json`, packageReviewById.get(definition.id))
+  }
   writeJson(`data/packages/${definition.path}/query-ledger.json`, queryLedger)
-  const packageClaims = claims.filter((claim) => ownerForClaim(claim) === definition.id)
-  const packageProfiles = profiles.filter((profile) => packageEntities.some((entity) => entity.id === profile.treeNodeId))
   writeJson(`data/packages/${definition.path}/entities.json`, {
     registry: 'data/registry/entities/entities.json',
     entityIds: packageEntities.map((entity) => entity.id),
@@ -393,11 +430,70 @@ for (const definition of packageDefinitions) {
     rootEntityIds: definition.rootEntityIds,
     relationships: packageEntities.map((entity) => ({ id: entity.id, parentId: entity.parentId, relationshipKind: entity.parentRelationshipKind })),
   })
-  writeJson(`data/packages/${definition.path}/ranges.json`, canonicalRanges.filter((range) => packageEntities.some((entity) => entity.id === range.entityId)))
+  writeJson(`data/packages/${definition.path}/ranges.json`, packageRanges)
   writeJson(`data/packages/${definition.path}/evidence/claim-ids.json`, packageClaims.map((claim) => claim.id))
   writeJson(`data/packages/${definition.path}/events.json`, packageClaims.filter((claim) => claim.subjectId.startsWith('event:')).map((claim) => claim.subjectId.slice(6)))
-  writeJson(`data/packages/${definition.path}/stories.json`, publishedStories.filter((story) => story.steps.some((step) => (step.taxonIds ?? []).some((id) => packageForEntity(id) === definition.id))).map((story) => story.id))
-  writeJson(`data/packages/${definition.path}/media.json`, media.filter((asset) => packageForEntity(asset.taxonId) === definition.id).map((asset) => asset.id))
+  writeJson(`data/packages/${definition.path}/stories.json`, packageStoryIds)
+  writeJson(`data/packages/${definition.path}/media.json`, packageMediaIds)
+  writeJson(`data/packages/${definition.path}/references.json`, packageReferences)
+  writeJson(`data/packages/${definition.path}/research-examples.json`, {
+    schemaVersion: 1,
+    packageId: definition.id,
+    examples: definition.id === 'perissodactyla'
+      ? [{
+          id: 'perissodactyla-lineage-comparison',
+          type: 'comparison',
+          title: { en: 'Aquatic browsing and giant terrestrial browsing comparison', zh: '水栖取食与巨型陆栖取食比较' },
+          description: {
+            en: 'A reproducible entry point for comparing two richly described lineages without treating the interface as a phylogenetic result.',
+            zh: '用于比较两个具有丰富档案的谱系的可复现入口；界面本身不构成系统发育结论。',
+          },
+          route: '#/compare?left=metamynodon&right=paraceratherium',
+          entityIds: ['metamynodon', 'paraceratherium'],
+          claimIds: packageClaims.filter((claim) => ['taxon:metamynodon', 'taxon:paraceratherium'].includes(claim.subjectId)).map((claim) => claim.id),
+          evidenceStatus: 'available-with-limitations',
+          limitations: ['Comparison fields inherit each claim, range and occurrence source boundary; visible differences are not tests of evolutionary causation.'],
+        }]
+      : [{
+          id: `${definition.id}-tree-preset`,
+          type: 'explorer-preset',
+          title: { en: `${definition.title} tree context`, zh: `${definition.titleZh}树状背景` },
+          description: {
+            en: 'A stable Explorer entry point for inspecting the package registry context and currently available occurrence evidence.',
+            zh: '用于检查该内容包注册表背景和当前可用出现证据的稳定探索器入口。',
+          },
+          route: `#/explore?taxon=${encodeURIComponent(definition.rootEntityIds[0])}&view=tree`,
+          entityIds: [definition.rootEntityIds[0]],
+          claimIds: [],
+          evidenceStatus: 'scaffold',
+          limitations: ['This preset is a navigation and data-inspection example, not a reviewed scientific conclusion.'],
+        }],
+  })
+  writeJson(`data/packages/${definition.path}/phylogeny/status.json`, definition.id === 'perissodactyla'
+    ? {
+        schemaVersion: 1,
+        packageId: definition.id,
+        status: 'available',
+        topologyPath: 'phylogeny/hypothesis.json',
+        scopeEntityIds: definition.rootEntityIds,
+        statement: {
+          en: 'A scoped, topology-only hypothesis is published for this package; its branch lengths do not represent time.',
+          zh: '本内容包发布了一棵有范围限定、仅表示拓扑的假说树；分支长度不表示时间。',
+        },
+        limitations: ['Treat the hypothesis as one explicit representation and inspect its source and calibration records separately.'],
+      }
+    : {
+        schemaVersion: 1,
+        packageId: definition.id,
+        status: 'unmapped',
+        topologyPath: null,
+        scopeEntityIds: definition.rootEntityIds,
+        statement: {
+          en: 'No package-specific phylogenetic hypothesis has been curated. The global atlas tree is navigation context only.',
+          zh: '尚未整理本内容包专属的系统发育假说；全局图谱树仅作为导航背景。',
+        },
+        limitations: ['Do not interpret navigation-parent edges or branch lengths as a reviewed phylogenetic hypothesis.'],
+      })
   writeJson(`data/packages/${definition.path}/locales/zh.json`, {
     language: 'zh',
     version: DATASET_PACKAGE_VERSION,

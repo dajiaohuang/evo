@@ -1,0 +1,52 @@
+[
+  {
+    "id": "pbdb-api-2016",
+    "title": "The Paleobiology Database application programming interface",
+    "authors": "Peters, S.E.; McClennen, M.",
+    "publishedYear": 2016,
+    "type": "paper",
+    "url": "https://www.cambridge.org/core/journals/paleobiology/article/the-paleobiology-database-application-programming-interface/4D20F5CAFA1B0AC7033975418668D82B",
+    "doi": "10.1017/pab.2015.39",
+    "publisher": "Paleobiology",
+    "sourceRole": "occurrence-database",
+    "fitnessFor": [
+      "taxonomy",
+      "range",
+      "occurrence"
+    ],
+    "metadataAssignment": "automated"
+  },
+  {
+    "id": "pbdb-taxa-2026-07-19",
+    "title": "Denormalized occurrence and taxon tables of the Paleobiology Database",
+    "authors": "The Paleobiology Database Community; Kocsis, Á.T.",
+    "publishedYear": 2026,
+    "type": "dataset",
+    "url": "https://zenodo.org/records/21620933",
+    "doi": "10.5281/zenodo.21620933",
+    "publisher": "Zenodo",
+    "datasetSnapshot": "PBDB full taxon table downloaded 2026-07-19; pbdb_taxa_csv.zip MD5 fca5fde5e8d5922d06fe332a42b955f9",
+    "sourceRole": "occurrence-database",
+    "fitnessFor": [
+      "taxonomy",
+      "range",
+      "occurrence"
+    ],
+    "metadataAssignment": "automated"
+  },
+  {
+    "id": "open-tree",
+    "title": "Open Tree of Life web services",
+    "authors": "OpenTreeOfLife Project",
+    "type": "database",
+    "url": "https://opentreeoflife.github.io/use",
+    "accessedAt": "2026-08-18",
+    "note": "Topology and taxonomy context; divergence dates require separate evidence.",
+    "sourceRole": "taxonomic-database",
+    "fitnessFor": [
+      "taxonomy",
+      "topology"
+    ],
+    "metadataAssignment": "automated"
+  }
+]

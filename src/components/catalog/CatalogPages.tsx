@@ -1,4 +1,4 @@
-import { useEffect } from 'react'
+import { useEffect, useState } from 'react'
 import claimStatementsZh from '../../../data/evidence/claim-statements.zh.json'
 import {
   evolutionEvents,
@@ -11,20 +11,22 @@ import {
   getCalibrationsForTaxon,
   taxonProfiles,
 } from '../../services/catalog'
-import { getClaimsForSubject } from '../../services/evidence'
-import { buildEvidenceIssueUrl, getEntityPublication, scientificMaturityLabel } from '../../services/publication'
+import { evidenceClaims, getClaimsForSubject } from '../../services/evidence'
+import { buildEvidenceIssueUrl, getEntityPublication, reviewStatusLabel, scientificMaturityLabel } from '../../services/publication'
 import { loadPackageForEntity } from '../../data-client/staticDataClient'
 import { EvidenceStatus } from '../common/EvidenceStatus'
 import { useAppStore } from '../../store'
 import type { AppRoute } from '../../utils/routing'
 import type { ConfidenceLevel, EvidenceClaim, ReferenceRecord } from '../../types'
 import { useI18n } from '../../i18n'
+import { StoryBuilder, StoryLearningPanel } from './StoryStudio'
 import './CatalogPages.css'
 
 const generatedClaimStatementsZh = claimStatementsZh as Record<string, string>
 
 interface CatalogPageProps {
   id: string | null
+  params?: URLSearchParams
   onNavigate: (route: AppRoute, params?: Record<string, string>) => void
 }
 
@@ -306,7 +308,7 @@ function TaxonDirectory({ onNavigate }: { onNavigate: CatalogPageProps['onNaviga
               <h2><em>{profile.scientificName}</em></h2>
               <p>{t(profile.overview)}</p>
               <small>{t(profile.rank)} · {formatAge(profile.firstAppearance, t('Present'))}—{formatAge(profile.lastAppearance, t('Present'))}</small>
-              {publication && <small className={`directory-maturity directory-maturity--${publication.scientificMaturity}`}>{t(scientificMaturityLabel(publication.scientificMaturity))} · {t('No human scientific review')}</small>}
+              {publication && <small className={`directory-maturity directory-maturity--${publication.scientificMaturity}`}>{t(scientificMaturityLabel(publication.scientificMaturity))} · {t(reviewStatusLabel(publication.reviewStatus))}</small>}
             </button>
           )
         })}
@@ -402,8 +404,9 @@ function EventDirectory({ onNavigate }: { onNavigate: CatalogPageProps['onNaviga
   )
 }
 
-export function StoriesPage({ id, onNavigate }: CatalogPageProps) {
+export function StoriesPage({ id, params, onNavigate }: CatalogPageProps) {
   const { language, t } = useI18n()
+  if (id === 'builder') return <StoryBuilder encodedDraft={params?.get('draft')} onNavigate={onNavigate} />
   const story = getEvolutionStory(id)
   if (!story) return <StoryDirectory onNavigate={onNavigate} />
   if (story.evidenceStatus === 'blocked-pending-step-evidence') {
@@ -455,18 +458,47 @@ export function StoriesPage({ id, onNavigate }: CatalogPageProps) {
             <aside className="story-step__meta">
               <span>{t('Window')}</span>
               <strong>{formatAge(step.timeRange[0], t('Present'))}<br />{formatAge(step.timeRange[1], t('Present'))}</strong>
-              <span>{t('Evidence claims')}</span>
-              <strong>{step.claimLinks.length}</strong>
+              <span>{t('Claims / sources')}</span>
+              <strong>{step.claimLinks.length} / {new Set(step.claimLinks.flatMap((link) => evidenceClaims.find((claim) => claim.id === link.claimId)?.referenceLinks.map((referenceLink) => referenceLink.referenceId) ?? [])).size}</strong>
             </aside>
           </article>
         ))}
       </div>
+      <StoryLearningPanel story={story} />
     </main>
   )
 }
 
 function StoryDirectory({ onNavigate }: { onNavigate: CatalogPageProps['onNavigate'] }) {
   const { language, t } = useI18n()
+  const [facet, setFacet] = useState('all')
+  const publishedStories = evolutionStories.filter((story) => story.evidenceStatus === 'available-with-limitations')
+  const eraForStory = (story: (typeof publishedStories)[number]) => {
+    const oldestStep = Math.max(...story.steps.map((step) => step.age))
+    if (oldestStep > 538.8) return 'Precambrian'
+    if (oldestStep > 251.902) return 'Paleozoic'
+    if (oldestStep > 66) return 'Mesozoic'
+    return 'Cenozoic'
+  }
+  const eras = [...new Set(publishedStories.map(eraForStory))]
+  const taxa = [...new Set(publishedStories.flatMap((story) => story.steps.flatMap((step) => step.taxonIds)))]
+  const themes = [...new Set(publishedStories.map((story) => story.theme))]
+  const filteredStories = publishedStories.filter((story) => {
+    const [kind, value] = facet.split(':')
+    if (facet === 'all') return true
+    if (kind === 'era') return eraForStory(story) === value
+    if (kind === 'taxon') return story.steps.some((step) => step.taxonIds.includes(value))
+    if (kind === 'theme') return story.theme === value
+    return true
+  })
+  const taxonName = (id: string) => {
+    const profile = getTaxonProfile(id)
+    return profile ? (language === 'zh' ? profile.commonNameZh : profile.commonName) : id
+  }
+  const courses = [
+    { id: 'herbivore-change', title: t('Deep-time herbivore change'), description: t('A two-story sequence on radiation, turnover and why ecological succession is not ancestry.'), storyIds: ['rise-and-fall-perissodactyls', 'ungulate-guild-turnover'] },
+    { id: 'evidence-practice', title: t('Reading evidence and uncertainty'), description: t('Use habitat and locomotor cases to practice separating observations, interpretations and missing evidence.'), storyIds: ['semi-aquatic-ungulates', 'horse-forest-to-grassland'] },
+  ]
   return (
     <main className="catalog-page directory-page story-directory-page">
       <header className="directory-hero">
@@ -474,8 +506,15 @@ function StoryDirectory({ onNavigate }: { onNavigate: CatalogPageProps['onNaviga
         <h1>{t('Follow an argument through deep time.')}</h1>
         <p>{t('Every chapter is a real Explorer state with a time window, primary view, highlighted evidence and reference set.')}</p>
       </header>
+      <div className="story-builder-callout"><div><small>{t('Local teaching studio')}</small><h2>{t('Build from real Explorer states')}</h2><p>{t('Save in this browser, import or export JSON, derive citations and share an embeddable draft without a server.')}</p></div><button onClick={() => onNavigate('stories', { id: 'builder' })}>{t('Open Story Builder')} →</button></div>
+      <section className="story-facets" aria-label={t('Group stories by era, taxon and theme')}>
+        <div><small>{t('All')}</small><button className={facet === 'all' ? 'is-active' : ''} aria-pressed={facet === 'all'} onClick={() => setFacet('all')}>{t('All published stories')} · {publishedStories.length}</button></div>
+        <div><small>{t('By era')}</small>{eras.map((era) => <button key={era} className={facet === `era:${era}` ? 'is-active' : ''} aria-pressed={facet === `era:${era}`} onClick={() => setFacet(`era:${era}`)}>{t(era)}</button>)}</div>
+        <div><small>{t('By taxon')}</small>{taxa.map((taxonId) => <button key={taxonId} className={facet === `taxon:${taxonId}` ? 'is-active' : ''} aria-pressed={facet === `taxon:${taxonId}`} onClick={() => setFacet(`taxon:${taxonId}`)}>{taxonName(taxonId)}</button>)}</div>
+        <div><small>{t('By theme')}</small>{themes.map((theme) => <button key={theme} className={facet === `theme:${theme}` ? 'is-active' : ''} aria-pressed={facet === `theme:${theme}`} onClick={() => setFacet(`theme:${theme}`)}>{t(theme)}</button>)}</div>
+      </section>
       <div className="story-directory">
-        {evolutionStories.filter((story) => story.evidenceStatus === 'available-with-limitations').map((story, index) => (
+        {filteredStories.map((story, index) => (
           <button key={story.id} className={`story-directory__card story-directory__card--${story.theme}`} onClick={() => onNavigate('stories', { id: story.id })}>
             <div className="story-directory__top"><span>{String(index + 1).padStart(2, '0')}</span><small>{story.durationMinutes} {language === 'zh' ? '分钟' : 'min'}</small></div>
             <div><h2>{language === 'zh' ? story.titleZh : story.title}</h2><p>{t(story.dek)}</p></div>
@@ -483,6 +522,10 @@ function StoryDirectory({ onNavigate }: { onNavigate: CatalogPageProps['onNaviga
           </button>
         ))}
       </div>
+      <section className="story-courses">
+        <header><small>{t('Course collections')}</small><h2>{t('Teach with an evidence-bound sequence.')}</h2><p>{t('Collections order published stories; each chapter still opens its own claim-linked Explorer states.')}</p></header>
+        <div>{courses.map((course, courseIndex) => <article key={course.id}><span>{String(courseIndex + 1).padStart(2, '0')}</span><h3>{course.title}</h3><p>{course.description}</p><ol>{course.storyIds.map((storyId) => { const story = publishedStories.find((entry) => entry.id === storyId); return story ? <li key={story.id}><button onClick={() => onNavigate('stories', { id: story.id })}>{language === 'zh' ? story.titleZh : story.title}<i>→</i></button></li> : null })}</ol></article>)}</div>
+      </section>
     </main>
   )
 }

@@ -8,6 +8,8 @@ function setup() {
     allIntervals: [],
     currentAge: 66,
     currentPeriod: null,
+    currentEpoch: null,
+    currentAgeUnit: null,
     currentEra: null,
     currentEon: null,
     intervalsLoading: false,
@@ -62,6 +64,8 @@ describe('createTimelineSlice', () => {
     set({
       allIntervals: [
         { oid: 'p1', nam: 'Cretaceous', itp: 'period', lag: 66, eag: 145, col: '#0f0', pid: 'era1' },
+        { oid: 'ep1', nam: 'Upper Cretaceous', itp: 'epoch', lag: 66, eag: 100.5, col: '#0a0', pid: 'p1' },
+        { oid: 'a1', nam: 'Maastrichtian', itp: 'age', lag: 66, eag: 72.1, col: '#090', pid: 'ep1' },
         { oid: 'era1', nam: 'Mesozoic', itp: 'era', lag: 66, eag: 251.9, col: '#00f', pid: null },
         { oid: 'eon1', nam: 'Phanerozoic', itp: 'eon', lag: 0, eag: 538.8, col: '#0ff', pid: null },
       ],
@@ -69,6 +73,8 @@ describe('createTimelineSlice', () => {
     slice.setTime(100)
     expect(get().currentAge).toBe(100)
     expect(get().currentPeriod).toBe('Cretaceous')
+    expect(get().currentEpoch).toBe('Upper Cretaceous')
+    expect(get().currentAgeUnit).toBeNull()
     expect(get().currentEra).toBe('Mesozoic')
     expect(get().currentEon).toBe('Phanerozoic')
   })
@@ -78,6 +84,10 @@ describe('createTimelineSlice', () => {
 
     expect(get().allIntervals.length).toBeGreaterThan(12)
     expect(get().allIntervals.some((interval) => interval.nam === 'Cretaceous')).toBe(true)
+    expect(get().allIntervals.some((interval) => interval.nam === 'Maastrichtian')).toBe(true)
+    slice.setTime(70)
+    expect(get().currentEpoch).toBe('Upper Cretaceous')
+    expect(get().currentAgeUnit).toBe('Maastrichtian')
     expect(get().intervalsLoading).toBe(false)
     expect(get().intervalsError).toBeNull()
   })
@@ -88,6 +98,8 @@ describe('createTimelineSlice', () => {
     expect(get().currentEon).toBe('Archean')
     expect(get().currentEra).toBe('Paleoarchean')
     expect(get().currentPeriod).toBeNull()
+    expect(get().currentEpoch).toBeNull()
+    expect(get().currentAgeUnit).toBeNull()
   })
 
   it('loadIntervals skips if already loaded', async () => {

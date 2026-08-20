@@ -34,7 +34,7 @@ test('global search indexes structured Chinese ontology and interval names', asy
   await expect(page.getByRole('button', { name: /哺乳动物.*Mammalia/ })).toBeVisible()
 
   await search.fill('侏罗纪')
-  await expect(page.getByRole('button', { name: /侏罗纪.*中生代/ })).toBeVisible()
+  await expect(page.getByRole('button', { name: /侏罗纪.*Jurassic/ })).toBeVisible()
 })
 
 test('Data Lab localizes validation errors and reports export completion', async ({ page }) => {

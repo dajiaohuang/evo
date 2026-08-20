@@ -20,7 +20,6 @@ export interface RuntimeEntity {
   synonyms: string[]
   rank: string
   evidenceStatus: 'strong' | 'moderate' | 'contextual' | 'contested'
-  review: { status: string; scientificPeerReview: boolean }
 }
 
 export interface RuntimeEntityLinkageCoverage {
@@ -45,9 +44,9 @@ export interface RuntimePackageRegistryEntry {
   titleZh: string
   wave: string
   platformMaturity: 'generated' | 'validated' | 'published'
-  scientificMaturity: 'core' | 'generated-scaffold' | 'curator-draft' | 'source-complete' | 'expert-reviewed' | 'published-featured'
+  scientificMaturity: 'generated-scaffold' | 'structured' | 'source-linked' | 'curated-draft' | 'published'
   automatedReviewStatus: 'pending' | 'passed' | 'failed'
-  scientificReviewStatus: 'not-reviewed' | 'in-review' | 'expert-reviewed'
+  reviewStatus: 'not-reviewed' | 'in-review' | 'reviewed-with-caveats' | 'reviewed'
   entityCount: number
   runtimePath: string
 }
@@ -82,7 +81,17 @@ export interface RuntimePackageManifest {
   platformMaturity: RuntimePackageRegistryEntry['platformMaturity']
   scientificMaturity: RuntimePackageRegistryEntry['scientificMaturity']
   automatedReviewStatus: RuntimePackageRegistryEntry['automatedReviewStatus']
-  scientificReviewStatus: RuntimePackageRegistryEntry['scientificReviewStatus']
+  reviewStatus: RuntimePackageRegistryEntry['reviewStatus']
+  effectiveReviewStatus: RuntimePackageRegistryEntry['reviewStatus'] | 'stale'
+  reviewFreshness: 'not-applicable' | 'current' | 'stale'
+  reviewedBy: string | null
+  reviewedAt: string | null
+  reviewedCommit: string | null
+  reviewedContentDigest: string | null
+  currentContentDigest: string
+  chatgptAssisted: boolean
+  reviewScope: string[]
+  reviewOpenIssues: string[]
   entityCount: number
   profileCount: number
   claimCount: number

@@ -1,7 +1,8 @@
-import { useEffect, useState, type FormEvent } from 'react'
+import { useEffect, useState, type ChangeEvent, type FormEvent } from 'react'
 import { getEvolutionEvent, getTaxonProfile, taxonProfiles } from '../../services/catalog'
 import {
   downloadQueryPackage,
+  diffLabQueries,
   LabQueryError,
   runLabQuery,
   type LabQuery,
@@ -13,9 +14,12 @@ import type { FossilOccurrence } from '../../types'
 import { getSpatialPosition, type CoordinateMode } from '../../utils/spatial'
 import type { AppRoute } from '../../utils/routing'
 import { listSavedLabQueries, saveLabQuery, type SavedLabQuery } from '../../services/workspaceDb'
+import { parseUserDataset, type UserDataPreview } from '../../services/userData'
 import './WorkbenchPages.css'
 import { useI18n } from '../../i18n'
 import manifest from '../../../data/manifest.json'
+import { LocalResearchWorkspace } from './LocalResearchWorkspace'
+import { DatasetVersionComparison } from './DatasetVersionComparison'
 
 interface WorkbenchProps {
   params: URLSearchParams
@@ -29,6 +33,8 @@ const defaultQuery: LabQuery = {
   periods: ['Cretaceous'],
   taxon: '',
   country: '',
+  formation: '',
+  collection: '',
   olderMa: null,
   youngerMa: null,
   limit: 1000,
@@ -173,6 +179,8 @@ export function LabPage({ params }: WorkbenchProps) {
     ...defaultQuery,
     taxon: params.get('taxon') ?? '',
     country: params.get('country') ?? '',
+    formation: params.get('formation') ?? '',
+    collection: params.get('collection') ?? '',
   }))
   const [result, setResult] = useState<LabResult | null>(null)
   const [loading, setLoading] = useState(false)
@@ -181,6 +189,8 @@ export function LabPage({ params }: WorkbenchProps) {
   const [coordinateMode, setCoordinateMode] = useState<CoordinateMode>('paleo')
   const [queryHistory, setQueryHistory] = useState<SavedLabQuery[]>([])
   const [exportStatus, setExportStatus] = useState<ExportStatus>('idle')
+  const [userData, setUserData] = useState<UserDataPreview | null>(null)
+  const [userDataError, setUserDataError] = useState<string | null>(null)
 
   useEffect(() => {
     void listSavedLabQueries().then(setQueryHistory).catch(() => setQueryHistory([]))
@@ -226,6 +236,20 @@ export function LabPage({ params }: WorkbenchProps) {
     }))
   }
 
+  const importUserFile = async (event: ChangeEvent<HTMLInputElement>) => {
+    const file = event.target.files?.[0]
+    if (!file) return
+    setUserDataError(null)
+    try {
+      setUserData(await parseUserDataset(file))
+    } catch (caught) {
+      setUserData(null)
+      setUserDataError(caught instanceof Error ? caught.message : t('Import failed'))
+    } finally {
+      event.target.value = ''
+    }
+  }
+
   return (
     <main className="workbench-page lab-page">
       <header className="workbench-hero">
@@ -233,6 +257,8 @@ export function LabPage({ params }: WorkbenchProps) {
         <h1>{t('Ask a bounded question of the fossil record.')}</h1>
         <p>{t('Build a reproducible query against 13,600 bounded, non-random PBDB API-prefix rows. Filtering and export happen locally in your browser.')}</p>
       </header>
+
+      <DatasetVersionComparison />
 
       <div className="lab-layout">
         <form className="query-builder" onSubmit={execute}>
@@ -246,6 +272,16 @@ export function LabPage({ params }: WorkbenchProps) {
           <label className="query-field">
             <span>{t('Country code')}</span>
             <input value={query.country} onChange={(event) => setQuery({ ...query, country: event.target.value.toUpperCase().slice(0, 2) })} placeholder={t('e.g. CN')} maxLength={2} />
+          </label>
+
+          <label className="query-field">
+            <span>{t('Formation or member contains')}</span>
+            <input value={query.formation ?? ''} onChange={(event) => setQuery({ ...query, formation: event.target.value })} placeholder={t('e.g. Hell Creek')} />
+          </label>
+
+          <label className="query-field">
+            <span>{t('Collection or locality ID contains')}</span>
+            <input value={query.collection ?? ''} onChange={(event) => setQuery({ ...query, collection: event.target.value })} placeholder={t('e.g. col:')} />
           </label>
 
           <div className="query-field">
@@ -276,11 +312,32 @@ export function LabPage({ params }: WorkbenchProps) {
             <div><span>{t('Local workspace')}</span><small>{t('IndexedDB · latest {count}', { count: queryHistory.length })}</small></div>
             {queryHistory.slice(0, 4).map((saved) => (
               <button type="button" key={saved.id} onClick={() => setQuery(saved.query)}>
-                <span>{saved.query.taxon || saved.query.country || saved.query.periods.map((period) => t(period)).join(', ') || t('All occurrences')}</span>
+                <span>{saved.query.taxon || saved.query.formation || saved.query.collection || saved.query.country || saved.query.periods.map((period) => t(period)).join(', ') || t('All occurrences')}</span>
                 <small>{saved.datasetVersion === manifest.datasetVersion ? number(saved.matched) : t('rerun required')} · {new Date(saved.savedAt).toLocaleDateString(language === 'zh' ? 'zh-CN' : 'en-US')}</small>
               </button>
             ))}
+            {queryHistory.length >= 2 && (
+              <details className="query-diff">
+                <summary>{t('Compare the two latest queries')}</summary>
+                {diffLabQueries(queryHistory[1].query, queryHistory[0].query).map((change) => (
+                  <p key={change.field}><strong>{change.field}</strong><span>{JSON.stringify(change.left)} → {JSON.stringify(change.right)}</span></p>
+                ))}
+              </details>
+            )}
             {queryHistory.length === 0 && <p>{t('Completed queries will be saved only in this browser.')}</p>}
+          </div>
+          <div className="local-import">
+            <div><span>{t('Local user data')}</span><small>{t('Never uploaded')}</small></div>
+            <label><input type="file" accept=".csv,.json,.geojson,text/csv,application/json,application/geo+json" onChange={(event) => void importUserFile(event)} /><span>{t('Import CSV, JSON or GeoJSON')}</span></label>
+            {userDataError && <p role="alert">{userDataError}</p>}
+            {userData && (
+              <section>
+                <strong>{t('{count} local records validated', { count: number(userData.recordCount) })}</strong>
+                <span>{t('{matched} atlas entities matched · {fields} fields', { matched: number(userData.matchedEntityIds.length), fields: number(userData.fields.length) })}</span>
+                {userData.unmatchedNames.length > 0 && <small>{t('Unmatched names')}: {userData.unmatchedNames.slice(0, 4).join(', ')}</small>}
+                {userData.issues.map((issue) => <small key={issue}>{issue}</small>)}
+              </section>
+            )}
           </div>
         </form>
 
@@ -318,7 +375,8 @@ export function LabPage({ params }: WorkbenchProps) {
                 {view === 'latitude' && <LatitudeChart records={result.records} coordinateMode={coordinateMode} />}
                 {view === 'map' && <ResultMap records={result.records} coordinateMode={coordinateMode} />}
               </div>
-              <div className="reproducibility-strip"><span>{t('Export contains')}</span><strong>query.json · results.csv/json · separate paleo/modern GeoJSON · README · citations.bib · dataset-manifest.json · release.json</strong></div>
+              <div className="reproducibility-strip"><span>{t('Export contains')}</span><strong>query.json · CSV / JSON / GeoJSON · chart.svg · citations JSON / BibTeX · methods.md · dataset manifest · checksums.txt</strong></div>
+              <LocalResearchWorkspace result={result} query={query} userData={userData} onRestoreQuery={setQuery} />
             </>
           )}
         </section>

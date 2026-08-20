@@ -20,7 +20,7 @@ import type {
   EvidenceClaim,
 } from '../types/catalog'
 import type { TreeNode } from '../types/tree'
-import { periods } from './geology'
+import { periods, timeScaleUnits } from './geology'
 import { getEntityPublication } from './publication'
 
 export const taxonProfiles = profilesData as TaxonProfile[]
@@ -209,19 +209,21 @@ export function searchCatalog(rawQuery: string, limit = 16): SearchResult[] {
     })
   }
 
-  for (const period of periods) {
-    const keywords = `${period.name} ${period.nameZh} ${period.abr} ${period.era} ${period.eraZh} ${period.eon} ${period.eonZh} ${period.description} ${period.descriptionZh}`
+  for (const unit of timeScaleUnits) {
+    const period = periods.find((entry) => entry.name === unit.nam)
+    const parent = timeScaleUnits.find((entry) => entry.oid === unit.pid)
+    const keywords = `${unit.nam} ${unit.namZh ?? ''} ${unit.abr ?? ''} ${unit.itp} ${parent?.nam ?? ''} ${parent?.namZh ?? ''} ${period?.description ?? ''} ${period?.descriptionZh ?? ''}`
     const resultScore = score(searchable(keywords), query)
     if (resultScore > 0) candidates.push({
-      id: period.name.toLowerCase(),
+      id: unit.oid.split(':').at(-1) ?? unit.oid,
       kind: 'interval',
-      title: period.name,
-      titleZh: period.nameZh,
-      subtitle: `${period.era} · ${period.eag}–${period.lag} Ma`,
-      subtitleZh: `${period.eraZh} · ${period.eag}–${period.lag} Ma`,
+      title: unit.nam,
+      titleZh: unit.namZh ?? unit.nam,
+      subtitle: `${unit.itp} · ${unit.eag}–${unit.lag} Ma`,
+      subtitleZh: `${unit.itp} · ${unit.eag}–${unit.lag} Ma`,
       keywords,
-      route: `#/explore?age=${((period.eag + period.lag) / 2).toFixed(1)}&view=diversity`,
-      score: resultScore + 1,
+      route: `#/explore?age=${((unit.eag + unit.lag) / 2).toFixed(3)}&view=diversity`,
+      score: resultScore + (unit.itp === 'period' ? 1 : 0),
     })
   }
 

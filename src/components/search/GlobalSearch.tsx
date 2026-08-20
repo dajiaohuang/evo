@@ -41,7 +41,7 @@ export function GlobalSearch({ onNavigate }: GlobalSearchProps) {
         setStaticResults(entries.filter((entry) => entry.route).map((entry) => {
           const kind: SearchResultKind = entry.kind === 'event' ? 'event'
             : entry.kind === 'story' ? 'story'
-              : entry.kind === 'period' ? 'interval'
+              : entry.kind === 'period' || entry.kind === 'interval' ? 'interval'
                 : entry.kind === 'place' ? 'place'
                   : entry.kind === 'profile' ? 'taxon'
                     : 'tree'

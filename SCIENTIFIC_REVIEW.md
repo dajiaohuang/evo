@@ -1,42 +1,16 @@
-# Scientific review protocol
+# Scientific content and maintainer review
 
-Scientific review is a recorded human decision about a defined content scope. It is separate from schema, linkage, checksum, translation and build validation.
+The authoritative workflow is [docs/review-workflow.md](docs/review-workflow.md).
 
-## Maturity ladder
+Evo Atlas deliberately separates four statements that are easy to conflate:
 
-1. `generated-scaffold` — identity, hierarchy and bilingual structure are present; scientific narrative remains provisional.
-2. `curator-draft` — the project curator has linked visible claims to sources and exposed known gaps.
-3. `source-complete` — every required claim type has an appropriate source role, fitness category and concrete locator.
-4. `expert-reviewed` — a named domain specialist has reviewed a stated scope against an exact dataset version and recorded an acceptance decision and conflict statement.
-5. `published-featured` — the expert-reviewed scope also passes public narrative, reproducibility, accessibility and stable-URL gates.
+1. automated engineering checks passed;
+2. scientific content reached a stated maturity level;
+3. the maintainer reviewed an exact content digest, optionally with ChatGPT assistance;
+4. an external domain expert performed peer review.
 
-## Required review record
+Only the third statement is represented by package `review.json`. The current workflow does not create an external-expert badge or identity system. ChatGPT can identify evidence, consistency, translation, and citation problems, but only the maintainer records the final status.
 
-A human review record must include:
+The review packet is the audit boundary. Every finding must identify a file, object ID, field, current content, problem, reasoning, suggested change, and severity. Unsupported statements remain unconfirmed; they are never promoted by inference.
 
-- reviewer name and identity type;
-- relevant expertise;
-- ORCID when available (required for `published-featured`);
-- exact review scope, including entity, field and claim IDs where partial;
-- reviewed dataset version and review date;
-- one decision: `accepted`, `accepted-with-reservations` or `changes-requested`;
-- decision notes and unresolved disputes;
-- conflict-of-interest disclosure.
-
-An automated record uses `automated-audit-only`, sets `scientificPeerReview` to `false` and cannot advance scientific maturity.
-
-## Claim and field checks
-
-For each reviewed visible field, confirm its content origin (`source-derived-fact`, `editorial-synthesis`, `automated-text` or `unavailable`), claim type, supporting or contradicting relation, source fitness and locator. Shared broad bibliographies are insufficient when a claim-specific source is available.
-
-## Partial and disputed reviews
-
-Record the narrowest accepted scope. A reviewer may accept taxonomy while requesting changes to ecology; the unresolved scope stays unreviewed. Contradictory evidence remains visible and should use contested confidence or an explicit rationale.
-
-## Perissodactyla exit criteria
-
-- All 17 package entities have their concept, parent relationship and scope checked.
-- All ten profiles have visible-field origin and claim mappings checked.
-- Required taxonomy, range, morphology, ecology and biogeography claims have fit sources and concrete locators.
-- The flagship story is checked step by step through claim, reference and Explorer state.
-- The exact package review record is signed by a qualified human reviewer.
+Perissodactyla is the first packet-based review pilot. `in-review` means a packet snapshot exists, not that the package has passed review.

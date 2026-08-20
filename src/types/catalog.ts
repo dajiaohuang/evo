@@ -130,7 +130,7 @@ export interface SearchResult {
   subtitleZh?: string
   keywords: string
   route: string
-  scientificMaturity?: 'core' | 'generated-scaffold' | 'curator-draft' | 'source-complete' | 'expert-reviewed' | 'published-featured'
+  scientificMaturity?: 'generated-scaffold' | 'structured' | 'source-linked' | 'curated-draft' | 'published'
 }
 
 export interface PlaceRecord {

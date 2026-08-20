@@ -1,5 +1,5 @@
 import manifest from '../../../data/manifest.json'
-import { evolutionEvents, evolutionStories, taxonProfiles } from '../../services/catalog'
+import { evolutionEvents, taxonProfiles } from '../../services/catalog'
 import { buildEvidenceIssueUrl, getPackagePublication, publicationPackages, scientificMaturityLabel } from '../../services/publication'
 import type { AppRoute } from '../../utils/routing'
 import { useI18n } from '../../i18n'
@@ -12,16 +12,17 @@ interface PortalPageProps {
 
 const maturityStages = [
   ['generated-scaffold', 'Structure and bilingual identity are available; scientific content remains provisional.'],
-  ['curator-draft', 'Claims and sources are linked by the project curator; human domain review is pending.'],
-  ['source-complete', 'Required claim types have fit sources and concrete locators.'],
-  ['expert-reviewed', 'A named domain specialist has recorded a decision, scope and conflict statement.'],
-  ['published-featured', 'Expert-reviewed content passes the public-feature and reproducibility gates.'],
+  ['structured', 'Package scope, entity relationships, ranges, provenance and limitations are structurally complete.'],
+  ['source-linked', 'Public scientific fields resolve to claims and fit sources.'],
+  ['curated-draft', 'The maintainer has deepened and reconciled the package, while publication caveats remain visible.'],
+  ['published', 'Source-linked content has a current digest-bound maintainer review and passes public release gates.'],
 ] as const
 
 export function CatalogHubPage({ onNavigate }: PortalPageProps) {
   const { language, t } = useI18n()
   const flagship = getPackagePublication('perissodactyla')
   const scaffolds = publicationPackages.filter((entry) => entry.scientificMaturity === 'generated-scaffold')
+  const staticCatalogBase = `${import.meta.env.BASE_URL}${language === 'zh' ? 'zh/' : ''}`
 
   return (
     <main className="portal-page">
@@ -45,16 +46,22 @@ export function CatalogHubPage({ onNavigate }: PortalPageProps) {
           <article><strong>{manifest.records.references}</strong><span>{t('linked references')}</span></article>
           <article><strong>{t('Pending')}</strong><span>{t('named human domain review')}</span></article>
         </div>
-        <p>{t('The flagship has complete paginated occurrence retrieval and claim-level source links. It remains a curator draft until a qualified human reviewer records an acceptance decision.')}</p>
+        <p>{t('The flagship has complete paginated occurrence retrieval and claim-level source links. It remains a curated draft until the maintainer completes the packet-based review and records a digest-bound decision.')}</p>
         <button className="text-action" onClick={() => onNavigate('taxa', { id: 'perissodactyla' })}>{t('Open the flagship dossier')} →</button>
       </section>
 
       <section className="portal-section">
         <div className="portal-section__heading"><span>02</span><div><small>{t('Ways in')}</small><h2>{t('Choose the object you need')}</h2></div></div>
-        <div className="portal-card-grid portal-card-grid--three">
-          <button onClick={() => onNavigate('taxa')}><small>{t('Taxa')}</small><h3>{taxonProfiles.length} {t('curated dossiers')}</h3><p>{t('Morphology, ecology, range evidence, claims and references.')}</p><i>→</i></button>
-          <button onClick={() => onNavigate('events')}><small>{t('Events')}</small><h3>{evolutionEvents.length} {t('bounded events')}</h3><p>{t('Observations, interpretations and unresolved questions kept separate.')}</p><i>→</i></button>
-          <button onClick={() => onNavigate('stories')}><small>{t('Stories')}</small><h3>{evolutionStories.length} {t('published stories')}</h3><p>{t('Guided arguments that resolve to reproducible Explorer states.')}</p><i>→</i></button>
+        <div className="portal-card-grid portal-card-grid--catalog">
+          <a href={`${staticCatalogBase}taxa/`}><small>{t('Taxa')}</small><h3>{manifest.records.registryEntities} {t('stable entries')}</h3><p>{t('Definitions, ranges, package ownership and evidence boundaries.')}</p><i>→</i></a>
+          <a href={`${staticCatalogBase}events/`}><small>{t('Events')}</small><h3>{evolutionEvents.length} {t('bounded events')}</h3><p>{t('Observations, interpretations and unresolved questions kept separate.')}</p><i>→</i></a>
+          <a href={`${staticCatalogBase}intervals/`}><small>{t('Geological intervals')}</small><h3>{manifest.records.timeScaleUnits} {t('versioned units')}</h3><p>{t('ICS-bound ages, hierarchy, uncertainty and source locators.')}</p><i>→</i></a>
+          <a href={`${staticCatalogBase}formations/`}><small>{t('Formations')}</small><h3>{manifest.records.formationNames} {t('stable entries')}</h3><p>{t('Filter occurrence records by named formation without implying absence.')}</p><i>→</i></a>
+          <a href={`${staticCatalogBase}localities/`}><small>{t('Localities')}</small><h3>{manifest.records.fossilCollections} {t('stable entries')}</h3><p>{t('Inspect locality and collection fields with spatial precision limits.')}</p><i>→</i></a>
+          <a href={`${staticCatalogBase}traits/`}><small>{t('Traits')}</small><h3>{manifest.records.traitTerms} {t('stable entries')}</h3><p>{t('Morphology and ecology remain linked to their package evidence.')}</p><i>→</i></a>
+          <a href={`${staticCatalogBase}references/`}><small>{t('References')}</small><h3>{manifest.records.references} {t('source records')}</h3><p>{t('Roles, fitness, identifiers and stable citation pages.')}</p><i>→</i></a>
+          <a href={`${staticCatalogBase}media/`}><small>{t('Media')}</small><h3>{manifest.records.mediaAssets} {t('rights-aware records')}</h3><p>{t('Attribution, rights and represented taxon remain visible.')}</p><i>→</i></a>
+          <a href={`${staticCatalogBase}datasets/`}><small>{t('Datasets')}</small><h3>{manifest.records.dataPackages} {t('static packages')}</h3><p>{t('Versions, checksums, review state and offline downloads.')}</p><i>→</i></a>
         </div>
       </section>
 
@@ -70,7 +77,7 @@ export function CatalogHubPage({ onNavigate }: PortalPageProps) {
         <details>
           <summary>{t('Show {count} generated scientific packages', { count: scaffolds.length })}</summary>
           <div className="scaffold-grid">
-            {scaffolds.map((entry) => <article key={entry.id}><span>{entry.id}</span><strong>{language === 'zh' ? entry.titleZh : entry.title}</strong><small>{t('Generated scaffold · no human scientific review')}</small></article>)}
+            {scaffolds.map((entry) => <article key={entry.id}><span>{entry.id}</span><strong>{language === 'zh' ? entry.titleZh : entry.title}</strong><small>{t('Generated scaffold · maintainer review not performed')}</small></article>)}
           </div>
         </details>
       </section>
@@ -109,7 +116,8 @@ export function ResearchHubPage({ onNavigate }: PortalPageProps) {
 }
 
 export function AboutPage({ onNavigate }: PortalPageProps) {
-  const { t } = useI18n()
+  const { language, t } = useI18n()
+  const staticBase = `${import.meta.env.BASE_URL}${language === 'zh' ? 'zh/' : ''}`
   return (
     <main className="portal-page">
       <header className="portal-hero portal-hero--about">
@@ -124,7 +132,7 @@ export function AboutPage({ onNavigate }: PortalPageProps) {
       <section className="portal-section portal-promise">
         <div className="portal-section__heading"><span>01</span><div><small>{t('Public promise')}</small><h2>{t('What every entry should tell you')}</h2></div></div>
         <div className="portal-card-grid">
-          {[['What is known', 'Claims are separated from interface copy and linked to fit sources.'], ['Why we think so', 'References retain roles, locators, versions and evidence relations.'], ['What remains uncertain', 'Sampling limits, conflicts and provisional ranges remain visible.'], ['How it was reviewed', 'Automated validation and human scientific review use different labels and gates.']].map(([title, description], index) => <article key={title}><small>{String(index + 1).padStart(2, '0')}</small><h3>{t(title)}</h3><p>{t(description)}</p></article>)}
+          {[['What is known', 'Claims are separated from interface copy and linked to fit sources.'], ['Why we think so', 'References retain roles, locators, versions and evidence relations.'], ['What remains uncertain', 'Sampling limits, conflicts and provisional ranges remain visible.'], ['How it was reviewed', 'Automated validation, digest-bound maintainer review, ChatGPT assistance and external expert review are disclosed separately.']].map(([title, description], index) => <article key={title}><small>{String(index + 1).padStart(2, '0')}</small><h3>{t(title)}</h3><p>{t(description)}</p></article>)}
         </div>
       </section>
       <section className="portal-section portal-community">
@@ -133,6 +141,8 @@ export function AboutPage({ onNavigate }: PortalPageProps) {
           <a href="https://github.com/dajiaohuang/evo/blob/main/CONTRIBUTING.md" target="_blank" rel="noreferrer"><strong>{t('Contributing guide')}</strong><span>{t('Code, content and translation paths')}</span></a>
           <a href="https://github.com/dajiaohuang/evo/blob/main/SCIENTIFIC_REVIEW.md" target="_blank" rel="noreferrer"><strong>{t('Scientific review protocol')}</strong><span>{t('Identity, scope, decisions and conflicts')}</span></a>
           <a href="https://github.com/dajiaohuang/evo/blob/main/ROADMAP.md" target="_blank" rel="noreferrer"><strong>{t('Public roadmap')}</strong><span>{t('Vertical slices before breadth')}</span></a>
+          <a href={`${staticBase}datasets/`}><strong>{t('Release history')}</strong><span>{t('Versioned datasets and machine-readable artifacts')}</span></a>
+          <a href="https://github.com/dajiaohuang/evo/blob/main/DATA_LICENSES.md" target="_blank" rel="noreferrer"><strong>{t('Data and content licenses')}</strong><span>{t('Source-specific rights and redistribution boundaries')}</span></a>
           <a href={buildEvidenceIssueUrl()} target="_blank" rel="noreferrer"><strong>{t('Report an evidence issue')}</strong><span>{t('Version and page context are prefilled')}</span></a>
         </div>
       </section>

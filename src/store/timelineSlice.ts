@@ -7,6 +7,8 @@ export interface TimelineSlice {
   allIntervals: GeoInterval[]
   currentAge: number
   currentPeriod: string | null
+  currentEpoch: string | null
+  currentAgeUnit: string | null
   currentEra: string | null
   currentEon: string | null
   intervalsLoading: boolean
@@ -38,6 +40,8 @@ export const createTimelineSlice = (
   allIntervals: [],
   currentAge: 66,
   currentPeriod: 'Cretaceous',
+  currentEpoch: 'Upper Cretaceous',
+  currentAgeUnit: 'Maastrichtian',
   currentEra: 'Mesozoic',
   currentEon: 'Phanerozoic',
   intervalsLoading: false,
@@ -47,11 +51,15 @@ export const createTimelineSlice = (
     const clamped = Math.max(0, Math.min(EARTH_HISTORY_TOTAL_MA, age))
     const { allIntervals } = get()
     const period = resolvePeriod(allIntervals, clamped)
+    const epoch = resolveUnit(allIntervals, clamped, 'epoch')
+    const ageUnit = resolveUnit(allIntervals, clamped, 'age')
     const era = resolveUnit(allIntervals, clamped, 'era')
     const eon = resolveUnit(allIntervals, clamped, 'eon')
     set({
       currentAge: clamped,
       currentPeriod: period?.nam ?? null,
+      currentEpoch: epoch?.nam ?? null,
+      currentAgeUnit: ageUnit?.nam ?? null,
       currentEra: era?.nam ?? null,
       currentEon: eon?.nam ?? null,
     })
@@ -63,11 +71,15 @@ export const createTimelineSlice = (
     set({ intervalsLoading: true, intervalsError: null })
     const intervals = buildLocalIntervals()
     const period = resolvePeriod(intervals, currentAge)
+    const epoch = resolveUnit(intervals, currentAge, 'epoch')
+    const ageUnit = resolveUnit(intervals, currentAge, 'age')
     const era = resolveUnit(intervals, currentAge, 'era')
     const eon = resolveUnit(intervals, currentAge, 'eon')
     set({
       allIntervals: intervals,
       currentPeriod: period?.nam ?? null,
+      currentEpoch: epoch?.nam ?? null,
+      currentAgeUnit: ageUnit?.nam ?? null,
       currentEra: era?.nam ?? null,
       currentEon: eon?.nam ?? null,
       intervalsLoading: false,

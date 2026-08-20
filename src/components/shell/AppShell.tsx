@@ -17,8 +17,9 @@ const navItems: Array<{ route: AppRoute; label: string; activeRoutes: AppRoute[]
   { route: 'catalog', label: 'Catalog', activeRoutes: ['catalog', 'taxa', 'events'] },
   { route: 'stories', label: 'Stories', activeRoutes: ['stories'] },
   { route: 'explore', label: 'Explorer', activeRoutes: ['explore'] },
-  { route: 'research', label: 'Research', activeRoutes: ['research', 'compare', 'lab', 'data', 'methods'] },
-  { route: 'about', label: 'About', activeRoutes: ['about'] },
+  { route: 'research', label: 'Research', activeRoutes: ['research', 'compare', 'lab'] },
+  { route: 'data', label: 'Data', activeRoutes: ['data'] },
+  { route: 'about', label: 'About', activeRoutes: ['about', 'methods'] },
 ]
 
 export function AppShell({ route, onNavigate, children, immersive = false }: AppShellProps) {

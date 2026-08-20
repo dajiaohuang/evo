@@ -3,6 +3,12 @@
 .workbench-hero h1 { max-width: 900px; margin-top: 12px; font: 500 clamp(47px, 6vw, 74px)/0.98 var(--font-display); letter-spacing: -0.045em; }
 .workbench-hero p { max-width: 690px; margin-top: 23px; color: var(--color-text-muted); font-size: 13px; line-height: 1.75; }
 
+.dataset-version-workspace { width: min(1320px, calc(100% - 32px)); margin: -24px auto 28px; padding: 22px; border: 1px solid var(--color-border-subtle); background: color-mix(in srgb, var(--color-accent) 3%, var(--color-surface)); }
+.dataset-version-workspace > header { display: flex; justify-content: space-between; gap: 18px; }.dataset-version-workspace > header small, .dataset-version-workspace > header > span { color: var(--color-accent); font: 8px var(--font-mono); text-transform: uppercase; }.dataset-version-workspace h2 { margin-top: 7px; font: 500 25px var(--font-display); }.dataset-version-workspace > p { margin-top: 10px; color: var(--color-text-muted); font-size: 9px; line-height: 1.6; }
+.dataset-version-workspace__controls { margin-top: 18px; display: grid; grid-template-columns: 1fr auto 1fr; align-items: end; gap: 10px; }.dataset-version-workspace__controls label span { display: block; margin-bottom: 5px; color: var(--color-text-faint); font: 8px var(--font-mono); text-transform: uppercase; }.dataset-version-workspace__controls select { width: 100%; min-height: 36px; padding: 0 9px; border: 1px solid var(--color-border-subtle); background: var(--color-bg); color: var(--color-text); }.dataset-version-workspace__controls > span { padding-bottom: 9px; color: var(--color-accent); }
+.dataset-version-workspace__metrics { margin-top: 18px; display: grid; grid-template-columns: repeat(5, 1fr); border: 1px solid var(--color-border-subtle); }.dataset-version-workspace__metrics article { padding: 13px; border-right: 1px solid var(--color-border-subtle); }.dataset-version-workspace__metrics article:last-child { border: 0; }.dataset-version-workspace__metrics strong, .dataset-version-workspace__metrics span { display: block; }.dataset-version-workspace__metrics strong { font: 500 20px var(--font-display); }.dataset-version-workspace__metrics span { margin-top: 4px; color: var(--color-text-faint); font: 7px var(--font-mono); text-transform: uppercase; }
+.dataset-version-workspace details { margin-top: 14px; }.dataset-version-workspace summary { color: var(--color-accent-soft); font: 8px var(--font-mono); cursor: pointer; }.dataset-version-workspace details code { display: block; margin-top: 5px; color: var(--color-text-muted); font-size: 8px; overflow-wrap: anywhere; }
+
 .lab-layout { width: min(1320px, calc(100% - 32px)); margin: 0 auto; display: grid; grid-template-columns: 280px minmax(0, 1fr); border: 1px solid var(--color-border-subtle); min-height: 660px; }
 .query-builder { background: var(--color-surface); border-right: 1px solid var(--color-border-subtle); }
 .query-builder__heading, .lab-results__toolbar { min-height: 51px; padding: 0 14px; display: flex; align-items: center; justify-content: space-between; border-bottom: 1px solid var(--color-border-subtle); }
@@ -71,6 +77,59 @@
 .query-history > button span { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .query-history > button small { color: var(--color-text-faint); font: 7px var(--font-mono); white-space: nowrap; }
 .query-history > p { margin-top: 7px; color: var(--color-text-faint); font-size: 8px; }
+.query-diff { margin-top: 9px; padding: 8px; border: 1px solid var(--color-border-subtle); color: var(--color-text-faint); font-size: 8px; }
+.query-diff summary { cursor: pointer; font: 7px var(--font-mono); text-transform: uppercase; }
+.query-diff p { display: grid; grid-template-columns: 65px minmax(0, 1fr); gap: 8px; margin-top: 6px; }
+.query-diff span { overflow-wrap: anywhere; }
+.local-import { margin-top: 15px; padding-top: 12px; border-top: 1px solid var(--color-border-subtle); }
+.local-import > div { display: flex; justify-content: space-between; color: var(--color-text-faint); font: 7px var(--font-mono); text-transform: uppercase; }
+.local-import > label { margin-top: 8px; min-height: 34px; display: grid; place-items: center; border: 1px dashed var(--color-accent-dim); color: var(--color-accent); cursor: pointer; font: 8px var(--font-mono); }
+.local-import input { position: absolute; width: 1px; height: 1px; opacity: 0; }
+.local-import > p { margin-top: 7px; color: var(--color-danger); font-size: 8px; }
+.local-import section { margin-top: 8px; padding: 8px; border: 1px solid var(--color-border-subtle); }
+.local-import section strong, .local-import section span, .local-import section small { display: block; }
+.local-import section strong { color: var(--color-text); font-size: 9px; }
+.local-import section span, .local-import section small { margin-top: 4px; color: var(--color-text-faint); font-size: 8px; overflow-wrap: anywhere; }
+.local-research-workspace { border-top: 1px solid var(--color-border-subtle); background: var(--color-surface); }
+.local-research-workspace details + details { border-top: 1px solid var(--color-border-subtle); }
+.local-research-workspace summary { min-height: 44px; padding: 0 15px; display: flex; align-items: center; justify-content: space-between; cursor: pointer; list-style: none; }
+.local-research-workspace summary::-webkit-details-marker { display: none; }
+.local-research-workspace summary span { color: var(--color-text); font-size: 9px; font-weight: 750; text-transform: uppercase; }
+.local-research-workspace summary small { color: var(--color-text-faint); font: 7px var(--font-mono); }
+.local-sql-workspace > p, .research-notes > p { margin: 0; padding: 0 15px 10px; color: var(--color-text-faint); font-size: 8px; line-height: 1.55; }
+.local-sql-workspace .sql-runtime-note { color: #d9ab6c; }
+.sql-table-list { margin: 0 15px 12px; display: grid; grid-template-columns: 110px minmax(0, 1fr); border: 1px solid var(--color-border-subtle); }
+.sql-table-list code, .sql-table-list span { padding: 7px 9px; border-bottom: 1px solid var(--color-border-subtle); font-size: 8px; overflow-wrap: anywhere; }
+.sql-table-list code { color: var(--color-accent); }
+.sql-table-list span { color: var(--color-text-faint); }
+.local-sql-workspace > label { margin: 0 15px; display: block; }
+.local-sql-workspace > label > span { display: block; margin-bottom: 5px; color: var(--color-text-faint); font: 7px var(--font-mono); text-transform: uppercase; }
+.local-sql-workspace textarea { width: 100%; min-height: 155px; resize: vertical; padding: 12px; border: 1px solid var(--color-border); outline: 0; background: #061116; color: #b8dfcf; font: 9px/1.6 var(--font-mono); tab-size: 2; }
+.local-sql-workspace textarea:focus { border-color: var(--color-accent-dim); }
+.sql-actions { padding: 9px 15px 13px; display: flex; gap: 7px; }
+.sql-actions button, .note-editor button, .note-list footer button { padding: 7px 10px; border: 1px solid var(--color-border); background: var(--color-bg-elevated); color: var(--color-accent); font-size: 8px; cursor: pointer; }
+.sql-actions button:disabled { opacity: .45; cursor: wait; }
+.sql-error { margin: 0 15px 12px; color: var(--color-danger); font-size: 8px; }
+.sql-result { margin: 0 15px 15px; border: 1px solid var(--color-border-subtle); }
+.sql-result > header { padding: 7px 9px; display: flex; justify-content: space-between; background: var(--color-bg-elevated); color: var(--color-text-faint); font: 7px var(--font-mono); }
+.sql-result > div { max-height: 310px; overflow: auto; }
+.sql-result table { width: 100%; border-collapse: collapse; font: 8px var(--font-mono); }
+.sql-result th, .sql-result td { max-width: 280px; padding: 7px 9px; border-right: 1px solid var(--color-border-subtle); border-bottom: 1px solid var(--color-border-subtle); overflow: hidden; text-align: left; text-overflow: ellipsis; white-space: nowrap; }
+.sql-result th { position: sticky; top: 0; background: var(--color-surface-raised); color: var(--color-text-faint); }
+.sql-result td { color: var(--color-text-muted); }
+.note-editor { margin: 0 15px 12px; display: grid; grid-template-columns: 1fr auto; gap: 7px; }
+.note-editor input, .note-editor textarea { padding: 9px; border: 1px solid var(--color-border-subtle); outline: 0; background: var(--color-bg-elevated); color: var(--color-text); font-size: 9px; }
+.note-editor > input, .note-editor > textarea { grid-column: 1 / -1; }
+.note-editor textarea { min-height: 75px; resize: vertical; }
+.note-editor label { color: var(--color-text-faint); font-size: 8px; }
+.note-message { color: var(--color-accent) !important; }
+.note-list { margin: 0 15px 15px; display: grid; gap: 7px; }
+.note-list article { padding: 10px; border: 1px solid var(--color-border-subtle); background: var(--color-bg-elevated); }
+.note-list article header { display: flex; justify-content: space-between; gap: 12px; }
+.note-list article strong { font-size: 9px; }
+.note-list article small, .note-list > p { color: var(--color-text-faint); font: 7px var(--font-mono); }
+.note-list article > p { margin-top: 7px; color: var(--color-text-muted); font-size: 8px; line-height: 1.55; white-space: pre-wrap; }
+.note-list footer { margin-top: 8px; display: flex; gap: 6px; }
 .range-through-chart, .latitude-chart { min-height: 470px; padding: 28px; }
 .range-through-chart > header, .latitude-chart > header { margin-bottom: 20px; display: flex; justify-content: space-between; align-items: end; }
 .range-through-chart header div, .latitude-chart header { color: var(--color-text-faint); font: 7px var(--font-mono); text-transform: uppercase; }
@@ -149,4 +208,5 @@
   .versus { display: none; }
   .compare-mode-tabs { overflow-x: auto; }
   .compare-mode-tabs button { min-width: 90px; }
+  .dataset-version-workspace > header { flex-direction: column; }.dataset-version-workspace__controls, .dataset-version-workspace__metrics { grid-template-columns: 1fr; }.dataset-version-workspace__controls > span { display: none; }.dataset-version-workspace__metrics article { border-right: 0; border-bottom: 1px solid var(--color-border-subtle); }
 }

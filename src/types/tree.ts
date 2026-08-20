@@ -28,7 +28,7 @@ export interface TreeViewState {
   transform: { x: number; y: number; k: number };
 }
 
-export type TreeDisplayMode = 'navigation' | 'cladogram' | 'first-appearance' | 'fossil-range' | 'radial'
+export type TreeDisplayMode = 'navigation' | 'cladogram' | 'first-appearance' | 'fossil-range' | 'calibration' | 'radial'
 
 export type TreeEvidenceSupport = 'strong' | 'moderate' | 'contextual' | 'contested'
 

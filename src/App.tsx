@@ -117,7 +117,7 @@ export default function App() {
   else if (route === 'about') page = <AboutPage onNavigate={navigate} />
   else if (route === 'taxa') page = <TaxonPage id={routeState.params.get('id')} onNavigate={navigate} />
   else if (route === 'events') page = <EventPage id={routeState.params.get('id')} onNavigate={navigate} />
-  else if (route === 'stories') page = <StoriesPage id={routeState.params.get('id')} onNavigate={navigate} />
+  else if (route === 'stories') page = <StoriesPage id={routeState.params.get('id')} params={routeState.params} onNavigate={navigate} />
   else if (route === 'compare') page = <ComparePage params={routeState.params} onNavigate={navigate} />
   else if (route === 'lab') page = <LabPage params={routeState.params} onNavigate={navigate} />
   else if (route === 'data') page = <DataPage onNavigate={navigate} />

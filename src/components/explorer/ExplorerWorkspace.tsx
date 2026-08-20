@@ -7,7 +7,7 @@ import type { FossilMarkerMode } from '../../store/mapSlice'
 import type { CoordinateMode } from '../../utils/spatial'
 import { getEvolutionEvent, getEvolutionStory, getTaxonProfile } from '../../services/catalog'
 import { getEntityPublication } from '../../services/publication'
-import { periods } from '../../services/geology'
+import { periods, timeScaleUnits } from '../../services/geology'
 import { buildRouteHash, getFiniteRouteNumber, parseRouteHash } from '../../utils/routing'
 import { MAX_MAP_ZOOM, MIN_MAP_ZOOM } from '../../constants'
 import { loadPackageForEntity } from '../../data-client/staticDataClient'
@@ -20,7 +20,7 @@ import './ExplorerWorkspace.css'
 
 type ExplorerView = 'map' | 'tree' | 'diversity'
 
-const TREE_MODES = new Set<TreeDisplayMode>(['navigation', 'cladogram', 'first-appearance', 'fossil-range', 'radial'])
+const TREE_MODES = new Set<TreeDisplayMode>(['navigation', 'cladogram', 'first-appearance', 'fossil-range', 'calibration', 'radial'])
 const MARKER_MODES = new Set<FossilMarkerMode>(['clusters', 'density', 'points'])
 const COORDINATE_MODES = new Set<CoordinateMode>(['paleo', 'modern'])
 
@@ -87,6 +87,8 @@ export function ExplorerWorkspace() {
 
   const currentAge = useAppStore((state) => state.currentAge)
   const currentPeriod = useAppStore((state) => state.currentPeriod)
+  const currentEpoch = useAppStore((state) => state.currentEpoch)
+  const currentAgeUnit = useAppStore((state) => state.currentAgeUnit)
   const currentEra = useAppStore((state) => state.currentEra)
   const currentEon = useAppStore((state) => state.currentEon)
   const selectedNodeId = useAppStore((state) => state.selectedNodeId)
@@ -108,6 +110,12 @@ export function ExplorerWorkspace() {
   const periodOccurrences = useAppStore((state) => (
     currentPeriod ? state.occurrencesByInterval[currentPeriod] : undefined
   ))
+  const localizedTimeContext = [currentEon, currentEra, currentPeriod, currentEpoch, currentAgeUnit]
+    .filter((name): name is string => Boolean(name))
+    .map((name) => {
+      const unit = timeScaleUnits.find((candidate) => candidate.nam === name)
+      return language === 'zh' ? (unit?.namZh ?? name) : name
+    })
 
   const nodes = useMemo(() => flattenTree(treeData as TreeNode), [])
   const profileContext = getTaxonProfile(context.profile)
@@ -294,7 +302,7 @@ export function ExplorerWorkspace() {
             <strong>{currentAge.toFixed(1)}</strong>
             <span>Ma</span>
           </div>
-          <p>{t(currentEon ?? 'Earth history')} / {t(currentEra ?? currentPeriod ?? 'Unsubdivided')}</p>
+          <p>{localizedTimeContext.length ? localizedTimeContext.join(' / ') : t('Unsubdivided')}</p>
           {selectedPeriod && <small>{t(selectedPeriod.description)}</small>}
         </div>
 

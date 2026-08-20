@@ -73,6 +73,8 @@ check(timeScale.earthAgeMa === 4567, 'time scale must span 4,567 Ma')
 check(timeScale.version === 'ICS-2026-06', 'time scale version must be explicit')
 check(timeScale.schemaVersion === 2 && timeScale.officialVersion === '2026/06', 'time scale must identify the official ICS 2026/06 structure')
 check(timeScale.source?.referenceId === 'ics-2026-06' && /ChronostratChart2026-06\.pdf$/.test(timeScale.source?.url ?? ''), 'time scale must retain the official ICS source locator')
+check(/i-c-stratigraphy\/chart\/main\/chart\.ttl$/.test(timeScale.source?.machineReadableUrl ?? ''), 'time scale must retain the official machine-readable ICS source')
+check(timeScale.source?.license === 'https://creativecommons.org/licenses/by/4.0/', 'time scale must retain the ICS CC BY 4.0 license')
 check(unique(timeScale.boundaries.map((boundary) => boundary.id)), 'time-scale boundary IDs must be unique')
 const boundariesByValue = new Map(timeScale.boundaries.map((boundary) => [boundary.valueMa, boundary]))
 for (const boundary of timeScale.boundaries) {
@@ -84,6 +86,9 @@ for (const [valueMa, uncertaintyMa] of [[4031, 3], [486.85, 1.5], [443.1, 0.9], 
   check(boundary?.uncertaintyMa === uncertaintyMa && boundary.approximate === false, `official ICS 2026/06 boundary ${valueMa} ± ${uncertaintyMa} Ma is missing`)
 }
 check(unique(timeScale.units.map((unit) => unit.oid)), 'time-scale unit IDs must be unique')
+check(timeScale.units.filter((unit) => unit.itp === 'epoch').length >= 38, 'time scale must include the ICS epoch/series layer')
+check(timeScale.units.filter((unit) => unit.itp === 'age').length >= 101, 'time scale must include the ICS age/stage layer')
+check(sameValues([...new Set(timeScale.units.map((unit) => unit.itp))].sort(), ['age', 'eon', 'epoch', 'era', 'period']), 'time scale must expose eon, era, period, epoch and age ranks')
 check(unique(periodMetadata.map((period) => period.name)), 'period map metadata names must be unique')
 check(sameValues([...periodUnits.map((unit) => unit.nam)].sort(), [...periodMetadata.map((period) => period.name)].sort()), 'time scale and period map metadata names must match')
 for (const metadata of periodMetadata) {
@@ -93,7 +98,16 @@ for (const metadata of periodMetadata) {
 }
 for (const unit of timeScale.units) {
   check(typeof unit.namZh === 'string' && unit.namZh.length > 0, `${unit.oid}: Chinese name is required`)
-  check(boundariesByValue.has(unit.eag) && boundariesByValue.has(unit.lag), `${unit.oid}: eag and lag must project versioned boundary records`)
+  if (['eon', 'era', 'period'].includes(unit.itp)) {
+    check(boundariesByValue.has(unit.eag) && boundariesByValue.has(unit.lag), `${unit.oid}: eag and lag must project versioned boundary records`)
+  } else {
+    check(/^gtsd:[A-Za-z0-9]+$/.test(unit.sourceId ?? ''), `${unit.oid}: official ICS concept ID is required`)
+    check(/^gtsd:[A-Za-z0-9]+$/.test(unit.sourceParentId ?? ''), `${unit.oid}: official ICS parent concept ID is required`)
+    check(typeof unit.eagApproximate === 'boolean' && typeof unit.lagApproximate === 'boolean', `${unit.oid}: boundary approximation flags are required`)
+    check(typeof unit.ratifiedGssp === 'boolean', `${unit.oid}: GSSP ratification flag is required`)
+    check([unit.eagUncertaintyMa, unit.lagUncertaintyMa].every((value) => value === null || (typeof value === 'number' && value >= 0)), `${unit.oid}: boundary uncertainty must be null or non-negative`)
+    check(!/\s/.test(unit.namZh), `${unit.oid}: Chinese interval name must not contain stray whitespace`)
+  }
 }
 
 check(manifest.appVersion === packageMetadata.version, 'manifest appVersion must match package.json version')
@@ -120,6 +134,18 @@ for (const unit of timeScale.units) {
     if (visited.has(cursor.oid)) break
     visited.add(cursor.oid)
     cursor = cursor.pid ? timeUnitById.get(cursor.pid) : undefined
+  }
+}
+
+const detailedSiblingGroups = Map.groupBy(timeScale.units.filter((unit) => ['epoch', 'age'].includes(unit.itp)), (unit) => `${unit.itp}:${unit.pid}`)
+for (const [groupId, siblings] of detailedSiblingGroups) {
+  const ordered = siblings.toSorted((left, right) => right.eag - left.eag)
+  const parent = timeUnitById.get(ordered[0].pid)
+  if (!parent) continue
+  check(Math.abs(ordered[0].eag - parent.eag) < 0.001, `${groupId}: oldest child must begin at the parent boundary`)
+  check(Math.abs(ordered.at(-1).lag - parent.lag) < 0.001, `${groupId}: youngest child must end at the parent boundary`)
+  for (let index = 0; index < ordered.length - 1; index += 1) {
+    check(Math.abs(ordered[index].lag - ordered[index + 1].eag) < 0.001, `${groupId}: ${ordered[index].oid} must meet ${ordered[index + 1].oid}`)
   }
 }
 

@@ -6,6 +6,9 @@ import { rootDir } from './data-lib.mjs'
 
 const dataRoot = join(rootDir, 'dist/data')
 const pagesRoot = join(rootDir, 'dist')
+const sourceTimeScale = JSON.parse(readFileSync(join(rootDir, 'data/time-scale.json'), 'utf8'))
+const sourceManifest = JSON.parse(readFileSync(join(rootDir, 'data/manifest.json'), 'utf8'))
+const namedObjectSlug = (value) => `${String(value).toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '')}-${createHash('sha256').update(value, 'utf8').digest('hex').slice(0, 8)}`
 const failures = []
 const readJson = (relativePath) => JSON.parse(readFileSync(join(dataRoot, relativePath), 'utf8'))
 const readGzipJson = (relativePath) => JSON.parse(gunzipSync(readFileSync(join(dataRoot, relativePath))).toString('utf8'))
@@ -64,6 +67,10 @@ for (const packageEntry of packageRegistry.packages) {
   }
   const manifest = readJson(manifestFile.url)
   if (manifest.version !== current.datasetVersion) failures.push(`package ${packageEntry.id}: dataset version mismatch`)
+  if (!['not-reviewed', 'in-review', 'reviewed-with-caveats', 'reviewed'].includes(manifest.reviewStatus)) failures.push(`package ${packageEntry.id}: invalid maintainer review status`)
+  if (!['not-reviewed', 'in-review', 'reviewed-with-caveats', 'reviewed', 'stale'].includes(manifest.effectiveReviewStatus)) failures.push(`package ${packageEntry.id}: invalid effective review status`)
+  if (['reviewed-with-caveats', 'reviewed'].includes(manifest.reviewStatus) && manifest.effectiveReviewStatus === 'stale') failures.push(`package ${packageEntry.id}: completed maintainer review is stale`)
+  if (typeof manifest.chatgptAssisted !== 'boolean') failures.push(`package ${packageEntry.id}: ChatGPT assistance disclosure is missing`)
   for (const [name, file] of Object.entries(manifest.files)) {
     releaseUrl(file, `package ${packageEntry.id}/${name}`)
     checkFile(file, `package ${packageEntry.id}/${name}`)
@@ -100,21 +107,41 @@ const staticManifestPath = join(pagesRoot, 'static-pages-manifest.json')
 if (!existsSync(staticManifestPath)) failures.push('static knowledge-page manifest is missing')
 else {
   const staticManifest = JSON.parse(readFileSync(staticManifestPath, 'utf8'))
+  if (staticManifest.schemaVersion !== 3) failures.push('static knowledge-page manifest schema is stale')
   if (staticManifest.datasetVersion !== current.datasetVersion) failures.push('static knowledge pages use a stale dataset version')
-  if (staticManifest.pages?.taxa < 2 || staticManifest.pages?.events < 2 || staticManifest.pages?.stories < 2) failures.push('bilingual static knowledge-page coverage is incomplete')
+  const pages = staticManifest.pages ?? {}
+  if (pages.taxa < 2 || pages.events < 2 || pages.stories < 2 || pages.intervals !== sourceTimeScale.units.length * 2 || pages.formations !== sourceManifest.records.formationNames * 2 || pages.localities !== sourceManifest.records.fossilCollections * 2 || pages.traits !== sourceManifest.records.traitTerms * 2 || pages.references < 2 || pages.media !== sourceManifest.records.mediaAssets * 2 || pages.collectionIndexes !== 20) failures.push('bilingual static knowledge-page coverage is incomplete')
 }
-for (const relativePath of ['sitemap.xml', 'robots.txt', 'feed.xml', '404.html', 'taxa/perissodactyla/index.html', 'zh/taxa/perissodactyla/index.html', 'events/perissodactyl-radiation/index.html', 'stories/rise-and-fall-perissodactyls/index.html', 'methods/index.html', `datasets/${current.datasetVersion}/index.html`]) {
+for (const relativePath of ['sitemap.xml', 'robots.txt', 'feed.xml', '404.html', 'taxa/index.html', 'taxa/perissodactyla/index.html', 'zh/taxa/perissodactyla/index.html', 'events/index.html', 'events/perissodactyl-radiation/index.html', 'stories/index.html', 'stories/rise-and-fall-perissodactyls/index.html', 'intervals/index.html', 'intervals/cretaceous/index.html', 'intervals/upper-cretaceous/index.html', 'intervals/maastrichtian/index.html', 'zh/intervals/maastrichtian/index.html', 'formations/index.html', `formations/${namedObjectSlug('Lincoln Creek')}/index.html`, 'localities/index.html', 'localities/col-4869/index.html', 'traits/index.html', `traits/${namedObjectSlug('Mesaxonic foot')}/index.html`, 'references/index.html', 'references/ics-2026-06/index.html', 'media/index.html', 'media/amnh-perissodactyl-overview/index.html', 'datasets/index.html', 'methods/index.html', `datasets/${current.datasetVersion}/index.html`]) {
   if (!existsSync(join(pagesRoot, relativePath))) failures.push(`static page artifact is missing: ${relativePath}`)
 }
 const flagshipStaticPath = join(pagesRoot, 'taxa/perissodactyla/index.html')
 if (existsSync(flagshipStaticPath)) {
   const html = readFileSync(flagshipStaticPath, 'utf8')
-  for (const marker of ['rel="canonical"', 'application/ld+json', 'No human scientific review', 'Report an evidence issue', '/evo/#/explore?profile=perissodactyla']) {
+  for (const marker of ['rel="canonical"', 'application/ld+json', 'Maintainer review in progress', 'External expert review not performed', 'Report an evidence issue', '/evo/#/explore?profile=perissodactyla']) {
     if (!html.includes(marker)) failures.push(`flagship static page is missing ${marker}`)
   }
 }
 const scaffoldStaticPath = join(pagesRoot, 'taxa/dinosauria/index.html')
 if (existsSync(scaffoldStaticPath) && !readFileSync(scaffoldStaticPath, 'utf8').includes('name="robots" content="noindex,follow"')) failures.push('generated scaffold static pages must be noindex')
+
+const localizedStaticChecks = [
+  { path: 'zh/stories/rise-and-fall-perissodactyls/index.html', markers: ['从始新世的优势类群', '始新世的迅速登场'] },
+  { path: `zh/formations/${namedObjectSlug('Lincoln Creek')}/index.html`, markers: ['此静态摘要没有可用的参考文献记录。'] },
+  { path: 'zh/intervals/aquitanian/index.html', markers: ['eag 与 lag 是下列版本化边界记录的显示投影', '23.03 Ma'] },
+  { path: `zh/traits/${namedObjectSlug('Mesaxonic foot')}/index.html`, markers: ['中轴型足'] },
+  { path: 'zh/media/amnh-perissodactyl-overview/index.html', markers: ['未核实可复用内容许可', '仅提供外部链接'] },
+  { path: `zh/datasets/${current.datasetVersion}/index.html`, markers: ['本版本是以植物、部分无脊椎动物类群和脊椎动物为中心的教育性导航子集'] },
+]
+for (const check of localizedStaticChecks) {
+  const target = join(pagesRoot, check.path)
+  if (!existsSync(target)) {
+    failures.push(`localized static page artifact is missing: ${check.path}`)
+    continue
+  }
+  const html = readFileSync(target, 'utf8')
+  for (const marker of check.markers) if (!html.includes(marker)) failures.push(`${check.path} is missing localized marker: ${marker}`)
+}
 
 releaseUrl(current.maps.manifest, 'map manifest')
 checkFile(current.maps.manifest, 'map manifest')

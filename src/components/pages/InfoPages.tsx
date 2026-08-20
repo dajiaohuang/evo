@@ -134,14 +134,14 @@ export function DataPage({ onNavigate }: PageProps) {
           </div>
         )}
         {linkageCoverage && <p className="quality-disclaimer">{t(linkageCoverage.precisionStatement)}</p>}
-        <p className="quality-disclaimer quality-disclaimer--review">{t('Automated data audits verify schemas, identifiers, translations and links. Only the separate human-review label can indicate expert scientific review.')}</p>
+        <p className="quality-disclaimer quality-disclaimer--review">{t('Automated data audits verify schemas, identifiers, translations and links. Maintainer review is digest-bound; ChatGPT assistance and external expert review remain separately disclosed.')}</p>
         <p className="quality-disclaimer">{t('Occurrence counts describe atlas-wide period shards; query coverage may describe a separate package-specific source snapshot.')}</p>
         <div className="package-table" role="table" aria-label={t('Static package coverage')}>
           <div className="package-row package-row--head" role="row"><span>{t('Package')}</span><span>{t('Maturity / review')}</span><span>{t('Query coverage')}</span><span>{t('Entities')}</span><span>{t('Runtime')}</span><span>{t('Occurrences')}</span><span>{t('Offline')}</span></div>
           {packageManifests.map((entry) => (
             <div className="package-row" role="row" key={entry.packageId}>
               <strong>{language === 'zh' ? entry.titleZh : entry.title}<small>{entry.packageId}</small></strong>
-              <span className={`package-maturity package-maturity--${entry.scientificMaturity}`} title={`${entry.platformMaturity} · ${entry.scientificReviewStatus}`}><b>{t(scientificMaturityLabel(entry.scientificMaturity))}</b><small>{t(reviewStatusLabel(entry.scientificReviewStatus))}</small></span>
+              <span className={`package-maturity package-maturity--${entry.scientificMaturity}`} title={`${entry.platformMaturity} · ${entry.effectiveReviewStatus}`}><b>{t(scientificMaturityLabel(entry.scientificMaturity))}</b><small>{t(reviewStatusLabel(entry.effectiveReviewStatus))}</small><small>{t(entry.chatgptAssisted ? 'ChatGPT-assisted check recorded' : 'No ChatGPT-assisted review recorded')}</small></span>
               <span className={`query-coverage query-coverage--${entry.queryCoverage.completeness}`} title={t('Fetched {rows} source rows across {pages} page(s)', { rows: number(entry.queryCoverage.rowsFetched), pages: number(entry.queryCoverage.pagesFetched) })}>{t(entry.queryCoverage.completeness)}<small>{entry.queryCoverage.upstreamReportedTotal == null ? t('upstream total unavailable') : t('{count} upstream rows', { count: number(entry.queryCoverage.upstreamReportedTotal) })}</small><small>{t('{accepted} accepted source rows · {outside} outside package rules', { accepted: number(entry.queryCoverage.rowsAccepted), outside: number(entry.queryCoverage.rowsOutsidePackage) })}</small></span>
               <span>{number(entry.entityCount)}</span>
               <span>{(entry.metrics.runtimeKnowledgeCompressedBytes / 1024).toFixed(1)} KiB</span>

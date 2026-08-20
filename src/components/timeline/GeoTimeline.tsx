@@ -16,6 +16,8 @@ export function GeoTimeline() {
   const { language, t } = useI18n()
   const currentAge = useAppStore((s) => s.currentAge)
   const currentPeriod = useAppStore((s) => s.currentPeriod)
+  const currentEpoch = useAppStore((s) => s.currentEpoch)
+  const currentAgeUnit = useAppStore((s) => s.currentAgeUnit)
   const currentEon = useAppStore((s) => s.currentEon)
   const setTime = useAppStore((s) => s.setTime)
   const svgRef = useRef<SVGSVGElement>(null)
@@ -115,6 +117,9 @@ export function GeoTimeline() {
   const ageLabel = currentAge >= 1000
     ? `${(currentAge / 1000).toFixed(2)} Ga`
     : `${currentAge.toFixed(1)} Ma`
+  const finestUnitName = currentAgeUnit ?? currentEpoch ?? currentPeriod ?? currentEon ?? 'Deep time'
+  const finestUnit = timeScaleUnits.find((unit) => unit.nam === finestUnitName)
+  const localizedFinestUnit = language === 'zh' ? (finestUnit?.namZh ?? t(finestUnitName)) : finestUnitName
 
   return (
     <div style={{ height: '100%', width: '100%', position: 'relative', userSelect: 'none' }}>
@@ -142,7 +147,7 @@ export function GeoTimeline() {
         style={{ width: '100%', height: '100%', cursor: dragging ? 'ew-resize' : 'default' }}
         onPointerDown={handleTrackClick}
       >
-        <title>{t('Geological time control. Current context: {context}.', { context: t(currentPeriod ?? currentEon ?? 'Deep time') })}</title>
+        <title>{t('Geological time control. Current context: {context}.', { context: localizedFinestUnit })}</title>
         <rect x={0} y={0} width="100%" height="100%" fill="transparent" />
         {activeScaleMode === 'earth' && eons.map((eon) => {
           const left = ageToX(eon.eag, width)

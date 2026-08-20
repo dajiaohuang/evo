@@ -6,7 +6,7 @@ interface TimeScaleData {
   schemaVersion: number
   version: string
   officialVersion: string
-  source: { referenceId: string; publisher: string; url: string; accessedAt: string }
+  source: { referenceId: string; publisher: string; url: string; accessedAt: string; machineReadableUrl?: string; license?: string }
   boundaryPolicy: string
   earthAgeMa: number
   boundaries: ChronostratigraphicBoundary[]

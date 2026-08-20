@@ -6,18 +6,21 @@ Evo Atlas is a static-first web atlas for exploring 4.567 billion years of Earth
 
 - **Deep-time portal** — Hadean to present navigation, period entry points, 4 published guided stories and 6 evidence-blocked canonical drafts.
 - **Synchronized Explorer** — Geological timeline, occurrence-coordinate map, tree of life, evidence inspector and dataset-checked shareable URL state. Continental geometry is withheld until provenance is complete.
-- **Separated tree semantics** — Atlas-wide navigation ontology, a scoped Perissodactyla topology hypothesis, first-appearance proxy, fossil ranges and radial navigation, plus a compatible published calibration ledger.
-- **Multi-scale occurrence map** — Projected-pixel cluster, density and point modes with reconstructed and modern coordinates kept separate. The continental layer is visibly unavailable while provenance is incomplete.
+- **Five-rank geological time** — ICS 2026/06 eons, eras, periods, epochs and ages with hierarchy, uncertainty, stable source identifiers and documented projection notes.
+- **Separated tree semantics** — Atlas-wide navigation ontology, scoped Perissodactyla topology, first-appearance proxy, fossil ranges, radial navigation and calibration-evidence views, with clade collapse, lineage trace, trait/event overlays and Newick/Nexus export.
+- **Multi-scale occurrence map** — Projected-pixel cluster, density and point modes with reconstructed and modern coordinates kept separate, plus explicitly sample-derived centroid/latitude trajectories. The continental layer is visibly unavailable while provenance is incomplete.
 - **Sampling-aware diversity view** — Observed taxon names, collection coverage, age precision and spatial metadata without treating record counts as true richness.
 - **Evidence catalog** — Bilingual taxon and event directories with source links, confidence and uncertainty kept separate.
 - **Compare workbench** — Taxa, time windows, countries and competing representation assumptions.
-- **Browser data lab** — Bounded local queries with table/chart/map views and reproducible ZIP exports containing CSV, JSON, GeoJSON, query definition, citations and the dataset manifest.
-- **Local research workspace** — Recent query definitions are retained in browser IndexedDB and never sent to an application server.
+- **Browser data lab** — Bounded local queries with table/chart/map views; taxa/time/place/formation filters; query history/diff; retained-release checksum comparison; and reproducible ZIP exports containing CSV, JSON, GeoJSON, SVG, query definition, citations, methods and checksums.
+- **Local research workspace** — CSV/JSON/GeoJSON import, delayed read-only DuckDB-Wasm SQL with joins/grouping/aggregation, Parquet export and IndexedDB notes/favorites. User data never goes to an application server.
+- **Stories and education** — Claim-linked published stories, era/taxon/theme discovery, course collections, glossary and quiz, plus a local JSON Story Builder with teacher links and iframe embeds. Evidence-incomplete drafts remain blocked.
 - **Offline PWA** — Installable, precached app shell; large immutable scientific chunks are cached only when opened.
 - **Static release pipeline** — Cross-file data validation, per-file SHA-256 checksums, tests, lint and GitHub Pages deployment gates.
-- **Pages Data Platform v5 candidate** — 189 bilingual registry entities assigned to 24 registry-driven static packages. This is an explicit educational subset, not a whole-life completeness claim; Perissodactyla is a curator draft and the other 22 scientific packages are generated scaffolds, not expert-reviewed datasets.
-- **Indexable knowledge pages** — Build-time bilingual HTML for taxa, events, stories, methods and the dataset release, with canonical URLs, Open Graph metadata, JSON-LD, `hreflang`, sitemap, feed and direct Explorer links.
-- **Explicit scientific maturity** — Generated scaffold, curator draft, source complete, expert reviewed and published featured are separate from automated engineering validation.
+- **Pages Data Platform v5 candidate** — 189 bilingual registry entities assigned to 24 registry-driven static packages. This is an explicit educational subset, not a whole-life completeness claim; Perissodactyla is a curated draft and the other scientific packages remain explicitly labelled scaffolds or core structure.
+- **Complete static Catalog publication** — 4,000+ build-time bilingual HTML pages for taxa, events, geological intervals, formations, fossil localities, traits, references, media, stories, methods and retained dataset releases, with canonical URLs, Open Graph metadata, JSON-LD, `hreflang`, sitemap, feed, print styles and direct Explorer/Lab links.
+- **Minimal review workflow** — Uploadable ZIP/Markdown packets enumerate every required file and SHA-256; digest freshness derives `stale` without a backend. Scientific maturity, maintainer review, ChatGPT assistance and external expert review remain separate disclosures.
+- **Explicit scientific maturity** — Generated scaffold, structured, source linked, curated draft and published are separate from automated engineering validation and maintainer review.
 - **Explicit offline packages** — Core data is precached; package and occurrence data is cached on access or when the user explicitly saves a package from the Data page.
 
 ## Architecture
@@ -51,7 +54,9 @@ Release checks:
 npm run verify
 ```
 
-`predev` generates ignored runtime data under `public/data/`. `verify` runs ESLint, Vitest, all registry/package/claim/translation/provenance/review gates, TypeScript, the production PWA build, source and Pages budgets, static-data smoke tests, Playwright route tests and axe accessibility checks.
+`predev` generates ignored runtime data under `public/data/`. `verify` runs ESLint, Vitest, all registry/package/claim/translation/provenance/review gates, review-digest freshness, TypeScript, the production PWA build, source and Pages budgets, static-data smoke tests, Playwright route tests and axe accessibility checks.
+
+Generate a complete ChatGPT-uploadable maintainer-review packet with `npm run review:packet -- --package perissodactyla`; validate every stored review digest with `npm run review:check`. See [the minimal review workflow](docs/review-workflow.md).
 
 ## Data workflow
 

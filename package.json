@@ -17,9 +17,14 @@
     "preview": "vite preview",
     "size:check": "node scripts/check-bundle-size.mjs",
     "release:metadata": "node scripts/build-release.mjs",
+    "review:packet": "node scripts/build-review-packet.mjs",
+    "review:check": "node scripts/check-review-freshness.mjs",
+    "v1:readiness": "node scripts/check-v1-readiness.mjs",
+    "v1:gate": "node scripts/check-v1-readiness.mjs --strict",
     "data:registry:build": "node scripts/build-entity-registry.mjs",
     "data:registry:check": "node scripts/check-entity-registry.mjs",
     "data:taxonomy:reconcile": "node scripts/reconcile-pbdb-taxa.mjs",
+    "data:timescale:sync": "node scripts/sync-ics-time-scale.mjs",
     "data:registry:validate": "node scripts/validate-platform.mjs registry",
     "data:packages:validate": "node scripts/validate-platform.mjs packages",
     "data:claims:validate": "node scripts/validate-platform.mjs claims",
@@ -39,9 +44,10 @@
     "source:budget": "node scripts/check-source-budget.mjs",
     "pages:budget": "node scripts/check-pages-budget.mjs",
     "pages:smoke": "node scripts/smoke-pages-data.mjs",
-    "verify": "npm run lint && npm test && npm run data:registry:check && npm run data:registry:validate && npm run data:packages:validate && npm run data:claims:validate && npm run data:translations:validate && npm run data:provenance:validate && npm run data:review:validate && npm run data:validate && npm run source:budget && npm run build && npm run size:check && npm run pages:budget && npm run pages:smoke && npm run test:e2e"
+    "verify": "npm run lint && npm test && npm run data:registry:check && npm run data:registry:validate && npm run data:packages:validate && npm run data:claims:validate && npm run data:translations:validate && npm run data:provenance:validate && npm run data:review:validate && npm run review:check && npm run data:validate && npm run source:budget && npm run build && npm run size:check && npm run pages:budget && npm run pages:smoke && npm run v1:readiness && npm run test:e2e"
   },
   "dependencies": {
+    "@duckdb/duckdb-wasm": "1.32.0",
     "d3": "^7.9.0",
     "fflate": "^0.8.3",
     "leaflet": "^1.9.4",

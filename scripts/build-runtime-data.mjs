@@ -4,6 +4,7 @@ import { dirname, join, relative, resolve, sep } from 'node:path'
 import { gzipSync } from 'node:zlib'
 import { strToU8, zipSync } from 'fflate'
 import { flattenTree, readJson, rootDir } from './data-lib.mjs'
+import { evaluatePackageReview } from './check-review-freshness.mjs'
 
 const args = process.argv.slice(2)
 const outputIndex = args.indexOf('--out')
@@ -167,8 +168,8 @@ function coreSearchEntries() {
   const eventEntries = events.map((event) => ({ id: event.id, kind: 'event', title: event.title, titleZh: event.titleZh, route: `#/events?id=${event.id}`, terms: [event.title, event.titleZh, ...event.clades, ...event.regions] }))
   const storyEntries = publishedStories.map((story) => ({ id: story.id, kind: 'story', title: story.title, titleZh: story.titleZh, route: `#/stories?id=${story.id}`, terms: [story.title, story.titleZh, story.dek] }))
   const placeEntries = places.map((place) => ({ id: place.code, kind: 'place', title: place.name, titleZh: place.nameZh, route: `#/lab?country=${place.code}`, terms: [place.code, place.name, place.nameZh] }))
-  const periodEntries = timeScale.units.filter((unit) => unit.itp === 'period').map((period) => ({ id: period.oid, kind: 'period', title: period.nam, titleZh: period.namZh, route: `#/explore?age=${((period.eag + period.lag) / 2).toFixed(1)}&view=diversity`, terms: [period.nam, period.namZh] }))
-  return [...entityEntries, ...eventEntries, ...storyEntries, ...placeEntries, ...periodEntries]
+  const intervalEntries = timeScale.units.map((unit) => ({ id: unit.oid, kind: 'interval', title: unit.nam, titleZh: unit.namZh, route: `#/explore?age=${((unit.eag + unit.lag) / 2).toFixed(3)}&view=diversity`, terms: [unit.nam, unit.namZh, unit.itp, unit.abr] }))
+  return [...entityEntries, ...eventEntries, ...storyEntries, ...placeEntries, ...intervalEntries]
 }
 
 const core = {}
@@ -230,6 +231,7 @@ for (const [key, records] of [...occurrencesByPackagePeriod].sort(([left], [righ
 const packageRuntimeManifests = []
 for (const packageEntry of registry.packages) {
   const packageId = packageEntry.id
+  const packageReview = evaluatePackageReview(packageId)
   const packageQueryLedger = readJson(`${packageEntry.canonicalPath}/query-ledger.json`)
   const packageEntities = entities.filter((entity) => entity.packageId === packageId)
   const packageProfiles = profiles.filter((profile) => entityById.get(profile.treeNodeId)?.packageId === packageId)
@@ -281,7 +283,17 @@ for (const packageEntry of registry.packages) {
     platformMaturity: packageEntry.platformMaturity,
     scientificMaturity: packageEntry.scientificMaturity,
     automatedReviewStatus: packageEntry.automatedReviewStatus,
-    scientificReviewStatus: packageEntry.scientificReviewStatus,
+    reviewStatus: packageReview.reviewStatus,
+    effectiveReviewStatus: packageReview.effectiveReviewStatus,
+    reviewFreshness: packageReview.freshness,
+    reviewedBy: packageReview.reviewedBy,
+    reviewedAt: packageReview.reviewedAt,
+    reviewedCommit: packageReview.reviewedCommit,
+    reviewedContentDigest: packageReview.reviewedContentDigest,
+    currentContentDigest: packageReview.currentContentDigest,
+    chatgptAssisted: packageReview.chatgptAssisted,
+    reviewScope: packageReview.scope,
+    reviewOpenIssues: packageReview.openIssues,
     entityCount: packageEntities.length,
     profileCount: packageProfiles.length,
     claimCount: packageClaims.length,
@@ -374,7 +386,8 @@ const current = {
         summary[entry.scientificMaturity] = (summary[entry.scientificMaturity] ?? 0) + 1
         return summary
       }, {}),
-    scientificPeerReview: 'Only records explicitly marked expert-reviewed should be interpreted as human scientific review.',
+    maintainerReview: 'reviewed and reviewed-with-caveats identify a maintainer decision against an exact content digest; stale is computed and never stored manually.',
+    externalExpertReview: 'No package currently claims external domain-expert peer review.',
     wholeLifeCoverageClaim: false,
   },
 }

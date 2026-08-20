@@ -1,34 +1,23 @@
 {
+  "schemaVersion": 1,
   "subjectId": "package:molluscs-brachiopods",
-  "status": "automated-audit-passed",
-  "reviewedBy": "Evo Atlas schema and linkage audit",
-  "reviewedAt": "2026-08-20",
+  "status": "not-reviewed",
+  "reviewedBy": null,
+  "reviewedAt": null,
+  "reviewedCommit": null,
+  "contentDigest": null,
+  "chatgptAssisted": false,
   "scope": [
-    "schema",
-    "identifier-linkage",
-    "bilingual-field-presence"
+    "taxonomy",
+    "fossil-ranges",
+    "morphology",
+    "ecology",
+    "biogeography",
+    "references",
+    "bilingual-consistency"
   ],
-  "scientificPeerReview": false,
-  "decision": "automated-audit-only",
-  "decisionNotes": "Automated checks passed. Human scientific review, claim decisions and conflict review remain pending.",
-  "reviewedDatasetVersion": "2026.08-static-v5-rc3",
-  "reviewers": [
-    {
-      "name": "Evo Atlas automated validation",
-      "identityType": "automated-system",
-      "orcid": null,
-      "expertise": [
-        "data engineering",
-        "schema validation"
-      ],
-      "reviewScope": [
-        "schema",
-        "identifier linkage",
-        "bilingual field presence"
-      ],
-      "conflictOfInterest": "Automated system; no human scientific expertise is claimed.",
-      "decision": "automated-audit-only"
-    }
-  ],
-  "version": "2026.08-static-v5-rc3"
+  "openIssues": [
+    "No maintainer review packet has been completed.",
+    "No external domain-expert review has been performed."
+  ]
 }

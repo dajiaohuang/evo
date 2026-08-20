@@ -1,7 +1,7 @@
 import { describe, expect, it } from 'vitest'
 import { strFromU8, unzipSync } from 'fflate'
 import type { FossilOccurrence } from '../types'
-import { createQueryPackage, filterFossils, fossilsToCsv, fossilsToGeoJson, LabQueryError, validateLabQuery, type LabQuery } from './lab'
+import { createQueryPackage, diffLabQueries, filterFossils, fossilsToCsv, fossilsToGeoJson, LabQueryError, validateLabQuery, type LabQuery } from './lab'
 
 const records: FossilOccurrence[] = [
   { oid: 'occ:1', tna: 'Hipparion', idn: '', tid: 'txn:1', rnk: 5, lng: '10', lat: '20', paleolng: 12, paleolat: 22, eag: 10, lag: 8, cid: 'c1', oei: '', cc2: 'CN' },
@@ -31,13 +31,17 @@ describe('lab query helpers', () => {
     }
   })
 
+  it('diffs saved query definitions without treating missing optional filters as changes', () => {
+    expect(diffLabQueries(query, { ...query, formation: '', taxon: 'teleo' }).map((change) => change.field)).toEqual(['taxon'])
+  })
+
   it('neutralizes spreadsheet formulas in text cells', () => {
     const dangerous = [{ ...records[0], tna: '=HYPERLINK("https://example.test")' }]
     expect(fossilsToCsv(dangerous)).toContain("'=HYPERLINK")
   })
 
-  it('creates a reproducible zip payload', () => {
-    const payload = createQueryPackage({
+  it('creates a reproducible zip payload', async () => {
+    const payload = await createQueryPackage({
       query,
       records,
       stats: { totalMatched: 2, returned: 2, uniqueTaxa: 2, countries: 2, paleoCoordinateCoverage: 0.5, modernCoordinateCoverage: 1 },
@@ -49,6 +53,9 @@ describe('lab query helpers', () => {
     expect(payload.byteLength).toBeGreaterThan(500)
     const files = unzipSync(payload)
     expect(Object.keys(files)).toContain('release.json')
+    expect(Object.keys(files)).toContain('checksums.txt')
+    expect(Object.keys(files)).toContain('chart.svg')
+    expect(Object.keys(files)).toContain('methods.md')
     expect(JSON.parse(strFromU8(files['release.json'])).datasetVersion).toBe('2026.08-static-v5-rc3')
   })
 })

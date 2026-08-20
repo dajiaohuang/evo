@@ -31,7 +31,7 @@ describe('static runtime release coherence', () => {
       platformMaturity: 'published',
       scientificMaturity: 'generated-scaffold',
       automatedReviewStatus: 'passed',
-      scientificReviewStatus: 'not-reviewed',
+      reviewStatus: 'not-reviewed',
       queryCoverage: {
         completeness: 'bounded',
         upstreamReportedTotal: null,

@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "packageId": "angiospermae",
+  "examples": [
+    {
+      "id": "angiospermae-tree-preset",
+      "type": "explorer-preset",
+      "title": {
+        "en": "Angiosperms and Grasses tree context",
+        "zh": "被子植物与禾草树状背景"
+      },
+      "description": {
+        "en": "A stable Explorer entry point for inspecting the package registry context and currently available occurrence evidence.",
+        "zh": "用于检查该内容包注册表背景和当前可用出现证据的稳定探索器入口。"
+      },
+      "route": "#/explore?taxon=angiospermae&view=tree",
+      "entityIds": [
+        "angiospermae"
+      ],
+      "claimIds": [],
+      "evidenceStatus": "scaffold",
+      "limitations": [
+        "This preset is a navigation and data-inspection example, not a reviewed scientific conclusion."
+      ]
+    }
+  ]
+}

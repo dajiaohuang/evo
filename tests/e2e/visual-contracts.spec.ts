@@ -17,6 +17,7 @@ test('desktop home keeps primary paths and hero instrument in the opening compos
   expect(instrument).not.toBeNull()
   expect(instrument!.x).toBeGreaterThan(hero!.x + hero!.width / 2)
   await expectNoHorizontalOverflow(page)
+  await expect(page.locator('.hero')).toHaveScreenshot('home-hero-desktop.png', { animations: 'disabled', maxDiffPixelRatio: 0.01 })
 })
 
 test('mobile static dossier keeps evidence status, actions and prose inside the viewport', async ({ page }) => {
@@ -29,6 +30,7 @@ test('mobile static dossier keeps evidence status, actions and prose inside the 
   expect(status!.x).toBeGreaterThanOrEqual(0)
   expect(status!.x + status!.width).toBeLessThanOrEqual(391)
   await expectNoHorizontalOverflow(page)
+  await expect(page.locator('.status')).toHaveScreenshot('flagship-evidence-status-mobile.png', { animations: 'disabled', maxDiffPixelRatio: 0.01 })
 })
 
 test('first Explorer visit explains synchronized views once and remains dismissible', async ({ page }) => {
@@ -38,6 +40,7 @@ test('first Explorer visit explains synchronized views once and remains dismissi
   const guide = page.getByRole('complementary', { name: 'Explorer quick guide' })
   await expect(guide).toBeVisible()
   await expect(guide.getByRole('listitem')).toHaveCount(3)
+  await expect(guide).toHaveScreenshot('explorer-quick-guide-mobile.png', { animations: 'disabled', maxDiffPixelRatio: 0.01 })
   await guide.getByRole('button', { name: 'Start exploring' }).click()
   await expect(guide).toBeHidden()
   await page.reload()

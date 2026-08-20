@@ -1,15 +1,23 @@
-import { useCallback, useEffect, useMemo, useRef } from 'react'
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import * as d3 from 'd3'
 import { useAppStore } from '../../store'
 import type { TreeNode } from '../../types'
 import treeData from '../../../data/navigation/atlas-ontology.json'
 import perissodactylHypothesisData from '../../../data/packages/mammalia/perissodactyla/phylogeny/hypothesis.json'
+import calibrationData from '../../../data/packages/mammalia/perissodactyla/phylogeny/calibrations.json'
 import type { TreeDisplayMode } from '../../types'
 import { useI18n } from '../../i18n'
-import { getTaxonProfile } from '../../services/catalog'
+import { evolutionEvents, getTaxonProfile, taxonProfiles } from '../../services/catalog'
 import './EvoTree.css'
 
 export type TreeMode = TreeDisplayMode
+
+const mappedCalibrations = calibrationData.estimates.filter((estimate) => estimate.displayOnTree && estimate.mappingStatus === 'mapped' && estimate.nodeId)
+const traitOptions = [...new Set(taxonProfiles.flatMap((profile) => profile.traits))].sort((left, right) => left.localeCompare(right, 'en'))
+
+function normalizedLabel(value: string | undefined): string {
+  return String(value ?? '').toLowerCase().replace(/[^a-z0-9]+/g, '')
+}
 
 function findNode(nodes: TreeNode[], id: string): TreeNode | null {
   for (const node of nodes) {
@@ -30,9 +38,29 @@ function flattenNodes(node: TreeNode, output: TreeNode[] = []): TreeNode[] {
   return output
 }
 
+function newick(node: TreeNode): string {
+  const label = node.id.replace(/[^A-Za-z0-9_.-]/g, '_')
+  return `${node.children?.length ? `(${node.children.map(newick).join(',')})` : ''}${label}`
+}
+
+function downloadTree(node: TreeNode, format: 'newick' | 'nexus') {
+  const tree = `${newick(node)};`
+  const text = format === 'newick' ? `${tree}\n` : `#NEXUS\nBegin trees;\n  Tree evo_atlas = ${tree}\nEnd;\n`
+  const url = URL.createObjectURL(new Blob([text], { type: 'text/plain;charset=utf-8' }))
+  const anchor = document.createElement('a')
+  anchor.href = url
+  anchor.download = `evo-atlas-${node.id}.${format === 'newick' ? 'nwk' : 'nex'}`
+  anchor.click()
+  URL.revokeObjectURL(url)
+}
+
 export function EvoTree() {
   const { language, t } = useI18n()
   const svgRef = useRef<SVGSVGElement>(null)
+  const [collapsedIds, setCollapsedIds] = useState<Set<string>>(() => new Set())
+  const [traceLineage, setTraceLineage] = useState(false)
+  const [traitOverlay, setTraitOverlay] = useState('')
+  const [eventOverlay, setEventOverlay] = useState(false)
   const mode = useAppStore((state) => state.treeMode)
   const setMode = useAppStore((state) => state.setTreeMode)
   const currentAge = useAppStore((state) => state.currentAge)
@@ -42,6 +70,23 @@ export function EvoTree() {
     ? treeData as TreeNode
     : perissodactylHypothesisData.root as TreeNode, []), [mode])
   const activeNodeCount = alternativeNodes.filter((node) => activeAt(node, currentAge)).length
+  const exportTree = mode === 'navigation' || mode === 'radial' ? treeData as TreeNode : perissodactylHypothesisData.root as TreeNode
+  const selectedSourceNode = selectedNodeId ? findNode([exportTree], selectedNodeId) : null
+  const activeEventLabels = useMemo(() => new Set(eventOverlay
+    ? evolutionEvents.filter((event) => currentAge <= event.startAge && currentAge >= event.endAge).flatMap((event) => event.clades).map(normalizedLabel)
+    : []), [currentAge, eventOverlay])
+  const hasTrait = useCallback((node: TreeNode) => Boolean(traitOverlay && getTaxonProfile(node.id)?.traits.includes(traitOverlay)), [traitOverlay])
+  const hasEvent = useCallback((node: TreeNode) => activeEventLabels.has(normalizedLabel(node.id)) || activeEventLabels.has(normalizedLabel(node.name)) || activeEventLabels.has(normalizedLabel(node.commonName)), [activeEventLabels])
+  const nodeFill = useCallback((node: TreeNode) => hasEvent(node) ? '#d8aa68' : hasTrait(node) ? '#6ddab1' : node.extinct ? '#8b949e' : '#58a6ff', [hasEvent, hasTrait])
+  const toggleSelectedCollapse = () => {
+    if (!selectedSourceNode?.children?.length) return
+    setCollapsedIds((current) => {
+      const next = new Set(current)
+      if (next.has(selectedSourceNode.id)) next.delete(selectedSourceNode.id)
+      else next.add(selectedSourceNode.id)
+      return next
+    })
+  }
   const nodeLabel = useCallback((node: TreeNode) => {
     if (language !== 'zh') return node.commonName || node.name
     return getTaxonProfile(node.id)?.commonNameZh ?? node.commonNameZh ?? node.commonName ?? node.name
@@ -65,9 +110,14 @@ export function EvoTree() {
     const sourceTree = mode === 'navigation' || mode === 'radial'
       ? treeData as TreeNode
       : perissodactylHypothesisData.root as TreeNode
-    const root = d3.hierarchy(sourceTree)
+    const root = d3.hierarchy<TreeNode>(sourceTree, (node) => collapsedIds.has(node.id) ? undefined : node.children)
     const descendants = root.descendants()
     const maxAge = Math.max(1, ...descendants.map((node) => node.data.firstAppearance)) * 1.08
+    const selectedHierarchyNode = selectedNodeId ? descendants.find((node) => node.data.id === selectedNodeId) : null
+    const lineageIds = new Set(selectedHierarchyNode?.ancestors().map((node) => node.data.id) ?? [])
+    const inLineage = (node: d3.HierarchyNode<TreeNode>) => !traceLineage || !selectedHierarchyNode || lineageIds.has(node.data.id)
+    const nodeOpacity = (node: d3.HierarchyNode<TreeNode>, inactiveOpacity = .22) => inLineage(node) ? (activeAt(node.data, currentAge) ? 1 : inactiveOpacity) : .05
+    const linkOpacity = (link: d3.HierarchyLink<TreeNode>) => !traceLineage || !selectedHierarchyNode || (lineageIds.has(link.source.data.id) && lineageIds.has(link.target.data.id)) ? 1 : .05
 
     if (mode === 'fossil-range') {
       const rowHeight = 21
@@ -89,6 +139,7 @@ export function EvoTree() {
         .attr('tabindex', 0)
         .attr('aria-label', (node) => `${nodeLabel(node.data)}: ${node.data.firstAppearance}–${node.data.lastAppearance || t('present')} Ma`)
         .style('cursor', 'pointer')
+        .style('opacity', (node) => inLineage(node) ? 1 : .05)
         .on('click', (_event, node) => handleNodeClick(node.data.id))
         .on('keydown', (event: KeyboardEvent, node) => {
           if (event.key !== 'Enter' && event.key !== ' ') return
@@ -104,6 +155,7 @@ export function EvoTree() {
         .attr('x1', (node) => x(node.data.firstAppearance))
         .attr('x2', (node) => x(node.data.lastAppearance))
         .attr('data-active', (node) => activeAt(node.data, currentAge) ? 'true' : 'false')
+        .attr('stroke', (node) => hasEvent(node.data) || hasTrait(node.data) ? nodeFill(node.data) : null)
       rows.append('title').text((node) => `${node.data.name}: ${node.data.firstAppearance}–${node.data.lastAppearance || t('present')} Ma`)
       return
     }
@@ -118,7 +170,7 @@ export function EvoTree() {
       const radialLink = d3.linkRadial<d3.HierarchyPointLink<TreeNode>, d3.HierarchyPointNode<TreeNode>>()
         .angle((node) => node.x)
         .radius((node) => node.y)
-      radial.selectAll('path').data(root.links()).join('path').attr('class', 'tree-link').attr('d', (link) => radialLink(link as d3.HierarchyPointLink<TreeNode>))
+      radial.selectAll('path').data(root.links()).join('path').attr('class', 'tree-link').attr('d', (link) => radialLink(link as d3.HierarchyPointLink<TreeNode>)).style('opacity', linkOpacity)
       const nodes = radial.selectAll<SVGGElement, d3.HierarchyNode<TreeNode>>('g.node').data(root.descendants()).join('g')
         .attr('class', 'node')
         .attr('transform', (node) => {
@@ -127,7 +179,7 @@ export function EvoTree() {
         })
         .attr('role', 'treeitem').attr('tabindex', 0)
         .attr('aria-label', (node) => `${nodeLabel(node.data)}: ${node.data.firstAppearance}–${node.data.lastAppearance || t('present')} Ma`)
-        .style('cursor', 'pointer').style('opacity', (node) => activeAt(node.data, currentAge) ? 1 : .22)
+        .style('cursor', 'pointer').style('opacity', (node) => nodeOpacity(node))
         .on('click', (_event, node) => handleNodeClick(node.data.id))
         .on('keydown', (event: KeyboardEvent, node) => {
           if (event.key !== 'Enter' && event.key !== ' ') return
@@ -135,7 +187,7 @@ export function EvoTree() {
           handleNodeClick(node.data.id)
         })
       nodes.append('circle').attr('r', (node) => node.data.id === selectedNodeId ? 5.5 : 3.5)
-        .attr('fill', (node) => node.data.extinct ? '#8b949e' : '#58a6ff')
+        .attr('fill', (node) => nodeFill(node.data))
         .attr('stroke', (node) => node.data.id === selectedNodeId ? '#ffd700' : 'none').attr('stroke-width', 2)
       nodes.filter((node) => !node.children || node.depth < 2).append('text').attr('class', 'tree-node-label')
         .attr('x', 7).attr('y', 3)
@@ -166,7 +218,7 @@ export function EvoTree() {
           const source = link.source as d3.HierarchyPointNode<TreeNode>
           const target = link.target as d3.HierarchyPointNode<TreeNode>
           return `M${xFor(source)},${yFor(source)}H${xFor(target)}V${yFor(target)}`
-        })
+        }).style('opacity', linkOpacity)
 
       const nodes = g.selectAll<SVGGElement, d3.HierarchyNode<TreeNode>>('g.node').data(root.descendants()).join('g').attr('class', 'node')
         .attr('transform', (node) => {
@@ -175,7 +227,7 @@ export function EvoTree() {
         })
         .attr('role', 'treeitem').attr('tabindex', 0)
         .attr('aria-label', (node) => `${nodeLabel(node.data)}: ${node.data.firstAppearance}–${node.data.lastAppearance || t('present')} Ma`)
-        .style('cursor', 'pointer').style('opacity', (node) => activeAt(node.data, currentAge) ? 1 : .3)
+        .style('cursor', 'pointer').style('opacity', (node) => nodeOpacity(node, .3))
         .on('click', (_event, node) => handleNodeClick(node.data.id))
         .on('keydown', (event: KeyboardEvent, node) => {
           if (event.key !== 'Enter' && event.key !== ' ') return
@@ -183,6 +235,7 @@ export function EvoTree() {
           handleNodeClick(node.data.id)
         })
       drawNodes(nodes, selectedNodeId, 'right', nodeLabel, t('present'))
+      nodes.select('circle').attr('fill', (node) => nodeFill(node.data))
       return
     }
 
@@ -211,12 +264,12 @@ export function EvoTree() {
         const tx = link.target.x ?? 0
         const ty = link.target.y ?? 0
         return `M${sx},${sy}C${sx},${(sy + ty) / 2} ${tx},${(sy + ty) / 2} ${tx},${ty}`
-      })
+      }).style('opacity', linkOpacity)
     const nodes = g.selectAll<SVGGElement, d3.HierarchyNode<TreeNode>>('g.node').data(root.descendants()).join('g').attr('class', 'node')
       .attr('transform', (node) => `translate(${node.x},${node.y})`)
       .attr('role', 'treeitem').attr('tabindex', 0)
       .attr('aria-label', (node) => `${nodeLabel(node.data)}: ${node.data.firstAppearance}–${node.data.lastAppearance || t('present')} Ma`)
-      .style('cursor', 'pointer').style('opacity', (node) => activeAt(node.data, currentAge) ? 1 : .2)
+      .style('cursor', 'pointer').style('opacity', (node) => nodeOpacity(node, .2))
       .on('click', (_event, node) => handleNodeClick(node.data.id))
       .on('keydown', (event: KeyboardEvent, node) => {
         if (event.key !== 'Enter' && event.key !== ' ') return
@@ -224,7 +277,16 @@ export function EvoTree() {
         handleNodeClick(node.data.id)
       })
     drawNodes(nodes, selectedNodeId, 'above', nodeLabel, t('present'))
-  }, [currentAge, handleNodeClick, mode, nodeLabel, selectedNodeId, t])
+    nodes.select('circle').attr('fill', (node) => nodeFill(node.data))
+    if (mode === 'calibration') {
+      nodes.filter((node) => mappedCalibrations.some((estimate) => estimate.nodeId === node.data.id))
+        .append('text').attr('class', 'tree-calibration-label').attr('x', 8).attr('y', 14)
+        .text((node) => {
+          const estimate = mappedCalibrations.find((entry) => entry.nodeId === node.data.id)
+          return estimate ? `${estimate.medianMa} Ma · ${estimate.method}` : ''
+        })
+    }
+  }, [collapsedIds, currentAge, handleNodeClick, hasEvent, hasTrait, mode, nodeFill, nodeLabel, selectedNodeId, t, traceLineage])
 
   useEffect(() => { renderTree() }, [renderTree])
   useEffect(() => {
@@ -244,10 +306,21 @@ export function EvoTree() {
           ['cladogram', 'Periss. topology'],
           ['first-appearance', 'First appearance'],
           ['fossil-range', 'Fossil ranges'],
+          ['calibration', 'Calibration evidence'],
           ['radial', 'Radial'],
         ] as Array<[TreeMode, string]>).map(([value, label]) => (
           <button key={value} className={mode === value ? 'is-active' : ''} onClick={() => setMode(value)}>{t(label)}</button>
         ))}
+      </div>
+      <div className="tree-overlay-control" role="group" aria-label={t('Tree overlays and focus')}>
+        <button disabled={!selectedSourceNode?.children?.length} onClick={toggleSelectedCollapse}>{t(selectedSourceNode && collapsedIds.has(selectedSourceNode.id) ? 'Expand selected clade' : 'Collapse selected clade')}</button>
+        <button className={traceLineage ? 'is-active' : ''} aria-pressed={traceLineage} disabled={!selectedNodeId} onClick={() => setTraceLineage((current) => !current)}>{t('Lineage trace')}</button>
+        <label><span>{t('Trait overlay')}</span><select value={traitOverlay} onChange={(event) => setTraitOverlay(event.target.value)}><option value="">{t('No trait overlay')}</option>{traitOptions.map((trait) => <option value={trait} key={trait}>{trait}</option>)}</select></label>
+        <button className={eventOverlay ? 'is-active' : ''} aria-pressed={eventOverlay} onClick={() => setEventOverlay((current) => !current)}>{t('Event overlay')} · {activeEventLabels.size}</button>
+      </div>
+      <div className="tree-export-control" role="group" aria-label={t('Export topology')}>
+        <button onClick={() => downloadTree(exportTree, 'newick')}>{t('Newick')}</button>
+        <button onClick={() => downloadTree(exportTree, 'nexus')}>{t('Nexus')}</button>
       </div>
       <svg ref={svgRef} role="tree" aria-label={t('{mode} visualization of the tree of life', { mode: t(mode) })} />
       <details className="tree-data-alternative">
@@ -261,11 +334,18 @@ export function EvoTree() {
           </table>
         </div>
       </details>
+      <details className="tree-hypothesis-status">
+        <summary>{t('Competing hypothesis status')}</summary>
+        <p>{t('One scoped Perissodactyla topology hypothesis is bundled. Navigation ontology is not a competing phylogenetic hypothesis, so a scientific hypothesis comparison remains unavailable until another source-linked topology is added.')}</p>
+        <code>{perissodactylHypothesisData.id}</code>
+        <p>{t('{mapped} of {total} published divergence estimates map to an exact node; calibration mode annotates evidence without inventing time-scaled branch lengths.', { mapped: mappedCalibrations.length, total: calibrationData.estimates.length })}</p>
+      </details>
       <div className="tree-model-note">
         {mode === 'navigation' && t('Navigation ontology · convenient groupings may be paraphyletic and do not assert a phylogenetic hypothesis.')}
         {mode === 'cladogram' && t('Curated Perissodactyla hypothesis · branch length does not encode elapsed time.')}
         {mode === 'first-appearance' && t('Horizontal position uses curated first appearance as a fossil-record proxy, not a divergence-time estimate.')}
         {mode === 'fossil-range' && t('Bars show curated first–last appearance ranges; gaps and endpoints remain sampling-dependent.')}
+        {mode === 'calibration' && t('Published calibration evidence is annotated on mapped nodes; branch lengths remain non-time-scaled because the current ledger is incomplete.')}
         {mode === 'radial' && t('Radial mode supports high-level navigation; angular and radial distances do not encode elapsed time.')}
       </div>
     </div>

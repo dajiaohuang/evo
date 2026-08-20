@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "packageId": "perissodactyla",
+  "examples": [
+    {
+      "id": "perissodactyla-lineage-comparison",
+      "type": "comparison",
+      "title": {
+        "en": "Aquatic browsing and giant terrestrial browsing comparison",
+        "zh": "水栖取食与巨型陆栖取食比较"
+      },
+      "description": {
+        "en": "A reproducible entry point for comparing two richly described lineages without treating the interface as a phylogenetic result.",
+        "zh": "用于比较两个具有丰富档案的谱系的可复现入口；界面本身不构成系统发育结论。"
+      },
+      "route": "#/compare?left=metamynodon&right=paraceratherium",
+      "entityIds": [
+        "metamynodon",
+        "paraceratherium"
+      ],
+      "claimIds": [
+        "claim:taxon:metamynodon",
+        "claim:taxon:paraceratherium",
+        "claim:taxon:metamynodon:taxonomy",
+        "claim:taxon:metamynodon:fossil-range",
+        "claim:taxon:metamynodon:morphology",
+        "claim:taxon:metamynodon:biogeography",
+        "claim:taxon:paraceratherium:taxonomy",
+        "claim:taxon:paraceratherium:fossil-range",
+        "claim:taxon:paraceratherium:morphology",
+        "claim:taxon:paraceratherium:ecology",
+        "claim:taxon:paraceratherium:biogeography"
+      ],
+      "evidenceStatus": "available-with-limitations",
+      "limitations": [
+        "Comparison fields inherit each claim, range and occurrence source boundary; visible differences are not tests of evolutionary causation."
+      ]
+    }
+  ]
+}

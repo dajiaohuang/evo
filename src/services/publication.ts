@@ -1,15 +1,16 @@
 import manifest from '../../data/manifest.json'
 import packageRegistryData from '../../data/registry/package-registry.json'
 
-export type ScientificMaturity = 'core' | 'generated-scaffold' | 'curator-draft' | 'source-complete' | 'expert-reviewed' | 'published-featured'
-export type ScientificReviewStatus = 'not-reviewed' | 'in-review' | 'expert-reviewed'
+export type ScientificMaturity = 'generated-scaffold' | 'structured' | 'source-linked' | 'curated-draft' | 'published'
+export type ReviewStatus = 'not-reviewed' | 'in-review' | 'reviewed-with-caveats' | 'reviewed'
+export type EffectiveReviewStatus = ReviewStatus | 'stale'
 
 export interface PublicationStatus {
   packageId: string
   title: string
   titleZh: string
   scientificMaturity: ScientificMaturity
-  scientificReviewStatus: ScientificReviewStatus
+  reviewStatus: ReviewStatus
   automatedReviewStatus: 'pending' | 'passed' | 'failed'
 }
 
@@ -36,20 +37,21 @@ export function getEntityPublication(entityId: string | null | undefined): Publi
 
 export function scientificMaturityLabel(maturity: ScientificMaturity): string {
   return ({
-    core: 'Core navigation',
     'generated-scaffold': 'Generated scaffold',
-    'curator-draft': 'Curator draft',
-    'source-complete': 'Source complete',
-    'expert-reviewed': 'Expert reviewed',
-    'published-featured': 'Published featured',
+    structured: 'Structured',
+    'source-linked': 'Source linked',
+    'curated-draft': 'Curated draft',
+    published: 'Published',
   })[maturity]
 }
 
-export function reviewStatusLabel(status: ScientificReviewStatus): string {
+export function reviewStatusLabel(status: EffectiveReviewStatus): string {
   return ({
-    'not-reviewed': 'No human scientific review',
-    'in-review': 'Human review in progress',
-    'expert-reviewed': 'Expert reviewed',
+    'not-reviewed': 'Maintainer review not performed',
+    'in-review': 'Maintainer review in progress',
+    'reviewed-with-caveats': 'Maintainer reviewed with caveats',
+    reviewed: 'Maintainer reviewed',
+    stale: 'Review stale after content change',
   })[status]
 }
 

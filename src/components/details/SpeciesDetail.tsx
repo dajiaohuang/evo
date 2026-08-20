@@ -1,12 +1,15 @@
 import { useAppStore } from '../../store'
+import manifest from '../../../data/manifest.json'
 import treeData from '../../../data/navigation/atlas-ontology.json'
-import type { TreeNode } from '../../types'
+import type { FossilOccurrence, TreeNode } from '../../types'
 import type { TreeEvidenceCatalog, TreeEvidenceRecord } from '../../types'
 import treeEvidenceData from '../../../data/tree/evidence.json'
 import references from '../../../data/references.json'
 import { getSpatialPosition } from '../../utils/spatial'
 import { useI18n } from '../../i18n'
 import { getTaxonProfile } from '../../services/catalog'
+import { getClaimsForSubject } from '../../services/evidence'
+import { getEntityPublication, getPackagePublication } from '../../services/publication'
 
 function findNode(nodes: TreeNode[], id: string): TreeNode | null {
   for (const node of nodes) {
@@ -49,6 +52,7 @@ export function SpeciesDetail() {
   if (selectedOccurrence) {
     const paleoPosition = getSpatialPosition(selectedOccurrence, 'paleo')
     const modernPosition = getSpatialPosition(selectedOccurrence, 'modern')
+    const occurrenceNode = selectedOccurrence.tid ? findNodeByTaxon([treeData as TreeNode], selectedOccurrence.tid) : null
     return (
       <div style={{ padding: 16 }}>
         <button
@@ -131,6 +135,7 @@ export function SpeciesDetail() {
             <span className={!selectedOccurrence.tna ? 'is-warning' : ''}>{t(selectedOccurrence.tna ? 'Accepted name present' : 'Accepted name unresolved; original retained')}</span>
             <a href={`https://paleobiodb.org/classic/displayCollResults?collection_no=${selectedOccurrence.cid.replace('col:', '')}`} target="_blank" rel="noreferrer">{t('Open PBDB collection ↗')}</a>
           </div>
+          <EvidenceTrace entityId={occurrenceNode?.id ?? null} occurrence={selectedOccurrence} />
         </div>
       </div>
     )
@@ -195,6 +200,8 @@ export function SpeciesDetail() {
                 </div>
               </div>
             )}
+
+            <EvidenceTrace entityId={node.id} occurrence={null} />
 
             {node.taxonId && (
               <div style={{ padding: 10, background: 'var(--color-surface-alt)', borderRadius: 6 }}>
@@ -277,6 +284,41 @@ export function SpeciesDetail() {
         </>
       )}
     </div>
+  )
+}
+
+function EvidenceTrace({ entityId, occurrence }: { entityId: string | null, occurrence: FossilOccurrence | null }) {
+  const { language, t } = useI18n()
+  const claims = entityId ? getClaimsForSubject(`taxon:${entityId}`) : []
+  const publication = occurrence?.packageId ? getPackagePublication(occurrence.packageId) : getEntityPublication(entityId)
+  const referenceIds = [...new Set([
+    ...(occurrence?.referenceId ? [occurrence.referenceId] : []),
+    ...claims.flatMap((claim) => claim.referenceLinks.map((link) => link.referenceId)),
+  ])]
+  const referenceRecords = referenceIds.map((referenceId) => ({ referenceId, record: references.find((entry) => entry.id === referenceId) }))
+  const uncertainty = occurrence
+    ? [
+        `${t('Age range')}: ${occurrence.eag}–${occurrence.lag} Ma`,
+        occurrence.coordinatePrecision ? `${t('Coordinate precision')}: ${occurrence.coordinatePrecision}` : t('Coordinate precision unavailable'),
+        occurrence.packageAssignmentStatus === 'unresolved' ? t('Package assignment unresolved') : occurrence.packageAssignmentBasis ?? t('Package assignment basis unavailable'),
+      ]
+    : claims.length
+      ? claims.map((claim) => `${t(claim.confidence)} · ${language === 'zh' ? claim.confidenceRationaleZh : claim.confidenceRationale}`)
+      : [t('No claim-level evidence is bundled for this entity; scientific interpretation is unavailable.')]
+
+  return (
+    <section className="evidence-trace" aria-label={t('Evidence trace')}>
+      <header><span>{t('Evidence trace')}</span><strong>{manifest.datasetVersion}</strong></header>
+      <ol>
+        <li><small>01 · {t('Graphic selection')}</small><b>{occurrence ? t('Selected occurrence marker') : t('Selected tree node')}</b><code>{occurrence?.oid ?? entityId ?? t('unresolved')}</code></li>
+        <li><small>02 · {occurrence ? t('Occurrence / entity') : t('Entity')}</small><b>{occurrence?.tna || occurrence?.idn || entityId || t('Unresolved identification')}</b><code>{occurrence ? `${occurrence.cid} · ${entityId ?? t('entity unresolved')}` : entityId}</code></li>
+        <li><small>03 · {t('Claim')}</small>{claims.length ? claims.slice(0, 5).map((claim) => <div key={claim.id}><b>{claim.statement}</b><code>{claim.id} · {t(claim.confidence)}</code></div>) : <p>{t('No directly linked claim is available for this selection.')}</p>}</li>
+        <li><small>04 · {t('Reference')}</small>{referenceRecords.length ? referenceRecords.map(({ referenceId, record }) => record ? <a key={referenceId} href={record.url} target="_blank" rel="noreferrer"><b>{record.title}</b><code>{referenceId} ↗</code></a> : <div key={referenceId}><b>{t('Source identifier retained; full citation is not bundled.')}</b><code>{referenceId}</code></div>) : <p>{t('No directly linked reference is bundled for this selection.')}</p>}</li>
+        <li><small>05 · {t('Uncertainty')}</small>{uncertainty.slice(0, 5).map((item) => <p key={item}>{item}</p>)}</li>
+        <li><small>06 · {t('Package')}</small><b>{publication ? (language === 'zh' ? publication.titleZh : publication.title) : t('Package unresolved')}</b><code>{publication?.packageId ?? occurrence?.packageId ?? t('unresolved')}</code></li>
+        <li><small>07 · {t('Dataset version')}</small><b>{manifest.datasetVersion}</b><code>{manifest.generatedAt}</code></li>
+      </ol>
+    </section>
   )
 }
 

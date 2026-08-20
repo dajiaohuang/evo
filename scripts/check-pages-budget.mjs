@@ -78,7 +78,15 @@ if (!existsSync(buildMetricsPath)) {
   if (metrics.buildDurationMs > 7 * 60 * 1000) failures.push(`site build took ${(metrics.buildDurationMs / 60000).toFixed(2)} minutes; limit is 7 minutes`)
 }
 
-const appFiles = files.filter((path) => !relativePath(path).startsWith('data/'))
+const staticPageRoots = ['taxa', 'events', 'stories', 'intervals', 'formations', 'localities', 'traits', 'references', 'media', 'datasets', 'methods', 'zh']
+const staticPageFiles = files.filter((path) => {
+  const pathFromDist = relativePath(path)
+  return pathFromDist.endsWith('.html') && staticPageRoots.some((rootName) => pathFromDist.startsWith(`${rootName}/`))
+})
+const staticPageSet = new Set(staticPageFiles)
+const staticPageBytes = size(staticPageFiles)
+if (staticPageBytes > 80 * 1024 * 1024) failures.push(`static knowledge publication is ${(staticPageBytes / 1024 / 1024).toFixed(2)} MiB; limit is 80 MiB`)
+const appFiles = files.filter((path) => !relativePath(path).startsWith('data/') && !staticPageSet.has(path))
 if (size(appFiles) > 20 * 1024 * 1024) failures.push(`application shell is ${(size(appFiles) / 1024 / 1024).toFixed(2)} MiB; target is 20 MiB`)
 
 if (failures.length) {

@@ -1,6 +1,6 @@
 # Data package authoring
 
-Packages are static projections over shared canonical concepts, claims, references, ranges, occurrences and review records. Read `docs/static-data-platform-v5.md` before changing a package.
+Packages are static projections over shared canonical concepts, claims, references, ranges and occurrences. Each package owns one manually maintained `review.json`; read `docs/static-data-platform-v5.md` and `docs/review-workflow.md` before changing a package.
 
 ## 1. Define scope
 
@@ -12,7 +12,7 @@ Pin external taxon concepts in `data/sources/pbdb-taxon-resolution.json`. Unreso
 
 ## 3. Write claims before narrative
 
-Scientific statements need typed claims and at least one supporting reference relation. Source metadata must declare its role and fitness. Concrete page, table, figure or quote locators are required before `source-complete`.
+Scientific statements need typed claims and at least one supporting reference relation. Source metadata must declare its role and fitness. Concrete page, table, figure or quote locators are required before a package can reach `source-linked`; a current digest-bound maintainer decision is additionally required for `published`.
 
 ## 4. Record query coverage
 
@@ -31,4 +31,4 @@ Files listed in `data/registry/generated-files.json` are generated. Change their
 
 ## 6. Review and publish
 
-Follow `SCIENTIFIC_REVIEW.md`. Automated validation may publish a generated scaffold or curator draft but may not create an expert-reviewed badge. Run `npm run verify`; inspect the generated static knowledge page, direct Explorer state, offline package and evidence-correction link.
+Follow `docs/review-workflow.md`. Automated validation may publish a clearly labelled scaffold, but it may not create a maintainer-review decision. Generate a new review packet after canonical content changes. Run `npm run verify`; inspect the generated static knowledge page, direct Explorer state, offline package and evidence-correction link.

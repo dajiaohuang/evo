@@ -2,9 +2,10 @@ import Ajv2020 from 'ajv/dist/2020.js'
 import { existsSync, readFileSync, readdirSync, statSync } from 'node:fs'
 import { dirname, join } from 'node:path'
 import { countTreeNodes, readJson, rootDir } from './data-lib.mjs'
+import { completedReviewStatuses, evaluatePackageReview } from './check-review-freshness.mjs'
 
 const unique = (items) => new Set(items).size === items.length
-const scientificMaturityOrder = ['generated-scaffold', 'curator-draft', 'source-complete', 'expert-reviewed', 'published-featured']
+const scientificMaturityOrder = ['generated-scaffold', 'structured', 'source-linked', 'curated-draft', 'published']
 const scientificMaturityAtLeast = (value, minimum) => scientificMaturityOrder.indexOf(value) >= scientificMaturityOrder.indexOf(minimum)
 const scientificSourceRoles = new Set(['primary-study', 'systematic-review'])
 const claimFitness = { taxonomy: 'taxonomy', topology: 'topology', 'divergence-time': 'geochronology', 'fossil-range': 'range', biogeography: 'biogeography', morphology: 'morphology', ecology: 'ecology', 'event-mechanism': 'event-mechanism' }
@@ -64,9 +65,9 @@ function registryFailures() {
     if (packageEntry.entityCount !== count) failures.push(`package ${packageEntry.id}: entityCount is stale`)
     if (packageEntry.platformMaturity !== 'published') failures.push(`package ${packageEntry.id}: generated release packages must be platform-published`)
     if (packageEntry.automatedReviewStatus !== 'passed') failures.push(`package ${packageEntry.id}: automated validation must pass before publication`)
-    if (packageEntry.id === 'atlas-core' && packageEntry.scientificMaturity !== 'core') failures.push('package atlas-core: scientificMaturity must be core')
-    if (packageEntry.id !== 'atlas-core' && !scientificMaturityOrder.includes(packageEntry.scientificMaturity)) failures.push(`package ${packageEntry.id}: invalid scientificMaturity`)
-    if (packageEntry.scientificReviewStatus !== 'expert-reviewed' && scientificMaturityAtLeast(packageEntry.scientificMaturity, 'expert-reviewed')) failures.push(`package ${packageEntry.id}: expert-reviewed maturity requires scientific review`)
+    if (!scientificMaturityOrder.includes(packageEntry.scientificMaturity)) failures.push(`package ${packageEntry.id}: invalid scientificMaturity`)
+    if (packageEntry.id === 'atlas-core' && packageEntry.scientificMaturity !== 'structured') failures.push('package atlas-core: scientificMaturity must be structured')
+    if (packageEntry.scientificMaturity === 'published' && !completedReviewStatuses.has(packageEntry.reviewStatus)) failures.push(`package ${packageEntry.id}: published maturity requires a completed maintainer review`)
   }
   return failures
 }
@@ -79,6 +80,9 @@ function packageFailures() {
   const validateRange = schemaValidator('data/schemas/range-evidence.schema.json')
   const validateTranslation = schemaValidator('data/schemas/translation.schema.json')
   const validatePhylogeny = schemaValidator('data/schemas/phylogeny.schema.json')
+  const validatePhylogenyStatus = schemaValidator('data/schemas/phylogeny-status.schema.json')
+  const validateResearchExamples = schemaValidator('data/schemas/research-examples.schema.json')
+  const validateReference = schemaValidator('data/schemas/reference.schema.json')
   const validateCalibration = schemaValidator('data/schemas/calibration.schema.json')
   const validateQueryLedger = schemaValidator('data/schemas/query-ledger.schema.json')
   const referencesById = new Map(readJson('data/references.json').map((reference) => [reference.id, reference]))
@@ -93,7 +97,7 @@ function packageFailures() {
     const packageData = readJson(path)
     failures.push(...schemaFailure(validatePackage, packageData, `package ${entry.id}`))
     if (packageData.id !== entry.id) failures.push(`package ${entry.id}: package.json ID mismatch`)
-    for (const field of ['platformMaturity', 'scientificMaturity', 'automatedReviewStatus', 'scientificReviewStatus']) {
+    for (const field of ['platformMaturity', 'scientificMaturity', 'automatedReviewStatus', 'reviewStatus']) {
       if (packageData[field] !== entry[field]) failures.push(`package ${entry.id}: ${field} does not match the package registry`)
     }
     const expectedIds = entities.filter((entity) => entity.packageId === entry.id).map((entity) => entity.id)
@@ -102,11 +106,34 @@ function packageFailures() {
       const checkPath = source.includes('*') ? dirname(source) : source
       if (!existsSync(join(rootDir, checkPath))) failures.push(`package ${entry.id}: missing canonical source ${source}`)
     }
-    for (const companion of ['provenance.json', 'review.json', 'query-ledger.json']) {
+    for (const companion of ['provenance.json', 'review.json', 'query-ledger.json', 'references.json', 'research-examples.json', 'phylogeny/status.json']) {
       if (!existsSync(join(rootDir, entry.canonicalPath, companion))) failures.push(`package ${entry.id}: missing ${companion}`)
     }
+    const phylogenyStatus = readJson(`${entry.canonicalPath}/phylogeny/status.json`)
+    failures.push(...schemaFailure(validatePhylogenyStatus, phylogenyStatus, `package ${entry.id} phylogeny status`))
+    if (phylogenyStatus.packageId !== entry.id) failures.push(`package ${entry.id}: phylogeny status packageId mismatch`)
+    if (phylogenyStatus.status === 'available' && !existsSync(join(rootDir, entry.canonicalPath, phylogenyStatus.topologyPath))) failures.push(`package ${entry.id}: published topology path does not exist`)
+    for (const entityId of phylogenyStatus.scopeEntityIds) if (!expectedIds.includes(entityId)) failures.push(`package ${entry.id}: phylogeny scope references out-of-package entity ${entityId}`)
+    const researchExamples = readJson(`${entry.canonicalPath}/research-examples.json`)
+    failures.push(...schemaFailure(validateResearchExamples, researchExamples, `package ${entry.id} research examples`))
+    if (researchExamples.packageId !== entry.id) failures.push(`package ${entry.id}: research examples packageId mismatch`)
+    const allClaimIds = new Set(readJson('data/evidence/claims.json').map((claim) => claim.id))
+    for (const example of researchExamples.examples) {
+      for (const entityId of example.entityIds) if (!expectedIds.includes(entityId)) failures.push(`package ${entry.id} research example ${example.id}: out-of-package entity ${entityId}`)
+      for (const claimId of example.claimIds) if (!allClaimIds.has(claimId)) failures.push(`package ${entry.id} research example ${example.id}: unknown claim ${claimId}`)
+      if (example.evidenceStatus === 'available-with-limitations' && !example.claimIds.length) failures.push(`package ${entry.id} research example ${example.id}: published example requires claim links`)
+    }
     const packageClaimIds = readJson(`${entry.canonicalPath}/evidence/claim-ids.json`)
-    const review = readJson(`${entry.canonicalPath}/review.json`)
+    const packageReferences = readJson(`${entry.canonicalPath}/references.json`)
+    for (const reference of packageReferences) failures.push(...schemaFailure(validateReference, reference, `package ${entry.id} reference ${reference.id}`))
+    const packageReferenceIds = new Set(packageReferences.map((reference) => reference.id))
+    const requiredReferenceIds = new Set([
+      ...entities.filter((entity) => expectedIds.includes(entity.id)).flatMap((entity) => entity.referenceIds),
+      ...readJson(`${entry.canonicalPath}/ranges.json`).flatMap((range) => range.referenceLocators.map((locator) => locator.referenceId)),
+      ...readJson('data/evidence/claims.json').filter((claim) => packageClaimIds.includes(claim.id)).flatMap((claim) => claim.referenceLinks.map((link) => link.referenceId)),
+    ])
+    for (const referenceId of requiredReferenceIds) if (!packageReferenceIds.has(referenceId)) failures.push(`package ${entry.id}: reference subset omits ${referenceId}`)
+    for (const referenceId of packageReferenceIds) if (!referencesById.has(referenceId)) failures.push(`package ${entry.id}: reference subset contains unknown ${referenceId}`)
     const queryLedger = readJson(`${entry.canonicalPath}/query-ledger.json`)
     failures.push(...schemaFailure(validateQueryLedger, queryLedger, `package ${entry.id} query ledger`))
     if (queryLedger.packageId !== entry.id) failures.push(`package ${entry.id}: query ledger packageId mismatch`)
@@ -114,8 +141,7 @@ function packageFailures() {
     if (queryLedger.completeness === 'complete' && queryLedger.upstreamReportedTotal !== queryLedger.rowsFetched) failures.push(`package ${entry.id}: complete query ledger must retain and match the upstream total`)
     if (entry.id === 'perissodactyla' && queryLedger.completeness !== 'complete') failures.push('package perissodactyla: flagship query ledger must preserve complete pagination')
     if (entry.id !== 'perissodactyla' && queryLedger.completeness === 'complete') failures.push(`package ${entry.id}: legacy bounded sample must not claim complete coverage`)
-    if (packageClaimIds.length === 0 && entry.id !== 'atlas-core' && scientificMaturityAtLeast(packageData.scientificMaturity, 'source-complete')) failures.push(`package ${entry.id}: packages without claims cannot exceed curator-draft`)
-    if (review.scientificPeerReview === false && scientificMaturityAtLeast(packageData.scientificMaturity, 'expert-reviewed')) failures.push(`package ${entry.id}: expert-reviewed or published-featured maturity requires scientificPeerReview`)
+    if (packageClaimIds.length === 0 && entry.id !== 'atlas-core' && scientificMaturityAtLeast(packageData.scientificMaturity, 'source-linked')) failures.push(`package ${entry.id}: packages without claims cannot reach source-linked maturity`)
     const ranges = readJson(`${entry.canonicalPath}/ranges.json`)
     for (const range of ranges) {
       failures.push(...schemaFailure(validateRange, range, `package ${entry.id} range ${range.id}`))
@@ -131,17 +157,17 @@ function packageFailures() {
       }
       if (range.evidenceLevel === 'expert-reviewed' && range.reviewStatus !== 'expert-reviewed') failures.push(`package ${entry.id} range ${range.id}: expert-reviewed evidence level requires expert review status`)
     }
-    if (packageData.scientificMaturity === 'published-featured') {
+    if (packageData.scientificMaturity === 'published') {
       for (const range of ranges) {
-        if (!range.referenceLocators.some((locator) => scientificSourceRoles.has(referencesById.get(locator.referenceId)?.sourceRole) && referencesById.get(locator.referenceId)?.fitnessFor.includes('range') && referencesById.get(locator.referenceId)?.metadataAssignment === 'curator-reviewed')) failures.push(`package ${entry.id} range ${range.id}: published-featured requires curator-reviewed metadata for a range-fit primary study or systematic review`)
-        if (!range.claimIds.length || range.reviewStatus !== 'expert-reviewed' || range.evidenceLevel !== 'expert-reviewed') failures.push(`package ${entry.id} range ${range.id}: published-featured requires expert-reviewed claim linkage and evidence level`)
+        if (!range.referenceLocators.some((locator) => scientificSourceRoles.has(referencesById.get(locator.referenceId)?.sourceRole) && referencesById.get(locator.referenceId)?.fitnessFor.includes('range') && referencesById.get(locator.referenceId)?.metadataAssignment === 'curator-reviewed')) failures.push(`package ${entry.id} range ${range.id}: published maturity requires curator-reviewed metadata for a range-fit primary study or systematic review`)
+        if (!range.claimIds.length) failures.push(`package ${entry.id} range ${range.id}: published maturity requires claim linkage`)
       }
       const claims = readJson('data/evidence/claims.json').filter((claim) => packageClaimIds.includes(claim.id))
       for (const claim of claims) {
-        if (!claim.referenceLinks.some((link) => link.relation === 'supports' && scientificSourceRoles.has(referencesById.get(link.referenceId)?.sourceRole) && referencesById.get(link.referenceId)?.fitnessFor.includes(claimFitness[claim.claimType]) && referencesById.get(link.referenceId)?.metadataAssignment === 'curator-reviewed' && (link.pages || link.figure || link.quoteLocator) && !/pending/i.test(link.pages ?? link.figure ?? link.quoteLocator ?? ''))) failures.push(`package ${entry.id} claim ${claim.id}: published-featured requires curator-reviewed fit primary/review metadata and a concrete locator`)
+        if (!claim.referenceLinks.some((link) => link.relation === 'supports' && scientificSourceRoles.has(referencesById.get(link.referenceId)?.sourceRole) && referencesById.get(link.referenceId)?.fitnessFor.includes(claimFitness[claim.claimType]) && referencesById.get(link.referenceId)?.metadataAssignment === 'curator-reviewed' && (link.pages || link.figure || link.quoteLocator) && !/pending/i.test(link.pages ?? link.figure ?? link.quoteLocator ?? ''))) failures.push(`package ${entry.id} claim ${claim.id}: published maturity requires curator-reviewed fit primary/review metadata and a concrete locator`)
       }
-      const humanReviewers = review.reviewers.filter((reviewer) => reviewer.identityType === 'human' && reviewer.orcid && reviewer.expertise.length && reviewer.reviewScope.includes('all-scientific-claims'))
-      if (!humanReviewers.length) failures.push(`package ${entry.id}: published-featured requires an identified human domain reviewer with ORCID, expertise, scope and conflict disclosure`)
+      const effectiveReview = evaluatePackageReview(entry.id)
+      if (!completedReviewStatuses.has(effectiveReview.effectiveReviewStatus)) failures.push(`package ${entry.id}: published maturity requires a current maintainer review`)
     }
     failures.push(...schemaFailure(validateTranslation, readJson(`${entry.canonicalPath}/locales/zh.json`), `package ${entry.id} Chinese locale`))
     if (entry.id === 'perissodactyla') {
@@ -247,20 +273,14 @@ function provenanceFailures() {
 function reviewFailures() {
   const failures = []
   const registry = readJson('data/registry/package-registry.json')
-  const entities = readJson('data/registry/entities/entities.json')
-  const validateReview = schemaValidator('data/schemas/review.schema.json')
+  const validateReview = schemaValidator('data/schemas/package-review.schema.json')
   for (const entry of registry.packages) {
     const review = readJson(`${entry.canonicalPath}/review.json`)
     failures.push(...schemaFailure(validateReview, review, `package review ${entry.id}`))
     if (review.subjectId !== `package:${entry.id}`) failures.push(`package ${entry.id}: review subject mismatch`)
-    if (review.reviewedDatasetVersion !== registry.version) failures.push(`package ${entry.id}: review dataset version is stale`)
-    if (review.scientificPeerReview && !review.reviewers.some((reviewer) => reviewer.identityType === 'human')) failures.push(`package ${entry.id}: scientific peer review requires a human reviewer record`)
-    if (!review.scientificPeerReview && review.decision !== 'automated-audit-only') failures.push(`package ${entry.id}: non-scientific review must retain the automated-audit-only decision`)
-    if (review.scientificPeerReview && !['accepted', 'accepted-with-reservations'].includes(review.decision)) failures.push(`package ${entry.id}: scientific review requires an explicit acceptance decision`)
-  }
-  for (const entity of entities) {
-    if (entity.review.scientificPeerReview && entity.review.status !== 'expert-reviewed') failures.push(`entity ${entity.id}: scientific peer review requires expert-reviewed status`)
-    if (entity.review.status === 'automated-audit-passed' && entity.review.scientificPeerReview) failures.push(`entity ${entity.id}: automated review must not claim scientific peer review`)
+    if (entry.reviewStatus !== review.status) failures.push(`package ${entry.id}: reviewStatus does not match review.json`)
+    const effective = evaluatePackageReview(entry.id)
+    if (completedReviewStatuses.has(review.status) && effective.freshness !== 'current') failures.push(`package ${entry.id}: completed maintainer review is stale for the current content digest`)
   }
   return failures
 }
