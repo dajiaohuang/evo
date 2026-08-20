@@ -24,6 +24,14 @@ jobs:
       - run: npm ci
       - run: npx playwright install --with-deps chromium firefox webkit
       - run: npm run verify
+      - name: Upload Playwright failure artifacts
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: playwright-test-results-linux
+          path: test-results
+          if-no-files-found: ignore
+          retention-days: 7
 
   windows-data-and-types:
     runs-on: windows-latest
