@@ -24,7 +24,7 @@ npm run verify
 
 ## Scientific integrity
 
-Automated validation is never scientific review. Do not mark a package `expert-reviewed` unless a qualified, identified human reviewer has recorded the reviewed scope, dataset version, decision, expertise and conflict-of-interest statement. ORCID is recommended for expert-reviewed content and required by the published-featured gate.
+Automated validation is never scientific review. Use only the package maturity values defined by `data/schemas/package.schema.json`: `generated-scaffold`, `structured`, `source-linked`, `curated-draft` and `published`. A `published` package requires the current maintainer-review and evidence gates enforced by `npm run data:validate`. Maintainer review and external domain-expert review remain separate disclosures; never infer either from automated checks.
 
 Prefer a small, well-sourced vertical slice over broad generated coverage. Do not add AI-written scientific summaries unless every visible scientific statement maps to an appropriate claim and reference.
 

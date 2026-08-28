@@ -3,7 +3,7 @@
 ## 2026.08-static-v5-rc3 — 2026-08-20
 
 - Added a validated query ledger to every package. Perissodactyla records complete pinned PBDB pagination and profile subqueries; all legacy package partitions explicitly retain their bounded, non-random coverage status.
-- Replaced ambiguous scientific-stage labels with the public ladder `generated-scaffold → curator-draft → source-complete → expert-reviewed → published-featured`.
+- Replaced ambiguous scientific-stage labels with the public ladder `generated-scaffold → structured → source-linked → curated-draft → published`.
 - Added explicit automated-only review decisions, reviewed dataset versions and per-reviewer decisions without claiming human scientific review.
 - Added content-origin labels to every visible Perissodactyla profile field and a release gate for the flagship story’s step-to-claim-to-reference chain.
 - Added bilingual static knowledge pages, canonical and social metadata, structured data, sitemap/feed output and public evidence-correction context.
