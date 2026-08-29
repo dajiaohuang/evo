@@ -1,5 +1,14 @@
 # Dataset changelog
 
+## 2026.08-static-v5-rc9 — 2026-08-29
+
+- Replaced the 12-period-only map payload with 1,889 checksum-addressed CAO2024 v2.4 frames spanning the complete documented 0–1,800 Ma model range.
+- Added disclosed layer-specific sampling: 5/10 Myr coastlines; 1/5/10 Myr dynamic topology; 10/20 Myr continental extent and COBs; and 20/40 Myr rigid static partitions.
+- Added 162 representative ages to each dynamic topology series so 287 short-lived source topology records are not skipped by the baseline grid.
+- Reconstructed every frame offline from all 11 byte-verified immutable Zenodo source files with pyGPlates, deterministic antimeridian wrapping and compressed-file checksums.
+- Made runtime selection independent per layer, with nearest-frame selection, younger-frame tie breaking, explicit requested/selected age deltas, no interpolation and no out-of-range clamping.
+- Reused canonical compressed frames for the retained period anchors, removing 72 duplicate uncompressed map files while keeping the six scientific layer roles distinct.
+
 ## 2026.08-static-v5-rc8 — 2026-08-29
 
 - Expanded all 12 CAO2024 period-midpoint snapshots from three to six layer families by adding modelled continental-crust extent, filtered continent–ocean transition boundaries and rigid static reconstruction partitions.

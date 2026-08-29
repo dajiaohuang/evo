@@ -1,0 +1,42 @@
+# Offline CAO2024 reconstruction
+
+`scripts/reconstruct_cao2024_offline.py` reconstructs the immutable CAO2024 v2.4
+Zenodo payloads with pyGPlates. It is a maintainer-only build tool; Python,
+pyGPlates and the source model are not application dependencies.
+
+The default `layer-grid` is the baseline runtime grid in
+`scripts/paleogeography-grid-lib.mjs`. Coastlines use 5 Myr sampling through
+540 Ma and 10 Myr thereafter. Dynamic topological plates and boundaries use
+1 Myr sampling through 250 Ma, 5 Myr through 1,000 Ma and 10 Myr thereafter.
+Continental polygons and COBs use 10/20 Myr; static polygons use 20/40 Myr.
+Every layer additionally retains 0 Ma, 1,800 Ma and all 12 geological-period
+midpoints. The checked-in release contains 1,889 compressed frames: 247
+coastlines, 655 dynamic plate polygons, 655 typed plate boundaries, 130
+continental polygons, 130 COB frames and 72 static partitions. The two
+topology series include 162 additional representative ages covering 287
+short-lived source topology records that the baseline cadence would skip.
+
+Run the complete layer-first series from the repository root:
+
+```powershell
+rtk python scripts/reconstruct_cao2024_offline.py --model-root <CAO2024-model-root> --pygplates-path <pygplates-install-root> --ages layer-grid --layers all --output-dir data\paleogeography --provenance data\paleogeography\provenance.json --topology-interval-report data\paleogeography\topology-transition-ledger.json --retrieved-at YYYY-MM-DD --script-commit <generation-base-commit>
+```
+
+Frames are written deterministically as
+`series/<layer>/ma-XXXX.XXX.json.gz`. After each frame, schema-3 provenance is
+updated with `ageMa`, `geometryFile`, compressed `geometryBytes`, compressed-file
+`geometrySha256`, and `geometryFeatures`. A rerun verifies the recorded gzip
+SHA-256 and decompressed feature count before skipping a completed frame.
+
+For a single known-age comparison against the period-midpoint files, use
+`--age 104.55 --period Cretaceous --snapshot-id cretaceous-104.55ma
+--compare-dir data\paleogeography --compare-prefix cretaceous --report <path>`.
+The report distinguishes exact normalized payload matches from feature splitting
+differences. Denser frames are model interpolation, not denser observations, and
+none of these layers represents elevation, bathymetry or terrain relief.
+
+Run the direct tests with:
+
+```powershell
+rtk python -m unittest scripts/reconstruct_cao2024_offline_test.py
+```

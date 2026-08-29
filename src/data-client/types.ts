@@ -138,6 +138,31 @@ export interface RuntimeMapSnapshot {
   layers: Partial<Record<import('../types').PaleogeographyLayerId, RuntimeFile>> | null
 }
 
+export interface RuntimeMapCadenceBand {
+  youngestMa: number
+  oldestMa: number
+  cadenceMa: number
+}
+
+export interface RuntimeMapFrame extends RuntimeFile {
+  ageMa: number
+  featureCount: number
+}
+
+export interface RuntimeMapLayer {
+  role: string
+  cadenceBands: RuntimeMapCadenceBand[]
+  frames: RuntimeMapFrame[]
+}
+
+export interface RuntimeMapFrameSelection {
+  layerId: import('../types').PaleogeographyLayerId
+  requestedAgeMa: number
+  selectedAgeMa: number
+  deltaMa: number
+  frame: RuntimeMapFrame
+}
+
 export interface RuntimeMapManifest {
   schemaVersion: number
   version: string
@@ -151,6 +176,14 @@ export interface RuntimeMapManifest {
     retrievedAt: string
   }
   scientificLimitations: string[]
+  ageRangeMa?: { youngest: number; oldest: number }
+  selectionPolicy?: {
+    method: 'nearest'
+    tieBreak: 'younger'
+    outsideRange: 'unavailable'
+  }
+  layers?: Record<import('../types').PaleogeographyLayerId, RuntimeMapLayer>
+  /** Compatibility metadata for period descriptions and older releases. */
   snapshots: RuntimeMapSnapshot[]
 }
 

@@ -1,7 +1,7 @@
 import { createHash } from 'node:crypto'
 import { mkdirSync, readFileSync, readdirSync, rmSync, statSync, writeFileSync } from 'node:fs'
-import { dirname, join, relative, resolve, sep } from 'node:path'
-import { gzipSync } from 'node:zlib'
+import { basename, dirname, join, relative, resolve, sep } from 'node:path'
+import { gunzipSync, gzipSync } from 'node:zlib'
 import { strToU8, zipSync } from 'fflate'
 import { flattenTree, readJson, rootDir } from './data-lib.mjs'
 import { evaluatePackageReview } from './check-review-freshness.mjs'
@@ -337,15 +337,88 @@ for (const packageEntry of registry.packages) {
 
 const occurrenceManifestFile = writeJson('occurrences/manifest.json', occurrenceManifest, true)
 const paleogeographyByPeriod = new Map(paleogeographyProvenance.snapshots.map((snapshot) => [snapshot.period, snapshot]))
+const paleogeographyLayerIds = ['coastlines', 'platePolygons', 'plateBoundaries', 'continentalPolygons', 'continentOceanBoundaries', 'staticPolygons']
+const hasPaleogeographySeries = paleogeographyProvenance.schemaVersion >= 3
+const publishedMapFramePaths = new Set()
+
+function publishCanonicalMapFrame(layerId, frame) {
+  if (!Number.isFinite(frame.ageMa)) throw new Error(`${layerId}: map frame has an invalid ageMa`)
+  if (!Number.isInteger(frame.geometryFeatures) || frame.geometryFeatures < 0) throw new Error(`${layerId} ${frame.ageMa} Ma: map frame has an invalid geometryFeatures count`)
+  if (!frame.geometryFile?.endsWith('.json.gz')) throw new Error(`${layerId} ${frame.ageMa} Ma: canonical frame must be a .json.gz file`)
+  if (!Number.isInteger(frame.geometryBytes) || frame.geometryBytes < 1 || !/^[a-f0-9]{64}$/.test(frame.geometrySha256 ?? '')) {
+    throw new Error(`${layerId} ${frame.ageMa} Ma: canonical frame is missing its byte count or SHA-256`)
+  }
+  const sourcePath = resolve(rootDir, frame.geometryFile)
+  const canonicalRoot = resolve(rootDir, 'data/paleogeography')
+  if (!sourcePath.startsWith(`${canonicalRoot}${sep}`)) throw new Error(`${layerId} ${frame.ageMa} Ma: canonical frame is outside data/paleogeography`)
+  const bytes = readFileSync(sourcePath)
+  const actualSha256 = sha256(bytes)
+  if (bytes.byteLength !== frame.geometryBytes || actualSha256 !== frame.geometrySha256) {
+    throw new Error(`${layerId} ${frame.ageMa} Ma: canonical frame bytes or SHA-256 do not match provenance (${frame.geometryFile})`)
+  }
+  const publishedPath = `maps/${layerId}/${basename(frame.geometryFile)}`
+  if (publishedMapFramePaths.has(publishedPath)) throw new Error(`${layerId}: canonical map frame filename is not unique (${publishedPath})`)
+  publishedMapFramePaths.add(publishedPath)
+  const published = write(publishedPath, bytes)
+  if (published.bytes !== frame.geometryBytes || published.sha256 !== frame.geometrySha256) {
+    throw new Error(`${layerId} ${frame.ageMa} Ma: published frame changed while copying`)
+  }
+  const source = gunzipSync(bytes)
+  return {
+    ageMa: frame.ageMa,
+    url: published.url,
+    bytes: published.bytes,
+    sha256: published.sha256,
+    sourceBytes: source.byteLength,
+    sourceSha256: sha256(source),
+    featureCount: frame.geometryFeatures,
+    encoding: 'gzip',
+    mediaType: 'application/json',
+  }
+}
+
+let mapLayers = null
+if (hasPaleogeographySeries) {
+  const series = paleogeographyProvenance.series
+  if (!series?.layers) throw new Error('Paleogeography provenance schema 3 requires series.layers')
+  if (!Number.isFinite(series.ageRangeMa?.youngest) || !Number.isFinite(series.ageRangeMa?.oldest) || series.ageRangeMa.youngest >= series.ageRangeMa.oldest) {
+    throw new Error('Paleogeography provenance schema 3 requires a valid series.ageRangeMa')
+  }
+  if (series.selectionPolicy?.method !== 'nearest' || series.selectionPolicy?.tieBreak !== 'younger' || series.selectionPolicy?.outsideRange !== 'unavailable') {
+    throw new Error('Paleogeography provenance schema 3 requires the nearest/younger/unavailable selection policy')
+  }
+  mapLayers = Object.fromEntries(paleogeographyLayerIds.map((layerId) => {
+    const sourceLayer = series.layers[layerId]
+    if (!sourceLayer?.role || !Array.isArray(sourceLayer.cadenceBands) || !sourceLayer.frames?.length) {
+      throw new Error(`${layerId}: schema 3 paleogeography series is incomplete`)
+    }
+    const frames = sourceLayer.frames.map((frame) => publishCanonicalMapFrame(layerId, frame))
+    for (let index = 1; index < frames.length; index += 1) {
+      if (frames[index - 1].ageMa >= frames[index].ageMa) throw new Error(`${layerId}: map frame ages must be unique and sorted from youngest to oldest`)
+    }
+    if (frames[0].ageMa !== series.ageRangeMa.youngest || frames.at(-1).ageMa !== series.ageRangeMa.oldest) {
+      throw new Error(`${layerId}: map frames do not cover the complete supported age range`)
+    }
+    return [layerId, { role: sourceLayer.role, cadenceBands: sourceLayer.cadenceBands, frames }]
+  }))
+}
+
 const mapSnapshots = periodMetadata.map((period) => {
   const provenance = paleogeographyByPeriod.get(period.name)
   if (period.mapLayerStatus === 'available' && !provenance) throw new Error(`${period.name}: available map is missing provenance`)
-  const layers = provenance
-    ? Object.fromEntries(Object.entries(provenance.layers).map(([layerId, layer]) => [
+  let layers = null
+  if (provenance && mapLayers) {
+    layers = Object.fromEntries(paleogeographyLayerIds.map((layerId) => {
+      const frame = mapLayers[layerId].frames.find((candidate) => candidate.ageMa === provenance.reconstructionAgeMa)
+      if (!frame) throw new Error(`${period.name}: ${layerId} series does not retain the period midpoint ${provenance.reconstructionAgeMa} Ma`)
+      return [layerId, frame]
+    }))
+  } else if (provenance) {
+    layers = Object.fromEntries(Object.entries(provenance.layers).map(([layerId, layer]) => [
       layerId,
       writeGzipJson(`maps/${period.name.toLowerCase()}-${layerId}.json.gz`, readJson(layer.geometryFile)),
     ]))
-    : null
+  }
   return {
     period: period.name,
     status: period.mapLayerStatus,
@@ -357,7 +430,7 @@ const mapSnapshots = periodMetadata.map((period) => {
   }
 })
 const mapsManifestFile = writeJson('maps/manifest.json', {
-  schemaVersion: 5,
+  schemaVersion: hasPaleogeographySeries ? 6 : 5,
   version: sourceManifest.datasetVersion,
   source: {
     title: paleogeographyProvenance.dataset.title,
@@ -369,6 +442,11 @@ const mapsManifestFile = writeJson('maps/manifest.json', {
     retrievedAt: paleogeographyProvenance.retrievedAt,
   },
   scientificLimitations: paleogeographyProvenance.scientificLimitations,
+  ...(hasPaleogeographySeries ? {
+    ageRangeMa: paleogeographyProvenance.series.ageRangeMa,
+    selectionPolicy: paleogeographyProvenance.series.selectionPolicy,
+    layers: mapLayers,
+  } : {}),
   snapshots: mapSnapshots,
 }, true)
 
@@ -449,7 +527,11 @@ const current = {
     totalRecords: occurrenceTotal,
     unresolvedPackageAssignmentCount,
   },
-  maps: { manifest: mapsManifestFile, availableSnapshots: mapSnapshots.filter((snapshot) => snapshot.status === 'available').length },
+  maps: {
+    manifest: mapsManifestFile,
+    availableSnapshots: mapSnapshots.filter((snapshot) => snapshot.status === 'available').length,
+    frameCount: mapLayers ? Object.values(mapLayers).reduce((sum, layer) => sum + layer.frames.length, 0) : null,
+  },
   catalogue: {
     manifest: catalogueManifestFile,
     releaseAlias: catalogueRuntimeManifest.releaseAlias,
@@ -496,7 +578,7 @@ const releaseFilesIndex = writeJson('release-files.json', {
   datasetVersion: sourceManifest.datasetVersion,
   files: releaseFiles,
 }, true)
-const retentionByteLimit = previousReleaseHistory.retentionByteLimit ?? 400 * 1024 * 1024
+const retentionByteLimit = Math.max(previousReleaseHistory.retentionByteLimit ?? 0, 650 * 1024 * 1024)
 const currentReleaseBytes = releaseFiles.reduce((sum, file) => sum + file.bytes, 0) + releaseFilesIndex.bytes
 const currentRelease = {
   datasetVersion: sourceManifest.datasetVersion,

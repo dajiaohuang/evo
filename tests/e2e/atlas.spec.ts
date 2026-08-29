@@ -143,7 +143,7 @@ test('Explorer restores state and removes the unsupported global model parameter
   await expect(page.getByRole('button', { name: 'points' })).toHaveClass(/is-active/)
   await expect(page.getByRole('button', { name: 'modern' })).toHaveClass(/is-active/)
   await expect(page.getByText('Shared time window 20–5 Ma')).toBeVisible()
-    await expect.poll(() => page.url()).toContain('dataset=2026.08-static-v5-rc8')
+    await expect.poll(() => page.url()).toContain('dataset=2026.08-static-v5-rc9')
   for (const fragment of ['older=20', 'younger=5', 'lat=10.000', 'lng=20.000', 'zoom=3.00', 'treeMode=fossil-range']) {
     expect(page.url()).toContain(fragment)
   }
@@ -156,7 +156,7 @@ test('Explorer requires confirmation before replacing a mismatched dataset versi
   await expect(page.getByRole('alertdialog')).toContainText('2025.01-old')
   expect(page.url()).toContain('dataset=2025.01-old')
   await page.getByRole('button', { name: 'Use current dataset' }).click()
-    await expect.poll(() => page.url()).toContain('dataset=2026.08-static-v5-rc8')
+    await expect.poll(() => page.url()).toContain('dataset=2026.08-static-v5-rc9')
 })
 
 test('a service-worker upgrade removes dataset A caches and dataset B remains coherent', async ({ page }) => {
@@ -187,7 +187,7 @@ test('a service-worker upgrade removes dataset A caches and dataset B remains co
     const versions = await Promise.all(manifestFiles.map((file) => fetch(`/evo/data/${file.url}`).then((response) => response.json()).then((manifest) => manifest.version as string)))
     return { datasetVersion: current.datasetVersion, releaseBase: current.releaseBase, urls: manifestFiles.map((file) => file.url), versions, retained: history.releases.map((entry) => entry.datasetVersion) }
   })
-    expect(releaseState.releaseBase).toBe('releases/2026.08-static-v5-rc8/')
+    expect(releaseState.releaseBase).toBe('releases/2026.08-static-v5-rc9/')
   expect(releaseState.urls.every((url) => url.startsWith(releaseState.releaseBase))).toBe(true)
   expect(releaseState.versions.every((version) => version === releaseState.datasetVersion)).toBe(true)
   expect(releaseState.retained[0]).toBe(releaseState.datasetVersion)
@@ -227,6 +227,68 @@ test('mobile Explorer panels remain operable', async ({ page }) => {
   await expect(inspector).toHaveClass(/is-open/)
   await page.getByRole('button', { name: 'Close evidence panel' }).click()
   await expect(inspector).not.toHaveClass(/is-open/)
+})
+
+test('dense CAO2024 coastlines select and request distinct frames within the Cretaceous', async ({ browser, baseURL }) => {
+  const context = await browser.newContext({ baseURL, locale: 'en-US', serviceWorkers: 'block' })
+  const page = await context.newPage()
+  await page.addInitScript(() => {
+    window.localStorage.setItem('evo-explorer-guide-v2', 'dismissed')
+    window.localStorage.setItem('evo-atlas-language', 'en')
+  })
+  const coastlineRequests: string[] = []
+  page.on('request', (request) => {
+    if (/\/maps\/coastlines\/ma-[\d.]+\.json\.gz(?:[?#]|$)/.test(request.url())) coastlineRequests.push(request.url())
+  })
+
+  await page.goto('./#/explore?view=map&age=102')
+  await expect(page.getByText('CAO2024 nearest frame 100 Ma · requested 102 Ma · Δ 2 Myr', { exact: true })).toBeVisible()
+  await expect.poll(() => coastlineRequests.some((url) => url.includes('/maps/coastlines/ma-0100.000.json.gz'))).toBe(true)
+
+  const ageInput = page.locator('.explorer-timeline input[type="number"]')
+  await ageInput.fill('108')
+  await expect(page.getByText('CAO2024 nearest frame 110 Ma · requested 108 Ma · Δ 2 Myr', { exact: true })).toBeVisible()
+  await expect.poll(() => coastlineRequests.some((url) => url.includes('/maps/coastlines/ma-0110.000.json.gz'))).toBe(true)
+  expect(new Set(coastlineRequests.map((url) => url.match(/ma-[\d.]+\.json\.gz/)?.[0]).filter(Boolean)).size).toBeGreaterThanOrEqual(2)
+
+  await context.close()
+})
+
+test('ages beyond the CAO2024 range remain unavailable instead of clamping to 1800 Ma', async ({ browser, baseURL }) => {
+  const context = await browser.newContext({ baseURL, locale: 'en-US', serviceWorkers: 'block' })
+  const page = await context.newPage()
+  await page.addInitScript(() => {
+    window.localStorage.setItem('evo-explorer-guide-v2', 'dismissed')
+    window.localStorage.setItem('evo-atlas-language', 'en')
+  })
+  const coastlineRequests: string[] = []
+  page.on('request', (request) => {
+    if (/\/maps\/coastlines\//.test(request.url())) coastlineRequests.push(request.url())
+  })
+
+  await page.goto('./#/explore?view=map&age=1800.1')
+  const ledger = page.locator('.map-model-ledger')
+  await expect(ledger.locator('div', { has: page.getByText('Requested age', { exact: true }) })).toContainText('1,800.1 Ma')
+  await expect(ledger.locator('div', { has: page.getByText('coastlines', { exact: true }) })).toContainText('unavailable')
+  await expect(page.getByText('coastlines is unavailable; other verified layers remain visible.', { exact: true })).toBeVisible()
+  await expect(page.getByLabel('nearest coastline frame')).toBeDisabled()
+  await expect(page.getByText(/CAO2024 nearest frame 1,800 Ma/)).toHaveCount(0)
+  expect(coastlineRequests.some((url) => url.includes('ma-1800.000.json.gz'))).toBe(false)
+
+  await context.close()
+})
+
+test('a detailed CAO2024 layer reports its independently selected frame age', async ({ page }) => {
+  await page.addInitScript(() => window.localStorage.setItem('evo-atlas-language', 'en'))
+  await page.goto('./#/explore?view=map&age=107')
+  await expect(page.getByText('CAO2024 nearest frame 105 Ma · requested 107 Ma · Δ 2 Myr', { exact: true })).toBeVisible()
+
+  const continentalCrust = page.getByLabel('continental-crust extent')
+  await expect(continentalCrust).toBeEnabled()
+  await continentalCrust.check()
+  const ledger = page.locator('.map-model-ledger')
+  await expect(ledger.locator('div', { has: page.getByText('coastlines', { exact: true }) })).toContainText('105 Ma · Δ 2 Myr')
+  await expect(ledger.locator('div', { has: page.getByText('continentalPolygons', { exact: true }) })).toContainText('104.55 Ma · Δ 2.45 Myr')
 })
 
 for (const route of ['#/home', '#/taxa?id=perissodactyla', '#/registry?release=COL26.8&id=6MB3T', '#/explore?view=tree&treeMode=cladogram&age=20', '#/lab', '#/compare']) {
