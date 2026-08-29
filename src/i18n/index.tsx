@@ -376,6 +376,7 @@ const zh: Record<string, string> = {
   'Taxon catalog': '类群目录',
   'Curated branches with evidence.': '有证据支撑的整理支系。',
   'Milestone two begins with ten richly annotated perissodactyl exemplars; the tree remains searchable at broader scale.': '第二里程碑从十个详细标注的奇蹄类示范档案开始；更大尺度的树仍可搜索。',
+  'Source-linked dossiers from multiple packages appear here; broader registry-only branches remain searchable in the tree.': '这里汇集多个内容包中已关联来源的类群档案；更广泛的仅注册表分支仍可在演化树中搜索。',
   'Event / {category}': '事件 / {category}',
   'origin': '起源',
   'radiation': '辐射',

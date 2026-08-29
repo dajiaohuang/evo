@@ -49,7 +49,7 @@ export function collectDataSummary() {
   const perissodactylCalibrations = readJson('data/packages/mammalia/perissodactyla/phylogeny/calibrations.json')
   const events = readJson('data/events.json')
   const stories = readJson('data/stories.json')
-  const profiles = readJson('data/packages/mammalia/perissodactyla/profiles.json')
+  const profiles = readJson('data/registry/taxon-profiles.json')
   const ontology = readJson('data/navigation/atlas-ontology.json')
   const treeEvidence = readJson('data/tree/evidence.json')
   const claims = readJson('data/evidence/claims.json')

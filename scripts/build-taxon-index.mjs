@@ -112,7 +112,7 @@ const packageCoverage = Object.fromEntries([...new Set(entities.map((entity) => 
     coverageStatus: packageSourceTotal ? 'sampled' : 'no-sampled-rows',
   }]
 }))
-const profiles = readJson('data/packages/mammalia/perissodactyla/profiles.json')
+const profiles = readJson('data/registry/taxon-profiles.json')
 const profileTotals = Object.fromEntries(profiles.map((profile) => [profile.id, completeQueryByEntityId.get(profile.treeNodeId)?.rowsFetched ?? nodes[profile.treeNodeId]?.matchedTotal ?? 0]))
 const profileQueryStatus = Object.fromEntries(profiles.map((profile) => [profile.id, mappingCanDriveQuery(profile.treeNodeId) ? completeQueryByEntityId.get(profile.treeNodeId)?.zeroInterpretation ?? nodes[profile.treeNodeId]?.queryStatus ?? 'outside-snapshot-scope' : 'concept-review-required']))
 const ambiguousNameCollisions = [...nameOwners.entries()]

@@ -170,32 +170,42 @@ function packageFailures() {
       if (!completedReviewStatuses.has(effectiveReview.effectiveReviewStatus)) failures.push(`package ${entry.id}: published maturity requires a current maintainer review`)
     }
     failures.push(...schemaFailure(validateTranslation, readJson(`${entry.canonicalPath}/locales/zh.json`), `package ${entry.id} Chinese locale`))
+    const profilesPath = `${entry.canonicalPath}/profiles.json`
+    const fieldLinksPath = `${entry.canonicalPath}/evidence/field-claim-links.json`
+    if (existsSync(join(rootDir, profilesPath))) {
+      if (!existsSync(join(rootDir, fieldLinksPath))) failures.push(`package ${entry.id}: profiles require field claim links`)
+      else {
+        const links = readJson(fieldLinksPath)
+        const claimsById = new Map(readJson('data/evidence/claims.json').map((claim) => [claim.id, claim]))
+        const profiles = readJson(profilesPath)
+        for (const profile of profiles) {
+          if (!links.some((link) => link.profileId === profile.id)) failures.push(`profile ${profile.id}: missing field claim link record`)
+        }
+        for (const link of links) {
+          const profile = profiles.find((candidate) => candidate.id === link.profileId)
+          const expectedFields = profile ? [
+            'firstAppearance', 'lastAppearance', 'geography', 'overview', 'evidenceSummary', 'confidence',
+            ...Object.keys(profile.ecology).map((key) => `ecology.${key}`),
+            ...profile.traits.map((_, index) => `traits[${index}]`),
+            ...(profile.regionalRanges ?? []).map((_, index) => `regionalRanges[${index}]`),
+          ] : []
+          for (const field of expectedFields) if (!link.fields[field]) failures.push(`profile ${link.profileId}: visible field ${field} has no claim link`)
+          for (const [field, fieldLink] of Object.entries(link.fields)) {
+            const claim = claimsById.get(fieldLink.claimId)
+            if (!claim) failures.push(`profile ${link.profileId}/${field}: unknown field claim ${fieldLink.claimId}`)
+            if (!fieldLink.sourceLocators?.length) failures.push(`profile ${link.profileId}/${field}: field claim has no source locator`)
+            if (!['source-derived-fact', 'editorial-synthesis', 'automated-text', 'unavailable'].includes(fieldLink.contentOrigin)) failures.push(`profile ${link.profileId}/${field}: content origin is missing or invalid`)
+            const expectedClaimType = field === 'firstAppearance' || field === 'lastAppearance' || field.startsWith('regionalRanges')
+              ? 'fossil-range' : field === 'geography' ? 'biogeography' : field.startsWith('ecology.') ? 'ecology' : field.startsWith('traits') ? 'morphology' : 'taxonomy'
+            if (fieldLink.relation !== 'supports' || fieldLink.claimType !== expectedClaimType || claim?.claimType !== expectedClaimType || claim?.subjectId !== `taxon:${link.profileId}`) failures.push(`profile ${link.profileId}/${field}: field requires a matching supports ${expectedClaimType} claim`)
+          }
+        }
+      }
+    } else if (existsSync(join(rootDir, fieldLinksPath))) failures.push(`package ${entry.id}: field claim links require profiles`)
     if (entry.id === 'perissodactyla') {
       failures.push(...schemaFailure(validatePhylogeny, readJson(`${entry.canonicalPath}/phylogeny/hypothesis.json`), 'Perissodactyla phylogeny'))
       const calibrations = readJson(`${entry.canonicalPath}/phylogeny/calibrations.json`)
       for (const calibration of calibrations.estimates) failures.push(...schemaFailure(validateCalibration, calibration, `calibration ${calibration.id}`))
-      const links = readJson(`${entry.canonicalPath}/evidence/field-claim-links.json`)
-      const claimsById = new Map(readJson('data/evidence/claims.json').map((claim) => [claim.id, claim]))
-      const profiles = readJson(`${entry.canonicalPath}/profiles.json`)
-      for (const link of links) {
-        const profile = profiles.find((candidate) => candidate.id === link.profileId)
-        const expectedFields = profile ? [
-          'firstAppearance', 'lastAppearance', 'geography', 'overview', 'evidenceSummary', 'confidence',
-          ...Object.keys(profile.ecology).map((key) => `ecology.${key}`),
-          ...profile.traits.map((_, index) => `traits[${index}]`),
-          ...(profile.regionalRanges ?? []).map((_, index) => `regionalRanges[${index}]`),
-        ] : []
-        for (const field of expectedFields) if (!link.fields[field]) failures.push(`profile ${link.profileId}: visible field ${field} has no claim link`)
-        for (const [field, fieldLink] of Object.entries(link.fields)) {
-          const claim = claimsById.get(fieldLink.claimId)
-          if (!claim) failures.push(`profile ${link.profileId}/${field}: unknown field claim ${fieldLink.claimId}`)
-          if (!fieldLink.sourceLocators?.length) failures.push(`profile ${link.profileId}/${field}: field claim has no source locator`)
-          if (!['source-derived-fact', 'editorial-synthesis', 'automated-text', 'unavailable'].includes(fieldLink.contentOrigin)) failures.push(`profile ${link.profileId}/${field}: content origin is missing or invalid`)
-          const expectedClaimType = field === 'firstAppearance' || field === 'lastAppearance' || field.startsWith('regionalRanges')
-            ? 'fossil-range' : field === 'geography' ? 'biogeography' : field.startsWith('ecology.') ? 'ecology' : field.startsWith('traits') ? 'morphology' : 'taxonomy'
-          if (fieldLink.relation !== 'supports' || fieldLink.claimType !== expectedClaimType || claim?.claimType !== expectedClaimType || claim?.subjectId !== `taxon:${link.profileId}`) failures.push(`profile ${link.profileId}/${field}: field requires a matching supports ${expectedClaimType} claim`)
-        }
-      }
       const flagshipStory = readJson('data/stories.json').find((story) => story.id === 'rise-and-fall-perissodactyls')
       const claimsByIdForStory = new Map(readJson('data/evidence/claims.json').map((claim) => [claim.id, claim]))
       if (!flagshipStory || flagshipStory.evidenceStatus !== 'available-with-limitations') failures.push('Perissodactyla flagship story must be published with explicit limitations')
@@ -234,7 +244,7 @@ function claimsFailures() {
 function translationFailures() {
   const failures = []
   const entities = readJson('data/registry/entities/entities.json')
-  const profiles = readJson('data/packages/mammalia/perissodactyla/profiles.json')
+  const profiles = readJson('data/registry/taxon-profiles.json')
   const events = readJson('data/events.json')
   const stories = readJson('data/stories.json')
   const timeScale = readJson('data/time-scale.json')

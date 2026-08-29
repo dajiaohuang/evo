@@ -33,7 +33,7 @@ const registry = readJson('data/registry/package-registry.json')
 const entities = readJson('data/registry/entities/entities.json')
 const ontology = readJson('data/navigation/atlas-ontology.json')
 const timeScale = readJson('data/time-scale.json')
-const profiles = readJson('data/packages/mammalia/perissodactyla/profiles.json')
+const profiles = readJson('data/registry/taxon-profiles.json')
 const claims = readJson('data/evidence/claims.json')
 const references = readJson('data/references.json')
 const events = readJson('data/events.json')
@@ -263,7 +263,10 @@ for (const packageEntry of registry.packages) {
   payloadFiles.localeZh = writeGzipJson(`packages/${packageId}/locale-zh.json.gz`, {
     language: 'zh',
     version: sourceManifest.datasetVersion,
-    strings: Object.fromEntries(packageEntities.map((entity) => [`entity.${entity.id}.name`, entity.names.zh])),
+    strings: Object.fromEntries([
+      ...packageEntities.map((entity) => [`entity.${entity.id}.name`, entity.names.zh]),
+      ...packageProfiles.map((profile) => [`profile.${profile.id}.name`, profile.commonNameZh]),
+    ]),
   })
   payloadFiles.queryLedger = writeGzipJson(`packages/${packageId}/query-ledger.json.gz`, packageQueryLedger)
   payloadFiles.search = writeGzipJson(`package-search-index/${packageId}.json.gz`, [

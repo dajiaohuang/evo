@@ -1,4 +1,4 @@
-import profilesData from '../../data/packages/mammalia/perissodactyla/profiles.json'
+import profilesData from '../../data/registry/taxon-profiles.json'
 import eventsData from '../../data/events.json'
 import storiesData from '../../data/stories.json'
 import referencesData from '../../data/references.json'

@@ -1,5 +1,13 @@
 # Dataset changelog
 
+## 2026.08-static-v5-rc12 — 2026-08-30
+
+- Generalized the existing rich-profile projection so any static resource package can publish a package-local `profiles.source.json` without being hidden by Perissodactyla-only build, runtime, search, translation or static-page imports.
+- Added one generated aggregate profile registry while preserving package-local projections, package isolation and the existing Perissodactyla topology, calibration and complete-occurrence boundaries.
+- Applied the existing visible-field-to-claim-link contract to every profile-bearing package and included those links in package review packets.
+- Corrected topology availability to describe nodes actually present in the published Perissodactyla hypothesis rather than unrelated ancestors in the navigation ontology.
+- Removed Perissodactyla-only wording and trait-overlay leakage from interfaces that now consume profiles across packages.
+
 ## 2026.08-static-v5-rc11 — 2026-08-30
 
 - Corrected the Magallón et al. angiosperm time-tree citation to New Phytologist DOI 10.1111/nph.13264 and limited its claim to model-dependent 135–130 Ma crown-lineage estimates.

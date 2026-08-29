@@ -1,6 +1,6 @@
 import { fireEvent, render, screen } from '@testing-library/react'
 import { beforeEach, describe, expect, it } from 'vitest'
-import profiles from '../../data/packages/mammalia/perissodactyla/profiles.json'
+import profiles from '../../data/registry/taxon-profiles.json'
 import events from '../../data/events.json'
 import stories from '../../data/stories.json'
 import claims from '../../data/evidence/claims.json'
