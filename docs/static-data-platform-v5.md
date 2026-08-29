@@ -19,7 +19,10 @@ data/releases/<datasetVersion>/package-search-index/<package>.json.gz
 data/releases/<datasetVersion>/occurrences/<package>/<period>-<shard>.json.gz
 data/releases/<datasetVersion>/maps/manifest.json
 data/releases/<datasetVersion>/catalogue/manifest.json
-data/releases/<datasetVersion>/catalogue/search/<prefix>.jsonl.gz
+data/releases/<datasetVersion>/catalogue/search/name-<prefix>.jsonl.gz
+data/releases/<datasetVersion>/catalogue/targets/<hash-prefix>.jsonl.gz
+data/releases/<datasetVersion>/catalogue/hierarchy/nodes/id-<hash-prefix>.jsonl.gz
+data/releases/<datasetVersion>/catalogue/hierarchy/children/parent-<hash-prefix>.jsonl.gz
 data/releases/<datasetVersion>/downloads/<package>-<version>.zip
 ```
 
@@ -31,7 +34,7 @@ The cross-atlas PBDB snapshot contains 13,600 bounded, non-random API-prefix row
 
 ## Search and offline behavior
 
-The precached Core search index contains navigation entities, package names, periods, events, stories and places. Entering an entity loads its package search index with profiles, claims and references. Catalogue of Life search starts at three characters and fetches only the routed prefix shard in the existing checksum-verifying worker. Resolving names then load the SHA-256-routed target shard so accepted and provisionally accepted targets remain distinguishable. Search results link to the pinned ChecklistBank dataset `316115`, not the moving Catalogue of Life portal. Package knowledge, occurrence shards, maps, Catalogue shards and downloads are not default precache entries.
+The precached Core search index contains navigation entities, package names, periods, events, stories and places. Entering an entity loads its package search index with profiles, claims and references. Catalogue of Life search starts at three characters and fetches only the routed prefix shard in the existing checksum-verifying worker. Resolving names then load the SHA-256-routed target shard so accepted and provisionally accepted targets remain distinguishable. Exact usage IDs and direct-child lists use separate SHA-256-routed hierarchy shards: all 2,183,133 accepted species and their 245,959 required higher ancestors are addressable, and every accepted-species parent edge is retained. Search results link to the pinned ChecklistBank dataset `316115`, not the moving Catalogue of Life portal. Package knowledge, occurrence shards, maps, Catalogue shards and downloads are not default precache entries.
 
 The Data page can explicitly save one package or all published packages through the Cache API. Workbox runtime-cache names include the dataset version. Service-worker activation removes stale runtime and explicit-package cache generations, quota errors are purgeable, and clearing offline data still deletes every Evo runtime-data generation plus the in-memory cache.
 

@@ -23,12 +23,12 @@ export default defineConfig({
     {
       name: 'firefox-smoke',
       grep: /@cross-browser/,
-      use: { ...devices['Desktop Firefox'] },
+      use: { ...devices['Desktop Firefox'], serviceWorkers: 'block' },
     },
     {
       name: 'webkit-smoke',
       grep: /@cross-browser/,
-      use: { ...devices['Desktop Safari'] },
+      use: { ...devices['Desktop Safari'], serviceWorkers: 'block' },
     },
   ],
   webServer: {

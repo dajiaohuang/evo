@@ -174,6 +174,18 @@ for (const file of catalogue.acceptedTargets.files) {
   releaseUrl(file, `Catalogue of Life accepted target ${file.prefix}`)
   checkFile(file, `Catalogue of Life accepted target ${file.prefix}`)
 }
+if (catalogue.hierarchy.counts.acceptedSpeciesEdges !== catalogue.counts.acceptedSpecies) failures.push('Catalogue of Life hierarchy does not cover every accepted species parent edge')
+if (catalogue.hierarchy.counts.directChildEdges < catalogue.hierarchy.counts.acceptedSpeciesEdges
+  || catalogue.hierarchy.counts.acceptedSpeciesNodes !== catalogue.counts.acceptedSpecies
+  || catalogue.hierarchy.counts.nodes !== catalogue.hierarchy.counts.acceptedSpeciesNodes + catalogue.hierarchy.counts.higherTaxonNodes) failures.push('Catalogue of Life exact-ID hierarchy is incomplete')
+for (const file of [...catalogue.hierarchy.nodes.files, ...catalogue.hierarchy.children.files]) {
+  releaseUrl(file, `Catalogue of Life hierarchy ${file.prefix}`)
+  checkFile(file, `Catalogue of Life hierarchy ${file.prefix}`)
+}
+const hierarchyNodeFilesByUrl = new Map(catalogue.hierarchy.nodes.files.map((file) => [file.url, file]))
+const homoNodeFiles = (catalogue.hierarchy.nodes.routes['64'] ?? []).map((url) => hierarchyNodeFilesByUrl.get(url)).filter(Boolean)
+const homoNode = homoNodeFiles.flatMap((file) => gunzipSync(readFileSync(join(dataRoot, file.url))).toString('utf8').split('\n').filter(Boolean).map((line) => JSON.parse(line))).find((record) => record.id === '6MB3T')
+if (!homoNode || homoNode.parentId !== '636X2' || homoNode.rank !== 'species') failures.push('Catalogue of Life exact-ID hierarchy cannot restore Homo sapiens from a deep link')
 releaseUrl(catalogue.sourceChecklists, 'Catalogue of Life source checklists')
 checkFile(catalogue.sourceChecklists, 'Catalogue of Life source checklists')
 

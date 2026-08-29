@@ -1,5 +1,12 @@
 # Dataset changelog
 
+## 2026.08-static-v5-rc7 — 2026-08-29
+
+- Added an exact-ID Catalogue of Life hierarchy with all 2,183,133 accepted species and the 245,959 accepted or provisionally accepted higher taxa needed for their complete ancestor closure.
+- Published 2,429,088 direct parent-child edges, including every accepted-species parent edge, in checksum-addressed SHA-256-routed node and children shards.
+- Preserved true intermediate ranks such as domain, realm, infraphylum, subclass, infraorder, parvorder and botanical/zoological sections instead of reconstructing identifiers from flattened classification strings.
+- Kept all hierarchy data lazy and outside the app-shell precache; exact-ID and direct-child runtime loaders fetch one routed shard family on demand.
+
 ## 2026.08-static-v5-rc6 — 2026-08-29
 
 - Pinned Catalogue of Life Base Release COL26.8 / ChecklistBank dataset 316115 and its exact official DwCA response SHA-256.

@@ -101,7 +101,7 @@ class BufferedBuckets {
   }
 }
 
-function parseTaxonLine(line, indexes, counters, buckets, targetIds) {
+function parseTaxonLine(line, indexes, counters, buckets, targetIds, hierarchyParentIds, hierarchySpeciesNodeBuckets, hierarchySpeciesChildBuckets) {
   if (!line) return
   counters.nameUsages += 1
   const values = line.endsWith('\r') ? line.slice(0, -1).split('\t') : line.split('\t')
@@ -131,21 +131,34 @@ function parseTaxonLine(line, indexes, counters, buckets, targetIds) {
   const normalizedName = normalizeScientificName(scientificName)
   const classification = CLASSIFICATION_FIELDS.map((field) => values[indexes[field]] || null)
   while (classification.at(-1) === null) classification.pop()
+  const parentId = accepted ? values[indexes.parentNameUsageID] || null : null
+  const authorship = values[indexes.scientificNameAuthorship] || null
   const record = {
     normalizedName,
     id,
     scientificName,
-    authorship: values[indexes.scientificNameAuthorship] || null,
+    authorship,
     rank: 'species',
     status: accepted ? 'accepted' : resolvingStatus,
     acceptedId: accepted ? null : acceptedId,
-    parentId: accepted ? values[indexes.parentNameUsageID] || null : null,
+    parentId,
     sourceDatasetId,
     classification,
   }
   buckets.append(prefixForName(normalizedName), JSON.stringify(record))
   counters.includedNameUsages += 1
-  if (accepted) counters.acceptedSpecies += 1
+  if (accepted) {
+    counters.acceptedSpecies += 1
+    const hierarchyRecord = { parentId, id, scientificName, authorship, rank: 'species', status: 'accepted', sourceDatasetId }
+    hierarchySpeciesNodeBuckets.append(sha256Bytes(Buffer.from(id, 'utf8')).slice(0, 2), JSON.stringify(hierarchyRecord))
+    if (parentId) {
+      hierarchyParentIds.add(parentId)
+      hierarchySpeciesChildBuckets.append(sha256Bytes(Buffer.from(parentId, 'utf8')).slice(0, 2), JSON.stringify(hierarchyRecord))
+      counters.acceptedSpeciesWithParent += 1
+    } else {
+      counters.acceptedSpeciesWithoutParent += 1
+    }
+  }
   else counters.resolvingNameUsages[resolvingStatus] += 1
 }
 
@@ -179,36 +192,46 @@ function createLineConsumer(onLine, required) {
   }
 }
 
-function createTaxonConsumer(counters, buckets, targetIds) {
+function createTaxonConsumer(counters, buckets, targetIds, hierarchyParentIds, hierarchySpeciesNodeBuckets, hierarchySpeciesChildBuckets) {
   const required = ['taxonID', 'parentNameUsageID', 'acceptedNameUsageID', 'datasetID', 'taxonomicStatus', 'taxonRank', 'scientificName', 'scientificNameAuthorship', ...CLASSIFICATION_FIELDS]
-  return createLineConsumer((line, indexes) => parseTaxonLine(line, indexes, counters, buckets, targetIds), required)
+  return createLineConsumer((line, indexes) => parseTaxonLine(line, indexes, counters, buckets, targetIds, hierarchyParentIds, hierarchySpeciesNodeBuckets, hierarchySpeciesChildBuckets), required)
 }
 
-function createTargetConsumer(targetIds, counters, buckets) {
+function createProjectionConsumer(targetIds, targetCounters, targetBuckets, hierarchyCandidateBuckets, hierarchyParents, hierarchyCandidateCounters) {
   const required = ['taxonID', 'parentNameUsageID', 'datasetID', 'taxonomicStatus', 'taxonRank', 'scientificName', 'scientificNameAuthorship', ...CLASSIFICATION_FIELDS]
   return createLineConsumer((line, indexes) => {
     if (!line) return
     const values = line.endsWith('\r') ? line.slice(0, -1).split('\t') : line.split('\t')
     const id = values[indexes.taxonID] ?? ''
-    if (!targetIds.has(id)) return
-    const classification = CLASSIFICATION_FIELDS.map((field) => values[indexes[field]] || null)
-    while (classification.at(-1) === null) classification.pop()
     const status = values[indexes.taxonomicStatus]?.toLocaleLowerCase('en-US') || '(empty)'
     const rank = values[indexes.taxonRank]?.toLocaleLowerCase('en-US') || '(empty)'
-    const record = {
+    const parentId = values[indexes.parentNameUsageID] || null
+    const scientificName = values[indexes.scientificName] ?? ''
+    const authorship = values[indexes.scientificNameAuthorship] || null
+    const sourceDatasetId = values[indexes.datasetID] || null
+    if (targetIds.has(id)) {
+      const classification = CLASSIFICATION_FIELDS.map((field) => values[indexes[field]] || null)
+      while (classification.at(-1) === null) classification.pop()
+      const record = { id, scientificName, authorship, rank, status, parentId, sourceDatasetId, classification }
+      targetBuckets.append(sha256Bytes(Buffer.from(id, 'utf8')).slice(0, 2), JSON.stringify(record))
+      targetCounters.records += 1
+      targetCounters.statuses[status] = (targetCounters.statuses[status] ?? 0) + 1
+      targetCounters.ranks[rank] = (targetCounters.ranks[rank] ?? 0) + 1
+    }
+    if (rank === 'species' || (status !== 'accepted' && status !== 'provisionally accepted')) return
+    if (!id) return
+    if (hierarchyParents.has(id)) hierarchyCandidateCounters.duplicateIds += 1
+    hierarchyParents.set(id, parentId)
+    hierarchyCandidateBuckets.append(sha256Bytes(Buffer.from(id, 'utf8')).slice(0, 2), JSON.stringify({
       id,
-      scientificName: values[indexes.scientificName] ?? '',
-      authorship: values[indexes.scientificNameAuthorship] || null,
+      parentId,
+      scientificName,
+      authorship,
       rank,
       status,
-      parentId: values[indexes.parentNameUsageID] || null,
-      sourceDatasetId: values[indexes.datasetID] || null,
-      classification,
-    }
-    buckets.append(sha256Bytes(Buffer.from(id, 'utf8')).slice(0, 2), JSON.stringify(record))
-    counters.records += 1
-    counters.statuses[status] = (counters.statuses[status] ?? 0) + 1
-    counters.ranks[rank] = (counters.ranks[rank] ?? 0) + 1
+      sourceDatasetId,
+    }))
+    hierarchyCandidateCounters.records += 1
   }, required)
 }
 
@@ -325,6 +348,80 @@ function finalizeShards(spoolRoot, outputRoot, directory) {
   return { routes, files: files.sort((left, right) => left.path.localeCompare(right.path)) }
 }
 
+function hierarchyShardRecord(prefix, bytes, sourceBytes, records, directory, stem) {
+  return {
+    prefix,
+    path: `${directory}/${stem}-${prefix}.jsonl.gz`,
+    records,
+    bytes: bytes.byteLength,
+    sourceBytes: sourceBytes.byteLength,
+    sha256: sha256Bytes(bytes),
+    sourceSha256: sha256Bytes(sourceBytes),
+    encoding: 'gzip',
+    mediaType: 'application/x-ndjson',
+  }
+}
+
+function writeHierarchyShardRecursive(outputRoot, basePrefix, prefix, lines, routes, files, directory, stem, splitKey) {
+  lines.sort()
+  const sourceBytes = Buffer.from(`${lines.join('\n')}\n`, 'utf8')
+  const compressed = gzipSync(sourceBytes, { level: 9, mtime: 0 })
+  if (compressed.byteLength > TARGET_SHARD_BYTES && prefix.length < 7) {
+    const suffixLength = prefix.length - basePrefix.length + 1
+    const children = new Map()
+    for (const line of lines) {
+      const record = JSON.parse(line)
+      const suffix = sha256Bytes(Buffer.from(splitKey(record), 'utf8')).slice(0, suffixLength)
+      const childPrefix = `${basePrefix}${suffix}`
+      if (!children.has(childPrefix)) children.set(childPrefix, [])
+      children.get(childPrefix).push(line)
+    }
+    if (children.size > 1) {
+      for (const [childPrefix, childLines] of [...children].sort(([left], [right]) => left.localeCompare(right))) {
+        writeHierarchyShardRecursive(outputRoot, basePrefix, childPrefix, childLines, routes, files, directory, stem, splitKey)
+      }
+      return
+    }
+  }
+  if (compressed.byteLength > HARD_SHARD_BYTES) throw new Error(`${directory}/${prefix} shard is ${compressed.byteLength} bytes; hard limit is ${HARD_SHARD_BYTES}`)
+  const record = hierarchyShardRecord(prefix, compressed, sourceBytes, lines.length, directory, stem)
+  const path = join(outputRoot, ...record.path.split('/'))
+  mkdirSync(dirname(path), { recursive: true })
+  writeFileSync(path, compressed)
+  routes[basePrefix] ??= []
+  routes[basePrefix].push(record.path)
+  files.push(record)
+}
+
+function finalizeHierarchyShards(spoolRoot, outputRoot, directory, stem, splitKey) {
+  const routes = {}
+  const files = []
+  for (const name of readdirSync(spoolRoot).filter((candidate) => candidate.endsWith('.jsonl')).sort()) {
+    const basePrefix = basename(name, '.jsonl')
+    const lines = readFileSync(join(spoolRoot, name), 'utf8').split('\n').filter(Boolean)
+    writeHierarchyShardRecursive(outputRoot, basePrefix, basePrefix, lines, routes, files, directory, stem, splitKey)
+  }
+  return { routes, files: files.sort((left, right) => left.path.localeCompare(right.path)) }
+}
+
+function forEachSpoolRecord(spoolRoot, visit) {
+  for (const name of readdirSync(spoolRoot).filter((candidate) => candidate.endsWith('.jsonl')).sort()) {
+    for (const line of readFileSync(join(spoolRoot, name), 'utf8').split('\n')) {
+      if (line) visit(JSON.parse(line))
+    }
+  }
+}
+
+function projectionSummary(projection) {
+  return {
+    routes: projection.routes,
+    files: projection.files,
+    totalCompressedBytes: projection.files.reduce((sum, file) => sum + file.bytes, 0),
+    totalSourceBytes: projection.files.reduce((sum, file) => sum + file.sourceBytes, 0),
+    largestShardBytes: Math.max(0, ...projection.files.map((file) => file.bytes)),
+  }
+}
+
 function safeReplaceDirectory(stagingRoot, outputRoot) {
   const resolvedOutput = resolve(outputRoot)
   const root = resolve(resolvedOutput, sep)
@@ -347,6 +444,11 @@ export async function buildColRegistry({ archivePath, outputRoot, provenance }) 
   mkdirSync(stagingRoot, { recursive: true })
   const spoolRoot = join(stagingRoot, '.spool')
   const buckets = new BufferedBuckets(spoolRoot)
+  const hierarchySpeciesNodeSpoolRoot = join(stagingRoot, '.hierarchy-species-node-spool')
+  const hierarchySpeciesNodeBuckets = new BufferedBuckets(hierarchySpeciesNodeSpoolRoot)
+  const hierarchySpeciesChildSpoolRoot = join(stagingRoot, '.hierarchy-species-child-spool')
+  const hierarchySpeciesChildBuckets = new BufferedBuckets(hierarchySpeciesChildSpoolRoot)
+  const hierarchyParentIds = new Set()
   const targetIds = new Set()
   const counters = {
     nameUsages: 0,
@@ -361,22 +463,129 @@ export async function buildColRegistry({ archivePath, outputRoot, provenance }) 
     missingSourceDatasetId: 0,
     missingAcceptedNameUsageId: 0,
     acceptedWithTarget: 0,
+    acceptedSpeciesWithParent: 0,
+    acceptedSpeciesWithoutParent: 0,
   }
 
   try {
-    const sourceXml = await consumeArchive(resolvedArchive, createTaxonConsumer(counters, buckets, targetIds), true)
+    const sourceXml = await consumeArchive(resolvedArchive, createTaxonConsumer(counters, buckets, targetIds, hierarchyParentIds, hierarchySpeciesNodeBuckets, hierarchySpeciesChildBuckets), true)
     buckets.flush()
+    hierarchySpeciesNodeBuckets.flush()
+    hierarchySpeciesChildBuckets.flush()
     const { routes, files } = finalizeShards(spoolRoot, stagingRoot, 'search')
     rmSync(spoolRoot, { recursive: true, force: true })
     const targetSpoolRoot = join(stagingRoot, '.target-spool')
     const targetBuckets = new BufferedBuckets(targetSpoolRoot)
     const targetCounters = { records: 0, statuses: {}, ranks: {} }
-    await consumeArchive(resolvedArchive, createTargetConsumer(targetIds, targetCounters, targetBuckets), false)
+    const hierarchyCandidateSpoolRoot = join(stagingRoot, '.hierarchy-candidate-spool')
+    const hierarchyCandidateBuckets = new BufferedBuckets(hierarchyCandidateSpoolRoot)
+    const hierarchyParents = new Map()
+    const hierarchyCandidateCounters = { records: 0, duplicateIds: 0 }
+    await consumeArchive(resolvedArchive, createProjectionConsumer(targetIds, targetCounters, targetBuckets, hierarchyCandidateBuckets, hierarchyParents, hierarchyCandidateCounters), false)
     targetBuckets.flush()
+    hierarchyCandidateBuckets.flush()
     const targetProjection = finalizeShards(targetSpoolRoot, stagingRoot, 'targets')
     rmSync(targetSpoolRoot, { recursive: true, force: true })
     const unresolvedTargetIds = targetIds.size - targetCounters.records
     if (unresolvedTargetIds !== 0) throw new Error(`${unresolvedTargetIds} accepted-name targets are absent from the pinned archive`)
+    if (hierarchyCandidateCounters.duplicateIds) throw new Error(`${hierarchyCandidateCounters.duplicateIds} duplicate accepted/provisionally-accepted higher-taxon IDs occur in the pinned archive`)
+
+    const hierarchyIds = new Set()
+    const unresolvedHierarchyIds = new Set()
+    const pendingHierarchyIds = [...hierarchyParentIds]
+    while (pendingHierarchyIds.length) {
+      const id = pendingHierarchyIds.pop()
+      if (hierarchyIds.has(id)) continue
+      const parentId = hierarchyParents.get(id)
+      if (parentId === undefined) {
+        unresolvedHierarchyIds.add(id)
+        continue
+      }
+      hierarchyIds.add(id)
+      if (parentId) pendingHierarchyIds.push(parentId)
+    }
+    if (unresolvedHierarchyIds.size) {
+      throw new Error(`${unresolvedHierarchyIds.size} accepted-species parent/ancestor IDs are not accepted or provisionally accepted higher taxa: ${[...unresolvedHierarchyIds].slice(0, 10).join(', ')}`)
+    }
+
+    const childCounts = new Map()
+    let acceptedSpeciesEdges = 0
+    forEachSpoolRecord(hierarchySpeciesChildSpoolRoot, (record) => {
+      childCounts.set(record.parentId, (childCounts.get(record.parentId) ?? 0) + 1)
+      acceptedSpeciesEdges += 1
+    })
+    const hierarchyCounters = {
+      nodes: counters.acceptedSpecies,
+      higherTaxonNodes: 0,
+      acceptedSpeciesNodes: counters.acceptedSpecies,
+      roots: 0,
+      directChildEdges: acceptedSpeciesEdges,
+      acceptedSpeciesEdges,
+      statuses: { accepted: counters.acceptedSpecies },
+      ranks: { species: counters.acceptedSpecies },
+    }
+    const roots = []
+    forEachSpoolRecord(hierarchyCandidateSpoolRoot, (record) => {
+      if (!hierarchyIds.has(record.id)) return
+      hierarchyCounters.nodes += 1
+      hierarchyCounters.higherTaxonNodes += 1
+      hierarchyCounters.statuses[record.status] = (hierarchyCounters.statuses[record.status] ?? 0) + 1
+      hierarchyCounters.ranks[record.rank] = (hierarchyCounters.ranks[record.rank] ?? 0) + 1
+      if (record.parentId) {
+        childCounts.set(record.parentId, (childCounts.get(record.parentId) ?? 0) + 1)
+        hierarchyCounters.directChildEdges += 1
+      } else {
+        hierarchyCounters.roots += 1
+        roots.push({ id: record.id, scientificName: record.scientificName, rank: record.rank, status: record.status })
+      }
+    })
+    if (hierarchyCounters.higherTaxonNodes !== hierarchyIds.size) throw new Error(`Hierarchy closure contains ${hierarchyIds.size} IDs but projected ${hierarchyCounters.higherTaxonNodes} higher-taxon nodes`)
+    if (acceptedSpeciesEdges !== counters.acceptedSpeciesWithParent) throw new Error(`Projected ${acceptedSpeciesEdges} accepted-species hierarchy edges but parsed ${counters.acceptedSpeciesWithParent}`)
+    if (hierarchyCounters.directChildEdges + hierarchyCounters.roots !== hierarchyCounters.nodes) {
+      throw new Error(`Hierarchy graph has ${hierarchyCounters.nodes} nodes but ${hierarchyCounters.directChildEdges} parent edges and ${hierarchyCounters.roots} roots`)
+    }
+
+    const hierarchyNodeSpoolRoot = join(stagingRoot, '.hierarchy-node-spool')
+    const hierarchyNodeBuckets = new BufferedBuckets(hierarchyNodeSpoolRoot)
+    const hierarchyChildSpoolRoot = join(stagingRoot, '.hierarchy-child-spool')
+    const hierarchyChildBuckets = new BufferedBuckets(hierarchyChildSpoolRoot)
+    forEachSpoolRecord(hierarchySpeciesNodeSpoolRoot, (record) => {
+      hierarchyNodeBuckets.append(sha256Bytes(Buffer.from(record.id, 'utf8')).slice(0, 2), JSON.stringify({ ...record, childCount: 0 }))
+      if (!record.parentId) {
+        hierarchyCounters.roots += 1
+        roots.push({ id: record.id, scientificName: record.scientificName, rank: record.rank, status: record.status })
+      }
+    })
+    forEachSpoolRecord(hierarchySpeciesChildSpoolRoot, (record) => {
+      hierarchyChildBuckets.append(sha256Bytes(Buffer.from(record.parentId, 'utf8')).slice(0, 2), JSON.stringify({ ...record, childCount: 0 }))
+    })
+    forEachSpoolRecord(hierarchyCandidateSpoolRoot, (record) => {
+      if (!hierarchyIds.has(record.id)) return
+      hierarchyNodeBuckets.append(sha256Bytes(Buffer.from(record.id, 'utf8')).slice(0, 2), JSON.stringify({
+        ...record,
+        childCount: childCounts.get(record.id) ?? 0,
+      }))
+      if (record.parentId) hierarchyChildBuckets.append(sha256Bytes(Buffer.from(record.parentId, 'utf8')).slice(0, 2), JSON.stringify({
+        parentId: record.parentId,
+        id: record.id,
+        scientificName: record.scientificName,
+        authorship: record.authorship,
+        rank: record.rank,
+        status: record.status,
+        sourceDatasetId: record.sourceDatasetId,
+        childCount: childCounts.get(record.id) ?? 0,
+      }))
+    })
+    hierarchyNodeBuckets.flush()
+    hierarchyChildBuckets.flush()
+    rmSync(hierarchyCandidateSpoolRoot, { recursive: true, force: true })
+    rmSync(hierarchySpeciesNodeSpoolRoot, { recursive: true, force: true })
+    rmSync(hierarchySpeciesChildSpoolRoot, { recursive: true, force: true })
+    const hierarchyNodeProjection = finalizeHierarchyShards(hierarchyNodeSpoolRoot, stagingRoot, 'hierarchy/nodes', 'id', (record) => record.id)
+    const hierarchyChildProjection = finalizeHierarchyShards(hierarchyChildSpoolRoot, stagingRoot, 'hierarchy/children', 'parent', (record) => `${record.parentId}\u0000${record.id}`)
+    rmSync(hierarchyNodeSpoolRoot, { recursive: true, force: true })
+    rmSync(hierarchyChildSpoolRoot, { recursive: true, force: true })
+    roots.sort((left, right) => left.id.localeCompare(right.id))
     const sources = [...sourceXml]
       .map(([datasetId, xml]) => parseSourceMetadata(datasetId, xml))
       .sort((left, right) => left.datasetId.localeCompare(right.datasetId, 'en', { numeric: true }))
@@ -435,6 +644,34 @@ export async function buildColRegistry({ archivePath, outputRoot, provenance }) 
         totalSourceBytes: targetProjection.files.reduce((sum, file) => sum + file.sourceBytes, 0),
         largestShardBytes: Math.max(0, ...targetProjection.files.map((file) => file.bytes)),
         relationshipToAcceptedSpeciesCount: 'These minimal target records make every resolving name locally dereferenceable. They include non-species ranks when referenced and never increase counts.acceptedSpecies.',
+      },
+      hierarchy: {
+        scope: 'Every accepted species plus the ancestor closure of every accepted species parent, with higher taxa restricted to accepted and provisionally accepted non-species usages and direct-child edges for every node with a parent.',
+        routing: 'SHA-256 of the exact release-scoped node ID or parent ID; first two lowercase hexadecimal characters select a shared route. Route files are Windows-safe and checksum-declared; no per-parent files are emitted.',
+        counts: hierarchyCounters,
+        roots,
+        nodes: projectionSummary(hierarchyNodeProjection),
+        children: projectionSummary(hierarchyChildProjection),
+        nodeRecordSchema: {
+          id: 'Catalogue of Life usage ID for an accepted species or higher-taxon closure node',
+          parentId: 'Parent higher-taxon usage ID, or null for a root',
+          scientificName: 'Verbatim scientific name from DwCA',
+          authorship: 'Verbatim scientific-name authorship or null',
+          rank: 'Verbatim lowercased taxon rank',
+          status: 'accepted or provisionally accepted',
+          sourceDatasetId: 'ChecklistBank source-sector dataset ID or null when absent upstream',
+          childCount: 'Number of locally projected direct children, including accepted species and closure nodes',
+        },
+        childRecordSchema: {
+          parentId: 'Higher-taxon parent usage ID used for routing and filtering',
+          id: 'Direct child usage ID',
+          scientificName: 'Verbatim scientific name from DwCA',
+          authorship: 'Verbatim scientific-name authorship or null',
+          rank: 'Lowercased child taxon rank',
+          status: 'accepted or provisionally accepted',
+          sourceDatasetId: 'ChecklistBank source-sector dataset ID or null when absent upstream',
+          childCount: 'Number of locally projected direct children; zero for accepted species',
+        },
       },
       relationshipToAtlas: 'This registry covers names and taxonomic placement only. It does not imply an Evo Atlas dossier, evidence maturity, media, fossil, ecology, translation, or expert review.',
       taxonIdScope: 'Catalogue of Life usage IDs identify records in COL26.8. They are not treated as sufficient cross-release concept identity because source-sector resynchronizations can replace IDs.',
