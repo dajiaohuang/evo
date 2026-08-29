@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "releaseAlias": "COL26.8",
+  "checklistBankDatasetKey": 316115,
+  "measuredAt": "2026-08-29",
+  "input": {
+    "dwcaArchiveBytes": 511590750,
+    "taxonTsvBytes": 1887854057,
+    "nameUsageRows": 5425409
+  },
+  "projection": {
+    "includedNameUsages": 4248569,
+    "acceptedSpecies": 2183133,
+    "resolvingNameUsages": 2065436,
+    "resolutionTargetRecords": 913137,
+    "search": {
+      "uncompressedNdjsonBytes": 1414774502,
+      "gzipPayloadBytes": 131855255,
+      "brotliQuality5PayloadBytes": 113329445,
+      "shardCount": 730
+    },
+    "resolutionTargets": {
+      "uncompressedNdjsonBytes": 292773248,
+      "gzipPayloadBytes": 51584460,
+      "brotliQuality5PayloadBytes": 41935333,
+      "shardCount": 256
+    },
+    "uncompressedNdjsonBytes": 1707547750,
+    "gzipPayloadBytes": 183439715,
+    "brotliQuality5PayloadBytes": 155264778,
+    "committedRegistryBytes": 184035846,
+    "runtimeManifestBytes": 586963,
+    "shardCount": 986,
+    "largestGzipShardBytes": 2024261,
+    "buildDurationMs": 101620
+  },
+  "compressionBenchmark": {
+    "environment": "Node.js 24.14.1 on Windows; each deterministic gzip shard decompressed and recompressed independently with Brotli quality 5",
+    "allShardGunzipDurationMs": 1701,
+    "allShardJsonParseDurationMs": 4507,
+    "allShardBrotliBenchmarkDurationMs": 11286,
+    "searchShardMeasurements": {
+      "gunzipDurationMs": 1334,
+      "jsonParseDurationMs": 3660,
+      "brotliBenchmarkDurationMs": 8776
+    },
+    "resolutionTargetShardMeasurements": {
+      "gunzipDurationMs": 367,
+      "jsonParseDurationMs": 847,
+      "brotliBenchmarkDurationMs": 2510
+    }
+  },
+  "browserSearchBenchmark": {
+    "environment": "Playwright Chromium 151.0.7922.34, 1440x1000-equivalent desktop context, local production preview, new browser context per cold query",
+    "measurementBoundary": "Input fill through first visible Catalogue of Life result; includes the intentional 120 ms UI debounce, local HTTP fetch, checksum verification, Worker gunzip/NDJSON parse and React render",
+    "coldSamplesMs": [318, 216, 216, 214, 329],
+    "coldP50Ms": 216,
+    "coldP95ObservedMs": 329,
+    "hotHomoSapiensMs": 207,
+    "queries": ["Homo sapiens", "Panthera leo", "Quercus robur", "Escherichia coli", "Homo sapiens"]
+  },
+  "notes": [
+    "Brotli is measured for feasibility only; the published runtime uses deterministic gzip to reuse the existing checksum-verifying Worker path.",
+    "The full runtime registry is lazy. The home/dashboard initial payload contains only the small current.json catalogue summary; the 587 KB catalogue manifest and one routed search shard load after a query reaches three characters. A resolving result additionally loads one SHA-256-routed target shard.",
+    "Measurements describe this build machine and local preview, not a network-service-level guarantee."
+  ]
+}

@@ -158,6 +158,8 @@ const zh: Record<string, string> = {
   'CC BY 4.0 build-time snapshots with per-response and normalized-geometry SHA-256 provenance': '采用 CC BY 4.0 的构建时快照，保留响应与规范化几何的 SHA-256 溯源',
   'Build-time CAO2024 coastline reconstruction service and paleocoordinate method context': '构建时 CAO2024 海岸线重建服务及古坐标方法背景',
   'No runtime service call; checksum-addressed local geometry and bundled occurrence coordinates are used': '运行时不调用服务；使用校验和寻址的本地几何与打包出现记录坐标',
+  'Versioned accepted-species names, resolving name usages, classification and source-checklist lineage': '带版本的已接受物种名称、解析名称用法、分类与来源清单谱系',
+  'Immutable ChecklistBank dataset 316115 projected into checksum-addressed lazy name-prefix shards': '将不可变的 ChecklistBank 数据集 316115 投影为按名称前缀延迟加载、校验和寻址的分片',
   'The continental layer is a CAO2024 model snapshot at one midpoint per geological period, not a direct observation or continuous paleogeographic movie; it is not assumed to be co-registered with PBDB paleocoordinates.': '大陆图层是 CAO2024 模型在每个地质纪中点的快照，并非直接观测或连续古地理影片；也不假定与 PBDB 古坐标空间配准。',
   'Source': '来源',
   'unavailable': '不可用',

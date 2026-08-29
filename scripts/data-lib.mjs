@@ -56,6 +56,7 @@ export function collectDataSummary() {
   const editorialDecisions = readJson('data/evidence/editorial-decisions.json')
   const entityRegistry = readJson('data/registry/entities/entities.json')
   const packageRegistry = readJson('data/registry/package-registry.json')
+  const catalogue = readJson('data/catalogue-of-life/releases/2026-08-20/registry/manifest.json')
   const periodNames = timeScale.units.filter((unit) => unit.itp === 'period').map((unit) => unit.nam)
   const occurrences = periodNames.flatMap((periodName) => readJson(`data/fossils/${periodName.toLowerCase()}.json`))
   const formationNames = new Set(occurrences.map((record) => record.formation).filter(Boolean))
@@ -88,6 +89,9 @@ export function collectDataSummary() {
       dataPackages: packageRegistry.packages.length,
       bilingualRegistryEntities: entityRegistry.filter((entity) => entity.names.en && entity.names.zh).length,
       packageOwnedEntities: entityRegistry.filter((entity) => entity.packageId).length,
+      acceptedSpeciesNames: catalogue.counts.acceptedSpecies,
+      resolvingSpeciesNameUsages: Object.values(catalogue.counts.resolvingNameUsages).reduce((sum, count) => sum + count, 0),
+      catalogueSourceChecklists: catalogue.sourceChecklists.count,
     },
     checksums: Object.fromEntries(dataFiles().map((path) => [relative(rootDir, join(rootDir, path)).replaceAll('\\', '/'), sha256(path)])),
   }

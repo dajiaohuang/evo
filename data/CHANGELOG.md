@@ -1,5 +1,15 @@
 # Dataset changelog
 
+## 2026.08-static-v5-rc6 — 2026-08-29
+
+- Pinned Catalogue of Life Base Release COL26.8 / ChecklistBank dataset 316115 and its exact official DwCA response SHA-256.
+- Published all 2,183,133 strictly accepted species names, excluding and disclosing 82,483 provisionally accepted names.
+- Retained 1,931,136 synonyms, 130,689 ambiguous synonyms and 3,611 misapplied names with their accepted usage targets and source-checklist lineage.
+- Added 730 checksum-addressed, hotspot-split name-prefix shards (125.75 MiB) and demand-loaded global search without expanding the initial application payload.
+- Added 256 SHA-256-routed target shards (49.19 MiB) so every resolving name can be dereferenced locally while preserving the target's actual rank and accepted or provisionally accepted status.
+- Bound result links to immutable ChecklistBank dataset 316115, exposed the release date and true total-match count, and separated registry verification failures from genuine no-match responses.
+- Kept the nomenclatural registry separate from 191 curated Atlas entities, dossier maturity and evidence-review status; documented that CoL usage IDs may change across source-sector resynchronizations.
+
 ## 2026.08-static-v5-rc5 — 2026-08-29
 
 - Expanded each CAO2024 period snapshot from coastlines alone to three checksum-addressed layers: unsimplified coastlines, topological plate polygons and typed plate boundaries.

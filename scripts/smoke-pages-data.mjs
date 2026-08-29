@@ -159,6 +159,24 @@ for (const snapshot of maps.snapshots) {
   }
 }
 
+releaseUrl(current.catalogue.manifest, 'Catalogue of Life manifest')
+checkFile(current.catalogue.manifest, 'Catalogue of Life manifest')
+const catalogue = readJson(current.catalogue.manifest.url)
+if (catalogue.releaseAlias !== 'COL26.8' || catalogue.checklistBankDatasetKey !== 316115) failures.push('Catalogue of Life runtime is not pinned to COL26.8 / 316115')
+if (catalogue.counts.acceptedSpecies !== 2183133 || current.catalogue.acceptedSpecies !== 2183133) failures.push('Catalogue of Life accepted-species count is stale')
+if (catalogue.search.files.length < 400 || catalogue.search.largestShardBytes > 8 * 1024 * 1024) failures.push('Catalogue of Life search sharding is incomplete or oversized')
+for (const file of catalogue.search.files) {
+  releaseUrl(file, `Catalogue of Life ${file.prefix}`)
+  checkFile(file, `Catalogue of Life ${file.prefix}`)
+}
+if (catalogue.acceptedTargets.records !== catalogue.acceptedTargets.uniqueReferencedIds || catalogue.acceptedTargets.unresolvedIds !== 0) failures.push('Catalogue of Life resolving-name targets are incomplete')
+for (const file of catalogue.acceptedTargets.files) {
+  releaseUrl(file, `Catalogue of Life accepted target ${file.prefix}`)
+  checkFile(file, `Catalogue of Life accepted target ${file.prefix}`)
+}
+releaseUrl(catalogue.sourceChecklists, 'Catalogue of Life source checklists')
+checkFile(catalogue.sourceChecklists, 'Catalogue of Life source checklists')
+
 if (failures.length) {
   console.error(`Pages smoke failed with ${failures.length} issue(s):`)
   for (const failure of failures.slice(0, 100)) console.error(`- ${failure}`)

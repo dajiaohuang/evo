@@ -13,6 +13,10 @@ function filesBelow(directory) {
 
 const files = filesBelow(dist)
 const totalBytes = files.reduce((sum, path) => sum + statSync(path).size, 0)
+const runtimeDataBytes = files
+  .filter((path) => relative(dist, path).replaceAll('\\', '/').startsWith('data/'))
+  .reduce((sum, path) => sum + statSync(path).size, 0)
+const publicationBytes = totalBytes - runtimeDataBytes
 const staticPageRoots = ['taxa', 'events', 'stories', 'intervals', 'formations', 'localities', 'traits', 'references', 'media', 'datasets', 'methods', 'zh']
 const staticPageFiles = files.filter((path) => {
   const pathFromDist = relative(dist, path).replaceAll('\\', '/')
@@ -26,7 +30,8 @@ const fossilChunksPrecached = ['cambrian', 'ordovician', 'silurian', 'devonian',
   .filter((name) => new RegExp(`assets/${name}-[^"']+\\.js`).test(serviceWorker))
 
 const failures = []
-if (totalBytes > 100 * 1024 * 1024) failures.push(`dist is ${(totalBytes / 1024 / 1024).toFixed(2)} MiB; deployment budget is 100 MiB`)
+if (totalBytes > 650 * 1024 * 1024) failures.push(`dist is ${(totalBytes / 1024 / 1024).toFixed(2)} MiB; Pages deployment budget is 650 MiB`)
+if (publicationBytes > 100 * 1024 * 1024) failures.push(`application and static publication are ${(publicationBytes / 1024 / 1024).toFixed(2)} MiB excluding runtime data; budget is 100 MiB`)
 if (staticPageBytes > 80 * 1024 * 1024) failures.push(`static knowledge pages are ${(staticPageBytes / 1024 / 1024).toFixed(2)} MiB; publication budget is 80 MiB`)
 for (const path of oversizedInitial) failures.push(`${relative(root, path)} is ${(statSync(path).size / 1024).toFixed(1)} KiB; initial JS budget is 500 KiB`)
 if (fossilChunksPrecached.length) failures.push(`service worker precaches lazy fossil chunks: ${fossilChunksPrecached.join(', ')}`)
@@ -36,5 +41,5 @@ if (failures.length) {
   for (const failure of failures) console.error(`- ${failure}`)
   process.exitCode = 1
 } else {
-  console.log(`Bundle budget passed: ${(totalBytes / 1024 / 1024).toFixed(2)} MiB total (${(staticPageBytes / 1024 / 1024).toFixed(2)} MiB static HTML), ${initialChunks.length} initial JS chunk(s), fossil datasets remain runtime-cached.`)
+  console.log(`Bundle budget passed: ${(totalBytes / 1024 / 1024).toFixed(2)} MiB total, ${(runtimeDataBytes / 1024 / 1024).toFixed(2)} MiB lazy runtime data, ${(staticPageBytes / 1024 / 1024).toFixed(2)} MiB static HTML, ${initialChunks.length} initial JS chunk(s).`)
 }

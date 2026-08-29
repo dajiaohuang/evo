@@ -49,6 +49,8 @@ const occurrenceSource = readJson('data/sources/pbdb-occurrence-bundle.json')
 const treeEvidence = readJson('data/tree/evidence.json')
 const canonicalRanges = readJson('data/ranges/range-evidence.json')
 const linkageCoverage = readJson('data/indexes/entity-linkage-coverage.json')
+const catalogueProvenance = readJson('data/catalogue-of-life/releases/2026-08-20/provenance.json')
+const catalogueSourceManifest = readJson('data/catalogue-of-life/releases/2026-08-20/registry/manifest.json')
 const perissodactylaOccurrenceSnapshot = readJson('data/sources/perissodactyla-occurrence-snapshot-v2.json')
 const claimsById = new Map(claims.map((claim) => [claim.id, claim]))
 const packageById = new Map(registry.packages.map((entry) => [entry.id, entry]))
@@ -370,6 +372,40 @@ const mapsManifestFile = writeJson('maps/manifest.json', {
   snapshots: mapSnapshots,
 }, true)
 
+const catalogueSourceRoot = join(rootDir, 'data/catalogue-of-life/releases/2026-08-20/registry')
+function copyCatalogueFile(sourceFile) {
+  const written = write(`catalogue/${sourceFile.path}`, readFileSync(join(catalogueSourceRoot, ...sourceFile.path.split('/'))))
+  if (written.sha256 !== sourceFile.sha256 || written.bytes !== sourceFile.bytes) throw new Error(`Catalogue source shard changed without rebuilding its manifest: ${sourceFile.path}`)
+  return { ...sourceFile, url: written.url }
+}
+const catalogueSearchFiles = catalogueSourceManifest.search.files.map(copyCatalogueFile)
+const catalogueTargetFiles = catalogueSourceManifest.acceptedTargets.files.map(copyCatalogueFile)
+const catalogueFileByPath = new Map([...catalogueSearchFiles, ...catalogueTargetFiles].map((file) => [file.path, file]))
+function runtimeCatalogueRoutes(routes) {
+  return Object.fromEntries(Object.entries(routes).map(([prefix, paths]) => [
+    prefix,
+    paths.map((path) => catalogueFileByPath.get(path)?.url ?? (() => { throw new Error(`Catalogue route references missing shard: ${path}`) })()),
+  ]))
+}
+const catalogueSourcesFile = write('catalogue/sources.json', readFileSync(join(catalogueSourceRoot, catalogueSourceManifest.sourceChecklists.path)))
+if (catalogueSourcesFile.sha256 !== catalogueSourceManifest.sourceChecklists.sha256) throw new Error('Catalogue source-checklist ledger changed without rebuilding its manifest')
+const catalogueRuntimeManifest = {
+  ...catalogueSourceManifest,
+  provenance: catalogueProvenance,
+  sourceChecklists: { ...catalogueSourceManifest.sourceChecklists, url: catalogueSourcesFile.url },
+  search: {
+    ...catalogueSourceManifest.search,
+    routes: runtimeCatalogueRoutes(catalogueSourceManifest.search.routes),
+    files: catalogueSearchFiles,
+  },
+  acceptedTargets: {
+    ...catalogueSourceManifest.acceptedTargets,
+    routes: runtimeCatalogueRoutes(catalogueSourceManifest.acceptedTargets.routes),
+    files: catalogueTargetFiles,
+  },
+}
+const catalogueManifestFile = writeJson('catalogue/manifest.json', catalogueRuntimeManifest, true)
+
 const coreCompressedBytes = Object.values(core).reduce((sum, file) => sum + file.bytes, 0)
 const current = {
   schemaVersion: 5,
@@ -394,11 +430,21 @@ const current = {
     unresolvedPackageAssignmentCount,
   },
   maps: { manifest: mapsManifestFile, availableSnapshots: mapSnapshots.filter((snapshot) => snapshot.status === 'available').length },
+  catalogue: {
+    manifest: catalogueManifestFile,
+    releaseAlias: catalogueRuntimeManifest.releaseAlias,
+    releaseDate: catalogueRuntimeManifest.releaseDate,
+    acceptedSpecies: catalogueRuntimeManifest.counts.acceptedSpecies,
+    resolvingNameUsages: Object.values(catalogueRuntimeManifest.counts.resolvingNameUsages).reduce((sum, count) => sum + count, 0),
+    acceptedTargetRecords: catalogueRuntimeManifest.acceptedTargets.records,
+    relationshipToAtlas: catalogueRuntimeManifest.relationshipToAtlas,
+  },
   downloads: { template: `${releasePrefix}/downloads/{packageId}-${sourceManifest.datasetVersion}.zip` },
   budgets: {
     coreCompressedBytes,
     coreLimitBytes: 5 * 1024 * 1024,
     shardLimitBytes: 8 * 1024 * 1024,
+    catalogueCompressedBytes: catalogueRuntimeManifest.search.totalCompressedBytes + catalogueRuntimeManifest.acceptedTargets.totalCompressedBytes,
     pagesLimitBytes: 650 * 1024 * 1024,
   },
   evidenceBoundary: {
