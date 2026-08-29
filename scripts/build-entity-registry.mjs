@@ -384,7 +384,7 @@ for (const definition of packageDefinitions) {
     version: DATASET_PACKAGE_VERSION,
     title: definition.title,
     titleZh: definition.titleZh,
-    conceptScope: {
+    conceptScope: definition.conceptScope ?? {
       en: `Evidence and navigation concepts rooted at ${definition.rootEntityIds.join(', ')}; membership follows the committed entity registry and does not imply exhaustive taxonomic coverage.`,
       zh: `以 ${definition.rootEntityIds.join('、')} 为根的证据与导航概念；成员范围以已提交的实体注册表为准，不表示穷尽性的分类覆盖。`,
     },

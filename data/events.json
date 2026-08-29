@@ -373,25 +373,24 @@
   },
   {
     "id": "plants-on-land",
-    "title": "Early land-plant diversification (composite)",
-    "titleZh": "早期陆生植物多样化（复合事件）",
+    "title": "Modelled crown-Embryophyta divergence",
+    "titleZh": "胚胎植物冠群的模型分化时间",
     "category": "transition",
-    "startAge": 470,
-    "endAge": 420,
+    "startAge": 515,
+    "endAge": 473,
     "regions": [
-      "Lowland terrestrial environments"
+      "Global molecular-clock sample"
     ],
     "clades": [
-      "Embryophyta",
-      "early vascular plants"
+      "Embryophyta"
     ],
-    "summary": "Spores, cuticles and plant bodies record the establishment and diversification of terrestrial vegetation.",
+    "summary": "A fossil-calibrated molecular clock estimates a middle Cambrian–Early Ordovician origin for crown land plants; it does not directly date fossil first appearances or terrestrial ecosystem expansion.",
     "claimIds": [
       "claim:event:plants-on-land"
     ],
     "evidenceItems": [
       {
-        "statement": "Cryptospores",
+        "statement": "Bayesian relaxed molecular clock using 37 fossil calibrations",
         "relation": "supports",
         "claimIds": [
           "claim:event:plants-on-land"
@@ -404,20 +403,7 @@
         ]
       },
       {
-        "statement": "Vascular plant macrofossils",
-        "relation": "supports",
-        "claimIds": [
-          "claim:event:plants-on-land"
-        ],
-        "referenceLinks": [
-          {
-            "relation": "supports",
-            "referenceId": "morris-2018-land-plants"
-          }
-        ]
-      },
-      {
-        "statement": "Rooting and soil-development signals",
+        "statement": "Middle Cambrian–Early Ordovician crown-Embryophyta estimate",
         "relation": "supports",
         "claimIds": [
           "claim:event:plants-on-land"
@@ -432,7 +418,7 @@
     ],
     "uncertaintyItems": [
       {
-        "statement": "This composite window conflates lineage divergence, cryptospore evidence and later vascular-plant ecosystem expansion",
+        "statement": "Divergence estimates are sensitive to clock models and fossil-calibration strategy",
         "relation": "contextualizes",
         "claimIds": [
           "claim:event:plants-on-land"
@@ -445,20 +431,7 @@
         ]
       },
       {
-        "statement": "The earliest stages are represented mostly by dispersed microfossils",
-        "relation": "contextualizes",
-        "claimIds": [
-          "claim:event:plants-on-land"
-        ],
-        "referenceLinks": [
-          {
-            "relation": "supports",
-            "referenceId": "morris-2018-land-plants"
-          }
-        ]
-      },
-      {
-        "statement": "Definitions of crown and stem groups affect timing",
+        "statement": "Modelled crown divergence is not a direct fossil first appearance or an ecosystem-expansion date",
         "relation": "contextualizes",
         "claimIds": [
           "claim:event:plants-on-land"
@@ -918,51 +891,27 @@
   },
   {
     "id": "angiosperm-expansion",
-    "title": "Angiosperm expansion",
-    "titleZh": "被子植物扩张",
+    "title": "Early angiosperm crown-lineage diversification estimates",
+    "titleZh": "被子植物主要冠群的早期分化估计",
     "category": "radiation",
     "startAge": 135,
-    "endAge": 90,
+    "endAge": 130,
     "regions": [
-      "Global terrestrial environments"
+      "Global taxonomic sample"
     ],
     "clades": [
       "Angiospermae",
-      "pollinating insects"
+      "Magnoliidae",
+      "Monocotyledoneae",
+      "Eudicotyledoneae"
     ],
-    "summary": "Flowering plants expanded in diversity and ecological importance through the Cretaceous, reshaping terrestrial communities.",
+    "summary": "A metacalibrated time-tree estimates Early Cretaceous diversification of major flowering-plant crown lineages; it is not direct evidence of fossil first appearances or ecological dominance.",
     "claimIds": [
       "claim:event:angiosperm-expansion"
     ],
     "evidenceItems": [
       {
-        "statement": "Pollen record",
-        "relation": "supports",
-        "claimIds": [
-          "claim:event:angiosperm-expansion"
-        ],
-        "referenceLinks": [
-          {
-            "relation": "supports",
-            "referenceId": "magallon-2015-angiosperms"
-          }
-        ]
-      },
-      {
-        "statement": "Leaves and reproductive structures",
-        "relation": "supports",
-        "claimIds": [
-          "claim:event:angiosperm-expansion"
-        ],
-        "referenceLinks": [
-          {
-            "relation": "supports",
-            "referenceId": "magallon-2015-angiosperms"
-          }
-        ]
-      },
-      {
-        "statement": "Insect–plant associations",
+        "statement": "Metacalibrated crown-lineage estimates from 137 fossil calibrations",
         "relation": "supports",
         "claimIds": [
           "claim:event:angiosperm-expansion"
@@ -977,20 +926,7 @@
     ],
     "uncertaintyItems": [
       {
-        "statement": "Crown-group origin may predate abundant diagnostic fossils",
-        "relation": "contextualizes",
-        "claimIds": [
-          "claim:event:angiosperm-expansion"
-        ],
-        "referenceLinks": [
-          {
-            "relation": "supports",
-            "referenceId": "magallon-2015-angiosperms"
-          }
-        ]
-      },
-      {
-        "statement": "Ecological dominance was geographically uneven",
+        "statement": "Estimated ages depend on fossil calibrations and molecular-clock models",
         "relation": "contextualizes",
         "claimIds": [
           "claim:event:angiosperm-expansion"
@@ -1401,11 +1337,11 @@
   },
   {
     "id": "c4-grassland-expansion",
-    "title": "C4 grassland expansion",
-    "titleZh": "C4 草原扩张",
+    "title": "Late Miocene C4-vegetation expansion",
+    "titleZh": "晚中新世 C4 植被扩张",
     "category": "transition",
-    "startAge": 10,
-    "endAge": 5,
+    "startAge": 8,
+    "endAge": 6,
     "regions": [
       "Africa",
       "Asia",
@@ -1413,44 +1349,15 @@
       "South America"
     ],
     "clades": [
-      "Poaceae",
-      "Bovidae",
-      "Equidae",
-      "Rodentia"
+      "C4 plants"
     ],
-    "summary": "C4-dominated grasslands expanded in several regions, restructuring herbivore diets and open-habitat communities.",
+    "summary": "Fossil tooth-enamel isotopes record a widespread, regionally asynchronous increase in C4-plant biomass; they do not alone demonstrate open grassland or faunal adaptation.",
     "claimIds": [
       "claim:event:c4-grassland-expansion"
     ],
     "evidenceItems": [
       {
-        "statement": "Stable carbon isotopes in soils and teeth",
-        "relation": "supports",
-        "claimIds": [
-          "claim:event:c4-grassland-expansion"
-        ],
-        "referenceLinks": [
-          {
-            "relation": "supports",
-            "referenceId": "cerling-1997-c4"
-          }
-        ]
-      },
-      {
-        "statement": "Grass phytoliths",
-        "relation": "supports",
-        "claimIds": [
-          "claim:event:c4-grassland-expansion"
-        ],
-        "referenceLinks": [
-          {
-            "relation": "supports",
-            "referenceId": "cerling-1997-c4"
-          }
-        ]
-      },
-      {
-        "statement": "Dental adaptation and faunal turnover",
+        "statement": "Fossil tooth-enamel δ13C records from four continents",
         "relation": "supports",
         "claimIds": [
           "claim:event:c4-grassland-expansion"
@@ -1465,7 +1372,7 @@
     ],
     "uncertaintyItems": [
       {
-        "statement": "Expansion timing varies substantially among continents",
+        "statement": "The increase occurred earlier at lower latitudes and was not globally synchronous",
         "relation": "contextualizes",
         "claimIds": [
           "claim:event:c4-grassland-expansion"
@@ -1478,7 +1385,7 @@
         ]
       },
       {
-        "statement": "Open habitats existed before widespread C4 dominance",
+        "statement": "Isotope-inferred C4 biomass is not equivalent to open-grassland dominance",
         "relation": "contextualizes",
         "claimIds": [
           "claim:event:c4-grassland-expansion"

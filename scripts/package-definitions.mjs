@@ -1,5 +1,5 @@
 export const PACKAGE_SCHEMA_VERSION = 5
-export const DATASET_PACKAGE_VERSION = '2026.08-static-v5-rc10'
+export const DATASET_PACKAGE_VERSION = '2026.08-static-v5-rc11'
 export const DATASET_RELEASE_DATE = '2026-08-30'
 
 export const packageDefinitions = [
@@ -15,9 +15,13 @@ export const packageDefinitions = [
   {
     id: 'early-land-plants',
     path: 'plantae/early-land-plants',
-    title: 'Early Land Plants, Lycophytes and Ferns',
-    titleZh: '早期陆生植物、石松类与蕨类',
+    title: 'Early Land-Plant Evidence, Bryophytes and Seed-Free Vascular Plants',
+    titleZh: '早期陆生植物证据、苔藓植物与无种子维管植物',
     rootEntityIds: ['plantae', 'bryophyta', 'lycophyta', 'pteridophyta'],
+    conceptScope: {
+      en: 'Selected Embryophyta evidence plus COL26.8 accepted-species coverage for bryophytes, lycophytes, ferns and horsetails. The atlas Plantae node is navigation context only; seed plants belong to separate packages. Legacy range projections remain unreviewed and must not be interpreted as crown-group first appearances.',
+      zh: '收录部分胚胎植物证据，并完整路由 COL26.8 中已接受的苔藓植物、石松类、蕨类与木贼类物种。图谱的 Plantae 节点仅提供导航背景；种子植物归入独立内容包。旧版延限投影尚未复核，不得解释为任何冠群的化石首现。',
+    },
     wave: 'E',
   },
   {
@@ -26,6 +30,10 @@ export const packageDefinitions = [
     title: 'Gymnosperms',
     titleZh: '裸子植物',
     rootEntityIds: ['gymnospermae'],
+    conceptScope: {
+      en: 'COL26.8 accepted-species routing includes living cycads, Ginkgo, conifers and gnetophytes. Current Atlas entities cover the gymnosperm aggregate, cycads, Ginkgo, conifers and Araucariaceae; a gnetophyte dossier and claim-linked fossil or crown ranges remain pending. Legacy range projections are unreviewed.',
+      zh: 'COL26.8 已接受物种路由包含现生苏铁类、银杏类、针叶树类和买麻藤类。当前图谱实体覆盖裸子植物集合、苏铁类、银杏类、针叶树类和南洋杉科；买麻藤类档案以及关联主张的化石或冠群延限仍待补充。旧版延限投影尚未复核。',
+    },
     wave: 'E',
   },
   {
@@ -34,6 +42,10 @@ export const packageDefinitions = [
     title: 'Angiosperms and Grasses',
     titleZh: '被子植物与禾草',
     rootEntityIds: ['angiospermae'],
+    conceptScope: {
+      en: 'COL26.8 accepted-species routing covers flowering plants. Current claims distinguish modelled crown-lineage divergence from fossil tooth-enamel isotope evidence for later C4 biomass; direct plant-fossil first appearances and floristic-dominance claims remain pending. Legacy range projections are unreviewed.',
+      zh: 'COL26.8 已接受物种路由覆盖被子植物。当前主张将冠群模型分化时间与较晚期 C4 生物量的化石牙釉质同位素证据分开；植物化石首现和植物区系优势主张仍待补充。旧版延限投影尚未复核。',
+    },
     wave: 'pilot',
   },
   {
