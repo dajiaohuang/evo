@@ -936,5 +936,115 @@
       }
     ],
     "evidenceStatus": "available-with-limitations"
+  },
+  {
+    "id": "angiosperm-evidence-boundaries",
+    "title": "Seven evidence boundaries in flowering-plant history",
+    "titleZh": "被子植物历史的七条证据边界",
+    "dek": "Compare calibration-sensitive clocks, dated whole plants, regional phytolith assemblages and animal-diet isotopes without turning them into one false origin or dominance timeline.",
+    "theme": "green",
+    "durationMinutes": 11,
+    "featured": true,
+    "steps": [
+      {
+        "id": "crown-calibrations",
+        "title": "One dataset, three clock ranges",
+        "text": "A 2026 analysis integrates 25,685 fossil occurrences with molecular data, but its crown-angiosperm interval changes radically with calibration treatment; the narrow Late Jurassic result is the authors' preferred model, not a fossil flower.",
+        "age": 152,
+        "timeRange": [152.99, 151.46],
+        "taxonIds": ["angiospermae"],
+        "view": "evidence",
+        "eventId": "crown-angiosperm-calibration-sensitivity",
+        "annotation": "The atlas displays the preferred hard-bound result while exposing the much older alternatives beside it.",
+        "claimLinks": [
+          {"claimId": "claim:event:crown-angiosperm-calibration-sensitivity", "relation": "supports"}
+        ]
+      },
+      {
+        "id": "major-crown-models",
+        "title": "Major lineages in an Early Cretaceous model",
+        "text": "A separate metacalibrated time tree places several major flowering-plant crown lineages near 135–130 Ma. Those estimates neither validate the atlas's legacy ranges nor record fossil first appearances.",
+        "age": 132.5,
+        "timeRange": [135, 130],
+        "taxonIds": ["angiospermae", "monocotyledones", "eudicotyledones"],
+        "view": "tree",
+        "eventId": "angiosperm-expansion",
+        "annotation": "The navigation tree is an educational subset: monocots and eudicots do not exhaust Angiospermae, and Magnoliopsida is not an exact eudicot catalogue root.",
+        "claimLinks": [
+          {"claimId": "claim:event:angiosperm-expansion", "relation": "supports"}
+        ]
+      },
+      {
+        "id": "montsechia-habit",
+        "title": "Many specimens, one extinct habit",
+        "text": "More than one thousand Montsechia specimens combine leafy axes, closed single-seeded fruits and depositional evidence for a submerged freshwater plant. They do not make the flowering-plant ancestor aquatic.",
+        "age": 123.5,
+        "timeRange": [125.77, 121.4],
+        "taxonIds": ["angiospermae"],
+        "view": "evidence",
+        "eventId": "barremian-montsechia",
+        "annotation": "A fossil habit, a phylogenetic placement and an ancestral ecological state are different claims.",
+        "claimLinks": [
+          {"claimId": "claim:event:barremian-montsechia", "relation": "supports"}
+        ]
+      },
+      {
+        "id": "leefructus-body",
+        "title": "A dated eudicot whole plant",
+        "text": "Leefructus links diagnostic leaves and reproductive organs in a 125.8–122.6 Ma Yixian bed, supporting an early eudicot record while leaving Ranunculaceae affinity provisional.",
+        "age": 124.2,
+        "timeRange": [125.8, 122.6],
+        "taxonIds": ["eudicotyledones"],
+        "view": "evidence",
+        "eventId": "yixian-leefructus",
+        "annotation": "One locality cannot define the global origin, first appearance or diversity of eudicots.",
+        "claimLinks": [
+          {"claimId": "claim:event:yixian-leefructus", "relation": "supports"}
+        ]
+      },
+      {
+        "id": "cratolirion-body",
+        "title": "Roots and flowers in one monocot",
+        "text": "Cratolirion preserves roots, leaves, anatomy and reproductive organs together at about 115 Ma. Its crown-monocot placement does not turn it into a modern lily or the first monocot.",
+        "age": 115,
+        "timeRange": [115, 115],
+        "taxonIds": ["monocotyledones"],
+        "view": "evidence",
+        "eventId": "crato-cratolirion",
+        "annotation": "Whole-plant preservation strengthens character association, not claims beyond the analysed specimen and placement.",
+        "claimLinks": [
+          {"claimId": "claim:event:crato-cratolirion", "relation": "supports"}
+        ]
+      },
+      {
+        "id": "phytolith-transition",
+        "title": "A regional grass-community proxy",
+        "text": "Fourteen Great Plains palaeosol assemblages record an 8–5.5 Ma increase in potentially C4 grass phytoliths. The 50–60% value applies within grasses, not to all vegetation.",
+        "age": 6.75,
+        "timeRange": [8, 5.5],
+        "taxonIds": ["poaceae"],
+        "view": "evidence",
+        "eventId": "great-plains-c4-phytolith-transition",
+        "annotation": "Regional assemblages and diagnostic limits prevent a synchronous global C4-grassland claim.",
+        "claimLinks": [
+          {"claimId": "claim:event:great-plains-c4-phytolith-transition", "relation": "supports"}
+        ]
+      },
+      {
+        "id": "enamel-c4-biomass",
+        "title": "Animal diets reveal C4 biomass",
+        "text": "Tooth-enamel carbon isotopes record widespread, regionally asynchronous C4 biomass expansion around 8–6 Ma. They do not identify the exact C4 plant lineages or directly measure open-grassland cover.",
+        "age": 7,
+        "timeRange": [8, 6],
+        "taxonIds": ["poaceae"],
+        "view": "map",
+        "eventId": "c4-grassland-expansion",
+        "annotation": "Dietary isotope proxy, plant identity, vegetation cover and faunal adaptation must remain separate.",
+        "claimLinks": [
+          {"claimId": "claim:event:c4-grassland-expansion", "relation": "supports"}
+        ]
+      }
+    ],
+    "evidenceStatus": "available-with-limitations"
   }
 ]

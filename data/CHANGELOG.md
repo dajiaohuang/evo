@@ -1,5 +1,14 @@
 # Dataset changelog
 
+## 2026.08-static-v5-rc15 — 2026-08-30
+
+- Promoted the angiosperm package to structured evidence with a seven-step bilingual story separating crown-age models, dated body fossils, phytolith assemblages and animal-diet isotope proxies.
+- Added a 2026 fossil-integrated crown-age model while exposing the radically different posterior intervals produced by three calibration strategies instead of presenting one preferred value as a fossil first appearance.
+- Added specimen-scoped Early Cretaceous evidence for submerged Montsechia, the whole-plant crown monocot Cratolirion and the eudicot Leefructus without turning proposed placements into modern-family identifications or global first appearances.
+- Added a central Great Plains C3–C4 phytolith transition and clarified that the existing four-continent enamel-isotope event cannot identify contributing C4 plant lineages or directly measure vegetation cover.
+- Refreshed the COL26.8 package-ownership snapshot: all 2,183,133 accepted species remain assigned, including 352,619 flowering-plant species, with zero unmatched or broken lineages.
+- Kept all five angiosperm-package global ranges unreviewed legacy displays and stated that the educational navigation subset does not make monocots and eudicots an exhaustive flowering-plant topology.
+
 ## 2026.08-static-v5-rc14 — 2026-08-30
 
 - Promoted the gymnosperm package from generated scaffold to structured evidence with six primary-source-linked events and a bilingual evidence-boundary story.

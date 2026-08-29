@@ -1,5 +1,5 @@
 export const PACKAGE_SCHEMA_VERSION = 5
-export const DATASET_PACKAGE_VERSION = '2026.08-static-v5-rc14'
+export const DATASET_PACKAGE_VERSION = '2026.08-static-v5-rc15'
 export const DATASET_RELEASE_DATE = '2026-08-30'
 
 export const packageDefinitions = [
@@ -45,10 +45,11 @@ export const packageDefinitions = [
     titleZh: '被子植物与禾草',
     rootEntityIds: ['angiospermae'],
     conceptScope: {
-      en: 'COL26.8 accepted-species routing covers flowering plants. Current claims distinguish modelled crown-lineage divergence from fossil tooth-enamel isotope evidence for later C4 biomass; direct plant-fossil first appearances and floristic-dominance claims remain pending. Legacy range projections are unreviewed.',
-      zh: 'COL26.8 已接受物种路由覆盖被子植物。当前主张将冠群模型分化时间与较晚期 C4 生物量的化石牙釉质同位素证据分开；植物化石首现和植物区系优势主张仍待补充。旧版延限投影尚未复核。',
+      en: 'COL26.8 accepted-species routing covers flowering plants through the pinned Liliopsida and Magnoliopsida roots; Magnoliopsida is not presented as an exact eudicot root. Curated events separate calibration-sensitive crown models, specimen-scoped Early Cretaceous body fossils, phytolith assemblages and tooth-enamel isotope evidence. Floristic-dominance claims and claim-linked global ranges remain pending; legacy range projections are unreviewed.',
+      zh: 'COL26.8 已接受物种经固定的百合纲与木兰纲根路由到被子植物内容包；木兰纲不被表述为精确的真双子叶植物根。已整理事件严格区分校准敏感的冠群模型、标本限定的早白垩世植物体化石、植硅体组合与牙釉质同位素证据。植物区系优势主张和有主张关联的全局延限仍待补充；旧版延限投影尚未复核。',
     },
     wave: 'pilot',
+    scientificMaturity: 'structured',
   },
   {
     id: 'sponges-cnidarians',
