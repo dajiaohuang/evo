@@ -1,5 +1,5 @@
 import { afterEach, describe, expect, it, vi } from 'vitest'
-import type { CatalogueHierarchyChildRecord, CatalogueHierarchyNodeRecord, CatalogueSourceChecklist, RuntimeMapSnapshot } from './types'
+import type { CatalogueHierarchyChildRecord, CatalogueHierarchyNodeRecord, CatalogueSourceChecklist, RuntimeMapManifest, RuntimeMapSnapshot } from './types'
 
 function responseFor(value: unknown) {
   const bytes = new TextEncoder().encode(JSON.stringify(value))
@@ -119,6 +119,27 @@ afterEach(async () => {
 })
 
 describe('static runtime release coherence', () => {
+  it('selects the nearest layer frame with younger ties and rejects ages outside CAO2024', async () => {
+    const manifest = {
+      schemaVersion: 6,
+      version: 'dense-test',
+      source: { title: 'CAO2024', version: 'v2.4', doi: 'test', url: 'test', license: 'CC-BY-4.0', attribution: 'test', retrievedAt: '2026-08-29' },
+      scientificLimitations: [],
+      ageRangeMa: { youngest: 0, oldest: 1800 },
+      selectionPolicy: { method: 'nearest', tieBreak: 'younger', outsideRange: 'unavailable' },
+      layers: {
+        coastlines: { role: 'modelled-coastline', cadenceBands: [], frames: [0, 5, 10].map((ageMa) => ({ ageMa, featureCount: 1, url: `ma-${ageMa}.json.gz` })) },
+      },
+      snapshots: [],
+    } as unknown as RuntimeMapManifest
+    const { resolvePaleogeographyFrame } = await import('./staticDataClient')
+
+    expect(resolvePaleogeographyFrame(manifest, 2.5, 'coastlines')?.selectedAgeMa).toBe(0)
+    expect(resolvePaleogeographyFrame(manifest, 7.6, 'coastlines')?.selectedAgeMa).toBe(10)
+    expect(resolvePaleogeographyFrame(manifest, 1800.1, 'coastlines')).toBeNull()
+    expect(resolvePaleogeographyFrame(manifest, -0.1, 'coastlines')).toBeNull()
+  })
+
   it('loads a requested paleogeography layer independently and caches it', async () => {
     Object.defineProperty(globalThis, 'Worker', { configurable: true, value: undefined })
     const collection = { type: 'FeatureCollection' as const, features: [] }

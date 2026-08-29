@@ -61,6 +61,7 @@ export function PaleoMap() {
   const viewState = useAppStore((s) => s.viewState)
   const setViewState = useAppStore((s) => s.setViewState)
   const currentPeriod = useAppStore((s) => s.currentPeriod)
+  const currentAge = useAppStore((s) => s.currentAge)
   const loadOccurrencesForInterval = useAppStore((s) => s.loadOccurrencesForInterval)
   const occurrencesByInterval = useAppStore((s) => s.occurrencesByInterval)
   const occurrencesByTaxonQuery = useAppStore((s) => s.occurrencesByTaxonQuery)
@@ -79,11 +80,12 @@ export function PaleoMap() {
     available: landLayerAvailable,
     loading: landLayerLoading,
     error: landLayerError,
-    snapshot: landSnapshot,
+    selections: mapSelections,
+    settledAgeMa,
     manifest: mapManifest,
     loadingLayers,
     layerErrors,
-  } = usePaleogeography(currentPeriod, requestedPaleogeographyLayers)
+  } = usePaleogeography(currentAge, requestedPaleogeographyLayers)
 
   useEffect(() => {
     if (currentPeriod) {
@@ -152,6 +154,7 @@ export function PaleoMap() {
   }, [layers])
   const anyLayerLoading = landLayerLoading || requestedPaleogeographyLayers.some((layerId) => loadingLayers[layerId])
   const visibleLayerErrors = requestedPaleogeographyLayers.flatMap((layerId) => layerErrors[layerId] ? [[layerId, layerErrors[layerId]] as const] : [])
+  const primaryMapSelection = mapSelections.coastlines ?? mapSelections.platePolygons ?? mapSelections.plateBoundaries
 
   return (
     <div style={{ height: '100%', width: '100%', position: 'relative' }}>
@@ -167,7 +170,7 @@ export function PaleoMap() {
       >
         {showStaticPolygons && landLayerAvailable && layers?.staticPolygons && (
           <GeoJSON
-            key={`${currentPeriod ?? 'cretaceous'}-static-polygons`}
+            key={mapSelections.staticPolygons?.frame.url ?? 'static-polygons'}
             data={layers.staticPolygons}
             style={(feature) => {
               const pid = Number(feature?.properties?.pid ?? 0)
@@ -182,7 +185,7 @@ export function PaleoMap() {
         )}
         {showPlatePolygons && landLayerAvailable && layers?.platePolygons && (
           <GeoJSON
-            key={`${currentPeriod ?? 'cretaceous'}-plates`}
+            key={mapSelections.platePolygons?.frame.url ?? 'plate-polygons'}
             data={layers.platePolygons}
             style={(feature) => {
               const pid = Number(feature?.properties?.pid ?? 0)
@@ -203,7 +206,7 @@ export function PaleoMap() {
         )}
         {showContinents && landLayerAvailable && layers?.coastlines && (
           <GeoJSON
-            key={`${currentPeriod ?? 'cretaceous'}-coastlines`}
+            key={mapSelections.coastlines?.frame.url ?? 'coastlines'}
             data={layers.coastlines}
             style={() => ({
               color: '#5a957d',
@@ -215,7 +218,7 @@ export function PaleoMap() {
         )}
         {showContinentalCrust && landLayerAvailable && layers?.continentalPolygons && (
           <GeoJSON
-            key={`${currentPeriod ?? 'cretaceous'}-continental-crust`}
+            key={mapSelections.continentalPolygons?.frame.url ?? 'continental-crust'}
             data={layers.continentalPolygons}
             style={() => ({ color: '#b8a270', weight: .8, opacity: .58, fillColor: '#8b7548', fillOpacity: .12 })}
             onEachFeature={(feature, layer) => {
@@ -226,7 +229,7 @@ export function PaleoMap() {
         )}
         {showContinentOceanBoundaries && landLayerAvailable && layers?.continentOceanBoundaries && (
           <GeoJSON
-            key={`${currentPeriod ?? 'cretaceous'}-continent-ocean-boundaries`}
+            key={mapSelections.continentOceanBoundaries?.frame.url ?? 'continent-ocean-boundaries'}
             data={layers.continentOceanBoundaries}
             style={() => ({ color: '#74a9cf', weight: 1.3, opacity: .78, fillOpacity: 0, dashArray: '7 4' })}
             onEachFeature={(feature, layer) => {
@@ -237,7 +240,7 @@ export function PaleoMap() {
         )}
         {showPlateBoundaries && landLayerAvailable && layers?.plateBoundaries && (
           <GeoJSON
-            key={`${currentPeriod ?? 'cretaceous'}-boundaries`}
+            key={mapSelections.plateBoundaries?.frame.url ?? 'plate-boundaries'}
             data={layers.plateBoundaries}
             style={(feature) => {
               const boundaryType = String(feature?.properties?.type ?? 'UnclassifiedFeature')
@@ -272,13 +275,13 @@ export function PaleoMap() {
           ? recordsLoaded
             ? t('{period} — {count} fossils', { period: t(currentPeriod), count: number(fossilCount) })
             : `${t(currentPeriod)} — ${t('loading records…')}`
-          : t('No detailed map snapshot for this age')}
+          : t('No period-scoped fossil sample for this age')}
         {currentPeriod && recordsLoaded && (
           <div style={{ marginTop: 2, color: '#82938c', fontSize: 9 }}>
             {t('Paleo-coordinate coverage {coverage}%', { coverage: (paleoCoverage * 100).toFixed(0) })}
           </div>
         )}
-        {landSnapshot && <div style={{ marginTop: 2, color: '#9eb8aa', fontSize: 9 }}>{t('{model} coastline snapshot · {age} Ma', { model: landSnapshot.model ?? 'CAO2024', age: number(landSnapshot.reconstructionAgeMa ?? 0) })}</div>}
+        {primaryMapSelection && <div style={{ marginTop: 2, color: '#9eb8aa', fontSize: 9 }}>{t('CAO2024 nearest frame {selected} Ma · requested {requested} Ma · Δ {delta} Myr', { selected: number(primaryMapSelection.selectedAgeMa), requested: number(currentAge), delta: number(primaryMapSelection.deltaMa) })}</div>}
       </div>
 
       <div className="map-layer-control" aria-label={t('Map layer controls')}>
@@ -295,7 +298,7 @@ export function PaleoMap() {
           ))}
         </div>
         <label title={landLayerError ?? undefined}>
-          <input type="checkbox" checked={showContinents && landLayerAvailable} disabled={!landLayerAvailable || landLayerLoading} onChange={(event) => setShowContinents(event.target.checked)} /> {t('period coastline snapshot')}
+          <input type="checkbox" checked={showContinents && landLayerAvailable} disabled={!landLayerAvailable || landLayerLoading} onChange={(event) => setShowContinents(event.target.checked)} /> {t('nearest coastline frame')}
         </label>
         <label>
           <input type="checkbox" checked={showPlatePolygons && landLayerAvailable} disabled={!landLayerAvailable || landLayerLoading} onChange={(event) => setShowPlatePolygons(event.target.checked)} /> {t('tectonic plate polygons')}
@@ -311,13 +314,13 @@ export function PaleoMap() {
         </div>}
         <span>{t('Detailed CAO2024 layers')}</span>
         <label title={t('Modelled continental-crust extent; it is not exposed land, coastline, elevation or water depth.')}>
-          <input type="checkbox" checked={showContinentalCrust} disabled={!landLayerAvailable || landLayerLoading || !landSnapshot?.layers?.continentalPolygons} onChange={(event) => setShowContinentalCrust(event.target.checked)} /> {t('continental-crust extent')}
+          <input type="checkbox" checked={showContinentalCrust} disabled={!landLayerAvailable || landLayerLoading || !mapManifest?.layers?.continentalPolygons?.frames.length} onChange={(event) => setShowContinentalCrust(event.target.checked)} /> {t('continental-crust extent')}
         </label>
         <label title={t('Continental–ocean crust transition boundaries; not coastlines or active plate boundaries.')}>
-          <input type="checkbox" checked={showContinentOceanBoundaries} disabled={!landLayerAvailable || landLayerLoading || !landSnapshot?.layers?.continentOceanBoundaries} onChange={(event) => setShowContinentOceanBoundaries(event.target.checked)} /> {t('continent–ocean boundaries')}
+          <input type="checkbox" checked={showContinentOceanBoundaries} disabled={!landLayerAvailable || landLayerLoading || !mapManifest?.layers?.continentOceanBoundaries?.frames.length} onChange={(event) => setShowContinentOceanBoundaries(event.target.checked)} /> {t('continent–ocean boundaries')}
         </label>
         <label title={t('Rigid reconstruction partitions used for plate-ID assignment; not dynamic topological plate coverage.')}>
-          <input type="checkbox" checked={showStaticPolygons} disabled={!landLayerAvailable || landLayerLoading || !landSnapshot?.layers?.staticPolygons} onChange={(event) => setShowStaticPolygons(event.target.checked)} /> {t('static reconstruction partitions')}
+          <input type="checkbox" checked={showStaticPolygons} disabled={!landLayerAvailable || landLayerLoading || !mapManifest?.layers?.staticPolygons?.frames.length} onChange={(event) => setShowStaticPolygons(event.target.checked)} /> {t('static reconstruction partitions')}
         </label>
         <label title={t('Connects time-binned sample centroids; it is not a biological dispersal route.')}>
           <input type="checkbox" checked={showTrajectory && trajectory.length > 1} disabled={trajectory.length < 2} onChange={(event) => setShowTrajectory(event.target.checked)} /> {t('sample centroid trajectory')}
@@ -326,13 +329,13 @@ export function PaleoMap() {
         {anyLayerLoading && <small role="status">{t('Loading checksum-verified paleogeography layers…')}</small>}
         {landLayerError && <small role="alert">{t('Paleogeography layers unavailable; occurrence coordinates remain available.')}</small>}
         {visibleLayerErrors.map(([layerId, message]) => <small role="alert" title={message} key={layerId}>{t('{layer} is unavailable; other verified layers remain visible.', { layer: t(layerId) })}</small>)}
-        {landSnapshot && <small>{t('Modelled at the period midpoint ({age} Ma), not a direct observation or continuous reconstruction.', { age: number(landSnapshot.reconstructionAgeMa ?? 0) })}</small>}
-        {landSnapshot && <small>{t('Tectonic polygons and boundaries do not encode elevation, bathymetry or terrain relief.')}</small>}
+        {primaryMapSelection && <small>{t('Nearest published CAO2024 frame; no interpolation. Each layer may use a different cadence and reports its own selected age.')}</small>}
+        {primaryMapSelection && <small>{t('Tectonic polygons and boundaries do not encode elevation, bathymetry or terrain relief.')}</small>}
         {mapManifest && <small>{t('Land and occurrence paleocoordinates may use different models and are not spatially co-registered.')}</small>}
         <small>{t(coordinateMode === 'paleo' ? 'Only records with paired reconstructed coordinates are shown; no modern fallback.' : 'Only paired modern collection coordinates are shown; not aligned to reconstructed land.')}</small>
         <dl className="map-model-ledger">
-          <div><dt>{t('Land')}</dt><dd>{landSnapshot ? `${landSnapshot.model} · ${number(landSnapshot.reconstructionAgeMa ?? 0)} Ma` : t('unavailable')}</dd></div>
-          <div><dt>{t('Tectonics')}</dt><dd>{landSnapshot ? t('plates + typed boundaries') : t('unavailable')}</dd></div>
+          <div><dt>{t('Requested age')}</dt><dd>{number(currentAge)} Ma</dd></div>
+          {requestedPaleogeographyLayers.map((layerId) => <div key={layerId}><dt>{t(layerId)}</dt><dd>{mapSelections[layerId] ? `${number(mapSelections[layerId]!.selectedAgeMa)} Ma · Δ ${number(mapSelections[layerId]!.deltaMa)} Myr` : t('unavailable')}</dd></div>)}
           <div><dt>{t('Paleo points')}</dt><dd>{t('PBDB bundled field')}</dd></div>
           <div><dt>{t('Runtime')}</dt><dd>{t('no live reconstruction')}</dd></div>
           {mapManifest && <div><dt>{t('Source')}</dt><dd><a href={mapManifest.source.url} target="_blank" rel="noreferrer">Cao et al. 2024 · {mapManifest.source.license}</a></dd></div>}
@@ -342,11 +345,11 @@ export function PaleoMap() {
       <details className="map-data-alternative">
         <summary>{t('Text and table alternative')}</summary>
         <div>
-          {landSnapshot && layers && <>
+          {primaryMapSelection && layers && <>
             <h3>{t('Paleogeography model summary')}</h3>
-            <p>{t('{model} model age: {age} Ma. Feature counts: {coastlines} coastlines, {plates} topological plate polygons, {boundaries} typed plate boundaries, {continents} continental-crust polygons, {cobs} continent–ocean boundaries and {staticPolygons} static partitions.', {
-              model: landSnapshot.model ?? t('unavailable'),
-              age: landSnapshot.reconstructionAgeMa === null ? t('unavailable') : number(landSnapshot.reconstructionAgeMa),
+            <p>{t('{model} request: {age} Ma. Nearest per-layer frame ages are listed above. Feature counts: {coastlines} coastlines, {plates} topological plate polygons, {boundaries} typed plate boundaries, {continents} continental-crust polygons, {cobs} continent–ocean boundaries and {staticPolygons} static partitions.', {
+              model: 'CAO2024',
+              age: settledAgeMa === null ? t('unavailable') : number(settledAgeMa),
               coastlines: layers.coastlines ? number(layers.coastlines.features.length) : t('unavailable'),
               plates: layers.platePolygons ? number(layers.platePolygons.features.length) : t('unavailable'),
               boundaries: layers.plateBoundaries ? number(layers.plateBoundaries.features.length) : t('unavailable'),

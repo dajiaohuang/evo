@@ -18,9 +18,9 @@ export interface PaleogeographyFeature {
   type: 'Feature'
   properties: {
     id: string
-    period: string
-    reconstructionAgeMa: number
-    model: string
+    period?: string
+    reconstructionAgeMa?: number
+    model?: string
     layer: PaleogeographyLayerId
     type?: string
     name?: string

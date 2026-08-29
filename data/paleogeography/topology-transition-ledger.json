@@ -1,0 +1,5093 @@
+{
+  "schemaVersion": 1,
+  "model": "CAO2024",
+  "modelVersion": "v2.4",
+  "sourceFiles": [
+    "250-0_plate_boundaries.gpml",
+    "410-250_plate_boundaries.gpml",
+    "1000-410_plate_boundaries.gpml",
+    "1800-1000_plate_boundaries.gpml",
+    "TopologyBuildingBlocks.gpml"
+  ],
+  "cadenceBands": [
+    {
+      "youngestMa": 0.0,
+      "oldestMa": 250.0,
+      "cadenceMa": 1.0
+    },
+    {
+      "youngestMa": 250.0,
+      "oldestMa": 1000.0,
+      "cadenceMa": 5.0
+    },
+    {
+      "youngestMa": 1000.0,
+      "oldestMa": 1800.0,
+      "cadenceMa": 10.0
+    }
+  ],
+  "alwaysIncludedPeriodMidpointAgesMa": [
+    512.825,
+    464.975,
+    431.36,
+    389.24,
+    328.88,
+    275.401,
+    226.651,
+    172.25,
+    104.55,
+    44.52,
+    12.81,
+    1.29
+  ],
+  "scannedFeatureRecords": 7630,
+  "uniqueFeatures": 7513,
+  "selectionRule": "A candidate has a finite valid-time lifetime shorter than the cadence step at its interval midpoint, and neither the default cadence grid nor a current period midpoint falls inside its inclusive valid interval.",
+  "candidateCount": 287,
+  "candidates": [
+    {
+      "sourceFeatureId": "GPlates-8376261e-6418-4f06-871e-d998bb0ca472",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Eurasia EUR_056_055",
+      "pid": 301,
+      "validTime": {
+        "youngerMa": 55.1,
+        "olderMa": 55.8
+      },
+      "lifetimeMyr": 0.7,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "250-0_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 1.0,
+      "suggestedRepresentativeAgeMa": 55.45
+    },
+    {
+      "sourceFeatureId": "GPlates-cf64007f-8aff-4571-800c-e23f5da49e3c",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Africa AFR_055_050",
+      "pid": 701,
+      "validTime": {
+        "youngerMa": 55.1,
+        "olderMa": 55.8
+      },
+      "lifetimeMyr": 0.7,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "250-0_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 1.0,
+      "suggestedRepresentativeAgeMa": 55.45
+    },
+    {
+      "sourceFeatureId": "GPlates-4fb11d13-dad7-4473-90a1-a78c81ec74b6",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Porcupine Plate",
+      "pid": 317,
+      "validTime": {
+        "youngerMa": 55.1,
+        "olderMa": 55.9
+      },
+      "lifetimeMyr": 0.8,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "250-0_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 1.0,
+      "suggestedRepresentativeAgeMa": 55.5
+    },
+    {
+      "sourceFeatureId": "GPlates-2779330c-797c-4c08-be1b-7ae1e32affaf",
+      "type": "gpml:SubductionZone",
+      "name": "Putative Komandorsky SZ MG 4-21-07",
+      "pid": 401,
+      "validTime": {
+        "youngerMa": 110.1,
+        "olderMa": 110.8
+      },
+      "lifetimeMyr": 0.7,
+      "topologicalGeometry": false,
+      "sourceFiles": [
+        "250-0_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 1.0,
+      "suggestedRepresentativeAgeMa": 110.45
+    },
+    {
+      "sourceFeatureId": "GPlates-4baf2011-3d70-409d-858d-dbe9807936a8",
+      "type": "gpml:SubductionZone",
+      "name": "Putative Bering trench(MG)",
+      "pid": 103,
+      "validTime": {
+        "youngerMa": 110.1,
+        "olderMa": 110.8
+      },
+      "lifetimeMyr": 0.7,
+      "topologicalGeometry": false,
+      "sourceFiles": [
+        "250-0_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 1.0,
+      "suggestedRepresentativeAgeMa": 110.45
+    },
+    {
+      "sourceFeatureId": "GPlates-53cca05f-eeef-42e8-b1bb-ee80864a6b0f",
+      "type": "gpml:SubductionZone",
+      "name": "East Junction Subduction",
+      "pid": 801,
+      "validTime": {
+        "youngerMa": 110.1,
+        "olderMa": 110.8
+      },
+      "lifetimeMyr": 0.7,
+      "topologicalGeometry": false,
+      "sourceFiles": [
+        "250-0_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 1.0,
+      "suggestedRepresentativeAgeMa": 110.45
+    },
+    {
+      "sourceFeatureId": "GPlates-598d6457-4068-428c-8d4a-77f1cfe0ff57",
+      "type": "gpml:SubductionZone",
+      "name": "SZ EUR IZ1-MG-5-29-07",
+      "pid": 648,
+      "validTime": {
+        "youngerMa": 110.1,
+        "olderMa": 110.8
+      },
+      "lifetimeMyr": 0.7,
+      "topologicalGeometry": false,
+      "sourceFiles": [
+        "250-0_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 1.0,
+      "suggestedRepresentativeAgeMa": 110.45
+    },
+    {
+      "sourceFeatureId": "GPlates-56ae066d-c949-4844-afcb-3c1c8e708ea5",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Izanagi Plate AT",
+      "pid": 926,
+      "validTime": {
+        "youngerMa": 110.1,
+        "olderMa": 110.8
+      },
+      "lifetimeMyr": 0.7,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "250-0_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 1.0,
+      "suggestedRepresentativeAgeMa": 110.45
+    },
+    {
+      "sourceFeatureId": "GPlates-fd8326f3-9f11-458d-ba51-bfac5684bdde",
+      "type": "gpml:Transform",
+      "name": "Transform NE Panthalassa AT",
+      "pid": 301,
+      "validTime": {
+        "youngerMa": 110.1,
+        "olderMa": 110.8
+      },
+      "lifetimeMyr": 0.7,
+      "topologicalGeometry": false,
+      "sourceFiles": [
+        "250-0_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 1.0,
+      "suggestedRepresentativeAgeMa": 110.45
+    },
+    {
+      "sourceFeatureId": "GPlates-9e9217df-9503-4d9c-a2e0-48a0922c4cf5",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Meso Tethys AT",
+      "pid": 530,
+      "validTime": {
+        "youngerMa": 110.7,
+        "olderMa": 110.8
+      },
+      "lifetimeMyr": 0.1,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "250-0_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 1.0,
+      "suggestedRepresentativeAgeMa": 110.75
+    },
+    {
+      "sourceFeatureId": "GPlates-6808750c-8e5b-48be-a835-50b56c6d46fc",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "NAM_120_118",
+      "pid": 101,
+      "validTime": {
+        "youngerMa": 120.1,
+        "olderMa": 120.4
+      },
+      "lifetimeMyr": 0.3,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "250-0_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 1.0,
+      "suggestedRepresentativeAgeMa": 120.25
+    },
+    {
+      "sourceFeatureId": "GPlates-7edf980d-a4ed-4c7e-a6bc-dd27cd367b17",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Meso Tethys AT",
+      "pid": 530,
+      "validTime": {
+        "youngerMa": 120.1,
+        "olderMa": 120.4
+      },
+      "lifetimeMyr": 0.3,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "250-0_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 1.0,
+      "suggestedRepresentativeAgeMa": 120.25
+    },
+    {
+      "sourceFeatureId": "GPlates-d45a17c6-23ed-4e5d-9693-39c02b94d39a",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Neo Tethys AT",
+      "pid": 535,
+      "validTime": {
+        "youngerMa": 120.1,
+        "olderMa": 120.4
+      },
+      "lifetimeMyr": 0.3,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "250-0_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 1.0,
+      "suggestedRepresentativeAgeMa": 120.25
+    },
+    {
+      "sourceFeatureId": "GPlates-bc1ef189-c73d-4e7e-b3b8-568b06b99d8e",
+      "type": "gpml:Transform",
+      "name": "Transform East Tethys -Junction",
+      "pid": 301,
+      "validTime": {
+        "youngerMa": 120.1,
+        "olderMa": 120.4
+      },
+      "lifetimeMyr": 0.3,
+      "topologicalGeometry": false,
+      "sourceFiles": [
+        "250-0_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 1.0,
+      "suggestedRepresentativeAgeMa": 120.25
+    },
+    {
+      "sourceFeatureId": "GPlates-d11e7292-6268-4d05-89f6-6d55b8042a5b",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Phoenix Plate",
+      "pid": 919,
+      "validTime": {
+        "youngerMa": 126.1,
+        "olderMa": 126.7
+      },
+      "lifetimeMyr": 0.6,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "250-0_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 1.0,
+      "suggestedRepresentativeAgeMa": 126.4
+    },
+    {
+      "sourceFeatureId": "GPlates-e5a87603-bd5e-495a-8cc2-ff21effa0c01",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Neo Tethys AT",
+      "pid": 535,
+      "validTime": {
+        "youngerMa": 126.4,
+        "olderMa": 126.7
+      },
+      "lifetimeMyr": 0.3,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "250-0_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 1.0,
+      "suggestedRepresentativeAgeMa": 126.55
+    },
+    {
+      "sourceFeatureId": "GPlates-7fc3f18e-da00-4401-892d-cf63a567453d",
+      "type": "gpml:Transform",
+      "name": "Transform East Tethys -Junction",
+      "pid": 301,
+      "validTime": {
+        "youngerMa": 126.4,
+        "olderMa": 126.7
+      },
+      "lifetimeMyr": 0.3,
+      "topologicalGeometry": false,
+      "sourceFiles": [
+        "250-0_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 1.0,
+      "suggestedRepresentativeAgeMa": 126.55
+    },
+    {
+      "sourceFeatureId": "GPlates-28133224-f2a8-4dc0-bd54-92194cc1854e",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Neo Tethys AT",
+      "pid": 535,
+      "validTime": {
+        "youngerMa": 130.1,
+        "olderMa": 130.9
+      },
+      "lifetimeMyr": 0.8,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "250-0_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 1.0,
+      "suggestedRepresentativeAgeMa": 130.5
+    },
+    {
+      "sourceFeatureId": "GPlates-ac287f03-bc05-47ce-ab0f-aa4d2d3b5173",
+      "type": "gpml:MidOceanRidge",
+      "name": "Western MesoTethys",
+      "pid": 0,
+      "validTime": {
+        "youngerMa": 131.1,
+        "olderMa": 131.8
+      },
+      "lifetimeMyr": 0.7,
+      "topologicalGeometry": false,
+      "sourceFiles": [
+        "250-0_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 1.0,
+      "suggestedRepresentativeAgeMa": 131.45
+    },
+    {
+      "sourceFeatureId": "GPlates-7848098b-414f-4cb8-ad9c-20b1f90d82d6",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Eurasia EUR_140_134",
+      "pid": 301,
+      "validTime": {
+        "youngerMa": 131.1,
+        "olderMa": 131.8
+      },
+      "lifetimeMyr": 0.7,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "250-0_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 1.0,
+      "suggestedRepresentativeAgeMa": 131.45
+    },
+    {
+      "sourceFeatureId": "GPlates-7b64c0fa-ac80-4b97-879a-2ecfb81a4b7e",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "NAM",
+      "pid": 101,
+      "validTime": {
+        "youngerMa": 131.1,
+        "olderMa": 131.8
+      },
+      "lifetimeMyr": 0.7,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "250-0_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 1.0,
+      "suggestedRepresentativeAgeMa": 131.45
+    },
+    {
+      "sourceFeatureId": "GPlates-ff0748a4-0c88-43f9-b43a-9a7a1e9a59a0",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Neo Tethys AT",
+      "pid": 535,
+      "validTime": {
+        "youngerMa": 131.1,
+        "olderMa": 131.9
+      },
+      "lifetimeMyr": 0.8,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "250-0_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 1.0,
+      "suggestedRepresentativeAgeMa": 131.5
+    },
+    {
+      "sourceFeatureId": "GPlates-52ccd20a-2a0e-4201-9e95-7dd5286edd04",
+      "type": "gpml:SubductionZone",
+      "name": "Eastern Australia before 127 Ma",
+      "pid": 844,
+      "validTime": {
+        "youngerMa": 134.1,
+        "olderMa": 134.8
+      },
+      "lifetimeMyr": 0.7,
+      "topologicalGeometry": false,
+      "sourceFiles": [
+        "250-0_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 1.0,
+      "suggestedRepresentativeAgeMa": 134.45
+    },
+    {
+      "sourceFeatureId": "GPlates-a12debcf-98d6-4505-90df-84b410623c2e",
+      "type": "gpml:SubductionZone",
+      "name": "South Island NZ SZ",
+      "pid": 879,
+      "validTime": {
+        "youngerMa": 134.1,
+        "olderMa": 134.8
+      },
+      "lifetimeMyr": 0.7,
+      "topologicalGeometry": false,
+      "sourceFiles": [
+        "250-0_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 1.0,
+      "suggestedRepresentativeAgeMa": 134.45
+    },
+    {
+      "sourceFeatureId": "GPlates-e471d5ad-264d-41bd-9847-90a66d5d541d",
+      "type": "gpml:SubductionZone",
+      "name": "east of NZ",
+      "pid": 801,
+      "validTime": {
+        "youngerMa": 134.1,
+        "olderMa": 134.8
+      },
+      "lifetimeMyr": 0.7,
+      "topologicalGeometry": false,
+      "sourceFiles": [
+        "250-0_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 1.0,
+      "suggestedRepresentativeAgeMa": 134.45
+    },
+    {
+      "sourceFeatureId": "GPlates-a7504b43-b9c0-43d0-b02e-12dc0c83fb31",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "East Gondwana",
+      "pid": 801,
+      "validTime": {
+        "youngerMa": 134.1,
+        "olderMa": 134.8
+      },
+      "lifetimeMyr": 0.7,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "250-0_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 1.0,
+      "suggestedRepresentativeAgeMa": 134.45
+    },
+    {
+      "sourceFeatureId": "GPlates-ae7b93e4-c705-47e1-9321-c96a761dedf3",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Phoenix Plate AT",
+      "pid": 919,
+      "validTime": {
+        "youngerMa": 139.1,
+        "olderMa": 139.6
+      },
+      "lifetimeMyr": 0.5,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "250-0_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 1.0,
+      "suggestedRepresentativeAgeMa": 139.35
+    },
+    {
+      "sourceFeatureId": "GPlates-800cca35-1a55-4029-9f2c-14321833d6c2",
+      "type": "gpml:SubductionZone",
+      "name": "Junction Subduction Zone",
+      "pid": 301,
+      "validTime": {
+        "youngerMa": 140.1,
+        "olderMa": 140.4
+      },
+      "lifetimeMyr": 0.3,
+      "topologicalGeometry": false,
+      "sourceFiles": [
+        "250-0_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 1.0,
+      "suggestedRepresentativeAgeMa": 140.25
+    },
+    {
+      "sourceFeatureId": "GPlates-3fcf927e-5cd3-40a3-b392-7ffaad613abb",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Neo Tethys AT",
+      "pid": 535,
+      "validTime": {
+        "youngerMa": 140.1,
+        "olderMa": 140.4
+      },
+      "lifetimeMyr": 0.3,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "250-0_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 1.0,
+      "suggestedRepresentativeAgeMa": 140.25
+    },
+    {
+      "sourceFeatureId": "GPlates-4d6519fc-0bf1-4787-8f23-7eb71fd06011",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Indian Plate AT",
+      "pid": 501,
+      "validTime": {
+        "youngerMa": 140.1,
+        "olderMa": 140.4
+      },
+      "lifetimeMyr": 0.3,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "250-0_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 1.0,
+      "suggestedRepresentativeAgeMa": 140.25
+    },
+    {
+      "sourceFeatureId": "GPlates-689dafae-aefc-46a6-a748-3b714b9aea49",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Australian Plate AT",
+      "pid": 801,
+      "validTime": {
+        "youngerMa": 140.1,
+        "olderMa": 140.4
+      },
+      "lifetimeMyr": 0.3,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "250-0_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 1.0,
+      "suggestedRepresentativeAgeMa": 140.25
+    },
+    {
+      "sourceFeatureId": "GPlates-df376125-7215-4db7-bee6-60edc0cdce48",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "East Gondwana",
+      "pid": 497,
+      "validTime": {
+        "youngerMa": 140.1,
+        "olderMa": 140.4
+      },
+      "lifetimeMyr": 0.3,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "250-0_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 1.0,
+      "suggestedRepresentativeAgeMa": 140.25
+    },
+    {
+      "sourceFeatureId": "GPlates-7c307e2c-9b1f-4881-b9e9-b5001f0f6062",
+      "type": "gpml:Transform",
+      "name": "South Tethys Transform AT",
+      "pid": 701,
+      "validTime": {
+        "youngerMa": 140.1,
+        "olderMa": 140.4
+      },
+      "lifetimeMyr": 0.3,
+      "topologicalGeometry": false,
+      "sourceFiles": [
+        "250-0_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 1.0,
+      "suggestedRepresentativeAgeMa": 140.25
+    },
+    {
+      "sourceFeatureId": "GPlates-4ac2397e-54cd-4e22-9b80-293c9884a0f1",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Neo Tethys AT",
+      "pid": 535,
+      "validTime": {
+        "youngerMa": 150.1,
+        "olderMa": 150.4
+      },
+      "lifetimeMyr": 0.3,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "250-0_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 1.0,
+      "suggestedRepresentativeAgeMa": 150.25
+    },
+    {
+      "sourceFeatureId": "GPlates-7bbdd7b7-15eb-45b5-a683-5396e33d2111",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "East Gondwana",
+      "pid": 497,
+      "validTime": {
+        "youngerMa": 150.1,
+        "olderMa": 150.4
+      },
+      "lifetimeMyr": 0.3,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "250-0_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 1.0,
+      "suggestedRepresentativeAgeMa": 150.25
+    },
+    {
+      "sourceFeatureId": "GPlates-d4ad658f-f32b-49f4-b466-5a0946475ad1",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "India",
+      "pid": 501,
+      "validTime": {
+        "youngerMa": 150.1,
+        "olderMa": 150.4
+      },
+      "lifetimeMyr": 0.3,
+      "topologicalGeometry": false,
+      "sourceFiles": [
+        "250-0_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 1.0,
+      "suggestedRepresentativeAgeMa": 150.25
+    },
+    {
+      "sourceFeatureId": "GPlates-ebefbe95-2faf-4433-9d60-17542f0bf321",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Australian Plate AT",
+      "pid": 801,
+      "validTime": {
+        "youngerMa": 150.1,
+        "olderMa": 150.4
+      },
+      "lifetimeMyr": 0.3,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "250-0_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 1.0,
+      "suggestedRepresentativeAgeMa": 150.25
+    },
+    {
+      "sourceFeatureId": "GPlates-c28d4a6f-f92e-4c9c-93e0-2a0c0ac295d2",
+      "type": "gpml:UnclassifiedFeature",
+      "name": "Pangea Closure",
+      "pid": 801,
+      "validTime": {
+        "youngerMa": 150.1,
+        "olderMa": 150.4
+      },
+      "lifetimeMyr": 0.3,
+      "topologicalGeometry": false,
+      "sourceFiles": [
+        "250-0_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 1.0,
+      "suggestedRepresentativeAgeMa": 150.25
+    },
+    {
+      "sourceFeatureId": "GPlates-6805a02d-ec3f-4289-a7e8-7b20a9f36045",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Izanagi Plate",
+      "pid": 926,
+      "validTime": {
+        "youngerMa": 250.1,
+        "olderMa": 251.0
+      },
+      "lifetimeMyr": 0.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "410-250_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 250.55
+    },
+    {
+      "sourceFeatureId": "GPlates-bd32baae-e5a4-4d11-887c-b070d9fbd5a2",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Farallon Plate",
+      "pid": 902,
+      "validTime": {
+        "youngerMa": 250.1,
+        "olderMa": 251.0
+      },
+      "lifetimeMyr": 0.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "410-250_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 250.55
+    },
+    {
+      "sourceFeatureId": "GPlates-f2310ed4-e9a4-4adf-a30f-899dae4448d7",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Farallon Plate",
+      "pid": 902,
+      "validTime": {
+        "youngerMa": 250.1,
+        "olderMa": 251.0
+      },
+      "lifetimeMyr": 0.9,
+      "topologicalGeometry": false,
+      "sourceFiles": [
+        "250-0_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 250.55
+    },
+    {
+      "sourceFeatureId": "GPlates-76f415b4-33a9-4cc8-9da1-3b26cc90654a",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Pangea Plate",
+      "pid": 701,
+      "validTime": {
+        "youngerMa": 250.1,
+        "olderMa": 252.0
+      },
+      "lifetimeMyr": 1.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "410-250_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 251.05
+    },
+    {
+      "sourceFeatureId": "GPlates-f3da92e0-a7c0-4f24-94a8-26fb28cacfcf",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Phoenix Plate",
+      "pid": 919,
+      "validTime": {
+        "youngerMa": 250.1,
+        "olderMa": 252.0
+      },
+      "lifetimeMyr": 1.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "410-250_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 251.05
+    },
+    {
+      "sourceFeatureId": "GPlates-2608ea57-cf9d-45fd-bba9-81ca495dcf72",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Izanagi Plate",
+      "pid": 926,
+      "validTime": {
+        "youngerMa": 251.1,
+        "olderMa": 253.0
+      },
+      "lifetimeMyr": 1.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "410-250_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 252.05
+    },
+    {
+      "sourceFeatureId": "GPlates-e379390d-bc68-42d3-bb8b-16f6adae127e",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Farallon Plate",
+      "pid": 902,
+      "validTime": {
+        "youngerMa": 251.1,
+        "olderMa": 253.0
+      },
+      "lifetimeMyr": 1.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "410-250_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 252.05
+    },
+    {
+      "sourceFeatureId": "GPlates-2a7978b3-ebf0-4018-bc5c-2c1aa79eb4b1",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Pangea Plate",
+      "pid": 701,
+      "validTime": {
+        "youngerMa": 252.1,
+        "olderMa": 253.0
+      },
+      "lifetimeMyr": 0.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "410-250_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 252.55
+    },
+    {
+      "sourceFeatureId": "GPlates-ae9dcd8f-d4f6-4aca-8b8f-f6000b7b04e3",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Izanagi Plate",
+      "pid": 926,
+      "validTime": {
+        "youngerMa": 253.1,
+        "olderMa": 254.0
+      },
+      "lifetimeMyr": 0.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "410-250_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 253.55
+    },
+    {
+      "sourceFeatureId": "GPlates-41293d08-69e5-4a64-8f86-ef18d7564779",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Farallon Plate",
+      "pid": 902,
+      "validTime": {
+        "youngerMa": 255.1,
+        "olderMa": 256.0
+      },
+      "lifetimeMyr": 0.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "410-250_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 255.55
+    },
+    {
+      "sourceFeatureId": "GPlates-e76d2a2b-f971-4940-bbf4-d59728003013",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Pangea Plate",
+      "pid": 701,
+      "validTime": {
+        "youngerMa": 255.10000000000002,
+        "olderMa": 256.0
+      },
+      "lifetimeMyr": 0.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "410-250_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 255.55
+    },
+    {
+      "sourceFeatureId": "GPlates-1d720793-f5e3-4f9b-9f0a-962063364135",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Phoenix Plate",
+      "pid": 919,
+      "validTime": {
+        "youngerMa": 255.1,
+        "olderMa": 257.0
+      },
+      "lifetimeMyr": 1.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "410-250_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 256.05
+    },
+    {
+      "sourceFeatureId": "GPlates-ecc96049-1d09-4080-b7f0-483883f3cf33",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Eastern Klamath Plate",
+      "pid": 176,
+      "validTime": {
+        "youngerMa": 255.1,
+        "olderMa": 259.0
+      },
+      "lifetimeMyr": 3.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "410-250_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 257.05
+    },
+    {
+      "sourceFeatureId": "GPlates-f1265bdb-9482-4c00-a055-8059dd1b1ee2",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Pangea Plate",
+      "pid": 701,
+      "validTime": {
+        "youngerMa": 256.1,
+        "olderMa": 259.0
+      },
+      "lifetimeMyr": 2.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "410-250_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 257.55
+    },
+    {
+      "sourceFeatureId": "GPlates-7ff0b1d8-ba7c-43f7-b62c-f561cb598d30",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Farallon Plate",
+      "pid": 902,
+      "validTime": {
+        "youngerMa": 256.1,
+        "olderMa": 259.1
+      },
+      "lifetimeMyr": 3.0,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "410-250_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 257.6
+    },
+    {
+      "sourceFeatureId": "GPlates-4826f4cb-c586-4e2b-9791-3fe00bf2d2a8",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Phoenix Plate",
+      "pid": 919,
+      "validTime": {
+        "youngerMa": 257.1,
+        "olderMa": 259.0
+      },
+      "lifetimeMyr": 1.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "410-250_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 258.05
+    },
+    {
+      "sourceFeatureId": "GPlates-c1f49d85-5d24-4dc5-9c25-3c8d4a1a98bc",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Izanagi Plate",
+      "pid": 926,
+      "validTime": {
+        "youngerMa": 257.1,
+        "olderMa": 259.0
+      },
+      "lifetimeMyr": 1.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "410-250_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 258.05
+    },
+    {
+      "sourceFeatureId": "GPlates-a5f88261-4365-47aa-89c4-033a51ae3193",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Izanagi Plate",
+      "pid": 926,
+      "validTime": {
+        "youngerMa": 265.1,
+        "olderMa": 267.0
+      },
+      "lifetimeMyr": 1.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "410-250_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 266.05
+    },
+    {
+      "sourceFeatureId": "GPlates-b52d6c41-7840-42b7-8b32-d3d04da71017",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Pangea Plate",
+      "pid": 701,
+      "validTime": {
+        "youngerMa": 265.1,
+        "olderMa": 267.0
+      },
+      "lifetimeMyr": 1.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "410-250_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 266.05
+    },
+    {
+      "sourceFeatureId": "GPlates-4d9fac17-23eb-4f08-907c-dc1a6bdc354b",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "South China Plate",
+      "pid": 602,
+      "validTime": {
+        "youngerMa": 265.1,
+        "olderMa": 269.0
+      },
+      "lifetimeMyr": 3.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "410-250_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 267.05
+    },
+    {
+      "sourceFeatureId": "GPlates-6586690f-a39e-4471-ad57-4fd45929a35b",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Amuria Plate",
+      "pid": 430,
+      "validTime": {
+        "youngerMa": 265.1,
+        "olderMa": 269.0
+      },
+      "lifetimeMyr": 3.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "410-250_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 267.05
+    },
+    {
+      "sourceFeatureId": "GPlates-9cb70da8-093d-47d6-ac2e-8517bf8e4caf",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Farallon Plate",
+      "pid": 902,
+      "validTime": {
+        "youngerMa": 265.1,
+        "olderMa": 269.0
+      },
+      "lifetimeMyr": 3.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "410-250_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 267.05
+    },
+    {
+      "sourceFeatureId": "GPlates-999ae5f1-4d11-428c-8744-1abdaea7cfcb",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Neotethys Plate",
+      "pid": 505,
+      "validTime": {
+        "youngerMa": 266.1,
+        "olderMa": 269.0
+      },
+      "lifetimeMyr": 2.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "410-250_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 267.55
+    },
+    {
+      "sourceFeatureId": "GPlates-aa5a5308-f985-46a1-ae3a-83b0592756f5",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Izanagi Plate",
+      "pid": 926,
+      "validTime": {
+        "youngerMa": 267.1,
+        "olderMa": 269.0
+      },
+      "lifetimeMyr": 1.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "410-250_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 268.05
+    },
+    {
+      "sourceFeatureId": "GPlates-d9765cd6-487d-4bf4-a4a7-7e3cb95eba0e",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Phoenix Plate",
+      "pid": 919,
+      "validTime": {
+        "youngerMa": 267.1,
+        "olderMa": 269.0
+      },
+      "lifetimeMyr": 1.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "410-250_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 268.05
+    },
+    {
+      "sourceFeatureId": "GPlates-ddde5a84-0050-4a80-acd5-044e275c89ed",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Pangea Plate",
+      "pid": 701,
+      "validTime": {
+        "youngerMa": 267.1,
+        "olderMa": 269.0
+      },
+      "lifetimeMyr": 1.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "410-250_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 268.05
+    },
+    {
+      "sourceFeatureId": "GPlates-1e7cefcb-b417-49d3-98d5-dbd5597e8f4a",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Izanagi Plate",
+      "pid": 926,
+      "validTime": {
+        "youngerMa": 270.1,
+        "olderMa": 271.0
+      },
+      "lifetimeMyr": 0.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "410-250_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 270.55
+    },
+    {
+      "sourceFeatureId": "GPlates-ac746253-eb20-4c36-9305-d7e58e967626",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "South China Plate",
+      "pid": 602,
+      "validTime": {
+        "youngerMa": 270.1,
+        "olderMa": 271.0
+      },
+      "lifetimeMyr": 0.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "410-250_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 270.55
+    },
+    {
+      "sourceFeatureId": "GPlates-630a8a70-6707-44b5-83a0-07a9146ae9bd",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Farallon Plate",
+      "pid": 902,
+      "validTime": {
+        "youngerMa": 270.1,
+        "olderMa": 273.0
+      },
+      "lifetimeMyr": 2.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "410-250_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 271.55
+    },
+    {
+      "sourceFeatureId": "GPlates-b1558fd2-459a-4f20-aa86-ce0aa0b67122",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Amuria Plate",
+      "pid": 430,
+      "validTime": {
+        "youngerMa": 270.1,
+        "olderMa": 273.0
+      },
+      "lifetimeMyr": 2.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "410-250_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 271.55
+    },
+    {
+      "sourceFeatureId": "GPlates-340af455-14bc-4c46-84da-ff56ff6d7dc5",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Neotethys Ocean Plate",
+      "pid": 505,
+      "validTime": {
+        "youngerMa": 270.1,
+        "olderMa": 274.0
+      },
+      "lifetimeMyr": 3.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "410-250_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 272.05
+    },
+    {
+      "sourceFeatureId": "GPlates-f54d9876-5547-48f7-9785-e836dc052b46",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "South China Plate",
+      "pid": 602,
+      "validTime": {
+        "youngerMa": 271.1,
+        "olderMa": 274.0
+      },
+      "lifetimeMyr": 2.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "410-250_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 272.55
+    },
+    {
+      "sourceFeatureId": "GPlates-793dcf83-c18d-4c44-be29-96d1f7ecedd4",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Izanagi Plate",
+      "pid": 926,
+      "validTime": {
+        "youngerMa": 280.1,
+        "olderMa": 282.0
+      },
+      "lifetimeMyr": 1.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "410-250_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 281.05
+    },
+    {
+      "sourceFeatureId": "GPlates-38b5a814-2f78-4d98-9da4-b0ca060438b4",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "North China Plate",
+      "pid": 601,
+      "validTime": {
+        "youngerMa": 280.1,
+        "olderMa": 283.0
+      },
+      "lifetimeMyr": 2.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "410-250_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 281.55
+    },
+    {
+      "sourceFeatureId": "GPlates-4eed0180-d045-48cd-9793-73c6a946b2a4",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Farallon Plate",
+      "pid": 902,
+      "validTime": {
+        "youngerMa": 295.1,
+        "olderMa": 298.0
+      },
+      "lifetimeMyr": 2.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "410-250_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 296.55
+    },
+    {
+      "sourceFeatureId": "GPlates-bd5debd2-5d1a-4216-8dd8-2d29c1201075",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Amuria Plate",
+      "pid": 430,
+      "validTime": {
+        "youngerMa": 300.1,
+        "olderMa": 302.0
+      },
+      "lifetimeMyr": 1.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "410-250_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 301.05
+    },
+    {
+      "sourceFeatureId": "GPlates-7a88ea6b-7598-455b-b460-38e788723ca7",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Pangea Plate",
+      "pid": 701,
+      "validTime": {
+        "youngerMa": 300.1,
+        "olderMa": 303.0
+      },
+      "lifetimeMyr": 2.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "410-250_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 301.55
+    },
+    {
+      "sourceFeatureId": "GPlates-734d105f-0d04-4dd9-8c57-8b23009f9257",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Farallon Plate",
+      "pid": 902,
+      "validTime": {
+        "youngerMa": 305.1,
+        "olderMa": 307.0
+      },
+      "lifetimeMyr": 1.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "410-250_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 306.05
+    },
+    {
+      "sourceFeatureId": "GPlates-93308dfd-35da-4e85-b2af-990fa575bc6e",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Farallon Plate",
+      "pid": 902,
+      "validTime": {
+        "youngerMa": 307.1,
+        "olderMa": 308.0
+      },
+      "lifetimeMyr": 0.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "410-250_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 307.55
+    },
+    {
+      "sourceFeatureId": "GPlates-a2a74f9f-eed2-4342-93cb-9de996d5f841",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Patagonia Plate",
+      "pid": 28800,
+      "validTime": {
+        "youngerMa": 310.1,
+        "olderMa": 311.0
+      },
+      "lifetimeMyr": 0.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "410-250_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 310.55
+    },
+    {
+      "sourceFeatureId": "GPlates-fa6a4842-5600-47df-9045-b7c5fd67bbc1",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Farallon Plate",
+      "pid": 902,
+      "validTime": {
+        "youngerMa": 310.1,
+        "olderMa": 311.0
+      },
+      "lifetimeMyr": 0.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "410-250_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 310.55
+    },
+    {
+      "sourceFeatureId": "GPlates-44bdb380-e41c-4b6f-9f62-4243a9c69599",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Farallon Plate",
+      "pid": 902,
+      "validTime": {
+        "youngerMa": 311.1,
+        "olderMa": 312.0
+      },
+      "lifetimeMyr": 0.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "410-250_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 311.55
+    },
+    {
+      "sourceFeatureId": "GPlates-00a63bdd-7648-4c71-922a-e681f4d971c8",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "TRM Plate",
+      "pid": 580,
+      "validTime": {
+        "youngerMa": 310.1,
+        "olderMa": 314.0
+      },
+      "lifetimeMyr": 3.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "410-250_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 312.05
+    },
+    {
+      "sourceFeatureId": "GPlates-819dea21-3fde-4c6c-967a-c5e662cd4dc0",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Kazakhstania Plate",
+      "pid": 460,
+      "validTime": {
+        "youngerMa": 310.1,
+        "olderMa": 314.0
+      },
+      "lifetimeMyr": 3.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "410-250_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 312.05
+    },
+    {
+      "sourceFeatureId": "GPlates-86fd02cc-2d57-42a0-9b0a-8a5d0a13b95a",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Pangea Plate",
+      "pid": 701,
+      "validTime": {
+        "youngerMa": 310.1,
+        "olderMa": 314.0
+      },
+      "lifetimeMyr": 3.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "410-250_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 312.05
+    },
+    {
+      "sourceFeatureId": "GPlates-3c163ed0-9b12-4070-b6a4-e952895ede07",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Farallon Plate",
+      "pid": 902,
+      "validTime": {
+        "youngerMa": 312.1,
+        "olderMa": 314.0
+      },
+      "lifetimeMyr": 1.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "410-250_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 313.05
+    },
+    {
+      "sourceFeatureId": "GPlates-86916e07-eed9-4a27-b62f-775d1e24040c",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Kazakhstania Plate",
+      "pid": 460,
+      "validTime": {
+        "youngerMa": 315.1,
+        "olderMa": 316.0
+      },
+      "lifetimeMyr": 0.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "410-250_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 315.55
+    },
+    {
+      "sourceFeatureId": "GPlates-1809c2d0-3e15-4e8d-9826-6cb87efd5a05",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Izanagi Plate",
+      "pid": 926,
+      "validTime": {
+        "youngerMa": 315.1,
+        "olderMa": 317.0
+      },
+      "lifetimeMyr": 1.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "410-250_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 316.05
+    },
+    {
+      "sourceFeatureId": "GPlates-ce129ff0-7bcf-4d80-b868-d7bc5605ce20",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Farallon Plate",
+      "pid": 902,
+      "validTime": {
+        "youngerMa": 315.1,
+        "olderMa": 317.0
+      },
+      "lifetimeMyr": 1.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "410-250_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 316.05
+    },
+    {
+      "sourceFeatureId": "GPlates-60d5d0a2-25a7-4486-9068-274009b00d73",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Patagonia Plate",
+      "pid": 28800,
+      "validTime": {
+        "youngerMa": 315.1,
+        "olderMa": 318.0
+      },
+      "lifetimeMyr": 2.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "410-250_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 316.55
+    },
+    {
+      "sourceFeatureId": "GPlates-8217d3b7-3c11-4a64-8163-bd1c55c565cc",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Pangea Plate",
+      "pid": 701,
+      "validTime": {
+        "youngerMa": 315.1,
+        "olderMa": 319.0
+      },
+      "lifetimeMyr": 3.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "410-250_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 317.05
+    },
+    {
+      "sourceFeatureId": "GPlates-70ae245c-2c24-46b3-a8bd-cb9ca8259b7b",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Farallon Plate",
+      "pid": 902,
+      "validTime": {
+        "youngerMa": 317.1,
+        "olderMa": 318.0
+      },
+      "lifetimeMyr": 0.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "410-250_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 317.55
+    },
+    {
+      "sourceFeatureId": "GPlates-94e0c44d-e9b5-47cd-8bcc-7f1eada6491d",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Farallon Plate",
+      "pid": 902,
+      "validTime": {
+        "youngerMa": 318.1,
+        "olderMa": 319.0
+      },
+      "lifetimeMyr": 0.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "410-250_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 318.55
+    },
+    {
+      "sourceFeatureId": "GPlates-b443fb3e-7d78-48d6-9d59-b2d66e51bf72",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Patagonia Plate",
+      "pid": 28800,
+      "validTime": {
+        "youngerMa": 318.1,
+        "olderMa": 319.0
+      },
+      "lifetimeMyr": 0.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "410-250_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 318.55
+    },
+    {
+      "sourceFeatureId": "GPlates-de0f84b2-c66f-47f5-9ca0-39e1e0d97d3e",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Phoenix Plate",
+      "pid": 919,
+      "validTime": {
+        "youngerMa": 318.1,
+        "olderMa": 319.0
+      },
+      "lifetimeMyr": 0.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "410-250_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 318.55
+    },
+    {
+      "sourceFeatureId": "GPlates-8cc18c35-03b8-470b-988a-c063cfa5b353",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Siberia Plate",
+      "pid": 401,
+      "validTime": {
+        "youngerMa": 320.1,
+        "olderMa": 321.0
+      },
+      "lifetimeMyr": 0.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "410-250_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 320.55
+    },
+    {
+      "sourceFeatureId": "GPlates-f0564008-fc4c-4fc6-b960-9c9c687d36d9",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Izanagi Plate",
+      "pid": 926,
+      "validTime": {
+        "youngerMa": 320.1,
+        "olderMa": 321.0
+      },
+      "lifetimeMyr": 0.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "410-250_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 320.55
+    },
+    {
+      "sourceFeatureId": "GPlates-d4f2dcc9-92b9-4da9-9ea2-1e01a75d2d85",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Farallon Plate",
+      "pid": 902,
+      "validTime": {
+        "youngerMa": 320.1,
+        "olderMa": 322.0
+      },
+      "lifetimeMyr": 1.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "410-250_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 321.05
+    },
+    {
+      "sourceFeatureId": "GPlates-af1c978c-ef22-4be3-a116-ff2bb66779e5",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "North Kazakhstania Plate",
+      "pid": 1002,
+      "validTime": {
+        "youngerMa": 320.1,
+        "olderMa": 324.0
+      },
+      "lifetimeMyr": 3.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "410-250_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 322.05
+    },
+    {
+      "sourceFeatureId": "GPlates-3b04e5e3-3617-4d41-b639-f3319ff7cbca",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Izanagi Plate",
+      "pid": 926,
+      "validTime": {
+        "youngerMa": 321.1,
+        "olderMa": 324.0
+      },
+      "lifetimeMyr": 2.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "410-250_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 322.55
+    },
+    {
+      "sourceFeatureId": "GPlates-e0424ce6-0955-43dc-ab71-f411b816eea5",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "kazak",
+      "pid": 459,
+      "validTime": {
+        "youngerMa": 325.1,
+        "olderMa": 326.0
+      },
+      "lifetimeMyr": 0.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "410-250_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 325.55
+    },
+    {
+      "sourceFeatureId": "GPlates-6b5daa61-fa9a-402e-afc4-6c39cca83dd9",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Mongol-Okhotsk Plate 1",
+      "pid": 9009,
+      "validTime": {
+        "youngerMa": 325.1,
+        "olderMa": 327.0
+      },
+      "lifetimeMyr": 1.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "410-250_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 326.05
+    },
+    {
+      "sourceFeatureId": "GPlates-2cc4bc80-1636-49a4-958f-7167c85b5517",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Farallon Plate",
+      "pid": 902,
+      "validTime": {
+        "youngerMa": 325.1,
+        "olderMa": 328.0
+      },
+      "lifetimeMyr": 2.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "410-250_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 326.55
+    },
+    {
+      "sourceFeatureId": "GPlates-88c071df-7c98-4737-b75b-d25f076758d5",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "North Kazakhstania Plate",
+      "pid": 1002,
+      "validTime": {
+        "youngerMa": 325.1,
+        "olderMa": 328.0
+      },
+      "lifetimeMyr": 2.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "410-250_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 326.55
+    },
+    {
+      "sourceFeatureId": "GPlates-3b851560-e215-4934-bc0b-58c2cccf8841",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Laurussia Plate",
+      "pid": 101,
+      "validTime": {
+        "youngerMa": 326.1,
+        "olderMa": 328.0
+      },
+      "lifetimeMyr": 1.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "410-250_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 327.05
+    },
+    {
+      "sourceFeatureId": "GPlates-63bb790f-cbc6-4e99-b673-41adf48483c9",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Siberia Plate",
+      "pid": 401,
+      "validTime": {
+        "youngerMa": 326.1,
+        "olderMa": 328.0
+      },
+      "lifetimeMyr": 1.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "410-250_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 327.05
+    },
+    {
+      "sourceFeatureId": "GPlates-5ad511ac-a9c9-4712-8c8b-2bb2453c2234",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Farallon Plate",
+      "pid": 902,
+      "validTime": {
+        "youngerMa": 330.1,
+        "olderMa": 332.0
+      },
+      "lifetimeMyr": 1.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "410-250_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 331.05
+    },
+    {
+      "sourceFeatureId": "GPlates-df82cfeb-1069-451d-b19e-69f698ece5dd",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Patagonia Plate",
+      "pid": 28800,
+      "validTime": {
+        "youngerMa": 330.1,
+        "olderMa": 332.0
+      },
+      "lifetimeMyr": 1.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "410-250_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 331.05
+    },
+    {
+      "sourceFeatureId": "GPlates-3c0480d3-3f11-4989-9a6e-b2acf95566b7",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Mongol-Okhotsk Plate 1",
+      "pid": 9009,
+      "validTime": {
+        "youngerMa": 330.1,
+        "olderMa": 334.0
+      },
+      "lifetimeMyr": 3.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "410-250_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 332.05
+    },
+    {
+      "sourceFeatureId": "GPlates-3ff05490-4b5c-471c-9c79-8653bb322e0a",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Tarim Plate",
+      "pid": 580,
+      "validTime": {
+        "youngerMa": 330.1,
+        "olderMa": 334.0
+      },
+      "lifetimeMyr": 3.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "410-250_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 332.05
+    },
+    {
+      "sourceFeatureId": "GPlates-45f62ebb-b5da-425d-b872-8a8e557094fa",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "North Kazakhstania Plate",
+      "pid": 1002,
+      "validTime": {
+        "youngerMa": 330.1,
+        "olderMa": 334.0
+      },
+      "lifetimeMyr": 3.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "410-250_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 332.05
+    },
+    {
+      "sourceFeatureId": "GPlates-4a81e7f2-2528-48ad-b094-478449949daf",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Alexander Plate",
+      "pid": 16111,
+      "validTime": {
+        "youngerMa": 330.1,
+        "olderMa": 334.0
+      },
+      "lifetimeMyr": 3.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "410-250_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 332.05
+    },
+    {
+      "sourceFeatureId": "GPlates-8dc18e60-b289-4179-9a20-f3bec37147cb",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Paleotethys Ocean Plate",
+      "pid": 9006,
+      "validTime": {
+        "youngerMa": 330.1,
+        "olderMa": 334.0
+      },
+      "lifetimeMyr": 3.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "410-250_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 332.05
+    },
+    {
+      "sourceFeatureId": "GPlates-9247753b-e565-46c0-99dd-4ebedd07d996",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Siberia Plate",
+      "pid": 401,
+      "validTime": {
+        "youngerMa": 330.1,
+        "olderMa": 334.0
+      },
+      "lifetimeMyr": 3.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "410-250_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 332.05
+    },
+    {
+      "sourceFeatureId": "GPlates-bc1b03cc-b13e-483c-b2c6-e91b8e6a2ada",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Laurussia Plate",
+      "pid": 101,
+      "validTime": {
+        "youngerMa": 335.1,
+        "olderMa": 339.0
+      },
+      "lifetimeMyr": 3.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "410-250_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 337.05
+    },
+    {
+      "sourceFeatureId": "GPlates-cd160376-1b69-4614-88ad-6f84b08b0ba9",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Gondwanna Plate",
+      "pid": 701,
+      "validTime": {
+        "youngerMa": 335.1,
+        "olderMa": 339.0
+      },
+      "lifetimeMyr": 3.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "410-250_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 337.05
+    },
+    {
+      "sourceFeatureId": "GPlates-8399e0eb-0806-47d1-b691-306bbc07e13b",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Izanagi Plate",
+      "pid": 926,
+      "validTime": {
+        "youngerMa": 336.1,
+        "olderMa": 339.0
+      },
+      "lifetimeMyr": 2.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "410-250_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 337.55
+    },
+    {
+      "sourceFeatureId": "GPlates-8649f061-6f92-468d-a702-4e90e944ec9e",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Farallon Plate",
+      "pid": 902,
+      "validTime": {
+        "youngerMa": 336.1,
+        "olderMa": 339.0
+      },
+      "lifetimeMyr": 2.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "410-250_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 337.55
+    },
+    {
+      "sourceFeatureId": "GPlates-a6c89348-d13f-439a-aa73-1a11b16221e3",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Siberia Plate",
+      "pid": 401,
+      "validTime": {
+        "youngerMa": 337.1,
+        "olderMa": 339.0
+      },
+      "lifetimeMyr": 1.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "410-250_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 338.05
+    },
+    {
+      "sourceFeatureId": "GPlates-f27a3107-0082-462a-9ad6-1beaa4da737a",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Paleotethys Ocean Plate",
+      "pid": 9006,
+      "validTime": {
+        "youngerMa": 337.1,
+        "olderMa": 339.0
+      },
+      "lifetimeMyr": 1.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "410-250_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 338.05
+    },
+    {
+      "sourceFeatureId": "GPlates-37138d8c-9da7-44fb-a1eb-e73903017c55",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Farallon Plate",
+      "pid": 902,
+      "validTime": {
+        "youngerMa": 340.1,
+        "olderMa": 341.0
+      },
+      "lifetimeMyr": 0.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "410-250_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 340.55
+    },
+    {
+      "sourceFeatureId": "GPlates-6332e474-93ac-417d-8147-6394b2a95e24",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Phoenix Plate",
+      "pid": 919,
+      "validTime": {
+        "youngerMa": 340.1,
+        "olderMa": 341.0
+      },
+      "lifetimeMyr": 0.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "410-250_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 340.55
+    },
+    {
+      "sourceFeatureId": "GPlates-fc9dc56c-3daf-407f-b4db-d707044d8185",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Gondwana Plate",
+      "pid": 701,
+      "validTime": {
+        "youngerMa": 340.1,
+        "olderMa": 341.0
+      },
+      "lifetimeMyr": 0.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "410-250_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 340.55
+    },
+    {
+      "sourceFeatureId": "GPlates-e0ca8714-d1ba-482e-91dd-73d5a79cb89b",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Izanagi Plate",
+      "pid": 926,
+      "validTime": {
+        "youngerMa": 340.1,
+        "olderMa": 342.0
+      },
+      "lifetimeMyr": 1.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "410-250_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 341.05
+    },
+    {
+      "sourceFeatureId": "GPlates-2d38433f-0941-45e6-b54b-725413a9f0f1",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Stikinia/Slide Mountain Ocean Plate",
+      "pid": 16104,
+      "validTime": {
+        "youngerMa": 340.1,
+        "olderMa": 344.0
+      },
+      "lifetimeMyr": 3.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "410-250_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 342.05
+    },
+    {
+      "sourceFeatureId": "GPlates-932d1ece-0f37-488f-a3f7-28fee62da5a5",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Laurussia Plate",
+      "pid": 101,
+      "validTime": {
+        "youngerMa": 340.1,
+        "olderMa": 344.0
+      },
+      "lifetimeMyr": 3.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "410-250_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 342.05
+    },
+    {
+      "sourceFeatureId": "GPlates-4c589d07-3f43-4e8b-8962-9069cf3a5d83",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Alexander Plate",
+      "pid": 16111,
+      "validTime": {
+        "youngerMa": 345.1,
+        "olderMa": 346.0
+      },
+      "lifetimeMyr": 0.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "410-250_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 345.55
+    },
+    {
+      "sourceFeatureId": "GPlates-79c42df2-d9ed-448c-a870-2f61639fab10",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Farallon Plate",
+      "pid": 902,
+      "validTime": {
+        "youngerMa": 345.1,
+        "olderMa": 346.0
+      },
+      "lifetimeMyr": 0.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "410-250_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 345.55
+    },
+    {
+      "sourceFeatureId": "GPlates-2f9bfe08-4958-4a65-95fc-1ab1e2c39a12",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Gondwana Plate",
+      "pid": 701,
+      "validTime": {
+        "youngerMa": 345.1,
+        "olderMa": 348.0
+      },
+      "lifetimeMyr": 2.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "410-250_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 346.55
+    },
+    {
+      "sourceFeatureId": "GPlates-7a57ee98-9577-415a-b5d9-47778e3cc15d",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Siberia Plate",
+      "pid": 401,
+      "validTime": {
+        "youngerMa": 345.1,
+        "olderMa": 348.0
+      },
+      "lifetimeMyr": 2.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "410-250_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 346.55
+    },
+    {
+      "sourceFeatureId": "GPlates-ddc68c50-a106-4611-9bfe-a8dc835e740b",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Paleotethys Ocean Plate",
+      "pid": 9006,
+      "validTime": {
+        "youngerMa": 345.1,
+        "olderMa": 348.0
+      },
+      "lifetimeMyr": 2.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "410-250_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 346.55
+    },
+    {
+      "sourceFeatureId": "GPlates-ec021394-1da1-45d2-aa1d-86e5383e86ed",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Laurussia Plate",
+      "pid": 101,
+      "validTime": {
+        "youngerMa": 345.1,
+        "olderMa": 348.0
+      },
+      "lifetimeMyr": 2.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "410-250_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 346.55
+    },
+    {
+      "sourceFeatureId": "GPlates-62c414bc-35b4-4196-879c-052147b06097",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Phoenix Plate",
+      "pid": 919,
+      "validTime": {
+        "youngerMa": 346.1,
+        "olderMa": 349.0
+      },
+      "lifetimeMyr": 2.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "410-250_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 347.55
+    },
+    {
+      "sourceFeatureId": "GPlates-cf7be662-a520-4237-9516-09996e76e504",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Gondwana Plate",
+      "pid": 701,
+      "validTime": {
+        "youngerMa": 348.1,
+        "olderMa": 349.0
+      },
+      "lifetimeMyr": 0.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "410-250_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 348.55
+    },
+    {
+      "sourceFeatureId": "GPlates-0f553583-4cdd-4f20-80d3-08e39ebf04a1",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Paleotethys Ocean Plate",
+      "pid": 9006,
+      "validTime": {
+        "youngerMa": 350.1,
+        "olderMa": 353.0
+      },
+      "lifetimeMyr": 2.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "410-250_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 351.55
+    },
+    {
+      "sourceFeatureId": "GPlates-b67d079b-fd04-44e9-b083-0c8c7cc77eaf",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "North Kazakhstania Plate",
+      "pid": 1002,
+      "validTime": {
+        "youngerMa": 350.1,
+        "olderMa": 353.0
+      },
+      "lifetimeMyr": 2.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "410-250_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 351.55
+    },
+    {
+      "sourceFeatureId": "GPlates-4390a112-18a4-41cc-9c2a-169129b5e9fd",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Farallon Plate",
+      "pid": 902,
+      "validTime": {
+        "youngerMa": 350.1,
+        "olderMa": 354.0
+      },
+      "lifetimeMyr": 3.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "410-250_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 352.05
+    },
+    {
+      "sourceFeatureId": "GPlates-8dab524a-3d8b-4afe-a5b6-9e3b386a6f0e",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Izanagi Plate",
+      "pid": 926,
+      "validTime": {
+        "youngerMa": 350.1,
+        "olderMa": 354.0
+      },
+      "lifetimeMyr": 3.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "410-250_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 352.05
+    },
+    {
+      "sourceFeatureId": "GPlates-063e1104-c689-462c-bb7a-9d3d5313b9b9",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Laurussia Plate",
+      "pid": 101,
+      "validTime": {
+        "youngerMa": 355.1,
+        "olderMa": 359.0
+      },
+      "lifetimeMyr": 3.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "410-250_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 357.05
+    },
+    {
+      "sourceFeatureId": "GPlates-5c0eab21-6c5a-401e-891e-eab0e18d70f9",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Farallon Plate",
+      "pid": 902,
+      "validTime": {
+        "youngerMa": 355.1,
+        "olderMa": 359.0
+      },
+      "lifetimeMyr": 3.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "410-250_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 357.05
+    },
+    {
+      "sourceFeatureId": "GPlates-844dcf2a-1b15-47b1-b858-77c8fa1ebabb",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "South Kazakhstania Plate",
+      "pid": 459,
+      "validTime": {
+        "youngerMa": 357.1,
+        "olderMa": 359.0
+      },
+      "lifetimeMyr": 1.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "410-250_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 358.05
+    },
+    {
+      "sourceFeatureId": "GPlates-ad33d1db-561b-48f0-ba34-1001f5c52566",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "North Kazakhstania Plate",
+      "pid": 1002,
+      "validTime": {
+        "youngerMa": 357.1,
+        "olderMa": 359.0
+      },
+      "lifetimeMyr": 1.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "410-250_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 358.05
+    },
+    {
+      "sourceFeatureId": "GPlates-cc0a4d64-693c-4de4-8405-566707ecf2ad",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Izanagi Plate",
+      "pid": 926,
+      "validTime": {
+        "youngerMa": 358.1,
+        "olderMa": 359.0
+      },
+      "lifetimeMyr": 0.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "410-250_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 358.55
+    },
+    {
+      "sourceFeatureId": "GPlates-f57f7130-410b-4046-997f-c8052a1dd860",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Siberia Plate",
+      "pid": 401,
+      "validTime": {
+        "youngerMa": 360.1,
+        "olderMa": 364.0
+      },
+      "lifetimeMyr": 3.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "410-250_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 362.05
+    },
+    {
+      "sourceFeatureId": "GPlates-4946a86f-c219-4623-b83b-39130630b8ca",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Phoenix Plate",
+      "pid": 919,
+      "validTime": {
+        "youngerMa": 365.1,
+        "olderMa": 369.0
+      },
+      "lifetimeMyr": 3.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "410-250_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 367.05
+    },
+    {
+      "sourceFeatureId": "GPlates-9a6a32fc-4f70-47cd-94f9-0fa93b3e56c5",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Gondwana Plate",
+      "pid": 701,
+      "validTime": {
+        "youngerMa": 365.1,
+        "olderMa": 369.0
+      },
+      "lifetimeMyr": 3.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "410-250_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 367.05
+    },
+    {
+      "sourceFeatureId": "GPlates-f205bf6e-c2a1-4f5d-adfe-14fc6ea7954d",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Izanagi Plate",
+      "pid": 926,
+      "validTime": {
+        "youngerMa": 370.1,
+        "olderMa": 372.0
+      },
+      "lifetimeMyr": 1.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "410-250_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 371.05
+    },
+    {
+      "sourceFeatureId": "GPlates-0e3c8ccb-2cd4-4edf-b4d8-23ff93a2e228",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Siberia Plate",
+      "pid": 401,
+      "validTime": {
+        "youngerMa": 370.1,
+        "olderMa": 373.0
+      },
+      "lifetimeMyr": 2.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "410-250_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 371.55
+    },
+    {
+      "sourceFeatureId": "GPlates-861ecfe3-bcff-42a9-9abc-a26de0de94b5",
+      "type": "gpml:SubductionZone",
+      "name": "Variscan subduction zone (north)",
+      "pid": 302,
+      "validTime": {
+        "youngerMa": 370.1,
+        "olderMa": 374.0
+      },
+      "lifetimeMyr": 3.9,
+      "topologicalGeometry": false,
+      "sourceFiles": [
+        "410-250_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 372.05
+    },
+    {
+      "sourceFeatureId": "GPlates-7bd83070-1082-4ed9-81e4-32e33238a5c8",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Gondwanna Plate",
+      "pid": 701,
+      "validTime": {
+        "youngerMa": 370.1,
+        "olderMa": 374.0
+      },
+      "lifetimeMyr": 3.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "410-250_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 372.05
+    },
+    {
+      "sourceFeatureId": "GPlates-cfe96235-5906-4974-a654-2b14a260a3fe",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Laurussia Plate",
+      "pid": 101,
+      "validTime": {
+        "youngerMa": 370.1,
+        "olderMa": 374.0
+      },
+      "lifetimeMyr": 3.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "410-250_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 372.05
+    },
+    {
+      "sourceFeatureId": "GPlates-90db4076-707c-4d33-a760-5e308816b3a8",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Paleotethys Plate",
+      "pid": 9006,
+      "validTime": {
+        "youngerMa": 375.1,
+        "olderMa": 377.0
+      },
+      "lifetimeMyr": 1.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "410-250_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 376.05
+    },
+    {
+      "sourceFeatureId": "GPlates-08362fbf-99bc-4e65-b984-069165251a77",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Gondwanna Plate",
+      "pid": 701,
+      "validTime": {
+        "youngerMa": 377.1,
+        "olderMa": 379.0
+      },
+      "lifetimeMyr": 1.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "410-250_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 378.05
+    },
+    {
+      "sourceFeatureId": "GPlates-f036b031-f2d8-46c2-a2c5-f99f1b134e72",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Paleotethys Plate",
+      "pid": 9006,
+      "validTime": {
+        "youngerMa": 377.1,
+        "olderMa": 379.0
+      },
+      "lifetimeMyr": 1.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "410-250_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 378.05
+    },
+    {
+      "sourceFeatureId": "GPlates-23cefa0e-7932-4f00-902a-bd0038667ae7",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "PAO plate 1",
+      "pid": 9013,
+      "validTime": {
+        "youngerMa": 378.1,
+        "olderMa": 379.0
+      },
+      "lifetimeMyr": 0.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "410-250_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 378.55
+    },
+    {
+      "sourceFeatureId": "GPlates-7fe7cbf1-4ff7-43e9-aaa3-dac4d1353c59",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Paleotethys Plate",
+      "pid": 9006,
+      "validTime": {
+        "youngerMa": 380.1,
+        "olderMa": 382.0
+      },
+      "lifetimeMyr": 1.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "410-250_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 381.05
+    },
+    {
+      "sourceFeatureId": "GPlates-bfdfd378-07b9-4e5c-acfc-04948bd9b447",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Kazakstania Plate",
+      "pid": 1001,
+      "validTime": {
+        "youngerMa": 380.1,
+        "olderMa": 382.0
+      },
+      "lifetimeMyr": 1.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "410-250_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 381.05
+    },
+    {
+      "sourceFeatureId": "GPlates-03a4f5b8-d31f-4279-9cfb-19d40379b047",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Tarim Plate",
+      "pid": 580,
+      "validTime": {
+        "youngerMa": 380.1,
+        "olderMa": 383.0
+      },
+      "lifetimeMyr": 2.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "410-250_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 381.55
+    },
+    {
+      "sourceFeatureId": "GPlates-1efb95fc-538e-4633-9fd3-e80d3d49630d",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Northen Rheic Plate",
+      "pid": 9005,
+      "validTime": {
+        "youngerMa": 380.1,
+        "olderMa": 383.0
+      },
+      "lifetimeMyr": 2.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "410-250_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 381.55
+    },
+    {
+      "sourceFeatureId": "GPlates-93dd8bd4-b392-453b-9c8f-e19b42fd25bb",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Western Mianlue",
+      "pid": 602201,
+      "validTime": {
+        "youngerMa": 380.1,
+        "olderMa": 383.0
+      },
+      "lifetimeMyr": 2.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "410-250_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 381.55
+    },
+    {
+      "sourceFeatureId": "GPlates-b6d68082-2ef2-4c6b-b8c3-db60dec01327",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "PAO plate 1",
+      "pid": 9013,
+      "validTime": {
+        "youngerMa": 380.1,
+        "olderMa": 383.0
+      },
+      "lifetimeMyr": 2.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "410-250_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 381.55
+    },
+    {
+      "sourceFeatureId": "GPlates-c008abb9-28fe-46af-977d-54cefd14b5d7",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Gondwana Plate",
+      "pid": 701,
+      "validTime": {
+        "youngerMa": 380.1,
+        "olderMa": 383.0
+      },
+      "lifetimeMyr": 2.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "410-250_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 381.55
+    },
+    {
+      "sourceFeatureId": "GPlates-c067483b-e46a-4706-999f-a06d8e3c43cb",
+      "type": "gpml:MidOceanRidge",
+      "name": "northern Rheic MOR",
+      "pid": 0,
+      "validTime": {
+        "youngerMa": 380.1,
+        "olderMa": 383.1
+      },
+      "lifetimeMyr": 3.0,
+      "topologicalGeometry": false,
+      "sourceFiles": [
+        "410-250_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 381.6
+    },
+    {
+      "sourceFeatureId": "GPlates-5d461033-3f8d-453d-876c-d19ead4a9ec3",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Paleotethys Plate",
+      "pid": 9006,
+      "validTime": {
+        "youngerMa": 382.1,
+        "olderMa": 383.0
+      },
+      "lifetimeMyr": 0.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "410-250_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 382.55
+    },
+    {
+      "sourceFeatureId": "GPlates-cc741d1d-392c-4cc8-89e7-63f43c548e7f",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Paleotethys Plate",
+      "pid": 9006,
+      "validTime": {
+        "youngerMa": 383.1,
+        "olderMa": 384.0
+      },
+      "lifetimeMyr": 0.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "410-250_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 383.55
+    },
+    {
+      "sourceFeatureId": "GPlates-def626f0-d178-4398-a16e-7991eee4cc8c",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Gondwanna Plate",
+      "pid": 701,
+      "validTime": {
+        "youngerMa": 383.1,
+        "olderMa": 384.0
+      },
+      "lifetimeMyr": 0.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "410-250_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 383.55
+    },
+    {
+      "sourceFeatureId": "GPlates-df3b16c9-904b-4b40-bfa3-1a6d61f1b774",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Alexander Plate",
+      "pid": 16111,
+      "validTime": {
+        "youngerMa": 385.1,
+        "olderMa": 387.0
+      },
+      "lifetimeMyr": 1.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "410-250_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 386.05
+    },
+    {
+      "sourceFeatureId": "GPlates-bc29887b-4980-4adb-bebf-8a778d9f8b14",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Paleotethys Plate",
+      "pid": 9006,
+      "validTime": {
+        "youngerMa": 385.1,
+        "olderMa": 388.0
+      },
+      "lifetimeMyr": 2.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "410-250_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 386.55
+    },
+    {
+      "sourceFeatureId": "GPlates-1aa53992-f7ce-4a5a-968e-537c6e977e29",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Farallon Plate",
+      "pid": 902,
+      "validTime": {
+        "youngerMa": 385.1,
+        "olderMa": 389.0
+      },
+      "lifetimeMyr": 3.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "410-250_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 387.05
+    },
+    {
+      "sourceFeatureId": "GPlates-acfe8dbe-0e3b-472f-a548-28986b25a684",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Laurussia plate",
+      "pid": 101,
+      "validTime": {
+        "youngerMa": 386.1,
+        "olderMa": 388.0
+      },
+      "lifetimeMyr": 1.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "410-250_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 387.05
+    },
+    {
+      "sourceFeatureId": "GPlates-1d7666ac-b75c-4029-a722-5b983503d9f3",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Gondwanna Plate",
+      "pid": 701,
+      "validTime": {
+        "youngerMa": 386.1,
+        "olderMa": 389.0
+      },
+      "lifetimeMyr": 2.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "410-250_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 387.55
+    },
+    {
+      "sourceFeatureId": "GPlates-1d897475-272a-47ea-b6bc-9122e8207c52",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Alexander Plate",
+      "pid": 16111,
+      "validTime": {
+        "youngerMa": 387.1,
+        "olderMa": 388.0
+      },
+      "lifetimeMyr": 0.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "410-250_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 387.55
+    },
+    {
+      "sourceFeatureId": "GPlates-63007bc4-9420-4121-8be1-6c119c0e11c0",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Laurussia Plate",
+      "pid": 101,
+      "validTime": {
+        "youngerMa": 388.1,
+        "olderMa": 389.0
+      },
+      "lifetimeMyr": 0.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "410-250_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 388.55
+    },
+    {
+      "sourceFeatureId": "GPlates-57c9b37e-992f-488e-86f4-a9f30fdc2184",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Paleotethys Plate",
+      "pid": 9006,
+      "validTime": {
+        "youngerMa": 390.1,
+        "olderMa": 392.0
+      },
+      "lifetimeMyr": 1.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "410-250_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 391.05
+    },
+    {
+      "sourceFeatureId": "GPlates-656aa5d2-c10e-4c14-b1cb-9df70d5880af",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Western Mianlue",
+      "pid": 602201,
+      "validTime": {
+        "youngerMa": 390.1,
+        "olderMa": 392.0
+      },
+      "lifetimeMyr": 1.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "410-250_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 391.05
+    },
+    {
+      "sourceFeatureId": "GPlates-74b82e00-b931-4c8f-a7be-b18ca6c4affc",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Gondwana Plate",
+      "pid": 701,
+      "validTime": {
+        "youngerMa": 390.1,
+        "olderMa": 392.0
+      },
+      "lifetimeMyr": 1.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "410-250_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 391.05
+    },
+    {
+      "sourceFeatureId": "GPlates-7c651b4f-ca76-4134-b6fb-26d04026679a",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Tarim Plate",
+      "pid": 580,
+      "validTime": {
+        "youngerMa": 390.1,
+        "olderMa": 393.0
+      },
+      "lifetimeMyr": 2.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "410-250_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 391.55
+    },
+    {
+      "sourceFeatureId": "GPlates-bcf218a5-b138-448b-889e-4122b7def917",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Farallon Plate",
+      "pid": 902,
+      "validTime": {
+        "youngerMa": 390.1,
+        "olderMa": 393.0
+      },
+      "lifetimeMyr": 2.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "410-250_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 391.55
+    },
+    {
+      "sourceFeatureId": "GPlates-73d7f982-2106-4890-a8fc-14cda87bc1e1",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Gondwana Plate",
+      "pid": 701,
+      "validTime": {
+        "youngerMa": 392.1,
+        "olderMa": 393.0
+      },
+      "lifetimeMyr": 0.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "410-250_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 392.55
+    },
+    {
+      "sourceFeatureId": "GPlates-42c06bfd-9a1b-4cfd-aecd-3f633be284b5",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Gondwana Plate",
+      "pid": 701,
+      "validTime": {
+        "youngerMa": 393.1,
+        "olderMa": 394.0
+      },
+      "lifetimeMyr": 0.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "410-250_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 393.55
+    },
+    {
+      "sourceFeatureId": "GPlates-fc64bb7e-c8c1-4fac-9673-78e2fd437913",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Laurussia Plate",
+      "pid": 101,
+      "validTime": {
+        "youngerMa": 393.1,
+        "olderMa": 394.0
+      },
+      "lifetimeMyr": 0.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "410-250_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 393.55
+    },
+    {
+      "sourceFeatureId": "GPlates-735ed297-e9ce-48b9-9042-355f4861e49e",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Laurussia plate",
+      "pid": 101,
+      "validTime": {
+        "youngerMa": 395.1,
+        "olderMa": 399.0
+      },
+      "lifetimeMyr": 3.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "410-250_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 397.05
+    },
+    {
+      "sourceFeatureId": "GPlates-7d429274-4461-43d9-9d4c-bb26140d7fa7",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Alexander Plate",
+      "pid": 16111,
+      "validTime": {
+        "youngerMa": 395.1,
+        "olderMa": 399.0
+      },
+      "lifetimeMyr": 3.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "410-250_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 397.05
+    },
+    {
+      "sourceFeatureId": "GPlates-12306e11-4130-48c5-8358-fd492e0a3a41",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Laurussia Plate",
+      "pid": 101,
+      "validTime": {
+        "youngerMa": 400.1,
+        "olderMa": 403.0
+      },
+      "lifetimeMyr": 2.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "410-250_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 401.55
+    },
+    {
+      "sourceFeatureId": "GPlates-680c76e0-0407-4b58-9b3e-e6aa78f6eb0a",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Gondwana Plate",
+      "pid": 701,
+      "validTime": {
+        "youngerMa": 400.1,
+        "olderMa": 403.0
+      },
+      "lifetimeMyr": 2.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "410-250_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 401.55
+    },
+    {
+      "sourceFeatureId": "GPlates-014d3ca7-ae87-4d49-b672-fbe61ba67ba9",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Gondwana",
+      "pid": 701,
+      "validTime": {
+        "youngerMa": 410.1,
+        "olderMa": 413.0
+      },
+      "lifetimeMyr": 2.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "1000-410_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 411.55
+    },
+    {
+      "sourceFeatureId": "GPlates-7a4f03b0-223e-4b8d-986d-1cd86c41b567",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Farallon Ocean Plate",
+      "pid": 902,
+      "validTime": {
+        "youngerMa": 410.1,
+        "olderMa": 413.0
+      },
+      "lifetimeMyr": 2.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "1000-410_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 411.55
+    },
+    {
+      "sourceFeatureId": "GPlates-886a9aee-9325-4b58-a890-08717846c50e",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Subduction under COAB",
+      "pid": 9006,
+      "validTime": {
+        "youngerMa": 410.1,
+        "olderMa": 413.0
+      },
+      "lifetimeMyr": 2.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "1000-410_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 411.55
+    },
+    {
+      "sourceFeatureId": "GPlates-27755011-b692-4e34-924c-f76d40267290",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "South China",
+      "pid": 602,
+      "validTime": {
+        "youngerMa": 410.1,
+        "olderMa": 414.0
+      },
+      "lifetimeMyr": 3.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "1000-410_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 412.05
+    },
+    {
+      "sourceFeatureId": "GPlates-4e3ff81e-5431-4377-9abc-9a7e642b34b8",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Izanagi",
+      "pid": 926,
+      "validTime": {
+        "youngerMa": 415.1,
+        "olderMa": 418.0
+      },
+      "lifetimeMyr": 2.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "1000-410_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 416.55
+    },
+    {
+      "sourceFeatureId": "GPlates-f8d13b4f-a64b-4ba2-9c12-b78958e9379b",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Farallon Ocean Plate",
+      "pid": 902,
+      "validTime": {
+        "youngerMa": 415.1,
+        "olderMa": 418.0
+      },
+      "lifetimeMyr": 2.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "1000-410_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 416.55
+    },
+    {
+      "sourceFeatureId": "GPlates-51ba8364-f01b-4f34-9fd1-a22edfe90d17",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Izanagi Ocean Plate",
+      "pid": 926,
+      "validTime": {
+        "youngerMa": 426.1,
+        "olderMa": 427.0
+      },
+      "lifetimeMyr": 0.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "1000-410_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 426.55
+    },
+    {
+      "sourceFeatureId": "GPlates-ff6cb695-b9f3-4fb1-ae80-bb0befa2f229",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "South China Plate",
+      "pid": 602,
+      "validTime": {
+        "youngerMa": 426.1,
+        "olderMa": 427.0
+      },
+      "lifetimeMyr": 0.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "1000-410_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 426.55
+    },
+    {
+      "sourceFeatureId": "GPlates-f564afbd-52e4-429d-8222-e1713fa1b1c2",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Baltica",
+      "pid": 302,
+      "validTime": {
+        "youngerMa": 430.1,
+        "olderMa": 431.0
+      },
+      "lifetimeMyr": 0.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "1000-410_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 430.55
+    },
+    {
+      "sourceFeatureId": "GPlates-bdef1ddb-3eed-4c0a-9c37-a1f8f2987ac0",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Laurentia",
+      "pid": 101,
+      "validTime": {
+        "youngerMa": 433.1,
+        "olderMa": 434.0
+      },
+      "lifetimeMyr": 0.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "1000-410_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 433.55
+    },
+    {
+      "sourceFeatureId": "GPlates-017c39ab-0186-4401-9de3-7c6d8ed3585e",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Izanagi Plate",
+      "pid": 926,
+      "validTime": {
+        "youngerMa": 440.1,
+        "olderMa": 441.0
+      },
+      "lifetimeMyr": 0.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "1000-410_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 440.55
+    },
+    {
+      "sourceFeatureId": "GPlates-3ed7adda-a724-492d-a354-13675482bec8",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Tarim",
+      "pid": 580,
+      "validTime": {
+        "youngerMa": 440.1,
+        "olderMa": 443.0
+      },
+      "lifetimeMyr": 2.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "1000-410_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 441.55
+    },
+    {
+      "sourceFeatureId": "GPlates-42887157-65e2-42fb-98ec-97e99f4aab84",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Chu Yili",
+      "pid": 460,
+      "validTime": {
+        "youngerMa": 440.1,
+        "olderMa": 443.0
+      },
+      "lifetimeMyr": 2.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "1000-410_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 441.55
+    },
+    {
+      "sourceFeatureId": "GPlates-d0f5986f-020e-437b-b0a5-793d271c4e25",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Tarim",
+      "pid": 580,
+      "validTime": {
+        "youngerMa": 445.1,
+        "olderMa": 447.0
+      },
+      "lifetimeMyr": 1.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "1000-410_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 446.05
+    },
+    {
+      "sourceFeatureId": "GPlates-921a8f16-ae0f-4642-98f6-0982774d6738",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "North China",
+      "pid": 601,
+      "validTime": {
+        "youngerMa": 445.1,
+        "olderMa": 449.0
+      },
+      "lifetimeMyr": 3.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "1000-410_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 447.05
+    },
+    {
+      "sourceFeatureId": "GPlates-c69f0f5e-bc2f-429b-b72c-12b8ece4b075",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "South China",
+      "pid": 601,
+      "validTime": {
+        "youngerMa": 445.1,
+        "olderMa": 449.0
+      },
+      "lifetimeMyr": 3.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "1000-410_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 447.05
+    },
+    {
+      "sourceFeatureId": "GPlates-25c8dc58-b1c3-4789-a1d3-0d21ab341442",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Qilian",
+      "pid": 451,
+      "validTime": {
+        "youngerMa": 450.1,
+        "olderMa": 452.0
+      },
+      "lifetimeMyr": 1.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "1000-410_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 451.05
+    },
+    {
+      "sourceFeatureId": "GPlates-63a1440b-c616-44d4-b42e-6219e0677ca6",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Alxa",
+      "pid": 451,
+      "validTime": {
+        "youngerMa": 450.1,
+        "olderMa": 452.0
+      },
+      "lifetimeMyr": 1.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "1000-410_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 451.05
+    },
+    {
+      "sourceFeatureId": "GPlates-e039932f-14ed-4a0b-8430-38bf0eccaf16",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Laurentia",
+      "pid": 101,
+      "validTime": {
+        "youngerMa": 450.1,
+        "olderMa": 452.0
+      },
+      "lifetimeMyr": 1.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "1000-410_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 451.05
+    },
+    {
+      "sourceFeatureId": "GPlates-800aefc2-2b5c-4d9f-913b-a637ea04966b",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Tarim",
+      "pid": 580,
+      "validTime": {
+        "youngerMa": 450.1,
+        "olderMa": 453.0
+      },
+      "lifetimeMyr": 2.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "1000-410_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 451.55
+    },
+    {
+      "sourceFeatureId": "GPlates-d7912ff4-3cd9-442e-a51d-a567b1b123ed",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Carolinia",
+      "pid": 185,
+      "validTime": {
+        "youngerMa": 455.1,
+        "olderMa": 458.0
+      },
+      "lifetimeMyr": 2.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "1000-410_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 456.55
+    },
+    {
+      "sourceFeatureId": "GPlates-f80112bc-fef9-4431-b4da-0b9ee6a31de6",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Ganderia",
+      "pid": 184,
+      "validTime": {
+        "youngerMa": 455.1,
+        "olderMa": 458.0
+      },
+      "lifetimeMyr": 2.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "1000-410_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 456.55
+    },
+    {
+      "sourceFeatureId": "GPlates-39ceda3d-7748-419c-b264-b33bce52ce6f",
+      "type": "gpml:Transform",
+      "name": "Carolinia transform",
+      "pid": 185,
+      "validTime": {
+        "youngerMa": 455.1,
+        "olderMa": 458.0
+      },
+      "lifetimeMyr": 2.9,
+      "topologicalGeometry": false,
+      "sourceFiles": [
+        "1000-410_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 456.55
+    },
+    {
+      "sourceFeatureId": "GPlates-1594270d-ad85-4814-8eff-aa5a351c6d52",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Tarim",
+      "pid": 580,
+      "validTime": {
+        "youngerMa": 460.1,
+        "olderMa": 461.0
+      },
+      "lifetimeMyr": 0.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "1000-410_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 460.55
+    },
+    {
+      "sourceFeatureId": "GPlates-497d30fc-9e2e-45e0-a80a-6ce346928ddc",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Baltica",
+      "pid": 302,
+      "validTime": {
+        "youngerMa": 460.1,
+        "olderMa": 463.0
+      },
+      "lifetimeMyr": 2.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "1000-410_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 461.55
+    },
+    {
+      "sourceFeatureId": "GPlates-b686ba86-c924-4822-ac36-c5833dc6137a",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Siberia",
+      "pid": 401,
+      "validTime": {
+        "youngerMa": 460.1,
+        "olderMa": 463.0
+      },
+      "lifetimeMyr": 2.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "1000-410_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 461.55
+    },
+    {
+      "sourceFeatureId": "GPlates-d076b14d-b325-438f-bd0a-3387d64c3025",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Gondwana",
+      "pid": 701,
+      "validTime": {
+        "youngerMa": 460.1,
+        "olderMa": 464.0
+      },
+      "lifetimeMyr": 3.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "1000-410_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 462.05
+    },
+    {
+      "sourceFeatureId": "GPlates-c5a87760-f669-4a28-866f-0509630e3477",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Baltica",
+      "pid": 302,
+      "validTime": {
+        "youngerMa": 465.1,
+        "olderMa": 467.0
+      },
+      "lifetimeMyr": 1.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "1000-410_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 466.05
+    },
+    {
+      "sourceFeatureId": "GPlates-29e9c41d-e49a-431a-9958-5b1489b32f1f",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Izanagi Ocean Plate",
+      "pid": 926,
+      "validTime": {
+        "youngerMa": 470.1,
+        "olderMa": 471.0
+      },
+      "lifetimeMyr": 0.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "1000-410_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 470.55
+    },
+    {
+      "sourceFeatureId": "GPlates-b6b8df1e-fd6d-4920-86f8-20323bb0ab99",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Central Tianshan",
+      "pid": 466,
+      "validTime": {
+        "youngerMa": 470.1,
+        "olderMa": 471.0
+      },
+      "lifetimeMyr": 0.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "1000-410_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 470.55
+    },
+    {
+      "sourceFeatureId": "GPlates-e3ffea85-180a-4fd8-914c-f7634795c1dd",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Siberia",
+      "pid": 401,
+      "validTime": {
+        "youngerMa": 470.1,
+        "olderMa": 471.0
+      },
+      "lifetimeMyr": 0.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "1000-410_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 470.55
+    },
+    {
+      "sourceFeatureId": "GPlates-06d91ebc-f5ed-4afd-969d-a0a2a434b942",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Kara",
+      "pid": 404,
+      "validTime": {
+        "youngerMa": 470.1,
+        "olderMa": 472.0
+      },
+      "lifetimeMyr": 1.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "1000-410_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 471.05
+    },
+    {
+      "sourceFeatureId": "GPlates-d04f7417-3aeb-4a6b-9917-9104a0a06be2",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Baltica",
+      "pid": 302,
+      "validTime": {
+        "youngerMa": 480.1,
+        "olderMa": 482.0
+      },
+      "lifetimeMyr": 1.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "1000-410_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 481.05
+    },
+    {
+      "sourceFeatureId": "GPlates-06867585-5897-49c4-a905-7471cb7745f6",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "kara",
+      "pid": 404,
+      "validTime": {
+        "youngerMa": 490.1,
+        "olderMa": 493.0
+      },
+      "lifetimeMyr": 2.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "1000-410_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 491.55
+    },
+    {
+      "sourceFeatureId": "GPlates-3dd80605-d2e8-4d58-a3c5-d9c73bee96b9",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Ocean Plate",
+      "pid": 902,
+      "validTime": {
+        "youngerMa": 490.1,
+        "olderMa": 493.0
+      },
+      "lifetimeMyr": 2.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "1000-410_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 491.55
+    },
+    {
+      "sourceFeatureId": "GPlates-3d12db75-93b8-47a9-bc6d-e21671f9f9d2",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Qaidam-Qilian",
+      "pid": 456,
+      "validTime": {
+        "youngerMa": 530.1,
+        "olderMa": 531.0
+      },
+      "lifetimeMyr": 0.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "1000-410_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 530.55
+    },
+    {
+      "sourceFeatureId": "GPlates-4b48288a-44f6-413d-b8dc-056fc1732d9a",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Big ocean plate",
+      "pid": 980441,
+      "validTime": {
+        "youngerMa": 530.1,
+        "olderMa": 532.0
+      },
+      "lifetimeMyr": 1.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "1000-410_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 531.05
+    },
+    {
+      "sourceFeatureId": "GPlates-95922d80-9646-47ef-97c5-9168bc218d5e",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Erguna",
+      "pid": 4101,
+      "validTime": {
+        "youngerMa": 530.1,
+        "olderMa": 534.0
+      },
+      "lifetimeMyr": 3.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "1000-410_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 532.05
+    },
+    {
+      "sourceFeatureId": "GPlates-9f62d329-b2a5-440a-8c60-4b1f30b8455c",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Siberia",
+      "pid": 401,
+      "validTime": {
+        "youngerMa": 530.1,
+        "olderMa": 534.0
+      },
+      "lifetimeMyr": 3.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "1000-410_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 532.05
+    },
+    {
+      "sourceFeatureId": "GPlates-0a981adf-11dc-42e3-a155-20a6ba1258bf",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "RDLP",
+      "pid": 22042,
+      "validTime": {
+        "youngerMa": 555.1,
+        "olderMa": 557.0
+      },
+      "lifetimeMyr": 1.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "1000-410_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 556.05
+    },
+    {
+      "sourceFeatureId": "GPlates-e4c000f2-24e1-4f69-82c4-b01099b06623",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Amazonia",
+      "pid": 201,
+      "validTime": {
+        "youngerMa": 555.1,
+        "olderMa": 557.0
+      },
+      "lifetimeMyr": 1.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "1000-410_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 556.05
+    },
+    {
+      "sourceFeatureId": "GPlates-f1d84608-a074-4068-b64e-292141beae32",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Southern Iapetus",
+      "pid": 22032,
+      "validTime": {
+        "youngerMa": 555.1,
+        "olderMa": 557.0
+      },
+      "lifetimeMyr": 1.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "1000-410_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 556.05
+    },
+    {
+      "sourceFeatureId": "GPlates-269793ad-2acb-4fac-a7b6-05b8cb3b9c3f",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "RDLP",
+      "pid": 22042,
+      "validTime": {
+        "youngerMa": 570.1,
+        "olderMa": 572.0
+      },
+      "lifetimeMyr": 1.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "1000-410_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 571.05
+    },
+    {
+      "sourceFeatureId": "GPlates-685aaad3-f20e-4e5d-8add-9e0ddbb52cdf",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Amazonia",
+      "pid": 201,
+      "validTime": {
+        "youngerMa": 570.1,
+        "olderMa": 572.0
+      },
+      "lifetimeMyr": 1.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "1000-410_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 571.05
+    },
+    {
+      "sourceFeatureId": "GPlates-80ef7e35-e6d5-4945-82b9-1d2389ac55f0",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Ocean Plate",
+      "pid": 98044,
+      "validTime": {
+        "youngerMa": 570.1,
+        "olderMa": 572.0
+      },
+      "lifetimeMyr": 1.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "1000-410_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 571.05
+    },
+    {
+      "sourceFeatureId": "GPlates-add7aee1-a90c-4593-9ab4-7415f8ebdd5f",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Siberia",
+      "pid": 401,
+      "validTime": {
+        "youngerMa": 570.1,
+        "olderMa": 572.0
+      },
+      "lifetimeMyr": 1.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "1000-410_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 571.05
+    },
+    {
+      "sourceFeatureId": "GPlates-bac37684-e740-4c2c-aa76-1b666b2f6f14",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Ocean Plate",
+      "pid": 98043,
+      "validTime": {
+        "youngerMa": 570.1,
+        "olderMa": 572.0
+      },
+      "lifetimeMyr": 1.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "1000-410_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 571.05
+    },
+    {
+      "sourceFeatureId": "GPlates-d9788d7f-b506-429f-a9cc-c9f4c49cc3ef",
+      "type": "gpml:Transform",
+      "name": "Siberia-ocean SZ",
+      "pid": 401,
+      "validTime": {
+        "youngerMa": 570.1,
+        "olderMa": 572.0
+      },
+      "lifetimeMyr": 1.9,
+      "topologicalGeometry": false,
+      "sourceFiles": [
+        "1000-410_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 571.05
+    },
+    {
+      "sourceFeatureId": "GPlates-9dc326e1-34c6-46ea-87f6-4708c1e54e01",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Baltica",
+      "pid": 302,
+      "validTime": {
+        "youngerMa": 575.1,
+        "olderMa": 577.0
+      },
+      "lifetimeMyr": 1.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "1000-410_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 576.05
+    },
+    {
+      "sourceFeatureId": "GPlates-dd4e1f93-c752-427e-856f-a0f449b609bb",
+      "type": "gpml:MidOceanRidge",
+      "name": "india closure",
+      "pid": 0,
+      "validTime": {
+        "youngerMa": 585.1,
+        "olderMa": 588.0
+      },
+      "lifetimeMyr": 2.9,
+      "topologicalGeometry": false,
+      "sourceFiles": [
+        "1000-410_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 586.55
+    },
+    {
+      "sourceFeatureId": "GPlates-1c1584c5-7e04-45ae-983a-53e84500fc60",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Tarim",
+      "pid": 580,
+      "validTime": {
+        "youngerMa": 585.1,
+        "olderMa": 588.0
+      },
+      "lifetimeMyr": 2.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "1000-410_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 586.55
+    },
+    {
+      "sourceFeatureId": "GPlates-75078c2f-bd93-485b-8ea3-e0eb3c4ed201",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "North China",
+      "pid": 601,
+      "validTime": {
+        "youngerMa": 585.1,
+        "olderMa": 588.0
+      },
+      "lifetimeMyr": 2.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "1000-410_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 586.55
+    },
+    {
+      "sourceFeatureId": "GPlates-c291e97d-6c86-4b85-9185-6fed043ed843",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "India",
+      "pid": 501,
+      "validTime": {
+        "youngerMa": 585.1,
+        "olderMa": 588.0
+      },
+      "lifetimeMyr": 2.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "1000-410_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 586.55
+    },
+    {
+      "sourceFeatureId": "GPlates-f9ca56de-9114-4f4e-a3e2-269dee34f458",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Ocean Plate",
+      "pid": 98044,
+      "validTime": {
+        "youngerMa": 585.1,
+        "olderMa": 588.0
+      },
+      "lifetimeMyr": 2.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "1000-410_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 586.55
+    },
+    {
+      "sourceFeatureId": "GPlates-31768a1d-fc8f-4fe3-aa6b-4143c62e9a24",
+      "type": "gpml:MidOceanRidge",
+      "name": "NC-Mirovoi MOR",
+      "pid": 0,
+      "validTime": {
+        "youngerMa": 585.1,
+        "olderMa": 589.0
+      },
+      "lifetimeMyr": 3.9,
+      "topologicalGeometry": false,
+      "sourceFiles": [
+        "1000-410_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 587.05
+    },
+    {
+      "sourceFeatureId": "GPlates-91a36224-8569-4ae7-a6e1-467c000211e9",
+      "type": "gpml:Transform",
+      "name": "transform closing NC plate",
+      "pid": 601,
+      "validTime": {
+        "youngerMa": 585.1,
+        "olderMa": 589.0
+      },
+      "lifetimeMyr": 3.9,
+      "topologicalGeometry": false,
+      "sourceFiles": [
+        "1000-410_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 587.05
+    },
+    {
+      "sourceFeatureId": "GPlates-12af0d35-0fa8-4828-985f-ef9b4d30b4d5",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Ocean Plate",
+      "pid": 98044,
+      "validTime": {
+        "youngerMa": 588.1,
+        "olderMa": 589.0
+      },
+      "lifetimeMyr": 0.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "1000-410_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 588.55
+    },
+    {
+      "sourceFeatureId": "GPlates-41216ed5-eace-4d7d-914d-6c2a2a80ec23",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "North China",
+      "pid": 601,
+      "validTime": {
+        "youngerMa": 588.1,
+        "olderMa": 589.0
+      },
+      "lifetimeMyr": 0.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "1000-410_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 588.55
+    },
+    {
+      "sourceFeatureId": "GPlates-0c0e5eca-0ceb-4605-8a97-39ba5950adb0",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Coats Land Block",
+      "pid": 8026,
+      "validTime": {
+        "youngerMa": 590.1,
+        "olderMa": 594.0
+      },
+      "lifetimeMyr": 3.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "1000-410_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 592.05
+    },
+    {
+      "sourceFeatureId": "GPlates-798a6037-ee62-4468-8105-e64763bfb244",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Laurentia-Amazonia",
+      "pid": 101,
+      "validTime": {
+        "youngerMa": 590.1,
+        "olderMa": 594.0
+      },
+      "lifetimeMyr": 3.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "1000-410_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 592.05
+    },
+    {
+      "sourceFeatureId": "GPlates-c6588184-bb1f-47c7-92c2-0cb286e76f97",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Taimyr",
+      "pid": 4012,
+      "validTime": {
+        "youngerMa": 600.1,
+        "olderMa": 601.0
+      },
+      "lifetimeMyr": 0.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "1000-410_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 600.55
+    },
+    {
+      "sourceFeatureId": "GPlates-0a43f94e-61b8-43e5-a6ad-2f9c52a5ed68",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Borborema",
+      "pid": 760,
+      "validTime": {
+        "youngerMa": 600.1,
+        "olderMa": 603.0
+      },
+      "lifetimeMyr": 2.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "1000-410_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 601.55
+    },
+    {
+      "sourceFeatureId": "GPlates-a7021c38-d450-4cb9-9ead-072f56feac6d",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Rodinia",
+      "pid": 101,
+      "validTime": {
+        "youngerMa": 600.1,
+        "olderMa": 603.0
+      },
+      "lifetimeMyr": 2.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "1000-410_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 601.55
+    },
+    {
+      "sourceFeatureId": "GPlates-be65edb2-3a61-4c4a-8956-5ee82c1e7567",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "WAC",
+      "pid": 714,
+      "validTime": {
+        "youngerMa": 600.1,
+        "olderMa": 603.0
+      },
+      "lifetimeMyr": 2.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "1000-410_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 601.55
+    },
+    {
+      "sourceFeatureId": "GPlates-cc369389-cbf4-4e0d-9e1d-bff5d2d191a9",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "North China",
+      "pid": 601,
+      "validTime": {
+        "youngerMa": 615.1,
+        "olderMa": 617.0
+      },
+      "lifetimeMyr": 1.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "1000-410_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 616.05
+    },
+    {
+      "sourceFeatureId": "GPlates-f6c8d090-0c3a-49fa-b7be-c27027cf252c",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Ocean Plate",
+      "pid": 98044,
+      "validTime": {
+        "youngerMa": 615.1,
+        "olderMa": 617.0
+      },
+      "lifetimeMyr": 1.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "1000-410_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 616.05
+    },
+    {
+      "sourceFeatureId": "GPlates-0f0cee47-37e4-43a2-8f33-2da71ea230ed",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Sahara Metacraton",
+      "pid": 715,
+      "validTime": {
+        "youngerMa": 620.1,
+        "olderMa": 624.0
+      },
+      "lifetimeMyr": 3.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "1000-410_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 622.05
+    },
+    {
+      "sourceFeatureId": "GPlates-e1bc36ba-4dfa-4db9-8425-39f0a223e6f9",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Timan Plate",
+      "pid": 3003,
+      "validTime": {
+        "youngerMa": 680.1,
+        "olderMa": 681.0
+      },
+      "lifetimeMyr": 0.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "1000-410_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 680.55
+    },
+    {
+      "sourceFeatureId": "GPlates-32dc57e8-e96f-4702-b35e-2cbdab60b391",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Mirovoi Ocean Plate",
+      "pid": 98044,
+      "validTime": {
+        "youngerMa": 681.1,
+        "olderMa": 682.0
+      },
+      "lifetimeMyr": 0.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "1000-410_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 681.55
+    },
+    {
+      "sourceFeatureId": "GPlates-3b729928-ae09-4df1-92fb-d7b678d19bac",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Timan Plate",
+      "pid": 3003,
+      "validTime": {
+        "youngerMa": 681.1,
+        "olderMa": 682.0
+      },
+      "lifetimeMyr": 0.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "1000-410_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 681.55
+    },
+    {
+      "sourceFeatureId": "GPlates-80f0fc04-2fb1-4a8f-8c72-ec7372bc3a1e",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Mirovoi Ocean Plate",
+      "pid": 98044,
+      "validTime": {
+        "youngerMa": 687.1,
+        "olderMa": 689.0
+      },
+      "lifetimeMyr": 1.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "1000-410_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 688.05
+    },
+    {
+      "sourceFeatureId": "GPlates-27b9356c-eda7-4dd2-adb2-8f9240d3fe28",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Australia-India",
+      "pid": 801,
+      "validTime": {
+        "youngerMa": 690.1,
+        "olderMa": 691.0
+      },
+      "lifetimeMyr": 0.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "1000-410_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 690.55
+    },
+    {
+      "sourceFeatureId": "GPlates-f3c4e07a-0ddb-451c-be6c-6e7fef4c60b1",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Timan Plate",
+      "pid": 3003,
+      "validTime": {
+        "youngerMa": 690.1,
+        "olderMa": 691.0
+      },
+      "lifetimeMyr": 0.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "1000-410_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 690.55
+    },
+    {
+      "sourceFeatureId": "GPlates-6803dd68-f361-458e-8e1f-3ed6803e20c7",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Avalonia",
+      "pid": 108,
+      "validTime": {
+        "youngerMa": 700.1,
+        "olderMa": 703.0
+      },
+      "lifetimeMyr": 2.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "1000-410_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 701.55
+    },
+    {
+      "sourceFeatureId": "GPlates-1112625e-1a7a-4340-a0f6-58d177e1210b",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Mirovoi Ocean subductin under Siberia-Baltica",
+      "pid": 98041,
+      "validTime": {
+        "youngerMa": 755.1,
+        "olderMa": 757.0
+      },
+      "lifetimeMyr": 1.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "1000-410_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 756.05
+    },
+    {
+      "sourceFeatureId": "GPlates-51fd6a4d-d8e9-433a-b0df-0a14270e6500",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Mirovoi Ocean subductin under Siberia-Baltica",
+      "pid": 98041,
+      "validTime": {
+        "youngerMa": 760.1,
+        "olderMa": 761.0
+      },
+      "lifetimeMyr": 0.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "1000-410_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 760.55
+    },
+    {
+      "sourceFeatureId": "GPlates-fb807ffd-2962-4924-b345-726e6a0225d0",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Qaidam-Qilian",
+      "pid": 456,
+      "validTime": {
+        "youngerMa": 760.1,
+        "olderMa": 761.0
+      },
+      "lifetimeMyr": 0.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "1000-410_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 760.55
+    },
+    {
+      "sourceFeatureId": "GPlates-555574a3-5cc9-41a4-ac66-66014cc55f7c",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Mirovoi Ocean subductin under Siberia-Baltica",
+      "pid": 98041,
+      "validTime": {
+        "youngerMa": 761.1,
+        "olderMa": 762.0
+      },
+      "lifetimeMyr": 0.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "1000-410_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 761.55
+    },
+    {
+      "sourceFeatureId": "GPlates-80f6a73c-1979-4dfc-a028-4cbaf1bc0f41",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Qaidam-Qilian",
+      "pid": 456,
+      "validTime": {
+        "youngerMa": 761.1,
+        "olderMa": 762.0
+      },
+      "lifetimeMyr": 0.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "1000-410_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 761.55
+    },
+    {
+      "sourceFeatureId": "GPlates-6c19aa0c-6f74-43f6-a820-8e7d44d8d470",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Qaidam-Qilian",
+      "pid": 456,
+      "validTime": {
+        "youngerMa": 762.1,
+        "olderMa": 764.0
+      },
+      "lifetimeMyr": 1.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "1000-410_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 763.05
+    },
+    {
+      "sourceFeatureId": "GPlates-f9c1d584-f677-46e4-8545-50ebb511166b",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Congo-SM",
+      "pid": 701,
+      "validTime": {
+        "youngerMa": 765.1,
+        "olderMa": 768.0
+      },
+      "lifetimeMyr": 2.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "1000-410_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 766.55
+    },
+    {
+      "sourceFeatureId": "GPlates-abd51bd8-a5c7-474c-a870-2d29ba32d549",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Qaidam-Qilian",
+      "pid": 456,
+      "validTime": {
+        "youngerMa": 770.1,
+        "olderMa": 773.0
+      },
+      "lifetimeMyr": 2.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "1000-410_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 771.55
+    },
+    {
+      "sourceFeatureId": "GPlates-903ff93a-6a79-4c3a-a501-9e3f9a9403f8",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Mirovoi Ocean subductin under Siberia-Baltica",
+      "pid": 98041,
+      "validTime": {
+        "youngerMa": 772.1,
+        "olderMa": 773.0
+      },
+      "lifetimeMyr": 0.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "1000-410_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 772.55
+    },
+    {
+      "sourceFeatureId": "GPlates-ce64c990-fdf5-43fb-9e80-522ff567a020",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Qaidam-Qilian",
+      "pid": 456,
+      "validTime": {
+        "youngerMa": 775.1,
+        "olderMa": 777.0
+      },
+      "lifetimeMyr": 1.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "1000-410_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 776.05
+    },
+    {
+      "sourceFeatureId": "GPlates-d8c92dd5-dff4-4a70-a161-6559619af62e",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Mirovoi Ocean",
+      "pid": 98041,
+      "validTime": {
+        "youngerMa": 775.1,
+        "olderMa": 778.0
+      },
+      "lifetimeMyr": 2.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "1000-410_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 776.55
+    },
+    {
+      "sourceFeatureId": "GPlates-9a453688-8bb5-4b0f-b805-9fff12912262",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Congo-SM",
+      "pid": 701,
+      "validTime": {
+        "youngerMa": 780.1,
+        "olderMa": 782.0
+      },
+      "lifetimeMyr": 1.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "1000-410_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 781.05
+    },
+    {
+      "sourceFeatureId": "GPlates-d65b6243-6b9d-43e0-b3b1-dc87bef269b9",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Mirovoi Ocean",
+      "pid": 98041,
+      "validTime": {
+        "youngerMa": 780.1,
+        "olderMa": 782.0
+      },
+      "lifetimeMyr": 1.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "1000-410_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 781.05
+    },
+    {
+      "sourceFeatureId": "GPlates-3eb10794-c033-4e22-bf57-6a5441ed33bc",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Congo-SM",
+      "pid": 701,
+      "validTime": {
+        "youngerMa": 785.1,
+        "olderMa": 787.0
+      },
+      "lifetimeMyr": 1.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "1000-410_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 786.05
+    },
+    {
+      "sourceFeatureId": "GPlates-342706fa-871d-4ad9-ad8b-ff1bfd7b9cc9",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "India-South China",
+      "pid": 501,
+      "validTime": {
+        "youngerMa": 785.1,
+        "olderMa": 788.0
+      },
+      "lifetimeMyr": 2.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "1000-410_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 786.55
+    },
+    {
+      "sourceFeatureId": "GPlates-0ef6dedd-30fa-450e-a9d9-75aa8f24f218",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Rodinia",
+      "pid": 101,
+      "validTime": {
+        "youngerMa": 835.1,
+        "olderMa": 839.0
+      },
+      "lifetimeMyr": 3.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "1000-410_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 837.05
+    },
+    {
+      "sourceFeatureId": "GPlates-18bd86e2-973a-48ad-a21a-96c0bf281c06",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Mirovoi Ocean Plate",
+      "pid": 9804,
+      "validTime": {
+        "youngerMa": 987.1,
+        "olderMa": 988.0
+      },
+      "lifetimeMyr": 0.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "1000-410_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 987.55
+    },
+    {
+      "sourceFeatureId": "GPlates-adab2737-46a8-4b1d-963a-36846324d6fc",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "Tarim",
+      "pid": 580,
+      "validTime": {
+        "youngerMa": 987.1,
+        "olderMa": 988.0
+      },
+      "lifetimeMyr": 0.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "1000-410_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 5.0,
+      "suggestedRepresentativeAgeMa": 987.55
+    },
+    {
+      "sourceFeatureId": "GPlates-d86005b9-8180-4915-a1e3-cf747793b5a2",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "",
+      "pid": 701,
+      "validTime": {
+        "youngerMa": 1030.1,
+        "olderMa": 1035.0
+      },
+      "lifetimeMyr": 4.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "1800-1000_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 10.0,
+      "suggestedRepresentativeAgeMa": 1032.55
+    },
+    {
+      "sourceFeatureId": "GPlates-c43d2ed0-7637-4e5d-af7f-077a646a320d",
+      "type": "gpml:MidOceanRidge",
+      "name": "MOR",
+      "pid": 0,
+      "validTime": {
+        "youngerMa": 1050.1,
+        "olderMa": 1055.0
+      },
+      "lifetimeMyr": 4.9,
+      "topologicalGeometry": false,
+      "sourceFiles": [
+        "1800-1000_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 10.0,
+      "suggestedRepresentativeAgeMa": 1052.55
+    },
+    {
+      "sourceFeatureId": "GPlates-3fbe63a0-3c16-40b6-8737-be316dbc4fb7",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "",
+      "pid": 801,
+      "validTime": {
+        "youngerMa": 1050.1,
+        "olderMa": 1055.0
+      },
+      "lifetimeMyr": 4.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "1800-1000_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 10.0,
+      "suggestedRepresentativeAgeMa": 1052.55
+    },
+    {
+      "sourceFeatureId": "GPlates-cb164dc0-3c3e-4593-92fb-14e02dd0cc95",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "",
+      "pid": 701,
+      "validTime": {
+        "youngerMa": 1050.1,
+        "olderMa": 1055.0
+      },
+      "lifetimeMyr": 4.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "1800-1000_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 10.0,
+      "suggestedRepresentativeAgeMa": 1052.55
+    },
+    {
+      "sourceFeatureId": "GPlates-7497a99d-2667-4497-b0da-52b8e781df36",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "",
+      "pid": 801,
+      "validTime": {
+        "youngerMa": 1080.1,
+        "olderMa": 1085.0
+      },
+      "lifetimeMyr": 4.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "1800-1000_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 10.0,
+      "suggestedRepresentativeAgeMa": 1082.55
+    },
+    {
+      "sourceFeatureId": "GPlates-0126164d-6e2a-47e9-b4cf-a46562654dd6",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "",
+      "pid": 801,
+      "validTime": {
+        "youngerMa": 1100.1,
+        "olderMa": 1105.0
+      },
+      "lifetimeMyr": 4.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "1800-1000_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 10.0,
+      "suggestedRepresentativeAgeMa": 1102.55
+    },
+    {
+      "sourceFeatureId": "GPlates-1db61580-f6b3-4832-b500-c352763e0814",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "",
+      "pid": 101,
+      "validTime": {
+        "youngerMa": 1235.1,
+        "olderMa": 1236.0
+      },
+      "lifetimeMyr": 0.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "1800-1000_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 10.0,
+      "suggestedRepresentativeAgeMa": 1235.55
+    },
+    {
+      "sourceFeatureId": "GPlates-01f2c8c7-25b9-48d0-a3b4-671c37bee2d4",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "",
+      "pid": 201,
+      "validTime": {
+        "youngerMa": 1480.1,
+        "olderMa": 1485.0
+      },
+      "lifetimeMyr": 4.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "1800-1000_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 10.0,
+      "suggestedRepresentativeAgeMa": 1482.55
+    },
+    {
+      "sourceFeatureId": "GPlates-10d20ef2-90ea-4f61-8501-9c5377e95f1a",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "",
+      "pid": 911001,
+      "validTime": {
+        "youngerMa": 1480.1,
+        "olderMa": 1485.0
+      },
+      "lifetimeMyr": 4.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "1800-1000_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 10.0,
+      "suggestedRepresentativeAgeMa": 1482.55
+    },
+    {
+      "sourceFeatureId": "GPlates-a24514ef-da5c-44bb-a7cf-69f1765ab533",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "",
+      "pid": 911001,
+      "validTime": {
+        "youngerMa": 1500.1,
+        "olderMa": 1506.0
+      },
+      "lifetimeMyr": 5.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "1800-1000_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 10.0,
+      "suggestedRepresentativeAgeMa": 1503.05
+    },
+    {
+      "sourceFeatureId": "GPlates-44fff340-2cf0-4821-950e-ff9b9c43085d",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "",
+      "pid": 701,
+      "validTime": {
+        "youngerMa": 1720.1,
+        "olderMa": 1725.0
+      },
+      "lifetimeMyr": 4.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "1800-1000_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 10.0,
+      "suggestedRepresentativeAgeMa": 1722.55
+    },
+    {
+      "sourceFeatureId": "GPlates-3ce25083-43d0-4151-af7b-c2e6c0abd8cb",
+      "type": "gpml:TopologicalClosedPlateBoundary",
+      "name": "",
+      "pid": 701,
+      "validTime": {
+        "youngerMa": 1750.1,
+        "olderMa": 1755.0
+      },
+      "lifetimeMyr": 4.9,
+      "topologicalGeometry": true,
+      "sourceFiles": [
+        "1800-1000_plate_boundaries.gpml"
+      ],
+      "defaultStepMa": 10.0,
+      "suggestedRepresentativeAgeMa": 1752.55
+    }
+  ],
+  "publishedRepresentativeAgeCount": 162,
+  "publishedRepresentativeAgesMa": [
+    55.45,
+    55.5,
+    110.45,
+    110.75,
+    120.25,
+    126.4,
+    126.55,
+    130.5,
+    131.45,
+    131.5,
+    134.45,
+    139.35,
+    140.25,
+    150.25,
+    250.55,
+    251.05,
+    252.05,
+    252.55,
+    253.55,
+    255.55,
+    256.05,
+    257.05,
+    257.55,
+    257.6,
+    258.05,
+    266.05,
+    267.05,
+    267.55,
+    268.05,
+    270.55,
+    271.55,
+    272.05,
+    272.55,
+    281.05,
+    281.55,
+    296.55,
+    301.05,
+    301.55,
+    306.05,
+    307.55,
+    310.55,
+    311.55,
+    312.05,
+    313.05,
+    315.55,
+    316.05,
+    316.55,
+    317.05,
+    317.55,
+    318.55,
+    320.55,
+    321.05,
+    322.05,
+    322.55,
+    325.55,
+    326.05,
+    326.55,
+    327.05,
+    331.05,
+    332.05,
+    337.05,
+    337.55,
+    338.05,
+    340.55,
+    341.05,
+    342.05,
+    345.55,
+    346.55,
+    347.55,
+    348.55,
+    351.55,
+    352.05,
+    357.05,
+    358.05,
+    358.55,
+    362.05,
+    367.05,
+    371.05,
+    371.55,
+    372.05,
+    376.05,
+    378.05,
+    378.55,
+    381.05,
+    381.55,
+    381.6,
+    382.55,
+    383.55,
+    386.05,
+    386.55,
+    387.05,
+    387.55,
+    388.55,
+    391.05,
+    391.55,
+    392.55,
+    393.55,
+    397.05,
+    401.55,
+    411.55,
+    412.05,
+    416.55,
+    426.55,
+    430.55,
+    433.55,
+    440.55,
+    441.55,
+    446.05,
+    447.05,
+    451.05,
+    451.55,
+    456.55,
+    460.55,
+    461.55,
+    462.05,
+    466.05,
+    470.55,
+    471.05,
+    481.05,
+    491.55,
+    530.55,
+    531.05,
+    532.05,
+    556.05,
+    571.05,
+    576.05,
+    586.55,
+    587.05,
+    588.55,
+    592.05,
+    600.55,
+    601.55,
+    616.05,
+    622.05,
+    680.55,
+    681.55,
+    688.05,
+    690.55,
+    701.55,
+    756.05,
+    760.55,
+    761.55,
+    763.05,
+    766.55,
+    771.55,
+    772.55,
+    776.05,
+    776.55,
+    781.05,
+    786.05,
+    786.55,
+    837.05,
+    987.55,
+    1032.55,
+    1052.55,
+    1082.55,
+    1102.55,
+    1235.55,
+    1482.55,
+    1503.05,
+    1722.55,
+    1752.55
+  ]
+}

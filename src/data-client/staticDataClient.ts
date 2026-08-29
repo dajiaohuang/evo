@@ -12,6 +12,8 @@ import type {
   RuntimeEntityLinkageCoverage,
   RuntimeFile,
   RuntimeMapManifest,
+  RuntimeMapFrame,
+  RuntimeMapFrameSelection,
   RuntimeMapSnapshot,
   RuntimePackageManifest,
   RuntimePackageRegistry,
@@ -22,6 +24,9 @@ const dataRoot = `${import.meta.env.BASE_URL}data/`.replace(/\/+/g, '/')
 const jsonCache = new Map<string, unknown>()
 const inFlight = new Map<string, Promise<unknown>>()
 const loadedPackageSearch = new Map<string, RuntimeSearchEntry[]>()
+const mapJsonCache = new Map<string, unknown>()
+const mapInFlight = new Map<string, Promise<unknown>>()
+const MAP_CACHE_LIMIT = 18
 let worker: Worker | null = null
 let requestId = 0
 const workerRequests = new Map<number, { resolve: (data: unknown) => void; reject: (error: Error) => void }>()
@@ -123,6 +128,33 @@ export async function loadRuntimeFile<T>(file: RuntimeFile): Promise<T> {
     throw error
   })
   inFlight.set(key, request)
+  return request
+}
+
+async function loadMapRuntimeFile<T>(file: RuntimeFile): Promise<T> {
+  const key = cacheKey(file)
+  const cached = mapJsonCache.get(key)
+  if (cached !== undefined) {
+    mapJsonCache.delete(key)
+    mapJsonCache.set(key, cached)
+    return cached as T
+  }
+  const pending = mapInFlight.get(key)
+  if (pending) return pending as Promise<T>
+  const request = loadWithWorker<T>(file).then((data) => {
+    mapInFlight.delete(key)
+    mapJsonCache.set(key, data)
+    while (mapJsonCache.size > MAP_CACHE_LIMIT) {
+      const oldest = mapJsonCache.keys().next().value
+      if (oldest === undefined) break
+      mapJsonCache.delete(oldest)
+    }
+    return data
+  }, (error) => {
+    mapInFlight.delete(key)
+    throw error
+  })
+  mapInFlight.set(key, request)
   return request
 }
 
@@ -356,6 +388,54 @@ export async function loadPaleogeographyLayer(
   return loadRuntimeFile<import('../types').PaleogeographyFeatureCollection>(file)
 }
 
+export function resolvePaleogeographyFrame(
+  manifest: RuntimeMapManifest,
+  requestedAgeMa: number,
+  layerId: import('../types').PaleogeographyLayerId,
+): RuntimeMapFrameSelection | null {
+  const range = manifest.ageRangeMa
+  const frames = manifest.layers?.[layerId]?.frames
+  if (!range || !frames?.length || !Number.isFinite(requestedAgeMa)) return null
+  if (requestedAgeMa < range.youngest || requestedAgeMa > range.oldest) return null
+
+  let low = 0
+  let high = frames.length
+  while (low < high) {
+    const middle = (low + high) >>> 1
+    if (frames[middle].ageMa < requestedAgeMa) low = middle + 1
+    else high = middle
+  }
+  const older = frames[low]
+  const younger = low > 0 ? frames[low - 1] : undefined
+  let frame: RuntimeMapFrame
+  if (!younger) frame = older
+  else if (!older) frame = younger
+  else frame = requestedAgeMa - younger.ageMa <= older.ageMa - requestedAgeMa ? younger : older
+  if (!frame) return null
+  return {
+    layerId,
+    requestedAgeMa,
+    selectedAgeMa: frame.ageMa,
+    deltaMa: Math.abs(frame.ageMa - requestedAgeMa),
+    frame,
+  }
+}
+
+export async function loadPaleogeographyLayerAtAge(
+  requestedAgeMa: number,
+  layerId: import('../types').PaleogeographyLayerId,
+): Promise<{
+  manifest: RuntimeMapManifest
+  selection: RuntimeMapFrameSelection
+  collection: import('../types').PaleogeographyFeatureCollection
+} | null> {
+  const manifest = await loadMapManifest()
+  const selection = resolvePaleogeographyFrame(manifest, requestedAgeMa, layerId)
+  if (!selection) return null
+  const collection = await loadMapRuntimeFile<import('../types').PaleogeographyFeatureCollection>(selection.frame)
+  return { manifest, selection, collection }
+}
+
 /** Compatibility loader for callers that require the three default map layers. */
 export async function loadPaleogeography(period: string): Promise<{
   manifest: RuntimeMapManifest
@@ -397,5 +477,7 @@ export function runtimeDataUrl(relativeUrl: string): string {
 export function clearRuntimeMemoryCache(): void {
   jsonCache.clear()
   inFlight.clear()
+  mapJsonCache.clear()
+  mapInFlight.clear()
   loadedPackageSearch.clear()
 }

@@ -146,9 +146,38 @@ for (const check of localizedStaticChecks) {
 releaseUrl(current.maps.manifest, 'map manifest')
 checkFile(current.maps.manifest, 'map manifest')
 const maps = readJson(current.maps.manifest.url)
+const mapLayerIds = ['coastlines', 'platePolygons', 'plateBoundaries', 'continentalPolygons', 'continentOceanBoundaries', 'staticPolygons']
+if (maps.schemaVersion >= 6) {
+  if (!Number.isFinite(maps.ageRangeMa?.youngest) || !Number.isFinite(maps.ageRangeMa?.oldest) || maps.ageRangeMa.youngest >= maps.ageRangeMa.oldest) {
+    failures.push('layer-first map manifest has an invalid supported age range')
+  }
+  if (maps.selectionPolicy?.method !== 'nearest' || maps.selectionPolicy?.tieBreak !== 'younger' || maps.selectionPolicy?.outsideRange !== 'unavailable') {
+    failures.push('layer-first map manifest has an invalid frame-selection policy')
+  }
+  for (const layerId of mapLayerIds) {
+    const layer = maps.layers?.[layerId]
+    if (!layer?.role || !layer.cadenceBands?.length || !layer.frames?.length) {
+      failures.push(`layer-first map manifest has no published frames for ${layerId}`)
+      continue
+    }
+    let previousAgeMa = Number.NEGATIVE_INFINITY
+    for (const frame of layer.frames) {
+      const label = `${layerId} ${frame.ageMa} Ma map frame`
+      if (!Number.isFinite(frame.ageMa) || frame.ageMa <= previousAgeMa) failures.push(`${label}: frame ages are not unique and sorted`)
+      previousAgeMa = frame.ageMa
+      if (!Number.isInteger(frame.featureCount) || frame.featureCount < 0) failures.push(`${label}: feature count is invalid`)
+      releaseUrl(frame, label)
+      checkFile(frame, label)
+      if (frame.url && existsSync(join(dataRoot, frame.url)) && !frame.url.endsWith('.json.gz')) failures.push(`${label}: canonical frame is not gzip JSON`)
+      else if (frame.url && existsSync(join(dataRoot, frame.url))) {
+        try { readGzipJson(frame.url) } catch (error) { failures.push(`${label}: cannot parse gzip JSON (${error.message})`) }
+      }
+    }
+  }
+}
 for (const snapshot of maps.snapshots) {
   if (snapshot.status !== 'available') continue
-  for (const layerId of ['coastlines', 'platePolygons', 'plateBoundaries', 'continentalPolygons', 'continentOceanBoundaries', 'staticPolygons']) {
+  for (const layerId of mapLayerIds) {
     const layer = snapshot.layers?.[layerId]
     if (!layer?.url || !layer?.sha256) {
       failures.push(`${snapshot.period}: available map has no checksum-addressed ${layerId} layer`)
