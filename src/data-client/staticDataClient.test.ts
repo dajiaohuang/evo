@@ -1,5 +1,5 @@
 import { afterEach, describe, expect, it, vi } from 'vitest'
-import type { CatalogueHierarchyChildRecord, CatalogueHierarchyNodeRecord, CatalogueSourceChecklist, RuntimeMapManifest, RuntimeMapSnapshot } from './types'
+import type { CatalogueHierarchyChildRecord, CatalogueHierarchyNodeRecord, CatalogueSourceChecklist, CatalogueSpeciesOwnership, RuntimeMapManifest, RuntimeMapSnapshot } from './types'
 
 function responseFor(value: unknown) {
   const bytes = new TextEncoder().encode(JSON.stringify(value))
@@ -325,6 +325,24 @@ describe('static runtime release coherence', () => {
       { id: 'middle' },
       { id: 'leaf' },
     ])
+  })
+
+  it('resolves exact release-scoped ancestors to one resource package by explicit priority', async () => {
+    const ownership = {
+      entries: [
+        { id: 'broad', kind: 'catalogue-only', title: 'Broad', titleZh: '广义', acceptedSpeciesCount: 10, browseRootIds: ['root'] },
+        { id: 'specific', kind: 'static-package', title: 'Specific', titleZh: '具体', acceptedSpeciesCount: 4, browseRootIds: ['order'] },
+      ],
+      routes: [
+        { priority: 2, packageId: 'broad', kind: 'catalogue-only', ancestorIds: ['root'], browseRoots: [], matchedSpecies: 10 },
+        { priority: 1, packageId: 'specific', kind: 'static-package', ancestorIds: ['order'], browseRoots: [], matchedSpecies: 4 },
+      ],
+    } as unknown as CatalogueSpeciesOwnership
+    const { resolveCatalogueSpeciesOwner } = await import('./staticDataClient')
+
+    expect(resolveCatalogueSpeciesOwner([{ id: 'root' }, { id: 'order' }, { id: 'species' }], ownership)?.entry.id).toBe('specific')
+    expect(resolveCatalogueSpeciesOwner([{ id: 'root' }, { id: 'species' }], ownership)?.entry.id).toBe('broad')
+    expect(resolveCatalogueSpeciesOwner([{ id: 'unknown' }], ownership)).toBeNull()
   })
 
   it('reports missing parents, cycles, and depth exhaustion distinctly', async () => {

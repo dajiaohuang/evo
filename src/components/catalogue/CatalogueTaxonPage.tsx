@@ -4,12 +4,15 @@ import {
   loadCatalogueHierarchyNode,
   loadCatalogueLineage,
   loadCatalogueManifest,
+  loadCatalogueSpeciesOwnership,
   loadCatalogueSourceChecklists,
+  resolveCatalogueSpeciesOwner,
 } from '../../data-client/staticDataClient'
 import type {
   CatalogueHierarchyChildRecord,
   CatalogueHierarchyNodeRecord,
   CatalogueRuntimeManifest,
+  CatalogueSpeciesOwnership,
 } from '../../data-client/types'
 import type { AppRoute } from '../../utils/routing'
 import { useI18n } from '../../i18n'
@@ -43,6 +46,8 @@ function CatalogueTaxonRecord({ release, id, onNavigate }: CatalogueTaxonPagePro
   const [lineageStatus, setLineageStatus] = useState<SectionStatus>('idle')
   const [children, setChildren] = useState<CatalogueHierarchyChildRecord[]>([])
   const [childrenStatus, setChildrenStatus] = useState<SectionStatus>('idle')
+  const [ownership, setOwnership] = useState<CatalogueSpeciesOwnership | null>(null)
+  const [ownershipStatus, setOwnershipStatus] = useState<SectionStatus>('idle')
   const [sources, setSources] = useState<Awaited<ReturnType<typeof loadCatalogueSourceChecklists>>>([])
   const [sourcesStatus, setSourcesStatus] = useState<SectionStatus>('idle')
   const [childFilter, setChildFilter] = useState('')
@@ -87,6 +92,14 @@ function CatalogueTaxonRecord({ release, id, onNavigate }: CatalogueTaxonPagePro
         }
       }).catch(() => { if (!cancelled) setChildrenStatus('error') })
 
+      setOwnershipStatus('loading')
+      void loadCatalogueSpeciesOwnership().then((record) => {
+        if (!cancelled) {
+          setOwnership(record)
+          setOwnershipStatus('ready')
+        }
+      }).catch(() => { if (!cancelled) setOwnershipStatus('error') })
+
       setSourcesStatus('loading')
       void loadCatalogueSourceChecklists().then((records) => {
         if (!cancelled) {
@@ -114,6 +127,10 @@ function CatalogueTaxonRecord({ release, id, onNavigate }: CatalogueTaxonPagePro
   const upstreamUrl = node && manifest
     ? manifest.upstreamTaxonUrlTemplate.replace('{id}', encodeURIComponent(node.id))
     : null
+  const speciesOwner = useMemo(() => {
+    if (!node || node.rank !== 'species' || node.status !== 'accepted' || !ownership || lineageStatus !== 'ready') return null
+    return resolveCatalogueSpeciesOwner(lineage, ownership)
+  }, [lineage, lineageStatus, node, ownership])
   const number = (value: number) => value.toLocaleString(zh ? 'zh-CN' : 'en-US')
 
   if (status !== 'ready' || !node || !manifest) {
@@ -207,8 +224,38 @@ function CatalogueTaxonRecord({ release, id, onNavigate }: CatalogueTaxonPagePro
         </article>
 
         <aside className="catalogue-source-panel">
+          <section className="catalogue-ownership-section">
+            <span>02</span><h2>{zh ? '唯一资源归属' : 'Exclusive resource ownership'}</h2>
+            {node.rank !== 'species' || node.status !== 'accepted' ? (
+              <p>{zh ? '唯一归属投影只覆盖严格 accepted 的物种记录；高阶分类单元用于浏览，其后代可以分属多个资源分区。' : 'Exclusive ownership applies only to strict accepted species records. Higher taxa support browsing, and their descendants may belong to several resource partitions.'}</p>
+            ) : ownershipStatus === 'loading' || lineageStatus === 'loading' ? (
+              <p>{zh ? '正在解析本发布版父链归属…' : 'Resolving ownership from the pinned release lineage…'}</p>
+            ) : ownershipStatus === 'error' || lineageStatus === 'error' ? (
+              <p className="catalogue-inline-error">{zh ? '资源归属或父链读取失败；当前分类记录仍可使用。' : 'Ownership or lineage could not be loaded; this taxon record remains available.'}</p>
+            ) : speciesOwner && ownership ? (
+              <div className={`catalogue-owner-card catalogue-owner-card--${speciesOwner.entry.kind}`}>
+                <div className="catalogue-owner-card__heading">
+                  <strong>{zh ? speciesOwner.entry.titleZh : speciesOwner.entry.title}</strong>
+                  <span>{speciesOwner.entry.kind === 'static-package' ? (zh ? '静态资源包' : 'Static package') : (zh ? '仅目录分区' : 'Catalogue-only')}</span>
+                </div>
+                <code>{speciesOwner.entry.id}</code>
+                <dl>
+                  <div><dt>{zh ? '本分区严格 accepted' : 'Strict accepted in partition'}</dt><dd>{number(speciesOwner.entry.acceptedSpeciesCount)}</dd></div>
+                  <div><dt>{zh ? '发布版严格 accepted 总数' : 'Release strict accepted total'}</dt><dd>{number(ownership.source.acceptedSpecies)}</dd></div>
+                  <div><dt>{zh ? '分类发布版' : 'Taxonomic release'}</dt><dd>{ownership.source.releaseAlias} · {ownership.source.releaseDate}</dd></div>
+                  <div><dt>{zh ? '归属规则' : 'Ownership route'}</dt><dd>#{speciesOwner.route.priority}</dd></div>
+                </dl>
+                {speciesOwner.route.browseRoots.some((root) => lineage.some((ancestor) => ancestor.id === root.id)) && <p className="catalogue-owner-roots">{zh ? '命中父链：' : 'Matched lineage: '}{speciesOwner.route.browseRoots.filter((root) => lineage.some((ancestor) => ancestor.id === root.id)).map((root) => root.scientificName).join(' · ')}</p>}
+                {(speciesOwner.entry.scope || speciesOwner.entry.scopeZh) && <p className="catalogue-owner-scope">{zh ? speciesOwner.entry.scopeZh ?? speciesOwner.entry.scope : speciesOwner.entry.scope ?? speciesOwner.entry.scopeZh}</p>}
+                {(speciesOwner.entry.disclaimer || speciesOwner.entry.disclaimerZh) && <p className="catalogue-owner-scope">{zh ? speciesOwner.entry.disclaimerZh ?? speciesOwner.entry.disclaimer : speciesOwner.entry.disclaimer ?? speciesOwner.entry.disclaimerZh}</p>}
+                <p className="catalogue-owner-disclaimer">{zh ? '目录归属只覆盖本发布版名称与分类位置，不等于 Evo Atlas 专档、证据、媒体、化石、生态、翻译或专家评审已经成熟。' : 'Catalogue ownership covers release-scoped names and placement only. It does not imply an Evo Atlas dossier, evidence, media, fossil, ecology, translation, or expert-review maturity.'}</p>
+              </div>
+            ) : (
+              <p className="catalogue-inline-error">{zh ? '此严格 accepted 物种没有解析出唯一资源归属。' : 'No exclusive resource owner resolved for this strict accepted species.'}</p>
+            )}
+          </section>
           <section>
-            <span>02</span><h2>{zh ? '来源清单' : 'Source checklist'}</h2>
+            <span>03</span><h2>{zh ? '来源清单' : 'Source checklist'}</h2>
             {!node.sourceDatasetId && <p>{zh ? '上游记录未提供 datasetID；这是源数据缺失，不是应用错误。' : 'The upstream record has no datasetID. This is missing source linkage, not an application error.'}</p>}
             {node.sourceDatasetId && sourcesStatus === 'loading' && <p>{zh ? '正在读取来源清单…' : 'Loading source checklists…'}</p>}
             {node.sourceDatasetId && sourcesStatus === 'error' && <p className="catalogue-inline-error">{zh ? '来源清单读取失败；精确分类记录仍可使用。' : 'Source checklists failed to load; the exact taxon record remains available.'}</p>}
@@ -221,7 +268,7 @@ function CatalogueTaxonRecord({ release, id, onNavigate }: CatalogueTaxonPagePro
             {node.sourceDatasetId && sourcesStatus === 'ready' && !source && <p>{zh ? `来源 datasetID ${node.sourceDatasetId} 未列入本版来源清单。` : `Source datasetID ${node.sourceDatasetId} is not listed in this release's source checklist file.`}</p>}
           </section>
           <section>
-            <span>03</span><h2>{zh ? '证据边界' : 'Evidence boundary'}</h2>
+            <span>04</span><h2>{zh ? '证据边界' : 'Evidence boundary'}</h2>
             <p>{zh ? '这是命名与分类登记记录，不是 Evo Atlas 内容档案；它不主张化石、形态、地理分布或系统发育证据已经整理。' : 'This is a nomenclatural and classification registry record, not an Evo Atlas dossier. It does not claim curated fossil, morphology, range, or phylogenetic evidence.'}</p>
             <dl>
               <div><dt>{zh ? '层级范围' : 'Hierarchy scope'}</dt><dd>{number(manifest.hierarchy.counts.nodes)} {zh ? '节点' : 'nodes'}</dd></div>

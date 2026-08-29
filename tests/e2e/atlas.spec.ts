@@ -53,6 +53,10 @@ test('global search lazily resolves accepted Catalogue of Life species without c
   await result.click()
   await expect(page).toHaveURL(/#\/registry\?release=COL26\.8&id=6MB3T$/)
   await expect(page.getByRole('heading', { name: /Homo sapiens/ })).toBeVisible()
+  await expect(page.getByRole('heading', { name: 'Exclusive resource ownership' })).toBeVisible()
+  await expect(page.locator('.catalogue-owner-card')).toContainText('Primates')
+  await expect(page.locator('.catalogue-owner-card')).toContainText('530')
+  await expect(page.locator('.catalogue-owner-card')).toContainText('does not imply an Evo Atlas dossier')
   await expect(page.getByRole('link', { name: /Verify the upstream record/ })).toHaveAttribute('href', /checklistbank\.org\/dataset\/316115\/taxon\/6MB3T$/)
 
   await page.goto('./#/catalog')
@@ -143,7 +147,7 @@ test('Explorer restores state and removes the unsupported global model parameter
   await expect(page.getByRole('button', { name: 'points' })).toHaveClass(/is-active/)
   await expect(page.getByRole('button', { name: 'modern' })).toHaveClass(/is-active/)
   await expect(page.getByText('Shared time window 20–5 Ma')).toBeVisible()
-    await expect.poll(() => page.url()).toContain('dataset=2026.08-static-v5-rc9')
+    await expect.poll(() => page.url()).toContain('dataset=2026.08-static-v5-rc10')
   for (const fragment of ['older=20', 'younger=5', 'lat=10.000', 'lng=20.000', 'zoom=3.00', 'treeMode=fossil-range']) {
     expect(page.url()).toContain(fragment)
   }
@@ -156,7 +160,7 @@ test('Explorer requires confirmation before replacing a mismatched dataset versi
   await expect(page.getByRole('alertdialog')).toContainText('2025.01-old')
   expect(page.url()).toContain('dataset=2025.01-old')
   await page.getByRole('button', { name: 'Use current dataset' }).click()
-    await expect.poll(() => page.url()).toContain('dataset=2026.08-static-v5-rc9')
+    await expect.poll(() => page.url()).toContain('dataset=2026.08-static-v5-rc10')
 })
 
 test('a service-worker upgrade removes dataset A caches and dataset B remains coherent', async ({ page }) => {
@@ -176,6 +180,10 @@ test('a service-worker upgrade removes dataset A caches and dataset B remains co
 
   await page.goto('./#/data')
   await expect(page.locator('.package-row')).toHaveCount(25)
+  await expect(page.getByRole('heading', { name: 'One species, one resource partition' })).toBeVisible()
+  await expect(page.locator('.ownership-row')).toHaveCount(33)
+  await expect(page.locator('.ownership-summary')).toContainText('2,183,133')
+  await expect(page.locator('.ownership-proof')).toContainText('0 unmatched')
   const releaseState = await page.evaluate(async () => {
     const current = await fetch('/evo/data/current.json', { cache: 'no-store' }).then((response) => response.json()) as {
       datasetVersion: string
@@ -187,7 +195,7 @@ test('a service-worker upgrade removes dataset A caches and dataset B remains co
     const versions = await Promise.all(manifestFiles.map((file) => fetch(`/evo/data/${file.url}`).then((response) => response.json()).then((manifest) => manifest.version as string)))
     return { datasetVersion: current.datasetVersion, releaseBase: current.releaseBase, urls: manifestFiles.map((file) => file.url), versions, retained: history.releases.map((entry) => entry.datasetVersion) }
   })
-    expect(releaseState.releaseBase).toBe('releases/2026.08-static-v5-rc9/')
+    expect(releaseState.releaseBase).toBe('releases/2026.08-static-v5-rc10/')
   expect(releaseState.urls.every((url) => url.startsWith(releaseState.releaseBase))).toBe(true)
   expect(releaseState.versions.every((version) => version === releaseState.datasetVersion)).toBe(true)
   expect(releaseState.retained[0]).toBe(releaseState.datasetVersion)

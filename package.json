@@ -1,7 +1,7 @@
 {
   "name": "evo",
   "private": true,
-  "version": "0.16.0",
+  "version": "0.17.0",
   "type": "module",
   "scripts": {
     "predev": "npm run data:stage",
@@ -23,6 +23,7 @@
     "v1:gate": "node scripts/check-v1-readiness.mjs --strict",
     "data:registry:build": "node scripts/build-entity-registry.mjs",
     "data:col:build": "node scripts/build-col-registry.mjs",
+    "data:packages:species": "node scripts/build-package-species-coverage.mjs",
     "data:registry:check": "node scripts/check-entity-registry.mjs",
     "data:taxonomy:reconcile": "node scripts/reconcile-pbdb-taxa.mjs",
     "data:timescale:sync": "node scripts/sync-ics-time-scale.mjs",

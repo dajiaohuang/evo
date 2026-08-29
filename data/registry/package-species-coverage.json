@@ -1,0 +1,1076 @@
+{
+  "schemaVersion": 1,
+  "projectionType": "exclusive-package-ownership-for-strictly-accepted-species",
+  "source": {
+    "releaseAlias": "COL26.8",
+    "releaseDate": "2026-08-20",
+    "checklistBankDatasetKey": 316115,
+    "acceptedSpecies": 2183133,
+    "strictPredicate": "rank=species AND status=accepted",
+    "manifestPath": "data/catalogue-of-life/releases/2026-08-20/registry/manifest.json",
+    "manifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151"
+  },
+  "packageRegistry": {
+    "schemaVersion": 5,
+    "datasetPackageVersion": "2026.08-static-v5-rc10",
+    "definitionsPath": "scripts/package-definitions.mjs",
+    "definitionsSha256": "5466389123d3a29c989b65eb7d094acf2c48bde364ea8eeadb63e8ae00c17a6f",
+    "packageCount": 24
+  },
+  "ownershipPolicy": {
+    "semantics": "Walk the release-scoped CoL parent lineage, collect exact ancestor-ID rules, and choose the lowest numeric priority.",
+    "cardinality": "Exactly one package owner is selected for every strict accepted species.",
+    "overlapResolution": "Most-specific teaching routes are ordered before broad clade routes; the first matching route wins.",
+    "catchAll": "The four exact CoL roots and their exact kingdom descendants are catalogue-only routes; no unrelated species are assigned to atlas-core.",
+    "runtimeInput": "The existing CoL hierarchy/lineage; no per-species ownership table is materialized.",
+    "disclaimer": "Package ownership is a deterministic navigation assignment within the pinned COL26.8 strict accepted-species snapshot. It is not a taxonomic endorsement, evidence of monophyly, a dossier-maturity claim, or a claim that known biodiversity is complete.",
+    "disclaimerZh": "内容包归属仅是固定 COL26.8 严格接受种快照内的确定性导航分配；不构成分类学背书、单系性证据、物种档案成熟度声明，也不表示已知生物多样性已完整收录。"
+  },
+  "entries": [
+    {
+      "id": "atlas-core",
+      "kind": "static-package",
+      "title": "Atlas Core Navigation",
+      "titleZh": "图谱核心导航",
+      "acceptedSpeciesCount": 0,
+      "browseRootIds": [],
+      "zeroAssignmentReason": "Navigation/core package; no species-bearing CoL clade is assigned to it."
+    },
+    {
+      "id": "early-land-plants",
+      "kind": "static-package",
+      "title": "Early Land Plants, Lycophytes and Ferns",
+      "titleZh": "早期陆生植物、石松类与蕨类",
+      "acceptedSpeciesCount": 33770,
+      "browseRootIds": [
+        "9J9G3",
+        "9JHQ8",
+        "BJ5TM",
+        "GV",
+        "LYC"
+      ]
+    },
+    {
+      "id": "gymnosperms",
+      "kind": "static-package",
+      "title": "Gymnosperms",
+      "titleZh": "裸子植物",
+      "acceptedSpeciesCount": 1599,
+      "browseRootIds": [
+        "BT",
+        "C7ZVJ",
+        "CGVH9"
+      ]
+    },
+    {
+      "id": "angiospermae",
+      "kind": "static-package",
+      "title": "Angiosperms and Grasses",
+      "titleZh": "被子植物与禾草",
+      "acceptedSpeciesCount": 352619,
+      "browseRootIds": [
+        "L2L",
+        "MG"
+      ]
+    },
+    {
+      "id": "sponges-cnidarians",
+      "kind": "static-package",
+      "title": "Sponges and Cnidarians",
+      "titleZh": "海绵与刺胞动物",
+      "acceptedSpeciesCount": 30521,
+      "browseRootIds": [
+        "B8TXQ",
+        "CN2"
+      ]
+    },
+    {
+      "id": "molluscs-brachiopods",
+      "kind": "static-package",
+      "title": "Molluscs, Brachiopods and Graptolites (teaching collection)",
+      "titleZh": "软体动物、腕足动物与笔石（教学集合）",
+      "acceptedSpeciesCount": 159801,
+      "browseRootIds": [
+        "B8V3K",
+        "KZ",
+        "M2L"
+      ]
+    },
+    {
+      "id": "trilobites-chelicerates",
+      "kind": "static-package",
+      "title": "Trilobites and Chelicerates",
+      "titleZh": "三叶虫与螯肢动物",
+      "acceptedSpeciesCount": 104126,
+      "browseRootIds": [
+        "KZWYC",
+        "TRL"
+      ]
+    },
+    {
+      "id": "crustaceans-insects",
+      "kind": "static-package",
+      "title": "Crustaceans, Insects and Myriapod Context",
+      "titleZh": "甲壳类、昆虫与多足类背景",
+      "acceptedSpeciesCount": 1049133,
+      "browseRootIds": [
+        "H6",
+        "KZX8B",
+        "L2655",
+        "L2G4H",
+        "RT"
+      ]
+    },
+    {
+      "id": "echinoderms",
+      "kind": "static-package",
+      "title": "Echinoderms",
+      "titleZh": "棘皮动物",
+      "acceptedSpeciesCount": 11891,
+      "browseRootIds": [
+        "CHN"
+      ]
+    },
+    {
+      "id": "early-fishes",
+      "kind": "static-package",
+      "title": "Jawless and Early Jawed Fishes",
+      "titleZh": "无颌类与早期有颌鱼类",
+      "acceptedSpeciesCount": 141,
+      "browseRootIds": [
+        "6225G",
+        "KTXJW"
+      ]
+    },
+    {
+      "id": "chondrichthyes",
+      "kind": "static-package",
+      "title": "Cartilaginous Fishes",
+      "titleZh": "软骨鱼类",
+      "acceptedSpeciesCount": 1359,
+      "browseRootIds": [
+        "8X6G5"
+      ]
+    },
+    {
+      "id": "actinopterygii",
+      "kind": "static-package",
+      "title": "Ray-finned Fishes",
+      "titleZh": "辐鳍鱼类",
+      "acceptedSpeciesCount": 35928,
+      "browseRootIds": [
+        "8VR36"
+      ]
+    },
+    {
+      "id": "tetrapod-transition",
+      "kind": "static-package",
+      "title": "Sarcopterygians and the Tetrapod Transition",
+      "titleZh": "肉鳍鱼类与四足动物转型",
+      "acceptedSpeciesCount": 8,
+      "browseRootIds": [
+        "8VSMX"
+      ]
+    },
+    {
+      "id": "amphibia",
+      "kind": "static-package",
+      "title": "Amphibians",
+      "titleZh": "两栖动物",
+      "acceptedSpeciesCount": 8923,
+      "browseRootIds": [
+        "PH"
+      ]
+    },
+    {
+      "id": "mammal-origins",
+      "kind": "static-package",
+      "title": "Synapsids and Mammal Origins",
+      "titleZh": "合弓类与哺乳动物起源",
+      "acceptedSpeciesCount": 0,
+      "browseRootIds": [],
+      "zeroAssignmentReason": "Synapsida is not materialised as a reliable species-bearing node in COL26.8; extant Mammalia route to other-mammals or a specific mammal package."
+    },
+    {
+      "id": "perissodactyla",
+      "kind": "static-package",
+      "title": "Odd-toed Ungulates",
+      "titleZh": "奇蹄目",
+      "acceptedSpeciesCount": 19,
+      "browseRootIds": [
+        "623DW"
+      ]
+    },
+    {
+      "id": "cetartiodactyla",
+      "kind": "static-package",
+      "title": "Cetartiodactyl Context and Cetaceans",
+      "titleZh": "鲸偶蹄类背景与鲸类",
+      "acceptedSpeciesCount": 503,
+      "browseRootIds": [
+        "6227M",
+        "WP"
+      ]
+    },
+    {
+      "id": "primates",
+      "kind": "static-package",
+      "title": "Primates",
+      "titleZh": "灵长目",
+      "acceptedSpeciesCount": 530,
+      "browseRootIds": [
+        "3W7"
+      ]
+    },
+    {
+      "id": "carnivora",
+      "kind": "static-package",
+      "title": "Carnivorans",
+      "titleZh": "食肉目",
+      "acceptedSpeciesCount": 310,
+      "browseRootIds": [
+        "VS"
+      ]
+    },
+    {
+      "id": "other-mammals",
+      "kind": "static-package",
+      "title": "Monotremes, Marsupials and Other Placental Radiations",
+      "titleZh": "单孔类、有袋类与其他胎盘类辐射",
+      "acceptedSpeciesCount": 5099,
+      "browseRootIds": [
+        "6224G"
+      ]
+    },
+    {
+      "id": "turtles-lepidosaurs",
+      "kind": "static-package",
+      "title": "Turtles and Lepidosaurs",
+      "titleZh": "龟鳖类与鳞龙类",
+      "acceptedSpeciesCount": 12622,
+      "browseRootIds": [
+        "45C",
+        "477",
+        "RP"
+      ]
+    },
+    {
+      "id": "marine-reptiles-pterosaurs",
+      "kind": "static-package",
+      "title": "Marine Reptiles and Pterosaurs",
+      "titleZh": "海生爬行动物与翼龙",
+      "acceptedSpeciesCount": 0,
+      "browseRootIds": [],
+      "zeroAssignmentReason": "Its named roots are fossil clades without reliable species-bearing nodes in this strict accepted-species snapshot."
+    },
+    {
+      "id": "crocodylomorphs-birds",
+      "kind": "static-package",
+      "title": "Crocodylomorphs and Birds",
+      "titleZh": "鳄形类与鸟类",
+      "acceptedSpeciesCount": 11071,
+      "browseRootIds": [
+        "329",
+        "V2"
+      ]
+    },
+    {
+      "id": "dinosauria",
+      "kind": "static-package",
+      "title": "Dinosaurs",
+      "titleZh": "恐龙",
+      "acceptedSpeciesCount": 0,
+      "browseRootIds": [],
+      "zeroAssignmentReason": "Dinosauria is not materialised as a reliable species-bearing node in this strict accepted-species snapshot; Aves remain in crocodylomorphs-birds."
+    },
+    {
+      "id": "viruses",
+      "kind": "catalogue-only",
+      "title": "Viruses",
+      "titleZh": "病毒",
+      "acceptedSpeciesCount": 17552,
+      "browseRootIds": [
+        "92e52ff4-2dc6-4b35-9339-2e92035b8daf"
+      ],
+      "scope": "Strict accepted species descending from the exact COL26.8 Viruses root.",
+      "scopeZh": "固定 COL26.8 中精确 Viruses 根节点下的严格接受种。",
+      "disclaimer": "This browse scope follows the pinned Catalogue of Life treatment of virus species and does not resolve debates over whether viruses are living organisms.",
+      "disclaimerZh": "该浏览范围遵循固定版生命物种名录对病毒种的处理，不对“病毒是否属于生命”的争议作出结论。"
+    },
+    {
+      "id": "archaea",
+      "kind": "catalogue-only",
+      "title": "Archaea",
+      "titleZh": "古菌域",
+      "acceptedSpeciesCount": 790,
+      "browseRootIds": [
+        "CRLT8"
+      ],
+      "scope": "Strict accepted species descending from the exact COL26.8 Archaea domain root.",
+      "scopeZh": "固定 COL26.8 中精确古菌域根节点下的严格接受种。",
+      "disclaimer": "Counts reflect accepted names in this release, not environmental lineage diversity or uncultured archaeal diversity.",
+      "disclaimerZh": "计数反映该版本的接受学名，不代表环境谱系或未培养古菌的完整多样性。"
+    },
+    {
+      "id": "bacteria",
+      "kind": "catalogue-only",
+      "title": "Bacteria",
+      "titleZh": "细菌域",
+      "acceptedSpeciesCount": 26397,
+      "browseRootIds": [
+        "CRRY6"
+      ],
+      "scope": "Strict accepted species descending from the exact COL26.8 Bacteria domain root.",
+      "scopeZh": "固定 COL26.8 中精确细菌域根节点下的严格接受种。",
+      "disclaimer": "Counts reflect accepted names in this release, not environmental lineage diversity, metagenomic diversity or uncultured bacterial diversity.",
+      "disclaimerZh": "计数反映该版本的接受学名，不代表环境谱系、宏基因组或未培养细菌的完整多样性。"
+    },
+    {
+      "id": "fungi",
+      "kind": "catalogue-only",
+      "title": "Fungi",
+      "titleZh": "真菌界",
+      "acceptedSpeciesCount": 157044,
+      "browseRootIds": [
+        "F"
+      ],
+      "scope": "Strict accepted species descending from the exact COL26.8 Fungi kingdom root.",
+      "scopeZh": "固定 COL26.8 中精确真菌界根节点下的严格接受种。",
+      "disclaimer": "This is a catalogue browse owner, not a claim that fungal taxonomy or described fungal diversity is complete.",
+      "disclaimerZh": "这是名录浏览归属，不表示真菌分类或已描述的真菌多样性已完整。"
+    },
+    {
+      "id": "protists-chromists",
+      "kind": "catalogue-only",
+      "title": "Protists and Chromists",
+      "titleZh": "原生生物与色界生物",
+      "acceptedSpeciesCount": 61518,
+      "browseRootIds": [
+        "C",
+        "Z"
+      ],
+      "scope": "Strict accepted species descending from the exact COL26.8 Chromista or Protozoa kingdom roots.",
+      "scopeZh": "固定 COL26.8 中精确色界或原生动物界根节点下的严格接受种。",
+      "disclaimer": "The combined browse owner is operational and does not assert that Chromista and Protozoa form one clade or reflect a universally accepted kingdom system.",
+      "disclaimerZh": "该合并浏览归属只是操作性分组，不声称色界与原生动物界构成同一演化支，也不代表该界系统获得普遍接受。"
+    },
+    {
+      "id": "other-plants",
+      "kind": "catalogue-only",
+      "title": "Other Plants",
+      "titleZh": "其他植物",
+      "acceptedSpeciesCount": 698,
+      "browseRootIds": [
+        "P"
+      ],
+      "scope": "Strict accepted species below the exact COL26.8 Plantae kingdom root that are not claimed by the flowering-plant, gymnosperm or named early-land-plant routes.",
+      "scopeZh": "固定 COL26.8 中精确植物界根节点下，且未被被子植物、裸子植物或指定早期陆生植物路由接收的严格接受种。",
+      "disclaimer": "“Other” is the deterministic remainder of this release and may combine unrelated plant or algal lineages; it is not a taxonomic clade.",
+      "disclaimerZh": "“其他”是该版本的确定性余集，可能合并无直接亲缘关系的植物或藻类谱系，并非分类学演化支。"
+    },
+    {
+      "id": "other-animals",
+      "kind": "catalogue-only",
+      "title": "Other Animals",
+      "titleZh": "其他动物",
+      "acceptedSpeciesCount": 99161,
+      "browseRootIds": [
+        "N"
+      ],
+      "scope": "Strict accepted species below the exact COL26.8 Animalia kingdom root that are not claimed by a more specific static-package route.",
+      "scopeZh": "固定 COL26.8 中精确动物界根节点下，且未被更具体静态内容包路由接收的严格接受种。",
+      "disclaimer": "“Other” is the deterministic remainder of this release and combines many unrelated animal phyla; it is not a taxonomic clade.",
+      "disclaimerZh": "“其他”是该版本的确定性余集，合并了多个无直接亲缘关系的动物门，并非分类学演化支。"
+    },
+    {
+      "id": "other-eukaryotes",
+      "kind": "catalogue-only",
+      "title": "Other Eukaryotes",
+      "titleZh": "其他真核生物",
+      "acceptedSpeciesCount": 0,
+      "browseRootIds": [
+        "CS5HF"
+      ],
+      "scope": "Strict accepted species below the exact COL26.8 Eukaryota domain root that remain after the five exact kingdom routes.",
+      "scopeZh": "固定 COL26.8 中精确真核生物域根节点下，经五个精确界级路由后仍未分配的严格接受种。",
+      "disclaimer": "This is a release-scoped remainder owner, not a clade. It is empty in COL26.8 because the five exact kingdom routes exhaust the Eukaryota descendants.",
+      "disclaimerZh": "这是该版本范围内的余集归属，并非演化支。在 COL26.8 中，五个精确界级路由已覆盖全部真核生物后代，因此该项为空。",
+      "zeroAssignmentReason": "Every COL26.8 Eukaryota species is already below Animalia, Chromista, Fungi, Plantae or Protozoa in this snapshot."
+    }
+  ],
+  "routes": [
+    {
+      "priority": 1,
+      "packageId": "perissodactyla",
+      "kind": "static-package",
+      "ancestorIds": [
+        "623DW"
+      ],
+      "browseRoots": [
+        {
+          "id": "623DW",
+          "scientificName": "Perissodactyla Owen, 1848",
+          "rank": "order",
+          "status": "accepted"
+        }
+      ],
+      "matchedSpecies": 19
+    },
+    {
+      "priority": 2,
+      "packageId": "cetartiodactyla",
+      "kind": "static-package",
+      "ancestorIds": [
+        "6227M",
+        "WP"
+      ],
+      "browseRoots": [
+        {
+          "id": "6227M",
+          "scientificName": "Artiodactyla Owen, 1848",
+          "rank": "order",
+          "status": "accepted"
+        },
+        {
+          "id": "WP",
+          "scientificName": "Cetacea Brisson, 1762",
+          "rank": "order",
+          "status": "accepted"
+        }
+      ],
+      "matchedSpecies": 503
+    },
+    {
+      "priority": 3,
+      "packageId": "primates",
+      "kind": "static-package",
+      "ancestorIds": [
+        "3W7"
+      ],
+      "browseRoots": [
+        {
+          "id": "3W7",
+          "scientificName": "Primates Linnaeus, 1758",
+          "rank": "order",
+          "status": "accepted"
+        }
+      ],
+      "matchedSpecies": 530
+    },
+    {
+      "priority": 4,
+      "packageId": "carnivora",
+      "kind": "static-package",
+      "ancestorIds": [
+        "VS"
+      ],
+      "browseRoots": [
+        {
+          "id": "VS",
+          "scientificName": "Carnivora Bowdich, 1821",
+          "rank": "order",
+          "status": "accepted"
+        }
+      ],
+      "matchedSpecies": 310
+    },
+    {
+      "priority": 5,
+      "packageId": "crocodylomorphs-birds",
+      "kind": "static-package",
+      "ancestorIds": [
+        "329",
+        "V2"
+      ],
+      "browseRoots": [
+        {
+          "id": "329",
+          "scientificName": "Crocodylia",
+          "rank": "order",
+          "status": "accepted"
+        },
+        {
+          "id": "V2",
+          "scientificName": "Aves",
+          "rank": "class",
+          "status": "accepted"
+        }
+      ],
+      "matchedSpecies": 11071
+    },
+    {
+      "priority": 6,
+      "packageId": "turtles-lepidosaurs",
+      "kind": "static-package",
+      "ancestorIds": [
+        "45C",
+        "477",
+        "RP"
+      ],
+      "browseRoots": [
+        {
+          "id": "45C",
+          "scientificName": "Squamata Oppel, 1811",
+          "rank": "order",
+          "status": "accepted"
+        },
+        {
+          "id": "477",
+          "scientificName": "Testudines Batsch, 1788",
+          "rank": "order",
+          "status": "accepted"
+        },
+        {
+          "id": "RP",
+          "scientificName": "Reptilia Laurenti, 1768",
+          "rank": "class",
+          "status": "accepted"
+        }
+      ],
+      "matchedSpecies": 12622
+    },
+    {
+      "priority": 7,
+      "packageId": "other-mammals",
+      "kind": "static-package",
+      "ancestorIds": [
+        "6224G"
+      ],
+      "browseRoots": [
+        {
+          "id": "6224G",
+          "scientificName": "Mammalia Linnaeus, 1758",
+          "rank": "class",
+          "status": "accepted"
+        }
+      ],
+      "matchedSpecies": 5099
+    },
+    {
+      "priority": 8,
+      "packageId": "amphibia",
+      "kind": "static-package",
+      "ancestorIds": [
+        "PH"
+      ],
+      "browseRoots": [
+        {
+          "id": "PH",
+          "scientificName": "Amphibia",
+          "rank": "class",
+          "status": "accepted"
+        }
+      ],
+      "matchedSpecies": 8923
+    },
+    {
+      "priority": 9,
+      "packageId": "actinopterygii",
+      "kind": "static-package",
+      "ancestorIds": [
+        "8VR36"
+      ],
+      "browseRoots": [
+        {
+          "id": "8VR36",
+          "scientificName": "Actinopterygii",
+          "rank": "gigaclass",
+          "status": "accepted"
+        }
+      ],
+      "matchedSpecies": 35928
+    },
+    {
+      "priority": 10,
+      "packageId": "chondrichthyes",
+      "kind": "static-package",
+      "ancestorIds": [
+        "8X6G5"
+      ],
+      "browseRoots": [
+        {
+          "id": "8X6G5",
+          "scientificName": "Chondrichthyes",
+          "rank": "parvphylum",
+          "status": "accepted"
+        }
+      ],
+      "matchedSpecies": 1359
+    },
+    {
+      "priority": 11,
+      "packageId": "tetrapod-transition",
+      "kind": "static-package",
+      "ancestorIds": [
+        "8VSMX"
+      ],
+      "browseRoots": [
+        {
+          "id": "8VSMX",
+          "scientificName": "Sarcopterygii",
+          "rank": "gigaclass",
+          "status": "accepted"
+        }
+      ],
+      "matchedSpecies": 8
+    },
+    {
+      "priority": 12,
+      "packageId": "early-fishes",
+      "kind": "static-package",
+      "ancestorIds": [
+        "6225G",
+        "KTXJW"
+      ],
+      "browseRoots": [
+        {
+          "id": "6225G",
+          "scientificName": "Myxini",
+          "rank": "class",
+          "status": "accepted"
+        },
+        {
+          "id": "KTXJW",
+          "scientificName": "Agnatha Cope, 1889",
+          "rank": "infraphylum",
+          "status": "accepted"
+        }
+      ],
+      "matchedSpecies": 141
+    },
+    {
+      "priority": 13,
+      "packageId": "trilobites-chelicerates",
+      "kind": "static-package",
+      "ancestorIds": [
+        "KZWYC",
+        "TRL"
+      ],
+      "browseRoots": [
+        {
+          "id": "KZWYC",
+          "scientificName": "Chelicerata",
+          "rank": "subphylum",
+          "status": "accepted"
+        },
+        {
+          "id": "TRL",
+          "scientificName": "Trilobita",
+          "rank": "class",
+          "status": "accepted"
+        }
+      ],
+      "matchedSpecies": 104126
+    },
+    {
+      "priority": 14,
+      "packageId": "crustaceans-insects",
+      "kind": "static-package",
+      "ancestorIds": [
+        "H6",
+        "KZX8B",
+        "L2655",
+        "L2G4H",
+        "RT"
+      ],
+      "browseRoots": [
+        {
+          "id": "H6",
+          "scientificName": "Insecta",
+          "rank": "class",
+          "status": "accepted"
+        },
+        {
+          "id": "KZX8B",
+          "scientificName": "Crustacea",
+          "rank": "subphylum",
+          "status": "accepted"
+        },
+        {
+          "id": "L2655",
+          "scientificName": "Hexapoda",
+          "rank": "subphylum",
+          "status": "accepted"
+        },
+        {
+          "id": "L2G4H",
+          "scientificName": "Myriapoda",
+          "rank": "subphylum",
+          "status": "accepted"
+        },
+        {
+          "id": "RT",
+          "scientificName": "Arthropoda",
+          "rank": "phylum",
+          "status": "accepted"
+        }
+      ],
+      "matchedSpecies": 1049133
+    },
+    {
+      "priority": 15,
+      "packageId": "sponges-cnidarians",
+      "kind": "static-package",
+      "ancestorIds": [
+        "B8TXQ",
+        "CN2"
+      ],
+      "browseRoots": [
+        {
+          "id": "B8TXQ",
+          "scientificName": "Porifera Grant, 1836",
+          "rank": "phylum",
+          "status": "accepted"
+        },
+        {
+          "id": "CN2",
+          "scientificName": "Cnidaria",
+          "rank": "phylum",
+          "status": "accepted"
+        }
+      ],
+      "matchedSpecies": 30521
+    },
+    {
+      "priority": 16,
+      "packageId": "molluscs-brachiopods",
+      "kind": "static-package",
+      "ancestorIds": [
+        "B8V3K",
+        "KZ",
+        "M2L"
+      ],
+      "browseRoots": [
+        {
+          "id": "B8V3K",
+          "scientificName": "Brachiopoda Duméril, 1805",
+          "rank": "phylum",
+          "status": "accepted"
+        },
+        {
+          "id": "KZ",
+          "scientificName": "Graptolithina Bronn, 1849",
+          "rank": "subclass",
+          "status": "accepted"
+        },
+        {
+          "id": "M2L",
+          "scientificName": "Mollusca",
+          "rank": "phylum",
+          "status": "accepted"
+        }
+      ],
+      "matchedSpecies": 159801
+    },
+    {
+      "priority": 17,
+      "packageId": "echinoderms",
+      "kind": "static-package",
+      "ancestorIds": [
+        "CHN"
+      ],
+      "browseRoots": [
+        {
+          "id": "CHN",
+          "scientificName": "Echinodermata",
+          "rank": "phylum",
+          "status": "accepted"
+        }
+      ],
+      "matchedSpecies": 11891
+    },
+    {
+      "priority": 18,
+      "packageId": "angiospermae",
+      "kind": "static-package",
+      "ancestorIds": [
+        "L2L",
+        "MG"
+      ],
+      "browseRoots": [
+        {
+          "id": "L2L",
+          "scientificName": "Liliopsida",
+          "rank": "class",
+          "status": "accepted"
+        },
+        {
+          "id": "MG",
+          "scientificName": "Magnoliopsida",
+          "rank": "class",
+          "status": "accepted"
+        }
+      ],
+      "matchedSpecies": 352619
+    },
+    {
+      "priority": 19,
+      "packageId": "gymnosperms",
+      "kind": "static-package",
+      "ancestorIds": [
+        "BT",
+        "C7ZVJ",
+        "CGVH9"
+      ],
+      "browseRoots": [
+        {
+          "id": "BT",
+          "scientificName": "Ginkgoopsida Meyen",
+          "rank": "class",
+          "status": "accepted"
+        },
+        {
+          "id": "C7ZVJ",
+          "scientificName": "Pinopsida Burnett",
+          "rank": "class",
+          "status": "accepted"
+        },
+        {
+          "id": "CGVH9",
+          "scientificName": "Cycadopsida Brongn.",
+          "rank": "class",
+          "status": "accepted"
+        }
+      ],
+      "matchedSpecies": 1599
+    },
+    {
+      "priority": 20,
+      "packageId": "early-land-plants",
+      "kind": "static-package",
+      "ancestorIds": [
+        "9J9G3",
+        "9JHQ8",
+        "BJ5TM",
+        "GV",
+        "LYC"
+      ],
+      "browseRoots": [
+        {
+          "id": "9J9G3",
+          "scientificName": "Marchantiophyta Stotler & Crand.-Stotl.",
+          "rank": "phylum",
+          "status": "accepted"
+        },
+        {
+          "id": "9JHQ8",
+          "scientificName": "Anthocerotophyta Stotler & Crand.-Stotl.",
+          "rank": "phylum",
+          "status": "accepted"
+        },
+        {
+          "id": "BJ5TM",
+          "scientificName": "Bryophyta Schimp.",
+          "rank": "phylum",
+          "status": "accepted"
+        },
+        {
+          "id": "GV",
+          "scientificName": "Polypodiopsida",
+          "rank": "class",
+          "status": "accepted"
+        },
+        {
+          "id": "LYC",
+          "scientificName": "Lycopodiopsida",
+          "rank": "class",
+          "status": "accepted"
+        }
+      ],
+      "matchedSpecies": 33770
+    },
+    {
+      "priority": 21,
+      "packageId": "viruses",
+      "kind": "catalogue-only",
+      "ancestorIds": [
+        "92e52ff4-2dc6-4b35-9339-2e92035b8daf"
+      ],
+      "browseRoots": [
+        {
+          "id": "92e52ff4-2dc6-4b35-9339-2e92035b8daf",
+          "scientificName": "Viruses",
+          "rank": "unranked",
+          "status": "accepted"
+        }
+      ],
+      "matchedSpecies": 17552
+    },
+    {
+      "priority": 22,
+      "packageId": "archaea",
+      "kind": "catalogue-only",
+      "ancestorIds": [
+        "CRLT8"
+      ],
+      "browseRoots": [
+        {
+          "id": "CRLT8",
+          "scientificName": "Archaea Woese et al., 2024",
+          "rank": "domain",
+          "status": "accepted"
+        }
+      ],
+      "matchedSpecies": 790
+    },
+    {
+      "priority": 23,
+      "packageId": "bacteria",
+      "kind": "catalogue-only",
+      "ancestorIds": [
+        "CRRY6"
+      ],
+      "browseRoots": [
+        {
+          "id": "CRRY6",
+          "scientificName": "Bacteria Woese et al., 2024",
+          "rank": "domain",
+          "status": "accepted"
+        }
+      ],
+      "matchedSpecies": 26397
+    },
+    {
+      "priority": 24,
+      "packageId": "fungi",
+      "kind": "catalogue-only",
+      "ancestorIds": [
+        "F"
+      ],
+      "browseRoots": [
+        {
+          "id": "F",
+          "scientificName": "Fungi",
+          "rank": "kingdom",
+          "status": "accepted"
+        }
+      ],
+      "matchedSpecies": 157044
+    },
+    {
+      "priority": 25,
+      "packageId": "protists-chromists",
+      "kind": "catalogue-only",
+      "ancestorIds": [
+        "C",
+        "Z"
+      ],
+      "browseRoots": [
+        {
+          "id": "C",
+          "scientificName": "Chromista",
+          "rank": "kingdom",
+          "status": "accepted"
+        },
+        {
+          "id": "Z",
+          "scientificName": "Protozoa Owen, 1858",
+          "rank": "kingdom",
+          "status": "accepted"
+        }
+      ],
+      "matchedSpecies": 61518
+    },
+    {
+      "priority": 26,
+      "packageId": "other-plants",
+      "kind": "catalogue-only",
+      "ancestorIds": [
+        "P"
+      ],
+      "browseRoots": [
+        {
+          "id": "P",
+          "scientificName": "Plantae",
+          "rank": "kingdom",
+          "status": "accepted"
+        }
+      ],
+      "matchedSpecies": 698
+    },
+    {
+      "priority": 27,
+      "packageId": "other-animals",
+      "kind": "catalogue-only",
+      "ancestorIds": [
+        "N"
+      ],
+      "browseRoots": [
+        {
+          "id": "N",
+          "scientificName": "Animalia",
+          "rank": "kingdom",
+          "status": "accepted"
+        }
+      ],
+      "matchedSpecies": 99161
+    },
+    {
+      "priority": 28,
+      "packageId": "other-eukaryotes",
+      "kind": "catalogue-only",
+      "ancestorIds": [
+        "CS5HF"
+      ],
+      "browseRoots": [
+        {
+          "id": "CS5HF",
+          "scientificName": "Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978",
+          "rank": "domain",
+          "status": "accepted"
+        }
+      ],
+      "matchedSpecies": 0
+    }
+  ],
+  "packageCounts": {
+    "actinopterygii": 35928,
+    "amphibia": 8923,
+    "angiospermae": 352619,
+    "archaea": 790,
+    "atlas-core": 0,
+    "bacteria": 26397,
+    "carnivora": 310,
+    "cetartiodactyla": 503,
+    "chondrichthyes": 1359,
+    "crocodylomorphs-birds": 11071,
+    "crustaceans-insects": 1049133,
+    "dinosauria": 0,
+    "early-fishes": 141,
+    "early-land-plants": 33770,
+    "echinoderms": 11891,
+    "fungi": 157044,
+    "gymnosperms": 1599,
+    "mammal-origins": 0,
+    "marine-reptiles-pterosaurs": 0,
+    "molluscs-brachiopods": 159801,
+    "other-animals": 99161,
+    "other-eukaryotes": 0,
+    "other-mammals": 5099,
+    "other-plants": 698,
+    "perissodactyla": 19,
+    "primates": 530,
+    "protists-chromists": 61518,
+    "sponges-cnidarians": 30521,
+    "tetrapod-transition": 8,
+    "trilobites-chelicerates": 104126,
+    "turtles-lepidosaurs": 12622,
+    "viruses": 17552
+  },
+  "proof": {
+    "expectedAcceptedSpecies": 2183133,
+    "visitedAcceptedSpecies": 2183133,
+    "assignedSpecies": 2183133,
+    "unmatchedSpecies": 0,
+    "ambiguousAfterPriority": 0,
+    "overlappingCandidatesBeforePriority": 2138394,
+    "brokenLineages": 0,
+    "packageCountSum": 2183133,
+    "uniqueOwnersByConstruction": 2183133
+  },
+  "generatedBy": {
+    "scriptPath": "scripts/build-package-species-coverage.mjs",
+    "scriptSha256": "8e34c39011a5b28e34cdd66a4c45d6a2cbadaee09118936f7dc88019fba0546e",
+    "deterministic": "No wall-clock fields; sorted source shards, IDs, packages and rule candidates."
+  }
+}

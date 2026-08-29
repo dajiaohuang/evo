@@ -62,6 +62,30 @@
 .offline-actions { display: flex; align-items: center; gap: 10px; padding-top: 14px; }
 .offline-actions span, .platform-error { color: var(--color-warning); font: 9px var(--font-mono); }
 
+.ownership-summary { display: grid; grid-template-columns: repeat(5, 1fr); margin-bottom: 18px; border: 1px solid var(--color-border-subtle); }
+.ownership-summary article { min-width: 0; padding: 18px; border-right: 1px solid var(--color-border-subtle); }
+.ownership-summary article:last-child { border-right: 0; }
+.ownership-summary strong { display: block; overflow-wrap: anywhere; font: 500 22px var(--font-display); }
+.ownership-summary span { color: var(--color-text-faint); font: 8px/1.45 var(--font-mono); text-transform: uppercase; }
+.ownership-policy-note { margin-bottom: 18px; padding: 18px 20px; border: 1px solid var(--color-border-subtle); border-left: 2px solid var(--color-accent); background: var(--color-surface); }
+.ownership-policy-note strong { color: var(--color-text-secondary); font: 9px var(--font-mono); }
+.ownership-policy-note p { max-width: 900px; margin-top: 8px; color: var(--color-text-muted); font-size: 10px; line-height: 1.7; }
+.ownership-loading { color: var(--color-text-faint); font: 9px var(--font-mono); }
+.ownership-table { max-height: 680px; overflow: auto; border: 1px solid var(--color-border-subtle); }
+.ownership-row { min-width: 980px; min-height: 64px; display: grid; grid-template-columns: minmax(190px, 1.45fr) .68fr .68fr .45fr .9fr minmax(240px, 1.8fr); gap: 12px; align-items: center; padding: 9px 14px; border-bottom: 1px solid var(--color-border-subtle); color: var(--color-text-muted); font: 9px/1.45 var(--font-mono); }
+.ownership-row:last-child { border-bottom: 0; }
+.ownership-row--head { min-height: 36px; position: sticky; top: 0; z-index: 1; color: var(--color-text-faint); background: var(--color-surface); text-transform: uppercase; letter-spacing: .06em; }
+.ownership-row--catalogue-only { background: rgba(109, 218, 177, .025); }
+.ownership-row strong { color: var(--color-text); font: 600 10px var(--font-sans); }
+.ownership-row strong small { display: block; margin-top: 3px; color: var(--color-text-faint); font: 8px var(--font-mono); }
+.ownership-kind { width: fit-content; padding: 4px 6px; border: 1px solid var(--color-border-subtle); color: var(--color-text-secondary); text-transform: uppercase; letter-spacing: .04em; }
+.ownership-row--catalogue-only .ownership-kind { border-color: rgba(109, 218, 177, .28); color: var(--color-accent); }
+.ownership-roots { display: flex; flex-wrap: wrap; gap: 4px; }
+.ownership-roots code { padding: 2px 4px; border: 1px solid var(--color-border-subtle); color: var(--color-text-faint); font: 7px var(--font-mono); }
+.ownership-scope { padding-block: 5px; color: var(--color-text-muted); font-family: var(--font-sans); line-height: 1.55; }
+.ownership-scope small { display: block; margin-top: 5px; color: var(--color-text-faint); font-size: 8px; line-height: 1.5; }
+.ownership-proof { margin-top: 12px; color: var(--color-text-faint); font: 8px/1.6 var(--font-mono); }
+
 .limitation-list { list-style: none; counter-reset: limitation; display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; }
 .limitation-list li { counter-increment: limitation; min-height: 150px; padding: 22px; border: 1px solid var(--color-border-subtle); color: var(--color-text-muted); font-size: 11px; line-height: 1.65; background: var(--color-surface); }
 .limitation-list li::before { content: '0' counter(limitation); display: block; margin-bottom: 28px; color: var(--color-accent); font: 9px var(--font-mono); }
@@ -80,7 +104,10 @@
 
 @media (max-width: 800px) {
   .info-page { padding-inline: 20px; }
-  .info-grid--metrics, .limitation-list, .method-principles, .platform-summary { grid-template-columns: repeat(2, 1fr); }
+  .info-grid--metrics, .limitation-list, .method-principles, .platform-summary, .ownership-summary { grid-template-columns: repeat(2, 1fr); }
+  .ownership-summary article:nth-child(2n) { border-right: 0; }
+  .ownership-summary article { border-bottom: 1px solid var(--color-border-subtle); }
+  .ownership-summary article:last-child { border-bottom: 0; }
   .pipeline { grid-template-columns: 1fr; }
   .pipeline article { min-height: auto; border-right: 0; border-bottom: 1px solid var(--color-border-subtle); }
   .pipeline h2 { margin-top: 28px; }
@@ -93,6 +120,8 @@
   .coverage-row { grid-template-columns: 1.2fr 1fr 0.6fr; }
   .coverage-row > :last-child { display: none; }
   .platform-summary { grid-template-columns: 1fr; }
+  .ownership-summary { grid-template-columns: 1fr; }
+  .ownership-summary article { border-right: 0; }
   .package-row { grid-template-columns: 1fr .8fr .55fr 50px; }
   .package-row > :nth-child(4), .package-row > :nth-child(5), .package-row > :nth-child(6) { display: none; }
 }

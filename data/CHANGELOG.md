@@ -1,5 +1,13 @@
 # Dataset changelog
 
+## 2026.08-static-v5-rc10 — 2026-08-30
+
+- Assigned every one of the 2,183,133 strictly accepted species in pinned Catalogue of Life release COL26.8 to exactly one release-scoped resource owner using exact ancestor usage IDs.
+- Published 24 static package owners plus eight catalogue-only partitions for viruses, archaea, bacteria, fungi, protists/chromists and residual eukaryote groups, with zero unmatched species and zero broken parent lineages.
+- Kept the complete mapping compact by publishing deterministic ownership rules and counts instead of duplicating 2.18 million species records; runtime resolution reuses the existing lazy CoL lineage shards.
+- Added resource ownership and its evidence boundary to exact taxon pages, package manifests and the Data coverage dashboard, explicitly separating nomenclatural placement from curated dossier maturity.
+- Narrowed broad plant routing to exact class/phylum usages and labelled teaching or residual collections that do not represent natural monophyletic clades.
+
 ## 2026.08-static-v5-rc9 — 2026-08-29
 
 - Replaced the 12-period-only map payload with 1,889 checksum-addressed CAO2024 v2.4 frames spanning the complete documented 0–1,800 Ma model range.
