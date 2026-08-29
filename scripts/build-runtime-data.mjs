@@ -380,7 +380,14 @@ function copyCatalogueFile(sourceFile) {
 }
 const catalogueSearchFiles = catalogueSourceManifest.search.files.map(copyCatalogueFile)
 const catalogueTargetFiles = catalogueSourceManifest.acceptedTargets.files.map(copyCatalogueFile)
-const catalogueFileByPath = new Map([...catalogueSearchFiles, ...catalogueTargetFiles].map((file) => [file.path, file]))
+const catalogueHierarchyNodeFiles = catalogueSourceManifest.hierarchy.nodes.files.map(copyCatalogueFile)
+const catalogueHierarchyChildFiles = catalogueSourceManifest.hierarchy.children.files.map(copyCatalogueFile)
+const catalogueFileByPath = new Map([
+  ...catalogueSearchFiles,
+  ...catalogueTargetFiles,
+  ...catalogueHierarchyNodeFiles,
+  ...catalogueHierarchyChildFiles,
+].map((file) => [file.path, file]))
 function runtimeCatalogueRoutes(routes) {
   return Object.fromEntries(Object.entries(routes).map(([prefix, paths]) => [
     prefix,
@@ -402,6 +409,19 @@ const catalogueRuntimeManifest = {
     ...catalogueSourceManifest.acceptedTargets,
     routes: runtimeCatalogueRoutes(catalogueSourceManifest.acceptedTargets.routes),
     files: catalogueTargetFiles,
+  },
+  hierarchy: {
+    ...catalogueSourceManifest.hierarchy,
+    nodes: {
+      ...catalogueSourceManifest.hierarchy.nodes,
+      routes: runtimeCatalogueRoutes(catalogueSourceManifest.hierarchy.nodes.routes),
+      files: catalogueHierarchyNodeFiles,
+    },
+    children: {
+      ...catalogueSourceManifest.hierarchy.children,
+      routes: runtimeCatalogueRoutes(catalogueSourceManifest.hierarchy.children.routes),
+      files: catalogueHierarchyChildFiles,
+    },
   },
 }
 const catalogueManifestFile = writeJson('catalogue/manifest.json', catalogueRuntimeManifest, true)
@@ -437,6 +457,9 @@ const current = {
     acceptedSpecies: catalogueRuntimeManifest.counts.acceptedSpecies,
     resolvingNameUsages: Object.values(catalogueRuntimeManifest.counts.resolvingNameUsages).reduce((sum, count) => sum + count, 0),
     acceptedTargetRecords: catalogueRuntimeManifest.acceptedTargets.records,
+    hierarchyNodes: catalogueRuntimeManifest.hierarchy.counts.nodes,
+    higherTaxonNodes: catalogueRuntimeManifest.hierarchy.counts.higherTaxonNodes,
+    hierarchyChildEdges: catalogueRuntimeManifest.hierarchy.counts.directChildEdges,
     relationshipToAtlas: catalogueRuntimeManifest.relationshipToAtlas,
   },
   downloads: { template: `${releasePrefix}/downloads/{packageId}-${sourceManifest.datasetVersion}.zip` },
@@ -444,7 +467,10 @@ const current = {
     coreCompressedBytes,
     coreLimitBytes: 5 * 1024 * 1024,
     shardLimitBytes: 8 * 1024 * 1024,
-    catalogueCompressedBytes: catalogueRuntimeManifest.search.totalCompressedBytes + catalogueRuntimeManifest.acceptedTargets.totalCompressedBytes,
+    catalogueCompressedBytes: catalogueRuntimeManifest.search.totalCompressedBytes
+      + catalogueRuntimeManifest.acceptedTargets.totalCompressedBytes
+      + catalogueRuntimeManifest.hierarchy.nodes.totalCompressedBytes
+      + catalogueRuntimeManifest.hierarchy.children.totalCompressedBytes,
     pagesLimitBytes: 650 * 1024 * 1024,
   },
   evidenceBoundary: {

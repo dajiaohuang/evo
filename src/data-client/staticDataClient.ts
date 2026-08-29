@@ -2,6 +2,7 @@ import { gunzipSync, strFromU8 } from 'fflate'
 import type {
   CurrentRuntimeManifest,
   CatalogueRecord,
+  CatalogueRuntimeFile,
   CatalogueRuntimeManifest,
   OccurrenceRuntimeManifest,
   RuntimeEntity,
@@ -218,10 +219,36 @@ export function normalizeCatalogueQuery(value: string): string {
     .trim()
 }
 
-async function catalogueTargetRoute(id: string): Promise<string> {
+export async function catalogueRoutePrefix(id: string): Promise<string> {
   const bytes = new TextEncoder().encode(id)
   const digest = await crypto.subtle.digest('SHA-256', bytes)
   return Array.from(new Uint8Array(digest).slice(0, 1), (byte) => byte.toString(16).padStart(2, '0')).join('')
+}
+
+async function loadCatalogueRoute<T>(
+  routes: Record<string, string[]>,
+  files: CatalogueRuntimeFile[],
+  id: string,
+): Promise<T[]> {
+  const prefix = await catalogueRoutePrefix(id)
+  const filesByUrl = new Map(files.map((file) => [file.url, file]))
+  const routedFiles = (routes[prefix] ?? [])
+    .map((url) => filesByUrl.get(url))
+    .filter((file): file is NonNullable<typeof file> => Boolean(file))
+  if (!routedFiles.length) return []
+  return (await Promise.all(routedFiles.map((file) => loadRuntimeFile<T[]>(file)))).flat()
+}
+
+export async function loadCatalogueHierarchyNode(id: string): Promise<import('./types').CatalogueHierarchyNodeRecord | null> {
+  const manifest = await loadCatalogueManifest()
+  const records = await loadCatalogueRoute<import('./types').CatalogueHierarchyNodeRecord>(manifest.hierarchy.nodes.routes, manifest.hierarchy.nodes.files, id)
+  return records.find((record) => record.id === id) ?? null
+}
+
+export async function loadCatalogueChildren(parentId: string): Promise<import('./types').CatalogueHierarchyChildRecord[]> {
+  const manifest = await loadCatalogueManifest()
+  const records = await loadCatalogueRoute<import('./types').CatalogueHierarchyChildRecord>(manifest.hierarchy.children.routes, manifest.hierarchy.children.files, parentId)
+  return records.filter((record) => record.parentId === parentId)
 }
 
 export async function searchCatalogue(query: string, limit = 12): Promise<{
@@ -250,7 +277,7 @@ export async function searchCatalogue(query: string, limit = 12): Promise<{
       || left.scientificName.localeCompare(right.scientificName))
   const records = matches.slice(0, limit)
   const targetIds = [...new Set(records.flatMap((record) => record.status === 'accepted' || !record.acceptedId ? [] : [record.acceptedId]))]
-  const targetRoutes = await Promise.all(targetIds.map(async (id) => [id, await catalogueTargetRoute(id)] as const))
+  const targetRoutes = await Promise.all(targetIds.map(async (id) => [id, await catalogueRoutePrefix(id)] as const))
   const targetFilesByUrl = new Map(manifest.acceptedTargets.files.map((file) => [file.url, file]))
   const routeFiles = [...new Set(targetRoutes.flatMap(([, prefix]) => manifest.acceptedTargets.routes[prefix] ?? []))]
     .map((url) => targetFilesByUrl.get(url))

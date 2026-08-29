@@ -182,6 +182,28 @@ export interface CatalogueTargetRecord {
   classification: Array<string | null>
 }
 
+export interface CatalogueHierarchyNodeRecord {
+  id: string
+  parentId: string | null
+  scientificName: string
+  authorship: string | null
+  rank: string
+  status: 'accepted' | 'provisionally accepted'
+  sourceDatasetId: string | null
+  childCount: number
+}
+
+export interface CatalogueHierarchyChildRecord {
+  parentId: string
+  id: string
+  scientificName: string
+  authorship: string | null
+  rank: string
+  status: 'accepted' | 'provisionally accepted'
+  sourceDatasetId: string | null
+  childCount: number
+}
+
 export interface CatalogueRuntimeFile extends RuntimeFile {
   prefix: string
   path: string
@@ -233,6 +255,37 @@ export interface CatalogueRuntimeManifest {
     largestShardBytes: number
     relationshipToAcceptedSpeciesCount: string
   }
+  hierarchy: {
+    scope: string
+    routing: string
+    counts: {
+      nodes: number
+      higherTaxonNodes: number
+      acceptedSpeciesNodes: number
+      roots: number
+      directChildEdges: number
+      acceptedSpeciesEdges: number
+      statuses: Record<string, number>
+      ranks: Record<string, number>
+    }
+    roots: Array<Pick<CatalogueHierarchyNodeRecord, 'id' | 'scientificName' | 'rank' | 'status'>>
+    nodes: {
+      routes: Record<string, string[]>
+      files: CatalogueRuntimeFile[]
+      totalCompressedBytes: number
+      totalSourceBytes: number
+      largestShardBytes: number
+    }
+    children: {
+      routes: Record<string, string[]>
+      files: CatalogueRuntimeFile[]
+      totalCompressedBytes: number
+      totalSourceBytes: number
+      largestShardBytes: number
+    }
+    nodeRecordSchema: Record<string, string>
+    childRecordSchema: Record<string, string>
+  }
   relationshipToAtlas: string
   taxonIdScope: string
   curieTemplate: string
@@ -269,6 +322,9 @@ export interface CurrentRuntimeManifest {
     acceptedSpecies: number
     resolvingNameUsages: number
     acceptedTargetRecords: number
+    hierarchyNodes: number
+    higherTaxonNodes: number
+    hierarchyChildEdges: number
     relationshipToAtlas: string
   }
   downloads: { template: string }
@@ -276,6 +332,7 @@ export interface CurrentRuntimeManifest {
     coreCompressedBytes: number
     coreLimitBytes: number
     shardLimitBytes: number
+    catalogueCompressedBytes: number
     pagesLimitBytes: number
   }
   evidenceBoundary: Record<string, string | Record<string, number>>

@@ -21,6 +21,12 @@ afterEach(() => {
 })
 
 describe('static runtime release coherence', () => {
+  it('routes Catalogue usage IDs with the same deterministic SHA-256 prefix as the generator', async () => {
+    const { catalogueRoutePrefix } = await import('./staticDataClient')
+    await expect(catalogueRoutePrefix('4CGXP')).resolves.toBe('24')
+    await expect(catalogueRoutePrefix('6MB3T')).resolves.toBe('64')
+  })
+
   it('uses the current release manifest, evicts a checksum mismatch, and refetches once', async () => {
     const packageManifest = {
       schemaVersion: 5,

@@ -25,20 +25,34 @@
       "brotliQuality5PayloadBytes": 41935333,
       "shardCount": 256
     },
-    "uncompressedNdjsonBytes": 1707547750,
-    "gzipPayloadBytes": 183439715,
-    "brotliQuality5PayloadBytes": 155264778,
-    "committedRegistryBytes": 184035846,
-    "runtimeManifestBytes": 586963,
-    "shardCount": 986,
+    "hierarchyNodes": {
+      "records": 2429092,
+      "uncompressedNdjsonBytes": 485462408,
+      "gzipPayloadBytes": 84206234,
+      "brotliQuality5PayloadBytes": 75854949,
+      "shardCount": 256
+    },
+    "hierarchyChildren": {
+      "records": 2429088,
+      "uncompressedNdjsonBytes": 485461618,
+      "gzipPayloadBytes": 50821248,
+      "brotliQuality5PayloadBytes": 45301990,
+      "shardCount": 256
+    },
+    "uncompressedNdjsonBytes": 2678471776,
+    "gzipPayloadBytes": 318467197,
+    "brotliQuality5PayloadBytes": 276421717,
+    "committedRegistryBytes": 319334745,
+    "runtimeManifestBytes": 928268,
+    "shardCount": 1498,
     "largestGzipShardBytes": 2024261,
-    "buildDurationMs": 101620
+    "buildDurationMs": 149820
   },
   "compressionBenchmark": {
     "environment": "Node.js 24.14.1 on Windows; each deterministic gzip shard decompressed and recompressed independently with Brotli quality 5",
-    "allShardGunzipDurationMs": 1701,
-    "allShardJsonParseDurationMs": 4507,
-    "allShardBrotliBenchmarkDurationMs": 11286,
+    "allShardGunzipDurationMs": 2786,
+    "allShardJsonParseDurationMs": 7263,
+    "allShardBrotliBenchmarkDurationMs": 18650,
     "searchShardMeasurements": {
       "gunzipDurationMs": 1334,
       "jsonParseDurationMs": 3660,
@@ -48,6 +62,16 @@
       "gunzipDurationMs": 367,
       "jsonParseDurationMs": 847,
       "brotliBenchmarkDurationMs": 2510
+    },
+    "hierarchyNodeShardMeasurements": {
+      "gunzipDurationMs": 625,
+      "jsonParseDurationMs": 1385,
+      "brotliBenchmarkDurationMs": 4283
+    },
+    "hierarchyChildShardMeasurements": {
+      "gunzipDurationMs": 460,
+      "jsonParseDurationMs": 1371,
+      "brotliBenchmarkDurationMs": 3081
     }
   },
   "browserSearchBenchmark": {
@@ -61,7 +85,7 @@
   },
   "notes": [
     "Brotli is measured for feasibility only; the published runtime uses deterministic gzip to reuse the existing checksum-verifying Worker path.",
-    "The full runtime registry is lazy. The home/dashboard initial payload contains only the small current.json catalogue summary; the 587 KB catalogue manifest and one routed search shard load after a query reaches three characters. A resolving result additionally loads one SHA-256-routed target shard.",
+    "The full runtime registry is lazy. The home/dashboard initial payload contains only the small current.json catalogue summary; the 928 KB catalogue manifest and one routed search shard load after a query reaches three characters. A resolving result additionally loads one SHA-256-routed target shard; exact-ID taxonomy and direct children each load one routed hierarchy shard.",
     "Measurements describe this build machine and local preview, not a network-service-level guarantee."
   ]
 }
