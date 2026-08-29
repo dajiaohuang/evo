@@ -105,6 +105,15 @@ export interface RuntimePackageManifest {
     rowsOutsidePackage: number
     pagesFetched: number
   }
+  catalogueCoverage: {
+    releaseAlias: string
+    strictPredicate: string
+    acceptedSpeciesCount: number
+    browseRootIds: string[]
+    ownershipManifestSha256: string
+    ownershipRuntimePath: string
+    evidenceBoundary: string
+  }
   metrics: {
     canonicalRawBytes: number
     runtimeKnowledgeCompressedBytes: number
@@ -253,6 +262,70 @@ export interface CatalogueRuntimeFile extends RuntimeFile {
   url: string
 }
 
+export interface CatalogueSpeciesCoverageEntry {
+  id: string
+  kind: 'static-package' | 'catalogue-only'
+  title: string
+  titleZh: string
+  scope?: string
+  scopeZh?: string
+  disclaimer?: string
+  disclaimerZh?: string
+  acceptedSpeciesCount: number
+  browseRootIds: string[]
+  zeroAssignmentReason?: string
+}
+
+export interface CatalogueOwnershipRoute {
+  priority: number
+  packageId: string
+  kind: CatalogueSpeciesCoverageEntry['kind']
+  ancestorIds: string[]
+  browseRoots: Array<Pick<CatalogueHierarchyNodeRecord, 'id' | 'scientificName' | 'rank' | 'status'>>
+  matchedSpecies: number
+}
+
+export interface CatalogueSpeciesOwnership {
+  schemaVersion: number
+  projectionType: 'exclusive-package-ownership-for-strictly-accepted-species'
+  source: {
+    releaseAlias: string
+    releaseDate: string
+    checklistBankDatasetKey: number
+    acceptedSpecies: number
+    strictPredicate: string
+    manifestPath: string
+    manifestSha256: string
+  }
+  packageRegistry: {
+    schemaVersion: number
+    datasetPackageVersion: string
+    definitionsPath: string
+    definitionsSha256: string
+    packageCount: number
+  }
+  ownershipPolicy: Record<string, string>
+  entries: CatalogueSpeciesCoverageEntry[]
+  routes: CatalogueOwnershipRoute[]
+  packageCounts: Record<string, number>
+  proof: {
+    expectedAcceptedSpecies: number
+    visitedAcceptedSpecies: number
+    assignedSpecies: number
+    unmatchedSpecies: number
+    ambiguousAfterPriority: number
+    overlappingCandidatesBeforePriority: number
+    brokenLineages: number
+    packageCountSum: number
+    uniqueOwnersByConstruction: number
+  }
+}
+
+export interface CatalogueSpeciesOwner {
+  entry: CatalogueSpeciesCoverageEntry
+  route: CatalogueOwnershipRoute
+}
+
 export interface CatalogueRuntimeManifest {
   schemaVersion: number
   registryType: string
@@ -274,6 +347,16 @@ export interface CatalogueRuntimeManifest {
   }
   classificationFields: string[]
   sourceChecklists: RuntimeFile & { count: number; url: string }
+  ownership: RuntimeFile & {
+    schemaVersion: number
+    projectionType: CatalogueSpeciesOwnership['projectionType']
+    packageCount: number
+    staticPackageCount: number
+    catalogueOnlyPackageCount: number
+    acceptedSpecies: number
+    assignedSpecies: number
+    unmatchedSpecies: number
+  }
   search: {
     minimumQueryLength: number
     normalization: string
@@ -367,6 +450,9 @@ export interface CurrentRuntimeManifest {
     hierarchyNodes: number
     higherTaxonNodes: number
     hierarchyChildEdges: number
+    ownershipPackages: number
+    assignedAcceptedSpecies: number
+    unmatchedAcceptedSpecies: number
     relationshipToAtlas: string
   }
   downloads: { template: string }

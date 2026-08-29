@@ -7,6 +7,8 @@ import type {
   CatalogueRuntimeFile,
   CatalogueRuntimeManifest,
   CatalogueSourceChecklist,
+  CatalogueSpeciesOwner,
+  CatalogueSpeciesOwnership,
   OccurrenceRuntimeManifest,
   RuntimeEntity,
   RuntimeEntityLinkageCoverage,
@@ -248,6 +250,30 @@ export async function loadCatalogueManifest(): Promise<CatalogueRuntimeManifest>
 export async function loadCatalogueSourceChecklists(): Promise<CatalogueSourceChecklist[]> {
   const manifest = await loadCatalogueManifest()
   return loadRuntimeFile<CatalogueSourceChecklist[]>(manifest.sourceChecklists)
+}
+
+export async function loadCatalogueSpeciesOwnership(): Promise<CatalogueSpeciesOwnership> {
+  const manifest = await loadCatalogueManifest()
+  const ownership = await loadRuntimeFile<CatalogueSpeciesOwnership>(manifest.ownership)
+  if (ownership.source.releaseAlias !== manifest.releaseAlias
+    || ownership.source.acceptedSpecies !== manifest.counts.acceptedSpecies
+    || ownership.proof.assignedSpecies !== manifest.ownership.assignedSpecies) {
+    throw new Error('Catalogue package ownership does not match the pinned registry release')
+  }
+  return ownership
+}
+
+export function resolveCatalogueSpeciesOwner(
+  lineage: Pick<CatalogueHierarchyNodeRecord, 'id'>[],
+  ownership: CatalogueSpeciesOwnership,
+): CatalogueSpeciesOwner | null {
+  const lineageIds = new Set(lineage.map((node) => node.id))
+  const route = ownership.routes
+    .filter((candidate) => candidate.ancestorIds.some((id) => lineageIds.has(id)))
+    .sort((left, right) => left.priority - right.priority || left.packageId.localeCompare(right.packageId))[0]
+  if (!route) return null
+  const entry = ownership.entries.find((candidate) => candidate.id === route.packageId)
+  return entry ? { entry, route } : null
 }
 
 export function normalizeCatalogueQuery(value: string): string {

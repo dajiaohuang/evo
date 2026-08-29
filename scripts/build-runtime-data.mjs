@@ -51,6 +51,7 @@ const canonicalRanges = readJson('data/ranges/range-evidence.json')
 const linkageCoverage = readJson('data/indexes/entity-linkage-coverage.json')
 const catalogueProvenance = readJson('data/catalogue-of-life/releases/2026-08-20/provenance.json')
 const catalogueSourceManifest = readJson('data/catalogue-of-life/releases/2026-08-20/registry/manifest.json')
+const catalogueSpeciesOwnership = readJson('data/registry/package-species-coverage.json')
 const perissodactylaOccurrenceSnapshot = readJson('data/sources/perissodactyla-occurrence-snapshot-v2.json')
 const claimsById = new Map(claims.map((claim) => [claim.id, claim]))
 const packageById = new Map(registry.packages.map((entry) => [entry.id, entry]))
@@ -234,6 +235,8 @@ for (const [key, records] of [...occurrencesByPackagePeriod].sort(([left], [righ
 const packageRuntimeManifests = []
 for (const packageEntry of registry.packages) {
   const packageId = packageEntry.id
+  const catalogueCoverageEntry = catalogueSpeciesOwnership.entries.find((entry) => entry.id === packageId && entry.kind === 'static-package')
+  if (!catalogueCoverageEntry) throw new Error(`Catalogue ownership is missing static package ${packageId}`)
   const packageReview = evaluatePackageReview(packageId)
   const packageQueryLedger = readJson(`${packageEntry.canonicalPath}/query-ledger.json`)
   const packageEntities = entities.filter((entity) => entity.packageId === packageId)
@@ -309,6 +312,15 @@ for (const packageEntry of registry.packages) {
       rowsRejected: packageQueryLedger.rowsRejected,
       rowsOutsidePackage: packageQueryLedger.rowsOutsidePackage,
       pagesFetched: packageQueryLedger.pagesFetched,
+    },
+    catalogueCoverage: {
+      releaseAlias: catalogueSpeciesOwnership.source.releaseAlias,
+      strictPredicate: catalogueSpeciesOwnership.source.strictPredicate,
+      acceptedSpeciesCount: catalogueCoverageEntry.acceptedSpeciesCount,
+      browseRootIds: catalogueCoverageEntry.browseRootIds,
+      ownershipManifestSha256: sha256(jsonBytes(catalogueSpeciesOwnership)),
+      ownershipRuntimePath: `${releasePrefix}/catalogue/ownership.json.gz`,
+      evidenceBoundary: 'Complete release-scoped nomenclatural ownership does not imply a curated Evo Atlas dossier.',
     },
     metrics: {
       canonicalRawBytes: canonicalPackageBytes(packageEntry),
@@ -474,10 +486,29 @@ function runtimeCatalogueRoutes(routes) {
 }
 const catalogueSourcesFile = write('catalogue/sources.json', readFileSync(join(catalogueSourceRoot, catalogueSourceManifest.sourceChecklists.path)))
 if (catalogueSourcesFile.sha256 !== catalogueSourceManifest.sourceChecklists.sha256) throw new Error('Catalogue source-checklist ledger changed without rebuilding its manifest')
+if (catalogueSpeciesOwnership.source.releaseAlias !== catalogueSourceManifest.releaseAlias
+  || catalogueSpeciesOwnership.source.acceptedSpecies !== catalogueSourceManifest.counts.acceptedSpecies
+  || catalogueSpeciesOwnership.proof.assignedSpecies !== catalogueSourceManifest.counts.acceptedSpecies
+  || catalogueSpeciesOwnership.proof.unmatchedSpecies !== 0) {
+  throw new Error('Catalogue package ownership does not cover the pinned accepted-species baseline')
+}
+const catalogueOwnershipFile = writeGzipJson('catalogue/ownership.json.gz', catalogueSpeciesOwnership)
+const catalogueOwnershipDescriptor = {
+  ...catalogueOwnershipFile,
+  schemaVersion: catalogueSpeciesOwnership.schemaVersion,
+  projectionType: catalogueSpeciesOwnership.projectionType,
+  packageCount: catalogueSpeciesOwnership.entries.length,
+  staticPackageCount: catalogueSpeciesOwnership.entries.filter((entry) => entry.kind === 'static-package').length,
+  catalogueOnlyPackageCount: catalogueSpeciesOwnership.entries.filter((entry) => entry.kind === 'catalogue-only').length,
+  acceptedSpecies: catalogueSpeciesOwnership.source.acceptedSpecies,
+  assignedSpecies: catalogueSpeciesOwnership.proof.assignedSpecies,
+  unmatchedSpecies: catalogueSpeciesOwnership.proof.unmatchedSpecies,
+}
 const catalogueRuntimeManifest = {
   ...catalogueSourceManifest,
   provenance: catalogueProvenance,
   sourceChecklists: { ...catalogueSourceManifest.sourceChecklists, url: catalogueSourcesFile.url },
+  ownership: catalogueOwnershipDescriptor,
   search: {
     ...catalogueSourceManifest.search,
     routes: runtimeCatalogueRoutes(catalogueSourceManifest.search.routes),
@@ -542,6 +573,9 @@ const current = {
     hierarchyNodes: catalogueRuntimeManifest.hierarchy.counts.nodes,
     higherTaxonNodes: catalogueRuntimeManifest.hierarchy.counts.higherTaxonNodes,
     hierarchyChildEdges: catalogueRuntimeManifest.hierarchy.counts.directChildEdges,
+    ownershipPackages: catalogueRuntimeManifest.ownership.packageCount,
+    assignedAcceptedSpecies: catalogueRuntimeManifest.ownership.assignedSpecies,
+    unmatchedAcceptedSpecies: catalogueRuntimeManifest.ownership.unmatchedSpecies,
     relationshipToAtlas: catalogueRuntimeManifest.relationshipToAtlas,
   },
   downloads: { template: `${releasePrefix}/downloads/{packageId}-${sourceManifest.datasetVersion}.zip` },
@@ -552,13 +586,15 @@ const current = {
     catalogueCompressedBytes: catalogueRuntimeManifest.search.totalCompressedBytes
       + catalogueRuntimeManifest.acceptedTargets.totalCompressedBytes
       + catalogueRuntimeManifest.hierarchy.nodes.totalCompressedBytes
-      + catalogueRuntimeManifest.hierarchy.children.totalCompressedBytes,
+      + catalogueRuntimeManifest.hierarchy.children.totalCompressedBytes
+      + catalogueRuntimeManifest.ownership.bytes,
     pagesLimitBytes: 650 * 1024 * 1024,
   },
   evidenceBoundary: {
     entityRegistry: `${entities.length}/${entities.length}`,
     chineseNamesPresent: `${entities.filter((entity) => entity.names.zh).length}/${entities.length}`,
     packageOwnership: `${entities.filter((entity) => entity.packageId).length}/${entities.length}`,
+    acceptedSpeciesPackageOwnership: `${catalogueRuntimeManifest.ownership.assignedSpecies}/${catalogueRuntimeManifest.ownership.acceptedSpecies}`,
     scientificMaturitySummary: registry.packages
       .filter((entry) => entry.id !== 'atlas-core')
       .reduce((summary, entry) => {

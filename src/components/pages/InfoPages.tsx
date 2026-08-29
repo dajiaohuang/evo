@@ -2,9 +2,9 @@ import { useEffect, useState } from 'react'
 import manifest from '../../../data/manifest.json'
 import { periods } from '../../services/geology'
 import { loadReleaseMetadata, localReleaseMetadata } from '../../services/release'
-import { loadCurrentManifest, loadEntityLinkageCoverage, loadPackageManifest, loadPackageRegistry } from '../../data-client/staticDataClient'
+import { loadCatalogueSpeciesOwnership, loadCurrentManifest, loadEntityLinkageCoverage, loadPackageManifest, loadPackageRegistry } from '../../data-client/staticDataClient'
 import { clearOfflinePackages, saveAllPackagesOffline, savePackageOffline } from '../../data-client/offlinePackages'
-import type { CurrentRuntimeManifest, RuntimeEntityLinkageCoverage, RuntimePackageManifest, RuntimePackageRegistry } from '../../data-client/types'
+import type { CatalogueSpeciesOwnership, CurrentRuntimeManifest, RuntimeEntityLinkageCoverage, RuntimePackageManifest, RuntimePackageRegistry } from '../../data-client/types'
 import type { AppRoute } from '../../utils/routing'
 import { reviewStatusLabel, scientificMaturityLabel } from '../../services/publication'
 import { useI18n } from '../../i18n'
@@ -27,7 +27,9 @@ export function DataPage({ onNavigate }: PageProps) {
   const [packageRegistry, setPackageRegistry] = useState<RuntimePackageRegistry | null>(null)
   const [packageManifests, setPackageManifests] = useState<RuntimePackageManifest[]>([])
   const [linkageCoverage, setLinkageCoverage] = useState<RuntimeEntityLinkageCoverage | null>(null)
+  const [speciesOwnership, setSpeciesOwnership] = useState<CatalogueSpeciesOwnership | null>(null)
   const [platformError, setPlatformError] = useState<string | null>(null)
+  const [speciesOwnershipError, setSpeciesOwnershipError] = useState<string | null>(null)
   const [offlineStatus, setOfflineStatus] = useState('idle')
 
   useEffect(() => {
@@ -45,6 +47,16 @@ export function DataPage({ onNavigate }: PageProps) {
       setLinkageCoverage(linkage)
     }).catch((error: unknown) => {
       if (!cancelled) setPlatformError(error instanceof Error ? error.message : String(error))
+    })
+    return () => { cancelled = true }
+  }, [])
+
+  useEffect(() => {
+    let cancelled = false
+    void loadCatalogueSpeciesOwnership().then((ownership) => {
+      if (!cancelled) setSpeciesOwnership(ownership)
+    }).catch((error: unknown) => {
+      if (!cancelled) setSpeciesOwnershipError(error instanceof Error ? error.message : String(error))
     })
     return () => { cancelled = true }
   }, [])
@@ -160,6 +172,56 @@ export function DataPage({ onNavigate }: PageProps) {
       <section className="info-section">
         <div className="info-section__heading">
           <span>03</span>
+          <div><small>{language === 'zh' ? '全量物种归属' : 'Complete species ownership'}</small><h2>{language === 'zh' ? '一个物种，一个资源分区' : 'One species, one resource partition'}</h2></div>
+        </div>
+        {speciesOwnershipError && <p className="platform-error">{language === 'zh' ? '物种归属数据暂不可用：' : 'Species ownership data is unavailable: '}{speciesOwnershipError}</p>}
+        {!speciesOwnership && !speciesOwnershipError && <p className="ownership-loading">{language === 'zh' ? '正在加载全量物种归属…' : 'Loading complete species ownership…'}</p>}
+        {speciesOwnership && <>
+          <div className="ownership-summary" aria-label={language === 'zh' ? 'Catalogue of Life 物种归属摘要' : 'Catalogue of Life species ownership summary'}>
+            <article><strong>{number(speciesOwnership.proof.assignedSpecies)}</strong><span>{language === 'zh' ? '严格 accepted 已归属' : 'strict accepted assigned'}</span></article>
+            <article><strong>{speciesOwnership.entries.length}</strong><span>{language === 'zh' ? '互斥资源分区' : 'exclusive resource partitions'}</span></article>
+            <article><strong>{speciesOwnership.entries.filter((entry) => entry.kind === 'static-package').length}</strong><span>{language === 'zh' ? '静态资源包' : 'static packages'}</span></article>
+            <article><strong>{speciesOwnership.entries.filter((entry) => entry.kind === 'catalogue-only').length}</strong><span>{language === 'zh' ? '仅目录兜底' : 'catalogue-only fallbacks'}</span></article>
+            <article><strong>{number(speciesOwnership.proof.unmatchedSpecies)}</strong><span>{language === 'zh' ? '未归属物种' : 'unmatched species'}</span></article>
+          </div>
+          <div className="ownership-policy-note">
+            <strong>{speciesOwnership.source.releaseAlias} · {speciesOwnership.source.releaseDate} · {speciesOwnership.source.strictPredicate}</strong>
+            <p>{language === 'zh' ? '沿本发布版 CoL 父链应用精确祖先 ID 与固定优先级；全部严格 accepted 物种恰好归属一个分区。归属覆盖仅表示名称与分类位置完整，不等于 Evo Atlas 专档、证据、媒体、化石、生态、翻译或专家评审已经成熟。' : 'Exact ancestor IDs and fixed priorities are applied along the pinned CoL lineage; every strict accepted species has exactly one owner. Ownership coverage means complete names and placement only, not mature Evo Atlas dossiers, evidence, media, fossils, ecology, translations, or expert review.'}</p>
+          </div>
+          <div className="ownership-table" role="table" aria-label={language === 'zh' ? '32 个物种资源分区' : '32 species resource partitions'}>
+            <div className="ownership-row ownership-row--head" role="row">
+              <span>{language === 'zh' ? '资源分区' : 'Resource partition'}</span>
+              <span>{language === 'zh' ? '类型' : 'Kind'}</span>
+              <span>{language === 'zh' ? '严格 accepted' : 'Strict accepted'}</span>
+              <span>{language === 'zh' ? '全集占比' : 'Share'}</span>
+              <span>{language === 'zh' ? '浏览根' : 'Browse roots'}</span>
+              <span>{language === 'zh' ? '范围边界' : 'Scope boundary'}</span>
+            </div>
+            {speciesOwnership.entries.map((entry) => (
+              <div className={`ownership-row ownership-row--${entry.kind}`} role="row" key={entry.id}>
+                <strong>{language === 'zh' ? entry.titleZh : entry.title}<small>{entry.id}</small></strong>
+                <span className="ownership-kind">{entry.kind === 'static-package' ? (language === 'zh' ? '静态资源包' : 'Static package') : (language === 'zh' ? '仅目录' : 'Catalogue-only')}</span>
+                <span>{number(entry.acceptedSpeciesCount)}</span>
+                <span>{((entry.acceptedSpeciesCount / speciesOwnership.source.acceptedSpecies) * 100).toFixed(entry.acceptedSpeciesCount === 0 ? 1 : 3)}%</span>
+                <span className="ownership-roots">{entry.browseRootIds.length ? entry.browseRootIds.map((rootId) => <code key={rootId}>{rootId}</code>) : '—'}</span>
+                <span className="ownership-scope">
+                  {language === 'zh'
+                    ? entry.scopeZh ?? (entry.zeroAssignmentReason ? '本发布版没有归属记录；保留此分区以表达明确的零覆盖边界。' : entry.kind === 'catalogue-only' ? '残余目录分区；不是专档成熟度声明。' : '由固定 CoL 祖先 ID 定义的物种归属。')
+                    : entry.scope ?? entry.zeroAssignmentReason ?? (entry.kind === 'catalogue-only' ? 'Residual catalogue partition; not a dossier-maturity claim.' : 'Species ownership defined by pinned CoL ancestor IDs.')}
+                  {(entry.disclaimer || entry.disclaimerZh) && <small>{language === 'zh' ? entry.disclaimerZh ?? entry.disclaimer : entry.disclaimer ?? entry.disclaimerZh}</small>}
+                </span>
+              </div>
+            ))}
+          </div>
+          <p className="ownership-proof">{language === 'zh'
+            ? `证明：访问 ${number(speciesOwnership.proof.visitedAcceptedSpecies)}，归属 ${number(speciesOwnership.proof.assignedSpecies)}，未归属 ${number(speciesOwnership.proof.unmatchedSpecies)}，优先级后歧义 ${number(speciesOwnership.proof.ambiguousAfterPriority)}，父链断裂 ${number(speciesOwnership.proof.brokenLineages)}。`
+            : `Proof: ${number(speciesOwnership.proof.visitedAcceptedSpecies)} visited, ${number(speciesOwnership.proof.assignedSpecies)} assigned, ${number(speciesOwnership.proof.unmatchedSpecies)} unmatched, ${number(speciesOwnership.proof.ambiguousAfterPriority)} ambiguous after priority, and ${number(speciesOwnership.proof.brokenLineages)} broken lineages.`}</p>
+        </>}
+      </section>
+
+      <section className="info-section">
+        <div className="info-section__heading">
+          <span>04</span>
           <div><small>{t('Coverage')}</small><h2>{t('Period inventory')}</h2></div>
         </div>
         <div className="coverage-table" role="table" aria-label={t('Period coverage')}>
@@ -182,7 +244,7 @@ export function DataPage({ onNavigate }: PageProps) {
 
       <section className="info-section info-section--limitations">
         <div className="info-section__heading">
-          <span>04</span>
+          <span>05</span>
           <div><small>{t('Known limits')}</small><h2>{t('Read before interpreting')}</h2></div>
         </div>
         <ol className="limitation-list">
