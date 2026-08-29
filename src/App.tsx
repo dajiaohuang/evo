@@ -2,7 +2,6 @@ import { lazy, Suspense, useCallback, useEffect, useState } from 'react'
 import { useAppStore } from './store'
 import { ErrorBoundary } from './components/common/ErrorBoundary'
 import { AppShell } from './components/shell/AppShell'
-import { HomePage } from './components/home/HomePage'
 import { buildRouteHash, parseRouteHash, type AppRoute } from './utils/routing'
 import { useI18n } from './i18n'
 import manifest from '../data/manifest.json'
@@ -122,11 +121,11 @@ export default function App() {
   else if (route === 'lab') page = <LabPage params={routeState.params} onNavigate={navigate} />
   else if (route === 'data') page = <DataPage onNavigate={navigate} />
   else if (route === 'methods') page = <MethodsPage onNavigate={navigate} />
-  else page = <HomePage onNavigate={navigate} />
+  else page = <ExplorerWorkspace key={`dashboard:${routeState.params.toString()}`} dashboard />
 
   return (
     <ErrorBoundary>
-      <AppShell route={route} onNavigate={navigate} immersive={route === 'explore'}>
+      <AppShell route={route} onNavigate={navigate} immersive={route === 'explore' || route === 'home'} focused={route === 'home'}>
         <Suspense fallback={<RouteLoading />}>{page}</Suspense>
       </AppShell>
     </ErrorBoundary>

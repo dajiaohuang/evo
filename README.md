@@ -5,10 +5,11 @@ Evo Atlas is a static-first web atlas for exploring 4.567 billion years of Earth
 ## What is implemented
 
 - **Deep-time portal** — Hadean to present navigation, period entry points, 4 published guided stories and 6 evidence-blocked canonical drafts.
-- **Synchronized Explorer** — Geological timeline, occurrence-coordinate map, tree of life, evidence inspector and dataset-checked shareable URL state. Continental geometry is withheld until provenance is complete.
+- **Dashboard-first entry** — The site opens directly into the synchronized atlas with four preset scenes and an explicit tutorial choice; navigation, evidence and research tools remain folded until requested.
+- **Synchronized Explorer** — Geological timeline, checksum-verified CAO2024 period-midpoint coastline snapshots, occurrence-coordinate map, tree of life, evidence inspector and dataset-checked shareable URL state.
 - **Five-rank geological time** — ICS 2026/06 eons, eras, periods, epochs and ages with hierarchy, uncertainty, stable source identifiers and documented projection notes.
 - **Separated tree semantics** — Atlas-wide navigation ontology, scoped Perissodactyla topology, first-appearance proxy, fossil ranges, radial navigation and calibration-evidence views, with clade collapse, lineage trace, trait/event overlays and Newick/Nexus export.
-- **Multi-scale occurrence map** — Projected-pixel cluster, density and point modes with reconstructed and modern coordinates kept separate, plus explicitly sample-derived centroid/latitude trajectories. The continental layer is visibly unavailable while provenance is incomplete.
+- **Multi-scale occurrence map** — Projected-pixel cluster, density and point modes with reconstructed and modern coordinates kept separate, plus explicitly sample-derived centroid/latitude trajectories over checksum-verified CAO2024 period-midpoint coastline snapshots.
 - **Sampling-aware diversity view** — Observed taxon names, collection coverage, age precision and spatial metadata without treating record counts as true richness.
 - **Evidence catalog** — Bilingual taxon and event directories with source links, confidence and uncertainty kept separate.
 - **Compare workbench** — Taxa, time windows, countries and competing representation assumptions.
@@ -28,7 +29,7 @@ Evo Atlas is a static-first web atlas for exploring 4.567 billion years of Earth
 | Area | Implementation |
 | --- | --- |
 | Application | React 19, TypeScript, Vite 8, hash routing |
-| Map | Leaflet / react-leaflet with local occurrence chunks; no continental geometry is currently distributed |
+| Map | Leaflet / react-leaflet with checksum-verified CAO2024 coastline snapshots and local occurrence chunks |
 | Tree and charts | D3 plus lightweight SVG/CSS visualizations |
 | State | Zustand slices for geological time, map, tree and fossil evidence |
 | Data | Canonical versioned JSON under `data/`; generated `.json.gz` runtime packages under `/evo/data/` |
@@ -36,7 +37,7 @@ Evo Atlas is a static-first web atlas for exploring 4.567 billion years of Earth
 | Offline | `vite-plugin-pwa`; app/Core precache plus demand-driven package caches |
 | Hosting | GitHub Pages under the `/evo/` base path |
 
-The main routes are `#/home`, `#/catalog`, `#/stories`, `#/explore`, `#/research`, `#/about`, `#/taxa`, `#/events`, `#/compare`, `#/lab`, `#/data` and `#/methods`. Explorer URLs encode dataset version, age/window, primary view, selected taxon/occurrence, map center/zoom, marker and coordinate modes, tree mode and story/event context. A link targeting another dataset snapshot requires explicit confirmation before it is rewritten. Reconstruction model labels remain occurrence-level evidence and are not exposed as a no-op global selector. Global search covers scientific/English/Chinese taxon names, navigation nodes, geological periods, events, stories and a curated place index.
+The main routes are `#/home`, `#/catalog`, `#/stories`, `#/explore`, `#/research`, `#/about`, `#/taxa`, `#/events`, `#/compare`, `#/lab`, `#/data` and `#/methods`. `#/home` is the focused dashboard; `#/explore` remains the full-panel deep link. Explorer URLs encode dataset version, age/window, primary view, selected taxon/occurrence, map center/zoom, marker and coordinate modes, tree mode and story/event context. A link targeting another dataset snapshot requires explicit confirmation before it is rewritten. Reconstruction model labels remain occurrence-level evidence and are not exposed as a no-op global selector. Global search covers scientific/English/Chinese taxon names, navigation nodes, geological periods, events, stories and a curated place index.
 
 ## Local development
 
@@ -83,7 +84,7 @@ See [data methods](docs/data-methods.md), the [dataset changelog](data/CHANGELOG
 
 ## Evidence boundaries
 
-The atlas exposes two occurrence scopes: a 13,600-row bounded, non-random period-stratified PBDB bundle for cross-clade views, and a separate 13,210-row complete pinned Perissodactyla base-ID snapshot. “Complete” means every page returned by that exact PBDB query was retained; it does not mean the fossil record is complete. The bounded bundle has unknown selection probability and no retained upstream totals, so its counts are neither exhaustive nor statistically representative. Paleogeographic outlines are withheld pending complete redistribution provenance. The atlas-wide hierarchy is a navigation ontology, while the separate Perissodactyla topology hypothesis remains non-exhaustive. First/last appearances are sampling-dependent and are not molecular-clock divergence estimates. The interface repeats these limits at the point of interpretation.
+The atlas exposes two occurrence scopes: a 13,600-row bounded, non-random period-stratified PBDB bundle for cross-clade views, and a separate 13,210-row complete pinned Perissodactyla base-ID snapshot. “Complete” means every page returned by that exact PBDB query was retained; it does not mean the fossil record is complete. The bounded bundle has unknown selection probability and no retained upstream totals, so its counts are neither exhaustive nor statistically representative. The CAO2024 land layer is one modelled midpoint snapshot per geological period and is not assumed to share a reconstruction model with PBDB paleocoordinates. The atlas-wide hierarchy is a navigation ontology, while the separate Perissodactyla topology hypothesis remains non-exhaustive. First/last appearances are sampling-dependent and are not molecular-clock divergence estimates. The interface repeats these limits at the point of interpretation.
 
 ## License
 

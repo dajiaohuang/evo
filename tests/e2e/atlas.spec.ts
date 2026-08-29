@@ -2,7 +2,7 @@ import AxeBuilder from '@axe-core/playwright'
 import { expect, test } from '@playwright/test'
 
 test.beforeEach(async ({ page }) => {
-  await page.addInitScript(() => window.localStorage.setItem('evo-explorer-guide-v1', 'dismissed'))
+  await page.addInitScript(() => window.localStorage.setItem('evo-explorer-guide-v2', 'dismissed'))
 })
 
 test('language switch localizes the shell and scientific content, then persists', async ({ page }) => {
@@ -27,6 +27,8 @@ test('language switch localizes the shell and scientific content, then persists'
 test('global search indexes structured Chinese ontology and interval names', async ({ page }) => {
   await page.addInitScript(() => window.localStorage.setItem('evo-atlas-language', 'zh'))
   await page.goto('./#/home')
+  await page.getByRole('button', { name: '更多页面' }).click()
+  await page.getByRole('navigation', { name: '详细工具' }).getByRole('button', { name: /^目录/ }).click()
   await page.locator('.global-search-trigger').click()
   const search = page.getByPlaceholder('搜索类群、地质时段、事件、地点…')
 
@@ -82,7 +84,7 @@ test('Explorer restores state and removes the unsupported global model parameter
   await expect(page.getByRole('button', { name: 'points' })).toHaveClass(/is-active/)
   await expect(page.getByRole('button', { name: 'modern' })).toHaveClass(/is-active/)
   await expect(page.getByText('Shared time window 20–5 Ma')).toBeVisible()
-  await expect.poll(() => page.url()).toContain('dataset=2026.08-static-v5-rc3')
+  await expect.poll(() => page.url()).toContain('dataset=2026.08-static-v5-rc4')
   for (const fragment of ['older=20', 'younger=5', 'lat=10.000', 'lng=20.000', 'zoom=3.00', 'treeMode=fossil-range']) {
     expect(page.url()).toContain(fragment)
   }
@@ -95,7 +97,7 @@ test('Explorer requires confirmation before replacing a mismatched dataset versi
   await expect(page.getByRole('alertdialog')).toContainText('2025.01-old')
   expect(page.url()).toContain('dataset=2025.01-old')
   await page.getByRole('button', { name: 'Use current dataset' }).click()
-  await expect.poll(() => page.url()).toContain('dataset=2026.08-static-v5-rc3')
+  await expect.poll(() => page.url()).toContain('dataset=2026.08-static-v5-rc4')
 })
 
 test('a service-worker upgrade removes dataset A caches and dataset B remains coherent', async ({ page }) => {
@@ -104,7 +106,7 @@ test('a service-worker upgrade removes dataset A caches and dataset B remains co
     await navigator.serviceWorker.ready
     const oldCache = await caches.open('evo-runtime-data-2026.08-static-v3')
     await oldCache.put('/evo/data/packages/atlas-core/manifest.json', new Response(JSON.stringify({ version: '2026.08-static-v3' })))
-    const upgraded = await navigator.serviceWorker.register('/evo/sw.js?upgrade-test=2026.08-static-v5-rc3', { scope: '/evo/upgrade-test/' })
+    const upgraded = await navigator.serviceWorker.register('/evo/sw.js?upgrade-test=2026.08-static-v5-rc4', { scope: '/evo/upgrade-test/' })
     const worker = upgraded.installing ?? upgraded.waiting ?? upgraded.active
     if (worker?.state !== 'activated') await new Promise<void>((resolve) => worker?.addEventListener('statechange', () => {
       if (worker.state === 'activated') resolve()
@@ -126,7 +128,7 @@ test('a service-worker upgrade removes dataset A caches and dataset B remains co
     const versions = await Promise.all(manifestFiles.map((file) => fetch(`/evo/data/${file.url}`).then((response) => response.json()).then((manifest) => manifest.version as string)))
     return { datasetVersion: current.datasetVersion, releaseBase: current.releaseBase, urls: manifestFiles.map((file) => file.url), versions, retained: history.releases.map((entry) => entry.datasetVersion) }
   })
-  expect(releaseState.releaseBase).toBe('releases/2026.08-static-v5-rc3/')
+  expect(releaseState.releaseBase).toBe('releases/2026.08-static-v5-rc4/')
   expect(releaseState.urls.every((url) => url.startsWith(releaseState.releaseBase))).toBe(true)
   expect(releaseState.versions.every((version) => version === releaseState.datasetVersion)).toBe(true)
   expect(releaseState.retained[0]).toBe(releaseState.datasetVersion)
@@ -147,12 +149,13 @@ test('an active service worker does not replace static knowledge pages with the 
 
 test('browser back and forward preserve hash navigation', async ({ page }) => {
   await page.goto('./#/home')
-  await page.getByRole('button', { name: 'Explorer', exact: true }).click()
-  await expect(page).toHaveTitle('Explore — Evo Atlas')
+  await page.getByRole('button', { name: 'Open more pages' }).click()
+  await page.getByRole('navigation', { name: 'Detailed tools' }).getByRole('button', { name: /^Catalog/ }).click()
+  await expect(page).toHaveTitle('Catalog — Evo Atlas')
   await page.goBack()
   await expect(page).toHaveTitle('Evo Atlas — Deep-Time Evidence Explorer')
   await page.goForward()
-  await expect(page).toHaveTitle('Explore — Evo Atlas')
+  await expect(page).toHaveTitle('Catalog — Evo Atlas')
 })
 
 test('mobile Explorer panels remain operable', async ({ page }) => {

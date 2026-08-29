@@ -19,6 +19,18 @@ import { EvidenceStatus } from '../common/EvidenceStatus'
 import './ExplorerWorkspace.css'
 
 type ExplorerView = 'map' | 'tree' | 'diversity'
+type GuideMode = 'choice' | 'tour' | 'hidden'
+
+interface ExplorerWorkspaceProps {
+  dashboard?: boolean
+}
+
+const DASHBOARD_PRESETS: Array<{ id: string; title: string; description: string; age: number; view: ExplorerView; taxonId?: string }> = [
+  { id: 'k-pg', title: 'K–Pg boundary', description: 'Extinction boundary, occurrences and changing land geometry', age: 66, view: 'map' },
+  { id: 'cambrian', title: 'Cambrian seas', description: 'Early Phanerozoic geography and sampled fossil records', age: 512.8, view: 'map' },
+  { id: 'perissodactyla', title: 'Odd-toed ungulates', description: 'The deepest source-linked package and its tree context', age: 34, view: 'tree', taxonId: 'perissodactyla' },
+  { id: 'jurassic', title: 'Jurassic radiations', description: 'Compare sampled diversity around 172 Ma', age: 172.3, view: 'diversity' },
+]
 
 const TREE_MODES = new Set<TreeDisplayMode>(['navigation', 'cladogram', 'first-appearance', 'fossil-range', 'calibration', 'radial'])
 const MARKER_MODES = new Set<FossilMarkerMode>(['clusters', 'density', 'points'])
@@ -57,11 +69,11 @@ function ModuleLoading() {
   return <div className="explorer-module-loading">{t('Loading view…')}</div>
 }
 
-function shouldShowFirstRunGuide(): boolean {
-  try { return window.localStorage.getItem('evo-explorer-guide-v1') !== 'dismissed' } catch { return true }
+function initialGuideMode(): GuideMode {
+  try { return window.localStorage.getItem('evo-explorer-guide-v2') === 'dismissed' ? 'hidden' : 'choice' } catch { return 'choice' }
 }
 
-export function ExplorerWorkspace() {
+export function ExplorerWorkspace({ dashboard = false }: ExplorerWorkspaceProps) {
   const { language, number, t } = useI18n()
   const [initialRoute] = useState(() => parseRouteHash(window.location.hash))
   const routeView = initialRoute.params.get('view')
@@ -83,7 +95,8 @@ export function ExplorerWorkspace() {
   const [mobilePanel, setMobilePanel] = useState<'navigator' | 'inspector' | null>(null)
   const [query, setQuery] = useState('')
   const [shareStatus, setShareStatus] = useState<'idle' | 'copied' | 'ready'>('idle')
-  const [showFirstRunGuide, setShowFirstRunGuide] = useState(shouldShowFirstRunGuide)
+  const [guideMode, setGuideMode] = useState<GuideMode>(initialGuideMode)
+  const [detailsOpen, setDetailsOpen] = useState(!dashboard)
 
   const currentAge = useAppStore((state) => state.currentAge)
   const currentPeriod = useAppStore((state) => state.currentPeriod)
@@ -188,7 +201,7 @@ export function ExplorerWorkspace() {
 
   useEffect(() => {
     if (!datasetAccepted) return
-    const hash = buildRouteHash('explore', {
+    const hash = buildRouteHash(dashboard ? 'home' : 'explore', {
       age: currentAge.toFixed(1),
       view,
       taxon: selectedNodeId,
@@ -208,7 +221,7 @@ export function ExplorerWorkspace() {
       occurrence: selectedOccurrence?.oid,
     })
     window.history.replaceState(null, '', `${window.location.pathname}${window.location.search}${hash}`)
-  }, [context, coordinateMode, currentAge, datasetAccepted, markerMode, selectedNodeId, selectedOccurrence?.oid, treeMode, view, viewState])
+  }, [context, coordinateMode, currentAge, dashboard, datasetAccepted, markerMode, selectedNodeId, selectedOccurrence?.oid, treeMode, view, viewState])
 
   const chooseNode = (node: FlatNode) => {
     void selectSubject({ nodeId: node.id, taxonId: node.taxonId })
@@ -227,15 +240,24 @@ export function ExplorerWorkspace() {
     window.setTimeout(() => setShareStatus('idle'), 1600)
   }
 
-  const dismissFirstRunGuide = () => {
-    setShowFirstRunGuide(false)
-    try { window.localStorage.setItem('evo-explorer-guide-v1', 'dismissed') } catch { /* Guide can still close for this session. */ }
+  const dismissGuide = () => {
+    setGuideMode('hidden')
+    try { window.localStorage.setItem('evo-explorer-guide-v2', 'dismissed') } catch { /* Guide can still close for this session. */ }
+  }
+
+  const openPreset = (preset: (typeof DASHBOARD_PRESETS)[number]) => {
+    setTime(preset.age)
+    setView(preset.view)
+    if (preset.taxonId) {
+      const node = nodes.find((candidate) => candidate.id === preset.taxonId)
+      if (node) void selectSubject({ nodeId: node.id, taxonId: node.taxonId })
+    }
   }
 
   const selectedPeriod = periods.find((period) => period.name === currentPeriod)
 
   return (
-    <main className="explorer-workspace">
+    <main className={`explorer-workspace${dashboard ? ' explorer-workspace--dashboard' : ''}${detailsOpen ? ' is-details-open' : ''}`}>
       {datasetMismatch && !datasetAccepted && (
         <section className="dataset-mismatch" role="alertdialog" aria-modal="true" aria-labelledby="dataset-mismatch-title">
           <div>
@@ -249,7 +271,7 @@ export function ExplorerWorkspace() {
           </div>
         </section>
       )}
-      <aside className={`explorer-nav${mobilePanel === 'navigator' ? ' is-open' : ''}`} aria-label={t('Taxon and time navigator')}>
+      {detailsOpen && <aside className={`explorer-nav${mobilePanel === 'navigator' ? ' is-open' : ''}`} aria-label={t('Taxon and time navigator')}>
         <div className="panel-heading">
           <span>{t('Taxon navigator')}</span>
           <div className="panel-heading-actions">
@@ -314,20 +336,33 @@ export function ExplorerWorkspace() {
           <strong>{manifest.datasetVersion}</strong>
           <small>{t(datasetMismatch ? 'Mismatch acknowledged; using the current snapshot.' : requestedDataset ? 'Shared snapshot matches this deployment.' : 'Current deployment snapshot.')}</small>
         </div>
-      </aside>
+      </aside>}
 
       {mobilePanel && <button className="explorer-panel-backdrop" aria-label={t('Close Explorer panel')} onClick={() => setMobilePanel(null)} />}
 
       <section className="explorer-stage">
-        {showFirstRunGuide && (
+        {guideMode === 'choice' && (
+          <section className="dashboard-welcome" role="dialog" aria-modal="true" aria-labelledby="dashboard-welcome-title">
+            <div>
+              <span>{t('Evo Atlas dashboard')}</span>
+              <h1 id="dashboard-welcome-title">{t('Start with the dashboard or take the quick tour?')}</h1>
+              <p>{t('The map, tree, fossil sample and geological timeline share one time context. Detailed research tools stay folded until you ask for them.')}</p>
+              <div>
+                <button className="dashboard-welcome__primary" autoFocus onClick={() => setGuideMode('tour')}>{t('Take the 3-minute tour')}</button>
+                <button onClick={dismissGuide}>{t('Use the dashboard now')}</button>
+              </div>
+            </div>
+          </section>
+        )}
+        {guideMode === 'tour' && (
           <aside className="explorer-first-run" aria-label={t('Explorer quick guide')}>
-            <div className="explorer-first-run__heading"><strong>{t('Three things to know')}</strong><button onClick={dismissFirstRunGuide} aria-label={t('Dismiss Explorer guide')}>×</button></div>
+            <div className="explorer-first-run__heading"><strong>{t('Three things to know')}</strong><button onClick={dismissGuide} aria-label={t('Dismiss Explorer guide')}>×</button></div>
             <ol>
               <li><span>01</span><p><strong>{t('Time filters every view.')}</strong>{t('The timeline changes which occurrence and branch context is visible.')}</p></li>
               <li><span>02</span><p><strong>{t('Map, tree and evidence stay synchronized.')}</strong>{t('A selection follows you while each view keeps its own scientific meaning.')}</p></li>
               <li><span>03</span><p><strong>{t('A data point is not biological truth.')}</strong>{t('Missing or dense records also reflect rock exposure, collection and publication.')}</p></li>
             </ol>
-            <button className="explorer-first-run__done" onClick={dismissFirstRunGuide}>{t('Start exploring')}</button>
+            <button className="explorer-first-run__done" onClick={dismissGuide}>{t('Start exploring')}</button>
           </aside>
         )}
         <div className="stage-toolbar">
@@ -344,22 +379,41 @@ export function ExplorerWorkspace() {
             <button aria-expanded={mobilePanel === 'navigator'} onClick={() => setMobilePanel((panel) => panel === 'navigator' ? null : 'navigator')}>{t('Taxa & time')}</button>
             <button aria-expanded={mobilePanel === 'inspector'} onClick={() => setMobilePanel((panel) => panel === 'inspector' ? null : 'inspector')}>{t('Evidence')}</button>
           </div>
-          <div className="stage-metric">
-            <strong>{number(periodOccurrences?.length ?? 0)}</strong>
-            <span>{t('visible records')}</span>
+          <div className="stage-actions">
+            <button className="stage-tutorial-trigger" onClick={() => setGuideMode('choice')}>{t('Tutorial')}</button>
+            {dashboard && <button className="stage-details-trigger" aria-expanded={detailsOpen} onClick={() => setDetailsOpen((open) => !open)}>{t(detailsOpen ? 'Fold detailed tools' : 'Open detailed tools')}</button>}
+            <div className="stage-metric">
+              <strong>{number(periodOccurrences?.length ?? 0)}</strong>
+              <span>{t('visible records')}</span>
+            </div>
           </div>
         </div>
 
-        <div className="stage-canvas">
-          <Suspense fallback={<ModuleLoading />}>
-            {view === 'map' ? (
-              <ErrorBoundary fallback={<ViewFallback label="Map" />}><PaleoMap /></ErrorBoundary>
-            ) : view === 'tree' ? (
-              <ErrorBoundary fallback={<ViewFallback label="Tree" />}><EvoTree /></ErrorBoundary>
-            ) : (
-              <ErrorBoundary fallback={<ViewFallback label="Diversity view" />}><DiversityView /></ErrorBoundary>
-            )}
-          </Suspense>
+        <div className="dashboard-stage-body">
+          {dashboard && !detailsOpen && (
+            <aside className="dashboard-presets" aria-label={t('Preset scenes')}>
+              <div><span>{t('Preset scenes')}</span><small>{t('Choose a starting point')}</small></div>
+              {DASHBOARD_PRESETS.map((preset) => (
+                <button key={preset.id} onClick={() => openPreset(preset)}>
+                  <span>{preset.age.toFixed(1)} <small>Ma</small></span>
+                  <strong>{t(preset.title)}</strong>
+                  <p>{t(preset.description)}</p>
+                  <i>→</i>
+                </button>
+              ))}
+            </aside>
+          )}
+          <div className="stage-canvas">
+            <Suspense fallback={<ModuleLoading />}>
+              {view === 'map' ? (
+                <ErrorBoundary fallback={<ViewFallback label="Map" />}><PaleoMap /></ErrorBoundary>
+              ) : view === 'tree' ? (
+                <ErrorBoundary fallback={<ViewFallback label="Tree" />}><EvoTree /></ErrorBoundary>
+              ) : (
+                <ErrorBoundary fallback={<ViewFallback label="Diversity view" />}><DiversityView /></ErrorBoundary>
+              )}
+            </Suspense>
+          </div>
         </div>
 
         <div className="stage-note">
@@ -369,14 +423,14 @@ export function ExplorerWorkspace() {
               ? t('{event} · event window {start}–{end} Ma', { event: language === 'zh' ? eventContext.titleZh : eventContext.title, start: eventContext.startAge, end: eventContext.endAge })
               : context.older !== null && context.younger !== null
                 ? t('Shared time window {older}–{younger} Ma · map shown at {age} Ma', { older: context.older, younger: context.younger, age: currentAge.toFixed(1) })
-                : t('Continental geometry is withheld · coordinate layers never mix modern and reconstructed positions')
+                : t('Period-level paleogeography · coordinate layers never mix modern and reconstructed positions')
             : view === 'tree'
               ? t('Cladogram, first-appearance proxy and fossil-range modes expose distinct time assumptions')
               : t('Observed sample patterns · absence and record counts are not direct biological richness estimates')}
         </div>
       </section>
 
-      <aside className={`explorer-inspector${mobilePanel === 'inspector' ? ' is-open' : ''}`} aria-label={t('Evidence inspector')}>
+      {detailsOpen && <aside className={`explorer-inspector${mobilePanel === 'inspector' ? ' is-open' : ''}`} aria-label={t('Evidence inspector')}>
         <div className="panel-heading">
           <span>{t('Evidence inspector')}</span>
           <div className="panel-heading-actions">
@@ -398,7 +452,7 @@ export function ExplorerWorkspace() {
           {selectedPublication && <EvidenceStatus publication={selectedPublication} entityId={profileContext?.id ?? selectedNodeId ?? undefined} compact />}
           <ErrorBoundary fallback={<ViewFallback label="Inspector" />}><SpeciesDetail /></ErrorBoundary>
         </div>
-      </aside>
+      </aside>}
 
       <section className="explorer-timeline">
         <ErrorBoundary fallback={<ViewFallback label="Timeline" />}><GeoTimeline /></ErrorBoundary>
