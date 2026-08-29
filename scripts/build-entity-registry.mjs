@@ -185,11 +185,7 @@ const packageReviewById = new Map(packageDefinitions.map((definition) => {
 function packageMaturity(definition) {
   return {
     platformMaturity: 'published',
-    scientificMaturity: definition.id === 'atlas-core'
-      ? 'structured'
-      : definition.id === 'perissodactyla'
-        ? 'curated-draft'
-        : 'generated-scaffold',
+    scientificMaturity: definition.scientificMaturity ?? 'generated-scaffold',
     automatedReviewStatus: 'passed',
     reviewStatus: packageReviewById.get(definition.id).status,
   }

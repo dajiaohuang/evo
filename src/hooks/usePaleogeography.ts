@@ -1,18 +1,18 @@
 import { useEffect, useState } from 'react'
 import { loadPaleogeography } from '../data-client/staticDataClient'
-import type { ContinentFeatureCollection } from '../types'
+import type { PaleogeographyLayers } from '../types'
 import type { RuntimeMapManifest, RuntimeMapSnapshot } from '../data-client/types'
 
 interface PaleogeographyState {
   period: string | null
-  geoJson: ContinentFeatureCollection | null
+  layers: PaleogeographyLayers | null
   manifest: RuntimeMapManifest | null
   snapshot: RuntimeMapSnapshot | null
   loading: boolean
   error: string | null
 }
 
-const EMPTY_STATE: PaleogeographyState = { period: null, geoJson: null, manifest: null, snapshot: null, loading: false, error: null }
+const EMPTY_STATE: PaleogeographyState = { period: null, layers: null, manifest: null, snapshot: null, loading: false, error: null }
 
 export function usePaleogeography(period: string | null) {
   const [state, setState] = useState<PaleogeographyState>(EMPTY_STATE)
@@ -22,8 +22,8 @@ export function usePaleogeography(period: string | null) {
     loadPaleogeography(period).then((result) => {
       if (!active) return
       setState(result
-        ? { period, geoJson: result.geometry, manifest: result.manifest, snapshot: result.snapshot, loading: false, error: null }
-        : { ...EMPTY_STATE, period, error: 'No published coastline snapshot is available for this period.' })
+        ? { period, layers: result.layers, manifest: result.manifest, snapshot: result.snapshot, loading: false, error: null }
+        : { ...EMPTY_STATE, period, error: 'No published paleogeography snapshot is available for this period.' })
     }, (error) => {
       if (!active) return
       setState({ ...EMPTY_STATE, period, error: error instanceof Error ? error.message : String(error) })

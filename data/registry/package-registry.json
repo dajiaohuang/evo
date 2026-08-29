@@ -1,9 +1,9 @@
 {
   "schemaVersion": 5,
-  "version": "2026.08-static-v5-rc4",
+  "version": "2026.08-static-v5-rc5",
   "schemaStatus": "candidate",
   "packageCount": 24,
-  "entityCount": 189,
+  "entityCount": 191,
   "packages": [
     {
       "id": "atlas-core",
@@ -162,9 +162,9 @@
       "rootEntityIds": [
         "echinodermata"
       ],
-      "entityCount": 5,
+      "entityCount": 7,
       "platformMaturity": "published",
-      "scientificMaturity": "generated-scaffold",
+      "scientificMaturity": "structured",
       "automatedReviewStatus": "passed",
       "reviewStatus": "not-reviewed"
     },
@@ -491,6 +491,8 @@
     "blastoidea": "echinoderms",
     "echinoidea": "echinoderms",
     "asteroidea": "echinoderms",
+    "ophiuroidea": "echinoderms",
+    "holothuroidea": "echinoderms",
     "hemichordata": "atlas-core",
     "pterobranchia": "atlas-core",
     "graptolithina": "molluscs-brachiopods",

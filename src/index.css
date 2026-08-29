@@ -169,6 +169,12 @@ a:focus-visible {
 .map-layer-control button.is-active { border-color: var(--color-accent-dim); color: var(--color-accent); }
 .map-layer-control label { margin-top: 8px; display: flex; align-items: center; gap: 6px; font-size: 8px; }
 .map-layer-control small { display: block; margin-top: 7px; color: var(--color-text-faint); font-size: 7px; line-height: 1.45; }
+.map-layer-control > .tectonic-legend { margin-top: 6px; display: grid; grid-template-columns: 1fr 1fr; grid-auto-flow: row; gap: 4px 7px; }
+.tectonic-legend span { display: flex; align-items: center; gap: 5px; color: var(--color-text-faint); font: 6px var(--font-mono); }
+.tectonic-legend i { width: 13px; height: 0; border-top: 2px solid #83969e; }
+.tectonic-legend i.ridge { border-color: #efb65a; border-top-style: dashed; }
+.tectonic-legend i.subduction { border-color: #e27a73; }
+.tectonic-legend i.transform { border-color: #79b9c6; border-top-style: dotted; }
 .map-model-ledger { margin-top: 7px; padding-top: 6px; border-top: 1px solid var(--color-border-subtle); }
 .map-model-ledger div { display: flex; justify-content: space-between; gap: 7px; }
 .map-model-ledger dt, .map-model-ledger dd { color: var(--color-text-faint); font: 6px/1.6 var(--font-mono); }

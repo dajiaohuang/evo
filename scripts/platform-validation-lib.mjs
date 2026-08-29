@@ -268,7 +268,12 @@ function provenanceFailures() {
   if (!existsSync(join(rootDir, mapProvenance.processing?.script ?? ''))) failures.push('paleogeography processing script is missing')
   for (const metadata of mapMetadata) {
     const snapshot = mapSnapshots.get(metadata.name)
-    if (metadata.mapLayerStatus === 'available' && (!snapshot || !existsSync(join(rootDir, snapshot.geometryFile ?? '')) || !snapshot.geometrySha256 || !snapshot.sourceSha256)) {
+    const requiredLayers = ['coastlines', 'platePolygons', 'plateBoundaries']
+    const layersComplete = requiredLayers.every((layerId) => {
+      const layer = snapshot?.layers?.[layerId]
+      return layer && existsSync(join(rootDir, layer.geometryFile ?? '')) && layer.geometrySha256 && layer.sourceSha256
+    })
+    if (metadata.mapLayerStatus === 'available' && (!snapshot || !layersComplete)) {
       failures.push(`${metadata.name}: available map geometry is missing checked-in source, processing or checksum provenance`)
     }
   }

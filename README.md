@@ -6,10 +6,10 @@ Evo Atlas is a static-first web atlas for exploring 4.567 billion years of Earth
 
 - **Deep-time portal** — Hadean to present navigation, period entry points, 4 published guided stories and 6 evidence-blocked canonical drafts.
 - **Dashboard-first entry** — The site opens directly into the synchronized atlas with four preset scenes and an explicit tutorial choice; navigation, evidence and research tools remain folded until requested.
-- **Synchronized Explorer** — Geological timeline, checksum-verified CAO2024 period-midpoint coastline snapshots, occurrence-coordinate map, tree of life, evidence inspector and dataset-checked shareable URL state.
+- **Synchronized Explorer** — Geological timeline, checksum-verified three-layer CAO2024 period-midpoint snapshots (coastlines, topological plate polygons and typed plate boundaries), occurrence-coordinate map, tree of life, evidence inspector and dataset-checked shareable URL state.
 - **Five-rank geological time** — ICS 2026/06 eons, eras, periods, epochs and ages with hierarchy, uncertainty, stable source identifiers and documented projection notes.
 - **Separated tree semantics** — Atlas-wide navigation ontology, scoped Perissodactyla topology, first-appearance proxy, fossil ranges, radial navigation and calibration-evidence views, with clade collapse, lineage trace, trait/event overlays and Newick/Nexus export.
-- **Multi-scale occurrence map** — Projected-pixel cluster, density and point modes with reconstructed and modern coordinates kept separate, plus explicitly sample-derived centroid/latitude trajectories over checksum-verified CAO2024 period-midpoint coastline snapshots.
+- **Multi-scale occurrence map** — Projected-pixel cluster, density and point modes with reconstructed and modern coordinates kept separate, plus explicitly sample-derived centroid/latitude trajectories over checksum-verified three-layer CAO2024 period-midpoint snapshots. Plate-boundary classifications and supplied subduction polarity are retained; the layers do not encode paleoelevation, bathymetry or terrain relief.
 - **Sampling-aware diversity view** — Observed taxon names, collection coverage, age precision and spatial metadata without treating record counts as true richness.
 - **Evidence catalog** — Bilingual taxon and event directories with source links, confidence and uncertainty kept separate.
 - **Compare workbench** — Taxa, time windows, countries and competing representation assumptions.
@@ -29,7 +29,7 @@ Evo Atlas is a static-first web atlas for exploring 4.567 billion years of Earth
 | Area | Implementation |
 | --- | --- |
 | Application | React 19, TypeScript, Vite 8, hash routing |
-| Map | Leaflet / react-leaflet with checksum-verified CAO2024 coastline snapshots and local occurrence chunks |
+| Map | Leaflet / react-leaflet with checksum-verified CAO2024 coastline, topological plate-polygon and typed plate-boundary snapshots plus local occurrence chunks; no paleoelevation layer |
 | Tree and charts | D3 plus lightweight SVG/CSS visualizations |
 | State | Zustand slices for geological time, map, tree and fossil evidence |
 | Data | Canonical versioned JSON under `data/`; generated `.json.gz` runtime packages under `/evo/data/` |
@@ -84,7 +84,7 @@ See [data methods](docs/data-methods.md), the [dataset changelog](data/CHANGELOG
 
 ## Evidence boundaries
 
-The atlas exposes two occurrence scopes: a 13,600-row bounded, non-random period-stratified PBDB bundle for cross-clade views, and a separate 13,210-row complete pinned Perissodactyla base-ID snapshot. “Complete” means every page returned by that exact PBDB query was retained; it does not mean the fossil record is complete. The bounded bundle has unknown selection probability and no retained upstream totals, so its counts are neither exhaustive nor statistically representative. The CAO2024 land layer is one modelled midpoint snapshot per geological period and is not assumed to share a reconstruction model with PBDB paleocoordinates. The atlas-wide hierarchy is a navigation ontology, while the separate Perissodactyla topology hypothesis remains non-exhaustive. First/last appearances are sampling-dependent and are not molecular-clock divergence estimates. The interface repeats these limits at the point of interpretation.
+The atlas exposes two occurrence scopes: a 13,600-row bounded, non-random period-stratified PBDB bundle for cross-clade views, and a separate 13,210-row complete pinned Perissodactyla base-ID snapshot. “Complete” means every page returned by that exact PBDB query was retained; it does not mean the fossil record is complete. The bounded bundle has unknown selection probability and no retained upstream totals, so its counts are neither exhaustive nor statistically representative. The three CAO2024 map layers are modelled midpoint snapshots for each geological period, not direct observations, continuous reconstructions or ancient elevation maps, and are not assumed to share a reconstruction model with PBDB paleocoordinates. The atlas-wide hierarchy is a navigation ontology, while the separate Perissodactyla topology hypothesis remains non-exhaustive. First/last appearances are sampling-dependent and are not molecular-clock divergence estimates. The interface repeats these limits at the point of interpretation.
 
 ## License
 

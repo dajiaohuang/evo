@@ -47,6 +47,8 @@ function occurrenceTrajectory(records: FossilOccurrence[], coordinateMode: Coord
 export function PaleoMap() {
   const { number, t } = useI18n()
   const [showTrajectory, setShowTrajectory] = useState(false)
+  const [showPlatePolygons, setShowPlatePolygons] = useState(true)
+  const [showPlateBoundaries, setShowPlateBoundaries] = useState(true)
   const markerMode = useAppStore((s) => s.markerMode) as MarkerMode
   const coordinateMode = useAppStore((s) => s.coordinateMode) as CoordinateMode
   const showContinents = useAppStore((s) => s.showContinents)
@@ -62,7 +64,7 @@ export function PaleoMap() {
   const selectedNodeId = useAppStore((s) => s.selectedNodeId)
   const mapRef = useRef<LeafletMap | null>(null)
   const {
-    geoJson,
+    layers,
     available: landLayerAvailable,
     loading: landLayerLoading,
     error: landLayerError,
@@ -119,6 +121,14 @@ export function PaleoMap() {
   const selectedTaxonRecords = useMemo(() => selectedNodeId ? occurrencesByTaxonQuery[`descendants:${selectedNodeId}`] ?? [] : [], [occurrencesByTaxonQuery, selectedNodeId])
   const trajectory = useMemo(() => occurrenceTrajectory(selectedTaxonRecords, coordinateMode), [coordinateMode, selectedTaxonRecords])
   const latitudinalShift = trajectory.length > 1 ? trajectory.at(-1)!.latitude - trajectory[0].latitude : null
+  const boundaryTypeCounts = useMemo(() => {
+    const counts = new Map<string, number>()
+    for (const feature of layers?.plateBoundaries.features ?? []) {
+      const type = feature.properties.type ?? 'UnclassifiedFeature'
+      counts.set(type, (counts.get(type) ?? 0) + 1)
+    }
+    return [...counts.entries()].sort(([left], [right]) => left.localeCompare(right))
+  }, [layers])
 
   return (
     <div style={{ height: '100%', width: '100%', position: 'relative' }}>
@@ -132,16 +142,60 @@ export function PaleoMap() {
         style={{ height: '100%', width: '100%', background: '#07171c' }}
         ref={mapRef}
       >
-        {showContinents && landLayerAvailable && geoJson && (
+        {showPlatePolygons && landLayerAvailable && layers?.platePolygons && (
           <GeoJSON
-            key={currentPeriod ?? 'cretaceous'}
-            data={geoJson}
+            key={`${currentPeriod ?? 'cretaceous'}-plates`}
+            data={layers.platePolygons}
+            style={(feature) => {
+              const pid = Number(feature?.properties?.pid ?? 0)
+              const palette = ['#516d7c', '#59657d', '#536f69', '#6d6256', '#5d6670']
+              return {
+                color: palette[Math.abs(pid) % palette.length],
+                weight: 0.8,
+                opacity: 0.65,
+                fillColor: palette[Math.abs(pid) % palette.length],
+                fillOpacity: 0.08,
+              }
+            }}
+            onEachFeature={(feature, layer) => {
+              const label = [feature.properties?.name, feature.properties?.pid ? `${t('Plate')} ${feature.properties.pid}` : null].filter(Boolean).join(' · ')
+              if (label) layer.bindTooltip(label, { sticky: true })
+            }}
+          />
+        )}
+        {showContinents && landLayerAvailable && layers?.coastlines && (
+          <GeoJSON
+            key={`${currentPeriod ?? 'cretaceous'}-coastlines`}
+            data={layers.coastlines}
             style={() => ({
               color: '#5a957d',
               weight: 1.5,
               fillColor: '#24463c',
               fillOpacity: 0.7,
             })}
+          />
+        )}
+        {showPlateBoundaries && landLayerAvailable && layers?.plateBoundaries && (
+          <GeoJSON
+            key={`${currentPeriod ?? 'cretaceous'}-boundaries`}
+            data={layers.plateBoundaries}
+            style={(feature) => {
+              const boundaryType = String(feature?.properties?.type ?? 'UnclassifiedFeature')
+              const styles = {
+                MidOceanRidge: { color: '#efb65a', weight: 1.5, dashArray: '5 3' },
+                SubductionZone: { color: '#e27a73', weight: 1.8 },
+                Transform: { color: '#79b9c6', weight: 1.35, dashArray: '2 3' },
+                ContinentalRift: { color: '#c6a6d9', weight: 1.35, dashArray: '6 3' },
+                TerraneBoundary: { color: '#b8aa86', weight: 1.1, dashArray: '1 3' },
+              }
+              return { ...(styles[boundaryType as keyof typeof styles] ?? { color: '#83969e', weight: 1, dashArray: '3 4' }), opacity: 0.9 }
+            }}
+            onEachFeature={(feature, layer) => {
+              const boundaryType = String(feature.properties?.type ?? t('Unclassified boundary'))
+              const polarity = feature.properties?.polarity ? t('GPlates polarity: {polarity}', { polarity: t(feature.properties.polarity) }) : null
+              const label = [t(boundaryType), polarity, feature.properties?.name, feature.properties?.pid ? `${t('Plate')} ${feature.properties.pid}` : null].filter(Boolean).join(' · ')
+              layer.bindTooltip(label, { sticky: true })
+            }}
           />
         )}
         <FossilMarkers mode={markerMode} coordinateMode={coordinateMode} />
@@ -183,17 +237,31 @@ export function PaleoMap() {
         <label title={landLayerError ?? undefined}>
           <input type="checkbox" checked={showContinents && landLayerAvailable} disabled={!landLayerAvailable || landLayerLoading} onChange={(event) => setShowContinents(event.target.checked)} /> {t('period coastline snapshot')}
         </label>
+        <label>
+          <input type="checkbox" checked={showPlatePolygons && landLayerAvailable} disabled={!landLayerAvailable || landLayerLoading} onChange={(event) => setShowPlatePolygons(event.target.checked)} /> {t('tectonic plate polygons')}
+        </label>
+        <label>
+          <input type="checkbox" checked={showPlateBoundaries && landLayerAvailable} disabled={!landLayerAvailable || landLayerLoading} onChange={(event) => setShowPlateBoundaries(event.target.checked)} /> {t('typed plate boundaries')}
+        </label>
+        {showPlateBoundaries && <div className="tectonic-legend" aria-label={t('Tectonic boundary legend')}>
+          <span><i className="ridge" />{t('ridge')}</span>
+          <span><i className="subduction" />{t('subduction')}</span>
+          <span><i className="transform" />{t('transform')}</span>
+          <span><i className="other" />{t('other')}</span>
+        </div>}
         <label title={t('Connects time-binned sample centroids; it is not a biological dispersal route.')}>
           <input type="checkbox" checked={showTrajectory && trajectory.length > 1} disabled={trajectory.length < 2} onChange={(event) => setShowTrajectory(event.target.checked)} /> {t('sample centroid trajectory')}
         </label>
         {selectedNodeId && <small>{trajectory.length > 1 ? t('{count} time bins · latitude change {shift}°', { count: trajectory.length, shift: `${latitudinalShift! >= 0 ? '+' : ''}${latitudinalShift!.toFixed(1)}` }) : t('The selected taxon has insufficient positioned records for a trajectory.')}</small>}
-        {landLayerLoading && <small role="status">{t('Loading checksum-verified coastline snapshot…')}</small>}
-        {landLayerError && <small role="alert">{t('Coastline snapshot unavailable; occurrence coordinates remain available.')}</small>}
+        {landLayerLoading && <small role="status">{t('Loading checksum-verified paleogeography layers…')}</small>}
+        {landLayerError && <small role="alert">{t('Paleogeography layers unavailable; occurrence coordinates remain available.')}</small>}
         {landSnapshot && <small>{t('Modelled at the period midpoint ({age} Ma), not a direct observation or continuous reconstruction.', { age: number(landSnapshot.reconstructionAgeMa ?? 0) })}</small>}
+        {landSnapshot && <small>{t('Tectonic polygons and boundaries do not encode elevation, bathymetry or terrain relief.')}</small>}
         {mapManifest && <small>{t('Land and occurrence paleocoordinates may use different models and are not spatially co-registered.')}</small>}
         <small>{t(coordinateMode === 'paleo' ? 'Only records with paired reconstructed coordinates are shown; no modern fallback.' : 'Only paired modern collection coordinates are shown; not aligned to reconstructed land.')}</small>
         <dl className="map-model-ledger">
           <div><dt>{t('Land')}</dt><dd>{landSnapshot ? `${landSnapshot.model} · ${number(landSnapshot.reconstructionAgeMa ?? 0)} Ma` : t('unavailable')}</dd></div>
+          <div><dt>{t('Tectonics')}</dt><dd>{landSnapshot ? t('plates + typed boundaries') : t('unavailable')}</dd></div>
           <div><dt>{t('Paleo points')}</dt><dd>{t('PBDB bundled field')}</dd></div>
           <div><dt>{t('Runtime')}</dt><dd>{t('no live reconstruction')}</dd></div>
           {mapManifest && <div><dt>{t('Source')}</dt><dd><a href={mapManifest.source.url} target="_blank" rel="noreferrer">Cao et al. 2024 · {mapManifest.source.license}</a></dd></div>}
@@ -203,6 +271,21 @@ export function PaleoMap() {
       <details className="map-data-alternative">
         <summary>{t('Text and table alternative')}</summary>
         <div>
+          {landSnapshot && layers && <>
+            <h3>{t('Paleogeography model summary')}</h3>
+            <p>{t('{model} model age: {age} Ma. Feature counts: {coastlines} coastlines, {plates} plate polygons and {boundaries} plate boundaries.', {
+              model: landSnapshot.model ?? t('unavailable'),
+              age: landSnapshot.reconstructionAgeMa === null ? t('unavailable') : number(landSnapshot.reconstructionAgeMa),
+              coastlines: number(layers.coastlines.features.length),
+              plates: number(layers.platePolygons.features.length),
+              boundaries: number(layers.plateBoundaries.features.length),
+            })}</p>
+            <table>
+              <caption>{t('Boundary type counts')}</caption>
+              <thead><tr><th>{t('Boundary type')}</th><th>{t('Features')}</th></tr></thead>
+              <tbody>{boundaryTypeCounts.map(([type, count]) => <tr key={type}><td>{t(type)}</td><td>{number(count)}</td></tr>)}</tbody>
+            </table>
+          </>}
           <p>{t('{count} records have {mode} coordinates in the loaded {period} sample. The table shows the first {shown}.', { count: number(positionedRecords.length), mode: t(coordinateMode), period: t(currentPeriod ?? 'selected interval'), shown: number(Math.min(100, positionedRecords.length)) })}</p>
           <table>
             <caption>{t('Occurrence coordinate data')}</caption>

@@ -338,8 +338,11 @@ const paleogeographyByPeriod = new Map(paleogeographyProvenance.snapshots.map((s
 const mapSnapshots = periodMetadata.map((period) => {
   const provenance = paleogeographyByPeriod.get(period.name)
   if (period.mapLayerStatus === 'available' && !provenance) throw new Error(`${period.name}: available map is missing provenance`)
-  const geometry = provenance
-    ? writeGzipJson(`maps/${period.name.toLowerCase()}.json.gz`, readJson(provenance.geometryFile))
+  const layers = provenance
+    ? Object.fromEntries(Object.entries(provenance.layers).map(([layerId, layer]) => [
+      layerId,
+      writeGzipJson(`maps/${period.name.toLowerCase()}-${layerId}.json.gz`, readJson(layer.geometryFile)),
+    ]))
     : null
   return {
     period: period.name,
@@ -348,7 +351,7 @@ const mapSnapshots = periodMetadata.map((period) => {
     descriptionZh: period.descriptionZh,
     reconstructionAgeMa: provenance?.reconstructionAgeMa ?? null,
     model: provenance?.model ?? null,
-    geometry,
+    layers,
   }
 })
 const mapsManifestFile = writeJson('maps/manifest.json', {
