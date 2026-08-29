@@ -1925,5 +1925,328 @@
         ]
       }
     ]
+  },
+  {
+    "id": "extant-gymnosperm-backbone",
+    "title": "Extant gymnosperm phylogenomic backbone",
+    "titleZh": "现生裸子植物系统基因组骨架",
+    "category": "origin",
+    "startAge": 0,
+    "endAge": 0,
+    "regions": ["Global living-family sample"],
+    "clades": ["Cycadales", "Ginkgoales", "Conifers", "Gnetales"],
+    "summary": "A nuclear phylogenomic analysis spanning all living gymnosperm families recovered a Gnepine topology and a cycads-plus-Ginkgo branch while leaving fossils and chronological ranges outside the claim.",
+    "claimIds": ["claim:event:extant-gymnosperm-backbone"],
+    "evidenceItems": [
+      {
+        "statement": "All 13 living gymnosperm families sampled across up to 1,308 nuclear loci",
+        "relation": "supports",
+        "claimIds": ["claim:event:extant-gymnosperm-backbone"],
+        "referenceLinks": [
+          {
+            "relation": "supports",
+            "referenceId": "ran-2018-gymnosperm-phylogenomics",
+            "figure": "Figures 1–2"
+          }
+        ]
+      }
+    ],
+    "uncertaintyItems": [
+      {
+        "statement": "Gene-tree conflict and alternative subset results keep the Gnepine placement a published hypothesis rather than permanent consensus",
+        "relation": "contextualizes",
+        "claimIds": ["claim:event:extant-gymnosperm-backbone"],
+        "referenceLinks": [
+          {
+            "relation": "supports",
+            "referenceId": "ran-2018-gymnosperm-phylogenomics",
+            "figure": "Figure 2",
+            "quoteLocator": "Evaluation of conflicts; Discussion"
+          }
+        ]
+      },
+      {
+        "statement": "The topology concerns sampled living lineages and supplies neither fossil ranges nor an extinct-seed-plant tree",
+        "relation": "contextualizes",
+        "claimIds": ["claim:event:extant-gymnosperm-backbone"],
+        "referenceLinks": [
+          {
+            "relation": "supports",
+            "referenceId": "ran-2018-gymnosperm-phylogenomics",
+            "quoteLocator": "Taxon sampling and phylogenetic scope"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "living-cycad-radiation-model",
+    "title": "2011 model of living-cycad radiation",
+    "titleZh": "2011 年现生苏铁辐射模型",
+    "category": "radiation",
+    "startAge": 12,
+    "endAge": 0,
+    "regions": ["Global living-cycad sample"],
+    "clades": ["Living Cycadales"],
+    "summary": "A 2011 fossil-calibrated model placed most sampled living cycad species within the last roughly 12 million years; later fossil-integrated studies require a less synchronous and more deeply rooted interpretation.",
+    "claimIds": ["claim:event:living-cycad-radiation-model"],
+    "evidenceItems": [
+      {
+        "statement": "Fossil-calibrated timetrees of sampled living cycad species and genera",
+        "relation": "supports",
+        "claimIds": ["claim:event:living-cycad-radiation-model"],
+        "referenceLinks": [
+          {
+            "relation": "supports",
+            "referenceId": "nagalingum-2011-living-cycad-radiation",
+            "pages": "796–799",
+            "figure": "Figure 1; Table 1"
+          }
+        ]
+      }
+    ],
+    "uncertaintyItems": [
+      {
+        "statement": "Later fossil, tectonic and total-evidence treatments recover older deep nodes and weaken a simple globally synchronous radiation",
+        "relation": "contextualizes",
+        "claimIds": ["claim:event:living-cycad-radiation-model"],
+        "referenceLinks": [
+          {
+            "relation": "contextualizes",
+            "referenceId": "liu-2022-cycadaceae-palaeogene",
+            "figure": "Figures 2–3; Table 2"
+          },
+          {
+            "relation": "contextualizes",
+            "referenceId": "coiro-2023-cycad-biogeography",
+            "figure": "Figures 2–3; Table 1"
+          }
+        ]
+      },
+      {
+        "statement": "The 12 Ma window concerns sampled living radiations, not Cycadales origin or fossil first appearance",
+        "relation": "contextualizes",
+        "claimIds": ["claim:event:living-cycad-radiation-model"],
+        "referenceLinks": [
+          {
+            "relation": "supports",
+            "referenceId": "nagalingum-2011-living-cycad-radiation",
+            "quoteLocator": "Scope of living-species timetrees"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cycadaceae-palaeogene-crown-model",
+    "title": "Modelled crown age of extant Cycadaceae",
+    "titleZh": "现生苏铁科冠群模型年龄",
+    "category": "origin",
+    "startAge": 69.31,
+    "endAge": 42.88,
+    "regions": ["Global Cycas plastome sample with Palawan calibration"],
+    "clades": ["Extant Cycadaceae", "Cycas"],
+    "summary": "A combined plastome, fossil and tectonic calibration scheme yielded mean crown-age estimates of 69.31 and 42.88 Ma under different tree priors, without converting either model result into a fossil range.",
+    "claimIds": ["claim:event:cycadaceae-palaeogene-crown-model"],
+    "evidenceItems": [
+      {
+        "statement": "Whole-plastome phylogeny evaluated under alternative fossil, tectonic and tree-prior schemes",
+        "relation": "supports",
+        "claimIds": ["claim:event:cycadaceae-palaeogene-crown-model"],
+        "referenceLinks": [
+          {
+            "relation": "supports",
+            "referenceId": "liu-2022-cycadaceae-palaeogene",
+            "pages": "217–230",
+            "figure": "Figures 2–3; Table 2"
+          }
+        ]
+      }
+    ],
+    "uncertaintyItems": [
+      {
+        "statement": "Calibration scheme and tree prior substantially change the estimate, with underconstrained alternatives spanning much wider ages",
+        "relation": "contextualizes",
+        "claimIds": ["claim:event:cycadaceae-palaeogene-crown-model"],
+        "referenceLinks": [
+          {
+            "relation": "supports",
+            "referenceId": "liu-2022-cycadaceae-palaeogene",
+            "figure": "Table 2; Supplementary Figures S5–S6",
+            "quoteLocator": "Molecular dating; Discussion"
+          }
+        ]
+      },
+      {
+        "statement": "The result concerns the crown of living Cycadaceae, not all Cycadales and not a directly observed fossil first appearance",
+        "relation": "contextualizes",
+        "claimIds": ["claim:event:cycadaceae-palaeogene-crown-model"],
+        "referenceLinks": [
+          {
+            "relation": "supports",
+            "referenceId": "liu-2022-cycadaceae-palaeogene",
+            "quoteLocator": "Abstract and taxonomic scope"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cycad-latitudinal-contraction",
+    "title": "Modelled contraction of cycad latitudinal range",
+    "titleZh": "苏铁纬度分布收缩模型",
+    "category": "transition",
+    "startAge": 66,
+    "endAge": 11.63,
+    "regions": ["Global fossil and living-cycad sample"],
+    "clades": ["Cycadales"],
+    "summary": "A total-evidence biogeographic model inferred broad Cretaceous–Palaeogene latitudes followed by contraction toward the present tropical–subtropical distribution, while exposing how strongly fossils change extinction estimates.",
+    "claimIds": ["claim:event:cycad-latitudinal-contraction"],
+    "evidenceItems": [
+      {
+        "statement": "321 living species, 60 fossil leaf species and time-stratified process-based biogeography",
+        "relation": "supports",
+        "claimIds": ["claim:event:cycad-latitudinal-contraction"],
+        "referenceLinks": [
+          {
+            "relation": "supports",
+            "referenceId": "coiro-2023-cycad-biogeography",
+            "pages": "1619–1631",
+            "figure": "Figures 5–6"
+          }
+        ]
+      }
+    ],
+    "uncertaintyItems": [
+      {
+        "statement": "The broad 66–11.63 Ma display window summarizes a modelled transition and is not one dated extinction pulse",
+        "relation": "contextualizes",
+        "claimIds": ["claim:event:cycad-latitudinal-contraction"],
+        "referenceLinks": [
+          {
+            "relation": "supports",
+            "referenceId": "coiro-2023-cycad-biogeography",
+            "quoteLocator": "Evolution of the latitudinal gradient"
+          }
+        ]
+      },
+      {
+        "statement": "Fossil omissions, uncertain placements and model assumptions can alter dates, ancestral areas and inferred local extirpation counts",
+        "relation": "contextualizes",
+        "claimIds": ["claim:event:cycad-latitudinal-contraction"],
+        "referenceLinks": [
+          {
+            "relation": "supports",
+            "referenceId": "coiro-2023-cycad-biogeography",
+            "quoteLocator": "Discussion and study limitations"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "tiaojishan-ginkgoxylon",
+    "title": "Tiaojishan Ginkgo-like fossil wood",
+    "titleZh": "天义山组银杏样化石木材",
+    "category": "origin",
+    "startAge": 165,
+    "endAge": 153,
+    "regions": ["Tiaojishan Formation, western Liaoning, China"],
+    "clades": ["Ginkgoxylon liaoningense", "Ginkgo-like wood"],
+    "summary": "One anatomically diagnosed fossil wood from the Middle–Late Jurassic transition records a Ginkgo-like xylem combination while remaining an isolated organ taxon rather than a whole plant or phylum first appearance.",
+    "claimIds": ["claim:event:tiaojishan-ginkgoxylon"],
+    "evidenceItems": [
+      {
+        "statement": "Specimen PB22285, Tiaojishan stratigraphy and wood anatomy illustrated in transverse, tangential and radial section",
+        "relation": "supports",
+        "claimIds": ["claim:event:tiaojishan-ginkgoxylon"],
+        "referenceLinks": [
+          {
+            "relation": "supports",
+            "referenceId": "jiang-2016-ginkgoxylon",
+            "figure": "Figures 1–3"
+          }
+        ]
+      }
+    ],
+    "uncertaintyItems": [
+      {
+        "statement": "The isolated wood cannot be safely linked to any particular co-occurring Ginkgo foliage species",
+        "relation": "contextualizes",
+        "claimIds": ["claim:event:tiaojishan-ginkgoxylon"],
+        "referenceLinks": [
+          {
+            "relation": "supports",
+            "referenceId": "jiang-2016-ginkgoxylon",
+            "quoteLocator": "Discussion"
+          }
+        ]
+      },
+      {
+        "statement": "A 153–165 Ma specimen does not establish the first appearance of Ginkgophyta or continuous survival of Ginkgo biloba from the Jurassic",
+        "relation": "contextualizes",
+        "claimIds": ["claim:event:tiaojishan-ginkgoxylon"],
+        "referenceLinks": [
+          {
+            "relation": "supports",
+            "referenceId": "jiang-2016-ginkgoxylon",
+            "quoteLocator": "Systematic palaeontology and Conclusion"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "conifer-hemisphere-node-pattern",
+    "title": "Modelled hemispheric pattern in extant conifer nodes",
+    "titleZh": "现生针叶树节点的半球模型格局",
+    "category": "radiation",
+    "startAge": 8.7,
+    "endAge": 5.2,
+    "regions": ["Northern and Southern Hemisphere living-species sample"],
+    "clades": ["Conifers", "Araucariaceae", "Pinaceae", "Cupressoideae"],
+    "summary": "A 489-species time tree found older combined median node ages in predominantly Southern Hemisphere conifer lineages than in sampled Northern Hemisphere lineages, a relative living-lineage pattern rather than a fossil range.",
+    "claimIds": ["claim:event:conifer-hemisphere-node-pattern"],
+    "evidenceItems": [
+      {
+        "statement": "489 living conifer species and 16 fossil calibrations yield combined medians of 8.7 versus 5.2 Ma",
+        "relation": "supports",
+        "claimIds": ["claim:event:conifer-hemisphere-node-pattern"],
+        "referenceLinks": [
+          {
+            "relation": "supports",
+            "referenceId": "leslie-2012-conifer-hemispheres",
+            "pages": "16217–16221",
+            "figure": "Figures 1–2"
+          }
+        ]
+      }
+    ],
+    "uncertaintyItems": [
+      {
+        "statement": "The displayed endpoints are comparative median node ages, not the duration of one radiation event or the origin of Araucariaceae",
+        "relation": "contextualizes",
+        "claimIds": ["claim:event:conifer-hemisphere-node-pattern"],
+        "referenceLinks": [
+          {
+            "relation": "supports",
+            "referenceId": "leslie-2012-conifer-hemispheres",
+            "quoteLocator": "Results and Discussion"
+          }
+        ]
+      },
+      {
+        "statement": "Absolute ages may be biased young, Gnetales were excluded and the proposed climate mechanism remains interpretive",
+        "relation": "contextualizes",
+        "claimIds": ["claim:event:conifer-hemisphere-node-pattern"],
+        "referenceLinks": [
+          {
+            "relation": "supports",
+            "referenceId": "leslie-2012-conifer-hemispheres",
+            "quoteLocator": "Discussion; Materials and Methods"
+          }
+        ]
+      }
+    ]
   }
 ]

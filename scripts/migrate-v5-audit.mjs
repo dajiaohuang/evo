@@ -130,7 +130,7 @@ for (const profile of profiles) {
 for (const claim of claims) {
   if (claim.reviewedBy === 'Evo Atlas automated evidence decomposition') {
     const profile = profileById.get(claim.subjectId.slice('taxon:'.length))
-    claim.reviewedAgainstReferenceVersion = claim.reviewedAgainstReferenceVersion.replace(/static-v5-rc\d+/, DATASET_PACKAGE_VERSION)
+    claim.reviewedAgainstReferenceVersion = claim.reviewedAgainstReferenceVersion.replace(/\d{4}\.\d{2}(?:-\d{4}\.\d{2})*-static-v5-rc\d+/, DATASET_PACKAGE_VERSION)
     claim.confidenceRationale = `${profile.scientificName} ${claim.claimType} is an automated curator-draft decomposition tied to its visible fields and current source inventory; human claim-specific locator review remains pending.`
     rationalesZh[claim.id] = `${profile.commonNameZh}（${profile.scientificName}）的${claim.claimType}主张由自动化流程从其可见字段独立拆分并连接当前来源清单，仍需领域专家核对具体定位信息。`
     claimStatementsZh[claim.statement] = claim.claimType === 'taxonomy'
