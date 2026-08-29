@@ -1,9 +1,12 @@
 import { gunzipSync, strFromU8 } from 'fflate'
 import type {
   CurrentRuntimeManifest,
+  CatalogueHierarchyChildRecord,
+  CatalogueHierarchyNodeRecord,
   CatalogueRecord,
   CatalogueRuntimeFile,
   CatalogueRuntimeManifest,
+  CatalogueSourceChecklist,
   OccurrenceRuntimeManifest,
   RuntimeEntity,
   RuntimeEntityLinkageCoverage,
@@ -210,6 +213,11 @@ export async function loadCatalogueManifest(): Promise<CatalogueRuntimeManifest>
   return manifest
 }
 
+export async function loadCatalogueSourceChecklists(): Promise<CatalogueSourceChecklist[]> {
+  const manifest = await loadCatalogueManifest()
+  return loadRuntimeFile<CatalogueSourceChecklist[]>(manifest.sourceChecklists)
+}
+
 export function normalizeCatalogueQuery(value: string): string {
   return value
     .normalize('NFKD')
@@ -239,16 +247,54 @@ async function loadCatalogueRoute<T>(
   return (await Promise.all(routedFiles.map((file) => loadRuntimeFile<T[]>(file)))).flat()
 }
 
-export async function loadCatalogueHierarchyNode(id: string): Promise<import('./types').CatalogueHierarchyNodeRecord | null> {
-  const manifest = await loadCatalogueManifest()
-  const records = await loadCatalogueRoute<import('./types').CatalogueHierarchyNodeRecord>(manifest.hierarchy.nodes.routes, manifest.hierarchy.nodes.files, id)
+async function loadCatalogueHierarchyNodeFromManifest(
+  manifest: CatalogueRuntimeManifest,
+  id: string,
+): Promise<CatalogueHierarchyNodeRecord | null> {
+  const records = await loadCatalogueRoute<CatalogueHierarchyNodeRecord>(manifest.hierarchy.nodes.routes, manifest.hierarchy.nodes.files, id)
   return records.find((record) => record.id === id) ?? null
 }
 
-export async function loadCatalogueChildren(parentId: string): Promise<import('./types').CatalogueHierarchyChildRecord[]> {
+export async function loadCatalogueHierarchyNode(id: string): Promise<CatalogueHierarchyNodeRecord | null> {
   const manifest = await loadCatalogueManifest()
-  const records = await loadCatalogueRoute<import('./types').CatalogueHierarchyChildRecord>(manifest.hierarchy.children.routes, manifest.hierarchy.children.files, parentId)
+  return loadCatalogueHierarchyNodeFromManifest(manifest, id)
+}
+
+export async function loadCatalogueChildren(parentId: string): Promise<CatalogueHierarchyChildRecord[]> {
+  const manifest = await loadCatalogueManifest()
+  const records = await loadCatalogueRoute<CatalogueHierarchyChildRecord>(manifest.hierarchy.children.routes, manifest.hierarchy.children.files, parentId)
   return records.filter((record) => record.parentId === parentId)
+}
+
+export async function loadCatalogueLineage(id: string, maxDepth = 64): Promise<CatalogueHierarchyNodeRecord[]> {
+  if (!Number.isInteger(maxDepth) || maxDepth < 1) {
+    throw new Error(`Catalogue hierarchy maxDepth must be a positive integer; received ${maxDepth}`)
+  }
+  const manifest = await loadCatalogueManifest()
+  const lineage: CatalogueHierarchyNodeRecord[] = []
+  const visited = new Set<string>()
+  let currentId: string | null = id
+
+  while (currentId !== null) {
+    if (visited.has(currentId)) {
+      throw new Error(`Catalogue hierarchy cycle detected at ${currentId} while loading lineage for ${id}`)
+    }
+    if (lineage.length >= maxDepth) {
+      throw new Error(`Catalogue hierarchy lineage for ${id} exceeds maximum depth ${maxDepth} before reaching a root`)
+    }
+    visited.add(currentId)
+    const node = await loadCatalogueHierarchyNodeFromManifest(manifest, currentId)
+    if (!node) {
+      const childId = lineage.at(-1)?.id
+      throw new Error(childId
+        ? `Catalogue hierarchy parent ${currentId} referenced by ${childId} is missing while loading lineage for ${id}`
+        : `Catalogue hierarchy node ${id} is missing from the pinned release`)
+    }
+    lineage.push(node)
+    currentId = node.parentId
+  }
+
+  return lineage.reverse()
 }
 
 export async function searchCatalogue(query: string, limit = 12): Promise<{

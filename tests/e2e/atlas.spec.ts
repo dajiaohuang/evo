@@ -48,17 +48,41 @@ test('global search lazily resolves accepted Catalogue of Life species without c
   await search.fill('Homo sapiens')
   await expect(page.getByText('Catalogue of Life nomenclatural registry')).toBeVisible()
   await expect(page.getByText(/COL26\.8 · 2026-08-20 · ≈80% upstream coverage · not an Atlas dossier/)).toBeVisible()
-  const result = page.locator('a.catalogue-search-result', { hasText: 'Homo sapiens' }).first()
+  const result = page.locator('button.catalogue-search-result', { hasText: 'Homo sapiens' }).first()
   await expect(result).toContainText('Accepted species name')
-  await expect(result).toHaveAttribute('href', /checklistbank\.org\/dataset\/316115\/taxon\/6MB3T$/)
+  await result.click()
+  await expect(page).toHaveURL(/#\/registry\?release=COL26\.8&id=6MB3T$/)
+  await expect(page.getByRole('heading', { name: /Homo sapiens/ })).toBeVisible()
+  await expect(page.getByRole('link', { name: /Verify the upstream record/ })).toHaveAttribute('href', /checklistbank\.org\/dataset\/316115\/taxon\/6MB3T$/)
 
-  await search.fill('Felis leo')
-  const synonym = page.locator('a.catalogue-search-result', { hasText: 'Felis leo' }).first()
+  await page.goto('./#/catalog')
+  await page.locator('.global-search-trigger').click()
+  const synonymSearch = page.getByPlaceholder('Search taxa, intervals, events, places…')
+  await synonymSearch.fill('Felis leo')
+  const synonym = page.locator('button.catalogue-search-result', { hasText: 'Felis leo' }).first()
   await expect(synonym).toContainText('synonym · resolves to accepted 4CGXP')
-  await expect(synonym).toHaveAttribute('href', /checklistbank\.org\/dataset\/316115\/taxon\/4CGXP$/)
+  await synonym.click()
+  await expect(page).toHaveURL(/#\/registry\?release=COL26\.8&id=4CGXP$/)
 
-  await search.fill('par')
+  await page.goto('./#/catalog')
+  await page.locator('.global-search-trigger').click()
+  await page.getByPlaceholder('Search taxa, intervals, events, places…').fill('par')
   await expect(page.locator('.catalogue-search-heading small')).toContainText(/showing 12 of \d+/)
+})
+
+test('Catalogue deep links browse exact parent-child hierarchy without silently switching releases', async ({ page }) => {
+  await page.addInitScript(() => window.localStorage.setItem('evo-atlas-language', 'en'))
+  await page.goto('./#/registry?release=COL26.8&id=636X2')
+  await expect(page.locator('.catalogue-taxon-heading h1')).toContainText('Homo')
+  await expect(page.getByRole('button', { name: /Homo sapiens/ })).toBeVisible()
+  await page.getByRole('button', { name: /Homo sapiens/ }).click()
+  await expect(page).toHaveURL(/#\/registry\?release=COL26\.8&id=6MB3T$/)
+  await expect(page.getByRole('heading', { name: /Homo sapiens/ })).toBeVisible()
+
+  await page.goto('./#/registry?release=COL26.7&id=6MB3T')
+  await expect(page.getByRole('heading', { name: 'The requested release is not the published release' })).toBeVisible()
+  await expect(page.getByText(/No record was silently substituted/)).toBeVisible()
+  await expect(page.getByRole('heading', { name: /Homo sapiens/ })).toHaveCount(0)
 })
 
 test('global search distinguishes registry verification failures from no matches', async ({ browser, baseURL }) => {
@@ -205,7 +229,7 @@ test('mobile Explorer panels remain operable', async ({ page }) => {
   await expect(inspector).not.toHaveClass(/is-open/)
 })
 
-for (const route of ['#/home', '#/taxa?id=perissodactyla', '#/explore?view=tree&treeMode=cladogram&age=20', '#/lab', '#/compare']) {
+for (const route of ['#/home', '#/taxa?id=perissodactyla', '#/registry?release=COL26.8&id=6MB3T', '#/explore?view=tree&treeMode=cladogram&age=20', '#/lab', '#/compare']) {
   test(`has no serious automated accessibility violations on ${route}`, async ({ page }) => {
     await page.goto(`./${route}`)
     await page.waitForLoadState('networkidle')

@@ -164,9 +164,15 @@
     left: 12px;
     right: 12px;
     bottom: 12px;
-    justify-content: space-around;
+    justify-content: flex-start;
+    overflow-x: auto;
+    scrollbar-width: none;
     box-shadow: var(--shadow-lg);
   }
+
+  .topbar__nav::-webkit-scrollbar { display: none; }
+  .topbar__nav button { flex: 0 0 auto; }
+  .app-shell--focused .topbar__nav { justify-content: center; }
 
   .global-search-trigger { width: 34px; justify-content: center; }
   .global-search-trigger:not(:focus) { font-size: 0; }

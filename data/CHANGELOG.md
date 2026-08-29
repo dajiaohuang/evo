@@ -6,6 +6,7 @@
 - Published 2,429,088 direct parent-child edges, including every accepted-species parent edge, in checksum-addressed SHA-256-routed node and children shards.
 - Preserved true intermediate ranks such as domain, realm, infraphylum, subclass, infraorder, parvorder and botanical/zoological sections instead of reconstructing identifiers from flattened classification strings.
 - Kept all hierarchy data lazy and outside the app-shell precache; exact-ID and direct-child runtime loaders fetch one routed shard family on demand.
+- Added release-scoped internal taxon pages with root-to-node lineage, direct-child browsing, source-checklist attribution and an explicit handoff to the immutable upstream ChecklistBank record.
 
 ## 2026.08-static-v5-rc6 — 2026-08-29
 

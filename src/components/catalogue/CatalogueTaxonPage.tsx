@@ -1,0 +1,236 @@
+import { useEffect, useMemo, useState } from 'react'
+import {
+  loadCatalogueChildren,
+  loadCatalogueHierarchyNode,
+  loadCatalogueLineage,
+  loadCatalogueManifest,
+  loadCatalogueSourceChecklists,
+} from '../../data-client/staticDataClient'
+import type {
+  CatalogueHierarchyChildRecord,
+  CatalogueHierarchyNodeRecord,
+  CatalogueRuntimeManifest,
+} from '../../data-client/types'
+import type { AppRoute } from '../../utils/routing'
+import { useI18n } from '../../i18n'
+import './CatalogueTaxonPage.css'
+
+interface CatalogueTaxonPageProps {
+  release: string | null
+  id: string | null
+  onNavigate: (route: AppRoute, params?: Record<string, string>) => void
+}
+
+type PageStatus = 'loading' | 'ready' | 'invalid' | 'release-mismatch' | 'not-found' | 'error'
+type SectionStatus = 'idle' | 'loading' | 'ready' | 'error'
+
+function displayedName(record: Pick<CatalogueHierarchyNodeRecord, 'scientificName' | 'authorship'>) {
+  if (!record.authorship || !record.scientificName.endsWith(record.authorship)) return record.scientificName
+  return record.scientificName.slice(0, -record.authorship.length).trim()
+}
+
+export function CatalogueTaxonPage(props: CatalogueTaxonPageProps) {
+  return <CatalogueTaxonRecord key={`${props.release ?? ''}:${props.id ?? ''}`} {...props} />
+}
+
+function CatalogueTaxonRecord({ release, id, onNavigate }: CatalogueTaxonPageProps) {
+  const { language } = useI18n()
+  const zh = language === 'zh'
+  const [status, setStatus] = useState<PageStatus>('loading')
+  const [manifest, setManifest] = useState<CatalogueRuntimeManifest | null>(null)
+  const [node, setNode] = useState<CatalogueHierarchyNodeRecord | null>(null)
+  const [lineage, setLineage] = useState<CatalogueHierarchyNodeRecord[]>([])
+  const [lineageStatus, setLineageStatus] = useState<SectionStatus>('idle')
+  const [children, setChildren] = useState<CatalogueHierarchyChildRecord[]>([])
+  const [childrenStatus, setChildrenStatus] = useState<SectionStatus>('idle')
+  const [sources, setSources] = useState<Awaited<ReturnType<typeof loadCatalogueSourceChecklists>>>([])
+  const [sourcesStatus, setSourcesStatus] = useState<SectionStatus>('idle')
+  const [childFilter, setChildFilter] = useState('')
+  const [visibleChildren, setVisibleChildren] = useState(100)
+
+  useEffect(() => {
+    let cancelled = false
+    void loadCatalogueManifest().then(async (loadedManifest) => {
+      if (cancelled) return
+      setManifest(loadedManifest)
+      if (!release || !id) {
+        setStatus('invalid')
+        return
+      }
+      if (release !== loadedManifest.releaseAlias) {
+        setStatus('release-mismatch')
+        return
+      }
+      const loadedNode = await loadCatalogueHierarchyNode(id)
+      if (cancelled) return
+      if (!loadedNode) {
+        setStatus('not-found')
+        return
+      }
+      setNode(loadedNode)
+      setStatus('ready')
+      document.title = `${loadedNode.scientificName} — Catalogue of Life — Evo Atlas`
+
+      setLineageStatus('loading')
+      void loadCatalogueLineage(id).then((records) => {
+        if (!cancelled) {
+          setLineage(records)
+          setLineageStatus('ready')
+        }
+      }).catch(() => { if (!cancelled) setLineageStatus('error') })
+
+      setChildrenStatus('loading')
+      void loadCatalogueChildren(id).then((records) => {
+        if (!cancelled) {
+          setChildren(records.sort((left, right) => left.scientificName.localeCompare(right.scientificName)))
+          setChildrenStatus('ready')
+        }
+      }).catch(() => { if (!cancelled) setChildrenStatus('error') })
+
+      setSourcesStatus('loading')
+      void loadCatalogueSourceChecklists().then((records) => {
+        if (!cancelled) {
+          setSources(records)
+          setSourcesStatus('ready')
+        }
+      }).catch(() => { if (!cancelled) setSourcesStatus('error') })
+    }).catch(() => { if (!cancelled) setStatus('error') })
+
+    return () => { cancelled = true }
+  }, [id, release])
+
+  const orderedLineage = useMemo(() => {
+    if (lineage.length < 2 || lineage[0].parentId === null) return lineage
+    return [...lineage].reverse()
+  }, [lineage])
+  const normalizedFilter = childFilter.trim().toLocaleLowerCase()
+  const filteredChildren = children.filter((child) => !normalizedFilter
+    || child.scientificName.toLocaleLowerCase().includes(normalizedFilter)
+    || child.id.toLocaleLowerCase().includes(normalizedFilter))
+  const visible = filteredChildren.slice(0, visibleChildren)
+  const source = node?.sourceDatasetId
+    ? sources.find((record) => record.datasetId === node.sourceDatasetId)
+    : null
+  const upstreamUrl = node && manifest
+    ? manifest.upstreamTaxonUrlTemplate.replace('{id}', encodeURIComponent(node.id))
+    : null
+  const number = (value: number) => value.toLocaleString(zh ? 'zh-CN' : 'en-US')
+
+  if (status !== 'ready' || !node || !manifest) {
+    const title = status === 'loading'
+      ? (zh ? '正在读取固定版本登记册…' : 'Loading the pinned registry…')
+      : status === 'release-mismatch'
+        ? (zh ? '请求的版本与当前发布版不一致' : 'The requested release is not the published release')
+        : status === 'not-found'
+          ? (zh ? '此版本中没有该分类单元 ID' : 'That taxon ID is absent from this release')
+          : status === 'invalid'
+            ? (zh ? '链接缺少版本或分类单元 ID' : 'The link is missing a release or taxon ID')
+            : (zh ? '登记册读取或完整性校验失败' : 'The registry could not be read or verified')
+    return (
+      <main className="catalogue-taxon-page catalogue-taxon-page--message">
+        <section role={status === 'error' ? 'alert' : 'status'}>
+          <span>CATALOGUE OF LIFE / {release ?? '—'}</span>
+          <h1>{title}</h1>
+          {status === 'release-mismatch' && <p>{zh ? `链接请求 ${release}，本站只发布 ${manifest?.releaseAlias ?? '—'}。为避免悄悄切换分类版本，未加载其他记录。` : `This link requests ${release}; this site publishes ${manifest?.releaseAlias ?? '—'}. No record was silently substituted.`}</p>}
+          {status === 'not-found' && <p>{zh ? `${id} 未出现在 ${release} 的接受种及其祖先闭包中。` : `${id} is not present in the accepted-species hierarchy for ${release}.`}</p>}
+          <button className="button button--primary" onClick={() => onNavigate('catalog')}>{zh ? '返回目录' : 'Return to catalog'}</button>
+        </section>
+      </main>
+    )
+  }
+
+  return (
+    <main className="catalogue-taxon-page">
+      <header className="catalogue-taxon-hero">
+        <div className="catalogue-release-line">
+          <span>CATALOGUE OF LIFE</span>
+          <strong>{manifest.releaseAlias}</strong>
+          <span>{manifest.releaseDate}</span>
+          <span>{zh ? '固定版本' : 'PINNED RELEASE'}</span>
+        </div>
+
+        <nav className="catalogue-lineage" aria-label={zh ? '分类谱系' : 'Taxonomic lineage'}>
+          {lineageStatus === 'loading' && <span>{zh ? '正在读取谱系…' : 'Loading lineage…'}</span>}
+          {lineageStatus === 'error' && <span className="catalogue-inline-error">{zh ? '谱系读取失败；当前记录仍可使用。' : 'Lineage failed to load; this record remains available.'}</span>}
+          {orderedLineage.map((ancestor, index) => (
+            <span key={ancestor.id}>
+              {index > 0 && <i aria-hidden="true">/</i>}
+              <button onClick={() => onNavigate('registry', { release: manifest.releaseAlias, id: ancestor.id })} aria-current={ancestor.id === node.id ? 'page' : undefined}>
+                {ancestor.scientificName}
+              </button>
+            </span>
+          ))}
+        </nav>
+
+        <div className="catalogue-taxon-heading">
+          <div>
+            <span className={`catalogue-status catalogue-status--${node.status === 'accepted' ? 'accepted' : 'provisional'}`}>
+              {node.status === 'accepted' ? (zh ? '接受名' : 'Accepted') : (zh ? '暂定接受名' : 'Provisionally accepted')}
+            </span>
+            <h1><i>{displayedName(node)}</i>{node.authorship ? <small>{node.authorship}</small> : null}</h1>
+          </div>
+          <dl>
+            <div><dt>{zh ? '等级' : 'Rank'}</dt><dd>{node.rank}</dd></div>
+            <div><dt>{zh ? '精确 ID' : 'Exact ID'}</dt><dd><code>{node.id}</code></dd></div>
+            <div><dt>{zh ? '直接子级' : 'Direct children'}</dt><dd>{number(node.childCount)}</dd></div>
+          </dl>
+        </div>
+
+        {node.status === 'provisionally accepted' && (
+          <p className="catalogue-provisional-note">{zh ? '此高阶分类单元由上游标记为暂定接受；它用于连接接受种层级，但不计入 2,183,133 个接受种基线。' : 'The upstream release marks this higher taxon as provisionally accepted. It connects the accepted-species hierarchy but is not counted in the 2,183,133 accepted-species baseline.'}</p>
+        )}
+      </header>
+
+      <section className="catalogue-taxon-grid">
+        <article className="catalogue-children-panel">
+          <div className="catalogue-section-heading">
+            <div><span>01</span><h2>{zh ? '直接子级' : 'Direct children'}</h2></div>
+            {children.length > 100 && <label><span>{zh ? '在本级筛选' : 'Filter this level'}</span><input value={childFilter} onChange={(event) => { setChildFilter(event.target.value); setVisibleChildren(100) }} placeholder={zh ? '名称或 ID' : 'Name or ID'} /></label>}
+          </div>
+          {childrenStatus === 'loading' && <p className="catalogue-section-note">{zh ? '正在读取父级分片…' : 'Loading the parent shard…'}</p>}
+          {childrenStatus === 'error' && <p className="catalogue-section-note catalogue-inline-error">{zh ? '子级分片读取或完整性校验失败；当前分类记录不受影响。' : 'The child shard could not be read or verified; the current taxon record is unaffected.'}</p>}
+          {childrenStatus === 'ready' && children.length === 0 && <p className="catalogue-section-note">{zh ? '此层级投影中没有直接子级。' : 'No direct children occur in this hierarchy projection.'}</p>}
+          {childrenStatus === 'ready' && children.length > 0 && (
+            <>
+              <div className="catalogue-children-summary">{zh ? `显示 ${number(visible.length)} / 匹配 ${number(filteredChildren.length)} / 全部 ${number(children.length)}` : `Showing ${number(visible.length)} of ${number(filteredChildren.length)} matches · ${number(children.length)} total`}</div>
+              <ol className="catalogue-child-list">
+                {visible.map((child) => <li key={child.id}>
+                  <button onClick={() => onNavigate('registry', { release: manifest.releaseAlias, id: child.id })}>
+                    <span><i>{displayedName(child)}</i>{child.authorship ? <small>{child.authorship}</small> : null}</span>
+                    <span><small>{child.rank} · {child.status}</small><code>{child.id}</code></span>
+                  </button>
+                </li>)}
+              </ol>
+              {visible.length < filteredChildren.length && <button className="catalogue-show-more" onClick={() => setVisibleChildren((value) => value + 100)}>{zh ? '再显示 100 项' : 'Show 100 more'}</button>}
+            </>
+          )}
+        </article>
+
+        <aside className="catalogue-source-panel">
+          <section>
+            <span>02</span><h2>{zh ? '来源清单' : 'Source checklist'}</h2>
+            {!node.sourceDatasetId && <p>{zh ? '上游记录未提供 datasetID；这是源数据缺失，不是应用错误。' : 'The upstream record has no datasetID. This is missing source linkage, not an application error.'}</p>}
+            {node.sourceDatasetId && sourcesStatus === 'loading' && <p>{zh ? '正在读取来源清单…' : 'Loading source checklists…'}</p>}
+            {node.sourceDatasetId && sourcesStatus === 'error' && <p className="catalogue-inline-error">{zh ? '来源清单读取失败；精确分类记录仍可使用。' : 'Source checklists failed to load; the exact taxon record remains available.'}</p>}
+            {node.sourceDatasetId && sourcesStatus === 'ready' && source && <div className="catalogue-source-card">
+              <strong>{source.title}</strong>
+              <span>{[source.shortName, source.version, source.publicationDate].filter(Boolean).join(' · ')}</span>
+              <p>{source.licenseLabel}</p>
+              <div>{source.informationUrl && <a href={source.informationUrl} target="_blank" rel="noreferrer">{zh ? '来源站点' : 'Source site'} ↗</a>}{source.doi && <a href={`https://doi.org/${source.doi}`} target="_blank" rel="noreferrer">DOI ↗</a>}</div>
+            </div>}
+            {node.sourceDatasetId && sourcesStatus === 'ready' && !source && <p>{zh ? `来源 datasetID ${node.sourceDatasetId} 未列入本版来源清单。` : `Source datasetID ${node.sourceDatasetId} is not listed in this release's source checklist file.`}</p>}
+          </section>
+          <section>
+            <span>03</span><h2>{zh ? '证据边界' : 'Evidence boundary'}</h2>
+            <p>{zh ? '这是命名与分类登记记录，不是 Evo Atlas 内容档案；它不主张化石、形态、地理分布或系统发育证据已经整理。' : 'This is a nomenclatural and classification registry record, not an Evo Atlas dossier. It does not claim curated fossil, morphology, range, or phylogenetic evidence.'}</p>
+            <dl>
+              <div><dt>{zh ? '层级范围' : 'Hierarchy scope'}</dt><dd>{number(manifest.hierarchy.counts.nodes)} {zh ? '节点' : 'nodes'}</dd></div>
+              <div><dt>{zh ? '接受种基线' : 'Accepted species baseline'}</dt><dd>{number(manifest.hierarchy.counts.acceptedSpeciesNodes)}</dd></div>
+            </dl>
+            {upstreamUrl && <a className="catalogue-upstream-link" href={upstreamUrl} target="_blank" rel="noreferrer">{zh ? '在 ChecklistBank 核对原记录' : 'Verify the upstream record in ChecklistBank'} ↗</a>}
+          </section>
+        </aside>
+      </section>
+    </main>
+  )
+}
