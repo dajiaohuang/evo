@@ -89,8 +89,10 @@ export function buildPackageReviewMaterials(packageId) {
   const provenance = JSON.parse(readFileSync(join(packageDirectory, 'provenance.json'), 'utf8'))
   const profilesSourcePath = join(packageDirectory, 'profiles.source.json')
   const profilesPath = join(packageDirectory, 'profiles.json')
+  const fieldClaimLinksPath = join(packageDirectory, 'evidence', 'field-claim-links.json')
   const profilesSource = existsSync(profilesSourcePath) ? JSON.parse(readFileSync(profilesSourcePath, 'utf8')) : []
   const profiles = existsSync(profilesPath) ? JSON.parse(readFileSync(profilesPath, 'utf8')) : []
+  const fieldClaimLinks = existsSync(fieldClaimLinksPath) ? JSON.parse(readFileSync(fieldClaimLinksPath, 'utf8')) : []
   const storyIds = new Set(JSON.parse(readFileSync(join(packageDirectory, 'stories.json'), 'utf8')))
   const stories = readJson('data/stories.json').filter((story) => storyIds.has(story.id))
   const eventIds = new Set(JSON.parse(readFileSync(join(packageDirectory, 'events.json'), 'utf8')))
@@ -115,6 +117,7 @@ export function buildPackageReviewMaterials(packageId) {
   addJson(files, 'ranges.json', rangeData)
   addJson(files, 'profiles.source.json', profilesSource)
   addJson(files, 'profiles.json', profiles)
+  addJson(files, 'evidence/field-claim-links.json', fieldClaimLinks)
   addJson(files, 'claims.json', claims)
   addJson(files, 'claim-statements.zh.json', Object.fromEntries(claims.filter((claim) => claimStatementsZh[claim.statement]).map((claim) => [claim.statement, claimStatementsZh[claim.statement]])))
   addJson(files, 'claim-rationales.zh.json', Object.fromEntries(claims.filter((claim) => claimRationalesZh[claim.id]).map((claim) => [claim.id, claimRationalesZh[claim.id]])))

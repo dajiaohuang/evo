@@ -15,7 +15,7 @@ const manifest = readJson('data/manifest.json')
 const releaseHistory = existsSync(join(distRoot, 'data', 'releases.json')) ? readJson('dist/data/releases.json') : { releases: [{ datasetVersion: manifest.datasetVersion, generatedAt: manifest.generatedAt, bytes: 0, filesIndex: '' }] }
 const entities = readJson('data/registry/entities/entities.json')
 const registry = readJson('data/registry/package-registry.json')
-const profiles = readJson('data/packages/mammalia/perissodactyla/profiles.json')
+const profiles = readJson('data/registry/taxon-profiles.json')
 const events = readJson('data/events.json')
 const stories = readJson('data/stories.json').filter((story) => story.evidenceStatus === 'available-with-limitations')
 const claims = readJson('data/evidence/claims.json')
@@ -218,9 +218,11 @@ const localityGroups = summarizeOccurrenceGroups(
 
 const traitGroups = [...profiles.reduce((groups, profile) => {
   for (const trait of profile.traits ?? []) {
-    if (!groups.has(trait)) groups.set(trait, { name: trait, slug: namedObjectSlug(trait), profiles: [], referenceIds: new Set() })
+    if (!groups.has(trait)) groups.set(trait, { name: trait, slug: namedObjectSlug(trait), profiles: [], referenceIds: new Set(), packageIds: new Set() })
     const group = groups.get(trait)
     group.profiles.push(profile)
+    const packageId = entityById.get(profile.treeNodeId)?.packageId
+    if (packageId) group.packageIds.add(packageId)
     for (const referenceId of profile.referenceIds ?? []) group.referenceIds.add(referenceId)
   }
   return groups
@@ -448,10 +450,10 @@ for (const trait of traitGroups) {
     const alternatePath = language === 'en' ? chinesePath : englishPath
     const title = localize(language, trait.name)
     const description = language === 'zh'
-      ? `“${title}”是奇蹄目策展档案中使用的描述性性状短语，关联 ${trait.profiles.length} 个档案；它不是标准化本体术语或独立同源性判断。`
-      : `“${trait.name}” is a descriptive trait phrase used by ${trait.profiles.length} curated Perissodactyla profile(s); it is not a normalized ontology term or an independent homology judgment.`
+      ? `“${title}”是 ${trait.profiles.length} 个策展类群档案中使用的描述性性状短语；它不是标准化本体术语或独立同源性判断。`
+      : `“${trait.name}” is a descriptive trait phrase used by ${trait.profiles.length} curated taxon profile(s); it is not a normalized ontology term or an independent homology judgment.`
     const linkedProfiles = trait.profiles.map((profile) => `<li><a href="${basePath}/${language === 'zh' ? 'zh/' : ''}taxa/${encodeURIComponent(profile.treeNodeId)}/"><strong>${escapeHtml(language === 'zh' ? profile.commonNameZh : profile.commonName)}</strong><span><em>${escapeHtml(profile.scientificName)}</em> · ${profile.firstAppearance}–${profile.lastAppearance || (language === 'zh' ? '现今' : 'Present')} Ma</span></a></li>`).join('')
-    const body = `<span class="eyebrow">${text.catalog} / ${language === 'zh' ? '性状' : 'trait'}</span><h1>${escapeHtml(title)}</h1><p class="dek">${escapeHtml(description)}</p><p class="notice">${language === 'zh' ? '性状短语来自编辑性类群档案；跨类群比较前需要核对标本、定义、同源性和编码尺度。' : 'Trait phrases come from editorial taxon profiles; specimen attribution, definitions, homology and coding scale require verification before comparative use.'}</p><div class="facts"><div><small>${language === 'zh' ? '关联档案' : 'Linked profiles'}</small><strong>${trait.profiles.length}</strong></div><div><small>${language === 'zh' ? '来源记录' : 'Source records'}</small><strong>${records.length}</strong></div><div><small>${text.package}</small><strong>perissodactyla</strong></div></div><section><h2>${language === 'zh' ? '关联类群' : 'Linked taxa'}</h2><ol class="directory">${linkedProfiles}</ol></section><section><h2>${text.references}</h2>${renderReferences(records, language)}</section><div class="actions"><a class="button" href="${basePath}/#/taxa">${language === 'zh' ? '浏览类群档案' : 'Browse taxon dossiers'} ↗</a><a class="button secondary" href="${escapeHtml(issueUrl({ entityId: `trait:${trait.name}`, pageUrl: canonicalUrl }))}">${text.report} ↗</a></div>`
+    const body = `<span class="eyebrow">${text.catalog} / ${language === 'zh' ? '性状' : 'trait'}</span><h1>${escapeHtml(title)}</h1><p class="dek">${escapeHtml(description)}</p><p class="notice">${language === 'zh' ? '性状短语来自编辑性类群档案；跨类群比较前需要核对标本、定义、同源性和编码尺度。' : 'Trait phrases come from editorial taxon profiles; specimen attribution, definitions, homology and coding scale require verification before comparative use.'}</p><div class="facts"><div><small>${language === 'zh' ? '关联档案' : 'Linked profiles'}</small><strong>${trait.profiles.length}</strong></div><div><small>${language === 'zh' ? '来源记录' : 'Source records'}</small><strong>${records.length}</strong></div><div><small>${text.package}</small><strong>${escapeHtml([...trait.packageIds].join(', '))}</strong></div></div><section><h2>${language === 'zh' ? '关联类群' : 'Linked taxa'}</h2><ol class="directory">${linkedProfiles}</ol></section><section><h2>${text.references}</h2>${renderReferences(records, language)}</section><div class="actions"><a class="button" href="${basePath}/#/taxa">${language === 'zh' ? '浏览类群档案' : 'Browse taxon dossiers'} ↗</a><a class="button secondary" href="${escapeHtml(issueUrl({ entityId: `trait:${trait.name}`, pageUrl: canonicalUrl }))}">${text.report} ↗</a></div>`
     write(`${path}index.html`, pageHtml({ language, title, description, path, alternatePath, type: 'DefinedTerm', jsonLd: { identifier: `trait:${trait.slug}`, termCode: trait.name, subjectOf: trait.profiles.map((profile) => ({ '@type': 'Taxon', name: profile.scientificName, identifier: profile.treeNodeId })), citation: records.map((reference) => ({ '@type': 'CreativeWork', name: reference.title, url: reference.url })) }, breadcrumbs: [{ label: text.home, url: `${basePath}/` }, { label: language === 'zh' ? '性状' : 'Traits', url: `${basePath}/${language === 'zh' ? 'zh/' : ''}traits/` }, { label: title, url: `${baseUrl}/${path}` }], body }))
     traitPageCount += 1
   }

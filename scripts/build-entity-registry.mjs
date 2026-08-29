@@ -5,7 +5,14 @@ import { flattenTree, readJson, rootDir } from './data-lib.mjs'
 import { DATASET_PACKAGE_VERSION, PACKAGE_SCHEMA_VERSION, packageDefinitions } from './package-definitions.mjs'
 
 const ontology = readJson('data/navigation/atlas-ontology.json')
-const profileSources = readJson('data/packages/mammalia/perissodactyla/profiles.source.json')
+const profileSourceEntries = packageDefinitions.flatMap((definition) => {
+  const relativePath = `data/packages/${definition.path}/profiles.source.json`
+  return existsSync(join(rootDir, relativePath))
+    ? [{ definition, relativePath, profiles: readJson(relativePath) }]
+    : []
+})
+const profileSourceByPackageId = new Map(profileSourceEntries.map((entry) => [entry.definition.id, entry]))
+const profileSources = profileSourceEntries.flatMap((entry) => entry.profiles)
 const perissodactylPhylogeny = structuredClone(readJson('data/packages/mammalia/perissodactyla/phylogeny/hypothesis.source.json'))
 const treeEvidence = readJson('data/tree/evidence.json')
 const media = readJson('data/media.json')
@@ -56,6 +63,11 @@ const profiles = profileSources.map((source) => {
   if (!profile.regionalRanges.length) delete profile.regionalRanges
   return profile
 })
+const duplicateProfileIds = profiles.filter((profile, index) => profiles.findIndex((candidate) => candidate.id === profile.id) !== index).map((profile) => profile.id)
+const duplicateProfileNodes = profiles.filter((profile, index) => profiles.findIndex((candidate) => candidate.treeNodeId === profile.treeNodeId) !== index).map((profile) => profile.treeNodeId)
+if (duplicateProfileIds.length) throw new Error(`Duplicate profile IDs: ${[...new Set(duplicateProfileIds)].join(', ')}`)
+if (duplicateProfileNodes.length) throw new Error(`Multiple profiles target the same tree node: ${[...new Set(duplicateProfileNodes)].join(', ')}`)
+for (const profile of profiles) if (profile.id !== profile.treeNodeId) throw new Error(`Profile ${profile.id} must use its treeNodeId as its stable ID`)
 
 function synchronizePhylogenyRanges(node) {
   const range = (rangesByEntityId.get(node.id) ?? []).find((entry) => entry.rangeKind === 'global-composite')
@@ -67,6 +79,7 @@ function synchronizePhylogenyRanges(node) {
 }
 synchronizePhylogenyRanges(perissodactylPhylogeny.root)
 const profileIds = new Set(profiles.map((profile) => profile.treeNodeId))
+const topologyNodeIds = new Set(flattenTree(perissodactylPhylogeny.root).map((node) => node.id))
 const mediaIds = new Set(media.map((asset) => asset.taxonId))
 const periodNames = timeScale.units.filter((unit) => unit.itp === 'period').map((unit) => unit.nam)
 const occurrenceCountsByPackage = new Map()
@@ -112,6 +125,15 @@ function packageForEntity(entityId) {
     cursor = parents.get(cursor)
   }
   return 'atlas-core'
+}
+
+for (const entry of profileSourceEntries) {
+  for (const profile of entry.profiles) {
+    const owner = packageForEntity(profile.treeNodeId)
+    if (owner !== entry.definition.id) {
+      throw new Error(`Profile ${profile.id} belongs to ${owner}, not source package ${entry.definition.id}`)
+    }
+  }
 }
 
 function descendantIds(node, output = []) {
@@ -202,7 +224,7 @@ const entities = flattenTree(ontology).map((node) => {
     narrativeProfile: profileIds.has(node.id) ? 'available' : 'unavailable',
     ecology: profileIds.has(node.id) ? 'available' : ['taxon', 'historical-grade'].includes(node.entityKind) ? 'unknown' : 'not-applicable',
     media: mediaIds.has(node.id) ? 'available' : 'unavailable',
-    topologyHypothesis: node.id === 'perissodactyla' || descendantIds(node, []).includes('perissodactyla') ? 'available' : 'unmapped',
+    topologyHypothesis: topologyNodeIds.has(node.id) ? 'available' : 'unmapped',
   }
   return {
     id: node.id,
@@ -290,7 +312,11 @@ function writeCanonicalJson(relativePath, value) {
 
 writeJson('data/registry/entities/entities.json', entities)
 writeJson('data/registry/package-registry.json', registry)
-writeJson('data/packages/mammalia/perissodactyla/profiles.json', profiles)
+writeJson('data/registry/taxon-profiles.json', profiles)
+for (const entry of profileSourceEntries) {
+  const packageEntityIds = new Set(entities.filter((entity) => entity.packageId === entry.definition.id).map((entity) => entity.id))
+  writeJson(`data/packages/${entry.definition.path}/profiles.json`, profiles.filter((profile) => packageEntityIds.has(profile.treeNodeId)))
+}
 writeJson('data/packages/mammalia/perissodactyla/phylogeny/hypothesis.json', perissodactylPhylogeny)
 
 for (const definition of packageDefinitions) {
@@ -298,6 +324,7 @@ for (const definition of packageDefinitions) {
   const packageEntityIds = new Set(packageEntities.map((entity) => entity.id))
   const packageClaims = claims.filter((claim) => ownerForClaim(claim) === definition.id)
   const packageProfiles = profiles.filter((profile) => packageEntityIds.has(profile.treeNodeId))
+  const profileSourceEntry = profileSourceByPackageId.get(definition.id)
   const packageRanges = canonicalRanges.filter((range) => packageEntityIds.has(range.entityId))
   const packageStoryIds = publishedStories
     .filter((story) => story.steps.some((step) => (step.taxonIds ?? []).some((id) => packageForEntity(id) === definition.id)))
@@ -396,8 +423,8 @@ for (const definition of packageDefinitions) {
       externalResolutions: 'data/sources/pbdb-taxon-resolution.json',
       references: 'data/references.json',
       occurrences: 'data/fossils/*.json',
+      ...(profileSourceEntry ? { profilesSource: profileSourceEntry.relativePath } : {}),
       ...(definition.id === 'perissodactyla' ? {
-        profilesSource: 'data/packages/mammalia/perissodactyla/profiles.source.json',
         phylogenySource: 'data/packages/mammalia/perissodactyla/phylogeny/hypothesis.source.json',
         calibrations: 'data/packages/mammalia/perissodactyla/phylogeny/calibrations.json',
       } : {}),
@@ -408,7 +435,7 @@ for (const definition of packageDefinitions) {
   writeJson(`data/packages/${definition.path}/provenance.json`, {
     packageId: definition.id,
     version: DATASET_PACKAGE_VERSION,
-    canonicalInputs: ['data/navigation/atlas-ontology.json', 'data/ranges/range-evidence.json', 'data/sources/pbdb-taxon-resolution.json', 'data/tree/evidence.json', 'data/references.json', ...(definition.id === 'perissodactyla' ? ['data/packages/mammalia/perissodactyla/profiles.source.json', 'data/packages/mammalia/perissodactyla/phylogeny/hypothesis.source.json'] : [])],
+    canonicalInputs: ['data/navigation/atlas-ontology.json', 'data/ranges/range-evidence.json', 'data/sources/pbdb-taxon-resolution.json', 'data/tree/evidence.json', 'data/references.json', ...(profileSourceEntry ? [profileSourceEntry.relativePath] : []), ...(definition.id === 'perissodactyla' ? ['data/packages/mammalia/perissodactyla/phylogeny/hypothesis.source.json'] : [])],
     occurrenceSnapshot: 'data/sources/pbdb-occurrence-bundle.json',
     generatedProjection: true,
     notes: ['Package registry, taxonomy, range and locale files are generated projections. review.json is maintained separately as the single package review record. Canonical entity concepts, ranges, evidence and external-resolution decisions live in the listed canonical inputs.'],
@@ -499,7 +526,7 @@ for (const definition of packageDefinitions) {
       ...packageClaims.filter((claim) => claimRationalesZh[claim.id]).map((claim) => [`claim.${claim.id}.confidenceRationale`, claimRationalesZh[claim.id]]),
     ]),
   })
-  if (definition.id === 'perissodactyla') {
+  if (packageProfiles.length) {
     const claimBySubjectAndType = new Map(packageClaims.map((claim) => [`${claim.subjectId}|${claim.claimType}`, claim]))
     const claimTypeForField = (field) => field === 'firstAppearance' || field === 'lastAppearance' || field.startsWith('regionalRanges')
       ? 'fossil-range'
@@ -554,7 +581,7 @@ writeJson('data/registry/generated-files.json', {
     'data/navigation/atlas-ontology.json', 'data/ranges/range-evidence.json',
     'data/sources/pbdb-taxon-resolution.json', 'data/tree/evidence.json',
     'data/evidence/claims.json', 'data/evidence/claim-rationales.zh.json',
-    'data/packages/mammalia/perissodactyla/profiles.source.json',
+    ...profileSourceEntries.map((entry) => entry.relativePath),
     'data/packages/mammalia/perissodactyla/phylogeny/hypothesis.source.json',
     'data/references.json',
   ],

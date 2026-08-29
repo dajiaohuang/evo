@@ -297,7 +297,7 @@ function TaxonDirectory({ onNavigate }: { onNavigate: CatalogPageProps['onNaviga
       <header className="directory-hero">
         <span className="section-label">{t('Taxon catalog')}</span>
         <h1>{t('Curated branches with evidence.')}</h1>
-        <p>{t('Milestone two begins with ten richly annotated perissodactyl exemplars; the tree remains searchable at broader scale.')}</p>
+        <p>{t('Source-linked dossiers from multiple packages appear here; broader registry-only branches remain searchable in the tree.')}</p>
       </header>
       <div className="directory-grid">
         {taxonProfiles.map((profile) => {

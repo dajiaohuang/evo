@@ -13,7 +13,6 @@ import './EvoTree.css'
 export type TreeMode = TreeDisplayMode
 
 const mappedCalibrations = calibrationData.estimates.filter((estimate) => estimate.displayOnTree && estimate.mappingStatus === 'mapped' && estimate.nodeId)
-const traitOptions = [...new Set(taxonProfiles.flatMap((profile) => profile.traits))].sort((left, right) => left.localeCompare(right, 'en'))
 
 function normalizedLabel(value: string | undefined): string {
   return String(value ?? '').toLowerCase().replace(/[^a-z0-9]+/g, '')
@@ -69,6 +68,11 @@ export function EvoTree() {
   const alternativeNodes = useMemo(() => flattenNodes(mode === 'navigation' || mode === 'radial'
     ? treeData as TreeNode
     : perissodactylHypothesisData.root as TreeNode, []), [mode])
+  const traitOptions = useMemo(() => {
+    const visibleNodeIds = new Set(alternativeNodes.map((node) => node.id))
+    return [...new Set(taxonProfiles.filter((profile) => visibleNodeIds.has(profile.treeNodeId ?? profile.id)).flatMap((profile) => profile.traits))]
+      .sort((left, right) => left.localeCompare(right, 'en'))
+  }, [alternativeNodes])
   const activeNodeCount = alternativeNodes.filter((node) => activeAt(node, currentAge)).length
   const exportTree = mode === 'navigation' || mode === 'radial' ? treeData as TreeNode : perissodactylHypothesisData.root as TreeNode
   const selectedSourceNode = selectedNodeId ? findNode([exportTree], selectedNodeId) : null

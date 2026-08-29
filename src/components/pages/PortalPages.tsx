@@ -1,6 +1,6 @@
 import manifest from '../../../data/manifest.json'
 import { evolutionEvents, taxonProfiles } from '../../services/catalog'
-import { buildEvidenceIssueUrl, getPackagePublication, publicationPackages, scientificMaturityLabel } from '../../services/publication'
+import { buildEvidenceIssueUrl, getEntityPublication, getPackagePublication, publicationPackages, scientificMaturityLabel } from '../../services/publication'
 import type { AppRoute } from '../../utils/routing'
 import { useI18n } from '../../i18n'
 import { EvidenceStatus } from '../common/EvidenceStatus'
@@ -21,6 +21,7 @@ const maturityStages = [
 export function CatalogHubPage({ onNavigate }: PortalPageProps) {
   const { language, t } = useI18n()
   const flagship = getPackagePublication('perissodactyla')
+  const flagshipProfileCount = taxonProfiles.filter((profile) => getEntityPublication(profile.treeNodeId ?? profile.id)?.packageId === 'perissodactyla').length
   const scaffolds = publicationPackages.filter((entry) => entry.scientificMaturity === 'generated-scaffold')
   const staticCatalogBase = `${import.meta.env.BASE_URL}${language === 'zh' ? 'zh/' : ''}`
 
@@ -41,7 +42,7 @@ export function CatalogHubPage({ onNavigate }: PortalPageProps) {
         <div className="portal-section__heading"><span>01</span><div><small>{t('Flagship vertical slice')}</small><h2>{t('Audited Perissodactyla pathway')}</h2></div></div>
         {flagship && <EvidenceStatus publication={flagship} entityId="perissodactyla" />}
         <div className="portal-featured__grid">
-          <article><strong>{taxonProfiles.length}</strong><span>{t('rich taxon dossiers')}</span></article>
+          <article><strong>{flagshipProfileCount}</strong><span>{t('rich taxon dossiers')}</span></article>
           <article><strong>{manifest.records.evidenceClaims}</strong><span>{t('atlas claim records')}</span></article>
           <article><strong>{manifest.records.references}</strong><span>{t('linked references')}</span></article>
           <article><strong>{t('Pending')}</strong><span>{t('named human domain review')}</span></article>
