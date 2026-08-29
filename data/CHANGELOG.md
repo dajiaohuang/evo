@@ -1,5 +1,13 @@
 # Dataset changelog
 
+## 2026.08-static-v5-rc14 — 2026-08-30
+
+- Promoted the gymnosperm package from generated scaffold to structured evidence with six primary-source-linked events and a bilingual evidence-boundary story.
+- Added an extant-family phylogenomic hypothesis without treating its topology as fossil chronology or as a tree for extinct seed plants.
+- Separated living-cycad radiation, Cycadaceae crown-age and cycad biogeography models from fossil first appearances, retaining later studies that revise the well-known 2011 young-radiation result.
+- Added a specimen-scoped Jurassic Ginkgo-like wood record and a relative hemispheric conifer-node comparison without using either to validate the package's unreviewed legacy global ranges.
+- Clarified that COL26.8 gnetophyte species already enter the package through its pinned Pinopsida routing root; a dedicated Atlas dossier remains pending.
+
 ## 2026.08-static-v5-rc13 — 2026-08-30
 
 - Added four curator-audited early-land-plant evidence events based on primary studies: Dapingian Argentine cryptospores, Late Ordovician Oman spore-mass fragments, the Asteroxylon rooting system and Givetian Metzgeriothallus body fossils.

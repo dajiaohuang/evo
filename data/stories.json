@@ -840,5 +840,101 @@
       }
     ],
     "evidenceStatus": "available-with-limitations"
+  },
+  {
+    "id": "gymnosperm-evidence-boundaries",
+    "title": "Six boundaries in gymnosperm deep time",
+    "titleZh": "裸子植物深时研究的六条证据边界",
+    "dek": "Read one fossil organ, several clock and biogeographic models, and a living-lineage topology without turning unlike evidence into one false origin timeline.",
+    "theme": "green",
+    "durationMinutes": 10,
+    "featured": true,
+    "steps": [
+      {
+        "id": "ginkgo-wood",
+        "title": "One Jurassic wood specimen",
+        "text": "PB22285 preserves a Ginkgo-like combination of wood characters in 153–165 Ma strata, but an isolated organ cannot identify a complete plant or set the first appearance of Ginkgophyta.",
+        "age": 159,
+        "timeRange": [165, 153],
+        "taxonIds": ["ginkgophyta"],
+        "view": "evidence",
+        "eventId": "tiaojishan-ginkgoxylon",
+        "annotation": "A specimen occurrence, a whole-plant association and a clade first appearance are three different claims.",
+        "claimLinks": [
+          {"claimId": "claim:event:tiaojishan-ginkgoxylon", "relation": "supports"}
+        ]
+      },
+      {
+        "id": "cycadaceae-clock",
+        "title": "A crown age moves with calibration",
+        "text": "A plastome clock combining fossil and tectonic constraints places the living Cycadaceae crown much older than a Miocene-only story, while alternative schemes reveal wide model sensitivity.",
+        "age": 55,
+        "timeRange": [69.31, 42.88],
+        "taxonIds": ["cycadophyta"],
+        "view": "evidence",
+        "eventId": "cycadaceae-palaeogene-crown-model",
+        "annotation": "The event dates a modelled crown of living Cycadaceae, not the fossil first appearance of all cycads.",
+        "claimLinks": [
+          {"claimId": "claim:event:cycadaceae-palaeogene-crown-model", "relation": "supports"}
+        ]
+      },
+      {
+        "id": "cycad-latitudes",
+        "title": "Fossils change the map",
+        "text": "Adding fossil leaves to a species-level model expands inferred past cycad latitudes and multiplies inferred local extirpations, demonstrating that living distributions alone erase history.",
+        "age": 34,
+        "timeRange": [66, 11.63],
+        "taxonIds": ["cycadophyta"],
+        "view": "map",
+        "eventId": "cycad-latitudinal-contraction",
+        "annotation": "The wide interval summarizes a modelled transition; it is not one precisely dated global extinction pulse.",
+        "claimLinks": [
+          {"claimId": "claim:event:cycad-latitudinal-contraction", "relation": "supports"}
+        ]
+      },
+      {
+        "id": "living-cycad-radiation",
+        "title": "A famous young-radiation model",
+        "text": "The 2011 estimate that most sampled living cycad species are no older than roughly 12 Ma remains historically important, but later fossil-integrated work prevents it from becoming the age of Cycadales.",
+        "age": 6,
+        "timeRange": [12, 0],
+        "taxonIds": ["cycadophyta"],
+        "view": "evidence",
+        "eventId": "living-cycad-radiation-model",
+        "annotation": "Living-species radiation, crown age, stem history and fossil first appearance must stay separate.",
+        "claimLinks": [
+          {"claimId": "claim:event:living-cycad-radiation-model", "relation": "supports"}
+        ]
+      },
+      {
+        "id": "conifer-hemispheres",
+        "title": "A relative hemispheric pattern",
+        "text": "Southern Hemisphere conifer lineages in one living-species time tree have older median nodes than sampled northern lineages, but those medians are neither family origins nor fossil ranges.",
+        "age": 7,
+        "timeRange": [8.7, 5.2],
+        "taxonIds": ["coniferophyta", "araucariaceae"],
+        "view": "diversity",
+        "eventId": "conifer-hemisphere-node-pattern",
+        "annotation": "The comparison excludes Gnetales and does not validate the atlas's provisional Araucariaceae range.",
+        "claimLinks": [
+          {"claimId": "claim:event:conifer-hemisphere-node-pattern", "relation": "supports"}
+        ]
+      },
+      {
+        "id": "living-backbone",
+        "title": "Topology is not a timeline",
+        "text": "A broad nuclear dataset recovers cycads plus Ginkgo and a Gnetales–Pinaceae relationship among living families, while gene-tree conflict and extinct lineages remain visible limits.",
+        "age": 0,
+        "timeRange": [0, 0],
+        "taxonIds": ["gymnospermae", "cycadophyta", "ginkgophyta", "coniferophyta"],
+        "view": "tree",
+        "eventId": "extant-gymnosperm-backbone",
+        "annotation": "This hypothesis does not replace the global navigation tree or supply chronological branch lengths.",
+        "claimLinks": [
+          {"claimId": "claim:event:extant-gymnosperm-backbone", "relation": "supports"}
+        ]
+      }
+    ],
+    "evidenceStatus": "available-with-limitations"
   }
 ]

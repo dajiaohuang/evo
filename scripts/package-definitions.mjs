@@ -1,5 +1,5 @@
 export const PACKAGE_SCHEMA_VERSION = 5
-export const DATASET_PACKAGE_VERSION = '2026.08-static-v5-rc13'
+export const DATASET_PACKAGE_VERSION = '2026.08-static-v5-rc14'
 export const DATASET_RELEASE_DATE = '2026-08-30'
 
 export const packageDefinitions = [
@@ -32,10 +32,11 @@ export const packageDefinitions = [
     titleZh: '裸子植物',
     rootEntityIds: ['gymnospermae'],
     conceptScope: {
-      en: 'COL26.8 accepted-species routing includes living cycads, Ginkgo, conifers and gnetophytes. Current Atlas entities cover the gymnosperm aggregate, cycads, Ginkgo, conifers and Araucariaceae; a gnetophyte dossier and claim-linked fossil or crown ranges remain pending. Legacy range projections are unreviewed.',
-      zh: 'COL26.8 已接受物种路由包含现生苏铁类、银杏类、针叶树类和买麻藤类。当前图谱实体覆盖裸子植物集合、苏铁类、银杏类、针叶树类和南洋杉科；买麻藤类档案以及关联主张的化石或冠群延限仍待补充。旧版延限投影尚未复核。',
+      en: 'COL26.8 accepted-species routing includes living cycads, Ginkgo, conifers and gnetophytes; in the pinned catalogue, gnetophytes enter through the routed Pinopsida root. Current Atlas entities cover the gymnosperm aggregate, cycads, Ginkgo, conifers and Araucariaceae. Curated events keep specimen occurrences, extant-lineage topology and modelled divergence or biogeography separate. A gnetophyte dossier and claim-linked global ranges remain pending; legacy range projections are unreviewed.',
+      zh: 'COL26.8 已接受物种路由包含现生苏铁类、银杏类、针叶树类和买麻藤类；在固定目录中，买麻藤类经已路由的松柏纲根进入本包。当前图谱实体覆盖裸子植物集合、苏铁类、银杏类、针叶树类和南洋杉科。已整理事件严格区分标本出现、现生谱系拓扑以及模型分化或生物地理推断。买麻藤类档案和有主张关联的全局延限仍待补充；旧版延限投影尚未复核。',
     },
     wave: 'E',
+    scientificMaturity: 'structured',
   },
   {
     id: 'angiospermae',
