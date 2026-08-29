@@ -23,6 +23,8 @@ npm run data:manifest
 npm run data:validate
 ```
 
+Paleogeography imports are build-time only. Run `npm run data:fetch:maps -- --retrieved-at YYYY-MM-DD --script-commit <commit>` only when intentionally updating the pinned CAO2024 snapshot series, then review `data/paleogeography/provenance.json` and every changed geometry checksum.
+
 ## Architecture and scientific boundaries
 
 - React 19 + TypeScript + Vite 8, hosted as a hash-routed static app under `/evo/` on GitHub Pages.
@@ -34,7 +36,7 @@ npm run data:validate
 - Modern and reconstructed coordinates are separate paired representations. Use `src/utils/spatial.ts`; never fill a missing paleocoordinate with a modern locality.
 - Bundled occurrence rows are bounded, non-random PBDB API-prefix samples. Never call them representative, exhaustive or unbiased richness estimates.
 - Higher-taxon queries default to the ontology’s represented descendant closure and return explicit query metadata/status.
-- Large scientific data is generated as static `.json.gz` shards and loaded through `src/data-client/`; do not compile occurrence shards into Vite modules or add package/occurrence/map/download data to the PWA precache.
+- Large scientific data is generated as static `.json.gz` shards and loaded through `src/data-client/`; do not compile occurrence or paleogeography shards into Vite modules or add package/occurrence/map/download data to the PWA precache.
 - `data/navigation/atlas-ontology.json`, `data/ranges/range-evidence.json`, the evidence ledgers and flagship narrative/profile files are canonical. `data/registry/` plus package registry/taxonomy/range/review/locale files are generated projections guarded by `npm run data:registry:check`. `public/data/` and `dist/data/` are generated runtime projections and must not be committed.
 
 ## Important files

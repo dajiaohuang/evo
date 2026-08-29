@@ -70,7 +70,7 @@ describe('static runtime release coherence', () => {
       core: {},
       packages: { count: 1, registry: manifestFile, manifestTemplate: 'releases/dataset-b/packages/{packageId}/manifest.json', manifests: { demo: manifestFile } },
       occurrences: { manifest: manifestFile, totalRecords: 0, unresolvedPackageAssignmentCount: 0 },
-      maps: { manifest: manifestFile },
+      maps: { manifest: manifestFile, availableSnapshots: 0 },
       downloads: { template: 'releases/dataset-b/downloads/{packageId}-dataset-b.zip' },
       budgets: { coreCompressedBytes: 0, coreLimitBytes: 0, shardLimitBytes: 0, pagesLimitBytes: 0 },
       evidenceBoundary: {},

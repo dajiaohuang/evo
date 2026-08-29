@@ -146,7 +146,15 @@ for (const check of localizedStaticChecks) {
 releaseUrl(current.maps.manifest, 'map manifest')
 checkFile(current.maps.manifest, 'map manifest')
 const maps = readJson(current.maps.manifest.url)
-for (const snapshot of maps.snapshots) if (snapshot.status === 'available' && snapshot.geometry === 'withheld-pending-provenance') failures.push(`${snapshot.period}: available map is withheld`)
+for (const snapshot of maps.snapshots) {
+  if (snapshot.status !== 'available') continue
+  if (!snapshot.geometry?.url || !snapshot.geometry?.sha256) {
+    failures.push(`${snapshot.period}: available map has no checksum-addressed geometry`)
+    continue
+  }
+  releaseUrl(snapshot.geometry, `${snapshot.period} map geometry`)
+  checkFile(snapshot.geometry, `${snapshot.period} map geometry`)
+}
 
 if (failures.length) {
   console.error(`Pages smoke failed with ${failures.length} issue(s):`)

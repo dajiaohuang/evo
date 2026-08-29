@@ -1,6 +1,6 @@
 export const PACKAGE_SCHEMA_VERSION = 5
-export const DATASET_PACKAGE_VERSION = '2026.08-static-v5-rc3'
-export const DATASET_RELEASE_DATE = '2026-08-20'
+export const DATASET_PACKAGE_VERSION = '2026.08-static-v5-rc4'
+export const DATASET_RELEASE_DATE = '2026-08-29'
 
 export const packageDefinitions = [
   {
@@ -104,7 +104,7 @@ export const packageDefinitions = [
     path: 'vertebrata/tetrapod-transition',
     title: 'Sarcopterygians and the Tetrapod Transition',
     titleZh: '肉鳍鱼类与四足动物转型',
-    rootEntityIds: ['sarcopterygii', 'tetrapodomorpha'],
+    rootEntityIds: ['sarcopterygii'],
     wave: 'C',
   },
   {
@@ -120,7 +120,7 @@ export const packageDefinitions = [
     path: 'mammalia/mammal-origins',
     title: 'Synapsids and Mammal Origins',
     titleZh: '合弓类与哺乳动物起源',
-    rootEntityIds: ['synapsida', 'mammalia'],
+    rootEntityIds: ['synapsida'],
     wave: 'A',
   },
   {

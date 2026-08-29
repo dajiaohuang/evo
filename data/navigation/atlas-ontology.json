@@ -708,8 +708,9 @@
                   "lastAppearance": 443,
                   "extinct": true,
                   "children": [],
-                  "entityKind": "taxon",
-                  "contentLevel": "dossier"
+                  "entityKind": "historical-grade",
+                  "contentLevel": "dossier",
+                  "parentRelationshipKind": "historical-grade-membership"
                 },
                 {
                   "id": "corynexochida",
@@ -1040,8 +1041,8 @@
                   "rank": "class",
                   "taxonId": "",
                   "firstAppearance": 510,
-                  "lastAppearance": 323,
-                  "extinct": true,
+                  "lastAppearance": 0,
+                  "extinct": false,
                   "children": [],
                   "entityKind": "taxon",
                   "contentLevel": "dossier"
@@ -1491,8 +1492,8 @@
                                 {
                                   "id": "lissamphibia",
                                   "name": "Lissamphibia",
-                                  "commonName": "Frogs & Salamanders",
-                                  "commonNameZh": "蛙与蝾螈",
+                                  "commonName": "Frogs, salamanders & caecilians",
+                                  "commonNameZh": "蛙、蝾螈与蚓螈",
                                   "rank": "subclass",
                                   "taxonId": "",
                                   "firstAppearance": 250,
@@ -2256,8 +2257,8 @@
                                     {
                                       "id": "lepidosauria",
                                       "name": "Lepidosauria",
-                                      "commonName": "Lizards & Snakes",
-                                      "commonNameZh": "蜥蜴与蛇",
+                                      "commonName": "Lizards, snakes & tuatara",
+                                      "commonNameZh": "蜥蜴、蛇与喙头蜥",
                                       "rank": "superorder",
                                       "taxonId": "txn:95312",
                                       "firstAppearance": 240,
@@ -2274,21 +2275,22 @@
                                           "firstAppearance": 201.4,
                                           "lastAppearance": 0,
                                           "extinct": false,
-                                          "children": [],
-                                          "entityKind": "taxon",
-                                          "contentLevel": "dossier"
-                                        },
-                                        {
-                                          "id": "mosasauridae",
-                                          "name": "Mosasauridae",
-                                          "commonName": "Mosasaurs",
-                                          "commonNameZh": "沧龙类",
-                                          "rank": "family",
-                                          "taxonId": "txn:38049",
-                                          "firstAppearance": 101,
-                                          "lastAppearance": 66,
-                                          "extinct": true,
-                                          "children": [],
+                                          "children": [
+                                            {
+                                              "id": "mosasauridae",
+                                              "name": "Mosasauridae",
+                                              "commonName": "Mosasaurs",
+                                              "commonNameZh": "沧龙科",
+                                              "rank": "family",
+                                              "taxonId": "txn:38049",
+                                              "firstAppearance": 101,
+                                              "lastAppearance": 66,
+                                              "extinct": true,
+                                              "children": [],
+                                              "entityKind": "taxon",
+                                              "contentLevel": "dossier"
+                                            }
+                                          ],
                                           "entityKind": "taxon",
                                           "contentLevel": "dossier"
                                         }

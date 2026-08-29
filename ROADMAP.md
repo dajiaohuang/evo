@@ -38,6 +38,6 @@ These are content and maintainer-decision gates, not software defects. Automated
 - A backend, login, account or cloud annotation system.
 - A Review Center, review task database, multi-reviewer assignment or AI-report archive.
 - An embedded ChatGPT API or repository-managed user API key.
-- Paleogeographic geometry without complete model, license, processing and checksum provenance.
+- Paleogeographic geometry without complete model, license, processing and checksum provenance; the published CAO2024 midpoint series satisfies this gate, while unprovenanced alternatives remain excluded.
 - Biological richness, absence, migration or calibrated-divergence claims inferred from raw occurrence displays.
 - Any maintainer-reviewed badge created by automation or without an exact current content digest.

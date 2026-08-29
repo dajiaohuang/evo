@@ -296,6 +296,7 @@
         "txn:36454",
         "txn:38175",
         "txn:95312",
+        "txn:38049",
         "txn:38461",
         "txn:52933",
         "txn:38837",
@@ -410,6 +411,7 @@
         "plesiosauria",
         "elasmosauridae",
         "lepidosauria",
+        "mosasauridae",
         "pterosauria",
         "pteranodontidae",
         "ankylosaurus",
@@ -2051,11 +2053,11 @@
     },
     "ptychopariida": {
       "entityId": "ptychopariida",
-      "entityKind": "taxon",
+      "entityKind": "historical-grade",
       "externalTaxonId": "txn:20239",
       "scientificNameNormalized": "ptychopariida",
       "externalResolutionStatus": "resolved-exact",
-      "queryStatus": "resolved-and-observed",
+      "queryStatus": "historical-grade",
       "descendantEntityIds": [],
       "descendantTaxonIds": [
         "txn:20239"
@@ -2930,6 +2932,7 @@
         "txn:36454",
         "txn:38175",
         "txn:95312",
+        "txn:38049",
         "txn:38461",
         "txn:52933",
         "txn:38837",
@@ -2999,6 +3002,7 @@
         "plesiosauria",
         "elasmosauridae",
         "lepidosauria",
+        "mosasauridae",
         "pterosauria",
         "pteranodontidae",
         "ankylosaurus",
@@ -3354,6 +3358,7 @@
         "txn:36454",
         "txn:38175",
         "txn:95312",
+        "txn:38049",
         "txn:38461",
         "txn:52933",
         "txn:38837",
@@ -3422,6 +3427,7 @@
         "plesiosauria",
         "elasmosauridae",
         "lepidosauria",
+        "mosasauridae",
         "pterosauria",
         "pteranodontidae",
         "ankylosaurus",
@@ -3829,6 +3835,7 @@
         "txn:36454",
         "txn:38175",
         "txn:95312",
+        "txn:38049",
         "txn:38461",
         "txn:52933",
         "txn:38837",
@@ -3891,6 +3898,7 @@
         "plesiosauria",
         "elasmosauridae",
         "lepidosauria",
+        "mosasauridae",
         "pterosauria",
         "pteranodontidae",
         "ankylosaurus",
@@ -4146,6 +4154,7 @@
         "txn:36454",
         "txn:38175",
         "txn:95312",
+        "txn:38049",
         "txn:38461",
         "txn:52933",
         "txn:38837",
@@ -4207,6 +4216,7 @@
         "plesiosauria",
         "elasmosauridae",
         "lepidosauria",
+        "mosasauridae",
         "pterosauria",
         "pteranodontidae",
         "ankylosaurus",
@@ -4422,6 +4432,7 @@
         "txn:36454",
         "txn:38175",
         "txn:95312",
+        "txn:38049",
         "txn:38461",
         "txn:52933",
         "txn:38837",
@@ -4483,6 +4494,7 @@
         "plesiosauria",
         "elasmosauridae",
         "lepidosauria",
+        "mosasauridae",
         "pterosauria",
         "pteranodontidae",
         "ankylosaurus",
@@ -4697,6 +4709,7 @@
         "txn:36454",
         "txn:38175",
         "txn:95312",
+        "txn:38049",
         "txn:38461",
         "txn:52933",
         "txn:38837",
@@ -4758,6 +4771,7 @@
         "plesiosauria",
         "elasmosauridae",
         "lepidosauria",
+        "mosasauridae",
         "pterosauria",
         "pteranodontidae",
         "ankylosaurus",
@@ -5045,6 +5059,7 @@
         "txn:36454",
         "txn:38175",
         "txn:95312",
+        "txn:38049",
         "txn:38461",
         "txn:52933",
         "txn:38837",
@@ -5104,6 +5119,7 @@
         "plesiosauria",
         "elasmosauridae",
         "lepidosauria",
+        "mosasauridae",
         "pterosauria",
         "pteranodontidae",
         "ankylosaurus",
@@ -6932,6 +6948,7 @@
         "txn:36454",
         "txn:38175",
         "txn:95312",
+        "txn:38049",
         "txn:38461",
         "txn:52933",
         "txn:38837",
@@ -6957,6 +6974,7 @@
         "plesiosauria",
         "elasmosauridae",
         "lepidosauria",
+        "mosasauridae",
         "pterosauria",
         "pteranodontidae",
         "ankylosaurus",
@@ -7135,10 +7153,12 @@
         "mosasauridae"
       ],
       "descendantTaxonIds": [
-        "txn:95312"
+        "txn:95312",
+        "txn:38049"
       ],
       "descendantScientificNames": [
-        "lepidosauria"
+        "lepidosauria",
+        "mosasauridae"
       ],
       "matchMethods": {
         "exactExternalId": 0,
@@ -7157,9 +7177,15 @@
       "scientificNameNormalized": "squamata",
       "externalResolutionStatus": "ambiguous",
       "queryStatus": "concept-review-required",
-      "descendantEntityIds": [],
-      "descendantTaxonIds": [],
-      "descendantScientificNames": [],
+      "descendantEntityIds": [
+        "mosasauridae"
+      ],
+      "descendantTaxonIds": [
+        "txn:38049"
+      ],
+      "descendantScientificNames": [
+        "mosasauridae"
+      ],
       "matchMethods": {
         "exactExternalId": 0,
         "acceptedName": 0,
@@ -7173,13 +7199,17 @@
     "mosasauridae": {
       "entityId": "mosasauridae",
       "entityKind": "taxon",
-      "externalTaxonId": null,
+      "externalTaxonId": "txn:38049",
       "scientificNameNormalized": "mosasauridae",
       "externalResolutionStatus": "resolved-exact",
-      "queryStatus": "concept-review-required",
+      "queryStatus": "resolved-zero-in-bounded-sample",
       "descendantEntityIds": [],
-      "descendantTaxonIds": [],
-      "descendantScientificNames": [],
+      "descendantTaxonIds": [
+        "txn:38049"
+      ],
+      "descendantScientificNames": [
+        "mosasauridae"
+      ],
       "matchMethods": {
         "exactExternalId": 0,
         "acceptedName": 0,

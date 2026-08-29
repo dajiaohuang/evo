@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "generatedAt": "2026-08-19",
+  "generatedAt": "2026-08-29",
   "policy": "PBDB name/rank resolution, automated lineage recommendations and human curator decisions are separate. Only taxonomic-parent edges participate in lineage compatibility; navigation and display edges do not assert taxonomic parentage.",
   "rankNormalization": {
     "clade": "unranked clade"
@@ -17,7 +17,7 @@
     "ontologyNodes": 189,
     "resolved": 132,
     "unresolved": 57,
-    "needsConceptReview": 24,
+    "needsConceptReview": 23,
     "humanCuratorDecisions": 0
   },
   "resolutions": [
@@ -3880,9 +3880,9 @@
         }
       ],
       "localExpectedParentConcept": "Trilobita",
-      "parentRelationshipKind": "taxonomic-parent",
-      "lineageCompatibility": "compatible-classification",
-      "conceptReviewStatus": "compatible",
+      "parentRelationshipKind": "historical-grade-membership",
+      "lineageCompatibility": "not-applicable-non-taxonomic-edge",
+      "conceptReviewStatus": "not-required-navigation-edge",
       "automatedRecommendation": "accept-external-mapping",
       "humanCuratorDecision": null,
       "curatorRationale": null,
@@ -19138,11 +19138,11 @@
           "name": "Life"
         }
       ],
-      "localExpectedParentConcept": "Lepidosauria",
+      "localExpectedParentConcept": "Squamata",
       "parentRelationshipKind": "taxonomic-parent",
-      "lineageCompatibility": "incompatible",
-      "conceptReviewStatus": "needs-concept-review",
-      "automatedRecommendation": "needs-concept-review",
+      "lineageCompatibility": "compatible-immediate-parent",
+      "conceptReviewStatus": "compatible",
+      "automatedRecommendation": "accept-external-mapping",
       "humanCuratorDecision": null,
       "curatorRationale": null,
       "curatorReviewedAt": null,

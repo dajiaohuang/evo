@@ -128,6 +128,32 @@ export interface OccurrenceRuntimeManifest {
   packages: Record<string, Array<RuntimeFile & { records: number; period: string; packageId: string }>>
 }
 
+export interface RuntimeMapSnapshot {
+  period: string
+  status: 'available' | 'withheld-pending-provenance'
+  description: string
+  descriptionZh: string
+  reconstructionAgeMa: number | null
+  model: string | null
+  geometry: RuntimeFile | null
+}
+
+export interface RuntimeMapManifest {
+  schemaVersion: number
+  version: string
+  source: {
+    title: string
+    version: string
+    doi: string
+    url: string
+    license: string
+    attribution: string
+    retrievedAt: string
+  }
+  scientificLimitations: string[]
+  snapshots: RuntimeMapSnapshot[]
+}
+
 export interface CurrentRuntimeManifest {
   schemaVersion: number
   datasetVersion: string
@@ -150,7 +176,7 @@ export interface CurrentRuntimeManifest {
     totalRecords: number
     unresolvedPackageAssignmentCount: number
   }
-  maps: { manifest: RuntimeFile }
+  maps: { manifest: RuntimeFile; availableSnapshots: number }
   downloads: { template: string }
   budgets: {
     coreCompressedBytes: number
