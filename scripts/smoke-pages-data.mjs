@@ -148,12 +148,15 @@ checkFile(current.maps.manifest, 'map manifest')
 const maps = readJson(current.maps.manifest.url)
 for (const snapshot of maps.snapshots) {
   if (snapshot.status !== 'available') continue
-  if (!snapshot.geometry?.url || !snapshot.geometry?.sha256) {
-    failures.push(`${snapshot.period}: available map has no checksum-addressed geometry`)
-    continue
+  for (const layerId of ['coastlines', 'platePolygons', 'plateBoundaries']) {
+    const layer = snapshot.layers?.[layerId]
+    if (!layer?.url || !layer?.sha256) {
+      failures.push(`${snapshot.period}: available map has no checksum-addressed ${layerId} layer`)
+      continue
+    }
+    releaseUrl(layer, `${snapshot.period} ${layerId} map layer`)
+    checkFile(layer, `${snapshot.period} ${layerId} map layer`)
   }
-  releaseUrl(snapshot.geometry, `${snapshot.period} map geometry`)
-  checkFile(snapshot.geometry, `${snapshot.period} map geometry`)
 }
 
 if (failures.length) {

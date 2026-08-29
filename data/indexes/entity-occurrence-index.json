@@ -82,6 +82,8 @@
         "blastoidea",
         "echinoidea",
         "asteroidea",
+        "ophiuroidea",
+        "holothuroidea",
         "hemichordata",
         "pterobranchia",
         "graptolithina",
@@ -245,6 +247,8 @@
         "txn:30820",
         "txn:168786",
         "txn:31341",
+        "txn:31508",
+        "txn:161964",
         "txn:33518",
         "txn:33521",
         "txn:67149",
@@ -360,6 +364,8 @@
         "blastoidea",
         "echinoidea",
         "asteroidea",
+        "ophiuroidea",
+        "holothuroidea",
         "hemichordata",
         "pterobranchia",
         "vertebrata",
@@ -432,9 +438,9 @@
         "phorusrhacidae"
       ],
       "matchMethods": {
-        "exactExternalId": 436,
+        "exactExternalId": 437,
         "acceptedName": 0,
-        "higherClassification": 11001
+        "higherClassification": 11000
       },
       "completeSnapshotAvailable": false,
       "completeSnapshotRows": null,
@@ -976,6 +982,8 @@
         "blastoidea",
         "echinoidea",
         "asteroidea",
+        "ophiuroidea",
+        "holothuroidea",
         "hemichordata",
         "pterobranchia",
         "graptolithina"
@@ -1019,6 +1027,8 @@
         "txn:30820",
         "txn:168786",
         "txn:31341",
+        "txn:31508",
+        "txn:161964",
         "txn:33518",
         "txn:33521"
       ],
@@ -1061,13 +1071,15 @@
         "blastoidea",
         "echinoidea",
         "asteroidea",
+        "ophiuroidea",
+        "holothuroidea",
         "hemichordata",
         "pterobranchia"
       ],
       "matchMethods": {
-        "exactExternalId": 371,
+        "exactExternalId": 372,
         "acceptedName": 0,
-        "higherClassification": 9355
+        "higherClassification": 9354
       },
       "completeSnapshotAvailable": false,
       "completeSnapshotRows": null,
@@ -2518,26 +2530,32 @@
         "crinoidea",
         "blastoidea",
         "echinoidea",
-        "asteroidea"
+        "asteroidea",
+        "ophiuroidea",
+        "holothuroidea"
       ],
       "descendantTaxonIds": [
         "txn:30739",
         "txn:31590",
         "txn:30820",
         "txn:168786",
-        "txn:31341"
+        "txn:31341",
+        "txn:31508",
+        "txn:161964"
       ],
       "descendantScientificNames": [
         "echinodermata",
         "crinoidea",
         "blastoidea",
         "echinoidea",
-        "asteroidea"
+        "asteroidea",
+        "ophiuroidea",
+        "holothuroidea"
       ],
       "matchMethods": {
-        "exactExternalId": 111,
+        "exactExternalId": 112,
         "acceptedName": 0,
-        "higherClassification": 198
+        "higherClassification": 197
       },
       "completeSnapshotAvailable": false,
       "completeSnapshotRows": null,
@@ -2673,6 +2691,58 @@
         "Cretaceous"
       ],
       "matchedTotal": 4
+    },
+    "ophiuroidea": {
+      "entityId": "ophiuroidea",
+      "entityKind": "taxon",
+      "externalTaxonId": "txn:31508",
+      "scientificNameNormalized": "ophiuroidea",
+      "externalResolutionStatus": "resolved-exact",
+      "queryStatus": "resolved-and-observed",
+      "descendantEntityIds": [],
+      "descendantTaxonIds": [
+        "txn:31508"
+      ],
+      "descendantScientificNames": [
+        "ophiuroidea"
+      ],
+      "matchMethods": {
+        "exactExternalId": 1,
+        "acceptedName": 0,
+        "higherClassification": 2
+      },
+      "completeSnapshotAvailable": false,
+      "completeSnapshotRows": null,
+      "periods": [
+        "Silurian",
+        "Devonian",
+        "Carboniferous"
+      ],
+      "matchedTotal": 3
+    },
+    "holothuroidea": {
+      "entityId": "holothuroidea",
+      "entityKind": "taxon",
+      "externalTaxonId": "txn:161964",
+      "scientificNameNormalized": "holothuroidea",
+      "externalResolutionStatus": "resolved-exact",
+      "queryStatus": "resolved-zero-in-bounded-sample",
+      "descendantEntityIds": [],
+      "descendantTaxonIds": [
+        "txn:161964"
+      ],
+      "descendantScientificNames": [
+        "holothuroidea"
+      ],
+      "matchMethods": {
+        "exactExternalId": 0,
+        "acceptedName": 0,
+        "higherClassification": 0
+      },
+      "completeSnapshotAvailable": false,
+      "completeSnapshotRows": null,
+      "periods": [],
+      "matchedTotal": 0
     },
     "hemichordata": {
       "entityId": "hemichordata",

@@ -1,5 +1,14 @@
 # Dataset changelog
 
+## 2026.08-static-v5-rc5 — 2026-08-29
+
+- Expanded each CAO2024 period snapshot from coastlines alone to three checksum-addressed layers: unsimplified coastlines, topological plate polygons and typed plate boundaries.
+- Preserved GPlates boundary classifications for ridges, subduction zones, transforms, rifts, terrane boundaries and other modelled tectonic features.
+- Retained left/right subduction polarity, added bilingual boundary labels and exposed layer/type counts in the map's text alternative.
+- Added explicit disclosure that these layers do not contain or imply paleoelevation, bathymetry or terrain relief.
+- Completed the five living echinoderm classes in the navigation package by adding Ophiuroidea and Holothuroidea with pinned PBDB concepts.
+- Replaced the former 540 Ma echinoderm display bound with a literature-linked 510 Ma articulated-fauna record, while keeping 520–525 Ma isolated stereom and contested older affinities as separate claims; corrected the class-level ranges and added precise bilingual evidence locators.
+
 ## 2026.08-static-v5-rc4 — 2026-08-29
 
 - Replaced the withdrawn provenance-unknown map series with 12 checksum-addressed CAO2024 v2.4 coastline snapshots, reconstructed at ICS 2026/06 period midpoints under CC BY 4.0 and linked to a reproducible GPlates import ledger.

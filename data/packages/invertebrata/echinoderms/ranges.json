@@ -3,31 +3,35 @@
     "id": "range:echinodermata:global",
     "entityId": "echinodermata",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Echinodermata",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 540,
+    "taxonomicConcept": "Echinodermata — robust articulated body-fossil record",
+    "geographicScope": "Global articulated body-fossil record",
+    "olderMa": 510,
     "youngerMa": 0,
     "status": "available",
     "uncertainty": {
-      "olderMa": null,
+      "olderMa": 5,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "note": "The 510 Ma endpoint represents the earliest robust articulated faunas, reported within an approximately 515–510 Ma interval. Older 520–525 Ma isolated stereom is retained as a separate claim, not treated as an articulated-body endpoint."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
-    "confidence": "medium",
-    "claimIds": [],
+    "evidenceBasis": "Articulated Gondwanan faunas document at least four differentiated echinoderm body plans by about 510 Ma; isolated stereom and the contested Fortunian Yanjiahella assignment are represented by separate claims.",
+    "confidence": "high",
+    "claimIds": [
+      "claim:taxon:echinodermata:articulated-faunas-510ma",
+      "claim:taxon:echinodermata:earliest-stereom-ossicles",
+      "claim:taxon:echinodermata:yanjiahella-affinity"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
+        "referenceId": "smith-2013-oldest-echinoderms",
+        "locator": "pp. 1 and 5–6; Figure 3; Abstract and Discussion"
       },
       {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "zamora-2020-yanjiahella",
+        "locator": "Figure 2a–d; opening Matters Arising text and Methods"
       }
     ],
     "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "evidenceLevel": "literature-synthesized"
   },
   {
     "id": "range:crinoidea:global",
@@ -35,29 +39,27 @@
     "rangeKind": "global-composite",
     "taxonomicConcept": "Crinoidea",
     "geographicScope": "Global or represented navigation composite",
-    "olderMa": 488,
+    "olderMa": 482,
     "youngerMa": 0,
     "status": "available",
     "uncertainty": {
-      "olderMa": null,
+      "olderMa": 4.85,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "note": "The numeric endpoint is a rounded representative of the middle Tremadocian; the current canonical Tremadocian spans 486.85–477.1 Ma, and the source does not provide a point-dated global FAD."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
-    "confidence": "medium",
-    "claimIds": [],
+    "evidenceBasis": "A systematic study states that the unproblematic crinoid record begins in the middle Tremadocian and excludes the problematic Middle Cambrian Echmatocrinus from that first appearance.",
+    "confidence": "high",
+    "claimIds": [
+      "claim:taxon:crinoidea:tremadocian-record"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
-      },
-      {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "guensburg-2020-crinoid-origin",
+        "locator": "pp. 311–312, Introduction"
       }
     ],
     "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "evidenceLevel": "literature-synthesized"
   },
   {
     "id": "range:blastoidea:global",
@@ -65,88 +67,155 @@
     "rangeKind": "global-composite",
     "taxonomicConcept": "Blastoidea",
     "geographicScope": "Global or represented navigation composite",
-    "olderMa": 470,
-    "youngerMa": 252,
+    "olderMa": 455,
+    "youngerMa": 255,
     "status": "available",
     "uncertainty": {
-      "olderMa": null,
-      "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "olderMa": 3,
+      "youngerMa": 1,
+      "note": "The older endpoint is a rounded Sandbian occurrence and the younger endpoint is the reported Wuchiapingian last record. A 251.9 Ma boundary endpoint would be an extinction inference rather than an observed LAD."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "evidenceBasis": "Macurdablastus anchors the Sandbian blastoid record, while the youngest documented occurrence summarized in the cited literature is Wuchiapingian near 255 Ma.",
     "confidence": "medium",
-    "claimIds": [],
+    "claimIds": [
+      "claim:taxon:blastoidea:sandbian-wuchiapingian-record"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
+        "referenceId": "bauer-2019-macurdablastus",
+        "locator": "p. 1003; Figures 1E–F and 2; Systematic palaeontology: Class Blastoidea"
       },
       {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "paul-2021-blastoid-hydrospires",
+        "locator": "Introduction, first paragraph"
       }
     ],
     "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "evidenceLevel": "literature-synthesized"
   },
   {
     "id": "range:echinoidea:global",
     "entityId": "echinoidea",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Echinoidea",
-    "geographicScope": "Global or represented navigation composite",
+    "taxonomicConcept": "Echinoidea total group, including Ordovician stem echinoids",
+    "geographicScope": "Global total-group fossil record",
     "olderMa": 460,
     "youngerMa": 0,
     "status": "available",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "note": "The rounded older endpoint represents Darriwilian stem-group material and is not the crown-group origin; crown dating is retained as a separate model-dependent claim."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "evidenceBasis": "Disarticulated bothriocidaroid plates document a Darriwilian total-group record; time-scaled roots extend into the Dapingian or Darriwilian, whereas phylogenomics places the crown much later.",
     "confidence": "medium",
-    "claimIds": [],
+    "claimIds": [
+      "claim:taxon:echinoidea:ordovician-stem-record",
+      "claim:taxon:echinoidea:crown-origin"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
+        "referenceId": "thompson-2022-bothriocidaroida",
+        "locator": "pp. 1395–1396; Figures 2 and 6; Neobothriocidaris sp. A, Occurrence and Remarks"
       },
       {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "mongiardino-koch-2022-echinoid-phylogenomics",
+        "locator": "pp. 1–2; Figure 6 and Figure 6—figure supplement 1"
       }
     ],
     "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "evidenceLevel": "literature-synthesized"
   },
   {
     "id": "range:asteroidea:global",
     "entityId": "asteroidea",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Asteroidea",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 488,
+    "taxonomicConcept": "Asteroidea — body-fossil record",
+    "geographicScope": "Global body-fossil record",
+    "olderMa": 478,
     "youngerMa": 0,
     "status": "available",
     "uncertainty": {
-      "olderMa": null,
+      "olderMa": 1,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "note": "The endpoint is rounded from a very-top-Tremadocian occurrence. Older Asteriacites trace fossils are excluded because their producer and mode of formation are problematic."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "evidenceBasis": "Eriaster ibexensis provides the oldest supported asteroid body-fossil record used here and is stratigraphically placed at the very top of the Tremadocian.",
     "confidence": "medium",
-    "claimIds": [],
+    "claimIds": [
+      "claim:taxon:asteroidea:top-tremadocian-body-fossil"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
-      },
-      {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "blake-guensburg-2005-eriaster",
+        "locator": "p. 395, Abstract and Stratigraphic positions; pp. 396–398, Figures 1–2 and Systematic palaeontology"
       }
     ],
     "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "evidenceLevel": "literature-synthesized"
+  },
+  {
+    "id": "range:ophiuroidea:global",
+    "entityId": "ophiuroidea",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Ophiuroidea — body-fossil record (PBDB txn:31508)",
+    "geographicScope": "Global body-fossil record",
+    "olderMa": 477.1,
+    "youngerMa": 0,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": 5.8,
+      "youngerMa": 0.0117,
+      "note": "The older endpoint is the current Floian stage ceiling, not a point-dated first appearance. PBDB occurrence occ:1541278 resolves the cited Stenaster material to a Floian collection."
+    },
+    "evidenceBasis": "A systematic asterozoan study provides class-level Ophiuroidea material, and PBDB occurrence occ:1541278 independently resolves Stenaster from the Wah Wah Formation to the Floian.",
+    "confidence": "medium",
+    "claimIds": [
+      "claim:taxon:ophiuroidea:floian-body-fossil"
+    ],
+    "referenceLocators": [
+      {
+        "referenceId": "blake-2016-early-asterozoa",
+        "locator": "pp. 161–181; Abstract and Systematic palaeontology: Stenaster sp."
+      },
+      {
+        "referenceId": "pbdb-api-2016",
+        "locator": "occ:1541278; col:216850; ref:74981; Floian Wah Wah Formation"
+      }
+    ],
+    "reviewStatus": "not-reviewed",
+    "evidenceLevel": "literature-synthesized"
+  },
+  {
+    "id": "range:holothuroidea:global",
+    "entityId": "holothuroidea",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Holothuroidea — articulated body-fossil record (PBDB txn:161964)",
+    "geographicScope": "Global articulated body-fossil record",
+    "olderMa": 460,
+    "youngerMa": 0,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": 1.8,
+      "youngerMa": 0.0117,
+      "note": "The endpoint is rounded from the late Darriwilian articulated record. PBDB's Stage 4 value is driven by disputed occurrence occ:801180 and is explicitly rejected as the range endpoint."
+    },
+    "evidenceBasis": "Oesolcucumaria eostre preserves a diagnostic calcareous ring and articulated anatomy in the late Darriwilian Holothurian Bed. Proposed Cambrian holothurians lack comparable diagnostic support.",
+    "confidence": "high",
+    "claimIds": [
+      "claim:taxon:holothuroidea:darriwilian-articulated-record"
+    ],
+    "referenceLocators": [
+      {
+        "referenceId": "botting-muir-2012-holothurian-bed",
+        "locator": "Systematic palaeontology: Oesolcucumaria; Remarks; Figure 9; Holotype and Occurrence"
+      },
+      {
+        "referenceId": "pbdb-api-2016",
+        "locator": "Rejected endpoint candidate occ:801180, Holothuroidea <indet. A>, Burgess Shale Stage 4, ref:28283"
+      }
+    ],
+    "reviewStatus": "not-reviewed",
+    "evidenceLevel": "literature-synthesized"
   }
 ]

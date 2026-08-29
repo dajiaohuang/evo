@@ -198,13 +198,17 @@ export async function loadMapManifest(): Promise<RuntimeMapManifest> {
 export async function loadPaleogeography(period: string): Promise<{
   manifest: RuntimeMapManifest
   snapshot: RuntimeMapSnapshot
-  geometry: import('../types').ContinentFeatureCollection
+  layers: import('../types').PaleogeographyLayers
 } | null> {
   const manifest = await loadMapManifest()
   const snapshot = manifest.snapshots.find((entry) => entry.period === period)
-  if (!snapshot || snapshot.status !== 'available' || !snapshot.geometry) return null
-  const geometry = await loadRuntimeFile<import('../types').ContinentFeatureCollection>(snapshot.geometry)
-  return { manifest, snapshot, geometry }
+  if (!snapshot || snapshot.status !== 'available' || !snapshot.layers) return null
+  const [coastlines, platePolygons, plateBoundaries] = await Promise.all([
+    loadRuntimeFile<import('../types').PaleogeographyFeatureCollection>(snapshot.layers.coastlines),
+    loadRuntimeFile<import('../types').PaleogeographyFeatureCollection>(snapshot.layers.platePolygons),
+    loadRuntimeFile<import('../types').PaleogeographyFeatureCollection>(snapshot.layers.plateBoundaries),
+  ])
+  return { manifest, snapshot, layers: { coastlines, platePolygons, plateBoundaries } }
 }
 
 function matchesSearch(entry: RuntimeSearchEntry, normalized: string): boolean {

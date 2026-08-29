@@ -1,7 +1,7 @@
 {
   "schemaVersion": 5,
   "id": "echinoderms",
-  "version": "2026.08-static-v5-rc4",
+  "version": "2026.08-static-v5-rc5",
   "title": "Echinoderms",
   "titleZh": "棘皮动物",
   "conceptScope": {
@@ -16,7 +16,9 @@
     "crinoidea",
     "blastoidea",
     "echinoidea",
-    "asteroidea"
+    "asteroidea",
+    "ophiuroidea",
+    "holothuroidea"
   ],
   "canonicalSources": {
     "entityDefinitions": "data/navigation/atlas-ontology.json",
@@ -26,7 +28,7 @@
     "occurrences": "data/fossils/*.json"
   },
   "platformMaturity": "published",
-  "scientificMaturity": "generated-scaffold",
+  "scientificMaturity": "structured",
   "automatedReviewStatus": "passed",
   "reviewStatus": "not-reviewed",
   "limitations": [

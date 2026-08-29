@@ -135,7 +135,11 @@ export interface RuntimeMapSnapshot {
   descriptionZh: string
   reconstructionAgeMa: number | null
   model: string | null
-  geometry: RuntimeFile | null
+  layers: {
+    coastlines: RuntimeFile
+    platePolygons: RuntimeFile
+    plateBoundaries: RuntimeFile
+  } | null
 }
 
 export interface RuntimeMapManifest {

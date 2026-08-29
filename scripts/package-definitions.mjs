@@ -1,5 +1,5 @@
 export const PACKAGE_SCHEMA_VERSION = 5
-export const DATASET_PACKAGE_VERSION = '2026.08-static-v5-rc4'
+export const DATASET_PACKAGE_VERSION = '2026.08-static-v5-rc5'
 export const DATASET_RELEASE_DATE = '2026-08-29'
 
 export const packageDefinitions = [
@@ -10,6 +10,7 @@ export const packageDefinitions = [
     titleZh: '图谱核心导航',
     rootEntityIds: ['life', 'invertebrata', 'vertebrata', 'gnathostomata', 'osteichthyes', 'tetrapoda', 'amniota', 'sauropsida', 'archosauria', 'placentalia'],
     wave: 'core',
+    scientificMaturity: 'structured',
   },
   {
     id: 'early-land-plants',
@@ -74,6 +75,7 @@ export const packageDefinitions = [
     titleZh: '棘皮动物',
     rootEntityIds: ['echinodermata'],
     wave: 'D',
+    scientificMaturity: 'structured',
   },
   {
     id: 'early-fishes',
@@ -130,6 +132,7 @@ export const packageDefinitions = [
     titleZh: '奇蹄目',
     rootEntityIds: ['perissodactyla'],
     wave: 'scientific-pilot',
+    scientificMaturity: 'curated-draft',
   },
   {
     id: 'cetartiodactyla',

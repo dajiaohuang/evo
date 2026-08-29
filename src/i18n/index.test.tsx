@@ -71,7 +71,10 @@ describe('Chinese catalog coverage', () => {
 
   it('covers every dynamic narrative rendered through the translator', () => {
     expect(Object.keys(claimRationalesZh).sort()).toEqual(claims.map((claim) => claim.id).sort())
-    expect(Object.keys(claimStatementsZh).sort()).toEqual(claims.filter((claim) => claim.reviewedBy === 'Evo Atlas automated evidence decomposition').map((claim) => claim.statement).sort())
+    const translatedClaimStatements = new Set(Object.keys(claimStatementsZh))
+    const knownClaimStatements = new Set(claims.map((claim) => claim.statement))
+    expect(claims.filter((claim) => claim.reviewedBy === 'Evo Atlas automated evidence decomposition').every((claim) => translatedClaimStatements.has(claim.statement))).toBe(true)
+    expect([...translatedClaimStatements].every((statement) => knownClaimStatements.has(statement))).toBe(true)
     const dynamicCopy = [
       ...profiles.flatMap((profile) => [
         profile.overview,
