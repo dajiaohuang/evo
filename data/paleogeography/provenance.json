@@ -1,0 +1,191 @@
+{
+  "schemaVersion": 1,
+  "dataset": {
+    "title": "Earth's tectonic and plate boundary evolution over 1.8 billion years",
+    "authors": "Cao, X.; Collins, A.S.; Pisarevsky, S.; Flament, N.; Li, S.; Hasterok, D.; Müller, R.D.",
+    "publishedYear": 2024,
+    "version": "v2.4",
+    "doi": "10.5281/zenodo.13628813",
+    "url": "https://zenodo.org/records/13628813",
+    "license": "CC-BY-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "service": {
+    "name": "GPlates Web Service",
+    "endpoint": "https://gws.gplates.org/reconstruct/coastlines/",
+    "model": "CAO2024",
+    "documentation": "https://gwsdoc.gplates.org/reconstruction/reconstruct-coastlines/",
+    "modelDocumentation": "https://gwsdoc.gplates.org/models/"
+  },
+  "processing": {
+    "script": "scripts/fetch-paleogeography.mjs",
+    "scriptCommit": "4daf41d",
+    "coordinatePrecisionDecimals": 4,
+    "method": "Fetch reconstructed coastline polygons at each ICS 2026/06 period midpoint; wrap at the dateline; remove invalid or duplicate rings and byte-identical geometries; sort deterministically."
+  },
+  "retrievedAt": "2026-08-29",
+  "attribution": "Cao et al. (2024), reconstructed through the GPlates Web Service operated by the EarthByte Group and AuScope.",
+  "scientificLimitations": [
+    "These are modelled coastline reconstructions at one representative midpoint per geological period, not direct observations or a continuous paleogeographic movie.",
+    "Plate reconstructions become more uncertain deeper in time; exact coastlines, terrane positions and longitudinal placement are model-dependent.",
+    "The land layer and PBDB occurrence paleocoordinates may derive from different reconstruction models and must not be treated as spatially co-registered evidence."
+  ],
+  "snapshots": [
+    {
+      "period": "Cambrian",
+      "reconstructionAgeMa": 512.825,
+      "model": "CAO2024",
+      "anchorPlateId": 0,
+      "sourceUrl": "https://gws.gplates.org/reconstruct/coastlines/?time=512.825&model=CAO2024&anchor_plate_id=0&wrap=true",
+      "sourceBytes": 1463464,
+      "sourceSha256": "4db1bb0ae1c7fb2ace739f399d95a20c37eab3f017b229111a286f664b590260",
+      "geometryFile": "data/paleogeography/cambrian.json",
+      "geometryFeatures": 1284,
+      "geometryBytes": 1388678,
+      "geometrySha256": "402bfad8ece8906855ad245ac70bbe2fa06921c9b0f2a3a8d35a3c32f26904bb"
+    },
+    {
+      "period": "Ordovician",
+      "reconstructionAgeMa": 464.975,
+      "model": "CAO2024",
+      "anchorPlateId": 0,
+      "sourceUrl": "https://gws.gplates.org/reconstruct/coastlines/?time=464.975&model=CAO2024&anchor_plate_id=0&wrap=true",
+      "sourceBytes": 1486518,
+      "sourceSha256": "8b5023909526c590a497d224f0c504237fa91e6af3f2ef2e5acabba491526d22",
+      "geometryFile": "data/paleogeography/ordovician.json",
+      "geometryFeatures": 1327,
+      "geometryBytes": 1417125,
+      "geometrySha256": "27813281907559913f55dedb018764874ee55612c593a1c6f3cc658fbc0cfbde"
+    },
+    {
+      "period": "Silurian",
+      "reconstructionAgeMa": 431.36,
+      "model": "CAO2024",
+      "anchorPlateId": 0,
+      "sourceUrl": "https://gws.gplates.org/reconstruct/coastlines/?time=431.36&model=CAO2024&anchor_plate_id=0&wrap=true",
+      "sourceBytes": 1642894,
+      "sourceSha256": "6c6a670f27fe9b22f5a575add9d39546e5323a6c06c25a9b567887466b582b38",
+      "geometryFile": "data/paleogeography/silurian.json",
+      "geometryFeatures": 1397,
+      "geometryBytes": 1550312,
+      "geometrySha256": "067c6dd6607c9cef78b44992166e5a5c36cfaba7261f09cec288372f3d2d9e80"
+    },
+    {
+      "period": "Devonian",
+      "reconstructionAgeMa": 389.24,
+      "model": "CAO2024",
+      "anchorPlateId": 0,
+      "sourceUrl": "https://gws.gplates.org/reconstruct/coastlines/?time=389.24&model=CAO2024&anchor_plate_id=0&wrap=true",
+      "sourceBytes": 2090264,
+      "sourceSha256": "02989685e03067d665d2ca8f4e0fc7aef1fd60e7a95182d99ae5e9afb1ef0304",
+      "geometryFile": "data/paleogeography/devonian.json",
+      "geometryFeatures": 2109,
+      "geometryBytes": 2016640,
+      "geometrySha256": "2797dcb2e4fb3b67b2ac8b2284201cfa9563c302d81bcf1658ed3c1ad61b0ebe"
+    },
+    {
+      "period": "Carboniferous",
+      "reconstructionAgeMa": 328.88,
+      "model": "CAO2024",
+      "anchorPlateId": 0,
+      "sourceUrl": "https://gws.gplates.org/reconstruct/coastlines/?time=328.88&model=CAO2024&anchor_plate_id=0&wrap=true",
+      "sourceBytes": 2123428,
+      "sourceSha256": "02fb33b216258b8ddad93a7ca8cb7ab232fbfc079064e9baaae5c4932789afc9",
+      "geometryFile": "data/paleogeography/carboniferous.json",
+      "geometryFeatures": 2191,
+      "geometryBytes": 2076211,
+      "geometrySha256": "a96fc7a50d89c80b546e0e6ceedf2fb307742caf34bd38efcdba45e2e982e5a3"
+    },
+    {
+      "period": "Permian",
+      "reconstructionAgeMa": 275.401,
+      "model": "CAO2024",
+      "anchorPlateId": 0,
+      "sourceUrl": "https://gws.gplates.org/reconstruct/coastlines/?time=275.401&model=CAO2024&anchor_plate_id=0&wrap=true",
+      "sourceBytes": 2155674,
+      "sourceSha256": "960372c5504cd44e4b3ab220b630c0d183c6ab817b6161694dc88cc523ce5a15",
+      "geometryFile": "data/paleogeography/permian.json",
+      "geometryFeatures": 2251,
+      "geometryBytes": 2083499,
+      "geometrySha256": "f8e19d1309cbe9d804533b0479a5e56e12121b0c8f74df1a74c5f0412a396a62"
+    },
+    {
+      "period": "Triassic",
+      "reconstructionAgeMa": 226.651,
+      "model": "CAO2024",
+      "anchorPlateId": 0,
+      "sourceUrl": "https://gws.gplates.org/reconstruct/coastlines/?time=226.651&model=CAO2024&anchor_plate_id=0&wrap=true",
+      "sourceBytes": 2202601,
+      "sourceSha256": "9c1bd648bd341f775d95935f5707422c48ea2f1f83b90bd7190a1dd9dc1bae89",
+      "geometryFile": "data/paleogeography/triassic.json",
+      "geometryFeatures": 2326,
+      "geometryBytes": 2135987,
+      "geometrySha256": "128b4c2db0b5acd0108ec31c402552e0595c3e52f3ddb758841fa7aaceb5e123"
+    },
+    {
+      "period": "Jurassic",
+      "reconstructionAgeMa": 172.25,
+      "model": "CAO2024",
+      "anchorPlateId": 0,
+      "sourceUrl": "https://gws.gplates.org/reconstruct/coastlines/?time=172.25&model=CAO2024&anchor_plate_id=0&wrap=true",
+      "sourceBytes": 2203668,
+      "sourceSha256": "4f091def013e559201fc2653b2a5c9391109bd80d761df06fcbc142373df4341",
+      "geometryFile": "data/paleogeography/jurassic.json",
+      "geometryFeatures": 2353,
+      "geometryBytes": 2136831,
+      "geometrySha256": "9ca82f7748d40e1020bad06d1a67e7bfaa0c6abf8549c96fd3ac9ed2e91ae52a"
+    },
+    {
+      "period": "Cretaceous",
+      "reconstructionAgeMa": 104.55,
+      "model": "CAO2024",
+      "anchorPlateId": 0,
+      "sourceUrl": "https://gws.gplates.org/reconstruct/coastlines/?time=104.55&model=CAO2024&anchor_plate_id=0&wrap=true",
+      "sourceBytes": 2322832,
+      "sourceSha256": "5323f59af27fe3ecaf555394936f4aea54eaf105678eac2afe447cbcf5967346",
+      "geometryFile": "data/paleogeography/cretaceous.json",
+      "geometryFeatures": 2504,
+      "geometryBytes": 2263705,
+      "geometrySha256": "14e94805bf1ae983b3bf9dae6a8548639486d512110f0addc03236503895349b"
+    },
+    {
+      "period": "Paleogene",
+      "reconstructionAgeMa": 44.52,
+      "model": "CAO2024",
+      "anchorPlateId": 0,
+      "sourceUrl": "https://gws.gplates.org/reconstruct/coastlines/?time=44.52&model=CAO2024&anchor_plate_id=0&wrap=true",
+      "sourceBytes": 2414158,
+      "sourceSha256": "bf8c1758989e68edc525935b90ab87d97a311aa5c11e9980b356a415135f4399",
+      "geometryFile": "data/paleogeography/paleogene.json",
+      "geometryFeatures": 2681,
+      "geometryBytes": 2354320,
+      "geometrySha256": "df7b13225498a06d819aa4aab76527ae5bd52a04709e29227cdb1baa3f60e0da"
+    },
+    {
+      "period": "Neogene",
+      "reconstructionAgeMa": 12.81,
+      "model": "CAO2024",
+      "anchorPlateId": 0,
+      "sourceUrl": "https://gws.gplates.org/reconstruct/coastlines/?time=12.81&model=CAO2024&anchor_plate_id=0&wrap=true",
+      "sourceBytes": 2457781,
+      "sourceSha256": "19fc2b94fcdc4763f76020e7a571bcfb4f0461e1d78c82e73a0ae59a88346e7d",
+      "geometryFile": "data/paleogeography/neogene.json",
+      "geometryFeatures": 2772,
+      "geometryBytes": 2390542,
+      "geometrySha256": "1ee1e8e80a0e95261bc04df1091f9630501254fd2b194292fa75390639c8f223"
+    },
+    {
+      "period": "Quaternary",
+      "reconstructionAgeMa": 1.29,
+      "model": "CAO2024",
+      "anchorPlateId": 0,
+      "sourceUrl": "https://gws.gplates.org/reconstruct/coastlines/?time=1.29&model=CAO2024&anchor_plate_id=0&wrap=true",
+      "sourceBytes": 2472634,
+      "sourceSha256": "3a023052c7fd38366576dce8a2bd115e8850153a636d6cd6eb7da236e6d4bd09",
+      "geometryFile": "data/paleogeography/quaternary.json",
+      "geometryFeatures": 2804,
+      "geometryBytes": 2420592,
+      "geometrySha256": "7a94000d724c11ada2d28d73008401ca4b948ce206a632e2f2c12487e2eb4ed8"
+    }
+  ]
+}

@@ -1,5 +1,13 @@
 # Dataset changelog
 
+## 2026.08-static-v5-rc4 — 2026-08-29
+
+- Replaced the withdrawn provenance-unknown map series with 12 checksum-addressed CAO2024 v2.4 coastline snapshots, reconstructed at ICS 2026/06 period midpoints under CC BY 4.0 and linked to a reproducible GPlates import ledger.
+- Kept land-model geometry, PBDB reconstructed coordinates and modern collection coordinates as three explicitly separate evidence layers; no cross-model spatial alignment is implied.
+- Added lazy, checksum-verified map delivery and visible model/age/attribution/uncertainty context in the Explorer.
+- Replaced the promotional home screen with a dashboard-first entry, four geological preset scenes, a first-visit tutorial choice and folded detailed tools on desktop and mobile.
+- Corrected high-confidence package defects found in the first full audit: the Cerling DOI, overlapping package roots, Lissamphibia/Lepidosauria labels, Mosasauridae placement, Graptolithina extant range and Ptychopariida historical-grade semantics.
+
 ## 2026.08-static-v5-rc3 — 2026-08-20
 
 - Added a validated query ledger to every package. Perissodactyla records complete pinned PBDB pagination and profile subqueries; all legacy package partitions explicitly retain their bounded, non-random coverage status.

@@ -10,6 +10,7 @@ interface AppShellProps {
   onNavigate: (route: AppRoute, params?: Record<string, string>) => void
   children: ReactNode
   immersive?: boolean
+  focused?: boolean
 }
 
 const navItems: Array<{ route: AppRoute; label: string; activeRoutes: AppRoute[] }> = [
@@ -22,10 +23,11 @@ const navItems: Array<{ route: AppRoute; label: string; activeRoutes: AppRoute[]
   { route: 'about', label: 'About', activeRoutes: ['about', 'methods'] },
 ]
 
-export function AppShell({ route, onNavigate, children, immersive = false }: AppShellProps) {
+export function AppShell({ route, onNavigate, children, immersive = false, focused = false }: AppShellProps) {
   const { language, setLanguage, t } = useI18n()
   const [online, setOnline] = useState(() => navigator.onLine)
   const [offlineReady, setOfflineReady] = useState(() => document.documentElement.dataset.offlineReady === 'true')
+  const [showMoreTools, setShowMoreTools] = useState(false)
 
   useEffect(() => {
     const markOnline = () => setOnline(true)
@@ -48,7 +50,7 @@ export function AppShell({ route, onNavigate, children, immersive = false }: App
   }
 
   return (
-    <div className={`app-shell${immersive ? ' app-shell--immersive' : ''}`}>
+    <div className={`app-shell${immersive ? ' app-shell--immersive' : ''}${focused ? ' app-shell--focused' : ''}`}>
       <button className="skip-link" type="button" onClick={skipToContent}>{t('Skip to atlas content')}</button>
       <header className="topbar">
         <button className="brand" onClick={() => onNavigate('home')} aria-label={t('Evo Atlas home')}>
@@ -64,7 +66,7 @@ export function AppShell({ route, onNavigate, children, immersive = false }: App
         </button>
 
         <nav className="topbar__nav" aria-label={t('Primary navigation')}>
-          {navItems.map((item) => (
+          {(focused ? navItems.filter((item) => item.route === 'home') : navItems).map((item) => (
             <button
               key={item.route}
               className={item.activeRoutes.includes(route) ? 'is-active' : ''}
@@ -74,7 +76,20 @@ export function AppShell({ route, onNavigate, children, immersive = false }: App
               {t(item.label)}
             </button>
           ))}
+          {focused && (
+            <button className="focused-tools-trigger" aria-expanded={showMoreTools} onClick={() => setShowMoreTools((open) => !open)}>
+              {t(showMoreTools ? 'Close more pages' : 'Open more pages')}
+            </button>
+          )}
         </nav>
+
+        {focused && showMoreTools && (
+          <nav className="focused-tools-menu" aria-label={t('Detailed tools')}>
+            {navItems.filter((item) => item.route !== 'home' && item.route !== 'explore').map((item) => (
+              <button key={item.route} onClick={() => { setShowMoreTools(false); onNavigate(item.route) }}>{t(item.label)}<span>→</span></button>
+            ))}
+          </nav>
+        )}
 
         <div className="topbar__utilities">
           <span className={`connectivity-status${online ? '' : ' is-offline'}`} title={t(online ? offlineReady ? 'Online · offline cache ready' : 'Online' : 'Offline · using cached atlas')}>
@@ -84,7 +99,7 @@ export function AppShell({ route, onNavigate, children, immersive = false }: App
             <button className={language === 'en' ? 'is-active' : ''} onClick={() => setLanguage('en')} aria-pressed={language === 'en'} lang="en">EN</button>
             <button className={language === 'zh' ? 'is-active' : ''} onClick={() => setLanguage('zh')} aria-pressed={language === 'zh'} lang="zh-CN">中文</button>
           </div>
-          <Suspense fallback={null}><GlobalSearch onNavigate={onNavigate} /></Suspense>
+          {!focused && <Suspense fallback={null}><GlobalSearch onNavigate={onNavigate} /></Suspense>}
         </div>
       </header>
       <div className="app-shell__content" id="main-content" tabIndex={-1}>{children}</div>

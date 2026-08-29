@@ -252,6 +252,7 @@ function provenanceFailures() {
   const references = new Set(readJson('data/references.json').map((reference) => reference.id))
   const media = readJson('data/media.json')
   const mapMetadata = readJson('data/period-map-metadata.json')
+  const mapProvenance = readJson('data/paleogeography/provenance.json')
   const source = readJson('data/sources/pbdb-occurrence-bundle.json')
   for (const entry of registry.packages) {
     const provenance = readJson(`${entry.canonicalPath}/provenance.json`)
@@ -262,8 +263,14 @@ function provenanceFailures() {
     if (!asset.sourceUrl?.startsWith('https://')) failures.push(`media ${asset.id}: HTTPS source URL required`)
     if (!asset.licenseNote) failures.push(`media ${asset.id}: license note required`)
   }
+  const mapSnapshots = new Map(mapProvenance.snapshots.map((snapshot) => [snapshot.period, snapshot]))
+  if (mapProvenance.dataset?.license !== 'CC-BY-4.0' || !mapProvenance.dataset?.doi || !mapProvenance.processing?.scriptCommit) failures.push('paleogeography source, license or processing provenance is incomplete')
+  if (!existsSync(join(rootDir, mapProvenance.processing?.script ?? ''))) failures.push('paleogeography processing script is missing')
   for (const metadata of mapMetadata) {
-    if (metadata.mapLayerStatus === 'available') failures.push(`${metadata.name}: map geometry cannot be available without a checked-in provenance record`)
+    const snapshot = mapSnapshots.get(metadata.name)
+    if (metadata.mapLayerStatus === 'available' && (!snapshot || !existsSync(join(rootDir, snapshot.geometryFile ?? '')) || !snapshot.geometrySha256 || !snapshot.sourceSha256)) {
+      failures.push(`${metadata.name}: available map geometry is missing checked-in source, processing or checksum provenance`)
+    }
   }
   if (!source.endpoint?.startsWith('https://') || !source.fetchedAt || !source.queryTemplate) failures.push('occurrence snapshot provenance is incomplete')
   if (!references.has('pbdb-api-2016')) failures.push('PBDB source reference is missing')

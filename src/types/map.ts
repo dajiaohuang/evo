@@ -1,14 +1,20 @@
 import type { FossilOccurrence } from './paleontology'
 
+type Position = [number, number]
+type PolygonCoordinates = Position[][]
+type MultiPolygonCoordinates = Position[][][]
+
 export interface ContinentFeature {
   type: 'Feature'
   properties: {
-    name: string
+    id: string
     period: string
+    reconstructionAgeMa: number
+    model: string
   }
   geometry: {
     type: 'Polygon' | 'MultiPolygon'
-    coordinates: number[][][]
+    coordinates: PolygonCoordinates | MultiPolygonCoordinates
   }
 }
 

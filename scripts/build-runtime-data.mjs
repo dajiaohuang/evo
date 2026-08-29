@@ -44,6 +44,7 @@ const media = readJson('data/media.json')
 const calibrations = readJson('data/packages/mammalia/perissodactyla/phylogeny/calibrations.json')
 const perissodactylPhylogeny = readJson('data/packages/mammalia/perissodactyla/phylogeny/hypothesis.json')
 const periodMetadata = readJson('data/period-map-metadata.json')
+const paleogeographyProvenance = readJson('data/paleogeography/provenance.json')
 const occurrenceSource = readJson('data/sources/pbdb-occurrence-bundle.json')
 const treeEvidence = readJson('data/tree/evidence.json')
 const canonicalRanges = readJson('data/ranges/range-evidence.json')
@@ -333,16 +334,37 @@ for (const packageEntry of registry.packages) {
 }
 
 const occurrenceManifestFile = writeJson('occurrences/manifest.json', occurrenceManifest, true)
-const mapsManifestFile = writeJson('maps/manifest.json', {
-  schemaVersion: 5,
-  snapshots: periodMetadata.map((period) => ({
+const paleogeographyByPeriod = new Map(paleogeographyProvenance.snapshots.map((snapshot) => [snapshot.period, snapshot]))
+const mapSnapshots = periodMetadata.map((period) => {
+  const provenance = paleogeographyByPeriod.get(period.name)
+  if (period.mapLayerStatus === 'available' && !provenance) throw new Error(`${period.name}: available map is missing provenance`)
+  const geometry = provenance
+    ? writeGzipJson(`maps/${period.name.toLowerCase()}.json.gz`, readJson(provenance.geometryFile))
+    : null
+  return {
     period: period.name,
     status: period.mapLayerStatus,
     description: period.description,
     descriptionZh: period.descriptionZh,
-    geometry: period.mapLayerStatus === 'available' ? 'unmapped' : 'withheld-pending-provenance',
-  })),
-  provenancePolicy: 'Geometry is published only after source, license, model, processing script and checksum are complete.',
+    reconstructionAgeMa: provenance?.reconstructionAgeMa ?? null,
+    model: provenance?.model ?? null,
+    geometry,
+  }
+})
+const mapsManifestFile = writeJson('maps/manifest.json', {
+  schemaVersion: 5,
+  version: sourceManifest.datasetVersion,
+  source: {
+    title: paleogeographyProvenance.dataset.title,
+    version: paleogeographyProvenance.dataset.version,
+    doi: paleogeographyProvenance.dataset.doi,
+    url: paleogeographyProvenance.dataset.url,
+    license: paleogeographyProvenance.dataset.license,
+    attribution: paleogeographyProvenance.attribution,
+    retrievedAt: paleogeographyProvenance.retrievedAt,
+  },
+  scientificLimitations: paleogeographyProvenance.scientificLimitations,
+  snapshots: mapSnapshots,
 }, true)
 
 const coreCompressedBytes = Object.values(core).reduce((sum, file) => sum + file.bytes, 0)
@@ -368,7 +390,7 @@ const current = {
     totalRecords: occurrenceTotal,
     unresolvedPackageAssignmentCount,
   },
-  maps: { manifest: mapsManifestFile },
+  maps: { manifest: mapsManifestFile, availableSnapshots: mapSnapshots.filter((snapshot) => snapshot.status === 'available').length },
   downloads: { template: `${releasePrefix}/downloads/{packageId}-${sourceManifest.datasetVersion}.zip` },
   budgets: {
     coreCompressedBytes,

@@ -5,6 +5,8 @@ import type {
   RuntimeEntity,
   RuntimeEntityLinkageCoverage,
   RuntimeFile,
+  RuntimeMapManifest,
+  RuntimeMapSnapshot,
   RuntimePackageManifest,
   RuntimePackageRegistry,
   RuntimeSearchEntry,
@@ -182,6 +184,27 @@ export async function loadOccurrenceManifest(): Promise<OccurrenceRuntimeManifes
     throw new Error(`Occurrence manifest does not belong to dataset ${current.datasetVersion}`)
   }
   return manifest
+}
+
+export async function loadMapManifest(): Promise<RuntimeMapManifest> {
+  const current = await loadCurrentManifest()
+  const manifest = await loadRuntimeFile<RuntimeMapManifest>(current.maps.manifest)
+  if (manifest.version !== current.datasetVersion) {
+    throw new Error(`Map manifest does not belong to dataset ${current.datasetVersion}`)
+  }
+  return manifest
+}
+
+export async function loadPaleogeography(period: string): Promise<{
+  manifest: RuntimeMapManifest
+  snapshot: RuntimeMapSnapshot
+  geometry: import('../types').ContinentFeatureCollection
+} | null> {
+  const manifest = await loadMapManifest()
+  const snapshot = manifest.snapshots.find((entry) => entry.period === period)
+  if (!snapshot || snapshot.status !== 'available' || !snapshot.geometry) return null
+  const geometry = await loadRuntimeFile<import('../types').ContinentFeatureCollection>(snapshot.geometry)
+  return { manifest, snapshot, geometry }
 }
 
 function matchesSearch(entry: RuntimeSearchEntry, normalized: string): boolean {

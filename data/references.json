@@ -91,9 +91,26 @@
     "authors": "GPlates Project",
     "type": "documentation",
     "url": "https://gwsdoc.gplates.org/",
-    "accessedAt": "2026-08-18",
-    "note": "Plate reconstruction service considered for build-time model-specific coordinates.",
+    "accessedAt": "2026-08-29",
+    "note": "Build-time service used to reconstruct the pinned CAO2024 coastline snapshots; no live runtime request is made.",
     "sourceRole": "documentation",
+    "fitnessFor": [
+      "paleogeography"
+    ],
+    "metadataAssignment": "automated"
+  },
+  {
+    "id": "cao-2024-global-plate-model",
+    "title": "Earth's tectonic and plate boundary evolution over 1.8 billion years",
+    "authors": "Cao, X.; Collins, A.S.; Pisarevsky, S.; Flament, N.; Li, S.; Hasterok, D.; Müller, R.D.",
+    "publishedYear": 2024,
+    "type": "dataset",
+    "url": "https://zenodo.org/records/13628813",
+    "doi": "10.5281/zenodo.13628813",
+    "publisher": "Zenodo",
+    "version": "v2.4",
+    "datasetSnapshot": "CAO2024 coastlines reconstructed at ICS 2026/06 period midpoints through GPlates Web Service on 2026-08-29; per-response and normalized geometry SHA-256 values are recorded in data/paleogeography/provenance.json.",
+    "sourceRole": "primary-study",
     "fitnessFor": [
       "paleogeography"
     ],
@@ -428,8 +445,8 @@
     "authors": "Cerling, T.E.; Harris, J.M.; MacFadden, B.J.; et al.",
     "publishedYear": 1997,
     "type": "paper",
-    "url": "https://doi.org/10.1038/37270",
-    "doi": "10.1038/37270",
+    "url": "https://doi.org/10.1038/38229",
+    "doi": "10.1038/38229",
     "publisher": "Nature",
     "sourceRole": "primary-study",
     "fitnessFor": [

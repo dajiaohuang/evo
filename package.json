@@ -1,7 +1,7 @@
 {
   "name": "evo",
   "private": true,
-  "version": "0.12.0",
+  "version": "0.13.0",
   "type": "module",
   "scripts": {
     "predev": "npm run data:stage",
@@ -37,6 +37,7 @@
     "data:indexes": "node scripts/build-taxon-index.mjs",
     "data:validate": "node scripts/validate-data.mjs",
     "data:fetch:fossils": "node scripts/fetch-fossils.mjs",
+    "data:fetch:maps": "node scripts/fetch-paleogeography.mjs",
     "data:enrich:fossils": "node scripts/enrich-bundled-fossils.mjs",
     "data:assign:fossils": "node scripts/assign-occurrence-packages.mjs",
     "data:normalize:fossils": "node scripts/normalize-fossil-records.mjs",

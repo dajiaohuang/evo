@@ -61,7 +61,14 @@ export function PaleoMap() {
   const occurrencesByTaxonQuery = useAppStore((s) => s.occurrencesByTaxonQuery)
   const selectedNodeId = useAppStore((s) => s.selectedNodeId)
   const mapRef = useRef<LeafletMap | null>(null)
-  const { geoJson, available: landLayerAvailable } = usePaleogeography(currentPeriod)
+  const {
+    geoJson,
+    available: landLayerAvailable,
+    loading: landLayerLoading,
+    error: landLayerError,
+    snapshot: landSnapshot,
+    manifest: mapManifest,
+  } = usePaleogeography(currentPeriod)
 
   useEffect(() => {
     if (currentPeriod) {
@@ -157,6 +164,7 @@ export function PaleoMap() {
             {t('Paleo-coordinate coverage {coverage}%', { coverage: (paleoCoverage * 100).toFixed(0) })}
           </div>
         )}
+        {landSnapshot && <div style={{ marginTop: 2, color: '#9eb8aa', fontSize: 9 }}>{t('{model} coastline snapshot · {age} Ma', { model: landSnapshot.model ?? 'CAO2024', age: number(landSnapshot.reconstructionAgeMa ?? 0) })}</div>}
       </div>
 
       <div className="map-layer-control" aria-label={t('Map layer controls')}>
@@ -172,19 +180,23 @@ export function PaleoMap() {
             <button key={mode} className={coordinateMode === mode ? 'is-active' : ''} onClick={() => setCoordinateMode(mode)}>{t(mode)}</button>
           ))}
         </div>
-        <label title={landLayerAvailable ? undefined : t('Continental geometry is withheld pending source and license provenance.')}>
-          <input type="checkbox" checked={showContinents && landLayerAvailable} disabled={!landLayerAvailable} onChange={(event) => setShowContinents(event.target.checked)} /> {t('period land snapshot')}
+        <label title={landLayerError ?? undefined}>
+          <input type="checkbox" checked={showContinents && landLayerAvailable} disabled={!landLayerAvailable || landLayerLoading} onChange={(event) => setShowContinents(event.target.checked)} /> {t('period coastline snapshot')}
         </label>
         <label title={t('Connects time-binned sample centroids; it is not a biological dispersal route.')}>
           <input type="checkbox" checked={showTrajectory && trajectory.length > 1} disabled={trajectory.length < 2} onChange={(event) => setShowTrajectory(event.target.checked)} /> {t('sample centroid trajectory')}
         </label>
         {selectedNodeId && <small>{trajectory.length > 1 ? t('{count} time bins · latitude change {shift}°', { count: trajectory.length, shift: `${latitudinalShift! >= 0 ? '+' : ''}${latitudinalShift!.toFixed(1)}` }) : t('The selected taxon has insufficient positioned records for a trajectory.')}</small>}
-        {!landLayerAvailable && <small role="status">{t('Continental geometry withheld pending provenance; occurrence coordinates remain available.')}</small>}
+        {landLayerLoading && <small role="status">{t('Loading checksum-verified coastline snapshot…')}</small>}
+        {landLayerError && <small role="alert">{t('Coastline snapshot unavailable; occurrence coordinates remain available.')}</small>}
+        {landSnapshot && <small>{t('Modelled at the period midpoint ({age} Ma), not a direct observation or continuous reconstruction.', { age: number(landSnapshot.reconstructionAgeMa ?? 0) })}</small>}
+        {mapManifest && <small>{t('Land and occurrence paleocoordinates may use different models and are not spatially co-registered.')}</small>}
         <small>{t(coordinateMode === 'paleo' ? 'Only records with paired reconstructed coordinates are shown; no modern fallback.' : 'Only paired modern collection coordinates are shown; not aligned to reconstructed land.')}</small>
         <dl className="map-model-ledger">
-          <div><dt>{t('Land')}</dt><dd>{t(landLayerAvailable ? 'period snapshot' : 'withheld')}</dd></div>
+          <div><dt>{t('Land')}</dt><dd>{landSnapshot ? `${landSnapshot.model} · ${number(landSnapshot.reconstructionAgeMa ?? 0)} Ma` : t('unavailable')}</dd></div>
           <div><dt>{t('Paleo points')}</dt><dd>{t('PBDB bundled field')}</dd></div>
           <div><dt>{t('Runtime')}</dt><dd>{t('no live reconstruction')}</dd></div>
+          {mapManifest && <div><dt>{t('Source')}</dt><dd><a href={mapManifest.source.url} target="_blank" rel="noreferrer">Cao et al. 2024 · {mapManifest.source.license}</a></dd></div>}
         </dl>
       </div>
 

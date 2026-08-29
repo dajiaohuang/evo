@@ -115,6 +115,13 @@
   background: var(--color-surface-raised);
 }
 
+.focused-tools-trigger { border-left: 1px solid var(--color-border-subtle) !important; border-radius: 0 999px 999px 0 !important; color: var(--color-accent) !important; }
+.focused-tools-menu { position: fixed; z-index: 1300; top: calc(var(--topbar-height) - 4px); left: 50%; width: min(410px, calc(100vw - 24px)); padding: 8px; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 4px; border: 1px solid var(--color-border); background: rgba(8, 17, 21, .98); box-shadow: var(--shadow-lg); transform: translateX(-50%); }
+.focused-tools-menu button { min-height: 42px; padding: 0 12px; display: flex; align-items: center; justify-content: space-between; border: 1px solid transparent; background: var(--color-surface); color: var(--color-text-muted); font-size: 10px; cursor: pointer; }
+.focused-tools-menu button:hover { border-color: var(--color-accent-dim); color: var(--color-text); }
+.focused-tools-menu span { color: var(--color-accent); }
+.app-shell--focused .connectivity-status { display: none; }
+
 .topbar__utilities { justify-self: end; display: flex; align-items: center; gap: 8px; min-width: 0; }
 .language-switch { display: inline-flex; padding: 2px; border: 1px solid var(--color-border-subtle); border-radius: 999px; background: rgba(11, 20, 25, .58); }
 .language-switch button { border: 0; border-radius: 999px; padding: 4px 7px; background: transparent; color: var(--color-text-faint); font: 700 8px var(--font-mono); cursor: pointer; }
