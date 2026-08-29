@@ -61,14 +61,17 @@ test('global search lazily resolves accepted Catalogue of Life species without c
   await expect(page.locator('.catalogue-search-heading small')).toContainText(/showing 12 of \d+/)
 })
 
-test('global search distinguishes registry verification failures from no matches', async ({ page }) => {
+test('global search distinguishes registry verification failures from no matches', async ({ browser, baseURL }) => {
+  const context = await browser.newContext({ baseURL, locale: 'en-US', serviceWorkers: 'block' })
+  const page = await context.newPage()
   await page.addInitScript(() => window.localStorage.setItem('evo-atlas-language', 'en'))
-  await page.route('**/catalogue/manifest.json', (route) => route.abort())
+  await page.route('**/catalogue/**', (route) => route.abort())
   await page.goto('./#/catalog')
   await page.locator('.global-search-trigger').click()
   await page.getByPlaceholder('Search taxa, intervals, events, places…').fill('Homo sapiens')
   await expect(page.getByText('The species registry is unavailable, or shard verification failed.')).toBeVisible()
   await expect(page.getByText(/No catalog entry matches/)).toHaveCount(0)
+  await context.close()
 })
 
 test('Data Lab localizes validation errors and reports export completion', async ({ page }) => {
