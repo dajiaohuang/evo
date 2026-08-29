@@ -12,6 +12,8 @@ const DataPage = lazy(() => import('./components/pages/InfoPages')
   .then((module) => ({ default: module.DataPage })))
 const MethodsPage = lazy(() => import('./components/pages/InfoPages')
   .then((module) => ({ default: module.MethodsPage })))
+const CatalogueTaxonPage = lazy(() => import('./components/catalogue/CatalogueTaxonPage')
+  .then((module) => ({ default: module.CatalogueTaxonPage })))
 const TaxonPage = lazy(() => import('./components/catalog/CatalogPages')
   .then((module) => ({ default: module.TaxonPage })))
 const EventPage = lazy(() => import('./components/catalog/CatalogPages')
@@ -58,6 +60,7 @@ export default function App() {
     const labels: Record<AppRoute, string> = {
       home: 'Evo Atlas — Deep-Time Evidence Explorer',
       catalog: 'Catalog — Evo Atlas',
+      registry: 'Catalogue taxon — Evo Atlas',
       explore: 'Explore — Evo Atlas',
       research: 'Research — Evo Atlas',
       about: 'About — Evo Atlas',
@@ -112,6 +115,7 @@ export default function App() {
   let page
   if (route === 'explore') page = <ExplorerWorkspace key={routeState.params.toString()} />
   else if (route === 'catalog') page = <CatalogHubPage onNavigate={navigate} />
+  else if (route === 'registry') page = <CatalogueTaxonPage release={routeState.params.get('release')} id={routeState.params.get('id')} onNavigate={navigate} />
   else if (route === 'research') page = <ResearchHubPage onNavigate={navigate} />
   else if (route === 'about') page = <AboutPage onNavigate={navigate} />
   else if (route === 'taxa') page = <TaxonPage id={routeState.params.get('id')} onNavigate={navigate} />

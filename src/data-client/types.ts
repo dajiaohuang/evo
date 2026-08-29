@@ -182,6 +182,19 @@ export interface CatalogueTargetRecord {
   classification: Array<string | null>
 }
 
+export interface CatalogueSourceChecklist {
+  datasetId: string
+  title: string | null
+  shortName: string | null
+  version: string | null
+  publicationDate: string | null
+  doi: string | null
+  citation: string | null
+  licenseLabel: string | null
+  licenseUrl: string | null
+  informationUrl: string | null
+}
+
 export interface CatalogueHierarchyNodeRecord {
   id: string
   parentId: string | null

@@ -15,7 +15,7 @@ interface AppShellProps {
 
 const navItems: Array<{ route: AppRoute; label: string; activeRoutes: AppRoute[] }> = [
   { route: 'home', label: 'Atlas', activeRoutes: ['home'] },
-  { route: 'catalog', label: 'Catalog', activeRoutes: ['catalog', 'taxa', 'events'] },
+  { route: 'catalog', label: 'Catalog', activeRoutes: ['catalog', 'registry', 'taxa', 'events'] },
   { route: 'stories', label: 'Stories', activeRoutes: ['stories'] },
   { route: 'explore', label: 'Explorer', activeRoutes: ['explore'] },
   { route: 'research', label: 'Research', activeRoutes: ['research', 'compare', 'lab'] },

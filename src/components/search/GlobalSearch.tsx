@@ -196,12 +196,16 @@ export function GlobalSearch({ onNavigate }: GlobalSearchProps) {
                   .filter((value): value is string => Boolean(value))
                   .slice(-2)
                   .join(' · ')
-                return <a
+                return <button
+                  type="button"
                   className="catalogue-search-result"
-                  href={(catalogueManifest?.upstreamTaxonUrlTemplate ?? 'https://www.checklistbank.org/dataset/316115/taxon/{id}').replace('{id}', encodeURIComponent(targetId))}
                   key={`col:${record.id}`}
-                  target="_blank"
-                  rel="noreferrer"
+                  onClick={() => {
+                    if (!catalogueManifest) return
+                    setOpen(false)
+                    setQuery('')
+                    onNavigate('registry', { release: catalogueManifest.releaseAlias, id: targetId })
+                  }}
                 >
                   <span className="search-kind search-kind--catalogue">CoL</span>
                   <span className="search-result-copy">
@@ -216,8 +220,8 @@ export function GlobalSearch({ onNavigate }: GlobalSearchProps) {
                       : `${record.status} · ${language === 'zh' ? '解析至' : 'resolves to'} ${target?.status ?? 'target'} ${targetId}`}</small>
                     <small>{[classification, record.sourceDatasetId ? `source ${record.sourceDatasetId}` : null].filter(Boolean).join(' · ')}</small>
                   </span>
-                  <i aria-hidden="true">↗</i>
-                </a>
+                  <i aria-hidden="true">→</i>
+                </button>
               })}
               {query.trim().length > 0 && query.trim().length < 3 && (
                 <div className="catalogue-search-note">{language === 'zh' ? '输入至少 3 个字符以搜索完整物种登记册。' : 'Type at least 3 characters to search the complete species registry.'}</div>

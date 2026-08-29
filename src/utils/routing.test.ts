@@ -14,6 +14,15 @@ describe('route hash helpers', () => {
     expect(result.params.get('taxon')).toBe('mammalia')
   })
 
+  it('preserves a release-scoped Catalogue of Life deep link', () => {
+    const result = parseRouteHash('#/registry?release=COL26.8&id=6MB3T')
+    expect(result.route).toBe('registry')
+    expect(result.params.get('release')).toBe('COL26.8')
+    expect(result.params.get('id')).toBe('6MB3T')
+    expect(buildRouteHash('registry', { release: 'COL26.8', id: '6MB3T' }))
+      .toBe('#/registry?release=COL26.8&id=6MB3T')
+  })
+
   it('builds a stable shareable hash', () => {
     expect(buildRouteHash('explore', { age: 66, view: 'tree', taxon: null }))
       .toBe('#/explore?age=66&view=tree')
