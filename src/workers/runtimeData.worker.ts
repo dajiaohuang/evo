@@ -7,6 +7,7 @@ interface RuntimeWorkerRequest {
   url: string
   sha256?: string
   sourceSha256?: string
+  mediaType?: 'application/json' | 'application/x-ndjson'
 }
 
 async function digestHex(bytes: ArrayBuffer): Promise<string> {
@@ -40,7 +41,7 @@ async function fetchVerifiedBytes(url: string, sha256?: string, sourceSha256?: s
 }
 
 self.onmessage = async (event: MessageEvent<RuntimeWorkerRequest>) => {
-  const { id, url, sha256, sourceSha256 } = event.data
+  const { id, url, sha256, sourceSha256, mediaType } = event.data
   try {
     const bytes = await fetchVerifiedBytes(url, sha256, sourceSha256)
     const byteView = new Uint8Array(bytes)
@@ -49,7 +50,10 @@ self.onmessage = async (event: MessageEvent<RuntimeWorkerRequest>) => {
     if (isGzip && sourceSha256 && await digestHex(Uint8Array.from(jsonBytes).buffer) !== sourceSha256) {
       throw new Error(`Decompressed checksum mismatch for ${url}`)
     }
-    const data = JSON.parse(strFromU8(jsonBytes)) as unknown
+    const text = strFromU8(jsonBytes)
+    const data = mediaType === 'application/x-ndjson'
+      ? text.split('\n').filter(Boolean).map((line) => JSON.parse(line) as unknown)
+      : JSON.parse(text) as unknown
     self.postMessage({ id, data })
   } catch (error) {
     self.postMessage({ id, error: error instanceof Error ? error.message : String(error) })

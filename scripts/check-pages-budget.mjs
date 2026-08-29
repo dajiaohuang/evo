@@ -25,7 +25,7 @@ const relativePath = (path) => relative(dist, path).replaceAll('\\', '/')
 const totalBytes = size(files)
 if (totalBytes > 650 * 1024 * 1024) failures.push(`Pages artifact is ${(totalBytes / 1024 / 1024).toFixed(2)} MiB; hard limit is 650 MiB`)
 
-const shards = files.filter((path) => /[/\\](occurrences|maps)[/\\].+\.(json|ndjson)\.gz$/.test(path))
+const shards = files.filter((path) => /[/\\](occurrences|maps|catalogue)[/\\].+\.(json|jsonl|ndjson)\.gz$/.test(path))
 for (const path of shards) if (statSync(path).size > 8 * 1024 * 1024) failures.push(`${relativePath(path)} exceeds the 8 MiB shard limit`)
 
 const coreFiles = files.filter((path) => path.startsWith(join(releaseRoot, 'core')))
@@ -58,7 +58,7 @@ if (!existsSync(swPath)) {
   const precachedFiles = files.filter((path) => serviceWorker.includes(relativePath(path)))
   const precacheBytes = size(precachedFiles)
   if (precacheBytes > 10 * 1024 * 1024) failures.push(`precache is ${(precacheBytes / 1024 / 1024).toFixed(2)} MiB; limit is 10 MiB`)
-  if (/data\/(?:releases\/[^/]+\/)?(packages|occurrences|maps|downloads)\//.test(serviceWorker)) failures.push('service worker precaches package, occurrence, map or download data')
+  if (/data\/(?:releases\/[^/]+\/)?(packages|occurrences|maps|catalogue|downloads)\//.test(serviceWorker)) failures.push('service worker precaches package, occurrence, map, catalogue or download data')
 }
 
 const runtimeFiles = files.filter((path) => path.startsWith(releaseRoot) && !relativePath(path).endsWith('build-metrics.json'))

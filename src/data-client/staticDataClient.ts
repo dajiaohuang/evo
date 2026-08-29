@@ -1,6 +1,8 @@
 import { gunzipSync, strFromU8 } from 'fflate'
 import type {
   CurrentRuntimeManifest,
+  CatalogueRecord,
+  CatalogueRuntimeManifest,
   OccurrenceRuntimeManifest,
   RuntimeEntity,
   RuntimeEntityLinkageCoverage,
@@ -65,7 +67,10 @@ async function loadWithoutWorker<T>(file: RuntimeFile): Promise<T> {
   const bytes = await fetchVerifiedBytes(file)
   const byteView = new Uint8Array(bytes)
   const isGzip = byteView[0] === 0x1f && byteView[1] === 0x8b
-  return JSON.parse(strFromU8(isGzip ? gunzipSync(byteView) : byteView)) as T
+  const text = strFromU8(isGzip ? gunzipSync(byteView) : byteView)
+  return (file.mediaType === 'application/x-ndjson'
+    ? text.split('\n').filter(Boolean).map((line) => JSON.parse(line) as unknown)
+    : JSON.parse(text)) as T
 }
 
 function runtimeWorker(): Worker | null {
@@ -95,7 +100,7 @@ async function loadWithWorker<T>(file: RuntimeFile): Promise<T> {
   const id = ++requestId
   return new Promise<T>((resolve, reject) => {
     workerRequests.set(id, { resolve: (data) => resolve(data as T), reject })
-    activeWorker.postMessage({ id, url: dataUrl(file.url), sha256: file.sha256, sourceSha256: file.sourceSha256 })
+    activeWorker.postMessage({ id, url: dataUrl(file.url), sha256: file.sha256, sourceSha256: file.sourceSha256, mediaType: file.mediaType })
   })
 }
 
@@ -193,6 +198,70 @@ export async function loadMapManifest(): Promise<RuntimeMapManifest> {
     throw new Error(`Map manifest does not belong to dataset ${current.datasetVersion}`)
   }
   return manifest
+}
+
+export async function loadCatalogueManifest(): Promise<CatalogueRuntimeManifest> {
+  const current = await loadCurrentManifest()
+  const manifest = await loadRuntimeFile<CatalogueRuntimeManifest>(current.catalogue.manifest)
+  if (manifest.releaseAlias !== current.catalogue.releaseAlias || manifest.counts.acceptedSpecies !== current.catalogue.acceptedSpecies) {
+    throw new Error('Catalogue of Life manifest does not match the current runtime release')
+  }
+  return manifest
+}
+
+export function normalizeCatalogueQuery(value: string): string {
+  return value
+    .normalize('NFKD')
+    .replaceAll(/\p{M}/gu, '')
+    .toLocaleLowerCase('en-US')
+    .replaceAll(/[^a-z0-9]+/g, ' ')
+    .trim()
+}
+
+async function catalogueTargetRoute(id: string): Promise<string> {
+  const bytes = new TextEncoder().encode(id)
+  const digest = await crypto.subtle.digest('SHA-256', bytes)
+  return Array.from(new Uint8Array(digest).slice(0, 1), (byte) => byte.toString(16).padStart(2, '0')).join('')
+}
+
+export async function searchCatalogue(query: string, limit = 12): Promise<{
+  manifest: CatalogueRuntimeManifest
+  records: CatalogueRecord[]
+  totalMatches: number
+  resolutionTargets: Record<string, import('./types').CatalogueTargetRecord>
+}> {
+  const manifest = await loadCatalogueManifest()
+  const normalized = normalizeCatalogueQuery(query)
+  const compact = normalized.replaceAll(' ', '')
+  if (compact.length < manifest.search.minimumQueryLength) return { manifest, records: [], totalMatches: 0, resolutionTargets: {} }
+  const basePrefix = compact.slice(0, 2).padEnd(2, '_')
+  const routedUrls = manifest.search.routes[basePrefix] ?? []
+  const filesByUrl = new Map(manifest.search.files.map((file) => [file.url, file]))
+  const routedFiles = routedUrls
+    .map((url) => filesByUrl.get(url))
+    .filter((file): file is NonNullable<typeof file> => Boolean(file))
+    .filter((file) => compact.startsWith(file.prefix) || file.prefix.startsWith(compact))
+  const shards = await Promise.all(routedFiles.map((file) => loadRuntimeFile<CatalogueRecord[]>(file)))
+  const statusOrder: Record<CatalogueRecord['status'], number> = { accepted: 0, synonym: 1, 'ambiguous-synonym': 2, misapplied: 3 }
+  const matches = shards.flat()
+    .filter((record) => record.normalizedName.startsWith(normalized))
+    .sort((left, right) => statusOrder[left.status] - statusOrder[right.status]
+      || left.normalizedName.length - right.normalizedName.length
+      || left.scientificName.localeCompare(right.scientificName))
+  const records = matches.slice(0, limit)
+  const targetIds = [...new Set(records.flatMap((record) => record.status === 'accepted' || !record.acceptedId ? [] : [record.acceptedId]))]
+  const targetRoutes = await Promise.all(targetIds.map(async (id) => [id, await catalogueTargetRoute(id)] as const))
+  const targetFilesByUrl = new Map(manifest.acceptedTargets.files.map((file) => [file.url, file]))
+  const routeFiles = [...new Set(targetRoutes.flatMap(([, prefix]) => manifest.acceptedTargets.routes[prefix] ?? []))]
+    .map((url) => targetFilesByUrl.get(url))
+    .filter((file): file is NonNullable<typeof file> => Boolean(file))
+  const targetShards = await Promise.all(routeFiles.map((file) => loadRuntimeFile<import('./types').CatalogueTargetRecord[]>(file)))
+  const wantedTargets = new Set(targetIds)
+  const resolutionTargets = Object.fromEntries(targetShards.flat()
+    .filter((record) => wantedTargets.has(record.id))
+    .map((record) => [record.id, record]))
+  if (Object.keys(resolutionTargets).length !== targetIds.length) throw new Error('Catalogue resolving-name target is missing from the pinned release')
+  return { manifest, records, totalMatches: matches.length, resolutionTargets }
 }
 
 export async function loadPaleogeography(period: string): Promise<{

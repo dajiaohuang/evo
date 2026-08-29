@@ -39,6 +39,41 @@ test('global search indexes structured Chinese ontology and interval names', asy
   await expect(page.getByRole('button', { name: /侏罗纪.*Jurassic/ })).toBeVisible()
 })
 
+test('global search lazily resolves accepted Catalogue of Life species without claiming a dossier', async ({ page }) => {
+  await page.addInitScript(() => window.localStorage.setItem('evo-atlas-language', 'en'))
+  await page.goto('./#/catalog')
+  await page.locator('.global-search-trigger').click()
+  const search = page.getByPlaceholder('Search taxa, intervals, events, places…')
+
+  await search.fill('Homo sapiens')
+  await expect(page.getByText('Catalogue of Life nomenclatural registry')).toBeVisible()
+  await expect(page.getByText(/COL26\.8 · 2026-08-20 · ≈80% upstream coverage · not an Atlas dossier/)).toBeVisible()
+  const result = page.locator('a.catalogue-search-result', { hasText: 'Homo sapiens' }).first()
+  await expect(result).toContainText('Accepted species name')
+  await expect(result).toHaveAttribute('href', /checklistbank\.org\/dataset\/316115\/taxon\/6MB3T$/)
+
+  await search.fill('Felis leo')
+  const synonym = page.locator('a.catalogue-search-result', { hasText: 'Felis leo' }).first()
+  await expect(synonym).toContainText('synonym · resolves to accepted 4CGXP')
+  await expect(synonym).toHaveAttribute('href', /checklistbank\.org\/dataset\/316115\/taxon\/4CGXP$/)
+
+  await search.fill('par')
+  await expect(page.locator('.catalogue-search-heading small')).toContainText(/showing 12 of \d+/)
+})
+
+test('global search distinguishes registry verification failures from no matches', async ({ browser, baseURL }) => {
+  const context = await browser.newContext({ baseURL, locale: 'en-US', serviceWorkers: 'block' })
+  const page = await context.newPage()
+  await page.addInitScript(() => window.localStorage.setItem('evo-atlas-language', 'en'))
+  await page.route('**/catalogue/**', (route) => route.abort())
+  await page.goto('./#/catalog')
+  await page.locator('.global-search-trigger').click()
+  await page.getByPlaceholder('Search taxa, intervals, events, places…').fill('Homo sapiens')
+  await expect(page.getByText('The species registry is unavailable, or shard verification failed.')).toBeVisible()
+  await expect(page.getByText(/No catalog entry matches/)).toHaveCount(0)
+  await context.close()
+})
+
 test('Data Lab localizes validation errors and reports export completion', async ({ page }) => {
   await page.addInitScript(() => window.localStorage.setItem('evo-atlas-language', 'zh'))
   await page.goto('./#/lab')
@@ -84,7 +119,7 @@ test('Explorer restores state and removes the unsupported global model parameter
   await expect(page.getByRole('button', { name: 'points' })).toHaveClass(/is-active/)
   await expect(page.getByRole('button', { name: 'modern' })).toHaveClass(/is-active/)
   await expect(page.getByText('Shared time window 20–5 Ma')).toBeVisible()
-  await expect.poll(() => page.url()).toContain('dataset=2026.08-static-v5-rc5')
+  await expect.poll(() => page.url()).toContain('dataset=2026.08-static-v5-rc6')
   for (const fragment of ['older=20', 'younger=5', 'lat=10.000', 'lng=20.000', 'zoom=3.00', 'treeMode=fossil-range']) {
     expect(page.url()).toContain(fragment)
   }
@@ -97,7 +132,7 @@ test('Explorer requires confirmation before replacing a mismatched dataset versi
   await expect(page.getByRole('alertdialog')).toContainText('2025.01-old')
   expect(page.url()).toContain('dataset=2025.01-old')
   await page.getByRole('button', { name: 'Use current dataset' }).click()
-  await expect.poll(() => page.url()).toContain('dataset=2026.08-static-v5-rc5')
+  await expect.poll(() => page.url()).toContain('dataset=2026.08-static-v5-rc6')
 })
 
 test('a service-worker upgrade removes dataset A caches and dataset B remains coherent', async ({ page }) => {
@@ -106,7 +141,7 @@ test('a service-worker upgrade removes dataset A caches and dataset B remains co
     await navigator.serviceWorker.ready
     const oldCache = await caches.open('evo-runtime-data-2026.08-static-v3')
     await oldCache.put('/evo/data/packages/atlas-core/manifest.json', new Response(JSON.stringify({ version: '2026.08-static-v3' })))
-    const upgraded = await navigator.serviceWorker.register('/evo/sw.js?upgrade-test=2026.08-static-v5-rc5', { scope: '/evo/upgrade-test/' })
+    const upgraded = await navigator.serviceWorker.register('/evo/sw.js?upgrade-test=2026.08-static-v5-rc6', { scope: '/evo/upgrade-test/' })
     const worker = upgraded.installing ?? upgraded.waiting ?? upgraded.active
     if (worker?.state !== 'activated') await new Promise<void>((resolve) => worker?.addEventListener('statechange', () => {
       if (worker.state === 'activated') resolve()
@@ -128,7 +163,7 @@ test('a service-worker upgrade removes dataset A caches and dataset B remains co
     const versions = await Promise.all(manifestFiles.map((file) => fetch(`/evo/data/${file.url}`).then((response) => response.json()).then((manifest) => manifest.version as string)))
     return { datasetVersion: current.datasetVersion, releaseBase: current.releaseBase, urls: manifestFiles.map((file) => file.url), versions, retained: history.releases.map((entry) => entry.datasetVersion) }
   })
-  expect(releaseState.releaseBase).toBe('releases/2026.08-static-v5-rc5/')
+  expect(releaseState.releaseBase).toBe('releases/2026.08-static-v5-rc6/')
   expect(releaseState.urls.every((url) => url.startsWith(releaseState.releaseBase))).toBe(true)
   expect(releaseState.versions.every((version) => version === releaseState.datasetVersion)).toBe(true)
   expect(releaseState.retained[0]).toBe(releaseState.datasetVersion)

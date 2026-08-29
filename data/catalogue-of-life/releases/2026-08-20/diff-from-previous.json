@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "toReleaseAlias": "COL26.8",
+  "toChecklistBankDatasetKey": 316115,
+  "fromReleaseAlias": null,
+  "comparisonStatus": "baseline-no-previous-canonical-snapshot",
+  "summary": {
+    "baselineAcceptedSpecies": 2183133,
+    "baselineResolvingNameUsages": 2065436,
+    "addedAccepted": null,
+    "renamed": null,
+    "synonymized": null,
+    "noLongerAccepted": null,
+    "synonymRepointed": null,
+    "idReplacedOrUnstable": null
+  },
+  "interpretation": "COL26.8 is the first canonical Catalogue of Life snapshot in Evo Atlas, so no earlier normalized snapshot exists for a scientific change comparison. Counts above establish the baseline; null means not comparable, not zero change.",
+  "nextReleaseMethod": "Compare release-scoped usage IDs first, then use sourceDatasetId + rank + scientificName + authorship + status as a controlled fallback so sector resynchronizations are reported as idReplacedOrUnstable rather than false deletion/addition pairs. Report accepted additions, name/authorship changes, synonymization, no-longer-accepted status, and synonym target changes separately."
+}

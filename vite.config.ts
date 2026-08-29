@@ -52,7 +52,7 @@ export default defineConfig({
             },
           },
           {
-            urlPattern: ({ url, sameOrigin }) => sameOrigin && /^\/evo\/data\/releases\/[^/]+\/(?:packages|package-search-index|occurrences|maps)\//.test(url.pathname),
+            urlPattern: ({ url, sameOrigin }) => sameOrigin && /^\/evo\/data\/releases\/[^/]+\/(?:packages|package-search-index|occurrences|maps|catalogue)\//.test(url.pathname),
             handler: 'CacheFirst',
             options: {
               cacheName: `evo-runtime-data-${datasetVersion}`,

@@ -5,7 +5,7 @@ export interface RuntimeFile {
   sha256?: string
   sourceSha256?: string
   encoding?: 'gzip'
-  mediaType?: 'application/json'
+  mediaType?: 'application/json' | 'application/x-ndjson'
 }
 
 export interface RuntimeEntity {
@@ -158,6 +158,87 @@ export interface RuntimeMapManifest {
   snapshots: RuntimeMapSnapshot[]
 }
 
+export interface CatalogueRecord {
+  normalizedName: string
+  id: string
+  scientificName: string
+  authorship: string | null
+  rank: 'species'
+  status: 'accepted' | 'synonym' | 'ambiguous-synonym' | 'misapplied'
+  acceptedId: string | null
+  parentId: string | null
+  sourceDatasetId: string | null
+  classification: Array<string | null>
+}
+
+export interface CatalogueTargetRecord {
+  id: string
+  scientificName: string
+  authorship: string | null
+  rank: string
+  status: 'accepted' | 'provisionally accepted'
+  parentId: string | null
+  sourceDatasetId: string | null
+  classification: Array<string | null>
+}
+
+export interface CatalogueRuntimeFile extends RuntimeFile {
+  prefix: string
+  path: string
+  records: number
+  url: string
+}
+
+export interface CatalogueRuntimeManifest {
+  schemaVersion: number
+  registryType: string
+  releaseAlias: string
+  releaseDate: string
+  checklistBankDatasetKey: number
+  doi: string
+  citation: string
+  scope: string
+  limitations: string[]
+  counts: {
+    nameUsages: number
+    speciesNameUsages: number
+    includedNameUsages: number
+    acceptedSpecies: number
+    provisionallyAcceptedSpecies: number
+    resolvingNameUsages: Record<'synonym' | 'ambiguous-synonym' | 'misapplied', number>
+    missingSourceDatasetId: number
+  }
+  classificationFields: string[]
+  sourceChecklists: RuntimeFile & { count: number; url: string }
+  search: {
+    minimumQueryLength: number
+    normalization: string
+    routes: Record<string, string[]>
+    files: CatalogueRuntimeFile[]
+    totalCompressedBytes: number
+    totalSourceBytes: number
+    largestShardBytes: number
+  }
+  acceptedTargets: {
+    uniqueReferencedIds: number
+    records: number
+    unresolvedIds: number
+    statuses: Record<string, number>
+    ranks: Record<string, number>
+    routing: string
+    routes: Record<string, string[]>
+    files: CatalogueRuntimeFile[]
+    totalCompressedBytes: number
+    totalSourceBytes: number
+    largestShardBytes: number
+    relationshipToAcceptedSpeciesCount: string
+  }
+  relationshipToAtlas: string
+  taxonIdScope: string
+  curieTemplate: string
+  upstreamTaxonUrlTemplate: string
+}
+
 export interface CurrentRuntimeManifest {
   schemaVersion: number
   datasetVersion: string
@@ -181,6 +262,15 @@ export interface CurrentRuntimeManifest {
     unresolvedPackageAssignmentCount: number
   }
   maps: { manifest: RuntimeFile; availableSnapshots: number }
+  catalogue: {
+    manifest: RuntimeFile
+    releaseAlias: string
+    releaseDate: string
+    acceptedSpecies: number
+    resolvingNameUsages: number
+    acceptedTargetRecords: number
+    relationshipToAtlas: string
+  }
   downloads: { template: string }
   budgets: {
     coreCompressedBytes: number
