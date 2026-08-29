@@ -149,6 +149,10 @@ function ownerForClaim(claim) {
   if (kind === 'taxon') return packageForEntity(subjectId)
   const explicit = {
     'plants-on-land': 'early-land-plants',
+    'dapingian-cryptospores': 'early-land-plants',
+    'ordovician-sporangia': 'early-land-plants',
+    'asteroxylon-rooting-system': 'early-land-plants',
+    'metzgeriothallus-record': 'early-land-plants',
     'angiosperm-expansion': 'angiospermae',
     'c4-grassland-expansion': 'angiospermae',
     'tetrapods-on-land': 'tetrapod-transition',

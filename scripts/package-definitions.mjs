@@ -1,5 +1,5 @@
 export const PACKAGE_SCHEMA_VERSION = 5
-export const DATASET_PACKAGE_VERSION = '2026.08-static-v5-rc12'
+export const DATASET_PACKAGE_VERSION = '2026.08-static-v5-rc13'
 export const DATASET_RELEASE_DATE = '2026-08-30'
 
 export const packageDefinitions = [
@@ -23,6 +23,7 @@ export const packageDefinitions = [
       zh: '收录部分胚胎植物证据，并完整路由 COL26.8 中已接受的苔藓植物、石松类、蕨类与木贼类物种。图谱的 Plantae 节点仅提供导航背景；种子植物归入独立内容包。旧版延限投影尚未复核，不得解释为任何冠群的化石首现。',
     },
     wave: 'E',
+    scientificMaturity: 'structured',
   },
   {
     id: 'gymnosperms',

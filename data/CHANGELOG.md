@@ -1,5 +1,13 @@
 # Dataset changelog
 
+## 2026.08-static-v5-rc13 — 2026-08-30
+
+- Added four curator-audited early-land-plant evidence events based on primary studies: Dapingian Argentine cryptospores, Late Ordovician Oman spore-mass fragments, the Asteroxylon rooting system and Givetian Metzgeriothallus body fossils.
+- Kept modelled crown divergence, dispersed spores, sporangial fragments and body fossils as separate evidence objects rather than collapsing them into one land-plant origin date.
+- Preserved source-reported and legacy chronostratigraphic boundaries explicitly: the Dapingian numerical age remains source-reported, while the Oman Caradoc occurrence uses a deliberately broad Sandbian–Katian display window.
+- Published a five-step bilingual evidence trail linking every story step to claim-level locators and stating where species-level exemplars cannot support phylum-wide traits or first appearances.
+- Advanced the early-land-plant package to structured maturity; rich taxon profiles remain withheld until plant-appropriate fields and complete entity-level evidence are available.
+
 ## 2026.08-static-v5-rc12 — 2026-08-30
 
 - Generalized the existing rich-profile projection so any static resource package can publish a package-local `profiles.source.json` without being hidden by Perissodactyla-only build, runtime, search, translation or static-page imports.
