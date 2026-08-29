@@ -1,5 +1,5 @@
 import { afterEach, describe, expect, it, vi } from 'vitest'
-import type { CatalogueHierarchyChildRecord, CatalogueHierarchyNodeRecord, CatalogueSourceChecklist } from './types'
+import type { CatalogueHierarchyChildRecord, CatalogueHierarchyNodeRecord, CatalogueSourceChecklist, RuntimeMapSnapshot } from './types'
 
 function responseFor(value: unknown) {
   const bytes = new TextEncoder().encode(JSON.stringify(value))
@@ -119,6 +119,30 @@ afterEach(async () => {
 })
 
 describe('static runtime release coherence', () => {
+  it('loads a requested paleogeography layer independently and caches it', async () => {
+    Object.defineProperty(globalThis, 'Worker', { configurable: true, value: undefined })
+    const collection = { type: 'FeatureCollection' as const, features: [] }
+    const file = { url: 'releases/maps/continental.json', sha256: await sha256(collection) }
+    const snapshot: RuntimeMapSnapshot = {
+      period: 'Cretaceous',
+      status: 'available',
+      description: 'fixture',
+      descriptionZh: 'fixture',
+      reconstructionAgeMa: 100,
+      model: 'CAO2024',
+      layers: { continentalPolygons: file },
+    }
+    const fetchMock = vi.fn(async () => responseFor(collection))
+    vi.stubGlobal('fetch', fetchMock)
+    const { loadPaleogeographyLayer } = await import('./staticDataClient')
+
+    await expect(loadPaleogeographyLayer(snapshot, 'continentalPolygons')).resolves.toEqual(collection)
+    await expect(loadPaleogeographyLayer(snapshot, 'continentalPolygons')).resolves.toEqual(collection)
+    expect(fetchMock).toHaveBeenCalledTimes(1)
+    await expect(loadPaleogeographyLayer(snapshot, 'continentOceanBoundaries')).rejects.toThrow('is not published')
+    expect(fetchMock).toHaveBeenCalledTimes(1)
+  })
+
   it('routes Catalogue usage IDs with the same deterministic SHA-256 prefix as the generator', async () => {
     const { catalogueRoutePrefix } = await import('./staticDataClient')
     await expect(catalogueRoutePrefix('4CGXP')).resolves.toBe('24')

@@ -6,6 +6,14 @@ type MultiPolygonCoordinates = Position[][][]
 type LineCoordinates = Position[]
 type MultiLineCoordinates = Position[][]
 
+export type PaleogeographyLayerId =
+  | 'coastlines'
+  | 'platePolygons'
+  | 'plateBoundaries'
+  | 'continentalPolygons'
+  | 'continentOceanBoundaries'
+  | 'staticPolygons'
+
 export interface PaleogeographyFeature {
   type: 'Feature'
   properties: {
@@ -13,7 +21,7 @@ export interface PaleogeographyFeature {
     period: string
     reconstructionAgeMa: number
     model: string
-    layer: 'coastlines' | 'platePolygons' | 'plateBoundaries'
+    layer: PaleogeographyLayerId
     type?: string
     name?: string
     pid?: number
@@ -30,11 +38,7 @@ export interface PaleogeographyFeatureCollection {
   features: PaleogeographyFeature[]
 }
 
-export interface PaleogeographyLayers {
-  coastlines: PaleogeographyFeatureCollection
-  platePolygons: PaleogeographyFeatureCollection
-  plateBoundaries: PaleogeographyFeatureCollection
-}
+export type PaleogeographyLayers = Partial<Record<PaleogeographyLayerId, PaleogeographyFeatureCollection>>
 
 export type ContinentFeatureCollection = PaleogeographyFeatureCollection
 

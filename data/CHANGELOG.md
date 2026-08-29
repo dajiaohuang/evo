@@ -1,5 +1,13 @@
 # Dataset changelog
 
+## 2026.08-static-v5-rc8 — 2026-08-29
+
+- Expanded all 12 CAO2024 period-midpoint snapshots from three to six layer families by adding modelled continental-crust extent, filtered continent–ocean transition boundaries and rigid static reconstruction partitions.
+- Kept coastline, dynamic topological plates, continental crust, COBs and static plate-ID partitions scientifically distinct in both the interface and provenance; none is presented as paleoelevation, bathymetry or terrain relief.
+- Added independent checksum-verified lazy loading for optional detailed layers, so one unavailable technical layer cannot hide the other verified map evidence.
+- Pinned the official CAO2024 v2.4 Zenodo record and source payload hashes while separately recording the mutable GWS descriptor/mirror metadata and its known time-range inconsistency.
+- Split 41 date-line-crossing features with spherical antimeridian clipping and recorded the per-period split counts, preventing false world-spanning polygon or boundary segments.
+
 ## 2026.08-static-v5-rc7 — 2026-08-29
 
 - Added an exact-ID Catalogue of Life hierarchy with all 2,183,133 accepted species and the 245,959 accepted or provisionally accepted higher taxa needed for their complete ancestor closure.

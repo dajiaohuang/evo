@@ -148,7 +148,7 @@ checkFile(current.maps.manifest, 'map manifest')
 const maps = readJson(current.maps.manifest.url)
 for (const snapshot of maps.snapshots) {
   if (snapshot.status !== 'available') continue
-  for (const layerId of ['coastlines', 'platePolygons', 'plateBoundaries']) {
+  for (const layerId of ['coastlines', 'platePolygons', 'plateBoundaries', 'continentalPolygons', 'continentOceanBoundaries', 'staticPolygons']) {
     const layer = snapshot.layers?.[layerId]
     if (!layer?.url || !layer?.sha256) {
       failures.push(`${snapshot.period}: available map has no checksum-addressed ${layerId} layer`)

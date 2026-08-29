@@ -7,6 +7,7 @@
     "version": "v2.4",
     "doi": "10.5281/zenodo.13628813",
     "url": "https://zenodo.org/records/13628813",
+    "immutableArchiveUrl": "https://zenodo.org/api/records/13628813/files/1.8Ga_model_GSF.zip/content",
     "license": "CC-BY-4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
   },
@@ -15,27 +16,74 @@
     "endpoints": {
       "coastlines": "https://gws.gplates.org/reconstruct/coastlines/",
       "platePolygons": "https://gws.gplates.org/topology/plate_polygons",
-      "plateBoundaries": "https://gws.gplates.org/topology/plate_boundaries"
+      "plateBoundaries": "https://gws.gplates.org/topology/plate_boundaries",
+      "continentalPolygons": "https://gws.gplates.org/reconstruct/reconstruct_files",
+      "continentOceanBoundaries": "https://gws.gplates.org/reconstruct/reconstruct_files",
+      "staticPolygons": "https://gws.gplates.org/reconstruct/static_polygons/"
     },
     "model": "CAO2024",
     "documentation": {
       "coastlines": "https://gwsdoc.gplates.org/reconstruction/reconstruct-coastlines/",
       "platePolygons": "https://gwsdoc.gplates.org/topology/topological-plate-polygons/",
-      "plateBoundaries": "https://gwsdoc.gplates.org/topology/topological-plate-boundaries/"
+      "plateBoundaries": "https://gwsdoc.gplates.org/topology/topological-plate-boundaries/",
+      "continentalPolygons": "https://gwsdoc.gplates.org/reconstruction/reconstruct-file/",
+      "continentOceanBoundaries": "https://gwsdoc.gplates.org/reconstruction/reconstruct-file/",
+      "staticPolygons": "https://gwsdoc.gplates.org/reconstruction/reconstruct-static-polygons/"
     },
-    "modelDocumentation": "https://gwsdoc.gplates.org/models/"
+    "modelDocumentation": "https://gwsdoc.gplates.org/models/",
+    "modelShow": {
+      "url": "https://gws.gplates.org/model/show/?model=CAO2024",
+      "response": "{\"BigTime\": 18000, \"SmallTime\": 0, \"Rotations\": \"https://repo.gplates.org/webdav/pmm/cao2024/Rotations.zip\", \"Layers\": {\"StaticPolygons\": \"https://repo.gplates.org/webdav/pmm/cao2024/StaticPolygons.zip\", \"Coastlines\": \"https://repo.gplates.org/webdav/pmm/cao2024/Coastlines.zip\", \"ContinentalPolygons\": \"https://repo.gplates.org/webdav/pmm/cao2024/ContinentalPolygons.zip\", \"Topologies\": \"https://repo.gplates.org/webdav/pmm/cao2024/Topologies.zip\", \"COBs\": \"https://repo.gplates.org/webdav/pmm/cao2024/COBs.zip\"}, \"TimeDepRasters\": {}, \"Description\": \"Earth's tectonic and plate boundary evolution over 1.8 billion years\", \"URL\": \"https://zenodo.org/records/11536686\", \"Version\": \"2024-10-18\"}",
+      "responseBytes": 694,
+      "responseSha256": "8fcef9bc5ef45a9e4903daaa35cda0873a9f830ecc32f8341547f4a9fcaf9393",
+      "serviceAliasVersion": "2024-10-18",
+      "reportedBigTime": 18000,
+      "enforcedMaximumAgeMa": 1800,
+      "knownMetadataIssue": "The service reports BigTime=18000, but the CAO2024 publication, model documentation and source filenames establish a 0-1800 Ma scope. This pipeline rejects midpoint ages above 1800 Ma.",
+      "relationshipToRelease": "The GPlates service alias is dated 2024-10-18 rather than semantically versioned v2.4. Its three pinned layer payloads are accepted only after matching the SHA-256 of the immutable Zenodo v2.4 files."
+    }
+  },
+  "sourceAssets": {
+    "continentalPolygons": {
+      "archiveUrl": "https://repo.gplates.org/webdav/pmm/cao2024/ContinentalPolygons.zip",
+      "archiveBytes": 1235222,
+      "archiveSha256": "5b024724d95f476427ee71c90afb086265aa13845210e08326b026400c0f01bd",
+      "payloadFile": "shapes_continents.gpmlz",
+      "payloadBytes": 1243843,
+      "payloadSha256": "6e30de73967f81a403f46370295dec5c0d7ed3ffd80c73d47df926461d949616"
+    },
+    "continentOceanBoundaries": {
+      "archiveUrl": "https://repo.gplates.org/webdav/pmm/cao2024/COBs.zip",
+      "archiveBytes": 1904441,
+      "archiveSha256": "270740ca3cba242a5a36b1452ea6b574300d8e505bb6f090fea2c5d24f3cca49",
+      "payloadFile": "COBfile_1800_0.gpml",
+      "payloadBytes": 14423254,
+      "payloadSha256": "cfcea20c5244613e53ad4b9cdf6411d79ff535c25af335b4fa6eb9251377d4bd"
+    },
+    "staticPolygons": {
+      "archiveUrl": "https://repo.gplates.org/webdav/pmm/cao2024/StaticPolygons.zip",
+      "archiveBytes": 2214787,
+      "archiveSha256": "7541e1b30e59e1d03d99f9459a680a44c45205c26183f9613268e6a023c4be2f",
+      "payloadFile": "static_polygons.gpmlz",
+      "payloadBytes": 2248936,
+      "payloadSha256": "9b30d231157f99f9a7942d073efcb85649b0a6e10e49332637df2386f1b1350f"
+    }
   },
   "processing": {
     "script": "scripts/fetch-paleogeography.mjs",
-    "scriptCommit": "43a14b692c8cb5c66644edf32a64ae10070c03e5",
+    "scriptCommit": "f586ad16afc30a95297b95aa3a5fe4cda178e175",
+    "scriptCommitRole": "Generation worktree base; the exact processing-script content used for this uncommitted review build is identified by scriptSha256.",
+    "scriptSha256": "5778b7237deb9ffd6e3c2fb3b33e33b7c0395be01edc70e41794b98b2e4dc3d8",
     "coordinatePrecisionDecimals": 4,
-    "method": "Fetch reconstructed coastline polygons, topological plate polygons and typed plate-boundary lines at each ICS 2026/06 period midpoint; wrap coastlines at the dateline; retain model boundary classifications and supplied subduction polarity; omit the service length attribute because its unit is not documented; remove invalid or duplicate geometry; sort deterministically."
+    "method": "Fetch six reconstructed CAO2024 layers at each ICS 2026/06 period midpoint. Coastlines, dynamic topological plate polygons, typed plate boundaries and rigid static polygons use official GET endpoints. Continental polygons and continent-ocean boundaries use SHA-pinned official WebDAV GPML/GPMLZ payloads submitted to the official reconstruct_files endpoint with their existing plate IDs. Preserve continental feature type/name/plate ID; publish only formal Closed/Passive continental boundaries plus explicitly named alternative COB records; clip new polygon and line geometry at the antimeridian; remove invalid or duplicate geometry; sort deterministically."
   },
   "retrievedAt": "2026-08-29",
   "attribution": "Cao et al. (2024), reconstructed through the GPlates Web Service operated by the EarthByte Group and AuScope.",
   "scientificLimitations": [
     "These are modelled coastline reconstructions at one representative midpoint per geological period, not direct observations or a continuous paleogeographic movie.",
     "Plate polygons and typed boundaries add tectonic context, but the dataset does not provide paleoelevation, bathymetry or terrain relief; no elevation is inferred or illustrated.",
+    "Static polygons are rigid-shape technical plate partitions used for plate assignment and masking. They are not dynamically closing plate polygons and must not replace the topological plate polygon layer.",
+    "Continent-ocean boundaries represent a broad, interpretation-dependent transition between continental and oceanic crust. They are not coastlines, and records with unrelated or ambiguous feature types are excluded.",
     "Plate reconstructions become more uncertain deeper in time; exact coastlines, terrane positions and longitudinal placement are model-dependent.",
     "The land layer and PBDB occurrence paleocoordinates may derive from different reconstruction models and must not be treated as spatially co-registered evidence."
   ],
@@ -72,6 +120,187 @@
           "geometryFeatures": 112,
           "geometryBytes": 47018,
           "geometrySha256": "4e851ecdfddeb22c2784026e9ec6382b1906a0d992da69bac144a70049094a20"
+        },
+        "continentalPolygons": {
+          "sourceUrl": "https://gws.gplates.org/reconstruct/reconstruct_files",
+          "sourceBytes": 1055679,
+          "sourceSha256": "d3fd19368df2b6cc4ca82a970856c3965f218d6c884d062459e711b844663155",
+          "geometryFile": "data/paleogeography/cambrian-continents.json",
+          "geometryFeatures": 436,
+          "geometryBytes": 1073891,
+          "geometrySha256": "f878ca09d771221716cb839ca37e1cf6d69dbbffef4dadd0bf8a11dcbe17f22a",
+          "normalization": {
+            "sourceFeatures": 437,
+            "invalidGeometryFeatures": 0,
+            "duplicateFeaturesRemoved": 1,
+            "datelineSplitFeatures": 1
+          },
+          "sourceArchive": "https://repo.gplates.org/webdav/pmm/cao2024/ContinentalPolygons.zip",
+          "sourcePayloadFile": "shapes_continents.gpmlz",
+          "sourcePayloadSha256": "6e30de73967f81a403f46370295dec5c0d7ed3ffd80c73d47df926461d949616",
+          "responseFormat": "ESRI Shapefile ZIP decoded by scripts/shapefile-reader.mjs",
+          "request": {
+            "time": 512.825,
+            "model": "CAO2024",
+            "assignPlateId": 0
+          },
+          "inclusionPolicy": "Include every reconstructed polygon from the official ContinentalPolygons layer while preserving its source GPGIM feature type, name, plate ID and feature ID.",
+          "sourceFeatureTypeCounts": {
+            "gpml:ClosedContinentalBoundary": {
+              "source": 269,
+              "included": 269,
+              "excludedByPolicy": 0,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:Coastline": {
+              "source": 3,
+              "included": 3,
+              "excludedByPolicy": 0,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:ContinentalFragment": {
+              "source": 1,
+              "included": 1,
+              "excludedByPolicy": 0,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:Craton": {
+              "source": 5,
+              "included": 5,
+              "excludedByPolicy": 0,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:InferredPaleoBoundary": {
+              "source": 2,
+              "included": 2,
+              "excludedByPolicy": 0,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:PassiveContinentalBoundary": {
+              "source": 1,
+              "included": 1,
+              "excludedByPolicy": 0,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:TerraneBoundary": {
+              "source": 13,
+              "included": 13,
+              "excludedByPolicy": 0,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:UnclassifiedFeature": {
+              "source": 143,
+              "included": 143,
+              "excludedByPolicy": 0,
+              "excludedInvalidGeometry": 0
+            }
+          }
+        },
+        "continentOceanBoundaries": {
+          "sourceUrl": "https://gws.gplates.org/reconstruct/reconstruct_files",
+          "sourceBytes": 2312907,
+          "sourceSha256": "481b569db5ce302d750ec5d3a94948e6e284ab5495ebca535a7d92653adfc9fe",
+          "geometryFile": "data/paleogeography/cambrian-cobs.json",
+          "geometryFeatures": 384,
+          "geometryBytes": 590603,
+          "geometrySha256": "dc469330c5667a1d6a07da55a560e52d3f3d8058fd7b09a2691d9f80b8a1978f",
+          "normalization": {
+            "sourceFeatures": 460,
+            "invalidGeometryFeatures": 0,
+            "duplicateFeaturesRemoved": 76,
+            "datelineSplitFeatures": 2
+          },
+          "sourceArchive": "https://repo.gplates.org/webdav/pmm/cao2024/COBs.zip",
+          "sourcePayloadFile": "COBfile_1800_0.gpml",
+          "sourcePayloadSha256": "cfcea20c5244613e53ad4b9cdf6411d79ff535c25af335b4fa6eb9251377d4bd",
+          "responseFormat": "ESRI Shapefile ZIP decoded by scripts/shapefile-reader.mjs",
+          "request": {
+            "time": 512.825,
+            "model": "CAO2024",
+            "assignPlateId": 0
+          },
+          "inclusionPolicy": "Include gpml:ClosedContinentalBoundary and gpml:PassiveContinentalBoundary. Also include gpml:UnclassifiedFeature only when NAME contains the independent token COB or aCOB; normalize those exceptional records to unclassified-alternative-cob. Exclude every other feature type, including gpml:InferredPaleoBoundary, and publish polygon rings only as boundary outlines.",
+          "sourceFeatureTypeCounts": {
+            "gpml:ClosedContinentalBoundary": {
+              "source": 402,
+              "included": 402,
+              "excludedByPolicy": 0,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:Coastline": {
+              "source": 20,
+              "included": 0,
+              "excludedByPolicy": 20,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:ContinentalCrust": {
+              "source": 1,
+              "included": 0,
+              "excludedByPolicy": 1,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:ContinentalFragment": {
+              "source": 11,
+              "included": 0,
+              "excludedByPolicy": 11,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:Craton": {
+              "source": 10,
+              "included": 0,
+              "excludedByPolicy": 10,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:InferredPaleoBoundary": {
+              "source": 15,
+              "included": 0,
+              "excludedByPolicy": 15,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:PassiveContinentalBoundary": {
+              "source": 20,
+              "included": 20,
+              "excludedByPolicy": 0,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:Suture": {
+              "source": 5,
+              "included": 0,
+              "excludedByPolicy": 5,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:TerraneBoundary": {
+              "source": 13,
+              "included": 0,
+              "excludedByPolicy": 13,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:UnclassifiedFeature": {
+              "source": 342,
+              "included": 38,
+              "excludedByPolicy": 304,
+              "excludedInvalidGeometry": 0
+            }
+          }
+        },
+        "staticPolygons": {
+          "sourceUrl": "https://gws.gplates.org/reconstruct/static_polygons/?time=512.825&model=CAO2024&anchor_plate_id=0",
+          "sourceBytes": 991218,
+          "sourceSha256": "9a7417686c2b166ea9349e73667161d47a3786101ff852abf6bfa52c027e33fe",
+          "geometryFile": "data/paleogeography/cambrian-static-polygons.json",
+          "geometryFeatures": 453,
+          "geometryBytes": 979624,
+          "geometrySha256": "2b40a4bd212bc425303ccf60fc86917f2c73fe460d8e3525bfefba54c30741bb",
+          "normalization": {
+            "sourceFeatures": 460,
+            "invalidGeometryFeatures": 0,
+            "duplicateFeaturesRemoved": 7,
+            "datelineSplitFeatures": 1
+          },
+          "sourceArchive": "https://repo.gplates.org/webdav/pmm/cao2024/StaticPolygons.zip",
+          "sourcePayloadFile": "static_polygons.gpmlz",
+          "sourcePayloadSha256": "9b30d231157f99f9a7942d073efcb85649b0a6e10e49332637df2386f1b1350f",
+          "technicalLayer": "Rigid-shape plate partition reconstructed by plate ID; suitable for plate assignment and technical masking, not a substitute for dynamically resolved topological plate polygons."
         }
       }
     },
@@ -107,6 +336,181 @@
           "geometryFeatures": 112,
           "geometryBytes": 47424,
           "geometrySha256": "b4b39b8bf329fff0aec8f0e32c3b2137d412913c83c44e5f6da298f1eae0acec"
+        },
+        "continentalPolygons": {
+          "sourceUrl": "https://gws.gplates.org/reconstruct/reconstruct_files",
+          "sourceBytes": 1077691,
+          "sourceSha256": "f86bd5c631ffcaa5f91370edf0163d8d4c60731fba1a9c6bd695ad84dc7c1f0e",
+          "geometryFile": "data/paleogeography/ordovician-continents.json",
+          "geometryFeatures": 450,
+          "geometryBytes": 1091036,
+          "geometrySha256": "9dd29d17d67e148f4ec0196070cc7cce7886be97a457acfd3597d09ddfc03a9e",
+          "normalization": {
+            "sourceFeatures": 451,
+            "invalidGeometryFeatures": 0,
+            "duplicateFeaturesRemoved": 1,
+            "datelineSplitFeatures": 1
+          },
+          "sourceArchive": "https://repo.gplates.org/webdav/pmm/cao2024/ContinentalPolygons.zip",
+          "sourcePayloadFile": "shapes_continents.gpmlz",
+          "sourcePayloadSha256": "6e30de73967f81a403f46370295dec5c0d7ed3ffd80c73d47df926461d949616",
+          "responseFormat": "ESRI Shapefile ZIP decoded by scripts/shapefile-reader.mjs",
+          "request": {
+            "time": 464.975,
+            "model": "CAO2024",
+            "assignPlateId": 0
+          },
+          "inclusionPolicy": "Include every reconstructed polygon from the official ContinentalPolygons layer while preserving its source GPGIM feature type, name, plate ID and feature ID.",
+          "sourceFeatureTypeCounts": {
+            "gpml:ClosedContinentalBoundary": {
+              "source": 277,
+              "included": 277,
+              "excludedByPolicy": 0,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:Coastline": {
+              "source": 3,
+              "included": 3,
+              "excludedByPolicy": 0,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:ContinentalFragment": {
+              "source": 5,
+              "included": 5,
+              "excludedByPolicy": 0,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:Craton": {
+              "source": 5,
+              "included": 5,
+              "excludedByPolicy": 0,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:InferredPaleoBoundary": {
+              "source": 2,
+              "included": 2,
+              "excludedByPolicy": 0,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:PassiveContinentalBoundary": {
+              "source": 1,
+              "included": 1,
+              "excludedByPolicy": 0,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:TerraneBoundary": {
+              "source": 13,
+              "included": 13,
+              "excludedByPolicy": 0,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:UnclassifiedFeature": {
+              "source": 145,
+              "included": 145,
+              "excludedByPolicy": 0,
+              "excludedInvalidGeometry": 0
+            }
+          }
+        },
+        "continentOceanBoundaries": {
+          "sourceUrl": "https://gws.gplates.org/reconstruct/reconstruct_files",
+          "sourceBytes": 2328381,
+          "sourceSha256": "4f2039f1f445a0d098f2598d5e9d39ef904b16e3448b7d456feb0fee405ca8ef",
+          "geometryFile": "data/paleogeography/ordovician-cobs.json",
+          "geometryFeatures": 384,
+          "geometryBytes": 589954,
+          "geometrySha256": "891f2e4e7be9bd4c2b0b70b969c9a5167a77df894b0e16b60e3bd547bb59369a",
+          "normalization": {
+            "sourceFeatures": 460,
+            "invalidGeometryFeatures": 0,
+            "duplicateFeaturesRemoved": 76,
+            "datelineSplitFeatures": 1
+          },
+          "sourceArchive": "https://repo.gplates.org/webdav/pmm/cao2024/COBs.zip",
+          "sourcePayloadFile": "COBfile_1800_0.gpml",
+          "sourcePayloadSha256": "cfcea20c5244613e53ad4b9cdf6411d79ff535c25af335b4fa6eb9251377d4bd",
+          "responseFormat": "ESRI Shapefile ZIP decoded by scripts/shapefile-reader.mjs",
+          "request": {
+            "time": 464.975,
+            "model": "CAO2024",
+            "assignPlateId": 0
+          },
+          "inclusionPolicy": "Include gpml:ClosedContinentalBoundary and gpml:PassiveContinentalBoundary. Also include gpml:UnclassifiedFeature only when NAME contains the independent token COB or aCOB; normalize those exceptional records to unclassified-alternative-cob. Exclude every other feature type, including gpml:InferredPaleoBoundary, and publish polygon rings only as boundary outlines.",
+          "sourceFeatureTypeCounts": {
+            "gpml:ClosedContinentalBoundary": {
+              "source": 402,
+              "included": 402,
+              "excludedByPolicy": 0,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:Coastline": {
+              "source": 20,
+              "included": 0,
+              "excludedByPolicy": 20,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:ContinentalFragment": {
+              "source": 16,
+              "included": 0,
+              "excludedByPolicy": 16,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:Craton": {
+              "source": 10,
+              "included": 0,
+              "excludedByPolicy": 10,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:InferredPaleoBoundary": {
+              "source": 15,
+              "included": 0,
+              "excludedByPolicy": 15,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:PassiveContinentalBoundary": {
+              "source": 20,
+              "included": 20,
+              "excludedByPolicy": 0,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:Suture": {
+              "source": 5,
+              "included": 0,
+              "excludedByPolicy": 5,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:TerraneBoundary": {
+              "source": 13,
+              "included": 0,
+              "excludedByPolicy": 13,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:UnclassifiedFeature": {
+              "source": 347,
+              "included": 38,
+              "excludedByPolicy": 309,
+              "excludedInvalidGeometry": 0
+            }
+          }
+        },
+        "staticPolygons": {
+          "sourceUrl": "https://gws.gplates.org/reconstruct/static_polygons/?time=464.975&model=CAO2024&anchor_plate_id=0",
+          "sourceBytes": 1001751,
+          "sourceSha256": "14f156977d46f70e181dd070ba51f15c4d6b094db810b934a829c76a05f3f848",
+          "geometryFile": "data/paleogeography/ordovician-static-polygons.json",
+          "geometryFeatures": 468,
+          "geometryBytes": 993261,
+          "geometrySha256": "95d2931d79f930fe1947a44f33f8679352e3cd114444b5380185dc80b3f701d7",
+          "normalization": {
+            "sourceFeatures": 475,
+            "invalidGeometryFeatures": 0,
+            "duplicateFeaturesRemoved": 7,
+            "datelineSplitFeatures": 1
+          },
+          "sourceArchive": "https://repo.gplates.org/webdav/pmm/cao2024/StaticPolygons.zip",
+          "sourcePayloadFile": "static_polygons.gpmlz",
+          "sourcePayloadSha256": "9b30d231157f99f9a7942d073efcb85649b0a6e10e49332637df2386f1b1350f",
+          "technicalLayer": "Rigid-shape plate partition reconstructed by plate ID; suitable for plate assignment and technical masking, not a substitute for dynamically resolved topological plate polygons."
         }
       }
     },
@@ -142,6 +546,181 @@
           "geometryFeatures": 87,
           "geometryBytes": 36219,
           "geometrySha256": "b8c079bc2ed36c65768f625cc519cc53ac8be6037d6c58b475dce7b7b83987e6"
+        },
+        "continentalPolygons": {
+          "sourceUrl": "https://gws.gplates.org/reconstruct/reconstruct_files",
+          "sourceBytes": 1215149,
+          "sourceSha256": "f0f26867600b29143bde3fb60bff39da402a30da441f6338ccad3857c58fe2d7",
+          "geometryFile": "data/paleogeography/silurian-continents.json",
+          "geometryFeatures": 457,
+          "geometryBytes": 1227916,
+          "geometrySha256": "d8ec839ea1993bfcb07ffa5116f40833932bb7110c8c7c765a710e3890397612",
+          "normalization": {
+            "sourceFeatures": 458,
+            "invalidGeometryFeatures": 0,
+            "duplicateFeaturesRemoved": 1,
+            "datelineSplitFeatures": 1
+          },
+          "sourceArchive": "https://repo.gplates.org/webdav/pmm/cao2024/ContinentalPolygons.zip",
+          "sourcePayloadFile": "shapes_continents.gpmlz",
+          "sourcePayloadSha256": "6e30de73967f81a403f46370295dec5c0d7ed3ffd80c73d47df926461d949616",
+          "responseFormat": "ESRI Shapefile ZIP decoded by scripts/shapefile-reader.mjs",
+          "request": {
+            "time": 431.36,
+            "model": "CAO2024",
+            "assignPlateId": 0
+          },
+          "inclusionPolicy": "Include every reconstructed polygon from the official ContinentalPolygons layer while preserving its source GPGIM feature type, name, plate ID and feature ID.",
+          "sourceFeatureTypeCounts": {
+            "gpml:ClosedContinentalBoundary": {
+              "source": 280,
+              "included": 280,
+              "excludedByPolicy": 0,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:Coastline": {
+              "source": 4,
+              "included": 4,
+              "excludedByPolicy": 0,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:ContinentalFragment": {
+              "source": 5,
+              "included": 5,
+              "excludedByPolicy": 0,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:Craton": {
+              "source": 5,
+              "included": 5,
+              "excludedByPolicy": 0,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:InferredPaleoBoundary": {
+              "source": 2,
+              "included": 2,
+              "excludedByPolicy": 0,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:PassiveContinentalBoundary": {
+              "source": 1,
+              "included": 1,
+              "excludedByPolicy": 0,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:TerraneBoundary": {
+              "source": 13,
+              "included": 13,
+              "excludedByPolicy": 0,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:UnclassifiedFeature": {
+              "source": 148,
+              "included": 148,
+              "excludedByPolicy": 0,
+              "excludedInvalidGeometry": 0
+            }
+          }
+        },
+        "continentOceanBoundaries": {
+          "sourceUrl": "https://gws.gplates.org/reconstruct/reconstruct_files",
+          "sourceBytes": 2477337,
+          "sourceSha256": "140dbe339e033e88a0044a1bb225d96210a3c0ec0b42b810bd5c7f85ad178886",
+          "geometryFile": "data/paleogeography/silurian-cobs.json",
+          "geometryFeatures": 387,
+          "geometryBytes": 588829,
+          "geometrySha256": "94c1fbfd1a3b922f1187f18773255893b482a0743215dc33176b292e1ed5ccc7",
+          "normalization": {
+            "sourceFeatures": 463,
+            "invalidGeometryFeatures": 0,
+            "duplicateFeaturesRemoved": 76,
+            "datelineSplitFeatures": 1
+          },
+          "sourceArchive": "https://repo.gplates.org/webdav/pmm/cao2024/COBs.zip",
+          "sourcePayloadFile": "COBfile_1800_0.gpml",
+          "sourcePayloadSha256": "cfcea20c5244613e53ad4b9cdf6411d79ff535c25af335b4fa6eb9251377d4bd",
+          "responseFormat": "ESRI Shapefile ZIP decoded by scripts/shapefile-reader.mjs",
+          "request": {
+            "time": 431.36,
+            "model": "CAO2024",
+            "assignPlateId": 0
+          },
+          "inclusionPolicy": "Include gpml:ClosedContinentalBoundary and gpml:PassiveContinentalBoundary. Also include gpml:UnclassifiedFeature only when NAME contains the independent token COB or aCOB; normalize those exceptional records to unclassified-alternative-cob. Exclude every other feature type, including gpml:InferredPaleoBoundary, and publish polygon rings only as boundary outlines.",
+          "sourceFeatureTypeCounts": {
+            "gpml:ClosedContinentalBoundary": {
+              "source": 405,
+              "included": 405,
+              "excludedByPolicy": 0,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:Coastline": {
+              "source": 24,
+              "included": 0,
+              "excludedByPolicy": 24,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:ContinentalFragment": {
+              "source": 16,
+              "included": 0,
+              "excludedByPolicy": 16,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:Craton": {
+              "source": 10,
+              "included": 0,
+              "excludedByPolicy": 10,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:InferredPaleoBoundary": {
+              "source": 15,
+              "included": 0,
+              "excludedByPolicy": 15,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:PassiveContinentalBoundary": {
+              "source": 20,
+              "included": 20,
+              "excludedByPolicy": 0,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:Suture": {
+              "source": 5,
+              "included": 0,
+              "excludedByPolicy": 5,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:TerraneBoundary": {
+              "source": 13,
+              "included": 0,
+              "excludedByPolicy": 13,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:UnclassifiedFeature": {
+              "source": 350,
+              "included": 38,
+              "excludedByPolicy": 312,
+              "excludedInvalidGeometry": 0
+            }
+          }
+        },
+        "staticPolygons": {
+          "sourceUrl": "https://gws.gplates.org/reconstruct/static_polygons/?time=431.36&model=CAO2024&anchor_plate_id=0",
+          "sourceBytes": 1154992,
+          "sourceSha256": "6ad3a82c62f5e33cbe2b75565c03db3eb0bfcdc739db33c493be34023a16a3e0",
+          "geometryFile": "data/paleogeography/silurian-static-polygons.json",
+          "geometryFeatures": 470,
+          "geometryBytes": 1127585,
+          "geometrySha256": "e4be172b008c5716eec9f88ba366eecb456a6ae4ad15d5a2f1423602c0c094a9",
+          "normalization": {
+            "sourceFeatures": 477,
+            "invalidGeometryFeatures": 0,
+            "duplicateFeaturesRemoved": 7,
+            "datelineSplitFeatures": 1
+          },
+          "sourceArchive": "https://repo.gplates.org/webdav/pmm/cao2024/StaticPolygons.zip",
+          "sourcePayloadFile": "static_polygons.gpmlz",
+          "sourcePayloadSha256": "9b30d231157f99f9a7942d073efcb85649b0a6e10e49332637df2386f1b1350f",
+          "technicalLayer": "Rigid-shape plate partition reconstructed by plate ID; suitable for plate assignment and technical masking, not a substitute for dynamically resolved topological plate polygons."
         }
       }
     },
@@ -177,6 +756,181 @@
           "geometryFeatures": 97,
           "geometryBytes": 41902,
           "geometrySha256": "1686aba84691958122df4d4d9c75579b41c597e320039c6eb7db0a4aaba6608b"
+        },
+        "continentalPolygons": {
+          "sourceUrl": "https://gws.gplates.org/reconstruct/reconstruct_files",
+          "sourceBytes": 1450485,
+          "sourceSha256": "2e874bc67b238a556cceb3ba92f286d824f53ad3d6c1568deef5652aee79e000",
+          "geometryFile": "data/paleogeography/devonian-continents.json",
+          "geometryFeatures": 609,
+          "geometryBytes": 1487799,
+          "geometrySha256": "5b31a38a2e194b2fea063be4460a399d4b5310b74868cd534ae9c866b2da1a4d",
+          "normalization": {
+            "sourceFeatures": 610,
+            "invalidGeometryFeatures": 0,
+            "duplicateFeaturesRemoved": 1,
+            "datelineSplitFeatures": 1
+          },
+          "sourceArchive": "https://repo.gplates.org/webdav/pmm/cao2024/ContinentalPolygons.zip",
+          "sourcePayloadFile": "shapes_continents.gpmlz",
+          "sourcePayloadSha256": "6e30de73967f81a403f46370295dec5c0d7ed3ffd80c73d47df926461d949616",
+          "responseFormat": "ESRI Shapefile ZIP decoded by scripts/shapefile-reader.mjs",
+          "request": {
+            "time": 389.24,
+            "model": "CAO2024",
+            "assignPlateId": 0
+          },
+          "inclusionPolicy": "Include every reconstructed polygon from the official ContinentalPolygons layer while preserving its source GPGIM feature type, name, plate ID and feature ID.",
+          "sourceFeatureTypeCounts": {
+            "gpml:ClosedContinentalBoundary": {
+              "source": 427,
+              "included": 427,
+              "excludedByPolicy": 0,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:Coastline": {
+              "source": 4,
+              "included": 4,
+              "excludedByPolicy": 0,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:ContinentalFragment": {
+              "source": 5,
+              "included": 5,
+              "excludedByPolicy": 0,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:Craton": {
+              "source": 5,
+              "included": 5,
+              "excludedByPolicy": 0,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:InferredPaleoBoundary": {
+              "source": 2,
+              "included": 2,
+              "excludedByPolicy": 0,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:PassiveContinentalBoundary": {
+              "source": 2,
+              "included": 2,
+              "excludedByPolicy": 0,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:TerraneBoundary": {
+              "source": 15,
+              "included": 15,
+              "excludedByPolicy": 0,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:UnclassifiedFeature": {
+              "source": 150,
+              "included": 150,
+              "excludedByPolicy": 0,
+              "excludedInvalidGeometry": 0
+            }
+          }
+        },
+        "continentOceanBoundaries": {
+          "sourceUrl": "https://gws.gplates.org/reconstruct/reconstruct_files",
+          "sourceBytes": 2686721,
+          "sourceSha256": "e6d7fc9fb341e5a3244114247d8f793256fae09ef9e5f2a89218c7cb58cfc07e",
+          "geometryFile": "data/paleogeography/devonian-cobs.json",
+          "geometryFeatures": 493,
+          "geometryBytes": 760391,
+          "geometrySha256": "a143e4a6ad7ccb7da2253e590cb9966bd03d6eca7e28a009c4f9543e2c85b46d",
+          "normalization": {
+            "sourceFeatures": 573,
+            "invalidGeometryFeatures": 0,
+            "duplicateFeaturesRemoved": 80,
+            "datelineSplitFeatures": 2
+          },
+          "sourceArchive": "https://repo.gplates.org/webdav/pmm/cao2024/COBs.zip",
+          "sourcePayloadFile": "COBfile_1800_0.gpml",
+          "sourcePayloadSha256": "cfcea20c5244613e53ad4b9cdf6411d79ff535c25af335b4fa6eb9251377d4bd",
+          "responseFormat": "ESRI Shapefile ZIP decoded by scripts/shapefile-reader.mjs",
+          "request": {
+            "time": 389.24,
+            "model": "CAO2024",
+            "assignPlateId": 0
+          },
+          "inclusionPolicy": "Include gpml:ClosedContinentalBoundary and gpml:PassiveContinentalBoundary. Also include gpml:UnclassifiedFeature only when NAME contains the independent token COB or aCOB; normalize those exceptional records to unclassified-alternative-cob. Exclude every other feature type, including gpml:InferredPaleoBoundary, and publish polygon rings only as boundary outlines.",
+          "sourceFeatureTypeCounts": {
+            "gpml:ClosedContinentalBoundary": {
+              "source": 552,
+              "included": 552,
+              "excludedByPolicy": 0,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:Coastline": {
+              "source": 24,
+              "included": 0,
+              "excludedByPolicy": 24,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:ContinentalFragment": {
+              "source": 16,
+              "included": 0,
+              "excludedByPolicy": 16,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:Craton": {
+              "source": 10,
+              "included": 0,
+              "excludedByPolicy": 10,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:InferredPaleoBoundary": {
+              "source": 15,
+              "included": 0,
+              "excludedByPolicy": 15,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:PassiveContinentalBoundary": {
+              "source": 20,
+              "included": 20,
+              "excludedByPolicy": 0,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:Suture": {
+              "source": 5,
+              "included": 0,
+              "excludedByPolicy": 5,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:TerraneBoundary": {
+              "source": 15,
+              "included": 0,
+              "excludedByPolicy": 15,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:UnclassifiedFeature": {
+              "source": 299,
+              "included": 1,
+              "excludedByPolicy": 298,
+              "excludedInvalidGeometry": 0
+            }
+          }
+        },
+        "staticPolygons": {
+          "sourceUrl": "https://gws.gplates.org/reconstruct/static_polygons/?time=389.24&model=CAO2024&anchor_plate_id=0",
+          "sourceBytes": 1378451,
+          "sourceSha256": "5ad5d6cdde1a22a9f1b1652beeb2e0f8dc51695e353d9ff0e65a4815947db3d9",
+          "geometryFile": "data/paleogeography/devonian-static-polygons.json",
+          "geometryFeatures": 621,
+          "geometryBytes": 1363722,
+          "geometrySha256": "f3efde2d2843b598d41f9361a01d7950f2744980768dd869779b74bf3ffbde8b",
+          "normalization": {
+            "sourceFeatures": 628,
+            "invalidGeometryFeatures": 0,
+            "duplicateFeaturesRemoved": 7,
+            "datelineSplitFeatures": 1
+          },
+          "sourceArchive": "https://repo.gplates.org/webdav/pmm/cao2024/StaticPolygons.zip",
+          "sourcePayloadFile": "static_polygons.gpmlz",
+          "sourcePayloadSha256": "9b30d231157f99f9a7942d073efcb85649b0a6e10e49332637df2386f1b1350f",
+          "technicalLayer": "Rigid-shape plate partition reconstructed by plate ID; suitable for plate assignment and technical masking, not a substitute for dynamically resolved topological plate polygons."
         }
       }
     },
@@ -212,6 +966,181 @@
           "geometryFeatures": 106,
           "geometryBytes": 45165,
           "geometrySha256": "ff0efe9329370e3820d42e192eed456753a20894b2c6afc23ae49600d614d84a"
+        },
+        "continentalPolygons": {
+          "sourceUrl": "https://gws.gplates.org/reconstruct/reconstruct_files",
+          "sourceBytes": 1487083,
+          "sourceSha256": "da31623c6ab1454d0a4efa72e03217fd469d136fdb6794d130001f8bb4293376",
+          "geometryFile": "data/paleogeography/carboniferous-continents.json",
+          "geometryFeatures": 616,
+          "geometryBytes": 1526745,
+          "geometrySha256": "66af4ebcbfbd756f3c5045714f730ca7365ba82f9d56b6bf17bbaac2d6ffcfa3",
+          "normalization": {
+            "sourceFeatures": 617,
+            "invalidGeometryFeatures": 0,
+            "duplicateFeaturesRemoved": 1,
+            "datelineSplitFeatures": 1
+          },
+          "sourceArchive": "https://repo.gplates.org/webdav/pmm/cao2024/ContinentalPolygons.zip",
+          "sourcePayloadFile": "shapes_continents.gpmlz",
+          "sourcePayloadSha256": "6e30de73967f81a403f46370295dec5c0d7ed3ffd80c73d47df926461d949616",
+          "responseFormat": "ESRI Shapefile ZIP decoded by scripts/shapefile-reader.mjs",
+          "request": {
+            "time": 328.88,
+            "model": "CAO2024",
+            "assignPlateId": 0
+          },
+          "inclusionPolicy": "Include every reconstructed polygon from the official ContinentalPolygons layer while preserving its source GPGIM feature type, name, plate ID and feature ID.",
+          "sourceFeatureTypeCounts": {
+            "gpml:ClosedContinentalBoundary": {
+              "source": 433,
+              "included": 433,
+              "excludedByPolicy": 0,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:Coastline": {
+              "source": 4,
+              "included": 4,
+              "excludedByPolicy": 0,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:ContinentalFragment": {
+              "source": 5,
+              "included": 5,
+              "excludedByPolicy": 0,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:Craton": {
+              "source": 5,
+              "included": 5,
+              "excludedByPolicy": 0,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:InferredPaleoBoundary": {
+              "source": 2,
+              "included": 2,
+              "excludedByPolicy": 0,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:PassiveContinentalBoundary": {
+              "source": 2,
+              "included": 2,
+              "excludedByPolicy": 0,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:TerraneBoundary": {
+              "source": 15,
+              "included": 15,
+              "excludedByPolicy": 0,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:UnclassifiedFeature": {
+              "source": 151,
+              "included": 151,
+              "excludedByPolicy": 0,
+              "excludedInvalidGeometry": 0
+            }
+          }
+        },
+        "continentOceanBoundaries": {
+          "sourceUrl": "https://gws.gplates.org/reconstruct/reconstruct_files",
+          "sourceBytes": 2724915,
+          "sourceSha256": "bcae501754264f6fc33bdc2f7b21f837868548be0867bb1b316073034adaa92b",
+          "geometryFile": "data/paleogeography/carboniferous-cobs.json",
+          "geometryFeatures": 499,
+          "geometryBytes": 759867,
+          "geometrySha256": "25b611c83c5ea0db2f332085f0575b678e9bc95b0b74b1e7849444e18b6b8a52",
+          "normalization": {
+            "sourceFeatures": 579,
+            "invalidGeometryFeatures": 0,
+            "duplicateFeaturesRemoved": 80,
+            "datelineSplitFeatures": 0
+          },
+          "sourceArchive": "https://repo.gplates.org/webdav/pmm/cao2024/COBs.zip",
+          "sourcePayloadFile": "COBfile_1800_0.gpml",
+          "sourcePayloadSha256": "cfcea20c5244613e53ad4b9cdf6411d79ff535c25af335b4fa6eb9251377d4bd",
+          "responseFormat": "ESRI Shapefile ZIP decoded by scripts/shapefile-reader.mjs",
+          "request": {
+            "time": 328.88,
+            "model": "CAO2024",
+            "assignPlateId": 0
+          },
+          "inclusionPolicy": "Include gpml:ClosedContinentalBoundary and gpml:PassiveContinentalBoundary. Also include gpml:UnclassifiedFeature only when NAME contains the independent token COB or aCOB; normalize those exceptional records to unclassified-alternative-cob. Exclude every other feature type, including gpml:InferredPaleoBoundary, and publish polygon rings only as boundary outlines.",
+          "sourceFeatureTypeCounts": {
+            "gpml:ClosedContinentalBoundary": {
+              "source": 558,
+              "included": 558,
+              "excludedByPolicy": 0,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:Coastline": {
+              "source": 24,
+              "included": 0,
+              "excludedByPolicy": 24,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:ContinentalFragment": {
+              "source": 16,
+              "included": 0,
+              "excludedByPolicy": 16,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:Craton": {
+              "source": 10,
+              "included": 0,
+              "excludedByPolicy": 10,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:InferredPaleoBoundary": {
+              "source": 15,
+              "included": 0,
+              "excludedByPolicy": 15,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:PassiveContinentalBoundary": {
+              "source": 20,
+              "included": 20,
+              "excludedByPolicy": 0,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:Suture": {
+              "source": 5,
+              "included": 0,
+              "excludedByPolicy": 5,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:TerraneBoundary": {
+              "source": 15,
+              "included": 0,
+              "excludedByPolicy": 15,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:UnclassifiedFeature": {
+              "source": 300,
+              "included": 1,
+              "excludedByPolicy": 299,
+              "excludedInvalidGeometry": 0
+            }
+          }
+        },
+        "staticPolygons": {
+          "sourceUrl": "https://gws.gplates.org/reconstruct/static_polygons/?time=328.88&model=CAO2024&anchor_plate_id=0",
+          "sourceBytes": 1411899,
+          "sourceSha256": "d4d53ed763520767c5e545537f9b2681a10734d92cb109d8dcfbfc451160b2cc",
+          "geometryFile": "data/paleogeography/carboniferous-static-polygons.json",
+          "geometryFeatures": 625,
+          "geometryBytes": 1400444,
+          "geometrySha256": "f116356094133c6c6fffeba0a3f25d18b8c12bd3aacca420a8fb6b834fab99fe",
+          "normalization": {
+            "sourceFeatures": 632,
+            "invalidGeometryFeatures": 0,
+            "duplicateFeaturesRemoved": 7,
+            "datelineSplitFeatures": 1
+          },
+          "sourceArchive": "https://repo.gplates.org/webdav/pmm/cao2024/StaticPolygons.zip",
+          "sourcePayloadFile": "static_polygons.gpmlz",
+          "sourcePayloadSha256": "9b30d231157f99f9a7942d073efcb85649b0a6e10e49332637df2386f1b1350f",
+          "technicalLayer": "Rigid-shape plate partition reconstructed by plate ID; suitable for plate assignment and technical masking, not a substitute for dynamically resolved topological plate polygons."
         }
       }
     },
@@ -247,6 +1176,181 @@
           "geometryFeatures": 70,
           "geometryBytes": 30557,
           "geometrySha256": "cb3d320e552952fc1297af491ec701933e71a9ffa57d6deb695fad47e2aa8cbc"
+        },
+        "continentalPolygons": {
+          "sourceUrl": "https://gws.gplates.org/reconstruct/reconstruct_files",
+          "sourceBytes": 1528361,
+          "sourceSha256": "c02b346bcdec6e35d8b3c587379962a0e108d0c47c10205a925c68e5a3bb5331",
+          "geometryFile": "data/paleogeography/permian-continents.json",
+          "geometryFeatures": 641,
+          "geometryBytes": 1546754,
+          "geometrySha256": "2e48359bb79fb4cb57b1e25018f25963268f67686fadd5fe828ded4017e19382",
+          "normalization": {
+            "sourceFeatures": 642,
+            "invalidGeometryFeatures": 0,
+            "duplicateFeaturesRemoved": 1,
+            "datelineSplitFeatures": 2
+          },
+          "sourceArchive": "https://repo.gplates.org/webdav/pmm/cao2024/ContinentalPolygons.zip",
+          "sourcePayloadFile": "shapes_continents.gpmlz",
+          "sourcePayloadSha256": "6e30de73967f81a403f46370295dec5c0d7ed3ffd80c73d47df926461d949616",
+          "responseFormat": "ESRI Shapefile ZIP decoded by scripts/shapefile-reader.mjs",
+          "request": {
+            "time": 275.401,
+            "model": "CAO2024",
+            "assignPlateId": 0
+          },
+          "inclusionPolicy": "Include every reconstructed polygon from the official ContinentalPolygons layer while preserving its source GPGIM feature type, name, plate ID and feature ID.",
+          "sourceFeatureTypeCounts": {
+            "gpml:ClosedContinentalBoundary": {
+              "source": 458,
+              "included": 458,
+              "excludedByPolicy": 0,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:Coastline": {
+              "source": 4,
+              "included": 4,
+              "excludedByPolicy": 0,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:ContinentalFragment": {
+              "source": 5,
+              "included": 5,
+              "excludedByPolicy": 0,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:Craton": {
+              "source": 5,
+              "included": 5,
+              "excludedByPolicy": 0,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:InferredPaleoBoundary": {
+              "source": 2,
+              "included": 2,
+              "excludedByPolicy": 0,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:PassiveContinentalBoundary": {
+              "source": 2,
+              "included": 2,
+              "excludedByPolicy": 0,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:TerraneBoundary": {
+              "source": 15,
+              "included": 15,
+              "excludedByPolicy": 0,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:UnclassifiedFeature": {
+              "source": 151,
+              "included": 151,
+              "excludedByPolicy": 0,
+              "excludedInvalidGeometry": 0
+            }
+          }
+        },
+        "continentOceanBoundaries": {
+          "sourceUrl": "https://gws.gplates.org/reconstruct/reconstruct_files",
+          "sourceBytes": 2777301,
+          "sourceSha256": "4aace64025d4d58440cbb900a3195e1b3acaa04793995e8a07652d2fcad52e50",
+          "geometryFile": "data/paleogeography/permian-cobs.json",
+          "geometryFeatures": 526,
+          "geometryBytes": 789058,
+          "geometrySha256": "d4f6799aa3e5bc6237a69d44f34e14a0e9c2be11ec279bd358c507596eabf126",
+          "normalization": {
+            "sourceFeatures": 608,
+            "invalidGeometryFeatures": 0,
+            "duplicateFeaturesRemoved": 82,
+            "datelineSplitFeatures": 1
+          },
+          "sourceArchive": "https://repo.gplates.org/webdav/pmm/cao2024/COBs.zip",
+          "sourcePayloadFile": "COBfile_1800_0.gpml",
+          "sourcePayloadSha256": "cfcea20c5244613e53ad4b9cdf6411d79ff535c25af335b4fa6eb9251377d4bd",
+          "responseFormat": "ESRI Shapefile ZIP decoded by scripts/shapefile-reader.mjs",
+          "request": {
+            "time": 275.401,
+            "model": "CAO2024",
+            "assignPlateId": 0
+          },
+          "inclusionPolicy": "Include gpml:ClosedContinentalBoundary and gpml:PassiveContinentalBoundary. Also include gpml:UnclassifiedFeature only when NAME contains the independent token COB or aCOB; normalize those exceptional records to unclassified-alternative-cob. Exclude every other feature type, including gpml:InferredPaleoBoundary, and publish polygon rings only as boundary outlines.",
+          "sourceFeatureTypeCounts": {
+            "gpml:ClosedContinentalBoundary": {
+              "source": 587,
+              "included": 587,
+              "excludedByPolicy": 0,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:Coastline": {
+              "source": 24,
+              "included": 0,
+              "excludedByPolicy": 24,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:ContinentalFragment": {
+              "source": 16,
+              "included": 0,
+              "excludedByPolicy": 16,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:Craton": {
+              "source": 10,
+              "included": 0,
+              "excludedByPolicy": 10,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:InferredPaleoBoundary": {
+              "source": 15,
+              "included": 0,
+              "excludedByPolicy": 15,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:PassiveContinentalBoundary": {
+              "source": 20,
+              "included": 20,
+              "excludedByPolicy": 0,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:Suture": {
+              "source": 5,
+              "included": 0,
+              "excludedByPolicy": 5,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:TerraneBoundary": {
+              "source": 15,
+              "included": 0,
+              "excludedByPolicy": 15,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:UnclassifiedFeature": {
+              "source": 300,
+              "included": 1,
+              "excludedByPolicy": 299,
+              "excludedInvalidGeometry": 0
+            }
+          }
+        },
+        "staticPolygons": {
+          "sourceUrl": "https://gws.gplates.org/reconstruct/static_polygons/?time=275.401&model=CAO2024&anchor_plate_id=0",
+          "sourceBytes": 1432334,
+          "sourceSha256": "dfe6a1f15498329bb9e6e0c94e0ab7c8f6f7327ac5a10c381e6485f5d135d4f8",
+          "geometryFile": "data/paleogeography/permian-static-polygons.json",
+          "geometryFeatures": 646,
+          "geometryBytes": 1415115,
+          "geometrySha256": "2beb273d404486bd5bd8c946350709604f63b097d348138d3e9e57e13845ca6c",
+          "normalization": {
+            "sourceFeatures": 653,
+            "invalidGeometryFeatures": 0,
+            "duplicateFeaturesRemoved": 7,
+            "datelineSplitFeatures": 2
+          },
+          "sourceArchive": "https://repo.gplates.org/webdav/pmm/cao2024/StaticPolygons.zip",
+          "sourcePayloadFile": "static_polygons.gpmlz",
+          "sourcePayloadSha256": "9b30d231157f99f9a7942d073efcb85649b0a6e10e49332637df2386f1b1350f",
+          "technicalLayer": "Rigid-shape plate partition reconstructed by plate ID; suitable for plate assignment and technical masking, not a substitute for dynamically resolved topological plate polygons."
         }
       }
     },
@@ -282,6 +1386,181 @@
           "geometryFeatures": 63,
           "geometryBytes": 31807,
           "geometrySha256": "dc431df1432c32ad522b5e2fa9162f6347186eb66f360f1c0c766615e9a6202f"
+        },
+        "continentalPolygons": {
+          "sourceUrl": "https://gws.gplates.org/reconstruct/reconstruct_files",
+          "sourceBytes": 1587973,
+          "sourceSha256": "cdce061bb99ddfe129cc6a76ce58e8d532ad5b25a71e192b2b52af3bf0c7a0e8",
+          "geometryFile": "data/paleogeography/triassic-continents.json",
+          "geometryFeatures": 683,
+          "geometryBytes": 1592302,
+          "geometrySha256": "46698f3cfb5813a1de87b54ed73529138d59554d97ed5a4a3a1fc527f8bcef14",
+          "normalization": {
+            "sourceFeatures": 684,
+            "invalidGeometryFeatures": 0,
+            "duplicateFeaturesRemoved": 1,
+            "datelineSplitFeatures": 1
+          },
+          "sourceArchive": "https://repo.gplates.org/webdav/pmm/cao2024/ContinentalPolygons.zip",
+          "sourcePayloadFile": "shapes_continents.gpmlz",
+          "sourcePayloadSha256": "6e30de73967f81a403f46370295dec5c0d7ed3ffd80c73d47df926461d949616",
+          "responseFormat": "ESRI Shapefile ZIP decoded by scripts/shapefile-reader.mjs",
+          "request": {
+            "time": 226.651,
+            "model": "CAO2024",
+            "assignPlateId": 0
+          },
+          "inclusionPolicy": "Include every reconstructed polygon from the official ContinentalPolygons layer while preserving its source GPGIM feature type, name, plate ID and feature ID.",
+          "sourceFeatureTypeCounts": {
+            "gpml:ClosedContinentalBoundary": {
+              "source": 500,
+              "included": 500,
+              "excludedByPolicy": 0,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:Coastline": {
+              "source": 4,
+              "included": 4,
+              "excludedByPolicy": 0,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:ContinentalFragment": {
+              "source": 5,
+              "included": 5,
+              "excludedByPolicy": 0,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:Craton": {
+              "source": 5,
+              "included": 5,
+              "excludedByPolicy": 0,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:InferredPaleoBoundary": {
+              "source": 2,
+              "included": 2,
+              "excludedByPolicy": 0,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:PassiveContinentalBoundary": {
+              "source": 2,
+              "included": 2,
+              "excludedByPolicy": 0,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:TerraneBoundary": {
+              "source": 15,
+              "included": 15,
+              "excludedByPolicy": 0,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:UnclassifiedFeature": {
+              "source": 151,
+              "included": 151,
+              "excludedByPolicy": 0,
+              "excludedInvalidGeometry": 0
+            }
+          }
+        },
+        "continentOceanBoundaries": {
+          "sourceUrl": "https://gws.gplates.org/reconstruct/reconstruct_files",
+          "sourceBytes": 2852467,
+          "sourceSha256": "eea9fb6946a8e4ff14969c660291d94fea0cb6f5a662b1165f77ffb9ee57fb75",
+          "geometryFile": "data/paleogeography/triassic-cobs.json",
+          "geometryFeatures": 571,
+          "geometryBytes": 843878,
+          "geometrySha256": "f7965f6a44f0fc5ecb77b8b12c636f344be530f20c04c968c42d2c92148224eb",
+          "normalization": {
+            "sourceFeatures": 655,
+            "invalidGeometryFeatures": 0,
+            "duplicateFeaturesRemoved": 84,
+            "datelineSplitFeatures": 1
+          },
+          "sourceArchive": "https://repo.gplates.org/webdav/pmm/cao2024/COBs.zip",
+          "sourcePayloadFile": "COBfile_1800_0.gpml",
+          "sourcePayloadSha256": "cfcea20c5244613e53ad4b9cdf6411d79ff535c25af335b4fa6eb9251377d4bd",
+          "responseFormat": "ESRI Shapefile ZIP decoded by scripts/shapefile-reader.mjs",
+          "request": {
+            "time": 226.651,
+            "model": "CAO2024",
+            "assignPlateId": 0
+          },
+          "inclusionPolicy": "Include gpml:ClosedContinentalBoundary and gpml:PassiveContinentalBoundary. Also include gpml:UnclassifiedFeature only when NAME contains the independent token COB or aCOB; normalize those exceptional records to unclassified-alternative-cob. Exclude every other feature type, including gpml:InferredPaleoBoundary, and publish polygon rings only as boundary outlines.",
+          "sourceFeatureTypeCounts": {
+            "gpml:ClosedContinentalBoundary": {
+              "source": 634,
+              "included": 634,
+              "excludedByPolicy": 0,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:Coastline": {
+              "source": 24,
+              "included": 0,
+              "excludedByPolicy": 24,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:ContinentalFragment": {
+              "source": 16,
+              "included": 0,
+              "excludedByPolicy": 16,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:Craton": {
+              "source": 10,
+              "included": 0,
+              "excludedByPolicy": 10,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:InferredPaleoBoundary": {
+              "source": 15,
+              "included": 0,
+              "excludedByPolicy": 15,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:PassiveContinentalBoundary": {
+              "source": 20,
+              "included": 20,
+              "excludedByPolicy": 0,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:Suture": {
+              "source": 5,
+              "included": 0,
+              "excludedByPolicy": 5,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:TerraneBoundary": {
+              "source": 15,
+              "included": 0,
+              "excludedByPolicy": 15,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:UnclassifiedFeature": {
+              "source": 300,
+              "included": 1,
+              "excludedByPolicy": 299,
+              "excludedInvalidGeometry": 0
+            }
+          }
+        },
+        "staticPolygons": {
+          "sourceUrl": "https://gws.gplates.org/reconstruct/static_polygons/?time=226.651&model=CAO2024&anchor_plate_id=0",
+          "sourceBytes": 1465552,
+          "sourceSha256": "de794b31a608f468a52643938e26624815014a68f59bf8ea71b8f283c64bf1be",
+          "geometryFile": "data/paleogeography/triassic-static-polygons.json",
+          "geometryFeatures": 687,
+          "geometryBytes": 1453810,
+          "geometrySha256": "a798389e39e4cbeac8c0de8d81be2e25ad96227b1c925145c4c615e90fa6fe28",
+          "normalization": {
+            "sourceFeatures": 694,
+            "invalidGeometryFeatures": 0,
+            "duplicateFeaturesRemoved": 7,
+            "datelineSplitFeatures": 1
+          },
+          "sourceArchive": "https://repo.gplates.org/webdav/pmm/cao2024/StaticPolygons.zip",
+          "sourcePayloadFile": "static_polygons.gpmlz",
+          "sourcePayloadSha256": "9b30d231157f99f9a7942d073efcb85649b0a6e10e49332637df2386f1b1350f",
+          "technicalLayer": "Rigid-shape plate partition reconstructed by plate ID; suitable for plate assignment and technical masking, not a substitute for dynamically resolved topological plate polygons."
         }
       }
     },
@@ -317,6 +1596,181 @@
           "geometryFeatures": 101,
           "geometryBytes": 45609,
           "geometrySha256": "eec2e59838f0b95540bba2e91f4b3bf4e08039e69a3451eeede34bb0076cb489"
+        },
+        "continentalPolygons": {
+          "sourceUrl": "https://gws.gplates.org/reconstruct/reconstruct_files",
+          "sourceBytes": 1598101,
+          "sourceSha256": "f818228a33615ab5fcc6741fb7cfcf86508c0fa08f1316808e5d0a451fbc3787",
+          "geometryFile": "data/paleogeography/jurassic-continents.json",
+          "geometryFeatures": 691,
+          "geometryBytes": 1595725,
+          "geometrySha256": "5429129424caaa12f8f766147fcdb4eea1bfd73a9ca1ae8ca4eff7830ed37e68",
+          "normalization": {
+            "sourceFeatures": 692,
+            "invalidGeometryFeatures": 0,
+            "duplicateFeaturesRemoved": 1,
+            "datelineSplitFeatures": 1
+          },
+          "sourceArchive": "https://repo.gplates.org/webdav/pmm/cao2024/ContinentalPolygons.zip",
+          "sourcePayloadFile": "shapes_continents.gpmlz",
+          "sourcePayloadSha256": "6e30de73967f81a403f46370295dec5c0d7ed3ffd80c73d47df926461d949616",
+          "responseFormat": "ESRI Shapefile ZIP decoded by scripts/shapefile-reader.mjs",
+          "request": {
+            "time": 172.25,
+            "model": "CAO2024",
+            "assignPlateId": 0
+          },
+          "inclusionPolicy": "Include every reconstructed polygon from the official ContinentalPolygons layer while preserving its source GPGIM feature type, name, plate ID and feature ID.",
+          "sourceFeatureTypeCounts": {
+            "gpml:ClosedContinentalBoundary": {
+              "source": 508,
+              "included": 508,
+              "excludedByPolicy": 0,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:Coastline": {
+              "source": 4,
+              "included": 4,
+              "excludedByPolicy": 0,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:ContinentalFragment": {
+              "source": 5,
+              "included": 5,
+              "excludedByPolicy": 0,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:Craton": {
+              "source": 5,
+              "included": 5,
+              "excludedByPolicy": 0,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:InferredPaleoBoundary": {
+              "source": 2,
+              "included": 2,
+              "excludedByPolicy": 0,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:PassiveContinentalBoundary": {
+              "source": 2,
+              "included": 2,
+              "excludedByPolicy": 0,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:TerraneBoundary": {
+              "source": 15,
+              "included": 15,
+              "excludedByPolicy": 0,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:UnclassifiedFeature": {
+              "source": 151,
+              "included": 151,
+              "excludedByPolicy": 0,
+              "excludedInvalidGeometry": 0
+            }
+          }
+        },
+        "continentOceanBoundaries": {
+          "sourceUrl": "https://gws.gplates.org/reconstruct/reconstruct_files",
+          "sourceBytes": 2864851,
+          "sourceSha256": "35d645d24efddf58f254558cb8da00b5c31ad851bf271940cc7af60808553f40",
+          "geometryFile": "data/paleogeography/jurassic-cobs.json",
+          "geometryFeatures": 579,
+          "geometryBytes": 853308,
+          "geometrySha256": "f481a9c09ae1d9e684756830513970a6dc1e167310f048dbc78806c3805c1bfe",
+          "normalization": {
+            "sourceFeatures": 663,
+            "invalidGeometryFeatures": 0,
+            "duplicateFeaturesRemoved": 84,
+            "datelineSplitFeatures": 0
+          },
+          "sourceArchive": "https://repo.gplates.org/webdav/pmm/cao2024/COBs.zip",
+          "sourcePayloadFile": "COBfile_1800_0.gpml",
+          "sourcePayloadSha256": "cfcea20c5244613e53ad4b9cdf6411d79ff535c25af335b4fa6eb9251377d4bd",
+          "responseFormat": "ESRI Shapefile ZIP decoded by scripts/shapefile-reader.mjs",
+          "request": {
+            "time": 172.25,
+            "model": "CAO2024",
+            "assignPlateId": 0
+          },
+          "inclusionPolicy": "Include gpml:ClosedContinentalBoundary and gpml:PassiveContinentalBoundary. Also include gpml:UnclassifiedFeature only when NAME contains the independent token COB or aCOB; normalize those exceptional records to unclassified-alternative-cob. Exclude every other feature type, including gpml:InferredPaleoBoundary, and publish polygon rings only as boundary outlines.",
+          "sourceFeatureTypeCounts": {
+            "gpml:ClosedContinentalBoundary": {
+              "source": 642,
+              "included": 642,
+              "excludedByPolicy": 0,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:Coastline": {
+              "source": 24,
+              "included": 0,
+              "excludedByPolicy": 24,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:ContinentalFragment": {
+              "source": 16,
+              "included": 0,
+              "excludedByPolicy": 16,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:Craton": {
+              "source": 10,
+              "included": 0,
+              "excludedByPolicy": 10,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:InferredPaleoBoundary": {
+              "source": 15,
+              "included": 0,
+              "excludedByPolicy": 15,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:PassiveContinentalBoundary": {
+              "source": 20,
+              "included": 20,
+              "excludedByPolicy": 0,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:Suture": {
+              "source": 5,
+              "included": 0,
+              "excludedByPolicy": 5,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:TerraneBoundary": {
+              "source": 15,
+              "included": 0,
+              "excludedByPolicy": 15,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:UnclassifiedFeature": {
+              "source": 300,
+              "included": 1,
+              "excludedByPolicy": 299,
+              "excludedInvalidGeometry": 0
+            }
+          }
+        },
+        "staticPolygons": {
+          "sourceUrl": "https://gws.gplates.org/reconstruct/static_polygons/?time=172.25&model=CAO2024&anchor_plate_id=0",
+          "sourceBytes": 1473719,
+          "sourceSha256": "2b6f18b14be057decc832278a48eec284c8e06fbf6f66aee73b7f11826fbdaff",
+          "geometryFile": "data/paleogeography/jurassic-static-polygons.json",
+          "geometryFeatures": 710,
+          "geometryBytes": 1464622,
+          "geometrySha256": "884b79861ce44ef999f0fc0b4b8290151ce974dedeb36482e4b3168f39d7370f",
+          "normalization": {
+            "sourceFeatures": 717,
+            "invalidGeometryFeatures": 0,
+            "duplicateFeaturesRemoved": 7,
+            "datelineSplitFeatures": 1
+          },
+          "sourceArchive": "https://repo.gplates.org/webdav/pmm/cao2024/StaticPolygons.zip",
+          "sourcePayloadFile": "static_polygons.gpmlz",
+          "sourcePayloadSha256": "9b30d231157f99f9a7942d073efcb85649b0a6e10e49332637df2386f1b1350f",
+          "technicalLayer": "Rigid-shape plate partition reconstructed by plate ID; suitable for plate assignment and technical masking, not a substitute for dynamically resolved topological plate polygons."
         }
       }
     },
@@ -352,6 +1806,193 @@
           "geometryFeatures": 148,
           "geometryBytes": 70436,
           "geometrySha256": "40a9c33dbff11286086969e0ace44bffc496ab990cf6b9bec01f2d98577f601b"
+        },
+        "continentalPolygons": {
+          "sourceUrl": "https://gws.gplates.org/reconstruct/reconstruct_files",
+          "sourceBytes": 1686219,
+          "sourceSha256": "ac9349fa97b44630bf4e77c747ef10f61edf7b96cece576ba01637fbb96637e3",
+          "geometryFile": "data/paleogeography/cretaceous-continents.json",
+          "geometryFeatures": 754,
+          "geometryBytes": 1694222,
+          "geometrySha256": "e6f346f50f590a84df5d012b89d863812f3004a1202cf7a78302b181229301ff",
+          "normalization": {
+            "sourceFeatures": 755,
+            "invalidGeometryFeatures": 0,
+            "duplicateFeaturesRemoved": 1,
+            "datelineSplitFeatures": 2
+          },
+          "sourceArchive": "https://repo.gplates.org/webdav/pmm/cao2024/ContinentalPolygons.zip",
+          "sourcePayloadFile": "shapes_continents.gpmlz",
+          "sourcePayloadSha256": "6e30de73967f81a403f46370295dec5c0d7ed3ffd80c73d47df926461d949616",
+          "responseFormat": "ESRI Shapefile ZIP decoded by scripts/shapefile-reader.mjs",
+          "request": {
+            "time": 104.55,
+            "model": "CAO2024",
+            "assignPlateId": 0
+          },
+          "inclusionPolicy": "Include every reconstructed polygon from the official ContinentalPolygons layer while preserving its source GPGIM feature type, name, plate ID and feature ID.",
+          "sourceFeatureTypeCounts": {
+            "gpml:ClosedContinentalBoundary": {
+              "source": 570,
+              "included": 570,
+              "excludedByPolicy": 0,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:Coastline": {
+              "source": 4,
+              "included": 4,
+              "excludedByPolicy": 0,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:ContinentalFragment": {
+              "source": 5,
+              "included": 5,
+              "excludedByPolicy": 0,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:Craton": {
+              "source": 5,
+              "included": 5,
+              "excludedByPolicy": 0,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:InferredPaleoBoundary": {
+              "source": 2,
+              "included": 2,
+              "excludedByPolicy": 0,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:IslandArc": {
+              "source": 1,
+              "included": 1,
+              "excludedByPolicy": 0,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:PassiveContinentalBoundary": {
+              "source": 2,
+              "included": 2,
+              "excludedByPolicy": 0,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:TerraneBoundary": {
+              "source": 15,
+              "included": 15,
+              "excludedByPolicy": 0,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:UnclassifiedFeature": {
+              "source": 151,
+              "included": 151,
+              "excludedByPolicy": 0,
+              "excludedInvalidGeometry": 0
+            }
+          }
+        },
+        "continentOceanBoundaries": {
+          "sourceUrl": "https://gws.gplates.org/reconstruct/reconstruct_files",
+          "sourceBytes": 2967605,
+          "sourceSha256": "ab0ef9a54bd0ca2c2d2f6f090a564d245b184ab5af63988c219b5f3f414bc137",
+          "geometryFile": "data/paleogeography/cretaceous-cobs.json",
+          "geometryFeatures": 641,
+          "geometryBytes": 937369,
+          "geometrySha256": "b5bc2fae20950712125ee499a62814c144a758cec1a0e9f5d50800d2ea08ae3e",
+          "normalization": {
+            "sourceFeatures": 725,
+            "invalidGeometryFeatures": 0,
+            "duplicateFeaturesRemoved": 84,
+            "datelineSplitFeatures": 1
+          },
+          "sourceArchive": "https://repo.gplates.org/webdav/pmm/cao2024/COBs.zip",
+          "sourcePayloadFile": "COBfile_1800_0.gpml",
+          "sourcePayloadSha256": "cfcea20c5244613e53ad4b9cdf6411d79ff535c25af335b4fa6eb9251377d4bd",
+          "responseFormat": "ESRI Shapefile ZIP decoded by scripts/shapefile-reader.mjs",
+          "request": {
+            "time": 104.55,
+            "model": "CAO2024",
+            "assignPlateId": 0
+          },
+          "inclusionPolicy": "Include gpml:ClosedContinentalBoundary and gpml:PassiveContinentalBoundary. Also include gpml:UnclassifiedFeature only when NAME contains the independent token COB or aCOB; normalize those exceptional records to unclassified-alternative-cob. Exclude every other feature type, including gpml:InferredPaleoBoundary, and publish polygon rings only as boundary outlines.",
+          "sourceFeatureTypeCounts": {
+            "gpml:ClosedContinentalBoundary": {
+              "source": 704,
+              "included": 704,
+              "excludedByPolicy": 0,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:Coastline": {
+              "source": 24,
+              "included": 0,
+              "excludedByPolicy": 24,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:ContinentalFragment": {
+              "source": 16,
+              "included": 0,
+              "excludedByPolicy": 16,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:Craton": {
+              "source": 10,
+              "included": 0,
+              "excludedByPolicy": 10,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:InferredPaleoBoundary": {
+              "source": 15,
+              "included": 0,
+              "excludedByPolicy": 15,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:IslandArc": {
+              "source": 1,
+              "included": 0,
+              "excludedByPolicy": 1,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:PassiveContinentalBoundary": {
+              "source": 20,
+              "included": 20,
+              "excludedByPolicy": 0,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:Suture": {
+              "source": 5,
+              "included": 0,
+              "excludedByPolicy": 5,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:TerraneBoundary": {
+              "source": 15,
+              "included": 0,
+              "excludedByPolicy": 15,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:UnclassifiedFeature": {
+              "source": 300,
+              "included": 1,
+              "excludedByPolicy": 299,
+              "excludedInvalidGeometry": 0
+            }
+          }
+        },
+        "staticPolygons": {
+          "sourceUrl": "https://gws.gplates.org/reconstruct/static_polygons/?time=104.55&model=CAO2024&anchor_plate_id=0",
+          "sourceBytes": 1780184,
+          "sourceSha256": "95b2032ceeb8aa570fd6ebdb4b583bf98aee19fa3ce64fff926ce3e042345680",
+          "geometryFile": "data/paleogeography/cretaceous-static-polygons.json",
+          "geometryFeatures": 1037,
+          "geometryBytes": 1812523,
+          "geometrySha256": "5eee7ea045f7c071069b551cef60e5e193966af1f7b465041491d223c15a57d0",
+          "normalization": {
+            "sourceFeatures": 1044,
+            "invalidGeometryFeatures": 0,
+            "duplicateFeaturesRemoved": 7,
+            "datelineSplitFeatures": 3
+          },
+          "sourceArchive": "https://repo.gplates.org/webdav/pmm/cao2024/StaticPolygons.zip",
+          "sourcePayloadFile": "static_polygons.gpmlz",
+          "sourcePayloadSha256": "9b30d231157f99f9a7942d073efcb85649b0a6e10e49332637df2386f1b1350f",
+          "technicalLayer": "Rigid-shape plate partition reconstructed by plate ID; suitable for plate assignment and technical masking, not a substitute for dynamically resolved topological plate polygons."
         }
       }
     },
@@ -387,6 +2028,193 @@
           "geometryFeatures": 170,
           "geometryBytes": 81695,
           "geometrySha256": "559c41e35ec5a7178dc1a1d8f897658a1e82b0bf9c49fe35856933d8e790b904"
+        },
+        "continentalPolygons": {
+          "sourceUrl": "https://gws.gplates.org/reconstruct/reconstruct_files",
+          "sourceBytes": 1759925,
+          "sourceSha256": "7a3fcbb9dc8e5e527d9bcf6a19cf754ffe211cdf2d56886a48ff34abcd3b2e5f",
+          "geometryFile": "data/paleogeography/paleogene-continents.json",
+          "geometryFeatures": 807,
+          "geometryBytes": 1758963,
+          "geometrySha256": "9a8cbe88921aa78aabd0286b7e2c1533aea77f75434c6c031cad4a4ef5aa68c1",
+          "normalization": {
+            "sourceFeatures": 808,
+            "invalidGeometryFeatures": 0,
+            "duplicateFeaturesRemoved": 1,
+            "datelineSplitFeatures": 2
+          },
+          "sourceArchive": "https://repo.gplates.org/webdav/pmm/cao2024/ContinentalPolygons.zip",
+          "sourcePayloadFile": "shapes_continents.gpmlz",
+          "sourcePayloadSha256": "6e30de73967f81a403f46370295dec5c0d7ed3ffd80c73d47df926461d949616",
+          "responseFormat": "ESRI Shapefile ZIP decoded by scripts/shapefile-reader.mjs",
+          "request": {
+            "time": 44.52,
+            "model": "CAO2024",
+            "assignPlateId": 0
+          },
+          "inclusionPolicy": "Include every reconstructed polygon from the official ContinentalPolygons layer while preserving its source GPGIM feature type, name, plate ID and feature ID.",
+          "sourceFeatureTypeCounts": {
+            "gpml:ClosedContinentalBoundary": {
+              "source": 616,
+              "included": 616,
+              "excludedByPolicy": 0,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:Coastline": {
+              "source": 4,
+              "included": 4,
+              "excludedByPolicy": 0,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:ContinentalFragment": {
+              "source": 5,
+              "included": 5,
+              "excludedByPolicy": 0,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:Craton": {
+              "source": 5,
+              "included": 5,
+              "excludedByPolicy": 0,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:InferredPaleoBoundary": {
+              "source": 2,
+              "included": 2,
+              "excludedByPolicy": 0,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:IslandArc": {
+              "source": 6,
+              "included": 6,
+              "excludedByPolicy": 0,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:PassiveContinentalBoundary": {
+              "source": 2,
+              "included": 2,
+              "excludedByPolicy": 0,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:TerraneBoundary": {
+              "source": 15,
+              "included": 15,
+              "excludedByPolicy": 0,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:UnclassifiedFeature": {
+              "source": 153,
+              "included": 153,
+              "excludedByPolicy": 0,
+              "excludedInvalidGeometry": 0
+            }
+          }
+        },
+        "continentOceanBoundaries": {
+          "sourceUrl": "https://gws.gplates.org/reconstruct/reconstruct_files",
+          "sourceBytes": 3052905,
+          "sourceSha256": "ffc21504fa1fb5e5b8fbf7901a1e0005564df016f204230344f39c8fca793616",
+          "geometryFile": "data/paleogeography/paleogene-cobs.json",
+          "geometryFeatures": 687,
+          "geometryBytes": 985996,
+          "geometrySha256": "e9a8bf17bdf01df75b8e500b2cdca21692612514ebd5b1f7b9cc4e6c7fa6b823",
+          "normalization": {
+            "sourceFeatures": 771,
+            "invalidGeometryFeatures": 0,
+            "duplicateFeaturesRemoved": 84,
+            "datelineSplitFeatures": 1
+          },
+          "sourceArchive": "https://repo.gplates.org/webdav/pmm/cao2024/COBs.zip",
+          "sourcePayloadFile": "COBfile_1800_0.gpml",
+          "sourcePayloadSha256": "cfcea20c5244613e53ad4b9cdf6411d79ff535c25af335b4fa6eb9251377d4bd",
+          "responseFormat": "ESRI Shapefile ZIP decoded by scripts/shapefile-reader.mjs",
+          "request": {
+            "time": 44.52,
+            "model": "CAO2024",
+            "assignPlateId": 0
+          },
+          "inclusionPolicy": "Include gpml:ClosedContinentalBoundary and gpml:PassiveContinentalBoundary. Also include gpml:UnclassifiedFeature only when NAME contains the independent token COB or aCOB; normalize those exceptional records to unclassified-alternative-cob. Exclude every other feature type, including gpml:InferredPaleoBoundary, and publish polygon rings only as boundary outlines.",
+          "sourceFeatureTypeCounts": {
+            "gpml:ClosedContinentalBoundary": {
+              "source": 750,
+              "included": 750,
+              "excludedByPolicy": 0,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:Coastline": {
+              "source": 24,
+              "included": 0,
+              "excludedByPolicy": 24,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:ContinentalFragment": {
+              "source": 16,
+              "included": 0,
+              "excludedByPolicy": 16,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:Craton": {
+              "source": 10,
+              "included": 0,
+              "excludedByPolicy": 10,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:InferredPaleoBoundary": {
+              "source": 15,
+              "included": 0,
+              "excludedByPolicy": 15,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:IslandArc": {
+              "source": 6,
+              "included": 0,
+              "excludedByPolicy": 6,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:PassiveContinentalBoundary": {
+              "source": 20,
+              "included": 20,
+              "excludedByPolicy": 0,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:Suture": {
+              "source": 5,
+              "included": 0,
+              "excludedByPolicy": 5,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:TerraneBoundary": {
+              "source": 15,
+              "included": 0,
+              "excludedByPolicy": 15,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:UnclassifiedFeature": {
+              "source": 301,
+              "included": 1,
+              "excludedByPolicy": 300,
+              "excludedInvalidGeometry": 0
+            }
+          }
+        },
+        "staticPolygons": {
+          "sourceUrl": "https://gws.gplates.org/reconstruct/static_polygons/?time=44.52&model=CAO2024&anchor_plate_id=0",
+          "sourceBytes": 2272698,
+          "sourceSha256": "7a9239074f8f667b05db44b606d96fcbb032b57ede1e6b947c8128e08a2de8ef",
+          "geometryFile": "data/paleogeography/paleogene-static-polygons.json",
+          "geometryFeatures": 1606,
+          "geometryBytes": 2369200,
+          "geometrySha256": "b47dcbd58e8f928ec8058ec1d51ac22d398ae8b5d4dd2a993ce0dab7631168d2",
+          "normalization": {
+            "sourceFeatures": 1613,
+            "invalidGeometryFeatures": 0,
+            "duplicateFeaturesRemoved": 7,
+            "datelineSplitFeatures": 2
+          },
+          "sourceArchive": "https://repo.gplates.org/webdav/pmm/cao2024/StaticPolygons.zip",
+          "sourcePayloadFile": "static_polygons.gpmlz",
+          "sourcePayloadSha256": "9b30d231157f99f9a7942d073efcb85649b0a6e10e49332637df2386f1b1350f",
+          "technicalLayer": "Rigid-shape plate partition reconstructed by plate ID; suitable for plate assignment and technical masking, not a substitute for dynamically resolved topological plate polygons."
         }
       }
     },
@@ -422,6 +2250,193 @@
           "geometryFeatures": 186,
           "geometryBytes": 90388,
           "geometrySha256": "b0e35110ac82c773fe3fe665e60b737dd671a93c2f0fdaa2dff3067c3ec5bddf"
+        },
+        "continentalPolygons": {
+          "sourceUrl": "https://gws.gplates.org/reconstruct/reconstruct_files",
+          "sourceBytes": 1813713,
+          "sourceSha256": "3cd5c8cc55cd727c6d7beae09faf7d95cd7022ab107a11fff512f4746b8a0449",
+          "geometryFile": "data/paleogeography/neogene-continents.json",
+          "geometryFeatures": 845,
+          "geometryBytes": 1805359,
+          "geometrySha256": "6e756b8fbdf4993c25b49a13dad7f561f0ef8c42a4ff0aa496618be5ae2c1ad3",
+          "normalization": {
+            "sourceFeatures": 846,
+            "invalidGeometryFeatures": 0,
+            "duplicateFeaturesRemoved": 1,
+            "datelineSplitFeatures": 1
+          },
+          "sourceArchive": "https://repo.gplates.org/webdav/pmm/cao2024/ContinentalPolygons.zip",
+          "sourcePayloadFile": "shapes_continents.gpmlz",
+          "sourcePayloadSha256": "6e30de73967f81a403f46370295dec5c0d7ed3ffd80c73d47df926461d949616",
+          "responseFormat": "ESRI Shapefile ZIP decoded by scripts/shapefile-reader.mjs",
+          "request": {
+            "time": 12.81,
+            "model": "CAO2024",
+            "assignPlateId": 0
+          },
+          "inclusionPolicy": "Include every reconstructed polygon from the official ContinentalPolygons layer while preserving its source GPGIM feature type, name, plate ID and feature ID.",
+          "sourceFeatureTypeCounts": {
+            "gpml:ClosedContinentalBoundary": {
+              "source": 640,
+              "included": 640,
+              "excludedByPolicy": 0,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:Coastline": {
+              "source": 4,
+              "included": 4,
+              "excludedByPolicy": 0,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:ContinentalFragment": {
+              "source": 5,
+              "included": 5,
+              "excludedByPolicy": 0,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:Craton": {
+              "source": 5,
+              "included": 5,
+              "excludedByPolicy": 0,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:InferredPaleoBoundary": {
+              "source": 2,
+              "included": 2,
+              "excludedByPolicy": 0,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:IslandArc": {
+              "source": 20,
+              "included": 20,
+              "excludedByPolicy": 0,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:PassiveContinentalBoundary": {
+              "source": 2,
+              "included": 2,
+              "excludedByPolicy": 0,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:TerraneBoundary": {
+              "source": 15,
+              "included": 15,
+              "excludedByPolicy": 0,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:UnclassifiedFeature": {
+              "source": 153,
+              "included": 153,
+              "excludedByPolicy": 0,
+              "excludedInvalidGeometry": 0
+            }
+          }
+        },
+        "continentOceanBoundaries": {
+          "sourceUrl": "https://gws.gplates.org/reconstruct/reconstruct_files",
+          "sourceBytes": 3115829,
+          "sourceSha256": "d109ecf4367db74b3c271a573bea3940cf26a4c5d7ec4fc14cc19664ff09d958",
+          "geometryFile": "data/paleogeography/neogene-cobs.json",
+          "geometryFeatures": 711,
+          "geometryBytes": 1010972,
+          "geometrySha256": "8766fb28605dc2395c0a65660572fdaf6a8beb0b2ab2234a1c26515e1e3cfdfa",
+          "normalization": {
+            "sourceFeatures": 795,
+            "invalidGeometryFeatures": 0,
+            "duplicateFeaturesRemoved": 84,
+            "datelineSplitFeatures": 0
+          },
+          "sourceArchive": "https://repo.gplates.org/webdav/pmm/cao2024/COBs.zip",
+          "sourcePayloadFile": "COBfile_1800_0.gpml",
+          "sourcePayloadSha256": "cfcea20c5244613e53ad4b9cdf6411d79ff535c25af335b4fa6eb9251377d4bd",
+          "responseFormat": "ESRI Shapefile ZIP decoded by scripts/shapefile-reader.mjs",
+          "request": {
+            "time": 12.81,
+            "model": "CAO2024",
+            "assignPlateId": 0
+          },
+          "inclusionPolicy": "Include gpml:ClosedContinentalBoundary and gpml:PassiveContinentalBoundary. Also include gpml:UnclassifiedFeature only when NAME contains the independent token COB or aCOB; normalize those exceptional records to unclassified-alternative-cob. Exclude every other feature type, including gpml:InferredPaleoBoundary, and publish polygon rings only as boundary outlines.",
+          "sourceFeatureTypeCounts": {
+            "gpml:ClosedContinentalBoundary": {
+              "source": 774,
+              "included": 774,
+              "excludedByPolicy": 0,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:Coastline": {
+              "source": 24,
+              "included": 0,
+              "excludedByPolicy": 24,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:ContinentalFragment": {
+              "source": 16,
+              "included": 0,
+              "excludedByPolicy": 16,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:Craton": {
+              "source": 10,
+              "included": 0,
+              "excludedByPolicy": 10,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:InferredPaleoBoundary": {
+              "source": 15,
+              "included": 0,
+              "excludedByPolicy": 15,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:IslandArc": {
+              "source": 20,
+              "included": 0,
+              "excludedByPolicy": 20,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:PassiveContinentalBoundary": {
+              "source": 20,
+              "included": 20,
+              "excludedByPolicy": 0,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:Suture": {
+              "source": 5,
+              "included": 0,
+              "excludedByPolicy": 5,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:TerraneBoundary": {
+              "source": 15,
+              "included": 0,
+              "excludedByPolicy": 15,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:UnclassifiedFeature": {
+              "source": 301,
+              "included": 1,
+              "excludedByPolicy": 300,
+              "excludedInvalidGeometry": 0
+            }
+          }
+        },
+        "staticPolygons": {
+          "sourceUrl": "https://gws.gplates.org/reconstruct/static_polygons/?time=12.81&model=CAO2024&anchor_plate_id=0",
+          "sourceBytes": 2733411,
+          "sourceSha256": "fb8ee4d70675ff091a7e29f6773351d46952bf9d3743c2f81e7a60447f06f66c",
+          "geometryFile": "data/paleogeography/neogene-static-polygons.json",
+          "geometryFeatures": 2179,
+          "geometryBytes": 2891820,
+          "geometrySha256": "3ee5d9eff01224425dfb8684012b343360536db82ee6e07d74a12fff6d5499da",
+          "normalization": {
+            "sourceFeatures": 2186,
+            "invalidGeometryFeatures": 0,
+            "duplicateFeaturesRemoved": 7,
+            "datelineSplitFeatures": 2
+          },
+          "sourceArchive": "https://repo.gplates.org/webdav/pmm/cao2024/StaticPolygons.zip",
+          "sourcePayloadFile": "static_polygons.gpmlz",
+          "sourcePayloadSha256": "9b30d231157f99f9a7942d073efcb85649b0a6e10e49332637df2386f1b1350f",
+          "technicalLayer": "Rigid-shape plate partition reconstructed by plate ID; suitable for plate assignment and technical masking, not a substitute for dynamically resolved topological plate polygons."
         }
       }
     },
@@ -457,6 +2472,193 @@
           "geometryFeatures": 225,
           "geometryBytes": 108329,
           "geometrySha256": "4fdb6a9593e8bef8651a693dee36adf945c9525e8b12c96e6fd88a3cf90ec8c8"
+        },
+        "continentalPolygons": {
+          "sourceUrl": "https://gws.gplates.org/reconstruct/reconstruct_files",
+          "sourceBytes": 1836259,
+          "sourceSha256": "270e158928175ca368dcd5bc268cca2d8fec3ebe540f36baeafaf1fa0b4cf412",
+          "geometryFile": "data/paleogeography/quaternary-continents.json",
+          "geometryFeatures": 862,
+          "geometryBytes": 1830915,
+          "geometrySha256": "ba64fbb94cc68736b8cd32b361c410f99ee8a72b8a428c362061e4d647a93a36",
+          "normalization": {
+            "sourceFeatures": 863,
+            "invalidGeometryFeatures": 0,
+            "duplicateFeaturesRemoved": 1,
+            "datelineSplitFeatures": 0
+          },
+          "sourceArchive": "https://repo.gplates.org/webdav/pmm/cao2024/ContinentalPolygons.zip",
+          "sourcePayloadFile": "shapes_continents.gpmlz",
+          "sourcePayloadSha256": "6e30de73967f81a403f46370295dec5c0d7ed3ffd80c73d47df926461d949616",
+          "responseFormat": "ESRI Shapefile ZIP decoded by scripts/shapefile-reader.mjs",
+          "request": {
+            "time": 1.29,
+            "model": "CAO2024",
+            "assignPlateId": 0
+          },
+          "inclusionPolicy": "Include every reconstructed polygon from the official ContinentalPolygons layer while preserving its source GPGIM feature type, name, plate ID and feature ID.",
+          "sourceFeatureTypeCounts": {
+            "gpml:ClosedContinentalBoundary": {
+              "source": 647,
+              "included": 647,
+              "excludedByPolicy": 0,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:Coastline": {
+              "source": 4,
+              "included": 4,
+              "excludedByPolicy": 0,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:ContinentalFragment": {
+              "source": 5,
+              "included": 5,
+              "excludedByPolicy": 0,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:Craton": {
+              "source": 5,
+              "included": 5,
+              "excludedByPolicy": 0,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:InferredPaleoBoundary": {
+              "source": 2,
+              "included": 2,
+              "excludedByPolicy": 0,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:IslandArc": {
+              "source": 31,
+              "included": 31,
+              "excludedByPolicy": 0,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:PassiveContinentalBoundary": {
+              "source": 1,
+              "included": 1,
+              "excludedByPolicy": 0,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:TerraneBoundary": {
+              "source": 15,
+              "included": 15,
+              "excludedByPolicy": 0,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:UnclassifiedFeature": {
+              "source": 153,
+              "included": 153,
+              "excludedByPolicy": 0,
+              "excludedInvalidGeometry": 0
+            }
+          }
+        },
+        "continentOceanBoundaries": {
+          "sourceUrl": "https://gws.gplates.org/reconstruct/reconstruct_files",
+          "sourceBytes": 3142455,
+          "sourceSha256": "6e96b62f3d26c4e8de9d3a72b5785c5f83a7e6f13793759d67be2c29fb7121ee",
+          "geometryFile": "data/paleogeography/quaternary-cobs.json",
+          "geometryFeatures": 717,
+          "geometryBytes": 1020527,
+          "geometrySha256": "4a4d72587367ce0454ec90227f8bd062a0a5707cb8122fede9f4fc4330c91e22",
+          "normalization": {
+            "sourceFeatures": 801,
+            "invalidGeometryFeatures": 0,
+            "duplicateFeaturesRemoved": 84,
+            "datelineSplitFeatures": 0
+          },
+          "sourceArchive": "https://repo.gplates.org/webdav/pmm/cao2024/COBs.zip",
+          "sourcePayloadFile": "COBfile_1800_0.gpml",
+          "sourcePayloadSha256": "cfcea20c5244613e53ad4b9cdf6411d79ff535c25af335b4fa6eb9251377d4bd",
+          "responseFormat": "ESRI Shapefile ZIP decoded by scripts/shapefile-reader.mjs",
+          "request": {
+            "time": 1.29,
+            "model": "CAO2024",
+            "assignPlateId": 0
+          },
+          "inclusionPolicy": "Include gpml:ClosedContinentalBoundary and gpml:PassiveContinentalBoundary. Also include gpml:UnclassifiedFeature only when NAME contains the independent token COB or aCOB; normalize those exceptional records to unclassified-alternative-cob. Exclude every other feature type, including gpml:InferredPaleoBoundary, and publish polygon rings only as boundary outlines.",
+          "sourceFeatureTypeCounts": {
+            "gpml:ClosedContinentalBoundary": {
+              "source": 781,
+              "included": 781,
+              "excludedByPolicy": 0,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:Coastline": {
+              "source": 24,
+              "included": 0,
+              "excludedByPolicy": 24,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:ContinentalFragment": {
+              "source": 16,
+              "included": 0,
+              "excludedByPolicy": 16,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:Craton": {
+              "source": 10,
+              "included": 0,
+              "excludedByPolicy": 10,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:InferredPaleoBoundary": {
+              "source": 15,
+              "included": 0,
+              "excludedByPolicy": 15,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:IslandArc": {
+              "source": 31,
+              "included": 0,
+              "excludedByPolicy": 31,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:PassiveContinentalBoundary": {
+              "source": 19,
+              "included": 19,
+              "excludedByPolicy": 0,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:Suture": {
+              "source": 5,
+              "included": 0,
+              "excludedByPolicy": 5,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:TerraneBoundary": {
+              "source": 15,
+              "included": 0,
+              "excludedByPolicy": 15,
+              "excludedInvalidGeometry": 0
+            },
+            "gpml:UnclassifiedFeature": {
+              "source": 301,
+              "included": 1,
+              "excludedByPolicy": 300,
+              "excludedInvalidGeometry": 0
+            }
+          }
+        },
+        "staticPolygons": {
+          "sourceUrl": "https://gws.gplates.org/reconstruct/static_polygons/?time=1.29&model=CAO2024&anchor_plate_id=0",
+          "sourceBytes": 2896987,
+          "sourceSha256": "daf0560356465735e826d1f3fdb712ac3d4408593f7c805ff137a1f9a51e012f",
+          "geometryFile": "data/paleogeography/quaternary-static-polygons.json",
+          "geometryFeatures": 2367,
+          "geometryBytes": 3088261,
+          "geometrySha256": "f8fb2860ebef27924309649bdc08d7d6727b1dae59d41cfc354d4fcec1f17bdf",
+          "normalization": {
+            "sourceFeatures": 2374,
+            "invalidGeometryFeatures": 0,
+            "duplicateFeaturesRemoved": 7,
+            "datelineSplitFeatures": 1
+          },
+          "sourceArchive": "https://repo.gplates.org/webdav/pmm/cao2024/StaticPolygons.zip",
+          "sourcePayloadFile": "static_polygons.gpmlz",
+          "sourcePayloadSha256": "9b30d231157f99f9a7942d073efcb85649b0a6e10e49332637df2386f1b1350f",
+          "technicalLayer": "Rigid-shape plate partition reconstructed by plate ID; suitable for plate assignment and technical masking, not a substitute for dynamically resolved topological plate polygons."
         }
       }
     }
