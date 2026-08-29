@@ -756,5 +756,89 @@
       }
     ],
     "evidenceStatus": "blocked-pending-step-evidence"
+  },
+  {
+    "id": "early-land-plant-evidence-trail",
+    "title": "How early land-plant evidence changes shape",
+    "titleZh": "早期陆生植物证据如何改变形态",
+    "dek": "Move from a modelled crown divergence to dispersed cryptospores, spore-bearing fragments and anatomically informative Devonian bodies without collapsing them into one origin date.",
+    "theme": "green",
+    "durationMinutes": 9,
+    "featured": true,
+    "steps": [
+      {
+        "id": "modelled-crown",
+        "title": "A modelled crown interval",
+        "text": "A fossil-calibrated relaxed clock places crown Embryophyta in a broad middle Cambrian–Early Ordovician interval, but this is a model result rather than a fossil occurrence.",
+        "age": 494,
+        "timeRange": [515, 473],
+        "taxonIds": ["plantae"],
+        "view": "evidence",
+        "eventId": "plants-on-land",
+        "annotation": "The Plantae node is navigation context; the claim concerns crown Embryophyta.",
+        "claimLinks": [
+          { "claimId": "claim:event:plants-on-land", "relation": "supports" }
+        ]
+      },
+      {
+        "id": "dispersed-cryptospores",
+        "title": "Dispersed spores on emerged land",
+        "text": "A Dapingian assemblage in Argentina contains five cryptospore genera, but dispersed propagules do not reveal a complete parent plant or a crown-bryophyte identity.",
+        "age": 472,
+        "timeRange": [473, 471],
+        "taxonIds": ["plantae"],
+        "view": "map",
+        "eventId": "dapingian-cryptospores",
+        "annotation": "The source-reported numerical ages are retained; they are not silently replaced by the current ICS Dapingian boundaries.",
+        "claimLinks": [
+          { "claimId": "claim:event:dapingian-cryptospores", "relation": "supports" }
+        ]
+      },
+      {
+        "id": "spore-bearing-fragments",
+        "title": "Spores linked to plant fragments",
+        "text": "Late Ordovician Oman fragments preserve dense spore masses and probable sporangial covering, strengthening the land-plant interpretation while leaving liverwort crown affinity tentative.",
+        "age": 451,
+        "timeRange": [458.2, 445.2],
+        "taxonIds": ["plantae"],
+        "view": "evidence",
+        "eventId": "ordovician-sporangia",
+        "annotation": "The broad window translates a legacy Caradoc assignment for display; it is not a point date.",
+        "claimLinks": [
+          { "claimId": "claim:event:ordovician-sporangia:caradoc-record", "relation": "supports" },
+          { "claimId": "claim:event:ordovician-sporangia:spore-masses", "relation": "supports" }
+        ]
+      },
+      {
+        "id": "asteroxylon-axes",
+        "title": "A three-axis rooting system",
+        "text": "Three-dimensional fossil reconstruction shows how Asteroxylon combined leafy shoots, root-bearing axes and rooting axes through an extinct developmental pathway.",
+        "age": 407,
+        "timeRange": [407, 407],
+        "taxonIds": ["lycophyta"],
+        "view": "tree",
+        "eventId": "asteroxylon-rooting-system",
+        "annotation": "A species-level exemplar cannot supply morphology for every lycophyte lineage.",
+        "claimLinks": [
+          { "claimId": "claim:event:asteroxylon-rooting-system", "relation": "supports" }
+        ]
+      },
+      {
+        "id": "metzgeriothallus-bodies",
+        "title": "A liverwort body-fossil record",
+        "text": "Givetian Metzgeriothallus preserves thalloid gametophytes and an associated sporophyte capsule, adding body-plan information without turning one occurrence into a phylum origin date.",
+        "age": 385,
+        "timeRange": [387.95, 382.31],
+        "taxonIds": ["marchantiophyta"],
+        "view": "evidence",
+        "eventId": "metzgeriothallus-record",
+        "annotation": "Occurrence, morphology and crown divergence remain separate evidence objects.",
+        "claimLinks": [
+          { "claimId": "claim:event:metzgeriothallus:givetian-record", "relation": "supports" },
+          { "claimId": "claim:event:metzgeriothallus:body-plan", "relation": "supports" }
+        ]
+      }
+    ],
+    "evidenceStatus": "available-with-limitations"
   }
 ]
