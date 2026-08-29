@@ -337,20 +337,36 @@ export async function searchCatalogue(query: string, limit = 12): Promise<{
   return { manifest, records, totalMatches: matches.length, resolutionTargets }
 }
 
+export async function loadPaleogeographySnapshot(period: string): Promise<{
+  manifest: RuntimeMapManifest
+  snapshot: RuntimeMapSnapshot
+} | null> {
+  const manifest = await loadMapManifest()
+  const snapshot = manifest.snapshots.find((entry) => entry.period === period)
+  if (!snapshot || snapshot.status !== 'available' || !snapshot.layers) return null
+  return { manifest, snapshot }
+}
+
+export async function loadPaleogeographyLayer(
+  snapshot: RuntimeMapSnapshot,
+  layerId: import('../types').PaleogeographyLayerId,
+): Promise<import('../types').PaleogeographyFeatureCollection> {
+  const file = snapshot.layers?.[layerId]
+  if (!file) throw new Error(`${snapshot.period}: paleogeography layer ${layerId} is not published`)
+  return loadRuntimeFile<import('../types').PaleogeographyFeatureCollection>(file)
+}
+
+/** Compatibility loader for callers that require the three default map layers. */
 export async function loadPaleogeography(period: string): Promise<{
   manifest: RuntimeMapManifest
   snapshot: RuntimeMapSnapshot
   layers: import('../types').PaleogeographyLayers
 } | null> {
-  const manifest = await loadMapManifest()
-  const snapshot = manifest.snapshots.find((entry) => entry.period === period)
-  if (!snapshot || snapshot.status !== 'available' || !snapshot.layers) return null
-  const [coastlines, platePolygons, plateBoundaries] = await Promise.all([
-    loadRuntimeFile<import('../types').PaleogeographyFeatureCollection>(snapshot.layers.coastlines),
-    loadRuntimeFile<import('../types').PaleogeographyFeatureCollection>(snapshot.layers.platePolygons),
-    loadRuntimeFile<import('../types').PaleogeographyFeatureCollection>(snapshot.layers.plateBoundaries),
-  ])
-  return { manifest, snapshot, layers: { coastlines, platePolygons, plateBoundaries } }
+  const result = await loadPaleogeographySnapshot(period)
+  if (!result) return null
+  const layerIds = ['coastlines', 'platePolygons', 'plateBoundaries'] as const
+  const loaded = await Promise.all(layerIds.map((layerId) => loadPaleogeographyLayer(result.snapshot, layerId)))
+  return { ...result, layers: Object.fromEntries(layerIds.map((layerId, index) => [layerId, loaded[index]])) }
 }
 
 function matchesSearch(entry: RuntimeSearchEntry, normalized: string): boolean {

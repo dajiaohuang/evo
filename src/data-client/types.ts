@@ -135,11 +135,7 @@ export interface RuntimeMapSnapshot {
   descriptionZh: string
   reconstructionAgeMa: number | null
   model: string | null
-  layers: {
-    coastlines: RuntimeFile
-    platePolygons: RuntimeFile
-    plateBoundaries: RuntimeFile
-  } | null
+  layers: Partial<Record<import('../types').PaleogeographyLayerId, RuntimeFile>> | null
 }
 
 export interface RuntimeMapManifest {
