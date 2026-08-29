@@ -1,5 +1,14 @@
 # Dataset changelog
 
+## 2026.08-static-v5-rc11 — 2026-08-30
+
+- Corrected the Magallón et al. angiosperm time-tree citation to New Phytologist DOI 10.1111/nph.13264 and limited its claim to model-dependent 135–130 Ma crown-lineage estimates.
+- Reframed the Cerling et al. record as a regionally asynchronous 8–6 Ma increase in isotope-inferred C4 biomass, without treating it as direct evidence for open grassland, phytoliths or faunal adaptation.
+- Replaced the composite land-colonization event with the narrower Morris et al. fossil-calibrated molecular-clock estimate, removing unsupported cryptospore, macrofossil, rooting and soil evidence labels.
+- Removed unsupported pollen, leaf, insect-association, soil and dental-turnover evidence labels from the affected event cards and added precise page, figure and section locators.
+- Defined explicit bilingual evidence boundaries for early land plants, gymnosperms and angiosperms, separating provider navigation nodes, living crown groups, fossil first appearances, modelled divergence and ecological dominance.
+- Renamed the early-land-plant package so bryophytes and seed-free vascular plants are visible in its public scope.
+
 ## 2026.08-static-v5-rc10 — 2026-08-30
 
 - Assigned every one of the 2,183,133 strictly accepted species in pinned Catalogue of Life release COL26.8 to exactly one release-scoped resource owner using exact ancestor usage IDs.

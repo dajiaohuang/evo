@@ -78,17 +78,20 @@
     "id": "claim:event:plants-on-land",
     "subjectId": "event:plants-on-land",
     "claimKind": "scientific",
-    "claimType": "fossil-range",
-    "statement": "Fossil and molecular evidence place early land-plant diversification before the rise of large vascular-plant ecosystems, but they do not define one globally synchronous colonization event.",
-    "confidence": "contested",
-    "confidenceRationale": "The relative ordering is well supported, but a single event window conflates lineage divergence, cryptospore evidence and later vascular-plant ecosystem expansion; the composite event therefore remains contested until split into separately sourced processes.",
-    "reviewedBy": "Codex automated evidence audit",
-    "reviewedAt": "2026-08-19",
-    "reviewedAgainstReferenceVersion": "morris-2018-land-plants @ DOI 10.1073/pnas.1719588115",
+    "claimType": "divergence-time",
+    "statement": "Bayesian relaxed-clock analyses using 37 fossil calibrations estimate crown Embryophyta to have emerged in a middle Cambrian–Early Ordovician interval, before crown tracheophytes in the Late Ordovician–Silurian; these are modelled divergence times, not direct fossil first appearances.",
+    "confidence": "medium",
+    "confidenceRationale": "The study integrates seven alternative bryophyte–tracheophyte topologies and a phylogenomic dataset, but its age estimates remain sensitive to clock models and calibration strategy, especially the crown-Embryophyta constraint. It cannot independently support cryptospore, macrofossil, rooting or soil-development observations.",
+    "reviewedBy": "Evo Atlas automated literature audit",
+    "reviewedAt": "2026-08-30",
+    "reviewedAgainstReferenceVersion": "Morris et al. 2018 DOI 10.1073/pnas.1719588115",
     "referenceLinks": [
       {
         "relation": "supports",
-        "referenceId": "morris-2018-land-plants"
+        "referenceId": "morris-2018-land-plants",
+        "pages": "E2274–E2283",
+        "figure": "Figure 2; Table 2",
+        "quoteLocator": "Results: Topology, pp. E2276–E2277; Conclusions, p. E2282"
       }
     ]
   },
@@ -187,16 +190,19 @@
     "subjectId": "event:angiosperm-expansion",
     "claimKind": "scientific",
     "claimType": "divergence-time",
-    "statement": "Time-calibrated phylogenetic evidence supports an early rise and subsequent Cretaceous expansion of flowering-plant diversity.",
+    "statement": "The study's metacalibrated clocks estimate that Magnoliidae, Monocotyledoneae and Eudicotyledoneae diversified around 135–130 Ma; these are model-dependent crown-lineage estimates, not direct fossil first appearances or evidence of ecological dominance.",
     "confidence": "medium",
-    "confidenceRationale": "Medium confidence reflects dependence on calibration choices, molecular-clock models and incomplete early fossils; the cited time-tree supports the sequence of early rise and later expansion more strongly than any single divergence date.",
-    "reviewedBy": "Codex automated evidence audit",
-    "reviewedAt": "2026-08-19",
-    "reviewedAgainstReferenceVersion": "magallon-2015-angiosperms @ DOI 10.1038/nplants.2015.6",
+    "confidenceRationale": "The published time-tree directly reports the 135–130 Ma interval, but the estimate depends on its 137 fossil calibrations and penalized-likelihood and Bayesian relaxed-clock models. It cannot independently support pollen, leaf, insect-association or ecological-dominance claims.",
+    "reviewedBy": "Evo Atlas automated literature audit",
+    "reviewedAt": "2026-08-30",
+    "reviewedAgainstReferenceVersion": "Magallón et al. 2015 DOI 10.1111/nph.13264",
     "referenceLinks": [
       {
         "relation": "supports",
-        "referenceId": "magallon-2015-angiosperms"
+        "referenceId": "magallon-2015-angiosperms",
+        "pages": "437–453",
+        "figure": "Figures 2–3; Supporting Information Table S2",
+        "quoteLocator": "Summary; Origin of major angiosperm clades, pp. 448–450"
       }
     ]
   },
@@ -283,16 +289,19 @@
     "subjectId": "event:c4-grassland-expansion",
     "claimKind": "scientific",
     "claimType": "event-mechanism",
-    "statement": "Stable-isotope evidence documents regionally asynchronous expansion of C4-dominated vegetation near the Miocene–Pliocene transition.",
+    "statement": "Fossil tooth-enamel carbon-isotope records document a widespread increase in C4-plant biomass between 8 and 6 Ma across Asia, Africa, North America and South America, with earlier increases at lower latitudes.",
     "confidence": "high",
-    "confidenceRationale": "High confidence follows from directly measured stable-isotope shifts across several regional sequences; the rationale supports asynchronous expansion and intentionally avoids treating one locality's transition age as global.",
-    "reviewedBy": "Codex automated evidence audit",
-    "reviewedAt": "2026-08-19",
+    "confidenceRationale": "High confidence follows from directly measured enamel isotope shifts across multiple continental sequences. The inference concerns C4 biomass and regional timing; it does not by itself demonstrate open grassland, phytolith abundance, dental adaptation or faunal turnover.",
+    "reviewedBy": "Evo Atlas automated literature audit",
+    "reviewedAt": "2026-08-30",
     "reviewedAgainstReferenceVersion": "cerling-1997-c4 @ DOI 10.1038/38229",
     "referenceLinks": [
       {
         "relation": "supports",
-        "referenceId": "cerling-1997-c4"
+        "referenceId": "cerling-1997-c4",
+        "pages": "153–158",
+        "figure": "Figures 1–3",
+        "quoteLocator": "Abstract, p. 153; regional enamel δ13C records in Figures 1–3"
       }
     ]
   },
@@ -598,7 +607,7 @@
     "confidenceRationale": "Perissodactyla taxonomy is an automated curator-draft decomposition tied to its visible fields and current source inventory; human claim-specific locator review remains pending.",
     "reviewedBy": "Evo Atlas automated evidence decomposition",
     "reviewedAt": "2026-08-20",
-    "reviewedAgainstReferenceVersion": "pnas-2026-perissodactyls source inventory at 2026.08-static-v5-rc10",
+    "reviewedAgainstReferenceVersion": "pnas-2026-perissodactyls source inventory at 2026.08-static-v5-rc11",
     "referenceLinks": [
       {
         "relation": "supports",
@@ -617,7 +626,7 @@
     "confidenceRationale": "Perissodactyla fossil-range is an automated curator-draft decomposition tied to its visible fields and current source inventory; human claim-specific locator review remains pending.",
     "reviewedBy": "Evo Atlas automated evidence decomposition",
     "reviewedAt": "2026-08-20",
-    "reviewedAgainstReferenceVersion": "pbdb-api-2016 source inventory at 2026.08-static-v5-rc10",
+    "reviewedAgainstReferenceVersion": "pbdb-api-2016 source inventory at 2026.08-static-v5-rc11",
     "referenceLinks": [
       {
         "relation": "supports",
@@ -636,7 +645,7 @@
     "confidenceRationale": "Perissodactyla morphology is an automated curator-draft decomposition tied to its visible fields and current source inventory; human claim-specific locator review remains pending.",
     "reviewedBy": "Evo Atlas automated evidence decomposition",
     "reviewedAt": "2026-08-20",
-    "reviewedAgainstReferenceVersion": "amnh-perissodactyl-evolution source inventory at 2026.08-static-v5-rc10",
+    "reviewedAgainstReferenceVersion": "amnh-perissodactyl-evolution source inventory at 2026.08-static-v5-rc11",
     "referenceLinks": [
       {
         "relation": "supports",
@@ -655,7 +664,7 @@
     "confidenceRationale": "Perissodactyla ecology is an automated curator-draft decomposition tied to its visible fields and current source inventory; human claim-specific locator review remains pending.",
     "reviewedBy": "Evo Atlas automated evidence decomposition",
     "reviewedAt": "2026-08-20",
-    "reviewedAgainstReferenceVersion": "amnh-perissodactyl-evolution source inventory at 2026.08-static-v5-rc10",
+    "reviewedAgainstReferenceVersion": "amnh-perissodactyl-evolution source inventory at 2026.08-static-v5-rc11",
     "referenceLinks": [
       {
         "relation": "supports",
@@ -674,7 +683,7 @@
     "confidenceRationale": "Brontotheriidae taxonomy is an automated curator-draft decomposition tied to its visible fields and current source inventory; human claim-specific locator review remains pending.",
     "reviewedBy": "Evo Atlas automated evidence decomposition",
     "reviewedAt": "2026-08-20",
-    "reviewedAgainstReferenceVersion": "amnh-brontotheres source inventory at 2026.08-static-v5-rc10",
+    "reviewedAgainstReferenceVersion": "amnh-brontotheres source inventory at 2026.08-static-v5-rc11",
     "referenceLinks": [
       {
         "relation": "supports",
@@ -693,7 +702,7 @@
     "confidenceRationale": "Brontotheriidae fossil-range is an automated curator-draft decomposition tied to its visible fields and current source inventory; human claim-specific locator review remains pending.",
     "reviewedBy": "Evo Atlas automated evidence decomposition",
     "reviewedAt": "2026-08-20",
-    "reviewedAgainstReferenceVersion": "pbdb-api-2016 source inventory at 2026.08-static-v5-rc10",
+    "reviewedAgainstReferenceVersion": "pbdb-api-2016 source inventory at 2026.08-static-v5-rc11",
     "referenceLinks": [
       {
         "relation": "supports",
@@ -712,7 +721,7 @@
     "confidenceRationale": "Brontotheriidae ecology is an automated curator-draft decomposition tied to its visible fields and current source inventory; human claim-specific locator review remains pending.",
     "reviewedBy": "Evo Atlas automated evidence decomposition",
     "reviewedAt": "2026-08-20",
-    "reviewedAgainstReferenceVersion": "amnh-brontotheres source inventory at 2026.08-static-v5-rc10",
+    "reviewedAgainstReferenceVersion": "amnh-brontotheres source inventory at 2026.08-static-v5-rc11",
     "referenceLinks": [
       {
         "relation": "supports",
@@ -731,7 +740,7 @@
     "confidenceRationale": "Brontotheriidae biogeography is an automated curator-draft decomposition tied to its visible fields and current source inventory; human claim-specific locator review remains pending.",
     "reviewedBy": "Evo Atlas automated evidence decomposition",
     "reviewedAt": "2026-08-20",
-    "reviewedAgainstReferenceVersion": "amnh-brontotheres source inventory at 2026.08-static-v5-rc10",
+    "reviewedAgainstReferenceVersion": "amnh-brontotheres source inventory at 2026.08-static-v5-rc11",
     "referenceLinks": [
       {
         "relation": "supports",
@@ -750,7 +759,7 @@
     "confidenceRationale": "Palaeotherium taxonomy is an automated curator-draft decomposition tied to its visible fields and current source inventory; human claim-specific locator review remains pending.",
     "reviewedBy": "Evo Atlas automated evidence decomposition",
     "reviewedAt": "2026-08-20",
-    "reviewedAgainstReferenceVersion": "hooker-2004-grande-coupure source inventory at 2026.08-static-v5-rc10",
+    "reviewedAgainstReferenceVersion": "hooker-2004-grande-coupure source inventory at 2026.08-static-v5-rc11",
     "referenceLinks": [
       {
         "relation": "supports",
@@ -769,7 +778,7 @@
     "confidenceRationale": "Palaeotherium morphology is an automated curator-draft decomposition tied to its visible fields and current source inventory; human claim-specific locator review remains pending.",
     "reviewedBy": "Evo Atlas automated evidence decomposition",
     "reviewedAt": "2026-08-20",
-    "reviewedAgainstReferenceVersion": "amnh-perissodactyl-evolution source inventory at 2026.08-static-v5-rc10",
+    "reviewedAgainstReferenceVersion": "amnh-perissodactyl-evolution source inventory at 2026.08-static-v5-rc11",
     "referenceLinks": [
       {
         "relation": "supports",
@@ -788,7 +797,7 @@
     "confidenceRationale": "Palaeotherium ecology is an automated curator-draft decomposition tied to its visible fields and current source inventory; human claim-specific locator review remains pending.",
     "reviewedBy": "Evo Atlas automated evidence decomposition",
     "reviewedAt": "2026-08-20",
-    "reviewedAgainstReferenceVersion": "amnh-perissodactyl-evolution source inventory at 2026.08-static-v5-rc10",
+    "reviewedAgainstReferenceVersion": "amnh-perissodactyl-evolution source inventory at 2026.08-static-v5-rc11",
     "referenceLinks": [
       {
         "relation": "supports",
@@ -807,7 +816,7 @@
     "confidenceRationale": "Palaeotherium biogeography is an automated curator-draft decomposition tied to its visible fields and current source inventory; human claim-specific locator review remains pending.",
     "reviewedBy": "Evo Atlas automated evidence decomposition",
     "reviewedAt": "2026-08-20",
-    "reviewedAgainstReferenceVersion": "amnh-perissodactyl-evolution source inventory at 2026.08-static-v5-rc10",
+    "reviewedAgainstReferenceVersion": "amnh-perissodactyl-evolution source inventory at 2026.08-static-v5-rc11",
     "referenceLinks": [
       {
         "relation": "supports",
@@ -826,7 +835,7 @@
     "confidenceRationale": "Metamynodon taxonomy is an automated curator-draft decomposition tied to its visible fields and current source inventory; human claim-specific locator review remains pending.",
     "reviewedBy": "Evo Atlas automated evidence decomposition",
     "reviewedAt": "2026-08-20",
-    "reviewedAgainstReferenceVersion": "amnh-amynodonts source inventory at 2026.08-static-v5-rc10",
+    "reviewedAgainstReferenceVersion": "amnh-amynodonts source inventory at 2026.08-static-v5-rc11",
     "referenceLinks": [
       {
         "relation": "supports",
@@ -845,7 +854,7 @@
     "confidenceRationale": "Metamynodon fossil-range is an automated curator-draft decomposition tied to its visible fields and current source inventory; human claim-specific locator review remains pending.",
     "reviewedBy": "Evo Atlas automated evidence decomposition",
     "reviewedAt": "2026-08-20",
-    "reviewedAgainstReferenceVersion": "pbdb-api-2016 source inventory at 2026.08-static-v5-rc10",
+    "reviewedAgainstReferenceVersion": "pbdb-api-2016 source inventory at 2026.08-static-v5-rc11",
     "referenceLinks": [
       {
         "relation": "supports",
@@ -864,7 +873,7 @@
     "confidenceRationale": "Metamynodon morphology is an automated curator-draft decomposition tied to its visible fields and current source inventory; human claim-specific locator review remains pending.",
     "reviewedBy": "Evo Atlas automated evidence decomposition",
     "reviewedAt": "2026-08-20",
-    "reviewedAgainstReferenceVersion": "amnh-amynodonts source inventory at 2026.08-static-v5-rc10",
+    "reviewedAgainstReferenceVersion": "amnh-amynodonts source inventory at 2026.08-static-v5-rc11",
     "referenceLinks": [
       {
         "relation": "supports",
@@ -883,7 +892,7 @@
     "confidenceRationale": "Metamynodon biogeography is an automated curator-draft decomposition tied to its visible fields and current source inventory; human claim-specific locator review remains pending.",
     "reviewedBy": "Evo Atlas automated evidence decomposition",
     "reviewedAt": "2026-08-20",
-    "reviewedAgainstReferenceVersion": "amnh-amynodonts source inventory at 2026.08-static-v5-rc10",
+    "reviewedAgainstReferenceVersion": "amnh-amynodonts source inventory at 2026.08-static-v5-rc11",
     "referenceLinks": [
       {
         "relation": "supports",
@@ -902,7 +911,7 @@
     "confidenceRationale": "Paraceratherium taxonomy is an automated curator-draft decomposition tied to its visible fields and current source inventory; human claim-specific locator review remains pending.",
     "reviewedBy": "Evo Atlas automated evidence decomposition",
     "reviewedAt": "2026-08-20",
-    "reviewedAgainstReferenceVersion": "deng-2021-paraceratherium source inventory at 2026.08-static-v5-rc10",
+    "reviewedAgainstReferenceVersion": "deng-2021-paraceratherium source inventory at 2026.08-static-v5-rc11",
     "referenceLinks": [
       {
         "relation": "supports",
@@ -921,7 +930,7 @@
     "confidenceRationale": "Paraceratherium fossil-range is an automated curator-draft decomposition tied to its visible fields and current source inventory; human claim-specific locator review remains pending.",
     "reviewedBy": "Evo Atlas automated evidence decomposition",
     "reviewedAt": "2026-08-20",
-    "reviewedAgainstReferenceVersion": "pbdb-api-2016 source inventory at 2026.08-static-v5-rc10",
+    "reviewedAgainstReferenceVersion": "pbdb-api-2016 source inventory at 2026.08-static-v5-rc11",
     "referenceLinks": [
       {
         "relation": "supports",
@@ -940,7 +949,7 @@
     "confidenceRationale": "Paraceratherium morphology is an automated curator-draft decomposition tied to its visible fields and current source inventory; human claim-specific locator review remains pending.",
     "reviewedBy": "Evo Atlas automated evidence decomposition",
     "reviewedAt": "2026-08-20",
-    "reviewedAgainstReferenceVersion": "deng-2021-paraceratherium source inventory at 2026.08-static-v5-rc10",
+    "reviewedAgainstReferenceVersion": "deng-2021-paraceratherium source inventory at 2026.08-static-v5-rc11",
     "referenceLinks": [
       {
         "relation": "supports",
@@ -959,7 +968,7 @@
     "confidenceRationale": "Paraceratherium ecology is an automated curator-draft decomposition tied to its visible fields and current source inventory; human claim-specific locator review remains pending.",
     "reviewedBy": "Evo Atlas automated evidence decomposition",
     "reviewedAt": "2026-08-20",
-    "reviewedAgainstReferenceVersion": "deng-2021-paraceratherium source inventory at 2026.08-static-v5-rc10",
+    "reviewedAgainstReferenceVersion": "deng-2021-paraceratherium source inventory at 2026.08-static-v5-rc11",
     "referenceLinks": [
       {
         "relation": "supports",
@@ -978,7 +987,7 @@
     "confidenceRationale": "Paraceratherium biogeography is an automated curator-draft decomposition tied to its visible fields and current source inventory; human claim-specific locator review remains pending.",
     "reviewedBy": "Evo Atlas automated evidence decomposition",
     "reviewedAt": "2026-08-20",
-    "reviewedAgainstReferenceVersion": "deng-2021-paraceratherium source inventory at 2026.08-static-v5-rc10",
+    "reviewedAgainstReferenceVersion": "deng-2021-paraceratherium source inventory at 2026.08-static-v5-rc11",
     "referenceLinks": [
       {
         "relation": "supports",
@@ -997,7 +1006,7 @@
     "confidenceRationale": "Chalicotherium taxonomy is an automated curator-draft decomposition tied to its visible fields and current source inventory; human claim-specific locator review remains pending.",
     "reviewedBy": "Evo Atlas automated evidence decomposition",
     "reviewedAt": "2026-08-20",
-    "reviewedAgainstReferenceVersion": "amnh-perissodactyl-evolution source inventory at 2026.08-static-v5-rc10",
+    "reviewedAgainstReferenceVersion": "amnh-perissodactyl-evolution source inventory at 2026.08-static-v5-rc11",
     "referenceLinks": [
       {
         "relation": "supports",
@@ -1016,7 +1025,7 @@
     "confidenceRationale": "Chalicotherium fossil-range is an automated curator-draft decomposition tied to its visible fields and current source inventory; human claim-specific locator review remains pending.",
     "reviewedBy": "Evo Atlas automated evidence decomposition",
     "reviewedAt": "2026-08-20",
-    "reviewedAgainstReferenceVersion": "pbdb-api-2016 source inventory at 2026.08-static-v5-rc10",
+    "reviewedAgainstReferenceVersion": "pbdb-api-2016 source inventory at 2026.08-static-v5-rc11",
     "referenceLinks": [
       {
         "relation": "supports",
@@ -1035,7 +1044,7 @@
     "confidenceRationale": "Chalicotherium ecology is an automated curator-draft decomposition tied to its visible fields and current source inventory; human claim-specific locator review remains pending.",
     "reviewedBy": "Evo Atlas automated evidence decomposition",
     "reviewedAt": "2026-08-20",
-    "reviewedAgainstReferenceVersion": "amnh-perissodactyl-evolution source inventory at 2026.08-static-v5-rc10",
+    "reviewedAgainstReferenceVersion": "amnh-perissodactyl-evolution source inventory at 2026.08-static-v5-rc11",
     "referenceLinks": [
       {
         "relation": "supports",
@@ -1054,7 +1063,7 @@
     "confidenceRationale": "Chalicotherium biogeography is an automated curator-draft decomposition tied to its visible fields and current source inventory; human claim-specific locator review remains pending.",
     "reviewedBy": "Evo Atlas automated evidence decomposition",
     "reviewedAt": "2026-08-20",
-    "reviewedAgainstReferenceVersion": "amnh-perissodactyl-evolution source inventory at 2026.08-static-v5-rc10",
+    "reviewedAgainstReferenceVersion": "amnh-perissodactyl-evolution source inventory at 2026.08-static-v5-rc11",
     "referenceLinks": [
       {
         "relation": "supports",
@@ -1073,7 +1082,7 @@
     "confidenceRationale": "Anchitherium taxonomy is an automated curator-draft decomposition tied to its visible fields and current source inventory; human claim-specific locator review remains pending.",
     "reviewedBy": "Evo Atlas automated evidence decomposition",
     "reviewedAt": "2026-08-20",
-    "reviewedAgainstReferenceVersion": "amnh-equidae source inventory at 2026.08-static-v5-rc10",
+    "reviewedAgainstReferenceVersion": "amnh-equidae source inventory at 2026.08-static-v5-rc11",
     "referenceLinks": [
       {
         "relation": "supports",
@@ -1092,7 +1101,7 @@
     "confidenceRationale": "Anchitherium fossil-range is an automated curator-draft decomposition tied to its visible fields and current source inventory; human claim-specific locator review remains pending.",
     "reviewedBy": "Evo Atlas automated evidence decomposition",
     "reviewedAt": "2026-08-20",
-    "reviewedAgainstReferenceVersion": "pbdb-api-2016 source inventory at 2026.08-static-v5-rc10",
+    "reviewedAgainstReferenceVersion": "pbdb-api-2016 source inventory at 2026.08-static-v5-rc11",
     "referenceLinks": [
       {
         "relation": "supports",
@@ -1111,7 +1120,7 @@
     "confidenceRationale": "Anchitherium morphology is an automated curator-draft decomposition tied to its visible fields and current source inventory; human claim-specific locator review remains pending.",
     "reviewedBy": "Evo Atlas automated evidence decomposition",
     "reviewedAt": "2026-08-20",
-    "reviewedAgainstReferenceVersion": "amnh-equidae source inventory at 2026.08-static-v5-rc10",
+    "reviewedAgainstReferenceVersion": "amnh-equidae source inventory at 2026.08-static-v5-rc11",
     "referenceLinks": [
       {
         "relation": "supports",
@@ -1130,7 +1139,7 @@
     "confidenceRationale": "Anchitherium biogeography is an automated curator-draft decomposition tied to its visible fields and current source inventory; human claim-specific locator review remains pending.",
     "reviewedBy": "Evo Atlas automated evidence decomposition",
     "reviewedAt": "2026-08-20",
-    "reviewedAgainstReferenceVersion": "amnh-equidae source inventory at 2026.08-static-v5-rc10",
+    "reviewedAgainstReferenceVersion": "amnh-equidae source inventory at 2026.08-static-v5-rc11",
     "referenceLinks": [
       {
         "relation": "supports",
@@ -1149,7 +1158,7 @@
     "confidenceRationale": "Hipparionini taxonomy is an automated curator-draft decomposition tied to its visible fields and current source inventory; human claim-specific locator review remains pending.",
     "reviewedBy": "Evo Atlas automated evidence decomposition",
     "reviewedAt": "2026-08-20",
-    "reviewedAgainstReferenceVersion": "mc-horse-monodactyly-2019 source inventory at 2026.08-static-v5-rc10",
+    "reviewedAgainstReferenceVersion": "mc-horse-monodactyly-2019 source inventory at 2026.08-static-v5-rc11",
     "referenceLinks": [
       {
         "relation": "supports",
@@ -1168,7 +1177,7 @@
     "confidenceRationale": "Hipparionini morphology is an automated curator-draft decomposition tied to its visible fields and current source inventory; human claim-specific locator review remains pending.",
     "reviewedBy": "Evo Atlas automated evidence decomposition",
     "reviewedAt": "2026-08-20",
-    "reviewedAgainstReferenceVersion": "mc-horse-monodactyly-2019 source inventory at 2026.08-static-v5-rc10",
+    "reviewedAgainstReferenceVersion": "mc-horse-monodactyly-2019 source inventory at 2026.08-static-v5-rc11",
     "referenceLinks": [
       {
         "relation": "supports",
@@ -1187,7 +1196,7 @@
     "confidenceRationale": "Hipparionini ecology is an automated curator-draft decomposition tied to its visible fields and current source inventory; human claim-specific locator review remains pending.",
     "reviewedBy": "Evo Atlas automated evidence decomposition",
     "reviewedAt": "2026-08-20",
-    "reviewedAgainstReferenceVersion": "bernor-2021-hipparions source inventory at 2026.08-static-v5-rc10",
+    "reviewedAgainstReferenceVersion": "bernor-2021-hipparions source inventory at 2026.08-static-v5-rc11",
     "referenceLinks": [
       {
         "relation": "supports",
@@ -1206,7 +1215,7 @@
     "confidenceRationale": "Hipparionini biogeography is an automated curator-draft decomposition tied to its visible fields and current source inventory; human claim-specific locator review remains pending.",
     "reviewedBy": "Evo Atlas automated evidence decomposition",
     "reviewedAt": "2026-08-20",
-    "reviewedAgainstReferenceVersion": "bernor-2021-hipparions source inventory at 2026.08-static-v5-rc10",
+    "reviewedAgainstReferenceVersion": "bernor-2021-hipparions source inventory at 2026.08-static-v5-rc11",
     "referenceLinks": [
       {
         "relation": "supports",
@@ -1225,7 +1234,7 @@
     "confidenceRationale": "Teleoceras taxonomy is an automated curator-draft decomposition tied to its visible fields and current source inventory; human claim-specific locator review remains pending.",
     "reviewedBy": "Evo Atlas automated evidence decomposition",
     "reviewedAt": "2026-08-20",
-    "reviewedAgainstReferenceVersion": "macfadden-1998-teleoceras source inventory at 2026.08-static-v5-rc10",
+    "reviewedAgainstReferenceVersion": "macfadden-1998-teleoceras source inventory at 2026.08-static-v5-rc11",
     "referenceLinks": [
       {
         "relation": "supports",
@@ -1244,7 +1253,7 @@
     "confidenceRationale": "Teleoceras fossil-range is an automated curator-draft decomposition tied to its visible fields and current source inventory; human claim-specific locator review remains pending.",
     "reviewedBy": "Evo Atlas automated evidence decomposition",
     "reviewedAt": "2026-08-20",
-    "reviewedAgainstReferenceVersion": "ward-2024-teleoceras source inventory at 2026.08-static-v5-rc10",
+    "reviewedAgainstReferenceVersion": "ward-2024-teleoceras source inventory at 2026.08-static-v5-rc11",
     "referenceLinks": [
       {
         "relation": "supports",
@@ -1263,7 +1272,7 @@
     "confidenceRationale": "Teleoceras morphology is an automated curator-draft decomposition tied to its visible fields and current source inventory; human claim-specific locator review remains pending.",
     "reviewedBy": "Evo Atlas automated evidence decomposition",
     "reviewedAt": "2026-08-20",
-    "reviewedAgainstReferenceVersion": "macfadden-1998-teleoceras source inventory at 2026.08-static-v5-rc10",
+    "reviewedAgainstReferenceVersion": "macfadden-1998-teleoceras source inventory at 2026.08-static-v5-rc11",
     "referenceLinks": [
       {
         "relation": "supports",
@@ -1282,7 +1291,7 @@
     "confidenceRationale": "Teleoceras biogeography is an automated curator-draft decomposition tied to its visible fields and current source inventory; human claim-specific locator review remains pending.",
     "reviewedBy": "Evo Atlas automated evidence decomposition",
     "reviewedAt": "2026-08-20",
-    "reviewedAgainstReferenceVersion": "macfadden-1998-teleoceras source inventory at 2026.08-static-v5-rc10",
+    "reviewedAgainstReferenceVersion": "macfadden-1998-teleoceras source inventory at 2026.08-static-v5-rc11",
     "referenceLinks": [
       {
         "relation": "supports",
@@ -1301,7 +1310,7 @@
     "confidenceRationale": "Coelodonta taxonomy is an automated curator-draft decomposition tied to its visible fields and current source inventory; human claim-specific locator review remains pending.",
     "reviewedBy": "Evo Atlas automated evidence decomposition",
     "reviewedAt": "2026-08-20",
-    "reviewedAgainstReferenceVersion": "gudjonsdottir-2026-coelodonta source inventory at 2026.08-static-v5-rc10",
+    "reviewedAgainstReferenceVersion": "gudjonsdottir-2026-coelodonta source inventory at 2026.08-static-v5-rc11",
     "referenceLinks": [
       {
         "relation": "supports",
@@ -1320,7 +1329,7 @@
     "confidenceRationale": "Coelodonta morphology is an automated curator-draft decomposition tied to its visible fields and current source inventory; human claim-specific locator review remains pending.",
     "reviewedBy": "Evo Atlas automated evidence decomposition",
     "reviewedAt": "2026-08-20",
-    "reviewedAgainstReferenceVersion": "gudjonsdottir-2026-coelodonta source inventory at 2026.08-static-v5-rc10",
+    "reviewedAgainstReferenceVersion": "gudjonsdottir-2026-coelodonta source inventory at 2026.08-static-v5-rc11",
     "referenceLinks": [
       {
         "relation": "supports",
@@ -1339,7 +1348,7 @@
     "confidenceRationale": "Coelodonta ecology is an automated curator-draft decomposition tied to its visible fields and current source inventory; human claim-specific locator review remains pending.",
     "reviewedBy": "Evo Atlas automated evidence decomposition",
     "reviewedAt": "2026-08-20",
-    "reviewedAgainstReferenceVersion": "gudjonsdottir-2026-coelodonta source inventory at 2026.08-static-v5-rc10",
+    "reviewedAgainstReferenceVersion": "gudjonsdottir-2026-coelodonta source inventory at 2026.08-static-v5-rc11",
     "referenceLinks": [
       {
         "relation": "supports",
@@ -1358,7 +1367,7 @@
     "confidenceRationale": "Coelodonta biogeography is an automated curator-draft decomposition tied to its visible fields and current source inventory; human claim-specific locator review remains pending.",
     "reviewedBy": "Evo Atlas automated evidence decomposition",
     "reviewedAt": "2026-08-20",
-    "reviewedAgainstReferenceVersion": "gudjonsdottir-2026-coelodonta source inventory at 2026.08-static-v5-rc10",
+    "reviewedAgainstReferenceVersion": "gudjonsdottir-2026-coelodonta source inventory at 2026.08-static-v5-rc11",
     "referenceLinks": [
       {
         "relation": "supports",
