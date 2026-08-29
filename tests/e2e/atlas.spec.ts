@@ -151,6 +151,17 @@ test('gymnosperm story keeps specimens, models and topology distinct', async ({ 
   await expect(page.locator('.story-step')).toHaveCount(6)
 })
 
+test('angiosperm story separates clocks, specimens and vegetation proxies', async ({ page }) => {
+  await page.addInitScript(() => window.localStorage.setItem('evo-atlas-language', 'zh'))
+  await page.goto('./#/stories?id=angiosperm-evidence-boundaries')
+  await expect(page.getByRole('heading', { name: '被子植物历史的七条证据边界' })).toBeVisible()
+  await expect(page.getByRole('heading', { name: '一套数据，三组时钟区间' })).toBeVisible()
+  await expect(page.getByRole('heading', { name: '同一株单子叶植物的根与花' })).toBeVisible()
+  await expect(page.getByRole('heading', { name: '动物食性揭示 C4 生物量' })).toBeVisible()
+  await expect(page.getByText('导航树是教育性子集：单子叶与真双子叶植物并不穷尽被子植物，木兰纲也不是目录中的精确真双子叶根。', { exact: true })).toBeVisible()
+  await expect(page.locator('.story-step')).toHaveCount(7)
+})
+
 test('skip and catalog section controls do not corrupt the hash route', async ({ page }) => {
   await page.goto('./#/taxa?id=perissodactyla')
   const originalHash = await page.evaluate(() => window.location.hash)
@@ -169,7 +180,7 @@ test('Explorer restores state and removes the unsupported global model parameter
   await expect(page.getByRole('button', { name: 'points' })).toHaveClass(/is-active/)
   await expect(page.getByRole('button', { name: 'modern' })).toHaveClass(/is-active/)
   await expect(page.getByText('Shared time window 20–5 Ma')).toBeVisible()
-  await expect.poll(() => page.url()).toContain('dataset=2026.08-static-v5-rc14')
+  await expect.poll(() => page.url()).toContain('dataset=2026.08-static-v5-rc15')
   for (const fragment of ['older=20', 'younger=5', 'lat=10.000', 'lng=20.000', 'zoom=3.00', 'treeMode=fossil-range']) {
     expect(page.url()).toContain(fragment)
   }
@@ -182,7 +193,7 @@ test('Explorer requires confirmation before replacing a mismatched dataset versi
   await expect(page.getByRole('alertdialog')).toContainText('2025.01-old')
   expect(page.url()).toContain('dataset=2025.01-old')
   await page.getByRole('button', { name: 'Use current dataset' }).click()
-  await expect.poll(() => page.url()).toContain('dataset=2026.08-static-v5-rc14')
+  await expect.poll(() => page.url()).toContain('dataset=2026.08-static-v5-rc15')
 })
 
 test('a service-worker upgrade removes dataset A caches and dataset B remains coherent', async ({ page }) => {
@@ -217,7 +228,7 @@ test('a service-worker upgrade removes dataset A caches and dataset B remains co
     const versions = await Promise.all(manifestFiles.map((file) => fetch(`/evo/data/${file.url}`).then((response) => response.json()).then((manifest) => manifest.version as string)))
     return { datasetVersion: current.datasetVersion, releaseBase: current.releaseBase, urls: manifestFiles.map((file) => file.url), versions, retained: history.releases.map((entry) => entry.datasetVersion) }
   })
-  expect(releaseState.releaseBase).toBe('releases/2026.08-static-v5-rc14/')
+  expect(releaseState.releaseBase).toBe('releases/2026.08-static-v5-rc15/')
   expect(releaseState.urls.every((url) => url.startsWith(releaseState.releaseBase))).toBe(true)
   expect(releaseState.versions.every((version) => version === releaseState.datasetVersion)).toBe(true)
   expect(releaseState.retained[0]).toBe(releaseState.datasetVersion)

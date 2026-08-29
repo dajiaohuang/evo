@@ -1396,6 +1396,20 @@
             "referenceId": "cerling-1997-c4"
           }
         ]
+      },
+      {
+        "statement": "Tooth-enamel δ13C is an animal-diet and local-habitat proxy; it cannot identify which C4 plant lineages supplied the biomass or assume diet is proportional to vegetation cover",
+        "relation": "contextualizes",
+        "claimIds": [
+          "claim:event:c4-grassland-expansion"
+        ],
+        "referenceLinks": [
+          {
+            "relation": "supports",
+            "referenceId": "cerling-1997-c4",
+            "quoteLocator": "Methods and interpretation of enamel carbon isotopes"
+          }
+        ]
       }
     ]
   },
@@ -2244,6 +2258,251 @@
             "relation": "supports",
             "referenceId": "leslie-2012-conifer-hemispheres",
             "quoteLocator": "Discussion; Materials and Methods"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "crown-angiosperm-calibration-sensitivity",
+    "title": "Calibration-sensitive crown-angiosperm timescale",
+    "titleZh": "校准敏感的被子植物冠群年代模型",
+    "category": "origin",
+    "startAge": 152.99,
+    "endAge": 151.46,
+    "regions": ["Global fossil and molecular sample"],
+    "clades": ["Crown Angiospermae"],
+    "summary": "A fossil-integrated molecular-clock study preferred a tightly constrained Late Jurassic crown estimate, while alternative treatments of the same calibration densities produced much older intervals.",
+    "claimIds": ["claim:event:crown-angiosperm-calibration-sensitivity"],
+    "evidenceItems": [
+      {
+        "statement": "25,685 fossil occurrences informed 110 calibrations on a 644-species, 83-gene phylogeny",
+        "relation": "supports",
+        "claimIds": ["claim:event:crown-angiosperm-calibration-sensitivity"],
+        "referenceLinks": [
+          {
+            "relation": "supports",
+            "referenceId": "wu-2026-angiosperm-timescale",
+            "pages": "1242–1251",
+            "figure": "Figures 1–5"
+          }
+        ]
+      }
+    ],
+    "uncertaintyItems": [
+      {
+        "statement": "The displayed 152.99–151.46 Ma interval is the authors' preferred hard-bound strategy; soft-bound and skew-T strategies yielded 172.53–158.45 Ma and 261.26–212.30 Ma",
+        "relation": "contextualizes",
+        "claimIds": ["claim:event:crown-angiosperm-calibration-sensitivity"],
+        "referenceLinks": [
+          {
+            "relation": "supports",
+            "referenceId": "wu-2026-angiosperm-timescale",
+            "figure": "Figures 2–3",
+            "quoteLocator": "Molecular clock analyses; Discussion"
+          }
+        ]
+      },
+      {
+        "statement": "The result is a calibration-dependent crown model, not a directly observed Jurassic flower or fossil first appearance",
+        "relation": "contextualizes",
+        "claimIds": ["claim:event:crown-angiosperm-calibration-sensitivity"],
+        "referenceLinks": [
+          {
+            "relation": "supports",
+            "referenceId": "wu-2026-angiosperm-timescale",
+            "quoteLocator": "Main; Results; Conclusion"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "barremian-montsechia",
+    "title": "Barremian Montsechia in freshwater habitats",
+    "titleZh": "巴列姆期淡水生境中的 Montsechia",
+    "category": "origin",
+    "startAge": 125.77,
+    "endAge": 121.4,
+    "regions": ["El Montsec and Las Hoyas, Spain"],
+    "clades": ["Montsechia vidalii", "Angiospermae"],
+    "summary": "More than one thousand specimens preserve leafy axes and closed single-seeded fruits consistent with a submerged freshwater angiosperm, without fixing crown placement or flowering-plant ancestry.",
+    "claimIds": ["claim:event:barremian-montsechia"],
+    "evidenceItems": [
+      {
+        "statement": "More than 1,000 specimens with flexible axes, thin cuticles, rare stomata and closed single-seeded fruits",
+        "relation": "supports",
+        "claimIds": ["claim:event:barremian-montsechia"],
+        "referenceLinks": [
+          {
+            "relation": "supports",
+            "referenceId": "gomez-2015-montsechia",
+            "pages": "10985–10988",
+            "figure": "Figures 1–4; Supplementary Figure S2"
+          }
+        ]
+      }
+    ],
+    "uncertaintyItems": [
+      {
+        "statement": "A morphology-based position near Ceratophyllum is a hypothesis and does not show that the angiosperm ancestor was aquatic",
+        "relation": "contextualizes",
+        "claimIds": ["claim:event:barremian-montsechia"],
+        "referenceLinks": [
+          {
+            "relation": "supports",
+            "referenceId": "gomez-2015-montsechia",
+            "figure": "Figure 4",
+            "quoteLocator": "Discussion"
+          }
+        ]
+      },
+      {
+        "statement": "Current Barremian boundaries are used for display; the paper reported the deposits as approximately 130–125 Ma",
+        "relation": "contextualizes",
+        "claimIds": ["claim:event:barremian-montsechia"],
+        "referenceLinks": [
+          {
+            "relation": "supports",
+            "referenceId": "gomez-2015-montsechia",
+            "figure": "Supplementary Figure S2"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "crato-cratolirion",
+    "title": "Cratolirion whole-plant monocot",
+    "titleZh": "Cratolirion 单子叶植物整株化石",
+    "category": "origin",
+    "startAge": 115,
+    "endAge": 115,
+    "regions": ["Crato Formation, northeastern Brazil"],
+    "clades": ["Cratolirion bognerianum", "Crown monocots"],
+    "summary": "An anatomically preserved plant from roots to reproductive organs supports a crown-monocot assignment at about 115 Ma, but not a monocot origin date or a modern-family identification.",
+    "claimIds": ["claim:event:crato-cratolirion"],
+    "evidenceItems": [
+      {
+        "statement": "Root system, narrow parallel-veined leaves, vascular anatomy and trimerous reproductive organs preserved in one plant",
+        "relation": "supports",
+        "claimIds": ["claim:event:crato-cratolirion"],
+        "referenceLinks": [
+          {
+            "relation": "supports",
+            "referenceId": "coiffard-2019-cratolirion",
+            "pages": "691–696",
+            "figure": "Figures 1–3"
+          }
+        ]
+      }
+    ],
+    "uncertaintyItems": [
+      {
+        "statement": "Cratolirion is a fossil crown monocot, not proof of the first monocot or an assignment to a living lily family",
+        "relation": "contextualizes",
+        "claimIds": ["claim:event:crato-cratolirion"],
+        "referenceLinks": [
+          {
+            "relation": "supports",
+            "referenceId": "coiffard-2019-cratolirion",
+            "figure": "Figure 3",
+            "quoteLocator": "Abstract and phylogenetic analysis"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "yixian-leefructus",
+    "title": "Early Cretaceous Leefructus eudicot",
+    "titleZh": "义县组早期真双子叶植物 Leefructus",
+    "category": "origin",
+    "startAge": 125.8,
+    "endAge": 122.6,
+    "regions": ["Lower Yixian Formation, western Liaoning, China"],
+    "clades": ["Leefructus mirus", "Eudicots"],
+    "summary": "A whole-plant fossil preserves deeply trilobate leaves and a reproductive axis with five partly united carpels, supporting an Early Cretaceous eudicot assignment while leaving family affinity provisional.",
+    "claimIds": ["claim:event:yixian-leefructus"],
+    "evidenceItems": [
+      {
+        "statement": "Holotype and reconstruction link diagnostic leaves to an axillary reproductive axis with five long, narrow carpels",
+        "relation": "supports",
+        "claimIds": ["claim:event:yixian-leefructus"],
+        "referenceLinks": [
+          {
+            "relation": "supports",
+            "referenceId": "sun-2011-leefructus",
+            "pages": "625–628",
+            "figure": "Figures 1–5"
+          }
+        ]
+      }
+    ],
+    "uncertaintyItems": [
+      {
+        "statement": "Ranunculaceae affinity was suggested from morphology; it is not an uncontested family assignment or the global first appearance of eudicots",
+        "relation": "contextualizes",
+        "claimIds": ["claim:event:yixian-leefructus"],
+        "referenceLinks": [
+          {
+            "relation": "supports",
+            "referenceId": "sun-2011-leefructus",
+            "quoteLocator": "Abstract; systematic discussion"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "great-plains-c4-phytolith-transition",
+    "title": "Great Plains C3–C4 phytolith transition",
+    "titleZh": "北美大平原 C3–C4 植硅体转变",
+    "category": "transition",
+    "startAge": 8,
+    "endAge": 5.5,
+    "regions": ["Central Great Plains, Nebraska and Kansas, United States"],
+    "clades": ["Poaceae", "Chloridoideae", "PACMAD grasses"],
+    "summary": "Fourteen well-preserved palaeosol phytolith assemblages record a regional rise of chloridoid and other potentially C4 grasses within heterogeneous mixed C3–C4 habitats.",
+    "claimIds": ["claim:event:great-plains-c4-phytolith-transition"],
+    "evidenceItems": [
+      {
+        "statement": "By about 5.5 Ma, chloridoid and other potentially C4 PACMAD grass short cells reached roughly 50–60% of the grass component",
+        "relation": "supports",
+        "claimIds": ["claim:event:great-plains-c4-phytolith-transition"],
+        "referenceLinks": [
+          {
+            "relation": "supports",
+            "referenceId": "stromberg-2011-great-plains-phytoliths",
+            "pages": "50–51",
+            "quoteLocator": "Abstract"
+          }
+        ]
+      }
+    ],
+    "uncertaintyItems": [
+      {
+        "statement": "The 50–60% estimate is within the grass component, not total vegetation, and PACMAD-type morphologies are not all diagnostic of C4 photosynthesis",
+        "relation": "contextualizes",
+        "claimIds": ["claim:event:great-plains-c4-phytolith-transition"],
+        "referenceLinks": [
+          {
+            "relation": "supports",
+            "referenceId": "stromberg-2011-great-plains-phytoliths",
+            "pages": "50–71",
+            "quoteLocator": "Assemblage interpretation and limitations"
+          }
+        ]
+      },
+      {
+        "statement": "Fourteen selected assemblages from the central Great Plains do not establish a synchronous continental or global transition",
+        "relation": "contextualizes",
+        "claimIds": ["claim:event:great-plains-c4-phytolith-transition"],
+        "referenceLinks": [
+          {
+            "relation": "supports",
+            "referenceId": "stromberg-2011-great-plains-phytoliths",
+            "pages": "50–71"
           }
         ]
       }
