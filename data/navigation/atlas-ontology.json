@@ -1933,7 +1933,23 @@
                                                   "firstAppearance": 120,
                                                   "lastAppearance": 0,
                                                   "extinct": false,
-                                                  "children": [],
+                                                  "children": [
+                                                    {
+                                                      "id": "steropodon",
+                                                      "name": "Steropodon",
+                                                      "commonName": "Steropodon",
+                                                      "commonNameZh": "硬齿鸭嘴兽",
+                                                      "rank": "genus",
+                                                      "taxonId": "",
+                                                      "firstAppearance": 110,
+                                                      "lastAppearance": 100,
+                                                      "extinct": true,
+                                                      "children": [],
+                                                      "entityKind": "taxon",
+                                                      "contentLevel": "dossier",
+                                                      "parentRelationshipKind": "navigation-parent"
+                                                    }
+                                                  ],
                                                   "entityKind": "taxon",
                                                   "contentLevel": "dossier"
                                                 },
@@ -2525,59 +2541,32 @@
                                                       "contentLevel": "dossier"
                                                     },
                                                     {
-                                                      "id": "proboscidea",
-                                                      "name": "Proboscidea",
-                                                      "commonName": "Elephants & Relatives",
-                                                      "commonNameZh": "象及其近亲",
-                                                      "rank": "order",
-                                                      "taxonId": "txn:43230",
-                                                      "firstAppearance": 56,
-                                                      "lastAppearance": 0,
-                                                      "extinct": false,
-                                                      "children": [
-                                                        {
-                                                          "id": "mammuthus",
-                                                          "name": "Mammuthus",
-                                                          "commonName": "Mammoths",
-                                                          "commonNameZh": "猛犸象",
-                                                          "rank": "genus",
-                                                          "taxonId": "txn:43266",
-                                                          "firstAppearance": 5,
-                                                          "lastAppearance": 0.004,
-                                                          "extinct": true,
-                                                          "children": [],
-                                                          "entityKind": "taxon",
-                                                          "contentLevel": "dossier"
-                                                        }
-                                                      ],
-                                                      "entityKind": "taxon",
-                                                      "contentLevel": "dossier"
-                                                    },
-                                                    {
                                                       "id": "chiroptera",
                                                       "name": "Chiroptera",
                                                       "commonName": "Bats",
                                                       "commonNameZh": "蝙蝠",
                                                       "rank": "order",
                                                       "taxonId": "txn:40622",
-                                                      "firstAppearance": 52,
+                                                      "firstAppearance": 52.5,
                                                       "lastAppearance": 0,
                                                       "extinct": false,
-                                                      "children": [],
-                                                      "entityKind": "taxon",
-                                                      "contentLevel": "dossier"
-                                                    },
-                                                    {
-                                                      "id": "rodentia",
-                                                      "name": "Rodentia",
-                                                      "commonName": "Rodents",
-                                                      "commonNameZh": "啮齿类",
-                                                      "rank": "order",
-                                                      "taxonId": "txn:41370",
-                                                      "firstAppearance": 56,
-                                                      "lastAppearance": 0,
-                                                      "extinct": false,
-                                                      "children": [],
+                                                      "children": [
+                                                        {
+                                                          "id": "onychonycteris",
+                                                          "name": "Onychonycteris",
+                                                          "commonName": "Clawed early bat",
+                                                          "commonNameZh": "爪蝠",
+                                                          "rank": "genus",
+                                                          "taxonId": "",
+                                                          "firstAppearance": 52.5,
+                                                          "lastAppearance": 50.3,
+                                                          "extinct": true,
+                                                          "children": [],
+                                                          "entityKind": "taxon",
+                                                          "contentLevel": "dossier",
+                                                          "parentRelationshipKind": "navigation-parent"
+                                                        }
+                                                      ],
                                                       "entityKind": "taxon",
                                                       "contentLevel": "dossier"
                                                     },
@@ -3163,10 +3152,207 @@
                                                       "parentRelationshipKind": "navigation-parent",
                                                       "entityKind": "taxon",
                                                       "contentLevel": "dossier"
+                                                    },
+                                                    {
+                                                      "id": "afrotheria",
+                                                      "name": "Afrotheria",
+                                                      "commonName": "African placental radiation",
+                                                      "commonNameZh": "非洲兽总目",
+                                                      "rank": "clade",
+                                                      "taxonId": "",
+                                                      "firstAppearance": 100,
+                                                      "lastAppearance": 0,
+                                                      "extinct": false,
+                                                      "children": [
+                                                        {
+                                                          "id": "proboscidea",
+                                                          "name": "Proboscidea",
+                                                          "commonName": "Elephants & Relatives",
+                                                          "commonNameZh": "象及其近亲",
+                                                          "rank": "order",
+                                                          "taxonId": "txn:43230",
+                                                          "firstAppearance": 60.5,
+                                                          "lastAppearance": 0,
+                                                          "extinct": false,
+                                                          "children": [
+                                                            {
+                                                              "id": "mammuthus",
+                                                              "name": "Mammuthus",
+                                                              "commonName": "Mammoths",
+                                                              "commonNameZh": "猛犸象",
+                                                              "rank": "genus",
+                                                              "taxonId": "txn:43266",
+                                                              "firstAppearance": 5,
+                                                              "lastAppearance": 0.004,
+                                                              "extinct": true,
+                                                              "children": [],
+                                                              "entityKind": "taxon",
+                                                              "contentLevel": "dossier"
+                                                            },
+                                                            {
+                                                              "id": "eritherium",
+                                                              "name": "Eritherium",
+                                                              "commonName": "Eritherium",
+                                                              "commonNameZh": "始祖象",
+                                                              "rank": "genus",
+                                                              "taxonId": "",
+                                                              "firstAppearance": 60.5,
+                                                              "lastAppearance": 59.2,
+                                                              "extinct": true,
+                                                              "children": [],
+                                                              "entityKind": "taxon",
+                                                              "contentLevel": "dossier",
+                                                              "parentRelationshipKind": "navigation-parent"
+                                                            }
+                                                          ],
+                                                          "entityKind": "taxon",
+                                                          "contentLevel": "dossier"
+                                                        }
+                                                      ],
+                                                      "entityKind": "taxon",
+                                                      "contentLevel": "dossier",
+                                                      "parentRelationshipKind": "navigation-parent"
+                                                    },
+                                                    {
+                                                      "id": "xenarthra",
+                                                      "name": "Xenarthra",
+                                                      "commonName": "Sloths, anteaters and armadillos",
+                                                      "commonNameZh": "异关节总目",
+                                                      "rank": "clade",
+                                                      "taxonId": "",
+                                                      "firstAppearance": 58.3,
+                                                      "lastAppearance": 0,
+                                                      "extinct": false,
+                                                      "children": [
+                                                        {
+                                                          "id": "thalassocnus",
+                                                          "name": "Thalassocnus",
+                                                          "commonName": "Aquatic sloths",
+                                                          "commonNameZh": "海懒兽",
+                                                          "rank": "genus",
+                                                          "taxonId": "",
+                                                          "firstAppearance": 8,
+                                                          "lastAppearance": 3,
+                                                          "extinct": true,
+                                                          "children": [],
+                                                          "entityKind": "taxon",
+                                                          "contentLevel": "dossier",
+                                                          "parentRelationshipKind": "navigation-parent"
+                                                        }
+                                                      ],
+                                                      "entityKind": "taxon",
+                                                      "contentLevel": "dossier",
+                                                      "parentRelationshipKind": "navigation-parent"
+                                                    },
+                                                    {
+                                                      "id": "glires",
+                                                      "name": "Glires",
+                                                      "commonName": "Rodents, lagomorphs and stem relatives",
+                                                      "commonNameZh": "啮形类",
+                                                      "rank": "clade",
+                                                      "taxonId": "",
+                                                      "firstAppearance": 66,
+                                                      "lastAppearance": 0,
+                                                      "extinct": false,
+                                                      "children": [
+                                                        {
+                                                          "id": "rodentia",
+                                                          "name": "Rodentia",
+                                                          "commonName": "Rodents",
+                                                          "commonNameZh": "啮齿类",
+                                                          "rank": "order",
+                                                          "taxonId": "txn:41370",
+                                                          "firstAppearance": 56,
+                                                          "lastAppearance": 0,
+                                                          "extinct": false,
+                                                          "children": [],
+                                                          "entityKind": "taxon",
+                                                          "contentLevel": "dossier"
+                                                        },
+                                                        {
+                                                          "id": "mimolagus",
+                                                          "name": "Mimolagus",
+                                                          "commonName": "Mimotonid glires",
+                                                          "commonNameZh": "拟兔",
+                                                          "rank": "genus",
+                                                          "taxonId": "",
+                                                          "firstAppearance": 47.8,
+                                                          "lastAppearance": 41.2,
+                                                          "extinct": true,
+                                                          "children": [],
+                                                          "entityKind": "taxon",
+                                                          "contentLevel": "dossier",
+                                                          "parentRelationshipKind": "navigation-parent"
+                                                        }
+                                                      ],
+                                                      "entityKind": "taxon",
+                                                      "contentLevel": "dossier",
+                                                      "parentRelationshipKind": "navigation-parent"
                                                     }
                                                   ],
                                                   "entityKind": "taxon",
                                                   "contentLevel": "dossier"
+                                                },
+                                                {
+                                                  "id": "therian-boundary-evidence",
+                                                  "name": "Therian boundary evidence",
+                                                  "commonName": "Early therian evidence routes",
+                                                  "commonNameZh": "早期兽亚纲证据导航",
+                                                  "rank": "navigation group",
+                                                  "taxonId": "",
+                                                  "firstAppearance": 161,
+                                                  "lastAppearance": 124.1,
+                                                  "extinct": true,
+                                                  "children": [
+                                                    {
+                                                      "id": "juramaia",
+                                                      "name": "Juramaia",
+                                                      "commonName": "Juramaia",
+                                                      "commonNameZh": "侏罗兽",
+                                                      "rank": "genus",
+                                                      "taxonId": "",
+                                                      "firstAppearance": 161,
+                                                      "lastAppearance": 159,
+                                                      "extinct": true,
+                                                      "children": [],
+                                                      "entityKind": "taxon",
+                                                      "contentLevel": "dossier",
+                                                      "parentRelationshipKind": "navigation-parent"
+                                                    },
+                                                    {
+                                                      "id": "eomaia",
+                                                      "name": "Eomaia",
+                                                      "commonName": "Eomaia",
+                                                      "commonNameZh": "始祖兽",
+                                                      "rank": "genus",
+                                                      "taxonId": "",
+                                                      "firstAppearance": 125.8,
+                                                      "lastAppearance": 124.1,
+                                                      "extinct": true,
+                                                      "children": [],
+                                                      "entityKind": "taxon",
+                                                      "contentLevel": "dossier",
+                                                      "parentRelationshipKind": "navigation-parent"
+                                                    },
+                                                    {
+                                                      "id": "ambolestes",
+                                                      "name": "Ambolestes",
+                                                      "commonName": "Ambolestes",
+                                                      "commonNameZh": "无惧兽",
+                                                      "rank": "genus",
+                                                      "taxonId": "",
+                                                      "firstAppearance": 126,
+                                                      "lastAppearance": 125,
+                                                      "extinct": true,
+                                                      "children": [],
+                                                      "entityKind": "taxon",
+                                                      "contentLevel": "dossier",
+                                                      "parentRelationshipKind": "navigation-parent"
+                                                    }
+                                                  ],
+                                                  "entityKind": "navigation-group",
+                                                  "contentLevel": "dossier",
+                                                  "parentRelationshipKind": "navigation-parent"
                                                 }
                                               ],
                                               "entityKind": "taxon",

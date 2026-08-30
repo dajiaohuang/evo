@@ -105,6 +105,18 @@ const eventOwners = {
   'asteriornis-holotype-crown-placement': 'crocodylomorphs-birds',
   'neoavian-genome-topology': 'crocodylomorphs-birds',
   'neornithes-fossil-calibrated-time-tree': 'crocodylomorphs-birds',
+  'steropodon-holotype-monotreme': 'other-mammals',
+  'platypus-genome-mosaic': 'other-mammals',
+  'eomaia-holotype-topology': 'other-mammals',
+  'juramaia-conditional-provenance': 'other-mammals',
+  'ambolestes-therian-boundary': 'other-mammals',
+  'placental-phenomic-kpg-model': 'other-mammals',
+  'placental-molecular-four-clades': 'other-mammals',
+  'eritherium-holotype-proboscidean': 'other-mammals',
+  'thalassocnus-bone-density-series': 'other-mammals',
+  'mimolagus-holotype-glires': 'other-mammals',
+  'onychonycteris-flight-echolocation': 'other-mammals',
+  'bat-seven-gene-topology': 'other-mammals',
   'indohyus-aquatic-raoellid-evidence': 'cetartiodactyla',
   'pakicetus-composite-terrestrial-skeleton': 'cetartiodactyla',
   'ambulocetus-holotype-locomotion': 'cetartiodactyla',
@@ -213,7 +225,7 @@ function referenceRecords(ids) {
 
 function loadChineseTranslations() {
   const translations = new Map()
-  for (const [fileName, dictionaryName, scriptKind] of [['index.tsx', 'zh', ts.ScriptKind.TSX], ['marineZh.ts', 'marineZh', ts.ScriptKind.TS], ['cetartiodactylaZh.ts', 'cetartiodactylaZh', ts.ScriptKind.TS], ['carnivoraZh.ts', 'carnivoraZh', ts.ScriptKind.TS], ['turtleLepidosaurZh.ts', 'turtleLepidosaurZh', ts.ScriptKind.TS], ['crocBirdZh.ts', 'crocBirdZh', ts.ScriptKind.TS], ['primatesZh.ts', 'primatesZh', ts.ScriptKind.TS]]) {
+  for (const [fileName, dictionaryName, scriptKind] of [['index.tsx', 'zh', ts.ScriptKind.TSX], ['marineZh.ts', 'marineZh', ts.ScriptKind.TS], ['cetartiodactylaZh.ts', 'cetartiodactylaZh', ts.ScriptKind.TS], ['carnivoraZh.ts', 'carnivoraZh', ts.ScriptKind.TS], ['turtleLepidosaurZh.ts', 'turtleLepidosaurZh', ts.ScriptKind.TS], ['crocBirdZh.ts', 'crocBirdZh', ts.ScriptKind.TS], ['primatesZh.ts', 'primatesZh', ts.ScriptKind.TS], ['otherMammalsZh.ts', 'otherMammalsZh', ts.ScriptKind.TS]]) {
     const sourcePath = join(rootDir, 'src', 'i18n', fileName)
     const source = ts.createSourceFile(sourcePath, readFileSync(sourcePath, 'utf8'), ts.ScriptTarget.Latest, true, scriptKind)
     let dictionary = null

@@ -41,6 +41,11 @@ function CrocBirdTranslationProbe() {
   return <span>{t('A calibrated time tree is a model')}</span>
 }
 
+function OtherMammalsTranslationProbe() {
+  const { t } = useI18n()
+  return <span>{t('Juramaia specimen and conditional Jurassic signal')}</span>
+}
+
 interface CommonNameNode {
   commonName: string
   children: CommonNameNode[]
@@ -77,6 +82,12 @@ describe('site language state', () => {
     window.localStorage.setItem('evo-atlas-language', 'zh')
     render(<I18nProvider><CrocBirdTranslationProbe /></I18nProvider>)
     expect(await screen.findByText('校准时间树是一种模型')).toBeInTheDocument()
+  })
+
+  it('loads other-mammals narrative translations only when Chinese is active', async () => {
+    window.localStorage.setItem('evo-atlas-language', 'zh')
+    render(<I18nProvider><OtherMammalsTranslationProbe /></I18nProvider>)
+    expect(await screen.findByText('侏罗兽标本与有条件的侏罗纪信号')).toBeInTheDocument()
   })
 })
 
