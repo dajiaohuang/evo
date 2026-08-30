@@ -1,5 +1,14 @@
 # Dataset changelog
 
+## 2026.08-static-v5-rc23 — 2026-08-30
+
+- Replaced the turtles-lepidosaurs scaffold with eight primary-evidence dossiers spanning stepwise turtle-shell assembly, a crown-turtle calibration, stem-lepidosaur anatomy, stem-squamate CT datasets and the contested placement of Cryptovaranoides.
+- Anchored the dossiers to named specimens and datasets including Eunotosaurus NHM PV R 4949, Pappochelys SMNS 91356/91360/92066, Odontochelys IVPP V 15639/V 13240/V 15653, Caribemys MNHNCu P-3209, Taytalura PVSJ 698, Megachirella PZO 628, Bellairsia NMS G.2022.1.1 and Cryptovaranoides NHMUK PV R36822.
+- Added curated navigation for Cryptodira, Pleurodira, Rhynchocephalia, Pan-Squamata and Serpentes while retaining Testudines as the Catalogue of Life package root.
+- Kept preserved ribs, gastralia, shell plates and CT anatomy separate from homology, function, habitat and topology interpretations; no dossier is presented as a direct ancestor or linear stage.
+- Separated the Caribemys hard minimum from the relaxed-clock posterior and retained incompatible Cryptovaranoides matrices instead of promoting a secure crown-squamate FAD.
+- Added an eight-step bilingual evidence story and clarified that COL26.8's 12,622 accepted living species are nomenclatural routing coverage, not dossier maturity or fossil completeness.
+
 ## 2026.08-static-v5-rc22 — 2026-08-30
 
 - Replaced the Cetartiodactyla pilot scaffold with eight primary-evidence dossiers spanning named Eocene specimens, a retroposon topology and an extant-cetacean supermatrix while keeping specimen, interpretation, phylogenetic model and catalogue claims distinct.

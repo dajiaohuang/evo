@@ -11,13 +11,38 @@
       "relationshipKind": "taxonomic-parent"
     },
     {
+      "id": "cryptodira",
+      "parentId": "testudines",
+      "relationshipKind": "taxonomic-parent"
+    },
+    {
+      "id": "pleurodira",
+      "parentId": "testudines",
+      "relationshipKind": "taxonomic-parent"
+    },
+    {
       "id": "lepidosauria",
       "parentId": "sauropsida",
       "relationshipKind": "taxonomic-parent"
     },
     {
-      "id": "squamata",
+      "id": "rhynchocephalia",
       "parentId": "lepidosauria",
+      "relationshipKind": "taxonomic-parent"
+    },
+    {
+      "id": "pan-squamata",
+      "parentId": "lepidosauria",
+      "relationshipKind": "taxonomic-parent"
+    },
+    {
+      "id": "squamata",
+      "parentId": "pan-squamata",
+      "relationshipKind": "taxonomic-parent"
+    },
+    {
+      "id": "serpentes",
+      "parentId": "squamata",
       "relationshipKind": "taxonomic-parent"
     },
     {

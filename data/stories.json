@@ -2401,5 +2401,195 @@
       }
     ],
     "evidenceStatus": "available-with-limitations"
+  },
+  {
+    "id": "turtles-lepidosaurs-evidence-mosaics",
+    "title": "Eight evidence mosaics in turtle and lepidosaur origins",
+    "titleZh": "龟类与鳞龙起源的八组证据镶嵌",
+    "dek": "Move from named bones and CT volumes to competing matrices and clock calibrations without turning separate fossils into an ancestor ladder.",
+    "theme": "sage",
+    "durationMinutes": 15,
+    "featured": true,
+    "steps": [
+      {
+        "id": "eunotosaurus-rib-section",
+        "title": "A rib section tests a shell model",
+        "text": "NHM PV R 4949 shows successive bone deposition in a broadened Eunotosaurus rib, while other specimens preserve shoulder anatomy. The tissue is observed; turtle-stem placement, homology and function are tested interpretations.",
+        "age": 262.3,
+        "timeRange": [
+          265.1,
+          259.5
+        ],
+        "taxonIds": [
+          "testudines"
+        ],
+        "view": "evidence",
+        "eventId": "eunotosaurus-rib-histology-shell-model",
+        "annotation": "Separate preserved tissue from a character-homology model and from direct ancestry.",
+        "claimLinks": [
+          {
+            "claimId": "claim:event:eunotosaurus-rib-histology-shell-model",
+            "relation": "supports"
+          }
+        ]
+      },
+      {
+        "id": "pappochelys-gastralia",
+        "title": "Paired gastralia without a finished plastron",
+        "text": "The Vellberg Pappochelys sample combines broad ribs and robust paired gastralia but lacks a fused plastron and complete carapace. Serial fusion is a homology hypothesis, not a frame in a literal ancestor sequence.",
+        "age": 239.5,
+        "timeRange": [
+          242,
+          237
+        ],
+        "taxonIds": [
+          "testudines"
+        ],
+        "view": "evidence",
+        "eventId": "pappochelys-gastralia-shell-mosaic",
+        "annotation": "A multi-specimen reconstruction is not one individual transforming into a later taxon.",
+        "claimLinks": [
+          {
+            "claimId": "claim:event:pappochelys-gastralia-shell-mosaic",
+            "relation": "supports"
+          }
+        ]
+      },
+      {
+        "id": "odontochelys-shell-mosaic",
+        "title": "A complete plastron and incomplete dorsal shell",
+        "text": "Three Odontochelys specimens preserve a developed plastron with expanded ribs and neural plates but no complete carapace. A plastron-first sequence and marginal-marine life remain interpretations, not anatomy seen changing through time.",
+        "age": 232.15,
+        "timeRange": [
+          237,
+          227.3
+        ],
+        "taxonIds": [
+          "testudines"
+        ],
+        "view": "evidence",
+        "eventId": "odontochelys-plastron-dorsal-shell-mosaic",
+        "annotation": "Shell elements, environmental setting and a proposed evolutionary order are distinct claim layers.",
+        "claimLinks": [
+          {
+            "claimId": "claim:event:odontochelys-plastron-dorsal-shell-mosaic",
+            "relation": "supports"
+          }
+        ]
+      },
+      {
+        "id": "caribemys-calibration",
+        "title": "One fossil sets a minimum, not an origin date",
+        "text": "Caribemys holotype MNHNCu P-3209 anchors a 155.6 Ma hard minimum for crown Testudines in one best-practice analysis. Its much older posterior estimate comes from a relaxed clock, topology and priors.",
+        "age": 155.6,
+        "timeRange": [
+          161.5,
+          155.6
+        ],
+        "taxonIds": [
+          "testudines",
+          "pleurodira"
+        ],
+        "view": "tree",
+        "eventId": "caribemys-crown-turtle-calibration",
+        "annotation": "A fossil minimum, a maximum prior and a posterior node age are three different quantities.",
+        "claimLinks": [
+          {
+            "claimId": "claim:event:caribemys-crown-turtle-calibration",
+            "relation": "supports"
+          }
+        ]
+      },
+      {
+        "id": "taytalura-skull",
+        "title": "A three-dimensional skull enters several trees",
+        "text": "Micro-CT reveals the cranial mosaic of Taytalura holotype PVSJ 698. Multiple analyses place it on the lepidosauromorph stem, but a single skull does not supply whole-body anatomy, direct ancestry or a global range.",
+        "age": 228.65,
+        "timeRange": [
+          231.4,
+          225.9
+        ],
+        "taxonIds": [
+          "lepidosauria"
+        ],
+        "view": "tree",
+        "eventId": "taytalura-stem-lepidosaur-skull",
+        "annotation": "The scan volume is specimen evidence; the tree position is an analytical output.",
+        "claimLinks": [
+          {
+            "claimId": "claim:event:taytalura-stem-lepidosaur-skull",
+            "relation": "supports"
+          }
+        ]
+      },
+      {
+        "id": "megachirella-combined-model",
+        "title": "One skeleton joins morphology and molecules",
+        "text": "CT anatomy of Megachirella PZO 628 was combined with fossil morphology and living molecular partitions. The analysis recovers a stem squamate and estimates deep divergences, but neither output is a directly observed crown FAD.",
+        "age": 244.6,
+        "timeRange": [
+          247.2,
+          242
+        ],
+        "taxonIds": [
+          "pan-squamata"
+        ],
+        "view": "tree",
+        "eventId": "megachirella-ct-stem-squamate",
+        "annotation": "Fossil anatomy, molecular constraint and clock time remain separately labelled.",
+        "claimLinks": [
+          {
+            "claimId": "claim:event:megachirella-ct-stem-squamate",
+            "relation": "supports"
+          }
+        ]
+      },
+      {
+        "id": "bellairsia-mosaic",
+        "title": "A near-complete skeleton still gives a mosaic",
+        "text": "Synchrotron scans of Bellairsia NMS G.2022.1.1 reveal crown-like and retained states in one Jurassic skeleton. Stem placement and proposed cranial motion depend on matrices and functional interpretation.",
+        "age": 166.75,
+        "timeRange": [
+          168.2,
+          165.3
+        ],
+        "taxonIds": [
+          "pan-squamata"
+        ],
+        "view": "evidence",
+        "eventId": "bellairsia-synchrotron-stem-squamate",
+        "annotation": "Completeness improves observation but does not remove topology or function uncertainty.",
+        "claimLinks": [
+          {
+            "claimId": "claim:event:bellairsia-synchrotron-stem-squamate",
+            "relation": "supports"
+          }
+        ]
+      },
+      {
+        "id": "cryptovaranoides-dispute",
+        "title": "The same block supports competing placements",
+        "text": "Teams disagree over bones, referrals and character scores for Cryptovaranoides NHMUK PV R36822, producing crown-squamate and non-squamate trees. The atlas therefore keeps the topology contested instead of inventing a secure Triassic crown FAD.",
+        "age": 203.55,
+        "timeRange": [
+          205.7,
+          201.4
+        ],
+        "taxonIds": [
+          "pan-squamata",
+          "squamata"
+        ],
+        "view": "evidence",
+        "eventId": "cryptovaranoides-competing-topologies",
+        "annotation": "COL26.8 assigns 12,622 accepted living species to this package as a nomenclatural routing snapshot; it neither resolves fossil topology nor measures dossier, translation, media or review maturity.",
+        "claimLinks": [
+          {
+            "claimId": "claim:event:cryptovaranoides-competing-topologies",
+            "relation": "supports"
+          }
+        ]
+      }
+    ],
+    "evidenceStatus": "available-with-limitations"
   }
 ]

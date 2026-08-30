@@ -2,6 +2,7 @@
 import { createContext, useCallback, useContext, useEffect, useMemo, useState, type ReactNode } from 'react'
 import { cetartiodactylaZhKeys } from './cetartiodactylaZhKeys'
 import { marineZhKeys } from './marineZhKeys'
+import { hasTurtleLepidosaurTranslation } from './turtleLepidosaurZhKeys'
 
 export type Language = 'en' | 'zh'
 type TranslationValues = Record<string, string | number>
@@ -2364,8 +2365,8 @@ export function I18nProvider({ children }: { children: ReactNode }) {
   useEffect(() => {
     let active = true
     if (language === 'zh' && Object.keys(extendedZh).length === 0) {
-      void Promise.all([import('./marineZh'), import('./cetartiodactylaZh')]).then(([{ marineZh }, { cetartiodactylaZh }]) => {
-        if (active) setExtendedZh({ ...marineZh, ...cetartiodactylaZh })
+      void Promise.all([import('./marineZh'), import('./cetartiodactylaZh'), import('./turtleLepidosaurZh')]).then(([{ marineZh }, { cetartiodactylaZh }, { turtleLepidosaurZh }]) => {
+        if (active) setExtendedZh({ ...marineZh, ...cetartiodactylaZh, ...turtleLepidosaurZh })
       })
     }
     return () => { active = false }
@@ -2400,5 +2401,5 @@ export function useI18n(): I18nContextValue {
 }
 
 export function hasChineseTranslation(english: string): boolean {
-  return Object.hasOwn(zh, english) || marineZhKeys.has(english) || cetartiodactylaZhKeys.has(english) || compactAmphibianTranslation(english) !== undefined
+  return Object.hasOwn(zh, english) || marineZhKeys.has(english) || cetartiodactylaZhKeys.has(english) || hasTurtleLepidosaurTranslation(english) || compactAmphibianTranslation(english) !== undefined
 }
