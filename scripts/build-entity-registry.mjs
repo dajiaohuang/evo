@@ -180,6 +180,14 @@ function ownerForClaim(claim) {
     'anisian-stem-teleosteomorph-record': 'actinopterygii',
     'neopterygian-caudal-fin-mosaic': 'actinopterygii',
     'eloposteoglossocephala-genome-structure': 'actinopterygii',
+    'kungurian-gerobatrachus-stem-batrachian': 'amphibia',
+    'early-triassic-triadobatrachus-ct': 'amphibia',
+    'norian-funcusvermis-stem-caecilian': 'amphibia',
+    'oxfordian-beiyanerpeton-salamandroid': 'amphibia',
+    'oligocene-ymboirana-crown-caecilian': 'amphibia',
+    'xenopus-tropicalis-draft-genome': 'amphibia',
+    'xenopus-thyroid-receptor-metamorphosis': 'amphibia',
+    'extant-amphibian-7238-species-timetree': 'amphibia',
     'tetrapods-on-land': 'tetrapod-transition',
     'zachelmie-digit-trackways': 'tetrapod-transition',
     'tiktaalik-body-plan-mosaic': 'tetrapod-transition',
@@ -465,7 +473,10 @@ for (const definition of packageDefinitions) {
       } : {}),
     },
     ...packageMaturity(definition),
-    limitations: ['Package dossiers expose the current curated evidence boundary; unavailable fields are explicit and are not inferred.'],
+    limitations: [
+      'Package dossiers expose the current curated evidence boundary; unavailable fields are explicit and are not inferred.',
+      ...(definition.limitations ?? []),
+    ],
   })
   writeJson(`data/packages/${definition.path}/provenance.json`, {
     packageId: definition.id,

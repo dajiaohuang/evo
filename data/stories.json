@@ -1655,5 +1655,208 @@
       }
     ],
     "evidenceStatus": "available-with-limitations"
+  },
+  {
+    "id": "amphibian-fossil-boundaries",
+    "title": "Five amphibian fossils, five boundaries",
+    "titleZh": "五组两栖类化石，五条证据边界",
+    "dek": "Follow named specimens from a Permian stem batrachian to a provisional Oligocene crown-caecilian record without merging total groups, crowns, direct ancestry or global first appearances.",
+    "theme": "sage",
+    "durationMinutes": 11,
+    "featured": true,
+    "steps": [
+      {
+        "id": "gerobatrachus-mosaic",
+        "title": "A stem batrachian mosaic",
+        "text": "One Gerobatrachus holotype combines frog-like and salamander-like characters in the original tree, but it is not crown Batrachia or a direct ancestor.",
+        "age": 278.85,
+        "timeRange": [
+          283.3,
+          274.4
+        ],
+        "taxonIds": [
+          "lissamphibia"
+        ],
+        "view": "tree",
+        "eventId": "kungurian-gerobatrachus-stem-batrachian",
+        "annotation": "A proposed topology and a specimen occurrence are narrower than the origin of living amphibians.",
+        "claimLinks": [
+          {
+            "claimId": "claim:event:kungurian-gerobatrachus-stem-batrachian",
+            "relation": "supports"
+          }
+        ]
+      },
+      {
+        "id": "triadobatrachus-ct",
+        "title": "Hidden anatomy in a split nodule",
+        "text": "μCT reveals caudal vertebrae and a long trunk in the unique Triadobatrachus holotype, supporting stem Salientia rather than crown Anura or specialized jumping.",
+        "age": 249.45,
+        "timeRange": [
+          251.902,
+          247
+        ],
+        "taxonIds": [
+          "anura"
+        ],
+        "view": "evidence",
+        "eventId": "early-triassic-triadobatrachus-ct",
+        "annotation": "Historical provenance and current numerical chart boundaries remain visibly separate.",
+        "claimLinks": [
+          {
+            "claimId": "claim:event:early-triassic-triadobatrachus-ct",
+            "relation": "supports"
+          }
+        ]
+      },
+      {
+        "id": "funcusvermis-elements",
+        "title": "Many individuals, isolated elements",
+        "text": "At least 76 Funcusvermis individuals from a dated bonebed support Gymnophionomorpha while remaining outside crown Gymnophiona.",
+        "age": 220.54,
+        "timeRange": [
+          223.036,
+          218.043
+        ],
+        "taxonIds": [
+          "gymnophionomorpha"
+        ],
+        "view": "tree",
+        "eventId": "norian-funcusvermis-stem-caecilian",
+        "annotation": "A total-group occurrence cannot set the crown-group range.",
+        "claimLinks": [
+          {
+            "claimId": "claim:event:norian-funcusvermis-stem-caecilian",
+            "relation": "supports"
+          }
+        ]
+      },
+      {
+        "id": "beiyanerpeton-skeletons",
+        "title": "Articulated salamandroids below a dated flow",
+        "text": "PKUP V0601–V0606 support an Oxfordian salamandroid record; the zircon age comes from overlying rock and neoteny is inferred.",
+        "age": 157,
+        "timeRange": [
+          160,
+          154
+        ],
+        "taxonIds": [
+          "caudata"
+        ],
+        "view": "evidence",
+        "eventId": "oxfordian-beiyanerpeton-salamandroid",
+        "annotation": "Association strengthens anatomy while leaving age and developmental interpretation bounded.",
+        "claimLinks": [
+          {
+            "claimId": "claim:event:oxfordian-beiyanerpeton-salamandroid",
+            "relation": "supports"
+          }
+        ]
+      },
+      {
+        "id": "ymboirana-affinity",
+        "title": "A provisional living-family assignment",
+        "text": "DGM 1462-R supports an Oligocene caecilian compared with living Typhlonectidae, but formal phylogenetic testing and an unambiguous family synapomorphy are absent.",
+        "age": 25,
+        "timeRange": [
+          27.82,
+          23.03
+        ],
+        "taxonIds": [
+          "gymnophiona"
+        ],
+        "view": "evidence",
+        "eventId": "oligocene-ymboirana-crown-caecilian",
+        "annotation": "The crown display bound is deliberately low-confidence and revision-ready.",
+        "claimLinks": [
+          {
+            "claimId": "claim:event:oligocene-ymboirana-crown-caecilian",
+            "relation": "supports"
+          }
+        ]
+      }
+    ],
+    "evidenceStatus": "available-with-limitations"
+  },
+  {
+    "id": "living-amphibian-model-boundaries",
+    "title": "Living amphibian data: genome, experiment and tree",
+    "titleZh": "现生两栖动物数据：基因组、实验与系统树",
+    "dek": "Compare one frog genome, receptor-knockout metamorphosis and a synthetic species timetree without treating extant datasets as fossils, ancestors or complete taxonomic coverage.",
+    "theme": "blue",
+    "durationMinutes": 7,
+    "featured": true,
+    "steps": [
+      {
+        "id": "xenopus-genome",
+        "title": "One individual, one draft genome",
+        "text": "The Xenopus tropicalis draft assembly is a powerful extant reference with an accession and known sampling boundary, not a genome for all amphibians.",
+        "age": 0,
+        "timeRange": [
+          0,
+          0
+        ],
+        "taxonIds": [
+          "anura"
+        ],
+        "view": "evidence",
+        "eventId": "xenopus-tropicalis-draft-genome",
+        "annotation": "Extant genomic comparison does not directly observe lineage origins.",
+        "claimLinks": [
+          {
+            "claimId": "claim:event:xenopus-tropicalis-draft-genome",
+            "relation": "supports"
+          }
+        ]
+      },
+      {
+        "id": "receptor-knockouts",
+        "title": "Metamorphosis differs by receptor and organ",
+        "text": "TRβ knockout delays tail regression while TRα knockout advances hindlimbs, making the experiment mechanistic but model- and tissue-specific.",
+        "age": 0,
+        "timeRange": [
+          0,
+          0
+        ],
+        "taxonIds": [
+          "anura"
+        ],
+        "view": "evidence",
+        "eventId": "xenopus-thyroid-receptor-metamorphosis",
+        "annotation": "Experimental causation in one laboratory model is not a universal amphibian rule.",
+        "claimLinks": [
+          {
+            "claimId": "claim:event:xenopus-thyroid-receptor-metamorphosis",
+            "relation": "supports"
+          }
+        ]
+      },
+      {
+        "id": "synthetic-timetree",
+        "title": "Molecular and taxonomic placements coexist",
+        "text": "The 7,238-species posterior uses molecular data for 4,061 species and soft taxonomic inference for the rest; its times are model outputs.",
+        "age": 0,
+        "timeRange": [
+          0,
+          0
+        ],
+        "taxonIds": [
+          "amphibia",
+          "anura",
+          "caudata",
+          "gymnophiona"
+        ],
+        "view": "tree",
+        "eventId": "extant-amphibian-7238-species-timetree",
+        "annotation": "COL26.8 naming coverage, sequence sampling and mature evidence dossiers remain different inventories.",
+        "claimLinks": [
+          {
+            "claimId": "claim:event:extant-amphibian-7238-species-timetree",
+            "relation": "supports"
+          }
+        ]
+      }
+    ],
+    "evidenceStatus": "available-with-limitations"
   }
 ]

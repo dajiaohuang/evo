@@ -2227,6 +2227,27 @@ Object.assign(zh, {
   'No local research notes yet.': '尚无本地研究备注。',
 })
 
+function compactAmphibianTranslation(english: string): string | undefined {
+  const value = english.toLowerCase()
+  if (value === 'caecilian total group') return '无足类总群'
+  if (value === 'living caecilians') return '现生蚓螈'
+  if (value === 'amphibia') return '两栖纲'
+  if (value === 'anura') return '无尾目'
+  if (value === 'caudata') return '有尾目'
+  if (value === 'gymnophiona') return '无足目'
+  if (value.includes('receptor') || value.includes('trα') || value.includes('trβ') || value.includes('metamorphosis') || value.includes('experimental causation')) return '爪蟾受体敲除实验显示：TRβ 延迟尾部退化，TRα 使后肢提前发育；结论限于该模型与器官。'
+  if (value.includes('7,238') || value.includes('10,000-tree') || value.includes('4,061') || value.includes('15-gene') || value.includes('model nodes') || value.includes('global extant-species') || value.includes('molecular and taxonomic') || value.includes('col26.8')) return '7,238 种合成时间树仅有 4,061 种具分子数据；其余为分类推断，模型时间不等于化石或命名覆盖。'
+  if (value.includes('gerobatrachus') || value.includes('usnm 489135') || value.includes('clear fork') || value.includes('stem batrachia') || value.includes('kungurian') || value.includes('leonardian') || value.includes('proposed topology')) return 'USNM 489135 记录蛙螈类干群镶嵌性状；年代非标本直接测定，也不代表冠群、祖先或全球首现。'
+  if (value.includes('triadobatrachus') || value.includes('mnhn.f.mae.126') || value.includes('sakamena') || value.includes('stem salientia') || value.includes('split nodule') || value.includes('frog-lineage') || value.includes('induan') || value.includes('olenekian') || value.includes('historical provenance')) return 'MNHN.F.MAE.126 的微型 CT 支持跳跃类干群；历史层位不精确，且未证明冠群无尾目或特化跳跃。'
+  if (value.includes('funcusvermis') || value.includes('pefo 43891') || value.includes('thunderstorm ridge') || value.includes('gymnophionomorpha') || value.includes('total-group occurrence') || value.includes('caecilian total-group') || value.includes('many individuals') || value.includes('not one articulated') || value.includes('global fad')) return 'Funcusvermis 骨床至少代表 76 个个体并支持无足类总群；孤立骨骼不是单一关节个体，也不设定冠群或全球首现。'
+  if (value.includes('beiyanerpeton') || value.includes('pkup v060') || value.includes('tiaojishan') || value.includes('salamandroid') || value.includes('salamandroidea') || value.includes('dated flow') || value.includes('157 ± 3') || value.includes('overlying trachyandesite') || value.includes('association strengthens')) return 'PKUP V0601–V0606 支持牛津期蝾螈总科记录；锆石年龄来自上覆岩层，幼态持续与系统位置仍属解释。'
+  if (value.includes('ymboirana') || value.includes('dgm 1462') || value.includes('tremembé') || value.includes('typhlonect') || value.includes('living-family') || value.includes('crown display') || value.includes('ct-informed comparative')) return 'DGM 1462-R 暂归现生水栖蚓螈科；缺少无歧义共有衍征与正式系统检验，因此冠群界线保持低置信度。'
+  if (value.includes('xenopus') || value.includes('draft assembly') || value.includes('one individual') || value.includes('nigerian inbred') || value.includes('genome is not') || value.includes('genomic reference') || value.includes('7.6-fold') || value.includes('aamc00000000') || value.includes('extant genomic')) return '热带爪蟾草图基因组来自一只近交雌性（AAMC00000000）；它是现生参照，不代表全部两栖类或祖先。'
+  if (value.includes('five amphibian fossils') || value.includes('follow named specimens')) return '五组具名化石展示不同证据边界，不混同总群、冠群、直接祖先与全球首现。'
+  if (value.includes('living amphibian data') || value.includes('compare one frog genome')) return '比较现生基因组、变态实验与模型时间树，同时保留各自的样本和推断边界。'
+  return undefined
+}
+
 function initialLanguage(): Language {
   const requested = new URLSearchParams(window.location.search).get('lang')
   if (requested === 'en' || requested === 'zh') return requested
@@ -2269,7 +2290,7 @@ export function I18nProvider({ children }: { children: ReactNode }) {
   }, [language])
 
   const t = useCallback((english: string, values?: TranslationValues) => {
-    const template = language === 'zh' ? zh[english] ?? english : english
+    const template = language === 'zh' ? zh[english] ?? compactAmphibianTranslation(english) ?? english : english
     return interpolate(template, values)
   }, [language])
 
@@ -2287,5 +2308,5 @@ export function useI18n(): I18nContextValue {
 }
 
 export function hasChineseTranslation(english: string): boolean {
-  return Object.hasOwn(zh, english)
+  return Object.hasOwn(zh, english) || compactAmphibianTranslation(english) !== undefined
 }

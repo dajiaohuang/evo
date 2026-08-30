@@ -1,5 +1,5 @@
 export const PACKAGE_SCHEMA_VERSION = 5
-export const DATASET_PACKAGE_VERSION = '2026.08-static-v5-rc18'
+export const DATASET_PACKAGE_VERSION = '2026.08-static-v5-rc19'
 export const DATASET_RELEASE_DATE = '2026-08-30'
 
 export const packageDefinitions = [
@@ -151,6 +151,17 @@ export const packageDefinitions = [
     title: 'Amphibians',
     titleZh: '两栖动物',
     rootEntityIds: ['amphibia'],
+    conceptScope: {
+      en: 'Primary-evidence dossiers for Amphibia separate named fossil occurrences, stem and crown concepts, living experiments, genomic samples, model time trees, PBDB bounded samples and COL26.8 nomenclatural coverage. COL26.8 routes 8,923 strictly accepted species names below Amphibia usage ID PH; this is naming coverage, not 8,923 mature dossiers.',
+      zh: '两栖动物一手证据档案明确区分具名化石出现、干群与冠群概念、现生实验、基因组样本、模型时间树、PBDB 有界样本与 COL26.8 命名覆盖。COL26.8 在 Amphibia 用法 ID PH 下路由 8,923 个严格接受种名；这是命名覆盖，并非 8,923 份成熟档案。',
+    },
+    scientificMaturity: 'structured',
+    limitations: [
+      'Gerobatrachus, Triadobatrachus, Funcusvermis, Beiyanerpeton and Ymboirana are specimen occurrences with explicit topology and dating limits; none is asserted to be a direct ancestor or global FAD.',
+      'Gymnophionomorpha is a total-group navigation concept; the approximately 25 Ma Gymnophiona crown display bound is provisional because Ymboirana lacks an unambiguous typhlonectid synapomorphy and formal phylogenetic testing.',
+      'The Xenopus genome, receptor-knockout experiment and 7,238-species synthetic time tree are present-day datasets or models, not fossil observations, whole-clade genomic coverage or current nomenclatural authority.',
+      'PBDB resolution and occurrence counts are bounded snapshot results and must not be promoted to biological absence or global first-appearance claims.',
+    ],
     wave: 'C',
   },
   {

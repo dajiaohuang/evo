@@ -148,5 +148,61 @@
     ],
     "reviewStatus": "not-reviewed",
     "evidenceLevel": "legacy-display"
+  },
+  {
+    "id": "range:gymnophionomorpha:global",
+    "entityId": "gymnophionomorpha",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Gymnophionomorpha total group; Funcusvermis is outside crown Gymnophiona",
+    "geographicScope": "Global total-group display bound",
+    "olderMa": 223.04,
+    "youngerMa": 0,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": 0.059,
+      "youngerMa": null,
+      "note": "The older endpoint rounds the dated upper Blue Mesa Member occurrence and is not a crown-caecilian origin time."
+    },
+    "evidenceBasis": "Funcusvermis occurs in a U–Pb-bracketed Norian bonebed and was recovered on the caecilian stem in the published analyses.",
+    "confidence": "medium",
+    "claimIds": [
+      "claim:taxon:gymnophionomorpha:stem-record"
+    ],
+    "referenceLocators": [
+      {
+        "referenceId": "kligman-2023-funcusvermis",
+        "locator": "pp. 102–107; Fig. 1; Extended Data Figs. 2–4; Methods and Supplementary Information section 1"
+      }
+    ],
+    "reviewStatus": "not-reviewed",
+    "evidenceLevel": "literature-synthesized"
+  },
+  {
+    "id": "range:gymnophiona:global",
+    "entityId": "gymnophiona",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Gymnophiona crown group; provisional fossil-family assignment",
+    "geographicScope": "Global crown-group display bound",
+    "olderMa": 25,
+    "youngerMa": 0,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "The older endpoint follows an approximately 25 Ma comparative assignment to living Typhlonectidae; a formal phylogenetic test remains pending."
+    },
+    "evidenceBasis": "Ymboirana was assigned to Typhlonectidae from CT-informed comparative anatomy, but the authors report no unambiguous family synapomorphy and defer formal phylogenetic testing.",
+    "confidence": "low",
+    "claimIds": [
+      "claim:taxon:gymnophiona:provisional-crown-record"
+    ],
+    "referenceLocators": [
+      {
+        "referenceId": "santos-2024-ymboirana",
+        "locator": "pp. 3–20; Figs. 2–9 and 12–15; Systematic palaeontology, Affinities and Discussion"
+      }
+    ],
+    "reviewStatus": "not-reviewed",
+    "evidenceLevel": "literature-synthesized"
   }
 ]
