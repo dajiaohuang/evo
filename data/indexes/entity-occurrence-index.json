@@ -6,6 +6,7 @@
   "nodes": {
     "life": {
       "entityId": "life",
+      "packageId": "atlas-core",
       "entityKind": "navigation-group",
       "externalTaxonId": null,
       "scientificNameNormalized": "life",
@@ -753,6 +754,7 @@
     },
     "plantae": {
       "entityId": "plantae",
+      "packageId": "early-land-plants",
       "entityKind": "taxon",
       "externalTaxonId": "txn:54311",
       "scientificNameNormalized": "plantae",
@@ -814,11 +816,12 @@
     },
     "bryophyta": {
       "entityId": "bryophyta",
+      "packageId": "early-land-plants",
       "entityKind": "taxon",
       "externalTaxonId": "txn:55134",
       "scientificNameNormalized": "bryophyta",
       "externalResolutionStatus": "resolved-exact",
-      "queryStatus": "resolved-and-observed",
+      "queryStatus": "complete-query-observed",
       "descendantEntityIds": [],
       "descendantTaxonIds": [
         "txn:55134"
@@ -831,8 +834,8 @@
         "acceptedName": 0,
         "higherClassification": 16
       },
-      "completeSnapshotAvailable": false,
-      "completeSnapshotRows": null,
+      "completeSnapshotAvailable": true,
+      "completeSnapshotRows": 1304,
       "periods": [
         "Silurian",
         "Triassic",
@@ -842,11 +845,12 @@
     },
     "lycophyta": {
       "entityId": "lycophyta",
+      "packageId": "early-land-plants",
       "entityKind": "taxon",
       "externalTaxonId": "txn:249949",
       "scientificNameNormalized": "lycopodiophyta",
       "externalResolutionStatus": "resolved-exact",
-      "queryStatus": "resolved-and-observed",
+      "queryStatus": "complete-query-observed",
       "descendantEntityIds": [
         "lepidodendron"
       ],
@@ -861,8 +865,8 @@
         "acceptedName": 0,
         "higherClassification": 32
       },
-      "completeSnapshotAvailable": false,
-      "completeSnapshotRows": null,
+      "completeSnapshotAvailable": true,
+      "completeSnapshotRows": 2251,
       "periods": [
         "Triassic"
       ],
@@ -870,6 +874,7 @@
     },
     "lepidodendron": {
       "entityId": "lepidodendron",
+      "packageId": "early-land-plants",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "lepidodendrales",
@@ -890,11 +895,12 @@
     },
     "pteridophyta": {
       "entityId": "pteridophyta",
+      "packageId": "early-land-plants",
       "entityKind": "historical-grade",
       "externalTaxonId": "txn:54828",
       "scientificNameNormalized": "pteridophyta",
       "externalResolutionStatus": "resolved-exact",
-      "queryStatus": "historical-grade",
+      "queryStatus": "complete-query-observed",
       "descendantEntityIds": [
         "equisetopsida",
         "filicopsida"
@@ -910,8 +916,8 @@
         "acceptedName": 0,
         "higherClassification": 208
       },
-      "completeSnapshotAvailable": false,
-      "completeSnapshotRows": null,
+      "completeSnapshotAvailable": true,
+      "completeSnapshotRows": 27963,
       "periods": [
         "Permian",
         "Triassic",
@@ -921,6 +927,7 @@
     },
     "equisetopsida": {
       "entityId": "equisetopsida",
+      "packageId": "early-land-plants",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "equisetopsida",
@@ -941,6 +948,7 @@
     },
     "filicopsida": {
       "entityId": "filicopsida",
+      "packageId": "early-land-plants",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "filicopsida",
@@ -961,6 +969,7 @@
     },
     "gymnospermae": {
       "entityId": "gymnospermae",
+      "packageId": "gymnosperms",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "gymnospermae",
@@ -986,6 +995,7 @@
     },
     "cycadophyta": {
       "entityId": "cycadophyta",
+      "packageId": "gymnosperms",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "cycadophyta",
@@ -1006,6 +1016,7 @@
     },
     "ginkgophyta": {
       "entityId": "ginkgophyta",
+      "packageId": "gymnosperms",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "ginkgophyta",
@@ -1026,6 +1037,7 @@
     },
     "coniferophyta": {
       "entityId": "coniferophyta",
+      "packageId": "gymnosperms",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "coniferophyta",
@@ -1048,6 +1060,7 @@
     },
     "araucariaceae": {
       "entityId": "araucariaceae",
+      "packageId": "gymnosperms",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "araucariaceae",
@@ -1068,11 +1081,12 @@
     },
     "angiospermae": {
       "entityId": "angiospermae",
+      "packageId": "angiospermae",
       "entityKind": "taxon",
       "externalTaxonId": "txn:54885",
       "scientificNameNormalized": "angiospermae",
       "externalResolutionStatus": "resolved-exact",
-      "queryStatus": "resolved-and-observed",
+      "queryStatus": "complete-query-observed",
       "descendantEntityIds": [
         "monocotyledones",
         "poaceae",
@@ -1092,8 +1106,8 @@
         "acceptedName": 0,
         "higherClassification": 48
       },
-      "completeSnapshotAvailable": false,
-      "completeSnapshotRows": null,
+      "completeSnapshotAvailable": true,
+      "completeSnapshotRows": 44311,
       "periods": [
         "Triassic",
         "Neogene",
@@ -1103,11 +1117,12 @@
     },
     "monocotyledones": {
       "entityId": "monocotyledones",
+      "packageId": "angiospermae",
       "entityKind": "taxon",
       "externalTaxonId": "txn:55352",
       "scientificNameNormalized": "monocotyledones",
       "externalResolutionStatus": "resolved-rank-variant",
-      "queryStatus": "resolved-zero-in-bounded-sample",
+      "queryStatus": "complete-query-observed",
       "descendantEntityIds": [
         "poaceae"
       ],
@@ -1122,13 +1137,14 @@
         "acceptedName": 0,
         "higherClassification": 0
       },
-      "completeSnapshotAvailable": false,
-      "completeSnapshotRows": null,
+      "completeSnapshotAvailable": true,
+      "completeSnapshotRows": 1306,
       "periods": [],
       "matchedTotal": 0
     },
     "poaceae": {
       "entityId": "poaceae",
+      "packageId": "angiospermae",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "poaceae",
@@ -1149,6 +1165,7 @@
     },
     "eudicotyledones": {
       "entityId": "eudicotyledones",
+      "packageId": "angiospermae",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "eudicotyledones",
@@ -1171,6 +1188,7 @@
     },
     "fabaceae": {
       "entityId": "fabaceae",
+      "packageId": "angiospermae",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "fabaceae",
@@ -1191,11 +1209,12 @@
     },
     "marchantiophyta": {
       "entityId": "marchantiophyta",
+      "packageId": "early-land-plants",
       "entityKind": "taxon",
       "externalTaxonId": "txn:55120",
       "scientificNameNormalized": "marchantiophyta",
       "externalResolutionStatus": "resolved-exact",
-      "queryStatus": "resolved-zero-in-bounded-sample",
+      "queryStatus": "complete-query-observed",
       "descendantEntityIds": [],
       "descendantTaxonIds": [
         "txn:55120"
@@ -1208,13 +1227,14 @@
         "acceptedName": 0,
         "higherClassification": 0
       },
-      "completeSnapshotAvailable": false,
-      "completeSnapshotRows": null,
+      "completeSnapshotAvailable": true,
+      "completeSnapshotRows": 295,
       "periods": [],
       "matchedTotal": 0
     },
     "anthocerotophyta": {
       "entityId": "anthocerotophyta",
+      "packageId": "early-land-plants",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "anthocerotophyta",
@@ -1235,6 +1255,7 @@
     },
     "invertebrata": {
       "entityId": "invertebrata",
+      "packageId": "atlas-core",
       "entityKind": "informal-group",
       "externalTaxonId": null,
       "scientificNameNormalized": "invertebrata",
@@ -1503,11 +1524,12 @@
     },
     "porifera": {
       "entityId": "porifera",
+      "packageId": "sponges-cnidarians",
       "entityKind": "taxon",
       "externalTaxonId": "txn:2894",
       "scientificNameNormalized": "porifera",
       "externalResolutionStatus": "resolved-exact",
-      "queryStatus": "resolved-and-observed",
+      "queryStatus": "complete-query-observed",
       "descendantEntityIds": [
         "stromatoporoidea",
         "demospongiae",
@@ -1537,8 +1559,8 @@
         "acceptedName": 0,
         "higherClassification": 162
       },
-      "completeSnapshotAvailable": false,
-      "completeSnapshotRows": null,
+      "completeSnapshotAvailable": true,
+      "completeSnapshotRows": 24574,
       "periods": [
         "Cambrian",
         "Ordovician",
@@ -1555,11 +1577,12 @@
     },
     "stromatoporoidea": {
       "entityId": "stromatoporoidea",
+      "packageId": "sponges-cnidarians",
       "entityKind": "taxon",
       "externalTaxonId": "txn:3338",
       "scientificNameNormalized": "stromatoporoidea",
       "externalResolutionStatus": "resolved-exact",
-      "queryStatus": "resolved-and-observed",
+      "queryStatus": "complete-query-observed",
       "descendantEntityIds": [],
       "descendantTaxonIds": [
         "txn:3338"
@@ -1572,8 +1595,8 @@
         "acceptedName": 0,
         "higherClassification": 19
       },
-      "completeSnapshotAvailable": false,
-      "completeSnapshotRows": null,
+      "completeSnapshotAvailable": true,
+      "completeSnapshotRows": 5065,
       "periods": [
         "Ordovician",
         "Silurian",
@@ -1583,11 +1606,12 @@
     },
     "demospongiae": {
       "entityId": "demospongiae",
+      "packageId": "sponges-cnidarians",
       "entityKind": "taxon",
       "externalTaxonId": "txn:2895",
       "scientificNameNormalized": "demospongiae",
       "externalResolutionStatus": "resolved-exact",
-      "queryStatus": "resolved-and-observed",
+      "queryStatus": "complete-query-observed",
       "descendantEntityIds": [
         "amphimedon_queenslandica"
       ],
@@ -1602,8 +1626,8 @@
         "acceptedName": 0,
         "higherClassification": 87
       },
-      "completeSnapshotAvailable": false,
-      "completeSnapshotRows": null,
+      "completeSnapshotAvailable": true,
+      "completeSnapshotRows": 9383,
       "periods": [
         "Cambrian",
         "Ordovician",
@@ -1617,6 +1641,7 @@
     },
     "amphimedon_queenslandica": {
       "entityId": "amphimedon_queenslandica",
+      "packageId": "sponges-cnidarians",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "amphimedon queenslandica",
@@ -1637,6 +1662,7 @@
     },
     "hexactinellida": {
       "entityId": "hexactinellida",
+      "packageId": "sponges-cnidarians",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "hexactinellida",
@@ -1663,11 +1689,12 @@
     },
     "helicolocellus": {
       "entityId": "helicolocellus",
+      "packageId": "sponges-cnidarians",
       "entityKind": "taxon",
       "externalTaxonId": "txn:492146",
       "scientificNameNormalized": "helicolocellus",
       "externalResolutionStatus": "resolved-exact",
-      "queryStatus": "resolved-zero-in-bounded-sample",
+      "queryStatus": "complete-query-observed",
       "descendantEntityIds": [],
       "descendantTaxonIds": [
         "txn:492146"
@@ -1680,13 +1707,14 @@
         "acceptedName": 0,
         "higherClassification": 0
       },
-      "completeSnapshotAvailable": false,
-      "completeSnapshotRows": null,
+      "completeSnapshotAvailable": true,
+      "completeSnapshotRows": 1,
       "periods": [],
       "matchedTotal": 0
     },
     "calcarea": {
       "entityId": "calcarea",
+      "packageId": "sponges-cnidarians",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "calcarea",
@@ -1707,6 +1735,7 @@
     },
     "homoscleromorpha": {
       "entityId": "homoscleromorpha",
+      "packageId": "sponges-cnidarians",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "homoscleromorpha",
@@ -1727,11 +1756,12 @@
     },
     "eocyathispongia": {
       "entityId": "eocyathispongia",
+      "packageId": "sponges-cnidarians",
       "entityKind": "taxon",
       "externalTaxonId": "txn:324165",
       "scientificNameNormalized": "eocyathispongia",
       "externalResolutionStatus": "resolved-exact",
-      "queryStatus": "resolved-zero-in-bounded-sample",
+      "queryStatus": "complete-query-observed",
       "descendantEntityIds": [],
       "descendantTaxonIds": [
         "txn:324165"
@@ -1744,18 +1774,19 @@
         "acceptedName": 0,
         "higherClassification": 0
       },
-      "completeSnapshotAvailable": false,
-      "completeSnapshotRows": null,
+      "completeSnapshotAvailable": true,
+      "completeSnapshotRows": 1,
       "periods": [],
       "matchedTotal": 0
     },
     "cnidaria": {
       "entityId": "cnidaria",
+      "packageId": "sponges-cnidarians",
       "entityKind": "taxon",
       "externalTaxonId": "txn:4524",
       "scientificNameNormalized": "cnidaria",
       "externalResolutionStatus": "resolved-exact",
-      "queryStatus": "resolved-and-observed",
+      "queryStatus": "complete-query-observed",
       "descendantEntityIds": [
         "anthozoa",
         "rugosa",
@@ -1791,8 +1822,8 @@
         "acceptedName": 0,
         "higherClassification": 461
       },
-      "completeSnapshotAvailable": false,
-      "completeSnapshotRows": null,
+      "completeSnapshotAvailable": true,
+      "completeSnapshotRows": 70942,
       "periods": [
         "Cambrian",
         "Ordovician",
@@ -1810,11 +1841,12 @@
     },
     "anthozoa": {
       "entityId": "anthozoa",
+      "packageId": "sponges-cnidarians",
       "entityKind": "taxon",
       "externalTaxonId": "txn:4742",
       "scientificNameNormalized": "anthozoa",
       "externalResolutionStatus": "resolved-exact",
-      "queryStatus": "resolved-and-observed",
+      "queryStatus": "complete-query-observed",
       "descendantEntityIds": [
         "rugosa",
         "tabulata",
@@ -1835,8 +1867,8 @@
         "acceptedName": 0,
         "higherClassification": 396
       },
-      "completeSnapshotAvailable": false,
-      "completeSnapshotRows": null,
+      "completeSnapshotAvailable": true,
+      "completeSnapshotRows": 68613,
       "periods": [
         "Cambrian",
         "Ordovician",
@@ -1854,6 +1886,7 @@
     },
     "rugosa": {
       "entityId": "rugosa",
+      "packageId": "sponges-cnidarians",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "rugosa",
@@ -1874,6 +1907,7 @@
     },
     "tabulata": {
       "entityId": "tabulata",
+      "packageId": "sponges-cnidarians",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "tabulata",
@@ -1894,11 +1928,12 @@
     },
     "scleractinia": {
       "entityId": "scleractinia",
+      "packageId": "sponges-cnidarians",
       "entityKind": "taxon",
       "externalTaxonId": "txn:6108",
       "scientificNameNormalized": "scleractinia",
       "externalResolutionStatus": "resolved-exact",
-      "queryStatus": "resolved-and-observed",
+      "queryStatus": "complete-query-observed",
       "descendantEntityIds": [],
       "descendantTaxonIds": [
         "txn:6108"
@@ -1911,8 +1946,8 @@
         "acceptedName": 0,
         "higherClassification": 100
       },
-      "completeSnapshotAvailable": false,
-      "completeSnapshotRows": null,
+      "completeSnapshotAvailable": true,
+      "completeSnapshotRows": 38635,
       "periods": [
         "Triassic",
         "Jurassic",
@@ -1924,6 +1959,7 @@
     },
     "octocorallia": {
       "entityId": "octocorallia",
+      "packageId": "sponges-cnidarians",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "octocorallia",
@@ -1944,6 +1980,7 @@
     },
     "hexacorallia": {
       "entityId": "hexacorallia",
+      "packageId": "sponges-cnidarians",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "hexacorallia",
@@ -1964,11 +2001,12 @@
     },
     "auroralumina": {
       "entityId": "auroralumina",
+      "packageId": "sponges-cnidarians",
       "entityKind": "taxon",
       "externalTaxonId": "txn:465171",
       "scientificNameNormalized": "auroralumina",
       "externalResolutionStatus": "resolved-exact",
-      "queryStatus": "resolved-zero-in-bounded-sample",
+      "queryStatus": "complete-query-observed",
       "descendantEntityIds": [],
       "descendantTaxonIds": [
         "txn:465171"
@@ -1981,13 +2019,14 @@
         "acceptedName": 0,
         "higherClassification": 0
       },
-      "completeSnapshotAvailable": false,
-      "completeSnapshotRows": null,
+      "completeSnapshotAvailable": true,
+      "completeSnapshotRows": 1,
       "periods": [],
       "matchedTotal": 0
     },
     "haootia": {
       "entityId": "haootia",
+      "packageId": "sponges-cnidarians",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "haootia",
@@ -2008,6 +2047,7 @@
     },
     "xianguangia": {
       "entityId": "xianguangia",
+      "packageId": "sponges-cnidarians",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "xianguangia",
@@ -2028,6 +2068,7 @@
     },
     "medusozoa": {
       "entityId": "medusozoa",
+      "packageId": "sponges-cnidarians",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "medusozoa",
@@ -2054,6 +2095,7 @@
     },
     "hydrozoa": {
       "entityId": "hydrozoa",
+      "packageId": "sponges-cnidarians",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "hydrozoa",
@@ -2074,6 +2116,7 @@
     },
     "staurozoa": {
       "entityId": "staurozoa",
+      "packageId": "sponges-cnidarians",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "staurozoa",
@@ -2094,6 +2137,7 @@
     },
     "cubozoa": {
       "entityId": "cubozoa",
+      "packageId": "sponges-cnidarians",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "cubozoa",
@@ -2114,6 +2158,7 @@
     },
     "scyphozoa": {
       "entityId": "scyphozoa",
+      "packageId": "sponges-cnidarians",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "scyphozoa",
@@ -2134,6 +2179,7 @@
     },
     "burgessomedusa": {
       "entityId": "burgessomedusa",
+      "packageId": "sponges-cnidarians",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "burgessomedusa",
@@ -2154,6 +2200,7 @@
     },
     "myxozoa": {
       "entityId": "myxozoa",
+      "packageId": "sponges-cnidarians",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "myxozoa",
@@ -2174,6 +2221,7 @@
     },
     "brachiopoda": {
       "entityId": "brachiopoda",
+      "packageId": "molluscs-brachiopods",
       "entityKind": "taxon",
       "externalTaxonId": "txn:26322",
       "scientificNameNormalized": "brachiopoda",
@@ -2218,6 +2266,7 @@
     },
     "articulata": {
       "entityId": "articulata",
+      "packageId": "molluscs-brachiopods",
       "entityKind": "historical-grade",
       "externalTaxonId": null,
       "scientificNameNormalized": "articulata",
@@ -2241,6 +2290,7 @@
     },
     "spiriferida": {
       "entityId": "spiriferida",
+      "packageId": "molluscs-brachiopods",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "spiriferida",
@@ -2261,6 +2311,7 @@
     },
     "terebratulida": {
       "entityId": "terebratulida",
+      "packageId": "molluscs-brachiopods",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "terebratulida",
@@ -2281,6 +2332,7 @@
     },
     "brachiopod-origin-dossiers": {
       "entityId": "brachiopod-origin-dossiers",
+      "packageId": "molluscs-brachiopods",
       "entityKind": "navigation-group",
       "externalTaxonId": null,
       "scientificNameNormalized": "brachiopod origin dossier route",
@@ -2305,6 +2357,7 @@
     },
     "micrina": {
       "entityId": "micrina",
+      "packageId": "molluscs-brachiopods",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "micrina",
@@ -2325,6 +2378,7 @@
     },
     "yuganotheca": {
       "entityId": "yuganotheca",
+      "packageId": "molluscs-brachiopods",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "yuganotheca elegans",
@@ -2345,6 +2399,7 @@
     },
     "kutorgina-chengjiangensis": {
       "entityId": "kutorgina-chengjiangensis",
+      "packageId": "molluscs-brachiopods",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "kutorgina chengjiangensis",
@@ -2365,6 +2420,7 @@
     },
     "lingula-anatina": {
       "entityId": "lingula-anatina",
+      "packageId": "molluscs-brachiopods",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "lingula anatina",
@@ -2385,6 +2441,7 @@
     },
     "mollusca": {
       "entityId": "mollusca",
+      "packageId": "molluscs-brachiopods",
       "entityKind": "taxon",
       "externalTaxonId": "txn:7805",
       "scientificNameNormalized": "mollusca",
@@ -2473,6 +2530,7 @@
     },
     "bivalvia": {
       "entityId": "bivalvia",
+      "packageId": "molluscs-brachiopods",
       "entityKind": "taxon",
       "externalTaxonId": "txn:16005",
       "scientificNameNormalized": "bivalvia",
@@ -2514,6 +2572,7 @@
     },
     "rudistae": {
       "entityId": "rudistae",
+      "packageId": "molluscs-brachiopods",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "hippuritoida",
@@ -2534,6 +2593,7 @@
     },
     "ostreoida": {
       "entityId": "ostreoida",
+      "packageId": "molluscs-brachiopods",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "ostreoida",
@@ -2554,6 +2614,7 @@
     },
     "pojetaia": {
       "entityId": "pojetaia",
+      "packageId": "molluscs-brachiopods",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "pojetaia runnegari",
@@ -2574,6 +2635,7 @@
     },
     "gastropoda": {
       "entityId": "gastropoda",
+      "packageId": "molluscs-brachiopods",
       "entityKind": "taxon",
       "externalTaxonId": "txn:8304",
       "scientificNameNormalized": "gastropoda",
@@ -2611,6 +2673,7 @@
     },
     "cephalopoda": {
       "entityId": "cephalopoda",
+      "packageId": "molluscs-brachiopods",
       "entityKind": "taxon",
       "externalTaxonId": "txn:12315",
       "scientificNameNormalized": "cephalopoda",
@@ -2668,11 +2731,12 @@
     },
     "nautiloidea": {
       "entityId": "nautiloidea",
+      "packageId": "molluscs-brachiopods",
       "entityKind": "taxon",
       "externalTaxonId": "txn:61323",
       "scientificNameNormalized": "nautiloidea",
       "externalResolutionStatus": "resolved-exact",
-      "queryStatus": "resolved-and-observed",
+      "queryStatus": "complete-query-observed",
       "descendantEntityIds": [],
       "descendantTaxonIds": [
         "txn:61323"
@@ -2685,8 +2749,8 @@
         "acceptedName": 0,
         "higherClassification": 0
       },
-      "completeSnapshotAvailable": false,
-      "completeSnapshotRows": null,
+      "completeSnapshotAvailable": true,
+      "completeSnapshotRows": 490,
       "periods": [
         "Ordovician",
         "Silurian",
@@ -2697,11 +2761,12 @@
     },
     "ammonoidea": {
       "entityId": "ammonoidea",
+      "packageId": "molluscs-brachiopods",
       "entityKind": "taxon",
       "externalTaxonId": "txn:14505",
       "scientificNameNormalized": "ammonoidea",
       "externalResolutionStatus": "resolved-exact",
-      "queryStatus": "resolved-and-observed",
+      "queryStatus": "complete-query-observed",
       "descendantEntityIds": [
         "goniatitida",
         "ceratitida",
@@ -2724,8 +2789,8 @@
         "acceptedName": 0,
         "higherClassification": 228
       },
-      "completeSnapshotAvailable": false,
-      "completeSnapshotRows": null,
+      "completeSnapshotAvailable": true,
+      "completeSnapshotRows": 94365,
       "periods": [
         "Devonian",
         "Carboniferous",
@@ -2737,11 +2802,12 @@
     },
     "goniatitida": {
       "entityId": "goniatitida",
+      "packageId": "molluscs-brachiopods",
       "entityKind": "taxon",
       "externalTaxonId": "txn:13602",
       "scientificNameNormalized": "goniatitida",
       "externalResolutionStatus": "resolved-exact",
-      "queryStatus": "resolved-and-observed",
+      "queryStatus": "complete-query-observed",
       "descendantEntityIds": [],
       "descendantTaxonIds": [
         "txn:13602"
@@ -2754,8 +2820,8 @@
         "acceptedName": 0,
         "higherClassification": 21
       },
-      "completeSnapshotAvailable": false,
-      "completeSnapshotRows": null,
+      "completeSnapshotAvailable": true,
+      "completeSnapshotRows": 8560,
       "periods": [
         "Devonian",
         "Carboniferous",
@@ -2765,11 +2831,12 @@
     },
     "ceratitida": {
       "entityId": "ceratitida",
+      "packageId": "molluscs-brachiopods",
       "entityKind": "taxon",
       "externalTaxonId": "txn:14000",
       "scientificNameNormalized": "ceratitida",
       "externalResolutionStatus": "resolved-exact",
-      "queryStatus": "resolved-zero-in-bounded-sample",
+      "queryStatus": "complete-query-observed",
       "descendantEntityIds": [],
       "descendantTaxonIds": [
         "txn:14000"
@@ -2782,18 +2849,19 @@
         "acceptedName": 0,
         "higherClassification": 0
       },
-      "completeSnapshotAvailable": false,
-      "completeSnapshotRows": null,
+      "completeSnapshotAvailable": true,
+      "completeSnapshotRows": 20055,
       "periods": [],
       "matchedTotal": 0
     },
     "ammonitida": {
       "entityId": "ammonitida",
+      "packageId": "molluscs-brachiopods",
       "entityKind": "taxon",
       "externalTaxonId": "txn:84931",
       "scientificNameNormalized": "ammonitida",
       "externalResolutionStatus": "resolved-exact",
-      "queryStatus": "resolved-and-observed",
+      "queryStatus": "complete-query-observed",
       "descendantEntityIds": [],
       "descendantTaxonIds": [
         "txn:84931"
@@ -2806,8 +2874,8 @@
         "acceptedName": 0,
         "higherClassification": 207
       },
-      "completeSnapshotAvailable": false,
-      "completeSnapshotRows": null,
+      "completeSnapshotAvailable": true,
+      "completeSnapshotRows": 57905,
       "periods": [
         "Jurassic",
         "Cretaceous"
@@ -2816,11 +2884,12 @@
     },
     "coleoidea": {
       "entityId": "coleoidea",
+      "packageId": "molluscs-brachiopods",
       "entityKind": "taxon",
       "externalTaxonId": "txn:59785",
       "scientificNameNormalized": "coleoidea",
       "externalResolutionStatus": "resolved-exact",
-      "queryStatus": "resolved-and-observed",
+      "queryStatus": "complete-query-observed",
       "descendantEntityIds": [
         "belemnitida",
         "octopus-bimaculoides"
@@ -2838,8 +2907,8 @@
         "acceptedName": 0,
         "higherClassification": 7
       },
-      "completeSnapshotAvailable": false,
-      "completeSnapshotRows": null,
+      "completeSnapshotAvailable": true,
+      "completeSnapshotRows": 3007,
       "periods": [
         "Permian",
         "Jurassic",
@@ -2849,11 +2918,12 @@
     },
     "belemnitida": {
       "entityId": "belemnitida",
+      "packageId": "molluscs-brachiopods",
       "entityKind": "taxon",
       "externalTaxonId": "txn:15832",
       "scientificNameNormalized": "belemnitida",
       "externalResolutionStatus": "resolved-exact",
-      "queryStatus": "resolved-and-observed",
+      "queryStatus": "complete-query-observed",
       "descendantEntityIds": [],
       "descendantTaxonIds": [
         "txn:15832"
@@ -2866,8 +2936,8 @@
         "acceptedName": 0,
         "higherClassification": 7
       },
-      "completeSnapshotAvailable": false,
-      "completeSnapshotRows": null,
+      "completeSnapshotAvailable": true,
+      "completeSnapshotRows": 2080,
       "periods": [
         "Permian",
         "Jurassic",
@@ -2877,6 +2947,7 @@
     },
     "octopus-bimaculoides": {
       "entityId": "octopus-bimaculoides",
+      "packageId": "molluscs-brachiopods",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "octopus bimaculoides",
@@ -2897,6 +2968,7 @@
     },
     "molluscan-origin-dossiers": {
       "entityId": "molluscan-origin-dossiers",
+      "packageId": "molluscs-brachiopods",
       "entityKind": "navigation-group",
       "externalTaxonId": null,
       "scientificNameNormalized": "molluscan origin dossier route",
@@ -2930,11 +3002,12 @@
     },
     "kimberella": {
       "entityId": "kimberella",
+      "packageId": "molluscs-brachiopods",
       "entityKind": "taxon",
       "externalTaxonId": "txn:151846",
       "scientificNameNormalized": "kimberella quadrata",
       "externalResolutionStatus": "resolved-exact",
-      "queryStatus": "resolved-zero-in-bounded-sample",
+      "queryStatus": "complete-query-observed",
       "descendantEntityIds": [],
       "descendantTaxonIds": [
         "txn:151846"
@@ -2947,18 +3020,19 @@
         "acceptedName": 0,
         "higherClassification": 0
       },
-      "completeSnapshotAvailable": false,
-      "completeSnapshotRows": null,
+      "completeSnapshotAvailable": true,
+      "completeSnapshotRows": 15,
       "periods": [],
       "matchedTotal": 0
     },
     "odontogriphus": {
       "entityId": "odontogriphus",
+      "packageId": "molluscs-brachiopods",
       "entityKind": "taxon",
       "externalTaxonId": "txn:146045",
       "scientificNameNormalized": "odontogriphus omalus",
       "externalResolutionStatus": "resolved-exact",
-      "queryStatus": "resolved-zero-in-bounded-sample",
+      "queryStatus": "complete-query-observed",
       "descendantEntityIds": [],
       "descendantTaxonIds": [
         "txn:146045"
@@ -2971,13 +3045,14 @@
         "acceptedName": 0,
         "higherClassification": 0
       },
-      "completeSnapshotAvailable": false,
-      "completeSnapshotRows": null,
+      "completeSnapshotAvailable": true,
+      "completeSnapshotRows": 13,
       "periods": [],
       "matchedTotal": 0
     },
     "orthrozanclus": {
       "entityId": "orthrozanclus",
+      "packageId": "molluscs-brachiopods",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "orthrozanclus reburrus",
@@ -2998,11 +3073,12 @@
     },
     "nectocaris": {
       "entityId": "nectocaris",
+      "packageId": "molluscs-brachiopods",
       "entityKind": "taxon",
       "externalTaxonId": "txn:297012",
       "scientificNameNormalized": "nectocaris pteryx",
       "externalResolutionStatus": "resolved-rank-variant",
-      "queryStatus": "resolved-zero-in-bounded-sample",
+      "queryStatus": "complete-query-observed",
       "descendantEntityIds": [],
       "descendantTaxonIds": [
         "txn:297012"
@@ -3015,13 +3091,14 @@
         "acceptedName": 0,
         "higherClassification": 0
       },
-      "completeSnapshotAvailable": false,
-      "completeSnapshotRows": null,
+      "completeSnapshotAvailable": true,
+      "completeSnapshotRows": 6,
       "periods": [],
       "matchedTotal": 0
     },
     "aculifera": {
       "entityId": "aculifera",
+      "packageId": "molluscs-brachiopods",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "aculifera",
@@ -3045,6 +3122,7 @@
     },
     "polyplacophora": {
       "entityId": "polyplacophora",
+      "packageId": "molluscs-brachiopods",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "polyplacophora",
@@ -3065,6 +3143,7 @@
     },
     "aplacophora": {
       "entityId": "aplacophora",
+      "packageId": "molluscs-brachiopods",
       "entityKind": "historical-grade",
       "externalTaxonId": null,
       "scientificNameNormalized": "aplacophora",
@@ -3085,6 +3164,7 @@
     },
     "monoplacophora": {
       "entityId": "monoplacophora",
+      "packageId": "molluscs-brachiopods",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "monoplacophora",
@@ -3105,6 +3185,7 @@
     },
     "scaphopoda": {
       "entityId": "scaphopoda",
+      "packageId": "molluscs-brachiopods",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "scaphopoda",
@@ -3125,6 +3206,7 @@
     },
     "arthropoda": {
       "entityId": "arthropoda",
+      "packageId": "crustaceans-insects",
       "entityKind": "taxon",
       "externalTaxonId": "txn:18891",
       "scientificNameNormalized": "arthropoda",
@@ -3255,11 +3337,12 @@
     },
     "trilobita": {
       "entityId": "trilobita",
+      "packageId": "trilobites-chelicerates",
       "entityKind": "taxon",
       "externalTaxonId": "txn:19100",
       "scientificNameNormalized": "trilobita",
       "externalResolutionStatus": "resolved-exact",
-      "queryStatus": "resolved-and-observed",
+      "queryStatus": "complete-query-observed",
       "descendantEntityIds": [
         "phacopida",
         "ptychopariida",
@@ -3291,8 +3374,8 @@
         "acceptedName": 0,
         "higherClassification": 1105
       },
-      "completeSnapshotAvailable": false,
-      "completeSnapshotRows": null,
+      "completeSnapshotAvailable": true,
+      "completeSnapshotRows": 55967,
       "periods": [
         "Cambrian",
         "Ordovician",
@@ -3304,11 +3387,12 @@
     },
     "phacopida": {
       "entityId": "phacopida",
+      "packageId": "trilobites-chelicerates",
       "entityKind": "taxon",
       "externalTaxonId": "txn:21421",
       "scientificNameNormalized": "phacopida",
       "externalResolutionStatus": "resolved-exact",
-      "queryStatus": "resolved-and-observed",
+      "queryStatus": "complete-query-observed",
       "descendantEntityIds": [],
       "descendantTaxonIds": [
         "txn:21421"
@@ -3321,8 +3405,8 @@
         "acceptedName": 0,
         "higherClassification": 151
       },
-      "completeSnapshotAvailable": false,
-      "completeSnapshotRows": null,
+      "completeSnapshotAvailable": true,
+      "completeSnapshotRows": 12079,
       "periods": [
         "Ordovician",
         "Silurian",
@@ -3332,6 +3416,7 @@
     },
     "ptychopariida": {
       "entityId": "ptychopariida",
+      "packageId": "trilobites-chelicerates",
       "entityKind": "historical-grade",
       "externalTaxonId": "txn:20239",
       "scientificNameNormalized": "ptychopariida",
@@ -3360,11 +3445,12 @@
     },
     "corynexochida": {
       "entityId": "corynexochida",
+      "packageId": "trilobites-chelicerates",
       "entityKind": "taxon",
       "externalTaxonId": "txn:19472",
       "scientificNameNormalized": "corynexochida",
       "externalResolutionStatus": "resolved-exact",
-      "queryStatus": "resolved-and-observed",
+      "queryStatus": "complete-query-observed",
       "descendantEntityIds": [],
       "descendantTaxonIds": [
         "txn:19472"
@@ -3377,8 +3463,8 @@
         "acceptedName": 0,
         "higherClassification": 174
       },
-      "completeSnapshotAvailable": false,
-      "completeSnapshotRows": null,
+      "completeSnapshotAvailable": true,
+      "completeSnapshotRows": 6144,
       "periods": [
         "Cambrian",
         "Ordovician",
@@ -3389,6 +3475,7 @@
     },
     "trilobite-evidence-samples": {
       "entityId": "trilobite-evidence-samples",
+      "packageId": "trilobites-chelicerates",
       "entityKind": "navigation-group",
       "externalTaxonId": null,
       "scientificNameNormalized": "trilobite primary-evidence samples",
@@ -3420,6 +3507,7 @@
     },
     "protolenus": {
       "entityId": "protolenus",
+      "packageId": "trilobites-chelicerates",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "protolenus",
@@ -3440,6 +3528,7 @@
     },
     "gigoutella": {
       "entityId": "gigoutella",
+      "packageId": "trilobites-chelicerates",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "gigoutella",
@@ -3460,6 +3549,7 @@
     },
     "olenoides": {
       "entityId": "olenoides",
+      "packageId": "trilobites-chelicerates",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "olenoides",
@@ -3480,6 +3570,7 @@
     },
     "triarthrus": {
       "entityId": "triarthrus",
+      "packageId": "trilobites-chelicerates",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "triarthrus",
@@ -3500,11 +3591,12 @@
     },
     "bohemolichas": {
       "entityId": "bohemolichas",
+      "packageId": "trilobites-chelicerates",
       "entityKind": "taxon",
       "externalTaxonId": "txn:155131",
       "scientificNameNormalized": "bohemolichas",
       "externalResolutionStatus": "resolved-synonym",
-      "queryStatus": "resolved-zero-in-bounded-sample",
+      "queryStatus": "complete-query-observed",
       "descendantEntityIds": [],
       "descendantTaxonIds": [
         "txn:155131"
@@ -3517,13 +3609,14 @@
         "acceptedName": 0,
         "higherClassification": 0
       },
-      "completeSnapshotAvailable": false,
-      "completeSnapshotRows": null,
+      "completeSnapshotAvailable": true,
+      "completeSnapshotRows": 22,
       "periods": [],
       "matchedTotal": 0
     },
     "agnostina": {
       "entityId": "agnostina",
+      "packageId": "trilobites-chelicerates",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "agnostina",
@@ -3544,11 +3637,12 @@
     },
     "chelicerata": {
       "entityId": "chelicerata",
+      "packageId": "trilobites-chelicerates",
       "entityKind": "taxon",
       "externalTaxonId": "txn:91508",
       "scientificNameNormalized": "chelicerata",
       "externalResolutionStatus": "resolved-exact",
-      "queryStatus": "resolved-and-observed",
+      "queryStatus": "complete-query-observed",
       "descendantEntityIds": [
         "eurypterida",
         "jaekelopterus",
@@ -3581,8 +3675,8 @@
         "acceptedName": 0,
         "higherClassification": 28
       },
-      "completeSnapshotAvailable": false,
-      "completeSnapshotRows": null,
+      "completeSnapshotAvailable": true,
+      "completeSnapshotRows": 4901,
       "periods": [
         "Ordovician",
         "Silurian",
@@ -3592,11 +3686,12 @@
     },
     "eurypterida": {
       "entityId": "eurypterida",
+      "packageId": "trilobites-chelicerates",
       "entityKind": "taxon",
       "externalTaxonId": "txn:18947",
       "scientificNameNormalized": "eurypterida",
       "externalResolutionStatus": "resolved-exact",
-      "queryStatus": "resolved-and-observed",
+      "queryStatus": "complete-query-observed",
       "descendantEntityIds": [
         "jaekelopterus"
       ],
@@ -3611,8 +3706,8 @@
         "acceptedName": 0,
         "higherClassification": 28
       },
-      "completeSnapshotAvailable": false,
-      "completeSnapshotRows": null,
+      "completeSnapshotAvailable": true,
+      "completeSnapshotRows": 603,
       "periods": [
         "Ordovician",
         "Silurian",
@@ -3622,6 +3717,7 @@
     },
     "jaekelopterus": {
       "entityId": "jaekelopterus",
+      "packageId": "trilobites-chelicerates",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "jaekelopterus",
@@ -3642,6 +3738,7 @@
     },
     "stem-chelicerate-evidence": {
       "entityId": "stem-chelicerate-evidence",
+      "packageId": "trilobites-chelicerates",
       "entityKind": "navigation-group",
       "externalTaxonId": null,
       "scientificNameNormalized": "stem-chelicerate evidence",
@@ -3672,11 +3769,12 @@
     },
     "urokodia": {
       "entityId": "urokodia",
+      "packageId": "trilobites-chelicerates",
       "entityKind": "taxon",
       "externalTaxonId": "txn:19096",
       "scientificNameNormalized": "urokodia",
       "externalResolutionStatus": "resolved-exact",
-      "queryStatus": "resolved-zero-in-bounded-sample",
+      "queryStatus": "complete-query-observed",
       "descendantEntityIds": [],
       "descendantTaxonIds": [
         "txn:19096"
@@ -3689,13 +3787,14 @@
         "acceptedName": 0,
         "higherClassification": 0
       },
-      "completeSnapshotAvailable": false,
-      "completeSnapshotRows": null,
+      "completeSnapshotAvailable": true,
+      "completeSnapshotRows": 7,
       "periods": [],
       "matchedTotal": 0
     },
     "megachelicerax": {
       "entityId": "megachelicerax",
+      "packageId": "trilobites-chelicerates",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "megachelicerax",
@@ -3716,11 +3815,12 @@
     },
     "mollisonia": {
       "entityId": "mollisonia",
+      "packageId": "trilobites-chelicerates",
       "entityKind": "taxon",
       "externalTaxonId": "txn:19082",
       "scientificNameNormalized": "mollisonia",
       "externalResolutionStatus": "resolved-exact",
-      "queryStatus": "resolved-zero-in-bounded-sample",
+      "queryStatus": "complete-query-observed",
       "descendantEntityIds": [],
       "descendantTaxonIds": [
         "txn:19082"
@@ -3733,13 +3833,14 @@
         "acceptedName": 0,
         "higherClassification": 0
       },
-      "completeSnapshotAvailable": false,
-      "completeSnapshotRows": null,
+      "completeSnapshotAvailable": true,
+      "completeSnapshotRows": 14,
       "periods": [],
       "matchedTotal": 0
     },
     "xiphosura": {
       "entityId": "xiphosura",
+      "packageId": "trilobites-chelicerates",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "xiphosura",
@@ -3760,6 +3861,7 @@
     },
     "pycnogonida": {
       "entityId": "pycnogonida",
+      "packageId": "trilobites-chelicerates",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "pycnogonida",
@@ -3780,6 +3882,7 @@
     },
     "arachnida": {
       "entityId": "arachnida",
+      "packageId": "trilobites-chelicerates",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "arachnida",
@@ -3805,6 +3908,7 @@
     },
     "scorpiones": {
       "entityId": "scorpiones",
+      "packageId": "trilobites-chelicerates",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "scorpiones",
@@ -3827,6 +3931,7 @@
     },
     "parioscorpio": {
       "entityId": "parioscorpio",
+      "packageId": "trilobites-chelicerates",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "parioscorpio",
@@ -3847,6 +3952,7 @@
     },
     "araneae": {
       "entityId": "araneae",
+      "packageId": "trilobites-chelicerates",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "araneae",
@@ -3867,6 +3973,7 @@
     },
     "acari": {
       "entityId": "acari",
+      "packageId": "trilobites-chelicerates",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "acari",
@@ -3887,11 +3994,12 @@
     },
     "insecta": {
       "entityId": "insecta",
+      "packageId": "crustaceans-insects",
       "entityKind": "taxon",
       "externalTaxonId": "txn:56637",
       "scientificNameNormalized": "insecta",
       "externalResolutionStatus": "resolved-exact",
-      "queryStatus": "resolved-zero-in-bounded-sample",
+      "queryStatus": "complete-query-observed",
       "descendantEntityIds": [
         "odonatoptera",
         "odonata",
@@ -3921,13 +4029,14 @@
         "acceptedName": 0,
         "higherClassification": 0
       },
-      "completeSnapshotAvailable": false,
-      "completeSnapshotRows": null,
+      "completeSnapshotAvailable": true,
+      "completeSnapshotRows": 53486,
       "periods": [],
       "matchedTotal": 0
     },
     "odonatoptera": {
       "entityId": "odonatoptera",
+      "packageId": "crustaceans-insects",
       "entityKind": "navigation-group",
       "externalTaxonId": null,
       "scientificNameNormalized": "odonatoptera",
@@ -3960,11 +4069,12 @@
     },
     "odonata": {
       "entityId": "odonata",
+      "packageId": "crustaceans-insects",
       "entityKind": "taxon",
       "externalTaxonId": "txn:71353",
       "scientificNameNormalized": "odonata",
       "externalResolutionStatus": "resolved-exact",
-      "queryStatus": "resolved-zero-in-bounded-sample",
+      "queryStatus": "complete-query-observed",
       "descendantEntityIds": [],
       "descendantTaxonIds": [
         "txn:71353"
@@ -3977,18 +4087,19 @@
         "acceptedName": 0,
         "higherClassification": 0
       },
-      "completeSnapshotAvailable": false,
-      "completeSnapshotRows": null,
+      "completeSnapshotAvailable": true,
+      "completeSnapshotRows": 1679,
       "periods": [],
       "matchedTotal": 0
     },
     "meganisoptera": {
       "entityId": "meganisoptera",
+      "packageId": "crustaceans-insects",
       "entityKind": "taxon",
       "externalTaxonId": "txn:174977",
       "scientificNameNormalized": "meganisoptera",
       "externalResolutionStatus": "resolved-exact",
-      "queryStatus": "resolved-zero-in-bounded-sample",
+      "queryStatus": "complete-query-observed",
       "descendantEntityIds": [
         "meganeura"
       ],
@@ -4005,18 +4116,19 @@
         "acceptedName": 0,
         "higherClassification": 0
       },
-      "completeSnapshotAvailable": false,
-      "completeSnapshotRows": null,
+      "completeSnapshotAvailable": true,
+      "completeSnapshotRows": 97,
       "periods": [],
       "matchedTotal": 0
     },
     "meganeura": {
       "entityId": "meganeura",
+      "packageId": "crustaceans-insects",
       "entityKind": "taxon",
       "externalTaxonId": "txn:175803",
       "scientificNameNormalized": "meganeura",
       "externalResolutionStatus": "resolved-exact",
-      "queryStatus": "resolved-zero-in-bounded-sample",
+      "queryStatus": "complete-query-observed",
       "descendantEntityIds": [],
       "descendantTaxonIds": [
         "txn:175803"
@@ -4029,18 +4141,19 @@
         "acceptedName": 0,
         "higherClassification": 0
       },
-      "completeSnapshotAvailable": false,
-      "completeSnapshotRows": null,
+      "completeSnapshotAvailable": true,
+      "completeSnapshotRows": 7,
       "periods": [],
       "matchedTotal": 0
     },
     "coleoptera": {
       "entityId": "coleoptera",
+      "packageId": "crustaceans-insects",
       "entityKind": "taxon",
       "externalTaxonId": "txn:69148",
       "scientificNameNormalized": "coleoptera",
       "externalResolutionStatus": "resolved-exact",
-      "queryStatus": "resolved-zero-in-bounded-sample",
+      "queryStatus": "complete-query-observed",
       "descendantEntityIds": [],
       "descendantTaxonIds": [
         "txn:69148"
@@ -4053,18 +4166,19 @@
         "acceptedName": 0,
         "higherClassification": 0
       },
-      "completeSnapshotAvailable": false,
-      "completeSnapshotRows": null,
+      "completeSnapshotAvailable": true,
+      "completeSnapshotRows": 14703,
       "periods": [],
       "matchedTotal": 0
     },
     "hymenoptera": {
       "entityId": "hymenoptera",
+      "packageId": "crustaceans-insects",
       "entityKind": "taxon",
       "externalTaxonId": "txn:70707",
       "scientificNameNormalized": "hymenoptera",
       "externalResolutionStatus": "resolved-exact",
-      "queryStatus": "resolved-zero-in-bounded-sample",
+      "queryStatus": "complete-query-observed",
       "descendantEntityIds": [],
       "descendantTaxonIds": [
         "txn:70707"
@@ -4077,18 +4191,19 @@
         "acceptedName": 0,
         "higherClassification": 0
       },
-      "completeSnapshotAvailable": false,
-      "completeSnapshotRows": null,
+      "completeSnapshotAvailable": true,
+      "completeSnapshotRows": 6576,
       "periods": [],
       "matchedTotal": 0
     },
     "crustacea": {
       "entityId": "crustacea",
+      "packageId": "crustaceans-insects",
       "entityKind": "taxon",
       "externalTaxonId": "txn:82629",
       "scientificNameNormalized": "crustacea",
       "externalResolutionStatus": "resolved-exact",
-      "queryStatus": "resolved-zero-in-bounded-sample",
+      "queryStatus": "complete-query-observed",
       "descendantEntityIds": [
         "ostracoda",
         "malacostraca"
@@ -4104,13 +4219,14 @@
         "acceptedName": 0,
         "higherClassification": 0
       },
-      "completeSnapshotAvailable": false,
-      "completeSnapshotRows": null,
+      "completeSnapshotAvailable": true,
+      "completeSnapshotRows": 2193,
       "periods": [],
       "matchedTotal": 0
     },
     "ostracoda": {
       "entityId": "ostracoda",
+      "packageId": "crustaceans-insects",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "ostracoda",
@@ -4131,6 +4247,7 @@
     },
     "malacostraca": {
       "entityId": "malacostraca",
+      "packageId": "crustaceans-insects",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "malacostraca",
@@ -4151,6 +4268,7 @@
     },
     "myriapoda": {
       "entityId": "myriapoda",
+      "packageId": "crustaceans-insects",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "myriapoda",
@@ -4180,11 +4298,12 @@
     },
     "chilopoda": {
       "entityId": "chilopoda",
+      "packageId": "crustaceans-insects",
       "entityKind": "taxon",
       "externalTaxonId": "txn:205077",
       "scientificNameNormalized": "chilopoda",
       "externalResolutionStatus": "resolved-exact",
-      "queryStatus": "resolved-and-observed",
+      "queryStatus": "complete-query-observed",
       "descendantEntityIds": [],
       "descendantTaxonIds": [
         "txn:205077"
@@ -4197,8 +4316,8 @@
         "acceptedName": 0,
         "higherClassification": 1
       },
-      "completeSnapshotAvailable": false,
-      "completeSnapshotRows": null,
+      "completeSnapshotAvailable": true,
+      "completeSnapshotRows": 59,
       "periods": [
         "Silurian"
       ],
@@ -4206,6 +4325,7 @@
     },
     "diplopoda": {
       "entityId": "diplopoda",
+      "packageId": "crustaceans-insects",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "diplopoda",
@@ -4226,6 +4346,7 @@
     },
     "mandibulate-evidence-route": {
       "entityId": "mandibulate-evidence-route",
+      "packageId": "crustaceans-insects",
       "entityKind": "navigation-group",
       "externalTaxonId": null,
       "scientificNameNormalized": "mandibulate evidence route",
@@ -4255,11 +4376,12 @@
     },
     "tokummia": {
       "entityId": "tokummia",
+      "packageId": "crustaceans-insects",
       "entityKind": "taxon",
       "externalTaxonId": "txn:473103",
       "scientificNameNormalized": "tokummia katalepsis",
       "externalResolutionStatus": "resolved-exact",
-      "queryStatus": "resolved-zero-in-bounded-sample",
+      "queryStatus": "complete-query-zero",
       "descendantEntityIds": [],
       "descendantTaxonIds": [
         "txn:473103"
@@ -4272,18 +4394,19 @@
         "acceptedName": 0,
         "higherClassification": 0
       },
-      "completeSnapshotAvailable": false,
-      "completeSnapshotRows": null,
+      "completeSnapshotAvailable": true,
+      "completeSnapshotRows": 0,
       "periods": [],
       "matchedTotal": 0
     },
     "waptia": {
       "entityId": "waptia",
+      "packageId": "crustaceans-insects",
       "entityKind": "taxon",
       "externalTaxonId": "txn:121037",
       "scientificNameNormalized": "waptia fieldensis",
       "externalResolutionStatus": "resolved-exact",
-      "queryStatus": "resolved-zero-in-bounded-sample",
+      "queryStatus": "complete-query-observed",
       "descendantEntityIds": [],
       "descendantTaxonIds": [
         "txn:121037"
@@ -4296,13 +4419,14 @@
         "acceptedName": 0,
         "higherClassification": 0
       },
-      "completeSnapshotAvailable": false,
-      "completeSnapshotRows": null,
+      "completeSnapshotAvailable": true,
+      "completeSnapshotRows": 24,
       "periods": [],
       "matchedTotal": 0
     },
     "pancrustacea-evidence-route": {
       "entityId": "pancrustacea-evidence-route",
+      "packageId": "crustaceans-insects",
       "entityKind": "navigation-group",
       "externalTaxonId": null,
       "scientificNameNormalized": "pancrustacea evidence route",
@@ -4330,11 +4454,12 @@
     },
     "yicaris": {
       "entityId": "yicaris",
+      "packageId": "crustaceans-insects",
       "entityKind": "taxon",
       "externalTaxonId": "txn:473019",
       "scientificNameNormalized": "yicaris dianensis",
       "externalResolutionStatus": "resolved-exact",
-      "queryStatus": "resolved-zero-in-bounded-sample",
+      "queryStatus": "complete-query-zero",
       "descendantEntityIds": [],
       "descendantTaxonIds": [
         "txn:473019"
@@ -4347,13 +4472,14 @@
         "acceptedName": 0,
         "higherClassification": 0
       },
-      "completeSnapshotAvailable": false,
-      "completeSnapshotRows": null,
+      "completeSnapshotAvailable": true,
+      "completeSnapshotRows": 0,
       "periods": [],
       "matchedTotal": 0
     },
     "ostracod-phylogenomics": {
       "entityId": "ostracod-phylogenomics",
+      "packageId": "crustaceans-insects",
       "entityKind": "navigation-group",
       "externalTaxonId": null,
       "scientificNameNormalized": "ostracod phylotranscriptomic dataset",
@@ -4374,6 +4500,7 @@
     },
     "early-hexapod-evidence-route": {
       "entityId": "early-hexapod-evidence-route",
+      "packageId": "crustaceans-insects",
       "entityKind": "navigation-group",
       "externalTaxonId": null,
       "scientificNameNormalized": "early hexapoda evidence route",
@@ -4397,6 +4524,7 @@
     },
     "rhyniella": {
       "entityId": "rhyniella",
+      "packageId": "crustaceans-insects",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "rhyniella praecursor",
@@ -4417,6 +4545,7 @@
     },
     "rhyniognatha": {
       "entityId": "rhyniognatha",
+      "packageId": "crustaceans-insects",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "rhyniognatha hirsti",
@@ -4437,6 +4566,7 @@
     },
     "insect-flight-evidence-route": {
       "entityId": "insect-flight-evidence-route",
+      "packageId": "crustaceans-insects",
       "entityKind": "navigation-group",
       "externalTaxonId": null,
       "scientificNameNormalized": "insect flight evidence route",
@@ -4460,6 +4590,7 @@
     },
     "paskov-wing": {
       "entityId": "paskov-wing",
+      "packageId": "crustaceans-insects",
       "entityKind": "navigation-group",
       "externalTaxonId": null,
       "scientificNameNormalized": "paskov archaeorthoptera wing",
@@ -4480,6 +4611,7 @@
     },
     "parhyale-wing-experiment": {
       "entityId": "parhyale-wing-experiment",
+      "packageId": "crustaceans-insects",
       "entityKind": "navigation-group",
       "externalTaxonId": null,
       "scientificNameNormalized": "parhyale wing-homology experiment",
@@ -4500,6 +4632,7 @@
     },
     "insect-radiation-evidence-route": {
       "entityId": "insect-radiation-evidence-route",
+      "packageId": "crustaceans-insects",
       "entityKind": "navigation-group",
       "externalTaxonId": null,
       "scientificNameNormalized": "insect radiation evidence route",
@@ -4523,6 +4656,7 @@
     },
     "pennsylvanian-eumetabola": {
       "entityId": "pennsylvanian-eumetabola",
+      "packageId": "crustaceans-insects",
       "entityKind": "navigation-group",
       "externalTaxonId": null,
       "scientificNameNormalized": "pennsylvanian eumetabola sample",
@@ -4543,6 +4677,7 @@
     },
     "insect-1kite-dataset": {
       "entityId": "insect-1kite-dataset",
+      "packageId": "crustaceans-insects",
       "entityKind": "navigation-group",
       "externalTaxonId": null,
       "scientificNameNormalized": "1kite insect phylogenomics dataset",
@@ -4563,11 +4698,12 @@
     },
     "echinodermata": {
       "entityId": "echinodermata",
+      "packageId": "echinoderms",
       "entityKind": "taxon",
       "externalTaxonId": "txn:30739",
       "scientificNameNormalized": "echinodermata",
       "externalResolutionStatus": "resolved-exact",
-      "queryStatus": "resolved-and-observed",
+      "queryStatus": "complete-query-observed",
       "descendantEntityIds": [
         "crinoidea",
         "blastoidea",
@@ -4599,8 +4735,8 @@
         "acceptedName": 0,
         "higherClassification": 197
       },
-      "completeSnapshotAvailable": false,
-      "completeSnapshotRows": null,
+      "completeSnapshotAvailable": true,
+      "completeSnapshotRows": 34446,
       "periods": [
         "Cambrian",
         "Ordovician",
@@ -4617,11 +4753,12 @@
     },
     "crinoidea": {
       "entityId": "crinoidea",
+      "packageId": "echinoderms",
       "entityKind": "taxon",
       "externalTaxonId": "txn:31590",
       "scientificNameNormalized": "crinoidea",
       "externalResolutionStatus": "resolved-exact",
-      "queryStatus": "resolved-and-observed",
+      "queryStatus": "complete-query-observed",
       "descendantEntityIds": [],
       "descendantTaxonIds": [
         "txn:31590"
@@ -4634,8 +4771,8 @@
         "acceptedName": 0,
         "higherClassification": 58
       },
-      "completeSnapshotAvailable": false,
-      "completeSnapshotRows": null,
+      "completeSnapshotAvailable": true,
+      "completeSnapshotRows": 14526,
       "periods": [
         "Ordovician",
         "Silurian",
@@ -4649,11 +4786,12 @@
     },
     "blastoidea": {
       "entityId": "blastoidea",
+      "packageId": "echinoderms",
       "entityKind": "taxon",
       "externalTaxonId": "txn:30820",
       "scientificNameNormalized": "blastoidea",
       "externalResolutionStatus": "resolved-exact",
-      "queryStatus": "resolved-and-observed",
+      "queryStatus": "complete-query-observed",
       "descendantEntityIds": [],
       "descendantTaxonIds": [
         "txn:30820"
@@ -4666,8 +4804,8 @@
         "acceptedName": 0,
         "higherClassification": 10
       },
-      "completeSnapshotAvailable": false,
-      "completeSnapshotRows": null,
+      "completeSnapshotAvailable": true,
+      "completeSnapshotRows": 760,
       "periods": [
         "Silurian",
         "Carboniferous"
@@ -4676,11 +4814,12 @@
     },
     "echinoidea": {
       "entityId": "echinoidea",
+      "packageId": "echinoderms",
       "entityKind": "taxon",
       "externalTaxonId": "txn:168786",
       "scientificNameNormalized": "echinoidea",
       "externalResolutionStatus": "resolved-exact",
-      "queryStatus": "resolved-and-observed",
+      "queryStatus": "complete-query-observed",
       "descendantEntityIds": [],
       "descendantTaxonIds": [
         "txn:168786"
@@ -4693,8 +4832,8 @@
         "acceptedName": 0,
         "higherClassification": 56
       },
-      "completeSnapshotAvailable": false,
-      "completeSnapshotRows": null,
+      "completeSnapshotAvailable": true,
+      "completeSnapshotRows": 11651,
       "periods": [
         "Carboniferous",
         "Permian",
@@ -4707,11 +4846,12 @@
     },
     "asteroidea": {
       "entityId": "asteroidea",
+      "packageId": "echinoderms",
       "entityKind": "taxon",
       "externalTaxonId": "txn:31341",
       "scientificNameNormalized": "asteroidea",
       "externalResolutionStatus": "resolved-exact",
-      "queryStatus": "resolved-and-observed",
+      "queryStatus": "complete-query-observed",
       "descendantEntityIds": [],
       "descendantTaxonIds": [
         "txn:31341"
@@ -4724,8 +4864,8 @@
         "acceptedName": 0,
         "higherClassification": 4
       },
-      "completeSnapshotAvailable": false,
-      "completeSnapshotRows": null,
+      "completeSnapshotAvailable": true,
+      "completeSnapshotRows": 1329,
       "periods": [
         "Ordovician",
         "Silurian",
@@ -4736,11 +4876,12 @@
     },
     "ophiuroidea": {
       "entityId": "ophiuroidea",
+      "packageId": "echinoderms",
       "entityKind": "taxon",
       "externalTaxonId": "txn:31508",
       "scientificNameNormalized": "ophiuroidea",
       "externalResolutionStatus": "resolved-exact",
-      "queryStatus": "resolved-and-observed",
+      "queryStatus": "complete-query-observed",
       "descendantEntityIds": [],
       "descendantTaxonIds": [
         "txn:31508"
@@ -4753,8 +4894,8 @@
         "acceptedName": 0,
         "higherClassification": 2
       },
-      "completeSnapshotAvailable": false,
-      "completeSnapshotRows": null,
+      "completeSnapshotAvailable": true,
+      "completeSnapshotRows": 1147,
       "periods": [
         "Silurian",
         "Devonian",
@@ -4764,11 +4905,12 @@
     },
     "holothuroidea": {
       "entityId": "holothuroidea",
+      "packageId": "echinoderms",
       "entityKind": "taxon",
       "externalTaxonId": "txn:161964",
       "scientificNameNormalized": "holothuroidea",
       "externalResolutionStatus": "resolved-exact",
-      "queryStatus": "resolved-zero-in-bounded-sample",
+      "queryStatus": "complete-query-observed",
       "descendantEntityIds": [],
       "descendantTaxonIds": [
         "txn:161964"
@@ -4781,18 +4923,19 @@
         "acceptedName": 0,
         "higherClassification": 0
       },
-      "completeSnapshotAvailable": false,
-      "completeSnapshotRows": null,
+      "completeSnapshotAvailable": true,
+      "completeSnapshotRows": 1514,
       "periods": [],
       "matchedTotal": 0
     },
     "hemichordata": {
       "entityId": "hemichordata",
+      "packageId": "atlas-core",
       "entityKind": "taxon",
       "externalTaxonId": "txn:33518",
       "scientificNameNormalized": "hemichordata",
       "externalResolutionStatus": "resolved-exact",
-      "queryStatus": "resolved-and-observed",
+      "queryStatus": "complete-query-observed",
       "descendantEntityIds": [
         "pterobranchia",
         "graptolithina"
@@ -4810,8 +4953,8 @@
         "acceptedName": 0,
         "higherClassification": 124
       },
-      "completeSnapshotAvailable": false,
-      "completeSnapshotRows": null,
+      "completeSnapshotAvailable": true,
+      "completeSnapshotRows": 8189,
       "periods": [
         "Cambrian",
         "Ordovician",
@@ -4822,11 +4965,12 @@
     },
     "pterobranchia": {
       "entityId": "pterobranchia",
+      "packageId": "atlas-core",
       "entityKind": "taxon",
       "externalTaxonId": "txn:33521",
       "scientificNameNormalized": "pterobranchia",
       "externalResolutionStatus": "resolved-exact",
-      "queryStatus": "resolved-and-observed",
+      "queryStatus": "complete-query-observed",
       "descendantEntityIds": [
         "graptolithina"
       ],
@@ -4841,8 +4985,8 @@
         "acceptedName": 0,
         "higherClassification": 124
       },
-      "completeSnapshotAvailable": false,
-      "completeSnapshotRows": null,
+      "completeSnapshotAvailable": true,
+      "completeSnapshotRows": 8138,
       "periods": [
         "Cambrian",
         "Ordovician",
@@ -4853,6 +4997,7 @@
     },
     "graptolithina": {
       "entityId": "graptolithina",
+      "packageId": "molluscs-brachiopods",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "graptolithina",
@@ -4873,6 +5018,7 @@
     },
     "vertebrata": {
       "entityId": "vertebrata",
+      "packageId": "atlas-core",
       "entityKind": "taxon",
       "externalTaxonId": "txn:67149",
       "scientificNameNormalized": "vertebrata",
@@ -5350,6 +5496,7 @@
     },
     "agnatha": {
       "entityId": "agnatha",
+      "packageId": "early-fishes",
       "entityKind": "historical-grade",
       "externalTaxonId": null,
       "scientificNameNormalized": "agnatha",
@@ -5392,6 +5539,7 @@
     },
     "conodonta": {
       "entityId": "conodonta",
+      "packageId": "early-fishes",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "conodonta",
@@ -5412,6 +5560,7 @@
     },
     "ostracodermi": {
       "entityId": "ostracodermi",
+      "packageId": "early-fishes",
       "entityKind": "historical-grade",
       "externalTaxonId": null,
       "scientificNameNormalized": "ostracodermi",
@@ -5435,6 +5584,7 @@
     },
     "heterostraci": {
       "entityId": "heterostraci",
+      "packageId": "early-fishes",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "heterostraci",
@@ -5455,6 +5605,7 @@
     },
     "osteostraci": {
       "entityId": "osteostraci",
+      "packageId": "early-fishes",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "osteostraci",
@@ -5475,6 +5626,7 @@
     },
     "cyclostomata": {
       "entityId": "cyclostomata",
+      "packageId": "early-fishes",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "cyclostomata",
@@ -5512,6 +5664,7 @@
     },
     "petromyzontida": {
       "entityId": "petromyzontida",
+      "packageId": "early-fishes",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "petromyzontida",
@@ -5532,11 +5685,12 @@
     },
     "myxini": {
       "entityId": "myxini",
+      "packageId": "early-fishes",
       "entityKind": "taxon",
       "externalTaxonId": "txn:401644",
       "scientificNameNormalized": "myxini",
       "externalResolutionStatus": "resolved-exact",
-      "queryStatus": "resolved-zero-in-bounded-sample",
+      "queryStatus": "complete-query-observed",
       "descendantEntityIds": [],
       "descendantTaxonIds": [
         "txn:401644"
@@ -5549,13 +5703,14 @@
         "acceptedName": 0,
         "higherClassification": 0
       },
-      "completeSnapshotAvailable": false,
-      "completeSnapshotRows": null,
+      "completeSnapshotAvailable": true,
+      "completeSnapshotRows": 4,
       "periods": [],
       "matchedTotal": 0
     },
     "cyclostome-fossil-evidence-route": {
       "entityId": "cyclostome-fossil-evidence-route",
+      "packageId": "early-fishes",
       "entityKind": "navigation-group",
       "externalTaxonId": null,
       "scientificNameNormalized": "cyclostome fossil evidence route",
@@ -5588,11 +5743,12 @@
     },
     "priscomyzon": {
       "entityId": "priscomyzon",
+      "packageId": "early-fishes",
       "entityKind": "taxon",
       "externalTaxonId": "txn:91453",
       "scientificNameNormalized": "priscomyzon riniensis",
       "externalResolutionStatus": "resolved-exact",
-      "queryStatus": "resolved-zero-in-bounded-sample",
+      "queryStatus": "complete-query-observed",
       "descendantEntityIds": [],
       "descendantTaxonIds": [
         "txn:91453"
@@ -5605,18 +5761,19 @@
         "acceptedName": 0,
         "higherClassification": 0
       },
-      "completeSnapshotAvailable": false,
-      "completeSnapshotRows": null,
+      "completeSnapshotAvailable": true,
+      "completeSnapshotRows": 1,
       "periods": [],
       "matchedTotal": 0
     },
     "myxinikela": {
       "entityId": "myxinikela",
+      "packageId": "early-fishes",
       "entityKind": "taxon",
       "externalTaxonId": "txn:178986",
       "scientificNameNormalized": "myxinikela siroka",
       "externalResolutionStatus": "resolved-exact",
-      "queryStatus": "resolved-zero-in-bounded-sample",
+      "queryStatus": "complete-query-observed",
       "descendantEntityIds": [],
       "descendantTaxonIds": [
         "txn:178986"
@@ -5629,18 +5786,19 @@
         "acceptedName": 0,
         "higherClassification": 0
       },
-      "completeSnapshotAvailable": false,
-      "completeSnapshotRows": null,
+      "completeSnapshotAvailable": true,
+      "completeSnapshotRows": 1,
       "periods": [],
       "matchedTotal": 0
     },
     "tethymyxine": {
       "entityId": "tethymyxine",
+      "packageId": "early-fishes",
       "entityKind": "taxon",
       "externalTaxonId": "txn:384229",
       "scientificNameNormalized": "tethymyxine tapirostrum",
       "externalResolutionStatus": "resolved-exact",
-      "queryStatus": "resolved-zero-in-bounded-sample",
+      "queryStatus": "complete-query-observed",
       "descendantEntityIds": [],
       "descendantTaxonIds": [
         "txn:384229"
@@ -5653,13 +5811,14 @@
         "acceptedName": 0,
         "higherClassification": 0
       },
-      "completeSnapshotAvailable": false,
-      "completeSnapshotRows": null,
+      "completeSnapshotAvailable": true,
+      "completeSnapshotRows": 1,
       "periods": [],
       "matchedTotal": 0
     },
     "gnathostomata": {
       "entityId": "gnathostomata",
+      "packageId": "atlas-core",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "gnathostomata",
@@ -6114,11 +6273,12 @@
     },
     "placodermi": {
       "entityId": "placodermi",
+      "packageId": "early-fishes",
       "entityKind": "historical-grade",
       "externalTaxonId": "txn:34249",
       "scientificNameNormalized": "placodermi",
       "externalResolutionStatus": "resolved-exact",
-      "queryStatus": "historical-grade",
+      "queryStatus": "complete-query-observed",
       "descendantEntityIds": [
         "arthrodira",
         "dunkleosteus"
@@ -6136,8 +6296,8 @@
         "acceptedName": 0,
         "higherClassification": 1
       },
-      "completeSnapshotAvailable": false,
-      "completeSnapshotRows": null,
+      "completeSnapshotAvailable": true,
+      "completeSnapshotRows": 1034,
       "periods": [
         "Devonian"
       ],
@@ -6145,6 +6305,7 @@
     },
     "arthrodira": {
       "entityId": "arthrodira",
+      "packageId": "early-fishes",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "arthrodira",
@@ -6171,11 +6332,12 @@
     },
     "dunkleosteus": {
       "entityId": "dunkleosteus",
+      "packageId": "early-fishes",
       "entityKind": "taxon",
       "externalTaxonId": "txn:34328",
       "scientificNameNormalized": "dunkleosteus",
       "externalResolutionStatus": "resolved-exact",
-      "queryStatus": "resolved-zero-in-bounded-sample",
+      "queryStatus": "complete-query-observed",
       "descendantEntityIds": [],
       "descendantTaxonIds": [
         "txn:34328"
@@ -6188,18 +6350,19 @@
         "acceptedName": 0,
         "higherClassification": 0
       },
-      "completeSnapshotAvailable": false,
-      "completeSnapshotRows": null,
+      "completeSnapshotAvailable": true,
+      "completeSnapshotRows": 7,
       "periods": [],
       "matchedTotal": 0
     },
     "chondrichthyes": {
       "entityId": "chondrichthyes",
+      "packageId": "chondrichthyes",
       "entityKind": "taxon",
       "externalTaxonId": "txn:34422",
       "scientificNameNormalized": "chondrichthyes",
       "externalResolutionStatus": "resolved-exact",
-      "queryStatus": "resolved-and-observed",
+      "queryStatus": "complete-query-observed",
       "descendantEntityIds": [
         "elasmobranchii",
         "carcharocles",
@@ -6231,8 +6394,8 @@
         "acceptedName": 0,
         "higherClassification": 13
       },
-      "completeSnapshotAvailable": false,
-      "completeSnapshotRows": null,
+      "completeSnapshotAvailable": true,
+      "completeSnapshotRows": 27290,
       "periods": [
         "Carboniferous",
         "Permian",
@@ -6244,6 +6407,7 @@
     },
     "elasmobranchii": {
       "entityId": "elasmobranchii",
+      "packageId": "chondrichthyes",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "elasmobranchii",
@@ -6270,11 +6434,12 @@
     },
     "carcharocles": {
       "entityId": "carcharocles",
+      "packageId": "chondrichthyes",
       "entityKind": "taxon",
       "externalTaxonId": "txn:80603",
       "scientificNameNormalized": "otodus megalodon",
       "externalResolutionStatus": "resolved-exact",
-      "queryStatus": "resolved-zero-in-bounded-sample",
+      "queryStatus": "complete-query-observed",
       "descendantEntityIds": [],
       "descendantTaxonIds": [
         "txn:80603"
@@ -6287,18 +6452,19 @@
         "acceptedName": 0,
         "higherClassification": 0
       },
-      "completeSnapshotAvailable": false,
-      "completeSnapshotRows": null,
+      "completeSnapshotAvailable": true,
+      "completeSnapshotRows": 343,
       "periods": [],
       "matchedTotal": 0
     },
     "holocephali": {
       "entityId": "holocephali",
+      "packageId": "chondrichthyes",
       "entityKind": "taxon",
       "externalTaxonId": "txn:34760",
       "scientificNameNormalized": "holocephali",
       "externalResolutionStatus": "resolved-exact",
-      "queryStatus": "resolved-zero-in-bounded-sample",
+      "queryStatus": "complete-query-observed",
       "descendantEntityIds": [],
       "descendantTaxonIds": [
         "txn:34760"
@@ -6311,13 +6477,14 @@
         "acceptedName": 0,
         "higherClassification": 0
       },
-      "completeSnapshotAvailable": false,
-      "completeSnapshotRows": null,
+      "completeSnapshotAvailable": true,
+      "completeSnapshotRows": 998,
       "periods": [],
       "matchedTotal": 0
     },
     "stem-chondrichthyan-evidence-route": {
       "entityId": "stem-chondrichthyan-evidence-route",
+      "packageId": "chondrichthyes",
       "entityKind": "navigation-group",
       "externalTaxonId": null,
       "scientificNameNormalized": "stem-chondrichthyan evidence route",
@@ -6351,11 +6518,12 @@
     },
     "qianodus": {
       "entityId": "qianodus",
+      "packageId": "chondrichthyes",
       "entityKind": "taxon",
       "externalTaxonId": "txn:503113",
       "scientificNameNormalized": "qianodus duplicis",
       "externalResolutionStatus": "resolved-exact",
-      "queryStatus": "resolved-zero-in-bounded-sample",
+      "queryStatus": "complete-query-observed",
       "descendantEntityIds": [],
       "descendantTaxonIds": [
         "txn:503113"
@@ -6368,13 +6536,14 @@
         "acceptedName": 0,
         "higherClassification": 0
       },
-      "completeSnapshotAvailable": false,
-      "completeSnapshotRows": null,
+      "completeSnapshotAvailable": true,
+      "completeSnapshotRows": 1,
       "periods": [],
       "matchedTotal": 0
     },
     "fanjingshania": {
       "entityId": "fanjingshania",
+      "packageId": "chondrichthyes",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "fanjingshania renovata",
@@ -6395,11 +6564,12 @@
     },
     "shenacanthus": {
       "entityId": "shenacanthus",
+      "packageId": "chondrichthyes",
       "entityKind": "taxon",
       "externalTaxonId": "txn:500057",
       "scientificNameNormalized": "shenacanthus vermiformis",
       "externalResolutionStatus": "resolved-exact",
-      "queryStatus": "resolved-zero-in-bounded-sample",
+      "queryStatus": "complete-query-observed",
       "descendantEntityIds": [],
       "descendantTaxonIds": [
         "txn:500057"
@@ -6412,18 +6582,19 @@
         "acceptedName": 0,
         "higherClassification": 0
       },
-      "completeSnapshotAvailable": false,
-      "completeSnapshotRows": null,
+      "completeSnapshotAvailable": true,
+      "completeSnapshotRows": 1,
       "periods": [],
       "matchedTotal": 0
     },
     "gladbachus": {
       "entityId": "gladbachus",
+      "packageId": "chondrichthyes",
       "entityKind": "taxon",
       "externalTaxonId": "txn:502070",
       "scientificNameNormalized": "gladbachus adentatus",
       "externalResolutionStatus": "resolved-exact",
-      "queryStatus": "resolved-zero-in-bounded-sample",
+      "queryStatus": "complete-query-observed",
       "descendantEntityIds": [],
       "descendantTaxonIds": [
         "txn:502070"
@@ -6436,18 +6607,19 @@
         "acceptedName": 0,
         "higherClassification": 0
       },
-      "completeSnapshotAvailable": false,
-      "completeSnapshotRows": null,
+      "completeSnapshotAvailable": true,
+      "completeSnapshotRows": 1,
       "periods": [],
       "matchedTotal": 0
     },
     "acanthodii": {
       "entityId": "acanthodii",
+      "packageId": "early-fishes",
       "entityKind": "historical-grade",
       "externalTaxonId": "txn:34849",
       "scientificNameNormalized": "acanthodii",
       "externalResolutionStatus": "resolved-exact",
-      "queryStatus": "historical-grade",
+      "queryStatus": "complete-query-observed",
       "descendantEntityIds": [],
       "descendantTaxonIds": [
         "txn:34849"
@@ -6460,8 +6632,8 @@
         "acceptedName": 0,
         "higherClassification": 1
       },
-      "completeSnapshotAvailable": false,
-      "completeSnapshotRows": null,
+      "completeSnapshotAvailable": true,
+      "completeSnapshotRows": 681,
       "periods": [
         "Silurian"
       ],
@@ -6469,6 +6641,7 @@
     },
     "osteichthyes": {
       "entityId": "osteichthyes",
+      "packageId": "atlas-core",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "osteichthyes",
@@ -6886,6 +7059,7 @@
     },
     "actinopterygii": {
       "entityId": "actinopterygii",
+      "packageId": "actinopterygii",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "actinopterygii",
@@ -6928,6 +7102,7 @@
     },
     "neopterygii": {
       "entityId": "neopterygii",
+      "packageId": "actinopterygii",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "neopterygii",
@@ -6962,6 +7137,7 @@
     },
     "holostei": {
       "entityId": "holostei",
+      "packageId": "actinopterygii",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "holostei",
@@ -6985,6 +7161,7 @@
     },
     "lepisosteiformes": {
       "entityId": "lepisosteiformes",
+      "packageId": "actinopterygii",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "lepisosteiformes",
@@ -7005,6 +7182,7 @@
     },
     "amiiformes": {
       "entityId": "amiiformes",
+      "packageId": "actinopterygii",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "amiiformes",
@@ -7025,6 +7203,7 @@
     },
     "teleosteomorpha": {
       "entityId": "teleosteomorpha",
+      "packageId": "actinopterygii",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "teleosteomorpha",
@@ -7055,6 +7234,7 @@
     },
     "teleostei": {
       "entityId": "teleostei",
+      "packageId": "actinopterygii",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "teleostei",
@@ -7084,6 +7264,7 @@
     },
     "elopomorpha": {
       "entityId": "elopomorpha",
+      "packageId": "actinopterygii",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "elopomorpha",
@@ -7104,6 +7285,7 @@
     },
     "osteoglossomorpha": {
       "entityId": "osteoglossomorpha",
+      "packageId": "actinopterygii",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "osteoglossomorpha",
@@ -7124,6 +7306,7 @@
     },
     "clupeocephala": {
       "entityId": "clupeocephala",
+      "packageId": "actinopterygii",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "clupeocephala",
@@ -7150,11 +7333,12 @@
     },
     "salmoniformes": {
       "entityId": "salmoniformes",
+      "packageId": "actinopterygii",
       "entityKind": "taxon",
       "externalTaxonId": "txn:35506",
       "scientificNameNormalized": "salmoniformes",
       "externalResolutionStatus": "resolved-exact",
-      "queryStatus": "resolved-zero-in-bounded-sample",
+      "queryStatus": "complete-query-observed",
       "descendantEntityIds": [],
       "descendantTaxonIds": [
         "txn:35506"
@@ -7167,13 +7351,14 @@
         "acceptedName": 0,
         "higherClassification": 0
       },
-      "completeSnapshotAvailable": false,
-      "completeSnapshotRows": null,
+      "completeSnapshotAvailable": true,
+      "completeSnapshotRows": 153,
       "periods": [],
       "matchedTotal": 0
     },
     "early-actinopterygian-evidence-route": {
       "entityId": "early-actinopterygian-evidence-route",
+      "packageId": "actinopterygii",
       "entityKind": "navigation-group",
       "externalTaxonId": null,
       "scientificNameNormalized": "early actinopterygian evidence route",
@@ -7203,11 +7388,12 @@
     },
     "cheirolepis-trailli": {
       "entityId": "cheirolepis-trailli",
+      "packageId": "actinopterygii",
       "entityKind": "taxon",
       "externalTaxonId": "txn:218871",
       "scientificNameNormalized": "cheirolepis trailli",
       "externalResolutionStatus": "resolved-exact",
-      "queryStatus": "resolved-zero-in-bounded-sample",
+      "queryStatus": "complete-query-observed",
       "descendantEntityIds": [],
       "descendantTaxonIds": [
         "txn:218871"
@@ -7220,18 +7406,19 @@
         "acceptedName": 0,
         "higherClassification": 0
       },
-      "completeSnapshotAvailable": false,
-      "completeSnapshotRows": null,
+      "completeSnapshotAvailable": true,
+      "completeSnapshotRows": 7,
       "periods": [],
       "matchedTotal": 0
     },
     "fukangichthys": {
       "entityId": "fukangichthys",
+      "packageId": "actinopterygii",
       "entityKind": "taxon",
       "externalTaxonId": "txn:265927",
       "scientificNameNormalized": "fukangichthys longidorsalis",
       "externalResolutionStatus": "resolved-exact",
-      "queryStatus": "resolved-zero-in-bounded-sample",
+      "queryStatus": "complete-query-observed",
       "descendantEntityIds": [],
       "descendantTaxonIds": [
         "txn:265927"
@@ -7244,13 +7431,14 @@
         "acceptedName": 0,
         "higherClassification": 0
       },
-      "completeSnapshotAvailable": false,
-      "completeSnapshotRows": null,
+      "completeSnapshotAvailable": true,
+      "completeSnapshotRows": 1,
       "periods": [],
       "matchedTotal": 0
     },
     "sarcopterygii": {
       "entityId": "sarcopterygii",
+      "packageId": "tetrapod-transition",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "sarcopterygii",
@@ -7647,6 +7835,7 @@
     },
     "coelacanthimorpha": {
       "entityId": "coelacanthimorpha",
+      "packageId": "tetrapod-transition",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "coelacanthimorpha",
@@ -7667,6 +7856,7 @@
     },
     "dipnoi": {
       "entityId": "dipnoi",
+      "packageId": "tetrapod-transition",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "dipnoi",
@@ -7687,6 +7877,7 @@
     },
     "tetrapodomorpha": {
       "entityId": "tetrapodomorpha",
+      "packageId": "tetrapod-transition",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "tetrapodomorpha",
@@ -8080,6 +8271,7 @@
     },
     "stem-tetrapodomorphs": {
       "entityId": "stem-tetrapodomorphs",
+      "packageId": "tetrapod-transition",
       "entityKind": "historical-grade",
       "externalTaxonId": null,
       "scientificNameNormalized": "stem-tetrapodomorphs",
@@ -8109,11 +8301,12 @@
     },
     "tiktaalik": {
       "entityId": "tiktaalik",
+      "packageId": "tetrapod-transition",
       "entityKind": "taxon",
       "externalTaxonId": "txn:77132",
       "scientificNameNormalized": "tiktaalik",
       "externalResolutionStatus": "resolved-exact",
-      "queryStatus": "resolved-zero-in-bounded-sample",
+      "queryStatus": "complete-query-observed",
       "descendantEntityIds": [],
       "descendantTaxonIds": [
         "txn:77132"
@@ -8126,13 +8319,14 @@
         "acceptedName": 0,
         "higherClassification": 0
       },
-      "completeSnapshotAvailable": false,
-      "completeSnapshotRows": null,
+      "completeSnapshotAvailable": true,
+      "completeSnapshotRows": 2,
       "periods": [],
       "matchedTotal": 0
     },
     "elpistostege": {
       "entityId": "elpistostege",
+      "packageId": "tetrapod-transition",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "elpistostege",
@@ -8153,6 +8347,7 @@
     },
     "acanthostega": {
       "entityId": "acanthostega",
+      "packageId": "tetrapod-transition",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "acanthostega",
@@ -8173,6 +8368,7 @@
     },
     "ichthyostega": {
       "entityId": "ichthyostega",
+      "packageId": "tetrapod-transition",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "ichthyostega",
@@ -8193,6 +8389,7 @@
     },
     "tetrapoda": {
       "entityId": "tetrapoda",
+      "packageId": "atlas-core",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "tetrapoda",
@@ -8578,11 +8775,12 @@
     },
     "amphibia": {
       "entityId": "amphibia",
+      "packageId": "amphibia",
       "entityKind": "taxon",
       "externalTaxonId": "txn:36319",
       "scientificNameNormalized": "amphibia",
       "externalResolutionStatus": "resolved-exact",
-      "queryStatus": "resolved-and-observed",
+      "queryStatus": "complete-query-observed",
       "descendantEntityIds": [
         "temnospondyli",
         "lissamphibia",
@@ -8620,8 +8818,8 @@
         "acceptedName": 0,
         "higherClassification": 7
       },
-      "completeSnapshotAvailable": false,
-      "completeSnapshotRows": null,
+      "completeSnapshotAvailable": true,
+      "completeSnapshotRows": 6317,
       "periods": [
         "Triassic",
         "Neogene"
@@ -8630,11 +8828,12 @@
     },
     "temnospondyli": {
       "entityId": "temnospondyli",
+      "packageId": "amphibia",
       "entityKind": "taxon",
       "externalTaxonId": "txn:36320",
       "scientificNameNormalized": "temnospondyli",
       "externalResolutionStatus": "resolved-exact",
-      "queryStatus": "resolved-and-observed",
+      "queryStatus": "complete-query-observed",
       "descendantEntityIds": [],
       "descendantTaxonIds": [
         "txn:36320"
@@ -8647,8 +8846,8 @@
         "acceptedName": 0,
         "higherClassification": 6
       },
-      "completeSnapshotAvailable": false,
-      "completeSnapshotRows": null,
+      "completeSnapshotAvailable": true,
+      "completeSnapshotRows": 6126,
       "periods": [
         "Triassic"
       ],
@@ -8656,6 +8855,7 @@
     },
     "lissamphibia": {
       "entityId": "lissamphibia",
+      "packageId": "amphibia",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "lissamphibia",
@@ -8685,6 +8885,7 @@
     },
     "anura": {
       "entityId": "anura",
+      "packageId": "amphibia",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "anura",
@@ -8705,6 +8906,7 @@
     },
     "caudata": {
       "entityId": "caudata",
+      "packageId": "amphibia",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "caudata",
@@ -8725,11 +8927,12 @@
     },
     "gymnophionomorpha": {
       "entityId": "gymnophionomorpha",
+      "packageId": "amphibia",
       "entityKind": "taxon",
       "externalTaxonId": "txn:471965",
       "scientificNameNormalized": "gymnophionomorpha",
       "externalResolutionStatus": "resolved-exact",
-      "queryStatus": "resolved-zero-in-bounded-sample",
+      "queryStatus": "complete-query-observed",
       "descendantEntityIds": [
         "gymnophiona"
       ],
@@ -8744,13 +8947,14 @@
         "acceptedName": 0,
         "higherClassification": 0
       },
-      "completeSnapshotAvailable": false,
-      "completeSnapshotRows": null,
+      "completeSnapshotAvailable": true,
+      "completeSnapshotRows": 11,
       "periods": [],
       "matchedTotal": 0
     },
     "gymnophiona": {
       "entityId": "gymnophiona",
+      "packageId": "amphibia",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "gymnophiona",
@@ -8771,6 +8975,7 @@
     },
     "amphibian-fossil-evidence-route": {
       "entityId": "amphibian-fossil-evidence-route",
+      "packageId": "amphibia",
       "entityKind": "navigation-group",
       "externalTaxonId": null,
       "scientificNameNormalized": "amphibian fossil evidence route",
@@ -8807,11 +9012,12 @@
     },
     "gerobatrachus": {
       "entityId": "gerobatrachus",
+      "packageId": "amphibia",
       "entityKind": "taxon",
       "externalTaxonId": "txn:153288",
       "scientificNameNormalized": "gerobatrachus hottoni",
       "externalResolutionStatus": "resolved-exact",
-      "queryStatus": "resolved-zero-in-bounded-sample",
+      "queryStatus": "complete-query-observed",
       "descendantEntityIds": [],
       "descendantTaxonIds": [
         "txn:153288"
@@ -8824,18 +9030,19 @@
         "acceptedName": 0,
         "higherClassification": 0
       },
-      "completeSnapshotAvailable": false,
-      "completeSnapshotRows": null,
+      "completeSnapshotAvailable": true,
+      "completeSnapshotRows": 1,
       "periods": [],
       "matchedTotal": 0
     },
     "triadobatrachus": {
       "entityId": "triadobatrachus",
+      "packageId": "amphibia",
       "entityKind": "taxon",
       "externalTaxonId": "txn:156396",
       "scientificNameNormalized": "triadobatrachus massinoti",
       "externalResolutionStatus": "resolved-exact",
-      "queryStatus": "resolved-zero-in-bounded-sample",
+      "queryStatus": "complete-query-observed",
       "descendantEntityIds": [],
       "descendantTaxonIds": [
         "txn:156396"
@@ -8848,18 +9055,19 @@
         "acceptedName": 0,
         "higherClassification": 0
       },
-      "completeSnapshotAvailable": false,
-      "completeSnapshotRows": null,
+      "completeSnapshotAvailable": true,
+      "completeSnapshotRows": 1,
       "periods": [],
       "matchedTotal": 0
     },
     "funcusvermis": {
       "entityId": "funcusvermis",
+      "packageId": "amphibia",
       "entityKind": "taxon",
       "externalTaxonId": "txn:471966",
       "scientificNameNormalized": "funcusvermis gilmorei",
       "externalResolutionStatus": "resolved-exact",
-      "queryStatus": "resolved-zero-in-bounded-sample",
+      "queryStatus": "complete-query-observed",
       "descendantEntityIds": [],
       "descendantTaxonIds": [
         "txn:471966"
@@ -8872,18 +9080,19 @@
         "acceptedName": 0,
         "higherClassification": 0
       },
-      "completeSnapshotAvailable": false,
-      "completeSnapshotRows": null,
+      "completeSnapshotAvailable": true,
+      "completeSnapshotRows": 1,
       "periods": [],
       "matchedTotal": 0
     },
     "beiyanerpeton": {
       "entityId": "beiyanerpeton",
+      "packageId": "amphibia",
       "entityKind": "taxon",
       "externalTaxonId": "txn:242131",
       "scientificNameNormalized": "beiyanerpeton",
       "externalResolutionStatus": "resolved-exact",
-      "queryStatus": "resolved-zero-in-bounded-sample",
+      "queryStatus": "complete-query-observed",
       "descendantEntityIds": [],
       "descendantTaxonIds": [
         "txn:242131"
@@ -8896,13 +9105,14 @@
         "acceptedName": 0,
         "higherClassification": 0
       },
-      "completeSnapshotAvailable": false,
-      "completeSnapshotRows": null,
+      "completeSnapshotAvailable": true,
+      "completeSnapshotRows": 1,
       "periods": [],
       "matchedTotal": 0
     },
     "ymboirana": {
       "entityId": "ymboirana",
+      "packageId": "amphibia",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "ymboirana acrux",
@@ -8923,6 +9133,7 @@
     },
     "amniota": {
       "entityId": "amniota",
+      "packageId": "atlas-core",
       "entityKind": "taxon",
       "externalTaxonId": "txn:53189",
       "scientificNameNormalized": "amniota",
@@ -9280,6 +9491,7 @@
     },
     "synapsida": {
       "entityId": "synapsida",
+      "packageId": "mammal-origins",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "synapsida",
@@ -9517,11 +9729,12 @@
     },
     "pelycosauria": {
       "entityId": "pelycosauria",
+      "packageId": "mammal-origins",
       "entityKind": "historical-grade",
       "externalTaxonId": "txn:38883",
       "scientificNameNormalized": "pelycosauria",
       "externalResolutionStatus": "resolved-exact",
-      "queryStatus": "historical-grade",
+      "queryStatus": "complete-query-observed",
       "descendantEntityIds": [
         "dimetrodon",
         "ophiacodontidae"
@@ -9537,13 +9750,14 @@
         "acceptedName": 0,
         "higherClassification": 0
       },
-      "completeSnapshotAvailable": false,
-      "completeSnapshotRows": null,
+      "completeSnapshotAvailable": true,
+      "completeSnapshotRows": 15,
       "periods": [],
       "matchedTotal": 0
     },
     "dimetrodon": {
       "entityId": "dimetrodon",
+      "packageId": "mammal-origins",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "dimetrodon",
@@ -9564,6 +9778,7 @@
     },
     "ophiacodontidae": {
       "entityId": "ophiacodontidae",
+      "packageId": "mammal-origins",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "ophiacodontidae",
@@ -9584,6 +9799,7 @@
     },
     "therapsida": {
       "entityId": "therapsida",
+      "packageId": "mammal-origins",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "therapsida",
@@ -9815,11 +10031,12 @@
     },
     "dicynodontia": {
       "entityId": "dicynodontia",
+      "packageId": "mammal-origins",
       "entityKind": "taxon",
       "externalTaxonId": "txn:312556",
       "scientificNameNormalized": "dicynodontia",
       "externalResolutionStatus": "resolved-exact",
-      "queryStatus": "resolved-and-observed",
+      "queryStatus": "complete-query-observed",
       "descendantEntityIds": [],
       "descendantTaxonIds": [
         "txn:312556"
@@ -9832,8 +10049,8 @@
         "acceptedName": 0,
         "higherClassification": 2
       },
-      "completeSnapshotAvailable": false,
-      "completeSnapshotRows": null,
+      "completeSnapshotAvailable": true,
+      "completeSnapshotRows": 1092,
       "periods": [
         "Triassic"
       ],
@@ -9841,6 +10058,7 @@
     },
     "cynodontia": {
       "entityId": "cynodontia",
+      "packageId": "mammal-origins",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "cynodontia",
@@ -10064,6 +10282,7 @@
     },
     "probainognathia": {
       "entityId": "probainognathia",
+      "packageId": "mammal-origins",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "probainognathia",
@@ -10098,6 +10317,7 @@
     },
     "mammaliamorpha": {
       "entityId": "mammaliamorpha",
+      "packageId": "mammal-origins",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "mammaliamorpha",
@@ -10131,6 +10351,7 @@
     },
     "mammaliaformes": {
       "entityId": "mammaliaformes",
+      "packageId": "mammal-origins",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "mammaliaformes",
@@ -10163,6 +10384,7 @@
     },
     "haramiyida": {
       "entityId": "haramiyida",
+      "packageId": "mammal-origins",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "haramiyida",
@@ -10189,11 +10411,12 @@
     },
     "haramiyavia": {
       "entityId": "haramiyavia",
+      "packageId": "mammal-origins",
       "entityKind": "taxon",
       "externalTaxonId": "txn:178262",
       "scientificNameNormalized": "haramiyavia",
       "externalResolutionStatus": "resolved-exact",
-      "queryStatus": "resolved-zero-in-bounded-sample",
+      "queryStatus": "complete-query-observed",
       "descendantEntityIds": [],
       "descendantTaxonIds": [
         "txn:178262"
@@ -10206,13 +10429,14 @@
         "acceptedName": 0,
         "higherClassification": 0
       },
-      "completeSnapshotAvailable": false,
-      "completeSnapshotRows": null,
+      "completeSnapshotAvailable": true,
+      "completeSnapshotRows": 1,
       "periods": [],
       "matchedTotal": 0
     },
     "morganucodonta": {
       "entityId": "morganucodonta",
+      "packageId": "mammal-origins",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "morganucodonta",
@@ -10233,6 +10457,7 @@
     },
     "eutriconodonta": {
       "entityId": "eutriconodonta",
+      "packageId": "mammal-origins",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "eutriconodonta",
@@ -10259,11 +10484,12 @@
     },
     "liaoconodon": {
       "entityId": "liaoconodon",
+      "packageId": "mammal-origins",
       "entityKind": "taxon",
       "externalTaxonId": "txn:239721",
       "scientificNameNormalized": "liaoconodon",
       "externalResolutionStatus": "resolved-exact",
-      "queryStatus": "resolved-zero-in-bounded-sample",
+      "queryStatus": "complete-query-observed",
       "descendantEntityIds": [],
       "descendantTaxonIds": [
         "txn:239721"
@@ -10276,13 +10502,14 @@
         "acceptedName": 0,
         "higherClassification": 0
       },
-      "completeSnapshotAvailable": false,
-      "completeSnapshotRows": null,
+      "completeSnapshotAvailable": true,
+      "completeSnapshotRows": 1,
       "periods": [],
       "matchedTotal": 0
     },
     "mammalia": {
       "entityId": "mammalia",
+      "packageId": "mammal-origins",
       "entityKind": "taxon",
       "externalTaxonId": "txn:36651",
       "scientificNameNormalized": "mammalia",
@@ -10493,11 +10720,12 @@
     },
     "monotremata": {
       "entityId": "monotremata",
+      "packageId": "other-mammals",
       "entityKind": "taxon",
       "externalTaxonId": "txn:39737",
       "scientificNameNormalized": "monotremata",
       "externalResolutionStatus": "resolved-exact",
-      "queryStatus": "resolved-and-observed",
+      "queryStatus": "complete-query-observed",
       "descendantEntityIds": [
         "steropodon"
       ],
@@ -10514,8 +10742,8 @@
         "acceptedName": 0,
         "higherClassification": 2
       },
-      "completeSnapshotAvailable": false,
-      "completeSnapshotRows": null,
+      "completeSnapshotAvailable": true,
+      "completeSnapshotRows": 42,
       "periods": [
         "Quaternary"
       ],
@@ -10523,11 +10751,12 @@
     },
     "steropodon": {
       "entityId": "steropodon",
+      "packageId": "other-mammals",
       "entityKind": "taxon",
       "externalTaxonId": "txn:39741",
       "scientificNameNormalized": "steropodon",
       "externalResolutionStatus": "resolved-exact",
-      "queryStatus": "resolved-zero-in-bounded-sample",
+      "queryStatus": "complete-query-observed",
       "descendantEntityIds": [],
       "descendantTaxonIds": [
         "txn:39741"
@@ -10540,18 +10769,19 @@
         "acceptedName": 0,
         "higherClassification": 0
       },
-      "completeSnapshotAvailable": false,
-      "completeSnapshotRows": null,
+      "completeSnapshotAvailable": true,
+      "completeSnapshotRows": 1,
       "periods": [],
       "matchedTotal": 0
     },
     "marsupialia": {
       "entityId": "marsupialia",
+      "packageId": "other-mammals",
       "entityKind": "taxon",
       "externalTaxonId": "txn:247806",
       "scientificNameNormalized": "marsupialia",
       "externalResolutionStatus": "resolved-exact",
-      "queryStatus": "resolved-and-observed",
+      "queryStatus": "complete-query-observed",
       "descendantEntityIds": [
         "diprotodontia"
       ],
@@ -10568,8 +10798,8 @@
         "acceptedName": 0,
         "higherClassification": 19
       },
-      "completeSnapshotAvailable": false,
-      "completeSnapshotRows": null,
+      "completeSnapshotAvailable": true,
+      "completeSnapshotRows": 36,
       "periods": [
         "Quaternary"
       ],
@@ -10577,11 +10807,12 @@
     },
     "diprotodontia": {
       "entityId": "diprotodontia",
+      "packageId": "other-mammals",
       "entityKind": "taxon",
       "externalTaxonId": "txn:66275",
       "scientificNameNormalized": "diprotodontia",
       "externalResolutionStatus": "resolved-exact",
-      "queryStatus": "resolved-and-observed",
+      "queryStatus": "complete-query-observed",
       "descendantEntityIds": [],
       "descendantTaxonIds": [
         "txn:66275"
@@ -10594,8 +10825,8 @@
         "acceptedName": 0,
         "higherClassification": 19
       },
-      "completeSnapshotAvailable": false,
-      "completeSnapshotRows": null,
+      "completeSnapshotAvailable": true,
+      "completeSnapshotRows": 1551,
       "periods": [
         "Quaternary"
       ],
@@ -10603,6 +10834,7 @@
     },
     "placentalia": {
       "entityId": "placentalia",
+      "packageId": "atlas-core",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "placentalia",
@@ -10792,6 +11024,7 @@
     },
     "perissodactyla": {
       "entityId": "perissodactyla",
+      "packageId": "perissodactyla",
       "entityKind": "taxon",
       "externalTaxonId": "txn:106418",
       "scientificNameNormalized": "perissodactyla",
@@ -10849,7 +11082,7 @@
         "higherClassification": 153
       },
       "completeSnapshotAvailable": true,
-      "completeSnapshotRows": 13210,
+      "completeSnapshotRows": 13209,
       "periods": [
         "Neogene",
         "Quaternary"
@@ -10858,6 +11091,7 @@
     },
     "brontotheriidae": {
       "entityId": "brontotheriidae",
+      "packageId": "perissodactyla",
       "entityKind": "taxon",
       "externalTaxonId": "txn:43027",
       "scientificNameNormalized": "brontotheriidae",
@@ -10882,6 +11116,7 @@
     },
     "hippomorpha": {
       "entityId": "hippomorpha",
+      "packageId": "perissodactyla",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "hippomorpha",
@@ -10913,6 +11148,7 @@
     },
     "palaeotherium": {
       "entityId": "palaeotherium",
+      "packageId": "perissodactyla",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "palaeotherium",
@@ -10927,12 +11163,13 @@
         "higherClassification": 0
       },
       "completeSnapshotAvailable": false,
-      "completeSnapshotRows": 157,
+      "completeSnapshotRows": null,
       "periods": [],
       "matchedTotal": 0
     },
     "equidae": {
       "entityId": "equidae",
+      "packageId": "perissodactyla",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "equidae",
@@ -10962,6 +11199,7 @@
     },
     "anchitherium": {
       "entityId": "anchitherium",
+      "packageId": "perissodactyla",
       "entityKind": "taxon",
       "externalTaxonId": "txn:42987",
       "scientificNameNormalized": "anchitherium",
@@ -10986,6 +11224,7 @@
     },
     "hipparionini": {
       "entityId": "hipparionini",
+      "packageId": "perissodactyla",
       "entityKind": "taxon",
       "externalTaxonId": "txn:65579",
       "scientificNameNormalized": "hipparionini",
@@ -11010,6 +11249,7 @@
     },
     "ancylopoda": {
       "entityId": "ancylopoda",
+      "packageId": "perissodactyla",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "ancylopoda",
@@ -11038,6 +11278,7 @@
     },
     "chalicotherium": {
       "entityId": "chalicotherium",
+      "packageId": "perissodactyla",
       "entityKind": "taxon",
       "externalTaxonId": "txn:43079",
       "scientificNameNormalized": "chalicotherium",
@@ -11064,6 +11305,7 @@
     },
     "ceratomorpha": {
       "entityId": "ceratomorpha",
+      "packageId": "perissodactyla",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "ceratomorpha",
@@ -11111,11 +11353,12 @@
     },
     "tapiroidea": {
       "entityId": "tapiroidea",
+      "packageId": "perissodactyla",
       "entityKind": "taxon",
       "externalTaxonId": "txn:43104",
       "scientificNameNormalized": "tapiroidea",
       "externalResolutionStatus": "resolved-exact",
-      "queryStatus": "resolved-zero-in-bounded-sample",
+      "queryStatus": "complete-query-observed",
       "descendantEntityIds": [],
       "descendantTaxonIds": [
         "txn:43104"
@@ -11128,18 +11371,19 @@
         "acceptedName": 0,
         "higherClassification": 0
       },
-      "completeSnapshotAvailable": false,
-      "completeSnapshotRows": null,
+      "completeSnapshotAvailable": true,
+      "completeSnapshotRows": 743,
       "periods": [],
       "matchedTotal": 0
     },
     "rhinocerotoidea": {
       "entityId": "rhinocerotoidea",
+      "packageId": "perissodactyla",
       "entityKind": "taxon",
       "externalTaxonId": "txn:43140",
       "scientificNameNormalized": "rhinocerotoidea",
       "externalResolutionStatus": "resolved-exact",
-      "queryStatus": "resolved-and-observed",
+      "queryStatus": "complete-query-observed",
       "descendantEntityIds": [
         "metamynodon",
         "paraceratherium",
@@ -11168,8 +11412,8 @@
         "acceptedName": 0,
         "higherClassification": 29
       },
-      "completeSnapshotAvailable": false,
-      "completeSnapshotRows": null,
+      "completeSnapshotAvailable": true,
+      "completeSnapshotRows": 3516,
       "periods": [
         "Neogene",
         "Quaternary"
@@ -11178,6 +11422,7 @@
     },
     "metamynodon": {
       "entityId": "metamynodon",
+      "packageId": "perissodactyla",
       "entityKind": "taxon",
       "externalTaxonId": "txn:43179",
       "scientificNameNormalized": "metamynodon",
@@ -11202,6 +11447,7 @@
     },
     "paraceratherium": {
       "entityId": "paraceratherium",
+      "packageId": "perissodactyla",
       "entityKind": "taxon",
       "externalTaxonId": "txn:43161",
       "scientificNameNormalized": "paraceratherium",
@@ -11226,11 +11472,12 @@
     },
     "rhinocerotidae": {
       "entityId": "rhinocerotidae",
+      "packageId": "perissodactyla",
       "entityKind": "taxon",
       "externalTaxonId": "txn:43187",
       "scientificNameNormalized": "rhinocerotidae",
       "externalResolutionStatus": "resolved-exact",
-      "queryStatus": "resolved-and-observed",
+      "queryStatus": "complete-query-observed",
       "descendantEntityIds": [
         "teleoceras",
         "coelodonta"
@@ -11250,8 +11497,8 @@
         "acceptedName": 0,
         "higherClassification": 29
       },
-      "completeSnapshotAvailable": false,
-      "completeSnapshotRows": null,
+      "completeSnapshotAvailable": true,
+      "completeSnapshotRows": 2641,
       "periods": [
         "Neogene",
         "Quaternary"
@@ -11260,6 +11507,7 @@
     },
     "teleoceras": {
       "entityId": "teleoceras",
+      "packageId": "perissodactyla",
       "entityKind": "taxon",
       "externalTaxonId": "txn:43226",
       "scientificNameNormalized": "teleoceras",
@@ -11284,6 +11532,7 @@
     },
     "coelodonta": {
       "entityId": "coelodonta",
+      "packageId": "perissodactyla",
       "entityKind": "taxon",
       "externalTaxonId": "txn:43197",
       "scientificNameNormalized": "coelodonta",
@@ -11308,11 +11557,12 @@
     },
     "carnivora": {
       "entityId": "carnivora",
+      "packageId": "carnivora",
       "entityKind": "taxon",
       "externalTaxonId": "txn:36905",
       "scientificNameNormalized": "carnivora",
       "externalResolutionStatus": "resolved-exact",
-      "queryStatus": "resolved-and-observed",
+      "queryStatus": "complete-query-observed",
       "descendantEntityIds": [
         "carnivoraformes-dossiers",
         "dormaalocyon",
@@ -11359,8 +11609,8 @@
         "acceptedName": 0,
         "higherClassification": 147
       },
-      "completeSnapshotAvailable": false,
-      "completeSnapshotRows": null,
+      "completeSnapshotAvailable": true,
+      "completeSnapshotRows": 13097,
       "periods": [
         "Neogene",
         "Quaternary"
@@ -11369,6 +11619,7 @@
     },
     "carnivoraformes-dossiers": {
       "entityId": "carnivoraformes-dossiers",
+      "packageId": "carnivora",
       "entityKind": "navigation-group",
       "externalTaxonId": null,
       "scientificNameNormalized": "carnivoraformes dossier route",
@@ -11398,11 +11649,12 @@
     },
     "dormaalocyon": {
       "entityId": "dormaalocyon",
+      "packageId": "carnivora",
       "entityKind": "taxon",
       "externalTaxonId": "txn:331898",
       "scientificNameNormalized": "dormaalocyon",
       "externalResolutionStatus": "resolved-exact",
-      "queryStatus": "resolved-zero-in-bounded-sample",
+      "queryStatus": "complete-query-observed",
       "descendantEntityIds": [],
       "descendantTaxonIds": [
         "txn:331898"
@@ -11415,13 +11667,14 @@
         "acceptedName": 0,
         "higherClassification": 0
       },
-      "completeSnapshotAvailable": false,
-      "completeSnapshotRows": null,
+      "completeSnapshotAvailable": true,
+      "completeSnapshotRows": 4,
       "periods": [],
       "matchedTotal": 0
     },
     "vulpavus": {
       "entityId": "vulpavus",
+      "packageId": "carnivora",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "vulpavus",
@@ -11442,6 +11695,7 @@
     },
     "uintacyon": {
       "entityId": "uintacyon",
+      "packageId": "carnivora",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "uintacyon",
@@ -11462,6 +11716,7 @@
     },
     "lycophocyon": {
       "entityId": "lycophocyon",
+      "packageId": "carnivora",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "lycophocyon",
@@ -11482,6 +11737,7 @@
     },
     "feliformia": {
       "entityId": "feliformia",
+      "packageId": "carnivora",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "feliformia",
@@ -11517,11 +11773,12 @@
     },
     "felidae": {
       "entityId": "felidae",
+      "packageId": "carnivora",
       "entityKind": "taxon",
       "externalTaxonId": "txn:41045",
       "scientificNameNormalized": "felidae",
       "externalResolutionStatus": "resolved-exact",
-      "queryStatus": "resolved-and-observed",
+      "queryStatus": "complete-query-observed",
       "descendantEntityIds": [
         "smilodon",
         "panthera-blytheae"
@@ -11541,8 +11798,8 @@
         "acceptedName": 0,
         "higherClassification": 40
       },
-      "completeSnapshotAvailable": false,
-      "completeSnapshotRows": null,
+      "completeSnapshotAvailable": true,
+      "completeSnapshotRows": 2058,
       "periods": [
         "Neogene",
         "Quaternary"
@@ -11551,11 +11808,12 @@
     },
     "smilodon": {
       "entityId": "smilodon",
+      "packageId": "carnivora",
       "entityKind": "taxon",
       "externalTaxonId": "txn:41079",
       "scientificNameNormalized": "smilodon",
       "externalResolutionStatus": "resolved-exact",
-      "queryStatus": "resolved-and-observed",
+      "queryStatus": "complete-query-observed",
       "descendantEntityIds": [],
       "descendantTaxonIds": [
         "txn:41079"
@@ -11568,8 +11826,8 @@
         "acceptedName": 0,
         "higherClassification": 3
       },
-      "completeSnapshotAvailable": false,
-      "completeSnapshotRows": null,
+      "completeSnapshotAvailable": true,
+      "completeSnapshotRows": 137,
       "periods": [
         "Quaternary"
       ],
@@ -11577,11 +11835,12 @@
     },
     "panthera-blytheae": {
       "entityId": "panthera-blytheae",
+      "packageId": "carnivora",
       "entityKind": "taxon",
       "externalTaxonId": "txn:282559",
       "scientificNameNormalized": "panthera blytheae",
       "externalResolutionStatus": "resolved-exact",
-      "queryStatus": "resolved-zero-in-bounded-sample",
+      "queryStatus": "complete-query-observed",
       "descendantEntityIds": [],
       "descendantTaxonIds": [
         "txn:282559"
@@ -11594,13 +11853,14 @@
         "acceptedName": 0,
         "higherClassification": 0
       },
-      "completeSnapshotAvailable": false,
-      "completeSnapshotRows": null,
+      "completeSnapshotAvailable": true,
+      "completeSnapshotRows": 3,
       "periods": [],
       "matchedTotal": 0
     },
     "caniformia": {
       "entityId": "caniformia",
+      "packageId": "carnivora",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "caniformia",
@@ -11642,11 +11902,12 @@
     },
     "canidae": {
       "entityId": "canidae",
+      "packageId": "carnivora",
       "entityKind": "taxon",
       "externalTaxonId": "txn:41189",
       "scientificNameNormalized": "canidae",
       "externalResolutionStatus": "resolved-exact",
-      "queryStatus": "resolved-and-observed",
+      "queryStatus": "complete-query-observed",
       "descendantEntityIds": [
         "hesperocyon"
       ],
@@ -11661,8 +11922,8 @@
         "acceptedName": 0,
         "higherClassification": 26
       },
-      "completeSnapshotAvailable": false,
-      "completeSnapshotRows": null,
+      "completeSnapshotAvailable": true,
+      "completeSnapshotRows": 3490,
       "periods": [
         "Neogene",
         "Quaternary"
@@ -11671,6 +11932,7 @@
     },
     "hesperocyon": {
       "entityId": "hesperocyon",
+      "packageId": "carnivora",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "hesperocyon",
@@ -11691,6 +11953,7 @@
     },
     "amphicyonidae": {
       "entityId": "amphicyonidae",
+      "packageId": "carnivora",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "amphicyonidae",
@@ -11715,6 +11978,7 @@
     },
     "gustafsonia": {
       "entityId": "gustafsonia",
+      "packageId": "carnivora",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "gustafsonia",
@@ -11735,6 +11999,7 @@
     },
     "angelarctocyon": {
       "entityId": "angelarctocyon",
+      "packageId": "carnivora",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "angelarctocyon",
@@ -11755,6 +12020,7 @@
     },
     "magericyon": {
       "entityId": "magericyon",
+      "packageId": "carnivora",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "magericyon",
@@ -11775,6 +12041,7 @@
     },
     "ursidae": {
       "entityId": "ursidae",
+      "packageId": "carnivora",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "ursidae",
@@ -11797,6 +12064,7 @@
     },
     "kretzoiarctos": {
       "entityId": "kretzoiarctos",
+      "packageId": "carnivora",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "kretzoiarctos",
@@ -11817,6 +12085,7 @@
     },
     "pinnipedimorpha": {
       "entityId": "pinnipedimorpha",
+      "packageId": "carnivora",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "pinnipedimorpha",
@@ -11844,11 +12113,12 @@
     },
     "puijila": {
       "entityId": "puijila",
+      "packageId": "carnivora",
       "entityKind": "taxon",
       "externalTaxonId": "txn:146163",
       "scientificNameNormalized": "puijila",
       "externalResolutionStatus": "resolved-exact",
-      "queryStatus": "resolved-zero-in-bounded-sample",
+      "queryStatus": "complete-query-observed",
       "descendantEntityIds": [],
       "descendantTaxonIds": [
         "txn:146163"
@@ -11861,13 +12131,14 @@
         "acceptedName": 0,
         "higherClassification": 0
       },
-      "completeSnapshotAvailable": false,
-      "completeSnapshotRows": null,
+      "completeSnapshotAvailable": true,
+      "completeSnapshotRows": 1,
       "periods": [],
       "matchedTotal": 0
     },
     "enaliarctos": {
       "entityId": "enaliarctos",
+      "packageId": "carnivora",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "enaliarctos",
@@ -11888,11 +12159,12 @@
     },
     "chiroptera": {
       "entityId": "chiroptera",
+      "packageId": "other-mammals",
       "entityKind": "taxon",
       "externalTaxonId": "txn:40622",
       "scientificNameNormalized": "chiroptera",
       "externalResolutionStatus": "resolved-exact",
-      "queryStatus": "resolved-and-observed",
+      "queryStatus": "complete-query-observed",
       "descendantEntityIds": [
         "onychonycteris"
       ],
@@ -11909,8 +12181,8 @@
         "acceptedName": 0,
         "higherClassification": 54
       },
-      "completeSnapshotAvailable": false,
-      "completeSnapshotRows": null,
+      "completeSnapshotAvailable": true,
+      "completeSnapshotRows": 1707,
       "periods": [
         "Neogene",
         "Quaternary"
@@ -11919,11 +12191,12 @@
     },
     "onychonycteris": {
       "entityId": "onychonycteris",
+      "packageId": "other-mammals",
       "entityKind": "taxon",
       "externalTaxonId": "txn:117584",
       "scientificNameNormalized": "onychonycteris",
       "externalResolutionStatus": "resolved-exact",
-      "queryStatus": "resolved-zero-in-bounded-sample",
+      "queryStatus": "complete-query-observed",
       "descendantEntityIds": [],
       "descendantTaxonIds": [
         "txn:117584"
@@ -11936,13 +12209,14 @@
         "acceptedName": 0,
         "higherClassification": 0
       },
-      "completeSnapshotAvailable": false,
-      "completeSnapshotRows": null,
+      "completeSnapshotAvailable": true,
+      "completeSnapshotRows": 1,
       "periods": [],
       "matchedTotal": 0
     },
     "whippomorpha": {
       "entityId": "whippomorpha",
+      "packageId": "cetartiodactyla",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "whippomorpha",
@@ -11995,6 +12269,7 @@
     },
     "hippopotamidae": {
       "entityId": "hippopotamidae",
+      "packageId": "cetartiodactyla",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "hippopotamidae",
@@ -12015,6 +12290,7 @@
     },
     "cetaceamorpha": {
       "entityId": "cetaceamorpha",
+      "packageId": "cetartiodactyla",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "cetaceamorpha",
@@ -12065,6 +12341,7 @@
     },
     "raoellidae": {
       "entityId": "raoellidae",
+      "packageId": "cetartiodactyla",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "raoellidae",
@@ -12091,11 +12368,12 @@
     },
     "indohyus": {
       "entityId": "indohyus",
+      "packageId": "cetartiodactyla",
       "entityKind": "taxon",
       "externalTaxonId": "txn:42349",
       "scientificNameNormalized": "indohyus",
       "externalResolutionStatus": "resolved-exact",
-      "queryStatus": "resolved-zero-in-bounded-sample",
+      "queryStatus": "complete-query-observed",
       "descendantEntityIds": [],
       "descendantTaxonIds": [
         "txn:42349"
@@ -12108,18 +12386,19 @@
         "acceptedName": 0,
         "higherClassification": 0
       },
-      "completeSnapshotAvailable": false,
-      "completeSnapshotRows": null,
+      "completeSnapshotAvailable": true,
+      "completeSnapshotRows": 16,
       "periods": [],
       "matchedTotal": 0
     },
     "cetacea": {
       "entityId": "cetacea",
+      "packageId": "cetartiodactyla",
       "entityKind": "taxon",
       "externalTaxonId": "txn:36652",
       "scientificNameNormalized": "cetacea",
       "externalResolutionStatus": "resolved-exact",
-      "queryStatus": "resolved-and-observed",
+      "queryStatus": "complete-query-observed",
       "descendantEntityIds": [
         "pakicetidae",
         "pakicetus",
@@ -12151,8 +12430,8 @@
         "acceptedName": 0,
         "higherClassification": 9
       },
-      "completeSnapshotAvailable": false,
-      "completeSnapshotRows": null,
+      "completeSnapshotAvailable": true,
+      "completeSnapshotRows": 5990,
       "periods": [
         "Neogene"
       ],
@@ -12160,6 +12439,7 @@
     },
     "pakicetidae": {
       "entityId": "pakicetidae",
+      "packageId": "cetartiodactyla",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "pakicetidae",
@@ -12182,6 +12462,7 @@
     },
     "pakicetus": {
       "entityId": "pakicetus",
+      "packageId": "cetartiodactyla",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "pakicetus",
@@ -12202,6 +12483,7 @@
     },
     "ambulocetidae": {
       "entityId": "ambulocetidae",
+      "packageId": "cetartiodactyla",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "ambulocetidae",
@@ -12228,11 +12510,12 @@
     },
     "ambulocetus": {
       "entityId": "ambulocetus",
+      "packageId": "cetartiodactyla",
       "entityKind": "taxon",
       "externalTaxonId": "txn:36660",
       "scientificNameNormalized": "ambulocetus",
       "externalResolutionStatus": "resolved-exact",
-      "queryStatus": "resolved-zero-in-bounded-sample",
+      "queryStatus": "complete-query-observed",
       "descendantEntityIds": [],
       "descendantTaxonIds": [
         "txn:36660"
@@ -12245,13 +12528,14 @@
         "acceptedName": 0,
         "higherClassification": 0
       },
-      "completeSnapshotAvailable": false,
-      "completeSnapshotRows": null,
+      "completeSnapshotAvailable": true,
+      "completeSnapshotRows": 2,
       "periods": [],
       "matchedTotal": 0
     },
     "protocetidae": {
       "entityId": "protocetidae",
+      "packageId": "cetartiodactyla",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "protocetidae",
@@ -12279,6 +12563,7 @@
     },
     "peregocetus": {
       "entityId": "peregocetus",
+      "packageId": "cetartiodactyla",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "peregocetus",
@@ -12299,11 +12584,12 @@
     },
     "aegicetus": {
       "entityId": "aegicetus",
+      "packageId": "cetartiodactyla",
       "entityKind": "taxon",
       "externalTaxonId": "txn:401055",
       "scientificNameNormalized": "aegicetus",
       "externalResolutionStatus": "resolved-exact",
-      "queryStatus": "resolved-zero-in-bounded-sample",
+      "queryStatus": "complete-query-observed",
       "descendantEntityIds": [],
       "descendantTaxonIds": [
         "txn:401055"
@@ -12316,18 +12602,19 @@
         "acceptedName": 0,
         "higherClassification": 0
       },
-      "completeSnapshotAvailable": false,
-      "completeSnapshotRows": null,
+      "completeSnapshotAvailable": true,
+      "completeSnapshotRows": 2,
       "periods": [],
       "matchedTotal": 0
     },
     "basilosauridae": {
       "entityId": "basilosauridae",
+      "packageId": "cetartiodactyla",
       "entityKind": "taxon",
       "externalTaxonId": "txn:42936",
       "scientificNameNormalized": "basilosauridae",
       "externalResolutionStatus": "resolved-exact",
-      "queryStatus": "resolved-zero-in-bounded-sample",
+      "queryStatus": "complete-query-observed",
       "descendantEntityIds": [
         "basilosaurus"
       ],
@@ -12342,13 +12629,14 @@
         "acceptedName": 0,
         "higherClassification": 0
       },
-      "completeSnapshotAvailable": false,
-      "completeSnapshotRows": null,
+      "completeSnapshotAvailable": true,
+      "completeSnapshotRows": 324,
       "periods": [],
       "matchedTotal": 0
     },
     "basilosaurus": {
       "entityId": "basilosaurus",
+      "packageId": "cetartiodactyla",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "basilosaurus",
@@ -12369,6 +12657,7 @@
     },
     "neoceti": {
       "entityId": "neoceti",
+      "packageId": "cetartiodactyla",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "neoceti",
@@ -12392,6 +12681,7 @@
     },
     "mysticeti": {
       "entityId": "mysticeti",
+      "packageId": "cetartiodactyla",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "mysticeti",
@@ -12412,6 +12702,7 @@
     },
     "odontoceti": {
       "entityId": "odontoceti",
+      "packageId": "cetartiodactyla",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "odontoceti",
@@ -12432,6 +12723,7 @@
     },
     "primatomorpha": {
       "entityId": "primatomorpha",
+      "packageId": "primates",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "primatomorpha",
@@ -12494,6 +12786,7 @@
     },
     "plesiadapiformes": {
       "entityId": "plesiadapiformes",
+      "packageId": "primates",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "plesiadapiformes",
@@ -12520,11 +12813,12 @@
     },
     "purgatorius": {
       "entityId": "purgatorius",
+      "packageId": "primates",
       "entityKind": "taxon",
       "externalTaxonId": "txn:40704",
       "scientificNameNormalized": "purgatorius",
       "externalResolutionStatus": "resolved-exact",
-      "queryStatus": "resolved-zero-in-bounded-sample",
+      "queryStatus": "complete-query-observed",
       "descendantEntityIds": [],
       "descendantTaxonIds": [
         "txn:40704"
@@ -12537,18 +12831,19 @@
         "acceptedName": 0,
         "higherClassification": 0
       },
-      "completeSnapshotAvailable": false,
-      "completeSnapshotRows": null,
+      "completeSnapshotAvailable": true,
+      "completeSnapshotRows": 12,
       "periods": [],
       "matchedTotal": 0
     },
     "primates": {
       "entityId": "primates",
+      "packageId": "primates",
       "entityKind": "taxon",
       "externalTaxonId": "txn:40700",
       "scientificNameNormalized": "primates",
       "externalResolutionStatus": "resolved-exact",
-      "queryStatus": "resolved-and-observed",
+      "queryStatus": "complete-query-observed",
       "descendantEntityIds": [
         "altiatlasius",
         "adapiformes",
@@ -12591,8 +12886,8 @@
         "acceptedName": 0,
         "higherClassification": 39
       },
-      "completeSnapshotAvailable": false,
-      "completeSnapshotRows": null,
+      "completeSnapshotAvailable": true,
+      "completeSnapshotRows": 5102,
       "periods": [
         "Neogene",
         "Quaternary"
@@ -12601,6 +12896,7 @@
     },
     "altiatlasius": {
       "entityId": "altiatlasius",
+      "packageId": "primates",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "altiatlasius",
@@ -12621,6 +12917,7 @@
     },
     "adapiformes": {
       "entityId": "adapiformes",
+      "packageId": "primates",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "adapiformes",
@@ -12648,6 +12945,7 @@
     },
     "notharctus": {
       "entityId": "notharctus",
+      "packageId": "primates",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "notharctus",
@@ -12668,11 +12966,12 @@
     },
     "darwinius": {
       "entityId": "darwinius",
+      "packageId": "primates",
       "entityKind": "taxon",
       "externalTaxonId": "txn:147599",
       "scientificNameNormalized": "darwinius",
       "externalResolutionStatus": "resolved-exact",
-      "queryStatus": "resolved-zero-in-bounded-sample",
+      "queryStatus": "complete-query-observed",
       "descendantEntityIds": [],
       "descendantTaxonIds": [
         "txn:147599"
@@ -12685,13 +12984,14 @@
         "acceptedName": 0,
         "higherClassification": 0
       },
-      "completeSnapshotAvailable": false,
-      "completeSnapshotRows": null,
+      "completeSnapshotAvailable": true,
+      "completeSnapshotRows": 1,
       "periods": [],
       "matchedTotal": 0
     },
     "strepsirrhini": {
       "entityId": "strepsirrhini",
+      "packageId": "primates",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "strepsirrhini",
@@ -12712,6 +13012,7 @@
     },
     "haplorhini": {
       "entityId": "haplorhini",
+      "packageId": "primates",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "haplorhini",
@@ -12759,6 +13060,7 @@
     },
     "teilhardina": {
       "entityId": "teilhardina",
+      "packageId": "primates",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "teilhardina",
@@ -12779,6 +13081,7 @@
     },
     "anthropoidea": {
       "entityId": "anthropoidea",
+      "packageId": "primates",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "anthropoidea",
@@ -12824,6 +13127,7 @@
     },
     "eosimias": {
       "entityId": "eosimias",
+      "packageId": "primates",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "eosimias",
@@ -12844,6 +13148,7 @@
     },
     "catarrhini": {
       "entityId": "catarrhini",
+      "packageId": "primates",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "catarrhini",
@@ -12887,11 +13192,12 @@
     },
     "saadanius": {
       "entityId": "saadanius",
+      "packageId": "primates",
       "entityKind": "taxon",
       "externalTaxonId": "txn:169687",
       "scientificNameNormalized": "saadanius",
       "externalResolutionStatus": "resolved-exact",
-      "queryStatus": "resolved-zero-in-bounded-sample",
+      "queryStatus": "complete-query-observed",
       "descendantEntityIds": [],
       "descendantTaxonIds": [
         "txn:169687"
@@ -12904,13 +13210,14 @@
         "acceptedName": 0,
         "higherClassification": 0
       },
-      "completeSnapshotAvailable": false,
-      "completeSnapshotRows": null,
+      "completeSnapshotAvailable": true,
+      "completeSnapshotRows": 1,
       "periods": [],
       "matchedTotal": 0
     },
     "hominoidea": {
       "entityId": "hominoidea",
+      "packageId": "primates",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "hominoidea",
@@ -12950,6 +13257,7 @@
     },
     "morotopithecus": {
       "entityId": "morotopithecus",
+      "packageId": "primates",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "morotopithecus",
@@ -12970,11 +13278,12 @@
     },
     "hominidae": {
       "entityId": "hominidae",
+      "packageId": "primates",
       "entityKind": "taxon",
       "externalTaxonId": "txn:40899",
       "scientificNameNormalized": "hominidae",
       "externalResolutionStatus": "resolved-exact",
-      "queryStatus": "resolved-and-observed",
+      "queryStatus": "complete-query-observed",
       "descendantEntityIds": [
         "homo",
         "homo_sapiens",
@@ -12997,8 +13306,8 @@
         "acceptedName": 0,
         "higherClassification": 3
       },
-      "completeSnapshotAvailable": false,
-      "completeSnapshotRows": null,
+      "completeSnapshotAvailable": true,
+      "completeSnapshotRows": 619,
       "periods": [
         "Neogene",
         "Quaternary"
@@ -13007,11 +13316,12 @@
     },
     "homo": {
       "entityId": "homo",
+      "packageId": "primates",
       "entityKind": "taxon",
       "externalTaxonId": "txn:40901",
       "scientificNameNormalized": "homo",
       "externalResolutionStatus": "resolved-exact",
-      "queryStatus": "resolved-and-observed",
+      "queryStatus": "complete-query-observed",
       "descendantEntityIds": [
         "homo_sapiens",
         "homo_neanderthalensis"
@@ -13031,8 +13341,8 @@
         "acceptedName": 0,
         "higherClassification": 0
       },
-      "completeSnapshotAvailable": false,
-      "completeSnapshotRows": null,
+      "completeSnapshotAvailable": true,
+      "completeSnapshotRows": 238,
       "periods": [
         "Quaternary"
       ],
@@ -13040,11 +13350,12 @@
     },
     "homo_sapiens": {
       "entityId": "homo_sapiens",
+      "packageId": "primates",
       "entityKind": "taxon",
       "externalTaxonId": "txn:83088",
       "scientificNameNormalized": "homo sapiens",
       "externalResolutionStatus": "resolved-exact",
-      "queryStatus": "resolved-and-observed",
+      "queryStatus": "complete-query-observed",
       "descendantEntityIds": [],
       "descendantTaxonIds": [
         "txn:83088"
@@ -13057,8 +13368,8 @@
         "acceptedName": 0,
         "higherClassification": 0
       },
-      "completeSnapshotAvailable": false,
-      "completeSnapshotRows": null,
+      "completeSnapshotAvailable": true,
+      "completeSnapshotRows": 97,
       "periods": [
         "Quaternary"
       ],
@@ -13066,11 +13377,12 @@
     },
     "homo_neanderthalensis": {
       "entityId": "homo_neanderthalensis",
+      "packageId": "primates",
       "entityKind": "taxon",
       "externalTaxonId": "txn:83087",
       "scientificNameNormalized": "homo neanderthalensis",
       "externalResolutionStatus": "resolved-exact",
-      "queryStatus": "resolved-zero-in-bounded-sample",
+      "queryStatus": "complete-query-observed",
       "descendantEntityIds": [],
       "descendantTaxonIds": [
         "txn:83087"
@@ -13083,13 +13395,14 @@
         "acceptedName": 0,
         "higherClassification": 0
       },
-      "completeSnapshotAvailable": false,
-      "completeSnapshotRows": null,
+      "completeSnapshotAvailable": true,
+      "completeSnapshotRows": 6,
       "periods": [],
       "matchedTotal": 0
     },
     "afrotheria": {
       "entityId": "afrotheria",
+      "packageId": "other-mammals",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "afrotheria",
@@ -13123,11 +13436,12 @@
     },
     "proboscidea": {
       "entityId": "proboscidea",
+      "packageId": "other-mammals",
       "entityKind": "taxon",
       "externalTaxonId": "txn:43230",
       "scientificNameNormalized": "proboscidea",
       "externalResolutionStatus": "resolved-exact",
-      "queryStatus": "resolved-and-observed",
+      "queryStatus": "complete-query-observed",
       "descendantEntityIds": [
         "mammuthus",
         "eritherium"
@@ -13145,8 +13459,8 @@
         "acceptedName": 0,
         "higherClassification": 44
       },
-      "completeSnapshotAvailable": false,
-      "completeSnapshotRows": null,
+      "completeSnapshotAvailable": true,
+      "completeSnapshotRows": 4373,
       "periods": [
         "Neogene",
         "Quaternary"
@@ -13155,11 +13469,12 @@
     },
     "mammuthus": {
       "entityId": "mammuthus",
+      "packageId": "other-mammals",
       "entityKind": "taxon",
       "externalTaxonId": "txn:43266",
       "scientificNameNormalized": "mammuthus",
       "externalResolutionStatus": "resolved-exact",
-      "queryStatus": "resolved-and-observed",
+      "queryStatus": "complete-query-observed",
       "descendantEntityIds": [],
       "descendantTaxonIds": [
         "txn:43266"
@@ -13172,8 +13487,8 @@
         "acceptedName": 0,
         "higherClassification": 1
       },
-      "completeSnapshotAvailable": false,
-      "completeSnapshotRows": null,
+      "completeSnapshotAvailable": true,
+      "completeSnapshotRows": 693,
       "periods": [
         "Quaternary"
       ],
@@ -13181,6 +13496,7 @@
     },
     "eritherium": {
       "entityId": "eritherium",
+      "packageId": "other-mammals",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "eritherium",
@@ -13201,6 +13517,7 @@
     },
     "xenarthra": {
       "entityId": "xenarthra",
+      "packageId": "other-mammals",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "xenarthra",
@@ -13223,6 +13540,7 @@
     },
     "thalassocnus": {
       "entityId": "thalassocnus",
+      "packageId": "other-mammals",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "thalassocnus",
@@ -13243,6 +13561,7 @@
     },
     "glires": {
       "entityId": "glires",
+      "packageId": "other-mammals",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "glires",
@@ -13273,11 +13592,12 @@
     },
     "rodentia": {
       "entityId": "rodentia",
+      "packageId": "other-mammals",
       "entityKind": "taxon",
       "externalTaxonId": "txn:41370",
       "scientificNameNormalized": "rodentia",
       "externalResolutionStatus": "resolved-exact",
-      "queryStatus": "resolved-and-observed",
+      "queryStatus": "complete-query-observed",
       "descendantEntityIds": [],
       "descendantTaxonIds": [
         "txn:41370"
@@ -13290,8 +13610,8 @@
         "acceptedName": 0,
         "higherClassification": 394
       },
-      "completeSnapshotAvailable": false,
-      "completeSnapshotRows": null,
+      "completeSnapshotAvailable": true,
+      "completeSnapshotRows": 25050,
       "periods": [
         "Neogene",
         "Quaternary"
@@ -13300,6 +13620,7 @@
     },
     "mimolagus": {
       "entityId": "mimolagus",
+      "packageId": "other-mammals",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "mimolagus",
@@ -13320,6 +13641,7 @@
     },
     "therian-boundary-evidence": {
       "entityId": "therian-boundary-evidence",
+      "packageId": "other-mammals",
       "entityKind": "navigation-group",
       "externalTaxonId": null,
       "scientificNameNormalized": "therian boundary evidence",
@@ -13348,6 +13670,7 @@
     },
     "juramaia": {
       "entityId": "juramaia",
+      "packageId": "other-mammals",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "juramaia",
@@ -13368,11 +13691,12 @@
     },
     "eomaia": {
       "entityId": "eomaia",
+      "packageId": "other-mammals",
       "entityKind": "taxon",
       "externalTaxonId": "txn:67562",
       "scientificNameNormalized": "eomaia",
       "externalResolutionStatus": "resolved-exact",
-      "queryStatus": "resolved-zero-in-bounded-sample",
+      "queryStatus": "complete-query-observed",
       "descendantEntityIds": [],
       "descendantTaxonIds": [
         "txn:67562"
@@ -13385,13 +13709,14 @@
         "acceptedName": 0,
         "higherClassification": 0
       },
-      "completeSnapshotAvailable": false,
-      "completeSnapshotRows": null,
+      "completeSnapshotAvailable": true,
+      "completeSnapshotRows": 1,
       "periods": [],
       "matchedTotal": 0
     },
     "ambolestes": {
       "entityId": "ambolestes",
+      "packageId": "other-mammals",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "ambolestes",
@@ -13412,11 +13737,12 @@
     },
     "raranimus": {
       "entityId": "raranimus",
+      "packageId": "mammal-origins",
       "entityKind": "taxon",
       "externalTaxonId": "txn:164054",
       "scientificNameNormalized": "raranimus",
       "externalResolutionStatus": "resolved-exact",
-      "queryStatus": "resolved-zero-in-bounded-sample",
+      "queryStatus": "complete-query-observed",
       "descendantEntityIds": [],
       "descendantTaxonIds": [
         "txn:164054"
@@ -13429,13 +13755,14 @@
         "acceptedName": 0,
         "higherClassification": 0
       },
-      "completeSnapshotAvailable": false,
-      "completeSnapshotRows": null,
+      "completeSnapshotAvailable": true,
+      "completeSnapshotRows": 1,
       "periods": [],
       "matchedTotal": 0
     },
     "sauropsida": {
       "entityId": "sauropsida",
+      "packageId": "atlas-core",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "sauropsida",
@@ -13578,11 +13905,12 @@
     },
     "testudines": {
       "entityId": "testudines",
+      "packageId": "turtles-lepidosaurs",
       "entityKind": "taxon",
       "externalTaxonId": "txn:56475",
       "scientificNameNormalized": "testudines",
       "externalResolutionStatus": "resolved-exact",
-      "queryStatus": "resolved-and-observed",
+      "queryStatus": "complete-query-observed",
       "descendantEntityIds": [
         "cryptodira",
         "pleurodira"
@@ -13598,8 +13926,8 @@
         "acceptedName": 0,
         "higherClassification": 17
       },
-      "completeSnapshotAvailable": false,
-      "completeSnapshotRows": null,
+      "completeSnapshotAvailable": true,
+      "completeSnapshotRows": 9202,
       "periods": [
         "Neogene",
         "Quaternary"
@@ -13608,6 +13936,7 @@
     },
     "cryptodira": {
       "entityId": "cryptodira",
+      "packageId": "turtles-lepidosaurs",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "cryptodira",
@@ -13628,6 +13957,7 @@
     },
     "pleurodira": {
       "entityId": "pleurodira",
+      "packageId": "turtles-lepidosaurs",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "pleurodira",
@@ -13648,6 +13978,7 @@
     },
     "ichthyosauria": {
       "entityId": "ichthyosauria",
+      "packageId": "marine-reptiles-pterosaurs",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "ichthyosauria",
@@ -13679,11 +14010,12 @@
     },
     "ichthyosaurus": {
       "entityId": "ichthyosaurus",
+      "packageId": "marine-reptiles-pterosaurs",
       "entityKind": "taxon",
       "externalTaxonId": "txn:36558",
       "scientificNameNormalized": "ichthyosaurus",
       "externalResolutionStatus": "resolved-exact",
-      "queryStatus": "resolved-and-observed",
+      "queryStatus": "complete-query-observed",
       "descendantEntityIds": [],
       "descendantTaxonIds": [
         "txn:36558"
@@ -13696,8 +14028,8 @@
         "acceptedName": 0,
         "higherClassification": 0
       },
-      "completeSnapshotAvailable": false,
-      "completeSnapshotRows": null,
+      "completeSnapshotAvailable": true,
+      "completeSnapshotRows": 101,
       "periods": [
         "Jurassic"
       ],
@@ -13705,6 +14037,7 @@
     },
     "cartorhynchus": {
       "entityId": "cartorhynchus",
+      "packageId": "marine-reptiles-pterosaurs",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "cartorhynchus",
@@ -13725,6 +14058,7 @@
     },
     "chaohusaurus": {
       "entityId": "chaohusaurus",
+      "packageId": "marine-reptiles-pterosaurs",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "chaohusaurus",
@@ -13745,6 +14079,7 @@
     },
     "stenopterygius": {
       "entityId": "stenopterygius",
+      "packageId": "marine-reptiles-pterosaurs",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "stenopterygius",
@@ -13765,11 +14100,12 @@
     },
     "plesiosauria": {
       "entityId": "plesiosauria",
+      "packageId": "marine-reptiles-pterosaurs",
       "entityKind": "taxon",
       "externalTaxonId": "txn:36454",
       "scientificNameNormalized": "plesiosauria",
       "externalResolutionStatus": "resolved-exact",
-      "queryStatus": "resolved-zero-in-bounded-sample",
+      "queryStatus": "complete-query-observed",
       "descendantEntityIds": [
         "elasmosauridae",
         "rhaeticosaurus",
@@ -13788,18 +14124,19 @@
         "acceptedName": 0,
         "higherClassification": 0
       },
-      "completeSnapshotAvailable": false,
-      "completeSnapshotRows": null,
+      "completeSnapshotAvailable": true,
+      "completeSnapshotRows": 1166,
       "periods": [],
       "matchedTotal": 0
     },
     "elasmosauridae": {
       "entityId": "elasmosauridae",
+      "packageId": "marine-reptiles-pterosaurs",
       "entityKind": "taxon",
       "externalTaxonId": "txn:38175",
       "scientificNameNormalized": "elasmosauridae",
       "externalResolutionStatus": "resolved-exact",
-      "queryStatus": "resolved-zero-in-bounded-sample",
+      "queryStatus": "complete-query-observed",
       "descendantEntityIds": [],
       "descendantTaxonIds": [
         "txn:38175"
@@ -13812,13 +14149,14 @@
         "acceptedName": 0,
         "higherClassification": 0
       },
-      "completeSnapshotAvailable": false,
-      "completeSnapshotRows": null,
+      "completeSnapshotAvailable": true,
+      "completeSnapshotRows": 309,
       "periods": [],
       "matchedTotal": 0
     },
     "rhaeticosaurus": {
       "entityId": "rhaeticosaurus",
+      "packageId": "marine-reptiles-pterosaurs",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "rhaeticosaurus",
@@ -13839,6 +14177,7 @@
     },
     "polycotylus": {
       "entityId": "polycotylus",
+      "packageId": "marine-reptiles-pterosaurs",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "polycotylus",
@@ -13859,11 +14198,12 @@
     },
     "lepidosauria": {
       "entityId": "lepidosauria",
+      "packageId": "turtles-lepidosaurs",
       "entityKind": "taxon",
       "externalTaxonId": "txn:95312",
       "scientificNameNormalized": "lepidosauria",
       "externalResolutionStatus": "resolved-exact",
-      "queryStatus": "resolved-zero-in-bounded-sample",
+      "queryStatus": "complete-query-observed",
       "descendantEntityIds": [
         "rhynchocephalia",
         "pan-squamata",
@@ -13885,13 +14225,14 @@
         "acceptedName": 0,
         "higherClassification": 0
       },
-      "completeSnapshotAvailable": false,
-      "completeSnapshotRows": null,
+      "completeSnapshotAvailable": true,
+      "completeSnapshotRows": 371,
       "periods": [],
       "matchedTotal": 0
     },
     "rhynchocephalia": {
       "entityId": "rhynchocephalia",
+      "packageId": "turtles-lepidosaurs",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "rhynchocephalia",
@@ -13912,6 +14253,7 @@
     },
     "pan-squamata": {
       "entityId": "pan-squamata",
+      "packageId": "turtles-lepidosaurs",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "pan-squamata",
@@ -13941,6 +14283,7 @@
     },
     "squamata": {
       "entityId": "squamata",
+      "packageId": "turtles-lepidosaurs",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "squamata",
@@ -13969,6 +14312,7 @@
     },
     "serpentes": {
       "entityId": "serpentes",
+      "packageId": "turtles-lepidosaurs",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "serpentes",
@@ -13989,6 +14333,7 @@
     },
     "mosasauroidea": {
       "entityId": "mosasauroidea",
+      "packageId": "turtles-lepidosaurs",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "mosasauroidea",
@@ -14015,11 +14360,12 @@
     },
     "mosasauridae": {
       "entityId": "mosasauridae",
+      "packageId": "turtles-lepidosaurs",
       "entityKind": "taxon",
       "externalTaxonId": "txn:38049",
       "scientificNameNormalized": "mosasauridae",
       "externalResolutionStatus": "resolved-exact",
-      "queryStatus": "resolved-zero-in-bounded-sample",
+      "queryStatus": "complete-query-observed",
       "descendantEntityIds": [],
       "descendantTaxonIds": [
         "txn:38049"
@@ -14032,13 +14378,14 @@
         "acceptedName": 0,
         "higherClassification": 0
       },
-      "completeSnapshotAvailable": false,
-      "completeSnapshotRows": null,
+      "completeSnapshotAvailable": true,
+      "completeSnapshotRows": 849,
       "periods": [],
       "matchedTotal": 0
     },
     "archosauria": {
       "entityId": "archosauria",
+      "packageId": "atlas-core",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "archosauria",
@@ -14148,6 +14495,7 @@
     },
     "crocodylomorpha": {
       "entityId": "crocodylomorpha",
+      "packageId": "crocodylomorphs-birds",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "crocodylomorpha",
@@ -14172,6 +14520,7 @@
     },
     "carnufex": {
       "entityId": "carnufex",
+      "packageId": "crocodylomorphs-birds",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "carnufex",
@@ -14192,6 +14541,7 @@
     },
     "junggarsuchus": {
       "entityId": "junggarsuchus",
+      "packageId": "crocodylomorphs-birds",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "junggarsuchus",
@@ -14212,6 +14562,7 @@
     },
     "crocodylia": {
       "entityId": "crocodylia",
+      "packageId": "crocodylomorphs-birds",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "crocodylia",
@@ -14232,11 +14583,12 @@
     },
     "pterosauria": {
       "entityId": "pterosauria",
+      "packageId": "marine-reptiles-pterosaurs",
       "entityKind": "taxon",
       "externalTaxonId": "txn:38461",
       "scientificNameNormalized": "pterosauria",
       "externalResolutionStatus": "resolved-exact",
-      "queryStatus": "resolved-zero-in-bounded-sample",
+      "queryStatus": "complete-query-observed",
       "descendantEntityIds": [
         "pteranodontidae",
         "tupandactylus",
@@ -14255,18 +14607,19 @@
         "acceptedName": 0,
         "higherClassification": 0
       },
-      "completeSnapshotAvailable": false,
-      "completeSnapshotRows": null,
+      "completeSnapshotAvailable": true,
+      "completeSnapshotRows": 1162,
       "periods": [],
       "matchedTotal": 0
     },
     "pteranodontidae": {
       "entityId": "pteranodontidae",
+      "packageId": "marine-reptiles-pterosaurs",
       "entityKind": "taxon",
       "externalTaxonId": "txn:52933",
       "scientificNameNormalized": "pteranodontidae",
       "externalResolutionStatus": "resolved-exact",
-      "queryStatus": "resolved-zero-in-bounded-sample",
+      "queryStatus": "complete-query-observed",
       "descendantEntityIds": [],
       "descendantTaxonIds": [
         "txn:52933"
@@ -14279,13 +14632,14 @@
         "acceptedName": 0,
         "higherClassification": 0
       },
-      "completeSnapshotAvailable": false,
-      "completeSnapshotRows": null,
+      "completeSnapshotAvailable": true,
+      "completeSnapshotRows": 15,
       "periods": [],
       "matchedTotal": 0
     },
     "tupandactylus": {
       "entityId": "tupandactylus",
+      "packageId": "marine-reptiles-pterosaurs",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "tupandactylus",
@@ -14306,6 +14660,7 @@
     },
     "hamipterus": {
       "entityId": "hamipterus",
+      "packageId": "marine-reptiles-pterosaurs",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "hamipterus",
@@ -14326,6 +14681,7 @@
     },
     "dinosauria": {
       "entityId": "dinosauria",
+      "packageId": "dinosauria",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "dinosauria",
@@ -14422,6 +14778,7 @@
     },
     "ornithischia": {
       "entityId": "ornithischia",
+      "packageId": "dinosauria",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "ornithischia",
@@ -14466,6 +14823,7 @@
     },
     "stegosauria": {
       "entityId": "stegosauria",
+      "packageId": "dinosauria",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "stegosauria",
@@ -14486,6 +14844,7 @@
     },
     "ankylosauria": {
       "entityId": "ankylosauria",
+      "packageId": "dinosauria",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "ankylosauria",
@@ -14512,11 +14871,12 @@
     },
     "ankylosaurus": {
       "entityId": "ankylosaurus",
+      "packageId": "dinosauria",
       "entityKind": "taxon",
       "externalTaxonId": "txn:38837",
       "scientificNameNormalized": "ankylosaurus",
       "externalResolutionStatus": "resolved-exact",
-      "queryStatus": "resolved-zero-in-bounded-sample",
+      "queryStatus": "complete-query-observed",
       "descendantEntityIds": [],
       "descendantTaxonIds": [
         "txn:38837"
@@ -14529,18 +14889,19 @@
         "acceptedName": 0,
         "higherClassification": 0
       },
-      "completeSnapshotAvailable": false,
-      "completeSnapshotRows": null,
+      "completeSnapshotAvailable": true,
+      "completeSnapshotRows": 16,
       "periods": [],
       "matchedTotal": 0
     },
     "ceratopsia": {
       "entityId": "ceratopsia",
+      "packageId": "dinosauria",
       "entityKind": "taxon",
       "externalTaxonId": "txn:38842",
       "scientificNameNormalized": "ceratopsia",
       "externalResolutionStatus": "resolved-exact",
-      "queryStatus": "resolved-zero-in-bounded-sample",
+      "queryStatus": "complete-query-observed",
       "descendantEntityIds": [
         "triceratops",
         "yinlong"
@@ -14558,18 +14919,19 @@
         "acceptedName": 0,
         "higherClassification": 0
       },
-      "completeSnapshotAvailable": false,
-      "completeSnapshotRows": null,
+      "completeSnapshotAvailable": true,
+      "completeSnapshotRows": 1147,
       "periods": [],
       "matchedTotal": 0
     },
     "triceratops": {
       "entityId": "triceratops",
+      "packageId": "dinosauria",
       "entityKind": "taxon",
       "externalTaxonId": "txn:38862",
       "scientificNameNormalized": "triceratops",
       "externalResolutionStatus": "resolved-exact",
-      "queryStatus": "resolved-zero-in-bounded-sample",
+      "queryStatus": "complete-query-observed",
       "descendantEntityIds": [],
       "descendantTaxonIds": [
         "txn:38862"
@@ -14582,13 +14944,14 @@
         "acceptedName": 0,
         "higherClassification": 0
       },
-      "completeSnapshotAvailable": false,
-      "completeSnapshotRows": null,
+      "completeSnapshotAvailable": true,
+      "completeSnapshotRows": 166,
       "periods": [],
       "matchedTotal": 0
     },
     "yinlong": {
       "entityId": "yinlong",
+      "packageId": "dinosauria",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "yinlong",
@@ -14609,11 +14972,12 @@
     },
     "hadrosauridae": {
       "entityId": "hadrosauridae",
+      "packageId": "dinosauria",
       "entityKind": "taxon",
       "externalTaxonId": "txn:38755",
       "scientificNameNormalized": "hadrosauridae",
       "externalResolutionStatus": "resolved-exact",
-      "queryStatus": "resolved-zero-in-bounded-sample",
+      "queryStatus": "complete-query-observed",
       "descendantEntityIds": [
         "edmontosaurus"
       ],
@@ -14630,18 +14994,19 @@
         "acceptedName": 0,
         "higherClassification": 0
       },
-      "completeSnapshotAvailable": false,
-      "completeSnapshotRows": null,
+      "completeSnapshotAvailable": true,
+      "completeSnapshotRows": 1631,
       "periods": [],
       "matchedTotal": 0
     },
     "edmontosaurus": {
       "entityId": "edmontosaurus",
+      "packageId": "dinosauria",
       "entityKind": "taxon",
       "externalTaxonId": "txn:38761",
       "scientificNameNormalized": "edmontosaurus",
       "externalResolutionStatus": "resolved-exact",
-      "queryStatus": "resolved-zero-in-bounded-sample",
+      "queryStatus": "complete-query-observed",
       "descendantEntityIds": [],
       "descendantTaxonIds": [
         "txn:38761"
@@ -14654,13 +15019,14 @@
         "acceptedName": 0,
         "higherClassification": 0
       },
-      "completeSnapshotAvailable": false,
-      "completeSnapshotRows": null,
+      "completeSnapshotAvailable": true,
+      "completeSnapshotRows": 85,
       "periods": [],
       "matchedTotal": 0
     },
     "eocursor": {
       "entityId": "eocursor",
+      "packageId": "dinosauria",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "eocursor",
@@ -14681,6 +15047,7 @@
     },
     "thyreophora": {
       "entityId": "thyreophora",
+      "packageId": "dinosauria",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "thyreophora",
@@ -14703,6 +15070,7 @@
     },
     "scelidosaurus": {
       "entityId": "scelidosaurus",
+      "packageId": "dinosauria",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "scelidosaurus",
@@ -14723,6 +15091,7 @@
     },
     "saurischia": {
       "entityId": "saurischia",
+      "packageId": "dinosauria",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "saurischia",
@@ -14796,6 +15165,7 @@
     },
     "sauropodomorpha": {
       "entityId": "sauropodomorpha",
+      "packageId": "dinosauria",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "sauropodomorpha",
@@ -14829,11 +15199,12 @@
     },
     "brachiosauridae": {
       "entityId": "brachiosauridae",
+      "packageId": "dinosauria",
       "entityKind": "taxon",
       "externalTaxonId": "txn:38673",
       "scientificNameNormalized": "brachiosauridae",
       "externalResolutionStatus": "resolved-exact",
-      "queryStatus": "resolved-zero-in-bounded-sample",
+      "queryStatus": "complete-query-observed",
       "descendantEntityIds": [],
       "descendantTaxonIds": [
         "txn:38673"
@@ -14846,13 +15217,14 @@
         "acceptedName": 0,
         "higherClassification": 0
       },
-      "completeSnapshotAvailable": false,
-      "completeSnapshotRows": null,
+      "completeSnapshotAvailable": true,
+      "completeSnapshotRows": 93,
       "periods": [],
       "matchedTotal": 0
     },
     "diplodocidae": {
       "entityId": "diplodocidae",
+      "packageId": "dinosauria",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "diplodocidae",
@@ -14873,11 +15245,12 @@
     },
     "titanosauria": {
       "entityId": "titanosauria",
+      "packageId": "dinosauria",
       "entityKind": "taxon",
       "externalTaxonId": "txn:55585",
       "scientificNameNormalized": "titanosauria",
       "externalResolutionStatus": "resolved-exact",
-      "queryStatus": "resolved-zero-in-bounded-sample",
+      "queryStatus": "complete-query-observed",
       "descendantEntityIds": [],
       "descendantTaxonIds": [
         "txn:55585"
@@ -14890,13 +15263,14 @@
         "acceptedName": 0,
         "higherClassification": 0
       },
-      "completeSnapshotAvailable": false,
-      "completeSnapshotRows": null,
+      "completeSnapshotAvailable": true,
+      "completeSnapshotRows": 799,
       "periods": [],
       "matchedTotal": 0
     },
     "buriolestes": {
       "entityId": "buriolestes",
+      "packageId": "dinosauria",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "buriolestes",
@@ -14917,6 +15291,7 @@
     },
     "mussaurus": {
       "entityId": "mussaurus",
+      "packageId": "dinosauria",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "mussaurus",
@@ -14937,6 +15312,7 @@
     },
     "ledumahadi": {
       "entityId": "ledumahadi",
+      "packageId": "dinosauria",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "ledumahadi",
@@ -14957,6 +15333,7 @@
     },
     "theropoda": {
       "entityId": "theropoda",
+      "packageId": "dinosauria",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "theropoda",
@@ -15018,11 +15395,12 @@
     },
     "tyrannosauridae": {
       "entityId": "tyrannosauridae",
+      "packageId": "dinosauria",
       "entityKind": "taxon",
       "externalTaxonId": "txn:38606",
       "scientificNameNormalized": "tyrannosauridae",
       "externalResolutionStatus": "resolved-exact",
-      "queryStatus": "resolved-zero-in-bounded-sample",
+      "queryStatus": "complete-query-observed",
       "descendantEntityIds": [
         "tyrannosaurus"
       ],
@@ -15039,18 +15417,19 @@
         "acceptedName": 0,
         "higherClassification": 0
       },
-      "completeSnapshotAvailable": false,
-      "completeSnapshotRows": null,
+      "completeSnapshotAvailable": true,
+      "completeSnapshotRows": 515,
       "periods": [],
       "matchedTotal": 0
     },
     "tyrannosaurus": {
       "entityId": "tyrannosaurus",
+      "packageId": "dinosauria",
       "entityKind": "taxon",
       "externalTaxonId": "txn:54833",
       "scientificNameNormalized": "tyrannosaurus rex",
       "externalResolutionStatus": "resolved-exact",
-      "queryStatus": "resolved-zero-in-bounded-sample",
+      "queryStatus": "complete-query-observed",
       "descendantEntityIds": [],
       "descendantTaxonIds": [
         "txn:54833"
@@ -15063,18 +15442,19 @@
         "acceptedName": 0,
         "higherClassification": 0
       },
-      "completeSnapshotAvailable": false,
-      "completeSnapshotRows": null,
+      "completeSnapshotAvailable": true,
+      "completeSnapshotRows": 70,
       "periods": [],
       "matchedTotal": 0
     },
     "spinosauridae": {
       "entityId": "spinosauridae",
+      "packageId": "dinosauria",
       "entityKind": "taxon",
       "externalTaxonId": "txn:38595",
       "scientificNameNormalized": "spinosauridae",
       "externalResolutionStatus": "resolved-exact",
-      "queryStatus": "resolved-zero-in-bounded-sample",
+      "queryStatus": "complete-query-observed",
       "descendantEntityIds": [
         "spinosaurus"
       ],
@@ -15091,18 +15471,19 @@
         "acceptedName": 0,
         "higherClassification": 0
       },
-      "completeSnapshotAvailable": false,
-      "completeSnapshotRows": null,
+      "completeSnapshotAvailable": true,
+      "completeSnapshotRows": 172,
       "periods": [],
       "matchedTotal": 0
     },
     "spinosaurus": {
       "entityId": "spinosaurus",
+      "packageId": "dinosauria",
       "entityKind": "taxon",
       "externalTaxonId": "txn:38598",
       "scientificNameNormalized": "spinosaurus",
       "externalResolutionStatus": "resolved-exact",
-      "queryStatus": "resolved-zero-in-bounded-sample",
+      "queryStatus": "complete-query-observed",
       "descendantEntityIds": [],
       "descendantTaxonIds": [
         "txn:38598"
@@ -15115,18 +15496,19 @@
         "acceptedName": 0,
         "higherClassification": 0
       },
-      "completeSnapshotAvailable": false,
-      "completeSnapshotRows": null,
+      "completeSnapshotAvailable": true,
+      "completeSnapshotRows": 44,
       "periods": [],
       "matchedTotal": 0
     },
     "dromaeosauridae": {
       "entityId": "dromaeosauridae",
+      "packageId": "dinosauria",
       "entityKind": "taxon",
       "externalTaxonId": "txn:38561",
       "scientificNameNormalized": "dromaeosauridae",
       "externalResolutionStatus": "resolved-exact",
-      "queryStatus": "resolved-zero-in-bounded-sample",
+      "queryStatus": "complete-query-observed",
       "descendantEntityIds": [
         "velociraptor"
       ],
@@ -15143,18 +15525,19 @@
         "acceptedName": 0,
         "higherClassification": 0
       },
-      "completeSnapshotAvailable": false,
-      "completeSnapshotRows": null,
+      "completeSnapshotAvailable": true,
+      "completeSnapshotRows": 1017,
       "periods": [],
       "matchedTotal": 0
     },
     "velociraptor": {
       "entityId": "velociraptor",
+      "packageId": "dinosauria",
       "entityKind": "taxon",
       "externalTaxonId": "txn:38564",
       "scientificNameNormalized": "velociraptor",
       "externalResolutionStatus": "resolved-exact",
-      "queryStatus": "resolved-zero-in-bounded-sample",
+      "queryStatus": "complete-query-observed",
       "descendantEntityIds": [],
       "descendantTaxonIds": [
         "txn:38564"
@@ -15167,18 +15550,19 @@
         "acceptedName": 0,
         "higherClassification": 0
       },
-      "completeSnapshotAvailable": false,
-      "completeSnapshotRows": null,
+      "completeSnapshotAvailable": true,
+      "completeSnapshotRows": 20,
       "periods": [],
       "matchedTotal": 0
     },
     "aves": {
       "entityId": "aves",
+      "packageId": "crocodylomorphs-birds",
       "entityKind": "taxon",
       "externalTaxonId": "txn:36616",
       "scientificNameNormalized": "aves",
       "externalResolutionStatus": "resolved-exact",
-      "queryStatus": "resolved-and-observed",
+      "queryStatus": "complete-query-observed",
       "descendantEntityIds": [
         "archaeopteryx",
         "neornithes",
@@ -15204,8 +15588,8 @@
         "acceptedName": 0,
         "higherClassification": 14
       },
-      "completeSnapshotAvailable": false,
-      "completeSnapshotRows": null,
+      "completeSnapshotAvailable": true,
+      "completeSnapshotRows": 15177,
       "periods": [
         "Neogene",
         "Quaternary"
@@ -15214,11 +15598,12 @@
     },
     "archaeopteryx": {
       "entityId": "archaeopteryx",
+      "packageId": "crocodylomorphs-birds",
       "entityKind": "taxon",
       "externalTaxonId": "txn:39240",
       "scientificNameNormalized": "archaeopteryx",
       "externalResolutionStatus": "resolved-exact",
-      "queryStatus": "resolved-zero-in-bounded-sample",
+      "queryStatus": "complete-query-observed",
       "descendantEntityIds": [],
       "descendantTaxonIds": [
         "txn:39240"
@@ -15231,18 +15616,19 @@
         "acceptedName": 0,
         "higherClassification": 0
       },
-      "completeSnapshotAvailable": false,
-      "completeSnapshotRows": null,
+      "completeSnapshotAvailable": true,
+      "completeSnapshotRows": 10,
       "periods": [],
       "matchedTotal": 0
     },
     "neornithes": {
       "entityId": "neornithes",
+      "packageId": "crocodylomorphs-birds",
       "entityKind": "taxon",
       "externalTaxonId": "txn:39241",
       "scientificNameNormalized": "neornithes",
       "externalResolutionStatus": "resolved-exact",
-      "queryStatus": "resolved-zero-in-bounded-sample",
+      "queryStatus": "complete-query-observed",
       "descendantEntityIds": [
         "phorusrhacidae",
         "asteriornis",
@@ -15262,18 +15648,19 @@
         "acceptedName": 0,
         "higherClassification": 0
       },
-      "completeSnapshotAvailable": false,
-      "completeSnapshotRows": null,
+      "completeSnapshotAvailable": true,
+      "completeSnapshotRows": 11104,
       "periods": [],
       "matchedTotal": 0
     },
     "phorusrhacidae": {
       "entityId": "phorusrhacidae",
+      "packageId": "crocodylomorphs-birds",
       "entityKind": "taxon",
       "externalTaxonId": "txn:39461",
       "scientificNameNormalized": "phorusrhacidae",
       "externalResolutionStatus": "resolved-exact",
-      "queryStatus": "resolved-zero-in-bounded-sample",
+      "queryStatus": "complete-query-observed",
       "descendantEntityIds": [],
       "descendantTaxonIds": [
         "txn:39461"
@@ -15286,13 +15673,14 @@
         "acceptedName": 0,
         "higherClassification": 0
       },
-      "completeSnapshotAvailable": false,
-      "completeSnapshotRows": null,
+      "completeSnapshotAvailable": true,
+      "completeSnapshotRows": 109,
       "periods": [],
       "matchedTotal": 0
     },
     "asteriornis": {
       "entityId": "asteriornis",
+      "packageId": "crocodylomorphs-birds",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "asteriornis",
@@ -15313,6 +15701,7 @@
     },
     "vegavis": {
       "entityId": "vegavis",
+      "packageId": "crocodylomorphs-birds",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "vegavis",
@@ -15333,6 +15722,7 @@
     },
     "neoaves": {
       "entityId": "neoaves",
+      "packageId": "crocodylomorphs-birds",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "neoaves",
@@ -15353,6 +15743,7 @@
     },
     "yutyrannus": {
       "entityId": "yutyrannus",
+      "packageId": "dinosauria",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "yutyrannus",
@@ -15373,6 +15764,7 @@
     },
     "oviraptorosauria": {
       "entityId": "oviraptorosauria",
+      "packageId": "dinosauria",
       "entityKind": "taxon",
       "externalTaxonId": null,
       "scientificNameNormalized": "oviraptorosauria",

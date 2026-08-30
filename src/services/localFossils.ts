@@ -10,22 +10,25 @@ export const FOSSIL_PERIODS = Object.freeze([
 
 const fossilStore: Record<string, FossilOccurrence[]> = {}
 const loadingPeriods = new Map<string, Promise<FossilOccurrence[]>>()
-interface CompleteProfileSnapshot {
-  queryResults: Array<{ profileId: string; entityId: string; rowsFetched: number; paginationComplete: boolean; zeroInterpretation: 'complete-query-observed' | 'complete-query-zero' }>
-  records: Array<FossilOccurrence & { matchedProfileIds: string[] }>
+interface TargetedPackageSnapshot {
+  packageId: string
+  uniqueOccurrenceCount: number
+  queryResults: Array<{ entityId: string; upstreamReportedTotal: number; paginationComplete: boolean }>
+  records: Array<FossilOccurrence & { matchedEntityIds: string[] }>
 }
-let completeProfileSnapshotPromise: Promise<CompleteProfileSnapshot> | null = null
+const targetedPackageSnapshotPromises = new Map<string, Promise<TargetedPackageSnapshot>>()
 
-async function loadCompleteProfileSnapshot(): Promise<CompleteProfileSnapshot> {
-  if (!completeProfileSnapshotPromise) completeProfileSnapshotPromise = loadPackageManifest('perissodactyla').then((manifest) => {
+async function loadTargetedPackageSnapshot(packageId: string): Promise<TargetedPackageSnapshot> {
+  if (!targetedPackageSnapshotPromises.has(packageId)) targetedPackageSnapshotPromises.set(packageId, loadPackageManifest(packageId).then((manifest) => {
     const file = manifest.files.occurrenceSnapshot
-    if (!file) throw new Error('Perissodactyla package manifest is missing its complete occurrence snapshot')
-    return loadRuntimeFile<CompleteProfileSnapshot>(file)
-  })
-  return completeProfileSnapshotPromise
+    if (!file) throw new Error(`${packageId} package manifest is missing its targeted occurrence snapshot`)
+    return loadRuntimeFile<TargetedPackageSnapshot>(file)
+  }))
+  return targetedPackageSnapshotPromises.get(packageId)!
 }
 interface EntityOccurrenceIndexEntry {
   entityId: string
+  packageId: string
   externalTaxonId: string | null
   scientificNameNormalized: string
   descendantTaxonIds: string[]
@@ -71,18 +74,19 @@ export async function getFossilsByEntity(
 ): Promise<TaxonOccurrenceQueryResult> {
   const indexed = entityOccurrenceIndex.nodes[entityId]
   if (indexed?.completeSnapshotAvailable) {
-    const completeSnapshot = await loadCompleteProfileSnapshot()
-    const completeQuery = completeSnapshot.queryResults.find((entry) => entry.entityId === entityId)
-    if (!completeQuery) throw new Error(`Complete occurrence snapshot metadata is missing ${entityId}`)
-    const represented = completeSnapshot.records.filter((record) => record.matchedProfileIds.includes(completeQuery.profileId))
+    const targetedSnapshot = await loadTargetedPackageSnapshot(indexed.packageId)
+    const completeQuery = targetedSnapshot.queryResults.find((entry) => entry.entityId === entityId)
+    if (!completeQuery) throw new Error(`Targeted occurrence snapshot metadata is missing ${entityId}`)
+    const represented = targetedSnapshot.records.filter((record) => record.matchedEntityIds.includes(entityId))
     const records = scope === 'exact'
       ? represented.filter((record) => record.tid === indexed.externalTaxonId || (record.tna ?? '').trim().toLocaleLowerCase() === indexed.scientificNameNormalized)
       : represented
     return {
       entityId, scope, effectiveScope: scope, indexStatus: 'hit', fallbackApplied: false,
-      queryStatus: completeQuery.zeroInterpretation, matchMethods: indexed?.matchMethods ?? { exactExternalId: 0, acceptedName: 0, higherClassification: 0 },
-      sourceTotal: completeSnapshot.records.length, matchedTotal: records.length, rowsLoaded: records.length, truncated: !completeQuery.paginationComplete,
-      samplingMethod: 'complete paginated PBDB base-id snapshot', loadedPeriods: [...FOSSIL_PERIODS], records,
+      queryStatus: completeQuery.upstreamReportedTotal ? 'complete-query-observed' : 'complete-query-zero', matchMethods: indexed?.matchMethods ?? { exactExternalId: 0, acceptedName: 0, higherClassification: 0 },
+      sourceTotal: targetedSnapshot.uniqueOccurrenceCount, matchedTotal: scope === 'descendants' ? completeQuery.upstreamReportedTotal : records.length,
+      rowsLoaded: records.length, truncated: !completeQuery.paginationComplete || represented.length < completeQuery.upstreamReportedTotal,
+      samplingMethod: 'complete paginated PBDB base-id ID ledger with bounded package details', loadedPeriods: [...FOSSIL_PERIODS], records,
     }
   }
   const fallbackApplied = !indexed

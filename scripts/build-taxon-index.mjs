@@ -1,13 +1,14 @@
 import { mkdirSync, writeFileSync } from 'node:fs'
 import { dirname, join } from 'node:path'
 import { flattenTree, readJson, rootDir } from './data-lib.mjs'
+import { packageDefinitions } from './package-definitions.mjs'
 import { descendantTaxonScope, normalizeTaxonName, occurrenceMatchMethod } from './taxon-linkage.mjs'
 
 const ontology = readJson('data/navigation/atlas-ontology.json')
 const resolutions = new Map(readJson('data/sources/pbdb-taxon-resolution.json').resolutions.map((entry) => [entry.entityId, entry]))
 const entities = readJson('data/registry/entities/entities.json')
-const completeProfileSnapshot = readJson('data/sources/perissodactyla-occurrence-snapshot-v2.json')
-const completeQueryByEntityId = new Map(completeProfileSnapshot.queryResults.map((entry) => [entry.entityId, entry]))
+const targetedSnapshots = packageDefinitions.map((definition) => readJson(`data/sources/pbdb-targeted-${definition.id}-occurrences-v1.json`))
+const completeQueryByEntityId = new Map(targetedSnapshots.flatMap((snapshot) => snapshot.packageQueryLedger.subqueries.map((entry) => [entry.entityId, entry])))
 const entityById = new Map(entities.map((entry) => [entry.id, entry]))
 const timeScale = readJson('data/time-scale.json')
 const periodNames = timeScale.units.filter((unit) => unit.itp === 'period').map((unit) => unit.nam)
@@ -66,8 +67,8 @@ for (const node of ontologyNodes) {
   }
   const resolution = resolutions.get(node.id)
   const completeQuery = completeQueryByEntityId.get(node.id)
-  const queryStatus = completeQuery && mappingCanDriveQuery(node.id)
-    ? completeQuery.zeroInterpretation
+  const queryStatus = completeQuery?.queryEligible && mappingCanDriveQuery(node.id)
+    ? (completeQuery.rowsFetched ? 'complete-query-observed' : 'complete-query-zero')
     : ['navigation-group', 'informal-group'].includes(node.entityKind)
     ? 'navigation-only'
     : node.entityKind === 'historical-grade'
@@ -79,6 +80,7 @@ for (const node of ontologyNodes) {
         : 'external-id-unresolved'
   nodes[node.id] = {
     entityId: node.id,
+    packageId,
     entityKind: node.entityKind,
     externalTaxonId: mappingCanDriveQuery(node.id) ? node.taxonId || null : null,
     scientificNameNormalized: normalizeTaxonName(node.name),
@@ -88,8 +90,8 @@ for (const node of ontologyNodes) {
     descendantTaxonIds: [...scope.ids],
     descendantScientificNames: [...scope.names],
     matchMethods,
-    completeSnapshotAvailable: Boolean(completeQuery && mappingCanDriveQuery(node.id)),
-    completeSnapshotRows: completeQuery?.rowsFetched ?? null,
+    completeSnapshotAvailable: Boolean(completeQuery?.queryEligible && mappingCanDriveQuery(node.id)),
+    completeSnapshotRows: completeQuery?.queryEligible ? completeQuery.rowsFetched ?? 0 : null,
     periods,
     matchedTotal,
   }
@@ -113,8 +115,16 @@ const packageCoverage = Object.fromEntries([...new Set(entities.map((entity) => 
   }]
 }))
 const profiles = readJson('data/registry/taxon-profiles.json')
-const profileTotals = Object.fromEntries(profiles.map((profile) => [profile.id, completeQueryByEntityId.get(profile.treeNodeId)?.rowsFetched ?? nodes[profile.treeNodeId]?.matchedTotal ?? 0]))
-const profileQueryStatus = Object.fromEntries(profiles.map((profile) => [profile.id, mappingCanDriveQuery(profile.treeNodeId) ? completeQueryByEntityId.get(profile.treeNodeId)?.zeroInterpretation ?? nodes[profile.treeNodeId]?.queryStatus ?? 'outside-snapshot-scope' : 'concept-review-required']))
+const profileTotals = Object.fromEntries(profiles.map((profile) => {
+  const completeQuery = completeQueryByEntityId.get(profile.treeNodeId)
+  return [profile.id, completeQuery ? (completeQuery.queryEligible ? completeQuery.rowsFetched ?? 0 : 0) : nodes[profile.treeNodeId]?.matchedTotal ?? 0]
+}))
+const profileQueryStatus = Object.fromEntries(profiles.map((profile) => {
+  if (!mappingCanDriveQuery(profile.treeNodeId)) return [profile.id, 'concept-review-required']
+  const completeQuery = completeQueryByEntityId.get(profile.treeNodeId)
+  if (completeQuery?.queryEligible) return [profile.id, completeQuery.rowsFetched ? 'complete-query-observed' : 'complete-query-zero']
+  return [profile.id, nodes[profile.treeNodeId]?.queryStatus ?? 'outside-snapshot-scope']
+}))
 const ambiguousNameCollisions = [...nameOwners.entries()]
   .filter(([, entityIds]) => entityIds.length > 1)
   .map(([normalizedName, entityIds]) => ({ normalizedName, entityIds }))
@@ -125,7 +135,7 @@ const coverage = {
     'data/navigation/atlas-ontology.json',
     'data/registry/entities/entities.json',
     'data/sources/pbdb-taxon-resolution.json',
-    'data/sources/perissodactyla-occurrence-snapshot-v2.json',
+    'data/sources/pbdb-targeted-*-occurrences-v1.json',
     'data/fossils/*.json',
   ],
   scope: 'Bundled bounded occurrence sample only; this is entity-linkage coverage, not biological coverage or sampling completeness.',

@@ -35,7 +35,7 @@ const entityLinkageBaseline = readJson('data/indexes/entity-linkage-baseline.jso
 const canonicalRanges = readJson('data/ranges/range-evidence.json')
 const taxonResolution = readJson('data/sources/pbdb-taxon-resolution.json')
 const sourceMetadata = readJson('data/sources/pbdb-occurrence-bundle.json')
-const perissodactylaSnapshot = readJson('data/sources/perissodactyla-occurrence-snapshot-v2.json')
+const perissodactylaSnapshot = readJson('data/sources/pbdb-targeted-perissodactyla-occurrences-v1.json')
 const manifest = readJson('data/manifest.json')
 const packageMetadata = readJson('package.json')
 const packageIds = new Set(readJson('data/registry/package-registry.json').packages.map((entry) => entry.id))
@@ -489,22 +489,25 @@ check(sameValues(entityLinkageCoverage.ambiguousNameCollisions, entityLinkageBas
 const unresolvedEntityIds = taxonResolution.resolutions.filter((entry) => entry.resolutionStatus !== 'resolved').map((entry) => entry.entityId).sort()
 check(sameValues(unresolvedEntityIds, entityLinkageBaseline.unresolvedEntityIds), 'new unresolved entities require an explicit external-resolution baseline review')
 const snapshotQueriesByEntityId = new Map(perissodactylaSnapshot.queryResults.map((entry) => [entry.entityId, entry]))
+const snapshotLedgerQueriesByEntityId = new Map(perissodactylaSnapshot.packageQueryLedger.subqueries.map((entry) => [entry.entityId, entry]))
 check(unique(perissodactylaSnapshot.records.map((record) => record.oid)), 'Perissodactyla snapshot occurrence IDs must be unique')
-check(perissodactylaSnapshot.uniqueRecordCount === perissodactylaSnapshot.records.length, 'Perissodactyla snapshot unique record count is stale')
+check(perissodactylaSnapshot.retainedRecordCount === perissodactylaSnapshot.records.length, 'Perissodactyla snapshot retained record count is stale')
 check(perissodactylaSnapshot.recordsSha256 === createHash('sha256').update(JSON.stringify(perissodactylaSnapshot.records)).digest('hex'), 'Perissodactyla snapshot checksum is stale')
 for (const profile of perissodactylProfiles) {
   const query = snapshotQueriesByEntityId.get(profile.treeNodeId)
-  check(Boolean(query), `Perissodactyla snapshot is missing complete query metadata for ${profile.id}`)
-  if (!query) continue
-  const actualRows = perissodactylaSnapshot.records.filter((record) => record.matchedProfileIds.includes(profile.id))
-  check(query.paginationComplete && query.inclusionProbability === 1 && query.selectionMethod === 'complete-pagination', `Perissodactyla snapshot ${profile.id} must be a complete paginated query`)
+  const ledgerQuery = snapshotLedgerQueriesByEntityId.get(profile.treeNodeId)
+  check(Boolean(ledgerQuery), `Perissodactyla snapshot is missing query metadata for ${profile.id}`)
+  if (!ledgerQuery) continue
   const resolution = resolutionsByEntityId.get(profile.treeNodeId)
   const queryEligible = resolution?.resolutionStatus === 'resolved' && (resolution.conceptReviewStatus !== 'needs-concept-review' || resolution.humanCuratorDecision === 'accept-external-mapping')
-  check(query.queryEligible === queryEligible && query.conceptReviewStatus === resolution?.conceptReviewStatus, `Perissodactyla snapshot ${profile.id} concept-review gate is stale`)
-  check(query.rowsFetched === query.upstreamTotal && query.rowsFetched === actualRows.length, `Perissodactyla snapshot ${profile.id} row count is stale`)
-  check(query.occurrenceIdSha256 === createHash('sha256').update(actualRows.map((record) => record.oid).sort().join('\n')).digest('hex'), `Perissodactyla snapshot ${profile.id} occurrence checksum is stale`)
-  check(entityIndex.nodes[profile.treeNodeId]?.completeSnapshotAvailable === queryEligible && entityIndex.nodes[profile.treeNodeId]?.completeSnapshotRows === query.rowsFetched, `entity index complete snapshot status for ${profile.id} is stale`)
-  check(entityLinkageCoverage.profileTotals?.[profile.id] === query.rowsFetched, `entity linkage coverage for ${profile.id} is stale`)
+  check(ledgerQuery.queryEligible === queryEligible && ledgerQuery.conceptReviewStatus === resolution?.conceptReviewStatus, `Perissodactyla snapshot ${profile.id} concept-review gate is stale`)
+  check(queryEligible ? Boolean(query?.paginationComplete) : !query, `Perissodactyla snapshot ${profile.id} complete-query availability is stale`)
+  if (query) {
+    check(query.upstreamReportedTotal === query.occurrenceIds.length && ledgerQuery.rowsFetched === query.occurrenceIds.length, `Perissodactyla snapshot ${profile.id} row count is stale`)
+    check(query.occurrenceIdSha256 === createHash('sha256').update(query.occurrenceIds.join('\n')).digest('hex'), `Perissodactyla snapshot ${profile.id} occurrence checksum is stale`)
+  }
+  check(entityIndex.nodes[profile.treeNodeId]?.completeSnapshotAvailable === queryEligible && entityIndex.nodes[profile.treeNodeId]?.completeSnapshotRows === (query?.upstreamReportedTotal ?? null), `entity index complete snapshot status for ${profile.id} is stale`)
+  check(entityLinkageCoverage.profileTotals?.[profile.id] === (query?.upstreamReportedTotal ?? 0), `entity linkage coverage for ${profile.id} is stale`)
 }
 
 check(sourceMetadata.samplingMethod === 'bounded non-random API-prefix sample', 'PBDB bundle must use an accurate sampling label')

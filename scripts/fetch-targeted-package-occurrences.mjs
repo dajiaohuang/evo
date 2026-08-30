@@ -13,6 +13,14 @@ import {
 } from './targeted-pbdb-lib.mjs'
 
 const TARGET_PACKAGE_IDS = [
+  'early-land-plants',
+  'gymnosperms',
+  'angiospermae',
+  'sponges-cnidarians',
+  'molluscs-brachiopods',
+  'trilobites-chelicerates',
+  'crustaceans-insects',
+  'echinoderms',
   'early-fishes',
   'chondrichthyes',
   'actinopterygii',
@@ -24,6 +32,7 @@ const TARGET_PACKAGE_IDS = [
   'dinosauria',
   'crocodylomorphs-birds',
   'mammal-origins',
+  'perissodactyla',
   'primates',
   'carnivora',
   'cetartiodactyla',

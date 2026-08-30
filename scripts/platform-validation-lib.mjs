@@ -151,7 +151,7 @@ function packageFailures() {
     if (queryLedger.packageId !== entry.id) failures.push(`package ${entry.id}: query ledger packageId mismatch`)
     if (queryLedger.rowsAccepted + queryLedger.rowsOutsidePackage > queryLedger.rowsFetched) failures.push(`package ${entry.id}: query ledger row accounting exceeds rowsFetched`)
     if (queryLedger.completeness === 'complete' && queryLedger.upstreamReportedTotal !== queryLedger.rowsFetched) failures.push(`package ${entry.id}: complete query ledger must retain and match the upstream total`)
-    if (entry.id === 'perissodactyla' && queryLedger.completeness !== 'complete') failures.push('package perissodactyla: flagship query ledger must preserve complete pagination')
+    if (entry.id === 'perissodactyla' && queryLedger.schemaVersion === 1 && queryLedger.completeness !== 'complete') failures.push('package perissodactyla: legacy flagship query ledger must preserve complete pagination')
     if (entry.id !== 'perissodactyla' && queryLedger.completeness === 'complete') failures.push(`package ${entry.id}: legacy bounded sample must not claim complete coverage`)
     if (queryLedger.schemaVersion === 2) {
       const eligibleSubqueries = queryLedger.subqueries.filter((subquery) => subquery.queryEligible)

@@ -1,5 +1,12 @@
 # Dataset changelog
 
+## 2026.08-static-v5-rc51 — 2026-08-31
+
+- Replaced the final nine legacy period-prefix package ledgers with the same source-bounded, fully paginated PBDB `base_id` contract used by the rest of the Atlas. All 24 packages now publish schema-v2 targeted snapshots.
+- Recorded 149 complete subqueries across 299 pages, 898,460 overlapping subquery rows and 568,983 package-unique occurrence IDs. Kept 95,422 deterministic bounded details for display and preserved every complete-query ID list, terminal-page observation and checksum.
+- Explicitly withheld 243 historical-grade, unreconciled, name/rank-incompatible, review-gated or over-100,000-row targets instead of treating them as zero-occurrence concepts. “Complete” continues to describe only the recorded query pagination, not fossil-record or sampling completeness.
+- Replaced the 13,210-row Perissodactyla-only v2 snapshot and bespoke fetcher with the generic package contract; the current source response contains 13,209 package-unique IDs. Generalized the shared entity index and Web/Android/iOS loader so every eligible entity reads its own package snapshot and distinguishes complete query totals from bounded display details. COL26.8, its 2,183,133 accepted-species routes, the 1,889 CAO2024 frames, canonical range evidence and human review decisions remain unchanged.
+
 ## 2026.08-static-v5-rc50 — 2026-08-31
 
 - Closed the final 102 canonical `legacy-display` records across eight plant, invertebrate, arthropod and perissodactyl packages: 54 are now source-bounded specimen, stratigraphic, regional, model or navigation evidence windows and 48 unsupported endpoint combinations are explicitly withheld.

@@ -42,7 +42,6 @@ const stories = readJson('data/stories.json')
 const publishedStories = stories.filter((story) => story.evidenceStatus === 'available-with-limitations')
 const taxonResolution = readJson('data/sources/pbdb-taxon-resolution.json')
 const occurrenceSource = readJson('data/sources/pbdb-occurrence-bundle.json')
-const perissodactylaOccurrenceSnapshot = readJson('data/sources/perissodactyla-occurrence-snapshot-v2.json')
 const timeScale = readJson('data/time-scale.json')
 const taxonResolutionByEntityId = new Map(taxonResolution.resolutions.map((entry) => [entry.entityId, entry]))
 const canonicalRanges = readJson('data/ranges/range-evidence.json')
@@ -556,45 +555,9 @@ for (const definition of packageDefinitions) {
   ])
   const packageReferences = references.filter((reference) => packageReferenceIds.has(reference.id))
   const acceptedRows = occurrenceCountsByPackage.get(definition.id) ?? 0
-  const perissodactylaRootQuery = perissodactylaOccurrenceSnapshot.queryResults.find((query) => query.entityId === 'perissodactyla')
   const targetedOccurrenceSnapshotPath = `data/sources/pbdb-targeted-${definition.id}-occurrences-v1.json`
   const targetedOccurrenceSnapshot = existsSync(join(rootDir, targetedOccurrenceSnapshotPath)) ? readJson(targetedOccurrenceSnapshotPath) : null
-  const queryLedger = targetedOccurrenceSnapshot?.packageQueryLedger ?? (definition.id === 'perissodactyla'
-    ? {
-        schemaVersion: 1,
-        packageId: definition.id,
-        provider: 'Paleobiology Database',
-        endpoint: perissodactylaOccurrenceSnapshot.source.endpoint,
-        endpointVersion: perissodactylaOccurrenceSnapshot.source.apiVersion,
-        queryParameters: perissodactylaRootQuery.queryParameters,
-        requestedAt: perissodactylaOccurrenceSnapshot.source.fetchedAt,
-        upstreamReportedTotal: perissodactylaRootQuery.upstreamTotal,
-        pagesFetched: Math.ceil(perissodactylaRootQuery.rowsFetched / perissodactylaRootQuery.queryParameters.pageSize),
-        rowsFetched: perissodactylaRootQuery.rowsFetched,
-        rowsAccepted: perissodactylaOccurrenceSnapshot.uniqueRecordCount,
-        rowsRejected: 0,
-        rowsOutsidePackage: 0,
-        responseChecksums: [perissodactylaOccurrenceSnapshot.recordsSha256],
-        completeness: 'complete',
-        selectionMethod: 'Complete pagination of a pinned PBDB accepted base_id, with overlapping profile queries retained as an auditable concept ledger.',
-        limitations: [
-          'Complete describes the pinned PBDB query response at the recorded retrieval time, not the completeness of the fossil record.',
-          'Profile subqueries may overlap the root query and are not summed to estimate abundance.',
-          'Palaeotherium remains excluded from profile-level interpretation pending taxon-concept review, while root-query rows remain preserved.',
-        ],
-        subqueries: perissodactylaOccurrenceSnapshot.queryResults.map((query) => ({
-          entityId: query.entityId,
-          queryParameters: query.queryParameters,
-          upstreamReportedTotal: query.upstreamTotal,
-          rowsFetched: query.rowsFetched,
-          pagesFetched: Math.ceil(query.rowsFetched / query.queryParameters.pageSize),
-          completeness: query.paginationComplete ? 'complete' : 'bounded',
-          conceptReviewStatus: query.conceptReviewStatus,
-          queryEligible: query.queryEligible,
-          responseChecksum: query.occurrenceIdSha256,
-        })),
-      }
-    : {
+  const queryLedger = targetedOccurrenceSnapshot?.packageQueryLedger ?? {
         schemaVersion: 1,
         packageId: definition.id,
         provider: 'Paleobiology Database',
@@ -621,7 +584,7 @@ for (const definition of packageDefinitions) {
           'Checksums cover normalized canonical period files; raw provider response bodies were not retained for this legacy bounded snapshot.',
           'Rows outside this package are reported separately and are not rejected scientific observations.',
         ],
-      })
+      }
   writeJson(`data/packages/${definition.path}/package.json`, {
     schemaVersion: PACKAGE_SCHEMA_VERSION,
     id: definition.id,

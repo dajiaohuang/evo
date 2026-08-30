@@ -1,57 +1,250 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "packageId": "echinoderms",
   "provider": "Paleobiology Database",
   "endpoint": "https://paleobiodb.org/data1.2/occs/list.json",
   "endpointVersion": "1.2",
+  "occurrenceSnapshot": "data/sources/pbdb-targeted-echinoderms-occurrences-v1.json",
   "queryParameters": {
-    "template": "interval={period}&limit={limit}&offset={offset}&show=full&order=id",
-    "order": "id",
-    "stratification": "geological period",
-    "periodLimits": {
-      "Cambrian": 1600,
-      "Ordovician": 1200,
-      "Silurian": 1600,
-      "Devonian": 1200,
-      "Carboniferous": 800,
-      "Permian": 1200,
-      "Triassic": 1200,
-      "Jurassic": 1200,
-      "Cretaceous": 800,
-      "Paleogene": 1200,
-      "Neogene": 800,
-      "Quaternary": 800
-    }
+    "template": "base_id={accepted PBDB taxon number}&limit=5000&offset={offset}&show=full,class&order=id&datainfo",
+    "pageSize": 5000,
+    "acceptedBaseNamesRecorded": true
   },
-  "requestedAt": "2026-08-18",
-  "upstreamReportedTotal": null,
-  "pagesFetched": 12,
-  "rowsFetched": 13600,
-  "rowsAccepted": 309,
+  "requestedAt": "2026-08-30T20:06:46.000Z",
+  "upstreamReportedTotal": 65373,
+  "pagesFetched": 17,
+  "rowsFetched": 65373,
+  "rowsAccepted": 5000,
   "rowsRejected": 0,
-  "rowsOutsidePackage": 13291,
+  "rowsOutsidePackage": 0,
+  "uniqueRowsObserved": 34446,
+  "uniqueRowsRetained": 5000,
+  "withheldSubqueryCount": 0,
   "responseChecksums": [
-    "50282f50de7eea6c7356664a1a8fc2c06a5efe32257634ff4be233187eb41e93",
-    "0711a69b62b0b3e7793406f0544811bc89d0daad0e584f6bf5fe4ab2e3f4799a",
-    "2f68bb8e693004960c689b3f81638d8a355895d27e5aaffcc8e40153103d9d6c",
-    "c3e65da1f394e11ad6a2e191be9bc50b6a85e159eef16b7ca1c055b64d527d77",
-    "de0cc50ad4bd5131e24d9c3e746cf0e48e8295e253a5739273a33bde927ec0d9",
-    "9a250839958334f54c86d9efe64878eea5359fa3fd80beb49c7e6a9025bdac06",
-    "d4398cc3e87d5041eaa746b226824924d0a209df6227001e9064aae5a8c8e930",
-    "82ae32d6b12c78b2b9566969ff9406d1f23208cfbf123e33ed61f022768d8efe",
-    "3c651f1c1902a4a912d038d8bafb6d20fea82527e6f36ca410e48e59a3746101",
-    "317372397a2dd6a1e5316f910dadb33b49827d9f0fd8a2ba5a19083cc9d1786a",
-    "e60a45b58fd2d0b67a4efde4e47f7c0fd8d886de8e54131c97028c46fee7387d",
-    "929271171fb480be393917ca6e0ee0252f698d11db9b5362999200d47232cc25"
+    "2b385e2cfba949f47653d824b1d021d0686d77e5e3d2ed3f5882a667c3b7b80e",
+    "7293c371e4f53519b1005800204a76769cec4a393185932b65aa687c80d6ec96",
+    "3080b52a291814495a15fb8dcdd7d18dbd37ed6feb7070bb3b594963a489fc8b",
+    "bf2123f0617bfe94939a7b43b19d467c14f3ab8ed1c624e7d2cfdf414f889504",
+    "19eadf6f5dc108ce21c44eafe1f3340821ea862c160db03ce96ebfa5f567a906",
+    "ccad301585508858494284233939bf8e572a14acab22f98fc4cad76673bb9ef9",
+    "9d2b7c0cf31737c4d6586758a74541d9cfd0aa1e518af677169c10fd4c9a9858"
   ],
   "completeness": "bounded",
-  "selectionMethod": "bounded non-random API-prefix sample; rows are assigned to packages after retrieval using version-controlled taxon rules.",
+  "selectionMethod": "Complete pagination for every eligible resolution-ledger taxon concept; package occurrence detail is a deterministic bounded projection while all result identities and checksums remain in the source snapshot.",
   "limitations": [
-    "Each period stops at a configured row limit.",
-    "Rows are ordered by PBDB occurrence identifier and are not a random or representative sample.",
-    "Counts may not be compared as unbiased estimates of biological diversity.",
-    "Paleocoordinates retain the model label returned by PBDB when supplied.",
-    "Checksums cover normalized canonical period files; raw provider response bodies were not retained for this legacy bounded snapshot.",
-    "Rows outside this package are reported separately and are not rejected scientific observations."
+    "Complete applies to each recorded PBDB subquery at retrieval time, not to the fossil record or biological sampling.",
+    "Subqueries overlap; summed rows and page counts must not be interpreted as unique occurrence or diversity totals.",
+    "Historical grades, unresolved names and needs-concept-review mappings are explicitly withheld rather than represented by fabricated identifiers or zero results.",
+    "Accepted broad roots with more than 100,000 rows in the pinned resolution snapshot are withheld from this targeted release in favor of complete scoped subqueries.",
+    "The package occurrence-detail projection is bounded by occurrence identifier and is neither random nor representative; complete result identities remain recorded per subquery.",
+    "PBDB does not return an independent total in this JSON response; upstreamReportedTotal records the row count observed after terminal-page pagination."
+  ],
+  "subqueries": [
+    {
+      "entityId": "echinodermata",
+      "taxonConcept": "Echinodermata",
+      "acceptedBaseName": "Echinodermata",
+      "externalTaxonId": "txn:30739",
+      "queryParameters": {
+        "base_id": "30739",
+        "base_name": "Echinodermata",
+        "show": "full,class",
+        "order": "id",
+        "pageSize": 5000
+      },
+      "retrievedAt": "2026-08-30T20:06:06.000Z",
+      "resolutionSnapshotOccurrenceCount": 34404,
+      "upstreamReportedTotal": 34446,
+      "rowsFetched": 34446,
+      "pagesFetched": 7,
+      "completeness": "complete",
+      "conceptReviewStatus": "not-required-navigation-edge",
+      "queryEligible": true,
+      "eligibilityBasis": "resolution-ledger-accepted-mapping",
+      "rawPageSha256": [
+        "5965bcc128308872c5631cd9cde357de0a4722f6dfaa9e4f6ab8568ac7f8d675",
+        "0521eeb5d57e479682ceba30e37bd128da31f1398e3c1c31108b230840a96677",
+        "3631a37afa11b40dc3b413eab632d086c5c367f7d0923cabb01f0d0fd6944e7f",
+        "c76c0727bce2587c9fac6bbef297d736584ba71a6963b69780a72d846bd49fba",
+        "8454d12f0bbcd1edc50bdaa55bb84e0cc402d891c4c22d3f98ca970ab8a750cf",
+        "2640800a93d3faeba87af1c0344eafab0c2fc2079a8b29036fc0afb9b49673d0",
+        "ce5506aa759781956ff38be4dd133019c7d9b23542cb784ffe9649c5aa2990c4"
+      ],
+      "rawResponseSha256": "2b385e2cfba949f47653d824b1d021d0686d77e5e3d2ed3f5882a667c3b7b80e",
+      "normalizedRowsSha256": "daa0440075043bd998ec83bebb17a1cdf0d517e57cf4354f89af058ae75478f4",
+      "occurrenceIdSha256": "1782ee8ac79a6298ad3f4e7b1635cf6b8c992a342a637e25711d46c849923ddf"
+    },
+    {
+      "entityId": "crinoidea",
+      "taxonConcept": "Crinoidea",
+      "acceptedBaseName": "Crinoidea",
+      "externalTaxonId": "txn:31590",
+      "queryParameters": {
+        "base_id": "31590",
+        "base_name": "Crinoidea",
+        "show": "full,class",
+        "order": "id",
+        "pageSize": 5000
+      },
+      "retrievedAt": "2026-08-30T20:06:29.000Z",
+      "resolutionSnapshotOccurrenceCount": 14518,
+      "upstreamReportedTotal": 14526,
+      "rowsFetched": 14526,
+      "pagesFetched": 3,
+      "completeness": "complete",
+      "conceptReviewStatus": "compatible",
+      "queryEligible": true,
+      "eligibilityBasis": "resolution-ledger-accepted-mapping",
+      "rawPageSha256": [
+        "1337d1b457309c6101270dbc6946ac6aaa477ac0e982127533044db4c3eecb68",
+        "bffd470003b55e9af01315c601dec24f4af76fce6978dd3728005917f8f1b098",
+        "c945d93d68250348c3875bd1ecc4da8404f0a7b3307e534fc78350bb75ab9498"
+      ],
+      "rawResponseSha256": "7293c371e4f53519b1005800204a76769cec4a393185932b65aa687c80d6ec96",
+      "normalizedRowsSha256": "3ec693eff43eadf7f9459976766b0c69d0a0ac9698a0edd8c94c6b155e1aef00",
+      "occurrenceIdSha256": "fb743694f67f8cc1904360d1d167ff935e16644e3f0ab914386b73b1b56ef2a7"
+    },
+    {
+      "entityId": "blastoidea",
+      "taxonConcept": "Blastoidea",
+      "acceptedBaseName": "Blastoidea",
+      "externalTaxonId": "txn:30820",
+      "queryParameters": {
+        "base_id": "30820",
+        "base_name": "Blastoidea",
+        "show": "full,class",
+        "order": "id",
+        "pageSize": 5000
+      },
+      "retrievedAt": "2026-08-30T20:06:37.000Z",
+      "resolutionSnapshotOccurrenceCount": 760,
+      "upstreamReportedTotal": 760,
+      "rowsFetched": 760,
+      "pagesFetched": 1,
+      "completeness": "complete",
+      "conceptReviewStatus": "compatible",
+      "queryEligible": true,
+      "eligibilityBasis": "resolution-ledger-accepted-mapping",
+      "rawPageSha256": [
+        "3080b52a291814495a15fb8dcdd7d18dbd37ed6feb7070bb3b594963a489fc8b"
+      ],
+      "rawResponseSha256": "3080b52a291814495a15fb8dcdd7d18dbd37ed6feb7070bb3b594963a489fc8b",
+      "normalizedRowsSha256": "13d2eef184417cb96e6ef0dfb5bdd197f0138c8a0d9f8ada7eb9c42da931fcf8",
+      "occurrenceIdSha256": "f63e277a1879d0eafc1b1e5be7fb5ecbf547e1194b4064318ec3c7409534c33f"
+    },
+    {
+      "entityId": "echinoidea",
+      "taxonConcept": "Echinoidea",
+      "acceptedBaseName": "Echinoidea",
+      "externalTaxonId": "txn:168786",
+      "queryParameters": {
+        "base_id": "168786",
+        "base_name": "Echinoidea",
+        "show": "full,class",
+        "order": "id",
+        "pageSize": 5000
+      },
+      "retrievedAt": "2026-08-30T20:06:38.000Z",
+      "resolutionSnapshotOccurrenceCount": 11632,
+      "upstreamReportedTotal": 11651,
+      "rowsFetched": 11651,
+      "pagesFetched": 3,
+      "completeness": "complete",
+      "conceptReviewStatus": "compatible",
+      "queryEligible": true,
+      "eligibilityBasis": "resolution-ledger-accepted-mapping",
+      "rawPageSha256": [
+        "24a9b26bf3d4523cccc04256d07b06d2ab8dbed0caabe59db802c8a466ada814",
+        "0f47cad574007fad80e0d7059310b126887e1c8012f1b00557c34b269800ced3",
+        "624058d25dee2e99a01537191164160146a89c127574bf6a0c766f1c93334702"
+      ],
+      "rawResponseSha256": "bf2123f0617bfe94939a7b43b19d467c14f3ab8ed1c624e7d2cfdf414f889504",
+      "normalizedRowsSha256": "6e6b44f69dc8937f03495ddd2b1c39334e900dab2a64c1b21aa4b7ee5a501470",
+      "occurrenceIdSha256": "d0eb55e139a5279866e23ce5263ed36bc01b996f0fe3fac26f1fd49a21db4043"
+    },
+    {
+      "entityId": "asteroidea",
+      "taxonConcept": "Asteroidea",
+      "acceptedBaseName": "Asteroidea",
+      "externalTaxonId": "txn:31341",
+      "queryParameters": {
+        "base_id": "31341",
+        "base_name": "Asteroidea",
+        "show": "full,class",
+        "order": "id",
+        "pageSize": 5000
+      },
+      "retrievedAt": "2026-08-30T20:06:45.000Z",
+      "resolutionSnapshotOccurrenceCount": 1328,
+      "upstreamReportedTotal": 1329,
+      "rowsFetched": 1329,
+      "pagesFetched": 1,
+      "completeness": "complete",
+      "conceptReviewStatus": "compatible",
+      "queryEligible": true,
+      "eligibilityBasis": "resolution-ledger-accepted-mapping",
+      "rawPageSha256": [
+        "19eadf6f5dc108ce21c44eafe1f3340821ea862c160db03ce96ebfa5f567a906"
+      ],
+      "rawResponseSha256": "19eadf6f5dc108ce21c44eafe1f3340821ea862c160db03ce96ebfa5f567a906",
+      "normalizedRowsSha256": "1600cc0333cabfd6dffbab6ca9554917cfcbf72e3db42657250ca108ac1caead",
+      "occurrenceIdSha256": "1bfecae731919e2b9a701a864619d77b59ce0e917e5af4b3b47a15e8a03a53ed"
+    },
+    {
+      "entityId": "ophiuroidea",
+      "taxonConcept": "Ophiuroidea",
+      "acceptedBaseName": "Ophiuroidea",
+      "externalTaxonId": "txn:31508",
+      "queryParameters": {
+        "base_id": "31508",
+        "base_name": "Ophiuroidea",
+        "show": "full,class",
+        "order": "id",
+        "pageSize": 5000
+      },
+      "retrievedAt": "2026-08-30T20:06:45.000Z",
+      "resolutionSnapshotOccurrenceCount": 1147,
+      "upstreamReportedTotal": 1147,
+      "rowsFetched": 1147,
+      "pagesFetched": 1,
+      "completeness": "complete",
+      "conceptReviewStatus": "compatible",
+      "queryEligible": true,
+      "eligibilityBasis": "resolution-ledger-accepted-mapping",
+      "rawPageSha256": [
+        "ccad301585508858494284233939bf8e572a14acab22f98fc4cad76673bb9ef9"
+      ],
+      "rawResponseSha256": "ccad301585508858494284233939bf8e572a14acab22f98fc4cad76673bb9ef9",
+      "normalizedRowsSha256": "6b9357a13c3bbceb4b403ed5da79da9347d8bb90347b9601003f36f9f18223b0",
+      "occurrenceIdSha256": "beb682132fb82f8551ca70f95b0bada21dada1b4736da3f9a713822f779690bf"
+    },
+    {
+      "entityId": "holothuroidea",
+      "taxonConcept": "Holothuroidea",
+      "acceptedBaseName": "Holothuroidea",
+      "externalTaxonId": "txn:161964",
+      "queryParameters": {
+        "base_id": "161964",
+        "base_name": "Holothuroidea",
+        "show": "full,class",
+        "order": "id",
+        "pageSize": 5000
+      },
+      "retrievedAt": "2026-08-30T20:06:46.000Z",
+      "resolutionSnapshotOccurrenceCount": 1514,
+      "upstreamReportedTotal": 1514,
+      "rowsFetched": 1514,
+      "pagesFetched": 1,
+      "completeness": "complete",
+      "conceptReviewStatus": "compatible",
+      "queryEligible": true,
+      "eligibilityBasis": "resolution-ledger-accepted-mapping",
+      "rawPageSha256": [
+        "9d2b7c0cf31737c4d6586758a74541d9cfd0aa1e518af677169c10fd4c9a9858"
+      ],
+      "rawResponseSha256": "9d2b7c0cf31737c4d6586758a74541d9cfd0aa1e518af677169c10fd4c9a9858",
+      "normalizedRowsSha256": "3a13f032abb347e35b0dc19eb952a9c933a66dd9b955f5e3137d75ae7372ef97",
+      "occurrenceIdSha256": "f35080a6d2db11e08417012e20278e8abfe14ded93485ff0496bc58c018f64e8"
+    }
   ]
 }
