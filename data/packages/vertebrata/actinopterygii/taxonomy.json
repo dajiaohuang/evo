@@ -10,13 +10,53 @@
       "relationshipKind": "taxonomic-parent"
     },
     {
-      "id": "teleostei",
+      "id": "neopterygii",
       "parentId": "actinopterygii",
       "relationshipKind": "taxonomic-parent"
     },
     {
-      "id": "salmoniformes",
+      "id": "holostei",
+      "parentId": "neopterygii",
+      "relationshipKind": "taxonomic-parent"
+    },
+    {
+      "id": "lepisosteiformes",
+      "parentId": "holostei",
+      "relationshipKind": "taxonomic-parent"
+    },
+    {
+      "id": "amiiformes",
+      "parentId": "holostei",
+      "relationshipKind": "taxonomic-parent"
+    },
+    {
+      "id": "teleosteomorpha",
+      "parentId": "neopterygii",
+      "relationshipKind": "taxonomic-parent"
+    },
+    {
+      "id": "teleostei",
+      "parentId": "teleosteomorpha",
+      "relationshipKind": "taxonomic-parent"
+    },
+    {
+      "id": "elopomorpha",
       "parentId": "teleostei",
+      "relationshipKind": "taxonomic-parent"
+    },
+    {
+      "id": "osteoglossomorpha",
+      "parentId": "teleostei",
+      "relationshipKind": "taxonomic-parent"
+    },
+    {
+      "id": "clupeocephala",
+      "parentId": "teleostei",
+      "relationshipKind": "taxonomic-parent"
+    },
+    {
+      "id": "salmoniformes",
+      "parentId": "clupeocephala",
       "relationshipKind": "taxonomic-parent"
     }
   ]

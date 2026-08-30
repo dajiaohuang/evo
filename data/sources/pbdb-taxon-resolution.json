@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "generatedAt": "2026-08-29",
+  "generatedAt": "2026-08-30",
   "policy": "PBDB name/rank resolution, automated lineage recommendations and human curator decisions are separate. Only taxonomic-parent edges participate in lineage compatibility; navigation and display edges do not assert taxonomic parentage.",
   "rankNormalization": {
     "clade": "unranked clade"
@@ -14,9 +14,9 @@
     "sourceUrl": "https://zenodo.org/records/21620933"
   },
   "summary": {
-    "ontologyNodes": 192,
+    "ontologyNodes": 200,
     "resolved": 135,
-    "unresolved": 57,
+    "unresolved": 65,
     "needsConceptReview": 23,
     "humanCuratorDecisions": 0
   },
@@ -8369,220 +8369,6 @@
       "occurrenceCount": 1976,
       "referenceNo": "ref:38882",
       "snapshotModifiedAt": "2023-08-08 01:04:20"
-    },
-    {
-      "entityId": "teleostei",
-      "localName": "Teleostei",
-      "localRank": "infraclass",
-      "previousPbdbId": null,
-      "resolutionStatus": "unresolved",
-      "resolutionReason": "accepted-rank-mismatch",
-      "externalResolutionStatus": "ambiguous",
-      "pbdbId": null,
-      "acceptedName": "Teleostei",
-      "acceptedRank": "unranked clade",
-      "matchedTaxonName": "Teleostei",
-      "pbdbParentName": "Teleosteomorpha",
-      "pbdbClassification": {
-        "phylum": "Chordata",
-        "class": "Osteichthyes",
-        "order": null,
-        "family": null
-      },
-      "resolvedName": "Teleostei",
-      "resolvedRank": "unranked clade",
-      "resolvedImmediateParent": "Teleosteomorpha",
-      "resolvedClassification": {
-        "phylum": "Chordata",
-        "class": "Osteichthyes",
-        "order": null,
-        "family": null
-      },
-      "resolvedAncestorChain": [
-        {
-          "pbdbId": "txn:150192",
-          "name": "Teleosteomorpha"
-        },
-        {
-          "pbdbId": "txn:94889",
-          "name": "Actinopteri"
-        },
-        {
-          "pbdbId": "txn:265718",
-          "name": "Actinopterygii"
-        },
-        {
-          "pbdbId": "txn:34881",
-          "name": "Osteichthyes"
-        },
-        {
-          "pbdbId": "txn:67344",
-          "name": "Gnathostomata"
-        },
-        {
-          "pbdbId": "txn:67149",
-          "name": "Vertebrata"
-        },
-        {
-          "pbdbId": "txn:33815",
-          "name": "Chordata"
-        },
-        {
-          "pbdbId": "txn:67145",
-          "name": "Deuterostomia"
-        },
-        {
-          "pbdbId": "txn:272902",
-          "name": "Eubilateria"
-        },
-        {
-          "pbdbId": "txn:67103",
-          "name": "Bilateria"
-        },
-        {
-          "pbdbId": "txn:67091",
-          "name": "Animalia"
-        },
-        {
-          "pbdbId": "txn:212579",
-          "name": "Opisthokonta"
-        },
-        {
-          "pbdbId": "txn:288516",
-          "name": "Eucarya"
-        },
-        {
-          "pbdbId": "txn:28595",
-          "name": "Life"
-        }
-      ],
-      "localExpectedParentConcept": "Actinopterygii",
-      "parentRelationshipKind": "taxonomic-parent",
-      "lineageCompatibility": "compatible-ancestor-chain",
-      "conceptReviewStatus": "unresolved",
-      "automatedRecommendation": "withhold-external-mapping",
-      "humanCuratorDecision": null,
-      "curatorRationale": null,
-      "curatorReviewedAt": null,
-      "curatorReviewer": null,
-      "occurrenceCount": 8668,
-      "referenceNo": "ref:11964",
-      "snapshotModifiedAt": "2013-04-30 15:43:10"
-    },
-    {
-      "entityId": "salmoniformes",
-      "localName": "Salmoniformes",
-      "localRank": "order",
-      "previousPbdbId": "txn:35506",
-      "resolutionStatus": "resolved",
-      "resolutionReason": "resolved-exact-name-and-rank",
-      "externalResolutionStatus": "resolved-exact",
-      "pbdbId": "txn:35506",
-      "acceptedName": "Salmoniformes",
-      "acceptedRank": "order",
-      "matchedTaxonName": "Salmoniformes",
-      "pbdbParentName": "Protacanthopterygii",
-      "pbdbClassification": {
-        "phylum": "Chordata",
-        "class": "Osteichthyes",
-        "order": "Salmoniformes",
-        "family": null
-      },
-      "resolvedName": "Salmoniformes",
-      "resolvedRank": "order",
-      "resolvedImmediateParent": "Protacanthopterygii",
-      "resolvedClassification": {
-        "phylum": "Chordata",
-        "class": "Osteichthyes",
-        "order": "Salmoniformes",
-        "family": null
-      },
-      "resolvedAncestorChain": [
-        {
-          "pbdbId": "txn:92063",
-          "name": "Protacanthopterygii"
-        },
-        {
-          "pbdbId": "txn:265813",
-          "name": "Euteleosteomorpha"
-        },
-        {
-          "pbdbId": "txn:184584",
-          "name": "Clupeocephala"
-        },
-        {
-          "pbdbId": "txn:63035",
-          "name": "Teleostei"
-        },
-        {
-          "pbdbId": "txn:150192",
-          "name": "Teleosteomorpha"
-        },
-        {
-          "pbdbId": "txn:94889",
-          "name": "Actinopteri"
-        },
-        {
-          "pbdbId": "txn:265718",
-          "name": "Actinopterygii"
-        },
-        {
-          "pbdbId": "txn:34881",
-          "name": "Osteichthyes"
-        },
-        {
-          "pbdbId": "txn:67344",
-          "name": "Gnathostomata"
-        },
-        {
-          "pbdbId": "txn:67149",
-          "name": "Vertebrata"
-        },
-        {
-          "pbdbId": "txn:33815",
-          "name": "Chordata"
-        },
-        {
-          "pbdbId": "txn:67145",
-          "name": "Deuterostomia"
-        },
-        {
-          "pbdbId": "txn:272902",
-          "name": "Eubilateria"
-        },
-        {
-          "pbdbId": "txn:67103",
-          "name": "Bilateria"
-        },
-        {
-          "pbdbId": "txn:67091",
-          "name": "Animalia"
-        },
-        {
-          "pbdbId": "txn:212579",
-          "name": "Opisthokonta"
-        },
-        {
-          "pbdbId": "txn:288516",
-          "name": "Eucarya"
-        },
-        {
-          "pbdbId": "txn:28595",
-          "name": "Life"
-        }
-      ],
-      "localExpectedParentConcept": "Teleostei",
-      "parentRelationshipKind": "taxonomic-parent",
-      "lineageCompatibility": "compatible-ancestor-chain",
-      "conceptReviewStatus": "compatible",
-      "automatedRecommendation": "accept-external-mapping",
-      "humanCuratorDecision": null,
-      "curatorRationale": null,
-      "curatorReviewedAt": null,
-      "curatorReviewer": null,
-      "occurrenceCount": 150,
-      "referenceNo": "ref:6930",
-      "snapshotModifiedAt": "2013-04-30 15:43:10"
     },
     {
       "entityId": "sarcopterygii",
@@ -25430,6 +25216,476 @@
       "occurrenceCount": 109,
       "referenceNo": "ref:15092",
       "snapshotModifiedAt": "2017-12-15 01:04:22"
+    },
+    {
+      "entityId": "teleostei",
+      "localName": "Teleostei",
+      "localRank": "infraclass",
+      "previousPbdbId": null,
+      "resolutionStatus": "unresolved",
+      "resolutionReason": "accepted-rank-mismatch",
+      "externalResolutionStatus": "ambiguous",
+      "pbdbId": null,
+      "acceptedName": "Teleostei",
+      "acceptedRank": "unranked clade",
+      "matchedTaxonName": "Teleostei",
+      "pbdbParentName": "Teleosteomorpha",
+      "pbdbClassification": {
+        "phylum": "Chordata",
+        "class": "Osteichthyes",
+        "order": null,
+        "family": null
+      },
+      "resolvedName": "Teleostei",
+      "resolvedRank": "unranked clade",
+      "resolvedImmediateParent": "Teleosteomorpha",
+      "resolvedClassification": {
+        "phylum": "Chordata",
+        "class": "Osteichthyes",
+        "order": null,
+        "family": null
+      },
+      "resolvedAncestorChain": [
+        {
+          "pbdbId": "txn:150192",
+          "name": "Teleosteomorpha"
+        },
+        {
+          "pbdbId": "txn:94889",
+          "name": "Actinopteri"
+        },
+        {
+          "pbdbId": "txn:265718",
+          "name": "Actinopterygii"
+        },
+        {
+          "pbdbId": "txn:34881",
+          "name": "Osteichthyes"
+        },
+        {
+          "pbdbId": "txn:67344",
+          "name": "Gnathostomata"
+        },
+        {
+          "pbdbId": "txn:67149",
+          "name": "Vertebrata"
+        },
+        {
+          "pbdbId": "txn:33815",
+          "name": "Chordata"
+        },
+        {
+          "pbdbId": "txn:67145",
+          "name": "Deuterostomia"
+        },
+        {
+          "pbdbId": "txn:272902",
+          "name": "Eubilateria"
+        },
+        {
+          "pbdbId": "txn:67103",
+          "name": "Bilateria"
+        },
+        {
+          "pbdbId": "txn:67091",
+          "name": "Animalia"
+        },
+        {
+          "pbdbId": "txn:212579",
+          "name": "Opisthokonta"
+        },
+        {
+          "pbdbId": "txn:288516",
+          "name": "Eucarya"
+        },
+        {
+          "pbdbId": "txn:28595",
+          "name": "Life"
+        }
+      ],
+      "localExpectedParentConcept": "Teleosteomorpha",
+      "parentRelationshipKind": "taxonomic-parent",
+      "lineageCompatibility": "compatible-immediate-parent",
+      "conceptReviewStatus": "unresolved",
+      "automatedRecommendation": "withhold-external-mapping",
+      "humanCuratorDecision": null,
+      "curatorRationale": null,
+      "curatorReviewedAt": null,
+      "curatorReviewer": null,
+      "occurrenceCount": 8668,
+      "referenceNo": "ref:11964",
+      "snapshotModifiedAt": "2013-04-30 15:43:10"
+    },
+    {
+      "entityId": "salmoniformes",
+      "localName": "Salmoniformes",
+      "localRank": "order",
+      "previousPbdbId": "txn:35506",
+      "resolutionStatus": "resolved",
+      "resolutionReason": "resolved-exact-name-and-rank",
+      "externalResolutionStatus": "resolved-exact",
+      "pbdbId": "txn:35506",
+      "acceptedName": "Salmoniformes",
+      "acceptedRank": "order",
+      "matchedTaxonName": "Salmoniformes",
+      "pbdbParentName": "Protacanthopterygii",
+      "pbdbClassification": {
+        "phylum": "Chordata",
+        "class": "Osteichthyes",
+        "order": "Salmoniformes",
+        "family": null
+      },
+      "resolvedName": "Salmoniformes",
+      "resolvedRank": "order",
+      "resolvedImmediateParent": "Protacanthopterygii",
+      "resolvedClassification": {
+        "phylum": "Chordata",
+        "class": "Osteichthyes",
+        "order": "Salmoniformes",
+        "family": null
+      },
+      "resolvedAncestorChain": [
+        {
+          "pbdbId": "txn:92063",
+          "name": "Protacanthopterygii"
+        },
+        {
+          "pbdbId": "txn:265813",
+          "name": "Euteleosteomorpha"
+        },
+        {
+          "pbdbId": "txn:184584",
+          "name": "Clupeocephala"
+        },
+        {
+          "pbdbId": "txn:63035",
+          "name": "Teleostei"
+        },
+        {
+          "pbdbId": "txn:150192",
+          "name": "Teleosteomorpha"
+        },
+        {
+          "pbdbId": "txn:94889",
+          "name": "Actinopteri"
+        },
+        {
+          "pbdbId": "txn:265718",
+          "name": "Actinopterygii"
+        },
+        {
+          "pbdbId": "txn:34881",
+          "name": "Osteichthyes"
+        },
+        {
+          "pbdbId": "txn:67344",
+          "name": "Gnathostomata"
+        },
+        {
+          "pbdbId": "txn:67149",
+          "name": "Vertebrata"
+        },
+        {
+          "pbdbId": "txn:33815",
+          "name": "Chordata"
+        },
+        {
+          "pbdbId": "txn:67145",
+          "name": "Deuterostomia"
+        },
+        {
+          "pbdbId": "txn:272902",
+          "name": "Eubilateria"
+        },
+        {
+          "pbdbId": "txn:67103",
+          "name": "Bilateria"
+        },
+        {
+          "pbdbId": "txn:67091",
+          "name": "Animalia"
+        },
+        {
+          "pbdbId": "txn:212579",
+          "name": "Opisthokonta"
+        },
+        {
+          "pbdbId": "txn:288516",
+          "name": "Eucarya"
+        },
+        {
+          "pbdbId": "txn:28595",
+          "name": "Life"
+        }
+      ],
+      "localExpectedParentConcept": "Clupeocephala",
+      "parentRelationshipKind": "taxonomic-parent",
+      "lineageCompatibility": "compatible-ancestor-chain",
+      "conceptReviewStatus": "compatible",
+      "automatedRecommendation": "accept-external-mapping",
+      "humanCuratorDecision": null,
+      "curatorRationale": null,
+      "curatorReviewedAt": null,
+      "curatorReviewer": null,
+      "occurrenceCount": 150,
+      "referenceNo": "ref:6930",
+      "snapshotModifiedAt": "2013-04-30 15:43:10"
+    },
+    {
+      "entityId": "neopterygii",
+      "localName": "Neopterygii",
+      "localRank": "subclass",
+      "previousPbdbId": null,
+      "resolutionStatus": "unresolved",
+      "resolutionReason": "not-reconciled-after-ontology-expansion",
+      "externalResolutionStatus": "not-found",
+      "pbdbId": null,
+      "acceptedName": null,
+      "acceptedRank": null,
+      "matchedTaxonName": null,
+      "pbdbParentName": null,
+      "pbdbClassification": null,
+      "resolvedName": null,
+      "resolvedRank": null,
+      "resolvedImmediateParent": null,
+      "resolvedClassification": null,
+      "resolvedAncestorChain": [],
+      "localExpectedParentConcept": "Actinopterygii",
+      "parentRelationshipKind": "taxonomic-parent",
+      "lineageCompatibility": "indeterminate",
+      "conceptReviewStatus": "unresolved",
+      "automatedRecommendation": "withhold-external-mapping",
+      "humanCuratorDecision": null,
+      "curatorRationale": null,
+      "curatorReviewedAt": null,
+      "curatorReviewer": null,
+      "occurrenceCount": null,
+      "referenceNo": null,
+      "snapshotModifiedAt": null
+    },
+    {
+      "entityId": "holostei",
+      "localName": "Holostei",
+      "localRank": "infraclass",
+      "previousPbdbId": null,
+      "resolutionStatus": "unresolved",
+      "resolutionReason": "not-reconciled-after-ontology-expansion",
+      "externalResolutionStatus": "not-found",
+      "pbdbId": null,
+      "acceptedName": null,
+      "acceptedRank": null,
+      "matchedTaxonName": null,
+      "pbdbParentName": null,
+      "pbdbClassification": null,
+      "resolvedName": null,
+      "resolvedRank": null,
+      "resolvedImmediateParent": null,
+      "resolvedClassification": null,
+      "resolvedAncestorChain": [],
+      "localExpectedParentConcept": "Neopterygii",
+      "parentRelationshipKind": "taxonomic-parent",
+      "lineageCompatibility": "indeterminate",
+      "conceptReviewStatus": "unresolved",
+      "automatedRecommendation": "withhold-external-mapping",
+      "humanCuratorDecision": null,
+      "curatorRationale": null,
+      "curatorReviewedAt": null,
+      "curatorReviewer": null,
+      "occurrenceCount": null,
+      "referenceNo": null,
+      "snapshotModifiedAt": null
+    },
+    {
+      "entityId": "lepisosteiformes",
+      "localName": "Lepisosteiformes",
+      "localRank": "order",
+      "previousPbdbId": null,
+      "resolutionStatus": "unresolved",
+      "resolutionReason": "not-reconciled-after-ontology-expansion",
+      "externalResolutionStatus": "not-found",
+      "pbdbId": null,
+      "acceptedName": null,
+      "acceptedRank": null,
+      "matchedTaxonName": null,
+      "pbdbParentName": null,
+      "pbdbClassification": null,
+      "resolvedName": null,
+      "resolvedRank": null,
+      "resolvedImmediateParent": null,
+      "resolvedClassification": null,
+      "resolvedAncestorChain": [],
+      "localExpectedParentConcept": "Holostei",
+      "parentRelationshipKind": "taxonomic-parent",
+      "lineageCompatibility": "indeterminate",
+      "conceptReviewStatus": "unresolved",
+      "automatedRecommendation": "withhold-external-mapping",
+      "humanCuratorDecision": null,
+      "curatorRationale": null,
+      "curatorReviewedAt": null,
+      "curatorReviewer": null,
+      "occurrenceCount": null,
+      "referenceNo": null,
+      "snapshotModifiedAt": null
+    },
+    {
+      "entityId": "amiiformes",
+      "localName": "Amiiformes",
+      "localRank": "order",
+      "previousPbdbId": null,
+      "resolutionStatus": "unresolved",
+      "resolutionReason": "not-reconciled-after-ontology-expansion",
+      "externalResolutionStatus": "not-found",
+      "pbdbId": null,
+      "acceptedName": null,
+      "acceptedRank": null,
+      "matchedTaxonName": null,
+      "pbdbParentName": null,
+      "pbdbClassification": null,
+      "resolvedName": null,
+      "resolvedRank": null,
+      "resolvedImmediateParent": null,
+      "resolvedClassification": null,
+      "resolvedAncestorChain": [],
+      "localExpectedParentConcept": "Holostei",
+      "parentRelationshipKind": "taxonomic-parent",
+      "lineageCompatibility": "indeterminate",
+      "conceptReviewStatus": "unresolved",
+      "automatedRecommendation": "withhold-external-mapping",
+      "humanCuratorDecision": null,
+      "curatorRationale": null,
+      "curatorReviewedAt": null,
+      "curatorReviewer": null,
+      "occurrenceCount": null,
+      "referenceNo": null,
+      "snapshotModifiedAt": null
+    },
+    {
+      "entityId": "teleosteomorpha",
+      "localName": "Teleosteomorpha",
+      "localRank": "unranked clade",
+      "previousPbdbId": null,
+      "resolutionStatus": "unresolved",
+      "resolutionReason": "not-reconciled-after-ontology-expansion",
+      "externalResolutionStatus": "not-found",
+      "pbdbId": null,
+      "acceptedName": null,
+      "acceptedRank": null,
+      "matchedTaxonName": null,
+      "pbdbParentName": null,
+      "pbdbClassification": null,
+      "resolvedName": null,
+      "resolvedRank": null,
+      "resolvedImmediateParent": null,
+      "resolvedClassification": null,
+      "resolvedAncestorChain": [],
+      "localExpectedParentConcept": "Neopterygii",
+      "parentRelationshipKind": "taxonomic-parent",
+      "lineageCompatibility": "indeterminate",
+      "conceptReviewStatus": "unresolved",
+      "automatedRecommendation": "withhold-external-mapping",
+      "humanCuratorDecision": null,
+      "curatorRationale": null,
+      "curatorReviewedAt": null,
+      "curatorReviewer": null,
+      "occurrenceCount": null,
+      "referenceNo": null,
+      "snapshotModifiedAt": null
+    },
+    {
+      "entityId": "elopomorpha",
+      "localName": "Elopomorpha",
+      "localRank": "superorder",
+      "previousPbdbId": null,
+      "resolutionStatus": "unresolved",
+      "resolutionReason": "not-reconciled-after-ontology-expansion",
+      "externalResolutionStatus": "not-found",
+      "pbdbId": null,
+      "acceptedName": null,
+      "acceptedRank": null,
+      "matchedTaxonName": null,
+      "pbdbParentName": null,
+      "pbdbClassification": null,
+      "resolvedName": null,
+      "resolvedRank": null,
+      "resolvedImmediateParent": null,
+      "resolvedClassification": null,
+      "resolvedAncestorChain": [],
+      "localExpectedParentConcept": "Teleostei",
+      "parentRelationshipKind": "taxonomic-parent",
+      "lineageCompatibility": "indeterminate",
+      "conceptReviewStatus": "unresolved",
+      "automatedRecommendation": "withhold-external-mapping",
+      "humanCuratorDecision": null,
+      "curatorRationale": null,
+      "curatorReviewedAt": null,
+      "curatorReviewer": null,
+      "occurrenceCount": null,
+      "referenceNo": null,
+      "snapshotModifiedAt": null
+    },
+    {
+      "entityId": "osteoglossomorpha",
+      "localName": "Osteoglossomorpha",
+      "localRank": "superorder",
+      "previousPbdbId": null,
+      "resolutionStatus": "unresolved",
+      "resolutionReason": "not-reconciled-after-ontology-expansion",
+      "externalResolutionStatus": "not-found",
+      "pbdbId": null,
+      "acceptedName": null,
+      "acceptedRank": null,
+      "matchedTaxonName": null,
+      "pbdbParentName": null,
+      "pbdbClassification": null,
+      "resolvedName": null,
+      "resolvedRank": null,
+      "resolvedImmediateParent": null,
+      "resolvedClassification": null,
+      "resolvedAncestorChain": [],
+      "localExpectedParentConcept": "Teleostei",
+      "parentRelationshipKind": "taxonomic-parent",
+      "lineageCompatibility": "indeterminate",
+      "conceptReviewStatus": "unresolved",
+      "automatedRecommendation": "withhold-external-mapping",
+      "humanCuratorDecision": null,
+      "curatorRationale": null,
+      "curatorReviewedAt": null,
+      "curatorReviewer": null,
+      "occurrenceCount": null,
+      "referenceNo": null,
+      "snapshotModifiedAt": null
+    },
+    {
+      "entityId": "clupeocephala",
+      "localName": "Clupeocephala",
+      "localRank": "unranked clade",
+      "previousPbdbId": null,
+      "resolutionStatus": "unresolved",
+      "resolutionReason": "not-reconciled-after-ontology-expansion",
+      "externalResolutionStatus": "not-found",
+      "pbdbId": null,
+      "acceptedName": null,
+      "acceptedRank": null,
+      "matchedTaxonName": null,
+      "pbdbParentName": null,
+      "pbdbClassification": null,
+      "resolvedName": null,
+      "resolvedRank": null,
+      "resolvedImmediateParent": null,
+      "resolvedClassification": null,
+      "resolvedAncestorChain": [],
+      "localExpectedParentConcept": "Teleostei",
+      "parentRelationshipKind": "taxonomic-parent",
+      "lineageCompatibility": "indeterminate",
+      "conceptReviewStatus": "unresolved",
+      "automatedRecommendation": "withhold-external-mapping",
+      "humanCuratorDecision": null,
+      "curatorRationale": null,
+      "curatorReviewedAt": null,
+      "curatorReviewer": null,
+      "occurrenceCount": null,
+      "referenceNo": null,
+      "snapshotModifiedAt": null
     }
   ]
 }

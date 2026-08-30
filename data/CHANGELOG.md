@@ -1,5 +1,14 @@
 # Dataset changelog
 
+## 2026.08-static-v5-rc18 — 2026-08-30
+
+- Replaced the Actinopterygii generated scaffold with seven primary-source-linked anatomy, fossil, phylogenomic, genome-duplication and developmental evidence events plus a bilingual evidence-boundary story.
+- Added curated navigation for Neopterygii, Holostei, Lepisosteiformes, Amiiformes, Teleosteomorpha, Elopomorpha, Osteoglossomorpha and Clupeocephala while withholding PBDB identifiers pending a rerun against the pinned taxon snapshot.
+- Linked named Devonian and Triassic specimens to exact publication figures and separated specimen occurrences and stem placements from global fossil first appearances or crown origins.
+- Kept the teleost 3R interval explicitly molecular-model-derived and the Holostei and deepest-teleost results explicitly based on living genome samples rather than fossil dates, morphological stasis or complete species trees.
+- Clarified that the 35,928 strictly accepted COL26.8 species below Actinopterygii usage ID 8VR36 provide nomenclatural browse coverage, not 35,928 mature dossiers, verified morphologies, fossil ranges, media records, translations or expert reviews.
+- Retained the new navigation entities' rounded ranges as unreviewed legacy displays; none is presented as a claim-linked fossil FAD.
+
 ## 2026.08-static-v5-rc17 — 2026-08-30
 
 - Promoted the early-fishes and chondrichthyan packages to structured evidence with seven specimen-level events and two bilingual evidence trails, while keeping stem, total-group and crown assignments explicit.
