@@ -442,71 +442,113 @@
   },
   {
     "id": "tetrapods-onto-land",
-    "title": "Vertebrates onto land",
-    "titleZh": "四足动物登陆",
-    "dek": "The shoreline transition was a mosaic of aquatic innovations, not one heroic step onto land.",
+    "title": "Seven evidence boundaries across the fin-to-limb transition",
+    "titleZh": "鳍—肢转型的七条证据边界",
+    "dek": "Read tracks, articulated bodies, internal fin skeletons, digit-bearing limbs and mobility models as different evidence—not as a ladder of direct ancestors marching onto land.",
     "theme": "teal",
-    "durationMinutes": 6,
-    "featured": false,
+    "durationMinutes": 11,
+    "featured": true,
     "steps": [
       {
-        "id": "fins",
-        "title": "Fins with internal scaffolds",
-        "text": "Tetrapodomorph fishes already possess bones homologous to later limb elements.",
-        "age": 385,
-        "timeRange": [
-          400,
-          380
-        ],
-        "taxonIds": [
-          "tetrapodomorpha"
-        ],
-        "view": "tree",
-        "claimLinks": [
-          {
-            "claimId": "claim:event:tetrapods-on-land",
-            "relation": "supports"
-          }
-        ]
-      },
-      {
-        "id": "limbs",
-        "title": "Limbs in the water",
-        "text": "Digits and limbs first appear in animals that remain strongly aquatic.",
-        "age": 370,
-        "timeRange": [
-          380,
-          360
-        ],
-        "taxonIds": [
-          "tetrapoda"
-        ],
+        "id": "mosaic-not-march",
+        "title": "A mosaic, not a march",
+        "text": "A synthesis separates digit-bearing limbs, locomotor changes and full terrestriality. Its broad window organizes unlike evidence; it is not one event or an ancestor-to-descendant sequence.",
+        "age": 367.5,
+        "timeRange": [385, 350],
+        "taxonIds": ["tetrapodomorpha", "tetrapoda"],
         "view": "evidence",
         "eventId": "tetrapods-on-land",
+        "annotation": "A transitional character combination can illuminate evolution without making its bearer the direct ancestor of another named fossil.",
         "claimLinks": [
-          {
-            "claimId": "claim:event:tetrapods-on-land",
-            "relation": "supports"
-          }
+          {"claimId": "claim:event:tetrapods-on-land", "relation": "supports"}
         ]
       },
       {
-        "id": "terrestrial",
-        "title": "Terrestrial ecosystems expand",
-        "text": "Carboniferous tetrapods diversify alongside increasingly complex vegetation and food webs.",
-        "age": 330,
-        "timeRange": [
-          359,
-          310
-        ],
-        "taxonIds": [
-          "tetrapoda"
-        ],
-        "view": "map",
-        "claimLinks": []
+        "id": "zachelmie-traces",
+        "title": "Digits recorded without a body",
+        "text": "Eifelian Zachełmie surfaces preserve quadrupedal tracks and digit impressions. A trace constrains a trackmaker and gait, but cannot supply a named body taxon, complete anatomy or direct ancestor.",
+        "age": 390.7,
+        "timeRange": [393.47, 387.95],
+        "taxonIds": ["tetrapoda"],
+        "view": "evidence",
+        "eventId": "zachelmie-digit-trackways",
+        "annotation": "The displayed interval is the current Eifelian stage window, not an error bar on one footprint.",
+        "claimLinks": [
+          {"claimId": "claim:event:zachelmie-digit-trackways", "relation": "supports"}
+        ]
+      },
+      {
+        "id": "tiktaalik-body",
+        "title": "One body, aquatic and tetrapod-like characters",
+        "text": "Tiktaalik combines scales, fin rays and fish-like jaws with a mobile neck, modified ear region and robust ribs. Anatomy and setting make shallow-water hypotheses testable, not observed terrestrial behaviour.",
+        "age": 375,
+        "timeRange": [375, 375],
+        "taxonIds": ["tiktaalik"],
+        "view": "evidence",
+        "eventId": "tiktaalik-body-plan-mosaic",
+        "annotation": "Intermediate morphology is not evidence that the specimen lies on a direct ancestral line.",
+        "claimLinks": [
+          {"claimId": "claim:event:tiktaalik-body-plan-mosaic", "relation": "supports"}
+        ]
+      },
+      {
+        "id": "tiktaalik-fin",
+        "title": "A mobile wrist still inside a fin",
+        "text": "Tiktaalik's pectoral fin has a robust internal scaffold and wrist-like joints that could transmit load, but fin rays remain and no free digits or track are preserved.",
+        "age": 375,
+        "timeRange": [375, 375],
+        "taxonIds": ["tiktaalik"],
+        "view": "evidence",
+        "eventId": "tiktaalik-pectoral-fin",
+        "annotation": "Joint geometry supports a functional inference; it does not replay a witnessed gait.",
+        "claimLinks": [
+          {"claimId": "claim:event:tiktaalik-pectoral-fin", "relation": "supports"}
+        ]
+      },
+      {
+        "id": "elpistostege-fin",
+        "title": "Digit-like rows beneath fin rays",
+        "text": "CT imaging of MHNM 06-2067 reveals branched carpals and distal rows interpreted as digits or putative digits. Lepidotrichia still make the appendage a fin.",
+        "age": 377.2,
+        "timeRange": [382.31, 372.15],
+        "taxonIds": ["stem-tetrapodomorphs"],
+        "view": "evidence",
+        "eventId": "elpistostege-digit-bearing-fin",
+        "annotation": "Digit homology and sister-group placement are analyses, not labels fixed forever by the specimen.",
+        "claimLinks": [
+          {"claimId": "claim:event:elpistostege-digit-bearing-fin", "relation": "supports"}
+        ]
+      },
+      {
+        "id": "acanthostega-digits",
+        "title": "Eight digits do not equal land walking",
+        "text": "Acanthostega's described forelimb has eight digits. Together with seven-digit Ichthyostega and six-digit Tulerpeton, it rejects a fixed primitive five-digit template without proving a terrestrial gait.",
+        "age": 365.5,
+        "timeRange": [372.15, 358.86],
+        "taxonIds": ["tetrapoda"],
+        "view": "evidence",
+        "eventId": "acanthostega-eight-digit-limb",
+        "annotation": "Digit count, appendage function and habitat are separate claims.",
+        "claimLinks": [
+          {"claimId": "claim:event:acanthostega-eight-digit-limb", "relation": "supports"}
+        ]
+      },
+      {
+        "id": "ichthyostega-motion",
+        "title": "A mobility model, not a universal gait",
+        "text": "Three-dimensional joint reconstruction found that Ichthyostega lacked rotations needed for a typical lateral-sequence walk. It may represent restricted early mobility or a specialization unique to this animal.",
+        "age": 365.5,
+        "timeRange": [372.15, 358.86],
+        "taxonIds": ["tetrapoda"],
+        "view": "evidence",
+        "eventId": "ichthyostega-joint-mobility",
+        "annotation": "Feasible joint motion is a model constraint, not direct observation of behaviour and not a template for every Devonian tetrapod.",
+        "claimLinks": [
+          {"claimId": "claim:event:ichthyostega-joint-mobility", "relation": "supports"}
+        ]
       }
     ],
-    "evidenceStatus": "blocked-pending-step-evidence"
+    "evidenceStatus": "available-with-limitations"
   },
   {
     "id": "mammals-before-kpg",
