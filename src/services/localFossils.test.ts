@@ -4,6 +4,15 @@ vi.mock('../data-client/staticDataClient', () => {
   const periods = ['Cambrian', 'Ordovician', 'Silurian', 'Devonian', 'Carboniferous', 'Permian', 'Triassic', 'Jurassic', 'Cretaceous', 'Paleogene', 'Neogene', 'Quaternary']
   const files = Object.fromEntries(periods.map((period) => [period, [{ url: `test/${period.toLowerCase()}.json.gz`, records: 0, packageId: 'test', period }]]))
   const loadRuntimeFile = async (file: { url: string }) => {
+    if (file.url.includes('trilobites-chelicerates-occurrence-snapshot-v1')) return {
+      packageId: 'trilobites-chelicerates',
+      uniqueOccurrenceCount: 2,
+      queryResults: [{ entityId: 'ptychopariida', upstreamReportedTotal: 2, paginationComplete: true }],
+      records: [
+        { oid: 'ptycho-1', tna: 'Ptychopariida', idn: '', tid: 'txn:20239', rnk: 9, lng: '0', lat: '0', eag: 520, lag: 500, cid: 'c1', oei: 'Cambrian', matchedEntityIds: ['ptychopariida'] },
+        { oid: 'ptycho-2', tna: 'Rimouskia', idn: '', tid: 'txn:20928', rnk: 5, lng: '0', lat: '0', eag: 515, lag: 510, cid: 'c2', oei: 'Cambrian', matchedEntityIds: ['ptychopariida'] },
+      ],
+    }
     if (file.url.includes('perissodactyla-occurrence-snapshot-v1')) return {
       packageId: 'perissodactyla',
       uniqueOccurrenceCount: 3,
@@ -53,14 +62,15 @@ describe('local fossil chunks', () => {
     await expect(getFossilsByInterval('Unknown')).resolves.toEqual([])
   })
 
-  it('keeps a withheld historical concept on the bounded cross-atlas sample', async () => {
+  it('loads a reconciled historical concept from its complete targeted snapshot', async () => {
     const descendants = await getFossilsByEntity('ptychopariida', 'descendants')
     const exact = await getFossilsByEntity('ptychopariida', 'exact')
-    expect(descendants.records).toHaveLength(309)
-    expect(descendants.loadedPeriods).toEqual(['Cambrian', 'Ordovician', 'Silurian'])
+    expect(descendants.records).toHaveLength(2)
+    expect(descendants).toMatchObject({ queryStatus: 'complete-query-observed', matchedTotal: 2, rowsLoaded: 2 })
+    expect(descendants.loadedPeriods).toEqual(['Cambrian', 'Ordovician', 'Silurian', 'Devonian', 'Carboniferous', 'Permian', 'Triassic', 'Jurassic', 'Cretaceous', 'Paleogene', 'Neogene', 'Quaternary'])
     expect(descendants.truncated).toBe(false)
     expect(descendants).toMatchObject({ indexStatus: 'hit', effectiveScope: 'descendants', fallbackApplied: false })
-    expect(exact.records).toHaveLength(5)
+    expect(exact.records).toHaveLength(1)
   })
 
   it('reports an explicit exact fallback when a descendant index is missing', async () => {

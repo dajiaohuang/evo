@@ -1,6 +1,7 @@
-import { createReadStream, writeFileSync } from 'node:fs'
+import { createHash } from 'node:crypto'
+import { createReadStream, statSync, writeFileSync } from 'node:fs'
 import { createInterface } from 'node:readline'
-import { join } from 'node:path'
+import { basename, join } from 'node:path'
 import { flattenTree, readJson, rootDir } from './data-lib.mjs'
 
 const SNAPSHOT = {
@@ -8,7 +9,12 @@ const SNAPSHOT = {
   doi: '10.5281/zenodo.21620933',
   downloadedAt: '2026-07-19',
   archiveFile: 'pbdb_taxa_csv.zip',
+  archiveBytes: 56762229,
   archiveMd5: 'fca5fde5e8d5922d06fe332a42b955f9',
+  archiveSha256: '85199dda21b277dfac12074da2301219cc0629535fd83352fc205728f7a34ae8',
+  csvFile: 'pbdb_taxa.csv',
+  csvBytes: 523407413,
+  csvSha256: '2652b6def483888b7410c54f1b5cdb5d0dadeed19a7c653e487f1c7fa081d7b1',
   sourceUrl: 'https://zenodo.org/records/21620933',
 }
 
@@ -16,10 +22,24 @@ const args = process.argv.slice(2)
 const sourceIndex = args.indexOf('--source')
 const sourcePath = sourceIndex >= 0 ? args[sourceIndex + 1] : ''
 const shouldWrite = args.includes('--write')
+const retryReasonIndex = args.indexOf('--retry-reason')
+const retryReason = retryReasonIndex >= 0 ? args[retryReasonIndex + 1] : null
 
 if (!sourcePath) {
-  console.error('Usage: node scripts/reconcile-pbdb-taxa.mjs --source <pbdb_taxa.csv> [--write]')
+  console.error('Usage: node scripts/reconcile-pbdb-taxa.mjs --source <pbdb_taxa.csv> [--retry-reason <reason>] [--write]')
   process.exit(2)
+}
+
+async function hashFile(path, algorithm) {
+  const hash = createHash(algorithm)
+  for await (const chunk of createReadStream(path)) hash.update(chunk)
+  return hash.digest('hex')
+}
+
+const sourceStat = statSync(sourcePath)
+const sourceSha256 = await hashFile(sourcePath, 'sha256')
+if (basename(sourcePath) !== SNAPSHOT.csvFile || sourceStat.size !== SNAPSHOT.csvBytes || sourceSha256 !== SNAPSHOT.csvSha256) {
+  throw new Error(`PBDB taxon CSV does not match the pinned ${SNAPSHOT.downloadedAt} snapshot`)
 }
 
 function parseCsvLine(line) {
@@ -58,14 +78,25 @@ function numberOrNull(value) {
 
 const ontology = readJson('data/navigation/atlas-ontology.json')
 const nodes = flattenTree(ontology)
+const existingLedger = readJson('data/sources/pbdb-taxon-resolution.json')
+const existingByEntityId = new Map(existingLedger.resolutions.map((entry) => [entry.entityId, entry]))
+const retryingPreviousRun = retryReason && existingLedger.reconciliationRun?.retryReason === retryReason
+const targetEntityIds = new Set(nodes
+  .filter((node) => {
+    if (!retryReason) return true
+    const existing = existingByEntityId.get(node.id)
+    return existing?.resolutionReason === retryReason || (retryingPreviousRun && Object.hasOwn(existing ?? {}, 'candidatePbdbId'))
+  })
+  .map((node) => node.id))
+if (retryReason && targetEntityIds.size === 0) throw new Error(`No resolution entries have retry reason ${retryReason}`)
 const parentByEntityId = new Map()
 function indexParents(node, parent = null) {
   parentByEntityId.set(node.id, parent)
   for (const child of node.children ?? []) indexParents(child, node)
 }
 indexParents(ontology)
-const names = new Set(nodes.map((node) => node.name))
-const candidatesByName = new Map(nodes.map((node) => [node.name, []]))
+const names = new Set(nodes.filter((node) => targetEntityIds.has(node.id)).map((node) => node.name))
+const candidatesByName = new Map([...names].map((name) => [name, []]))
 const conceptsByAcceptedNo = new Map()
 const input = createInterface({ input: createReadStream(sourcePath, { encoding: 'utf8' }), crlfDelay: Infinity })
 let headers
@@ -125,14 +156,14 @@ function resolveNode(node) {
     return rightAccepted - leftAccepted || Number(right.n_occs || 0) - Number(left.n_occs || 0) || Number(left.accepted_no) - Number(right.accepted_no)
   })
 
-  let reason = 'resolved-exact-name-and-rank'
-  if (!candidates.length) reason = 'no-exact-name-in-snapshot'
-  else if (!acceptedNameMatches.length) reason = 'accepted-name-mismatch'
-  else if (!rankMatches.length) reason = 'accepted-rank-mismatch'
-  else if (acceptedConcepts.size > 1) reason = 'ambiguous-accepted-concept'
+  let nameRankReason = 'resolved-exact-name-and-rank'
+  if (!candidates.length) nameRankReason = 'no-exact-name-in-snapshot'
+  else if (!acceptedNameMatches.length) nameRankReason = 'accepted-name-mismatch'
+  else if (!rankMatches.length) nameRankReason = 'accepted-rank-mismatch'
+  else if (acceptedConcepts.size > 1) nameRankReason = 'ambiguous-accepted-concept'
 
-  const resolved = reason === 'resolved-exact-name-and-rank' ? ranked[0] : null
-  const diagnostic = resolved ?? acceptedNameMatches[0] ?? candidates[0] ?? null
+  const exactCandidate = nameRankReason === 'resolved-exact-name-and-rank' ? ranked[0] : null
+  const diagnostic = exactCandidate ?? acceptedNameMatches[0] ?? candidates[0] ?? null
   const localExpectedParentConcept = parentByEntityId.get(node.id)?.name ?? null
   const parentRelationshipKind = node.parentRelationshipKind ?? (localExpectedParentConcept ? 'taxonomic-parent' : null)
   const resolvedClassification = diagnostic ? {
@@ -156,9 +187,24 @@ function resolveNode(node) {
         : localExpectedParentConcept && (diagnostic.parent_name || classificationNames.length)
           ? 'incompatible'
           : 'indeterminate'
+  const lineageEligible = parentRelationshipKind !== 'taxonomic-parent'
+    ? Boolean(exactCandidate)
+    : lineageCompatibility.startsWith('compatible-')
+  const resolved = exactCandidate && lineageEligible ? exactCandidate : null
+  const reason = nameRankReason !== 'resolved-exact-name-and-rank'
+    ? nameRankReason
+    : lineageCompatibility === 'incompatible'
+      ? 'lineage-incompatible'
+      : lineageCompatibility === 'indeterminate'
+        ? 'lineage-indeterminate'
+        : 'resolved-exact-name-rank-and-lineage'
   const conceptReviewStatus = parentRelationshipKind !== 'taxonomic-parent' && resolved
     ? 'not-required-navigation-edge'
-    : lineageCompatibility === 'incompatible' ? 'needs-concept-review' : resolved ? 'compatible' : 'unresolved'
+    : lineageCompatibility === 'incompatible'
+      ? 'needs-concept-review'
+      : lineageCompatibility === 'indeterminate' && exactCandidate
+        ? 'unresolved-lineage'
+        : resolved ? 'compatible' : 'unresolved'
   return {
     entityId: node.id,
     localName: node.name,
@@ -168,8 +214,11 @@ function resolveNode(node) {
     resolutionReason: reason,
     externalResolutionStatus: resolved
       ? diagnostic.taxon_name === diagnostic.accepted_name ? 'resolved-exact' : 'resolved-synonym'
-      : reason === 'no-exact-name-in-snapshot' ? 'not-found' : 'ambiguous',
+      : reason === 'no-exact-name-in-snapshot'
+        ? 'not-found'
+        : 'ambiguous',
     pbdbId: resolved ? `txn:${resolved.accepted_no}` : null,
+    candidatePbdbId: diagnostic?.accepted_no ? `txn:${diagnostic.accepted_no}` : null,
     acceptedName: diagnostic?.accepted_name || null,
     acceptedRank: diagnostic?.accepted_rank || null,
     matchedTaxonName: diagnostic?.taxon_name || null,
@@ -184,9 +233,7 @@ function resolveNode(node) {
     parentRelationshipKind,
     lineageCompatibility,
     conceptReviewStatus,
-    automatedRecommendation: lineageCompatibility === 'incompatible'
-      ? 'needs-concept-review'
-      : resolved ? 'accept-external-mapping' : 'withhold-external-mapping',
+    automatedRecommendation: resolved ? 'accept-external-mapping' : 'withhold-external-mapping',
     humanCuratorDecision: null,
     curatorRationale: null,
     curatorReviewedAt: null,
@@ -197,7 +244,10 @@ function resolveNode(node) {
   }
 }
 
-const resolutions = nodes.map(resolveNode)
+const retriedResolutions = new Map(nodes
+  .filter((node) => targetEntityIds.has(node.id))
+  .map((node) => [node.id, resolveNode(node)]))
+const resolutions = nodes.map((node) => retriedResolutions.get(node.id) ?? existingByEntityId.get(node.id))
 const byEntityId = new Map(resolutions.map((entry) => [entry.entityId, entry]))
 const resolvedCount = resolutions.filter((entry) => entry.resolutionStatus === 'resolved').length
 const output = {
@@ -206,6 +256,17 @@ const output = {
   policy: 'PBDB name/rank resolution, automated lineage recommendations and human curator decisions are separate. Only taxonomic-parent edges use the complete pinned PBDB ancestor chain for compatibility; navigation and display edges do not assert taxonomic parentage.',
   rankNormalization: { clade: 'unranked clade' },
   source: SNAPSHOT,
+  reconciliationRun: {
+    retryReason: retryReason ?? 'all-ontology-nodes',
+    attempted: retriedResolutions.size,
+    resolved: [...retriedResolutions.values()].filter((entry) => entry.resolutionStatus === 'resolved').length,
+    withheld: [...retriedResolutions.values()].filter((entry) => entry.resolutionStatus !== 'resolved').length,
+    sourceCsv: {
+      file: basename(sourcePath),
+      bytes: sourceStat.size,
+      sha256: sourceSha256,
+    },
+  },
   summary: {
     ontologyNodes: resolutions.length,
     resolved: resolvedCount,
@@ -217,7 +278,11 @@ const output = {
 }
 
 function applyResolution(node) {
-  node.taxonId = byEntityId.get(node.id)?.pbdbId ?? ''
+  if (targetEntityIds.has(node.id)) {
+    const pbdbId = byEntityId.get(node.id)?.pbdbId
+    if (pbdbId) node.taxonId = pbdbId
+    else if (Object.hasOwn(node, 'taxonId')) node.taxonId = ''
+  }
   for (const child of node.children ?? []) applyResolution(child)
 }
 

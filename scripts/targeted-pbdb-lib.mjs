@@ -60,6 +60,9 @@ export function queryEligibility(resolution) {
   if (resolution.resolutionStatus !== 'resolved' || !resolution.pbdbId || !resolution.acceptedName) {
     return { eligible: false, reason: resolution.resolutionReason ?? 'unresolved' }
   }
+  if (resolution.parentRelationshipKind === 'taxonomic-parent' && !resolution.lineageCompatibility?.startsWith('compatible-')) {
+    return { eligible: false, reason: resolution.lineageCompatibility === 'incompatible' ? 'needs-concept-review' : 'lineage-not-verified' }
+  }
   if (resolution.conceptReviewStatus === 'needs-concept-review' || resolution.automatedRecommendation === 'needs-concept-review') {
     return { eligible: false, reason: 'needs-concept-review' }
   }

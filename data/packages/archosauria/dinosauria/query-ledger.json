@@ -10,30 +10,38 @@
     "pageSize": 5000,
     "acceptedBaseNamesRecorded": true
   },
-  "requestedAt": "2026-08-30T18:34:13.000Z",
-  "upstreamReportedTotal": 5775,
-  "pagesFetched": 13,
-  "rowsFetched": 5775,
+  "requestedAt": "2026-08-30T22:27:58.000Z",
+  "upstreamReportedTotal": 7034,
+  "pagesFetched": 21,
+  "rowsFetched": 7034,
   "rowsAccepted": 5000,
   "rowsRejected": 0,
   "rowsOutsidePackage": 0,
-  "uniqueRowsObserved": 5390,
+  "uniqueRowsObserved": 6619,
   "uniqueRowsRetained": 5000,
-  "withheldSubqueryCount": 17,
+  "withheldSubqueryCount": 9,
   "responseChecksums": [
-    "a83f30c301b47da8445b150109e4d1417204071cbc190fb84681a8199dce1df2",
-    "aabcab01b56b331b249e40d9a56eae1c9448abd9f4f40a17fe034fac18068eb3",
-    "59e6f437217a872408bd1eb53dd405129305f43044e920a099a627f9cb5b798a",
-    "bb75bc18641d0f53554a7c9af9510dcda4f762388ee6a9cd9c19e29810887592",
-    "54b8dd800653637f2cc2e3627ebde08a1ef1f7b061caf2edc4b010ca7045b75d",
-    "197877f9954f19e3128dd6aad01209395945b61f4b718eca68c2787058f4f72e",
-    "de2e5e30d9d242021b7c267a6fdbd4863bedb7d36bb82baaaf42435be9a053b5",
-    "e3dba9a32e25bd8ebe78453751f086162f98621d8af939400af44c1543c36dae",
-    "94761179f93f48653f2bf4effc4002dee86c6e0e0967872e85f97e34ad0e5ea1",
-    "a86cd87a7119ab100db6560842c8baf2aa665c2908bf074dbbeafdb01710de82",
-    "aa973a9b4c362132d2bfcb6cea4f199ac6bdc32a97870ad3d7e59b6e12bca8e8",
-    "208b9f2654253d61c829a8ad226c34d289da662a171a4e06ff45f22a56e528eb",
-    "2e7ccd8b2ddc136b2173886df5e08b1fbfa4dc44e903421a86841f113e19eec5"
+    "afebaaf5ed0c596bf456ff8c8c67f2df9d8eabeba661edba3b44097e52594f78",
+    "93bd3a8f45a4e877a9ad4eea136bf091b25fb2ac87f3523501046aac248e41b0",
+    "dc508ef295cc32a24f27ed735e0446b4160a5268b92a5ac758ae4213860cc4b6",
+    "7429af79b924aa37739160daee48140edf6c3e57d923433171b555fee919df99",
+    "859847067c365a4aa59171e3904eed8fd09d19af851b1fe4f2d2e291a582f8e1",
+    "78d2e98bbc7f7c633d0826a0c429e6a2bd6382b1487fb99bb40683e6c74e0931",
+    "4016a517d96ef6c0df6f2acc540cfb2d49f09c6b9ba50b50a94feee483e826dd",
+    "5d40df122c3741a5c0ace31d74b9217d08b821f4154ae2d202fb7ce59da4d39a",
+    "d895ee8ec5bced6fdb77ae51c4dcf024a91cd370bf6857c6f35289538d40cffa",
+    "ae7649b793445750264f50be41ea631c087daaf4e0858db268c1f6c176bee263",
+    "c9f56613567db43bd2e6fbdb03fdbab03aa00b4f41ab7b4a354960b309e1dd0b",
+    "9be2d816787b263fd2fe807ad36ce3e1ce962f6387c4ed8bf65922222a8345f9",
+    "5703b103d26cd95c68ece76ad80cf6854bf436bf33345ecfcd4ab3c895478236",
+    "dd4a376b881d851dd97eeea50241754b98c8c0dbad24a66ab26fd0de2e29593c",
+    "3dee805b4d6dafb18f3c1d7ae982ad53c657fe3d79864da544ac12c313d3459a",
+    "d7b4b2696551678d1d803f3b5aa9b8d6e0564839541bc891f47dd40163c5397f",
+    "2ca55864129ad217932869647c4c1076a755ac5c6005a9deed7b56e7587e1fc5",
+    "efbe9bec275736b2d534ed1dded90cb67e06c8f2c08c15e7773eafec31624b8c",
+    "c3e84faa2d20a3df5a234b5aa3419606d4d0c191c151844102821d7f6bab83e8",
+    "da854f332244bf8646211f09a3290fe1e24420d9cec9ed70e21283b851e4f151",
+    "eadd378447991846e4b66e67db4c7337dfbf5c06854aac1bf6a1279a52903dbe"
   ],
   "completeness": "bounded",
   "selectionMethod": "Complete pagination for every eligible resolution-ledger taxon concept; package occurrence detail is a deterministic bounded projection while all result identities and checksums remain in the source snapshot.",
@@ -138,7 +146,7 @@
         "order": "id",
         "pageSize": 5000
       },
-      "retrievedAt": "2026-08-30T18:34:07.000Z",
+      "retrievedAt": "2026-08-30T22:27:49.000Z",
       "resolutionSnapshotOccurrenceCount": 16,
       "upstreamReportedTotal": 16,
       "rowsFetched": 16,
@@ -148,9 +156,9 @@
       "queryEligible": true,
       "eligibilityBasis": "resolution-ledger-accepted-mapping",
       "rawPageSha256": [
-        "a83f30c301b47da8445b150109e4d1417204071cbc190fb84681a8199dce1df2"
+        "afebaaf5ed0c596bf456ff8c8c67f2df9d8eabeba661edba3b44097e52594f78"
       ],
-      "rawResponseSha256": "a83f30c301b47da8445b150109e4d1417204071cbc190fb84681a8199dce1df2",
+      "rawResponseSha256": "afebaaf5ed0c596bf456ff8c8c67f2df9d8eabeba661edba3b44097e52594f78",
       "normalizedRowsSha256": "ef3582d16fb477d239b83eb1c2816482afe9b1a697c96ddb6ea35ecbb5cca36e",
       "occurrenceIdSha256": "db5bddf0f976af621ae1acc2bc7ee2a42e0fc92f90b755399af2f0c81be62229"
     },
@@ -166,7 +174,7 @@
         "order": "id",
         "pageSize": 5000
       },
-      "retrievedAt": "2026-08-30T18:34:08.000Z",
+      "retrievedAt": "2026-08-30T22:27:50.000Z",
       "resolutionSnapshotOccurrenceCount": 1142,
       "upstreamReportedTotal": 1147,
       "rowsFetched": 1147,
@@ -176,9 +184,9 @@
       "queryEligible": true,
       "eligibilityBasis": "resolution-ledger-accepted-mapping",
       "rawPageSha256": [
-        "aabcab01b56b331b249e40d9a56eae1c9448abd9f4f40a17fe034fac18068eb3"
+        "93bd3a8f45a4e877a9ad4eea136bf091b25fb2ac87f3523501046aac248e41b0"
       ],
-      "rawResponseSha256": "aabcab01b56b331b249e40d9a56eae1c9448abd9f4f40a17fe034fac18068eb3",
+      "rawResponseSha256": "93bd3a8f45a4e877a9ad4eea136bf091b25fb2ac87f3523501046aac248e41b0",
       "normalizedRowsSha256": "aa0d8210951474bd235f74f531b7aaf3a86a1cb113d508fb38d79b2dc1657423",
       "occurrenceIdSha256": "51c29cbc5b0e202eecd7725e01b9b87fe43e18b6ef7e1eaa965d5f1b878a6a01"
     },
@@ -194,7 +202,7 @@
         "order": "id",
         "pageSize": 5000
       },
-      "retrievedAt": "2026-08-30T18:34:08.000Z",
+      "retrievedAt": "2026-08-30T22:27:51.000Z",
       "resolutionSnapshotOccurrenceCount": 166,
       "upstreamReportedTotal": 166,
       "rowsFetched": 166,
@@ -204,31 +212,39 @@
       "queryEligible": true,
       "eligibilityBasis": "resolution-ledger-accepted-mapping",
       "rawPageSha256": [
-        "59e6f437217a872408bd1eb53dd405129305f43044e920a099a627f9cb5b798a"
+        "dc508ef295cc32a24f27ed735e0446b4160a5268b92a5ac758ae4213860cc4b6"
       ],
-      "rawResponseSha256": "59e6f437217a872408bd1eb53dd405129305f43044e920a099a627f9cb5b798a",
+      "rawResponseSha256": "dc508ef295cc32a24f27ed735e0446b4160a5268b92a5ac758ae4213860cc4b6",
       "normalizedRowsSha256": "bdf0514729d86db66c3add6bca343f2e0e7b16ba76eb416dc28472c019ab1729",
       "occurrenceIdSha256": "c911a178c887e82b08f920e6fdf5549cbe138f2b047ee9471600ef63d4efc67e"
     },
     {
       "entityId": "yinlong",
       "taxonConcept": "Yinlong",
-      "acceptedBaseName": null,
-      "externalTaxonId": null,
-      "queryParameters": null,
-      "retrievedAt": null,
-      "resolutionSnapshotOccurrenceCount": null,
-      "upstreamReportedTotal": null,
-      "rowsFetched": null,
-      "pagesFetched": null,
-      "completeness": "withheld",
-      "conceptReviewStatus": "unresolved",
-      "queryEligible": false,
-      "eligibilityBasis": "not-reconciled-after-ontology-expansion",
-      "rawPageSha256": [],
-      "rawResponseSha256": null,
-      "normalizedRowsSha256": null,
-      "occurrenceIdSha256": null
+      "acceptedBaseName": "Yinlong",
+      "externalTaxonId": "txn:90117",
+      "queryParameters": {
+        "base_id": "90117",
+        "base_name": "Yinlong",
+        "show": "full,class",
+        "order": "id",
+        "pageSize": 5000
+      },
+      "retrievedAt": "2026-08-30T22:27:51.000Z",
+      "resolutionSnapshotOccurrenceCount": 1,
+      "upstreamReportedTotal": 1,
+      "rowsFetched": 1,
+      "pagesFetched": 1,
+      "completeness": "complete",
+      "conceptReviewStatus": "not-required-navigation-edge",
+      "queryEligible": true,
+      "eligibilityBasis": "resolution-ledger-accepted-mapping",
+      "rawPageSha256": [
+        "7429af79b924aa37739160daee48140edf6c3e57d923433171b555fee919df99"
+      ],
+      "rawResponseSha256": "7429af79b924aa37739160daee48140edf6c3e57d923433171b555fee919df99",
+      "normalizedRowsSha256": "2b0a37d5956d4313d569de844b658808c03a407a39366e9920a204e2b119a617",
+      "occurrenceIdSha256": "e6744e0fee806a2dd4a9367837fb2c4cf4831e20295a63fee2a6b7baaffed96f"
     },
     {
       "entityId": "hadrosauridae",
@@ -242,7 +258,7 @@
         "order": "id",
         "pageSize": 5000
       },
-      "retrievedAt": "2026-08-30T18:34:09.000Z",
+      "retrievedAt": "2026-08-30T22:27:52.000Z",
       "resolutionSnapshotOccurrenceCount": 1622,
       "upstreamReportedTotal": 1631,
       "rowsFetched": 1631,
@@ -252,9 +268,9 @@
       "queryEligible": true,
       "eligibilityBasis": "resolution-ledger-accepted-mapping",
       "rawPageSha256": [
-        "bb75bc18641d0f53554a7c9af9510dcda4f762388ee6a9cd9c19e29810887592"
+        "859847067c365a4aa59171e3904eed8fd09d19af851b1fe4f2d2e291a582f8e1"
       ],
-      "rawResponseSha256": "bb75bc18641d0f53554a7c9af9510dcda4f762388ee6a9cd9c19e29810887592",
+      "rawResponseSha256": "859847067c365a4aa59171e3904eed8fd09d19af851b1fe4f2d2e291a582f8e1",
       "normalizedRowsSha256": "3612fd5d582c7195f66005807b9bc96ebea13d8233d369fb2f0f6ff05843c575",
       "occurrenceIdSha256": "25fb8bf0046ac4908b9bc3683064157cb507d51b96703d7b35180aafcec0e8a9"
     },
@@ -270,7 +286,7 @@
         "order": "id",
         "pageSize": 5000
       },
-      "retrievedAt": "2026-08-30T18:34:10.000Z",
+      "retrievedAt": "2026-08-30T22:27:53.000Z",
       "resolutionSnapshotOccurrenceCount": 85,
       "upstreamReportedTotal": 85,
       "rowsFetched": 85,
@@ -280,71 +296,95 @@
       "queryEligible": true,
       "eligibilityBasis": "resolution-ledger-accepted-mapping",
       "rawPageSha256": [
-        "54b8dd800653637f2cc2e3627ebde08a1ef1f7b061caf2edc4b010ca7045b75d"
+        "78d2e98bbc7f7c633d0826a0c429e6a2bd6382b1487fb99bb40683e6c74e0931"
       ],
-      "rawResponseSha256": "54b8dd800653637f2cc2e3627ebde08a1ef1f7b061caf2edc4b010ca7045b75d",
+      "rawResponseSha256": "78d2e98bbc7f7c633d0826a0c429e6a2bd6382b1487fb99bb40683e6c74e0931",
       "normalizedRowsSha256": "4f537c856949b52387818512a40fcea12574afc18ab7fda58f38e90685b79473",
       "occurrenceIdSha256": "e1a4832258684b45f658c1848d859e0011af281391f62048d491908624f11f0c"
     },
     {
       "entityId": "eocursor",
       "taxonConcept": "Eocursor",
-      "acceptedBaseName": null,
-      "externalTaxonId": null,
-      "queryParameters": null,
-      "retrievedAt": null,
-      "resolutionSnapshotOccurrenceCount": null,
-      "upstreamReportedTotal": null,
-      "rowsFetched": null,
-      "pagesFetched": null,
-      "completeness": "withheld",
-      "conceptReviewStatus": "unresolved",
-      "queryEligible": false,
-      "eligibilityBasis": "not-reconciled-after-ontology-expansion",
-      "rawPageSha256": [],
-      "rawResponseSha256": null,
-      "normalizedRowsSha256": null,
-      "occurrenceIdSha256": null
+      "acceptedBaseName": "Eocursor",
+      "externalTaxonId": "txn:104623",
+      "queryParameters": {
+        "base_id": "104623",
+        "base_name": "Eocursor",
+        "show": "full,class",
+        "order": "id",
+        "pageSize": 5000
+      },
+      "retrievedAt": "2026-08-30T22:27:53.000Z",
+      "resolutionSnapshotOccurrenceCount": 1,
+      "upstreamReportedTotal": 1,
+      "rowsFetched": 1,
+      "pagesFetched": 1,
+      "completeness": "complete",
+      "conceptReviewStatus": "not-required-navigation-edge",
+      "queryEligible": true,
+      "eligibilityBasis": "resolution-ledger-accepted-mapping",
+      "rawPageSha256": [
+        "4016a517d96ef6c0df6f2acc540cfb2d49f09c6b9ba50b50a94feee483e826dd"
+      ],
+      "rawResponseSha256": "4016a517d96ef6c0df6f2acc540cfb2d49f09c6b9ba50b50a94feee483e826dd",
+      "normalizedRowsSha256": "13cf9355a56b088d8f128731ee0aa586e58eb937a4abba4c85eae1a0f45df808",
+      "occurrenceIdSha256": "378ea531668e08b81ca95c41b3ce47221d2bddfdf7d7294ef6a75aba78cae648"
     },
     {
       "entityId": "thyreophora",
       "taxonConcept": "Thyreophora",
-      "acceptedBaseName": null,
-      "externalTaxonId": null,
-      "queryParameters": null,
-      "retrievedAt": null,
-      "resolutionSnapshotOccurrenceCount": null,
-      "upstreamReportedTotal": null,
-      "rowsFetched": null,
-      "pagesFetched": null,
-      "completeness": "withheld",
-      "conceptReviewStatus": "unresolved",
-      "queryEligible": false,
-      "eligibilityBasis": "not-reconciled-after-ontology-expansion",
-      "rawPageSha256": [],
-      "rawResponseSha256": null,
-      "normalizedRowsSha256": null,
-      "occurrenceIdSha256": null
+      "acceptedBaseName": "Thyreophora",
+      "externalTaxonId": "txn:52777",
+      "queryParameters": {
+        "base_id": "52777",
+        "base_name": "Thyreophora",
+        "show": "full,class",
+        "order": "id",
+        "pageSize": 5000
+      },
+      "retrievedAt": "2026-08-30T22:27:53.000Z",
+      "resolutionSnapshotOccurrenceCount": 1239,
+      "upstreamReportedTotal": 1239,
+      "rowsFetched": 1239,
+      "pagesFetched": 1,
+      "completeness": "complete",
+      "conceptReviewStatus": "not-required-navigation-edge",
+      "queryEligible": true,
+      "eligibilityBasis": "resolution-ledger-accepted-mapping",
+      "rawPageSha256": [
+        "5d40df122c3741a5c0ace31d74b9217d08b821f4154ae2d202fb7ce59da4d39a"
+      ],
+      "rawResponseSha256": "5d40df122c3741a5c0ace31d74b9217d08b821f4154ae2d202fb7ce59da4d39a",
+      "normalizedRowsSha256": "83d202d34710f1c42e57b523a94d4d895e0233617bc2f660d074769eb67d2117",
+      "occurrenceIdSha256": "d97b3b245f47c91e1c85ef83b0ce29448990c8b908244cd11b49203b4eb1a1c9"
     },
     {
       "entityId": "scelidosaurus",
       "taxonConcept": "Scelidosaurus",
-      "acceptedBaseName": null,
-      "externalTaxonId": null,
-      "queryParameters": null,
-      "retrievedAt": null,
-      "resolutionSnapshotOccurrenceCount": null,
-      "upstreamReportedTotal": null,
-      "rowsFetched": null,
-      "pagesFetched": null,
-      "completeness": "withheld",
-      "conceptReviewStatus": "unresolved",
-      "queryEligible": false,
-      "eligibilityBasis": "not-reconciled-after-ontology-expansion",
-      "rawPageSha256": [],
-      "rawResponseSha256": null,
-      "normalizedRowsSha256": null,
-      "occurrenceIdSha256": null
+      "acceptedBaseName": "Scelidosaurus",
+      "externalTaxonId": "txn:38801",
+      "queryParameters": {
+        "base_id": "38801",
+        "base_name": "Scelidosaurus",
+        "show": "full,class",
+        "order": "id",
+        "pageSize": 5000
+      },
+      "retrievedAt": "2026-08-30T22:27:54.000Z",
+      "resolutionSnapshotOccurrenceCount": 13,
+      "upstreamReportedTotal": 13,
+      "rowsFetched": 13,
+      "pagesFetched": 1,
+      "completeness": "complete",
+      "conceptReviewStatus": "not-required-navigation-edge",
+      "queryEligible": true,
+      "eligibilityBasis": "resolution-ledger-accepted-mapping",
+      "rawPageSha256": [
+        "d895ee8ec5bced6fdb77ae51c4dcf024a91cd370bf6857c6f35289538d40cffa"
+      ],
+      "rawResponseSha256": "d895ee8ec5bced6fdb77ae51c4dcf024a91cd370bf6857c6f35289538d40cffa",
+      "normalizedRowsSha256": "e5de7cf47248b932fcfc197e1ab414fa318be6521cd980c317292950fb1a67e0",
+      "occurrenceIdSha256": "9f916baa49ede72106f4069f0b9c067620196b6971af484d768058f241fd41ae"
     },
     {
       "entityId": "saurischia",
@@ -398,7 +438,7 @@
         "order": "id",
         "pageSize": 5000
       },
-      "retrievedAt": "2026-08-30T18:34:10.000Z",
+      "retrievedAt": "2026-08-30T22:27:54.000Z",
       "resolutionSnapshotOccurrenceCount": 93,
       "upstreamReportedTotal": 93,
       "rowsFetched": 93,
@@ -408,9 +448,9 @@
       "queryEligible": true,
       "eligibilityBasis": "resolution-ledger-accepted-mapping",
       "rawPageSha256": [
-        "197877f9954f19e3128dd6aad01209395945b61f4b718eca68c2787058f4f72e"
+        "ae7649b793445750264f50be41ea631c087daaf4e0858db268c1f6c176bee263"
       ],
-      "rawResponseSha256": "197877f9954f19e3128dd6aad01209395945b61f4b718eca68c2787058f4f72e",
+      "rawResponseSha256": "ae7649b793445750264f50be41ea631c087daaf4e0858db268c1f6c176bee263",
       "normalizedRowsSha256": "a7d463c8130963a509f40e5586eed9696ac0a87ab9a4e7df383742e2bd724955",
       "occurrenceIdSha256": "79c432777a26a709cf738c22f0c2ea8a228be0f57706fa849827fa877ef4db22"
     },
@@ -446,7 +486,7 @@
         "order": "id",
         "pageSize": 5000
       },
-      "retrievedAt": "2026-08-30T18:34:10.000Z",
+      "retrievedAt": "2026-08-30T22:27:55.000Z",
       "resolutionSnapshotOccurrenceCount": 798,
       "upstreamReportedTotal": 799,
       "rowsFetched": 799,
@@ -456,71 +496,95 @@
       "queryEligible": true,
       "eligibilityBasis": "resolution-ledger-accepted-mapping",
       "rawPageSha256": [
-        "de2e5e30d9d242021b7c267a6fdbd4863bedb7d36bb82baaaf42435be9a053b5"
+        "c9f56613567db43bd2e6fbdb03fdbab03aa00b4f41ab7b4a354960b309e1dd0b"
       ],
-      "rawResponseSha256": "de2e5e30d9d242021b7c267a6fdbd4863bedb7d36bb82baaaf42435be9a053b5",
+      "rawResponseSha256": "c9f56613567db43bd2e6fbdb03fdbab03aa00b4f41ab7b4a354960b309e1dd0b",
       "normalizedRowsSha256": "d418f2edf26014619b374b90a1c04486537328c36e2f930709fde000b10be173",
       "occurrenceIdSha256": "194497ac5d5b6fbf22975cdeaaf6e5a96676d7123bcd95d76199f459797d2887"
     },
     {
       "entityId": "buriolestes",
       "taxonConcept": "Buriolestes",
-      "acceptedBaseName": null,
-      "externalTaxonId": null,
-      "queryParameters": null,
-      "retrievedAt": null,
-      "resolutionSnapshotOccurrenceCount": null,
-      "upstreamReportedTotal": null,
-      "rowsFetched": null,
-      "pagesFetched": null,
-      "completeness": "withheld",
-      "conceptReviewStatus": "unresolved",
-      "queryEligible": false,
-      "eligibilityBasis": "not-reconciled-after-ontology-expansion",
-      "rawPageSha256": [],
-      "rawResponseSha256": null,
-      "normalizedRowsSha256": null,
-      "occurrenceIdSha256": null
+      "acceptedBaseName": "Buriolestes",
+      "externalTaxonId": "txn:347521",
+      "queryParameters": {
+        "base_id": "347521",
+        "base_name": "Buriolestes",
+        "show": "full,class",
+        "order": "id",
+        "pageSize": 5000
+      },
+      "retrievedAt": "2026-08-30T22:27:55.000Z",
+      "resolutionSnapshotOccurrenceCount": 1,
+      "upstreamReportedTotal": 1,
+      "rowsFetched": 1,
+      "pagesFetched": 1,
+      "completeness": "complete",
+      "conceptReviewStatus": "not-required-navigation-edge",
+      "queryEligible": true,
+      "eligibilityBasis": "resolution-ledger-accepted-mapping",
+      "rawPageSha256": [
+        "9be2d816787b263fd2fe807ad36ce3e1ce962f6387c4ed8bf65922222a8345f9"
+      ],
+      "rawResponseSha256": "9be2d816787b263fd2fe807ad36ce3e1ce962f6387c4ed8bf65922222a8345f9",
+      "normalizedRowsSha256": "cd9165ad7894202c50fb162dc092facb17b7f3e494d5df9a956556ca7b4a6e19",
+      "occurrenceIdSha256": "0284162bc6fbc34ce515490158e076bbb1c80e657e68945f2aa34b3410633a7c"
     },
     {
       "entityId": "mussaurus",
       "taxonConcept": "Mussaurus",
-      "acceptedBaseName": null,
-      "externalTaxonId": null,
-      "queryParameters": null,
-      "retrievedAt": null,
-      "resolutionSnapshotOccurrenceCount": null,
-      "upstreamReportedTotal": null,
-      "rowsFetched": null,
-      "pagesFetched": null,
-      "completeness": "withheld",
-      "conceptReviewStatus": "unresolved",
-      "queryEligible": false,
-      "eligibilityBasis": "not-reconciled-after-ontology-expansion",
-      "rawPageSha256": [],
-      "rawResponseSha256": null,
-      "normalizedRowsSha256": null,
-      "occurrenceIdSha256": null
+      "acceptedBaseName": "Mussaurus",
+      "externalTaxonId": "txn:38643",
+      "queryParameters": {
+        "base_id": "38643",
+        "base_name": "Mussaurus",
+        "show": "full,class",
+        "order": "id",
+        "pageSize": 5000
+      },
+      "retrievedAt": "2026-08-30T22:27:55.000Z",
+      "resolutionSnapshotOccurrenceCount": 2,
+      "upstreamReportedTotal": 2,
+      "rowsFetched": 2,
+      "pagesFetched": 1,
+      "completeness": "complete",
+      "conceptReviewStatus": "not-required-navigation-edge",
+      "queryEligible": true,
+      "eligibilityBasis": "resolution-ledger-accepted-mapping",
+      "rawPageSha256": [
+        "5703b103d26cd95c68ece76ad80cf6854bf436bf33345ecfcd4ab3c895478236"
+      ],
+      "rawResponseSha256": "5703b103d26cd95c68ece76ad80cf6854bf436bf33345ecfcd4ab3c895478236",
+      "normalizedRowsSha256": "a64a69dd8195e15dc9bfa2ad553d6a3075f5142b4d3e74a3d6107a93963f8b6c",
+      "occurrenceIdSha256": "add0de8e2fa44808e53bf4d53be8ab519ceb931a8a0e7a3304c62065f0792ffe"
     },
     {
       "entityId": "ledumahadi",
       "taxonConcept": "Ledumahadi",
-      "acceptedBaseName": null,
-      "externalTaxonId": null,
-      "queryParameters": null,
-      "retrievedAt": null,
-      "resolutionSnapshotOccurrenceCount": null,
-      "upstreamReportedTotal": null,
-      "rowsFetched": null,
-      "pagesFetched": null,
-      "completeness": "withheld",
-      "conceptReviewStatus": "unresolved",
-      "queryEligible": false,
-      "eligibilityBasis": "not-reconciled-after-ontology-expansion",
-      "rawPageSha256": [],
-      "rawResponseSha256": null,
-      "normalizedRowsSha256": null,
-      "occurrenceIdSha256": null
+      "acceptedBaseName": "Ledumahadi",
+      "externalTaxonId": "txn:377354",
+      "queryParameters": {
+        "base_id": "377354",
+        "base_name": "Ledumahadi",
+        "show": "full,class",
+        "order": "id",
+        "pageSize": 5000
+      },
+      "retrievedAt": "2026-08-30T22:27:56.000Z",
+      "resolutionSnapshotOccurrenceCount": 1,
+      "upstreamReportedTotal": 1,
+      "rowsFetched": 1,
+      "pagesFetched": 1,
+      "completeness": "complete",
+      "conceptReviewStatus": "not-required-navigation-edge",
+      "queryEligible": true,
+      "eligibilityBasis": "resolution-ledger-accepted-mapping",
+      "rawPageSha256": [
+        "dd4a376b881d851dd97eeea50241754b98c8c0dbad24a66ab26fd0de2e29593c"
+      ],
+      "rawResponseSha256": "dd4a376b881d851dd97eeea50241754b98c8c0dbad24a66ab26fd0de2e29593c",
+      "normalizedRowsSha256": "d8fb27b10a432f60082168bd5f2a37f4046d314115dfe99bab7cdf6d03e1a9f5",
+      "occurrenceIdSha256": "c0a590f5421665d9756a17a806929f6a5d6909ddc798913d6f465c8840daab84"
     },
     {
       "entityId": "theropoda",
@@ -554,7 +618,7 @@
         "order": "id",
         "pageSize": 5000
       },
-      "retrievedAt": "2026-08-30T18:34:11.000Z",
+      "retrievedAt": "2026-08-30T22:27:56.000Z",
       "resolutionSnapshotOccurrenceCount": 514,
       "upstreamReportedTotal": 515,
       "rowsFetched": 515,
@@ -564,9 +628,9 @@
       "queryEligible": true,
       "eligibilityBasis": "resolution-ledger-accepted-mapping",
       "rawPageSha256": [
-        "e3dba9a32e25bd8ebe78453751f086162f98621d8af939400af44c1543c36dae"
+        "3dee805b4d6dafb18f3c1d7ae982ad53c657fe3d79864da544ac12c313d3459a"
       ],
-      "rawResponseSha256": "e3dba9a32e25bd8ebe78453751f086162f98621d8af939400af44c1543c36dae",
+      "rawResponseSha256": "3dee805b4d6dafb18f3c1d7ae982ad53c657fe3d79864da544ac12c313d3459a",
       "normalizedRowsSha256": "e7cc02d88d8487bd0ad5cd47317a272a5a9a4671c928c668686e244e455f71c0",
       "occurrenceIdSha256": "9619b7f5ecdd535ebc116c8a16fa71f9b455f37d97140e1489bb209a2fce5ee6"
     },
@@ -582,7 +646,7 @@
         "order": "id",
         "pageSize": 5000
       },
-      "retrievedAt": "2026-08-30T18:34:11.000Z",
+      "retrievedAt": "2026-08-30T22:27:56.000Z",
       "resolutionSnapshotOccurrenceCount": 69,
       "upstreamReportedTotal": 70,
       "rowsFetched": 70,
@@ -592,9 +656,9 @@
       "queryEligible": true,
       "eligibilityBasis": "resolution-ledger-accepted-mapping",
       "rawPageSha256": [
-        "94761179f93f48653f2bf4effc4002dee86c6e0e0967872e85f97e34ad0e5ea1"
+        "d7b4b2696551678d1d803f3b5aa9b8d6e0564839541bc891f47dd40163c5397f"
       ],
-      "rawResponseSha256": "94761179f93f48653f2bf4effc4002dee86c6e0e0967872e85f97e34ad0e5ea1",
+      "rawResponseSha256": "d7b4b2696551678d1d803f3b5aa9b8d6e0564839541bc891f47dd40163c5397f",
       "normalizedRowsSha256": "8e253227fbce9077b1c4f239165f766a2e7e70d7c762ccda11d2c5f4b3f90615",
       "occurrenceIdSha256": "75e40050180a46f4ab4d753bd9e6f68155efeb99819269639128fc93c3818d1a"
     },
@@ -610,7 +674,7 @@
         "order": "id",
         "pageSize": 5000
       },
-      "retrievedAt": "2026-08-30T18:34:12.000Z",
+      "retrievedAt": "2026-08-30T22:27:57.000Z",
       "resolutionSnapshotOccurrenceCount": 172,
       "upstreamReportedTotal": 172,
       "rowsFetched": 172,
@@ -620,9 +684,9 @@
       "queryEligible": true,
       "eligibilityBasis": "resolution-ledger-accepted-mapping",
       "rawPageSha256": [
-        "a86cd87a7119ab100db6560842c8baf2aa665c2908bf074dbbeafdb01710de82"
+        "2ca55864129ad217932869647c4c1076a755ac5c6005a9deed7b56e7587e1fc5"
       ],
-      "rawResponseSha256": "a86cd87a7119ab100db6560842c8baf2aa665c2908bf074dbbeafdb01710de82",
+      "rawResponseSha256": "2ca55864129ad217932869647c4c1076a755ac5c6005a9deed7b56e7587e1fc5",
       "normalizedRowsSha256": "218e082c66ebeb79d95ce10fc7340d4de3c2dd40b246903d4206920192895bbf",
       "occurrenceIdSha256": "c8ee3b151570ed6ec3c5635bbc7f143da97ccac6217c1370ddb48f176a93eb2c"
     },
@@ -638,7 +702,7 @@
         "order": "id",
         "pageSize": 5000
       },
-      "retrievedAt": "2026-08-30T18:34:12.000Z",
+      "retrievedAt": "2026-08-30T22:27:57.000Z",
       "resolutionSnapshotOccurrenceCount": 44,
       "upstreamReportedTotal": 44,
       "rowsFetched": 44,
@@ -648,9 +712,9 @@
       "queryEligible": true,
       "eligibilityBasis": "resolution-ledger-accepted-mapping",
       "rawPageSha256": [
-        "aa973a9b4c362132d2bfcb6cea4f199ac6bdc32a97870ad3d7e59b6e12bca8e8"
+        "efbe9bec275736b2d534ed1dded90cb67e06c8f2c08c15e7773eafec31624b8c"
       ],
-      "rawResponseSha256": "aa973a9b4c362132d2bfcb6cea4f199ac6bdc32a97870ad3d7e59b6e12bca8e8",
+      "rawResponseSha256": "efbe9bec275736b2d534ed1dded90cb67e06c8f2c08c15e7773eafec31624b8c",
       "normalizedRowsSha256": "5079fba757a1b810343aa8b3d08eec9b28624e9e06f453fb5c364ef0244963f3",
       "occurrenceIdSha256": "26059769181903ca5a1bd067dfa0b5b8bba51f701df2f7a9e134e19f29f145b9"
     },
@@ -666,7 +730,7 @@
         "order": "id",
         "pageSize": 5000
       },
-      "retrievedAt": "2026-08-30T18:34:13.000Z",
+      "retrievedAt": "2026-08-30T22:27:58.000Z",
       "resolutionSnapshotOccurrenceCount": 1015,
       "upstreamReportedTotal": 1017,
       "rowsFetched": 1017,
@@ -676,9 +740,9 @@
       "queryEligible": true,
       "eligibilityBasis": "resolution-ledger-accepted-mapping",
       "rawPageSha256": [
-        "208b9f2654253d61c829a8ad226c34d289da662a171a4e06ff45f22a56e528eb"
+        "c3e84faa2d20a3df5a234b5aa3419606d4d0c191c151844102821d7f6bab83e8"
       ],
-      "rawResponseSha256": "208b9f2654253d61c829a8ad226c34d289da662a171a4e06ff45f22a56e528eb",
+      "rawResponseSha256": "c3e84faa2d20a3df5a234b5aa3419606d4d0c191c151844102821d7f6bab83e8",
       "normalizedRowsSha256": "503e6ccefcf134d0a92ae4adf512f5771705c394353865c8ead0e0d4bfb20044",
       "occurrenceIdSha256": "a89ae2c13b8fc0eb6740744afaa0449957b4f89e82c203978b0c67d35023e095"
     },
@@ -694,7 +758,7 @@
         "order": "id",
         "pageSize": 5000
       },
-      "retrievedAt": "2026-08-30T18:34:13.000Z",
+      "retrievedAt": "2026-08-30T22:27:58.000Z",
       "resolutionSnapshotOccurrenceCount": 20,
       "upstreamReportedTotal": 20,
       "rowsFetched": 20,
@@ -704,47 +768,55 @@
       "queryEligible": true,
       "eligibilityBasis": "resolution-ledger-accepted-mapping",
       "rawPageSha256": [
-        "2e7ccd8b2ddc136b2173886df5e08b1fbfa4dc44e903421a86841f113e19eec5"
+        "da854f332244bf8646211f09a3290fe1e24420d9cec9ed70e21283b851e4f151"
       ],
-      "rawResponseSha256": "2e7ccd8b2ddc136b2173886df5e08b1fbfa4dc44e903421a86841f113e19eec5",
+      "rawResponseSha256": "da854f332244bf8646211f09a3290fe1e24420d9cec9ed70e21283b851e4f151",
       "normalizedRowsSha256": "c1ec73bbc64f37efa7f5b74760399ebf9f74a67f4a56d552e1f36e4d06c3c48a",
       "occurrenceIdSha256": "0a9b8a2e6f93a52f121b0c72e6ef293ac177f077593c26602c252143c2621e32"
     },
     {
       "entityId": "yutyrannus",
       "taxonConcept": "Yutyrannus",
-      "acceptedBaseName": null,
-      "externalTaxonId": null,
-      "queryParameters": null,
-      "retrievedAt": null,
-      "resolutionSnapshotOccurrenceCount": null,
-      "upstreamReportedTotal": null,
-      "rowsFetched": null,
-      "pagesFetched": null,
-      "completeness": "withheld",
-      "conceptReviewStatus": "unresolved",
-      "queryEligible": false,
-      "eligibilityBasis": "not-reconciled-after-ontology-expansion",
-      "rawPageSha256": [],
-      "rawResponseSha256": null,
-      "normalizedRowsSha256": null,
-      "occurrenceIdSha256": null
+      "acceptedBaseName": "Yutyrannus",
+      "externalTaxonId": "txn:230946",
+      "queryParameters": {
+        "base_id": "230946",
+        "base_name": "Yutyrannus",
+        "show": "full,class",
+        "order": "id",
+        "pageSize": 5000
+      },
+      "retrievedAt": "2026-08-30T22:27:58.000Z",
+      "resolutionSnapshotOccurrenceCount": 1,
+      "upstreamReportedTotal": 1,
+      "rowsFetched": 1,
+      "pagesFetched": 1,
+      "completeness": "complete",
+      "conceptReviewStatus": "not-required-navigation-edge",
+      "queryEligible": true,
+      "eligibilityBasis": "resolution-ledger-accepted-mapping",
+      "rawPageSha256": [
+        "eadd378447991846e4b66e67db4c7337dfbf5c06854aac1bf6a1279a52903dbe"
+      ],
+      "rawResponseSha256": "eadd378447991846e4b66e67db4c7337dfbf5c06854aac1bf6a1279a52903dbe",
+      "normalizedRowsSha256": "9307b428c771826ebc0df3cf1291ec63418318395622964220940c41606e1373",
+      "occurrenceIdSha256": "361e216332e0fc17c6b3115cc3a7d0df691ac27a81c019d6e3167eec1012f02b"
     },
     {
       "entityId": "oviraptorosauria",
       "taxonConcept": "Oviraptorosauria",
-      "acceptedBaseName": null,
+      "acceptedBaseName": "Oviraptorosauria",
       "externalTaxonId": null,
       "queryParameters": null,
       "retrievedAt": null,
-      "resolutionSnapshotOccurrenceCount": null,
+      "resolutionSnapshotOccurrenceCount": 193,
       "upstreamReportedTotal": null,
       "rowsFetched": null,
       "pagesFetched": null,
       "completeness": "withheld",
       "conceptReviewStatus": "unresolved",
       "queryEligible": false,
-      "eligibilityBasis": "not-reconciled-after-ontology-expansion",
+      "eligibilityBasis": "accepted-rank-mismatch",
       "rawPageSha256": [],
       "rawResponseSha256": null,
       "normalizedRowsSha256": null,
