@@ -1,5 +1,5 @@
 export const PACKAGE_SCHEMA_VERSION = 5
-export const DATASET_PACKAGE_VERSION = '2026.08-static-v5-rc20'
+export const DATASET_PACKAGE_VERSION = '2026.08-static-v5-rc21'
 export const DATASET_RELEASE_DATE = '2026-08-30'
 
 export const packageDefinitions = [
@@ -238,7 +238,12 @@ export const packageDefinitions = [
     title: 'Marine Reptiles and Pterosaurs',
     titleZh: '海生爬行动物与翼龙',
     rootEntityIds: ['ichthyosauria', 'plesiosauria', 'pterosauria'],
+    conceptScope: {
+      en: 'Nine primary-evidence dossiers keep three independent reptile radiations separate: named ichthyosaur and plesiosaur specimens, pterosaur eggs and soft tissues, and explicitly bounded hydrodynamic or biomechanical models. Navigation adds seven named fossil taxa without asserting direct ancestry, global first appearances or a complete phylogeny. COL26.8 contributes no strictly accepted species below these fossil-root routes, so nomenclatural browse coverage is zero while the specimen dossiers are structured; legacy display ranges remain unreviewed and are not claim-linked fossil first appearances.',
+      zh: '九个一手证据档案将三次彼此独立的爬行动物辐射分开呈现：具名鱼龙与蛇颈龙标本、翼龙卵与软组织，以及边界明确的水动力或生物力学模型。导航新增七个具名化石类群，但不主张直系祖先、全球首现或完整系统树。COL26.8 在这些化石根路由下没有严格接受种，因此命名浏览覆盖为零，而标本档案已达到结构化；旧版显示延限仍未复核，也不是有主张关联的化石首现。',
+    },
     wave: 'B',
+    scientificMaturity: 'structured',
   },
   {
     id: 'crocodylomorphs-birds',

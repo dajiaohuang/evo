@@ -178,5 +178,201 @@
     ],
     "reviewStatus": "not-reviewed",
     "evidenceLevel": "legacy-display"
+  },
+  {
+    "id": "range:cartorhynchus:nanlinghu-holotype",
+    "entityId": "cartorhynchus",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Cartorhynchus lenticarpus holotype occurrence",
+    "geographicScope": "Upper Nanlinghu Formation, Chaohu, Anhui, China",
+    "olderMa": 248,
+    "youngerMa": 248,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "The paper reports an approximate age near 248 Ma; this is not a specimen-level radiometric date."
+    },
+    "evidenceBasis": "Named holotype AGM I-1 and its Lower Triassic stratigraphic placement in the primary description.",
+    "evidenceLevel": "literature-synthesized",
+    "confidence": "medium",
+    "claimIds": [
+      "claim:event:cartorhynchus-holotype-body-plan"
+    ],
+    "referenceLocators": [
+      {
+        "referenceId": "motani-2015-cartorhynchus",
+        "locator": "pp. 485–488; Figure 1; Methods"
+      }
+    ],
+    "reviewStatus": "automated-audit-passed"
+  },
+  {
+    "id": "range:chaohusaurus:majiashan-maternal-specimen",
+    "entityId": "chaohusaurus",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Chaohusaurus maternal specimen AGM I-1 occurrence",
+    "geographicScope": "Majiashan Quarry, Chaohu, Anhui, China",
+    "olderMa": 248,
+    "youngerMa": 248,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "The approximately 248 Ma value summarizes an early-middle Spathian biostratigraphic assignment, not direct dating of AGM I-1."
+    },
+    "evidenceBasis": "AGM I-1 comes from the Procolumbites Zone documented in the specimen and locality sections of the primary paper.",
+    "evidenceLevel": "literature-synthesized",
+    "confidence": "medium",
+    "claimIds": [
+      "claim:event:chaohusaurus-maternal-specimen"
+    ],
+    "referenceLocators": [
+      {
+        "referenceId": "motani-2014-chaohusaurus-viviparity",
+        "locator": "Figure 1; Geological setting; Results"
+      }
+    ],
+    "reviewStatus": "automated-audit-passed"
+  },
+  {
+    "id": "range:stenopterygius:mh-432-posidonia-shale",
+    "entityId": "stenopterygius",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Stenopterygius specimen MH 432 occurrence",
+    "geographicScope": "Toarcian Posidonia Shale, Holzmaden, Germany",
+    "olderMa": 182.7,
+    "youngerMa": 174.1,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "The display uses a stage-scale Toarcian envelope broader than the specimen's local stratigraphic information."
+    },
+    "evidenceBasis": "Named specimen MH 432 is explicitly tied to the Posidonia Shale and Holzmaden in the primary study.",
+    "evidenceLevel": "literature-synthesized",
+    "confidence": "medium",
+    "claimIds": [
+      "claim:event:stenopterygius-soft-tissues"
+    ],
+    "referenceLocators": [
+      {
+        "referenceId": "lindgren-2018-stenopterygius-soft-tissues",
+        "locator": "pp. 359–365; Figure 1; Methods"
+      }
+    ],
+    "reviewStatus": "automated-audit-passed"
+  },
+  {
+    "id": "range:rhaeticosaurus:bonenburg-holotype",
+    "entityId": "rhaeticosaurus",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Rhaeticosaurus mertensi holotype occurrence",
+    "geographicScope": "Exter Formation, Bonenburg, Germany",
+    "olderMa": 205.7,
+    "youngerMa": 201.4,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "The current Rhaetian stage envelope is broader than the bed-level occurrence and is not a direct date on the holotype."
+    },
+    "evidenceBasis": "Holotype LWL-MFN P 64047 is documented from a specific Exter Formation bed in the locality and stratigraphy section.",
+    "evidenceLevel": "literature-synthesized",
+    "confidence": "medium",
+    "claimIds": [
+      "claim:event:rhaeticosaurus-holotype-histology"
+    ],
+    "referenceLocators": [
+      {
+        "referenceId": "wintrich-2017-rhaeticosaurus",
+        "locator": "Figure 1; Geological setting; Supplementary Figure S1"
+      }
+    ],
+    "reviewStatus": "automated-audit-passed"
+  },
+  {
+    "id": "range:polycotylus:lacm-129639",
+    "entityId": "polycotylus",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Polycotylus latipinnus adult and fetus LACM 129639 occurrence",
+    "geographicScope": "Pierre Shale, Kansas, United States",
+    "olderMa": 83.6,
+    "youngerMa": 72.1,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "The Campanian navigation envelope is broader than the paper's approximate 78 Ma age for the specimen."
+    },
+    "evidenceBasis": "The primary description records LACM 129639 from the Late Cretaceous Pierre Shale and gives an approximate age near 78 Ma.",
+    "evidenceLevel": "literature-synthesized",
+    "confidence": "medium",
+    "claimIds": [
+      "claim:event:polycotylus-gravid-specimen"
+    ],
+    "referenceLocators": [
+      {
+        "referenceId": "okeefe-2011-polycotylus-viviparity",
+        "locator": "pp. 870–873; Figure 1; Supporting Online Material"
+      }
+    ],
+    "reviewStatus": "automated-audit-passed"
+  },
+  {
+    "id": "range:tupandactylus:mct-r-1884-crato",
+    "entityId": "tupandactylus",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Tupandactylus cf. imperator specimen MCT.R.1884 occurrence",
+    "geographicScope": "Crato Formation, Araripe Basin, Brazil",
+    "olderMa": 115,
+    "youngerMa": 110,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "The numerical envelope is a broad Lower Cretaceous navigation translation and not direct dating of MCT.R.1884."
+    },
+    "evidenceBasis": "MCT.R.1884 is explicitly attributed to the Crato Formation in the specimen description and supplementary provenance.",
+    "evidenceLevel": "literature-synthesized",
+    "confidence": "medium",
+    "claimIds": [
+      "claim:event:tupandactylus-feather-melanosomes"
+    ],
+    "referenceLocators": [
+      {
+        "referenceId": "cincotta-2022-tupandactylus-feathers",
+        "locator": "pp. 684–688; Figure 1; Methods"
+      }
+    ],
+    "reviewStatus": "automated-audit-passed"
+  },
+  {
+    "id": "range:hamipterus:shengjinkou-egg-site",
+    "entityId": "hamipterus",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Hamipterus tianshanensis egg and embryo site occurrence",
+    "geographicScope": "Shengjinkou Formation, Turpan-Hami Basin, Xinjiang, China",
+    "olderMa": 115,
+    "youngerMa": 110,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "The display interval is a broad Lower Cretaceous formation-level envelope and not a direct date on individual eggs."
+    },
+    "evidenceBasis": "Eggs and embryos are recorded across at least four stratigraphic levels at the documented Hamipterus locality.",
+    "evidenceLevel": "literature-synthesized",
+    "confidence": "medium",
+    "claimIds": [
+      "claim:event:hamipterus-egg-assemblage"
+    ],
+    "referenceLocators": [
+      {
+        "referenceId": "wang-2017-hamipterus-eggs",
+        "locator": "pp. 1197–1201; Figures 1–2; Supplementary geological context"
+      }
+    ],
+    "reviewStatus": "automated-audit-passed"
   }
 ]
