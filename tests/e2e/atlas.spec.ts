@@ -195,6 +195,17 @@ test('cetartiodactyl story separates specimens, interpretations, molecular model
   await expect(page.locator('.story-step')).toHaveCount(8)
 })
 
+test('crocodylomorph and bird story separates specimens, functions, topologies and clocks', async ({ page }) => {
+  await page.addInitScript(() => window.localStorage.setItem('evo-atlas-language', 'en'))
+  await page.goto('./#/stories?id=crocodylomorph-bird-evidence-boundaries')
+  await expect(page.getByRole('heading', { name: 'Two archosaur branches, eleven evidence dossiers' })).toBeVisible()
+  await expect(page.getByRole('heading', { name: 'A suchian can resemble a theropod' })).toBeVisible()
+  await expect(page.getByRole('heading', { name: 'A wind tunnel tests feasibility' })).toBeVisible()
+  await expect(page.getByRole('heading', { name: 'A calibrated time tree is a model' })).toBeVisible()
+  await expect(page.getByText('COL26.8 routes 11,071 accepted living species into this package. That is a nomenclatural coverage boundary, not fossil completeness, direct ancestry or agreement on a single crown-bird date.', { exact: true })).toBeVisible()
+  await expect(page.locator('.story-step')).toHaveCount(11)
+})
+
 test('skip and catalog section controls do not corrupt the hash route', async ({ page }) => {
   await page.goto('./#/taxa?id=perissodactyla')
   const originalHash = await page.evaluate(() => window.location.hash)
@@ -213,7 +224,7 @@ test('Explorer restores state and removes the unsupported global model parameter
   await expect(page.getByRole('button', { name: 'points' })).toHaveClass(/is-active/)
   await expect(page.getByRole('button', { name: 'modern' })).toHaveClass(/is-active/)
   await expect(page.getByText('Shared time window 20–5 Ma')).toBeVisible()
-  await expect.poll(() => page.url()).toContain('dataset=2026.08-static-v5-rc23')
+  await expect.poll(() => page.url()).toContain('dataset=2026.08-static-v5-rc24')
   for (const fragment of ['older=20', 'younger=5', 'lat=10.000', 'lng=20.000', 'zoom=3.00', 'treeMode=fossil-range']) {
     expect(page.url()).toContain(fragment)
   }
@@ -226,7 +237,7 @@ test('Explorer requires confirmation before replacing a mismatched dataset versi
   await expect(page.getByRole('alertdialog')).toContainText('2025.01-old')
   expect(page.url()).toContain('dataset=2025.01-old')
   await page.getByRole('button', { name: 'Use current dataset' }).click()
-  await expect.poll(() => page.url()).toContain('dataset=2026.08-static-v5-rc23')
+  await expect.poll(() => page.url()).toContain('dataset=2026.08-static-v5-rc24')
 })
 
 test('a service-worker upgrade removes dataset A caches and dataset B remains coherent', async ({ page }) => {
@@ -261,7 +272,7 @@ test('a service-worker upgrade removes dataset A caches and dataset B remains co
     const versions = await Promise.all(manifestFiles.map((file) => fetch(`/evo/data/${file.url}`).then((response) => response.json()).then((manifest) => manifest.version as string)))
     return { datasetVersion: current.datasetVersion, releaseBase: current.releaseBase, urls: manifestFiles.map((file) => file.url), versions, retained: history.releases.map((entry) => entry.datasetVersion) }
   })
-  expect(releaseState.releaseBase).toBe('releases/2026.08-static-v5-rc23/')
+  expect(releaseState.releaseBase).toBe('releases/2026.08-static-v5-rc24/')
   expect(releaseState.urls.every((url) => url.startsWith(releaseState.releaseBase))).toBe(true)
   expect(releaseState.versions.every((version) => version === releaseState.datasetVersion)).toBe(true)
   expect(releaseState.retained[0]).toBe(releaseState.datasetVersion)

@@ -1,5 +1,11 @@
 # Dataset changelog
 
+## 2026.08-static-v5-rc24 — 2026-08-30
+
+- Rebuilt `crocodylomorphs-birds` as a structured primary-evidence package with eleven bilingual dossiers spanning pseudosuchian and crocodylomorph specimens, crown-crocodilian topology, paravian fossils and feathers, a bounded wind-tunnel experiment, a latest-Cretaceous crown-bird test, and genome or fossil-calibrated crown-bird models.
+- Added five evidence-led navigation nodes while keeping Effigia, Anchiornis and Microraptor out of false ancestry edges; distinguished COL26.8 living-name coverage from fossil, functional and phylogenetic dossier completeness.
+
+
 ## 2026.08-static-v5-rc23 — 2026-08-30
 
 - Replaced the turtles-lepidosaurs scaffold with eight primary-evidence dossiers spanning stepwise turtle-shell assembly, a crown-turtle calibration, stem-lepidosaur anatomy, stem-squamate CT datasets and the contested placement of Cryptovaranoides.

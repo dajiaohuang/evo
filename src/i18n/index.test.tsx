@@ -36,6 +36,11 @@ function MarineTranslationProbe() {
   return <span>{t('A short-snouted ichthyosauromorph holotype')}</span>
 }
 
+function CrocBirdTranslationProbe() {
+  const { t } = useI18n()
+  return <span>{t('A calibrated time tree is a model')}</span>
+}
+
 interface CommonNameNode {
   commonName: string
   children: CommonNameNode[]
@@ -66,6 +71,12 @@ describe('site language state', () => {
     window.localStorage.setItem('evo-atlas-language', 'zh')
     render(<I18nProvider><MarineTranslationProbe /></I18nProvider>)
     expect(await screen.findByText('一件短吻鱼龙形类正模')).toBeInTheDocument()
+  })
+
+  it('loads crocodylomorph and bird narrative translations only when Chinese is active', async () => {
+    window.localStorage.setItem('evo-atlas-language', 'zh')
+    render(<I18nProvider><CrocBirdTranslationProbe /></I18nProvider>)
+    expect(await screen.findByText('校准时间树是一种模型')).toBeInTheDocument()
   })
 })
 

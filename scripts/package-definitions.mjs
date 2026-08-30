@@ -1,5 +1,5 @@
 export const PACKAGE_SCHEMA_VERSION = 5
-export const DATASET_PACKAGE_VERSION = '2026.08-static-v5-rc23'
+export const DATASET_PACKAGE_VERSION = '2026.08-static-v5-rc24'
 export const DATASET_RELEASE_DATE = '2026-08-30'
 
 export const packageDefinitions = [
@@ -275,7 +275,12 @@ export const packageDefinitions = [
     title: 'Crocodylomorphs and Birds',
     titleZh: '鳄形类与鸟类',
     rootEntityIds: ['crocodylomorpha', 'aves'],
+    conceptScope: {
+      en: 'Eleven primary-evidence dossiers compare crocodile-line and bird-line archosaurs without merging their histories: named pseudosuchian, crocodylomorph and paravian specimens; bounded feather and aerodynamic evidence; and explicit crown-crocodilian or crown-bird topology and clock models. Five navigation nodes support dossier discovery without asserting direct ancestry or global first appearances. COL26.8 routes 11,071 strictly accepted living species names into the package; that is nomenclatural browse coverage rather than 11,071 reviewed fossil, anatomical or phylogenetic dossiers.',
+      zh: '十一个一手证据档案比较鳄类支系与鸟类支系主龙而不混并其历史：具名伪鳄类、鳄形类与近鸟类标本，边界明确的羽毛和气动证据，以及冠群鳄或冠群鸟的拓扑与时钟模型。五个导航节点服务于档案发现，但不主张直系祖先或全球首现。COL26.8 将 11,071 个严格接受的现生种名路由到本包；这是命名浏览覆盖，并非 11,071 份已审查化石、解剖或系统发育档案。',
+    },
     wave: 'B',
+    scientificMaturity: 'structured',
   },
   {
     id: 'dinosauria',
