@@ -1,6 +1,35 @@
 export const PACKAGE_SCHEMA_VERSION = 5
-export const DATASET_PACKAGE_VERSION = '2026.08-static-v5-rc54'
+export const DATASET_PACKAGE_VERSION = '2026.08-static-v5-rc55'
 export const DATASET_RELEASE_DATE = '2026-08-31'
+
+// Explicit source-bound Explorer presets. These mappings are intentionally
+// package-local and must not be inferred from claim type, ontology order or
+// navigation ancestry. Perissodactyla keeps its separate comparison preset.
+export const researchPresetDefinitions = {
+  'atlas-core': { entityId: 'life', claimIds: ['claim:taxon:life:fossil-range'] },
+  'early-land-plants': { entityId: 'plantae', claimIds: ['claim:taxon:plantae:root-range-rc39'] },
+  gymnosperms: { entityId: 'gymnospermae', claimIds: ['claim:taxon:gymnospermae:root-range-rc39'] },
+  angiospermae: { entityId: 'angiospermae', claimIds: ['claim:taxon:angiospermae:fossil-range'] },
+  'sponges-cnidarians': { entityId: 'porifera', claimIds: ['claim:taxon:porifera:root-range-rc39'] },
+  'molluscs-brachiopods': { entityId: 'mollusca', claimIds: ['claim:taxon:mollusca'] },
+  'trilobites-chelicerates': { entityId: 'trilobita', claimIds: ['claim:taxon:trilobita:root-range-rc39'] },
+  'crustaceans-insects': { entityId: 'arthropoda', claimIds: ['claim:taxon:arthropoda:root-range-rc39'] },
+  echinoderms: { entityId: 'echinodermata', claimIds: ['claim:taxon:echinodermata:fossil-range'] },
+  'early-fishes': { entityId: 'agnatha', claimIds: ['claim:taxon:agnatha:fossil-range'] },
+  chondrichthyes: { entityId: 'chondrichthyes', claimIds: ['claim:taxon:chondrichthyes:fossil-range'] },
+  actinopterygii: { entityId: 'actinopterygii', claimIds: ['claim:taxon:actinopterygii:fossil-range'] },
+  'tetrapod-transition': { entityId: 'sarcopterygii', claimIds: ['claim:taxon:sarcopterygii:fossil-range'] },
+  amphibia: { entityId: 'amphibia', claimIds: ['claim:taxon:amphibia:fossil-range'] },
+  'mammal-origins': { entityId: 'synapsida', claimIds: ['claim:taxon:synapsida:root-range'] },
+  cetartiodactyla: { entityId: 'whippomorpha', claimIds: ['claim:taxon:whippomorpha:root-range'] },
+  primates: { entityId: 'primatomorpha', claimIds: ['claim:taxon:primatomorpha:root-range'] },
+  carnivora: { entityId: 'carnivora', claimIds: ['claim:taxon:carnivora:root-range'] },
+  'other-mammals': { entityId: 'monotremata', claimIds: ['claim:taxon:monotremata:root-range'] },
+  'turtles-lepidosaurs': { entityId: 'testudines', claimIds: ['claim:taxon:testudines:fossil-range'] },
+  'marine-reptiles-pterosaurs': { entityId: 'ichthyosauria', claimIds: ['claim:taxon:ichthyosauria:fossil-range'] },
+  'crocodylomorphs-birds': { entityId: 'crocodylomorpha', claimIds: ['claim:taxon:crocodylomorpha'] },
+  dinosauria: { entityId: 'dinosauria', claimIds: ['claim:taxon:dinosauria:root-range'] },
+}
 
 export const packageDefinitions = [
   {
