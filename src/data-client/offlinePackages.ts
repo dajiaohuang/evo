@@ -1,7 +1,19 @@
-import { clearRuntimeMemoryCache, loadCurrentManifest, loadPackageManifest, loadPackageRegistry, runtimeDataUrl } from './staticDataClient'
+import { clearRuntimeMemoryCache, loadCurrentManifest, loadCurrentReleaseFiles, loadPackageManifest, loadPackageRegistry, runtimeDataUrl } from './staticDataClient'
+import type { RuntimeReleaseFile } from './types'
 
 const OFFLINE_CACHE_PREFIX = 'evo-explicit-offline-packages-'
 const RUNTIME_CACHE_PREFIX = 'evo-runtime-data-'
+
+export interface CompleteAtlasOfflinePlan {
+  datasetVersion: string
+  fileCount: number
+  totalBytes: number
+}
+
+export interface OfflineDownloadProgress extends CompleteAtlasOfflinePlan {
+  completedFiles: number
+  completedBytes: number
+}
 
 async function cacheUrls(cacheName: string, urls: string[], onProgress?: (completed: number, total: number) => void): Promise<void> {
   if (!('caches' in window)) throw new Error('Offline package storage is unavailable in this browser')
@@ -39,6 +51,61 @@ export async function saveAllPackagesOffline(onProgress?: (completed: number, to
     ...manifest.occurrences.map((file) => runtimeDataUrl(file.url)),
   ])
   await cacheUrls(`${OFFLINE_CACHE_PREFIX}${current.datasetVersion}`, [...new Set(urls)], onProgress)
+}
+
+async function completeAtlasFiles(): Promise<{ plan: CompleteAtlasOfflinePlan; files: RuntimeReleaseFile[] }> {
+  const current = await loadCurrentManifest()
+  const inventory = await loadCurrentReleaseFiles()
+  const files = inventory.files.filter((file) => !file.url.includes('/downloads/'))
+  return {
+    plan: {
+      datasetVersion: current.datasetVersion,
+      fileCount: files.length,
+      totalBytes: files.reduce((sum, file) => sum + file.bytes, 0),
+    },
+    files,
+  }
+}
+
+export async function getCompleteAtlasOfflinePlan(): Promise<CompleteAtlasOfflinePlan> {
+  return (await completeAtlasFiles()).plan
+}
+
+export async function saveCompleteAtlasOffline(
+  onProgress?: (progress: OfflineDownloadProgress) => void,
+): Promise<CompleteAtlasOfflinePlan> {
+  if (!('caches' in window)) throw new Error('Offline package storage is unavailable in this browser')
+  await navigator.storage?.persist?.().catch(() => false)
+  const { plan, files } = await completeAtlasFiles()
+  const cache = await caches.open(`${OFFLINE_CACHE_PREFIX}${plan.datasetVersion}`)
+  for (const relativeUrl of ['current.json', 'releases.json', `releases/${plan.datasetVersion}/release-files.json`]) {
+    const url = runtimeDataUrl(relativeUrl)
+    if (await cache.match(url)) continue
+    const response = await fetch(url)
+    if (!response.ok) throw new Error(`Unable to save ${url} (${response.status})`)
+    await cache.put(url, response)
+  }
+  let completedFiles = 0
+  let completedBytes = 0
+  let nextFileIndex = 0
+
+  const saveNext = async (): Promise<void> => {
+    while (nextFileIndex < files.length) {
+      const file = files[nextFileIndex++]
+      const url = runtimeDataUrl(file.url)
+      const cached = await cache.match(url)
+      if (!cached) {
+        const response = await fetch(url)
+        if (!response.ok) throw new Error(`Unable to save ${url} (${response.status})`)
+        await cache.put(url, response)
+      }
+      completedFiles += 1
+      completedBytes += file.bytes
+      onProgress?.({ ...plan, completedFiles, completedBytes })
+    }
+  }
+  await Promise.all(Array.from({ length: Math.min(4, files.length) }, () => saveNext()))
+  return plan
 }
 
 export async function clearOfflinePackages(): Promise<void> {

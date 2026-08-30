@@ -13,7 +13,7 @@ Evo Atlas 不是一个把生成文本包装成“完整百科”的项目。它�
 - 名录覆盖：固定到 Catalogue of Life Base Release `COL26.8`。2,183,133 个严格接受种全部能沿真实父子链路由到唯一资源归属，另有 2,065,436 个异名、歧义异名和误用名可解析到接受名。
 - 内容覆盖：24 个静态资源包中的证据档案、事件、故事、范围和参考文献。每个包单独声明 `generated-scaffold`、`structured`、`source-linked`、`curated-draft` 或 `published`，名录路由完整不等于内容已经完成。
 
-当前已发布数据快照为 `2026.08-static-v5-rc24`，开发中的 Web/移动客户端版本为 `0.18.0`。精确记录数、校验和和限制以 [`data/manifest.json`](data/manifest.json) 为准；科学内容变更见 [`data/CHANGELOG.md`](data/CHANGELOG.md)。
+当前已发布数据快照为 `2026.08-static-v5-rc24`，开发中的 Web/移动客户端版本为 `0.19.0`。精确记录数、校验和和限制以 [`data/manifest.json`](data/manifest.json) 为准；科学内容变更见 [`data/CHANGELOG.md`](data/CHANGELOG.md)。
 
 ## 用户能做什么
 
@@ -57,7 +57,7 @@ Evo Atlas 不是一个把生成文本包装成“完整百科”的项目。它�
 | Android | `android/` + Capacitor 8 | API 24+ 原生壳、系统返回键、状态栏、启动资源、外链和 `evoatlas://` 深链 | 工程已生成；商店签名和发布凭据不入库 |
 | iOS / iPadOS | `ios/` + Capacitor 8 / Swift Package Manager | iOS 15+ WKWebView 原生壳、安全区、状态栏、启动资源、外链和 `evoatlas://` 深链 | 工程已生成；必须在 macOS + Xcode 完成签名、模拟器与真机验证 |
 
-移动端不是把线上网页作为远程首页打开的空壳：HTML、CSS、JavaScript 与图标进入原生包；大体积、经版本化的科学数据保持远程和按需加载，因此客户端升级与内容数据修订可以解耦。详细工作流见 [`docs/mobile-apps.md`](docs/mobile-apps.md)。
+移动端不是把线上网页作为远程首页打开的空壳：HTML、CSS、JavaScript 与图标进入原生包；大体积、经版本化的科学数据保持远程和按需加载，因此客户端升级与内容数据修订可以解耦。Android 与 iOS 使用和 Web 完全相同的路由、资源包注册表、化石分片、CAO2024 地图帧与 COL 名录；“数据”页还可一次保存当前版本的全部交互数据，供原生应用离线读取。详细工作流见 [`docs/mobile-apps.md`](docs/mobile-apps.md)。
 
 ## 快速开始
 
@@ -101,6 +101,8 @@ npm run mobile:ios
 ```
 
 `npm run mobile:build` 只生成 `dist-mobile/`；`mobile:sync` 再把该壳和插件配置复制到 `android/` 与 `ios/`。不要手改原生工程中被 `.gitignore` 排除的 Web 产物。应用 ID 为 `io.github.dajiaohuang.evoatlas`，自定义深链示例为：
+
+安装后的“数据”页提供两级离线能力：单个/全部资源包下载适合日常使用；“保存完整图谱”会保存 Core、全部资源包、全局化石、全部 CAO2024 帧和完整 COL 名录。当前 rc24 的完整交互数据约 514 MiB、3,702 个文件；以后版本会按发布清单显示实际体积。重复的 ZIP 导出包不计入离线交互集。
 
 ```text
 evoatlas://open/stories?id=angiosperm-evidence-boundaries

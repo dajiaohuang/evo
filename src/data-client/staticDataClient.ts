@@ -19,6 +19,8 @@ import type {
   RuntimeMapSnapshot,
   RuntimePackageManifest,
   RuntimePackageRegistry,
+  RuntimeReleaseFilesIndex,
+  RuntimeReleasesIndex,
   RuntimeSearchEntry,
 } from './types'
 
@@ -59,9 +61,16 @@ async function evictUrlFromCaches(url: string): Promise<void> {
   }))
 }
 
+async function cachedResponse(url: string): Promise<Response | undefined> {
+  if (!('caches' in globalThis) || typeof caches.match !== 'function') return undefined
+  return (await caches.match(url)) ?? undefined
+}
+
 async function fetchVerifiedBytes(file: RuntimeFile, retry = true): Promise<ArrayBuffer> {
   const url = dataUrl(file.url)
-  const response = await fetch(url, retry ? undefined : { cache: 'reload' })
+  const response = retry
+    ? (await cachedResponse(url)) ?? await fetch(url)
+    : await fetch(url, { cache: 'reload' })
   if (!response.ok) throw new Error(`Static data request failed (${response.status}) for ${file.url}`)
   const bytes = await response.arrayBuffer()
   const byteView = new Uint8Array(bytes)
@@ -75,6 +84,19 @@ async function fetchVerifiedBytes(file: RuntimeFile, retry = true): Promise<Arra
     throw new Error(`Checksum mismatch for ${file.url} after network refetch`)
   }
   return bytes
+}
+
+async function fetchBootstrapResponse(relativeUrl: string): Promise<Response> {
+  const url = dataUrl(relativeUrl)
+  try {
+    const response = await fetch(url, { cache: 'no-store' })
+    if (response.ok) return response
+  } catch {
+    // A complete-atlas download keeps bootstrap files in Cache Storage for native/offline startup.
+  }
+  const cached = await cachedResponse(url)
+  if (cached) return cached
+  throw new Error(`Static data request failed for ${relativeUrl}`)
 }
 
 async function loadWithoutWorker<T>(file: RuntimeFile): Promise<T> {
@@ -167,8 +189,7 @@ async function loadBootstrapManifest(): Promise<CurrentRuntimeManifest> {
   const key = 'current.json#bootstrap'
   const cached = jsonCache.get(key)
   if (cached !== undefined) return cached as CurrentRuntimeManifest
-  const response = await fetch(dataUrl('current.json'), { cache: 'no-store' })
-  if (!response.ok) throw new Error(`Static data request failed (${response.status}) for current.json`)
+  const response = await fetchBootstrapResponse('current.json')
   const data = await response.json() as CurrentRuntimeManifest
   const expectedReleaseBase = `releases/${data.datasetVersion}/`
   if (data.releaseBase !== expectedReleaseBase) {
@@ -180,6 +201,30 @@ async function loadBootstrapManifest(): Promise<CurrentRuntimeManifest> {
 
 export function loadCurrentManifest(): Promise<CurrentRuntimeManifest> {
   return loadBootstrapManifest()
+}
+
+async function loadBootstrapJson<T>(relativeUrl: string): Promise<T> {
+  const key = `${relativeUrl}#bootstrap`
+  const cached = jsonCache.get(key)
+  if (cached !== undefined) return cached as T
+  const response = await fetchBootstrapResponse(relativeUrl)
+  const data = await response.json() as T
+  jsonCache.set(key, data)
+  return data
+}
+
+export async function loadCurrentReleaseFiles(): Promise<RuntimeReleaseFilesIndex> {
+  const current = await loadCurrentManifest()
+  const releases = await loadBootstrapJson<RuntimeReleasesIndex>('releases.json')
+  const release = releases.releases.find((entry) => entry.datasetVersion === current.datasetVersion)
+  if (!release || release.releaseBase !== current.releaseBase) {
+    throw new Error(`Release inventory does not contain current dataset ${current.datasetVersion}`)
+  }
+  const index = await loadBootstrapJson<RuntimeReleaseFilesIndex>(release.filesIndex)
+  if (index.datasetVersion !== current.datasetVersion) {
+    throw new Error(`Release file inventory does not belong to dataset ${current.datasetVersion}`)
+  }
+  return index
 }
 
 export async function loadPackageRegistry(): Promise<RuntimePackageRegistry> {

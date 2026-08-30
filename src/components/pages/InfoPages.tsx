@@ -3,7 +3,8 @@ import manifest from '../../../data/manifest.json'
 import { periods } from '../../services/geology'
 import { loadReleaseMetadata, localReleaseMetadata } from '../../services/release'
 import { loadCatalogueSpeciesOwnership, loadCurrentManifest, loadEntityLinkageCoverage, loadPackageManifest, loadPackageRegistry } from '../../data-client/staticDataClient'
-import { clearOfflinePackages, saveAllPackagesOffline, savePackageOffline } from '../../data-client/offlinePackages'
+import { clearOfflinePackages, getCompleteAtlasOfflinePlan, saveAllPackagesOffline, saveCompleteAtlasOffline, savePackageOffline } from '../../data-client/offlinePackages'
+import type { CompleteAtlasOfflinePlan, OfflineDownloadProgress } from '../../data-client/offlinePackages'
 import type { CatalogueSpeciesOwnership, CurrentRuntimeManifest, RuntimeEntityLinkageCoverage, RuntimePackageManifest, RuntimePackageRegistry } from '../../data-client/types'
 import type { AppRoute } from '../../utils/routing'
 import { reviewStatusLabel, scientificMaturityLabel } from '../../services/publication'
@@ -31,9 +32,12 @@ export function DataPage({ onNavigate }: PageProps) {
   const [platformError, setPlatformError] = useState<string | null>(null)
   const [speciesOwnershipError, setSpeciesOwnershipError] = useState<string | null>(null)
   const [offlineStatus, setOfflineStatus] = useState('idle')
+  const [completeOfflinePlan, setCompleteOfflinePlan] = useState<CompleteAtlasOfflinePlan | null>(null)
+  const [completeOfflineProgress, setCompleteOfflineProgress] = useState<OfflineDownloadProgress | null>(null)
 
   useEffect(() => {
     void loadReleaseMetadata().then(setRelease)
+    void getCompleteAtlasOfflinePlan().then(setCompleteOfflinePlan).catch(() => undefined)
   }, [])
 
   useEffect(() => {
@@ -75,7 +79,21 @@ export function DataPage({ onNavigate }: PageProps) {
   const clearOffline = async () => {
     await clearOfflinePackages()
     setOfflineStatus('cleared')
+    setCompleteOfflineProgress(null)
   }
+
+  const storeCompleteAtlasOffline = async () => {
+    setOfflineStatus('saving-complete')
+    try {
+      const plan = await saveCompleteAtlasOffline(setCompleteOfflineProgress)
+      setCompleteOfflinePlan(plan)
+      setOfflineStatus('saved-complete')
+    } catch {
+      setOfflineStatus('failed')
+    }
+  }
+
+  const offlineBusy = offlineStatus === 'saving' || offlineStatus === 'saving-complete'
 
   return (
     <main className="info-page">
@@ -163,8 +181,10 @@ export function DataPage({ onNavigate }: PageProps) {
           ))}
         </div>
         <div className="offline-actions">
-          <button className="button button--ghost" type="button" disabled={offlineStatus === 'saving'} onClick={() => void storeOffline()}>{t(offlineStatus === 'saving' ? 'Saving…' : offlineStatus === 'saved' ? 'Saved for offline use' : 'Save all published packages')}</button>
-          <button className="button button--ghost" type="button" onClick={() => void clearOffline()}>{t('Clear offline data')}</button>
+          <button className="button button--ghost" type="button" disabled={offlineBusy} onClick={() => void storeOffline()}>{t(offlineStatus === 'saving' ? 'Saving…' : offlineStatus === 'saved' ? 'Saved for offline use' : 'Save all published packages')}</button>
+          <button className="button button--ghost" type="button" disabled={offlineBusy} onClick={() => void storeCompleteAtlasOffline()}>{t(offlineStatus === 'saving-complete' ? 'Saving complete Atlas…' : offlineStatus === 'saved-complete' ? 'Complete Atlas saved' : 'Save complete Atlas ({size})', { size: completeOfflinePlan ? `${(completeOfflinePlan.totalBytes / 1024 / 1024).toFixed(0)} MiB` : '…' })}</button>
+          <button className="button button--ghost" type="button" disabled={offlineBusy} onClick={() => void clearOffline()}>{t('Clear offline data')}</button>
+          {completeOfflineProgress && offlineStatus === 'saving-complete' && <span role="status">{t('Saved {completed} of {total} files', { completed: number(completeOfflineProgress.completedFiles), total: number(completeOfflineProgress.fileCount) })}</span>}
           {offlineStatus === 'failed' && <span role="alert">{t('Offline storage failed')}</span>}
         </div>
       </section>

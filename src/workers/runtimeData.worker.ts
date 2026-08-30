@@ -24,7 +24,8 @@ async function evictUrlFromCaches(url: string): Promise<void> {
 }
 
 async function fetchVerifiedBytes(url: string, sha256?: string, sourceSha256?: string, retry = true): Promise<ArrayBuffer> {
-  const response = await fetch(url, retry ? undefined : { cache: 'reload' })
+  const cached = retry && typeof caches.match === 'function' ? await caches.match(url) : undefined
+  const response = cached ?? await fetch(url, retry ? undefined : { cache: 'reload' })
   if (!response.ok) throw new Error(`Static data request failed (${response.status}) for ${url}`)
   const bytes = await response.arrayBuffer()
   const byteView = new Uint8Array(bytes)
