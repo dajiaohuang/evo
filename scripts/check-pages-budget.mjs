@@ -28,9 +28,12 @@ if (totalBytes > 650 * 1024 * 1024) failures.push(`Pages artifact is ${(totalByt
 const shards = files.filter((path) => /[/\\](occurrences|maps|catalogue)[/\\].+\.(json|jsonl|ndjson)\.gz$/.test(path))
 for (const path of shards) if (statSync(path).size > 8 * 1024 * 1024) failures.push(`${relativePath(path)} exceeds the 8 MiB shard limit`)
 
-const mapFrames = files.filter((path) => path.startsWith(join(releaseRoot, 'maps')) && path.endsWith('.json.gz'))
+const observationShards = files.filter((path) => path.startsWith(join(releaseRoot, 'maps', 'observations')) && path.endsWith('.json.gz'))
+const observationShardSet = new Set(observationShards)
+const mapFrames = files.filter((path) => path.startsWith(join(releaseRoot, 'maps')) && path.endsWith('.json.gz') && !observationShardSet.has(path))
 const mapFrameBytes = size(mapFrames)
 if (mapFrameBytes > 250 * 1024 * 1024) failures.push(`Paleogeography frames are ${(mapFrameBytes / 1024 / 1024).toFixed(2)} MiB; hard limit is 250 MiB`)
+const observationBytes = size(observationShards)
 
 const coreFiles = files.filter((path) => path.startsWith(join(releaseRoot, 'core')))
 const coreBytes = size(coreFiles)
@@ -98,5 +101,5 @@ if (failures.length) {
   for (const failure of failures) console.error(`- ${failure}`)
   process.exitCode = 1
 } else {
-  console.log(`Pages budget passed: ${(totalBytes / 1024 / 1024).toFixed(2)} MiB total, ${(mapFrameBytes / 1024 / 1024).toFixed(2)} MiB maps, ${(coreBytes / 1024).toFixed(1)} KiB core, ${shards.length} data shards, ${packageIds.length} packages.`)
+  console.log(`Pages budget passed: ${(totalBytes / 1024 / 1024).toFixed(2)} MiB total, ${(mapFrameBytes / 1024 / 1024).toFixed(2)} MiB geometry frames, ${(observationBytes / 1024 / 1024).toFixed(2)} MiB CAO observations, ${(coreBytes / 1024).toFixed(1)} KiB core, ${shards.length} data shards, ${packageIds.length} packages.`)
 }

@@ -1,0 +1,365 @@
+{
+  "schemaVersion": 1,
+  "model": "CAO2024",
+  "modelVersion": "v2.4",
+  "maximumReconstructionAgeMa": 1800.0,
+  "anchorPlateId": 0,
+  "coordinateOrder": "longitude-latitude",
+  "coordinatePrecisionDecimals": 6,
+  "retrievedAt": "2026-08-31",
+  "processing": {
+    "script": "scripts/import_cao2024_observations.py",
+    "scriptCommit": "f7de2f3",
+    "pygplatesVersion": "1.0.0",
+    "reconstructionAgeMethod": "midpoint of the explicit source age interval intersected with 0-1800 Ma",
+    "missingPlateCircuitPolicy": "raw-only; identity fallback is disabled"
+  },
+  "sourceArchive": {
+    "url": "https://zenodo.org/api/records/13628813/files/1.8Ga_model_GSF.zip/content",
+    "bytes": 20669287,
+    "sha256": "4ae9158a29c597b46f687f8c3f0f5a4a55df5ab69bde18e24257a17d358d8592",
+    "md5": "4a032d3ab46e6023d14add8a54b6a541",
+    "files": [
+      {
+        "path": "1.8_Ga_reconstruction.gproj",
+        "status": "auxiliary",
+        "bytes": 13615,
+        "sha256": "db561a01749dba1a57bdece88abfbffcc4b7583b7e6693b8dabf4160d90255b5"
+      },
+      {
+        "path": "1000-410_plate_boundaries.gpml",
+        "status": "integrated",
+        "bytes": 15104418,
+        "sha256": "488e4b6330e2586fc363a1ad8dada659ac1409742846186fc275a213db306fb1"
+      },
+      {
+        "path": "1000_0_rotfile.rot",
+        "status": "integrated",
+        "bytes": 625128,
+        "sha256": "e13c16ef5b2f8f116f598635e42a126b016b2c615358b499bcc3433f4a3c735c"
+      },
+      {
+        "path": "1800-1000_plate_boundaries.gpml",
+        "status": "integrated",
+        "bytes": 4575384,
+        "sha256": "759a76605bc907197928214f4101403dd6221e7ba8d4ecacde57999bc3675dce"
+      },
+      {
+        "path": "1800_1000_rotfile.rot",
+        "status": "integrated",
+        "bytes": 36539,
+        "sha256": "db2a57a8b7c7a08891c19840b6334ffb9c279b6a991a2c2eed099edb23445785"
+      },
+      {
+        "path": "250-0_plate_boundaries.gpml",
+        "status": "integrated",
+        "bytes": 34391053,
+        "sha256": "4a9f97f6368860e5917f4e6fbf78d6d7c3caf77e1736e854250d067540bb60d4"
+      },
+      {
+        "path": "410-250_plate_boundaries.gpml",
+        "status": "integrated",
+        "bytes": 7239518,
+        "sha256": "6516dbac4d7928e7ad71244b0bbabc65eb25e6e89dc79d4becb9a82a25a6fc91"
+      },
+      {
+        "path": "COBfile_1800_0.gpml",
+        "status": "integrated",
+        "bytes": 14423254,
+        "sha256": "cfcea20c5244613e53ad4b9cdf6411d79ff535c25af335b4fa6eb9251377d4bd"
+      },
+      {
+        "path": "Paleomagnetic_poles.gpml",
+        "status": "integrated",
+        "bytes": 494044,
+        "sha256": "449e19d291d141221d658741edd7876ae19ac0d47f116df205796536b6fa9caf"
+      },
+      {
+        "path": "README.txt",
+        "status": "support",
+        "bytes": 358,
+        "sha256": "e730537d441b4265101ec8fd29e3e85866cea4515099088efa70f2e66d45ed91"
+      },
+      {
+        "path": "TopologyBuildingBlocks.gpml",
+        "status": "integrated",
+        "bytes": 1135047,
+        "sha256": "7603af2502a8d261256f293be71487d28fe5a6b5a8fadd4bdc7845dc67b72297"
+      },
+      {
+        "path": "point_data/global_geochemistry_SIA-I_and-magnesian-type.gpmlz",
+        "status": "integrated",
+        "bytes": 12065113,
+        "sha256": "edf420e7845e05651b9b1e377d7f1bfe22192ffe60d381c67e82fd9d53a551a1"
+      },
+      {
+        "path": "point_data/global_metamorphic_gradient_375_775_Orogen.gpml",
+        "status": "integrated",
+        "bytes": 1200575,
+        "sha256": "77dfa8dfc77857311a06540f0c90b9f1be3481302a0a778ccfc1be1dd001f2f2"
+      },
+      {
+        "path": "point_data/global_metamorphic_gradient_larger_than_775_rift.gpml",
+        "status": "integrated",
+        "bytes": 2251079,
+        "sha256": "f97364ac2b5090b38ca6d29f3b779d41406e5b1f9c17be787550739cb37df333"
+      },
+      {
+        "path": "point_data/global_metamorphic_gradient_smaller_than_375_SZ.gpml",
+        "status": "integrated",
+        "bytes": 731877,
+        "sha256": "2aeaf78be8f6e26e6b0eb0c1ec184aa6bc12fea03c15610d1856cff8c702cf97"
+      },
+      {
+        "path": "shapes_coasts.gpmlz",
+        "status": "integrated",
+        "bytes": 1860295,
+        "sha256": "c660bc074aa84b366600d81d7ccf3a45658db81ab8cdd8f6bda26e094c0dc71f"
+      },
+      {
+        "path": "shapes_continents.gpmlz",
+        "status": "integrated",
+        "bytes": 1243843,
+        "sha256": "6e30de73967f81a403f46370295dec5c0d7ed3ffd80c73d47df926461d949616"
+      },
+      {
+        "path": "static_polygons.gpmlz",
+        "status": "integrated",
+        "bytes": 2248936,
+        "sha256": "9b30d231157f99f9a7942d073efcb85649b0a6e10e49332637df2386f1b1350f"
+      }
+    ]
+  },
+  "counts": {
+    "total": 44175,
+    "intersectsSupportedRange": 41323,
+    "reconstructed": 41320,
+    "rawOnlyModelRange": 2852,
+    "rawOnlyMissingPlateCircuit": 3,
+    "sourceFlags": {
+      "inverted-age-bounds": 60,
+      "negative-sio2": 4,
+      "negative-younger-bound": 16
+    }
+  },
+  "datasets": {
+    "paleomagnetic-poles": {
+      "total": 208,
+      "intersectsSupportedRange": 206,
+      "reconstructed": 206,
+      "rawOnlyModelRange": 2,
+      "rawOnlyMissingPlateCircuit": 0
+    },
+    "geochemistry": {
+      "total": 43364,
+      "intersectsSupportedRange": 40611,
+      "reconstructed": 40608,
+      "rawOnlyModelRange": 2753,
+      "rawOnlyMissingPlateCircuit": 3
+    },
+    "metamorphic-gradient-orogen": {
+      "total": 173,
+      "intersectsSupportedRange": 136,
+      "reconstructed": 136,
+      "rawOnlyModelRange": 37,
+      "rawOnlyMissingPlateCircuit": 0
+    },
+    "metamorphic-gradient-rift": {
+      "total": 328,
+      "intersectsSupportedRange": 272,
+      "reconstructed": 272,
+      "rawOnlyModelRange": 56,
+      "rawOnlyMissingPlateCircuit": 0
+    },
+    "metamorphic-gradient-subduction-zone": {
+      "total": 102,
+      "intersectsSupportedRange": 98,
+      "reconstructed": 98,
+      "rawOnlyModelRange": 4,
+      "rawOnlyMissingPlateCircuit": 0
+    }
+  },
+  "shards": [
+    {
+      "datasetId": "geochemistry",
+      "bucket": "0",
+      "path": "geochemistry/part-0.json.gz",
+      "records": 2720,
+      "jsonBytes": 5056588,
+      "bytes": 568000,
+      "sha256": "bb333adbf9d8441bbf3c1b47f5c3dc55999d5e0fd497565c43c793c8c6355aaf"
+    },
+    {
+      "datasetId": "geochemistry",
+      "bucket": "1",
+      "path": "geochemistry/part-1.json.gz",
+      "records": 2762,
+      "jsonBytes": 5128343,
+      "bytes": 576211,
+      "sha256": "2213a8a006151daf3ab62e9369160470d976b2227fc615c5501b8bae8fb33192"
+    },
+    {
+      "datasetId": "geochemistry",
+      "bucket": "2",
+      "path": "geochemistry/part-2.json.gz",
+      "records": 2649,
+      "jsonBytes": 4914741,
+      "bytes": 551493,
+      "sha256": "bb19fe7f1e53d0fdf8bbf86355134fd561401e16b0f148471f68c4884ed69015"
+    },
+    {
+      "datasetId": "geochemistry",
+      "bucket": "3",
+      "path": "geochemistry/part-3.json.gz",
+      "records": 2692,
+      "jsonBytes": 5003556,
+      "bytes": 564294,
+      "sha256": "a1914ae7f35e1dd2df4c3b98606309b38eb36bb57e74ea62c9b3393d551552ad"
+    },
+    {
+      "datasetId": "geochemistry",
+      "bucket": "4",
+      "path": "geochemistry/part-4.json.gz",
+      "records": 2779,
+      "jsonBytes": 5150991,
+      "bytes": 578056,
+      "sha256": "14859cd9e394836935eae8d332c30bccfe44a41863eb13a38fdb30b40e545678"
+    },
+    {
+      "datasetId": "geochemistry",
+      "bucket": "5",
+      "path": "geochemistry/part-5.json.gz",
+      "records": 2662,
+      "jsonBytes": 4932450,
+      "bytes": 552960,
+      "sha256": "677e52226ccdbeb87ec0b055fde05358f08a605d8bc562005bec9b0183ccecfc"
+    },
+    {
+      "datasetId": "geochemistry",
+      "bucket": "6",
+      "path": "geochemistry/part-6.json.gz",
+      "records": 2780,
+      "jsonBytes": 5157812,
+      "bytes": 577455,
+      "sha256": "3619cc1cfc329b8062a3bee411c3d82952e0358fb0056804398c124858bda53b"
+    },
+    {
+      "datasetId": "geochemistry",
+      "bucket": "7",
+      "path": "geochemistry/part-7.json.gz",
+      "records": 2659,
+      "jsonBytes": 4951012,
+      "bytes": 556110,
+      "sha256": "40281c524f614bb511868b0e60d3cab9bbc2f205a50157b4ee1f8cfe2cc1cb8c"
+    },
+    {
+      "datasetId": "geochemistry",
+      "bucket": "8",
+      "path": "geochemistry/part-8.json.gz",
+      "records": 2659,
+      "jsonBytes": 4940354,
+      "bytes": 555904,
+      "sha256": "c27bb68d87fee7b8b1cdc0c878c1857ec6bcbb679adf2f93ce946503ebdf7195"
+    },
+    {
+      "datasetId": "geochemistry",
+      "bucket": "9",
+      "path": "geochemistry/part-9.json.gz",
+      "records": 2738,
+      "jsonBytes": 5088348,
+      "bytes": 573771,
+      "sha256": "a0a41fa902f55297c12fbf19175576e621e48baa52b845990b63cc7ab4ee6aac"
+    },
+    {
+      "datasetId": "geochemistry",
+      "bucket": "a",
+      "path": "geochemistry/part-a.json.gz",
+      "records": 2777,
+      "jsonBytes": 5149581,
+      "bytes": 577779,
+      "sha256": "8b7ef8bfda8bf982e020ffded5f69f86c9a97367c66506c4a50aedb560194106"
+    },
+    {
+      "datasetId": "geochemistry",
+      "bucket": "b",
+      "path": "geochemistry/part-b.json.gz",
+      "records": 2643,
+      "jsonBytes": 4911360,
+      "bytes": 551153,
+      "sha256": "9f7b98de45c3fdab66582bb25c51f8e7db9e25d9379333010087e3b66d4ae154"
+    },
+    {
+      "datasetId": "geochemistry",
+      "bucket": "c",
+      "path": "geochemistry/part-c.json.gz",
+      "records": 2730,
+      "jsonBytes": 5064364,
+      "bytes": 566379,
+      "sha256": "016dcb134559eb40315c3822597543e19814f2b3b2c176ef2c7785c8e0f565f1"
+    },
+    {
+      "datasetId": "geochemistry",
+      "bucket": "d",
+      "path": "geochemistry/part-d.json.gz",
+      "records": 2666,
+      "jsonBytes": 4950810,
+      "bytes": 555269,
+      "sha256": "a6bb7d141b44aed422c6f03dec16199535a1f56644055d9e1f43b2bdd0d44a42"
+    },
+    {
+      "datasetId": "geochemistry",
+      "bucket": "e",
+      "path": "geochemistry/part-e.json.gz",
+      "records": 2710,
+      "jsonBytes": 5027360,
+      "bytes": 564086,
+      "sha256": "9d1c455d78d5e0cc842d0ac8d070e0bc11b89214234e9b91000be2ea6ce0f529"
+    },
+    {
+      "datasetId": "geochemistry",
+      "bucket": "f",
+      "path": "geochemistry/part-f.json.gz",
+      "records": 2738,
+      "jsonBytes": 5085449,
+      "bytes": 571356,
+      "sha256": "5be17fb66c32d19db40526c367c161b0da0e9fdbec4d51f528a2c4bfd82aa39f"
+    },
+    {
+      "datasetId": "metamorphic-gradient-orogen",
+      "bucket": "all",
+      "path": "metamorphic-gradient/orogen.json.gz",
+      "records": 173,
+      "jsonBytes": 220111,
+      "bytes": 27645,
+      "sha256": "900aa05cdd5f0a4b8772be82473ed2afb38e3c9b5da3f76a5ab42c2d9207cca0"
+    },
+    {
+      "datasetId": "metamorphic-gradient-rift",
+      "bucket": "all",
+      "path": "metamorphic-gradient/rift.json.gz",
+      "records": 328,
+      "jsonBytes": 413768,
+      "bytes": 50981,
+      "sha256": "bab8e1ae13be34699c5ef2b3330214f4ae7bc30bb2181a4d33a5a66ad5ae6699"
+    },
+    {
+      "datasetId": "metamorphic-gradient-subduction-zone",
+      "bucket": "all",
+      "path": "metamorphic-gradient/subduction-zone.json.gz",
+      "records": 102,
+      "jsonBytes": 134324,
+      "bytes": 17234,
+      "sha256": "a4a3d71f3db97777e39b39e6dd3f8229f424e6489116938d3e547516e2e03526"
+    },
+    {
+      "datasetId": "paleomagnetic-poles",
+      "bucket": "all",
+      "path": "paleomagnetic-poles.json.gz",
+      "records": 208,
+      "jsonBytes": 184565,
+      "bytes": 32479,
+      "sha256": "3956067ebf49cef063243053be6e4d9fa98ea05573cb5d388193ae4d4536e560"
+    }
+  ],
+  "scientificBoundary": "These records are observational or constraint points, not model geometry, terrain, elevation, bathymetry or direct paleotopography. Source anomalies are retained and flagged without correction."
+}

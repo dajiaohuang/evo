@@ -302,6 +302,7 @@ function provenanceFailures() {
   const media = readJson('data/media.json')
   const mapMetadata = readJson('data/period-map-metadata.json')
   const mapProvenance = readJson('data/paleogeography/provenance.json')
+  const observationManifest = readJson('data/paleogeography/observations/manifest.json')
   const source = readJson('data/sources/pbdb-occurrence-bundle.json')
   for (const entry of registry.packages) {
     const provenance = readJson(`${entry.canonicalPath}/provenance.json`)
@@ -326,6 +327,32 @@ function provenanceFailures() {
       failures.push(`${metadata.name}: available map geometry is missing checked-in source, processing or checksum provenance`)
     }
   }
+  const observationIds = new Set(observationManifest.shards.map((shard) => shard.datasetId))
+  if (observationManifest.sourceArchive?.sha256 !== '4ae9158a29c597b46f687f8c3f0f5a4a55df5ab69bde18e24257a17d358d8592'
+    || observationManifest.sourceArchive?.files?.length !== 18
+    || observationManifest.counts?.total !== 44175
+    || observationManifest.counts?.intersectsSupportedRange !== 41323
+    || observationManifest.counts?.reconstructed !== 41320
+    || observationManifest.counts?.rawOnlyModelRange !== 2852
+    || observationManifest.counts?.rawOnlyMissingPlateCircuit !== 3
+    || observationIds.size !== 5
+    || observationManifest.shards?.length !== 20) {
+    failures.push('CAO2024 observation provenance does not cover the complete pinned v2.4 inventory')
+  }
+  let observationRecords = 0
+  for (const shard of observationManifest.shards ?? []) {
+    const path = join(rootDir, 'data/paleogeography/observations', shard.path ?? '')
+    if (!existsSync(path)) {
+      failures.push(`CAO2024 observation shard is missing: ${shard.path}`)
+      continue
+    }
+    const bytes = readFileSync(path)
+    if (bytes.byteLength !== shard.bytes || createHash('sha256').update(bytes).digest('hex') !== shard.sha256) {
+      failures.push(`CAO2024 observation shard checksum is stale: ${shard.path}`)
+    }
+    observationRecords += shard.records ?? 0
+  }
+  if (observationRecords !== observationManifest.counts?.total) failures.push('CAO2024 observation shard counts do not equal the canonical total')
   if (!source.endpoint?.startsWith('https://') || !source.fetchedAt || !source.queryTemplate) failures.push('occurrence snapshot provenance is incomplete')
   if (!references.has('pbdb-api-2016')) failures.push('PBDB source reference is missing')
   return failures

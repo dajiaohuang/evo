@@ -16,6 +16,7 @@ describe('complete Atlas offline storage', () => {
     const files = [
       { url: `${releaseBase}core/entities.json.gz`, bytes: 10, sha256: 'a'.repeat(64) },
       { url: `${releaseBase}maps/coastlines-100.json.gz`, bytes: 20, sha256: 'b'.repeat(64) },
+      { url: `${releaseBase}maps/observations/geochemistry/part-0.json.gz`, bytes: 12, sha256: 'd'.repeat(64) },
       { url: `${releaseBase}downloads/demo-${datasetVersion}.zip`, bytes: 40, sha256: 'c'.repeat(64) },
     ]
     const current = {
@@ -41,8 +42,8 @@ describe('complete Atlas offline storage', () => {
       schemaVersion: 1,
       retentionLimit: 3,
       retentionByteLimit: 1000,
-      retainedBytes: 70,
-      releases: [{ datasetVersion, releaseBase, filesIndex: `${releaseBase}release-files.json`, generatedAt: '2026-08-30', bytes: 70 }],
+      retainedBytes: 82,
+      releases: [{ datasetVersion, releaseBase, filesIndex: `${releaseBase}release-files.json`, generatedAt: '2026-08-30', bytes: 82 }],
     }
     const responses = new Map<string, unknown>([
       ['current.json', current],
@@ -50,7 +51,8 @@ describe('complete Atlas offline storage', () => {
       [`${releaseBase}release-files.json`, { schemaVersion: 1, datasetVersion, files }],
       [files[0].url, { entities: [] }],
       [files[1].url, { type: 'FeatureCollection', features: [] }],
-      [files[2].url, 'duplicate export'],
+      [files[2].url, { datasetId: 'geochemistry', records: [] }],
+      [files[3].url, 'duplicate export'],
     ])
     const fetchMock = vi.fn(async (input: RequestInfo | URL) => {
       const url = String(input)
@@ -75,16 +77,17 @@ describe('complete Atlas offline storage', () => {
     vi.stubGlobal('Worker', undefined)
 
     const { getCompleteAtlasOfflinePlan, saveCompleteAtlasOffline } = await import('./offlinePackages')
-    await expect(getCompleteAtlasOfflinePlan()).resolves.toEqual({ datasetVersion, fileCount: 2, totalBytes: 30 })
+    await expect(getCompleteAtlasOfflinePlan()).resolves.toEqual({ datasetVersion, fileCount: 3, totalBytes: 42 })
     const progress = vi.fn()
-    await expect(saveCompleteAtlasOffline(progress)).resolves.toEqual({ datasetVersion, fileCount: 2, totalBytes: 30 })
+    await expect(saveCompleteAtlasOffline(progress)).resolves.toEqual({ datasetVersion, fileCount: 3, totalBytes: 42 })
 
-    expect(progress).toHaveBeenLastCalledWith({ datasetVersion, fileCount: 2, totalBytes: 30, completedFiles: 2, completedBytes: 30 })
+    expect(progress).toHaveBeenLastCalledWith({ datasetVersion, fileCount: 3, totalBytes: 42, completedFiles: 3, completedBytes: 42 })
     expect([...stored.keys()].some((url) => url.endsWith('current.json'))).toBe(true)
     expect([...stored.keys()].some((url) => url.endsWith('releases.json'))).toBe(true)
     expect([...stored.keys()].some((url) => url.endsWith('release-files.json'))).toBe(true)
     expect([...stored.keys()].some((url) => url.endsWith(files[0].url))).toBe(true)
     expect([...stored.keys()].some((url) => url.endsWith(files[1].url))).toBe(true)
-    expect([...stored.keys()].some((url) => url.endsWith(files[2].url))).toBe(false)
+    expect([...stored.keys()].some((url) => url.endsWith(files[2].url))).toBe(true)
+    expect([...stored.keys()].some((url) => url.endsWith(files[3].url))).toBe(false)
   })
 })

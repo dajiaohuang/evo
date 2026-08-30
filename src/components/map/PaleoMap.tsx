@@ -3,11 +3,16 @@ import { MapContainer, GeoJSON, Polyline, Tooltip } from 'react-leaflet'
 import type { Map as LeafletMap } from 'leaflet'
 import { useAppStore } from '../../store'
 import { usePaleogeography } from '../../hooks/usePaleogeography'
+import { useCaoObservations } from '../../hooks/useCaoObservations'
 import { FossilMarkers, type MarkerMode } from './FossilMarkers'
+import { CaoObservationLayers } from './CaoObservationLayers'
 import { getSpatialPosition, hasSpatialPosition, type CoordinateMode } from '../../utils/spatial'
+import { observationsToGeoJson, visibleCaoObservations } from '../../utils/caoObservations'
+import { runtimeDataUrl } from '../../data-client/staticDataClient'
 import { MIN_MAP_ZOOM, MAX_MAP_ZOOM, DEFAULT_MAP_CENTER, DEFAULT_MAP_ZOOM } from '../../constants'
 import { useI18n } from '../../i18n'
-import type { FossilOccurrence, PaleogeographyLayerId } from '../../types'
+import { CAO_OBSERVATION_DATASET_IDS, type CaoObservationDatasetId, type CaoObservationRecord, type FossilOccurrence, type PaleogeographyLayerId } from '../../types'
+import type { RuntimeMapObservationDataset } from '../../data-client/types'
 
 interface TrajectoryBin {
   ageMa: number
@@ -44,6 +49,28 @@ function occurrenceTrajectory(records: FossilOccurrence[], coordinateMode: Coord
   }).sort((left, right) => right.ageMa - left.ageMa)
 }
 
+function downloadJson(filename: string, value: unknown) {
+  const url = URL.createObjectURL(new Blob([`${JSON.stringify(value, null, 2)}\n`], { type: 'application/geo+json' }))
+  const anchor = document.createElement('a')
+  anchor.href = url
+  anchor.download = filename
+  anchor.click()
+  URL.revokeObjectURL(url)
+}
+
+function rawValue(value: unknown): string {
+  if (value === '') return '(empty source value)'
+  if (value === null) return 'null'
+  return String(value)
+}
+
+function formatObservationPositions(positions: CaoObservationRecord['sourcePositions'] | null): string {
+  if (!positions) return 'unavailable'
+  const entries = Object.entries(positions)
+  if (!entries.length) return 'unavailable'
+  return entries.map(([key, position]) => `${key}: [${position[0]}, ${position[1]}]`).join(' · ')
+}
+
 export function PaleoMap() {
   const { number, t } = useI18n()
   const [showTrajectory, setShowTrajectory] = useState(false)
@@ -52,6 +79,8 @@ export function PaleoMap() {
   const [showContinentalCrust, setShowContinentalCrust] = useState(false)
   const [showContinentOceanBoundaries, setShowContinentOceanBoundaries] = useState(false)
   const [showStaticPolygons, setShowStaticPolygons] = useState(false)
+  const [enabledObservationDatasets, setEnabledObservationDatasets] = useState<Set<CaoObservationDatasetId>>(() => new Set())
+  const [selectedObservation, setSelectedObservation] = useState<{ record: CaoObservationRecord; descriptor: RuntimeMapObservationDataset } | null>(null)
   const markerMode = useAppStore((s) => s.markerMode) as MarkerMode
   const coordinateMode = useAppStore((s) => s.coordinateMode) as CoordinateMode
   const showContinents = useAppStore((s) => s.showContinents)
@@ -86,6 +115,16 @@ export function PaleoMap() {
     loadingLayers,
     layerErrors,
   } = usePaleogeography(currentAge, requestedPaleogeographyLayers)
+  const requestedObservationDatasets = useMemo(
+    () => CAO_OBSERVATION_DATASET_IDS.filter((datasetId) => enabledObservationDatasets.has(datasetId)),
+    [enabledObservationDatasets],
+  )
+  const {
+    collections: observationCollections,
+    descriptors: observationDescriptors,
+    loading: observationLoading,
+    errors: observationErrors,
+  } = useCaoObservations(requestedObservationDatasets)
 
   useEffect(() => {
     if (currentPeriod) {
@@ -155,6 +194,28 @@ export function PaleoMap() {
   const anyLayerLoading = landLayerLoading || requestedPaleogeographyLayers.some((layerId) => loadingLayers[layerId])
   const visibleLayerErrors = requestedPaleogeographyLayers.flatMap((layerId) => layerErrors[layerId] ? [[layerId, layerErrors[layerId]] as const] : [])
   const primaryMapSelection = mapSelections.coastlines ?? mapSelections.platePolygons ?? mapSelections.plateBoundaries
+  const observationGroups = useMemo(() => requestedObservationDatasets.flatMap((datasetId) => {
+    const collection = observationCollections[datasetId]
+    const descriptor = observationDescriptors[datasetId]
+    return collection && descriptor ? [{ datasetId, collection, descriptor, visible: visibleCaoObservations(collection.records, currentAge) }] : []
+  }), [currentAge, observationCollections, observationDescriptors, requestedObservationDatasets])
+  const visibleObservationRecords = useMemo(() => observationGroups.flatMap((group) => group.visible.map((record) => ({ record, descriptor: group.descriptor }))), [observationGroups])
+  const anyObservationLoading = requestedObservationDatasets.some((datasetId) => observationLoading[datasetId])
+
+  function toggleObservationDataset(datasetId: CaoObservationDatasetId, enabled: boolean) {
+    setEnabledObservationDatasets((current) => {
+      const next = new Set(current)
+      if (enabled) next.add(datasetId)
+      else next.delete(datasetId)
+      return next
+    })
+    if (!enabled && selectedObservation?.record.observationKind === datasetId) setSelectedObservation(null)
+  }
+
+  function exportVisibleObservations() {
+    const features = observationGroups.flatMap(({ collection, descriptor }) => observationsToGeoJson(collection.records, descriptor, currentAge).features)
+    downloadJson(`evo-cao2024-observations-${currentAge.toFixed(3)}-ma.geojson`, { type: 'FeatureCollection', features })
+  }
 
   return (
     <div style={{ height: '100%', width: '100%', position: 'relative' }}>
@@ -165,6 +226,7 @@ export function PaleoMap() {
         maxZoom={MAX_MAP_ZOOM}
         zoomControl={true}
         attributionControl={false}
+        preferCanvas={true}
         style={{ height: '100%', width: '100%', background: '#07171c' }}
         ref={mapRef}
       >
@@ -261,6 +323,13 @@ export function PaleoMap() {
             }}
           />
         )}
+        <CaoObservationLayers
+          ageMa={currentAge}
+          datasetIds={requestedObservationDatasets}
+          collections={observationCollections}
+          descriptors={observationDescriptors}
+          onSelect={(record, descriptor) => setSelectedObservation({ record, descriptor })}
+        />
         <FossilMarkers mode={markerMode} coordinateMode={coordinateMode} />
         {showTrajectory && trajectory.length > 1 && <Polyline positions={trajectory.map((bin) => [bin.latitude, bin.longitude])} pathOptions={{ color: '#d8aa68', weight: 2, dashArray: '5 5', opacity: .9 }}><Tooltip sticky><div>{t('Sample centroid trajectory')}<br />{t('{count} time bins · latitude change {shift}°', { count: trajectory.length, shift: `${latitudinalShift! >= 0 ? '+' : ''}${latitudinalShift!.toFixed(1)}` })}</div></Tooltip></Polyline>}
       </MapContainer>
@@ -322,6 +391,24 @@ export function PaleoMap() {
         <label title={t('Rigid reconstruction partitions used for plate-ID assignment; not dynamic topological plate coverage.')}>
           <input type="checkbox" checked={showStaticPolygons} disabled={!landLayerAvailable || landLayerLoading || !mapManifest?.layers?.staticPolygons?.frames.length} onChange={(event) => setShowStaticPolygons(event.target.checked)} /> {t('static reconstruction partitions')}
         </label>
+        <span>{t('CAO2024 observations and constraints')}</span>
+        {CAO_OBSERVATION_DATASET_IDS.map((datasetId) => {
+          const descriptor = mapManifest?.observations?.datasets[datasetId]
+          const visibleCount = observationGroups.find((group) => group.datasetId === datasetId)?.visible.length
+          return <label key={datasetId} title={descriptor ? t('Source observations filtered by their original age interval; reconstructed positions use the midpoint shared with the 0–1,800 Ma model range.') : undefined}>
+            <input
+              type="checkbox"
+              checked={enabledObservationDatasets.has(datasetId)}
+              disabled={!descriptor}
+              onChange={(event) => toggleObservationDataset(datasetId, event.target.checked)}
+            />
+            <span>{descriptor ? t(descriptor.title) : t(datasetId)}{visibleCount === undefined ? '' : ` · ${number(visibleCount)}`}</span>
+          </label>
+        })}
+        {requestedObservationDatasets.length > 0 && <small>{t('Observation points are source data or model constraints, not geometry, terrain, elevation or bathymetry. Raw source positions never replace missing reconstructed positions.')}</small>}
+        {anyObservationLoading && <small role="status">{t('Loading checksum-verified CAO2024 observations…')}</small>}
+        {requestedObservationDatasets.flatMap((datasetId) => observationErrors[datasetId] ? [<small role="alert" title={observationErrors[datasetId]} key={datasetId}>{t('{dataset} observations are unavailable.', { dataset: t(mapManifest?.observations?.datasets[datasetId]?.title ?? datasetId) })}</small>] : [])}
+        {visibleObservationRecords.length > 0 && <button type="button" className="observation-export" onClick={exportVisibleObservations}>{t('Export visible observations GeoJSON')}</button>}
         <label title={t('Connects time-binned sample centroids; it is not a biological dispersal route.')}>
           <input type="checkbox" checked={showTrajectory && trajectory.length > 1} disabled={trajectory.length < 2} onChange={(event) => setShowTrajectory(event.target.checked)} /> {t('sample centroid trajectory')}
         </label>
@@ -341,6 +428,40 @@ export function PaleoMap() {
           {mapManifest && <div><dt>{t('Source')}</dt><dd><a href={mapManifest.source.url} target="_blank" rel="noreferrer">Cao et al. 2024 · {mapManifest.source.license}</a></dd></div>}
         </dl>
       </div>
+
+      {selectedObservation && <section className="cao-observation-detail" aria-live="polite" aria-label={t('CAO2024 observation details')}>
+        <header>
+          <div><small>{t(selectedObservation.descriptor.role)}</small><h3>{selectedObservation.record.name ?? selectedObservation.record.sourceFeatureId}</h3></div>
+          <button type="button" aria-label={t('Close observation details')} onClick={() => setSelectedObservation(null)}>×</button>
+        </header>
+        <p>{t(selectedObservation.descriptor.title)}</p>
+        <dl>
+          <div><dt>{t('Source feature ID')}</dt><dd><code>{selectedObservation.record.sourceFeatureId}</code></dd></div>
+          <div><dt>{t('Source feature type')}</dt><dd>{selectedObservation.record.sourceFeatureType}</dd></div>
+          <div><dt>{t('Source file')}</dt><dd><code>{selectedObservation.descriptor.sourceFile}</code></dd></div>
+          <div><dt>{t('Upstream reference field')}</dt><dd>{selectedObservation.record.referenceId ?? t('not supplied by this source feature')}</dd></div>
+          <div><dt>{t('Source revision ID')}</dt><dd><code>{selectedObservation.record.sourceRevisionId}</code></dd></div>
+          <div><dt>{t('Source age interval')}</dt><dd>{selectedObservation.record.age.rawFromLexeme}–{selectedObservation.record.age.rawToLexeme} Ma</dd></div>
+          <div><dt>{t('Plate ID')}</dt><dd>{selectedObservation.record.plateId ?? t('not supplied')}</dd></div>
+          <div><dt>{t('Source positions [longitude, latitude]')}</dt><dd>{t(formatObservationPositions(selectedObservation.record.sourcePositions))}</dd></div>
+          <div><dt>{t('Reconstructed positions [longitude, latitude]')}</dt><dd>{t(formatObservationPositions(selectedObservation.record.reconstructedPositions))}</dd></div>
+          <div><dt>{t('Reconstruction status')}</dt><dd>{t(selectedObservation.record.reconstructionStatus)}</dd></div>
+          <div><dt>{t('Reconstruction age')}</dt><dd>{selectedObservation.record.age.reconstructionAgeMa === null ? t('unavailable') : `${selectedObservation.record.age.reconstructionAgeMa} Ma · ${t(selectedObservation.record.age.reconstructionAgeMethod ?? 'unavailable')}`}</dd></div>
+          <div><dt>{t('Sample ID')}</dt><dd>{selectedObservation.record.sampleId ?? t('not supplied')}</dd></div>
+          <div><dt>{t('Pole A95')}</dt><dd>{selectedObservation.record.poleA95Lexeme ?? t('not supplied')}</dd></div>
+          <div><dt>{t('Source flags')}</dt><dd>{selectedObservation.record.sourceFlags.length ? selectedObservation.record.sourceFlags.map((flag) => t(flag)).join(', ') : t('none')}</dd></div>
+        </dl>
+        <p>{t('The map filters the untouched source-age interval. The plotted point was reconstructed at its disclosed representative age, which may differ from the current map frame.')}</p>
+        <table>
+          <caption>{t('Raw upstream fields')}</caption>
+          <thead><tr><th>{t('Field')}</th><th>{t('Value type')}</th><th>{t('Exact source lexeme')}</th></tr></thead>
+          <tbody>{selectedObservation.record.sourceAttributes.map(([key, valueType, lexeme], index) => <tr key={`${key}:${index}`}><th>{key}</th><td>{valueType}</td><td>{t(rawValue(lexeme))}</td></tr>)}</tbody>
+        </table>
+        <div className="cao-observation-detail__links">
+          <a href={mapManifest?.source.url} target="_blank" rel="noreferrer">{t('Open pinned source record')}</a>
+          {selectedObservation.descriptor.files.map((file, index) => <a key={file.url} href={runtimeDataUrl(file.url)} download>{t('Dataset shard {index}', { index: index + 1 })}</a>)}
+        </div>
+      </section>}
 
       <details className="map-data-alternative">
         <summary>{t('Text and table alternative')}</summary>
@@ -368,6 +489,24 @@ export function PaleoMap() {
               <thead><tr><th>{t('Boundary type')}</th><th>{t('Features')}</th></tr></thead>
               <tbody>{cobTypeCounts.map(([type, count]) => <tr key={type}><td>{t(type)}</td><td>{number(count)}</td></tr>)}</tbody>
             </table>}
+          </>}
+          {requestedObservationDatasets.length > 0 && <>
+            <h3>{t('CAO2024 observation and constraint summary')}</h3>
+            <p>{t('{visible} reconstructed observations intersect {age} Ma across the enabled datasets. All {total} source records, including {rawOnly} raw-only records outside the supported reconstruction range, remain in the fixed dataset shards.', {
+              visible: number(visibleObservationRecords.length),
+              age: number(currentAge),
+              total: number(observationGroups.reduce((sum, group) => sum + group.descriptor.records, 0)),
+              rawOnly: number(observationGroups.reduce((sum, group) => sum + group.descriptor.rawOnlyRecords, 0)),
+            })}</p>
+            <p>{t('These points are observations or model constraints. They are not paleoelevation, bathymetry, terrain, coastlines or direct measurements of an entire ancient surface.')}</p>
+            <table>
+              <caption>{t('Active observation records')}</caption>
+              <thead><tr><th>{t('Dataset')}</th><th>{t('Source age interval')}</th><th>{t('Reference')}</th><th>{t('Details')}</th></tr></thead>
+              <tbody>{visibleObservationRecords.slice(0, 100).map(({ record, descriptor }) => <tr key={`${record.observationKind}:${record.sourceFeatureId}`}>
+                <td>{t(descriptor.title)}</td><td>{record.age.rawFromLexeme}–{record.age.rawToLexeme} Ma</td><td>{record.referenceId ?? t('not supplied')}</td>
+                <td><button type="button" onClick={() => setSelectedObservation({ record, descriptor })}>{t('View raw fields')}</button></td>
+              </tr>)}</tbody>
+            </table>
           </>}
           <p>{t('{count} records have {mode} coordinates in the loaded {period} sample. The table shows the first {shown}.', { count: number(positionedRecords.length), mode: t(coordinateMode), period: t(currentPeriod ?? 'selected interval'), shown: number(Math.min(100, positionedRecords.length)) })}</p>
           <table>

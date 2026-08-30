@@ -1,5 +1,13 @@
 # Dataset changelog
 
+## App 0.20.3 / 2026.08-static-v5-rc52 — 2026-08-31
+
+- Imported every point-data payload omitted from the earlier CAO2024 v2.4 geometry-only integration: 208 palaeomagnetic-pole records, 43,364 geochemistry observations and 603 metamorphic-gradient constraints, for 44,175 source records in five independent datasets and twenty deterministic gzip shards.
+- Preserved GPML identities, revisions, raw age lexemes, plate IDs, source positions, upstream `ref_id` values and every typed source attribute. Kept and flagged 60 inverted age intervals, 16 negative younger bounds and four negative `sio2` values instead of silently correcting upstream data; palaeomagnetic records truthfully retain `referenceId: null`.
+- Reconstructed 41,320 records at the midpoint of the explicit source interval intersected with 0–1,800 Ma using the pinned CAO2024 rotations and anchor plate 0. Kept 2,852 fully out-of-range records and three records without a plate circuit as source-only; identity fallback and model-range extrapolation are disabled.
+- Published the five point datasets separately from the six geometry families, with inclusive source-age filtering, Canvas rendering and record-level details. They are observations or constraints, not terrain, elevation, bathymetry or direct paleotopography.
+- Added all twenty observation shards to the shared immutable release inventory and native app resources. Android `versionCode` and iOS build number advance to `6`; Web, Android and iOS use the same checksummed data bytes.
+
 ## App 0.20.2 / 2026.08-static-v5-rc51 — 2026-08-31
 
 - Kept the immutable rc51 scientific dataset unchanged while making all resolving-name targets locally dereferenceable. Accepted-target records outside the strict accepted-species hierarchy now open a truthful release-scoped page with their actual rank, status, source checklist and upstream record instead of a false not-found page.

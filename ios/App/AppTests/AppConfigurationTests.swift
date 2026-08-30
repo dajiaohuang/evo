@@ -38,13 +38,40 @@ final class AppConfigurationTests: XCTestCase {
                 return !path.contains("/downloads/") && path.contains(area)
             }
             let record = try XCTUnwrap(sample, "Missing bundled inventory area \(area)")
-            let path = try XCTUnwrap(record["url"] as? String)
-            let sampleURL = dataRoot.appendingPathComponent(path)
-            XCTAssertTrue(FileManager.default.fileExists(atPath: sampleURL.path), "Missing bundled file \(path)")
-            let data = try Data(contentsOf: sampleURL)
-            XCTAssertEqual(data.count, record["bytes"] as? Int, "Bundled byte count \(path)")
-            XCTAssertEqual(SHA256.hash(data: data).map { String(format: "%02x", $0) }.joined(), record["sha256"] as? String, "Bundled checksum \(path)")
+            try verifyBundled(record: record, below: dataRoot)
         }
+
+        let mapsDescriptor = try XCTUnwrap((current["maps"] as? [String: Any])?["manifest"] as? [String: Any])
+        let mapsPath = try XCTUnwrap(mapsDescriptor["url"] as? String)
+        let maps = try jsonObject(at: dataRoot.appendingPathComponent(mapsPath))
+        let observations = try XCTUnwrap(maps["observations"] as? [String: Any])
+        XCTAssertEqual(observations["totalRecords"] as? Int, 44_175)
+        XCTAssertEqual(observations["reconstructedRecords"] as? Int, 41_320)
+        let datasets = try XCTUnwrap(observations["datasets"] as? [String: [String: Any]])
+        XCTAssertEqual(datasets.count, 5)
+        var observationFiles = 0
+        for datasetId in ["paleomagnetic-poles", "geochemistry", "metamorphic-gradient-orogen", "metamorphic-gradient-rift", "metamorphic-gradient-subduction-zone"] {
+            let dataset = try XCTUnwrap(datasets[datasetId])
+            let descriptors = try XCTUnwrap(dataset["files"] as? [[String: Any]])
+            for descriptor in descriptors {
+                let path = try XCTUnwrap(descriptor["url"] as? String)
+                let inventoryRecord = try XCTUnwrap(files.first { ($0["url"] as? String) == path }, "Observation shard missing from release inventory")
+                XCTAssertEqual(descriptor["bytes"] as? Int, inventoryRecord["bytes"] as? Int)
+                XCTAssertEqual(descriptor["sha256"] as? String, inventoryRecord["sha256"] as? String)
+                try verifyBundled(record: inventoryRecord, below: dataRoot)
+                observationFiles += 1
+            }
+        }
+        XCTAssertEqual(observationFiles, 20)
+    }
+
+    private func verifyBundled(record: [String: Any], below dataRoot: URL) throws {
+        let path = try XCTUnwrap(record["url"] as? String)
+        let sampleURL = dataRoot.appendingPathComponent(path)
+        XCTAssertTrue(FileManager.default.fileExists(atPath: sampleURL.path), "Missing bundled file \(path)")
+        let data = try Data(contentsOf: sampleURL)
+        XCTAssertEqual(data.count, record["bytes"] as? Int, "Bundled byte count \(path)")
+        XCTAssertEqual(SHA256.hash(data: data).map { String(format: "%02x", $0) }.joined(), record["sha256"] as? String, "Bundled checksum \(path)")
     }
 
     private func jsonObject(at url: URL) throws -> [String: Any] {

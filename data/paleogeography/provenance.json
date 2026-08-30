@@ -75,7 +75,13 @@
     "scriptCommitRole": "Generation worktree base; scriptSha256 identifies the exact reviewed generator content.",
     "scriptSha256": "e37d4d0e9dfd6d3bf5c936106245e0e817064543624b9e9a1f7802736f317423",
     "coordinatePrecisionDecimals": 4,
-    "method": "Verify all eleven CAO2024 v2.4 model payloads by SHA-256, reconstruct locally with pyGPlates using anchor plate 0, wrap at the antimeridian, retain strict COB semantics, remove deterministic duplicates and publish layer-specific nearest-frame series without interpolation."
+    "method": "Verify all eleven CAO2024 v2.4 geometry-reconstruction payloads by SHA-256, reconstruct locally with pyGPlates using anchor plate 0, wrap at the antimeridian, retain strict COB semantics, remove deterministic duplicates and publish layer-specific nearest-frame series without interpolation. The five point-data payloads use the separate checksum-addressed observations manifest."
+  },
+  "observations": {
+    "manifest": "data/paleogeography/observations/manifest.json",
+    "datasets": 5,
+    "records": 44175,
+    "relationshipToGeometry": "Observational and constraint points are published separately from the six geometry series and are never interpreted as terrain, elevation, bathymetry or direct paleotopography."
   },
   "retrievedAt": "2026-08-29",
   "attribution": "Cao et al. (2024), reconstructed through the GPlates Web Service operated by the EarthByte Group and AuScope.",
