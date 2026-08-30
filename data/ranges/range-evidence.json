@@ -1541,31 +1541,29 @@
     "id": "range:chelicerata:global",
     "entityId": "chelicerata",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Chelicerata",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 510,
+    "taxonomicConcept": "Chelicerata total-group navigation concept",
+    "geographicScope": "Chengjiang stem sample plus living total-group navigation",
+    "olderMa": 519,
     "youngerMa": 0,
     "status": "available",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "note": "The older endpoint is the dossier-bounded Chengjiang Urokodia sample under the study's stem-chelicerate topology, not a crown-group age or uncontested global first appearance."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
-    "confidence": "medium",
-    "claimIds": [],
+    "evidenceBasis": "The older display bound follows the cited Urokodia occurrence and analytical stem-chelicerate placement; the living endpoint reflects extant total-group members and does not imply uninterrupted sampling.",
+    "confidence": "contested",
+    "claimIds": [
+      "claim:event:urokodia-chelicera-book-gill"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
-      },
-      {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "liu-2026-urokodia",
+        "locator": "pp. 653–658; Figs. 1–4; Supplementary phylogenetic analyses; Chengjiang occurrence and stem-chelicerate placement"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "literature-synthesized"
   },
   {
     "id": "range:eurypterida:global",
@@ -10190,5 +10188,541 @@
       }
     ],
     "reviewStatus": "automated-audit-passed"
+  },
+  {
+    "id": "range:trilobite-evidence-samples:trilobites-chelicerates-evidence",
+    "entityId": "trilobite-evidence-samples",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Trilobite primary-evidence navigation sample",
+    "geographicScope": "Global sampled record",
+    "olderMa": 521,
+    "youngerMa": 443,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "A navigation envelope spanning separate sampled dossiers; not a lineage or continuous occurrence."
+    },
+    "evidenceBasis": "The displayed interval is a navigation envelope across separate evidence and is not a phylogenetic or occurrence claim.",
+    "evidenceLevel": "legacy-display",
+    "confidence": "low",
+    "claimIds": [],
+    "referenceLocators": [
+      {
+        "referenceId": "open-tree",
+        "locator": "https://opentreeoflife.github.io/use"
+      }
+    ],
+    "reviewStatus": "not-reviewed"
+  },
+  {
+    "id": "range:protolenus:trilobites-chelicerates-evidence",
+    "entityId": "protolenus",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Protolenus Tatelt specimens",
+    "geographicScope": "Tatelt Formation, Morocco",
+    "olderMa": 515,
+    "youngerMa": 514,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Study-level formation envelope for the scanned specimens, not a global genus range."
+    },
+    "evidenceBasis": "The displayed interval is bounded to the cited dossier sample or model and does not establish a global first appearance, origin or uninterrupted lineage.",
+    "evidenceLevel": "literature-synthesized",
+    "confidence": "high",
+    "claimIds": [
+      "claim:event:tatelt-trilobite-3d-anatomy"
+    ],
+    "referenceLocators": [
+      {
+        "referenceId": "el-albani-2024-trilobite-3d",
+        "locator": "1429–1435; Figures 1–4; Extended Data; Specimens; Microtomographic reconstruction; Ventral anatomy"
+      }
+    ],
+    "reviewStatus": "automated-audit-passed"
+  },
+  {
+    "id": "range:gigoutella:trilobites-chelicerates-evidence",
+    "entityId": "gigoutella",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Gigoutella Tatelt specimens",
+    "geographicScope": "Tatelt Formation, Morocco",
+    "olderMa": 515,
+    "youngerMa": 514,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Study-level formation envelope for the scanned specimens, not a global genus range."
+    },
+    "evidenceBasis": "The displayed interval is bounded to the cited dossier sample or model and does not establish a global first appearance, origin or uninterrupted lineage.",
+    "evidenceLevel": "literature-synthesized",
+    "confidence": "high",
+    "claimIds": [
+      "claim:event:tatelt-trilobite-3d-anatomy"
+    ],
+    "referenceLocators": [
+      {
+        "referenceId": "el-albani-2024-trilobite-3d",
+        "locator": "1429–1435; Figures 1–4; Extended Data; Specimens; Microtomographic reconstruction; Ventral anatomy"
+      }
+    ],
+    "reviewStatus": "automated-audit-passed"
+  },
+  {
+    "id": "range:olenoides:trilobites-chelicerates-evidence",
+    "entityId": "olenoides",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Olenoides respiratory-appendage sample",
+    "geographicScope": "Burgess Shale, Canada",
+    "olderMa": 509,
+    "youngerMa": 505,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Formation-level sample envelope, not a global first or last appearance."
+    },
+    "evidenceBasis": "The displayed interval is bounded to the cited dossier sample or model and does not establish a global first appearance, origin or uninterrupted lineage.",
+    "evidenceLevel": "literature-synthesized",
+    "confidence": "medium",
+    "claimIds": [
+      "claim:event:trilobite-upper-limb-gill"
+    ],
+    "referenceLocators": [
+      {
+        "referenceId": "hou-2021-trilobite-gill",
+        "locator": "eabe7377; Figures 1–5; Supplementary materials; Triarthrus imaging; Olenoides articulation; Functional comparison"
+      }
+    ],
+    "reviewStatus": "automated-audit-passed"
+  },
+  {
+    "id": "range:triarthrus:trilobites-chelicerates-evidence",
+    "entityId": "triarthrus",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Triarthrus respiratory-appendage sample",
+    "geographicScope": "Beecher’s Trilobite Bed, New York, USA",
+    "olderMa": 450,
+    "youngerMa": 443,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Broad Upper Ordovician sample envelope, not a direct specimen date or global range."
+    },
+    "evidenceBasis": "The displayed interval is bounded to the cited dossier sample or model and does not establish a global first appearance, origin or uninterrupted lineage.",
+    "evidenceLevel": "literature-synthesized",
+    "confidence": "medium",
+    "claimIds": [
+      "claim:event:trilobite-upper-limb-gill"
+    ],
+    "referenceLocators": [
+      {
+        "referenceId": "hou-2021-trilobite-gill",
+        "locator": "eabe7377; Figures 1–5; Supplementary materials; Triarthrus imaging; Olenoides articulation; Functional comparison"
+      }
+    ],
+    "reviewStatus": "automated-audit-passed"
+  },
+  {
+    "id": "range:bohemolichas:trilobites-chelicerates-evidence",
+    "entityId": "bohemolichas",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Bohemolichas incola gut-content occurrence",
+    "geographicScope": "Šárka Formation, Czech Republic",
+    "olderMa": 466,
+    "youngerMa": 463,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Study-level Darriwilian occurrence, not a global genus range."
+    },
+    "evidenceBasis": "The displayed interval is bounded to the cited dossier sample or model and does not establish a global first appearance, origin or uninterrupted lineage.",
+    "evidenceLevel": "literature-synthesized",
+    "confidence": "high",
+    "claimIds": [
+      "claim:event:bohemolichas-gut-contents"
+    ],
+    "referenceLocators": [
+      {
+        "referenceId": "kraft-2023-trilobite-gut",
+        "locator": "545–551; Figures 1–4; Extended Data; Specimen inventory no. 8; Gut-content mapping; Palaeophysiological interpretation"
+      }
+    ],
+    "reviewStatus": "automated-audit-passed"
+  },
+  {
+    "id": "range:agnostina:trilobites-chelicerates-evidence",
+    "entityId": "agnostina",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Burgess Shale agnostinid evidence route",
+    "geographicScope": "Burgess Shale, Canada",
+    "olderMa": 509,
+    "youngerMa": 506,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Dossier sample envelope; Agnostina has a broader fossil range and contested affinity."
+    },
+    "evidenceBasis": "The displayed interval is bounded to the cited dossier sample or model and does not establish a global first appearance, origin or uninterrupted lineage.",
+    "evidenceLevel": "literature-synthesized",
+    "confidence": "medium",
+    "claimIds": [
+      "claim:event:burgess-agnostid-topology"
+    ],
+    "referenceLocators": [
+      {
+        "referenceId": "moysiuk-caron-2019-agnostids",
+        "locator": "20182314; Figures 1–4; Supplementary phylogeny; Adult specimens; Appendage reconstruction; Phylogenetic analysis"
+      }
+    ],
+    "reviewStatus": "automated-audit-passed"
+  },
+  {
+    "id": "range:stem-chelicerate-evidence:trilobites-chelicerates-evidence",
+    "entityId": "stem-chelicerate-evidence",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Cambrian stem-chelicerate evidence route",
+    "geographicScope": "Chengjiang, Wheeler and Burgess Shale samples",
+    "olderMa": 519,
+    "youngerMa": 500.5,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "A navigation envelope across separate fossils and competing topologies, not a lineage duration."
+    },
+    "evidenceBasis": "The displayed interval is a navigation envelope across separate evidence and is not a phylogenetic or occurrence claim.",
+    "evidenceLevel": "legacy-display",
+    "confidence": "low",
+    "claimIds": [],
+    "referenceLocators": [
+      {
+        "referenceId": "open-tree",
+        "locator": "https://opentreeoflife.github.io/use"
+      }
+    ],
+    "reviewStatus": "not-reviewed"
+  },
+  {
+    "id": "range:urokodia:trilobites-chelicerates-evidence",
+    "entityId": "urokodia",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Urokodia aequalis Chengjiang sample",
+    "geographicScope": "Chengjiang biota, China",
+    "olderMa": 519,
+    "youngerMa": 518,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Formation-level occurrence of scanned specimens, not a global FAD."
+    },
+    "evidenceBasis": "The displayed interval is bounded to the cited dossier sample or model and does not establish a global first appearance, origin or uninterrupted lineage.",
+    "evidenceLevel": "literature-synthesized",
+    "confidence": "medium",
+    "claimIds": [
+      "claim:event:urokodia-chelicera-book-gill"
+    ],
+    "referenceLocators": [
+      {
+        "referenceId": "liu-2026-urokodia",
+        "locator": "653–658; Figures 1–3; Extended Data; Microtomographic reconstruction; Appendage homology; Phylogenetic analyses"
+      }
+    ],
+    "reviewStatus": "automated-audit-passed"
+  },
+  {
+    "id": "range:megachelicerax:trilobites-chelicerates-evidence",
+    "entityId": "megachelicerax",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Megachelicerax cousteaui holotype occurrence",
+    "geographicScope": "Wheeler Formation, Utah, USA",
+    "olderMa": 504.5,
+    "youngerMa": 500.5,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Drumian formation envelope, not a direct radiometric date or global FAD."
+    },
+    "evidenceBasis": "The displayed interval is bounded to the cited dossier sample or model and does not establish a global first appearance, origin or uninterrupted lineage.",
+    "evidenceLevel": "literature-synthesized",
+    "confidence": "high",
+    "claimIds": [
+      "claim:event:megachelicerax-chelicerae"
+    ],
+    "referenceLocators": [
+      {
+        "referenceId": "lerosey-aubril-ortega-2026-megachelicerax",
+        "locator": "931–937; Figures 1–3; Extended Data; Holotype KUMIP 314091; External morphology; Phylogenetic analyses"
+      }
+    ],
+    "reviewStatus": "automated-audit-passed"
+  },
+  {
+    "id": "range:mollisonia:trilobites-chelicerates-evidence",
+    "entityId": "mollisonia",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Mollisonia symmetrica neuroanatomy sample",
+    "geographicScope": "Burgess Shale, Canada",
+    "olderMa": 508.1,
+    "youngerMa": 505,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Burgess Shale sample envelope, not a global genus range."
+    },
+    "evidenceBasis": "The displayed interval is bounded to the cited dossier sample or model and does not establish a global first appearance, origin or uninterrupted lineage.",
+    "evidenceLevel": "literature-synthesized",
+    "confidence": "contested",
+    "claimIds": [
+      "claim:event:mollisonia-neuroanatomy-mosaic"
+    ],
+    "referenceLocators": [
+      {
+        "referenceId": "ortega-hernandez-2022-mollisonia-neuroanatomy",
+        "locator": "410; Figures 1–5; Supplementary Figures; MCZ 1811 and USNM 305093; Elemental mapping; Alternative topologies"
+      }
+    ],
+    "reviewStatus": "automated-audit-passed"
+  },
+  {
+    "id": "range:jaekelopterus:trilobites-chelicerates-evidence",
+    "entityId": "jaekelopterus",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Jaekelopterus rhenaniae giant-chelicera occurrence",
+    "geographicScope": "Willwerath Lagerstätte, Germany",
+    "olderMa": 411,
+    "youngerMa": 407,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Broad Early Devonian locality envelope, not a direct date or whole-genus range."
+    },
+    "evidenceBasis": "The displayed interval is bounded to the cited dossier sample or model and does not establish a global first appearance, origin or uninterrupted lineage.",
+    "evidenceLevel": "literature-synthesized",
+    "confidence": "medium",
+    "claimIds": [
+      "claim:event:jaekelopterus-giant-chelicera"
+    ],
+    "referenceLocators": [
+      {
+        "referenceId": "braddy-2008-jaekelopterus",
+        "locator": "106–109; Figures 1–2; Willwerath chelicera; Body-length scaling; Assumptions"
+      }
+    ],
+    "reviewStatus": "automated-audit-passed"
+  },
+  {
+    "id": "range:xiphosura:trilobites-chelicerates-evidence",
+    "entityId": "xiphosura",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Xiphosuran total-group navigation and matrix span",
+    "geographicScope": "Global fossil and living sample",
+    "olderMa": 480,
+    "youngerMa": 0,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Rounded model/navigation envelope; internal topology is contested and this is not uninterrupted occupancy."
+    },
+    "evidenceBasis": "The displayed interval is bounded to the cited dossier sample or model and does not establish a global first appearance, origin or uninterrupted lineage.",
+    "evidenceLevel": "literature-synthesized",
+    "confidence": "medium",
+    "claimIds": [
+      "claim:event:xiphosura-total-group-topology"
+    ],
+    "referenceLocators": [
+      {
+        "referenceId": "lamsdell-2020-xiphosura",
+        "locator": "e10431; Figures 1–13; Supplemental matrices; Character matrix; Phylogenetic results; Revised systematics"
+      }
+    ],
+    "reviewStatus": "automated-audit-passed"
+  },
+  {
+    "id": "range:pycnogonida:trilobites-chelicerates-evidence",
+    "entityId": "pycnogonida",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Pycnogonida navigation range",
+    "geographicScope": "Global fossil and living record",
+    "olderMa": 500,
+    "youngerMa": 0,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Legacy navigation envelope; fossil assignments and first appearance remain sampling-dependent."
+    },
+    "evidenceBasis": "The displayed interval is a navigation envelope across separate evidence and is not a phylogenetic or occurrence claim.",
+    "evidenceLevel": "legacy-display",
+    "confidence": "low",
+    "claimIds": [],
+    "referenceLocators": [
+      {
+        "referenceId": "open-tree",
+        "locator": "https://opentreeoflife.github.io/use"
+      }
+    ],
+    "reviewStatus": "not-reviewed"
+  },
+  {
+    "id": "range:arachnida:trilobites-chelicerates-evidence",
+    "entityId": "arachnida",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Arachnida topology-model navigation range",
+    "geographicScope": "Global fossil and living sample",
+    "olderMa": 485,
+    "youngerMa": 0,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Older endpoint is a broad model/navigation value, not a fossil crown age or agreed terrestrialization date."
+    },
+    "evidenceBasis": "Rounded navigation-only envelope retained for display; the cited topology studies do not establish its 485 Ma endpoint, a crown age or one agreed terrestrialization event.",
+    "evidenceLevel": "legacy-display",
+    "confidence": "contested",
+    "claimIds": [],
+    "referenceLocators": [
+      {
+        "referenceId": "lozano-fernandez-2019-chelicerate-phylogenomics",
+        "locator": "2295; Figures 1–4; Supplementary analyses; Taxon-rich matrices; Model tests; Arachnida and Acari results"
+      },
+      {
+        "referenceId": "howard-2020-arachnid-monophyly",
+        "locator": "100997; Figures 1–4; Supplementary matrices; 200 slow-gene matrix; Fossil and morphology synthesis; Terrestrialization inference"
+      },
+      {
+        "referenceId": "ballesteros-2022-arachnida-paraphyly",
+        "locator": "msac021; Figures 1–6; Supplementary analyses; Dense taxon sampling; Heterogeneous models; Total-evidence topology"
+      }
+    ],
+    "reviewStatus": "not-reviewed"
+  },
+  {
+    "id": "range:scorpiones:trilobites-chelicerates-evidence",
+    "entityId": "scorpiones",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Scorpiones navigation range",
+    "geographicScope": "Global fossil and living record",
+    "olderMa": 437.5,
+    "youngerMa": 0,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Older endpoint follows the named Parioscorpio occurrence but does not establish crown-scorpion origin."
+    },
+    "evidenceBasis": "The displayed interval is bounded to the cited dossier sample or model and does not establish a global first appearance, origin or uninterrupted lineage.",
+    "evidenceLevel": "literature-synthesized",
+    "confidence": "contested",
+    "claimIds": [
+      "claim:event:parioscorpio-terrestrialization"
+    ],
+    "referenceLocators": [
+      {
+        "referenceId": "wendruff-2020-parioscorpio",
+        "locator": "14; Figures 1–4; Supplementary Figures; UWGM 2162 and 2163; Internal anatomy; Depositional and terrestrialization discussion"
+      }
+    ],
+    "reviewStatus": "automated-audit-passed"
+  },
+  {
+    "id": "range:parioscorpio:trilobites-chelicerates-evidence",
+    "entityId": "parioscorpio",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Parioscorpio venator type occurrence",
+    "geographicScope": "Brandon Bridge Formation, Wisconsin, USA",
+    "olderMa": 437.5,
+    "youngerMa": 436.5,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Conodont-bounded locality age, not a direct date on either specimen or proof of habitat."
+    },
+    "evidenceBasis": "The displayed interval is bounded to the cited dossier sample or model and does not establish a global first appearance, origin or uninterrupted lineage.",
+    "evidenceLevel": "literature-synthesized",
+    "confidence": "contested",
+    "claimIds": [
+      "claim:event:parioscorpio-terrestrialization"
+    ],
+    "referenceLocators": [
+      {
+        "referenceId": "wendruff-2020-parioscorpio",
+        "locator": "14; Figures 1–4; Supplementary Figures; UWGM 2162 and 2163; Internal anatomy; Depositional and terrestrialization discussion"
+      }
+    ],
+    "reviewStatus": "automated-audit-passed"
+  },
+  {
+    "id": "range:araneae:trilobites-chelicerates-evidence",
+    "entityId": "araneae",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Araneae navigation range",
+    "geographicScope": "Global fossil and living record",
+    "olderMa": 315,
+    "youngerMa": 0,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Legacy navigation envelope; not a reviewed global FAD or uninterrupted lineage claim."
+    },
+    "evidenceBasis": "The displayed interval is a navigation envelope across separate evidence and is not a phylogenetic or occurrence claim.",
+    "evidenceLevel": "legacy-display",
+    "confidence": "low",
+    "claimIds": [],
+    "referenceLocators": [
+      {
+        "referenceId": "open-tree",
+        "locator": "https://opentreeoflife.github.io/use"
+      }
+    ],
+    "reviewStatus": "not-reviewed"
+  },
+  {
+    "id": "range:acari:trilobites-chelicerates-evidence",
+    "entityId": "acari",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Acari navigation range",
+    "geographicScope": "Global fossil and living record",
+    "olderMa": 410,
+    "youngerMa": 0,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Broad navigation envelope; Acari monophyly and early fossil assignments remain analysis-dependent."
+    },
+    "evidenceBasis": "Rounded navigation-only envelope retained for display; the cited molecular and total-evidence studies test topology but do not establish the 410 Ma endpoint or a consensus Acari crown range.",
+    "evidenceLevel": "legacy-display",
+    "confidence": "contested",
+    "claimIds": [],
+    "referenceLocators": [
+      {
+        "referenceId": "lozano-fernandez-2019-chelicerate-phylogenomics",
+        "locator": "2295; Figures 1–4; Supplementary analyses; Taxon-rich matrices; Model tests; Arachnida and Acari results"
+      },
+      {
+        "referenceId": "howard-2020-arachnid-monophyly",
+        "locator": "100997; Figures 1–4; Supplementary matrices; 200 slow-gene matrix; Fossil and morphology synthesis; Terrestrialization inference"
+      },
+      {
+        "referenceId": "ballesteros-2022-arachnida-paraphyly",
+        "locator": "msac021; Figures 1–6; Supplementary analyses; Dense taxon sampling; Heterogeneous models; Total-evidence topology"
+      }
+    ],
+    "reviewStatus": "not-reviewed"
   }
 ]

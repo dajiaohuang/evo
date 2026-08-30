@@ -135,6 +135,18 @@ function ownerForClaim(claim) {
   const [kind, subjectId] = claim.subjectId.split(':')
   if (kind === 'taxon') return entityById.get(subjectId)?.packageId ?? 'atlas-core'
   const explicit = {
+    'early-trilobite-phylogenetic-clock': 'trilobites-chelicerates',
+    'tatelt-trilobite-3d-anatomy': 'trilobites-chelicerates',
+    'trilobite-upper-limb-gill': 'trilobites-chelicerates',
+    'bohemolichas-gut-contents': 'trilobites-chelicerates',
+    'burgess-agnostid-topology': 'trilobites-chelicerates',
+    'urokodia-chelicera-book-gill': 'trilobites-chelicerates',
+    'megachelicerax-chelicerae': 'trilobites-chelicerates',
+    'mollisonia-neuroanatomy-mosaic': 'trilobites-chelicerates',
+    'jaekelopterus-giant-chelicera': 'trilobites-chelicerates',
+    'xiphosura-total-group-topology': 'trilobites-chelicerates',
+    'parioscorpio-terrestrialization': 'trilobites-chelicerates',
+    'arachnid-monophyly-conflict': 'trilobites-chelicerates',
     'plants-on-land': 'early-land-plants',
     'dapingian-cryptospores': 'early-land-plants',
     'ordovician-sporangia': 'early-land-plants',
