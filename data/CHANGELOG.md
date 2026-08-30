@@ -1,5 +1,13 @@
 # Dataset changelog
 
+## 2026.08-static-v5-rc32 — 2026-08-30
+
+- Replaced the `crustaceans-insects` generated scaffold with thirteen bilingual primary-evidence dossiers spanning Cambrian mandibulate and pancrustacean fossils, ostracod and remipede phylogenomics, explicit taxon-sampling sensitivity, Devonian hexapod material, arthropod terrestrialization, Carboniferous insect wings, developmental wing-homology experiments, 1KITE and Pennsylvanian Eumetabola.
+- Anchored fossil records to named material including *Tokummia* ROM 63823/63824, *Waptia* ROMIP 56432/64294, *Rhyniognatha* NHMUK PI IN 38234 and the Paskov forewing part and counterpart; retained *Yicaris* and *Rhyniella* as bounded specimen-series dossiers where the primary publications do not provide one comprehensive body specimen.
+- Preserved the incompatible insect and myriapod interpretations of *Rhyniognatha* instead of using it as an uncontested flight calibration, and kept fossil anatomy, character homology, topology, fossil-calibrated clocks, ancestral habitat and gene-knockout models as separate evidence types.
+- Added fifteen evidence-led navigation and research-record nodes, explicit literature-linked range envelopes, a thirteen-step story and an independent `crustaceansInsectsZh` lazy translation chunk.
+- Kept all 1,049,133 COL26.8 accepted living species assigned to `crustaceans-insects` as nomenclatural routing only; this does not claim the same number of dossiers, fossil records, verified morphologies or a consensus pancrustacean tree.
+
 ## 2026.08-static-v5-rc31 — 2026-08-30
 
 - Rebuilt `trilobites-chelicerates` as twelve bilingual primary-evidence dossiers spanning early-trilobite phylogenetic models, three-dimensional and appendage anatomy, gut-content and agnostid topology evidence, stem-chelicerate mouthparts and neuroanatomy, eurypterid body size, horseshoe-crab total-group topology, a contested Silurian terrestrialization record and living arachnid molecular conflict.

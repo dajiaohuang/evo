@@ -51,6 +51,11 @@ function TrilobitesCheliceratesTranslationProbe() {
   return <span>{t('Unequivocal chelicerae enter the Cambrian record')}</span>
 }
 
+function CrustaceansInsectsTranslationProbe() {
+  const { t } = useI18n()
+  return <span>{t('A Burgess Shale body exposes early mandibles')}</span>
+}
+
 interface CommonNameNode {
   commonName: string
   children: CommonNameNode[]
@@ -99,6 +104,12 @@ describe('site language state', () => {
     window.localStorage.setItem('evo-atlas-language', 'zh')
     render(<I18nProvider><TrilobitesCheliceratesTranslationProbe /></I18nProvider>)
     expect(await screen.findByText('明确螯肢进入寒武纪记录')).toBeInTheDocument()
+  })
+
+  it('loads crustacean and insect narrative translations only when Chinese is active', async () => {
+    window.localStorage.setItem('evo-atlas-language', 'zh')
+    render(<I18nProvider><CrustaceansInsectsTranslationProbe /></I18nProvider>)
+    expect(await screen.findByText('一具布尔吉斯页岩躯体展示早期颚')).toBeInTheDocument()
   })
 })
 

@@ -10724,5 +10724,457 @@
       }
     ],
     "reviewStatus": "not-reviewed"
+  },
+  {
+    "id": "range:mandibulate-evidence-route:crustaceans-insects",
+    "entityId": "mandibulate-evidence-route",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Mandibulate fossil dossier navigation route",
+    "geographicScope": "Represented Cambrian fossil samples and living context",
+    "olderMa": 508,
+    "youngerMa": 0,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Navigation envelope only; it is not a crown age, lineage duration or global FAD."
+    },
+    "evidenceBasis": "Browse envelope spans the represented Tokummia and Waptia dossiers to living mandibulate context.",
+    "evidenceLevel": "literature-synthesized",
+    "confidence": "medium",
+    "claimIds": [
+      "claim:event:tokummia-mandibulate-anatomy",
+      "claim:event:waptia-mandibulate-series"
+    ],
+    "referenceLocators": [
+      {
+        "referenceId": "aria-caron-2017-tokummia",
+        "locator": "89–92; Figures 1–4"
+      },
+      {
+        "referenceId": "vannier-2018-waptia",
+        "locator": "1–34; Figures 8–10, 23–24"
+      }
+    ],
+    "reviewStatus": "automated-audit-passed"
+  },
+  {
+    "id": "range:tokummia:crustaceans-insects",
+    "entityId": "tokummia",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Tokummia katalepsis Marble Canyon sample",
+    "geographicScope": "Marble Canyon, Burgess Shale, British Columbia, Canada",
+    "olderMa": 508,
+    "youngerMa": 508,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Rounded locality age; not a global first or last appearance or direct-ancestor duration."
+    },
+    "evidenceBasis": "Holotype ROM 63823 and paratypes document the sampled occurrence and anatomy.",
+    "evidenceLevel": "literature-synthesized",
+    "confidence": "high",
+    "claimIds": [
+      "claim:event:tokummia-mandibulate-anatomy"
+    ],
+    "referenceLocators": [
+      {
+        "referenceId": "aria-caron-2017-tokummia",
+        "locator": "89–92; Figures 1–4; Extended Data"
+      }
+    ],
+    "reviewStatus": "automated-audit-passed"
+  },
+  {
+    "id": "range:waptia:crustaceans-insects",
+    "entityId": "waptia",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Waptia fieldensis Burgess Shale specimen series",
+    "geographicScope": "Burgess Shale, British Columbia, Canada",
+    "olderMa": 508,
+    "youngerMa": 508,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Rounded locality age; the series is not a global species range."
+    },
+    "evidenceBasis": "More than 1,800 museum specimens include figured ROMIP and USNM material.",
+    "evidenceLevel": "literature-synthesized",
+    "confidence": "high",
+    "claimIds": [
+      "claim:event:waptia-mandibulate-series"
+    ],
+    "referenceLocators": [
+      {
+        "referenceId": "vannier-2018-waptia",
+        "locator": "1–34; Material; Figures 2, 8–10"
+      }
+    ],
+    "reviewStatus": "automated-audit-passed"
+  },
+  {
+    "id": "range:pancrustacea-evidence-route:crustaceans-insects",
+    "entityId": "pancrustacea-evidence-route",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Pancrustacean fossil and genomic dossier route",
+    "geographicScope": "Represented fossil occurrences and living genomic samples",
+    "olderMa": 521,
+    "youngerMa": 0,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Navigation envelope joins heterogeneous evidence and is not a crown-age estimate."
+    },
+    "evidenceBasis": "Envelope spans the Yicaris dossier and living phylogenomic datasets.",
+    "evidenceLevel": "literature-synthesized",
+    "confidence": "medium",
+    "claimIds": [
+      "claim:event:yicaris-developmental-series",
+      "claim:event:ostracod-phylotranscriptome-topology",
+      "claim:event:pancrustacea-remipede-phylogenomics",
+      "claim:event:pancrustacea-taxon-sampling-sensitivity"
+    ],
+    "referenceLocators": [
+      {
+        "referenceId": "zhang-2007-yicaris",
+        "locator": "595–598"
+      },
+      {
+        "referenceId": "bernot-2023-pancrustacea-sampling",
+        "locator": "msad175; Figures 2–4"
+      }
+    ],
+    "reviewStatus": "automated-audit-passed"
+  },
+  {
+    "id": "range:yicaris:crustaceans-insects",
+    "entityId": "yicaris",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Yicaris dianensis Chiungchussu Formation sample",
+    "geographicScope": "Yu'anshan Member, Chiungchussu Formation, Yunnan, China",
+    "olderMa": 521,
+    "youngerMa": 514,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Broad Cambrian Stage 3 display envelope, not a direct date on each phosphatized individual."
+    },
+    "evidenceBasis": "Topotype growth stages are recorded from the Lower Cambrian Orsten-type deposit.",
+    "evidenceLevel": "literature-synthesized",
+    "confidence": "medium",
+    "claimIds": [
+      "claim:event:yicaris-developmental-series"
+    ],
+    "referenceLocators": [
+      {
+        "referenceId": "zhang-2007-yicaris",
+        "locator": "595–598; Figures 1–3"
+      }
+    ],
+    "reviewStatus": "automated-audit-passed"
+  },
+  {
+    "id": "range:ostracod-phylogenomics:crustaceans-insects",
+    "entityId": "ostracod-phylogenomics",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Ostracod phylotranscriptomic research dataset",
+    "geographicScope": "Living-taxon sequence and comparative fossil matrix",
+    "olderMa": 0,
+    "youngerMa": 0,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Present-day dataset marker; fossil calibrations and modeled nodes retain their own ages."
+    },
+    "evidenceBasis": "Nine new 454 transcriptomes plus existing sequence and morphology partitions.",
+    "evidenceLevel": "literature-synthesized",
+    "confidence": "high",
+    "claimIds": [
+      "claim:event:ostracod-phylotranscriptome-topology"
+    ],
+    "referenceLocators": [
+      {
+        "referenceId": "oakley-2013-ostracod-phylotranscriptomics",
+        "locator": "215–233; Figures 1–5; Tables 1–5"
+      }
+    ],
+    "reviewStatus": "automated-audit-passed"
+  },
+  {
+    "id": "range:early-hexapod-evidence-route:crustaceans-insects",
+    "entityId": "early-hexapod-evidence-route",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Early hexapod and terrestrialization dossier route",
+    "geographicScope": "Represented Rhynie fossils and living molecular dataset",
+    "olderMa": 411,
+    "youngerMa": 0,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Browse envelope only; it does not fix the origin of Hexapoda or land colonization."
+    },
+    "evidenceBasis": "Route joins two Rhynie specimens with a fossil-calibrated terrestrialization model.",
+    "evidenceLevel": "literature-synthesized",
+    "confidence": "medium",
+    "claimIds": [
+      "claim:event:rhyniella-springtail-material",
+      "claim:event:rhyniognatha-contested-affinity",
+      "claim:event:arthropod-terrestrialization-clock"
+    ],
+    "referenceLocators": [
+      {
+        "referenceId": "whalley-jarzembowski-1981-rhyniella",
+        "locator": "291:317"
+      },
+      {
+        "referenceId": "lozano-fernandez-2016-terrestrialization",
+        "locator": "371:20150133"
+      }
+    ],
+    "reviewStatus": "automated-audit-passed"
+  },
+  {
+    "id": "range:rhyniella:crustaceans-insects",
+    "entityId": "rhyniella",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Rhyniella praecursor Rhynie Chert material",
+    "geographicScope": "Rhynie Chert, Aberdeenshire, Scotland",
+    "olderMa": 411,
+    "youngerMa": 407,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Broad modern Pragian display window; the 1981 source used older numerical correlations."
+    },
+    "evidenceBasis": "Four head capsules and about ten additional specimens include abdomen and furcula anatomy.",
+    "evidenceLevel": "literature-synthesized",
+    "confidence": "medium",
+    "claimIds": [
+      "claim:event:rhyniella-springtail-material"
+    ],
+    "referenceLocators": [
+      {
+        "referenceId": "whalley-jarzembowski-1981-rhyniella",
+        "locator": "291:317; specimen reassessment"
+      }
+    ],
+    "reviewStatus": "automated-audit-passed"
+  },
+  {
+    "id": "range:rhyniognatha:crustaceans-insects",
+    "entityId": "rhyniognatha",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Rhyniognatha hirsti type specimen",
+    "geographicScope": "Rhynie Chert, Aberdeenshire, Scotland",
+    "olderMa": 411,
+    "youngerMa": 407,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Specimen occurrence is retained while insect versus myriapod affinity remains unresolved."
+    },
+    "evidenceBasis": "NHMUK PI IN 38234 is the same isolated head fragment reinterpreted by both studies.",
+    "evidenceLevel": "literature-synthesized",
+    "confidence": "medium",
+    "claimIds": [
+      "claim:event:rhyniognatha-contested-affinity"
+    ],
+    "referenceLocators": [
+      {
+        "referenceId": "engel-grimaldi-2004-rhyniognatha",
+        "locator": "627–630; Figures 1–2"
+      },
+      {
+        "referenceId": "haug-haug-2017-rhyniognatha",
+        "locator": "e3402; Figures 1–7"
+      }
+    ],
+    "reviewStatus": "automated-audit-passed"
+  },
+  {
+    "id": "range:insect-flight-evidence-route:crustaceans-insects",
+    "entityId": "insect-flight-evidence-route",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Insect flight fossil and developmental dossier route",
+    "geographicScope": "Represented Carboniferous fossil and living gene-editing experiment",
+    "olderMa": 325,
+    "youngerMa": 0,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Navigation envelope does not date the origin of wings or powered flight."
+    },
+    "evidenceBasis": "Route links the Paskov wing occurrence and Parhyale developmental experiment.",
+    "evidenceLevel": "literature-synthesized",
+    "confidence": "medium",
+    "claimIds": [
+      "claim:event:paskov-carboniferous-wing",
+      "claim:event:parhyale-wing-homology-knockout"
+    ],
+    "referenceLocators": [
+      {
+        "referenceId": "prokop-2005-paskov-wing",
+        "locator": "383–387"
+      },
+      {
+        "referenceId": "bruce-patel-2020-wing-homology",
+        "locator": "1703–1712"
+      }
+    ],
+    "reviewStatus": "automated-audit-passed"
+  },
+  {
+    "id": "range:paskov-wing:crustaceans-insects",
+    "entityId": "paskov-wing",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Paskov Archaeorthoptera wing part and counterpart",
+    "geographicScope": "Paskov Mine drill core, Upper Silesian Basin, Czech Republic",
+    "olderMa": 325,
+    "youngerMa": 323,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Rounded lowermost Namurian envelope for one fragment, not a Pterygota global range."
+    },
+    "evidenceBasis": "Forewing venation is preserved in part and counterpart from the Leonard IV horizon.",
+    "evidenceLevel": "literature-synthesized",
+    "confidence": "medium",
+    "claimIds": [
+      "claim:event:paskov-carboniferous-wing"
+    ],
+    "referenceLocators": [
+      {
+        "referenceId": "prokop-2005-paskov-wing",
+        "locator": "383–387; Figures 1–2"
+      }
+    ],
+    "reviewStatus": "automated-audit-passed"
+  },
+  {
+    "id": "range:parhyale-wing-experiment:crustaceans-insects",
+    "entityId": "parhyale-wing-experiment",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Parhyale wing-homology gene-editing dataset",
+    "geographicScope": "Living laboratory specimens and comparative insect material",
+    "olderMa": 0,
+    "youngerMa": 0,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Present-day experimental marker, not a fossil occurrence or historical event date."
+    },
+    "evidenceBasis": "CRISPR knockouts and comparative expression map proximal leg and body-wall structures.",
+    "evidenceLevel": "literature-synthesized",
+    "confidence": "high",
+    "claimIds": [
+      "claim:event:parhyale-wing-homology-knockout"
+    ],
+    "referenceLocators": [
+      {
+        "referenceId": "bruce-patel-2020-wing-homology",
+        "locator": "1703–1712; Figures 1–6; Extended Data"
+      }
+    ],
+    "reviewStatus": "automated-audit-passed"
+  },
+  {
+    "id": "range:insect-radiation-evidence-route:crustaceans-insects",
+    "entityId": "insect-radiation-evidence-route",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Insect genomic and fossil radiation dossier route",
+    "geographicScope": "Represented Pennsylvanian fossils and living transcriptome dataset",
+    "olderMa": 315,
+    "youngerMa": 0,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Browse envelope only; fossil ages and modeled divergences remain separate."
+    },
+    "evidenceBasis": "Route links five fossil samples to the 1KITE genomic model.",
+    "evidenceLevel": "literature-synthesized",
+    "confidence": "medium",
+    "claimIds": [
+      "claim:event:pennsylvanian-eumetabola-sample",
+      "claim:event:insect-1kite-topology-clock"
+    ],
+    "referenceLocators": [
+      {
+        "referenceId": "nel-2013-eumetabola-fossils",
+        "locator": "257–261"
+      },
+      {
+        "referenceId": "misof-2014-insect-phylogenomics",
+        "locator": "763–767"
+      }
+    ],
+    "reviewStatus": "automated-audit-passed"
+  },
+  {
+    "id": "range:pennsylvanian-eumetabola:crustaceans-insects",
+    "entityId": "pennsylvanian-eumetabola",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Pennsylvanian Eumetabola five-fossil sample",
+    "geographicScope": "Moscovian and Gzhelian fossil localities in France and Russia",
+    "olderMa": 315,
+    "youngerMa": 299,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Composite envelope across five specimens and localities, not one lineage range."
+    },
+    "evidenceBasis": "The study describes a stem coleopterid, larva, stem hymenopterid, hemipteran and psocodean.",
+    "evidenceLevel": "literature-synthesized",
+    "confidence": "medium",
+    "claimIds": [
+      "claim:event:pennsylvanian-eumetabola-sample"
+    ],
+    "referenceLocators": [
+      {
+        "referenceId": "nel-2013-eumetabola-fossils",
+        "locator": "257–261; Figures 1–4; Supplementary Information"
+      }
+    ],
+    "reviewStatus": "automated-audit-passed"
+  },
+  {
+    "id": "range:insect-1kite-dataset:crustaceans-insects",
+    "entityId": "insect-1kite-dataset",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "1KITE insect phylogenomics dataset",
+    "geographicScope": "Living sampled insect transcriptomes, BioProject PRJNA183205",
+    "olderMa": 0,
+    "youngerMa": 0,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Present-day research-dataset marker; modeled node ages are not occurrence ranges."
+    },
+    "evidenceBasis": "The published matrix includes 144 species and 1,478 protein-coding genes.",
+    "evidenceLevel": "literature-synthesized",
+    "confidence": "high",
+    "claimIds": [
+      "claim:event:insect-1kite-topology-clock"
+    ],
+    "referenceLocators": [
+      {
+        "referenceId": "misof-2014-insect-phylogenomics",
+        "locator": "763–767; Figures 1–3; BioProject PRJNA183205"
+      }
+    ],
+    "reviewStatus": "automated-audit-passed"
   }
 ]

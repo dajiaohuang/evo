@@ -38,6 +38,19 @@ for (const claim of claims) {
 }
 
 const eventOwners = {
+  'tokummia-mandibulate-anatomy': 'crustaceans-insects',
+  'waptia-mandibulate-series': 'crustaceans-insects',
+  'yicaris-developmental-series': 'crustaceans-insects',
+  'ostracod-phylotranscriptome-topology': 'crustaceans-insects',
+  'pancrustacea-remipede-phylogenomics': 'crustaceans-insects',
+  'pancrustacea-taxon-sampling-sensitivity': 'crustaceans-insects',
+  'rhyniella-springtail-material': 'crustaceans-insects',
+  'rhyniognatha-contested-affinity': 'crustaceans-insects',
+  'arthropod-terrestrialization-clock': 'crustaceans-insects',
+  'paskov-carboniferous-wing': 'crustaceans-insects',
+  'parhyale-wing-homology-knockout': 'crustaceans-insects',
+  'insect-1kite-topology-clock': 'crustaceans-insects',
+  'pennsylvanian-eumetabola-sample': 'crustaceans-insects',
   'early-trilobite-phylogenetic-clock': 'trilobites-chelicerates',
   'tatelt-trilobite-3d-anatomy': 'trilobites-chelicerates',
   'trilobite-upper-limb-gill': 'trilobites-chelicerates',
@@ -248,7 +261,7 @@ function referenceRecords(ids) {
 
 function loadChineseTranslations() {
   const translations = new Map()
-  for (const [fileName, dictionaryName, scriptKind] of [['index.tsx', 'zh', ts.ScriptKind.TSX], ['marineZh.ts', 'marineZh', ts.ScriptKind.TS], ['cetartiodactylaZh.ts', 'cetartiodactylaZh', ts.ScriptKind.TS], ['carnivoraZh.ts', 'carnivoraZh', ts.ScriptKind.TS], ['turtleLepidosaurZh.ts', 'turtleLepidosaurZh', ts.ScriptKind.TS], ['crocBirdZh.ts', 'crocBirdZh', ts.ScriptKind.TS], ['primatesZh.ts', 'primatesZh', ts.ScriptKind.TS], ['otherMammalsZh.ts', 'otherMammalsZh', ts.ScriptKind.TS], ['dinosaurZh.ts', 'dinosaurZh', ts.ScriptKind.TS], ['spongesCnidariansZh.ts', 'spongesCnidariansZh', ts.ScriptKind.TS], ['molluscsBrachiopodsZh.ts', 'molluscsBrachiopodsZh', ts.ScriptKind.TS], ['trilobitesCheliceratesZh.ts', 'trilobitesCheliceratesZh', ts.ScriptKind.TS]]) {
+  for (const [fileName, dictionaryName, scriptKind] of [['index.tsx', 'zh', ts.ScriptKind.TSX], ['marineZh.ts', 'marineZh', ts.ScriptKind.TS], ['cetartiodactylaZh.ts', 'cetartiodactylaZh', ts.ScriptKind.TS], ['carnivoraZh.ts', 'carnivoraZh', ts.ScriptKind.TS], ['turtleLepidosaurZh.ts', 'turtleLepidosaurZh', ts.ScriptKind.TS], ['crocBirdZh.ts', 'crocBirdZh', ts.ScriptKind.TS], ['primatesZh.ts', 'primatesZh', ts.ScriptKind.TS], ['otherMammalsZh.ts', 'otherMammalsZh', ts.ScriptKind.TS], ['dinosaurZh.ts', 'dinosaurZh', ts.ScriptKind.TS], ['spongesCnidariansZh.ts', 'spongesCnidariansZh', ts.ScriptKind.TS], ['molluscsBrachiopodsZh.ts', 'molluscsBrachiopodsZh', ts.ScriptKind.TS], ['trilobitesCheliceratesZh.ts', 'trilobitesCheliceratesZh', ts.ScriptKind.TS], ['crustaceansInsectsZh.ts', 'crustaceansInsectsZh', ts.ScriptKind.TS]]) {
     const sourcePath = join(rootDir, 'src', 'i18n', fileName)
     const source = ts.createSourceFile(sourcePath, readFileSync(sourcePath, 'utf8'), ts.ScriptTarget.Latest, true, scriptKind)
     let dictionary = null

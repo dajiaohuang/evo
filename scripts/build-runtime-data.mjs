@@ -135,6 +135,19 @@ function ownerForClaim(claim) {
   const [kind, subjectId] = claim.subjectId.split(':')
   if (kind === 'taxon') return entityById.get(subjectId)?.packageId ?? 'atlas-core'
   const explicit = {
+    'tokummia-mandibulate-anatomy': 'crustaceans-insects',
+    'waptia-mandibulate-series': 'crustaceans-insects',
+    'yicaris-developmental-series': 'crustaceans-insects',
+    'ostracod-phylotranscriptome-topology': 'crustaceans-insects',
+    'pancrustacea-remipede-phylogenomics': 'crustaceans-insects',
+    'pancrustacea-taxon-sampling-sensitivity': 'crustaceans-insects',
+    'rhyniella-springtail-material': 'crustaceans-insects',
+    'rhyniognatha-contested-affinity': 'crustaceans-insects',
+    'arthropod-terrestrialization-clock': 'crustaceans-insects',
+    'paskov-carboniferous-wing': 'crustaceans-insects',
+    'parhyale-wing-homology-knockout': 'crustaceans-insects',
+    'insect-1kite-topology-clock': 'crustaceans-insects',
+    'pennsylvanian-eumetabola-sample': 'crustaceans-insects',
     'early-trilobite-phylogenetic-clock': 'trilobites-chelicerates',
     'tatelt-trilobite-3d-anatomy': 'trilobites-chelicerates',
     'trilobite-upper-limb-gill': 'trilobites-chelicerates',

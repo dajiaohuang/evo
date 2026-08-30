@@ -1,5 +1,5 @@
 export const PACKAGE_SCHEMA_VERSION = 5
-export const DATASET_PACKAGE_VERSION = '2026.08-static-v5-rc31'
+export const DATASET_PACKAGE_VERSION = '2026.08-static-v5-rc32'
 export const DATASET_RELEASE_DATE = '2026-08-30'
 
 export const packageDefinitions = [
@@ -119,7 +119,12 @@ export const packageDefinitions = [
     title: 'Crustaceans, Insects and Myriapod Context',
     titleZh: '甲壳类、昆虫与多足类背景',
     rootEntityIds: ['arthropoda', 'crustacea', 'insecta', 'myriapoda'],
+    conceptScope: {
+      en: 'COL26.8 routes accepted living names through pinned Arthropoda, Insecta and crustacean usages as a naming-only layer. Thirteen evidence dossiers separately cover Cambrian mandibulate and pancrustacean fossils, competing deep phylogenomic topologies, Devonian hexapod material, a contested Rhyniognatha identification, fossil-calibrated terrestrialization, Carboniferous wing and eumetabolan samples, developmental gene knockouts and the 1KITE transcriptome model. Navigation groups are browse routes, not a universal ancestor tree. Bundled PBDB rows remain a bounded, non-random prefix sample and cannot establish FAD, LAD, absence, richness or global distribution.',
+      zh: 'COL26.8 经固定的节肢动物、昆虫与甲壳类用法路由现生接受名，仅作为命名层。十三个独立证据档案覆盖寒武纪有颚肢类与泛甲壳动物化石、彼此竞争的深层系统基因组拓扑、泥盆纪六足类材料、归属有争议的 Rhyniognatha、化石校准的陆地化、石炭纪翅与真变态类样本、发育基因敲除以及 1KITE 转录组模型。导航组只是浏览路径，不是统一祖先树。包内 PBDB 记录仍是有界、非随机的 API 前缀样本，不能确定首现、末现、缺失、丰富度或全球分布。',
+    },
     wave: 'D',
+    scientificMaturity: 'structured',
   },
   {
     id: 'echinoderms',
