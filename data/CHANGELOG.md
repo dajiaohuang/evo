@@ -1,5 +1,14 @@
 # Dataset changelog
 
+## 2026.08-static-v5-rc20 — 2026-08-30
+
+- Replaced the mammal-origins scaffold with seven primary-evidence dossiers spanning a referred early-synapsid neural spine, a basal-therapsid character matrix, Late Triassic cynodont and haramiyidan CT samples, two Jurassic jaw–ear mosaics, a Jehol middle-ear specimen and living developmental experiments.
+- Anchored the dossiers to named specimens and datasets, including ROM VP 83326, IVPP V15424, MCZ7/95A–B and MCZ10/G95, the 26-specimen Brasilodon–Riograndia μCT sample, IVPP V4257, IMMNH-PV01925, IVPP V16051, MorphoBank Projects 2292 and 5075, and deposited segmented models and matrices.
+- Added curated browse nodes for Ophiacodontidae, Probainognathia, Mammaliamorpha, Mammaliaformes, Haramiyida, Morganucodonta and Eutriconodonta while withholding PBDB mappings until those concepts are reconciled against the pinned snapshot.
+- Kept specimen anatomy, matrix topology, functional inference, crown-Mammalia qualification and time envelopes distinct; the story explicitly rejects a progressive ancestor ladder and does not turn separate fossils into an ancestor–descendant sequence.
+- Preserved all seven new entity-wide ranges as unreviewed legacy navigation displays rather than claim-linked FADs, LADs, crown ages or lineage durations.
+- Clarified that COL26.8 assigns zero accepted species directly to mammal-origins because living Mammalia route to other packages and Synapsida lacks a reliable materialized species root; zero is a routing boundary, not evidence of no living synapsids, absent nomenclatural coverage or mature content.
+
 ## 2026.08-static-v5-rc19 — 2026-08-30
 
 - Added eight Amphibia primary-evidence dossiers spanning named Permian–Oligocene fossils, a living frog genome, receptor-knockout metamorphosis and a 7,238-species model time tree.
