@@ -3,31 +3,29 @@
     "id": "range:carnivora:global",
     "entityId": "carnivora",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Carnivora",
-    "geographicScope": "Global or represented navigation composite",
+    "taxonomicConcept": "Carnivora total-group evidence anthology and living crown continuation",
+    "geographicScope": "Dormaal locality, Belgium; living global continuation",
     "olderMa": 56,
     "youngerMa": 0,
     "status": "available",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "note": "56 Ma is the rounded Dormaal Carnivoraformes sample context; stem carnivoraforms do not establish a crown-Carnivora FAD or direct ancestry."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "evidenceBasis": "Dental and tarsal anatomy from the Dormaal sample anchors a total-group browsing route, while living crown carnivorans extend to the present.",
     "confidence": "medium",
-    "claimIds": [],
+    "claimIds": [
+      "claim:taxon:carnivora:root-range"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
-      },
-      {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "sole-2014-dormaalocyon",
+        "locator": "pp. 1–21; Figures 3 and 8–10; Appendices 1–3"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "literature-synthesized"
   },
   {
     "id": "range:felidae:global",

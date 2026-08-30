@@ -3,31 +3,29 @@
     "id": "range:dinosauria:global",
     "entityId": "dinosauria",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Dinosauria",
-    "geographicScope": "Global or represented navigation composite",
+    "taxonomicConcept": "Dinosauria fossil-sample and living-bird navigation span",
+    "geographicScope": "Candelária Sequence, Paraná Basin, Brazil; living bird continuation",
     "olderMa": 233.2,
     "youngerMa": 0,
     "status": "available",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "note": "233.2 Ma is the rounded assemblage and specimen context, not a global dinosaur FAD, crown-node date or uninterrupted record."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "evidenceBasis": "Buriolestes holotype ULBRA-PVT280 anchors a sampled Late Triassic dinosaur occurrence and living birds extend the route to the present.",
     "confidence": "medium",
-    "claimIds": [],
+    "claimIds": [
+      "claim:taxon:dinosauria:root-range"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
-      },
-      {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "cabreira-2016-buriolestes",
+        "locator": "pp. 3090–3095; Figures 1–4; Supplemental Information"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "literature-synthesized"
   },
   {
     "id": "range:ornithischia:global",

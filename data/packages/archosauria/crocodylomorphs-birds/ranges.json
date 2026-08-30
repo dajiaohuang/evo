@@ -39,31 +39,29 @@
     "id": "range:aves:global",
     "entityId": "aves",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Aves",
-    "geographicScope": "Global or represented navigation composite",
+    "taxonomicConcept": "Aves avialan-to-living-bird navigation anthology",
+    "geographicScope": "Late Jurassic Bavarian lithographic limestones; living global continuation",
     "olderMa": 150,
     "youngerMa": 0,
     "status": "available",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "note": "150 Ma is a rounded referred-Archaeopteryx envelope; the route groups a stem avialan with crown birds and therefore is not a crown-Neornithes origin or FAD."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "evidenceBasis": "Referred Archaeopteryx material provides the fossil anchor while living birds supply the present endpoint; the two are an explicit browse anthology.",
     "confidence": "medium",
-    "claimIds": [],
+    "claimIds": [
+      "claim:taxon:aves:root-range"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
-      },
-      {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "rauhut-2018-oldest-archaeopteryx",
+        "locator": "Article e4191; Geological setting; Figures 1–5; Table 1"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "literature-synthesized"
   },
   {
     "id": "range:archaeopteryx:global",

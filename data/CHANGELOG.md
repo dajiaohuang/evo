@@ -1,5 +1,12 @@
 # Dataset changelog
 
+## 2026.08-static-v5-rc41 — 2026-08-30
+
+- Replaced the remaining twenty-one unreviewed Atlas Core, archosaur and mammal root displays with bilingual, claim-linked research ranges and exact primary-study locators. The already reviewed Crocodylomorpha, therian-boundary-evidence and Afrotheria records remain intact.
+- Kept each root's evidence boundary explicit: informal anthologies, total-group samples, trace-fossil or body-fossil minima, living continuations and model envelopes are not presented as direct ancestors, global first appearances or interchangeable crown ages.
+- Preserved all twenty-nine previously closed roots: the twenty-four rc39/rc40 plant, invertebrate, vertebrate and reptile package roots plus the five earlier literature-linked roots. The Echinodermata story and lazy-i18n readiness work also remain intact, while navigation first-appearance hints change only where an owning rc41 root requires it.
+- Rebuilt every canonical package projection and checksum manifest without expanding the bundled PBDB query or adding a validation subsystem. Web, Android and iOS continue to consume the same complete offline dataset and app version `0.20.0`.
+
 ## 2026.08-static-v5-rc40 — 2026-08-30
 
 - Replaced eleven vertebrate and reptile package-root legacy display ranges with claim-linked, bilingual primary-study evidence and precise page, figure and section locators.
