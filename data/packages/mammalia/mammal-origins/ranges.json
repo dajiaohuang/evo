@@ -3,31 +3,29 @@
     "id": "range:synapsida:global",
     "entityId": "synapsida",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Synapsida",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 315,
+    "taxonomicConcept": "Synapsida fossil minimum and living-mammal navigation span",
+    "geographicScope": "Sydney Mines Formation near Florence, Nova Scotia, Canada; living global continuation",
+    "olderMa": 308.5,
     "youngerMa": 0,
     "status": "available",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "note": "308.5–305.5 Ma is the formation-level Echinerpeton interval; ophiacodontid placement is analytical and does not date synapsid origination."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "evidenceBasis": "A referred Echinerpeton neural spine, type-series comparison and locality data anchor a sampled early synapsid occurrence; living mammals extend the route.",
     "confidence": "medium",
-    "claimIds": [],
+    "claimIds": [
+      "claim:taxon:synapsida:root-range"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
-      },
-      {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "mann-reisz-2020-echinerpeton-spine",
+        "locator": "Article 83; Figure 1; Locality and Horizon; Comparative Anatomy; Discussion"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "literature-synthesized"
   },
   {
     "id": "range:pelycosauria:global",

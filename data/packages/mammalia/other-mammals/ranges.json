@@ -3,61 +3,57 @@
     "id": "range:monotremata:global",
     "entityId": "monotremata",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Monotremata",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 120,
-    "youngerMa": 0,
-    "status": "available",
-    "uncertainty": {
-      "olderMa": null,
-      "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
-    },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
-    "confidence": "medium",
-    "claimIds": [],
-    "referenceLocators": [
-      {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
-      },
-      {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
-      }
-    ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
-  },
-  {
-    "id": "range:marsupialia:global",
-    "entityId": "marsupialia",
-    "rangeKind": "global-composite",
-    "taxonomicConcept": "Marsupialia",
-    "geographicScope": "Global or represented navigation composite",
+    "taxonomicConcept": "Monotremata total-group fossil evidence and living crown continuation",
+    "geographicScope": "Griman Creek Formation, Lightning Ridge, Australia; living Australasian continuation",
     "olderMa": 110,
     "youngerMa": 0,
     "status": "available",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "note": "110–100 Ma is the broad Steropodon formation context; dental affinity does not establish crown membership, origination or a global FAD."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "evidenceBasis": "Steropodon holotype AM F66763 anchors a total-group monotreme occurrence and living monotremes extend the navigation route.",
     "confidence": "medium",
-    "claimIds": [],
+    "claimIds": [
+      "claim:taxon:monotremata:root-range"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
-      },
-      {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "archer-1985-steropodon",
+        "locator": "pp. 363–366; Figures 1–2; Diagnosis and Description"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "literature-synthesized"
+  },
+  {
+    "id": "range:marsupialia:global",
+    "entityId": "marsupialia",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Marsupialia sampled crown minimum and living continuation",
+    "geographicScope": "Early Paleocene North American Peradectes record; living global continuation",
+    "olderMa": 65.18,
+    "youngerMa": 0,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Approximately 65.18 Ma depends on Peradectes crown placement in the cited morphology analysis; it is a sampled minimum, not a crown-origin date."
+    },
+    "evidenceBasis": "Cranial anatomy and a broad cladistic analysis place peradectids near living opossums and expose the resulting crown calibration.",
+    "confidence": "medium",
+    "claimIds": [
+      "claim:taxon:marsupialia:root-range"
+    ],
+    "referenceLocators": [
+      {
+        "referenceId": "horovitz-2009-earliest-marsupials",
+        "locator": "Article e8278; Figures 1–5; Tables 1–2; Supporting Information"
+      }
+    ],
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "literature-synthesized"
   },
   {
     "id": "range:diprotodontia:global",
@@ -365,27 +361,29 @@
     "id": "range:xenarthra:other-mammals-evidence",
     "entityId": "xenarthra",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Xenarthra living navigation interval",
-    "geographicScope": "Global or represented navigation composite",
+    "taxonomicConcept": "Xenarthra sampled/model navigation span",
+    "geographicScope": "Combined global phenomic and molecular model inputs",
     "olderMa": 58.3,
     "youngerMa": 0,
     "status": "available",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "This is a living-clade navigation envelope and sampled fossil bound, not an expert-reviewed global first appearance."
+      "note": "58.3 Ma follows the model’s Riostegotherium entry and ghost-lineage treatment; it is not a securely dated global FAD or crown origin."
     },
-    "evidenceBasis": "The older display bound follows the sampled Riostegotherium entry in the combined-data chronology; it is not a global FAD.",
-    "evidenceLevel": "legacy-display",
+    "evidenceBasis": "The combined-data chronology supplies a transparent sampled/model bound while living Xenarthra extend the route to the present.",
+    "evidenceLevel": "literature-synthesized",
     "confidence": "low",
-    "claimIds": [],
+    "claimIds": [
+      "claim:taxon:xenarthra:root-range"
+    ],
     "referenceLocators": [
       {
         "referenceId": "oleary-2013-placental-ancestor-model",
-        "locator": "Table 1; Figure 1"
+        "locator": "pp. 662–667; Figure 1; Table 1; Tables S1–S8"
       }
     ],
-    "reviewStatus": "not-reviewed"
+    "reviewStatus": "automated-audit-passed"
   },
   {
     "id": "range:thalassocnus:other-mammals-evidence",
@@ -419,27 +417,33 @@
     "id": "range:glires:other-mammals-evidence",
     "entityId": "glires",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Glires living navigation interval",
-    "geographicScope": "Global or represented navigation composite",
+    "taxonomicConcept": "Glires K–Pg navigation/model envelope with a bounded fossil exemplar",
+    "geographicScope": "Combined placental model and middle Eocene Erlian Basin sample, China; living global continuation",
     "olderMa": 66,
     "youngerMa": 0,
     "status": "available",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "This is a navigation display envelope, not a claim-linked fossil first appearance or a complete phylogeny."
+      "note": "66 Ma is a rounded K–Pg model/display ceiling; the direct Mimolagus sample is 47.8–41.2 Ma and neither endpoint dates crown Glires."
     },
-    "evidenceBasis": "A rounded Paleocene-to-present display envelope groups Rodentia with lagomorph and stem-relative evidence for browsing.",
-    "evidenceLevel": "legacy-display",
+    "evidenceBasis": "A post-K–Pg placental chronology contextualizes the display ceiling and the Mimolagus sample supplies a bounded fossil occurrence without asserting continuous occupancy.",
+    "evidenceLevel": "literature-synthesized",
     "confidence": "low",
-    "claimIds": [],
+    "claimIds": [
+      "claim:taxon:glires:root-range"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
+        "referenceId": "oleary-2013-placental-ancestor-model",
+        "locator": "pp. 662–667; Figures 1–2; Table 1"
+      },
+      {
+        "referenceId": "fostowicz-frelik-2015-mimolagus",
+        "locator": "Article 9394; Figures 1–5; Supplementary Information"
       }
     ],
-    "reviewStatus": "not-reviewed"
+    "reviewStatus": "automated-audit-passed"
   },
   {
     "id": "range:mimolagus:other-mammals-evidence",
@@ -532,30 +536,28 @@
     "id": "range:chiroptera:global",
     "entityId": "chiroptera",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Chiroptera",
-    "geographicScope": "Global or represented navigation composite",
+    "taxonomicConcept": "Chiroptera fossil minimum and living navigation span",
+    "geographicScope": "Fossil Butte Member, Green River Formation, Wyoming, USA; living global continuation",
     "olderMa": 52.5,
     "youngerMa": 0,
     "status": "available",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "note": "52.5–50.3 Ma is the bounded Onychonycteris context; it does not date crown Chiroptera, flight origin or a global bat FAD."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "evidenceBasis": "Onychonycteris holotype ROM 55351A anchors an early bat occurrence and living bats extend the route to the present.",
     "confidence": "medium",
-    "claimIds": [],
+    "claimIds": [
+      "claim:taxon:chiroptera:root-range"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
-      },
-      {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "simmons-2008-onychonycteris",
+        "locator": "pp. 818–821; Figures 1–4; Supplementary Figures 1–10"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "literature-synthesized"
   }
 ]

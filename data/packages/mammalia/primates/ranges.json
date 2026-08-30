@@ -462,27 +462,29 @@
     "id": "range:primatomorpha:global",
     "entityId": "primatomorpha",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "primatomorpha",
-    "geographicScope": "Global or represented navigation composite",
+    "taxonomicConcept": "Primatomorpha navigation-model envelope",
+    "geographicScope": "Globally sampled phylogenomic model and living continuation",
     "olderMa": 79.2,
     "youngerMa": 0,
     "status": "available",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Rounded navigation bounds are not claim-linked fossil first or last appearances and do not establish crown origination."
+      "note": "79.2 Ma is the older limit of a cited crown-Primates clock interval, not a Primatomorpha-node estimate, fossil occurrence or global FAD."
     },
-    "evidenceBasis": "Curated navigation display range; taxonomic membership, fossil occurrence and model divergence time remain separate.",
-    "confidence": "medium",
-    "claimIds": [],
+    "evidenceBasis": "A calibration-sensitive crown-Primates relaxed-clock interval is retained only as a clearly labelled browsing ceiling for the wider navigation parent.",
+    "confidence": "low",
+    "claimIds": [
+      "claim:taxon:primatomorpha:root-range"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
+        "referenceId": "dos-reis-2018-primate-clock",
+        "locator": "pp. 594–615; Figures 1–5; Table 3; Supplementary spreadsheet"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "literature-synthesized"
   },
   {
     "id": "range:plesiadapiformes:global",

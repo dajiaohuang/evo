@@ -635,31 +635,29 @@
     "id": "range:invertebrata:global",
     "entityId": "invertebrata",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Invertebrata",
-    "geographicScope": "Global or represented navigation composite",
+    "taxonomicConcept": "Invertebrata informal evidence anthology",
+    "geographicScope": "Global navigation grouping; primary fossil anchor in Newfoundland, Canada",
     "olderMa": 635,
     "youngerMa": 0,
     "status": "available",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "note": "635 Ma is the Ediacaran display ceiling; the directly dated Avalon assemblages are about 571 Ma and do not define an invertebrate clade origin."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
-    "confidence": "medium",
-    "claimIds": [],
+    "evidenceBasis": "An informal anthology spans dated Avalon animal assemblages and represented living groups without treating Invertebrata as a clade.",
+    "confidence": "low",
+    "claimIds": [
+      "claim:taxon:invertebrata:root-range"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
-      },
-      {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "pu-2016-gaskiers-ediacara",
+        "locator": "pp. 955–958; Figures 1–3; CA–ID–TIMS ages and Avalon assemblage context"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "literature-synthesized"
   },
   {
     "id": "range:porifera:global",
@@ -2146,31 +2144,33 @@
     "id": "range:hemichordata:global",
     "entityId": "hemichordata",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Hemichordata",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 540,
+    "taxonomicConcept": "Hemichordata represented-lineage evidence span",
+    "geographicScope": "Early Cambrian Xiaoshiba Lagerstätte, Yunnan, China; living marine observations",
+    "olderMa": 516,
     "youngerMa": 0,
     "status": "available",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "note": "The older endpoint is the rounded Yunotubus occurrence, not a phylum origin or secure global FAD; the living endpoint does not imply continuous occupancy."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "evidenceBasis": "Diagnostic Yunotubus morphology anchors an early pterobranch minimum and living Rhabdopleura observations establish represented survival to the present.",
     "confidence": "medium",
-    "claimIds": [],
+    "claimIds": [
+      "claim:taxon:hemichordata:root-range"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
+        "referenceId": "yang-2025-yunotubus",
+        "locator": "Figures 1–5; Geological setting; Systematic palaeontology; phylogenetic analyses"
       },
       {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "halanych-1993-rhabdopleura-feeding",
+        "locator": "pp. 417–427; living Rhabdopleura video and electron-microscopy observations"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "literature-synthesized"
   },
   {
     "id": "range:pterobranchia:global",
@@ -2232,31 +2232,29 @@
     "id": "range:vertebrata:global",
     "entityId": "vertebrata",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Vertebrata",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 525,
+    "taxonomicConcept": "Vertebrata navigation span anchored by Chengjiang fossil material",
+    "geographicScope": "Chengjiang Lagerstätte, Yunnan, China; living global continuation",
+    "olderMa": 520,
     "youngerMa": 0,
     "status": "available",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "note": "520 Ma is a rounded Cambrian navigation ceiling; the directly described Chengjiang vertebrate material is approximately 518 Ma and does not define a crown node or global FAD."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "evidenceBasis": "Myllokunmingia and Haikouichthys specimens and a sampled morphology matrix provide the approximately 518 Ma fossil anchor; the older display ceiling preserves nested Cambrian navigation and living vertebrates extend the route to the present.",
     "confidence": "medium",
-    "claimIds": [],
+    "claimIds": [
+      "claim:taxon:vertebrata:root-range"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
-      },
-      {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "shu-1999-chengjiang-vertebrates",
+        "locator": "pp. 42–46; Figures 1–5; descriptions, phylogenetic analysis and Supplementary Information"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "literature-synthesized"
   },
   {
     "id": "range:agnatha:global",
@@ -2498,31 +2496,29 @@
     "id": "range:gnathostomata:global",
     "entityId": "gnathostomata",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Gnathostomata",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 443,
+    "taxonomicConcept": "Gnathostomata fossil-minimum and living navigation span",
+    "geographicScope": "Rongxi Formation, Leijiatun, Guizhou, China; living global continuation",
+    "olderMa": 439,
     "youngerMa": 0,
     "status": "available",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "note": "Approximately 439 Ma is the late Aeronian Qianodus sample age; isolated tooth whorls do not date crown Gnathostomata or the origin of jaws."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "evidenceBasis": "Twenty-three Qianodus tooth whorls provide direct jawed-vertebrate dental evidence and a stem-chondrichthyan analysis; living descendants extend the route.",
     "confidence": "medium",
-    "claimIds": [],
+    "claimIds": [
+      "claim:taxon:gnathostomata:root-range"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
-      },
-      {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "andreev-2022-qianodus",
+        "locator": "pp. 964–968, especially 965–967; Figures 1–2; Extended Data Figures 1–5"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "literature-synthesized"
   },
   {
     "id": "range:placodermi:global",
@@ -2762,31 +2758,29 @@
     "id": "range:osteichthyes:global",
     "entityId": "osteichthyes",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Osteichthyes",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 425,
+    "taxonomicConcept": "Osteichthyes total-group fossil minimum and living navigation span",
+    "geographicScope": "Huixingshao Formation, Chongqing, China; living global continuation",
+    "olderMa": 436,
     "youngerMa": 0,
     "status": "available",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "note": "Approximately 436 Ma is the rounded Eosteus occurrence; stem placement is model-dependent and does not date the crown split or origination."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "evidenceBasis": "The articulated Eosteus specimen and explicit parsimony and Bayesian analyses anchor the oldest reported osteichthyan occurrence, with living lineages extending to the present.",
     "confidence": "medium",
-    "claimIds": [],
+    "claimIds": [
+      "claim:taxon:osteichthyes:root-range"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
-      },
-      {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "zhu-2026-eosteus",
+        "locator": "pp. 128–134; Figures 1–5; Extended Data; Supplementary Data 1–7"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "literature-synthesized"
   },
   {
     "id": "range:actinopterygii:global",
@@ -3056,31 +3050,29 @@
     "id": "range:tetrapoda:global",
     "entityId": "tetrapoda",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Tetrapoda",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 370,
+    "taxonomicConcept": "Tetrapoda limbed-trackmaker evidence and living navigation span",
+    "geographicScope": "Zachełmie quarry, Holy Cross Mountains, Poland; living global continuation",
+    "olderMa": 390,
     "youngerMa": 0,
     "status": "available",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "note": "About 390 Ma is a rounded Eifelian trackway age; the maker is unnamed and the traces do not date crown Tetrapoda or a body-taxon FAD."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "evidenceBasis": "Digit-bearing quadrupedal trackways establish a limbed-tetrapod trace minimum while preserving body-taxonomic and crown-node uncertainty.",
     "confidence": "medium",
-    "claimIds": [],
+    "claimIds": [
+      "claim:taxon:tetrapoda:root-range"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
-      },
-      {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "niedzwiedzki-2010-zachelmie-trackways",
+        "locator": "pp. 43–48; Figures 1–5; Supplementary Figures 1–25"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "literature-synthesized"
   },
   {
     "id": "range:amphibia:global",
@@ -3238,61 +3230,57 @@
     "id": "range:amniota:global",
     "entityId": "amniota",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Amniota",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 315,
+    "taxonomicConcept": "Crown-Amniota minimum inferred from a contested trackmaker",
+    "geographicScope": "Snowy Plains Formation, Victoria, Australia; living global continuation",
+    "olderMa": 358.9,
     "youngerMa": 0,
     "status": "available",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "note": "The endpoint is the Devonian–Carboniferous boundary used as a rounded inferred minimum; the early Tournaisian trackmaker may be a primitive sauropsid or lie near the amniote crown node."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
-    "confidence": "medium",
-    "claimIds": [],
+    "evidenceBasis": "Clawed track morphology and formation age imply a near-boundary crown minimum under the cited preferred interpretation, but no body fossil identifies the maker.",
+    "confidence": "contested",
+    "claimIds": [
+      "claim:taxon:amniota:root-range"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
-      },
-      {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "long-2025-amniote-tracks",
+        "locator": "pp. 1193–1200; Figures 1–4; Supplementary Information Parts 1–4"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "literature-synthesized"
   },
   {
     "id": "range:synapsida:global",
     "entityId": "synapsida",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Synapsida",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 315,
+    "taxonomicConcept": "Synapsida fossil minimum and living-mammal navigation span",
+    "geographicScope": "Sydney Mines Formation near Florence, Nova Scotia, Canada; living global continuation",
+    "olderMa": 308.5,
     "youngerMa": 0,
     "status": "available",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "note": "308.5–305.5 Ma is the formation-level Echinerpeton interval; ophiacodontid placement is analytical and does not date synapsid origination."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "evidenceBasis": "A referred Echinerpeton neural spine, type-series comparison and locality data anchor a sampled early synapsid occurrence; living mammals extend the route.",
     "confidence": "medium",
-    "claimIds": [],
+    "claimIds": [
+      "claim:taxon:synapsida:root-range"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
-      },
-      {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "mann-reisz-2020-echinerpeton-spine",
+        "locator": "Article 83; Figure 1; Locality and Horizon; Comparative Anatomy; Discussion"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "literature-synthesized"
   },
   {
     "id": "range:pelycosauria:global",
@@ -3478,61 +3466,57 @@
     "id": "range:monotremata:global",
     "entityId": "monotremata",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Monotremata",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 120,
-    "youngerMa": 0,
-    "status": "available",
-    "uncertainty": {
-      "olderMa": null,
-      "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
-    },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
-    "confidence": "medium",
-    "claimIds": [],
-    "referenceLocators": [
-      {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
-      },
-      {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
-      }
-    ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
-  },
-  {
-    "id": "range:marsupialia:global",
-    "entityId": "marsupialia",
-    "rangeKind": "global-composite",
-    "taxonomicConcept": "Marsupialia",
-    "geographicScope": "Global or represented navigation composite",
+    "taxonomicConcept": "Monotremata total-group fossil evidence and living crown continuation",
+    "geographicScope": "Griman Creek Formation, Lightning Ridge, Australia; living Australasian continuation",
     "olderMa": 110,
     "youngerMa": 0,
     "status": "available",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "note": "110–100 Ma is the broad Steropodon formation context; dental affinity does not establish crown membership, origination or a global FAD."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "evidenceBasis": "Steropodon holotype AM F66763 anchors a total-group monotreme occurrence and living monotremes extend the navigation route.",
     "confidence": "medium",
-    "claimIds": [],
+    "claimIds": [
+      "claim:taxon:monotremata:root-range"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
-      },
-      {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "archer-1985-steropodon",
+        "locator": "pp. 363–366; Figures 1–2; Diagnosis and Description"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "literature-synthesized"
+  },
+  {
+    "id": "range:marsupialia:global",
+    "entityId": "marsupialia",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Marsupialia sampled crown minimum and living continuation",
+    "geographicScope": "Early Paleocene North American Peradectes record; living global continuation",
+    "olderMa": 65.18,
+    "youngerMa": 0,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Approximately 65.18 Ma depends on Peradectes crown placement in the cited morphology analysis; it is a sampled minimum, not a crown-origin date."
+    },
+    "evidenceBasis": "Cranial anatomy and a broad cladistic analysis place peradectids near living opossums and expose the resulting crown calibration.",
+    "confidence": "medium",
+    "claimIds": [
+      "claim:taxon:marsupialia:root-range"
+    ],
+    "referenceLocators": [
+      {
+        "referenceId": "horovitz-2009-earliest-marsupials",
+        "locator": "Article e8278; Figures 1–5; Tables 1–2; Supporting Information"
+      }
+    ],
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "literature-synthesized"
   },
   {
     "id": "range:diprotodontia:global",
@@ -3568,31 +3552,33 @@
     "id": "range:placentalia:global",
     "entityId": "placentalia",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Placentalia",
-    "geographicScope": "Global or represented navigation composite",
+    "taxonomicConcept": "Placentalia molecular and phenomic model envelope",
+    "geographicScope": "Globally sampled living and fossil model inputs",
     "olderMa": 100,
     "youngerMa": 0,
     "status": "available",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "note": "The rounded 100 Ma display ceiling contextualizes an approximately 103 Ma molecular estimate and a conflicting post-K–Pg phenomic chronology; it is not a fossil occurrence."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
-    "confidence": "medium",
-    "claimIds": [],
+    "evidenceBasis": "Two primary combined-data analyses bracket substantially different model chronologies, so the route exposes model dependence instead of selecting a fossil FAD.",
+    "confidence": "contested",
+    "claimIds": [
+      "claim:taxon:placentalia:root-range"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
+        "referenceId": "murphy-2001-placental-bayesian",
+        "locator": "pp. 2348–2351; Figures 1–2; molecular divergence estimates"
       },
       {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "oleary-2013-placental-ancestor-model",
+        "locator": "pp. 662–667; Figures 1–2; Table 1; Tables S1–S8"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "literature-synthesized"
   },
   {
     "id": "range:perissodactyla:global",
@@ -4287,31 +4273,29 @@
     "id": "range:carnivora:global",
     "entityId": "carnivora",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Carnivora",
-    "geographicScope": "Global or represented navigation composite",
+    "taxonomicConcept": "Carnivora total-group evidence anthology and living crown continuation",
+    "geographicScope": "Dormaal locality, Belgium; living global continuation",
     "olderMa": 56,
     "youngerMa": 0,
     "status": "available",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "note": "56 Ma is the rounded Dormaal Carnivoraformes sample context; stem carnivoraforms do not establish a crown-Carnivora FAD or direct ancestry."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "evidenceBasis": "Dental and tarsal anatomy from the Dormaal sample anchors a total-group browsing route, while living crown carnivorans extend to the present.",
     "confidence": "medium",
-    "claimIds": [],
+    "claimIds": [
+      "claim:taxon:carnivora:root-range"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
-      },
-      {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "sole-2014-dormaalocyon",
+        "locator": "pp. 1–21; Figures 3 and 8–10; Appendices 1–3"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "literature-synthesized"
   },
   {
     "id": "range:felidae:global",
@@ -4675,31 +4659,29 @@
     "id": "range:sauropsida:global",
     "entityId": "sauropsida",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Sauropsida",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 312,
+    "taxonomicConcept": "Sauropsida probable trackmaker minimum and living navigation span",
+    "geographicScope": "Snowy Plains Formation, Victoria, Australia; living global continuation",
+    "olderMa": 358.9,
     "youngerMa": 0,
     "status": "available",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "note": "The early Tournaisian trackmaker is interpreted preferably as a primitive sauropsid but could lie near the amniote crown node; 358.9 Ma is a rounded inferred minimum."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
-    "confidence": "medium",
-    "claimIds": [],
+    "evidenceBasis": "Clawed manus–pes morphology supports the probable sauropsid interpretation while the published alternative prevents a secure body-fossil or crown-origin claim.",
+    "confidence": "contested",
+    "claimIds": [
+      "claim:taxon:sauropsida:root-range"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
-      },
-      {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "long-2025-amniote-tracks",
+        "locator": "pp. 1193–1200; Figures 1–4; trackmaker assessment and revised timescale"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "literature-synthesized"
   },
   {
     "id": "range:testudines:global",
@@ -4941,31 +4923,29 @@
     "id": "range:archosauria:global",
     "entityId": "archosauria",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Archosauria",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 250,
+    "taxonomicConcept": "Crown Archosauria fossil minimum and living navigation span",
+    "geographicScope": "Upper Middle Buntsandstein, Bremketal near Göttingen, Germany; living global continuation",
+    "olderMa": 247.2,
     "youngerMa": 0,
     "status": "available",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "note": "247.2 Ma follows the study’s Olenekian–Anisian boundary calibration and rounded specimen context; it is not an exact origin date or complete global record."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "evidenceBasis": "Ctenosauriscus GZG.V.4191, stratigraphic review and a revised character matrix anchor a latest Olenekian pseudosuchian occurrence.",
     "confidence": "medium",
-    "claimIds": [],
+    "claimIds": [
+      "claim:taxon:archosauria:root-range"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
-      },
-      {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "butler-2011-ctenosauriscus",
+        "locator": "Article e25693; Figures 1–16; Text S1; Materials S1"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "literature-synthesized"
   },
   {
     "id": "range:crocodylomorpha:global",
@@ -5065,31 +5045,29 @@
     "id": "range:dinosauria:global",
     "entityId": "dinosauria",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Dinosauria",
-    "geographicScope": "Global or represented navigation composite",
+    "taxonomicConcept": "Dinosauria fossil-sample and living-bird navigation span",
+    "geographicScope": "Candelária Sequence, Paraná Basin, Brazil; living bird continuation",
     "olderMa": 233.2,
     "youngerMa": 0,
     "status": "available",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "note": "233.2 Ma is the rounded assemblage and specimen context, not a global dinosaur FAD, crown-node date or uninterrupted record."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "evidenceBasis": "Buriolestes holotype ULBRA-PVT280 anchors a sampled Late Triassic dinosaur occurrence and living birds extend the route to the present.",
     "confidence": "medium",
-    "claimIds": [],
+    "claimIds": [
+      "claim:taxon:dinosauria:root-range"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
-      },
-      {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "cabreira-2016-buriolestes",
+        "locator": "pp. 3090–3095; Figures 1–4; Supplemental Information"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "literature-synthesized"
   },
   {
     "id": "range:ornithischia:global",
@@ -5697,31 +5675,29 @@
     "id": "range:aves:global",
     "entityId": "aves",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Aves",
-    "geographicScope": "Global or represented navigation composite",
+    "taxonomicConcept": "Aves avialan-to-living-bird navigation anthology",
+    "geographicScope": "Late Jurassic Bavarian lithographic limestones; living global continuation",
     "olderMa": 150,
     "youngerMa": 0,
     "status": "available",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "note": "150 Ma is a rounded referred-Archaeopteryx envelope; the route groups a stem avialan with crown birds and therefore is not a crown-Neornithes origin or FAD."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "evidenceBasis": "Referred Archaeopteryx material provides the fossil anchor while living birds supply the present endpoint; the two are an explicit browse anthology.",
     "confidence": "medium",
-    "claimIds": [],
+    "claimIds": [
+      "claim:taxon:aves:root-range"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
-      },
-      {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "rauhut-2018-oldest-archaeopteryx",
+        "locator": "Article e4191; Geological setting; Figures 1–5; Table 1"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "literature-synthesized"
   },
   {
     "id": "range:archaeopteryx:global",
@@ -6710,31 +6686,33 @@
     "id": "range:whippomorpha:global",
     "entityId": "whippomorpha",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "whippomorpha",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 53,
+    "taxonomicConcept": "Whippomorpha fossil-and-living topology evidence anthology",
+    "geographicScope": "Sindkhatudi bone bed, India; sampled living cetartiodactyl topology",
+    "olderMa": 55,
     "youngerMa": 0,
     "status": "available",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Rounded navigation endpoints remain unreviewed and are not a fossil FAD, molecular divergence interval or COL26.8 taxonomic decision."
+      "note": "55 Ma is a rounded early Eocene navigation ceiling; the cited Indohyus sample is approximately 48.6 Ma and neither it nor living retroposon topology dates the crown."
     },
-    "evidenceBasis": "Legacy Atlas display range retained for navigation only.",
+    "evidenceBasis": "Indohyus morphology and isotope evidence at approximately 48.6 Ma plus living retroposon topology form an evidence anthology; the older display ceiling preserves nested early-cetacean navigation.",
     "confidence": "low",
-    "claimIds": [],
+    "claimIds": [
+      "claim:taxon:whippomorpha:root-range"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
+        "referenceId": "thewissen-2007-indohyus",
+        "locator": "pp. 1190–1194; Figures 1–5; Supplementary Information"
       },
       {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "nikaido-1999-cetartiodactyl-retroposons",
+        "locator": "pp. 10261–10266; Figures 1–4; Table 1"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "literature-synthesized"
   },
   {
     "id": "range:hippopotamidae:global",
@@ -7593,27 +7571,29 @@
     "id": "range:primatomorpha:global",
     "entityId": "primatomorpha",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "primatomorpha",
-    "geographicScope": "Global or represented navigation composite",
+    "taxonomicConcept": "Primatomorpha navigation-model envelope",
+    "geographicScope": "Globally sampled phylogenomic model and living continuation",
     "olderMa": 79.2,
     "youngerMa": 0,
     "status": "available",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Rounded navigation bounds are not claim-linked fossil first or last appearances and do not establish crown origination."
+      "note": "79.2 Ma is the older limit of a cited crown-Primates clock interval, not a Primatomorpha-node estimate, fossil occurrence or global FAD."
     },
-    "evidenceBasis": "Curated navigation display range; taxonomic membership, fossil occurrence and model divergence time remain separate.",
-    "confidence": "medium",
-    "claimIds": [],
+    "evidenceBasis": "A calibration-sensitive crown-Primates relaxed-clock interval is retained only as a clearly labelled browsing ceiling for the wider navigation parent.",
+    "confidence": "low",
+    "claimIds": [
+      "claim:taxon:primatomorpha:root-range"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
+        "referenceId": "dos-reis-2018-primate-clock",
+        "locator": "pp. 594–615; Figures 1–5; Table 3; Supplementary spreadsheet"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "literature-synthesized"
   },
   {
     "id": "range:plesiadapiformes:global",
@@ -8538,27 +8518,29 @@
     "id": "range:xenarthra:other-mammals-evidence",
     "entityId": "xenarthra",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Xenarthra living navigation interval",
-    "geographicScope": "Global or represented navigation composite",
+    "taxonomicConcept": "Xenarthra sampled/model navigation span",
+    "geographicScope": "Combined global phenomic and molecular model inputs",
     "olderMa": 58.3,
     "youngerMa": 0,
     "status": "available",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "This is a living-clade navigation envelope and sampled fossil bound, not an expert-reviewed global first appearance."
+      "note": "58.3 Ma follows the model’s Riostegotherium entry and ghost-lineage treatment; it is not a securely dated global FAD or crown origin."
     },
-    "evidenceBasis": "The older display bound follows the sampled Riostegotherium entry in the combined-data chronology; it is not a global FAD.",
-    "evidenceLevel": "legacy-display",
+    "evidenceBasis": "The combined-data chronology supplies a transparent sampled/model bound while living Xenarthra extend the route to the present.",
+    "evidenceLevel": "literature-synthesized",
     "confidence": "low",
-    "claimIds": [],
+    "claimIds": [
+      "claim:taxon:xenarthra:root-range"
+    ],
     "referenceLocators": [
       {
         "referenceId": "oleary-2013-placental-ancestor-model",
-        "locator": "Table 1; Figure 1"
+        "locator": "pp. 662–667; Figure 1; Table 1; Tables S1–S8"
       }
     ],
-    "reviewStatus": "not-reviewed"
+    "reviewStatus": "automated-audit-passed"
   },
   {
     "id": "range:thalassocnus:other-mammals-evidence",
@@ -8592,27 +8574,33 @@
     "id": "range:glires:other-mammals-evidence",
     "entityId": "glires",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Glires living navigation interval",
-    "geographicScope": "Global or represented navigation composite",
+    "taxonomicConcept": "Glires K–Pg navigation/model envelope with a bounded fossil exemplar",
+    "geographicScope": "Combined placental model and middle Eocene Erlian Basin sample, China; living global continuation",
     "olderMa": 66,
     "youngerMa": 0,
     "status": "available",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "This is a navigation display envelope, not a claim-linked fossil first appearance or a complete phylogeny."
+      "note": "66 Ma is a rounded K–Pg model/display ceiling; the direct Mimolagus sample is 47.8–41.2 Ma and neither endpoint dates crown Glires."
     },
-    "evidenceBasis": "A rounded Paleocene-to-present display envelope groups Rodentia with lagomorph and stem-relative evidence for browsing.",
-    "evidenceLevel": "legacy-display",
+    "evidenceBasis": "A post-K–Pg placental chronology contextualizes the display ceiling and the Mimolagus sample supplies a bounded fossil occurrence without asserting continuous occupancy.",
+    "evidenceLevel": "literature-synthesized",
     "confidence": "low",
-    "claimIds": [],
+    "claimIds": [
+      "claim:taxon:glires:root-range"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
+        "referenceId": "oleary-2013-placental-ancestor-model",
+        "locator": "pp. 662–667; Figures 1–2; Table 1"
+      },
+      {
+        "referenceId": "fostowicz-frelik-2015-mimolagus",
+        "locator": "Article 9394; Figures 1–5; Supplementary Information"
       }
     ],
-    "reviewStatus": "not-reviewed"
+    "reviewStatus": "automated-audit-passed"
   },
   {
     "id": "range:mimolagus:other-mammals-evidence",
@@ -8705,31 +8693,29 @@
     "id": "range:chiroptera:global",
     "entityId": "chiroptera",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Chiroptera",
-    "geographicScope": "Global or represented navigation composite",
+    "taxonomicConcept": "Chiroptera fossil minimum and living navigation span",
+    "geographicScope": "Fossil Butte Member, Green River Formation, Wyoming, USA; living global continuation",
     "olderMa": 52.5,
     "youngerMa": 0,
     "status": "available",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "note": "52.5–50.3 Ma is the bounded Onychonycteris context; it does not date crown Chiroptera, flight origin or a global bat FAD."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "evidenceBasis": "Onychonycteris holotype ROM 55351A anchors an early bat occurrence and living bats extend the route to the present.",
     "confidence": "medium",
-    "claimIds": [],
+    "claimIds": [
+      "claim:taxon:chiroptera:root-range"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
-      },
-      {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "simmons-2008-onychonycteris",
+        "locator": "pp. 818–821; Figures 1–4; Supplementary Figures 1–10"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "literature-synthesized"
   },
   {
     "id": "range:eocursor:dinosauria-evidence",

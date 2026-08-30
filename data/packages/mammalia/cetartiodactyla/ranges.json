@@ -234,31 +234,33 @@
     "id": "range:whippomorpha:global",
     "entityId": "whippomorpha",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "whippomorpha",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 53,
+    "taxonomicConcept": "Whippomorpha fossil-and-living topology evidence anthology",
+    "geographicScope": "Sindkhatudi bone bed, India; sampled living cetartiodactyl topology",
+    "olderMa": 55,
     "youngerMa": 0,
     "status": "available",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Rounded navigation endpoints remain unreviewed and are not a fossil FAD, molecular divergence interval or COL26.8 taxonomic decision."
+      "note": "55 Ma is a rounded early Eocene navigation ceiling; the cited Indohyus sample is approximately 48.6 Ma and neither it nor living retroposon topology dates the crown."
     },
-    "evidenceBasis": "Legacy Atlas display range retained for navigation only.",
+    "evidenceBasis": "Indohyus morphology and isotope evidence at approximately 48.6 Ma plus living retroposon topology form an evidence anthology; the older display ceiling preserves nested early-cetacean navigation.",
     "confidence": "low",
-    "claimIds": [],
+    "claimIds": [
+      "claim:taxon:whippomorpha:root-range"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
+        "referenceId": "thewissen-2007-indohyus",
+        "locator": "pp. 1190–1194; Figures 1–5; Supplementary Information"
       },
       {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "nikaido-1999-cetartiodactyl-retroposons",
+        "locator": "pp. 10261–10266; Figures 1–4; Table 1"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "literature-synthesized"
   },
   {
     "id": "range:hippopotamidae:global",
