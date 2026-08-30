@@ -384,6 +384,7 @@ for (const packageEntry of registry.packages) {
   if (!catalogueCoverageEntry) throw new Error(`Catalogue ownership is missing static package ${packageId}`)
   const packageReview = evaluatePackageReview(packageId)
   const packageQueryLedger = readJson(`${packageEntry.canonicalPath}/query-ledger.json`)
+  const targetedOccurrenceSnapshot = packageQueryLedger.occurrenceSnapshot ? readJson(packageQueryLedger.occurrenceSnapshot) : null
   const packagePhylogenyStatus = readJson(`${packageEntry.canonicalPath}/phylogeny/status.json`)
   const packageEntities = entities.filter((entity) => entity.packageId === packageId)
   const packageProfiles = profiles.filter((profile) => entityById.get(profile.treeNodeId)?.packageId === packageId)
@@ -427,6 +428,8 @@ for (const packageEntry of registry.packages) {
   if (packageId === 'perissodactyla') {
     payloadFiles.calibrations = writeGzipJson(`packages/${packageId}/calibrations.json.gz`, calibrations)
     payloadFiles.occurrenceSnapshot = writeGzipJson(`packages/${packageId}/occurrence-snapshot-v2.json.gz`, perissodactylaOccurrenceSnapshot)
+  } else if (targetedOccurrenceSnapshot) {
+    payloadFiles.occurrenceSnapshot = writeGzipJson(`packages/${packageId}/occurrence-snapshot-v1.json.gz`, targetedOccurrenceSnapshot)
   }
   const occurrenceShards = occurrenceManifest.packages[packageId] ?? []
   const knowledgeBytes = Object.values(payloadFiles).reduce((sum, file) => sum + file.bytes, 0)

@@ -31,181 +31,169 @@
     "id": "range:conodonta:global",
     "entityId": "conodonta",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Conodonta",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 520,
-    "youngerMa": 201.4,
-    "status": "available",
+    "taxonomicConcept": "Conodonta historical record",
+    "geographicScope": "Published conodont record reviewed across multiple body-fossil and element concepts",
+    "olderMa": 0,
+    "youngerMa": 0,
+    "status": "withheld-pending-provenance",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "note": "The former 520–201.4 Ma envelope is withheld because the review does not audit one stable taxonomic concept across both endpoints."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
-    "confidence": "medium",
-    "claimIds": [],
+    "evidenceBasis": "No global interval is displayed until a concept-specific occurrence synthesis supplies independently located older and younger bounds.",
+    "confidence": "low",
+    "claimIds": [
+      "claim:taxon:conodonta:range-boundary"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
-      },
-      {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "sweet-donoghue-2001-conodonts",
+        "locator": "1174–1184; Figures 1–6; review of upper Cambrian–Triassic biostratigraphy and element-based taxonomic limitations; Abstract; record, apparatus reconstruction and classification discussion"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "literature-synthesized"
   },
   {
     "id": "range:ostracodermi:global",
     "entityId": "ostracodermi",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Ostracodermi",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 485,
-    "youngerMa": 359,
-    "status": "available",
+    "taxonomicConcept": "Ostracodermi historical navigation grade",
+    "geographicScope": "Several armored jawless stem-gnathostome lineages, not one clade",
+    "olderMa": 0,
+    "youngerMa": 0,
+    "status": "withheld-pending-provenance",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "note": "A single temporal range is inapplicable to this explicitly non-monophyletic historical grade."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "evidenceBasis": "The former 485–359 Ma composite is withheld rather than presented as the duration of a natural lineage.",
     "confidence": "medium",
-    "claimIds": [],
+    "claimIds": [
+      "claim:taxon:ostracodermi:range-boundary"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
-      },
-      {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "janvier-2008-cyclostome-origins",
+        "locator": "1045–1056; Review diagrams and fossil-group discussion; Abstract; fossil agnathans and cyclostome-origin discussion"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "literature-synthesized"
   },
   {
     "id": "range:heterostraci:global",
     "entityId": "heterostraci",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Heterostraci",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 443,
-    "youngerMa": 378,
+    "taxonomicConcept": "Heterostraci taxa sampled by Randle et al. 2025",
+    "geographicScope": "Stratigraphic occurrences coded for the study matrix",
+    "olderMa": 443.8,
+    "youngerMa": 393.3,
     "status": "available",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "note": "Stage-bound envelope of the study sample; it is not a global first or last appearance audit."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "evidenceBasis": "The Silurian–Early Devonian window summarizes the dated taxa used in the whole-group analysis, not the exact duration of Heterostraci.",
     "confidence": "medium",
-    "claimIds": [],
+    "claimIds": [
+      "claim:taxon:heterostraci:range-boundary"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
-      },
-      {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "randle-2025-heterostraci-phylogeny",
+        "locator": "Article e70030; Figures 1–10; supplementary taxon and stratigraphic data; Taxon sampling, occurrence coding and phylogenetic results"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "literature-synthesized"
   },
   {
     "id": "range:osteostraci:global",
     "entityId": "osteostraci",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Osteostraci",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 435,
-    "youngerMa": 370,
+    "taxonomicConcept": "Osteostraci genera sampled by Sansom 2009",
+    "geographicScope": "Dated genera represented in the morphology matrix",
+    "olderMa": 433.4,
+    "youngerMa": 358.9,
     "status": "available",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "note": "Stage-bound matrix-sample envelope; unsampled occurrences can extend either edge."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "evidenceBasis": "The interval follows the stratigraphic distribution of sampled genera and does not claim exact clade endpoints.",
     "confidence": "medium",
-    "claimIds": [],
+    "claimIds": [
+      "claim:taxon:osteostraci:range-boundary"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
-      },
-      {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "sansom-2009-osteostraci-phylogeny",
+        "locator": "95–115; Figures 1–7; sampled genera and character matrix; Taxon observations, stratigraphic context and revised classification"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "literature-synthesized"
   },
   {
     "id": "range:cyclostomata:global",
     "entityId": "cyclostomata",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Cyclostomata",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 360,
+    "taxonomicConcept": "Cyclostome fossil-and-living evidence route",
+    "geographicScope": "Undoubted fossil lampreys plus living lampreys and hagfishes",
+    "olderMa": 358,
     "youngerMa": 0,
     "status": "available",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "note": "The older bound is a rounded undoubted lamprey record; molecular divergence estimates can be substantially older."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "evidenceBasis": "The route spans a directly reviewed fossil anchor to living members and is not a crown-origin estimate.",
     "confidence": "medium",
-    "claimIds": [],
+    "claimIds": [
+      "claim:taxon:cyclostomata:range-boundary"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
-      },
-      {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "janvier-2008-cyclostome-origins",
+        "locator": "1045–1056; Review diagrams and fossil comparison; Abstract; fossil lamprey and hagfish record; molecular-clock contrast"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "literature-synthesized"
   },
   {
     "id": "range:petromyzontida:global",
     "entityId": "petromyzontida",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Petromyzontida",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 360,
+    "taxonomicConcept": "Petromyzontida fossil-and-living evidence route",
+    "geographicScope": "Undoubted fossil and living lampreys",
+    "olderMa": 358,
     "youngerMa": 0,
     "status": "available",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "note": "The 358 Ma edge is a reviewed fossil record, not a directly dated order origin."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "evidenceBasis": "The interval connects the undoubted Late Devonian record to living lampreys without asserting continuous sampling.",
     "confidence": "medium",
-    "claimIds": [],
+    "claimIds": [
+      "claim:taxon:petromyzontida:range-boundary"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
-      },
-      {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "janvier-2008-cyclostome-origins",
+        "locator": "1045–1050; Fossil lamprey comparison; Abstract and fossil-lamprey record"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "literature-synthesized"
   },
   {
     "id": "range:myxini:global",
@@ -267,61 +255,57 @@
     "id": "range:arthrodira:global",
     "entityId": "arthrodira",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Arthrodira",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 419,
-    "youngerMa": 359,
+    "taxonomicConcept": "Famennian eubrachythoracid sample within Arthrodira",
+    "geographicScope": "Ohio Shale, United States, and Kettle Point Formation, Canada",
+    "olderMa": 372.15,
+    "youngerMa": 358.86,
     "status": "available",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "note": "Stage-level Famennian window for the named study material."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "evidenceBasis": "The interval is confined to the Dunkleosteus-bearing study sample and is not the full Arthrodira range.",
     "confidence": "medium",
-    "claimIds": [],
+    "claimIds": [
+      "claim:taxon:arthrodira:range-boundary"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
-      },
-      {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "carr-hlavin-2010-eubrachythoraci",
+        "locator": "195–222; Figures 1–13; systematic palaeontology and matrix; Formation ages, named Dunkleosteus material and Eubrachythoraci analysis"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "literature-synthesized"
   },
   {
     "id": "range:dunkleosteus:global",
     "entityId": "dunkleosteus",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Dunkleosteus",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 380,
-    "youngerMa": 359,
+    "taxonomicConcept": "Dunkleosteus species sampled by Carr and Hlavin 2010",
+    "geographicScope": "Ohio Shale, United States, and Kettle Point Formation, Canada",
+    "olderMa": 372.15,
+    "youngerMa": 358.86,
     "status": "available",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "note": "Stage-level envelope across the two named Upper Devonian formation samples."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "evidenceBasis": "The study sample anchors the genus in the Famennian without claiming exhaustive global endpoints.",
     "confidence": "medium",
-    "claimIds": [],
+    "claimIds": [
+      "claim:taxon:dunkleosteus:range-boundary"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
-      },
-      {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "carr-hlavin-2010-eubrachythoraci",
+        "locator": "195–222; Figures 1–13; locality and systematic descriptions; Two named Dunkleosteus species; Ohio Shale and Kettle Point horizons"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "literature-synthesized"
   },
   {
     "id": "range:acanthodii:global",

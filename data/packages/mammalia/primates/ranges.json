@@ -31,121 +31,123 @@
     "id": "range:hominidae:global",
     "entityId": "hominidae",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Hominidae",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 20,
+    "taxonomicConcept": "Hominidae — source-bounded sample window — numerical range withheld",
+    "geographicScope": "No numerical geographic-temporal range exposed",
+    "olderMa": 0,
     "youngerMa": 0,
-    "status": "available",
+    "status": "withheld-pending-provenance",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "note": "The former navigation numbers are withdrawn because the living-primate supermatrix tests topology and biogeography but does not furnish a fossil-range endpoint. Zero values are non-display placeholders required by the schema."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
-    "confidence": "medium",
+    "evidenceBasis": "A source audit of Macroevolutionary Dynamics and Historical Biogeography of Primate Diversification Inferred from a Species Supermatrix found relationship or taxonomic evidence but no range-fit support for the former numerical display.",
+    "confidence": "low",
     "claimIds": [],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
-      },
-      {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "springer-2012-primate-supermatrix",
+        "locator": "Article e49521; Hominoidea and Hominidae taxon sampling and topology"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "withheld-no-range-evidence"
   },
   {
     "id": "range:homo:global",
     "entityId": "homo",
-    "rangeKind": "global-composite",
-    "taxonomicConcept": "Homo",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 2.8,
-    "youngerMa": 0,
+    "rangeKind": "taxon-range",
+    "taxonomicConcept": "Homo — source-bounded sample window",
+    "geographicScope": "Dmanisi Homo skull assemblage, Georgia",
+    "olderMa": 1.85,
+    "youngerMa": 1.77,
     "status": "available",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "note": "This display is limited to the dated Dmanisi assemblage only, not the origin, complete range or living continuation of Homo; numerical stage conversions follow ICS v2026/06 where applicable."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "evidenceBasis": "A Complete Skull from Dmanisi, Georgia, and the Evolutionary Biology of Early Homo directly anchors the sampled window; the display does not extrapolate it into a global taxon duration.",
     "confidence": "medium",
-    "claimIds": [],
+    "claimIds": [
+      "claim:taxon:homo:source-bounded-range-rc49"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
+        "referenceId": "lordkipanidze-2013-dmanisi",
+        "locator": "326–331; Skull association; layer and age; variation analysis"
       },
       {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "ics-2026-06",
+        "locator": "International Chronostratigraphic Chart v2026/06; numerical stage boundaries"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "literature-synthesized"
   },
   {
     "id": "range:homo_sapiens:global",
     "entityId": "homo_sapiens",
-    "rangeKind": "global-composite",
-    "taxonomicConcept": "Homo sapiens",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 0.3,
-    "youngerMa": 0,
+    "rangeKind": "taxon-range",
+    "taxonomicConcept": "Homo sapiens — source-bounded sample window",
+    "geographicScope": "Directly dated Ust'-Ishim 1 individual, western Siberia",
+    "olderMa": 0.04688,
+    "youngerMa": 0.04321,
     "status": "available",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "note": "This display is limited to one directly dated individual, not the origin or complete range of Homo sapiens; numerical stage conversions follow ICS v2026/06 where applicable."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "evidenceBasis": "Genome sequence of a 45,000-year-old modern human from western Siberia directly anchors the sampled window; the display does not extrapolate it into a global taxon duration.",
     "confidence": "medium",
-    "claimIds": [],
+    "claimIds": [
+      "claim:taxon:homo_sapiens:source-bounded-range-rc49"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
+        "referenceId": "fu-2014-ust-ishim",
+        "locator": "445–449; Direct dating; genome methods; Extended Data Figures 1–9"
       },
       {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "ics-2026-06",
+        "locator": "International Chronostratigraphic Chart v2026/06; numerical stage boundaries"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "literature-synthesized"
   },
   {
     "id": "range:homo_neanderthalensis:global",
     "entityId": "homo_neanderthalensis",
-    "rangeKind": "global-composite",
-    "taxonomicConcept": "Homo neanderthalensis",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 0.4,
-    "youngerMa": 0.04,
+    "rangeKind": "taxon-range",
+    "taxonomicConcept": "Homo neanderthalensis — source-bounded sample window",
+    "geographicScope": "Vindija 33.19 specimen age envelope, Croatia",
+    "olderMa": 0.055,
+    "youngerMa": 0.0455,
     "status": "available",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "note": "This display is limited to the dated Vindija specimen envelope, not the complete duration of Neanderthals; numerical stage conversions follow ICS v2026/06 where applicable."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "evidenceBasis": "A high-coverage Neandertal genome from Vindija Cave in Croatia directly anchors the sampled window; the display does not extrapolate it into a global taxon duration.",
     "confidence": "medium",
-    "claimIds": [],
+    "claimIds": [
+      "claim:taxon:homo_neanderthalensis:source-bounded-range-rc49"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
+        "referenceId": "prufer-2017-vindija",
+        "locator": "655–658; Specimen dating; genome coverage; demographic analyses"
       },
       {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "ics-2026-06",
+        "locator": "International Chronostratigraphic Chart v2026/06; numerical stage boundaries"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "literature-synthesized"
   },
   {
     "id": "range:purgatorius:primates-primary-sample",
@@ -490,182 +492,194 @@
     "id": "range:plesiadapiformes:global",
     "entityId": "plesiadapiformes",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "plesiadapiformes",
-    "geographicScope": "Global or represented navigation composite",
+    "taxonomicConcept": "plesiadapiformes — source-bounded sample window",
+    "geographicScope": "Paleogene plesiadapiform record synthesized by Silcox and López-Torres",
     "olderMa": 66,
     "youngerMa": 34,
     "status": "available",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Rounded navigation bounds are not claim-linked fossil first or last appearances and do not establish crown origination."
+      "note": "This display is limited to the review's heterogeneous sampled assemblage, not a monophyletic crown-primate range; numerical stage conversions follow ICS v2026/06 where applicable."
     },
-    "evidenceBasis": "Curated navigation display range; taxonomic membership, fossil occurrence and model divergence time remain separate.",
+    "evidenceBasis": "Major Questions in the Study of Primate Origins directly anchors the sampled window; the display does not extrapolate it into a global taxon duration.",
     "confidence": "medium",
-    "claimIds": [],
+    "claimIds": [
+      "claim:taxon:plesiadapiformes:source-bounded-range-rc49"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
+        "referenceId": "silcox-lopez-torres-2017-primate-origins",
+        "locator": "113–137; Plesiadapiform relationships; definition and diagnosis of Primates"
+      },
+      {
+        "referenceId": "ics-2026-06",
+        "locator": "International Chronostratigraphic Chart v2026/06; numerical stage boundaries"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "literature-synthesized"
   },
   {
     "id": "range:adapiformes:global",
     "entityId": "adapiformes",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "adapiformes",
-    "geographicScope": "Global or represented navigation composite",
+    "taxonomicConcept": "adapiformes — source-bounded sample window",
+    "geographicScope": "Eocene adapiform record synthesized by Silcox and López-Torres",
     "olderMa": 56,
     "youngerMa": 34,
     "status": "available",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Rounded navigation bounds are not claim-linked fossil first or last appearances and do not establish crown origination."
+      "note": "This display is limited to the review's sampled Eocene record, not an ancestor chain or exact global endpoints; numerical stage conversions follow ICS v2026/06 where applicable."
     },
-    "evidenceBasis": "Curated navigation display range; taxonomic membership, fossil occurrence and model divergence time remain separate.",
+    "evidenceBasis": "Major Questions in the Study of Primate Origins directly anchors the sampled window; the display does not extrapolate it into a global taxon duration.",
     "confidence": "medium",
-    "claimIds": [],
+    "claimIds": [
+      "claim:taxon:adapiformes:source-bounded-range-rc49"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
+        "referenceId": "silcox-lopez-torres-2017-primate-origins",
+        "locator": "113–137; Early euprimates; Adapoidea and competing crown-primate hypotheses"
+      },
+      {
+        "referenceId": "ics-2026-06",
+        "locator": "International Chronostratigraphic Chart v2026/06; numerical stage boundaries"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "literature-synthesized"
   },
   {
     "id": "range:strepsirrhini:global",
     "entityId": "strepsirrhini",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "strepsirrhini",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 66.8,
+    "taxonomicConcept": "strepsirrhini — source-bounded sample window — numerical range withheld",
+    "geographicScope": "No numerical geographic-temporal range exposed",
+    "olderMa": 0,
     "youngerMa": 0,
-    "status": "available",
+    "status": "withheld-pending-provenance",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Rounded navigation bounds are not claim-linked fossil first or last appearances and do not establish crown origination."
+      "note": "The former navigation numbers are withdrawn because the living-primate supermatrix does not supply a range-fit fossil start. Zero values are non-display placeholders required by the schema."
     },
-    "evidenceBasis": "Curated navigation display range; taxonomic membership, fossil occurrence and model divergence time remain separate.",
-    "confidence": "medium",
+    "evidenceBasis": "A source audit of Macroevolutionary Dynamics and Historical Biogeography of Primate Diversification Inferred from a Species Supermatrix found relationship or taxonomic evidence but no range-fit support for the former numerical display.",
+    "confidence": "low",
     "claimIds": [],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
+        "referenceId": "springer-2012-primate-supermatrix",
+        "locator": "Article e49521; Taxon sampling; molecular phylogeny results"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "withheld-no-range-evidence"
   },
   {
     "id": "range:haplorhini:global",
     "entityId": "haplorhini",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "haplorhini",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 66,
+    "taxonomicConcept": "haplorhini — source-bounded sample window — numerical range withheld",
+    "geographicScope": "No numerical geographic-temporal range exposed",
+    "olderMa": 0,
     "youngerMa": 0,
-    "status": "available",
+    "status": "withheld-pending-provenance",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Rounded navigation bounds are not claim-linked fossil first or last appearances and do not establish crown origination."
+      "note": "The former navigation numbers are withdrawn because the living-primate supermatrix does not supply a range-fit fossil start. Zero values are non-display placeholders required by the schema."
     },
-    "evidenceBasis": "Curated navigation display range; taxonomic membership, fossil occurrence and model divergence time remain separate.",
-    "confidence": "medium",
+    "evidenceBasis": "A source audit of Macroevolutionary Dynamics and Historical Biogeography of Primate Diversification Inferred from a Species Supermatrix found relationship or taxonomic evidence but no range-fit support for the former numerical display.",
+    "confidence": "low",
     "claimIds": [],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
+        "referenceId": "springer-2012-primate-supermatrix",
+        "locator": "Article e49521; Molecular phylogeny and node-support results"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "withheld-no-range-evidence"
   },
   {
     "id": "range:anthropoidea:global",
     "entityId": "anthropoidea",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "anthropoidea",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 48.3,
+    "taxonomicConcept": "anthropoidea — source-bounded sample window — numerical range withheld",
+    "geographicScope": "No numerical geographic-temporal range exposed",
+    "olderMa": 0,
     "youngerMa": 0,
-    "status": "available",
+    "status": "withheld-pending-provenance",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Rounded navigation bounds are not claim-linked fossil first or last appearances and do not establish crown origination."
+      "note": "The former navigation numbers are withdrawn because the living-primate supermatrix does not establish fossil membership or a range-fit first appearance. Zero values are non-display placeholders required by the schema."
     },
-    "evidenceBasis": "Curated navigation display range; taxonomic membership, fossil occurrence and model divergence time remain separate.",
-    "confidence": "medium",
+    "evidenceBasis": "A source audit of Macroevolutionary Dynamics and Historical Biogeography of Primate Diversification Inferred from a Species Supermatrix found relationship or taxonomic evidence but no range-fit support for the former numerical display.",
+    "confidence": "low",
     "claimIds": [],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
+        "referenceId": "springer-2012-primate-supermatrix",
+        "locator": "Article e49521; Higher-level primate topology; Simiiformes sampling"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "withheld-no-range-evidence"
   },
   {
     "id": "range:catarrhini:global",
     "entityId": "catarrhini",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "catarrhini",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 35.1,
+    "taxonomicConcept": "catarrhini — source-bounded sample window — numerical range withheld",
+    "geographicScope": "No numerical geographic-temporal range exposed",
+    "olderMa": 0,
     "youngerMa": 0,
-    "status": "available",
+    "status": "withheld-pending-provenance",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Rounded navigation bounds are not claim-linked fossil first or last appearances and do not establish crown origination."
+      "note": "The former navigation numbers are withdrawn because the living-primate supermatrix does not supply a range-fit fossil start. Zero values are non-display placeholders required by the schema."
     },
-    "evidenceBasis": "Curated navigation display range; taxonomic membership, fossil occurrence and model divergence time remain separate.",
-    "confidence": "medium",
+    "evidenceBasis": "A source audit of Macroevolutionary Dynamics and Historical Biogeography of Primate Diversification Inferred from a Species Supermatrix found relationship or taxonomic evidence but no range-fit support for the former numerical display.",
+    "confidence": "low",
     "claimIds": [],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
+        "referenceId": "springer-2012-primate-supermatrix",
+        "locator": "Article e49521; Catarrhini topology; ancestral-area analyses"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "withheld-no-range-evidence"
   },
   {
     "id": "range:hominoidea:global",
     "entityId": "hominoidea",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "hominoidea",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 25,
+    "taxonomicConcept": "hominoidea — source-bounded sample window — numerical range withheld",
+    "geographicScope": "No numerical geographic-temporal range exposed",
+    "olderMa": 0,
     "youngerMa": 0,
-    "status": "available",
+    "status": "withheld-pending-provenance",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Rounded navigation bounds are not claim-linked fossil first or last appearances and do not establish crown origination."
+      "note": "The former navigation numbers are withdrawn because the living-primate supermatrix does not support the former 25 Ma display start. Zero values are non-display placeholders required by the schema."
     },
-    "evidenceBasis": "Curated navigation display range; taxonomic membership, fossil occurrence and model divergence time remain separate.",
-    "confidence": "medium",
+    "evidenceBasis": "A source audit of Macroevolutionary Dynamics and Historical Biogeography of Primate Diversification Inferred from a Species Supermatrix found relationship or taxonomic evidence but no range-fit support for the former numerical display.",
+    "confidence": "low",
     "claimIds": [],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
+        "referenceId": "springer-2012-primate-supermatrix",
+        "locator": "Article e49521; Species supermatrix topology for Catarrhini and Hominoidea"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "withheld-no-range-evidence"
   }
 ]

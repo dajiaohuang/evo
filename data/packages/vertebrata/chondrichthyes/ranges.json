@@ -31,91 +31,85 @@
     "id": "range:elasmobranchii:global",
     "entityId": "elasmobranchii",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Elasmobranchii",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 409,
+    "taxonomicConcept": "Modern elasmobranch lineage model and fossil constraints",
+    "geographicScope": "Global model sample; fossil constraints summarized by Inoue et al. 2010",
+    "olderMa": 281,
     "youngerMa": 0,
     "status": "available",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "note": "281 Ma is the study’s model estimate for the shark–ray split and depends on priors, calibrations and taxon sampling."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
-    "confidence": "medium",
-    "claimIds": [],
+    "evidenceBasis": "The interval is a model-to-present navigation window for modern elasmobranchs, not the fossil range of total-group Elasmobranchii.",
+    "confidence": "low",
+    "claimIds": [
+      "claim:taxon:elasmobranchii:range-boundary"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
-      },
-      {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "inoue-2010-holocephalan-mitogenomics",
+        "locator": "2581–2584; Figure 2; Tables 2–3; Divergence-time estimation; elasmobranch fossil constraints and caveats"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "literature-synthesized"
   },
   {
     "id": "range:carcharocles:global",
     "entityId": "carcharocles",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Otodus megalodon",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 23,
-    "youngerMa": 3.6,
+    "taxonomicConcept": "Otodus megalodon extinction-analysis window under the paper’s Carcharocles usage",
+    "geographicScope": "Dated occurrence sample compiled by Pimiento and Clements 2014",
+    "olderMa": 3.6,
+    "youngerMa": 2.6,
     "status": "available",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "note": "This is an occurrence-model extinction window, not the species’ complete stratigraphic range or an exact last individual."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "evidenceBasis": "Only the analyzed late-occurrence interval is displayed; nomenclature follows Otodus in the atlas.",
     "confidence": "medium",
-    "claimIds": [],
+    "claimIds": [
+      "claim:taxon:carcharocles:range-boundary"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
-      },
-      {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "pimiento-clements-2014-megalodon-extinction",
+        "locator": "e111086; Figures 1–3; Tables 1–2; supporting occurrence data; Occurrence screening and optimal linear estimation"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "literature-synthesized"
   },
   {
     "id": "range:holocephali:global",
     "entityId": "holocephali",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Holocephali",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 358.9,
+    "taxonomicConcept": "Modern holocephalan lineage model",
+    "geographicScope": "Eight living holocephalans representing all three extant families",
+    "olderMa": 421,
     "youngerMa": 0,
     "status": "available",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "note": "The 421 Ma mean has a 410–447 Ma credible interval and is calibration- and model-dependent."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "evidenceBasis": "The interval represents the modeled lineage leading to modern holocephalans, not total-group fossil endpoints.",
     "confidence": "medium",
-    "claimIds": [],
+    "claimIds": [
+      "claim:taxon:holocephali:range-boundary"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
-      },
-      {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "inoue-2010-holocephalan-mitogenomics",
+        "locator": "2579–2584; Figure 2; Tables 2–3; Mitogenomic divergence-time estimation and credible intervals"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "literature-synthesized"
   },
   {
     "id": "range:stem-chondrichthyan-evidence-route:global",

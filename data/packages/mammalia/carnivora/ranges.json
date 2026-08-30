@@ -31,118 +31,108 @@
     "id": "range:felidae:global",
     "entityId": "felidae",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Felidae",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 30,
+    "taxonomicConcept": "Felidae — source-bounded sample window — numerical range withheld",
+    "geographicScope": "No numerical geographic-temporal range exposed",
+    "olderMa": 0,
     "youngerMa": 0,
-    "status": "available",
+    "status": "withheld-pending-provenance",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "note": "The former navigation numbers are withdrawn because the extant-carnivoran supertree does not directly document a fossil family range. Zero values are non-display placeholders required by the schema."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
-    "confidence": "medium",
+    "evidenceBasis": "A source audit of Updating the evolutionary history of Carnivora (Mammalia): a new species-level supertree complete with divergence time estimates found relationship or taxonomic evidence but no range-fit support for the former numerical display.",
+    "confidence": "low",
     "claimIds": [],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
-      },
-      {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "nyakatura-2012-carnivora-supertree",
+        "locator": "Article 12; Family-level topology; Felidae and Feliformia discussion"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "withheld-no-range-evidence"
   },
   {
     "id": "range:smilodon:global",
     "entityId": "smilodon",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Smilodon",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 2.5,
+    "taxonomicConcept": "Smilodon — source-bounded sample window",
+    "geographicScope": "Late Pleistocene Smilodon populator mitogenomic sample in Paijmans et al.",
+    "olderMa": 0.012,
     "youngerMa": 0.01,
     "status": "available",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "note": "This display is limited to the dated ancient-DNA specimen window, not the full genus range; numerical stage conversions follow ICS v2026/06 where applicable."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "evidenceBasis": "Evolutionary History of Saber-Toothed Cats Based on Ancient Mitogenomics directly anchors the sampled window; the display does not extrapolate it into a global taxon duration.",
     "confidence": "medium",
-    "claimIds": [],
+    "claimIds": [
+      "claim:taxon:smilodon:source-bounded-range-rc49"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
+        "referenceId": "paijmans-2017-sabertooth-mitogenomics",
+        "locator": "3330–3336.e5; Summary; Results: phylogenetic analyses of partial mitogenomes"
       },
       {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "ics-2026-06",
+        "locator": "International Chronostratigraphic Chart v2026/06; numerical stage boundaries"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "literature-synthesized"
   },
   {
     "id": "range:canidae:global",
     "entityId": "canidae",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Canidae",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 40,
+    "taxonomicConcept": "Canidae — source-bounded sample window — numerical range withheld",
+    "geographicScope": "No numerical geographic-temporal range exposed",
+    "olderMa": 0,
     "youngerMa": 0,
-    "status": "available",
+    "status": "withheld-pending-provenance",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "note": "The former navigation numbers are withdrawn because the extant-carnivoran supertree does not directly document extinct canid radiations or a fossil family range. Zero values are non-display placeholders required by the schema."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
-    "confidence": "medium",
+    "evidenceBasis": "A source audit of Updating the evolutionary history of Carnivora (Mammalia): a new species-level supertree complete with divergence time estimates found relationship or taxonomic evidence but no range-fit support for the former numerical display.",
+    "confidence": "low",
     "claimIds": [],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
-      },
-      {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "nyakatura-2012-carnivora-supertree",
+        "locator": "Article 12; Canidae subtree and higher caniform topology"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "withheld-no-range-evidence"
   },
   {
     "id": "range:carnivoraformes-dossiers:carnivora-evidence",
     "entityId": "carnivoraformes-dossiers",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Carnivoraformes dossier navigation route",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 56,
+    "taxonomicConcept": "Carnivoraformes dossier navigation route — numerical range withheld — numerical range withheld",
+    "geographicScope": "No numerical geographic-temporal range exposed",
+    "olderMa": 0,
     "youngerMa": 0,
-    "status": "available",
+    "status": "withheld-pending-provenance",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent legacy navigation bounds, not claim-linked FADs, LADs, crown ages or divergence estimates."
+      "note": "The former navigation numbers are withdrawn because the identifier is an editorial dossier route rather than a biological taxon, so a taxon range would be category error. Zero values are non-display placeholders required by the schema."
     },
-    "evidenceBasis": "Rounded atlas navigation range retained for browse continuity; detailed chronology remains claim-specific.",
-    "evidenceLevel": "legacy-display",
+    "evidenceBasis": "A source audit of Phylogeny of the Carnivoramorpha: The impact of postcranial characters found relationship or taxonomic evidence but no range-fit support for the former numerical display.",
+    "evidenceLevel": "withheld-no-range-evidence",
     "confidence": "low",
     "claimIds": [],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "Navigation context"
-      },
-      {
-        "referenceId": "pbdb-api-2016",
-        "locator": "Legacy fossil-range display context"
+        "referenceId": "spaulding-flynn-2012-carnivoramorpha",
+        "locator": "653–677; Taxon and character sampling; Carnivoraformes and crown Carnivora results"
       }
     ],
     "reviewStatus": "automated-audit-passed"
@@ -180,28 +170,24 @@
     "id": "range:vulpavus:carnivora-evidence",
     "entityId": "vulpavus",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Vulpavus navigation display",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 55.8,
-    "youngerMa": 42,
-    "status": "available",
+    "taxonomicConcept": "Vulpavus navigation display — numerical range withheld — numerical range withheld",
+    "geographicScope": "No numerical geographic-temporal range exposed",
+    "olderMa": 0,
+    "youngerMa": 0,
+    "status": "withheld-pending-provenance",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent legacy navigation bounds, not claim-linked FADs, LADs, crown ages or divergence estimates."
+      "note": "The former navigation numbers are withdrawn because the available cladistic study samples Vulpavus but does not document auditable numerical genus endpoints. Zero values are non-display placeholders required by the schema."
     },
-    "evidenceBasis": "Rounded atlas navigation range retained for browse continuity; detailed chronology remains claim-specific.",
-    "evidenceLevel": "legacy-display",
+    "evidenceBasis": "A source audit of Referral of Miacis jepseni Guthrie to Oödectes Wortman, and an assessment of phylogenetic relationships among early Eocene Miacidae (Mammalia: Carnivora) found relationship or taxonomic evidence but no range-fit support for the former numerical display.",
+    "evidenceLevel": "withheld-no-range-evidence",
     "confidence": "low",
     "claimIds": [],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "Navigation context"
-      },
-      {
-        "referenceId": "pbdb-api-2016",
-        "locator": "Legacy fossil-range display context"
+        "referenceId": "heinrich-1997-early-miacids",
+        "locator": "1172–1178; Cladistic analysis; Results and Discussion of Vulpavus and early miacid relationships"
       }
     ],
     "reviewStatus": "automated-audit-passed"
@@ -210,28 +196,24 @@
     "id": "range:uintacyon:carnivora-evidence",
     "entityId": "uintacyon",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Uintacyon navigation display",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 55.8,
-    "youngerMa": 42,
-    "status": "available",
+    "taxonomicConcept": "Uintacyon navigation display — numerical range withheld — numerical range withheld",
+    "geographicScope": "No numerical geographic-temporal range exposed",
+    "olderMa": 0,
+    "youngerMa": 0,
+    "status": "withheld-pending-provenance",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent legacy navigation bounds, not claim-linked FADs, LADs, crown ages or divergence estimates."
+      "note": "The former navigation numbers are withdrawn because the available cladistic study samples Uintacyon but does not document auditable numerical genus endpoints. Zero values are non-display placeholders required by the schema."
     },
-    "evidenceBasis": "Rounded atlas navigation range retained for browse continuity; detailed chronology remains claim-specific.",
-    "evidenceLevel": "legacy-display",
+    "evidenceBasis": "A source audit of Referral of Miacis jepseni Guthrie to Oödectes Wortman, and an assessment of phylogenetic relationships among early Eocene Miacidae (Mammalia: Carnivora) found relationship or taxonomic evidence but no range-fit support for the former numerical display.",
+    "evidenceLevel": "withheld-no-range-evidence",
     "confidence": "low",
     "claimIds": [],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "Navigation context"
-      },
-      {
-        "referenceId": "pbdb-api-2016",
-        "locator": "Legacy fossil-range display context"
+        "referenceId": "heinrich-1997-early-miacids",
+        "locator": "1172–1178; Cladistic results for Uintacyon, Vassacyon and other early miacids"
       }
     ],
     "reviewStatus": "automated-audit-passed"
@@ -268,28 +250,24 @@
     "id": "range:feliformia:carnivora-evidence",
     "entityId": "feliformia",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Feliformia navigation display",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 45,
+    "taxonomicConcept": "Feliformia navigation display — source-bounded sample window — numerical range withheld",
+    "geographicScope": "No numerical geographic-temporal range exposed",
+    "olderMa": 0,
     "youngerMa": 0,
-    "status": "available",
+    "status": "withheld-pending-provenance",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent legacy navigation bounds, not claim-linked FADs, LADs, crown ages or divergence estimates."
+      "note": "The former navigation numbers are withdrawn because the extant-carnivoran supertree does not supply a range-fit fossil first appearance. Zero values are non-display placeholders required by the schema."
     },
-    "evidenceBasis": "Rounded atlas navigation range retained for browse continuity; detailed chronology remains claim-specific.",
-    "evidenceLevel": "legacy-display",
+    "evidenceBasis": "A source audit of Updating the evolutionary history of Carnivora (Mammalia): a new species-level supertree complete with divergence time estimates found relationship or taxonomic evidence but no range-fit support for the former numerical display.",
+    "evidenceLevel": "withheld-no-range-evidence",
     "confidence": "low",
     "claimIds": [],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "Navigation context"
-      },
-      {
-        "referenceId": "pbdb-api-2016",
-        "locator": "Legacy fossil-range display context"
+        "referenceId": "nyakatura-2012-carnivora-supertree",
+        "locator": "Article 12; Family-level relationships; Feliformia results"
       }
     ],
     "reviewStatus": "automated-audit-passed"
@@ -327,28 +305,24 @@
     "id": "range:caniformia:carnivora-evidence",
     "entityId": "caniformia",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Caniformia navigation display",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 46.2,
+    "taxonomicConcept": "Caniformia navigation display — source-bounded sample window — numerical range withheld",
+    "geographicScope": "No numerical geographic-temporal range exposed",
+    "olderMa": 0,
     "youngerMa": 0,
-    "status": "available",
+    "status": "withheld-pending-provenance",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent legacy navigation bounds, not claim-linked FADs, LADs, crown ages or divergence estimates."
+      "note": "The former navigation numbers are withdrawn because the extant-carnivoran supertree does not supply a range-fit fossil first appearance. Zero values are non-display placeholders required by the schema."
     },
-    "evidenceBasis": "Rounded atlas navigation range retained for browse continuity; detailed chronology remains claim-specific.",
-    "evidenceLevel": "legacy-display",
+    "evidenceBasis": "A source audit of Updating the evolutionary history of Carnivora (Mammalia): a new species-level supertree complete with divergence time estimates found relationship or taxonomic evidence but no range-fit support for the former numerical display.",
+    "evidenceLevel": "withheld-no-range-evidence",
     "confidence": "low",
     "claimIds": [],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "Navigation context"
-      },
-      {
-        "referenceId": "pbdb-api-2016",
-        "locator": "Legacy fossil-range display context"
+        "referenceId": "nyakatura-2012-carnivora-supertree",
+        "locator": "Article 12; Caniformia family topology; divergence-time methods"
       }
     ],
     "reviewStatus": "automated-audit-passed"
@@ -357,28 +331,30 @@
     "id": "range:hesperocyon:carnivora-evidence",
     "entityId": "hesperocyon",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Hesperocyon navigation display",
-    "geographicScope": "Global or represented navigation composite",
+    "taxonomicConcept": "Hesperocyon navigation display — source-bounded sample window",
+    "geographicScope": "Hesperocyoninae specimens monographed by Wang",
     "olderMa": 40,
     "youngerMa": 29,
     "status": "available",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent legacy navigation bounds, not claim-linked FADs, LADs, crown ages or divergence estimates."
+      "note": "This display is limited to the monograph's sampled genus record, not exact global origination or extinction; numerical stage conversions follow ICS v2026/06 where applicable."
     },
-    "evidenceBasis": "Rounded atlas navigation range retained for browse continuity; detailed chronology remains claim-specific.",
-    "evidenceLevel": "legacy-display",
-    "confidence": "low",
-    "claimIds": [],
+    "evidenceBasis": "Phylogenetic systematics of the Hesperocyoninae (Carnivora: Canidae) directly anchors the sampled window; the display does not extrapolate it into a global taxon duration.",
+    "evidenceLevel": "literature-synthesized",
+    "confidence": "medium",
+    "claimIds": [
+      "claim:taxon:hesperocyon:source-bounded-range-rc49"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "Navigation context"
+        "referenceId": "wang-1994-hesperocyoninae",
+        "locator": "1–207; Systematics of Hesperocyon; character matrix; phylogenetic analysis"
       },
       {
-        "referenceId": "pbdb-api-2016",
-        "locator": "Legacy fossil-range display context"
+        "referenceId": "ics-2026-06",
+        "locator": "International Chronostratigraphic Chart v2026/06; numerical stage boundaries"
       }
     ],
     "reviewStatus": "automated-audit-passed"
@@ -387,28 +363,30 @@
     "id": "range:amphicyonidae:carnivora-evidence",
     "entityId": "amphicyonidae",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Amphicyonidae navigation display",
-    "geographicScope": "Global or represented navigation composite",
+    "taxonomicConcept": "Amphicyonidae navigation display — source-bounded sample window",
+    "geographicScope": "Amphicyonid fossil sample synthesized by Tomiya and Tseng",
     "olderMa": 42,
     "youngerMa": 1.8,
     "status": "available",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent legacy navigation bounds, not claim-linked FADs, LADs, crown ages or divergence estimates."
+      "note": "This display is limited to the source-bounded family sample, not a continuous global range or direct dog–bear ancestry; numerical stage conversions follow ICS v2026/06 where applicable."
     },
-    "evidenceBasis": "Rounded atlas navigation range retained for browse continuity; detailed chronology remains claim-specific.",
-    "evidenceLevel": "legacy-display",
-    "confidence": "low",
-    "claimIds": [],
+    "evidenceBasis": "Whence the beardogs? Reappraisal of the Middle to Late Eocene “Miacis” from Texas, USA, and the origin of Amphicyonidae directly anchors the sampled window; the display does not extrapolate it into a global taxon duration.",
+    "evidenceLevel": "literature-synthesized",
+    "confidence": "medium",
+    "claimIds": [
+      "claim:taxon:amphicyonidae:source-bounded-range-rc49"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "Navigation context"
+        "referenceId": "tomiya-tseng-2016-beardogs",
+        "locator": "Article 160518; Phylogenetic analysis; origin of Amphicyonidae discussion"
       },
       {
-        "referenceId": "pbdb-api-2016",
-        "locator": "Legacy fossil-range display context"
+        "referenceId": "ics-2026-06",
+        "locator": "International Chronostratigraphic Chart v2026/06; numerical stage boundaries"
       }
     ],
     "reviewStatus": "automated-audit-passed"
@@ -501,28 +479,24 @@
     "id": "range:ursidae:carnivora-evidence",
     "entityId": "ursidae",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Ursidae navigation display",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 38,
+    "taxonomicConcept": "Ursidae navigation display — source-bounded sample window — numerical range withheld",
+    "geographicScope": "No numerical geographic-temporal range exposed",
+    "olderMa": 0,
     "youngerMa": 0,
-    "status": "available",
+    "status": "withheld-pending-provenance",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent legacy navigation bounds, not claim-linked FADs, LADs, crown ages or divergence estimates."
+      "note": "The former navigation numbers are withdrawn because the extant-carnivoran supertree does not directly sample extinct stem bears or a fossil family range. Zero values are non-display placeholders required by the schema."
     },
-    "evidenceBasis": "Rounded atlas navigation range retained for browse continuity; detailed chronology remains claim-specific.",
-    "evidenceLevel": "legacy-display",
+    "evidenceBasis": "A source audit of Updating the evolutionary history of Carnivora (Mammalia): a new species-level supertree complete with divergence time estimates found relationship or taxonomic evidence but no range-fit support for the former numerical display.",
+    "evidenceLevel": "withheld-no-range-evidence",
     "confidence": "low",
     "claimIds": [],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "Navigation context"
-      },
-      {
-        "referenceId": "pbdb-api-2016",
-        "locator": "Legacy fossil-range display context"
+        "referenceId": "nyakatura-2012-carnivora-supertree",
+        "locator": "Article 12; Caniform family relationships; divergence-time estimation"
       }
     ],
     "reviewStatus": "automated-audit-passed"
@@ -559,28 +533,24 @@
     "id": "range:pinnipedimorpha:carnivora-evidence",
     "entityId": "pinnipedimorpha",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Pinnipedimorpha navigation display",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 29,
+    "taxonomicConcept": "Pinnipedimorpha navigation display — source-bounded sample window — numerical range withheld",
+    "geographicScope": "No numerical geographic-temporal range exposed",
+    "olderMa": 0,
     "youngerMa": 0,
-    "status": "available",
+    "status": "withheld-pending-provenance",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent legacy navigation bounds, not claim-linked FADs, LADs, crown ages or divergence estimates."
+      "note": "The former navigation numbers are withdrawn because the extant-carnivoran supertree does not directly sample stem pinnipeds or furnish a fossil range. Zero values are non-display placeholders required by the schema."
     },
-    "evidenceBasis": "Rounded atlas navigation range retained for browse continuity; detailed chronology remains claim-specific.",
-    "evidenceLevel": "legacy-display",
+    "evidenceBasis": "A source audit of Updating the evolutionary history of Carnivora (Mammalia): a new species-level supertree complete with divergence time estimates found relationship or taxonomic evidence but no range-fit support for the former numerical display.",
+    "evidenceLevel": "withheld-no-range-evidence",
     "confidence": "low",
     "claimIds": [],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "Navigation context"
-      },
-      {
-        "referenceId": "pbdb-api-2016",
-        "locator": "Legacy fossil-range display context"
+        "referenceId": "nyakatura-2012-carnivora-supertree",
+        "locator": "Article 12; Caniformia family topology including extant pinniped families"
       }
     ],
     "reviewStatus": "automated-audit-passed"
