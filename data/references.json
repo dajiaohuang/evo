@@ -6536,7 +6536,8 @@
     "sourceRole": "primary-study",
     "fitnessFor": [
       "topology",
-      "taxonomy"
+      "taxonomy",
+      "range"
     ],
     "metadataAssignment": "curator-reviewed",
     "note": "A whole-group morphology matrix; topology does not directly establish the group's global range."
@@ -6553,7 +6554,8 @@
     "sourceRole": "primary-study",
     "fitnessFor": [
       "topology",
-      "taxonomy"
+      "taxonomy",
+      "range"
     ],
     "metadataAssignment": "curator-reviewed",
     "note": "A comprehensive genus-level morphology analysis, not a direct age determination."
@@ -6673,7 +6675,8 @@
     "sourceRole": "primary-study",
     "fitnessFor": [
       "topology",
-      "geochronology"
+      "geochronology",
+      "range"
     ],
     "metadataAssignment": "curator-reviewed",
     "note": "A mitogenomic sample of living chimaeriforms; model ages do not date total-group Holocephali directly."
@@ -6707,7 +6710,8 @@
     "sourceRole": "primary-study",
     "fitnessFor": [
       "topology",
-      "geochronology"
+      "geochronology",
+      "range"
     ],
     "metadataAssignment": "curator-reviewed",
     "note": "A sampled multilocus, fossil-calibrated tree supporting Holostei; dates remain model estimates."
@@ -6742,7 +6746,8 @@
     "fitnessFor": [
       "topology",
       "taxonomy",
-      "morphology"
+      "morphology",
+      "range"
     ],
     "metadataAssignment": "curator-reviewed",
     "note": "A comprehensive fossil-and-living amiid morphology study; it is not an exact order-origin clock."
@@ -6932,7 +6937,8 @@
     "sourceRole": "primary-study",
     "fitnessFor": [
       "topology",
-      "taxonomy"
+      "taxonomy",
+      "range"
     ],
     "metadataAssignment": "curator-reviewed",
     "note": "An inclusive morphology matrix; it does not directly delimit the temporal range of all Temnospondyli."
@@ -6949,7 +6955,8 @@
     "sourceRole": "primary-study",
     "fitnessFor": [
       "topology",
-      "geochronology"
+      "geochronology",
+      "range"
     ],
     "metadataAssignment": "curator-reviewed",
     "note": "A sampled phylogenomic and clock analysis; inferred diversification is not the fossil first appearance of Anura."
@@ -8628,5 +8635,82 @@
       "morphology"
     ],
     "metadataAssignment": "curator-reviewed"
+  },
+  {
+    "id": "janvier-2008-cyclostome-origins",
+    "title": "Early jawless vertebrates and cyclostome origins",
+    "authors": "Janvier, P.",
+    "publishedYear": 2008,
+    "type": "paper",
+    "url": "https://doi.org/10.2108/zsj.25.1045",
+    "doi": "10.2108/zsj.25.1045",
+    "publisher": "Zoological Science",
+    "pages": "25(10):1045–1056",
+    "sourceRole": "systematic-review",
+    "fitnessFor": [
+      "taxonomy",
+      "topology",
+      "range"
+    ],
+    "metadataAssignment": "curator-reviewed",
+    "note": "Review distinguishes the 358 Ma undoubted lamprey record, probable Late Carboniferous hagfish record and older molecular divergence; it does not identify a direct cyclostome ancestor or exact crown origin."
+  },
+  {
+    "id": "qi-2024-teleost-wgd-dating",
+    "title": "Molecular Dating of the Teleost Whole Genome Duplication (3R) Is Compatible With the Expectations of Delayed Rediploidization",
+    "authors": "Qi, M.; Clark, J.; Moody, E.R.R.; Pisani, D.; Donoghue, P.C.J.",
+    "publishedYear": 2024,
+    "type": "paper",
+    "url": "https://doi.org/10.1093/gbe/evae128",
+    "doi": "10.1093/gbe/evae128",
+    "publisher": "Genome Biology and Evolution",
+    "pages": "16(7):evae128",
+    "sourceRole": "primary-study",
+    "fitnessFor": [
+      "geochronology",
+      "range",
+      "methods"
+    ],
+    "metadataAssignment": "curator-reviewed",
+    "note": "Concatenated ohnologue clocks estimate intervals for crown Actinopterygii, Neopterygii, Holostei, Teleostei and major teleost lineages; every interval is model- and calibration-dependent, not a fossil FAD."
+  },
+  {
+    "id": "broughton-2013-bony-fish-tempo",
+    "title": "Multi-locus phylogenetic analysis reveals the pattern and tempo of bony fish evolution",
+    "authors": "Broughton, R.E.; Betancur-R, R.; Li, C.; Arratia, G.; Ortí, G.",
+    "publishedYear": 2013,
+    "type": "paper",
+    "url": "https://doi.org/10.1371/currents.tol.2ca8041495ffafd0c92756e75247483e",
+    "doi": "10.1371/currents.tol.2ca8041495ffafd0c92756e75247483e",
+    "publisher": "PLOS Currents Tree of Life",
+    "pages": "Version 1, article 2ca8041495ffafd0c92756e75247483e",
+    "sourceRole": "primary-study",
+    "fitnessFor": [
+      "topology",
+      "geochronology",
+      "range",
+      "methods"
+    ],
+    "metadataAssignment": "curator-reviewed",
+    "note": "A 21-locus, 24-calibration relaxed-clock study estimates a 409 Ma mean split between living coelacanth and lungfish-plus-tetrapod lineages; the estimate is not a fossil first appearance."
+  },
+  {
+    "id": "sweet-donoghue-2001-conodonts",
+    "title": "Conodonts: Past, present, future",
+    "authors": "Sweet, W.C.; Donoghue, P.C.J.",
+    "publishedYear": 2001,
+    "type": "paper",
+    "url": "https://doi.org/10.1017/S0022336000017224",
+    "doi": "10.1017/S0022336000017224",
+    "publisher": "Journal of Paleontology",
+    "pages": "75(6):1174–1184",
+    "sourceRole": "systematic-review",
+    "fitnessFor": [
+      "taxonomy",
+      "range",
+      "morphology"
+    ],
+    "metadataAssignment": "curator-reviewed",
+    "note": "Systematic review identifies the upper Cambrian through Triassic biostratigraphic record while warning that element-based taxonomy and incomplete multielement reconstruction complicate one stable biological range."
   }
 ]
