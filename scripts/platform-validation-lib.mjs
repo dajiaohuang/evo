@@ -1,3 +1,4 @@
+import { createHash } from 'node:crypto'
 import Ajv2020 from 'ajv/dist/2020.js'
 import { existsSync, readFileSync, readdirSync, statSync } from 'node:fs'
 import { dirname, join } from 'node:path'
@@ -152,6 +153,34 @@ function packageFailures() {
     if (queryLedger.completeness === 'complete' && queryLedger.upstreamReportedTotal !== queryLedger.rowsFetched) failures.push(`package ${entry.id}: complete query ledger must retain and match the upstream total`)
     if (entry.id === 'perissodactyla' && queryLedger.completeness !== 'complete') failures.push('package perissodactyla: flagship query ledger must preserve complete pagination')
     if (entry.id !== 'perissodactyla' && queryLedger.completeness === 'complete') failures.push(`package ${entry.id}: legacy bounded sample must not claim complete coverage`)
+    if (queryLedger.schemaVersion === 2) {
+      const eligibleSubqueries = queryLedger.subqueries.filter((subquery) => subquery.queryEligible)
+      const withheldSubqueries = queryLedger.subqueries.filter((subquery) => !subquery.queryEligible)
+      for (const subquery of eligibleSubqueries) {
+        if (subquery.completeness !== 'complete' || subquery.upstreamReportedTotal !== subquery.rowsFetched || !subquery.queryParameters?.base_id || !subquery.queryParameters?.base_name) failures.push(`package ${entry.id}: eligible targeted query ${subquery.entityId} is not a complete pinned base_id/base_name audit`)
+        if (!subquery.retrievedAt || !subquery.rawPageSha256.length || !subquery.rawResponseSha256 || !subquery.normalizedRowsSha256 || !subquery.occurrenceIdSha256) failures.push(`package ${entry.id}: eligible targeted query ${subquery.entityId} is missing retrieval checksums`)
+      }
+      for (const subquery of withheldSubqueries) {
+        if (subquery.completeness !== 'withheld' || subquery.rowsFetched !== null || subquery.pagesFetched !== null || subquery.upstreamReportedTotal !== null || subquery.queryParameters !== null || subquery.rawResponseSha256 !== null || subquery.normalizedRowsSha256 !== null || subquery.occurrenceIdSha256 !== null) failures.push(`package ${entry.id}: withheld targeted query ${subquery.entityId} must not fabricate a query, zero result, or checksum`)
+      }
+      if (queryLedger.withheldSubqueryCount !== withheldSubqueries.length) failures.push(`package ${entry.id}: targeted withheld query count is stale`)
+      if (!existsSync(join(rootDir, queryLedger.occurrenceSnapshot))) failures.push(`package ${entry.id}: targeted occurrence snapshot is missing`)
+      else {
+        const snapshot = readJson(queryLedger.occurrenceSnapshot)
+        const queryResultsByEntityId = new Map(snapshot.queryResults.map((result) => [result.entityId, result]))
+        if (snapshot.packageId !== entry.id) failures.push(`package ${entry.id}: targeted occurrence snapshot package mismatch`)
+        for (const subquery of eligibleSubqueries) {
+          const result = queryResultsByEntityId.get(subquery.entityId)
+          if (!result || result.upstreamReportedTotal !== result.occurrenceIds.length || result.occurrenceIdSha256 !== subquery.occurrenceIdSha256 || result.rawResponseSha256 !== subquery.rawResponseSha256 || result.normalizedRowsSha256 !== subquery.normalizedRowsSha256) failures.push(`package ${entry.id}: targeted snapshot result ${subquery.entityId} does not match its query ledger`)
+          else if (createHash('sha256').update(result.occurrenceIds.join('\n')).digest('hex') !== result.occurrenceIdSha256) failures.push(`package ${entry.id}: targeted snapshot occurrence IDs for ${subquery.entityId} fail checksum`)
+        }
+        const uniqueOccurrenceIds = [...new Set(snapshot.queryResults.flatMap((result) => result.occurrenceIds))]
+        if (snapshot.uniqueOccurrenceCount !== uniqueOccurrenceIds.length || queryLedger.uniqueRowsObserved !== uniqueOccurrenceIds.length) failures.push(`package ${entry.id}: targeted unique occurrence count is stale`)
+        if (snapshot.retainedRecordCount !== snapshot.records.length || queryLedger.uniqueRowsRetained !== snapshot.records.length || snapshot.records.length > snapshot.recordSelection.limit) failures.push(`package ${entry.id}: targeted retained occurrence count is stale or over limit`)
+        if (!unique(snapshot.records.map((record) => record.oid))) failures.push(`package ${entry.id}: targeted retained occurrence IDs must be unique`)
+        if (createHash('sha256').update(JSON.stringify(snapshot.records)).digest('hex') !== snapshot.recordsSha256) failures.push(`package ${entry.id}: targeted retained occurrence checksum is stale`)
+      }
+    }
     if (packageClaimIds.length === 0 && entry.id !== 'atlas-core' && scientificMaturityAtLeast(packageData.scientificMaturity, 'source-linked')) failures.push(`package ${entry.id}: packages without claims cannot reach source-linked maturity`)
     const ranges = readJson(`${entry.canonicalPath}/ranges.json`)
     for (const range of ranges) {

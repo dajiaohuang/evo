@@ -549,7 +549,9 @@ for (const definition of packageDefinitions) {
   const packageReferences = references.filter((reference) => packageReferenceIds.has(reference.id))
   const acceptedRows = occurrenceCountsByPackage.get(definition.id) ?? 0
   const perissodactylaRootQuery = perissodactylaOccurrenceSnapshot.queryResults.find((query) => query.entityId === 'perissodactyla')
-  const queryLedger = definition.id === 'perissodactyla'
+  const targetedOccurrenceSnapshotPath = `data/sources/pbdb-targeted-${definition.id}-occurrences-v1.json`
+  const targetedOccurrenceSnapshot = existsSync(join(rootDir, targetedOccurrenceSnapshotPath)) ? readJson(targetedOccurrenceSnapshotPath) : null
+  const queryLedger = targetedOccurrenceSnapshot?.packageQueryLedger ?? (definition.id === 'perissodactyla'
     ? {
         schemaVersion: 1,
         packageId: definition.id,
@@ -611,7 +613,7 @@ for (const definition of packageDefinitions) {
           'Checksums cover normalized canonical period files; raw provider response bodies were not retained for this legacy bounded snapshot.',
           'Rows outside this package are reported separately and are not rejected scientific observations.',
         ],
-      }
+      })
   writeJson(`data/packages/${definition.path}/package.json`, {
     schemaVersion: PACKAGE_SCHEMA_VERSION,
     id: definition.id,
@@ -647,8 +649,8 @@ for (const definition of packageDefinitions) {
   writeJson(`data/packages/${definition.path}/provenance.json`, {
     packageId: definition.id,
     version: DATASET_PACKAGE_VERSION,
-    canonicalInputs: ['data/navigation/atlas-ontology.json', 'data/ranges/range-evidence.json', 'data/sources/pbdb-taxon-resolution.json', 'data/tree/evidence.json', 'data/references.json', ...(profileSourceEntry ? [profileSourceEntry.relativePath] : []), ...(phylogenySourceEntry ? [phylogenySourceEntry.relativePath] : [])],
-    occurrenceSnapshot: 'data/sources/pbdb-occurrence-bundle.json',
+    canonicalInputs: ['data/navigation/atlas-ontology.json', 'data/ranges/range-evidence.json', 'data/sources/pbdb-taxon-resolution.json', 'data/tree/evidence.json', 'data/references.json', ...(targetedOccurrenceSnapshot ? [targetedOccurrenceSnapshotPath] : []), ...(profileSourceEntry ? [profileSourceEntry.relativePath] : []), ...(phylogenySourceEntry ? [phylogenySourceEntry.relativePath] : [])],
+    occurrenceSnapshot: targetedOccurrenceSnapshot ? targetedOccurrenceSnapshotPath : 'data/sources/pbdb-occurrence-bundle.json',
     generatedProjection: true,
     notes: ['Package registry, taxonomy, range and locale files are generated projections. review.json is maintained separately as the single package review record. Canonical entity concepts, ranges, evidence and external-resolution decisions live in the listed canonical inputs.'],
   })

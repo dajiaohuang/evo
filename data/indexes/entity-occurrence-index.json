@@ -483,6 +483,7 @@
         "txn:35506",
         "txn:218871",
         "txn:265927",
+        "txn:77132",
         "txn:36319",
         "txn:36320",
         "txn:471965",
@@ -561,6 +562,7 @@
         "txn:38561",
         "txn:38564",
         "txn:36616",
+        "txn:39240",
         "txn:39241",
         "txn:39461"
       ],
@@ -643,6 +645,7 @@
         "salmoniformes",
         "cheirolepis trailli",
         "fukangichthys longidorsalis",
+        "tiktaalik",
         "amphibia",
         "temnospondyli",
         "gymnophionomorpha",
@@ -721,6 +724,7 @@
         "dromaeosauridae",
         "velociraptor",
         "aves",
+        "archaeopteryx",
         "neornithes",
         "phorusrhacidae"
       ],
@@ -5140,6 +5144,7 @@
         "txn:35506",
         "txn:218871",
         "txn:265927",
+        "txn:77132",
         "txn:36319",
         "txn:36320",
         "txn:471965",
@@ -5218,6 +5223,7 @@
         "txn:38561",
         "txn:38564",
         "txn:36616",
+        "txn:39240",
         "txn:39241",
         "txn:39461"
       ],
@@ -5239,6 +5245,7 @@
         "salmoniformes",
         "cheirolepis trailli",
         "fukangichthys longidorsalis",
+        "tiktaalik",
         "amphibia",
         "temnospondyli",
         "gymnophionomorpha",
@@ -5317,6 +5324,7 @@
         "dromaeosauridae",
         "velociraptor",
         "aves",
+        "archaeopteryx",
         "neornithes",
         "phorusrhacidae"
       ],
@@ -5905,6 +5913,7 @@
         "txn:35506",
         "txn:218871",
         "txn:265927",
+        "txn:77132",
         "txn:36319",
         "txn:36320",
         "txn:471965",
@@ -5983,6 +5992,7 @@
         "txn:38561",
         "txn:38564",
         "txn:36616",
+        "txn:39240",
         "txn:39241",
         "txn:39461"
       ],
@@ -5999,6 +6009,7 @@
         "salmoniformes",
         "cheirolepis trailli",
         "fukangichthys longidorsalis",
+        "tiktaalik",
         "amphibia",
         "temnospondyli",
         "gymnophionomorpha",
@@ -6077,6 +6088,7 @@
         "dromaeosauridae",
         "velociraptor",
         "aves",
+        "archaeopteryx",
         "neornithes",
         "phorusrhacidae"
       ],
@@ -6687,6 +6699,7 @@
         "txn:35506",
         "txn:218871",
         "txn:265927",
+        "txn:77132",
         "txn:36319",
         "txn:36320",
         "txn:471965",
@@ -6765,6 +6778,7 @@
         "txn:38561",
         "txn:38564",
         "txn:36616",
+        "txn:39240",
         "txn:39241",
         "txn:39461"
       ],
@@ -6772,6 +6786,7 @@
         "salmoniformes",
         "cheirolepis trailli",
         "fukangichthys longidorsalis",
+        "tiktaalik",
         "amphibia",
         "temnospondyli",
         "gymnophionomorpha",
@@ -6850,6 +6865,7 @@
         "dromaeosauridae",
         "velociraptor",
         "aves",
+        "archaeopteryx",
         "neornithes",
         "phorusrhacidae"
       ],
@@ -7447,6 +7463,7 @@
         "oviraptorosauria"
       ],
       "descendantTaxonIds": [
+        "txn:77132",
         "txn:36319",
         "txn:36320",
         "txn:471965",
@@ -7525,10 +7542,12 @@
         "txn:38561",
         "txn:38564",
         "txn:36616",
+        "txn:39240",
         "txn:39241",
         "txn:39461"
       ],
       "descendantScientificNames": [
+        "tiktaalik",
         "amphibia",
         "temnospondyli",
         "gymnophionomorpha",
@@ -7607,6 +7626,7 @@
         "dromaeosauridae",
         "velociraptor",
         "aves",
+        "archaeopteryx",
         "neornithes",
         "phorusrhacidae"
       ],
@@ -7876,6 +7896,7 @@
         "oviraptorosauria"
       ],
       "descendantTaxonIds": [
+        "txn:77132",
         "txn:36319",
         "txn:36320",
         "txn:471965",
@@ -7954,10 +7975,12 @@
         "txn:38561",
         "txn:38564",
         "txn:36616",
+        "txn:39240",
         "txn:39241",
         "txn:39461"
       ],
       "descendantScientificNames": [
+        "tiktaalik",
         "amphibia",
         "temnospondyli",
         "gymnophionomorpha",
@@ -8036,6 +8059,7 @@
         "dromaeosauridae",
         "velociraptor",
         "aves",
+        "archaeopteryx",
         "neornithes",
         "phorusrhacidae"
       ],
@@ -8067,8 +8091,12 @@
         "acanthostega",
         "ichthyostega"
       ],
-      "descendantTaxonIds": [],
-      "descendantScientificNames": [],
+      "descendantTaxonIds": [
+        "txn:77132"
+      ],
+      "descendantScientificNames": [
+        "tiktaalik"
+      ],
       "matchMethods": {
         "exactExternalId": 0,
         "acceptedName": 0,
@@ -8082,13 +8110,17 @@
     "tiktaalik": {
       "entityId": "tiktaalik",
       "entityKind": "taxon",
-      "externalTaxonId": null,
+      "externalTaxonId": "txn:77132",
       "scientificNameNormalized": "tiktaalik",
       "externalResolutionStatus": "resolved-exact",
-      "queryStatus": "concept-review-required",
+      "queryStatus": "resolved-zero-in-bounded-sample",
       "descendantEntityIds": [],
-      "descendantTaxonIds": [],
-      "descendantScientificNames": [],
+      "descendantTaxonIds": [
+        "txn:77132"
+      ],
+      "descendantScientificNames": [
+        "tiktaalik"
+      ],
       "matchMethods": {
         "exactExternalId": 0,
         "acceptedName": 0,
@@ -8442,6 +8474,7 @@
         "txn:38561",
         "txn:38564",
         "txn:36616",
+        "txn:39240",
         "txn:39241",
         "txn:39461"
       ],
@@ -8524,6 +8557,7 @@
         "dromaeosauridae",
         "velociraptor",
         "aves",
+        "archaeopteryx",
         "neornithes",
         "phorusrhacidae"
       ],
@@ -9149,6 +9183,7 @@
         "txn:38561",
         "txn:38564",
         "txn:36616",
+        "txn:39240",
         "txn:39241",
         "txn:39461"
       ],
@@ -9224,6 +9259,7 @@
         "dromaeosauridae",
         "velociraptor",
         "aves",
+        "archaeopteryx",
         "neornithes",
         "phorusrhacidae"
       ],
@@ -13495,6 +13531,7 @@
         "txn:38561",
         "txn:38564",
         "txn:36616",
+        "txn:39240",
         "txn:39241",
         "txn:39461"
       ],
@@ -13521,6 +13558,7 @@
         "dromaeosauridae",
         "velociraptor",
         "aves",
+        "archaeopteryx",
         "neornithes",
         "phorusrhacidae"
       ],
@@ -14070,6 +14108,7 @@
         "txn:38561",
         "txn:38564",
         "txn:36616",
+        "txn:39240",
         "txn:39241",
         "txn:39461"
       ],
@@ -14090,6 +14129,7 @@
         "dromaeosauridae",
         "velociraptor",
         "aves",
+        "archaeopteryx",
         "neornithes",
         "phorusrhacidae"
       ],
@@ -14344,6 +14384,7 @@
         "txn:38561",
         "txn:38564",
         "txn:36616",
+        "txn:39240",
         "txn:39241",
         "txn:39461"
       ],
@@ -14362,6 +14403,7 @@
         "dromaeosauridae",
         "velociraptor",
         "aves",
+        "archaeopteryx",
         "neornithes",
         "phorusrhacidae"
       ],
@@ -14721,6 +14763,7 @@
         "txn:38561",
         "txn:38564",
         "txn:36616",
+        "txn:39240",
         "txn:39241",
         "txn:39461"
       ],
@@ -14734,6 +14777,7 @@
         "dromaeosauridae",
         "velociraptor",
         "aves",
+        "archaeopteryx",
         "neornithes",
         "phorusrhacidae"
       ],
@@ -14943,6 +14987,7 @@
         "txn:38561",
         "txn:38564",
         "txn:36616",
+        "txn:39240",
         "txn:39241",
         "txn:39461"
       ],
@@ -14954,6 +14999,7 @@
         "dromaeosauridae",
         "velociraptor",
         "aves",
+        "archaeopteryx",
         "neornithes",
         "phorusrhacidae"
       ],
@@ -15143,11 +15189,13 @@
       ],
       "descendantTaxonIds": [
         "txn:36616",
+        "txn:39240",
         "txn:39241",
         "txn:39461"
       ],
       "descendantScientificNames": [
         "aves",
+        "archaeopteryx",
         "neornithes",
         "phorusrhacidae"
       ],
@@ -15167,13 +15215,17 @@
     "archaeopteryx": {
       "entityId": "archaeopteryx",
       "entityKind": "taxon",
-      "externalTaxonId": null,
+      "externalTaxonId": "txn:39240",
       "scientificNameNormalized": "archaeopteryx",
       "externalResolutionStatus": "resolved-exact",
-      "queryStatus": "concept-review-required",
+      "queryStatus": "resolved-zero-in-bounded-sample",
       "descendantEntityIds": [],
-      "descendantTaxonIds": [],
-      "descendantScientificNames": [],
+      "descendantTaxonIds": [
+        "txn:39240"
+      ],
+      "descendantScientificNames": [
+        "archaeopteryx"
+      ],
       "matchMethods": {
         "exactExternalId": 0,
         "acceptedName": 0,
