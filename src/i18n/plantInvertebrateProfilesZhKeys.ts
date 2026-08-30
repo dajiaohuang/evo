@@ -59,6 +59,21 @@ const exactPlantInvertebrateProfileCopy = new Set([
   'Stereom skeletal microstructure', 'Water-vascular-system context in crown members',
   'Diverse grazing, deposit-feeding and predatory modes; ancestral state unresolved',
   'Marine benthic habitats', 'No single class-wide guild', 'Calcitic test plates',
+  'From stereom fragments to living echinoderm crowns',
+  'Follow five evidence boundaries that keep isolated skeleton, contested affinity, articulated bodies and modelled crown time distinct.',
+  'An ossicle is not an articulated animal',
+  'Keep a Fortunian candidate contested', 'Articulated faunas change the record',
+  'Class-level records remain uneven', 'Do not merge stem fossils with crown time',
+  'Competing matrices are evidence of disagreement, not permission to select a convenient endpoint.',
+  'A robust sampled fauna is still not the first evolutionary instant of Echinodermata.',
+  'Different preservation histories prevent one class record from standing in for every echinoderm class.',
+  'A fossil occurrence and a modelled divergence answer different questions and remain separate in the atlas.',
+  "The source-reported numerical calibration is approximate and older than the atlas's current chart.",
+  'Cambrian Stage 3 stereom ossicles directly record echinoderm skeletal microstructure, but isolated elements do not reveal one complete body plan or a phylum origin date.',
+  'Yanjiahella was recovered as a stem echinoderm in one analysis, but a published reanalysis found no unambiguous echinoderm synapomorphy or stereom, so it does not set the range.',
+  'By about 510 Ma, articulated echinoderms preserve at least four markedly differentiated body plans, supplying a more robust body-fossil datum than isolated stereom.',
+  'The unproblematic crinoid record begins in the middle Tremadocian, while the oldest articulated holothurian used here is late Darriwilian; each class keeps its own specimen and stratigraphic boundary.',
+  'Darriwilian bothriocidaroid plates anchor total-group Echinoidea, whereas phylogenomic analyses place the crown near the Carboniferous–Permian transition under model-dependent clocks.',
 ])
 
 const plantInvertebrateProfileMarkers = [

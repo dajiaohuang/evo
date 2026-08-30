@@ -3,61 +3,57 @@
     "id": "range:arthropoda:global",
     "entityId": "arthropoda",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Arthropoda",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 540,
+    "taxonomicConcept": "Arthropoda root anchored by a directly sampled descendant clade",
+    "geographicScope": "Widespread early trilobite record to living arthropods",
+    "olderMa": 521,
     "youngerMa": 0,
     "status": "available",
     "uncertainty": {
-      "olderMa": null,
-      "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "olderMa": 3,
+      "youngerMa": 0,
+      "note": "The older bound is a descendant-clade minimum from widespread trilobites, not the origin of Arthropoda or a crown/total-group equation."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "evidenceBasis": "The approximately 521 Ma widespread trilobite record supplies a direct, conservative minimum for the broader arthropod root.",
     "confidence": "medium",
-    "claimIds": [],
+    "claimIds": [
+      "claim:taxon:arthropoda:root-range-rc39"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
-      },
-      {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "holmes-budd-2022-early-trilobites",
+        "locator": "article 1177; Figures 1–4 and supplementary analyses"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "literature-synthesized"
   },
   {
     "id": "range:insecta:global",
     "entityId": "insecta",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Insecta",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 410,
+    "taxonomicConcept": "Insecta sampled body-fossil envelope",
+    "geographicScope": "Paskov Archaeorthoptera wing sample to living insects",
+    "olderMa": 324,
     "youngerMa": 0,
     "status": "available",
     "uncertainty": {
-      "olderMa": null,
-      "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "olderMa": 3,
+      "youngerMa": 0,
+      "note": "The secure sampled wing replaces an older contested fragment; it is not an insect or flight origin date."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "evidenceBasis": "A lowermost Namurian wing part and counterpart preserve venation attributed to Archaeorthoptera; living insects provide the present endpoint.",
     "confidence": "medium",
-    "claimIds": [],
+    "claimIds": [
+      "claim:taxon:insecta:root-range-rc39"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
-      },
-      {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "prokop-2005-paskov-wing",
+        "locator": "pp. 383–387; Figures 1–2"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "literature-synthesized"
   },
   {
     "id": "range:odonatoptera:global",
@@ -243,31 +239,29 @@
     "id": "range:crustacea:global",
     "entityId": "crustacea",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Crustacea",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 510,
+    "taxonomicConcept": "Crustacea under the sampled Yicaris eucrustacean hypothesis",
+    "geographicScope": "Lower Cambrian Yu'anshan Formation sample to living crustaceans",
+    "olderMa": 520,
     "youngerMa": 0,
     "status": "available",
     "uncertainty": {
-      "olderMa": null,
-      "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "olderMa": 10,
+      "youngerMa": 0,
+      "note": "The older endpoint rounds a Lower Cambrian biostratigraphic context; eucrustacean placement is a character interpretation, not an origin date."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "evidenceBasis": "Phosphatized Yicaris growth stages preserve limb anatomy used to place the taxon within Eucrustacea in the sampled analysis.",
     "confidence": "medium",
-    "claimIds": [],
+    "claimIds": [
+      "claim:taxon:crustacea:root-range-rc39"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
-      },
-      {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "zhang-2007-yicaris",
+        "locator": "pp. 595–598; Figures 1–3; Yu'anshan and late Atdabanian context"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "literature-synthesized"
   },
   {
     "id": "range:ostracoda:global",
@@ -333,27 +327,29 @@
     "id": "range:myriapoda:global",
     "entityId": "myriapoda",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Myriapoda",
-    "geographicScope": "Global legacy atlas display",
-    "olderMa": 443,
+    "taxonomicConcept": "Total-group Myriapoda under the sampled Waukartus stem placement",
+    "geographicScope": "Waukesha Lagerstätte sample to living myriapods",
+    "olderMa": 437,
     "youngerMa": 0,
     "status": "available",
     "uncertainty": {
-      "olderMa": null,
-      "youngerMa": null,
-      "note": "Rounded display values; not a literature-synthesized taxon range."
+      "olderMa": 3,
+      "youngerMa": 0,
+      "note": "The endpoint rounds the Llandoverian Waukesha sample; Waukartus is a stem placement and does not set the crown first appearance."
     },
-    "evidenceBasis": "Legacy rounded display range retained for navigation pending dedicated literature synthesis.",
-    "evidenceLevel": "legacy-display",
+    "evidenceBasis": "Thirty-five Waukartus specimens preserve uniramous limbs, muscles and endoskeleton and are recovered immediately stemward of crown Myriapoda in sampled analyses.",
+    "evidenceLevel": "literature-synthesized",
     "confidence": "medium",
-    "claimIds": [],
+    "claimIds": [
+      "claim:taxon:myriapoda:root-range-rc39"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "taxonomic context only; range locator pending"
+        "referenceId": "briggs-2026-waukartus",
+        "locator": "article 20260131; Figures 1–6 and supplementary morphology matrix"
       }
     ],
-    "reviewStatus": "not-reviewed"
+    "reviewStatus": "automated-audit-passed"
   },
   {
     "id": "range:chilopoda:global",

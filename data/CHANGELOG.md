@@ -1,5 +1,14 @@
 # Dataset changelog
 
+## 2026.08-static-v5-rc39 — 2026-08-30
+
+- Replaced thirteen unsupported plant and invertebrate package-root ranges with claim-linked sampled navigation envelopes, total-group surrogates or explicitly model-bounded concepts. Every replacement points to a primary-study page, figure or section locator and states why its endpoints are not clade origins, global FADs/LADs or direct-ancestor sequences.
+- Narrowed mosses to a late Visean body-fossil anchor, the pteridophyte root to a cladoxylopsid navigation exemplar and the gymnosperm root to a Famennian total-seed-plant surrogate; older cryptospores, fern-like architecture and extinct seed plants are not silently promoted to living crowns.
+- Replaced Ediacaran sponge and cnidarian legacy bounds with the sampled *Helicolocellus* and *Auroralumina* intervals; bounded brachiopod and graptolite roots to *Micrina* and *Yunotubus*; and separated widespread early trilobites from revised Changhsingian records.
+- Replaced unsupported arthropod, crustacean, insect and myriapod values with descendant- or specimen-anchored envelopes using widespread trilobites, *Yicaris*, the Paskov wing and *Waukartus*. Contested older fragments and model ages remain separate evidence, and no PBDB query or identifier was invented.
+- Added a five-step bilingual Echinodermata story that distinguishes isolated stereom, contested Fortunian affinity, articulated faunas, uneven class records and total-group fossils from modelled crown time.
+- Advanced the shared Web/Android/iOS dataset version to rc39, regenerated package projections from canonical claims, ranges, stories and references, and corrected the public entity count to 392. All 2,183,133 COL26.8 accepted-species assignments remain unique with zero unmatched.
+
 ## 2026.08-static-v5-rc38 — 2026-08-30
 
 - Added twenty representative, package-specific profiles across sponges and cnidarians, molluscs, echinoderms, trilobites and stem chelicerates, Cambrian mandibulates, early land plants, gymnosperms and angiosperms. Every visible profile field now maps to a typed taxon claim with a concrete primary-study page, figure or section locator.

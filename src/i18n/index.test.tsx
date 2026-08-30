@@ -1,4 +1,4 @@
-import { fireEvent, render, screen } from '@testing-library/react'
+import { act, fireEvent, render, screen } from '@testing-library/react'
 import { beforeEach, describe, expect, it } from 'vitest'
 import profiles from '../../data/registry/taxon-profiles.json'
 import events from '../../data/events.json'
@@ -12,7 +12,7 @@ import treeEvidence from '../../data/tree/evidence.json'
 import calibrations from '../../data/packages/mammalia/perissodactyla/phylogeny/calibrations.json'
 import manifest from '../../data/manifest.json'
 import { periods } from '../services/geology'
-import { hasChineseTranslation, I18nProvider, useI18n } from '.'
+import { hasChineseTranslation, I18nProvider, loadExtendedChineseTranslations, useI18n } from '.'
 
 const uiSources = import.meta.glob(['../App.tsx', '../components/**/*.tsx'], {
   query: '?raw',
@@ -85,7 +85,8 @@ describe('site language state', () => {
   it('loads marine narrative translations only when Chinese is active', async () => {
     window.localStorage.setItem('evo-atlas-language', 'zh')
     render(<I18nProvider><MarineTranslationProbe /></I18nProvider>)
-    expect(await screen.findByText('一件短吻鱼龙形类正模')).toBeInTheDocument()
+    await act(async () => { await loadExtendedChineseTranslations() })
+    expect(screen.getByText('一件短吻鱼龙形类正模')).toBeInTheDocument()
   })
 
   it('loads crocodylomorph and bird narrative translations only when Chinese is active', async () => {
