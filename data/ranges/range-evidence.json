@@ -2270,23 +2270,21 @@
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "note": "The 520 Ma older edge is rounded from the Chengjiang sample; 0 Ma reflects living cyclostomes inside a historical navigation grade, not a monophyletic crown range."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "evidenceBasis": "Myllokunmingia and Haikouichthys provide a primary-study Cambrian anchor for the historical agnathan-grade display; the envelope is not a global FAD or ancestry claim.",
     "confidence": "medium",
-    "claimIds": [],
+    "claimIds": [
+      "claim:taxon:agnatha:fossil-range"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
-      },
-      {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "shu-1999-cambrian-vertebrates",
+        "locator": "pp. 42–46; Figures 1–5; systematic descriptions and phylogenetic analysis"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "literature-synthesized"
   },
   {
     "id": "range:conodonta:global",
@@ -2532,29 +2530,27 @@
     "rangeKind": "global-composite",
     "taxonomicConcept": "Placodermi",
     "geographicScope": "Global or represented navigation composite",
-    "olderMa": 443,
+    "olderMa": 436,
     "youngerMa": 358.9,
     "status": "available",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "note": "The approximately 436 Ma older edge follows the articulated Huixingshao Xiushanosteus sample; 358.9 Ma remains a rounded composite younger boundary."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "evidenceBasis": "Xiushanosteus supplies a primary-study early Silurian anchor for the historical placoderm-grade display without asserting a global FAD, LAD or direct ancestor.",
     "confidence": "medium",
-    "claimIds": [],
+    "claimIds": [
+      "claim:taxon:placodermi:fossil-range"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
-      },
-      {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "zhu-2022-chongqing-gnathostomes",
+        "locator": "pp. 954–958, especially 955–957; Figures 1–2; systematic palaeontology, horizon and phylogenetic analyses"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "literature-synthesized"
   },
   {
     "id": "range:arthrodira:global",
@@ -2622,29 +2618,27 @@
     "rangeKind": "global-composite",
     "taxonomicConcept": "Chondrichthyes",
     "geographicScope": "Global or represented navigation composite",
-    "olderMa": 420,
+    "olderMa": 439,
     "youngerMa": 0,
     "status": "available",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "note": "The approximately 439 Ma older edge is anchored to isolated Qianodus tooth whorls; it is stem-line evidence rather than a crown-group global FAD."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "evidenceBasis": "The late Aeronian Qianodus sample provides a primary-study stem-chondrichthyan display anchor; 0 Ma represents sampled living members, not continuous fossil coverage.",
     "confidence": "medium",
-    "claimIds": [],
+    "claimIds": [
+      "claim:taxon:chondrichthyes:fossil-range"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
-      },
-      {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "andreev-2022-qianodus",
+        "locator": "pp. 964–968, especially 965–967; Figures 1–2; Extended Data Figures 1–3; geological setting and phylogenetic analysis"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "literature-synthesized"
   },
   {
     "id": "range:elasmobranchii:global",
@@ -2742,29 +2736,27 @@
     "rangeKind": "global-composite",
     "taxonomicConcept": "Acanthodii",
     "geographicScope": "Global or represented navigation composite",
-    "olderMa": 443,
+    "olderMa": 439,
     "youngerMa": 252,
     "status": "available",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "note": "The approximately 439 Ma older edge follows the disarticulated Fanjingshania dermoskeletal sample; 252 Ma remains a rounded historical-grade composite."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "evidenceBasis": "Fanjingshania anchors the historical acanthodian-grade display while its cited stem-chondrichthyan placement prevents treating Acanthodii as a monophyletic lineage or the specimen as a direct ancestor.",
     "confidence": "medium",
-    "claimIds": [],
+    "claimIds": [
+      "claim:taxon:acanthodii:fossil-range"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
-      },
-      {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "andreev-2022-fanjingshania",
+        "locator": "pp. 969–974, especially 970–972; Figures 1–3; Extended Data Figures 1 and 4; material, horizon and phylogenetic analysis"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "literature-synthesized"
   },
   {
     "id": "range:osteichthyes:global",
@@ -2802,29 +2794,27 @@
     "rangeKind": "global-composite",
     "taxonomicConcept": "Actinopterygii",
     "geographicScope": "Global or represented navigation composite",
-    "olderMa": 420,
+    "olderMa": 390.4,
     "youngerMa": 0,
     "status": "available",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "note": "The 390.4 Ma older edge is the older side of the late Eifelian Cheirolepis sample envelope; it is not an exact global class FAD."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "evidenceBasis": "CT-scanned Cheirolepis museum specimens provide a secure primary-study early actinopterygian anchor; 0 Ma represents living ray-finned fishes rather than continuous sampling.",
     "confidence": "medium",
-    "claimIds": [],
+    "claimIds": [
+      "claim:taxon:actinopterygii:fossil-range"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
-      },
-      {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "giles-2015-cheirolepis-endoskeleton",
+        "locator": "pp. 849–870, especially 852–862; Figures 2–4 and 9–11; material, geological occurrence and anatomical descriptions"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "literature-synthesized"
   },
   {
     "id": "range:teleostei:global",
@@ -2892,29 +2882,27 @@
     "rangeKind": "global-composite",
     "taxonomicConcept": "Sarcopterygii",
     "geographicScope": "Global or represented navigation composite",
-    "olderMa": 418,
+    "olderMa": 419,
     "youngerMa": 0,
     "status": "available",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "note": "The approximately 419 Ma older edge follows the articulated Ludlow Guiyu sample; it is not an exact global first appearance."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
-    "confidence": "medium",
-    "claimIds": [],
+    "evidenceBasis": "Articulated Guiyu anatomy and its stratigraphic position provide a primary-study sarcopterygian anchor; 0 Ma reflects living members without asserting direct ancestry or record completeness.",
+    "confidence": "high",
+    "claimIds": [
+      "claim:taxon:sarcopterygii:fossil-range"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
-      },
-      {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "zhu-2009-guiyu",
+        "locator": "pp. 469–474; Figures 1–5; Supplementary Figures 1–9; stratigraphic position, holotype description and phylogenetic analysis"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "literature-synthesized"
   },
   {
     "id": "range:coelacanthimorpha:global",
@@ -3100,29 +3088,31 @@
     "rangeKind": "global-composite",
     "taxonomicConcept": "Amphibia",
     "geographicScope": "Global or represented navigation composite",
-    "olderMa": 350,
+    "olderMa": 341,
     "youngerMa": 0,
     "status": "available",
     "uncertainty": {
-      "olderMa": null,
+      "olderMa": 3,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "note": "The 341 ± 3 Ma value is a detrital-zircon maximum depositional age for the East Kirkton unit containing Balanerpeton, not a direct fossil date or crown-Lissamphibia age."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "evidenceBasis": "The described Balanerpeton sample and primary U–Pb MDA study anchor the broad amphibian navigation display while preserving competing root topologies and stratigraphic uncertainty.",
     "confidence": "medium",
-    "claimIds": [],
+    "claimIds": [
+      "claim:taxon:amphibia:fossil-range"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
+        "referenceId": "milner-sequeira-1993-balanerpeton",
+        "locator": "pp. 331–361; Figures 1–24; material, locality, horizon and systematic description"
       },
       {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "garza-2025-east-kirkton",
+        "locator": "Figures 5–6 and 8–9; Table 3; U–Pb MDA results and limitations for Units 82–83"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "literature-synthesized"
   },
   {
     "id": "range:temnospondyli:global",
@@ -4723,23 +4713,21 @@
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "note": "The approximately 220 Ma older edge follows the Odontochelys stem-turtle sample; 0 Ma reflects living turtles and does not turn the stem fossil into a crown FAD."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "evidenceBasis": "Three named Odontochelys specimens anchor the atlas turtle-line display while stem placement, shell assembly and ancestry remain explicit interpretations.",
     "confidence": "medium",
-    "claimIds": [],
+    "claimIds": [
+      "claim:taxon:testudines:fossil-range"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
-      },
-      {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "li-2008-odontochelys",
+        "locator": "pp. 497–501; Figures 1–4; systematic palaeontology, specimen and horizon, Description and Discussion"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "literature-synthesized"
   },
   {
     "id": "range:ichthyosauria:global",
@@ -4747,29 +4735,27 @@
     "rangeKind": "global-composite",
     "taxonomicConcept": "Ichthyosauria",
     "geographicScope": "Global or represented navigation composite",
-    "olderMa": 250,
+    "olderMa": 248,
     "youngerMa": 90,
     "status": "available",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "note": "The approximately 248 Ma older edge follows a Chaohusaurus specimen and biostratigraphic assignment; 90 Ma remains a rounded composite younger boundary."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "evidenceBasis": "The named Chaohusaurus maternal specimen and Procolumbites Zone context provide a primary-study Early Triassic anchor without asserting a global FAD, complete duration or direct ancestor.",
     "confidence": "medium",
-    "claimIds": [],
+    "claimIds": [
+      "claim:taxon:ichthyosauria:fossil-range"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
-      },
-      {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "motani-2014-chaohusaurus-viviparity",
+        "locator": "PLOS ONE 9(2):e88640; Figure 1; geological setting, specimen description and Results"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "literature-synthesized"
   },
   {
     "id": "range:ichthyosaurus:global",
@@ -4873,23 +4859,21 @@
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "note": "The approximately 240 Ma older edge follows the Megachirella sample and tested stem-squamate placement; it is not a direct ancestor, divergence date or global FAD."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "evidenceBasis": "CT-resolved Megachirella and combined-evidence analyses provide a primary-study anchor for the lepidosaur navigation envelope; 0 Ma reflects living members.",
     "confidence": "medium",
-    "claimIds": [],
+    "claimIds": [
+      "claim:taxon:lepidosauria:fossil-range"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
-      },
-      {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "simoes-2018-megachirella",
+        "locator": "pp. 706–709; Figures 1–2; Extended Data Figures 1–8; geological age, CT anatomy and combined-evidence analyses"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "literature-synthesized"
   },
   {
     "id": "range:squamata:global",
@@ -5031,19 +5015,21 @@
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Legacy global display envelope; not an exact claim-linked FAD or LAD."
+      "note": "The rounded 228 Ma older edge follows Norian Carniadactylus material; 66 Ma remains a broad composite younger boundary rather than an exact global LAD."
     },
-    "evidenceBasis": "The global pterosaur envelope remains a legacy navigation composite and is not an exact claim-linked FAD or LAD.",
+    "evidenceBasis": "A nearly complete Carniadactylus holotype and referred specimen provide a primary-study Late Triassic pterosaur anchor without asserting a global FAD, LAD, origin date or direct ancestry.",
     "confidence": "medium",
-    "claimIds": [],
+    "claimIds": [
+      "claim:taxon:pterosauria:fossil-range"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "witton-habib-2010-giant-pterosaur-flight",
-        "locator": "pp. 867–873; Figures 1–5"
+        "referenceId": "dalla-vecchia-2009-carniadactylus",
+        "locator": "pp. 159–188, especially 160–179; Figures 1–16; material, geological setting, systematic palaeontology and phylogenetic analysis"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "literature-synthesized"
   },
   {
     "id": "range:pteranodontidae:global",

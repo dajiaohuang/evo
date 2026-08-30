@@ -5,29 +5,31 @@
     "rangeKind": "global-composite",
     "taxonomicConcept": "Amphibia",
     "geographicScope": "Global or represented navigation composite",
-    "olderMa": 350,
+    "olderMa": 341,
     "youngerMa": 0,
     "status": "available",
     "uncertainty": {
-      "olderMa": null,
+      "olderMa": 3,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "note": "The 341 ± 3 Ma value is a detrital-zircon maximum depositional age for the East Kirkton unit containing Balanerpeton, not a direct fossil date or crown-Lissamphibia age."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "evidenceBasis": "The described Balanerpeton sample and primary U–Pb MDA study anchor the broad amphibian navigation display while preserving competing root topologies and stratigraphic uncertainty.",
     "confidence": "medium",
-    "claimIds": [],
+    "claimIds": [
+      "claim:taxon:amphibia:fossil-range"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
+        "referenceId": "milner-sequeira-1993-balanerpeton",
+        "locator": "pp. 331–361; Figures 1–24; material, locality, horizon and systematic description"
       },
       {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "garza-2025-east-kirkton",
+        "locator": "Figures 5–6 and 8–9; Table 3; U–Pb MDA results and limitations for Units 82–83"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "literature-synthesized"
   },
   {
     "id": "range:temnospondyli:global",

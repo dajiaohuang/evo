@@ -5,29 +5,27 @@
     "rangeKind": "global-composite",
     "taxonomicConcept": "Actinopterygii",
     "geographicScope": "Global or represented navigation composite",
-    "olderMa": 420,
+    "olderMa": 390.4,
     "youngerMa": 0,
     "status": "available",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "note": "The 390.4 Ma older edge is the older side of the late Eifelian Cheirolepis sample envelope; it is not an exact global class FAD."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "evidenceBasis": "CT-scanned Cheirolepis museum specimens provide a secure primary-study early actinopterygian anchor; 0 Ma represents living ray-finned fishes rather than continuous sampling.",
     "confidence": "medium",
-    "claimIds": [],
+    "claimIds": [
+      "claim:taxon:actinopterygii:fossil-range"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
-      },
-      {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "giles-2015-cheirolepis-endoskeleton",
+        "locator": "pp. 849–870, especially 852–862; Figures 2–4 and 9–11; material, geological occurrence and anatomical descriptions"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "literature-synthesized"
   },
   {
     "id": "range:teleostei:global",

@@ -5,29 +5,27 @@
     "rangeKind": "global-composite",
     "taxonomicConcept": "Sarcopterygii",
     "geographicScope": "Global or represented navigation composite",
-    "olderMa": 418,
+    "olderMa": 419,
     "youngerMa": 0,
     "status": "available",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "note": "The approximately 419 Ma older edge follows the articulated Ludlow Guiyu sample; it is not an exact global first appearance."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
-    "confidence": "medium",
-    "claimIds": [],
+    "evidenceBasis": "Articulated Guiyu anatomy and its stratigraphic position provide a primary-study sarcopterygian anchor; 0 Ma reflects living members without asserting direct ancestry or record completeness.",
+    "confidence": "high",
+    "claimIds": [
+      "claim:taxon:sarcopterygii:fossil-range"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
-      },
-      {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "zhu-2009-guiyu",
+        "locator": "pp. 469–474; Figures 1–5; Supplementary Figures 1–9; stratigraphic position, holotype description and phylogenetic analysis"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "literature-synthesized"
   },
   {
     "id": "range:coelacanthimorpha:global",

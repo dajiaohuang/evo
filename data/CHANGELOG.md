@@ -1,5 +1,11 @@
 # Dataset changelog
 
+## 2026.08-static-v5-rc40 — 2026-08-30
+
+- Replaced eleven vertebrate and reptile package-root legacy display ranges with claim-linked, bilingual primary-study evidence and precise page, figure and section locators.
+- Kept Agnatha, Placodermi and Acanthodii explicit as historical navigation grades, separated stem evidence from crown-group ranges, and avoided global-first-appearance or direct-ancestor claims.
+- Preserved the already evidence-linked Plesiosauria range unchanged and left PBDB identifiers, occurrence-query scope and validation architecture untouched.
+
 ## 2026.08-static-v5-rc39 — 2026-08-30
 
 - Replaced thirteen unsupported plant and invertebrate package-root ranges with claim-linked sampled navigation envelopes, total-group surrogates or explicitly model-bounded concepts. Every replacement points to a primary-study page, figure or section locator and states why its endpoints are not clade origins, global FADs/LADs or direct-ancestor sequences.

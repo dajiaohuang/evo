@@ -11,23 +11,21 @@
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "note": "The 520 Ma older edge is rounded from the Chengjiang sample; 0 Ma reflects living cyclostomes inside a historical navigation grade, not a monophyletic crown range."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "evidenceBasis": "Myllokunmingia and Haikouichthys provide a primary-study Cambrian anchor for the historical agnathan-grade display; the envelope is not a global FAD or ancestry claim.",
     "confidence": "medium",
-    "claimIds": [],
+    "claimIds": [
+      "claim:taxon:agnatha:fossil-range"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
-      },
-      {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "shu-1999-cambrian-vertebrates",
+        "locator": "pp. 42–46; Figures 1–5; systematic descriptions and phylogenetic analysis"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "literature-synthesized"
   },
   {
     "id": "range:conodonta:global",
@@ -243,29 +241,27 @@
     "rangeKind": "global-composite",
     "taxonomicConcept": "Placodermi",
     "geographicScope": "Global or represented navigation composite",
-    "olderMa": 443,
+    "olderMa": 436,
     "youngerMa": 358.9,
     "status": "available",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "note": "The approximately 436 Ma older edge follows the articulated Huixingshao Xiushanosteus sample; 358.9 Ma remains a rounded composite younger boundary."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "evidenceBasis": "Xiushanosteus supplies a primary-study early Silurian anchor for the historical placoderm-grade display without asserting a global FAD, LAD or direct ancestor.",
     "confidence": "medium",
-    "claimIds": [],
+    "claimIds": [
+      "claim:taxon:placodermi:fossil-range"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
-      },
-      {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "zhu-2022-chongqing-gnathostomes",
+        "locator": "pp. 954–958, especially 955–957; Figures 1–2; systematic palaeontology, horizon and phylogenetic analyses"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "literature-synthesized"
   },
   {
     "id": "range:arthrodira:global",
@@ -333,29 +329,27 @@
     "rangeKind": "global-composite",
     "taxonomicConcept": "Acanthodii",
     "geographicScope": "Global or represented navigation composite",
-    "olderMa": 443,
+    "olderMa": 439,
     "youngerMa": 252,
     "status": "available",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "note": "The approximately 439 Ma older edge follows the disarticulated Fanjingshania dermoskeletal sample; 252 Ma remains a rounded historical-grade composite."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "evidenceBasis": "Fanjingshania anchors the historical acanthodian-grade display while its cited stem-chondrichthyan placement prevents treating Acanthodii as a monophyletic lineage or the specimen as a direct ancestor.",
     "confidence": "medium",
-    "claimIds": [],
+    "claimIds": [
+      "claim:taxon:acanthodii:fossil-range"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
-      },
-      {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "andreev-2022-fanjingshania",
+        "locator": "pp. 969–974, especially 970–972; Figures 1–3; Extended Data Figures 1 and 4; material, horizon and phylogenetic analysis"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "literature-synthesized"
   },
   {
     "id": "range:cyclostome-fossil-evidence-route:global",

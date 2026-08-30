@@ -11,23 +11,21 @@
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "note": "The approximately 220 Ma older edge follows the Odontochelys stem-turtle sample; 0 Ma reflects living turtles and does not turn the stem fossil into a crown FAD."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "evidenceBasis": "Three named Odontochelys specimens anchor the atlas turtle-line display while stem placement, shell assembly and ancestry remain explicit interpretations.",
     "confidence": "medium",
-    "claimIds": [],
+    "claimIds": [
+      "claim:taxon:testudines:fossil-range"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
-      },
-      {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "li-2008-odontochelys",
+        "locator": "pp. 497–501; Figures 1–4; systematic palaeontology, specimen and horizon, Description and Discussion"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "literature-synthesized"
   },
   {
     "id": "range:lepidosauria:global",
@@ -41,23 +39,21 @@
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "note": "The approximately 240 Ma older edge follows the Megachirella sample and tested stem-squamate placement; it is not a direct ancestor, divergence date or global FAD."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "evidenceBasis": "CT-resolved Megachirella and combined-evidence analyses provide a primary-study anchor for the lepidosaur navigation envelope; 0 Ma reflects living members.",
     "confidence": "medium",
-    "claimIds": [],
+    "claimIds": [
+      "claim:taxon:lepidosauria:fossil-range"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
-      },
-      {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "simoes-2018-megachirella",
+        "locator": "pp. 706–709; Figures 1–2; Extended Data Figures 1–8; geological age, CT anatomy and combined-evidence analyses"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "literature-synthesized"
   },
   {
     "id": "range:squamata:global",
