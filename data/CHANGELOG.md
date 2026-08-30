@@ -1,5 +1,14 @@
 # Dataset changelog
 
+## 2026.08-static-v5-rc17 — 2026-08-30
+
+- Promoted the early-fishes and chondrichthyan packages to structured evidence with seven specimen-level events and two bilingual evidence trails, while keeping stem, total-group and crown assignments explicit.
+- Added Myxini as a navigable crown-group concept anchored to PBDB taxon `txn:401644` and Catalogue of Life usage `6225G`; the displayed crown record is supported by the Cenomanian holotype of *Tethymyxine* (BHI 6445), while the Moscovian *Myxinikela* specimens remain outside that crown-range claim.
+- Added direct late Aeronian evidence from *Qianodus* tooth whorls (holotype IVPP V26641) and isolated *Fanjingshania* dermal elements (holotype IVPP V27433.1), without converting either record into a crown-chondrichthyan or global first-appearance assertion.
+- Added articulated Telychian body evidence from *Xiushanosteus* (IVPP V300001 and referred material) and the sole known *Shenacanthus* holotype (IVPP V300000), preserving their placoderm-grade and analysis-sensitive total-group interpretations.
+- Added bounded anatomical records for *Gladbachus* (UMZC 2000.32), *Priscomyzon* (AM5750) and *Myxinikela* (FMNH PF15373 and PF8472), with source-specific anatomical support and explicit limits on ecology, life history and phylogenetic reach.
+- Retained the PBDB occurrence ledger as a bounded, non-random prefix sample that cannot establish FAD/LAD, absence, richness or global distribution; refreshed COL26.8 ownership still assigns all 2,183,133 accepted species with zero unmatched or broken lineages, including 141 early-fish and 1,359 chondrichthyan species.
+
 ## 2026.08-static-v5-rc16 — 2026-08-30
 
 - Promoted the tetrapod-transition package from generated scaffold to structured evidence with six specimen- or trace-anchored events and a seven-step bilingual story.
