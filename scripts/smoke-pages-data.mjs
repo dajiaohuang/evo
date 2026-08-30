@@ -130,6 +130,8 @@ const localizedStaticChecks = [
   { path: 'zh/stories/gymnosperm-evidence-boundaries/index.html', markers: ['裸子植物深时研究的六条证据边界', '一件侏罗纪木材标本'] },
   { path: 'zh/events/crato-cratolirion/index.html', markers: ['Cratolirion 单子叶植物整株化石', '约 115 Ma 克拉图组'] },
   { path: 'zh/stories/angiosperm-evidence-boundaries/index.html', markers: ['被子植物历史的七条证据边界', '一套数据，三组时钟区间'] },
+  { path: 'zh/events/elpistostege-digit-bearing-fin/index.html', markers: ['Elpistostege 具指样内骨骼的鳍', '加拿大魁北克 Miguasha 的 Escuminac 组'] },
+  { path: 'zh/stories/tetrapods-onto-land/index.html', markers: ['鳍—肢转型的七条证据边界', '八个趾不等于陆地行走'] },
   { path: 'zh/stories/rise-and-fall-perissodactyls/index.html', markers: ['从始新世的优势类群', '始新世的迅速登场'] },
   { path: 'zh/events/dapingian-cryptospores/index.html', markers: ['大坪期隐孢子组合', '阿根廷西北部 Zanjón 组'] },
   { path: 'zh/stories/early-land-plant-evidence-trail/index.html', markers: ['早期陆生植物证据如何改变形态', '冠群模型时间区间'] },

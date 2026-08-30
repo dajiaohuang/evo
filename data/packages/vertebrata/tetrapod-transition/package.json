@@ -27,10 +27,12 @@
     "occurrences": "data/fossils/*.json"
   },
   "platformMaturity": "published",
-  "scientificMaturity": "generated-scaffold",
+  "scientificMaturity": "structured",
   "automatedReviewStatus": "passed",
   "reviewStatus": "not-reviewed",
   "limitations": [
-    "Package dossiers expose the current curated evidence boundary; unavailable fields are explicit and are not inferred."
+    "Package dossiers expose the current curated evidence boundary; unavailable fields are explicit and are not inferred.",
+    "All six entity-wide temporal ranges remain legacy-display estimates and are not promoted by the specimen- and trace-scoped event evidence.",
+    "Trace fossils, body specimens, digit homology, functional reconstructions and terrestriality are kept as distinct claims; no featured fossil is asserted to be a direct ancestor."
   ]
 }

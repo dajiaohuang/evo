@@ -447,8 +447,8 @@
   },
   {
     "id": "tetrapods-on-land",
-    "title": "Fish–tetrapod transition and terrestrialization",
-    "titleZh": "鱼类—四足动物转型与陆地化",
+    "title": "Mosaic fin-to-limb and terrestrialization synthesis",
+    "titleZh": "鳍—肢与陆地化的镶嵌式综合",
     "category": "transition",
     "startAge": 385,
     "endAge": 350,
@@ -459,13 +459,13 @@
       "Tetrapodomorpha",
       "Tetrapoda"
     ],
-    "summary": "A mosaic transition from finned aquatic vertebrates to limbed tetrapods unfolded across freshwater and marginal habitats.",
+    "summary": "A literature synthesis separates the origin of digit-bearing limbs, locomotor changes and full terrestriality rather than presenting one fish-to-land step or a chain of direct ancestors.",
     "claimIds": [
       "claim:event:tetrapods-on-land"
     ],
     "evidenceItems": [
       {
-        "statement": "Limb and girdle transformations",
+        "statement": "Fins, girdles, digits and joint mobility changed in different combinations across Devonian and Early Carboniferous forms",
         "relation": "supports",
         "claimIds": [
           "claim:event:tetrapods-on-land"
@@ -473,12 +473,14 @@
         "referenceLinks": [
           {
             "relation": "supports",
-            "referenceId": "clack-2009-tetrapods"
+            "referenceId": "clack-2009-tetrapods",
+            "pages": "213–223",
+            "figure": "Figures 1–10"
           }
         ]
       },
       {
-        "statement": "Trackways",
+        "statement": "The synthesis treats digit-bearing limbs, walking and full terrestriality as distinguishable evolutionary questions",
         "relation": "supports",
         "claimIds": [
           "claim:event:tetrapods-on-land"
@@ -486,27 +488,16 @@
         "referenceLinks": [
           {
             "relation": "supports",
-            "referenceId": "clack-2009-tetrapods"
-          }
-        ]
-      },
-      {
-        "statement": "Skulls combining aquatic and terrestrial features",
-        "relation": "supports",
-        "claimIds": [
-          "claim:event:tetrapods-on-land"
-        ],
-        "referenceLinks": [
-          {
-            "relation": "supports",
-            "referenceId": "clack-2009-tetrapods"
+            "referenceId": "clack-2009-tetrapods",
+            "pages": "213–223",
+            "quoteLocator": "Abstract; What Can We Learn from This Information?; Conclusions"
           }
         ]
       }
     ],
     "uncertaintyItems": [
       {
-        "statement": "Limbs initially evolved in animals that remained substantially aquatic",
+        "statement": "This broad 385–350 Ma display is an editorial synthesis window, not a single dated event or a taxon range",
         "relation": "contextualizes",
         "claimIds": [
           "claim:event:tetrapods-on-land"
@@ -514,12 +505,14 @@
         "referenceLinks": [
           {
             "relation": "supports",
-            "referenceId": "clack-2009-tetrapods"
+            "referenceId": "clack-2009-tetrapods",
+            "pages": "213–223",
+            "quoteLocator": "Abstract; Introduction"
           }
         ]
       },
       {
-        "statement": "Trackway and body-fossil records do not align perfectly",
+        "statement": "Possession of digits does not by itself establish terrestrial ecology, a modern walking gait or direct ancestry",
         "relation": "contextualizes",
         "claimIds": [
           "claim:event:tetrapods-on-land"
@@ -527,7 +520,327 @@
         "referenceLinks": [
           {
             "relation": "supports",
-            "referenceId": "clack-2009-tetrapods"
+            "referenceId": "clack-2009-tetrapods",
+            "pages": "213–223",
+            "quoteLocator": "Our Cast of Characters; What Can We Learn from This Information?"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "zachelmie-digit-trackways",
+    "title": "Eifelian Zachełmie digit trackways",
+    "titleZh": "艾菲尔期 Zachełmie 具趾足迹",
+    "category": "origin",
+    "startAge": 393.47,
+    "endAge": 387.95,
+    "regions": ["Zachełmie Quarry, Holy Cross Mountains, Poland"],
+    "clades": ["Unidentified digit-bearing tetrapod trackmaker"],
+    "summary": "Trackways and isolated prints preserve digit impressions from an Eifelian surface, providing trace-fossil evidence for a limbed trackmaker without naming the animal that made them.",
+    "claimIds": ["claim:event:zachelmie-digit-trackways"],
+    "evidenceItems": [
+      {
+        "statement": "Quadrupedal trackways, isolated footprints and digit impressions occur on securely dated early Middle Devonian bedding surfaces",
+        "relation": "supports",
+        "claimIds": ["claim:event:zachelmie-digit-trackways"],
+        "referenceLinks": [
+          {
+            "relation": "supports",
+            "referenceId": "niedzwiedzki-2010-zachelmie-trackways",
+            "pages": "43–48",
+            "figure": "Figures 1–5; Supplementary Figures 1–25"
+          }
+        ]
+      }
+    ],
+    "uncertaintyItems": [
+      {
+        "statement": "A footprint records a trace-making appendage and gait, not the trackmaker's body taxonomy, complete anatomy or ancestor–descendant identity",
+        "relation": "contextualizes",
+        "claimIds": ["claim:event:zachelmie-digit-trackways"],
+        "referenceLinks": [
+          {
+            "relation": "supports",
+            "referenceId": "niedzwiedzki-2010-zachelmie-trackways",
+            "pages": "43–48",
+            "quoteLocator": "Abstract; trackway description; phylogenetic implications"
+          }
+        ]
+      },
+      {
+        "statement": "The displayed 393.47–387.95 Ma interval is the atlas's current Eifelian stage window, not an analytical error bar on one footprint",
+        "relation": "contextualizes",
+        "claimIds": ["claim:event:zachelmie-digit-trackways"],
+        "referenceLinks": [
+          {
+            "relation": "supports",
+            "referenceId": "niedzwiedzki-2010-zachelmie-trackways",
+            "pages": "43–48",
+            "quoteLocator": "Geological setting and age"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "tiktaalik-body-plan-mosaic",
+    "title": "Tiktaalik body-plan mosaic",
+    "titleZh": "Tiktaalik 身体结构镶嵌",
+    "category": "transition",
+    "startAge": 375,
+    "endAge": 375,
+    "regions": ["Fram Formation, southern Ellesmere Island, Nunavut, Canada"],
+    "clades": ["Tiktaalik roseae", "Elpistostegalia"],
+    "summary": "The holotype and referred material combine scales, fin rays and fish-like jaws with a mobile neck, modified ear region, robust ribs and a functional wrist joint.",
+    "claimIds": ["claim:event:tiktaalik-body-plan-mosaic"],
+    "evidenceItems": [
+      {
+        "statement": "NUFV 108 and referred material preserve a shortened skull roof, mobile neck, modified ear region, robust overlapping ribs and fin-bearing paired appendages",
+        "relation": "supports",
+        "claimIds": ["claim:event:tiktaalik-body-plan-mosaic"],
+        "referenceLinks": [
+          {
+            "relation": "supports",
+            "referenceId": "daeschler-2006-tiktaalik-body-plan",
+            "pages": "757–763",
+            "figure": "Figures 2–8"
+          }
+        ]
+      }
+    ],
+    "uncertaintyItems": [
+      {
+        "statement": "The anatomical mosaic and depositional setting support hypotheses about shallow marginal habitats but do not show that Tiktaalik routinely walked on land",
+        "relation": "contextualizes",
+        "claimIds": ["claim:event:tiktaalik-body-plan-mosaic"],
+        "referenceLinks": [
+          {
+            "relation": "supports",
+            "referenceId": "daeschler-2006-tiktaalik-body-plan",
+            "pages": "757–763",
+            "quoteLocator": "Abstract; discussion of palaeoenvironment and functional interpretation"
+          }
+        ]
+      },
+      {
+        "statement": "A phylogenetically intermediate combination does not identify Tiktaalik as a direct ancestor of later tetrapods",
+        "relation": "contextualizes",
+        "claimIds": ["claim:event:tiktaalik-body-plan-mosaic"],
+        "referenceLinks": [
+          {
+            "relation": "supports",
+            "referenceId": "daeschler-2006-tiktaalik-body-plan",
+            "figure": "Figure 7",
+            "quoteLocator": "Phylogenetic analysis"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "tiktaalik-pectoral-fin",
+    "title": "Tiktaalik pectoral fin and mobile wrist",
+    "titleZh": "Tiktaalik 胸鳍与可动腕部",
+    "category": "transition",
+    "startAge": 375,
+    "endAge": 375,
+    "regions": ["Fram Formation, southern Ellesmere Island, Nunavut, Canada"],
+    "clades": ["Tiktaalik roseae", "Elpistostegalia"],
+    "summary": "The pectoral fin retains fin rays while its endoskeleton includes a mobile, load-transmitting wrist-like joint and distal elements arranged within the fin.",
+    "claimIds": ["claim:event:tiktaalik-pectoral-fin"],
+    "evidenceItems": [
+      {
+        "statement": "The pectoral-fin endoskeleton includes a robust humerus, radius and ulna, wrist-like joints and distal radials while retaining lepidotrichial fin rays",
+        "relation": "supports",
+        "claimIds": ["claim:event:tiktaalik-pectoral-fin"],
+        "referenceLinks": [
+          {
+            "relation": "supports",
+            "referenceId": "shubin-2006-tiktaalik-pectoral-fin",
+            "pages": "764–771",
+            "figure": "Figures 1–4; Supplementary Figures 1–4"
+          }
+        ]
+      }
+    ],
+    "uncertaintyItems": [
+      {
+        "statement": "Load transmission inferred from joint geometry is a functional interpretation; the appendage remains a fin and does not preserve free digits or a witnessed gait",
+        "relation": "contextualizes",
+        "claimIds": ["claim:event:tiktaalik-pectoral-fin"],
+        "referenceLinks": [
+          {
+            "relation": "supports",
+            "referenceId": "shubin-2006-tiktaalik-pectoral-fin",
+            "pages": "764–771",
+            "quoteLocator": "Pectoral-fin description and functional discussion"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "elpistostege-digit-bearing-fin",
+    "title": "Elpistostege digit-bearing fin endoskeleton",
+    "titleZh": "Elpistostege 具指样内骨骼的鳍",
+    "category": "transition",
+    "startAge": 382.31,
+    "endAge": 372.15,
+    "regions": ["Escuminac Formation, Miguasha, Quebec, Canada"],
+    "clades": ["Elpistostege watsoni", "Elpistostegalia"],
+    "summary": "Computed tomography of one articulated specimen reveals four proximodistal radial rows and two distal rows interpreted as digits or putative digits inside a pectoral fin that still bears fin rays.",
+    "claimIds": ["claim:event:elpistostege-digit-bearing-fin"],
+    "evidenceItems": [
+      {
+        "statement": "Specimen MHNM 06-2067 preserves a 1.57-metre articulated body and a CT-resolved pectoral-fin skeleton with branched carpals and distal digit-like rows",
+        "relation": "supports",
+        "claimIds": ["claim:event:elpistostege-digit-bearing-fin"],
+        "referenceLinks": [
+          {
+            "relation": "supports",
+            "referenceId": "cloutier-2020-elpistostege-hand",
+            "pages": "549–554",
+            "figure": "Figures 1–5; Extended Data Figures 1–2"
+          }
+        ]
+      }
+    ],
+    "uncertaintyItems": [
+      {
+        "statement": "Digit homology and the potential sister position to other tetrapods are analytical interpretations, and the appendage remains a fin with lepidotrichia",
+        "relation": "contextualizes",
+        "claimIds": ["claim:event:elpistostege-digit-bearing-fin"],
+        "referenceLinks": [
+          {
+            "relation": "supports",
+            "referenceId": "cloutier-2020-elpistostege-hand",
+            "pages": "549–554",
+            "figure": "Figures 3–5",
+            "quoteLocator": "Abstract; comparative anatomy and phylogenetic analyses"
+          }
+        ]
+      },
+      {
+        "statement": "The displayed 382.31–372.15 Ma interval is the current Frasnian stage window for the formation context, not a direct radiometric date on MHNM 06-2067",
+        "relation": "contextualizes",
+        "claimIds": ["claim:event:elpistostege-digit-bearing-fin"],
+        "referenceLinks": [
+          {
+            "relation": "supports",
+            "referenceId": "cloutier-2020-elpistostege-hand",
+            "pages": "549–554",
+            "quoteLocator": "Specimen and geological context"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "acanthostega-eight-digit-limb",
+    "title": "Acanthostega eight-digit forelimb",
+    "titleZh": "Acanthostega 八趾前肢",
+    "category": "transition",
+    "startAge": 372.15,
+    "endAge": 358.86,
+    "regions": ["Famennian deposits, East Greenland"],
+    "clades": ["Acanthostega", "Devonian limbed tetrapods"],
+    "summary": "New limb material showed eight digits in the Acanthostega forelimb, rejecting a fixed five-digit primitive condition and supporting an aquatic context for early digit-bearing limbs.",
+    "claimIds": ["claim:event:acanthostega-eight-digit-limb"],
+    "evidenceItems": [
+      {
+        "statement": "The described Acanthostega forelimb has eight digits; the same study reports seven in the Ichthyostega hindlimb and six in Tulerpeton",
+        "relation": "supports",
+        "claimIds": ["claim:event:acanthostega-eight-digit-limb"],
+        "referenceLinks": [
+          {
+            "relation": "supports",
+            "referenceId": "coates-1990-polydactyly",
+            "pages": "66–69",
+            "quoteLocator": "Abstract and limb descriptions"
+          }
+        ]
+      }
+    ],
+    "uncertaintyItems": [
+      {
+        "statement": "Eight digits diagnose the described limb material; they neither define a universal ancestral digit count nor demonstrate terrestrial walking",
+        "relation": "contextualizes",
+        "claimIds": ["claim:event:acanthostega-eight-digit-limb"],
+        "referenceLinks": [
+          {
+            "relation": "supports",
+            "referenceId": "coates-1990-polydactyly",
+            "pages": "66–69",
+            "quoteLocator": "Abstract; discussion of polydactyly and aquatic adaptation"
+          }
+        ]
+      },
+      {
+        "statement": "The displayed 372.15–358.86 Ma interval is the current Famennian stage window, not a direct numerical date on each limb specimen",
+        "relation": "contextualizes",
+        "claimIds": ["claim:event:acanthostega-eight-digit-limb"],
+        "referenceLinks": [
+          {
+            "relation": "supports",
+            "referenceId": "coates-1990-polydactyly",
+            "pages": "66–69",
+            "quoteLocator": "Upper Devonian East Greenland provenance"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ichthyostega-joint-mobility",
+    "title": "Ichthyostega three-dimensional joint mobility",
+    "titleZh": "Ichthyostega 三维关节活动度重建",
+    "category": "transition",
+    "startAge": 372.15,
+    "endAge": 358.86,
+    "regions": ["Famennian deposits, East Greenland"],
+    "clades": ["Ichthyostega", "Devonian limbed tetrapods"],
+    "summary": "A three-dimensional reconstruction and comparative joint analysis found that Ichthyostega lacked the limb rotations required for a typical lateral-sequence walk.",
+    "claimIds": ["claim:event:ichthyostega-joint-mobility"],
+    "evidenceItems": [
+      {
+        "statement": "Micro-CT-based reconstruction quantified shoulder and hip ranges of motion against five living tetrapod analogues",
+        "relation": "supports",
+        "claimIds": ["claim:event:ichthyostega-joint-mobility"],
+        "referenceLinks": [
+          {
+            "relation": "supports",
+            "referenceId": "pierce-2012-ichthyostega-mobility",
+            "pages": "523–526",
+            "figure": "Figures 1–3; Supplementary Figures 1–6"
+          }
+        ]
+      }
+    ],
+    "uncertaintyItems": [
+      {
+        "statement": "The result may represent an early restricted-mobility stage or a specialization unique to Ichthyostega; it is not a gait model for every early tetrapod",
+        "relation": "contextualizes",
+        "claimIds": ["claim:event:ichthyostega-joint-mobility"],
+        "referenceLinks": [
+          {
+            "relation": "supports",
+            "referenceId": "pierce-2012-ichthyostega-mobility",
+            "pages": "523–526",
+            "quoteLocator": "Abstract; discussion"
+          }
+        ]
+      },
+      {
+        "statement": "Joint range constrains feasible motions but does not directly observe behaviour, substrate use or every movement available to the living animal",
+        "relation": "contextualizes",
+        "claimIds": ["claim:event:ichthyostega-joint-mobility"],
+        "referenceLinks": [
+          {
+            "relation": "supports",
+            "referenceId": "pierce-2012-ichthyostega-mobility",
+            "pages": "523–526",
+            "quoteLocator": "Methods and functional interpretation"
           }
         ]
       }

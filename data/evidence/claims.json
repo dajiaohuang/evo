@@ -100,16 +100,144 @@
     "subjectId": "event:tetrapods-on-land",
     "claimKind": "scientific",
     "claimType": "morphology",
-    "statement": "Digits and weight-bearing structures evolved through a mosaic transition in animals that retained substantial aquatic adaptations.",
-    "confidence": "high",
-    "confidenceRationale": "High confidence is based on directly observed character combinations across multiple transitional fossils reviewed by the source; the claim deliberately does not equate possession of digits with fully terrestrial ecology.",
-    "reviewedBy": "Codex automated evidence audit",
-    "reviewedAt": "2026-08-19",
-    "reviewedAgainstReferenceVersion": "clack-2009-tetrapods @ DOI 10.1093/oso/9780199237980.003.0007",
+    "statement": "A synthesis of Devonian and Early Carboniferous evidence separates the acquisition of digit-bearing limbs, changes in locomotion and full terrestriality; these did not form one simultaneous fish-to-land event or a documented chain of direct ancestors.",
+    "confidence": "medium",
+    "confidenceRationale": "The open review integrates multiple body fossils, anatomical systems and environments, but it is a 2009 synthesis rather than a primary description of each specimen and predates important later finds. Medium confidence therefore applies to the mosaic framing, not to every historical age, topology or functional interpretation in the review.",
+    "reviewedBy": "Evo Atlas maintainer primary-source audit",
+    "reviewedAt": "2026-08-30",
+    "reviewedAgainstReferenceVersion": "Clack 2009 DOI 10.1007/s12052-009-0119-2",
     "referenceLinks": [
       {
         "relation": "supports",
-        "referenceId": "clack-2009-tetrapods"
+        "referenceId": "clack-2009-tetrapods",
+        "pages": "213–223",
+        "figure": "Figures 1–10",
+        "quoteLocator": "Abstract; What Can We Learn from This Information?; Conclusions"
+      }
+    ]
+  },
+  {
+    "id": "claim:event:zachelmie-digit-trackways",
+    "subjectId": "event:zachelmie-digit-trackways",
+    "claimKind": "scientific",
+    "claimType": "morphology",
+    "statement": "Eifelian bedding surfaces at Zachełmie preserve quadrupedal trackways and isolated footprints with digit impressions attributed to an unidentified limbed tetrapod trackmaker; the traces do not identify a named body taxon or direct ancestor.",
+    "confidence": "medium",
+    "confidenceRationale": "The prints, trackway geometry, digit impressions and stratigraphic context are directly documented, but trace-maker identity must be inferred from traces and the environmental interpretation has been debated. Medium confidence preserves the distinction between a digit-bearing trackmaker and a complete body-fossil or ancestor assignment.",
+    "reviewedBy": "Evo Atlas maintainer primary-source audit",
+    "reviewedAt": "2026-08-30",
+    "reviewedAgainstReferenceVersion": "Niedźwiedzki et al. 2010 DOI 10.1038/nature08623",
+    "referenceLinks": [
+      {
+        "relation": "supports",
+        "referenceId": "niedzwiedzki-2010-zachelmie-trackways",
+        "pages": "43–48",
+        "figure": "Figures 1–5; Supplementary Figures 1–25",
+        "quoteLocator": "Abstract; trackway and footprint descriptions; phylogenetic implications"
+      }
+    ]
+  },
+  {
+    "id": "claim:event:tiktaalik-body-plan-mosaic",
+    "subjectId": "event:tiktaalik-body-plan-mosaic",
+    "claimKind": "scientific",
+    "claimType": "morphology",
+    "statement": "Tiktaalik roseae material from the Fram Formation combines scales, fin rays and fish-like jaws with a shortened skull roof, mobile neck, modified ear region, robust ribs and a functional wrist joint; this mosaic does not demonstrate habitual terrestrial walking or direct ancestry.",
+    "confidence": "high",
+    "confidenceRationale": "The holotype and referred material directly preserve the stated anatomical character combination and the paper illustrates the specimens and phylogenetic analysis. Functional and habitat implications remain hypotheses, so the claim is limited to anatomy and explicitly excludes witnessed behaviour and ancestor status.",
+    "reviewedBy": "Evo Atlas maintainer primary-source audit",
+    "reviewedAt": "2026-08-30",
+    "reviewedAgainstReferenceVersion": "Daeschler et al. 2006 DOI 10.1038/nature04639",
+    "referenceLinks": [
+      {
+        "relation": "supports",
+        "referenceId": "daeschler-2006-tiktaalik-body-plan",
+        "pages": "757–763",
+        "figure": "Figures 2–8",
+        "quoteLocator": "Abstract; diagnosis and description; phylogenetic and palaeoenvironmental discussion"
+      }
+    ]
+  },
+  {
+    "id": "claim:event:tiktaalik-pectoral-fin",
+    "subjectId": "event:tiktaalik-pectoral-fin",
+    "claimKind": "scientific",
+    "claimType": "morphology",
+    "statement": "The Tiktaalik pectoral-fin endoskeleton contains a robust humerus, radius and ulna, wrist-like joints and distal radials capable of transmitting load while retaining lepidotrichial fin rays; it is a fin, not a free-digit limb or a recorded walking trace.",
+    "confidence": "high",
+    "confidenceRationale": "The articulated fin skeleton and joint surfaces are directly described and illustrated in multiple specimens. High confidence is confined to preserved anatomy; load transmission is a functional inference, and the retained fin rays prevent the evidence from being rewritten as a digit-bearing terrestrial limb.",
+    "reviewedBy": "Evo Atlas maintainer primary-source audit",
+    "reviewedAt": "2026-08-30",
+    "reviewedAgainstReferenceVersion": "Shubin et al. 2006 DOI 10.1038/nature04637",
+    "referenceLinks": [
+      {
+        "relation": "supports",
+        "referenceId": "shubin-2006-tiktaalik-pectoral-fin",
+        "pages": "764–771",
+        "figure": "Figures 1–4; Supplementary Figures 1–4",
+        "quoteLocator": "Pectoral-fin description; functional interpretation; discussion"
+      }
+    ]
+  },
+  {
+    "id": "claim:event:elpistostege-digit-bearing-fin",
+    "subjectId": "event:elpistostege-digit-bearing-fin",
+    "claimKind": "scientific",
+    "claimType": "morphology",
+    "statement": "Computed tomography of articulated Elpistostege specimen MHNM 06-2067 reveals four proximodistal radial rows, branched carpals and two distal rows interpreted as digits or putative digits, while lepidotrichia show that the appendage remained a fin.",
+    "confidence": "medium",
+    "confidenceRationale": "A single exceptionally complete specimen and CT reconstruction directly document the internal skeleton and retained fin rays. Medium confidence preserves the interpretive status of digit homology and the analysis-dependent potential sister position of Elpistostege rather than treating either as permanent consensus.",
+    "reviewedBy": "Evo Atlas maintainer primary-source audit",
+    "reviewedAt": "2026-08-30",
+    "reviewedAgainstReferenceVersion": "Cloutier et al. 2020 DOI 10.1038/s41586-020-2100-8",
+    "referenceLinks": [
+      {
+        "relation": "supports",
+        "referenceId": "cloutier-2020-elpistostege-hand",
+        "pages": "549–554",
+        "figure": "Figures 1–5; Extended Data Figures 1–2",
+        "quoteLocator": "Abstract; pectoral-fin description; comparative anatomy and phylogenetic analyses"
+      }
+    ]
+  },
+  {
+    "id": "claim:event:acanthostega-eight-digit-limb",
+    "subjectId": "event:acanthostega-eight-digit-limb",
+    "claimKind": "scientific",
+    "claimType": "morphology",
+    "statement": "Upper Devonian East Greenland limb material documents eight digits in the Acanthostega forelimb, showing that five digits were not the fixed primitive condition and that digit-bearing limbs need not imply terrestrial walking.",
+    "confidence": "high",
+    "confidenceRationale": "Digit count is a direct observation from described limb specimens, and comparison with seven-digit Ichthyostega and six-digit Tulerpeton robustly rejects a universal primitive pentadactyl condition. The ecological implication is kept as a supported suggestion rather than direct behavioural observation.",
+    "reviewedBy": "Evo Atlas maintainer primary-source audit",
+    "reviewedAt": "2026-08-30",
+    "reviewedAgainstReferenceVersion": "Coates and Clack 1990 DOI 10.1038/347066a0",
+    "referenceLinks": [
+      {
+        "relation": "supports",
+        "referenceId": "coates-1990-polydactyly",
+        "pages": "66–69",
+        "quoteLocator": "Abstract; specimen descriptions; discussion of digit number and aquatic adaptation"
+      }
+    ]
+  },
+  {
+    "id": "claim:event:ichthyostega-joint-mobility",
+    "subjectId": "event:ichthyostega-joint-mobility",
+    "claimKind": "scientific",
+    "claimType": "morphology",
+    "statement": "A three-dimensional reconstruction and comparative analysis found that Ichthyostega lacked the limb long-axis rotations required for a typical lateral-sequence walk; this may reflect restricted early mobility or a specialization of Ichthyostega itself.",
+    "confidence": "medium",
+    "confidenceRationale": "Micro-CT reconstruction and explicit comparison with five living analogues quantitatively constrain joint range of motion. Medium confidence preserves modelling assumptions, the difference between feasible motion and observed behaviour, and the authors' alternative that Ichthyostega may be unusual rather than representative of all early tetrapods.",
+    "reviewedBy": "Evo Atlas maintainer primary-source audit",
+    "reviewedAt": "2026-08-30",
+    "reviewedAgainstReferenceVersion": "Pierce et al. 2012 DOI 10.1038/nature11124",
+    "referenceLinks": [
+      {
+        "relation": "supports",
+        "referenceId": "pierce-2012-ichthyostega-mobility",
+        "pages": "523–526",
+        "figure": "Figures 1–3; Supplementary Figures 1–6",
+        "quoteLocator": "Abstract; methods; comparative joint-mobility results; discussion"
       }
     ]
   },

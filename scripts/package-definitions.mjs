@@ -122,6 +122,12 @@ export const packageDefinitions = [
     title: 'Sarcopterygians and the Tetrapod Transition',
     titleZh: '肉鳍鱼类与四足动物转型',
     rootEntityIds: ['sarcopterygii'],
+    scientificMaturity: 'structured',
+    limitations: [
+      'Package dossiers expose the current curated evidence boundary; unavailable fields are explicit and are not inferred.',
+      'All six entity-wide temporal ranges remain legacy-display estimates and are not promoted by the specimen- and trace-scoped event evidence.',
+      'Trace fossils, body specimens, digit homology, functional reconstructions and terrestriality are kept as distinct claims; no featured fossil is asserted to be a direct ancestor.',
+    ],
     wave: 'C',
   },
   {

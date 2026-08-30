@@ -162,6 +162,17 @@ test('angiosperm story separates clocks, specimens and vegetation proxies', asyn
   await expect(page.locator('.story-step')).toHaveCount(7)
 })
 
+test('tetrapod-transition story keeps traces, fins, digits and mobility models distinct', async ({ page }) => {
+  await page.addInitScript(() => window.localStorage.setItem('evo-atlas-language', 'zh'))
+  await page.goto('./#/stories?id=tetrapods-onto-land')
+  await expect(page.getByRole('heading', { name: '鳍—肢转型的七条证据边界' })).toBeVisible()
+  await expect(page.getByRole('heading', { name: '没有身体化石的趾印记录' })).toBeVisible()
+  await expect(page.getByRole('heading', { name: '仍在鳍内的可动腕部' })).toBeVisible()
+  await expect(page.getByRole('heading', { name: '八个趾不等于陆地行走' })).toBeVisible()
+  await expect(page.getByText('可行关节动作是模型约束，不是行为的直接观察，也不是每一种泥盆纪四足动物的模板。', { exact: true })).toBeVisible()
+  await expect(page.locator('.story-step')).toHaveCount(7)
+})
+
 test('skip and catalog section controls do not corrupt the hash route', async ({ page }) => {
   await page.goto('./#/taxa?id=perissodactyla')
   const originalHash = await page.evaluate(() => window.location.hash)
