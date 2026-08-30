@@ -312,6 +312,22 @@ function provenanceFailures() {
   for (const asset of media) {
     if (!asset.sourceUrl?.startsWith('https://')) failures.push(`media ${asset.id}: HTTPS source URL required`)
     if (!asset.licenseNote) failures.push(`media ${asset.id}: license note required`)
+    if (asset.contentOrigin === 'ai-assisted-interpretive-reconstruction') {
+      const assetPath = join(rootDir, asset.asset?.path ?? '')
+      const provenancePath = join(rootDir, asset.provenancePath ?? '')
+      if (!existsSync(assetPath)) failures.push(`media ${asset.id}: bundled reconstruction asset is missing`)
+      else {
+        const bytes = readFileSync(assetPath)
+        const digest = createHash('sha256').update(bytes).digest('hex')
+        if (bytes.byteLength !== asset.asset.bytes || digest !== asset.asset.sha256) failures.push(`media ${asset.id}: bundled reconstruction asset does not match its declared bytes or SHA-256`)
+      }
+      if (!existsSync(provenancePath)) failures.push(`media ${asset.id}: reconstruction provenance is missing`)
+      else {
+        const provenance = readJson(asset.provenancePath)
+        const output = provenance.assets?.find((entry) => entry.id === asset.id)
+        if (output?.outputSha256 !== asset.asset?.sha256 || output?.outputBytes !== asset.asset?.bytes) failures.push(`media ${asset.id}: reconstruction provenance does not match the bundled output`)
+      }
+    }
   }
   const mapSnapshots = new Map(mapProvenance.snapshots.map((snapshot) => [snapshot.period, snapshot]))
   if (mapProvenance.dataset?.license !== 'CC-BY-4.0' || !mapProvenance.dataset?.doi || !mapProvenance.processing?.scriptCommit) failures.push('paleogeography source, license or processing provenance is incomplete')

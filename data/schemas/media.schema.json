@@ -8,6 +8,7 @@
     "id": { "type": "string", "minLength": 1 },
     "taxonId": { "type": "string", "minLength": 1 },
     "title": { "type": "string", "minLength": 1 },
+    "titleZh": { "type": "string", "minLength": 1 },
     "type": { "enum": ["museum-gallery", "specimen-feature", "reconstruction", "3d-model"] },
     "sourceName": { "type": "string", "minLength": 1 },
     "sourceUrl": { "type": "string", "pattern": "^https://" },
@@ -20,6 +21,46 @@
     "altTextZh": { "type": "string", "minLength": 5 },
     "subjectScope": { "type": "string", "minLength": 1 },
     "reviewedAt": { "type": "string", "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$" },
-    "licenseNote": { "type": "string", "minLength": 1 }
-  }
+    "licenseNote": { "type": "string", "minLength": 1 },
+    "contentOrigin": { "enum": ["external-source", "ai-assisted-interpretive-reconstruction"] },
+    "interpretiveNotice": { "type": "string", "minLength": 20 },
+    "interpretiveNoticeZh": { "type": "string", "minLength": 8 },
+    "uncertainty": { "type": "string", "minLength": 20 },
+    "uncertaintyZh": { "type": "string", "minLength": 8 },
+    "evidenceReferenceIds": { "type": "array", "minItems": 1, "uniqueItems": true, "items": { "type": "string", "minLength": 1 } },
+    "provenancePath": { "type": "string", "pattern": "^data/media/provenance/[a-z0-9._-]+\\.json$" },
+    "asset": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["path", "bytes", "sha256", "width", "height", "mediaType"],
+      "properties": {
+        "path": { "type": "string", "pattern": "^data/media/assets/[a-z0-9._-]+\\.webp$" },
+        "bytes": { "type": "integer", "minimum": 1, "maximum": 393216 },
+        "sha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+        "width": { "const": 1280 },
+        "height": { "const": 800 },
+        "mediaType": { "const": "image/webp" }
+      }
+    }
+  },
+  "allOf": [
+    {
+      "if": { "properties": { "contentOrigin": { "const": "ai-assisted-interpretive-reconstruction" } }, "required": ["contentOrigin"] },
+      "then": {
+        "required": ["titleZh", "interpretiveNotice", "interpretiveNoticeZh", "uncertainty", "uncertaintyZh", "evidenceReferenceIds", "provenancePath", "asset"],
+        "properties": {
+          "titleZh": {},
+          "interpretiveNotice": {},
+          "interpretiveNoticeZh": {},
+          "uncertainty": {},
+          "uncertaintyZh": {},
+          "evidenceReferenceIds": {},
+          "provenancePath": {},
+          "asset": {},
+          "type": { "const": "reconstruction" },
+          "rightsStatus": { "const": "cleared-for-reuse" }
+        }
+      }
+    }
+  ]
 }

@@ -1,0 +1,163 @@
+{
+  "schemaVersion": 1,
+  "batchId": "interpretive-reconstructions-rc56",
+  "generatedAt": "2026-08-31",
+  "contentOrigin": "ai-assisted-interpretive-reconstruction",
+  "inputImages": [],
+  "promptSource": "scripts/generate-interpretive-reconstructions.mjs",
+  "workflow": {
+    "source": "scripts/generate-interpretive-reconstructions.mjs",
+    "sha256": "646b80b94676ca3f1036d45aec5a1a73c97086ffc7092229b3dfb91cec319a60",
+    "comfyUiVersion": "0.30.0",
+    "comfyUiCommit": "6f7cd7fceaaf60d2669b554936394a7412c6fde5",
+    "width": 1280,
+    "height": 800,
+    "steps": 8,
+    "cfg": 1,
+    "sampler": "euler",
+    "scheduler": "simple",
+    "denoise": 1,
+    "negativeConditioning": "ConditioningZeroOut",
+    "promptEnhancement": false,
+    "styleLora": null
+  },
+  "models": [
+    {
+      "role": "diffusion-model",
+      "filename": "krea2_turbo_nvfp4.safetensors",
+      "sha256": "61527003b2d537055494d01bc8efe51d6e86e64192ba23e3721a5647231fe394",
+      "officialFile": "https://huggingface.co/Comfy-Org/Krea-2/blob/e5ea8b4dd7f38f348b138eb0fe29f92c0e367e96/diffusion_models/krea2_turbo_nvfp4.safetensors"
+    },
+    {
+      "role": "text-encoder",
+      "filename": "qwen3vl_4b_fp8_scaled.safetensors",
+      "sha256": "54bd5144df0bbc25dd6ccadfcb826b521445a1b06ae5a42570bdd2974ca87094",
+      "officialFile": "https://huggingface.co/Comfy-Org/Krea-2/blob/e5ea8b4dd7f38f348b138eb0fe29f92c0e367e96/text_encoders/qwen3vl_4b_fp8_scaled.safetensors"
+    },
+    {
+      "role": "vae",
+      "filename": "qwen_image_vae.safetensors",
+      "sha256": "a70580f0213e67967ee9c95f05bb400e8fb08307e017a924bf3441223e023d1f",
+      "officialFile": "https://huggingface.co/Comfy-Org/Krea-2/blob/e5ea8b4dd7f38f348b138eb0fe29f92c0e367e96/vae/qwen_image_vae.safetensors"
+    }
+  ],
+  "modelSource": {
+    "repository": "https://huggingface.co/Comfy-Org/Krea-2",
+    "revision": "e5ea8b4dd7f38f348b138eb0fe29f92c0e367e96",
+    "license": "Krea 2 Community License Agreement v1, 2026-06-22",
+    "licenseUrl": "https://github.com/krea-ai/krea-2/blob/main/docs/KREA-2-COMMUNITY-LICENSE",
+    "licenseSha256": "7cd975008d1b944452d1fca9e9a6099e5cd4c46d36fdc283c7691da9307fc29e",
+    "outputBoundary": "Krea states that compliant generators own outputs. Commercial use of the model or outputs is limited to entities below the license's USD 1,000,000 trailing-twelve-month revenue threshold unless an enterprise license is obtained. AI disclosure and appropriate content safeguards remain required."
+  },
+  "postprocessing": {
+    "tool": "Pillow",
+    "version": "12.2.0",
+    "operation": "RGB conversion; WebP quality 88, method 6; embedded sRGB ICC profile; EXIF and XMP omitted",
+    "targetBytes": 266240,
+    "hardLimitBytes": 393216
+  },
+  "manualInspection": {
+    "performedAt": "2026-08-31",
+    "performedBy": "OpenAI Codex visual inspection",
+    "reviewerKind": "AI-assisted workflow operator; not a human scientific or domain-expert review",
+    "result": "passed-for-labelled-interpretive-use",
+    "checks": [
+      "No text, watermark, scale bar or external-image content was introduced.",
+      "No harmful or unlawful content was observed.",
+      "Each selected image preserves the prompt's principal evidence-bounded silhouette or anatomy cue.",
+      "Rejected variants that resembled modern taxa or invented unsupported structures were not bundled."
+    ],
+    "humanReviewStatus": "pending-before-public-release",
+    "scientificReviewStatus": "not-reviewed"
+  },
+  "rejectedCandidates": [
+    { "id": "tokummia-interpretive-reconstruction", "seed": 5604002, "generatedPngSha256": "8f5756ed285eaa8c7266e129150368dda56b6da7e5027939277665aeec70a352", "reason": "Rejected: uniform repeated ventral limbs and simplified valve/trunk relationship could mislead." },
+    { "id": "tokummia-interpretive-reconstruction", "seed": 5604011, "generatedPngSha256": "f63840b02f32fbcbe401ca60b428d921dc698ece663b0ff58061805529795107", "reason": "Rejected: isopod-like repeated dorsal segmentation despite the bivalved prompt." },
+    { "id": "tokummia-interpretive-reconstruction", "seed": 5604012, "generatedPngSha256": "de74858ae186278d6678eaadc430fe846111499c5e5787c6a41857edd3413bcc", "reason": "Rejected: giant clam-like shell obscured the segmented trunk and distorted valve-to-limb relationships; Tokummia was replaced rather than forced into the release." },
+    { "id": "waptia-interpretive-reconstruction", "seed": 5604013, "generatedPngSha256": "f4f2669f5476dbb29ce1ab722e4ab24269aa3518a475f8530e2396c7078df5d8", "reason": "Rejected: overly modern shrimp-like limb series and trunk template." },
+    { "id": "tiktaalik-interpretive-reconstruction", "seed": 5606002, "generatedPngSha256": "138ef81991d5a049d59a1beac267d61b2d0ec07885f8da9897b8f6b388077add", "reason": "Rejected: generic lobe-finned-fish silhouette did not sufficiently show the flattened skull, dorsally placed eyes and neck region." },
+    { "id": "tiktaalik-interpretive-reconstruction", "seed": 5606011, "generatedPngSha256": "33a04befe96e71b3966aeaff584d8319c9e669aab59aa1fe7b084873120a66dc", "reason": "Rejected: ordinary fish template and pectoral support cues remained unclear." },
+    { "id": "tiktaalik-interpretive-reconstruction", "seed": 5606012, "generatedPngSha256": "847180c1498689172de47e341e1a26333c48afc2c19ee08819f5018c7974ae9a", "reason": "Rejected: generic silhouette and insufficient dorsally placed-eye/neck cues." },
+    { "id": "tiktaalik-interpretive-reconstruction", "seed": 5606013, "generatedPngSha256": "14d988c52ad7fd73f4dfccadafeb5f512acd1816ea995e8cd85ece8a6cc40b41", "reason": "Rejected: duplicated-looking eye anatomy and oversized fin-ray fans." },
+    { "id": "tiktaalik-interpretive-reconstruction", "seed": 5606014, "generatedPngSha256": "1b69b1410885cb36e709b13246a949221b681775e1169446419dbc2f0b82d175", "reason": "Rejected: duplicated-looking eye anatomy and generic fish fin proportions." },
+    { "id": "tiktaalik-interpretive-reconstruction", "seed": 5606015, "generatedPngSha256": "bb213b5f38f7e2b5108a8b98e1ed42ccc2cd2be26f70c80552ed2892196e7ff9", "reason": "Rejected: pectoral fins became very large ray fans and a strong ordinary-fish dorsal-fin template remained." },
+    { "id": "tiktaalik-interpretive-reconstruction", "seed": 5606016, "generatedPngSha256": "ca7a4974c7337303749b216b86a072632bed463189c80841344c6a50625d5fb8", "reason": "Rejected: attempted X-ray treatment still failed to show reliable internal pectoral supports and reverted to a generic fish body plan." },
+    { "id": "archaeopteryx-interpretive-reconstruction", "seed": 5608002, "generatedPngSha256": "67ba5580989a3561b0447346564c745e734a115f117c06beb89e2aee9f5b8c25", "reason": "Rejected: overly modern bird head and tail feathers read as one oversized unilateral wing." },
+    { "id": "archaeopteryx-interpretive-reconstruction", "seed": 5608011, "generatedPngSha256": "42d53feec570db68398f1ecaacd07b782bbdb7566980e9e3a579586363a0841c", "reason": "Rejected: modern bird facial proportions and wing-like tail treatment remained." },
+    { "id": "archaeopteryx-interpretive-reconstruction", "seed": 5608012, "generatedPngSha256": "09ce5d44f8e0f65aec22bd251decf26bc97aad21c66b58f474c1aab31c674263", "reason": "Rejected: long tail improved, but the head remained too modern-bird-like and the toothed jaw was not legible." }
+  ],
+  "assets": [
+    {
+      "id": "asteroxylon-interpretive-reconstruction",
+      "seed": 5601012,
+      "promptSha256": "194810cb56c018bdf692a8c432db16310ccdd332faf3b54d9a8d4babd9f6400c",
+      "generatedPngSha256": "4c4fc51d21e10cf1b43286f79b41644e60f420a9f0b90103004027a35cac67cd",
+      "outputSha256": "cd8996273a958d47cc04feaacdf911b4973e000af6eee07d100b9cef68a0bdb6",
+      "outputBytes": 50026,
+      "evidenceReferenceIds": ["hetherington-2021-asteroxylon"]
+    },
+    {
+      "id": "eocyathispongia-interpretive-reconstruction",
+      "seed": 5602002,
+      "promptSha256": "33b9dc36d355f9e2fedca7e6934d67339f953a17fa5845d9824b9c5b410ab978",
+      "generatedPngSha256": "61d0f280b214c241740c9b673d9cc495a81c3b33a7e597097db4bb60c13d4c73",
+      "outputSha256": "8032c156db998cb10c844969f41752ecf27b7dfc1a425ffe875cd673a63079e0",
+      "outputBytes": 29724,
+      "evidenceReferenceIds": ["yin-2015-eocyathispongia"]
+    },
+    {
+      "id": "kimberella-interpretive-reconstruction",
+      "seed": 5603001,
+      "promptSha256": "592c56d082b89f7b1c6dd4a7adb0e36d7324f20fda4a6044f996a4ff16359988",
+      "generatedPngSha256": "b134c2208ee027e7dde246e19bb014b2f0fc52df4047e0b197dfcc6d79a1f91a",
+      "outputSha256": "e8a555b66d6849d57da46bee2dec1233a03a7dfca771648aff96a78aa22a2988",
+      "outputBytes": 120786,
+      "evidenceReferenceIds": ["fedonkin-waggoner-1997-kimberella"]
+    },
+    {
+      "id": "waptia-interpretive-reconstruction",
+      "seed": 5604014,
+      "promptSha256": "baa26ffe1e6343289502998c9160afef5adbba921df5fda2768ddda908e17ab0",
+      "generatedPngSha256": "0e84ca590aaa02ec72d255cdf3d204efb80fa3fffea71b6b05f304bf59031aa0",
+      "outputSha256": "03a8640a69909518929c3234f3b0ad250486094a9526094abbf14049efedafc0",
+      "outputBytes": 41026,
+      "evidenceReferenceIds": ["vannier-2018-waptia"]
+    },
+    {
+      "id": "shenacanthus-interpretive-reconstruction",
+      "seed": 5605002,
+      "promptSha256": "f2fb05a37ebbc5d5eb33dd784451ebb365dc9e3c9e26cd2aa019faf8e94ccb70",
+      "generatedPngSha256": "248abbb6c13c634b440088208c6a877d96c82ce89ff3d3194d4990e49f9761e7",
+      "outputSha256": "49475e1610470dcc5e36733b0a7e8d77ecfdc7ecc95a0bad5cca2cac58615667",
+      "outputBytes": 18918,
+      "evidenceReferenceIds": ["zhu-2022-chongqing-gnathostomes"]
+    },
+    {
+      "id": "tiktaalik-interpretive-reconstruction",
+      "seed": 5606017,
+      "promptSha256": "9895fbcd5e8222cb090a10903f6584c6b97dd523c209d6d46897cdf80166e2f5",
+      "generatedPngSha256": "af43d737253927b11cbab394f809d77de98cc2053327b9071d8a9cec5ca6e9fa",
+      "outputSha256": "2491e4cb3e0f1a524dfa38c1ef93125c6088091cc59ac13a8e819742a2ba35c3",
+      "outputBytes": 55554,
+      "evidenceReferenceIds": ["daeschler-2006-tiktaalik-body-plan", "shubin-2006-tiktaalik-pectoral-fin"]
+    },
+    {
+      "id": "ambulocetus-interpretive-reconstruction",
+      "seed": 5607004,
+      "promptSha256": "02801ac76cb3d83ceee950030c385a1c58ac70de22364292f74b6a0c9c76cbdb",
+      "generatedPngSha256": "5fdaeb40c5264abed110edd5c99702102d64818af8afb4795a4f4ef6b4228cb7",
+      "outputSha256": "4d3183bf3ffbcca701c58b3950f6cc0184eee7943fd7ef07612653f2d7f6d474",
+      "outputBytes": 89298,
+      "evidenceReferenceIds": ["thewissen-1994-ambulocetus"]
+    },
+    {
+      "id": "archaeopteryx-interpretive-reconstruction",
+      "seed": 5608013,
+      "promptSha256": "fd2e698d379320bf606be107f9add10c0ea03da36dcc00189d595cb384ca5e43",
+      "generatedPngSha256": "3c51dc8e2eb227da666b9cfdbfc6c0669e6adfd57c3db455847b5880d2ef8f2f",
+      "outputSha256": "9fb7d90d15efaea7f42b0f762b6956620278ecd5c92d495a4ce75518c9ccf4cb",
+      "outputBytes": 65600,
+      "evidenceReferenceIds": ["rauhut-2018-oldest-archaeopteryx", "voeten-2018-archaeopteryx-flight"]
+    }
+  ]
+}
