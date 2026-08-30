@@ -2392,6 +2392,13 @@ interface I18nContextValue {
 
 const I18nContext = createContext<I18nContextValue | null>(null)
 
+let extendedChineseTranslationsPromise: Promise<Record<string, string>> | undefined
+
+export function loadExtendedChineseTranslations(): Promise<Record<string, string>> {
+  extendedChineseTranslationsPromise ??= Promise.all([import('./marineZh'), import('./cetartiodactylaZh'), import('./carnivoraZh'), import('./turtleLepidosaurZh'), import('./crocBirdZh'), import('./primatesZh'), import('./otherMammalsZh'), import('./dinosaurZh'), import('./spongesCnidariansZh'), import('./molluscsBrachiopodsZh'), import('./trilobitesCheliceratesZh'), import('./crustaceansInsectsZh'), import('./vertebrateDeepeningZh'), import('./atlasArchosaurDeepeningZh'), import('./mammalProfilesZh'), import('./plantInvertebrateProfilesZh')]).then(([{ marineZh }, { cetartiodactylaZh }, { carnivoraZh }, { turtleLepidosaurZh }, { crocBirdZh }, { primatesZh }, { otherMammalsZh }, { dinosaurZh }, { spongesCnidariansZh }, { molluscsBrachiopodsZh }, { trilobitesCheliceratesZh }, { crustaceansInsectsZh }, { vertebrateDeepeningZh }, { atlasArchosaurDeepeningZh }, { mammalProfilesZh }, { plantInvertebrateProfilesZh }]) => ({ ...marineZh, ...cetartiodactylaZh, ...carnivoraZh, ...turtleLepidosaurZh, ...crocBirdZh, ...primatesZh, ...otherMammalsZh, ...dinosaurZh, ...spongesCnidariansZh, ...molluscsBrachiopodsZh, ...trilobitesCheliceratesZh, ...crustaceansInsectsZh, ...vertebrateDeepeningZh, ...atlasArchosaurDeepeningZh, ...mammalProfilesZh, ...plantInvertebrateProfilesZh }))
+  return extendedChineseTranslationsPromise
+}
+
 export function I18nProvider({ children }: { children: ReactNode }) {
   const [language, setLanguage] = useState<Language>(initialLanguage)
   const [extendedZh, setExtendedZh] = useState<Record<string, string>>({})
@@ -2399,8 +2406,8 @@ export function I18nProvider({ children }: { children: ReactNode }) {
   useEffect(() => {
     let active = true
     if (language === 'zh' && Object.keys(extendedZh).length === 0) {
-      void Promise.all([import('./marineZh'), import('./cetartiodactylaZh'), import('./carnivoraZh'), import('./turtleLepidosaurZh'), import('./crocBirdZh'), import('./primatesZh'), import('./otherMammalsZh'), import('./dinosaurZh'), import('./spongesCnidariansZh'), import('./molluscsBrachiopodsZh'), import('./trilobitesCheliceratesZh'), import('./crustaceansInsectsZh'), import('./vertebrateDeepeningZh'), import('./atlasArchosaurDeepeningZh'), import('./mammalProfilesZh'), import('./plantInvertebrateProfilesZh')]).then(([{ marineZh }, { cetartiodactylaZh }, { carnivoraZh }, { turtleLepidosaurZh }, { crocBirdZh }, { primatesZh }, { otherMammalsZh }, { dinosaurZh }, { spongesCnidariansZh }, { molluscsBrachiopodsZh }, { trilobitesCheliceratesZh }, { crustaceansInsectsZh }, { vertebrateDeepeningZh }, { atlasArchosaurDeepeningZh }, { mammalProfilesZh }, { plantInvertebrateProfilesZh }]) => {
-        if (active) setExtendedZh({ ...marineZh, ...cetartiodactylaZh, ...carnivoraZh, ...turtleLepidosaurZh, ...crocBirdZh, ...primatesZh, ...otherMammalsZh, ...dinosaurZh, ...spongesCnidariansZh, ...molluscsBrachiopodsZh, ...trilobitesCheliceratesZh, ...crustaceansInsectsZh, ...vertebrateDeepeningZh, ...atlasArchosaurDeepeningZh, ...mammalProfilesZh, ...plantInvertebrateProfilesZh })
+      void loadExtendedChineseTranslations().then((translations) => {
+        if (active) setExtendedZh(translations)
       })
     }
     return () => { active = false }
