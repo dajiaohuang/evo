@@ -933,91 +933,85 @@
     "id": "range:articulata:global",
     "entityId": "articulata",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Articulata",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 540,
+    "taxonomicConcept": "Articulata historical brachiopod grade — numerical range withheld",
+    "geographicScope": "No numerical geographic-temporal range exposed",
+    "olderMa": 0,
     "youngerMa": 0,
-    "status": "available",
+    "status": "withheld-pending-provenance",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "note": "The former 540 Ma–present display is withdrawn because the cited systematic revision replaces Articulata as a historical grade and does not delimit one coherent clade range. Zero values are non-display placeholders required by the schema."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
-    "confidence": "medium",
+    "evidenceBasis": "The systematic revision is fit for historical classification and morphology, but not for numerical endpoints of a superseded grade.",
+    "evidenceLevel": "withheld-no-range-evidence",
+    "confidence": "low",
     "claimIds": [],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
-      },
-      {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "williams-1996-brachiopod-classification",
+        "locator": "1171–1193; Tables 1–3; classification rationale and supraordinal diagnoses"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed"
   },
   {
     "id": "range:spiriferida:global",
     "entityId": "spiriferida",
-    "rangeKind": "global-composite",
-    "taxonomicConcept": "Spiriferida",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 443,
-    "youngerMa": 201,
+    "rangeKind": "taxon-range",
+    "taxonomicConcept": "Spiriferida as revised by Carter et al. 1994",
+    "geographicScope": "Order-level Upper Ordovician–Upper Permian interval stated in the systematic revision",
+    "olderMa": 458.2,
+    "youngerMa": 251.902,
     "status": "available",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "note": "The source states named chronostratigraphic bounds rather than numerical ages; the displayed numbers are conversions using ICS v2026/06 and may change with future chart revisions."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "evidenceBasis": "Carter et al. explicitly state an Upper Ordovician–Upper Permian stratigraphic range for Spiriferida; this is not a direct-ancestor or continuous-occupancy claim.",
+    "evidenceLevel": "literature-synthesized",
     "confidence": "medium",
-    "claimIds": [],
+    "claimIds": [
+      "claim:taxon:spiriferida:source-bounded-range-rc50"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
+        "referenceId": "carter-1994-spiriferids",
+        "locator": "328–329; p. 329, Order Spiriferida and Stratigraphic Range paragraphs: Upper Ordovician–Upper Permian"
       },
       {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "ics-2026-06",
+        "locator": "International Chronostratigraphic Chart v2026/06; numerical boundaries for the named stages and periods used to bound the source sample"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed"
   },
   {
     "id": "range:terebratulida:global",
     "entityId": "terebratulida",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Terebratulida",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 409,
+    "taxonomicConcept": "Terebratulida — numerical range withheld",
+    "geographicScope": "No numerical geographic-temporal range exposed",
+    "olderMa": 0,
     "youngerMa": 0,
-    "status": "available",
+    "status": "withheld-pending-provenance",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "note": "The former 409 Ma–present display is withdrawn because the cited morphometric study samples selected living species and supplies no fossil first-appearance endpoint. Zero values are non-display placeholders required by the schema."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
-    "confidence": "medium",
+    "evidenceBasis": "The study is fit for extant species assignment and brachidium morphology, not an order-wide temporal range.",
+    "evidenceLevel": "withheld-no-range-evidence",
+    "confidence": "low",
     "claimIds": [],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
-      },
-      {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "lopez-carranza-carlson-2019-terebratulides",
+        "locator": "Article e0225528; Materials and methods; Table 1; Figure 2; S1 Table; 58 museum individuals from eight living species"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed"
   },
   {
     "id": "range:mollusca:global",
@@ -1058,368 +1052,350 @@
   {
     "id": "range:bivalvia:global",
     "entityId": "bivalvia",
-    "rangeKind": "global-composite",
-    "taxonomicConcept": "Bivalvia",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 521,
-    "youngerMa": 0,
+    "rangeKind": "taxon-range",
+    "taxonomicConcept": "Bivalvia — Pojetaia study-sample window",
+    "geographicScope": "Ajax Limestone and Erkeket Formation Pojetaia material correlated with the Botomian",
+    "olderMa": 514.5,
+    "youngerMa": 506.5,
     "status": "available",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "The older endpoint follows represented early-bivalve shell material; it is not a direct date or guaranteed global FAD."
+      "note": "This Cambrian Stage 4 envelope represents the cited early-bivalve material, not a global Bivalvia FAD, LAD or continuous lineage range; the paper explicitly qualifies the Ajax correlation as probable."
     },
-    "evidenceBasis": "Rounded navigation envelope informed by represented early-bivalve shell material and living continuity.",
+    "evidenceBasis": "Vendrasco et al. document Pojetaia shell material from probably Botomian and lowermost Botomian units; ICS v2026/06 supplies the conservative Stage 4 numerical envelope.",
+    "evidenceLevel": "literature-synthesized",
     "confidence": "medium",
     "claimIds": [
-      "claim:event:pojetaia-shell-microstructure"
+      "claim:taxon:bivalvia:source-bounded-range-rc50"
     ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
-      },
-      {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
-      },
-      {
         "referenceId": "vendrasco-et-al-2011-pojetaia",
-        "locator": "825–850; represented early-bivalve shell material"
+        "locator": "825–850; Materials and methods, Ajax Limestone probably Botomian and Erkeket Formation lowermost Botomian; Plate 1 captions"
+      },
+      {
+        "referenceId": "ics-2026-06",
+        "locator": "International Chronostratigraphic Chart v2026/06; numerical boundaries for the named stages and periods used to bound the source sample"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed"
   },
   {
     "id": "range:rudistae:global",
     "entityId": "rudistae",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Hippuritoida",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 160,
-    "youngerMa": 66,
-    "status": "available",
+    "taxonomicConcept": "Hippuritida (rudists) — numerical range withheld",
+    "geographicScope": "No numerical geographic-temporal range exposed",
+    "olderMa": 0,
+    "youngerMa": 0,
+    "status": "withheld-pending-provenance",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "note": "The former 160–66 Ma display is withdrawn because the cited formal study directly supports comparative anatomy and sampled topology but does not furnish an auditable full-group numerical endpoint pair. Zero values are non-display placeholders required by the schema."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
-    "confidence": "medium",
+    "evidenceBasis": "No secondary summary or general background statement is promoted into a global rudist range without a range-fit primary locator.",
+    "evidenceLevel": "withheld-no-range-evidence",
+    "confidence": "low",
     "claimIds": [],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
-      },
-      {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "rineau-2020-rudists",
+        "locator": "1243–1297; Introduction; Figure 1; comparative anatomy and sampled cladistic matrix; Figures 2–20"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed"
   },
   {
     "id": "range:ostreoida:global",
     "entityId": "ostreoida",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Ostreoida",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 250,
+    "taxonomicConcept": "Ostreoida historical navigation route — numerical range withheld",
+    "geographicScope": "No numerical geographic-temporal range exposed",
+    "olderMa": 0,
     "youngerMa": 0,
-    "status": "available",
+    "status": "withheld-pending-provenance",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "note": "The former 250 Ma–present display is withdrawn because the cited one-locus analysis samples living Pteriomorphia and does not establish fossil endpoints for the historical Ostreoida concept. Zero values are non-display placeholders required by the schema."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
-    "confidence": "medium",
+    "evidenceBasis": "The source is fit for the sampled molecular topology, not a global historical range.",
+    "evidenceLevel": "withheld-no-range-evidence",
+    "confidence": "low",
     "claimIds": [],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
-      },
-      {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "matsumoto-2003-pteriomorphia",
+        "locator": "429–440; taxon sampling and COI sequence methods; Figures 1–3"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed"
   },
   {
     "id": "range:gastropoda:global",
     "entityId": "gastropoda",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Gastropoda",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 510,
+    "taxonomicConcept": "Gastropoda — numerical range withheld",
+    "geographicScope": "No numerical geographic-temporal range exposed",
+    "olderMa": 0,
     "youngerMa": 0,
-    "status": "available",
+    "status": "withheld-pending-provenance",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "note": "The former 510 Ma–present display is withdrawn because the 56-taxon transcriptome and genome sample supplies topology but no audited fossil occurrence endpoints. Zero values are non-display placeholders required by the schema."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
-    "confidence": "medium",
+    "evidenceBasis": "Living phylogenomic sampling cannot be silently converted into a fossil FAD or a clade duration.",
+    "evidenceLevel": "withheld-no-range-evidence",
+    "confidence": "low",
     "claimIds": [],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
-      },
-      {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "zapata-2014-gastropod-phylogenomics",
+        "locator": "Article 20141739; pp. 2–3, Taxon sampling; Figure 2 matrices; Figure 3 topology"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed"
   },
   {
     "id": "range:cephalopoda:global",
     "entityId": "cephalopoda",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Cephalopoda",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 500,
+    "taxonomicConcept": "Cephalopoda — numerical range withheld",
+    "geographicScope": "No numerical geographic-temporal range exposed",
+    "olderMa": 0,
     "youngerMa": 0,
-    "status": "available",
+    "status": "withheld-pending-provenance",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "note": "The former 500 Ma–present display is withdrawn because the multigene study samples living cephalopods and omits extinct lineages needed to audit class-wide temporal endpoints. Zero values are non-display placeholders required by the schema."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
-    "confidence": "medium",
+    "evidenceBasis": "The source supports a sampled living topology and habitat reconstruction, not a fossil range.",
+    "evidenceLevel": "withheld-no-range-evidence",
+    "confidence": "low",
     "claimIds": [],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
-      },
-      {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "lindgren-2012-cephalopoda",
+        "locator": "Article 129; Methods, Taxon sampling and sequence data; Table 1; Figures 1–5"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed"
   },
   {
     "id": "range:nautiloidea:global",
     "entityId": "nautiloidea",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Nautiloidea",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 500,
+    "taxonomicConcept": "Nautiloidea historical navigation route — numerical range withheld",
+    "geographicScope": "No numerical geographic-temporal range exposed",
+    "olderMa": 0,
     "youngerMa": 0,
-    "status": "available",
+    "status": "withheld-pending-provenance",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "note": "The former 500 Ma–present display is withdrawn because the cited study concerns living Allonautilus and Nautilida comparisons, not endpoints for the broader historical Nautiloidea route. Zero values are non-display placeholders required by the schema."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
-    "confidence": "medium",
+    "evidenceBasis": "Genus-level living anatomy and Nautilida relationships do not time-bound Nautiloidea.",
+    "evidenceLevel": "withheld-no-range-evidence",
+    "confidence": "low",
     "claimIds": [],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
-      },
-      {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "ward-saunders-1997-allonautilus",
+        "locator": "1054–1064; diagnosis and material; Figures 1–8; phylogenetic discussion"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed"
   },
   {
     "id": "range:ammonoidea:global",
     "entityId": "ammonoidea",
-    "rangeKind": "global-composite",
-    "taxonomicConcept": "Ammonoidea",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 409,
-    "youngerMa": 66,
+    "rangeKind": "taxon-range",
+    "taxonomicConcept": "Ammonoidea — Permian–Triassic boundary study-sample window",
+    "geographicScope": "Middle and Late Permian through Induan ammonoids sampled by McGowan and Smith",
+    "olderMa": 274.4,
+    "youngerMa": 250.8,
     "status": "available",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "note": "This Roadian-to-end-Induan envelope is the cited cladistic sample window, not the full Ammonoidea range, a divergence estimate or uninterrupted global occupancy."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "evidenceBasis": "The paper directly analyzes Middle–Late Permian and Induan ammonoids across the Permian–Triassic boundary; current ICS boundaries convert that named interval to numerical ages.",
+    "evidenceLevel": "literature-synthesized",
     "confidence": "medium",
-    "claimIds": [],
+    "claimIds": [
+      "claim:taxon:ammonoidea:source-bounded-range-rc50"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
+        "referenceId": "mcgowan-smith-2007-ammonoids",
+        "locator": "573–590; Abstract; taxon matrix; Text-figure 7, cladogram compared with the geological timescale"
       },
       {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "ics-2026-06",
+        "locator": "International Chronostratigraphic Chart v2026/06; numerical boundaries for the named stages and periods used to bound the source sample"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed"
   },
   {
     "id": "range:goniatitida:global",
     "entityId": "goniatitida",
-    "rangeKind": "global-composite",
-    "taxonomicConcept": "Goniatitida",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 409,
-    "youngerMa": 252,
+    "rangeKind": "taxon-range",
+    "taxonomicConcept": "Goniatitida — early Late Viséan Moroccan study sample",
+    "geographicScope": "Early Late Viséan ammonoid assemblage from Morocco",
+    "olderMa": 346.7,
+    "youngerMa": 330.3,
     "status": "available",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "note": "The full Viséan stage envelope conservatively contains the source-described early Late Viséan sample; it is not an order-wide Goniatitida FAD or LAD."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "evidenceBasis": "Korn et al. directly describe an early Late Viséan assemblage within Goniatitida; ICS v2026/06 supplies the enclosing Viséan numerical bounds.",
+    "evidenceLevel": "literature-synthesized",
     "confidence": "medium",
-    "claimIds": [],
+    "claimIds": [
+      "claim:taxon:goniatitida:source-bounded-range-rc50"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
+        "referenceId": "korn-2005-goniatitidae",
+        "locator": "356–365; Abstract, early Late Viséan assemblage; pp. 357–359 and Figure 2; systematic descriptions and Figures 3–8"
       },
       {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "ics-2026-06",
+        "locator": "International Chronostratigraphic Chart v2026/06; numerical boundaries for the named stages and periods used to bound the source sample"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed"
   },
   {
     "id": "range:ceratitida:global",
     "entityId": "ceratitida",
-    "rangeKind": "global-composite",
-    "taxonomicConcept": "Ceratitida",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 280,
-    "youngerMa": 201,
+    "rangeKind": "taxon-range",
+    "taxonomicConcept": "Ceratitida as delimited by Shigeta et al. 2001",
+    "geographicScope": "Early Permian through end-Triassic range stated in the comparative study",
+    "olderMa": 298.9,
+    "youngerMa": 201.4,
     "status": "available",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "note": "The source states period-scale verbal bounds; numerical endpoints are ICS v2026/06 conversions and do not imply continuous preservation or direct ancestry."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "evidenceBasis": "Shigeta et al. explicitly state that Ceratitida ranged from the Early Permian to the end of the Triassic.",
+    "evidenceLevel": "literature-synthesized",
     "confidence": "medium",
-    "claimIds": [],
+    "claimIds": [
+      "claim:taxon:ceratitida:source-bounded-range-rc50"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
+        "referenceId": "shigeta-2001-ceratitida-origin",
+        "locator": "201–213; Introduction, pp. 201–202, Ceratitida ranged from early Permian to end of Triassic; Figures 1–8"
       },
       {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "ics-2026-06",
+        "locator": "International Chronostratigraphic Chart v2026/06; numerical boundaries for the named stages and periods used to bound the source sample"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed"
   },
   {
     "id": "range:ammonitida:global",
     "entityId": "ammonitida",
-    "rangeKind": "global-composite",
-    "taxonomicConcept": "Ammonitida",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 201,
-    "youngerMa": 66,
+    "rangeKind": "taxon-range",
+    "taxonomicConcept": "Ammonitida — Early Jurassic Hildoceratidae study-sample window",
+    "geographicScope": "Early Jurassic Hildoceratidae sampled in the conch-character analysis",
+    "olderMa": 201.4,
+    "youngerMa": 174.7,
     "status": "available",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "note": "The Early Jurassic period envelope represents one sampled ammonitid family, not the complete Ammonitida range or an order-wide extinction endpoint."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "evidenceBasis": "Bardin et al. analyze a 105-taxon Hildoceratidae matrix explicitly scoped to the Early Jurassic; ICS v2026/06 supplies the period boundaries.",
+    "evidenceLevel": "literature-synthesized",
     "confidence": "medium",
-    "claimIds": [],
+    "claimIds": [
+      "claim:taxon:ammonitida:source-bounded-range-rc50"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
+        "referenceId": "bardin-2017-hildoceratidae",
+        "locator": "21–40; Abstract, Early Jurassic Hildoceratidae; Methods, 105-taxon matrix; Figures 2–8"
       },
       {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "ics-2026-06",
+        "locator": "International Chronostratigraphic Chart v2026/06; numerical boundaries for the named stages and periods used to bound the source sample"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed"
   },
   {
     "id": "range:coleoidea:global",
     "entityId": "coleoidea",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Coleoidea",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 390,
+    "taxonomicConcept": "Coleoidea — numerical range withheld",
+    "geographicScope": "No numerical geographic-temporal range exposed",
+    "olderMa": 0,
     "youngerMa": 0,
-    "status": "available",
+    "status": "withheld-pending-provenance",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "note": "The former 390 Ma–present display is withdrawn because the cited ages are molecular-clock posterior estimates rather than occurrence endpoints. Zero values are non-display placeholders required by the schema."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
-    "confidence": "medium",
+    "evidenceBasis": "Model-dependent node estimates are not silently substituted for a fossil range.",
+    "evidenceLevel": "withheld-no-range-evidence",
+    "confidence": "low",
     "claimIds": [],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
-      },
-      {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "tanner-2017-coleoid-clocks",
+        "locator": "Article 20162818; Methods, 26 cephalopod species and 180 genes; fossil calibrations; Figures 1–4"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed"
   },
   {
     "id": "range:belemnitida:global",
     "entityId": "belemnitida",
-    "rangeKind": "global-composite",
-    "taxonomicConcept": "Belemnitida",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 228,
+    "rangeKind": "taxon-range",
+    "taxonomicConcept": "Belemnitida — tip-dated study and occurrence-calibration envelope",
+    "geographicScope": "Twenty-four sampled belemnite species across the group-level study interval",
+    "olderMa": 253.1,
     "youngerMa": 66,
     "status": "available",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "note": "The older bound is the study calibration’s youngest permitted origin offset and the younger bound is the K–Pg endpoint; this is a study-defined envelope, not proof of exact global FAD or continuous occupancy."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "evidenceBasis": "Stevens et al. publish the sampled species, first and last occurrence inputs, a 253.1 Ma origin offset and the terminal K–Pg extinction context.",
+    "evidenceLevel": "literature-synthesized",
     "confidence": "medium",
-    "claimIds": [],
+    "claimIds": [
+      "claim:taxon:belemnitida:source-bounded-range-rc50"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
+        "referenceId": "stevens-2023-belemnites",
+        "locator": "Introduction pp. 3–4; Methods pp. 5–7; Table 1; Appendix 2, sampled species and first/last occurrence ages; 253.1 Ma origin offset"
       },
       {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "ics-2026-06",
+        "locator": "International Chronostratigraphic Chart v2026/06; numerical boundaries for the named stages and periods used to bound the source sample"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed"
   },
   {
     "id": "range:arthropoda:global",
@@ -9765,28 +9741,24 @@
     "id": "range:molluscan-origin-dossiers:primary-evidence",
     "entityId": "molluscan-origin-dossiers",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Molluscan origin dossier navigation route",
-    "geographicScope": "Ediacaran White Sea and Cambrian Burgess Shale dossier envelope",
-    "olderMa": 558,
-    "youngerMa": 505,
-    "status": "available",
+    "taxonomicConcept": "Molluscan-origin dossier navigation route — numerical range withheld",
+    "geographicScope": "No numerical geographic-temporal range exposed",
+    "olderMa": 0,
+    "youngerMa": 0,
+    "status": "withheld-pending-provenance",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "A navigation envelope across separate organisms, localities and interpretations; not one lineage, a global FAD or a continuous range."
+      "note": "The former 558–505 Ma envelope is withdrawn because this identifier is an editorial route joining separate organisms, localities and competing affinities rather than a biological taxon. Zero values are non-display placeholders required by the schema."
     },
-    "evidenceBasis": "Rounded envelope for the explicitly non-genealogical dossier route.",
-    "evidenceLevel": "legacy-display",
+    "evidenceBasis": "A taxon range would be a category error; the linked fossil dossiers remain independently accessible through their own evidence records.",
+    "evidenceLevel": "withheld-no-range-evidence",
     "confidence": "low",
     "claimIds": [],
     "referenceLocators": [
       {
         "referenceId": "fedonkin-waggoner-1997-kimberella",
-        "locator": "868–871; White Sea sample"
-      },
-      {
-        "referenceId": "caron-et-al-2006-odontogriphus",
-        "locator": "159–163; Burgess Shale sample"
+        "locator": "868–871; White Sea Kimberella sample; Figures 1–3; separate local specimen evidence only"
       }
     ],
     "reviewStatus": "automated-audit-passed"
@@ -9853,26 +9825,24 @@
     "id": "range:orthrozanclus:primary-evidence",
     "entityId": "orthrozanclus",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Orthrozanclus reburrus Burgess Shale occurrence",
-    "geographicScope": "Burgess Shale, British Columbia, Canada",
-    "olderMa": 508,
-    "youngerMa": 505,
-    "status": "available",
+    "taxonomicConcept": "Orthrozanclus reburrus — numerical range withheld",
+    "geographicScope": "No numerical geographic-temporal range exposed",
+    "olderMa": 0,
+    "youngerMa": 0,
+    "status": "withheld-pending-provenance",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "A broad locality envelope; it does not date Halwaxiida, Mollusca or lophotrochozoan divergence."
+      "note": "The former 508–505 Ma display is withdrawn because the primary paper supports morphology and sampled topology but does not provide an auditable numerical occurrence endpoint in the atlas locator. Zero values are non-display placeholders required by the schema."
     },
-    "evidenceBasis": "One articulated body combines a shell, three sclerite zones and long spines used to test halwaxiid relationships.",
-    "evidenceLevel": "legacy-display",
-    "confidence": "medium",
-    "claimIds": [
-      "claim:event:orthrozanclus-halwaxiid-mosaic"
-    ],
+    "evidenceBasis": "No museum overview or secondary age page is used to manufacture a numerical endpoint absent from the located primary study.",
+    "evidenceLevel": "withheld-no-range-evidence",
+    "confidence": "low",
+    "claimIds": [],
     "referenceLocators": [
       {
         "referenceId": "conway-morris-caron-2007-orthrozanclus",
-        "locator": "1255–1258; Figures 1–4; description and matrix"
+        "locator": "1255–1258; Figures 1–4; holotype description, character comparison and matrix"
       }
     ],
     "reviewStatus": "automated-audit-passed"
@@ -9909,27 +9879,31 @@
   {
     "id": "range:pojetaia:primary-evidence",
     "entityId": "pojetaia",
-    "rangeKind": "global-composite",
-    "taxonomicConcept": "Pojetaia runnegari Cambrian shell sample",
-    "geographicScope": "Cambrian Series 2 occurrences represented by the cited shell sections",
-    "olderMa": 521,
-    "youngerMa": 513,
+    "rangeKind": "taxon-range",
+    "taxonomicConcept": "Pojetaia runnegari — Botomian shell-material window",
+    "geographicScope": "Ajax Limestone and Erkeket Formation shell sections represented by Vendrasco et al.",
+    "olderMa": 514.5,
+    "youngerMa": 506.5,
     "status": "available",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "A broad stage-scale envelope for represented material; not a direct date on the sections or a global bivalve FAD."
+      "note": "This Cambrian Stage 4 envelope is limited to the cited shell material and its qualified Botomian correlations; it is not an exhaustive global genus FAD or LAD."
     },
-    "evidenceBasis": "Early bivalve shell sections distinguish laminar fabrics from undisputed nacre.",
-    "evidenceLevel": "legacy-display",
+    "evidenceBasis": "The study documents more than fifty Pojetaia specimens from probably Botomian and lowermost Botomian units; ICS v2026/06 supplies the conservative Stage 4 bounds.",
+    "evidenceLevel": "literature-synthesized",
     "confidence": "medium",
     "claimIds": [
-      "claim:event:pojetaia-shell-microstructure"
+      "claim:taxon:pojetaia:source-bounded-range-rc50"
     ],
     "referenceLocators": [
       {
         "referenceId": "vendrasco-et-al-2011-pojetaia",
-        "locator": "825–850; Figures 1–12; material and shell microstructure"
+        "locator": "825–850; pp. 826–829, Materials and methods; more than 50 UNEL 1872 specimens; Ajax Limestone probably Botomian and Erkeket Formation lowermost Botomian; Plate 1"
+      },
+      {
+        "referenceId": "ics-2026-06",
+        "locator": "International Chronostratigraphic Chart v2026/06; numerical boundaries for the named stages and periods used to bound the source sample"
       }
     ],
     "reviewStatus": "automated-audit-passed"
@@ -9938,26 +9912,24 @@
     "id": "range:aculifera:primary-evidence",
     "entityId": "aculifera",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Aculifera navigation display",
-    "geographicScope": "Global living and fossil navigation context",
-    "olderMa": 520,
+    "taxonomicConcept": "Aculifera — numerical range withheld",
+    "geographicScope": "No numerical geographic-temporal range exposed",
+    "olderMa": 0,
     "youngerMa": 0,
-    "status": "available",
+    "status": "withheld-pending-provenance",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Rounded legacy display bounds; the cited phylogenomic topology contains no fossil FAD and does not date divergence."
+      "note": "The former 520 Ma–present display is withdrawn because the cited living phylogenomic topology supplies no fossil first appearance. Zero values are non-display placeholders required by the schema."
     },
-    "evidenceBasis": "Navigation range retained for browse continuity; topology is documented separately.",
-    "evidenceLevel": "legacy-display",
+    "evidenceBasis": "Topology support is retained separately and is not converted into temporal occurrence evidence.",
+    "evidenceLevel": "withheld-no-range-evidence",
     "confidence": "low",
-    "claimIds": [
-      "claim:event:aculifera-phylogenomic-topology"
-    ],
+    "claimIds": [],
     "referenceLocators": [
       {
         "referenceId": "kocot-et-al-2011-mollusca",
-        "locator": "452–456; sampled Aculifera topology"
+        "locator": "452–456; taxon and gene sampling; Figures 1–3; supplementary matrices"
       }
     ],
     "reviewStatus": "automated-audit-passed"
@@ -9966,28 +9938,24 @@
     "id": "range:polyplacophora:primary-evidence",
     "entityId": "polyplacophora",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Polyplacophora navigation display",
-    "geographicScope": "Global living and fossil navigation context",
-    "olderMa": 490,
+    "taxonomicConcept": "Polyplacophora — numerical range withheld",
+    "geographicScope": "No numerical geographic-temporal range exposed",
+    "olderMa": 0,
     "youngerMa": 0,
-    "status": "available",
+    "status": "withheld-pending-provenance",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Rounded legacy display bounds, not a claim-linked global first appearance."
+      "note": "The former 490 Ma–present display is withdrawn because the mitogenomic analysis samples living chitons and its calibrated nodes are estimates rather than occurrences. Zero values are non-display placeholders required by the schema."
     },
-    "evidenceBasis": "Navigation range retained for browse continuity; detailed topology remains claim-specific.",
-    "evidenceLevel": "legacy-display",
+    "evidenceBasis": "Living mitogenomic topology and calibration results do not establish a fossil FAD.",
+    "evidenceLevel": "withheld-no-range-evidence",
     "confidence": "low",
     "claimIds": [],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "Navigation context"
-      },
-      {
-        "referenceId": "pbdb-api-2016",
-        "locator": "Legacy fossil-range display context"
+        "referenceId": "irisarri-2020-chitons",
+        "locator": "Article 22; Methods, taxon sampling; Table 1; Figures 1–4"
       }
     ],
     "reviewStatus": "automated-audit-passed"
@@ -9996,24 +9964,24 @@
     "id": "range:aplacophora:primary-evidence",
     "entityId": "aplacophora",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Aplacophora historical-grade navigation display",
-    "geographicScope": "Global living and fossil navigation context",
-    "olderMa": 485,
+    "taxonomicConcept": "Aplacophora historical grade — numerical range withheld",
+    "geographicScope": "No numerical geographic-temporal range exposed",
+    "olderMa": 0,
     "youngerMa": 0,
-    "status": "available",
+    "status": "withheld-pending-provenance",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Aplacophora is retained as a historical-grade route; rounded display bounds are not a monophyly or FAD claim."
+      "note": "The former 485 Ma–present display is withdrawn because Aplacophora is retained as a historical grade and the living Solenogastres–Caudofoveata sample does not delimit one coherent grade range. Zero values are non-display placeholders required by the schema."
     },
-    "evidenceBasis": "Navigation range retained for browse continuity.",
-    "evidenceLevel": "legacy-display",
+    "evidenceBasis": "A phylogenomic topology cannot supply temporal endpoints for a historically unstable grouping.",
+    "evidenceLevel": "withheld-no-range-evidence",
     "confidence": "low",
     "claimIds": [],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "Navigation context"
+        "referenceId": "kocot-2019-aplacophora",
+        "locator": "Article 20190115; taxon sampling and matrices; Figures 1–4"
       }
     ],
     "reviewStatus": "automated-audit-passed"
@@ -10022,26 +9990,24 @@
     "id": "range:monoplacophora:primary-evidence",
     "entityId": "monoplacophora",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Monoplacophora navigation display",
-    "geographicScope": "Global living and fossil navigation context",
-    "olderMa": 480,
+    "taxonomicConcept": "Monoplacophora — numerical range withheld",
+    "geographicScope": "No numerical geographic-temporal range exposed",
+    "olderMa": 0,
     "youngerMa": 0,
-    "status": "available",
+    "status": "withheld-pending-provenance",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Rounded legacy display bounds; the phylogenomic event samples living sequence data and does not establish fossil range endpoints."
+      "note": "The former 480 Ma–present display is withdrawn because the cited living transcriptome sample supplies topology but no fossil endpoints. Zero values are non-display placeholders required by the schema."
     },
-    "evidenceBasis": "Navigation range retained for browse continuity.",
-    "evidenceLevel": "legacy-display",
+    "evidenceBasis": "Study-specific living relationships do not establish the lineage’s origin or fossil duration.",
+    "evidenceLevel": "withheld-no-range-evidence",
     "confidence": "low",
-    "claimIds": [
-      "claim:event:all-class-mollusc-phylogenomics"
-    ],
+    "claimIds": [],
     "referenceLocators": [
       {
         "referenceId": "smith-et-al-2011-mollusca",
-        "locator": "364–367; all-class sampling and Monoplacophora topology"
+        "locator": "364–367; Figures 1–2; Supplementary Table 1 and phylogenomic matrices"
       }
     ],
     "reviewStatus": "automated-audit-passed"
@@ -10050,26 +10016,24 @@
     "id": "range:scaphopoda:primary-evidence",
     "entityId": "scaphopoda",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Scaphopoda navigation display",
-    "geographicScope": "Global living and fossil navigation context",
-    "olderMa": 480,
+    "taxonomicConcept": "Scaphopoda — numerical range withheld",
+    "geographicScope": "No numerical geographic-temporal range exposed",
+    "olderMa": 0,
     "youngerMa": 0,
-    "status": "available",
+    "status": "withheld-pending-provenance",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Rounded legacy display bounds; the phylogenomic event does not establish a fossil FAD or divergence time."
+      "note": "The former 480 Ma–present display is withdrawn because inclusion in a living phylogenomic sample does not establish scaphopod origin or fossil endpoints. Zero values are non-display placeholders required by the schema."
     },
-    "evidenceBasis": "Navigation range retained for browse continuity.",
-    "evidenceLevel": "legacy-display",
+    "evidenceBasis": "The source supports sampled topology only, not a temporal range.",
+    "evidenceLevel": "withheld-no-range-evidence",
     "confidence": "low",
-    "claimIds": [
-      "claim:event:all-class-mollusc-phylogenomics"
-    ],
+    "claimIds": [],
     "referenceLocators": [
       {
         "referenceId": "smith-et-al-2011-mollusca",
-        "locator": "364–367; all-class sampling"
+        "locator": "364–367; Figures 1–2; Supplementary Table 1 and phylogenomic matrices"
       }
     ],
     "reviewStatus": "automated-audit-passed"
@@ -10077,27 +10041,27 @@
   {
     "id": "range:octopus-bimaculoides:primary-evidence",
     "entityId": "octopus-bimaculoides",
-    "rangeKind": "global-composite",
-    "taxonomicConcept": "Octopus bimaculoides living genome sample",
-    "geographicScope": "Living California two-spot octopus; laboratory genomic sample",
+    "rangeKind": "taxon-range",
+    "taxonomicConcept": "Octopus bimaculoides living genomic sample",
+    "geographicScope": "One living male genome and twelve-tissue transcriptome sample",
     "olderMa": 0,
     "youngerMa": 0,
     "status": "available",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Zero-age display denotes a living sample; it is not a species-origin date or complete geographic range."
+      "note": "Zero age denotes a directly documented living research sample; it is not the species origin, a fossil FAD or a complete geographic range."
     },
-    "evidenceBasis": "A single male genome and twelve tissue transcriptomes anchor the comparative event.",
-    "evidenceLevel": "legacy-display",
+    "evidenceBasis": "Albertin et al. directly document the sampled male genome, twelve tissue transcriptomes and associated BioProjects.",
+    "evidenceLevel": "literature-synthesized",
     "confidence": "medium",
     "claimIds": [
-      "claim:event:octopus-genome-innovation"
+      "claim:taxon:octopus-bimaculoides:source-bounded-range-rc50"
     ],
     "referenceLocators": [
       {
         "referenceId": "albertin-et-al-2015-octopus-genome",
-        "locator": "220–224; Methods and data access"
+        "locator": "220–224; Figure 1a; Methods, Genome sequencing and assembly and Transcriptome sequencing; BioProjects PRJNA270931 and PRJNA285380"
       }
     ],
     "reviewStatus": "automated-audit-passed"
@@ -10106,28 +10070,24 @@
     "id": "range:brachiopod-origin-dossiers:primary-evidence",
     "entityId": "brachiopod-origin-dossiers",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Brachiopod origin dossier navigation route",
-    "geographicScope": "Early Cambrian Australian and Chengjiang dossier envelope",
-    "olderMa": 530,
-    "youngerMa": 518,
-    "status": "available",
+    "taxonomicConcept": "Brachiopod-origin dossier navigation route — numerical range withheld",
+    "geographicScope": "No numerical geographic-temporal range exposed",
+    "olderMa": 0,
+    "youngerMa": 0,
+    "status": "withheld-pending-provenance",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Composite navigation envelope across separate taxa and hypotheses; not one lineage or an ancestor series."
+      "note": "The former 530–518 Ma envelope is withdrawn because this identifier is an editorial route connecting separate taxa and hypotheses, not a lineage or ancestor series. Zero values are non-display placeholders required by the schema."
     },
-    "evidenceBasis": "Rounded envelope connecting explicitly bounded stem and early brachiopod dossiers.",
-    "evidenceLevel": "legacy-display",
+    "evidenceBasis": "The component taxa retain their own source-bounded records; no composite taxon duration is exposed for the dossier route.",
+    "evidenceLevel": "withheld-no-range-evidence",
     "confidence": "low",
     "claimIds": [],
     "referenceLocators": [
       {
         "referenceId": "holmer-et-al-2008-micrina",
-        "locator": "724–728"
-      },
-      {
-        "referenceId": "zhang-et-al-2014-yuganotheca",
-        "locator": "Article 4682"
+        "locator": "724–728; Figures 1–3; Table 1; one bounded Micrina reconstruction within a multi-dossier route"
       }
     ],
     "reviewStatus": "automated-audit-passed"
@@ -10135,27 +10095,31 @@
   {
     "id": "range:micrina:primary-evidence",
     "entityId": "micrina",
-    "rangeKind": "global-composite",
-    "taxonomicConcept": "Micrina early Cambrian sclerite sample",
-    "geographicScope": "Arrowie Basin, South Australia",
-    "olderMa": 530,
-    "youngerMa": 520,
+    "rangeKind": "taxon-range",
+    "taxonomicConcept": "Micrina — late Atdabanian study-sample window",
+    "geographicScope": "Wilkawillina Limestone and broadly synchronous late Atdabanian carbonate units sampled by Holmer et al.",
+    "olderMa": 521,
+    "youngerMa": 514.5,
     "status": "available",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Broad early Cambrian navigation envelope; isolated sclerites and their reconstruction do not establish a global genus range."
+      "note": "Cambrian Stage 3 is a conservative envelope for the cited late Atdabanian material; it is not a global genus range or an origin date for Brachiopoda."
     },
-    "evidenceBasis": "Two sclerite types and muscle scars are assembled into a testable sessile bivalved model.",
-    "evidenceLevel": "legacy-display",
+    "evidenceBasis": "Holmer et al. identify Micrina material from four broadly synchronous late Atdabanian carbonate units; ICS v2026/06 supplies the Stage 3 boundaries.",
+    "evidenceLevel": "literature-synthesized",
     "confidence": "medium",
     "claimIds": [
-      "claim:event:micrina-bivalved-reconstruction"
+      "claim:taxon:micrina:source-bounded-range-rc50"
     ],
     "referenceLocators": [
       {
         "referenceId": "holmer-et-al-2008-micrina",
-        "locator": "724–728; Figures 1–3"
+        "locator": "724–728; p. 725, Figure 1, Lower Cambrian Wilkawillina Limestone; p. 727, Table 1, four broadly synchronous late Atdabanian carbonate units"
+      },
+      {
+        "referenceId": "ics-2026-06",
+        "locator": "International Chronostratigraphic Chart v2026/06; numerical boundaries for the named stages and periods used to bound the source sample"
       }
     ],
     "reviewStatus": "automated-audit-passed"
@@ -10163,27 +10127,31 @@
   {
     "id": "range:yuganotheca:primary-evidence",
     "entityId": "yuganotheca",
-    "rangeKind": "global-composite",
-    "taxonomicConcept": "Yuganotheca elegans Chengjiang occurrence",
-    "geographicScope": "Chengjiang Lagerstätte, Yunnan, China",
-    "olderMa": 520,
-    "youngerMa": 518,
+    "rangeKind": "taxon-range",
+    "taxonomicConcept": "Yuganotheca elegans — Cambrian Stage 3 Chengjiang sample",
+    "geographicScope": "Yu’anshan Member of the Heilinpu Formation, Chengjiang Lagerstätte, Yunnan",
+    "olderMa": 521,
+    "youngerMa": 514.5,
     "status": "available",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Formation-scale envelope, not a direct specimen date or lophophorate divergence interval."
+      "note": "Cambrian Stage 3 bounds the cited late Atdabanian/Botoman sample; it is not a direct specimen date, global genus range or lophophorate divergence interval."
     },
-    "evidenceBasis": "Agglutinated valves, a horseshoe lophophore, a bipartite tube and a long pedicle occur in one early Cambrian body plan.",
-    "evidenceLevel": "legacy-display",
+    "evidenceBasis": "Zhang et al. place 710 specimens in the Eoredlichia–Wutingaspis zone and explicitly correlate the material with late Atdabanian/Botoman Cambrian Stage 3.",
+    "evidenceLevel": "literature-synthesized",
     "confidence": "medium",
     "claimIds": [
-      "claim:event:yuganotheca-tubular-lophophorate"
+      "claim:taxon:yuganotheca:source-bounded-range-rc50"
     ],
     "referenceLocators": [
       {
         "referenceId": "zhang-et-al-2014-yuganotheca",
-        "locator": "Article 4682; Figures 1–6"
+        "locator": "Article 4682; Systematic palaeontology, Stratigraphy and locality; Heilinpu Formation, Yu’anshan Member, Eoredlichia–Wutingaspis zone, late Atdabanian/Botoman, Cambrian Stage 3; Figures 1–6"
+      },
+      {
+        "referenceId": "ics-2026-06",
+        "locator": "International Chronostratigraphic Chart v2026/06; numerical boundaries for the named stages and periods used to bound the source sample"
       }
     ],
     "reviewStatus": "automated-audit-passed"
@@ -10219,27 +10187,27 @@
   {
     "id": "range:lingula-anatina:primary-evidence",
     "entityId": "lingula-anatina",
-    "rangeKind": "global-composite",
+    "rangeKind": "taxon-range",
     "taxonomicConcept": "Lingula anatina living multi-omics sample",
-    "geographicScope": "Kasari Bay, Amami Island, Japan; laboratory sample",
+    "geographicScope": "Living gravid adults collected in Kasari Bay, Amami Island, Japan",
     "olderMa": 0,
     "youngerMa": 0,
     "status": "available",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Zero-age display denotes sampled living animals; it is not a lineage-origin date, fossil range or claim of morphological stasis."
+      "note": "Zero age denotes the documented living collection; it is not a lineage-origin date, fossil range or claim of morphological stasis."
     },
-    "evidenceBasis": "A living genome, developmental transcriptomes and shell proteome anchor the biomineralization comparison.",
-    "evidenceLevel": "legacy-display",
+    "evidenceBasis": "Luo et al. directly document the living collection, exact locality, genome, developmental transcriptomes and shell proteome.",
+    "evidenceLevel": "literature-synthesized",
     "confidence": "medium",
     "claimIds": [
-      "claim:event:lingula-genome-biomineralization"
+      "claim:taxon:lingula-anatina:source-bounded-range-rc50"
     ],
     "referenceLocators": [
       {
         "referenceId": "luo-et-al-2015-lingula-genome",
-        "locator": "Article 8301; biological materials and data"
+        "locator": "Article 8301; Methods, Biological materials; Supplementary Figure 1, gravid adults collected in July and August at Kasari Bay with coordinates"
       }
     ],
     "reviewStatus": "automated-audit-passed"
