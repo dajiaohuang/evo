@@ -1,0 +1,79 @@
+{
+  "schemaVersion": 1,
+  "packageType": "static-nomenclatural-resource-pack",
+  "packageId": "other-animals",
+  "title": "Other Animals",
+  "titleZh": "其他动物",
+  "source": {
+    "releaseAlias": "COL26.8",
+    "releaseDate": "2026-08-20",
+    "checklistBankDatasetKey": 316115,
+    "strictPredicate": "rank=species AND status=accepted",
+    "sharedSourcesPath": "../registry/sources.json",
+    "sharedSourcesCount": 160,
+    "sharedSourcesSha256": "6a82d43afeb975ac483db4459bdc03bfd9131ff0a28cf18cae61a06f55508c6c"
+  },
+  "scope": "Strict accepted species below the exact COL26.8 Animalia kingdom root that are not claimed by a more specific static-package route.",
+  "scopeZh": "固定 COL26.8 中精确动物界根节点下，且未被更具体静态内容包路由接收的严格接受种。",
+  "disclaimer": "“Other” is the deterministic remainder of this release and combines many unrelated animal phyla; it is not a taxonomic clade.",
+  "disclaimerZh": "“其他”是该版本的确定性余集，合并了多个无直接亲缘关系的动物门，并非分类学演化支。",
+  "browseRootIds": [
+    "N"
+  ],
+  "acceptedSpeciesCount": 99161,
+  "missingSourceDatasetId": 0,
+  "fields": [
+    "id",
+    "parentId",
+    "scientificName",
+    "authorship",
+    "rank",
+    "status",
+    "sourceDatasetId"
+  ],
+  "files": [
+    {
+      "path": "other-animals/species-000.jsonl.gz",
+      "records": 32666,
+      "bytes": 757080,
+      "sourceBytes": 6291383,
+      "sha256": "cd1cbf319fbc096d7f1b2594f833a108545d27c9710e1afb3ffc2c340ac76e68",
+      "sourceSha256": "dc1c65c4afedd8c2812f079d5b60a5575b8242ea1ad1ac553daf69d8b536b03d",
+      "encoding": "gzip",
+      "mediaType": "application/x-ndjson"
+    },
+    {
+      "path": "other-animals/species-001.jsonl.gz",
+      "records": 32611,
+      "bytes": 707458,
+      "sourceBytes": 6291285,
+      "sha256": "245840b7d5d913611e13618aba5c85686819a5e2f907abc8798a3d06a398ccc6",
+      "sourceSha256": "2736c01a3b5c3111d38a83ef659df604d8347171281fd329188b302ed502b867",
+      "encoding": "gzip",
+      "mediaType": "application/x-ndjson"
+    },
+    {
+      "path": "other-animals/species-002.jsonl.gz",
+      "records": 30882,
+      "bytes": 800346,
+      "sourceBytes": 6291448,
+      "sha256": "23e7a9cdb78e7737922beb2772457dddcdbfdebe44244d01ba24a77ff6d59675",
+      "sourceSha256": "663b50317552992ba88ea68ec7f64f930f22611e3dc0595b0930c5036e956df7",
+      "encoding": "gzip",
+      "mediaType": "application/x-ndjson"
+    },
+    {
+      "path": "other-animals/species-003.jsonl.gz",
+      "records": 3002,
+      "bytes": 80388,
+      "sourceBytes": 616443,
+      "sha256": "0adbf6ace0cf3a37dbc1213d313c5cdc47a6cf33d3319735a30869dd00f02b24",
+      "sourceSha256": "4e1f5e541c86d7e257c22cf028e3247018a822be7d59e7a1f304fe84b64ed8b1",
+      "encoding": "gzip",
+      "mediaType": "application/x-ndjson"
+    }
+  ],
+  "totalCompressedBytes": 2345272,
+  "totalSourceBytes": 19490559,
+  "evidenceBoundary": "This package preserves official COL26.8 nomenclatural and placement fields only; it does not assert an Evo Atlas dossier, biological evidence, media, fossils, ecology, translation, or expert review."
+}

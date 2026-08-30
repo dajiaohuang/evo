@@ -1,5 +1,5 @@
 import { afterEach, describe, expect, it, vi } from 'vitest'
-import type { CatalogueHierarchyChildRecord, CatalogueHierarchyNodeRecord, CatalogueRecord, CatalogueSourceChecklist, CatalogueSpeciesOwnership, CatalogueTargetRecord, RuntimeMapManifest, RuntimeMapSnapshot } from './types'
+import type { CatalogueHierarchyChildRecord, CatalogueHierarchyNodeRecord, CatalogueNomenclaturalRecord, CatalogueRecord, CatalogueResourcePackManifest, CatalogueSourceChecklist, CatalogueSpeciesOwnership, CatalogueTargetRecord, RuntimeMapManifest, RuntimeMapSnapshot } from './types'
 
 function responseFor(value: unknown) {
   const bytes = new TextEncoder().encode(JSON.stringify(value))
@@ -453,6 +453,56 @@ describe('static runtime release coherence', () => {
     await expect(loadCatalogueSourceChecklists()).resolves.toEqual(sources)
     await expect(loadCatalogueSourceChecklists()).resolves.toEqual(sources)
     expect(fetchMock.mock.calls.filter(([input]) => String(input).endsWith(sourcesUrl))).toHaveLength(1)
+  })
+
+  it('loads a nomenclatural resource pack from checksum-verified NDJSON shards', async () => {
+    Object.defineProperty(globalThis, 'Worker', { configurable: true, value: undefined })
+    const records: CatalogueNomenclaturalRecord[] = [
+      { id: 'species-1', parentId: 'genus-1', scientificName: 'Exemplum unum', authorship: 'Author', rank: 'species', status: 'accepted', sourceDatasetId: 'source-1' },
+      { id: 'species-2', parentId: 'genus-1', scientificName: 'Exemplum duo', authorship: null, rank: 'species', status: 'accepted', sourceDatasetId: null },
+    ]
+    const body = `${records.map((record) => JSON.stringify(record)).join('\n')}\n`
+    const bodySha256 = await sha256Text(body)
+    const shard = { path: 'catalogue/resource-packs/demo/species-001.jsonl.gz', url: 'releases/dataset-pack/catalogue/resource-packs/demo/species-001.jsonl', records: 2, bytes: new TextEncoder().encode(body).byteLength, sourceBytes: new TextEncoder().encode(body).byteLength, sha256: bodySha256, sourceSha256: bodySha256, mediaType: 'application/x-ndjson' as const }
+    const packManifest: CatalogueResourcePackManifest = {
+      schemaVersion: 1,
+      packageType: 'static-nomenclatural-resource-pack',
+      packageId: 'demo',
+      version: 'dataset-pack',
+      title: 'Demo',
+      titleZh: '演示',
+      source: { releaseAlias: 'TEST-COL', releaseDate: '2026-08-20', checklistBankDatasetKey: 1, strictPredicate: 'accepted species', sharedSourcesPath: 'sources.json.gz', sharedSourcesCount: 1, sharedSourcesSha256: 'source-ledger-sha' },
+      scope: 'Fixture',
+      scopeZh: '测试',
+      disclaimer: 'Names only',
+      disclaimerZh: '仅名称',
+      browseRootIds: ['root-1'],
+      acceptedSpeciesCount: 2,
+      missingSourceDatasetId: 1,
+      fields: ['id', 'parentId', 'scientificName', 'authorship', 'rank', 'status', 'sourceDatasetId'],
+      files: [shard],
+      totalCompressedBytes: shard.bytes,
+      totalSourceBytes: 0,
+      evidenceBoundary: 'Nomenclature only',
+      download: 'downloads/catalogue-demo-dataset-pack.zip',
+    }
+    const packManifestFile = { url: 'releases/dataset-pack/catalogue/resource-packs/demo/manifest.json', acceptedSpeciesCount: 2, fileCount: 1, sha256: await sha256(packManifest) }
+    const catalogueManifest = { releaseAlias: 'TEST-COL', counts: { acceptedSpecies: 2 }, resourcePacks: { manifests: { demo: packManifestFile } } }
+    const catalogueFile = { url: 'releases/dataset-pack/catalogue/manifest.json', sha256: await sha256(catalogueManifest) }
+    const current = { datasetVersion: 'dataset-pack', releaseBase: 'releases/dataset-pack/', catalogue: { manifest: catalogueFile, releaseAlias: 'TEST-COL', acceptedSpecies: 2 } }
+    const payloads = new Map<string, ReturnType<typeof responseFor> | ReturnType<typeof textResponseFor>>([
+      [catalogueFile.url, responseFor(catalogueManifest)],
+      [packManifestFile.url, responseFor(packManifest)],
+      [shard.url, textResponseFor(body)],
+    ])
+    vi.stubGlobal('fetch', vi.fn(async (input: RequestInfo | URL) => {
+      const url = String(input)
+      if (url.endsWith('/data/current.json')) return responseFor(current)
+      return [...payloads].find(([path]) => url.endsWith(path))?.[1] ?? { ok: false, status: 404, arrayBuffer: async () => new ArrayBuffer(0) }
+    }))
+    const { loadCatalogueResourcePack } = await import('./staticDataClient')
+
+    await expect(loadCatalogueResourcePack('demo')).resolves.toEqual({ manifest: packManifest, records })
   })
 
   it('loads only the requested direct children from a shared parent-hash shard and caches it', async () => {

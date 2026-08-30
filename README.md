@@ -10,10 +10,12 @@ Evo Atlas 默认直接进入综合看板：地图、时间轴、生命树和化�
 
 Evo Atlas 不是一个把生成文本包装成“完整百科”的项目。它同时维护两种覆盖范围，并在界面中明确区分：
 
-- 名录覆盖：固定到 Catalogue of Life Base Release `COL26.8`。2,183,133 个严格接受种全部能沿真实父子链路由到唯一资源归属，另有 2,065,436 个异名、歧义异名和误用名可解析到接受名。
+- 名录覆盖：固定到 Catalogue of Life Base Release `COL26.8`。2,183,133 个严格接受种全部能沿真实父子链路由到唯一资源归属，另有 2,065,436 个异名、歧义异名和误用名可解析到接受名。24 个富内容包直接拥有 1,819,973 种；余下 363,160 种现由 7 个可下载、可离线读取并同时内置于 Android/iOS 的静态命名资源包拥有。第 32 个 `other-eukaryotes` 分区在本固定发布版中为零记录边界，不伪造空内容。
 - 内容覆盖：24 个静态资源包中的证据档案、事件、故事、范围和参考文献。当前已无 `generated-scaffold` 或 `structured`：23 个包为 `source-linked`，奇蹄目为唯一的 `curated-draft`；23 个包尚未人工审阅，奇蹄目的存储状态为 `in-review`，但内容摘要变化使有效状态成为 `stale`，没有包声称达到科学 `published`。平台 `published` 与自动检查通过只表示静态发布链完整，不等于内容或专家审阅已经完成。
 
-当前开发数据快照为 `2026.08-static-v5-rc52`，Web/Android/iOS 客户端版本为 `0.20.3`。精确记录数、校验和限制以 [`data/manifest.json`](data/manifest.json) 为准；科学内容变更见 [`data/CHANGELOG.md`](data/CHANGELOG.md)。
+当前开发数据快照为 `2026.08-static-v5-rc53`，Web/Android/iOS 客户端版本为 `0.20.4`。精确记录数、校验和限制以 [`data/manifest.json`](data/manifest.json) 为准；科学内容变更见 [`data/CHANGELOG.md`](data/CHANGELOG.md)。
+
+`rc53` 把此前仅能通过共享 COL 层级浏览的七个非零残余分区转成正式静态命名资源包：真菌 157,044 种、其他动物 99,161 种、原生生物与色藻 61,518 种、细菌 26,397 种、病毒 17,552 种、古菌 790 种、其他植物 698 种，合计 363,160 个严格接受种。每条记录只发布固定版中的 usage ID、父 ID、学名、命名人、等级、接受状态与来源 dataset ID；14 个确定性 gzip NDJSON 分片共享经核对的 160 条来源清单。Web 可逐包下载 ZIP 或离线保存，Android/iOS 从同一不可变发布清单内置所有清单、分片和来源字节。它们是完整命名与分类资源，不是假装具备逐物种证据、媒体、化石、生态、翻译或专家审阅的自动档案。
 
 `rc52` 补齐 CAO2024 v2.4 完整归档中原先未进入 Atlas 的五个点数据载荷：208 条古地磁极、43,364 条地球化学观测和 603 条造山/裂谷/俯冲带变质梯度约束，共 44,175 条。每条都保留上游 GPML 记录 ID、原始年龄端点、板块 ID、位置、`ref_id` 与原始类型/字符串属性；60 条倒置年龄、16 条负年龄下界和 4 条负 `sio2` 值原样保留并标记，不被“修正”。41,320 条使用固定旋转模型在源区间与 0–1,800 Ma 交集的中点成功重建；2,852 条完全超出模型范围、3 条缺少 plate circuit 的记录仅保留原始位置，没有使用 identity 旋转或范围外推。五类点以 20 个稳定分片作为独立“观测与约束”图层默认关闭，不伪装成古地形、高程或海深。Web、Android 和 iOS 发布清单收录同一组字节；移动端当前内置 3,788 个非重复交互文件，约 528.95 MiB。
 
@@ -64,7 +66,8 @@ Evo Atlas 不是一个把生成文本包装成“完整百科”的项目。它�
 ### 物种、生命树与内容包
 
 - 搜索完整的 `COL26.8` 接受种及解析名称，并在内部页面查看固定版本的祖先链和直接子级。
-- 查看 392 个策展导航实体、24 个资源包及其实际科学成熟度。
+- 查看 392 个策展导航实体、24 个富内容资源包及其实际科学成熟度。
+- 逐包访问 7 个静态命名资源包：Web 可下载 ZIP 或显式保存离线副本，Android/iOS 安装包已包含完全相同的 363,160 条记录。
 - 在导航树、范围、径向树和校准证据之间切换；追踪谱系、折叠支系并导出 Newick/Nexus。
 - 将命名学位置、导航节点、系统发育假说、化石首现和分子钟分化时间作为不同类型的信息阅读。
 
@@ -245,4 +248,4 @@ Evo Atlas 没有账号、广告、分析 SDK 或应用后端。笔记、收藏�
 
 ## English summary
 
-Evo Atlas is a bilingual, static-first deep-time evidence explorer for Web, Android and iOS. The dashboard synchronizes geological time, six distinct CAO2024 geometry series, five separately typed CAO2024 observation/constraint datasets, fossil samples, a 392-entity navigation tree and claim-level evidence. Dataset rc52 adds all 44,175 point records from the pinned CAO2024 v2.4 archive: 41,320 have reconstructed coordinates, while 2,852 out-of-range and three missing-circuit records remain truthfully source-only. These points are not terrain, elevation, bathymetry or direct palaeotopography. The release retains 1,019 claims, 470 references and 403 canonical range records (325 available windows and 78 explicit withholdings, with no legacy display values). All 24 packages publish schema-v2 targeted PBDB ledgers, preserving 568,983 package-unique occurrence IDs and 95,422 deterministic bounded display details. The pinned COL26.8 registry routes all 2,183,133 strictly accepted species to one resource owner with zero unmatched names; nomenclatural coverage is not a claim that every species has a prose dossier or expert review. Android and iOS are Capacitor 8 projects sharing the same React client at app version 0.20.3. Their builds bundle the same immutable interactive release as Web—Core, all packages, fossil data, all 1,889 geometry frames, all twenty observation shards and the full COL registry—while excluding only duplicate package ZIP exports. No account, analytics SDK, private API key, database or application server is required.
+Evo Atlas is a bilingual, static-first deep-time evidence explorer for Web, Android and iOS. The dashboard synchronizes geological time, six distinct CAO2024 geometry series, five separately typed CAO2024 observation/constraint datasets, fossil samples, a 392-entity navigation tree and claim-level evidence. The pinned CAO2024 v2.4 payload includes all 44,175 point records: 41,320 have reconstructed coordinates, while 2,852 out-of-range and three missing-circuit records remain truthfully source-only. These points are not terrain, elevation, bathymetry or direct palaeotopography. The release retains 1,019 claims, 470 references and 403 canonical range records (325 available windows and 78 explicit withholdings, with no legacy display values). All 24 curated-content packages publish schema-v2 targeted PBDB ledgers, preserving 568,983 package-unique occurrence IDs and 95,422 deterministic bounded display details. The pinned COL26.8 registry routes all 2,183,133 strictly accepted species to one resource owner with zero unmatched names. Twenty-four curated-content packages own 1,819,973 species; seven downloadable static nomenclatural packs now publish the remaining 363,160 species in fourteen deterministic shards, while one explicit zero-record boundary remains. This is complete release-scoped nomenclature, not a claim that every species has a prose dossier or expert review. Android and iOS are Capacitor 8 projects sharing the same React client at app version 0.20.4. Their builds bundle the same immutable interactive release as Web—Core, all content and nomenclatural packs, fossil data, all 1,889 geometry frames, all twenty observation shards and the full COL registry—while excluding only duplicate ZIP exports. No account, analytics SDK, private API key, database or application server is required.

@@ -290,7 +290,7 @@ export interface CatalogueRuntimeFile extends RuntimeFile {
 
 export interface CatalogueSpeciesCoverageEntry {
   id: string
-  kind: 'static-package' | 'catalogue-only'
+  kind: 'static-package' | 'nomenclatural-resource-pack' | 'catalogue-only'
   title: string
   titleZh: string
   scope?: string
@@ -300,6 +300,48 @@ export interface CatalogueSpeciesCoverageEntry {
   acceptedSpeciesCount: number
   browseRootIds: string[]
   zeroAssignmentReason?: string
+  resourcePackManifestPath?: string
+}
+
+export interface CatalogueNomenclaturalRecord {
+  id: string
+  parentId: string
+  scientificName: string
+  authorship: string | null
+  rank: 'species'
+  status: 'accepted'
+  sourceDatasetId: string | null
+}
+
+export interface CatalogueResourcePackManifest {
+  schemaVersion: 1
+  packageType: 'static-nomenclatural-resource-pack'
+  packageId: string
+  version: string
+  title: string
+  titleZh: string
+  source: {
+    releaseAlias: string
+    releaseDate: string
+    checklistBankDatasetKey: number
+    strictPredicate: string
+    sharedSourcesPath: string
+    sharedSourcesCount: number
+    sharedSourcesSha256: string
+  }
+  scope: string
+  scopeZh: string
+  disclaimer: string
+  disclaimerZh: string
+  browseRootIds: string[]
+  acceptedSpeciesCount: number
+  missingSourceDatasetId: number
+  fields: string[]
+  files: Array<RuntimeFile & { path: string; records: number; bytes: number; sourceBytes: number; sha256: string; sourceSha256: string }>
+  totalCompressedBytes: number
+  totalSourceBytes: number
+  evidenceBoundary: string
+  download: string
 }
 
 export interface CatalogueOwnershipRoute {
@@ -378,10 +420,20 @@ export interface CatalogueRuntimeManifest {
     projectionType: CatalogueSpeciesOwnership['projectionType']
     packageCount: number
     staticPackageCount: number
+    nomenclaturalResourcePackCount: number
     catalogueOnlyPackageCount: number
     acceptedSpecies: number
     assignedSpecies: number
     unmatchedSpecies: number
+  }
+  resourcePacks: {
+    schemaVersion: number
+    packageType: CatalogueResourcePackManifest['packageType']
+    packageCount: number
+    acceptedSpeciesCount: number
+    manifests: Record<string, RuntimeFile & { acceptedSpeciesCount: number; fileCount: number }>
+    sharedSources: RuntimeFile & { count: number }
+    downloadTemplate: string
   }
   search: {
     minimumQueryLength: number
@@ -486,6 +538,8 @@ export interface CurrentRuntimeManifest {
     ownershipPackages: number
     assignedAcceptedSpecies: number
     unmatchedAcceptedSpecies: number
+    nomenclaturalResourcePacks?: number
+    nomenclaturalResourcePackSpecies?: number
     relationshipToAtlas: string
   }
   downloads: { template: string }

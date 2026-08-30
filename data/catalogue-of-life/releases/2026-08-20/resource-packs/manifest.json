@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 1,
+  "collectionType": "static-nomenclatural-resource-packs",
+  "source": {
+    "releaseAlias": "COL26.8",
+    "releaseDate": "2026-08-20",
+    "checklistBankDatasetKey": 316115,
+    "strictPredicate": "rank=species AND status=accepted",
+    "sharedSourcesPath": "../registry/sources.json",
+    "sharedSourcesCount": 160,
+    "sharedSourcesSha256": "6a82d43afeb975ac483db4459bdc03bfd9131ff0a28cf18cae61a06f55508c6c"
+  },
+  "packageCount": 7,
+  "acceptedSpeciesCount": 363160,
+  "packs": [
+    {
+      "packageId": "viruses",
+      "manifestPath": "viruses/manifest.json",
+      "manifestBytes": 1956,
+      "manifestSha256": "48ecbb494664b48bb2909e3862e132ef9dc4d1db9192abf43b7ced53f3faaf16",
+      "acceptedSpeciesCount": 17552,
+      "fileCount": 1,
+      "totalCompressedBytes": 758880,
+      "totalSourceBytes": 3317764
+    },
+    {
+      "packageId": "archaea",
+      "manifestPath": "archaea/manifest.json",
+      "manifestBytes": 1857,
+      "manifestSha256": "ca11dc12cf399efc46cb18707625d5aebf4457b31e9dd6838c7251e0ef8dfea4",
+      "acceptedSpeciesCount": 790,
+      "fileCount": 1,
+      "totalCompressedBytes": 17365,
+      "totalSourceBytes": 156379
+    },
+    {
+      "packageId": "bacteria",
+      "manifestPath": "bacteria/manifest.json",
+      "manifestBytes": 1908,
+      "manifestSha256": "faf946c80992da24d189633ae3c6a8eb3bf500aac440c0afb8cd6fc71454f400",
+      "acceptedSpeciesCount": 26397,
+      "fileCount": 1,
+      "totalCompressedBytes": 590043,
+      "totalSourceBytes": 5291582
+    },
+    {
+      "packageId": "fungi",
+      "manifestPath": "fungi/manifest.json",
+      "manifestBytes": 3345,
+      "manifestSha256": "57721ad58860c77e2209b06cee5d512fafce244870ea017928f888c681b8b446",
+      "acceptedSpeciesCount": 157044,
+      "fileCount": 5,
+      "totalCompressedBytes": 3408943,
+      "totalSourceBytes": 29748901
+    },
+    {
+      "packageId": "protists-chromists",
+      "manifestPath": "protists-chromists/manifest.json",
+      "manifestBytes": 2432,
+      "manifestSha256": "50efa51cfac676e26ad1d6a013378da891f5c4f545eb6d454daea93b59684e8a",
+      "acceptedSpeciesCount": 61518,
+      "fileCount": 2,
+      "totalCompressedBytes": 1230537,
+      "totalSourceBytes": 11548492
+    },
+    {
+      "packageId": "other-plants",
+      "manifestPath": "other-plants/manifest.json",
+      "manifestBytes": 2084,
+      "manifestSha256": "7cf3dcdc570d664053eae77d46046603b5387b9ec402ce8a22f4fea8e52479f4",
+      "acceptedSpeciesCount": 698,
+      "fileCount": 1,
+      "totalCompressedBytes": 15929,
+      "totalSourceBytes": 133848
+    },
+    {
+      "packageId": "other-animals",
+      "manifestPath": "other-animals/manifest.json",
+      "manifestBytes": 3171,
+      "manifestSha256": "662d549b01b73fd10ad830f3b9bdf9681ec1e9f9f46dafc4f65457404cba506d",
+      "acceptedSpeciesCount": 99161,
+      "fileCount": 4,
+      "totalCompressedBytes": 2345272,
+      "totalSourceBytes": 19490559
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "packageType": "static-nomenclatural-resource-pack",
+  "packageId": "other-plants",
+  "title": "Other Plants",
+  "titleZh": "其他植物",
+  "source": {
+    "releaseAlias": "COL26.8",
+    "releaseDate": "2026-08-20",
+    "checklistBankDatasetKey": 316115,
+    "strictPredicate": "rank=species AND status=accepted",
+    "sharedSourcesPath": "../registry/sources.json",
+    "sharedSourcesCount": 160,
+    "sharedSourcesSha256": "6a82d43afeb975ac483db4459bdc03bfd9131ff0a28cf18cae61a06f55508c6c"
+  },
+  "scope": "Strict accepted species below the exact COL26.8 Plantae kingdom root that are not claimed by the flowering-plant, gymnosperm or named early-land-plant routes.",
+  "scopeZh": "固定 COL26.8 中精确植物界根节点下，且未被被子植物、裸子植物或指定早期陆生植物路由接收的严格接受种。",
+  "disclaimer": "“Other” is the deterministic remainder of this release and may combine unrelated plant or algal lineages; it is not a taxonomic clade.",
+  "disclaimerZh": "“其他”是该版本的确定性余集，可能合并无直接亲缘关系的植物或藻类谱系，并非分类学演化支。",
+  "browseRootIds": [
+    "P"
+  ],
+  "acceptedSpeciesCount": 698,
+  "missingSourceDatasetId": 0,
+  "fields": [
+    "id",
+    "parentId",
+    "scientificName",
+    "authorship",
+    "rank",
+    "status",
+    "sourceDatasetId"
+  ],
+  "files": [
+    {
+      "path": "other-plants/species-000.jsonl.gz",
+      "records": 698,
+      "bytes": 15929,
+      "sourceBytes": 133848,
+      "sha256": "c49797f78020ab3ed1c6ed95fed139a5d3fee734ec32eaf5f34cd1ad44ed8f34",
+      "sourceSha256": "e040d52ba53224486c2622564f62fb7631e462630810cfd23da4b11615346704",
+      "encoding": "gzip",
+      "mediaType": "application/x-ndjson"
+    }
+  ],
+  "totalCompressedBytes": 15929,
+  "totalSourceBytes": 133848,
+  "evidenceBoundary": "This package preserves official COL26.8 nomenclatural and placement fields only; it does not assert an Evo Atlas dossier, biological evidence, media, fossils, ecology, translation, or expert review."
+}

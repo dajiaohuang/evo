@@ -53,6 +53,7 @@ const linkageCoverage = readJson('data/indexes/entity-linkage-coverage.json')
 const catalogueProvenance = readJson('data/catalogue-of-life/releases/2026-08-20/provenance.json')
 const catalogueSourceManifest = readJson('data/catalogue-of-life/releases/2026-08-20/registry/manifest.json')
 const catalogueSpeciesOwnership = readJson('data/registry/package-species-coverage.json')
+const catalogueResourcePacksSourceManifest = readJson('data/catalogue-of-life/releases/2026-08-20/resource-packs/manifest.json')
 const claimsById = new Map(claims.map((claim) => [claim.id, claim]))
 const packageById = new Map(registry.packages.map((entry) => [entry.id, entry]))
 const entityById = new Map(entities.map((entry) => [entry.id, entry]))
@@ -732,16 +733,84 @@ const catalogueOwnershipDescriptor = {
   projectionType: catalogueSpeciesOwnership.projectionType,
   packageCount: catalogueSpeciesOwnership.entries.length,
   staticPackageCount: catalogueSpeciesOwnership.entries.filter((entry) => entry.kind === 'static-package').length,
+  nomenclaturalResourcePackCount: catalogueSpeciesOwnership.entries.filter((entry) => entry.kind === 'nomenclatural-resource-pack').length,
   catalogueOnlyPackageCount: catalogueSpeciesOwnership.entries.filter((entry) => entry.kind === 'catalogue-only').length,
   acceptedSpecies: catalogueSpeciesOwnership.source.acceptedSpecies,
   assignedSpecies: catalogueSpeciesOwnership.proof.assignedSpecies,
   unmatchedSpecies: catalogueSpeciesOwnership.proof.unmatchedSpecies,
+}
+const catalogueResourcePacksSourceRoot = join(rootDir, 'data/catalogue-of-life/releases/2026-08-20/resource-packs')
+if (catalogueResourcePacksSourceManifest.source.releaseAlias !== catalogueSourceManifest.releaseAlias
+  || catalogueResourcePacksSourceManifest.source.sharedSourcesSha256 !== catalogueSourceManifest.sourceChecklists.sha256
+  || catalogueResourcePacksSourceManifest.packageCount !== 7) {
+  throw new Error('Catalogue nomenclatural resource packs do not match the pinned registry release')
+}
+const catalogueResourcePackManifests = {}
+let catalogueResourcePackAcceptedSpecies = 0
+for (const sourcePackDescriptor of catalogueResourcePacksSourceManifest.packs) {
+  const sourceManifestPath = join(catalogueResourcePacksSourceRoot, ...sourcePackDescriptor.manifestPath.split('/'))
+  const sourceManifestBytes = readFileSync(sourceManifestPath)
+  if (sourceManifestBytes.byteLength !== sourcePackDescriptor.manifestBytes || sha256(sourceManifestBytes) !== sourcePackDescriptor.manifestSha256) {
+    throw new Error(`${sourcePackDescriptor.packageId}: catalogue resource-pack manifest changed without rebuilding its collection manifest`)
+  }
+  const sourcePack = JSON.parse(sourceManifestBytes.toString('utf8'))
+  const ownershipEntry = catalogueSpeciesOwnership.entries.find((entry) => entry.id === sourcePack.packageId && entry.kind === 'nomenclatural-resource-pack')
+  if (!ownershipEntry || ownershipEntry.acceptedSpeciesCount !== sourcePack.acceptedSpeciesCount
+    || sourcePack.acceptedSpeciesCount !== sourcePackDescriptor.acceptedSpeciesCount
+    || sourcePack.source.sharedSourcesSha256 !== catalogueSourceManifest.sourceChecklists.sha256) {
+    throw new Error(`${sourcePack.packageId}: catalogue resource pack does not match ownership or shared sources`)
+  }
+  const runtimeFiles = sourcePack.files.map((sourceFile) => {
+    const sourcePath = join(catalogueResourcePacksSourceRoot, ...sourceFile.path.split('/'))
+    const written = write(`catalogue/resource-packs/${sourceFile.path}`, readFileSync(sourcePath))
+    if (written.sha256 !== sourceFile.sha256 || written.bytes !== sourceFile.bytes) {
+      throw new Error(`${sourcePack.packageId}: catalogue resource-pack shard changed without rebuilding its manifest: ${sourceFile.path}`)
+    }
+    return { ...sourceFile, url: written.url }
+  })
+  if (runtimeFiles.reduce((sum, file) => sum + file.records, 0) !== sourcePack.acceptedSpeciesCount) {
+    throw new Error(`${sourcePack.packageId}: catalogue resource-pack shard counts do not match its manifest`)
+  }
+  const runtimePackManifest = {
+    ...sourcePack,
+    version: sourceManifest.datasetVersion,
+    files: runtimeFiles,
+    download: `${releasePrefix}/downloads/${sourcePack.packageId}-${sourceManifest.datasetVersion}.zip`,
+  }
+  const runtimeManifestFile = writeJson(`catalogue/resource-packs/${sourcePack.packageId}/manifest.json`, runtimePackManifest, true)
+  catalogueResourcePackManifests[sourcePack.packageId] = {
+    ...runtimeManifestFile,
+    acceptedSpeciesCount: sourcePack.acceptedSpeciesCount,
+    fileCount: runtimeFiles.length,
+  }
+  catalogueResourcePackAcceptedSpecies += sourcePack.acceptedSpeciesCount
+
+  const zipEntries = { 'manifest.json': strToU8(`${JSON.stringify(runtimePackManifest, null, 2)}\n`) }
+  for (const file of runtimeFiles) {
+    zipEntries[basename(file.url)] = new Uint8Array(readFileSync(join(outputRoot, file.url)))
+  }
+  write(`downloads/${sourcePack.packageId}-${sourceManifest.datasetVersion}.zip`, deterministicZip(zipEntries, { level: 0 }))
+}
+if (catalogueResourcePackAcceptedSpecies !== catalogueResourcePacksSourceManifest.acceptedSpeciesCount
+  || catalogueResourcePackAcceptedSpecies !== catalogueSpeciesOwnership.entries
+    .filter((entry) => entry.kind === 'nomenclatural-resource-pack')
+    .reduce((sum, entry) => sum + entry.acceptedSpeciesCount, 0)) {
+  throw new Error('Catalogue nomenclatural resource-pack total does not match ownership')
 }
 const catalogueRuntimeManifest = {
   ...catalogueSourceManifest,
   provenance: catalogueProvenance,
   sourceChecklists: { ...catalogueSourceManifest.sourceChecklists, url: catalogueSourcesFile.url },
   ownership: catalogueOwnershipDescriptor,
+  resourcePacks: {
+    schemaVersion: catalogueResourcePacksSourceManifest.schemaVersion,
+    packageType: 'static-nomenclatural-resource-pack',
+    packageCount: catalogueResourcePacksSourceManifest.packageCount,
+    acceptedSpeciesCount: catalogueResourcePackAcceptedSpecies,
+    manifests: catalogueResourcePackManifests,
+    sharedSources: { ...catalogueSourceManifest.sourceChecklists, url: catalogueSourcesFile.url },
+    downloadTemplate: `${releasePrefix}/downloads/{packageId}-${sourceManifest.datasetVersion}.zip`,
+  },
   search: {
     ...catalogueSourceManifest.search,
     routes: runtimeCatalogueRoutes(catalogueSourceManifest.search.routes),
@@ -812,6 +881,8 @@ const current = {
     ownershipPackages: catalogueRuntimeManifest.ownership.packageCount,
     assignedAcceptedSpecies: catalogueRuntimeManifest.ownership.assignedSpecies,
     unmatchedAcceptedSpecies: catalogueRuntimeManifest.ownership.unmatchedSpecies,
+    nomenclaturalResourcePacks: catalogueRuntimeManifest.resourcePacks.packageCount,
+    nomenclaturalResourcePackSpecies: catalogueRuntimeManifest.resourcePacks.acceptedSpeciesCount,
     relationshipToAtlas: catalogueRuntimeManifest.relationshipToAtlas,
   },
   downloads: { template: `${releasePrefix}/downloads/{packageId}-${sourceManifest.datasetVersion}.zip` },

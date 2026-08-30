@@ -101,6 +101,45 @@ public class AppInstrumentedTest {
             }
         }
         assertEquals(20, observationFiles);
+
+        JSONObject catalogueDescriptor = current.getJSONObject("catalogue").getJSONObject("manifest");
+        JSONObject catalogue = readJsonAsset(context, "public/data/" + catalogueDescriptor.getString("url"));
+        JSONObject resourcePacks = catalogue.getJSONObject("resourcePacks");
+        assertEquals(7, resourcePacks.getInt("packageCount"));
+        assertEquals(363160, resourcePacks.getInt("acceptedSpeciesCount"));
+        JSONObject packManifests = resourcePacks.getJSONObject("manifests");
+        int resourcePackRecords = 0;
+        for (String packageId : new String[]{"archaea", "bacteria", "fungi", "other-animals", "other-plants", "protists-chromists", "viruses"}) {
+            JSONObject manifestDescriptor = packManifests.getJSONObject(packageId);
+            JSONObject inventoryRecord = findInventoryRecord(files, manifestDescriptor.getString("url"));
+            assertNotNull("resource-pack manifest missing from release inventory", inventoryRecord);
+            verifyAssetRecord(context, inventoryRecord);
+            JSONObject pack = readJsonAsset(context, "public/data/" + manifestDescriptor.getString("url"));
+            assertEquals(packageId, pack.getString("packageId"));
+            assertEquals(datasetVersion, pack.getString("version"));
+            JSONArray shards = pack.getJSONArray("files");
+            int packageRecords = 0;
+            for (int shardIndex = 0; shardIndex < shards.length(); shardIndex += 1) {
+                JSONObject shard = shards.getJSONObject(shardIndex);
+                JSONObject shardInventoryRecord = findInventoryRecord(files, shard.getString("url"));
+                assertNotNull("resource-pack shard missing from release inventory", shardInventoryRecord);
+                assertEquals(shard.getInt("bytes"), shardInventoryRecord.getInt("bytes"));
+                assertEquals(shard.getString("sha256"), shardInventoryRecord.getString("sha256"));
+                verifyAssetRecord(context, shardInventoryRecord);
+                packageRecords += shard.getInt("records");
+            }
+            assertEquals(pack.getInt("acceptedSpeciesCount"), packageRecords);
+            resourcePackRecords += packageRecords;
+        }
+        assertEquals(363160, resourcePackRecords);
+    }
+
+    private JSONObject findInventoryRecord(JSONArray files, String url) throws Exception {
+        for (int index = 0; index < files.length(); index += 1) {
+            JSONObject record = files.getJSONObject(index);
+            if (record.getString("url").equals(url)) return record;
+        }
+        return null;
     }
 
     private void verifyAssetRecord(Context context, JSONObject record) throws Exception {
