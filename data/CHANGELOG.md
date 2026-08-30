@@ -1,5 +1,14 @@
 # Dataset changelog
 
+## 2026.08-static-v5-rc31 — 2026-08-30
+
+- Rebuilt `trilobites-chelicerates` as twelve bilingual primary-evidence dossiers spanning early-trilobite phylogenetic models, three-dimensional and appendage anatomy, gut-content and agnostid topology evidence, stem-chelicerate mouthparts and neuroanatomy, eurypterid body size, horseshoe-crab total-group topology, a contested Silurian terrestrialization record and living arachnid molecular conflict.
+- Added nineteen curated navigation nodes for named fossil samples and major living chelicerate routes; every new parent edge is explicitly a browse relationship rather than a universal phylogeny or ancestor-descendant assertion.
+- Anchored fossil observations to named formations, specimens or reconstructed structures while keeping tomography, preserved anatomy and measurements separate from homology, feeding, locomotor, habitat and terrestrialization inferences.
+- Kept morphology-based fossil placements, sequence topology, rare-genomic-change topology and molecular-clock ages as distinct claim kinds, including incompatible arachnid-root hypotheses instead of selecting a false consensus.
+- Added explicit literature- or model-bounded ranges, a twelve-step evidence-boundary story and an independent `trilobitesCheliceratesZh` lazy Chinese translation chunk.
+- Clarified that COL26.8 routes exactly 104,126 accepted living species names through the Chelicerata and Trilobita package roots; this is nomenclatural coverage, not evidence that every species has a fossil, dossier or resolved phylogeny.
+
 ## 2026.08-static-v5-rc30 — 2026-08-30
 
 - Replaced the `molluscs-brachiopods` generated scaffold with thirteen bilingual primary-evidence dossiers spanning Ediacaran and Cambrian body fossils, radula and shell microstructure, living phylogenomics and developmental experiments, cephalopod genomics, stem-brachiopod reconstructions, Chengjiang soft anatomy and living brachiopod biomineralization.

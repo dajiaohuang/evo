@@ -151,6 +151,17 @@ test('gymnosperm story keeps specimens, models and topology distinct', async ({ 
   await expect(page.locator('.story-step')).toHaveCount(6)
 })
 
+test('trilobite and chelicerate story separates observations, models and catalogue coverage', async ({ page }) => {
+  await page.addInitScript(() => window.localStorage.setItem('evo-atlas-language', 'en'))
+  await page.goto('./#/stories?id=trilobites-chelicerates-evidence-boundaries')
+  await expect(page.getByRole('heading', { name: 'Trilobites and chelicerates: anatomy, models and disputed roots' })).toBeVisible()
+  await expect(page.getByRole('heading', { name: 'Ash preserves a complete ventral view' })).toBeVisible()
+  await expect(page.getByRole('heading', { name: 'A giant claw does not equal a complete body' })).toBeVisible()
+  await expect(page.getByRole('heading', { name: 'Genomes do not yet yield one arachnid root' })).toBeVisible()
+  await expect(page.getByText('COL26.8 routes 104,126 strictly accepted species names through exact Chelicerata and Trilobita roots;', { exact: false })).toBeVisible()
+  await expect(page.locator('.story-step')).toHaveCount(12)
+})
+
 test('angiosperm story separates clocks, specimens and vegetation proxies', async ({ page }) => {
   await page.addInitScript(() => window.localStorage.setItem('evo-atlas-language', 'zh'))
   await page.goto('./#/stories?id=angiosperm-evidence-boundaries')
@@ -224,7 +235,7 @@ test('Explorer restores state and removes the unsupported global model parameter
   await expect(page.getByRole('button', { name: 'points' })).toHaveClass(/is-active/)
   await expect(page.getByRole('button', { name: 'modern' })).toHaveClass(/is-active/)
   await expect(page.getByText('Shared time window 20–5 Ma')).toBeVisible()
-  await expect.poll(() => page.url()).toContain('dataset=2026.08-static-v5-rc30')
+  await expect.poll(() => page.url()).toContain('dataset=2026.08-static-v5-rc31')
   for (const fragment of ['older=20', 'younger=5', 'lat=10.000', 'lng=20.000', 'zoom=3.00', 'treeMode=fossil-range']) {
     expect(page.url()).toContain(fragment)
   }
@@ -237,7 +248,7 @@ test('Explorer requires confirmation before replacing a mismatched dataset versi
   await expect(page.getByRole('alertdialog')).toContainText('2025.01-old')
   expect(page.url()).toContain('dataset=2025.01-old')
   await page.getByRole('button', { name: 'Use current dataset' }).click()
-  await expect.poll(() => page.url()).toContain('dataset=2026.08-static-v5-rc30')
+  await expect.poll(() => page.url()).toContain('dataset=2026.08-static-v5-rc31')
 })
 
 test('a service-worker upgrade removes dataset A caches and dataset B remains coherent', async ({ page }) => {
@@ -273,7 +284,7 @@ test('a service-worker upgrade removes dataset A caches and dataset B remains co
     const versions = await Promise.all(manifestFiles.map((file) => fetch(`/evo/data/${file.url}`).then((response) => response.json()).then((manifest) => manifest.version as string)))
     return { datasetVersion: current.datasetVersion, releaseBase: current.releaseBase, urls: manifestFiles.map((file) => file.url), versions, retained: history.releases.map((entry) => entry.datasetVersion) }
   })
-  expect(releaseState.releaseBase).toBe('releases/2026.08-static-v5-rc30/')
+  expect(releaseState.releaseBase).toBe('releases/2026.08-static-v5-rc31/')
   expect(releaseState.urls.every((url) => url.startsWith(releaseState.releaseBase))).toBe(true)
   expect(releaseState.versions.every((version) => version === releaseState.datasetVersion)).toBe(true)
   expect(releaseState.retained[0]).toBe(releaseState.datasetVersion)

@@ -11086,5 +11086,702 @@
         ]
       }
     ]
+  },
+  {
+    "id": "early-trilobite-phylogenetic-clock",
+    "title": "Early trilobite topology and origin-time model",
+    "titleZh": "早期三叶虫拓扑与起源时间模型",
+    "category": "topology",
+    "startAge": 521.5,
+    "endAge": 518,
+    "regions": [
+      "Global lower Cambrian occurrence and morphology sample"
+    ],
+    "clades": [
+      "Trilobita",
+      "Artiopoda"
+    ],
+    "summary": "A reassessed character matrix tests whether trilobites require a long cryptic history before their abrupt fossil appearance.",
+    "claimIds": [
+      "claim:event:early-trilobite-phylogenetic-clock"
+    ],
+    "evidenceItems": [
+      {
+        "statement": "Parsimony and Bayesian analyses of sampled early artiopodans recover a short interval between inferred trilobite origin and the oldest widespread body fossils.",
+        "relation": "supports",
+        "claimIds": [
+          "claim:event:early-trilobite-phylogenetic-clock"
+        ],
+        "referenceLinks": [
+          {
+            "referenceId": "holmes-budd-2022-early-trilobites",
+            "relation": "supports",
+            "pages": "1177",
+            "figure": "Figures 1–4; Supplementary analyses",
+            "quoteLocator": "Phylogenetic analyses; Divergence-time and palaeobiogeographic tests"
+          }
+        ]
+      }
+    ],
+    "uncertaintyItems": [
+      {
+        "statement": "Tree shape, clock priors, character coding and survivorship bias condition the result; a modelled origin is not a fossil occurrence or a direct ancestor.",
+        "relation": "contextualizes",
+        "claimIds": [
+          "claim:event:early-trilobite-phylogenetic-clock"
+        ],
+        "referenceLinks": [
+          {
+            "referenceId": "holmes-budd-2022-early-trilobites",
+            "relation": "supports",
+            "pages": "1177",
+            "figure": "Figures 1–4; Supplementary analyses",
+            "quoteLocator": "Phylogenetic analyses; Divergence-time and palaeobiogeographic tests"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "tatelt-trilobite-3d-anatomy",
+    "title": "Tatelt trilobites preserved in three dimensions",
+    "titleZh": "Tatelt 三叶虫的三维保存",
+    "category": "morphology",
+    "startAge": 515,
+    "endAge": 514,
+    "regions": [
+      "Tatelt Formation, High Atlas, Morocco"
+    ],
+    "clades": [
+      "Protolenus",
+      "Gigoutella",
+      "Trilobita"
+    ],
+    "summary": "Volcanic-ash moulds expose undistorted appendages, the mouth region and digestive anatomy in Cambrian trilobites.",
+    "claimIds": [
+      "claim:event:tatelt-trilobite-3d-anatomy"
+    ],
+    "evidenceItems": [
+      {
+        "statement": "X-ray microtomography resolves antennae, four post-antennal head-limb pairs, a labrum, a slit-like mouth and digestive tissues in articulated specimens.",
+        "relation": "supports",
+        "claimIds": [
+          "claim:event:tatelt-trilobite-3d-anatomy"
+        ],
+        "referenceLinks": [
+          {
+            "referenceId": "el-albani-2024-trilobite-3d",
+            "relation": "supports",
+            "pages": "1429–1435",
+            "figure": "Figures 1–4; Extended Data",
+            "quoteLocator": "Specimens; Microtomographic reconstruction; Ventral anatomy"
+          }
+        ]
+      }
+    ],
+    "uncertaintyItems": [
+      {
+        "statement": "The inferred feeding apparatus and homologies compare a rare local preservational window; they do not establish behaviour, ancestry or anatomy for every trilobite.",
+        "relation": "contextualizes",
+        "claimIds": [
+          "claim:event:tatelt-trilobite-3d-anatomy"
+        ],
+        "referenceLinks": [
+          {
+            "referenceId": "el-albani-2024-trilobite-3d",
+            "relation": "supports",
+            "pages": "1429–1435",
+            "figure": "Figures 1–4; Extended Data",
+            "quoteLocator": "Specimens; Microtomographic reconstruction; Ventral anatomy"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "trilobite-upper-limb-gill",
+    "title": "Trilobite upper limb branch and gill function",
+    "titleZh": "三叶虫上肢支与鳃功能",
+    "category": "function",
+    "startAge": 509,
+    "endAge": 443,
+    "regions": [
+      "Burgess Shale and Beecher’s Trilobite Bed specimen samples"
+    ],
+    "clades": [
+      "Olenoides serratus",
+      "Triarthrus eatoni",
+      "Trilobita"
+    ],
+    "summary": "Electron and X-ray imaging tests whether the filament-bearing upper limb branch functioned primarily in respiration.",
+    "claimIds": [
+      "claim:event:trilobite-upper-limb-gill"
+    ],
+    "evidenceItems": [
+      {
+        "statement": "Triarthrus filaments have a narrow central region and inflated margins, while Olenoides preserves a partial body-wall attachment comparable to lamellate respiratory branches.",
+        "relation": "supports",
+        "claimIds": [
+          "claim:event:trilobite-upper-limb-gill"
+        ],
+        "referenceLinks": [
+          {
+            "referenceId": "hou-2021-trilobite-gill",
+            "relation": "supports",
+            "pages": "eabe7377",
+            "figure": "Figures 1–5; Supplementary materials",
+            "quoteLocator": "Triarthrus imaging; Olenoides articulation; Functional comparison"
+          }
+        ]
+      }
+    ],
+    "uncertaintyItems": [
+      {
+        "statement": "Gill function, haemolymph flow and limb-branch homology are functional interpretations from morphology across two taxa and times, not measured gas exchange.",
+        "relation": "contextualizes",
+        "claimIds": [
+          "claim:event:trilobite-upper-limb-gill"
+        ],
+        "referenceLinks": [
+          {
+            "referenceId": "hou-2021-trilobite-gill",
+            "relation": "supports",
+            "pages": "eabe7377",
+            "figure": "Figures 1–5; Supplementary materials",
+            "quoteLocator": "Triarthrus imaging; Olenoides articulation; Functional comparison"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bohemolichas-gut-contents",
+    "title": "Bohemolichas gut contents and digestive inference",
+    "titleZh": "Bohemolichas 胃内容物与消化推断",
+    "category": "ecology",
+    "startAge": 466,
+    "endAge": 463,
+    "regions": [
+      "Šárka Formation, Prague Basin, Czech Republic"
+    ],
+    "clades": [
+      "Bohemolichas incola",
+      "Trilobita"
+    ],
+    "summary": "A single three-dimensional intestinal fill directly records ingested shelly material in an Ordovician trilobite.",
+    "claimIds": [
+      "claim:event:bohemolichas-gut-contents"
+    ],
+    "evidenceItems": [
+      {
+        "statement": "Synchrotron microtomography maps ostracod valves, hyolith material and stylophoran plates through inventory specimen 8 at 11.35-micrometre voxel size.",
+        "relation": "supports",
+        "claimIds": [
+          "claim:event:bohemolichas-gut-contents"
+        ],
+        "referenceLinks": [
+          {
+            "referenceId": "kraft-2023-trilobite-gut",
+            "relation": "supports",
+            "pages": "545–551",
+            "figure": "Figures 1–4; Extended Data",
+            "quoteLocator": "Specimen inventory no. 8; Gut-content mapping; Palaeophysiological interpretation"
+          }
+        ]
+      }
+    ],
+    "uncertaintyItems": [
+      {
+        "statement": "Rapid indiscriminate feeding and a neutral-to-alkaline gut are inferences from one biased shelly meal; soft food and population variation are not preserved.",
+        "relation": "contextualizes",
+        "claimIds": [
+          "claim:event:bohemolichas-gut-contents"
+        ],
+        "referenceLinks": [
+          {
+            "referenceId": "kraft-2023-trilobite-gut",
+            "relation": "supports",
+            "pages": "545–551",
+            "figure": "Figures 1–4; Extended Data",
+            "quoteLocator": "Specimen inventory no. 8; Gut-content mapping; Palaeophysiological interpretation"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "burgess-agnostid-topology",
+    "title": "Burgess Shale agnostid anatomy and affinity",
+    "titleZh": "布尔吉斯页岩球接子类解剖与亲缘",
+    "category": "topology",
+    "startAge": 509,
+    "endAge": 506,
+    "regions": [
+      "Walcott Quarry and Marble Canyon, Burgess Shale, Canada"
+    ],
+    "clades": [
+      "Agnostina",
+      "Peronopsis",
+      "Ptychagnostus",
+      "Trilobita"
+    ],
+    "summary": "Mature soft-tissue specimens test whether agnostinids are trilobite relatives or convergent crustacean-like arthropods.",
+    "claimIds": [
+      "claim:event:burgess-agnostid-topology"
+    ],
+    "evidenceItems": [
+      {
+        "statement": "Adult Peronopsis and Ptychagnostus preserve biramous appendages and enrolment anatomy scored in an explicit arthropod character matrix.",
+        "relation": "supports",
+        "claimIds": [
+          "claim:event:burgess-agnostid-topology"
+        ],
+        "referenceLinks": [
+          {
+            "referenceId": "moysiuk-caron-2019-agnostids",
+            "relation": "supports",
+            "pages": "20182314",
+            "figure": "Figures 1–4; Supplementary phylogeny",
+            "quoteLocator": "Adult specimens; Appendage reconstruction; Phylogenetic analysis"
+          }
+        ]
+      }
+    ],
+    "uncertaintyItems": [
+      {
+        "statement": "The recovered sister relationship to polymeroid trilobites depends on sampled characters and taxa; crustacean-like limbs and life habit remain homoplastic or ecological interpretations.",
+        "relation": "contextualizes",
+        "claimIds": [
+          "claim:event:burgess-agnostid-topology"
+        ],
+        "referenceLinks": [
+          {
+            "referenceId": "moysiuk-caron-2019-agnostids",
+            "relation": "supports",
+            "pages": "20182314",
+            "figure": "Figures 1–4; Supplementary phylogeny",
+            "quoteLocator": "Adult specimens; Appendage reconstruction; Phylogenetic analysis"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "urokodia-chelicera-book-gill",
+    "title": "Urokodia appendages and upper stem-chelicerate placement",
+    "titleZh": "Urokodia 附肢与螯肢动物上部干群位置",
+    "category": "morphology",
+    "startAge": 519,
+    "endAge": 518,
+    "regions": [
+      "Chengjiang biota, Yunnan, China"
+    ],
+    "clades": [
+      "Urokodia aequalis",
+      "Cheliceromorpha",
+      "Chelicerata"
+    ],
+    "summary": "X-ray microtomography tests a bridge between megacheiran short great appendages, chelicerae and lamellate respiratory limbs.",
+    "claimIds": [
+      "claim:event:urokodia-chelicera-book-gill"
+    ],
+    "evidenceItems": [
+      {
+        "statement": "Urokodia preserves pincer-like short great appendages, overlapping exite flaps and a seven-segmented head in three dimensions.",
+        "relation": "supports",
+        "claimIds": [
+          "claim:event:urokodia-chelicera-book-gill"
+        ],
+        "referenceLinks": [
+          {
+            "referenceId": "liu-2026-urokodia",
+            "relation": "supports",
+            "pages": "653–658",
+            "figure": "Figures 1–3; Extended Data",
+            "quoteLocator": "Microtomographic reconstruction; Appendage homology; Phylogenetic analyses"
+          }
+        ]
+      }
+    ],
+    "uncertaintyItems": [
+      {
+        "statement": "Appendage homology and earliest-branching upper stem placement come from reconstruction and phylogenetic scoring and can change with competing character interpretations.",
+        "relation": "contextualizes",
+        "claimIds": [
+          "claim:event:urokodia-chelicera-book-gill"
+        ],
+        "referenceLinks": [
+          {
+            "referenceId": "liu-2026-urokodia",
+            "relation": "supports",
+            "pages": "653–658",
+            "figure": "Figures 1–3; Extended Data",
+            "quoteLocator": "Microtomographic reconstruction; Appendage homology; Phylogenetic analyses"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "megachelicerax-chelicerae",
+    "title": "Megachelicerax chelicerae and stem placement",
+    "titleZh": "Megachelicerax 螯肢与干群位置",
+    "category": "morphology",
+    "startAge": 504.5,
+    "endAge": 500.5,
+    "regions": [
+      "Wheeler Formation, Utah, USA"
+    ],
+    "clades": [
+      "Megachelicerax cousteaui",
+      "Chelicerata"
+    ],
+    "summary": "One large soft-bodied holotype preserves unequivocal three-segmented chelicerae in a Cambrian stem chelicerate.",
+    "claimIds": [
+      "claim:event:megachelicerax-chelicerae"
+    ],
+    "evidenceItems": [
+      {
+        "statement": "KUMIP 314091a,b preserves massive chelicerae, five post-cheliceral prosomal limb pairs and lamella-bearing opisthosomal appendages.",
+        "relation": "supports",
+        "claimIds": [
+          "claim:event:megachelicerax-chelicerae"
+        ],
+        "referenceLinks": [
+          {
+            "referenceId": "lerosey-aubril-ortega-2026-megachelicerax",
+            "relation": "supports",
+            "pages": "931–937",
+            "figure": "Figures 1–3; Extended Data",
+            "quoteLocator": "Holotype KUMIP 314091; External morphology; Phylogenetic analyses"
+          }
+        ]
+      }
+    ],
+    "uncertaintyItems": [
+      {
+        "statement": "Predatory ecology and a bridge between habeliids and synziphosurines are functional and topology results from one specimen and a scored matrix.",
+        "relation": "contextualizes",
+        "claimIds": [
+          "claim:event:megachelicerax-chelicerae"
+        ],
+        "referenceLinks": [
+          {
+            "referenceId": "lerosey-aubril-ortega-2026-megachelicerax",
+            "relation": "supports",
+            "pages": "931–937",
+            "figure": "Figures 1–3; Extended Data",
+            "quoteLocator": "Holotype KUMIP 314091; External morphology; Phylogenetic analyses"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "mollisonia-neuroanatomy-mosaic",
+    "title": "Mollisonia neuroanatomy and mosaic stem signal",
+    "titleZh": "Mollisonia 神经解剖与镶嵌式干群信号",
+    "category": "topology",
+    "startAge": 508.1,
+    "endAge": 505,
+    "regions": [
+      "Burgess Shale, British Columbia, Canada"
+    ],
+    "clades": [
+      "Mollisonia symmetrica",
+      "Chelicerata"
+    ],
+    "summary": "Carbonaceous nervous tissues test whether neuroanatomical and appendicular signals tell the same stem-chelicerate history.",
+    "claimIds": [
+      "claim:event:mollisonia-neuroanatomy-mosaic"
+    ],
+    "evidenceItems": [
+      {
+        "statement": "MCZ 1811 and USNM 305093 preserve optic nerves, a possible compact cephalic synganglion and a segmental ventral nerve cord.",
+        "relation": "supports",
+        "claimIds": [
+          "claim:event:mollisonia-neuroanatomy-mosaic"
+        ],
+        "referenceLinks": [
+          {
+            "referenceId": "ortega-hernandez-2022-mollisonia-neuroanatomy",
+            "relation": "supports",
+            "pages": "410",
+            "figure": "Figures 1–5; Supplementary Figures",
+            "quoteLocator": "MCZ 1811 and USNM 305093; Elemental mapping; Alternative topologies"
+          }
+        ]
+      }
+    ],
+    "uncertaintyItems": [
+      {
+        "statement": "Incomplete anterior preservation and conflict between nervous-system and appendage characters permit competing placements and mosaic-evolution scenarios.",
+        "relation": "contextualizes",
+        "claimIds": [
+          "claim:event:mollisonia-neuroanatomy-mosaic"
+        ],
+        "referenceLinks": [
+          {
+            "referenceId": "ortega-hernandez-2022-mollisonia-neuroanatomy",
+            "relation": "supports",
+            "pages": "410",
+            "figure": "Figures 1–5; Supplementary Figures",
+            "quoteLocator": "MCZ 1811 and USNM 305093; Elemental mapping; Alternative topologies"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "jaekelopterus-giant-chelicera",
+    "title": "Jaekelopterus giant chelicera and body-size estimate",
+    "titleZh": "Jaekelopterus 巨螯与体长估算",
+    "category": "morphology",
+    "startAge": 411,
+    "endAge": 407,
+    "regions": [
+      "Willwerath Lagerstätte, Rhineland-Palatinate, Germany"
+    ],
+    "clades": [
+      "Jaekelopterus rhenaniae",
+      "Eurypterida"
+    ],
+    "summary": "A 46-centimetre fossil chelicera anchors an allometric estimate of extreme eurypterid body size.",
+    "claimIds": [
+      "claim:event:jaekelopterus-giant-chelicera"
+    ],
+    "evidenceItems": [
+      {
+        "statement": "The free ramus and associated cuticle directly establish a giant pterygotid chelicera from the Early Devonian Willwerath sample.",
+        "relation": "supports",
+        "claimIds": [
+          "claim:event:jaekelopterus-giant-chelicera"
+        ],
+        "referenceLinks": [
+          {
+            "referenceId": "braddy-2008-jaekelopterus",
+            "relation": "supports",
+            "pages": "106–109",
+            "figure": "Figures 1–2",
+            "quoteLocator": "Willwerath chelicera; Body-length scaling; Assumptions"
+          }
+        ]
+      }
+    ],
+    "uncertaintyItems": [
+      {
+        "statement": "The approximately 2.5-metre body length assumes comparable chelicera-to-body proportions and limited positive allometry; it is not a complete skeleton measurement.",
+        "relation": "contextualizes",
+        "claimIds": [
+          "claim:event:jaekelopterus-giant-chelicera"
+        ],
+        "referenceLinks": [
+          {
+            "referenceId": "braddy-2008-jaekelopterus",
+            "relation": "supports",
+            "pages": "106–109",
+            "figure": "Figures 1–2",
+            "quoteLocator": "Willwerath chelicera; Body-length scaling; Assumptions"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "xiphosura-total-group-topology",
+    "title": "Xiphosuran total-group morphology matrix",
+    "titleZh": "剑尾类总群形态矩阵",
+    "category": "topology",
+    "startAge": 480,
+    "endAge": 0,
+    "regions": [
+      "Global Ordovician-to-living xiphosuran morphology sample"
+    ],
+    "clades": [
+      "Xiphosura",
+      "Synziphosurina",
+      "Euchelicerata"
+    ],
+    "summary": "An expanded morphology matrix tests the traditional idea that every synziphosurine belongs on a simple horseshoe-crab stem.",
+    "claimIds": [
+      "claim:event:xiphosura-total-group-topology"
+    ],
+    "evidenceItems": [
+      {
+        "statement": "The analysis samples fossil and living xiphosurans and rescored euchelicerates across an expanded character matrix.",
+        "relation": "supports",
+        "claimIds": [
+          "claim:event:xiphosura-total-group-topology"
+        ],
+        "referenceLinks": [
+          {
+            "referenceId": "lamsdell-2020-xiphosura",
+            "relation": "supports",
+            "pages": "e10431",
+            "figure": "Figures 1–13; Supplemental matrices",
+            "quoteLocator": "Character matrix; Phylogenetic results; Revised systematics"
+          }
+        ]
+      }
+    ],
+    "uncertaintyItems": [
+      {
+        "statement": "Polyphyly of traditional synziphosurines and internal Xiphosura relationships are topology results sensitive to coding, missing anatomy and taxon sampling.",
+        "relation": "contextualizes",
+        "claimIds": [
+          "claim:event:xiphosura-total-group-topology"
+        ],
+        "referenceLinks": [
+          {
+            "referenceId": "lamsdell-2020-xiphosura",
+            "relation": "supports",
+            "pages": "e10431",
+            "figure": "Figures 1–13; Supplemental matrices",
+            "quoteLocator": "Character matrix; Phylogenetic results; Revised systematics"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "parioscorpio-terrestrialization",
+    "title": "Parioscorpio internal anatomy and terrestrialization inference",
+    "titleZh": "Parioscorpio 内部解剖与陆生化推断",
+    "category": "transition",
+    "startAge": 437.5,
+    "endAge": 436.5,
+    "regions": [
+      "Brandon Bridge Formation, Waukesha, Wisconsin, USA"
+    ],
+    "clades": [
+      "Parioscorpio venator",
+      "Scorpiones",
+      "Arachnida"
+    ],
+    "summary": "Two Silurian scorpion specimens preserve internal structures bearing on respiratory and circulatory transition hypotheses.",
+    "claimIds": [
+      "claim:event:parioscorpio-terrestrialization"
+    ],
+    "evidenceItems": [
+      {
+        "statement": "Holotype UWGM 2162 and paratype UWGM 2163 preserve a scorpion body plan and medial structures compared with pulmonary-cardiovascular anatomy.",
+        "relation": "supports",
+        "claimIds": [
+          "claim:event:parioscorpio-terrestrialization"
+        ],
+        "referenceLinks": [
+          {
+            "referenceId": "wendruff-2020-parioscorpio",
+            "relation": "supports",
+            "pages": "14",
+            "figure": "Figures 1–4; Supplementary Figures",
+            "quoteLocator": "UWGM 2162 and 2163; Internal anatomy; Depositional and terrestrialization discussion"
+          }
+        ]
+      }
+    ],
+    "uncertaintyItems": [
+      {
+        "statement": "Book-lung homology and terrestrial physiology are interpretations; nearshore strata, transport and incomplete respiratory structures do not prove habitat.",
+        "relation": "contextualizes",
+        "claimIds": [
+          "claim:event:parioscorpio-terrestrialization"
+        ],
+        "referenceLinks": [
+          {
+            "referenceId": "wendruff-2020-parioscorpio",
+            "relation": "supports",
+            "pages": "14",
+            "figure": "Figures 1–4; Supplementary Figures",
+            "quoteLocator": "UWGM 2162 and 2163; Internal anatomy; Depositional and terrestrialization discussion"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "arachnid-monophyly-conflict",
+    "title": "Competing phylogenomic models of Arachnida",
+    "titleZh": "蛛形纲竞争性系统基因组模型",
+    "category": "genomics",
+    "startAge": 485,
+    "endAge": 444,
+    "regions": [
+      "Global living-chelicerate sequence and morphology samples"
+    ],
+    "clades": [
+      "Pycnogonida",
+      "Xiphosura",
+      "Arachnida",
+      "Acari"
+    ],
+    "summary": "Three genomic-scale analyses expose incompatible placements of horseshoe crabs and different counts of terrestrialization events.",
+    "claimIds": [
+      "claim:event:arachnid-monophyly-conflict"
+    ],
+    "evidenceItems": [
+      {
+        "statement": "Dense living-taxon datasets and slowly evolving gene subsets recover either monophyletic Arachnida or Xiphosura nested among terrestrial lineages.",
+        "relation": "supports",
+        "claimIds": [
+          "claim:event:arachnid-monophyly-conflict"
+        ],
+        "referenceLinks": [
+          {
+            "referenceId": "lozano-fernandez-2019-chelicerate-phylogenomics",
+            "relation": "supports",
+            "pages": "2295",
+            "figure": "Figures 1–4; Supplementary analyses",
+            "quoteLocator": "Taxon-rich matrices; Model tests; Arachnida and Acari results"
+          },
+          {
+            "referenceId": "howard-2020-arachnid-monophyly",
+            "relation": "contextualizes",
+            "pages": "100997",
+            "figure": "Figures 1–4; Supplementary matrices",
+            "quoteLocator": "200 slow-gene matrix; Fossil and morphology synthesis; Terrestrialization inference"
+          },
+          {
+            "referenceId": "ballesteros-2022-arachnida-paraphyly",
+            "relation": "contextualizes",
+            "pages": "msac021",
+            "figure": "Figures 1–6; Supplementary analyses",
+            "quoteLocator": "Dense taxon sampling; Heterogeneous models; Total-evidence topology"
+          }
+        ]
+      }
+    ],
+    "uncertaintyItems": [
+      {
+        "statement": "Gene choice, compositional heterogeneity, taxon sampling, morphology and model fit change the root; terrestrialization count and timing therefore remain topology-dependent.",
+        "relation": "contextualizes",
+        "claimIds": [
+          "claim:event:arachnid-monophyly-conflict"
+        ],
+        "referenceLinks": [
+          {
+            "referenceId": "lozano-fernandez-2019-chelicerate-phylogenomics",
+            "relation": "supports",
+            "pages": "2295",
+            "figure": "Figures 1–4; Supplementary analyses",
+            "quoteLocator": "Taxon-rich matrices; Model tests; Arachnida and Acari results"
+          },
+          {
+            "referenceId": "howard-2020-arachnid-monophyly",
+            "relation": "contextualizes",
+            "pages": "100997",
+            "figure": "Figures 1–4; Supplementary matrices",
+            "quoteLocator": "200 slow-gene matrix; Fossil and morphology synthesis; Terrestrialization inference"
+          },
+          {
+            "referenceId": "ballesteros-2022-arachnida-paraphyly",
+            "relation": "contextualizes",
+            "pages": "msac021",
+            "figure": "Figures 1–6; Supplementary analyses",
+            "quoteLocator": "Dense taxon sampling; Heterogeneous models; Total-evidence topology"
+          }
+        ]
+      }
+    ]
   }
 ]
