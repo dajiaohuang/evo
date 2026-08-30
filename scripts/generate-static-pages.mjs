@@ -94,6 +94,17 @@ const eventOwners = {
   'tupandactylus-feather-melanosomes': 'marine-reptiles-pterosaurs',
   'hamipterus-egg-assemblage': 'marine-reptiles-pterosaurs',
   'giant-pterosaur-launch-model': 'marine-reptiles-pterosaurs',
+  'effigia-convergent-body-plan': 'crocodylomorphs-birds',
+  'carnufex-holotype-predator': 'crocodylomorphs-birds',
+  'junggarsuchus-skull-consolidation': 'crocodylomorphs-birds',
+  'crocodylian-tip-dated-topology': 'crocodylomorphs-birds',
+  'archaeopteryx-thermopolis-skeleton': 'crocodylomorphs-birds',
+  'anchiornis-plumage-melanosomes': 'crocodylomorphs-birds',
+  'microraptor-four-winged-holotype': 'crocodylomorphs-birds',
+  'microraptor-wind-tunnel-model': 'crocodylomorphs-birds',
+  'asteriornis-holotype-crown-placement': 'crocodylomorphs-birds',
+  'neoavian-genome-topology': 'crocodylomorphs-birds',
+  'neornithes-fossil-calibrated-time-tree': 'crocodylomorphs-birds',
   'indohyus-aquatic-raoellid-evidence': 'cetartiodactyla',
   'pakicetus-composite-terrestrial-skeleton': 'cetartiodactyla',
   'ambulocetus-holotype-locomotion': 'cetartiodactyla',
@@ -192,7 +203,7 @@ function referenceRecords(ids) {
 
 function loadChineseTranslations() {
   const translations = new Map()
-  for (const [fileName, dictionaryName, scriptKind] of [['index.tsx', 'zh', ts.ScriptKind.TSX], ['marineZh.ts', 'marineZh', ts.ScriptKind.TS], ['cetartiodactylaZh.ts', 'cetartiodactylaZh', ts.ScriptKind.TS], ['turtleLepidosaurZh.ts', 'turtleLepidosaurZh', ts.ScriptKind.TS]]) {
+  for (const [fileName, dictionaryName, scriptKind] of [['index.tsx', 'zh', ts.ScriptKind.TSX], ['marineZh.ts', 'marineZh', ts.ScriptKind.TS], ['cetartiodactylaZh.ts', 'cetartiodactylaZh', ts.ScriptKind.TS], ['turtleLepidosaurZh.ts', 'turtleLepidosaurZh', ts.ScriptKind.TS], ['crocBirdZh.ts', 'crocBirdZh', ts.ScriptKind.TS]]) {
     const sourcePath = join(rootDir, 'src', 'i18n', fileName)
     const source = ts.createSourceFile(sourcePath, readFileSync(sourcePath, 'utf8'), ts.ScriptTarget.Latest, true, scriptKind)
     let dictionary = null

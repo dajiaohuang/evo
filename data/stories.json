@@ -2591,5 +2591,266 @@
       }
     ],
     "evidenceStatus": "available-with-limitations"
+  },
+  {
+    "id": "crocodylomorph-bird-evidence-boundaries",
+    "title": "Two archosaur branches, eleven evidence dossiers",
+    "titleZh": "两条主龙支系与十一个证据档案",
+    "dek": "Keep named specimens, feather chemistry, wind-tunnel measurements, phylogenetic topology, molecular clocks and COL26.8 living-name coverage separate while comparing crocodile-line and bird-line evidence.",
+    "theme": "amber",
+    "durationMinutes": 17,
+    "featured": true,
+    "steps": [
+      {
+        "id": "effigia-convergence",
+        "title": "A suchian can resemble a theropod",
+        "text": "AMNH FR 30587 records an edentulous, gracile suchian. Its ornithomimid-like proportions are a convergence diagnosis, not evidence that the two branches share an immediate ancestor or identical ecology.",
+        "age": 205,
+        "timeRange": [
+          208.5,
+          201.3
+        ],
+        "taxonIds": [
+          "archosauria"
+        ],
+        "view": "evidence",
+        "eventId": "effigia-convergent-body-plan",
+        "annotation": "Effigia is a pseudosuchian outside Crocodylomorpha, so it remains event evidence rather than a false child of the crocodile navigation node.",
+        "claimLinks": [
+          {
+            "claimId": "claim:event:effigia-convergent-body-plan",
+            "relation": "supports"
+          }
+        ]
+      },
+      {
+        "id": "carnufex-holotype",
+        "title": "A partial holotype, a bounded predator inference",
+        "text": "NCSM 21558 documents a large Carnian crocodylomorph. Size and predator tier come from proxies and assemblage context, not preserved feeding behaviour.",
+        "age": 231,
+        "timeRange": [
+          231,
+          231
+        ],
+        "taxonIds": [
+          "crocodylomorpha",
+          "carnufex"
+        ],
+        "view": "evidence",
+        "eventId": "carnufex-holotype-predator",
+        "annotation": "Incomplete and immature anatomy cannot establish a direct ancestor or universal global first occurrence.",
+        "claimLinks": [
+          {
+            "claimId": "claim:event:carnufex-holotype-predator",
+            "relation": "supports"
+          }
+        ]
+      },
+      {
+        "id": "junggarsuchus-skull",
+        "title": "Skull consolidation appears as a mosaic",
+        "text": "IVPP V14010 combines a consolidated, crocodylian-like skull with a gracile terrestrial postcranium. It is one anatomical mosaic rather than a compulsory stage in a ladder.",
+        "age": 165.9,
+        "timeRange": [
+          168.3,
+          163.5
+        ],
+        "taxonIds": [
+          "crocodylomorpha",
+          "junggarsuchus"
+        ],
+        "view": "evidence",
+        "eventId": "junggarsuchus-skull-consolidation",
+        "annotation": "Skull mechanics and cursoriality are functional interpretations; topology is character-matrix evidence.",
+        "claimLinks": [
+          {
+            "claimId": "claim:event:junggarsuchus-skull-consolidation",
+            "relation": "supports"
+          }
+        ]
+      },
+      {
+        "id": "crocodylian-model",
+        "title": "Living gharials meet fossils in a tip-dated model",
+        "text": "A combined morphology, molecular and age model groups Gavialis with Tomistoma while moving sampled thoracosaurs outside the crown. Other analyses differ.",
+        "age": 0,
+        "timeRange": [
+          0,
+          0
+        ],
+        "taxonIds": [
+          "crocodylomorpha",
+          "crocodylia"
+        ],
+        "view": "tree",
+        "eventId": "crocodylian-tip-dated-topology",
+        "annotation": "A preferred topology is not an observed genealogy; priors, weights and sampled characters remain visible boundaries.",
+        "claimLinks": [
+          {
+            "claimId": "claim:event:crocodylian-tip-dated-topology",
+            "relation": "supports"
+          }
+        ]
+      },
+      {
+        "id": "thermopolis-archaeopteryx",
+        "title": "Archaeopteryx preserves an anatomical mosaic",
+        "text": "WDC CSG 100 exposes theropod-like pedal and palate features alongside avialan anatomy. The mosaic supports affinity without turning one specimen into the unique first bird.",
+        "age": 149,
+        "timeRange": [
+          150,
+          148
+        ],
+        "taxonIds": [
+          "aves",
+          "archaeopteryx"
+        ],
+        "view": "evidence",
+        "eventId": "archaeopteryx-thermopolis-skeleton",
+        "annotation": "Joint posture, perching and exact placement are interpretations rather than direct observations.",
+        "claimLinks": [
+          {
+            "claimId": "claim:event:archaeopteryx-thermopolis-skeleton",
+            "relation": "supports"
+          }
+        ]
+      },
+      {
+        "id": "anchiornis-colour-model",
+        "title": "Microscopy informs a colour reconstruction",
+        "text": "Melanosomes in BMNHC PH828 support a statistical map of plumage regions. Preservation, reference samples and a tail borrowed from another specimen constrain the image.",
+        "age": 160,
+        "timeRange": [
+          160,
+          160
+        ],
+        "taxonIds": [
+          "theropoda"
+        ],
+        "view": "evidence",
+        "eventId": "anchiornis-plumage-melanosomes",
+        "annotation": "Anchiornis remains a non-avian paravian event here, not a false child of Aves or a directly observed ancestral colour state.",
+        "claimLinks": [
+          {
+            "claimId": "claim:event:anchiornis-plumage-melanosomes",
+            "relation": "supports"
+          }
+        ]
+      },
+      {
+        "id": "microraptor-four-wings",
+        "title": "Four feathered surfaces are preserved",
+        "text": "IVPP V13352 preserves long pennaceous feathers on forelimbs, hindlimbs and tail. The fossil records surfaces, not a flight trajectory.",
+        "age": 122.5,
+        "timeRange": [
+          125,
+          120
+        ],
+        "taxonIds": [
+          "theropoda"
+        ],
+        "view": "evidence",
+        "eventId": "microraptor-four-winged-holotype",
+        "annotation": "Microraptor is treated as a non-avian paravian dossier, not a direct bird ancestor.",
+        "claimLinks": [
+          {
+            "claimId": "claim:event:microraptor-four-winged-holotype",
+            "relation": "supports"
+          }
+        ]
+      },
+      {
+        "id": "microraptor-wind-tunnel",
+        "title": "A wind tunnel tests feasibility",
+        "text": "Measured forces on a scaled model support stable high-drag gliding across tested configurations. That experiment is functional evidence, not footage of extinct behaviour.",
+        "age": 0,
+        "timeRange": [
+          0,
+          0
+        ],
+        "taxonIds": [
+          "theropoda"
+        ],
+        "view": "evidence",
+        "eventId": "microraptor-wind-tunnel-model",
+        "annotation": "Geometry, scaling, reconstructed posture and fossil distortion bound every aerodynamic conclusion.",
+        "claimLinks": [
+          {
+            "claimId": "claim:event:microraptor-wind-tunnel-model",
+            "relation": "supports"
+          }
+        ]
+      },
+      {
+        "id": "asteriornis-crown-test",
+        "title": "One skull, two nearby crown placements",
+        "text": "CT anatomy anchors NHMM 2013 008 near Galloanserae, but parsimony and tip-dated Bayesian analyses place it on different branches.",
+        "age": 66.75,
+        "timeRange": [
+          66.8,
+          66.7
+        ],
+        "taxonIds": [
+          "neornithes",
+          "asteriornis"
+        ],
+        "view": "tree",
+        "eventId": "asteriornis-holotype-crown-placement",
+        "annotation": "A tightly dated occurrence is not automatically the globally oldest modern bird, and crown membership remains analysis-dependent.",
+        "claimLinks": [
+          {
+            "claimId": "claim:event:asteriornis-holotype-crown-placement",
+            "relation": "supports"
+          }
+        ]
+      },
+      {
+        "id": "neoavian-genomes",
+        "title": "Whole genomes still retain difficult branches",
+        "text": "Forty-eight representatives across neoavian orders recover major groupings and expose gene-tree conflict. This is sampled extant topology, not a complete species tree.",
+        "age": 0,
+        "timeRange": [
+          0,
+          0
+        ],
+        "taxonIds": [
+          "neornithes",
+          "neoaves"
+        ],
+        "view": "tree",
+        "eventId": "neoavian-genome-topology",
+        "annotation": "Incomplete lineage sorting, convergence, sampling and method choice remain explicit.",
+        "claimLinks": [
+          {
+            "claimId": "claim:event:neoavian-genome-topology",
+            "relation": "supports"
+          }
+        ]
+      },
+      {
+        "id": "modern-bird-time-tree",
+        "title": "A calibrated time tree is a model",
+        "text": "Clock-like exons, broader RAG sampling and fossils infer a Cretaceous root and boundary-era radiation. The dates follow calibrations, topology and priors.",
+        "age": 0,
+        "timeRange": [
+          0,
+          0
+        ],
+        "taxonIds": [
+          "neornithes",
+          "neoaves"
+        ],
+        "view": "tree",
+        "eventId": "neornithes-fossil-calibrated-time-tree",
+        "annotation": "COL26.8 routes 11,071 accepted living species into this package. That is a nomenclatural coverage boundary, not fossil completeness, direct ancestry or agreement on a single crown-bird date.",
+        "claimLinks": [
+          {
+            "claimId": "claim:event:neornithes-fossil-calibrated-time-tree",
+            "relation": "supports"
+          }
+        ]
+      }
+    ],
+    "evidenceStatus": "available-with-limitations"
   }
 ]
