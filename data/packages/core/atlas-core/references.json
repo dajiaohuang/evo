@@ -109,13 +109,15 @@
     "url": "https://doi.org/10.1111/j.1502-3931.2009.00184.x",
     "doi": "10.1111/j.1502-3931.2009.00184.x",
     "publisher": "Palaeogeography, Palaeoclimatology, Palaeoecology",
-    "sourceRole": "primary-study",
+    "sourceRole": "systematic-review",
     "fitnessFor": [
       "taxonomy",
       "ecology",
-      "event-mechanism"
+      "event-mechanism",
+      "geochronology"
     ],
-    "metadataAssignment": "automated"
+    "metadataAssignment": "curator-reviewed",
+    "pages": "294:99–119"
   },
   {
     "id": "clack-2009-tetrapods",
@@ -259,11 +261,13 @@
     "publisher": "PNAS",
     "sourceRole": "primary-study",
     "fitnessFor": [
-      "taxonomy",
       "range",
-      "event-mechanism"
+      "event-mechanism",
+      "geochronology",
+      "methods"
     ],
-    "metadataAssignment": "automated"
+    "metadataAssignment": "curator-reviewed",
+    "pages": "111:3316–3321"
   },
   {
     "id": "alvarez-1980-kpg",
@@ -293,13 +297,14 @@
     "doi": "10.1146/annurev-earth-040610-133431",
     "publisher": "Annual Review of Earth and Planetary Sciences",
     "pages": "489–516",
-    "sourceRole": "primary-study",
+    "sourceRole": "systematic-review",
     "fitnessFor": [
       "taxonomy",
       "ecology",
-      "event-mechanism"
+      "event-mechanism",
+      "geochronology"
     ],
-    "metadataAssignment": "automated"
+    "metadataAssignment": "curator-reviewed"
   },
   {
     "id": "sandom-2014-megafauna",
@@ -344,13 +349,16 @@
     "url": "https://doi.org/10.1038/ngeo1475",
     "doi": "10.1038/ngeo1475",
     "publisher": "Nature Geoscience",
-    "sourceRole": "primary-study",
+    "sourceRole": "systematic-review",
     "fitnessFor": [
       "taxonomy",
       "range",
-      "event-mechanism"
+      "event-mechanism",
+      "geochronology",
+      "ecology"
     ],
-    "metadataAssignment": "automated"
+    "metadataAssignment": "curator-reviewed",
+    "pages": "5:375–383"
   },
   {
     "id": "schulte-2010-chicxulub",
@@ -361,13 +369,15 @@
     "url": "https://doi.org/10.1126/science.1177265",
     "doi": "10.1126/science.1177265",
     "publisher": "Science",
-    "sourceRole": "primary-study",
+    "sourceRole": "systematic-review",
     "fitnessFor": [
       "taxonomy",
       "range",
-      "event-mechanism"
+      "event-mechanism",
+      "geochronology"
     ],
-    "metadataAssignment": "automated"
+    "metadataAssignment": "curator-reviewed",
+    "pages": "327:1214–1218"
   },
   {
     "id": "nesbitt-norell-2006-effigia-convergence",
@@ -833,6 +843,107 @@
     "fitnessFor": [
       "topology",
       "event-mechanism"
+    ],
+    "metadataAssignment": "curator-reviewed"
+  },
+  {
+    "id": "gumsley-2017-goe",
+    "title": "Timing and tempo of the Great Oxidation Event",
+    "authors": "Gumsley, A.P.; Chamberlain, K.R.; Bleeker, W.; Söderlund, U.; de Kock, M.O.; Larsson, E.R.; Bekker, A.",
+    "publishedYear": 2017,
+    "type": "paper",
+    "url": "https://doi.org/10.1073/pnas.1608824114",
+    "doi": "10.1073/pnas.1608824114",
+    "publisher": "Proceedings of the National Academy of Sciences",
+    "pages": "114:1811–1816",
+    "note": "U–Pb baddeleyite geochronology brackets the onset of the Great Oxidation Event; the dated intrusions and proxy transition are not the same observation.",
+    "sourceRole": "primary-study",
+    "fitnessFor": [
+      "geochronology",
+      "range",
+      "event-mechanism",
+      "methods"
+    ],
+    "metadataAssignment": "curator-reviewed"
+  },
+  {
+    "id": "pu-2016-gaskiers-ediacara",
+    "title": "Dodging snowballs: Geochronology of the Gaskiers glaciation and the first appearance of the Ediacaran biota",
+    "authors": "Pu, J.P.; Bowring, S.A.; Ramezani, J.; Myrow, P.; Raub, T.D.; Landing, E.; Mills, A.; Hodgin, E.; Macdonald, F.A.",
+    "publishedYear": 2016,
+    "type": "paper",
+    "url": "https://doi.org/10.1130/G38284.1",
+    "doi": "10.1130/G38284.1",
+    "publisher": "Geology",
+    "pages": "44:955–958",
+    "note": "CA–ID–TIMS U–Pb zircon ages directly bracket the Gaskiers glaciation and the stratigraphically younger Avalon assemblages discussed in the paper.",
+    "sourceRole": "primary-study",
+    "fitnessFor": [
+      "geochronology",
+      "range",
+      "methods"
+    ],
+    "metadataAssignment": "curator-reviewed"
+  },
+  {
+    "id": "renne-2013-kpg-timescale",
+    "title": "Time scales of critical events around the Cretaceous-Paleogene boundary",
+    "authors": "Renne, P.R.; Deino, A.L.; Hilgen, F.J.; Kuiper, K.F.; Mark, D.F.; Mitchell, W.S.; Morgan, L.E.; Mundil, R.; Smit, J.",
+    "publishedYear": 2013,
+    "type": "paper",
+    "url": "https://doi.org/10.1126/science.1230492",
+    "doi": "10.1126/science.1230492",
+    "publisher": "Science",
+    "pages": "339:684–687",
+    "note": "High-precision 40Ar/39Ar comparisons estimate a 66.043 ± 0.043 Ma boundary and synchronicity of impact and extinction within the study resolution.",
+    "sourceRole": "primary-study",
+    "fitnessFor": [
+      "geochronology",
+      "range",
+      "event-mechanism",
+      "methods"
+    ],
+    "metadataAssignment": "curator-reviewed"
+  },
+  {
+    "id": "yang-2025-yunotubus",
+    "title": "A new graptolite (Pterobranchia) from the early Cambrian Xiaoshiba Lagerstätte of China",
+    "authors": "Yang, J.; Caron, J.-B.; Conway Morris, S.; et al.",
+    "publishedYear": 2025,
+    "type": "paper",
+    "url": "https://doi.org/10.1186/s13358-025-00406-0",
+    "doi": "10.1186/s13358-025-00406-0",
+    "publisher": "Swiss Journal of Palaeontology",
+    "pages": "144:69",
+    "note": "Five specimens of Yunotubus from the Stage 3 Hongjingshao Formation preserve tubes and colonial soft anatomy; morphology matrices test rather than assume pterobranch affinity.",
+    "sourceRole": "primary-study",
+    "fitnessFor": [
+      "range",
+      "taxonomy",
+      "topology",
+      "morphology",
+      "ecology",
+      "geochronology",
+      "methods"
+    ],
+    "metadataAssignment": "curator-reviewed"
+  },
+  {
+    "id": "halanych-1993-rhabdopleura-feeding",
+    "title": "Suspension feeding by the pterobranch hemichordate Rhabdopleura normani",
+    "authors": "Halanych, K.M.",
+    "publishedYear": 1993,
+    "type": "paper",
+    "url": "https://doi.org/10.2307/1542482",
+    "doi": "10.2307/1542482",
+    "publisher": "The Biological Bulletin",
+    "pages": "185:417–427",
+    "note": "Direct observations and microscopy describe feeding currents and particle capture in living Rhabdopleura normani.",
+    "sourceRole": "primary-study",
+    "fitnessFor": [
+      "ecology",
+      "morphology",
+      "methods"
     ],
     "metadataAssignment": "curator-reviewed"
   }

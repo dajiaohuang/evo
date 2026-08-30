@@ -69,61 +69,61 @@
     "id": "range:archaeopteryx:global",
     "entityId": "archaeopteryx",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Archaeopteryx",
-    "geographicScope": "Global or represented navigation composite",
+    "taxonomicConcept": "Referred Archaeopteryx specimens",
+    "geographicScope": "Late Jurassic lithographic limestones of Bavaria, Germany",
     "olderMa": 150,
     "youngerMa": 148,
     "status": "available",
     "uncertainty": {
-      "olderMa": null,
-      "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "olderMa": 151,
+      "youngerMa": 147,
+      "note": "Numerical endpoints summarize correlated Kimmeridgian–Tithonian horizons; they are not a global Avialae FAD or a directly dated origin."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "evidenceBasis": "The referred Painten specimen extends the sampled genus into the earliest Tithonian; other Bavarian specimens occupy younger lithographic-limestone horizons.",
+    "evidenceLevel": "literature-synthesized",
     "confidence": "medium",
-    "claimIds": [],
+    "claimIds": [
+      "claim:taxon:archaeopteryx:fossil-range"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
-      },
-      {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "rauhut-2018-oldest-archaeopteryx",
+        "locator": "Geological setting; Systematic palaeontology; Figures 1–5; Table 1"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed"
   },
   {
     "id": "range:neornithes:global",
     "entityId": "neornithes",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Neornithes",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 72,
+    "taxonomicConcept": "Crown Neornithes under the Torres et al. 2025 placement of Vegavis",
+    "geographicScope": "Global living crown; fossil minimum tested by Vegavis in Antarctica",
+    "olderMa": 69.2,
     "youngerMa": 0,
     "status": "available",
     "uncertainty": {
-      "olderMa": null,
-      "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "olderMa": 69.2,
+      "youngerMa": 0,
+      "note": "The older endpoint is topology-dependent: it applies only if the 2025 combined placement of Vegavis within crown waterfowl is accepted. It is not the crown divergence time."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "evidenceBasis": "AMNH FARB 30899 is from a 69.2–68.4 Ma interval and the combined analysis supports waterfowl affinity; earlier conflicting placements remain explicit, while Asteriornis supplies a younger independent crown test.",
+    "evidenceLevel": "literature-synthesized",
     "confidence": "medium",
-    "claimIds": [],
+    "claimIds": [
+      "claim:taxon:neornithes:fossil-range"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
+        "referenceId": "torres-2025-vegavis-skull",
+        "locator": "146–151; Figures 1–4; age statement; phylogenetic analyses"
       },
       {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "field-2020-asteriornis",
+        "locator": "397–401; Figures 1–4; phylogenetic analyses"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed"
   },
   {
     "id": "range:phorusrhacidae:global",
@@ -293,6 +293,34 @@
       {
         "referenceId": "pbdb-api-2016",
         "locator": "Legacy fossil-range display context"
+      }
+    ],
+    "reviewStatus": "automated-audit-passed"
+  },
+  {
+    "id": "range:vegavis:crown-test",
+    "entityId": "vegavis",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Vegavis iaai, including AMNH FARB 30899",
+    "geographicScope": "Vega Island, Antarctica",
+    "olderMa": 69.2,
+    "youngerMa": 68.4,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": 69.2,
+      "youngerMa": 68.4,
+      "note": "This is the study-reported age interval for the fossil-bearing unit, not a direct radioisotopic date on the skull or the full genus range."
+    },
+    "evidenceBasis": "The nearly complete skull AMNH FARB 30899 is tied to the latest Cretaceous Sandwich Bluff Member interval reported as 69.2–68.4 Ma.",
+    "evidenceLevel": "literature-synthesized",
+    "confidence": "medium",
+    "claimIds": [
+      "claim:event:vegavis-skull-crown-test"
+    ],
+    "referenceLocators": [
+      {
+        "referenceId": "torres-2025-vegavis-skull",
+        "locator": "146–151; Figure 1; age statement; AMNH FARB 30899"
       }
     ],
     "reviewStatus": "automated-audit-passed"

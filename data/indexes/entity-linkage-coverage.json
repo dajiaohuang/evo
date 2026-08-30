@@ -22,10 +22,10 @@
     "acceptedName": 0,
     "higherClassification": 11000
   },
-  "indexedEntityCount": 384,
+  "indexedEntityCount": 385,
   "resolutionSummary": {
     "resolved": 148,
-    "unresolved": 236,
+    "unresolved": 237,
     "needsConceptReview": 23,
     "conceptResolved": 129,
     "humanCuratorDecisions": 0
@@ -177,6 +177,7 @@
     }
   },
   "profileTotals": {
+    "pterobranchia": 124,
     "priscomyzon": 0,
     "myxinikela": 0,
     "tethymyxine": 0,
@@ -198,9 +199,13 @@
     "anchitherium": 88,
     "hipparionini": 1698,
     "teleoceras": 348,
-    "coelodonta": 37
+    "coelodonta": 37,
+    "archaeopteryx": 0,
+    "neornithes": 0,
+    "tyrannosaurus": 0
   },
   "profileQueryStatus": {
+    "pterobranchia": "resolved-and-observed",
     "priscomyzon": "resolved-zero-in-bounded-sample",
     "myxinikela": "resolved-zero-in-bounded-sample",
     "tethymyxine": "resolved-zero-in-bounded-sample",
@@ -222,7 +227,10 @@
     "anchitherium": "complete-query-observed",
     "hipparionini": "complete-query-observed",
     "teleoceras": "complete-query-observed",
-    "coelodonta": "complete-query-observed"
+    "coelodonta": "complete-query-observed",
+    "archaeopteryx": "concept-review-required",
+    "neornithes": "resolved-zero-in-bounded-sample",
+    "tyrannosaurus": "resolved-zero-in-bounded-sample"
   },
   "zeroMatchProfiles": [
     "priscomyzon",
@@ -236,7 +244,10 @@
     "gerobatrachus",
     "triadobatrachus",
     "beiyanerpeton",
-    "funcusvermis"
+    "funcusvermis",
+    "archaeopteryx",
+    "neornithes",
+    "tyrannosaurus"
   ],
   "ambiguousNameCollisions": []
 }

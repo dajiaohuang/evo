@@ -1,0 +1,80 @@
+[
+  {
+    "id": "archaeopteryx",
+    "treeNodeId": "archaeopteryx",
+    "pbdbTaxonId": "txn:39240",
+    "scientificName": "Archaeopteryx",
+    "commonName": "Archaeopteryx",
+    "commonNameZh": "始祖鸟",
+    "rank": "genus",
+    "parentName": "Avialae",
+    "extinct": true,
+    "geography": [
+      "Late Jurassic lithographic limestones of Bavaria, Germany"
+    ],
+    "overview": "A Late Jurassic avialan known from a small Bavarian specimen series; it lies outside crown Neornithes and is not presented as the direct ancestor of living birds.",
+    "ecology": {
+      "diet": "Not resolved by the cited flight and systematic studies",
+      "habitat": "Solnhofen-archipelago carbonate environments represented by Bavarian lithographic limestones",
+      "locomotion": "Terrestrial and aerial capacities; flight style is inferred from bone geometry rather than observed behaviour",
+      "bodySize": "Small-bodied paravian",
+      "guild": "Unresolved; no single feeding guild is assigned from the cited evidence"
+    },
+    "traits": [
+      "Asymmetrical flight feathers associated with skeletal specimens",
+      "Toothed jaws and a long bony tail",
+      "Pectoral geometry compatible with short-burst active flight in a biomechanical comparison"
+    ],
+    "evidenceSummary": "The oldest referred specimen extends the genus into the earliest Tithonian Painten Formation and documents substantial anatomical variation; synchrotron comparisons support active flight capacity but not modern crown-bird flight performance.",
+    "confidence": "medium",
+    "referenceIds": [
+      "rauhut-2018-oldest-archaeopteryx",
+      "voeten-2018-archaeopteryx-flight"
+    ],
+    "firstAppearance": 150,
+    "lastAppearance": 148,
+    "rangeEvidenceLevel": "literature-synthesized",
+    "rangeReviewStatus": "automated-audit-passed",
+    "rangeProvisional": true
+  },
+  {
+    "id": "neornithes",
+    "treeNodeId": "neornithes",
+    "pbdbTaxonId": "txn:39241",
+    "scientificName": "Neornithes",
+    "commonName": "Crown birds",
+    "commonNameZh": "冠群鸟类",
+    "rank": "subclass",
+    "parentName": "Aves",
+    "extinct": false,
+    "geography": [
+      "Global today",
+      "Antarctica and Europe for the two Maastrichtian fossil tests highlighted here"
+    ],
+    "overview": "The crown group defined by the common ancestor of living birds and all descendants; this boundary excludes Archaeopteryx and keeps Cretaceous fossil membership tied to explicit phylogenetic analyses.",
+    "ecology": {
+      "diet": "Highly diverse; the highlighted Vegavis skull supports underwater prey capture for that fossil only",
+      "habitat": "Global across marine, freshwater and terrestrial environments today",
+      "locomotion": "Predominantly volant, with multiple independently flight-reduced or flightless lineages",
+      "bodySize": "Extremely diverse",
+      "guild": "No single crown-wide ecological guild"
+    },
+    "traits": [
+      "Crown membership is defined relationally, not by one universally diagnostic fossil character",
+      "Vegavis skull anatomy combines an avian beak and crown-like neuroanatomy with a specialized feeding apparatus",
+      "Asteriornis preserves a different late Maastrichtian galloanseran character combination"
+    ],
+    "evidenceSummary": "A 2025 skull analysis strengthens crown-waterfowl placement for older Vegavis, but the study explicitly records its earlier contested placements; younger Asteriornis also shifts among near-crown positions under different analyses.",
+    "confidence": "medium",
+    "referenceIds": [
+      "torres-2025-vegavis-skull",
+      "field-2020-asteriornis",
+      "claramunt-cracraft-2015-avian-time-tree"
+    ],
+    "firstAppearance": 69.2,
+    "lastAppearance": 0,
+    "rangeEvidenceLevel": "literature-synthesized",
+    "rangeReviewStatus": "automated-audit-passed",
+    "rangeProvisional": true
+  }
+]

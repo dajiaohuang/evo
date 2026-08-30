@@ -3,29 +3,31 @@
     "id": "range:chondrichthyes:global",
     "entityId": "chondrichthyes",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Chondrichthyes total-group navigation concept; Qianodus is outside the living crown",
-    "geographicScope": "Late Aeronian Rongxi Formation sample plus living global context",
-    "olderMa": 439,
+    "taxonomicConcept": "Chondrichthyes",
+    "geographicScope": "Global or represented navigation composite",
+    "olderMa": 420,
     "youngerMa": 0,
     "status": "available",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "The older endpoint is a stem-chondrichthyan specimen bound and must not be read as a crown-group first appearance or origin date."
+      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
     },
-    "evidenceBasis": "Qianodus tooth whorls provide a late Aeronian total-group bound; the younger endpoint reflects living members and does not assert uninterrupted sampling.",
+    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
     "confidence": "medium",
-    "claimIds": [
-      "claim:event:early-silurian-qianodus-tooth-whorls"
-    ],
+    "claimIds": [],
     "referenceLocators": [
       {
-        "referenceId": "andreev-2022-qianodus",
-        "locator": "pp. 964–968, especially p. 965; Figs. 1–2; geological setting and phylogenetic results"
+        "referenceId": "open-tree",
+        "locator": "https://opentreeoflife.github.io/use"
+      },
+      {
+        "referenceId": "pbdb-api-2016",
+        "locator": "doi:10.1017/pab.2015.39"
       }
     ],
-    "reviewStatus": "automated-audit-passed",
-    "evidenceLevel": "literature-synthesized"
+    "reviewStatus": "not-reviewed",
+    "evidenceLevel": "legacy-display"
   },
   {
     "id": "range:elasmobranchii:global",

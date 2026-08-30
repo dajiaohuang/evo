@@ -13,7 +13,24 @@ const profileSourceEntries = packageDefinitions.flatMap((definition) => {
 })
 const profileSourceByPackageId = new Map(profileSourceEntries.map((entry) => [entry.definition.id, entry]))
 const profileSources = profileSourceEntries.flatMap((entry) => entry.profiles)
-const perissodactylPhylogeny = structuredClone(readJson('data/packages/mammalia/perissodactyla/phylogeny/hypothesis.source.json'))
+const phylogenySourceEntries = packageDefinitions.flatMap((definition) => {
+  const directory = `data/packages/${definition.path}/phylogeny`
+  const collectionPath = `${directory}/hypotheses.source.json`
+  const singlePath = `${directory}/hypothesis.source.json`
+  if (existsSync(join(rootDir, collectionPath))) {
+    const source = readJson(collectionPath)
+    if (!Array.isArray(source.hypotheses) || source.hypotheses.length === 0) {
+      throw new Error(`${collectionPath} must contain at least one hypothesis`)
+    }
+    return [{ definition, relativePath: collectionPath, outputPath: `${directory}/hypotheses.json`, source, hypotheses: source.hypotheses }]
+  }
+  if (existsSync(join(rootDir, singlePath))) {
+    const hypothesis = readJson(singlePath)
+    return [{ definition, relativePath: singlePath, outputPath: `${directory}/hypothesis.json`, source: hypothesis, hypotheses: [hypothesis] }]
+  }
+  return []
+})
+const phylogenySourceByPackageId = new Map(phylogenySourceEntries.map((entry) => [entry.definition.id, entry]))
 const treeEvidence = readJson('data/tree/evidence.json')
 const media = readJson('data/media.json')
 const claims = readJson('data/evidence/claims.json')
@@ -77,9 +94,13 @@ function synchronizePhylogenyRanges(node) {
   }
   for (const child of node.children ?? []) synchronizePhylogenyRanges(child)
 }
-synchronizePhylogenyRanges(perissodactylPhylogeny.root)
+for (const entry of phylogenySourceEntries) {
+  entry.source = structuredClone(entry.source)
+  entry.hypotheses = entry.source.hypotheses ?? [entry.source]
+  for (const hypothesis of entry.hypotheses) synchronizePhylogenyRanges(hypothesis.root)
+}
 const profileIds = new Set(profiles.map((profile) => profile.treeNodeId))
-const topologyNodeIds = new Set(flattenTree(perissodactylPhylogeny.root).map((node) => node.id))
+const topologyNodeIds = new Set(phylogenySourceEntries.flatMap((entry) => entry.hypotheses.flatMap((hypothesis) => flattenTree(hypothesis.root).map((node) => node.id))))
 const mediaIds = new Set(media.map((asset) => asset.taxonId))
 const periodNames = timeScale.units.filter((unit) => unit.itp === 'period').map((unit) => unit.nam)
 const occurrenceCountsByPackage = new Map()
@@ -238,6 +259,7 @@ function ownerForClaim(claim) {
     'microraptor-four-winged-holotype': 'crocodylomorphs-birds',
     'microraptor-wind-tunnel-model': 'crocodylomorphs-birds',
     'asteriornis-holotype-crown-placement': 'crocodylomorphs-birds',
+    'vegavis-skull-crown-test': 'crocodylomorphs-birds',
     'neoavian-genome-topology': 'crocodylomorphs-birds',
     'neornithes-fossil-calibrated-time-tree': 'crocodylomorphs-birds',
     'steropodon-holotype-monotreme': 'other-mammals',
@@ -499,7 +521,7 @@ for (const entry of profileSourceEntries) {
   const packageEntityIds = new Set(entities.filter((entity) => entity.packageId === entry.definition.id).map((entity) => entity.id))
   writeJson(`data/packages/${entry.definition.path}/profiles.json`, profiles.filter((profile) => packageEntityIds.has(profile.treeNodeId)))
 }
-writeJson('data/packages/mammalia/perissodactyla/phylogeny/hypothesis.json', perissodactylPhylogeny)
+for (const entry of phylogenySourceEntries) writeJson(entry.outputPath, entry.source)
 
 for (const definition of packageDefinitions) {
   const packageEntities = entities.filter((entity) => entity.packageId === definition.id)
@@ -507,6 +529,7 @@ for (const definition of packageDefinitions) {
   const packageClaims = claims.filter((claim) => ownerForClaim(claim) === definition.id)
   const packageProfiles = profiles.filter((profile) => packageEntityIds.has(profile.treeNodeId))
   const profileSourceEntry = profileSourceByPackageId.get(definition.id)
+  const phylogenySourceEntry = phylogenySourceByPackageId.get(definition.id)
   const packageRanges = canonicalRanges.filter((range) => packageEntityIds.has(range.entityId))
   const packageStoryIds = publishedStories
     .filter((story) => story.steps.some((step) => (step.taxonIds ?? []).some((id) => packageForEntity(id) === definition.id)))
@@ -606,8 +629,10 @@ for (const definition of packageDefinitions) {
       references: 'data/references.json',
       occurrences: 'data/fossils/*.json',
       ...(profileSourceEntry ? { profilesSource: profileSourceEntry.relativePath } : {}),
+      ...(phylogenySourceEntry ? {
+        phylogenySource: phylogenySourceEntry.relativePath,
+      } : {}),
       ...(definition.id === 'perissodactyla' ? {
-        phylogenySource: 'data/packages/mammalia/perissodactyla/phylogeny/hypothesis.source.json',
         calibrations: 'data/packages/mammalia/perissodactyla/phylogeny/calibrations.json',
       } : {}),
     },
@@ -620,7 +645,7 @@ for (const definition of packageDefinitions) {
   writeJson(`data/packages/${definition.path}/provenance.json`, {
     packageId: definition.id,
     version: DATASET_PACKAGE_VERSION,
-    canonicalInputs: ['data/navigation/atlas-ontology.json', 'data/ranges/range-evidence.json', 'data/sources/pbdb-taxon-resolution.json', 'data/tree/evidence.json', 'data/references.json', ...(profileSourceEntry ? [profileSourceEntry.relativePath] : []), ...(definition.id === 'perissodactyla' ? ['data/packages/mammalia/perissodactyla/phylogeny/hypothesis.source.json'] : [])],
+    canonicalInputs: ['data/navigation/atlas-ontology.json', 'data/ranges/range-evidence.json', 'data/sources/pbdb-taxon-resolution.json', 'data/tree/evidence.json', 'data/references.json', ...(profileSourceEntry ? [profileSourceEntry.relativePath] : []), ...(phylogenySourceEntry ? [phylogenySourceEntry.relativePath] : [])],
     occurrenceSnapshot: 'data/sources/pbdb-occurrence-bundle.json',
     generatedProjection: true,
     notes: ['Package registry, taxonomy, range and locale files are generated projections. review.json is maintained separately as the single package review record. Canonical entity concepts, ranges, evidence and external-resolution decisions live in the listed canonical inputs.'],
@@ -677,18 +702,18 @@ for (const definition of packageDefinitions) {
           limitations: ['This preset is a navigation and data-inspection example, not a reviewed scientific conclusion.'],
         }],
   })
-  writeJson(`data/packages/${definition.path}/phylogeny/status.json`, definition.id === 'perissodactyla'
+  writeJson(`data/packages/${definition.path}/phylogeny/status.json`, phylogenySourceEntry
     ? {
         schemaVersion: 1,
         packageId: definition.id,
         status: 'available',
-        topologyPath: 'phylogeny/hypothesis.json',
+        topologyPath: phylogenySourceEntry.outputPath.slice(`data/packages/${definition.path}/`.length),
         scopeEntityIds: definition.rootEntityIds,
         statement: {
-          en: 'A scoped, topology-only hypothesis is published for this package; its branch lengths do not represent time.',
-          zh: '本内容包发布了一棵有范围限定、仅表示拓扑的假说树；分支长度不表示时间。',
+          en: `${phylogenySourceEntry.hypotheses.length === 1 ? 'A scoped, topology-only hypothesis is' : `${phylogenySourceEntry.hypotheses.length} scoped, topology-only hypotheses are`} published for this package; branch lengths do not represent time.`,
+          zh: `本内容包发布了${phylogenySourceEntry.hypotheses.length === 1 ? '一棵' : `${phylogenySourceEntry.hypotheses.length} 棵`}范围明确、仅表示拓扑的假说树；分支长度不表示时间。`,
         },
-        limitations: ['Treat the hypothesis as one explicit representation and inspect its source and calibration records separately.'],
+        limitations: phylogenySourceEntry.source.limitations ?? ['Treat each hypothesis as an explicit representation and inspect its source records separately.'],
       }
     : {
         schemaVersion: 1,
@@ -767,7 +792,7 @@ writeJson('data/registry/generated-files.json', {
     'data/sources/pbdb-taxon-resolution.json', 'data/tree/evidence.json',
     'data/evidence/claims.json', 'data/evidence/claim-rationales.zh.json',
     ...profileSourceEntries.map((entry) => entry.relativePath),
-    'data/packages/mammalia/perissodactyla/phylogeny/hypothesis.source.json',
+    ...phylogenySourceEntries.map((entry) => entry.relativePath),
     'data/references.json',
   ],
   generatedFiles: [...generatedFiles].sort(),

@@ -112,7 +112,19 @@ function packageFailures() {
     const phylogenyStatus = readJson(`${entry.canonicalPath}/phylogeny/status.json`)
     failures.push(...schemaFailure(validatePhylogenyStatus, phylogenyStatus, `package ${entry.id} phylogeny status`))
     if (phylogenyStatus.packageId !== entry.id) failures.push(`package ${entry.id}: phylogeny status packageId mismatch`)
-    if (phylogenyStatus.status === 'available' && !existsSync(join(rootDir, entry.canonicalPath, phylogenyStatus.topologyPath))) failures.push(`package ${entry.id}: published topology path does not exist`)
+    if (phylogenyStatus.status === 'available') {
+      const topologyFile = join(rootDir, entry.canonicalPath, phylogenyStatus.topologyPath)
+      if (!existsSync(topologyFile)) failures.push(`package ${entry.id}: published topology path does not exist`)
+      else {
+        const topologyPayload = readJson(`${entry.canonicalPath}/${phylogenyStatus.topologyPath}`)
+        const hypotheses = topologyPayload.hypotheses ?? [topologyPayload]
+        for (const hypothesis of hypotheses) {
+          failures.push(...schemaFailure(validatePhylogeny, hypothesis, `package ${entry.id} phylogeny ${hypothesis.id ?? 'unnamed'}`))
+          if (!phylogenyStatus.scopeEntityIds.includes(hypothesis.scopeNodeId)) failures.push(`package ${entry.id} phylogeny ${hypothesis.id}: scope is outside the published package topology scope`)
+          for (const referenceId of hypothesis.referenceIds ?? []) if (!referencesById.has(referenceId)) failures.push(`package ${entry.id} phylogeny ${hypothesis.id}: unknown reference ${referenceId}`)
+        }
+      }
+    }
     for (const entityId of phylogenyStatus.scopeEntityIds) if (!expectedIds.includes(entityId)) failures.push(`package ${entry.id}: phylogeny scope references out-of-package entity ${entityId}`)
     const researchExamples = readJson(`${entry.canonicalPath}/research-examples.json`)
     failures.push(...schemaFailure(validateResearchExamples, researchExamples, `package ${entry.id} research examples`))
@@ -203,7 +215,6 @@ function packageFailures() {
       }
     } else if (existsSync(join(rootDir, fieldLinksPath))) failures.push(`package ${entry.id}: field claim links require profiles`)
     if (entry.id === 'perissodactyla') {
-      failures.push(...schemaFailure(validatePhylogeny, readJson(`${entry.canonicalPath}/phylogeny/hypothesis.json`), 'Perissodactyla phylogeny'))
       const calibrations = readJson(`${entry.canonicalPath}/phylogeny/calibrations.json`)
       for (const calibration of calibrations.estimates) failures.push(...schemaFailure(validateCalibration, calibration, `calibration ${calibration.id}`))
       const flagshipStory = readJson('data/stories.json').find((story) => story.id === 'rise-and-fall-perissodactyls')

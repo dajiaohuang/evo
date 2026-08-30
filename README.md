@@ -13,7 +13,9 @@ Evo Atlas 不是一个把生成文本包装成“完整百科”的项目。它�
 - 名录覆盖：固定到 Catalogue of Life Base Release `COL26.8`。2,183,133 个严格接受种全部能沿真实父子链路由到唯一资源归属，另有 2,065,436 个异名、歧义异名和误用名可解析到接受名。
 - 内容覆盖：24 个静态资源包中的证据档案、事件、故事、范围和参考文献。rc32 已无 `generated-scaffold`，科学成熟度为 23 个 `structured` 和 1 个 `curated-draft`（奇蹄目）；23 个包尚未人工审阅，奇蹄目的存储状态为 `in-review`，但内容摘要变化使有效状态成为 `stale`，没有包声称达到科学 `published`。平台 `published` 与自动检查通过只表示静态发布链完整，不等于内容或专家审阅已经完成。
 
-当前开发数据快照为 `2026.08-static-v5-rc34`，Web/Android/iOS 客户端版本为 `0.20.0`。精确记录数、校验和和限制以 [`data/manifest.json`](data/manifest.json) 为准；科学内容变更见 [`data/CHANGELOG.md`](data/CHANGELOG.md)。
+当前开发数据快照为 `2026.08-static-v5-rc35`，Web/Android/iOS 客户端版本为 `0.20.0`。精确记录数、校验和和限制以 [`data/manifest.json`](data/manifest.json) 为准；科学内容变更见 [`data/CHANGELOG.md`](data/CHANGELOG.md)。
+
+`rc35` 深化图谱核心、恐龙与鳄形类—鸟类三个包：新增九步年代证据教程，把大氧化、阿瓦隆生物群、二叠纪末和 K–Pg 的时间锚点落到一手测年或实测地层；新增羽鳃类、霸王龙、始祖鸟与今鸟类的逐字段主张档案和文献限定延限；并列发布两套早期恐龙根部拓扑。始祖鸟明确位于今鸟类冠群之外，Vegavis 的 6920–6840 万年前记录只在 2025 年分析支持的冠群水禽拓扑下成为冠群延限，较年轻的 Asteriornis 继续作为独立测试。rc34 的 12 份鱼类与两栖类档案、63 条逐字段主张、初次教程、CAO 文档、原生测试和移动端完整清单全部保留；COL26.8 全集路由与 Web/Android/iOS 共用内容保持不变。
 
 `rc34` 深化“早期鱼类”“软骨鱼类”“辐鳍鱼类”和“两栖类”四个资源包：12 份双语标本档案把可见字段逐项连接到具页码、图号或章节定位符的主研究证据；新增导航串联泥盆纪圆口类、志留纪—泥盆纪软骨鱼及泥盆纪—三叠纪辐鳍鱼标本。两栖类起源故事并列呈现离片椎类、壳椎类和全椎类—蚓螈路线及其采样、矩阵与支持度边界，不替相互竞争的分析强选结论。COL26.8 的 2,183,133 个接受种仍全部完成唯一命名路由，0 个未匹配；这不把逐名路由冒充逐物种成熟档案。
 
@@ -37,7 +39,7 @@ Evo Atlas 不是一个把生成文本包装成“完整百科”的项目。它�
 ### 物种、生命树与内容包
 
 - 搜索完整的 `COL26.8` 接受种及解析名称，并在内部页面查看固定版本的祖先链和直接子级。
-- 查看 366 个策展导航实体、24 个资源包及其实际科学成熟度。
+- 查看 385 个策展导航实体、24 个资源包及其实际科学成熟度。
 - 在导航树、范围、径向树和校准证据之间切换；追踪谱系、折叠支系并导出 Newick/Nexus。
 - 将命名学位置、导航节点、系统发育假说、化石首现和分子钟分化时间作为不同类型的信息阅读。
 
@@ -218,4 +220,4 @@ Evo Atlas 没有账号、广告、分析 SDK 或应用后端。笔记、收藏�
 
 ## English summary
 
-Evo Atlas is a bilingual, static-first deep-time evidence explorer for Web, Android and iOS. The dashboard synchronizes geological time, six distinct CAO2024 reconstruction layers, fossil samples, a 384-entity navigation tree and claim-level evidence. The rc34 data snapshot deepens Early Fishes, Chondrichthyes, Actinopterygii and Amphibia with twelve specimen dossiers, field-level links to precisely located primary evidence, denser fossil navigation, and a deliberately unresolved comparison of competing lissamphibian-origin hypotheses. The pinned COL26.8 registry still routes all 2,183,133 strictly accepted species to one resource owner with zero unmatched names, while package maturity remains separately disclosed. Android and iOS are Capacitor 8 projects sharing the same React client; the native shell is bundled, and the complete offline manifest retains Core, every package, all fossils, all CAO2024 frames and the full COL registry. No account, analytics SDK, private API key, database or application server is required.
+Evo Atlas is a bilingual, static-first deep-time evidence explorer for Web, Android and iOS. The dashboard synchronizes geological time, six distinct CAO2024 reconstruction layers, fossil samples, a 385-entity navigation tree and claim-level evidence. The rc35 data retain all rc34 fish and amphibian profiles while adding primary geochronology locators, four field-linked atlas/archosaur profiles, two explicitly competing Dinosauria topologies and a topology-dependent 69.2–68.4 Ma Vegavis crown-bird test; Archaeopteryx remains explicitly outside crown Neornithes. The pinned COL26.8 registry still routes all 2,183,133 strictly accepted species to one resource owner with zero unmatched names, while package maturity remains separately disclosed. Android and iOS are Capacitor 8 projects sharing the same React client at app version 0.20.0; the native shell is bundled, and the complete offline manifest retains Core, every package, all fossils, all CAO2024 frames and the full COL registry. No account, analytics SDK, private API key, database or application server is required.

@@ -1,12 +1,12 @@
 {
   "schemaVersion": 5,
   "id": "atlas-core",
-  "version": "2026.08-static-v5-rc34",
+  "version": "2026.08-static-v5-rc35",
   "title": "Atlas Core Navigation",
   "titleZh": "图谱核心导航",
   "conceptScope": {
-    "en": "Evidence and navigation concepts rooted at life, invertebrata, vertebrata, gnathostomata, osteichthyes, tetrapoda, amniota, sauropsida, archosauria, placentalia; membership follows the committed entity registry and does not imply exhaustive taxonomic coverage.",
-    "zh": "以 life、invertebrata、vertebrata、gnathostomata、osteichthyes、tetrapoda、amniota、sauropsida、archosauria、placentalia 为根的证据与导航概念；成员范围以已提交的实体注册表为准，不表示穷尽性的分类覆盖。"
+    "en": "Atlas-wide navigation plus a nine-step chronology tutorial that separates directly dated minerals and measured strata from proxy, correlation and causal interpretation. Great Oxidation, Avalon Ediacaran, end-Permian and K–Pg anchors now carry primary geochronology locators; broad Cambrian, Ordovician, Triassic, PETM and Quaternary syntheses remain labelled as syntheses. A Pterobranchia profile uses the diagnostic 516 Ma Yunotubus occurrence as a fossil minimum rather than a clade-origin date. COL26.8 accepted-species routing remains complete across the dedicated content packages.",
+    "zh": "提供全图谱导航与九步年代教程，严格区分直接测年的矿物和实测地层、代用指标、地层对比及因果解释。大氧化、阿瓦隆埃迪卡拉生物群、二叠纪末和 K–Pg 锚点现均带一手年代学定位；寒武纪、奥陶纪、三叠纪、PETM 和第四纪的宽尺度论述仍明确标为综合。羽鳃纲档案以约 5.16 亿年前的诊断性 Yunotubus 出现记录作为化石最小年龄，而非类群起源时间。COL26.8 已接受物种仍完整路由到各专属内容包。"
   },
   "rootEntityIds": [
     "life",
@@ -39,7 +39,8 @@
     "ranges": "data/ranges/range-evidence.json",
     "externalResolutions": "data/sources/pbdb-taxon-resolution.json",
     "references": "data/references.json",
-    "occurrences": "data/fossils/*.json"
+    "occurrences": "data/fossils/*.json",
+    "profilesSource": "data/packages/core/atlas-core/profiles.source.json"
   },
   "platformMaturity": "published",
   "scientificMaturity": "structured",

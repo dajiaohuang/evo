@@ -5218,5 +5218,210 @@
         ]
       }
     ]
+  },
+  {
+    "id": "atlas-chronology-from-rocks-to-models",
+    "title": "How the atlas dates deep-time change",
+    "titleZh": "图谱如何为深时变化定年",
+    "dek": "Follow nine anchors from dated minerals and measured strata to biological interpretation, with each uncertainty kept attached to its evidence.",
+    "theme": "blue",
+    "durationMinutes": 12,
+    "featured": false,
+    "steps": [
+      {
+        "id": "goe-bracket",
+        "title": "Bracket oxygenation, do not invent an instant",
+        "text": "Dated igneous units and sulfur-isotope change bracket the onset of the Great Oxidation interval, while ocean basins followed different redox histories.",
+        "age": 2426,
+        "timeRange": [
+          2460,
+          2426
+        ],
+        "taxonIds": [
+          "life"
+        ],
+        "view": "evidence",
+        "eventId": "great-oxidation",
+        "annotation": "The bracket dates a proxy transition, not one global oxygen switch.",
+        "claimLinks": [
+          {
+            "claimId": "claim:event:great-oxidation",
+            "relation": "supports"
+          }
+        ]
+      },
+      {
+        "id": "avalon-after-ice",
+        "title": "Place Avalon fossils above dated ice",
+        "text": "Zircon ages order the Gaskiers glaciation and the younger Avalon assemblages; they do not directly date the origin of animals.",
+        "age": 571,
+        "timeRange": [
+          580,
+          565
+        ],
+        "taxonIds": [
+          "life"
+        ],
+        "view": "map",
+        "eventId": "ediacaran-biota",
+        "annotation": "A regional measured succession is not a global FAD.",
+        "claimLinks": [
+          {
+            "claimId": "claim:event:ediacaran-biota",
+            "relation": "supports"
+          }
+        ]
+      },
+      {
+        "id": "cambrian-pattern",
+        "title": "Separate fossil pattern from explanatory model",
+        "text": "Cambrian body fossils, traces and disparity document a radiation, but ecological and developmental explanations remain competing syntheses.",
+        "age": 520,
+        "timeRange": [
+          541,
+          485.4
+        ],
+        "taxonIds": [
+          "life"
+        ],
+        "view": "evidence",
+        "eventId": "cambrian-radiation",
+        "claimLinks": [
+          {
+            "claimId": "claim:event:cambrian-radiation",
+            "relation": "supports"
+          }
+        ]
+      },
+      {
+        "id": "ordovician-regions",
+        "title": "Compare regional diversification curves",
+        "text": "Ordovician richness and ecological expansion emerge at different rates among regions and groups rather than at one global timestamp.",
+        "age": 470,
+        "timeRange": [
+          485.4,
+          443.8
+        ],
+        "taxonIds": [
+          "life"
+        ],
+        "view": "diversity",
+        "eventId": "ordovician-biodiversification",
+        "claimLinks": [
+          {
+            "claimId": "claim:event:ordovician-biodiversification",
+            "relation": "supports"
+          }
+        ]
+      },
+      {
+        "id": "meishan-clock",
+        "title": "Read the Meishan extinction interval",
+        "text": "Dated ash beds constrain the principal extinction pulse in one reference section to roughly sixty thousand years, with stated analytical uncertainty.",
+        "age": 251.9,
+        "timeRange": [
+          251.941,
+          251.88
+        ],
+        "taxonIds": [
+          "life"
+        ],
+        "view": "evidence",
+        "eventId": "end-permian-extinction",
+        "annotation": "A calibrated reference section is not every ecosystem worldwide.",
+        "claimLinks": [
+          {
+            "claimId": "claim:event:end-permian-extinction",
+            "relation": "supports"
+          }
+        ]
+      },
+      {
+        "id": "recovery-is-not-one-date",
+        "title": "Recovery unfolds in stages",
+        "text": "Triassic recovery differs among ecosystems, guilds and regions; a review synthesis organizes those records without turning them into a single measured event.",
+        "age": 245,
+        "timeRange": [
+          252,
+          235
+        ],
+        "taxonIds": [
+          "life"
+        ],
+        "view": "diversity",
+        "eventId": "triassic-recovery",
+        "claimLinks": [
+          {
+            "claimId": "claim:event:triassic-recovery",
+            "relation": "supports"
+          }
+        ]
+      },
+      {
+        "id": "kpg-synchrony",
+        "title": "Test impact–extinction synchrony",
+        "text": "Boundary geochemistry identifies impact ejecta and radioisotopic comparison resolves impact and extinction as synchronous within the published precision.",
+        "age": 66.043,
+        "timeRange": [
+          66.08,
+          66
+        ],
+        "taxonIds": [
+          "life"
+        ],
+        "view": "evidence",
+        "eventId": "k-pg-extinction",
+        "annotation": "Synchrony at this resolution does not make every last fossil simultaneous.",
+        "claimLinks": [
+          {
+            "claimId": "claim:event:k-pg-extinction",
+            "relation": "supports"
+          }
+        ]
+      },
+      {
+        "id": "petm-proxies",
+        "title": "Track warming with coupled proxies",
+        "text": "Carbon-isotope, temperature and biotic records describe the PETM perturbation, while magnitude and duration remain proxy- and age-model-sensitive.",
+        "age": 56,
+        "timeRange": [
+          56.2,
+          55.8
+        ],
+        "taxonIds": [
+          "life"
+        ],
+        "view": "evidence",
+        "eventId": "petm",
+        "claimLinks": [
+          {
+            "claimId": "claim:event:petm",
+            "relation": "supports"
+          }
+        ]
+      },
+      {
+        "id": "megafauna-comparison",
+        "title": "Compare extinction hypotheses without one cause",
+        "text": "Late-Quaternary megafaunal losses vary across continents; comparative models test climate and human influence without observing one universal mechanism.",
+        "age": 0.04,
+        "timeRange": [
+          0.126,
+          0
+        ],
+        "taxonIds": [
+          "life"
+        ],
+        "view": "map",
+        "eventId": "quaternary-megafauna-extinction",
+        "claimLinks": [
+          {
+            "claimId": "claim:event:quaternary-megafauna-extinction",
+            "relation": "supports"
+          }
+        ]
+      }
+    ],
+    "evidenceStatus": "available-with-limitations"
   }
 ]

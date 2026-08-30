@@ -483,31 +483,33 @@
     "id": "range:tyrannosaurus:global",
     "entityId": "tyrannosaurus",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Tyrannosaurus rex",
-    "geographicScope": "Global or represented navigation composite",
+    "taxonomicConcept": "Tyrannosaurus rex and referred latest Maastrichtian material",
+    "geographicScope": "Western North America; Hell Creek, Lance and approximately coeval strata",
     "olderMa": 68,
     "youngerMa": 66,
     "status": "available",
     "uncertainty": {
-      "olderMa": null,
-      "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "olderMa": 68.2,
+      "youngerMa": 66.043,
+      "note": "The displayed endpoints are a rounded latest Maastrichtian envelope. Census sampling does not prove a global genus FAD, and the younger uncertainty records the dated K–Pg boundary rather than a last individual."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "evidenceBasis": "Measured Hell Creek specimen positions document latest Maastrichtian occurrence; the range closes at the independently dated K–Pg boundary without claiming instantaneous disappearance everywhere.",
+    "evidenceLevel": "literature-synthesized",
     "confidence": "medium",
-    "claimIds": [],
+    "claimIds": [
+      "claim:taxon:tyrannosaurus:fossil-range"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
+        "referenceId": "horner-2011-hell-creek-dinosaur-census",
+        "locator": "Figure 1; Tables 1 and S1–S6; locality census"
       },
       {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "renne-2013-kpg-timescale",
+        "locator": "684–687; Figures 1–3; 40Ar/39Ar boundary age"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed"
   },
   {
     "id": "range:spinosauridae:global",
