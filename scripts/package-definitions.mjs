@@ -1,5 +1,5 @@
 export const PACKAGE_SCHEMA_VERSION = 5
-export const DATASET_PACKAGE_VERSION = '2026.08-static-v5-rc24'
+export const DATASET_PACKAGE_VERSION = '2026.08-static-v5-rc25'
 export const DATASET_RELEASE_DATE = '2026-08-30'
 
 export const packageDefinitions = [
@@ -214,9 +214,20 @@ export const packageDefinitions = [
   {
     id: 'primates',
     path: 'mammalia/primates',
-    title: 'Primates',
-    titleZh: '灵长目',
-    rootEntityIds: ['primates'],
+    title: 'Primatomorphan and Primate Primary Evidence',
+    titleZh: '灵长形类与灵长类主证据',
+    rootEntityIds: ['primatomorpha'],
+    conceptScope: {
+      en: 'Twelve primary-evidence dossiers separate a calibration-sensitive crown-Primate clock model, named Paleocene–Pleistocene specimens, functional or morphology-matrix interpretations, direct radiocarbon ages and ancient-genome demographic models. Primatomorpha, Plesiadapiformes and fossil placements are curated navigation routes rather than a universal tree or ancestor ladder. COL26.8 routes exactly 530 strictly accepted living species names below Primates usage ID 5V; that is current nomenclatural browse coverage, not 530 specimen, fossil, morphology, genome, translation or expert-review dossiers.',
+      zh: '十二个一手证据档案严格区分校准敏感的灵长类冠群分子钟模型、古新世至更新世具名标本、功能或形态矩阵解释、直接放射性碳年代与古基因组人口史模型。灵长形类、更猴型类和化石位置只是策展导航路径，并非通用系统树或祖先阶梯。COL26.8 在灵长目 usage ID 5V 下精确路由 530 个严格接受的现生种名；这只是当前命名浏览覆盖，并不表示已有 530 份标本、化石、形态、基因组、翻译或专家评审档案。',
+    },
+    scientificMaturity: 'structured',
+    limitations: [
+      'Purgatorius and Eosimias tarsals, the Altiatlasius tooth hypodigm, Teilhardina regional samples, Notharctus and Darwinius skeleton material, Saadanius, Morotopithecus and Dmanisi Skull 5 are bounded specimens or assemblages. Attribution, function and matrix placement remain separate; none establishes a direct ancestor or global FAD.',
+      'The 79.2–70.0 Ma crown-Primate interval is one Bayesian model result; another calibration strategy spans 71.4–63.9 Ma. Neither interval is a fossil occurrence, and the primates navigation display range must not be read as a body-fossil first appearance.',
+      'Vindija 33.19 and Ust’-Ishim 1 are named ancient-DNA samples. Direct radiocarbon results remain distinct from branch-shortening ages, ancestry proportions and admixture-time models, and neither individual represents all Neanderthals or modern humans.',
+      'COL26.8 routes exactly 530 accepted living species names below its configured Primates usage. This is a nomenclatural package boundary, not evidence of 530 mature dossiers or complete fossil, biological or review coverage; bundled PBDB rows remain a bounded non-random sample.',
+    ],
     wave: 'A',
   },
   {
