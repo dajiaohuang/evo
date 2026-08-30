@@ -13,7 +13,7 @@ Evo Atlas 不是一个把生成文本包装成“完整百科”的项目。它�
 - 名录覆盖：固定到 Catalogue of Life Base Release `COL26.8`。2,183,133 个严格接受种全部能沿真实父子链路由到唯一资源归属，另有 2,065,436 个异名、歧义异名和误用名可解析到接受名。
 - 内容覆盖：24 个静态资源包中的证据档案、事件、故事、范围和参考文献。每个包单独声明 `generated-scaffold`、`structured`、`source-linked`、`curated-draft` 或 `published`，名录路由完整不等于内容已经完成。
 
-当前已发布数据快照为 `2026.08-static-v5-rc17`，开发中的 Web/移动客户端版本为 `0.18.0`。精确记录数、校验和和限制以 [`data/manifest.json`](data/manifest.json) 为准；科学内容变更见 [`data/CHANGELOG.md`](data/CHANGELOG.md)。
+当前已发布数据快照为 `2026.08-static-v5-rc18`，开发中的 Web/移动客户端版本为 `0.18.0`。精确记录数、校验和和限制以 [`data/manifest.json`](data/manifest.json) 为准；科学内容变更见 [`data/CHANGELOG.md`](data/CHANGELOG.md)。
 
 ## 用户能做什么
 

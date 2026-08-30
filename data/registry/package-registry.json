@@ -1,9 +1,9 @@
 {
   "schemaVersion": 5,
-  "version": "2026.08-static-v5-rc17",
+  "version": "2026.08-static-v5-rc18",
   "schemaStatus": "candidate",
   "packageCount": 24,
-  "entityCount": 192,
+  "entityCount": 200,
   "packages": [
     {
       "id": "atlas-core",
@@ -212,9 +212,9 @@
       "rootEntityIds": [
         "actinopterygii"
       ],
-      "entityCount": 3,
+      "entityCount": 11,
       "platformMaturity": "published",
-      "scientificMaturity": "generated-scaffold",
+      "scientificMaturity": "structured",
       "automatedReviewStatus": "passed",
       "reviewStatus": "not-reviewed"
     },
@@ -516,7 +516,15 @@
     "acanthodii": "early-fishes",
     "osteichthyes": "atlas-core",
     "actinopterygii": "actinopterygii",
+    "neopterygii": "actinopterygii",
+    "holostei": "actinopterygii",
+    "lepisosteiformes": "actinopterygii",
+    "amiiformes": "actinopterygii",
+    "teleosteomorpha": "actinopterygii",
     "teleostei": "actinopterygii",
+    "elopomorpha": "actinopterygii",
+    "osteoglossomorpha": "actinopterygii",
+    "clupeocephala": "actinopterygii",
     "salmoniformes": "actinopterygii",
     "sarcopterygii": "tetrapod-transition",
     "coelacanthimorpha": "tetrapod-transition",
