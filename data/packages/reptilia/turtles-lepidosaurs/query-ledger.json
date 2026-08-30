@@ -10,20 +10,24 @@
     "pageSize": 5000,
     "acceptedBaseNamesRecorded": true
   },
-  "requestedAt": "2026-08-30T18:33:55.000Z",
-  "upstreamReportedTotal": 10422,
-  "pagesFetched": 4,
-  "rowsFetched": 10422,
+  "requestedAt": "2026-08-30T22:36:13.000Z",
+  "upstreamReportedTotal": 18704,
+  "pagesFetched": 9,
+  "rowsFetched": 18704,
   "rowsAccepted": 5000,
   "rowsRejected": 0,
   "rowsOutsidePackage": 0,
-  "uniqueRowsObserved": 10422,
+  "uniqueRowsObserved": 10465,
   "uniqueRowsRetained": 5000,
-  "withheldSubqueryCount": 7,
+  "withheldSubqueryCount": 3,
   "responseChecksums": [
-    "c1793b4e3374a9f7956c7cabaab39e27369911d3e472ed3b7b4f214bfc851aa7",
-    "2001b0d16b561aa75b20240dce4e896ac49c84c940b4a3c0a6268a812bacb70c",
-    "f0ac2cda37f38700f4d7ff71f3bd649e9b48a842c12d24e66859c67e10cc5890"
+    "d6340fc29c087d2533c505f76a88003ff1abb973e0a85767179497e585c01344",
+    "9376b7dae68ab250f27ef9b19a0cd9c960f5e92122e76fcb5ff9d7dc270a7c0e",
+    "f0966ccaa0d0bca423e1918ff8e29c35eb199450587aacf60f9f70c8b780c36c",
+    "40e4fb25e32a7718753d331c6611a0377b05a7e850d0eb362d25796633e370af",
+    "a3515dfe47e2acf7aff67286bba2a1a963ca0d816a010ccb02312c3a42b7bc81",
+    "46c9cb0ff226f060702af1a534646b962ac1181f6ab34a18516d89adf0aabf0a",
+    "07e9977898f633499f1e5f759fac9aa887b62b668ebf83ead6bbf2d8ccdbf677"
   ],
   "completeness": "bounded",
   "selectionMethod": "Complete pagination for every eligible resolution-ledger taxon concept; package occurrence detail is a deterministic bounded projection while all result identities and checksums remain in the source snapshot.",
@@ -48,7 +52,7 @@
         "order": "id",
         "pageSize": 5000
       },
-      "retrievedAt": "2026-08-30T18:33:49.000Z",
+      "retrievedAt": "2026-08-30T22:36:02.000Z",
       "resolutionSnapshotOccurrenceCount": 9183,
       "upstreamReportedTotal": 9202,
       "rowsFetched": 9202,
@@ -58,52 +62,69 @@
       "queryEligible": true,
       "eligibilityBasis": "resolution-ledger-accepted-mapping",
       "rawPageSha256": [
-        "abe0590b567b75965c0041517c2a38e20c869248f79d919def289a018b1d5a2c",
-        "ac81d5e9de6b76d8465f168f49a856eb74b48c739f0824a9a47b130ac4098308"
+        "ea5fa9d3c8dc1d216f7fed19edeff6e0b1aa8b587afe11c9a2ea6295830d2fc7",
+        "f68aba031fe24c362a001a414b618fc5b2ebd4f9d26bf444dd9be1d2c1b1a9f8"
       ],
-      "rawResponseSha256": "c1793b4e3374a9f7956c7cabaab39e27369911d3e472ed3b7b4f214bfc851aa7",
+      "rawResponseSha256": "d6340fc29c087d2533c505f76a88003ff1abb973e0a85767179497e585c01344",
       "normalizedRowsSha256": "1f81833031b851bf1c8066e3eb5ab08ae0764827c2a9f746dd6c43ab985d88f0",
       "occurrenceIdSha256": "198f156643bcb53f84ea0c9ebe41facf6087e0baaa20c76244d9323d60f3c0db"
     },
     {
       "entityId": "cryptodira",
       "taxonConcept": "Cryptodira",
-      "acceptedBaseName": null,
-      "externalTaxonId": null,
-      "queryParameters": null,
-      "retrievedAt": null,
-      "resolutionSnapshotOccurrenceCount": null,
-      "upstreamReportedTotal": null,
-      "rowsFetched": null,
-      "pagesFetched": null,
-      "completeness": "withheld",
-      "conceptReviewStatus": "unresolved",
-      "queryEligible": false,
-      "eligibilityBasis": "not-reconciled-after-ontology-expansion",
-      "rawPageSha256": [],
-      "rawResponseSha256": null,
-      "normalizedRowsSha256": null,
-      "occurrenceIdSha256": null
+      "acceptedBaseName": "Cryptodira",
+      "externalTaxonId": "txn:37622",
+      "queryParameters": {
+        "base_id": "37622",
+        "base_name": "Cryptodira",
+        "show": "full,class",
+        "order": "id",
+        "pageSize": 5000
+      },
+      "retrievedAt": "2026-08-30T22:36:07.000Z",
+      "resolutionSnapshotOccurrenceCount": 7006,
+      "upstreamReportedTotal": 7022,
+      "rowsFetched": 7022,
+      "pagesFetched": 2,
+      "completeness": "complete",
+      "conceptReviewStatus": "compatible",
+      "queryEligible": true,
+      "eligibilityBasis": "resolution-ledger-accepted-mapping",
+      "rawPageSha256": [
+        "95065363b91b3af4eb049318cee763ef7b4f42fead705ba9620cbafc0bb41df8",
+        "217eacbebf79f4b7175cad796ad150a7e4c4140d52b4d2687fac5ce560dd008d"
+      ],
+      "rawResponseSha256": "9376b7dae68ab250f27ef9b19a0cd9c960f5e92122e76fcb5ff9d7dc270a7c0e",
+      "normalizedRowsSha256": "aa0e4122bfec17455689415c0cadfe83ac0b31134da298859673847b5f489a43",
+      "occurrenceIdSha256": "549adfc558a86648de97258dce3ff177b83b3ef85204ea9a036f8dd14dd45c5a"
     },
     {
       "entityId": "pleurodira",
       "taxonConcept": "Pleurodira",
-      "acceptedBaseName": null,
-      "externalTaxonId": null,
-      "queryParameters": null,
-      "retrievedAt": null,
-      "resolutionSnapshotOccurrenceCount": null,
-      "upstreamReportedTotal": null,
-      "rowsFetched": null,
-      "pagesFetched": null,
-      "completeness": "withheld",
-      "conceptReviewStatus": "unresolved",
-      "queryEligible": false,
-      "eligibilityBasis": "not-reconciled-after-ontology-expansion",
-      "rawPageSha256": [],
-      "rawResponseSha256": null,
-      "normalizedRowsSha256": null,
-      "occurrenceIdSha256": null
+      "acceptedBaseName": "Pleurodira",
+      "externalTaxonId": "txn:37589",
+      "queryParameters": {
+        "base_id": "37589",
+        "base_name": "Pleurodira",
+        "show": "full,class",
+        "order": "id",
+        "pageSize": 5000
+      },
+      "retrievedAt": "2026-08-30T22:36:11.000Z",
+      "resolutionSnapshotOccurrenceCount": 1085,
+      "upstreamReportedTotal": 1085,
+      "rowsFetched": 1085,
+      "pagesFetched": 1,
+      "completeness": "complete",
+      "conceptReviewStatus": "compatible",
+      "queryEligible": true,
+      "eligibilityBasis": "resolution-ledger-accepted-mapping",
+      "rawPageSha256": [
+        "f0966ccaa0d0bca423e1918ff8e29c35eb199450587aacf60f9f70c8b780c36c"
+      ],
+      "rawResponseSha256": "f0966ccaa0d0bca423e1918ff8e29c35eb199450587aacf60f9f70c8b780c36c",
+      "normalizedRowsSha256": "d4049c7b070561ddc3f010ab320ad241310bbbfd6f46714628a6e611e4b4e5a7",
+      "occurrenceIdSha256": "3a42312da4d0836fb4d422451c6ed4454e503f7df82e911764490ce58e5a64a7"
     },
     {
       "entityId": "lepidosauria",
@@ -117,7 +138,7 @@
         "order": "id",
         "pageSize": 5000
       },
-      "retrievedAt": "2026-08-30T18:33:54.000Z",
+      "retrievedAt": "2026-08-30T22:36:12.000Z",
       "resolutionSnapshotOccurrenceCount": 372,
       "upstreamReportedTotal": 371,
       "rowsFetched": 371,
@@ -127,31 +148,39 @@
       "queryEligible": true,
       "eligibilityBasis": "resolution-ledger-accepted-mapping",
       "rawPageSha256": [
-        "2001b0d16b561aa75b20240dce4e896ac49c84c940b4a3c0a6268a812bacb70c"
+        "40e4fb25e32a7718753d331c6611a0377b05a7e850d0eb362d25796633e370af"
       ],
-      "rawResponseSha256": "2001b0d16b561aa75b20240dce4e896ac49c84c940b4a3c0a6268a812bacb70c",
+      "rawResponseSha256": "40e4fb25e32a7718753d331c6611a0377b05a7e850d0eb362d25796633e370af",
       "normalizedRowsSha256": "86253614abfba6b702a74805f4069007e0ea509ee4e2dedf7a74c0f899c0f38e",
       "occurrenceIdSha256": "507a3ed4537885a31d29ee9d4099c599bb41016ce7fb7d2e6cee36d31eef5a82"
     },
     {
       "entityId": "rhynchocephalia",
       "taxonConcept": "Rhynchocephalia",
-      "acceptedBaseName": null,
-      "externalTaxonId": null,
-      "queryParameters": null,
-      "retrievedAt": null,
-      "resolutionSnapshotOccurrenceCount": null,
-      "upstreamReportedTotal": null,
-      "rowsFetched": null,
-      "pagesFetched": null,
-      "completeness": "withheld",
-      "conceptReviewStatus": "unresolved",
-      "queryEligible": false,
-      "eligibilityBasis": "not-reconciled-after-ontology-expansion",
-      "rawPageSha256": [],
-      "rawResponseSha256": null,
-      "normalizedRowsSha256": null,
-      "occurrenceIdSha256": null
+      "acceptedBaseName": "Rhynchocephalia",
+      "externalTaxonId": "txn:54194",
+      "queryParameters": {
+        "base_id": "54194",
+        "base_name": "Rhynchocephalia",
+        "show": "full,class",
+        "order": "id",
+        "pageSize": 5000
+      },
+      "retrievedAt": "2026-08-30T22:36:12.000Z",
+      "resolutionSnapshotOccurrenceCount": 132,
+      "upstreamReportedTotal": 132,
+      "rowsFetched": 132,
+      "pagesFetched": 1,
+      "completeness": "complete",
+      "conceptReviewStatus": "compatible",
+      "queryEligible": true,
+      "eligibilityBasis": "resolution-ledger-accepted-mapping",
+      "rawPageSha256": [
+        "a3515dfe47e2acf7aff67286bba2a1a963ca0d816a010ccb02312c3a42b7bc81"
+      ],
+      "rawResponseSha256": "a3515dfe47e2acf7aff67286bba2a1a963ca0d816a010ccb02312c3a42b7bc81",
+      "normalizedRowsSha256": "585bcc2adf76eab18c20f7e417194899cc9744c9610a056c7fbe1674556d2c87",
+      "occurrenceIdSha256": "c16d288b7293454873664ddabd78fa0527216d2848b4ba2211ace34d909cadeb"
     },
     {
       "entityId": "pan-squamata",
@@ -167,7 +196,7 @@
       "completeness": "withheld",
       "conceptReviewStatus": "unresolved",
       "queryEligible": false,
-      "eligibilityBasis": "not-reconciled-after-ontology-expansion",
+      "eligibilityBasis": "no-exact-name-in-snapshot",
       "rawPageSha256": [],
       "rawResponseSha256": null,
       "normalizedRowsSha256": null,
@@ -196,18 +225,18 @@
     {
       "entityId": "serpentes",
       "taxonConcept": "Serpentes",
-      "acceptedBaseName": null,
+      "acceptedBaseName": "Serpentes",
       "externalTaxonId": null,
       "queryParameters": null,
       "retrievedAt": null,
-      "resolutionSnapshotOccurrenceCount": null,
+      "resolutionSnapshotOccurrenceCount": 3510,
       "upstreamReportedTotal": null,
       "rowsFetched": null,
       "pagesFetched": null,
       "completeness": "withheld",
       "conceptReviewStatus": "unresolved",
       "queryEligible": false,
-      "eligibilityBasis": "not-reconciled-after-ontology-expansion",
+      "eligibilityBasis": "accepted-rank-mismatch",
       "rawPageSha256": [],
       "rawResponseSha256": null,
       "normalizedRowsSha256": null,
@@ -216,22 +245,30 @@
     {
       "entityId": "mosasauroidea",
       "taxonConcept": "Mosasauroidea",
-      "acceptedBaseName": null,
-      "externalTaxonId": null,
-      "queryParameters": null,
-      "retrievedAt": null,
-      "resolutionSnapshotOccurrenceCount": null,
-      "upstreamReportedTotal": null,
-      "rowsFetched": null,
-      "pagesFetched": null,
-      "completeness": "withheld",
-      "conceptReviewStatus": "unresolved",
-      "queryEligible": false,
-      "eligibilityBasis": "not-reconciled-after-ontology-expansion",
-      "rawPageSha256": [],
-      "rawResponseSha256": null,
-      "normalizedRowsSha256": null,
-      "occurrenceIdSha256": null
+      "acceptedBaseName": "Mosasauroidea",
+      "externalTaxonId": "txn:53220",
+      "queryParameters": {
+        "base_id": "53220",
+        "base_name": "Mosasauroidea",
+        "show": "full,class",
+        "order": "id",
+        "pageSize": 5000
+      },
+      "retrievedAt": "2026-08-30T22:36:12.000Z",
+      "resolutionSnapshotOccurrenceCount": 43,
+      "upstreamReportedTotal": 43,
+      "rowsFetched": 43,
+      "pagesFetched": 1,
+      "completeness": "complete",
+      "conceptReviewStatus": "not-required-navigation-edge",
+      "queryEligible": true,
+      "eligibilityBasis": "resolution-ledger-accepted-mapping",
+      "rawPageSha256": [
+        "46c9cb0ff226f060702af1a534646b962ac1181f6ab34a18516d89adf0aabf0a"
+      ],
+      "rawResponseSha256": "46c9cb0ff226f060702af1a534646b962ac1181f6ab34a18516d89adf0aabf0a",
+      "normalizedRowsSha256": "6cc2b49c959fde0b0a143017bf20cfd06725ce4ab98ad99c62eef8b31b65effc",
+      "occurrenceIdSha256": "5a183443e2803d66701115621629f84d00f52363b63070368bf0e51a741dd9e4"
     },
     {
       "entityId": "mosasauridae",
@@ -245,7 +282,7 @@
         "order": "id",
         "pageSize": 5000
       },
-      "retrievedAt": "2026-08-30T18:33:55.000Z",
+      "retrievedAt": "2026-08-30T22:36:13.000Z",
       "resolutionSnapshotOccurrenceCount": 848,
       "upstreamReportedTotal": 849,
       "rowsFetched": 849,
@@ -255,9 +292,9 @@
       "queryEligible": true,
       "eligibilityBasis": "resolution-ledger-accepted-mapping",
       "rawPageSha256": [
-        "f0ac2cda37f38700f4d7ff71f3bd649e9b48a842c12d24e66859c67e10cc5890"
+        "07e9977898f633499f1e5f759fac9aa887b62b668ebf83ead6bbf2d8ccdbf677"
       ],
-      "rawResponseSha256": "f0ac2cda37f38700f4d7ff71f3bd649e9b48a842c12d24e66859c67e10cc5890",
+      "rawResponseSha256": "07e9977898f633499f1e5f759fac9aa887b62b668ebf83ead6bbf2d8ccdbf677",
       "normalizedRowsSha256": "89ab6dd02642caa289d79da40686dd1ea3f3f3f8c6558e62d9d6a8feb0985274",
       "occurrenceIdSha256": "3b5046f9116b5e91dcf0929c07be2542e369341284d8b3b775b9cd3e68a02612"
     }

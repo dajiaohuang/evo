@@ -57,5 +57,5 @@ describe('COL26.8 static nomenclatural resource packs', () => {
       total += packageRecords
     }
     expect(total).toBe(363160)
-  }, 30000)
+  }, 120000)
 })

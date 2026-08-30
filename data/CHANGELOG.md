@@ -1,5 +1,12 @@
 # Dataset changelog
 
+## App 0.20.5 / 2026.08-static-v5-rc54 — 2026-08-31
+
+- Reconciled all 147 PBDB concepts previously marked `not-reconciled-after-ontology-expansion` against the pinned 2026-07-19 taxon CSV. Exactly 103 pass accepted-name, normalized-rank and complete-lineage compatibility; 44 remain withheld as 22 rank mismatches, 14 missing exact names, seven lineage conflicts and one accepted-name mismatch. No stale expansion reason remains.
+- Preserved candidate PBDB identifiers and full ancestor chains for the seven lineage conflicts without publishing those candidates as entity IDs or querying them. The reconciliation script now verifies the pinned archive/CSV bytes and hashes, supports reason-scoped idempotent retries, and applies strict lineage compatibility before query eligibility.
+- Completed 114 new query pages for 102 newly eligible concepts, including three valid zero-result queries, with raw-page/response, normalized-row and occurrence-ID checksums. One Mammalia root remains withheld by the existing 100,000-row boundary. Across all packages, 251 complete subqueries now preserve 1,007,973 overlapping rows, 595,492 package-unique occurrence IDs and 100,425 bounded display details; 141 targets remain explicitly withheld.
+- Rebuilt the entity registry and occurrence index plus four affected bounded period assignments. Android build `8`, iOS build `8`, Web and both native projects continue to publish the same immutable rc54 data inventory; signed store artifacts and physical-device review are not claimed.
+
 ## App 0.20.4 / 2026.08-static-v5-rc53 — 2026-08-31
 
 - Promoted every nonzero COL26.8 catalogue-only partition into a deterministic static nomenclatural resource pack: fungi 157,044; other animals 99,161; protists and chromists 61,518; bacteria 26,397; viruses 17,552; archaea 790; and other plants 698, for 363,160 strictly accepted species in seven packs and fourteen gzip NDJSON shards.

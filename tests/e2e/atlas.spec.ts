@@ -21,7 +21,13 @@ test('language switch localizes the shell and scientific content, then persists'
 
   await page.reload()
   await expect(page.getByRole('button', { name: '探索器', exact: true })).toBeVisible()
-  expect(await page.evaluate(() => window.localStorage.getItem('evo-atlas-language'))).toBe('zh')
+  await expect.poll(async () => {
+    try {
+      return await page.evaluate(() => window.localStorage.getItem('evo-atlas-language'))
+    } catch {
+      return null
+    }
+  }).toBe('zh')
 })
 
 test('global search indexes structured Chinese ontology and interval names', async ({ page }) => {
@@ -262,7 +268,7 @@ test('Explorer restores state and removes the unsupported global model parameter
   await expect(page.getByRole('button', { name: 'points' })).toHaveClass(/is-active/)
   await expect(page.getByRole('button', { name: 'modern' })).toHaveClass(/is-active/)
   await expect(page.getByText('Shared time window 20–5 Ma')).toBeVisible()
-  await expect.poll(() => page.url()).toContain('dataset=2026.08-static-v5-rc53')
+  await expect.poll(() => page.url()).toContain('dataset=2026.08-static-v5-rc54')
   for (const fragment of ['older=20', 'younger=5', 'lat=10.000', 'lng=20.000', 'zoom=3.00', 'treeMode=fossil-range']) {
     expect(page.url()).toContain(fragment)
   }
@@ -275,7 +281,7 @@ test('Explorer requires confirmation before replacing a mismatched dataset versi
   await expect(page.getByRole('alertdialog')).toContainText('2025.01-old')
   expect(page.url()).toContain('dataset=2025.01-old')
   await page.getByRole('button', { name: 'Use current dataset' }).click()
-  await expect.poll(() => page.url()).toContain('dataset=2026.08-static-v5-rc53')
+  await expect.poll(() => page.url()).toContain('dataset=2026.08-static-v5-rc54')
 })
 
 test('a service-worker upgrade removes dataset A caches and dataset B remains coherent', async ({ page }) => {
@@ -301,7 +307,7 @@ test('a service-worker upgrade removes dataset A caches and dataset B remains co
   await expect(page.locator('.ownership-row--catalogue-only')).toHaveCount(1)
   await expect(page.locator('.ownership-summary')).toContainText('2,183,133')
   await expect(page.locator('.ownership-summary')).toContainText('7nomenclatural packs')
-  await expect(page.getByRole('link', { name: 'Download ZIP' }).first()).toHaveAttribute('href', /\/(?:fungi|other-animals|protists-chromists|bacteria|viruses|archaea|other-plants)-2026\.08-static-v5-rc53\.zip$/)
+  await expect(page.getByRole('link', { name: 'Download ZIP' }).first()).toHaveAttribute('href', /\/(?:fungi|other-animals|protists-chromists|bacteria|viruses|archaea|other-plants)-2026\.08-static-v5-rc54\.zip$/)
   await expect(page.getByRole('button', { name: 'Save offline' }).first()).toBeVisible()
   await expect(page.locator('.ownership-proof')).toContainText('0 unmatched')
   await expect(page.getByRole('button', { name: /Save complete Atlas \(\d+ MiB\)/ })).toBeVisible()
@@ -316,7 +322,7 @@ test('a service-worker upgrade removes dataset A caches and dataset B remains co
     const versions = await Promise.all(manifestFiles.map((file) => fetch(`/evo/data/${file.url}`).then((response) => response.json()).then((manifest) => manifest.version as string)))
     return { datasetVersion: current.datasetVersion, releaseBase: current.releaseBase, urls: manifestFiles.map((file) => file.url), versions, retained: history.releases.map((entry) => entry.datasetVersion) }
   })
-  expect(releaseState.releaseBase).toBe('releases/2026.08-static-v5-rc53/')
+  expect(releaseState.releaseBase).toBe('releases/2026.08-static-v5-rc54/')
   expect(releaseState.urls.every((url) => url.startsWith(releaseState.releaseBase))).toBe(true)
   expect(releaseState.versions.every((version) => version === releaseState.datasetVersion)).toBe(true)
   expect(releaseState.retained[0]).toBe(releaseState.datasetVersion)

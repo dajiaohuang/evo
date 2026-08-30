@@ -14,9 +14,24 @@ describe('targeted PBDB query helpers', () => {
       resolutionStatus: 'resolved',
       pbdbId: 'txn:36616',
       acceptedName: 'Aves',
+      parentRelationshipKind: 'taxonomic-parent',
+      lineageCompatibility: 'compatible-ancestor-chain',
       conceptReviewStatus: 'compatible',
       automatedRecommendation: 'accept-external-mapping',
     })).toEqual({ eligible: true, reason: 'resolution-ledger-accepted-mapping' })
+  })
+
+  it('withholds exact name and rank candidates until taxonomic lineage is compatible', () => {
+    expect(queryEligibility({
+      resolutionStatus: 'resolved',
+      resolutionReason: 'resolved-exact-name-and-rank',
+      pbdbId: 'txn:123',
+      acceptedName: 'Exampletaxon',
+      parentRelationshipKind: 'taxonomic-parent',
+      lineageCompatibility: 'indeterminate',
+      conceptReviewStatus: 'unresolved-lineage',
+      automatedRecommendation: 'accept-external-mapping',
+    })).toEqual({ eligible: false, reason: 'lineage-not-verified' })
   })
 
   it('normalizes provider fields without inventing missing coordinates', () => {
