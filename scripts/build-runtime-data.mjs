@@ -746,7 +746,6 @@ const current = {
     packageOwnership: `${entities.filter((entity) => entity.packageId).length}/${entities.length}`,
     acceptedSpeciesPackageOwnership: `${catalogueRuntimeManifest.ownership.assignedSpecies}/${catalogueRuntimeManifest.ownership.acceptedSpecies}`,
     scientificMaturitySummary: registry.packages
-      .filter((entry) => entry.id !== 'atlas-core')
       .reduce((summary, entry) => {
         summary[entry.scientificMaturity] = (summary[entry.scientificMaturity] ?? 0) + 1
         return summary

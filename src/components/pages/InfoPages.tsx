@@ -181,7 +181,7 @@ export function DataPage({ onNavigate }: PageProps) {
           ))}
         </div>
         <div className="offline-actions">
-          <button className="button button--ghost" type="button" disabled={offlineBusy} onClick={() => void storeOffline()}>{t(offlineStatus === 'saving' ? 'Saving…' : offlineStatus === 'saved' ? 'Saved for offline use' : 'Save all published packages')}</button>
+          <button className="button button--ghost" type="button" disabled={offlineBusy} onClick={() => void storeOffline()}>{t(offlineStatus === 'saving' ? 'Saving…' : offlineStatus === 'saved' ? 'Saved for offline use' : 'Save all current packages')}</button>
           <button className="button button--ghost" type="button" disabled={offlineBusy} onClick={() => void storeCompleteAtlasOffline()}>{t(offlineStatus === 'saving-complete' ? 'Saving complete Atlas…' : offlineStatus === 'saved-complete' ? 'Complete Atlas saved' : 'Save complete Atlas ({size})', { size: completeOfflinePlan ? `${(completeOfflinePlan.totalBytes / 1024 / 1024).toFixed(0)} MiB` : '…' })}</button>
           <button className="button button--ghost" type="button" disabled={offlineBusy} onClick={() => void clearOffline()}>{t('Clear offline data')}</button>
           {completeOfflineProgress && offlineStatus === 'saving-complete' && <span role="status">{t('Saved {completed} of {total} files', { completed: number(completeOfflineProgress.completedFiles), total: number(completeOfflineProgress.fileCount) })}</span>}
@@ -318,7 +318,7 @@ export function MethodsPage({ onNavigate }: PageProps) {
         <article>
           <span className="section-label">{t('Space')}</span>
           <h2>{t('Maps are discrete models.')}</h2>
-          <p>{t('Continental geometry is withheld until source, license and processing provenance is complete. Occurrence coordinates remain explicitly separated into reconstructed and modern modes.')}</p>
+          <p>{t('The map uses the nearest available frame from six locally reconstructed CAO2024 layers. It does not provide elevation, bathymetry or terrain relief, and it is not assumed to be co-registered with PBDB paleocoordinates.')}</p>
         </article>
         <article>
           <span className="section-label">{t('Topology')}</span>

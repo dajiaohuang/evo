@@ -16,6 +16,7 @@ test('desktop home opens the focused dashboard with presets behind a tutorial ch
   await expect(page.getByRole('complementary', { name: 'Preset scenes' }).getByRole('button')).toHaveCount(4)
   await expect(page.locator('.explorer-nav')).toHaveCount(0)
   await expect(page.locator('.explorer-inspector')).toHaveCount(0)
+  await expect(page.locator('.explorer-stage')).toHaveScreenshot('home-hero-desktop.png', { animations: 'disabled', maxDiffPixelRatio: 0.01 })
   await page.getByRole('button', { name: 'Open detailed tools' }).last().click()
   await expect(page.locator('.explorer-nav')).toBeVisible()
   await expect(page.locator('.explorer-inspector')).toBeVisible()
@@ -32,6 +33,7 @@ test('mobile static dossier keeps evidence status, actions and prose inside the 
   expect(status!.x).toBeGreaterThanOrEqual(0)
   expect(status!.x + status!.width).toBeLessThanOrEqual(391)
   await expectNoHorizontalOverflow(page)
+  await expect(page.locator('.status')).toHaveScreenshot('flagship-evidence-status-mobile.png', { animations: 'disabled', maxDiffPixelRatio: 0.01 })
 })
 
 test('first Explorer visit walks through presets, time, map, tree and evidence once', async ({ page }) => {
@@ -44,6 +46,7 @@ test('first Explorer visit walks through presets, time, map, tree and evidence o
   await expect(guide.getByRole('listitem')).toHaveCount(5)
   await expect(guide.getByRole('heading', { name: 'Begin with a preset scene' })).toBeVisible()
   await expectNoHorizontalOverflow(page)
+  await expect(guide).toHaveScreenshot('explorer-quick-guide-mobile.png', { animations: 'disabled', maxDiffPixelRatio: 0.01 })
 
   await guide.getByRole('button', { name: 'Next' }).click()
   await expect(guide.getByRole('heading', { name: 'Move every view through time' })).toBeVisible()
@@ -62,4 +65,16 @@ test('first Explorer visit walks through presets, time, map, tree and evidence o
   await page.reload()
   await expect(page.getByRole('complementary', { name: 'Explorer quick guide' })).toHaveCount(0)
   await expectNoHorizontalOverflow(page)
+})
+
+test('direct Explorer routes do not show the dashboard first-run choice', async ({ page }) => {
+  await page.addInitScript(() => window.localStorage.removeItem('evo-explorer-guide-v2'))
+  await page.goto('./#/explore?age=66')
+  await expect(page.getByRole('dialog', { name: 'Start with the dashboard or take the quick tour?' })).toHaveCount(0)
+  await expect(page.locator('.explorer-nav')).toBeVisible()
+  await expect(page.locator('.explorer-inspector')).toBeVisible()
+  await page.getByRole('button', { name: 'Tutorial' }).click()
+  await expect(page.getByRole('complementary', { name: 'Explorer quick guide' })).toBeVisible()
+  await expect(page.getByRole('dialog', { name: 'Start with the dashboard or take the quick tour?' })).toHaveCount(0)
+  await expect(page.getByRole('complementary', { name: 'Explorer quick guide' }).getByRole('listitem')).toHaveCount(5)
 })

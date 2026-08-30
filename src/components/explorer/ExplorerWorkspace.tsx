@@ -29,7 +29,7 @@ interface ExplorerWorkspaceProps {
 const DASHBOARD_PRESETS: Array<{ id: string; title: string; description: string; age: number; view: ExplorerView; taxonId?: string }> = [
   { id: 'k-pg', title: 'K–Pg boundary', description: 'Extinction boundary, occurrences and changing land geometry', age: 66, view: 'map' },
   { id: 'cambrian', title: 'Cambrian seas', description: 'Early Phanerozoic geography and sampled fossil records', age: 512.8, view: 'map' },
-  { id: 'perissodactyla', title: 'Odd-toed ungulates', description: 'A curator-draft evidence package and its tree context', age: 34, view: 'tree', taxonId: 'perissodactyla' },
+  { id: 'perissodactyla', title: 'Odd-toed ungulates', description: 'An evidence package at curated-draft maturity and its tree context', age: 34, view: 'tree', taxonId: 'perissodactyla' },
   { id: 'jurassic', title: 'Jurassic radiations', description: 'Compare sampled diversity around 172 Ma', age: 172.3, view: 'diversity' },
 ]
 
@@ -104,7 +104,7 @@ export function ExplorerWorkspace({ dashboard = false }: ExplorerWorkspaceProps)
   const [mobilePanel, setMobilePanel] = useState<'navigator' | 'inspector' | null>(null)
   const [query, setQuery] = useState('')
   const [shareStatus, setShareStatus] = useState<'idle' | 'copied' | 'ready'>('idle')
-  const [guideMode, setGuideMode] = useState<GuideMode>(initialGuideMode)
+  const [guideMode, setGuideMode] = useState<GuideMode>(() => dashboard ? initialGuideMode() : 'hidden')
   const [guideStep, setGuideStep] = useState(0)
   const [detailsOpen, setDetailsOpen] = useState(!dashboard)
 
@@ -440,7 +440,7 @@ export function ExplorerWorkspace({ dashboard = false }: ExplorerWorkspaceProps)
             <button aria-expanded={mobilePanel === 'inspector'} onClick={() => setMobilePanel((panel) => panel === 'inspector' ? null : 'inspector')}>{t('Evidence')}</button>
           </div>
           <div className="stage-actions">
-            <button className="stage-tutorial-trigger" onClick={() => setGuideMode('choice')}>{t('Tutorial')}</button>
+            <button className="stage-tutorial-trigger" onClick={dashboard ? () => setGuideMode('choice') : startTutorial}>{t('Tutorial')}</button>
             {dashboard && <button className="stage-details-trigger" aria-expanded={detailsOpen} onClick={() => setDetailsOpen((open) => !open)}>{t(detailsOpen ? 'Fold detailed tools' : 'Open detailed tools')}</button>}
             <div className="stage-metric">
               <strong>{number(periodOccurrences?.length ?? 0)}</strong>

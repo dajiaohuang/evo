@@ -56,6 +56,7 @@ export function collectDataSummary() {
   const editorialDecisions = readJson('data/evidence/editorial-decisions.json')
   const entityRegistry = readJson('data/registry/entities/entities.json')
   const packageRegistry = readJson('data/registry/package-registry.json')
+  const paleogeography = readJson('data/paleogeography/provenance.json')
   const catalogue = readJson('data/catalogue-of-life/releases/2026-08-20/registry/manifest.json')
   const periodNames = timeScale.units.filter((unit) => unit.itp === 'period').map((unit) => unit.nam)
   const occurrences = periodNames.flatMap((periodName) => readJson(`data/fossils/${periodName.toLowerCase()}.json`))
@@ -68,7 +69,8 @@ export function collectDataSummary() {
       fossilOccurrences: occurrences.length,
       treeNodes: countTreeNodes(ontology),
       geologicalPeriods: periodNames.length,
-      paleogeographicSnapshots: periodMetadata.filter((record) => record.mapLayerStatus === 'available').length,
+      periodMidpointSnapshots: periodMetadata.filter((record) => record.mapLayerStatus === 'available').length,
+      paleogeographicFrames: Object.values(paleogeography.series.layers).reduce((sum, layer) => sum + layer.frames.length, 0),
       earthHistoryMa: timeScale.earthAgeMa,
       timeScaleUnits: timeScale.units.length,
       taxonProfiles: profiles.length,

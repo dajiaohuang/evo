@@ -4,16 +4,18 @@
 
 [在线打开综合看板](https://dajiaohuang.github.io/evo/#/home) · [数据方法](docs/data-methods.md) · [移动端构建](docs/mobile-apps.md) · [参与维护](CONTRIBUTING.md) · [隐私说明](PRIVACY.md)
 
-Evo Atlas 默认直接进入综合看板：地图、时间轴、生命树和化石样本共享一个时间上下文；首次使用时只需选择“直接进入”或“3 分钟教程”。预设场景始终可见，详细研究工具默认收起。
+Evo Atlas 默认直接进入综合看板：地图、时间轴、生命树和化石样本共享一个时间上下文；首次使用时只需选择“直接进入”或“3 分钟教程”。预设场景在综合看板的默认收起状态下可见，打开详细研究工具后随紧凑入口一起收起。
 
 ## 当前状态
 
 Evo Atlas 不是一个把生成文本包装成“完整百科”的项目。它同时维护两种覆盖范围，并在界面中明确区分：
 
 - 名录覆盖：固定到 Catalogue of Life Base Release `COL26.8`。2,183,133 个严格接受种全部能沿真实父子链路由到唯一资源归属，另有 2,065,436 个异名、歧义异名和误用名可解析到接受名。
-- 内容覆盖：24 个静态资源包中的证据档案、事件、故事、范围和参考文献。rc37 已无 `generated-scaffold`，科学成熟度为 23 个 `structured` 和 1 个 `curated-draft`（奇蹄目）；23 个包尚未人工审阅，奇蹄目的存储状态为 `in-review`，但内容摘要变化使有效状态成为 `stale`，没有包声称达到科学 `published`。平台 `published` 与自动检查通过只表示静态发布链完整，不等于内容或专家审阅已经完成。
+- 内容覆盖：24 个静态资源包中的证据档案、事件、故事、范围和参考文献。当前已无 `generated-scaffold` 或 `structured`：23 个包为 `source-linked`，奇蹄目为唯一的 `curated-draft`；23 个包尚未人工审阅，奇蹄目的存储状态为 `in-review`，但内容摘要变化使有效状态成为 `stale`，没有包声称达到科学 `published`。平台 `published` 与自动检查通过只表示静态发布链完整，不等于内容或专家审阅已经完成。
 
-当前开发数据快照为 `2026.08-static-v5-rc41`，Web/Android/iOS 客户端版本为 `0.20.0`。精确记录数、校验和和限制以 [`data/manifest.json`](data/manifest.json) 为准；科学内容变更见 [`data/CHANGELOG.md`](data/CHANGELOG.md)。
+当前开发数据快照为 `2026.08-static-v5-rc46`，Web/Android/iOS 客户端版本为 `0.20.0`。精确记录数、校验和和限制以 [`data/manifest.json`](data/manifest.json) 为准；科学内容变更见 [`data/CHANGELOG.md`](data/CHANGELOG.md)。
+
+`rc46` 对齐公开文案、地图清单与首次使用流程：392 个导航实体与 24 个资源包保持不变；清单分别报告 12 个地质纪中点摘要和六层合计 1,889 个 CAO2024 帧，并明确这些帧由 11 个固定 Zenodo 载荷通过本地 pyGPlates 重建。直接进入 `#/explore` 不再弹出综合看板的首次选择，手动教程仍保留五步。此次版本刷新不代表新的人工或外部专家科学审阅。
 
 `rc41` 在完整保留 rc39 的 13 个植物与无脊椎动物根范围、棘皮动物证据故事，以及 rc40 的 11 个脊椎动物与爬行动物根范围后，继续关闭 Atlas Core、主龙类和哺乳类剩余 21 个主导航根。每个新范围都连接双语主张与具页码、图号或章节定位符的主研究，并明确区分非正式选集、总群样本、化石最低锚点、现生延续、模型包络和导航上限；这些浏览范围不被写成祖先序列、全球首现或可互换的冠群年龄。全部懒加载翻译、COL26.8 的 2,183,133 个唯一接受种路由、Web/Android/iOS 完整离线内容和 `0.20.0` 客户端保持一致。
 
@@ -127,7 +129,7 @@ npm run mobile:ios
 
 `npm run mobile:build` 只生成 `dist-mobile/`；`mobile:sync` 再把该壳和插件配置复制到 `android/` 与 `ios/`。不要手改原生工程中被 `.gitignore` 排除的 Web 产物。应用 ID 为 `io.github.dajiaohuang.evoatlas`，自定义深链示例为：
 
-安装后的“数据”页提供两级离线能力：单个/全部资源包下载适合日常使用；“保存完整图谱”会保存 Core、全部资源包、全局化石、全部 CAO2024 帧和完整 COL 名录。当前 rc39 的完整交互数据体积与文件数以版本化发布清单为准；以后版本会按发布清单显示实际体积。重复的 ZIP 导出包不计入离线交互集。
+安装后的“数据”页提供两级离线能力：单个/全部资源包下载适合日常使用；“保存完整图谱”会保存 Core、全部资源包、全局化石、全部 CAO2024 帧和完整 COL 名录。当前版本的完整交互数据体积与文件数始终从版本化发布清单计算；以后版本也按各自清单显示实际体积。重复的 ZIP 导出包不计入离线交互集。
 
 ```text
 evoatlas://open/stories?id=angiosperm-evidence-boundaries
