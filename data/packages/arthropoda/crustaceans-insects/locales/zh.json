@@ -1,6 +1,6 @@
 {
   "language": "zh",
-  "version": "2026.08-static-v5-rc37",
+  "version": "2026.08-static-v5-rc38",
   "strings": {
     "entity.arthropoda.name": "节肢动物",
     "entity.insecta.name": "昆虫",
@@ -31,6 +31,9 @@
     "entity.insect-radiation-evidence-route.name": "昆虫转录组与真变态类化石",
     "entity.pennsylvanian-eumetabola.name": "五件石炭纪真变态类昆虫化石",
     "entity.insect-1kite-dataset.name": "昆虫转录组矩阵",
+    "profile.tokummia.name": "托昆米亚正模与副模",
+    "profile.waptia.name": "瓦普塔虾标本系列",
+    "profile.yicaris.name": "滇虫甲壳幼体发育系列",
     "claim.claim:event:tokummia-mandibulate-anatomy.confidenceRationale": "具名正模和副模直接保存被评分的附肢；档案把性状观察、矩阵拓扑与祖先关系明确分开。",
     "claim.claim:event:waptia-mandibulate-series.confidenceRationale": "超过 1,800 件标本及具名口器材料可直接复核；泛甲壳动物位置和捕食游泳生态仍是拓扑与功能解释。",
     "claim.claim:event:yicaris-developmental-series.confidenceRationale": "三维磷酸盐化发育阶段直接记录附肢形态，但外肢同源与冠群位置依赖性状解释。",
@@ -43,6 +46,21 @@
     "claim.claim:event:paskov-carboniferous-wing.confidenceRationale": "翅脉和层位是直接观察；较高阶元归属及飞行或翼昆虫的全球起源时间仍需限定。",
     "claim.claim:event:parhyale-wing-homology-knockout.confidenceRationale": "基因扰动与表型直接检验发育对应关系；深层同源和历史起源仍是演化解释。",
     "claim.claim:event:insect-1kite-topology-clock.confidenceRationale": "归档的转录组矩阵与模型流程可复核；节点年代仍依赖化石归属、时钟先验、取样和序列模型。",
-    "claim.claim:event:pennsylvanian-eumetabola-sample.confidenceRationale": "五件化石及诊断性状由一手研究描述；冠群位置、同步起源与多样化成因仍属于拓扑或古生态解释。"
+    "claim.claim:event:pennsylvanian-eumetabola-sample.confidenceRationale": "五件化石及诊断性状由一手研究描述；冠群位置、同步起源与多样化成因仍属于拓扑或古生态解释。",
+    "claim.claim:taxon:tokummia:taxonomy.confidenceRationale": "托昆米亚正模与副模的分类字段只陈述所引研究与导航范围；不会把矩阵位置、数据库映射或样本相似性改写为直系祖先。",
+    "claim.claim:taxon:tokummia:biogeography.confidenceRationale": "托昆米亚正模与副模的地理字段限于具名样本或明确模型范围，不外推为全球分布、起源中心或完整扩散路径。",
+    "claim.claim:taxon:tokummia:ecology.confidenceRationale": "托昆米亚正模与副模的生态字段区分保存事实与功能推断；未被直接记录的饮食、行为、栖息地偏好和性能均保留不确定性。",
+    "claim.claim:taxon:tokummia:morphology.confidenceRationale": "托昆米亚正模与副模的形态字段限于主研究列明的标本、样本或分析，并连接到精确页码、图版或补充材料。",
+    "claim.claim:taxon:tokummia:fossil-range.confidenceRationale": "托昆米亚正模与副模的年代范围是有界的标本、地层或模型投影，不作为全球首现、末现、分化时间或连续谱系时长。",
+    "claim.claim:taxon:waptia:taxonomy.confidenceRationale": "瓦普塔虾标本系列的分类字段只陈述所引研究与导航范围；不会把矩阵位置、数据库映射或样本相似性改写为直系祖先。",
+    "claim.claim:taxon:waptia:biogeography.confidenceRationale": "瓦普塔虾标本系列的地理字段限于具名样本或明确模型范围，不外推为全球分布、起源中心或完整扩散路径。",
+    "claim.claim:taxon:waptia:ecology.confidenceRationale": "瓦普塔虾标本系列的生态字段区分保存事实与功能推断；未被直接记录的饮食、行为、栖息地偏好和性能均保留不确定性。",
+    "claim.claim:taxon:waptia:morphology.confidenceRationale": "瓦普塔虾标本系列的形态字段限于主研究列明的标本、样本或分析，并连接到精确页码、图版或补充材料。",
+    "claim.claim:taxon:waptia:fossil-range.confidenceRationale": "瓦普塔虾标本系列的年代范围是有界的标本、地层或模型投影，不作为全球首现、末现、分化时间或连续谱系时长。",
+    "claim.claim:taxon:yicaris:taxonomy.confidenceRationale": "滇虫甲壳幼体发育系列的分类字段只陈述所引研究与导航范围；不会把矩阵位置、数据库映射或样本相似性改写为直系祖先。",
+    "claim.claim:taxon:yicaris:biogeography.confidenceRationale": "滇虫甲壳幼体发育系列的地理字段限于具名样本或明确模型范围，不外推为全球分布、起源中心或完整扩散路径。",
+    "claim.claim:taxon:yicaris:ecology.confidenceRationale": "滇虫甲壳幼体发育系列的生态字段区分保存事实与功能推断；未被直接记录的饮食、行为、栖息地偏好和性能均保留不确定性。",
+    "claim.claim:taxon:yicaris:morphology.confidenceRationale": "滇虫甲壳幼体发育系列的形态字段限于主研究列明的标本、样本或分析，并连接到精确页码、图版或补充材料。",
+    "claim.claim:taxon:yicaris:fossil-range.confidenceRationale": "滇虫甲壳幼体发育系列的年代范围是有界的标本、地层或模型投影，不作为全球首现、末现、分化时间或连续谱系时长。"
   }
 }

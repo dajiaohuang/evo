@@ -409,13 +409,18 @@
         "txn:55134",
         "txn:249949",
         "txn:54828",
+        "txn:54885",
+        "txn:55352",
         "txn:55120",
         "txn:2894",
         "txn:3338",
         "txn:2895",
+        "txn:492146",
+        "txn:324165",
         "txn:4524",
         "txn:4742",
         "txn:6108",
+        "txn:465171",
         "txn:26322",
         "txn:7805",
         "txn:16005",
@@ -428,13 +433,19 @@
         "txn:84931",
         "txn:59785",
         "txn:15832",
+        "txn:151846",
+        "txn:146045",
+        "txn:297012",
         "txn:18891",
         "txn:19100",
         "txn:21421",
         "txn:20239",
         "txn:19472",
+        "txn:155131",
         "txn:91508",
         "txn:18947",
+        "txn:19096",
+        "txn:19082",
         "txn:56637",
         "txn:71353",
         "txn:174977",
@@ -443,6 +454,9 @@
         "txn:70707",
         "txn:82629",
         "txn:205077",
+        "txn:473103",
+        "txn:121037",
+        "txn:473019",
         "txn:30739",
         "txn:31590",
         "txn:30820",
@@ -555,13 +569,18 @@
         "bryophyta",
         "lycopodiophyta",
         "pteridophyta",
+        "angiospermae",
+        "monocotyledones",
         "marchantiophyta",
         "porifera",
         "stromatoporoidea",
         "demospongiae",
+        "helicolocellus",
+        "eocyathispongia",
         "cnidaria",
         "anthozoa",
         "scleractinia",
+        "auroralumina",
         "brachiopoda",
         "mollusca",
         "bivalvia",
@@ -574,13 +593,19 @@
         "ammonitida",
         "coleoidea",
         "belemnitida",
+        "kimberella quadrata",
+        "odontogriphus omalus",
+        "nectocaris pteryx",
         "arthropoda",
         "trilobita",
         "phacopida",
         "ptychopariida",
         "corynexochida",
+        "bohemolichas",
         "chelicerata",
         "eurypterida",
+        "urokodia",
+        "mollisonia",
         "insecta",
         "odonata",
         "meganisoptera",
@@ -589,6 +614,9 @@
         "hymenoptera",
         "crustacea",
         "chilopoda",
+        "tokummia katalepsis",
+        "waptia fieldensis",
+        "yicaris dianensis",
         "echinodermata",
         "crinoidea",
         "blastoidea",
@@ -699,7 +727,7 @@
       "matchMethods": {
         "exactExternalId": 437,
         "acceptedName": 0,
-        "higherClassification": 11000
+        "higherClassification": 11048
       },
       "completeSnapshotAvailable": false,
       "completeSnapshotRows": null,
@@ -717,7 +745,7 @@
         "Neogene",
         "Quaternary"
       ],
-      "matchedTotal": 11437
+      "matchedTotal": 11485
     },
     "plantae": {
       "entityId": "plantae",
@@ -751,6 +779,8 @@
         "txn:55134",
         "txn:249949",
         "txn:54828",
+        "txn:54885",
+        "txn:55352",
         "txn:55120"
       ],
       "descendantScientificNames": [
@@ -758,12 +788,14 @@
         "bryophyta",
         "lycopodiophyta",
         "pteridophyta",
+        "angiospermae",
+        "monocotyledones",
         "marchantiophyta"
       ],
       "matchMethods": {
         "exactExternalId": 14,
         "acceptedName": 0,
-        "higherClassification": 256
+        "higherClassification": 304
       },
       "completeSnapshotAvailable": false,
       "completeSnapshotRows": null,
@@ -774,7 +806,7 @@
         "Neogene",
         "Quaternary"
       ],
-      "matchedTotal": 270
+      "matchedTotal": 318
     },
     "bryophyta": {
       "entityId": "bryophyta",
@@ -1033,40 +1065,54 @@
     "angiospermae": {
       "entityId": "angiospermae",
       "entityKind": "taxon",
-      "externalTaxonId": null,
+      "externalTaxonId": "txn:54885",
       "scientificNameNormalized": "angiospermae",
-      "externalResolutionStatus": "ambiguous",
-      "queryStatus": "external-id-unresolved",
+      "externalResolutionStatus": "resolved-exact",
+      "queryStatus": "resolved-and-observed",
       "descendantEntityIds": [
         "monocotyledones",
         "poaceae",
         "eudicotyledones",
         "fabaceae"
       ],
-      "descendantTaxonIds": [],
-      "descendantScientificNames": [],
+      "descendantTaxonIds": [
+        "txn:54885",
+        "txn:55352"
+      ],
+      "descendantScientificNames": [
+        "angiospermae",
+        "monocotyledones"
+      ],
       "matchMethods": {
         "exactExternalId": 0,
         "acceptedName": 0,
-        "higherClassification": 0
+        "higherClassification": 48
       },
       "completeSnapshotAvailable": false,
       "completeSnapshotRows": null,
-      "periods": [],
-      "matchedTotal": 0
+      "periods": [
+        "Triassic",
+        "Neogene",
+        "Quaternary"
+      ],
+      "matchedTotal": 48
     },
     "monocotyledones": {
       "entityId": "monocotyledones",
       "entityKind": "taxon",
-      "externalTaxonId": null,
+      "externalTaxonId": "txn:55352",
       "scientificNameNormalized": "monocotyledones",
-      "externalResolutionStatus": "ambiguous",
-      "queryStatus": "external-id-unresolved",
+      "externalResolutionStatus": "resolved-rank-variant",
+      "queryStatus": "resolved-zero-in-bounded-sample",
       "descendantEntityIds": [
         "poaceae"
       ],
-      "descendantTaxonIds": [],
-      "descendantScientificNames": [],
+      "descendantTaxonIds": [
+        "txn:55352"
+      ],
+      "descendantScientificNames": [
+        "monocotyledones"
+      ],
       "matchMethods": {
         "exactExternalId": 0,
         "acceptedName": 0,
@@ -1320,9 +1366,12 @@
         "txn:2894",
         "txn:3338",
         "txn:2895",
+        "txn:492146",
+        "txn:324165",
         "txn:4524",
         "txn:4742",
         "txn:6108",
+        "txn:465171",
         "txn:26322",
         "txn:7805",
         "txn:16005",
@@ -1335,13 +1384,19 @@
         "txn:84931",
         "txn:59785",
         "txn:15832",
+        "txn:151846",
+        "txn:146045",
+        "txn:297012",
         "txn:18891",
         "txn:19100",
         "txn:21421",
         "txn:20239",
         "txn:19472",
+        "txn:155131",
         "txn:91508",
         "txn:18947",
+        "txn:19096",
+        "txn:19082",
         "txn:56637",
         "txn:71353",
         "txn:174977",
@@ -1350,6 +1405,9 @@
         "txn:70707",
         "txn:82629",
         "txn:205077",
+        "txn:473103",
+        "txn:121037",
+        "txn:473019",
         "txn:30739",
         "txn:31590",
         "txn:30820",
@@ -1364,9 +1422,12 @@
         "porifera",
         "stromatoporoidea",
         "demospongiae",
+        "helicolocellus",
+        "eocyathispongia",
         "cnidaria",
         "anthozoa",
         "scleractinia",
+        "auroralumina",
         "brachiopoda",
         "mollusca",
         "bivalvia",
@@ -1379,13 +1440,19 @@
         "ammonitida",
         "coleoidea",
         "belemnitida",
+        "kimberella quadrata",
+        "odontogriphus omalus",
+        "nectocaris pteryx",
         "arthropoda",
         "trilobita",
         "phacopida",
         "ptychopariida",
         "corynexochida",
+        "bohemolichas",
         "chelicerata",
         "eurypterida",
+        "urokodia",
+        "mollisonia",
         "insecta",
         "odonata",
         "meganisoptera",
@@ -1394,6 +1461,9 @@
         "hymenoptera",
         "crustacea",
         "chilopoda",
+        "tokummia katalepsis",
+        "waptia fieldensis",
+        "yicaris dianensis",
         "echinodermata",
         "crinoidea",
         "blastoidea",
@@ -1447,12 +1517,16 @@
       "descendantTaxonIds": [
         "txn:2894",
         "txn:3338",
-        "txn:2895"
+        "txn:2895",
+        "txn:492146",
+        "txn:324165"
       ],
       "descendantScientificNames": [
         "porifera",
         "stromatoporoidea",
-        "demospongiae"
+        "demospongiae",
+        "helicolocellus",
+        "eocyathispongia"
       ],
       "matchMethods": {
         "exactExternalId": 22,
@@ -1567,8 +1641,12 @@
       "descendantEntityIds": [
         "helicolocellus"
       ],
-      "descendantTaxonIds": [],
-      "descendantScientificNames": [],
+      "descendantTaxonIds": [
+        "txn:492146"
+      ],
+      "descendantScientificNames": [
+        "helicolocellus"
+      ],
       "matchMethods": {
         "exactExternalId": 0,
         "acceptedName": 0,
@@ -1582,13 +1660,17 @@
     "helicolocellus": {
       "entityId": "helicolocellus",
       "entityKind": "taxon",
-      "externalTaxonId": null,
+      "externalTaxonId": "txn:492146",
       "scientificNameNormalized": "helicolocellus",
-      "externalResolutionStatus": "not-found",
-      "queryStatus": "external-id-unresolved",
+      "externalResolutionStatus": "resolved-exact",
+      "queryStatus": "resolved-zero-in-bounded-sample",
       "descendantEntityIds": [],
-      "descendantTaxonIds": [],
-      "descendantScientificNames": [],
+      "descendantTaxonIds": [
+        "txn:492146"
+      ],
+      "descendantScientificNames": [
+        "helicolocellus"
+      ],
       "matchMethods": {
         "exactExternalId": 0,
         "acceptedName": 0,
@@ -1642,13 +1724,17 @@
     "eocyathispongia": {
       "entityId": "eocyathispongia",
       "entityKind": "taxon",
-      "externalTaxonId": null,
+      "externalTaxonId": "txn:324165",
       "scientificNameNormalized": "eocyathispongia",
-      "externalResolutionStatus": "not-found",
-      "queryStatus": "external-id-unresolved",
+      "externalResolutionStatus": "resolved-exact",
+      "queryStatus": "resolved-zero-in-bounded-sample",
       "descendantEntityIds": [],
-      "descendantTaxonIds": [],
-      "descendantScientificNames": [],
+      "descendantTaxonIds": [
+        "txn:324165"
+      ],
+      "descendantScientificNames": [
+        "eocyathispongia"
+      ],
       "matchMethods": {
         "exactExternalId": 0,
         "acceptedName": 0,
@@ -1687,12 +1773,14 @@
       "descendantTaxonIds": [
         "txn:4524",
         "txn:4742",
-        "txn:6108"
+        "txn:6108",
+        "txn:465171"
       ],
       "descendantScientificNames": [
         "cnidaria",
         "anthozoa",
-        "scleractinia"
+        "scleractinia",
+        "auroralumina"
       ],
       "matchMethods": {
         "exactExternalId": 7,
@@ -1873,13 +1961,17 @@
     "auroralumina": {
       "entityId": "auroralumina",
       "entityKind": "taxon",
-      "externalTaxonId": null,
+      "externalTaxonId": "txn:465171",
       "scientificNameNormalized": "auroralumina",
-      "externalResolutionStatus": "not-found",
-      "queryStatus": "external-id-unresolved",
+      "externalResolutionStatus": "resolved-exact",
+      "queryStatus": "resolved-zero-in-bounded-sample",
       "descendantEntityIds": [],
-      "descendantTaxonIds": [],
-      "descendantScientificNames": [],
+      "descendantTaxonIds": [
+        "txn:465171"
+      ],
+      "descendantScientificNames": [
+        "auroralumina"
+      ],
       "matchMethods": {
         "exactExternalId": 0,
         "acceptedName": 0,
@@ -2331,7 +2423,10 @@
         "txn:14000",
         "txn:84931",
         "txn:59785",
-        "txn:15832"
+        "txn:15832",
+        "txn:151846",
+        "txn:146045",
+        "txn:297012"
       ],
       "descendantScientificNames": [
         "mollusca",
@@ -2344,7 +2439,10 @@
         "ceratitida",
         "ammonitida",
         "coleoidea",
-        "belemnitida"
+        "belemnitida",
+        "kimberella quadrata",
+        "odontogriphus omalus",
+        "nectocaris pteryx"
       ],
       "matchMethods": {
         "exactExternalId": 140,
@@ -2806,8 +2904,16 @@
         "orthrozanclus",
         "nectocaris"
       ],
-      "descendantTaxonIds": [],
-      "descendantScientificNames": [],
+      "descendantTaxonIds": [
+        "txn:151846",
+        "txn:146045",
+        "txn:297012"
+      ],
+      "descendantScientificNames": [
+        "kimberella quadrata",
+        "odontogriphus omalus",
+        "nectocaris pteryx"
+      ],
       "matchMethods": {
         "exactExternalId": 0,
         "acceptedName": 0,
@@ -2821,13 +2927,17 @@
     "kimberella": {
       "entityId": "kimberella",
       "entityKind": "taxon",
-      "externalTaxonId": null,
+      "externalTaxonId": "txn:151846",
       "scientificNameNormalized": "kimberella quadrata",
-      "externalResolutionStatus": "not-found",
-      "queryStatus": "external-id-unresolved",
+      "externalResolutionStatus": "resolved-exact",
+      "queryStatus": "resolved-zero-in-bounded-sample",
       "descendantEntityIds": [],
-      "descendantTaxonIds": [],
-      "descendantScientificNames": [],
+      "descendantTaxonIds": [
+        "txn:151846"
+      ],
+      "descendantScientificNames": [
+        "kimberella quadrata"
+      ],
       "matchMethods": {
         "exactExternalId": 0,
         "acceptedName": 0,
@@ -2841,13 +2951,17 @@
     "odontogriphus": {
       "entityId": "odontogriphus",
       "entityKind": "taxon",
-      "externalTaxonId": null,
+      "externalTaxonId": "txn:146045",
       "scientificNameNormalized": "odontogriphus omalus",
-      "externalResolutionStatus": "not-found",
-      "queryStatus": "external-id-unresolved",
+      "externalResolutionStatus": "resolved-exact",
+      "queryStatus": "resolved-zero-in-bounded-sample",
       "descendantEntityIds": [],
-      "descendantTaxonIds": [],
-      "descendantScientificNames": [],
+      "descendantTaxonIds": [
+        "txn:146045"
+      ],
+      "descendantScientificNames": [
+        "odontogriphus omalus"
+      ],
       "matchMethods": {
         "exactExternalId": 0,
         "acceptedName": 0,
@@ -2881,13 +2995,17 @@
     "nectocaris": {
       "entityId": "nectocaris",
       "entityKind": "taxon",
-      "externalTaxonId": null,
+      "externalTaxonId": "txn:297012",
       "scientificNameNormalized": "nectocaris pteryx",
-      "externalResolutionStatus": "not-found",
-      "queryStatus": "external-id-unresolved",
+      "externalResolutionStatus": "resolved-rank-variant",
+      "queryStatus": "resolved-zero-in-bounded-sample",
       "descendantEntityIds": [],
-      "descendantTaxonIds": [],
-      "descendantScientificNames": [],
+      "descendantTaxonIds": [
+        "txn:297012"
+      ],
+      "descendantScientificNames": [
+        "nectocaris pteryx"
+      ],
       "matchMethods": {
         "exactExternalId": 0,
         "acceptedName": 0,
@@ -3069,8 +3187,11 @@
         "txn:21421",
         "txn:20239",
         "txn:19472",
+        "txn:155131",
         "txn:91508",
         "txn:18947",
+        "txn:19096",
+        "txn:19082",
         "txn:56637",
         "txn:71353",
         "txn:174977",
@@ -3078,7 +3199,10 @@
         "txn:69148",
         "txn:70707",
         "txn:82629",
-        "txn:205077"
+        "txn:205077",
+        "txn:473103",
+        "txn:121037",
+        "txn:473019"
       ],
       "descendantScientificNames": [
         "arthropoda",
@@ -3086,8 +3210,11 @@
         "phacopida",
         "ptychopariida",
         "corynexochida",
+        "bohemolichas",
         "chelicerata",
         "eurypterida",
+        "urokodia",
+        "mollisonia",
         "insecta",
         "odonata",
         "meganisoptera",
@@ -3095,7 +3222,10 @@
         "coleoptera",
         "hymenoptera",
         "crustacea",
-        "chilopoda"
+        "chilopoda",
+        "tokummia katalepsis",
+        "waptia fieldensis",
+        "yicaris dianensis"
       ],
       "matchMethods": {
         "exactExternalId": 42,
@@ -3142,13 +3272,15 @@
         "txn:19100",
         "txn:21421",
         "txn:20239",
-        "txn:19472"
+        "txn:19472",
+        "txn:155131"
       ],
       "descendantScientificNames": [
         "trilobita",
         "phacopida",
         "ptychopariida",
-        "corynexochida"
+        "corynexochida",
+        "bohemolichas"
       ],
       "matchMethods": {
         "exactExternalId": 31,
@@ -3266,8 +3398,12 @@
         "bohemolichas",
         "agnostina"
       ],
-      "descendantTaxonIds": [],
-      "descendantScientificNames": [],
+      "descendantTaxonIds": [
+        "txn:155131"
+      ],
+      "descendantScientificNames": [
+        "bohemolichas"
+      ],
       "matchMethods": {
         "exactExternalId": 0,
         "acceptedName": 0,
@@ -3361,13 +3497,17 @@
     "bohemolichas": {
       "entityId": "bohemolichas",
       "entityKind": "taxon",
-      "externalTaxonId": null,
+      "externalTaxonId": "txn:155131",
       "scientificNameNormalized": "bohemolichas",
-      "externalResolutionStatus": "not-found",
-      "queryStatus": "external-id-unresolved",
+      "externalResolutionStatus": "resolved-synonym",
+      "queryStatus": "resolved-zero-in-bounded-sample",
       "descendantEntityIds": [],
-      "descendantTaxonIds": [],
-      "descendantScientificNames": [],
+      "descendantTaxonIds": [
+        "txn:155131"
+      ],
+      "descendantScientificNames": [
+        "bohemolichas"
+      ],
       "matchMethods": {
         "exactExternalId": 0,
         "acceptedName": 0,
@@ -3422,11 +3562,15 @@
       ],
       "descendantTaxonIds": [
         "txn:91508",
-        "txn:18947"
+        "txn:18947",
+        "txn:19096",
+        "txn:19082"
       ],
       "descendantScientificNames": [
         "chelicerata",
-        "eurypterida"
+        "eurypterida",
+        "urokodia",
+        "mollisonia"
       ],
       "matchMethods": {
         "exactExternalId": 4,
@@ -3504,8 +3648,14 @@
         "megachelicerax",
         "mollisonia"
       ],
-      "descendantTaxonIds": [],
-      "descendantScientificNames": [],
+      "descendantTaxonIds": [
+        "txn:19096",
+        "txn:19082"
+      ],
+      "descendantScientificNames": [
+        "urokodia",
+        "mollisonia"
+      ],
       "matchMethods": {
         "exactExternalId": 0,
         "acceptedName": 0,
@@ -3519,13 +3669,17 @@
     "urokodia": {
       "entityId": "urokodia",
       "entityKind": "taxon",
-      "externalTaxonId": null,
+      "externalTaxonId": "txn:19096",
       "scientificNameNormalized": "urokodia",
-      "externalResolutionStatus": "not-found",
-      "queryStatus": "external-id-unresolved",
+      "externalResolutionStatus": "resolved-exact",
+      "queryStatus": "resolved-zero-in-bounded-sample",
       "descendantEntityIds": [],
-      "descendantTaxonIds": [],
-      "descendantScientificNames": [],
+      "descendantTaxonIds": [
+        "txn:19096"
+      ],
+      "descendantScientificNames": [
+        "urokodia"
+      ],
       "matchMethods": {
         "exactExternalId": 0,
         "acceptedName": 0,
@@ -3559,13 +3713,17 @@
     "mollisonia": {
       "entityId": "mollisonia",
       "entityKind": "taxon",
-      "externalTaxonId": null,
+      "externalTaxonId": "txn:19082",
       "scientificNameNormalized": "mollisonia",
-      "externalResolutionStatus": "not-found",
-      "queryStatus": "external-id-unresolved",
+      "externalResolutionStatus": "resolved-exact",
+      "queryStatus": "resolved-zero-in-bounded-sample",
       "descendantEntityIds": [],
-      "descendantTaxonIds": [],
-      "descendantScientificNames": [],
+      "descendantTaxonIds": [
+        "txn:19082"
+      ],
+      "descendantScientificNames": [
+        "mollisonia"
+      ],
       "matchMethods": {
         "exactExternalId": 0,
         "acceptedName": 0,
@@ -4073,8 +4231,14 @@
         "tokummia",
         "waptia"
       ],
-      "descendantTaxonIds": [],
-      "descendantScientificNames": [],
+      "descendantTaxonIds": [
+        "txn:473103",
+        "txn:121037"
+      ],
+      "descendantScientificNames": [
+        "tokummia katalepsis",
+        "waptia fieldensis"
+      ],
       "matchMethods": {
         "exactExternalId": 0,
         "acceptedName": 0,
@@ -4088,13 +4252,17 @@
     "tokummia": {
       "entityId": "tokummia",
       "entityKind": "taxon",
-      "externalTaxonId": null,
+      "externalTaxonId": "txn:473103",
       "scientificNameNormalized": "tokummia katalepsis",
-      "externalResolutionStatus": "not-found",
-      "queryStatus": "external-id-unresolved",
+      "externalResolutionStatus": "resolved-exact",
+      "queryStatus": "resolved-zero-in-bounded-sample",
       "descendantEntityIds": [],
-      "descendantTaxonIds": [],
-      "descendantScientificNames": [],
+      "descendantTaxonIds": [
+        "txn:473103"
+      ],
+      "descendantScientificNames": [
+        "tokummia katalepsis"
+      ],
       "matchMethods": {
         "exactExternalId": 0,
         "acceptedName": 0,
@@ -4108,13 +4276,17 @@
     "waptia": {
       "entityId": "waptia",
       "entityKind": "taxon",
-      "externalTaxonId": null,
+      "externalTaxonId": "txn:121037",
       "scientificNameNormalized": "waptia fieldensis",
-      "externalResolutionStatus": "not-found",
-      "queryStatus": "external-id-unresolved",
+      "externalResolutionStatus": "resolved-exact",
+      "queryStatus": "resolved-zero-in-bounded-sample",
       "descendantEntityIds": [],
-      "descendantTaxonIds": [],
-      "descendantScientificNames": [],
+      "descendantTaxonIds": [
+        "txn:121037"
+      ],
+      "descendantScientificNames": [
+        "waptia fieldensis"
+      ],
       "matchMethods": {
         "exactExternalId": 0,
         "acceptedName": 0,
@@ -4136,8 +4308,12 @@
         "yicaris",
         "ostracod-phylogenomics"
       ],
-      "descendantTaxonIds": [],
-      "descendantScientificNames": [],
+      "descendantTaxonIds": [
+        "txn:473019"
+      ],
+      "descendantScientificNames": [
+        "yicaris dianensis"
+      ],
       "matchMethods": {
         "exactExternalId": 0,
         "acceptedName": 0,
@@ -4151,13 +4327,17 @@
     "yicaris": {
       "entityId": "yicaris",
       "entityKind": "taxon",
-      "externalTaxonId": null,
+      "externalTaxonId": "txn:473019",
       "scientificNameNormalized": "yicaris dianensis",
-      "externalResolutionStatus": "not-found",
-      "queryStatus": "external-id-unresolved",
+      "externalResolutionStatus": "resolved-exact",
+      "queryStatus": "resolved-zero-in-bounded-sample",
       "descendantEntityIds": [],
-      "descendantTaxonIds": [],
-      "descendantScientificNames": [],
+      "descendantTaxonIds": [
+        "txn:473019"
+      ],
+      "descendantScientificNames": [
+        "yicaris dianensis"
+      ],
       "matchMethods": {
         "exactExternalId": 0,
         "acceptedName": 0,

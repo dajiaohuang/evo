@@ -1,12 +1,12 @@
 {
   "schemaVersion": 5,
   "id": "early-land-plants",
-  "version": "2026.08-static-v5-rc37",
+  "version": "2026.08-static-v5-rc38",
   "title": "Early Land-Plant Evidence, Bryophytes and Seed-Free Vascular Plants",
   "titleZh": "早期陆生植物证据、苔藓植物与无种子维管植物",
   "conceptScope": {
-    "en": "Selected Embryophyta evidence plus COL26.8 accepted-species coverage for bryophytes, lycophytes, ferns and horsetails. The atlas Plantae node is navigation context only; seed plants belong to separate packages. Legacy range projections remain unreviewed and must not be interpreted as crown-group first appearances.",
-    "zh": "收录部分胚胎植物证据，并完整路由 COL26.8 中已接受的苔藓植物、石松类、蕨类与木贼类物种。图谱的 Plantae 节点仅提供导航背景；种子植物归入独立内容包。旧版延限投影尚未复核，不得解释为任何冠群的化石首现。"
+    "en": "Selected Embryophyta evidence plus COL26.8 accepted-species coverage for bryophytes, lycophytes, ferns and horsetails. Field-linked Lycopodiophyta and Marchantiophyta profiles use Asteroxylon and Metzgeriothallus as bounded exemplars rather than direct ancestors or universal body plans. The atlas Plantae node is navigation context only; seed plants belong to separate packages. Unreviewed legacy range projections must not be interpreted as crown-group first appearances.",
+    "zh": "收录部分胚胎植物证据，并完整路由 COL26.8 中已接受的苔藓植物、石松类、蕨类与木贼类物种。逐字段石松门与地钱门档案分别以 Asteroxylon 和 Metzgeriothallus 作为范围受限的范例，不把它们写成直系祖先或普适体制。图谱的 Plantae 节点仅提供导航背景；种子植物归入独立内容包。尚未复核的旧版延限不得解释为任何冠群的化石首现。"
   },
   "rootEntityIds": [
     "plantae",
@@ -30,7 +30,8 @@
     "ranges": "data/ranges/range-evidence.json",
     "externalResolutions": "data/sources/pbdb-taxon-resolution.json",
     "references": "data/references.json",
-    "occurrences": "data/fossils/*.json"
+    "occurrences": "data/fossils/*.json",
+    "profilesSource": "data/packages/plantae/early-land-plants/profiles.source.json"
   },
   "platformMaturity": "published",
   "scientificMaturity": "structured",

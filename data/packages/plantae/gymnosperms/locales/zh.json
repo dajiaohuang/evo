@@ -1,17 +1,29 @@
 {
   "language": "zh",
-  "version": "2026.08-static-v5-rc37",
+  "version": "2026.08-static-v5-rc38",
   "strings": {
     "entity.gymnospermae.name": "裸子植物",
     "entity.cycadophyta.name": "苏铁类",
     "entity.ginkgophyta.name": "银杏类",
     "entity.coniferophyta.name": "松柏类",
     "entity.araucariaceae.name": "南洋杉类",
+    "profile.cycadophyta.name": "苏铁类",
+    "profile.ginkgophyta.name": "银杏类",
     "claim.claim:event:extant-gymnosperm-backbone.confidenceRationale": "该拓扑来自覆盖全部现生科的大型核基因矩阵，但研究也记录了基因树冲突以及部分数据子集中的替代位置。因此图谱把 Gnepine 排列呈现为支持较强的已发表假说，而不是永久共识。",
     "claim.claim:event:living-cycad-radiation-model.confidenceRationale": "2011 年结果是针对取样现生谱系的可复现模型估计；后续分析采用不同的分类取样、化石和校准处理，并恢复出更老的深层节点。中等置信度适用于模型结果及其边界的研究史，不适用于一个普适的现生苏铁多样化年龄。",
     "claim.claim:event:cycadaceae-palaeogene-crown-model.confidenceRationale": "一手研究明确比较了校准方案和树先验，其偏好的组合证据得到所列平均年龄。其他方案的结果范围宽得多，因此图谱保留模型和校准依赖性，不把显示区间当作观察延限。",
     "claim.claim:event:cycad-latitudinal-contraction.confidenceRationale": "取样、化石位置和过程型生物地理模型均有明确记录，含化石与不含化石分析之间的差异也由论文直接报告。结果仍依赖模型和样本，并遗漏部分重要化石；它也没有证明某一种气候驱动是唯一原因。",
     "claim.claim:event:tiaojishan-ginkgoxylon.confidenceRationale": "研究直接描述和图示了标本、地点、地层、数值区间与诊断解剖特征。中等置信度保留了器官分类单元和单标本边界，包括作者关于该木材无法安全关联到任何一个共存叶种的说明。",
-    "claim.claim:event:conifer-hemisphere-node-pattern.confidenceRationale": "比较结果来自广泛的现生种取样与 16 个化石校准，作者认为半球差异通过了多项稳健性检查。但绝对节点年龄可能偏年轻，买麻藤目被排除且序列覆盖不完整，因此气候因果解释仍是假说。"
+    "claim.claim:event:conifer-hemisphere-node-pattern.confidenceRationale": "比较结果来自广泛的现生种取样与 16 个化石校准，作者认为半球差异通过了多项稳健性检查。但绝对节点年龄可能偏年轻，买麻藤目被排除且序列覆盖不完整，因此气候因果解释仍是假说。",
+    "claim.claim:taxon:cycadophyta:taxonomy.confidenceRationale": "苏铁类的分类字段只陈述所引研究与导航范围；不会把矩阵位置、数据库映射或样本相似性改写为直系祖先。",
+    "claim.claim:taxon:cycadophyta:biogeography.confidenceRationale": "苏铁类的地理字段限于具名样本或明确模型范围，不外推为全球分布、起源中心或完整扩散路径。",
+    "claim.claim:taxon:cycadophyta:ecology.confidenceRationale": "苏铁类的生态字段区分保存事实与功能推断；未被直接记录的饮食、行为、栖息地偏好和性能均保留不确定性。",
+    "claim.claim:taxon:cycadophyta:morphology.confidenceRationale": "苏铁类的形态字段限于主研究列明的标本、样本或分析，并连接到精确页码、图版或补充材料。",
+    "claim.claim:taxon:cycadophyta:fossil-range.confidenceRationale": "苏铁类的年代范围是有界的标本、地层或模型投影，不作为全球首现、末现、分化时间或连续谱系时长。",
+    "claim.claim:taxon:ginkgophyta:taxonomy.confidenceRationale": "银杏类的分类字段只陈述所引研究与导航范围；不会把矩阵位置、数据库映射或样本相似性改写为直系祖先。",
+    "claim.claim:taxon:ginkgophyta:biogeography.confidenceRationale": "银杏类的地理字段限于具名样本或明确模型范围，不外推为全球分布、起源中心或完整扩散路径。",
+    "claim.claim:taxon:ginkgophyta:ecology.confidenceRationale": "银杏类的生态字段区分保存事实与功能推断；未被直接记录的饮食、行为、栖息地偏好和性能均保留不确定性。",
+    "claim.claim:taxon:ginkgophyta:morphology.confidenceRationale": "银杏类的形态字段限于主研究列明的标本、样本或分析，并连接到精确页码、图版或补充材料。",
+    "claim.claim:taxon:ginkgophyta:fossil-range.confidenceRationale": "银杏类的年代范围是有界的标本、地层或模型投影，不作为全球首现、末现、分化时间或连续谱系时长。"
   }
 }

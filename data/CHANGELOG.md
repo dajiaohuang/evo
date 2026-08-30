@@ -1,5 +1,12 @@
 # Dataset changelog
 
+## 2026.08-static-v5-rc38 — 2026-08-30
+
+- Added twenty representative, package-specific profiles across sponges and cnidarians, molluscs, echinoderms, trilobites and stem chelicerates, Cambrian mandibulates, early land plants, gymnosperms and angiosperms. Every visible profile field now maps to a typed taxon claim with a concrete primary-study page, figure or section locator.
+- Resolved pinned PBDB identifiers for *Eocyathispongia*, *Helicolocellus*, *Auroralumina*, *Kimberella quadrata*, *Odontogriphus omalus*, *Nectocaris pteryx*, *Bohemolichas*, *Urokodia*, *Mollisonia*, *Tokummia katalepsis*, *Waptia fieldensis*, *Yicaris dianensis*, Angiospermae and Monocotyledoneae. The *Bohemolichas* synonym and the incompatible legacy PBDB placement of *Nectocaris* remain explicit rather than silently normalized.
+- Linked principal sample or clade ranges to the new fossil-range claims while retaining their evidence boundaries. Specimen and formation envelopes are not global FADs or LADs; modelled angiosperm and cycad ages are not body-fossil occurrences; *Asteroxylon*, *Metzgeriothallus*, *Ginkgoxylon*, *Montsechia* and *Cratolirion* remain bounded exemplars rather than ancestors or clade-wide trait proxies.
+- Preserved all rc34–rc37 profiles, claims and competing topologies, the Primates `3W7` routing correction, tutorial, native tests, CAO documentation and lazy-loaded translation chunks. All 2,183,133 COL26.8 accepted-species assignments remain unique with zero unmatched, and Web, Android and iOS continue to share app version `0.20.0`.
+
 ## 2026.08-static-v5-rc37 — 2026-08-30
 
 - Added fifteen source profiles across `mammal-origins`, `primates`, `carnivora`, `cetartiodactyla` and `other-mammals`. Every visible profile field now projects to a taxon-specific taxonomy, range, biogeography, ecology or morphology claim with a concrete primary-study locator and Chinese confidence rationale.

@@ -41,12 +41,18 @@
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "note": "The 280–0 Ma atlas envelope is a rounded total-group navigation span contextualized by fossil-integrated analyses, not a directly dated crown FAD or uninterrupted lineage."
     },
     "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
     "confidence": "medium",
-    "claimIds": [],
+    "claimIds": [
+      "claim:taxon:cycadophyta:fossil-range"
+    ],
     "referenceLocators": [
+      {
+        "referenceId": "coiro-2023-cycad-biogeography",
+        "locator": "1619–1631; Figures 2–6; Table 1"
+      },
       {
         "referenceId": "open-tree",
         "locator": "https://opentreeoflife.github.io/use"
@@ -71,12 +77,18 @@
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "note": "The 270–0 Ma atlas envelope remains a rounded phylum navigation range; the 165–153 Ma wood specimen is a bounded occurrence, not the ginkgophyte FAD."
     },
     "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
     "confidence": "medium",
-    "claimIds": [],
+    "claimIds": [
+      "claim:taxon:ginkgophyta:fossil-range"
+    ],
     "referenceLocators": [
+      {
+        "referenceId": "jiang-2016-ginkgoxylon",
+        "locator": "38191, 1–8; Figures 1–3; Systematic palaeontology"
+      },
       {
         "referenceId": "open-tree",
         "locator": "https://opentreeoflife.github.io/use"

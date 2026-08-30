@@ -1,5 +1,5 @@
 export const PACKAGE_SCHEMA_VERSION = 5
-export const DATASET_PACKAGE_VERSION = '2026.08-static-v5-rc37'
+export const DATASET_PACKAGE_VERSION = '2026.08-static-v5-rc38'
 export const DATASET_RELEASE_DATE = '2026-08-30'
 
 export const packageDefinitions = [
@@ -23,8 +23,8 @@ export const packageDefinitions = [
     titleZh: '早期陆生植物证据、苔藓植物与无种子维管植物',
     rootEntityIds: ['plantae', 'bryophyta', 'lycophyta', 'pteridophyta'],
     conceptScope: {
-      en: 'Selected Embryophyta evidence plus COL26.8 accepted-species coverage for bryophytes, lycophytes, ferns and horsetails. The atlas Plantae node is navigation context only; seed plants belong to separate packages. Legacy range projections remain unreviewed and must not be interpreted as crown-group first appearances.',
-      zh: '收录部分胚胎植物证据，并完整路由 COL26.8 中已接受的苔藓植物、石松类、蕨类与木贼类物种。图谱的 Plantae 节点仅提供导航背景；种子植物归入独立内容包。旧版延限投影尚未复核，不得解释为任何冠群的化石首现。',
+      en: 'Selected Embryophyta evidence plus COL26.8 accepted-species coverage for bryophytes, lycophytes, ferns and horsetails. Field-linked Lycopodiophyta and Marchantiophyta profiles use Asteroxylon and Metzgeriothallus as bounded exemplars rather than direct ancestors or universal body plans. The atlas Plantae node is navigation context only; seed plants belong to separate packages. Unreviewed legacy range projections must not be interpreted as crown-group first appearances.',
+      zh: '收录部分胚胎植物证据，并完整路由 COL26.8 中已接受的苔藓植物、石松类、蕨类与木贼类物种。逐字段石松门与地钱门档案分别以 Asteroxylon 和 Metzgeriothallus 作为范围受限的范例，不把它们写成直系祖先或普适体制。图谱的 Plantae 节点仅提供导航背景；种子植物归入独立内容包。尚未复核的旧版延限不得解释为任何冠群的化石首现。',
     },
     wave: 'E',
     scientificMaturity: 'structured',
@@ -36,8 +36,8 @@ export const packageDefinitions = [
     titleZh: '裸子植物',
     rootEntityIds: ['gymnospermae'],
     conceptScope: {
-      en: 'COL26.8 accepted-species routing includes living cycads, Ginkgo, conifers and gnetophytes; in the pinned catalogue, gnetophytes enter through the routed Pinopsida root. Current Atlas entities cover the gymnosperm aggregate, cycads, Ginkgo, conifers and Araucariaceae. Curated events keep specimen occurrences, extant-lineage topology and modelled divergence or biogeography separate. A gnetophyte dossier and claim-linked global ranges remain pending; legacy range projections are unreviewed.',
-      zh: 'COL26.8 已接受物种路由包含现生苏铁类、银杏类、针叶树类和买麻藤类；在固定目录中，买麻藤类经已路由的松柏纲根进入本包。当前图谱实体覆盖裸子植物集合、苏铁类、银杏类、针叶树类和南洋杉科。已整理事件严格区分标本出现、现生谱系拓扑以及模型分化或生物地理推断。买麻藤类档案和有主张关联的全局延限仍待补充；旧版延限投影尚未复核。',
+      en: 'COL26.8 accepted-species routing includes living cycads, Ginkgo, conifers and gnetophytes; in the pinned catalogue, gnetophytes enter through the routed Pinopsida root. Field-linked Cycadophyta and Ginkgophyta profiles keep total-evidence models and the bounded Ginkgoxylon wood specimen separate from direct fossil first appearances. A gnetophyte dossier remains pending; other legacy range projections stay explicitly provisional.',
+      zh: 'COL26.8 已接受物种路由包含现生苏铁类、银杏类、针叶树类和买麻藤类；在固定目录中，买麻藤类经已路由的松柏纲根进入本包。逐字段苏铁门与银杏门档案把全证据模型和范围受限的 Ginkgoxylon 木材标本与直接化石首现严格分开。买麻藤类档案仍待补充；其他旧版延限继续明确标为暂定。',
     },
     wave: 'E',
     scientificMaturity: 'structured',
@@ -49,8 +49,8 @@ export const packageDefinitions = [
     titleZh: '被子植物与禾草',
     rootEntityIds: ['angiospermae'],
     conceptScope: {
-      en: 'COL26.8 accepted-species routing covers flowering plants through the pinned Liliopsida and Magnoliopsida roots; Magnoliopsida is not presented as an exact eudicot root. Curated events separate calibration-sensitive crown models, specimen-scoped Early Cretaceous body fossils, phytolith assemblages and tooth-enamel isotope evidence. Floristic-dominance claims and claim-linked global ranges remain pending; legacy range projections are unreviewed.',
-      zh: 'COL26.8 已接受物种经固定的百合纲与木兰纲根路由到被子植物内容包；木兰纲不被表述为精确的真双子叶植物根。已整理事件严格区分校准敏感的冠群模型、标本限定的早白垩世植物体化石、植硅体组合与牙釉质同位素证据。植物区系优势主张和有主张关联的全局延限仍待补充；旧版延限投影尚未复核。',
+      en: 'COL26.8 accepted-species routing covers flowering plants through the pinned Liliopsida and Magnoliopsida roots; Magnoliopsida is not presented as an exact eudicot root. Field-linked Angiospermae and Monocotyledoneae profiles separate calibration-sensitive crown models from the specimen-scoped Montsechia and Cratolirion records. Floristic-dominance claims remain pending and other legacy ranges remain explicitly provisional.',
+      zh: 'COL26.8 已接受物种经固定的百合纲与木兰纲根路由到被子植物内容包；木兰纲不被表述为精确的真双子叶植物根。逐字段被子植物与单子叶植物档案把校准敏感的冠群模型与标本限定的 Montsechia、Cratolirion 记录严格分开。植物区系优势主张仍待补充，其他旧版延限继续明确标为暂定。',
     },
     wave: 'pilot',
     scientificMaturity: 'structured',
@@ -136,6 +136,10 @@ export const packageDefinitions = [
     title: 'Echinoderms',
     titleZh: '棘皮动物',
     rootEntityIds: ['echinodermata'],
+    conceptScope: {
+      en: 'COL26.8 routes accepted living echinoderm names as nomenclatural browse coverage. Field-linked Echinodermata and Echinoidea profiles separate articulated Cambrian faunas and Ordovician total-group plates from contested older stereom and model-dependent crown ages. The highlighted samples do not establish a global origin, one ancestral ecology or direct ancestry, and remaining legacy ranges stay explicitly provisional.',
+      zh: 'COL26.8 把现生棘皮动物接受名作为命名浏览层路由。逐字段棘皮动物门与海胆纲档案把寒武纪关节相连动物群和奥陶纪总群骨板，与更早但有争议的立体网骨片及依赖模型的冠群年代严格分开。重点样本不确定全球起源、单一祖先生态或直系祖先，其余旧版延限继续明确标为暂定。',
+    },
     wave: 'D',
     scientificMaturity: 'structured',
   },

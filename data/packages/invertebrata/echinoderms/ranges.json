@@ -11,14 +11,15 @@
     "uncertainty": {
       "olderMa": 5,
       "youngerMa": null,
-      "note": "The 510 Ma endpoint represents the earliest robust articulated faunas, reported within an approximately 515–510 Ma interval. Older 520–525 Ma isolated stereom is retained as a separate claim, not treated as an articulated-body endpoint."
+      "note": "The 510–0 Ma profile range begins with robust articulated faunas; older isolated stereom and contested Yanjiahella material do not set the body-fossil endpoint."
     },
     "evidenceBasis": "Articulated Gondwanan faunas document at least four differentiated echinoderm body plans by about 510 Ma; isolated stereom and the contested Fortunian Yanjiahella assignment are represented by separate claims.",
     "confidence": "high",
     "claimIds": [
       "claim:taxon:echinodermata:articulated-faunas-510ma",
       "claim:taxon:echinodermata:earliest-stereom-ossicles",
-      "claim:taxon:echinodermata:yanjiahella-affinity"
+      "claim:taxon:echinodermata:yanjiahella-affinity",
+      "claim:taxon:echinodermata:fossil-range"
     ],
     "referenceLocators": [
       {
@@ -30,7 +31,7 @@
         "locator": "Figure 2a–d; opening Matters Arising text and Methods"
       }
     ],
-    "reviewStatus": "not-reviewed",
+    "reviewStatus": "automated-audit-passed",
     "evidenceLevel": "literature-synthesized"
   },
   {
@@ -105,13 +106,14 @@
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "The rounded older endpoint represents Darriwilian stem-group material and is not the crown-group origin; crown dating is retained as a separate model-dependent claim."
+      "note": "The 460–0 Ma range uses Darriwilian total-group material; it is not the crown origin, which is modelled much later across sampled analyses."
     },
     "evidenceBasis": "Disarticulated bothriocidaroid plates document a Darriwilian total-group record; time-scaled roots extend into the Dapingian or Darriwilian, whereas phylogenomics places the crown much later.",
     "confidence": "medium",
     "claimIds": [
       "claim:taxon:echinoidea:ordovician-stem-record",
-      "claim:taxon:echinoidea:crown-origin"
+      "claim:taxon:echinoidea:crown-origin",
+      "claim:taxon:echinoidea:fossil-range"
     ],
     "referenceLocators": [
       {
@@ -123,7 +125,7 @@
         "locator": "pp. 1–2; Figure 6 and Figure 6—figure supplement 1"
       }
     ],
-    "reviewStatus": "not-reviewed",
+    "reviewStatus": "automated-audit-passed",
     "evidenceLevel": "literature-synthesized"
   },
   {
