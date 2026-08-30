@@ -1,6 +1,6 @@
 {
   "language": "zh",
-  "version": "2026.08-static-v5-rc36",
+  "version": "2026.08-static-v5-rc37",
   "strings": {
     "entity.whippomorpha.name": "鲸河马类及化石近亲",
     "entity.hippopotamidae.name": "河马科",
@@ -20,6 +20,9 @@
     "entity.neoceti.name": "新鲸类（鲸类冠群）",
     "entity.mysticeti.name": "须鲸类",
     "entity.odontoceti.name": "齿鲸类",
+    "profile.indohyus.name": "劳氏兽科骨层样本",
+    "profile.ambulocetus.name": "两栖型早期鲸",
+    "profile.aegicetus.name": "晚始新世原鲸科成员",
     "claim.claim:event:indohyus-aquatic-raoellid-evidence.confidenceRationale": "多项解剖、组织学和同位素观察彼此收敛，但材料来自解体的骨床组合，行为与拓扑结论仍是对取样材料和矩阵的解释。",
     "claim.claim:event:pakicetus-composite-terrestrial-skeleton.confidenceRationale": "各骨骼和地点记录明确，其形态强烈支持承重；但分类关联与全身复原组合了多个个体。",
     "claim.claim:event:ambulocetus-holotype-locomotion.confidenceRationale": "具名骨架直接保存相关椎骨与肢体形态，但划水方式和陆地步态由比较力学及不完整材料复原。",
@@ -27,6 +30,21 @@
     "claim.claim:event:basilosaurus-hind-limb-specimens.confidenceRationale": "后肢形态与 UM 93231 股骨测量是直接标本证据；软组织位置、交配用途和全身游泳效应属于功能外推。",
     "claim.claim:event:aegicetus-holotype-tail-propulsion.confidenceRationale": "关联骨架提供异常丰富的形态信息，但游泳方式是复原结果，且论文公开了巴尔顿期—普里阿邦期界线附近相互冲突的年代证据。",
     "claim.claim:event:whale-hippo-retroposon-topology.confidenceRationale": "多个独立插入位点对同一取样拓扑提供支持，性状矩阵明确。高置信度仅限该现生关系，不用于测定分化时间或放置所有化石类群。",
-    "claim.claim:event:extant-cetacean-supermatrix-tree.confidenceRationale": "组合位点、取样类群与模型过程均有明确记录，且在当时覆盖广泛；但拓扑与年代仍受历史分类、缺失物种、分区、校准和时钟模型影响。"
+    "claim.claim:event:extant-cetacean-supermatrix-tree.confidenceRationale": "组合位点、取样类群与模型过程均有明确记录，且在当时覆盖广泛；但拓扑与年代仍受历史分类、缺失物种、分区、校准和时钟模型影响。",
+    "claim.claim:taxon:indohyus:taxonomy.confidenceRationale": "劳氏兽科骨层样本的分类表述只覆盖具名标本及所引主研究的分析范围；导航归属不表示直系祖先或普适系统树。",
+    "claim.claim:taxon:indohyus:biogeography.confidenceRationale": "劳氏兽科骨层样本的地理字段只投影主研究记录的具体产地，不外推为全球分布、起源中心或完整扩散路径。",
+    "claim.claim:taxon:indohyus:ecology.confidenceRationale": "劳氏兽科骨层样本的生态字段区分保存事实与功能推断；未被标本直接记录的饮食、行为、栖息地或性能均明确保留不确定性。",
+    "claim.claim:taxon:indohyus:morphology.confidenceRationale": "劳氏兽科骨层样本的形态字段限定于主研究列明的具名标本和精确页码、图版或补充材料，不外推到整个支系。",
+    "claim.claim:taxon:indohyus:fossil-range.confidenceRationale": "劳氏兽科骨层样本的年代范围是主研究标本或地层背景的有界投影，不作为全球首现、末现、分化时间或连续谱系时长。",
+    "claim.claim:taxon:ambulocetus:taxonomy.confidenceRationale": "两栖型早期鲸的分类表述只覆盖具名标本及所引主研究的分析范围；导航归属不表示直系祖先或普适系统树。",
+    "claim.claim:taxon:ambulocetus:biogeography.confidenceRationale": "两栖型早期鲸的地理字段只投影主研究记录的具体产地，不外推为全球分布、起源中心或完整扩散路径。",
+    "claim.claim:taxon:ambulocetus:ecology.confidenceRationale": "两栖型早期鲸的生态字段区分保存事实与功能推断；未被标本直接记录的饮食、行为、栖息地或性能均明确保留不确定性。",
+    "claim.claim:taxon:ambulocetus:morphology.confidenceRationale": "两栖型早期鲸的形态字段限定于主研究列明的具名标本和精确页码、图版或补充材料，不外推到整个支系。",
+    "claim.claim:taxon:ambulocetus:fossil-range.confidenceRationale": "两栖型早期鲸的年代范围是主研究标本或地层背景的有界投影，不作为全球首现、末现、分化时间或连续谱系时长。",
+    "claim.claim:taxon:aegicetus:taxonomy.confidenceRationale": "晚始新世原鲸科成员的分类表述只覆盖具名标本及所引主研究的分析范围；导航归属不表示直系祖先或普适系统树。",
+    "claim.claim:taxon:aegicetus:biogeography.confidenceRationale": "晚始新世原鲸科成员的地理字段只投影主研究记录的具体产地，不外推为全球分布、起源中心或完整扩散路径。",
+    "claim.claim:taxon:aegicetus:ecology.confidenceRationale": "晚始新世原鲸科成员的生态字段区分保存事实与功能推断；未被标本直接记录的饮食、行为、栖息地或性能均明确保留不确定性。",
+    "claim.claim:taxon:aegicetus:morphology.confidenceRationale": "晚始新世原鲸科成员的形态字段限定于主研究列明的具名标本和精确页码、图版或补充材料，不外推到整个支系。",
+    "claim.claim:taxon:aegicetus:fossil-range.confidenceRationale": "晚始新世原鲸科成员的年代范围是主研究标本或地层背景的有界投影，不作为全球首现、末现、分化时间或连续谱系时长。"
   }
 }

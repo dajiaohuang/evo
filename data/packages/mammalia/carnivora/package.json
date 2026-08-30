@@ -1,7 +1,7 @@
 {
   "schemaVersion": 5,
   "id": "carnivora",
-  "version": "2026.08-static-v5-rc36",
+  "version": "2026.08-static-v5-rc37",
   "title": "Carnivorans",
   "titleZh": "食肉目",
   "conceptScope": {
@@ -40,7 +40,8 @@
     "ranges": "data/ranges/range-evidence.json",
     "externalResolutions": "data/sources/pbdb-taxon-resolution.json",
     "references": "data/references.json",
-    "occurrences": "data/fossils/*.json"
+    "occurrences": "data/fossils/*.json",
+    "profilesSource": "data/packages/mammalia/carnivora/profiles.source.json"
   },
   "platformMaturity": "published",
   "scientificMaturity": "structured",

@@ -1,7 +1,7 @@
 {
   "schemaVersion": 5,
   "id": "cetartiodactyla",
-  "version": "2026.08-static-v5-rc36",
+  "version": "2026.08-static-v5-rc37",
   "title": "Cetartiodactyl Context and Cetaceans",
   "titleZh": "鲸偶蹄类背景与鲸类",
   "conceptScope": {
@@ -36,7 +36,8 @@
     "ranges": "data/ranges/range-evidence.json",
     "externalResolutions": "data/sources/pbdb-taxon-resolution.json",
     "references": "data/references.json",
-    "occurrences": "data/fossils/*.json"
+    "occurrences": "data/fossils/*.json",
+    "profilesSource": "data/packages/mammalia/cetartiodactyla/profiles.source.json"
   },
   "platformMaturity": "published",
   "scientificMaturity": "structured",

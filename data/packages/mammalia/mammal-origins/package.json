@@ -1,7 +1,7 @@
 {
   "schemaVersion": 5,
   "id": "mammal-origins",
-  "version": "2026.08-static-v5-rc36",
+  "version": "2026.08-static-v5-rc37",
   "title": "Synapsids and Mammal Origins",
   "titleZh": "合弓类与哺乳动物起源",
   "conceptScope": {
@@ -23,16 +23,20 @@
     "mammaliamorpha",
     "mammaliaformes",
     "haramiyida",
+    "haramiyavia",
     "morganucodonta",
     "eutriconodonta",
-    "mammalia"
+    "liaoconodon",
+    "mammalia",
+    "raranimus"
   ],
   "canonicalSources": {
     "entityDefinitions": "data/navigation/atlas-ontology.json",
     "ranges": "data/ranges/range-evidence.json",
     "externalResolutions": "data/sources/pbdb-taxon-resolution.json",
     "references": "data/references.json",
-    "occurrences": "data/fossils/*.json"
+    "occurrences": "data/fossils/*.json",
+    "profilesSource": "data/packages/mammalia/mammal-origins/profiles.source.json"
   },
   "platformMaturity": "published",
   "scientificMaturity": "structured",

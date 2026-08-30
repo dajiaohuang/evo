@@ -11,9 +11,11 @@ Evo Atlas 默认直接进入综合看板：地图、时间轴、生命树和化�
 Evo Atlas 不是一个把生成文本包装成“完整百科”的项目。它同时维护两种覆盖范围，并在界面中明确区分：
 
 - 名录覆盖：固定到 Catalogue of Life Base Release `COL26.8`。2,183,133 个严格接受种全部能沿真实父子链路由到唯一资源归属，另有 2,065,436 个异名、歧义异名和误用名可解析到接受名。
-- 内容覆盖：24 个静态资源包中的证据档案、事件、故事、范围和参考文献。rc36 已无 `generated-scaffold`，科学成熟度为 23 个 `structured` 和 1 个 `curated-draft`（奇蹄目）；23 个包尚未人工审阅，奇蹄目的存储状态为 `in-review`，但内容摘要变化使有效状态成为 `stale`，没有包声称达到科学 `published`。平台 `published` 与自动检查通过只表示静态发布链完整，不等于内容或专家审阅已经完成。
+- 内容覆盖：24 个静态资源包中的证据档案、事件、故事、范围和参考文献。rc37 已无 `generated-scaffold`，科学成熟度为 23 个 `structured` 和 1 个 `curated-draft`（奇蹄目）；23 个包尚未人工审阅，奇蹄目的存储状态为 `in-review`，但内容摘要变化使有效状态成为 `stale`，没有包声称达到科学 `published`。平台 `published` 与自动检查通过只表示静态发布链完整，不等于内容或专家审阅已经完成。
 
-当前开发数据快照为 `2026.08-static-v5-rc36`，Web/Android/iOS 客户端版本为 `0.20.0`。精确记录数、校验和和限制以 [`data/manifest.json`](data/manifest.json) 为准；科学内容变更见 [`data/CHANGELOG.md`](data/CHANGELOG.md)。
+当前开发数据快照为 `2026.08-static-v5-rc37`，Web/Android/iOS 客户端版本为 `0.20.0`。精确记录数、校验和和限制以 [`data/manifest.json`](data/manifest.json) 为准；科学内容变更见 [`data/CHANGELOG.md`](data/CHANGELOG.md)。
+
+`rc37` 为哺乳动物五个资源包新增 15 份具名标本档案：哺乳类起源、灵长类、食肉类、鲸偶蹄类和其他哺乳类的每个公开档案字段都连接到有精确页码、图版或章节定位的一手研究 claim。高阶冠群/总群范围、COL 命名路由和具争议的化石位置仍与标本级事实分开；没有把导航父子关系写成祖先序列。灵长目 COL26.8 路由使用已核对的 usage ID `3W7`，530 个现生接受种名与全部 2,183,133 个接受种的唯一归属保持不变。rc35 的图谱/主龙类拓扑与档案、rc36 的四足动物/爬行动物档案及边界、首次教程、原生端测试、CAO 文档和全部懒加载内容均完整保留。
 
 `rc36` 深化四足登陆、龟鳖—鳞龙与海生爬行动物—翼龙三包：四足过渡导航现直接进入 Elpistostege、Tiktaalik、Acanthostega 与 Ichthyostega；Mosasauroidea 与真正的 Mosasauridae 明确分层；更老但不确定的 Bobosaurus 与诊断明确的 Rhaeticosaurus 并列。五个丰富档案把可见字段逐项连接到一手研究页码、图表或章节，鱼龙、蛇颈龙和翼龙继续作为三次独立辐射呈现。未对接的导航概念不填写 PBDB 编号，13,600 条化石样本暂不扩张。rc35 的年代证据教程、图谱/主龙类档案与两套恐龙根部拓扑全部保留。
 

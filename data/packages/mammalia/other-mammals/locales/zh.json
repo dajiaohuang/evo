@@ -1,6 +1,6 @@
 {
   "language": "zh",
-  "version": "2026.08-static-v5-rc36",
+  "version": "2026.08-static-v5-rc37",
   "strings": {
     "entity.monotremata.name": "单孔类",
     "entity.steropodon.name": "硬齿鸭嘴兽",
@@ -21,6 +21,9 @@
     "entity.juramaia.name": "侏罗兽",
     "entity.eomaia.name": "始祖兽",
     "entity.ambolestes.name": "无惧兽",
+    "profile.steropodon.name": "白垩纪单孔类下颌",
+    "profile.eomaia.name": "早白垩世兽类标本",
+    "profile.onychonycteris.name": "早期爪蝠",
     "claim.claim:event:steropodon-holotype-monotreme.confidenceRationale": "具名下颌与牙齿是直接标本证据；臼齿同源性、系统亲缘和记录优先性取决于比较与取样。",
     "claim.claim:event:platypus-genome-mosaic.confidenceRationale": "读段、组装统计和染色体定位有直接记录，但注释、直系同源、分子定年与性状解释属于计算比较。",
     "claim.claim:event:eomaia-holotype-topology.confidenceRationale": "标本与解剖图是直接证据；真兽类位置和攀爬性取决于性状编码与功能比较，后续一手矩阵还提供明确替代结果。",
@@ -32,6 +35,21 @@
     "claim.claim:event:thalassocnus-bone-density-series.confidenceRationale": "实测致密度与具名标本支持时间趋势，但样本缺口、系统顺序以及与现生水生四足类的类比限制生态推断。",
     "claim.claim:event:mimolagus-holotype-glires.confidenceRationale": "具名标本、产地及牙齿和跗骨解剖有直接记录；体重、奔跑性、生态位与拟兔科关系仍是比较推断。",
     "claim.claim:event:onychonycteris-flight-echolocation.confidenceRationale": "骨架和测量是直接证据；飞行性能、回声定位能力与干群位置依赖功能代理和形态矩阵。",
-    "claim.claim:event:bat-seven-gene-topology.confidenceRationale": "序列矩阵与多种系统分析可复核，但有限基因与类群、模型选择及性状编码仍容许回声定位的替代历史。"
+    "claim.claim:event:bat-seven-gene-topology.confidenceRationale": "序列矩阵与多种系统分析可复核，但有限基因与类群、模型选择及性状编码仍容许回声定位的替代历史。",
+    "claim.claim:taxon:steropodon:taxonomy.confidenceRationale": "白垩纪单孔类下颌的分类表述只覆盖具名标本及所引主研究的分析范围；导航归属不表示直系祖先或普适系统树。",
+    "claim.claim:taxon:steropodon:biogeography.confidenceRationale": "白垩纪单孔类下颌的地理字段只投影主研究记录的具体产地，不外推为全球分布、起源中心或完整扩散路径。",
+    "claim.claim:taxon:steropodon:ecology.confidenceRationale": "白垩纪单孔类下颌的生态字段区分保存事实与功能推断；未被标本直接记录的饮食、行为、栖息地或性能均明确保留不确定性。",
+    "claim.claim:taxon:steropodon:morphology.confidenceRationale": "白垩纪单孔类下颌的形态字段限定于主研究列明的具名标本和精确页码、图版或补充材料，不外推到整个支系。",
+    "claim.claim:taxon:steropodon:fossil-range.confidenceRationale": "白垩纪单孔类下颌的年代范围是主研究标本或地层背景的有界投影，不作为全球首现、末现、分化时间或连续谱系时长。",
+    "claim.claim:taxon:eomaia:taxonomy.confidenceRationale": "早白垩世兽类标本的分类表述只覆盖具名标本及所引主研究的分析范围；导航归属不表示直系祖先或普适系统树。",
+    "claim.claim:taxon:eomaia:biogeography.confidenceRationale": "早白垩世兽类标本的地理字段只投影主研究记录的具体产地，不外推为全球分布、起源中心或完整扩散路径。",
+    "claim.claim:taxon:eomaia:ecology.confidenceRationale": "早白垩世兽类标本的生态字段区分保存事实与功能推断；未被标本直接记录的饮食、行为、栖息地或性能均明确保留不确定性。",
+    "claim.claim:taxon:eomaia:morphology.confidenceRationale": "早白垩世兽类标本的形态字段限定于主研究列明的具名标本和精确页码、图版或补充材料，不外推到整个支系。",
+    "claim.claim:taxon:eomaia:fossil-range.confidenceRationale": "早白垩世兽类标本的年代范围是主研究标本或地层背景的有界投影，不作为全球首现、末现、分化时间或连续谱系时长。",
+    "claim.claim:taxon:onychonycteris:taxonomy.confidenceRationale": "早期爪蝠的分类表述只覆盖具名标本及所引主研究的分析范围；导航归属不表示直系祖先或普适系统树。",
+    "claim.claim:taxon:onychonycteris:biogeography.confidenceRationale": "早期爪蝠的地理字段只投影主研究记录的具体产地，不外推为全球分布、起源中心或完整扩散路径。",
+    "claim.claim:taxon:onychonycteris:ecology.confidenceRationale": "早期爪蝠的生态字段区分保存事实与功能推断；未被标本直接记录的饮食、行为、栖息地或性能均明确保留不确定性。",
+    "claim.claim:taxon:onychonycteris:morphology.confidenceRationale": "早期爪蝠的形态字段限定于主研究列明的具名标本和精确页码、图版或补充材料，不外推到整个支系。",
+    "claim.claim:taxon:onychonycteris:fossil-range.confidenceRationale": "早期爪蝠的年代范围是主研究标本或地层背景的有界投影，不作为全球首现、末现、分化时间或连续谱系时长。"
   }
 }
