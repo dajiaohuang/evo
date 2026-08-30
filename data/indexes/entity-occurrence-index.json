@@ -62,10 +62,16 @@
         "articulata",
         "spiriferida",
         "terebratulida",
+        "brachiopod-origin-dossiers",
+        "micrina",
+        "yuganotheca",
+        "kutorgina-chengjiangensis",
+        "lingula-anatina",
         "mollusca",
         "bivalvia",
         "rudistae",
         "ostreoida",
+        "pojetaia",
         "gastropoda",
         "cephalopoda",
         "nautiloidea",
@@ -75,6 +81,17 @@
         "ammonitida",
         "coleoidea",
         "belemnitida",
+        "octopus-bimaculoides",
+        "molluscan-origin-dossiers",
+        "kimberella",
+        "odontogriphus",
+        "orthrozanclus",
+        "nectocaris",
+        "aculifera",
+        "polyplacophora",
+        "aplacophora",
+        "monoplacophora",
+        "scaphopoda",
         "arthropoda",
         "trilobita",
         "phacopida",
@@ -1090,10 +1107,16 @@
         "articulata",
         "spiriferida",
         "terebratulida",
+        "brachiopod-origin-dossiers",
+        "micrina",
+        "yuganotheca",
+        "kutorgina-chengjiangensis",
+        "lingula-anatina",
         "mollusca",
         "bivalvia",
         "rudistae",
         "ostreoida",
+        "pojetaia",
         "gastropoda",
         "cephalopoda",
         "nautiloidea",
@@ -1103,6 +1126,17 @@
         "ammonitida",
         "coleoidea",
         "belemnitida",
+        "octopus-bimaculoides",
+        "molluscan-origin-dossiers",
+        "kimberella",
+        "odontogriphus",
+        "orthrozanclus",
+        "nectocaris",
+        "aculifera",
+        "polyplacophora",
+        "aplacophora",
+        "monoplacophora",
+        "scaphopoda",
         "arthropoda",
         "trilobita",
         "phacopida",
@@ -1904,7 +1938,12 @@
       "descendantEntityIds": [
         "articulata",
         "spiriferida",
-        "terebratulida"
+        "terebratulida",
+        "brachiopod-origin-dossiers",
+        "micrina",
+        "yuganotheca",
+        "kutorgina-chengjiangensis",
+        "lingula-anatina"
       ],
       "descendantTaxonIds": [
         "txn:26322"
@@ -1996,6 +2035,110 @@
       "periods": [],
       "matchedTotal": 0
     },
+    "brachiopod-origin-dossiers": {
+      "entityId": "brachiopod-origin-dossiers",
+      "entityKind": "navigation-group",
+      "externalTaxonId": null,
+      "scientificNameNormalized": "brachiopod origin dossier route",
+      "externalResolutionStatus": "not-found",
+      "queryStatus": "navigation-only",
+      "descendantEntityIds": [
+        "micrina",
+        "yuganotheca",
+        "kutorgina-chengjiangensis"
+      ],
+      "descendantTaxonIds": [],
+      "descendantScientificNames": [],
+      "matchMethods": {
+        "exactExternalId": 0,
+        "acceptedName": 0,
+        "higherClassification": 0
+      },
+      "completeSnapshotAvailable": false,
+      "completeSnapshotRows": null,
+      "periods": [],
+      "matchedTotal": 0
+    },
+    "micrina": {
+      "entityId": "micrina",
+      "entityKind": "taxon",
+      "externalTaxonId": null,
+      "scientificNameNormalized": "micrina",
+      "externalResolutionStatus": "not-found",
+      "queryStatus": "external-id-unresolved",
+      "descendantEntityIds": [],
+      "descendantTaxonIds": [],
+      "descendantScientificNames": [],
+      "matchMethods": {
+        "exactExternalId": 0,
+        "acceptedName": 0,
+        "higherClassification": 0
+      },
+      "completeSnapshotAvailable": false,
+      "completeSnapshotRows": null,
+      "periods": [],
+      "matchedTotal": 0
+    },
+    "yuganotheca": {
+      "entityId": "yuganotheca",
+      "entityKind": "taxon",
+      "externalTaxonId": null,
+      "scientificNameNormalized": "yuganotheca elegans",
+      "externalResolutionStatus": "not-found",
+      "queryStatus": "external-id-unresolved",
+      "descendantEntityIds": [],
+      "descendantTaxonIds": [],
+      "descendantScientificNames": [],
+      "matchMethods": {
+        "exactExternalId": 0,
+        "acceptedName": 0,
+        "higherClassification": 0
+      },
+      "completeSnapshotAvailable": false,
+      "completeSnapshotRows": null,
+      "periods": [],
+      "matchedTotal": 0
+    },
+    "kutorgina-chengjiangensis": {
+      "entityId": "kutorgina-chengjiangensis",
+      "entityKind": "taxon",
+      "externalTaxonId": null,
+      "scientificNameNormalized": "kutorgina chengjiangensis",
+      "externalResolutionStatus": "not-found",
+      "queryStatus": "external-id-unresolved",
+      "descendantEntityIds": [],
+      "descendantTaxonIds": [],
+      "descendantScientificNames": [],
+      "matchMethods": {
+        "exactExternalId": 0,
+        "acceptedName": 0,
+        "higherClassification": 0
+      },
+      "completeSnapshotAvailable": false,
+      "completeSnapshotRows": null,
+      "periods": [],
+      "matchedTotal": 0
+    },
+    "lingula-anatina": {
+      "entityId": "lingula-anatina",
+      "entityKind": "taxon",
+      "externalTaxonId": null,
+      "scientificNameNormalized": "lingula anatina",
+      "externalResolutionStatus": "not-found",
+      "queryStatus": "external-id-unresolved",
+      "descendantEntityIds": [],
+      "descendantTaxonIds": [],
+      "descendantScientificNames": [],
+      "matchMethods": {
+        "exactExternalId": 0,
+        "acceptedName": 0,
+        "higherClassification": 0
+      },
+      "completeSnapshotAvailable": false,
+      "completeSnapshotRows": null,
+      "periods": [],
+      "matchedTotal": 0
+    },
     "mollusca": {
       "entityId": "mollusca",
       "entityKind": "taxon",
@@ -2007,6 +2150,7 @@
         "bivalvia",
         "rudistae",
         "ostreoida",
+        "pojetaia",
         "gastropoda",
         "cephalopoda",
         "nautiloidea",
@@ -2015,7 +2159,18 @@
         "ceratitida",
         "ammonitida",
         "coleoidea",
-        "belemnitida"
+        "belemnitida",
+        "octopus-bimaculoides",
+        "molluscan-origin-dossiers",
+        "kimberella",
+        "odontogriphus",
+        "orthrozanclus",
+        "nectocaris",
+        "aculifera",
+        "polyplacophora",
+        "aplacophora",
+        "monoplacophora",
+        "scaphopoda"
       ],
       "descendantTaxonIds": [
         "txn:7805",
@@ -2075,7 +2230,8 @@
       "queryStatus": "resolved-and-observed",
       "descendantEntityIds": [
         "rudistae",
-        "ostreoida"
+        "ostreoida",
+        "pojetaia"
       ],
       "descendantTaxonIds": [
         "txn:16005"
@@ -2146,6 +2302,26 @@
       "periods": [],
       "matchedTotal": 0
     },
+    "pojetaia": {
+      "entityId": "pojetaia",
+      "entityKind": "taxon",
+      "externalTaxonId": null,
+      "scientificNameNormalized": "pojetaia runnegari",
+      "externalResolutionStatus": "not-found",
+      "queryStatus": "external-id-unresolved",
+      "descendantEntityIds": [],
+      "descendantTaxonIds": [],
+      "descendantScientificNames": [],
+      "matchMethods": {
+        "exactExternalId": 0,
+        "acceptedName": 0,
+        "higherClassification": 0
+      },
+      "completeSnapshotAvailable": false,
+      "completeSnapshotRows": null,
+      "periods": [],
+      "matchedTotal": 0
+    },
     "gastropoda": {
       "entityId": "gastropoda",
       "entityKind": "taxon",
@@ -2197,7 +2373,8 @@
         "ceratitida",
         "ammonitida",
         "coleoidea",
-        "belemnitida"
+        "belemnitida",
+        "octopus-bimaculoides"
       ],
       "descendantTaxonIds": [
         "txn:12315",
@@ -2395,7 +2572,8 @@
       "externalResolutionStatus": "resolved-exact",
       "queryStatus": "resolved-and-observed",
       "descendantEntityIds": [
-        "belemnitida"
+        "belemnitida",
+        "octopus-bimaculoides"
       ],
       "descendantTaxonIds": [
         "txn:59785",
@@ -2446,6 +2624,234 @@
         "Cretaceous"
       ],
       "matchedTotal": 28
+    },
+    "octopus-bimaculoides": {
+      "entityId": "octopus-bimaculoides",
+      "entityKind": "taxon",
+      "externalTaxonId": null,
+      "scientificNameNormalized": "octopus bimaculoides",
+      "externalResolutionStatus": "not-found",
+      "queryStatus": "external-id-unresolved",
+      "descendantEntityIds": [],
+      "descendantTaxonIds": [],
+      "descendantScientificNames": [],
+      "matchMethods": {
+        "exactExternalId": 0,
+        "acceptedName": 0,
+        "higherClassification": 0
+      },
+      "completeSnapshotAvailable": false,
+      "completeSnapshotRows": null,
+      "periods": [],
+      "matchedTotal": 0
+    },
+    "molluscan-origin-dossiers": {
+      "entityId": "molluscan-origin-dossiers",
+      "entityKind": "navigation-group",
+      "externalTaxonId": null,
+      "scientificNameNormalized": "molluscan origin dossier route",
+      "externalResolutionStatus": "not-found",
+      "queryStatus": "navigation-only",
+      "descendantEntityIds": [
+        "kimberella",
+        "odontogriphus",
+        "orthrozanclus",
+        "nectocaris"
+      ],
+      "descendantTaxonIds": [],
+      "descendantScientificNames": [],
+      "matchMethods": {
+        "exactExternalId": 0,
+        "acceptedName": 0,
+        "higherClassification": 0
+      },
+      "completeSnapshotAvailable": false,
+      "completeSnapshotRows": null,
+      "periods": [],
+      "matchedTotal": 0
+    },
+    "kimberella": {
+      "entityId": "kimberella",
+      "entityKind": "taxon",
+      "externalTaxonId": null,
+      "scientificNameNormalized": "kimberella quadrata",
+      "externalResolutionStatus": "not-found",
+      "queryStatus": "external-id-unresolved",
+      "descendantEntityIds": [],
+      "descendantTaxonIds": [],
+      "descendantScientificNames": [],
+      "matchMethods": {
+        "exactExternalId": 0,
+        "acceptedName": 0,
+        "higherClassification": 0
+      },
+      "completeSnapshotAvailable": false,
+      "completeSnapshotRows": null,
+      "periods": [],
+      "matchedTotal": 0
+    },
+    "odontogriphus": {
+      "entityId": "odontogriphus",
+      "entityKind": "taxon",
+      "externalTaxonId": null,
+      "scientificNameNormalized": "odontogriphus omalus",
+      "externalResolutionStatus": "not-found",
+      "queryStatus": "external-id-unresolved",
+      "descendantEntityIds": [],
+      "descendantTaxonIds": [],
+      "descendantScientificNames": [],
+      "matchMethods": {
+        "exactExternalId": 0,
+        "acceptedName": 0,
+        "higherClassification": 0
+      },
+      "completeSnapshotAvailable": false,
+      "completeSnapshotRows": null,
+      "periods": [],
+      "matchedTotal": 0
+    },
+    "orthrozanclus": {
+      "entityId": "orthrozanclus",
+      "entityKind": "taxon",
+      "externalTaxonId": null,
+      "scientificNameNormalized": "orthrozanclus reburrus",
+      "externalResolutionStatus": "not-found",
+      "queryStatus": "external-id-unresolved",
+      "descendantEntityIds": [],
+      "descendantTaxonIds": [],
+      "descendantScientificNames": [],
+      "matchMethods": {
+        "exactExternalId": 0,
+        "acceptedName": 0,
+        "higherClassification": 0
+      },
+      "completeSnapshotAvailable": false,
+      "completeSnapshotRows": null,
+      "periods": [],
+      "matchedTotal": 0
+    },
+    "nectocaris": {
+      "entityId": "nectocaris",
+      "entityKind": "taxon",
+      "externalTaxonId": null,
+      "scientificNameNormalized": "nectocaris pteryx",
+      "externalResolutionStatus": "not-found",
+      "queryStatus": "external-id-unresolved",
+      "descendantEntityIds": [],
+      "descendantTaxonIds": [],
+      "descendantScientificNames": [],
+      "matchMethods": {
+        "exactExternalId": 0,
+        "acceptedName": 0,
+        "higherClassification": 0
+      },
+      "completeSnapshotAvailable": false,
+      "completeSnapshotRows": null,
+      "periods": [],
+      "matchedTotal": 0
+    },
+    "aculifera": {
+      "entityId": "aculifera",
+      "entityKind": "taxon",
+      "externalTaxonId": null,
+      "scientificNameNormalized": "aculifera",
+      "externalResolutionStatus": "not-found",
+      "queryStatus": "external-id-unresolved",
+      "descendantEntityIds": [
+        "polyplacophora",
+        "aplacophora"
+      ],
+      "descendantTaxonIds": [],
+      "descendantScientificNames": [],
+      "matchMethods": {
+        "exactExternalId": 0,
+        "acceptedName": 0,
+        "higherClassification": 0
+      },
+      "completeSnapshotAvailable": false,
+      "completeSnapshotRows": null,
+      "periods": [],
+      "matchedTotal": 0
+    },
+    "polyplacophora": {
+      "entityId": "polyplacophora",
+      "entityKind": "taxon",
+      "externalTaxonId": null,
+      "scientificNameNormalized": "polyplacophora",
+      "externalResolutionStatus": "not-found",
+      "queryStatus": "external-id-unresolved",
+      "descendantEntityIds": [],
+      "descendantTaxonIds": [],
+      "descendantScientificNames": [],
+      "matchMethods": {
+        "exactExternalId": 0,
+        "acceptedName": 0,
+        "higherClassification": 0
+      },
+      "completeSnapshotAvailable": false,
+      "completeSnapshotRows": null,
+      "periods": [],
+      "matchedTotal": 0
+    },
+    "aplacophora": {
+      "entityId": "aplacophora",
+      "entityKind": "historical-grade",
+      "externalTaxonId": null,
+      "scientificNameNormalized": "aplacophora",
+      "externalResolutionStatus": "not-found",
+      "queryStatus": "historical-grade",
+      "descendantEntityIds": [],
+      "descendantTaxonIds": [],
+      "descendantScientificNames": [],
+      "matchMethods": {
+        "exactExternalId": 0,
+        "acceptedName": 0,
+        "higherClassification": 0
+      },
+      "completeSnapshotAvailable": false,
+      "completeSnapshotRows": null,
+      "periods": [],
+      "matchedTotal": 0
+    },
+    "monoplacophora": {
+      "entityId": "monoplacophora",
+      "entityKind": "taxon",
+      "externalTaxonId": null,
+      "scientificNameNormalized": "monoplacophora",
+      "externalResolutionStatus": "not-found",
+      "queryStatus": "external-id-unresolved",
+      "descendantEntityIds": [],
+      "descendantTaxonIds": [],
+      "descendantScientificNames": [],
+      "matchMethods": {
+        "exactExternalId": 0,
+        "acceptedName": 0,
+        "higherClassification": 0
+      },
+      "completeSnapshotAvailable": false,
+      "completeSnapshotRows": null,
+      "periods": [],
+      "matchedTotal": 0
+    },
+    "scaphopoda": {
+      "entityId": "scaphopoda",
+      "entityKind": "taxon",
+      "externalTaxonId": null,
+      "scientificNameNormalized": "scaphopoda",
+      "externalResolutionStatus": "not-found",
+      "queryStatus": "external-id-unresolved",
+      "descendantEntityIds": [],
+      "descendantTaxonIds": [],
+      "descendantScientificNames": [],
+      "matchMethods": {
+        "exactExternalId": 0,
+        "acceptedName": 0,
+        "higherClassification": 0
+      },
+      "completeSnapshotAvailable": false,
+      "completeSnapshotRows": null,
+      "periods": [],
+      "matchedTotal": 0
     },
     "arthropoda": {
       "entityId": "arthropoda",

@@ -989,19 +989,21 @@
     "id": "range:mollusca:global",
     "entityId": "mollusca",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Mollusca",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 540,
+    "taxonomicConcept": "Mollusca plus explicitly bounded origin-dossier navigation",
+    "geographicScope": "Global living Mollusca plus represented origin-dossier sample",
+    "olderMa": 558,
     "youngerMa": 0,
     "status": "available",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "note": "The older endpoint includes the mollusc-like Kimberella dossier for discovery and is not a crown-Mollusca FAD or divergence estimate."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
-    "confidence": "medium",
-    "claimIds": [],
+    "evidenceBasis": "Teaching-navigation envelope linking living Mollusca to a separately qualified mollusc-like Ediacaran dossier.",
+    "confidence": "low",
+    "claimIds": [
+      "claim:event:kimberella-white-sea-morphology"
+    ],
     "referenceLocators": [
       {
         "referenceId": "open-tree",
@@ -1010,10 +1012,14 @@
       {
         "referenceId": "pbdb-api-2016",
         "locator": "doi:10.1017/pab.2015.39"
+      },
+      {
+        "referenceId": "fedonkin-waggoner-1997-kimberella",
+        "locator": "868–871; mollusc-like body-plan dossier, not crown assignment"
       }
     ],
     "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "evidenceLevel": "literature-synthesized"
   },
   {
     "id": "range:bivalvia:global",
@@ -1021,17 +1027,19 @@
     "rangeKind": "global-composite",
     "taxonomicConcept": "Bivalvia",
     "geographicScope": "Global or represented navigation composite",
-    "olderMa": 520,
+    "olderMa": 521,
     "youngerMa": 0,
     "status": "available",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "note": "The older endpoint follows represented early-bivalve shell material; it is not a direct date or guaranteed global FAD."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "evidenceBasis": "Rounded navigation envelope informed by represented early-bivalve shell material and living continuity.",
     "confidence": "medium",
-    "claimIds": [],
+    "claimIds": [
+      "claim:event:pojetaia-shell-microstructure"
+    ],
     "referenceLocators": [
       {
         "referenceId": "open-tree",
@@ -1040,6 +1048,10 @@
       {
         "referenceId": "pbdb-api-2016",
         "locator": "doi:10.1017/pab.2015.39"
+      },
+      {
+        "referenceId": "vendrasco-et-al-2011-pojetaia",
+        "locator": "825–850; represented early-bivalve shell material"
       }
     ],
     "reviewStatus": "not-reviewed",
@@ -9698,5 +9710,485 @@
     ],
     "reviewStatus": "not-reviewed",
     "evidenceLevel": "legacy-display"
+  },
+  {
+    "id": "range:molluscan-origin-dossiers:primary-evidence",
+    "entityId": "molluscan-origin-dossiers",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Molluscan origin dossier navigation route",
+    "geographicScope": "Ediacaran White Sea and Cambrian Burgess Shale dossier envelope",
+    "olderMa": 558,
+    "youngerMa": 505,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "A navigation envelope across separate organisms, localities and interpretations; not one lineage, a global FAD or a continuous range."
+    },
+    "evidenceBasis": "Rounded envelope for the explicitly non-genealogical dossier route.",
+    "evidenceLevel": "legacy-display",
+    "confidence": "low",
+    "claimIds": [],
+    "referenceLocators": [
+      {
+        "referenceId": "fedonkin-waggoner-1997-kimberella",
+        "locator": "868–871; White Sea sample"
+      },
+      {
+        "referenceId": "caron-et-al-2006-odontogriphus",
+        "locator": "159–163; Burgess Shale sample"
+      }
+    ],
+    "reviewStatus": "automated-audit-passed"
+  },
+  {
+    "id": "range:kimberella:primary-evidence",
+    "entityId": "kimberella",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Kimberella quadrata White Sea sample",
+    "geographicScope": "White Sea, Russia",
+    "olderMa": 558,
+    "youngerMa": 555,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "A formation-scale display envelope for the cited sample, not a direct date or guaranteed global first and last appearance."
+    },
+    "evidenceBasis": "More than 35 late Ediacaran body fossils test a mollusc-like interpretation without preserving a crown diagnosis.",
+    "evidenceLevel": "literature-synthesized",
+    "confidence": "medium",
+    "claimIds": [
+      "claim:event:kimberella-white-sea-morphology"
+    ],
+    "referenceLocators": [
+      {
+        "referenceId": "fedonkin-waggoner-1997-kimberella",
+        "locator": "868–871; Figures 1–3; description and reconstruction"
+      }
+    ],
+    "reviewStatus": "automated-audit-passed"
+  },
+  {
+    "id": "range:odontogriphus:primary-evidence",
+    "entityId": "odontogriphus",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Odontogriphus omalus Burgess Shale sample",
+    "geographicScope": "Burgess Shale, British Columbia, Canada",
+    "olderMa": 508,
+    "youngerMa": 505,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "A broad Burgess Shale navigation envelope, not a specimen-level radiometric date or a global taxon range."
+    },
+    "evidenceBasis": "A 189-specimen sample reveals repeated tooth rows, a broad foot and mantle-groove structures.",
+    "evidenceLevel": "legacy-display",
+    "confidence": "medium",
+    "claimIds": [
+      "claim:event:odontogriphus-radula-sample"
+    ],
+    "referenceLocators": [
+      {
+        "referenceId": "caron-et-al-2006-odontogriphus",
+        "locator": "159–163; Figures 1–4; specimen sample and reconstruction"
+      }
+    ],
+    "reviewStatus": "automated-audit-passed"
+  },
+  {
+    "id": "range:orthrozanclus:primary-evidence",
+    "entityId": "orthrozanclus",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Orthrozanclus reburrus Burgess Shale occurrence",
+    "geographicScope": "Burgess Shale, British Columbia, Canada",
+    "olderMa": 508,
+    "youngerMa": 505,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "A broad locality envelope; it does not date Halwaxiida, Mollusca or lophotrochozoan divergence."
+    },
+    "evidenceBasis": "One articulated body combines a shell, three sclerite zones and long spines used to test halwaxiid relationships.",
+    "evidenceLevel": "legacy-display",
+    "confidence": "medium",
+    "claimIds": [
+      "claim:event:orthrozanclus-halwaxiid-mosaic"
+    ],
+    "referenceLocators": [
+      {
+        "referenceId": "conway-morris-caron-2007-orthrozanclus",
+        "locator": "1255–1258; Figures 1–4; description and matrix"
+      }
+    ],
+    "reviewStatus": "automated-audit-passed"
+  },
+  {
+    "id": "range:nectocaris:primary-evidence",
+    "entityId": "nectocaris",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Nectocaris pteryx Burgess Shale sample",
+    "geographicScope": "Burgess Shale, British Columbia, Canada",
+    "olderMa": 508,
+    "youngerMa": 505,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "A broad locality envelope; cephalopod affinity is contested and this is not a crown-Cephalopoda FAD."
+    },
+    "evidenceBasis": "Ninety newly prepared specimens reveal a funnel, fins, eyes and two tentacles but no diagnostic hard-part series.",
+    "evidenceLevel": "legacy-display",
+    "confidence": "low",
+    "claimIds": [
+      "claim:event:nectocaris-soft-body-cephalopod-test"
+    ],
+    "referenceLocators": [
+      {
+        "referenceId": "smith-caron-2010-nectocaris",
+        "locator": "469–472; Figures 1–4; new material and reconstruction"
+      }
+    ],
+    "reviewStatus": "automated-audit-passed"
+  },
+  {
+    "id": "range:pojetaia:primary-evidence",
+    "entityId": "pojetaia",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Pojetaia runnegari Cambrian shell sample",
+    "geographicScope": "Cambrian Series 2 occurrences represented by the cited shell sections",
+    "olderMa": 521,
+    "youngerMa": 513,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "A broad stage-scale envelope for represented material; not a direct date on the sections or a global bivalve FAD."
+    },
+    "evidenceBasis": "Early bivalve shell sections distinguish laminar fabrics from undisputed nacre.",
+    "evidenceLevel": "legacy-display",
+    "confidence": "medium",
+    "claimIds": [
+      "claim:event:pojetaia-shell-microstructure"
+    ],
+    "referenceLocators": [
+      {
+        "referenceId": "vendrasco-et-al-2011-pojetaia",
+        "locator": "825–850; Figures 1–12; material and shell microstructure"
+      }
+    ],
+    "reviewStatus": "automated-audit-passed"
+  },
+  {
+    "id": "range:aculifera:primary-evidence",
+    "entityId": "aculifera",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Aculifera navigation display",
+    "geographicScope": "Global living and fossil navigation context",
+    "olderMa": 520,
+    "youngerMa": 0,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Rounded legacy display bounds; the cited phylogenomic topology contains no fossil FAD and does not date divergence."
+    },
+    "evidenceBasis": "Navigation range retained for browse continuity; topology is documented separately.",
+    "evidenceLevel": "legacy-display",
+    "confidence": "low",
+    "claimIds": [
+      "claim:event:aculifera-phylogenomic-topology"
+    ],
+    "referenceLocators": [
+      {
+        "referenceId": "kocot-et-al-2011-mollusca",
+        "locator": "452–456; sampled Aculifera topology"
+      }
+    ],
+    "reviewStatus": "automated-audit-passed"
+  },
+  {
+    "id": "range:polyplacophora:primary-evidence",
+    "entityId": "polyplacophora",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Polyplacophora navigation display",
+    "geographicScope": "Global living and fossil navigation context",
+    "olderMa": 490,
+    "youngerMa": 0,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Rounded legacy display bounds, not a claim-linked global first appearance."
+    },
+    "evidenceBasis": "Navigation range retained for browse continuity; detailed topology remains claim-specific.",
+    "evidenceLevel": "legacy-display",
+    "confidence": "low",
+    "claimIds": [],
+    "referenceLocators": [
+      {
+        "referenceId": "open-tree",
+        "locator": "Navigation context"
+      },
+      {
+        "referenceId": "pbdb-api-2016",
+        "locator": "Legacy fossil-range display context"
+      }
+    ],
+    "reviewStatus": "automated-audit-passed"
+  },
+  {
+    "id": "range:aplacophora:primary-evidence",
+    "entityId": "aplacophora",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Aplacophora historical-grade navigation display",
+    "geographicScope": "Global living and fossil navigation context",
+    "olderMa": 485,
+    "youngerMa": 0,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Aplacophora is retained as a historical-grade route; rounded display bounds are not a monophyly or FAD claim."
+    },
+    "evidenceBasis": "Navigation range retained for browse continuity.",
+    "evidenceLevel": "legacy-display",
+    "confidence": "low",
+    "claimIds": [],
+    "referenceLocators": [
+      {
+        "referenceId": "open-tree",
+        "locator": "Navigation context"
+      }
+    ],
+    "reviewStatus": "automated-audit-passed"
+  },
+  {
+    "id": "range:monoplacophora:primary-evidence",
+    "entityId": "monoplacophora",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Monoplacophora navigation display",
+    "geographicScope": "Global living and fossil navigation context",
+    "olderMa": 480,
+    "youngerMa": 0,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Rounded legacy display bounds; the phylogenomic event samples living sequence data and does not establish fossil range endpoints."
+    },
+    "evidenceBasis": "Navigation range retained for browse continuity.",
+    "evidenceLevel": "legacy-display",
+    "confidence": "low",
+    "claimIds": [
+      "claim:event:all-class-mollusc-phylogenomics"
+    ],
+    "referenceLocators": [
+      {
+        "referenceId": "smith-et-al-2011-mollusca",
+        "locator": "364–367; all-class sampling and Monoplacophora topology"
+      }
+    ],
+    "reviewStatus": "automated-audit-passed"
+  },
+  {
+    "id": "range:scaphopoda:primary-evidence",
+    "entityId": "scaphopoda",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Scaphopoda navigation display",
+    "geographicScope": "Global living and fossil navigation context",
+    "olderMa": 480,
+    "youngerMa": 0,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Rounded legacy display bounds; the phylogenomic event does not establish a fossil FAD or divergence time."
+    },
+    "evidenceBasis": "Navigation range retained for browse continuity.",
+    "evidenceLevel": "legacy-display",
+    "confidence": "low",
+    "claimIds": [
+      "claim:event:all-class-mollusc-phylogenomics"
+    ],
+    "referenceLocators": [
+      {
+        "referenceId": "smith-et-al-2011-mollusca",
+        "locator": "364–367; all-class sampling"
+      }
+    ],
+    "reviewStatus": "automated-audit-passed"
+  },
+  {
+    "id": "range:octopus-bimaculoides:primary-evidence",
+    "entityId": "octopus-bimaculoides",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Octopus bimaculoides living genome sample",
+    "geographicScope": "Living California two-spot octopus; laboratory genomic sample",
+    "olderMa": 0,
+    "youngerMa": 0,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Zero-age display denotes a living sample; it is not a species-origin date or complete geographic range."
+    },
+    "evidenceBasis": "A single male genome and twelve tissue transcriptomes anchor the comparative event.",
+    "evidenceLevel": "legacy-display",
+    "confidence": "medium",
+    "claimIds": [
+      "claim:event:octopus-genome-innovation"
+    ],
+    "referenceLocators": [
+      {
+        "referenceId": "albertin-et-al-2015-octopus-genome",
+        "locator": "220–224; Methods and data access"
+      }
+    ],
+    "reviewStatus": "automated-audit-passed"
+  },
+  {
+    "id": "range:brachiopod-origin-dossiers:primary-evidence",
+    "entityId": "brachiopod-origin-dossiers",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Brachiopod origin dossier navigation route",
+    "geographicScope": "Early Cambrian Australian and Chengjiang dossier envelope",
+    "olderMa": 530,
+    "youngerMa": 518,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Composite navigation envelope across separate taxa and hypotheses; not one lineage or an ancestor series."
+    },
+    "evidenceBasis": "Rounded envelope connecting explicitly bounded stem and early brachiopod dossiers.",
+    "evidenceLevel": "legacy-display",
+    "confidence": "low",
+    "claimIds": [],
+    "referenceLocators": [
+      {
+        "referenceId": "holmer-et-al-2008-micrina",
+        "locator": "724–728"
+      },
+      {
+        "referenceId": "zhang-et-al-2014-yuganotheca",
+        "locator": "Article 4682"
+      }
+    ],
+    "reviewStatus": "automated-audit-passed"
+  },
+  {
+    "id": "range:micrina:primary-evidence",
+    "entityId": "micrina",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Micrina early Cambrian sclerite sample",
+    "geographicScope": "Arrowie Basin, South Australia",
+    "olderMa": 530,
+    "youngerMa": 520,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Broad early Cambrian navigation envelope; isolated sclerites and their reconstruction do not establish a global genus range."
+    },
+    "evidenceBasis": "Two sclerite types and muscle scars are assembled into a testable sessile bivalved model.",
+    "evidenceLevel": "legacy-display",
+    "confidence": "medium",
+    "claimIds": [
+      "claim:event:micrina-bivalved-reconstruction"
+    ],
+    "referenceLocators": [
+      {
+        "referenceId": "holmer-et-al-2008-micrina",
+        "locator": "724–728; Figures 1–3"
+      }
+    ],
+    "reviewStatus": "automated-audit-passed"
+  },
+  {
+    "id": "range:yuganotheca:primary-evidence",
+    "entityId": "yuganotheca",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Yuganotheca elegans Chengjiang occurrence",
+    "geographicScope": "Chengjiang Lagerstätte, Yunnan, China",
+    "olderMa": 520,
+    "youngerMa": 518,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Formation-scale envelope, not a direct specimen date or lophophorate divergence interval."
+    },
+    "evidenceBasis": "Agglutinated valves, a horseshoe lophophore, a bipartite tube and a long pedicle occur in one early Cambrian body plan.",
+    "evidenceLevel": "legacy-display",
+    "confidence": "medium",
+    "claimIds": [
+      "claim:event:yuganotheca-tubular-lophophorate"
+    ],
+    "referenceLocators": [
+      {
+        "referenceId": "zhang-et-al-2014-yuganotheca",
+        "locator": "Article 4682; Figures 1–6"
+      }
+    ],
+    "reviewStatus": "automated-audit-passed"
+  },
+  {
+    "id": "range:kutorgina-chengjiangensis:primary-evidence",
+    "entityId": "kutorgina-chengjiangensis",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Kutorgina chengjiangensis Chengjiang occurrence",
+    "geographicScope": "Chengjiang Lagerstätte, Yunnan, China",
+    "olderMa": 520,
+    "youngerMa": 518,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Formation-scale envelope, not a direct date or global rhynchonelliformean first appearance."
+    },
+    "evidenceBasis": "Early Cambrian calcareous valves occur with a lophophore, gut and pedicle in exceptional preservation.",
+    "evidenceLevel": "literature-synthesized",
+    "confidence": "high",
+    "claimIds": [
+      "claim:event:kutorgina-soft-tissue-anatomy"
+    ],
+    "referenceLocators": [
+      {
+        "referenceId": "zhang-et-al-2007-kutorgina",
+        "locator": "1391–1402; Text-figures 1–8"
+      }
+    ],
+    "reviewStatus": "automated-audit-passed"
+  },
+  {
+    "id": "range:lingula-anatina:primary-evidence",
+    "entityId": "lingula-anatina",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Lingula anatina living multi-omics sample",
+    "geographicScope": "Kasari Bay, Amami Island, Japan; laboratory sample",
+    "olderMa": 0,
+    "youngerMa": 0,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Zero-age display denotes sampled living animals; it is not a lineage-origin date, fossil range or claim of morphological stasis."
+    },
+    "evidenceBasis": "A living genome, developmental transcriptomes and shell proteome anchor the biomineralization comparison.",
+    "evidenceLevel": "legacy-display",
+    "confidence": "medium",
+    "claimIds": [
+      "claim:event:lingula-genome-biomineralization"
+    ],
+    "referenceLocators": [
+      {
+        "referenceId": "luo-et-al-2015-lingula-genome",
+        "locator": "Article 8301; biological materials and data"
+      }
+    ],
+    "reviewStatus": "automated-audit-passed"
   }
 ]

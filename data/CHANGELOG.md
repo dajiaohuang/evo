@@ -1,5 +1,14 @@
 # Dataset changelog
 
+## 2026.08-static-v5-rc30 — 2026-08-30
+
+- Replaced the `molluscs-brachiopods` generated scaffold with thirteen bilingual primary-evidence dossiers spanning Ediacaran and Cambrian body fossils, radula and shell microstructure, living phylogenomics and developmental experiments, cephalopod genomics, stem-brachiopod reconstructions, Chengjiang soft anatomy and living brachiopod biomineralization.
+- Added explicit navigation for the molluscan and brachiopod origin-dossier boundaries, Aculifera, Polyplacophora, Aplacophora, Monoplacophora and Scaphopoda, plus named Kimberella, Odontogriphus, Orthrozanclus, Pojetaia, Nectocaris, Micrina, Kutorgina, Lingula and Yuganotheca records.
+- Kept Kimberella and halwaxiid homology, Nectocaris affinity, Micrina articulation and Yuganotheca placement as bounded interpretations rather than crown assignments or a linear ancestor series.
+- Retained the distinct Kocot et al. and Smith et al. phylogenomic results, including missing-taxon and corrigendum boundaries, instead of manufacturing a consensus among incompatible deep nodes.
+- Added an independent `molluscsBrachiopodsZh` lazy chunk and a thirteen-step bilingual evidence story with claim, reference and uncertainty links.
+- Confirmed that COL26.8 routes exactly 159,801 accepted living species names to the package and all 2,183,133 accepted species remain exclusively assigned with zero unmatched; naming coverage remains independent of fossil, dossier, topology and expert-review maturity.
+
 ## 2026.08-static-v5-rc29 — 2026-08-30
 
 - Replaced the Sponges and Cnidarians generated scaffold with fourteen bilingual primary-evidence dossiers and a fourteen-step evidence story spanning Cryogenian biomarker debates, named Ediacaran–Cambrian fossils, living genomes and phylogenomic samples, Myxozoa, medusozoan body plans, coral divergence models and Triassic photosymbiosis proxies.
