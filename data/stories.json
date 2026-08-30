@@ -11,7 +11,7 @@
       {
         "id": "arrival",
         "title": "A rapid Eocene arrival",
-        "text": "Perissodactyls appear across northern continents and quickly diversify into horse-like, tapir-like, rhinoceros-like and wholly extinct forms.",
+        "text": "The earliest sampled perissodactyls occur during the PETM on northern landmasses, but those first fossils do not reveal an exact place or time of origin.",
         "age": 54,
         "timeRange": [
           56,
@@ -34,7 +34,7 @@
       {
         "id": "eocene-world",
         "title": "Browsers in a greenhouse world",
-        "text": "Warm forests support palaeotheres, brontotheres and early rhinocerotoids across Eurasia and North America.",
+        "text": "Eocene brontotheres radiate in North America and Asia while western European Palaeotherium medium provides a separate leaf-browsing sample; one ecology is not assigned to every lineage.",
         "age": 44,
         "timeRange": [
           50,
@@ -48,11 +48,11 @@
         "view": "map",
         "claimLinks": [
           {
-            "claimId": "claim:taxon:brontotheriidae",
+          "claimId": "claim:taxon:brontotheriidae:biogeography",
             "relation": "supports"
           },
           {
-            "claimId": "claim:taxon:metamynodon",
+          "claimId": "claim:taxon:palaeotherium:ecology",
             "relation": "contextualizes"
           }
         ]
@@ -60,7 +60,7 @@
       {
         "id": "turnover",
         "title": "Cooling changes the guild",
-        "text": "At the Eocene–Oligocene transition, climate, habitat and migration reorganize mammal communities; this is ecological turnover, not a simple competitive defeat.",
+        "text": "Marine records resolve stepwise ice growth, while the Hampshire mammal sequence separates turnover, a hiatus and later immigrant appearances; together they do not prove one simple cause.",
         "age": 34,
         "timeRange": [
           36,
@@ -82,7 +82,7 @@
       {
         "id": "survivors",
         "title": "Specialists and survivors",
-        "text": "Horses, tapirs and rhinoceroses persist, but the modern order is only a narrow sample of its former ecological range.",
+        "text": "Living horses, tapirs and rhinoceroses are a narrow remnant of former perissodactyl diversity, and even Coelodonta species show that extinct rhinoceros ecology was not uniform.",
         "age": 1,
         "timeRange": [
           5,
@@ -95,11 +95,11 @@
         "view": "tree",
         "claimLinks": [
           {
-            "claimId": "claim:taxon:perissodactyla",
+          "claimId": "claim:taxon:perissodactyla:taxonomy",
             "relation": "contextualizes"
           },
           {
-            "claimId": "claim:taxon:coelodonta",
+          "claimId": "claim:taxon:coelodonta:ecology",
             "relation": "contextualizes"
           }
         ]
@@ -119,7 +119,7 @@
       {
         "id": "eocene",
         "title": "An odd-toed world",
-        "text": "Many Eocene large-herbivore guilds are rich in perissodactyl lineages that have no living equivalent.",
+        "text": "Eocene brontotheres span small early species to rhinoceros-sized forms across North America and Asia, illustrating an extinct herbivore radiation rather than a modern analogue.",
         "age": 45,
         "timeRange": [
           55,
@@ -132,7 +132,7 @@
         "view": "map",
         "claimLinks": [
           {
-            "claimId": "claim:taxon:brontotheriidae",
+          "claimId": "claim:taxon:brontotheriidae:ecology",
             "relation": "contextualizes"
           }
         ]
@@ -140,7 +140,7 @@
       {
         "id": "transition",
         "title": "The rules change",
-        "text": "Cooling and increasingly seasonal habitats restructure vegetation and dispersal routes near 34 Ma.",
+        "text": "Near the Eocene–Oligocene boundary, marine ice-growth steps and the regional Hampshire mammal sequence can be aligned, but turnover, hiatus and immigration remain distinct observations.",
         "age": 34,
         "timeRange": [
           36,
@@ -161,7 +161,7 @@
       {
         "id": "miocene",
         "title": "Overlap before replacement",
-        "text": "Miocene horses and rhinoceroses coexist with expanding deer, giraffids and bovids; turnover is prolonged and regionally variable.",
+        "text": "Miocene Anchitherium, hipparionins and Teleoceras occupied different dietary niches whose evidence varies by lineage and locality; guild change was prolonged rather than instantaneous.",
         "age": 12,
         "timeRange": [
           20,
@@ -173,13 +173,17 @@
           "teleoceras"
         ],
         "view": "evidence",
-        "claimLinks": [
-          {
-            "claimId": "claim:taxon:hipparionini",
+      "claimLinks": [
+        {
+          "claimId": "claim:taxon:anchitherium",
+          "relation": "contextualizes"
+        },
+        {
+          "claimId": "claim:taxon:hipparionini:ecology",
             "relation": "contextualizes"
           },
           {
-            "claimId": "claim:taxon:teleoceras",
+          "claimId": "claim:taxon:teleoceras",
             "relation": "contextualizes"
           }
         ]
@@ -199,7 +203,7 @@
       {
         "id": "anatomy",
         "title": "A hippo-like rhinocerotoid",
-        "text": "Metamynodon combines short limbs, a broad trunk and high-set eyes in an animal unrelated to hippopotamuses.",
+        "text": "Metamynodon planifrons combines high-set orbits, reduced thoracic spines and limb-lever proportions that differ from more terrestrial amynodontids.",
         "age": 31,
         "timeRange": [
           40,
@@ -211,7 +215,7 @@
         "view": "evidence",
         "claimLinks": [
           {
-            "claimId": "claim:taxon:metamynodon",
+          "claimId": "claim:taxon:metamynodon:morphology",
             "relation": "supports"
           }
         ]
@@ -219,7 +223,7 @@
       {
         "id": "context",
         "title": "Deposits add context",
-        "text": "Frequent recovery from river sandstones strengthens the semi-aquatic interpretation, while still leaving behavior inferential.",
+        "text": "Its association with Orellan channel sandstones adds context to the semi-aquatic interpretation, while anatomy and deposits still do not directly observe behavior.",
         "age": 30,
         "timeRange": [
           34,
@@ -239,7 +243,7 @@
       {
         "id": "convergence",
         "title": "Convergence is not ancestry",
-        "text": "Later semi-aquatic artiodactyls occupy analogous guilds. Similar ecology evolved independently in separate branches.",
+        "text": "Metamynodon and Teleoceras each generated semi-aquatic hypotheses, but Teleoceras isotope evidence differs between Florida and Ashfall; resemblance is neither uniform ecology nor ancestry.",
         "age": 15,
         "timeRange": [
           25,
@@ -275,7 +279,7 @@
       {
         "id": "early",
         "title": "Small forest equids",
-        "text": "Early horses retain multiple toes and low-crowned teeth in warm Eocene forests.",
+        "text": "Early horse branches had low-crowned teeth and multiple toes, but later horse evolution forms a branching tree rather than a march toward one toe.",
         "age": 50,
         "timeRange": [
           56,
@@ -287,7 +291,7 @@
         "view": "tree",
         "claimLinks": [
           {
-            "claimId": "claim:taxon:perissodactyla",
+          "claimId": "claim:taxon:perissodactyla:morphology",
             "relation": "contextualizes"
           }
         ]
@@ -295,7 +299,7 @@
       {
         "id": "anchitheres",
         "title": "Browsing persists",
-        "text": "Anchitherium carries a three-toed, low-crowned browsing strategy into the Miocene.",
+        "text": "At Sandelzhausen, tridactyl and low-crowned Anchitherium aurelianense shows browse-dominated mixed feeding rather than a pure-browser stereotype.",
         "age": 17,
         "timeRange": [
           20,
@@ -315,7 +319,7 @@
       {
         "id": "hipparionines",
         "title": "Open habitats diversify the experiment",
-        "text": "Hipparionine horses spread widely and range from mixed feeders to specialized grazers; multiple lineages coexist.",
+        "text": "Hipparionins remained tridactyl while Old World lineages diversified from browse-dominated and mixed feeding to grazing across regions and time.",
         "age": 9,
         "timeRange": [
           13,
@@ -328,12 +332,8 @@
         "eventId": "c4-grassland-expansion",
         "claimLinks": [
           {
-            "claimId": "claim:taxon:hipparionini",
+          "claimId": "claim:taxon:hipparionini:ecology",
             "relation": "supports"
-          },
-          {
-            "claimId": "claim:event:c4-grassland-expansion",
-            "relation": "contextualizes"
           }
         ]
       }

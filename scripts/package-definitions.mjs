@@ -1,5 +1,5 @@
 export const PACKAGE_SCHEMA_VERSION = 5
-export const DATASET_PACKAGE_VERSION = '2026.08-static-v5-rc44'
+export const DATASET_PACKAGE_VERSION = '2026.08-static-v5-rc45'
 export const DATASET_RELEASE_DATE = '2026-08-31'
 
 export const packageDefinitions = [
@@ -14,7 +14,7 @@ export const packageDefinitions = [
       zh: '提供全图谱导航与九步年代教程，严格区分直接测年的矿物和实测地层、代用指标、地层对比及因果解释。大氧化、阿瓦隆埃迪卡拉生物群、二叠纪末和 K–Pg 锚点现均带一手年代学定位；寒武纪、奥陶纪、三叠纪、PETM 和第四纪的宽尺度论述仍明确标为综合。羽鳃纲档案以约 5.16 亿年前的诊断性 Yunotubus 出现记录作为化石最小年龄，而非类群起源时间。COL26.8 已接受物种仍完整路由到各专属内容包。',
     },
     wave: 'core',
-    scientificMaturity: 'structured',
+    scientificMaturity: 'source-linked',
   },
   {
     id: 'early-land-plants',
@@ -354,7 +354,7 @@ export const packageDefinitions = [
       en: 'Nine primary-evidence dossiers connect turtle-shell specimens, CT volumes, matrices, a fossil-calibrated clock and an explicit mosasauroid clade-boundary case. Mosasauroidea is shown as broader than node-defined Mosasauridae, and Dallasaurus demonstrates that family placement and full paddle specialization are separate questions. A rich Mosasauridae profile links five visible field families to exact primary-study locators. COL26.8 still routes 12,622 accepted living species as nomenclatural coverage only.',
       zh: '九个一手证据档案连接龟壳标本、CT 体数据、矩阵、化石校准时钟与一个显式沧龙类支系边界案例。沧龙超科范围大于节点定义的沧龙科，Dallasaurus 说明科级归属与完全鳍桨化是两个不同问题。沧龙科丰富档案把五类可见字段连接到精确一手研究定位。COL26.8 的 12,622 个现生接受种仍只表示命名覆盖。',
     },
-    scientificMaturity: 'structured',
+    scientificMaturity: 'source-linked',
     limitations: [
       'Testudines is retained as the package routing root for COL compatibility; stem-turtle dossiers use that route for discovery and do not imply crown membership. Entity-wide first-appearance fields remain legacy-display estimates rather than claim-linked global FADs.',
       'Eunotosaurus, Pappochelys and Odontochelys preserve different anatomical mosaics in different samples and times. Shell-sequence language is a comparative homology model, not a direct ancestor–descendant series or unchanged developmental program.',

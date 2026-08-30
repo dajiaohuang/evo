@@ -66,7 +66,6 @@ function registryFailures() {
     if (packageEntry.platformMaturity !== 'published') failures.push(`package ${packageEntry.id}: generated release packages must be platform-published`)
     if (packageEntry.automatedReviewStatus !== 'passed') failures.push(`package ${packageEntry.id}: automated validation must pass before publication`)
     if (!scientificMaturityOrder.includes(packageEntry.scientificMaturity)) failures.push(`package ${packageEntry.id}: invalid scientificMaturity`)
-    if (packageEntry.id === 'atlas-core' && packageEntry.scientificMaturity !== 'structured') failures.push('package atlas-core: scientificMaturity must be structured')
     if (packageEntry.scientificMaturity === 'published' && !completedReviewStatuses.has(packageEntry.reviewStatus)) failures.push(`package ${packageEntry.id}: published maturity requires a completed maintainer review`)
   }
   return failures

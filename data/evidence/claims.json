@@ -399,16 +399,19 @@
     "subjectId": "event:perissodactyl-radiation",
     "claimKind": "scientific",
     "claimType": "biogeography",
-    "statement": "Early Eocene records support rapid perissodactyl dispersal and diversification across northern continents, with basal relationships still debated.",
+    "statement": "The earliest sampled perissodactyls occur during the PETM and imply rapid dispersal among northern landmasses, but sparse sampling and analysis-dependent stem placements leave the order’s place of origin unresolved.",
     "confidence": "medium",
-    "confidenceRationale": "Medium confidence reflects strong new chronological and geographic evidence from early records but continuing sensitivity of ancestral-area and basal-topology inferences to sparse sampling and character analysis.",
-    "reviewedBy": "Codex automated evidence audit",
-    "reviewedAt": "2026-08-19",
-    "reviewedAgainstReferenceVersion": "pnas-2026-perissodactyls @ DOI 10.1073/pnas.2519690122",
+    "confidenceRationale": "Tissier and Smith directly analyze 71 terminals, 102 characters and calibrated early occurrences. Medium confidence preserves their unresolved-origin conclusion and avoids turning sampled first records into origination dates.",
+    "reviewedBy": "Evo Atlas maintainer source audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "pnas-2026-perissodactyls locator audit at 2026-08-31",
     "referenceLinks": [
       {
+        "referenceId": "pnas-2026-perissodactyls",
         "relation": "supports",
-        "referenceId": "pnas-2026-perissodactyls"
+        "pages": "1–6 of 8",
+        "figure": "Figures 1 and 3; Dataset S2",
+        "quoteLocator": "Abstract and Introduction (p. 1), stem placements (p. 4), occurrence calibration and unresolved origin (p. 6)"
       }
     ]
   },
@@ -417,20 +420,26 @@
     "subjectId": "event:eocene-oligocene-transition",
     "claimKind": "scientific",
     "claimType": "event-mechanism",
-    "statement": "Antarctic glaciation, global cooling and regional immigration jointly structured Eocene–Oligocene faunal turnover.",
+    "statement": "Pacific marine records resolve stepwise earliest Oligocene ice growth, while the Hampshire Basin mammal record separates regional turnover, a roughly 350 kyr hiatus and later Asian immigrant appearances; the records are complementary, not proof of one simple causal chain.",
     "confidence": "high",
-    "confidenceRationale": "High confidence is based on two independent evidence streams: marine records constrain stepwise Antarctic glaciation, while a regional mammal study documents immigration and turnover; their joint use prevents a single-process explanation.",
-    "reviewedBy": "Codex automated evidence audit",
-    "reviewedAt": "2026-08-19",
-    "reviewedAgainstReferenceVersion": "coxall-2005-eot DOI 10.1038/nature03837 + hooker-2004-grande-coupure DOI 10.1111/j.1096-3642.2004.00104.x",
+    "confidenceRationale": "High confidence applies to the independently measured marine and mammal sequences. The wording is deliberately agnostic about a single cause because neither study experimentally attributes all European turnover to glaciation or immigration alone.",
+    "reviewedBy": "Evo Atlas maintainer source audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "coxall-2005-eot + hooker-2004-grande-coupure locator audit at 2026-08-31",
     "referenceLinks": [
       {
+        "referenceId": "coxall-2005-eot",
         "relation": "supports",
-        "referenceId": "coxall-2005-eot"
+        "pages": "53–57",
+        "figure": "Figures 1–4",
+        "quoteLocator": "Pacific isotope and carbonate records; two-step earliest Oligocene ice-growth result"
       },
       {
+        "referenceId": "hooker-2004-grande-coupure",
         "relation": "supports",
-        "referenceId": "hooker-2004-grande-coupure"
+        "pages": "161–172",
+        "figure": "Figures 2–4; mammal range chart",
+        "quoteLocator": "Results and conclusions distinguish pre-turnover loss, the sequence hiatus and later first Asian-immigrant records"
       }
     ]
   },
@@ -480,16 +489,26 @@
     "subjectId": "taxon:perissodactyla",
     "claimKind": "scientific",
     "claimType": "biogeography",
-    "statement": "Early Eocene perissodactyl fossils document rapid dispersal across northern continents while the placement of some basal lineages remains analysis-dependent.",
+    "statement": "PETM perissodactyl records imply rapid dispersal among northern landmasses, while sparse sampling and analysis-dependent stem placements leave the order’s place of origin unresolved.",
     "confidence": "medium",
-    "confidenceRationale": "Medium confidence distinguishes well-dated northern records from the more inferential reconstruction of dispersal routes and basal relationships, both of which remain sensitive to geographic and taxonomic sampling.",
-    "reviewedBy": "Codex automated evidence audit",
-    "reviewedAt": "2026-08-19",
-    "reviewedAgainstReferenceVersion": "pnas-2026-perissodactyls @ DOI 10.1073/pnas.2519690122",
+    "confidenceRationale": "The primary analysis directly constrains the earliest sample and geographic pattern. Medium confidence retains its unresolved-origin conclusion and the sensitivity of basal placements to sampling and character analysis.",
+    "reviewedBy": "Evo Atlas maintainer source audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "pnas-2026-perissodactyls + prothero-2009-hoofed-transitions locator audit at 2026-08-31",
     "referenceLinks": [
       {
+        "referenceId": "pnas-2026-perissodactyls",
         "relation": "supports",
-        "referenceId": "pnas-2026-perissodactyls"
+        "pages": "1–6 of 8",
+        "figure": "Figures 1 and 3; Dataset S2",
+        "quoteLocator": "Abstract and Introduction (p. 1), stem placements (p. 4), occurrence calibration and unresolved origin (p. 6)"
+      },
+      {
+        "referenceId": "prothero-2009-hoofed-transitions",
+        "relation": "supports",
+        "pages": "290–294",
+        "figure": "Figure 1",
+        "quoteLocator": "“The Perissodactyls” and early-radiation synthesis; family divergence is traced from dental and cranial comparisons"
       }
     ]
   },
@@ -498,17 +517,19 @@
     "subjectId": "taxon:brontotheriidae",
     "claimKind": "scientific",
     "claimType": "morphology",
-    "statement": "Skulls and skeletons document a rapid Eocene radiation including very large browsing forms with distinctive cranial appendages.",
+    "statement": "A species-level monograph diagnoses Brontotheriidae by an abbreviated face, elongate postorbital cranium and characteristic upper molars, while showing that giant size and frontonasal appendages occur in only part of the family.",
     "confidence": "medium",
-    "confidenceRationale": "Medium confidence reflects directly observable skull and skeleton morphology but relies on a curated museum overview rather than a specimen-level systematic revision for the radiation rate and feeding interpretation.",
-    "reviewedBy": "Codex automated evidence audit",
-    "reviewedAt": "2026-08-19",
-    "reviewedAgainstReferenceVersion": "amnh-brontotheres web page accessed 2026-08-18",
+    "confidenceRationale": "The monograph directly revises species and diagnostic characters. Medium confidence preserves species-level variation and uncertainty in the family’s deeper perissodactyl placement.",
+    "reviewedBy": "Evo Atlas maintainer source audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "mihlbachler-2008-brontotheriidae locator audit at 2026-08-31",
     "referenceLinks": [
       {
+        "referenceId": "mihlbachler-2008-brontotheriidae",
         "relation": "supports",
-        "referenceId": "amnh-brontotheres",
-        "quoteLocator": "group overview"
+        "pages": "1–3, 409–454",
+        "figure": "Species-level phylogeny and biogeography figures in the concluding synthesis",
+        "quoteLocator": "Abstract diagnosis and concluding phylogenetic/biogeographic synthesis; horns and giant size explicitly do not characterize every species"
       }
     ]
   },
@@ -517,16 +538,26 @@
     "subjectId": "taxon:palaeotherium",
     "claimKind": "scientific",
     "claimType": "fossil-range",
-    "statement": "Palaeotherium disappears close to the Eocene–Oligocene transition during the major European faunal turnover known as the Grande Coupure.",
+    "statement": "Palaeotherium medium is sampled in the late Eocene at La Débruge, and separate British range data place regional Palaeotherium loss near the Grande Coupure without dating a global extinction instant.",
     "confidence": "high",
-    "confidenceRationale": "High confidence is assigned because a taxonomic and stratigraphic study directly brackets occurrences across the Grande Coupure; the wording says close to the transition rather than treating a sampled last occurrence as an exact extinction instant.",
-    "reviewedBy": "Codex automated evidence audit",
-    "reviewedAt": "2026-08-19",
-    "reviewedAgainstReferenceVersion": "hooker-2004-grande-coupure @ DOI 10.1111/j.1096-3642.2004.00104.x",
+    "confidenceRationale": "Two primary regional records independently constrain late Eocene occurrence and disappearance near the turnover. High confidence remains regional and does not convert a sampled last appearance into a global extinction instant.",
+    "reviewedBy": "Evo Atlas maintainer source audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "joomun-2008-palaeotherium-diet + hooker-2004-grande-coupure locator audit at 2026-08-31",
     "referenceLinks": [
       {
+        "referenceId": "joomun-2008-palaeotherium-diet",
         "relation": "supports",
-        "referenceId": "hooker-2004-grande-coupure"
+        "pages": "92–106",
+        "figure": "Figures 1–8; Tables 1–4",
+        "quoteLocator": "Abstract, materials and wear results for the La Débruge Palaeotherium medium sample"
+      },
+      {
+        "referenceId": "hooker-2004-grande-coupure",
+        "relation": "supports",
+        "pages": "161–172",
+        "figure": "Figures 2–4; mammal range chart",
+        "quoteLocator": "Results and conclusions distinguish pre-turnover loss, the sequence hiatus and later first Asian-immigrant records"
       }
     ]
   },
@@ -535,17 +566,19 @@
     "subjectId": "taxon:metamynodon",
     "claimKind": "scientific",
     "claimType": "ecology",
-    "statement": "Short limbs, a broad trunk, high-set eyes and river-deposit occurrences support a semi-aquatic interpretation without implying all amynodonts were semi-aquatic.",
+    "statement": "Comparative anatomy of Metamynodon planifrons—high orbits, reduced thoracic spines and limb-lever differences—together with channel-sandstone association supports a semi-aquatic locomotor inference, not direct observation or a family-wide amynodont ecology.",
     "confidence": "medium",
-    "confidenceRationale": "Medium confidence separates observed anatomy and depositional association from the functional inference of semi-aquatic behavior; a museum group overview supports the interpretation but cannot establish behavior directly.",
-    "reviewedBy": "Codex automated evidence audit",
-    "reviewedAt": "2026-08-19",
-    "reviewedAgainstReferenceVersion": "amnh-amynodonts web page accessed 2026-08-18",
+    "confidenceRationale": "The cited study explicitly tests locomotor characters against other amynodontids. Medium confidence separates measured anatomy and depositional association from behavior and keeps the inference at the sampled species level.",
+    "reviewedBy": "Evo Atlas maintainer source audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "wall-heinbaugh-1999-metamynodon-locomotion locator audit at 2026-08-31",
     "referenceLinks": [
       {
+        "referenceId": "wall-heinbaugh-1999-metamynodon-locomotion",
         "relation": "supports",
-        "referenceId": "amnh-amynodonts",
-        "quoteLocator": "group overview"
+        "pages": "8–17",
+        "figure": "Figures 1–8; Table 1",
+        "quoteLocator": "Abstract, comparative characters and conclusions testing semi-aquatic locomotion in Metamynodon planifrons"
       }
     ]
   },
@@ -554,16 +587,19 @@
     "subjectId": "taxon:paraceratherium",
     "claimKind": "scientific",
     "claimType": "topology",
-    "statement": "New Asian fossils continue to revise paraceratheriid relationships and dispersal while supporting a giant hornless rhinocerotoid identity.",
+    "statement": "A 155-character analysis places the 26.5 Ma Paraceratherium linxiaense as a derived member of a monophyletic Oligocene Paraceratherium clade, with detailed within-genus relationships remaining analysis-dependent.",
     "confidence": "high",
-    "confidenceRationale": "High confidence applies to the giant hornless rhinocerotoid identity and newly described Asian material in a peer-reviewed cladistic study; the statement explicitly treats detailed relationships and dispersal as revisions rather than settled facts.",
-    "reviewedBy": "Codex automated evidence audit",
-    "reviewedAt": "2026-08-19",
-    "reviewedAgainstReferenceVersion": "deng-2021-paraceratherium @ DOI 10.1038/s42003-021-02170-6",
+    "confidenceRationale": "The primary study provides the dated specimen, matrix and single most-parsimonious tree. High confidence applies to the published analysis, while the wording retains its model dependence rather than treating the topology as observed ancestry.",
+    "reviewedBy": "Evo Atlas maintainer source audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "deng-2021-paraceratherium locator audit at 2026-08-31",
     "referenceLinks": [
       {
+        "referenceId": "deng-2021-paraceratherium",
         "relation": "supports",
-        "referenceId": "deng-2021-paraceratherium"
+        "pages": "1–10",
+        "figure": "Figures 1–7; Supplementary Tables 1–6",
+        "quoteLocator": "Age and diagnosis; 155-character analysis; Oligocene Asian distribution and dispersal discussion"
       }
     ]
   },
@@ -572,17 +608,19 @@
     "subjectId": "taxon:chalicotherium",
     "claimKind": "scientific",
     "claimType": "morphology",
-    "statement": "The claw-bearing limbs are observed anatomy; branch-pulling behavior remains a functional interpretation.",
+    "statement": "Southern German chalicotheriine material identified as Chalicotherium goldfussi and the historical combination Chalicotherium (Anisodon) grande preserves large ungual phalanges and shortened hind limbs, while claw use and upright feeding posture remain functional reconstructions.",
     "confidence": "medium",
-    "confidenceRationale": "Medium confidence is deliberate: claw-bearing limb anatomy is direct fossil evidence, whereas branch pulling is a biomechanical and behavioral interpretation presented by a curated overview rather than an observable trait.",
-    "reviewedBy": "Codex automated evidence audit",
-    "reviewedAt": "2026-08-19",
-    "reviewedAgainstReferenceVersion": "amnh-perissodactyl-evolution web page accessed 2026-08-18",
+    "confidenceRationale": "The primary study reviews the relevant postcranial anatomy and clearly labels its historical taxonomy. Medium confidence preserves the distinction between observed bones and reconstructed posture or behavior.",
+    "reviewedBy": "Evo Atlas maintainer source audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "schulz-2007-chalicothere-feeding locator audit at 2026-08-31",
     "referenceLinks": [
       {
+        "referenceId": "schulz-2007-chalicothere-feeding",
         "relation": "supports",
-        "referenceId": "amnh-perissodactyl-evolution",
-        "quoteLocator": "Chalicotheriidae group page"
+        "pages": "5–23",
+        "figure": "Figures 1, 5 and 6; Tables 2–7",
+        "quoteLocator": "Sample definition, dental-wear results and discussion of browse, bark/twig abrasion and reconstructed posture"
       }
     ]
   },
@@ -591,17 +629,19 @@
     "subjectId": "taxon:anchitherium",
     "claimKind": "scientific",
     "claimType": "ecology",
-    "statement": "Low-crowned teeth and limb anatomy support a primarily browsing, three-toed horse adapted to wooded environments, while the exact genus-level taxonomic scope remains revision-sensitive.",
+    "statement": "Mesowear from 35 Anchitherium aurelianense cheek teeth at Sandelzhausen supports browse-dominated mixed feeding rather than a uniform pure-browser model.",
     "confidence": "medium",
-    "confidenceRationale": "Medium confidence separates directly observable dentition and limb anatomy from habitat and genus-scope interpretations that currently rely on a curated overview rather than a recent specimen-level revision.",
-    "reviewedBy": "Codex automated evidence audit",
-    "reviewedAt": "2026-08-19",
-    "reviewedAgainstReferenceVersion": "amnh-equidae web page accessed 2026-08-18",
+    "confidenceRationale": "The primary study directly measures a named 35-tooth sample. High confidence applies to that species and locality and does not turn one German mesowear signal into a uniform global genus ecology.",
+    "reviewedBy": "Evo Atlas maintainer source audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "kaiser-2009-anchitherium-diet locator audit at 2026-08-31",
     "referenceLinks": [
       {
+        "referenceId": "kaiser-2009-anchitherium-diet",
         "relation": "supports",
-        "referenceId": "amnh-equidae",
-        "quoteLocator": "Equidae group overview"
+        "pages": "131–140",
+        "figure": "Figures 1–3; Table 1",
+        "quoteLocator": "Diagnosis and European MN3–MN9 context (pp. 131–132); 35-tooth mesowear result and discussion (pp. 133–139)"
       }
     ]
   },
@@ -610,20 +650,26 @@
     "subjectId": "taxon:hipparionini",
     "claimKind": "scientific",
     "claimType": "fossil-range",
-    "statement": "Hipparionini originated in North America near 17 Ma, dispersed into the Old World around 11.4–11.0 Ma, and had regionally variable last appearances near the end of the Early Pleistocene rather than at 11.7 ka.",
+    "statement": "The Old World hipparionin review places first dispersal at 11.4–11.0 Ma and the latest regional records around or below 1 Ma; those dates are distinct from the broader North American tribe-level history.",
     "confidence": "medium",
-    "confidenceRationale": "Medium confidence reflects strong support for the North American origin and Old World dispersal window but heterogeneous genus-level taxonomy and regional terminal records; the profile therefore stores separate regional ranges.",
-    "reviewedBy": "Codex automated evidence audit",
-    "reviewedAt": "2026-08-19",
-    "reviewedAgainstReferenceVersion": "mc-horse-monodactyly-2019 and bernor-2021-hipparions DOI records",
+    "confidenceRationale": "Two systematic reviews cover complementary North American tribe-level and Old World genus-rank ranges. Medium confidence retains regional and taxonomic heterogeneity instead of treating one endpoint as global.",
+    "reviewedBy": "Evo Atlas maintainer source audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "mc-horse-monodactyly-2019 + bernor-2021-hipparions locator audit at 2026-08-31",
     "referenceLinks": [
       {
+        "referenceId": "mc-horse-monodactyly-2019",
         "relation": "supports",
-        "referenceId": "mc-horse-monodactyly-2019"
+        "pages": "1–5, 10–15",
+        "figure": "Figures 1–4",
+        "quoteLocator": "Review of Equinae foot transformation, persistent hipparionin tridactyly and North American radiation"
       },
       {
+        "referenceId": "bernor-2021-hipparions",
         "relation": "supports",
-        "referenceId": "bernor-2021-hipparions"
+        "pages": "1–20",
+        "figure": "Figures 1–13",
+        "quoteLocator": "Abstract, genus-rank systematic review, regional occurrence synthesis and body-mass/diet results"
       }
     ]
   },
@@ -632,24 +678,26 @@
     "subjectId": "taxon:teleoceras",
     "claimKind": "scientific",
     "claimType": "ecology",
-    "statement": "A single genus-wide aquatic label is unsupported: Florida Teleoceras isotope data favor principally terrestrial ecology, whereas Ashfall T. major isotope and mobility evidence supports wet-habitat or semi-aquatic behavior.",
+    "statement": "Teleoceras ecology is locality- and species-dependent: Florida isotope data favor principally terrestrial populations, whereas the 11.86 Ma Ashfall T. major sample shows limited mobility and supports wet-habitat or semi-aquatic interpretation.",
     "confidence": "contested",
-    "confidenceRationale": "Contested confidence records a real locality- and species-level conflict between peer-reviewed isotope studies; body proportions are not used to choose one ecology for the entire genus.",
-    "reviewedBy": "Codex automated evidence audit",
-    "reviewedAt": "2026-08-19",
-    "reviewedAgainstReferenceVersion": "macfadden-1998, ward-2024 and ward-2025 DOI records",
+    "confidenceRationale": "Independent primary studies produce a genuine regional contrast. Contested confidence records that contrast and avoids choosing genus-wide behavior from barrel-shaped proportions alone.",
+    "reviewedBy": "Evo Atlas maintainer source audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "macfadden-1998-teleoceras + ward-2025-teleoceras locator audit at 2026-08-31",
     "referenceLinks": [
       {
+        "referenceId": "macfadden-1998-teleoceras",
         "relation": "supports",
-        "referenceId": "macfadden-1998-teleoceras"
+        "pages": "274–286",
+        "figure": "Figures 1–5; Tables 1–3",
+        "quoteLocator": "Florida enamel-isotope results and discussion of principally terrestrial Teleoceras populations"
       },
       {
+        "referenceId": "ward-2025-teleoceras",
         "relation": "supports",
-        "referenceId": "ward-2024-teleoceras"
-      },
-      {
-        "relation": "contextualizes",
-        "referenceId": "ward-2025-teleoceras"
+        "pages": "1–10",
+        "figure": "Figures 1–6; Supplementary Data",
+        "quoteLocator": "Abstract; Teleoceras major morphology and 12.5–10 Ma regional context; 13-adult isotope sample and limited-mobility results"
       }
     ]
   },
@@ -658,16 +706,26 @@
     "subjectId": "taxon:coelodonta",
     "claimKind": "scientific",
     "claimType": "fossil-range",
-    "statement": "A 14.4 ka woolly-rhinoceros genome shows no clear recent inbreeding or genomic erosion, supporting a rapid terminal decline while remaining distinct from the global fossil LAD synthesis.",
+    "statement": "A directly dated 14.4 ka Coelodonta antiquitatis genome constrains one late northern Eurasian individual and its population metrics; it does not establish the genus-wide or global fossil last appearance.",
     "confidence": "high",
-    "confidenceRationale": "High confidence applies to the directly dated high-coverage genome and its measured diversity and inbreeding metrics; the broader cause and exact global extinction date are not inferred from that individual alone.",
-    "reviewedBy": "Codex automated evidence audit",
-    "reviewedAt": "2026-08-19",
-    "reviewedAgainstReferenceVersion": "gudjonsdottir-2026-coelodonta @ DOI 10.1093/gbe/evaf239",
+    "confidenceRationale": "The genome study directly dates and analyzes one late individual. High confidence applies to that bounded result, while the wording explicitly separates it from a genus-wide or global extinction boundary.",
+    "reviewedBy": "Evo Atlas maintainer source audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "ma-2024-coelodonta-paleoecology + gudjonsdottir-2026-coelodonta locator audit at 2026-08-31",
     "referenceLinks": [
       {
+        "referenceId": "ma-2024-coelodonta-paleoecology",
         "relation": "supports",
-        "referenceId": "gudjonsdottir-2026-coelodonta"
+        "pages": "1–12",
+        "figure": "Figures 1–6; Tables 1–2",
+        "quoteLocator": "Evolutionary-history review and species-specific diet sections distinguish C. antiquitatis from C. nihowanensis"
+      },
+      {
+        "referenceId": "gudjonsdottir-2026-coelodonta",
+        "relation": "supports",
+        "pages": "1–8",
+        "figure": "Figures 1–3; Supplementary Tables",
+        "quoteLocator": "Directly dated 14.4 ka specimen, genome-wide diversity and runs-of-homozygosity results"
       }
     ]
   },
@@ -725,17 +783,26 @@
     "subjectId": "taxon:perissodactyla",
     "claimKind": "scientific",
     "claimType": "taxonomy",
-    "statement": "Perissodactyla is represented in this curated draft as a order associated with Laurasiatheria; the concept remains subject to the pinned external-resolution ledger.",
+    "statement": "Perissodactyla is treated as the order containing living horses, tapirs and rhinoceroses plus diverse extinct branches; basal fossil placements remain analysis-dependent.",
     "confidence": "medium",
-    "confidenceRationale": "Perissodactyla taxonomy is an automated curator-draft decomposition tied to its visible fields and current source inventory; human claim-specific locator review remains pending.",
-    "reviewedBy": "Evo Atlas automated evidence decomposition",
-    "reviewedAt": "2026-08-20",
-    "reviewedAgainstReferenceVersion": "pnas-2026-perissodactyls source inventory at 2026.08-static-v5-rc44",
+    "confidenceRationale": "The primary matrix and synthesis support the order concept and its major branches, while both caution against a simple linear ancestry.",
+    "reviewedBy": "Evo Atlas maintainer source audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "pnas-2026-perissodactyls + prothero-2009-hoofed-transitions locator audit at 2026-08-31",
     "referenceLinks": [
       {
-        "relation": "supports",
         "referenceId": "pnas-2026-perissodactyls",
-        "quoteLocator": "Source scope; precise page or figure locator pending curator review."
+        "relation": "supports",
+        "pages": "1–6 of 8",
+        "figure": "Figures 1 and 3; Dataset S2",
+        "quoteLocator": "Abstract and Introduction (p. 1), stem placements (p. 4), occurrence calibration and unresolved origin (p. 6)"
+      },
+      {
+        "referenceId": "prothero-2009-hoofed-transitions",
+        "relation": "supports",
+        "pages": "290–294",
+        "figure": "Figure 1",
+        "quoteLocator": "“The Perissodactyls” and early-radiation synthesis; family divergence is traced from dental and cranial comparisons"
       }
     ]
   },
@@ -765,17 +832,19 @@
     "subjectId": "taxon:perissodactyla",
     "claimKind": "scientific",
     "claimType": "morphology",
-    "statement": "The Perissodactyla draft profile records the following morphological context: Mesaxonic foot; Hindgut fermentation; Lophodont or specialized grinding teeth.",
+    "statement": "The order-level profile records early dental and cranial similarity followed by strong lineage-specific divergence; it does not assert one foot, tooth or digestive condition for every fossil branch.",
     "confidence": "medium",
-    "confidenceRationale": "Perissodactyla morphology is an automated curator-draft decomposition tied to its visible fields and current source inventory; human claim-specific locator review remains pending.",
-    "reviewedBy": "Evo Atlas automated evidence decomposition",
-    "reviewedAt": "2026-08-20",
-    "reviewedAgainstReferenceVersion": "amnh-perissodactyl-evolution source inventory at 2026.08-static-v5-rc44",
+    "confidenceRationale": "The synthesis directly compares early teeth and skulls and then documents divergent lineage histories. Medium confidence reflects the breadth of the order.",
+    "reviewedBy": "Evo Atlas maintainer source audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "prothero-2009-hoofed-transitions locator audit at 2026-08-31",
     "referenceLinks": [
       {
+        "referenceId": "prothero-2009-hoofed-transitions",
         "relation": "supports",
-        "referenceId": "amnh-perissodactyl-evolution",
-        "quoteLocator": "Source scope; precise page or figure locator pending curator review."
+        "pages": "290–294",
+        "figure": "Figure 1",
+        "quoteLocator": "“The Perissodactyls” and early-radiation synthesis; family divergence is traced from dental and cranial comparisons"
       }
     ]
   },
@@ -784,17 +853,19 @@
     "subjectId": "taxon:perissodactyla",
     "claimKind": "scientific",
     "claimType": "ecology",
-    "statement": "The Perissodactyla draft profile describes Herbivorous feeding in Forest to open grassland, with Terrestrial cursorial to graviportal locomotor context.",
+    "statement": "Perissodactyls were terrestrial herbivores spanning small early forms to giant rhinocerotoids and later browsing, mixed-feeding and grazing lineages; these states evolved in separate branches rather than as one progression.",
     "confidence": "medium",
-    "confidenceRationale": "Perissodactyla ecology is an automated curator-draft decomposition tied to its visible fields and current source inventory; human claim-specific locator review remains pending.",
-    "reviewedBy": "Evo Atlas automated evidence decomposition",
-    "reviewedAt": "2026-08-20",
-    "reviewedAgainstReferenceVersion": "amnh-perissodactyl-evolution source inventory at 2026.08-static-v5-rc44",
+    "confidenceRationale": "The systematic synthesis supports broad ecological disparity, but an order-wide profile cannot substitute for species-level paleoecology.",
+    "reviewedBy": "Evo Atlas maintainer source audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "prothero-2009-hoofed-transitions locator audit at 2026-08-31",
     "referenceLinks": [
       {
+        "referenceId": "prothero-2009-hoofed-transitions",
         "relation": "supports",
-        "referenceId": "amnh-perissodactyl-evolution",
-        "quoteLocator": "Source scope; precise page or figure locator pending curator review."
+        "pages": "290–294",
+        "figure": "Figure 1",
+        "quoteLocator": "“The Perissodactyls” and early-radiation synthesis; family divergence is traced from dental and cranial comparisons"
       }
     ]
   },
@@ -803,17 +874,19 @@
     "subjectId": "taxon:brontotheriidae",
     "claimKind": "scientific",
     "claimType": "taxonomy",
-    "statement": "Brontotheriidae is represented in this curated draft as a family associated with Perissodactyla; the concept remains subject to the pinned external-resolution ledger.",
+    "statement": "Brontotheriidae is an Eocene perissodactyl family revised at species level; its deeper position within Perissodactyla remains less certain than the family’s internal membership.",
     "confidence": "medium",
-    "confidenceRationale": "Brontotheriidae taxonomy is an automated curator-draft decomposition tied to its visible fields and current source inventory; human claim-specific locator review remains pending.",
-    "reviewedBy": "Evo Atlas automated evidence decomposition",
-    "reviewedAt": "2026-08-20",
-    "reviewedAgainstReferenceVersion": "amnh-brontotheres source inventory at 2026.08-static-v5-rc44",
+    "confidenceRationale": "The monograph supplies explicit diagnoses and a species-level phylogeny, while acknowledging uncertainty outside the family.",
+    "reviewedBy": "Evo Atlas maintainer source audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "mihlbachler-2008-brontotheriidae locator audit at 2026-08-31",
     "referenceLinks": [
       {
+        "referenceId": "mihlbachler-2008-brontotheriidae",
         "relation": "supports",
-        "referenceId": "amnh-brontotheres",
-        "quoteLocator": "group overview"
+        "pages": "1–3, 409–454",
+        "figure": "Species-level phylogeny and biogeography figures in the concluding synthesis",
+        "quoteLocator": "Abstract diagnosis and concluding phylogenetic/biogeographic synthesis; horns and giant size explicitly do not characterize every species"
       }
     ]
   },
@@ -822,17 +895,19 @@
     "subjectId": "taxon:brontotheriidae",
     "claimKind": "scientific",
     "claimType": "fossil-range",
-    "statement": "The atlas displays a provisional 53–34 Ma global range for Brontotheriidae; its evidence level is recorded separately and it is not an expert-reviewed extinction interval.",
+    "statement": "The atlas’s 53–34 Ma occurrence envelope is provisional; the systematic monograph independently supports an Eocene family record but does not make those numeric endpoints exact origination or extinction times.",
     "confidence": "low",
-    "confidenceRationale": "Brontotheriidae fossil-range is an automated curator-draft decomposition tied to its visible fields and current source inventory; human claim-specific locator review remains pending.",
-    "reviewedBy": "Evo Atlas automated evidence decomposition",
-    "reviewedAt": "2026-08-20",
-    "reviewedAgainstReferenceVersion": "pbdb-api-2016 source inventory at 2026.08-static-v5-rc44",
+    "confidenceRationale": "Medium confidence distinguishes a literature-supported epoch range from the atlas’s occurrence-derived numeric navigation edges.",
+    "reviewedBy": "Evo Atlas maintainer source audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "mihlbachler-2008-brontotheriidae locator audit at 2026-08-31",
     "referenceLinks": [
       {
+        "referenceId": "mihlbachler-2008-brontotheriidae",
         "relation": "supports",
-        "referenceId": "pbdb-api-2016",
-        "quoteLocator": "Source scope; precise page or figure locator pending curator review."
+        "pages": "1–3, 409–454",
+        "figure": "Species-level phylogeny and biogeography figures in the concluding synthesis",
+        "quoteLocator": "Abstract diagnosis and concluding phylogenetic/biogeographic synthesis; horns and giant size explicitly do not characterize every species"
       }
     ]
   },
@@ -841,17 +916,19 @@
     "subjectId": "taxon:brontotheriidae",
     "claimKind": "scientific",
     "claimType": "ecology",
-    "statement": "The Brontotheriidae draft profile describes Browsing herbivore feeding in Woodland and forest, with Terrestrial graviportal locomotor context.",
+    "statement": "Brontotheres were terrestrial Eocene herbivores with folivorous dental evidence and body sizes ranging from small early forms to rhinoceros-sized taxa; one habitat or gait is not generalized across the family.",
     "confidence": "medium",
-    "confidenceRationale": "Brontotheriidae ecology is an automated curator-draft decomposition tied to its visible fields and current source inventory; human claim-specific locator review remains pending.",
-    "reviewedBy": "Evo Atlas automated evidence decomposition",
-    "reviewedAt": "2026-08-20",
-    "reviewedAgainstReferenceVersion": "amnh-brontotheres source inventory at 2026.08-static-v5-rc44",
+    "confidenceRationale": "The monograph reviews dental function and size variation, but detailed habitat and gait differ among species and are intentionally withheld.",
+    "reviewedBy": "Evo Atlas maintainer source audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "mihlbachler-2008-brontotheriidae locator audit at 2026-08-31",
     "referenceLinks": [
       {
+        "referenceId": "mihlbachler-2008-brontotheriidae",
         "relation": "supports",
-        "referenceId": "amnh-brontotheres",
-        "quoteLocator": "group overview"
+        "pages": "1–3, 409–454",
+        "figure": "Species-level phylogeny and biogeography figures in the concluding synthesis",
+        "quoteLocator": "Abstract diagnosis and concluding phylogenetic/biogeographic synthesis; horns and giant size explicitly do not characterize every species"
       }
     ]
   },
@@ -860,17 +937,19 @@
     "subjectId": "taxon:brontotheriidae",
     "claimKind": "scientific",
     "claimType": "biogeography",
-    "statement": "The Brontotheriidae draft profile places its represented geographic context in Asia, South Asia, Indo-Pakistan, North America; this is a sourced synthesis rather than a complete occurrence distribution.",
+    "statement": "The revised family is recorded from North America and Asia and rarely eastern Europe; inferred intercontinental exchanges do not establish a single observed dispersal direction.",
     "confidence": "medium",
-    "confidenceRationale": "Brontotheriidae biogeography is an automated curator-draft decomposition tied to its visible fields and current source inventory; human claim-specific locator review remains pending.",
-    "reviewedBy": "Evo Atlas automated evidence decomposition",
-    "reviewedAt": "2026-08-20",
-    "reviewedAgainstReferenceVersion": "amnh-brontotheres source inventory at 2026.08-static-v5-rc44",
+    "confidenceRationale": "The monograph’s species-level occurrence and phylogenetic synthesis directly supports the bounded distribution and the stated uncertainty.",
+    "reviewedBy": "Evo Atlas maintainer source audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "mihlbachler-2008-brontotheriidae locator audit at 2026-08-31",
     "referenceLinks": [
       {
+        "referenceId": "mihlbachler-2008-brontotheriidae",
         "relation": "supports",
-        "referenceId": "amnh-brontotheres",
-        "quoteLocator": "group overview"
+        "pages": "1–3, 409–454",
+        "figure": "Species-level phylogeny and biogeography figures in the concluding synthesis",
+        "quoteLocator": "Abstract diagnosis and concluding phylogenetic/biogeographic synthesis; horns and giant size explicitly do not characterize every species"
       }
     ]
   },
@@ -879,17 +958,26 @@
     "subjectId": "taxon:palaeotherium",
     "claimKind": "scientific",
     "claimType": "taxonomy",
-    "statement": "Palaeotherium is represented in this curated draft as a genus associated with Palaeotheriidae; the concept remains subject to the pinned external-resolution ledger.",
+    "statement": "The profile uses Palaeotherium at genus rank within Palaeotheriidae, while ecological detail is explicitly restricted to the sampled species P. medium.",
     "confidence": "medium",
-    "confidenceRationale": "Palaeotherium taxonomy is an automated curator-draft decomposition tied to its visible fields and current source inventory; human claim-specific locator review remains pending.",
-    "reviewedBy": "Evo Atlas automated evidence decomposition",
-    "reviewedAt": "2026-08-20",
-    "reviewedAgainstReferenceVersion": "hooker-2004-grande-coupure source inventory at 2026.08-static-v5-rc44",
+    "confidenceRationale": "Primary species attribution and the regional range study support the genus context without collapsing all species into P. medium.",
+    "reviewedBy": "Evo Atlas maintainer source audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "joomun-2008-palaeotherium-diet + hooker-2004-grande-coupure locator audit at 2026-08-31",
     "referenceLinks": [
       {
+        "referenceId": "joomun-2008-palaeotherium-diet",
         "relation": "supports",
+        "pages": "92–106",
+        "figure": "Figures 1–8; Tables 1–4",
+        "quoteLocator": "Abstract, materials and wear results for the La Débruge Palaeotherium medium sample"
+      },
+      {
         "referenceId": "hooker-2004-grande-coupure",
-        "quoteLocator": "Source scope; precise page or figure locator pending curator review."
+        "relation": "supports",
+        "pages": "161–172",
+        "figure": "Figures 2–4; mammal range chart",
+        "quoteLocator": "Results and conclusions distinguish pre-turnover loss, the sequence hiatus and later first Asian-immigrant records"
       }
     ]
   },
@@ -898,17 +986,19 @@
     "subjectId": "taxon:palaeotherium",
     "claimKind": "scientific",
     "claimType": "morphology",
-    "statement": "The Palaeotherium draft profile records the following morphological context: Three-toed limbs; Low-crowned teeth; Tapir-like proportions in larger species.",
+    "statement": "In the sampled Palaeotherium medium, molar wear facets, high occlusal relief and mixed sharp and rounded cusps provide the morphological basis for dietary inference; limb proportions are not claimed here.",
     "confidence": "medium",
-    "confidenceRationale": "Palaeotherium morphology is an automated curator-draft decomposition tied to its visible fields and current source inventory; human claim-specific locator review remains pending.",
-    "reviewedBy": "Evo Atlas automated evidence decomposition",
-    "reviewedAt": "2026-08-20",
-    "reviewedAgainstReferenceVersion": "amnh-perissodactyl-evolution source inventory at 2026.08-static-v5-rc44",
+    "confidenceRationale": "The primary study measures dental form and wear directly. Removing unsupported limb analogies keeps morphology at the observed specimen level.",
+    "reviewedBy": "Evo Atlas maintainer source audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "joomun-2008-palaeotherium-diet locator audit at 2026-08-31",
     "referenceLinks": [
       {
+        "referenceId": "joomun-2008-palaeotherium-diet",
         "relation": "supports",
-        "referenceId": "amnh-perissodactyl-evolution",
-        "quoteLocator": "Source scope; precise page or figure locator pending curator review."
+        "pages": "92–106",
+        "figure": "Figures 1–8; Tables 1–4",
+        "quoteLocator": "Abstract, materials and wear results for the La Débruge Palaeotherium medium sample"
       }
     ]
   },
@@ -917,17 +1007,19 @@
     "subjectId": "taxon:palaeotherium",
     "claimKind": "scientific",
     "claimType": "ecology",
-    "statement": "The Palaeotherium draft profile describes Browsing herbivore feeding in Forest, with Terrestrial locomotor context.",
+    "statement": "The La Débruge Palaeotherium medium sample is consistent with leaf browsing plus a smaller fruit or abrasive-seed component; habitat and locomotor behavior are not inferred from tooth wear alone.",
     "confidence": "medium",
-    "confidenceRationale": "Palaeotherium ecology is an automated curator-draft decomposition tied to its visible fields and current source inventory; human claim-specific locator review remains pending.",
-    "reviewedBy": "Evo Atlas automated evidence decomposition",
-    "reviewedAt": "2026-08-20",
-    "reviewedAgainstReferenceVersion": "amnh-perissodactyl-evolution source inventory at 2026.08-static-v5-rc44",
+    "confidenceRationale": "High confidence applies to the replicated wear proxies, while the explicit non-inferences prevent dental data from carrying unrelated ecology.",
+    "reviewedBy": "Evo Atlas maintainer source audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "joomun-2008-palaeotherium-diet locator audit at 2026-08-31",
     "referenceLinks": [
       {
+        "referenceId": "joomun-2008-palaeotherium-diet",
         "relation": "supports",
-        "referenceId": "amnh-perissodactyl-evolution",
-        "quoteLocator": "Source scope; precise page or figure locator pending curator review."
+        "pages": "92–106",
+        "figure": "Figures 1–8; Tables 1–4",
+        "quoteLocator": "Abstract, materials and wear results for the La Débruge Palaeotherium medium sample"
       }
     ]
   },
@@ -936,17 +1028,26 @@
     "subjectId": "taxon:palaeotherium",
     "claimKind": "scientific",
     "claimType": "biogeography",
-    "statement": "The Palaeotherium draft profile places its represented geographic context in Europe; this is a sourced synthesis rather than a complete occurrence distribution.",
+    "statement": "This profile represents western European study records from La Débruge and the Hampshire Basin rather than a complete genus-wide occurrence distribution.",
     "confidence": "medium",
-    "confidenceRationale": "Palaeotherium biogeography is an automated curator-draft decomposition tied to its visible fields and current source inventory; human claim-specific locator review remains pending.",
-    "reviewedBy": "Evo Atlas automated evidence decomposition",
-    "reviewedAt": "2026-08-20",
-    "reviewedAgainstReferenceVersion": "amnh-perissodactyl-evolution source inventory at 2026.08-static-v5-rc44",
+    "confidenceRationale": "Two primary regional studies directly establish the French and British contexts; broader geography is intentionally not asserted.",
+    "reviewedBy": "Evo Atlas maintainer source audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "joomun-2008-palaeotherium-diet + hooker-2004-grande-coupure locator audit at 2026-08-31",
     "referenceLinks": [
       {
+        "referenceId": "joomun-2008-palaeotherium-diet",
         "relation": "supports",
-        "referenceId": "amnh-perissodactyl-evolution",
-        "quoteLocator": "Source scope; precise page or figure locator pending curator review."
+        "pages": "92–106",
+        "figure": "Figures 1–8; Tables 1–4",
+        "quoteLocator": "Abstract, materials and wear results for the La Débruge Palaeotherium medium sample"
+      },
+      {
+        "referenceId": "hooker-2004-grande-coupure",
+        "relation": "supports",
+        "pages": "161–172",
+        "figure": "Figures 2–4; mammal range chart",
+        "quoteLocator": "Results and conclusions distinguish pre-turnover loss, the sequence hiatus and later first Asian-immigrant records"
       }
     ]
   },
@@ -955,17 +1056,19 @@
     "subjectId": "taxon:metamynodon",
     "claimKind": "scientific",
     "claimType": "taxonomy",
-    "statement": "Metamynodon is represented in this curated draft as a genus associated with Amynodontidae; the concept remains subject to the pinned external-resolution ledger.",
+    "statement": "Metamynodon is treated as an amynodontid genus, with the detailed locomotor profile restricted to M. planifrons specimens used in the comparative study.",
     "confidence": "medium",
-    "confidenceRationale": "Metamynodon taxonomy is an automated curator-draft decomposition tied to its visible fields and current source inventory; human claim-specific locator review remains pending.",
-    "reviewedBy": "Evo Atlas automated evidence decomposition",
-    "reviewedAt": "2026-08-20",
-    "reviewedAgainstReferenceVersion": "amnh-amynodonts source inventory at 2026.08-static-v5-rc44",
+    "confidenceRationale": "The primary comparative paper names its Metamynodon material and outgroups; genus-wide extrapolation is avoided.",
+    "reviewedBy": "Evo Atlas maintainer source audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "wall-heinbaugh-1999-metamynodon-locomotion locator audit at 2026-08-31",
     "referenceLinks": [
       {
+        "referenceId": "wall-heinbaugh-1999-metamynodon-locomotion",
         "relation": "supports",
-        "referenceId": "amnh-amynodonts",
-        "quoteLocator": "group overview"
+        "pages": "8–17",
+        "figure": "Figures 1–8; Table 1",
+        "quoteLocator": "Abstract, comparative characters and conclusions testing semi-aquatic locomotion in Metamynodon planifrons"
       }
     ]
   },
@@ -974,17 +1077,19 @@
     "subjectId": "taxon:metamynodon",
     "claimKind": "scientific",
     "claimType": "fossil-range",
-    "statement": "The atlas displays a provisional 40.4–23 Ma global range for Metamynodon; its evidence level is recorded separately and it is not an expert-reviewed extinction interval.",
+    "statement": "The atlas’s 40.4–23 Ma occurrence envelope remains provisional; the cited anatomical study independently anchors Orellan M. planifrons material but does not validate exact global endpoints.",
     "confidence": "low",
-    "confidenceRationale": "Metamynodon fossil-range is an automated curator-draft decomposition tied to its visible fields and current source inventory; human claim-specific locator review remains pending.",
-    "reviewedBy": "Evo Atlas automated evidence decomposition",
-    "reviewedAt": "2026-08-20",
-    "reviewedAgainstReferenceVersion": "pbdb-api-2016 source inventory at 2026.08-static-v5-rc44",
+    "confidenceRationale": "Medium confidence separates a sampled North American interval from an occurrence-derived navigation envelope.",
+    "reviewedBy": "Evo Atlas maintainer source audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "wall-heinbaugh-1999-metamynodon-locomotion locator audit at 2026-08-31",
     "referenceLinks": [
       {
+        "referenceId": "wall-heinbaugh-1999-metamynodon-locomotion",
         "relation": "supports",
-        "referenceId": "pbdb-api-2016",
-        "quoteLocator": "Source scope; precise page or figure locator pending curator review."
+        "pages": "8–17",
+        "figure": "Figures 1–8; Table 1",
+        "quoteLocator": "Abstract, comparative characters and conclusions testing semi-aquatic locomotion in Metamynodon planifrons"
       }
     ]
   },
@@ -993,17 +1098,19 @@
     "subjectId": "taxon:metamynodon",
     "claimKind": "scientific",
     "claimType": "morphology",
-    "statement": "The Metamynodon draft profile records the following morphological context: Shortened limbs; Broad torso; High-positioned orbits.",
+    "statement": "Metamynodon planifrons combines high-set orbits, reduced thoracic neural spines and limb-lever proportions that differ from more terrestrial amynodontids.",
     "confidence": "medium",
-    "confidenceRationale": "Metamynodon morphology is an automated curator-draft decomposition tied to its visible fields and current source inventory; human claim-specific locator review remains pending.",
-    "reviewedBy": "Evo Atlas automated evidence decomposition",
-    "reviewedAt": "2026-08-20",
-    "reviewedAgainstReferenceVersion": "amnh-amynodonts source inventory at 2026.08-static-v5-rc44",
+    "confidenceRationale": "The comparative measurements and figures directly support these characters; broad-torso and soft-tissue claims were removed where the source did not measure them.",
+    "reviewedBy": "Evo Atlas maintainer source audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "wall-heinbaugh-1999-metamynodon-locomotion locator audit at 2026-08-31",
     "referenceLinks": [
       {
+        "referenceId": "wall-heinbaugh-1999-metamynodon-locomotion",
         "relation": "supports",
-        "referenceId": "amnh-amynodonts",
-        "quoteLocator": "group overview"
+        "pages": "8–17",
+        "figure": "Figures 1–8; Table 1",
+        "quoteLocator": "Abstract, comparative characters and conclusions testing semi-aquatic locomotion in Metamynodon planifrons"
       }
     ]
   },
@@ -1012,17 +1119,19 @@
     "subjectId": "taxon:metamynodon",
     "claimKind": "scientific",
     "claimType": "biogeography",
-    "statement": "The Metamynodon draft profile places its represented geographic context in North America, Asia; this is a sourced synthesis rather than a complete occurrence distribution.",
+    "statement": "The detailed profile is geographically bounded to Orellan channel deposits of Badlands National Park, South Dakota; it is not a complete Asian–North American genus distribution.",
     "confidence": "medium",
-    "confidenceRationale": "Metamynodon biogeography is an automated curator-draft decomposition tied to its visible fields and current source inventory; human claim-specific locator review remains pending.",
-    "reviewedBy": "Evo Atlas automated evidence decomposition",
-    "reviewedAt": "2026-08-20",
-    "reviewedAgainstReferenceVersion": "amnh-amynodonts source inventory at 2026.08-static-v5-rc44",
+    "confidenceRationale": "The cited primary study directly documents its sampled locality and sedimentary association.",
+    "reviewedBy": "Evo Atlas maintainer source audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "wall-heinbaugh-1999-metamynodon-locomotion locator audit at 2026-08-31",
     "referenceLinks": [
       {
+        "referenceId": "wall-heinbaugh-1999-metamynodon-locomotion",
         "relation": "supports",
-        "referenceId": "amnh-amynodonts",
-        "quoteLocator": "group overview"
+        "pages": "8–17",
+        "figure": "Figures 1–8; Table 1",
+        "quoteLocator": "Abstract, comparative characters and conclusions testing semi-aquatic locomotion in Metamynodon planifrons"
       }
     ]
   },
@@ -1031,17 +1140,19 @@
     "subjectId": "taxon:paraceratherium",
     "claimKind": "scientific",
     "claimType": "taxonomy",
-    "statement": "Paraceratherium is represented in this curated draft as a genus associated with Paraceratheriidae; the concept remains subject to the pinned external-resolution ledger.",
+    "statement": "Paraceratherium is treated as an Oligocene paraceratheriid genus; the six sampled species form a monophyletic clade in the cited 155-character analysis.",
     "confidence": "medium",
-    "confidenceRationale": "Paraceratherium taxonomy is an automated curator-draft decomposition tied to its visible fields and current source inventory; human claim-specific locator review remains pending.",
-    "reviewedBy": "Evo Atlas automated evidence decomposition",
-    "reviewedAt": "2026-08-20",
-    "reviewedAgainstReferenceVersion": "deng-2021-paraceratherium source inventory at 2026.08-static-v5-rc44",
+    "confidenceRationale": "The primary paper provides a genus diagnosis, species sample and explicit cladistic result.",
+    "reviewedBy": "Evo Atlas maintainer source audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "deng-2021-paraceratherium locator audit at 2026-08-31",
     "referenceLinks": [
       {
-        "relation": "supports",
         "referenceId": "deng-2021-paraceratherium",
-        "quoteLocator": "Source scope; precise page or figure locator pending curator review."
+        "relation": "supports",
+        "pages": "1–10",
+        "figure": "Figures 1–7; Supplementary Tables 1–6",
+        "quoteLocator": "Age and diagnosis; 155-character analysis; Oligocene Asian distribution and dispersal discussion"
       }
     ]
   },
@@ -1050,17 +1161,19 @@
     "subjectId": "taxon:paraceratherium",
     "claimKind": "scientific",
     "claimType": "fossil-range",
-    "statement": "The atlas displays a provisional 34–20 Ma global range for Paraceratherium; its evidence level is recorded separately and it is not an expert-reviewed extinction interval.",
+    "statement": "The atlas’s 34–20 Ma occurrence envelope is provisional; the primary study securely dates P. linxiaense to 26.5 Ma and discusses other Oligocene species without turning the display edges into exact endpoints.",
     "confidence": "low",
-    "confidenceRationale": "Paraceratherium fossil-range is an automated curator-draft decomposition tied to its visible fields and current source inventory; human claim-specific locator review remains pending.",
-    "reviewedBy": "Evo Atlas automated evidence decomposition",
-    "reviewedAt": "2026-08-20",
-    "reviewedAgainstReferenceVersion": "pbdb-api-2016 source inventory at 2026.08-static-v5-rc44",
+    "confidenceRationale": "High confidence applies to the dated Linxia occurrence and Oligocene context, not to a precise global origin or extinction instant.",
+    "reviewedBy": "Evo Atlas maintainer source audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "deng-2021-paraceratherium locator audit at 2026-08-31",
     "referenceLinks": [
       {
+        "referenceId": "deng-2021-paraceratherium",
         "relation": "supports",
-        "referenceId": "pbdb-api-2016",
-        "quoteLocator": "Source scope; precise page or figure locator pending curator review."
+        "pages": "1–10",
+        "figure": "Figures 1–7; Supplementary Tables 1–6",
+        "quoteLocator": "Age and diagnosis; 155-character analysis; Oligocene Asian distribution and dispersal discussion"
       }
     ]
   },
@@ -1069,17 +1182,19 @@
     "subjectId": "taxon:paraceratherium",
     "claimKind": "scientific",
     "claimType": "morphology",
-    "statement": "The Paraceratherium draft profile records the following morphological context: Elongate skull and limbs; Massive body size; High browsing reach.",
+    "statement": "P. linxiaense preserves a giant skull, mandible and cervical vertebrae consistent with a large body and long flexible neck; the study does not support elephant-like stubby graviportal limbs.",
     "confidence": "medium",
-    "confidenceRationale": "Paraceratherium morphology is an automated curator-draft decomposition tied to its visible fields and current source inventory; human claim-specific locator review remains pending.",
-    "reviewedBy": "Evo Atlas automated evidence decomposition",
-    "reviewedAt": "2026-08-20",
-    "reviewedAgainstReferenceVersion": "deng-2021-paraceratherium source inventory at 2026.08-static-v5-rc44",
+    "confidenceRationale": "The diagnosis, measurements and vertebral comparisons directly support the revised morphology and remove an unsupported locomotor analogy.",
+    "reviewedBy": "Evo Atlas maintainer source audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "deng-2021-paraceratherium locator audit at 2026-08-31",
     "referenceLinks": [
       {
-        "relation": "supports",
         "referenceId": "deng-2021-paraceratherium",
-        "quoteLocator": "Source scope; precise page or figure locator pending curator review."
+        "relation": "supports",
+        "pages": "1–10",
+        "figure": "Figures 1–7; Supplementary Tables 1–6",
+        "quoteLocator": "Age and diagnosis; 155-character analysis; Oligocene Asian distribution and dispersal discussion"
       }
     ]
   },
@@ -1088,17 +1203,19 @@
     "subjectId": "taxon:paraceratherium",
     "claimKind": "scientific",
     "claimType": "ecology",
-    "statement": "The Paraceratherium draft profile describes High browsing herbivore feeding in Open woodland, with Terrestrial graviportal locomotor context.",
+    "statement": "Paraceratherium is represented as a giant terrestrial herbivore associated in the cited study with Oligocene Asian woodland–grassland mosaics; high feeding reach is an anatomical inference, not observed behavior.",
     "confidence": "medium",
-    "confidenceRationale": "Paraceratherium ecology is an automated curator-draft decomposition tied to its visible fields and current source inventory; human claim-specific locator review remains pending.",
-    "reviewedBy": "Evo Atlas automated evidence decomposition",
-    "reviewedAt": "2026-08-20",
-    "reviewedAgainstReferenceVersion": "deng-2021-paraceratherium source inventory at 2026.08-static-v5-rc44",
+    "confidenceRationale": "Medium confidence distinguishes fossil anatomy and faunal context from inferred feeding height and does not prescribe one habitat for every species.",
+    "reviewedBy": "Evo Atlas maintainer source audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "deng-2021-paraceratherium locator audit at 2026-08-31",
     "referenceLinks": [
       {
-        "relation": "supports",
         "referenceId": "deng-2021-paraceratherium",
-        "quoteLocator": "Source scope; precise page or figure locator pending curator review."
+        "relation": "supports",
+        "pages": "1–10",
+        "figure": "Figures 1–7; Supplementary Tables 1–6",
+        "quoteLocator": "Age and diagnosis; 155-character analysis; Oligocene Asian distribution and dispersal discussion"
       }
     ]
   },
@@ -1107,17 +1224,19 @@
     "subjectId": "taxon:paraceratherium",
     "claimKind": "scientific",
     "claimType": "biogeography",
-    "statement": "The Paraceratherium draft profile places its represented geographic context in Central Asia, East Asia, South Asia; this is a sourced synthesis rather than a complete occurrence distribution.",
+    "statement": "The cited phylogeny and occurrence map place Paraceratherium species across the Mongolian Plateau, northwestern China, Kazakhstan and Pakistan and infer dispersal through the Tibetan region.",
     "confidence": "medium",
-    "confidenceRationale": "Paraceratherium biogeography is an automated curator-draft decomposition tied to its visible fields and current source inventory; human claim-specific locator review remains pending.",
-    "reviewedBy": "Evo Atlas automated evidence decomposition",
-    "reviewedAt": "2026-08-20",
-    "reviewedAgainstReferenceVersion": "deng-2021-paraceratherium source inventory at 2026.08-static-v5-rc44",
+    "confidenceRationale": "The geographic records are direct, whereas routes and palaeoelevation are model-based; the statement keeps that distinction explicit.",
+    "reviewedBy": "Evo Atlas maintainer source audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "deng-2021-paraceratherium locator audit at 2026-08-31",
     "referenceLinks": [
       {
-        "relation": "supports",
         "referenceId": "deng-2021-paraceratherium",
-        "quoteLocator": "Source scope; precise page or figure locator pending curator review."
+        "relation": "supports",
+        "pages": "1–10",
+        "figure": "Figures 1–7; Supplementary Tables 1–6",
+        "quoteLocator": "Age and diagnosis; 155-character analysis; Oligocene Asian distribution and dispersal discussion"
       }
     ]
   },
@@ -1126,17 +1245,19 @@
     "subjectId": "taxon:chalicotherium",
     "claimKind": "scientific",
     "claimType": "taxonomy",
-    "statement": "Chalicotherium is represented in this curated draft as a genus associated with Chalicotheriidae; the concept remains subject to the pinned external-resolution ledger.",
+    "statement": "Chalicotherium is retained at genus rank, but the evidence profile distinguishes C. goldfussi from material published under the historical combination Chalicotherium (Anisodon) grande.",
     "confidence": "medium",
-    "confidenceRationale": "Chalicotherium taxonomy is an automated curator-draft decomposition tied to its visible fields and current source inventory; human claim-specific locator review remains pending.",
-    "reviewedBy": "Evo Atlas automated evidence decomposition",
-    "reviewedAt": "2026-08-20",
-    "reviewedAgainstReferenceVersion": "amnh-perissodactyl-evolution source inventory at 2026.08-static-v5-rc44",
+    "confidenceRationale": "The primary study’s own specimen labels prevent obsolete combinations from being silently treated as current genus membership.",
+    "reviewedBy": "Evo Atlas maintainer source audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "schulz-2007-chalicothere-feeding locator audit at 2026-08-31",
     "referenceLinks": [
       {
+        "referenceId": "schulz-2007-chalicothere-feeding",
         "relation": "supports",
-        "referenceId": "amnh-perissodactyl-evolution",
-        "quoteLocator": "Chalicotheriidae group page"
+        "pages": "5–23",
+        "figure": "Figures 1, 5 and 6; Tables 2–7",
+        "quoteLocator": "Sample definition, dental-wear results and discussion of browse, bark/twig abrasion and reconstructed posture"
       }
     ]
   },
@@ -1145,17 +1266,19 @@
     "subjectId": "taxon:chalicotherium",
     "claimKind": "scientific",
     "claimType": "fossil-range",
-    "statement": "The atlas displays a provisional 15.97–5.33 Ma global range for Chalicotherium; its evidence level is recorded separately and it is not an expert-reviewed extinction interval.",
+    "statement": "The atlas’s 15.97–5.33 Ma occurrence envelope is provisional; the cited wear study samples southern German MN5–MN9 material and does not establish exact genus-wide first or last appearances.",
     "confidence": "low",
-    "confidenceRationale": "Chalicotherium fossil-range is an automated curator-draft decomposition tied to its visible fields and current source inventory; human claim-specific locator review remains pending.",
-    "reviewedBy": "Evo Atlas automated evidence decomposition",
-    "reviewedAt": "2026-08-20",
-    "reviewedAgainstReferenceVersion": "pbdb-api-2016 source inventory at 2026.08-static-v5-rc44",
+    "confidenceRationale": "Medium confidence applies to the study’s dated locality set, not the occurrence-derived global display endpoints.",
+    "reviewedBy": "Evo Atlas maintainer source audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "schulz-2007-chalicothere-feeding locator audit at 2026-08-31",
     "referenceLinks": [
       {
+        "referenceId": "schulz-2007-chalicothere-feeding",
         "relation": "supports",
-        "referenceId": "pbdb-api-2016",
-        "quoteLocator": "Source scope; precise page or figure locator pending curator review."
+        "pages": "5–23",
+        "figure": "Figures 1, 5 and 6; Tables 2–7",
+        "quoteLocator": "Sample definition, dental-wear results and discussion of browse, bark/twig abrasion and reconstructed posture"
       }
     ]
   },
@@ -1164,17 +1287,19 @@
     "subjectId": "taxon:chalicotherium",
     "claimKind": "scientific",
     "claimType": "ecology",
-    "statement": "The Chalicotherium draft profile describes Browsing herbivore feeding in Woodland, with Terrestrial; detailed posture is reconstructed locomotor context.",
+    "statement": "Sampled chalicotheriines show browse-dominated feeding with unusually abrasive bark or twig components; reconstructed claw use and posture remain functional interpretations.",
     "confidence": "medium",
-    "confidenceRationale": "Chalicotherium ecology is an automated curator-draft decomposition tied to its visible fields and current source inventory; human claim-specific locator review remains pending.",
-    "reviewedBy": "Evo Atlas automated evidence decomposition",
-    "reviewedAt": "2026-08-20",
-    "reviewedAgainstReferenceVersion": "amnh-perissodactyl-evolution source inventory at 2026.08-static-v5-rc44",
+    "confidenceRationale": "Dental wear directly supports diet, while limb function is explicitly treated as interpretation rather than behavior observed in fossils.",
+    "reviewedBy": "Evo Atlas maintainer source audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "schulz-2007-chalicothere-feeding locator audit at 2026-08-31",
     "referenceLinks": [
       {
+        "referenceId": "schulz-2007-chalicothere-feeding",
         "relation": "supports",
-        "referenceId": "amnh-perissodactyl-evolution",
-        "quoteLocator": "Chalicotheriidae group page"
+        "pages": "5–23",
+        "figure": "Figures 1, 5 and 6; Tables 2–7",
+        "quoteLocator": "Sample definition, dental-wear results and discussion of browse, bark/twig abrasion and reconstructed posture"
       }
     ]
   },
@@ -1183,17 +1308,19 @@
     "subjectId": "taxon:chalicotherium",
     "claimKind": "scientific",
     "claimType": "biogeography",
-    "statement": "The Chalicotherium draft profile places its represented geographic context in Europe, Asia; this is a sourced synthesis rather than a complete occurrence distribution.",
+    "statement": "The detailed evidence is bounded to sampled Miocene localities in southern Germany; it is not used as proof of a complete Europe–Asia genus distribution.",
     "confidence": "medium",
-    "confidenceRationale": "Chalicotherium biogeography is an automated curator-draft decomposition tied to its visible fields and current source inventory; human claim-specific locator review remains pending.",
-    "reviewedBy": "Evo Atlas automated evidence decomposition",
-    "reviewedAt": "2026-08-20",
-    "reviewedAgainstReferenceVersion": "amnh-perissodactyl-evolution source inventory at 2026.08-static-v5-rc44",
+    "confidenceRationale": "The source’s specimen and locality list directly supports the narrower geographic wording.",
+    "reviewedBy": "Evo Atlas maintainer source audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "schulz-2007-chalicothere-feeding locator audit at 2026-08-31",
     "referenceLinks": [
       {
+        "referenceId": "schulz-2007-chalicothere-feeding",
         "relation": "supports",
-        "referenceId": "amnh-perissodactyl-evolution",
-        "quoteLocator": "Chalicotheriidae group page"
+        "pages": "5–23",
+        "figure": "Figures 1, 5 and 6; Tables 2–7",
+        "quoteLocator": "Sample definition, dental-wear results and discussion of browse, bark/twig abrasion and reconstructed posture"
       }
     ]
   },
@@ -1202,17 +1329,19 @@
     "subjectId": "taxon:anchitherium",
     "claimKind": "scientific",
     "claimType": "taxonomy",
-    "statement": "Anchitherium is represented in this curated draft as a genus associated with Equidae; the concept remains subject to the pinned external-resolution ledger.",
+    "statement": "Anchitherium is treated as an equid genus, with the ecological evidence tied specifically to A. aurelianense at Sandelzhausen.",
     "confidence": "medium",
-    "confidenceRationale": "Anchitherium taxonomy is an automated curator-draft decomposition tied to its visible fields and current source inventory; human claim-specific locator review remains pending.",
-    "reviewedBy": "Evo Atlas automated evidence decomposition",
-    "reviewedAt": "2026-08-20",
-    "reviewedAgainstReferenceVersion": "amnh-equidae source inventory at 2026.08-static-v5-rc44",
+    "confidenceRationale": "The primary study identifies the type species and its local sample, avoiding a genus-wide diet claim.",
+    "reviewedBy": "Evo Atlas maintainer source audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "kaiser-2009-anchitherium-diet locator audit at 2026-08-31",
     "referenceLinks": [
       {
+        "referenceId": "kaiser-2009-anchitherium-diet",
         "relation": "supports",
-        "referenceId": "amnh-equidae",
-        "quoteLocator": "Equidae group overview"
+        "pages": "131–140",
+        "figure": "Figures 1–3; Table 1",
+        "quoteLocator": "Diagnosis and European MN3–MN9 context (pp. 131–132); 35-tooth mesowear result and discussion (pp. 133–139)"
       }
     ]
   },
@@ -1221,17 +1350,19 @@
     "subjectId": "taxon:anchitherium",
     "claimKind": "scientific",
     "claimType": "fossil-range",
-    "statement": "The atlas displays a provisional 20.4–9 Ma global range for Anchitherium; its evidence level is recorded separately and it is not an expert-reviewed extinction interval.",
+    "statement": "The atlas’s 20.4–9 Ma occurrence envelope is provisional; the cited study independently records European Anchitherium from MN3 through MN9 without claiming exact global endpoints.",
     "confidence": "low",
-    "confidenceRationale": "Anchitherium fossil-range is an automated curator-draft decomposition tied to its visible fields and current source inventory; human claim-specific locator review remains pending.",
-    "reviewedBy": "Evo Atlas automated evidence decomposition",
-    "reviewedAt": "2026-08-20",
-    "reviewedAgainstReferenceVersion": "pbdb-api-2016 source inventory at 2026.08-static-v5-rc44",
+    "confidenceRationale": "High confidence applies to the published European biochronologic bracket; the global navigation envelope remains explicitly provisional.",
+    "reviewedBy": "Evo Atlas maintainer source audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "kaiser-2009-anchitherium-diet locator audit at 2026-08-31",
     "referenceLinks": [
       {
+        "referenceId": "kaiser-2009-anchitherium-diet",
         "relation": "supports",
-        "referenceId": "pbdb-api-2016",
-        "quoteLocator": "Source scope; precise page or figure locator pending curator review."
+        "pages": "131–140",
+        "figure": "Figures 1–3; Table 1",
+        "quoteLocator": "Diagnosis and European MN3–MN9 context (pp. 131–132); 35-tooth mesowear result and discussion (pp. 133–139)"
       }
     ]
   },
@@ -1240,17 +1371,19 @@
     "subjectId": "taxon:anchitherium",
     "claimKind": "scientific",
     "claimType": "morphology",
-    "statement": "The Anchitherium draft profile records the following morphological context: Three functional toes; Low-crowned cheek teeth; Slender limbs.",
+    "statement": "Anchitherium in the cited diagnosis has low-crowned lophodont cheek teeth and a tridactyl manus with reduced fifth metacarpal; “slender limbs” is not retained as a study result.",
     "confidence": "medium",
-    "confidenceRationale": "Anchitherium morphology is an automated curator-draft decomposition tied to its visible fields and current source inventory; human claim-specific locator review remains pending.",
-    "reviewedBy": "Evo Atlas automated evidence decomposition",
-    "reviewedAt": "2026-08-20",
-    "reviewedAgainstReferenceVersion": "amnh-equidae source inventory at 2026.08-static-v5-rc44",
+    "confidenceRationale": "The primary paper directly lists the dental and manus characters used here.",
+    "reviewedBy": "Evo Atlas maintainer source audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "kaiser-2009-anchitherium-diet locator audit at 2026-08-31",
     "referenceLinks": [
       {
+        "referenceId": "kaiser-2009-anchitherium-diet",
         "relation": "supports",
-        "referenceId": "amnh-equidae",
-        "quoteLocator": "Equidae group overview"
+        "pages": "131–140",
+        "figure": "Figures 1–3; Table 1",
+        "quoteLocator": "Diagnosis and European MN3–MN9 context (pp. 131–132); 35-tooth mesowear result and discussion (pp. 133–139)"
       }
     ]
   },
@@ -1259,17 +1392,19 @@
     "subjectId": "taxon:anchitherium",
     "claimKind": "scientific",
     "claimType": "biogeography",
-    "statement": "The Anchitherium draft profile places its represented geographic context in North America, Europe, Asia; this is a sourced synthesis rather than a complete occurrence distribution.",
+    "statement": "The evidence profile covers the central and western European MN3–MN9 record discussed in the primary study rather than asserting a complete North American–Eurasian genus distribution.",
     "confidence": "medium",
-    "confidenceRationale": "Anchitherium biogeography is an automated curator-draft decomposition tied to its visible fields and current source inventory; human claim-specific locator review remains pending.",
-    "reviewedBy": "Evo Atlas automated evidence decomposition",
-    "reviewedAt": "2026-08-20",
-    "reviewedAgainstReferenceVersion": "amnh-equidae source inventory at 2026.08-static-v5-rc44",
+    "confidenceRationale": "The narrowed geography matches the paper’s actual regional scope.",
+    "reviewedBy": "Evo Atlas maintainer source audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "kaiser-2009-anchitherium-diet locator audit at 2026-08-31",
     "referenceLinks": [
       {
+        "referenceId": "kaiser-2009-anchitherium-diet",
         "relation": "supports",
-        "referenceId": "amnh-equidae",
-        "quoteLocator": "Equidae group overview"
+        "pages": "131–140",
+        "figure": "Figures 1–3; Table 1",
+        "quoteLocator": "Diagnosis and European MN3–MN9 context (pp. 131–132); 35-tooth mesowear result and discussion (pp. 133–139)"
       }
     ]
   },
@@ -1278,17 +1413,26 @@
     "subjectId": "taxon:hipparionini",
     "claimKind": "scientific",
     "claimType": "taxonomy",
-    "statement": "Hipparionini is represented in this curated draft as a tribe associated with Equidae; the concept remains subject to the pinned external-resolution ledger.",
+    "statement": "Hipparionini is treated as a tribe of Equinae; Old World diversity is resolved into multiple genus-rank clades rather than a single broad genus Hipparion.",
     "confidence": "medium",
-    "confidenceRationale": "Hipparionini taxonomy is an automated curator-draft decomposition tied to its visible fields and current source inventory; human claim-specific locator review remains pending.",
-    "reviewedBy": "Evo Atlas automated evidence decomposition",
-    "reviewedAt": "2026-08-20",
-    "reviewedAgainstReferenceVersion": "mc-horse-monodactyly-2019 source inventory at 2026.08-static-v5-rc44",
+    "confidenceRationale": "The two systematic reviews directly support tribe context and the multi-genus Old World revision.",
+    "reviewedBy": "Evo Atlas maintainer source audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "mc-horse-monodactyly-2019 + bernor-2021-hipparions locator audit at 2026-08-31",
     "referenceLinks": [
       {
-        "relation": "supports",
         "referenceId": "mc-horse-monodactyly-2019",
-        "quoteLocator": "Source scope; precise page or figure locator pending curator review."
+        "relation": "supports",
+        "pages": "1–5, 10–15",
+        "figure": "Figures 1–4",
+        "quoteLocator": "Review of Equinae foot transformation, persistent hipparionin tridactyly and North American radiation"
+      },
+      {
+        "referenceId": "bernor-2021-hipparions",
+        "relation": "supports",
+        "pages": "1–20",
+        "figure": "Figures 1–13",
+        "quoteLocator": "Abstract, genus-rank systematic review, regional occurrence synthesis and body-mass/diet results"
       }
     ]
   },
@@ -1297,17 +1441,26 @@
     "subjectId": "taxon:hipparionini",
     "claimKind": "scientific",
     "claimType": "morphology",
-    "statement": "The Hipparionini draft profile records the following morphological context: Three toes; High-crowned teeth in many species; Expanded geographic range.",
+    "statement": "Hipparionini remained tridactyl and many lineages were hypsodont, while body size and foot proportions varied substantially across the radiation.",
     "confidence": "medium",
-    "confidenceRationale": "Hipparionini morphology is an automated curator-draft decomposition tied to its visible fields and current source inventory; human claim-specific locator review remains pending.",
-    "reviewedBy": "Evo Atlas automated evidence decomposition",
-    "reviewedAt": "2026-08-20",
-    "reviewedAgainstReferenceVersion": "mc-horse-monodactyly-2019 source inventory at 2026.08-static-v5-rc44",
+    "confidenceRationale": "The foot-evolution review and Old World synthesis support the traits without treating them as uniform species diagnoses.",
+    "reviewedBy": "Evo Atlas maintainer source audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "mc-horse-monodactyly-2019 + bernor-2021-hipparions locator audit at 2026-08-31",
     "referenceLinks": [
       {
-        "relation": "supports",
         "referenceId": "mc-horse-monodactyly-2019",
-        "quoteLocator": "Source scope; precise page or figure locator pending curator review."
+        "relation": "supports",
+        "pages": "1–5, 10–15",
+        "figure": "Figures 1–4",
+        "quoteLocator": "Review of Equinae foot transformation, persistent hipparionin tridactyly and North American radiation"
+      },
+      {
+        "referenceId": "bernor-2021-hipparions",
+        "relation": "supports",
+        "pages": "1–20",
+        "figure": "Figures 1–13",
+        "quoteLocator": "Abstract, genus-rank systematic review, regional occurrence synthesis and body-mass/diet results"
       }
     ]
   },
@@ -1316,17 +1469,19 @@
     "subjectId": "taxon:hipparionini",
     "claimKind": "scientific",
     "claimType": "ecology",
-    "statement": "The Hipparionini draft profile describes Mixed feeding to grazing feeding in Open woodland and grassland, with Cursorial terrestrial locomotor context.",
+    "statement": "Old World hipparionins ranged from browse-dominated and mixed feeders to grazers, with ecology varying by lineage, body size, region and time.",
     "confidence": "medium",
-    "confidenceRationale": "Hipparionini ecology is an automated curator-draft decomposition tied to its visible fields and current source inventory; human claim-specific locator review remains pending.",
-    "reviewedBy": "Evo Atlas automated evidence decomposition",
-    "reviewedAt": "2026-08-20",
-    "reviewedAgainstReferenceVersion": "bernor-2021-hipparions source inventory at 2026.08-static-v5-rc44",
+    "confidenceRationale": "The integrated review maps dietary preference and body mass by genus-rank lineage; medium confidence preserves heterogeneity.",
+    "reviewedBy": "Evo Atlas maintainer source audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "bernor-2021-hipparions locator audit at 2026-08-31",
     "referenceLinks": [
       {
-        "relation": "supports",
         "referenceId": "bernor-2021-hipparions",
-        "quoteLocator": "Source scope; precise page or figure locator pending curator review."
+        "relation": "supports",
+        "pages": "1–20",
+        "figure": "Figures 1–13",
+        "quoteLocator": "Abstract, genus-rank systematic review, regional occurrence synthesis and body-mass/diet results"
       }
     ]
   },
@@ -1335,17 +1490,26 @@
     "subjectId": "taxon:hipparionini",
     "claimKind": "scientific",
     "claimType": "biogeography",
-    "statement": "The Hipparionini draft profile places its represented geographic context in Africa, Asia, Europe, North America; this is a sourced synthesis rather than a complete occurrence distribution.",
+    "statement": "The represented history distinguishes a North American tribe-level radiation from an Old World dispersal at 11.4–11.0 Ma and later regional Eurasian and African records.",
     "confidence": "medium",
-    "confidenceRationale": "Hipparionini biogeography is an automated curator-draft decomposition tied to its visible fields and current source inventory; human claim-specific locator review remains pending.",
-    "reviewedBy": "Evo Atlas automated evidence decomposition",
-    "reviewedAt": "2026-08-20",
-    "reviewedAgainstReferenceVersion": "bernor-2021-hipparions source inventory at 2026.08-static-v5-rc44",
+    "confidenceRationale": "Complementary reviews support the regional scopes and prevent Old World genus dates from being applied to the entire tribe.",
+    "reviewedBy": "Evo Atlas maintainer source audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "mc-horse-monodactyly-2019 + bernor-2021-hipparions locator audit at 2026-08-31",
     "referenceLinks": [
       {
+        "referenceId": "mc-horse-monodactyly-2019",
         "relation": "supports",
+        "pages": "1–5, 10–15",
+        "figure": "Figures 1–4",
+        "quoteLocator": "Review of Equinae foot transformation, persistent hipparionin tridactyly and North American radiation"
+      },
+      {
         "referenceId": "bernor-2021-hipparions",
-        "quoteLocator": "Source scope; precise page or figure locator pending curator review."
+        "relation": "supports",
+        "pages": "1–20",
+        "figure": "Figures 1–13",
+        "quoteLocator": "Abstract, genus-rank systematic review, regional occurrence synthesis and body-mass/diet results"
       }
     ]
   },
@@ -1354,17 +1518,26 @@
     "subjectId": "taxon:teleoceras",
     "claimKind": "scientific",
     "claimType": "taxonomy",
-    "statement": "Teleoceras is represented in this curated draft as a genus associated with Rhinocerotidae; the concept remains subject to the pinned external-resolution ledger.",
+    "statement": "Teleoceras is treated as a North American rhinocerotid genus, while the strongest Ashfall conclusions are restricted to T. major.",
     "confidence": "medium",
-    "confidenceRationale": "Teleoceras taxonomy is an automated curator-draft decomposition tied to its visible fields and current source inventory; human claim-specific locator review remains pending.",
-    "reviewedBy": "Evo Atlas automated evidence decomposition",
-    "reviewedAt": "2026-08-20",
-    "reviewedAgainstReferenceVersion": "macfadden-1998-teleoceras source inventory at 2026.08-static-v5-rc44",
+    "confidenceRationale": "The primary Florida and Ashfall studies identify genus and species samples explicitly.",
+    "reviewedBy": "Evo Atlas maintainer source audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "macfadden-1998-teleoceras + ward-2025-teleoceras locator audit at 2026-08-31",
     "referenceLinks": [
       {
-        "relation": "supports",
         "referenceId": "macfadden-1998-teleoceras",
-        "quoteLocator": "Source scope; precise page or figure locator pending curator review."
+        "relation": "supports",
+        "pages": "274–286",
+        "figure": "Figures 1–5; Tables 1–3",
+        "quoteLocator": "Florida enamel-isotope results and discussion of principally terrestrial Teleoceras populations"
+      },
+      {
+        "referenceId": "ward-2025-teleoceras",
+        "relation": "supports",
+        "pages": "1–10",
+        "figure": "Figures 1–6; Supplementary Data",
+        "quoteLocator": "Abstract; Teleoceras major morphology and 12.5–10 Ma regional context; 13-adult isotope sample and limited-mobility results"
       }
     ]
   },
@@ -1373,17 +1546,19 @@
     "subjectId": "taxon:teleoceras",
     "claimKind": "scientific",
     "claimType": "fossil-range",
-    "statement": "The atlas displays a provisional 16–4.5 Ma global range for Teleoceras; its evidence level is recorded separately and it is not an expert-reviewed extinction interval.",
+    "statement": "The atlas’s 16–4.5 Ma occurrence envelope remains provisional; the Ashfall study directly brackets T. major in the Clarendonian at 12.5–10 Ma and dates the sampled site to 11.86 ± 0.13 Ma.",
     "confidence": "low",
-    "confidenceRationale": "Teleoceras fossil-range is an automated curator-draft decomposition tied to its visible fields and current source inventory; human claim-specific locator review remains pending.",
-    "reviewedBy": "Evo Atlas automated evidence decomposition",
-    "reviewedAt": "2026-08-20",
-    "reviewedAgainstReferenceVersion": "ward-2024-teleoceras source inventory at 2026.08-static-v5-rc44",
+    "confidenceRationale": "High confidence applies to the regional species and site ages, not to exact global genus endpoints.",
+    "reviewedBy": "Evo Atlas maintainer source audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "ward-2025-teleoceras locator audit at 2026-08-31",
     "referenceLinks": [
       {
+        "referenceId": "ward-2025-teleoceras",
         "relation": "supports",
-        "referenceId": "ward-2024-teleoceras",
-        "quoteLocator": "Source scope; precise page or figure locator pending curator review."
+        "pages": "1–10",
+        "figure": "Figures 1–6; Supplementary Data",
+        "quoteLocator": "Abstract; Teleoceras major morphology and 12.5–10 Ma regional context; 13-adult isotope sample and limited-mobility results"
       }
     ]
   },
@@ -1392,17 +1567,19 @@
     "subjectId": "taxon:teleoceras",
     "claimKind": "scientific",
     "claimType": "morphology",
-    "statement": "The Teleoceras draft profile records the following morphological context: Short limbs; Barrel-shaped body; Small nasal horn.",
+    "statement": "Teleoceras is characterized by shortened limb and foot bones and hypsodont molars; the Ashfall T. major sample is short-legged and barrel-bodied, while a universal small nasal horn is not asserted.",
     "confidence": "medium",
-    "confidenceRationale": "Teleoceras morphology is an automated curator-draft decomposition tied to its visible fields and current source inventory; human claim-specific locator review remains pending.",
-    "reviewedBy": "Evo Atlas automated evidence decomposition",
-    "reviewedAt": "2026-08-20",
-    "reviewedAgainstReferenceVersion": "macfadden-1998-teleoceras source inventory at 2026.08-static-v5-rc44",
+    "confidenceRationale": "The cited primary study states these genus and sample characters; unsupported horn generalization was removed.",
+    "reviewedBy": "Evo Atlas maintainer source audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "ward-2025-teleoceras locator audit at 2026-08-31",
     "referenceLinks": [
       {
+        "referenceId": "ward-2025-teleoceras",
         "relation": "supports",
-        "referenceId": "macfadden-1998-teleoceras",
-        "quoteLocator": "Source scope; precise page or figure locator pending curator review."
+        "pages": "1–10",
+        "figure": "Figures 1–6; Supplementary Data",
+        "quoteLocator": "Abstract; Teleoceras major morphology and 12.5–10 Ma regional context; 13-adult isotope sample and limited-mobility results"
       }
     ]
   },
@@ -1411,17 +1588,26 @@
     "subjectId": "taxon:teleoceras",
     "claimKind": "scientific",
     "claimType": "biogeography",
-    "statement": "The Teleoceras draft profile places its represented geographic context in North America; this is a sourced synthesis rather than a complete occurrence distribution.",
+    "statement": "The evidence profile represents North American Florida and Nebraska study populations rather than a complete occurrence map for Teleoceras.",
     "confidence": "medium",
-    "confidenceRationale": "Teleoceras biogeography is an automated curator-draft decomposition tied to its visible fields and current source inventory; human claim-specific locator review remains pending.",
-    "reviewedBy": "Evo Atlas automated evidence decomposition",
-    "reviewedAt": "2026-08-20",
-    "reviewedAgainstReferenceVersion": "macfadden-1998-teleoceras source inventory at 2026.08-static-v5-rc44",
+    "confidenceRationale": "The two isotope studies directly establish those localities and the intentionally bounded scope.",
+    "reviewedBy": "Evo Atlas maintainer source audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "macfadden-1998-teleoceras + ward-2025-teleoceras locator audit at 2026-08-31",
     "referenceLinks": [
       {
-        "relation": "supports",
         "referenceId": "macfadden-1998-teleoceras",
-        "quoteLocator": "Source scope; precise page or figure locator pending curator review."
+        "relation": "supports",
+        "pages": "274–286",
+        "figure": "Figures 1–5; Tables 1–3",
+        "quoteLocator": "Florida enamel-isotope results and discussion of principally terrestrial Teleoceras populations"
+      },
+      {
+        "referenceId": "ward-2025-teleoceras",
+        "relation": "supports",
+        "pages": "1–10",
+        "figure": "Figures 1–6; Supplementary Data",
+        "quoteLocator": "Abstract; Teleoceras major morphology and 12.5–10 Ma regional context; 13-adult isotope sample and limited-mobility results"
       }
     ]
   },
@@ -1430,17 +1616,19 @@
     "subjectId": "taxon:coelodonta",
     "claimKind": "scientific",
     "claimType": "taxonomy",
-    "statement": "Coelodonta is represented in this curated draft as a genus associated with Rhinocerotidae; the concept remains subject to the pinned external-resolution ledger.",
+    "statement": "Coelodonta is treated as a rhinocerotid genus whose species include ecologically distinct Tibetan, East Asian and northern Eurasian samples.",
     "confidence": "medium",
-    "confidenceRationale": "Coelodonta taxonomy is an automated curator-draft decomposition tied to its visible fields and current source inventory; human claim-specific locator review remains pending.",
-    "reviewedBy": "Evo Atlas automated evidence decomposition",
-    "reviewedAt": "2026-08-20",
-    "reviewedAgainstReferenceVersion": "gudjonsdottir-2026-coelodonta source inventory at 2026.08-static-v5-rc44",
+    "confidenceRationale": "The systematic review explicitly compares multiple Coelodonta species, preventing C. antiquitatis from standing for the entire genus.",
+    "reviewedBy": "Evo Atlas maintainer source audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "ma-2024-coelodonta-paleoecology locator audit at 2026-08-31",
     "referenceLinks": [
       {
+        "referenceId": "ma-2024-coelodonta-paleoecology",
         "relation": "supports",
-        "referenceId": "gudjonsdottir-2026-coelodonta",
-        "quoteLocator": "Source scope; precise page or figure locator pending curator review."
+        "pages": "1–12",
+        "figure": "Figures 1–6; Tables 1–2",
+        "quoteLocator": "Evolutionary-history review and species-specific diet sections distinguish C. antiquitatis from C. nihowanensis"
       }
     ]
   },
@@ -1449,17 +1637,19 @@
     "subjectId": "taxon:coelodonta",
     "claimKind": "scientific",
     "claimType": "morphology",
-    "statement": "The Coelodonta draft profile records the following morphological context: Dense hair; Short distal limbs; Large flattened anterior horn.",
+    "statement": "For C. antiquitatis, long hair and dense underwool, a low head posture, long nasal horn and high-crowned teeth are reviewed as cold and grazing adaptations; they are not assigned unchanged to every Coelodonta species.",
     "confidence": "medium",
-    "confidenceRationale": "Coelodonta morphology is an automated curator-draft decomposition tied to its visible fields and current source inventory; human claim-specific locator review remains pending.",
-    "reviewedBy": "Evo Atlas automated evidence decomposition",
-    "reviewedAt": "2026-08-20",
-    "reviewedAgainstReferenceVersion": "gudjonsdottir-2026-coelodonta source inventory at 2026.08-static-v5-rc44",
+    "confidenceRationale": "The review ties the morphological suite to C. antiquitatis and comparative literature, so the claim retains that species boundary.",
+    "reviewedBy": "Evo Atlas maintainer source audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "ma-2024-coelodonta-paleoecology locator audit at 2026-08-31",
     "referenceLinks": [
       {
+        "referenceId": "ma-2024-coelodonta-paleoecology",
         "relation": "supports",
-        "referenceId": "gudjonsdottir-2026-coelodonta",
-        "quoteLocator": "Source scope; precise page or figure locator pending curator review."
+        "pages": "1–12",
+        "figure": "Figures 1–6; Tables 1–2",
+        "quoteLocator": "Evolutionary-history review and species-specific diet sections distinguish C. antiquitatis from C. nihowanensis"
       }
     ]
   },
@@ -1468,17 +1658,19 @@
     "subjectId": "taxon:coelodonta",
     "claimKind": "scientific",
     "claimType": "ecology",
-    "statement": "The Coelodonta draft profile describes Grazing herbivore feeding in Cold steppe-tundra, with Terrestrial locomotor context.",
+    "statement": "Northern Eurasian C. antiquitatis is supported as a typical cold-adapted grazer, whereas some C. nihowanensis isotope samples indicate mixed feeding; genus ecology is therefore variable.",
     "confidence": "medium",
-    "confidenceRationale": "Coelodonta ecology is an automated curator-draft decomposition tied to its visible fields and current source inventory; human claim-specific locator review remains pending.",
-    "reviewedBy": "Evo Atlas automated evidence decomposition",
-    "reviewedAt": "2026-08-20",
-    "reviewedAgainstReferenceVersion": "gudjonsdottir-2026-coelodonta source inventory at 2026.08-static-v5-rc44",
+    "confidenceRationale": "The review integrates multiple isotope and morphology studies and explicitly reports the contrasting species and locality signals.",
+    "reviewedBy": "Evo Atlas maintainer source audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "ma-2024-coelodonta-paleoecology locator audit at 2026-08-31",
     "referenceLinks": [
       {
+        "referenceId": "ma-2024-coelodonta-paleoecology",
         "relation": "supports",
-        "referenceId": "gudjonsdottir-2026-coelodonta",
-        "quoteLocator": "Source scope; precise page or figure locator pending curator review."
+        "pages": "1–12",
+        "figure": "Figures 1–6; Tables 1–2",
+        "quoteLocator": "Evolutionary-history review and species-specific diet sections distinguish C. antiquitatis from C. nihowanensis"
       }
     ]
   },
@@ -1487,17 +1679,19 @@
     "subjectId": "taxon:coelodonta",
     "claimKind": "scientific",
     "claimType": "biogeography",
-    "statement": "The Coelodonta draft profile places its represented geographic context in Europe, Asia; this is a sourced synthesis rather than a complete occurrence distribution.",
+    "statement": "The review traces Coelodonta from the Tibetan Plateau and East Asia into northern Eurasia; this is a study synthesis, not a claim that every species occupied the full range simultaneously.",
     "confidence": "medium",
-    "confidenceRationale": "Coelodonta biogeography is an automated curator-draft decomposition tied to its visible fields and current source inventory; human claim-specific locator review remains pending.",
-    "reviewedBy": "Evo Atlas automated evidence decomposition",
-    "reviewedAt": "2026-08-20",
-    "reviewedAgainstReferenceVersion": "gudjonsdottir-2026-coelodonta source inventory at 2026.08-static-v5-rc44",
+    "confidenceRationale": "The source’s spatiotemporal review and maps directly support the bounded biogeographic wording.",
+    "reviewedBy": "Evo Atlas maintainer source audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "ma-2024-coelodonta-paleoecology locator audit at 2026-08-31",
     "referenceLinks": [
       {
+        "referenceId": "ma-2024-coelodonta-paleoecology",
         "relation": "supports",
-        "referenceId": "gudjonsdottir-2026-coelodonta",
-        "quoteLocator": "Source scope; precise page or figure locator pending curator review."
+        "pages": "1–12",
+        "figure": "Figures 1–6; Tables 1–2",
+        "quoteLocator": "Evolutionary-history review and species-specific diet sections distinguish C. antiquitatis from C. nihowanensis"
       }
     ]
   },
@@ -7132,9 +7326,9 @@
     "subjectId": "taxon:pterobranchia",
     "claimKind": "scientific",
     "claimType": "biogeography",
-    "statement": "Yunotubus directly records pterobranchs in the early Cambrian Xiaoshiba Lagerstätte of Yunnan; living Rhabdopleura observations broaden modern marine context without implying continuous occupation of the same region.",
+    "statement": "Yunotubus directly records a pterobranch colony in the approximately 516 Ma Xiaoshiba Lagerstätte of Yunnan; this locality sample does not establish a complete early Cambrian or global pterobranch distribution.",
     "confidence": "medium",
-    "confidenceRationale": "The fossil locality and living sampling sites are direct records, but two study windows cannot reconstruct a continuous global distribution; medium confidence is deliberately occurrence-bounded.",
+    "confidenceRationale": "The fossil locality is a direct record, but one study window cannot reconstruct a complete early Cambrian or global distribution; medium confidence is deliberately occurrence-bounded.",
     "reviewedBy": "Evo Atlas maintainer primary-source audit",
     "reviewedAt": "2026-08-30",
     "reviewedAgainstReferenceVersion": "Yang et al. 2025 DOI 10.1186/s13358-025-00406-0",
@@ -7170,12 +7364,12 @@
     "subjectId": "taxon:pterobranchia",
     "claimKind": "scientific",
     "claimType": "ecology",
-    "statement": "Video and electron microscopy directly document suspension feeding in living Rhabdopleura normani; this supports the living ecological field but is not projected unchanged onto all fossil pterobranchs.",
+    "statement": "Video and electron microscopy directly document suspension feeding by millimetre-scale, tube-dwelling zooids of living Rhabdopleura normani; this sampled ecology is not projected unchanged onto fossil pterobranchs.",
     "confidence": "high",
     "confidenceRationale": "Feeding currents and particle capture were observed directly in a living species. High confidence is species- and behaviour-specific and does not erase ecological evolution across the fossil radiation.",
     "reviewedBy": "Evo Atlas maintainer primary-source audit",
     "reviewedAt": "2026-08-30",
-    "reviewedAgainstReferenceVersion": "Yang et al. 2025 DOI 10.1186/s13358-025-00406-0",
+    "reviewedAgainstReferenceVersion": "Halanych 1993 DOI 10.2307/1542482",
     "referenceLinks": [
       {
         "referenceId": "halanych-1993-rhabdopleura-feeding",
@@ -7572,7 +7766,7 @@
     "confidenceRationale": "The clade definitions are explicit in Table 1, while the Dallasaurus skeletons directly preserve plesiopedal limbs. Basal branching remains analysis-sensitive, so the claim distinguishes definitions and anatomy from one universal topology.",
     "reviewedBy": "Evo Atlas automated evidence decomposition",
     "reviewedAt": "2026-08-30",
-    "reviewedAgainstReferenceVersion": "Primary-study locators audited at 2026.08-static-v5-rc44",
+    "reviewedAgainstReferenceVersion": "Primary-study locators audited at 2026.08-static-v5-rc45",
     "referenceLinks": [
       {
         "referenceId": "madzia-cau-2017-mosasauroid-nomenclature",
@@ -7600,7 +7794,7 @@
     "confidenceRationale": "Bobosaurus is a named articulated specimen, but its placement was presented with alternatives. Rhaeticosaurus preserves a diagnostic articulated skeleton and was tested phylogenetically, allowing evidence age and assignment confidence to remain separate.",
     "reviewedBy": "Evo Atlas automated evidence decomposition",
     "reviewedAt": "2026-08-30",
-    "reviewedAgainstReferenceVersion": "Primary-study locators audited at 2026.08-static-v5-rc44",
+    "reviewedAgainstReferenceVersion": "Primary-study locators audited at 2026.08-static-v5-rc45",
     "referenceLinks": [
       {
         "referenceId": "dalla-vecchia-2006-bobosaurus",
@@ -7628,7 +7822,7 @@
     "confidenceRationale": "The profile separates directly documented specimens and explicit analyses from global range, behaviour and ancestry inferences; confidence is bounded by the cited primary study and its stated sample. This rationale is specific to tiktaalik:taxonomy.",
     "reviewedBy": "Evo Atlas automated evidence decomposition",
     "reviewedAt": "2026-08-30",
-    "reviewedAgainstReferenceVersion": "Primary-study locators audited at 2026.08-static-v5-rc44",
+    "reviewedAgainstReferenceVersion": "Primary-study locators audited at 2026.08-static-v5-rc45",
     "referenceLinks": [
       {
         "referenceId": "daeschler-2006-tiktaalik-body-plan",
@@ -7649,7 +7843,7 @@
     "confidenceRationale": "The profile separates directly documented specimens and explicit analyses from global range, behaviour and ancestry inferences; confidence is bounded by the cited primary study and its stated sample. This rationale is specific to tiktaalik:fossil-range.",
     "reviewedBy": "Evo Atlas automated evidence decomposition",
     "reviewedAt": "2026-08-30",
-    "reviewedAgainstReferenceVersion": "Primary-study locators audited at 2026.08-static-v5-rc44",
+    "reviewedAgainstReferenceVersion": "Primary-study locators audited at 2026.08-static-v5-rc45",
     "referenceLinks": [
       {
         "referenceId": "daeschler-2006-tiktaalik-body-plan",
@@ -7670,7 +7864,7 @@
     "confidenceRationale": "The profile separates directly documented specimens and explicit analyses from global range, behaviour and ancestry inferences; confidence is bounded by the cited primary study and its stated sample. This rationale is specific to tiktaalik:biogeography.",
     "reviewedBy": "Evo Atlas automated evidence decomposition",
     "reviewedAt": "2026-08-30",
-    "reviewedAgainstReferenceVersion": "Primary-study locators audited at 2026.08-static-v5-rc44",
+    "reviewedAgainstReferenceVersion": "Primary-study locators audited at 2026.08-static-v5-rc45",
     "referenceLinks": [
       {
         "referenceId": "daeschler-2006-tiktaalik-body-plan",
@@ -7691,7 +7885,7 @@
     "confidenceRationale": "The profile separates directly documented specimens and explicit analyses from global range, behaviour and ancestry inferences; confidence is bounded by the cited primary study and its stated sample. This rationale is specific to tiktaalik:morphology.",
     "reviewedBy": "Evo Atlas automated evidence decomposition",
     "reviewedAt": "2026-08-30",
-    "reviewedAgainstReferenceVersion": "Primary-study locators audited at 2026.08-static-v5-rc44",
+    "reviewedAgainstReferenceVersion": "Primary-study locators audited at 2026.08-static-v5-rc45",
     "referenceLinks": [
       {
         "referenceId": "daeschler-2006-tiktaalik-body-plan",
@@ -7712,7 +7906,7 @@
     "confidenceRationale": "The profile separates directly documented specimens and explicit analyses from global range, behaviour and ancestry inferences; confidence is bounded by the cited primary study and its stated sample. This rationale is specific to tiktaalik:ecology.",
     "reviewedBy": "Evo Atlas automated evidence decomposition",
     "reviewedAt": "2026-08-30",
-    "reviewedAgainstReferenceVersion": "Primary-study locators audited at 2026.08-static-v5-rc44",
+    "reviewedAgainstReferenceVersion": "Primary-study locators audited at 2026.08-static-v5-rc45",
     "referenceLinks": [
       {
         "referenceId": "daeschler-2006-tiktaalik-body-plan",
@@ -7728,19 +7922,19 @@
     "subjectId": "taxon:mosasauridae",
     "claimKind": "scientific",
     "claimType": "taxonomy",
-    "statement": "Mosasauridae is the least inclusive clade containing Mosasaurus hoffmannii, Halisaurus platyspondylus and Tylosaurus proriger, and is narrower than branch-defined Mosasauroidea.",
+    "statement": "In Bell and Polcyn's sampled analysis, Mosasauridae includes plesiopedal Dallasaurus as well as more derived hydropedal members, so limb grade alone is not treated as a family diagnosis.",
     "confidence": "high",
-    "confidenceRationale": "The profile separates directly documented specimens and explicit analyses from global range, behaviour and ancestry inferences; confidence is bounded by the cited primary study and its stated sample. This rationale is specific to mosasauridae:taxonomy.",
+    "confidenceRationale": "The claim follows the study's systematic assignment and explicit 144-character analysis, while remaining bounded to that matrix and not turning Dallasaurus into a direct ancestor or a universal family definition.",
     "reviewedBy": "Evo Atlas automated evidence decomposition",
     "reviewedAt": "2026-08-30",
-    "reviewedAgainstReferenceVersion": "Primary-study locators audited at 2026.08-static-v5-rc44",
+    "reviewedAgainstReferenceVersion": "Primary-study locators audited at 2026.08-static-v5-rc45",
     "referenceLinks": [
       {
-        "referenceId": "madzia-cau-2017-mosasauroid-nomenclature",
+        "referenceId": "bell-polcyn-2005-dallasaurus",
         "relation": "supports",
-        "pages": "Article e3782",
-        "figure": "Table 1; Figures 1–7",
-        "quoteLocator": "taxonomy"
+        "pages": "177–178, 189–190",
+        "figure": "Figure 7",
+        "quoteLocator": "Abstract; Systematic palaeontology; Discussion and conclusions"
       }
     ]
   },
@@ -7749,19 +7943,26 @@
     "subjectId": "taxon:mosasauridae",
     "claimKind": "scientific",
     "claimType": "fossil-range",
-    "statement": "The 101–66 Ma Mosasauridae display envelope remains a composite navigation range; the middle Turonian Dallasaurus occurrence is separately claim-linked and does not alone set the family-wide first appearance.",
-    "confidence": "high",
-    "confidenceRationale": "The profile separates directly documented specimens and explicit analyses from global range, behaviour and ancestry inferences; confidence is bounded by the cited primary study and its stated sample. This rationale is specific to mosasauridae:fossil-range.",
+    "statement": "The 92–66 Ma Mosasauridae display is a two-study sampled envelope: two Dallasaurus skeletons document a middle Turonian (~92 Ma) occurrence, and Mosasaurus hoffmanni NHMM 2007 093 occurs within one metre below the regional K/Pg boundary; neither edge is an exact global family FAD or LAD.",
+    "confidence": "medium",
+    "confidenceRationale": "Both endpoints are tied to named specimens and explicit stratigraphic contexts, but the rounded envelope joins two local samples and therefore cannot establish unsampled global first or last appearances.",
     "reviewedBy": "Evo Atlas automated evidence decomposition",
     "reviewedAt": "2026-08-30",
-    "reviewedAgainstReferenceVersion": "Primary-study locators audited at 2026.08-static-v5-rc44",
+    "reviewedAgainstReferenceVersion": "Primary-study locators audited at 2026.08-static-v5-rc45",
     "referenceLinks": [
       {
-        "referenceId": "madzia-cau-2017-mosasauroid-nomenclature",
+        "referenceId": "bell-polcyn-2005-dallasaurus",
         "relation": "supports",
-        "pages": "Article e3782",
-        "figure": "Table 1; Figures 1–7",
-        "quoteLocator": "fossil-range"
+        "pages": "177–178",
+        "figure": "none",
+        "quoteLocator": "Abstract; Age and geological context; middle Turonian (~92 Ma) Dallasaurus interval"
+      },
+      {
+        "referenceId": "jagt-et-al-2008-youngest-mosasaurus",
+        "relation": "supports",
+        "pages": "73–77",
+        "figure": "Figures 1–2",
+        "quoteLocator": "Abstract; Material; Discussion; NHMM 2007 093 within one metre below the regional K/Pg boundary"
       }
     ]
   },
@@ -7770,19 +7971,26 @@
     "subjectId": "taxon:mosasauridae",
     "claimKind": "scientific",
     "claimType": "biogeography",
-    "statement": "Mosasaurid evidence is geographically widespread, while the profile-highlighted Dallasaurus skeletons are from middle Turonian deposits of north-central Texas.",
-    "confidence": "high",
-    "confidenceRationale": "The profile separates directly documented specimens and explicit analyses from global range, behaviour and ancestry inferences; confidence is bounded by the cited primary study and its stated sample. This rationale is specific to mosasauridae:biogeography.",
+    "statement": "The profile's geographic examples are restricted to middle Turonian Dallasaurus skeletons from north-central Texas and latest-Maastrichtian Mosasaurus hoffmanni NHMM 2007 093 from the Maastricht type area; they are not a complete Mosasauridae distribution map.",
+    "confidence": "medium",
+    "confidenceRationale": "The two localities and stratigraphic positions are directly reported for named specimens, while the claim explicitly withholds a global distribution inference from two sampled regions.",
     "reviewedBy": "Evo Atlas automated evidence decomposition",
     "reviewedAt": "2026-08-30",
-    "reviewedAgainstReferenceVersion": "Primary-study locators audited at 2026.08-static-v5-rc44",
+    "reviewedAgainstReferenceVersion": "Primary-study locators audited at 2026.08-static-v5-rc45",
     "referenceLinks": [
       {
-        "referenceId": "madzia-cau-2017-mosasauroid-nomenclature",
+        "referenceId": "bell-polcyn-2005-dallasaurus",
         "relation": "supports",
-        "pages": "Article e3782",
-        "figure": "Table 1; Figures 1–7",
-        "quoteLocator": "biogeography"
+        "pages": "177–178",
+        "figure": "none",
+        "quoteLocator": "Abstract; Age and geological context; north-central Texas"
+      },
+      {
+        "referenceId": "jagt-et-al-2008-youngest-mosasaurus",
+        "relation": "supports",
+        "pages": "73–77",
+        "figure": "Figure 1",
+        "quoteLocator": "Abstract; locality map and provenance of NHMM 2007 093 in the Maastricht type area"
       }
     ]
   },
@@ -7791,19 +7999,19 @@
     "subjectId": "taxon:mosasauridae",
     "claimKind": "scientific",
     "claimType": "morphology",
-    "statement": "Mosasauridae includes fully aquatic marine squamates, but Dallasaurus retains plesiopedal limbs, demonstrating that family placement and degree of paddle specialization should not be conflated.",
-    "confidence": "high",
-    "confidenceRationale": "The profile separates directly documented specimens and explicit analyses from global range, behaviour and ancestry inferences; confidence is bounded by the cited primary study and its stated sample. This rationale is specific to mosasauridae:morphology.",
+    "statement": "The two incomplete Dallasaurus skeletons preserve cranial, axial and plesiopedal limb characters, and the cited analysis places that condition within Mosasauridae alongside independently acquired hydropedal limbs; this is a character-and-topology result, not a linear ancestor-to-descendant sequence.",
+    "confidence": "medium",
+    "confidenceRationale": "Named specimens and figured bones directly support the anatomy, while independent origins of hydropedal limbs depend on the study's character coding and three equally parsimonious trees.",
     "reviewedBy": "Evo Atlas automated evidence decomposition",
     "reviewedAt": "2026-08-30",
-    "reviewedAgainstReferenceVersion": "Primary-study locators audited at 2026.08-static-v5-rc44",
+    "reviewedAgainstReferenceVersion": "Primary-study locators audited at 2026.08-static-v5-rc45",
     "referenceLinks": [
       {
-        "referenceId": "madzia-cau-2017-mosasauroid-nomenclature",
+        "referenceId": "bell-polcyn-2005-dallasaurus",
         "relation": "supports",
-        "pages": "Article e3782",
-        "figure": "Table 1; Figures 1–7",
-        "quoteLocator": "morphology"
+        "pages": "177–178, 187–190",
+        "figure": "Figures 5–7",
+        "quoteLocator": "Appendicular skeleton; Phylogenetic analysis; Discussion and conclusions"
       }
     ]
   },
@@ -7812,19 +8020,26 @@
     "subjectId": "taxon:mosasauridae",
     "claimKind": "scientific",
     "claimType": "ecology",
-    "statement": "Mosasaurids were marine predators with locomotor specialization varying along the lineage; the package does not infer identical swimming mechanics for every member.",
-    "confidence": "high",
-    "confidenceRationale": "The profile separates directly documented specimens and explicit analyses from global range, behaviour and ancestry inferences; confidence is bounded by the cited primary study and its stated sample. This rationale is specific to mosasauridae:ecology.",
+    "statement": "Bell and Polcyn distinguish small plesiopedal from larger hydropedal adaptive grades, while tooth-enamel carbon isotopes from five type-Maastrichtian mosasaur taxa support marine carnivory and resource partitioning; these samples do not establish one family-wide diet, foraging habitat, swimming mode or body size.",
+    "confidence": "medium",
+    "confidenceRationale": "The adaptive-grade morphology and five-taxon isotope measurements are direct, but ecological interpretation is sample-bounded and combines body size, diet, diving and habitat effects that the isotope study does not fully separate.",
     "reviewedBy": "Evo Atlas automated evidence decomposition",
     "reviewedAt": "2026-08-30",
-    "reviewedAgainstReferenceVersion": "Primary-study locators audited at 2026.08-static-v5-rc44",
+    "reviewedAgainstReferenceVersion": "Primary-study locators audited at 2026.08-static-v5-rc45",
     "referenceLinks": [
       {
-        "referenceId": "madzia-cau-2017-mosasauroid-nomenclature",
+        "referenceId": "bell-polcyn-2005-dallasaurus",
         "relation": "supports",
-        "pages": "Article e3782",
-        "figure": "Table 1; Figures 1–7",
-        "quoteLocator": "ecology"
+        "pages": "177–178, 189–190",
+        "figure": "Figures 6–7",
+        "quoteLocator": "Introduction; plesiopedal/hydropedal definitions; Discussion and conclusions"
+      },
+      {
+        "referenceId": "schulp-et-al-2013-mosasaur-resource-partitioning",
+        "relation": "supports",
+        "pages": "165–169",
+        "figure": "Figure 1; Table 1",
+        "quoteLocator": "Introduction; Material; Results and discussion; Conclusions"
       }
     ]
   },
@@ -7838,7 +8053,7 @@
     "confidenceRationale": "The profile separates directly documented specimens and explicit analyses from global range, behaviour and ancestry inferences; confidence is bounded by the cited primary study and its stated sample. This rationale is specific to ichthyosaurus:taxonomy.",
     "reviewedBy": "Evo Atlas automated evidence decomposition",
     "reviewedAt": "2026-08-30",
-    "reviewedAgainstReferenceVersion": "Primary-study locators audited at 2026.08-static-v5-rc44",
+    "reviewedAgainstReferenceVersion": "Primary-study locators audited at 2026.08-static-v5-rc45",
     "referenceLinks": [
       {
         "referenceId": "lomax-massare-2017-ichthyosaurus",
@@ -7859,7 +8074,7 @@
     "confidenceRationale": "The profile separates directly documented specimens and explicit analyses from global range, behaviour and ancestry inferences; confidence is bounded by the cited primary study and its stated sample. This rationale is specific to ichthyosaurus:fossil-range.",
     "reviewedBy": "Evo Atlas automated evidence decomposition",
     "reviewedAt": "2026-08-30",
-    "reviewedAgainstReferenceVersion": "Primary-study locators audited at 2026.08-static-v5-rc44",
+    "reviewedAgainstReferenceVersion": "Primary-study locators audited at 2026.08-static-v5-rc45",
     "referenceLinks": [
       {
         "referenceId": "lomax-massare-2017-ichthyosaurus",
@@ -7880,7 +8095,7 @@
     "confidenceRationale": "The profile separates directly documented specimens and explicit analyses from global range, behaviour and ancestry inferences; confidence is bounded by the cited primary study and its stated sample. This rationale is specific to ichthyosaurus:biogeography.",
     "reviewedBy": "Evo Atlas automated evidence decomposition",
     "reviewedAt": "2026-08-30",
-    "reviewedAgainstReferenceVersion": "Primary-study locators audited at 2026.08-static-v5-rc44",
+    "reviewedAgainstReferenceVersion": "Primary-study locators audited at 2026.08-static-v5-rc45",
     "referenceLinks": [
       {
         "referenceId": "lomax-massare-2017-ichthyosaurus",
@@ -7901,7 +8116,7 @@
     "confidenceRationale": "The profile separates directly documented specimens and explicit analyses from global range, behaviour and ancestry inferences; confidence is bounded by the cited primary study and its stated sample. This rationale is specific to ichthyosaurus:morphology.",
     "reviewedBy": "Evo Atlas automated evidence decomposition",
     "reviewedAt": "2026-08-30",
-    "reviewedAgainstReferenceVersion": "Primary-study locators audited at 2026.08-static-v5-rc44",
+    "reviewedAgainstReferenceVersion": "Primary-study locators audited at 2026.08-static-v5-rc45",
     "referenceLinks": [
       {
         "referenceId": "lomax-massare-2017-ichthyosaurus",
@@ -7922,7 +8137,7 @@
     "confidenceRationale": "The profile separates directly documented specimens and explicit analyses from global range, behaviour and ancestry inferences; confidence is bounded by the cited primary study and its stated sample. This rationale is specific to ichthyosaurus:ecology.",
     "reviewedBy": "Evo Atlas automated evidence decomposition",
     "reviewedAt": "2026-08-31",
-    "reviewedAgainstReferenceVersion": "Primary-study locators audited at 2026.08-static-v5-rc44",
+    "reviewedAgainstReferenceVersion": "Primary-study locators audited at 2026.08-static-v5-rc45",
     "referenceLinks": [
       {
         "referenceId": "lomax-massare-2017-ichthyosaurus",
@@ -7956,7 +8171,7 @@
     "confidenceRationale": "The profile separates directly documented specimens and explicit analyses from global range, behaviour and ancestry inferences; confidence is bounded by the cited primary study and its stated sample. This rationale is specific to plesiosauria:taxonomy.",
     "reviewedBy": "Evo Atlas automated evidence decomposition",
     "reviewedAt": "2026-08-30",
-    "reviewedAgainstReferenceVersion": "Primary-study locators audited at 2026.08-static-v5-rc44",
+    "reviewedAgainstReferenceVersion": "Primary-study locators audited at 2026.08-static-v5-rc45",
     "referenceLinks": [
       {
         "referenceId": "wintrich-2017-rhaeticosaurus",
@@ -7977,7 +8192,7 @@
     "confidenceRationale": "The profile separates directly documented specimens and explicit analyses from global range, behaviour and ancestry inferences; confidence is bounded by the cited primary study and its stated sample. This rationale is specific to plesiosauria:fossil-range.",
     "reviewedBy": "Evo Atlas automated evidence decomposition",
     "reviewedAt": "2026-08-30",
-    "reviewedAgainstReferenceVersion": "Primary-study locators audited at 2026.08-static-v5-rc44",
+    "reviewedAgainstReferenceVersion": "Primary-study locators audited at 2026.08-static-v5-rc45",
     "referenceLinks": [
       {
         "referenceId": "wintrich-2017-rhaeticosaurus",
@@ -7998,7 +8213,7 @@
     "confidenceRationale": "The profile separates directly documented specimens and explicit analyses from global range, behaviour and ancestry inferences; confidence is bounded by the cited primary study and its stated sample. This rationale is specific to plesiosauria:biogeography.",
     "reviewedBy": "Evo Atlas automated evidence decomposition",
     "reviewedAt": "2026-08-30",
-    "reviewedAgainstReferenceVersion": "Primary-study locators audited at 2026.08-static-v5-rc44",
+    "reviewedAgainstReferenceVersion": "Primary-study locators audited at 2026.08-static-v5-rc45",
     "referenceLinks": [
       {
         "referenceId": "wintrich-2017-rhaeticosaurus",
@@ -8019,7 +8234,7 @@
     "confidenceRationale": "The profile separates directly documented specimens and explicit analyses from global range, behaviour and ancestry inferences; confidence is bounded by the cited primary study and its stated sample. This rationale is specific to plesiosauria:morphology.",
     "reviewedBy": "Evo Atlas automated evidence decomposition",
     "reviewedAt": "2026-08-30",
-    "reviewedAgainstReferenceVersion": "Primary-study locators audited at 2026.08-static-v5-rc44",
+    "reviewedAgainstReferenceVersion": "Primary-study locators audited at 2026.08-static-v5-rc45",
     "referenceLinks": [
       {
         "referenceId": "wintrich-2017-rhaeticosaurus",
@@ -8040,7 +8255,7 @@
     "confidenceRationale": "The profile separates directly documented specimens and explicit analyses from global range, behaviour and ancestry inferences; confidence is bounded by the cited primary study and its stated sample. This rationale is specific to plesiosauria:ecology.",
     "reviewedBy": "Evo Atlas automated evidence decomposition",
     "reviewedAt": "2026-08-30",
-    "reviewedAgainstReferenceVersion": "Primary-study locators audited at 2026.08-static-v5-rc44",
+    "reviewedAgainstReferenceVersion": "Primary-study locators audited at 2026.08-static-v5-rc45",
     "referenceLinks": [
       {
         "referenceId": "wintrich-2017-rhaeticosaurus",
@@ -8061,7 +8276,7 @@
     "confidenceRationale": "The profile separates directly documented specimens and explicit analyses from global range, behaviour and ancestry inferences; confidence is bounded by the cited primary study and its stated sample. This rationale is specific to pterosauria:taxonomy.",
     "reviewedBy": "Evo Atlas automated evidence decomposition",
     "reviewedAt": "2026-08-31",
-    "reviewedAgainstReferenceVersion": "Primary-study locators audited at 2026.08-static-v5-rc44",
+    "reviewedAgainstReferenceVersion": "Primary-study locators audited at 2026.08-static-v5-rc45",
     "referenceLinks": [
       {
         "referenceId": "witton-habib-2010-giant-pterosaur-flight",
@@ -8109,7 +8324,7 @@
     "confidenceRationale": "The profile separates directly documented specimens and explicit analyses from global range, behaviour and ancestry inferences; confidence is bounded by the cited primary study and its stated sample. This rationale is specific to pterosauria:biogeography.",
     "reviewedBy": "Evo Atlas automated evidence decomposition",
     "reviewedAt": "2026-08-31",
-    "reviewedAgainstReferenceVersion": "Primary-study locators audited at 2026.08-static-v5-rc44",
+    "reviewedAgainstReferenceVersion": "Primary-study locators audited at 2026.08-static-v5-rc45",
     "referenceLinks": [
       {
         "referenceId": "witton-habib-2010-giant-pterosaur-flight",
@@ -8137,7 +8352,7 @@
     "confidenceRationale": "The profile separates directly documented specimens and explicit analyses from global range, behaviour and ancestry inferences; confidence is bounded by the cited primary study and its stated sample. This rationale is specific to pterosauria:morphology.",
     "reviewedBy": "Evo Atlas automated evidence decomposition",
     "reviewedAt": "2026-08-30",
-    "reviewedAgainstReferenceVersion": "Primary-study locators audited at 2026.08-static-v5-rc44",
+    "reviewedAgainstReferenceVersion": "Primary-study locators audited at 2026.08-static-v5-rc45",
     "referenceLinks": [
       {
         "referenceId": "witton-habib-2010-giant-pterosaur-flight",
@@ -8158,7 +8373,7 @@
     "confidenceRationale": "The profile separates directly documented specimens and explicit analyses from global range, behaviour and ancestry inferences; confidence is bounded by the cited primary study and its stated sample. This rationale is specific to pterosauria:ecology.",
     "reviewedBy": "Evo Atlas automated evidence decomposition",
     "reviewedAt": "2026-08-30",
-    "reviewedAgainstReferenceVersion": "Primary-study locators audited at 2026.08-static-v5-rc44",
+    "reviewedAgainstReferenceVersion": "Primary-study locators audited at 2026.08-static-v5-rc45",
     "referenceLinks": [
       {
         "referenceId": "witton-habib-2010-giant-pterosaur-flight",

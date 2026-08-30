@@ -1,5 +1,11 @@
 # Dataset changelog
 
+## 2026.08-static-v5-rc45 — 2026-08-31
+
+- Completed the source-link closure for Atlas Core and Turtles and Lepidosaurs after strict claim, visible-profile-field and evidence-bound story audits; all twenty-three non-flagship packages are now `source-linked`, while Perissodactyla remains `curated-draft`.
+- Replayed the Perissodactyla source audit without changing its review record, PBDB occurrence snapshot or maturity. Its species-, locality- and model-bounded claims remain distinct from direct observation and global first- or last-appearance assertions.
+- Advanced the shared Web/Android/iOS dataset projection to rc45 at app version `0.20.0`. Source linking records matching scientific sources and concrete locators; it is not a new maintainer decision, external expert review or claim that all 392 navigation entities have full dossiers.
+
 ## 2026.08-static-v5-rc44 — 2026-08-31
 
 - Promoted ten plant, invertebrate and mammal packages from `structured` to `source-linked` after a strict three-layer audit confirmed fit primary-study or systematic-review support with concrete locators for all 392 displayed profile fields, all 264 package claims and all 102 story steps.

@@ -202,9 +202,15 @@
     "publisher": "Communications Biology",
     "sourceRole": "primary-study",
     "fitnessFor": [
-      "taxonomy"
+      "taxonomy",
+      "morphology",
+      "ecology",
+      "biogeography",
+      "range",
+      "topology"
     ],
-    "metadataAssignment": "automated"
+    "metadataAssignment": "curator-reviewed",
+    "note": "Primary description and 155-character phylogenetic analysis of a 26.5 Ma Paraceratherium linxiaense skull, mandible and vertebrae, with an explicit Oligocene Asian dispersal reconstruction."
   },
   {
     "id": "pnas-2026-perissodactyls",
@@ -262,19 +268,24 @@
   },
   {
     "id": "hooker-2004-grande-coupure",
-    "title": "The Grande Coupure in the Hampshire Basin, UK: taxonomy and stratigraphy of the mammals on either side of this major Palaeogene faunal turnover",
+    "title": "Eocene–Oligocene mammalian faunal turnover in the Hampshire Basin, UK: calibration to the global time scale and the major cooling event",
     "authors": "Hooker, J.J.; Collinson, M.E.; Sille, N.P.",
     "publishedYear": 2004,
     "type": "paper",
-    "url": "https://doi.org/10.1111/j.1096-3642.2004.00104.x",
-    "doi": "10.1111/j.1096-3642.2004.00104.x",
-    "publisher": "Zoological Journal of the Linnean Society",
+    "url": "https://doi.org/10.1144/0016-764903-091",
+    "doi": "10.1144/0016-764903-091",
+    "publisher": "Journal of the Geological Society",
     "sourceRole": "primary-study",
     "fitnessFor": [
       "taxonomy",
-      "range"
+      "range",
+      "biogeography",
+      "event-mechanism",
+      "geochronology"
     ],
-    "metadataAssignment": "automated"
+    "metadataAssignment": "curator-reviewed",
+    "pages": "161–172",
+    "note": "Primary high-resolution Hampshire Basin mammal range chart and time-scale calibration. The study separates turnover, a roughly 350 kyr hiatus and the later first record of Asian immigrants."
   },
   {
     "id": "lyons-2014-oxygenation",
@@ -323,7 +334,8 @@
     "fitnessFor": [
       "taxonomy",
       "topology",
-      "ecology"
+      "ecology",
+      "event-mechanism"
     ],
     "metadataAssignment": "automated"
   },
@@ -558,14 +570,17 @@
     "authors": "Coxall, H.K.; Wilson, P.A.; Pälike, H.; Lear, C.H.; Backman, J.",
     "publishedYear": 2005,
     "type": "paper",
-    "url": "https://doi.org/10.1038/nature03837",
-    "doi": "10.1038/nature03837",
+    "url": "https://doi.org/10.1038/nature03135",
+    "doi": "10.1038/nature03135",
     "publisher": "Nature",
     "sourceRole": "primary-study",
     "fitnessFor": [
-      "taxonomy"
+      "event-mechanism",
+      "geochronology"
     ],
-    "metadataAssignment": "automated"
+    "metadataAssignment": "curator-reviewed",
+    "pages": "53–57",
+    "note": "Primary Pacific benthic-foraminiferal and carbonate record resolving two steps in earliest Oligocene ice growth; it does not by itself explain terrestrial mammal turnover."
   },
   {
     "id": "cerling-1997-c4",
@@ -698,9 +713,12 @@
     "sourceRole": "systematic-review",
     "fitnessFor": [
       "taxonomy",
-      "morphology"
+      "morphology",
+      "ecology",
+      "range"
     ],
-    "metadataAssignment": "automated"
+    "metadataAssignment": "curator-reviewed",
+    "note": "Systematic review of equid foot evolution; supports persistent tridactyly and hypsodonty in Hipparionini and the North American tribe-level context, not Old World terminal dates."
   },
   {
     "id": "bernor-2021-hipparions",
@@ -711,13 +729,16 @@
     "url": "https://doi.org/10.1016/j.earscirev.2021.103784",
     "doi": "10.1016/j.earscirev.2021.103784",
     "publisher": "Earth-Science Reviews",
-    "sourceRole": "primary-study",
+    "sourceRole": "systematic-review",
     "fitnessFor": [
       "taxonomy",
+      "morphology",
       "ecology",
-      "biogeography"
+      "biogeography",
+      "range"
     ],
-    "metadataAssignment": "automated"
+    "metadataAssignment": "curator-reviewed",
+    "note": "Twenty-page integrated review defining 10 Old World genus-rank clades, regional occurrence windows, body mass and dietary preferences; it does not equate Hipparion sensu stricto with all Hipparionini."
   },
   {
     "id": "macfadden-1998-teleoceras",
@@ -765,11 +786,14 @@
     "sourceRole": "primary-study",
     "fitnessFor": [
       "taxonomy",
+      "morphology",
       "range",
       "ecology",
+      "biogeography",
       "event-mechanism"
     ],
-    "metadataAssignment": "automated"
+    "metadataAssignment": "curator-reviewed",
+    "note": "Primary isotope study of 13 Teleoceras major adults from the 11.86 ± 0.13 Ma Ashfall site, with explicit sample, morphology, regional age and mobility limits."
   },
   {
     "id": "gudjonsdottir-2026-coelodonta",
@@ -5283,7 +5307,8 @@
       "morphology",
       "ecology",
       "geochronology",
-      "methods"
+      "methods",
+      "biogeography"
     ],
     "metadataAssignment": "curator-reviewed"
   },
@@ -5463,10 +5488,46 @@
       "taxonomy",
       "topology",
       "range",
-      "morphology"
+      "morphology",
+      "ecology",
+      "biogeography"
     ],
     "metadataAssignment": "curator-reviewed",
-    "note": "Two incomplete skeletons from middle Turonian deposits of north-central Texas preserve plesiopedal limbs; family placement and locomotor specialization are distinct questions."
+    "note": "Pages 177–178 document the two middle Turonian north-central Texas skeletons and define the sampled plesiopedal/hydropedal adaptive grades; Figures 5–6 and pages 187–190 describe the girdles and limbs and separate family placement from locomotor specialization."
+  },
+  {
+    "id": "schulp-et-al-2013-mosasaur-resource-partitioning",
+    "title": "On diving and diet: resource partitioning in type-Maastrichtian mosasaurs",
+    "authors": "Schulp, A.S.; Vonhof, H.B.; van der Lubbe, J.H.J.L.; Janssen, R.; van Baal, R.R.",
+    "publishedYear": 2013,
+    "type": "paper",
+    "url": "https://doi.org/10.1017/S001677460000010X",
+    "doi": "10.1017/S001677460000010X",
+    "publisher": "Netherlands Journal of Geosciences",
+    "pages": "92(2–3):165–170",
+    "sourceRole": "primary-study",
+    "fitnessFor": [
+      "ecology"
+    ],
+    "metadataAssignment": "curator-reviewed",
+    "note": "Pages 165–169 and Figure 1 report tooth-enamel carbon isotopes, reconstructed body sizes and resource partitioning for five named taxa from one type-Maastrichtian fauna; the inference is sample-bounded rather than a single ecology for all Mosasauridae."
+  },
+  {
+    "id": "jagt-et-al-2008-youngest-mosasaurus",
+    "title": "The youngest in situ record to date of Mosasaurus hoffmanni (Squamata, Mosasauridae) from the Maastrichtian type area, the Netherlands",
+    "authors": "Jagt, J.W.M.; Cornelissen, D.; Mulder, E.W.A.; Schulp, A.S.; Severijns, J.; Verding, L.",
+    "publishedYear": 2008,
+    "type": "journal-article-no-doi",
+    "url": "https://www.researchgate.net/publication/270103474_Jagt_JWM_Cornelissen_D_Mulder_EWA_Schulp_AS_Severijns_J_Verding_L_2008_The_youngest_in_situ_record_to_date_of_Mosasaurus_hoffmanni_Squamata_Mosasauridae_from_the_Maastrichtian_Type_Area_The_Netherland",
+    "publisher": "Fort Hays Studies, Special Issue 3",
+    "pages": "73–80",
+    "sourceRole": "primary-study",
+    "fitnessFor": [
+      "range",
+      "biogeography"
+    ],
+    "metadataAssignment": "curator-reviewed",
+    "note": "Pages 73–77 and Figures 1–2 document Mosasaurus hoffmanni NHMM 2007 093 from the highest metre of the Meerssen Member, within one metre below the regional K/Pg boundary; this is a sampled latest occurrence, not an exact family-wide extinction instant."
   },
   {
     "id": "dalla-vecchia-2006-bobosaurus",
@@ -5969,6 +6030,153 @@
       "biogeography",
       "occurrence",
       "methods"
+    ],
+    "metadataAssignment": "curator-reviewed"
+  },
+  {
+    "id": "prothero-2009-hoofed-transitions",
+    "title": "Evolutionary Transitions in the Fossil Record of Terrestrial Hoofed Mammals",
+    "authors": "Prothero, D.R.",
+    "publishedYear": 2009,
+    "type": "paper",
+    "url": "https://doi.org/10.1007/s12052-009-0136-1",
+    "doi": "10.1007/s12052-009-0136-1",
+    "publisher": "Evolution: Education and Outreach",
+    "pages": "289–302",
+    "note": "Peer-reviewed synthesis of the early perissodactyl fossil radiation and lineage-specific dental, cranial and limb transformations; broad order-level context, not a source for exact node ages.",
+    "sourceRole": "systematic-review",
+    "fitnessFor": [
+      "taxonomy",
+      "morphology",
+      "ecology",
+      "biogeography",
+      "range",
+      "topology"
+    ],
+    "metadataAssignment": "curator-reviewed"
+  },
+  {
+    "id": "mihlbachler-2008-brontotheriidae",
+    "title": "Species Taxonomy, Phylogeny, and Biogeography of the Brontotheriidae (Mammalia: Perissodactyla)",
+    "authors": "Mihlbachler, M.C.",
+    "publishedYear": 2008,
+    "type": "paper",
+    "url": "https://doi.org/10.1206/0003-0090(2008)501%5B1:STPABO%5D2.0.CO;2",
+    "doi": "10.1206/0003-0090(2008)501[1:STPABO]2.0.CO;2",
+    "publisher": "Bulletin of the American Museum of Natural History",
+    "pages": "1–475",
+    "note": "Species-level systematic monograph covering brontothere diagnoses, phylogeny, Eocene distribution and limits of family-wide horn and body-size generalizations.",
+    "sourceRole": "systematic-review",
+    "fitnessFor": [
+      "taxonomy",
+      "morphology",
+      "ecology",
+      "biogeography",
+      "range",
+      "topology"
+    ],
+    "metadataAssignment": "curator-reviewed"
+  },
+  {
+    "id": "joomun-2008-palaeotherium-diet",
+    "title": "Dental wear variation and implications for diet: An example from Eocene perissodactyls (Mammalia)",
+    "authors": "Joomun, S.C.; Hooker, J.J.; Collinson, M.E.",
+    "publishedYear": 2008,
+    "type": "paper",
+    "url": "https://doi.org/10.1016/j.palaeo.2008.03.001",
+    "doi": "10.1016/j.palaeo.2008.03.001",
+    "publisher": "Palaeogeography, Palaeoclimatology, Palaeoecology",
+    "pages": "92–106",
+    "note": "Primary mesowear, microwear and wear-facet study of Palaeotherium medium and Plagiolophus minor from La Débruge; ecological conclusions are sample- and species-bounded.",
+    "sourceRole": "primary-study",
+    "fitnessFor": [
+      "taxonomy",
+      "morphology",
+      "ecology",
+      "biogeography",
+      "range"
+    ],
+    "metadataAssignment": "curator-reviewed"
+  },
+  {
+    "id": "wall-heinbaugh-1999-metamynodon-locomotion",
+    "title": "Locomotor adaptations in Metamynodon planifrons compared to other amynodontids (Perissodactyla, Rhinocerotoidea)",
+    "authors": "Wall, W.P.; Heinbaugh, K.L.",
+    "publishedYear": 1999,
+    "type": "technical-report",
+    "url": "https://doc.rero.ch/record/31563/files/PAL_E647.pdf",
+    "publisher": "National Park Service Paleontological Research Technical Report NPS/NRGRD/GRDTR-99/03",
+    "pages": "8–17",
+    "note": "Comparative anatomical analysis of orbital position, axial skeleton and limb leverage in M. planifrons and other amynodontids, explicitly testing rather than assuming semi-aquatic locomotion. This National Park Service technical-report chapter has no assigned DOI.",
+    "sourceRole": "primary-study",
+    "fitnessFor": [
+      "taxonomy",
+      "morphology",
+      "ecology",
+      "biogeography",
+      "range"
+    ],
+    "metadataAssignment": "curator-reviewed"
+  },
+  {
+    "id": "schulz-2007-chalicothere-feeding",
+    "title": "Feeding ecology of the Chalicotheriidae (Mammalia, Perissodactyla, Ancylopoda): results from dental micro- and mesowear analyses",
+    "authors": "Schulz, E.; Fahlke, J.M.; Merceron, G.; Kaiser, T.M.",
+    "publishedYear": 2007,
+    "type": "journal-article-no-doi",
+    "url": "https://www.researchgate.net/publication/233781127",
+    "publisher": "Verhandlungen des Naturwissenschaftlichen Vereins in Hamburg",
+    "pages": "5–31",
+    "note": "Primary dental-wear study of named southern German chalicotheriine and schizotheriine samples. Historical Chalicotherium (Anisodon) labels are retained as published and not silently treated as current genus assignments. The journal record has no assigned DOI.",
+    "sourceRole": "primary-study",
+    "fitnessFor": [
+      "taxonomy",
+      "morphology",
+      "ecology",
+      "biogeography",
+      "range"
+    ],
+    "metadataAssignment": "curator-reviewed"
+  },
+  {
+    "id": "kaiser-2009-anchitherium-diet",
+    "title": "Anchitherium aurelianense (Equidae, Mammalia): a brachydont “dirty browser” in the community of herbivorous large mammals from Sandelzhausen (Miocene, Germany)",
+    "authors": "Kaiser, T.M.",
+    "publishedYear": 2009,
+    "type": "paper",
+    "url": "https://doi.org/10.1007/s12542-009-0002-z",
+    "doi": "10.1007/s12542-009-0002-z",
+    "publisher": "Paläontologische Zeitschrift",
+    "pages": "131–140",
+    "note": "Primary 35-tooth mesowear study of A. aurelianense from Sandelzhausen, with a concise diagnosis and European MN3–MN9 context; it does not establish a single global genus ecology.",
+    "sourceRole": "primary-study",
+    "fitnessFor": [
+      "taxonomy",
+      "morphology",
+      "ecology",
+      "biogeography",
+      "range"
+    ],
+    "metadataAssignment": "curator-reviewed"
+  },
+  {
+    "id": "ma-2024-coelodonta-paleoecology",
+    "title": "When the woolly rhinoceroses roamed East Asia: a review of isotopic paleoecology of the genus Coelodonta from the Tibetan Plateau to northern Eurasia",
+    "authors": "Ma, J.; Wang, S.; Deng, T.",
+    "publishedYear": 2024,
+    "type": "paper",
+    "url": "https://doi.org/10.3389/fevo.2024.1377000",
+    "doi": "10.3389/fevo.2024.1377000",
+    "publisher": "Frontiers in Ecology and Evolution",
+    "pages": "1–15",
+    "note": "Systematic isotopic and morphological paleoecology review across Coelodonta species. It distinguishes the typical grazing C. antiquitatis signal from mixed-feeding regional C. nihowanensis samples.",
+    "sourceRole": "systematic-review",
+    "fitnessFor": [
+      "taxonomy",
+      "morphology",
+      "ecology",
+      "biogeography",
+      "range"
     ],
     "metadataAssignment": "curator-reviewed"
   }
