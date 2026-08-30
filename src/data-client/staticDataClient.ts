@@ -22,7 +22,10 @@ import type {
   RuntimeSearchEntry,
 } from './types'
 
-const dataRoot = `${import.meta.env.BASE_URL}data/`.replace(/\/+/g, '/')
+const configuredDataRoot = import.meta.env.VITE_DATA_ROOT as string | undefined
+const dataRoot = configuredDataRoot
+  ? `${configuredDataRoot.replace(/\/+$/, '')}/`
+  : `${import.meta.env.BASE_URL}data/`.replace(/\/+/g, '/')
 const jsonCache = new Map<string, unknown>()
 const inFlight = new Map<string, Promise<unknown>>()
 const loadedPackageSearch = new Map<string, RuntimeSearchEntry[]>()

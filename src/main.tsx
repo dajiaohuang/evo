@@ -5,17 +5,24 @@ import './index.css'
 import App from './App'
 import { I18nProvider } from './i18n'
 import { registerSW } from 'virtual:pwa-register'
+import { initializeNativeRuntime } from './platform/nativeRuntime'
 
-registerSW({
-  immediate: true,
-  onOfflineReady() {
-    document.documentElement.dataset.offlineReady = 'true'
-    window.dispatchEvent(new Event('evo:offline-ready'))
-  },
-  onRegisterError(error) {
-    console.warn('Evo Atlas service worker registration failed.', error)
-  },
-})
+if (import.meta.env.VITE_NATIVE_APP === 'true') {
+  void initializeNativeRuntime().catch((error) => {
+    console.warn('Evo Atlas native runtime initialization failed.', error)
+  })
+} else {
+  registerSW({
+    immediate: true,
+    onOfflineReady() {
+      document.documentElement.dataset.offlineReady = 'true'
+      window.dispatchEvent(new Event('evo:offline-ready'))
+    },
+    onRegisterError(error) {
+      console.warn('Evo Atlas service worker registration failed.', error)
+    },
+  })
+}
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>

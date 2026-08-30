@@ -1,46 +1,66 @@
-# Evo Atlas — Deep-Time Evolution & Evidence Explorer
+# Evo Atlas — 深时演化与证据图谱
 
-Evo Atlas is a static-first web atlas for exploring 4.567 billion years of Earth and life history through linked geological time, fossil occurrence coordinates, phylogenetic hypotheses and curated evidence. The production target is GitHub Pages: runtime use requires no server, database or private API key.
+> 一个面向 Web、Android 与 iOS 的双语深时演化探索器。它把地质时间、古地理重建、化石记录、生命树、物种名录和逐条科学证据放进同一套可追溯界面。
 
-## What is implemented
+[在线打开综合看板](https://dajiaohuang.github.io/evo/#/home) · [数据方法](docs/data-methods.md) · [移动端构建](docs/mobile-apps.md) · [参与维护](CONTRIBUTING.md) · [隐私说明](PRIVACY.md)
 
-- **Deep-time portal** — Hadean to present navigation, period entry points, 4 published guided stories and 6 evidence-blocked canonical drafts.
-- **Dashboard-first entry** — The site opens directly into the synchronized atlas with four preset scenes and an explicit tutorial choice; navigation, evidence and research tools remain folded until requested.
-- **Versioned accepted-species registry and ownership** — The complete accepted-species baseline of Catalogue of Life Base Release COL26.8 (2,183,133 names) plus 2,065,436 resolving synonym, ambiguous-synonym and misapplied-name usages is published as lazy, checksum-addressed search and target shards. A separate exact-ID hierarchy covers every accepted species, 245,959 required higher taxa and all 2,429,088 direct parent-child edges without adding provisionally accepted taxa to the accepted-species count. Exact release-scoped ancestor rules assign every accepted species to one of 24 static packages or eight catalogue-only resource partitions, with no duplicated species table. This nomenclatural ownership is explicitly separate from Atlas dossier maturity.
-- **Synchronized Explorer** — Geological timeline, checksum-verified six-layer CAO2024 0–1,800 Ma frame series (coastlines, topological plates, typed boundaries, continental crust, continent–ocean boundaries and static reconstruction partitions), occurrence-coordinate map, tree of life, evidence inspector and dataset-checked shareable URL state. Each layer selects its nearest published frame without interpolation; the three heavier technical layers remain independently lazy.
-- **Five-rank geological time** — ICS 2026/06 eons, eras, periods, epochs and ages with hierarchy, uncertainty, stable source identifiers and documented projection notes.
-- **Separated tree semantics** — Atlas-wide navigation ontology, scoped Perissodactyla topology, first-appearance proxy, fossil ranges, radial navigation and calibration-evidence views, with clade collapse, lineage trace, trait/event overlays and Newick/Nexus export.
-- **Multi-scale occurrence map** — Projected-pixel cluster, density and point modes with reconstructed and modern coordinates kept separate, plus explicitly sample-derived centroid/latitude trajectories over checksum-verified CAO2024 frames. Coastlines use 5/10 Myr sampling across the 540 Ma boundary; the much smaller topology layers use 1 Myr frames through 250 Ma, 5 Myr through 1,000 Ma and 10 Myr thereafter, plus representative anchors for otherwise skipped short-lived topology states. Heavier semantic layers use disclosed 10/20 or 20/40 Myr cadences, with all geological-period midpoints retained. Plate-boundary classifications and supplied subduction polarity are retained; continental-crust extent, continent–ocean transitions and rigid static partitions are kept distinct from coastlines and dynamic topological plates. No layer encodes paleoelevation, bathymetry or terrain relief.
-- **Sampling-aware diversity view** — Observed taxon names, collection coverage, age precision and spatial metadata without treating record counts as true richness.
-- **Evidence catalog** — Bilingual taxon and event directories with source links, confidence and uncertainty kept separate.
-- **Compare workbench** — Taxa, time windows, countries and competing representation assumptions.
-- **Browser data lab** — Bounded local queries with table/chart/map views; taxa/time/place/formation filters; query history/diff; retained-release checksum comparison; and reproducible ZIP exports containing CSV, JSON, GeoJSON, SVG, query definition, citations, methods and checksums.
-- **Local research workspace** — CSV/JSON/GeoJSON import, delayed read-only DuckDB-Wasm SQL with joins/grouping/aggregation, Parquet export and IndexedDB notes/favorites. User data never goes to an application server.
-- **Stories and education** — Claim-linked published stories, era/taxon/theme discovery, course collections, glossary and quiz, plus a local JSON Story Builder with teacher links and iframe embeds. Evidence-incomplete drafts remain blocked.
-- **Offline PWA** — Installable, precached app shell; large immutable scientific chunks are cached only when opened.
-- **Static release pipeline** — Cross-file data validation, per-file SHA-256 checksums, tests, lint and GitHub Pages deployment gates.
-- **Pages Data Platform v5 candidate** — 191 bilingual curated registry entities assigned to 24 registry-driven static packages, plus the separate COL26.8 accepted-name registry. Curated content remains an explicit educational subset; Perissodactyla is a curated draft and the other scientific packages remain explicitly labelled scaffolds or core structure.
-- **Complete static Catalog publication** — 4,000+ build-time bilingual HTML pages for taxa, events, geological intervals, formations, fossil localities, traits, references, media, stories, methods and retained dataset releases, with canonical URLs, Open Graph metadata, JSON-LD, `hreflang`, sitemap, feed, print styles and direct Explorer/Lab links.
-- **Minimal review workflow** — Uploadable ZIP/Markdown packets enumerate every required file and SHA-256; digest freshness derives `stale` without a backend. Scientific maturity, maintainer review, ChatGPT assistance and external expert review remain separate disclosures.
-- **Explicit scientific maturity** — Generated scaffold, structured, source linked, curated draft and published are separate from automated engineering validation and maintainer review.
-- **Explicit offline packages** — Core data is precached; package and occurrence data is cached on access or when the user explicitly saves a package from the Data page.
+Evo Atlas 默认直接进入综合看板：地图、时间轴、生命树和化石样本共享一个时间上下文；首次使用时只需选择“直接进入”或“3 分钟教程”。预设场景始终可见，详细研究工具默认收起。
 
-## Architecture
+## 当前状态
 
-| Area | Implementation |
-| --- | --- |
-| Application | React 19, TypeScript, Vite 8, hash routing |
-| Map | Leaflet / react-leaflet with six checksum-verified CAO2024 layer families plus local occurrence chunks; continental crust, COB and static technical partitions are optional and lazy; no paleoelevation layer |
-| Tree and charts | D3 plus lightweight SVG/CSS visualizations |
-| State | Zustand slices for geological time, map, tree and fossil evidence |
-| Data | Canonical versioned JSON under `data/`; generated `.json.gz` runtime packages under `/evo/data/` |
-| Data loading | Static `fetch`, SHA-256 verification and Worker-based decompression/parsing; occurrence data is not compiled into JavaScript |
-| Offline | `vite-plugin-pwa`; app/Core precache plus demand-driven package caches |
-| Hosting | GitHub Pages under the `/evo/` base path |
+Evo Atlas 不是一个把生成文本包装成“完整百科”的项目。它同时维护两种覆盖范围，并在界面中明确区分：
 
-The main routes are `#/home`, `#/catalog`, `#/registry`, `#/stories`, `#/explore`, `#/research`, `#/about`, `#/taxa`, `#/events`, `#/compare`, `#/lab`, `#/data` and `#/methods`. `#/home` is the focused dashboard; `#/explore` remains the full-panel deep link. Explorer URLs encode dataset version, age/window, primary view, selected taxon/occurrence, map center/zoom, marker and coordinate modes, tree mode and story/event context. A link targeting another dataset snapshot requires explicit confirmation before it is rewritten. Reconstruction model labels remain occurrence-level evidence and are not exposed as a no-op global selector. Global search covers the curated atlas plus demand-loaded Catalogue of Life scientific names; COL results open a release-scoped internal hierarchy page with an explicit upstream ChecklistBank verification link and never masquerade as an Atlas dossier.
+- 名录覆盖：固定到 Catalogue of Life Base Release `COL26.8`。2,183,133 个严格接受种全部能沿真实父子链路由到唯一资源归属，另有 2,065,436 个异名、歧义异名和误用名可解析到接受名。
+- 内容覆盖：24 个静态资源包中的证据档案、事件、故事、范围和参考文献。每个包单独声明 `generated-scaffold`、`structured`、`source-linked`、`curated-draft` 或 `published`，名录路由完整不等于内容已经完成。
 
-## Local development
+当前已发布数据快照为 `2026.08-static-v5-rc16`，开发中的 Web/移动客户端版本为 `0.18.0`。精确记录数、校验和和限制以 [`data/manifest.json`](data/manifest.json) 为准；科学内容变更见 [`data/CHANGELOG.md`](data/CHANGELOG.md)。
+
+## 用户能做什么
+
+### 综合看板与古地理
+
+- 从寒武纪海洋、K–Pg 界线、侏罗纪辐射和奇蹄目证据包等预设场景一键开始。
+- 在 0–1,800 Ma 范围浏览 1,889 个校验和寻址的 CAO2024 v2.4 重建帧。
+- 独立开关六种不混淆语义的图层：海岸线、动态拓扑板块、分类板块边界、大陆地壳范围、陆洋过渡边界和刚性静态分区。
+- 各图层按自身时间采样选择最近帧，不插值、不越界钳制；较密帧改善导航连续性，但不会增加原模型的地质分辨率。
+- 古地理不包含古海拔、古水深或地形起伏，也不假定与 PBDB 古坐标使用同一重建模型。
+
+### 物种、生命树与内容包
+
+- 搜索完整的 `COL26.8` 接受种及解析名称，并在内部页面查看固定版本的祖先链和直接子级。
+- 查看 191 个策展导航实体、24 个资源包及其实际科学成熟度。
+- 在导航树、范围、径向树和校准证据之间切换；追踪谱系、折叠支系并导出 Newick/Nexus。
+- 将命名学位置、导航节点、系统发育假说、化石首现和分子钟分化时间作为不同类型的信息阅读。
+
+### 化石、证据与故事
+
+- 按时间、类群、国家、地层单位和地点查看 PBDB 样本；古坐标与现代坐标从不混用。
+- 阅读带 claim ID、置信度、边界说明、页码/图版定位和 DOI 的事件证据。
+- 进入每一步都连接到证据主张的双语故事；证据不完整的草稿不会伪装成已发布故事。
+- 比较类群、时间窗、地区和不同表示假设；导出带方法、引用和校验和的 CSV/JSON/GeoJSON/SVG/ZIP。
+
+### 本地研究与离线使用
+
+- 在浏览器本地导入 CSV、JSON、GeoJSON，使用只读 DuckDB-Wasm 做筛选、连接、聚合和 Parquet 导出。
+- 将笔记、收藏、故事草稿和查询历史保存在本机；项目没有账号系统或应用服务器。
+- Web 版预缓存应用壳和 Core 数据，大型地图、名录、资源包和化石分片按需缓存。
+- Android/iOS 安装包内置同一客户端壳，科学数据从公开的版本化 GitHub Pages 数据端点按需读取并校验；首次读取尚未保存的数据需要网络。
+
+## Web、Android 与 iOS
+
+三端共享 `src/` 中的 React/TypeScript 客户端和同一个数据协议，不复制科学内容。
+
+| 平台 | 工程 | 运行形态 | 当前边界 |
+| --- | --- | --- | --- |
+| Web / PWA | Vite + GitHub Pages | `/evo/` 下的静态应用、Service Worker 与按需数据缓存 | 可直接使用和安装 |
+| Android | `android/` + Capacitor 8 | API 24+ 原生壳、系统返回键、状态栏、启动资源、外链和 `evoatlas://` 深链 | 工程已生成；商店签名和发布凭据不入库 |
+| iOS / iPadOS | `ios/` + Capacitor 8 / Swift Package Manager | iOS 15+ WKWebView 原生壳、安全区、状态栏、启动资源、外链和 `evoatlas://` 深链 | 工程已生成；必须在 macOS + Xcode 完成签名、模拟器与真机验证 |
+
+移动端不是把线上网页作为远程首页打开的空壳：HTML、CSS、JavaScript 与图标进入原生包；大体积、经版本化的科学数据保持远程和按需加载，因此客户端升级与内容数据修订可以解耦。详细工作流见 [`docs/mobile-apps.md`](docs/mobile-apps.md)。
+
+## 快速开始
+
+需要 Node.js 22+。
 
 ```bash
 npm ci
@@ -48,51 +68,138 @@ npx playwright install chromium firefox webkit
 npm run dev
 ```
 
-The default development URL is `http://localhost:5173/evo/`.
+开发地址为 `http://localhost:5173/evo/`。
 
-Release checks:
+运行完整发布契约：
 
 ```bash
 npm run verify
 ```
 
-`predev` generates ignored runtime data under `public/data/`. `verify` runs ESLint, Vitest, all registry/package/claim/translation/provenance/review gates, review-digest freshness, TypeScript, the production PWA build, source and Pages budgets, static-data smoke tests, Playwright route tests and axe accessibility checks.
+`verify` 包含 ESLint、Vitest、注册表与资源包投影一致性、数据/主张/翻译/来源/审查门禁、TypeScript、生产 PWA 构建、体积预算、静态页面 smoke test、三浏览器 Playwright 路由和 axe 可访问性检查。
 
-Generate a complete ChatGPT-uploadable maintainer-review packet with `npm run review:packet -- --package perissodactyla`; validate every stored review digest with `npm run review:check`. See [the minimal review workflow](docs/review-workflow.md).
+## 构建移动端
 
-## Data workflow
+先生成共享移动客户端并同步到两个原生工程：
 
 ```bash
-npm run data:manifest
-npm run data:validate
-npm run data:build
-npm run pages:budget
-npm run pages:smoke
+npm ci
+npm run mobile:sync
 ```
 
-Rebuild the pinned COL26.8 projection from the official immutable DwCA without committing the 487.89 MiB upstream archive:
+Android 需要 Android Studio 2025.2.1+ 和 Android SDK；当前工程使用 `minSdk 24`、`targetSdk 36`：
+
+```bash
+npm run mobile:android
+```
+
+iOS 需要 macOS、Xcode 26+ 和命令行工具；项目使用 Swift Package Manager：
+
+```bash
+npm run mobile:ios
+```
+
+`npm run mobile:build` 只生成 `dist-mobile/`；`mobile:sync` 再把该壳和插件配置复制到 `android/` 与 `ios/`。不要手改原生工程中被 `.gitignore` 排除的 Web 产物。应用 ID 为 `io.github.dajiaohuang.evoatlas`，自定义深链示例为：
+
+```text
+evoatlas://open/stories?id=angiosperm-evidence-boundaries
+evoatlas://open/explore?age=375&taxon=tiktaalik
+```
+
+## 数据架构
+
+`data/` 是版本控制下的科学事实层；`public/data/`、`dist/data/` 和 `dist-mobile/` 都是生成物。
+
+```text
+data/
+├── catalogue-of-life/     # 固定 CoL 名录、层级、来源和差异
+├── evidence/              # typed claims、中文陈述与置信度理由
+├── fossils/               # 规范化 PBDB 教学样本
+├── navigation/            # Atlas 导航本体
+├── packages/              # 24 个静态资源包投影与 review.json
+├── paleogeography/        # CAO2024 provenance、帧清单与几何
+├── ranges/                # 与叙事分离的范围证据账本
+├── registry/              # 实体、包注册表和物种归属
+├── events.json
+├── references.json
+├── stories.json
+└── manifest.json
+
+src/                       # 三端共享客户端
+android/                   # Android Studio 工程
+ios/                       # Xcode / Swift Package Manager 工程
+scripts/                   # 数据投影、构建、验证和静态发布
+```
+
+浏览器从 `/evo/data/current.json` 启动，随后只读取 `data/releases/<datasetVersion>/` 下的不可变文件。资源包清单、Core、地图、名录、化石和下载文件都带 SHA-256；校验失败时客户端会先逐出缓存并只重试一次，数据集版本不一致则拒绝混用。
+
+### 常用数据命令
+
+```bash
+npm run data:registry:build
+npm run data:packages:species
+npm run data:manifest
+npm run data:registry:check
+npm run data:validate
+npm run data:build
+```
+
+从官方不可变 DwCA 重建固定 `COL26.8` 投影（487.89 MiB 上游压缩包不提交）：
 
 ```bash
 npm run data:col:build -- --archive /path/to/2026-08-20_dwca.zip --out data/catalogue-of-life/releases/2026-08-20/registry
 ```
 
-`data:manifest` intentionally rewrites record counts and SHA-256 checksums after a reviewed canonical change. `data:build` creates the publishable static projection at `dist/data/`; it does not write runtime copies into canonical `data/`. The taxon-period descendant index, fossil normalization and `data:assign:fossils` package-assignment steps are reproducible commands. Optional staging helpers are available for PBDB occurrence retrieval/enrichment and splitting a source GeoJSON FeatureCollection; no geometry may be promoted from staging until the provenance fields required by `DATA_LICENSES.md` are complete. Staging fetches refuse to overwrite an existing target unless `--replace` is supplied.
-
-The public bootstrap is `/evo/data/current.json`. It links checksum-addressed manifests and immutable files under `/evo/data/releases/<datasetVersion>/`; `/evo/data/releases.json` retains published snapshots, clients reject package/version mismatches, and checksum failures are evicted then refetched once. See [Static Data Platform v5](docs/static-data-platform-v5.md) for formats, caching rules and budgets.
+PBDB 拉取、规范化和 GeoJSON 分片命令仅用于 staging；没有完整来源与授权字段的几何不能进入发布数据：
 
 ```bash
 npm run data:fetch:fossils -- --period Cretaceous --limit 1000
 npm run data:normalize:fossils
+npm run data:assign:fossils
 npm run data:indexes
 npm run data:split:geojson -- --input staging/world.geojson
 ```
 
-See [data methods](docs/data-methods.md), the [dataset changelog](data/CHANGELOG.md), the [release checklist](docs/release-checklist.md), the [scientific review protocol](SCIENTIFIC_REVIEW.md) and the [package authoring guide](DATA_PACKAGE_AUTHORING.md).
+更完整的格式、缓存、预算和发布规则见 [`docs/static-data-platform-v5.md`](docs/static-data-platform-v5.md)。
 
-## Evidence boundaries
+## 正确性与真实性边界
 
-The accepted-species registry is complete only against the pinned COL26.8 Base snapshot and inherits Catalogue of Life's reported roughly 80% coverage; 82,483 provisionally accepted species are disclosed but excluded from the accepted baseline. CoL usage IDs are snapshot locators, not sufficient cross-release concept identity. The atlas also exposes two occurrence scopes: a 13,600-row bounded, non-random period-stratified PBDB bundle for cross-clade views, and a separate 13,210-row complete pinned Perissodactyla base-ID snapshot. “Complete” means every page returned by that exact PBDB query was retained; it does not mean the fossil record is complete. The bounded bundle has unknown selection probability and no retained upstream totals, so its counts are neither exhaustive nor statistically representative. The six CAO2024 layer families are modelled nearest-frame reconstructions with disclosed, layer-specific temporal sampling, not direct observations, interpolated movies or ancient elevation maps, and are not assumed to share a reconstruction model with PBDB paleocoordinates. Denser frames improve navigation continuity, not the model's underlying geological resolution. The atlas-wide hierarchy is a navigation ontology, while the separate Perissodactyla topology hypothesis remains non-exhaustive. First/last appearances are sampling-dependent and are not molecular-clock divergence estimates. The interface repeats these limits at the point of interpretation.
+- Catalogue of Life 的“全集”只指固定发布版中严格接受种的命名学覆盖；它继承上游覆盖范围，也不代表每个物种都有 Evo Atlas 档案。
+- 当前跨图谱 PBDB 数据是 13,600 行非随机、有界的时期分层样本，不能用记录数推断真实丰富度、缺失或全球首现。奇蹄目另有 13,210 行完整分页的固定查询；“完整”仅指该次查询返回的所有页。
+- 生命树总览是教学导航本体，不是唯一系统发育假说。包内拓扑、分化时间、形态和地层出现必须分别标注。
+- first/last appearance 受采样控制，不等于精确起源/灭绝；分子钟后验不等于化石出现。
+- `automatedReviewStatus: passed` 只说明工程门禁通过，不等于维护者科学审查，更不等于外部专家同行评议。
+- 所有旧版展示范围在没有 claim-linked 文献复核前继续标为 `legacy-display` / `not-reviewed`。
 
-## License
+## 维护资源包
 
-Software is [MIT licensed](LICENSE). Original explanatory/curated content is generally [CC BY 4.0](CONTENT_LICENSE.md), while scientific data and third-party materials retain separate terms documented in [DATA_LICENSES.md](DATA_LICENSES.md) and [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
+科学内容从 claim 开始，而不是先写故事。新增或修订资源包时：
+
+1. 在共享 canonical 文件中确认实体概念、来源、范围和主张；不要直接手改生成投影。
+2. 每条可见科学陈述连接到合适角色的一手研究或系统综述，并提供页码、图版、表格或章节 locator。
+3. 明确标本观察、功能推断、系统模型、生态解释和全球范围之间的边界。
+4. 运行投影、清单和完整 `npm run verify`；维护者 review 与外部专家 review 保持独立。
+
+详见 [`DATA_PACKAGE_AUTHORING.md`](DATA_PACKAGE_AUTHORING.md)、[`SCIENTIFIC_REVIEW.md`](SCIENTIFIC_REVIEW.md) 和 [`docs/review-workflow.md`](docs/review-workflow.md)。
+
+## 参与贡献
+
+- 事实或证据纠错：提供实体/claim ID、数据集版本、页面 URL、建议修改和直接支持它的来源。
+- 资源包：提交一个小而完整、可审查的纵切面，不要用广泛生成文本替代证据。
+- 应用：Web、Android 和 iOS 尽量共享实现；平台差异放在 `src/platform/` 或对应原生工程。
+- 翻译：保留学名、ID、不确定性和证据强度，不把“可能”翻译成“确定”。
+
+完整说明见 [`CONTRIBUTING.md`](CONTRIBUTING.md)。
+
+## 隐私、许可证与引用
+
+Evo Atlas 没有账号、广告、分析 SDK 或应用后端。笔记、收藏、导入文件和查询历史保存在设备本地；应用只为读取公开科学数据、外部引用和用户主动打开的链接发起网络请求。详见 [`PRIVACY.md`](PRIVACY.md)。
+
+- 软件：[`MIT`](LICENSE)
+- 原创策展和说明内容：通常为 [`CC BY 4.0`](CONTENT_LICENSE.md)
+- 科学数据和第三方材料：遵循各自条款，见 [`DATA_LICENSES.md`](DATA_LICENSES.md)、[`THIRD_PARTY_NOTICES.md`](THIRD_PARTY_NOTICES.md) 和 [`MEDIA_ATTRIBUTION.json`](MEDIA_ATTRIBUTION.json)
+- 引用：使用 [`CITATION.cff`](CITATION.cff)，同时引用所依赖的具体数据快照、PBDB/CoL/ICS/CAO2024 和科学论文
+
+## English summary
+
+Evo Atlas is a bilingual, static-first deep-time evidence explorer for Web, Android and iOS. The dashboard synchronizes geological time, six distinct CAO2024 reconstruction layers, fossil samples, a navigation tree and claim-level evidence. The pinned COL26.8 registry routes all 2,183,133 strictly accepted species to one resource owner, while package maturity remains separately disclosed. Android and iOS are Capacitor 8 projects sharing the same React client; the native shell is bundled, and large versioned scientific data remains checksum-verified and demand-loaded from the public GitHub Pages release. No account, analytics SDK, private API key, database or application server is required.
