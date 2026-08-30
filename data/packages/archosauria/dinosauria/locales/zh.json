@@ -1,6 +1,6 @@
 {
   "language": "zh",
-  "version": "2026.08-static-v5-rc46",
+  "version": "2026.08-static-v5-rc47",
   "strings": {
     "entity.dinosauria.name": "恐龙",
     "entity.ornithischia.name": "鸟臀类",
@@ -50,6 +50,34 @@
     "claim.claim:taxon:tyrannosaurus:taxonomy.confidenceRationale": "大量评分标本提供可复核解剖，但序列排序与分类归属仍是解释；中等置信度反映这种不对称，而不否定观察。",
     "claim.claim:taxon:tyrannosaurus:ecology.confidenceRationale": "骨表改造和嵌入或摄入材料直接确立食骨行为；高置信度仅限摄食证据，不把种群或性能模型提升为观察。",
     "claim.claim:taxon:tyrannosaurus:morphology.confidenceRationale": "重复标本解剖以高置信度支持所列结构；精确生长轨迹仍依赖标本归属和阶段排序，而非追踪同一个体。",
-    "claim.claim:taxon:dinosauria:root-range.confidenceRationale": "具名标本、组合背景及形态矩阵属于一手证据；现生延续来自图谱导航闭包，而化石端点仍局限于当地样本。"
+    "claim.claim:taxon:dinosauria:root-range.confidenceRationale": "具名标本、组合背景及形态矩阵属于一手证据；现生延续来自图谱导航闭包，而化石端点仍局限于当地样本。",
+    "claim.claim:taxon:ornithischia.confidenceRationale": "广泛支序分析明确且可复现，但若干位置依赖字符编码和缺失数据；中等置信度保留该范围。",
+    "claim.claim:taxon:stegosauria.confidenceRationale": "综述直接盘点具名记录并更新取样系统发育，同时明确指出材料破碎和基部解析不确定。",
+    "claim.claim:taxon:ankylosauria.confidenceRationale": "该研究旨在进行综合取样系统发育分析，并报告解析较弱区域；中等置信度对应这些明确的支持限制。",
+    "claim.claim:taxon:ankylosaurus.confidenceRationale": "研究直接比较模式与归入标本，并给出修订诊断和分布。高置信度仅限被接受材料。",
+    "claim.claim:taxon:ceratopsia.confidenceRationale": "头骨和矩阵是直接主研究证据，但拓扑与扩散属于分析解释；中等置信度将导航主张限制在该层级。",
+    "claim.claim:taxon:triceratops.confidenceRationale": "头骨测量和个体发育检验明确，但竞争研究对同物异名有不同解释；有争议置信度记录未解决的分类争论。",
+    "claim.claim:taxon:yinlong.confidenceRationale": "正模与地层有直接记录。高置信度适用于该样本，基部位置仍属于矩阵结果。",
+    "claim.claim:taxon:hadrosauridae.confidenceRationale": "分析明确联合取样系统树、地理区域与时间片；中等置信度保留对拓扑、编码和化石取样的依赖。",
+    "claim.claim:taxon:edmontosaurus.confidenceRationale": "研究测量广泛头骨样本并检验个体发育变异，但物种划分仍是对连续生长数据的解释。",
+    "claim.claim:taxon:eocursor.confidenceRationale": "标本和地层是直接证据，而精确年代归属与基部位置均有分析和地层不确定性。",
+    "claim.claim:taxon:thyreophora.confidenceRationale": "正模解剖材料丰富，但它相对甲龙与剑龙的位置属于矩阵结果；中等置信度保留该区分。",
+    "claim.claim:taxon:scelidosaurus.confidenceRationale": "正模、相关材料和地质背景均有直接审查。高置信度保持在标本与地点边界内。",
+    "claim.claim:taxon:saurischia.confidenceRationale": "近完整骨架和字符矩阵是直接主研究证据，而早期恐龙分支仍受类群与字符取样影响。",
+    "claim.claim:taxon:sauropodomorpha.confidenceRationale": "正模解剖和矩阵明确，但基部位置与食性转变属于比较重建；中等置信度保留这些限制。",
+    "claim.claim:taxon:brachiosauridae.confidenceRationale": "模式与归入材料得到详细比较，诊断明确。高置信度仅限修订后的属和字符。",
+    "claim.claim:taxon:diplodocidae.confidenceRationale": "研究对单个标本编码并给出定量归属阈值，但若干归属会随缺失数据和树位置变化。",
+    "claim.claim:taxon:titanosauria.confidenceRationale": "标本、地质年代和矩阵是直接证据，但更广的体重演化及位置依赖比较模型和取样。",
+    "claim.claim:taxon:buriolestes.confidenceRationale": "正模、组合和放射性年代背景均有直接报告。高置信度仅限具名样本及年代背景。",
+    "claim.claim:taxon:mussaurus.confidenceRationale": "标本集合和地点背景明确。高置信度适用于取样生长序列，姿态重建仍是模型。",
+    "claim.claim:taxon:ledumahadi.confidenceRationale": "正模、地层和年代背景有直接报告。高置信度保持在出现记录边界内，不外推体重与姿态。",
+    "claim.claim:taxon:theropoda.confidenceRationale": "系统综述比较主要非鸟兽脚类分类，并明确识别不稳定关系。中等置信度仅支持这些分支；现生鸟类端点是导航语境，不是该论文提供的证据。",
+    "claim.claim:taxon:tyrannosauridae.confidenceRationale": "综述整合多项独立标本研究，而行为及全支系概括仍属推断；中等置信度保留异质性。",
+    "claim.claim:taxon:spinosauridae.confidenceRationale": "综述明确区分诊断性材料与薄弱归入，并讨论相互竞争的生态证据；中等置信度遵循这些限制。",
+    "claim.claim:taxon:spinosaurus.confidenceRationale": "尾部解剖和受控模型比较是直接证据，但软组织、全身动力学与行为需要重建；中等置信度将其分开。",
+    "claim.claim:taxon:dromaeosauridae.confidenceRationale": "专著记录大量第一手编码与敏感性分析，而若干位置仍不稳定；中等置信度对应已报告支持度。",
+    "claim.claim:taxon:velociraptor.confidenceRationale": "骨质乳突是直接观察结果，并与现生鸟类比较。高置信度适用于取样前臂，羽毛形态与功能仍属比较推断。",
+    "claim.claim:taxon:yutyrannus.confidenceRationale": "正模、归入标本和地层均有直接报告。高置信度仅限这些个体及出处。",
+    "claim.claim:taxon:oviraptorosauria.confidenceRationale": "标本、巢和地层有直接描述。高置信度适用于关联与出处，不适用于全支系年代或行为。"
   }
 }

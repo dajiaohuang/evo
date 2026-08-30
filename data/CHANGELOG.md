@@ -1,5 +1,11 @@
 # Dataset changelog
 
+## 2026.08-static-v5-rc47 — 2026-08-31
+
+- Added 272 bilingual, typed `taxon:` subject claims with concrete primary-study or systematic-review locators, bringing claim-level traceability to all 392 navigation entities. Specimen/locality ranges, modelled divergence times, navigation groupings and sampled topology remain explicitly bounded rather than promoted to global origins, first appearances or direct ancestors.
+- Advanced the canonical ledger to 872 claims and 440 references while retaining all rc46 and issue #79 wording, CAO2024 inventory, onboarding and readiness semantics. The unchanged 13,600-row PBDB snapshot, generated taxon indexes and all package review records remain outside this evidence-only expansion.
+- Regenerated the shared Web/Android/iOS package projections and checksum manifest at app version `0.20.0`. Automated completeness and validation do not create maintainer or external-expert scientific review; that human gate remains open.
+
 ## 2026.08-static-v5-rc46 — 2026-08-31
 
 - Aligned the public inventory with the unchanged 392 navigation entities and twenty-four packages: twenty-three remain `source-linked` and Perissodactyla remains the sole `curated-draft`; this release does not add maintainer or external-expert scientific review.
