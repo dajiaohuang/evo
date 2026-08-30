@@ -8,6 +8,8 @@ The 13,600 occurrence rows are bounded, non-random API-prefix samples derived fr
 
 Observed counts are not treated as true richness. Rock availability, collecting intensity, geography, taxonomic practice and temporal resolution all affect the displayed patterns. Missing records are never interpreted as biological absence.
 
+Targeted package queries use a separate, pinned PBDB taxon snapshot. An entity becomes query-eligible only when its scientific name resolves to one exact accepted-name candidate, its normalized rank matches, and the complete candidate ancestor chain is compatible with the Atlas taxonomic-parent lineage. Navigation, display and research-record edges are explicitly non-taxonomic and are not forced through that test. Candidate IDs and ancestor chains may be retained for audit even when incompatible, but withheld candidates are never published as resolved IDs and are never queried. Query completeness means all pages of that recorded `base_id` request were fetched; it does not mean the fossil record is complete.
+
 ## Geological time
 
 `data/time-scale.json` spans 4,567 Ma and records the exact display version `ICS-2026-06`. Boundary ages may change in later International Chronostratigraphic Chart revisions, so the version is part of every exported query manifest.
