@@ -5,29 +5,27 @@
     "rangeKind": "global-composite",
     "taxonomicConcept": "Ichthyosauria",
     "geographicScope": "Global or represented navigation composite",
-    "olderMa": 250,
+    "olderMa": 248,
     "youngerMa": 90,
     "status": "available",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "note": "The approximately 248 Ma older edge follows a Chaohusaurus specimen and biostratigraphic assignment; 90 Ma remains a rounded composite younger boundary."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "evidenceBasis": "The named Chaohusaurus maternal specimen and Procolumbites Zone context provide a primary-study Early Triassic anchor without asserting a global FAD, complete duration or direct ancestor.",
     "confidence": "medium",
-    "claimIds": [],
+    "claimIds": [
+      "claim:taxon:ichthyosauria:fossil-range"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
-      },
-      {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "motani-2014-chaohusaurus-viviparity",
+        "locator": "PLOS ONE 9(2):e88640; Figure 1; geological setting, specimen description and Results"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "literature-synthesized"
   },
   {
     "id": "range:ichthyosaurus:global",
@@ -131,19 +129,21 @@
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Legacy global display envelope; not an exact claim-linked FAD or LAD."
+      "note": "The rounded 228 Ma older edge follows Norian Carniadactylus material; 66 Ma remains a broad composite younger boundary rather than an exact global LAD."
     },
-    "evidenceBasis": "The global pterosaur envelope remains a legacy navigation composite and is not an exact claim-linked FAD or LAD.",
+    "evidenceBasis": "A nearly complete Carniadactylus holotype and referred specimen provide a primary-study Late Triassic pterosaur anchor without asserting a global FAD, LAD, origin date or direct ancestry.",
     "confidence": "medium",
-    "claimIds": [],
+    "claimIds": [
+      "claim:taxon:pterosauria:fossil-range"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "witton-habib-2010-giant-pterosaur-flight",
-        "locator": "pp. 867–873; Figures 1–5"
+        "referenceId": "dalla-vecchia-2009-carniadactylus",
+        "locator": "pp. 159–188, especially 160–179; Figures 1–16; material, geological setting, systematic palaeontology and phylogenetic analysis"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "literature-synthesized"
   },
   {
     "id": "range:pteranodontidae:global",
