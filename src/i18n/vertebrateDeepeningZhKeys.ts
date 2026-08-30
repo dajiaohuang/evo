@@ -1,0 +1,52 @@
+const exactVertebrateDeepeningCopy = new Set<string>([
+  'Waterloo Farm', 'Eastern Cape', 'South Africa', 'Mazon Creek', 'Illinois', 'United States',
+  'Hâdjoula', 'Lebanon', 'Tethys Sea', 'Leijiatun', 'Guizhou', 'China', 'Xiushan', 'Chongqing',
+  'Bergisch Gladbach', 'Germany', 'Achanarras Limestone', 'Scotland', 'Kelamayi Formation', 'Xinjiang',
+  'Baylor County', 'Texas', 'Betsiaka', 'Madagascar', 'Hengdaozi', 'Liaoning',
+  'Petrified Forest National Park', 'Arizona', 'Undetermined', 'Unresolved', 'Unavailable',
+  'Elongate aquatic swimmer; performance was not measured',
+  'Elongate aquatic swimmer; performance not measured',
+  'Large oral disc', 'Fourteen circumoral teeth', 'Branchial basket', 'Elongate scaleless body outline',
+  'Cyclostome soft-tissue traces', 'Hagfish-like anatomical specializations', 'Complete soft-bodied preservation',
+  'Hagfish feeding-apparatus characters', 'Crown-Myxini character combination', 'Non-shedding teeth',
+  'Lingual addition in offset rows', 'Isolated tooth-whorl preservation', 'Minute body scales',
+  'Chondrichthyan-like posterior branchial region', 'Large thoracic armour plates',
+  'Mineralized and unmineralized cartilage', 'Mosaic neurocranial and jaw characters',
+  'Scales and teeth preserved in one slab', 'Imperforate propterygium', 'Imperforate hyomandibular shaft',
+  'Peg-and-socket scales', 'Elongate dorsal fin', 'Scanilepiform cranial and scale characters',
+  'CT-visible endoskeletal characters used in phylogeny', 'Small articulated tetrapod',
+  'Inferred small predator; not directly observed', 'Frog-like and salamander-like cranial mosaic',
+  'Articulated postcranium', 'Batrachian-like character combination', 'Specialized jumping is not supported',
+  'Fifteen presacral vertebrae', 'Retained caudal vertebrae', 'Possible mentomeckelian elements',
+  'Small articulated salamanders', 'Articulated skeletons', 'Larval structures in referred material',
+  'Gymnophionomorph jaw characters', 'Three-dimensional jaws and vertebrae',
+  'Dissorophoid-like cranial character combination', 'Dissorophoids near the living crown',
+  'A revised matrix changes the shortest tree', 'Caecilian sampling reverses one proposed route',
+  'Lamprey and hagfish fossil dossiers', 'Devonian lamprey', 'Carboniferous stem hagfish',
+  'Cretaceous crown hagfish', 'Silurian–Devonian specimen dossiers',
+  'Silurian tooth-whorl chondrichthyan', 'Silurian dermoskeletal chondrichthyan',
+  'Armoured total-group chondrichthyan', 'Devonian mosaic chondrichthyan',
+  'Devonian and Triassic specimen dossiers', 'Eifelian early ray-fin', 'Triassic scanilepiform',
+  'Origin-boundary specimen dossiers', 'Triassic stem caecilian', 'Oligocene aquatic caecilian',
+])
+
+const vertebrateDeepeningMarkers = [
+  'Famennian total-group lamprey', 'oral disc does not', 'Waterloo Farm depositional', '4.2 cm holotype',
+  'AM5750', 'Francis Creek Shale', '62.5–73.3 mm', 'FMNH PF15373', 'Cenomanian hagfish',
+  'Tethyan Lagerstätte', 'figured holotype', 'late Aeronian', 'tooth whorls', 'Rongxi Formation',
+  'isolated tooth whorls', 'IVPP V26641', 'Telychian total-group', 'Huixingshao Formation',
+  'near-complete holotype', 'IVPP V300000', 'Givetian stem chondrichthyan', 'Lower Plattenkalk',
+  'Single compressed specimen', 'Eifelian early ray-finned', 'Achanarras lake', 'Multiple partial specimens',
+  'Named Scottish specimens', 'Middle Triassic scanilepiform', 'cited CT study', 'cited topology studies',
+  'Kelamayi Formation depositional', 'Specimen-dependent', 'IVPP V4096.6', 'Small-prey feeding',
+  'Terrestrial or semiaquatic', 'Small holotype preserved', 'Aquatic or semiaquatic', 'Norian stem gymnophionomorph',
+  'Bonebed depositional', 'disarticulated sample', 'Small-bodied individuals', 'Inferred small predator; unresolved',
+  'Compare temnospondyl', 'sampled morphology topology', 'Marjanović and Laurin', 'Parsimony step difference',
+  'conflict is retained', 'Aquatic body form preserved', 'Aquatic swimmer', 'Aquatic; performance',
+  'Undetermined from the fossil', 'Undetermined by the cited', 'Complete body fossil',
+]
+
+export function hasVertebrateDeepeningTranslation(english: string): boolean {
+  return exactVertebrateDeepeningCopy.has(english)
+    || vertebrateDeepeningMarkers.some((marker) => english.includes(marker))
+}

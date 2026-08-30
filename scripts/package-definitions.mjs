@@ -1,5 +1,5 @@
 export const PACKAGE_SCHEMA_VERSION = 5
-export const DATASET_PACKAGE_VERSION = '2026.08-static-v5-rc32'
+export const DATASET_PACKAGE_VERSION = '2026.08-static-v5-rc34'
 export const DATASET_RELEASE_DATE = '2026-08-30'
 
 export const packageDefinitions = [
@@ -142,11 +142,16 @@ export const packageDefinitions = [
     titleZh: '无颌类与早期有颌鱼类',
     rootEntityIds: ['agnatha', 'placodermi', 'acanthodii'],
     conceptScope: {
-      en: 'COL26.8 accepted-species routing covers the pinned Agnatha and Myxini roots; Myxini now has its own Cyclostomata navigation node. Curated events distinguish placoderm-grade stem gnathostomes, total-group lampreys and stem hagfishes from living crown groups. Myxinikela does not set the crown-Myxini range. The bundled PBDB occurrence rows are a bounded, non-random API-prefix sample and cannot establish FAD, LAD, absence, richness or global distribution; legacy range projections remain unreviewed.',
-      zh: 'COL26.8 已接受物种经固定的无颌类与盲鳗纲根路由到本包；盲鳗纲现已在圆口纲下拥有独立导航节点。已整理事件严格区分盾皮鱼等级的有颌类干群、七鳃鳗总群与盲鳗干群和现生冠群。Myxinikela 不用于设定盲鳗纲冠群延限。包内 PBDB 出现记录是有界、非随机的 API 前缀样本，不能用于确定首现、末现、缺失、丰富度或全球分布；旧版延限投影尚未复核。',
+      en: 'COL26.8 accepted-species routing covers the pinned Agnatha and Myxini roots. A dedicated fossil-evidence route now exposes Priscomyzon, Myxinikela and Tethymyxine as specimen-bounded profiles with field-to-claim links and concrete primary-study locators. Total-group lamprey, stem hagfish and crown-Myxini evidence remain distinct; none of the displayed intervals is promoted to a global origin. The bundled PBDB occurrence rows remain a bounded, non-random API-prefix sample and cannot establish FAD, LAD, absence, richness or global distribution.',
+      zh: 'COL26.8 已接受物种经固定的无颌类与盲鳗纲根路由到本包。新增化石证据导航，以受标本边界约束的档案展示 Priscomyzon、Myxinikela 与 Tethymyxine，并把字段连接到具精确定位符的一手研究。七鳃鳗总群、盲鳗干群与盲鳗冠群证据彼此分开；任何显示区间都不被提升为全球起源。包内 PBDB 出现记录仍是有界、非随机的 API 前缀样本，不能确定首现、末现、缺失、丰富度或全球分布。',
     },
     wave: 'C',
     scientificMaturity: 'structured',
+    limitations: [
+      'Priscomyzon, Myxinikela and Tethymyxine ranges are study-sample envelopes tied to named specimens, not global species durations, direct ancestry or whole-clade first appearances.',
+      'Profile ecology fields explicitly retain unavailable diet, behaviour, habitat-preference and performance evidence rather than filling them from living analogues.',
+      'Other early-fish entity ranges remain legacy navigation displays until a primary study supports the exact taxonomic concept and endpoint.',
+    ],
   },
   {
     id: 'chondrichthyes',
@@ -155,11 +160,16 @@ export const packageDefinitions = [
     titleZh: '软骨鱼类',
     rootEntityIds: ['chondrichthyes'],
     conceptScope: {
-      en: 'COL26.8 accepted-species routing covers living cartilaginous fishes. Curated events document specimen-level stem and total-group evidence from Qianodus, Fanjingshania, Shenacanthus and Gladbachus; none is presented as a crown shark or as the global first appearance of Chondrichthyes. The bundled PBDB occurrence rows are a bounded, non-random API-prefix sample and cannot establish FAD, LAD, absence, richness or global distribution; legacy range projections remain unreviewed.',
-      zh: 'COL26.8 已接受物种路由覆盖现生软骨鱼类。已整理事件记录 Qianodus、Fanjingshania、Shenacanthus 与 Gladbachus 的标本级干群或总群证据；任何一项都不被表述为冠群鲨类或软骨鱼纲全球首现。包内 PBDB 出现记录是有界、非随机的 API 前缀样本，不能用于确定首现、末现、缺失、丰富度或全球分布；旧版延限投影尚未复核。',
+      en: 'COL26.8 accepted-species routing covers living cartilaginous fishes. A new stem-chondrichthyan evidence route exposes Qianodus, Fanjingshania, Shenacanthus and Gladbachus, with rich profiles and field-to-claim links for the three externally resolved taxa. Their isolated whorls, dermal elements, near-complete holotype and compressed CT specimen remain separate samples; none is presented as a crown shark or global Chondrichthyes first appearance. Bundled PBDB rows remain a bounded, non-random API-prefix sample.',
+      zh: 'COL26.8 已接受物种路由覆盖现生软骨鱼类。新增软骨鱼干群证据导航，展示 Qianodus、Fanjingshania、Shenacanthus 与 Gladbachus；其中三个可外部精确解析的类群具有完整档案和字段—主张链接。孤立齿旋、皮质骨片、近完整正模与 CT 检查的压扁标本仍是不同样本；任何一项都不被表述为冠群鲨类或软骨鱼类全球首现。包内 PBDB 记录仍是有界、非随机的 API 前缀样本。',
     },
     wave: 'C',
     scientificMaturity: 'structured',
+    limitations: [
+      'Qianodus, Fanjingshania, Shenacanthus and Gladbachus are connected by a navigation-parent evidence route, not an ancestor sequence or reviewed total-group phylogeny.',
+      'The literature-linked intervals apply to named samples and formations. They do not replace the legacy clade-wide ranges for Chondrichthyes, Elasmobranchii, Holocephali or megalodon.',
+      'Fanjingshania has no exact concept in the pinned PBDB snapshot, so its external identifier remains withheld while the specimen dossier and source-linked range remain browsable.',
+    ],
   },
   {
     id: 'actinopterygii',
@@ -168,11 +178,16 @@ export const packageDefinitions = [
     titleZh: '辐鳍鱼类',
     rootEntityIds: ['actinopterygii'],
     conceptScope: {
-      en: 'Seven primary-evidence dossiers separate specimen-scoped Devonian and Triassic fossils, topology-sensitive recalibration, extant genome and developmental comparisons, and molecular-model intervals. Curated navigation now exposes Neopterygii, Holostei, gars, bowfin, Teleosteomorpha and the deepest living teleost lineages. COL26.8 routes 35,928 strictly accepted species names below exact usage ID 8VR36; that count is nomenclatural browse coverage, not dossier, morphology, ecology, fossil, media, translation or expert-review maturity. Legacy navigation ranges remain unreviewed and are not claim-linked fossil FADs.',
-      zh: '七个一手证据档案严格区分标本限定的泥盆纪与三叠纪化石、依赖拓扑的重新校准、现生基因组与发育比较以及分子模型区间。策展导航现已展示新鳍鱼类、全骨鱼类、雀鳝、弓鳍鱼、真骨鱼总群与现生真骨鱼最深层支系。COL26.8 在精确 usage ID 8VR36 下路由 35,928 个严格接受种名；该数量只表示命名浏览覆盖，不表示档案、形态、生态、化石、媒体、翻译或专家评审成熟度。旧版导航延限仍未复核，也不是有主张关联的化石首现。',
+      en: 'Seven primary-evidence dossiers separate specimen-scoped Devonian and Triassic fossils, topology-sensitive recalibration, extant genome and developmental comparisons, and molecular-model intervals. A new early-actinopterygian evidence route adds field-linked profiles for Cheirolepis trailli and Fukangichthys longidorsalis while keeping occurrence ages separate from the model-dependent crown recalibration. COL26.8 routes 35,928 strictly accepted species names below exact usage ID 8VR36; that nomenclatural coverage is not dossier or expert-review maturity. Other clade-wide navigation ranges remain unreviewed.',
+      zh: '七个一手证据档案严格区分受标本边界约束的泥盆纪与三叠纪化石、依赖拓扑的重新校准、现生基因组与发育比较以及分子模型区间。新增早期辐鳍鱼证据导航，为 Cheirolepis trailli 与 Fukangichthys longidorsalis 提供字段关联档案，同时把化石出现年代与依赖模型的冠群重新校准分开。COL26.8 在精确 usage ID 8VR36 下路由 35,928 个严格接受种名；该命名覆盖不等于档案或专家评审成熟度。其他类群级导航延限仍未复核。',
     },
     wave: 'C',
     scientificMaturity: 'structured',
+    limitations: [
+      'Cheirolepis and Fukangichthys ranges describe the cited museum and formation samples, not global lineage durations or actinopterygian crown ages.',
+      'Fukangichthys occurrence time and the approximately 45-million-year topology-sensitive calibration shift are separate claims and must not be merged.',
+      'Ecology fields remain explicitly bounded where the anatomy and topology studies do not establish diet, habitat preference, locomotor performance or trophic guild.',
+    ],
   },
   {
     id: 'tetrapod-transition',
@@ -203,6 +218,7 @@ export const packageDefinitions = [
       'Gerobatrachus, Triadobatrachus, Funcusvermis, Beiyanerpeton and Ymboirana are specimen occurrences with explicit topology and dating limits; none is asserted to be a direct ancestor or global FAD.',
       'Gymnophionomorpha is a total-group navigation concept; the approximately 25 Ma Gymnophiona crown display bound is provisional because Ymboirana lacks an unambiguous typhlonectid synapomorphy and formal phylogenetic testing.',
       'The Xenopus genome, receptor-knockout experiment and 7,238-species synthetic time tree are present-day datasets or models, not fossil observations, whole-clade genomic coverage or current nomenclatural authority.',
+      'Temnospondyl, lepospondyl and stereospondyl-caecilian origin hypotheses are displayed as competing published matrices with explicit support and contradiction links; the atlas does not choose a consensus topology.',
       'PBDB resolution and occurrence counts are bounded snapshot results and must not be promoted to biological absence or global first-appearance claims.',
     ],
     wave: 'C',

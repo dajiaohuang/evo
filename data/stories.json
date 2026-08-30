@@ -5141,5 +5141,82 @@
       }
     ],
     "evidenceStatus": "available-with-limitations"
+  },
+  {
+    "id": "competing-lissamphibian-origin-hypotheses",
+    "title": "Three tested routes into living amphibians",
+    "titleZh": "现生两栖类起源的三条竞争路线",
+    "dek": "Compare temnospondyl, lepospondyl and stereospondyl-caecilian matrices without turning any sampled topology into a settled ancestor tree.",
+    "theme": "sage",
+    "durationMinutes": 8,
+    "featured": true,
+    "evidenceStatus": "available-with-limitations",
+    "steps": [
+      {
+        "id": "temnospondyl-route",
+        "title": "Dissorophoids near the living crown",
+        "text": "Schoch’s dissorophoid matrix places sampled lissamphibians within Amphibamiformes near Gerobatrachus, while low support and alternative matrices remain visible.",
+        "age": 0,
+        "timeRange": [
+          0,
+          0
+        ],
+        "taxonIds": [
+          "lissamphibia",
+          "temnospondyli"
+        ],
+        "view": "tree",
+        "annotation": "This is a sampled morphology topology, not an observed ancestor or consensus origin.",
+        "claimLinks": [
+          {
+            "claimId": "claim:taxon:lissamphibia:temnospondyl-hypothesis",
+            "relation": "supports"
+          }
+        ]
+      },
+      {
+        "id": "lepospondyl-route",
+        "title": "A revised matrix changes the shortest tree",
+        "text": "Marjanović and Laurin’s corrected and expanded matrix makes the lepospondyl route shorter under their analyses, but bootstrap support is generally low and other matrices disagree.",
+        "age": 0,
+        "timeRange": [
+          0,
+          0
+        ],
+        "taxonIds": [
+          "lissamphibia"
+        ],
+        "view": "tree",
+        "annotation": "Parsimony step difference is analysis-specific and is not translated into probability or consensus.",
+        "claimLinks": [
+          {
+            "claimId": "claim:taxon:lissamphibia:lepospondyl-hypothesis",
+            "relation": "supports"
+          }
+        ]
+      },
+      {
+        "id": "stereospondyl-caecilian-route",
+        "title": "Caecilian sampling reverses one proposed route",
+        "text": "Chinlestegophis linked caecilians to stereospondyls in one analysis; broader Funcusvermis sampling instead recovered a dissorophoid caecilian stem.",
+        "age": 0,
+        "timeRange": [
+          0,
+          0
+        ],
+        "taxonIds": [
+          "lissamphibia",
+          "gymnophionomorpha"
+        ],
+        "view": "evidence",
+        "annotation": "The conflict is retained as two published results rather than resolved editorially.",
+        "claimLinks": [
+          {
+            "claimId": "claim:taxon:lissamphibia:stereospondyl-caecilian-hypothesis",
+            "relation": "supports"
+          }
+        ]
+      }
+    ]
   }
 ]

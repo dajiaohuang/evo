@@ -1,7 +1,7 @@
 {
   "schemaVersion": 5,
   "id": "amphibia",
-  "version": "2026.08-static-v5-rc32",
+  "version": "2026.08-static-v5-rc34",
   "title": "Amphibians",
   "titleZh": "两栖动物",
   "conceptScope": {
@@ -18,14 +18,21 @@
     "anura",
     "caudata",
     "gymnophionomorpha",
-    "gymnophiona"
+    "gymnophiona",
+    "amphibian-fossil-evidence-route",
+    "gerobatrachus",
+    "triadobatrachus",
+    "funcusvermis",
+    "beiyanerpeton",
+    "ymboirana"
   ],
   "canonicalSources": {
     "entityDefinitions": "data/navigation/atlas-ontology.json",
     "ranges": "data/ranges/range-evidence.json",
     "externalResolutions": "data/sources/pbdb-taxon-resolution.json",
     "references": "data/references.json",
-    "occurrences": "data/fossils/*.json"
+    "occurrences": "data/fossils/*.json",
+    "profilesSource": "data/packages/vertebrata/amphibia/profiles.source.json"
   },
   "platformMaturity": "published",
   "scientificMaturity": "structured",
@@ -36,6 +43,7 @@
     "Gerobatrachus, Triadobatrachus, Funcusvermis, Beiyanerpeton and Ymboirana are specimen occurrences with explicit topology and dating limits; none is asserted to be a direct ancestor or global FAD.",
     "Gymnophionomorpha is a total-group navigation concept; the approximately 25 Ma Gymnophiona crown display bound is provisional because Ymboirana lacks an unambiguous typhlonectid synapomorphy and formal phylogenetic testing.",
     "The Xenopus genome, receptor-knockout experiment and 7,238-species synthetic time tree are present-day datasets or models, not fossil observations, whole-clade genomic coverage or current nomenclatural authority.",
+    "Temnospondyl, lepospondyl and stereospondyl-caecilian origin hypotheses are displayed as competing published matrices with explicit support and contradiction links; the atlas does not choose a consensus topology.",
     "PBDB resolution and occurrence counts are bounded snapshot results and must not be promoted to biological absence or global first-appearance claims."
   ]
 }

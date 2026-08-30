@@ -1,12 +1,12 @@
 {
   "schemaVersion": 5,
   "id": "early-fishes",
-  "version": "2026.08-static-v5-rc32",
+  "version": "2026.08-static-v5-rc34",
   "title": "Jawless and Early Jawed Fishes",
   "titleZh": "无颌类与早期有颌鱼类",
   "conceptScope": {
-    "en": "COL26.8 accepted-species routing covers the pinned Agnatha and Myxini roots; Myxini now has its own Cyclostomata navigation node. Curated events distinguish placoderm-grade stem gnathostomes, total-group lampreys and stem hagfishes from living crown groups. Myxinikela does not set the crown-Myxini range. The bundled PBDB occurrence rows are a bounded, non-random API-prefix sample and cannot establish FAD, LAD, absence, richness or global distribution; legacy range projections remain unreviewed.",
-    "zh": "COL26.8 已接受物种经固定的无颌类与盲鳗纲根路由到本包；盲鳗纲现已在圆口纲下拥有独立导航节点。已整理事件严格区分盾皮鱼等级的有颌类干群、七鳃鳗总群与盲鳗干群和现生冠群。Myxinikela 不用于设定盲鳗纲冠群延限。包内 PBDB 出现记录是有界、非随机的 API 前缀样本，不能用于确定首现、末现、缺失、丰富度或全球分布；旧版延限投影尚未复核。"
+    "en": "COL26.8 accepted-species routing covers the pinned Agnatha and Myxini roots. A dedicated fossil-evidence route now exposes Priscomyzon, Myxinikela and Tethymyxine as specimen-bounded profiles with field-to-claim links and concrete primary-study locators. Total-group lamprey, stem hagfish and crown-Myxini evidence remain distinct; none of the displayed intervals is promoted to a global origin. The bundled PBDB occurrence rows remain a bounded, non-random API-prefix sample and cannot establish FAD, LAD, absence, richness or global distribution.",
+    "zh": "COL26.8 已接受物种经固定的无颌类与盲鳗纲根路由到本包。新增化石证据导航，以受标本边界约束的档案展示 Priscomyzon、Myxinikela 与 Tethymyxine，并把字段连接到具精确定位符的一手研究。七鳃鳗总群、盲鳗干群与盲鳗冠群证据彼此分开；任何显示区间都不被提升为全球起源。包内 PBDB 出现记录仍是有界、非随机的 API 前缀样本，不能确定首现、末现、缺失、丰富度或全球分布。"
   },
   "rootEntityIds": [
     "agnatha",
@@ -22,6 +22,10 @@
     "cyclostomata",
     "petromyzontida",
     "myxini",
+    "cyclostome-fossil-evidence-route",
+    "priscomyzon",
+    "myxinikela",
+    "tethymyxine",
     "placodermi",
     "arthrodira",
     "dunkleosteus",
@@ -32,13 +36,17 @@
     "ranges": "data/ranges/range-evidence.json",
     "externalResolutions": "data/sources/pbdb-taxon-resolution.json",
     "references": "data/references.json",
-    "occurrences": "data/fossils/*.json"
+    "occurrences": "data/fossils/*.json",
+    "profilesSource": "data/packages/vertebrata/early-fishes/profiles.source.json"
   },
   "platformMaturity": "published",
   "scientificMaturity": "structured",
   "automatedReviewStatus": "passed",
   "reviewStatus": "not-reviewed",
   "limitations": [
-    "Package dossiers expose the current curated evidence boundary; unavailable fields are explicit and are not inferred."
+    "Package dossiers expose the current curated evidence boundary; unavailable fields are explicit and are not inferred.",
+    "Priscomyzon, Myxinikela and Tethymyxine ranges are study-sample envelopes tied to named specimens, not global species durations, direct ancestry or whole-clade first appearances.",
+    "Profile ecology fields explicitly retain unavailable diet, behaviour, habitat-preference and performance evidence rather than filling them from living analogues.",
+    "Other early-fish entity ranges remain legacy navigation displays until a primary study supports the exact taxonomic concept and endpoint."
   ]
 }

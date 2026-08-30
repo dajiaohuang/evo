@@ -1,12 +1,12 @@
 {
   "schemaVersion": 5,
   "id": "actinopterygii",
-  "version": "2026.08-static-v5-rc32",
+  "version": "2026.08-static-v5-rc34",
   "title": "Ray-finned Fishes",
   "titleZh": "辐鳍鱼类",
   "conceptScope": {
-    "en": "Seven primary-evidence dossiers separate specimen-scoped Devonian and Triassic fossils, topology-sensitive recalibration, extant genome and developmental comparisons, and molecular-model intervals. Curated navigation now exposes Neopterygii, Holostei, gars, bowfin, Teleosteomorpha and the deepest living teleost lineages. COL26.8 routes 35,928 strictly accepted species names below exact usage ID 8VR36; that count is nomenclatural browse coverage, not dossier, morphology, ecology, fossil, media, translation or expert-review maturity. Legacy navigation ranges remain unreviewed and are not claim-linked fossil FADs.",
-    "zh": "七个一手证据档案严格区分标本限定的泥盆纪与三叠纪化石、依赖拓扑的重新校准、现生基因组与发育比较以及分子模型区间。策展导航现已展示新鳍鱼类、全骨鱼类、雀鳝、弓鳍鱼、真骨鱼总群与现生真骨鱼最深层支系。COL26.8 在精确 usage ID 8VR36 下路由 35,928 个严格接受种名；该数量只表示命名浏览覆盖，不表示档案、形态、生态、化石、媒体、翻译或专家评审成熟度。旧版导航延限仍未复核，也不是有主张关联的化石首现。"
+    "en": "Seven primary-evidence dossiers separate specimen-scoped Devonian and Triassic fossils, topology-sensitive recalibration, extant genome and developmental comparisons, and molecular-model intervals. A new early-actinopterygian evidence route adds field-linked profiles for Cheirolepis trailli and Fukangichthys longidorsalis while keeping occurrence ages separate from the model-dependent crown recalibration. COL26.8 routes 35,928 strictly accepted species names below exact usage ID 8VR36; that nomenclatural coverage is not dossier or expert-review maturity. Other clade-wide navigation ranges remain unreviewed.",
+    "zh": "七个一手证据档案严格区分受标本边界约束的泥盆纪与三叠纪化石、依赖拓扑的重新校准、现生基因组与发育比较以及分子模型区间。新增早期辐鳍鱼证据导航，为 Cheirolepis trailli 与 Fukangichthys longidorsalis 提供字段关联档案，同时把化石出现年代与依赖模型的冠群重新校准分开。COL26.8 在精确 usage ID 8VR36 下路由 35,928 个严格接受种名；该命名覆盖不等于档案或专家评审成熟度。其他类群级导航延限仍未复核。"
   },
   "rootEntityIds": [
     "actinopterygii"
@@ -22,20 +22,27 @@
     "elopomorpha",
     "osteoglossomorpha",
     "clupeocephala",
-    "salmoniformes"
+    "salmoniformes",
+    "early-actinopterygian-evidence-route",
+    "cheirolepis-trailli",
+    "fukangichthys"
   ],
   "canonicalSources": {
     "entityDefinitions": "data/navigation/atlas-ontology.json",
     "ranges": "data/ranges/range-evidence.json",
     "externalResolutions": "data/sources/pbdb-taxon-resolution.json",
     "references": "data/references.json",
-    "occurrences": "data/fossils/*.json"
+    "occurrences": "data/fossils/*.json",
+    "profilesSource": "data/packages/vertebrata/actinopterygii/profiles.source.json"
   },
   "platformMaturity": "published",
   "scientificMaturity": "structured",
   "automatedReviewStatus": "passed",
   "reviewStatus": "not-reviewed",
   "limitations": [
-    "Package dossiers expose the current curated evidence boundary; unavailable fields are explicit and are not inferred."
+    "Package dossiers expose the current curated evidence boundary; unavailable fields are explicit and are not inferred.",
+    "Cheirolepis and Fukangichthys ranges describe the cited museum and formation samples, not global lineage durations or actinopterygian crown ages.",
+    "Fukangichthys occurrence time and the approximately 45-million-year topology-sensitive calibration shift are separate claims and must not be merged.",
+    "Ecology fields remain explicitly bounded where the anatomy and topology studies do not establish diet, habitat preference, locomotor performance or trophic guild."
   ]
 }

@@ -1,9 +1,9 @@
 {
   "schemaVersion": 5,
-  "version": "2026.08-static-v5-rc32",
+  "version": "2026.08-static-v5-rc34",
   "schemaStatus": "candidate",
   "packageCount": 24,
-  "entityCount": 366,
+  "entityCount": 384,
   "packages": [
     {
       "id": "atlas-core",
@@ -180,7 +180,7 @@
         "placodermi",
         "acanthodii"
       ],
-      "entityCount": 12,
+      "entityCount": 16,
       "platformMaturity": "published",
       "scientificMaturity": "structured",
       "automatedReviewStatus": "passed",
@@ -196,7 +196,7 @@
       "rootEntityIds": [
         "chondrichthyes"
       ],
-      "entityCount": 4,
+      "entityCount": 9,
       "platformMaturity": "published",
       "scientificMaturity": "structured",
       "automatedReviewStatus": "passed",
@@ -212,7 +212,7 @@
       "rootEntityIds": [
         "actinopterygii"
       ],
-      "entityCount": 11,
+      "entityCount": 14,
       "platformMaturity": "published",
       "scientificMaturity": "structured",
       "automatedReviewStatus": "passed",
@@ -244,7 +244,7 @@
       "rootEntityIds": [
         "amphibia"
       ],
-      "entityCount": 7,
+      "entityCount": 13,
       "platformMaturity": "published",
       "scientificMaturity": "structured",
       "automatedReviewStatus": "passed",
@@ -576,6 +576,10 @@
     "cyclostomata": "early-fishes",
     "petromyzontida": "early-fishes",
     "myxini": "early-fishes",
+    "cyclostome-fossil-evidence-route": "early-fishes",
+    "priscomyzon": "early-fishes",
+    "myxinikela": "early-fishes",
+    "tethymyxine": "early-fishes",
     "gnathostomata": "atlas-core",
     "placodermi": "early-fishes",
     "arthrodira": "early-fishes",
@@ -584,6 +588,11 @@
     "elasmobranchii": "chondrichthyes",
     "carcharocles": "chondrichthyes",
     "holocephali": "chondrichthyes",
+    "stem-chondrichthyan-evidence-route": "chondrichthyes",
+    "qianodus": "chondrichthyes",
+    "fanjingshania": "chondrichthyes",
+    "shenacanthus": "chondrichthyes",
+    "gladbachus": "chondrichthyes",
     "acanthodii": "early-fishes",
     "osteichthyes": "atlas-core",
     "actinopterygii": "actinopterygii",
@@ -597,6 +606,9 @@
     "osteoglossomorpha": "actinopterygii",
     "clupeocephala": "actinopterygii",
     "salmoniformes": "actinopterygii",
+    "early-actinopterygian-evidence-route": "actinopterygii",
+    "cheirolepis-trailli": "actinopterygii",
+    "fukangichthys": "actinopterygii",
     "sarcopterygii": "tetrapod-transition",
     "coelacanthimorpha": "tetrapod-transition",
     "dipnoi": "tetrapod-transition",
@@ -611,6 +623,12 @@
     "caudata": "amphibia",
     "gymnophionomorpha": "amphibia",
     "gymnophiona": "amphibia",
+    "amphibian-fossil-evidence-route": "amphibia",
+    "gerobatrachus": "amphibia",
+    "triadobatrachus": "amphibia",
+    "funcusvermis": "amphibia",
+    "beiyanerpeton": "amphibia",
+    "ymboirana": "amphibia",
     "amniota": "atlas-core",
     "synapsida": "mammal-origins",
     "pelycosauria": "mammal-origins",
