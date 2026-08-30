@@ -6539,7 +6539,8 @@
     "evidenceLevel": "literature-synthesized",
     "confidence": "medium",
     "claimIds": [
-      "claim:event:indohyus-aquatic-raoellid-evidence"
+      "claim:event:indohyus-aquatic-raoellid-evidence",
+      "claim:taxon:indohyus:fossil-range"
     ],
     "referenceLocators": [
       {
@@ -6595,7 +6596,8 @@
     "evidenceLevel": "literature-synthesized",
     "confidence": "medium",
     "claimIds": [
-      "claim:event:ambulocetus-holotype-locomotion"
+      "claim:event:ambulocetus-holotype-locomotion",
+      "claim:taxon:ambulocetus:fossil-range"
     ],
     "referenceLocators": [
       {
@@ -6679,7 +6681,8 @@
     "evidenceLevel": "literature-synthesized",
     "confidence": "medium",
     "claimIds": [
-      "claim:event:aegicetus-holotype-tail-propulsion"
+      "claim:event:aegicetus-holotype-tail-propulsion",
+      "claim:taxon:aegicetus:fossil-range"
     ],
     "referenceLocators": [
       {
@@ -7279,7 +7282,8 @@
     "evidenceLevel": "literature-synthesized",
     "confidence": "medium",
     "claimIds": [
-      "claim:event:purgatorius-garbani-tarsals"
+      "claim:event:purgatorius-garbani-tarsals",
+      "claim:taxon:purgatorius:fossil-range"
     ],
     "referenceLocators": [
       {
@@ -7391,7 +7395,8 @@
     "evidenceLevel": "literature-synthesized",
     "confidence": "high",
     "claimIds": [
-      "claim:event:darwinius-holotype-anatomy"
+      "claim:event:darwinius-holotype-anatomy",
+      "claim:taxon:darwinius:fossil-range"
     ],
     "referenceLocators": [
       {
@@ -7447,7 +7452,8 @@
     "evidenceLevel": "literature-synthesized",
     "confidence": "medium",
     "claimIds": [
-      "claim:event:saadanius-holotype-stem-catarrhine"
+      "claim:event:saadanius-holotype-stem-catarrhine",
+      "claim:taxon:saadanius:fossil-range"
     ],
     "referenceLocators": [
       {
@@ -7825,7 +7831,8 @@
     "evidenceLevel": "literature-synthesized",
     "confidence": "medium",
     "claimIds": [
-      "claim:event:dormaalocyon-dental-tarsal-sample"
+      "claim:event:dormaalocyon-dental-tarsal-sample",
+      "claim:taxon:dormaalocyon:fossil-range"
     ],
     "referenceLocators": [
       {
@@ -7971,7 +7978,8 @@
     "evidenceLevel": "literature-synthesized",
     "confidence": "medium",
     "claimIds": [
-      "claim:event:panthera-blytheae-holotype-total-evidence"
+      "claim:event:panthera-blytheae-holotype-total-evidence",
+      "claim:taxon:panthera-blytheae:fossil-range"
     ],
     "referenceLocators": [
       {
@@ -8261,7 +8269,8 @@
     "evidenceLevel": "literature-synthesized",
     "confidence": "medium",
     "claimIds": [
-      "claim:event:puijila-holotype-locomotor-mosaic"
+      "claim:event:puijila-holotype-locomotor-mosaic",
+      "claim:taxon:puijila:fossil-range"
     ],
     "referenceLocators": [
       {
@@ -8317,7 +8326,8 @@
     "evidenceLevel": "literature-synthesized",
     "confidence": "medium",
     "claimIds": [
-      "claim:event:steropodon-holotype-monotreme"
+      "claim:event:steropodon-holotype-monotreme",
+      "claim:taxon:steropodon:fossil-range"
     ],
     "referenceLocators": [
       {
@@ -8415,7 +8425,8 @@
     "evidenceLevel": "literature-synthesized",
     "confidence": "medium",
     "claimIds": [
-      "claim:event:eomaia-holotype-topology"
+      "claim:event:eomaia-holotype-topology",
+      "claim:taxon:eomaia:fossil-range"
     ],
     "referenceLocators": [
       {
@@ -8635,7 +8646,8 @@
     "evidenceLevel": "literature-synthesized",
     "confidence": "medium",
     "claimIds": [
-      "claim:event:onychonycteris-flight-echolocation"
+      "claim:event:onychonycteris-flight-echolocation",
+      "claim:taxon:onychonycteris:fossil-range"
     ],
     "referenceLocators": [
       {
@@ -11952,5 +11964,89 @@
     ],
     "reviewStatus": "automated-audit-passed",
     "evidenceLevel": "literature-synthesized"
+  },
+  {
+    "id": "range:raranimus:primary-profile-sample",
+    "entityId": "raranimus",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Raranimus dashankouensis holotype occurrence",
+    "geographicScope": "Dashankou locality, Xidagou Formation, Gansu, China",
+    "olderMa": 274.4,
+    "youngerMa": 264.28,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "The broad Roadian–Wordian translation reflects formation-level uncertainty; the source reports no reliable radiometric date and does not establish a global therapsid FAD."
+    },
+    "evidenceBasis": "Named specimen material and its explicitly bounded stratigraphic context in the cited primary study.",
+    "evidenceLevel": "literature-synthesized",
+    "confidence": "medium",
+    "claimIds": [
+      "claim:taxon:raranimus:fossil-range"
+    ],
+    "referenceLocators": [
+      {
+        "referenceId": "liu-2009-raranimus",
+        "locator": "393–399, especially 394–398; Figures 1–3"
+      }
+    ],
+    "reviewStatus": "automated-audit-passed"
+  },
+  {
+    "id": "range:haramiyavia:primary-profile-sample",
+    "entityId": "haramiyavia",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Haramiyavia clemmenseni named specimen occurrences",
+    "geographicScope": "Tait Bjerg Beds, Fleming Fjord Formation, East Greenland",
+    "olderMa": 205.7,
+    "youngerMa": 201.4,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "The Rhaetian display envelope is a formation-level translation for the named material, not the complete range of Haramiyida or a crown-Mammalia calibration."
+    },
+    "evidenceBasis": "Named specimen material and its explicitly bounded stratigraphic context in the cited primary study.",
+    "evidenceLevel": "literature-synthesized",
+    "confidence": "medium",
+    "claimIds": [
+      "claim:taxon:haramiyavia:fossil-range"
+    ],
+    "referenceLocators": [
+      {
+        "referenceId": "luo-2015-haramiyavia",
+        "locator": "E7102–E7108; Figures 1–4; Supplementary Figures S1–S8"
+      }
+    ],
+    "reviewStatus": "automated-audit-passed"
+  },
+  {
+    "id": "range:liaoconodon:primary-profile-sample",
+    "entityId": "liaoconodon",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Liaoconodon hui holotype occurrence",
+    "geographicScope": "Jiufotang Formation, Jianchang, Liaoning, China",
+    "olderMa": 121.4,
+    "youngerMa": 113.2,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "The Aptian envelope is a formation-level navigation translation, not a direct date on IVPP V16051 or the timing of middle-ear detachment across Mammalia."
+    },
+    "evidenceBasis": "Named specimen material and its explicitly bounded stratigraphic context in the cited primary study.",
+    "evidenceLevel": "literature-synthesized",
+    "confidence": "medium",
+    "claimIds": [
+      "claim:taxon:liaoconodon:fossil-range"
+    ],
+    "referenceLocators": [
+      {
+        "referenceId": "meng-2011-liaoconodon-middle-ear",
+        "locator": "181–185; Figures 1–4"
+      }
+    ],
+    "reviewStatus": "automated-audit-passed"
   }
 ]

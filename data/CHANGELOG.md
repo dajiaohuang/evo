@@ -1,5 +1,13 @@
 # Dataset changelog
 
+## 2026.08-static-v5-rc37 — 2026-08-30
+
+- Added fifteen source profiles across `mammal-origins`, `primates`, `carnivora`, `cetartiodactyla` and `other-mammals`. Every visible profile field now projects to a taxon-specific taxonomy, range, biogeography, ecology or morphology claim with a concrete primary-study locator and Chinese confidence rationale.
+- Added direct navigation for *Raranimus*, *Haramiyavia* and *Liaoconodon*, while marking every new edge as navigation-only and retaining the cited studies’ matrix, age and function boundaries rather than presenting the fossils as ancestors or universal transition stages.
+- Connected twelve existing named fossil routes to exact PBDB taxon concepts and specimen-bounded literature ranges without expanding the bundled PBDB occurrence query. Higher clade ranges lacking endpoint evidence remain `legacy-display`; COL naming routes remain separate from fossil and topology claims.
+- Corrected the Primates COL26.8 usage ID from `5V` to `3W7`, and made the `carnivoraformes-dossiers` parent edge explicitly navigational. The accepted-species inventory remains 2,183,133 with zero unmatched, shared unchanged by Web, Android and iOS; app version remains `0.20.0`.
+- Preserved the rc35 Atlas/archosaur chronology, profiles and competing topology hypotheses, the rc36 tetrapod/reptile profiles and evidence boundaries, onboarding, native tests, CAO documentation and every existing lazy translation chunk.
+
 ## 2026.08-static-v5-rc36 — 2026-08-30
 
 - Deepened `tetrapod-transition` with explicit Elpistostege, Tiktaalik, Acanthostega and Ichthyostega navigation, claim-linked primary-study range envelopes and a rich Tiktaalik profile whose taxonomy, range, geography, morphology and ecology fields carry exact locators.

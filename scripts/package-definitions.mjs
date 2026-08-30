@@ -1,5 +1,5 @@
 export const PACKAGE_SCHEMA_VERSION = 5
-export const DATASET_PACKAGE_VERSION = '2026.08-static-v5-rc36'
+export const DATASET_PACKAGE_VERSION = '2026.08-static-v5-rc37'
 export const DATASET_RELEASE_DATE = '2026-08-30'
 
 export const packageDefinitions = [
@@ -285,8 +285,8 @@ export const packageDefinitions = [
     titleZh: '灵长形类与灵长类主证据',
     rootEntityIds: ['primatomorpha'],
     conceptScope: {
-      en: 'Twelve primary-evidence dossiers separate a calibration-sensitive crown-Primate clock model, named Paleocene–Pleistocene specimens, functional or morphology-matrix interpretations, direct radiocarbon ages and ancient-genome demographic models. Primatomorpha, Plesiadapiformes and fossil placements are curated navigation routes rather than a universal tree or ancestor ladder. COL26.8 routes exactly 530 strictly accepted living species names below Primates usage ID 5V; that is current nomenclatural browse coverage, not 530 specimen, fossil, morphology, genome, translation or expert-review dossiers.',
-      zh: '十二个一手证据档案严格区分校准敏感的灵长类冠群分子钟模型、古新世至更新世具名标本、功能或形态矩阵解释、直接放射性碳年代与古基因组人口史模型。灵长形类、更猴型类和化石位置只是策展导航路径，并非通用系统树或祖先阶梯。COL26.8 在灵长目 usage ID 5V 下精确路由 530 个严格接受的现生种名；这只是当前命名浏览覆盖，并不表示已有 530 份标本、化石、形态、基因组、翻译或专家评审档案。',
+      en: 'Twelve primary-evidence dossiers separate a calibration-sensitive crown-Primate clock model, named Paleocene–Pleistocene specimens, functional or morphology-matrix interpretations, direct radiocarbon ages and ancient-genome demographic models. Primatomorpha, Plesiadapiformes and fossil placements are curated navigation routes rather than a universal tree or ancestor ladder. COL26.8 routes exactly 530 strictly accepted living species names below Primates usage ID 3W7; that is current nomenclatural browse coverage, not 530 specimen, fossil, morphology, genome, translation or expert-review dossiers.',
+      zh: '十二个一手证据档案严格区分校准敏感的灵长类冠群分子钟模型、古新世至更新世具名标本、功能或形态矩阵解释、直接放射性碳年代与古基因组人口史模型。灵长形类、更猴型类和化石位置只是策展导航路径，并非通用系统树或祖先阶梯。COL26.8 在灵长目 usage ID 3W7 下精确路由 530 个严格接受的现生种名；这只是当前命名浏览覆盖，并不表示已有 530 份标本、化石、形态、基因组、翻译或专家评审档案。',
     },
     scientificMaturity: 'structured',
     limitations: [

@@ -1,6 +1,6 @@
 {
   "language": "zh",
-  "version": "2026.08-static-v5-rc36",
+  "version": "2026.08-static-v5-rc37",
   "strings": {
     "entity.primatomorpha.name": "灵长形类",
     "entity.plesiadapiformes.name": "更猴型灵长形类",
@@ -23,6 +23,9 @@
     "entity.homo.name": "人属及其近亲",
     "entity.homo_sapiens.name": "现代人类",
     "entity.homo_neanderthalensis.name": "尼安德特人",
+    "profile.purgatorius.name": "古新世炼狱猴样本",
+    "profile.darwinius.name": "梅塞尔达尔文猴",
+    "profile.saadanius.name": "狭鼻猴干群萨达猴标本",
     "claim.claim:event:primate-crown-clock-model.confidenceRationale": "中等置信度反映可复现且取样范围明确的系统发育基因组模型，同时保留深层节点年代对校准策略、时钟模型和化石先验的强依赖。",
     "claim.claim:event:purgatorius-garbani-tarsals.confidenceRationale": "中等置信度把直接保存的踝部解剖，与基于大小、数量和形态的归属，以及功能和系统发育解释分开。",
     "claim.claim:event:altiatlasius-dental-placement-boundary.confidenceRationale": "低置信度针对广义系统位置而非牙齿标本本身；样本少、彼此孤立且内部不均一，后续分析也检验了互不相容的位置。",
@@ -34,6 +37,21 @@
     "claim.claim:event:morotopithecus-moroto-postcranial-model.confidenceRationale": "中等置信度反映细致的测量和比较，同时把跨地点关联、分类归属和功能复原保留为不同推断步骤。",
     "claim.claim:event:dmanisi-skull-five-variation.confidenceRationale": "高置信度适用于标本关联、解剖和地点背景；种级变异解释仍依赖模型与比较样本。",
     "claim.claim:event:vindija-3319-neanderthal-genome.confidenceRationale": "高置信度来自具名标本、记录清楚的提取过程和高覆盖度基因组，同时明确区分直接测年与模型年代。",
-    "claim.claim:event:ust-ishim-genome-admixture-model.confidenceRationale": "高置信度来自重复直接测年、高覆盖度序列和可识别的祖源片段；接触年代、地点和次数仍依赖模型。"
+    "claim.claim:event:ust-ishim-genome-admixture-model.confidenceRationale": "高置信度来自重复直接测年、高覆盖度序列和可识别的祖源片段；接触年代、地点和次数仍依赖模型。",
+    "claim.claim:taxon:purgatorius:taxonomy.confidenceRationale": "古新世炼狱猴样本的分类表述只覆盖具名标本及所引主研究的分析范围；导航归属不表示直系祖先或普适系统树。",
+    "claim.claim:taxon:purgatorius:biogeography.confidenceRationale": "古新世炼狱猴样本的地理字段只投影主研究记录的具体产地，不外推为全球分布、起源中心或完整扩散路径。",
+    "claim.claim:taxon:purgatorius:ecology.confidenceRationale": "古新世炼狱猴样本的生态字段区分保存事实与功能推断；未被标本直接记录的饮食、行为、栖息地或性能均明确保留不确定性。",
+    "claim.claim:taxon:purgatorius:morphology.confidenceRationale": "古新世炼狱猴样本的形态字段限定于主研究列明的具名标本和精确页码、图版或补充材料，不外推到整个支系。",
+    "claim.claim:taxon:purgatorius:fossil-range.confidenceRationale": "古新世炼狱猴样本的年代范围是主研究标本或地层背景的有界投影，不作为全球首现、末现、分化时间或连续谱系时长。",
+    "claim.claim:taxon:darwinius:taxonomy.confidenceRationale": "梅塞尔达尔文猴的分类表述只覆盖具名标本及所引主研究的分析范围；导航归属不表示直系祖先或普适系统树。",
+    "claim.claim:taxon:darwinius:biogeography.confidenceRationale": "梅塞尔达尔文猴的地理字段只投影主研究记录的具体产地，不外推为全球分布、起源中心或完整扩散路径。",
+    "claim.claim:taxon:darwinius:ecology.confidenceRationale": "梅塞尔达尔文猴的生态字段区分保存事实与功能推断；未被标本直接记录的饮食、行为、栖息地或性能均明确保留不确定性。",
+    "claim.claim:taxon:darwinius:morphology.confidenceRationale": "梅塞尔达尔文猴的形态字段限定于主研究列明的具名标本和精确页码、图版或补充材料，不外推到整个支系。",
+    "claim.claim:taxon:darwinius:fossil-range.confidenceRationale": "梅塞尔达尔文猴的年代范围是主研究标本或地层背景的有界投影，不作为全球首现、末现、分化时间或连续谱系时长。",
+    "claim.claim:taxon:saadanius:taxonomy.confidenceRationale": "狭鼻猴干群萨达猴标本的分类表述只覆盖具名标本及所引主研究的分析范围；导航归属不表示直系祖先或普适系统树。",
+    "claim.claim:taxon:saadanius:biogeography.confidenceRationale": "狭鼻猴干群萨达猴标本的地理字段只投影主研究记录的具体产地，不外推为全球分布、起源中心或完整扩散路径。",
+    "claim.claim:taxon:saadanius:ecology.confidenceRationale": "狭鼻猴干群萨达猴标本的生态字段区分保存事实与功能推断；未被标本直接记录的饮食、行为、栖息地或性能均明确保留不确定性。",
+    "claim.claim:taxon:saadanius:morphology.confidenceRationale": "狭鼻猴干群萨达猴标本的形态字段限定于主研究列明的具名标本和精确页码、图版或补充材料，不外推到整个支系。",
+    "claim.claim:taxon:saadanius:fossil-range.confidenceRationale": "狭鼻猴干群萨达猴标本的年代范围是主研究标本或地层背景的有界投影，不作为全球首现、末现、分化时间或连续谱系时长。"
   }
 }
