@@ -4230,5 +4230,320 @@
       }
     ],
     "evidenceStatus": "available-with-limitations"
+  },
+  {
+    "id": "molluscs-brachiopods-evidence-boundaries",
+    "title": "Thirteen dossiers across molluscan and brachiopod body plans",
+    "titleZh": "横跨软体与腕足动物体制的十三个证据档案",
+    "dek": "Move from named fossils to living genomes and experiments while keeping observation, homology, topology and nomenclature separate.",
+    "theme": "ocean",
+    "durationMinutes": 21,
+    "featured": true,
+    "steps": [
+      {
+        "id": "kimberella-body-plan",
+        "title": "A body outline remains mollusc-like, not crown-defined",
+        "text": "More than 35 White Sea specimens preserve bilateral organization and a dorsal cover, but no radula or crown-mollusc diagnosis.",
+        "age": 556.5,
+        "timeRange": [
+          558,
+          555
+        ],
+        "taxonIds": [
+          "molluscan-origin-dossiers",
+          "kimberella"
+        ],
+        "view": "evidence",
+        "eventId": "kimberella-white-sea-morphology",
+        "annotation": "A named Ediacaran sample tests character homology without becoming a direct ancestor or global Mollusca first appearance.",
+        "claimLinks": [
+          {
+            "claimId": "claim:event:kimberella-white-sea-morphology",
+            "relation": "supports"
+          }
+        ]
+      },
+      {
+        "id": "odontogriphus-radula",
+        "title": "Repeated tooth rows make a radula testable",
+        "text": "Across 189 Odontogriphus specimens, paired teeth on a membrane show posterior replacement beside a broad foot and mantle groove.",
+        "age": 506.5,
+        "timeRange": [
+          508,
+          505
+        ],
+        "taxonIds": [
+          "molluscan-origin-dossiers",
+          "odontogriphus"
+        ],
+        "view": "evidence",
+        "eventId": "odontogriphus-radula-sample",
+        "annotation": "The geometry is observed; radular homology and stem-mollusc placement remain comparative conclusions.",
+        "claimLinks": [
+          {
+            "claimId": "claim:event:odontogriphus-radula-sample",
+            "relation": "supports"
+          }
+        ]
+      },
+      {
+        "id": "orthrozanclus-mosaic",
+        "title": "A shell and sclerites occur in one articulated body",
+        "text": "Orthrozanclus combines an anterior shell, three zones of imbricating sclerites and long marginal spines.",
+        "age": 506.5,
+        "timeRange": [
+          508,
+          505
+        ],
+        "taxonIds": [
+          "molluscan-origin-dossiers",
+          "orthrozanclus"
+        ],
+        "view": "tree",
+        "eventId": "orthrozanclus-halwaxiid-mosaic",
+        "annotation": "Halwaxiida is a scored topology, not an observed ancestor chain or secure crown assignment.",
+        "claimLinks": [
+          {
+            "claimId": "claim:event:orthrozanclus-halwaxiid-mosaic",
+            "relation": "supports"
+          }
+        ]
+      },
+      {
+        "id": "pojetaia-shell",
+        "title": "Shell sections separate laminae from nacre",
+        "text": "Pojetaia sections preserve a laminar inner fabric compared with foliated aragonite; undisputed Cambrian nacre is withheld.",
+        "age": 517,
+        "timeRange": [
+          521,
+          513
+        ],
+        "taxonIds": [
+          "bivalvia",
+          "pojetaia"
+        ],
+        "view": "evidence",
+        "eventId": "pojetaia-shell-microstructure",
+        "annotation": "Preservation and homology limit mineral interpretation; the sections do not establish every bivalve shell pathway.",
+        "claimLinks": [
+          {
+            "claimId": "claim:event:pojetaia-shell-microstructure",
+            "relation": "supports"
+          }
+        ]
+      },
+      {
+        "id": "nectocaris-test",
+        "title": "A soft body tests a difficult cephalopod hypothesis",
+        "text": "Nectocaris has paired eyes, fins, two tentacles and a funnel-like structure in ninety newly prepared specimens.",
+        "age": 506.5,
+        "timeRange": [
+          508,
+          505
+        ],
+        "taxonIds": [
+          "molluscan-origin-dossiers",
+          "nectocaris",
+          "cephalopoda"
+        ],
+        "view": "tree",
+        "eventId": "nectocaris-soft-body-cephalopod-test",
+        "annotation": "Missing shell, siphuncle, beak and radula evidence keeps the cephalopod placement explicitly contested.",
+        "claimLinks": [
+          {
+            "claimId": "claim:event:nectocaris-soft-body-cephalopod-test",
+            "relation": "supports"
+          }
+        ]
+      },
+      {
+        "id": "aculifera-matrix",
+        "title": "One phylogenomic matrix recovers Aculifera",
+        "text": "Chitons group with sampled aplacophorans, while gastropods and bivalves form another supported clade in the Kocot et al. analyses.",
+        "age": 0,
+        "timeRange": [
+          0,
+          0
+        ],
+        "taxonIds": [
+          "mollusca",
+          "aculifera",
+          "polyplacophora",
+          "aplacophora"
+        ],
+        "view": "tree",
+        "eventId": "aculifera-phylogenomic-topology",
+        "annotation": "Monoplacophora was absent and some alternatives were not rejected, so the result remains matrix-specific.",
+        "claimLinks": [
+          {
+            "claimId": "claim:event:aculifera-phylogenomic-topology",
+            "relation": "supports"
+          }
+        ]
+      },
+      {
+        "id": "all-class-matrix",
+        "title": "A second matrix adds every major living group",
+        "text": "Fifteen new transcriptomes bring Monoplacophora into an all-class sample that recovers it with Cephalopoda in principal analyses.",
+        "age": 0,
+        "timeRange": [
+          0,
+          0
+        ],
+        "taxonIds": [
+          "mollusca",
+          "monoplacophora",
+          "scaphopoda",
+          "cephalopoda"
+        ],
+        "view": "tree",
+        "eventId": "all-class-mollusc-phylogenomics",
+        "annotation": "Conflicting deep nodes and corrected supplementary figures are retained rather than averaged into false certainty.",
+        "claimLinks": [
+          {
+            "claimId": "claim:event:all-class-mollusc-phylogenomics",
+            "relation": "supports"
+          }
+        ]
+      },
+      {
+        "id": "gastropod-nodal",
+        "title": "Embryos connect Nodal to shell chirality",
+        "text": "Lottia and Biomphalaria express nodal and Pitx on opposite sides; inhibition disrupts pathway output and shell coiling.",
+        "age": 0,
+        "timeRange": [
+          0,
+          0
+        ],
+        "taxonIds": [
+          "gastropoda"
+        ],
+        "view": "evidence",
+        "eventId": "gastropod-nodal-chirality",
+        "annotation": "This living experiment does not directly reconstruct fossil torsion or every gastropod coiling mechanism.",
+        "claimLinks": [
+          {
+            "claimId": "claim:event:gastropod-nodal-chirality",
+            "relation": "supports"
+          }
+        ]
+      },
+      {
+        "id": "octopus-genome",
+        "title": "A genome tests cephalopod novelty without duplication",
+        "text": "One Octopus bimaculoides genome and twelve tissue transcriptomes reveal targeted family expansions and extensive rearrangement.",
+        "age": 0,
+        "timeRange": [
+          0,
+          0
+        ],
+        "taxonIds": [
+          "coleoidea",
+          "octopus-bimaculoides"
+        ],
+        "view": "evidence",
+        "eventId": "octopus-genome-innovation",
+        "annotation": "Comparative association is not a single-gene cause of arms, suckers or neural complexity; whole-genome duplication was not supported.",
+        "claimLinks": [
+          {
+            "claimId": "claim:event:octopus-genome-innovation",
+            "relation": "supports"
+          }
+        ]
+      },
+      {
+        "id": "micrina-reconstruction",
+        "title": "Two isolated sclerite types build a falsifiable model",
+        "text": "Micrina mitral and sellate sclerites have complementary geometry and muscle scars used to reconstruct a sessile bivalved animal.",
+        "age": 525,
+        "timeRange": [
+          530,
+          520
+        ],
+        "taxonIds": [
+          "brachiopod-origin-dossiers",
+          "micrina"
+        ],
+        "view": "evidence",
+        "eventId": "micrina-bivalved-reconstruction",
+        "annotation": "Articulation and valve homology are reconstructions, not a preserved whole organism or settled stem topology.",
+        "claimLinks": [
+          {
+            "claimId": "claim:event:micrina-bivalved-reconstruction",
+            "relation": "supports"
+          }
+        ]
+      },
+      {
+        "id": "kutorgina-soft-parts",
+        "title": "A calcareous brachiopod preserves soft anatomy",
+        "text": "Kutorgina chengjiangensis preserves an early spirolophe, digestive tract and pedicle within paired valves.",
+        "age": 519,
+        "timeRange": [
+          520,
+          518
+        ],
+        "taxonIds": [
+          "brachiopoda",
+          "kutorgina-chengjiangensis"
+        ],
+        "view": "evidence",
+        "eventId": "kutorgina-soft-tissue-anatomy",
+        "annotation": "Direct anatomy informs comparison but does not make Kutorgina the ancestor of living rhynchonelliformeans.",
+        "claimLinks": [
+          {
+            "claimId": "claim:event:kutorgina-soft-tissue-anatomy",
+            "relation": "supports"
+          }
+        ]
+      },
+      {
+        "id": "lingula-multiomics",
+        "title": "A living brachiopod shell is tested across three data layers",
+        "text": "The Lingula genome, staged transcriptomes and shell proteome separate shared components from lineage-specific phosphate-shell proteins.",
+        "age": 0,
+        "timeRange": [
+          0,
+          0
+        ],
+        "taxonIds": [
+          "brachiopoda",
+          "lingula-anatina"
+        ],
+        "view": "evidence",
+        "eventId": "lingula-genome-biomineralization",
+        "annotation": "Shared genes do not imply shell identity, vertebrate bone homology or morphological stasis through the fossil record.",
+        "claimLinks": [
+          {
+            "claimId": "claim:event:lingula-genome-biomineralization",
+            "relation": "supports"
+          }
+        ]
+      },
+      {
+        "id": "yuganotheca-mosaic",
+        "title": "A tube, valves and lophophore resist a simple ladder",
+        "text": "Yuganotheca combines paired agglutinated valves, a horseshoe lophophore, a bipartite tube and a long pedicle.",
+        "age": 519,
+        "timeRange": [
+          520,
+          518
+        ],
+        "taxonIds": [
+          "brachiopod-origin-dossiers",
+          "yuganotheca"
+        ],
+        "view": "tree",
+        "eventId": "yuganotheca-tubular-lophophorate",
+        "annotation": "COL26.8 routes 159,801 accepted living names here; that naming coverage cannot resolve this fossil mosaic or turn thirteen dossiers into an ancestor series.",
+        "claimLinks": [
+          {
+            "claimId": "claim:event:yuganotheca-tubular-lophophorate",
+            "relation": "supports"
+          }
+        ]
+      }
+    ],
+    "evidenceStatus": "available-with-limitations"
   }
 ]

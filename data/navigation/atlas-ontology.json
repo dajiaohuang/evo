@@ -740,6 +740,75 @@
               "entityKind": "historical-grade",
               "contentLevel": "dossier",
               "parentRelationshipKind": "historical-grade-membership"
+            },
+            {
+              "id": "brachiopod-origin-dossiers",
+              "name": "Brachiopod origin dossier route",
+              "commonName": "Stem and early brachiopod evidence",
+              "commonNameZh": "腕足动物干群与早期证据",
+              "rank": "navigation group",
+              "firstAppearance": 530,
+              "lastAppearance": 518,
+              "extinct": true,
+              "children": [
+                {
+                  "id": "micrina",
+                  "name": "Micrina",
+                  "commonName": "Micrina",
+                  "commonNameZh": "小米克里纳虫",
+                  "rank": "genus",
+                  "firstAppearance": 530,
+                  "lastAppearance": 520,
+                  "extinct": true,
+                  "children": [],
+                  "entityKind": "taxon",
+                  "contentLevel": "dossier",
+                  "parentRelationshipKind": "navigation-parent"
+                },
+                {
+                  "id": "yuganotheca",
+                  "name": "Yuganotheca elegans",
+                  "commonName": "Yuganotheca",
+                  "commonNameZh": "玉案山贝",
+                  "rank": "species",
+                  "firstAppearance": 520,
+                  "lastAppearance": 518,
+                  "extinct": true,
+                  "children": [],
+                  "entityKind": "taxon",
+                  "contentLevel": "dossier",
+                  "parentRelationshipKind": "navigation-parent"
+                },
+                {
+                  "id": "kutorgina-chengjiangensis",
+                  "name": "Kutorgina chengjiangensis",
+                  "commonName": "Chengjiang Kutorgina",
+                  "commonNameZh": "澄江顾脱贝",
+                  "rank": "species",
+                  "firstAppearance": 520,
+                  "lastAppearance": 518,
+                  "extinct": true,
+                  "children": [],
+                  "entityKind": "taxon",
+                  "contentLevel": "dossier",
+                  "parentRelationshipKind": "navigation-parent"
+                }
+              ],
+              "entityKind": "navigation-group",
+              "contentLevel": "dossier"
+            },
+            {
+              "id": "lingula-anatina",
+              "name": "Lingula anatina",
+              "commonName": "Duck-bill lamp shell",
+              "commonNameZh": "鸭嘴海豆芽",
+              "rank": "species",
+              "firstAppearance": 0,
+              "lastAppearance": 0,
+              "extinct": false,
+              "children": [],
+              "entityKind": "taxon",
+              "contentLevel": "dossier"
             }
           ],
           "entityKind": "taxon",
@@ -753,7 +822,7 @@
           "commonNameZh": "软体动物",
           "rank": "phylum",
           "taxonId": "txn:7805",
-          "firstAppearance": 540,
+          "firstAppearance": 558,
           "lastAppearance": 0,
           "extinct": false,
           "children": [
@@ -764,7 +833,7 @@
               "commonNameZh": "蛤与牡蛎",
               "rank": "class",
               "taxonId": "txn:16005",
-              "firstAppearance": 520,
+              "firstAppearance": 521,
               "lastAppearance": 0,
               "extinct": false,
               "children": [
@@ -792,6 +861,19 @@
                   "firstAppearance": 250,
                   "lastAppearance": 0,
                   "extinct": false,
+                  "children": [],
+                  "entityKind": "taxon",
+                  "contentLevel": "dossier"
+                },
+                {
+                  "id": "pojetaia",
+                  "name": "Pojetaia runnegari",
+                  "commonName": "Pojetaia",
+                  "commonNameZh": "波杰塔贝",
+                  "rank": "species",
+                  "firstAppearance": 521,
+                  "lastAppearance": 513,
+                  "extinct": true,
                   "children": [],
                   "entityKind": "taxon",
                   "contentLevel": "dossier"
@@ -920,12 +1002,162 @@
                       "children": [],
                       "entityKind": "taxon",
                       "contentLevel": "dossier"
+                    },
+                    {
+                      "id": "octopus-bimaculoides",
+                      "name": "Octopus bimaculoides",
+                      "commonName": "California two-spot octopus",
+                      "commonNameZh": "加州双斑蛸",
+                      "rank": "species",
+                      "firstAppearance": 0,
+                      "lastAppearance": 0,
+                      "extinct": false,
+                      "children": [],
+                      "entityKind": "taxon",
+                      "contentLevel": "dossier"
                     }
                   ],
                   "entityKind": "taxon",
                   "contentLevel": "dossier"
                 }
               ],
+              "entityKind": "taxon",
+              "contentLevel": "dossier"
+            },
+            {
+              "id": "molluscan-origin-dossiers",
+              "name": "Molluscan origin dossier route",
+              "commonName": "Problematic early molluscan evidence",
+              "commonNameZh": "有争议的早期软体动物证据",
+              "rank": "navigation group",
+              "firstAppearance": 558,
+              "lastAppearance": 505,
+              "extinct": true,
+              "children": [
+                {
+                  "id": "kimberella",
+                  "name": "Kimberella quadrata",
+                  "commonName": "Kimberella",
+                  "commonNameZh": "金伯拉虫",
+                  "rank": "species",
+                  "firstAppearance": 558,
+                  "lastAppearance": 555,
+                  "extinct": true,
+                  "children": [],
+                  "entityKind": "taxon",
+                  "contentLevel": "dossier",
+                  "parentRelationshipKind": "navigation-parent"
+                },
+                {
+                  "id": "odontogriphus",
+                  "name": "Odontogriphus omalus",
+                  "commonName": "Odontogriphus",
+                  "commonNameZh": "齿谜虫",
+                  "rank": "species",
+                  "firstAppearance": 508,
+                  "lastAppearance": 505,
+                  "extinct": true,
+                  "children": [],
+                  "entityKind": "taxon",
+                  "contentLevel": "dossier",
+                  "parentRelationshipKind": "navigation-parent"
+                },
+                {
+                  "id": "orthrozanclus",
+                  "name": "Orthrozanclus reburrus",
+                  "commonName": "Orthrozanclus",
+                  "commonNameZh": "毛饰刺甲虫",
+                  "rank": "species",
+                  "firstAppearance": 508,
+                  "lastAppearance": 505,
+                  "extinct": true,
+                  "children": [],
+                  "entityKind": "taxon",
+                  "contentLevel": "dossier",
+                  "parentRelationshipKind": "navigation-parent"
+                },
+                {
+                  "id": "nectocaris",
+                  "name": "Nectocaris pteryx",
+                  "commonName": "Nectocaris",
+                  "commonNameZh": "游盾虫",
+                  "rank": "species",
+                  "firstAppearance": 508,
+                  "lastAppearance": 505,
+                  "extinct": true,
+                  "children": [],
+                  "entityKind": "taxon",
+                  "contentLevel": "dossier",
+                  "parentRelationshipKind": "navigation-parent"
+                }
+              ],
+              "entityKind": "navigation-group",
+              "contentLevel": "dossier"
+            },
+            {
+              "id": "aculifera",
+              "name": "Aculifera",
+              "commonName": "Spiny molluscs",
+              "commonNameZh": "有棘类软体动物",
+              "rank": "clade",
+              "firstAppearance": 520,
+              "lastAppearance": 0,
+              "extinct": false,
+              "children": [
+                {
+                  "id": "polyplacophora",
+                  "name": "Polyplacophora",
+                  "commonName": "Chitons",
+                  "commonNameZh": "多板纲",
+                  "rank": "class",
+                  "firstAppearance": 490,
+                  "lastAppearance": 0,
+                  "extinct": false,
+                  "children": [],
+                  "entityKind": "taxon",
+                  "contentLevel": "dossier"
+                },
+                {
+                  "id": "aplacophora",
+                  "name": "Aplacophora",
+                  "commonName": "Aplacophorans",
+                  "commonNameZh": "无板类",
+                  "rank": "historical grade",
+                  "firstAppearance": 485,
+                  "lastAppearance": 0,
+                  "extinct": false,
+                  "children": [],
+                  "entityKind": "historical-grade",
+                  "contentLevel": "dossier",
+                  "parentRelationshipKind": "historical-grade-membership"
+                }
+              ],
+              "entityKind": "taxon",
+              "contentLevel": "dossier"
+            },
+            {
+              "id": "monoplacophora",
+              "name": "Monoplacophora",
+              "commonName": "Monoplacophorans",
+              "commonNameZh": "单板纲",
+              "rank": "class",
+              "firstAppearance": 480,
+              "lastAppearance": 0,
+              "extinct": false,
+              "children": [],
+              "entityKind": "taxon",
+              "contentLevel": "dossier"
+            },
+            {
+              "id": "scaphopoda",
+              "name": "Scaphopoda",
+              "commonName": "Tusk shells",
+              "commonNameZh": "掘足纲",
+              "rank": "class",
+              "firstAppearance": 480,
+              "lastAppearance": 0,
+              "extinct": false,
+              "children": [],
               "entityKind": "taxon",
               "contentLevel": "dossier"
             }

@@ -1,5 +1,5 @@
 export const PACKAGE_SCHEMA_VERSION = 5
-export const DATASET_PACKAGE_VERSION = '2026.08-static-v5-rc29'
+export const DATASET_PACKAGE_VERSION = '2026.08-static-v5-rc30'
 export const DATASET_RELEASE_DATE = '2026-08-30'
 
 export const packageDefinitions = [
@@ -77,6 +77,21 @@ export const packageDefinitions = [
     title: 'Molluscs, Brachiopods and Graptolites (teaching collection)',
     titleZh: '软体动物、腕足动物与笔石（教学集合）',
     rootEntityIds: ['mollusca', 'brachiopoda', 'graptolithina'],
+    conceptScope: {
+      en: 'Thirteen bilingual primary-evidence dossiers separate Ediacaran and Cambrian body fossils, radula and shell observations, sampled phylogenomic topologies, living developmental experiments and genome comparisons. Kimberella, Odontogriphus, Orthrozanclus and Nectocaris remain interpretation-bounded navigation records rather than silently accepted crown molluscs. Aculifera, Polyplacophora, Aplacophora, Monoplacophora and Scaphopoda provide explicit browse routes for the major living molluscan body plans. Micrina and Yuganotheca are routed as stem or mixed-character brachiopod hypotheses, while Kutorgina and Lingula preserve distinct fossil-anatomy and living-genome evidence. COL26.8 routes exactly 159,801 accepted living species names through the package; that nomenclatural count is not 159,801 mature dossiers and does not establish fossil ranges, topology or expert review.',
+      zh: '十三个双语一手证据档案严格区分埃迪卡拉纪与寒武纪实体化石、齿舌和壳体观察、采样系统基因组拓扑、现生发育实验与基因组比较。金伯拉虫、齿谜虫、毛饰刺甲虫和游盾虫仍是具有解释边界的导航记录，不会被暗中认定为软体动物冠群。有棘类、多板纲、无板类、单板纲与掘足纲为主要现生软体动物体制提供明确浏览路径。小米克里纳虫和玉案山贝按干群或混合性状腕足动物假说路由，顾脱贝与海豆芽则分别承载化石解剖和现生基因组证据。COL26.8 恰好把 159,801 个现生接受种名路由到本包；该命名计数不等于 159,801 个成熟档案，也不能确定化石延限、拓扑或专家评审。',
+    },
+    scientificMaturity: 'structured',
+    limitations: [
+      'Kimberella, Odontogriphus, Orthrozanclus and Nectocaris preserve character combinations interpreted in competing ways. Their navigation placement supports discovery only and does not assert crown membership, direct ancestry or a global first appearance.',
+      'Kocot et al. and Smith et al. sampled different transcriptomic matrices and recovered partly different conchiferan relationships. Both are retained as published topologies rather than merged into a false consensus.',
+      'The Lottia and Biomphalaria Nodal experiment addresses left–right developmental asymmetry in two gastropods; it does not directly reconstruct torsion in the molluscan ancestor or every shell-coiling mechanism.',
+      'Pojetaia shell fabrics support a bounded biomineralization comparison. Laminar structure, foliated aragonite and nacre homology remain distinct observations and interpretations.',
+      'Micrina valve homology, Yuganotheca stem position and the affinities of tommotiids are topology and homology hypotheses. Kutorgina and Chengjiang lophophore records directly preserve anatomy but do not make separate taxa an ancestor series.',
+      'Lingula genome, transcriptome and shell proteome comparisons test living biomineralization mechanisms; they do not imply morphological stasis or demonstrate the exact mechanism of Cambrian shells.',
+      'COL26.8 accepted-species routing is a naming-only snapshot. Graptolithina remains in this historical teaching package but receives no new mollusc or brachiopod affinity claim; bundled PBDB records remain bounded, non-random samples.',
+      'Entity-wide first-appearance fields are legacy navigation envelopes unless a dossier explicitly links a named occurrence. They must not be read as global FADs, divergence dates or continuous lineage durations.',
+    ],
     wave: 'D',
   },
   {
