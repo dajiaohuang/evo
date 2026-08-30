@@ -13,7 +13,9 @@ Evo Atlas 不是一个把生成文本包装成“完整百科”的项目。它�
 - 名录覆盖：固定到 Catalogue of Life Base Release `COL26.8`。2,183,133 个严格接受种全部能沿真实父子链路由到唯一资源归属，另有 2,065,436 个异名、歧义异名和误用名可解析到接受名。
 - 内容覆盖：24 个静态资源包中的证据档案、事件、故事、范围和参考文献。每个包单独声明 `generated-scaffold`、`structured`、`source-linked`、`curated-draft` 或 `published`，名录路由完整不等于内容已经完成。
 
-当前已发布数据快照为 `2026.08-static-v5-rc28`，开发中的 Web/移动客户端版本为 `0.19.0`。精确记录数、校验和和限制以 [`data/manifest.json`](data/manifest.json) 为准；科学内容变更见 [`data/CHANGELOG.md`](data/CHANGELOG.md)。
+当前已发布数据快照为 `2026.08-static-v5-rc29`，开发中的 Web/移动客户端版本为 `0.19.0`。精确记录数、校验和和限制以 [`data/manifest.json`](data/manifest.json) 为准；科学内容变更见 [`data/CHANGELOG.md`](data/CHANGELOG.md)。
+
+`rc29` 将“海绵与刺胞动物”从生成脚手架提升为结构化主证据包：14 份双语档案覆盖成岩甾烷、埃迪卡拉纪与寒武纪具名化石、现生基因组与系统发育样本、刺胞动物主要支系以及石珊瑚分子钟和光共生代用指标。档案明确区分观测、分类归属、系统位置、模型年龄和生态推断；COL26.8 的 30,521 个严格接受种仍只承诺命名路由，不冒充逐物种证据档案。
 
 ## 用户能做什么
 
@@ -28,7 +30,7 @@ Evo Atlas 不是一个把生成文本包装成“完整百科”的项目。它�
 ### 物种、生命树与内容包
 
 - 搜索完整的 `COL26.8` 接受种及解析名称，并在内部页面查看固定版本的祖先链和直接子级。
-- 查看 297 个策展导航实体、24 个资源包及其实际科学成熟度。
+- 查看 315 个策展导航实体、24 个资源包及其实际科学成熟度。
 - 在导航树、范围、径向树和校准证据之间切换；追踪谱系、折叠支系并导出 Newick/Nexus。
 - 将命名学位置、导航节点、系统发育假说、化石首现和分子钟分化时间作为不同类型的信息阅读。
 
@@ -104,7 +106,7 @@ npm run mobile:ios
 
 `npm run mobile:build` 只生成 `dist-mobile/`；`mobile:sync` 再把该壳和插件配置复制到 `android/` 与 `ios/`。不要手改原生工程中被 `.gitignore` 排除的 Web 产物。应用 ID 为 `io.github.dajiaohuang.evoatlas`，自定义深链示例为：
 
-安装后的“数据”页提供两级离线能力：单个/全部资源包下载适合日常使用；“保存完整图谱”会保存 Core、全部资源包、全局化石、全部 CAO2024 帧和完整 COL 名录。当前 rc28 的完整交互数据体积与文件数以版本化发布清单为准；以后版本会按发布清单显示实际体积。重复的 ZIP 导出包不计入离线交互集。
+安装后的“数据”页提供两级离线能力：单个/全部资源包下载适合日常使用；“保存完整图谱”会保存 Core、全部资源包、全局化石、全部 CAO2024 帧和完整 COL 名录。当前 rc29 的完整交互数据体积与文件数以版本化发布清单为准；以后版本会按发布清单显示实际体积。重复的 ZIP 导出包不计入离线交互集。
 
 ```text
 evoatlas://open/stories?id=angiosperm-evidence-boundaries
@@ -207,4 +209,4 @@ Evo Atlas 没有账号、广告、分析 SDK 或应用后端。笔记、收藏�
 
 ## English summary
 
-Evo Atlas is a bilingual, static-first deep-time evidence explorer for Web, Android and iOS. The dashboard synchronizes geological time, six distinct CAO2024 reconstruction layers, fossil samples, a 297-entity navigation tree and claim-level evidence. The rc28 Dinosauria package adds twelve primary-evidence dossiers without duplicating the Avialae/flight and living-bird boundary owned by crocodylomorphs-birds. The pinned COL26.8 registry routes all 2,183,133 strictly accepted species to one resource owner, while package maturity remains separately disclosed. Android and iOS are Capacitor 8 projects sharing the same React client; the native shell is bundled, and large versioned scientific data remains checksum-verified and demand-loaded from the public GitHub Pages release. No account, analytics SDK, private API key, database or application server is required.
+Evo Atlas is a bilingual, static-first deep-time evidence explorer for Web, Android and iOS. The dashboard synchronizes geological time, six distinct CAO2024 reconstruction layers, fossil samples, a 315-entity navigation tree and claim-level evidence. The rc29 Sponges and Cnidarians package adds fourteen primary-evidence dossiers while keeping biomarker attribution, fossil anatomy, competing animal-root topologies, molecular-clock models and geochemical proxies as distinct evidence levels. The pinned COL26.8 registry routes all 2,183,133 strictly accepted species to one resource owner, while package maturity remains separately disclosed. Android and iOS are Capacitor 8 projects sharing the same React client; the native shell is bundled, and large versioned scientific data remains checksum-verified and demand-loaded from the public GitHub Pages release. No account, analytics SDK, private API key, database or application server is required.

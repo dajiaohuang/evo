@@ -1,5 +1,13 @@
 # Dataset changelog
 
+## 2026.08-static-v5-rc29 — 2026-08-30
+
+- Replaced the Sponges and Cnidarians generated scaffold with fourteen bilingual primary-evidence dossiers and a fourteen-step evidence story spanning Cryogenian biomarker debates, named Ediacaran–Cambrian fossils, living genomes and phylogenomic samples, Myxozoa, medusozoan body plans, coral divergence models and Triassic photosymbiosis proxies.
+- Added nineteen primary research references and claim-linked locators. The evidence model keeps measured steranes separate from demosponge source attribution, specimen anatomy separate from crown placement or direct ancestry, competing Porifera-sister and Ctenophora-sister analyses side by side, and molecular-clock or geochemical inferences separate from fossil observation.
+- Added eighteen curated navigation concepts for sponge classes and exemplar fossils, Medusozoa and its principal living classes, Burgessomedusa, Myxozoa, Octocorallia and Hexacorallia. Their browse edges are not asserted as a universal phylogeny; unresolved external identifiers are explicitly withheld pending reconciliation.
+- Preserved exact COL26.8 nomenclatural routing for 30,521 strictly accepted species through Porifera usage ID `B8TXQ` and Cnidaria usage ID `CN2`, with 2,183,133 accepted species assigned globally and zero unmatched, ambiguous or broken accepted lineages. Catalogue routing remains distinct from dossier maturity.
+- Added the independently lazy-loaded `spongesCnidariansZh` Chinese chunk, rebuilt all canonical projections, package shards, occurrence linkage indexes and the checksum manifest, and advanced the static dataset to `2026.08-static-v5-rc29` while retaining client version `0.19.0`.
+
 ## 2026.08-static-v5-rc28 — 2026-08-30
 
 - Replaced the Dinosauria scaffold with twelve bilingual primary-evidence dossiers: competing early-dinosaur matrices, named Triassic–Cretaceous specimens, ontogenetic and biomechanical models, histology, reproductive association and taphonomy.

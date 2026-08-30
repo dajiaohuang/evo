@@ -1,5 +1,5 @@
 export const PACKAGE_SCHEMA_VERSION = 5
-export const DATASET_PACKAGE_VERSION = '2026.08-static-v5-rc28'
+export const DATASET_PACKAGE_VERSION = '2026.08-static-v5-rc29'
 export const DATASET_RELEASE_DATE = '2026-08-30'
 
 export const packageDefinitions = [
@@ -57,6 +57,18 @@ export const packageDefinitions = [
     title: 'Sponges and Cnidarians',
     titleZh: '海绵与刺胞动物',
     rootEntityIds: ['porifera', 'cnidaria'],
+    conceptScope: {
+      en: 'Fourteen primary-evidence dossiers separate Cryogenian sterane occurrence from source attribution, named Ediacaran and Cambrian specimens from topology, living phylogenomic samples from universal trees, and coral clock or proxy results from fossil observations. Navigation adds eighteen living and fossil concepts as curated browse routes. COL26.8 routes exactly 30,521 strictly accepted living species names through Porifera usage ID B8TXQ and Cnidaria usage ID CN2; this is nomenclatural coverage, not 30,521 mature dossiers.',
+      zh: '十四个一手证据档案严格区分成冰纪甾烷出现与来源归属、埃迪卡拉纪和寒武纪具名标本与系统位置、现生系统基因组样本与通用系统树，以及珊瑚分子钟或代用指标结果与化石观察。导航新增十八个现生和化石概念作为策展浏览路线。COL26.8 经海绵动物门 usage ID B8TXQ 与刺胞动物门 usage ID CN2 精确路由 30,521 个严格接受的现生种名；这是命名覆盖，并非 30,521 份成熟档案。',
+    },
+    scientificMaturity: 'structured',
+    limitations: [
+      'Cryogenian C30 steranes are measured geochemical occurrences, but Rhizaria and other possible producers prevent unique assignment to Demospongiae; the package does not use them as a sponge FAD.',
+      'Eocyathispongia, Helicolocellus, Auroralumina, Haootia, Xianguangia and Burgessomedusa are bounded specimens or assemblages with explicit anatomical and topology limits; none is presented as a direct ancestor or permanent global first appearance.',
+      'Porifera-sister and Ctenophora-sister both have genome-scale primary support under different datasets and models. The navigation hierarchy is not promoted to a resolved animal-root phylogeny.',
+      'The Paleozoic scleractinian interval is a relaxed-clock model and the Late-Triassic photosymbiosis case uses skeletal proxies; neither substitutes for a directly observed fossil organism or symbiont.',
+      'COL26.8 routes exactly 30,521 accepted living species names to this package. That count does not grade fossil, morphology, ecology, media, translation or external expert-review maturity.',
+    ],
     wave: 'D',
   },
   {

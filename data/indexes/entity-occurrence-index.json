@@ -35,11 +35,29 @@
         "porifera",
         "stromatoporoidea",
         "demospongiae",
+        "amphimedon_queenslandica",
+        "hexactinellida",
+        "helicolocellus",
+        "calcarea",
+        "homoscleromorpha",
+        "eocyathispongia",
         "cnidaria",
         "anthozoa",
         "rugosa",
         "tabulata",
         "scleractinia",
+        "octocorallia",
+        "hexacorallia",
+        "auroralumina",
+        "haootia",
+        "xianguangia",
+        "medusozoa",
+        "hydrozoa",
+        "staurozoa",
+        "cubozoa",
+        "scyphozoa",
+        "burgessomedusa",
+        "myxozoa",
         "brachiopoda",
         "articulata",
         "spiriferida",
@@ -1045,11 +1063,29 @@
         "porifera",
         "stromatoporoidea",
         "demospongiae",
+        "amphimedon_queenslandica",
+        "hexactinellida",
+        "helicolocellus",
+        "calcarea",
+        "homoscleromorpha",
+        "eocyathispongia",
         "cnidaria",
         "anthozoa",
         "rugosa",
         "tabulata",
         "scleractinia",
+        "octocorallia",
+        "hexacorallia",
+        "auroralumina",
+        "haootia",
+        "xianguangia",
+        "medusozoa",
+        "hydrozoa",
+        "staurozoa",
+        "cubozoa",
+        "scyphozoa",
+        "burgessomedusa",
+        "myxozoa",
         "brachiopoda",
         "articulata",
         "spiriferida",
@@ -1218,7 +1254,13 @@
       "queryStatus": "resolved-and-observed",
       "descendantEntityIds": [
         "stromatoporoidea",
-        "demospongiae"
+        "demospongiae",
+        "amphimedon_queenslandica",
+        "hexactinellida",
+        "helicolocellus",
+        "calcarea",
+        "homoscleromorpha",
+        "eocyathispongia"
       ],
       "descendantTaxonIds": [
         "txn:2894",
@@ -1286,7 +1328,9 @@
       "scientificNameNormalized": "demospongiae",
       "externalResolutionStatus": "resolved-exact",
       "queryStatus": "resolved-and-observed",
-      "descendantEntityIds": [],
+      "descendantEntityIds": [
+        "amphimedon_queenslandica"
+      ],
       "descendantTaxonIds": [
         "txn:2895"
       ],
@@ -1311,6 +1355,128 @@
       ],
       "matchedTotal": 87
     },
+    "amphimedon_queenslandica": {
+      "entityId": "amphimedon_queenslandica",
+      "entityKind": "taxon",
+      "externalTaxonId": null,
+      "scientificNameNormalized": "amphimedon queenslandica",
+      "externalResolutionStatus": "not-found",
+      "queryStatus": "external-id-unresolved",
+      "descendantEntityIds": [],
+      "descendantTaxonIds": [],
+      "descendantScientificNames": [],
+      "matchMethods": {
+        "exactExternalId": 0,
+        "acceptedName": 0,
+        "higherClassification": 0
+      },
+      "completeSnapshotAvailable": false,
+      "completeSnapshotRows": null,
+      "periods": [],
+      "matchedTotal": 0
+    },
+    "hexactinellida": {
+      "entityId": "hexactinellida",
+      "entityKind": "taxon",
+      "externalTaxonId": null,
+      "scientificNameNormalized": "hexactinellida",
+      "externalResolutionStatus": "not-found",
+      "queryStatus": "external-id-unresolved",
+      "descendantEntityIds": [
+        "helicolocellus"
+      ],
+      "descendantTaxonIds": [],
+      "descendantScientificNames": [],
+      "matchMethods": {
+        "exactExternalId": 0,
+        "acceptedName": 0,
+        "higherClassification": 0
+      },
+      "completeSnapshotAvailable": false,
+      "completeSnapshotRows": null,
+      "periods": [],
+      "matchedTotal": 0
+    },
+    "helicolocellus": {
+      "entityId": "helicolocellus",
+      "entityKind": "taxon",
+      "externalTaxonId": null,
+      "scientificNameNormalized": "helicolocellus",
+      "externalResolutionStatus": "not-found",
+      "queryStatus": "external-id-unresolved",
+      "descendantEntityIds": [],
+      "descendantTaxonIds": [],
+      "descendantScientificNames": [],
+      "matchMethods": {
+        "exactExternalId": 0,
+        "acceptedName": 0,
+        "higherClassification": 0
+      },
+      "completeSnapshotAvailable": false,
+      "completeSnapshotRows": null,
+      "periods": [],
+      "matchedTotal": 0
+    },
+    "calcarea": {
+      "entityId": "calcarea",
+      "entityKind": "taxon",
+      "externalTaxonId": null,
+      "scientificNameNormalized": "calcarea",
+      "externalResolutionStatus": "not-found",
+      "queryStatus": "external-id-unresolved",
+      "descendantEntityIds": [],
+      "descendantTaxonIds": [],
+      "descendantScientificNames": [],
+      "matchMethods": {
+        "exactExternalId": 0,
+        "acceptedName": 0,
+        "higherClassification": 0
+      },
+      "completeSnapshotAvailable": false,
+      "completeSnapshotRows": null,
+      "periods": [],
+      "matchedTotal": 0
+    },
+    "homoscleromorpha": {
+      "entityId": "homoscleromorpha",
+      "entityKind": "taxon",
+      "externalTaxonId": null,
+      "scientificNameNormalized": "homoscleromorpha",
+      "externalResolutionStatus": "not-found",
+      "queryStatus": "external-id-unresolved",
+      "descendantEntityIds": [],
+      "descendantTaxonIds": [],
+      "descendantScientificNames": [],
+      "matchMethods": {
+        "exactExternalId": 0,
+        "acceptedName": 0,
+        "higherClassification": 0
+      },
+      "completeSnapshotAvailable": false,
+      "completeSnapshotRows": null,
+      "periods": [],
+      "matchedTotal": 0
+    },
+    "eocyathispongia": {
+      "entityId": "eocyathispongia",
+      "entityKind": "taxon",
+      "externalTaxonId": null,
+      "scientificNameNormalized": "eocyathispongia",
+      "externalResolutionStatus": "not-found",
+      "queryStatus": "external-id-unresolved",
+      "descendantEntityIds": [],
+      "descendantTaxonIds": [],
+      "descendantScientificNames": [],
+      "matchMethods": {
+        "exactExternalId": 0,
+        "acceptedName": 0,
+        "higherClassification": 0
+      },
+      "completeSnapshotAvailable": false,
+      "completeSnapshotRows": null,
+      "periods": [],
+      "matchedTotal": 0
+    },
     "cnidaria": {
       "entityId": "cnidaria",
       "entityKind": "taxon",
@@ -1322,7 +1488,19 @@
         "anthozoa",
         "rugosa",
         "tabulata",
-        "scleractinia"
+        "scleractinia",
+        "octocorallia",
+        "hexacorallia",
+        "auroralumina",
+        "haootia",
+        "xianguangia",
+        "medusozoa",
+        "hydrozoa",
+        "staurozoa",
+        "cubozoa",
+        "scyphozoa",
+        "burgessomedusa",
+        "myxozoa"
       ],
       "descendantTaxonIds": [
         "txn:4524",
@@ -1366,7 +1544,9 @@
       "descendantEntityIds": [
         "rugosa",
         "tabulata",
-        "scleractinia"
+        "scleractinia",
+        "octocorallia",
+        "hexacorallia"
       ],
       "descendantTaxonIds": [
         "txn:4742",
@@ -1467,6 +1647,252 @@
         "Neogene"
       ],
       "matchedTotal": 101
+    },
+    "octocorallia": {
+      "entityId": "octocorallia",
+      "entityKind": "taxon",
+      "externalTaxonId": null,
+      "scientificNameNormalized": "octocorallia",
+      "externalResolutionStatus": "not-found",
+      "queryStatus": "external-id-unresolved",
+      "descendantEntityIds": [],
+      "descendantTaxonIds": [],
+      "descendantScientificNames": [],
+      "matchMethods": {
+        "exactExternalId": 0,
+        "acceptedName": 0,
+        "higherClassification": 0
+      },
+      "completeSnapshotAvailable": false,
+      "completeSnapshotRows": null,
+      "periods": [],
+      "matchedTotal": 0
+    },
+    "hexacorallia": {
+      "entityId": "hexacorallia",
+      "entityKind": "taxon",
+      "externalTaxonId": null,
+      "scientificNameNormalized": "hexacorallia",
+      "externalResolutionStatus": "not-found",
+      "queryStatus": "external-id-unresolved",
+      "descendantEntityIds": [],
+      "descendantTaxonIds": [],
+      "descendantScientificNames": [],
+      "matchMethods": {
+        "exactExternalId": 0,
+        "acceptedName": 0,
+        "higherClassification": 0
+      },
+      "completeSnapshotAvailable": false,
+      "completeSnapshotRows": null,
+      "periods": [],
+      "matchedTotal": 0
+    },
+    "auroralumina": {
+      "entityId": "auroralumina",
+      "entityKind": "taxon",
+      "externalTaxonId": null,
+      "scientificNameNormalized": "auroralumina",
+      "externalResolutionStatus": "not-found",
+      "queryStatus": "external-id-unresolved",
+      "descendantEntityIds": [],
+      "descendantTaxonIds": [],
+      "descendantScientificNames": [],
+      "matchMethods": {
+        "exactExternalId": 0,
+        "acceptedName": 0,
+        "higherClassification": 0
+      },
+      "completeSnapshotAvailable": false,
+      "completeSnapshotRows": null,
+      "periods": [],
+      "matchedTotal": 0
+    },
+    "haootia": {
+      "entityId": "haootia",
+      "entityKind": "taxon",
+      "externalTaxonId": null,
+      "scientificNameNormalized": "haootia",
+      "externalResolutionStatus": "not-found",
+      "queryStatus": "external-id-unresolved",
+      "descendantEntityIds": [],
+      "descendantTaxonIds": [],
+      "descendantScientificNames": [],
+      "matchMethods": {
+        "exactExternalId": 0,
+        "acceptedName": 0,
+        "higherClassification": 0
+      },
+      "completeSnapshotAvailable": false,
+      "completeSnapshotRows": null,
+      "periods": [],
+      "matchedTotal": 0
+    },
+    "xianguangia": {
+      "entityId": "xianguangia",
+      "entityKind": "taxon",
+      "externalTaxonId": null,
+      "scientificNameNormalized": "xianguangia",
+      "externalResolutionStatus": "not-found",
+      "queryStatus": "external-id-unresolved",
+      "descendantEntityIds": [],
+      "descendantTaxonIds": [],
+      "descendantScientificNames": [],
+      "matchMethods": {
+        "exactExternalId": 0,
+        "acceptedName": 0,
+        "higherClassification": 0
+      },
+      "completeSnapshotAvailable": false,
+      "completeSnapshotRows": null,
+      "periods": [],
+      "matchedTotal": 0
+    },
+    "medusozoa": {
+      "entityId": "medusozoa",
+      "entityKind": "taxon",
+      "externalTaxonId": null,
+      "scientificNameNormalized": "medusozoa",
+      "externalResolutionStatus": "not-found",
+      "queryStatus": "external-id-unresolved",
+      "descendantEntityIds": [
+        "hydrozoa",
+        "staurozoa",
+        "cubozoa",
+        "scyphozoa",
+        "burgessomedusa"
+      ],
+      "descendantTaxonIds": [],
+      "descendantScientificNames": [],
+      "matchMethods": {
+        "exactExternalId": 0,
+        "acceptedName": 0,
+        "higherClassification": 0
+      },
+      "completeSnapshotAvailable": false,
+      "completeSnapshotRows": null,
+      "periods": [],
+      "matchedTotal": 0
+    },
+    "hydrozoa": {
+      "entityId": "hydrozoa",
+      "entityKind": "taxon",
+      "externalTaxonId": null,
+      "scientificNameNormalized": "hydrozoa",
+      "externalResolutionStatus": "not-found",
+      "queryStatus": "external-id-unresolved",
+      "descendantEntityIds": [],
+      "descendantTaxonIds": [],
+      "descendantScientificNames": [],
+      "matchMethods": {
+        "exactExternalId": 0,
+        "acceptedName": 0,
+        "higherClassification": 0
+      },
+      "completeSnapshotAvailable": false,
+      "completeSnapshotRows": null,
+      "periods": [],
+      "matchedTotal": 0
+    },
+    "staurozoa": {
+      "entityId": "staurozoa",
+      "entityKind": "taxon",
+      "externalTaxonId": null,
+      "scientificNameNormalized": "staurozoa",
+      "externalResolutionStatus": "not-found",
+      "queryStatus": "external-id-unresolved",
+      "descendantEntityIds": [],
+      "descendantTaxonIds": [],
+      "descendantScientificNames": [],
+      "matchMethods": {
+        "exactExternalId": 0,
+        "acceptedName": 0,
+        "higherClassification": 0
+      },
+      "completeSnapshotAvailable": false,
+      "completeSnapshotRows": null,
+      "periods": [],
+      "matchedTotal": 0
+    },
+    "cubozoa": {
+      "entityId": "cubozoa",
+      "entityKind": "taxon",
+      "externalTaxonId": null,
+      "scientificNameNormalized": "cubozoa",
+      "externalResolutionStatus": "not-found",
+      "queryStatus": "external-id-unresolved",
+      "descendantEntityIds": [],
+      "descendantTaxonIds": [],
+      "descendantScientificNames": [],
+      "matchMethods": {
+        "exactExternalId": 0,
+        "acceptedName": 0,
+        "higherClassification": 0
+      },
+      "completeSnapshotAvailable": false,
+      "completeSnapshotRows": null,
+      "periods": [],
+      "matchedTotal": 0
+    },
+    "scyphozoa": {
+      "entityId": "scyphozoa",
+      "entityKind": "taxon",
+      "externalTaxonId": null,
+      "scientificNameNormalized": "scyphozoa",
+      "externalResolutionStatus": "not-found",
+      "queryStatus": "external-id-unresolved",
+      "descendantEntityIds": [],
+      "descendantTaxonIds": [],
+      "descendantScientificNames": [],
+      "matchMethods": {
+        "exactExternalId": 0,
+        "acceptedName": 0,
+        "higherClassification": 0
+      },
+      "completeSnapshotAvailable": false,
+      "completeSnapshotRows": null,
+      "periods": [],
+      "matchedTotal": 0
+    },
+    "burgessomedusa": {
+      "entityId": "burgessomedusa",
+      "entityKind": "taxon",
+      "externalTaxonId": null,
+      "scientificNameNormalized": "burgessomedusa",
+      "externalResolutionStatus": "not-found",
+      "queryStatus": "external-id-unresolved",
+      "descendantEntityIds": [],
+      "descendantTaxonIds": [],
+      "descendantScientificNames": [],
+      "matchMethods": {
+        "exactExternalId": 0,
+        "acceptedName": 0,
+        "higherClassification": 0
+      },
+      "completeSnapshotAvailable": false,
+      "completeSnapshotRows": null,
+      "periods": [],
+      "matchedTotal": 0
+    },
+    "myxozoa": {
+      "entityId": "myxozoa",
+      "entityKind": "taxon",
+      "externalTaxonId": null,
+      "scientificNameNormalized": "myxozoa",
+      "externalResolutionStatus": "not-found",
+      "queryStatus": "external-id-unresolved",
+      "descendantEntityIds": [],
+      "descendantTaxonIds": [],
+      "descendantScientificNames": [],
+      "matchMethods": {
+        "exactExternalId": 0,
+        "acceptedName": 0,
+        "higherClassification": 0
+      },
+      "completeSnapshotAvailable": false,
+      "completeSnapshotRows": null,
+      "periods": [],
+      "matchedTotal": 0
     },
     "brachiopoda": {
       "entityId": "brachiopoda",

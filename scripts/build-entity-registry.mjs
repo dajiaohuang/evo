@@ -287,6 +287,20 @@ function ownerForClaim(claim) {
     'dmanisi-skull-five-variation': 'primates',
     'vindija-3319-neanderthal-genome': 'primates',
     'ust-ishim-genome-admixture-model': 'primates',
+    'cryogenian-sponge-biomarker-debate': 'sponges-cnidarians',
+    'eocyathispongia-single-specimen': 'sponges-cnidarians',
+    'helicolocellus-organic-skeleton': 'sponges-cnidarians',
+    'soltanieh-basal-cambrian-spicules': 'sponges-cnidarians',
+    'amphimedon-draft-genome': 'sponges-cnidarians',
+    'animal-root-competing-models': 'sponges-cnidarians',
+    'auroralumina-charnwood-polyps': 'sponges-cnidarians',
+    'haootia-muscle-interpretation': 'sponges-cnidarians',
+    'xianguangia-body-plan-test': 'sponges-cnidarians',
+    'burgessomedusa-swimming-medusa': 'sponges-cnidarians',
+    'cnidarian-phylogenomic-sample': 'sponges-cnidarians',
+    'myxozoan-genome-reduction': 'sponges-cnidarians',
+    'scleractinian-paleozoic-clock': 'sponges-cnidarians',
+    'triassic-coral-photosymbiosis': 'sponges-cnidarians',
   }
   return explicit[subjectId] ?? 'atlas-core'
 }

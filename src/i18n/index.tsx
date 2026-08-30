@@ -7,6 +7,7 @@ import { dinosaurZhKeys } from './dinosaurZhKeys'
 import { marineZhKeys } from './marineZhKeys'
 import { otherMammalsZhKeys } from './otherMammalsZhKeys'
 import { primatesZhKeys } from './primatesZhKeys'
+import { spongesCnidariansZhKeys } from './spongesCnidariansZhKeys'
 import { hasTurtleLepidosaurTranslation } from './turtleLepidosaurZhKeys'
 
 export type Language = 'en' | 'zh'
@@ -2374,8 +2375,8 @@ export function I18nProvider({ children }: { children: ReactNode }) {
   useEffect(() => {
     let active = true
     if (language === 'zh' && Object.keys(extendedZh).length === 0) {
-      void Promise.all([import('./marineZh'), import('./cetartiodactylaZh'), import('./carnivoraZh'), import('./turtleLepidosaurZh'), import('./crocBirdZh'), import('./primatesZh'), import('./otherMammalsZh'), import('./dinosaurZh')]).then(([{ marineZh }, { cetartiodactylaZh }, { carnivoraZh }, { turtleLepidosaurZh }, { crocBirdZh }, { primatesZh }, { otherMammalsZh }, { dinosaurZh }]) => {
-        if (active) setExtendedZh({ ...marineZh, ...cetartiodactylaZh, ...carnivoraZh, ...turtleLepidosaurZh, ...crocBirdZh, ...primatesZh, ...otherMammalsZh, ...dinosaurZh })
+      void Promise.all([import('./marineZh'), import('./cetartiodactylaZh'), import('./carnivoraZh'), import('./turtleLepidosaurZh'), import('./crocBirdZh'), import('./primatesZh'), import('./otherMammalsZh'), import('./dinosaurZh'), import('./spongesCnidariansZh')]).then(([{ marineZh }, { cetartiodactylaZh }, { carnivoraZh }, { turtleLepidosaurZh }, { crocBirdZh }, { primatesZh }, { otherMammalsZh }, { dinosaurZh }, { spongesCnidariansZh }]) => {
+        if (active) setExtendedZh({ ...marineZh, ...cetartiodactylaZh, ...carnivoraZh, ...turtleLepidosaurZh, ...crocBirdZh, ...primatesZh, ...otherMammalsZh, ...dinosaurZh, ...spongesCnidariansZh })
       })
     }
     return () => { active = false }
@@ -2410,5 +2411,5 @@ export function useI18n(): I18nContextValue {
 }
 
 export function hasChineseTranslation(english: string): boolean {
-  return Object.hasOwn(zh, english) || marineZhKeys.has(english) || cetartiodactylaZhKeys.has(english) || carnivoraZhKeys.has(english) || hasTurtleLepidosaurTranslation(english) || crocBirdZhKeys.has(english) || primatesZhKeys.has(english) || otherMammalsZhKeys.has(english) || dinosaurZhKeys.has(english) || compactAmphibianTranslation(english) !== undefined
+  return Object.hasOwn(zh, english) || marineZhKeys.has(english) || cetartiodactylaZhKeys.has(english) || carnivoraZhKeys.has(english) || hasTurtleLepidosaurTranslation(english) || crocBirdZhKeys.has(english) || primatesZhKeys.has(english) || otherMammalsZhKeys.has(english) || dinosaurZhKeys.has(english) || spongesCnidariansZhKeys.has(english) || compactAmphibianTranslation(english) !== undefined
 }
