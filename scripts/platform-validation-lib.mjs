@@ -325,12 +325,19 @@ export function validatePlatform(scope = 'all') {
 }
 
 export function sourceRepositoryBytes() {
-  const excluded = new Set(['.git', 'node_modules', 'dist', 'test-results', 'playwright-report'])
+  const excluded = new Set(['.git', 'node_modules', 'dist', 'dist-mobile', 'test-results', 'playwright-report'])
+  const generatedNativePaths = new Set([
+    'android/.gradle',
+    'android/app/build',
+    'android/app/src/main/assets/public',
+    'ios/App/App/public',
+    'ios/DerivedData',
+  ])
   function filesBelow(path, relativePath = '') {
     if (!statSync(path).isDirectory()) return [path]
     return readdirSync(path).flatMap((name) => {
       const nextRelative = relativePath ? `${relativePath}/${name}` : name
-      if (excluded.has(name) || nextRelative === 'public/data') return []
+      if (excluded.has(name) || nextRelative === 'public/data' || generatedNativePaths.has(nextRelative)) return []
       return filesBelow(join(path, name), nextRelative)
     })
   }

@@ -14,7 +14,7 @@
   grid-template-columns: minmax(155px, 1fr) auto minmax(170px, 1fr);
   align-items: center;
   gap: 20px;
-  padding: 0 28px;
+  padding: var(--safe-area-top) calc(28px + var(--safe-area-right)) 0 calc(28px + var(--safe-area-left));
   background: color-mix(in srgb, var(--color-bg) 88%, transparent);
   border-bottom: 1px solid var(--color-border-subtle);
   backdrop-filter: blur(18px);
@@ -154,7 +154,7 @@
 @media (max-width: 720px) {
   .topbar {
     grid-template-columns: 1fr auto;
-    padding: 0 14px;
+    padding: var(--safe-area-top) calc(14px + var(--safe-area-right)) 0 calc(14px + var(--safe-area-left));
     backdrop-filter: none;
   }
 
@@ -163,7 +163,7 @@
     z-index: 2000;
     left: 12px;
     right: 12px;
-    bottom: 12px;
+    bottom: calc(12px + var(--safe-area-bottom));
     justify-content: flex-start;
     overflow-x: auto;
     scrollbar-width: none;
