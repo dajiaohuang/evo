@@ -3,27 +3,33 @@
     "id": "range:life:global",
     "entityId": "life",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Life",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 3800,
+    "taxonomicConcept": "Life on Earth sampled biosignature-to-living navigation envelope",
+    "geographicScope": "Isua Supracrustal Belt, western Greenland; living global biosphere",
+    "olderMa": 3700,
     "youngerMa": 0,
     "status": "available",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "note": "3.7 Ga is a conservative sampled biosignature boundary, not a measured date for abiogenesis or LUCA. The sparse, metamorphosed early rock record and alternative abiotic interpretations prevent a precise origin endpoint; 0 Ma denotes that life persists."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "evidenceBasis": "Carbon-isotope, geological and graphite-nanostructure analyses of 3.7 Ga Isua metasediments support a biogenic interpretation; an interdisciplinary review separates this biosignature boundary from the earlier and less certain habitability boundary.",
     "confidence": "medium",
-    "claimIds": [],
+    "claimIds": [
+      "claim:taxon:life:fossil-range"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
+        "referenceId": "ohtomo-2014-isua-biogenic-graphite",
+        "locator": "pp. 25–28; p. 25 abstract; Figures 3–4; p. 28 conclusion on isotope and graphite-nanostructure evidence"
+      },
+      {
+        "referenceId": "pearce-2018-origin-life-window",
+        "locator": "pp. 343–364; Abstract and Introduction; Figure 1; Table 1; habitability versus biosignature boundaries"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "literature-synthesized"
   },
   {
     "id": "range:invertebrata:global",

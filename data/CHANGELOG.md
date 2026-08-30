@@ -1,5 +1,11 @@
 # Dataset changelog
 
+## 2026.08-static-v5-rc42 — 2026-08-30
+
+- Closed the final two package-root legacy displays: Life now begins at a conservative 3.7 Ga sampled biosignature boundary and explicitly remains extant, while Perissodactyla uses its approximately 56 Ma PETM fossil sample and living lineages as separate navigation endpoints.
+- Added bilingual typed claims, primary-study locators and an origin-of-life boundary synthesis. Neither 3.7 Ga nor 56 Ma is promoted to an exact origin, LUCA, crown-node, total-group divergence, global first appearance or direct-ancestor claim.
+- Preserved all rc41 ranges, stories, species coverage and mobile/Web parity; rebuilt canonical projections and checksums without changing PBDB occurrences, review records or validation architecture.
+
 ## 2026.08-static-v5-rc41 — 2026-08-30
 
 - Replaced the remaining twenty-one unreviewed Atlas Core, archosaur and mammal root displays with bilingual, claim-linked research ranges and exact primary-study locators. The already reviewed Crocodylomorpha, therian-boundary-evidence and Afrotheria records remain intact.

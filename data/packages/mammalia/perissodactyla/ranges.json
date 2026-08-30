@@ -3,46 +3,29 @@
     "id": "range:perissodactyla:global",
     "entityId": "perissodactyla",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Perissodactyla",
-    "geographicScope": "Global or represented navigation composite",
+    "taxonomicConcept": "Perissodactyla total-group sampled fossil-to-living navigation envelope",
+    "geographicScope": "PETM occurrences across North America, Europe and Asia; living global continuation",
     "olderMa": 56,
     "youngerMa": 0,
     "status": "available",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "note": "56 Ma is the rounded PETM age of the earliest sampled perissodactyl record in the cited analysis. It is not a crown-node age, total-group origin, molecular divergence estimate or complete global first-appearance survey."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "evidenceBasis": "A 71-terminal, 102-character analysis and its occurrence chart document diverse basal perissodactyls at the PETM; living horses, tapirs and rhinoceroses supply the present-day navigation endpoint.",
     "confidence": "medium",
     "claimIds": [
-      "claim:taxon:perissodactyla",
       "claim:taxon:perissodactyla:fossil-range"
     ],
     "referenceLocators": [
       {
         "referenceId": "pnas-2026-perissodactyls",
-        "locator": "doi:10.1073/pnas.2519690122"
-      },
-      {
-        "referenceId": "amnh-perissodactyl-evolution",
-        "locator": "https://research.amnh.org/paleontology/perissodactyl/evolution/intro"
-      },
-      {
-        "referenceId": "amnh-perissodactyl-evidence",
-        "locator": "https://research.amnh.org/paleontology/perissodactyl/evidence/intro"
-      },
-      {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
-      },
-      {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
+        "locator": "pp. 1–6 of 8; p. 1 Abstract and Introduction; Figure 1; p. 4 stem-perissodactyl discussion; Figure 3; p. 6 unresolved-origin discussion; Dataset S2"
       }
     ],
     "reviewStatus": "automated-audit-passed",
-    "evidenceLevel": "legacy-display"
+    "evidenceLevel": "literature-synthesized"
   },
   {
     "id": "range:brontotheriidae:global",
