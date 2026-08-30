@@ -10,6 +10,9 @@ const repositoryRoot = resolve(dirname(fileURLToPath(import.meta.url)), '..')
 const releaseRoot = join(repositoryRoot, 'data', 'catalogue-of-life', 'releases', '2026-08-20')
 const resourcePacksRoot = join(releaseRoot, 'resource-packs')
 const collection = JSON.parse(readFileSync(join(resourcePacksRoot, 'manifest.json'), 'utf8'))
+const lpsnCrosswalkPath = join(repositoryRoot, 'data', 'sources', 'archaea-lpsn-crosswalk-col26.8.json')
+const lpsnCrosswalkBytes = readFileSync(lpsnCrosswalkPath)
+const lpsnCrosswalk = JSON.parse(lpsnCrosswalkBytes.toString('utf8'))
 const sources = JSON.parse(readFileSync(join(releaseRoot, 'registry', 'sources.json'), 'utf8'))
 const sourceIds = new Set(sources.map((source) => String(source.datasetId)))
 const sha256 = (bytes) => createHash('sha256').update(bytes).digest('hex')
@@ -58,4 +61,88 @@ describe('COL26.8 static nomenclatural resource packs', () => {
     }
     expect(total).toBe(363160)
   }, 120000)
+
+  it('publishes one deterministic, release-pinned LPSN identifier for every Archaea species', () => {
+    const descriptor = collection.packs.find((pack) => pack.packageId === 'archaea')
+    expect(descriptor).toMatchObject({
+      acceptedSpeciesCount: 790,
+      fileCount: 1,
+      extensionCount: 1,
+      extensionFileCount: 1,
+      extensionCompressedBytes: 8116,
+      extensionSourceBytes: 115491,
+    })
+
+    const manifest = JSON.parse(readFileSync(join(resourcePacksRoot, descriptor.manifestPath), 'utf8'))
+    expect(manifest.acceptedSpeciesCount).toBe(790)
+    expect(manifest.files).toHaveLength(1)
+    expect(manifest.files[0]).toMatchObject({
+      path: 'archaea/species-000.jsonl.gz',
+      records: 790,
+      bytes: 17365,
+      sha256: '0e6d527a5bad958d618969ba6dbe8c23106e0116b2ac2415ceff701264a9ef95',
+    })
+    expect(manifest.extensions).toHaveLength(1)
+    const extension = manifest.extensions[0]
+    expect(extension).toMatchObject({
+      id: 'lpsn-identifiers',
+      recordType: 'external-name-identifier-crosswalk',
+      provider: 'LPSN',
+      eligibility: 'sourceDatasetId=2015 for every accepted species in this pack',
+      counts: { eligible: 790, resolved: 790, withheld: 0 },
+      fields: ['colId', 'lpsnId', 'lpsnUrl', 'mappingBasis', 'status'],
+      totalCompressedBytes: 8116,
+      totalSourceBytes: 115491,
+    })
+    expect(extension.source).toMatchObject({
+      catalogueRelease: 'COL26.8',
+      catalogueReleaseDate: '2026-08-20',
+      checklistBankDatasetKey: 316115,
+      sourceDatasetKey: 2015,
+      sourceDatasetVersion: '2026-07-26',
+      retrievedAt: '2026-08-31',
+      license: 'CC-BY-SA-4.0',
+      canonicalCrosswalkSha256: sha256(lpsnCrosswalkBytes),
+      requestIntegrity: {
+        algorithm: 'sha256',
+        requestCount: 790,
+        requestLedgerSha256: lpsnCrosswalk.integrity.requestLedgerSha256,
+      },
+    })
+
+    expect(lpsnCrosswalk.counts).toEqual({ eligible: 790, resolved: 790, withheld: 0 })
+    expect(lpsnCrosswalk.records).toHaveLength(790)
+    const requestLedgerBytes = Buffer.from(`${lpsnCrosswalk.records.map((record) => JSON.stringify({
+      colId: record.colId,
+      requestUrl: lpsnCrosswalk.source.endpointTemplate.replace('{colId}', encodeURIComponent(record.colId)),
+      sourceResponseSha256: record.sourceResponseSha256,
+    })).join('\n')}\n`, 'utf8')
+    expect(sha256(requestLedgerBytes)).toBe('28c037e4414652643de7d0980db277fe9a72ea545c2f63595370d4169cdb5a3e')
+
+    const species = gunzipSync(readFileSync(join(resourcePacksRoot, manifest.files[0].path))).toString('utf8').split('\n').filter(Boolean).map((line) => JSON.parse(line))
+    const file = extension.files[0]
+    const compressed = readFileSync(join(resourcePacksRoot, file.path))
+    const source = gunzipSync(compressed)
+    const records = source.toString('utf8').split('\n').filter(Boolean).map((line) => JSON.parse(line))
+    expect(compressed.byteLength).toBe(file.bytes)
+    expect(source.byteLength).toBe(file.sourceBytes)
+    expect(sha256(compressed)).toBe(file.sha256)
+    expect(sha256(source)).toBe(file.sourceSha256)
+    expect(Buffer.compare(Buffer.from(deterministicGzip(source, { level: 9 })), compressed)).toBe(0)
+    expect(records).toHaveLength(790)
+    expect(records.map((record) => record.colId)).toEqual(species.map((record) => record.id))
+    expect(new Set(records.map((record) => record.lpsnId)).size).toBe(790)
+    for (const record of records) {
+      expect(Object.keys(record)).toEqual(extension.fields)
+      expect(record.lpsnId).toMatch(/^\d+$/)
+      expect(record.lpsnUrl).toBe(`https://lpsn.dsmz.de/taxon/${record.lpsnId}`)
+      expect(record.mappingBasis).toBe('checklistbank-source-record')
+      expect(record.status).toBe('resolved')
+    }
+
+    for (const other of collection.packs.filter((pack) => pack.packageId !== 'archaea')) {
+      const otherManifest = JSON.parse(readFileSync(join(resourcePacksRoot, other.manifestPath), 'utf8'))
+      expect(otherManifest.extensions).toBeUndefined()
+    }
+  })
 })
