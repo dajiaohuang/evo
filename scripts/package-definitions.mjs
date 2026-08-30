@@ -1,6 +1,6 @@
 export const PACKAGE_SCHEMA_VERSION = 5
-export const DATASET_PACKAGE_VERSION = '2026.08-static-v5-rc42'
-export const DATASET_RELEASE_DATE = '2026-08-30'
+export const DATASET_PACKAGE_VERSION = '2026.08-static-v5-rc43'
+export const DATASET_RELEASE_DATE = '2026-08-31'
 
 export const packageDefinitions = [
   {
@@ -40,7 +40,7 @@ export const packageDefinitions = [
       zh: 'COL26.8 已接受物种路由包含现生苏铁类、银杏类、针叶树类和买麻藤类；在固定目录中，买麻藤类经已路由的松柏纲根进入本包。逐字段苏铁门与银杏门档案把全证据模型和范围受限的 Ginkgoxylon 木材标本与直接化石首现严格分开。买麻藤类档案仍待补充；其他旧版延限继续明确标为暂定。',
     },
     wave: 'E',
-    scientificMaturity: 'structured',
+    scientificMaturity: 'source-linked',
   },
   {
     id: 'angiospermae',
@@ -108,7 +108,7 @@ export const packageDefinitions = [
       en: 'Twelve bilingual primary-evidence dossiers connect named trilobite and chelicerate fossils, three-dimensional anatomy, functional comparisons, morphology matrices and living genomic-scale analyses. Tatelt, Burgess Shale, Chengjiang, Wheeler, Willwerath, Šárka and Waukesha samples remain separate occurrences rather than an ancestor ladder. Competing stem-chelicerate, xiphosuran and arachnid topologies remain explicit. COL26.8 routes exactly 104,126 strictly accepted species names through the exact Chelicerata and Trilobita roots; that is current nomenclatural browse coverage, not 104,126 specimen dossiers or agreement among fossil, functional and genomic models.',
       zh: '十二个双语一手证据档案连接具名三叶虫与螯肢动物化石、三维解剖、功能比较、形态矩阵和现生基因组尺度分析。Tatelt、布尔吉斯页岩、澄江、惠勒、Willwerath、Šárka 与沃基肖样本始终是彼此独立的出现记录，而非祖先阶梯。竞争性的螯肢动物干群、剑尾类和蛛形纲拓扑均被明确保留。COL26.8 通过精确的螯肢亚门与三叶虫纲根路由恰好 104,126 个严格接受种名；这只是当前命名浏览覆盖，不代表 104,126 份标本档案，也不表示化石、功能与基因组模型达成一致。',
     },
-    scientificMaturity: 'structured',
+    scientificMaturity: 'source-linked',
     limitations: [
       'Early-trilobite timing, agnostid affinity, stem-chelicerate branch order, xiphosuran systematics and arachnid monophyly are sampled topology or clock results; they are not directly observed origins or universal classifications.',
       'Named fossils and imaged anatomy are study-bounded occurrences. Formation or stage envelopes do not establish global FADs, LADs, uninterrupted lineages or direct ancestor–descendant sequences.',
@@ -141,7 +141,7 @@ export const packageDefinitions = [
       zh: 'COL26.8 把现生棘皮动物接受名作为命名浏览层路由。逐字段棘皮动物门与海胆纲档案把寒武纪关节相连动物群和奥陶纪总群骨板，与更早但有争议的立体网骨片及依赖模型的冠群年代严格分开。重点样本不确定全球起源、单一祖先生态或直系祖先，其余旧版延限继续明确标为暂定。',
     },
     wave: 'D',
-    scientificMaturity: 'structured',
+    scientificMaturity: 'source-linked',
   },
   {
     id: 'early-fishes',
@@ -154,7 +154,7 @@ export const packageDefinitions = [
       zh: 'COL26.8 已接受物种经固定的无颌类与盲鳗纲根路由到本包。新增化石证据导航，以受标本边界约束的档案展示 Priscomyzon、Myxinikela 与 Tethymyxine，并把字段连接到具精确定位符的一手研究。七鳃鳗总群、盲鳗干群与盲鳗冠群证据彼此分开；任何显示区间都不被提升为全球起源。包内 PBDB 出现记录仍是有界、非随机的 API 前缀样本，不能确定首现、末现、缺失、丰富度或全球分布。',
     },
     wave: 'C',
-    scientificMaturity: 'structured',
+    scientificMaturity: 'source-linked',
     limitations: [
       'Priscomyzon, Myxinikela and Tethymyxine ranges are study-sample envelopes tied to named specimens, not global species durations, direct ancestry or whole-clade first appearances.',
       'Profile ecology fields explicitly retain unavailable diet, behaviour, habitat-preference and performance evidence rather than filling them from living analogues.',
@@ -172,7 +172,7 @@ export const packageDefinitions = [
       zh: 'COL26.8 已接受物种路由覆盖现生软骨鱼类。新增软骨鱼干群证据导航，展示 Qianodus、Fanjingshania、Shenacanthus 与 Gladbachus；其中三个可外部精确解析的类群具有完整档案和字段—主张链接。孤立齿旋、皮质骨片、近完整正模与 CT 检查的压扁标本仍是不同样本；任何一项都不被表述为冠群鲨类或软骨鱼类全球首现。包内 PBDB 记录仍是有界、非随机的 API 前缀样本。',
     },
     wave: 'C',
-    scientificMaturity: 'structured',
+    scientificMaturity: 'source-linked',
     limitations: [
       'Qianodus, Fanjingshania, Shenacanthus and Gladbachus are connected by a navigation-parent evidence route, not an ancestor sequence or reviewed total-group phylogeny.',
       'The literature-linked intervals apply to named samples and formations. They do not replace the legacy clade-wide ranges for Chondrichthyes, Elasmobranchii, Holocephali or megalodon.',
@@ -190,7 +190,7 @@ export const packageDefinitions = [
       zh: '七个一手证据档案严格区分受标本边界约束的泥盆纪与三叠纪化石、依赖拓扑的重新校准、现生基因组与发育比较以及分子模型区间。新增早期辐鳍鱼证据导航，为 Cheirolepis trailli 与 Fukangichthys longidorsalis 提供字段关联档案，同时把化石出现年代与依赖模型的冠群重新校准分开。COL26.8 在精确 usage ID 8VR36 下路由 35,928 个严格接受种名；该命名覆盖不等于档案或专家评审成熟度。其他类群级导航延限仍未复核。',
     },
     wave: 'C',
-    scientificMaturity: 'structured',
+    scientificMaturity: 'source-linked',
     limitations: [
       'Cheirolepis and Fukangichthys ranges describe the cited museum and formation samples, not global lineage durations or actinopterygian crown ages.',
       'Fukangichthys occurrence time and the approximately 45-million-year topology-sensitive calibration shift are separate claims and must not be merged.',
@@ -207,7 +207,7 @@ export const packageDefinitions = [
       en: 'Seven primary-evidence dossiers now expose named Elpistostege, Tiktaalik, Acanthostega and Ichthyostega navigation rather than reducing the fin-to-limb transition to one exemplar. A rich Tiktaalik profile links taxonomy, a formation-scoped occurrence, geography, morphology and ecology to primary-study locators. Tracks, articulated bodies, digit homology and mobility models remain distinct; COL26.8 living-name routing is unchanged.',
       zh: '七个一手证据档案现以具名导航呈现 Elpistostege、Tiktaalik、Acanthostega 与 Ichthyostega，不再把鳍—肢转型缩减成单一代表。Tiktaalik 丰富档案把分类、组级出现、地理、形态与生态分别连接到一手研究定位。遗迹、关节骨架、指同源与运动模型保持分离；COL26.8 现生名称路由不变。',
     },
-    scientificMaturity: 'structured',
+    scientificMaturity: 'source-linked',
     limitations: [
       'Package dossiers expose the current curated evidence boundary; unavailable fields are explicit and are not inferred.',
       'Claim-linked named-fossil ranges are stage- or formation-scoped evidence envelopes, not global absence-based FADs, LADs or uninterrupted lineage durations.',
@@ -225,7 +225,7 @@ export const packageDefinitions = [
       en: 'Primary-evidence dossiers for Amphibia separate named fossil occurrences, stem and crown concepts, living experiments, genomic samples, model time trees, PBDB bounded samples and COL26.8 nomenclatural coverage. COL26.8 routes 8,923 strictly accepted species names below Amphibia usage ID PH; this is naming coverage, not 8,923 mature dossiers.',
       zh: '两栖动物一手证据档案明确区分具名化石出现、干群与冠群概念、现生实验、基因组样本、模型时间树、PBDB 有界样本与 COL26.8 命名覆盖。COL26.8 在 Amphibia 用法 ID PH 下路由 8,923 个严格接受种名；这是命名覆盖，并非 8,923 份成熟档案。',
     },
-    scientificMaturity: 'structured',
+    scientificMaturity: 'source-linked',
     limitations: [
       'Gerobatrachus, Triadobatrachus, Funcusvermis, Beiyanerpeton and Ymboirana are specimen occurrences with explicit topology and dating limits; none is asserted to be a direct ancestor or global FAD.',
       'Gymnophionomorpha is a total-group navigation concept; the approximately 25 Ma Gymnophiona crown display bound is provisional because Ymboirana lacks an unambiguous typhlonectid synapomorphy and formal phylogenetic testing.',
@@ -377,7 +377,7 @@ export const packageDefinitions = [
       zh: '十个一手证据档案与三个丰富档案把鱼龙、蛇颈龙和翼龙保持为三次独立辐射。更老的早卡尼期 Bobosaurus 候选与诊断明确的瑞替期 Rhaeticosaurus 并列呈现，但不会据此前推已确认蛇颈龙类延限。Ichthyosaurus、Plesiosauria 与 Pterosauria 字段主张均连接精确的一手研究定位。COL26.8 在这些化石根下的命名路由仍为零，这不削弱结构化标本证据。',
     },
     wave: 'B',
-    scientificMaturity: 'structured',
+    scientificMaturity: 'source-linked',
   },
   {
     id: 'crocodylomorphs-birds',
@@ -390,7 +390,7 @@ export const packageDefinitions = [
       zh: '十二个一手证据档案比较鳄类支系与鸟类支系主龙而不混并其历史。始祖鸟被明确置于今鸟类冠群之外；6920–6840 万年前的 Vegavis 头骨作为独立且依赖拓扑的冠群水禽测试，更年轻的 Asteriornis 则保持为另一项近冠群分析。始祖鸟与今鸟类专属档案把每个显示字段连接到主张和文献限定延限。六个策展导航节点服务于发现而不主张直系祖先或全球首现。COL26.8 仍把恰好 11,071 个严格接受的现生种名路由到本包，作为命名浏览覆盖。',
     },
     wave: 'B',
-    scientificMaturity: 'structured',
+    scientificMaturity: 'source-linked',
   },
   {
     id: 'dinosauria',
@@ -410,7 +410,7 @@ export const packageDefinitions = [
       'Only two bundled PBDB occurrence rows route to Dinosauria. They are a bounded, identifier-ordered, non-random API-prefix sample and cannot support a first appearance, absence, abundance estimate or diversity curve.',
     ],
     wave: 'B',
-    scientificMaturity: 'structured',
+    scientificMaturity: 'source-linked',
   },
 ]
 

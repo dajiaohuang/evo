@@ -1,5 +1,11 @@
 # Dataset changelog
 
+## 2026.08-static-v5-rc43 — 2026-08-31
+
+- Promoted eleven plant, invertebrate, fish, tetrapod and archosaur packages from `structured` to `source-linked` after a package-scoped audit found fit primary-study or systematic-review support with concrete locators for all 239 claims, all 366 displayed profile fields and all 99 steps across fourteen evidence-bound stories. This maturity label does not imply 392 entity-level dossiers or external expert review.
+- Closed five remaining semantic gaps with six matched sources: species-bounded *Mollisonia* ecology, living echinoid ecological breadth, specimen-bounded *Ichthyosaurus communis* diet and comparative swimming inference, and analysis-bounded pterosaur taxonomy and biogeography. Visible text now preserves species, specimen, model and sampling limits instead of extending a paper beyond its sample.
+- Advanced the shared Web/Android/iOS dataset projection to rc43 while retaining app version `0.20.0`, all rc42 Life and Perissodactyla work, existing review records and the bounded PBDB occurrence query. COL26.8 accepted-species routing remains 2,183,133 unique assignments with zero unmatched.
+
 ## 2026.08-static-v5-rc42 — 2026-08-30
 
 - Closed the final two package-root legacy displays: Life now begins at a conservative 3.7 Ga sampled biosignature boundary and explicitly remains extant, while Perissodactyla uses its approximately 56 Ma PETM fossil sample and living lineages as separate navigation endpoints.
