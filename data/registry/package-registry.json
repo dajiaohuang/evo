@@ -1,9 +1,9 @@
 {
   "schemaVersion": 5,
-  "version": "2026.08-static-v5-rc22",
+  "version": "2026.08-static-v5-rc23",
   "schemaStatus": "candidate",
   "packageCount": 24,
-  "entityCount": 232,
+  "entityCount": 237,
   "packages": [
     {
       "id": "atlas-core",
@@ -361,9 +361,9 @@
         "testudines",
         "lepidosauria"
       ],
-      "entityCount": 4,
+      "entityCount": 9,
       "platformMaturity": "published",
-      "scientificMaturity": "generated-scaffold",
+      "scientificMaturity": "structured",
       "automatedReviewStatus": "passed",
       "reviewStatus": "not-reviewed"
     },
@@ -609,6 +609,8 @@
     "odontoceti": "cetartiodactyla",
     "sauropsida": "atlas-core",
     "testudines": "turtles-lepidosaurs",
+    "cryptodira": "turtles-lepidosaurs",
+    "pleurodira": "turtles-lepidosaurs",
     "ichthyosauria": "marine-reptiles-pterosaurs",
     "ichthyosaurus": "marine-reptiles-pterosaurs",
     "cartorhynchus": "marine-reptiles-pterosaurs",
@@ -619,7 +621,10 @@
     "rhaeticosaurus": "marine-reptiles-pterosaurs",
     "polycotylus": "marine-reptiles-pterosaurs",
     "lepidosauria": "turtles-lepidosaurs",
+    "rhynchocephalia": "turtles-lepidosaurs",
+    "pan-squamata": "turtles-lepidosaurs",
     "squamata": "turtles-lepidosaurs",
+    "serpentes": "turtles-lepidosaurs",
     "mosasauridae": "turtles-lepidosaurs",
     "archosauria": "atlas-core",
     "crocodylomorpha": "crocodylomorphs-birds",

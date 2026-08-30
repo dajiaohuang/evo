@@ -7038,5 +7038,135 @@
     ],
     "reviewStatus": "not-reviewed",
     "evidenceLevel": "legacy-display"
+  },
+  {
+    "id": "range:cryptodira:global",
+    "entityId": "cryptodira",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Cryptodira",
+    "geographicScope": "Global legacy atlas display",
+    "olderMa": 155.6,
+    "youngerMa": 0,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Navigation-only rounded display bound; not a claim-linked fossil FAD or crown-origin estimate."
+    },
+    "evidenceBasis": "Legacy rounded display range retained for navigation pending dedicated crown-cryptodire synthesis; the Caribemys calibration constrains Testudines rather than this node.",
+    "evidenceLevel": "legacy-display",
+    "confidence": "medium",
+    "claimIds": [],
+    "referenceLocators": [
+      {
+        "referenceId": "open-tree",
+        "locator": "taxonomic context only; range locator pending"
+      }
+    ],
+    "reviewStatus": "not-reviewed"
+  },
+  {
+    "id": "range:pleurodira:global",
+    "entityId": "pleurodira",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Pleurodira",
+    "geographicScope": "Global legacy atlas display",
+    "olderMa": 155.6,
+    "youngerMa": 0,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Navigation-only rounded display bound; not a claim-linked global FAD or crown-origin estimate."
+    },
+    "evidenceBasis": "Legacy display begins at the conservative Caribemys calibration minimum, while the specimen and model bounds remain in their dedicated event claim.",
+    "evidenceLevel": "legacy-display",
+    "confidence": "medium",
+    "claimIds": [],
+    "referenceLocators": [
+      {
+        "referenceId": "joyce-2013-turtle-calibrations",
+        "locator": "pp. 615–617; Figure 2; Testudines Node 1"
+      }
+    ],
+    "reviewStatus": "not-reviewed"
+  },
+  {
+    "id": "range:rhynchocephalia:global",
+    "entityId": "rhynchocephalia",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Rhynchocephalia",
+    "geographicScope": "Global legacy atlas display",
+    "olderMa": 238,
+    "youngerMa": 0,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Navigation-only rounded display bound; not a claim-linked fossil FAD or complete lineage range."
+    },
+    "evidenceBasis": "Legacy rounded display range retained for navigation; this release adds no rhynchocephalian specimen-level range claim.",
+    "evidenceLevel": "legacy-display",
+    "confidence": "medium",
+    "claimIds": [],
+    "referenceLocators": [
+      {
+        "referenceId": "open-tree",
+        "locator": "taxonomic context only; range locator pending"
+      }
+    ],
+    "reviewStatus": "not-reviewed"
+  },
+  {
+    "id": "range:pan-squamata:global",
+    "entityId": "pan-squamata",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Pan-Squamata",
+    "geographicScope": "Global legacy atlas display",
+    "olderMa": 240,
+    "youngerMa": 0,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Navigation-only rounded display bound; not a secure global FAD, crown age or direct-ancestor interval."
+    },
+    "evidenceBasis": "Legacy display supports browsing of stem- and crown-squamate dossiers; each event retains its specimen age and matrix boundary.",
+    "evidenceLevel": "legacy-display",
+    "confidence": "medium",
+    "claimIds": [],
+    "referenceLocators": [
+      {
+        "referenceId": "simoes-2018-megachirella",
+        "locator": "pp. 706–709; fossil occurrence and topology remain event-scoped"
+      }
+    ],
+    "reviewStatus": "not-reviewed"
+  },
+  {
+    "id": "range:serpentes:global",
+    "entityId": "serpentes",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Serpentes",
+    "geographicScope": "Global legacy atlas display",
+    "olderMa": 167,
+    "youngerMa": 0,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Navigation-only rounded display bound; not a claim-linked global FAD, crown age or complete species range."
+    },
+    "evidenceBasis": "Legacy rounded display range retained for navigation; this release adds no snake specimen dossier and does not promote the endpoint to a scientific claim.",
+    "evidenceLevel": "legacy-display",
+    "confidence": "medium",
+    "claimIds": [],
+    "referenceLocators": [
+      {
+        "referenceId": "open-tree",
+        "locator": "taxonomic context only; range locator pending"
+      }
+    ],
+    "reviewStatus": "not-reviewed"
   }
 ]
