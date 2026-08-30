@@ -1,12 +1,12 @@
 {
   "schemaVersion": 5,
   "id": "early-fishes",
-  "version": "2026.08-static-v5-rc16",
+  "version": "2026.08-static-v5-rc17",
   "title": "Jawless and Early Jawed Fishes",
   "titleZh": "无颌类与早期有颌鱼类",
   "conceptScope": {
-    "en": "Evidence and navigation concepts rooted at agnatha, placodermi, acanthodii; membership follows the committed entity registry and does not imply exhaustive taxonomic coverage.",
-    "zh": "以 agnatha、placodermi、acanthodii 为根的证据与导航概念；成员范围以已提交的实体注册表为准，不表示穷尽性的分类覆盖。"
+    "en": "COL26.8 accepted-species routing covers the pinned Agnatha and Myxini roots; Myxini now has its own Cyclostomata navigation node. Curated events distinguish placoderm-grade stem gnathostomes, total-group lampreys and stem hagfishes from living crown groups. Myxinikela does not set the crown-Myxini range. The bundled PBDB occurrence rows are a bounded, non-random API-prefix sample and cannot establish FAD, LAD, absence, richness or global distribution; legacy range projections remain unreviewed.",
+    "zh": "COL26.8 已接受物种经固定的无颌类与盲鳗纲根路由到本包；盲鳗纲现已在圆口纲下拥有独立导航节点。已整理事件严格区分盾皮鱼等级的有颌类干群、七鳃鳗总群与盲鳗干群和现生冠群。Myxinikela 不用于设定盲鳗纲冠群延限。包内 PBDB 出现记录是有界、非随机的 API 前缀样本，不能用于确定首现、末现、缺失、丰富度或全球分布；旧版延限投影尚未复核。"
   },
   "rootEntityIds": [
     "agnatha",
@@ -21,6 +21,7 @@
     "osteostraci",
     "cyclostomata",
     "petromyzontida",
+    "myxini",
     "placodermi",
     "arthrodira",
     "dunkleosteus",
@@ -34,7 +35,7 @@
     "occurrences": "data/fossils/*.json"
   },
   "platformMaturity": "published",
-  "scientificMaturity": "generated-scaffold",
+  "scientificMaturity": "structured",
   "automatedReviewStatus": "passed",
   "reviewStatus": "not-reviewed",
   "limitations": [

@@ -1,12 +1,12 @@
 {
   "schemaVersion": 5,
   "id": "chondrichthyes",
-  "version": "2026.08-static-v5-rc16",
+  "version": "2026.08-static-v5-rc17",
   "title": "Cartilaginous Fishes",
   "titleZh": "软骨鱼类",
   "conceptScope": {
-    "en": "Evidence and navigation concepts rooted at chondrichthyes; membership follows the committed entity registry and does not imply exhaustive taxonomic coverage.",
-    "zh": "以 chondrichthyes 为根的证据与导航概念；成员范围以已提交的实体注册表为准，不表示穷尽性的分类覆盖。"
+    "en": "COL26.8 accepted-species routing covers living cartilaginous fishes. Curated events document specimen-level stem and total-group evidence from Qianodus, Fanjingshania, Shenacanthus and Gladbachus; none is presented as a crown shark or as the global first appearance of Chondrichthyes. The bundled PBDB occurrence rows are a bounded, non-random API-prefix sample and cannot establish FAD, LAD, absence, richness or global distribution; legacy range projections remain unreviewed.",
+    "zh": "COL26.8 已接受物种路由覆盖现生软骨鱼类。已整理事件记录 Qianodus、Fanjingshania、Shenacanthus 与 Gladbachus 的标本级干群或总群证据；任何一项都不被表述为冠群鲨类或软骨鱼纲全球首现。包内 PBDB 出现记录是有界、非随机的 API 前缀样本，不能用于确定首现、末现、缺失、丰富度或全球分布；旧版延限投影尚未复核。"
   },
   "rootEntityIds": [
     "chondrichthyes"
@@ -25,7 +25,7 @@
     "occurrences": "data/fossils/*.json"
   },
   "platformMaturity": "published",
-  "scientificMaturity": "generated-scaffold",
+  "scientificMaturity": "structured",
   "automatedReviewStatus": "passed",
   "reviewStatus": "not-reviewed",
   "limitations": [
