@@ -58,5 +58,473 @@
     ],
     "reviewStatus": "not-reviewed",
     "evidenceLevel": "legacy-display"
+  },
+  {
+    "id": "range:indohyus:primary-sample",
+    "entityId": "indohyus",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Indohyus Sindkhatudi sample occurrence",
+    "geographicScope": "Sindkhatudi bone bed, Upper Subathu Group, India",
+    "olderMa": 48,
+    "youngerMa": 47,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "The middle-Eocene display envelope is formation-level and the disarticulated sample cannot establish a global FAD."
+    },
+    "evidenceBasis": "Named specimen or explicitly bounded specimen assemblage and its stratigraphic placement in the cited primary study.",
+    "evidenceLevel": "literature-synthesized",
+    "confidence": "medium",
+    "claimIds": [
+      "claim:event:indohyus-aquatic-raoellid-evidence"
+    ],
+    "referenceLocators": [
+      {
+        "referenceId": "thewissen-2007-indohyus",
+        "locator": "pp. 1190–1194; Figures 1–5"
+      }
+    ],
+    "reviewStatus": "automated-audit-passed"
+  },
+  {
+    "id": "range:pakicetus:primary-sample",
+    "entityId": "pakicetus",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Pakicetus Locality 62 sample occurrence",
+    "geographicScope": "H-GSP Locality 62, Ganda Kas, Pakistan",
+    "olderMa": 50,
+    "youngerMa": 48,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "The early-Eocene envelope is locality-level and the composite material cannot establish a global FAD."
+    },
+    "evidenceBasis": "Named specimen or explicitly bounded specimen assemblage and its stratigraphic placement in the cited primary study.",
+    "evidenceLevel": "literature-synthesized",
+    "confidence": "medium",
+    "claimIds": [
+      "claim:event:pakicetus-composite-terrestrial-skeleton"
+    ],
+    "referenceLocators": [
+      {
+        "referenceId": "thewissen-2001-pakicetid-skeletons",
+        "locator": "pp. 277–281; Figures 1–4"
+      }
+    ],
+    "reviewStatus": "automated-audit-passed"
+  },
+  {
+    "id": "range:ambulocetus:primary-sample",
+    "entityId": "ambulocetus",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Ambulocetus natans holotype occurrence",
+    "geographicScope": "Kuldana Formation, Kala Chitta Hills, Pakistan",
+    "olderMa": 48,
+    "youngerMa": 47,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "The Lutetian envelope is stratigraphic context, not a direct numerical date on H-GSP 18507 or a global FAD."
+    },
+    "evidenceBasis": "Named specimen or explicitly bounded specimen assemblage and its stratigraphic placement in the cited primary study.",
+    "evidenceLevel": "literature-synthesized",
+    "confidence": "medium",
+    "claimIds": [
+      "claim:event:ambulocetus-holotype-locomotion"
+    ],
+    "referenceLocators": [
+      {
+        "referenceId": "thewissen-1994-ambulocetus",
+        "locator": "pp. 210–212; Figures 1–3"
+      }
+    ],
+    "reviewStatus": "automated-audit-passed"
+  },
+  {
+    "id": "range:peregocetus:primary-sample",
+    "entityId": "peregocetus",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Peregocetus pacificus holotype occurrence",
+    "geographicScope": "Lowest Yumaque Member, Paracas Formation, Peru",
+    "olderMa": 42.6,
+    "youngerMa": 42.6,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "The approximately 42.6 Ma value is a nannofossil-based biochronological interpretation, not a direct date on MUSM 3580 or a global FAD."
+    },
+    "evidenceBasis": "Named specimen or explicitly bounded specimen assemblage and its stratigraphic placement in the cited primary study.",
+    "evidenceLevel": "literature-synthesized",
+    "confidence": "medium",
+    "claimIds": [
+      "claim:event:peregocetus-holotype-amphibious-dispersal"
+    ],
+    "referenceLocators": [
+      {
+        "referenceId": "lambert-2019-peregocetus",
+        "locator": "pp. 1352–1359.e3; Figures 1 and S1"
+      }
+    ],
+    "reviewStatus": "automated-audit-passed"
+  },
+  {
+    "id": "range:basilosaurus:primary-sample",
+    "entityId": "basilosaurus",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Basilosaurus isis Egyptian hind-limb sample",
+    "geographicScope": "Birket Qarun Formation, Wadi Al Hitan, Egypt",
+    "olderMa": 37.7,
+    "youngerMa": 35,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "The broad late-Eocene formation envelope combines specimens and is not a direct date on UM 93231 or a global genus range."
+    },
+    "evidenceBasis": "Named specimen or explicitly bounded specimen assemblage and its stratigraphic placement in the cited primary study.",
+    "evidenceLevel": "literature-synthesized",
+    "confidence": "medium",
+    "claimIds": [
+      "claim:event:basilosaurus-hind-limb-specimens"
+    ],
+    "referenceLocators": [
+      {
+        "referenceId": "gingerich-1990-basilosaurus-hind-limbs",
+        "locator": "pp. 154–157; Figures 1–3"
+      }
+    ],
+    "reviewStatus": "automated-audit-passed"
+  },
+  {
+    "id": "range:aegicetus:primary-sample",
+    "entityId": "aegicetus",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Aegicetus gehennae type occurrence",
+    "geographicScope": "Lower Gehannam Formation, Wadi Al Hitan, Egypt",
+    "olderMa": 37.71,
+    "youngerMa": 37.71,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "The display uses the current Bartonian–Priabonian boundary while the source reports conflicting micropalaeontological and sequence-stratigraphic evidence."
+    },
+    "evidenceBasis": "Named specimen or explicitly bounded specimen assemblage and its stratigraphic placement in the cited primary study.",
+    "evidenceLevel": "literature-synthesized",
+    "confidence": "medium",
+    "claimIds": [
+      "claim:event:aegicetus-holotype-tail-propulsion"
+    ],
+    "referenceLocators": [
+      {
+        "referenceId": "gingerich-2019-aegicetus",
+        "locator": "Geological setting and age; Figures 2–4"
+      }
+    ],
+    "reviewStatus": "automated-audit-passed"
+  },
+  {
+    "id": "range:whippomorpha:global",
+    "entityId": "whippomorpha",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "whippomorpha",
+    "geographicScope": "Global or represented navigation composite",
+    "olderMa": 53,
+    "youngerMa": 0,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Rounded navigation endpoints remain unreviewed and are not a fossil FAD, molecular divergence interval or COL26.8 taxonomic decision."
+    },
+    "evidenceBasis": "Legacy Atlas display range retained for navigation only.",
+    "confidence": "low",
+    "claimIds": [],
+    "referenceLocators": [
+      {
+        "referenceId": "open-tree",
+        "locator": "https://opentreeoflife.github.io/use"
+      },
+      {
+        "referenceId": "pbdb-api-2016",
+        "locator": "doi:10.1017/pab.2015.39"
+      }
+    ],
+    "reviewStatus": "not-reviewed",
+    "evidenceLevel": "legacy-display"
+  },
+  {
+    "id": "range:hippopotamidae:global",
+    "entityId": "hippopotamidae",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "hippopotamidae",
+    "geographicScope": "Global or represented navigation composite",
+    "olderMa": 23,
+    "youngerMa": 0,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Rounded navigation endpoints remain unreviewed and are not a fossil FAD, molecular divergence interval or COL26.8 taxonomic decision."
+    },
+    "evidenceBasis": "Legacy Atlas display range retained for navigation only.",
+    "confidence": "low",
+    "claimIds": [],
+    "referenceLocators": [
+      {
+        "referenceId": "open-tree",
+        "locator": "https://opentreeoflife.github.io/use"
+      },
+      {
+        "referenceId": "pbdb-api-2016",
+        "locator": "doi:10.1017/pab.2015.39"
+      }
+    ],
+    "reviewStatus": "not-reviewed",
+    "evidenceLevel": "legacy-display"
+  },
+  {
+    "id": "range:cetaceamorpha:global",
+    "entityId": "cetaceamorpha",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "cetaceamorpha",
+    "geographicScope": "Global or represented navigation composite",
+    "olderMa": 53,
+    "youngerMa": 0,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Rounded navigation endpoints remain unreviewed and are not a fossil FAD, molecular divergence interval or COL26.8 taxonomic decision."
+    },
+    "evidenceBasis": "Unreviewed 53–0 Ma legacy display envelope widened to contain the existing Cetacea navigation range; it is not a claim-linked Cetaceamorpha FAD or crown date.",
+    "confidence": "low",
+    "claimIds": [],
+    "referenceLocators": [
+      {
+        "referenceId": "open-tree",
+        "locator": "https://opentreeoflife.github.io/use"
+      },
+      {
+        "referenceId": "pbdb-api-2016",
+        "locator": "doi:10.1017/pab.2015.39"
+      }
+    ],
+    "reviewStatus": "not-reviewed",
+    "evidenceLevel": "legacy-display"
+  },
+  {
+    "id": "range:raoellidae:global",
+    "entityId": "raoellidae",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "raoellidae",
+    "geographicScope": "Global or represented navigation composite",
+    "olderMa": 48,
+    "youngerMa": 47,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Rounded navigation endpoints remain unreviewed and are not a fossil FAD, molecular divergence interval or COL26.8 taxonomic decision."
+    },
+    "evidenceBasis": "Legacy Atlas display range retained for navigation only.",
+    "confidence": "low",
+    "claimIds": [],
+    "referenceLocators": [
+      {
+        "referenceId": "open-tree",
+        "locator": "https://opentreeoflife.github.io/use"
+      },
+      {
+        "referenceId": "pbdb-api-2016",
+        "locator": "doi:10.1017/pab.2015.39"
+      }
+    ],
+    "reviewStatus": "not-reviewed",
+    "evidenceLevel": "legacy-display"
+  },
+  {
+    "id": "range:pakicetidae:global",
+    "entityId": "pakicetidae",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "pakicetidae",
+    "geographicScope": "Global or represented navigation composite",
+    "olderMa": 50,
+    "youngerMa": 47,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Rounded navigation endpoints remain unreviewed and are not a fossil FAD, molecular divergence interval or COL26.8 taxonomic decision."
+    },
+    "evidenceBasis": "Legacy Atlas display range retained for navigation only.",
+    "confidence": "low",
+    "claimIds": [],
+    "referenceLocators": [
+      {
+        "referenceId": "open-tree",
+        "locator": "https://opentreeoflife.github.io/use"
+      },
+      {
+        "referenceId": "pbdb-api-2016",
+        "locator": "doi:10.1017/pab.2015.39"
+      }
+    ],
+    "reviewStatus": "not-reviewed",
+    "evidenceLevel": "legacy-display"
+  },
+  {
+    "id": "range:ambulocetidae:global",
+    "entityId": "ambulocetidae",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "ambulocetidae",
+    "geographicScope": "Global or represented navigation composite",
+    "olderMa": 48,
+    "youngerMa": 47,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Rounded navigation endpoints remain unreviewed and are not a fossil FAD, molecular divergence interval or COL26.8 taxonomic decision."
+    },
+    "evidenceBasis": "Legacy Atlas display range retained for navigation only.",
+    "confidence": "low",
+    "claimIds": [],
+    "referenceLocators": [
+      {
+        "referenceId": "open-tree",
+        "locator": "https://opentreeoflife.github.io/use"
+      },
+      {
+        "referenceId": "pbdb-api-2016",
+        "locator": "doi:10.1017/pab.2015.39"
+      }
+    ],
+    "reviewStatus": "not-reviewed",
+    "evidenceLevel": "legacy-display"
+  },
+  {
+    "id": "range:protocetidae:global",
+    "entityId": "protocetidae",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "protocetidae",
+    "geographicScope": "Global or represented navigation composite",
+    "olderMa": 47,
+    "youngerMa": 37.7,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Rounded navigation endpoints remain unreviewed and are not a fossil FAD, molecular divergence interval or COL26.8 taxonomic decision."
+    },
+    "evidenceBasis": "Legacy Atlas display range retained for navigation only.",
+    "confidence": "low",
+    "claimIds": [],
+    "referenceLocators": [
+      {
+        "referenceId": "open-tree",
+        "locator": "https://opentreeoflife.github.io/use"
+      },
+      {
+        "referenceId": "pbdb-api-2016",
+        "locator": "doi:10.1017/pab.2015.39"
+      }
+    ],
+    "reviewStatus": "not-reviewed",
+    "evidenceLevel": "legacy-display"
+  },
+  {
+    "id": "range:neoceti:global",
+    "entityId": "neoceti",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "neoceti",
+    "geographicScope": "Global or represented navigation composite",
+    "olderMa": 36,
+    "youngerMa": 0,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Rounded navigation endpoints remain unreviewed and are not a fossil FAD, molecular divergence interval or COL26.8 taxonomic decision."
+    },
+    "evidenceBasis": "Legacy Atlas display range retained for navigation only.",
+    "confidence": "low",
+    "claimIds": [],
+    "referenceLocators": [
+      {
+        "referenceId": "open-tree",
+        "locator": "https://opentreeoflife.github.io/use"
+      },
+      {
+        "referenceId": "pbdb-api-2016",
+        "locator": "doi:10.1017/pab.2015.39"
+      }
+    ],
+    "reviewStatus": "not-reviewed",
+    "evidenceLevel": "legacy-display"
+  },
+  {
+    "id": "range:mysticeti:global",
+    "entityId": "mysticeti",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "mysticeti",
+    "geographicScope": "Global or represented navigation composite",
+    "olderMa": 34,
+    "youngerMa": 0,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Rounded navigation endpoints remain unreviewed and are not a fossil FAD, molecular divergence interval or COL26.8 taxonomic decision."
+    },
+    "evidenceBasis": "Legacy Atlas display range retained for navigation only.",
+    "confidence": "low",
+    "claimIds": [],
+    "referenceLocators": [
+      {
+        "referenceId": "open-tree",
+        "locator": "https://opentreeoflife.github.io/use"
+      },
+      {
+        "referenceId": "pbdb-api-2016",
+        "locator": "doi:10.1017/pab.2015.39"
+      }
+    ],
+    "reviewStatus": "not-reviewed",
+    "evidenceLevel": "legacy-display"
+  },
+  {
+    "id": "range:odontoceti:global",
+    "entityId": "odontoceti",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "odontoceti",
+    "geographicScope": "Global or represented navigation composite",
+    "olderMa": 34,
+    "youngerMa": 0,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Rounded navigation endpoints remain unreviewed and are not a fossil FAD, molecular divergence interval or COL26.8 taxonomic decision."
+    },
+    "evidenceBasis": "Legacy Atlas display range retained for navigation only.",
+    "confidence": "low",
+    "claimIds": [],
+    "referenceLocators": [
+      {
+        "referenceId": "open-tree",
+        "locator": "https://opentreeoflife.github.io/use"
+      },
+      {
+        "referenceId": "pbdb-api-2016",
+        "locator": "doi:10.1017/pab.2015.39"
+      }
+    ],
+    "reviewStatus": "not-reviewed",
+    "evidenceLevel": "legacy-display"
   }
 ]

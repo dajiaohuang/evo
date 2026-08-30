@@ -1,5 +1,6 @@
 /* eslint-disable react-refresh/only-export-components */
 import { createContext, useCallback, useContext, useEffect, useMemo, useState, type ReactNode } from 'react'
+import { cetartiodactylaZhKeys } from './cetartiodactylaZhKeys'
 import { marineZhKeys } from './marineZhKeys'
 
 export type Language = 'en' | 'zh'
@@ -2363,8 +2364,8 @@ export function I18nProvider({ children }: { children: ReactNode }) {
   useEffect(() => {
     let active = true
     if (language === 'zh' && Object.keys(extendedZh).length === 0) {
-      void import('./marineZh').then(({ marineZh }) => {
-        if (active) setExtendedZh(marineZh)
+      void Promise.all([import('./marineZh'), import('./cetartiodactylaZh')]).then(([{ marineZh }, { cetartiodactylaZh }]) => {
+        if (active) setExtendedZh({ ...marineZh, ...cetartiodactylaZh })
       })
     }
     return () => { active = false }
@@ -2399,5 +2400,5 @@ export function useI18n(): I18nContextValue {
 }
 
 export function hasChineseTranslation(english: string): boolean {
-  return Object.hasOwn(zh, english) || marineZhKeys.has(english) || compactAmphibianTranslation(english) !== undefined
+  return Object.hasOwn(zh, english) || marineZhKeys.has(english) || cetartiodactylaZhKeys.has(english) || compactAmphibianTranslation(english) !== undefined
 }

@@ -94,6 +94,14 @@ const eventOwners = {
   'tupandactylus-feather-melanosomes': 'marine-reptiles-pterosaurs',
   'hamipterus-egg-assemblage': 'marine-reptiles-pterosaurs',
   'giant-pterosaur-launch-model': 'marine-reptiles-pterosaurs',
+  'indohyus-aquatic-raoellid-evidence': 'cetartiodactyla',
+  'pakicetus-composite-terrestrial-skeleton': 'cetartiodactyla',
+  'ambulocetus-holotype-locomotion': 'cetartiodactyla',
+  'peregocetus-holotype-amphibious-dispersal': 'cetartiodactyla',
+  'basilosaurus-hind-limb-specimens': 'cetartiodactyla',
+  'aegicetus-holotype-tail-propulsion': 'cetartiodactyla',
+  'whale-hippo-retroposon-topology': 'cetartiodactyla',
+  'extant-cetacean-supermatrix-tree': 'cetartiodactyla',
   'tetrapods-on-land': 'tetrapod-transition',
   'zachelmie-digit-trackways': 'tetrapod-transition',
   'tiktaalik-body-plan-mosaic': 'tetrapod-transition',
@@ -176,7 +184,7 @@ function referenceRecords(ids) {
 
 function loadChineseTranslations() {
   const translations = new Map()
-  for (const [fileName, dictionaryName, scriptKind] of [['index.tsx', 'zh', ts.ScriptKind.TSX], ['marineZh.ts', 'marineZh', ts.ScriptKind.TS]]) {
+  for (const [fileName, dictionaryName, scriptKind] of [['index.tsx', 'zh', ts.ScriptKind.TSX], ['marineZh.ts', 'marineZh', ts.ScriptKind.TS], ['cetartiodactylaZh.ts', 'cetartiodactylaZh', ts.ScriptKind.TS]]) {
     const sourcePath = join(rootDir, 'src', 'i18n', fileName)
     const source = ts.createSourceFile(sourcePath, readFileSync(sourcePath, 'utf8'), ts.ScriptTarget.Latest, true, scriptKind)
     let dictionary = null

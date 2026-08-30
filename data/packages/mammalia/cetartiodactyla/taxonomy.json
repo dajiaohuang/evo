@@ -1,18 +1,98 @@
 {
   "ontology": "data/navigation/atlas-ontology.json",
   "rootEntityIds": [
-    "cetacea"
+    "whippomorpha"
   ],
   "relationships": [
     {
-      "id": "cetacea",
+      "id": "whippomorpha",
       "parentId": "placentalia",
-      "relationshipKind": "taxonomic-parent"
+      "relationshipKind": "navigation-parent"
+    },
+    {
+      "id": "hippopotamidae",
+      "parentId": "whippomorpha",
+      "relationshipKind": "navigation-parent"
+    },
+    {
+      "id": "cetaceamorpha",
+      "parentId": "whippomorpha",
+      "relationshipKind": "navigation-parent"
+    },
+    {
+      "id": "raoellidae",
+      "parentId": "cetaceamorpha",
+      "relationshipKind": "navigation-parent"
+    },
+    {
+      "id": "indohyus",
+      "parentId": "raoellidae",
+      "relationshipKind": "navigation-parent"
+    },
+    {
+      "id": "cetacea",
+      "parentId": "cetaceamorpha",
+      "relationshipKind": "navigation-parent"
+    },
+    {
+      "id": "pakicetidae",
+      "parentId": "cetacea",
+      "relationshipKind": "navigation-parent"
+    },
+    {
+      "id": "pakicetus",
+      "parentId": "pakicetidae",
+      "relationshipKind": "navigation-parent"
+    },
+    {
+      "id": "ambulocetidae",
+      "parentId": "cetacea",
+      "relationshipKind": "navigation-parent"
+    },
+    {
+      "id": "ambulocetus",
+      "parentId": "ambulocetidae",
+      "relationshipKind": "navigation-parent"
+    },
+    {
+      "id": "protocetidae",
+      "parentId": "cetacea",
+      "relationshipKind": "navigation-parent"
+    },
+    {
+      "id": "peregocetus",
+      "parentId": "protocetidae",
+      "relationshipKind": "navigation-parent"
+    },
+    {
+      "id": "aegicetus",
+      "parentId": "protocetidae",
+      "relationshipKind": "navigation-parent"
     },
     {
       "id": "basilosauridae",
       "parentId": "cetacea",
       "relationshipKind": "taxonomic-parent"
+    },
+    {
+      "id": "basilosaurus",
+      "parentId": "basilosauridae",
+      "relationshipKind": "navigation-parent"
+    },
+    {
+      "id": "neoceti",
+      "parentId": "cetacea",
+      "relationshipKind": "navigation-parent"
+    },
+    {
+      "id": "mysticeti",
+      "parentId": "neoceti",
+      "relationshipKind": "navigation-parent"
+    },
+    {
+      "id": "odontoceti",
+      "parentId": "neoceti",
+      "relationshipKind": "navigation-parent"
     }
   ]
 }

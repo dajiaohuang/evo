@@ -184,6 +184,17 @@ test('marine reptile and pterosaur story keeps specimens and models in three sep
   await expect(page.locator('.story-step')).toHaveCount(9)
 })
 
+test('cetartiodactyl story separates specimens, interpretations, molecular models and catalogue coverage', async ({ page }) => {
+  await page.addInitScript(() => window.localStorage.setItem('evo-atlas-language', 'zh'))
+  await page.goto('./#/stories?id=whale-evidence-without-an-ancestor-ladder')
+  await expect(page.getByRole('heading', { name: '不构成祖先阶梯的八个鲸类转型档案' })).toBeVisible()
+  await expect(page.getByRole('heading', { name: '多组样本支持一个有界推断' })).toBeVisible()
+  await expect(page.getByRole('heading', { name: '微小的足不等于行走足' })).toBeVisible()
+  await expect(page.getByRole('heading', { name: '2009 年的树不是 2026 年的名录' })).toBeVisible()
+  await expect(page.getByText('COL26.8 通过本包精确的偶蹄目与鲸目 usage 根路由 503 个严格接受种；这是命名覆盖，不是 503 棵分子树、化石档案或已评审延限。', { exact: true })).toBeVisible()
+  await expect(page.locator('.story-step')).toHaveCount(8)
+})
+
 test('skip and catalog section controls do not corrupt the hash route', async ({ page }) => {
   await page.goto('./#/taxa?id=perissodactyla')
   const originalHash = await page.evaluate(() => window.location.hash)
@@ -202,7 +213,7 @@ test('Explorer restores state and removes the unsupported global model parameter
   await expect(page.getByRole('button', { name: 'points' })).toHaveClass(/is-active/)
   await expect(page.getByRole('button', { name: 'modern' })).toHaveClass(/is-active/)
   await expect(page.getByText('Shared time window 20–5 Ma')).toBeVisible()
-  await expect.poll(() => page.url()).toContain('dataset=2026.08-static-v5-rc21')
+  await expect.poll(() => page.url()).toContain('dataset=2026.08-static-v5-rc22')
   for (const fragment of ['older=20', 'younger=5', 'lat=10.000', 'lng=20.000', 'zoom=3.00', 'treeMode=fossil-range']) {
     expect(page.url()).toContain(fragment)
   }
@@ -215,7 +226,7 @@ test('Explorer requires confirmation before replacing a mismatched dataset versi
   await expect(page.getByRole('alertdialog')).toContainText('2025.01-old')
   expect(page.url()).toContain('dataset=2025.01-old')
   await page.getByRole('button', { name: 'Use current dataset' }).click()
-  await expect.poll(() => page.url()).toContain('dataset=2026.08-static-v5-rc21')
+  await expect.poll(() => page.url()).toContain('dataset=2026.08-static-v5-rc22')
 })
 
 test('a service-worker upgrade removes dataset A caches and dataset B remains coherent', async ({ page }) => {
@@ -250,7 +261,7 @@ test('a service-worker upgrade removes dataset A caches and dataset B remains co
     const versions = await Promise.all(manifestFiles.map((file) => fetch(`/evo/data/${file.url}`).then((response) => response.json()).then((manifest) => manifest.version as string)))
     return { datasetVersion: current.datasetVersion, releaseBase: current.releaseBase, urls: manifestFiles.map((file) => file.url), versions, retained: history.releases.map((entry) => entry.datasetVersion) }
   })
-  expect(releaseState.releaseBase).toBe('releases/2026.08-static-v5-rc21/')
+  expect(releaseState.releaseBase).toBe('releases/2026.08-static-v5-rc22/')
   expect(releaseState.urls.every((url) => url.startsWith(releaseState.releaseBase))).toBe(true)
   expect(releaseState.versions.every((version) => version === releaseState.datasetVersion)).toBe(true)
   expect(releaseState.retained[0]).toBe(releaseState.datasetVersion)
