@@ -99,7 +99,7 @@ export function HomePage({ onNavigate }: HomePageProps) {
             <p>{t('Compare views, run local queries and export a reproducible evidence bundle.')}</p><i>→</i>
           </button>
         </div>
-        <p className="home-maturity-note"><strong>{t('Current evidence boundary')}:</strong> {t('Perissodactyla is a curator draft with automated audit passed; all other scientific packages are generated scaffolds. No package currently claims human expert review.')}</p>
+        <p className="home-maturity-note"><strong>{t('Current evidence boundary')}:</strong> {t('Each package discloses scientific maturity separately. Platform publication and automated checks do not imply maintainer or domain-expert review.')}</p>
       </section>
 
       <section className="home-section period-section">
