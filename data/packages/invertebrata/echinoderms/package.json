@@ -1,12 +1,12 @@
 {
   "schemaVersion": 5,
   "id": "echinoderms",
-  "version": "2026.08-static-v5-rc37",
+  "version": "2026.08-static-v5-rc38",
   "title": "Echinoderms",
   "titleZh": "棘皮动物",
   "conceptScope": {
-    "en": "Evidence and navigation concepts rooted at echinodermata; membership follows the committed entity registry and does not imply exhaustive taxonomic coverage.",
-    "zh": "以 echinodermata 为根的证据与导航概念；成员范围以已提交的实体注册表为准，不表示穷尽性的分类覆盖。"
+    "en": "COL26.8 routes accepted living echinoderm names as nomenclatural browse coverage. Field-linked Echinodermata and Echinoidea profiles separate articulated Cambrian faunas and Ordovician total-group plates from contested older stereom and model-dependent crown ages. The highlighted samples do not establish a global origin, one ancestral ecology or direct ancestry, and remaining legacy ranges stay explicitly provisional.",
+    "zh": "COL26.8 把现生棘皮动物接受名作为命名浏览层路由。逐字段棘皮动物门与海胆纲档案把寒武纪关节相连动物群和奥陶纪总群骨板，与更早但有争议的立体网骨片及依赖模型的冠群年代严格分开。重点样本不确定全球起源、单一祖先生态或直系祖先，其余旧版延限继续明确标为暂定。"
   },
   "rootEntityIds": [
     "echinodermata"
@@ -25,7 +25,8 @@
     "ranges": "data/ranges/range-evidence.json",
     "externalResolutions": "data/sources/pbdb-taxon-resolution.json",
     "references": "data/references.json",
-    "occurrences": "data/fossils/*.json"
+    "occurrences": "data/fossils/*.json",
+    "profilesSource": "data/packages/invertebrata/echinoderms/profiles.source.json"
   },
   "platformMaturity": "published",
   "scientificMaturity": "structured",

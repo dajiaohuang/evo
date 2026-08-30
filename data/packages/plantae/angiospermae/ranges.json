@@ -11,12 +11,18 @@
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "note": "The 135–0 Ma atlas range is a rounded navigation envelope; latest-Jurassic crown estimates are calibration-dependent models, not direct fossil FADs."
     },
     "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
     "confidence": "medium",
-    "claimIds": [],
+    "claimIds": [
+      "claim:taxon:angiospermae:fossil-range"
+    ],
     "referenceLocators": [
+      {
+        "referenceId": "wu-2026-angiosperm-timescale",
+        "locator": "1242–1251; Figures 1–5; age-estimation analyses"
+      },
       {
         "referenceId": "open-tree",
         "locator": "https://opentreeoflife.github.io/use"
@@ -26,8 +32,8 @@
         "locator": "doi:10.1017/pab.2015.39"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "literature-synthesized"
   },
   {
     "id": "range:monocotyledones:global",
@@ -35,18 +41,24 @@
     "rangeKind": "global-composite",
     "taxonomicConcept": "Monocotyledones",
     "geographicScope": "Global or represented navigation composite",
-    "olderMa": 120,
+    "olderMa": 115,
     "youngerMa": 0,
     "status": "available",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "note": "The profile uses the approximately 115 Ma Crato occurrence as a crown-monocot fossil anchor, not the origin of monocots or a global class FAD."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "evidenceBasis": "Cratolirion bognerianum provides an approximately 115 Ma crown-monocot occurrence with root-to-reproductive anatomy.",
     "confidence": "medium",
-    "claimIds": [],
+    "claimIds": [
+      "claim:taxon:monocotyledones:fossil-range"
+    ],
     "referenceLocators": [
+      {
+        "referenceId": "coiffard-2019-cratolirion",
+        "locator": "691–696; Figures 1–3; fossil description and phylogenetic analysis"
+      },
       {
         "referenceId": "open-tree",
         "locator": "https://opentreeoflife.github.io/use"
@@ -56,8 +68,8 @@
         "locator": "doi:10.1017/pab.2015.39"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "literature-synthesized"
   },
   {
     "id": "range:poaceae:global",

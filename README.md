@@ -13,7 +13,9 @@ Evo Atlas 不是一个把生成文本包装成“完整百科”的项目。它�
 - 名录覆盖：固定到 Catalogue of Life Base Release `COL26.8`。2,183,133 个严格接受种全部能沿真实父子链路由到唯一资源归属，另有 2,065,436 个异名、歧义异名和误用名可解析到接受名。
 - 内容覆盖：24 个静态资源包中的证据档案、事件、故事、范围和参考文献。rc37 已无 `generated-scaffold`，科学成熟度为 23 个 `structured` 和 1 个 `curated-draft`（奇蹄目）；23 个包尚未人工审阅，奇蹄目的存储状态为 `in-review`，但内容摘要变化使有效状态成为 `stale`，没有包声称达到科学 `published`。平台 `published` 与自动检查通过只表示静态发布链完整，不等于内容或专家审阅已经完成。
 
-当前开发数据快照为 `2026.08-static-v5-rc37`，Web/Android/iOS 客户端版本为 `0.20.0`。精确记录数、校验和和限制以 [`data/manifest.json`](data/manifest.json) 为准；科学内容变更见 [`data/CHANGELOG.md`](data/CHANGELOG.md)。
+当前开发数据快照为 `2026.08-static-v5-rc38`，Web/Android/iOS 客户端版本为 `0.20.0`。精确记录数、校验和和限制以 [`data/manifest.json`](data/manifest.json) 为准；科学内容变更见 [`data/CHANGELOG.md`](data/CHANGELOG.md)。
+
+`rc38` 为海绵—刺胞动物、软体动物—腕足动物、棘皮动物、三叶虫—螯肢动物、甲壳动物—昆虫、早期陆生植物、裸子植物和被子植物新增 20 份代表性逐字段证据档案。每个可见年代、地理、分类、生态和形态字段都连接到具页码、图号或章节定位符的主研究主张；争议化石、模型分化时间和样本出现范围仍彼此分开。COL26.8 的 2,183,133 个接受种继续全部唯一归包且 0 个未匹配；逐名路由仍不冒充逐物种 prose 档案。rc34–rc37 的档案、竞争拓扑、灵长目 `3W7` 修正、首次教程、原生测试、CAO 文档与懒加载内容全部保留，Web、Android 与 iOS 继续读取同一个静态发布快照。
 
 `rc37` 为哺乳动物五个资源包新增 15 份具名标本档案：哺乳类起源、灵长类、食肉类、鲸偶蹄类和其他哺乳类的每个公开档案字段都连接到有精确页码、图版或章节定位的一手研究 claim。高阶冠群/总群范围、COL 命名路由和具争议的化石位置仍与标本级事实分开；没有把导航父子关系写成祖先序列。灵长目 COL26.8 路由使用已核对的 usage ID `3W7`，530 个现生接受种名与全部 2,183,133 个接受种的唯一归属保持不变。rc35 的图谱/主龙类拓扑与档案、rc36 的四足动物/爬行动物档案及边界、首次教程、原生端测试、CAO 文档和全部懒加载内容均完整保留。
 
@@ -121,7 +123,7 @@ npm run mobile:ios
 
 `npm run mobile:build` 只生成 `dist-mobile/`；`mobile:sync` 再把该壳和插件配置复制到 `android/` 与 `ios/`。不要手改原生工程中被 `.gitignore` 排除的 Web 产物。应用 ID 为 `io.github.dajiaohuang.evoatlas`，自定义深链示例为：
 
-安装后的“数据”页提供两级离线能力：单个/全部资源包下载适合日常使用；“保存完整图谱”会保存 Core、全部资源包、全局化石、全部 CAO2024 帧和完整 COL 名录。当前 rc36 的完整交互数据体积与文件数以版本化发布清单为准；以后版本会按发布清单显示实际体积。重复的 ZIP 导出包不计入离线交互集。
+安装后的“数据”页提供两级离线能力：单个/全部资源包下载适合日常使用；“保存完整图谱”会保存 Core、全部资源包、全局化石、全部 CAO2024 帧和完整 COL 名录。当前 rc38 的完整交互数据体积与文件数以版本化发布清单为准；以后版本会按发布清单显示实际体积。重复的 ZIP 导出包不计入离线交互集。
 
 ```text
 evoatlas://open/stories?id=angiosperm-evidence-boundaries
@@ -224,4 +226,4 @@ Evo Atlas 没有账号、广告、分析 SDK 或应用后端。笔记、收藏�
 
 ## English summary
 
-Evo Atlas is a bilingual, static-first deep-time evidence explorer for Web, Android and iOS. The dashboard synchronizes geological time, six distinct CAO2024 reconstruction layers, fossil samples, a 389-entity navigation tree and claim-level evidence. The rc36 data retain the rc34 fish and amphibian profiles and the rc35 chronology/archosaur work while adding named tetrapod-transition navigation, separating Mosasauroidea from true Mosasauridae, and contrasting older uncertain Bobosaurus with diagnostic Rhaeticosaurus; ichthyosaurs, plesiosaurs and pterosaurs remain independent radiations. The pinned COL26.8 registry still routes all 2,183,133 strictly accepted species to one resource owner with zero unmatched names, while package maturity remains separately disclosed. Android and iOS are Capacitor 8 projects sharing the same React client at app version 0.20.0; the native shell is bundled, and the complete offline manifest retains Core, every package, all fossils, all CAO2024 frames and the full COL registry. No account, analytics SDK, private API key, database or application server is required.
+Evo Atlas is a bilingual, static-first deep-time evidence explorer for Web, Android and iOS. The dashboard synchronizes geological time, six distinct CAO2024 reconstruction layers, fossil samples, a 392-entity navigation tree and claim-level evidence. The rc38 data retain every rc34–rc37 profile, competing topology, tutorial, native test and CAO document while adding twenty field-linked profiles across eight plant and invertebrate packages. Specimen observations, disputed placement, modelled divergence, clade ranges and direct ancestry remain separate evidence levels. The pinned COL26.8 registry still routes all 2,183,133 strictly accepted species to one resource owner with zero unmatched names, while package maturity remains separately disclosed. Android and iOS are Capacitor 8 projects sharing the same React client at app version 0.20.0; the native shell is bundled, and the complete offline manifest retains Core, every package, all fossils, all CAO2024 frames and the full COL registry. No account, analytics SDK, private API key, database or application server is required.

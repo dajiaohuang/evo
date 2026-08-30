@@ -1,7 +1,7 @@
 {
   "schemaVersion": 5,
   "id": "trilobites-chelicerates",
-  "version": "2026.08-static-v5-rc37",
+  "version": "2026.08-static-v5-rc38",
   "title": "Trilobites and Chelicerates",
   "titleZh": "三叶虫与螯肢动物",
   "conceptScope": {
@@ -44,7 +44,8 @@
     "ranges": "data/ranges/range-evidence.json",
     "externalResolutions": "data/sources/pbdb-taxon-resolution.json",
     "references": "data/references.json",
-    "occurrences": "data/fossils/*.json"
+    "occurrences": "data/fossils/*.json",
+    "profilesSource": "data/packages/arthropoda/trilobites-chelicerates/profiles.source.json"
   },
   "platformMaturity": "published",
   "scientificMaturity": "structured",

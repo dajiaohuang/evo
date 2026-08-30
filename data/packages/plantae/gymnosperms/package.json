@@ -1,12 +1,12 @@
 {
   "schemaVersion": 5,
   "id": "gymnosperms",
-  "version": "2026.08-static-v5-rc37",
+  "version": "2026.08-static-v5-rc38",
   "title": "Gymnosperms",
   "titleZh": "裸子植物",
   "conceptScope": {
-    "en": "COL26.8 accepted-species routing includes living cycads, Ginkgo, conifers and gnetophytes; in the pinned catalogue, gnetophytes enter through the routed Pinopsida root. Current Atlas entities cover the gymnosperm aggregate, cycads, Ginkgo, conifers and Araucariaceae. Curated events keep specimen occurrences, extant-lineage topology and modelled divergence or biogeography separate. A gnetophyte dossier and claim-linked global ranges remain pending; legacy range projections are unreviewed.",
-    "zh": "COL26.8 已接受物种路由包含现生苏铁类、银杏类、针叶树类和买麻藤类；在固定目录中，买麻藤类经已路由的松柏纲根进入本包。当前图谱实体覆盖裸子植物集合、苏铁类、银杏类、针叶树类和南洋杉科。已整理事件严格区分标本出现、现生谱系拓扑以及模型分化或生物地理推断。买麻藤类档案和有主张关联的全局延限仍待补充；旧版延限投影尚未复核。"
+    "en": "COL26.8 accepted-species routing includes living cycads, Ginkgo, conifers and gnetophytes; in the pinned catalogue, gnetophytes enter through the routed Pinopsida root. Field-linked Cycadophyta and Ginkgophyta profiles keep total-evidence models and the bounded Ginkgoxylon wood specimen separate from direct fossil first appearances. A gnetophyte dossier remains pending; other legacy range projections stay explicitly provisional.",
+    "zh": "COL26.8 已接受物种路由包含现生苏铁类、银杏类、针叶树类和买麻藤类；在固定目录中，买麻藤类经已路由的松柏纲根进入本包。逐字段苏铁门与银杏门档案把全证据模型和范围受限的 Ginkgoxylon 木材标本与直接化石首现严格分开。买麻藤类档案仍待补充；其他旧版延限继续明确标为暂定。"
   },
   "rootEntityIds": [
     "gymnospermae"
@@ -23,7 +23,8 @@
     "ranges": "data/ranges/range-evidence.json",
     "externalResolutions": "data/sources/pbdb-taxon-resolution.json",
     "references": "data/references.json",
-    "occurrences": "data/fossils/*.json"
+    "occurrences": "data/fossils/*.json",
+    "profilesSource": "data/packages/plantae/gymnosperms/profiles.source.json"
   },
   "platformMaturity": "published",
   "scientificMaturity": "structured",

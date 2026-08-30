@@ -97,12 +97,18 @@
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "note": "The 425–0 Ma atlas envelope remains a rounded clade navigation range; the cited 407 Ma Asteroxylon anatomy does not by itself establish a global lycophyte FAD."
     },
     "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
     "confidence": "medium",
-    "claimIds": [],
+    "claimIds": [
+      "claim:taxon:lycophyta:fossil-range"
+    ],
     "referenceLocators": [
+      {
+        "referenceId": "hetherington-2021-asteroxylon",
+        "locator": "e69447, 1–14; Figures 1–6; Videos 1–2"
+      },
       {
         "referenceId": "open-tree",
         "locator": "https://opentreeoflife.github.io/use"
@@ -277,12 +283,18 @@
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "note": "The 280–0 Ma atlas envelope is a rounded total-group navigation span contextualized by fossil-integrated analyses, not a directly dated crown FAD or uninterrupted lineage."
     },
     "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
     "confidence": "medium",
-    "claimIds": [],
+    "claimIds": [
+      "claim:taxon:cycadophyta:fossil-range"
+    ],
     "referenceLocators": [
+      {
+        "referenceId": "coiro-2023-cycad-biogeography",
+        "locator": "1619–1631; Figures 2–6; Table 1"
+      },
       {
         "referenceId": "open-tree",
         "locator": "https://opentreeoflife.github.io/use"
@@ -307,12 +319,18 @@
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "note": "The 270–0 Ma atlas envelope remains a rounded phylum navigation range; the 165–153 Ma wood specimen is a bounded occurrence, not the ginkgophyte FAD."
     },
     "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
     "confidence": "medium",
-    "claimIds": [],
+    "claimIds": [
+      "claim:taxon:ginkgophyta:fossil-range"
+    ],
     "referenceLocators": [
+      {
+        "referenceId": "jiang-2016-ginkgoxylon",
+        "locator": "38191, 1–8; Figures 1–3; Systematic palaeontology"
+      },
       {
         "referenceId": "open-tree",
         "locator": "https://opentreeoflife.github.io/use"
@@ -397,12 +415,18 @@
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "note": "The 135–0 Ma atlas range is a rounded navigation envelope; latest-Jurassic crown estimates are calibration-dependent models, not direct fossil FADs."
     },
     "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
     "confidence": "medium",
-    "claimIds": [],
+    "claimIds": [
+      "claim:taxon:angiospermae:fossil-range"
+    ],
     "referenceLocators": [
+      {
+        "referenceId": "wu-2026-angiosperm-timescale",
+        "locator": "1242–1251; Figures 1–5; age-estimation analyses"
+      },
       {
         "referenceId": "open-tree",
         "locator": "https://opentreeoflife.github.io/use"
@@ -412,8 +436,8 @@
         "locator": "doi:10.1017/pab.2015.39"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "literature-synthesized"
   },
   {
     "id": "range:monocotyledones:global",
@@ -421,18 +445,24 @@
     "rangeKind": "global-composite",
     "taxonomicConcept": "Monocotyledones",
     "geographicScope": "Global or represented navigation composite",
-    "olderMa": 120,
+    "olderMa": 115,
     "youngerMa": 0,
     "status": "available",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "note": "The profile uses the approximately 115 Ma Crato occurrence as a crown-monocot fossil anchor, not the origin of monocots or a global class FAD."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "evidenceBasis": "Cratolirion bognerianum provides an approximately 115 Ma crown-monocot occurrence with root-to-reproductive anatomy.",
     "confidence": "medium",
-    "claimIds": [],
+    "claimIds": [
+      "claim:taxon:monocotyledones:fossil-range"
+    ],
     "referenceLocators": [
+      {
+        "referenceId": "coiffard-2019-cratolirion",
+        "locator": "691–696; Figures 1–3; fossil description and phylogenetic analysis"
+      },
       {
         "referenceId": "open-tree",
         "locator": "https://opentreeoflife.github.io/use"
@@ -442,8 +472,8 @@
         "locator": "doi:10.1017/pab.2015.39"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "literature-synthesized"
   },
   {
     "id": "range:poaceae:global",
@@ -541,18 +571,24 @@
     "rangeKind": "global-composite",
     "taxonomicConcept": "Marchantiophyta",
     "geographicScope": "Global or represented navigation composite",
-    "olderMa": 470,
+    "olderMa": 387.7,
     "youngerMa": 0,
     "status": "available",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "note": "The profile uses the Givetian body-fossil record as its evidence-linked older bound; older cryptospores are not silently promoted to crown-liverwort fossils."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "evidenceBasis": "Metzgeriothallus sharonae provides a Givetian liverwort body-fossil anchor; older cryptospore and sporangial evidence remains affinity-bounded.",
     "confidence": "medium",
-    "claimIds": [],
+    "claimIds": [
+      "claim:taxon:marchantiophyta:fossil-range"
+    ],
     "referenceLocators": [
+      {
+        "referenceId": "hernick-2008-metzgeriothallus",
+        "locator": "154–162; Plates I–II; Systematics and Conclusions"
+      },
       {
         "referenceId": "open-tree",
         "locator": "https://opentreeoflife.github.io/use"
@@ -562,8 +598,8 @@
         "locator": "doi:10.1017/pab.2015.39"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "literature-synthesized"
   },
   {
     "id": "range:anthocerotophyta:global",
@@ -1907,14 +1943,15 @@
     "uncertainty": {
       "olderMa": 5,
       "youngerMa": null,
-      "note": "The 510 Ma endpoint represents the earliest robust articulated faunas, reported within an approximately 515–510 Ma interval. Older 520–525 Ma isolated stereom is retained as a separate claim, not treated as an articulated-body endpoint."
+      "note": "The 510–0 Ma profile range begins with robust articulated faunas; older isolated stereom and contested Yanjiahella material do not set the body-fossil endpoint."
     },
     "evidenceBasis": "Articulated Gondwanan faunas document at least four differentiated echinoderm body plans by about 510 Ma; isolated stereom and the contested Fortunian Yanjiahella assignment are represented by separate claims.",
     "confidence": "high",
     "claimIds": [
       "claim:taxon:echinodermata:articulated-faunas-510ma",
       "claim:taxon:echinodermata:earliest-stereom-ossicles",
-      "claim:taxon:echinodermata:yanjiahella-affinity"
+      "claim:taxon:echinodermata:yanjiahella-affinity",
+      "claim:taxon:echinodermata:fossil-range"
     ],
     "referenceLocators": [
       {
@@ -1926,7 +1963,7 @@
         "locator": "Figure 2a–d; opening Matters Arising text and Methods"
       }
     ],
-    "reviewStatus": "not-reviewed",
+    "reviewStatus": "automated-audit-passed",
     "evidenceLevel": "literature-synthesized"
   },
   {
@@ -2001,13 +2038,14 @@
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "The rounded older endpoint represents Darriwilian stem-group material and is not the crown-group origin; crown dating is retained as a separate model-dependent claim."
+      "note": "The 460–0 Ma range uses Darriwilian total-group material; it is not the crown origin, which is modelled much later across sampled analyses."
     },
     "evidenceBasis": "Disarticulated bothriocidaroid plates document a Darriwilian total-group record; time-scaled roots extend into the Dapingian or Darriwilian, whereas phylogenomics places the crown much later.",
     "confidence": "medium",
     "claimIds": [
       "claim:taxon:echinoidea:ordovician-stem-record",
-      "claim:taxon:echinoidea:crown-origin"
+      "claim:taxon:echinoidea:crown-origin",
+      "claim:taxon:echinoidea:fossil-range"
     ],
     "referenceLocators": [
       {
@@ -2019,7 +2057,7 @@
         "locator": "pp. 1–2; Figure 6 and Figure 6—figure supplement 1"
       }
     ],
-    "reviewStatus": "not-reviewed",
+    "reviewStatus": "automated-audit-passed",
     "evidenceLevel": "literature-synthesized"
   },
   {
@@ -9009,13 +9047,14 @@
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "The authors state that additional specimens are required; funnel and opening homologies do not demonstrate crown-Porifera membership or a global first appearance."
+      "note": "The 609–600 Ma atlas envelope is a formation-level context for one specimen, not a global Eocyathispongia or Porifera FAD, LAD or lineage duration."
     },
     "evidenceBasis": "Named specimen, explicitly bounded geochemical or genomic dataset, or stated model interval in the cited primary studies.",
     "evidenceLevel": "literature-synthesized",
     "confidence": "medium",
     "claimIds": [
-      "claim:event:eocyathispongia-single-specimen"
+      "claim:event:eocyathispongia-single-specimen",
+      "claim:taxon:eocyathispongia:fossil-range"
     ],
     "referenceLocators": [
       {
@@ -9037,13 +9076,14 @@
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Grid homology, ancestral skeletal state and phylogenetic placement depend on sampled taxa and character coding; the fossils do not directly date every sponge crown split."
+      "note": "The 551–539 Ma display interval is a formation-level envelope for the sampled material, not a global FAD, LAD or crown-sponge age."
     },
     "evidenceBasis": "Named specimen, explicitly bounded geochemical or genomic dataset, or stated model interval in the cited primary studies.",
     "evidenceLevel": "literature-synthesized",
     "confidence": "medium",
     "claimIds": [
-      "claim:event:helicolocellus-organic-skeleton"
+      "claim:event:helicolocellus-organic-skeleton",
+      "claim:taxon:helicolocellus:fossil-range"
     ],
     "referenceLocators": [
       {
@@ -9093,13 +9133,14 @@
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Tentacles, periderm and matrix position are interpretations of a single surface; the fossil is not a measured feeding event, direct ancestor or permanent global FAD."
+      "note": "The 562–557 Ma interval is the bounded Bradgate Formation context of one specimen, not a cnidarian crown age or global taxon range."
     },
     "evidenceBasis": "Named specimen, explicitly bounded geochemical or genomic dataset, or stated model interval in the cited primary studies.",
     "evidenceLevel": "literature-synthesized",
     "confidence": "medium",
     "claimIds": [
-      "claim:event:auroralumina-charnwood-polyps"
+      "claim:event:auroralumina-charnwood-polyps",
+      "claim:taxon:auroralumina:fossil-range"
     ],
     "referenceLocators": [
       {
@@ -9759,13 +9800,14 @@
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "A formation-scale display envelope for the cited sample, not a direct date or guaranteed global first and last appearance."
+      "note": "The 558–555 Ma envelope represents the cited White Sea sample, not a global species duration or molluscan first appearance."
     },
     "evidenceBasis": "More than 35 late Ediacaran body fossils test a mollusc-like interpretation without preserving a crown diagnosis.",
     "evidenceLevel": "literature-synthesized",
     "confidence": "medium",
     "claimIds": [
-      "claim:event:kimberella-white-sea-morphology"
+      "claim:event:kimberella-white-sea-morphology",
+      "claim:taxon:kimberella:fossil-range"
     ],
     "referenceLocators": [
       {
@@ -9787,13 +9829,14 @@
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "A broad Burgess Shale navigation envelope, not a specimen-level radiometric date or a global taxon range."
+      "note": "The 508–505 Ma envelope is a Burgess Shale sample interval, not a global species range or crown-mollusc calibration."
     },
     "evidenceBasis": "A 189-specimen sample reveals repeated tooth rows, a broad foot and mantle-groove structures.",
-    "evidenceLevel": "legacy-display",
+    "evidenceLevel": "literature-synthesized",
     "confidence": "medium",
     "claimIds": [
-      "claim:event:odontogriphus-radula-sample"
+      "claim:event:odontogriphus-radula-sample",
+      "claim:taxon:odontogriphus:fossil-range"
     ],
     "referenceLocators": [
       {
@@ -9843,13 +9886,14 @@
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "A broad locality envelope; cephalopod affinity is contested and this is not a crown-Cephalopoda FAD."
+      "note": "The 508–505 Ma envelope is a bounded Burgess Shale context, not a global species duration or cephalopod crown age."
     },
     "evidenceBasis": "Ninety newly prepared specimens reveal a funnel, fins, eyes and two tentacles but no diagnostic hard-part series.",
-    "evidenceLevel": "legacy-display",
+    "evidenceLevel": "literature-synthesized",
     "confidence": "low",
     "claimIds": [
-      "claim:event:nectocaris-soft-body-cephalopod-test"
+      "claim:event:nectocaris-soft-body-cephalopod-test",
+      "claim:taxon:nectocaris:fossil-range"
     ],
     "referenceLocators": [
       {
@@ -10347,13 +10391,14 @@
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Study-level Darriwilian occurrence, not a global genus range."
+      "note": "The 466–463 Ma interval is a formation-level context for the profiled specimen, not a global genus FAD, LAD or continuous duration."
     },
     "evidenceBasis": "The displayed interval is bounded to the cited dossier sample or model and does not establish a global first appearance, origin or uninterrupted lineage.",
     "evidenceLevel": "literature-synthesized",
     "confidence": "high",
     "claimIds": [
-      "claim:event:bohemolichas-gut-contents"
+      "claim:event:bohemolichas-gut-contents",
+      "claim:taxon:bohemolichas:fossil-range"
     ],
     "referenceLocators": [
       {
@@ -10429,13 +10474,14 @@
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Formation-level occurrence of scanned specimens, not a global FAD."
+      "note": "The 519–518 Ma envelope is a Chengjiang sample interval, not a stem-chelicerate origin date or global species duration."
     },
     "evidenceBasis": "The displayed interval is bounded to the cited dossier sample or model and does not establish a global first appearance, origin or uninterrupted lineage.",
     "evidenceLevel": "literature-synthesized",
     "confidence": "medium",
     "claimIds": [
-      "claim:event:urokodia-chelicera-book-gill"
+      "claim:event:urokodia-chelicera-book-gill",
+      "claim:taxon:urokodia:fossil-range"
     ],
     "referenceLocators": [
       {
@@ -10485,13 +10531,14 @@
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Burgess Shale sample envelope, not a global genus range."
+      "note": "The 508.1–505 Ma interval is a Burgess Shale sample envelope, not a global genus duration or chelicerate divergence time."
     },
     "evidenceBasis": "The displayed interval is bounded to the cited dossier sample or model and does not establish a global first appearance, origin or uninterrupted lineage.",
     "evidenceLevel": "literature-synthesized",
     "confidence": "contested",
     "claimIds": [
-      "claim:event:mollisonia-neuroanatomy-mosaic"
+      "claim:event:mollisonia-neuroanatomy-mosaic",
+      "claim:taxon:mollisonia:fossil-range"
     ],
     "referenceLocators": [
       {
@@ -10778,13 +10825,14 @@
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Rounded locality age; not a global first or last appearance or direct-ancestor duration."
+      "note": "The 508 Ma display point is a locality sample age, not a global species range or mandibulate origin date."
     },
     "evidenceBasis": "Holotype ROM 63823 and paratypes document the sampled occurrence and anatomy.",
     "evidenceLevel": "literature-synthesized",
     "confidence": "high",
     "claimIds": [
-      "claim:event:tokummia-mandibulate-anatomy"
+      "claim:event:tokummia-mandibulate-anatomy",
+      "claim:taxon:tokummia:fossil-range"
     ],
     "referenceLocators": [
       {
@@ -10806,13 +10854,14 @@
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Rounded locality age; the series is not a global species range."
+      "note": "The 508 Ma display point is a Burgess Shale sample context, not a global species duration or pancrustacean crown age."
     },
     "evidenceBasis": "More than 1,800 museum specimens include figured ROMIP and USNM material.",
     "evidenceLevel": "literature-synthesized",
     "confidence": "high",
     "claimIds": [
-      "claim:event:waptia-mandibulate-series"
+      "claim:event:waptia-mandibulate-series",
+      "claim:taxon:waptia:fossil-range"
     ],
     "referenceLocators": [
       {
@@ -10869,13 +10918,14 @@
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Broad Cambrian Stage 3 display envelope, not a direct date on each phosphatized individual."
+      "note": "The 521–514 Ma interval is a broad formation context for the developmental sample, not a global species duration or eucrustacean FAD."
     },
     "evidenceBasis": "Topotype growth stages are recorded from the Lower Cambrian Orsten-type deposit.",
     "evidenceLevel": "literature-synthesized",
     "confidence": "medium",
     "claimIds": [
-      "claim:event:yicaris-developmental-series"
+      "claim:event:yicaris-developmental-series",
+      "claim:taxon:yicaris:fossil-range"
     ],
     "referenceLocators": [
       {

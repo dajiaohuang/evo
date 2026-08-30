@@ -1,7 +1,7 @@
 {
   "schemaVersion": 5,
   "id": "sponges-cnidarians",
-  "version": "2026.08-static-v5-rc37",
+  "version": "2026.08-static-v5-rc38",
   "title": "Sponges and Cnidarians",
   "titleZh": "海绵与刺胞动物",
   "conceptScope": {
@@ -45,7 +45,8 @@
     "ranges": "data/ranges/range-evidence.json",
     "externalResolutions": "data/sources/pbdb-taxon-resolution.json",
     "references": "data/references.json",
-    "occurrences": "data/fossils/*.json"
+    "occurrences": "data/fossils/*.json",
+    "profilesSource": "data/packages/invertebrata/sponges-cnidarians/profiles.source.json"
   },
   "platformMaturity": "published",
   "scientificMaturity": "structured",

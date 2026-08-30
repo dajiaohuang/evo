@@ -1,12 +1,12 @@
 {
   "schemaVersion": 5,
   "id": "angiospermae",
-  "version": "2026.08-static-v5-rc37",
+  "version": "2026.08-static-v5-rc38",
   "title": "Angiosperms and Grasses",
   "titleZh": "被子植物与禾草",
   "conceptScope": {
-    "en": "COL26.8 accepted-species routing covers flowering plants through the pinned Liliopsida and Magnoliopsida roots; Magnoliopsida is not presented as an exact eudicot root. Curated events separate calibration-sensitive crown models, specimen-scoped Early Cretaceous body fossils, phytolith assemblages and tooth-enamel isotope evidence. Floristic-dominance claims and claim-linked global ranges remain pending; legacy range projections are unreviewed.",
-    "zh": "COL26.8 已接受物种经固定的百合纲与木兰纲根路由到被子植物内容包；木兰纲不被表述为精确的真双子叶植物根。已整理事件严格区分校准敏感的冠群模型、标本限定的早白垩世植物体化石、植硅体组合与牙釉质同位素证据。植物区系优势主张和有主张关联的全局延限仍待补充；旧版延限投影尚未复核。"
+    "en": "COL26.8 accepted-species routing covers flowering plants through the pinned Liliopsida and Magnoliopsida roots; Magnoliopsida is not presented as an exact eudicot root. Field-linked Angiospermae and Monocotyledoneae profiles separate calibration-sensitive crown models from the specimen-scoped Montsechia and Cratolirion records. Floristic-dominance claims remain pending and other legacy ranges remain explicitly provisional.",
+    "zh": "COL26.8 已接受物种经固定的百合纲与木兰纲根路由到被子植物内容包；木兰纲不被表述为精确的真双子叶植物根。逐字段被子植物与单子叶植物档案把校准敏感的冠群模型与标本限定的 Montsechia、Cratolirion 记录严格分开。植物区系优势主张仍待补充，其他旧版延限继续明确标为暂定。"
   },
   "rootEntityIds": [
     "angiospermae"
@@ -23,7 +23,8 @@
     "ranges": "data/ranges/range-evidence.json",
     "externalResolutions": "data/sources/pbdb-taxon-resolution.json",
     "references": "data/references.json",
-    "occurrences": "data/fossils/*.json"
+    "occurrences": "data/fossils/*.json",
+    "profilesSource": "data/packages/plantae/angiospermae/profiles.source.json"
   },
   "platformMaturity": "published",
   "scientificMaturity": "structured",

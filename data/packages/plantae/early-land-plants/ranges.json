@@ -71,12 +71,18 @@
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "note": "The 425–0 Ma atlas envelope remains a rounded clade navigation range; the cited 407 Ma Asteroxylon anatomy does not by itself establish a global lycophyte FAD."
     },
     "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
     "confidence": "medium",
-    "claimIds": [],
+    "claimIds": [
+      "claim:taxon:lycophyta:fossil-range"
+    ],
     "referenceLocators": [
+      {
+        "referenceId": "hetherington-2021-asteroxylon",
+        "locator": "e69447, 1–14; Figures 1–6; Videos 1–2"
+      },
       {
         "referenceId": "open-tree",
         "locator": "https://opentreeoflife.github.io/use"
@@ -215,18 +221,24 @@
     "rangeKind": "global-composite",
     "taxonomicConcept": "Marchantiophyta",
     "geographicScope": "Global or represented navigation composite",
-    "olderMa": 470,
+    "olderMa": 387.7,
     "youngerMa": 0,
     "status": "available",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "note": "The profile uses the Givetian body-fossil record as its evidence-linked older bound; older cryptospores are not silently promoted to crown-liverwort fossils."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "evidenceBasis": "Metzgeriothallus sharonae provides a Givetian liverwort body-fossil anchor; older cryptospore and sporangial evidence remains affinity-bounded.",
     "confidence": "medium",
-    "claimIds": [],
+    "claimIds": [
+      "claim:taxon:marchantiophyta:fossil-range"
+    ],
     "referenceLocators": [
+      {
+        "referenceId": "hernick-2008-metzgeriothallus",
+        "locator": "154–162; Plates I–II; Systematics and Conclusions"
+      },
       {
         "referenceId": "open-tree",
         "locator": "https://opentreeoflife.github.io/use"
@@ -236,8 +248,8 @@
         "locator": "doi:10.1017/pab.2015.39"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "literature-synthesized"
   },
   {
     "id": "range:anthocerotophyta:global",
