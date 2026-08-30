@@ -1,5 +1,11 @@
 # Dataset changelog
 
+## 2026.08-static-v5-rc44 — 2026-08-31
+
+- Promoted ten plant, invertebrate and mammal packages from `structured` to `source-linked` after a strict three-layer audit confirmed fit primary-study or systematic-review support with concrete locators for all 392 displayed profile fields, all 264 package claims and all 102 story steps.
+- Completed the 141 previously missing Chinese claim statements in these packages while preserving each source's taxonomic, geographic, ecological, morphological and geochronological scope and uncertainty.
+- Advanced the shared Web/Android/iOS dataset projection to rc44 at app version `0.20.0`; retained all rc43 and rc42 work without changing review records, PBDB occurrence scope or occurrence projections.
+
 ## 2026.08-static-v5-rc43 — 2026-08-31
 
 - Promoted eleven plant, invertebrate, fish, tetrapod and archosaur packages from `structured` to `source-linked` after a package-scoped audit found fit primary-study or systematic-review support with concrete locators for all 239 claims, all 366 displayed profile fields and all 99 steps across fourteen evidence-bound stories. This maturity label does not imply 392 entity-level dossiers or external expert review.
