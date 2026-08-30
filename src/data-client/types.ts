@@ -465,3 +465,30 @@ export interface CurrentRuntimeManifest {
   }
   evidenceBoundary: Record<string, string | Record<string, number>>
 }
+
+export interface RuntimeReleaseFile extends RuntimeFile {
+  bytes: number
+  sha256: string
+}
+
+export interface RuntimeReleaseFilesIndex {
+  schemaVersion: number
+  datasetVersion: string
+  files: RuntimeReleaseFile[]
+}
+
+export interface RuntimeReleaseSummary {
+  datasetVersion: string
+  releaseBase: string
+  filesIndex: string
+  generatedAt: string
+  bytes: number
+}
+
+export interface RuntimeReleasesIndex {
+  schemaVersion: number
+  retentionLimit: number
+  retentionByteLimit: number
+  retainedBytes: number
+  releases: RuntimeReleaseSummary[]
+}

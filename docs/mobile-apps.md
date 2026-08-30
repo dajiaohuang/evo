@@ -25,7 +25,11 @@ dist-mobile/                 # 临时生成的移动客户端壳，不提交
 https://dajiaohuang.github.io/evo/data/
 ```
 
-客户端先读取 `current.json`，再读取 `releases/<datasetVersion>/` 下的不可变数据。清单和分片仍经过现有 SHA-256 与版本一致性检查。已经读取的资源可使用现有缓存；首次打开尚未缓存的地图帧、名录分片、化石分片或资源包时需要网络。
+客户端先读取 `current.json`，再读取 `releases/<datasetVersion>/` 下的不可变数据。清单和分片仍经过现有 SHA-256 与版本一致性检查。Android、iOS 与 Web 不存在内容白名单或精简版数据注册表：三端都能访问 Core、全部资源包、全局化石、全部 CAO2024 地图帧和完整 COL 名录。
+
+“数据”页提供两种显式离线下载。单包或“全部已发布资源包”只保存资源包自身及其化石分片；“保存完整图谱”读取当前版本的 `release-files.json`，请求持久存储，并保存全部交互数据以及离线启动所需的 `current.json`、`releases.json` 和文件清单。重复的 ZIP 导出包不会再次保存。rc24 的完整交互集约为 514 MiB / 3,702 个文件；界面始终以当前发布清单计算实际体积和进度。版本化缓存允许网络不可用时继续读取已保存的当前版本，但最终配额和系统回收策略仍由 Android WebView 或 iOS WebKit 决定。
+
+首次打开或尚未执行相应离线下载时，未缓存的地图帧、名录分片、化石分片或资源包仍需要网络。新数据版本发布后，用户需重新保存新版本；旧版本缓存可在“数据”页清除。
 
 更换生产数据端点时修改 `VITE_DATA_ROOT`，不要在原生 Java/Kotlin/Swift 代码中复制数据 URL。
 
@@ -99,8 +103,8 @@ npx @capacitor/assets@3.0.5 generate --android --ios --assetPath assets
 
 1. 运行 `npm run typecheck`、`npm test`、`npm run mobile:build` 和 Web 的完整 `npm run verify`。
 2. 运行 `npm run mobile:sync`，确认 Capacitor 插件和原生依赖同步成功。
-3. Android 分别在 API 24 与当前目标 API 的模拟器/真机检查首次教程、综合看板、返回键、深链、离线重开和外链。
-4. iOS 分别在 iPhone、带刘海设备和 iPad 检查安全区、旋转、深链、离线重开和外链。
+3. Android 分别在 API 24 与当前目标 API 的模拟器/真机检查首次教程、综合看板、返回键、深链、外链，并完成一次“保存完整图谱”后断网重开地图、名录、故事和化石视图。
+4. iOS 分别在 iPhone、带刘海设备和 iPad 检查安全区、旋转、深链、外链，并完成一次“保存完整图谱”后断网重开地图、名录、故事和化石视图。
 5. 检查应用版本、Android `versionCode`、iOS `CURRENT_PROJECT_VERSION`、隐私说明、商店截图和签名配置。
 6. 以发布模式生成 AAB/Archive，检查安装包不包含签名私钥、令牌、开发服务器地址或未授权第三方资产。
 

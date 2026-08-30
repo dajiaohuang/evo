@@ -261,6 +261,7 @@ test('a service-worker upgrade removes dataset A caches and dataset B remains co
   await expect(page.locator('.ownership-row')).toHaveCount(33)
   await expect(page.locator('.ownership-summary')).toContainText('2,183,133')
   await expect(page.locator('.ownership-proof')).toContainText('0 unmatched')
+  await expect(page.getByRole('button', { name: /Save complete Atlas \(\d+ MiB\)/ })).toBeVisible()
   const releaseState = await page.evaluate(async () => {
     const current = await fetch('/evo/data/current.json', { cache: 'no-store' }).then((response) => response.json()) as {
       datasetVersion: string
