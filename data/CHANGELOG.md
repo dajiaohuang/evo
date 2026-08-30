@@ -1,5 +1,13 @@
 # Dataset changelog
 
+## 2026.08-static-v5-rc27 — 2026-08-30
+
+- Rebuilt `other-mammals` as twelve bilingual primary-evidence dossiers spanning monotreme fossils and genomics, conditional early-therian placements, placental morphology and molecular matrices, early proboscideans, aquatic sloth histology, stem-glires anatomy, and bat flight, echolocation and topology evidence.
+- Added curated navigation for a non-taxonomic early-therian evidence route, Afrotheria, Xenarthra and Glires plus six named fossil genera, while moving Proboscidea and Rodentia beneath their broader browse clades without changing dedicated-package ownership boundaries.
+- Anchored dossier claims to named specimens and datasets including AM F66763, Glennie's approximately sixfold platypus genome, CAGS 01-IG-1a,b, BMNH PM1343B, STM33-5, MNHN PM69, the five-species Thalassocnus compactness series, IVPP V20115 and ROM 55351A.
+- Kept Juramaia provenance and topology conditional, separated observed anatomy from functional models, and treated placental roots, clocks, ancestral phenotypes and echolocation histories as model outputs rather than observed ancestry.
+- Added a twelve-step bilingual evidence story and an independent `otherMammalsZh` lazy chunk; clarified that COL26.8's 5,099 residual accepted living species are nomenclatural routing coverage, not dossier or fossil completeness.
+
 ## 2026.08-static-v5-rc26 — 2026-08-30
 
 - Replaced the Carnivora scaffold with eleven bilingual primary-evidence dossiers spanning early carnivoraform specimens and matrices, the living feliform–caniform split, beardog, bear, cat and dog samples, pinnipedimorph skeletons and bounded feeding or hunting proxy models.

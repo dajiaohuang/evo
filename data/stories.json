@@ -3345,5 +3345,281 @@
       }
     ],
     "evidenceStatus": "available-with-limitations"
+  },
+  {
+    "id": "other-mammals-evidence-boundaries",
+    "title": "Other mammals: twelve evidence dossiers, no ancestor ladder",
+    "titleZh": "其他哺乳类：十二个证据档案而非祖先阶梯",
+    "dek": "Compare named fossils, a living genome, morphology matrices, bone-density measurements and molecular trees while keeping specimen facts, function, topology, clocks and COL26.8 name routing separate.",
+    "theme": "sage",
+    "durationMinutes": 12,
+    "featured": true,
+    "steps": [
+      {
+        "id": "steropodon",
+        "title": "Steropodon jaw and monotreme dental evidence",
+        "text": "AM F66763 preserves a right dentary fragment and three molars whose morphology was compared with monotreme and tribosphenic conditions.",
+        "age": 105,
+        "timeRange": [
+          110,
+          100
+        ],
+        "taxonIds": [
+          "steropodon"
+        ],
+        "view": "evidence",
+        "eventId": "steropodon-holotype-monotreme",
+        "annotation": "Dental homology and affinity are interpretations; one jaw cannot establish a direct ancestor, a complete body plan or an immutable global first occurrence.",
+        "claimLinks": [
+          {
+            "claimId": "claim:event:steropodon-holotype-monotreme",
+            "relation": "supports"
+          }
+        ]
+      },
+      {
+        "id": "platypus-genome",
+        "title": "Platypus draft genome and comparative mosaic",
+        "text": "Approximately 26.9 million reads produced a 1.84-gigabase draft at about sixfold coverage, with 437 megabases ordered on 20 chromosomes and 18,527 predicted protein-coding genes.",
+        "age": 0.0005,
+        "timeRange": [
+          0.001,
+          0
+        ],
+        "taxonIds": [
+          "monotremata"
+        ],
+        "view": "tree",
+        "eventId": "platypus-genome-mosaic",
+        "annotation": "Assembly gaps, one-individual sampling, annotation and comparative models prevent direct reconstruction of an ancestral genome or single-gene explanations for organismal traits.",
+        "claimLinks": [
+          {
+            "claimId": "claim:event:platypus-genome-mosaic",
+            "relation": "supports"
+          }
+        ]
+      },
+      {
+        "id": "eomaia",
+        "title": "Eomaia skeleton, topology and locomotor inference",
+        "text": "CAGS 01-IG-1a,b documents the skull, dentition and much of the postcranium; the original matrix and limb comparisons supported a basal eutherian and scansorial interpretation.",
+        "age": 124.94999999999999,
+        "timeRange": [
+          125.8,
+          124.1
+        ],
+        "taxonIds": [
+          "eomaia"
+        ],
+        "view": "diversity",
+        "eventId": "eomaia-holotype-topology",
+        "annotation": "Later combined matrices can move Eomaia outside Theria; topology and scansoriality are analytical outputs, not a directly observed ancestor or behaviour.",
+        "claimLinks": [
+          {
+            "claimId": "claim:event:eomaia-holotype-topology",
+            "relation": "supports"
+          }
+        ]
+      },
+      {
+        "id": "juramaia",
+        "title": "Juramaia specimen and conditional Jurassic signal",
+        "text": "BMNH PM1343B preserves skull, dentition and postcranium; the original study attributed it to approximately 160-million-year-old strata and recovered a basal eutherian position.",
+        "age": 160,
+        "timeRange": [
+          161,
+          159
+        ],
+        "taxonIds": [
+          "juramaia"
+        ],
+        "view": "evidence",
+        "eventId": "juramaia-conditional-provenance",
+        "annotation": "Commercial collection provenance, stratigraphic attribution and matrices condition the result; unconstrained tip dating yields a younger morphological age signal rather than directly redating the rock.",
+        "claimLinks": [
+          {
+            "claimId": "claim:event:juramaia-conditional-provenance",
+            "relation": "supports"
+          }
+        ]
+      },
+      {
+        "id": "ambolestes-therian",
+        "title": "Ambolestes and a revised therian boundary",
+        "text": "STM33-5 preserves ectotympanic, malleus and hyoid anatomy; the published matrix recovers Ambolestes and Sinodelphys in Eutheria.",
+        "age": 125.5,
+        "timeRange": [
+          126,
+          125
+        ],
+        "taxonIds": [
+          "ambolestes"
+        ],
+        "view": "tree",
+        "eventId": "ambolestes-therian-boundary",
+        "annotation": "Reassignment and the resulting metatherian ghost lineage depend on sampled characters and taxa; the analysis does not observe the placental–marsupial split.",
+        "claimLinks": [
+          {
+            "claimId": "claim:event:ambolestes-therian-boundary",
+            "relation": "supports"
+          }
+        ]
+      },
+      {
+        "id": "placental-phenomic-kpg",
+        "title": "Placental phenomic matrix and K–Pg model",
+        "text": "The study scored 4,541 phenomic characters for 86 living and fossil species, supported by more than 12,000 annotated images, and combined them with 27 nuclear genes.",
+        "age": 65,
+        "timeRange": [
+          66,
+          64
+        ],
+        "taxonIds": [
+          "placentalia"
+        ],
+        "view": "diversity",
+        "eventId": "placental-phenomic-kpg-model",
+        "annotation": "The post-K–Pg chronology and reconstructed phenotype depend on parsimony, fossil ages, ghost lineages and ancestral-state optimization; no ancestor was directly observed.",
+        "claimLinks": [
+          {
+            "claimId": "claim:event:placental-phenomic-kpg-model",
+            "relation": "supports"
+          }
+        ]
+      },
+      {
+        "id": "placental",
+        "title": "Placental four-clade molecular topology",
+        "text": "The 16,397-base-pair matrix combines 19 nuclear and 3 mitochondrial genes; Bayesian and maximum-likelihood analyses recover four major placental clades.",
+        "age": 91,
+        "timeRange": [
+          103,
+          79
+        ],
+        "taxonIds": [
+          "afrotheria"
+        ],
+        "view": "evidence",
+        "eventId": "placental-molecular-four-clades",
+        "annotation": "The Afrotheria root, dates and Gondwanan scenario are model-conditioned, later studies test alternatives, and sampled taxa from other packages remain cross-boundary inputs.",
+        "claimLinks": [
+          {
+            "claimId": "claim:event:placental-molecular-four-clades",
+            "relation": "supports"
+          }
+        ]
+      },
+      {
+        "id": "eritherium",
+        "title": "Eritherium skull and stem-proboscidean placement",
+        "text": "Holotype MNHN PM69 preserves a rostrum and maxillary dentition; fourteen additional specimens extend the sampled upper and lower teeth and skull anatomy.",
+        "age": 59.85,
+        "timeRange": [
+          60.5,
+          59.2
+        ],
+        "taxonIds": [
+          "eritherium"
+        ],
+        "view": "tree",
+        "eventId": "eritherium-holotype-proboscidean",
+        "annotation": "Stem placement and estimated 3–8 kilogram body mass derive from a character matrix and dental allometry, not observed ancestry or body mass.",
+        "claimLinks": [
+          {
+            "claimId": "claim:event:eritherium-holotype-proboscidean",
+            "relation": "supports"
+          }
+        ]
+      },
+      {
+        "id": "thalassocnus-bone-density",
+        "title": "Thalassocnus bone-density series",
+        "text": "CT slices and thin sections show increasing compactness across ribs and limb bones, including named T. littoralis specimens MNHN.F.SAS 2 and MNHN.F.SAS 53.",
+        "age": 5.5,
+        "timeRange": [
+          8,
+          3
+        ],
+        "taxonIds": [
+          "thalassocnus"
+        ],
+        "view": "diversity",
+        "eventId": "thalassocnus-bone-density-series",
+        "annotation": "Aquatic adaptation, hydrostatic control and marine grazing are functional interpretations; species succession is not a directly observed ancestor chain.",
+        "claimLinks": [
+          {
+            "claimId": "claim:event:thalassocnus-bone-density-series",
+            "relation": "supports"
+          }
+        ]
+      },
+      {
+        "id": "mimolagus",
+        "title": "Mimolagus teeth, tarsals and body-size model",
+        "text": "Holotype right M3 IVPP V20115 and referred teeth, astragalus, calcanei and cuboid establish the anatomical sample and locality.",
+        "age": 44.5,
+        "timeRange": [
+          47.8,
+          41.2
+        ],
+        "taxonIds": [
+          "mimolagus"
+        ],
+        "view": "evidence",
+        "eventId": "mimolagus-holotype-glires",
+        "annotation": "A 4.5-kilogram estimate, cursoriality and tapiroid-like niche are regression and ecomorphology inferences; the taxon is not a direct lagomorph ancestor.",
+        "claimLinks": [
+          {
+            "claimId": "claim:event:mimolagus-holotype-glires",
+            "relation": "supports"
+          }
+        ]
+      },
+      {
+        "id": "onychonycteris-flight-echolocation",
+        "title": "Onychonycteris flight and echolocation proxies",
+        "text": "ROM 55351A preserves elongated wings and a relatively small cochlea; limb proportions and cochlear size were compared with living and fossil bats.",
+        "age": 51.4,
+        "timeRange": [
+          52.5,
+          50.3
+        ],
+        "taxonIds": [
+          "onychonycteris"
+        ],
+        "view": "tree",
+        "eventId": "onychonycteris-flight-echolocation",
+        "annotation": "Powered flight and absence of specialized laryngeal echolocation are functional inferences, not observed behaviour, and one specimen is not a direct ancestor.",
+        "claimLinks": [
+          {
+            "claimId": "claim:event:onychonycteris-flight-echolocation",
+            "relation": "supports"
+          }
+        ]
+      },
+      {
+        "id": "bat",
+        "title": "Seven-gene bat topology and echolocation scenarios",
+        "text": "Four nuclear and three mitochondrial genes contributed 8,230 aligned base pairs; analyses group sampled rhinolophoids with megabats rather than other microbats.",
+        "age": 0.0005,
+        "timeRange": [
+          0.001,
+          0
+        ],
+        "taxonIds": [
+          "chiroptera"
+        ],
+        "view": "diversity",
+        "eventId": "bat-seven-gene-topology",
+        "annotation": "Multiple origins or losses of laryngeal echolocation are alternative historical reconstructions; the topology does not directly observe the first flight or sonar event. COL26.8 routes 5,099 accepted living species to other-mammals after excluding Cetartiodactyla, Perissodactyla, Primates and Carnivora; that nomenclatural snapshot is not 5,099 dossiers and does not resolve fossil topology.",
+        "claimLinks": [
+          {
+            "claimId": "claim:event:bat-seven-gene-topology",
+            "relation": "supports"
+          }
+        ]
+      }
+    ],
+    "evidenceStatus": "available-with-limitations"
   }
 ]

@@ -1,5 +1,5 @@
 export const PACKAGE_SCHEMA_VERSION = 5
-export const DATASET_PACKAGE_VERSION = '2026.08-static-v5-rc26'
+export const DATASET_PACKAGE_VERSION = '2026.08-static-v5-rc27'
 export const DATASET_RELEASE_DATE = '2026-08-30'
 
 export const packageDefinitions = [
@@ -257,7 +257,20 @@ export const packageDefinitions = [
     path: 'mammalia/other-mammals',
     title: 'Monotremes, Marsupials and Other Placental Radiations',
     titleZh: '单孔类、有袋类与其他胎盘类辐射',
-    rootEntityIds: ['monotremata', 'marsupialia', 'proboscidea', 'chiroptera', 'rodentia'],
+    rootEntityIds: ['monotremata', 'marsupialia', 'therian-boundary-evidence', 'afrotheria', 'xenarthra', 'glires', 'chiroptera'],
+    conceptScope: {
+      en: 'Twelve bilingual primary-evidence dossiers connect named fossils, a living monotreme genome, morphology matrices, bone-density measurements and molecular trees across Monotremata, the therian boundary, Afrotheria, Xenarthra, Glires and Chiroptera. Specimen anatomy, functional interpretation, topology, clocks and living-name routing remain separate; Juramaia is retained as a conditional provenance and topology case, and no taxon is presented as a rung in a linear ancestor ladder. Cetartiodactyla, Perissodactyla, Primates and Carnivora remain owned by their dedicated packages even when sampled by broad placental analyses. COL26.8 assigns 5,099 accepted living species to the residual other-mammals route; that nomenclatural snapshot is not 5,099 dossiers and does not measure fossil, translation, media or expert-review completeness.',
+      zh: '十二个双语一手证据档案跨越单孔类、兽亚纲边界、非洲兽、异关节、啮形类和翼手类，连接具名化石、现生单孔类基因组、形态矩阵、骨密度测量与分子树。标本解剖、功能解释、拓扑、时钟和现生名称路由始终分开；Juramaia 被保留为产地与拓扑均有条件限制的案例，任何类群都不被描述为线性祖先阶梯的一环。鲸偶蹄目、奇蹄目、灵长目和食肉目即使出现在广义胎盘类分析样本中，仍归各自专属内容包所有。COL26.8 将 5,099 个现生接受种分配到剩余的 other-mammals 路由；该命名快照不是 5,099 个档案，也不衡量化石、翻译、媒体或专家评审完整度。',
+    },
+    scientificMaturity: 'structured',
+    limitations: [
+      'The early-therian navigation group is a discovery route, not a taxonomic clade. Eomaia, Juramaia and Ambolestes are separate samples whose placements vary with character matrices; they do not form an ancestor sequence.',
+      'Juramaia retains the original approximately 160 Ma attribution alongside provenance and tip-dating caveats. It is not used as an unconditional calibration, universal therian FAD or direct ancestor.',
+      'Platypus genome annotations, placental roots, divergence dates and ancestral phenotypes are model outputs. Broad analyses sample lineages owned by dedicated packages without transferring ownership or replacing COL26.8 nomenclature.',
+      'Thalassocnus aquatic function, Mimolagus body mass and niche, and Onychonycteris flight or echolocation capacity are bounded functional inferences rather than directly observed behaviour.',
+      'Entity-wide first-appearance fields remain study-bounded or legacy navigation envelopes. They do not establish global FAD, LAD, absence, richness or uninterrupted lineage duration.',
+      'COL26.8 accepted-species counts are residual package-routing results for living names after dedicated mammal packages are excluded; they do not grade dossier, fossil, translation, media or review maturity.',
+    ],
     wave: 'A',
   },
   {

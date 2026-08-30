@@ -4590,36 +4590,6 @@
     "evidenceLevel": "legacy-display"
   },
   {
-    "id": "range:proboscidea:global",
-    "entityId": "proboscidea",
-    "rangeKind": "global-composite",
-    "taxonomicConcept": "Proboscidea",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 56,
-    "youngerMa": 0,
-    "status": "available",
-    "uncertainty": {
-      "olderMa": null,
-      "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
-    },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
-    "confidence": "medium",
-    "claimIds": [],
-    "referenceLocators": [
-      {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
-      },
-      {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
-      }
-    ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
-  },
-  {
     "id": "range:mammuthus:global",
     "entityId": "mammuthus",
     "rangeKind": "global-composite",
@@ -4627,36 +4597,6 @@
     "geographicScope": "Global or represented navigation composite",
     "olderMa": 5,
     "youngerMa": 0.004,
-    "status": "available",
-    "uncertainty": {
-      "olderMa": null,
-      "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
-    },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
-    "confidence": "medium",
-    "claimIds": [],
-    "referenceLocators": [
-      {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
-      },
-      {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
-      }
-    ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
-  },
-  {
-    "id": "range:chiroptera:global",
-    "entityId": "chiroptera",
-    "rangeKind": "global-composite",
-    "taxonomicConcept": "Chiroptera",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 52,
-    "youngerMa": 0,
     "status": "available",
     "uncertainty": {
       "olderMa": null,
@@ -8352,5 +8292,411 @@
       }
     ],
     "reviewStatus": "automated-audit-passed"
+  },
+  {
+    "id": "range:steropodon:other-mammals-evidence",
+    "entityId": "steropodon",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Steropodon galmani holotype occurrence",
+    "geographicScope": "Griman Creek Formation, Lightning Ridge, Australia",
+    "olderMa": 110,
+    "youngerMa": 100,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "This is a study-level occurrence or model-bounded navigation interval, not a guaranteed global first appearance, direct origination date or ancestor range."
+    },
+    "evidenceBasis": "AM F66763 is the tooth-bearing dentary described from the Early Cretaceous Griman Creek Formation.",
+    "evidenceLevel": "literature-synthesized",
+    "confidence": "medium",
+    "claimIds": [
+      "claim:event:steropodon-holotype-monotreme"
+    ],
+    "referenceLocators": [
+      {
+        "referenceId": "archer-1985-steropodon",
+        "locator": "363–366; Figures 1–2; Diagnosis and Description"
+      }
+    ],
+    "reviewStatus": "automated-audit-passed"
+  },
+  {
+    "id": "range:therian-boundary-evidence:other-mammals-evidence",
+    "entityId": "therian-boundary-evidence",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Early therian evidence navigation interval",
+    "geographicScope": "Tiaojishan and Yixian formations, northeastern China",
+    "olderMa": 161,
+    "youngerMa": 124.1,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "The older endpoint inherits disputed Juramaia provenance and age; the group is a navigation route, not a taxonomic clade or lineage."
+    },
+    "evidenceBasis": "The browse interval spans three separately sampled fossils and does not arrange them into an ancestor sequence.",
+    "evidenceLevel": "literature-synthesized",
+    "confidence": "contested",
+    "claimIds": [
+      "claim:event:juramaia-conditional-provenance",
+      "claim:event:eomaia-holotype-topology",
+      "claim:event:ambolestes-therian-boundary"
+    ],
+    "referenceLocators": [
+      {
+        "referenceId": "luo-2011-juramaia",
+        "locator": "442–445; Figures 1–3"
+      },
+      {
+        "referenceId": "ji-2002-eomaia",
+        "locator": "816–822; Figures 1–6"
+      },
+      {
+        "referenceId": "bi-2018-ambolestes",
+        "locator": "390–395; Figures 1–5"
+      }
+    ],
+    "reviewStatus": "automated-audit-passed"
+  },
+  {
+    "id": "range:juramaia:other-mammals-evidence",
+    "entityId": "juramaia",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Juramaia sinensis holotype attributed occurrence",
+    "geographicScope": "Attributed Tiaojishan Formation, Liaoning, China",
+    "olderMa": 161,
+    "youngerMa": 159,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "This interval follows the original stratigraphic attribution; collection provenance and a younger tip-dating signal remain explicit and it is not a secure universal calibration."
+    },
+    "evidenceBasis": "BMNH PM1343B is reported from approximately 160 Ma strata, but the atlas retains provenance and model-age caveats.",
+    "evidenceLevel": "literature-synthesized",
+    "confidence": "contested",
+    "claimIds": [
+      "claim:event:juramaia-conditional-provenance"
+    ],
+    "referenceLocators": [
+      {
+        "referenceId": "luo-2011-juramaia",
+        "locator": "442–445; Figures 1–3"
+      },
+      {
+        "referenceId": "celik-phillips-2020-juramaia-tip-dating",
+        "locator": "20200943; Figure 3; Figures S11–S13"
+      }
+    ],
+    "reviewStatus": "automated-audit-passed"
+  },
+  {
+    "id": "range:eomaia:other-mammals-evidence",
+    "entityId": "eomaia",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Eomaia scansoria holotype occurrence",
+    "geographicScope": "Yixian Formation, Liaoning, China",
+    "olderMa": 125.8,
+    "youngerMa": 124.1,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "This is a study-level occurrence or model-bounded navigation interval, not a guaranteed global first appearance, direct origination date or ancestor range."
+    },
+    "evidenceBasis": "CAGS 01-IG-1a,b is the articulated skeleton reported from the Yixian Formation.",
+    "evidenceLevel": "literature-synthesized",
+    "confidence": "medium",
+    "claimIds": [
+      "claim:event:eomaia-holotype-topology"
+    ],
+    "referenceLocators": [
+      {
+        "referenceId": "ji-2002-eomaia",
+        "locator": "816–822; Figures 1–6"
+      }
+    ],
+    "reviewStatus": "automated-audit-passed"
+  },
+  {
+    "id": "range:ambolestes:other-mammals-evidence",
+    "entityId": "ambolestes",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Ambolestes zhoui holotype occurrence",
+    "geographicScope": "Lujiatun Unit, Yixian Formation, Liaoning, China",
+    "olderMa": 126,
+    "youngerMa": 125,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "This is a study-level occurrence or model-bounded navigation interval, not a guaranteed global first appearance, direct origination date or ancestor range."
+    },
+    "evidenceBasis": "STM33-5 is the near-complete holotype reported from the Lujiatun Unit.",
+    "evidenceLevel": "literature-synthesized",
+    "confidence": "medium",
+    "claimIds": [
+      "claim:event:ambolestes-therian-boundary"
+    ],
+    "referenceLocators": [
+      {
+        "referenceId": "bi-2018-ambolestes",
+        "locator": "390–395; Figures 1–5"
+      }
+    ],
+    "reviewStatus": "automated-audit-passed"
+  },
+  {
+    "id": "range:afrotheria:other-mammals-evidence",
+    "entityId": "afrotheria",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Afrotheria living navigation and molecular-model interval",
+    "geographicScope": "Global sampled living record and molecular model",
+    "olderMa": 100,
+    "youngerMa": 0,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "The rounded older endpoint is a model-bounded navigation value, not a fossil occurrence or fixed clade origin; the claim retains the study’s approximately 103 Ma estimate."
+    },
+    "evidenceBasis": "The rounded navigation endpoint is clipped to the existing Placentalia route; the cited analysis estimated an approximately 103 Ma split and living descendants extend to the present.",
+    "evidenceLevel": "literature-synthesized",
+    "confidence": "medium",
+    "claimIds": [
+      "claim:event:placental-molecular-four-clades"
+    ],
+    "referenceLocators": [
+      {
+        "referenceId": "murphy-2001-placental-bayesian",
+        "locator": "2348–2351; Figures 1–2"
+      }
+    ],
+    "reviewStatus": "automated-audit-passed"
+  },
+  {
+    "id": "range:eritherium:other-mammals-evidence",
+    "entityId": "eritherium",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Eritherium azzouzorum type occurrence",
+    "geographicScope": "Lower bone bed, phosphate bed IIa, Sidi Chennane, Morocco",
+    "olderMa": 60.5,
+    "youngerMa": 59.2,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "This is a study-level occurrence or model-bounded navigation interval, not a guaranteed global first appearance, direct origination date or ancestor range."
+    },
+    "evidenceBasis": "MNHN PM69 and the 15-specimen hypodigm come from the early Thanetian interval described by the study.",
+    "evidenceLevel": "literature-synthesized",
+    "confidence": "medium",
+    "claimIds": [
+      "claim:event:eritherium-holotype-proboscidean"
+    ],
+    "referenceLocators": [
+      {
+        "referenceId": "gheerbrant-2009-eritherium",
+        "locator": "10717–10721; Figures 1–3; Locality and Age"
+      }
+    ],
+    "reviewStatus": "automated-audit-passed"
+  },
+  {
+    "id": "range:xenarthra:other-mammals-evidence",
+    "entityId": "xenarthra",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Xenarthra living navigation interval",
+    "geographicScope": "Global or represented navigation composite",
+    "olderMa": 58.3,
+    "youngerMa": 0,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "This is a living-clade navigation envelope and sampled fossil bound, not an expert-reviewed global first appearance."
+    },
+    "evidenceBasis": "The older display bound follows the sampled Riostegotherium entry in the combined-data chronology; it is not a global FAD.",
+    "evidenceLevel": "legacy-display",
+    "confidence": "low",
+    "claimIds": [],
+    "referenceLocators": [
+      {
+        "referenceId": "oleary-2013-placental-ancestor-model",
+        "locator": "Table 1; Figure 1"
+      }
+    ],
+    "reviewStatus": "not-reviewed"
+  },
+  {
+    "id": "range:thalassocnus:other-mammals-evidence",
+    "entityId": "thalassocnus",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Thalassocnus sampled species series",
+    "geographicScope": "Neogene Pisco Formation, Peru",
+    "olderMa": 8,
+    "youngerMa": 3,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "This is a study-level occurrence or model-bounded navigation interval, not a guaranteed global first appearance, direct origination date or ancestor range."
+    },
+    "evidenceBasis": "Five named species occur in successive Pisco Formation horizons used for the compactness comparison.",
+    "evidenceLevel": "literature-synthesized",
+    "confidence": "medium",
+    "claimIds": [
+      "claim:event:thalassocnus-bone-density-series"
+    ],
+    "referenceLocators": [
+      {
+        "referenceId": "amson-2014-thalassocnus-bone-density",
+        "locator": "20140192; Figures 1–4; Tables S3–S7"
+      }
+    ],
+    "reviewStatus": "automated-audit-passed"
+  },
+  {
+    "id": "range:glires:other-mammals-evidence",
+    "entityId": "glires",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Glires living navigation interval",
+    "geographicScope": "Global or represented navigation composite",
+    "olderMa": 66,
+    "youngerMa": 0,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "This is a navigation display envelope, not a claim-linked fossil first appearance or a complete phylogeny."
+    },
+    "evidenceBasis": "A rounded Paleocene-to-present display envelope groups Rodentia with lagomorph and stem-relative evidence for browsing.",
+    "evidenceLevel": "legacy-display",
+    "confidence": "low",
+    "claimIds": [],
+    "referenceLocators": [
+      {
+        "referenceId": "open-tree",
+        "locator": "https://opentreeoflife.github.io/use"
+      }
+    ],
+    "reviewStatus": "not-reviewed"
+  },
+  {
+    "id": "range:mimolagus:other-mammals-evidence",
+    "entityId": "mimolagus",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Mimolagus aurorae type occurrence",
+    "geographicScope": "Lower Irdin Manha Formation, Erlian Basin, China",
+    "olderMa": 47.8,
+    "youngerMa": 41.2,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "This is a study-level occurrence or model-bounded navigation interval, not a guaranteed global first appearance, direct origination date or ancestor range."
+    },
+    "evidenceBasis": "IVPP V20115 and referred specimens are reported from the early Middle Eocene lower Irdin Manha Formation.",
+    "evidenceLevel": "literature-synthesized",
+    "confidence": "medium",
+    "claimIds": [
+      "claim:event:mimolagus-holotype-glires"
+    ],
+    "referenceLocators": [
+      {
+        "referenceId": "fostowicz-frelik-2015-mimolagus",
+        "locator": "9394; Figures 1–6; Type locality and age"
+      }
+    ],
+    "reviewStatus": "automated-audit-passed"
+  },
+  {
+    "id": "range:onychonycteris:other-mammals-evidence",
+    "entityId": "onychonycteris",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Onychonycteris finneyi holotype occurrence",
+    "geographicScope": "Fossil Butte Member, Green River Formation, Wyoming, USA",
+    "olderMa": 52.5,
+    "youngerMa": 50.3,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "This is a study-level occurrence or model-bounded navigation interval, not a guaranteed global first appearance, direct origination date or ancestor range."
+    },
+    "evidenceBasis": "ROM 55351A is the nearly complete holotype from the early Eocene Fossil Butte Member.",
+    "evidenceLevel": "literature-synthesized",
+    "confidence": "medium",
+    "claimIds": [
+      "claim:event:onychonycteris-flight-echolocation"
+    ],
+    "referenceLocators": [
+      {
+        "referenceId": "simmons-2008-onychonycteris",
+        "locator": "818–821; Figures 1–4; Holotype and locality"
+      }
+    ],
+    "reviewStatus": "automated-audit-passed"
+  },
+  {
+    "id": "range:proboscidea:global",
+    "entityId": "proboscidea",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Proboscidea",
+    "geographicScope": "Global or represented navigation composite",
+    "olderMa": 60.5,
+    "youngerMa": 0,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "The older endpoint now includes the named Eritherium occurrence; it is a study-bounded navigation range, not a direct date on crown Proboscidea."
+    },
+    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "confidence": "medium",
+    "claimIds": [],
+    "referenceLocators": [
+      {
+        "referenceId": "open-tree",
+        "locator": "https://opentreeoflife.github.io/use"
+      },
+      {
+        "referenceId": "pbdb-api-2016",
+        "locator": "doi:10.1017/pab.2015.39"
+      }
+    ],
+    "reviewStatus": "not-reviewed",
+    "evidenceLevel": "legacy-display"
+  },
+  {
+    "id": "range:chiroptera:global",
+    "entityId": "chiroptera",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Chiroptera",
+    "geographicScope": "Global or represented navigation composite",
+    "olderMa": 52.5,
+    "youngerMa": 0,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+    },
+    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "confidence": "medium",
+    "claimIds": [],
+    "referenceLocators": [
+      {
+        "referenceId": "open-tree",
+        "locator": "https://opentreeoflife.github.io/use"
+      },
+      {
+        "referenceId": "pbdb-api-2016",
+        "locator": "doi:10.1017/pab.2015.39"
+      }
+    ],
+    "reviewStatus": "not-reviewed",
+    "evidenceLevel": "legacy-display"
   }
 ]

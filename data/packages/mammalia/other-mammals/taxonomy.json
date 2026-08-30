@@ -3,15 +3,22 @@
   "rootEntityIds": [
     "monotremata",
     "marsupialia",
-    "proboscidea",
-    "chiroptera",
-    "rodentia"
+    "therian-boundary-evidence",
+    "afrotheria",
+    "xenarthra",
+    "glires",
+    "chiroptera"
   ],
   "relationships": [
     {
       "id": "monotremata",
       "parentId": "mammalia",
       "relationshipKind": "taxonomic-parent"
+    },
+    {
+      "id": "steropodon",
+      "parentId": "monotremata",
+      "relationshipKind": "navigation-parent"
     },
     {
       "id": "marsupialia",
@@ -24,8 +31,23 @@
       "relationshipKind": "taxonomic-parent"
     },
     {
-      "id": "proboscidea",
+      "id": "chiroptera",
       "parentId": "placentalia",
+      "relationshipKind": "taxonomic-parent"
+    },
+    {
+      "id": "onychonycteris",
+      "parentId": "chiroptera",
+      "relationshipKind": "navigation-parent"
+    },
+    {
+      "id": "afrotheria",
+      "parentId": "placentalia",
+      "relationshipKind": "navigation-parent"
+    },
+    {
+      "id": "proboscidea",
+      "parentId": "afrotheria",
       "relationshipKind": "taxonomic-parent"
     },
     {
@@ -34,14 +56,54 @@
       "relationshipKind": "taxonomic-parent"
     },
     {
-      "id": "chiroptera",
+      "id": "eritherium",
+      "parentId": "proboscidea",
+      "relationshipKind": "navigation-parent"
+    },
+    {
+      "id": "xenarthra",
       "parentId": "placentalia",
-      "relationshipKind": "taxonomic-parent"
+      "relationshipKind": "navigation-parent"
+    },
+    {
+      "id": "thalassocnus",
+      "parentId": "xenarthra",
+      "relationshipKind": "navigation-parent"
+    },
+    {
+      "id": "glires",
+      "parentId": "placentalia",
+      "relationshipKind": "navigation-parent"
     },
     {
       "id": "rodentia",
-      "parentId": "placentalia",
+      "parentId": "glires",
       "relationshipKind": "taxonomic-parent"
+    },
+    {
+      "id": "mimolagus",
+      "parentId": "glires",
+      "relationshipKind": "navigation-parent"
+    },
+    {
+      "id": "therian-boundary-evidence",
+      "parentId": "mammalia",
+      "relationshipKind": "navigation-parent"
+    },
+    {
+      "id": "juramaia",
+      "parentId": "therian-boundary-evidence",
+      "relationshipKind": "navigation-parent"
+    },
+    {
+      "id": "eomaia",
+      "parentId": "therian-boundary-evidence",
+      "relationshipKind": "navigation-parent"
+    },
+    {
+      "id": "ambolestes",
+      "parentId": "therian-boundary-evidence",
+      "relationshipKind": "navigation-parent"
     }
   ]
 }
