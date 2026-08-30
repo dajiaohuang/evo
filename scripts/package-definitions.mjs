@@ -1,5 +1,5 @@
 export const PACKAGE_SCHEMA_VERSION = 5
-export const DATASET_PACKAGE_VERSION = '2026.08-static-v5-rc21'
+export const DATASET_PACKAGE_VERSION = '2026.08-static-v5-rc22'
 export const DATASET_RELEASE_DATE = '2026-08-30'
 
 export const packageDefinitions = [
@@ -197,8 +197,19 @@ export const packageDefinitions = [
     path: 'mammalia/cetartiodactyla',
     title: 'Cetartiodactyl Context and Cetaceans',
     titleZh: '鲸偶蹄类背景与鲸类',
-    rootEntityIds: ['cetacea'],
-    wave: 'pilot',
+    rootEntityIds: ['whippomorpha'],
+    conceptScope: {
+      en: 'Eight primary-evidence dossiers follow named middle- and late-Eocene specimens and bounded living-genome datasets across Whippomorpha and the cetacean total group. They keep preserved anatomy, ecological and locomotor inference, morphology-matrix placement, retroposon topology, molecular-model time and COL26.8 nomenclatural routing separate; no sampled taxon is presented as a rung in a direct ancestor ladder. COL26.8 routes exactly 503 strictly accepted living species names through Artiodactyla usage ID 6227M and Cetacea usage ID WP. That count is naming coverage, not 503 specimen dossiers or a test of fossil, morphology, ecology, media, translation or expert-review maturity.',
+      zh: '八个一手证据档案沿鲸河马类与鲸类总群追踪具名的始新世中晚期标本及有界现生基因组数据集。档案严格区分保存的解剖结构、生态与运动推断、形态矩阵位置、反转座子拓扑、分子模型时间和 COL26.8 命名路由；任何取样类群都不会被写成直接祖先阶梯的一环。COL26.8 通过偶蹄目 usage ID 6227M 与鲸目 usage ID WP 精确路由 503 个严格接受的现生种名。该数量只表示命名覆盖，不表示有 503 份标本档案，也不检验化石、形态、生态、媒体、翻译或专家评审成熟度。',
+    },
+    scientificMaturity: 'structured',
+    limitations: [
+      'Indohyus bone-bed material, the composite Pakicetus reconstruction, Ambulocetus, Peregocetus, Basilosaurus and Aegicetus are bounded specimen samples with explicit association, dating and interpretation limits; none establishes a direct ancestor, a global FAD or a linear land-to-sea sequence.',
+      'Whale–hippo retroposons and the 2009 cetacean supermatrix are analyses of sampled living genomes. Their topology and model times do not directly date fossil specimens, demonstrate unchanged anatomy or replace the current nomenclatural catalogue.',
+      'COL26.8 routes exactly 503 accepted living species names through the configured Artiodactyla and Cetacea usages. This is a nomenclatural package boundary, not evidence of 503 mature dossiers or complete biological coverage.',
+      'Only the six named fossil occurrences receive claim-linked literature ranges. Other entity-wide ranges remain unreviewed legacy displays, while bundled PBDB records are a bounded, non-random sample that cannot establish FAD, LAD, absence, richness or global distribution.',
+    ],
+    wave: 'A',
   },
   {
     id: 'primates',

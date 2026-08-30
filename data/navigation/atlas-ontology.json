@@ -2281,35 +2281,6 @@
                                                       "contentLevel": "dossier"
                                                     },
                                                     {
-                                                      "id": "cetacea",
-                                                      "name": "Cetacea",
-                                                      "commonName": "Whales & Dolphins",
-                                                      "commonNameZh": "鲸与海豚",
-                                                      "rank": "order",
-                                                      "taxonId": "txn:36652",
-                                                      "firstAppearance": 53,
-                                                      "lastAppearance": 0,
-                                                      "extinct": false,
-                                                      "children": [
-                                                        {
-                                                          "id": "basilosauridae",
-                                                          "name": "Basilosauridae",
-                                                          "commonName": "Basilosaurids",
-                                                          "commonNameZh": "龙王鲸类",
-                                                          "rank": "family",
-                                                          "taxonId": "txn:42936",
-                                                          "firstAppearance": 41,
-                                                          "lastAppearance": 34,
-                                                          "extinct": true,
-                                                          "children": [],
-                                                          "entityKind": "taxon",
-                                                          "contentLevel": "dossier"
-                                                        }
-                                                      ],
-                                                      "entityKind": "taxon",
-                                                      "contentLevel": "dossier"
-                                                    },
-                                                    {
                                                       "id": "primates",
                                                       "name": "Primates",
                                                       "commonName": "Primates",
@@ -2436,6 +2407,284 @@
                                                       "lastAppearance": 0,
                                                       "extinct": false,
                                                       "children": [],
+                                                      "entityKind": "taxon",
+                                                      "contentLevel": "dossier"
+                                                    },
+                                                    {
+                                                      "id": "whippomorpha",
+                                                      "name": "Whippomorpha",
+                                                      "commonName": "Whales, Hippos and Fossil Kin",
+                                                      "commonNameZh": "鲸河马类及化石近亲",
+                                                      "rank": "clade",
+                                                      "taxonId": "",
+                                                      "firstAppearance": 53,
+                                                      "lastAppearance": 0,
+                                                      "extinct": false,
+                                                      "children": [
+                                                        {
+                                                          "id": "hippopotamidae",
+                                                          "name": "Hippopotamidae",
+                                                          "commonName": "Hippopotamuses",
+                                                          "commonNameZh": "河马科",
+                                                          "rank": "family",
+                                                          "taxonId": "",
+                                                          "firstAppearance": 23,
+                                                          "lastAppearance": 0,
+                                                          "extinct": false,
+                                                          "children": [],
+                                                          "parentRelationshipKind": "navigation-parent",
+                                                          "entityKind": "taxon",
+                                                          "contentLevel": "dossier"
+                                                        },
+                                                        {
+                                                          "id": "cetaceamorpha",
+                                                          "name": "Cetaceamorpha",
+                                                          "commonName": "Cetacean Total-Group Route",
+                                                          "commonNameZh": "鲸类总群导航",
+                                                          "rank": "clade",
+                                                          "taxonId": "",
+                                                          "firstAppearance": 53,
+                                                          "lastAppearance": 0,
+                                                          "extinct": false,
+                                                          "children": [
+                                                            {
+                                                              "id": "raoellidae",
+                                                              "name": "Raoellidae",
+                                                              "commonName": "Raoellids",
+                                                              "commonNameZh": "劳氏兽科",
+                                                              "rank": "family",
+                                                              "taxonId": "",
+                                                              "firstAppearance": 48,
+                                                              "lastAppearance": 47,
+                                                              "extinct": true,
+                                                              "children": [
+                                                                {
+                                                                  "id": "indohyus",
+                                                                  "name": "Indohyus",
+                                                                  "commonName": "Indohyus",
+                                                                  "commonNameZh": "印多霍斯兽属",
+                                                                  "rank": "genus",
+                                                                  "taxonId": "",
+                                                                  "firstAppearance": 48,
+                                                                  "lastAppearance": 47,
+                                                                  "extinct": true,
+                                                                  "children": [],
+                                                                  "parentRelationshipKind": "navigation-parent",
+                                                                  "entityKind": "taxon",
+                                                                  "contentLevel": "dossier"
+                                                                }
+                                                              ],
+                                                              "parentRelationshipKind": "navigation-parent",
+                                                              "entityKind": "taxon",
+                                                              "contentLevel": "dossier"
+                                                            },
+                                                            {
+                                                              "id": "cetacea",
+                                                              "name": "Cetacea",
+                                                              "commonName": "Whales & Dolphins",
+                                                              "commonNameZh": "鲸与海豚",
+                                                              "rank": "order",
+                                                              "taxonId": "txn:36652",
+                                                              "firstAppearance": 53,
+                                                              "lastAppearance": 0,
+                                                              "extinct": false,
+                                                              "children": [
+                                                                {
+                                                                  "id": "pakicetidae",
+                                                                  "name": "Pakicetidae",
+                                                                  "commonName": "Pakicetids",
+                                                                  "commonNameZh": "巴基鲸科",
+                                                                  "rank": "family",
+                                                                  "taxonId": "",
+                                                                  "firstAppearance": 50,
+                                                                  "lastAppearance": 47,
+                                                                  "extinct": true,
+                                                                  "children": [
+                                                                    {
+                                                                      "id": "pakicetus",
+                                                                      "name": "Pakicetus",
+                                                                      "commonName": "Pakicetus",
+                                                                      "commonNameZh": "巴基鲸属",
+                                                                      "rank": "genus",
+                                                                      "taxonId": "",
+                                                                      "firstAppearance": 50,
+                                                                      "lastAppearance": 48,
+                                                                      "extinct": true,
+                                                                      "children": [],
+                                                                      "parentRelationshipKind": "navigation-parent",
+                                                                      "entityKind": "taxon",
+                                                                      "contentLevel": "dossier"
+                                                                    }
+                                                                  ],
+                                                                  "parentRelationshipKind": "navigation-parent",
+                                                                  "entityKind": "taxon",
+                                                                  "contentLevel": "dossier"
+                                                                },
+                                                                {
+                                                                  "id": "ambulocetidae",
+                                                                  "name": "Ambulocetidae",
+                                                                  "commonName": "Ambulocetids",
+                                                                  "commonNameZh": "陆行鲸科",
+                                                                  "rank": "family",
+                                                                  "taxonId": "",
+                                                                  "firstAppearance": 48,
+                                                                  "lastAppearance": 47,
+                                                                  "extinct": true,
+                                                                  "children": [
+                                                                    {
+                                                                      "id": "ambulocetus",
+                                                                      "name": "Ambulocetus",
+                                                                      "commonName": "Walking Whale",
+                                                                      "commonNameZh": "陆行鲸属",
+                                                                      "rank": "genus",
+                                                                      "taxonId": "",
+                                                                      "firstAppearance": 48,
+                                                                      "lastAppearance": 47,
+                                                                      "extinct": true,
+                                                                      "children": [],
+                                                                      "parentRelationshipKind": "navigation-parent",
+                                                                      "entityKind": "taxon",
+                                                                      "contentLevel": "dossier"
+                                                                    }
+                                                                  ],
+                                                                  "parentRelationshipKind": "navigation-parent",
+                                                                  "entityKind": "taxon",
+                                                                  "contentLevel": "dossier"
+                                                                },
+                                                                {
+                                                                  "id": "protocetidae",
+                                                                  "name": "Protocetidae",
+                                                                  "commonName": "Protocetids",
+                                                                  "commonNameZh": "原鲸科",
+                                                                  "rank": "family",
+                                                                  "taxonId": "",
+                                                                  "firstAppearance": 47,
+                                                                  "lastAppearance": 37.7,
+                                                                  "extinct": true,
+                                                                  "children": [
+                                                                    {
+                                                                      "id": "peregocetus",
+                                                                      "name": "Peregocetus",
+                                                                      "commonName": "Pacific Travelling Whale",
+                                                                      "commonNameZh": "游走鲸属",
+                                                                      "rank": "genus",
+                                                                      "taxonId": "",
+                                                                      "firstAppearance": 42.6,
+                                                                      "lastAppearance": 42.6,
+                                                                      "extinct": true,
+                                                                      "children": [],
+                                                                      "parentRelationshipKind": "navigation-parent",
+                                                                      "entityKind": "taxon",
+                                                                      "contentLevel": "dossier"
+                                                                    },
+                                                                    {
+                                                                      "id": "aegicetus",
+                                                                      "name": "Aegicetus",
+                                                                      "commonName": "Shield Whale",
+                                                                      "commonNameZh": "盾鲸属",
+                                                                      "rank": "genus",
+                                                                      "taxonId": "",
+                                                                      "firstAppearance": 37.71,
+                                                                      "lastAppearance": 37.71,
+                                                                      "extinct": true,
+                                                                      "children": [],
+                                                                      "parentRelationshipKind": "navigation-parent",
+                                                                      "entityKind": "taxon",
+                                                                      "contentLevel": "dossier"
+                                                                    }
+                                                                  ],
+                                                                  "parentRelationshipKind": "navigation-parent",
+                                                                  "entityKind": "taxon",
+                                                                  "contentLevel": "dossier"
+                                                                },
+                                                                {
+                                                                  "id": "basilosauridae",
+                                                                  "name": "Basilosauridae",
+                                                                  "commonName": "Basilosaurids",
+                                                                  "commonNameZh": "龙王鲸类",
+                                                                  "rank": "family",
+                                                                  "taxonId": "txn:42936",
+                                                                  "firstAppearance": 41,
+                                                                  "lastAppearance": 34,
+                                                                  "extinct": true,
+                                                                  "children": [
+                                                                    {
+                                                                      "id": "basilosaurus",
+                                                                      "name": "Basilosaurus",
+                                                                      "commonName": "Basilosaurus",
+                                                                      "commonNameZh": "龙王鲸属",
+                                                                      "rank": "genus",
+                                                                      "taxonId": "",
+                                                                      "firstAppearance": 37.7,
+                                                                      "lastAppearance": 35,
+                                                                      "extinct": true,
+                                                                      "children": [],
+                                                                      "parentRelationshipKind": "navigation-parent",
+                                                                      "entityKind": "taxon",
+                                                                      "contentLevel": "dossier"
+                                                                    }
+                                                                  ],
+                                                                  "entityKind": "taxon",
+                                                                  "contentLevel": "dossier"
+                                                                },
+                                                                {
+                                                                  "id": "neoceti",
+                                                                  "name": "Neoceti",
+                                                                  "commonName": "Crown Whales",
+                                                                  "commonNameZh": "新鲸类（鲸类冠群）",
+                                                                  "rank": "clade",
+                                                                  "taxonId": "",
+                                                                  "firstAppearance": 36,
+                                                                  "lastAppearance": 0,
+                                                                  "extinct": false,
+                                                                  "children": [
+                                                                    {
+                                                                      "id": "mysticeti",
+                                                                      "name": "Mysticeti",
+                                                                      "commonName": "Baleen Whales",
+                                                                      "commonNameZh": "须鲸类",
+                                                                      "rank": "parvorder",
+                                                                      "taxonId": "",
+                                                                      "firstAppearance": 34,
+                                                                      "lastAppearance": 0,
+                                                                      "extinct": false,
+                                                                      "children": [],
+                                                                      "parentRelationshipKind": "navigation-parent",
+                                                                      "entityKind": "taxon",
+                                                                      "contentLevel": "dossier"
+                                                                    },
+                                                                    {
+                                                                      "id": "odontoceti",
+                                                                      "name": "Odontoceti",
+                                                                      "commonName": "Toothed Whales",
+                                                                      "commonNameZh": "齿鲸类",
+                                                                      "rank": "parvorder",
+                                                                      "taxonId": "",
+                                                                      "firstAppearance": 34,
+                                                                      "lastAppearance": 0,
+                                                                      "extinct": false,
+                                                                      "children": [],
+                                                                      "parentRelationshipKind": "navigation-parent",
+                                                                      "entityKind": "taxon",
+                                                                      "contentLevel": "dossier"
+                                                                    }
+                                                                  ],
+                                                                  "parentRelationshipKind": "navigation-parent",
+                                                                  "entityKind": "taxon",
+                                                                  "contentLevel": "dossier"
+                                                                }
+                                                              ],
+                                                              "entityKind": "taxon",
+                                                              "contentLevel": "dossier",
+                                                              "parentRelationshipKind": "navigation-parent"
+                                                            }
+                                                          ],
+                                                          "parentRelationshipKind": "navigation-parent",
+                                                          "entityKind": "taxon",
+                                                          "contentLevel": "dossier"
+                                                        }
+                                                      ],
+                                                      "parentRelationshipKind": "navigation-parent",
                                                       "entityKind": "taxon",
                                                       "contentLevel": "dossier"
                                                     }

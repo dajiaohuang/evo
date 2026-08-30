@@ -1,5 +1,14 @@
 # Dataset changelog
 
+## 2026.08-static-v5-rc22 — 2026-08-30
+
+- Replaced the Cetartiodactyla pilot scaffold with eight primary-evidence dossiers spanning named Eocene specimens, a retroposon topology and an extant-cetacean supermatrix while keeping specimen, interpretation, phylogenetic model and catalogue claims distinct.
+- Added curated navigation from Whippomorpha through Raoellidae and the cetacean total group to Pakicetidae, Ambulocetidae, Protocetidae, Basilosauridae, Neoceti, Mysticeti and Odontoceti without presenting the browse tree as a direct ancestor ladder.
+- Anchored Indohyus, Pakicetus, Ambulocetus, Peregocetus, Basilosaurus and Aegicetus dossiers to named specimens, formations, bounded ages and exact publication locators; associated and composite material is disclosed rather than silently reconstructed as single skeletons.
+- Kept locomotor, ecological and dispersal language as bounded interpretation, and kept whale–hippo retroposon support and the 2009 cetacean supermatrix as living-genome topology or time-model results rather than fossil observations or current catalogue authority.
+- Added an eight-step bilingual evidence story and clarified that COL26.8 routes exactly 503 strictly accepted living species names through Artiodactyla and Cetacea usages; naming coverage and dossier maturity remain independent.
+- Preserved bundled PBDB records as a bounded, non-random snapshot that cannot establish FAD, LAD, absence, richness or global distribution; only six named fossil occurrences receive claim-linked literature ranges.
+
 ## 2026.08-static-v5-rc21 — 2026-08-30
 
 - Replaced the marine-reptiles-pterosaurs generated scaffold with nine primary-evidence dossiers kept in three independent radiations: three ichthyosaur, three plesiosaur and three pterosaur records.
