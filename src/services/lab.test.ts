@@ -56,6 +56,6 @@ describe('lab query helpers', () => {
     expect(Object.keys(files)).toContain('checksums.txt')
     expect(Object.keys(files)).toContain('chart.svg')
     expect(Object.keys(files)).toContain('methods.md')
-    expect(JSON.parse(strFromU8(files['release.json'])).datasetVersion).toBe('2026.08-static-v5-rc15')
+    expect(JSON.parse(strFromU8(files['release.json'])).datasetVersion).toBe('2026.08-static-v5-rc16')
   })
 })

@@ -1,5 +1,14 @@
 # Dataset changelog
 
+## 2026.08-static-v5-rc16 — 2026-08-30
+
+- Promoted the tetrapod-transition package from generated scaffold to structured evidence with six specimen- or trace-anchored events and a seven-step bilingual story.
+- Separated the Zachełmie digit-bearing trackways from named body taxa and direct ancestry, retaining the trace-maker and palaeoenvironmental inference boundaries.
+- Added independent Tiktaalik body-plan and pectoral-fin dossiers, preserving fin rays, functional inference and the difference between a load-bearing fin and a free-digit limb.
+- Added CT-based Elpistostege fin anatomy, Acanthostega polydactyly and modelled Ichthyostega joint mobility without collapsing digit homology, locomotor capacity and observed behaviour.
+- Corrected the Clack 2009 synthesis citation and reframed terrestrialization as a mosaic of anatomical, locomotor and ecological changes rather than a linear ancestor ladder.
+- Kept all six entity-wide temporal ranges as unreviewed legacy displays; the new events do not promote them to specimen-supported ranges or global first appearances.
+
 ## 2026.08-static-v5-rc15 — 2026-08-30
 
 - Promoted the angiosperm package to structured evidence with a seven-step bilingual story separating crown-age models, dated body fossils, phytolith assemblages and animal-diet isotope proxies.
