@@ -1,5 +1,5 @@
 export const PACKAGE_SCHEMA_VERSION = 5
-export const DATASET_PACKAGE_VERSION = '2026.08-static-v5-rc16'
+export const DATASET_PACKAGE_VERSION = '2026.08-static-v5-rc17'
 export const DATASET_RELEASE_DATE = '2026-08-30'
 
 export const packageDefinitions = [
@@ -98,7 +98,12 @@ export const packageDefinitions = [
     title: 'Jawless and Early Jawed Fishes',
     titleZh: '无颌类与早期有颌鱼类',
     rootEntityIds: ['agnatha', 'placodermi', 'acanthodii'],
+    conceptScope: {
+      en: 'COL26.8 accepted-species routing covers the pinned Agnatha and Myxini roots; Myxini now has its own Cyclostomata navigation node. Curated events distinguish placoderm-grade stem gnathostomes, total-group lampreys and stem hagfishes from living crown groups. Myxinikela does not set the crown-Myxini range. The bundled PBDB occurrence rows are a bounded, non-random API-prefix sample and cannot establish FAD, LAD, absence, richness or global distribution; legacy range projections remain unreviewed.',
+      zh: 'COL26.8 已接受物种经固定的无颌类与盲鳗纲根路由到本包；盲鳗纲现已在圆口纲下拥有独立导航节点。已整理事件严格区分盾皮鱼等级的有颌类干群、七鳃鳗总群与盲鳗干群和现生冠群。Myxinikela 不用于设定盲鳗纲冠群延限。包内 PBDB 出现记录是有界、非随机的 API 前缀样本，不能用于确定首现、末现、缺失、丰富度或全球分布；旧版延限投影尚未复核。',
+    },
     wave: 'C',
+    scientificMaturity: 'structured',
   },
   {
     id: 'chondrichthyes',
@@ -106,7 +111,12 @@ export const packageDefinitions = [
     title: 'Cartilaginous Fishes',
     titleZh: '软骨鱼类',
     rootEntityIds: ['chondrichthyes'],
+    conceptScope: {
+      en: 'COL26.8 accepted-species routing covers living cartilaginous fishes. Curated events document specimen-level stem and total-group evidence from Qianodus, Fanjingshania, Shenacanthus and Gladbachus; none is presented as a crown shark or as the global first appearance of Chondrichthyes. The bundled PBDB occurrence rows are a bounded, non-random API-prefix sample and cannot establish FAD, LAD, absence, richness or global distribution; legacy range projections remain unreviewed.',
+      zh: 'COL26.8 已接受物种路由覆盖现生软骨鱼类。已整理事件记录 Qianodus、Fanjingshania、Shenacanthus 与 Gladbachus 的标本级干群或总群证据；任何一项都不被表述为冠群鲨类或软骨鱼纲全球首现。包内 PBDB 出现记录是有界、非随机的 API 前缀样本，不能用于确定首现、末现、缺失、丰富度或全球分布；旧版延限投影尚未复核。',
+    },
     wave: 'C',
+    scientificMaturity: 'structured',
   },
   {
     id: 'actinopterygii',

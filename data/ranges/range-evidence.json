@@ -2435,6 +2435,34 @@
     "evidenceLevel": "legacy-display"
   },
   {
+    "id": "range:myxini:global",
+    "entityId": "myxini",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Myxini crown group; Myxinikela is excluded from this endpoint",
+    "geographicScope": "Global crown-group display bound",
+    "olderMa": 100.5,
+    "youngerMa": 0,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "The older endpoint is rounded from a Cenomanian crown-hagfish occurrence and remains sampling-dependent."
+    },
+    "evidenceBasis": "Tethymyxine tapirostrum was recovered within crown Myxini; the stem hagfish Myxinikela is not used to extend this crown-group display range.",
+    "confidence": "medium",
+    "claimIds": [
+      "claim:taxon:myxini:crown-record"
+    ],
+    "referenceLocators": [
+      {
+        "referenceId": "miyashita-2019-tethymyxine",
+        "locator": "pp. 2146–2151; Figures 1–3; systematic and phylogenetic results"
+      }
+    ],
+    "reviewStatus": "not-reviewed",
+    "evidenceLevel": "literature-synthesized"
+  },
+  {
     "id": "range:gnathostomata:global",
     "entityId": "gnathostomata",
     "rangeKind": "global-composite",

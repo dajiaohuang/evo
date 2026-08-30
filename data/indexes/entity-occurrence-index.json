@@ -95,6 +95,7 @@
         "osteostraci",
         "cyclostomata",
         "petromyzontida",
+        "myxini",
         "gnathostomata",
         "placodermi",
         "arthrodira",
@@ -252,6 +253,7 @@
         "txn:33518",
         "txn:33521",
         "txn:67149",
+        "txn:401644",
         "txn:34249",
         "txn:34328",
         "txn:34422",
@@ -369,6 +371,7 @@
         "hemichordata",
         "pterobranchia",
         "vertebrata",
+        "myxini",
         "placodermi",
         "dunkleosteus",
         "chondrichthyes",
@@ -2844,6 +2847,7 @@
         "osteostraci",
         "cyclostomata",
         "petromyzontida",
+        "myxini",
         "gnathostomata",
         "placodermi",
         "arthrodira",
@@ -2954,6 +2958,7 @@
       ],
       "descendantTaxonIds": [
         "txn:67149",
+        "txn:401644",
         "txn:34249",
         "txn:34328",
         "txn:34422",
@@ -3024,6 +3029,7 @@
       ],
       "descendantScientificNames": [
         "vertebrata",
+        "myxini",
         "placodermi",
         "dunkleosteus",
         "chondrichthyes",
@@ -3125,10 +3131,15 @@
         "heterostraci",
         "osteostraci",
         "cyclostomata",
-        "petromyzontida"
+        "petromyzontida",
+        "myxini"
       ],
-      "descendantTaxonIds": [],
-      "descendantScientificNames": [],
+      "descendantTaxonIds": [
+        "txn:401644"
+      ],
+      "descendantScientificNames": [
+        "myxini"
+      ],
       "matchMethods": {
         "exactExternalId": 0,
         "acceptedName": 0,
@@ -3230,10 +3241,15 @@
       "externalResolutionStatus": "ambiguous",
       "queryStatus": "concept-review-required",
       "descendantEntityIds": [
-        "petromyzontida"
+        "petromyzontida",
+        "myxini"
       ],
-      "descendantTaxonIds": [],
-      "descendantScientificNames": [],
+      "descendantTaxonIds": [
+        "txn:401644"
+      ],
+      "descendantScientificNames": [
+        "myxini"
+      ],
       "matchMethods": {
         "exactExternalId": 0,
         "acceptedName": 0,
@@ -3254,6 +3270,30 @@
       "descendantEntityIds": [],
       "descendantTaxonIds": [],
       "descendantScientificNames": [],
+      "matchMethods": {
+        "exactExternalId": 0,
+        "acceptedName": 0,
+        "higherClassification": 0
+      },
+      "completeSnapshotAvailable": false,
+      "completeSnapshotRows": null,
+      "periods": [],
+      "matchedTotal": 0
+    },
+    "myxini": {
+      "entityId": "myxini",
+      "entityKind": "taxon",
+      "externalTaxonId": "txn:401644",
+      "scientificNameNormalized": "myxini",
+      "externalResolutionStatus": "resolved-exact",
+      "queryStatus": "resolved-zero-in-bounded-sample",
+      "descendantEntityIds": [],
+      "descendantTaxonIds": [
+        "txn:401644"
+      ],
+      "descendantScientificNames": [
+        "myxini"
+      ],
       "matchMethods": {
         "exactExternalId": 0,
         "acceptedName": 0,

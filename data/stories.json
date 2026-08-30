@@ -1088,5 +1088,127 @@
       }
     ],
     "evidenceStatus": "available-with-limitations"
+  },
+  {
+    "id": "early-fish-specimens-and-crown-boundaries",
+    "title": "Three early-fish fossils, three different boundaries",
+    "titleZh": "三组早期鱼类化石，三条不同边界",
+    "dek": "Move from an articulated stem gnathostome to lamprey and hagfish total-group fossils without turning specimen occurrences into crown origins or PBDB first appearances.",
+    "theme": "blue",
+    "durationMinutes": 7,
+    "featured": true,
+    "steps": [
+      {
+        "id": "xiushanosteus-body",
+        "title": "An articulated jawed stem vertebrate",
+        "text": "IVPP V300001 and twenty referred Xiushanosteus specimens expose an approximately 436 Ma placoderm-grade body and mosaic skull roof. Abundance in one Lagerstätte does not make the animal a direct ancestor or a global first appearance.",
+        "age": 436,
+        "timeRange": [436, 436],
+        "taxonIds": ["placodermi"],
+        "view": "evidence",
+        "eventId": "chongqing-xiushanosteus-complete-body",
+        "annotation": "Articulation strengthens anatomical association; it does not convert a stem-grade taxon into a crown ancestor.",
+        "claimLinks": [
+          {"claimId": "claim:event:chongqing-xiushanosteus-complete-body", "relation": "supports"}
+        ]
+      },
+      {
+        "id": "priscomyzon-disc",
+        "title": "A lamprey-like oral apparatus",
+        "text": "Holotype AM5750 preserves a large oral disc, fourteen circumoral teeth and a branchial basket at roughly 360 Ma. These structures diagnose total-group lamprey anatomy, not parasitism, migration or an ammocoete lifecycle.",
+        "age": 359.5,
+        "timeRange": [360, 359],
+        "taxonIds": ["petromyzontida"],
+        "view": "evidence",
+        "eventId": "famennian-priscomyzon-oral-disc",
+        "annotation": "A body fossil can preserve adult-like structures while leaving lifecycle and crown-node timing unresolved.",
+        "claimLinks": [
+          {"claimId": "claim:event:famennian-priscomyzon-oral-disc", "relation": "supports"}
+        ]
+      },
+      {
+        "id": "myxinikela-mosaic",
+        "title": "A stem hagfish is not crown Myxini",
+        "text": "FMNH PF15373 and PF8472 preserve a roughly 310–307 Ma cyclostome–hagfish mosaic, but different preservation and equivocal structures require a stem or putative total-group reading. The separate Myxini navigation node therefore does not inherit this age.",
+        "age": 308.5,
+        "timeRange": [310, 307],
+        "taxonIds": ["myxini", "cyclostomata"],
+        "view": "tree",
+        "eventId": "mazon-creek-myxinikela-stem-hagfish",
+        "annotation": "Total-group occurrence and crown-group range are separate evidence objects.",
+        "claimLinks": [
+          {"claimId": "claim:event:mazon-creek-myxinikela-stem-hagfish", "relation": "supports"}
+        ]
+      }
+    ],
+    "evidenceStatus": "available-with-limitations"
+  },
+  {
+    "id": "chondrichthyan-stem-evidence-trail",
+    "title": "Four specimens on the chondrichthyan stem",
+    "titleZh": "软骨鱼干群上的四组标本证据",
+    "dek": "Compare isolated teeth, a disarticulated dermoskeleton, one armoured articulated body and a later compressed skeleton while keeping stem placement separate from crown sharks and global FAD claims.",
+    "theme": "sage",
+    "durationMinutes": 9,
+    "featured": true,
+    "steps": [
+      {
+        "id": "qianodus-teeth",
+        "title": "Direct teeth without a body",
+        "text": "Twenty-three Qianodus tooth whorls at roughly 439 Ma provide direct evidence of jawed-vertebrate dentition. No articulated jaw or body is known, and nearby scales and spines cannot be assigned by proximity alone.",
+        "age": 439,
+        "timeRange": [439, 439],
+        "taxonIds": ["chondrichthyes"],
+        "view": "evidence",
+        "eventId": "early-silurian-qianodus-tooth-whorls",
+        "annotation": "Earliest direct dental evidence in the study is narrower than the origin of jaws or crown Chondrichthyes.",
+        "claimLinks": [
+          {"claimId": "claim:event:early-silurian-qianodus-tooth-whorls", "relation": "supports"}
+        ]
+      },
+      {
+        "id": "fanjingshania-shoulder",
+        "title": "A shoulder assembled and remodelled",
+        "text": "Fanjingshania dermal elements from the same approximate age show a spine–plate complex that grew through multiple centres and cyclical tissue resorption. Disarticulation prevents a complete-body or associated-tooth claim.",
+        "age": 439,
+        "timeRange": [439, 439],
+        "taxonIds": ["chondrichthyes"],
+        "view": "evidence",
+        "eventId": "rongxi-fanjingshania-dermoskeleton",
+        "annotation": "Co-occurrence of Qianodus and Fanjingshania is not evidence that they are the same animal.",
+        "claimLinks": [
+          {"claimId": "claim:event:rongxi-fanjingshania-dermoskeleton", "relation": "supports"}
+        ]
+      },
+      {
+        "id": "shenacanthus-armour",
+        "title": "One articulated mosaic",
+        "text": "Shenacanthus combines minute scales and a chondrichthyan-like posterior branchial region with large thoracic armour at roughly 436 Ma. A single toothless holotype and method-sensitive placement block a crown-shark reading.",
+        "age": 436,
+        "timeRange": [436, 436],
+        "taxonIds": ["chondrichthyes"],
+        "view": "tree",
+        "eventId": "chongqing-shenacanthus-body-plan",
+        "annotation": "A chondrichthyan total-group placement is not a diagnosis of the living shark crown.",
+        "claimLinks": [
+          {"claimId": "claim:event:chongqing-shenacanthus-body-plan", "relation": "supports"}
+        ]
+      },
+      {
+        "id": "gladbachus-disparity",
+        "title": "A later stem taxon remains unfamiliar",
+        "text": "At roughly 385 Ma, UMZC 2000.32 preserves jaws, gill arches, cartilage, scales and teeth in a surprising character mosaic. Compression, a missing tail and inferred feeding ecology remain visible limitations.",
+        "age": 385,
+        "timeRange": [385, 385],
+        "taxonIds": ["chondrichthyes"],
+        "view": "evidence",
+        "eventId": "givetian-gladbachus-mosaic-anatomy",
+        "annotation": "The stable shark-like morphotype was assembled through a more disparate stem history than one specimen can summarize.",
+        "claimLinks": [
+          {"claimId": "claim:event:givetian-gladbachus-mosaic-anatomy", "relation": "supports"}
+        ]
+      }
+    ],
+    "evidenceStatus": "available-with-limitations"
   }
 ]
