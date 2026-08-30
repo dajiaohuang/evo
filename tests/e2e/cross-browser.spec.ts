@@ -41,5 +41,5 @@ test('@cross-browser Explorer restores a versioned share state', async ({ page }
   await page.goto('./#/explore?age=34&view=tree&taxon=perissodactyla')
   await expect(page.getByRole('button', { name: 'Tree', exact: true })).toHaveClass(/is-active/)
   await expect(page.getByText('34.0', { exact: true })).toBeVisible()
-  await expect.poll(() => page.url()).toContain('dataset=2026.08-static-v5-rc52')
+  await expect.poll(() => page.url()).toContain('dataset=2026.08-static-v5-rc53')
 })

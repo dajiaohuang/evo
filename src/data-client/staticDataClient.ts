@@ -347,6 +347,39 @@ export async function loadCatalogueSpeciesOwnership(): Promise<CatalogueSpeciesO
   return ownership
 }
 
+export async function loadCatalogueResourcePackManifest(packageId: string): Promise<import('./types').CatalogueResourcePackManifest> {
+  const catalogue = await loadCatalogueManifest()
+  const file = catalogue.resourcePacks?.manifests[packageId]
+  if (!file) throw new Error(`Unknown catalogue nomenclatural resource pack: ${packageId}`)
+  const manifest = await loadRuntimeFile<import('./types').CatalogueResourcePackManifest>(file)
+  if (manifest.packageId !== packageId
+    || manifest.packageType !== 'static-nomenclatural-resource-pack'
+    || manifest.version !== (await loadCurrentManifest()).datasetVersion
+    || manifest.source.releaseAlias !== catalogue.releaseAlias
+    || manifest.acceptedSpeciesCount !== file.acceptedSpeciesCount) {
+    throw new Error(`Catalogue resource pack ${packageId} does not match the current release`)
+  }
+  return manifest
+}
+
+export async function loadCatalogueResourcePack(packageId: string): Promise<{
+  manifest: import('./types').CatalogueResourcePackManifest
+  records: import('./types').CatalogueNomenclaturalRecord[]
+}> {
+  const manifest = await loadCatalogueResourcePackManifest(packageId)
+  const shards = await Promise.all(manifest.files.map((file) => loadRuntimeFile<import('./types').CatalogueNomenclaturalRecord[]>(file)))
+  for (const [index, records] of shards.entries()) {
+    if (records.length !== manifest.files[index].records) {
+      throw new Error(`Catalogue resource pack ${packageId} shard ${index + 1} does not match its published record count`)
+    }
+  }
+  const records = shards.flat()
+  if (records.length !== manifest.acceptedSpeciesCount) {
+    throw new Error(`Catalogue resource pack ${packageId} does not match its published species count`)
+  }
+  return { manifest, records }
+}
+
 export function resolveCatalogueSpeciesOwner(
   lineage: Pick<CatalogueHierarchyNodeRecord, 'id'>[],
   ownership: CatalogueSpeciesOwnership,

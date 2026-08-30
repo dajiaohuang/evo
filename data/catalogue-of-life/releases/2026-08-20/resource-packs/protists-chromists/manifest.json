@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "packageType": "static-nomenclatural-resource-pack",
+  "packageId": "protists-chromists",
+  "title": "Protists and Chromists",
+  "titleZh": "原生生物与色界生物",
+  "source": {
+    "releaseAlias": "COL26.8",
+    "releaseDate": "2026-08-20",
+    "checklistBankDatasetKey": 316115,
+    "strictPredicate": "rank=species AND status=accepted",
+    "sharedSourcesPath": "../registry/sources.json",
+    "sharedSourcesCount": 160,
+    "sharedSourcesSha256": "6a82d43afeb975ac483db4459bdc03bfd9131ff0a28cf18cae61a06f55508c6c"
+  },
+  "scope": "Strict accepted species descending from the exact COL26.8 Chromista or Protozoa kingdom roots.",
+  "scopeZh": "固定 COL26.8 中精确色界或原生动物界根节点下的严格接受种。",
+  "disclaimer": "The combined browse owner is operational and does not assert that Chromista and Protozoa form one clade or reflect a universally accepted kingdom system.",
+  "disclaimerZh": "该合并浏览归属只是操作性分组，不声称色界与原生动物界构成同一演化支，也不代表该界系统获得普遍接受。",
+  "browseRootIds": [
+    "C",
+    "Z"
+  ],
+  "acceptedSpeciesCount": 61518,
+  "missingSourceDatasetId": 2,
+  "fields": [
+    "id",
+    "parentId",
+    "scientificName",
+    "authorship",
+    "rank",
+    "status",
+    "sourceDatasetId"
+  ],
+  "files": [
+    {
+      "path": "protists-chromists/species-000.jsonl.gz",
+      "records": 33700,
+      "bytes": 666110,
+      "sourceBytes": 6291356,
+      "sha256": "02aef7f0f72b0ae5a05f04b0f46ccc4ee0a45993bab4ddd84414188cc878f015",
+      "sourceSha256": "4dd03091a690d4e766d586fde0d2446699175b5368644afa19b9ca44acba3a0c",
+      "encoding": "gzip",
+      "mediaType": "application/x-ndjson"
+    },
+    {
+      "path": "protists-chromists/species-001.jsonl.gz",
+      "records": 27818,
+      "bytes": 564427,
+      "sourceBytes": 5257136,
+      "sha256": "6efd0ffb445696b1054673c532ad732157a5f1772c6e4b427e625d5b095a0c69",
+      "sourceSha256": "5df79a8533d33db404d012e348a99d3f22bc1603bf4ce00aee625e888654a9c5",
+      "encoding": "gzip",
+      "mediaType": "application/x-ndjson"
+    }
+  ],
+  "totalCompressedBytes": 1230537,
+  "totalSourceBytes": 11548492,
+  "evidenceBoundary": "This package preserves official COL26.8 nomenclatural and placement fields only; it does not assert an Evo Atlas dossier, biological evidence, media, fossils, ecology, translation, or expert review."
+}

@@ -33,6 +33,12 @@ function displayedName(record: Pick<CatalogueHierarchyNodeRecord, 'scientificNam
   return record.scientificName.slice(0, -record.authorship.length).trim()
 }
 
+function ownershipKindLabel(kind: 'static-package' | 'nomenclatural-resource-pack' | 'catalogue-only', zh: boolean): string {
+  if (kind === 'static-package') return zh ? '富内容资源包' : 'Curated content pack'
+  if (kind === 'nomenclatural-resource-pack') return zh ? '命名资源包' : 'Nomenclatural pack'
+  return zh ? '零记录目录边界' : 'Zero-record catalogue boundary'
+}
+
 export function CatalogueTaxonPage(props: CatalogueTaxonPageProps) {
   return <CatalogueTaxonRecord key={`${props.release ?? ''}:${props.id ?? ''}`} {...props} />
 }
@@ -249,7 +255,7 @@ function CatalogueTaxonRecord({ release, id, onNavigate }: CatalogueTaxonPagePro
               <div className={`catalogue-owner-card catalogue-owner-card--${speciesOwner.entry.kind}`}>
                 <div className="catalogue-owner-card__heading">
                   <strong>{zh ? speciesOwner.entry.titleZh : speciesOwner.entry.title}</strong>
-                  <span>{speciesOwner.entry.kind === 'static-package' ? (zh ? '静态资源包' : 'Static package') : (zh ? '仅目录分区' : 'Catalogue-only')}</span>
+                  <span>{ownershipKindLabel(speciesOwner.entry.kind, zh)}</span>
                 </div>
                 <code>{speciesOwner.entry.id}</code>
                 <dl>

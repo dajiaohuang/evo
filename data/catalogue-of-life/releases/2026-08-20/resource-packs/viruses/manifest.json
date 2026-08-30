@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "packageType": "static-nomenclatural-resource-pack",
+  "packageId": "viruses",
+  "title": "Viruses",
+  "titleZh": "病毒",
+  "source": {
+    "releaseAlias": "COL26.8",
+    "releaseDate": "2026-08-20",
+    "checklistBankDatasetKey": 316115,
+    "strictPredicate": "rank=species AND status=accepted",
+    "sharedSourcesPath": "../registry/sources.json",
+    "sharedSourcesCount": 160,
+    "sharedSourcesSha256": "6a82d43afeb975ac483db4459bdc03bfd9131ff0a28cf18cae61a06f55508c6c"
+  },
+  "scope": "Strict accepted species descending from the exact COL26.8 Viruses root.",
+  "scopeZh": "固定 COL26.8 中精确 Viruses 根节点下的严格接受种。",
+  "disclaimer": "This browse scope follows the pinned Catalogue of Life treatment of virus species and does not resolve debates over whether viruses are living organisms.",
+  "disclaimerZh": "该浏览范围遵循固定版生命物种名录对病毒种的处理，不对“病毒是否属于生命”的争议作出结论。",
+  "browseRootIds": [
+    "92e52ff4-2dc6-4b35-9339-2e92035b8daf"
+  ],
+  "acceptedSpeciesCount": 17552,
+  "missingSourceDatasetId": 0,
+  "fields": [
+    "id",
+    "parentId",
+    "scientificName",
+    "authorship",
+    "rank",
+    "status",
+    "sourceDatasetId"
+  ],
+  "files": [
+    {
+      "path": "viruses/species-000.jsonl.gz",
+      "records": 17552,
+      "bytes": 758880,
+      "sourceBytes": 3317764,
+      "sha256": "33ac321b49180529dc97ed5c44bda4c65298b48fde0097f04f23e7c5f3d7ae21",
+      "sourceSha256": "fe44bd88c8d618101fc197edff90936535f4fd7606489d3a6b3430133d9174ea",
+      "encoding": "gzip",
+      "mediaType": "application/x-ndjson"
+    }
+  ],
+  "totalCompressedBytes": 758880,
+  "totalSourceBytes": 3317764,
+  "evidenceBoundary": "This package preserves official COL26.8 nomenclatural and placement fields only; it does not assert an Evo Atlas dossier, biological evidence, media, fossils, ecology, translation, or expert review."
+}

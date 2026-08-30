@@ -12,9 +12,9 @@
   },
   "packageRegistry": {
     "schemaVersion": 5,
-    "datasetPackageVersion": "2026.08-static-v5-rc52",
+    "datasetPackageVersion": "2026.08-static-v5-rc53",
     "definitionsPath": "scripts/package-definitions.mjs",
-    "definitionsSha256": "702435f68370bfe663337e050fe2ef8f0700d993a9948a672b23e6dd20f95ab8",
+    "definitionsSha256": "fefb3d42de829f310cccb66dde33d784c546906e3581d7135a32b198535c371d",
     "packageCount": 24
   },
   "ownershipPolicy": {
@@ -285,7 +285,7 @@
     },
     {
       "id": "viruses",
-      "kind": "catalogue-only",
+      "kind": "nomenclatural-resource-pack",
       "title": "Viruses",
       "titleZh": "病毒",
       "acceptedSpeciesCount": 17552,
@@ -295,11 +295,12 @@
       "scope": "Strict accepted species descending from the exact COL26.8 Viruses root.",
       "scopeZh": "固定 COL26.8 中精确 Viruses 根节点下的严格接受种。",
       "disclaimer": "This browse scope follows the pinned Catalogue of Life treatment of virus species and does not resolve debates over whether viruses are living organisms.",
-      "disclaimerZh": "该浏览范围遵循固定版生命物种名录对病毒种的处理，不对“病毒是否属于生命”的争议作出结论。"
+      "disclaimerZh": "该浏览范围遵循固定版生命物种名录对病毒种的处理，不对“病毒是否属于生命”的争议作出结论。",
+      "resourcePackManifestPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/viruses/manifest.json"
     },
     {
       "id": "archaea",
-      "kind": "catalogue-only",
+      "kind": "nomenclatural-resource-pack",
       "title": "Archaea",
       "titleZh": "古菌域",
       "acceptedSpeciesCount": 790,
@@ -309,11 +310,12 @@
       "scope": "Strict accepted species descending from the exact COL26.8 Archaea domain root.",
       "scopeZh": "固定 COL26.8 中精确古菌域根节点下的严格接受种。",
       "disclaimer": "Counts reflect accepted names in this release, not environmental lineage diversity or uncultured archaeal diversity.",
-      "disclaimerZh": "计数反映该版本的接受学名，不代表环境谱系或未培养古菌的完整多样性。"
+      "disclaimerZh": "计数反映该版本的接受学名，不代表环境谱系或未培养古菌的完整多样性。",
+      "resourcePackManifestPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/archaea/manifest.json"
     },
     {
       "id": "bacteria",
-      "kind": "catalogue-only",
+      "kind": "nomenclatural-resource-pack",
       "title": "Bacteria",
       "titleZh": "细菌域",
       "acceptedSpeciesCount": 26397,
@@ -323,11 +325,12 @@
       "scope": "Strict accepted species descending from the exact COL26.8 Bacteria domain root.",
       "scopeZh": "固定 COL26.8 中精确细菌域根节点下的严格接受种。",
       "disclaimer": "Counts reflect accepted names in this release, not environmental lineage diversity, metagenomic diversity or uncultured bacterial diversity.",
-      "disclaimerZh": "计数反映该版本的接受学名，不代表环境谱系、宏基因组或未培养细菌的完整多样性。"
+      "disclaimerZh": "计数反映该版本的接受学名，不代表环境谱系、宏基因组或未培养细菌的完整多样性。",
+      "resourcePackManifestPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/bacteria/manifest.json"
     },
     {
       "id": "fungi",
-      "kind": "catalogue-only",
+      "kind": "nomenclatural-resource-pack",
       "title": "Fungi",
       "titleZh": "真菌界",
       "acceptedSpeciesCount": 157044,
@@ -337,11 +340,12 @@
       "scope": "Strict accepted species descending from the exact COL26.8 Fungi kingdom root.",
       "scopeZh": "固定 COL26.8 中精确真菌界根节点下的严格接受种。",
       "disclaimer": "This is a catalogue browse owner, not a claim that fungal taxonomy or described fungal diversity is complete.",
-      "disclaimerZh": "这是名录浏览归属，不表示真菌分类或已描述的真菌多样性已完整。"
+      "disclaimerZh": "这是名录浏览归属，不表示真菌分类或已描述的真菌多样性已完整。",
+      "resourcePackManifestPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/fungi/manifest.json"
     },
     {
       "id": "protists-chromists",
-      "kind": "catalogue-only",
+      "kind": "nomenclatural-resource-pack",
       "title": "Protists and Chromists",
       "titleZh": "原生生物与色界生物",
       "acceptedSpeciesCount": 61518,
@@ -352,11 +356,12 @@
       "scope": "Strict accepted species descending from the exact COL26.8 Chromista or Protozoa kingdom roots.",
       "scopeZh": "固定 COL26.8 中精确色界或原生动物界根节点下的严格接受种。",
       "disclaimer": "The combined browse owner is operational and does not assert that Chromista and Protozoa form one clade or reflect a universally accepted kingdom system.",
-      "disclaimerZh": "该合并浏览归属只是操作性分组，不声称色界与原生动物界构成同一演化支，也不代表该界系统获得普遍接受。"
+      "disclaimerZh": "该合并浏览归属只是操作性分组，不声称色界与原生动物界构成同一演化支，也不代表该界系统获得普遍接受。",
+      "resourcePackManifestPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/manifest.json"
     },
     {
       "id": "other-plants",
-      "kind": "catalogue-only",
+      "kind": "nomenclatural-resource-pack",
       "title": "Other Plants",
       "titleZh": "其他植物",
       "acceptedSpeciesCount": 698,
@@ -366,11 +371,12 @@
       "scope": "Strict accepted species below the exact COL26.8 Plantae kingdom root that are not claimed by the flowering-plant, gymnosperm or named early-land-plant routes.",
       "scopeZh": "固定 COL26.8 中精确植物界根节点下，且未被被子植物、裸子植物或指定早期陆生植物路由接收的严格接受种。",
       "disclaimer": "“Other” is the deterministic remainder of this release and may combine unrelated plant or algal lineages; it is not a taxonomic clade.",
-      "disclaimerZh": "“其他”是该版本的确定性余集，可能合并无直接亲缘关系的植物或藻类谱系，并非分类学演化支。"
+      "disclaimerZh": "“其他”是该版本的确定性余集，可能合并无直接亲缘关系的植物或藻类谱系，并非分类学演化支。",
+      "resourcePackManifestPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/other-plants/manifest.json"
     },
     {
       "id": "other-animals",
-      "kind": "catalogue-only",
+      "kind": "nomenclatural-resource-pack",
       "title": "Other Animals",
       "titleZh": "其他动物",
       "acceptedSpeciesCount": 99161,
@@ -380,7 +386,8 @@
       "scope": "Strict accepted species below the exact COL26.8 Animalia kingdom root that are not claimed by a more specific static-package route.",
       "scopeZh": "固定 COL26.8 中精确动物界根节点下，且未被更具体静态内容包路由接收的严格接受种。",
       "disclaimer": "“Other” is the deterministic remainder of this release and combines many unrelated animal phyla; it is not a taxonomic clade.",
-      "disclaimerZh": "“其他”是该版本的确定性余集，合并了多个无直接亲缘关系的动物门，并非分类学演化支。"
+      "disclaimerZh": "“其他”是该版本的确定性余集，合并了多个无直接亲缘关系的动物门，并非分类学演化支。",
+      "resourcePackManifestPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals/manifest.json"
     },
     {
       "id": "other-eukaryotes",
@@ -398,6 +405,11 @@
       "zeroAssignmentReason": "Every COL26.8 Eukaryota species is already below Animalia, Chromista, Fungi, Plantae or Protozoa in this snapshot."
     }
   ],
+  "resourcePacks": {
+    "packageCount": 7,
+    "acceptedSpeciesCount": 363160,
+    "manifestPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/manifest.json"
+  },
   "routes": [
     {
       "priority": 1,
@@ -882,7 +894,7 @@
     {
       "priority": 21,
       "packageId": "viruses",
-      "kind": "catalogue-only",
+      "kind": "nomenclatural-resource-pack",
       "ancestorIds": [
         "92e52ff4-2dc6-4b35-9339-2e92035b8daf"
       ],
@@ -899,7 +911,7 @@
     {
       "priority": 22,
       "packageId": "archaea",
-      "kind": "catalogue-only",
+      "kind": "nomenclatural-resource-pack",
       "ancestorIds": [
         "CRLT8"
       ],
@@ -916,7 +928,7 @@
     {
       "priority": 23,
       "packageId": "bacteria",
-      "kind": "catalogue-only",
+      "kind": "nomenclatural-resource-pack",
       "ancestorIds": [
         "CRRY6"
       ],
@@ -933,7 +945,7 @@
     {
       "priority": 24,
       "packageId": "fungi",
-      "kind": "catalogue-only",
+      "kind": "nomenclatural-resource-pack",
       "ancestorIds": [
         "F"
       ],
@@ -950,7 +962,7 @@
     {
       "priority": 25,
       "packageId": "protists-chromists",
-      "kind": "catalogue-only",
+      "kind": "nomenclatural-resource-pack",
       "ancestorIds": [
         "C",
         "Z"
@@ -974,7 +986,7 @@
     {
       "priority": 26,
       "packageId": "other-plants",
-      "kind": "catalogue-only",
+      "kind": "nomenclatural-resource-pack",
       "ancestorIds": [
         "P"
       ],
@@ -991,7 +1003,7 @@
     {
       "priority": 27,
       "packageId": "other-animals",
-      "kind": "catalogue-only",
+      "kind": "nomenclatural-resource-pack",
       "ancestorIds": [
         "N"
       ],
@@ -1070,7 +1082,7 @@
   },
   "generatedBy": {
     "scriptPath": "scripts/build-package-species-coverage.mjs",
-    "scriptSha256": "8e34c39011a5b28e34cdd66a4c45d6a2cbadaee09118936f7dc88019fba0546e",
+    "scriptSha256": "306eb5c1900b6a93c68ea4d2785e12b3f011d80f8c6ad432b0bb557f387d6e60",
     "deterministic": "No wall-clock fields; sorted source shards, IDs, packages and rule candidates."
   }
 }

@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "packageType": "static-nomenclatural-resource-pack",
+  "packageId": "bacteria",
+  "title": "Bacteria",
+  "titleZh": "细菌域",
+  "source": {
+    "releaseAlias": "COL26.8",
+    "releaseDate": "2026-08-20",
+    "checklistBankDatasetKey": 316115,
+    "strictPredicate": "rank=species AND status=accepted",
+    "sharedSourcesPath": "../registry/sources.json",
+    "sharedSourcesCount": 160,
+    "sharedSourcesSha256": "6a82d43afeb975ac483db4459bdc03bfd9131ff0a28cf18cae61a06f55508c6c"
+  },
+  "scope": "Strict accepted species descending from the exact COL26.8 Bacteria domain root.",
+  "scopeZh": "固定 COL26.8 中精确细菌域根节点下的严格接受种。",
+  "disclaimer": "Counts reflect accepted names in this release, not environmental lineage diversity, metagenomic diversity or uncultured bacterial diversity.",
+  "disclaimerZh": "计数反映该版本的接受学名，不代表环境谱系、宏基因组或未培养细菌的完整多样性。",
+  "browseRootIds": [
+    "CRRY6"
+  ],
+  "acceptedSpeciesCount": 26397,
+  "missingSourceDatasetId": 0,
+  "fields": [
+    "id",
+    "parentId",
+    "scientificName",
+    "authorship",
+    "rank",
+    "status",
+    "sourceDatasetId"
+  ],
+  "files": [
+    {
+      "path": "bacteria/species-000.jsonl.gz",
+      "records": 26397,
+      "bytes": 590043,
+      "sourceBytes": 5291582,
+      "sha256": "45635a3a885ed8027b69c7e16463e132bab449252aa706b9511cb245e0dc2845",
+      "sourceSha256": "bc15364ad27c4de93be28b382088602a7bd5211ab426f2da8309182dc8a1f245",
+      "encoding": "gzip",
+      "mediaType": "application/x-ndjson"
+    }
+  ],
+  "totalCompressedBytes": 590043,
+  "totalSourceBytes": 5291582,
+  "evidenceBoundary": "This package preserves official COL26.8 nomenclatural and placement fields only; it does not assert an Evo Atlas dossier, biological evidence, media, fossils, ecology, translation, or expert review."
+}

@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "packageType": "static-nomenclatural-resource-pack",
+  "packageId": "fungi",
+  "title": "Fungi",
+  "titleZh": "真菌界",
+  "source": {
+    "releaseAlias": "COL26.8",
+    "releaseDate": "2026-08-20",
+    "checklistBankDatasetKey": 316115,
+    "strictPredicate": "rank=species AND status=accepted",
+    "sharedSourcesPath": "../registry/sources.json",
+    "sharedSourcesCount": 160,
+    "sharedSourcesSha256": "6a82d43afeb975ac483db4459bdc03bfd9131ff0a28cf18cae61a06f55508c6c"
+  },
+  "scope": "Strict accepted species descending from the exact COL26.8 Fungi kingdom root.",
+  "scopeZh": "固定 COL26.8 中精确真菌界根节点下的严格接受种。",
+  "disclaimer": "This is a catalogue browse owner, not a claim that fungal taxonomy or described fungal diversity is complete.",
+  "disclaimerZh": "这是名录浏览归属，不表示真菌分类或已描述的真菌多样性已完整。",
+  "browseRootIds": [
+    "F"
+  ],
+  "acceptedSpeciesCount": 157044,
+  "missingSourceDatasetId": 0,
+  "fields": [
+    "id",
+    "parentId",
+    "scientificName",
+    "authorship",
+    "rank",
+    "status",
+    "sourceDatasetId"
+  ],
+  "files": [
+    {
+      "path": "fungi/species-000.jsonl.gz",
+      "records": 33885,
+      "bytes": 660628,
+      "sourceBytes": 6291408,
+      "sha256": "f281f9170ae58d825762ff965e8b6be5b113f6e063f39135db6c36f6dd428977",
+      "sourceSha256": "bcc6dea8bd81a1afe811f35f02bf837e227e131efcfafbf7adf9c7c5a376ca34",
+      "encoding": "gzip",
+      "mediaType": "application/x-ndjson"
+    },
+    {
+      "path": "fungi/species-001.jsonl.gz",
+      "records": 33481,
+      "bytes": 670349,
+      "sourceBytes": 6291267,
+      "sha256": "bcdcf90709aa08700c49853da04c26b919f67cbb2f05a7de8d160b3a3f986483",
+      "sourceSha256": "e7b91116cad4217b581332cc3df17987cec4fea9b5139981610b4542f1b9868e",
+      "encoding": "gzip",
+      "mediaType": "application/x-ndjson"
+    },
+    {
+      "path": "fungi/species-002.jsonl.gz",
+      "records": 33400,
+      "bytes": 747302,
+      "sourceBytes": 6291413,
+      "sha256": "35a7f76d655f5e3a9bc46b511d5c3cfc722db90c8eda5fac619cb5fe1d1a0ea2",
+      "sourceSha256": "16420c10d9d404e819e6098aba9c7324ea537042483ff1d63470a61e4a113db7",
+      "encoding": "gzip",
+      "mediaType": "application/x-ndjson"
+    },
+    {
+      "path": "fungi/species-003.jsonl.gz",
+      "records": 32200,
+      "bytes": 809309,
+      "sourceBytes": 6291306,
+      "sha256": "fe82dd1c5c8734d75e7c21646d6dbd21ef086f7011783bf66c5706e3826a44ee",
+      "sourceSha256": "484929f9293e5f47d5efaa859a917083f8e9caebc351f077af013aa316ec2e01",
+      "encoding": "gzip",
+      "mediaType": "application/x-ndjson"
+    },
+    {
+      "path": "fungi/species-004.jsonl.gz",
+      "records": 24078,
+      "bytes": 521355,
+      "sourceBytes": 4583507,
+      "sha256": "2ae25b19d70549ff6f4d2662fc03b75341d94c889ecbe30f6bec000689dd41e5",
+      "sourceSha256": "8db7a317a20ec83f108ad9413f2af4028ffdff611096a9482bc6748a40882f2a",
+      "encoding": "gzip",
+      "mediaType": "application/x-ndjson"
+    }
+  ],
+  "totalCompressedBytes": 3408943,
+  "totalSourceBytes": 29748901,
+  "evidenceBoundary": "This package preserves official COL26.8 nomenclatural and placement fields only; it does not assert an Evo Atlas dossier, biological evidence, media, fossils, ecology, translation, or expert review."
+}

@@ -269,6 +269,53 @@ const homoNode = homoNodeFiles.flatMap((file) => gunzipSync(readFileSync(join(da
 if (!homoNode || homoNode.parentId !== '636X2' || homoNode.rank !== 'species') failures.push('Catalogue of Life exact-ID hierarchy cannot restore Homo sapiens from a deep link')
 releaseUrl(catalogue.sourceChecklists, 'Catalogue of Life source checklists')
 checkFile(catalogue.sourceChecklists, 'Catalogue of Life source checklists')
+const catalogueSources = readJson(catalogue.sourceChecklists.url)
+const catalogueSourceIds = new Set(catalogueSources.map((source) => String(source.datasetId)))
+const expectedResourcePackIds = ['archaea', 'bacteria', 'fungi', 'other-animals', 'other-plants', 'protists-chromists', 'viruses']
+if (catalogue.resourcePacks?.packageCount !== 7
+  || catalogue.resourcePacks.acceptedSpeciesCount !== 363160
+  || current.catalogue.nomenclaturalResourcePacks !== 7
+  || current.catalogue.nomenclaturalResourcePackSpecies !== 363160
+  || JSON.stringify(Object.keys(catalogue.resourcePacks.manifests).sort()) !== JSON.stringify(expectedResourcePackIds)) {
+  failures.push('Catalogue nomenclatural resource-pack inventory is incomplete')
+} else {
+  let resourcePackRecords = 0
+  for (const packageId of expectedResourcePackIds) {
+    const manifestFile = catalogue.resourcePacks.manifests[packageId]
+    releaseUrl(manifestFile, `Catalogue resource pack ${packageId}`)
+    checkFile(manifestFile, `Catalogue resource pack ${packageId}`)
+    const manifest = readJson(manifestFile.url)
+    if (manifest.packageId !== packageId || manifest.version !== current.datasetVersion || manifest.packageType !== 'static-nomenclatural-resource-pack') {
+      failures.push(`${packageId}: invalid catalogue resource-pack identity`)
+      continue
+    }
+    let packageRecords = 0
+    for (const file of manifest.files) {
+      releaseUrl(file, `${packageId} nomenclatural shard`)
+      checkFile(file, `${packageId} nomenclatural shard`)
+      if (file.bytes > 8 * 1024 * 1024) failures.push(`${packageId}: nomenclatural shard exceeds 8 MiB`)
+      const records = gunzipSync(readFileSync(join(dataRoot, file.url))).toString('utf8').split('\n').filter(Boolean).map((line) => JSON.parse(line))
+      if (records.length !== file.records) failures.push(`${packageId}: nomenclatural shard count mismatch`)
+      for (const record of records) {
+        if (record.rank !== 'species' || record.status !== 'accepted' || !record.id || !record.parentId || !record.scientificName) {
+          failures.push(`${packageId}: nomenclatural shard contains a non-accepted or incomplete species record`)
+          break
+        }
+        if (record.sourceDatasetId !== null && !catalogueSourceIds.has(String(record.sourceDatasetId))) {
+          failures.push(`${packageId}: sourceDatasetId ${record.sourceDatasetId} is absent from the shared sources ledger`)
+          break
+        }
+      }
+      packageRecords += records.length
+    }
+    if (packageRecords !== manifest.acceptedSpeciesCount || packageRecords !== manifestFile.acceptedSpeciesCount) {
+      failures.push(`${packageId}: nomenclatural resource-pack total mismatch`)
+    }
+    if (!existsSync(join(dataRoot, manifest.download))) failures.push(`${packageId}: nomenclatural resource-pack download missing`)
+    resourcePackRecords += packageRecords
+  }
+  if (resourcePackRecords !== 363160) failures.push('Catalogue nomenclatural resource-pack records do not total 363,160')
+}
 
 if (failures.length) {
   console.error(`Pages smoke failed with ${failures.length} issue(s):`)

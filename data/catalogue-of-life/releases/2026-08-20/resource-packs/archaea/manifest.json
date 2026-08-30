@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "packageType": "static-nomenclatural-resource-pack",
+  "packageId": "archaea",
+  "title": "Archaea",
+  "titleZh": "古菌域",
+  "source": {
+    "releaseAlias": "COL26.8",
+    "releaseDate": "2026-08-20",
+    "checklistBankDatasetKey": 316115,
+    "strictPredicate": "rank=species AND status=accepted",
+    "sharedSourcesPath": "../registry/sources.json",
+    "sharedSourcesCount": 160,
+    "sharedSourcesSha256": "6a82d43afeb975ac483db4459bdc03bfd9131ff0a28cf18cae61a06f55508c6c"
+  },
+  "scope": "Strict accepted species descending from the exact COL26.8 Archaea domain root.",
+  "scopeZh": "固定 COL26.8 中精确古菌域根节点下的严格接受种。",
+  "disclaimer": "Counts reflect accepted names in this release, not environmental lineage diversity or uncultured archaeal diversity.",
+  "disclaimerZh": "计数反映该版本的接受学名，不代表环境谱系或未培养古菌的完整多样性。",
+  "browseRootIds": [
+    "CRLT8"
+  ],
+  "acceptedSpeciesCount": 790,
+  "missingSourceDatasetId": 0,
+  "fields": [
+    "id",
+    "parentId",
+    "scientificName",
+    "authorship",
+    "rank",
+    "status",
+    "sourceDatasetId"
+  ],
+  "files": [
+    {
+      "path": "archaea/species-000.jsonl.gz",
+      "records": 790,
+      "bytes": 17365,
+      "sourceBytes": 156379,
+      "sha256": "0e6d527a5bad958d618969ba6dbe8c23106e0116b2ac2415ceff701264a9ef95",
+      "sourceSha256": "a7ee47e5fb89d93ff778e76d18d435cd379ac1db9ec4050aa7c0e30bccceab66",
+      "encoding": "gzip",
+      "mediaType": "application/x-ndjson"
+    }
+  ],
+  "totalCompressedBytes": 17365,
+  "totalSourceBytes": 156379,
+  "evidenceBoundary": "This package preserves official COL26.8 nomenclatural and placement fields only; it does not assert an Evo Atlas dossier, biological evidence, media, fossils, ecology, translation, or expert review."
+}

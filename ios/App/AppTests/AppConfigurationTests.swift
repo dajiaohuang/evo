@@ -63,6 +63,37 @@ final class AppConfigurationTests: XCTestCase {
             }
         }
         XCTAssertEqual(observationFiles, 20)
+
+        let catalogueDescriptor = try XCTUnwrap((current["catalogue"] as? [String: Any])?["manifest"] as? [String: Any])
+        let cataloguePath = try XCTUnwrap(catalogueDescriptor["url"] as? String)
+        let catalogue = try jsonObject(at: dataRoot.appendingPathComponent(cataloguePath))
+        let resourcePacks = try XCTUnwrap(catalogue["resourcePacks"] as? [String: Any])
+        XCTAssertEqual(resourcePacks["packageCount"] as? Int, 7)
+        XCTAssertEqual(resourcePacks["acceptedSpeciesCount"] as? Int, 363_160)
+        let packManifests = try XCTUnwrap(resourcePacks["manifests"] as? [String: [String: Any]])
+        var resourcePackRecords = 0
+        for packageId in ["archaea", "bacteria", "fungi", "other-animals", "other-plants", "protists-chromists", "viruses"] {
+            let manifestDescriptor = try XCTUnwrap(packManifests[packageId])
+            let manifestPath = try XCTUnwrap(manifestDescriptor["url"] as? String)
+            let manifestInventoryRecord = try XCTUnwrap(files.first { ($0["url"] as? String) == manifestPath }, "Resource-pack manifest missing from release inventory")
+            try verifyBundled(record: manifestInventoryRecord, below: dataRoot)
+            let pack = try jsonObject(at: dataRoot.appendingPathComponent(manifestPath))
+            XCTAssertEqual(pack["packageId"] as? String, packageId)
+            XCTAssertEqual(pack["version"] as? String, datasetVersion)
+            let shards = try XCTUnwrap(pack["files"] as? [[String: Any]])
+            var packageRecords = 0
+            for shard in shards {
+                let shardPath = try XCTUnwrap(shard["url"] as? String)
+                let shardInventoryRecord = try XCTUnwrap(files.first { ($0["url"] as? String) == shardPath }, "Resource-pack shard missing from release inventory")
+                XCTAssertEqual(shard["bytes"] as? Int, shardInventoryRecord["bytes"] as? Int)
+                XCTAssertEqual(shard["sha256"] as? String, shardInventoryRecord["sha256"] as? String)
+                try verifyBundled(record: shardInventoryRecord, below: dataRoot)
+                packageRecords += try XCTUnwrap(shard["records"] as? Int)
+            }
+            XCTAssertEqual(pack["acceptedSpeciesCount"] as? Int, packageRecords)
+            resourcePackRecords += packageRecords
+        }
+        XCTAssertEqual(resourcePackRecords, 363_160)
     }
 
     private func verifyBundled(record: [String: Any], below dataRoot: URL) throws {

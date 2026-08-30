@@ -2,10 +2,10 @@ import { useEffect, useState } from 'react'
 import manifest from '../../../data/manifest.json'
 import { periods } from '../../services/geology'
 import { loadReleaseMetadata, localReleaseMetadata } from '../../services/release'
-import { loadCatalogueSpeciesOwnership, loadCurrentManifest, loadEntityLinkageCoverage, loadPackageManifest, loadPackageRegistry } from '../../data-client/staticDataClient'
-import { clearOfflinePackages, getCompleteAtlasOfflinePlan, saveAllPackagesOffline, saveCompleteAtlasOffline, savePackageOffline } from '../../data-client/offlinePackages'
+import { loadCatalogueManifest, loadCatalogueSpeciesOwnership, loadCurrentManifest, loadEntityLinkageCoverage, loadPackageManifest, loadPackageRegistry, runtimeDataUrl } from '../../data-client/staticDataClient'
+import { clearOfflinePackages, getCompleteAtlasOfflinePlan, saveAllPackagesOffline, saveCatalogueResourcePackOffline, saveCompleteAtlasOffline, savePackageOffline } from '../../data-client/offlinePackages'
 import type { CompleteAtlasOfflinePlan, OfflineDownloadProgress } from '../../data-client/offlinePackages'
-import type { CatalogueSpeciesOwnership, CurrentRuntimeManifest, RuntimeEntityLinkageCoverage, RuntimePackageManifest, RuntimePackageRegistry } from '../../data-client/types'
+import type { CatalogueRuntimeManifest, CatalogueSpeciesCoverageEntry, CatalogueSpeciesOwnership, CurrentRuntimeManifest, RuntimeEntityLinkageCoverage, RuntimePackageManifest, RuntimePackageRegistry } from '../../data-client/types'
 import type { AppRoute } from '../../utils/routing'
 import { reviewStatusLabel, scientificMaturityLabel } from '../../services/publication'
 import { useI18n } from '../../i18n'
@@ -21,6 +21,12 @@ function formatBoundary(boundary: { valueMa: number; uncertaintyMa: number | nul
   return `${boundary.approximate ? '~' : ''}${value}${uncertainty} Ma`
 }
 
+function ownershipKindLabel(kind: CatalogueSpeciesCoverageEntry['kind'], zh: boolean): string {
+  if (kind === 'static-package') return zh ? '富内容资源包' : 'Curated content pack'
+  if (kind === 'nomenclatural-resource-pack') return zh ? '命名资源包' : 'Nomenclatural pack'
+  return zh ? '零记录目录边界' : 'Zero-record catalogue boundary'
+}
+
 export function DataPage({ onNavigate }: PageProps) {
   const { language, number, t } = useI18n()
   const bundledNativeData = import.meta.env.VITE_NATIVE_APP === 'true'
@@ -29,10 +35,12 @@ export function DataPage({ onNavigate }: PageProps) {
   const [packageRegistry, setPackageRegistry] = useState<RuntimePackageRegistry | null>(null)
   const [packageManifests, setPackageManifests] = useState<RuntimePackageManifest[]>([])
   const [linkageCoverage, setLinkageCoverage] = useState<RuntimeEntityLinkageCoverage | null>(null)
+  const [catalogue, setCatalogue] = useState<CatalogueRuntimeManifest | null>(null)
   const [speciesOwnership, setSpeciesOwnership] = useState<CatalogueSpeciesOwnership | null>(null)
   const [platformError, setPlatformError] = useState<string | null>(null)
   const [speciesOwnershipError, setSpeciesOwnershipError] = useState<string | null>(null)
   const [offlineStatus, setOfflineStatus] = useState('idle')
+  const [cataloguePackStatus, setCataloguePackStatus] = useState<Record<string, 'saving' | 'saved' | 'failed'>>({})
   const [completeOfflinePlan, setCompleteOfflinePlan] = useState<CompleteAtlasOfflinePlan | null>(null)
   const [completeOfflineProgress, setCompleteOfflineProgress] = useState<OfflineDownloadProgress | null>(null)
 
@@ -58,8 +66,11 @@ export function DataPage({ onNavigate }: PageProps) {
 
   useEffect(() => {
     let cancelled = false
-    void loadCatalogueSpeciesOwnership().then((ownership) => {
-      if (!cancelled) setSpeciesOwnership(ownership)
+    void Promise.all([loadCatalogueSpeciesOwnership(), loadCatalogueManifest()]).then(([ownership, loadedCatalogue]) => {
+      if (!cancelled) {
+        setSpeciesOwnership(ownership)
+        setCatalogue(loadedCatalogue)
+      }
     }).catch((error: unknown) => {
       if (!cancelled) setSpeciesOwnershipError(error instanceof Error ? error.message : String(error))
     })
@@ -81,6 +92,16 @@ export function DataPage({ onNavigate }: PageProps) {
     await clearOfflinePackages()
     setOfflineStatus('cleared')
     setCompleteOfflineProgress(null)
+  }
+
+  const storeCataloguePackOffline = async (packageId: string) => {
+    setCataloguePackStatus((current) => ({ ...current, [packageId]: 'saving' }))
+    try {
+      await saveCatalogueResourcePackOffline(packageId)
+      setCataloguePackStatus((current) => ({ ...current, [packageId]: 'saved' }))
+    } catch {
+      setCataloguePackStatus((current) => ({ ...current, [packageId]: 'failed' }))
+    }
   }
 
   const storeCompleteAtlasOffline = async () => {
@@ -212,6 +233,7 @@ export function DataPage({ onNavigate }: PageProps) {
             <article><strong>{number(speciesOwnership.proof.assignedSpecies)}</strong><span>{language === 'zh' ? '严格 accepted 已归属' : 'strict accepted assigned'}</span></article>
             <article><strong>{speciesOwnership.entries.length}</strong><span>{language === 'zh' ? '互斥资源分区' : 'exclusive resource partitions'}</span></article>
             <article><strong>{speciesOwnership.entries.filter((entry) => entry.kind === 'static-package').length}</strong><span>{language === 'zh' ? '静态资源包' : 'static packages'}</span></article>
+            <article><strong>{speciesOwnership.entries.filter((entry) => entry.kind === 'nomenclatural-resource-pack').length}</strong><span>{language === 'zh' ? '命名资源包' : 'nomenclatural packs'}</span></article>
             <article><strong>{speciesOwnership.entries.filter((entry) => entry.kind === 'catalogue-only').length}</strong><span>{language === 'zh' ? '仅目录兜底' : 'catalogue-only fallbacks'}</span></article>
             <article><strong>{number(speciesOwnership.proof.unmatchedSpecies)}</strong><span>{language === 'zh' ? '未归属物种' : 'unmatched species'}</span></article>
           </div>
@@ -227,11 +249,12 @@ export function DataPage({ onNavigate }: PageProps) {
               <span>{language === 'zh' ? '全集占比' : 'Share'}</span>
               <span>{language === 'zh' ? '浏览根' : 'Browse roots'}</span>
               <span>{language === 'zh' ? '范围边界' : 'Scope boundary'}</span>
+              <span>{language === 'zh' ? '访问' : 'Access'}</span>
             </div>
             {speciesOwnership.entries.map((entry) => (
               <div className={`ownership-row ownership-row--${entry.kind}`} role="row" key={entry.id}>
                 <strong>{language === 'zh' ? entry.titleZh : entry.title}<small>{entry.id}</small></strong>
-                <span className="ownership-kind">{entry.kind === 'static-package' ? (language === 'zh' ? '静态资源包' : 'Static package') : (language === 'zh' ? '仅目录' : 'Catalogue-only')}</span>
+                <span className="ownership-kind">{ownershipKindLabel(entry.kind, language === 'zh')}</span>
                 <span>{number(entry.acceptedSpeciesCount)}</span>
                 <span>{((entry.acceptedSpeciesCount / speciesOwnership.source.acceptedSpecies) * 100).toFixed(entry.acceptedSpeciesCount === 0 ? 1 : 3)}%</span>
                 <span className="ownership-roots">{entry.browseRootIds.length ? entry.browseRootIds.map((rootId) => <code key={rootId}>{rootId}</code>) : '—'}</span>
@@ -240,6 +263,16 @@ export function DataPage({ onNavigate }: PageProps) {
                     ? entry.scopeZh ?? (entry.zeroAssignmentReason ? '本发布版没有归属记录；保留此分区以表达明确的零覆盖边界。' : entry.kind === 'catalogue-only' ? '残余目录分区；不是专档成熟度声明。' : '由固定 CoL 祖先 ID 定义的物种归属。')
                     : entry.scope ?? entry.zeroAssignmentReason ?? (entry.kind === 'catalogue-only' ? 'Residual catalogue partition; not a dossier-maturity claim.' : 'Species ownership defined by pinned CoL ancestor IDs.')}
                   {(entry.disclaimer || entry.disclaimerZh) && <small>{language === 'zh' ? entry.disclaimerZh ?? entry.disclaimer : entry.disclaimer ?? entry.disclaimerZh}</small>}
+                </span>
+                <span className="ownership-access">
+                  {entry.kind === 'nomenclatural-resource-pack' && catalogue ? <>
+                    {bundledNativeData
+                      ? <span>{language === 'zh' ? '已随应用内置' : 'Bundled with app'}</span>
+                      : <>
+                        <button type="button" disabled={cataloguePackStatus[entry.id] === 'saving'} onClick={() => void storeCataloguePackOffline(entry.id)}>{cataloguePackStatus[entry.id] === 'saving' ? (language === 'zh' ? '保存中…' : 'Saving…') : cataloguePackStatus[entry.id] === 'saved' ? (language === 'zh' ? '已离线保存' : 'Saved offline') : cataloguePackStatus[entry.id] === 'failed' ? (language === 'zh' ? '重试保存' : 'Retry save') : (language === 'zh' ? '离线保存' : 'Save offline')}</button>
+                        <a href={runtimeDataUrl(catalogue.resourcePacks.downloadTemplate.replace('{packageId}', entry.id))} download>{language === 'zh' ? '下载 ZIP' : 'Download ZIP'}</a>
+                      </>}
+                  </> : <span>—</span>}
                 </span>
               </div>
             ))}

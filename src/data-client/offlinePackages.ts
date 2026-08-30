@@ -1,4 +1,4 @@
-import { clearRuntimeMemoryCache, loadCurrentManifest, loadCurrentReleaseFiles, loadPackageManifest, loadPackageRegistry, runtimeDataUrl } from './staticDataClient'
+import { clearRuntimeMemoryCache, loadCatalogueManifest, loadCatalogueResourcePackManifest, loadCurrentManifest, loadCurrentReleaseFiles, loadPackageManifest, loadPackageRegistry, runtimeDataUrl } from './staticDataClient'
 import type { RuntimeReleaseFile } from './types'
 
 const OFFLINE_CACHE_PREFIX = 'evo-explicit-offline-packages-'
@@ -51,6 +51,20 @@ export async function saveAllPackagesOffline(onProgress?: (completed: number, to
     ...manifest.occurrences.map((file) => runtimeDataUrl(file.url)),
   ])
   await cacheUrls(`${OFFLINE_CACHE_PREFIX}${current.datasetVersion}`, [...new Set(urls)], onProgress)
+}
+
+export async function saveCatalogueResourcePackOffline(packageId: string, onProgress?: (completed: number, total: number) => void): Promise<void> {
+  const current = await loadCurrentManifest()
+  const catalogue = await loadCatalogueManifest()
+  const manifest = await loadCatalogueResourcePackManifest(packageId)
+  const manifestFile = catalogue.resourcePacks.manifests[packageId]
+  const urls = [
+    runtimeDataUrl(current.catalogue.manifest.url),
+    runtimeDataUrl(catalogue.resourcePacks.sharedSources.url),
+    runtimeDataUrl(manifestFile.url),
+    ...manifest.files.map((file) => runtimeDataUrl(file.url)),
+  ]
+  await cacheUrls(`${OFFLINE_CACHE_PREFIX}${current.datasetVersion}`, urls, onProgress)
 }
 
 async function completeAtlasFiles(): Promise<{ plan: CompleteAtlasOfflinePlan; files: RuntimeReleaseFile[] }> {

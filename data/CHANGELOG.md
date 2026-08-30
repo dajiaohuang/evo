@@ -1,5 +1,12 @@
 # Dataset changelog
 
+## App 0.20.4 / 2026.08-static-v5-rc53 — 2026-08-31
+
+- Promoted every nonzero COL26.8 catalogue-only partition into a deterministic static nomenclatural resource pack: fungi 157,044; other animals 99,161; protists and chromists 61,518; bacteria 26,397; viruses 17,552; archaea 790; and other plants 698, for 363,160 strictly accepted species in seven packs and fourteen gzip NDJSON shards.
+- Each compact record retains the pinned usage ID, parent ID, scientific name, authorship, rank, accepted status and upstream `sourceDatasetId`. All non-null source IDs resolve against the shared 160-checklist source ledger. The explicit `other-eukaryotes` partition remains a zero-record catalogue boundary rather than publishing an empty or fabricated package.
+- Added versioned resource-pack manifests and reproducible ZIP downloads to the shared runtime. The Data view distinguishes twenty-four curated-content packs from seven nomenclatural packs and provides direct ZIP and browser offline controls without presenting nomenclatural coverage as dossier maturity.
+- Added the seven manifests, fourteen shards and shared source ledger to the complete immutable release inventory. Android build `7` and iOS build `7` bundle exactly the same interactive files and checksums as Web; signed store artifacts and physical-device review remain separate release work.
+
 ## App 0.20.3 / 2026.08-static-v5-rc52 — 2026-08-31
 
 - Imported every point-data payload omitted from the earlier CAO2024 v2.4 geometry-only integration: 208 palaeomagnetic-pole records, 43,364 geochemistry observations and 603 metamorphic-gradient constraints, for 44,175 source records in five independent datasets and twenty deterministic gzip shards.
