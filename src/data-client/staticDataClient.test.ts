@@ -434,6 +434,52 @@ describe('static runtime release coherence', () => {
     expect(cacheStorageDelete).not.toHaveBeenCalledWith('unrelated-cache')
   })
 
+  it('loads checksummed package research examples and verifies the manifest counts', async () => {
+    Object.defineProperty(globalThis, 'Worker', { configurable: true, value: undefined })
+    const researchExamples = {
+      schemaVersion: 1 as const,
+      packageId: 'demo',
+      examples: [{
+        id: 'demo-tree-preset',
+        type: 'explorer-preset' as const,
+        title: { en: 'Demo evidence', zh: '演示证据' },
+        description: { en: 'A bounded entry point.', zh: '一个边界明确的入口。' },
+        route: '#/explore?taxon=demo&view=tree',
+        entityIds: ['demo'],
+        claimIds: ['claim:demo'],
+        evidenceStatus: 'available-with-limitations' as const,
+        limitations: ['This is not a phylogeny or complete history.'],
+      }],
+    }
+    const researchFile = { url: 'releases/dataset-research/packages/demo/research-examples.json', sha256: await sha256(researchExamples) }
+    const packageManifest = {
+      packageId: 'demo',
+      version: 'dataset-research',
+      researchExampleCount: 1,
+      researchClaimLinkCount: 1,
+      files: { researchExamples: researchFile },
+    }
+    const manifestFile = { url: 'releases/dataset-research/packages/demo/manifest.json', sha256: await sha256(packageManifest) }
+    const current = {
+      datasetVersion: 'dataset-research',
+      releaseBase: 'releases/dataset-research/',
+      packages: { manifests: { demo: manifestFile } },
+    }
+    const fetchMock = vi.fn(async (input: RequestInfo | URL) => {
+      const url = String(input)
+      if (url.endsWith('/data/current.json')) return responseFor(current)
+      if (url.endsWith(manifestFile.url)) return responseFor(packageManifest)
+      if (url.endsWith(researchFile.url)) return responseFor(researchExamples)
+      return { ok: false, status: 404, arrayBuffer: async () => new ArrayBuffer(0) }
+    })
+    vi.stubGlobal('fetch', fetchMock)
+
+    const { loadPackageResearchExamples } = await import('./staticDataClient')
+    await expect(loadPackageResearchExamples('demo')).resolves.toEqual(researchExamples)
+    await expect(loadPackageResearchExamples('demo')).resolves.toEqual(researchExamples)
+    expect(fetchMock.mock.calls.filter(([input]) => String(input).endsWith(researchFile.url))).toHaveLength(1)
+  })
+
   it('loads and caches the pinned source-checklist ledger through the verified runtime file path', async () => {
     const sources: CatalogueSourceChecklist[] = [{
       datasetId: '1005',

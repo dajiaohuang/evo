@@ -1,5 +1,11 @@
 # Dataset changelog
 
+## App 0.20.7 / 2026.08-static-v5-rc56 — 2026-08-31
+
+- Delivered all twenty-four source-bound research presets as checksummed runtime package payloads instead of leaving them only in canonical authoring files. Every rich-package ZIP and the release inventory now contains its research payload; Web single/all-package offline storage plus Android/iOS full-data bundles consume the same bytes.
+- Added a bilingual Catalog research section with the package title, raw `available-with-limitations` status, localized evidence boundary and working Explorer or comparison route. Runtime loading verifies package identity, example count and claim-link count against each manifest.
+- Preserved 24 examples and 34 claim links, the two explicitly available phylogeny hypotheses and twenty-two `unmapped` states. Existing claims, profiles, stories, PBDB rows, CAO2024 frames and COL26.8 accepted-species ownership are unchanged; no automated check creates scientific review.
+
 ## App 0.20.6 / 2026.08-static-v5-rc55 — 2026-08-31
 
 - Replaced the twenty-three claim-free research scaffolds with explicit package-local evidence presets. All twenty-four rich-content packages now publish `available-with-limitations` research examples with 34 claim links: one new locator-bearing claim in each non-Perissodactyla package and the unchanged eleven-claim Perissodactyla comparison preset.

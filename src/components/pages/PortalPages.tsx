@@ -1,4 +1,7 @@
+import { useEffect, useState } from 'react'
 import manifest from '../../../data/manifest.json'
+import { loadPackageRegistry, loadPackageResearchExamples } from '../../data-client/staticDataClient'
+import type { RuntimeResearchExample } from '../../data-client/types'
 import { evolutionEvents, taxonProfiles } from '../../services/catalog'
 import { buildEvidenceIssueUrl, getEntityPublication, getPackagePublication, publicationPackages, scientificMaturityLabel } from '../../services/publication'
 import type { AppRoute } from '../../utils/routing'
@@ -18,12 +21,32 @@ const maturityStages = [
   ['published', 'Source-linked content has a current digest-bound maintainer review and passes public release gates.'],
 ] as const
 
+type CatalogResearchPreset = RuntimeResearchExample & { packageId: string }
+
 export function CatalogHubPage({ onNavigate }: PortalPageProps) {
   const { language, t } = useI18n()
+  const [researchPresets, setResearchPresets] = useState<CatalogResearchPreset[]>([])
+  const [researchPresetError, setResearchPresetError] = useState(false)
   const flagship = getPackagePublication('perissodactyla')
   const flagshipProfileCount = taxonProfiles.filter((profile) => getEntityPublication(profile.treeNodeId ?? profile.id)?.packageId === 'perissodactyla').length
   const scaffolds = publicationPackages.filter((entry) => entry.scientificMaturity === 'generated-scaffold')
   const staticCatalogBase = `${import.meta.env.BASE_URL}${language === 'zh' ? 'zh/' : ''}`
+
+  useEffect(() => {
+    let cancelled = false
+    loadPackageRegistry()
+      .then((registry) => Promise.all(registry.packages.map(async (entry) => {
+        const payload = await loadPackageResearchExamples(entry.id)
+        return payload.examples.map((example) => ({ ...example, packageId: entry.id }))
+      })))
+      .then((groups) => {
+        if (!cancelled) setResearchPresets(groups.flat())
+      })
+      .catch(() => {
+        if (!cancelled) setResearchPresetError(true)
+      })
+    return () => { cancelled = true }
+  }, [])
 
   return (
     <main className="portal-page">
@@ -67,14 +90,40 @@ export function CatalogHubPage({ onNavigate }: PortalPageProps) {
       </section>
 
       <section className="portal-section">
-        <div className="portal-section__heading"><span>03</span><div><small>{t('Scientific maturity')}</small><h2>{t('One visible ladder, five explicit gates')}</h2></div></div>
+        <div className="portal-section__heading"><span>03</span><div><small>{t('Research presets')}</small><h2>{t('Open a source-bound evidence inspection route')}</h2></div></div>
+        <p className="research-preset-boundary">{t('These presets open the claims and occurrence context published by each package. They are not package-specific phylogenies or complete histories of the groups.')}</p>
+        {researchPresetError
+          ? <p className="research-preset-state" role="alert">{t('Research presets are temporarily unavailable.')}</p>
+          : researchPresets.length === 0
+            ? <p className="research-preset-state" role="status">{t('Loading research presets…')}</p>
+            : <div className="research-preset-grid">
+              {researchPresets.map((example) => (
+                <article className="research-preset-card" key={`${example.packageId}:${example.id}`}>
+                  <div className="research-preset-card__meta">
+                    <span>{example.packageId}</span>
+                    <code>{example.evidenceStatus}</code>
+                  </div>
+                  <h3>{language === 'zh' ? example.title.zh : example.title.en}</h3>
+                  <p>{language === 'zh' ? example.description.zh : example.description.en}</p>
+                  <div className="research-preset-card__limitations">
+                    <strong>{t('Limitations')}</strong>
+                    {example.limitations.map((limitation) => <p key={limitation}>{t(limitation)}</p>)}
+                  </div>
+                  <a className="text-action" href={example.route}>{t('Open research preset')} →</a>
+                </article>
+              ))}
+            </div>}
+      </section>
+
+      <section className="portal-section">
+        <div className="portal-section__heading"><span>04</span><div><small>{t('Scientific maturity')}</small><h2>{t('One visible ladder, five explicit gates')}</h2></div></div>
         <ol className="maturity-ladder">
           {maturityStages.map(([stage, description], index) => <li key={stage}><span>{String(index + 1).padStart(2, '0')}</span><strong>{t(scientificMaturityLabel(stage))}</strong><p>{t(description)}</p></li>)}
         </ol>
       </section>
 
       {scaffolds.length > 0 && <section className="portal-section portal-scaffolds">
-        <div className="portal-section__heading"><span>04</span><div><small>{t('Experimental coverage')}</small><h2>{t('Generated scaffolds stay folded by default')}</h2></div></div>
+        <div className="portal-section__heading"><span>05</span><div><small>{t('Experimental coverage')}</small><h2>{t('Generated scaffolds stay folded by default')}</h2></div></div>
         <details>
           <summary>{t('Show {count} generated scientific packages', { count: scaffolds.length })}</summary>
           <div className="scaffold-grid">

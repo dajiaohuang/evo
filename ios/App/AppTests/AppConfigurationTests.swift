@@ -64,6 +64,32 @@ final class AppConfigurationTests: XCTestCase {
         }
         XCTAssertEqual(observationFiles, 20)
 
+        let packageDescriptors = try XCTUnwrap((current["packages"] as? [String: Any])?["manifests"] as? [String: [String: Any]])
+        XCTAssertEqual(packageDescriptors.count, 24)
+        var researchExamples = 0
+        var researchClaimLinks = 0
+        var phylogenyPackages = 0
+        for (packageId, manifestDescriptor) in packageDescriptors {
+            let manifestPath = try XCTUnwrap(manifestDescriptor["url"] as? String)
+            let manifestInventoryRecord = try XCTUnwrap(files.first { ($0["url"] as? String) == manifestPath }, "Rich-package manifest missing from release inventory")
+            try verifyBundled(record: manifestInventoryRecord, below: dataRoot)
+            let package = try jsonObject(at: dataRoot.appendingPathComponent(manifestPath))
+            XCTAssertEqual(package["packageId"] as? String, packageId)
+            let payloads = try XCTUnwrap(package["files"] as? [String: [String: Any]])
+            let researchDescriptor = try XCTUnwrap(payloads["researchExamples"])
+            let researchPath = try XCTUnwrap(researchDescriptor["url"] as? String)
+            let researchInventoryRecord = try XCTUnwrap(files.first { ($0["url"] as? String) == researchPath }, "Research examples missing from release inventory")
+            XCTAssertEqual(researchDescriptor["bytes"] as? Int, researchInventoryRecord["bytes"] as? Int)
+            XCTAssertEqual(researchDescriptor["sha256"] as? String, researchInventoryRecord["sha256"] as? String)
+            try verifyBundled(record: researchInventoryRecord, below: dataRoot)
+            researchExamples += try XCTUnwrap(package["researchExampleCount"] as? Int)
+            researchClaimLinks += try XCTUnwrap(package["researchClaimLinkCount"] as? Int)
+            if payloads["phylogeny"] != nil { phylogenyPackages += 1 }
+        }
+        XCTAssertEqual(researchExamples, 24)
+        XCTAssertEqual(researchClaimLinks, 34)
+        XCTAssertEqual(phylogenyPackages, 2)
+
         let catalogueDescriptor = try XCTUnwrap((current["catalogue"] as? [String: Any])?["manifest"] as? [String: Any])
         let cataloguePath = try XCTUnwrap(catalogueDescriptor["url"] as? String)
         let catalogue = try jsonObject(at: dataRoot.appendingPathComponent(cataloguePath))

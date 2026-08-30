@@ -72,6 +72,24 @@ export interface RuntimeSearchEntry {
   terms: Array<string | number | null | undefined>
 }
 
+export interface RuntimeResearchExample {
+  id: string
+  type: 'explorer-preset' | 'comparison'
+  title: { en: string; zh: string }
+  description: { en: string; zh: string }
+  route: string
+  entityIds: string[]
+  claimIds: string[]
+  evidenceStatus: 'available-with-limitations'
+  limitations: string[]
+}
+
+export interface RuntimeResearchExamples {
+  schemaVersion: 1
+  packageId: string
+  examples: RuntimeResearchExample[]
+}
+
 export interface RuntimePackageManifest {
   schemaVersion: number
   packageId: string
@@ -95,6 +113,8 @@ export interface RuntimePackageManifest {
   entityCount: number
   profileCount: number
   claimCount: number
+  researchExampleCount: number
+  researchClaimLinkCount: number
   occurrenceCount: number
   queryCoverage: {
     completeness: 'complete' | 'bounded' | 'unknown'
@@ -123,7 +143,7 @@ export interface RuntimePackageManifest {
     packageLoadTime: string
     offlineCacheSizeBytes: number
   }
-  files: Record<string, RuntimeFile>
+  files: Record<string, RuntimeFile> & { researchExamples: RuntimeFile }
   occurrences: Array<RuntimeFile & { records: number; period: string; packageId: string }>
 }
 

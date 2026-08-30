@@ -21,6 +21,7 @@ import type {
   RuntimeMapSnapshot,
   RuntimePackageManifest,
   RuntimePackageRegistry,
+  RuntimeResearchExamples,
   RuntimeReleaseFilesIndex,
   RuntimeReleasesIndex,
   RuntimeSearchEntry,
@@ -255,6 +256,18 @@ export async function loadPackageManifest(packageId: string): Promise<RuntimePac
     throw new Error(`Runtime package ${packageId} does not belong to dataset ${current.datasetVersion}`)
   }
   return manifest
+}
+
+export async function loadPackageResearchExamples(packageId: string): Promise<RuntimeResearchExamples> {
+  const manifest = await loadPackageManifest(packageId)
+  const payload = await loadRuntimeFile<RuntimeResearchExamples>(manifest.files.researchExamples)
+  const claimLinkCount = payload.examples.reduce((sum, example) => sum + example.claimIds.length, 0)
+  if (payload.packageId !== packageId
+    || payload.examples.length !== manifest.researchExampleCount
+    || claimLinkCount !== manifest.researchClaimLinkCount) {
+    throw new Error(`Runtime research examples for ${packageId} do not match the package manifest`)
+  }
+  return payload
 }
 
 export async function loadPackageForEntity(entityId: string): Promise<RuntimePackageManifest | null> {
