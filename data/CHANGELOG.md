@@ -1,5 +1,12 @@
 # Dataset changelog
 
+## 2026.08-static-v5-rc19 — 2026-08-30
+
+- Added eight Amphibia primary-evidence dossiers spanning named Permian–Oligocene fossils, a living frog genome, receptor-knockout metamorphosis and a 7,238-species model time tree.
+- Added Gymnophionomorpha total-group and Gymnophiona crown navigation with separate evidence ranges, explicit provisional crown limits and PBDB snapshot-resolution boundaries.
+- Promoted the Amphibia package from generated scaffold to structured maturity while retaining exactly 8,923 COL26.8 accepted species names as nomenclatural coverage rather than mature dossier coverage.
+- Added two bilingual, claim-linked stories that keep specimen occurrence, stem/crown placement, model time, experimental scope, legacy ranges and global first appearance separate.
+
 ## 2026.08-static-v5-rc18 — 2026-08-30
 
 - Replaced the Actinopterygii generated scaffold with seven primary-source-linked anatomy, fossil, phylogenomic, genome-duplication and developmental evidence events plus a bilingual evidence-boundary story.

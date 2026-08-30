@@ -70,6 +70,14 @@ const eventOwners = {
   'anisian-stem-teleosteomorph-record': 'actinopterygii',
   'neopterygian-caudal-fin-mosaic': 'actinopterygii',
   'eloposteoglossocephala-genome-structure': 'actinopterygii',
+  'kungurian-gerobatrachus-stem-batrachian': 'amphibia',
+  'early-triassic-triadobatrachus-ct': 'amphibia',
+  'norian-funcusvermis-stem-caecilian': 'amphibia',
+  'oxfordian-beiyanerpeton-salamandroid': 'amphibia',
+  'oligocene-ymboirana-crown-caecilian': 'amphibia',
+  'xenopus-tropicalis-draft-genome': 'amphibia',
+  'xenopus-thyroid-receptor-metamorphosis': 'amphibia',
+  'extant-amphibian-7238-species-timetree': 'amphibia',
   'tetrapods-on-land': 'tetrapod-transition',
   'zachelmie-digit-trackways': 'tetrapod-transition',
   'tiktaalik-body-plan-mosaic': 'tetrapod-transition',
@@ -173,7 +181,24 @@ function loadChineseTranslations() {
 function localize(language, value) {
   const source = String(value ?? '')
   if (language !== 'zh') return source
-  return claimStatementsZh[source] ?? chineseTranslations.get(source) ?? source
+  return claimStatementsZh[source] ?? chineseTranslations.get(source) ?? compactAmphibianTranslation(source) ?? source
+}
+
+function compactAmphibianTranslation(source) {
+  const value = source.toLowerCase()
+  const exact = { 'caecilian total group': '无足类总群', 'living caecilians': '现生蚓螈', amphibia: '两栖纲', anura: '无尾目', caudata: '有尾目', gymnophiona: '无足目' }
+  if (exact[value]) return exact[value]
+  if (/receptor|trα|trβ|metamorphosis|experimental causation/.test(value)) return '爪蟾受体敲除实验区分 TRβ 尾部退化与 TRα 后肢发育效应；结论限于该模型与器官。'
+  if (/7,238|10,000-tree|4,061|15-gene|model nodes|global extant-species|molecular and taxonomic|col26\.8/.test(value)) return '7,238 种合成树仅有 4,061 种具分子数据；其余为分类推断，模型时间不等于化石或命名覆盖。'
+  if (/gerobatrachus|usnm 489135|clear fork|stem batrachia|kungurian|leonardian|proposed topology/.test(value)) return 'USNM 489135 记录蛙螈类干群镶嵌性状；不代表冠群、祖先或全球首现。'
+  if (/triadobatrachus|mnhn\.f\.mae\.126|sakamena|stem salientia|split nodule|frog-lineage|induan|olenekian|historical provenance/.test(value)) return 'MNHN.F.MAE.126 的微型 CT 支持跳跃类干群；未证明冠群无尾目或特化跳跃。'
+  if (/funcusvermis|pefo 43891|thunderstorm ridge|gymnophionomorpha|total-group occurrence|caecilian total-group|many individuals|not one articulated|global fad/.test(value)) return 'Funcusvermis 骨床支持无足类总群；孤立骨骼不设定冠群或全球首现。'
+  if (/beiyanerpeton|pkup v060|tiaojishan|salamandroid|salamandroidea|dated flow|157 ± 3|overlying trachyandesite|association strengthens/.test(value)) return 'PKUP V0601–V0606 支持牛津期蝾螈总科记录；年龄与幼态持续解释均有边界。'
+  if (/ymboirana|dgm 1462|tremembé|typhlonect|living-family|crown display|ct-informed comparative/.test(value)) return 'DGM 1462-R 暂归水栖蚓螈科；冠群界线因缺少正式系统检验而保持低置信度。'
+  if (/xenopus|draft assembly|one individual|nigerian inbred|genome is not|genomic reference|7.6-fold|aamc00000000|extant genomic/.test(value)) return '热带爪蟾草图基因组是单一个体现生参照，不代表全部两栖类或祖先。'
+  if (/five amphibian fossils|follow named specimens/.test(value)) return '五组具名化石展示不同边界，不混同总群、冠群、祖先与全球首现。'
+  if (/living amphibian data|compare one frog genome/.test(value)) return '比较现生基因组、变态实验与模型时间树，同时保留样本和推断边界。'
+  return undefined
 }
 
 function renderReferences(records, language) {

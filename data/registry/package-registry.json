@@ -1,9 +1,9 @@
 {
   "schemaVersion": 5,
-  "version": "2026.08-static-v5-rc18",
+  "version": "2026.08-static-v5-rc19",
   "schemaStatus": "candidate",
   "packageCount": 24,
-  "entityCount": 200,
+  "entityCount": 202,
   "packages": [
     {
       "id": "atlas-core",
@@ -244,9 +244,9 @@
       "rootEntityIds": [
         "amphibia"
       ],
-      "entityCount": 5,
+      "entityCount": 7,
       "platformMaturity": "published",
-      "scientificMaturity": "generated-scaffold",
+      "scientificMaturity": "structured",
       "automatedReviewStatus": "passed",
       "reviewStatus": "not-reviewed"
     },
@@ -538,6 +538,8 @@
     "lissamphibia": "amphibia",
     "anura": "amphibia",
     "caudata": "amphibia",
+    "gymnophionomorpha": "amphibia",
+    "gymnophiona": "amphibia",
     "amniota": "atlas-core",
     "synapsida": "mammal-origins",
     "pelycosauria": "mammal-origins",

@@ -14,9 +14,9 @@
     "sourceUrl": "https://zenodo.org/records/21620933"
   },
   "summary": {
-    "ontologyNodes": 200,
-    "resolved": 135,
-    "unresolved": 65,
+    "ontologyNodes": 202,
+    "resolved": 136,
+    "unresolved": 66,
     "needsConceptReview": 23,
     "humanCuratorDecisions": 0
   },
@@ -25686,6 +25686,240 @@
       "occurrenceCount": null,
       "referenceNo": null,
       "snapshotModifiedAt": null
+    },
+    {
+      "entityId": "gymnophionomorpha",
+      "localName": "Gymnophionomorpha",
+      "localRank": "clade",
+      "previousPbdbId": "txn:471965",
+      "resolutionStatus": "resolved",
+      "resolutionReason": "resolved-exact-name-and-rank",
+      "externalResolutionStatus": "resolved-exact",
+      "pbdbId": "txn:471965",
+      "acceptedName": "Gymnophionomorpha",
+      "acceptedRank": "unranked clade",
+      "matchedTaxonName": "Gymnophionomorpha",
+      "pbdbParentName": "Lissamphibia",
+      "pbdbClassification": {
+        "phylum": "Chordata",
+        "class": "Amphibia",
+        "order": "Temnospondyli",
+        "family": null
+      },
+      "resolvedName": "Gymnophionomorpha",
+      "resolvedRank": "unranked clade",
+      "resolvedImmediateParent": "Lissamphibia",
+      "resolvedClassification": {
+        "phylum": "Chordata",
+        "class": "Amphibia",
+        "order": "Temnospondyli",
+        "family": null
+      },
+      "localExpectedParentConcept": "Lissamphibia",
+      "lineageCompatibility": "compatible-immediate-parent",
+      "conceptReviewStatus": "compatible",
+      "occurrenceCount": 11,
+      "referenceNo": null,
+      "snapshotModifiedAt": null,
+      "parentRelationshipKind": "taxonomic-parent",
+      "resolvedAncestorChain": [
+        {
+          "pbdbId": "txn:67351",
+          "name": "Lissamphibia"
+        },
+        {
+          "pbdbId": "txn:36320",
+          "name": "Temnospondyli"
+        },
+        {
+          "pbdbId": "txn:36319",
+          "name": "Amphibia"
+        },
+        {
+          "pbdbId": "txn:53190",
+          "name": "Tetrapoda"
+        },
+        {
+          "pbdbId": "txn:77135",
+          "name": "Tetrapodomorpha"
+        },
+        {
+          "pbdbId": "txn:219195",
+          "name": "Dipnotetrapodomorpha"
+        },
+        {
+          "pbdbId": "txn:67348",
+          "name": "Sarcopterygii"
+        },
+        {
+          "pbdbId": "txn:34881",
+          "name": "Osteichthyes"
+        },
+        {
+          "pbdbId": "txn:67344",
+          "name": "Gnathostomata"
+        },
+        {
+          "pbdbId": "txn:67149",
+          "name": "Vertebrata"
+        },
+        {
+          "pbdbId": "txn:33815",
+          "name": "Chordata"
+        },
+        {
+          "pbdbId": "txn:67145",
+          "name": "Deuterostomia"
+        },
+        {
+          "pbdbId": "txn:272902",
+          "name": "Eubilateria"
+        },
+        {
+          "pbdbId": "txn:67103",
+          "name": "Bilateria"
+        },
+        {
+          "pbdbId": "txn:67091",
+          "name": "Animalia"
+        },
+        {
+          "pbdbId": "txn:212579",
+          "name": "Opisthokonta"
+        },
+        {
+          "pbdbId": "txn:288516",
+          "name": "Eucarya"
+        },
+        {
+          "pbdbId": "txn:28595",
+          "name": "Life"
+        }
+      ],
+      "automatedRecommendation": "accept-external-mapping",
+      "humanCuratorDecision": null,
+      "curatorRationale": null,
+      "curatorReviewedAt": null,
+      "curatorReviewer": null
+    },
+    {
+      "entityId": "gymnophiona",
+      "localName": "Gymnophiona",
+      "localRank": "order",
+      "previousPbdbId": null,
+      "resolutionStatus": "unresolved",
+      "resolutionReason": "accepted-rank-mismatch",
+      "externalResolutionStatus": "ambiguous",
+      "pbdbId": null,
+      "acceptedName": "Gymnophiona",
+      "acceptedRank": "suborder",
+      "matchedTaxonName": "Gymnophiona",
+      "pbdbParentName": "Gymnophionomorpha",
+      "pbdbClassification": {
+        "phylum": "Chordata",
+        "class": "Amphibia",
+        "order": "Gymnophiona",
+        "family": null
+      },
+      "resolvedName": "Gymnophiona",
+      "resolvedRank": "suborder",
+      "resolvedImmediateParent": "Gymnophionomorpha",
+      "resolvedClassification": {
+        "phylum": "Chordata",
+        "class": "Amphibia",
+        "order": "Gymnophiona",
+        "family": null
+      },
+      "localExpectedParentConcept": "Gymnophionomorpha",
+      "lineageCompatibility": "compatible-immediate-parent",
+      "conceptReviewStatus": "unresolved",
+      "occurrenceCount": 8,
+      "referenceNo": null,
+      "snapshotModifiedAt": null,
+      "parentRelationshipKind": "taxonomic-parent",
+      "resolvedAncestorChain": [
+        {
+          "pbdbId": "txn:471965",
+          "name": "Gymnophionomorpha"
+        },
+        {
+          "pbdbId": "txn:67351",
+          "name": "Lissamphibia"
+        },
+        {
+          "pbdbId": "txn:36320",
+          "name": "Temnospondyli"
+        },
+        {
+          "pbdbId": "txn:36319",
+          "name": "Amphibia"
+        },
+        {
+          "pbdbId": "txn:53190",
+          "name": "Tetrapoda"
+        },
+        {
+          "pbdbId": "txn:77135",
+          "name": "Tetrapodomorpha"
+        },
+        {
+          "pbdbId": "txn:219195",
+          "name": "Dipnotetrapodomorpha"
+        },
+        {
+          "pbdbId": "txn:67348",
+          "name": "Sarcopterygii"
+        },
+        {
+          "pbdbId": "txn:34881",
+          "name": "Osteichthyes"
+        },
+        {
+          "pbdbId": "txn:67344",
+          "name": "Gnathostomata"
+        },
+        {
+          "pbdbId": "txn:67149",
+          "name": "Vertebrata"
+        },
+        {
+          "pbdbId": "txn:33815",
+          "name": "Chordata"
+        },
+        {
+          "pbdbId": "txn:67145",
+          "name": "Deuterostomia"
+        },
+        {
+          "pbdbId": "txn:272902",
+          "name": "Eubilateria"
+        },
+        {
+          "pbdbId": "txn:67103",
+          "name": "Bilateria"
+        },
+        {
+          "pbdbId": "txn:67091",
+          "name": "Animalia"
+        },
+        {
+          "pbdbId": "txn:212579",
+          "name": "Opisthokonta"
+        },
+        {
+          "pbdbId": "txn:288516",
+          "name": "Eucarya"
+        },
+        {
+          "pbdbId": "txn:28595",
+          "name": "Life"
+        }
+      ],
+      "automatedRecommendation": "withhold-external-mapping",
+      "humanCuratorDecision": null,
+      "curatorRationale": null,
+      "curatorReviewedAt": null,
+      "curatorReviewer": null
     }
   ]
 }
