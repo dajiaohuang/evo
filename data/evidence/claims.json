@@ -1161,9 +1161,9 @@
     "subjectId": "taxon:paraceratherium",
     "claimKind": "scientific",
     "claimType": "fossil-range",
-    "statement": "The atlas’s 34–20 Ma occurrence envelope is provisional; the primary study securely dates P. linxiaense to 26.5 Ma and discusses other Oligocene species without turning the display edges into exact endpoints.",
-    "confidence": "low",
-    "confidenceRationale": "High confidence applies to the dated Linxia occurrence and Oligocene context, not to a precise global origin or extinction instant.",
+    "statement": "The atlas displays the 26.5 Ma Paraceratherium linxiaense LX1808 occurrence as a point sample and does not treat it as a genus-wide first or last appearance.",
+    "confidence": "medium",
+    "confidenceRationale": "Faunal correlation and palaeomagnetic placement directly support the sampled age, while the point-range wording prevents extrapolation to global genus endpoints.",
     "reviewedBy": "Evo Atlas maintainer source audit",
     "reviewedAt": "2026-08-31",
     "reviewedAgainstReferenceVersion": "deng-2021-paraceratherium locator audit at 2026-08-31",
@@ -1173,7 +1173,7 @@
         "relation": "supports",
         "pages": "1–10",
         "figure": "Figures 1–7; Supplementary Tables 1–6",
-        "quoteLocator": "Age and diagnosis; 155-character analysis; Oligocene Asian distribution and dispersal discussion"
+        "quoteLocator": "Abstract, Type locality and horizon, Age section and Figure 5; LX1808 placed in middle C8r at approximately 26.5 Ma"
       }
     ]
   },
@@ -1546,9 +1546,9 @@
     "subjectId": "taxon:teleoceras",
     "claimKind": "scientific",
     "claimType": "fossil-range",
-    "statement": "The atlas’s 16–4.5 Ma occurrence envelope remains provisional; the Ashfall study directly brackets T. major in the Clarendonian at 12.5–10 Ma and dates the sampled site to 11.86 ± 0.13 Ma.",
-    "confidence": "low",
-    "confidenceRationale": "High confidence applies to the regional species and site ages, not to exact global genus endpoints.",
+    "statement": "The atlas displays a 12.5–10 Ma North American Clarendonian occurrence envelope for Teleoceras major, including the 11.86 ± 0.13 Ma Ashfall sample, rather than a global genus range.",
+    "confidence": "medium",
+    "confidenceRationale": "The primary study directly states the regional species interval and sampled-site age, while the geographic and taxonomic qualifiers prevent genus-wide extrapolation.",
     "reviewedBy": "Evo Atlas maintainer source audit",
     "reviewedAt": "2026-08-31",
     "reviewedAgainstReferenceVersion": "ward-2025-teleoceras locator audit at 2026-08-31",
@@ -21897,6 +21897,426 @@
         "pages": "70:508–526",
         "figure": "Figure 5; Supplementary Table S3",
         "quoteLocator": "Introduction and oldest unequivocal legume fossil; divergence-time limitations"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:eurypterida:fossil-range",
+    "subjectId": "taxon:eurypterida",
+    "claimType": "fossil-range",
+    "claimKind": "scientific",
+    "statement": "The atlas shows a 479–250 Ma reviewed eurypterid fossil-record envelope from the oldest unequivocal Fezouata material to Tetlie's reviewed latest record, not an origination or extinction interval.",
+    "confidence": "medium",
+    "confidenceRationale": "Two range-fit studies directly bound the displayed fossil-record endpoints, while taxonomic revision and incomplete sampling prevent treating either edge as a biological event.",
+    "reviewedBy": "Evo Atlas maintainer source audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "van-roy-2025 + tetlie-2007 locator audit at 2026-08-31",
+    "referenceLinks": [
+      {
+        "referenceId": "van-roy-2025-fezouata-eurypterids",
+        "relation": "supports",
+        "pages": "Article 20252061",
+        "figure": "Figures 1–5",
+        "quoteLocator": "Systematic palaeontology and Discussion section 3(d), upper Tremadocian occurrence and approximately 479 Ma lower interval"
+      },
+      {
+        "referenceId": "tetlie-2007-eurypterid-history",
+        "relation": "supports",
+        "pages": "557–574",
+        "figure": "Tables 1–7",
+        "quoteLocator": "Abstract and Introduction, reviewed latest Late Permian Russian record at approximately 250 Ma"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:trilobite-evidence-samples:fossil-range",
+    "subjectId": "taxon:trilobite-evidence-samples",
+    "claimType": "fossil-range",
+    "claimKind": "scientific",
+    "statement": "The 521–443 Ma trilobite evidence route is a navigation envelope between separate early-trilobite and Beecher's Bed samples, not a lineage duration or continuous occurrence series.",
+    "confidence": "medium",
+    "confidenceRationale": "Both endpoint studies provide concrete sample ages, but their different taxa and localities require an explicitly editorial navigation interpretation.",
+    "reviewedBy": "Evo Atlas maintainer source audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "holmes-budd-2022 + hou-2021 locator audit at 2026-08-31",
+    "referenceLinks": [
+      {
+        "referenceId": "holmes-budd-2022-early-trilobites",
+        "relation": "supports",
+        "pages": "Article 1177",
+        "figure": "Figures 1–4",
+        "quoteLocator": "Abstract and Introduction, widespread early trilobite record at approximately 521 Ma"
+      },
+      {
+        "referenceId": "hou-2021-trilobite-gill",
+        "relation": "supports",
+        "pages": "Article eabe7377",
+        "figure": "Figures 1–5 and supplement",
+        "quoteLocator": "Beecher's Bed Triarthrus sample within 450–443 Ma"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:stem-chelicerate-evidence:fossil-range",
+    "subjectId": "taxon:stem-chelicerate-evidence",
+    "claimType": "fossil-range",
+    "claimKind": "scientific",
+    "statement": "The 519–500.5 Ma stem-chelicerate evidence route links the Chengjiang Urokodia and Wheeler Megachelicerax samples and does not represent one lineage's temporal duration.",
+    "confidence": "medium",
+    "confidenceRationale": "The two primary descriptions directly date their named samples, while their separate fossils and analyses preclude a continuous lineage claim.",
+    "reviewedBy": "Evo Atlas maintainer source audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "liu-2026 + lerosey-aubril-ortega-2026 locator audit at 2026-08-31",
+    "referenceLinks": [
+      {
+        "referenceId": "liu-2026-urokodia",
+        "relation": "supports",
+        "pages": "653–658",
+        "figure": "Figures 1–3",
+        "quoteLocator": "Chengjiang Urokodia sample at 519–518 Ma"
+      },
+      {
+        "referenceId": "lerosey-aubril-ortega-2026-megachelicerax",
+        "relation": "supports",
+        "pages": "931–937",
+        "figure": "Figures 1–3",
+        "quoteLocator": "Wheeler Formation Megachelicerax sample at 504.5–500.5 Ma"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:pycnogonida:fossil-range",
+    "subjectId": "taxon:pycnogonida",
+    "claimType": "fossil-range",
+    "claimKind": "scientific",
+    "statement": "The 500–0 Ma pycnogonid display is a contested total-group fossil-to-living navigation envelope because Cambropycnogon is only possibly a pycnogonid and is not a secure crown first appearance.",
+    "confidence": "contested",
+    "confidenceRationale": "The original systematic account supports the Cambrian candidate, whereas the later fossil synthesis explicitly retains uncertainty over its assignment.",
+    "reviewedBy": "Evo Atlas maintainer source audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "waloszek-dunlop-2002 + sabroux-2024 locator audit at 2026-08-31",
+    "referenceLinks": [
+      {
+        "referenceId": "waloszek-dunlop-2002-cambropycnogon",
+        "relation": "supports",
+        "pages": "421–446",
+        "figure": "Text-figures 1–2",
+        "quoteLocator": "Abstract and systematic account proposing Cambropycnogon as the oldest pycnogonid/chelicerate record"
+      },
+      {
+        "referenceId": "sabroux-2024-pycnogonid-fossils",
+        "relation": "supports",
+        "pages": "Article e17766",
+        "figure": "Table 1",
+        "quoteLocator": "Cambropycnogon classified as possibly Pycnogonida rather than a secure crown record"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:araneae:fossil-range",
+    "subjectId": "taxon:araneae",
+    "claimType": "fossil-range",
+    "claimKind": "scientific",
+    "statement": "The 315–0 Ma Araneae display is an oldest-known-fossil-to-living navigation envelope and does not date spider origination or crown divergence.",
+    "confidence": "medium",
+    "confidenceRationale": "A systematic fossil review and a separately imaged Carboniferous arachnid study converge on the approximately 315 Ma true-spider record while distinguishing stem-like material.",
+    "reviewedBy": "Evo Atlas maintainer source audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "selden-penney-2010 + garwood-2016 locator audit at 2026-08-31",
+    "referenceLinks": [
+      {
+        "referenceId": "selden-penney-2010-spider-fossil-record",
+        "relation": "supports",
+        "pages": "171–206",
+        "figure": "Table S1",
+        "quoteLocator": "Systematic fossil-record review of Carboniferous spiders"
+      },
+      {
+        "referenceId": "garwood-2016-idmonarachne",
+        "relation": "supports",
+        "pages": "Article 20160125",
+        "figure": "Main-text figures",
+        "quoteLocator": "Introduction traces Araneae to approximately 315 Ma and distinguishes Idmonarachne from true spiders"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:acari:fossil-range",
+    "subjectId": "taxon:acari",
+    "claimType": "fossil-range",
+    "claimKind": "scientific",
+    "statement": "The 410–0 Ma Acari display begins with the oldest securely accepted reviewed mite record and remains a broad fossil-to-living envelope rather than a consensus crown age.",
+    "confidence": "contested",
+    "confidenceRationale": "The fossil review directly rejects unsupported older assignments, but contested Acari topology limits the interpretation of this broad navigation concept.",
+    "reviewedBy": "Evo Atlas maintainer source audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "sidorchuk-2018 locator audit at 2026-08-31",
+    "referenceLinks": [
+      {
+        "referenceId": "sidorchuk-2018-acari-fossil-record",
+        "relation": "supports",
+        "pages": "349–359",
+        "figure": "Fossil dataset",
+        "quoteLocator": "Abstract and dataset, more than 260 fossils from approximately 410 Ma onward and rejected older assignments"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:odonatoptera:fossil-range",
+    "subjectId": "taxon:odonatoptera",
+    "claimType": "fossil-range",
+    "claimKind": "scientific",
+    "statement": "The 325–0 Ma Odonatoptera display is a reviewed oldest-fossil-to-living navigation envelope beginning with Serpukhovian records at 325–324 Ma.",
+    "confidence": "medium",
+    "confidenceRationale": "The systematic review directly identifies the oldest superorder record and separately distinguishes it from the later appearance of modern Odonata.",
+    "reviewedBy": "Evo Atlas maintainer source audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "sutherland-2025 locator audit at 2026-08-31",
+    "referenceLinks": [
+      {
+        "referenceId": "sutherland-2025-odonatoptera-classification",
+        "relation": "supports",
+        "pages": "Article 5",
+        "figure": "Odonatoptera classification synthesis",
+        "quoteLocator": "Paleontological Record and Odonatoptera Classification sections, oldest record at 325–324 Ma"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:odonata:fossil-range",
+    "subjectId": "taxon:odonata",
+    "claimType": "fossil-range",
+    "claimKind": "scientific",
+    "statement": "The 268–0 Ma Odonata display begins with the earliest fossil recognized as a modern odonate, Saxonagrion minutus, rather than inheriting the older Odonatoptera edge.",
+    "confidence": "medium",
+    "confidenceRationale": "The review explicitly identifies the approximately 268 Ma fossil as the earliest modern odonate, providing a concept-matched minimum rather than an origin estimate.",
+    "reviewedBy": "Evo Atlas maintainer source audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "bybee-2016 locator audit at 2026-08-31",
+    "referenceLinks": [
+      {
+        "referenceId": "bybee-2016-odonata-fossil-record",
+        "relation": "supports",
+        "pages": "Article 46",
+        "figure": "Figure 2",
+        "quoteLocator": "Fossil-record paragraph identifies Saxonagrion minutus at approximately 268 Ma as the earliest modern odonate"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:meganisoptera:fossil-range",
+    "subjectId": "taxon:meganisoptera",
+    "claimType": "fossil-range",
+    "claimKind": "scientific",
+    "statement": "The 318–259 Ma Meganisoptera display is a sampled fossil-record envelope from Namurian B through at least the end of the Middle Permian, not an exact extinction interval.",
+    "confidence": "medium",
+    "confidenceRationale": "The study directly summarizes the first record and minimum persistence, while its wording leaves the actual Late Permian extinction time unresolved.",
+    "reviewedBy": "Evo Atlas maintainer source audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "ellers-2024 locator audit at 2026-08-31",
+    "referenceLinks": [
+      {
+        "referenceId": "ellers-2024-meganisoptera-flight",
+        "relation": "supports",
+        "pages": "598–610",
+        "figure": "Introduction fossil-history synthesis",
+        "quoteLocator": "First Namurian B record at approximately 318–315 Ma and persistence at least to the end of the Middle Permian"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:coleoptera:fossil-range",
+    "subjectId": "taxon:coleoptera",
+    "claimType": "fossil-range",
+    "claimKind": "scientific",
+    "statement": "The 298–0 Ma Coleoptera display begins at the standardized Asselian bin containing the earliest definite beetles and is not an inferred order-origin date.",
+    "confidence": "medium",
+    "confidenceRationale": "The integrated fossil dataset identifies Tshekardocoleidae as the earliest definite beetles and exposes the 298 Ma binning method used for the display edge.",
+    "reviewedBy": "Evo Atlas maintainer source audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "zhao-2021 locator audit at 2026-08-31",
+    "referenceLinks": [
+      {
+        "referenceId": "zhao-2021-beetle-evolution",
+        "relation": "supports",
+        "pages": "Article e72692",
+        "figure": "Figure 2 and source data",
+        "quoteLocator": "Discussion on earliest definite beetles and Methods Diversity analysis with Asselian bins beginning at 298 Ma"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:hymenoptera:fossil-range",
+    "subjectId": "taxon:hymenoptera",
+    "claimType": "fossil-range",
+    "claimKind": "scientific",
+    "statement": "The 242–0 Ma Hymenoptera display begins at the older edge of the 242–237 Ma oldest-undisputed xyelid fossil interval and is a fossil minimum, not an origin estimate.",
+    "confidence": "medium",
+    "confidenceRationale": "The systematic divergence-dating review explicitly distinguishes the oldest undisputed fossil calibration from inferred deeper order ages.",
+    "reviewedBy": "Evo Atlas maintainer source audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "zhang-2025 locator audit at 2026-08-31",
+    "referenceLinks": [
+      {
+        "referenceId": "zhang-2025-hymenoptera-divergence-dating",
+        "relation": "supports",
+        "pages": "1–31",
+        "figure": "Figure 2; Tables S2–S3",
+        "quoteLocator": "Brief History of Divergence Dating, oldest undisputed Xyelidae at approximately 242–237 Ma"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:ostracoda:fossil-range",
+    "subjectId": "taxon:ostracoda",
+    "claimType": "fossil-range",
+    "claimKind": "scientific",
+    "statement": "The 450–0 Ma Ostracoda display begins with the first unequivocal pre-Silurian ostracod occurrence and excludes less secure older shell-only assignments.",
+    "confidence": "medium",
+    "confidenceRationale": "The exceptional-preservation study directly demonstrates ostracod anatomy and brood care at approximately 450 Ma, resolving ambiguity present in older shell-only records.",
+    "reviewedBy": "Evo Atlas maintainer source audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "siveter-2014 locator audit at 2026-08-31",
+    "referenceLinks": [
+      {
+        "referenceId": "siveter-2014-luprisca-ostracod",
+        "relation": "supports",
+        "pages": "801–806",
+        "figure": "Main-text figures",
+        "quoteLocator": "Highlights, Summary and Results identify Luprisca at approximately 450 Ma as the first unequivocal pre-Silurian ostracod"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:malacostraca:fossil-range",
+    "subjectId": "taxon:malacostraca",
+    "claimType": "fossil-range",
+    "claimKind": "scientific",
+    "statement": "The 500–0 Ma Malacostraca display uses the reviewed phyllocarid fossil minimum and must not be interpreted as a crown-Malacostraca divergence date.",
+    "confidence": "medium",
+    "confidenceRationale": "A systematic archaeostracan study and an explicit fossil-calibration table independently support the approximately 500 Ma phyllocarid bound while leaving crown placement distinct.",
+    "reviewedBy": "Evo Atlas maintainer source audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "collette-hagadorn-2010 + van-der-wal-2017 locator audit at 2026-08-31",
+    "referenceLinks": [
+      {
+        "referenceId": "collette-hagadorn-2010-archaeostraca",
+        "relation": "supports",
+        "pages": "795–820",
+        "figure": "Arenosicaris systematic account",
+        "quoteLocator": "Discussion of the earliest Middle–Late Cambrian Phyllocarida"
+      },
+      {
+        "referenceId": "van-der-wal-2017-malacostracan-calibrations",
+        "relation": "supports",
+        "pages": "Article e3844",
+        "figure": "Table 1",
+        "quoteLocator": "Fossil calibrations identify phyllocarids as the oldest malacostracans at at least 500 Ma"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:chilopoda:fossil-range",
+    "subjectId": "taxon:chilopoda",
+    "claimType": "fossil-range",
+    "claimKind": "scientific",
+    "statement": "The 418–0 Ma Chilopoda display begins with the oldest catalogued Upper Silurian Crussolum occurrence and is not a centipede origin date.",
+    "confidence": "medium",
+    "confidenceRationale": "The global fossil catalog directly inventories the approximately 418 Ma Ludford Lane record among 74 occurrences, providing a transparent sampled-record boundary.",
+    "reviewedBy": "Evo Atlas maintainer source audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "cadenas-amaya-2025 locator audit at 2026-08-31",
+    "referenceLinks": [
+      {
+        "referenceId": "cadenas-amaya-2025-centipede-fossil-record",
+        "relation": "supports",
+        "pages": "Article 1",
+        "figure": "Table 1; Figure 3",
+        "quoteLocator": "Introduction and Paleozoic section, Upper Silurian Crussolum at approximately 418 Ma"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:diplopoda:fossil-range",
+    "subjectId": "taxon:diplopoda",
+    "claimType": "fossil-range",
+    "claimKind": "scientific",
+    "statement": "The Diplopoda display uses the 425.5 ± 4.5 Ma Kampecaris age with uncertainty stored separately and does not inflate the error margin into a hard 430 Ma edge.",
+    "confidence": "medium",
+    "confidenceRationale": "A recent geological synthesis provides the numerical age and uncertainty, while the earlier systematic review rejects less secure pre-Pridoli assignments.",
+    "reviewedBy": "Evo Atlas maintainer source audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "brookfield-2025 + almond-lawson-1985 locator audit at 2026-08-31",
+    "referenceLinks": [
+      {
+        "referenceId": "brookfield-2025-kampecaris-age",
+        "relation": "supports",
+        "pages": "Article 6",
+        "figure": "Geological-age synthesis",
+        "quoteLocator": "Abstract and section 1 date Kampecaris obanensis to 425.5 ± 4.5 Ma"
+      },
+      {
+        "referenceId": "almond-lawson-1985-paleozoic-millipedes",
+        "relation": "supports",
+        "pages": "227–237",
+        "figure": "Systematic review",
+        "quoteLocator": "Pre-Pridoli claims are questionable; reliable Diplopoda occur in the latest Silurian–Lower Devonian"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:hipparionini:fossil-range",
+    "subjectId": "taxon:hipparionini",
+    "claimType": "fossil-range",
+    "claimKind": "scientific",
+    "statement": "Hipparionini retains four distinct displays: a heterogeneous 17–0.6 Ma navigation composite, a 17–2 Ma North American review envelope, an 11.4–11 Ma Old World dispersal window, and a 1–0.6 Ma selected terminal regional window.",
+    "confidence": "contested",
+    "confidenceRationale": "Two systematic reviews directly support the separate regional markers, but their heterogeneous taxa, continents and purposes preclude one global lineage-duration interpretation.",
+    "reviewedBy": "Evo Atlas maintainer source audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "mchorse-2019 + bernor-2021 range locator audit at 2026-08-31",
+    "referenceLinks": [
+      {
+        "referenceId": "mc-horse-monodactyly-2019",
+        "relation": "supports",
+        "pages": "1–5, 10–15",
+        "figure": "Figures 1–4, especially Figure 3",
+        "quoteLocator": "North American review-matrix record from approximately 17 Ma through the Plio-Pleistocene"
+      },
+      {
+        "referenceId": "bernor-2021-hipparions",
+        "relation": "supports",
+        "pages": "1–20",
+        "figure": "Figures 10 and 13",
+        "quoteLocator": "Old World first dispersal at 11.4–11 Ma and selected MQ1 terminal regional records to 0.6 Ma"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:coelodonta:fossil-range",
+    "subjectId": "taxon:coelodonta",
+    "claimType": "fossil-range",
+    "claimKind": "scientific",
+    "statement": "The 5.08–0.0144 Ma Coelodonta display connects the reviewed earliest known C. thibetana occurrence to one directly dated 14.4 ka C. antiquitatis individual and is not a global genus FAD/LAD.",
+    "confidence": "medium",
+    "confidenceRationale": "The systematic review and directly dated genomic specimen independently support the two represented records, while neither proves exact genus-wide origination or extinction.",
+    "reviewedBy": "Evo Atlas maintainer source audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "ma-2024 + gudjonsdottir-2026 locator audit at 2026-08-31",
+    "referenceLinks": [
+      {
+        "referenceId": "ma-2024-coelodonta-paleoecology",
+        "relation": "supports",
+        "pages": "1–15",
+        "figure": "Figures 1–6; Tables 1–2",
+        "quoteLocator": "Evolutionary-history review identifies C. thibetana at 5.08 Ma as the earliest known genus record"
+      },
+      {
+        "referenceId": "gudjonsdottir-2026-coelodonta",
+        "relation": "supports",
+        "pages": "1–8",
+        "figure": "Figures 1–3; Supplementary Tables",
+        "quoteLocator": "Directly dated 14.4 ka C. antiquitatis individual"
       }
     ]
   }
