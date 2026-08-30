@@ -1858,5 +1858,177 @@
       }
     ],
     "evidenceStatus": "available-with-limitations"
+  },
+  {
+    "id": "mammal-origins-evidence-without-a-ladder",
+    "title": "Seven evidence boundaries from synapsids to mammals",
+    "titleZh": "从合弓类到哺乳动物的七条证据边界",
+    "dek": "Follow named specimens, CT datasets, character matrices and living experiments while keeping anatomy, topology, function, crown membership and time explicitly separate.",
+    "theme": "amber",
+    "durationMinutes": 13,
+    "featured": true,
+    "steps": [
+      {
+        "id": "echinerpeton-one-bone",
+        "title": "One referred spine, not a finished sail",
+        "text": "ROM VP 83326 records striking neural-spine elongation in a referred early synapsid. Missing surrounding anatomy prevents the specimen from fixing whole-body proportions, function or a lineage-wide first appearance.",
+        "age": 307,
+        "timeRange": [
+          308.5,
+          305.5
+        ],
+        "taxonIds": [
+          "synapsida",
+          "ophiacodontidae"
+        ],
+        "view": "evidence",
+        "eventId": "echinerpeton-neural-spine-specimen",
+        "annotation": "A referred bone, a reconstructed body outline and a proposed sail function are three different evidence levels.",
+        "claimLinks": [
+          {
+            "claimId": "claim:event:echinerpeton-neural-spine-specimen",
+            "relation": "supports"
+          }
+        ]
+      },
+      {
+        "id": "raranimus-matrix",
+        "title": "A fragment enters a character matrix",
+        "text": "The partial snout IVPP V15424 was recovered beside the remaining sampled therapsids in one 71-character analysis. That topology is reproducible evidence, not direct ancestry or a precisely dated origin event.",
+        "age": 269.34,
+        "timeRange": [
+          274.4,
+          264.28
+        ],
+        "taxonIds": [
+          "therapsida"
+        ],
+        "view": "tree",
+        "eventId": "raranimus-basal-therapsid-snout",
+        "annotation": "The paper itself warns that the Dashankou sequence lacks reliable radiometric dates.",
+        "claimLinks": [
+          {
+            "claimId": "claim:event:raranimus-basal-therapsid-snout",
+            "relation": "supports"
+          }
+        ]
+      },
+      {
+        "id": "cynodont-joint-homoplasy",
+        "title": "Two cynodont samples reject a simple ladder",
+        "text": "Riograndia has dentary–squamosal contact while the nine-specimen Brasilodon sample lacks it. The distribution supports iterative acquisition, and contact alone neither creates a crown mammal nor proves modern joint function.",
+        "age": 215.56,
+        "timeRange": [
+          225.42,
+          205.7
+        ],
+        "taxonIds": [
+          "cynodontia",
+          "probainognathia"
+        ],
+        "view": "evidence",
+        "eventId": "riograndia-brasilodon-jaw-joint-homoplasy",
+        "annotation": "The 225.42 ± 0.37 Ma value is a maximum depositional age, not a direct fossil date.",
+        "claimLinks": [
+          {
+            "claimId": "claim:event:riograndia-brasilodon-jaw-joint-homoplasy",
+            "relation": "supports"
+          }
+        ]
+      },
+      {
+        "id": "haramiyavia-crown-test",
+        "title": "Crown membership is a tested topology",
+        "text": "CT anatomy and wear from MCZ7/95A–B and MCZ10/G95 reshaped a published matrix that placed Haramiyavia outside crown Mammalia. The placement belongs to that analysis, while the jaw surface only indirectly supports auditory anatomy.",
+        "age": 203.55,
+        "timeRange": [
+          205.7,
+          201.4
+        ],
+        "taxonIds": [
+          "mammaliaformes",
+          "haramiyida",
+          "mammalia"
+        ],
+        "view": "tree",
+        "eventId": "haramiyavia-ct-crown-boundary",
+        "annotation": "A matrix placement, a crown calibration and an anatomical observation are not interchangeable.",
+        "claimLinks": [
+          {
+            "claimId": "claim:event:haramiyavia-ct-crown-boundary",
+            "relation": "supports"
+          }
+        ]
+      },
+      {
+        "id": "jurassic-jaw-ear-mosaic",
+        "title": "Separate fossils show separate mosaics",
+        "text": "Dianoconodon and Feredocodon preserve different jaw–ear combinations across two formations and times. Their comparison supports a load shift, but it is not a continuous transformation series or an ancestor–descendant pair.",
+        "age": 181.45,
+        "timeRange": [
+          201.4,
+          161.5
+        ],
+        "taxonIds": [
+          "mammaliamorpha",
+          "mammaliaformes"
+        ],
+        "view": "evidence",
+        "eventId": "jurassic-mammaliaform-jaw-ear-load-shift",
+        "annotation": "Preserved contacts support, but do not directly measure, biting and hearing performance.",
+        "claimLinks": [
+          {
+            "claimId": "claim:event:jurassic-mammaliaform-jaw-ear-load-shift",
+            "relation": "supports"
+          }
+        ]
+      },
+      {
+        "id": "liaoconodon-link",
+        "title": "Detached bones can retain a cartilage link",
+        "text": "IVPP V16051 preserves ectotympanic and malleus elements separated from direct dentary contact yet connected by ossified Meckel's cartilage. One articulated skeleton documents a mosaic, not a universal evolutionary stage.",
+        "age": 117.3,
+        "timeRange": [
+          121.4,
+          113.2
+        ],
+        "taxonIds": [
+          "mammaliaformes",
+          "eutriconodonta"
+        ],
+        "view": "evidence",
+        "eventId": "liaoconodon-ossified-meckel-link",
+        "annotation": "Anatomical connection is observed; stabilization and auditory effects remain functional inference.",
+        "claimLinks": [
+          {
+            "claimId": "claim:event:liaoconodon-ossified-meckel-link",
+            "relation": "supports"
+          }
+        ]
+      },
+      {
+        "id": "living-development-not-recapitulation",
+        "title": "Living development tests a mechanism, not ancestry",
+        "text": "Mouse genetics and opossum inhibition experiments show that disrupting clast-cell activity can retain a jaw–ear cartilage connection. They illuminate a possible mechanism without replaying a particular fossil or proving its ancient cause.",
+        "age": 0,
+        "timeRange": [
+          0,
+          0
+        ],
+        "taxonIds": [
+          "mammalia"
+        ],
+        "view": "evidence",
+        "eventId": "meckel-cartilage-clast-experiment",
+        "annotation": "COL26.8 assigns zero accepted species directly to mammal-origins because living Mammalia route to order-specific or other-mammals packages and Synapsida lacks a reliable materialized species root. Zero is a routing boundary, not evidence of no living synapsids, no nomenclatural coverage or complete dossier maturity.",
+        "claimLinks": [
+          {
+            "claimId": "claim:event:meckel-cartilage-clast-experiment",
+            "relation": "supports"
+          }
+        ]
+      }
+    ],
+    "evidenceStatus": "available-with-limitations"
   }
 ]

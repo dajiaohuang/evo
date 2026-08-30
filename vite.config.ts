@@ -73,7 +73,10 @@ export default defineConfig(({ mode }) => {
       rolldownOptions: {
         output: {
           codeSplitting: {
-            groups: [{ name: 'vendor', test: /node_modules[\\/]/, entriesAware: true }],
+            groups: [
+              { name: 'vendor', test: /node_modules[\\/]/, entriesAware: true },
+              { name: 'i18n', test: /src[\\/]i18n[\\/]index\.tsx$/, entriesAware: true },
+            ],
           },
         },
       },

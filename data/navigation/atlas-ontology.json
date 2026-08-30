@@ -1769,6 +1769,20 @@
                                           "children": [],
                                           "entityKind": "taxon",
                                           "contentLevel": "dossier"
+                                        },
+                                        {
+                                          "id": "ophiacodontidae",
+                                          "name": "Ophiacodontidae",
+                                          "commonName": "Ophiacodontids",
+                                          "commonNameZh": "蛇齿龙科",
+                                          "rank": "family",
+                                          "taxonId": "",
+                                          "firstAppearance": 308,
+                                          "lastAppearance": 272,
+                                          "extinct": true,
+                                          "children": [],
+                                          "entityKind": "taxon",
+                                          "contentLevel": "dossier"
                                         }
                                       ],
                                       "entityKind": "historical-grade",
@@ -1811,6 +1825,93 @@
                                           "lastAppearance": 0,
                                           "extinct": false,
                                           "children": [
+                                            {
+                                              "id": "probainognathia",
+                                              "name": "Probainognathia",
+                                              "commonName": "Probainognathians",
+                                              "commonNameZh": "原颌兽类",
+                                              "rank": "clade",
+                                              "taxonId": "",
+                                              "firstAppearance": 237,
+                                              "lastAppearance": 0,
+                                              "extinct": false,
+                                              "children": [
+                                                {
+                                                  "id": "mammaliamorpha",
+                                                  "name": "Mammaliamorpha",
+                                                  "commonName": "Mammaliamorphs",
+                                                  "commonNameZh": "哺乳形态类",
+                                                  "rank": "clade",
+                                                  "taxonId": "",
+                                                  "firstAppearance": 225,
+                                                  "lastAppearance": 0,
+                                                  "extinct": false,
+                                                  "children": [
+                                                    {
+                                                      "id": "mammaliaformes",
+                                                      "name": "Mammaliaformes",
+                                                      "commonName": "Mammaliaforms",
+                                                      "commonNameZh": "哺乳形类",
+                                                      "rank": "clade",
+                                                      "taxonId": "",
+                                                      "firstAppearance": 225,
+                                                      "lastAppearance": 0,
+                                                      "extinct": false,
+                                                      "children": [
+                                                        {
+                                                          "id": "haramiyida",
+                                                          "name": "Haramiyida",
+                                                          "commonName": "Haramiyidans",
+                                                          "commonNameZh": "贼兽类",
+                                                          "rank": "order",
+                                                          "taxonId": "",
+                                                          "firstAppearance": 205.7,
+                                                          "lastAppearance": 145,
+                                                          "extinct": true,
+                                                          "children": [],
+                                                          "entityKind": "taxon",
+                                                          "contentLevel": "dossier"
+                                                        },
+                                                        {
+                                                          "id": "morganucodonta",
+                                                          "name": "Morganucodonta",
+                                                          "commonName": "Morganucodontans",
+                                                          "commonNameZh": "摩尔根兽类",
+                                                          "rank": "order",
+                                                          "taxonId": "",
+                                                          "firstAppearance": 201.4,
+                                                          "lastAppearance": 145,
+                                                          "extinct": true,
+                                                          "children": [],
+                                                          "entityKind": "taxon",
+                                                          "contentLevel": "dossier"
+                                                        },
+                                                        {
+                                                          "id": "eutriconodonta",
+                                                          "name": "Eutriconodonta",
+                                                          "commonName": "Eutriconodonts",
+                                                          "commonNameZh": "真三尖齿兽类",
+                                                          "rank": "clade",
+                                                          "taxonId": "",
+                                                          "firstAppearance": 201.4,
+                                                          "lastAppearance": 66,
+                                                          "extinct": true,
+                                                          "children": [],
+                                                          "entityKind": "taxon",
+                                                          "contentLevel": "dossier"
+                                                        }
+                                                      ],
+                                                      "entityKind": "taxon",
+                                                      "contentLevel": "dossier"
+                                                    }
+                                                  ],
+                                                  "entityKind": "taxon",
+                                                  "contentLevel": "dossier"
+                                                }
+                                              ],
+                                              "entityKind": "taxon",
+                                              "contentLevel": "dossier"
+                                            },
                                             {
                                               "id": "mammalia",
                                               "name": "Mammalia",
