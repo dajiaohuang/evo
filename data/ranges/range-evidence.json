@@ -3,27 +3,33 @@
     "id": "range:life:global",
     "entityId": "life",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Life",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 3800,
+    "taxonomicConcept": "Life on Earth sampled biosignature-to-living navigation envelope",
+    "geographicScope": "Isua Supracrustal Belt, western Greenland; living global biosphere",
+    "olderMa": 3700,
     "youngerMa": 0,
     "status": "available",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "note": "3.7 Ga is a conservative sampled biosignature boundary, not a measured date for abiogenesis or LUCA. The sparse, metamorphosed early rock record and alternative abiotic interpretations prevent a precise origin endpoint; 0 Ma denotes that life persists."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "evidenceBasis": "Carbon-isotope, geological and graphite-nanostructure analyses of 3.7 Ga Isua metasediments support a biogenic interpretation; an interdisciplinary review separates this biosignature boundary from the earlier and less certain habitability boundary.",
     "confidence": "medium",
-    "claimIds": [],
+    "claimIds": [
+      "claim:taxon:life:fossil-range"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
+        "referenceId": "ohtomo-2014-isua-biogenic-graphite",
+        "locator": "pp. 25–28; p. 25 abstract; Figures 3–4; p. 28 conclusion on isotope and graphite-nanostructure evidence"
+      },
+      {
+        "referenceId": "pearce-2018-origin-life-window",
+        "locator": "pp. 343–364; Abstract and Introduction; Figure 1; Table 1; habitability versus biosignature boundaries"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "literature-synthesized"
   },
   {
     "id": "range:plantae:global",
@@ -3584,46 +3590,29 @@
     "id": "range:perissodactyla:global",
     "entityId": "perissodactyla",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Perissodactyla",
-    "geographicScope": "Global or represented navigation composite",
+    "taxonomicConcept": "Perissodactyla total-group sampled fossil-to-living navigation envelope",
+    "geographicScope": "PETM occurrences across North America, Europe and Asia; living global continuation",
     "olderMa": 56,
     "youngerMa": 0,
     "status": "available",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "note": "56 Ma is the rounded PETM age of the earliest sampled perissodactyl record in the cited analysis. It is not a crown-node age, total-group origin, molecular divergence estimate or complete global first-appearance survey."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "evidenceBasis": "A 71-terminal, 102-character analysis and its occurrence chart document diverse basal perissodactyls at the PETM; living horses, tapirs and rhinoceroses supply the present-day navigation endpoint.",
     "confidence": "medium",
     "claimIds": [
-      "claim:taxon:perissodactyla",
       "claim:taxon:perissodactyla:fossil-range"
     ],
     "referenceLocators": [
       {
         "referenceId": "pnas-2026-perissodactyls",
-        "locator": "doi:10.1073/pnas.2519690122"
-      },
-      {
-        "referenceId": "amnh-perissodactyl-evolution",
-        "locator": "https://research.amnh.org/paleontology/perissodactyl/evolution/intro"
-      },
-      {
-        "referenceId": "amnh-perissodactyl-evidence",
-        "locator": "https://research.amnh.org/paleontology/perissodactyl/evidence/intro"
-      },
-      {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
-      },
-      {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
+        "locator": "pp. 1–6 of 8; p. 1 Abstract and Introduction; Figure 1; p. 4 stem-perissodactyl discussion; Figure 3; p. 6 unresolved-origin discussion; Dataset S2"
       }
     ],
     "reviewStatus": "automated-audit-passed",
-    "evidenceLevel": "legacy-display"
+    "evidenceLevel": "literature-synthesized"
   },
   {
     "id": "range:brontotheriidae:global",

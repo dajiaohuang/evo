@@ -215,13 +215,17 @@
     "url": "https://doi.org/10.1073/pnas.2519690122",
     "doi": "10.1073/pnas.2519690122",
     "publisher": "PNAS",
-    "note": "Morphological analysis of early perissodactyl relationships and dispersal.",
+    "note": "Primary 71-terminal, 102-character analysis of early perissodactyl relationships and PETM dispersal. The 56 Ma fossil sample does not itself date the crown node or total-group origin.",
     "sourceRole": "primary-study",
     "fitnessFor": [
       "taxonomy",
-      "biogeography"
+      "biogeography",
+      "range",
+      "topology",
+      "geochronology",
+      "methods"
     ],
-    "metadataAssignment": "automated"
+    "metadataAssignment": "curator-reviewed"
   },
   {
     "id": "bai-2020-rhinocerotoidea",
@@ -5704,6 +5708,44 @@
       "topology",
       "morphology",
       "biogeography",
+      "methods"
+    ],
+    "metadataAssignment": "curator-reviewed"
+  },
+  {
+    "id": "ohtomo-2014-isua-biogenic-graphite",
+    "title": "Evidence for biogenic graphite in early Archaean Isua metasedimentary rocks",
+    "authors": "Ohtomo, Y.; Kakegawa, T.; Ishida, A.; Nagase, T.; Rosing, M.T.",
+    "publishedYear": 2014,
+    "type": "paper",
+    "url": "https://doi.org/10.1038/ngeo2025",
+    "doi": "10.1038/ngeo2025",
+    "publisher": "Nature Geoscience",
+    "pages": "7:25–28",
+    "note": "Primary field, isotope, Raman and electron-microscopy study of graphite in 3.7 Ga Isua metasediments. Its biogenic interpretation provides a sampled biosignature minimum, not a precise abiogenesis or LUCA date.",
+    "sourceRole": "primary-study",
+    "fitnessFor": [
+      "range",
+      "geochronology",
+      "methods"
+    ],
+    "metadataAssignment": "curator-reviewed"
+  },
+  {
+    "id": "pearce-2018-origin-life-window",
+    "title": "Constraining the Time Interval for the Origin of Life on Earth",
+    "authors": "Pearce, B.K.D.; Tupper, A.S.; Pudritz, R.E.; Higgs, P.G.",
+    "publishedYear": 2018,
+    "type": "paper",
+    "url": "https://doi.org/10.1089/ast.2017.1674",
+    "doi": "10.1089/ast.2017.1674",
+    "publisher": "Astrobiology",
+    "pages": "18:343–364",
+    "note": "Interdisciplinary review separating Earth's uncertain habitability boundary from the approximately 3.7 Ga sampled biosignature boundary; neither boundary is presented as an exact origin-of-life date.",
+    "sourceRole": "systematic-review",
+    "fitnessFor": [
+      "range",
+      "geochronology",
       "methods"
     ],
     "metadataAssignment": "curator-reviewed"
