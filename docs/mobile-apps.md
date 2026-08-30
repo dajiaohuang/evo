@@ -1,6 +1,6 @@
 # Android 与 iOS 应用
 
-Evo Atlas 的 Web、Android 和 iOS 版本共享同一个 React/TypeScript 客户端。原生应用会把 HTML、CSS、JavaScript、图标和启动资源装入安装包；体积较大的版本化科学数据继续从公开 GitHub Pages 端点按需读取，不把 Web 站点作为远程首页加载。
+Evo Atlas 的 Web、Android 和 iOS 版本共享同一个 React/TypeScript 客户端。原生应用把 HTML、CSS、JavaScript、图标、启动资源和当前不可变科学数据发布版一并装入安装包，不把 Web 站点作为远程首页加载；Web 版仍从 GitHub Pages 读取同一份发布协议。
 
 ## 工程结构
 
@@ -15,7 +15,7 @@ assets/logo.svg              # 原生图标和启动图源文件
 dist-mobile/                 # 临时生成的移动客户端壳，不提交
 ```
 
-移动构建关闭 Vite 的默认 `publicDir` 复制，只显式保留应用直接读取的图标与发布元数据。即使先运行 Web `verify` 生成了 `public/data/`，`mobile:build` 也会拒绝把该目录复制到 `dist-mobile/`；构建契约同时把完整壳限制在 12 MiB 内，并用 Vite 的实际环境优先级核对原生标志与生产 HTTPS 数据根。
+移动构建关闭 Vite 的默认 `publicDir` 复制，先用 canonical `data/` 生成当前发布版，再由现有 `release-files.json` 选择全部交互文件并复制到 `dist-mobile/data/`。重复的 24 个资源包 ZIP 导出物不再复制，因为其科学内容已经作为交互文件内置。finalizer 会沿用发布清单的字节数与 SHA-256 逐项核对，拒绝缺失、串版或超过 650 MiB 的产物；这是一条构建契约，不是新的科学内容审查系统。
 
 应用 ID 是 `io.github.dajiaohuang.evoatlas`。Android 最低 API 为 24，iOS 最低版本为 15。原生工程使用 Capacitor 8；iOS 插件通过 Swift Package Manager 引入。
 
@@ -26,16 +26,16 @@ dist-mobile/                 # 临时生成的移动客户端壳，不提交
 移动构建通过 `.env.mobile` 将数据根设置为：
 
 ```text
-https://dajiaohuang.github.io/evo/data/
+./data/
 ```
 
-客户端先读取 `current.json`，再读取 `releases/<datasetVersion>/` 下的不可变数据。清单和分片仍经过现有 SHA-256 与版本一致性检查。Android、iOS 与 Web 不存在内容白名单或精简版数据注册表：三端都能访问 Core、全部资源包、全局化石、全部 CAO2024 地图帧和完整 COL 名录。
+客户端先从应用资源读取 `current.json`，再读取 `releases/<datasetVersion>/` 下的不可变数据。清单和分片仍经过现有 SHA-256 与版本一致性检查。Android、iOS 与 Web 不存在内容白名单或精简版数据注册表：三端都能访问 Core、全部资源包、全局化石、全部 CAO2024 地图帧和完整 COL 名录。
 
-“数据”页提供两种显式离线下载。单包或“全部当前资源包”只保存资源包自身及其化石分片；“保存完整图谱”读取当前版本的 `release-files.json`，请求持久存储，并保存全部交互数据以及离线启动所需的 `current.json`、`releases.json` 和文件清单。重复的 ZIP 导出包不会再次保存。完整交互集的文件数、实际体积和保存进度始终从当前发布清单计算，不使用历史版本的固定数值。版本化缓存允许网络不可用时继续读取已保存的当前版本，但最终配额和系统回收策略仍由 Android WebView 或 iOS WebKit 决定。
+原生“数据”页直接显示安装包内置的文件数与体积，不再提供把同一数据重复写入 WebView Cache Storage 的按钮。当前 rc51 交互集为 3,768 个文件、约 520.20 MiB，实际值始终从发布清单计算，不写死到代码。浏览器版仍保留单包、全部资源包和“保存完整图谱”两级显式缓存能力。
 
-首次打开或尚未执行相应离线下载时，未缓存的地图帧、名录分片、化石分片或资源包仍需要网络。新数据版本发布后，用户需重新保存新版本；旧版本缓存可在“数据”页清除。
+原生应用安装后即可在断网状态读取当前内置发布版，杀进程重启也不依赖缓存配额。升级应用会替换内置数据版本；在线外部 DOI、来源站点和用户主动打开的链接仍需要网络。Web 新数据版本发布后仍需重新保存对应版本，旧版本缓存可在“数据”页清除。
 
-更换生产数据端点时修改 `VITE_DATA_ROOT`，不要在原生 Java/Kotlin/Swift 代码中复制数据 URL。
+原生构建固定使用相对数据根 `./data/`；Web 发布根由 Vite 的 `/evo/` 基址决定。不要在 Java/Kotlin/Swift 代码中复制数据 URL。
 
 ## 准备环境
 
@@ -50,7 +50,7 @@ Android 构建还需要 Android Studio 2025.2.1+、JDK 21 和 Android SDK 36。i
 
 ## 构建与同步
 
-只构建移动客户端壳：
+生成完整移动应用资源：
 
 ```bash
 npm run mobile:build
@@ -107,8 +107,8 @@ npx @capacitor/assets@3.0.5 generate --android --ios --assetPath assets
 
 1. 运行 `npm run typecheck`、`npm test`、`npm run mobile:build` 和 Web 的完整 `npm run verify`。
 2. 运行 `npm run mobile:sync`，确认 Capacitor 插件和原生依赖同步成功。
-3. Android 分别在 API 24 与当前目标 API 的模拟器/真机检查首次教程、综合看板、返回键、深链、外链，并完成一次“保存完整图谱”后断网重开地图、名录、故事和化石视图。
-4. iOS 分别在 iPhone、带刘海设备和 iPad 检查安全区、旋转、深链、外链，并完成一次“保存完整图谱”后断网重开地图、名录、故事和化石视图。
+3. Android 分别在 API 24 与当前目标 API 的模拟器/真机检查首次教程、综合看板、返回键、深链和外链；关闭网络、杀进程后重开地图、名录、故事、化石和 catalogue-only 分区。
+4. iOS 分别在 iPhone、带刘海设备和 iPad 检查安全区、旋转、深链和外链；关闭网络、杀进程后重开同一组完整数据视图。
 5. 检查应用版本、Android `versionCode`、iOS `CURRENT_PROJECT_VERSION`、隐私说明、商店截图和签名配置。
 6. 以发布模式生成 AAB/Archive，检查安装包不包含签名私钥、令牌、开发服务器地址或未授权第三方资产。
 

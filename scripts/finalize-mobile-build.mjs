@@ -1,5 +1,6 @@
-import { copyFileSync, existsSync, mkdirSync, readdirSync, statSync } from 'node:fs'
-import { dirname, join, relative, resolve, sep } from 'node:path'
+import { createHash } from 'node:crypto'
+import { copyFileSync, existsSync, mkdirSync, readFileSync, readdirSync, statSync } from 'node:fs'
+import { dirname, join, resolve, sep } from 'node:path'
 import { loadEnv } from 'vite'
 import { rootDir } from './data-lib.mjs'
 
@@ -18,18 +19,14 @@ for (const name of shellResources) {
   copyFileSync(source, destination)
 }
 
-if (existsSync(join(outputRoot, 'data'))) {
-  throw new Error('Mobile shell must not bundle public/data; scientific data is loaded from the versioned Pages endpoint')
-}
-
 const fileEnvironment = loadEnv('mobile', rootDir, 'VITE_')
 const processEnvironment = Object.fromEntries(
   Object.entries(process.env).filter(([name, value]) => name.startsWith('VITE_') && value !== undefined),
 )
 const mobileEnvironment = { ...fileEnvironment, ...processEnvironment }
 const dataRoot = mobileEnvironment.VITE_DATA_ROOT
-if (mobileEnvironment.VITE_NATIVE_APP !== 'true' || !dataRoot?.startsWith('https://') || /(?:localhost|127\.0\.0\.1)/i.test(dataRoot)) {
-  throw new Error('Mobile build must use native mode and a production HTTPS VITE_DATA_ROOT')
+if (mobileEnvironment.VITE_NATIVE_APP !== 'true' || !/^\.\/data\/?$/.test(dataRoot ?? '')) {
+  throw new Error('Mobile build must use native mode and the bundled ./data/ VITE_DATA_ROOT')
 }
 
 function filesBelow(directory) {
@@ -39,15 +36,58 @@ function filesBelow(directory) {
   })
 }
 
+function sha256(path) {
+  return createHash('sha256').update(readFileSync(path)).digest('hex')
+}
+
+const sourceDataRoot = resolve(rootDir, 'public/data')
+const expectedSourceDataRoot = join(rootDir, 'public', 'data')
+if (sourceDataRoot !== expectedSourceDataRoot || !existsSync(join(sourceDataRoot, 'current.json'))) {
+  throw new Error(`Generated mobile data is missing or unsafe: ${sourceDataRoot}`)
+}
+
+const current = JSON.parse(readFileSync(join(sourceDataRoot, 'current.json'), 'utf8'))
+const releases = JSON.parse(readFileSync(join(sourceDataRoot, 'releases.json'), 'utf8'))
+const release = releases.releases?.find((entry) => entry.datasetVersion === current.datasetVersion)
+if (!release || release.releaseBase !== current.releaseBase || !release.filesIndex) {
+  throw new Error(`Generated release inventory does not contain current dataset ${current.datasetVersion}`)
+}
+const releaseFiles = JSON.parse(readFileSync(join(sourceDataRoot, ...release.filesIndex.split('/')), 'utf8'))
+if (releaseFiles.datasetVersion !== current.datasetVersion || !Array.isArray(releaseFiles.files)) {
+  throw new Error(`Release file inventory does not belong to dataset ${current.datasetVersion}`)
+}
+
+const interactiveFiles = releaseFiles.files.filter((file) => !file.url.includes('/downloads/'))
+const bootstrapFiles = ['current.json', 'releases.json', release.filesIndex]
+const bundledFiles = [...new Set([...bootstrapFiles, ...interactiveFiles.map((file) => file.url)])]
+for (const relativePath of bundledFiles) {
+  const source = resolve(sourceDataRoot, ...relativePath.split('/'))
+  if (!source.startsWith(`${sourceDataRoot}${sep}`) || !existsSync(source) || !statSync(source).isFile()) {
+    throw new Error(`Mobile data inventory references a missing or unsafe file: ${relativePath}`)
+  }
+  const destination = resolve(outputRoot, 'data', ...relativePath.split('/'))
+  if (!destination.startsWith(`${join(outputRoot, 'data')}${sep}`)) {
+    throw new Error(`Mobile data destination is unsafe: ${relativePath}`)
+  }
+  mkdirSync(dirname(destination), { recursive: true })
+  copyFileSync(source, destination)
+}
+
+for (const file of interactiveFiles) {
+  const bundled = join(outputRoot, 'data', ...file.url.split('/'))
+  const actualBytes = statSync(bundled).size
+  const actualSha256 = sha256(bundled)
+  if (actualBytes !== file.bytes || actualSha256 !== file.sha256) {
+    throw new Error(`Bundled mobile data does not match release inventory: ${file.url}`)
+  }
+}
+
 const files = filesBelow(outputRoot)
 const totalBytes = files.reduce((sum, file) => sum + statSync(file).size, 0)
-const limitBytes = 12 * 1024 * 1024
+const limitBytes = 650 * 1024 * 1024
 if (totalBytes > limitBytes) {
-  throw new Error(`Mobile shell is ${(totalBytes / 1024 / 1024).toFixed(2)} MiB; limit is ${limitBytes / 1024 / 1024} MiB`)
+  throw new Error(`Mobile application resources are ${(totalBytes / 1024 / 1024).toFixed(2)} MiB; limit is ${limitBytes / 1024 / 1024} MiB`)
 }
-const unexpectedDataFiles = files
-  .map((file) => relative(outputRoot, file).replaceAll(sep, '/'))
-  .filter((file) => file === 'data' || file.startsWith('data/'))
-if (unexpectedDataFiles.length) throw new Error(`Mobile shell contains runtime data: ${unexpectedDataFiles.slice(0, 3).join(', ')}`)
 
-console.log(`Mobile shell contract passed: ${files.length} files, ${(totalBytes / 1024 / 1024).toFixed(2)} MiB, data root ${dataRoot}`)
+const bundledBytes = interactiveFiles.reduce((sum, file) => sum + file.bytes, 0)
+console.log(`Mobile full-data contract passed: ${interactiveFiles.length} interactive files, ${(bundledBytes / 1024 / 1024).toFixed(2)} MiB, dataset ${current.datasetVersion}, data root ${dataRoot}`)

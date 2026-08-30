@@ -1,5 +1,5 @@
 import { afterEach, describe, expect, it, vi } from 'vitest'
-import type { CatalogueHierarchyChildRecord, CatalogueHierarchyNodeRecord, CatalogueSourceChecklist, CatalogueSpeciesOwnership, RuntimeMapManifest, RuntimeMapSnapshot } from './types'
+import type { CatalogueHierarchyChildRecord, CatalogueHierarchyNodeRecord, CatalogueRecord, CatalogueSourceChecklist, CatalogueSpeciesOwnership, CatalogueTargetRecord, RuntimeMapManifest, RuntimeMapSnapshot } from './types'
 
 function responseFor(value: unknown) {
   const bytes = new TextEncoder().encode(JSON.stringify(value))
@@ -35,17 +35,21 @@ async function installCatalogueFixture({
   nodes = [],
   children = [],
   sources = [],
+  searchRecords = [],
+  targets = [],
 }: {
   nodes?: CatalogueHierarchyNodeRecord[]
   children?: CatalogueHierarchyChildRecord[]
   sources?: CatalogueSourceChecklist[]
+  searchRecords?: CatalogueRecord[]
+  targets?: CatalogueTargetRecord[]
 }) {
   Object.defineProperty(globalThis, 'Worker', { configurable: true, value: undefined })
   const { catalogueRoutePrefix } = await import('./staticDataClient')
   const payloads = new Map<string, ReturnType<typeof responseFor> | ReturnType<typeof textResponseFor>>()
 
   async function hierarchyLayer<T extends { id: string }>(
-    layer: 'nodes' | 'children',
+    layer: 'nodes' | 'children' | 'targets',
     records: T[],
     routeId: (record: T) => string,
   ) {
@@ -77,6 +81,29 @@ async function installCatalogueFixture({
 
   const nodeLayer = await hierarchyLayer('nodes', nodes, (record) => record.id)
   const childLayer = await hierarchyLayer('children', children, (record) => (record as CatalogueHierarchyChildRecord).parentId)
+  const targetLayer = await hierarchyLayer('targets', targets, (record) => record.id)
+  const searchGroups = new Map<string, CatalogueRecord[]>()
+  for (const record of searchRecords) {
+    const prefix = record.normalizedName.replaceAll(' ', '').slice(0, 2).padEnd(2, '_')
+    searchGroups.set(prefix, [...(searchGroups.get(prefix) ?? []), record])
+  }
+  const searchRoutes: Record<string, string[]> = {}
+  const searchFiles = []
+  for (const [prefix, records] of searchGroups) {
+    const url = `releases/dataset-col/catalogue/search/${prefix}.json`
+    const file = {
+      prefix,
+      path: `search/${prefix}.json`,
+      url,
+      records: records.length,
+      bytes: new TextEncoder().encode(JSON.stringify(records)).byteLength,
+      sha256: await sha256(records),
+      mediaType: 'application/json' as const,
+    }
+    searchRoutes[prefix] = [url]
+    searchFiles.push(file)
+    payloads.set(url, responseFor(records))
+  }
   const sourcesUrl = 'releases/dataset-col/catalogue/sources.json'
   const sourceFile = {
     count: sources.length,
@@ -91,6 +118,8 @@ async function installCatalogueFixture({
     releaseAlias: 'TEST-COL',
     counts: { acceptedSpecies },
     sourceChecklists: sourceFile,
+    search: { minimumQueryLength: 3, routes: searchRoutes, files: searchFiles },
+    acceptedTargets: targetLayer,
     hierarchy: { nodes: nodeLayer, children: childLayer },
   }
   const manifestFile = { url: 'releases/dataset-col/catalogue/manifest.json' }
@@ -168,6 +197,56 @@ describe('static runtime release coherence', () => {
     const { catalogueRoutePrefix } = await import('./staticDataClient')
     await expect(catalogueRoutePrefix('4CGXP')).resolves.toBe('24')
     await expect(catalogueRoutePrefix('6MB3T')).resolves.toBe('64')
+  })
+
+  it('falls back to an exact resolution target without adding it to the accepted-species hierarchy', async () => {
+    const target: CatalogueTargetRecord = {
+      id: '9CF4V',
+      scientificName: 'Otoglyphis pubescens subsp. pubescens',
+      authorship: null,
+      rank: 'subspecies',
+      status: 'accepted',
+      parentId: '4B7DY',
+      sourceDatasetId: '1141',
+      classification: ['Plantae', 'Tracheophyta', 'Magnoliopsida', 'Asterales', null, 'Asteraceae', 'Asteroideae', 'Anthemideae', 'Glebionidinae', 'Otoglyphis'],
+    }
+    const provisionalTarget: CatalogueTargetRecord = {
+      ...target,
+      id: 'provisional-species',
+      scientificName: 'Example provisionalis',
+      rank: 'species',
+      status: 'provisionally accepted',
+      sourceDatasetId: 'source-provisional',
+    }
+    await installCatalogueFixture({ targets: [target, provisionalTarget] })
+    const { loadCatalogueHierarchyNode, loadCatalogueLineage } = await import('./staticDataClient')
+
+    await expect(loadCatalogueHierarchyNode(target.id)).resolves.toEqual({ ...target, projection: 'resolution-target' })
+    await expect(loadCatalogueHierarchyNode(provisionalTarget.id)).resolves.toEqual({ ...provisionalTarget, projection: 'resolution-target' })
+    await expect(loadCatalogueLineage(target.id)).rejects.toThrow(`node ${target.id} is missing from the pinned release`)
+  })
+
+  it('returns every exact-name usage when a homonym cluster exceeds the default result limit', async () => {
+    const searchRecords: CatalogueRecord[] = Array.from({ length: 17 }, (_, index) => ({
+      normalizedName: 'same species',
+      id: `usage-${String(index).padStart(2, '0')}`,
+      scientificName: 'Same species',
+      authorship: `Author ${index}`,
+      rank: 'species',
+      status: 'accepted',
+      acceptedId: null,
+      parentId: `parent-${index}`,
+      sourceDatasetId: `source-${index}`,
+      classification: ['Biota', null, null, null, null, null, null],
+    }))
+    searchRecords.push({ ...searchRecords[0], id: 'usage-prefix', normalizedName: 'same species extended', scientificName: 'Same species extended' })
+    await installCatalogueFixture({ searchRecords })
+    const { searchCatalogue } = await import('./staticDataClient')
+
+    const result = await searchCatalogue('Same species')
+    expect(result.records).toHaveLength(17)
+    expect(result.records.every((record) => record.normalizedName === 'same species')).toBe(true)
+    expect(result.totalMatches).toBe(18)
   })
 
   it('uses the current release manifest, evicts a checksum mismatch, and refetches once', async () => {

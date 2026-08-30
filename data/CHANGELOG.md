@@ -1,5 +1,12 @@
 # Dataset changelog
 
+## App 0.20.2 / 2026.08-static-v5-rc51 — 2026-08-31
+
+- Kept the immutable rc51 scientific dataset unchanged while making all resolving-name targets locally dereferenceable. Accepted-target records outside the strict accepted-species hierarchy now open a truthful release-scoped page with their actual rank, status, source checklist and upstream record instead of a false not-found page.
+- Return every exact normalized-name match when an exact cluster exceeds the default twelve-result prefix limit; the two known 16- and 13-record clusters no longer hide five distinguishable resolving usages.
+- Replaced the remote-only Android/iOS data root with a build-time local `./data/` resource assembled from the existing release inventory. The native package now includes all 3,768 non-duplicate interactive files (about 520.20 MiB) and can start offline without a prior Cache Storage download; duplicate package ZIP exports remain excluded.
+- Advanced Android `versionCode` and iOS build number to `5`. Native AAB/IPA production, signing and physical-device/store verification remain platform release work and are not claimed by this source release.
+
 ## 2026.08-static-v5-rc51 — 2026-08-31
 
 - Replaced the final nine legacy period-prefix package ledgers with the same source-bounded, fully paginated PBDB `base_id` contract used by the rest of the Atlas. All 24 packages now publish schema-v2 targeted snapshots.

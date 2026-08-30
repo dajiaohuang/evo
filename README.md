@@ -13,7 +13,9 @@ Evo Atlas 不是一个把生成文本包装成“完整百科”的项目。它�
 - 名录覆盖：固定到 Catalogue of Life Base Release `COL26.8`。2,183,133 个严格接受种全部能沿真实父子链路由到唯一资源归属，另有 2,065,436 个异名、歧义异名和误用名可解析到接受名。
 - 内容覆盖：24 个静态资源包中的证据档案、事件、故事、范围和参考文献。当前已无 `generated-scaffold` 或 `structured`：23 个包为 `source-linked`，奇蹄目为唯一的 `curated-draft`；23 个包尚未人工审阅，奇蹄目的存储状态为 `in-review`，但内容摘要变化使有效状态成为 `stale`，没有包声称达到科学 `published`。平台 `published` 与自动检查通过只表示静态发布链完整，不等于内容或专家审阅已经完成。
 
-当前开发数据快照为 `2026.08-static-v5-rc51`，Web/Android/iOS 客户端版本为 `0.20.1`。精确记录数、校验和和限制以 [`data/manifest.json`](data/manifest.json) 为准；科学内容变更见 [`data/CHANGELOG.md`](data/CHANGELOG.md)。
+当前开发数据快照为 `2026.08-static-v5-rc51`，Web/Android/iOS 客户端版本为 `0.20.2`。精确记录数、校验和和限制以 [`data/manifest.json`](data/manifest.json) 为准；科学内容变更见 [`data/CHANGELOG.md`](data/CHANGELOG.md)。
+
+`0.20.2` 修复完整名录中解析名称的内部可达性：当异名、歧义异名或误用名指向不属于严格接受种祖先闭包的接受/暂定接受亚种、变种、种或变型时，详情页会读取固定版本的 accepted-target 分片，而不再显示“ID 不存在”，也不会把这些目标伪装成严格接受种。完全同名簇超过默认 12 条时会显示全部精确匹配。Android 与 iOS 同时改为安装包内置当前发布版的 3,768 个交互文件（约 520.20 MiB），包括 Core、24 个资源包、化石、1,889 个 CAO2024 帧和完整 COL26.8 名录；断网首次启动无需先下载，24 个重复 ZIP 导出包不重复内置。
 
 `rc51` 把最后九个植物、无脊椎动物、节肢动物与奇蹄目资源包迁移到与其余包相同的 PBDB 定向查询契约。现在 24/24 个包都保存 schema v2 `base_id` 子查询账本：149 个可执行概念完成 299 页分页，账本记录 898,460 条允许重叠的子查询行与 568,983 个包内唯一 occurrence ID；243 个历史等级、概念未协调、名称/等级不匹配、需人工概念审查或超过固定十万行边界的目标明确 withheld。每包最多保留 5,000 条确定性排序的可展示明细，全库共 95,422 条；完整 ID、每查询校验和与终止页证据仍全部保存。Web/Android/iOS 的实体索引会按实体所属包读取这套通用快照，并分别显示完整查询总数与实际载入的有界明细。旧的奇蹄目专用快照已由通用账本替代，其当前固定根查询为 13,209 个唯一 ID。这里的“完整”只描述记录时间点上指定 PBDB 查询的分页，不表示化石记录、物种丰富度或地理采样完整。
 
@@ -80,11 +82,11 @@ Evo Atlas 不是一个把生成文本包装成“完整百科”的项目。它�
 - 在浏览器本地导入 CSV、JSON、GeoJSON，使用只读 DuckDB-Wasm 做筛选、连接、聚合和 Parquet 导出。
 - 将笔记、收藏、故事草稿和查询历史保存在本机；项目没有账号系统或应用服务器。
 - Web 版预缓存应用壳和 Core 数据，大型地图、名录、资源包和化石分片按需缓存。
-- Android/iOS 安装包内置同一客户端壳，科学数据从公开的版本化 GitHub Pages 数据端点按需读取并校验；首次读取尚未保存的数据需要网络。
+- Android/iOS 安装包内置同一客户端和当前完整交互数据发布版；首次启动、地图、名录、化石与资源包均可断网读取，外部 DOI 和来源链接仍需网络。
 
 ## Web、Android 与 iOS
 
-三端共享 `src/` 中的 React/TypeScript 客户端和同一个数据协议，不复制科学内容。
+三端共享 `src/` 中的 React/TypeScript 客户端和同一个数据协议。Web 按需读取发布数据；Android/iOS 在构建时从同一发布清单生成本地只读副本。
 
 | 平台 | 工程 | 运行形态 | 当前边界 |
 | --- | --- | --- | --- |
@@ -92,7 +94,7 @@ Evo Atlas 不是一个把生成文本包装成“完整百科”的项目。它�
 | Android | `android/` + Capacitor 8 | API 24+ 原生壳、系统返回键、状态栏、启动资源、外链和 `evoatlas://` 深链 | 工程与应用级测试源已生成；尚未生成或发布 AAB，商店签名和发布凭据不入库 |
 | iOS / iPadOS | `ios/` + Capacitor 8 / Swift Package Manager | iOS 15+ WKWebView 原生壳、安全区、状态栏、启动资源、外链和 `evoatlas://` 深链 | 工程与应用级测试 target 已生成；尚未生成或发布 IPA/Archive，必须在 macOS + Xcode 完成验证与签名 |
 
-移动端不是把线上网页作为远程首页打开的空壳：HTML、CSS、JavaScript 与图标进入原生包；大体积、经版本化的科学数据保持远程和按需加载，因此客户端升级与内容数据修订可以解耦。Android 与 iOS 使用和 Web 完全相同的路由、资源包注册表、化石分片、CAO2024 地图帧与 COL 名录；“数据”页还可一次保存当前版本的全部交互数据，供原生应用离线读取。详细工作流见 [`docs/mobile-apps.md`](docs/mobile-apps.md)。
+移动端不是把线上网页作为远程首页打开的空壳：HTML、CSS、JavaScript、图标和当前不可变科学数据发布版都进入原生包。Android 与 iOS 使用和 Web 完全相同的路由、资源包注册表、化石分片、CAO2024 地图帧与 COL 名录；“数据”页直接报告内置文件数和体积，不会再把相同数据重复写入 WebView 缓存。详细工作流见 [`docs/mobile-apps.md`](docs/mobile-apps.md)。
 
 ## 快速开始
 
@@ -112,7 +114,7 @@ npm run dev
 npm run verify
 ```
 
-`verify` 包含 ESLint、Vitest、注册表与资源包投影一致性、数据/主张/翻译/来源/审查门禁、TypeScript、生产 PWA 构建、体积预算、静态页面 smoke test、轻量移动壳构建、三浏览器 Playwright 路由和 axe 可访问性检查。
+`verify` 包含 ESLint、Vitest、注册表与资源包投影一致性、数据/主张/翻译/来源/审查门禁、TypeScript、生产 PWA 构建、体积预算、静态页面 smoke test、完整移动数据构建、三浏览器 Playwright 路由和 axe 可访问性检查。
 
 ## 构建移动端
 
@@ -135,9 +137,9 @@ iOS 需要 macOS、Xcode 26+ 和命令行工具；项目使用 Swift Package Man
 npm run mobile:ios
 ```
 
-`npm run mobile:build` 只生成 `dist-mobile/`，并拒绝 `data/`、非生产数据根或超过 12 MiB 的壳；`mobile:sync` 再把同一个已验证壳和插件配置复制到 `android/` 与 `ios/`。不要手改原生工程中被 `.gitignore` 排除的 Web 产物。应用 ID 为 `io.github.dajiaohuang.evoatlas`，自定义深链示例为：
+`npm run mobile:build` 先生成当前静态发布版，再按 `release-files.json` 把全部非重复交互文件复制到 `dist-mobile/data/`，逐项复用现有字节数与 SHA-256 契约；`mobile:sync` 把完整产物和插件配置复制到 `android/` 与 `ios/`。这些生成目录被 `.gitignore` 排除，不要手改。应用 ID 为 `io.github.dajiaohuang.evoatlas`，自定义深链示例为：
 
-安装后的“数据”页提供两级离线能力：单个/全部资源包下载适合日常使用；“保存完整图谱”会保存 Core、全部资源包、全局化石、全部 CAO2024 帧和完整 COL 名录。当前版本的完整交互数据体积与文件数始终从版本化发布清单计算；以后版本也按各自清单显示实际体积。重复的 ZIP 导出包不计入离线交互集。
+安装后的“数据”页直接显示内置的完整交互集；无需另点“保存完整图谱”。Web 版仍提供单个/全部资源包与完整图谱缓存。实际体积和文件数始终从版本化发布清单计算；重复的 ZIP 导出包不计入离线交互集。
 
 ```text
 evoatlas://open/stories?id=angiosperm-evidence-boundaries
@@ -240,4 +242,4 @@ Evo Atlas 没有账号、广告、分析 SDK 或应用后端。笔记、收藏�
 
 ## English summary
 
-Evo Atlas is a bilingual, static-first deep-time evidence explorer for Web, Android and iOS. The dashboard synchronizes geological time, six distinct CAO2024 reconstruction layers, fossil samples, a 392-entity navigation tree and claim-level evidence. Dataset rc51 contains 1,019 claims and 470 references. Its 403 canonical range records contain 325 available windows, 78 explicit withholdings and no legacy display values; by evidence level, 334 are literature-synthesized and 69 are explicitly withheld for insufficient range evidence. Available windows describe stated samples, strata, regions, models or navigation envelopes rather than universal FADs or LADs. All 24 packages now publish schema-v2 targeted PBDB ledgers: 149 package-scoped `base_id` subqueries are completely paginated across 299 pages, while 243 incompatible, unreconciled, historical-grade, over-broad or review-gated concepts are explicitly withheld. The ledgers preserve 568,983 package-unique occurrence IDs and 95,422 deterministic bounded display details; overlapping subquery rows are not abundance estimates. The pinned COL26.8 registry routes all 2,183,133 strictly accepted species to one resource owner with zero unmatched names; this nomenclatural coverage is not a claim that every species has a prose dossier or expert review. Android and iOS are Capacitor 8 projects sharing the same React client at app version 0.20.1. Their verified lightweight native shell excludes scientific data, while the production Pages endpoint and complete-offline inventory retain Core, all 24 packages, the 13,600-row global bounded fossil sample, all targeted ledgers and details, all 1,889 CAO2024 frames and the full COL registry. No account, analytics SDK, private API key, database or application server is required.
+Evo Atlas is a bilingual, static-first deep-time evidence explorer for Web, Android and iOS. The dashboard synchronizes geological time, six distinct CAO2024 reconstruction layers, fossil samples, a 392-entity navigation tree and claim-level evidence. Dataset rc51 contains 1,019 claims and 470 references. Its 403 canonical range records contain 325 available windows, 78 explicit withholdings and no legacy display values; by evidence level, 334 are literature-synthesized and 69 are explicitly withheld for insufficient range evidence. Available windows describe stated samples, strata, regions, models or navigation envelopes rather than universal FADs or LADs. All 24 packages now publish schema-v2 targeted PBDB ledgers: 149 package-scoped `base_id` subqueries are completely paginated across 299 pages, while 243 incompatible, unreconciled, historical-grade, over-broad or review-gated concepts are explicitly withheld. The ledgers preserve 568,983 package-unique occurrence IDs and 95,422 deterministic bounded display details; overlapping subquery rows are not abundance estimates. The pinned COL26.8 registry routes all 2,183,133 strictly accepted species to one resource owner with zero unmatched names; this nomenclatural coverage is not a claim that every species has a prose dossier or expert review. Android and iOS are Capacitor 8 projects sharing the same React client at app version 0.20.2. Their builds bundle the current 3,768-file, approximately 520.20 MiB interactive release locally—Core, all 24 packages, the 13,600-row global bounded fossil sample, all targeted ledgers and details, all 1,889 CAO2024 frames and the full COL registry—while excluding only duplicate package ZIP exports. No account, analytics SDK, private API key, database or application server is required.
