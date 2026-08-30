@@ -35,91 +35,79 @@
     "id": "range:phacopida:global",
     "entityId": "phacopida",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Phacopida",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 488,
-    "youngerMa": 359,
-    "status": "available",
+    "taxonomicConcept": "Phacopida numerical range withheld pending order-wide range evidence",
+    "geographicScope": "No defensible global numerical scope established",
+    "olderMa": 0,
+    "youngerMa": 0,
+    "status": "withheld-pending-provenance",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "note": "The cited Phacopidae study is family- and species-scoped and cannot bound the order."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
-    "confidence": "medium",
+    "evidenceBasis": "The former 488–359 Ma display is withheld because the available primary study treats Siluro-Devonian Phacopidae rather than an order-wide first and last occurrence synthesis.",
+    "confidence": "low",
     "claimIds": [],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
-      },
-      {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "cronier-2011-phacopidae-species",
+        "locator": "pp. 143–153; Figures 1–6; Tables 1–2; Siluro-Devonian Phacopidae species and ontogeny only"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "withheld-no-range-evidence"
   },
   {
     "id": "range:ptychopariida:global",
     "entityId": "ptychopariida",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Ptychopariida",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 521,
-    "youngerMa": 443,
-    "status": "available",
+    "taxonomicConcept": "Traditional Ptychopariida numerical range withheld because the assemblage is not a stable bounded lineage",
+    "geographicScope": "No defensible global numerical scope established",
+    "olderMa": 0,
+    "youngerMa": 0,
+    "status": "withheld-pending-provenance",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "note": "Traditional Ptychopariida is probably paraphyletic and lacks a stable order-wide range concept."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
-    "confidence": "medium",
+    "evidenceBasis": "The former 521–443 Ma display is withheld because the systematic review treats the traditional order as a problematic, probably paraphyletic assemblage rather than one bounded lineage.",
+    "confidence": "contested",
     "claimIds": [],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
-      },
-      {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "fortey-2001-trilobite-systematics",
+        "locator": "pp. 1141–1151; order-level classification history and discussion of the traditional paraphyletic Ptychopariida"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "withheld-no-range-evidence"
   },
   {
     "id": "range:corynexochida:global",
     "entityId": "corynexochida",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Corynexochida",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 516,
-    "youngerMa": 393,
-    "status": "available",
+    "taxonomicConcept": "Corynexochida numerical range withheld pending order-wide synthesis",
+    "geographicScope": "No defensible global numerical scope established",
+    "olderMa": 0,
+    "youngerMa": 0,
+    "status": "withheld-pending-provenance",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "note": "The cited revision is limited to Missisquoiidae and cannot establish order-wide endpoints."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
-    "confidence": "medium",
+    "evidenceBasis": "The former 516–393 Ma display is withheld because the available cladistic revision covers one family and does not audit the complete temporal extent of Corynexochida.",
+    "confidence": "low",
     "claimIds": [],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
-      },
-      {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "lee-2008-missisquoiidae-revision",
+        "locator": "pp. 315–341; Figures 1–8; family-level Missisquoiidae revision and cladograms"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "withheld-no-range-evidence"
   },
   {
     "id": "range:chelicerata:global",
@@ -153,31 +141,33 @@
     "id": "range:eurypterida:global",
     "entityId": "eurypterida",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Eurypterida",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 467,
-    "youngerMa": 252,
+    "taxonomicConcept": "Eurypterida reviewed oldest-to-latest known fossil-record navigation envelope",
+    "geographicScope": "Fezouata oldest record and reviewed global fossil record",
+    "olderMa": 479,
+    "youngerMa": 250,
     "status": "available",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "note": "The bounds are literature-reported fossil records, not origination or extinction instants."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "evidenceBasis": "A 2025 primary study reports unequivocal upper Tremadocian eurypterids from the approximately 479 Ma Fezouata interval; Tetlie's systematic review records the latest occurrence at approximately 250 Ma.",
     "confidence": "medium",
-    "claimIds": [],
+    "claimIds": [
+      "claim:taxon:eurypterida:fossil-range"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
+        "referenceId": "van-roy-2025-fezouata-eurypterids",
+        "locator": "Systematic palaeontology; Figures 1–5; Discussion section 3(d); upper Tremadocian Fezouata occurrence and approximately 479 Ma lower interval"
       },
       {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "tetlie-2007-eurypterid-history",
+        "locator": "pp. 557–574; Abstract and Introduction; Tables 1–7; reviewed latest Late Permian Russian record at approximately 250 Ma"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "literature-synthesized"
   },
   {
     "id": "range:trilobite-evidence-samples:trilobites-chelicerates-evidence",
@@ -194,16 +184,22 @@
       "note": "A navigation envelope spanning separate sampled dossiers; not a lineage or continuous occurrence."
     },
     "evidenceBasis": "The displayed interval is a navigation envelope across separate evidence and is not a phylogenetic or occurrence claim.",
-    "evidenceLevel": "legacy-display",
-    "confidence": "low",
-    "claimIds": [],
+    "evidenceLevel": "literature-synthesized",
+    "confidence": "medium",
+    "claimIds": [
+      "claim:taxon:trilobite-evidence-samples:fossil-range"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
+        "referenceId": "holmes-budd-2022-early-trilobites",
+        "locator": "Article 1177; Abstract and Introduction; Figures 1–4; widespread early trilobite record at approximately 521 Ma"
+      },
+      {
+        "referenceId": "hou-2021-trilobite-gill",
+        "locator": "Article eabe7377; Figures 1–5 and supplement; Beecher's Bed Triarthrus sample within 450–443 Ma"
       }
     ],
-    "reviewStatus": "not-reviewed"
+    "reviewStatus": "automated-audit-passed"
   },
   {
     "id": "range:protolenus:trilobites-chelicerates-evidence",
@@ -388,17 +384,23 @@
       "youngerMa": null,
       "note": "A navigation envelope across separate fossils and competing topologies, not a lineage duration."
     },
-    "evidenceBasis": "The displayed interval is a navigation envelope across separate evidence and is not a phylogenetic or occurrence claim.",
-    "evidenceLevel": "legacy-display",
-    "confidence": "low",
-    "claimIds": [],
+    "evidenceBasis": "The displayed interval links the 519–518 Ma Chengjiang Urokodia sample to the 504.5–500.5 Ma Wheeler Megachelicerax sample; it is a dossier-navigation envelope rather than a lineage duration.",
+    "evidenceLevel": "literature-synthesized",
+    "confidence": "medium",
+    "claimIds": [
+      "claim:taxon:stem-chelicerate-evidence:fossil-range"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
+        "referenceId": "liu-2026-urokodia",
+        "locator": "pp. 653–658; Figures 1–3; Chengjiang Urokodia sample at 519–518 Ma"
+      },
+      {
+        "referenceId": "lerosey-aubril-ortega-2026-megachelicerax",
+        "locator": "pp. 931–937; Figures 1–3; Wheeler Formation Megachelicerax sample at 504.5–500.5 Ma"
       }
     ],
-    "reviewStatus": "not-reviewed"
+    "reviewStatus": "automated-audit-passed"
   },
   {
     "id": "range:urokodia:trilobites-chelicerates-evidence",
@@ -546,7 +548,7 @@
     "id": "range:pycnogonida:trilobites-chelicerates-evidence",
     "entityId": "pycnogonida",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Pycnogonida navigation range",
+    "taxonomicConcept": "Pycnogonida contested total-group fossil-to-living navigation envelope",
     "geographicScope": "Global fossil and living record",
     "olderMa": 500,
     "youngerMa": 0,
@@ -554,53 +556,51 @@
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Legacy navigation envelope; fossil assignments and first appearance remain sampling-dependent."
+      "note": "Cambropycnogon is a possible total-group pycnogonid, not a secure crown-group first appearance."
     },
-    "evidenceBasis": "The displayed interval is a navigation envelope across separate evidence and is not a phylogenetic or occurrence claim.",
-    "evidenceLevel": "legacy-display",
-    "confidence": "low",
-    "claimIds": [],
+    "evidenceBasis": "Cambropycnogon provides an approximately 500 Ma possible total-group record, while living pycnogonids extend the navigation envelope to the present; later review retains uncertainty over the fossil's assignment.",
+    "evidenceLevel": "literature-synthesized",
+    "confidence": "contested",
+    "claimIds": [
+      "claim:taxon:pycnogonida:fossil-range"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
+        "referenceId": "waloszek-dunlop-2002-cambropycnogon",
+        "locator": "pp. 421–446; Abstract; text-figures 1–2; systematic account proposing Cambropycnogon as the oldest pycnogonid/chelicerate record"
+      },
+      {
+        "referenceId": "sabroux-2024-pycnogonid-fossils",
+        "locator": "Table 1; Cambropycnogon classified as possibly Pycnogonida rather than a secure crown record"
       }
     ],
-    "reviewStatus": "not-reviewed"
+    "reviewStatus": "automated-audit-passed"
   },
   {
     "id": "range:arachnida:trilobites-chelicerates-evidence",
     "entityId": "arachnida",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Arachnida topology-model navigation range",
-    "geographicScope": "Global fossil and living sample",
-    "olderMa": 485,
+    "taxonomicConcept": "Arachnida numerical range withheld because sampled phylogenies do not support one stable monophyletic concept",
+    "geographicScope": "No defensible global numerical scope established",
+    "olderMa": 0,
     "youngerMa": 0,
-    "status": "available",
+    "status": "withheld-pending-provenance",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Older endpoint is a broad model/navigation value, not a fossil crown age or agreed terrestrialization date."
+      "note": "Dense taxon sampling recovers Arachnida as paraphyletic, so 485 Ma cannot bound one agreed lineage."
     },
-    "evidenceBasis": "Rounded navigation-only envelope retained for display; the cited topology studies do not establish its 485 Ma endpoint, a crown age or one agreed terrestrialization event.",
-    "evidenceLevel": "legacy-display",
+    "evidenceBasis": "The former 485–0 Ma display is withheld because topology studies do not establish its older endpoint and dense sampling contests Arachnida monophyly.",
+    "evidenceLevel": "withheld-no-range-evidence",
     "confidence": "contested",
     "claimIds": [],
     "referenceLocators": [
-      {
-        "referenceId": "lozano-fernandez-2019-chelicerate-phylogenomics",
-        "locator": "2295; Figures 1–4; Supplementary analyses; Taxon-rich matrices; Model tests; Arachnida and Acari results"
-      },
-      {
-        "referenceId": "howard-2020-arachnid-monophyly",
-        "locator": "100997; Figures 1–4; Supplementary matrices; 200 slow-gene matrix; Fossil and morphology synthesis; Terrestrialization inference"
-      },
       {
         "referenceId": "ballesteros-2022-arachnida-paraphyly",
         "locator": "msac021; Figures 1–6; Supplementary analyses; Dense taxon sampling; Heterogeneous models; Total-evidence topology"
       }
     ],
-    "reviewStatus": "not-reviewed"
+    "reviewStatus": "automated-audit-passed"
   },
   {
     "id": "range:scorpiones:trilobites-chelicerates-evidence",
@@ -662,7 +662,7 @@
     "id": "range:araneae:trilobites-chelicerates-evidence",
     "entityId": "araneae",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Araneae navigation range",
+    "taxonomicConcept": "Araneae reviewed oldest-known-fossil-to-living navigation envelope",
     "geographicScope": "Global fossil and living record",
     "olderMa": 315,
     "youngerMa": 0,
@@ -670,25 +670,31 @@
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Legacy navigation envelope; not a reviewed global FAD or uninterrupted lineage claim."
+      "note": "The older edge is a reviewed oldest-known fossil record, not an origination or crown-divergence date."
     },
-    "evidenceBasis": "The displayed interval is a navigation envelope across separate evidence and is not a phylogenetic or occurrence claim.",
-    "evidenceLevel": "legacy-display",
-    "confidence": "low",
-    "claimIds": [],
+    "evidenceBasis": "The fossil-record review and a Carboniferous arachnid study trace true spiders to approximately 315 Ma; living Araneae extend this sampled-record navigation envelope to the present.",
+    "evidenceLevel": "literature-synthesized",
+    "confidence": "medium",
+    "claimIds": [
+      "claim:taxon:araneae:fossil-range"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
+        "referenceId": "selden-penney-2010-spider-fossil-record",
+        "locator": "pp. 171–206; fossil-record review and Table S1"
+      },
+      {
+        "referenceId": "garwood-2016-idmonarachne",
+        "locator": "Article 20160125; Introduction and main-text figures; Araneae traced to approximately 315 Ma and Idmonarachne distinguished from true spiders"
       }
     ],
-    "reviewStatus": "not-reviewed"
+    "reviewStatus": "automated-audit-passed"
   },
   {
     "id": "range:acari:trilobites-chelicerates-evidence",
     "entityId": "acari",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Acari navigation range",
+    "taxonomicConcept": "Broad Acari oldest-secure-fossil-to-living navigation envelope",
     "geographicScope": "Global fossil and living record",
     "olderMa": 410,
     "youngerMa": 0,
@@ -696,26 +702,20 @@
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Broad navigation envelope; Acari monophyly and early fossil assignments remain analysis-dependent."
+      "note": "The 410 Ma edge is the oldest securely accepted reviewed record, not a crown age; Acari topology remains contested."
     },
-    "evidenceBasis": "Rounded navigation-only envelope retained for display; the cited molecular and total-evidence studies test topology but do not establish the 410 Ma endpoint or a consensus Acari crown range.",
-    "evidenceLevel": "legacy-display",
+    "evidenceBasis": "A fossil-data review documents secure Acari records from the Early Devonian at approximately 410 Ma and excludes unsupported older assignments; living mites extend the navigation envelope to the present.",
+    "evidenceLevel": "literature-synthesized",
     "confidence": "contested",
-    "claimIds": [],
+    "claimIds": [
+      "claim:taxon:acari:fossil-range"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "lozano-fernandez-2019-chelicerate-phylogenomics",
-        "locator": "2295; Figures 1–4; Supplementary analyses; Taxon-rich matrices; Model tests; Arachnida and Acari results"
-      },
-      {
-        "referenceId": "howard-2020-arachnid-monophyly",
-        "locator": "100997; Figures 1–4; Supplementary matrices; 200 slow-gene matrix; Fossil and morphology synthesis; Terrestrialization inference"
-      },
-      {
-        "referenceId": "ballesteros-2022-arachnida-paraphyly",
-        "locator": "msac021; Figures 1–6; Supplementary analyses; Dense taxon sampling; Heterogeneous models; Total-evidence topology"
+        "referenceId": "sidorchuk-2018-acari-fossil-record",
+        "locator": "pp. 349–359; Abstract and fossil dataset; more than 260 fossils from the Early Devonian approximately 410 Ma onward; rejected Ordovician and Permian assignments"
       }
     ],
-    "reviewStatus": "not-reviewed"
+    "reviewStatus": "automated-audit-passed"
   }
 ]

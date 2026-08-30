@@ -811,7 +811,8 @@
       "range",
       "event-mechanism"
     ],
-    "metadataAssignment": "automated"
+    "metadataAssignment": "curator-reviewed",
+    "note": "Primary genomic study directly dates the sampled Coelodonta antiquitatis individual to 14.4 ka; that individual is not asserted to be the genus-wide global last appearance."
   },
   {
     "id": "green-2010-neanderthal",
@@ -1233,7 +1234,8 @@
       "taxonomy",
       "biogeography",
       "ecology",
-      "morphology"
+      "morphology",
+      "geochronology"
     ],
     "metadataAssignment": "curator-reviewed"
   },
@@ -4416,11 +4418,12 @@
     "doi": "10.1111/j.1475-4983.2011.01056.x",
     "publisher": "Palaeontology",
     "pages": "54:825–850",
-    "note": "New Pojetaia and Fordilla shell sections document laminar inner fabrics interpreted as foliated aragonite rather than undisputed Cambrian nacre.",
+    "note": "New Pojetaia and Fordilla shell sections document laminar inner fabrics; the material and plate captions identify probably Botomian and lowermost Botomian sampled units, with the qualified correlation retained.",
     "fitnessFor": [
       "morphology",
       "event-mechanism",
-      "taxonomy"
+      "taxonomy",
+      "range"
     ],
     "type": "paper",
     "url": "https://doi.org/10.1111/j.1475-4983.2011.01056.x",
@@ -4514,11 +4517,12 @@
     "doi": "10.1038/nature14668",
     "publisher": "Nature",
     "pages": "524:220–224",
-    "note": "A male Octopus bimaculoides genome plus twelve tissue transcriptomes test gene-family expansion and genome rearrangement without supporting a cephalopod whole-genome duplication.",
+    "note": "A living male Octopus bimaculoides genome plus twelve tissue transcriptomes test gene-family expansion and genome rearrangement; the methods directly support living-sample status, not species origin.",
     "fitnessFor": [
       "event-mechanism",
       "topology",
-      "methods"
+      "methods",
+      "range"
     ],
     "type": "paper",
     "url": "https://doi.org/10.1038/nature14668",
@@ -4572,11 +4576,12 @@
     "doi": "10.1038/ncomms9301",
     "publisher": "Nature Communications",
     "pages": "6:8301",
-    "note": "A 425-Mb Lingula anatina genome, developmental and adult transcriptomes, and shell proteome test lophotrochozoan relationships and lineage-specific phosphate biomineralization.",
+    "note": "A 425-Mb Lingula anatina genome, transcriptomes and shell proteome from living gravid adults collected at Kasari Bay; the collection supports present-day sample status, not lineage origin.",
     "fitnessFor": [
       "topology",
       "event-mechanism",
-      "methods"
+      "methods",
+      "range"
     ],
     "type": "paper",
     "url": "https://doi.org/10.1038/ncomms9301",
@@ -4591,11 +4596,12 @@
     "doi": "10.1038/srep04682",
     "publisher": "Scientific Reports",
     "pages": "4:4682",
-    "note": "Yuganotheca elegans combines paired agglutinated valves, a horseshoe-shaped lophophore, a bipartite tube and a long pedicle; its exact position relative to phoronids and brachiopods remains interpretive.",
+    "note": "Seven hundred ten Yuganotheca specimens from the Yu’anshan Member combine paired valves, lophophore, tube and pedicle; the formal locality section assigns the sample to late Atdabanian/Botoman Cambrian Stage 3.",
     "fitnessFor": [
       "morphology",
       "topology",
-      "taxonomy"
+      "taxonomy",
+      "range"
     ],
     "type": "paper",
     "url": "https://doi.org/10.1038/srep04682",
@@ -7981,7 +7987,9 @@
     "fitnessFor": [
       "taxonomy",
       "topology",
-      "morphology"
+      "morphology",
+      "range",
+      "geochronology"
     ],
     "metadataAssignment": "curator-reviewed"
   },
@@ -8372,11 +8380,12 @@
     "doi": "10.5962/p.215817",
     "publisher": "Annals of the Carnegie Museum",
     "pages": "63:327–374",
-    "note": "Order-level systematic revision based on shell characters; classification does not set a global origin, extinction, or direct ancestor.",
+    "note": "Order-level systematic revision based on shell characters; p. 329 explicitly states an Upper Ordovician–Upper Permian stratigraphic range, while classification does not establish direct ancestry or continuous occupancy.",
     "sourceRole": "systematic-review",
     "fitnessFor": [
       "taxonomy",
-      "morphology"
+      "morphology",
+      "range"
     ],
     "metadataAssignment": "curator-reviewed"
   },
@@ -8523,12 +8532,13 @@
     "doi": "10.1666/0022-3360(2005)079<0356:TLAFGT>2.0.CO;2",
     "publisher": "Journal of Paleontology",
     "pages": "79:356–365",
-    "note": "Family-level Mississippian material and biogeographic synthesis within Goniatitida; it cannot define the whole order's endpoints.",
+    "note": "Family-level early Late Viséan material and biogeographic synthesis within Goniatitida; it supports that regional study window but cannot define the whole order’s endpoints.",
     "sourceRole": "primary-study",
     "fitnessFor": [
       "taxonomy",
       "morphology",
-      "biogeography"
+      "biogeography",
+      "range"
     ],
     "metadataAssignment": "curator-reviewed"
   },
@@ -8542,12 +8552,13 @@
     "doi": "10.2517/prpsj.5.201",
     "publisher": "Paleontological Research",
     "pages": "5:201–213",
-    "note": "Comparative internal-shell analysis infers ceratitid relationships; inferred origin is not an observed ancestor or a complete global record.",
+    "note": "Comparative internal-shell analysis infers ceratitid relationships and explicitly states an Early Permian–end-Triassic order range; inferred ancestry and continuous occupancy remain unclaimed.",
     "sourceRole": "primary-study",
     "fitnessFor": [
       "taxonomy",
       "topology",
-      "morphology"
+      "morphology",
+      "range"
     ],
     "metadataAssignment": "curator-reviewed"
   },
@@ -8561,12 +8572,13 @@
     "doi": "10.1111/cla.12151",
     "publisher": "Cladistics",
     "pages": "33:21–40",
-    "note": "Integrated conch-character matrix for one ammonitid family; its topology is a local test rather than the order's complete history.",
+    "note": "Integrated conch-character matrix for 105 Early Jurassic Hildoceratidae taxa; it supports that family study window rather than the order’s complete history.",
     "sourceRole": "primary-study",
     "fitnessFor": [
       "taxonomy",
       "topology",
-      "morphology"
+      "morphology",
+      "range"
     ],
     "metadataAssignment": "curator-reviewed"
   },
@@ -8599,12 +8611,13 @@
     "doi": "10.26879/1239",
     "publisher": "Palaeontologia Electronica",
     "pages": "26:a13",
-    "note": "Tip-dated morphological analysis of sampled belemnites; topology and node ages remain model- and character-dependent.",
+    "note": "Tip-dated morphological analysis of 24 sampled belemnites with published first/last occurrence inputs and a 253.1 Ma origin offset; topology and node ages remain model- and calibration-dependent.",
     "sourceRole": "primary-study",
     "fitnessFor": [
       "taxonomy",
       "topology",
-      "geochronology"
+      "geochronology",
+      "range"
     ],
     "metadataAssignment": "curator-reviewed"
   },
@@ -8722,5 +8735,516 @@
     ],
     "metadataAssignment": "curator-reviewed",
     "note": "Systematic review identifies the upper Cambrian through Triassic biostratigraphic record while warning that element-based taxonomy and incomplete multielement reconstruction complicate one stable biological range."
+  },
+  {
+    "id": "oliver-1996-paleozoic-corals",
+    "title": "Origins and relationships of Paleozoic coral groups and the origin of the Scleractinia",
+    "authors": "Oliver, W.A., Jr.",
+    "publishedYear": 1996,
+    "type": "paper",
+    "url": "https://doi.org/10.1017/S1089332600000073",
+    "doi": "10.1017/S1089332600000073",
+    "publisher": "The Paleontological Society Papers",
+    "pages": "1:107–134",
+    "note": "Systematic review whose abstract explicitly separates the Early Ordovician–end-Permian Tabulata, Middle Ordovician–end-Permian Rugosa and Middle Triassic–Holocene Scleractinia records.",
+    "sourceRole": "systematic-review",
+    "fitnessFor": [
+      "taxonomy",
+      "range",
+      "morphology",
+      "geochronology"
+    ],
+    "metadataAssignment": "curator-reviewed"
+  },
+  {
+    "id": "kershaw-jeon-2024-stromatoporoids-extinctions",
+    "title": "Stromatoporoids and extinctions: A review",
+    "authors": "Kershaw, S.; Jeon, J.",
+    "publishedYear": 2024,
+    "type": "paper",
+    "url": "https://doi.org/10.1016/j.earscirev.2024.104721",
+    "doi": "10.1016/j.earscirev.2024.104721",
+    "publisher": "Earth-Science Reviews",
+    "pages": "252:104721",
+    "note": "Review distinguishes two major stromatoporoid-grade episodes and warns against treating the intervening gap as one continuous clade range.",
+    "sourceRole": "systematic-review",
+    "fitnessFor": [
+      "taxonomy",
+      "range",
+      "morphology",
+      "geochronology"
+    ],
+    "metadataAssignment": "curator-reviewed"
+  },
+  {
+    "id": "galtier-scott-1985-early-ferns",
+    "title": "Diversification of early ferns",
+    "authors": "Galtier, J.; Scott, A.C.",
+    "publishedYear": 1985,
+    "type": "journal-article",
+    "url": "https://repository.royalholloway.ac.uk/items/e8273bd9-2265-d394-b062-ac4c90e5ed58",
+    "publisher": "Proceedings of the Royal Society of Edinburgh, Section B: Biological Sciences",
+    "pages": "86:289–301",
+    "note": "Review questions attribution of Devonian taxa to ferns while treating Lower Carboniferous filicalean evidence as substantially firmer.",
+    "sourceRole": "systematic-review",
+    "fitnessFor": [
+      "taxonomy",
+      "range",
+      "morphology"
+    ],
+    "metadataAssignment": "curator-reviewed"
+  },
+  {
+    "id": "axsmith-2008-holyoke-araucaria",
+    "title": "An araucarian conifer bract-scale complex from the Lower Jurassic of Massachusetts: implications for estimating phylogenetic/stratigraphic congruence in the Araucariaceae",
+    "authors": "Axsmith, B.J.; Escapa, I.H.; Huber, P.",
+    "publishedYear": 2008,
+    "type": "journal-article",
+    "url": "https://palaeo-electronica.org/2008_3/152/index.html",
+    "publisher": "Palaeontologia Electronica",
+    "pages": "11.3.13A:1–9",
+    "note": "Open article describing specimen J 1430 from the Hettangian South Hadley Falls Member and identifying it as a bona fide Araucariaceae megafossil.",
+    "sourceRole": "primary-study",
+    "fitnessFor": [
+      "taxonomy",
+      "range",
+      "morphology",
+      "geochronology"
+    ],
+    "metadataAssignment": "curator-reviewed"
+  },
+  {
+    "id": "prasad-2005-grass-phytoliths",
+    "title": "Dinosaur coprolites and the early evolution of grasses and grazers",
+    "authors": "Prasad, V.; Strömberg, C.A.E.; Alimohammadian, H.; Sahni, A.",
+    "publishedYear": 2005,
+    "type": "paper",
+    "url": "https://doi.org/10.1126/science.1118806",
+    "doi": "10.1126/science.1118806",
+    "publisher": "Science",
+    "pages": "310:1177–1180",
+    "note": "Reports diagnostic grass phytolith morphotypes from latest-Cretaceous Lameta Formation dinosaur coprolites; affinity and depositional age remain the limiting evidence.",
+    "sourceRole": "primary-study",
+    "fitnessFor": [
+      "taxonomy",
+      "range",
+      "morphology",
+      "ecology",
+      "geochronology"
+    ],
+    "metadataAssignment": "curator-reviewed"
+  },
+  {
+    "id": "lyson-2019-corral-bluffs-recovery",
+    "title": "Exceptional continental record of biotic recovery after the Cretaceous–Paleogene mass extinction",
+    "authors": "Lyson, T.R.; Miller, I.M.; Bercovici, A.D.; Weissenburger, K.; Fuentes, A.J.; Clyde, W.C.; Hagadorn, J.W.; Butrim, M.J.; Johnson, K.R.; Fleming, R.F.; et al.",
+    "publishedYear": 2019,
+    "type": "paper",
+    "url": "https://doi.org/10.1126/science.aay2268",
+    "doi": "10.1126/science.aay2268",
+    "publisher": "Science",
+    "pages": "366:977–983",
+    "note": "Corral Bluffs stratigraphic synthesis includes a 65.35 Ma fossil fruit and leaflets assigned to Leguminosae in Figure 3J–K.",
+    "sourceRole": "primary-study",
+    "fitnessFor": [
+      "taxonomy",
+      "range",
+      "morphology",
+      "ecology",
+      "geochronology"
+    ],
+    "metadataAssignment": "curator-reviewed"
+  },
+  {
+    "id": "koenen-2021-legume-origin",
+    "title": "The origin of the legumes is a complex paleopolyploid phylogenomic tangle closely associated with the Cretaceous–Paleogene (K–Pg) mass extinction event",
+    "authors": "Koenen, E.J.M.; Ojeda, D.I.; Bakker, F.T.; Wieringa, J.J.; Kidner, C.; Hardy, O.J.; Pennington, R.T.; Herendeen, P.S.; Bruneau, A.; Hughes, C.E.",
+    "publishedYear": 2021,
+    "type": "paper",
+    "url": "https://doi.org/10.1093/sysbio/syaa041",
+    "doi": "10.1093/sysbio/syaa041",
+    "publisher": "Systematic Biology",
+    "pages": "70:508–526",
+    "note": "Phylogenomic analysis explicitly identifies the 65.35 Ma Corral Bluffs material as the oldest unequivocal legume fossil while keeping divergence estimates model-dependent.",
+    "sourceRole": "primary-study",
+    "fitnessFor": [
+      "taxonomy",
+      "topology",
+      "range",
+      "geochronology",
+      "methods"
+    ],
+    "metadataAssignment": "curator-reviewed"
+  },
+  {
+    "id": "van-roy-2025-fezouata-eurypterids",
+    "title": "Early Ordovician sea scorpions from Morocco suggest Cambrian origins and main diversification of Eurypterida",
+    "authors": "Van Roy, P.; Richards, M.A.; Ortega-Hernández, J.",
+    "publishedYear": 2025,
+    "type": "paper",
+    "url": "https://doi.org/10.1098/rspb.2025.2061",
+    "doi": "10.1098/rspb.2025.2061",
+    "publisher": "Proceedings of the Royal Society B",
+    "pages": "292:20252061",
+    "sourceRole": "primary-study",
+    "fitnessFor": [
+      "taxonomy",
+      "range",
+      "morphology",
+      "topology",
+      "geochronology"
+    ],
+    "metadataAssignment": "curator-reviewed",
+    "note": "Primary description of unequivocal upper Tremadocian Fezouata eurypterids; the approximately 479 Ma occurrence is a fossil-record bound, not a lineage origin date."
+  },
+  {
+    "id": "tetlie-2007-eurypterid-history",
+    "title": "Distribution and dispersal history of Eurypterida (Chelicerata)",
+    "authors": "Tetlie, O.E.",
+    "publishedYear": 2007,
+    "type": "paper",
+    "url": "https://doi.org/10.1016/j.palaeo.2007.05.011",
+    "doi": "10.1016/j.palaeo.2007.05.011",
+    "publisher": "Palaeogeography, Palaeoclimatology, Palaeoecology",
+    "pages": "252:557–574",
+    "sourceRole": "systematic-review",
+    "fitnessFor": [
+      "taxonomy",
+      "range",
+      "biogeography"
+    ],
+    "metadataAssignment": "curator-reviewed",
+    "note": "Systematic distribution review records a Late Permian Russian occurrence at approximately 250 Ma while noting incomplete taxonomy and sampling."
+  },
+  {
+    "id": "sutherland-2025-odonatoptera-classification",
+    "title": "Zygoptera systematics: past, present, and future",
+    "authors": "Sutherland, K.K.; Carter, B.E.; Abbott, J.C.; et al.",
+    "publishedYear": 2025,
+    "type": "paper",
+    "url": "https://doi.org/10.1093/isd/ixaf013",
+    "doi": "10.1093/isd/ixaf013",
+    "publisher": "Insect Systematics and Diversity",
+    "pages": "9(4):5",
+    "sourceRole": "systematic-review",
+    "fitnessFor": [
+      "taxonomy",
+      "range",
+      "topology"
+    ],
+    "metadataAssignment": "curator-reviewed",
+    "note": "Systematic review distinguishes the oldest Serpukhovian Odonatoptera record from the later appearance of modern Odonata."
+  },
+  {
+    "id": "bybee-2016-odonata-fossil-record",
+    "title": "Odonata (dragonflies and damselflies) as a bridge between ecology and evolutionary genomics",
+    "authors": "Bybee, S.; Córdoba-Aguilar, A.; Duryea, M.C.; et al.",
+    "publishedYear": 2016,
+    "type": "paper",
+    "url": "https://doi.org/10.1186/s12983-016-0176-7",
+    "doi": "10.1186/s12983-016-0176-7",
+    "publisher": "Frontiers in Zoology",
+    "pages": "13:46",
+    "sourceRole": "systematic-review",
+    "fitnessFor": [
+      "taxonomy",
+      "range",
+      "topology",
+      "ecology"
+    ],
+    "metadataAssignment": "curator-reviewed",
+    "note": "Review identifies Saxonagrion minutus at approximately 268 Ma as the earliest modern odonate; this is a fossil minimum rather than an origin estimate."
+  },
+  {
+    "id": "ellers-2024-meganisoptera-flight",
+    "title": "Induced Power Scaling Alone Cannot Explain Griffenfly Gigantism",
+    "authors": "Ellers, O.; Gordon, B.; Hukill, A.; et al.",
+    "publishedYear": 2024,
+    "type": "paper",
+    "url": "https://doi.org/10.1093/icb/icae046",
+    "doi": "10.1093/icb/icae046",
+    "publisher": "Integrative and Comparative Biology",
+    "pages": "64(2):598–610",
+    "sourceRole": "primary-study",
+    "fitnessFor": [
+      "range",
+      "morphology",
+      "ecology"
+    ],
+    "metadataAssignment": "curator-reviewed",
+    "note": "Functional study summarizes the reviewed first Namurian B record and persistence through at least the end of the Middle Permian; it does not supply an exact extinction date."
+  },
+  {
+    "id": "nel-2009-meganeuridae-revision",
+    "title": "Revision of Permo-Carboniferous griffenflies based upon new species and redescription of selected poorly known taxa from Eurasia",
+    "authors": "Nel, A.; Fleck, G.; Garrouste, R.; et al.",
+    "publishedYear": 2009,
+    "type": "paper",
+    "url": "https://doi.org/10.1127/pala/289/2009/89",
+    "doi": "10.1127/pala/289/2009/89",
+    "publisher": "Palaeontographica Abteilung A",
+    "pages": "289:89–121",
+    "sourceRole": "primary-study",
+    "fitnessFor": [
+      "taxonomy",
+      "morphology",
+      "range"
+    ],
+    "metadataAssignment": "curator-reviewed",
+    "note": "Systematic redescription of selected griffenfly material; it does not establish exact genus-wide temporal endpoints for Meganeura."
+  },
+  {
+    "id": "zhao-2021-beetle-evolution",
+    "title": "Early evolution of beetles regulated by the end-Permian deforestation",
+    "authors": "Zhao, X.; Yu, Y.; Clapham, M.E.; et al.",
+    "publishedYear": 2021,
+    "type": "paper",
+    "url": "https://doi.org/10.7554/eLife.72692",
+    "doi": "10.7554/eLife.72692",
+    "publisher": "eLife",
+    "pages": "10:e72692",
+    "sourceRole": "primary-study",
+    "fitnessFor": [
+      "taxonomy",
+      "range",
+      "ecology",
+      "methods"
+    ],
+    "metadataAssignment": "curator-reviewed",
+    "note": "Integrated fossil dataset identifies Early Permian Tshekardocoleidae as the earliest definite beetles and uses a standardized Asselian bin beginning at 298 Ma."
+  },
+  {
+    "id": "zhang-2025-hymenoptera-divergence-dating",
+    "title": "Evolving perspectives in Hymenoptera systematics: Bridging fossils and genomes across time",
+    "authors": "Zhang, Y.M.; Bossert, S.; Spasojevic, T.",
+    "publishedYear": 2025,
+    "type": "paper",
+    "url": "https://doi.org/10.1111/syen.12645",
+    "doi": "10.1111/syen.12645",
+    "publisher": "Systematic Entomology",
+    "pages": "50(1):1–31",
+    "sourceRole": "systematic-review",
+    "fitnessFor": [
+      "taxonomy",
+      "range",
+      "topology",
+      "geochronology",
+      "methods"
+    ],
+    "metadataAssignment": "curator-reviewed",
+    "note": "Systematic review treats the approximately 242–237 Ma xyelid record as the oldest undisputed hymenopteran fossil minimum, not an order-origin date."
+  },
+  {
+    "id": "siveter-2014-luprisca-ostracod",
+    "title": "Exceptionally Preserved 450-Million-Year-Old Ordovician Ostracods with Brood Care",
+    "authors": "Siveter, D.J.; Tanaka, G.; Farrell, Ú.C.; et al.",
+    "publishedYear": 2014,
+    "type": "paper",
+    "url": "https://doi.org/10.1016/j.cub.2014.02.040",
+    "doi": "10.1016/j.cub.2014.02.040",
+    "publisher": "Current Biology",
+    "pages": "24:801–806",
+    "sourceRole": "primary-study",
+    "fitnessFor": [
+      "taxonomy",
+      "range",
+      "morphology",
+      "ecology"
+    ],
+    "metadataAssignment": "curator-reviewed",
+    "note": "Primary description identifies Luprisca as the first unequivocal pre-Silurian ostracod record and cautions against older shell-only assignments."
+  },
+  {
+    "id": "collette-hagadorn-2010-archaeostraca",
+    "title": "Early Evolution of Phyllocarid Arthropods: Phylogeny and Systematics of Cambrian-Devonian Archaeostracans",
+    "authors": "Collette, J.H.; Hagadorn, J.W.",
+    "publishedYear": 2010,
+    "type": "paper",
+    "url": "https://doi.org/10.1666/09-092.1",
+    "doi": "10.1666/09-092.1",
+    "publisher": "Journal of Paleontology",
+    "pages": "84(5):795–820",
+    "sourceRole": "primary-study",
+    "fitnessFor": [
+      "taxonomy",
+      "range",
+      "topology"
+    ],
+    "metadataAssignment": "curator-reviewed",
+    "note": "Phylogenetic and systematic treatment supporting a middle–late Cambrian phyllocarid record."
+  },
+  {
+    "id": "van-der-wal-2017-malacostracan-calibrations",
+    "title": "The evolutionary history of Stomatopoda inferred from molecular data",
+    "authors": "Van Der Wal, C.; Ahyong, S.T.; Ho, S.Y.W.; Lo, N.",
+    "publishedYear": 2017,
+    "type": "paper",
+    "url": "https://doi.org/10.7717/peerj.3844",
+    "doi": "10.7717/peerj.3844",
+    "publisher": "PeerJ",
+    "pages": "5:e3844",
+    "sourceRole": "primary-study",
+    "fitnessFor": [
+      "range",
+      "topology",
+      "geochronology",
+      "methods"
+    ],
+    "metadataAssignment": "curator-reviewed",
+    "note": "Fossil-calibration table treats phyllocarids as the oldest malacostracan record at at least 500 Ma; the value is not a crown-divergence date."
+  },
+  {
+    "id": "cadenas-amaya-2025-centipede-fossil-record",
+    "title": "The Global Fossil Record of Chilopoda",
+    "authors": "Cadenas-Amaya, O.; Riquelme, F.; Hernández-Patricio, M.; Cupul-Magaña, F.G.",
+    "publishedYear": 2025,
+    "type": "paper",
+    "url": "https://doi.org/10.3390/arthropoda4010001",
+    "doi": "10.3390/arthropoda4010001",
+    "publisher": "Arthropoda",
+    "pages": "4(1):1",
+    "sourceRole": "systematic-review",
+    "fitnessFor": [
+      "taxonomy",
+      "range",
+      "biogeography"
+    ],
+    "metadataAssignment": "curator-reviewed",
+    "note": "Global catalog identifies Upper Silurian Crussolum from Ludford Lane at approximately 418 Ma as the oldest chilopod record."
+  },
+  {
+    "id": "brookfield-2025-kampecaris-age",
+    "title": "Reconciling Divergent Ages for the Oldest Recorded Air-Breathing Land Animal",
+    "authors": "Brookfield, M.E.; Catlos, E.J.; Garza, H.",
+    "publishedYear": 2025,
+    "type": "paper",
+    "url": "https://doi.org/10.3390/fossils3020006",
+    "doi": "10.3390/fossils3020006",
+    "publisher": "Fossil Studies",
+    "pages": "3(2):6",
+    "sourceRole": "systematic-review",
+    "fitnessFor": [
+      "range",
+      "geochronology"
+    ],
+    "metadataAssignment": "curator-reviewed",
+    "note": "Geological age review dates Kampecaris obanensis to 425.5 ± 4.5 Ma; uncertainty remains separate from the display edge."
+  },
+  {
+    "id": "almond-lawson-1985-paleozoic-millipedes",
+    "title": "The Silurian-Devonian fossil record of the Myriapoda",
+    "authors": "Almond, J.E.; Lawson, J.D.",
+    "publishedYear": 1985,
+    "type": "paper",
+    "url": "https://doi.org/10.1098/rstb.1985.0082",
+    "doi": "10.1098/rstb.1985.0082",
+    "publisher": "Philosophical Transactions of the Royal Society B",
+    "pages": "309:227–237",
+    "sourceRole": "systematic-review",
+    "fitnessFor": [
+      "taxonomy",
+      "range"
+    ],
+    "metadataAssignment": "curator-reviewed",
+    "note": "Review regards pre-Pridoli records as questionable and recognizes reliable Diplopoda in the latest Silurian to Lower Devonian."
+  },
+  {
+    "id": "waloszek-dunlop-2002-cambropycnogon",
+    "title": "A Larval Sea Spider from the Upper Cambrian Orsten of Sweden, and the Phylogenetic Position of Pycnogonids",
+    "authors": "Waloszek, D.; Dunlop, J.A.",
+    "publishedYear": 2002,
+    "type": "paper",
+    "url": "https://doi.org/10.1111/1475-4983.00244",
+    "doi": "10.1111/1475-4983.00244",
+    "publisher": "Palaeontology",
+    "pages": "45(3):421–446",
+    "sourceRole": "primary-study",
+    "fitnessFor": [
+      "taxonomy",
+      "range",
+      "morphology",
+      "topology"
+    ],
+    "metadataAssignment": "curator-reviewed",
+    "note": "Primary study proposes Cambropycnogon as the oldest pycnogonid/chelicerate record; subsequent review leaves its assignment uncertain."
+  },
+  {
+    "id": "sabroux-2024-pycnogonid-fossils",
+    "title": "New insights into the Devonian sea spiders of the Hunsrück Slate",
+    "authors": "Sabroux, R.; Garwood, R.J.; Pisani, D.; Donoghue, P.C.J.; Edgecombe, G.D.",
+    "publishedYear": 2024,
+    "type": "paper",
+    "url": "https://doi.org/10.7717/peerj.17766",
+    "doi": "10.7717/peerj.17766",
+    "publisher": "PeerJ",
+    "pages": "12:e17766",
+    "sourceRole": "primary-study",
+    "fitnessFor": [
+      "taxonomy",
+      "range",
+      "morphology",
+      "topology"
+    ],
+    "metadataAssignment": "curator-reviewed",
+    "note": "Table 1 classifies Cambropycnogon only as possibly Pycnogonida, requiring a contested total-group interpretation."
+  },
+  {
+    "id": "selden-penney-2010-spider-fossil-record",
+    "title": "Fossil spiders",
+    "authors": "Selden, P.A.; Penney, D.",
+    "publishedYear": 2010,
+    "type": "paper",
+    "url": "https://doi.org/10.1111/j.1469-185X.2009.00099.x",
+    "doi": "10.1111/j.1469-185X.2009.00099.x",
+    "publisher": "Biological Reviews",
+    "pages": "85(1):171–206",
+    "sourceRole": "systematic-review",
+    "fitnessFor": [
+      "taxonomy",
+      "range",
+      "morphology",
+      "biogeography"
+    ],
+    "metadataAssignment": "curator-reviewed",
+    "note": "Systematic fossil-record review supports the Carboniferous spider record while retaining taxonomic and sampling limits."
+  },
+  {
+    "id": "garwood-2016-idmonarachne",
+    "title": "Almost a spider: a 305-million-year-old fossil arachnid and spider origins",
+    "authors": "Garwood, R.J.; Dunlop, J.A.; Selden, P.A.; et al.",
+    "publishedYear": 2016,
+    "type": "paper",
+    "url": "https://doi.org/10.1098/rspb.2016.0125",
+    "doi": "10.1098/rspb.2016.0125",
+    "publisher": "Proceedings of the Royal Society B",
+    "pages": "283:20160125",
+    "sourceRole": "primary-study",
+    "fitnessFor": [
+      "taxonomy",
+      "range",
+      "morphology",
+      "topology"
+    ],
+    "metadataAssignment": "curator-reviewed",
+    "note": "Study distinguishes the 305 Ma stem-like Idmonarachne from true spiders and traces Araneae to approximately 315 Ma."
+  },
+  {
+    "id": "sidorchuk-2018-acari-fossil-record",
+    "title": "Mites as fossils: forever small?",
+    "authors": "Sidorchuk, E.A.",
+    "publishedYear": 2018,
+    "type": "paper",
+    "url": "https://doi.org/10.1080/01647954.2018.1497085",
+    "doi": "10.1080/01647954.2018.1497085",
+    "publisher": "International Journal of Acarology",
+    "pages": "44(8):349–359",
+    "sourceRole": "systematic-review",
+    "fitnessFor": [
+      "taxonomy",
+      "range",
+      "morphology"
+    ],
+    "metadataAssignment": "curator-reviewed",
+    "note": "Review catalogs more than 260 mite fossils from approximately 410 Ma onward and rejects unsupported Ordovician and Permian assignments."
   }
 ]

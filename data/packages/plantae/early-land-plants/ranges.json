@@ -99,31 +99,29 @@
     "id": "range:lepidodendron:global",
     "entityId": "lepidodendron",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Lepidodendrales",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 359,
-    "youngerMa": 299,
-    "status": "available",
+    "taxonomicConcept": "Lepidodendron / Lepidodendrales navigation concept temporal range",
+    "geographicScope": "Interval pending resolution of genus-versus-order concept and range evidence",
+    "olderMa": 0,
+    "youngerMa": 0,
+    "status": "withheld-pending-provenance",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "note": "The entity ID names a genus while the navigation scientific name and cited matrix concern broader arborescent lycopsids; endpoints cannot be assigned without concept reconciliation."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
-    "confidence": "medium",
-    "claimIds": [],
+    "evidenceBasis": "The former 359–299 Ma display is withheld because the sampled Carboniferous matrix does not define a global range for a stable Lepidodendron concept.",
+    "confidence": "low",
+    "claimIds": [
+      "claim:taxon:lepidodendron:range-boundary-rc50"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
-      },
-      {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "bateman-1992-arborescent-lycopsids",
+        "locator": "500–559; cladistic matrix, sampled arborescent lycopsids and strict-consensus trees"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "withheld-no-range-evidence"
   },
   {
     "id": "range:pteridophyta:global",
@@ -157,61 +155,65 @@
     "id": "range:equisetopsida:global",
     "entityId": "equisetopsida",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Equisetopsida",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 375,
+    "taxonomicConcept": "Sphenopsida / Equisetopsida Devonian-to-living navigation lineage",
+    "geographicScope": "Famennian sphenopsid record through living Equisetum",
+    "olderMa": 372.2,
     "youngerMa": 0,
     "status": "available",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "note": "The display follows the broad Sphenopsida concept used in the source, not crown Equisetum; 372.2 Ma is a named-interval conversion rather than a specimen-level date."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "evidenceBasis": "Elgorriaga et al. synthesize a Devonian sphenopsid fossil history and sample fossil and living horsetails; ICS supplies the Famennian numerical boundary.",
     "confidence": "medium",
-    "claimIds": [],
+    "claimIds": [
+      "claim:taxon:equisetopsida:range-boundary-rc50"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
+        "referenceId": "elgorriaga-2018-horsetails",
+        "locator": "1286–1303; premise; Table 1; Figure 3; Devonian Sphenopsida record and fossil-inclusive matrix"
       },
       {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "ics-2026-06",
+        "locator": "International Chronostratigraphic Chart v2026/06; Famennian boundary"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "literature-synthesized"
   },
   {
     "id": "range:filicopsida:global",
     "entityId": "filicopsida",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Filicopsida",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 360,
+    "taxonomicConcept": "Filicopsida / true-fern temporal range",
+    "geographicScope": "Interval pending reconciliation of historical class and crown/total-group concepts",
+    "olderMa": 0,
     "youngerMa": 0,
-    "status": "available",
+    "status": "withheld-pending-provenance",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "note": "Extant-heavy topology and uncertain Devonian fern assignments do not support a single 360 Ma-to-present interval for the historical class concept."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
-    "confidence": "medium",
-    "claimIds": [],
+    "evidenceBasis": "The former 360–0 Ma display is withheld because the systematic review distinguishes questionable Devonian fern-like plants from firmer Lower Carboniferous filicalean evidence.",
+    "confidence": "low",
+    "claimIds": [
+      "claim:taxon:filicopsida:range-boundary-rc50"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
+        "referenceId": "lehtonen-2011-fern-tree",
+        "locator": "Article e24851; Methods; Figures 1–3; extant-heavy fern topology"
       },
       {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "galtier-scott-1985-early-ferns",
+        "locator": "289–301; Synopsis and opening discussion; uncertain Devonian assignments versus Lower Carboniferous Filicales"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "withheld-no-range-evidence"
   },
   {
     "id": "range:marchantiophyta:global",
@@ -253,30 +255,28 @@
     "id": "range:anthocerotophyta:global",
     "entityId": "anthocerotophyta",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Anthocerotophyta",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 470,
+    "taxonomicConcept": "Anthocerotophyta temporal range",
+    "geographicScope": "Temporal interval pending fossil or calibrated phylum evidence",
+    "olderMa": 0,
     "youngerMa": 0,
-    "status": "available",
+    "status": "withheld-pending-provenance",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "note": "Two living hornwort genomes and comparative analyses do not establish a 470 Ma fossil boundary."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
-    "confidence": "medium",
-    "claimIds": [],
+    "evidenceBasis": "The former 470–0 Ma display is withheld rather than converting extant genome sampling into a phylum first appearance.",
+    "confidence": "low",
+    "claimIds": [
+      "claim:taxon:anthocerotophyta:range-boundary-rc50"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
-      },
-      {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "li-2020-hornwort-genomes",
+        "locator": "259–272; Figures 1–5; two hornwort genomes, phylogenomics and comparative genomics"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "withheld-no-range-evidence"
   }
 ]

@@ -70,6 +70,10 @@ export function getMediaForTaxon(taxonId: string): MediaAsset[] {
   return mediaAssets.filter((asset) => asset.taxonId === taxonId)
 }
 
+export function hasPublishedRange(profile: TaxonProfile): boolean {
+  return profile.rangeEvidenceLevel !== 'withheld-no-range-evidence'
+}
+
 function flattenTree(node: TreeNode, output: TreeNode[] = []): TreeNode[] {
   output.push(node)
   for (const child of node.children ?? []) flattenTree(child, output)
@@ -150,8 +154,8 @@ export function searchCatalog(rawQuery: string, limit = 16): SearchResult[] {
       kind: 'taxon',
       title: `${profile.commonName} · ${profile.scientificName}`,
       titleZh: `${profile.commonNameZh} · ${profile.scientificName}`,
-      subtitle: `${profile.rank} · ${profile.firstAppearance}–${profile.lastAppearance || 'Present'} Ma`,
-      subtitleZh: `${profile.rank} · ${profile.firstAppearance}–${profile.lastAppearance || '现今'} Ma`,
+      subtitle: `${profile.rank} · ${hasPublishedRange(profile) ? `${profile.firstAppearance}–${profile.lastAppearance || 'Present'} Ma` : 'Range unavailable'}`,
+      subtitleZh: `${profile.rank} · ${hasPublishedRange(profile) ? `${profile.firstAppearance}–${profile.lastAppearance || '现今'} Ma` : '区间暂无可发布证据'}`,
       keywords,
       route: `#/taxa?id=${profile.id}`,
       scientificMaturity: publication?.scientificMaturity,

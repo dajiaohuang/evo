@@ -1,5 +1,23 @@
 [
   {
+    "id": "ics-2026-06",
+    "title": "International Chronostratigraphic Chart v2026/06",
+    "authors": "Cohen, K.M.; Harper, D.A.T.; Gibbard, P.L.; Car, N.",
+    "publishedYear": 2026,
+    "type": "standard",
+    "url": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+    "doi": "10.18814/epiiugs/2025/025001",
+    "version": "2026/06",
+    "publisher": "International Commission on Stratigraphy",
+    "note": "Numerical ages are revision-prone; the atlas stores the exact chart version.",
+    "sourceRole": "standard",
+    "fitnessFor": [
+      "geochronology",
+      "range"
+    ],
+    "metadataAssignment": "automated"
+  },
+  {
     "id": "pbdb-api-2016",
     "title": "The Paleobiology Database application programming interface",
     "authors": "Peters, S.E.; McClennen, M.",
@@ -119,11 +137,12 @@
     "doi": "10.1111/j.1475-4983.2011.01056.x",
     "publisher": "Palaeontology",
     "pages": "54:825–850",
-    "note": "New Pojetaia and Fordilla shell sections document laminar inner fabrics interpreted as foliated aragonite rather than undisputed Cambrian nacre.",
+    "note": "New Pojetaia and Fordilla shell sections document laminar inner fabrics; the material and plate captions identify probably Botomian and lowermost Botomian sampled units, with the qualified correlation retained.",
     "fitnessFor": [
       "morphology",
       "event-mechanism",
-      "taxonomy"
+      "taxonomy",
+      "range"
     ],
     "type": "paper",
     "url": "https://doi.org/10.1111/j.1475-4983.2011.01056.x",
@@ -217,11 +236,12 @@
     "doi": "10.1038/nature14668",
     "publisher": "Nature",
     "pages": "524:220–224",
-    "note": "A male Octopus bimaculoides genome plus twelve tissue transcriptomes test gene-family expansion and genome rearrangement without supporting a cephalopod whole-genome duplication.",
+    "note": "A living male Octopus bimaculoides genome plus twelve tissue transcriptomes test gene-family expansion and genome rearrangement; the methods directly support living-sample status, not species origin.",
     "fitnessFor": [
       "event-mechanism",
       "topology",
-      "methods"
+      "methods",
+      "range"
     ],
     "type": "paper",
     "url": "https://doi.org/10.1038/nature14668",
@@ -275,11 +295,12 @@
     "doi": "10.1038/ncomms9301",
     "publisher": "Nature Communications",
     "pages": "6:8301",
-    "note": "A 425-Mb Lingula anatina genome, developmental and adult transcriptomes, and shell proteome test lophotrochozoan relationships and lineage-specific phosphate biomineralization.",
+    "note": "A 425-Mb Lingula anatina genome, transcriptomes and shell proteome from living gravid adults collected at Kasari Bay; the collection supports present-day sample status, not lineage origin.",
     "fitnessFor": [
       "topology",
       "event-mechanism",
-      "methods"
+      "methods",
+      "range"
     ],
     "type": "paper",
     "url": "https://doi.org/10.1038/ncomms9301",
@@ -294,11 +315,12 @@
     "doi": "10.1038/srep04682",
     "publisher": "Scientific Reports",
     "pages": "4:4682",
-    "note": "Yuganotheca elegans combines paired agglutinated valves, a horseshoe-shaped lophophore, a bipartite tube and a long pedicle; its exact position relative to phoronids and brachiopods remains interpretive.",
+    "note": "Seven hundred ten Yuganotheca specimens from the Yu’anshan Member combine paired valves, lophophore, tube and pedicle; the formal locality section assigns the sample to late Atdabanian/Botoman Cambrian Stage 3.",
     "fitnessFor": [
       "morphology",
       "topology",
-      "taxonomy"
+      "taxonomy",
+      "range"
     ],
     "type": "paper",
     "url": "https://doi.org/10.1038/srep04682",
@@ -358,11 +380,12 @@
     "doi": "10.5962/p.215817",
     "publisher": "Annals of the Carnegie Museum",
     "pages": "63:327–374",
-    "note": "Order-level systematic revision based on shell characters; classification does not set a global origin, extinction, or direct ancestor.",
+    "note": "Order-level systematic revision based on shell characters; p. 329 explicitly states an Upper Ordovician–Upper Permian stratigraphic range, while classification does not establish direct ancestry or continuous occupancy.",
     "sourceRole": "systematic-review",
     "fitnessFor": [
       "taxonomy",
-      "morphology"
+      "morphology",
+      "range"
     ],
     "metadataAssignment": "curator-reviewed"
   },
@@ -509,12 +532,13 @@
     "doi": "10.1666/0022-3360(2005)079<0356:TLAFGT>2.0.CO;2",
     "publisher": "Journal of Paleontology",
     "pages": "79:356–365",
-    "note": "Family-level Mississippian material and biogeographic synthesis within Goniatitida; it cannot define the whole order's endpoints.",
+    "note": "Family-level early Late Viséan material and biogeographic synthesis within Goniatitida; it supports that regional study window but cannot define the whole order’s endpoints.",
     "sourceRole": "primary-study",
     "fitnessFor": [
       "taxonomy",
       "morphology",
-      "biogeography"
+      "biogeography",
+      "range"
     ],
     "metadataAssignment": "curator-reviewed"
   },
@@ -528,12 +552,13 @@
     "doi": "10.2517/prpsj.5.201",
     "publisher": "Paleontological Research",
     "pages": "5:201–213",
-    "note": "Comparative internal-shell analysis infers ceratitid relationships; inferred origin is not an observed ancestor or a complete global record.",
+    "note": "Comparative internal-shell analysis infers ceratitid relationships and explicitly states an Early Permian–end-Triassic order range; inferred ancestry and continuous occupancy remain unclaimed.",
     "sourceRole": "primary-study",
     "fitnessFor": [
       "taxonomy",
       "topology",
-      "morphology"
+      "morphology",
+      "range"
     ],
     "metadataAssignment": "curator-reviewed"
   },
@@ -547,12 +572,13 @@
     "doi": "10.1111/cla.12151",
     "publisher": "Cladistics",
     "pages": "33:21–40",
-    "note": "Integrated conch-character matrix for one ammonitid family; its topology is a local test rather than the order's complete history.",
+    "note": "Integrated conch-character matrix for 105 Early Jurassic Hildoceratidae taxa; it supports that family study window rather than the order’s complete history.",
     "sourceRole": "primary-study",
     "fitnessFor": [
       "taxonomy",
       "topology",
-      "morphology"
+      "morphology",
+      "range"
     ],
     "metadataAssignment": "curator-reviewed"
   },
@@ -585,12 +611,13 @@
     "doi": "10.26879/1239",
     "publisher": "Palaeontologia Electronica",
     "pages": "26:a13",
-    "note": "Tip-dated morphological analysis of sampled belemnites; topology and node ages remain model- and character-dependent.",
+    "note": "Tip-dated morphological analysis of 24 sampled belemnites with published first/last occurrence inputs and a 253.1 Ma origin offset; topology and node ages remain model- and calibration-dependent.",
     "sourceRole": "primary-study",
     "fitnessFor": [
       "taxonomy",
       "topology",
-      "geochronology"
+      "geochronology",
+      "range"
     ],
     "metadataAssignment": "curator-reviewed"
   },

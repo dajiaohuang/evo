@@ -31,221 +31,173 @@
     "id": "range:brontotheriidae:global",
     "entityId": "brontotheriidae",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Brontotheriidae",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 53,
-    "youngerMa": 34,
-    "status": "available",
+    "taxonomicConcept": "Brontotheriidae numerical range withheld pending a direct family-wide range synthesis",
+    "geographicScope": "No defensible global numerical scope established",
+    "olderMa": 0,
+    "youngerMa": 0,
+    "status": "withheld-pending-provenance",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "note": "The monograph supports Eocene diversity but does not establish the former exact global endpoints."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
-    "confidence": "medium",
-    "claimIds": [
-      "claim:taxon:brontotheriidae",
-      "claim:taxon:brontotheriidae:fossil-range"
-    ],
+    "evidenceBasis": "The former 53–34 Ma display is withheld because the species-level monograph documents Eocene records and biogeography without auditing those numbers as exact family-wide first and last appearances.",
+    "confidence": "low",
+    "claimIds": [],
     "referenceLocators": [
       {
-        "referenceId": "amnh-brontotheres",
-        "locator": "https://research.amnh.org/paleontology/perissodactyl/evolution/groups/brontotheriidae"
-      },
-      {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
-      },
-      {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
+        "referenceId": "mihlbachler-2008-brontotheriidae",
+        "locator": "pp. 1–3 and 409–454; species-level phylogeny and biogeography synthesis; Eocene family record without exact global endpoints"
       }
     ],
     "reviewStatus": "automated-audit-passed",
-    "evidenceLevel": "legacy-display"
+    "evidenceLevel": "withheld-no-range-evidence"
   },
   {
     "id": "range:hippomorpha:global",
     "entityId": "hippomorpha",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Hippomorpha",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 56,
+    "taxonomicConcept": "Hippomorpha numerical range withheld because the cited phylogeny samples extant taxa only",
+    "geographicScope": "No defensible global numerical scope established",
+    "olderMa": 0,
     "youngerMa": 0,
-    "status": "available",
+    "status": "withheld-pending-provenance",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "note": "The extant-species supertree and supermatrix cannot establish a total-group fossil range."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
-    "confidence": "medium",
+    "evidenceBasis": "The former 56–0 Ma display is withheld because the cited comprehensive analysis is restricted to living perissodactyl species and does not audit fossil total-group endpoints.",
+    "confidence": "low",
     "claimIds": [],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
-      },
-      {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "price-2009-perissodactyl-phylogeny",
+        "locator": "pp. 277–292; Abstract and Figures 1–3; extant-species supertree and supermatrix scope"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "withheld-no-range-evidence"
   },
   {
     "id": "range:palaeotherium:global",
     "entityId": "palaeotherium",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Palaeotherium",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 47.8,
-    "youngerMa": 33.9,
-    "status": "available",
+    "taxonomicConcept": "Palaeotherium numerical range withheld pending a genus-wide global synthesis",
+    "geographicScope": "No defensible global numerical scope established",
+    "olderMa": 0,
+    "youngerMa": 0,
+    "status": "withheld-pending-provenance",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "note": "The sources cover a La Débruge sample and Hampshire regional turnover, not global genus endpoints."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
-    "confidence": "medium",
-    "claimIds": [
-      "claim:taxon:palaeotherium"
-    ],
+    "evidenceBasis": "The former 47.8–33.9 Ma display is withheld because the literature directly supports only a late Eocene La Débruge sample and a regional Hampshire disappearance sequence.",
+    "confidence": "low",
+    "claimIds": [],
     "referenceLocators": [
       {
-        "referenceId": "amnh-perissodactyl-evolution",
-        "locator": "https://research.amnh.org/paleontology/perissodactyl/evolution/intro"
+        "referenceId": "joomun-2008-palaeotherium-diet",
+        "locator": "pp. 92–106; Figures 1–8; Tables 1–4; late Eocene La Débruge Palaeotherium medium sample"
       },
       {
         "referenceId": "hooker-2004-grande-coupure",
-        "locator": "doi:10.1111/j.1096-3642.2004.00104.x"
-      },
-      {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
-      },
-      {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
+        "locator": "doi:10.1144/0016-764903-091; pp. 161–172; Figures 2–4; Hampshire Basin regional mammal range chart"
       }
     ],
     "reviewStatus": "automated-audit-passed",
-    "evidenceLevel": "legacy-display"
+    "evidenceLevel": "withheld-no-range-evidence"
   },
   {
     "id": "range:equidae:global",
     "entityId": "equidae",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Equidae",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 56,
+    "taxonomicConcept": "Equidae numerical range withheld because the cited comprehensive phylogeny samples living species",
+    "geographicScope": "No defensible global numerical scope established",
+    "olderMa": 0,
     "youngerMa": 0,
-    "status": "available",
+    "status": "withheld-pending-provenance",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "note": "The extant Equidae topology does not establish a complete family fossil range."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
-    "confidence": "medium",
+    "evidenceBasis": "The former 56–0 Ma display is withheld because the cited phylogeny resolves living Equidae and cannot directly validate a family-wide fossil first appearance.",
+    "confidence": "low",
     "claimIds": [],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
-      },
-      {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "price-2009-perissodactyl-phylogeny",
+        "locator": "pp. 277–292; Equidae results and discussion within the extant-species supertree and supermatrix"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "withheld-no-range-evidence"
   },
   {
     "id": "range:anchitherium:global",
     "entityId": "anchitherium",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Anchitherium",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 20.4,
-    "youngerMa": 9,
-    "status": "available",
+    "taxonomicConcept": "Anchitherium numerical range withheld pending genus-wide global synthesis",
+    "geographicScope": "No defensible global numerical scope established",
+    "olderMa": 0,
+    "youngerMa": 0,
+    "status": "withheld-pending-provenance",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "note": "The source covers a European MN3–MN9 context and Sandelzhausen sample, not global endpoints."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
-    "confidence": "medium",
-    "claimIds": [
-      "claim:taxon:anchitherium",
-      "claim:taxon:anchitherium:fossil-range"
-    ],
+    "evidenceBasis": "The former 20.4–9 Ma display is withheld because the primary study directly supports European MN3–MN9 context and one Sandelzhausen species sample, not exact global genus endpoints.",
+    "confidence": "low",
+    "claimIds": [],
     "referenceLocators": [
       {
-        "referenceId": "amnh-equidae",
-        "locator": "https://research.amnh.org/paleontology/perissodactyl/evolution/groups/equidae"
-      },
-      {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
-      },
-      {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
+        "referenceId": "kaiser-2009-anchitherium-diet",
+        "locator": "pp. 131–140; Figures 1–3; Table 1; European MN3–MN9 context and Sandelzhausen A. aurelianense sample"
       }
     ],
     "reviewStatus": "automated-audit-passed",
-    "evidenceLevel": "legacy-display"
+    "evidenceLevel": "withheld-no-range-evidence"
   },
   {
     "id": "range:hipparionini:global",
     "entityId": "hipparionini",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Hipparionini",
-    "geographicScope": "Global or represented navigation composite",
+    "taxonomicConcept": "Hipparionini heterogeneous North American and Old World navigation composite",
+    "geographicScope": "North American review matrix and selected Old World regional records",
     "olderMa": 17,
     "youngerMa": 0.6,
     "status": "available",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "note": "The bounds combine distinct regional syntheses and are not a single global lineage duration or exact FAD/LAD."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
-    "confidence": "medium",
+    "evidenceBasis": "The display combines an approximately 17 Ma North American review-matrix edge with selected Old World regional records extending to approximately 0.6 Ma; its component records remain separately represented below.",
+    "confidence": "contested",
     "claimIds": [
-      "claim:taxon:hipparionini"
+      "claim:taxon:hipparionini:fossil-range"
     ],
     "referenceLocators": [
       {
         "referenceId": "mc-horse-monodactyly-2019",
-        "locator": "doi:10.3389/fevo.2019.00119"
+        "locator": "pp. 1–5 and 10–15; Figures 1–4, especially Figure 3; North American review-matrix record from approximately 17 Ma into the Plio-Pleistocene"
       },
       {
         "referenceId": "bernor-2021-hipparions",
-        "locator": "doi:10.1016/j.earscirev.2021.103784"
-      },
-      {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
-      },
-      {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
+        "locator": "pp. 1–20; Figures 1–13; Old World first dispersal at 11.4–11 Ma and selected MQ1 regional records extending to 0.6 Ma"
       }
     ],
     "reviewStatus": "automated-audit-passed",
-    "evidenceLevel": "legacy-display"
+    "evidenceLevel": "literature-synthesized"
   },
   {
     "id": "range:hipparionini:north-american-tribe-level-range",
     "entityId": "hipparionini",
     "rangeKind": "taxon-range",
-    "taxonomicConcept": "Hipparionini",
+    "taxonomicConcept": "Hipparionini North American review-matrix navigation envelope",
     "geographicScope": "North America",
     "olderMa": 17,
     "youngerMa": 2,
@@ -253,27 +205,27 @@
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoint is review-pending."
+      "note": "Review-figure bounds are navigation markers, not exact tribal origination or extinction dates."
     },
-    "evidenceBasis": "The North American hipparionin radiation begins near 17 Ma and the classic four-genus synthesis extends to about 2 Ma; exact endpoints remain pending a revised genus-level synthesis.",
+    "evidenceBasis": "The North American review and its tribe-level figure place the represented hipparionin record from approximately 17 to 2 Ma; this remains a regional review-matrix envelope.",
     "confidence": "contested",
     "claimIds": [
-      "claim:taxon:hipparionini"
+      "claim:taxon:hipparionini:fossil-range"
     ],
     "referenceLocators": [
       {
         "referenceId": "mc-horse-monodactyly-2019",
-        "locator": "doi:10.3389/fevo.2019.00119"
+        "locator": "pp. 1–5 and 10–15; Figures 1–4, especially Figure 3; North American tribe-level review matrix at approximately 17–2 Ma"
       }
     ],
     "reviewStatus": "automated-audit-passed",
-    "evidenceLevel": "legacy-display"
+    "evidenceLevel": "literature-synthesized"
   },
   {
     "id": "range:hipparionini:old-world-first-dispersal",
     "entityId": "hipparionini",
     "rangeKind": "dispersal-window",
-    "taxonomicConcept": "Hipparionini",
+    "taxonomicConcept": "Hipparionini oldest well-supported Old World dispersal window",
     "geographicScope": "Eurasia",
     "olderMa": 11.4,
     "youngerMa": 11,
@@ -281,27 +233,27 @@
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Published regional synthesis; lineage-level endpoints may vary."
+      "note": "The interval is a Vienna Basin regional dispersal window, not a global lineage first appearance."
     },
     "evidenceBasis": "The oldest well-supported Old World dispersal window is represented by early Hippotherium records in the Vienna Basin.",
     "confidence": "medium",
     "claimIds": [
-      "claim:taxon:hipparionini"
+      "claim:taxon:hipparionini:fossil-range"
     ],
     "referenceLocators": [
       {
         "referenceId": "bernor-2021-hipparions",
-        "locator": "doi:10.1016/j.earscirev.2021.103784"
+        "locator": "Hippotherium systematic section and Figure 13; oldest Pannonian C Vienna Basin records at 11.4–11 Ma"
       }
     ],
     "reviewStatus": "automated-audit-passed",
-    "evidenceLevel": "legacy-display"
+    "evidenceLevel": "literature-synthesized"
   },
   {
     "id": "range:hipparionini:latest-old-world-regional-records",
     "entityId": "hipparionini",
     "rangeKind": "regional-last-appearance-window",
-    "taxonomicConcept": "Hipparionini",
+    "taxonomicConcept": "Hipparionini selected latest Old World regional-record window",
     "geographicScope": "East Asia and Africa",
     "olderMa": 1,
     "youngerMa": 0.6,
@@ -309,366 +261,294 @@
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Published regional synthesis; lineage-level endpoints may vary."
+      "note": "The interval combines selected Chinese and African terminal records and is not a global last appearance."
     },
     "evidenceBasis": "Terminal records vary by lineage and region; the review places the latest Chinese and African hipparionins around or below 1 Ma rather than at the Holocene boundary.",
     "confidence": "medium",
     "claimIds": [
-      "claim:taxon:hipparionini"
+      "claim:taxon:hipparionini:fossil-range"
     ],
     "referenceLocators": [
       {
         "referenceId": "bernor-2021-hipparions",
-        "locator": "doi:10.1016/j.earscirev.2021.103784"
+        "locator": "Figure 10 and MQ1 section; latest Chinese Proboscidipparion near 1 Ma, African Eurygnathohippus below 1 Ma and MQ1 extending to 0.6 Ma"
       }
     ],
     "reviewStatus": "automated-audit-passed",
-    "evidenceLevel": "legacy-display"
+    "evidenceLevel": "literature-synthesized"
   },
   {
     "id": "range:ancylopoda:global",
     "entityId": "ancylopoda",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Ancylopoda",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 52,
-    "youngerMa": 1.8,
-    "status": "available",
+    "taxonomicConcept": "Ancylopoda numerical range withheld pending direct range evidence",
+    "geographicScope": "No defensible global numerical scope established",
+    "olderMa": 0,
+    "youngerMa": 0,
+    "status": "withheld-pending-provenance",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "note": "The cited cladistic matrix supports topology and morphology, not a temporal range."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
-    "confidence": "medium",
+    "evidenceBasis": "The former 52–1.8 Ma display is withheld because the available primary study is a morphology-based phylogenetic analysis and does not establish Ancylopoda range endpoints.",
+    "confidence": "low",
     "claimIds": [],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
-      },
-      {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "froehlich-1999-basal-perissodactyls",
+        "locator": "pp. 140–159; morphological matrix and cladistic topology; no complete Ancylopoda range synthesis"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "withheld-no-range-evidence"
   },
   {
     "id": "range:chalicotherium:global",
     "entityId": "chalicotherium",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Chalicotherium",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 15.97,
-    "youngerMa": 5.33,
-    "status": "available",
+    "taxonomicConcept": "Chalicotherium numerical range withheld pending genus-wide global synthesis",
+    "geographicScope": "No defensible global numerical scope established",
+    "olderMa": 0,
+    "youngerMa": 0,
+    "status": "withheld-pending-provenance",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "note": "The source samples southern German MN5–MN9 material and cannot establish global genus endpoints."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
-    "confidence": "medium",
-    "claimIds": [
-      "claim:taxon:chalicotherium",
-      "claim:taxon:chalicotherium:fossil-range"
-    ],
+    "evidenceBasis": "The former 15.97–5.33 Ma display is withheld because the dental-wear study directly covers selected southern German MN5–MN9 samples rather than genus-wide first and last appearances.",
+    "confidence": "low",
+    "claimIds": [],
     "referenceLocators": [
       {
-        "referenceId": "amnh-perissodactyl-evolution",
-        "locator": "https://research.amnh.org/paleontology/perissodactyl/evolution/intro"
-      },
-      {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
-      },
-      {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
+        "referenceId": "schulz-2007-chalicothere-feeding",
+        "locator": "pp. 5–23; Figures 1, 5–6; Tables 2–7; southern German MN5–MN9 samples"
       }
     ],
     "reviewStatus": "automated-audit-passed",
-    "evidenceLevel": "legacy-display"
+    "evidenceLevel": "withheld-no-range-evidence"
   },
   {
     "id": "range:ceratomorpha:global",
     "entityId": "ceratomorpha",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Ceratomorpha",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 56,
+    "taxonomicConcept": "Ceratomorpha numerical range withheld because the cited study tests competing topologies rather than a complete range",
+    "geographicScope": "No defensible global numerical scope established",
+    "olderMa": 0,
     "youngerMa": 0,
-    "status": "available",
+    "status": "withheld-pending-provenance",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "note": "Parsimony and tip-dating results do not establish the former 56 Ma edge."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
-    "confidence": "medium",
+    "evidenceBasis": "The former 56–0 Ma display is withheld because the primary study analyzes Ceratomorpha morphology and competing phylogenetic placements without auditing a complete fossil range.",
+    "confidence": "contested",
     "claimIds": [],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
-      },
-      {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "bai-2020-ceratomorpha",
+        "locator": "Article 509; Figures 7–8; phylogenetic analysis and Discussion; parsimony and tip-dating disagreement"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "withheld-no-range-evidence"
   },
   {
     "id": "range:tapiroidea:global",
     "entityId": "tapiroidea",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Tapiroidea",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 55,
+    "taxonomicConcept": "Tapiroidea numerical range withheld pending a direct global range synthesis",
+    "geographicScope": "No defensible global numerical scope established",
+    "olderMa": 0,
     "youngerMa": 0,
-    "status": "available",
+    "status": "withheld-pending-provenance",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "note": "The cited phylogenetic study does not establish the former 55 Ma global edge."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
-    "confidence": "medium",
+    "evidenceBasis": "The former 55–0 Ma display is withheld because the cited primary study supports tapiroid relationships but does not audit a global taxon range.",
+    "confidence": "low",
     "claimIds": [],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
-      },
-      {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "bai-2020-ceratomorpha",
+        "locator": "Article 509; Figures 7–8 and Tapiroidea discussion; topology evidence without complete global FAD/LAD"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "withheld-no-range-evidence"
   },
   {
     "id": "range:rhinocerotoidea:global",
     "entityId": "rhinocerotoidea",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Rhinocerotoidea",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 54,
+    "taxonomicConcept": "Rhinocerotoidea numerical range withheld pending a direct global range synthesis",
+    "geographicScope": "No defensible global numerical scope established",
+    "olderMa": 0,
     "youngerMa": 0,
-    "status": "available",
+    "status": "withheld-pending-provenance",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "note": "The cited systematic and phylogenetic study does not establish the former 54 Ma global edge."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
-    "confidence": "medium",
+    "evidenceBasis": "The former 54–0 Ma display is withheld because the primary study revises early rhinocerotoids and tests their topology rather than auditing the complete superfamily fossil range.",
+    "confidence": "low",
     "claimIds": [],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
-      },
-      {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "bai-2020-ceratomorpha",
+        "locator": "Article 509; Figures 6–8; Systematic palaeontology and phylogeny; no complete global range ledger"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "withheld-no-range-evidence"
   },
   {
     "id": "range:metamynodon:global",
     "entityId": "metamynodon",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Metamynodon",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 40.4,
-    "youngerMa": 23,
-    "status": "available",
+    "taxonomicConcept": "Metamynodon numerical range withheld pending genus-wide global synthesis",
+    "geographicScope": "No defensible global numerical scope established",
+    "olderMa": 0,
+    "youngerMa": 0,
+    "status": "withheld-pending-provenance",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "note": "The source treats Orellan M. planifrons anatomy and cannot establish global genus endpoints."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
-    "confidence": "medium",
-    "claimIds": [
-      "claim:taxon:metamynodon",
-      "claim:taxon:metamynodon:fossil-range"
-    ],
+    "evidenceBasis": "The former 40.4–23 Ma display is withheld because the primary report directly documents an Orellan Metamynodon planifrons anatomical sample rather than a genus-wide range.",
+    "confidence": "low",
+    "claimIds": [],
     "referenceLocators": [
       {
-        "referenceId": "amnh-amynodonts",
-        "locator": "https://research.amnh.org/paleontology/perissodactyl/evolution/groups/amynodonts"
-      },
-      {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
-      },
-      {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
+        "referenceId": "wall-heinbaugh-1999-metamynodon-locomotion",
+        "locator": "pp. 8–17; Figures 1–8; Table 1; Orellan M. planifrons anatomical sample"
       }
     ],
     "reviewStatus": "automated-audit-passed",
-    "evidenceLevel": "legacy-display"
+    "evidenceLevel": "withheld-no-range-evidence"
   },
   {
     "id": "range:paraceratherium:global",
     "entityId": "paraceratherium",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Paraceratherium",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 34,
-    "youngerMa": 20,
+    "taxonomicConcept": "Paraceratherium linxiaense LX1808 dated occurrence",
+    "geographicScope": "Linxia Basin, China",
+    "olderMa": 26.5,
+    "youngerMa": 26.5,
     "status": "available",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "note": "This point range is the dated LX1808 sample and does not represent a genus-wide first or last appearance."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "evidenceBasis": "Faunal correlation and palaeomagnetic placement date the Paraceratherium linxiaense LX1808 material to the middle of chron C8r at approximately 26.5 Ma.",
     "confidence": "medium",
     "claimIds": [
-      "claim:taxon:paraceratherium",
       "claim:taxon:paraceratherium:fossil-range"
     ],
     "referenceLocators": [
       {
         "referenceId": "deng-2021-paraceratherium",
-        "locator": "doi:10.1038/s42003-021-02170-6"
-      },
-      {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
-      },
-      {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
+        "locator": "pp. 1–10; Abstract; Type locality and horizon; Age section; Figure 5; LX1808 dated to middle C8r at approximately 26.5 Ma"
       }
     ],
     "reviewStatus": "automated-audit-passed",
-    "evidenceLevel": "legacy-display"
+    "evidenceLevel": "literature-synthesized"
   },
   {
     "id": "range:rhinocerotidae:global",
     "entityId": "rhinocerotidae",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Rhinocerotidae",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 40,
+    "taxonomicConcept": "Rhinocerotidae numerical range withheld pending a direct family-wide fossil synthesis",
+    "geographicScope": "No defensible global numerical scope established",
+    "olderMa": 0,
     "youngerMa": 0,
-    "status": "available",
+    "status": "withheld-pending-provenance",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "note": "The available sources provide early-rhinocerotoid and living-family topology, not a complete family range."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
-    "confidence": "medium",
+    "evidenceBasis": "The former 40–0 Ma display is withheld because the cited studies address early rhinocerotoid relationships and extant species topology without validating a family-wide fossil first appearance.",
+    "confidence": "low",
     "claimIds": [],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
+        "referenceId": "bai-2020-ceratomorpha",
+        "locator": "Article 509; Figure 7; true-rhinocerotoid topology and sampled fossil placements"
       },
       {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "price-2009-perissodactyl-phylogeny",
+        "locator": "pp. 277–292; extant Rhinocerotidae results; no complete fossil family range"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "withheld-no-range-evidence"
   },
   {
     "id": "range:teleoceras:global",
     "entityId": "teleoceras",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Teleoceras",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 16,
-    "youngerMa": 4.5,
+    "taxonomicConcept": "Teleoceras major North American Clarendonian occurrence envelope",
+    "geographicScope": "North America, including Ashfall Fossil Beds",
+    "olderMa": 12.5,
+    "youngerMa": 10,
     "status": "available",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "note": "This is a regional species envelope; the Ashfall site itself is dated to 11.86 ± 0.13 Ma."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "evidenceBasis": "The primary isotope study places North American Teleoceras major within the Clarendonian at 12.5–10 Ma and directly dates the sampled Ashfall site to 11.86 ± 0.13 Ma.",
     "confidence": "medium",
     "claimIds": [
-      "claim:taxon:teleoceras",
       "claim:taxon:teleoceras:fossil-range"
     ],
     "referenceLocators": [
       {
-        "referenceId": "macfadden-1998-teleoceras",
-        "locator": "doi:10.1666/0094-8373(1998)024[0274:TOTRIE]2.3.CO;2"
-      },
-      {
-        "referenceId": "ward-2024-teleoceras",
-        "locator": "doi:10.1016/j.palaeo.2024.112375"
-      },
-      {
         "referenceId": "ward-2025-teleoceras",
-        "locator": "doi:10.1038/s41598-025-94263-z"
-      },
-      {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
-      },
-      {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
+        "locator": "pp. 1–10; Abstract and Predictions of mobility; Figures 1–6 and Supplementary Data; T. major 12.5–10 Ma regional context and 11.86 ± 0.13 Ma Ashfall site"
       }
     ],
     "reviewStatus": "automated-audit-passed",
-    "evidenceLevel": "legacy-display"
+    "evidenceLevel": "literature-synthesized"
   },
   {
     "id": "range:coelodonta:global",
     "entityId": "coelodonta",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Coelodonta",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 3.6,
-    "youngerMa": 0.014,
+    "taxonomicConcept": "Coelodonta earliest-reviewed occurrence to directly dated late-individual navigation envelope",
+    "geographicScope": "Tibetan Plateau earliest record and directly dated Siberian late individual",
+    "olderMa": 5.08,
+    "youngerMa": 0.0144,
     "status": "available",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "note": "The 14.4 ka individual is not asserted to be the global last appearance of the genus."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "evidenceBasis": "A systematic review identifies Coelodonta thibetana at 5.08 Ma as the earliest known genus record, while a genomic primary study directly dates a Coelodonta antiquitatis individual to 14.4 ka.",
     "confidence": "medium",
     "claimIds": [
-      "claim:taxon:coelodonta"
+      "claim:taxon:coelodonta:fossil-range"
     ],
     "referenceLocators": [
       {
+        "referenceId": "ma-2024-coelodonta-paleoecology",
+        "locator": "pp. 1–15; Introduction and evolutionary-history review; Figures 1–6; Tables 1–2; earliest known C. thibetana record at 5.08 Ma"
+      },
+      {
         "referenceId": "gudjonsdottir-2026-coelodonta",
-        "locator": "doi:10.1093/gbe/evaf239"
-      },
-      {
-        "referenceId": "liu-2021-rhinoceros-genomes",
-        "locator": "doi:10.1016/j.cell.2021.07.032"
-      },
-      {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
-      },
-      {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
+        "locator": "pp. 1–8; Figures 1–3 and Supplementary Tables; directly dated 14.4 ka C. antiquitatis individual"
       }
     ],
     "reviewStatus": "automated-audit-passed",
-    "evidenceLevel": "legacy-display"
+    "evidenceLevel": "literature-synthesized"
   }
 ]

@@ -1161,9 +1161,9 @@
     "subjectId": "taxon:paraceratherium",
     "claimKind": "scientific",
     "claimType": "fossil-range",
-    "statement": "The atlas’s 34–20 Ma occurrence envelope is provisional; the primary study securely dates P. linxiaense to 26.5 Ma and discusses other Oligocene species without turning the display edges into exact endpoints.",
-    "confidence": "low",
-    "confidenceRationale": "High confidence applies to the dated Linxia occurrence and Oligocene context, not to a precise global origin or extinction instant.",
+    "statement": "The atlas displays the 26.5 Ma Paraceratherium linxiaense LX1808 occurrence as a point sample and does not treat it as a genus-wide first or last appearance.",
+    "confidence": "medium",
+    "confidenceRationale": "Faunal correlation and palaeomagnetic placement directly support the sampled age, while the point-range wording prevents extrapolation to global genus endpoints.",
     "reviewedBy": "Evo Atlas maintainer source audit",
     "reviewedAt": "2026-08-31",
     "reviewedAgainstReferenceVersion": "deng-2021-paraceratherium locator audit at 2026-08-31",
@@ -1173,7 +1173,7 @@
         "relation": "supports",
         "pages": "1–10",
         "figure": "Figures 1–7; Supplementary Tables 1–6",
-        "quoteLocator": "Age and diagnosis; 155-character analysis; Oligocene Asian distribution and dispersal discussion"
+        "quoteLocator": "Abstract, Type locality and horizon, Age section and Figure 5; LX1808 placed in middle C8r at approximately 26.5 Ma"
       }
     ]
   },
@@ -1546,9 +1546,9 @@
     "subjectId": "taxon:teleoceras",
     "claimKind": "scientific",
     "claimType": "fossil-range",
-    "statement": "The atlas’s 16–4.5 Ma occurrence envelope remains provisional; the Ashfall study directly brackets T. major in the Clarendonian at 12.5–10 Ma and dates the sampled site to 11.86 ± 0.13 Ma.",
-    "confidence": "low",
-    "confidenceRationale": "High confidence applies to the regional species and site ages, not to exact global genus endpoints.",
+    "statement": "The atlas displays a 12.5–10 Ma North American Clarendonian occurrence envelope for Teleoceras major, including the 11.86 ± 0.13 Ma Ashfall sample, rather than a global genus range.",
+    "confidence": "medium",
+    "confidenceRationale": "The primary study directly states the regional species interval and sampled-site age, while the geographic and taxonomic qualifiers prevent genus-wide extrapolation.",
     "reviewedBy": "Evo Atlas maintainer source audit",
     "reviewedAt": "2026-08-31",
     "reviewedAgainstReferenceVersion": "ward-2025-teleoceras locator audit at 2026-08-31",
@@ -7766,7 +7766,7 @@
     "confidenceRationale": "The clade definitions are explicit in Table 1, while the Dallasaurus skeletons directly preserve plesiopedal limbs. Basal branching remains analysis-sensitive, so the claim distinguishes definitions and anatomy from one universal topology.",
     "reviewedBy": "Evo Atlas automated evidence decomposition",
     "reviewedAt": "2026-08-30",
-    "reviewedAgainstReferenceVersion": "Primary-study locators audited at 2026.08-static-v5-rc49",
+    "reviewedAgainstReferenceVersion": "Primary-study locators audited at 2026.08-static-v5-rc50",
     "referenceLinks": [
       {
         "referenceId": "madzia-cau-2017-mosasauroid-nomenclature",
@@ -7794,7 +7794,7 @@
     "confidenceRationale": "Bobosaurus is a named articulated specimen, but its placement was presented with alternatives. Rhaeticosaurus preserves a diagnostic articulated skeleton and was tested phylogenetically, allowing evidence age and assignment confidence to remain separate.",
     "reviewedBy": "Evo Atlas automated evidence decomposition",
     "reviewedAt": "2026-08-30",
-    "reviewedAgainstReferenceVersion": "Primary-study locators audited at 2026.08-static-v5-rc49",
+    "reviewedAgainstReferenceVersion": "Primary-study locators audited at 2026.08-static-v5-rc50",
     "referenceLinks": [
       {
         "referenceId": "dalla-vecchia-2006-bobosaurus",
@@ -7822,7 +7822,7 @@
     "confidenceRationale": "The profile separates directly documented specimens and explicit analyses from global range, behaviour and ancestry inferences; confidence is bounded by the cited primary study and its stated sample. This rationale is specific to tiktaalik:taxonomy.",
     "reviewedBy": "Evo Atlas automated evidence decomposition",
     "reviewedAt": "2026-08-30",
-    "reviewedAgainstReferenceVersion": "Primary-study locators audited at 2026.08-static-v5-rc49",
+    "reviewedAgainstReferenceVersion": "Primary-study locators audited at 2026.08-static-v5-rc50",
     "referenceLinks": [
       {
         "referenceId": "daeschler-2006-tiktaalik-body-plan",
@@ -7843,7 +7843,7 @@
     "confidenceRationale": "The profile separates directly documented specimens and explicit analyses from global range, behaviour and ancestry inferences; confidence is bounded by the cited primary study and its stated sample. This rationale is specific to tiktaalik:fossil-range.",
     "reviewedBy": "Evo Atlas automated evidence decomposition",
     "reviewedAt": "2026-08-30",
-    "reviewedAgainstReferenceVersion": "Primary-study locators audited at 2026.08-static-v5-rc49",
+    "reviewedAgainstReferenceVersion": "Primary-study locators audited at 2026.08-static-v5-rc50",
     "referenceLinks": [
       {
         "referenceId": "daeschler-2006-tiktaalik-body-plan",
@@ -7864,7 +7864,7 @@
     "confidenceRationale": "The profile separates directly documented specimens and explicit analyses from global range, behaviour and ancestry inferences; confidence is bounded by the cited primary study and its stated sample. This rationale is specific to tiktaalik:biogeography.",
     "reviewedBy": "Evo Atlas automated evidence decomposition",
     "reviewedAt": "2026-08-30",
-    "reviewedAgainstReferenceVersion": "Primary-study locators audited at 2026.08-static-v5-rc49",
+    "reviewedAgainstReferenceVersion": "Primary-study locators audited at 2026.08-static-v5-rc50",
     "referenceLinks": [
       {
         "referenceId": "daeschler-2006-tiktaalik-body-plan",
@@ -7885,7 +7885,7 @@
     "confidenceRationale": "The profile separates directly documented specimens and explicit analyses from global range, behaviour and ancestry inferences; confidence is bounded by the cited primary study and its stated sample. This rationale is specific to tiktaalik:morphology.",
     "reviewedBy": "Evo Atlas automated evidence decomposition",
     "reviewedAt": "2026-08-30",
-    "reviewedAgainstReferenceVersion": "Primary-study locators audited at 2026.08-static-v5-rc49",
+    "reviewedAgainstReferenceVersion": "Primary-study locators audited at 2026.08-static-v5-rc50",
     "referenceLinks": [
       {
         "referenceId": "daeschler-2006-tiktaalik-body-plan",
@@ -7906,7 +7906,7 @@
     "confidenceRationale": "The profile separates directly documented specimens and explicit analyses from global range, behaviour and ancestry inferences; confidence is bounded by the cited primary study and its stated sample. This rationale is specific to tiktaalik:ecology.",
     "reviewedBy": "Evo Atlas automated evidence decomposition",
     "reviewedAt": "2026-08-30",
-    "reviewedAgainstReferenceVersion": "Primary-study locators audited at 2026.08-static-v5-rc49",
+    "reviewedAgainstReferenceVersion": "Primary-study locators audited at 2026.08-static-v5-rc50",
     "referenceLinks": [
       {
         "referenceId": "daeschler-2006-tiktaalik-body-plan",
@@ -7927,7 +7927,7 @@
     "confidenceRationale": "The claim follows the study's systematic assignment and explicit 144-character analysis, while remaining bounded to that matrix and not turning Dallasaurus into a direct ancestor or a universal family definition.",
     "reviewedBy": "Evo Atlas automated evidence decomposition",
     "reviewedAt": "2026-08-30",
-    "reviewedAgainstReferenceVersion": "Primary-study locators audited at 2026.08-static-v5-rc49",
+    "reviewedAgainstReferenceVersion": "Primary-study locators audited at 2026.08-static-v5-rc50",
     "referenceLinks": [
       {
         "referenceId": "bell-polcyn-2005-dallasaurus",
@@ -7948,7 +7948,7 @@
     "confidenceRationale": "Both endpoints are tied to named specimens and explicit stratigraphic contexts, but the rounded envelope joins two local samples and therefore cannot establish unsampled global first or last appearances.",
     "reviewedBy": "Evo Atlas automated evidence decomposition",
     "reviewedAt": "2026-08-30",
-    "reviewedAgainstReferenceVersion": "Primary-study locators audited at 2026.08-static-v5-rc49",
+    "reviewedAgainstReferenceVersion": "Primary-study locators audited at 2026.08-static-v5-rc50",
     "referenceLinks": [
       {
         "referenceId": "bell-polcyn-2005-dallasaurus",
@@ -7976,7 +7976,7 @@
     "confidenceRationale": "The two localities and stratigraphic positions are directly reported for named specimens, while the claim explicitly withholds a global distribution inference from two sampled regions.",
     "reviewedBy": "Evo Atlas automated evidence decomposition",
     "reviewedAt": "2026-08-30",
-    "reviewedAgainstReferenceVersion": "Primary-study locators audited at 2026.08-static-v5-rc49",
+    "reviewedAgainstReferenceVersion": "Primary-study locators audited at 2026.08-static-v5-rc50",
     "referenceLinks": [
       {
         "referenceId": "bell-polcyn-2005-dallasaurus",
@@ -8004,7 +8004,7 @@
     "confidenceRationale": "Named specimens and figured bones directly support the anatomy, while independent origins of hydropedal limbs depend on the study's character coding and three equally parsimonious trees.",
     "reviewedBy": "Evo Atlas automated evidence decomposition",
     "reviewedAt": "2026-08-30",
-    "reviewedAgainstReferenceVersion": "Primary-study locators audited at 2026.08-static-v5-rc49",
+    "reviewedAgainstReferenceVersion": "Primary-study locators audited at 2026.08-static-v5-rc50",
     "referenceLinks": [
       {
         "referenceId": "bell-polcyn-2005-dallasaurus",
@@ -8025,7 +8025,7 @@
     "confidenceRationale": "The adaptive-grade morphology and five-taxon isotope measurements are direct, but ecological interpretation is sample-bounded and combines body size, diet, diving and habitat effects that the isotope study does not fully separate.",
     "reviewedBy": "Evo Atlas automated evidence decomposition",
     "reviewedAt": "2026-08-30",
-    "reviewedAgainstReferenceVersion": "Primary-study locators audited at 2026.08-static-v5-rc49",
+    "reviewedAgainstReferenceVersion": "Primary-study locators audited at 2026.08-static-v5-rc50",
     "referenceLinks": [
       {
         "referenceId": "bell-polcyn-2005-dallasaurus",
@@ -8053,7 +8053,7 @@
     "confidenceRationale": "The profile separates directly documented specimens and explicit analyses from global range, behaviour and ancestry inferences; confidence is bounded by the cited primary study and its stated sample. This rationale is specific to ichthyosaurus:taxonomy.",
     "reviewedBy": "Evo Atlas automated evidence decomposition",
     "reviewedAt": "2026-08-30",
-    "reviewedAgainstReferenceVersion": "Primary-study locators audited at 2026.08-static-v5-rc49",
+    "reviewedAgainstReferenceVersion": "Primary-study locators audited at 2026.08-static-v5-rc50",
     "referenceLinks": [
       {
         "referenceId": "lomax-massare-2017-ichthyosaurus",
@@ -8074,7 +8074,7 @@
     "confidenceRationale": "The profile separates directly documented specimens and explicit analyses from global range, behaviour and ancestry inferences; confidence is bounded by the cited primary study and its stated sample. This rationale is specific to ichthyosaurus:fossil-range.",
     "reviewedBy": "Evo Atlas automated evidence decomposition",
     "reviewedAt": "2026-08-30",
-    "reviewedAgainstReferenceVersion": "Primary-study locators audited at 2026.08-static-v5-rc49",
+    "reviewedAgainstReferenceVersion": "Primary-study locators audited at 2026.08-static-v5-rc50",
     "referenceLinks": [
       {
         "referenceId": "lomax-massare-2017-ichthyosaurus",
@@ -8095,7 +8095,7 @@
     "confidenceRationale": "The profile separates directly documented specimens and explicit analyses from global range, behaviour and ancestry inferences; confidence is bounded by the cited primary study and its stated sample. This rationale is specific to ichthyosaurus:biogeography.",
     "reviewedBy": "Evo Atlas automated evidence decomposition",
     "reviewedAt": "2026-08-30",
-    "reviewedAgainstReferenceVersion": "Primary-study locators audited at 2026.08-static-v5-rc49",
+    "reviewedAgainstReferenceVersion": "Primary-study locators audited at 2026.08-static-v5-rc50",
     "referenceLinks": [
       {
         "referenceId": "lomax-massare-2017-ichthyosaurus",
@@ -8116,7 +8116,7 @@
     "confidenceRationale": "The profile separates directly documented specimens and explicit analyses from global range, behaviour and ancestry inferences; confidence is bounded by the cited primary study and its stated sample. This rationale is specific to ichthyosaurus:morphology.",
     "reviewedBy": "Evo Atlas automated evidence decomposition",
     "reviewedAt": "2026-08-30",
-    "reviewedAgainstReferenceVersion": "Primary-study locators audited at 2026.08-static-v5-rc49",
+    "reviewedAgainstReferenceVersion": "Primary-study locators audited at 2026.08-static-v5-rc50",
     "referenceLinks": [
       {
         "referenceId": "lomax-massare-2017-ichthyosaurus",
@@ -8137,7 +8137,7 @@
     "confidenceRationale": "The profile separates directly documented specimens and explicit analyses from global range, behaviour and ancestry inferences; confidence is bounded by the cited primary study and its stated sample. This rationale is specific to ichthyosaurus:ecology.",
     "reviewedBy": "Evo Atlas automated evidence decomposition",
     "reviewedAt": "2026-08-31",
-    "reviewedAgainstReferenceVersion": "Primary-study locators audited at 2026.08-static-v5-rc49",
+    "reviewedAgainstReferenceVersion": "Primary-study locators audited at 2026.08-static-v5-rc50",
     "referenceLinks": [
       {
         "referenceId": "lomax-massare-2017-ichthyosaurus",
@@ -8171,7 +8171,7 @@
     "confidenceRationale": "The profile separates directly documented specimens and explicit analyses from global range, behaviour and ancestry inferences; confidence is bounded by the cited primary study and its stated sample. This rationale is specific to plesiosauria:taxonomy.",
     "reviewedBy": "Evo Atlas automated evidence decomposition",
     "reviewedAt": "2026-08-30",
-    "reviewedAgainstReferenceVersion": "Primary-study locators audited at 2026.08-static-v5-rc49",
+    "reviewedAgainstReferenceVersion": "Primary-study locators audited at 2026.08-static-v5-rc50",
     "referenceLinks": [
       {
         "referenceId": "wintrich-2017-rhaeticosaurus",
@@ -8192,7 +8192,7 @@
     "confidenceRationale": "The profile separates directly documented specimens and explicit analyses from global range, behaviour and ancestry inferences; confidence is bounded by the cited primary study and its stated sample. This rationale is specific to plesiosauria:fossil-range.",
     "reviewedBy": "Evo Atlas automated evidence decomposition",
     "reviewedAt": "2026-08-30",
-    "reviewedAgainstReferenceVersion": "Primary-study locators audited at 2026.08-static-v5-rc49",
+    "reviewedAgainstReferenceVersion": "Primary-study locators audited at 2026.08-static-v5-rc50",
     "referenceLinks": [
       {
         "referenceId": "wintrich-2017-rhaeticosaurus",
@@ -8213,7 +8213,7 @@
     "confidenceRationale": "The profile separates directly documented specimens and explicit analyses from global range, behaviour and ancestry inferences; confidence is bounded by the cited primary study and its stated sample. This rationale is specific to plesiosauria:biogeography.",
     "reviewedBy": "Evo Atlas automated evidence decomposition",
     "reviewedAt": "2026-08-30",
-    "reviewedAgainstReferenceVersion": "Primary-study locators audited at 2026.08-static-v5-rc49",
+    "reviewedAgainstReferenceVersion": "Primary-study locators audited at 2026.08-static-v5-rc50",
     "referenceLinks": [
       {
         "referenceId": "wintrich-2017-rhaeticosaurus",
@@ -8234,7 +8234,7 @@
     "confidenceRationale": "The profile separates directly documented specimens and explicit analyses from global range, behaviour and ancestry inferences; confidence is bounded by the cited primary study and its stated sample. This rationale is specific to plesiosauria:morphology.",
     "reviewedBy": "Evo Atlas automated evidence decomposition",
     "reviewedAt": "2026-08-30",
-    "reviewedAgainstReferenceVersion": "Primary-study locators audited at 2026.08-static-v5-rc49",
+    "reviewedAgainstReferenceVersion": "Primary-study locators audited at 2026.08-static-v5-rc50",
     "referenceLinks": [
       {
         "referenceId": "wintrich-2017-rhaeticosaurus",
@@ -8255,7 +8255,7 @@
     "confidenceRationale": "The profile separates directly documented specimens and explicit analyses from global range, behaviour and ancestry inferences; confidence is bounded by the cited primary study and its stated sample. This rationale is specific to plesiosauria:ecology.",
     "reviewedBy": "Evo Atlas automated evidence decomposition",
     "reviewedAt": "2026-08-30",
-    "reviewedAgainstReferenceVersion": "Primary-study locators audited at 2026.08-static-v5-rc49",
+    "reviewedAgainstReferenceVersion": "Primary-study locators audited at 2026.08-static-v5-rc50",
     "referenceLinks": [
       {
         "referenceId": "wintrich-2017-rhaeticosaurus",
@@ -8276,7 +8276,7 @@
     "confidenceRationale": "The profile separates directly documented specimens and explicit analyses from global range, behaviour and ancestry inferences; confidence is bounded by the cited primary study and its stated sample. This rationale is specific to pterosauria:taxonomy.",
     "reviewedBy": "Evo Atlas automated evidence decomposition",
     "reviewedAt": "2026-08-31",
-    "reviewedAgainstReferenceVersion": "Primary-study locators audited at 2026.08-static-v5-rc49",
+    "reviewedAgainstReferenceVersion": "Primary-study locators audited at 2026.08-static-v5-rc50",
     "referenceLinks": [
       {
         "referenceId": "witton-habib-2010-giant-pterosaur-flight",
@@ -8324,7 +8324,7 @@
     "confidenceRationale": "The profile separates directly documented specimens and explicit analyses from global range, behaviour and ancestry inferences; confidence is bounded by the cited primary study and its stated sample. This rationale is specific to pterosauria:biogeography.",
     "reviewedBy": "Evo Atlas automated evidence decomposition",
     "reviewedAt": "2026-08-31",
-    "reviewedAgainstReferenceVersion": "Primary-study locators audited at 2026.08-static-v5-rc49",
+    "reviewedAgainstReferenceVersion": "Primary-study locators audited at 2026.08-static-v5-rc50",
     "referenceLinks": [
       {
         "referenceId": "witton-habib-2010-giant-pterosaur-flight",
@@ -8352,7 +8352,7 @@
     "confidenceRationale": "The profile separates directly documented specimens and explicit analyses from global range, behaviour and ancestry inferences; confidence is bounded by the cited primary study and its stated sample. This rationale is specific to pterosauria:morphology.",
     "reviewedBy": "Evo Atlas automated evidence decomposition",
     "reviewedAt": "2026-08-30",
-    "reviewedAgainstReferenceVersion": "Primary-study locators audited at 2026.08-static-v5-rc49",
+    "reviewedAgainstReferenceVersion": "Primary-study locators audited at 2026.08-static-v5-rc50",
     "referenceLinks": [
       {
         "referenceId": "witton-habib-2010-giant-pterosaur-flight",
@@ -8373,7 +8373,7 @@
     "confidenceRationale": "The profile separates directly documented specimens and explicit analyses from global range, behaviour and ancestry inferences; confidence is bounded by the cited primary study and its stated sample. This rationale is specific to pterosauria:ecology.",
     "reviewedBy": "Evo Atlas automated evidence decomposition",
     "reviewedAt": "2026-08-30",
-    "reviewedAgainstReferenceVersion": "Primary-study locators audited at 2026.08-static-v5-rc49",
+    "reviewedAgainstReferenceVersion": "Primary-study locators audited at 2026.08-static-v5-rc50",
     "referenceLinks": [
       {
         "referenceId": "witton-habib-2010-giant-pterosaur-flight",
@@ -11484,17 +11484,19 @@
     "subjectId": "taxon:cycadophyta",
     "claimKind": "scientific",
     "claimType": "fossil-range",
-    "statement": "The 280–0 Ma atlas envelope is a rounded total-group navigation span contextualized by fossil-integrated analyses, not a directly dated crown FAD or uninterrupted lineage.",
+    "statement": "Cycadophyta is displayed at 330.4–0 Ma only as a total-evidence model-to-living navigation interval: 330.4 Ma is the fossilized birth–death posterior median for crown Cycadales (95% HPD 296.2–358.9 Ma), not a directly observed fossil FAD.",
     "confidence": "medium",
-    "confidenceRationale": "The fossil-range field is bounded to Cycadophyta, the named sample or scoped clade analysis and the cited primary-study locator; interpretation is not generalized to direct ancestry or unsampled species.",
-    "reviewedBy": "Evo Atlas data maintenance",
-    "reviewedAt": "2026-08-30",
-    "reviewedAgainstReferenceVersion": "coiro-2023-cycad-biogeography primary-study locator checked for 2026.08-static-v5-rc38",
+    "confidenceRationale": "Coiro et al. (2023), Results and Table 1, reports a Cycadales median age of 330.4 Ma with 95% HPD 296.2–358.9 Ma from the fossilized birth–death analysis. Medium confidence applies to that explicit model output and living continuation.",
+    "reviewedBy": "Codex automated evidence audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "coiro-2023-cycad-biogeography locator checked for rc50",
     "referenceLinks": [
       {
-        "referenceId": "coiro-2023-cycad-biogeography",
         "relation": "supports",
-        "pages": "1619–1631; Figures 2–6; Table 1"
+        "referenceId": "coiro-2023-cycad-biogeography",
+        "pages": "240:1616–1635",
+        "figure": "Figure 2; Table 1",
+        "quoteLocator": "Methods tree-age prior; Results “Total-evidence dating of cycads”"
       }
     ]
   },
@@ -11579,17 +11581,19 @@
     "subjectId": "taxon:ginkgophyta",
     "claimKind": "scientific",
     "claimType": "fossil-range",
-    "statement": "The 270–0 Ma atlas envelope remains a rounded phylum navigation range; the 165–153 Ma wood specimen is a bounded occurrence, not the ginkgophyte FAD.",
+    "statement": "Ginkgophyta is displayed at 165–0 Ma only as a dated Ginkgoxylon-sample-to-living navigation anthology: the 153–165 Ma wood specimen is not the phylum FAD, an unbroken species lineage or a direct ancestor of living Ginkgo.",
     "confidence": "medium",
-    "confidenceRationale": "The fossil-range field is bounded to Ginkgophyta, the named sample or scoped clade analysis and the cited primary-study locator; interpretation is not generalized to direct ancestry or unsampled species.",
-    "reviewedBy": "Evo Atlas data maintenance",
-    "reviewedAt": "2026-08-30",
-    "reviewedAgainstReferenceVersion": "jiang-2016-ginkgoxylon primary-study locator checked for 2026.08-static-v5-rc38",
+    "confidenceRationale": "Jiang et al. (2016) directly dates the Tiaojishan Formation sample to 153–165 Ma and diagnoses Ginkgoxylon liaoningense. Medium confidence is restricted to that specimen envelope plus living Ginkgo, not the complete ginkgophyte range.",
+    "reviewedBy": "Codex automated evidence audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "jiang-2016-ginkgoxylon locator checked for rc50",
     "referenceLinks": [
       {
-        "referenceId": "jiang-2016-ginkgoxylon",
         "relation": "supports",
-        "pages": "38191, 1–8; Figures 1–3; Systematic palaeontology"
+        "referenceId": "jiang-2016-ginkgoxylon",
+        "pages": "Article 38191, pp. 1–8",
+        "figure": "Figures 1–3",
+        "quoteLocator": "153–165 Ma Tiaojishan age and systematic palaeontology"
       }
     ]
   },
@@ -18276,19 +18280,19 @@
     "subjectId": "taxon:hexactinellida",
     "claimKind": "scientific",
     "claimType": "fossil-range",
-    "statement": "Soltanieh Formation spicules provide a conditional basal-Cambrian Hexactinellida assignment when their preserved characters are accepted as diagnostic; this is a local minimum record, not a crown origin or global first appearance.",
+    "statement": "Hexactinellida is displayed at 536–0 Ma only as a basal-Cambrian-spicule-to-living navigation anthology: the Soltanieh material is a cautious fossil anchor, not an exact crown-Hexactinellida FAD or continuous occupancy record.",
     "confidence": "medium",
-    "confidenceRationale": "The isolated spicules and stratigraphic context are direct, while class-level diagnosis and reworking remain the main limits on temporal inference.",
-    "reviewedBy": "Evo Atlas maintainer primary-source audit",
+    "confidenceRationale": "Antcliffe et al. (2014) reassess early sponge candidates and identify the basal-Cambrian siliceous spicules as the oldest reliable material in their review. Medium confidence keeps the class-level placement and living continuation explicit rather than treating 536 Ma as a crown date.",
+    "reviewedBy": "Codex automated evidence audit",
     "reviewedAt": "2026-08-31",
-    "reviewedAgainstReferenceVersion": "antcliffe-2014-sponge-record",
+    "reviewedAgainstReferenceVersion": "antcliffe-2014-sponge-record locator checked for rc50",
     "referenceLinks": [
       {
-        "referenceId": "antcliffe-2014-sponge-record",
         "relation": "supports",
-        "pages": "972–1004",
+        "referenceId": "antcliffe-2014-sponge-record",
+        "pages": "89:972–1004",
         "figure": "Figures 1–13; Tables 1–2",
-        "quoteLocator": "Diagnostic criteria, Iranian material and candidate reassessment"
+        "quoteLocator": "Diagnostic criteria, Soltanieh spicules and candidate reassessment"
       }
     ]
   },
@@ -20886,6 +20890,1433 @@
         "pages": "International Chronostratigraphic Chart v2026/06",
         "figure": "Global chronostratigraphic scale",
         "quoteLocator": "Numerical boundaries for named geological stages used to bound the source sample"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:spiriferida:source-bounded-range-rc50",
+    "subjectId": "taxon:spiriferida",
+    "claimKind": "scientific",
+    "claimType": "fossil-range",
+    "statement": "Carter et al. state an Upper Ordovician–Upper Permian stratigraphic range for Spiriferida; the atlas displays 458.2–251.902 Ma by converting those named bounds with ICS v2026/06, not as direct dates, continuous occupancy or an ancestor sequence.",
+    "confidence": "medium",
+    "confidenceRationale": "The order-level systematic revision gives the two named endpoints explicitly. Medium confidence reflects revision-prone ICS numerical conversion and the difference between a stated stratigraphic range and an exhaustive occurrence audit.",
+    "reviewedBy": "Codex automated evidence audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "Carter et al. 1994 DOI 10.5962/p.215817",
+    "referenceLinks": [
+      {
+        "relation": "supports",
+        "referenceId": "carter-1994-spiriferids",
+        "pages": "328–329",
+        "quoteLocator": "p. 329, Order Spiriferida and Stratigraphic Range paragraphs: Upper Ordovician–Upper Permian"
+      },
+      {
+        "relation": "contextualizes",
+        "referenceId": "ics-2026-06",
+        "pages": "International Chronostratigraphic Chart v2026/06",
+        "figure": "Global chronostratigraphic scale",
+        "quoteLocator": "Numerical boundaries for the named stages and periods used to bound the source sample"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:bivalvia:source-bounded-range-rc50",
+    "subjectId": "taxon:bivalvia",
+    "claimKind": "scientific",
+    "claimType": "fossil-range",
+    "statement": "The cited Pojetaia shell material comes from probably Botomian Ajax Limestone and lowermost Botomian Erkeket Formation units, supporting a Cambrian Stage 4 study-sample envelope of 514.5–506.5 Ma for this Bivalvia route, not a global class FAD, LAD or continuous duration.",
+    "confidence": "medium",
+    "confidenceRationale": "The paper directly identifies the sampled units but qualifies one regional correlation as probable. Medium confidence applies only to the conservative Stage 4 envelope and not to the full temporal range of Bivalvia.",
+    "reviewedBy": "Codex automated evidence audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "Vendrasco et al. 2011 DOI 10.1111/j.1475-4983.2011.01056.x",
+    "referenceLinks": [
+      {
+        "relation": "supports",
+        "referenceId": "vendrasco-et-al-2011-pojetaia",
+        "pages": "825–850",
+        "figure": "Plate 1",
+        "quoteLocator": "Materials and methods: Ajax Limestone probably Botomian; Erkeket Formation lowermost Botomian"
+      },
+      {
+        "relation": "contextualizes",
+        "referenceId": "ics-2026-06",
+        "pages": "International Chronostratigraphic Chart v2026/06",
+        "figure": "Global chronostratigraphic scale",
+        "quoteLocator": "Numerical boundaries for the named stages and periods used to bound the source sample"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:ammonoidea:source-bounded-range-rc50",
+    "subjectId": "taxon:ammonoidea",
+    "claimKind": "scientific",
+    "claimType": "fossil-range",
+    "statement": "McGowan and Smith sample Middle–Late Permian and Induan ammonoids across the Permian–Triassic boundary, supporting a Roadian-to-end-Induan study window of 274.4–250.8 Ma rather than the full Ammonoidea range, a divergence date or continuous global occupancy.",
+    "confidence": "medium",
+    "confidenceRationale": "The taxon matrix and geological-timescale comparison expose the sampled interval directly. Medium confidence is limited to that study window and its current ICS conversion.",
+    "reviewedBy": "Codex automated evidence audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "McGowan and Smith 2007 DOI 10.1111/j.1475-4983.2007.00653.x",
+    "referenceLinks": [
+      {
+        "relation": "supports",
+        "referenceId": "mcgowan-smith-2007-ammonoids",
+        "pages": "573–590",
+        "figure": "Text-figure 7",
+        "quoteLocator": "Abstract; taxon matrix; comparison of the cladogram with the geological timescale"
+      },
+      {
+        "relation": "contextualizes",
+        "referenceId": "ics-2026-06",
+        "pages": "International Chronostratigraphic Chart v2026/06",
+        "figure": "Global chronostratigraphic scale",
+        "quoteLocator": "Numerical boundaries for the named stages and periods used to bound the source sample"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:goniatitida:source-bounded-range-rc50",
+    "subjectId": "taxon:goniatitida",
+    "claimKind": "scientific",
+    "claimType": "fossil-range",
+    "statement": "Korn et al. describe an early Late Viséan Moroccan ammonoid assemblage within Goniatitida; the atlas conservatively displays the enclosing Viséan interval, 346.7–330.3 Ma, as a study-sample window rather than an order-wide FAD or LAD.",
+    "confidence": "medium",
+    "confidenceRationale": "The source names the regional assemblage and relative age directly, while the numerical endpoints are conservative ICS stage bounds. Medium confidence does not extend beyond that sampled assemblage.",
+    "reviewedBy": "Codex automated evidence audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "Korn et al. 2005 DOI 10.1666/0022-3360(2005)079<0356:TLAFGT>2.0.CO;2",
+    "referenceLinks": [
+      {
+        "relation": "supports",
+        "referenceId": "korn-2005-goniatitidae",
+        "pages": "356–365",
+        "figure": "Figures 2–8",
+        "quoteLocator": "Abstract: early Late Viséan assemblage; pp. 357–359; systematic descriptions"
+      },
+      {
+        "relation": "contextualizes",
+        "referenceId": "ics-2026-06",
+        "pages": "International Chronostratigraphic Chart v2026/06",
+        "figure": "Global chronostratigraphic scale",
+        "quoteLocator": "Numerical boundaries for the named stages and periods used to bound the source sample"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:ceratitida:source-bounded-range-rc50",
+    "subjectId": "taxon:ceratitida",
+    "claimKind": "scientific",
+    "claimType": "fossil-range",
+    "statement": "Shigeta et al. explicitly state that Ceratitida ranged from the Early Permian to the end of the Triassic; the atlas converts those named period bounds to 298.9–201.4 Ma with ICS v2026/06 without implying direct dates, continuous preservation or ancestry.",
+    "confidence": "medium",
+    "confidenceRationale": "The primary comparative study states both period-scale endpoints. Medium confidence reflects the coarse verbal bounds, changing numerical standards and the difference between a stated range and a global occurrence audit.",
+    "reviewedBy": "Codex automated evidence audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "Shigeta et al. 2001 DOI 10.2517/prpsj.5.201",
+    "referenceLinks": [
+      {
+        "relation": "supports",
+        "referenceId": "shigeta-2001-ceratitida-origin",
+        "pages": "201–213",
+        "figure": "Figures 1–8",
+        "quoteLocator": "Introduction, pp. 201–202: ranged from early Permian to end of Triassic"
+      },
+      {
+        "relation": "contextualizes",
+        "referenceId": "ics-2026-06",
+        "pages": "International Chronostratigraphic Chart v2026/06",
+        "figure": "Global chronostratigraphic scale",
+        "quoteLocator": "Numerical boundaries for the named stages and periods used to bound the source sample"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:ammonitida:source-bounded-range-rc50",
+    "subjectId": "taxon:ammonitida",
+    "claimKind": "scientific",
+    "claimType": "fossil-range",
+    "statement": "Bardin et al. analyze a 105-taxon Early Jurassic Hildoceratidae matrix, supporting a 201.4–174.7 Ma period envelope for that sampled ammonitid family rather than the complete Ammonitida range or a Cretaceous extinction endpoint.",
+    "confidence": "medium",
+    "confidenceRationale": "The paper directly scopes its family sample to the Early Jurassic. Medium confidence applies to the broad period envelope and not to unsampled ammonitid lineages.",
+    "reviewedBy": "Codex automated evidence audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "Bardin et al. 2017 DOI 10.1111/cla.12151",
+    "referenceLinks": [
+      {
+        "relation": "supports",
+        "referenceId": "bardin-2017-hildoceratidae",
+        "pages": "21–40",
+        "figure": "Figures 2–8",
+        "quoteLocator": "Abstract: Early Jurassic Hildoceratidae; Methods: 105-taxon matrix"
+      },
+      {
+        "relation": "contextualizes",
+        "referenceId": "ics-2026-06",
+        "pages": "International Chronostratigraphic Chart v2026/06",
+        "figure": "Global chronostratigraphic scale",
+        "quoteLocator": "Numerical boundaries for the named stages and periods used to bound the source sample"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:belemnitida:source-bounded-range-rc50",
+    "subjectId": "taxon:belemnitida",
+    "claimKind": "scientific",
+    "claimType": "fossil-range",
+    "statement": "Stevens et al. publish a 24-species belemnite sample, first and last occurrence inputs, a 253.1 Ma youngest permitted origin offset and terminal K–Pg context, supporting a 253.1–66.0 Ma study-defined envelope rather than exact global FAD, LAD or continuous occupancy.",
+    "confidence": "medium",
+    "confidenceRationale": "The study exposes its occurrence data and calibration boundary directly. Medium confidence reflects tip-dating and calibration dependence and is limited to the published study envelope.",
+    "reviewedBy": "Codex automated evidence audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "Stevens et al. 2023 DOI 10.26879/1239",
+    "referenceLinks": [
+      {
+        "relation": "supports",
+        "referenceId": "stevens-2023-belemnites",
+        "pages": "Introduction pp. 3–4; Methods pp. 5–7",
+        "figure": "Table 1; Appendix 2",
+        "quoteLocator": "Twenty-four sampled species; first/last occurrence ages; 253.1 Ma origin offset; K–Pg terminal context"
+      },
+      {
+        "relation": "contextualizes",
+        "referenceId": "ics-2026-06",
+        "pages": "International Chronostratigraphic Chart v2026/06",
+        "figure": "Global chronostratigraphic scale",
+        "quoteLocator": "Numerical boundaries for the named stages and periods used to bound the source sample"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:pojetaia:source-bounded-range-rc50",
+    "subjectId": "taxon:pojetaia",
+    "claimKind": "scientific",
+    "claimType": "fossil-range",
+    "statement": "More than fifty Pojetaia specimens from probably Botomian Ajax Limestone and lowermost Botomian Erkeket Formation units support a Cambrian Stage 4 sample envelope of 514.5–506.5 Ma; this is not an exhaustive global genus FAD or LAD.",
+    "confidence": "medium",
+    "confidenceRationale": "The paper directly documents the shell material and qualified regional correlations. Medium confidence is limited to the conservative Stage 4 envelope because one correlation is explicitly probable.",
+    "reviewedBy": "Codex automated evidence audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "Vendrasco et al. 2011 DOI 10.1111/j.1475-4983.2011.01056.x",
+    "referenceLinks": [
+      {
+        "relation": "supports",
+        "referenceId": "vendrasco-et-al-2011-pojetaia",
+        "pages": "825–850",
+        "figure": "Plate 1",
+        "quoteLocator": "pp. 826–829, Materials and methods; more than 50 UNEL 1872 specimens; Botomian unit correlations"
+      },
+      {
+        "relation": "contextualizes",
+        "referenceId": "ics-2026-06",
+        "pages": "International Chronostratigraphic Chart v2026/06",
+        "figure": "Global chronostratigraphic scale",
+        "quoteLocator": "Numerical boundaries for the named stages and periods used to bound the source sample"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:octopus-bimaculoides:source-bounded-range-rc50",
+    "subjectId": "taxon:octopus-bimaculoides",
+    "claimKind": "scientific",
+    "claimType": "fossil-range",
+    "statement": "Albertin et al. document one living male Octopus bimaculoides genome and twelve tissue transcriptomes, so 0 Ma denotes a present-day research sample only and does not date the species origin, fossil first appearance or complete geographic range.",
+    "confidence": "high",
+    "confidenceRationale": "The methods and BioProject accessions directly identify the sampled living material. High confidence applies only to present-day sample status, not evolutionary duration.",
+    "reviewedBy": "Codex automated evidence audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "Albertin et al. 2015 DOI 10.1038/nature14668",
+    "referenceLinks": [
+      {
+        "relation": "supports",
+        "referenceId": "albertin-et-al-2015-octopus-genome",
+        "pages": "220–224",
+        "figure": "Figure 1a",
+        "quoteLocator": "Methods: Genome sequencing and assembly; Transcriptome sequencing; BioProjects PRJNA270931 and PRJNA285380"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:micrina:source-bounded-range-rc50",
+    "subjectId": "taxon:micrina",
+    "claimKind": "scientific",
+    "claimType": "fossil-range",
+    "statement": "Micrina material from four broadly synchronous late Atdabanian carbonate units supports a conservative Cambrian Stage 3 study-sample envelope of 521–514.5 Ma, not a global genus range, a brachiopod origin date or a direct-ancestor sequence.",
+    "confidence": "medium",
+    "confidenceRationale": "The paper explicitly identifies the sampled units and relative age. Medium confidence reflects conversion to the broader modern Stage 3 envelope and the reconstructed nature of the whole body.",
+    "reviewedBy": "Codex automated evidence audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "Holmer et al. 2008 DOI 10.1098/rsbl.2008.0277",
+    "referenceLinks": [
+      {
+        "relation": "supports",
+        "referenceId": "holmer-et-al-2008-micrina",
+        "pages": "724–728",
+        "figure": "Figure 1; Table 1",
+        "quoteLocator": "p. 725, Wilkawillina Limestone; p. 727, four broadly synchronous late Atdabanian carbonate units"
+      },
+      {
+        "relation": "contextualizes",
+        "referenceId": "ics-2026-06",
+        "pages": "International Chronostratigraphic Chart v2026/06",
+        "figure": "Global chronostratigraphic scale",
+        "quoteLocator": "Numerical boundaries for the named stages and periods used to bound the source sample"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:yuganotheca:source-bounded-range-rc50",
+    "subjectId": "taxon:yuganotheca",
+    "claimKind": "scientific",
+    "claimType": "fossil-range",
+    "statement": "Zhang et al. place 710 Yuganotheca specimens in the Eoredlichia–Wutingaspis zone of the Yu’anshan Member and correlate them with late Atdabanian/Botoman Cambrian Stage 3, supporting a 521–514.5 Ma sample envelope rather than a global genus range or lophophorate divergence date.",
+    "confidence": "medium",
+    "confidenceRationale": "The formal stratigraphy and locality section states the unit, zone and Stage 3 correlation directly. Medium confidence is limited to the enclosing stage and does not convert the morphology-based placement into ancestry.",
+    "reviewedBy": "Codex automated evidence audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "Zhang et al. 2014 DOI 10.1038/srep04682",
+    "referenceLinks": [
+      {
+        "relation": "supports",
+        "referenceId": "zhang-et-al-2014-yuganotheca",
+        "pages": "Article 4682",
+        "figure": "Figures 1–6",
+        "quoteLocator": "Systematic palaeontology, Stratigraphy and locality; Yu’anshan Member; Eoredlichia–Wutingaspis zone; late Atdabanian/Botoman Stage 3"
+      },
+      {
+        "relation": "contextualizes",
+        "referenceId": "ics-2026-06",
+        "pages": "International Chronostratigraphic Chart v2026/06",
+        "figure": "Global chronostratigraphic scale",
+        "quoteLocator": "Numerical boundaries for the named stages and periods used to bound the source sample"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:lingula-anatina:source-bounded-range-rc50",
+    "subjectId": "taxon:lingula-anatina",
+    "claimKind": "scientific",
+    "claimType": "fossil-range",
+    "statement": "Luo et al. document living gravid Lingula anatina adults collected in July and August at Kasari Bay with exact coordinates, so 0 Ma denotes that present-day collection only and does not date lineage origin, fossil duration or morphological stasis.",
+    "confidence": "high",
+    "confidenceRationale": "The biological-materials method and supplementary locality figure directly identify the living collection. High confidence applies only to sampled present-day status.",
+    "reviewedBy": "Codex automated evidence audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "Luo et al. 2015 DOI 10.1038/ncomms9301",
+    "referenceLinks": [
+      {
+        "relation": "supports",
+        "referenceId": "luo-et-al-2015-lingula-genome",
+        "pages": "Article 8301",
+        "figure": "Supplementary Figure 1",
+        "quoteLocator": "Methods: Biological materials; gravid adults collected in July and August at Kasari Bay with coordinates"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:stromatoporoidea:range-boundary-rc50",
+    "subjectId": "taxon:stromatoporoidea",
+    "claimKind": "scientific",
+    "claimType": "fossil-range",
+    "statement": "Stromatoporoidea has no published scalar range here: the reviewed record comprises a Palaeozoic Ordovician–Late Devonian episode and a separate Late Triassic–Cretaceous, rarely Cenozoic, stromatoporoid-grade episode, so the former 485–359 Ma continuous display is withheld.",
+    "confidence": "low",
+    "confidenceRationale": "Kershaw and Jeon (2024) explicitly describe two separated stromatoporoid-grade episodes. Low confidence applies to any attempt to collapse that discontinuous, grade-sensitive record into one taxon-wide scalar interval.",
+    "reviewedBy": "Codex automated evidence audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "kershaw-jeon-2024-stromatoporoids-extinctions locator checked for rc50",
+    "referenceLinks": [
+      {
+        "relation": "supports",
+        "referenceId": "kershaw-jeon-2024-stromatoporoids-extinctions",
+        "pages": "252:104721",
+        "figure": "Review synthesis of the two major episodes",
+        "quoteLocator": "Abstract; conclusions"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:demospongiae:range-boundary-rc50",
+    "subjectId": "taxon:demospongiae",
+    "claimKind": "scientific",
+    "claimType": "fossil-range",
+    "statement": "Demospongiae is displayed at 635–0 Ma only as a contested biomarker-to-living navigation anthology: Cryogenian 24-isopropylcholestanes are not taxonomically exclusive to demosponges and do not establish a body-fossil FAD, crown origin or continuous global occupancy.",
+    "confidence": "contested",
+    "confidenceRationale": "Love et al. (2009) directly document the South Oman steranes and age context, whereas Nettersheim et al. (2019) directly weaken their taxonomic specificity. Contested confidence is therefore attached to the 635 Ma assignment, not to the existence of living demosponges.",
+    "reviewedBy": "Codex automated evidence audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "love-2009-sponge-steranes locator checked for rc50",
+    "referenceLinks": [
+      {
+        "relation": "supports",
+        "referenceId": "love-2009-sponge-steranes",
+        "pages": "457:718–721",
+        "figure": "Figures 1–3; Supplementary Tables 1–4",
+        "quoteLocator": "Sterane measurements and Cryogenian stratigraphic context"
+      },
+      {
+        "relation": "contradicts",
+        "referenceId": "nettersheim-2019-rhizaria-steranes",
+        "pages": "3:577–581",
+        "figure": "Figures 1–3; Supplementary Tables",
+        "quoteLocator": "Rhizarian sterol assays and biomarker-specificity discussion"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:anthozoa:range-boundary-rc50",
+    "subjectId": "taxon:anthozoa",
+    "claimKind": "scientific",
+    "claimType": "fossil-range",
+    "statement": "Anthozoa has no supported scalar temporal range in the cited evidence: the phylogenomic analysis tests relationships among sampled living cnidarians but does not date a crown-Anthozoa fossil boundary, so the former 540–0 Ma display is withheld.",
+    "confidence": "low",
+    "confidenceRationale": "Zapata et al. (2015) is fit for topology, not a temporal range. Low confidence records that no crown-specific fossil or calibrated boundary was located for the former Anthozoa display.",
+    "reviewedBy": "Codex automated evidence audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "zapata-2015-cnidaria locator checked for rc50",
+    "referenceLinks": [
+      {
+        "relation": "supports",
+        "referenceId": "zapata-2015-cnidaria",
+        "pages": "Article e0139068",
+        "figure": "Figures 1–3",
+        "quoteLocator": "Phylogenomic matrices and topology tests"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:rugosa:range-boundary-rc50",
+    "subjectId": "taxon:rugosa",
+    "claimKind": "scientific",
+    "claimType": "fossil-range",
+    "statement": "Rugosa is displayed at 471.3–251.9 Ma as Oliver’s review-bounded Middle Ordovician–end-Permian fossil record; the numerical conversion is not a specimen-level FAD/LAD or a claim of uninterrupted global occupancy.",
+    "confidence": "medium",
+    "confidenceRationale": "Oliver (1996), p. 107 and the opening synthesis, explicitly states the Middle Ordovician to end-Permian range. Medium confidence reflects conversion from named intervals rather than directly dated boundary specimens.",
+    "reviewedBy": "Codex automated evidence audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "oliver-1996-paleozoic-corals locator checked for rc50",
+    "referenceLinks": [
+      {
+        "relation": "supports",
+        "referenceId": "oliver-1996-paleozoic-corals",
+        "pages": "107–110",
+        "figure": "Opening range synthesis",
+        "quoteLocator": "Abstract; Rugosa range statement"
+      },
+      {
+        "relation": "contextualizes",
+        "referenceId": "ics-2026-06",
+        "pages": "International Chronostratigraphic Chart v2026/06",
+        "figure": "Global chronostratigraphic scale",
+        "quoteLocator": "Numerical boundaries for the named intervals"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:tabulata:range-boundary-rc50",
+    "subjectId": "taxon:tabulata",
+    "claimKind": "scientific",
+    "claimType": "fossil-range",
+    "statement": "Tabulata is displayed at 486.85–251.9 Ma as Oliver’s review-bounded Early Ordovician–end-Permian fossil record; the numerical conversion is not a specimen-level FAD/LAD or a claim of uninterrupted global occupancy.",
+    "confidence": "medium",
+    "confidenceRationale": "Oliver (1996), p. 107 and the opening synthesis, explicitly states the Early Ordovician to end-Permian range. Medium confidence reflects conversion from named intervals rather than directly dated boundary specimens.",
+    "reviewedBy": "Codex automated evidence audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "oliver-1996-paleozoic-corals locator checked for rc50",
+    "referenceLinks": [
+      {
+        "relation": "supports",
+        "referenceId": "oliver-1996-paleozoic-corals",
+        "pages": "107–110",
+        "figure": "Opening range synthesis",
+        "quoteLocator": "Abstract; Tabulata range statement"
+      },
+      {
+        "relation": "contextualizes",
+        "referenceId": "ics-2026-06",
+        "pages": "International Chronostratigraphic Chart v2026/06",
+        "figure": "Global chronostratigraphic scale",
+        "quoteLocator": "Numerical boundaries for the named intervals"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:scleractinia:range-boundary-rc50",
+    "subjectId": "taxon:scleractinia",
+    "claimKind": "scientific",
+    "claimType": "fossil-range",
+    "statement": "Scleractinia is displayed at 247.2–0 Ma as Oliver’s review-bounded Middle Triassic–Holocene fossil-to-living range; it is not the Paleozoic molecular-clock estimate, a symbiosis-event window or an exact crown-origin date.",
+    "confidence": "medium",
+    "confidenceRationale": "Oliver (1996), p. 107 and the opening synthesis, directly separates the Middle Triassic–Holocene scleractinian record from Paleozoic coral groups. Medium confidence reflects named-interval conversion and review-level synthesis.",
+    "reviewedBy": "Codex automated evidence audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "oliver-1996-paleozoic-corals locator checked for rc50",
+    "referenceLinks": [
+      {
+        "relation": "supports",
+        "referenceId": "oliver-1996-paleozoic-corals",
+        "pages": "107–110",
+        "figure": "Opening range synthesis",
+        "quoteLocator": "Abstract; Middle Triassic–Holocene Scleractinia statement"
+      },
+      {
+        "relation": "contextualizes",
+        "referenceId": "ics-2026-06",
+        "pages": "International Chronostratigraphic Chart v2026/06",
+        "figure": "Global chronostratigraphic scale",
+        "quoteLocator": "Numerical Middle Triassic boundary"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:calcarea:range-boundary-rc50",
+    "subjectId": "taxon:calcarea",
+    "claimKind": "scientific",
+    "claimType": "fossil-range",
+    "statement": "Calcarea has no supported scalar temporal range in the cited evidence: the sampled extant phylogeny does not establish a 535 Ma fossil occurrence or crown boundary, so the former 535–0 Ma display is withheld.",
+    "confidence": "low",
+    "confidenceRationale": "Voigt et al. (2012) directly supports relationships among sampled living Calcarea, not a fossil-age boundary. Low confidence records the absence of range-fit support for 535 Ma.",
+    "reviewedBy": "Codex automated evidence audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "voigt-2012-calcarea-phylogeny locator checked for rc50",
+    "referenceLinks": [
+      {
+        "relation": "supports",
+        "referenceId": "voigt-2012-calcarea-phylogeny",
+        "pages": "Article e33417",
+        "figure": "Figures 1–7",
+        "quoteLocator": "Extant sampling, phylogenetic tests and character reconstructions"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:homoscleromorpha:range-boundary-rc50",
+    "subjectId": "taxon:homoscleromorpha",
+    "claimKind": "scientific",
+    "claimType": "fossil-range",
+    "statement": "Homoscleromorpha has no supported scalar temporal range in the cited evidence: formal recognition of the living class supplies taxonomy but no fossil boundary, so the former 0–0 placeholder is withheld rather than presented as a range.",
+    "confidence": "low",
+    "confidenceRationale": "Gazave et al. (2012) supports class recognition and diagnosis, not temporal endpoints. Low confidence prevents a living-only taxonomic source from being misread as a 0 Ma origin.",
+    "reviewedBy": "Codex automated evidence audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "gazave-2012-homoscleromorpha locator checked for rc50",
+    "referenceLinks": [
+      {
+        "relation": "supports",
+        "referenceId": "gazave-2012-homoscleromorpha",
+        "pages": "3–10",
+        "figure": "Formal diagnosis",
+        "quoteLocator": "Evidence synthesis and formal class nomination"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:amphimedon_queenslandica:range-boundary-rc50",
+    "subjectId": "taxon:amphimedon_queenslandica",
+    "claimKind": "scientific",
+    "claimType": "fossil-range",
+    "statement": "Amphimedon queenslandica has no supported scalar species range in the cited evidence: the genome paper samples a living sponge but does not date the species origin or fossil duration, so the former 0–0 placeholder is withheld.",
+    "confidence": "low",
+    "confidenceRationale": "Srivastava et al. (2010) directly supports a living genome sample and comparative characters. Low confidence prevents that present-day sample from being converted into a species origination date.",
+    "reviewedBy": "Codex automated evidence audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "srivastava-2010-amphimedon locator checked for rc50",
+    "referenceLinks": [
+      {
+        "relation": "supports",
+        "referenceId": "srivastava-2010-amphimedon",
+        "pages": "720–726",
+        "figure": "Figures 1–5",
+        "quoteLocator": "Genome assembly and comparative analyses"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:haootia:range-boundary-rc50",
+    "subjectId": "taxon:haootia",
+    "claimKind": "scientific",
+    "claimType": "fossil-range",
+    "statement": "Haootia is displayed at 565–560 Ma only as the bounded holotype-bearing interval used by the competing muscular-cnidarian interpretations; it is not a crown-Staurozoa FAD, direct ancestor or global genus duration.",
+    "confidence": "contested",
+    "confidenceRationale": "Liu et al. (2014) documents the holotype and original interpretation, while Miranda et al. (2015) and McIlroy et al. (2024) expose competing character readings. Contested confidence is restricted to the bounded specimen interval.",
+    "reviewedBy": "Codex automated evidence audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "liu-2014-haootia locator checked for rc50",
+    "referenceLinks": [
+      {
+        "relation": "supports",
+        "referenceId": "liu-2014-haootia",
+        "pages": "Article 20141202",
+        "figure": "Figures 1–4",
+        "quoteLocator": "Holotype OUM ÁT.424/p and original reconstruction"
+      },
+      {
+        "relation": "contradicts",
+        "referenceId": "miranda-2015-haootia",
+        "pages": "Article 20142396",
+        "figure": "Figure 1",
+        "quoteLocator": "Reassessment of muscle orientation"
+      },
+      {
+        "relation": "contextualizes",
+        "referenceId": "mcilroy-2024-haootia",
+        "pages": "Article 1096",
+        "figure": "Figures 2–8",
+        "quoteLocator": "Holotype re-examination and crown-staurozoan hypothesis"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:xianguangia:range-boundary-rc50",
+    "subjectId": "taxon:xianguangia",
+    "claimKind": "scientific",
+    "claimType": "fossil-range",
+    "statement": "Xianguangia is displayed at 518–518 Ma only as the age-bounded Chengjiang specimen sample assessed by competing body-plan interpretations; it is not a crown-anthozoan FAD, direct ancestor or global genus duration.",
+    "confidence": "contested",
+    "confidenceRationale": "Ou et al. (2017) and Zhao et al. (2023) examine the same taxon with materially different column and affinity interpretations. Contested confidence applies to the bounded occurrence, not either higher-level placement.",
+    "reviewedBy": "Codex automated evidence audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "ou-2017-xianguangia locator checked for rc50",
+    "referenceLinks": [
+      {
+        "relation": "supports",
+        "referenceId": "ou-2017-xianguangia",
+        "pages": "114:8835–8840",
+        "figure": "Figures 1–4; Supplementary Figures",
+        "quoteLocator": "Specimens, reconstruction and phylogenetic analysis"
+      },
+      {
+        "relation": "contradicts",
+        "referenceId": "zhao-2023-xianguangia",
+        "pages": "Article 2215787",
+        "figure": "Figures 1–6",
+        "quoteLocator": "Column reinterpretation and indeterminate phylum-level affinity"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:medusozoa:range-boundary-rc50",
+    "subjectId": "taxon:medusozoa",
+    "claimKind": "scientific",
+    "claimType": "fossil-range",
+    "statement": "Medusozoa is displayed at 562–0 Ma only as a stem-fossil-to-living navigation anthology: Auroralumina provides a matrix-dependent Ediacaran stem-medusozoan anchor, not a crown-Medusozoa FAD, direct ancestor or continuous global range.",
+    "confidence": "medium",
+    "confidenceRationale": "Dunn et al. (2022) directly documents the Charnwood specimen and tests its stem-medusozoan placement. Medium confidence is restricted to that interpreted fossil anchor plus living continuation, not to a crown origin.",
+    "reviewedBy": "Codex automated evidence audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "dunn-2022-auroralumina locator checked for rc50",
+    "referenceLinks": [
+      {
+        "relation": "supports",
+        "referenceId": "dunn-2022-auroralumina",
+        "pages": "6:1095–1104",
+        "figure": "Figures 1–4; Extended Data Figures 1–8",
+        "quoteLocator": "Charnwood age, morphology and stem-medusozoan placement"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:hydrozoa:range-boundary-rc50",
+    "subjectId": "taxon:hydrozoa",
+    "claimKind": "scientific",
+    "claimType": "fossil-range",
+    "statement": "Hydrozoa has no supported scalar temporal range in the cited evidence: the character-evolution review does not document a diagnostic 520 Ma hydrozoan fossil or crown boundary, so the former 520–0 Ma display is withheld.",
+    "confidence": "low",
+    "confidenceRationale": "Cartwright and Nawrocki (2010) supports hydrozoan character interpretation, not a dated fossil endpoint. Low confidence records the missing specimen-level basis for 520 Ma.",
+    "reviewedBy": "Codex automated evidence audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "cartwright-nawrocki-2010-hydrozoa locator checked for rc50",
+    "referenceLinks": [
+      {
+        "relation": "supports",
+        "referenceId": "cartwright-nawrocki-2010-hydrozoa",
+        "pages": "456–472",
+        "figure": "Figures 1–4",
+        "quoteLocator": "Hydrozoan character-evolution synthesis"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:staurozoa:range-boundary-rc50",
+    "subjectId": "taxon:staurozoa",
+    "claimKind": "scientific",
+    "claimType": "fossil-range",
+    "statement": "Staurozoa has no supported scalar crown range in the cited evidence: extant systematics does not date the crown and the Haootia comparison is contested, so the former 562–0 Ma display is withheld.",
+    "confidence": "low",
+    "confidenceRationale": "Miranda et al. (2016) supports living staurozoan systematics, while Miranda et al. (2015) shows that Haootia is not a secure crown calibration. Low confidence prevents transfer of that contested fossil to the class boundary.",
+    "reviewedBy": "Codex automated evidence audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "miranda-2016-staurozoa locator checked for rc50",
+    "referenceLinks": [
+      {
+        "relation": "supports",
+        "referenceId": "miranda-2016-staurozoa",
+        "pages": "Article e1951",
+        "figure": "Figures 3–8; Table 1",
+        "quoteLocator": "Extant systematic revision"
+      },
+      {
+        "relation": "contradicts",
+        "referenceId": "miranda-2015-haootia",
+        "pages": "Article 20142396",
+        "figure": "Figure 1",
+        "quoteLocator": "Reassessment of the staurozoan comparison"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:cubozoa:range-boundary-rc50",
+    "subjectId": "taxon:cubozoa",
+    "claimKind": "scientific",
+    "claimType": "fossil-range",
+    "statement": "Cubozoa has no supported scalar crown range in the cited evidence: the phylogeny samples living box jellies but does not establish a diagnostic 505 Ma crown fossil, so the former 505–0 Ma display is withheld.",
+    "confidence": "low",
+    "confidenceRationale": "Bentlage et al. (2010) directly supports extant cubozoan relationships, not a Cambrian temporal boundary. Low confidence records that the former older endpoint lacks crown-specific fossil support.",
+    "reviewedBy": "Codex automated evidence audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "bentlage-2010-cubozoa locator checked for rc50",
+    "referenceLinks": [
+      {
+        "relation": "supports",
+        "referenceId": "bentlage-2010-cubozoa",
+        "pages": "493–501",
+        "figure": "Figures 1–3",
+        "quoteLocator": "Extant phylogenetic analyses and character discussion"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:scyphozoa:range-boundary-rc50",
+    "subjectId": "taxon:scyphozoa",
+    "claimKind": "scientific",
+    "claimType": "fossil-range",
+    "statement": "Scyphozoa has no supported scalar crown range in the cited evidence: the living-taxon phylogeny does not establish a diagnostic 505 Ma crown scyphozoan, so the former 505–0 Ma display is withheld.",
+    "confidence": "low",
+    "confidenceRationale": "Bayha et al. (2010) supports relationships among sampled living Scyphozoa, not a Cambrian fossil assignment. Low confidence keeps the unverified class-level endpoint unpublished.",
+    "reviewedBy": "Codex automated evidence audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "bayha-2010-scyphozoa locator checked for rc50",
+    "referenceLinks": [
+      {
+        "relation": "supports",
+        "referenceId": "bayha-2010-scyphozoa",
+        "pages": "436–455",
+        "figure": "Figures 1–4",
+        "quoteLocator": "Family sampling and phylogenetic results"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:burgessomedusa:range-boundary-rc50",
+    "subjectId": "taxon:burgessomedusa",
+    "claimKind": "scientific",
+    "claimType": "fossil-range",
+    "statement": "Burgessomedusa is displayed at 506–504 Ma only as the Raymond Quarry specimen interval described for the genus; it is not a crown-medusozoan FAD, direct ancestor or global continuous duration.",
+    "confidence": "medium",
+    "confidenceRationale": "Moon et al. (2023) directly documents the Raymond Quarry specimens, diagnosis and medusozoan comparison. Medium confidence is bounded to that sampled occurrence and does not extrapolate a higher-clade range.",
+    "reviewedBy": "Codex automated evidence audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "moon-2023-burgessomedusa locator checked for rc50",
+    "referenceLinks": [
+      {
+        "relation": "supports",
+        "referenceId": "moon-2023-burgessomedusa",
+        "pages": "Article 20222490",
+        "figure": "Figures 1–5; Supplementary Figures",
+        "quoteLocator": "Raymond Quarry specimens, diagnosis and medusozoan comparisons"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:myxozoa:range-boundary-rc50",
+    "subjectId": "taxon:myxozoa",
+    "claimKind": "scientific",
+    "claimType": "fossil-range",
+    "statement": "Myxozoa has no supported scalar temporal range in the cited evidence: phylogenomics resolves a cnidarian placement and genome reduction but provides no fossil or calibrated origin boundary, so the former 0–0 placeholder is withheld.",
+    "confidence": "low",
+    "confidenceRationale": "Chang et al. (2015) directly supports topology and genomic reduction, not temporal endpoints. Low confidence prevents a living molecular sample from being misrepresented as a zero-duration range.",
+    "reviewedBy": "Codex automated evidence audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "chang-2015-myxozoa locator checked for rc50",
+    "referenceLinks": [
+      {
+        "relation": "supports",
+        "referenceId": "chang-2015-myxozoa",
+        "pages": "14912–14917",
+        "figure": "Figures 1–4",
+        "quoteLocator": "Phylogenomic and genome-reduction analyses"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:octocorallia:range-boundary-rc50",
+    "subjectId": "taxon:octocorallia",
+    "claimKind": "scientific",
+    "claimType": "fossil-range",
+    "statement": "Octocorallia has no supported scalar crown range in the cited evidence: the mitochondrial phylogeny samples living octocorals but supplies no fossil or calibrated crown boundary, so the former 0–0 placeholder is withheld.",
+    "confidence": "low",
+    "confidenceRationale": "McFadden et al. (2006) directly supports extant octocoral topology, not an origin date. Low confidence records the absence of range-fit evidence for numerical endpoints.",
+    "reviewedBy": "Codex automated evidence audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "mcfadden-2006-octocorallia locator checked for rc50",
+    "referenceLinks": [
+      {
+        "relation": "supports",
+        "referenceId": "mcfadden-2006-octocorallia",
+        "pages": "513–527",
+        "figure": "Figures 1–4",
+        "quoteLocator": "Living-taxon sampling and phylogenetic results"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:hexacorallia:range-boundary-rc50",
+    "subjectId": "taxon:hexacorallia",
+    "claimKind": "scientific",
+    "claimType": "fossil-range",
+    "statement": "Hexacorallia has no supported scalar crown range in the cited evidence: the classification review does not justify transferring a 425 Ma Paleozoic coral occurrence to crown Hexacorallia, so the former 425–0 Ma display is withheld.",
+    "confidence": "low",
+    "confidenceRationale": "Daly et al. (2007) supports classification and comparative morphology, not a crown-specific temporal boundary. Low confidence blocks grade-to-crown age transfer.",
+    "reviewedBy": "Codex automated evidence audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "daly-2007-cnidaria-review locator checked for rc50",
+    "referenceLinks": [
+      {
+        "relation": "supports",
+        "referenceId": "daly-2007-cnidaria-review",
+        "pages": "127–182",
+        "figure": "Hexacorallia classification",
+        "quoteLocator": "Classification and phylogenetic-pattern sections"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:lepidodendron:range-boundary-rc50",
+    "subjectId": "taxon:lepidodendron",
+    "claimKind": "scientific",
+    "claimType": "fossil-range",
+    "statement": "Lepidodendron has no supported scalar temporal range here because the navigation record mixes a genus-level ID with a broader Lepidodendrales/arborescent-lycopsid concept, and the cited Carboniferous matrix does not define global endpoints; the former 359–299 Ma display is withheld.",
+    "confidence": "low",
+    "confidenceRationale": "Bateman et al. (1992) samples anatomically preserved arborescent lycopsids for cladistic analysis, but the entity concept is not aligned to one global genus range. Low confidence records that unresolved scope mismatch.",
+    "reviewedBy": "Codex automated evidence audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "bateman-1992-arborescent-lycopsids locator checked for rc50",
+    "referenceLinks": [
+      {
+        "relation": "supports",
+        "referenceId": "bateman-1992-arborescent-lycopsids",
+        "pages": "79:500–559",
+        "figure": "Character matrix and strict-consensus trees",
+        "quoteLocator": "Sampled arborescent lycopsids and cladistic scope"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:equisetopsida:range-boundary-rc50",
+    "subjectId": "taxon:equisetopsida",
+    "claimKind": "scientific",
+    "claimType": "fossil-range",
+    "statement": "Equisetopsida is displayed at 372.2–0 Ma only as a Sphenopsida/Equisetopsida Devonian-to-living navigation lineage; it is not a crown-Equisetum origin date, direct-ancestor chain or claim that one species persisted throughout.",
+    "confidence": "medium",
+    "confidenceRationale": "Elgorriaga et al. (2018) explicitly describes Sphenopsida as having a Devonian fossil history and analyses fossil plus living horsetails. Medium confidence is restricted to that broad navigation concept and named-interval conversion.",
+    "reviewedBy": "Codex automated evidence audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "elgorriaga-2018-horsetails locator checked for rc50",
+    "referenceLinks": [
+      {
+        "relation": "supports",
+        "referenceId": "elgorriaga-2018-horsetails",
+        "pages": "105:1286–1303",
+        "figure": "Table 1; Figure 3",
+        "quoteLocator": "Premise and fossil-inclusive Sphenopsida analysis"
+      },
+      {
+        "relation": "contextualizes",
+        "referenceId": "ics-2026-06",
+        "pages": "International Chronostratigraphic Chart v2026/06",
+        "figure": "Global chronostratigraphic scale",
+        "quoteLocator": "Famennian numerical boundary"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:filicopsida:range-boundary-rc50",
+    "subjectId": "taxon:filicopsida",
+    "claimKind": "scientific",
+    "claimType": "fossil-range",
+    "statement": "Filicopsida has no supported scalar range here: the historical class concept is not aligned with a single crown or total group, and the review questions Devonian fern assignments while recognizing firmer Lower Carboniferous filicalean evidence; the former 360–0 Ma display is withheld.",
+    "confidence": "low",
+    "confidenceRationale": "Galtier and Scott (1985) explicitly separates questionable Devonian assignments from firmer Lower Carboniferous filicalean evidence, while Lehtonen (2011) is primarily topological. Low confidence records the unresolved taxonomic boundary.",
+    "reviewedBy": "Codex automated evidence audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "galtier-scott-1985-early-ferns locator checked for rc50",
+    "referenceLinks": [
+      {
+        "relation": "supports",
+        "referenceId": "galtier-scott-1985-early-ferns",
+        "pages": "86:289–301",
+        "figure": "Two early-diversification diagrams",
+        "quoteLocator": "Synopsis and opening discussion"
+      },
+      {
+        "relation": "contextualizes",
+        "referenceId": "lehtonen-2011-fern-tree",
+        "pages": "Article e24851",
+        "figure": "Figures 1–3",
+        "quoteLocator": "Extant-heavy fern topology"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:anthocerotophyta:range-boundary-rc50",
+    "subjectId": "taxon:anthocerotophyta",
+    "claimKind": "scientific",
+    "claimType": "fossil-range",
+    "statement": "Anthocerotophyta has no supported scalar temporal range in the cited evidence: two living hornwort genomes inform phylogenomics but do not establish a 470 Ma fossil or calibrated phylum boundary, so the former 470–0 Ma display is withheld.",
+    "confidence": "low",
+    "confidenceRationale": "Li et al. (2020) directly supports living-genome comparisons and topology, not a fossil first appearance. Low confidence records the absence of range-fit support for the former 470 Ma endpoint.",
+    "reviewedBy": "Codex automated evidence audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "li-2020-hornwort-genomes locator checked for rc50",
+    "referenceLinks": [
+      {
+        "relation": "supports",
+        "referenceId": "li-2020-hornwort-genomes",
+        "pages": "6:259–272",
+        "figure": "Figures 1–5",
+        "quoteLocator": "Two hornwort genomes, phylogenomics and comparative genomics"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:coniferophyta:range-boundary-rc50",
+    "subjectId": "taxon:coniferophyta",
+    "claimKind": "scientific",
+    "claimType": "fossil-range",
+    "statement": "Coniferophyta is displayed at 300–0 Ma only as a conservative review-bounded fossil-to-living navigation range: the source says the conifer record spans more than 300 million years, not that 300 Ma is an exact origin or specimen-level FAD.",
+    "confidence": "medium",
+    "confidenceRationale": "Leslie et al. (2018) explicitly states an extensive fossil record spanning more than 300 million years and discusses extinction-driven sampling limits. Medium confidence uses 300 Ma only as a conservative evidence floor.",
+    "reviewedBy": "Codex automated evidence audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "leslie-2018-conifer-evolution locator checked for rc50",
+    "referenceLinks": [
+      {
+        "relation": "supports",
+        "referenceId": "leslie-2018-conifer-evolution",
+        "pages": "105:1531–1544",
+        "figure": "Figures 1–3",
+        "quoteLocator": "Abstract; fossil-record synthesis and conclusions"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:araucariaceae:range-boundary-rc50",
+    "subjectId": "taxon:araucariaceae",
+    "claimKind": "scientific",
+    "claimType": "fossil-range",
+    "statement": "Araucariaceae is displayed at 201.4–0 Ma only as a Hettangian-specimen-to-living navigation anthology: Holyoke specimen J 1430 is a bona fide family occurrence but does not establish the family FAD, crown origin or uninterrupted global occupancy.",
+    "confidence": "medium",
+    "confidenceRationale": "Axsmith et al. (2008) directly describes J 1430 and its Hettangian South Hadley Falls Member context. Medium confidence applies to that family-level specimen plus living continuation, not to older ambiguous araucarian material.",
+    "reviewedBy": "Codex automated evidence audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "axsmith-2008-holyoke-araucaria locator checked for rc50",
+    "referenceLinks": [
+      {
+        "relation": "supports",
+        "referenceId": "axsmith-2008-holyoke-araucaria",
+        "pages": "11.3.13A:1–9",
+        "figure": "Figures 1–2",
+        "quoteLocator": "Abstract; “Locality and Geological Setting”; description and discussion"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:poaceae:range-boundary-rc50",
+    "subjectId": "taxon:poaceae",
+    "claimKind": "scientific",
+    "claimType": "fossil-range",
+    "statement": "Poaceae is displayed at 67–0 Ma only as a latest-Cretaceous-phytolith-to-living navigation anthology: diagnostic Lameta coprolite phytoliths support grass presence but do not establish a body-fossil FAD, exact crown origin or uninterrupted global range.",
+    "confidence": "contested",
+    "confidenceRationale": "Prasad et al. (2005) directly documents the latest-Cretaceous Lameta phytolith assemblage and comparative morphotypes. Contested confidence reflects taxonomic inference from phytoliths and a bounded assemblage rather than a whole-family body-fossil range.",
+    "reviewedBy": "Codex automated evidence audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "prasad-2005-grass-phytoliths locator checked for rc50",
+    "referenceLinks": [
+      {
+        "relation": "supports",
+        "referenceId": "prasad-2005-grass-phytoliths",
+        "pages": "310:1177–1180",
+        "figure": "Figure 1; Figures 2–3",
+        "quoteLocator": "Stratigraphy, phytolith morphotypes and Supporting Online Text"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:eudicotyledones:range-boundary-rc50",
+    "subjectId": "taxon:eudicotyledones",
+    "claimKind": "scientific",
+    "claimType": "fossil-range",
+    "statement": "Eudicotyledones is displayed at 125.8–0 Ma only as a radiometrically bounded Leefructus-sample-to-living navigation anthology: the fossil supports basal-eudicot presence but does not establish the exact global FAD, crown divergence or continuous occupancy.",
+    "confidence": "high",
+    "confidenceRationale": "Sun et al. (2011) directly diagnose Leefructus and bound its fossil bed with multiple radiometric dates at 122.6–125.8 Ma. High confidence applies to that specimen and bed envelope plus living continuation, not an exact eudicot origin.",
+    "reviewedBy": "Codex automated evidence audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "sun-2011-leefructus locator checked for rc50",
+    "referenceLinks": [
+      {
+        "relation": "supports",
+        "referenceId": "sun-2011-leefructus",
+        "pages": "471:625–628",
+        "figure": "Figures 1–5",
+        "quoteLocator": "Abstract; 122.6–125.8 Ma bed dates and Leefructus diagnosis"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:fabaceae:range-boundary-rc50",
+    "subjectId": "taxon:fabaceae",
+    "claimKind": "scientific",
+    "claimType": "fossil-range",
+    "statement": "Fabaceae is displayed at 65.35–0 Ma only as a Corral-Bluffs-fossil-to-living navigation anthology: the dated fruit and leaflets support family presence but not an exact crown origin, subfamily assignment, direct ancestry or continuous global occupancy.",
+    "confidence": "medium",
+    "confidenceRationale": "Lyson et al. (2019) directly documents the 65.35 Ma Corral Bluffs fruit and leaflets, and Koenen et al. (2021) explicitly treats it as the oldest unequivocal legume fossil. Medium confidence keeps family presence separate from modelled crown timing.",
+    "reviewedBy": "Codex automated evidence audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "lyson-2019-corral-bluffs-recovery locator checked for rc50",
+    "referenceLinks": [
+      {
+        "relation": "supports",
+        "referenceId": "lyson-2019-corral-bluffs-recovery",
+        "pages": "366:977–983",
+        "figure": "Figure 3J–K",
+        "quoteLocator": "65.35 Ma legume fruit and leaflets; supplementary stratigraphy"
+      },
+      {
+        "relation": "contextualizes",
+        "referenceId": "koenen-2021-legume-origin",
+        "pages": "70:508–526",
+        "figure": "Figure 5; Supplementary Table S3",
+        "quoteLocator": "Introduction and oldest unequivocal legume fossil; divergence-time limitations"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:eurypterida:fossil-range",
+    "subjectId": "taxon:eurypterida",
+    "claimType": "fossil-range",
+    "claimKind": "scientific",
+    "statement": "The atlas shows a 479–250 Ma reviewed eurypterid fossil-record envelope from the oldest unequivocal Fezouata material to Tetlie's reviewed latest record, not an origination or extinction interval.",
+    "confidence": "medium",
+    "confidenceRationale": "Two range-fit studies directly bound the displayed fossil-record endpoints, while taxonomic revision and incomplete sampling prevent treating either edge as a biological event.",
+    "reviewedBy": "Evo Atlas maintainer source audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "van-roy-2025 + tetlie-2007 locator audit at 2026-08-31",
+    "referenceLinks": [
+      {
+        "referenceId": "van-roy-2025-fezouata-eurypterids",
+        "relation": "supports",
+        "pages": "Article 20252061",
+        "figure": "Figures 1–5",
+        "quoteLocator": "Systematic palaeontology and Discussion section 3(d), upper Tremadocian occurrence and approximately 479 Ma lower interval"
+      },
+      {
+        "referenceId": "tetlie-2007-eurypterid-history",
+        "relation": "supports",
+        "pages": "557–574",
+        "figure": "Tables 1–7",
+        "quoteLocator": "Abstract and Introduction, reviewed latest Late Permian Russian record at approximately 250 Ma"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:trilobite-evidence-samples:fossil-range",
+    "subjectId": "taxon:trilobite-evidence-samples",
+    "claimType": "fossil-range",
+    "claimKind": "scientific",
+    "statement": "The 521–443 Ma trilobite evidence route is a navigation envelope between separate early-trilobite and Beecher's Bed samples, not a lineage duration or continuous occurrence series.",
+    "confidence": "medium",
+    "confidenceRationale": "Both endpoint studies provide concrete sample ages, but their different taxa and localities require an explicitly editorial navigation interpretation.",
+    "reviewedBy": "Evo Atlas maintainer source audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "holmes-budd-2022 + hou-2021 locator audit at 2026-08-31",
+    "referenceLinks": [
+      {
+        "referenceId": "holmes-budd-2022-early-trilobites",
+        "relation": "supports",
+        "pages": "Article 1177",
+        "figure": "Figures 1–4",
+        "quoteLocator": "Abstract and Introduction, widespread early trilobite record at approximately 521 Ma"
+      },
+      {
+        "referenceId": "hou-2021-trilobite-gill",
+        "relation": "supports",
+        "pages": "Article eabe7377",
+        "figure": "Figures 1–5 and supplement",
+        "quoteLocator": "Beecher's Bed Triarthrus sample within 450–443 Ma"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:stem-chelicerate-evidence:fossil-range",
+    "subjectId": "taxon:stem-chelicerate-evidence",
+    "claimType": "fossil-range",
+    "claimKind": "scientific",
+    "statement": "The 519–500.5 Ma stem-chelicerate evidence route links the Chengjiang Urokodia and Wheeler Megachelicerax samples and does not represent one lineage's temporal duration.",
+    "confidence": "medium",
+    "confidenceRationale": "The two primary descriptions directly date their named samples, while their separate fossils and analyses preclude a continuous lineage claim.",
+    "reviewedBy": "Evo Atlas maintainer source audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "liu-2026 + lerosey-aubril-ortega-2026 locator audit at 2026-08-31",
+    "referenceLinks": [
+      {
+        "referenceId": "liu-2026-urokodia",
+        "relation": "supports",
+        "pages": "653–658",
+        "figure": "Figures 1–3",
+        "quoteLocator": "Chengjiang Urokodia sample at 519–518 Ma"
+      },
+      {
+        "referenceId": "lerosey-aubril-ortega-2026-megachelicerax",
+        "relation": "supports",
+        "pages": "931–937",
+        "figure": "Figures 1–3",
+        "quoteLocator": "Wheeler Formation Megachelicerax sample at 504.5–500.5 Ma"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:pycnogonida:fossil-range",
+    "subjectId": "taxon:pycnogonida",
+    "claimType": "fossil-range",
+    "claimKind": "scientific",
+    "statement": "The 500–0 Ma pycnogonid display is a contested total-group fossil-to-living navigation envelope because Cambropycnogon is only possibly a pycnogonid and is not a secure crown first appearance.",
+    "confidence": "contested",
+    "confidenceRationale": "The original systematic account supports the Cambrian candidate, whereas the later fossil synthesis explicitly retains uncertainty over its assignment.",
+    "reviewedBy": "Evo Atlas maintainer source audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "waloszek-dunlop-2002 + sabroux-2024 locator audit at 2026-08-31",
+    "referenceLinks": [
+      {
+        "referenceId": "waloszek-dunlop-2002-cambropycnogon",
+        "relation": "supports",
+        "pages": "421–446",
+        "figure": "Text-figures 1–2",
+        "quoteLocator": "Abstract and systematic account proposing Cambropycnogon as the oldest pycnogonid/chelicerate record"
+      },
+      {
+        "referenceId": "sabroux-2024-pycnogonid-fossils",
+        "relation": "supports",
+        "pages": "Article e17766",
+        "figure": "Table 1",
+        "quoteLocator": "Cambropycnogon classified as possibly Pycnogonida rather than a secure crown record"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:araneae:fossil-range",
+    "subjectId": "taxon:araneae",
+    "claimType": "fossil-range",
+    "claimKind": "scientific",
+    "statement": "The 315–0 Ma Araneae display is an oldest-known-fossil-to-living navigation envelope and does not date spider origination or crown divergence.",
+    "confidence": "medium",
+    "confidenceRationale": "A systematic fossil review and a separately imaged Carboniferous arachnid study converge on the approximately 315 Ma true-spider record while distinguishing stem-like material.",
+    "reviewedBy": "Evo Atlas maintainer source audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "selden-penney-2010 + garwood-2016 locator audit at 2026-08-31",
+    "referenceLinks": [
+      {
+        "referenceId": "selden-penney-2010-spider-fossil-record",
+        "relation": "supports",
+        "pages": "171–206",
+        "figure": "Table S1",
+        "quoteLocator": "Systematic fossil-record review of Carboniferous spiders"
+      },
+      {
+        "referenceId": "garwood-2016-idmonarachne",
+        "relation": "supports",
+        "pages": "Article 20160125",
+        "figure": "Main-text figures",
+        "quoteLocator": "Introduction traces Araneae to approximately 315 Ma and distinguishes Idmonarachne from true spiders"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:acari:fossil-range",
+    "subjectId": "taxon:acari",
+    "claimType": "fossil-range",
+    "claimKind": "scientific",
+    "statement": "The 410–0 Ma Acari display begins with the oldest securely accepted reviewed mite record and remains a broad fossil-to-living envelope rather than a consensus crown age.",
+    "confidence": "contested",
+    "confidenceRationale": "The fossil review directly rejects unsupported older assignments, but contested Acari topology limits the interpretation of this broad navigation concept.",
+    "reviewedBy": "Evo Atlas maintainer source audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "sidorchuk-2018 locator audit at 2026-08-31",
+    "referenceLinks": [
+      {
+        "referenceId": "sidorchuk-2018-acari-fossil-record",
+        "relation": "supports",
+        "pages": "349–359",
+        "figure": "Fossil dataset",
+        "quoteLocator": "Abstract and dataset, more than 260 fossils from approximately 410 Ma onward and rejected older assignments"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:odonatoptera:fossil-range",
+    "subjectId": "taxon:odonatoptera",
+    "claimType": "fossil-range",
+    "claimKind": "scientific",
+    "statement": "The 325–0 Ma Odonatoptera display is a reviewed oldest-fossil-to-living navigation envelope beginning with Serpukhovian records at 325–324 Ma.",
+    "confidence": "medium",
+    "confidenceRationale": "The systematic review directly identifies the oldest superorder record and separately distinguishes it from the later appearance of modern Odonata.",
+    "reviewedBy": "Evo Atlas maintainer source audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "sutherland-2025 locator audit at 2026-08-31",
+    "referenceLinks": [
+      {
+        "referenceId": "sutherland-2025-odonatoptera-classification",
+        "relation": "supports",
+        "pages": "Article 5",
+        "figure": "Odonatoptera classification synthesis",
+        "quoteLocator": "Paleontological Record and Odonatoptera Classification sections, oldest record at 325–324 Ma"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:odonata:fossil-range",
+    "subjectId": "taxon:odonata",
+    "claimType": "fossil-range",
+    "claimKind": "scientific",
+    "statement": "The 268–0 Ma Odonata display begins with the earliest fossil recognized as a modern odonate, Saxonagrion minutus, rather than inheriting the older Odonatoptera edge.",
+    "confidence": "medium",
+    "confidenceRationale": "The review explicitly identifies the approximately 268 Ma fossil as the earliest modern odonate, providing a concept-matched minimum rather than an origin estimate.",
+    "reviewedBy": "Evo Atlas maintainer source audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "bybee-2016 locator audit at 2026-08-31",
+    "referenceLinks": [
+      {
+        "referenceId": "bybee-2016-odonata-fossil-record",
+        "relation": "supports",
+        "pages": "Article 46",
+        "figure": "Figure 2",
+        "quoteLocator": "Fossil-record paragraph identifies Saxonagrion minutus at approximately 268 Ma as the earliest modern odonate"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:meganisoptera:fossil-range",
+    "subjectId": "taxon:meganisoptera",
+    "claimType": "fossil-range",
+    "claimKind": "scientific",
+    "statement": "The 318–259 Ma Meganisoptera display is a sampled fossil-record envelope from Namurian B through at least the end of the Middle Permian, not an exact extinction interval.",
+    "confidence": "medium",
+    "confidenceRationale": "The study directly summarizes the first record and minimum persistence, while its wording leaves the actual Late Permian extinction time unresolved.",
+    "reviewedBy": "Evo Atlas maintainer source audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "ellers-2024 locator audit at 2026-08-31",
+    "referenceLinks": [
+      {
+        "referenceId": "ellers-2024-meganisoptera-flight",
+        "relation": "supports",
+        "pages": "598–610",
+        "figure": "Introduction fossil-history synthesis",
+        "quoteLocator": "First Namurian B record at approximately 318–315 Ma and persistence at least to the end of the Middle Permian"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:coleoptera:fossil-range",
+    "subjectId": "taxon:coleoptera",
+    "claimType": "fossil-range",
+    "claimKind": "scientific",
+    "statement": "The 298–0 Ma Coleoptera display begins at the standardized Asselian bin containing the earliest definite beetles and is not an inferred order-origin date.",
+    "confidence": "medium",
+    "confidenceRationale": "The integrated fossil dataset identifies Tshekardocoleidae as the earliest definite beetles and exposes the 298 Ma binning method used for the display edge.",
+    "reviewedBy": "Evo Atlas maintainer source audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "zhao-2021 locator audit at 2026-08-31",
+    "referenceLinks": [
+      {
+        "referenceId": "zhao-2021-beetle-evolution",
+        "relation": "supports",
+        "pages": "Article e72692",
+        "figure": "Figure 2 and source data",
+        "quoteLocator": "Discussion on earliest definite beetles and Methods Diversity analysis with Asselian bins beginning at 298 Ma"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:hymenoptera:fossil-range",
+    "subjectId": "taxon:hymenoptera",
+    "claimType": "fossil-range",
+    "claimKind": "scientific",
+    "statement": "The 242–0 Ma Hymenoptera display begins at the older edge of the 242–237 Ma oldest-undisputed xyelid fossil interval and is a fossil minimum, not an origin estimate.",
+    "confidence": "medium",
+    "confidenceRationale": "The systematic divergence-dating review explicitly distinguishes the oldest undisputed fossil calibration from inferred deeper order ages.",
+    "reviewedBy": "Evo Atlas maintainer source audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "zhang-2025 locator audit at 2026-08-31",
+    "referenceLinks": [
+      {
+        "referenceId": "zhang-2025-hymenoptera-divergence-dating",
+        "relation": "supports",
+        "pages": "1–31",
+        "figure": "Figure 2; Tables S2–S3",
+        "quoteLocator": "Brief History of Divergence Dating, oldest undisputed Xyelidae at approximately 242–237 Ma"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:ostracoda:fossil-range",
+    "subjectId": "taxon:ostracoda",
+    "claimType": "fossil-range",
+    "claimKind": "scientific",
+    "statement": "The 450–0 Ma Ostracoda display begins with the first unequivocal pre-Silurian ostracod occurrence and excludes less secure older shell-only assignments.",
+    "confidence": "medium",
+    "confidenceRationale": "The exceptional-preservation study directly demonstrates ostracod anatomy and brood care at approximately 450 Ma, resolving ambiguity present in older shell-only records.",
+    "reviewedBy": "Evo Atlas maintainer source audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "siveter-2014 locator audit at 2026-08-31",
+    "referenceLinks": [
+      {
+        "referenceId": "siveter-2014-luprisca-ostracod",
+        "relation": "supports",
+        "pages": "801–806",
+        "figure": "Main-text figures",
+        "quoteLocator": "Highlights, Summary and Results identify Luprisca at approximately 450 Ma as the first unequivocal pre-Silurian ostracod"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:malacostraca:fossil-range",
+    "subjectId": "taxon:malacostraca",
+    "claimType": "fossil-range",
+    "claimKind": "scientific",
+    "statement": "The 500–0 Ma Malacostraca display uses the reviewed phyllocarid fossil minimum and must not be interpreted as a crown-Malacostraca divergence date.",
+    "confidence": "medium",
+    "confidenceRationale": "A systematic archaeostracan study and an explicit fossil-calibration table independently support the approximately 500 Ma phyllocarid bound while leaving crown placement distinct.",
+    "reviewedBy": "Evo Atlas maintainer source audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "collette-hagadorn-2010 + van-der-wal-2017 locator audit at 2026-08-31",
+    "referenceLinks": [
+      {
+        "referenceId": "collette-hagadorn-2010-archaeostraca",
+        "relation": "supports",
+        "pages": "795–820",
+        "figure": "Arenosicaris systematic account",
+        "quoteLocator": "Discussion of the earliest Middle–Late Cambrian Phyllocarida"
+      },
+      {
+        "referenceId": "van-der-wal-2017-malacostracan-calibrations",
+        "relation": "supports",
+        "pages": "Article e3844",
+        "figure": "Table 1",
+        "quoteLocator": "Fossil calibrations identify phyllocarids as the oldest malacostracans at at least 500 Ma"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:chilopoda:fossil-range",
+    "subjectId": "taxon:chilopoda",
+    "claimType": "fossil-range",
+    "claimKind": "scientific",
+    "statement": "The 418–0 Ma Chilopoda display begins with the oldest catalogued Upper Silurian Crussolum occurrence and is not a centipede origin date.",
+    "confidence": "medium",
+    "confidenceRationale": "The global fossil catalog directly inventories the approximately 418 Ma Ludford Lane record among 74 occurrences, providing a transparent sampled-record boundary.",
+    "reviewedBy": "Evo Atlas maintainer source audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "cadenas-amaya-2025 locator audit at 2026-08-31",
+    "referenceLinks": [
+      {
+        "referenceId": "cadenas-amaya-2025-centipede-fossil-record",
+        "relation": "supports",
+        "pages": "Article 1",
+        "figure": "Table 1; Figure 3",
+        "quoteLocator": "Introduction and Paleozoic section, Upper Silurian Crussolum at approximately 418 Ma"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:diplopoda:fossil-range",
+    "subjectId": "taxon:diplopoda",
+    "claimType": "fossil-range",
+    "claimKind": "scientific",
+    "statement": "The Diplopoda display uses the 425.5 ± 4.5 Ma Kampecaris age with uncertainty stored separately and does not inflate the error margin into a hard 430 Ma edge.",
+    "confidence": "medium",
+    "confidenceRationale": "A recent geological synthesis provides the numerical age and uncertainty, while the earlier systematic review rejects less secure pre-Pridoli assignments.",
+    "reviewedBy": "Evo Atlas maintainer source audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "brookfield-2025 + almond-lawson-1985 locator audit at 2026-08-31",
+    "referenceLinks": [
+      {
+        "referenceId": "brookfield-2025-kampecaris-age",
+        "relation": "supports",
+        "pages": "Article 6",
+        "figure": "Geological-age synthesis",
+        "quoteLocator": "Abstract and section 1 date Kampecaris obanensis to 425.5 ± 4.5 Ma"
+      },
+      {
+        "referenceId": "almond-lawson-1985-paleozoic-millipedes",
+        "relation": "supports",
+        "pages": "227–237",
+        "figure": "Systematic review",
+        "quoteLocator": "Pre-Pridoli claims are questionable; reliable Diplopoda occur in the latest Silurian–Lower Devonian"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:hipparionini:fossil-range",
+    "subjectId": "taxon:hipparionini",
+    "claimType": "fossil-range",
+    "claimKind": "scientific",
+    "statement": "Hipparionini retains four distinct displays: a heterogeneous 17–0.6 Ma navigation composite, a 17–2 Ma North American review envelope, an 11.4–11 Ma Old World dispersal window, and a 1–0.6 Ma selected terminal regional window.",
+    "confidence": "contested",
+    "confidenceRationale": "Two systematic reviews directly support the separate regional markers, but their heterogeneous taxa, continents and purposes preclude one global lineage-duration interpretation.",
+    "reviewedBy": "Evo Atlas maintainer source audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "mchorse-2019 + bernor-2021 range locator audit at 2026-08-31",
+    "referenceLinks": [
+      {
+        "referenceId": "mc-horse-monodactyly-2019",
+        "relation": "supports",
+        "pages": "1–5, 10–15",
+        "figure": "Figures 1–4, especially Figure 3",
+        "quoteLocator": "North American review-matrix record from approximately 17 Ma through the Plio-Pleistocene"
+      },
+      {
+        "referenceId": "bernor-2021-hipparions",
+        "relation": "supports",
+        "pages": "1–20",
+        "figure": "Figures 10 and 13",
+        "quoteLocator": "Old World first dispersal at 11.4–11 Ma and selected MQ1 terminal regional records to 0.6 Ma"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:coelodonta:fossil-range",
+    "subjectId": "taxon:coelodonta",
+    "claimType": "fossil-range",
+    "claimKind": "scientific",
+    "statement": "The 5.08–0.0144 Ma Coelodonta display connects the reviewed earliest known C. thibetana occurrence to one directly dated 14.4 ka C. antiquitatis individual and is not a global genus FAD/LAD.",
+    "confidence": "medium",
+    "confidenceRationale": "The systematic review and directly dated genomic specimen independently support the two represented records, while neither proves exact genus-wide origination or extinction.",
+    "reviewedBy": "Evo Atlas maintainer source audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "ma-2024 + gudjonsdottir-2026 locator audit at 2026-08-31",
+    "referenceLinks": [
+      {
+        "referenceId": "ma-2024-coelodonta-paleoecology",
+        "relation": "supports",
+        "pages": "1–15",
+        "figure": "Figures 1–6; Tables 1–2",
+        "quoteLocator": "Evolutionary-history review identifies C. thibetana at 5.08 Ma as the earliest known genus record"
+      },
+      {
+        "referenceId": "gudjonsdottir-2026-coelodonta",
+        "relation": "supports",
+        "pages": "1–8",
+        "figure": "Figures 1–3; Supplementary Tables",
+        "quoteLocator": "Directly dated 14.4 ka C. antiquitatis individual"
       }
     ]
   }

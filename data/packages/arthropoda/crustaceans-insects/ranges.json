@@ -59,181 +59,167 @@
     "id": "range:odonatoptera:global",
     "entityId": "odonatoptera",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Odonatoptera",
-    "geographicScope": "Global or represented navigation composite",
+    "taxonomicConcept": "Odonatoptera oldest-reviewed-fossil-to-living navigation envelope",
+    "geographicScope": "Reviewed fossil record and living representatives",
     "olderMa": 325,
     "youngerMa": 0,
     "status": "available",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "note": "The 325 Ma edge is the oldest reviewed fossil record, not an origination or crown-divergence date."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "evidenceBasis": "A systematic review places the oldest Odonatoptera in the Serpukhovian at 325–324 Ma; living odonatopterans extend this sampled-record navigation envelope to the present.",
     "confidence": "medium",
-    "claimIds": [],
+    "claimIds": [
+      "claim:taxon:odonatoptera:fossil-range"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
-      },
-      {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "sutherland-2025-odonatoptera-classification",
+        "locator": "Article 5; Paleontological Record and Odonatoptera Classification sections; oldest Serpukhovian Odonatoptera at 325–324 Ma"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "literature-synthesized"
   },
   {
     "id": "range:odonata:global",
     "entityId": "odonata",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Odonata",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 325,
+    "taxonomicConcept": "Modern Odonata oldest-recognized-fossil-to-living navigation envelope",
+    "geographicScope": "Reviewed fossil record and living representatives",
+    "olderMa": 268,
     "youngerMa": 0,
     "status": "available",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "note": "The 268 Ma edge marks the earliest fossil recognized as a modern odonate, not the origin of the total group."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "evidenceBasis": "A fossil-calibrated odonate synthesis identifies the approximately 268 Ma Saxonagrion minutus as the earliest modern odonate; living Odonata extend the navigation envelope to the present.",
     "confidence": "medium",
-    "claimIds": [],
+    "claimIds": [
+      "claim:taxon:odonata:fossil-range"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
-      },
-      {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "bybee-2016-odonata-fossil-record",
+        "locator": "Article 46; fossil-record paragraph and Figure 2; Saxonagrion minutus at approximately 268 Ma identified as the earliest modern odonate"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "literature-synthesized"
   },
   {
     "id": "range:meganisoptera:global",
     "entityId": "meganisoptera",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Meganisoptera",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 325,
-    "youngerMa": 250,
+    "taxonomicConcept": "Meganisoptera reviewed sampled fossil-record envelope",
+    "geographicScope": "Reviewed fossil occurrences",
+    "olderMa": 318,
+    "youngerMa": 259,
     "status": "available",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "note": "The younger edge is rounded to the end of the Middle Permian and is not an exact last appearance."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "evidenceBasis": "The review records Meganisoptera first in Namurian B at approximately 318–315 Ma and at least through the end of the Middle Permian; it does not support the former exact 250 Ma endpoint.",
     "confidence": "medium",
-    "claimIds": [],
+    "claimIds": [
+      "claim:taxon:meganisoptera:fossil-range"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
-      },
-      {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "ellers-2024-meganisoptera-flight",
+        "locator": "pp. 598–610; Introduction; first Namurian B record at approximately 318–315 Ma and persistence at least to the end of the Middle Permian"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "literature-synthesized"
   },
   {
     "id": "range:meganeura:global",
     "entityId": "meganeura",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Meganeura",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 305,
-    "youngerMa": 299,
-    "status": "available",
+    "taxonomicConcept": "Meganeura numerical range withheld pending genus-wide stratigraphic synthesis",
+    "geographicScope": "No defensible global numerical scope established",
+    "olderMa": 0,
+    "youngerMa": 0,
+    "status": "withheld-pending-provenance",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "note": "The redescription treats selected Meganeura material but does not establish genus-wide numerical endpoints."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
-    "confidence": "medium",
+    "evidenceBasis": "The former 305–299 Ma display is withheld because the systematic redescription does not directly audit those values as the complete temporal range of Meganeura.",
+    "confidence": "low",
     "claimIds": [],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
-      },
-      {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "nel-2009-meganeuridae-revision",
+        "locator": "pp. 89–121; Abstract and systematic redescription of Meganeura monyi and selected Eurasian taxa"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "withheld-no-range-evidence"
   },
   {
     "id": "range:coleoptera:global",
     "entityId": "coleoptera",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Coleoptera",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 299,
+    "taxonomicConcept": "Coleoptera earliest-definite-fossil-to-living navigation envelope",
+    "geographicScope": "Reviewed global fossil dataset and living representatives",
+    "olderMa": 298,
     "youngerMa": 0,
     "status": "available",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "note": "The 298 Ma edge is the standardized Asselian time-bin boundary for the earliest definite beetles, not an origination date."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "evidenceBasis": "An integrated fossil dataset identifies Early Permian Tshekardocoleidae as the earliest definite beetles and assigns their first standardized bin an older edge of 298 Ma; living beetles extend the envelope to the present.",
     "confidence": "medium",
-    "claimIds": [],
+    "claimIds": [
+      "claim:taxon:coleoptera:fossil-range"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
-      },
-      {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "zhao-2021-beetle-evolution",
+        "locator": "Results Figure 2 and source data; Discussion paragraph on the earliest definite beetles; Methods, Diversity analysis, Asselian–Ladinian bins beginning at 298 Ma"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "literature-synthesized"
   },
   {
     "id": "range:hymenoptera:global",
     "entityId": "hymenoptera",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Hymenoptera",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 200,
+    "taxonomicConcept": "Hymenoptera oldest-undisputed-fossil-to-living navigation envelope",
+    "geographicScope": "Reviewed fossil calibrations and living representatives",
+    "olderMa": 242,
     "youngerMa": 0,
     "status": "available",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "note": "The 242 Ma edge is an oldest-undisputed fossil minimum, not an order-origin estimate."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "evidenceBasis": "A systematic review of hymenopteran divergence dating places the oldest undisputed xyelid fossils within approximately 242–237 Ma; living Hymenoptera extend the navigation envelope to the present.",
     "confidence": "medium",
-    "claimIds": [],
+    "claimIds": [
+      "claim:taxon:hymenoptera:fossil-range"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
-      },
-      {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "zhang-2025-hymenoptera-divergence-dating",
+        "locator": "pp. 1–31; Brief History of Divergence Dating; Figure 2; Tables S2–S3; oldest undisputed Xyelidae at approximately 242–237 Ma"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "literature-synthesized"
   },
   {
     "id": "range:crustacea:global",
@@ -267,61 +253,61 @@
     "id": "range:ostracoda:global",
     "entityId": "ostracoda",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Ostracoda",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 485,
+    "taxonomicConcept": "Ostracoda earliest-unequivocal-fossil-to-living navigation envelope",
+    "geographicScope": "Unequivocal fossil record and living representatives",
+    "olderMa": 450,
     "youngerMa": 0,
     "status": "available",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "note": "The 450 Ma edge is the oldest unequivocal reviewed occurrence; older shell-only assignments remain uncertain."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "evidenceBasis": "A primary study identifies the approximately 450 Ma Luprisca record as the first unequivocal pre-Silurian ostracod occurrence; living ostracods extend the sampled-record envelope to the present.",
     "confidence": "medium",
-    "claimIds": [],
+    "claimIds": [
+      "claim:taxon:ostracoda:fossil-range"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
-      },
-      {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "siveter-2014-luprisca-ostracod",
+        "locator": "pp. 801–806; Highlights, Summary and Results; figures documenting the approximately 450 Ma Luprisca occurrence and caution over older shell-only assignments"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "literature-synthesized"
   },
   {
     "id": "range:malacostraca:global",
     "entityId": "malacostraca",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Malacostraca",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 360,
+    "taxonomicConcept": "Phyllocarid-based oldest-malacostracan-to-living navigation envelope",
+    "geographicScope": "Reviewed Cambrian phyllocarid record and living malacostracans",
+    "olderMa": 500,
     "youngerMa": 0,
     "status": "available",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "note": "The 500 Ma edge depends on phyllocarid placement and is not a crown-Malacostraca divergence date."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "evidenceBasis": "A systematic study places early phyllocarids in the middle–late Cambrian, and a fossil-calibration review treats phyllocarids as the oldest malacostracans at at least 500 Ma; living representatives extend the navigation envelope to the present.",
     "confidence": "medium",
-    "claimIds": [],
+    "claimIds": [
+      "claim:taxon:malacostraca:fossil-range"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
+        "referenceId": "collette-hagadorn-2010-archaeostraca",
+        "locator": "pp. 795–820; Arenosicaris occurrence and systematic account; discussion of the earliest Middle–Late Cambrian Phyllocarida"
       },
       {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "van-der-wal-2017-malacostracan-calibrations",
+        "locator": "pp. 1–17; Fossil calibrations; Table 1; phyllocarids identified as the oldest malacostracans at at least 500 Ma"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "literature-synthesized"
   },
   {
     "id": "range:myriapoda:global",
@@ -355,53 +341,61 @@
     "id": "range:chilopoda:global",
     "entityId": "chilopoda",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Chilopoda",
-    "geographicScope": "Global legacy atlas display",
-    "olderMa": 430,
+    "taxonomicConcept": "Chilopoda oldest-reviewed-fossil-to-living navigation envelope",
+    "geographicScope": "Reviewed global fossil catalog and living representatives",
+    "olderMa": 418,
     "youngerMa": 0,
     "status": "available",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Rounded display values; not a literature-synthesized taxon range."
+      "note": "The 418 Ma edge is the oldest catalogued fossil occurrence, not an origin or crown-divergence date."
     },
-    "evidenceBasis": "Legacy rounded display range retained for navigation pending dedicated literature synthesis.",
-    "evidenceLevel": "legacy-display",
+    "evidenceBasis": "A global fossil catalog identifies Crussolum from Ludford Lane in the Upper Silurian at approximately 418 Ma as the oldest centipede record; living centipedes extend the navigation envelope to the present.",
+    "evidenceLevel": "literature-synthesized",
     "confidence": "medium",
-    "claimIds": [],
+    "claimIds": [
+      "claim:taxon:chilopoda:fossil-range"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "taxonomic context only; range locator pending"
+        "referenceId": "cadenas-amaya-2025-centipede-fossil-record",
+        "locator": "Article 1; Introduction and Paleozoic section; Table 1; Figure 3; Upper Silurian Crussolum at approximately 418 Ma"
       }
     ],
-    "reviewStatus": "not-reviewed"
+    "reviewStatus": "automated-audit-passed"
   },
   {
     "id": "range:diplopoda:global",
     "entityId": "diplopoda",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Diplopoda",
-    "geographicScope": "Global legacy atlas display",
-    "olderMa": 425,
+    "taxonomicConcept": "Diplopoda oldest-reviewed-fossil-to-living navigation envelope",
+    "geographicScope": "Kampecaris occurrence and living representatives",
+    "olderMa": 425.5,
     "youngerMa": 0,
     "status": "available",
     "uncertainty": {
-      "olderMa": null,
+      "olderMa": 4.5,
       "youngerMa": null,
-      "note": "Rounded display values; not a literature-synthesized taxon range."
+      "note": "The Kampecaris age is 425.5 ± 4.5 Ma; the uncertainty is retained separately rather than converted to a hard 430 Ma edge."
     },
-    "evidenceBasis": "Legacy rounded display range retained for navigation pending dedicated literature synthesis.",
-    "evidenceLevel": "legacy-display",
+    "evidenceBasis": "A recent age synthesis dates the millipede Kampecaris obanensis to 425.5 ± 4.5 Ma, while an earlier systematic review rejects less secure pre-Pridoli claims; living millipedes extend the navigation envelope to the present.",
+    "evidenceLevel": "literature-synthesized",
     "confidence": "medium",
-    "claimIds": [],
+    "claimIds": [
+      "claim:taxon:diplopoda:fossil-range"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "taxonomic context only; range locator pending"
+        "referenceId": "brookfield-2025-kampecaris-age",
+        "locator": "Abstract; section 1 and geological-age synthesis; Kampecaris obanensis dated to 425.5 ± 4.5 Ma"
+      },
+      {
+        "referenceId": "almond-lawson-1985-paleozoic-millipedes",
+        "locator": "pp. 227–237; review of questionable pre-Pridoli records and reliable latest Silurian–Lower Devonian Diplopoda"
       }
     ],
-    "reviewStatus": "not-reviewed"
+    "reviewStatus": "automated-audit-passed"
   },
   {
     "id": "range:mandibulate-evidence-route:crustaceans-insects",

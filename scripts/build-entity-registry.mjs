@@ -87,12 +87,20 @@ if (duplicateProfileNodes.length) throw new Error(`Multiple profiles target the 
 for (const profile of profiles) if (profile.id !== profile.treeNodeId) throw new Error(`Profile ${profile.id} must use its treeNodeId as its stable ID`)
 
 function synchronizePhylogenyRanges(node) {
+  for (const child of node.children ?? []) synchronizePhylogenyRanges(child)
   const range = (rangesByEntityId.get(node.id) ?? []).find((entry) => entry.rangeKind === 'global-composite')
   if (range) {
-    node.firstAppearance = range.olderMa
-    node.lastAppearance = range.youngerMa
+    node.rangeEvidenceLevel = range.evidenceLevel
+    if (range.evidenceLevel !== 'withheld-no-range-evidence' || !(node.children?.length)) {
+      node.firstAppearance = range.olderMa
+      node.lastAppearance = range.youngerMa
+    } else {
+      // Required numeric tree fields become a child-containment layout envelope only.
+      // The evidence marker prevents this envelope from being presented as a taxon range.
+      node.firstAppearance = Math.max(...node.children.map((child) => child.firstAppearance))
+      node.lastAppearance = Math.min(...node.children.map((child) => child.lastAppearance))
+    }
   }
-  for (const child of node.children ?? []) synchronizePhylogenyRanges(child)
 }
 for (const entry of phylogenySourceEntries) {
   entry.source = structuredClone(entry.source)

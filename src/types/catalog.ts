@@ -31,7 +31,7 @@ export interface TaxonProfile {
   extinct: boolean
   firstAppearance: number
   lastAppearance: number
-  rangeEvidenceLevel: 'legacy-display' | 'database-derived' | 'literature-synthesized' | 'expert-reviewed'
+  rangeEvidenceLevel: 'legacy-display' | 'database-derived' | 'literature-synthesized' | 'withheld-no-range-evidence' | 'expert-reviewed'
   rangeReviewStatus: 'not-reviewed' | 'automated-audit-passed' | 'expert-reviewed'
   rangeProvisional: boolean
   geography: string[]

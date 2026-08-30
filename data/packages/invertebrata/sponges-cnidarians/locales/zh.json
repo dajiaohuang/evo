@@ -1,6 +1,6 @@
 {
   "language": "zh",
-  "version": "2026.08-static-v5-rc49",
+  "version": "2026.08-static-v5-rc50",
   "strings": {
     "entity.porifera.name": "海绵动物",
     "entity.stromatoporoidea.name": "层孔虫类",
@@ -78,10 +78,30 @@
     "claim.claim:taxon:scyphozoa.confidenceRationale": "按研究所用分类实现科级完整取样是一项优势，但仅有两个位点且若干节点未解析，因此采用中等置信度。",
     "claim.claim:taxon:myxozoa.confidenceRationale": "基因组尺度比较稳健支持取样类群的刺胞动物位置，但确切姊妹关系和历史年代仍较不确定。",
     "claim.claim:taxon:demospongiae.confidenceRationale": "已发表支持与反对意见直接讨论生物标志物来源专一性，因此保留争议置信度，不推断分类端点。",
-    "claim.claim:taxon:hexactinellida.confidenceRationale": "孤立骨针与地层背景是直接证据，但纲级诊断和再搬运可能性仍是时间推断的主要限制。",
+    "claim.claim:taxon:hexactinellida.confidenceRationale": "Antcliffe 等（2014）重新评估早期海绵候选，并把寒武纪初期硅质骨针视为该综述中最早的可靠材料。中等置信度明确保留纲级归属与现生延续的限制，不把 536 Ma 当作冠群日期。",
     "claim.claim:taxon:haootia.confidenceRationale": "正模印痕是直接证据，但组织身份与系统位置在所继承来源之间仍有明确争议。",
     "claim.claim:taxon:xianguangia.confidenceRationale": "扩展材料约束了总体解剖，但相互竞争的解剖解释阻止作出确定的刺胞动物干群或范围主张。",
     "claim.claim:taxon:burgessomedusa.confidenceRationale": "多件标本支持所述总体解剖，但更广水母亚门位置和首现主张超出该采石场样本证据。",
-    "claim.claim:taxon:scleractinia.confidenceRationale": "时钟结果明确，但校准、位点、类群取样和后验不确定性要求采用模型限定解释。"
+    "claim.claim:taxon:scleractinia.confidenceRationale": "时钟结果明确，但校准、位点、类群取样和后验不确定性要求采用模型限定解释。",
+    "claim.claim:taxon:stromatoporoidea:range-boundary-rc50.confidenceRationale": "Kershaw 与 Jeon（2024）明确区分两个彼此分离的层孔虫形态级阶段。低置信度针对把这种不连续且受形态级分类影响的记录压缩为单一类群区间的做法。",
+    "claim.claim:taxon:demospongiae:range-boundary-rc50.confidenceRationale": "Love 等（2009）直接记录阿曼南部甾烷及其年代背景，而 Nettersheim 等（2019）直接削弱其分类专一性。因此争议置信度针对 635 Ma 的归属，而非现生寻常海绵的存在。",
+    "claim.claim:taxon:anthozoa:range-boundary-rc50.confidenceRationale": "Zapata 等（2015）适用于拓扑关系，而不适用于时间范围。低置信度表示尚未找到能支持旧 Anthozoa 展示的冠群专属化石或校准边界。",
+    "claim.claim:taxon:rugosa:range-boundary-rc50.confidenceRationale": "Oliver（1996）第 107 页及开篇综述明确给出中奥陶世至二叠纪末的范围。中等置信度反映该范围由命名地层区间换算，而非直接测年的边界标本。",
+    "claim.claim:taxon:tabulata:range-boundary-rc50.confidenceRationale": "Oliver（1996）第 107 页及开篇综述明确给出早奥陶世至二叠纪末的范围。中等置信度反映该范围由命名地层区间换算，而非直接测年的边界标本。",
+    "claim.claim:taxon:scleractinia:range-boundary-rc50.confidenceRationale": "Oliver（1996）第 107 页及开篇综述直接把中三叠世—全新世石珊瑚记录与古生代珊瑚类群区分开。中等置信度反映命名区间换算和综述级综合。",
+    "claim.claim:taxon:calcarea:range-boundary-rc50.confidenceRationale": "Voigt 等（2012）直接支持所采样现生钙质海绵的关系，而非化石年代边界。低置信度表示 535 Ma 缺少适合范围用途的证据。",
+    "claim.claim:taxon:homoscleromorpha:range-boundary-rc50.confidenceRationale": "Gazave 等（2012）支持纲的建立与鉴定，而不支持时间端点。低置信度避免把仅涉及现生类群的分类来源误读为 0 Ma 起源。",
+    "claim.claim:taxon:amphimedon_queenslandica:range-boundary-rc50.confidenceRationale": "Srivastava 等（2010）直接支持现生基因组样本与比较性状。低置信度避免把当代样本转换为物种起源日期。",
+    "claim.claim:taxon:haootia:range-boundary-rc50.confidenceRationale": "Liu 等（2014）记录正模标本与原始解释，Miranda 等（2015）及 McIlroy 等（2024）展示相互竞争的性状解读。争议置信度仅限于有界标本区间。",
+    "claim.claim:taxon:xianguangia:range-boundary-rc50.confidenceRationale": "Ou 等（2017）与 Zhao 等（2023）对同一类群的柱状结构及亲缘关系提出实质不同的解释。争议置信度适用于有界出现记录，而非任一高阶归属。",
+    "claim.claim:taxon:medusozoa:range-boundary-rc50.confidenceRationale": "Dunn 等（2022）直接记录查恩伍德标本并检验其干群水母亚门位置。中等置信度仅限于该解释性化石锚点与现生延续，不涉及冠群起源。",
+    "claim.claim:taxon:hydrozoa:range-boundary-rc50.confidenceRationale": "Cartwright 与 Nawrocki（2010）支持水螅纲性状解释，而非有年代约束的化石端点。低置信度表示 520 Ma 缺少标本级依据。",
+    "claim.claim:taxon:staurozoa:range-boundary-rc50.confidenceRationale": "Miranda 等（2016）支持现生十字水母系统学，而 Miranda 等（2015）表明 Haootia 不能作为稳固冠群校准。低置信度避免把争议化石转移为纲级边界。",
+    "claim.claim:taxon:cubozoa:range-boundary-rc50.confidenceRationale": "Bentlage 等（2010）直接支持现生箱水母关系，而非寒武纪时间边界。低置信度表示旧有较老端点缺少冠群专属化石支持。",
+    "claim.claim:taxon:scyphozoa:range-boundary-rc50.confidenceRationale": "Bayha 等（2010）支持所采样现生钵水母的关系，而非寒武纪化石归属。低置信度使未经验证的纲级端点保持不发布。",
+    "claim.claim:taxon:burgessomedusa:range-boundary-rc50.confidenceRationale": "Moon 等（2023）直接记录雷蒙德采石场标本、鉴定特征及水母亚门比较。中等置信度仅限该采样出现记录，不外推高阶类群范围。",
+    "claim.claim:taxon:myxozoa:range-boundary-rc50.confidenceRationale": "Chang 等（2015）直接支持拓扑与基因组缩减，而不支持时间端点。低置信度避免把现生分子样本误表为零时长范围。",
+    "claim.claim:taxon:octocorallia:range-boundary-rc50.confidenceRationale": "McFadden 等（2006）直接支持现生八放珊瑚拓扑，而非起源日期。低置信度表示数值端点缺少适合范围用途的证据。",
+    "claim.claim:taxon:hexacorallia:range-boundary-rc50.confidenceRationale": "Daly 等（2007）支持分类与比较形态，而不支持冠群专属时间边界。低置信度阻止把形态级年代转移到冠群。"
   }
 }

@@ -17,6 +17,7 @@
         "name": { "type": "string" },
         "firstAppearance": { "type": "number", "minimum": 0 },
         "lastAppearance": { "type": "number", "minimum": 0 },
+        "rangeEvidenceLevel": { "enum": ["legacy-display", "database-derived", "literature-synthesized", "withheld-no-range-evidence", "expert-reviewed"] },
         "extinct": { "type": "boolean" },
         "children": { "type": "array", "items": { "$ref": "#/$defs/node" } }
       }

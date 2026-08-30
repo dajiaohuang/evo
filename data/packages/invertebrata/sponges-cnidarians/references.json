@@ -1,5 +1,23 @@
 [
   {
+    "id": "ics-2026-06",
+    "title": "International Chronostratigraphic Chart v2026/06",
+    "authors": "Cohen, K.M.; Harper, D.A.T.; Gibbard, P.L.; Car, N.",
+    "publishedYear": 2026,
+    "type": "standard",
+    "url": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+    "doi": "10.18814/epiiugs/2025/025001",
+    "version": "2026/06",
+    "publisher": "International Commission on Stratigraphy",
+    "note": "Numerical ages are revision-prone; the atlas stores the exact chart version.",
+    "sourceRole": "standard",
+    "fitnessFor": [
+      "geochronology",
+      "range"
+    ],
+    "metadataAssignment": "automated"
+  },
+  {
     "id": "pbdb-api-2016",
     "title": "The Paleobiology Database application programming interface",
     "authors": "Peters, S.E.; McClennen, M.",
@@ -648,6 +666,46 @@
       "taxonomy",
       "topology",
       "methods"
+    ],
+    "metadataAssignment": "curator-reviewed"
+  },
+  {
+    "id": "oliver-1996-paleozoic-corals",
+    "title": "Origins and relationships of Paleozoic coral groups and the origin of the Scleractinia",
+    "authors": "Oliver, W.A., Jr.",
+    "publishedYear": 1996,
+    "type": "paper",
+    "url": "https://doi.org/10.1017/S1089332600000073",
+    "doi": "10.1017/S1089332600000073",
+    "publisher": "The Paleontological Society Papers",
+    "pages": "1:107–134",
+    "note": "Systematic review whose abstract explicitly separates the Early Ordovician–end-Permian Tabulata, Middle Ordovician–end-Permian Rugosa and Middle Triassic–Holocene Scleractinia records.",
+    "sourceRole": "systematic-review",
+    "fitnessFor": [
+      "taxonomy",
+      "range",
+      "morphology",
+      "geochronology"
+    ],
+    "metadataAssignment": "curator-reviewed"
+  },
+  {
+    "id": "kershaw-jeon-2024-stromatoporoids-extinctions",
+    "title": "Stromatoporoids and extinctions: A review",
+    "authors": "Kershaw, S.; Jeon, J.",
+    "publishedYear": 2024,
+    "type": "paper",
+    "url": "https://doi.org/10.1016/j.earscirev.2024.104721",
+    "doi": "10.1016/j.earscirev.2024.104721",
+    "publisher": "Earth-Science Reviews",
+    "pages": "252:104721",
+    "note": "Review distinguishes two major stromatoporoid-grade episodes and warns against treating the intervening gap as one continuous clade range.",
+    "sourceRole": "systematic-review",
+    "fitnessFor": [
+      "taxonomy",
+      "range",
+      "morphology",
+      "geochronology"
     ],
     "metadataAssignment": "curator-reviewed"
   }
