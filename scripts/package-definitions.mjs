@@ -1,5 +1,5 @@
 export const PACKAGE_SCHEMA_VERSION = 5
-export const DATASET_PACKAGE_VERSION = '2026.08-static-v5-rc17'
+export const DATASET_PACKAGE_VERSION = '2026.08-static-v5-rc18'
 export const DATASET_RELEASE_DATE = '2026-08-30'
 
 export const packageDefinitions = [
@@ -124,7 +124,12 @@ export const packageDefinitions = [
     title: 'Ray-finned Fishes',
     titleZh: '辐鳍鱼类',
     rootEntityIds: ['actinopterygii'],
+    conceptScope: {
+      en: 'Seven primary-evidence dossiers separate specimen-scoped Devonian and Triassic fossils, topology-sensitive recalibration, extant genome and developmental comparisons, and molecular-model intervals. Curated navigation now exposes Neopterygii, Holostei, gars, bowfin, Teleosteomorpha and the deepest living teleost lineages. COL26.8 routes 35,928 strictly accepted species names below exact usage ID 8VR36; that count is nomenclatural browse coverage, not dossier, morphology, ecology, fossil, media, translation or expert-review maturity. Legacy navigation ranges remain unreviewed and are not claim-linked fossil FADs.',
+      zh: '七个一手证据档案严格区分标本限定的泥盆纪与三叠纪化石、依赖拓扑的重新校准、现生基因组与发育比较以及分子模型区间。策展导航现已展示新鳍鱼类、全骨鱼类、雀鳝、弓鳍鱼、真骨鱼总群与现生真骨鱼最深层支系。COL26.8 在精确 usage ID 8VR36 下路由 35,928 个严格接受种名；该数量只表示命名浏览覆盖，不表示档案、形态、生态、化石、媒体、翻译或专家评审成熟度。旧版导航延限仍未复核，也不是有主张关联的化石首现。',
+    },
     wave: 'C',
+    scientificMaturity: 'structured',
   },
   {
     id: 'tetrapod-transition',
