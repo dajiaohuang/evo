@@ -2,7 +2,7 @@ import { createHash } from 'node:crypto'
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs'
 import { dirname, isAbsolute, join, resolve } from 'node:path'
 import { flattenTree, readJson, rootDir } from './data-lib.mjs'
-import { DATASET_PACKAGE_VERSION, PACKAGE_SCHEMA_VERSION, packageDefinitions } from './package-definitions.mjs'
+import { DATASET_PACKAGE_VERSION, PACKAGE_SCHEMA_VERSION, packageDefinitions, researchPresetDefinitions } from './package-definitions.mjs'
 
 const ontology = readJson('data/navigation/atlas-ontology.json')
 const profileSourceEntries = packageDefinitions.flatMap((definition) => {
@@ -554,6 +554,39 @@ for (const definition of packageDefinitions) {
       .flatMap((story) => story.steps.flatMap((step) => step.claimLinks.flatMap((link) => claimsById.get(link.claimId)?.referenceLinks.map((referenceLink) => referenceLink.referenceId) ?? []))),
   ])
   const packageReferences = references.filter((reference) => packageReferenceIds.has(reference.id))
+  const researchPreset = researchPresetDefinitions[definition.id]
+  let sourceBoundResearchExample = null
+  if (definition.id !== 'perissodactyla') {
+    if (!researchPreset) throw new Error(`Package ${definition.id} has no explicit source-bound research preset definition`)
+    const presetEntity = packageEntities.find((entity) => entity.id === researchPreset.entityId)
+    if (!presetEntity) throw new Error(`Package ${definition.id} research preset references out-of-package entity ${researchPreset.entityId}`)
+    const presetClaims = researchPreset.claimIds.map((claimId) => {
+      const claim = packageClaims.find((candidate) => candidate.id === claimId)
+      if (!claim) throw new Error(`Package ${definition.id} research preset references out-of-package claim ${claimId}`)
+      if (claim.subjectId !== `taxon:${researchPreset.entityId}`) throw new Error(`Package ${definition.id} research preset claim ${claimId} does not describe ${researchPreset.entityId}`)
+      return claim
+    })
+    if (!presetClaims.length) throw new Error(`Package ${definition.id} research preset must link at least one claim`)
+    sourceBoundResearchExample = {
+      id: `${definition.id}-tree-preset`,
+      type: 'explorer-preset',
+      title: {
+        en: `${presetEntity.names.scientific} source-bound evidence`,
+        zh: `${presetEntity.names.zh}来源限定证据`,
+      },
+      description: {
+        en: `Open the Explorer at ${presetEntity.names.scientific} to inspect the linked, locator-bearing source claim together with this package's current occurrence context. This is a reproducible evidence entry point, not a phylogenetic result or a complete history of the group.`,
+        zh: `在探索器中打开${presetEntity.names.zh}，结合本包当前的出现记录背景检查带有精确来源定位的关联声明。这是可复现的证据检查入口，不是系统发育结果，也不是该类群的完整历史。`,
+      },
+      route: `#/explore?taxon=${encodeURIComponent(researchPreset.entityId)}&view=tree`,
+      entityIds: [researchPreset.entityId],
+      claimIds: presetClaims.map((claim) => claim.id),
+      evidenceStatus: 'available-with-limitations',
+      limitations: [
+        'The linked claim retains its own specimen, stratum, model, confidence and source-locator boundaries. The Explorer route does not establish an exact origin, global first or last appearance, direct ancestry, causal mechanism or package-specific phylogeny.',
+      ],
+    }
+  }
   const acceptedRows = occurrenceCountsByPackage.get(definition.id) ?? 0
   const targetedOccurrenceSnapshotPath = `data/sources/pbdb-targeted-${definition.id}-occurrences-v1.json`
   const targetedOccurrenceSnapshot = existsSync(join(rootDir, targetedOccurrenceSnapshotPath)) ? readJson(targetedOccurrenceSnapshotPath) : null
@@ -662,20 +695,7 @@ for (const definition of packageDefinitions) {
           evidenceStatus: 'available-with-limitations',
           limitations: ['Comparison fields inherit each claim, range and occurrence source boundary; visible differences are not tests of evolutionary causation.'],
         }]
-      : [{
-          id: `${definition.id}-tree-preset`,
-          type: 'explorer-preset',
-          title: { en: `${definition.title} tree context`, zh: `${definition.titleZh}树状背景` },
-          description: {
-            en: 'A stable Explorer entry point for inspecting the package registry context and currently available occurrence evidence.',
-            zh: '用于检查该内容包注册表背景和当前可用出现证据的稳定探索器入口。',
-          },
-          route: `#/explore?taxon=${encodeURIComponent(definition.rootEntityIds[0])}&view=tree`,
-          entityIds: [definition.rootEntityIds[0]],
-          claimIds: [],
-          evidenceStatus: 'scaffold',
-          limitations: ['This preset is a navigation and data-inspection example, not a reviewed scientific conclusion.'],
-        }],
+      : [sourceBoundResearchExample],
   })
   writeJson(`data/packages/${definition.path}/phylogeny/status.json`, phylogenySourceEntry
     ? {

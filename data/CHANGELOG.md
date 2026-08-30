@@ -1,5 +1,11 @@
 # Dataset changelog
 
+## App 0.20.6 / 2026.08-static-v5-rc55 — 2026-08-31
+
+- Replaced the twenty-three claim-free research scaffolds with explicit package-local evidence presets. All twenty-four rich-content packages now publish `available-with-limitations` research examples with 34 claim links: one new locator-bearing claim in each non-Perissodactyla package and the unchanged eleven-claim Perissodactyla comparison preset.
+- Kept the evidence boundary explicit: preset routes do not establish exact origins, global first or last appearances, crown ages, continuous lineage durations, direct ancestry, causal mechanisms or package phylogenies. Historical navigation groups remain navigation concepts rather than inferred monophyletic clades.
+- Preserved the existing two available phylogeny hypotheses and twenty-two `unmapped` package states, plus every claim, profile and story statement. Regenerated the shared Web/Android/iOS projections and advanced Android `versionCode` and iOS build number to `9`; no automated check creates maintainer or external-expert review.
+
 ## App 0.20.5 / 2026.08-static-v5-rc54 — 2026-08-31
 
 - Reconciled all 147 PBDB concepts previously marked `not-reconciled-after-ontology-expansion` against the pinned 2026-07-19 taxon CSV. Exactly 103 pass accepted-name, normalized-rank and complete-lineage compatibility; 44 remain withheld as 22 rank mismatches, 14 missing exact names, seven lineage conflicts and one accepted-name mismatch. No stale expansion reason remains.

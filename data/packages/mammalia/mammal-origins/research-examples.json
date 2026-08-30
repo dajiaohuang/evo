@@ -6,21 +6,23 @@
       "id": "mammal-origins-tree-preset",
       "type": "explorer-preset",
       "title": {
-        "en": "Synapsids and Mammal Origins tree context",
-        "zh": "合弓类与哺乳动物起源树状背景"
+        "en": "Synapsida source-bound evidence",
+        "zh": "合弓类来源限定证据"
       },
       "description": {
-        "en": "A stable Explorer entry point for inspecting the package registry context and currently available occurrence evidence.",
-        "zh": "用于检查该内容包注册表背景和当前可用出现证据的稳定探索器入口。"
+        "en": "Open the Explorer at Synapsida to inspect the linked, locator-bearing source claim together with this package's current occurrence context. This is a reproducible evidence entry point, not a phylogenetic result or a complete history of the group.",
+        "zh": "在探索器中打开合弓类，结合本包当前的出现记录背景检查带有精确来源定位的关联声明。这是可复现的证据检查入口，不是系统发育结果，也不是该类群的完整历史。"
       },
       "route": "#/explore?taxon=synapsida&view=tree",
       "entityIds": [
         "synapsida"
       ],
-      "claimIds": [],
-      "evidenceStatus": "scaffold",
+      "claimIds": [
+        "claim:taxon:synapsida:root-range"
+      ],
+      "evidenceStatus": "available-with-limitations",
       "limitations": [
-        "This preset is a navigation and data-inspection example, not a reviewed scientific conclusion."
+        "The linked claim retains its own specimen, stratum, model, confidence and source-locator boundaries. The Explorer route does not establish an exact origin, global first or last appearance, direct ancestry, causal mechanism or package-specific phylogeny."
       ]
     }
   ]

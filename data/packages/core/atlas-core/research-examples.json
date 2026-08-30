@@ -6,21 +6,23 @@
       "id": "atlas-core-tree-preset",
       "type": "explorer-preset",
       "title": {
-        "en": "Atlas Core Navigation tree context",
-        "zh": "图谱核心导航树状背景"
+        "en": "Life source-bound evidence",
+        "zh": "地球生命来源限定证据"
       },
       "description": {
-        "en": "A stable Explorer entry point for inspecting the package registry context and currently available occurrence evidence.",
-        "zh": "用于检查该内容包注册表背景和当前可用出现证据的稳定探索器入口。"
+        "en": "Open the Explorer at Life to inspect the linked, locator-bearing source claim together with this package's current occurrence context. This is a reproducible evidence entry point, not a phylogenetic result or a complete history of the group.",
+        "zh": "在探索器中打开地球生命，结合本包当前的出现记录背景检查带有精确来源定位的关联声明。这是可复现的证据检查入口，不是系统发育结果，也不是该类群的完整历史。"
       },
       "route": "#/explore?taxon=life&view=tree",
       "entityIds": [
         "life"
       ],
-      "claimIds": [],
-      "evidenceStatus": "scaffold",
+      "claimIds": [
+        "claim:taxon:life:fossil-range"
+      ],
+      "evidenceStatus": "available-with-limitations",
       "limitations": [
-        "This preset is a navigation and data-inspection example, not a reviewed scientific conclusion."
+        "The linked claim retains its own specimen, stratum, model, confidence and source-locator boundaries. The Explorer route does not establish an exact origin, global first or last appearance, direct ancestry, causal mechanism or package-specific phylogeny."
       ]
     }
   ]
