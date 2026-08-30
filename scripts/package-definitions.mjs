@@ -1,5 +1,5 @@
 export const PACKAGE_SCHEMA_VERSION = 5
-export const DATASET_PACKAGE_VERSION = '2026.08-static-v5-rc27'
+export const DATASET_PACKAGE_VERSION = '2026.08-static-v5-rc28'
 export const DATASET_RELEASE_DATE = '2026-08-30'
 
 export const packageDefinitions = [
@@ -326,7 +326,19 @@ export const packageDefinitions = [
     title: 'Dinosaurs',
     titleZh: '恐龙',
     rootEntityIds: ['dinosauria'],
-    wave: 'pilot',
+    conceptScope: {
+      en: 'Twelve primary-evidence dossiers separate competing early-dinosaur morphology matrices, named Triassic–Cretaceous specimens, ontogenetic and biomechanical models, histology and taphonomy. Navigation routes are not an ancestor ladder or a claim of global first appearances. Avialae, flight evidence and the 11,071 COL26.8 living-bird names remain owned by crocodylomorphs-birds; Dinosauria therefore has structured non-avian fossil content but zero separately owned living COL species. The two bundled PBDB rows are a bounded non-random API-prefix sample and cannot establish a FAD, absence or diversity curve.',
+      zh: '十二个一手证据档案严格区分竞争性的早期恐龙形态矩阵、三叠纪至白垩纪具名标本、个体发育与生物力学模型、组织学及埋藏学。导航路径不是祖先阶梯，也不声称全球首现。鸟翼类、飞行证据与 COL26.8 的 11,071 个现生鸟类名称继续由 crocodylomorphs-birds 包负责；因此 Dinosauria 拥有结构化的非鸟恐龙化石内容，但没有单独归属的现生 COL 物种。包内两条 PBDB 记录只是有界、非随机的 API 前缀样本，不能建立首现、缺失或多样性曲线。',
+    },
+    limitations: [
+      'Baron et al. (2017) and Langer et al. (2017) are competing morphology-matrix results. The atlas navigation does not choose a universal Dinosauria root topology, definition or direct ancestor chain.',
+      'ULBRA-PVT280, SAM-PK-K8025, BP/1/7120, NHMUK R1111, IVPP V14530, NDGS 2000, ZCDM V5000/V5001, ELDM V1001, IGM 100/979, MOR 799 and SMNH P2609.1 are bounded specimens or samples. Their interpretation does not establish a global FAD or a linear transformation series.',
+      'Mussaurus stance, Ledumahadi mass and posture, tyrannosaurid growth curves and Tyrannosaurus bite forces are explicit model results; they remain distinct from CT, histology, preserved anatomy, traces and stratigraphic observations.',
+      'Avialae specimens, flight performance, crown-bird topology and all 11,071 living-bird COL26.8 names remain owned by crocodylomorphs-birds. Dinosauria does not duplicate that evidence or catalogue boundary.',
+      'Only two bundled PBDB occurrence rows route to Dinosauria. They are a bounded, identifier-ordered, non-random API-prefix sample and cannot support a first appearance, absence, abundance estimate or diversity curve.',
+    ],
+    wave: 'B',
+    scientificMaturity: 'structured',
   },
 ]
 

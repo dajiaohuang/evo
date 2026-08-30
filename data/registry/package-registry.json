@@ -1,9 +1,9 @@
 {
   "schemaVersion": 5,
-  "version": "2026.08-static-v5-rc27",
+  "version": "2026.08-static-v5-rc28",
   "schemaStatus": "candidate",
   "packageCount": 24,
-  "entityCount": 288,
+  "entityCount": 297,
   "packages": [
     {
       "id": "atlas-core",
@@ -410,13 +410,13 @@
       "runtimePath": "data/packages/dinosauria",
       "title": "Dinosaurs",
       "titleZh": "恐龙",
-      "wave": "pilot",
+      "wave": "B",
       "rootEntityIds": [
         "dinosauria"
       ],
-      "entityCount": 21,
+      "entityCount": 30,
       "platformMaturity": "published",
-      "scientificMaturity": "generated-scaffold",
+      "scientificMaturity": "structured",
       "automatedReviewStatus": "passed",
       "reviewStatus": "not-reviewed"
     }
@@ -690,13 +690,20 @@
     "ankylosaurus": "dinosauria",
     "ceratopsia": "dinosauria",
     "triceratops": "dinosauria",
+    "yinlong": "dinosauria",
     "hadrosauridae": "dinosauria",
     "edmontosaurus": "dinosauria",
+    "eocursor": "dinosauria",
+    "thyreophora": "dinosauria",
+    "scelidosaurus": "dinosauria",
     "saurischia": "dinosauria",
     "sauropodomorpha": "dinosauria",
     "brachiosauridae": "dinosauria",
     "diplodocidae": "dinosauria",
     "titanosauria": "dinosauria",
+    "buriolestes": "dinosauria",
+    "mussaurus": "dinosauria",
+    "ledumahadi": "dinosauria",
     "theropoda": "dinosauria",
     "tyrannosauridae": "dinosauria",
     "tyrannosaurus": "dinosauria",
@@ -709,6 +716,8 @@
     "neornithes": "crocodylomorphs-birds",
     "phorusrhacidae": "crocodylomorphs-birds",
     "asteriornis": "crocodylomorphs-birds",
-    "neoaves": "crocodylomorphs-birds"
+    "neoaves": "crocodylomorphs-birds",
+    "yutyrannus": "dinosauria",
+    "oviraptorosauria": "dinosauria"
   }
 }

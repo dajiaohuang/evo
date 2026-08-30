@@ -141,6 +141,17 @@ const eventOwners = {
   'acanthostega-eight-digit-limb': 'tetrapod-transition',
   'ichthyostega-joint-mobility': 'tetrapod-transition',
   'dinosaur-radiation': 'dinosauria',
+  'buriolestes-holotype-feeding-boundary': 'dinosauria',
+  'eocursor-holotype-ornithischian-test': 'dinosauria',
+  'mussaurus-ontogenetic-stance-model': 'dinosauria',
+  'ledumahadi-body-mass-quadrupedality-model': 'dinosauria',
+  'scelidosaurus-r1111-dermal-skeleton': 'dinosauria',
+  'yinlong-v14530-ceratopsian-mosaic': 'dinosauria',
+  'edmontosaurus-ndgs2000-skin-taphonomy': 'dinosauria',
+  'yutyrannus-feathered-tyrannosauroid': 'dinosauria',
+  'oviraptorid-igm100979-nest-association': 'dinosauria',
+  'tyrannosaurid-histology-growth-curves': 'dinosauria',
+  'tyrannosaurus-osteophagy-biomechanics': 'dinosauria',
   'perissodactyl-radiation': 'perissodactyla',
   'eocene-oligocene-transition': 'perissodactyla',
   'primate-crown-clock-model': 'primates',
@@ -225,7 +236,7 @@ function referenceRecords(ids) {
 
 function loadChineseTranslations() {
   const translations = new Map()
-  for (const [fileName, dictionaryName, scriptKind] of [['index.tsx', 'zh', ts.ScriptKind.TSX], ['marineZh.ts', 'marineZh', ts.ScriptKind.TS], ['cetartiodactylaZh.ts', 'cetartiodactylaZh', ts.ScriptKind.TS], ['carnivoraZh.ts', 'carnivoraZh', ts.ScriptKind.TS], ['turtleLepidosaurZh.ts', 'turtleLepidosaurZh', ts.ScriptKind.TS], ['crocBirdZh.ts', 'crocBirdZh', ts.ScriptKind.TS], ['primatesZh.ts', 'primatesZh', ts.ScriptKind.TS], ['otherMammalsZh.ts', 'otherMammalsZh', ts.ScriptKind.TS]]) {
+  for (const [fileName, dictionaryName, scriptKind] of [['index.tsx', 'zh', ts.ScriptKind.TSX], ['marineZh.ts', 'marineZh', ts.ScriptKind.TS], ['cetartiodactylaZh.ts', 'cetartiodactylaZh', ts.ScriptKind.TS], ['carnivoraZh.ts', 'carnivoraZh', ts.ScriptKind.TS], ['turtleLepidosaurZh.ts', 'turtleLepidosaurZh', ts.ScriptKind.TS], ['crocBirdZh.ts', 'crocBirdZh', ts.ScriptKind.TS], ['primatesZh.ts', 'primatesZh', ts.ScriptKind.TS], ['otherMammalsZh.ts', 'otherMammalsZh', ts.ScriptKind.TS], ['dinosaurZh.ts', 'dinosaurZh', ts.ScriptKind.TS]]) {
     const sourcePath = join(rootDir, 'src', 'i18n', fileName)
     const source = ts.createSourceFile(sourcePath, readFileSync(sourcePath, 'utf8'), ts.ScriptTarget.Latest, true, scriptKind)
     let dictionary = null

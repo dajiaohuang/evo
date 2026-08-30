@@ -3621,5 +3621,294 @@
       }
     ],
     "evidenceStatus": "available-with-limitations"
+  },
+  {
+    "id": "dinosauria-primary-evidence-without-an-ancestor-ladder",
+    "title": "Twelve dinosaur dossiers without an ancestor ladder",
+    "titleZh": "不构成祖先阶梯的十二个恐龙档案",
+    "dek": "Compare named specimens, morphology matrices, histology, taphonomy and functional models while preserving every observation–interpretation boundary and handing Avialae/flight evidence to the crocodylomorphs-birds package.",
+    "theme": "amber",
+    "durationMinutes": 20,
+    "featured": true,
+    "evidenceStatus": "available-with-limitations",
+    "steps": [
+      {
+        "id": "competing-roots",
+        "title": "One matrix does not settle the root",
+        "text": "Baron et al. recovered Ornithoscelida from 457 characters; Langer et al. recovered the traditional split after rescoring and added taxa. Both are topology tests.",
+        "age": 230.5,
+        "timeRange": [
+          233,
+          228
+        ],
+        "taxonIds": [
+          "dinosauria",
+          "ornithischia",
+          "saurischia"
+        ],
+        "view": "tree",
+        "eventId": "dinosaur-radiation",
+        "annotation": "The 233–228 Ma atlas interval is a display context for early dinosaur fossils, not an age inferred by either morphology matrix.",
+        "claimLinks": [
+          {
+            "claimId": "claim:event:dinosaur-radiation",
+            "relation": "supports"
+          }
+        ]
+      },
+      {
+        "id": "carnivorous-sauropodomorph",
+        "title": "Teeth bound an ancestral-diet model",
+        "text": "ULBRA-PVT280 preserves recurved serrated teeth. Faunivory near the sauropodomorph root is an ancestral-state model, not a direct ancestor.",
+        "age": 232.3,
+        "timeRange": [
+          233.2,
+          231.4
+        ],
+        "taxonIds": [
+          "buriolestes",
+          "sauropodomorpha"
+        ],
+        "view": "evidence",
+        "eventId": "buriolestes-holotype-feeding-boundary",
+        "annotation": "Formation correlation bounds the age; the dietary transition is a mapped hypothesis across sampled taxa, not a linear sequence observed in one lineage.",
+        "claimLinks": [
+          {
+            "claimId": "claim:event:buriolestes-holotype-feeding-boundary",
+            "relation": "supports"
+          }
+        ]
+      },
+      {
+        "id": "early-ornithischian",
+        "title": "A partial skeleton tests an early branch",
+        "text": "SAM-PK-K8025 is a bounded partial skeleton. Matrix placement and formation age do not establish a global ornithischian first appearance.",
+        "age": 205.65,
+        "timeRange": [
+          210,
+          201.3
+        ],
+        "taxonIds": [
+          "eocursor",
+          "ornithischia"
+        ],
+        "view": "evidence",
+        "eventId": "eocursor-holotype-ornithischian-test",
+        "annotation": "The broad display interval follows formation-level correlation and must not be read as a direct specimen date or a global ornithischian FAD.",
+        "claimLinks": [
+          {
+            "claimId": "claim:event:eocursor-holotype-ornithischian-test",
+            "relation": "supports"
+          }
+        ]
+      },
+      {
+        "id": "growth-changes-stance",
+        "title": "One species changes stance while growing",
+        "text": "Mussaurus digital models combine several growth stages. The bipedal-to-quadrupedal shift is ontogenetic and modelled, not an evolutionary ladder.",
+        "age": 188.55,
+        "timeRange": [
+          192.9,
+          184.2
+        ],
+        "taxonIds": [
+          "mussaurus",
+          "sauropodomorpha"
+        ],
+        "view": "evidence",
+        "eventId": "mussaurus-ontogenetic-stance-model",
+        "annotation": "The fossils constrain anatomy; centre of mass and stance are sensitivity-tested reconstructions and cannot be generalized to every sauropodomorph.",
+        "claimLinks": [
+          {
+            "claimId": "claim:event:mussaurus-ontogenetic-stance-model",
+            "relation": "supports"
+          }
+        ]
+      },
+      {
+        "id": "giant-with-flexed-limbs",
+        "title": "Gigantism precedes columnar limbs",
+        "text": "BP/1/7120 supports an adult giant with flexed limbs. Twelve tonnes and habitual quadrupedality are comparative estimates from a partial skeleton.",
+        "age": 197.75,
+        "timeRange": [
+          200.5,
+          195
+        ],
+        "taxonIds": [
+          "ledumahadi",
+          "sauropodomorpha"
+        ],
+        "view": "evidence",
+        "eventId": "ledumahadi-body-mass-quadrupedality-model",
+        "annotation": "The specimen is incomplete and the earliest-Jurassic interval is formation-bounded; it is not a universal threshold or ancestor for sauropod gigantism.",
+        "claimLinks": [
+          {
+            "claimId": "claim:event:ledumahadi-body-mass-quadrupedality-model",
+            "relation": "supports"
+          }
+        ]
+      },
+      {
+        "id": "armour-and-placement",
+        "title": "Armour is anatomy; placement is analysis",
+        "text": "NHMUK R1111 preserves associated osteoderms. Lost armour, inferred keratin and stem-ankylosaur placement remain separate from observation.",
+        "age": 192,
+        "timeRange": [
+          193,
+          191
+        ],
+        "taxonIds": [
+          "scelidosaurus",
+          "thyreophora"
+        ],
+        "view": "evidence",
+        "eventId": "scelidosaurus-r1111-dermal-skeleton",
+        "annotation": "Missing armour and preparation history prevent a complete in-place map; placement is one analysis rather than an uncontested thyreophoran topology.",
+        "claimLinks": [
+          {
+            "claimId": "claim:event:scelidosaurus-r1111-dermal-skeleton",
+            "relation": "supports"
+          }
+        ]
+      },
+      {
+        "id": "ceratopsian-mosaic",
+        "title": "A complete skeleton tests a character mosaic",
+        "text": "IVPP V14530 preserves a nearly complete early ceratopsian skeleton. Its topology is a matrix result, not a direct ancestor.",
+        "age": 158.45,
+        "timeRange": [
+          161.2,
+          155.7
+        ],
+        "taxonIds": [
+          "yinlong",
+          "ceratopsia"
+        ],
+        "view": "tree",
+        "eventId": "yinlong-v14530-ceratopsian-mosaic",
+        "annotation": "The atlas interval is formation-level; topology and character polarity depend on outgroups, coding and the sampled matrix.",
+        "claimLinks": [
+          {
+            "claimId": "claim:event:yinlong-v14530-ceratopsian-mosaic",
+            "relation": "supports"
+          }
+        ]
+      },
+      {
+        "id": "skin-preservation-pathway",
+        "title": "Skin and damage constrain taphonomy",
+        "text": "NDGS 2000 preserves skin and feeding traces. Scavenging-assisted desiccation is a pathway inferred for this carcass, not a universal rule.",
+        "age": 66.5,
+        "timeRange": [
+          67,
+          66
+        ],
+        "taxonIds": [
+          "edmontosaurus",
+          "hadrosauridae"
+        ],
+        "view": "evidence",
+        "eventId": "edmontosaurus-ndgs2000-skin-taphonomy",
+        "annotation": "The evidence concerns one specimen and one depositional history; skin presence does not establish original colour, physiology or preservation frequency.",
+        "claimLinks": [
+          {
+            "claimId": "claim:event:edmontosaurus-ndgs2000-skin-taphonomy",
+            "relation": "supports"
+          }
+        ]
+      },
+      {
+        "id": "large-bodied-filaments",
+        "title": "Filaments do not require a flight story",
+        "text": "Three Yutyrannus skeletons preserve filamentous integument. Function, complete coverage and Avialae flight are separate questions.",
+        "age": 124.94999999999999,
+        "timeRange": [
+          125.8,
+          124.1
+        ],
+        "taxonIds": [
+          "yutyrannus",
+          "theropoda"
+        ],
+        "view": "evidence",
+        "eventId": "yutyrannus-feathered-tyrannosauroid",
+        "annotation": "Non-avian integument stays here; Avialae, flight models and living-bird COL26.8 names remain owned by crocodylomorphs-birds.",
+        "claimLinks": [
+          {
+            "claimId": "claim:event:yutyrannus-feathered-tyrannosauroid",
+            "relation": "supports"
+          }
+        ]
+      },
+      {
+        "id": "nest-association",
+        "title": "A pose supports but cannot observe brooding",
+        "text": "IGM 100/979 lies over a clutch in a bird-like posture. Brooding is well supported but remains behaviour inferred from association.",
+        "age": 73,
+        "timeRange": [
+          75,
+          71
+        ],
+        "taxonIds": [
+          "oviraptorosauria",
+          "theropoda"
+        ],
+        "view": "evidence",
+        "eventId": "oviraptorid-igm100979-nest-association",
+        "annotation": "The original paper explicitly retains alternative explanations and limits testing of parental-system hypotheses in the fossil record.",
+        "claimLinks": [
+          {
+            "claimId": "claim:event:oviraptorid-igm100979-nest-association",
+            "relation": "supports"
+          }
+        ]
+      },
+      {
+        "id": "growth-curve-model",
+        "title": "Growth marks feed a fitted curve",
+        "text": "Tyrannosaurid growth marks are observations; reconstructed ages, masses and logistic growth rates are model outputs.",
+        "age": 74.5,
+        "timeRange": [
+          83,
+          66
+        ],
+        "taxonIds": [
+          "tyrannosaurus",
+          "tyrannosauridae"
+        ],
+        "view": "evidence",
+        "eventId": "tyrannosaurid-histology-growth-curves",
+        "annotation": "The 83–66 Ma atlas window spans sampled tyrannosaurids, not one population; the fitted curve is not a universal dinosaur growth schedule.",
+        "claimLinks": [
+          {
+            "claimId": "claim:event:tyrannosaurid-histology-growth-curves",
+            "relation": "supports"
+          }
+        ]
+      },
+      {
+        "id": "bone-crushing-model",
+        "title": "Traces and mechanics answer different questions",
+        "text": "MOR 799 traces and bone-bearing coprolite support osteophagy, while force and pressure derive from a seven-skull biomechanical model.",
+        "age": 67,
+        "timeRange": [
+          68,
+          66
+        ],
+        "taxonIds": [
+          "tyrannosaurus",
+          "triceratops"
+        ],
+        "view": "evidence",
+        "eventId": "tyrannosaurus-osteophagy-biomechanics",
+        "annotation": "The models test capability rather than observe a feeding event; MOR 799 and the coprolite do not identify every individual or every feeding context.",
+        "claimLinks": [
+          {
+            "claimId": "claim:event:tyrannosaurus-osteophagy-biomechanics",
+            "relation": "supports"
+          }
+        ]
+      }
+    ]
   }
 ]

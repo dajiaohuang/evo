@@ -123,7 +123,7 @@ if (existsSync(flagshipStaticPath)) {
   }
 }
 const scaffoldStaticPath = join(pagesRoot, 'taxa/dinosauria/index.html')
-if (existsSync(scaffoldStaticPath) && !readFileSync(scaffoldStaticPath, 'utf8').includes('name="robots" content="noindex,follow"')) failures.push('generated scaffold static pages must be noindex')
+if (existsSync(scaffoldStaticPath) && readFileSync(scaffoldStaticPath, 'utf8').includes('name="robots" content="noindex,follow"')) failures.push('structured Dinosauria static pages must be indexable')
 
 const localizedStaticChecks = [
   { path: 'zh/events/tiaojishan-ginkgoxylon/index.html', markers: ['天义山组银杏样化石木材', '一件经解剖诊断'] },
