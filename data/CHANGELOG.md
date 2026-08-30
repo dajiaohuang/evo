@@ -1,5 +1,13 @@
 # Dataset changelog
 
+## 2026.08-static-v5-rc21 — 2026-08-30
+
+- Replaced the marine-reptiles-pterosaurs generated scaffold with nine primary-evidence dossiers kept in three independent radiations: three ichthyosaur, three plesiosaur and three pterosaur records.
+- Added seven named navigation taxa and claim-linked literature ranges tied to explicit specimens, formations and publication locators without presenting any as a global first occurrence or direct ancestor.
+- Separated preserved pregnancy, skin, bone histology, feathers, melanosomes, eggs and embryos from bounded functional, behavioural and phylogenetic interpretations.
+- Marked the plesiosaur four-flipper experiment and giant-pterosaur launch analysis as physical or biomechanical models rather than direct observations of extinct locomotion.
+- Added a nine-step bilingual evidence story and disclosed that COL26.8 routes zero strictly accepted species through these fossil-root package routes; naming coverage and dossier maturity remain independent.
+
 ## 2026.08-static-v5-rc20 — 2026-08-30
 
 - Replaced the mammal-origins scaffold with seven primary-evidence dossiers spanning a referred early-synapsid neural spine, a basal-therapsid character matrix, Late Triassic cynodont and haramiyidan CT samples, two Jurassic jaw–ear mosaics, a Jehol middle-ear specimen and living developmental experiments.

@@ -1,5 +1,6 @@
 /* eslint-disable react-refresh/only-export-components */
 import { createContext, useCallback, useContext, useEffect, useMemo, useState, type ReactNode } from 'react'
+import { marineZhKeys } from './marineZhKeys'
 
 export type Language = 'en' | 'zh'
 type TranslationValues = Record<string, string | number>
@@ -2357,6 +2358,17 @@ const I18nContext = createContext<I18nContextValue | null>(null)
 
 export function I18nProvider({ children }: { children: ReactNode }) {
   const [language, setLanguage] = useState<Language>(initialLanguage)
+  const [extendedZh, setExtendedZh] = useState<Record<string, string>>({})
+
+  useEffect(() => {
+    let active = true
+    if (language === 'zh' && Object.keys(extendedZh).length === 0) {
+      void import('./marineZh').then(({ marineZh }) => {
+        if (active) setExtendedZh(marineZh)
+      })
+    }
+    return () => { active = false }
+  }, [extendedZh, language])
 
   useEffect(() => {
     document.documentElement.lang = language === 'zh' ? 'zh-CN' : 'en'
@@ -2369,9 +2381,9 @@ export function I18nProvider({ children }: { children: ReactNode }) {
   }, [language])
 
   const t = useCallback((english: string, values?: TranslationValues) => {
-    const template = language === 'zh' ? zh[english] ?? compactAmphibianTranslation(english) ?? english : english
+    const template = language === 'zh' ? extendedZh[english] ?? zh[english] ?? compactAmphibianTranslation(english) ?? english : english
     return interpolate(template, values)
-  }, [language])
+  }, [extendedZh, language])
 
   const number = useCallback((value: number) => new Intl.NumberFormat(language === 'zh' ? 'zh-CN' : 'en-US').format(value), [language])
   const toggleLanguage = useCallback(() => setLanguage((current) => current === 'en' ? 'zh' : 'en'), [])
@@ -2387,5 +2399,5 @@ export function useI18n(): I18nContextValue {
 }
 
 export function hasChineseTranslation(english: string): boolean {
-  return Object.hasOwn(zh, english) || compactAmphibianTranslation(english) !== undefined
+  return Object.hasOwn(zh, english) || marineZhKeys.has(english) || compactAmphibianTranslation(english) !== undefined
 }

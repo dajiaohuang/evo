@@ -31,6 +31,11 @@ function LanguageProbe() {
   )
 }
 
+function MarineTranslationProbe() {
+  const { t } = useI18n()
+  return <span>{t('A short-snouted ichthyosauromorph holotype')}</span>
+}
+
 interface CommonNameNode {
   commonName: string
   children: CommonNameNode[]
@@ -55,6 +60,12 @@ describe('site language state', () => {
     expect(screen.getByText('探索')).toBeInTheDocument()
     expect(document.documentElement.lang).toBe('zh-CN')
     expect(window.localStorage.getItem('evo-atlas-language')).toBe('zh')
+  })
+
+  it('loads marine narrative translations only when Chinese is active', async () => {
+    window.localStorage.setItem('evo-atlas-language', 'zh')
+    render(<I18nProvider><MarineTranslationProbe /></I18nProvider>)
+    expect(await screen.findByText('一件短吻鱼龙形类正模')).toBeInTheDocument()
   })
 })
 

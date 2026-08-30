@@ -85,6 +85,15 @@ const eventOwners = {
   'jurassic-mammaliaform-jaw-ear-load-shift': 'mammal-origins',
   'liaoconodon-ossified-meckel-link': 'mammal-origins',
   'meckel-cartilage-clast-experiment': 'mammal-origins',
+  'cartorhynchus-holotype-body-plan': 'marine-reptiles-pterosaurs',
+  'chaohusaurus-maternal-specimen': 'marine-reptiles-pterosaurs',
+  'stenopterygius-soft-tissues': 'marine-reptiles-pterosaurs',
+  'rhaeticosaurus-holotype-histology': 'marine-reptiles-pterosaurs',
+  'polycotylus-gravid-specimen': 'marine-reptiles-pterosaurs',
+  'plesiosaur-four-flipper-model': 'marine-reptiles-pterosaurs',
+  'tupandactylus-feather-melanosomes': 'marine-reptiles-pterosaurs',
+  'hamipterus-egg-assemblage': 'marine-reptiles-pterosaurs',
+  'giant-pterosaur-launch-model': 'marine-reptiles-pterosaurs',
   'tetrapods-on-land': 'tetrapod-transition',
   'zachelmie-digit-trackways': 'tetrapod-transition',
   'tiktaalik-body-plan-mosaic': 'tetrapod-transition',
@@ -166,20 +175,22 @@ function referenceRecords(ids) {
 }
 
 function loadChineseTranslations() {
-  const sourcePath = join(rootDir, 'src', 'i18n', 'index.tsx')
-  const source = ts.createSourceFile(sourcePath, readFileSync(sourcePath, 'utf8'), ts.ScriptTarget.Latest, true, ts.ScriptKind.TSX)
-  let dictionary = null
-  const visit = (node) => {
-    if (ts.isVariableDeclaration(node) && ts.isIdentifier(node.name) && node.name.text === 'zh' && ts.isObjectLiteralExpression(node.initializer)) dictionary = node.initializer
-    ts.forEachChild(node, visit)
-  }
-  visit(source)
-  if (!dictionary) throw new Error('Could not read the zh translation dictionary for static publication.')
   const translations = new Map()
-  for (const property of dictionary.properties) {
-    if (!ts.isPropertyAssignment(property) || !ts.isStringLiteralLike(property.initializer)) continue
-    const key = ts.isStringLiteralLike(property.name) ? property.name.text : ts.isIdentifier(property.name) ? property.name.text : null
-    if (key) translations.set(key, property.initializer.text)
+  for (const [fileName, dictionaryName, scriptKind] of [['index.tsx', 'zh', ts.ScriptKind.TSX], ['marineZh.ts', 'marineZh', ts.ScriptKind.TS]]) {
+    const sourcePath = join(rootDir, 'src', 'i18n', fileName)
+    const source = ts.createSourceFile(sourcePath, readFileSync(sourcePath, 'utf8'), ts.ScriptTarget.Latest, true, scriptKind)
+    let dictionary = null
+    const visit = (node) => {
+      if (ts.isVariableDeclaration(node) && ts.isIdentifier(node.name) && node.name.text === dictionaryName && ts.isObjectLiteralExpression(node.initializer)) dictionary = node.initializer
+      ts.forEachChild(node, visit)
+    }
+    visit(source)
+    if (!dictionary) throw new Error(`Could not read the ${dictionaryName} translation dictionary for static publication.`)
+    for (const property of dictionary.properties) {
+      if (!ts.isPropertyAssignment(property) || !ts.isStringLiteralLike(property.initializer)) continue
+      const key = ts.isStringLiteralLike(property.name) ? property.name.text : ts.isIdentifier(property.name) ? property.name.text : null
+      if (key) translations.set(key, property.initializer.text)
+    }
   }
   if (translations.size < 100) throw new Error('The zh translation dictionary is unexpectedly incomplete.')
   return translations
