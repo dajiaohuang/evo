@@ -40,6 +40,11 @@
       "relationshipKind": "taxonomic-parent"
     },
     {
+      "id": "yinlong",
+      "parentId": "ceratopsia",
+      "relationshipKind": "navigation-parent"
+    },
+    {
       "id": "hadrosauridae",
       "parentId": "ornithischia",
       "relationshipKind": "taxonomic-parent"
@@ -48,6 +53,21 @@
       "id": "edmontosaurus",
       "parentId": "hadrosauridae",
       "relationshipKind": "taxonomic-parent"
+    },
+    {
+      "id": "eocursor",
+      "parentId": "ornithischia",
+      "relationshipKind": "navigation-parent"
+    },
+    {
+      "id": "thyreophora",
+      "parentId": "ornithischia",
+      "relationshipKind": "navigation-parent"
+    },
+    {
+      "id": "scelidosaurus",
+      "parentId": "thyreophora",
+      "relationshipKind": "navigation-parent"
     },
     {
       "id": "saurischia",
@@ -73,6 +93,21 @@
       "id": "titanosauria",
       "parentId": "sauropodomorpha",
       "relationshipKind": "taxonomic-parent"
+    },
+    {
+      "id": "buriolestes",
+      "parentId": "sauropodomorpha",
+      "relationshipKind": "navigation-parent"
+    },
+    {
+      "id": "mussaurus",
+      "parentId": "sauropodomorpha",
+      "relationshipKind": "navigation-parent"
+    },
+    {
+      "id": "ledumahadi",
+      "parentId": "sauropodomorpha",
+      "relationshipKind": "navigation-parent"
     },
     {
       "id": "theropoda",
@@ -108,6 +143,16 @@
       "id": "velociraptor",
       "parentId": "dromaeosauridae",
       "relationshipKind": "taxonomic-parent"
+    },
+    {
+      "id": "yutyrannus",
+      "parentId": "theropoda",
+      "relationshipKind": "navigation-parent"
+    },
+    {
+      "id": "oviraptorosauria",
+      "parentId": "theropoda",
+      "relationshipKind": "navigation-parent"
     }
   ]
 }

@@ -5051,7 +5051,7 @@
     "rangeKind": "global-composite",
     "taxonomicConcept": "Dinosauria",
     "geographicScope": "Global or represented navigation composite",
-    "olderMa": 233,
+    "olderMa": 233.2,
     "youngerMa": 0,
     "status": "available",
     "uncertainty": {
@@ -5201,7 +5201,7 @@
     "rangeKind": "global-composite",
     "taxonomicConcept": "Ceratopsia",
     "geographicScope": "Global or represented navigation composite",
-    "olderMa": 161,
+    "olderMa": 161.2,
     "youngerMa": 66,
     "status": "available",
     "uncertainty": {
@@ -5321,7 +5321,7 @@
     "rangeKind": "global-composite",
     "taxonomicConcept": "Saurischia",
     "geographicScope": "Global or represented navigation composite",
-    "olderMa": 233,
+    "olderMa": 233.2,
     "youngerMa": 0,
     "status": "available",
     "uncertainty": {
@@ -5351,7 +5351,7 @@
     "rangeKind": "global-composite",
     "taxonomicConcept": "Sauropodomorpha",
     "geographicScope": "Global or represented navigation composite",
-    "olderMa": 228,
+    "olderMa": 233.2,
     "youngerMa": 66,
     "status": "available",
     "uncertainty": {
@@ -8698,5 +8698,257 @@
     ],
     "reviewStatus": "not-reviewed",
     "evidenceLevel": "legacy-display"
+  },
+  {
+    "id": "range:eocursor:dinosauria-evidence",
+    "entityId": "eocursor",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Eocursor SAM-PK-K8025",
+    "geographicScope": "Lower Elliot Formation, South Africa",
+    "olderMa": 210,
+    "youngerMa": 201.3,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Study-level occurrence or navigation envelope; not a direct date on ancestry and not a demonstrated global first or last appearance."
+    },
+    "evidenceBasis": "Primary-study specimen, formation or explicitly bounded dossier evidence.",
+    "evidenceLevel": "literature-synthesized",
+    "confidence": "medium",
+    "claimIds": [
+      "claim:event:eocursor-holotype-ornithischian-test"
+    ],
+    "referenceLocators": [
+      {
+        "referenceId": "butler-2007-eocursor",
+        "locator": "Cited specimen, figures and methods in the linked claim dossier"
+      }
+    ],
+    "reviewStatus": "automated-audit-passed"
+  },
+  {
+    "id": "range:thyreophora:dinosauria-evidence",
+    "entityId": "thyreophora",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Thyreophora dossier navigation envelope",
+    "geographicScope": "Study-locality composite",
+    "olderMa": 193,
+    "youngerMa": 66,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Study-level occurrence or navigation envelope; not a direct date on ancestry and not a demonstrated global first or last appearance."
+    },
+    "evidenceBasis": "Primary-study specimen, formation or explicitly bounded dossier evidence.",
+    "evidenceLevel": "literature-synthesized",
+    "confidence": "medium",
+    "claimIds": [
+      "claim:event:scelidosaurus-r1111-dermal-skeleton"
+    ],
+    "referenceLocators": [
+      {
+        "referenceId": "norman-2021-scelidosaurus",
+        "locator": "Cited specimen, figures and methods in the linked claim dossier"
+      }
+    ],
+    "reviewStatus": "automated-audit-passed"
+  },
+  {
+    "id": "range:scelidosaurus:dinosauria-evidence",
+    "entityId": "scelidosaurus",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Scelidosaurus harrisonii lectotype occurrence",
+    "geographicScope": "Charmouth Mudstone Formation, Dorset",
+    "olderMa": 193,
+    "youngerMa": 191,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Study-level occurrence or navigation envelope; not a direct date on ancestry and not a demonstrated global first or last appearance."
+    },
+    "evidenceBasis": "Primary-study specimen, formation or explicitly bounded dossier evidence.",
+    "evidenceLevel": "literature-synthesized",
+    "confidence": "medium",
+    "claimIds": [
+      "claim:event:scelidosaurus-r1111-dermal-skeleton"
+    ],
+    "referenceLocators": [
+      {
+        "referenceId": "norman-2021-scelidosaurus",
+        "locator": "Cited specimen, figures and methods in the linked claim dossier"
+      }
+    ],
+    "reviewStatus": "automated-audit-passed"
+  },
+  {
+    "id": "range:yinlong:dinosauria-evidence",
+    "entityId": "yinlong",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Yinlong downsi holotype occurrence",
+    "geographicScope": "Upper Shishugou Formation, Xinjiang",
+    "olderMa": 161.2,
+    "youngerMa": 155.7,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Study-level occurrence or navigation envelope; not a direct date on ancestry and not a demonstrated global first or last appearance."
+    },
+    "evidenceBasis": "Primary-study specimen, formation or explicitly bounded dossier evidence.",
+    "evidenceLevel": "literature-synthesized",
+    "confidence": "medium",
+    "claimIds": [
+      "claim:event:yinlong-v14530-ceratopsian-mosaic"
+    ],
+    "referenceLocators": [
+      {
+        "referenceId": "xu-2006-yinlong",
+        "locator": "Cited specimen, figures and methods in the linked claim dossier"
+      }
+    ],
+    "reviewStatus": "automated-audit-passed"
+  },
+  {
+    "id": "range:buriolestes:dinosauria-evidence",
+    "entityId": "buriolestes",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Buriolestes schultzi holotype occurrence",
+    "geographicScope": "Candelária Sequence, Brazil",
+    "olderMa": 233.2,
+    "youngerMa": 231.4,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Study-level occurrence or navigation envelope; not a direct date on ancestry and not a demonstrated global first or last appearance."
+    },
+    "evidenceBasis": "Primary-study specimen, formation or explicitly bounded dossier evidence.",
+    "evidenceLevel": "literature-synthesized",
+    "confidence": "medium",
+    "claimIds": [
+      "claim:event:buriolestes-holotype-feeding-boundary"
+    ],
+    "referenceLocators": [
+      {
+        "referenceId": "cabreira-2016-buriolestes",
+        "locator": "Cited specimen, figures and methods in the linked claim dossier"
+      }
+    ],
+    "reviewStatus": "automated-audit-passed"
+  },
+  {
+    "id": "range:mussaurus:dinosauria-evidence",
+    "entityId": "mussaurus",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Mussaurus patagonicus study sample",
+    "geographicScope": "Laguna Colorada Formation, Patagonia",
+    "olderMa": 192.9,
+    "youngerMa": 184.2,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Study-level occurrence or navigation envelope; not a direct date on ancestry and not a demonstrated global first or last appearance."
+    },
+    "evidenceBasis": "Primary-study specimen, formation or explicitly bounded dossier evidence.",
+    "evidenceLevel": "literature-synthesized",
+    "confidence": "medium",
+    "claimIds": [
+      "claim:event:mussaurus-ontogenetic-stance-model"
+    ],
+    "referenceLocators": [
+      {
+        "referenceId": "otero-2019-mussaurus",
+        "locator": "Cited specimen, figures and methods in the linked claim dossier"
+      }
+    ],
+    "reviewStatus": "automated-audit-passed"
+  },
+  {
+    "id": "range:ledumahadi:dinosauria-evidence",
+    "entityId": "ledumahadi",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Ledumahadi mafube holotype occurrence",
+    "geographicScope": "Elliot Formation, South Africa",
+    "olderMa": 200.5,
+    "youngerMa": 195,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Study-level occurrence or navigation envelope; not a direct date on ancestry and not a demonstrated global first or last appearance."
+    },
+    "evidenceBasis": "Primary-study specimen, formation or explicitly bounded dossier evidence.",
+    "evidenceLevel": "literature-synthesized",
+    "confidence": "medium",
+    "claimIds": [
+      "claim:event:ledumahadi-body-mass-quadrupedality-model"
+    ],
+    "referenceLocators": [
+      {
+        "referenceId": "mcphee-2018-ledumahadi",
+        "locator": "Cited specimen, figures and methods in the linked claim dossier"
+      }
+    ],
+    "reviewStatus": "automated-audit-passed"
+  },
+  {
+    "id": "range:yutyrannus:dinosauria-evidence",
+    "entityId": "yutyrannus",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Yutyrannus huali three-specimen sample",
+    "geographicScope": "Yixian Formation, Liaoning",
+    "olderMa": 125.8,
+    "youngerMa": 124.1,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Study-level occurrence or navigation envelope; not a direct date on ancestry and not a demonstrated global first or last appearance."
+    },
+    "evidenceBasis": "Primary-study specimen, formation or explicitly bounded dossier evidence.",
+    "evidenceLevel": "literature-synthesized",
+    "confidence": "medium",
+    "claimIds": [
+      "claim:event:yutyrannus-feathered-tyrannosauroid"
+    ],
+    "referenceLocators": [
+      {
+        "referenceId": "xu-2012-yutyrannus",
+        "locator": "Cited specimen, figures and methods in the linked claim dossier"
+      }
+    ],
+    "reviewStatus": "automated-audit-passed"
+  },
+  {
+    "id": "range:oviraptorosauria:dinosauria-evidence",
+    "entityId": "oviraptorosauria",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Oviraptorosauria dossier navigation envelope",
+    "geographicScope": "Named primary-study specimens",
+    "olderMa": 125,
+    "youngerMa": 66,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Study-level occurrence or navigation envelope; not a direct date on ancestry and not a demonstrated global first or last appearance."
+    },
+    "evidenceBasis": "Primary-study specimen, formation or explicitly bounded dossier evidence.",
+    "evidenceLevel": "literature-synthesized",
+    "confidence": "medium",
+    "claimIds": [
+      "claim:event:oviraptorid-igm100979-nest-association"
+    ],
+    "referenceLocators": [
+      {
+        "referenceId": "norell-1995-nesting-dinosaur",
+        "locator": "Cited specimen, figures and methods in the linked claim dossier"
+      }
+    ],
+    "reviewStatus": "automated-audit-passed"
   }
 ]

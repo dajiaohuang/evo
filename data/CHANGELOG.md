@@ -1,5 +1,14 @@
 # Dataset changelog
 
+## 2026.08-static-v5-rc28 — 2026-08-30
+
+- Replaced the Dinosauria scaffold with twelve bilingual primary-evidence dossiers: competing early-dinosaur matrices, named Triassic–Cretaceous specimens, ontogenetic and biomechanical models, histology, reproductive association and taphonomy.
+- Added nine non-avian navigation nodes for Eocursor, Thyreophora, Scelidosaurus, Yinlong, Buriolestes, Mussaurus, Ledumahadi, Yutyrannus and Oviraptorosauria; every new edge is explicitly navigational rather than an asserted ancestor chain.
+- Kept specimen observations separate from diet, topology, stance, mass, armour, feather-function, brooding, growth-rate and bite-force interpretations, with specimen numbers and page/figure/method locators on every claim.
+- Kept Avialae, flight dossiers and all 11,071 living-bird COL26.8 names in the crocodylomorphs-birds owner package; Dinosauria owns the non-avian evidence set without duplicating the living catalogue boundary.
+- Reaffirmed that Dinosauria's two bundled PBDB occurrence rows are a bounded, non-random API-prefix sample and cannot establish a global first appearance, biological absence or diversity trend.
+- Added a dedicated lazy-loaded `dinosaurZh` dictionary and rebuilt all canonical projections, registries, indexes, packages, release metadata and checksums for rc28; app version remains `0.19.0`.
+
 ## 2026.08-static-v5-rc27 — 2026-08-30
 
 - Rebuilt `other-mammals` as twelve bilingual primary-evidence dossiers spanning monotreme fossils and genomics, conditional early-therian placements, placental morphology and molecular matrices, early proboscideans, aquatic sloth histology, stem-glires anatomy, and bat flight, echolocation and topology evidence.
