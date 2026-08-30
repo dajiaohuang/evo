@@ -329,7 +329,7 @@ export function MethodsPage({ onNavigate }: PageProps) {
         <article>
           <span className="section-label">{t('Space')}</span>
           <h2>{t('Maps are discrete models.')}</h2>
-          <p>{t('The map uses the nearest available frame from six locally reconstructed CAO2024 layers. It does not provide elevation, bathymetry or terrain relief, and it is not assumed to be co-registered with PBDB paleocoordinates.')}</p>
+          <p>{t('The map uses the nearest available frame from six locally reconstructed CAO2024 geometry layers and separately exposes all five point-data collections. Points are observations or constraints, not terrain; out-of-range and missing-circuit records remain source-only. Neither coordinate source is assumed to be co-registered with PBDB paleocoordinates.')}</p>
         </article>
         <article>
           <span className="section-label">{t('Topology')}</span>

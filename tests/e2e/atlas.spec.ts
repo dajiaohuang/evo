@@ -262,7 +262,7 @@ test('Explorer restores state and removes the unsupported global model parameter
   await expect(page.getByRole('button', { name: 'points' })).toHaveClass(/is-active/)
   await expect(page.getByRole('button', { name: 'modern' })).toHaveClass(/is-active/)
   await expect(page.getByText('Shared time window 20–5 Ma')).toBeVisible()
-  await expect.poll(() => page.url()).toContain('dataset=2026.08-static-v5-rc51')
+  await expect.poll(() => page.url()).toContain('dataset=2026.08-static-v5-rc52')
   for (const fragment of ['older=20', 'younger=5', 'lat=10.000', 'lng=20.000', 'zoom=3.00', 'treeMode=fossil-range']) {
     expect(page.url()).toContain(fragment)
   }
@@ -275,7 +275,7 @@ test('Explorer requires confirmation before replacing a mismatched dataset versi
   await expect(page.getByRole('alertdialog')).toContainText('2025.01-old')
   expect(page.url()).toContain('dataset=2025.01-old')
   await page.getByRole('button', { name: 'Use current dataset' }).click()
-  await expect.poll(() => page.url()).toContain('dataset=2026.08-static-v5-rc51')
+  await expect.poll(() => page.url()).toContain('dataset=2026.08-static-v5-rc52')
 })
 
 test('a service-worker upgrade removes dataset A caches and dataset B remains coherent', async ({ page }) => {
@@ -311,7 +311,7 @@ test('a service-worker upgrade removes dataset A caches and dataset B remains co
     const versions = await Promise.all(manifestFiles.map((file) => fetch(`/evo/data/${file.url}`).then((response) => response.json()).then((manifest) => manifest.version as string)))
     return { datasetVersion: current.datasetVersion, releaseBase: current.releaseBase, urls: manifestFiles.map((file) => file.url), versions, retained: history.releases.map((entry) => entry.datasetVersion) }
   })
-  expect(releaseState.releaseBase).toBe('releases/2026.08-static-v5-rc51/')
+  expect(releaseState.releaseBase).toBe('releases/2026.08-static-v5-rc52/')
   expect(releaseState.urls.every((url) => url.startsWith(releaseState.releaseBase))).toBe(true)
   expect(releaseState.versions.every((version) => version === releaseState.datasetVersion)).toBe(true)
   expect(releaseState.retained[0]).toBe(releaseState.datasetVersion)
@@ -413,6 +413,21 @@ test('a detailed CAO2024 layer reports its independently selected frame age', as
   const ledger = page.locator('.map-model-ledger')
   await expect(ledger.locator('div', { has: page.getByText('coastlines', { exact: true }) })).toContainText('105 Ma · Δ 2 Myr')
   await expect(ledger.locator('div', { has: page.getByText('continentalPolygons', { exact: true }) })).toContainText('104.55 Ma · Δ 2.45 Myr')
+})
+
+test('CAO2024 point data loads separately from geometry and exposes source fields', async ({ page }) => {
+  await page.addInitScript(() => window.localStorage.setItem('evo-atlas-language', 'en'))
+  await page.goto('./#/explore?view=map&age=1000')
+
+  await page.getByLabel('Palaeomagnetic poles and sample sites').check()
+  await expect(page.getByText('Palaeomagnetic poles and sample sites · 15', { exact: true })).toBeVisible()
+  await expect(page.getByText('Observation points are source data or model constraints, not geometry, terrain, elevation or bathymetry. Raw source positions never replace missing reconstructed positions.')).toBeVisible()
+
+  await page.getByText('Text and table alternative', { exact: true }).click()
+  await expect(page.getByText(/15 reconstructed observations intersect 1,000 Ma/)).toBeVisible()
+  await page.getByRole('button', { name: 'View raw fields' }).first().click()
+  await expect(page.getByRole('region', { name: 'CAO2024 observation details' })).toContainText('Source feature ID')
+  await expect(page.getByRole('region', { name: 'CAO2024 observation details' })).toContainText('not supplied by this source feature')
 })
 
 for (const route of ['#/home', '#/taxa?id=perissodactyla', '#/registry?release=COL26.8&id=6MB3T', '#/explore?view=tree&treeMode=cladogram&age=20', '#/lab', '#/compare']) {

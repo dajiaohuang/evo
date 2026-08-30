@@ -183,6 +183,50 @@ if (maps.schemaVersion >= 6) {
     }
   }
 }
+if (maps.schemaVersion >= 7) {
+  const expectedObservationIds = [
+    'paleomagnetic-poles',
+    'geochemistry',
+    'metamorphic-gradient-orogen',
+    'metamorphic-gradient-rift',
+    'metamorphic-gradient-subduction-zone',
+  ]
+  const observations = maps.observations
+  if (observations?.ageFilter !== 'inclusive-source-range'
+    || observations?.coordinatePolicy !== 'reconstructed-at-record-age-no-raw-fallback'
+    || observations?.totalRecords !== 44175
+    || observations?.reconstructedRecords !== 41320
+    || observations?.rawOnlyRecords !== 2855) {
+    failures.push('CAO2024 observation runtime policy or aggregate counts are incomplete')
+  }
+  let observationRecords = 0
+  for (const datasetId of expectedObservationIds) {
+    const dataset = observations?.datasets?.[datasetId]
+    if (!dataset || dataset.id !== datasetId || !dataset.files?.length) {
+      failures.push(`CAO2024 observation dataset is missing: ${datasetId}`)
+      continue
+    }
+    let datasetRecords = 0
+    for (const file of dataset.files) {
+      const label = `${datasetId} observation shard ${file.bucket}`
+      releaseUrl(file, label)
+      checkFile(file, label)
+      if (!file.url?.endsWith('.json.gz')) failures.push(`${label}: canonical shard is not gzip JSON`)
+      else if (existsSync(join(dataRoot, file.url))) {
+        try {
+          const payload = readGzipJson(file.url)
+          if (payload.datasetId !== datasetId || payload.bucket !== file.bucket || payload.records?.length !== file.records) failures.push(`${label}: payload identity or record count is invalid`)
+        } catch (error) { failures.push(`${label}: cannot parse gzip JSON (${error.message})`) }
+      }
+      datasetRecords += file.records ?? 0
+    }
+    if (datasetRecords !== dataset.records) failures.push(`${datasetId}: runtime shard count does not equal dataset count`)
+    observationRecords += datasetRecords
+  }
+  if (observationRecords !== 44175 || current.maps.observationDatasetCount !== 5 || current.maps.observationRecordCount !== 44175) {
+    failures.push('current map summary does not expose all CAO2024 observation records')
+  }
+}
 for (const snapshot of maps.snapshots) {
   if (snapshot.status !== 'available') continue
   for (const layerId of mapLayerIds) {

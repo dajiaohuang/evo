@@ -71,19 +71,51 @@ public class AppInstrumentedTest {
                 }
             }
             assertNotNull("missing bundled inventory area " + area, sample);
-            String path = sample.getString("url");
-            try (InputStream stream = context.getAssets().open("public/data/" + path)) {
-                MessageDigest digest = MessageDigest.getInstance("SHA-256");
-                byte[] buffer = new byte[8192];
-                int read;
-                int total = 0;
-                while ((read = stream.read(buffer)) != -1) {
-                    digest.update(buffer, 0, read);
-                    total += read;
+            verifyAssetRecord(context, sample);
+        }
+
+        JSONObject mapsDescriptor = current.getJSONObject("maps").getJSONObject("manifest");
+        JSONObject maps = readJsonAsset(context, "public/data/" + mapsDescriptor.getString("url"));
+        JSONObject observations = maps.getJSONObject("observations");
+        assertEquals(44175, observations.getInt("totalRecords"));
+        assertEquals(41320, observations.getInt("reconstructedRecords"));
+        JSONObject datasets = observations.getJSONObject("datasets");
+        assertEquals(5, datasets.length());
+        int observationFiles = 0;
+        for (String datasetId : new String[]{"paleomagnetic-poles", "geochemistry", "metamorphic-gradient-orogen", "metamorphic-gradient-rift", "metamorphic-gradient-subduction-zone"}) {
+            JSONArray datasetFiles = datasets.getJSONObject(datasetId).getJSONArray("files");
+            for (int fileIndex = 0; fileIndex < datasetFiles.length(); fileIndex += 1) {
+                JSONObject descriptor = datasetFiles.getJSONObject(fileIndex);
+                JSONObject inventoryRecord = null;
+                for (int index = 0; index < files.length(); index += 1) {
+                    if (files.getJSONObject(index).getString("url").equals(descriptor.getString("url"))) {
+                        inventoryRecord = files.getJSONObject(index);
+                        break;
+                    }
                 }
-                assertEquals("bundled byte count " + path, sample.getInt("bytes"), total);
-                assertEquals("bundled checksum " + path, sample.getString("sha256"), hex(digest.digest()));
+                assertNotNull("observation shard missing from release inventory", inventoryRecord);
+                assertEquals(descriptor.getInt("bytes"), inventoryRecord.getInt("bytes"));
+                assertEquals(descriptor.getString("sha256"), inventoryRecord.getString("sha256"));
+                verifyAssetRecord(context, inventoryRecord);
+                observationFiles += 1;
             }
+        }
+        assertEquals(20, observationFiles);
+    }
+
+    private void verifyAssetRecord(Context context, JSONObject record) throws Exception {
+        String path = record.getString("url");
+        try (InputStream stream = context.getAssets().open("public/data/" + path)) {
+            MessageDigest digest = MessageDigest.getInstance("SHA-256");
+            byte[] buffer = new byte[8192];
+            int read;
+            int total = 0;
+            while ((read = stream.read(buffer)) != -1) {
+                digest.update(buffer, 0, read);
+                total += read;
+            }
+            assertEquals("bundled byte count " + path, record.getInt("bytes"), total);
+            assertEquals("bundled checksum " + path, record.getString("sha256"), hex(digest.digest()));
         }
     }
 

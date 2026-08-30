@@ -288,6 +288,40 @@ export async function loadMapManifest(): Promise<RuntimeMapManifest> {
   return manifest
 }
 
+export async function loadCaoObservationDataset(
+  datasetId: import('../types').CaoObservationDatasetId,
+): Promise<{
+  manifest: RuntimeMapManifest
+  descriptor: import('./types').RuntimeMapObservationDataset
+  collection: import('../types').CaoObservationCollection
+}> {
+  const manifest = await loadMapManifest()
+  const descriptor = manifest.observations?.datasets[datasetId]
+  if (!descriptor) throw new Error(`CAO2024 observation dataset ${datasetId} is not published`)
+  if (!descriptor.files.length) throw new Error(`CAO2024 observation dataset ${datasetId} has no published shards`)
+  const shards = await Promise.all(descriptor.files.map((file) => loadMapRuntimeFile<import('../types').CaoObservationCollection>(file)))
+  for (const [index, shard] of shards.entries()) {
+    if (shard.schemaVersion !== 1 || shard.datasetId !== datasetId || shard.model !== 'CAO2024' || shard.modelVersion !== shards[0].modelVersion) {
+      throw new Error(`CAO2024 observation dataset ${datasetId} shard ${index + 1} has an invalid identity or schema`)
+    }
+    if (!Array.isArray(shard.records) || shard.records.length !== descriptor.files[index].records) {
+      throw new Error(`CAO2024 observation dataset ${datasetId} shard ${index + 1} does not match its published record count`)
+    }
+  }
+  const collection: import('../types').CaoObservationCollection = {
+    schemaVersion: 1,
+    model: shards[0].model,
+    modelVersion: shards[0].modelVersion,
+    datasetId,
+    bucket: shards.length === 1 ? shards[0].bucket : 'merged',
+    records: shards.flatMap((shard) => shard.records),
+  }
+  if (collection.records.length !== descriptor.records) {
+    throw new Error(`CAO2024 observation dataset ${datasetId} does not match its published record count`)
+  }
+  return { manifest, descriptor, collection }
+}
+
 export async function loadCatalogueManifest(): Promise<CatalogueRuntimeManifest> {
   const current = await loadCurrentManifest()
   const manifest = await loadRuntimeFile<CatalogueRuntimeManifest>(current.catalogue.manifest)

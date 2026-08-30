@@ -193,6 +193,101 @@ describe('static runtime release coherence', () => {
     expect(fetchMock).toHaveBeenCalledTimes(1)
   })
 
+  it('loads all observation shards in parallel, merges them, validates counts, and caches them', async () => {
+    Object.defineProperty(globalThis, 'Worker', { configurable: true, value: undefined })
+    const observation = (sourceFeatureId: string) => ({
+      sourceFeatureId,
+      sourceRevisionId: `${sourceFeatureId}-revision`,
+      sourceFeatureType: 'UnclassifiedFeature',
+      observationKind: 'geochemistry',
+      name: null,
+      plateId: 101,
+      age: {
+        rawFromMa: 20,
+        rawToMa: 10,
+        rawFromLexeme: '20',
+        rawToLexeme: '10',
+        averageMa: 15,
+        averageLexeme: '15',
+        modelIntersectionMa: [10, 20],
+        reconstructionAgeMa: 15,
+        reconstructionAgeMethod: 'model-intersection-midpoint',
+      },
+      sourcePositions: { samplePosition: [120, 30] },
+      reconstructedPositions: { samplePosition: [118, 29] },
+      reconstructionStatus: 'reconstructed',
+      poleA95: null,
+      poleA95Lexeme: null,
+      sampleId: null,
+      referenceId: null,
+      sourceFlags: [],
+      sourceAttributes: [['FROMAGE', 'double', '20']],
+    })
+    const shards = [
+      { schemaVersion: 1, model: 'CAO2024', modelVersion: 'v2.4', datasetId: 'geochemistry', bucket: '0', records: [observation('feature-1')] },
+      { schemaVersion: 1, model: 'CAO2024', modelVersion: 'v2.4', datasetId: 'geochemistry', bucket: '1', records: [observation('feature-2')] },
+    ]
+    const shardFiles = await Promise.all(shards.map(async (shard, index) => ({
+      url: `releases/dataset-observations/maps/observations/geochemistry-${index}.json`,
+      sha256: await sha256(shard),
+      records: 1,
+    })))
+    const mapManifest = {
+      schemaVersion: 7,
+      version: 'dataset-observations',
+      source: { title: 'CAO2024', version: 'v2.4', doi: 'test', url: 'test', license: 'CC-BY-4.0', attribution: 'test', retrievedAt: '2026-08-31' },
+      scientificLimitations: [],
+      observations: {
+        ageFilter: 'inclusive source interval',
+        coordinatePolicy: 'reconstructed only; no source-coordinate fallback',
+        datasets: {
+          geochemistry: {
+            id: 'geochemistry',
+            title: 'Geochemistry samples',
+            titleZh: '地球化学样本',
+            role: 'observation',
+            sourceFile: 'point_data/geochemistry.gpmlz',
+            records: 2,
+            reconstructableRecords: 2,
+            rawOnlyRecords: 0,
+            files: shardFiles,
+          },
+        },
+      },
+      snapshots: [],
+    } as unknown as RuntimeMapManifest
+    const manifestFile = {
+      url: 'releases/dataset-observations/maps/manifest.json',
+      sha256: await sha256(mapManifest),
+    }
+    const current = {
+      datasetVersion: 'dataset-observations',
+      releaseBase: 'releases/dataset-observations/',
+      maps: { manifest: manifestFile, availableSnapshots: 0 },
+    }
+    const payloads = new Map<string, ReturnType<typeof responseFor>>([
+      [manifestFile.url, responseFor(mapManifest)],
+      ...shardFiles.map((file, index) => [file.url, responseFor(shards[index])] as const),
+    ])
+    const fetchMock = vi.fn(async (input: RequestInfo | URL) => {
+      const url = String(input)
+      if (url.endsWith('/data/current.json')) return responseFor(current)
+      const match = [...payloads].find(([path]) => url.endsWith(path))
+      return match?.[1] ?? { ok: false, status: 404, arrayBuffer: async () => new ArrayBuffer(0) }
+    })
+    vi.stubGlobal('fetch', fetchMock)
+    const { loadCaoObservationDataset } = await import('./staticDataClient')
+
+    const first = await loadCaoObservationDataset('geochemistry')
+    const second = await loadCaoObservationDataset('geochemistry')
+    expect(first.collection.bucket).toBe('merged')
+    expect(first.collection.records.map((record) => record.sourceFeatureId)).toEqual(['feature-1', 'feature-2'])
+    expect(second.collection.records).toHaveLength(2)
+    for (const file of shardFiles) {
+      expect(fetchMock.mock.calls.filter(([input]) => String(input).endsWith(file.url))).toHaveLength(1)
+    }
+  })
+
   it('routes Catalogue usage IDs with the same deterministic SHA-256 prefix as the generator', async () => {
     const { catalogueRoutePrefix } = await import('./staticDataClient')
     await expect(catalogueRoutePrefix('4CGXP')).resolves.toBe('24')

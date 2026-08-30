@@ -45,6 +45,7 @@ const media = readJson('data/media.json')
 const calibrations = readJson('data/packages/mammalia/perissodactyla/phylogeny/calibrations.json')
 const periodMetadata = readJson('data/period-map-metadata.json')
 const paleogeographyProvenance = readJson('data/paleogeography/provenance.json')
+const caoObservationManifest = readJson('data/paleogeography/observations/manifest.json')
 const occurrenceSource = readJson('data/sources/pbdb-occurrence-bundle.json')
 const treeEvidence = readJson('data/tree/evidence.json')
 const canonicalRanges = readJson('data/ranges/range-evidence.json')
@@ -506,6 +507,75 @@ const paleogeographyLayerIds = ['coastlines', 'platePolygons', 'plateBoundaries'
 const hasPaleogeographySeries = paleogeographyProvenance.schemaVersion >= 3
 const publishedMapFramePaths = new Set()
 
+const caoObservationDefinitions = {
+  'paleomagnetic-poles': {
+    title: 'Palaeomagnetic poles and sample sites',
+    titleZh: '古地磁极与平均采样点',
+    role: 'observation',
+    sourceFile: 'Paleomagnetic_poles.gpml',
+  },
+  geochemistry: {
+    title: 'Global geochemistry observations',
+    titleZh: '全球地球化学观测',
+    role: 'observation',
+    sourceFile: 'point_data/global_geochemistry_SIA-I_and-magnesian-type.gpmlz',
+  },
+  'metamorphic-gradient-orogen': {
+    title: 'Orogenic metamorphic-gradient constraints',
+    titleZh: '造山型变质梯度约束',
+    role: 'constraint',
+    sourceFile: 'point_data/global_metamorphic_gradient_375_775_Orogen.gpml',
+  },
+  'metamorphic-gradient-rift': {
+    title: 'Rift metamorphic-gradient constraints',
+    titleZh: '裂谷型变质梯度约束',
+    role: 'constraint',
+    sourceFile: 'point_data/global_metamorphic_gradient_larger_than_775_rift.gpml',
+  },
+  'metamorphic-gradient-subduction-zone': {
+    title: 'Subduction-zone metamorphic-gradient constraints',
+    titleZh: '俯冲带型变质梯度约束',
+    role: 'constraint',
+    sourceFile: 'point_data/global_metamorphic_gradient_smaller_than_375_SZ.gpml',
+  },
+}
+
+if (caoObservationManifest.counts?.total !== 44175 || caoObservationManifest.counts?.intersectsSupportedRange !== 41323) {
+  throw new Error('CAO2024 observation manifest does not contain the complete pinned point inventory')
+}
+const caoObservationShards = caoObservationManifest.shards.map((shard) => {
+  if (!caoObservationDefinitions[shard.datasetId]) throw new Error(`Unknown CAO2024 observation dataset: ${shard.datasetId}`)
+  const sourcePath = resolve(rootDir, 'data/paleogeography/observations', shard.path)
+  const canonicalRoot = resolve(rootDir, 'data/paleogeography/observations')
+  if (!sourcePath.startsWith(`${canonicalRoot}${sep}`)) throw new Error(`Unsafe CAO2024 observation shard path: ${shard.path}`)
+  const bytes = readFileSync(sourcePath)
+  if (bytes.byteLength !== shard.bytes || sha256(bytes) !== shard.sha256) {
+    throw new Error(`CAO2024 observation shard changed without rebuilding its manifest: ${shard.path}`)
+  }
+  const published = write(`maps/observations/${shard.path}`, bytes)
+  const source = gunzipSync(bytes)
+  const payload = JSON.parse(source.toString('utf8'))
+  if (payload.datasetId !== shard.datasetId || payload.bucket !== shard.bucket || payload.records?.length !== shard.records) {
+    throw new Error(`CAO2024 observation shard identity or record count is invalid: ${shard.path}`)
+  }
+  return { ...shard, ...published, sourceBytes: source.byteLength, sourceSha256: sha256(source) }
+})
+const caoObservationDatasets = Object.fromEntries(Object.entries(caoObservationDefinitions).map(([id, definition]) => {
+  const counts = caoObservationManifest.datasets[id]
+  const datasetShards = caoObservationShards.filter((shard) => shard.datasetId === id)
+  if (!counts || datasetShards.reduce((sum, shard) => sum + shard.records, 0) !== counts.total) {
+    throw new Error(`${id}: CAO2024 observation shards do not match canonical counts`)
+  }
+  return [id, {
+    id,
+    ...definition,
+    records: counts.total,
+    reconstructableRecords: counts.reconstructed,
+    rawOnlyRecords: counts.rawOnlyModelRange + counts.rawOnlyMissingPlateCircuit,
+    files: datasetShards.map(({ url, bytes, sha256: digest, sourceBytes, sourceSha256, records, bucket }) => ({ url, bytes, sha256: digest, sourceBytes, sourceSha256, records, bucket })),
+  }]
+}))
+
 function publishCanonicalMapFrame(layerId, frame) {
   if (!Number.isFinite(frame.ageMa)) throw new Error(`${layerId}: map frame has an invalid ageMa`)
   if (!Number.isInteger(frame.geometryFeatures) || frame.geometryFeatures < 0) throw new Error(`${layerId} ${frame.ageMa} Ma: map frame has an invalid geometryFeatures count`)
@@ -595,7 +665,7 @@ const mapSnapshots = periodMetadata.map((period) => {
   }
 })
 const mapsManifestFile = writeJson('maps/manifest.json', {
-  schemaVersion: hasPaleogeographySeries ? 6 : 5,
+  schemaVersion: hasPaleogeographySeries ? 7 : 5,
   version: sourceManifest.datasetVersion,
   source: {
     title: paleogeographyProvenance.dataset.title,
@@ -611,6 +681,16 @@ const mapsManifestFile = writeJson('maps/manifest.json', {
     ageRangeMa: paleogeographyProvenance.series.ageRangeMa,
     selectionPolicy: paleogeographyProvenance.series.selectionPolicy,
     layers: mapLayers,
+    observations: {
+      ageFilter: 'inclusive-source-range',
+      coordinatePolicy: 'reconstructed-at-record-age-no-raw-fallback',
+      totalRecords: caoObservationManifest.counts.total,
+      reconstructedRecords: caoObservationManifest.counts.reconstructed,
+      rawOnlyRecords: caoObservationManifest.counts.rawOnlyModelRange + caoObservationManifest.counts.rawOnlyMissingPlateCircuit,
+      datasets: caoObservationDatasets,
+      sourceArchive: caoObservationManifest.sourceArchive,
+      scientificBoundary: caoObservationManifest.scientificBoundary,
+    },
   } : {}),
   snapshots: mapSnapshots,
 }, true)
@@ -715,6 +795,9 @@ const current = {
     manifest: mapsManifestFile,
     availableSnapshots: mapSnapshots.filter((snapshot) => snapshot.status === 'available').length,
     frameCount: mapLayers ? Object.values(mapLayers).reduce((sum, layer) => sum + layer.frames.length, 0) : null,
+    geometryFrameCount: mapLayers ? Object.values(mapLayers).reduce((sum, layer) => sum + layer.frames.length, 0) : null,
+    observationDatasetCount: Object.keys(caoObservationDatasets).length,
+    observationRecordCount: caoObservationManifest.counts.total,
   },
   catalogue: {
     manifest: catalogueManifestFile,

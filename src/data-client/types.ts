@@ -164,6 +164,27 @@ export interface RuntimeMapLayer {
   frames: RuntimeMapFrame[]
 }
 
+export interface RuntimeMapObservationDataset {
+  id: import('../types').CaoObservationDatasetId
+  title: string
+  titleZh: string
+  role: import('../types').CaoObservationRole
+  sourceFile: string
+  records: number
+  reconstructableRecords: number
+  rawOnlyRecords: number
+  files: Array<RuntimeFile & { records: number; bucket?: string }>
+}
+
+export interface RuntimeMapObservations {
+  ageFilter: string
+  coordinatePolicy: string
+  totalRecords: number
+  reconstructedRecords: number
+  rawOnlyRecords: number
+  datasets: Record<import('../types').CaoObservationDatasetId, RuntimeMapObservationDataset>
+}
+
 export interface RuntimeMapFrameSelection {
   layerId: import('../types').PaleogeographyLayerId
   requestedAgeMa: number
@@ -192,6 +213,7 @@ export interface RuntimeMapManifest {
     outsideRange: 'unavailable'
   }
   layers?: Record<import('../types').PaleogeographyLayerId, RuntimeMapLayer>
+  observations?: RuntimeMapObservations
   /** Compatibility metadata for period descriptions and older releases. */
   snapshots: RuntimeMapSnapshot[]
 }
@@ -443,7 +465,14 @@ export interface CurrentRuntimeManifest {
     totalRecords: number
     unresolvedPackageAssignmentCount: number
   }
-  maps: { manifest: RuntimeFile; availableSnapshots: number }
+  maps: {
+    manifest: RuntimeFile
+    availableSnapshots: number
+    frameCount?: number | null
+    geometryFrameCount?: number | null
+    observationDatasetCount?: number
+    observationRecordCount?: number
+  }
   catalogue: {
     manifest: RuntimeFile
     releaseAlias: string
