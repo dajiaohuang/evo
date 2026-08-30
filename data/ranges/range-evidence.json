@@ -3022,23 +3022,21 @@
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "note": "Rounded Fram Formation occurrence; not a global absence-based duration."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
-    "confidence": "medium",
-    "claimIds": [],
+    "evidenceBasis": "The approximately 375 Ma display is tied to the Fram Formation material described by Daeschler et al.",
+    "confidence": "high",
+    "claimIds": [
+      "claim:taxon:tiktaalik:fossil-range"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
-      },
-      {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "daeschler-2006-tiktaalik-body-plan",
+        "locator": "pp. 757–763; Geological setting and age; Figures 2–8"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "literature-synthesized"
   },
   {
     "id": "range:tetrapoda:global",
@@ -4759,23 +4757,21 @@
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "note": "Legacy global envelope retained; the Hettangian Somerset sample is separately claim-linked."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "evidenceBasis": "The global display remains a composite; Lomax and Massare provide a primary-study Hettangian regional range and species sample.",
     "confidence": "medium",
-    "claimIds": [],
+    "claimIds": [
+      "claim:taxon:ichthyosaurus:fossil-range"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
-      },
-      {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "lomax-massare-2017-ichthyosaurus",
+        "locator": "pp. 1–20; Hettangian localities; Figures 1–10"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "literature-synthesized"
   },
   {
     "id": "range:plesiosauria:global",
@@ -4783,29 +4779,31 @@
     "rangeKind": "global-composite",
     "taxonomicConcept": "Plesiosauria",
     "geographicScope": "Global or represented navigation composite",
-    "olderMa": 228,
+    "olderMa": 205.7,
     "youngerMa": 66,
     "status": "available",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "note": "Older bound follows diagnostic Rhaetian Rhaeticosaurus; the 66 Ma younger bound remains a broad composite."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
-    "confidence": "medium",
-    "claimIds": [],
+    "evidenceBasis": "Diagnostic Rhaetian Rhaeticosaurus constrains the older display bound; older Bobosaurus remains an uncertain candidate and does not pull the range into the Carnian.",
+    "confidence": "high",
+    "claimIds": [
+      "claim:taxon:plesiosauria:fossil-range"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
+        "referenceId": "wintrich-2017-rhaeticosaurus",
+        "locator": "Article e1701144; Figures 1–4; Supplementary Figures S1–S12"
       },
       {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "dalla-vecchia-2006-bobosaurus",
+        "locator": "pp. 207–225; alternative affinity discussion"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "literature-synthesized"
   },
   {
     "id": "range:elasmosauridae:global",
@@ -4909,23 +4907,25 @@
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "note": "Broad family navigation envelope; the Dallasaurus stage record is separately scoped."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "evidenceBasis": "The broad family display is retained while explicit clade definitions and a middle Turonian specimen occurrence are linked separately.",
     "confidence": "medium",
-    "claimIds": [],
+    "claimIds": [
+      "claim:taxon:mosasauridae:fossil-range"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
+        "referenceId": "madzia-cau-2017-mosasauroid-nomenclature",
+        "locator": "Table 1; Figures 1–7"
       },
       {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "bell-polcyn-2005-dallasaurus",
+        "locator": "pp. 177–194"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "literature-synthesized"
   },
   {
     "id": "range:archosauria:global",
@@ -5005,19 +5005,15 @@
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "note": "Legacy global display envelope; not an exact claim-linked FAD or LAD."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "evidenceBasis": "The global pterosaur envelope remains a legacy navigation composite and is not an exact claim-linked FAD or LAD.",
     "confidence": "medium",
     "claimIds": [],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
-      },
-      {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "witton-habib-2010-giant-pterosaur-flight",
+        "locator": "pp. 867–873; Figures 1–5"
       }
     ],
     "reviewStatus": "not-reviewed",
@@ -11762,5 +11758,199 @@
       }
     ],
     "reviewStatus": "automated-audit-passed"
+  },
+  {
+    "id": "range:elpistostege:global",
+    "entityId": "elpistostege",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Elpistostege watsoni",
+    "geographicScope": "Miguasha, Quebec, Canada",
+    "olderMa": 382.31,
+    "youngerMa": 372.15,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Stage-level envelope; it does not establish absence outside the cited study sample."
+    },
+    "evidenceBasis": "A Frasnian stage envelope contextualizes the Miguasha specimen described and CT-imaged by Cloutier et al.; it is not a global genus duration.",
+    "confidence": "high",
+    "claimIds": [
+      "claim:event:elpistostege-digit-bearing-fin"
+    ],
+    "referenceLocators": [
+      {
+        "referenceId": "cloutier-2020-elpistostege-hand",
+        "locator": "pp. 549–554; Figures 1–5 and Extended Data"
+      }
+    ],
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "literature-synthesized"
+  },
+  {
+    "id": "range:acanthostega:global",
+    "entityId": "acanthostega",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Acanthostega gunnari",
+    "geographicScope": "East Greenland",
+    "olderMa": 372.15,
+    "youngerMa": 358.86,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Stage-level envelope; it does not establish absence outside the cited study sample."
+    },
+    "evidenceBasis": "A Famennian stage envelope contextualizes the East Greenland limb material described by Coates; it does not establish a precise global FAD or LAD.",
+    "confidence": "high",
+    "claimIds": [
+      "claim:event:acanthostega-eight-digit-limb"
+    ],
+    "referenceLocators": [
+      {
+        "referenceId": "coates-1990-polydactyly",
+        "locator": "pp. 66–69; Figures 1–3"
+      }
+    ],
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "literature-synthesized"
+  },
+  {
+    "id": "range:ichthyostega:global",
+    "entityId": "ichthyostega",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Ichthyostega",
+    "geographicScope": "East Greenland",
+    "olderMa": 372.15,
+    "youngerMa": 358.86,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Stage-level envelope; it does not establish absence outside the cited study sample."
+    },
+    "evidenceBasis": "A Famennian stage envelope contextualizes the East Greenland specimens reconstructed by Pierce et al.; it is not a global genus duration.",
+    "confidence": "high",
+    "claimIds": [
+      "claim:event:ichthyostega-joint-mobility"
+    ],
+    "referenceLocators": [
+      {
+        "referenceId": "pierce-2012-ichthyostega-mobility",
+        "locator": "pp. 523–526; Figures 1–3 and Supplementary Information"
+      }
+    ],
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "literature-synthesized"
+  },
+  {
+    "id": "range:mosasauroidea:global",
+    "entityId": "mosasauroidea",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Mosasauroidea sensu Madzia and Cau 2017",
+    "geographicScope": "Cretaceous navigation composite",
+    "olderMa": 101,
+    "youngerMa": 66,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Stage-level envelope; it does not establish absence outside the cited study sample."
+    },
+    "evidenceBasis": "Broad Cretaceous navigation envelope retained for discovery; it is not a claim-linked global occurrence audit.",
+    "confidence": "medium",
+    "claimIds": [],
+    "referenceLocators": [
+      {
+        "referenceId": "madzia-cau-2017-mosasauroid-nomenclature",
+        "locator": "Table 1; Figures 1–7; phylogenetic definitions"
+      }
+    ],
+    "reviewStatus": "not-reviewed",
+    "evidenceLevel": "legacy-display"
+  },
+  {
+    "id": "range:tiktaalik:fram-formation",
+    "entityId": "tiktaalik",
+    "rangeKind": "taxon-range",
+    "taxonomicConcept": "Tiktaalik roseae",
+    "geographicScope": "Fram Formation, southern Ellesmere Island, Nunavut, Canada",
+    "olderMa": 375,
+    "youngerMa": 375,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Stage-level envelope; it does not establish absence outside the cited study sample."
+    },
+    "evidenceBasis": "The regional record is tied to the Fram Formation specimens and rounded approximately 375 Ma age reported in the primary description.",
+    "confidence": "high",
+    "claimIds": [
+      "claim:taxon:tiktaalik:fossil-range"
+    ],
+    "referenceLocators": [
+      {
+        "referenceId": "daeschler-2006-tiktaalik-body-plan",
+        "locator": "pp. 757–763; Geological setting and age; Figures 2–8"
+      }
+    ],
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "literature-synthesized"
+  },
+  {
+    "id": "range:mosasauridae:dallasaurus-middle-turonian",
+    "entityId": "mosasauridae",
+    "rangeKind": "taxon-range",
+    "taxonomicConcept": "Mosasauridae sample represented by Dallasaurus turneri",
+    "geographicScope": "North-central Texas, United States",
+    "olderMa": 93.9,
+    "youngerMa": 89.8,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Stage-level envelope; it does not establish absence outside the cited study sample."
+    },
+    "evidenceBasis": "The stage envelope captures the middle Turonian Dallasaurus skeletons without treating them as a globally complete family range.",
+    "confidence": "medium",
+    "claimIds": [
+      "claim:taxon:mosasauridae:fossil-range"
+    ],
+    "referenceLocators": [
+      {
+        "referenceId": "bell-polcyn-2005-dallasaurus",
+        "locator": "pp. 177–194; middle Turonian locality and systematic paleontology"
+      }
+    ],
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "literature-synthesized"
+  },
+  {
+    "id": "range:ichthyosaurus:somerset-hettangian",
+    "entityId": "ichthyosaurus",
+    "rangeKind": "taxon-range",
+    "taxonomicConcept": "Ichthyosaurus species sample of Lomax and Massare 2017",
+    "geographicScope": "Somerset, England",
+    "olderMa": 201.4,
+    "youngerMa": 199.5,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Stage-level envelope; it does not establish absence outside the cited study sample."
+    },
+    "evidenceBasis": "The Hettangian envelope is a regional sample for diagnosed Somerset species and is not substituted for the global genus range.",
+    "confidence": "high",
+    "claimIds": [
+      "claim:taxon:ichthyosaurus:fossil-range"
+    ],
+    "referenceLocators": [
+      {
+        "referenceId": "lomax-massare-2017-ichthyosaurus",
+        "locator": "pp. 1–20; Hettangian localities; Figures 1–10"
+      }
+    ],
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "literature-synthesized"
   }
 ]

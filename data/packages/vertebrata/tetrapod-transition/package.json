@@ -1,12 +1,12 @@
 {
   "schemaVersion": 5,
   "id": "tetrapod-transition",
-  "version": "2026.08-static-v5-rc35",
+  "version": "2026.08-static-v5-rc36",
   "title": "Sarcopterygians and the Tetrapod Transition",
   "titleZh": "肉鳍鱼类与四足动物转型",
   "conceptScope": {
-    "en": "Evidence and navigation concepts rooted at sarcopterygii; membership follows the committed entity registry and does not imply exhaustive taxonomic coverage.",
-    "zh": "以 sarcopterygii 为根的证据与导航概念；成员范围以已提交的实体注册表为准，不表示穷尽性的分类覆盖。"
+    "en": "Seven primary-evidence dossiers now expose named Elpistostege, Tiktaalik, Acanthostega and Ichthyostega navigation rather than reducing the fin-to-limb transition to one exemplar. A rich Tiktaalik profile links taxonomy, a formation-scoped occurrence, geography, morphology and ecology to primary-study locators. Tracks, articulated bodies, digit homology and mobility models remain distinct; COL26.8 living-name routing is unchanged.",
+    "zh": "七个一手证据档案现以具名导航呈现 Elpistostege、Tiktaalik、Acanthostega 与 Ichthyostega，不再把鳍—肢转型缩减成单一代表。Tiktaalik 丰富档案把分类、组级出现、地理、形态与生态分别连接到一手研究定位。遗迹、关节骨架、指同源与运动模型保持分离；COL26.8 现生名称路由不变。"
   },
   "rootEntityIds": [
     "sarcopterygii"
@@ -17,14 +17,18 @@
     "dipnoi",
     "tetrapodomorpha",
     "stem-tetrapodomorphs",
-    "tiktaalik"
+    "tiktaalik",
+    "elpistostege",
+    "acanthostega",
+    "ichthyostega"
   ],
   "canonicalSources": {
     "entityDefinitions": "data/navigation/atlas-ontology.json",
     "ranges": "data/ranges/range-evidence.json",
     "externalResolutions": "data/sources/pbdb-taxon-resolution.json",
     "references": "data/references.json",
-    "occurrences": "data/fossils/*.json"
+    "occurrences": "data/fossils/*.json",
+    "profilesSource": "data/packages/vertebrata/tetrapod-transition/profiles.source.json"
   },
   "platformMaturity": "published",
   "scientificMaturity": "structured",
@@ -33,7 +37,7 @@
   "limitations": [
     "Package dossiers expose the current curated evidence boundary; unavailable fields are explicit and are not inferred.",
     "Package dossiers expose the current curated evidence boundary; unavailable fields are explicit and are not inferred.",
-    "All six entity-wide temporal ranges remain legacy-display estimates and are not promoted by the specimen- and trace-scoped event evidence.",
+    "Claim-linked named-fossil ranges are stage- or formation-scoped evidence envelopes, not global absence-based FADs, LADs or uninterrupted lineage durations.",
     "Trace fossils, body specimens, digit homology, functional reconstructions and terrestriality are kept as distinct claims; no featured fossil is asserted to be a direct ancestor."
   ]
 }

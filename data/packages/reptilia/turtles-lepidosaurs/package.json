@@ -1,12 +1,12 @@
 {
   "schemaVersion": 5,
   "id": "turtles-lepidosaurs",
-  "version": "2026.08-static-v5-rc35",
+  "version": "2026.08-static-v5-rc36",
   "title": "Turtles and Lepidosaurs",
   "titleZh": "龟鳖类与鳞龙类",
   "conceptScope": {
-    "en": "Eight primary-evidence dossiers connect named shell-bearing specimens, CT and synchrotron volumes, morphology matrices and a fossil-calibrated molecular clock without arranging separate taxa into an ancestor ladder. Turtle dossiers distinguish observed ribs, gastralia, plastron and neural plates from homology, ecology, topology and crown-calibration models. Lepidosaur dossiers distinguish scanned anatomy from combined morphology–molecule constraints and retain Cryptovaranoides as a competing-topology case. Cryptodira, Pleurodira, Rhynchocephalia, Pan-Squamata, Squamata and Serpentes are curated browse routes rather than a complete or uncontested tree. COL26.8 assigns 12,622 accepted living species to this package as nomenclatural routing under the selected roots; that count is not fossil evidence and does not measure dossier, translation, media or review maturity.",
-    "zh": "八个一手证据档案连接具名龟壳相关标本、CT 与同步辐射体数据、形态矩阵以及化石校准分子钟，同时不把不同类群排列成祖先阶梯。龟类档案严格区分直接观察到的肋骨、腹肋、腹甲和神经板，与同源性、生态、拓扑及冠群校准模型；鳞龙档案严格区分扫描解剖与形态—分子联合约束，并把 Cryptovaranoides 保留为竞争性拓扑案例。曲颈龟类、侧颈龟类、喙头类、有鳞类总群、有鳞目与蛇类只是策展浏览路径，并非完整或无争议的系统树。COL26.8 在所选根节点下把 12,622 个现生接受种路由到本包；该数值是命名覆盖快照，不是化石证据，也不衡量档案、翻译、媒体或评审成熟度。"
+    "en": "Nine primary-evidence dossiers connect turtle-shell specimens, CT volumes, matrices, a fossil-calibrated clock and an explicit mosasauroid clade-boundary case. Mosasauroidea is shown as broader than node-defined Mosasauridae, and Dallasaurus demonstrates that family placement and full paddle specialization are separate questions. A rich Mosasauridae profile links five visible field families to exact primary-study locators. COL26.8 still routes 12,622 accepted living species as nomenclatural coverage only.",
+    "zh": "九个一手证据档案连接龟壳标本、CT 体数据、矩阵、化石校准时钟与一个显式沧龙类支系边界案例。沧龙超科范围大于节点定义的沧龙科，Dallasaurus 说明科级归属与完全鳍桨化是两个不同问题。沧龙科丰富档案把五类可见字段连接到精确一手研究定位。COL26.8 的 12,622 个现生接受种仍只表示命名覆盖。"
   },
   "rootEntityIds": [
     "testudines",
@@ -21,6 +21,7 @@
     "pan-squamata",
     "squamata",
     "serpentes",
+    "mosasauroidea",
     "mosasauridae"
   ],
   "canonicalSources": {
@@ -28,7 +29,8 @@
     "ranges": "data/ranges/range-evidence.json",
     "externalResolutions": "data/sources/pbdb-taxon-resolution.json",
     "references": "data/references.json",
-    "occurrences": "data/fossils/*.json"
+    "occurrences": "data/fossils/*.json",
+    "profilesSource": "data/packages/reptilia/turtles-lepidosaurs/profiles.source.json"
   },
   "platformMaturity": "published",
   "scientificMaturity": "structured",
@@ -41,6 +43,7 @@
     "The Caribemys hard minimum, soft maximum and relaxed-clock posterior are separate quantities. A fossil minimum does not date crown origin, and the cited model did not resolve a Triassic versus Jurassic origin for crown Testudines.",
     "Taytalura, Megachirella and Bellairsia placements depend on sampled characters and analytical constraints. Molecular partitions and clock estimates are model inputs or outputs, not anatomy, fossil dates or living-species nomenclature.",
     "Cryptovaranoides remains contested because element identity, referral and character scoring differ among primary studies; it is not used here as a secure crown-Squamata FAD or calibration.",
+    "Mosasauroidea and Mosasauridae are deliberately non-interchangeable. The navigation parent supports discovery, while basal topology and limb-specialization sequence remain analysis- and specimen-dependent.",
     "COL26.8 accepted-species counts are package-routing results for living names. They do not grade fossil, morphology, event, translation, media, topology or expert-review completeness."
   ]
 }

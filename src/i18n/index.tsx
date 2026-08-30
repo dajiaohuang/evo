@@ -13,6 +13,7 @@ import { primatesZhKeys } from './primatesZhKeys'
 import { spongesCnidariansZhKeys } from './spongesCnidariansZhKeys'
 import { trilobitesCheliceratesZhKeys } from './trilobitesCheliceratesZhKeys'
 import { hasTurtleLepidosaurTranslation } from './turtleLepidosaurZhKeys'
+import { issue68Zh } from './issue68Zh'
 import { hasVertebrateDeepeningTranslation } from './vertebrateDeepeningZhKeys'
 
 export type Language = 'en' | 'zh'
@@ -21,6 +22,7 @@ type TranslationValues = Record<string, string | number>
 const STORAGE_KEY = 'evo-atlas-language'
 
 const zh: Record<string, string> = {
+  ...issue68Zh,
   'ROM VP 83326 records a hyper-elongated neural spine in a referred early synapsid specimen, while its whole-body outline and biological function remain unresolved.': '归入早期合弓类的标本 ROM VP 83326 记录了超长神经棘，但完整体形和生物学功能仍未解决。',
   'Sydney Mines Formation, Florence, Nova Scotia, Canada': '加拿大新斯科舍省弗洛伦斯，悉尼矿组',
   'Echinerpeton intermedium': 'Echinerpeton intermedium',

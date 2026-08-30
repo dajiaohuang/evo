@@ -1,9 +1,9 @@
 {
   "schemaVersion": 5,
-  "version": "2026.08-static-v5-rc35",
+  "version": "2026.08-static-v5-rc36",
   "schemaStatus": "candidate",
   "packageCount": 24,
-  "entityCount": 385,
+  "entityCount": 389,
   "packages": [
     {
       "id": "atlas-core",
@@ -228,7 +228,7 @@
       "rootEntityIds": [
         "sarcopterygii"
       ],
-      "entityCount": 6,
+      "entityCount": 9,
       "platformMaturity": "published",
       "scientificMaturity": "structured",
       "automatedReviewStatus": "passed",
@@ -363,7 +363,7 @@
         "testudines",
         "lepidosauria"
       ],
-      "entityCount": 9,
+      "entityCount": 10,
       "platformMaturity": "published",
       "scientificMaturity": "structured",
       "automatedReviewStatus": "passed",
@@ -615,6 +615,9 @@
     "tetrapodomorpha": "tetrapod-transition",
     "stem-tetrapodomorphs": "tetrapod-transition",
     "tiktaalik": "tetrapod-transition",
+    "elpistostege": "tetrapod-transition",
+    "acanthostega": "tetrapod-transition",
+    "ichthyostega": "tetrapod-transition",
     "tetrapoda": "atlas-core",
     "amphibia": "amphibia",
     "temnospondyli": "amphibia",
@@ -760,6 +763,7 @@
     "pan-squamata": "turtles-lepidosaurs",
     "squamata": "turtles-lepidosaurs",
     "serpentes": "turtles-lepidosaurs",
+    "mosasauroidea": "turtles-lepidosaurs",
     "mosasauridae": "turtles-lepidosaurs",
     "archosauria": "atlas-core",
     "crocodylomorpha": "crocodylomorphs-birds",

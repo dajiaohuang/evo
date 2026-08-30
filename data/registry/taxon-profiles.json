@@ -350,6 +350,60 @@
     "rangeProvisional": true
   },
   {
+    "id": "tiktaalik",
+    "treeNodeId": "tiktaalik",
+    "pbdbTaxonId": "txn:77132",
+    "scientificName": "Tiktaalik",
+    "commonName": "Tiktaalik",
+    "commonNameZh": "提塔利克鱼",
+    "rank": "genus",
+    "parentName": "Stem tetrapodomorph navigation grade",
+    "extinct": true,
+    "geography": [
+      "Fram Formation, southern Ellesmere Island, Nunavut, Canada"
+    ],
+    "regionalRanges": [
+      {
+        "label": "Fram Formation occurrence",
+        "region": "Fram Formation, southern Ellesmere Island, Nunavut, Canada",
+        "rangeKind": "taxon-range",
+        "olderMa": 375,
+        "youngerMa": 375,
+        "basis": "The regional record is tied to the Fram Formation specimens and rounded approximately 375 Ma age reported in the primary description.",
+        "confidence": "high",
+        "evidenceLevel": "literature-synthesized",
+        "provisional": true,
+        "referenceIds": [
+          "daeschler-2006-tiktaalik-body-plan"
+        ]
+      }
+    ],
+    "overview": "A Frasnian elpistostegalian known from articulated material that combines fish-like features with a mobile neck, robust ribs and a fin containing wrist-like joints.",
+    "ecology": {
+      "diet": "Aquatic predator",
+      "habitat": "Shallow marginal-water system",
+      "locomotion": "Fin-propelled; load-bearing capacity is inferred",
+      "bodySize": "Large-bodied tetrapodomorph",
+      "guild": "Shallow-water predator"
+    },
+    "traits": [
+      "Scales and fin rays retained",
+      "Mobile neck and robust ribs",
+      "Pectoral fin with wrist-like joints"
+    ],
+    "evidenceSummary": "Named Fram Formation specimens and primary descriptions strongly support the anatomical mosaic; direct ancestry and habitual terrestrial walking are not claimed.",
+    "confidence": "high",
+    "referenceIds": [
+      "daeschler-2006-tiktaalik-body-plan",
+      "shubin-2006-tiktaalik-pectoral-fin"
+    ],
+    "firstAppearance": 375,
+    "lastAppearance": 375,
+    "rangeEvidenceLevel": "literature-synthesized",
+    "rangeReviewStatus": "automated-audit-passed",
+    "rangeProvisional": true
+  },
+  {
     "id": "gerobatrachus",
     "treeNodeId": "gerobatrachus",
     "pbdbTaxonId": "txn:153288",
@@ -953,6 +1007,194 @@
     "lastAppearance": 0.014,
     "rangeEvidenceLevel": "legacy-display",
     "rangeReviewStatus": "automated-audit-passed",
+    "rangeProvisional": true
+  },
+  {
+    "id": "mosasauridae",
+    "treeNodeId": "mosasauridae",
+    "pbdbTaxonId": "txn:38049",
+    "scientificName": "Mosasauridae",
+    "commonName": "True mosasaurs",
+    "commonNameZh": "沧龙科",
+    "rank": "family",
+    "parentName": "Mosasauroidea",
+    "extinct": true,
+    "geography": [
+      "Cretaceous marine deposits worldwide",
+      "North-central Texas"
+    ],
+    "regionalRanges": [
+      {
+        "label": "Dallasaurus middle Turonian occurrence",
+        "region": "North-central Texas, United States",
+        "rangeKind": "taxon-range",
+        "olderMa": 93.9,
+        "youngerMa": 89.8,
+        "basis": "The stage envelope captures the middle Turonian Dallasaurus skeletons without treating them as a globally complete family range.",
+        "confidence": "medium",
+        "evidenceLevel": "literature-synthesized",
+        "provisional": true,
+        "referenceIds": [
+          "bell-polcyn-2005-dallasaurus"
+        ]
+      }
+    ],
+    "overview": "A node-defined family within broader Mosasauroidea; the package makes that clade boundary explicit and does not equate family membership with one fixed degree of paddle specialization.",
+    "ecology": {
+      "diet": "Marine predator",
+      "habitat": "Shallow to open marine",
+      "locomotion": "Axial swimming with lineage-dependent limb specialization",
+      "bodySize": "Small to very large",
+      "guild": "Marine vertebrate predator"
+    },
+    "traits": [
+      "Node-defined Mosasauridae narrower than Mosasauroidea",
+      "Aquatic cranial and axial specializations",
+      "Limb specialization varies among early and derived members"
+    ],
+    "evidenceSummary": "Explicit phylogenetic definitions and the Dallasaurus skeletons separate nomenclatural boundaries from locomotor character evolution; basal relationships remain analysis-sensitive.",
+    "confidence": "high",
+    "referenceIds": [
+      "madzia-cau-2017-mosasauroid-nomenclature",
+      "bell-polcyn-2005-dallasaurus"
+    ],
+    "firstAppearance": 101,
+    "lastAppearance": 66,
+    "rangeEvidenceLevel": "literature-synthesized",
+    "rangeReviewStatus": "automated-audit-passed",
+    "rangeProvisional": true
+  },
+  {
+    "id": "ichthyosaurus",
+    "treeNodeId": "ichthyosaurus",
+    "pbdbTaxonId": "txn:36558",
+    "scientificName": "Ichthyosaurus",
+    "commonName": "Ichthyosaurus",
+    "commonNameZh": "鱼龙属",
+    "rank": "genus",
+    "parentName": "Ichthyosauria",
+    "extinct": true,
+    "geography": [
+      "Europe",
+      "Somerset, England"
+    ],
+    "regionalRanges": [
+      {
+        "label": "Somerset Hettangian sample",
+        "region": "Somerset, England",
+        "rangeKind": "taxon-range",
+        "olderMa": 201.4,
+        "youngerMa": 199.5,
+        "basis": "The Hettangian envelope is a regional sample for diagnosed Somerset species and is not substituted for the global genus range.",
+        "confidence": "high",
+        "evidenceLevel": "literature-synthesized",
+        "provisional": true,
+        "referenceIds": [
+          "lomax-massare-2017-ichthyosaurus"
+        ]
+      }
+    ],
+    "overview": "A Lower Jurassic ichthyosaur genus represented in this profile by diagnosable Hettangian Somerset specimens rather than an undifferentiated global occurrence set.",
+    "ecology": {
+      "diet": "Marine predator",
+      "habitat": "Pelagic marine",
+      "locomotion": "Axial swimming with paired-fin control",
+      "bodySize": "Medium marine reptile",
+      "guild": "Pelagic predator"
+    },
+    "traits": [
+      "Streamlined body",
+      "Large orbit and elongate rostrum",
+      "Paddle-like limbs"
+    ],
+    "evidenceSummary": "Primary species descriptions support diagnosis and a regional Hettangian sample; the broader global range and detailed performance remain provisional composites or inferences.",
+    "confidence": "high",
+    "referenceIds": [
+      "lomax-massare-2017-ichthyosaurus"
+    ],
+    "firstAppearance": 200,
+    "lastAppearance": 190,
+    "rangeEvidenceLevel": "literature-synthesized",
+    "rangeReviewStatus": "automated-audit-passed",
+    "rangeProvisional": true
+  },
+  {
+    "id": "plesiosauria",
+    "treeNodeId": "plesiosauria",
+    "pbdbTaxonId": "txn:36454",
+    "scientificName": "Plesiosauria",
+    "commonName": "Plesiosaurs",
+    "commonNameZh": "蛇颈龙类",
+    "rank": "order",
+    "parentName": "Sauropterygia",
+    "extinct": true,
+    "geography": [
+      "Global marine deposits",
+      "Exter Formation, Germany"
+    ],
+    "overview": "A marine sauropterygian radiation with a diagnostic Rhaetian record; older Bobosaurus is displayed as an uncertain candidate and does not set the Plesiosauria range.",
+    "ecology": {
+      "diet": "Marine predator",
+      "habitat": "Coastal to open marine",
+      "locomotion": "Four-flipper underwater flight",
+      "bodySize": "Small to very large",
+      "guild": "Marine predator"
+    },
+    "traits": [
+      "Four hydrofoil-like flippers",
+      "Compact trunk",
+      "Neck and skull proportions vary widely"
+    ],
+    "evidenceSummary": "Rhaeticosaurus provides articulated diagnostic anatomy and histology; Bobosaurus is older but phylogenetically less secure, and hydrodynamic performance remains model-based.",
+    "confidence": "high",
+    "referenceIds": [
+      "wintrich-2017-rhaeticosaurus",
+      "dalla-vecchia-2006-bobosaurus",
+      "muscutt-2017-plesiosaur-four-flipper"
+    ],
+    "firstAppearance": 205.7,
+    "lastAppearance": 66,
+    "rangeEvidenceLevel": "literature-synthesized",
+    "rangeReviewStatus": "automated-audit-passed",
+    "rangeProvisional": true
+  },
+  {
+    "id": "pterosauria",
+    "treeNodeId": "pterosauria",
+    "pbdbTaxonId": "txn:38461",
+    "scientificName": "Pterosauria",
+    "commonName": "Pterosaurs",
+    "commonNameZh": "翼龙类",
+    "rank": "order",
+    "parentName": "Archosauria",
+    "extinct": true,
+    "geography": [
+      "Global terrestrial and coastal deposits"
+    ],
+    "overview": "An independent archosaur flying-reptile radiation kept separate from ichthyosaurs and plesiosaurs; package evidence spans eggs, soft tissues and bounded launch models.",
+    "ecology": {
+      "diet": "Varied by lineage",
+      "habitat": "Aerial, terrestrial and coastal settings",
+      "locomotion": "Powered flight and terrestrial launch",
+      "bodySize": "Very small to giant",
+      "guild": "Diverse aerial consumer"
+    },
+    "traits": [
+      "Membranous wing supported mainly by digit IV",
+      "Pneumatized skeleton in many forms",
+      "Quadrupedal launch is a tested biomechanical model"
+    ],
+    "evidenceSummary": "Named fossils directly document eggs and integument; flight and launch performance derive from explicit models and are not generalized across every pterosaur.",
+    "confidence": "medium",
+    "referenceIds": [
+      "wang-2017-hamipterus-eggs",
+      "cincotta-2022-tupandactylus-feathers",
+      "witton-habib-2010-giant-pterosaur-flight"
+    ],
+    "firstAppearance": 228,
+    "lastAppearance": 66,
+    "rangeEvidenceLevel": "legacy-display",
+    "rangeReviewStatus": "not-reviewed",
     "rangeProvisional": true
   },
   {

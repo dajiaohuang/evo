@@ -1,0 +1,135 @@
+[
+  {
+    "id": "ichthyosaurus",
+    "treeNodeId": "ichthyosaurus",
+    "pbdbTaxonId": "txn:36558",
+    "scientificName": "Ichthyosaurus",
+    "commonName": "Ichthyosaurus",
+    "commonNameZh": "鱼龙属",
+    "rank": "genus",
+    "parentName": "Ichthyosauria",
+    "extinct": true,
+    "geography": [
+      "Europe",
+      "Somerset, England"
+    ],
+    "regionalRanges": [
+      {
+        "label": "Somerset Hettangian sample",
+        "region": "Somerset, England",
+        "rangeKind": "taxon-range",
+        "olderMa": 201.4,
+        "youngerMa": 199.5,
+        "basis": "The Hettangian envelope is a regional sample for diagnosed Somerset species and is not substituted for the global genus range.",
+        "confidence": "high",
+        "evidenceLevel": "literature-synthesized",
+        "provisional": true,
+        "referenceIds": [
+          "lomax-massare-2017-ichthyosaurus"
+        ]
+      }
+    ],
+    "overview": "A Lower Jurassic ichthyosaur genus represented in this profile by diagnosable Hettangian Somerset specimens rather than an undifferentiated global occurrence set.",
+    "ecology": {
+      "diet": "Marine predator",
+      "habitat": "Pelagic marine",
+      "locomotion": "Axial swimming with paired-fin control",
+      "bodySize": "Medium marine reptile",
+      "guild": "Pelagic predator"
+    },
+    "traits": [
+      "Streamlined body",
+      "Large orbit and elongate rostrum",
+      "Paddle-like limbs"
+    ],
+    "evidenceSummary": "Primary species descriptions support diagnosis and a regional Hettangian sample; the broader global range and detailed performance remain provisional composites or inferences.",
+    "confidence": "high",
+    "referenceIds": [
+      "lomax-massare-2017-ichthyosaurus"
+    ],
+    "firstAppearance": 200,
+    "lastAppearance": 190,
+    "rangeEvidenceLevel": "literature-synthesized",
+    "rangeReviewStatus": "automated-audit-passed",
+    "rangeProvisional": true
+  },
+  {
+    "id": "plesiosauria",
+    "treeNodeId": "plesiosauria",
+    "pbdbTaxonId": "txn:36454",
+    "scientificName": "Plesiosauria",
+    "commonName": "Plesiosaurs",
+    "commonNameZh": "蛇颈龙类",
+    "rank": "order",
+    "parentName": "Sauropterygia",
+    "extinct": true,
+    "geography": [
+      "Global marine deposits",
+      "Exter Formation, Germany"
+    ],
+    "overview": "A marine sauropterygian radiation with a diagnostic Rhaetian record; older Bobosaurus is displayed as an uncertain candidate and does not set the Plesiosauria range.",
+    "ecology": {
+      "diet": "Marine predator",
+      "habitat": "Coastal to open marine",
+      "locomotion": "Four-flipper underwater flight",
+      "bodySize": "Small to very large",
+      "guild": "Marine predator"
+    },
+    "traits": [
+      "Four hydrofoil-like flippers",
+      "Compact trunk",
+      "Neck and skull proportions vary widely"
+    ],
+    "evidenceSummary": "Rhaeticosaurus provides articulated diagnostic anatomy and histology; Bobosaurus is older but phylogenetically less secure, and hydrodynamic performance remains model-based.",
+    "confidence": "high",
+    "referenceIds": [
+      "wintrich-2017-rhaeticosaurus",
+      "dalla-vecchia-2006-bobosaurus",
+      "muscutt-2017-plesiosaur-four-flipper"
+    ],
+    "firstAppearance": 205.7,
+    "lastAppearance": 66,
+    "rangeEvidenceLevel": "literature-synthesized",
+    "rangeReviewStatus": "automated-audit-passed",
+    "rangeProvisional": true
+  },
+  {
+    "id": "pterosauria",
+    "treeNodeId": "pterosauria",
+    "pbdbTaxonId": "txn:38461",
+    "scientificName": "Pterosauria",
+    "commonName": "Pterosaurs",
+    "commonNameZh": "翼龙类",
+    "rank": "order",
+    "parentName": "Archosauria",
+    "extinct": true,
+    "geography": [
+      "Global terrestrial and coastal deposits"
+    ],
+    "overview": "An independent archosaur flying-reptile radiation kept separate from ichthyosaurs and plesiosaurs; package evidence spans eggs, soft tissues and bounded launch models.",
+    "ecology": {
+      "diet": "Varied by lineage",
+      "habitat": "Aerial, terrestrial and coastal settings",
+      "locomotion": "Powered flight and terrestrial launch",
+      "bodySize": "Very small to giant",
+      "guild": "Diverse aerial consumer"
+    },
+    "traits": [
+      "Membranous wing supported mainly by digit IV",
+      "Pneumatized skeleton in many forms",
+      "Quadrupedal launch is a tested biomechanical model"
+    ],
+    "evidenceSummary": "Named fossils directly document eggs and integument; flight and launch performance derive from explicit models and are not generalized across every pterosaur.",
+    "confidence": "medium",
+    "referenceIds": [
+      "wang-2017-hamipterus-eggs",
+      "cincotta-2022-tupandactylus-feathers",
+      "witton-habib-2010-giant-pterosaur-flight"
+    ],
+    "firstAppearance": 228,
+    "lastAppearance": 66,
+    "rangeEvidenceLevel": "legacy-display",
+    "rangeReviewStatus": "not-reviewed",
+    "rangeProvisional": true
+  }
+]

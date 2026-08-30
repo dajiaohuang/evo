@@ -1,5 +1,13 @@
 # Dataset changelog
 
+## 2026.08-static-v5-rc36 — 2026-08-30
+
+- Deepened `tetrapod-transition` with explicit Elpistostege, Tiktaalik, Acanthostega and Ichthyostega navigation, claim-linked primary-study range envelopes and a rich Tiktaalik profile whose taxonomy, range, geography, morphology and ecology fields carry exact locators.
+- Added a broad Mosasauroidea browse concept above node-defined Mosasauridae, a Dallasaurus evidence boundary and a rich family profile that keeps clade membership separate from the evolution of fully paddle-like limbs.
+- Paired early-Carnian Bobosaurus as an older uncertain near-plesiosaur candidate with diagnostic Rhaetian Rhaeticosaurus; only the latter constrains the older secure Plesiosauria display bound.
+- Added rich Ichthyosaurus, Plesiosauria and Pterosauria profiles while keeping ichthyosaurs, plesiosaurs and pterosaurs as three independent radiations and keeping global composite ranges distinct from regional primary-study samples.
+- Withheld PBDB identifiers for all newly added unresolved navigation concepts, retained the bounded 13,600-row fossil sample unchanged, preserved zero-unmatched COL26.8 assignment, and kept Web, Android and iOS on the same `0.20.0` shared-content client. All rc34/rc35 profiles, competing Dinosauria topologies, onboarding/native tests, CAO documentation and lazy content chunks remain intact.
+
 ## 2026.08-static-v5-rc35 — 2026-08-30
 
 - Added an Atlas Core chronology story with nine claim-linked steps and upgraded the Great Oxidation, Avalon Ediacaran, end-Permian and K–Pg anchors to direct primary geochronology or measured-stratigraphy evidence with precise figure, table and method locators. Broad Ordovician, Triassic, PETM and Quaternary references remain correctly labelled as syntheses.

@@ -11,9 +11,11 @@ Evo Atlas 默认直接进入综合看板：地图、时间轴、生命树和化�
 Evo Atlas 不是一个把生成文本包装成“完整百科”的项目。它同时维护两种覆盖范围，并在界面中明确区分：
 
 - 名录覆盖：固定到 Catalogue of Life Base Release `COL26.8`。2,183,133 个严格接受种全部能沿真实父子链路由到唯一资源归属，另有 2,065,436 个异名、歧义异名和误用名可解析到接受名。
-- 内容覆盖：24 个静态资源包中的证据档案、事件、故事、范围和参考文献。rc32 已无 `generated-scaffold`，科学成熟度为 23 个 `structured` 和 1 个 `curated-draft`（奇蹄目）；23 个包尚未人工审阅，奇蹄目的存储状态为 `in-review`，但内容摘要变化使有效状态成为 `stale`，没有包声称达到科学 `published`。平台 `published` 与自动检查通过只表示静态发布链完整，不等于内容或专家审阅已经完成。
+- 内容覆盖：24 个静态资源包中的证据档案、事件、故事、范围和参考文献。rc36 已无 `generated-scaffold`，科学成熟度为 23 个 `structured` 和 1 个 `curated-draft`（奇蹄目）；23 个包尚未人工审阅，奇蹄目的存储状态为 `in-review`，但内容摘要变化使有效状态成为 `stale`，没有包声称达到科学 `published`。平台 `published` 与自动检查通过只表示静态发布链完整，不等于内容或专家审阅已经完成。
 
-当前开发数据快照为 `2026.08-static-v5-rc35`，Web/Android/iOS 客户端版本为 `0.20.0`。精确记录数、校验和和限制以 [`data/manifest.json`](data/manifest.json) 为准；科学内容变更见 [`data/CHANGELOG.md`](data/CHANGELOG.md)。
+当前开发数据快照为 `2026.08-static-v5-rc36`，Web/Android/iOS 客户端版本为 `0.20.0`。精确记录数、校验和和限制以 [`data/manifest.json`](data/manifest.json) 为准；科学内容变更见 [`data/CHANGELOG.md`](data/CHANGELOG.md)。
+
+`rc36` 深化四足登陆、龟鳖—鳞龙与海生爬行动物—翼龙三包：四足过渡导航现直接进入 Elpistostege、Tiktaalik、Acanthostega 与 Ichthyostega；Mosasauroidea 与真正的 Mosasauridae 明确分层；更老但不确定的 Bobosaurus 与诊断明确的 Rhaeticosaurus 并列。五个丰富档案把可见字段逐项连接到一手研究页码、图表或章节，鱼龙、蛇颈龙和翼龙继续作为三次独立辐射呈现。未对接的导航概念不填写 PBDB 编号，13,600 条化石样本暂不扩张。rc35 的年代证据教程、图谱/主龙类档案与两套恐龙根部拓扑全部保留。
 
 `rc35` 深化图谱核心、恐龙与鳄形类—鸟类三个包：新增九步年代证据教程，把大氧化、阿瓦隆生物群、二叠纪末和 K–Pg 的时间锚点落到一手测年或实测地层；新增羽鳃类、霸王龙、始祖鸟与今鸟类的逐字段主张档案和文献限定延限；并列发布两套早期恐龙根部拓扑。始祖鸟明确位于今鸟类冠群之外，Vegavis 的 6920–6840 万年前记录只在 2025 年分析支持的冠群水禽拓扑下成为冠群延限，较年轻的 Asteriornis 继续作为独立测试。rc34 的 12 份鱼类与两栖类档案、63 条逐字段主张、初次教程、CAO 文档、原生测试和移动端完整清单全部保留；COL26.8 全集路由与 Web/Android/iOS 共用内容保持不变。
 
@@ -39,7 +41,7 @@ Evo Atlas 不是一个把生成文本包装成“完整百科”的项目。它�
 ### 物种、生命树与内容包
 
 - 搜索完整的 `COL26.8` 接受种及解析名称，并在内部页面查看固定版本的祖先链和直接子级。
-- 查看 385 个策展导航实体、24 个资源包及其实际科学成熟度。
+- 查看 389 个策展导航实体、24 个资源包及其实际科学成熟度。
 - 在导航树、范围、径向树和校准证据之间切换；追踪谱系、折叠支系并导出 Newick/Nexus。
 - 将命名学位置、导航节点、系统发育假说、化石首现和分子钟分化时间作为不同类型的信息阅读。
 
@@ -117,7 +119,7 @@ npm run mobile:ios
 
 `npm run mobile:build` 只生成 `dist-mobile/`；`mobile:sync` 再把该壳和插件配置复制到 `android/` 与 `ios/`。不要手改原生工程中被 `.gitignore` 排除的 Web 产物。应用 ID 为 `io.github.dajiaohuang.evoatlas`，自定义深链示例为：
 
-安装后的“数据”页提供两级离线能力：单个/全部资源包下载适合日常使用；“保存完整图谱”会保存 Core、全部资源包、全局化石、全部 CAO2024 帧和完整 COL 名录。当前 rc32 的完整交互数据体积与文件数以版本化发布清单为准；以后版本会按发布清单显示实际体积。重复的 ZIP 导出包不计入离线交互集。
+安装后的“数据”页提供两级离线能力：单个/全部资源包下载适合日常使用；“保存完整图谱”会保存 Core、全部资源包、全局化石、全部 CAO2024 帧和完整 COL 名录。当前 rc36 的完整交互数据体积与文件数以版本化发布清单为准；以后版本会按发布清单显示实际体积。重复的 ZIP 导出包不计入离线交互集。
 
 ```text
 evoatlas://open/stories?id=angiosperm-evidence-boundaries
@@ -220,4 +222,4 @@ Evo Atlas 没有账号、广告、分析 SDK 或应用后端。笔记、收藏�
 
 ## English summary
 
-Evo Atlas is a bilingual, static-first deep-time evidence explorer for Web, Android and iOS. The dashboard synchronizes geological time, six distinct CAO2024 reconstruction layers, fossil samples, a 385-entity navigation tree and claim-level evidence. The rc35 data retain all rc34 fish and amphibian profiles while adding primary geochronology locators, four field-linked atlas/archosaur profiles, two explicitly competing Dinosauria topologies and a topology-dependent 69.2–68.4 Ma Vegavis crown-bird test; Archaeopteryx remains explicitly outside crown Neornithes. The pinned COL26.8 registry still routes all 2,183,133 strictly accepted species to one resource owner with zero unmatched names, while package maturity remains separately disclosed. Android and iOS are Capacitor 8 projects sharing the same React client at app version 0.20.0; the native shell is bundled, and the complete offline manifest retains Core, every package, all fossils, all CAO2024 frames and the full COL registry. No account, analytics SDK, private API key, database or application server is required.
+Evo Atlas is a bilingual, static-first deep-time evidence explorer for Web, Android and iOS. The dashboard synchronizes geological time, six distinct CAO2024 reconstruction layers, fossil samples, a 389-entity navigation tree and claim-level evidence. The rc36 data retain the rc34 fish and amphibian profiles and the rc35 chronology/archosaur work while adding named tetrapod-transition navigation, separating Mosasauroidea from true Mosasauridae, and contrasting older uncertain Bobosaurus with diagnostic Rhaeticosaurus; ichthyosaurs, plesiosaurs and pterosaurs remain independent radiations. The pinned COL26.8 registry still routes all 2,183,133 strictly accepted species to one resource owner with zero unmatched names, while package maturity remains separately disclosed. Android and iOS are Capacitor 8 projects sharing the same React client at app version 0.20.0; the native shell is bundled, and the complete offline manifest retains Core, every package, all fossils, all CAO2024 frames and the full COL registry. No account, analytics SDK, private API key, database or application server is required.

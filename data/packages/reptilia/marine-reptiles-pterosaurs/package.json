@@ -1,12 +1,12 @@
 {
   "schemaVersion": 5,
   "id": "marine-reptiles-pterosaurs",
-  "version": "2026.08-static-v5-rc35",
+  "version": "2026.08-static-v5-rc36",
   "title": "Marine Reptiles and Pterosaurs",
   "titleZh": "海生爬行动物与翼龙",
   "conceptScope": {
-    "en": "Nine primary-evidence dossiers keep three independent reptile radiations separate: named ichthyosaur and plesiosaur specimens, pterosaur eggs and soft tissues, and explicitly bounded hydrodynamic or biomechanical models. Navigation adds seven named fossil taxa without asserting direct ancestry, global first appearances or a complete phylogeny. COL26.8 contributes no strictly accepted species below these fossil-root routes, so nomenclatural browse coverage is zero while the specimen dossiers are structured; legacy display ranges remain unreviewed and are not claim-linked fossil first appearances.",
-    "zh": "九个一手证据档案将三次彼此独立的爬行动物辐射分开呈现：具名鱼龙与蛇颈龙标本、翼龙卵与软组织，以及边界明确的水动力或生物力学模型。导航新增七个具名化石类群，但不主张直系祖先、全球首现或完整系统树。COL26.8 在这些化石根路由下没有严格接受种，因此命名浏览覆盖为零，而标本档案已达到结构化；旧版显示延限仍未复核，也不是有主张关联的化石首现。"
+    "en": "Ten primary-evidence dossiers and three rich profiles keep ichthyosaurs, plesiosaurs and pterosaurs as three independent radiations. An older early-Carnian Bobosaurus candidate is paired with diagnostic Rhaetian Rhaeticosaurus without extending secure Plesiosauria into the Carnian. Ichthyosaurus, Plesiosauria and Pterosauria field claims link to precise primary-study locators. COL26.8 nomenclatural routing remains zero below these fossil roots; that does not diminish structured specimen evidence.",
+    "zh": "十个一手证据档案与三个丰富档案把鱼龙、蛇颈龙和翼龙保持为三次独立辐射。更老的早卡尼期 Bobosaurus 候选与诊断明确的瑞替期 Rhaeticosaurus 并列呈现，但不会据此前推已确认蛇颈龙类延限。Ichthyosaurus、Plesiosauria 与 Pterosauria 字段主张均连接精确的一手研究定位。COL26.8 在这些化石根下的命名路由仍为零，这不削弱结构化标本证据。"
   },
   "rootEntityIds": [
     "ichthyosauria",
@@ -33,7 +33,8 @@
     "ranges": "data/ranges/range-evidence.json",
     "externalResolutions": "data/sources/pbdb-taxon-resolution.json",
     "references": "data/references.json",
-    "occurrences": "data/fossils/*.json"
+    "occurrences": "data/fossils/*.json",
+    "profilesSource": "data/packages/reptilia/marine-reptiles-pterosaurs/profiles.source.json"
   },
   "platformMaturity": "published",
   "scientificMaturity": "structured",

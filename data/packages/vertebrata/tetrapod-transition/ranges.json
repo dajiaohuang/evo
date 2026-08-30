@@ -161,22 +161,132 @@
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "note": "Rounded Fram Formation occurrence; not a global absence-based duration."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
-    "confidence": "medium",
-    "claimIds": [],
+    "evidenceBasis": "The approximately 375 Ma display is tied to the Fram Formation material described by Daeschler et al.",
+    "confidence": "high",
+    "claimIds": [
+      "claim:taxon:tiktaalik:fossil-range"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
-      },
-      {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "daeschler-2006-tiktaalik-body-plan",
+        "locator": "pp. 757–763; Geological setting and age; Figures 2–8"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "literature-synthesized"
+  },
+  {
+    "id": "range:elpistostege:global",
+    "entityId": "elpistostege",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Elpistostege watsoni",
+    "geographicScope": "Miguasha, Quebec, Canada",
+    "olderMa": 382.31,
+    "youngerMa": 372.15,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Stage-level envelope; it does not establish absence outside the cited study sample."
+    },
+    "evidenceBasis": "A Frasnian stage envelope contextualizes the Miguasha specimen described and CT-imaged by Cloutier et al.; it is not a global genus duration.",
+    "confidence": "high",
+    "claimIds": [
+      "claim:event:elpistostege-digit-bearing-fin"
+    ],
+    "referenceLocators": [
+      {
+        "referenceId": "cloutier-2020-elpistostege-hand",
+        "locator": "pp. 549–554; Figures 1–5 and Extended Data"
+      }
+    ],
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "literature-synthesized"
+  },
+  {
+    "id": "range:acanthostega:global",
+    "entityId": "acanthostega",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Acanthostega gunnari",
+    "geographicScope": "East Greenland",
+    "olderMa": 372.15,
+    "youngerMa": 358.86,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Stage-level envelope; it does not establish absence outside the cited study sample."
+    },
+    "evidenceBasis": "A Famennian stage envelope contextualizes the East Greenland limb material described by Coates; it does not establish a precise global FAD or LAD.",
+    "confidence": "high",
+    "claimIds": [
+      "claim:event:acanthostega-eight-digit-limb"
+    ],
+    "referenceLocators": [
+      {
+        "referenceId": "coates-1990-polydactyly",
+        "locator": "pp. 66–69; Figures 1–3"
+      }
+    ],
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "literature-synthesized"
+  },
+  {
+    "id": "range:ichthyostega:global",
+    "entityId": "ichthyostega",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Ichthyostega",
+    "geographicScope": "East Greenland",
+    "olderMa": 372.15,
+    "youngerMa": 358.86,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Stage-level envelope; it does not establish absence outside the cited study sample."
+    },
+    "evidenceBasis": "A Famennian stage envelope contextualizes the East Greenland specimens reconstructed by Pierce et al.; it is not a global genus duration.",
+    "confidence": "high",
+    "claimIds": [
+      "claim:event:ichthyostega-joint-mobility"
+    ],
+    "referenceLocators": [
+      {
+        "referenceId": "pierce-2012-ichthyostega-mobility",
+        "locator": "pp. 523–526; Figures 1–3 and Supplementary Information"
+      }
+    ],
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "literature-synthesized"
+  },
+  {
+    "id": "range:tiktaalik:fram-formation",
+    "entityId": "tiktaalik",
+    "rangeKind": "taxon-range",
+    "taxonomicConcept": "Tiktaalik roseae",
+    "geographicScope": "Fram Formation, southern Ellesmere Island, Nunavut, Canada",
+    "olderMa": 375,
+    "youngerMa": 375,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Stage-level envelope; it does not establish absence outside the cited study sample."
+    },
+    "evidenceBasis": "The regional record is tied to the Fram Formation specimens and rounded approximately 375 Ma age reported in the primary description.",
+    "confidence": "high",
+    "claimIds": [
+      "claim:taxon:tiktaalik:fossil-range"
+    ],
+    "referenceLocators": [
+      {
+        "referenceId": "daeschler-2006-tiktaalik-body-plan",
+        "locator": "pp. 757–763; Geological setting and age; Figures 2–8"
+      }
+    ],
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "literature-synthesized"
   }
 ]
