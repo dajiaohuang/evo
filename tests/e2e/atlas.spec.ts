@@ -10,14 +10,14 @@ test('language switch localizes the shell and scientific content, then persists'
     if (!window.localStorage.getItem('evo-atlas-language')) window.localStorage.setItem('evo-atlas-language', 'en')
   })
   await page.goto('./#/taxa?id=perissodactyla')
-  await expect(page.getByText('A once-dominant radiation of hoofed mammals', { exact: false })).toBeVisible()
+  await expect(page.getByText('An early Eocene radiation whose initially similar branches', { exact: false })).toBeVisible()
 
   await page.getByRole('button', { name: '中文', exact: true }).click()
 
   await expect(page.locator('html')).toHaveAttribute('lang', 'zh-CN')
   await expect(page).toHaveTitle('Perissodactyla — Evo Atlas')
   await expect(page.getByRole('button', { name: '探索器', exact: true })).toBeVisible()
-  await expect(page.getByText('这是一支曾占优势的有蹄哺乳动物辐射', { exact: false })).toBeVisible()
+  await expect(page.getByText('一次早始新世辐射；最初相近的分支后来分化为马、貘、犀牛', { exact: false })).toBeVisible()
 
   await page.reload()
   await expect(page.getByRole('button', { name: '探索器', exact: true })).toBeVisible()
@@ -236,7 +236,7 @@ test('Explorer restores state and removes the unsupported global model parameter
   await expect(page.getByRole('button', { name: 'points' })).toHaveClass(/is-active/)
   await expect(page.getByRole('button', { name: 'modern' })).toHaveClass(/is-active/)
   await expect(page.getByText('Shared time window 20–5 Ma')).toBeVisible()
-  await expect.poll(() => page.url()).toContain('dataset=2026.08-static-v5-rc44')
+  await expect.poll(() => page.url()).toContain('dataset=2026.08-static-v5-rc45')
   for (const fragment of ['older=20', 'younger=5', 'lat=10.000', 'lng=20.000', 'zoom=3.00', 'treeMode=fossil-range']) {
     expect(page.url()).toContain(fragment)
   }
@@ -249,7 +249,7 @@ test('Explorer requires confirmation before replacing a mismatched dataset versi
   await expect(page.getByRole('alertdialog')).toContainText('2025.01-old')
   expect(page.url()).toContain('dataset=2025.01-old')
   await page.getByRole('button', { name: 'Use current dataset' }).click()
-  await expect.poll(() => page.url()).toContain('dataset=2026.08-static-v5-rc44')
+  await expect.poll(() => page.url()).toContain('dataset=2026.08-static-v5-rc45')
 })
 
 test('a service-worker upgrade removes dataset A caches and dataset B remains coherent', async ({ page }) => {
@@ -285,7 +285,7 @@ test('a service-worker upgrade removes dataset A caches and dataset B remains co
     const versions = await Promise.all(manifestFiles.map((file) => fetch(`/evo/data/${file.url}`).then((response) => response.json()).then((manifest) => manifest.version as string)))
     return { datasetVersion: current.datasetVersion, releaseBase: current.releaseBase, urls: manifestFiles.map((file) => file.url), versions, retained: history.releases.map((entry) => entry.datasetVersion) }
   })
-  expect(releaseState.releaseBase).toBe('releases/2026.08-static-v5-rc44/')
+  expect(releaseState.releaseBase).toBe('releases/2026.08-static-v5-rc45/')
   expect(releaseState.urls.every((url) => url.startsWith(releaseState.releaseBase))).toBe(true)
   expect(releaseState.versions.every((version) => version === releaseState.datasetVersion)).toBe(true)
   expect(releaseState.retained[0]).toBe(releaseState.datasetVersion)
