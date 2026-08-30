@@ -41,23 +41,21 @@
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "note": "Legacy global envelope retained; the Hettangian Somerset sample is separately claim-linked."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "evidenceBasis": "The global display remains a composite; Lomax and Massare provide a primary-study Hettangian regional range and species sample.",
     "confidence": "medium",
-    "claimIds": [],
+    "claimIds": [
+      "claim:taxon:ichthyosaurus:fossil-range"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
-      },
-      {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "lomax-massare-2017-ichthyosaurus",
+        "locator": "pp. 1–20; Hettangian localities; Figures 1–10"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "literature-synthesized"
   },
   {
     "id": "range:plesiosauria:global",
@@ -65,29 +63,31 @@
     "rangeKind": "global-composite",
     "taxonomicConcept": "Plesiosauria",
     "geographicScope": "Global or represented navigation composite",
-    "olderMa": 228,
+    "olderMa": 205.7,
     "youngerMa": 66,
     "status": "available",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "note": "Older bound follows diagnostic Rhaetian Rhaeticosaurus; the 66 Ma younger bound remains a broad composite."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
-    "confidence": "medium",
-    "claimIds": [],
+    "evidenceBasis": "Diagnostic Rhaetian Rhaeticosaurus constrains the older display bound; older Bobosaurus remains an uncertain candidate and does not pull the range into the Carnian.",
+    "confidence": "high",
+    "claimIds": [
+      "claim:taxon:plesiosauria:fossil-range"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
+        "referenceId": "wintrich-2017-rhaeticosaurus",
+        "locator": "Article e1701144; Figures 1–4; Supplementary Figures S1–S12"
       },
       {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "dalla-vecchia-2006-bobosaurus",
+        "locator": "pp. 207–225; alternative affinity discussion"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "literature-synthesized"
   },
   {
     "id": "range:elasmosauridae:global",
@@ -131,19 +131,15 @@
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "note": "Legacy global display envelope; not an exact claim-linked FAD or LAD."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "evidenceBasis": "The global pterosaur envelope remains a legacy navigation composite and is not an exact claim-linked FAD or LAD.",
     "confidence": "medium",
     "claimIds": [],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
-      },
-      {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "witton-habib-2010-giant-pterosaur-flight",
+        "locator": "pp. 867–873; Figures 1–5"
       }
     ],
     "reviewStatus": "not-reviewed",
@@ -374,5 +370,33 @@
       }
     ],
     "reviewStatus": "automated-audit-passed"
+  },
+  {
+    "id": "range:ichthyosaurus:somerset-hettangian",
+    "entityId": "ichthyosaurus",
+    "rangeKind": "taxon-range",
+    "taxonomicConcept": "Ichthyosaurus species sample of Lomax and Massare 2017",
+    "geographicScope": "Somerset, England",
+    "olderMa": 201.4,
+    "youngerMa": 199.5,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Stage-level envelope; it does not establish absence outside the cited study sample."
+    },
+    "evidenceBasis": "The Hettangian envelope is a regional sample for diagnosed Somerset species and is not substituted for the global genus range.",
+    "confidence": "high",
+    "claimIds": [
+      "claim:taxon:ichthyosaurus:fossil-range"
+    ],
+    "referenceLocators": [
+      {
+        "referenceId": "lomax-massare-2017-ichthyosaurus",
+        "locator": "pp. 1–20; Hettangian localities; Figures 1–10"
+      }
+    ],
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "literature-synthesized"
   }
 ]

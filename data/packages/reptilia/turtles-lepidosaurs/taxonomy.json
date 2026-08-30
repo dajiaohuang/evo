@@ -46,9 +46,14 @@
       "relationshipKind": "taxonomic-parent"
     },
     {
-      "id": "mosasauridae",
+      "id": "mosasauroidea",
       "parentId": "squamata",
-      "relationshipKind": "taxonomic-parent"
+      "relationshipKind": "navigation-parent"
+    },
+    {
+      "id": "mosasauridae",
+      "parentId": "mosasauroidea",
+      "relationshipKind": "navigation-parent"
     }
   ]
 }

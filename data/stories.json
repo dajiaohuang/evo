@@ -444,7 +444,7 @@
     "id": "tetrapods-onto-land",
     "title": "Seven evidence boundaries across the fin-to-limb transition",
     "titleZh": "鳍—肢转型的七条证据边界",
-    "dek": "Read tracks, articulated bodies, internal fin skeletons, digit-bearing limbs and mobility models as different evidence—not as a ladder of direct ancestors marching onto land.",
+    "dek": "Navigate named Elpistostege, Tiktaalik, Acanthostega and Ichthyostega evidence while reading tracks, bodies, internal fin skeletons, digits and mobility models as different evidence—not as a ladder of direct ancestors.",
     "theme": "teal",
     "durationMinutes": 11,
     "featured": true,
@@ -548,7 +548,8 @@
           372.15
         ],
         "taxonIds": [
-          "stem-tetrapodomorphs"
+          "stem-tetrapodomorphs",
+          "elpistostege"
         ],
         "view": "evidence",
         "eventId": "elpistostege-digit-bearing-fin",
@@ -570,7 +571,8 @@
           358.86
         ],
         "taxonIds": [
-          "tetrapoda"
+          "tetrapoda",
+          "acanthostega"
         ],
         "view": "evidence",
         "eventId": "acanthostega-eight-digit-limb",
@@ -592,7 +594,8 @@
           358.86
         ],
         "taxonIds": [
-          "tetrapoda"
+          "tetrapoda",
+          "ichthyostega"
         ],
         "view": "evidence",
         "eventId": "ichthyostega-joint-mobility",
@@ -1917,11 +1920,11 @@
   },
   {
     "id": "marine-reptile-pterosaur-evidence-boundaries",
-    "title": "Three reptile radiations, nine evidence dossiers",
-    "titleZh": "三次爬行动物辐射与九个证据档案",
-    "dek": "Compare named ichthyosaur, plesiosaur and pterosaur evidence without turning independent radiations, fossil occurrences, functional models or database naming coverage into one ancestor ladder.",
+    "title": "Three reptile radiations, ten evidence dossiers",
+    "titleZh": "三次爬行动物辐射与十个证据档案",
+    "dek": "Keep ichthyosaurs, plesiosaurs and pterosaurs as three independent radiations, and compare an older uncertain Bobosaurus candidate with diagnostic Rhaeticosaurus without turning either into a direct ancestor.",
     "theme": "teal",
-    "durationMinutes": 14,
+    "durationMinutes": 16,
     "featured": true,
     "steps": [
       {
@@ -1989,6 +1992,28 @@
         "claimLinks": [
           {
             "claimId": "claim:event:stenopterygius-soft-tissues",
+            "relation": "supports"
+          }
+        ]
+      },
+      {
+        "id": "bobosaurus-candidate",
+        "title": "Older does not mean diagnostically plesiosaurian",
+        "text": "Early Carnian Bobosaurus combines nothosaurian and plesiosaurian features, but alternative placements remain viable. It is an older near-lineage candidate, not evidence that diagnostic Plesiosauria already extended into the Carnian.",
+        "age": 232.15,
+        "timeRange": [
+          237,
+          227.3
+        ],
+        "taxonIds": [
+          "plesiosauria"
+        ],
+        "view": "evidence",
+        "eventId": "bobosaurus-plesiosaurian-affinity",
+        "annotation": "Compare this uncertain candidate with the separately documented Rhaetian Rhaeticosaurus skeleton.",
+        "claimLinks": [
+          {
+            "claimId": "claim:event:bobosaurus-plesiosaurian-affinity",
             "relation": "supports"
           }
         ]
@@ -2339,11 +2364,11 @@
   },
   {
     "id": "turtles-lepidosaurs-evidence-mosaics",
-    "title": "Eight evidence mosaics in turtle and lepidosaur origins",
-    "titleZh": "龟类与鳞龙起源的八组证据镶嵌",
-    "dek": "Move from named bones and CT volumes to competing matrices and clock calibrations without turning separate fossils into an ancestor ladder.",
+    "title": "Nine evidence mosaics in turtle and lepidosaur origins",
+    "titleZh": "龟类与鳞龙起源的九组证据镶嵌",
+    "dek": "Move from named bones and CT volumes to competing matrices, clock calibrations and explicit Mosasauroidea–Mosasauridae boundaries without turning separate fossils into an ancestor ladder.",
     "theme": "sage",
-    "durationMinutes": 15,
+    "durationMinutes": 17,
     "featured": true,
     "steps": [
       {
@@ -2520,6 +2545,30 @@
         "claimLinks": [
           {
             "claimId": "claim:event:cryptovaranoides-competing-topologies",
+            "relation": "supports"
+          }
+        ]
+      },
+      {
+        "id": "mosasauroid-boundary",
+        "title": "A superfamily is not the same as its true mosasaur family",
+        "text": "Explicit definitions make Mosasauroidea broader than node-defined Mosasauridae. Dallasaurus retains plesiopedal limbs, so family placement and full paddle specialization remain separate questions.",
+        "age": 92,
+        "timeRange": [
+          100.5,
+          89.8
+        ],
+        "taxonIds": [
+          "squamata",
+          "mosasauroidea",
+          "mosasauridae"
+        ],
+        "view": "evidence",
+        "eventId": "mosasauroid-clade-boundaries",
+        "annotation": "The Mosasauroidea navigation edge is non-taxonomic for discovery; basal topology remains analysis-sensitive.",
+        "claimLinks": [
+          {
+            "claimId": "claim:event:mosasauroid-clade-boundaries",
             "relation": "supports"
           }
         ]

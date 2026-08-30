@@ -1,5 +1,5 @@
 export const PACKAGE_SCHEMA_VERSION = 5
-export const DATASET_PACKAGE_VERSION = '2026.08-static-v5-rc35'
+export const DATASET_PACKAGE_VERSION = '2026.08-static-v5-rc36'
 export const DATASET_RELEASE_DATE = '2026-08-30'
 
 export const packageDefinitions = [
@@ -199,10 +199,14 @@ export const packageDefinitions = [
     title: 'Sarcopterygians and the Tetrapod Transition',
     titleZh: '肉鳍鱼类与四足动物转型',
     rootEntityIds: ['sarcopterygii'],
+    conceptScope: {
+      en: 'Seven primary-evidence dossiers now expose named Elpistostege, Tiktaalik, Acanthostega and Ichthyostega navigation rather than reducing the fin-to-limb transition to one exemplar. A rich Tiktaalik profile links taxonomy, a formation-scoped occurrence, geography, morphology and ecology to primary-study locators. Tracks, articulated bodies, digit homology and mobility models remain distinct; COL26.8 living-name routing is unchanged.',
+      zh: '七个一手证据档案现以具名导航呈现 Elpistostege、Tiktaalik、Acanthostega 与 Ichthyostega，不再把鳍—肢转型缩减成单一代表。Tiktaalik 丰富档案把分类、组级出现、地理、形态与生态分别连接到一手研究定位。遗迹、关节骨架、指同源与运动模型保持分离；COL26.8 现生名称路由不变。',
+    },
     scientificMaturity: 'structured',
     limitations: [
       'Package dossiers expose the current curated evidence boundary; unavailable fields are explicit and are not inferred.',
-      'All six entity-wide temporal ranges remain legacy-display estimates and are not promoted by the specimen- and trace-scoped event evidence.',
+      'Claim-linked named-fossil ranges are stage- or formation-scoped evidence envelopes, not global absence-based FADs, LADs or uninterrupted lineage durations.',
       'Trace fossils, body specimens, digit homology, functional reconstructions and terrestriality are kept as distinct claims; no featured fossil is asserted to be a direct ancestor.',
     ],
     wave: 'C',
@@ -343,8 +347,8 @@ export const packageDefinitions = [
     titleZh: '龟鳖类与鳞龙类',
     rootEntityIds: ['testudines', 'lepidosauria'],
     conceptScope: {
-      en: 'Eight primary-evidence dossiers connect named shell-bearing specimens, CT and synchrotron volumes, morphology matrices and a fossil-calibrated molecular clock without arranging separate taxa into an ancestor ladder. Turtle dossiers distinguish observed ribs, gastralia, plastron and neural plates from homology, ecology, topology and crown-calibration models. Lepidosaur dossiers distinguish scanned anatomy from combined morphology–molecule constraints and retain Cryptovaranoides as a competing-topology case. Cryptodira, Pleurodira, Rhynchocephalia, Pan-Squamata, Squamata and Serpentes are curated browse routes rather than a complete or uncontested tree. COL26.8 assigns 12,622 accepted living species to this package as nomenclatural routing under the selected roots; that count is not fossil evidence and does not measure dossier, translation, media or review maturity.',
-      zh: '八个一手证据档案连接具名龟壳相关标本、CT 与同步辐射体数据、形态矩阵以及化石校准分子钟，同时不把不同类群排列成祖先阶梯。龟类档案严格区分直接观察到的肋骨、腹肋、腹甲和神经板，与同源性、生态、拓扑及冠群校准模型；鳞龙档案严格区分扫描解剖与形态—分子联合约束，并把 Cryptovaranoides 保留为竞争性拓扑案例。曲颈龟类、侧颈龟类、喙头类、有鳞类总群、有鳞目与蛇类只是策展浏览路径，并非完整或无争议的系统树。COL26.8 在所选根节点下把 12,622 个现生接受种路由到本包；该数值是命名覆盖快照，不是化石证据，也不衡量档案、翻译、媒体或评审成熟度。',
+      en: 'Nine primary-evidence dossiers connect turtle-shell specimens, CT volumes, matrices, a fossil-calibrated clock and an explicit mosasauroid clade-boundary case. Mosasauroidea is shown as broader than node-defined Mosasauridae, and Dallasaurus demonstrates that family placement and full paddle specialization are separate questions. A rich Mosasauridae profile links five visible field families to exact primary-study locators. COL26.8 still routes 12,622 accepted living species as nomenclatural coverage only.',
+      zh: '九个一手证据档案连接龟壳标本、CT 体数据、矩阵、化石校准时钟与一个显式沧龙类支系边界案例。沧龙超科范围大于节点定义的沧龙科，Dallasaurus 说明科级归属与完全鳍桨化是两个不同问题。沧龙科丰富档案把五类可见字段连接到精确一手研究定位。COL26.8 的 12,622 个现生接受种仍只表示命名覆盖。',
     },
     scientificMaturity: 'structured',
     limitations: [
@@ -353,6 +357,7 @@ export const packageDefinitions = [
       'The Caribemys hard minimum, soft maximum and relaxed-clock posterior are separate quantities. A fossil minimum does not date crown origin, and the cited model did not resolve a Triassic versus Jurassic origin for crown Testudines.',
       'Taytalura, Megachirella and Bellairsia placements depend on sampled characters and analytical constraints. Molecular partitions and clock estimates are model inputs or outputs, not anatomy, fossil dates or living-species nomenclature.',
       'Cryptovaranoides remains contested because element identity, referral and character scoring differ among primary studies; it is not used here as a secure crown-Squamata FAD or calibration.',
+      'Mosasauroidea and Mosasauridae are deliberately non-interchangeable. The navigation parent supports discovery, while basal topology and limb-specialization sequence remain analysis- and specimen-dependent.',
       'COL26.8 accepted-species counts are package-routing results for living names. They do not grade fossil, morphology, event, translation, media, topology or expert-review completeness.',
     ],
     wave: 'B',
@@ -364,8 +369,8 @@ export const packageDefinitions = [
     titleZh: '海生爬行动物与翼龙',
     rootEntityIds: ['ichthyosauria', 'plesiosauria', 'pterosauria'],
     conceptScope: {
-      en: 'Nine primary-evidence dossiers keep three independent reptile radiations separate: named ichthyosaur and plesiosaur specimens, pterosaur eggs and soft tissues, and explicitly bounded hydrodynamic or biomechanical models. Navigation adds seven named fossil taxa without asserting direct ancestry, global first appearances or a complete phylogeny. COL26.8 contributes no strictly accepted species below these fossil-root routes, so nomenclatural browse coverage is zero while the specimen dossiers are structured; legacy display ranges remain unreviewed and are not claim-linked fossil first appearances.',
-      zh: '九个一手证据档案将三次彼此独立的爬行动物辐射分开呈现：具名鱼龙与蛇颈龙标本、翼龙卵与软组织，以及边界明确的水动力或生物力学模型。导航新增七个具名化石类群，但不主张直系祖先、全球首现或完整系统树。COL26.8 在这些化石根路由下没有严格接受种，因此命名浏览覆盖为零，而标本档案已达到结构化；旧版显示延限仍未复核，也不是有主张关联的化石首现。',
+      en: 'Ten primary-evidence dossiers and three rich profiles keep ichthyosaurs, plesiosaurs and pterosaurs as three independent radiations. An older early-Carnian Bobosaurus candidate is paired with diagnostic Rhaetian Rhaeticosaurus without extending secure Plesiosauria into the Carnian. Ichthyosaurus, Plesiosauria and Pterosauria field claims link to precise primary-study locators. COL26.8 nomenclatural routing remains zero below these fossil roots; that does not diminish structured specimen evidence.',
+      zh: '十个一手证据档案与三个丰富档案把鱼龙、蛇颈龙和翼龙保持为三次独立辐射。更老的早卡尼期 Bobosaurus 候选与诊断明确的瑞替期 Rhaeticosaurus 并列呈现，但不会据此前推已确认蛇颈龙类延限。Ichthyosaurus、Plesiosauria 与 Pterosauria 字段主张均连接精确的一手研究定位。COL26.8 在这些化石根下的命名路由仍为零，这不削弱结构化标本证据。',
     },
     wave: 'B',
     scientificMaturity: 'structured',

@@ -101,23 +101,25 @@
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "note": "Broad family navigation envelope; the Dallasaurus stage record is separately scoped."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "evidenceBasis": "The broad family display is retained while explicit clade definitions and a middle Turonian specimen occurrence are linked separately.",
     "confidence": "medium",
-    "claimIds": [],
+    "claimIds": [
+      "claim:taxon:mosasauridae:fossil-range"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
+        "referenceId": "madzia-cau-2017-mosasauroid-nomenclature",
+        "locator": "Table 1; Figures 1–7"
       },
       {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "bell-polcyn-2005-dallasaurus",
+        "locator": "pp. 177–194"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "literature-synthesized"
   },
   {
     "id": "range:cryptodira:global",
@@ -248,5 +250,59 @@
       }
     ],
     "reviewStatus": "not-reviewed"
+  },
+  {
+    "id": "range:mosasauroidea:global",
+    "entityId": "mosasauroidea",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Mosasauroidea sensu Madzia and Cau 2017",
+    "geographicScope": "Cretaceous navigation composite",
+    "olderMa": 101,
+    "youngerMa": 66,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Stage-level envelope; it does not establish absence outside the cited study sample."
+    },
+    "evidenceBasis": "Broad Cretaceous navigation envelope retained for discovery; it is not a claim-linked global occurrence audit.",
+    "confidence": "medium",
+    "claimIds": [],
+    "referenceLocators": [
+      {
+        "referenceId": "madzia-cau-2017-mosasauroid-nomenclature",
+        "locator": "Table 1; Figures 1–7; phylogenetic definitions"
+      }
+    ],
+    "reviewStatus": "not-reviewed",
+    "evidenceLevel": "legacy-display"
+  },
+  {
+    "id": "range:mosasauridae:dallasaurus-middle-turonian",
+    "entityId": "mosasauridae",
+    "rangeKind": "taxon-range",
+    "taxonomicConcept": "Mosasauridae sample represented by Dallasaurus turneri",
+    "geographicScope": "North-central Texas, United States",
+    "olderMa": 93.9,
+    "youngerMa": 89.8,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Stage-level envelope; it does not establish absence outside the cited study sample."
+    },
+    "evidenceBasis": "The stage envelope captures the middle Turonian Dallasaurus skeletons without treating them as a globally complete family range.",
+    "confidence": "medium",
+    "claimIds": [
+      "claim:taxon:mosasauridae:fossil-range"
+    ],
+    "referenceLocators": [
+      {
+        "referenceId": "bell-polcyn-2005-dallasaurus",
+        "locator": "pp. 177–194; middle Turonian locality and systematic paleontology"
+      }
+    ],
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "literature-synthesized"
   }
 ]

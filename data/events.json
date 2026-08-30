@@ -12628,5 +12628,131 @@
         ]
       }
     ]
+  },
+  {
+    "id": "mosasauroid-clade-boundaries",
+    "title": "Mosasauroidea is broader than Mosasauridae",
+    "titleZh": "沧龙超科范围大于沧龙科",
+    "category": "origin",
+    "startAge": 100.5,
+    "endAge": 89.8,
+    "regions": [
+      "Cretaceous mosasauroid records; middle Turonian of north-central Texas"
+    ],
+    "clades": [
+      "Mosasauroidea",
+      "Mosasauridae",
+      "Dallasaurus turneri"
+    ],
+    "summary": "Explicit phylogenetic definitions separate broad Mosasauroidea from node-defined Mosasauridae, while Dallasaurus shows that family placement need not imply fully paddle-like limbs.",
+    "claimIds": [
+      "claim:event:mosasauroid-clade-boundaries"
+    ],
+    "evidenceItems": [
+      {
+        "statement": "Table 1 defines Mosasauroidea and Mosasauridae separately; the Dallasaurus skeletons preserve plesiopedal limbs in a taxon recovered within Mosasauridae by the original analysis.",
+        "relation": "supports",
+        "claimIds": [
+          "claim:event:mosasauroid-clade-boundaries"
+        ],
+        "referenceLinks": [
+          {
+            "referenceId": "madzia-cau-2017-mosasauroid-nomenclature",
+            "relation": "supports",
+            "pages": "Article e3782",
+            "figure": "Table 1; Figures 1–7",
+            "quoteLocator": "Phylogenetic definitions"
+          },
+          {
+            "referenceId": "bell-polcyn-2005-dallasaurus",
+            "relation": "supports",
+            "pages": "177–194",
+            "figure": "Figures 1–13",
+            "quoteLocator": "Description; phylogenetic analysis"
+          }
+        ]
+      }
+    ],
+    "uncertaintyItems": [
+      {
+        "statement": "Basal mosasauroid relationships and some traditional names are sensitive to analytical strategy; the navigation edge therefore supports discovery and does not assert a single immutable taxonomy.",
+        "relation": "contextualizes",
+        "claimIds": [
+          "claim:event:mosasauroid-clade-boundaries"
+        ],
+        "referenceLinks": [
+          {
+            "referenceId": "madzia-cau-2017-mosasauroid-nomenclature",
+            "relation": "supports",
+            "pages": "Article e3782",
+            "figure": "Figures 1–7",
+            "quoteLocator": "Sensitivity analyses"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bobosaurus-plesiosaurian-affinity",
+    "title": "Bobosaurus as an older uncertain plesiosaur-line candidate",
+    "titleZh": "更老但不确定的近蛇颈龙候选 Bobosaurus",
+    "category": "origin",
+    "startAge": 237,
+    "endAge": 227.3,
+    "regions": [
+      "Rio del Lago Formation, northeastern Italy"
+    ],
+    "clades": [
+      "Bobosaurus forojuliensis",
+      "Pistosauroidea",
+      "Plesiosauria"
+    ],
+    "summary": "The early Carnian holotype combines nothosaurian and plesiosaurian features, but its position remains an alternative-sensitive hypothesis and is not used to extend diagnostic Plesiosauria.",
+    "claimIds": [
+      "claim:event:bobosaurus-plesiosaurian-affinity"
+    ],
+    "evidenceItems": [
+      {
+        "statement": "Holotype MFSN 27285 preserves an articulated sauropterygian skeleton from the lower Carnian Rio del Lago Formation with a documented mosaic of nothosaurian and plesiosaurian characters.",
+        "relation": "supports",
+        "claimIds": [
+          "claim:event:bobosaurus-plesiosaurian-affinity"
+        ],
+        "referenceLinks": [
+          {
+            "referenceId": "dalla-vecchia-2006-bobosaurus",
+            "relation": "supports",
+            "pages": "207–225",
+            "figure": "Figures 1–12",
+            "quoteLocator": "Systematic paleontology; comparisons"
+          }
+        ]
+      }
+    ],
+    "uncertaintyItems": [
+      {
+        "statement": "The original study considered a pistosaurid position or a closer relationship to Plesiosauria; this older candidate is displayed beside, not substituted for, diagnostic Rhaetian Rhaeticosaurus.",
+        "relation": "contextualizes",
+        "claimIds": [
+          "claim:event:bobosaurus-plesiosaurian-affinity"
+        ],
+        "referenceLinks": [
+          {
+            "referenceId": "dalla-vecchia-2006-bobosaurus",
+            "relation": "supports",
+            "pages": "220–224",
+            "figure": "Figure 12",
+            "quoteLocator": "Phylogenetic discussion"
+          },
+          {
+            "referenceId": "wintrich-2017-rhaeticosaurus",
+            "relation": "supports",
+            "pages": "e1701144",
+            "figure": "Figures 1–4",
+            "quoteLocator": "Systematic paleontology"
+          }
+        ]
+      }
+    ]
   }
 ]

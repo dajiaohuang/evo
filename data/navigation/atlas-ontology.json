@@ -2806,6 +2806,51 @@
                               "children": [],
                               "entityKind": "taxon",
                               "contentLevel": "dossier"
+                            },
+                            {
+                              "id": "elpistostege",
+                              "name": "Elpistostege",
+                              "commonName": "Elpistostege",
+                              "commonNameZh": "希望螈鱼",
+                              "rank": "genus",
+                              "taxonId": "",
+                              "firstAppearance": 382.31,
+                              "lastAppearance": 372.15,
+                              "extinct": true,
+                              "children": [],
+                              "parentRelationshipKind": "navigation-parent",
+                              "entityKind": "taxon",
+                              "contentLevel": "dossier"
+                            },
+                            {
+                              "id": "acanthostega",
+                              "name": "Acanthostega",
+                              "commonName": "Acanthostega",
+                              "commonNameZh": "棘螈",
+                              "rank": "genus",
+                              "taxonId": "",
+                              "firstAppearance": 372.15,
+                              "lastAppearance": 358.86,
+                              "extinct": true,
+                              "children": [],
+                              "parentRelationshipKind": "navigation-parent",
+                              "entityKind": "taxon",
+                              "contentLevel": "dossier"
+                            },
+                            {
+                              "id": "ichthyostega",
+                              "name": "Ichthyostega",
+                              "commonName": "Ichthyostega",
+                              "commonNameZh": "鱼石螈",
+                              "rank": "genus",
+                              "taxonId": "",
+                              "firstAppearance": 372.15,
+                              "lastAppearance": 358.86,
+                              "extinct": true,
+                              "children": [],
+                              "parentRelationshipKind": "navigation-parent",
+                              "entityKind": "taxon",
+                              "contentLevel": "dossier"
                             }
                           ],
                           "id": "stem-tetrapodomorphs",
@@ -2814,7 +2859,7 @@
                           "commonNameZh": "四足形类干群导航级",
                           "rank": "paraphyletic navigation grade",
                           "firstAppearance": 392,
-                          "lastAppearance": 359,
+                          "lastAppearance": 358.86,
                           "entityKind": "historical-grade",
                           "contentLevel": "dossier",
                           "parentRelationshipKind": "historical-grade-membership"
@@ -4801,7 +4846,7 @@
                                       "commonNameZh": "蛇颈龙类",
                                       "rank": "order",
                                       "taxonId": "txn:36454",
-                                      "firstAppearance": 228,
+                                      "firstAppearance": 205.7,
                                       "lastAppearance": 66,
                                       "extinct": true,
                                       "children": [
@@ -4913,16 +4958,33 @@
                                                   "contentLevel": "dossier"
                                                 },
                                                 {
-                                                  "id": "mosasauridae",
-                                                  "name": "Mosasauridae",
-                                                  "commonName": "Mosasaurs",
-                                                  "commonNameZh": "沧龙科",
-                                                  "rank": "family",
-                                                  "taxonId": "txn:38049",
+                                                  "id": "mosasauroidea",
+                                                  "name": "Mosasauroidea",
+                                                  "commonName": "Mosasauroids",
+                                                  "commonNameZh": "沧龙超科",
+                                                  "rank": "superfamily",
+                                                  "taxonId": "",
                                                   "firstAppearance": 101,
                                                   "lastAppearance": 66,
                                                   "extinct": true,
-                                                  "children": [],
+                                                  "children": [
+                                                    {
+                                                      "id": "mosasauridae",
+                                                      "name": "Mosasauridae",
+                                                      "commonName": "Mosasaurs",
+                                                      "commonNameZh": "沧龙科",
+                                                      "rank": "family",
+                                                      "taxonId": "txn:38049",
+                                                      "firstAppearance": 101,
+                                                      "lastAppearance": 66,
+                                                      "extinct": true,
+                                                      "children": [],
+                                                      "entityKind": "taxon",
+                                                      "contentLevel": "dossier",
+                                                      "parentRelationshipKind": "navigation-parent"
+                                                    }
+                                                  ],
+                                                  "parentRelationshipKind": "navigation-parent",
                                                   "entityKind": "taxon",
                                                   "contentLevel": "dossier"
                                                 }
