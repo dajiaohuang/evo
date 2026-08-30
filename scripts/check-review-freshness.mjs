@@ -217,7 +217,7 @@ function runCli() {
     console.error(`Review freshness failed: ${staleCompleted.map((entry) => entry.packageId).join(', ')} claim completed review against changed content.`)
     process.exitCode = 1
   } else if (!json) {
-    console.log(`Review freshness passed for ${results.length} packages; unreviewed scaffolds remain publishable only with explicit labels.`)
+    console.log(`Review freshness passed for ${results.length} packages; unreviewed packages remain publishable only with their current maturity and review status visible.`)
   }
 }
 

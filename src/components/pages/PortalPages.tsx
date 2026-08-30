@@ -30,7 +30,7 @@ export function CatalogHubPage({ onNavigate }: PortalPageProps) {
       <header className="portal-hero portal-hero--catalog">
         <span className="section-label">{t('Catalog / taxa and events')}</span>
         <h1>{t('Find a branch. Inspect its evidence boundary.')}</h1>
-        <p>{t('Catalog separates richly curated dossiers from generated navigation scaffolds, so coverage never masquerades as scientific maturity.')}</p>
+        <p>{t('Catalog separates nomenclatural coverage, source-linked packages and richly curated dossiers, so coverage never masquerades as scientific maturity.')}</p>
         <div className="portal-actions">
           <button className="button button--primary" onClick={() => onNavigate('taxa')}>{t('Browse taxon dossiers')}</button>
           <button className="button button--ghost" onClick={() => onNavigate('events')}>{t('Browse evolutionary events')}</button>
@@ -73,7 +73,7 @@ export function CatalogHubPage({ onNavigate }: PortalPageProps) {
         </ol>
       </section>
 
-      <section className="portal-section portal-scaffolds">
+      {scaffolds.length > 0 && <section className="portal-section portal-scaffolds">
         <div className="portal-section__heading"><span>04</span><div><small>{t('Experimental coverage')}</small><h2>{t('Generated scaffolds stay folded by default')}</h2></div></div>
         <details>
           <summary>{t('Show {count} generated scientific packages', { count: scaffolds.length })}</summary>
@@ -81,7 +81,7 @@ export function CatalogHubPage({ onNavigate }: PortalPageProps) {
             {scaffolds.map((entry) => <article key={entry.id}><span>{entry.id}</span><strong>{language === 'zh' ? entry.titleZh : entry.title}</strong><small>{t('Generated scaffold · maintainer review not performed')}</small></article>)}
           </div>
         </details>
-      </section>
+      </section>}
     </main>
   )
 }

@@ -1,5 +1,11 @@
 # Dataset changelog
 
+## 2026.08-static-v5-rc46 — 2026-08-31
+
+- Aligned the public inventory with the unchanged 392 navigation entities and twenty-four packages: twenty-three remain `source-linked` and Perissodactyla remains the sole `curated-draft`; this release does not add maintainer or external-expert scientific review.
+- Split the twelve period-midpoint map summaries from the 1,889 layer frames generated across six CAO2024 geometry families, and documented the eleven checksum-pinned Zenodo payloads and local pyGPlates reconstruction path without implying elevation, bathymetry, continuous interpolation or PBDB co-registration.
+- Kept the dashboard-first choice on `#/home`, made direct `#/explore` routes enter the workspace without that modal, retained the manual five-step tutorial, and corrected dynamic offline-package, zero-scaffold and visual-regression contracts across Web, Android and iOS.
+
 ## 2026.08-static-v5-rc45 — 2026-08-31
 
 - Completed the source-link closure for Atlas Core and Turtles and Lepidosaurs after strict claim, visible-profile-field and evidence-bound story audits; all twenty-three non-flagship packages are now `source-linked`, while Perissodactyla remains `curated-draft`.
