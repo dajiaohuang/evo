@@ -23,6 +23,7 @@ function formatBoundary(boundary: { valueMa: number; uncertaintyMa: number | nul
 
 export function DataPage({ onNavigate }: PageProps) {
   const { language, number, t } = useI18n()
+  const bundledNativeData = import.meta.env.VITE_NATIVE_APP === 'true'
   const [release, setRelease] = useState(localReleaseMetadata)
   const [runtime, setRuntime] = useState<CurrentRuntimeManifest | null>(null)
   const [packageRegistry, setPackageRegistry] = useState<RuntimePackageRegistry | null>(null)
@@ -176,17 +177,27 @@ export function DataPage({ onNavigate }: PageProps) {
               <span>{number(entry.entityCount)}</span>
               <span>{(entry.metrics.runtimeKnowledgeCompressedBytes / 1024).toFixed(1)} KiB</span>
               <span>{number(entry.occurrenceCount)}</span>
-              <button type="button" onClick={() => void storeOffline(entry.packageId)}>{t('Save')}</button>
+              {bundledNativeData
+                ? <span>{language === 'zh' ? '已内置' : 'Bundled'}</span>
+                : <button type="button" onClick={() => void storeOffline(entry.packageId)}>{t('Save')}</button>}
             </div>
           ))}
         </div>
-        <div className="offline-actions">
-          <button className="button button--ghost" type="button" disabled={offlineBusy} onClick={() => void storeOffline()}>{t(offlineStatus === 'saving' ? 'Saving…' : offlineStatus === 'saved' ? 'Saved for offline use' : 'Save all current packages')}</button>
-          <button className="button button--ghost" type="button" disabled={offlineBusy} onClick={() => void storeCompleteAtlasOffline()}>{t(offlineStatus === 'saving-complete' ? 'Saving complete Atlas…' : offlineStatus === 'saved-complete' ? 'Complete Atlas saved' : 'Save complete Atlas ({size})', { size: completeOfflinePlan ? `${(completeOfflinePlan.totalBytes / 1024 / 1024).toFixed(0)} MiB` : '…' })}</button>
-          <button className="button button--ghost" type="button" disabled={offlineBusy} onClick={() => void clearOffline()}>{t('Clear offline data')}</button>
-          {completeOfflineProgress && offlineStatus === 'saving-complete' && <span role="status">{t('Saved {completed} of {total} files', { completed: number(completeOfflineProgress.completedFiles), total: number(completeOfflineProgress.fileCount) })}</span>}
-          {offlineStatus === 'failed' && <span role="alert">{t('Offline storage failed')}</span>}
-        </div>
+        {bundledNativeData ? (
+          <div className="offline-actions">
+            <span role="status">{language === 'zh'
+              ? `当前完整交互数据已随应用内置：${completeOfflinePlan ? `${number(completeOfflinePlan.fileCount)} 个文件 · ${(completeOfflinePlan.totalBytes / 1024 / 1024).toFixed(2)} MiB` : '正在读取发布清单…'}。断网启动无需另行下载。`
+              : `The complete interactive release is bundled with this app: ${completeOfflinePlan ? `${number(completeOfflinePlan.fileCount)} files · ${(completeOfflinePlan.totalBytes / 1024 / 1024).toFixed(2)} MiB` : 'reading the release inventory…'}. No separate download is required for offline startup.`}</span>
+          </div>
+        ) : (
+          <div className="offline-actions">
+            <button className="button button--ghost" type="button" disabled={offlineBusy} onClick={() => void storeOffline()}>{t(offlineStatus === 'saving' ? 'Saving…' : offlineStatus === 'saved' ? 'Saved for offline use' : 'Save all current packages')}</button>
+            <button className="button button--ghost" type="button" disabled={offlineBusy} onClick={() => void storeCompleteAtlasOffline()}>{t(offlineStatus === 'saving-complete' ? 'Saving complete Atlas…' : offlineStatus === 'saved-complete' ? 'Complete Atlas saved' : 'Save complete Atlas ({size})', { size: completeOfflinePlan ? `${(completeOfflinePlan.totalBytes / 1024 / 1024).toFixed(0)} MiB` : '…' })}</button>
+            <button className="button button--ghost" type="button" disabled={offlineBusy} onClick={() => void clearOffline()}>{t('Clear offline data')}</button>
+            {completeOfflineProgress && offlineStatus === 'saving-complete' && <span role="status">{t('Saved {completed} of {total} files', { completed: number(completeOfflineProgress.completedFiles), total: number(completeOfflineProgress.fileCount) })}</span>}
+            {offlineStatus === 'failed' && <span role="alert">{t('Offline storage failed')}</span>}
+          </div>
+        )}
       </section>
 
       <section className="info-section">

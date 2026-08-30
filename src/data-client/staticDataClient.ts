@@ -9,6 +9,8 @@ import type {
   CatalogueSourceChecklist,
   CatalogueSpeciesOwner,
   CatalogueSpeciesOwnership,
+  CatalogueTargetRecord,
+  CatalogueTaxonRecord,
   OccurrenceRuntimeManifest,
   RuntimeEntity,
   RuntimeEntityLinkageCoverage,
@@ -361,9 +363,20 @@ async function loadCatalogueHierarchyNodeFromManifest(
   return records.find((record) => record.id === id) ?? null
 }
 
-export async function loadCatalogueHierarchyNode(id: string): Promise<CatalogueHierarchyNodeRecord | null> {
+async function loadCatalogueTargetFromManifest(
+  manifest: CatalogueRuntimeManifest,
+  id: string,
+): Promise<CatalogueTargetRecord | null> {
+  const records = await loadCatalogueRoute<CatalogueTargetRecord>(manifest.acceptedTargets.routes, manifest.acceptedTargets.files, id)
+  return records.find((record) => record.id === id) ?? null
+}
+
+export async function loadCatalogueHierarchyNode(id: string): Promise<CatalogueTaxonRecord | null> {
   const manifest = await loadCatalogueManifest()
-  return loadCatalogueHierarchyNodeFromManifest(manifest, id)
+  const hierarchyNode = await loadCatalogueHierarchyNodeFromManifest(manifest, id)
+  if (hierarchyNode) return { ...hierarchyNode, projection: 'accepted-species-hierarchy' }
+  const target = await loadCatalogueTargetFromManifest(manifest, id)
+  return target ? { ...target, projection: 'resolution-target' } : null
 }
 
 export async function loadCatalogueChildren(parentId: string): Promise<CatalogueHierarchyChildRecord[]> {
@@ -426,15 +439,18 @@ export async function searchCatalogue(query: string, limit = 12): Promise<{
     .filter((record) => record.normalizedName.startsWith(normalized))
     .sort((left, right) => statusOrder[left.status] - statusOrder[right.status]
       || left.normalizedName.length - right.normalizedName.length
-      || left.scientificName.localeCompare(right.scientificName))
-  const records = matches.slice(0, limit)
+      || left.scientificName.localeCompare(right.scientificName)
+      || (left.authorship ?? '').localeCompare(right.authorship ?? '')
+      || left.id.localeCompare(right.id))
+  const exactMatches = matches.filter((record) => record.normalizedName === normalized)
+  const records = exactMatches.length > limit ? exactMatches : matches.slice(0, limit)
   const targetIds = [...new Set(records.flatMap((record) => record.status === 'accepted' || !record.acceptedId ? [] : [record.acceptedId]))]
   const targetRoutes = await Promise.all(targetIds.map(async (id) => [id, await catalogueRoutePrefix(id)] as const))
   const targetFilesByUrl = new Map(manifest.acceptedTargets.files.map((file) => [file.url, file]))
   const routeFiles = [...new Set(targetRoutes.flatMap(([, prefix]) => manifest.acceptedTargets.routes[prefix] ?? []))]
     .map((url) => targetFilesByUrl.get(url))
     .filter((file): file is NonNullable<typeof file> => Boolean(file))
-  const targetShards = await Promise.all(routeFiles.map((file) => loadRuntimeFile<import('./types').CatalogueTargetRecord[]>(file)))
+  const targetShards = await Promise.all(routeFiles.map((file) => loadRuntimeFile<CatalogueTargetRecord[]>(file)))
   const wantedTargets = new Set(targetIds)
   const resolutionTargets = Object.fromEntries(targetShards.flat()
     .filter((record) => wantedTargets.has(record.id))

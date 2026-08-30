@@ -70,8 +70,34 @@ test('global search lazily resolves accepted Catalogue of Life species without c
 
   await page.goto('./#/catalog')
   await page.locator('.global-search-trigger').click()
+  await page.getByPlaceholder('Search taxa, intervals, events, places…').fill('Aaronsohnia pubescens')
+  const resolvingName = page.locator('button.catalogue-search-result', { hasText: 'Aaronsohnia pubescens' }).first()
+  await expect(resolvingName).toContainText('synonym · resolves to accepted 9CF4V')
+  await resolvingName.click()
+  await expect(page).toHaveURL(/#\/registry\?release=COL26\.8&id=9CF4V$/)
+  await expect(page.getByRole('heading', { name: /Otoglyphis pubescens subsp\. pubescens/ })).toBeVisible()
+  await expect(page.locator('.catalogue-status')).toHaveText('Accepted')
+  await expect(page.locator('.catalogue-taxon-heading dl')).toContainText('subspecies')
+  await expect(page.locator('.catalogue-taxon-heading dl')).toContainText('Resolution target')
+  await expect(page.locator('.catalogue-lineage')).toContainText('outside the accepted-species ancestor closure')
+  await expect(page.locator('.catalogue-ownership-section')).toContainText('not forced into accepted-species resource partitions')
+  await expect(page.locator('.catalogue-owner-card')).toHaveCount(0)
+  await expect(page.locator('.catalogue-source-card')).toContainText('Synonymic Checklists of the Vascular Plants of the World')
+
+  await page.goto('./#/catalog')
+  await page.locator('.global-search-trigger').click()
   await page.getByPlaceholder('Search taxa, intervals, events, places…').fill('par')
   await expect(page.locator('.catalogue-search-heading small')).toContainText(/showing 12 of \d+/)
+})
+
+test('Catalogue search returns every usage in an exact-name homonym cluster larger than 12', async ({ page }) => {
+  await page.addInitScript(() => window.localStorage.setItem('evo-atlas-language', 'en'))
+  await page.goto('./#/catalog')
+  await page.locator('.global-search-trigger').click()
+  await page.getByPlaceholder('Search taxa, intervals, events, places…').fill('Phimenes flavopictum Blanchard, 1845')
+
+  await expect(page.locator('button.catalogue-search-result')).toHaveCount(16)
+  await expect(page.locator('.catalogue-search-heading small')).not.toContainText('showing 12')
 })
 
 test('Catalogue deep links browse exact parent-child hierarchy without silently switching releases', async ({ page }) => {

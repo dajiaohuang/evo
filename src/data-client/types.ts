@@ -244,6 +244,10 @@ export interface CatalogueHierarchyNodeRecord {
   childCount: number
 }
 
+export type CatalogueTaxonRecord =
+  | (CatalogueHierarchyNodeRecord & { projection: 'accepted-species-hierarchy' })
+  | (CatalogueTargetRecord & { projection: 'resolution-target' })
+
 export interface CatalogueHierarchyChildRecord {
   parentId: string
   id: string

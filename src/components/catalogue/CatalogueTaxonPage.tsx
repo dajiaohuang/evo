@@ -13,6 +13,7 @@ import type {
   CatalogueHierarchyNodeRecord,
   CatalogueRuntimeManifest,
   CatalogueSpeciesOwnership,
+  CatalogueTaxonRecord,
 } from '../../data-client/types'
 import type { AppRoute } from '../../utils/routing'
 import { useI18n } from '../../i18n'
@@ -41,7 +42,7 @@ function CatalogueTaxonRecord({ release, id, onNavigate }: CatalogueTaxonPagePro
   const zh = language === 'zh'
   const [status, setStatus] = useState<PageStatus>('loading')
   const [manifest, setManifest] = useState<CatalogueRuntimeManifest | null>(null)
-  const [node, setNode] = useState<CatalogueHierarchyNodeRecord | null>(null)
+  const [node, setNode] = useState<CatalogueTaxonRecord | null>(null)
   const [lineage, setLineage] = useState<CatalogueHierarchyNodeRecord[]>([])
   const [lineageStatus, setLineageStatus] = useState<SectionStatus>('idle')
   const [children, setChildren] = useState<CatalogueHierarchyChildRecord[]>([])
@@ -76,29 +77,31 @@ function CatalogueTaxonRecord({ release, id, onNavigate }: CatalogueTaxonPagePro
       setStatus('ready')
       document.title = `${loadedNode.scientificName} — Catalogue of Life — Evo Atlas`
 
-      setLineageStatus('loading')
-      void loadCatalogueLineage(id).then((records) => {
-        if (!cancelled) {
-          setLineage(records)
-          setLineageStatus('ready')
-        }
-      }).catch(() => { if (!cancelled) setLineageStatus('error') })
+      if (loadedNode.projection === 'accepted-species-hierarchy') {
+        setLineageStatus('loading')
+        void loadCatalogueLineage(id).then((records) => {
+          if (!cancelled) {
+            setLineage(records)
+            setLineageStatus('ready')
+          }
+        }).catch(() => { if (!cancelled) setLineageStatus('error') })
 
-      setChildrenStatus('loading')
-      void loadCatalogueChildren(id).then((records) => {
-        if (!cancelled) {
-          setChildren(records.sort((left, right) => left.scientificName.localeCompare(right.scientificName)))
-          setChildrenStatus('ready')
-        }
-      }).catch(() => { if (!cancelled) setChildrenStatus('error') })
+        setChildrenStatus('loading')
+        void loadCatalogueChildren(id).then((records) => {
+          if (!cancelled) {
+            setChildren(records.sort((left, right) => left.scientificName.localeCompare(right.scientificName)))
+            setChildrenStatus('ready')
+          }
+        }).catch(() => { if (!cancelled) setChildrenStatus('error') })
 
-      setOwnershipStatus('loading')
-      void loadCatalogueSpeciesOwnership().then((record) => {
-        if (!cancelled) {
-          setOwnership(record)
-          setOwnershipStatus('ready')
-        }
-      }).catch(() => { if (!cancelled) setOwnershipStatus('error') })
+        setOwnershipStatus('loading')
+        void loadCatalogueSpeciesOwnership().then((record) => {
+          if (!cancelled) {
+            setOwnership(record)
+            setOwnershipStatus('ready')
+          }
+        }).catch(() => { if (!cancelled) setOwnershipStatus('error') })
+      }
 
       setSourcesStatus('loading')
       void loadCatalogueSourceChecklists().then((records) => {
@@ -128,9 +131,10 @@ function CatalogueTaxonRecord({ release, id, onNavigate }: CatalogueTaxonPagePro
     ? manifest.upstreamTaxonUrlTemplate.replace('{id}', encodeURIComponent(node.id))
     : null
   const speciesOwner = useMemo(() => {
-    if (!node || node.rank !== 'species' || node.status !== 'accepted' || !ownership || lineageStatus !== 'ready') return null
+    if (!node || node.projection !== 'accepted-species-hierarchy' || node.rank !== 'species' || node.status !== 'accepted' || !ownership || lineageStatus !== 'ready') return null
     return resolveCatalogueSpeciesOwner(lineage, ownership)
   }, [lineage, lineageStatus, node, ownership])
+  const isHierarchyMember = node?.projection === 'accepted-species-hierarchy'
   const number = (value: number) => value.toLocaleString(zh ? 'zh-CN' : 'en-US')
 
   if (status !== 'ready' || !node || !manifest) {
@@ -167,8 +171,9 @@ function CatalogueTaxonRecord({ release, id, onNavigate }: CatalogueTaxonPagePro
         </div>
 
         <nav className="catalogue-lineage" aria-label={zh ? '分类谱系' : 'Taxonomic lineage'}>
-          {lineageStatus === 'loading' && <span>{zh ? '正在读取谱系…' : 'Loading lineage…'}</span>}
-          {lineageStatus === 'error' && <span className="catalogue-inline-error">{zh ? '谱系读取失败；当前记录仍可使用。' : 'Lineage failed to load; this record remains available.'}</span>}
+          {!isHierarchyMember && <span>{zh ? '解析目标记录 · 不属于接受种祖先闭包' : 'Resolution target record · outside the accepted-species ancestor closure'}</span>}
+          {isHierarchyMember && lineageStatus === 'loading' && <span>{zh ? '正在读取谱系…' : 'Loading lineage…'}</span>}
+          {isHierarchyMember && lineageStatus === 'error' && <span className="catalogue-inline-error">{zh ? '谱系读取失败；当前记录仍可使用。' : 'Lineage failed to load; this record remains available.'}</span>}
           {orderedLineage.map((ancestor, index) => (
             <span key={ancestor.id}>
               {index > 0 && <i aria-hidden="true">/</i>}
@@ -189,11 +194,16 @@ function CatalogueTaxonRecord({ release, id, onNavigate }: CatalogueTaxonPagePro
           <dl>
             <div><dt>{zh ? '等级' : 'Rank'}</dt><dd>{node.rank}</dd></div>
             <div><dt>{zh ? '精确 ID' : 'Exact ID'}</dt><dd><code>{node.id}</code></dd></div>
-            <div><dt>{zh ? '直接子级' : 'Direct children'}</dt><dd>{number(node.childCount)}</dd></div>
+            {node.projection === 'accepted-species-hierarchy'
+              ? <div><dt>{zh ? '直接子级' : 'Direct children'}</dt><dd>{number(node.childCount)}</dd></div>
+              : <div><dt>{zh ? '记录范围' : 'Record scope'}</dt><dd>{zh ? '解析目标' : 'Resolution target'}</dd></div>}
           </dl>
         </div>
 
-        {node.status === 'provisionally accepted' && (
+        {!isHierarchyMember && (
+          <p className="catalogue-provisional-note">{zh ? '此记录由解析名称指向，保留上游的真实等级、状态与来源。它不计入严格接受种基线，也不会被推断为接受种层级、祖先闭包或资源归属的一部分。' : 'A resolving name points to this record, with its upstream rank, status, and source preserved. It is not counted in the strict accepted-species baseline or inferred into that hierarchy, ancestor closure, or resource ownership.'}</p>
+        )}
+        {isHierarchyMember && node.status === 'provisionally accepted' && (
           <p className="catalogue-provisional-note">{zh ? '此高阶分类单元由上游标记为暂定接受；它用于连接接受种层级，但不计入 2,183,133 个接受种基线。' : 'The upstream release marks this higher taxon as provisionally accepted. It connects the accepted-species hierarchy but is not counted in the 2,183,133 accepted-species baseline.'}</p>
         )}
       </header>
@@ -204,10 +214,11 @@ function CatalogueTaxonRecord({ release, id, onNavigate }: CatalogueTaxonPagePro
             <div><span>01</span><h2>{zh ? '直接子级' : 'Direct children'}</h2></div>
             {children.length > 100 && <label><span>{zh ? '在本级筛选' : 'Filter this level'}</span><input value={childFilter} onChange={(event) => { setChildFilter(event.target.value); setVisibleChildren(100) }} placeholder={zh ? '名称或 ID' : 'Name or ID'} /></label>}
           </div>
-          {childrenStatus === 'loading' && <p className="catalogue-section-note">{zh ? '正在读取父级分片…' : 'Loading the parent shard…'}</p>}
-          {childrenStatus === 'error' && <p className="catalogue-section-note catalogue-inline-error">{zh ? '子级分片读取或完整性校验失败；当前分类记录不受影响。' : 'The child shard could not be read or verified; the current taxon record is unaffected.'}</p>}
-          {childrenStatus === 'ready' && children.length === 0 && <p className="catalogue-section-note">{zh ? '此层级投影中没有直接子级。' : 'No direct children occur in this hierarchy projection.'}</p>}
-          {childrenStatus === 'ready' && children.length > 0 && (
+          {!isHierarchyMember && <p className="catalogue-section-note">{zh ? '此解析目标未进入接受种层级投影，因此不推断父链或直接子级。' : 'This resolution target is outside the accepted-species hierarchy projection, so no parent chain or direct children are inferred.'}</p>}
+          {isHierarchyMember && childrenStatus === 'loading' && <p className="catalogue-section-note">{zh ? '正在读取父级分片…' : 'Loading the parent shard…'}</p>}
+          {isHierarchyMember && childrenStatus === 'error' && <p className="catalogue-section-note catalogue-inline-error">{zh ? '子级分片读取或完整性校验失败；当前分类记录不受影响。' : 'The child shard could not be read or verified; the current taxon record is unaffected.'}</p>}
+          {isHierarchyMember && childrenStatus === 'ready' && children.length === 0 && <p className="catalogue-section-note">{zh ? '此层级投影中没有直接子级。' : 'No direct children occur in this hierarchy projection.'}</p>}
+          {isHierarchyMember && childrenStatus === 'ready' && children.length > 0 && (
             <>
               <div className="catalogue-children-summary">{zh ? `显示 ${number(visible.length)} / 匹配 ${number(filteredChildren.length)} / 全部 ${number(children.length)}` : `Showing ${number(visible.length)} of ${number(filteredChildren.length)} matches · ${number(children.length)} total`}</div>
               <ol className="catalogue-child-list">
@@ -226,7 +237,9 @@ function CatalogueTaxonRecord({ release, id, onNavigate }: CatalogueTaxonPagePro
         <aside className="catalogue-source-panel">
           <section className="catalogue-ownership-section">
             <span>02</span><h2>{zh ? '唯一资源归属' : 'Exclusive resource ownership'}</h2>
-            {node.rank !== 'species' || node.status !== 'accepted' ? (
+            {!isHierarchyMember ? (
+              <p>{zh ? '解析目标不会被强行分配给接受种资源分区；页面仅展示固定发布版中的原始登记元数据。' : 'Resolution targets are not forced into accepted-species resource partitions; this page only reports their original pinned-release registry metadata.'}</p>
+            ) : node.rank !== 'species' || node.status !== 'accepted' ? (
               <p>{zh ? '唯一归属投影只覆盖严格 accepted 的物种记录；高阶分类单元用于浏览，其后代可以分属多个资源分区。' : 'Exclusive ownership applies only to strict accepted species records. Higher taxa support browsing, and their descendants may belong to several resource partitions.'}</p>
             ) : ownershipStatus === 'loading' || lineageStatus === 'loading' ? (
               <p>{zh ? '正在解析本发布版父链归属…' : 'Resolving ownership from the pinned release lineage…'}</p>
@@ -273,6 +286,7 @@ function CatalogueTaxonRecord({ release, id, onNavigate }: CatalogueTaxonPagePro
             <dl>
               <div><dt>{zh ? '层级范围' : 'Hierarchy scope'}</dt><dd>{number(manifest.hierarchy.counts.nodes)} {zh ? '节点' : 'nodes'}</dd></div>
               <div><dt>{zh ? '接受种基线' : 'Accepted species baseline'}</dt><dd>{number(manifest.hierarchy.counts.acceptedSpeciesNodes)}</dd></div>
+              <div><dt>{zh ? '本记录投影' : 'This record projection'}</dt><dd>{isHierarchyMember ? (zh ? '接受种层级' : 'Accepted-species hierarchy') : (zh ? '仅解析目标' : 'Resolution target only')}</dd></div>
             </dl>
             {upstreamUrl && <a className="catalogue-upstream-link" href={upstreamUrl} target="_blank" rel="noreferrer">{zh ? '在 ChecklistBank 核对原记录' : 'Verify the upstream record in ChecklistBank'} ↗</a>}
           </section>

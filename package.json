@@ -1,13 +1,13 @@
 {
   "name": "evo",
   "private": true,
-  "version": "0.20.1",
+  "version": "0.20.2",
   "type": "module",
   "scripts": {
     "predev": "npm run data:stage",
     "dev": "vite",
     "build": "node scripts/build-site.mjs",
-    "mobile:build": "npm run release:metadata && vite build --mode mobile --outDir dist-mobile && node scripts/finalize-mobile-build.mjs",
+    "mobile:build": "npm run release:metadata && npm run data:stage && vite build --mode mobile --outDir dist-mobile && node scripts/finalize-mobile-build.mjs",
     "mobile:sync": "npm run mobile:build && cap sync && npm run mobile:normalize:spm",
     "mobile:normalize:spm": "node scripts/normalize-capacitor-spm.mjs",
     "mobile:android": "npm run mobile:sync && cap open android",

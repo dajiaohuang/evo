@@ -8,6 +8,7 @@ import { registerSW } from 'virtual:pwa-register'
 import { initializeNativeRuntime } from './platform/nativeRuntime'
 
 if (import.meta.env.VITE_NATIVE_APP === 'true') {
+  document.documentElement.dataset.offlineReady = 'true'
   void initializeNativeRuntime().catch((error) => {
     console.warn('Evo Atlas native runtime initialization failed.', error)
   })
