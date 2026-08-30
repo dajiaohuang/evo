@@ -204,5 +204,193 @@
     ],
     "reviewStatus": "not-reviewed",
     "evidenceLevel": "literature-synthesized"
+  },
+  {
+    "id": "range:amphibian-fossil-evidence-route:global",
+    "entityId": "amphibian-fossil-evidence-route",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Amphibian fossil evidence route navigation envelope",
+    "geographicScope": "Represented specimen localities only",
+    "olderMa": 283.3,
+    "youngerMa": 23.03,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Navigation envelope across heterogeneous samples; not a lineage duration, global FAD or ancestor sequence."
+    },
+    "evidenceBasis": "The browse interval spans the represented specimen dossiers while preserving each occurrence, topology and interpretation as a separate evidence record.",
+    "evidenceLevel": "literature-synthesized",
+    "confidence": "medium",
+    "claimIds": [
+      "claim:event:kungurian-gerobatrachus-stem-batrachian",
+      "claim:event:early-triassic-triadobatrachus-ct",
+      "claim:event:norian-funcusvermis-stem-caecilian",
+      "claim:event:oxfordian-beiyanerpeton-salamandroid",
+      "claim:event:oligocene-ymboirana-crown-caecilian"
+    ],
+    "referenceLocators": [
+      {
+        "referenceId": "anderson-2008-gerobatrachus",
+        "locator": "pp. 515–518; Figs. 1–4"
+      },
+      {
+        "referenceId": "ascarrunz-2016-triadobatrachus",
+        "locator": "pp. 201–234; Figs. 1–11"
+      },
+      {
+        "referenceId": "kligman-2023-funcusvermis",
+        "locator": "pp. 102–107; Fig. 1"
+      },
+      {
+        "referenceId": "gao-2012-beiyanerpeton",
+        "locator": "pp. 5767–5772; Figs. 1–4"
+      },
+      {
+        "referenceId": "santos-2024-ymboirana",
+        "locator": "pp. 3–20; Figs. 2–15"
+      }
+    ],
+    "reviewStatus": "automated-audit-passed"
+  },
+  {
+    "id": "range:ymboirana:global",
+    "entityId": "ymboirana",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Ymboirana acrux holotype occurrence",
+    "geographicScope": "Tremembé Formation, Taubaté Basin, Brazil",
+    "olderMa": 27.82,
+    "youngerMa": 23.03,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Oligocene formation envelope; formal phylogenetic testing and unambiguous family synapomorphies remain unavailable."
+    },
+    "evidenceBasis": "Holotype DGM 1462-R is the single sampled aquatic caecilian specimen; Typhlonectidae assignment remains provisional.",
+    "evidenceLevel": "literature-synthesized",
+    "confidence": "medium",
+    "claimIds": [
+      "claim:event:oligocene-ymboirana-crown-caecilian"
+    ],
+    "referenceLocators": [
+      {
+        "referenceId": "santos-2024-ymboirana",
+        "locator": "pp. 3–20; Figs. 2–9, 12–15; Affinities and Discussion"
+      }
+    ],
+    "reviewStatus": "automated-audit-passed"
+  },
+  {
+    "id": "range:gerobatrachus:global",
+    "entityId": "gerobatrachus",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Gerobatrachus hottoni represented study sample",
+    "geographicScope": "Clear Fork Group, Baylor County, Texas, United States",
+    "olderMa": 283.3,
+    "youngerMa": 274.4,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Kungurian stage envelope; the original stem-batrachian placement depends on the analysed matrix."
+    },
+    "evidenceBasis": "The sole holotype USNM 489135 anchors the Kungurian occurrence; the stage envelope is not a global batrachian or lissamphibian range.",
+    "evidenceLevel": "literature-synthesized",
+    "confidence": "medium",
+    "claimIds": [
+      "claim:taxon:gerobatrachus:fossil-range"
+    ],
+    "referenceLocators": [
+      {
+        "referenceId": "anderson-2008-gerobatrachus",
+        "locator": "515–518; Figures 1–4; Systematic palaeontology; locality; anatomical description and phylogenetic analysis"
+      }
+    ],
+    "reviewStatus": "automated-audit-passed"
+  },
+  {
+    "id": "range:triadobatrachus:global",
+    "entityId": "triadobatrachus",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Triadobatrachus massinoti represented study sample",
+    "geographicScope": "Middle Sakamena equivalent beds near Betsiaka, Madagascar",
+    "olderMa": 251.902,
+    "youngerMa": 247,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Broad stage-scale numerical window; historical locality and correlation information remain less precise than a directly dated specimen."
+    },
+    "evidenceBasis": "The unique part-and-counterpart holotype MNHN.F.MAE.126 supplies the sampled Early Triassic occurrence; the envelope is not a crown-Anura range.",
+    "evidenceLevel": "literature-synthesized",
+    "confidence": "medium",
+    "claimIds": [
+      "claim:taxon:triadobatrachus:fossil-range"
+    ],
+    "referenceLocators": [
+      {
+        "referenceId": "ascarrunz-2016-triadobatrachus",
+        "locator": "201–234, especially 204–228; Figures 1–11; Material; anatomy; trunk evolution; calibration and provenance review"
+      }
+    ],
+    "reviewStatus": "automated-audit-passed"
+  },
+  {
+    "id": "range:beiyanerpeton:global",
+    "entityId": "beiyanerpeton",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Beiyanerpeton represented study sample",
+    "geographicScope": "Tiaojishan Formation, Hengdaozi, western Liaoning, China",
+    "olderMa": 160,
+    "youngerMa": 154,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Displayed 160–154 Ma envelope encompasses the formation context; it is not a direct date on each skeleton or a global salamandroid range."
+    },
+    "evidenceBasis": "Six articulated specimens from the represented locality anchor the Oxfordian sample; the cited 157 ± 3 Ma zircon age is from overlying rock.",
+    "evidenceLevel": "literature-synthesized",
+    "confidence": "medium",
+    "claimIds": [
+      "claim:taxon:beiyanerpeton:fossil-range"
+    ],
+    "referenceLocators": [
+      {
+        "referenceId": "gao-2012-beiyanerpeton",
+        "locator": "5767–5772; Figures 1–4; Geological setting; holotype and referred material; description and phylogenetic results"
+      }
+    ],
+    "reviewStatus": "automated-audit-passed"
+  },
+  {
+    "id": "range:funcusvermis:global",
+    "entityId": "funcusvermis",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Funcusvermis gilmorei represented study sample",
+    "geographicScope": "Thunderstorm Ridge, upper Blue Mesa Member, Chinle Formation, Arizona, United States",
+    "olderMa": 223.036,
+    "youngerMa": 218.043,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Norian U–Pb-bracketed formation window; isolated elements do not form one articulated individual and do not date crown Gymnophiona."
+    },
+    "evidenceBasis": "Named elements from at least seventy-six individuals occur in one U–Pb-bracketed Norian bonebed; the envelope is total-group and sample-scoped.",
+    "evidenceLevel": "literature-synthesized",
+    "confidence": "medium",
+    "claimIds": [
+      "claim:taxon:funcusvermis:fossil-range"
+    ],
+    "referenceLocators": [
+      {
+        "referenceId": "kligman-2023-funcusvermis",
+        "locator": "102–107; Figure 1; Extended Data Figures 2–7; Systematic palaeontology; locality and geochronology; phylogenetic analyses and origin discussion"
+      }
+    ],
+    "reviewStatus": "automated-audit-passed"
   }
 ]

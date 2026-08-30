@@ -356,5 +356,127 @@
     ],
     "reviewStatus": "not-reviewed",
     "evidenceLevel": "legacy-display"
+  },
+  {
+    "id": "range:cyclostome-fossil-evidence-route:global",
+    "entityId": "cyclostome-fossil-evidence-route",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Cyclostome fossil evidence route navigation envelope",
+    "geographicScope": "Represented specimen localities only",
+    "olderMa": 360,
+    "youngerMa": 0,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Navigation envelope across heterogeneous samples; not a lineage duration, global FAD or ancestor sequence."
+    },
+    "evidenceBasis": "The browse interval spans the represented specimen dossiers while preserving each occurrence, topology and interpretation as a separate evidence record.",
+    "evidenceLevel": "literature-synthesized",
+    "confidence": "medium",
+    "claimIds": [
+      "claim:event:famennian-priscomyzon-oral-disc",
+      "claim:event:mazon-creek-myxinikela-stem-hagfish",
+      "claim:taxon:myxini:crown-record"
+    ],
+    "referenceLocators": [
+      {
+        "referenceId": "gess-2006-priscomyzon",
+        "locator": "pp. 981–984; Figs. 1–2"
+      },
+      {
+        "referenceId": "miyashita-2020-myxinikela",
+        "locator": "pp. 850–865; Figs. 1–4, 8"
+      },
+      {
+        "referenceId": "miyashita-2019-tethymyxine",
+        "locator": "pp. 2146–2151; Figs. 1–3"
+      }
+    ],
+    "reviewStatus": "automated-audit-passed"
+  },
+  {
+    "id": "range:priscomyzon:global",
+    "entityId": "priscomyzon",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Priscomyzon riniensis represented study sample",
+    "geographicScope": "Waterloo Farm, Witpoort Formation, Eastern Cape, South Africa",
+    "olderMa": 360,
+    "youngerMa": 359,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Rounded Famennian occurrence window; not a crown-Petromyzontida FAD or direct date on the fossil."
+    },
+    "evidenceBasis": "Holotype AM5750 is a single articulated body from the Famennian Witpoort Formation; the envelope represents that sampled occurrence rather than a global species range.",
+    "evidenceLevel": "literature-synthesized",
+    "confidence": "medium",
+    "claimIds": [
+      "claim:taxon:priscomyzon:fossil-range"
+    ],
+    "referenceLocators": [
+      {
+        "referenceId": "gess-2006-priscomyzon",
+        "locator": "981–984; Figures 1–2; Description and reconstruction of Priscomyzon; locality and horizon"
+      }
+    ],
+    "reviewStatus": "automated-audit-passed"
+  },
+  {
+    "id": "range:myxinikela:global",
+    "entityId": "myxinikela",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Myxinikela siroka represented study sample",
+    "geographicScope": "Francis Creek Shale, former Pit 11, Illinois, United States",
+    "olderMa": 310,
+    "youngerMa": 307,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Rounded Francis Creek Shale interval; preservation differs between the two specimens and several anatomical readings remain equivocal."
+    },
+    "evidenceBasis": "Holotype FMNH PF15373 and paratype FMNH PF8472 document the represented Moscovian sample; the interval is not a crown-hagfish or global lineage range.",
+    "evidenceLevel": "literature-synthesized",
+    "confidence": "medium",
+    "claimIds": [
+      "claim:taxon:myxinikela:fossil-range"
+    ],
+    "referenceLocators": [
+      {
+        "referenceId": "miyashita-2020-myxinikela",
+        "locator": "850–865, especially 852–860; Figures 1–4 and 8; Table 1; Systematic palaeontology; anatomical description; locality and measurements"
+      }
+    ],
+    "reviewStatus": "automated-audit-passed"
+  },
+  {
+    "id": "range:tethymyxine:global",
+    "entityId": "tethymyxine",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Tethymyxine tapirostrum represented study sample",
+    "geographicScope": "Hâdjoula Lagerstätte, Lebanon, eastern Tethys",
+    "olderMa": 100.5,
+    "youngerMa": 93.9,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Stage-scale Cenomanian display window; crown placement remains dependent on the published character analysis."
+    },
+    "evidenceBasis": "Complete holotype BHI 6445 was recovered within crown Myxini; the Cenomanian envelope is a sampled fossil bound, not a global origin date.",
+    "evidenceLevel": "literature-synthesized",
+    "confidence": "medium",
+    "claimIds": [
+      "claim:taxon:tethymyxine:fossil-range"
+    ],
+    "referenceLocators": [
+      {
+        "referenceId": "miyashita-2019-tethymyxine",
+        "locator": "2146–2151; Figures 1–3; Supplementary Figures S1–S4; Systematic palaeontology: holotype, horizon and locality; morphology-based phylogenetic results"
+      }
+    ],
+    "reviewStatus": "automated-audit-passed"
   }
 ]

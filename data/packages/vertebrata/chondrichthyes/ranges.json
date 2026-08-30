@@ -3,31 +3,29 @@
     "id": "range:chondrichthyes:global",
     "entityId": "chondrichthyes",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Chondrichthyes",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 420,
+    "taxonomicConcept": "Chondrichthyes total-group navigation concept; Qianodus is outside the living crown",
+    "geographicScope": "Late Aeronian Rongxi Formation sample plus living global context",
+    "olderMa": 439,
     "youngerMa": 0,
     "status": "available",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "note": "The older endpoint is a stem-chondrichthyan specimen bound and must not be read as a crown-group first appearance or origin date."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "evidenceBasis": "Qianodus tooth whorls provide a late Aeronian total-group bound; the younger endpoint reflects living members and does not assert uninterrupted sampling.",
     "confidence": "medium",
-    "claimIds": [],
+    "claimIds": [
+      "claim:event:early-silurian-qianodus-tooth-whorls"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
-      },
-      {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "andreev-2022-qianodus",
+        "locator": "pp. 964–968, especially p. 965; Figs. 1–2; geological setting and phylogenetic results"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "literature-synthesized"
   },
   {
     "id": "range:elasmobranchii:global",
@@ -118,5 +116,160 @@
     ],
     "reviewStatus": "not-reviewed",
     "evidenceLevel": "legacy-display"
+  },
+  {
+    "id": "range:stem-chondrichthyan-evidence-route:global",
+    "entityId": "stem-chondrichthyan-evidence-route",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Stem-chondrichthyan evidence route navigation envelope",
+    "geographicScope": "Represented specimen localities only",
+    "olderMa": 439,
+    "youngerMa": 385,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Navigation envelope across heterogeneous samples; not a lineage duration, global FAD or ancestor sequence."
+    },
+    "evidenceBasis": "The browse interval spans the represented specimen dossiers while preserving each occurrence, topology and interpretation as a separate evidence record.",
+    "evidenceLevel": "literature-synthesized",
+    "confidence": "medium",
+    "claimIds": [
+      "claim:event:early-silurian-qianodus-tooth-whorls",
+      "claim:event:rongxi-fanjingshania-dermoskeleton",
+      "claim:event:chongqing-shenacanthus-body-plan",
+      "claim:event:givetian-gladbachus-mosaic-anatomy"
+    ],
+    "referenceLocators": [
+      {
+        "referenceId": "andreev-2022-qianodus",
+        "locator": "pp. 964–968; Figs. 1–2"
+      },
+      {
+        "referenceId": "andreev-2022-fanjingshania",
+        "locator": "pp. 969–974; Figs. 1–3"
+      },
+      {
+        "referenceId": "zhu-2022-chongqing-gnathostomes",
+        "locator": "pp. 954–958; Figs. 1, 3"
+      },
+      {
+        "referenceId": "coates-2018-gladbachus",
+        "locator": "Article 20172418; Figs. 1–4"
+      }
+    ],
+    "reviewStatus": "automated-audit-passed"
+  },
+  {
+    "id": "range:fanjingshania:global",
+    "entityId": "fanjingshania",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Fanjingshania renovata Rongxi Formation dermoskeletal sample",
+    "geographicScope": "Rongxi Formation, Leijiatun, Guizhou, China",
+    "olderMa": 439,
+    "youngerMa": 439,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Approximate late Aeronian point; isolated elements do not form one articulated body."
+    },
+    "evidenceBasis": "Holotype IVPP V27433.1 and more than one thousand referred dermal elements occur in the late Aeronian Rongxi Formation.",
+    "evidenceLevel": "literature-synthesized",
+    "confidence": "medium",
+    "claimIds": [
+      "claim:event:rongxi-fanjingshania-dermoskeleton"
+    ],
+    "referenceLocators": [
+      {
+        "referenceId": "andreev-2022-fanjingshania",
+        "locator": "pp. 969–974; Figs. 1–3; Extended Data Fig. 4"
+      }
+    ],
+    "reviewStatus": "automated-audit-passed"
+  },
+  {
+    "id": "range:qianodus:global",
+    "entityId": "qianodus",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Qianodus duplicis represented study sample",
+    "geographicScope": "Rongxi Formation, Leijiatun, Guizhou, China",
+    "olderMa": 439,
+    "youngerMa": 439,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Approximate late Aeronian horizon at about 439 Ma; no articulated individual links the whorls to body remains."
+    },
+    "evidenceBasis": "Twenty-three isolated tooth whorls occur in the late Aeronian Ozarkodina guizhouensis biozone; the point envelope represents that sample only.",
+    "evidenceLevel": "literature-synthesized",
+    "confidence": "medium",
+    "claimIds": [
+      "claim:taxon:qianodus:fossil-range"
+    ],
+    "referenceLocators": [
+      {
+        "referenceId": "andreev-2022-qianodus",
+        "locator": "964–968, especially 965–967; Figures 1–2; Extended Data Figures 1–3; Systematic palaeontology; tooth-whorl development and histology; geological setting"
+      }
+    ],
+    "reviewStatus": "automated-audit-passed"
+  },
+  {
+    "id": "range:shenacanthus:global",
+    "entityId": "shenacanthus",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Shenacanthus vermiformis represented study sample",
+    "geographicScope": "Huixingshao Formation, Yongdong, Xiushan, Chongqing, China",
+    "olderMa": 436,
+    "youngerMa": 436,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Approximate Telychian horizon; one holotype cannot establish species duration, variation or a global first appearance."
+    },
+    "evidenceBasis": "The sole near-complete holotype IVPP V300000 occurs in the approximately 436 Ma Huixingshao Formation; the point is specimen-scoped.",
+    "evidenceLevel": "literature-synthesized",
+    "confidence": "medium",
+    "claimIds": [
+      "claim:taxon:shenacanthus:fossil-range"
+    ],
+    "referenceLocators": [
+      {
+        "referenceId": "zhu-2022-chongqing-gnathostomes",
+        "locator": "954–958, especially 956–958; Figures 1a and 3; Extended Data Figure 8; Systematic palaeontology and description of Shenacanthus; phylogenetic analyses"
+      }
+    ],
+    "reviewStatus": "automated-audit-passed"
+  },
+  {
+    "id": "range:gladbachus:global",
+    "entityId": "gladbachus",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Gladbachus adentatus represented study sample",
+    "geographicScope": "Lower Plattenkalk, Unterthal, Bergisch Gladbach, Germany",
+    "olderMa": 385,
+    "youngerMa": 385,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Approximate Upper Givetian point at about 385 Ma; the specimen is dorsoventrally compressed and phylogenetic placement remains matrix-dependent."
+    },
+    "evidenceBasis": "UMZC 2000.32 is the single sampled Upper Givetian specimen; its point envelope is not a global species duration or crown-shark range.",
+    "evidenceLevel": "literature-synthesized",
+    "confidence": "medium",
+    "claimIds": [
+      "claim:taxon:gladbachus:fossil-range"
+    ],
+    "referenceLocators": [
+      {
+        "referenceId": "coates-2018-gladbachus",
+        "locator": "1–10, especially 2–10; Figures 1–4; Supplementary Figure S1; Specimen description; CT and histology results; phylogenetic results and discussion"
+      }
+    ],
+    "reviewStatus": "automated-audit-passed"
   }
 ]

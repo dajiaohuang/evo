@@ -296,5 +296,98 @@
       }
     ],
     "reviewStatus": "not-reviewed"
+  },
+  {
+    "id": "range:early-actinopterygian-evidence-route:global",
+    "entityId": "early-actinopterygian-evidence-route",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Early actinopterygian evidence route navigation envelope",
+    "geographicScope": "Represented specimen localities only",
+    "olderMa": 390.4,
+    "youngerMa": 241.464,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Navigation envelope across heterogeneous samples; not a lineage duration, global FAD or ancestor sequence."
+    },
+    "evidenceBasis": "The browse interval spans the represented specimen dossiers while preserving each occurrence, topology and interpretation as a separate evidence record.",
+    "evidenceLevel": "literature-synthesized",
+    "confidence": "medium",
+    "claimIds": [
+      "claim:event:cheirolepis-eifelian-endoskeleton",
+      "claim:event:fukangichthys-crown-actinopterygian-recalibration"
+    ],
+    "referenceLocators": [
+      {
+        "referenceId": "giles-2015-cheirolepis-endoskeleton",
+        "locator": "pp. 849–870; Figs. 2–4, 9–11"
+      },
+      {
+        "referenceId": "giles-2017-ray-fin-timescale",
+        "locator": "pp. 265–268; Figs. 1–3"
+      }
+    ],
+    "reviewStatus": "automated-audit-passed"
+  },
+  {
+    "id": "range:cheirolepis-trailli:global",
+    "entityId": "cheirolepis-trailli",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Cheirolepis trailli represented study sample",
+    "geographicScope": "Achanarras Limestone and correlated Scottish localities",
+    "olderMa": 390.4,
+    "youngerMa": 388.1,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Rounded late Eifelian interval; different anatomical regions are distributed among several specimens."
+    },
+    "evidenceBasis": "Named museum specimens from late Eifelian Scottish deposits document the represented anatomical sample; the interval is not a global lineage range.",
+    "evidenceLevel": "literature-synthesized",
+    "confidence": "medium",
+    "claimIds": [
+      "claim:taxon:cheirolepis-trailli:fossil-range"
+    ],
+    "referenceLocators": [
+      {
+        "referenceId": "giles-2015-cheirolepis-endoskeleton",
+        "locator": "849–870, especially 852–862; Figures 2–4 and 9–11; Material and methods; neurocranium, hyomandibula, pectoral fin endoskeleton and body scales"
+      }
+    ],
+    "reviewStatus": "automated-audit-passed"
+  },
+  {
+    "id": "range:fukangichthys:global",
+    "entityId": "fukangichthys",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Fukangichthys longidorsalis represented study sample",
+    "geographicScope": "Kelamayi Formation, Xinjiang, China",
+    "olderMa": 247,
+    "youngerMa": 241.464,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Formation-scale Middle Triassic envelope; specimen occurrence and topology-dependent calibration remain distinct."
+    },
+    "evidenceBasis": "The named Fukangichthys sample occurs in Middle Triassic Kelamayi Formation strata; the display interval is locality-scoped and does not encode the modelled crown recalibration.",
+    "evidenceLevel": "literature-synthesized",
+    "confidence": "medium",
+    "claimIds": [
+      "claim:taxon:fukangichthys:fossil-range"
+    ],
+    "referenceLocators": [
+      {
+        "referenceId": "giles-2017-ray-fin-timescale",
+        "locator": "265–268; Figures 1–3; Main text; Methods; Supplementary Methods and character matrices"
+      },
+      {
+        "referenceId": "xu-2014-fukangichthys-revision",
+        "locator": "pp. 747–759; Figs. 1–9; Systematic palaeontology, locality and horizon"
+      }
+    ],
+    "reviewStatus": "automated-audit-passed"
   }
 ]
