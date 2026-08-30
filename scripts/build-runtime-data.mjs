@@ -1,10 +1,11 @@
 import { createHash } from 'node:crypto'
 import { mkdirSync, readFileSync, readdirSync, rmSync, statSync, writeFileSync } from 'node:fs'
 import { basename, dirname, join, relative, resolve, sep } from 'node:path'
-import { gunzipSync, gzipSync } from 'node:zlib'
-import { strToU8, zipSync } from 'fflate'
+import { gunzipSync } from 'node:zlib'
+import { strToU8 } from 'fflate'
 import { flattenTree, readJson, rootDir } from './data-lib.mjs'
 import { evaluatePackageReview } from './check-review-freshness.mjs'
+import { deterministicGzip, deterministicZip } from './archive-determinism.mjs'
 
 const args = process.argv.slice(2)
 const outputIndex = args.indexOf('--out')
@@ -91,7 +92,7 @@ function writeBootstrapJson(relativePath, value, pretty = false) {
 
 function writeGzipJson(relativePath, value) {
   const source = jsonBytes(value)
-  const compressed = gzipSync(source, { level: 9, mtime: 0 })
+  const compressed = deterministicGzip(source, { level: 9 })
   return { ...write(relativePath, compressed), sourceBytes: source.byteLength, sourceSha256: sha256(source), encoding: 'gzip', mediaType: 'application/json' }
 }
 
@@ -493,7 +494,7 @@ for (const packageEntry of registry.packages) {
   for (const file of [...Object.values(payloadFiles), ...occurrenceShards]) {
     zipEntries[file.url] = new Uint8Array(readFileSync(join(outputRoot, file.url)))
   }
-  const archive = zipSync(zipEntries, { level: 0 })
+  const archive = deterministicZip(zipEntries, { level: 0 })
   write(`downloads/${packageId}-${sourceManifest.datasetVersion}.zip`, archive)
 }
 

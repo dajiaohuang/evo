@@ -1,5 +1,12 @@
 # Dataset changelog
 
+## 2026.08-static-v5-rc48 — 2026-08-31
+
+- Rebuilt all 24 Web/Android/iOS package projections from the rc47 canonical ledgers at app version `0.20.1`, retaining 392 entities, 872 evidence claims, 440 references, 13,600 bounded PBDB occurrences, 1,889 CAO2024 frames and all 2,183,133 accepted-species assignments.
+- Made newly generated runtime JSON gzip streams and package ZIPs byte-stable across supported Windows/Linux builders by fixing archive OS, platform and timestamp metadata. Existing pinned COL26.8 gzip shards and their writer remain byte-for-byte unchanged to avoid rewriting the fixed release.
+- Kept Android and iOS installation shells lightweight: mobile builds no longer copy `public/data/`, reject a non-production data root or shells over 12 MiB, and continue to expose the complete release inventory through the shared Pages endpoint and explicit complete-Atlas offline download.
+- Advanced Android `versionCode` and iOS build number to `4`. Native AAB/IPA production, signing and device/store verification remain platform release work and are not claimed by this source release.
+
 ## 2026.08-static-v5-rc47 — 2026-08-31
 
 - Added 272 bilingual, typed `taxon:` subject claims with concrete primary-study or systematic-review locators, bringing claim-level traceability to all 392 navigation entities. Specimen/locality ranges, modelled divergence times, navigation groupings and sampled topology remain explicitly bounded rather than promoted to global origins, first appearances or direct ancestors.

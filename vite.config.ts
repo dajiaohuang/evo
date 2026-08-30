@@ -9,6 +9,7 @@ export default defineConfig(({ mode }) => {
   const nativeBuild = mode === 'mobile'
 
   return {
+    publicDir: nativeBuild ? false : 'public',
     plugins: [
       react(),
       VitePWA({
