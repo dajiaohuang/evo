@@ -38,7 +38,14 @@ const licensedMedia = media.filter((asset) => asset.license && asset.rightsStatu
 const publishedStories = stories.filter((story) => story.evidenceStatus === 'available-with-limitations')
 const publishedStoriesWithClaims = publishedStories.filter((story) => story.steps.every((step) => step.claimLinks?.length))
 const queryLedgers = registry.packages.map((entry) => readJson(`${entry.canonicalPath}/query-ledger.json`))
-const reproducibleSnapshots = queryLedgers.filter((ledger) => ledger.responseChecksums?.length && ledger.rowsAccepted >= 0 && ledger.selectionMethod)
+const reproducibleSnapshots = queryLedgers.filter((ledger) => {
+  if (!(ledger.rowsAccepted >= 0 && ledger.selectionMethod)) return false
+  if (ledger.schemaVersion !== 2) return Boolean(ledger.responseChecksums?.length)
+  if (!ledger.occurrenceSnapshot || !ledger.subqueries?.length) return false
+  return ledger.subqueries.every((subquery) => subquery.queryEligible
+    ? subquery.completeness === 'complete' && Boolean(subquery.occurrenceIdSha256 && subquery.rawResponseSha256)
+    : subquery.completeness === 'withheld' && Boolean(subquery.eligibilityBasis))
+})
 const packageOpenBlockers = reviews.flatMap((review) => review.openIssues.filter((issue) => /release blocker|\bblocker\b/i.test(issue)).map((issue) => `${review.packageId}: ${issue}`))
 
 const distManifestPath = join(rootDir, 'dist/static-pages-manifest.json')
@@ -70,7 +77,7 @@ const gates = [
   gate('claim-traceability', 'Every entity has claim-level scientific traceability', claimCoveredEntities.length === entities.length, `${claimCoveredEntities.length}/${entities.length}`, 'Reference presence alone does not substitute for a claim-to-source relation.'),
   gate('static-publication', 'All bilingual static Catalog pages generated', Boolean(staticComplete), staticManifest ? `${Object.values(staticExpected).reduce((sum, count) => sum + count, 0)} expected detail pages` : 'build required', JSON.stringify(staticExpected)),
   gate('rights-metadata', 'Reference metadata and media licenses complete', referencesComplete.length === references.length && licensedMedia.length === media.length, `${referencesComplete.length}/${references.length} references; ${licensedMedia.length}/${media.length} media`, 'References require source role and fitness; media require creator, source, license and rights status.'),
-  gate('snapshot-reproducibility', 'All package occurrence snapshots are reproducible', reproducibleSnapshots.length === registry.packages.length, `${reproducibleSnapshots.length}/${registry.packages.length}`, 'Query ledgers retain sampling method, accepted rows and response checksums.'),
+  gate('snapshot-reproducibility', 'All package occurrence snapshots are reproducible', reproducibleSnapshots.length === registry.packages.length, `${reproducibleSnapshots.length}/${registry.packages.length}`, 'Schema-v2 query ledgers retain the selection method, bounded rows and either complete-query checksums or explicit withheld-query reasons.'),
   gate('product-surfaces', 'Explorer, Compare, Lab and Stories roadmap surfaces implemented', /Newick/.test(explorerSource) && /currentAgeUnit/.test(explorerSource) && /DuckDB-Wasm/.test(labSource) && /Export Parquet/.test(labSource) && /Story Builder/.test(storySource), 'implemented', 'This source-level gate is supplemented by unit, Playwright and manual browser checks.'),
   gate('published-story-evidence', 'Every published story step links evidence claims', publishedStoriesWithClaims.length === publishedStories.length, `${publishedStoriesWithClaims.length}/${publishedStories.length}`, 'Evidence-incomplete drafts remain unpublished.'),
   gate('cross-browser-contract', 'Chromium, Firefox and WebKit smoke configured', /chromium/.test(crossBrowserSource) && /firefox-smoke/.test(crossBrowserSource) && /webkit-smoke/.test(crossBrowserSource), '3 browser projects', 'Passing status is established by npm run test:e2e, not by configuration alone.'),

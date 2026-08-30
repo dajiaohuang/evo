@@ -1,192 +1,487 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "packageId": "perissodactyla",
   "provider": "Paleobiology Database",
   "endpoint": "https://paleobiodb.org/data1.2/occs/list.json",
   "endpointVersion": "1.2",
+  "occurrenceSnapshot": "data/sources/pbdb-targeted-perissodactyla-occurrences-v1.json",
   "queryParameters": {
-    "base_id": "106418",
-    "show": "full,class",
-    "order": "id",
-    "pageSize": 5000
+    "template": "base_id={accepted PBDB taxon number}&limit=5000&offset={offset}&show=full,class&order=id&datainfo",
+    "pageSize": 5000,
+    "acceptedBaseNamesRecorded": true
   },
-  "requestedAt": "2026-08-19T19:03:45.156Z",
-  "upstreamReportedTotal": 13210,
-  "pagesFetched": 3,
-  "rowsFetched": 13210,
-  "rowsAccepted": 13210,
+  "requestedAt": "2026-08-30T20:00:16.000Z",
+  "upstreamReportedTotal": 22959,
+  "pagesFetched": 14,
+  "rowsFetched": 22959,
+  "rowsAccepted": 5000,
   "rowsRejected": 0,
   "rowsOutsidePackage": 0,
+  "uniqueRowsObserved": 13209,
+  "uniqueRowsRetained": 5000,
+  "withheldSubqueryCount": 5,
   "responseChecksums": [
-    "fd405ca8346555fb35685be7066642188db897622fabcddd7e949a1a4fdb6c32"
+    "7be305d8457a83eb88e0cd2b21d4395c5512799bfebac2255a38f5a9118b9c71",
+    "7ae7904dcc5e54dd91a3a174f4f48194fe66dfcf44ee09e79f7cac419189bdcf",
+    "00bb114caca825c6c4dcdce914f5097ecfb65b39408d0436d4f48322d2789b60",
+    "81d6de5166a238e0c614412e37739a8d26f611aff8cb1a4ad8d45e2b775e4fe5",
+    "5a51b531ab72eb4a55c45aba6cb6261f42f8001aed84ba3b10ed65d3802f11b5",
+    "786e990cf6932decf9c33c18e7bc559cc314509683bb9c73b138a2e5bab3dd88",
+    "cfa2b4936c1ba769f6ebdcb3832023e07a5f63b81c834e3cf5d93346e485016a",
+    "34832ccd7b5c7e9792aced682cd8e93040c6cca8584bbc734bbbd76678b40f56",
+    "d29f5967806ba23d2ef37e51ebdee59afd996cd996e989226155912c40b5687b",
+    "e0c9a8933eee117bba5cc6b2f833469f1c9edc3d5f5bb0f88df8fa8c49e62b9a",
+    "8b919ee8edf29f24bd199df5d0e7fdb27d6ed051a5905996b7517e0f71d6587b",
+    "d6c2dc8f8b080cc5b50a6613ab12e383f6ce3a5cb223a86bb1b69c246ea89ce7"
   ],
-  "completeness": "complete",
-  "selectionMethod": "Complete pagination of a pinned PBDB accepted base_id, with overlapping profile queries retained as an auditable concept ledger.",
+  "completeness": "bounded",
+  "selectionMethod": "Complete pagination for every eligible resolution-ledger taxon concept; package occurrence detail is a deterministic bounded projection while all result identities and checksums remain in the source snapshot.",
   "limitations": [
-    "Complete describes the pinned PBDB query response at the recorded retrieval time, not the completeness of the fossil record.",
-    "Profile subqueries may overlap the root query and are not summed to estimate abundance.",
-    "Palaeotherium remains excluded from profile-level interpretation pending taxon-concept review, while root-query rows remain preserved."
+    "Complete applies to each recorded PBDB subquery at retrieval time, not to the fossil record or biological sampling.",
+    "Subqueries overlap; summed rows and page counts must not be interpreted as unique occurrence or diversity totals.",
+    "Historical grades, unresolved names and needs-concept-review mappings are explicitly withheld rather than represented by fabricated identifiers or zero results.",
+    "Accepted broad roots with more than 100,000 rows in the pinned resolution snapshot are withheld from this targeted release in favor of complete scoped subqueries.",
+    "The package occurrence-detail projection is bounded by occurrence identifier and is neither random nor representative; complete result identities remain recorded per subquery.",
+    "PBDB does not return an independent total in this JSON response; upstreamReportedTotal records the row count observed after terminal-page pagination."
   ],
   "subqueries": [
     {
       "entityId": "perissodactyla",
+      "taxonConcept": "Perissodactyla",
+      "acceptedBaseName": "Perissodactyla",
+      "externalTaxonId": "txn:106418",
       "queryParameters": {
         "base_id": "106418",
+        "base_name": "Perissodactyla",
         "show": "full,class",
         "order": "id",
         "pageSize": 5000
       },
-      "upstreamReportedTotal": 13210,
-      "rowsFetched": 13210,
+      "retrievedAt": "2026-08-30T20:00:02.000Z",
+      "resolutionSnapshotOccurrenceCount": 13169,
+      "upstreamReportedTotal": 13209,
+      "rowsFetched": 13209,
       "pagesFetched": 3,
       "completeness": "complete",
       "conceptReviewStatus": "compatible",
       "queryEligible": true,
-      "responseChecksum": "060af792b1adc3f2d73ad5204b223274bd421a84e797700be5c13087303e62fc"
+      "eligibilityBasis": "resolution-ledger-accepted-mapping",
+      "rawPageSha256": [
+        "6411561df76f07326283b4d08084d682e26f1c691df4388b7971735adb41efb6",
+        "0d6b2086b4b2785ef1b37193692de64c54840b8aaaa0c6a70e1983430e4f34bc",
+        "ff006023f68d4ab2ce85c56b802b982ff3165993977c5d5781f02a706a7f5bad"
+      ],
+      "rawResponseSha256": "7be305d8457a83eb88e0cd2b21d4395c5512799bfebac2255a38f5a9118b9c71",
+      "normalizedRowsSha256": "3e2f3ae88450e4171cd80e0c812cf44ecd1407a592a91c56edf17d9a6dc64708",
+      "occurrenceIdSha256": "0d1652a9c78fadfa75801786583007bd239353a25e84cba0c225f7fcdfc45731"
     },
     {
       "entityId": "brontotheriidae",
+      "taxonConcept": "Brontotheriidae",
+      "acceptedBaseName": "Brontotheriidae",
+      "externalTaxonId": "txn:43027",
       "queryParameters": {
         "base_id": "43027",
+        "base_name": "Brontotheriidae",
         "show": "full,class",
         "order": "id",
         "pageSize": 5000
       },
+      "retrievedAt": "2026-08-30T20:00:09.000Z",
+      "resolutionSnapshotOccurrenceCount": 564,
       "upstreamReportedTotal": 578,
       "rowsFetched": 578,
       "pagesFetched": 1,
       "completeness": "complete",
       "conceptReviewStatus": "compatible",
       "queryEligible": true,
-      "responseChecksum": "0767329d122a92c02b25f1d64dd00aa2f8b9b014c9cac7d09868b8be7dc60680"
+      "eligibilityBasis": "resolution-ledger-accepted-mapping",
+      "rawPageSha256": [
+        "7ae7904dcc5e54dd91a3a174f4f48194fe66dfcf44ee09e79f7cac419189bdcf"
+      ],
+      "rawResponseSha256": "7ae7904dcc5e54dd91a3a174f4f48194fe66dfcf44ee09e79f7cac419189bdcf",
+      "normalizedRowsSha256": "cd1a63710dd4bf3987f3579b24aa867e4eef8888989f8710ef8662cf80ee9567",
+      "occurrenceIdSha256": "2c9ee53fd35a53dd1744eb31cfc0ee41cb5b3f98578bd7939423a775b819348a"
+    },
+    {
+      "entityId": "hippomorpha",
+      "taxonConcept": "Hippomorpha",
+      "acceptedBaseName": "Hippomorpha",
+      "externalTaxonId": null,
+      "queryParameters": null,
+      "retrievedAt": null,
+      "resolutionSnapshotOccurrenceCount": 4,
+      "upstreamReportedTotal": null,
+      "rowsFetched": null,
+      "pagesFetched": null,
+      "completeness": "withheld",
+      "conceptReviewStatus": "unresolved",
+      "queryEligible": false,
+      "eligibilityBasis": "accepted-rank-mismatch",
+      "rawPageSha256": [],
+      "rawResponseSha256": null,
+      "normalizedRowsSha256": null,
+      "occurrenceIdSha256": null
     },
     {
       "entityId": "palaeotherium",
-      "queryParameters": {
-        "base_id": "49711",
-        "show": "full,class",
-        "order": "id",
-        "pageSize": 5000
-      },
-      "upstreamReportedTotal": 157,
-      "rowsFetched": 157,
-      "pagesFetched": 1,
-      "completeness": "complete",
+      "taxonConcept": "Palaeotherium",
+      "acceptedBaseName": "Palaeotherium",
+      "externalTaxonId": "txn:49711",
+      "queryParameters": null,
+      "retrievedAt": null,
+      "resolutionSnapshotOccurrenceCount": 157,
+      "upstreamReportedTotal": null,
+      "rowsFetched": null,
+      "pagesFetched": null,
+      "completeness": "withheld",
       "conceptReviewStatus": "needs-concept-review",
       "queryEligible": false,
-      "responseChecksum": "033817b7cf3b773219586d0760535c4845068f6747e4a40c3d7b077430f32026"
+      "eligibilityBasis": "needs-concept-review",
+      "rawPageSha256": [],
+      "rawResponseSha256": null,
+      "normalizedRowsSha256": null,
+      "occurrenceIdSha256": null
     },
     {
-      "entityId": "metamynodon",
-      "queryParameters": {
-        "base_id": "43179",
-        "show": "full,class",
-        "order": "id",
-        "pageSize": 5000
-      },
-      "upstreamReportedTotal": 23,
-      "rowsFetched": 23,
-      "pagesFetched": 1,
-      "completeness": "complete",
-      "conceptReviewStatus": "compatible",
-      "queryEligible": true,
-      "responseChecksum": "6025140b202e6349f7196f2478eae127f48bccf11fb5188b50dc09b32a81aa5c"
-    },
-    {
-      "entityId": "paraceratherium",
-      "queryParameters": {
-        "base_id": "43161",
-        "show": "full,class",
-        "order": "id",
-        "pageSize": 5000
-      },
-      "upstreamReportedTotal": 38,
-      "rowsFetched": 38,
-      "pagesFetched": 1,
-      "completeness": "complete",
-      "conceptReviewStatus": "compatible",
-      "queryEligible": true,
-      "responseChecksum": "386b0ba3a2c4cefdb4a2ab39a5bf2d32a21edcd74bf064d2ea6e469ea3a30207"
-    },
-    {
-      "entityId": "chalicotherium",
-      "queryParameters": {
-        "base_id": "43079",
-        "show": "full,class",
-        "order": "id",
-        "pageSize": 5000
-      },
-      "upstreamReportedTotal": 40,
-      "rowsFetched": 40,
-      "pagesFetched": 1,
-      "completeness": "complete",
-      "conceptReviewStatus": "compatible",
-      "queryEligible": true,
-      "responseChecksum": "cbafe1ac6f9b384a46f523d8e8ce132f694b8a0fa06d4f80755b46b484a84fff"
+      "entityId": "equidae",
+      "taxonConcept": "Equidae",
+      "acceptedBaseName": "Equidae",
+      "externalTaxonId": "txn:42984",
+      "queryParameters": null,
+      "retrievedAt": null,
+      "resolutionSnapshotOccurrenceCount": 6515,
+      "upstreamReportedTotal": null,
+      "rowsFetched": null,
+      "pagesFetched": null,
+      "completeness": "withheld",
+      "conceptReviewStatus": "needs-concept-review",
+      "queryEligible": false,
+      "eligibilityBasis": "needs-concept-review",
+      "rawPageSha256": [],
+      "rawResponseSha256": null,
+      "normalizedRowsSha256": null,
+      "occurrenceIdSha256": null
     },
     {
       "entityId": "anchitherium",
+      "taxonConcept": "Anchitherium",
+      "acceptedBaseName": "Anchitherium",
+      "externalTaxonId": "txn:42987",
       "queryParameters": {
         "base_id": "42987",
+        "base_name": "Anchitherium",
         "show": "full,class",
         "order": "id",
         "pageSize": 5000
       },
+      "retrievedAt": "2026-08-30T20:00:09.000Z",
+      "resolutionSnapshotOccurrenceCount": 88,
       "upstreamReportedTotal": 88,
       "rowsFetched": 88,
       "pagesFetched": 1,
       "completeness": "complete",
       "conceptReviewStatus": "compatible",
       "queryEligible": true,
-      "responseChecksum": "ef972e74f653750d0853cb533f0213be270494d3043ebf8b1f4021a2ead38be8"
+      "eligibilityBasis": "resolution-ledger-accepted-mapping",
+      "rawPageSha256": [
+        "00bb114caca825c6c4dcdce914f5097ecfb65b39408d0436d4f48322d2789b60"
+      ],
+      "rawResponseSha256": "00bb114caca825c6c4dcdce914f5097ecfb65b39408d0436d4f48322d2789b60",
+      "normalizedRowsSha256": "425b98eff77972538ec0cd3c34625ad8740c37297f680a6b2c595a8c8dd7290b",
+      "occurrenceIdSha256": "82cb09ee37da4fe0a9adfb1ec0d0c1561ce6d7c91e525bab20372c443e4b0d79"
     },
     {
       "entityId": "hipparionini",
+      "taxonConcept": "Hipparionini",
+      "acceptedBaseName": "Hipparionini",
+      "externalTaxonId": "txn:65579",
       "queryParameters": {
         "base_id": "65579",
+        "base_name": "Hipparionini",
         "show": "full,class",
         "order": "id",
         "pageSize": 5000
       },
+      "retrievedAt": "2026-08-30T20:00:10.000Z",
+      "resolutionSnapshotOccurrenceCount": 1698,
       "upstreamReportedTotal": 1698,
       "rowsFetched": 1698,
       "pagesFetched": 1,
       "completeness": "complete",
       "conceptReviewStatus": "compatible",
       "queryEligible": true,
-      "responseChecksum": "bc3cb696358a2784ac02caf4e939dc57ff22347c64ad2d42592c5cb0d8d0b5c2"
+      "eligibilityBasis": "resolution-ledger-accepted-mapping",
+      "rawPageSha256": [
+        "81d6de5166a238e0c614412e37739a8d26f611aff8cb1a4ad8d45e2b775e4fe5"
+      ],
+      "rawResponseSha256": "81d6de5166a238e0c614412e37739a8d26f611aff8cb1a4ad8d45e2b775e4fe5",
+      "normalizedRowsSha256": "725bec437212d88ccaa71404ff691e466975a099213d8f02e3927c950d91b5c0",
+      "occurrenceIdSha256": "42b0cd9147327fd07d3c0db6193aca484bff4058e30259bcc2d68cca2f7f009e"
     },
     {
-      "entityId": "teleoceras",
+      "entityId": "ancylopoda",
+      "taxonConcept": "Ancylopoda",
+      "acceptedBaseName": "Ancylopoda",
+      "externalTaxonId": null,
+      "queryParameters": null,
+      "retrievedAt": null,
+      "resolutionSnapshotOccurrenceCount": 369,
+      "upstreamReportedTotal": null,
+      "rowsFetched": null,
+      "pagesFetched": null,
+      "completeness": "withheld",
+      "conceptReviewStatus": "unresolved",
+      "queryEligible": false,
+      "eligibilityBasis": "accepted-rank-mismatch",
+      "rawPageSha256": [],
+      "rawResponseSha256": null,
+      "normalizedRowsSha256": null,
+      "occurrenceIdSha256": null
+    },
+    {
+      "entityId": "chalicotherium",
+      "taxonConcept": "Chalicotherium",
+      "acceptedBaseName": "Chalicotherium",
+      "externalTaxonId": "txn:43079",
       "queryParameters": {
-        "base_id": "43226",
+        "base_id": "43079",
+        "base_name": "Chalicotherium",
         "show": "full,class",
         "order": "id",
         "pageSize": 5000
       },
+      "retrievedAt": "2026-08-30T20:00:11.000Z",
+      "resolutionSnapshotOccurrenceCount": 40,
+      "upstreamReportedTotal": 40,
+      "rowsFetched": 40,
+      "pagesFetched": 1,
+      "completeness": "complete",
+      "conceptReviewStatus": "compatible",
+      "queryEligible": true,
+      "eligibilityBasis": "resolution-ledger-accepted-mapping",
+      "rawPageSha256": [
+        "5a51b531ab72eb4a55c45aba6cb6261f42f8001aed84ba3b10ed65d3802f11b5"
+      ],
+      "rawResponseSha256": "5a51b531ab72eb4a55c45aba6cb6261f42f8001aed84ba3b10ed65d3802f11b5",
+      "normalizedRowsSha256": "3ac858ad12e402486599a8609f73e6f6286f0ace1e0a06026fc6683a262f12ae",
+      "occurrenceIdSha256": "5a50a1b49bdb241dda7abfbc9a4dd4e8d8c266d09f1f6954563a1e304284e5c1"
+    },
+    {
+      "entityId": "ceratomorpha",
+      "taxonConcept": "Ceratomorpha",
+      "acceptedBaseName": "Ceratomorpha",
+      "externalTaxonId": null,
+      "queryParameters": null,
+      "retrievedAt": null,
+      "resolutionSnapshotOccurrenceCount": 4259,
+      "upstreamReportedTotal": null,
+      "rowsFetched": null,
+      "pagesFetched": null,
+      "completeness": "withheld",
+      "conceptReviewStatus": "unresolved",
+      "queryEligible": false,
+      "eligibilityBasis": "accepted-rank-mismatch",
+      "rawPageSha256": [],
+      "rawResponseSha256": null,
+      "normalizedRowsSha256": null,
+      "occurrenceIdSha256": null
+    },
+    {
+      "entityId": "tapiroidea",
+      "taxonConcept": "Tapiroidea",
+      "acceptedBaseName": "Tapiroidea",
+      "externalTaxonId": "txn:43104",
+      "queryParameters": {
+        "base_id": "43104",
+        "base_name": "Tapiroidea",
+        "show": "full,class",
+        "order": "id",
+        "pageSize": 5000
+      },
+      "retrievedAt": "2026-08-30T20:00:11.000Z",
+      "resolutionSnapshotOccurrenceCount": 741,
+      "upstreamReportedTotal": 743,
+      "rowsFetched": 743,
+      "pagesFetched": 1,
+      "completeness": "complete",
+      "conceptReviewStatus": "compatible",
+      "queryEligible": true,
+      "eligibilityBasis": "resolution-ledger-accepted-mapping",
+      "rawPageSha256": [
+        "786e990cf6932decf9c33c18e7bc559cc314509683bb9c73b138a2e5bab3dd88"
+      ],
+      "rawResponseSha256": "786e990cf6932decf9c33c18e7bc559cc314509683bb9c73b138a2e5bab3dd88",
+      "normalizedRowsSha256": "0000ee3a829be91ffb80e2beb68b8f3ce5ba9ed7d5810eb824f406ce68d04a7a",
+      "occurrenceIdSha256": "508d3ad1593f29af46951b521f9d72bef5c9022cfe063651a36e40aa4b1685ec"
+    },
+    {
+      "entityId": "rhinocerotoidea",
+      "taxonConcept": "Rhinocerotoidea",
+      "acceptedBaseName": "Rhinocerotoidea",
+      "externalTaxonId": "txn:43140",
+      "queryParameters": {
+        "base_id": "43140",
+        "base_name": "Rhinocerotoidea",
+        "show": "full,class",
+        "order": "id",
+        "pageSize": 5000
+      },
+      "retrievedAt": "2026-08-30T20:00:12.000Z",
+      "resolutionSnapshotOccurrenceCount": 3498,
+      "upstreamReportedTotal": 3516,
+      "rowsFetched": 3516,
+      "pagesFetched": 1,
+      "completeness": "complete",
+      "conceptReviewStatus": "compatible",
+      "queryEligible": true,
+      "eligibilityBasis": "resolution-ledger-accepted-mapping",
+      "rawPageSha256": [
+        "cfa2b4936c1ba769f6ebdcb3832023e07a5f63b81c834e3cf5d93346e485016a"
+      ],
+      "rawResponseSha256": "cfa2b4936c1ba769f6ebdcb3832023e07a5f63b81c834e3cf5d93346e485016a",
+      "normalizedRowsSha256": "82d56bb7692b302caebcede22b2e4e100cde8498d84b992508965c4504f1bec1",
+      "occurrenceIdSha256": "53f8c02f34e822d5c5dc4aa1c27b01e20f0204b7247394f2c3bcaefcc443ad57"
+    },
+    {
+      "entityId": "metamynodon",
+      "taxonConcept": "Metamynodon",
+      "acceptedBaseName": "Metamynodon",
+      "externalTaxonId": "txn:43179",
+      "queryParameters": {
+        "base_id": "43179",
+        "base_name": "Metamynodon",
+        "show": "full,class",
+        "order": "id",
+        "pageSize": 5000
+      },
+      "retrievedAt": "2026-08-30T20:00:14.000Z",
+      "resolutionSnapshotOccurrenceCount": 23,
+      "upstreamReportedTotal": 23,
+      "rowsFetched": 23,
+      "pagesFetched": 1,
+      "completeness": "complete",
+      "conceptReviewStatus": "compatible",
+      "queryEligible": true,
+      "eligibilityBasis": "resolution-ledger-accepted-mapping",
+      "rawPageSha256": [
+        "34832ccd7b5c7e9792aced682cd8e93040c6cca8584bbc734bbbd76678b40f56"
+      ],
+      "rawResponseSha256": "34832ccd7b5c7e9792aced682cd8e93040c6cca8584bbc734bbbd76678b40f56",
+      "normalizedRowsSha256": "ea35fe1b1f7063e91a86227aec8d37ec49aa1d03a7619fd4b58133d5a38ddcdf",
+      "occurrenceIdSha256": "0a32397e2e5ba2286d9b11073714cdc1861bc631628ac5442fea35ba01087bc4"
+    },
+    {
+      "entityId": "paraceratherium",
+      "taxonConcept": "Paraceratherium",
+      "acceptedBaseName": "Paraceratherium",
+      "externalTaxonId": "txn:43161",
+      "queryParameters": {
+        "base_id": "43161",
+        "base_name": "Paraceratherium",
+        "show": "full,class",
+        "order": "id",
+        "pageSize": 5000
+      },
+      "retrievedAt": "2026-08-30T20:00:14.000Z",
+      "resolutionSnapshotOccurrenceCount": 38,
+      "upstreamReportedTotal": 38,
+      "rowsFetched": 38,
+      "pagesFetched": 1,
+      "completeness": "complete",
+      "conceptReviewStatus": "compatible",
+      "queryEligible": true,
+      "eligibilityBasis": "resolution-ledger-accepted-mapping",
+      "rawPageSha256": [
+        "d29f5967806ba23d2ef37e51ebdee59afd996cd996e989226155912c40b5687b"
+      ],
+      "rawResponseSha256": "d29f5967806ba23d2ef37e51ebdee59afd996cd996e989226155912c40b5687b",
+      "normalizedRowsSha256": "c3de621448a579ba5d99e3cb51401e2df0db6cf043abce64b80659cd108728c8",
+      "occurrenceIdSha256": "8ed466193b66d4f342b89346556ec4bfa653c8c64a79e1b266e863734cf16d57"
+    },
+    {
+      "entityId": "rhinocerotidae",
+      "taxonConcept": "Rhinocerotidae",
+      "acceptedBaseName": "Rhinocerotidae",
+      "externalTaxonId": "txn:43187",
+      "queryParameters": {
+        "base_id": "43187",
+        "base_name": "Rhinocerotidae",
+        "show": "full,class",
+        "order": "id",
+        "pageSize": 5000
+      },
+      "retrievedAt": "2026-08-30T20:00:14.000Z",
+      "resolutionSnapshotOccurrenceCount": 2640,
+      "upstreamReportedTotal": 2641,
+      "rowsFetched": 2641,
+      "pagesFetched": 1,
+      "completeness": "complete",
+      "conceptReviewStatus": "compatible",
+      "queryEligible": true,
+      "eligibilityBasis": "resolution-ledger-accepted-mapping",
+      "rawPageSha256": [
+        "e0c9a8933eee117bba5cc6b2f833469f1c9edc3d5f5bb0f88df8fa8c49e62b9a"
+      ],
+      "rawResponseSha256": "e0c9a8933eee117bba5cc6b2f833469f1c9edc3d5f5bb0f88df8fa8c49e62b9a",
+      "normalizedRowsSha256": "9991396fcbbc5028cb0712190244c9b3894eff8bfde38c3e7bb890897d6d9876",
+      "occurrenceIdSha256": "50001ef2b85faceb21fee31e1af3b75a8018cf91c7fb068f33bbdba081e2284e"
+    },
+    {
+      "entityId": "teleoceras",
+      "taxonConcept": "Teleoceras",
+      "acceptedBaseName": "Teleoceras",
+      "externalTaxonId": "txn:43226",
+      "queryParameters": {
+        "base_id": "43226",
+        "base_name": "Teleoceras",
+        "show": "full,class",
+        "order": "id",
+        "pageSize": 5000
+      },
+      "retrievedAt": "2026-08-30T20:00:16.000Z",
+      "resolutionSnapshotOccurrenceCount": 348,
       "upstreamReportedTotal": 348,
       "rowsFetched": 348,
       "pagesFetched": 1,
       "completeness": "complete",
       "conceptReviewStatus": "compatible",
       "queryEligible": true,
-      "responseChecksum": "cfd8a2227ca4ca768f48edb7ef0fbc84ef9800545085b494aa2f45b81f6ad834"
+      "eligibilityBasis": "resolution-ledger-accepted-mapping",
+      "rawPageSha256": [
+        "8b919ee8edf29f24bd199df5d0e7fdb27d6ed051a5905996b7517e0f71d6587b"
+      ],
+      "rawResponseSha256": "8b919ee8edf29f24bd199df5d0e7fdb27d6ed051a5905996b7517e0f71d6587b",
+      "normalizedRowsSha256": "b010a3e0f0f573e8e4e7bad0f4408bdea739633b48daa09f38b9faceabc77e70",
+      "occurrenceIdSha256": "e9d82843ddb3dbf04a0ce1efe5af36ba2ff9c8e0f81cf12da4e2d47634134df8"
     },
     {
       "entityId": "coelodonta",
+      "taxonConcept": "Coelodonta",
+      "acceptedBaseName": "Coelodonta",
+      "externalTaxonId": "txn:43197",
       "queryParameters": {
         "base_id": "43197",
+        "base_name": "Coelodonta",
         "show": "full,class",
         "order": "id",
         "pageSize": 5000
       },
+      "retrievedAt": "2026-08-30T20:00:16.000Z",
+      "resolutionSnapshotOccurrenceCount": 37,
       "upstreamReportedTotal": 37,
       "rowsFetched": 37,
       "pagesFetched": 1,
       "completeness": "complete",
       "conceptReviewStatus": "compatible",
       "queryEligible": true,
-      "responseChecksum": "db92a81e093babe94a7340a50a977a876eebf3941f1bbfd11cd88e24e50bb2d7"
+      "eligibilityBasis": "resolution-ledger-accepted-mapping",
+      "rawPageSha256": [
+        "d6c2dc8f8b080cc5b50a6613ab12e383f6ce3a5cb223a86bb1b69c246ea89ce7"
+      ],
+      "rawResponseSha256": "d6c2dc8f8b080cc5b50a6613ab12e383f6ce3a5cb223a86bb1b69c246ea89ce7",
+      "normalizedRowsSha256": "fa1f5f29e04cd0979764f9237d94cafd08f81f3e0064673a2e47b8dd145994e5",
+      "occurrenceIdSha256": "7c45136b0fe2b56250541aef33a5c2dce445c5cdc905cd17298bf7b051362cb5"
     }
   ]
 }

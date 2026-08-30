@@ -52,7 +52,6 @@ const linkageCoverage = readJson('data/indexes/entity-linkage-coverage.json')
 const catalogueProvenance = readJson('data/catalogue-of-life/releases/2026-08-20/provenance.json')
 const catalogueSourceManifest = readJson('data/catalogue-of-life/releases/2026-08-20/registry/manifest.json')
 const catalogueSpeciesOwnership = readJson('data/registry/package-species-coverage.json')
-const perissodactylaOccurrenceSnapshot = readJson('data/sources/perissodactyla-occurrence-snapshot-v2.json')
 const claimsById = new Map(claims.map((claim) => [claim.id, claim]))
 const packageById = new Map(registry.packages.map((entry) => [entry.id, entry]))
 const entityById = new Map(entities.map((entry) => [entry.id, entry]))
@@ -427,8 +426,8 @@ for (const packageEntry of registry.packages) {
   ])
   if (packageId === 'perissodactyla') {
     payloadFiles.calibrations = writeGzipJson(`packages/${packageId}/calibrations.json.gz`, calibrations)
-    payloadFiles.occurrenceSnapshot = writeGzipJson(`packages/${packageId}/occurrence-snapshot-v2.json.gz`, perissodactylaOccurrenceSnapshot)
-  } else if (targetedOccurrenceSnapshot) {
+  }
+  if (targetedOccurrenceSnapshot) {
     payloadFiles.occurrenceSnapshot = writeGzipJson(`packages/${packageId}/occurrence-snapshot-v1.json.gz`, targetedOccurrenceSnapshot)
   }
   const occurrenceShards = occurrenceManifest.packages[packageId] ?? []

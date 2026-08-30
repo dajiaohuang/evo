@@ -1,15 +1,16 @@
 {
   "packageId": "echinoderms",
-  "version": "2026.08-static-v5-rc50",
+  "version": "2026.08-static-v5-rc51",
   "canonicalInputs": [
     "data/navigation/atlas-ontology.json",
     "data/ranges/range-evidence.json",
     "data/sources/pbdb-taxon-resolution.json",
     "data/tree/evidence.json",
     "data/references.json",
+    "data/sources/pbdb-targeted-echinoderms-occurrences-v1.json",
     "data/packages/invertebrata/echinoderms/profiles.source.json"
   ],
-  "occurrenceSnapshot": "data/sources/pbdb-occurrence-bundle.json",
+  "occurrenceSnapshot": "data/sources/pbdb-targeted-echinoderms-occurrences-v1.json",
   "generatedProjection": true,
   "notes": [
     "Package registry, taxonomy, range and locale files are generated projections. review.json is maintained separately as the single package review record. Canonical entity concepts, ranges, evidence and external-resolution decisions live in the listed canonical inputs."
