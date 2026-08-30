@@ -1,18 +1,98 @@
 {
   "ontology": "data/navigation/atlas-ontology.json",
   "rootEntityIds": [
-    "primates"
+    "primatomorpha"
   ],
   "relationships": [
     {
-      "id": "primates",
+      "id": "primatomorpha",
       "parentId": "placentalia",
-      "relationshipKind": "taxonomic-parent"
+      "relationshipKind": "navigation-parent"
+    },
+    {
+      "id": "plesiadapiformes",
+      "parentId": "primatomorpha",
+      "relationshipKind": "navigation-parent"
+    },
+    {
+      "id": "purgatorius",
+      "parentId": "plesiadapiformes",
+      "relationshipKind": "navigation-parent"
+    },
+    {
+      "id": "primates",
+      "parentId": "primatomorpha",
+      "relationshipKind": "navigation-parent"
+    },
+    {
+      "id": "altiatlasius",
+      "parentId": "primates",
+      "relationshipKind": "navigation-parent"
+    },
+    {
+      "id": "adapiformes",
+      "parentId": "primates",
+      "relationshipKind": "navigation-parent"
+    },
+    {
+      "id": "notharctus",
+      "parentId": "adapiformes",
+      "relationshipKind": "navigation-parent"
+    },
+    {
+      "id": "darwinius",
+      "parentId": "adapiformes",
+      "relationshipKind": "navigation-parent"
+    },
+    {
+      "id": "strepsirrhini",
+      "parentId": "primates",
+      "relationshipKind": "navigation-parent"
+    },
+    {
+      "id": "haplorhini",
+      "parentId": "primates",
+      "relationshipKind": "navigation-parent"
+    },
+    {
+      "id": "teilhardina",
+      "parentId": "haplorhini",
+      "relationshipKind": "navigation-parent"
+    },
+    {
+      "id": "anthropoidea",
+      "parentId": "haplorhini",
+      "relationshipKind": "navigation-parent"
+    },
+    {
+      "id": "eosimias",
+      "parentId": "anthropoidea",
+      "relationshipKind": "navigation-parent"
+    },
+    {
+      "id": "catarrhini",
+      "parentId": "anthropoidea",
+      "relationshipKind": "navigation-parent"
+    },
+    {
+      "id": "saadanius",
+      "parentId": "catarrhini",
+      "relationshipKind": "navigation-parent"
+    },
+    {
+      "id": "hominoidea",
+      "parentId": "catarrhini",
+      "relationshipKind": "navigation-parent"
+    },
+    {
+      "id": "morotopithecus",
+      "parentId": "hominoidea",
+      "relationshipKind": "navigation-parent"
     },
     {
       "id": "hominidae",
-      "parentId": "primates",
-      "relationshipKind": "taxonomic-parent"
+      "parentId": "hominoidea",
+      "relationshipKind": "navigation-parent"
     },
     {
       "id": "homo",

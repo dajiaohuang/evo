@@ -131,8 +131,18 @@ const eventOwners = {
   'dinosaur-radiation': 'dinosauria',
   'perissodactyl-radiation': 'perissodactyla',
   'eocene-oligocene-transition': 'perissodactyla',
-  'early-homo-dispersal': 'primates',
-  'homo-sapiens-admixture': 'primates',
+  'primate-crown-clock-model': 'primates',
+  'purgatorius-garbani-tarsals': 'primates',
+  'altiatlasius-dental-placement-boundary': 'primates',
+  'teilhardina-petm-dispersal-sample': 'primates',
+  'notharctus-grooming-claw-foot': 'primates',
+  'darwinius-holotype-anatomy': 'primates',
+  'eosimias-isolated-tarsal-anthropoid-test': 'primates',
+  'saadanius-holotype-stem-catarrhine': 'primates',
+  'morotopithecus-moroto-postcranial-model': 'primates',
+  'dmanisi-skull-five-variation': 'primates',
+  'vindija-3319-neanderthal-genome': 'primates',
+  'ust-ishim-genome-admixture-model': 'primates',
 }
 
 const labels = {
@@ -203,7 +213,7 @@ function referenceRecords(ids) {
 
 function loadChineseTranslations() {
   const translations = new Map()
-  for (const [fileName, dictionaryName, scriptKind] of [['index.tsx', 'zh', ts.ScriptKind.TSX], ['marineZh.ts', 'marineZh', ts.ScriptKind.TS], ['cetartiodactylaZh.ts', 'cetartiodactylaZh', ts.ScriptKind.TS], ['turtleLepidosaurZh.ts', 'turtleLepidosaurZh', ts.ScriptKind.TS], ['crocBirdZh.ts', 'crocBirdZh', ts.ScriptKind.TS]]) {
+  for (const [fileName, dictionaryName, scriptKind] of [['index.tsx', 'zh', ts.ScriptKind.TSX], ['marineZh.ts', 'marineZh', ts.ScriptKind.TS], ['cetartiodactylaZh.ts', 'cetartiodactylaZh', ts.ScriptKind.TS], ['turtleLepidosaurZh.ts', 'turtleLepidosaurZh', ts.ScriptKind.TS], ['crocBirdZh.ts', 'crocBirdZh', ts.ScriptKind.TS], ['primatesZh.ts', 'primatesZh', ts.ScriptKind.TS]]) {
     const sourcePath = join(rootDir, 'src', 'i18n', fileName)
     const source = ts.createSourceFile(sourcePath, readFileSync(sourcePath, 'utf8'), ts.ScriptTarget.Latest, true, scriptKind)
     let dictionary = null

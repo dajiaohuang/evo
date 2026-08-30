@@ -741,71 +741,6 @@
     "evidenceStatus": "blocked-pending-step-evidence"
   },
   {
-    "id": "humans-in-tree-of-life",
-    "title": "Humans in the tree of life",
-    "titleZh": "人类在生命树上的位置",
-    "dek": "Zoom out from Homo sapiens to see nested ancestry, deep time and repeated hominin dispersals.",
-    "theme": "rose",
-    "durationMinutes": 6,
-    "featured": false,
-    "steps": [
-      {
-        "id": "primates",
-        "title": "One primate branch",
-        "text": "Humans are nested within primates, mammals, tetrapods and vertebrates; each name identifies a shared ancestry at a different scale.",
-        "age": 55,
-        "timeRange": [
-          66,
-          40
-        ],
-        "taxonIds": [
-          "mammalia",
-          "placentalia"
-        ],
-        "view": "tree",
-        "claimLinks": []
-      },
-      {
-        "id": "hominins",
-        "title": "A branching hominin record",
-        "text": "Hominin evolution contains multiple contemporaneous lineages rather than a single file of ancestors.",
-        "age": 3,
-        "timeRange": [
-          7,
-          1
-        ],
-        "taxonIds": [],
-        "view": "evidence",
-        "claimLinks": [
-          {
-            "claimId": "claim:event:early-homo-dispersal",
-            "relation": "contextualizes"
-          }
-        ]
-      },
-      {
-        "id": "dispersal",
-        "title": "Repeated movement and contact",
-        "text": "Homo dispersals occur in multiple waves and later include genetic exchange among populations.",
-        "age": 0.1,
-        "timeRange": [
-          2,
-          0
-        ],
-        "taxonIds": [],
-        "view": "map",
-        "eventId": "homo-sapiens-admixture",
-        "claimLinks": [
-          {
-            "claimId": "claim:event:homo-sapiens-admixture",
-            "relation": "supports"
-          }
-        ]
-      }
-    ],
-    "evidenceStatus": "blocked-pending-step-evidence"
-  },
-  {
     "id": "early-land-plant-evidence-trail",
     "title": "How early land-plant evidence changes shape",
     "titleZh": "早期陆生植物证据如何改变形态",
@@ -2846,6 +2781,298 @@
         "claimLinks": [
           {
             "claimId": "claim:event:neornithes-fossil-calibrated-time-tree",
+            "relation": "supports"
+          }
+        ]
+      }
+    ],
+    "evidenceStatus": "available-with-limitations"
+  },
+  {
+    "id": "primates-evidence-without-an-ancestor-ladder",
+    "title": "Twelve primate dossiers without an ancestor ladder",
+    "titleZh": "不构成祖先阶梯的十二个灵长类档案",
+    "dek": "Move from a calibration-sensitive crown model through named fossils and ancient genomes while keeping specimens, functions, topology, model time and COL26.8 naming coverage distinct.",
+    "theme": "rose",
+    "durationMinutes": 18,
+    "featured": true,
+    "steps": [
+      {
+        "id": "clock-is-a-model",
+        "title": "A crown interval is not a fossil",
+        "text": "The selected clock model places crown Primates at 79.2–70.0 Ma, while another calibration strategy spans 71.4–63.9 Ma. Neither interval is a fossil occurrence.",
+        "age": 74.6,
+        "timeRange": [
+          79.2,
+          70
+        ],
+        "taxonIds": [
+          "primates",
+          "strepsirrhini",
+          "haplorhini"
+        ],
+        "view": "tree",
+        "eventId": "primate-crown-clock-model",
+        "annotation": "Clock and fossil priors materially change deep-node ages.",
+        "claimLinks": [
+          {
+            "claimId": "claim:event:primate-crown-clock-model",
+            "relation": "supports"
+          }
+        ]
+      },
+      {
+        "id": "isolated-tarsals",
+        "title": "An ankle attribution is bounded",
+        "text": "UCMP 197509, UCMP 197517 and related isolated tarsals preserve arboreal morphology. Their attribution to Purgatorius does not make them crown primates or a global first appearance.",
+        "age": 64.80000000000001,
+        "timeRange": [
+          65.2,
+          64.4
+        ],
+        "taxonIds": [
+          "purgatorius",
+          "plesiadapiformes",
+          "primatomorpha"
+        ],
+        "view": "evidence",
+        "eventId": "purgatorius-garbani-tarsals",
+        "annotation": "Isolated tarsals, dental attribution and functional inference are three steps.",
+        "claimLinks": [
+          {
+            "claimId": "claim:event:purgatorius-garbani-tarsals",
+            "relation": "supports"
+          }
+        ]
+      },
+      {
+        "id": "ten-isolated-teeth",
+        "title": "Ten teeth do not settle a crown",
+        "text": "THR 141 and a small isolated-tooth hypodigm define Altiatlasius, but tooth positions, membership and euprimate placement remain disputed.",
+        "age": 57.6,
+        "timeRange": [
+          59.2,
+          56
+        ],
+        "taxonIds": [
+          "altiatlasius",
+          "primates"
+        ],
+        "view": "evidence",
+        "eventId": "altiatlasius-dental-placement-boundary",
+        "annotation": "The existence of specimens is firmer than their topology.",
+        "claimLinks": [
+          {
+            "claimId": "claim:event:altiatlasius-dental-placement-boundary",
+            "relation": "supports"
+          }
+        ]
+      },
+      {
+        "id": "petm-correlation",
+        "title": "A correlated sequence is not one migration",
+        "text": "Asian, European and North American Teilhardina samples align to the PETM in a rapid appearance sequence, without recording one travelling lineage.",
+        "age": 55.9,
+        "timeRange": [
+          56,
+          55.8
+        ],
+        "taxonIds": [
+          "teilhardina",
+          "haplorhini",
+          "primates"
+        ],
+        "view": "map",
+        "eventId": "teilhardina-petm-dispersal-sample",
+        "annotation": "Dental taxonomy and isotope correlation bound the dispersal inference.",
+        "claimLinks": [
+          {
+            "claimId": "claim:event:teilhardina-petm-dispersal-sample",
+            "relation": "supports"
+          }
+        ]
+      },
+      {
+        "id": "digit-two",
+        "title": "A digit can constrain function",
+        "text": "AMNH 143612/143640 preserves a ray-identified foot; digit-two phalanx AMNH 143612-03 supports a grooming-claw comparison, not crown-anthropoid ancestry.",
+        "age": 49.25,
+        "timeRange": [
+          50,
+          48.5
+        ],
+        "taxonIds": [
+          "notharctus",
+          "adapiformes"
+        ],
+        "view": "evidence",
+        "eventId": "notharctus-grooming-claw-foot",
+        "annotation": "Preserved phalanx geometry is distinct from behaviour and topology.",
+        "claimLinks": [
+          {
+            "claimId": "claim:event:notharctus-grooming-claw-foot",
+            "relation": "supports"
+          }
+        ]
+      },
+      {
+        "id": "one-skeleton-two-slabs",
+        "title": "One skeleton, two slabs and a disclosure",
+        "text": "PMO 214.214 and WDC-MG-210 are opposite slabs of one Darwinius skeleton. Fabricated preparation on part of the counterplate is disclosed and crown placement remains contested.",
+        "age": 47.5,
+        "timeRange": [
+          47.5,
+          47.5
+        ],
+        "taxonIds": [
+          "darwinius",
+          "adapiformes"
+        ],
+        "view": "evidence",
+        "eventId": "darwinius-holotype-anatomy",
+        "annotation": "Exceptional completeness does not remove preparation and topology limits.",
+        "claimLinks": [
+          {
+            "claimId": "claim:event:darwinius-holotype-anatomy",
+            "relation": "supports"
+          }
+        ]
+      },
+      {
+        "id": "unassociated-tarsals",
+        "title": "Postcrania test a stem placement",
+        "text": "Eosimias-attributed tali and calcanei preserve a character mosaic used to test stem-anthropoid affinity, but they are isolated from diagnostic teeth.",
+        "age": 42.75,
+        "timeRange": [
+          45,
+          40.5
+        ],
+        "taxonIds": [
+          "eosimias",
+          "anthropoidea"
+        ],
+        "view": "tree",
+        "eventId": "eosimias-isolated-tarsal-anthropoid-test",
+        "annotation": "Matrix placement is not direct skeletal association or crown membership.",
+        "claimLinks": [
+          {
+            "claimId": "claim:event:eosimias-isolated-tarsal-anthropoid-test",
+            "relation": "supports"
+          }
+        ]
+      },
+      {
+        "id": "one-partial-cranium",
+        "title": "A stem catarrhine is not the split itself",
+        "text": "SGS-UM 2009-002 preserves catarrhine anatomy and is recovered on the stem in one matrix. Its biochronological age does not directly date the ape–Old World monkey split.",
+        "age": 28.5,
+        "timeRange": [
+          29,
+          28
+        ],
+        "taxonIds": [
+          "saadanius",
+          "catarrhini"
+        ],
+        "view": "evidence",
+        "eventId": "saadanius-holotype-stem-catarrhine",
+        "annotation": "Specimen anatomy, matrix topology and crown divergence time stay separate.",
+        "claimLinks": [
+          {
+            "claimId": "claim:event:saadanius-holotype-stem-catarrhine",
+            "relation": "supports"
+          }
+        ]
+      },
+      {
+        "id": "two-moroto-localities",
+        "title": "Separate bones support a locomotor model",
+        "text": "MUZM 60 and MUZM 80 come from different Moroto localities. Shoulder and femoral anatomy constrain a mixed arboreal model, not one skeleton or observed behaviour.",
+        "age": 20.8,
+        "timeRange": [
+          21,
+          20.6
+        ],
+        "taxonIds": [
+          "morotopithecus",
+          "hominoidea"
+        ],
+        "view": "evidence",
+        "eventId": "morotopithecus-moroto-postcranial-model",
+        "annotation": "The overlying basalt supplies a minimum-age constraint, not a direct specimen date.",
+        "claimLinks": [
+          {
+            "claimId": "claim:event:morotopithecus-moroto-postcranial-model",
+            "relation": "supports"
+          }
+        ]
+      },
+      {
+        "id": "skull-five",
+        "title": "One skull expands observed variation",
+        "text": "D4500 and D2600 form Dmanisi Skull 5 at about 1.8 Ma. It documents one individual and a five-cranium sample, not a final decision that all early Homo names are one lineage.",
+        "age": 1.81,
+        "timeRange": [
+          1.85,
+          1.77
+        ],
+        "taxonIds": [
+          "homo",
+          "hominidae"
+        ],
+        "view": "evidence",
+        "eventId": "dmanisi-skull-five-variation",
+        "annotation": "Taxonomic compression is an interpretation of variation, not part of the skull.",
+        "claimLinks": [
+          {
+            "claimId": "claim:event:dmanisi-skull-five-variation",
+            "relation": "supports"
+          }
+        ]
+      },
+      {
+        "id": "vindija-fragment",
+        "title": "A fragment can carry a population model",
+        "text": "Vindija 33.19 yielded a high-coverage Neanderthal genome and a >45.5 ka direct result. The roughly 52 ka age and population histories are branch-shortening and demographic models.",
+        "age": 0.05025,
+        "timeRange": [
+          0.055,
+          0.0455
+        ],
+        "taxonIds": [
+          "homo_neanderthalensis",
+          "homo"
+        ],
+        "view": "evidence",
+        "eventId": "vindija-3319-neanderthal-genome",
+        "annotation": "Direct radiocarbon bounds and genomic time estimates are not interchangeable.",
+        "claimLinks": [
+          {
+            "claimId": "claim:event:vindija-3319-neanderthal-genome",
+            "relation": "supports"
+          }
+        ]
+      },
+      {
+        "id": "ust-ishim-femur",
+        "title": "A dated genome bounds contact indirectly",
+        "text": "Ust’-Ishim 1 is directly dated to 46,880–43,210 cal BP and deposited as PRJEB6622. Neanderthal segment length models earlier admixture but not its exact place or number of episodes.",
+        "age": 0.045045,
+        "timeRange": [
+          0.04688,
+          0.04321
+        ],
+        "taxonIds": [
+          "homo_sapiens",
+          "homo_neanderthalensis",
+          "homo"
+        ],
+        "view": "map",
+        "eventId": "ust-ishim-genome-admixture-model",
+        "annotation": "COL26.8 routes 530 accepted species names to this package; that is naming coverage, not 530 fossil or genome dossiers.",
+        "claimLinks": [
+          {
+            "claimId": "claim:event:ust-ishim-genome-admixture-model",
             "relation": "supports"
           }
         ]

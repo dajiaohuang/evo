@@ -3,6 +3,7 @@ import { createContext, useCallback, useContext, useEffect, useMemo, useState, t
 import { cetartiodactylaZhKeys } from './cetartiodactylaZhKeys'
 import { crocBirdZhKeys } from './crocBirdZhKeys'
 import { marineZhKeys } from './marineZhKeys'
+import { primatesZhKeys } from './primatesZhKeys'
 import { hasTurtleLepidosaurTranslation } from './turtleLepidosaurZhKeys'
 
 export type Language = 'en' | 'zh'
@@ -2370,8 +2371,8 @@ export function I18nProvider({ children }: { children: ReactNode }) {
   useEffect(() => {
     let active = true
     if (language === 'zh' && Object.keys(extendedZh).length === 0) {
-      void Promise.all([import('./marineZh'), import('./cetartiodactylaZh'), import('./turtleLepidosaurZh'), import('./crocBirdZh')]).then(([{ marineZh }, { cetartiodactylaZh }, { turtleLepidosaurZh }, { crocBirdZh }]) => {
-        if (active) setExtendedZh({ ...marineZh, ...cetartiodactylaZh, ...turtleLepidosaurZh, ...crocBirdZh })
+      void Promise.all([import('./marineZh'), import('./cetartiodactylaZh'), import('./turtleLepidosaurZh'), import('./crocBirdZh'), import('./primatesZh')]).then(([{ marineZh }, { cetartiodactylaZh }, { turtleLepidosaurZh }, { crocBirdZh }, { primatesZh }]) => {
+        if (active) setExtendedZh({ ...marineZh, ...cetartiodactylaZh, ...turtleLepidosaurZh, ...crocBirdZh, ...primatesZh })
       })
     }
     return () => { active = false }
@@ -2406,5 +2407,5 @@ export function useI18n(): I18nContextValue {
 }
 
 export function hasChineseTranslation(english: string): boolean {
-  return Object.hasOwn(zh, english) || marineZhKeys.has(english) || cetartiodactylaZhKeys.has(english) || hasTurtleLepidosaurTranslation(english) || crocBirdZhKeys.has(english) || compactAmphibianTranslation(english) !== undefined
+  return Object.hasOwn(zh, english) || marineZhKeys.has(english) || cetartiodactylaZhKeys.has(english) || hasTurtleLepidosaurTranslation(english) || crocBirdZhKeys.has(english) || primatesZhKeys.has(english) || compactAmphibianTranslation(english) !== undefined
 }

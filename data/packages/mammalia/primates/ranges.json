@@ -3,31 +3,29 @@
     "id": "range:primates:global",
     "entityId": "primates",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Primates",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 66,
+    "taxonomicConcept": "crown Primates model interval and living continuation",
+    "geographicScope": "372-species phylogeny; global living continuation",
+    "olderMa": 79.2,
     "youngerMa": 0,
     "status": "available",
     "uncertainty": {
-      "olderMa": null,
+      "olderMa": 9.2,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "note": "The older endpoint is the upper end of one model posterior. Calibration strategy B spans 71.4–63.9 Ma; neither interval is a fossil occurrence."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "evidenceBasis": "Bayesian relaxed-clock posterior under the selected autocorrelated model and calibration strategy A, combined with living crown membership.",
+    "evidenceLevel": "literature-synthesized",
     "confidence": "medium",
-    "claimIds": [],
+    "claimIds": [
+      "claim:event:primate-crown-clock-model"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
-      },
-      {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "dos-reis-2018-primate-clock",
+        "locator": "pp. 604–608; Figures 1 and 5; Supplementary time-estimate spreadsheet"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed"
   },
   {
     "id": "range:hominidae:global",
@@ -144,6 +142,522 @@
       {
         "referenceId": "pbdb-api-2016",
         "locator": "doi:10.1017/pab.2015.39"
+      }
+    ],
+    "reviewStatus": "not-reviewed",
+    "evidenceLevel": "legacy-display"
+  },
+  {
+    "id": "range:purgatorius:primates-primary-sample",
+    "entityId": "purgatorius",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Purgatorius Garbani Channel tarsals occurrence",
+    "geographicScope": "Garbani Channel fauna, Tullock Member, Fort Union Formation, Montana, USA",
+    "olderMa": 65.2,
+    "youngerMa": 64.4,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "The tarsals are not associated with teeth or one skeleton; taxonomic attribution, arboreality and a primate-side placement are inferences, not crown-Primate membership, direct ancestry or a global FAD."
+    },
+    "evidenceBasis": "Named specimen or explicitly bounded dataset and its stratigraphic, radiometric or model context in the cited primary study.",
+    "evidenceLevel": "literature-synthesized",
+    "confidence": "medium",
+    "claimIds": [
+      "claim:event:purgatorius-garbani-tarsals"
+    ],
+    "referenceLocators": [
+      {
+        "referenceId": "chester-2015-purgatorius",
+        "locator": "1487–1492; Figures 1–3; SI Appendix Figures S1–S5 and Tables S1–S3"
+      }
+    ],
+    "reviewStatus": "automated-audit-passed"
+  },
+  {
+    "id": "range:altiatlasius:primates-primary-sample",
+    "entityId": "altiatlasius",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Altiatlasius dental hypodigm and placement boundary occurrence",
+    "geographicScope": "Adrar Mgorn 1, Jbel Guersif Formation, Ouarzazate Basin, Morocco",
+    "olderMa": 59.2,
+    "youngerMa": 56,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Tooth locus and hypodigm membership are not uniform across later assessments; the original omomyid assignment is a hypothesis, not secure crown-Primate or crown-anthropoid evidence and not a directly dated occurrence."
+    },
+    "evidenceBasis": "Named specimen or explicitly bounded dataset and its stratigraphic, radiometric or model context in the cited primary study.",
+    "evidenceLevel": "literature-synthesized",
+    "confidence": "low",
+    "claimIds": [
+      "claim:event:altiatlasius-dental-placement-boundary"
+    ],
+    "referenceLocators": [
+      {
+        "referenceId": "sige-1990-altiatlasius",
+        "locator": "31–56; Plate 1"
+      }
+    ],
+    "reviewStatus": "automated-audit-passed"
+  },
+  {
+    "id": "range:teilhardina:primates-primary-sample",
+    "entityId": "teilhardina",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Teilhardina PETM dental sequence occurrence",
+    "geographicScope": "Hengyang Basin, China; Dormaal, Belgium; Bighorn Basin, Wyoming, USA",
+    "olderMa": 56,
+    "youngerMa": 55.8,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "The sequence depends on dental taxonomy and carbon-isotope correlation; it is not one migrating population, a direct ancestor series or the origination date of crown Primates."
+    },
+    "evidenceBasis": "Named specimen or explicitly bounded dataset and its stratigraphic, radiometric or model context in the cited primary study.",
+    "evidenceLevel": "literature-synthesized",
+    "confidence": "medium",
+    "claimIds": [
+      "claim:event:teilhardina-petm-dispersal-sample"
+    ],
+    "referenceLocators": [
+      {
+        "referenceId": "smith-2006-teilhardina",
+        "locator": "11223–11227; Figures 1–3; Supporting Tables"
+      }
+    ],
+    "reviewStatus": "automated-audit-passed"
+  },
+  {
+    "id": "range:notharctus:primates-primary-sample",
+    "entityId": "notharctus",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Notharctus digit-two grooming phalanx occurrence",
+    "geographicScope": "Grizzly Buttes, Bridger B, Bridger Formation, Wyoming, USA",
+    "olderMa": 50,
+    "youngerMa": 48.5,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Grooming-claw function and tree effects are comparative and matrix-based; the specimen does not make Notharctus a crown anthropoid, direct ancestor or global first occurrence."
+    },
+    "evidenceBasis": "Named specimen or explicitly bounded dataset and its stratigraphic, radiometric or model context in the cited primary study.",
+    "evidenceLevel": "literature-synthesized",
+    "confidence": "high",
+    "claimIds": [
+      "claim:event:notharctus-grooming-claw-foot"
+    ],
+    "referenceLocators": [
+      {
+        "referenceId": "maiolino-2012-notharctus",
+        "locator": "e29135; Figures 1–16; Tables 2–8; Tables S1–S6"
+      }
+    ],
+    "reviewStatus": "automated-audit-passed"
+  },
+  {
+    "id": "range:darwinius:primates-primary-sample",
+    "entityId": "darwinius",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Darwinius part-and-counterpart holotype occurrence",
+    "geographicScope": "Messel Pit, Hesse, Germany",
+    "olderMa": 47.5,
+    "youngerMa": 47.5,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Parts of plate B were fabricated during preparation and disclosed; sex, life history, ecology and haplorhine placement are interpretations, not direct observations or proof of crown-anthropoid ancestry."
+    },
+    "evidenceBasis": "Named specimen or explicitly bounded dataset and its stratigraphic, radiometric or model context in the cited primary study.",
+    "evidenceLevel": "literature-synthesized",
+    "confidence": "high",
+    "claimIds": [
+      "claim:event:darwinius-holotype-anatomy"
+    ],
+    "referenceLocators": [
+      {
+        "referenceId": "franzen-2009-darwinius",
+        "locator": "e5723; Figures 1–16; Tables 1–4"
+      }
+    ],
+    "reviewStatus": "automated-audit-passed"
+  },
+  {
+    "id": "range:eosimias:primates-primary-sample",
+    "entityId": "eosimias",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Eosimias isolated-tarsal anthropoid test occurrence",
+    "geographicScope": "Shanghuang fissure fillings, Jiangsu, China; Yuanqu Basin, Shanxi, China",
+    "olderMa": 45,
+    "youngerMa": 40.5,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "The tarsals are not dentally associated with Eosimias, the fissure-fill age is broad, and anthropoid status is a character-matrix inference rather than crown membership or a global FAD."
+    },
+    "evidenceBasis": "Named specimen or explicitly bounded dataset and its stratigraphic, radiometric or model context in the cited primary study.",
+    "evidenceLevel": "literature-synthesized",
+    "confidence": "medium",
+    "claimIds": [
+      "claim:event:eosimias-isolated-tarsal-anthropoid-test"
+    ],
+    "referenceLocators": [
+      {
+        "referenceId": "gebo-2000-eosimias",
+        "locator": "276–278; Figures 1–4; Supplementary Tables 1–2"
+      }
+    ],
+    "reviewStatus": "automated-audit-passed"
+  },
+  {
+    "id": "range:saadanius:primates-primary-sample",
+    "entityId": "saadanius",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Saadanius holotype stem-catarrhine test occurrence",
+    "geographicScope": "Middle Shumaysi Formation, Harrat Al Ujayfa, western Saudi Arabia",
+    "olderMa": 29,
+    "youngerMa": 28,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "The 29–28 Ma age is biochronological and the stem-catarrhine position follows a 36-character, 19-taxon matrix; it does not directly date the catarrhine crown split or identify an ancestor."
+    },
+    "evidenceBasis": "Named specimen or explicitly bounded dataset and its stratigraphic, radiometric or model context in the cited primary study.",
+    "evidenceLevel": "literature-synthesized",
+    "confidence": "medium",
+    "claimIds": [
+      "claim:event:saadanius-holotype-stem-catarrhine"
+    ],
+    "referenceLocators": [
+      {
+        "referenceId": "zalmout-2010-saadanius",
+        "locator": "360–365; Figures 1–4; Methods"
+      }
+    ],
+    "reviewStatus": "automated-audit-passed"
+  },
+  {
+    "id": "range:morotopithecus:primates-primary-sample",
+    "entityId": "morotopithecus",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Morotopithecus Moroto postcranial model occurrence",
+    "geographicScope": "Moroto I and Moroto II, Karamoja District, Uganda",
+    "olderMa": 21,
+    "youngerMa": 20.6,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "The two specimens are not one skeleton, their attribution is locality-comparative, and vertical climbing, suspension and crown-hominoid affinity are functional or phylogenetic interpretations."
+    },
+    "evidenceBasis": "Named specimen or explicitly bounded dataset and its stratigraphic, radiometric or model context in the cited primary study.",
+    "evidenceLevel": "literature-synthesized",
+    "confidence": "medium",
+    "claimIds": [
+      "claim:event:morotopithecus-moroto-postcranial-model"
+    ],
+    "referenceLocators": [
+      {
+        "referenceId": "maclatchy-2000-morotopithecus",
+        "locator": "159–183; Figures 1–12; Tables 1–10"
+      }
+    ],
+    "reviewStatus": "automated-audit-passed"
+  },
+  {
+    "id": "range:homo:primates-primary-sample",
+    "entityId": "homo",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Dmanisi Skull 5 and early Homo variation occurrence",
+    "geographicScope": "Layer B1y, Block 2, Dmanisi, Georgia",
+    "olderMa": 1.85,
+    "youngerMa": 1.77,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "The specimen directly documents one individual and sample variation; the paper’s single evolving early-Homo lineage is a taxonomic interpretation, not a universally accepted ancestry claim."
+    },
+    "evidenceBasis": "Named specimen or explicitly bounded dataset and its stratigraphic, radiometric or model context in the cited primary study.",
+    "evidenceLevel": "literature-synthesized",
+    "confidence": "high",
+    "claimIds": [
+      "claim:event:dmanisi-skull-five-variation"
+    ],
+    "referenceLocators": [
+      {
+        "referenceId": "lordkipanidze-2013-dmanisi",
+        "locator": "326–331; Figures 1–4; Figure S1; Tables S1–S7"
+      }
+    ],
+    "reviewStatus": "automated-audit-passed"
+  },
+  {
+    "id": "range:homo_neanderthalensis:primates-primary-sample",
+    "entityId": "homo_neanderthalensis",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Vindija 33.19 high-coverage Neanderthal genome occurrence",
+    "geographicScope": "Vindija Cave, Croatia",
+    "olderMa": 0.055,
+    "youngerMa": 0.0455,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "The approximately 52 ka branch-shortening age, population splits and introgression proportions are model outputs; they do not directly date all Neanderthals or define species taxonomy."
+    },
+    "evidenceBasis": "Named specimen or explicitly bounded dataset and its stratigraphic, radiometric or model context in the cited primary study.",
+    "evidenceLevel": "literature-synthesized",
+    "confidence": "high",
+    "claimIds": [
+      "claim:event:vindija-3319-neanderthal-genome"
+    ],
+    "referenceLocators": [
+      {
+        "referenceId": "prufer-2017-vindija",
+        "locator": "655–658; Figures 1–4; Supplementary Materials"
+      }
+    ],
+    "reviewStatus": "automated-audit-passed"
+  },
+  {
+    "id": "range:homo_sapiens:primates-primary-sample",
+    "entityId": "homo_sapiens",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Ust’-Ishim 1 genome and admixture-tract model occurrence",
+    "geographicScope": "Irtysh River near Ust’-Ishim, western Siberia, Russia",
+    "olderMa": 0.04688,
+    "youngerMa": 0.04321,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Segment length supports an admixture interval 7,000–13,000 years before this individual under the paper’s recombination model; it does not identify a contact place, exact event count or all modern-human dispersals."
+    },
+    "evidenceBasis": "Named specimen or explicitly bounded dataset and its stratigraphic, radiometric or model context in the cited primary study.",
+    "evidenceLevel": "literature-synthesized",
+    "confidence": "high",
+    "claimIds": [
+      "claim:event:ust-ishim-genome-admixture-model"
+    ],
+    "referenceLocators": [
+      {
+        "referenceId": "fu-2014-ust-ishim",
+        "locator": "445–449; Figures 1–4; Extended Data Figures 1–9; Supplementary Information sections 1 and 14"
+      }
+    ],
+    "reviewStatus": "automated-audit-passed"
+  },
+  {
+    "id": "range:primatomorpha:global",
+    "entityId": "primatomorpha",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "primatomorpha",
+    "geographicScope": "Global or represented navigation composite",
+    "olderMa": 79.2,
+    "youngerMa": 0,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Rounded navigation bounds are not claim-linked fossil first or last appearances and do not establish crown origination."
+    },
+    "evidenceBasis": "Curated navigation display range; taxonomic membership, fossil occurrence and model divergence time remain separate.",
+    "confidence": "medium",
+    "claimIds": [],
+    "referenceLocators": [
+      {
+        "referenceId": "open-tree",
+        "locator": "https://opentreeoflife.github.io/use"
+      }
+    ],
+    "reviewStatus": "not-reviewed",
+    "evidenceLevel": "legacy-display"
+  },
+  {
+    "id": "range:plesiadapiformes:global",
+    "entityId": "plesiadapiformes",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "plesiadapiformes",
+    "geographicScope": "Global or represented navigation composite",
+    "olderMa": 66,
+    "youngerMa": 34,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Rounded navigation bounds are not claim-linked fossil first or last appearances and do not establish crown origination."
+    },
+    "evidenceBasis": "Curated navigation display range; taxonomic membership, fossil occurrence and model divergence time remain separate.",
+    "confidence": "medium",
+    "claimIds": [],
+    "referenceLocators": [
+      {
+        "referenceId": "open-tree",
+        "locator": "https://opentreeoflife.github.io/use"
+      }
+    ],
+    "reviewStatus": "not-reviewed",
+    "evidenceLevel": "legacy-display"
+  },
+  {
+    "id": "range:adapiformes:global",
+    "entityId": "adapiformes",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "adapiformes",
+    "geographicScope": "Global or represented navigation composite",
+    "olderMa": 56,
+    "youngerMa": 34,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Rounded navigation bounds are not claim-linked fossil first or last appearances and do not establish crown origination."
+    },
+    "evidenceBasis": "Curated navigation display range; taxonomic membership, fossil occurrence and model divergence time remain separate.",
+    "confidence": "medium",
+    "claimIds": [],
+    "referenceLocators": [
+      {
+        "referenceId": "open-tree",
+        "locator": "https://opentreeoflife.github.io/use"
+      }
+    ],
+    "reviewStatus": "not-reviewed",
+    "evidenceLevel": "legacy-display"
+  },
+  {
+    "id": "range:strepsirrhini:global",
+    "entityId": "strepsirrhini",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "strepsirrhini",
+    "geographicScope": "Global or represented navigation composite",
+    "olderMa": 66.8,
+    "youngerMa": 0,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Rounded navigation bounds are not claim-linked fossil first or last appearances and do not establish crown origination."
+    },
+    "evidenceBasis": "Curated navigation display range; taxonomic membership, fossil occurrence and model divergence time remain separate.",
+    "confidence": "medium",
+    "claimIds": [],
+    "referenceLocators": [
+      {
+        "referenceId": "open-tree",
+        "locator": "https://opentreeoflife.github.io/use"
+      }
+    ],
+    "reviewStatus": "not-reviewed",
+    "evidenceLevel": "legacy-display"
+  },
+  {
+    "id": "range:haplorhini:global",
+    "entityId": "haplorhini",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "haplorhini",
+    "geographicScope": "Global or represented navigation composite",
+    "olderMa": 66,
+    "youngerMa": 0,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Rounded navigation bounds are not claim-linked fossil first or last appearances and do not establish crown origination."
+    },
+    "evidenceBasis": "Curated navigation display range; taxonomic membership, fossil occurrence and model divergence time remain separate.",
+    "confidence": "medium",
+    "claimIds": [],
+    "referenceLocators": [
+      {
+        "referenceId": "open-tree",
+        "locator": "https://opentreeoflife.github.io/use"
+      }
+    ],
+    "reviewStatus": "not-reviewed",
+    "evidenceLevel": "legacy-display"
+  },
+  {
+    "id": "range:anthropoidea:global",
+    "entityId": "anthropoidea",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "anthropoidea",
+    "geographicScope": "Global or represented navigation composite",
+    "olderMa": 48.3,
+    "youngerMa": 0,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Rounded navigation bounds are not claim-linked fossil first or last appearances and do not establish crown origination."
+    },
+    "evidenceBasis": "Curated navigation display range; taxonomic membership, fossil occurrence and model divergence time remain separate.",
+    "confidence": "medium",
+    "claimIds": [],
+    "referenceLocators": [
+      {
+        "referenceId": "open-tree",
+        "locator": "https://opentreeoflife.github.io/use"
+      }
+    ],
+    "reviewStatus": "not-reviewed",
+    "evidenceLevel": "legacy-display"
+  },
+  {
+    "id": "range:catarrhini:global",
+    "entityId": "catarrhini",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "catarrhini",
+    "geographicScope": "Global or represented navigation composite",
+    "olderMa": 35.1,
+    "youngerMa": 0,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Rounded navigation bounds are not claim-linked fossil first or last appearances and do not establish crown origination."
+    },
+    "evidenceBasis": "Curated navigation display range; taxonomic membership, fossil occurrence and model divergence time remain separate.",
+    "confidence": "medium",
+    "claimIds": [],
+    "referenceLocators": [
+      {
+        "referenceId": "open-tree",
+        "locator": "https://opentreeoflife.github.io/use"
+      }
+    ],
+    "reviewStatus": "not-reviewed",
+    "evidenceLevel": "legacy-display"
+  },
+  {
+    "id": "range:hominoidea:global",
+    "entityId": "hominoidea",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "hominoidea",
+    "geographicScope": "Global or represented navigation composite",
+    "olderMa": 25,
+    "youngerMa": 0,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Rounded navigation bounds are not claim-linked fossil first or last appearances and do not establish crown origination."
+    },
+    "evidenceBasis": "Curated navigation display range; taxonomic membership, fossil occurrence and model divergence time remain separate.",
+    "confidence": "medium",
+    "claimIds": [],
+    "referenceLocators": [
+      {
+        "referenceId": "open-tree",
+        "locator": "https://opentreeoflife.github.io/use"
       }
     ],
     "reviewStatus": "not-reviewed",

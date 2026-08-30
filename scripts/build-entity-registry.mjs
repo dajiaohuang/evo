@@ -241,8 +241,18 @@ function ownerForClaim(claim) {
     'dinosaur-radiation': 'dinosauria',
     'perissodactyl-radiation': 'perissodactyla',
     'eocene-oligocene-transition': 'perissodactyla',
-    'early-homo-dispersal': 'primates',
-    'homo-sapiens-admixture': 'primates',
+    'primate-crown-clock-model': 'primates',
+    'purgatorius-garbani-tarsals': 'primates',
+    'altiatlasius-dental-placement-boundary': 'primates',
+    'teilhardina-petm-dispersal-sample': 'primates',
+    'notharctus-grooming-claw-foot': 'primates',
+    'darwinius-holotype-anatomy': 'primates',
+    'eosimias-isolated-tarsal-anthropoid-test': 'primates',
+    'saadanius-holotype-stem-catarrhine': 'primates',
+    'morotopithecus-moroto-postcranial-model': 'primates',
+    'dmanisi-skull-five-variation': 'primates',
+    'vindija-3319-neanderthal-genome': 'primates',
+    'ust-ishim-genome-admixture-model': 'primates',
   }
   return explicit[subjectId] ?? 'atlas-core'
 }

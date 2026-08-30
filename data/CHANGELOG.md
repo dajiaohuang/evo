@@ -1,5 +1,14 @@
 # Dataset changelog
 
+## 2026.08-static-v5-rc25 — 2026-08-30
+
+- Replaced the Primates scaffold with twelve primary-evidence dossiers spanning a calibration-sensitive crown-Primate clock model, named Paleocene–Pleistocene specimens and two named ancient-genome samples.
+- Added a Primatomorpha navigation route with Plesiadapiformes, Purgatorius, Adapiformes, Notharctus, Darwinius, Haplorhini, Teilhardina, Anthropoidea, Eosimias, Catarrhini, Saadanius, Hominoidea and Morotopithecus; every parent edge is a browse route rather than a universal ancestor tree.
+- Kept Purgatorius and Eosimias isolated-tarsal attribution, the small Altiatlasius tooth hypodigm, Teilhardina PETM correlation, Notharctus grooming-claw comparison and Darwinius preparation disclosure explicit instead of promoting them to uncontested crown placements or global first appearances.
+- Anchored Saadanius, Morotopithecus and Dmanisi Skull 5 to named specimens, locality or layer context and exact publication locators while separating preserved anatomy from matrix topology, functional reconstruction and taxonomic interpretation.
+- Added named ancient-DNA dossiers for Vindija 33.19 and Ust’-Ishim 1 that distinguish direct radiocarbon results from genomic age, population-history and admixture-time models.
+- Added a twelve-step bilingual evidence story and clarified that COL26.8 routes exactly 530 strictly accepted living species names through the pinned Primates usage; naming coverage remains independent of fossil, genome, translation and expert-review maturity.
+
 ## 2026.08-static-v5-rc24 — 2026-08-30
 
 - Rebuilt `crocodylomorphs-birds` as a structured primary-evidence package with eleven bilingual dossiers spanning pseudosuchian and crocodylomorph specimens, crown-crocodilian topology, paravian fossils and feathers, a bounded wind-tunnel experiment, a latest-Cretaceous crown-bird test, and genome or fossil-calibrated crown-bird models.
