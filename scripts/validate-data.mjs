@@ -516,7 +516,7 @@ check(sourceMetadata.packageAssignment?.unresolvedRecords === unresolvedPackageR
 check(sourceMetadata.packageAssignment?.rules === 'scripts/occurrence-package-map.mjs', 'PBDB package-assignment rules path is missing')
 
 const palaeotherium = perissodactylProfiles.find((profile) => profile.id === 'palaeotherium')
-check(Boolean(palaeotherium) && palaeotherium.lastAppearance >= 33 && palaeotherium.lastAppearance <= 34.2, 'Palaeotherium curated LAD must remain near the Eocene–Oligocene transition')
+check(Boolean(palaeotherium) && palaeotherium.rangeEvidenceLevel === 'withheld-no-range-evidence' && palaeotherium.firstAppearance === 0 && palaeotherium.lastAppearance === 0, 'Palaeotherium must not project a western European regional LAD as a global genus range')
 check(!profileIds.has('hipparion') && profileIds.has('hipparionini'), 'the broad horse profile must use Hipparionini rather than Hipparion sensu lato')
 const hipparionini = perissodactylProfiles.find((profile) => profile.id === 'hipparionini')
 const hipparionNorthAmerica = hipparionini?.regionalRanges?.find((range) => range.region === 'North America')

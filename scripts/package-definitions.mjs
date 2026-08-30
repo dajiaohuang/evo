@@ -1,5 +1,5 @@
 export const PACKAGE_SCHEMA_VERSION = 5
-export const DATASET_PACKAGE_VERSION = '2026.08-static-v5-rc49'
+export const DATASET_PACKAGE_VERSION = '2026.08-static-v5-rc50'
 export const DATASET_RELEASE_DATE = '2026-08-31'
 
 export const packageDefinitions = [
@@ -23,8 +23,8 @@ export const packageDefinitions = [
     titleZh: '早期陆生植物证据、苔藓植物与无种子维管植物',
     rootEntityIds: ['plantae', 'bryophyta', 'lycophyta', 'pteridophyta'],
     conceptScope: {
-      en: 'Selected Embryophyta evidence plus COL26.8 accepted-species coverage for bryophytes, lycophytes, ferns and horsetails. Field-linked Lycopodiophyta and Marchantiophyta profiles use Asteroxylon and Metzgeriothallus as bounded exemplars rather than direct ancestors or universal body plans. The atlas Plantae node is navigation context only; seed plants belong to separate packages. Unreviewed legacy range projections must not be interpreted as crown-group first appearances.',
-      zh: '收录部分胚胎植物证据，并完整路由 COL26.8 中已接受的苔藓植物、石松类、蕨类与木贼类物种。逐字段石松门与地钱门档案分别以 Asteroxylon 和 Metzgeriothallus 作为范围受限的范例，不把它们写成直系祖先或普适体制。图谱的 Plantae 节点仅提供导航背景；种子植物归入独立内容包。尚未复核的旧版延限不得解释为任何冠群的化石首现。',
+      en: 'Selected Embryophyta evidence plus COL26.8 accepted-species coverage for bryophytes, lycophytes, ferns and horsetails. Field-linked Lycopodiophyta and Marchantiophyta profiles use Asteroxylon and Metzgeriothallus as bounded exemplars rather than direct ancestors or universal body plans. The atlas Plantae node is navigation context only; seed plants belong to separate packages. Every range is now source-bounded or explicitly withheld, and neither state should be interpreted as a crown-group first appearance.',
+      zh: '收录部分胚胎植物证据，并完整路由 COL26.8 中已接受的苔藓植物、石松类、蕨类与木贼类物种。逐字段石松门与地钱门档案分别以 Asteroxylon 和 Metzgeriothallus 作为范围受限的范例，不把它们写成直系祖先或普适体制。图谱的 Plantae 节点仅提供导航背景；种子植物归入独立内容包。所有区间现均有来源边界或被明确保留，两种状态都不得解释为冠群的化石首现。',
     },
     wave: 'E',
     scientificMaturity: 'source-linked',
@@ -36,8 +36,8 @@ export const packageDefinitions = [
     titleZh: '裸子植物',
     rootEntityIds: ['gymnospermae'],
     conceptScope: {
-      en: 'COL26.8 accepted-species routing includes living cycads, Ginkgo, conifers and gnetophytes; in the pinned catalogue, gnetophytes enter through the routed Pinopsida root. Field-linked Cycadophyta and Ginkgophyta profiles keep total-evidence models and the bounded Ginkgoxylon wood specimen separate from direct fossil first appearances. A gnetophyte dossier remains pending; other legacy range projections stay explicitly provisional.',
-      zh: 'COL26.8 已接受物种路由包含现生苏铁类、银杏类、针叶树类和买麻藤类；在固定目录中，买麻藤类经已路由的松柏纲根进入本包。逐字段苏铁门与银杏门档案把全证据模型和范围受限的 Ginkgoxylon 木材标本与直接化石首现严格分开。买麻藤类档案仍待补充；其他旧版延限继续明确标为暂定。',
+      en: 'COL26.8 accepted-species routing includes living cycads, Ginkgo, conifers and gnetophytes; in the pinned catalogue, gnetophytes enter through the routed Pinopsida root. Field-linked Cycadophyta and Ginkgophyta profiles keep total-evidence models and the bounded Ginkgoxylon wood specimen separate from direct fossil first appearances. A gnetophyte dossier remains pending; every published range is source-bounded or explicitly withheld.',
+      zh: 'COL26.8 已接受物种路由包含现生苏铁类、银杏类、针叶树类和买麻藤类；在固定目录中，买麻藤类经已路由的松柏纲根进入本包。逐字段苏铁门与银杏门档案把全证据模型和范围受限的 Ginkgoxylon 木材标本与直接化石首现严格分开。买麻藤类档案仍待补充；所有已发布区间均有来源边界或被明确保留。',
     },
     wave: 'E',
     scientificMaturity: 'source-linked',
@@ -49,8 +49,8 @@ export const packageDefinitions = [
     titleZh: '被子植物与禾草',
     rootEntityIds: ['angiospermae'],
     conceptScope: {
-      en: 'COL26.8 accepted-species routing covers flowering plants through the pinned Liliopsida and Magnoliopsida roots; Magnoliopsida is not presented as an exact eudicot root. Field-linked Angiospermae and Monocotyledoneae profiles separate calibration-sensitive crown models from the specimen-scoped Montsechia and Cratolirion records. Floristic-dominance claims remain pending and other legacy ranges remain explicitly provisional.',
-      zh: 'COL26.8 已接受物种经固定的百合纲与木兰纲根路由到被子植物内容包；木兰纲不被表述为精确的真双子叶植物根。逐字段被子植物与单子叶植物档案把校准敏感的冠群模型与标本限定的 Montsechia、Cratolirion 记录严格分开。植物区系优势主张仍待补充，其他旧版延限继续明确标为暂定。',
+      en: 'COL26.8 accepted-species routing covers flowering plants through the pinned Liliopsida and Magnoliopsida roots; Magnoliopsida is not presented as an exact eudicot root. Field-linked Angiospermae and Monocotyledoneae profiles separate calibration-sensitive crown models from the specimen-scoped Montsechia and Cratolirion records. Floristic-dominance claims remain pending; every published range is source-bounded or explicitly withheld.',
+      zh: 'COL26.8 已接受物种经固定的百合纲与木兰纲根路由到被子植物内容包；木兰纲不被表述为精确的真双子叶植物根。逐字段被子植物与单子叶植物档案把校准敏感的冠群模型与标本限定的 Montsechia、Cratolirion 记录严格分开。植物区系优势主张仍待补充；所有已发布区间均有来源边界或被明确保留。',
     },
     wave: 'pilot',
     scientificMaturity: 'source-linked',
@@ -94,7 +94,7 @@ export const packageDefinitions = [
       'Micrina valve homology, Yuganotheca stem position and the affinities of tommotiids are topology and homology hypotheses. Kutorgina and Chengjiang lophophore records directly preserve anatomy but do not make separate taxa an ancestor series.',
       'Lingula genome, transcriptome and shell proteome comparisons test living biomineralization mechanisms; they do not imply morphological stasis or demonstrate the exact mechanism of Cambrian shells.',
       'COL26.8 accepted-species routing is a naming-only snapshot. Graptolithina remains in this historical teaching package but receives no new mollusc or brachiopod affinity claim; bundled PBDB records remain bounded, non-random samples.',
-      'Entity-wide first-appearance fields are legacy navigation envelopes unless a dossier explicitly links a named occurrence. They must not be read as global FADs, divergence dates or continuous lineage durations.',
+      'Entity-wide ranges are now either source-bounded evidence windows or explicit withholdings. They must not be read as global FADs, divergence dates or continuous lineage durations.',
     ],
     wave: 'D',
   },
@@ -137,8 +137,8 @@ export const packageDefinitions = [
     titleZh: '棘皮动物',
     rootEntityIds: ['echinodermata'],
     conceptScope: {
-      en: 'COL26.8 routes accepted living echinoderm names as nomenclatural browse coverage. Field-linked Echinodermata and Echinoidea profiles separate articulated Cambrian faunas and Ordovician total-group plates from contested older stereom and model-dependent crown ages. The highlighted samples do not establish a global origin, one ancestral ecology or direct ancestry, and remaining legacy ranges stay explicitly provisional.',
-      zh: 'COL26.8 把现生棘皮动物接受名作为命名浏览层路由。逐字段棘皮动物门与海胆纲档案把寒武纪关节相连动物群和奥陶纪总群骨板，与更早但有争议的立体网骨片及依赖模型的冠群年代严格分开。重点样本不确定全球起源、单一祖先生态或直系祖先，其余旧版延限继续明确标为暂定。',
+      en: 'COL26.8 routes accepted living echinoderm names as nomenclatural browse coverage. Field-linked Echinodermata and Echinoidea profiles separate articulated Cambrian faunas and Ordovician total-group plates from contested older stereom and model-dependent crown ages. The highlighted samples do not establish a global origin, one ancestral ecology or direct ancestry; every published range is source-bounded or explicitly withheld.',
+      zh: 'COL26.8 把现生棘皮动物接受名作为命名浏览层路由。逐字段棘皮动物门与海胆纲档案把寒武纪关节相连动物群和奥陶纪总群骨板，与更早但有争议的立体网骨片及依赖模型的冠群年代严格分开。重点样本不确定全球起源、单一祖先生态或直系祖先；所有已发布区间均有来源边界或被明确保留。',
     },
     wave: 'D',
     scientificMaturity: 'source-linked',
@@ -158,7 +158,7 @@ export const packageDefinitions = [
     limitations: [
       'Priscomyzon, Myxinikela and Tethymyxine ranges are study-sample envelopes tied to named specimens, not global species durations, direct ancestry or whole-clade first appearances.',
       'Profile ecology fields explicitly retain unavailable diet, behaviour, habitat-preference and performance evidence rather than filling them from living analogues.',
-      'Other early-fish entity ranges remain legacy navigation displays until a primary study supports the exact taxonomic concept and endpoint.',
+      'Early-fish entity ranges are source-bounded to an exact taxonomic concept and locator or explicitly withheld when the available literature cannot support both endpoints.',
     ],
   },
   {
@@ -175,7 +175,7 @@ export const packageDefinitions = [
     scientificMaturity: 'source-linked',
     limitations: [
       'Qianodus, Fanjingshania, Shenacanthus and Gladbachus are connected by a navigation-parent evidence route, not an ancestor sequence or reviewed total-group phylogeny.',
-      'The literature-linked intervals apply to named samples and formations. They do not replace the legacy clade-wide ranges for Chondrichthyes, Elasmobranchii, Holocephali or megalodon.',
+      'The literature-linked intervals apply to named samples and formations. Unsupported clade-wide endpoints for Chondrichthyes, Elasmobranchii, Holocephali or megalodon are explicitly withheld rather than displayed as global ranges.',
       'Fanjingshania has no exact concept in the pinned PBDB snapshot, so its external identifier remains withheld while the specimen dossier and source-linked range remain browsable.',
     ],
   },
@@ -247,7 +247,7 @@ export const packageDefinitions = [
     },
     scientificMaturity: 'source-linked',
     limitations: [
-      'All entity-wide ranges remain legacy-display navigation estimates and are not promoted to claim-linked fossil first or last appearances by the seven specimen- and experiment-scoped events.',
+      'Every entity-wide range is now source-bounded to a stated sample or explicitly withheld; the seven specimen- and experiment-scoped events do not promote local observations into global first or last appearances.',
       'The Jurassic jaw–ear event is a composite comparison of separate taxa, formations and ages; functional language is inference, not measured hearing or bite performance and not an ancestor–descendant series.',
       'Crown membership and deep placement follow cited character matrices, while historical and navigation-only parent edges remain browse aids rather than universal topology assertions.',
       'COL26.8 zero assigned species is a package-routing result; extant Mammalia are covered by other packages and the count does not grade dossier, fossil, morphology, media, translation or expert-review completeness.',
@@ -278,7 +278,7 @@ export const packageDefinitions = [
       'Indohyus bone-bed material, the composite Pakicetus reconstruction, Ambulocetus, Peregocetus, Basilosaurus and Aegicetus are bounded specimen samples with explicit association, dating and interpretation limits; none establishes a direct ancestor, a global FAD or a linear land-to-sea sequence.',
       'Whale–hippo retroposons and the 2009 cetacean supermatrix are analyses of sampled living genomes. Their topology and model times do not directly date fossil specimens, demonstrate unchanged anatomy or replace the current nomenclatural catalogue.',
       'COL26.8 routes exactly 503 accepted living species names through the configured Artiodactyla and Cetacea usages. This is a nomenclatural package boundary, not evidence of 503 mature dossiers or complete biological coverage.',
-      'Only the six named fossil occurrences receive claim-linked literature ranges. Other entity-wide ranges remain unreviewed legacy displays, while bundled PBDB records are a bounded, non-random sample that cannot establish FAD, LAD, absence, richness or global distribution.',
+      'Named fossil occurrences and entity-wide ranges are source-bounded where the literature supports the stated concept; unsupported endpoints are explicitly withheld. Bundled PBDB records remain bounded samples that cannot establish FAD, LAD, absence, richness or global distribution.',
     ],
     wave: 'A',
   },
@@ -319,7 +319,7 @@ export const packageDefinitions = [
       'Magericyon finite-element stress fields and Hesperocyon inner-ear hunting categories are comparative model outputs. They do not directly observe bite force, prey handling, hunting behaviour or sociality.',
       'Puijila NUFV 405 and Enaliarctos LACM 4321 preserve separate anatomical mosaics. Freshwater transition, propulsion and terrestrial competence are interpretations, not an ancestor–descendant series.',
       'COL26.8 routes exactly 310 accepted living species names into this package. This is a nomenclatural snapshot rather than evidence for 310 mature dossiers, complete biological coverage, fossil occurrence or model agreement.',
-      'Entity-wide first-appearance fields remain legacy navigation estimates. They must not be read as claim-linked global FADs, crown ages or lineage durations, and bundled PBDB records remain a bounded non-random sample.',
+      'Entity-wide ranges are source-bounded evidence windows or explicit withholdings. They must not be read as global FADs, crown ages or lineage durations, and bundled PBDB records remain a bounded non-random sample.',
     ],
     wave: 'A',
   },
@@ -339,7 +339,7 @@ export const packageDefinitions = [
       'Juramaia retains the original approximately 160 Ma attribution alongside provenance and tip-dating caveats. It is not used as an unconditional calibration, universal therian FAD or direct ancestor.',
       'Platypus genome annotations, placental roots, divergence dates and ancestral phenotypes are model outputs. Broad analyses sample lineages owned by dedicated packages without transferring ownership or replacing COL26.8 nomenclature.',
       'Thalassocnus aquatic function, Mimolagus body mass and niche, and Onychonycteris flight or echolocation capacity are bounded functional inferences rather than directly observed behaviour.',
-      'Entity-wide first-appearance fields remain study-bounded or legacy navigation envelopes. They do not establish global FAD, LAD, absence, richness or uninterrupted lineage duration.',
+      'Entity-wide ranges are study-bounded evidence windows or explicit withholdings. They do not establish global FAD, LAD, absence, richness or uninterrupted lineage duration.',
       'COL26.8 accepted-species counts are residual package-routing results for living names after dedicated mammal packages are excluded; they do not grade dossier, fossil, translation, media or review maturity.',
     ],
     wave: 'A',
@@ -356,7 +356,7 @@ export const packageDefinitions = [
     },
     scientificMaturity: 'source-linked',
     limitations: [
-      'Testudines is retained as the package routing root for COL compatibility; stem-turtle dossiers use that route for discovery and do not imply crown membership. Entity-wide first-appearance fields remain legacy-display estimates rather than claim-linked global FADs.',
+      'Testudines is retained as the package routing root for COL compatibility; stem-turtle dossiers use that route for discovery and do not imply crown membership. Entity-wide ranges are source-bounded evidence windows or explicit withholdings rather than global FAD claims.',
       'Eunotosaurus, Pappochelys and Odontochelys preserve different anatomical mosaics in different samples and times. Shell-sequence language is a comparative homology model, not a direct ancestor–descendant series or unchanged developmental program.',
       'The Caribemys hard minimum, soft maximum and relaxed-clock posterior are separate quantities. A fossil minimum does not date crown origin, and the cited model did not resolve a Triassic versus Jurassic origin for crown Testudines.',
       'Taytalura, Megachirella and Bellairsia placements depend on sampled characters and analytical constraints. Molecular partitions and clock estimates are model inputs or outputs, not anatomy, fossil dates or living-species nomenclature.',

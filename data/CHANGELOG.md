@@ -1,5 +1,12 @@
 # Dataset changelog
 
+## 2026.08-static-v5-rc50 — 2026-08-31
+
+- Closed the final 102 canonical `legacy-display` records across eight plant, invertebrate, arthropod and perissodactyl packages: 54 are now source-bounded specimen, stratigraphic, regional, model or navigation evidence windows and 48 unsupported endpoint combinations are explicitly withheld.
+- Removed nine superseded duplicate sponge/cnidarian global records and retained four distinct Hipparionini records for a cross-continental navigation composite, a North American review envelope, an Old World dispersal window and regional terminal occurrences.
+- Expanded the evidence ledger to 1,019 bilingual claims and 470 references. The 403-record canonical range ledger now contains 325 available and 78 withheld records with no legacy display values; by evidence level, 334 are literature-synthesized and 69 are withheld for insufficient range evidence. None is promoted into a universal FAD, LAD, crown age, lineage duration or direct-ancestor claim.
+- Regenerated the shared Web/Android/iOS package projections and release inventory without changing COL26.8, the 1,889-frame CAO2024 model, the global 13,600-row occurrence sample, targeted PBDB snapshots or human review decisions.
+
 ## 2026.08-static-v5-rc49 — 2026-08-31
 
 - Closed all 110 legacy display ranges in the packages tracked by issues #7 and #8: 80 ranges now expose source-bounded specimen, calibration or model windows with concrete primary-study or systematic-review locators, while 30 unsupported values are explicitly withheld instead of being presented as global first/last appearances, divergence dates or ancestor sequences.

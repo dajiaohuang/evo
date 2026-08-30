@@ -75,90 +75,88 @@
     "id": "range:poaceae:global",
     "entityId": "poaceae",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Poaceae",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 66,
+    "taxonomicConcept": "Poaceae latest-Cretaceous-phytolith-to-living navigation anthology",
+    "geographicScope": "Lameta Formation coprolite phytolith assemblage plus living grasses",
+    "olderMa": 67,
     "youngerMa": 0,
     "status": "available",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "note": "The 67 Ma edge bounds the dated coprolite assemblage and diagnostic phytolith interpretation; it is not a body-fossil FAD, exact crown origin or continuous occupancy claim."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
-    "confidence": "medium",
-    "claimIds": [],
+    "evidenceBasis": "Prasad et al. report latest-Cretaceous phytolith morphotypes assigned to at least five living-grass subclades; 0 Ma denotes living Poaceae.",
+    "confidence": "contested",
+    "claimIds": [
+      "claim:taxon:poaceae:range-boundary-rc50"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
-      },
-      {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "prasad-2005-grass-phytoliths",
+        "locator": "1177–1180; Figure 1 stratigraphy; Figures 2–3 phytolith morphotypes; Supporting Online Text"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "literature-synthesized"
   },
   {
     "id": "range:eudicotyledones:global",
     "entityId": "eudicotyledones",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Eudicotyledones",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 125,
+    "taxonomicConcept": "Eudicotyledones Leefructus-sample-to-living navigation anthology",
+    "geographicScope": "Daxinfangzi-bed Leefructus sample plus living eudicots",
+    "olderMa": 125.8,
     "youngerMa": 0,
     "status": "available",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "note": "The 125.8 Ma edge is the older limit of the dated 122.6–125.8 Ma fossil bed, not the global eudicot FAD or an exact crown divergence."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
-    "confidence": "medium",
-    "claimIds": [],
+    "evidenceBasis": "Sun et al. diagnose Leefructus as a basal eudicot and report multiple radiometric dates bounding its bed at 122.6–125.8 Ma; 0 Ma denotes living eudicots.",
+    "confidence": "high",
+    "claimIds": [
+      "claim:taxon:eudicotyledones:range-boundary-rc50"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
-      },
-      {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "sun-2011-leefructus",
+        "locator": "625–628; Abstract; Figures 1–5; Daxinfangzi bed dates 122.6–125.8 Ma and Leefructus diagnosis"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "literature-synthesized"
   },
   {
     "id": "range:fabaceae:global",
     "entityId": "fabaceae",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Fabaceae",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 66,
+    "taxonomicConcept": "Fabaceae Corral-Bluffs-fossil-to-living navigation anthology",
+    "geographicScope": "65.35 Ma Corral Bluffs fruit and leaflets plus living legumes",
+    "olderMa": 65.35,
     "youngerMa": 0,
     "status": "available",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "note": "The older endpoint is a dated family-level fossil occurrence, not an exact crown-Fabaceae origin, subfamily placement or uninterrupted global range."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "evidenceBasis": "Lyson et al. document the Corral Bluffs fruit and leaflets at 65.35 Ma; Koenen et al. identify this as the oldest unequivocal legume fossil while treating deeper divergence as model-dependent.",
     "confidence": "medium",
-    "claimIds": [],
+    "claimIds": [
+      "claim:taxon:fabaceae:range-boundary-rc50"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
+        "referenceId": "lyson-2019-corral-bluffs-recovery",
+        "locator": "977–983; Figure 3J–K; supplementary stratigraphy; 65.35 Ma legume fruit and leaflets"
       },
       {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "koenen-2021-legume-origin",
+        "locator": "508–526; Introduction; divergence-time methods and discussion of the oldest unequivocal legume fossil"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "literature-synthesized"
   }
 ]

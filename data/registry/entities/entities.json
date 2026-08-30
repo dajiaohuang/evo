@@ -439,7 +439,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "plantae",
@@ -510,7 +510,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "bryophyta",
@@ -563,7 +563,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "lycophyta",
@@ -617,7 +617,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "lepidodendron",
@@ -643,17 +643,18 @@
       "descendantEntityIds": []
     },
     "temporalRange": {
-      "olderMa": 359,
-      "youngerMa": 299,
-      "status": "available",
-      "basis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
-      "evidenceLevel": "legacy-display",
+      "olderMa": 0,
+      "youngerMa": 0,
+      "status": "withheld-pending-provenance",
+      "basis": "The former 359–299 Ma display is withheld because the sampled Carboniferous matrix does not define a global range for a stable Lepidodendron concept.",
+      "evidenceLevel": "withheld-no-range-evidence",
       "provisional": true
     },
     "externalIds": {
       "pbdb": "txn:157277"
     },
     "referenceIds": [
+      "bateman-1992-arborescent-lycopsids",
       "open-tree",
       "pbdb-api-2016",
       "pbdb-taxa-2026-07-19"
@@ -669,7 +670,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "pteridophyta",
@@ -724,7 +725,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "equisetopsida",
@@ -750,17 +751,19 @@
       "descendantEntityIds": []
     },
     "temporalRange": {
-      "olderMa": 375,
+      "olderMa": 372.2,
       "youngerMa": 0,
       "status": "available",
-      "basis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
-      "evidenceLevel": "legacy-display",
+      "basis": "Elgorriaga et al. synthesize a Devonian sphenopsid fossil history and sample fossil and living horsetails; ICS supplies the Famennian numerical boundary.",
+      "evidenceLevel": "literature-synthesized",
       "provisional": true
     },
     "externalIds": {
       "pbdb": "txn:54758"
     },
     "referenceIds": [
+      "elgorriaga-2018-horsetails",
+      "ics-2026-06",
       "open-tree",
       "pbdb-api-2016",
       "pbdb-taxa-2026-07-19"
@@ -776,7 +779,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "filicopsida",
@@ -802,15 +805,17 @@
       "descendantEntityIds": []
     },
     "temporalRange": {
-      "olderMa": 360,
+      "olderMa": 0,
       "youngerMa": 0,
-      "status": "available",
-      "basis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
-      "evidenceLevel": "legacy-display",
+      "status": "withheld-pending-provenance",
+      "basis": "The former 360–0 Ma display is withheld because the systematic review distinguishes questionable Devonian fern-like plants from firmer Lower Carboniferous filicalean evidence.",
+      "evidenceLevel": "withheld-no-range-evidence",
       "provisional": true
     },
     "externalIds": {},
     "referenceIds": [
+      "lehtonen-2011-fern-tree",
+      "galtier-scott-1985-early-ferns",
       "open-tree",
       "pbdb-api-2016"
     ],
@@ -825,7 +830,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "gymnospermae",
@@ -881,7 +886,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "cycadophyta",
@@ -907,11 +912,11 @@
       "descendantEntityIds": []
     },
     "temporalRange": {
-      "olderMa": 280,
+      "olderMa": 330.4,
       "youngerMa": 0,
       "status": "available",
-      "basis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
-      "evidenceLevel": "legacy-display",
+      "basis": "Coiro et al. integrate 60 fossil species with living cycads and estimate crown Cycadales at median 330.4 Ma; 0 Ma denotes living members.",
+      "evidenceLevel": "literature-synthesized",
       "provisional": true
     },
     "externalIds": {
@@ -934,7 +939,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "ginkgophyta",
@@ -960,11 +965,11 @@
       "descendantEntityIds": []
     },
     "temporalRange": {
-      "olderMa": 270,
+      "olderMa": 165,
       "youngerMa": 0,
       "status": "available",
-      "basis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
-      "evidenceLevel": "legacy-display",
+      "basis": "Jiang et al. date and diagnose Ginkgoxylon liaoningense from the 153–165 Ma Tiaojishan Formation; 0 Ma denotes living Ginkgo.",
+      "evidenceLevel": "literature-synthesized",
       "provisional": true
     },
     "externalIds": {
@@ -987,7 +992,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "coniferophyta",
@@ -1015,17 +1020,18 @@
       ]
     },
     "temporalRange": {
-      "olderMa": 310,
+      "olderMa": 300,
       "youngerMa": 0,
       "status": "available",
-      "basis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
-      "evidenceLevel": "legacy-display",
+      "basis": "Leslie et al. review an extensive conifer fossil record spanning more than 300 Myr and explicitly caution that extant molecular samples omit extinct diversity.",
+      "evidenceLevel": "literature-synthesized",
       "provisional": true
     },
     "externalIds": {
       "pbdb": "txn:56176"
     },
     "referenceIds": [
+      "leslie-2018-conifer-evolution",
       "open-tree",
       "pbdb-api-2016",
       "pbdb-taxa-2026-07-19"
@@ -1041,7 +1047,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "araucariaceae",
@@ -1067,17 +1073,18 @@
       "descendantEntityIds": []
     },
     "temporalRange": {
-      "olderMa": 245,
+      "olderMa": 201.4,
       "youngerMa": 0,
       "status": "available",
-      "basis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
-      "evidenceLevel": "legacy-display",
+      "basis": "Axsmith et al. describe specimen J 1430 from the Hettangian South Hadley Falls Member as a bona fide Araucariaceae megafossil; 0 Ma denotes living family members.",
+      "evidenceLevel": "literature-synthesized",
       "provisional": true
     },
     "externalIds": {
       "pbdb": "txn:54789"
     },
     "referenceIds": [
+      "axsmith-2008-holyoke-araucaria",
       "open-tree",
       "pbdb-api-2016",
       "pbdb-taxa-2026-07-19"
@@ -1093,7 +1100,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "angiospermae",
@@ -1150,7 +1157,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "monocotyledones",
@@ -1204,7 +1211,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "poaceae",
@@ -1230,17 +1237,18 @@
       "descendantEntityIds": []
     },
     "temporalRange": {
-      "olderMa": 66,
+      "olderMa": 67,
       "youngerMa": 0,
       "status": "available",
-      "basis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
-      "evidenceLevel": "legacy-display",
+      "basis": "Prasad et al. report latest-Cretaceous phytolith morphotypes assigned to at least five living-grass subclades; 0 Ma denotes living Poaceae.",
+      "evidenceLevel": "literature-synthesized",
       "provisional": true
     },
     "externalIds": {
       "pbdb": "txn:53546"
     },
     "referenceIds": [
+      "prasad-2005-grass-phytoliths",
       "open-tree",
       "pbdb-api-2016",
       "pbdb-taxa-2026-07-19"
@@ -1256,7 +1264,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "eudicotyledones",
@@ -1284,15 +1292,16 @@
       ]
     },
     "temporalRange": {
-      "olderMa": 125,
+      "olderMa": 125.8,
       "youngerMa": 0,
       "status": "available",
-      "basis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
-      "evidenceLevel": "legacy-display",
+      "basis": "Sun et al. diagnose Leefructus as a basal eudicot and report multiple radiometric dates bounding its bed at 122.6–125.8 Ma; 0 Ma denotes living eudicots.",
+      "evidenceLevel": "literature-synthesized",
       "provisional": true
     },
     "externalIds": {},
     "referenceIds": [
+      "sun-2011-leefructus",
       "open-tree",
       "pbdb-api-2016"
     ],
@@ -1307,7 +1316,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "fabaceae",
@@ -1333,17 +1342,19 @@
       "descendantEntityIds": []
     },
     "temporalRange": {
-      "olderMa": 66,
+      "olderMa": 65.35,
       "youngerMa": 0,
       "status": "available",
-      "basis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
-      "evidenceLevel": "legacy-display",
+      "basis": "Lyson et al. document the Corral Bluffs fruit and leaflets at 65.35 Ma; Koenen et al. identify this as the oldest unequivocal legume fossil while treating deeper divergence as model-dependent.",
+      "evidenceLevel": "literature-synthesized",
       "provisional": true
     },
     "externalIds": {
       "pbdb": "txn:183021"
     },
     "referenceIds": [
+      "lyson-2019-corral-bluffs-recovery",
+      "koenen-2021-legume-origin",
       "open-tree",
       "pbdb-api-2016",
       "pbdb-taxa-2026-07-19"
@@ -1359,7 +1370,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "marchantiophyta",
@@ -1411,7 +1422,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "anthocerotophyta",
@@ -1437,15 +1448,16 @@
       "descendantEntityIds": []
     },
     "temporalRange": {
-      "olderMa": 470,
+      "olderMa": 0,
       "youngerMa": 0,
-      "status": "available",
-      "basis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
-      "evidenceLevel": "legacy-display",
+      "status": "withheld-pending-provenance",
+      "basis": "The former 470–0 Ma display is withheld rather than converting extant genome sampling into a phylum first appearance.",
+      "evidenceLevel": "withheld-no-range-evidence",
       "provisional": true
     },
     "externalIds": {},
     "referenceIds": [
+      "li-2020-hornwort-genomes",
       "open-tree",
       "pbdb-api-2016"
     ],
@@ -1460,7 +1472,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "invertebrata",
@@ -1635,7 +1647,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "porifera",
@@ -1696,7 +1708,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "stromatoporoidea",
@@ -1722,17 +1734,18 @@
       "descendantEntityIds": []
     },
     "temporalRange": {
-      "olderMa": 485,
-      "youngerMa": 359,
-      "status": "available",
-      "basis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
-      "evidenceLevel": "legacy-display",
+      "olderMa": 0,
+      "youngerMa": 0,
+      "status": "withheld-pending-provenance",
+      "basis": "The former 485–359 Ma display is withheld because a scalar interval would erase the major post-Devonian gap and the grade-level taxonomic problem.",
+      "evidenceLevel": "withheld-no-range-evidence",
       "provisional": true
     },
     "externalIds": {
       "pbdb": "txn:3338"
     },
     "referenceIds": [
+      "kershaw-jeon-2024-stromatoporoids-extinctions",
       "open-tree",
       "pbdb-api-2016",
       "pbdb-taxa-2026-07-19"
@@ -1747,7 +1760,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "demospongiae",
@@ -1775,20 +1788,21 @@
       ]
     },
     "temporalRange": {
-      "olderMa": 540,
+      "olderMa": 635,
       "youngerMa": 0,
       "status": "available",
-      "basis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
-      "evidenceLevel": "legacy-display",
+      "basis": "Love et al. report Cryogenian 24-isopropylcholestanes, while Nettersheim et al. demonstrate non-sponge precursor production; the present endpoint denotes living demosponges.",
+      "evidenceLevel": "literature-synthesized",
       "provisional": true
     },
     "externalIds": {
       "pbdb": "txn:2895"
     },
     "referenceIds": [
+      "love-2009-sponge-steranes",
+      "nettersheim-2019-rhizaria-steranes",
       "open-tree",
       "pbdb-api-2016",
-      "love-2009-sponge-steranes",
       "pbdb-taxa-2026-07-19"
     ],
     "evidenceStatus": "contextual",
@@ -1801,7 +1815,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "amphimedon_queenslandica",
@@ -1829,13 +1843,14 @@
     "temporalRange": {
       "olderMa": 0,
       "youngerMa": 0,
-      "status": "available",
-      "basis": "Curated navigation display range; taxonomic membership, fossil occurrence and model divergence time remain separate.",
-      "evidenceLevel": "legacy-display",
+      "status": "withheld-pending-provenance",
+      "basis": "The 0–0 placeholder is withheld because the genome paper supplies a living sample and comparative biology, not species-level range evidence.",
+      "evidenceLevel": "withheld-no-range-evidence",
       "provisional": true
     },
     "externalIds": {},
     "referenceIds": [
+      "srivastava-2010-amphimedon",
       "open-tree",
       "pbdb-api-2016"
     ],
@@ -1850,7 +1865,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "hexactinellida",
@@ -1879,9 +1894,9 @@
     },
     "temporalRange": {
       "olderMa": 536,
-      "youngerMa": 533,
+      "youngerMa": 0,
       "status": "available",
-      "basis": "Named specimen, explicitly bounded geochemical or genomic dataset, or stated model interval in the cited primary studies.",
+      "basis": "Antcliffe et al. reassess early sponge candidates and retain basal-Cambrian siliceous spicules as reliable; 0 Ma denotes living hexactinellids.",
       "evidenceLevel": "literature-synthesized",
       "provisional": true
     },
@@ -1902,7 +1917,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "helicolocellus",
@@ -1954,7 +1969,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "calcarea",
@@ -1980,15 +1995,16 @@
       "descendantEntityIds": []
     },
     "temporalRange": {
-      "olderMa": 535,
+      "olderMa": 0,
       "youngerMa": 0,
-      "status": "available",
-      "basis": "Curated navigation display range; taxonomic membership, fossil occurrence and model divergence time remain separate.",
-      "evidenceLevel": "legacy-display",
+      "status": "withheld-pending-provenance",
+      "basis": "The former 535–0 Ma display is withheld because an extant molecular topology cannot be converted into a fossil FAD.",
+      "evidenceLevel": "withheld-no-range-evidence",
       "provisional": true
     },
     "externalIds": {},
     "referenceIds": [
+      "voigt-2012-calcarea-phylogeny",
       "open-tree",
       "pbdb-api-2016"
     ],
@@ -2003,7 +2019,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "homoscleromorpha",
@@ -2031,13 +2047,14 @@
     "temporalRange": {
       "olderMa": 0,
       "youngerMa": 0,
-      "status": "available",
-      "basis": "Curated navigation display range; taxonomic membership, fossil occurrence and model divergence time remain separate.",
-      "evidenceLevel": "legacy-display",
+      "status": "withheld-pending-provenance",
+      "basis": "The 0–0 placeholder is converted to explicit withholding rather than presenting an undated living taxon as a numerical range.",
+      "evidenceLevel": "withheld-no-range-evidence",
       "provisional": true
     },
     "externalIds": {},
     "referenceIds": [
+      "gazave-2012-homoscleromorpha",
       "open-tree",
       "pbdb-api-2016"
     ],
@@ -2052,7 +2069,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "eocyathispongia",
@@ -2104,7 +2121,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "cnidaria",
@@ -2173,7 +2190,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "anthozoa",
@@ -2205,17 +2222,18 @@
       ]
     },
     "temporalRange": {
-      "olderMa": 540,
+      "olderMa": 0,
       "youngerMa": 0,
-      "status": "available",
-      "basis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
-      "evidenceLevel": "legacy-display",
+      "status": "withheld-pending-provenance",
+      "basis": "The former 540–0 Ma display is withheld rather than converting an extant topology or a stem-medusozoan fossil into an anthozoan FAD.",
+      "evidenceLevel": "withheld-no-range-evidence",
       "provisional": true
     },
     "externalIds": {
       "pbdb": "txn:4742"
     },
     "referenceIds": [
+      "zapata-2015-cnidaria",
       "open-tree",
       "pbdb-api-2016",
       "pbdb-taxa-2026-07-19"
@@ -2230,7 +2248,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "rugosa",
@@ -2256,15 +2274,17 @@
       "descendantEntityIds": []
     },
     "temporalRange": {
-      "olderMa": 488,
-      "youngerMa": 252,
+      "olderMa": 471.3,
+      "youngerMa": 251.9,
       "status": "available",
-      "basis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
-      "evidenceLevel": "legacy-display",
+      "basis": "Oliver synthesizes an essentially continuous Middle Ordovician–end-Permian rugose-coral record; ICS supplies only the numerical stage conversion.",
+      "evidenceLevel": "literature-synthesized",
       "provisional": true
     },
     "externalIds": {},
     "referenceIds": [
+      "oliver-1996-paleozoic-corals",
+      "ics-2026-06",
       "open-tree",
       "pbdb-api-2016"
     ],
@@ -2279,7 +2299,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "tabulata",
@@ -2305,15 +2325,17 @@
       "descendantEntityIds": []
     },
     "temporalRange": {
-      "olderMa": 488,
-      "youngerMa": 252,
+      "olderMa": 486.85,
+      "youngerMa": 251.9,
       "status": "available",
-      "basis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
-      "evidenceLevel": "legacy-display",
+      "basis": "Oliver synthesizes an essentially continuous Early Ordovician–end-Permian tabulate-coral record; ICS supplies only the numerical conversion.",
+      "evidenceLevel": "literature-synthesized",
       "provisional": true
     },
     "externalIds": {},
     "referenceIds": [
+      "oliver-1996-paleozoic-corals",
+      "ics-2026-06",
       "open-tree",
       "pbdb-api-2016"
     ],
@@ -2328,7 +2350,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "scleractinia",
@@ -2354,21 +2376,23 @@
       "descendantEntityIds": []
     },
     "temporalRange": {
-      "olderMa": 245,
+      "olderMa": 247.2,
       "youngerMa": 0,
       "status": "available",
-      "basis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
-      "evidenceLevel": "legacy-display",
+      "basis": "Oliver explicitly reviews living Scleractinia as ranging from the Middle Triassic to Holocene; ICS supplies only the numerical boundary conversion.",
+      "evidenceLevel": "literature-synthesized",
       "provisional": true
     },
     "externalIds": {
       "pbdb": "txn:6108"
     },
     "referenceIds": [
-      "open-tree",
-      "pbdb-api-2016",
+      "oliver-1996-paleozoic-corals",
+      "ics-2026-06",
       "stolarski-2011-scleractinia",
       "frankowiak-2016-coral-symbiosis",
+      "open-tree",
+      "pbdb-api-2016",
       "pbdb-taxa-2026-07-19"
     ],
     "evidenceStatus": "contextual",
@@ -2381,7 +2405,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "octocorallia",
@@ -2409,13 +2433,14 @@
     "temporalRange": {
       "olderMa": 0,
       "youngerMa": 0,
-      "status": "available",
-      "basis": "Curated navigation display range; taxonomic membership, fossil occurrence and model divergence time remain separate.",
-      "evidenceLevel": "legacy-display",
+      "status": "withheld-pending-provenance",
+      "basis": "The 0–0 placeholder is withheld because extant topology alone is not a temporal range.",
+      "evidenceLevel": "withheld-no-range-evidence",
       "provisional": true
     },
     "externalIds": {},
     "referenceIds": [
+      "mcfadden-2006-octocorallia",
       "open-tree",
       "pbdb-api-2016"
     ],
@@ -2430,7 +2455,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "hexacorallia",
@@ -2456,15 +2481,16 @@
       "descendantEntityIds": []
     },
     "temporalRange": {
-      "olderMa": 425,
+      "olderMa": 0,
       "youngerMa": 0,
-      "status": "available",
-      "basis": "Curated navigation display range; taxonomic membership, fossil occurrence and model divergence time remain separate.",
-      "evidenceLevel": "legacy-display",
+      "status": "withheld-pending-provenance",
+      "basis": "The former 425–0 Ma display is withheld because taxonomy and morphological comparison do not establish a crown first appearance.",
+      "evidenceLevel": "withheld-no-range-evidence",
       "provisional": true
     },
     "externalIds": {},
     "referenceIds": [
+      "daly-2007-cnidaria-review",
       "open-tree",
       "pbdb-api-2016"
     ],
@@ -2479,7 +2505,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "auroralumina",
@@ -2531,7 +2557,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "haootia",
@@ -2581,7 +2607,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "xianguangia",
@@ -2631,7 +2657,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "medusozoa",
@@ -2666,12 +2692,13 @@
       "olderMa": 562,
       "youngerMa": 0,
       "status": "available",
-      "basis": "Curated navigation display range; taxonomic membership, fossil occurrence and model divergence time remain separate.",
-      "evidenceLevel": "legacy-display",
+      "basis": "Dunn et al. describe and matrix-test Auroralumina as an Ediacaran crown cnidarian on the medusozoan stem; 0 Ma denotes living medusozoans.",
+      "evidenceLevel": "literature-synthesized",
       "provisional": true
     },
     "externalIds": {},
     "referenceIds": [
+      "dunn-2022-auroralumina",
       "open-tree",
       "pbdb-api-2016"
     ],
@@ -2686,7 +2713,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "hydrozoa",
@@ -2712,15 +2739,16 @@
       "descendantEntityIds": []
     },
     "temporalRange": {
-      "olderMa": 520,
+      "olderMa": 0,
       "youngerMa": 0,
-      "status": "available",
-      "basis": "Curated navigation display range; taxonomic membership, fossil occurrence and model divergence time remain separate.",
-      "evidenceLevel": "legacy-display",
+      "status": "withheld-pending-provenance",
+      "basis": "The former 520–0 Ma display is withheld rather than deriving a fossil FAD from a morphology and character-evolution synthesis.",
+      "evidenceLevel": "withheld-no-range-evidence",
       "provisional": true
     },
     "externalIds": {},
     "referenceIds": [
+      "cartwright-nawrocki-2010-hydrozoa",
       "open-tree",
       "pbdb-api-2016"
     ],
@@ -2735,7 +2763,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "staurozoa",
@@ -2761,15 +2789,17 @@
       "descendantEntityIds": []
     },
     "temporalRange": {
-      "olderMa": 562,
+      "olderMa": 0,
       "youngerMa": 0,
-      "status": "available",
-      "basis": "Curated navigation display range; taxonomic membership, fossil occurrence and model divergence time remain separate.",
-      "evidenceLevel": "legacy-display",
+      "status": "withheld-pending-provenance",
+      "basis": "The former 562–0 Ma display is withheld rather than transferring a contested Haootia interpretation to crown Staurozoa.",
+      "evidenceLevel": "withheld-no-range-evidence",
       "provisional": true
     },
     "externalIds": {},
     "referenceIds": [
+      "miranda-2016-staurozoa",
+      "miranda-2015-haootia",
       "open-tree",
       "pbdb-api-2016"
     ],
@@ -2784,7 +2814,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "cubozoa",
@@ -2810,15 +2840,16 @@
       "descendantEntityIds": []
     },
     "temporalRange": {
-      "olderMa": 505,
+      "olderMa": 0,
       "youngerMa": 0,
-      "status": "available",
-      "basis": "Curated navigation display range; taxonomic membership, fossil occurrence and model divergence time remain separate.",
-      "evidenceLevel": "legacy-display",
+      "status": "withheld-pending-provenance",
+      "basis": "The former 505–0 Ma display is withheld because extant topology and tentative stem comparisons do not establish a crown-Cubozoa FAD.",
+      "evidenceLevel": "withheld-no-range-evidence",
       "provisional": true
     },
     "externalIds": {},
     "referenceIds": [
+      "bentlage-2010-cubozoa",
       "open-tree",
       "pbdb-api-2016"
     ],
@@ -2833,7 +2864,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "scyphozoa",
@@ -2859,15 +2890,16 @@
       "descendantEntityIds": []
     },
     "temporalRange": {
-      "olderMa": 505,
+      "olderMa": 0,
       "youngerMa": 0,
-      "status": "available",
-      "basis": "Curated navigation display range; taxonomic membership, fossil occurrence and model divergence time remain separate.",
-      "evidenceLevel": "legacy-display",
+      "status": "withheld-pending-provenance",
+      "basis": "The former 505–0 Ma display is withheld rather than converting broad medusa resemblance into a crown-Scyphozoa FAD.",
+      "evidenceLevel": "withheld-no-range-evidence",
       "provisional": true
     },
     "externalIds": {},
     "referenceIds": [
+      "bayha-2010-scyphozoa",
       "open-tree",
       "pbdb-api-2016"
     ],
@@ -2882,7 +2914,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "burgessomedusa",
@@ -2932,7 +2964,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "myxozoa",
@@ -2960,13 +2992,14 @@
     "temporalRange": {
       "olderMa": 0,
       "youngerMa": 0,
-      "status": "available",
-      "basis": "Curated navigation display range; taxonomic membership, fossil occurrence and model divergence time remain separate.",
-      "evidenceLevel": "legacy-display",
+      "status": "withheld-pending-provenance",
+      "basis": "The 0–0 placeholder is withheld rather than turning a living genomic sample into a numerical origin.",
+      "evidenceLevel": "withheld-no-range-evidence",
       "provisional": true
     },
     "externalIds": {},
     "referenceIds": [
+      "chang-2015-myxozoa",
       "open-tree",
       "pbdb-api-2016"
     ],
@@ -2981,7 +3014,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "brachiopoda",
@@ -3042,7 +3075,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "articulata",
@@ -3071,15 +3104,16 @@
       ]
     },
     "temporalRange": {
-      "olderMa": 540,
+      "olderMa": 0,
       "youngerMa": 0,
-      "status": "available",
-      "basis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
-      "evidenceLevel": "legacy-display",
+      "status": "withheld-pending-provenance",
+      "basis": "The systematic revision is fit for historical classification and morphology, but not for numerical endpoints of a superseded grade.",
+      "evidenceLevel": "withheld-no-range-evidence",
       "provisional": true
     },
     "externalIds": {},
     "referenceIds": [
+      "williams-1996-brachiopod-classification",
       "open-tree",
       "pbdb-api-2016"
     ],
@@ -3094,7 +3128,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "spiriferida",
@@ -3120,17 +3154,19 @@
       "descendantEntityIds": []
     },
     "temporalRange": {
-      "olderMa": 443,
-      "youngerMa": 201,
+      "olderMa": 458.2,
+      "youngerMa": 251.902,
       "status": "available",
-      "basis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
-      "evidenceLevel": "legacy-display",
+      "basis": "Carter et al. explicitly state an Upper Ordovician–Upper Permian stratigraphic range for Spiriferida; this is not a direct-ancestor or continuous-occupancy claim.",
+      "evidenceLevel": "literature-synthesized",
       "provisional": true
     },
     "externalIds": {
       "pbdb": "txn:29043"
     },
     "referenceIds": [
+      "carter-1994-spiriferids",
+      "ics-2026-06",
       "open-tree",
       "pbdb-api-2016",
       "pbdb-taxa-2026-07-19"
@@ -3146,7 +3182,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "terebratulida",
@@ -3172,17 +3208,18 @@
       "descendantEntityIds": []
     },
     "temporalRange": {
-      "olderMa": 409,
+      "olderMa": 0,
       "youngerMa": 0,
-      "status": "available",
-      "basis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
-      "evidenceLevel": "legacy-display",
+      "status": "withheld-pending-provenance",
+      "basis": "The study is fit for extant species assignment and brachidium morphology, not an order-wide temporal range.",
+      "evidenceLevel": "withheld-no-range-evidence",
       "provisional": true
     },
     "externalIds": {
       "pbdb": "txn:29979"
     },
     "referenceIds": [
+      "lopez-carranza-carlson-2019-terebratulides",
       "open-tree",
       "pbdb-api-2016",
       "pbdb-taxa-2026-07-19"
@@ -3198,7 +3235,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "brachiopod-origin-dossiers",
@@ -3228,17 +3265,16 @@
       ]
     },
     "temporalRange": {
-      "olderMa": 530,
-      "youngerMa": 518,
-      "status": "available",
-      "basis": "Rounded envelope connecting explicitly bounded stem and early brachiopod dossiers.",
-      "evidenceLevel": "legacy-display",
+      "olderMa": 0,
+      "youngerMa": 0,
+      "status": "withheld-pending-provenance",
+      "basis": "The component taxa retain their own source-bounded records; no composite taxon duration is exposed for the dossier route.",
+      "evidenceLevel": "withheld-no-range-evidence",
       "provisional": true
     },
     "externalIds": {},
     "referenceIds": [
       "holmer-et-al-2008-micrina",
-      "zhang-et-al-2014-yuganotheca",
       "open-tree",
       "pbdb-api-2016"
     ],
@@ -3253,7 +3289,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "micrina",
@@ -3279,16 +3315,17 @@
       "descendantEntityIds": []
     },
     "temporalRange": {
-      "olderMa": 530,
-      "youngerMa": 520,
+      "olderMa": 521,
+      "youngerMa": 514.5,
       "status": "available",
-      "basis": "Two sclerite types and muscle scars are assembled into a testable sessile bivalved model.",
-      "evidenceLevel": "legacy-display",
+      "basis": "Holmer et al. identify Micrina material from four broadly synchronous late Atdabanian carbonate units; ICS v2026/06 supplies the Stage 3 boundaries.",
+      "evidenceLevel": "literature-synthesized",
       "provisional": true
     },
     "externalIds": {},
     "referenceIds": [
       "holmer-et-al-2008-micrina",
+      "ics-2026-06",
       "open-tree",
       "pbdb-api-2016"
     ],
@@ -3303,7 +3340,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "yuganotheca",
@@ -3329,16 +3366,17 @@
       "descendantEntityIds": []
     },
     "temporalRange": {
-      "olderMa": 520,
-      "youngerMa": 518,
+      "olderMa": 521,
+      "youngerMa": 514.5,
       "status": "available",
-      "basis": "Agglutinated valves, a horseshoe lophophore, a bipartite tube and a long pedicle occur in one early Cambrian body plan.",
-      "evidenceLevel": "legacy-display",
+      "basis": "Zhang et al. place 710 specimens in the Eoredlichia–Wutingaspis zone and explicitly correlate the material with late Atdabanian/Botoman Cambrian Stage 3.",
+      "evidenceLevel": "literature-synthesized",
       "provisional": true
     },
     "externalIds": {},
     "referenceIds": [
       "zhang-et-al-2014-yuganotheca",
+      "ics-2026-06",
       "open-tree",
       "pbdb-api-2016"
     ],
@@ -3353,7 +3391,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "kutorgina-chengjiangensis",
@@ -3403,7 +3441,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "lingula-anatina",
@@ -3432,8 +3470,8 @@
       "olderMa": 0,
       "youngerMa": 0,
       "status": "available",
-      "basis": "A living genome, developmental transcriptomes and shell proteome anchor the biomineralization comparison.",
-      "evidenceLevel": "legacy-display",
+      "basis": "Luo et al. directly document the living collection, exact locality, genome, developmental transcriptomes and shell proteome.",
+      "evidenceLevel": "literature-synthesized",
       "provisional": true
     },
     "externalIds": {},
@@ -3453,7 +3491,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "mollusca",
@@ -3530,7 +3568,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "bivalvia",
@@ -3560,20 +3598,21 @@
       ]
     },
     "temporalRange": {
-      "olderMa": 521,
-      "youngerMa": 0,
+      "olderMa": 514.5,
+      "youngerMa": 506.5,
       "status": "available",
-      "basis": "Rounded navigation envelope informed by represented early-bivalve shell material and living continuity.",
-      "evidenceLevel": "legacy-display",
+      "basis": "Vendrasco et al. document Pojetaia shell material from probably Botomian and lowermost Botomian units; ICS v2026/06 supplies the conservative Stage 4 numerical envelope.",
+      "evidenceLevel": "literature-synthesized",
       "provisional": true
     },
     "externalIds": {
       "pbdb": "txn:16005"
     },
     "referenceIds": [
+      "vendrasco-et-al-2011-pojetaia",
+      "ics-2026-06",
       "open-tree",
       "pbdb-api-2016",
-      "vendrasco-et-al-2011-pojetaia",
       "pbdb-taxa-2026-07-19"
     ],
     "evidenceStatus": "contextual",
@@ -3586,7 +3625,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "rudistae",
@@ -3612,15 +3651,16 @@
       "descendantEntityIds": []
     },
     "temporalRange": {
-      "olderMa": 160,
-      "youngerMa": 66,
-      "status": "available",
-      "basis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
-      "evidenceLevel": "legacy-display",
+      "olderMa": 0,
+      "youngerMa": 0,
+      "status": "withheld-pending-provenance",
+      "basis": "No secondary summary or general background statement is promoted into a global rudist range without a range-fit primary locator.",
+      "evidenceLevel": "withheld-no-range-evidence",
       "provisional": true
     },
     "externalIds": {},
     "referenceIds": [
+      "rineau-2020-rudists",
       "open-tree",
       "pbdb-api-2016"
     ],
@@ -3635,7 +3675,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "ostreoida",
@@ -3661,15 +3701,16 @@
       "descendantEntityIds": []
     },
     "temporalRange": {
-      "olderMa": 250,
+      "olderMa": 0,
       "youngerMa": 0,
-      "status": "available",
-      "basis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
-      "evidenceLevel": "legacy-display",
+      "status": "withheld-pending-provenance",
+      "basis": "The source is fit for the sampled molecular topology, not a global historical range.",
+      "evidenceLevel": "withheld-no-range-evidence",
       "provisional": true
     },
     "externalIds": {},
     "referenceIds": [
+      "matsumoto-2003-pteriomorphia",
       "open-tree",
       "pbdb-api-2016"
     ],
@@ -3684,7 +3725,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "pojetaia",
@@ -3710,16 +3751,17 @@
       "descendantEntityIds": []
     },
     "temporalRange": {
-      "olderMa": 521,
-      "youngerMa": 513,
+      "olderMa": 514.5,
+      "youngerMa": 506.5,
       "status": "available",
-      "basis": "Early bivalve shell sections distinguish laminar fabrics from undisputed nacre.",
-      "evidenceLevel": "legacy-display",
+      "basis": "The study documents more than fifty Pojetaia specimens from probably Botomian and lowermost Botomian units; ICS v2026/06 supplies the conservative Stage 4 bounds.",
+      "evidenceLevel": "literature-synthesized",
       "provisional": true
     },
     "externalIds": {},
     "referenceIds": [
       "vendrasco-et-al-2011-pojetaia",
+      "ics-2026-06",
       "open-tree",
       "pbdb-api-2016"
     ],
@@ -3734,7 +3776,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "gastropoda",
@@ -3760,17 +3802,18 @@
       "descendantEntityIds": []
     },
     "temporalRange": {
-      "olderMa": 510,
+      "olderMa": 0,
       "youngerMa": 0,
-      "status": "available",
-      "basis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
-      "evidenceLevel": "legacy-display",
+      "status": "withheld-pending-provenance",
+      "basis": "Living phylogenomic sampling cannot be silently converted into a fossil FAD or a clade duration.",
+      "evidenceLevel": "withheld-no-range-evidence",
       "provisional": true
     },
     "externalIds": {
       "pbdb": "txn:8304"
     },
     "referenceIds": [
+      "zapata-2014-gastropod-phylogenomics",
       "open-tree",
       "pbdb-api-2016",
       "pbdb-taxa-2026-07-19"
@@ -3785,7 +3828,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "cephalopoda",
@@ -3820,17 +3863,18 @@
       ]
     },
     "temporalRange": {
-      "olderMa": 500,
+      "olderMa": 0,
       "youngerMa": 0,
-      "status": "available",
-      "basis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
-      "evidenceLevel": "legacy-display",
+      "status": "withheld-pending-provenance",
+      "basis": "The source supports a sampled living topology and habitat reconstruction, not a fossil range.",
+      "evidenceLevel": "withheld-no-range-evidence",
       "provisional": true
     },
     "externalIds": {
       "pbdb": "txn:12315"
     },
     "referenceIds": [
+      "lindgren-2012-cephalopoda",
       "open-tree",
       "pbdb-api-2016",
       "pbdb-taxa-2026-07-19"
@@ -3845,7 +3889,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "nautiloidea",
@@ -3871,17 +3915,18 @@
       "descendantEntityIds": []
     },
     "temporalRange": {
-      "olderMa": 500,
+      "olderMa": 0,
       "youngerMa": 0,
-      "status": "available",
-      "basis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
-      "evidenceLevel": "legacy-display",
+      "status": "withheld-pending-provenance",
+      "basis": "Genus-level living anatomy and Nautilida relationships do not time-bound Nautiloidea.",
+      "evidenceLevel": "withheld-no-range-evidence",
       "provisional": true
     },
     "externalIds": {
       "pbdb": "txn:61323"
     },
     "referenceIds": [
+      "ward-saunders-1997-allonautilus",
       "open-tree",
       "pbdb-api-2016",
       "pbdb-taxa-2026-07-19"
@@ -3896,7 +3941,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "ammonoidea",
@@ -3926,17 +3971,19 @@
       ]
     },
     "temporalRange": {
-      "olderMa": 409,
-      "youngerMa": 66,
+      "olderMa": 274.4,
+      "youngerMa": 250.8,
       "status": "available",
-      "basis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
-      "evidenceLevel": "legacy-display",
+      "basis": "The paper directly analyzes Middle–Late Permian and Induan ammonoids across the Permian–Triassic boundary; current ICS boundaries convert that named interval to numerical ages.",
+      "evidenceLevel": "literature-synthesized",
       "provisional": true
     },
     "externalIds": {
       "pbdb": "txn:14505"
     },
     "referenceIds": [
+      "mcgowan-smith-2007-ammonoids",
+      "ics-2026-06",
       "open-tree",
       "pbdb-api-2016",
       "pbdb-taxa-2026-07-19"
@@ -3951,7 +3998,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "goniatitida",
@@ -3977,17 +4024,19 @@
       "descendantEntityIds": []
     },
     "temporalRange": {
-      "olderMa": 409,
-      "youngerMa": 252,
+      "olderMa": 346.7,
+      "youngerMa": 330.3,
       "status": "available",
-      "basis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
-      "evidenceLevel": "legacy-display",
+      "basis": "Korn et al. directly describe an early Late Viséan assemblage within Goniatitida; ICS v2026/06 supplies the enclosing Viséan numerical bounds.",
+      "evidenceLevel": "literature-synthesized",
       "provisional": true
     },
     "externalIds": {
       "pbdb": "txn:13602"
     },
     "referenceIds": [
+      "korn-2005-goniatitidae",
+      "ics-2026-06",
       "open-tree",
       "pbdb-api-2016",
       "pbdb-taxa-2026-07-19"
@@ -4002,7 +4051,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "ceratitida",
@@ -4028,17 +4077,19 @@
       "descendantEntityIds": []
     },
     "temporalRange": {
-      "olderMa": 280,
-      "youngerMa": 201,
+      "olderMa": 298.9,
+      "youngerMa": 201.4,
       "status": "available",
-      "basis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
-      "evidenceLevel": "legacy-display",
+      "basis": "Shigeta et al. explicitly state that Ceratitida ranged from the Early Permian to the end of the Triassic.",
+      "evidenceLevel": "literature-synthesized",
       "provisional": true
     },
     "externalIds": {
       "pbdb": "txn:14000"
     },
     "referenceIds": [
+      "shigeta-2001-ceratitida-origin",
+      "ics-2026-06",
       "open-tree",
       "pbdb-api-2016",
       "pbdb-taxa-2026-07-19"
@@ -4053,7 +4104,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "ammonitida",
@@ -4079,17 +4130,19 @@
       "descendantEntityIds": []
     },
     "temporalRange": {
-      "olderMa": 201,
-      "youngerMa": 66,
+      "olderMa": 201.4,
+      "youngerMa": 174.7,
       "status": "available",
-      "basis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
-      "evidenceLevel": "legacy-display",
+      "basis": "Bardin et al. analyze a 105-taxon Hildoceratidae matrix explicitly scoped to the Early Jurassic; ICS v2026/06 supplies the period boundaries.",
+      "evidenceLevel": "literature-synthesized",
       "provisional": true
     },
     "externalIds": {
       "pbdb": "txn:84931"
     },
     "referenceIds": [
+      "bardin-2017-hildoceratidae",
+      "ics-2026-06",
       "open-tree",
       "pbdb-api-2016",
       "pbdb-taxa-2026-07-19"
@@ -4104,7 +4157,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "coleoidea",
@@ -4133,17 +4186,18 @@
       ]
     },
     "temporalRange": {
-      "olderMa": 390,
+      "olderMa": 0,
       "youngerMa": 0,
-      "status": "available",
-      "basis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
-      "evidenceLevel": "legacy-display",
+      "status": "withheld-pending-provenance",
+      "basis": "Model-dependent node estimates are not silently substituted for a fossil range.",
+      "evidenceLevel": "withheld-no-range-evidence",
       "provisional": true
     },
     "externalIds": {
       "pbdb": "txn:59785"
     },
     "referenceIds": [
+      "tanner-2017-coleoid-clocks",
       "open-tree",
       "pbdb-api-2016",
       "pbdb-taxa-2026-07-19"
@@ -4158,7 +4212,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "belemnitida",
@@ -4184,17 +4238,19 @@
       "descendantEntityIds": []
     },
     "temporalRange": {
-      "olderMa": 228,
+      "olderMa": 253.1,
       "youngerMa": 66,
       "status": "available",
-      "basis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
-      "evidenceLevel": "legacy-display",
+      "basis": "Stevens et al. publish the sampled species, first and last occurrence inputs, a 253.1 Ma origin offset and the terminal K–Pg extinction context.",
+      "evidenceLevel": "literature-synthesized",
       "provisional": true
     },
     "externalIds": {
       "pbdb": "txn:15832"
     },
     "referenceIds": [
+      "stevens-2023-belemnites",
+      "ics-2026-06",
       "open-tree",
       "pbdb-api-2016",
       "pbdb-taxa-2026-07-19"
@@ -4209,7 +4265,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "octopus-bimaculoides",
@@ -4238,8 +4294,8 @@
       "olderMa": 0,
       "youngerMa": 0,
       "status": "available",
-      "basis": "A single male genome and twelve tissue transcriptomes anchor the comparative event.",
-      "evidenceLevel": "legacy-display",
+      "basis": "Albertin et al. directly document the sampled male genome, twelve tissue transcriptomes and associated BioProjects.",
+      "evidenceLevel": "literature-synthesized",
       "provisional": true
     },
     "externalIds": {},
@@ -4259,7 +4315,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "molluscan-origin-dossiers",
@@ -4290,17 +4346,16 @@
       ]
     },
     "temporalRange": {
-      "olderMa": 558,
-      "youngerMa": 505,
-      "status": "available",
-      "basis": "Rounded envelope for the explicitly non-genealogical dossier route.",
-      "evidenceLevel": "legacy-display",
+      "olderMa": 0,
+      "youngerMa": 0,
+      "status": "withheld-pending-provenance",
+      "basis": "A taxon range would be a category error; the linked fossil dossiers remain independently accessible through their own evidence records.",
+      "evidenceLevel": "withheld-no-range-evidence",
       "provisional": true
     },
     "externalIds": {},
     "referenceIds": [
       "fedonkin-waggoner-1997-kimberella",
-      "caron-et-al-2006-odontogriphus",
       "open-tree",
       "pbdb-api-2016"
     ],
@@ -4315,7 +4370,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "kimberella",
@@ -4367,7 +4422,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "odontogriphus",
@@ -4419,7 +4474,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "orthrozanclus",
@@ -4445,11 +4500,11 @@
       "descendantEntityIds": []
     },
     "temporalRange": {
-      "olderMa": 508,
-      "youngerMa": 505,
-      "status": "available",
-      "basis": "One articulated body combines a shell, three sclerite zones and long spines used to test halwaxiid relationships.",
-      "evidenceLevel": "legacy-display",
+      "olderMa": 0,
+      "youngerMa": 0,
+      "status": "withheld-pending-provenance",
+      "basis": "No museum overview or secondary age page is used to manufacture a numerical endpoint absent from the located primary study.",
+      "evidenceLevel": "withheld-no-range-evidence",
       "provisional": true
     },
     "externalIds": {},
@@ -4469,7 +4524,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "nectocaris",
@@ -4521,7 +4576,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "aculifera",
@@ -4550,11 +4605,11 @@
       ]
     },
     "temporalRange": {
-      "olderMa": 520,
+      "olderMa": 0,
       "youngerMa": 0,
-      "status": "available",
-      "basis": "Navigation range retained for browse continuity; topology is documented separately.",
-      "evidenceLevel": "legacy-display",
+      "status": "withheld-pending-provenance",
+      "basis": "Topology support is retained separately and is not converted into temporal occurrence evidence.",
+      "evidenceLevel": "withheld-no-range-evidence",
       "provisional": true
     },
     "externalIds": {},
@@ -4574,7 +4629,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "polyplacophora",
@@ -4600,15 +4655,16 @@
       "descendantEntityIds": []
     },
     "temporalRange": {
-      "olderMa": 490,
+      "olderMa": 0,
       "youngerMa": 0,
-      "status": "available",
-      "basis": "Navigation range retained for browse continuity; detailed topology remains claim-specific.",
-      "evidenceLevel": "legacy-display",
+      "status": "withheld-pending-provenance",
+      "basis": "Living mitogenomic topology and calibration results do not establish a fossil FAD.",
+      "evidenceLevel": "withheld-no-range-evidence",
       "provisional": true
     },
     "externalIds": {},
     "referenceIds": [
+      "irisarri-2020-chitons",
       "open-tree",
       "pbdb-api-2016"
     ],
@@ -4623,7 +4679,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "aplacophora",
@@ -4649,15 +4705,16 @@
       "descendantEntityIds": []
     },
     "temporalRange": {
-      "olderMa": 485,
+      "olderMa": 0,
       "youngerMa": 0,
-      "status": "available",
-      "basis": "Navigation range retained for browse continuity.",
-      "evidenceLevel": "legacy-display",
+      "status": "withheld-pending-provenance",
+      "basis": "A phylogenomic topology cannot supply temporal endpoints for a historically unstable grouping.",
+      "evidenceLevel": "withheld-no-range-evidence",
       "provisional": true
     },
     "externalIds": {},
     "referenceIds": [
+      "kocot-2019-aplacophora",
       "open-tree",
       "pbdb-api-2016"
     ],
@@ -4672,7 +4729,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "monoplacophora",
@@ -4698,11 +4755,11 @@
       "descendantEntityIds": []
     },
     "temporalRange": {
-      "olderMa": 480,
+      "olderMa": 0,
       "youngerMa": 0,
-      "status": "available",
-      "basis": "Navigation range retained for browse continuity.",
-      "evidenceLevel": "legacy-display",
+      "status": "withheld-pending-provenance",
+      "basis": "Study-specific living relationships do not establish the lineage’s origin or fossil duration.",
+      "evidenceLevel": "withheld-no-range-evidence",
       "provisional": true
     },
     "externalIds": {},
@@ -4722,7 +4779,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "scaphopoda",
@@ -4748,11 +4805,11 @@
       "descendantEntityIds": []
     },
     "temporalRange": {
-      "olderMa": 480,
+      "olderMa": 0,
       "youngerMa": 0,
-      "status": "available",
-      "basis": "Navigation range retained for browse continuity.",
-      "evidenceLevel": "legacy-display",
+      "status": "withheld-pending-provenance",
+      "basis": "The source supports sampled topology only, not a temporal range.",
+      "evidenceLevel": "withheld-no-range-evidence",
       "provisional": true
     },
     "externalIds": {},
@@ -4772,7 +4829,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "arthropoda",
@@ -4878,7 +4935,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "trilobita",
@@ -4942,7 +4999,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "phacopida",
@@ -4968,17 +5025,18 @@
       "descendantEntityIds": []
     },
     "temporalRange": {
-      "olderMa": 488,
-      "youngerMa": 359,
-      "status": "available",
-      "basis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
-      "evidenceLevel": "legacy-display",
+      "olderMa": 0,
+      "youngerMa": 0,
+      "status": "withheld-pending-provenance",
+      "basis": "The former 488–359 Ma display is withheld because the available primary study treats Siluro-Devonian Phacopidae rather than an order-wide first and last occurrence synthesis.",
+      "evidenceLevel": "withheld-no-range-evidence",
       "provisional": true
     },
     "externalIds": {
       "pbdb": "txn:21421"
     },
     "referenceIds": [
+      "cronier-2011-phacopidae-species",
       "open-tree",
       "pbdb-api-2016",
       "pbdb-taxa-2026-07-19"
@@ -4993,7 +5051,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "ptychopariida",
@@ -5019,17 +5077,18 @@
       "descendantEntityIds": []
     },
     "temporalRange": {
-      "olderMa": 521,
-      "youngerMa": 443,
-      "status": "available",
-      "basis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
-      "evidenceLevel": "legacy-display",
+      "olderMa": 0,
+      "youngerMa": 0,
+      "status": "withheld-pending-provenance",
+      "basis": "The former 521–443 Ma display is withheld because the systematic review treats the traditional order as a problematic, probably paraphyletic assemblage rather than one bounded lineage.",
+      "evidenceLevel": "withheld-no-range-evidence",
       "provisional": true
     },
     "externalIds": {
       "pbdb": "txn:20239"
     },
     "referenceIds": [
+      "fortey-2001-trilobite-systematics",
       "open-tree",
       "pbdb-api-2016",
       "pbdb-taxa-2026-07-19"
@@ -5044,7 +5103,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "corynexochida",
@@ -5070,17 +5129,18 @@
       "descendantEntityIds": []
     },
     "temporalRange": {
-      "olderMa": 516,
-      "youngerMa": 393,
-      "status": "available",
-      "basis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
-      "evidenceLevel": "legacy-display",
+      "olderMa": 0,
+      "youngerMa": 0,
+      "status": "withheld-pending-provenance",
+      "basis": "The former 516–393 Ma display is withheld because the available cladistic revision covers one family and does not audit the complete temporal extent of Corynexochida.",
+      "evidenceLevel": "withheld-no-range-evidence",
       "provisional": true
     },
     "externalIds": {
       "pbdb": "txn:19472"
     },
     "referenceIds": [
+      "lee-2008-missisquoiidae-revision",
       "open-tree",
       "pbdb-api-2016",
       "pbdb-taxa-2026-07-19"
@@ -5095,7 +5155,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "trilobite-evidence-samples",
@@ -5132,11 +5192,13 @@
       "youngerMa": 443,
       "status": "available",
       "basis": "The displayed interval is a navigation envelope across separate evidence and is not a phylogenetic or occurrence claim.",
-      "evidenceLevel": "legacy-display",
+      "evidenceLevel": "literature-synthesized",
       "provisional": true
     },
     "externalIds": {},
     "referenceIds": [
+      "holmes-budd-2022-early-trilobites",
+      "hou-2021-trilobite-gill",
       "open-tree",
       "pbdb-api-2016"
     ],
@@ -5151,7 +5213,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "protolenus",
@@ -5201,7 +5263,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "gigoutella",
@@ -5251,7 +5313,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "olenoides",
@@ -5301,7 +5363,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "triarthrus",
@@ -5351,7 +5413,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "bohemolichas",
@@ -5403,7 +5465,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "agnostina",
@@ -5453,7 +5515,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "chelicerata",
@@ -5519,7 +5581,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "eurypterida",
@@ -5547,17 +5609,19 @@
       ]
     },
     "temporalRange": {
-      "olderMa": 467,
-      "youngerMa": 252,
+      "olderMa": 479,
+      "youngerMa": 250,
       "status": "available",
-      "basis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
-      "evidenceLevel": "legacy-display",
+      "basis": "A 2025 primary study reports unequivocal upper Tremadocian eurypterids from the approximately 479 Ma Fezouata interval; Tetlie's systematic review records the latest occurrence at approximately 250 Ma.",
+      "evidenceLevel": "literature-synthesized",
       "provisional": true
     },
     "externalIds": {
       "pbdb": "txn:18947"
     },
     "referenceIds": [
+      "van-roy-2025-fezouata-eurypterids",
+      "tetlie-2007-eurypterid-history",
       "open-tree",
       "pbdb-api-2016",
       "pbdb-taxa-2026-07-19"
@@ -5572,7 +5636,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "jaekelopterus",
@@ -5622,7 +5686,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "stem-chelicerate-evidence",
@@ -5655,12 +5719,14 @@
       "olderMa": 519,
       "youngerMa": 500.5,
       "status": "available",
-      "basis": "The displayed interval is a navigation envelope across separate evidence and is not a phylogenetic or occurrence claim.",
-      "evidenceLevel": "legacy-display",
+      "basis": "The displayed interval links the 519–518 Ma Chengjiang Urokodia sample to the 504.5–500.5 Ma Wheeler Megachelicerax sample; it is a dossier-navigation envelope rather than a lineage duration.",
+      "evidenceLevel": "literature-synthesized",
       "provisional": true
     },
     "externalIds": {},
     "referenceIds": [
+      "liu-2026-urokodia",
+      "lerosey-aubril-ortega-2026-megachelicerax",
       "open-tree",
       "pbdb-api-2016"
     ],
@@ -5675,7 +5741,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "urokodia",
@@ -5727,7 +5793,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "megachelicerax",
@@ -5777,7 +5843,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "mollisonia",
@@ -5829,7 +5895,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "xiphosura",
@@ -5879,7 +5945,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "pycnogonida",
@@ -5908,12 +5974,14 @@
       "olderMa": 500,
       "youngerMa": 0,
       "status": "available",
-      "basis": "The displayed interval is a navigation envelope across separate evidence and is not a phylogenetic or occurrence claim.",
-      "evidenceLevel": "legacy-display",
+      "basis": "Cambropycnogon provides an approximately 500 Ma possible total-group record, while living pycnogonids extend the navigation envelope to the present; later review retains uncertainty over the fossil's assignment.",
+      "evidenceLevel": "literature-synthesized",
       "provisional": true
     },
     "externalIds": {},
     "referenceIds": [
+      "waloszek-dunlop-2002-cambropycnogon",
+      "sabroux-2024-pycnogonid-fossils",
       "open-tree",
       "pbdb-api-2016"
     ],
@@ -5928,7 +5996,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "arachnida",
@@ -5959,17 +6027,15 @@
       ]
     },
     "temporalRange": {
-      "olderMa": 485,
+      "olderMa": 0,
       "youngerMa": 0,
-      "status": "available",
-      "basis": "Rounded navigation-only envelope retained for display; the cited topology studies do not establish its 485 Ma endpoint, a crown age or one agreed terrestrialization event.",
-      "evidenceLevel": "legacy-display",
+      "status": "withheld-pending-provenance",
+      "basis": "The former 485–0 Ma display is withheld because topology studies do not establish its older endpoint and dense sampling contests Arachnida monophyly.",
+      "evidenceLevel": "withheld-no-range-evidence",
       "provisional": true
     },
     "externalIds": {},
     "referenceIds": [
-      "lozano-fernandez-2019-chelicerate-phylogenomics",
-      "howard-2020-arachnid-monophyly",
       "ballesteros-2022-arachnida-paraphyly",
       "open-tree",
       "pbdb-api-2016"
@@ -5985,7 +6051,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "scorpiones",
@@ -6037,7 +6103,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "parioscorpio",
@@ -6087,7 +6153,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "araneae",
@@ -6116,12 +6182,14 @@
       "olderMa": 315,
       "youngerMa": 0,
       "status": "available",
-      "basis": "The displayed interval is a navigation envelope across separate evidence and is not a phylogenetic or occurrence claim.",
-      "evidenceLevel": "legacy-display",
+      "basis": "The fossil-record review and a Carboniferous arachnid study trace true spiders to approximately 315 Ma; living Araneae extend this sampled-record navigation envelope to the present.",
+      "evidenceLevel": "literature-synthesized",
       "provisional": true
     },
     "externalIds": {},
     "referenceIds": [
+      "selden-penney-2010-spider-fossil-record",
+      "garwood-2016-idmonarachne",
       "open-tree",
       "pbdb-api-2016"
     ],
@@ -6136,7 +6204,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "acari",
@@ -6165,15 +6233,13 @@
       "olderMa": 410,
       "youngerMa": 0,
       "status": "available",
-      "basis": "Rounded navigation-only envelope retained for display; the cited molecular and total-evidence studies test topology but do not establish the 410 Ma endpoint or a consensus Acari crown range.",
-      "evidenceLevel": "legacy-display",
+      "basis": "A fossil-data review documents secure Acari records from the Early Devonian at approximately 410 Ma and excludes unsupported older assignments; living mites extend the navigation envelope to the present.",
+      "evidenceLevel": "literature-synthesized",
       "provisional": true
     },
     "externalIds": {},
     "referenceIds": [
-      "lozano-fernandez-2019-chelicerate-phylogenomics",
-      "howard-2020-arachnid-monophyly",
-      "ballesteros-2022-arachnida-paraphyly",
+      "sidorchuk-2018-acari-fossil-record",
       "open-tree",
       "pbdb-api-2016"
     ],
@@ -6188,7 +6254,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "insecta",
@@ -6247,7 +6313,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "odonatoptera",
@@ -6280,12 +6346,13 @@
       "olderMa": 325,
       "youngerMa": 0,
       "status": "available",
-      "basis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
-      "evidenceLevel": "legacy-display",
+      "basis": "A systematic review places the oldest Odonatoptera in the Serpukhovian at 325–324 Ma; living odonatopterans extend this sampled-record navigation envelope to the present.",
+      "evidenceLevel": "literature-synthesized",
       "provisional": true
     },
     "externalIds": {},
     "referenceIds": [
+      "sutherland-2025-odonatoptera-classification",
       "open-tree",
       "pbdb-api-2016"
     ],
@@ -6300,7 +6367,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "odonata",
@@ -6326,17 +6393,18 @@
       "descendantEntityIds": []
     },
     "temporalRange": {
-      "olderMa": 325,
+      "olderMa": 268,
       "youngerMa": 0,
       "status": "available",
-      "basis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
-      "evidenceLevel": "legacy-display",
+      "basis": "A fossil-calibrated odonate synthesis identifies the approximately 268 Ma Saxonagrion minutus as the earliest modern odonate; living Odonata extend the navigation envelope to the present.",
+      "evidenceLevel": "literature-synthesized",
       "provisional": true
     },
     "externalIds": {
       "pbdb": "txn:71353"
     },
     "referenceIds": [
+      "bybee-2016-odonata-fossil-record",
       "open-tree",
       "pbdb-api-2016",
       "pbdb-taxa-2026-07-19"
@@ -6351,7 +6419,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "meganisoptera",
@@ -6379,17 +6447,18 @@
       ]
     },
     "temporalRange": {
-      "olderMa": 325,
-      "youngerMa": 250,
+      "olderMa": 318,
+      "youngerMa": 259,
       "status": "available",
-      "basis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
-      "evidenceLevel": "legacy-display",
+      "basis": "The review records Meganisoptera first in Namurian B at approximately 318–315 Ma and at least through the end of the Middle Permian; it does not support the former exact 250 Ma endpoint.",
+      "evidenceLevel": "literature-synthesized",
       "provisional": true
     },
     "externalIds": {
       "pbdb": "txn:174977"
     },
     "referenceIds": [
+      "ellers-2024-meganisoptera-flight",
       "open-tree",
       "pbdb-api-2016",
       "pbdb-taxa-2026-07-19"
@@ -6404,7 +6473,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "meganeura",
@@ -6430,17 +6499,18 @@
       "descendantEntityIds": []
     },
     "temporalRange": {
-      "olderMa": 305,
-      "youngerMa": 299,
-      "status": "available",
-      "basis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
-      "evidenceLevel": "legacy-display",
+      "olderMa": 0,
+      "youngerMa": 0,
+      "status": "withheld-pending-provenance",
+      "basis": "The former 305–299 Ma display is withheld because the systematic redescription does not directly audit those values as the complete temporal range of Meganeura.",
+      "evidenceLevel": "withheld-no-range-evidence",
       "provisional": true
     },
     "externalIds": {
       "pbdb": "txn:175803"
     },
     "referenceIds": [
+      "nel-2009-meganeuridae-revision",
       "open-tree",
       "pbdb-api-2016",
       "pbdb-taxa-2026-07-19"
@@ -6455,7 +6525,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "coleoptera",
@@ -6481,17 +6551,18 @@
       "descendantEntityIds": []
     },
     "temporalRange": {
-      "olderMa": 299,
+      "olderMa": 298,
       "youngerMa": 0,
       "status": "available",
-      "basis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
-      "evidenceLevel": "legacy-display",
+      "basis": "An integrated fossil dataset identifies Early Permian Tshekardocoleidae as the earliest definite beetles and assigns their first standardized bin an older edge of 298 Ma; living beetles extend the envelope to the present.",
+      "evidenceLevel": "literature-synthesized",
       "provisional": true
     },
     "externalIds": {
       "pbdb": "txn:69148"
     },
     "referenceIds": [
+      "zhao-2021-beetle-evolution",
       "open-tree",
       "pbdb-api-2016",
       "pbdb-taxa-2026-07-19"
@@ -6506,7 +6577,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "hymenoptera",
@@ -6532,17 +6603,18 @@
       "descendantEntityIds": []
     },
     "temporalRange": {
-      "olderMa": 200,
+      "olderMa": 242,
       "youngerMa": 0,
       "status": "available",
-      "basis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
-      "evidenceLevel": "legacy-display",
+      "basis": "A systematic review of hymenopteran divergence dating places the oldest undisputed xyelid fossils within approximately 242–237 Ma; living Hymenoptera extend the navigation envelope to the present.",
+      "evidenceLevel": "literature-synthesized",
       "provisional": true
     },
     "externalIds": {
       "pbdb": "txn:70707"
     },
     "referenceIds": [
+      "zhang-2025-hymenoptera-divergence-dating",
       "open-tree",
       "pbdb-api-2016",
       "pbdb-taxa-2026-07-19"
@@ -6557,7 +6629,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "crustacea",
@@ -6612,7 +6684,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "ostracoda",
@@ -6638,17 +6710,18 @@
       "descendantEntityIds": []
     },
     "temporalRange": {
-      "olderMa": 485,
+      "olderMa": 450,
       "youngerMa": 0,
       "status": "available",
-      "basis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
-      "evidenceLevel": "legacy-display",
+      "basis": "A primary study identifies the approximately 450 Ma Luprisca record as the first unequivocal pre-Silurian ostracod occurrence; living ostracods extend the sampled-record envelope to the present.",
+      "evidenceLevel": "literature-synthesized",
       "provisional": true
     },
     "externalIds": {
       "pbdb": "txn:22826"
     },
     "referenceIds": [
+      "siveter-2014-luprisca-ostracod",
       "open-tree",
       "pbdb-api-2016",
       "pbdb-taxa-2026-07-19"
@@ -6664,7 +6737,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "malacostraca",
@@ -6690,17 +6763,19 @@
       "descendantEntityIds": []
     },
     "temporalRange": {
-      "olderMa": 360,
+      "olderMa": 500,
       "youngerMa": 0,
       "status": "available",
-      "basis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
-      "evidenceLevel": "legacy-display",
+      "basis": "A systematic study places early phyllocarids in the middle–late Cambrian, and a fossil-calibration review treats phyllocarids as the oldest malacostracans at at least 500 Ma; living representatives extend the navigation envelope to the present.",
+      "evidenceLevel": "literature-synthesized",
       "provisional": true
     },
     "externalIds": {
       "pbdb": "txn:22215"
     },
     "referenceIds": [
+      "collette-hagadorn-2010-archaeostraca",
+      "van-der-wal-2017-malacostracan-calibrations",
       "open-tree",
       "pbdb-api-2016",
       "pbdb-taxa-2026-07-19"
@@ -6716,7 +6791,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "myriapoda",
@@ -6769,7 +6844,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "chilopoda",
@@ -6795,17 +6870,18 @@
       "descendantEntityIds": []
     },
     "temporalRange": {
-      "olderMa": 430,
+      "olderMa": 418,
       "youngerMa": 0,
       "status": "available",
-      "basis": "Legacy rounded display range retained for navigation pending dedicated literature synthesis.",
-      "evidenceLevel": "legacy-display",
+      "basis": "A global fossil catalog identifies Crussolum from Ludford Lane in the Upper Silurian at approximately 418 Ma as the oldest centipede record; living centipedes extend the navigation envelope to the present.",
+      "evidenceLevel": "literature-synthesized",
       "provisional": true
     },
     "externalIds": {
       "pbdb": "txn:205077"
     },
     "referenceIds": [
+      "cadenas-amaya-2025-centipede-fossil-record",
       "open-tree",
       "pbdb-api-2016",
       "pbdb-taxa-2026-07-19"
@@ -6820,7 +6896,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "diplopoda",
@@ -6846,15 +6922,17 @@
       "descendantEntityIds": []
     },
     "temporalRange": {
-      "olderMa": 425,
+      "olderMa": 425.5,
       "youngerMa": 0,
       "status": "available",
-      "basis": "Legacy rounded display range retained for navigation pending dedicated literature synthesis.",
-      "evidenceLevel": "legacy-display",
+      "basis": "A recent age synthesis dates the millipede Kampecaris obanensis to 425.5 ± 4.5 Ma, while an earlier systematic review rejects less secure pre-Pridoli claims; living millipedes extend the navigation envelope to the present.",
+      "evidenceLevel": "literature-synthesized",
       "provisional": true
     },
     "externalIds": {},
     "referenceIds": [
+      "brookfield-2025-kampecaris-age",
+      "almond-lawson-1985-paleozoic-millipedes",
       "open-tree",
       "pbdb-api-2016"
     ],
@@ -6869,7 +6947,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "mandibulate-evidence-route",
@@ -6923,7 +7001,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "tokummia",
@@ -6975,7 +7053,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "waptia",
@@ -7027,7 +7105,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "pancrustacea-evidence-route",
@@ -7081,7 +7159,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "yicaris",
@@ -7133,7 +7211,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "ostracod-phylogenomics",
@@ -7183,7 +7261,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "early-hexapod-evidence-route",
@@ -7237,7 +7315,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "rhyniella",
@@ -7287,7 +7365,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "rhyniognatha",
@@ -7338,7 +7416,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "insect-flight-evidence-route",
@@ -7392,7 +7470,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "paskov-wing",
@@ -7442,7 +7520,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "parhyale-wing-experiment",
@@ -7492,7 +7570,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "insect-radiation-evidence-route",
@@ -7546,7 +7624,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "pennsylvanian-eumetabola",
@@ -7596,7 +7674,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "insect-1kite-dataset",
@@ -7646,7 +7724,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "echinodermata",
@@ -7706,7 +7784,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "crinoidea",
@@ -7758,7 +7836,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "blastoidea",
@@ -7811,7 +7889,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "echinoidea",
@@ -7864,7 +7942,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "asteroidea",
@@ -7916,7 +7994,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "ophiuroidea",
@@ -7968,7 +8046,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "holothuroidea",
@@ -8020,7 +8098,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "hemichordata",
@@ -8076,7 +8154,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "pterobranchia",
@@ -8130,7 +8208,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "graptolithina",
@@ -8180,7 +8258,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "vertebrata",
@@ -8479,7 +8557,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "agnatha",
@@ -8541,7 +8619,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "conodonta",
@@ -8594,7 +8672,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "ostracodermi",
@@ -8647,7 +8725,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "heterostraci",
@@ -8700,7 +8778,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "osteostraci",
@@ -8751,7 +8829,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "cyclostomata",
@@ -8809,7 +8887,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "petromyzontida",
@@ -8859,7 +8937,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "myxini",
@@ -8911,7 +8989,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "cyclostome-fossil-evidence-route",
@@ -8967,7 +9045,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "priscomyzon",
@@ -9019,7 +9097,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "myxinikela",
@@ -9071,7 +9149,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "tethymyxine",
@@ -9123,7 +9201,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "gnathostomata",
@@ -9407,7 +9485,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "placodermi",
@@ -9462,7 +9540,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "arthrodira",
@@ -9514,7 +9592,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "dunkleosteus",
@@ -9566,7 +9644,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "chondrichthyes",
@@ -9627,7 +9705,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "elasmobranchii",
@@ -9679,7 +9757,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "carcharocles",
@@ -9731,7 +9809,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "holocephali",
@@ -9783,7 +9861,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "stem-chondrichthyan-evidence-route",
@@ -9841,7 +9919,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "qianodus",
@@ -9893,7 +9971,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "fanjingshania",
@@ -9943,7 +10021,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "shenacanthus",
@@ -9995,7 +10073,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "gladbachus",
@@ -10047,7 +10125,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "acanthodii",
@@ -10099,7 +10177,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "osteichthyes",
@@ -10369,7 +10447,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "actinopterygii",
@@ -10433,7 +10511,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "neopterygii",
@@ -10493,7 +10571,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "holostei",
@@ -10546,7 +10624,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "lepisosteiformes",
@@ -10596,7 +10674,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "amiiformes",
@@ -10646,7 +10724,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "teleosteomorpha",
@@ -10702,7 +10780,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "teleostei",
@@ -10757,7 +10835,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "elopomorpha",
@@ -10807,7 +10885,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "osteoglossomorpha",
@@ -10857,7 +10935,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "clupeocephala",
@@ -10909,7 +10987,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "salmoniformes",
@@ -10961,7 +11039,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "early-actinopterygian-evidence-route",
@@ -11015,7 +11093,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "cheirolepis-trailli",
@@ -11067,7 +11145,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "fukangichthys",
@@ -11120,7 +11198,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "sarcopterygii",
@@ -11375,7 +11453,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "coelacanthimorpha",
@@ -11425,7 +11503,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "dipnoi",
@@ -11475,7 +11553,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "tetrapodomorpha",
@@ -11727,7 +11805,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "stem-tetrapodomorphs",
@@ -11782,7 +11860,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "tiktaalik",
@@ -11834,7 +11912,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "elpistostege",
@@ -11884,7 +11962,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "acanthostega",
@@ -11934,7 +12012,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "ichthyostega",
@@ -11984,7 +12062,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "tetrapoda",
@@ -12230,7 +12308,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "amphibia",
@@ -12296,7 +12374,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "temnospondyli",
@@ -12348,7 +12426,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "lissamphibia",
@@ -12403,7 +12481,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "anura",
@@ -12453,7 +12531,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "caudata",
@@ -12503,7 +12581,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "gymnophionomorpha",
@@ -12557,7 +12635,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "gymnophiona",
@@ -12607,7 +12685,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "amphibian-fossil-evidence-route",
@@ -12667,7 +12745,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "gerobatrachus",
@@ -12719,7 +12797,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "triadobatrachus",
@@ -12771,7 +12849,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "funcusvermis",
@@ -12823,7 +12901,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "beiyanerpeton",
@@ -12875,7 +12953,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "ymboirana",
@@ -12925,7 +13003,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "amniota",
@@ -13159,7 +13237,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "synapsida",
@@ -13324,7 +13402,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "pelycosauria",
@@ -13380,7 +13458,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "dimetrodon",
@@ -13434,7 +13512,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "ophiacodontidae",
@@ -13485,7 +13563,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "therapsida",
@@ -13647,7 +13725,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "dicynodontia",
@@ -13700,7 +13778,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "cynodontia",
@@ -13859,7 +13937,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "probainognathia",
@@ -13918,7 +13996,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "mammaliamorpha",
@@ -13976,7 +14054,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "mammaliaformes",
@@ -14033,7 +14111,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "haramiyida",
@@ -14086,7 +14164,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "haramiyavia",
@@ -14138,7 +14216,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "morganucodonta",
@@ -14189,7 +14267,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "eutriconodonta",
@@ -14242,7 +14320,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "liaoconodon",
@@ -14294,7 +14372,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "mammalia",
@@ -14446,7 +14524,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "monotremata",
@@ -14500,7 +14578,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "steropodon",
@@ -14552,7 +14630,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "marsupialia",
@@ -14606,7 +14684,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "diprotodontia",
@@ -14658,7 +14736,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "placentalia",
@@ -14799,7 +14877,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "perissodactyla",
@@ -14868,7 +14946,7 @@
       "media": "available",
       "topologyHypothesis": "available"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "brontotheriidae",
@@ -14894,20 +14972,20 @@
       "descendantEntityIds": []
     },
     "temporalRange": {
-      "olderMa": 53,
-      "youngerMa": 34,
-      "status": "available",
-      "basis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
-      "evidenceLevel": "legacy-display",
+      "olderMa": 0,
+      "youngerMa": 0,
+      "status": "withheld-pending-provenance",
+      "basis": "The former 53–34 Ma display is withheld because the species-level monograph documents Eocene records and biogeography without auditing those numbers as exact family-wide first and last appearances.",
+      "evidenceLevel": "withheld-no-range-evidence",
       "provisional": true
     },
     "externalIds": {
       "pbdb": "txn:43027"
     },
     "referenceIds": [
-      "amnh-brontotheres",
-      "pbdb-api-2016",
+      "mihlbachler-2008-brontotheriidae",
       "open-tree",
+      "pbdb-api-2016",
       "pbdb-taxa-2026-07-19"
     ],
     "evidenceStatus": "contextual",
@@ -14920,7 +14998,7 @@
       "media": "available",
       "topologyHypothesis": "available"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "hippomorpha",
@@ -14951,15 +15029,16 @@
       ]
     },
     "temporalRange": {
-      "olderMa": 56,
+      "olderMa": 0,
       "youngerMa": 0,
-      "status": "available",
-      "basis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
-      "evidenceLevel": "legacy-display",
+      "status": "withheld-pending-provenance",
+      "basis": "The former 56–0 Ma display is withheld because the cited comprehensive analysis is restricted to living perissodactyl species and does not audit fossil total-group endpoints.",
+      "evidenceLevel": "withheld-no-range-evidence",
       "provisional": true
     },
     "externalIds": {},
     "referenceIds": [
+      "price-2009-perissodactyl-phylogeny",
       "open-tree",
       "pbdb-api-2016"
     ],
@@ -14974,7 +15053,7 @@
       "media": "unavailable",
       "topologyHypothesis": "available"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "palaeotherium",
@@ -15000,21 +15079,21 @@
       "descendantEntityIds": []
     },
     "temporalRange": {
-      "olderMa": 47.8,
-      "youngerMa": 33.9,
-      "status": "available",
-      "basis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
-      "evidenceLevel": "legacy-display",
+      "olderMa": 0,
+      "youngerMa": 0,
+      "status": "withheld-pending-provenance",
+      "basis": "The former 47.8–33.9 Ma display is withheld because the literature directly supports only a late Eocene La Débruge sample and a regional Hampshire disappearance sequence.",
+      "evidenceLevel": "withheld-no-range-evidence",
       "provisional": true
     },
     "externalIds": {
       "pbdb": "txn:49711"
     },
     "referenceIds": [
-      "amnh-perissodactyl-evolution",
+      "joomun-2008-palaeotherium-diet",
       "hooker-2004-grande-coupure",
-      "pbdb-api-2016",
       "open-tree",
+      "pbdb-api-2016",
       "pbdb-taxa-2026-07-19"
     ],
     "evidenceStatus": "contextual",
@@ -15028,7 +15107,7 @@
       "media": "available",
       "topologyHypothesis": "available"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "equidae",
@@ -15057,17 +15136,18 @@
       ]
     },
     "temporalRange": {
-      "olderMa": 56,
+      "olderMa": 0,
       "youngerMa": 0,
-      "status": "available",
-      "basis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
-      "evidenceLevel": "legacy-display",
+      "status": "withheld-pending-provenance",
+      "basis": "The former 56–0 Ma display is withheld because the cited phylogeny resolves living Equidae and cannot directly validate a family-wide fossil first appearance.",
+      "evidenceLevel": "withheld-no-range-evidence",
       "provisional": true
     },
     "externalIds": {
       "pbdb": "txn:42984"
     },
     "referenceIds": [
+      "price-2009-perissodactyl-phylogeny",
       "open-tree",
       "pbdb-api-2016",
       "pbdb-taxa-2026-07-19"
@@ -15083,7 +15163,7 @@
       "media": "unavailable",
       "topologyHypothesis": "available"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "anchitherium",
@@ -15109,20 +15189,20 @@
       "descendantEntityIds": []
     },
     "temporalRange": {
-      "olderMa": 20.4,
-      "youngerMa": 9,
-      "status": "available",
-      "basis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
-      "evidenceLevel": "legacy-display",
+      "olderMa": 0,
+      "youngerMa": 0,
+      "status": "withheld-pending-provenance",
+      "basis": "The former 20.4–9 Ma display is withheld because the primary study directly supports European MN3–MN9 context and one Sandelzhausen species sample, not exact global genus endpoints.",
+      "evidenceLevel": "withheld-no-range-evidence",
       "provisional": true
     },
     "externalIds": {
       "pbdb": "txn:42987"
     },
     "referenceIds": [
-      "amnh-equidae",
-      "pbdb-api-2016",
+      "kaiser-2009-anchitherium-diet",
       "open-tree",
+      "pbdb-api-2016",
       "pbdb-taxa-2026-07-19"
     ],
     "evidenceStatus": "contextual",
@@ -15135,7 +15215,7 @@
       "media": "available",
       "topologyHypothesis": "available"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "hipparionini",
@@ -15164,8 +15244,8 @@
       "olderMa": 17,
       "youngerMa": 0.6,
       "status": "available",
-      "basis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
-      "evidenceLevel": "legacy-display",
+      "basis": "The display combines an approximately 17 Ma North American review-matrix edge with selected Old World regional records extending to approximately 0.6 Ma; its component records remain separately represented below.",
+      "evidenceLevel": "literature-synthesized",
       "provisional": true
     },
     "externalIds": {
@@ -15174,8 +15254,8 @@
     "referenceIds": [
       "mc-horse-monodactyly-2019",
       "bernor-2021-hipparions",
-      "pbdb-api-2016",
       "open-tree",
+      "pbdb-api-2016",
       "pbdb-taxa-2026-07-19"
     ],
     "evidenceStatus": "contextual",
@@ -15188,7 +15268,7 @@
       "media": "available",
       "topologyHypothesis": "available"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "ancylopoda",
@@ -15216,15 +15296,16 @@
       ]
     },
     "temporalRange": {
-      "olderMa": 52,
-      "youngerMa": 1.8,
-      "status": "available",
-      "basis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
-      "evidenceLevel": "legacy-display",
+      "olderMa": 0,
+      "youngerMa": 0,
+      "status": "withheld-pending-provenance",
+      "basis": "The former 52–1.8 Ma display is withheld because the available primary study is a morphology-based phylogenetic analysis and does not establish Ancylopoda range endpoints.",
+      "evidenceLevel": "withheld-no-range-evidence",
       "provisional": true
     },
     "externalIds": {},
     "referenceIds": [
+      "froehlich-1999-basal-perissodactyls",
       "open-tree",
       "pbdb-api-2016"
     ],
@@ -15239,7 +15320,7 @@
       "media": "unavailable",
       "topologyHypothesis": "available"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "chalicotherium",
@@ -15265,20 +15346,20 @@
       "descendantEntityIds": []
     },
     "temporalRange": {
-      "olderMa": 15.97,
-      "youngerMa": 5.33,
-      "status": "available",
-      "basis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
-      "evidenceLevel": "legacy-display",
+      "olderMa": 0,
+      "youngerMa": 0,
+      "status": "withheld-pending-provenance",
+      "basis": "The former 15.97–5.33 Ma display is withheld because the dental-wear study directly covers selected southern German MN5–MN9 samples rather than genus-wide first and last appearances.",
+      "evidenceLevel": "withheld-no-range-evidence",
       "provisional": true
     },
     "externalIds": {
       "pbdb": "txn:43079"
     },
     "referenceIds": [
-      "amnh-perissodactyl-evolution",
-      "pbdb-api-2016",
+      "schulz-2007-chalicothere-feeding",
       "open-tree",
+      "pbdb-api-2016",
       "pbdb-taxa-2026-07-19"
     ],
     "evidenceStatus": "contextual",
@@ -15291,7 +15372,7 @@
       "media": "available",
       "topologyHypothesis": "available"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "ceratomorpha",
@@ -15325,15 +15406,16 @@
       ]
     },
     "temporalRange": {
-      "olderMa": 56,
+      "olderMa": 0,
       "youngerMa": 0,
-      "status": "available",
-      "basis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
-      "evidenceLevel": "legacy-display",
+      "status": "withheld-pending-provenance",
+      "basis": "The former 56–0 Ma display is withheld because the primary study analyzes Ceratomorpha morphology and competing phylogenetic placements without auditing a complete fossil range.",
+      "evidenceLevel": "withheld-no-range-evidence",
       "provisional": true
     },
     "externalIds": {},
     "referenceIds": [
+      "bai-2020-ceratomorpha",
       "open-tree",
       "pbdb-api-2016"
     ],
@@ -15348,7 +15430,7 @@
       "media": "unavailable",
       "topologyHypothesis": "available"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "tapiroidea",
@@ -15374,17 +15456,18 @@
       "descendantEntityIds": []
     },
     "temporalRange": {
-      "olderMa": 55,
+      "olderMa": 0,
       "youngerMa": 0,
-      "status": "available",
-      "basis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
-      "evidenceLevel": "legacy-display",
+      "status": "withheld-pending-provenance",
+      "basis": "The former 55–0 Ma display is withheld because the cited primary study supports tapiroid relationships but does not audit a global taxon range.",
+      "evidenceLevel": "withheld-no-range-evidence",
       "provisional": true
     },
     "externalIds": {
       "pbdb": "txn:43104"
     },
     "referenceIds": [
+      "bai-2020-ceratomorpha",
       "open-tree",
       "pbdb-api-2016",
       "pbdb-taxa-2026-07-19"
@@ -15399,7 +15482,7 @@
       "media": "unavailable",
       "topologyHypothesis": "available"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "rhinocerotoidea",
@@ -15431,17 +15514,18 @@
       ]
     },
     "temporalRange": {
-      "olderMa": 54,
+      "olderMa": 0,
       "youngerMa": 0,
-      "status": "available",
-      "basis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
-      "evidenceLevel": "legacy-display",
+      "status": "withheld-pending-provenance",
+      "basis": "The former 54–0 Ma display is withheld because the primary study revises early rhinocerotoids and tests their topology rather than auditing the complete superfamily fossil range.",
+      "evidenceLevel": "withheld-no-range-evidence",
       "provisional": true
     },
     "externalIds": {
       "pbdb": "txn:43140"
     },
     "referenceIds": [
+      "bai-2020-ceratomorpha",
       "open-tree",
       "pbdb-api-2016",
       "pbdb-taxa-2026-07-19"
@@ -15456,7 +15540,7 @@
       "media": "unavailable",
       "topologyHypothesis": "available"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "metamynodon",
@@ -15482,20 +15566,20 @@
       "descendantEntityIds": []
     },
     "temporalRange": {
-      "olderMa": 40.4,
-      "youngerMa": 23,
-      "status": "available",
-      "basis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
-      "evidenceLevel": "legacy-display",
+      "olderMa": 0,
+      "youngerMa": 0,
+      "status": "withheld-pending-provenance",
+      "basis": "The former 40.4–23 Ma display is withheld because the primary report directly documents an Orellan Metamynodon planifrons anatomical sample rather than a genus-wide range.",
+      "evidenceLevel": "withheld-no-range-evidence",
       "provisional": true
     },
     "externalIds": {
       "pbdb": "txn:43179"
     },
     "referenceIds": [
-      "amnh-amynodonts",
-      "pbdb-api-2016",
+      "wall-heinbaugh-1999-metamynodon-locomotion",
       "open-tree",
+      "pbdb-api-2016",
       "pbdb-taxa-2026-07-19"
     ],
     "evidenceStatus": "contextual",
@@ -15508,7 +15592,7 @@
       "media": "available",
       "topologyHypothesis": "available"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "paraceratherium",
@@ -15534,11 +15618,11 @@
       "descendantEntityIds": []
     },
     "temporalRange": {
-      "olderMa": 34,
-      "youngerMa": 20,
+      "olderMa": 26.5,
+      "youngerMa": 26.5,
       "status": "available",
-      "basis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
-      "evidenceLevel": "legacy-display",
+      "basis": "Faunal correlation and palaeomagnetic placement date the Paraceratherium linxiaense LX1808 material to the middle of chron C8r at approximately 26.5 Ma.",
+      "evidenceLevel": "literature-synthesized",
       "provisional": true
     },
     "externalIds": {
@@ -15546,8 +15630,8 @@
     },
     "referenceIds": [
       "deng-2021-paraceratherium",
-      "pbdb-api-2016",
       "open-tree",
+      "pbdb-api-2016",
       "pbdb-taxa-2026-07-19"
     ],
     "evidenceStatus": "contextual",
@@ -15560,7 +15644,7 @@
       "media": "available",
       "topologyHypothesis": "available"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "rhinocerotidae",
@@ -15589,17 +15673,19 @@
       ]
     },
     "temporalRange": {
-      "olderMa": 40,
+      "olderMa": 0,
       "youngerMa": 0,
-      "status": "available",
-      "basis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
-      "evidenceLevel": "legacy-display",
+      "status": "withheld-pending-provenance",
+      "basis": "The former 40–0 Ma display is withheld because the cited studies address early rhinocerotoid relationships and extant species topology without validating a family-wide fossil first appearance.",
+      "evidenceLevel": "withheld-no-range-evidence",
       "provisional": true
     },
     "externalIds": {
       "pbdb": "txn:43187"
     },
     "referenceIds": [
+      "bai-2020-ceratomorpha",
+      "price-2009-perissodactyl-phylogeny",
       "open-tree",
       "pbdb-api-2016",
       "pbdb-taxa-2026-07-19"
@@ -15614,7 +15700,7 @@
       "media": "unavailable",
       "topologyHypothesis": "available"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "teleoceras",
@@ -15640,22 +15726,20 @@
       "descendantEntityIds": []
     },
     "temporalRange": {
-      "olderMa": 16,
-      "youngerMa": 4.5,
+      "olderMa": 12.5,
+      "youngerMa": 10,
       "status": "available",
-      "basis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
-      "evidenceLevel": "legacy-display",
+      "basis": "The primary isotope study places North American Teleoceras major within the Clarendonian at 12.5–10 Ma and directly dates the sampled Ashfall site to 11.86 ± 0.13 Ma.",
+      "evidenceLevel": "literature-synthesized",
       "provisional": true
     },
     "externalIds": {
       "pbdb": "txn:43226"
     },
     "referenceIds": [
-      "macfadden-1998-teleoceras",
-      "ward-2024-teleoceras",
       "ward-2025-teleoceras",
-      "pbdb-api-2016",
       "open-tree",
+      "pbdb-api-2016",
       "pbdb-taxa-2026-07-19"
     ],
     "evidenceStatus": "contextual",
@@ -15668,7 +15752,7 @@
       "media": "available",
       "topologyHypothesis": "available"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "coelodonta",
@@ -15694,21 +15778,21 @@
       "descendantEntityIds": []
     },
     "temporalRange": {
-      "olderMa": 3.6,
-      "youngerMa": 0.014,
+      "olderMa": 5.08,
+      "youngerMa": 0.0144,
       "status": "available",
-      "basis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
-      "evidenceLevel": "legacy-display",
+      "basis": "A systematic review identifies Coelodonta thibetana at 5.08 Ma as the earliest known genus record, while a genomic primary study directly dates a Coelodonta antiquitatis individual to 14.4 ka.",
+      "evidenceLevel": "literature-synthesized",
       "provisional": true
     },
     "externalIds": {
       "pbdb": "txn:43197"
     },
     "referenceIds": [
+      "ma-2024-coelodonta-paleoecology",
       "gudjonsdottir-2026-coelodonta",
-      "liu-2021-rhinoceros-genomes",
-      "pbdb-api-2016",
       "open-tree",
+      "pbdb-api-2016",
       "pbdb-taxa-2026-07-19"
     ],
     "evidenceStatus": "contextual",
@@ -15721,7 +15805,7 @@
       "media": "available",
       "topologyHypothesis": "available"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "carnivora",
@@ -15795,7 +15879,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "carnivoraformes-dossiers",
@@ -15850,7 +15934,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "dormaalocyon",
@@ -15902,7 +15986,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "vulpavus",
@@ -15952,7 +16036,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "uintacyon",
@@ -16002,7 +16086,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "lycophocyon",
@@ -16052,7 +16136,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "feliformia",
@@ -16106,7 +16190,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "felidae",
@@ -16161,7 +16245,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "smilodon",
@@ -16214,7 +16298,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "panthera-blytheae",
@@ -16266,7 +16350,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "caniformia",
@@ -16328,7 +16412,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "canidae",
@@ -16382,7 +16466,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "hesperocyon",
@@ -16433,7 +16517,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "amphicyonidae",
@@ -16488,7 +16572,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "gustafsonia",
@@ -16538,7 +16622,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "angelarctocyon",
@@ -16588,7 +16672,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "magericyon",
@@ -16638,7 +16722,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "ursidae",
@@ -16690,7 +16774,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "kretzoiarctos",
@@ -16740,7 +16824,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "pinnipedimorpha",
@@ -16793,7 +16877,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "puijila",
@@ -16845,7 +16929,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "enaliarctos",
@@ -16895,7 +16979,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "chiroptera",
@@ -16949,7 +17033,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "onychonycteris",
@@ -17001,7 +17085,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "whippomorpha",
@@ -17070,7 +17154,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "hippopotamidae",
@@ -17120,7 +17204,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "cetaceamorpha",
@@ -17187,7 +17271,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "raoellidae",
@@ -17240,7 +17324,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "indohyus",
@@ -17292,7 +17376,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "cetacea",
@@ -17358,7 +17442,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "pakicetidae",
@@ -17411,7 +17495,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "pakicetus",
@@ -17461,7 +17545,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "ambulocetidae",
@@ -17514,7 +17598,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "ambulocetus",
@@ -17566,7 +17650,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "protocetidae",
@@ -17620,7 +17704,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "peregocetus",
@@ -17670,7 +17754,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "aegicetus",
@@ -17722,7 +17806,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "basilosauridae",
@@ -17777,7 +17861,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "basilosaurus",
@@ -17827,7 +17911,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "neoceti",
@@ -17881,7 +17965,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "mysticeti",
@@ -17932,7 +18016,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "odontoceti",
@@ -17983,7 +18067,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "primatomorpha",
@@ -18054,7 +18138,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "plesiadapiformes",
@@ -18107,7 +18191,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "purgatorius",
@@ -18159,7 +18243,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "primates",
@@ -18229,7 +18313,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "altiatlasius",
@@ -18279,7 +18363,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "adapiformes",
@@ -18333,7 +18417,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "notharctus",
@@ -18383,7 +18467,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "darwinius",
@@ -18435,7 +18519,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "strepsirrhini",
@@ -18485,7 +18569,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "haplorhini",
@@ -18547,7 +18631,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "teilhardina",
@@ -18597,7 +18681,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "anthropoidea",
@@ -18657,7 +18741,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "eosimias",
@@ -18707,7 +18791,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "catarrhini",
@@ -18765,7 +18849,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "saadanius",
@@ -18817,7 +18901,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "hominoidea",
@@ -18873,7 +18957,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "morotopithecus",
@@ -18923,7 +19007,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "hominidae",
@@ -18979,7 +19063,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "homo",
@@ -19035,7 +19119,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "homo_sapiens",
@@ -19088,7 +19172,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "homo_neanderthalensis",
@@ -19141,7 +19225,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "afrotheria",
@@ -19195,7 +19279,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "proboscidea",
@@ -19250,7 +19334,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "mammuthus",
@@ -19303,7 +19387,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "eritherium",
@@ -19353,7 +19437,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "xenarthra",
@@ -19405,7 +19489,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "thalassocnus",
@@ -19455,7 +19539,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "glires",
@@ -19509,7 +19593,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "rodentia",
@@ -19561,7 +19645,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "mimolagus",
@@ -19611,7 +19695,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "therian-boundary-evidence",
@@ -19667,7 +19751,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "juramaia",
@@ -19718,7 +19802,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "eomaia",
@@ -19770,7 +19854,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "ambolestes",
@@ -19820,7 +19904,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "raranimus",
@@ -19872,7 +19956,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "sauropsida",
@@ -19988,7 +20072,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "testudines",
@@ -20043,7 +20127,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "cryptodira",
@@ -20093,7 +20177,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "pleurodira",
@@ -20143,7 +20227,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "ichthyosauria",
@@ -20198,7 +20282,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "ichthyosaurus",
@@ -20250,7 +20334,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "cartorhynchus",
@@ -20300,7 +20384,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "chaohusaurus",
@@ -20350,7 +20434,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "stenopterygius",
@@ -20400,7 +20484,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "plesiosauria",
@@ -20457,7 +20541,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "elasmosauridae",
@@ -20509,7 +20593,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "rhaeticosaurus",
@@ -20559,7 +20643,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "polycotylus",
@@ -20609,7 +20693,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "lepidosauria",
@@ -20668,7 +20752,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "rhynchocephalia",
@@ -20718,7 +20802,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "pan-squamata",
@@ -20773,7 +20857,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "squamata",
@@ -20828,7 +20912,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "serpentes",
@@ -20878,7 +20962,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "mosasauroidea",
@@ -20930,7 +21014,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "mosasauridae",
@@ -20983,7 +21067,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "archosauria",
@@ -21079,7 +21163,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "crocodylomorpha",
@@ -21133,7 +21217,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "carnufex",
@@ -21183,7 +21267,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "junggarsuchus",
@@ -21233,7 +21317,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "crocodylia",
@@ -21283,7 +21367,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "pterosauria",
@@ -21339,7 +21423,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "pteranodontidae",
@@ -21391,7 +21475,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "tupandactylus",
@@ -21441,7 +21525,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "hamipterus",
@@ -21491,7 +21575,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "dinosauria",
@@ -21578,7 +21662,7 @@
       "media": "unavailable",
       "topologyHypothesis": "available"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "ornithischia",
@@ -21641,7 +21725,7 @@
       "media": "unavailable",
       "topologyHypothesis": "available"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "stegosauria",
@@ -21692,7 +21776,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "ankylosauria",
@@ -21744,7 +21828,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "ankylosaurus",
@@ -21797,7 +21881,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "ceratopsia",
@@ -21853,7 +21937,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "triceratops",
@@ -21906,7 +21990,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "yinlong",
@@ -21956,7 +22040,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "hadrosauridae",
@@ -22011,7 +22095,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "edmontosaurus",
@@ -22064,7 +22148,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "eocursor",
@@ -22114,7 +22198,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "thyreophora",
@@ -22166,7 +22250,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "scelidosaurus",
@@ -22216,7 +22300,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "saurischia",
@@ -22291,7 +22375,7 @@
       "media": "unavailable",
       "topologyHypothesis": "available"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "sauropodomorpha",
@@ -22349,7 +22433,7 @@
       "media": "unavailable",
       "topologyHypothesis": "available"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "brachiosauridae",
@@ -22402,7 +22486,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "diplodocidae",
@@ -22453,7 +22537,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "titanosauria",
@@ -22506,7 +22590,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "buriolestes",
@@ -22556,7 +22640,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "mussaurus",
@@ -22606,7 +22690,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "ledumahadi",
@@ -22656,7 +22740,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "theropoda",
@@ -22724,7 +22808,7 @@
       "media": "unavailable",
       "topologyHypothesis": "available"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "tyrannosauridae",
@@ -22779,7 +22863,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "tyrannosaurus",
@@ -22832,7 +22916,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "spinosauridae",
@@ -22887,7 +22971,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "spinosaurus",
@@ -22940,7 +23024,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "dromaeosauridae",
@@ -22995,7 +23079,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "velociraptor",
@@ -23048,7 +23132,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "aves",
@@ -23107,7 +23191,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "archaeopteryx",
@@ -23159,7 +23243,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "neornithes",
@@ -23217,7 +23301,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "phorusrhacidae",
@@ -23270,7 +23354,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "asteriornis",
@@ -23320,7 +23404,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "vegavis",
@@ -23370,7 +23454,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "neoaves",
@@ -23420,7 +23504,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "yutyrannus",
@@ -23470,7 +23554,7 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   },
   {
     "id": "oviraptorosauria",
@@ -23520,6 +23604,6 @@
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },
-    "version": "2026.08-static-v5-rc49"
+    "version": "2026.08-static-v5-rc50"
   }
 ]

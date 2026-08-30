@@ -35,17 +35,17 @@
     "id": "range:cycadophyta:global",
     "entityId": "cycadophyta",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Cycadophyta",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 280,
+    "taxonomicConcept": "Cycadales total-evidence model-to-living navigation interval",
+    "geographicScope": "Fossilized birth–death model estimate for crown Cycadales plus living cycads",
+    "olderMa": 330.4,
     "youngerMa": 0,
     "status": "available",
     "uncertainty": {
-      "olderMa": null,
+      "olderMa": 34.2,
       "youngerMa": null,
-      "note": "The 280–0 Ma atlas envelope is a rounded total-group navigation span contextualized by fossil-integrated analyses, not a directly dated crown FAD or uninterrupted lineage."
+      "note": "The 330.4 Ma older endpoint is a fossilized birth–death posterior median with 95% HPD 296.2–358.9 Ma, not a directly observed fossil FAD."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "evidenceBasis": "Coiro et al. integrate 60 fossil species with living cycads and estimate crown Cycadales at median 330.4 Ma; 0 Ma denotes living members.",
     "confidence": "medium",
     "claimIds": [
       "claim:taxon:cycadophyta:fossil-range"
@@ -53,35 +53,27 @@
     "referenceLocators": [
       {
         "referenceId": "coiro-2023-cycad-biogeography",
-        "locator": "1619–1631; Figures 2–6; Table 1"
-      },
-      {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
-      },
-      {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "locator": "Methods tree-age prior; Results “Total-evidence dating of cycads”; Figure 2; Table 1, Cycadales median 330.4 Ma, 95% HPD 296.2–358.9 Ma"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "literature-synthesized"
   },
   {
     "id": "range:ginkgophyta:global",
     "entityId": "ginkgophyta",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Ginkgophyta",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 270,
+    "taxonomicConcept": "Ginkgo-like wood sample-to-living ginkgophyte navigation anthology",
+    "geographicScope": "Tiaojishan Formation Ginkgoxylon sample plus living Ginkgo",
+    "olderMa": 165,
     "youngerMa": 0,
     "status": "available",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "The 270–0 Ma atlas envelope remains a rounded phylum navigation range; the 165–153 Ma wood specimen is a bounded occurrence, not the ginkgophyte FAD."
+      "note": "The 165 Ma edge is the older limit of a 153–165 Ma fossil-wood sample, not a ginkgophyte phylum FAD or a continuous single lineage."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "evidenceBasis": "Jiang et al. date and diagnose Ginkgoxylon liaoningense from the 153–165 Ma Tiaojishan Formation; 0 Ma denotes living Ginkgo.",
     "confidence": "medium",
     "claimIds": [
       "claim:taxon:ginkgophyta:fossil-range"
@@ -89,78 +81,66 @@
     "referenceLocators": [
       {
         "referenceId": "jiang-2016-ginkgoxylon",
-        "locator": "38191, 1–8; Figures 1–3; Systematic palaeontology"
-      },
-      {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
-      },
-      {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "locator": "Article 38191, pp. 1–8; Figures 1–3; 153–165 Ma Tiaojishan age and systematic palaeontology"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "literature-synthesized"
   },
   {
     "id": "range:coniferophyta:global",
     "entityId": "coniferophyta",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Coniferophyta",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 310,
+    "taxonomicConcept": "Coniferophyta review-bounded fossil-to-living navigation range",
+    "geographicScope": "Review statement of a fossil record exceeding 300 Myr plus living conifers",
+    "olderMa": 300,
     "youngerMa": 0,
     "status": "available",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "note": "The 300 Ma edge is a conservative display floor for “more than 300 million years,” not a precise conifer origin or oldest-specimen date."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "evidenceBasis": "Leslie et al. review an extensive conifer fossil record spanning more than 300 Myr and explicitly caution that extant molecular samples omit extinct diversity.",
     "confidence": "medium",
-    "claimIds": [],
+    "claimIds": [
+      "claim:taxon:coniferophyta:range-boundary-rc50"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
-      },
-      {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "leslie-2018-conifer-evolution",
+        "locator": "1531–1544; Abstract; Figures 1–3; fossil-record synthesis and conclusions"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "literature-synthesized"
   },
   {
     "id": "range:araucariaceae:global",
     "entityId": "araucariaceae",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Araucariaceae",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 245,
+    "taxonomicConcept": "Araucariaceae Hettangian-specimen-to-living navigation anthology",
+    "geographicScope": "Holyoke Araucaria bract-scale specimen plus living Araucariaceae",
+    "olderMa": 201.4,
     "youngerMa": 0,
     "status": "available",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "note": "The Hettangian specimen anchors a conservative sample-to-living display; it is not the family FAD, a Triassic absence claim or exact crown origin."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "evidenceBasis": "Axsmith et al. describe specimen J 1430 from the Hettangian South Hadley Falls Member as a bona fide Araucariaceae megafossil; 0 Ma denotes living family members.",
     "confidence": "medium",
-    "claimIds": [],
+    "claimIds": [
+      "claim:taxon:araucariaceae:range-boundary-rc50"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
-      },
-      {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "axsmith-2008-holyoke-araucaria",
+        "locator": "Abstract; Materials and Methods “Locality and Geological Setting”; Figure 2; Discussion; Hettangian specimen J 1430"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "literature-synthesized"
   }
 ]

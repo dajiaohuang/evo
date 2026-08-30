@@ -31,61 +31,29 @@
     "id": "range:stromatoporoidea:global",
     "entityId": "stromatoporoidea",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Stromatoporoidea",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 485,
-    "youngerMa": 359,
-    "status": "available",
-    "uncertainty": {
-      "olderMa": null,
-      "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
-    },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
-    "confidence": "medium",
-    "claimIds": [],
-    "referenceLocators": [
-      {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
-      },
-      {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
-      }
-    ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
-  },
-  {
-    "id": "range:demospongiae:global",
-    "entityId": "demospongiae",
-    "rangeKind": "global-composite",
-    "taxonomicConcept": "Demospongiae",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 540,
+    "taxonomicConcept": "Stromatoporoidea / stromatoporoid-grade temporal range",
+    "geographicScope": "Two disjunct fossil episodes; no continuous canonical interval asserted",
+    "olderMa": 0,
     "youngerMa": 0,
-    "status": "available",
+    "status": "withheld-pending-provenance",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "note": "The literature separates Palaeozoic and Mesozoic–rare Cenozoic stromatoporoid-grade episodes and does not justify a single continuous clade duration."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
-    "confidence": "medium",
-    "claimIds": [],
+    "evidenceBasis": "The former 485–359 Ma display is withheld because a scalar interval would erase the major post-Devonian gap and the grade-level taxonomic problem.",
+    "confidence": "low",
+    "claimIds": [
+      "claim:taxon:stromatoporoidea:range-boundary-rc50"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
-      },
-      {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "kershaw-jeon-2024-stromatoporoids-extinctions",
+        "locator": "Abstract; two-major-episodes synthesis; conclusions on Palaeozoic and Mesozoic–rare Cenozoic records"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "withheld-no-range-evidence"
   },
   {
     "id": "range:cnidaria:global",
@@ -119,146 +87,155 @@
     "id": "range:anthozoa:global",
     "entityId": "anthozoa",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Anthozoa",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 540,
+    "taxonomicConcept": "Crown Anthozoa temporal range",
+    "geographicScope": "Crown interval pending fossil or time-calibrated range evidence",
+    "olderMa": 0,
     "youngerMa": 0,
-    "status": "available",
+    "status": "withheld-pending-provenance",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "note": "The cited phylogenomic topology does not provide a fossil occurrence or a time-calibrated crown-Anthozoa boundary."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
-    "confidence": "medium",
-    "claimIds": [],
+    "evidenceBasis": "The former 540–0 Ma display is withheld rather than converting an extant topology or a stem-medusozoan fossil into an anthozoan FAD.",
+    "confidence": "low",
+    "claimIds": [
+      "claim:taxon:anthozoa:range-boundary-rc50"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
-      },
-      {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "zapata-2015-cnidaria",
+        "locator": "Article e0139068; Figures 1–3; phylogenomic matrices and topology tests"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "withheld-no-range-evidence"
   },
   {
     "id": "range:rugosa:global",
     "entityId": "rugosa",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Rugosa",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 488,
-    "youngerMa": 252,
+    "taxonomicConcept": "Rugosa review-bounded fossil record",
+    "geographicScope": "Global fossil record synthesized from Middle Ordovician through end-Permian",
+    "olderMa": 471.3,
+    "youngerMa": 251.9,
     "status": "available",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "note": "Numerical endpoints translate the source's named Middle Ordovician and end-Permian boundaries using ICS v2026/06; they are not specimen-level dates."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "evidenceBasis": "Oliver synthesizes an essentially continuous Middle Ordovician–end-Permian rugose-coral record; ICS supplies only the numerical stage conversion.",
     "confidence": "medium",
-    "claimIds": [],
+    "claimIds": [
+      "claim:taxon:rugosa:range-boundary-rc50"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
+        "referenceId": "oliver-1996-paleozoic-corals",
+        "locator": "p. 107 Abstract; pp. 107–110; Middle Ordovician to end-Permian Rugosa synthesis"
       },
       {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "ics-2026-06",
+        "locator": "International Chronostratigraphic Chart v2026/06; numerical boundaries"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "literature-synthesized"
   },
   {
     "id": "range:tabulata:global",
     "entityId": "tabulata",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Tabulata",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 488,
-    "youngerMa": 252,
+    "taxonomicConcept": "Tabulata review-bounded fossil record",
+    "geographicScope": "Global fossil record synthesized from Early Ordovician through end-Permian",
+    "olderMa": 486.85,
+    "youngerMa": 251.9,
     "status": "available",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "note": "Numerical endpoints translate the source's named Early Ordovician and end-Permian boundaries using ICS v2026/06; they are not specimen-level dates."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "evidenceBasis": "Oliver synthesizes an essentially continuous Early Ordovician–end-Permian tabulate-coral record; ICS supplies only the numerical conversion.",
     "confidence": "medium",
-    "claimIds": [],
+    "claimIds": [
+      "claim:taxon:tabulata:range-boundary-rc50"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
+        "referenceId": "oliver-1996-paleozoic-corals",
+        "locator": "p. 107 Abstract; pp. 107–110; Early Ordovician to end-Permian Tabulata synthesis"
       },
       {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "ics-2026-06",
+        "locator": "International Chronostratigraphic Chart v2026/06; numerical boundaries"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "literature-synthesized"
   },
   {
-    "id": "range:scleractinia:global",
+    "id": "range:scleractinia:oliver-middle-triassic-holocene",
     "entityId": "scleractinia",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Scleractinia",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 245,
+    "taxonomicConcept": "Scleractinia review-bounded fossil-to-living navigation range",
+    "geographicScope": "Middle Triassic fossil record through living Scleractinia",
+    "olderMa": 247.2,
     "youngerMa": 0,
     "status": "available",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "note": "The older endpoint translates the named Middle Triassic boundary using ICS v2026/06; it is distinct from molecular-clock estimates and individual symbiosis events."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "evidenceBasis": "Oliver explicitly reviews living Scleractinia as ranging from the Middle Triassic to Holocene; ICS supplies only the numerical boundary conversion.",
+    "evidenceLevel": "literature-synthesized",
     "confidence": "medium",
-    "claimIds": [],
+    "claimIds": [
+      "claim:taxon:scleractinia:range-boundary-rc50"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
+        "referenceId": "oliver-1996-paleozoic-corals",
+        "locator": "p. 107 Abstract; pp. 107–110; Middle Triassic–Holocene Scleractinia synthesis"
       },
       {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "ics-2026-06",
+        "locator": "International Chronostratigraphic Chart v2026/06; numerical Middle Triassic boundary"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed"
   },
   {
     "id": "range:demospongiae:sponges-cnidarians-cryogenian-sponge-biomarker-debate",
     "entityId": "demospongiae",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Cryogenian sponge-biomarker attribution test evidence boundary",
-    "geographicScope": "South Oman Salt Basin, Sultanate of Oman",
+    "taxonomicConcept": "Demospongiae contested biomarker-to-living navigation anthology",
+    "geographicScope": "Cryogenian South Oman biomarker record plus living demosponges",
     "olderMa": 635,
-    "youngerMa": 541,
+    "youngerMa": 0,
     "status": "available",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Compound presence, depositional age and biological source are separate propositions; alternative extinct producers and diagenetic pathways are not exhaustively excluded."
+      "note": "The 635 Ma edge is a contested biomarker attribution, not a demosponge body-fossil FAD, crown divergence date or uninterrupted occupancy claim."
     },
-    "evidenceBasis": "Named specimen, explicitly bounded geochemical or genomic dataset, or stated model interval in the cited primary studies.",
+    "evidenceBasis": "Love et al. report Cryogenian 24-isopropylcholestanes, while Nettersheim et al. demonstrate non-sponge precursor production; the present endpoint denotes living demosponges.",
     "evidenceLevel": "literature-synthesized",
     "confidence": "contested",
     "claimIds": [
-      "claim:event:cryogenian-sponge-biomarker-debate"
+      "claim:event:cryogenian-sponge-biomarker-debate",
+      "claim:taxon:demospongiae:range-boundary-rc50"
     ],
     "referenceLocators": [
       {
         "referenceId": "love-2009-sponge-steranes",
-        "locator": "718–721; Figures 1–3; Supplementary Tables 1–4; MRM sterane measurements and stratigraphic context"
+        "locator": "718–721; Figures 1–3; Supplementary Tables 1–4; South Oman steranes and stratigraphy"
+      },
+      {
+        "referenceId": "nettersheim-2019-rhizaria-steranes",
+        "locator": "577–581; Figures 1–3; Supplementary Tables; rhizarian sterol biosynthesis and specificity limit"
       }
     ],
     "reviewStatus": "automated-audit-passed"
@@ -325,26 +302,27 @@
     "id": "range:hexactinellida:sponges-cnidarians-soltanieh-basal-cambrian-spicules",
     "entityId": "hexactinellida",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Basal-Cambrian Soltanieh sponge spicules evidence boundary",
-    "geographicScope": "Soltanieh Formation, northern Iran",
+    "taxonomicConcept": "Hexactinellida basal-Cambrian-spicule-to-living navigation anthology",
+    "geographicScope": "Soltanieh Formation siliceous spicules plus living glass sponges",
     "olderMa": 536,
-    "youngerMa": 533,
+    "youngerMa": 0,
     "status": "available",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "“Oldest reliable” is conditional on the paper’s diagnostic criteria and then-known record; it is neither a permanent global FAD nor proof of a crown hexactinellid."
+      "note": "The basal-Cambrian material is the oldest reliable sponge evidence in the review and is used as a cautious hexactinellid navigation anchor, not an exact crown FAD."
     },
-    "evidenceBasis": "Named specimen, explicitly bounded geochemical or genomic dataset, or stated model interval in the cited primary studies.",
+    "evidenceBasis": "Antcliffe et al. reassess early sponge candidates and retain basal-Cambrian siliceous spicules as reliable; 0 Ma denotes living hexactinellids.",
     "evidenceLevel": "literature-synthesized",
     "confidence": "medium",
     "claimIds": [
-      "claim:event:soltanieh-basal-cambrian-spicules"
+      "claim:event:soltanieh-basal-cambrian-spicules",
+      "claim:taxon:hexactinellida"
     ],
     "referenceLocators": [
       {
         "referenceId": "antcliffe-2014-sponge-record",
-        "locator": "972–1004; Figures 1–13; Tables 1–2; Diagnostic criteria, Iranian material and candidate reassessment"
+        "locator": "972–1004; Figures 1–13; Tables 1–2; diagnostic criteria, Soltanieh spicules and candidate reassessment"
       }
     ],
     "reviewStatus": "automated-audit-passed"
@@ -396,7 +374,8 @@
     "evidenceLevel": "literature-synthesized",
     "confidence": "contested",
     "claimIds": [
-      "claim:event:haootia-muscle-interpretation"
+      "claim:event:haootia-muscle-interpretation",
+      "claim:taxon:haootia:range-boundary-rc50"
     ],
     "referenceLocators": [
       {
@@ -424,7 +403,8 @@
     "evidenceLevel": "literature-synthesized",
     "confidence": "contested",
     "claimIds": [
-      "claim:event:xianguangia-body-plan-test"
+      "claim:event:xianguangia-body-plan-test",
+      "claim:taxon:xianguangia:range-boundary-rc50"
     ],
     "referenceLocators": [
       {
@@ -452,7 +432,8 @@
     "evidenceLevel": "literature-synthesized",
     "confidence": "high",
     "claimIds": [
-      "claim:event:burgessomedusa-swimming-medusa"
+      "claim:event:burgessomedusa-swimming-medusa",
+      "claim:taxon:burgessomedusa:range-boundary-rc50"
     ],
     "referenceLocators": [
       {
@@ -465,7 +446,7 @@
   {
     "id": "range:scleractinia:sponges-cnidarians-scleractinian-paleozoic-clock",
     "entityId": "scleractinia",
-    "rangeKind": "global-composite",
+    "rangeKind": "taxon-range",
     "taxonomicConcept": "Paleozoic scleractinian clock model evidence boundary",
     "geographicScope": "Global sampled deep- and shallow-water living corals",
     "olderMa": 425,
@@ -493,7 +474,7 @@
   {
     "id": "range:scleractinia:sponges-cnidarians-triassic-coral-photosymbiosis",
     "entityId": "scleractinia",
-    "rangeKind": "global-composite",
+    "rangeKind": "taxon-range",
     "taxonomicConcept": "Late-Triassic coral photosymbiosis test evidence boundary",
     "geographicScope": "Taurus Mountains near Antalya, Turkey",
     "olderMa": 213,
@@ -519,471 +500,315 @@
     "reviewStatus": "automated-audit-passed"
   },
   {
-    "id": "range:hexactinellida:global",
-    "entityId": "hexactinellida",
-    "rangeKind": "global-composite",
-    "taxonomicConcept": "hexactinellida",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 551,
-    "youngerMa": 0,
-    "status": "available",
-    "uncertainty": {
-      "olderMa": null,
-      "youngerMa": null,
-      "note": "Rounded navigation bounds are not claim-linked fossil first or last appearances and do not establish crown origination."
-    },
-    "evidenceBasis": "Curated navigation display range; taxonomic membership, fossil occurrence and model divergence time remain separate.",
-    "confidence": "medium",
-    "claimIds": [],
-    "referenceLocators": [
-      {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
-      }
-    ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
-  },
-  {
-    "id": "range:helicolocellus:global",
-    "entityId": "helicolocellus",
-    "rangeKind": "global-composite",
-    "taxonomicConcept": "helicolocellus",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 551,
-    "youngerMa": 539,
-    "status": "available",
-    "uncertainty": {
-      "olderMa": null,
-      "youngerMa": null,
-      "note": "Rounded navigation bounds are not claim-linked fossil first or last appearances and do not establish crown origination."
-    },
-    "evidenceBasis": "Curated navigation display range; taxonomic membership, fossil occurrence and model divergence time remain separate.",
-    "confidence": "medium",
-    "claimIds": [],
-    "referenceLocators": [
-      {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
-      }
-    ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
-  },
-  {
     "id": "range:calcarea:global",
     "entityId": "calcarea",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "calcarea",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 535,
+    "taxonomicConcept": "Crown Calcarea temporal range",
+    "geographicScope": "Temporal interval pending fossil-range evidence",
+    "olderMa": 0,
     "youngerMa": 0,
-    "status": "available",
+    "status": "withheld-pending-provenance",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Rounded navigation bounds are not claim-linked fossil first or last appearances and do not establish crown origination."
+      "note": "The cited extant phylogeny resolves sampled calcareous-sponge relationships but does not establish a 535 Ma fossil boundary."
     },
-    "evidenceBasis": "Curated navigation display range; taxonomic membership, fossil occurrence and model divergence time remain separate.",
-    "confidence": "medium",
-    "claimIds": [],
+    "evidenceBasis": "The former 535–0 Ma display is withheld because an extant molecular topology cannot be converted into a fossil FAD.",
+    "confidence": "low",
+    "claimIds": [
+      "claim:taxon:calcarea:range-boundary-rc50"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
+        "referenceId": "voigt-2012-calcarea-phylogeny",
+        "locator": "Article e33417; Figures 1–7; extant sampling, phylogenetic tests and character reconstructions"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "withheld-no-range-evidence"
   },
   {
     "id": "range:homoscleromorpha:global",
     "entityId": "homoscleromorpha",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "homoscleromorpha",
-    "geographicScope": "Global or represented navigation composite",
+    "taxonomicConcept": "Homoscleromorpha temporal range",
+    "geographicScope": "Temporal interval pending fossil-range evidence",
     "olderMa": 0,
     "youngerMa": 0,
-    "status": "available",
+    "status": "withheld-pending-provenance",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Rounded navigation bounds are not claim-linked fossil first or last appearances and do not establish crown origination."
+      "note": "Formal recognition and diagnosis of the living class do not supply a fossil first appearance or species-duration record."
     },
-    "evidenceBasis": "Curated navigation display range; taxonomic membership, fossil occurrence and model divergence time remain separate.",
-    "confidence": "medium",
-    "claimIds": [],
+    "evidenceBasis": "The 0–0 placeholder is converted to explicit withholding rather than presenting an undated living taxon as a numerical range.",
+    "confidence": "low",
+    "claimIds": [
+      "claim:taxon:homoscleromorpha:range-boundary-rc50"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
+        "referenceId": "gazave-2012-homoscleromorpha",
+        "locator": "3–10; evidence synthesis, formal class nomination and diagnosis"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
-  },
-  {
-    "id": "range:eocyathispongia:global",
-    "entityId": "eocyathispongia",
-    "rangeKind": "global-composite",
-    "taxonomicConcept": "eocyathispongia",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 609,
-    "youngerMa": 600,
-    "status": "available",
-    "uncertainty": {
-      "olderMa": null,
-      "youngerMa": null,
-      "note": "Rounded navigation bounds are not claim-linked fossil first or last appearances and do not establish crown origination."
-    },
-    "evidenceBasis": "Curated navigation display range; taxonomic membership, fossil occurrence and model divergence time remain separate.",
-    "confidence": "medium",
-    "claimIds": [],
-    "referenceLocators": [
-      {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
-      }
-    ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "withheld-no-range-evidence"
   },
   {
     "id": "range:amphimedon_queenslandica:global",
     "entityId": "amphimedon_queenslandica",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "amphimedon_queenslandica",
-    "geographicScope": "Global or represented navigation composite",
+    "taxonomicConcept": "Amphimedon queenslandica species temporal range",
+    "geographicScope": "Living genome sample only; species duration not inferred",
     "olderMa": 0,
     "youngerMa": 0,
-    "status": "available",
+    "status": "withheld-pending-provenance",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Rounded navigation bounds are not claim-linked fossil first or last appearances and do not establish crown origination."
+      "note": "A genome from a living sampled species does not date that species' origin or define a fossil duration."
     },
-    "evidenceBasis": "Curated navigation display range; taxonomic membership, fossil occurrence and model divergence time remain separate.",
-    "confidence": "medium",
-    "claimIds": [],
+    "evidenceBasis": "The 0–0 placeholder is withheld because the genome paper supplies a living sample and comparative biology, not species-level range evidence.",
+    "confidence": "low",
+    "claimIds": [
+      "claim:taxon:amphimedon_queenslandica:range-boundary-rc50"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
+        "referenceId": "srivastava-2010-amphimedon",
+        "locator": "720–726; Figures 1–5; genome assembly and comparative analyses"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
-  },
-  {
-    "id": "range:auroralumina:global",
-    "entityId": "auroralumina",
-    "rangeKind": "global-composite",
-    "taxonomicConcept": "auroralumina",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 562,
-    "youngerMa": 557,
-    "status": "available",
-    "uncertainty": {
-      "olderMa": null,
-      "youngerMa": null,
-      "note": "Rounded navigation bounds are not claim-linked fossil first or last appearances and do not establish crown origination."
-    },
-    "evidenceBasis": "Curated navigation display range; taxonomic membership, fossil occurrence and model divergence time remain separate.",
-    "confidence": "medium",
-    "claimIds": [],
-    "referenceLocators": [
-      {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
-      }
-    ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
-  },
-  {
-    "id": "range:haootia:global",
-    "entityId": "haootia",
-    "rangeKind": "global-composite",
-    "taxonomicConcept": "haootia",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 565,
-    "youngerMa": 560,
-    "status": "available",
-    "uncertainty": {
-      "olderMa": null,
-      "youngerMa": null,
-      "note": "Rounded navigation bounds are not claim-linked fossil first or last appearances and do not establish crown origination."
-    },
-    "evidenceBasis": "Curated navigation display range; taxonomic membership, fossil occurrence and model divergence time remain separate.",
-    "confidence": "medium",
-    "claimIds": [],
-    "referenceLocators": [
-      {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
-      }
-    ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
-  },
-  {
-    "id": "range:xianguangia:global",
-    "entityId": "xianguangia",
-    "rangeKind": "global-composite",
-    "taxonomicConcept": "xianguangia",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 518,
-    "youngerMa": 518,
-    "status": "available",
-    "uncertainty": {
-      "olderMa": null,
-      "youngerMa": null,
-      "note": "Rounded navigation bounds are not claim-linked fossil first or last appearances and do not establish crown origination."
-    },
-    "evidenceBasis": "Curated navigation display range; taxonomic membership, fossil occurrence and model divergence time remain separate.",
-    "confidence": "medium",
-    "claimIds": [],
-    "referenceLocators": [
-      {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
-      }
-    ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "withheld-no-range-evidence"
   },
   {
     "id": "range:medusozoa:global",
     "entityId": "medusozoa",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "medusozoa",
-    "geographicScope": "Global or represented navigation composite",
+    "taxonomicConcept": "Medusozoa stem-fossil-to-living navigation anthology",
+    "geographicScope": "Charnwood Forest Auroralumina stem-medusozoan interpretation plus living Medusozoa",
     "olderMa": 562,
     "youngerMa": 0,
     "status": "available",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Rounded navigation bounds are not claim-linked fossil first or last appearances and do not establish crown origination."
+      "note": "Auroralumina is used as a stem-medusozoan navigation anchor, not a crown-Medusozoa FAD or exact divergence date."
     },
-    "evidenceBasis": "Curated navigation display range; taxonomic membership, fossil occurrence and model divergence time remain separate.",
+    "evidenceBasis": "Dunn et al. describe and matrix-test Auroralumina as an Ediacaran crown cnidarian on the medusozoan stem; 0 Ma denotes living medusozoans.",
     "confidence": "medium",
-    "claimIds": [],
+    "claimIds": [
+      "claim:taxon:medusozoa:range-boundary-rc50"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
+        "referenceId": "dunn-2022-auroralumina",
+        "locator": "1095–1104; Figures 1–4; Extended Data Figures 1–8; Charnwood age, morphology and stem-medusozoan placement"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "literature-synthesized"
   },
   {
     "id": "range:hydrozoa:global",
     "entityId": "hydrozoa",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "hydrozoa",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 520,
+    "taxonomicConcept": "Crown Hydrozoa temporal range",
+    "geographicScope": "Temporal interval pending diagnostic fossil evidence",
+    "olderMa": 0,
     "youngerMa": 0,
-    "status": "available",
+    "status": "withheld-pending-provenance",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Rounded navigation bounds are not claim-linked fossil first or last appearances and do not establish crown origination."
+      "note": "The cited character-evolution review does not identify a diagnostic 520 Ma hydrozoan specimen or crown boundary."
     },
-    "evidenceBasis": "Curated navigation display range; taxonomic membership, fossil occurrence and model divergence time remain separate.",
-    "confidence": "medium",
-    "claimIds": [],
+    "evidenceBasis": "The former 520–0 Ma display is withheld rather than deriving a fossil FAD from a morphology and character-evolution synthesis.",
+    "confidence": "low",
+    "claimIds": [
+      "claim:taxon:hydrozoa:range-boundary-rc50"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
+        "referenceId": "cartwright-nawrocki-2010-hydrozoa",
+        "locator": "456–472; Figures 1–4; hydrozoan character-evolution synthesis"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "withheld-no-range-evidence"
   },
   {
     "id": "range:staurozoa:global",
     "entityId": "staurozoa",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "staurozoa",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 562,
+    "taxonomicConcept": "Crown Staurozoa temporal range",
+    "geographicScope": "Temporal interval pending crown-specific fossil evidence",
+    "olderMa": 0,
     "youngerMa": 0,
-    "status": "available",
+    "status": "withheld-pending-provenance",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Rounded navigation bounds are not claim-linked fossil first or last appearances and do not establish crown origination."
+      "note": "Extant systematics does not date the crown, and published reassessments do not make Haootia an uncontested staurozoan calibration."
     },
-    "evidenceBasis": "Curated navigation display range; taxonomic membership, fossil occurrence and model divergence time remain separate.",
-    "confidence": "medium",
-    "claimIds": [],
+    "evidenceBasis": "The former 562–0 Ma display is withheld rather than transferring a contested Haootia interpretation to crown Staurozoa.",
+    "confidence": "low",
+    "claimIds": [
+      "claim:taxon:staurozoa:range-boundary-rc50"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
+        "referenceId": "miranda-2016-staurozoa",
+        "locator": "Article e1951; Figures 3–8; Table 1; extant systematic revision"
+      },
+      {
+        "referenceId": "miranda-2015-haootia",
+        "locator": "Article 20142396; Figure 1; reassessment of the staurozoan comparison"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "withheld-no-range-evidence"
   },
   {
     "id": "range:cubozoa:global",
     "entityId": "cubozoa",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "cubozoa",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 505,
+    "taxonomicConcept": "Crown Cubozoa temporal range",
+    "geographicScope": "Temporal interval pending diagnostic crown fossil evidence",
+    "olderMa": 0,
     "youngerMa": 0,
-    "status": "available",
+    "status": "withheld-pending-provenance",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Rounded navigation bounds are not claim-linked fossil first or last appearances and do not establish crown origination."
+      "note": "The cited analysis samples living cubozoans and cannot validate the former 505 Ma fossil endpoint."
     },
-    "evidenceBasis": "Curated navigation display range; taxonomic membership, fossil occurrence and model divergence time remain separate.",
-    "confidence": "medium",
-    "claimIds": [],
+    "evidenceBasis": "The former 505–0 Ma display is withheld because extant topology and tentative stem comparisons do not establish a crown-Cubozoa FAD.",
+    "confidence": "low",
+    "claimIds": [
+      "claim:taxon:cubozoa:range-boundary-rc50"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
+        "referenceId": "bentlage-2010-cubozoa",
+        "locator": "493–501; Figures 1–3; extant sampling, phylogenetic analyses and character discussion"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "withheld-no-range-evidence"
   },
   {
     "id": "range:scyphozoa:global",
     "entityId": "scyphozoa",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "scyphozoa",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 505,
+    "taxonomicConcept": "Crown Scyphozoa temporal range",
+    "geographicScope": "Temporal interval pending diagnostic crown fossil evidence",
+    "olderMa": 0,
     "youngerMa": 0,
-    "status": "available",
+    "status": "withheld-pending-provenance",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Rounded navigation bounds are not claim-linked fossil first or last appearances and do not establish crown origination."
+      "note": "The cited analysis samples living scyphozoans and does not validate assignment of Cambrian medusae to the crown class."
     },
-    "evidenceBasis": "Curated navigation display range; taxonomic membership, fossil occurrence and model divergence time remain separate.",
-    "confidence": "medium",
-    "claimIds": [],
+    "evidenceBasis": "The former 505–0 Ma display is withheld rather than converting broad medusa resemblance into a crown-Scyphozoa FAD.",
+    "confidence": "low",
+    "claimIds": [
+      "claim:taxon:scyphozoa:range-boundary-rc50"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
+        "referenceId": "bayha-2010-scyphozoa",
+        "locator": "436–455; Figures 1–4; family sampling and phylogenetic results"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
-  },
-  {
-    "id": "range:burgessomedusa:global",
-    "entityId": "burgessomedusa",
-    "rangeKind": "global-composite",
-    "taxonomicConcept": "burgessomedusa",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 506,
-    "youngerMa": 504,
-    "status": "available",
-    "uncertainty": {
-      "olderMa": null,
-      "youngerMa": null,
-      "note": "Rounded navigation bounds are not claim-linked fossil first or last appearances and do not establish crown origination."
-    },
-    "evidenceBasis": "Curated navigation display range; taxonomic membership, fossil occurrence and model divergence time remain separate.",
-    "confidence": "medium",
-    "claimIds": [],
-    "referenceLocators": [
-      {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
-      }
-    ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "withheld-no-range-evidence"
   },
   {
     "id": "range:myxozoa:global",
     "entityId": "myxozoa",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "myxozoa",
-    "geographicScope": "Global or represented navigation composite",
+    "taxonomicConcept": "Myxozoa temporal range",
+    "geographicScope": "Temporal interval pending fossil or calibrated origin evidence",
     "olderMa": 0,
     "youngerMa": 0,
-    "status": "available",
+    "status": "withheld-pending-provenance",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Rounded navigation bounds are not claim-linked fossil first or last appearances and do not establish crown origination."
+      "note": "Phylogenomic placement and genome reduction in living myxozoans do not date the clade origin or fossil range."
     },
-    "evidenceBasis": "Curated navigation display range; taxonomic membership, fossil occurrence and model divergence time remain separate.",
-    "confidence": "medium",
-    "claimIds": [],
+    "evidenceBasis": "The 0–0 placeholder is withheld rather than turning a living genomic sample into a numerical origin.",
+    "confidence": "low",
+    "claimIds": [
+      "claim:taxon:myxozoa:range-boundary-rc50"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
+        "referenceId": "chang-2015-myxozoa",
+        "locator": "14912–14917; Figures 1–4; phylogenomics and genome-reduction analyses"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "withheld-no-range-evidence"
   },
   {
     "id": "range:octocorallia:global",
     "entityId": "octocorallia",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "octocorallia",
-    "geographicScope": "Global or represented navigation composite",
+    "taxonomicConcept": "Crown Octocorallia temporal range",
+    "geographicScope": "Temporal interval pending fossil or calibrated crown evidence",
     "olderMa": 0,
     "youngerMa": 0,
-    "status": "available",
+    "status": "withheld-pending-provenance",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Rounded navigation bounds are not claim-linked fossil first or last appearances and do not establish crown origination."
+      "note": "The cited mitochondrial phylogeny samples living octocorals but does not date a fossil first appearance or crown boundary."
     },
-    "evidenceBasis": "Curated navigation display range; taxonomic membership, fossil occurrence and model divergence time remain separate.",
-    "confidence": "medium",
-    "claimIds": [],
+    "evidenceBasis": "The 0–0 placeholder is withheld because extant topology alone is not a temporal range.",
+    "confidence": "low",
+    "claimIds": [
+      "claim:taxon:octocorallia:range-boundary-rc50"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
+        "referenceId": "mcfadden-2006-octocorallia",
+        "locator": "513–527; Figures 1–4; living-taxon sampling and phylogenetic results"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "withheld-no-range-evidence"
   },
   {
     "id": "range:hexacorallia:global",
     "entityId": "hexacorallia",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "hexacorallia",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 425,
+    "taxonomicConcept": "Crown Hexacorallia temporal range",
+    "geographicScope": "Temporal interval pending crown-specific range evidence",
+    "olderMa": 0,
     "youngerMa": 0,
-    "status": "available",
+    "status": "withheld-pending-provenance",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Rounded navigation bounds are not claim-linked fossil first or last appearances and do not establish crown origination."
+      "note": "A classification review cannot transfer the age of Paleozoic coral grades to crown Hexacorallia."
     },
-    "evidenceBasis": "Curated navigation display range; taxonomic membership, fossil occurrence and model divergence time remain separate.",
-    "confidence": "medium",
-    "claimIds": [],
+    "evidenceBasis": "The former 425–0 Ma display is withheld because taxonomy and morphological comparison do not establish a crown first appearance.",
+    "confidence": "low",
+    "claimIds": [
+      "claim:taxon:hexacorallia:range-boundary-rc50"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
+        "referenceId": "daly-2007-cnidaria-review",
+        "locator": "127–182; Hexacorallia classification and phylogenetic-pattern sections"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "withheld-no-range-evidence"
   }
 ]

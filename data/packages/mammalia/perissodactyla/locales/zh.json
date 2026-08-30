@@ -1,6 +1,6 @@
 {
   "language": "zh",
-  "version": "2026.08-static-v5-rc49",
+  "version": "2026.08-static-v5-rc50",
   "strings": {
     "entity.perissodactyla.name": "奇蹄类",
     "entity.brontotheriidae.name": "雷兽类",
@@ -58,7 +58,7 @@
     "claim.claim:taxon:metamynodon:morphology.confidenceRationale": "形态主张只保留引文图表或诊断直接支持的骨骼、牙齿性状，并把软组织、姿势或功能解释明确标为推断。",
     "claim.claim:taxon:metamynodon:biogeography.confidenceRationale": "生物地理主张按论文实际覆盖的地点和区域表述，不把区域样本扩写为完整全球分布。",
     "claim.claim:taxon:paraceratherium:taxonomy.confidenceRationale": "分类主张以所引主研究或系统综述中的明确分类与样本为界，不把导航父级写成直接祖先。",
-    "claim.claim:taxon:paraceratherium:fossil-range.confidenceRationale": "化石范围主张把论文直接约束的区域或样本年代与图集的临时导航端点分开，端点不被当作精确起源或灭绝时刻。",
+    "claim.claim:taxon:paraceratherium:fossil-range.confidenceRationale": "动物群对比与古地磁位置直接支持该样本年龄；点范围措辞阻止将其外推为全球属级端点。",
     "claim.claim:taxon:paraceratherium:morphology.confidenceRationale": "形态主张只保留引文图表或诊断直接支持的骨骼、牙齿性状，并把软组织、姿势或功能解释明确标为推断。",
     "claim.claim:taxon:paraceratherium:ecology.confidenceRationale": "生态主张区分直接测得的磨耗或同位素信号与栖息地、行为推断，并保留物种、地点和时代边界。",
     "claim.claim:taxon:paraceratherium:biogeography.confidenceRationale": "生物地理主张按论文实际覆盖的地点和区域表述，不把区域样本扩写为完整全球分布。",
@@ -75,7 +75,7 @@
     "claim.claim:taxon:hipparionini:ecology.confidenceRationale": "生态主张区分直接测得的磨耗或同位素信号与栖息地、行为推断，并保留物种、地点和时代边界。",
     "claim.claim:taxon:hipparionini:biogeography.confidenceRationale": "生物地理主张按论文实际覆盖的地点和区域表述，不把区域样本扩写为完整全球分布。",
     "claim.claim:taxon:teleoceras:taxonomy.confidenceRationale": "分类主张以所引主研究或系统综述中的明确分类与样本为界，不把导航父级写成直接祖先。",
-    "claim.claim:taxon:teleoceras:fossil-range.confidenceRationale": "化石范围主张把论文直接约束的区域或样本年代与图集的临时导航端点分开，端点不被当作精确起源或灭绝时刻。",
+    "claim.claim:taxon:teleoceras:fossil-range.confidenceRationale": "主研究直接给出区域物种区间与采样地点年龄；地域和分类限定避免外推为全球属级范围。",
     "claim.claim:taxon:teleoceras:morphology.confidenceRationale": "形态主张只保留引文图表或诊断直接支持的骨骼、牙齿性状，并把软组织、姿势或功能解释明确标为推断。",
     "claim.claim:taxon:teleoceras:biogeography.confidenceRationale": "生物地理主张按论文实际覆盖的地点和区域表述，不把区域样本扩写为完整全球分布。",
     "claim.claim:taxon:coelodonta:taxonomy.confidenceRationale": "分类主张以所引主研究或系统综述中的明确分类与样本为界，不把导航父级写成直接祖先。",
@@ -88,6 +88,8 @@
     "claim.claim:taxon:hippomorpha:extant-topology.confidenceRationale": "一手研究覆盖其分类框架认可的全部现生物种，并明确报告基因覆盖不均；主张仅限于该现生样本。",
     "claim.claim:taxon:rhinocerotidae:topology.confidenceRationale": "两项一手分析分别以化石形态和现生数据支持高阶位置；主张明确不陈述总延续范围。",
     "claim.claim:taxon:rhinocerotoidea:topology.confidenceRationale": "具名标本与矩阵直接支持取样位置；中等置信度反映论文报告的准则依赖基干拓扑。",
-    "claim.claim:taxon:tapiroidea:topology.confidenceRationale": "表述遵循论文的具体节点结果，并立即保留替代分析限制。"
+    "claim.claim:taxon:tapiroidea:topology.confidenceRationale": "表述遵循论文的具体节点结果，并立即保留替代分析限制。",
+    "claim.claim:taxon:hipparionini:fossil-range.confidenceRationale": "两篇系统综述直接支持各自区域标记，但分类、洲域和用途异质，不能解释为单一全球谱系存续期。",
+    "claim.claim:taxon:coelodonta:fossil-range.confidenceRationale": "系统综述与直接测年的基因组标本分别支持两个代表记录，但均不能证明属级精确起源或灭绝。"
   }
 }

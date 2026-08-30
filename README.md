@@ -13,7 +13,9 @@ Evo Atlas 不是一个把生成文本包装成“完整百科”的项目。它�
 - 名录覆盖：固定到 Catalogue of Life Base Release `COL26.8`。2,183,133 个严格接受种全部能沿真实父子链路由到唯一资源归属，另有 2,065,436 个异名、歧义异名和误用名可解析到接受名。
 - 内容覆盖：24 个静态资源包中的证据档案、事件、故事、范围和参考文献。当前已无 `generated-scaffold` 或 `structured`：23 个包为 `source-linked`，奇蹄目为唯一的 `curated-draft`；23 个包尚未人工审阅，奇蹄目的存储状态为 `in-review`，但内容摘要变化使有效状态成为 `stale`，没有包声称达到科学 `published`。平台 `published` 与自动检查通过只表示静态发布链完整，不等于内容或专家审阅已经完成。
 
-当前开发数据快照为 `2026.08-static-v5-rc49`，Web/Android/iOS 客户端版本为 `0.20.1`。精确记录数、校验和和限制以 [`data/manifest.json`](data/manifest.json) 为准；科学内容变更见 [`data/CHANGELOG.md`](data/CHANGELOG.md)。
+当前开发数据快照为 `2026.08-static-v5-rc50`，Web/Android/iOS 客户端版本为 `0.20.1`。精确记录数、校验和和限制以 [`data/manifest.json`](data/manifest.json) 为准；科学内容变更见 [`data/CHANGELOG.md`](data/CHANGELOG.md)。
+
+`rc50` 关闭全库最后 102 条 `legacy-display` 范围：软体动物—腕足动物、海绵—刺胞动物、三叶虫—螯肢动物、甲壳动物—昆虫、早期陆生植物、裸子植物、被子植物与奇蹄目中的 54 条记录改为带精确 locator 的来源限定标本、地层、区域、模型或导航证据窗口，48 条无法同时支持实体概念与数值端点的记录明确 withheld；9 条被更严格来源记录取代的重复 global 范围同时删除。canonical 范围账本现含 403 条记录，其中 325 条可用、78 条 withheld、0 条历史展示值；按证据级别计为 334 条文献合成与 69 条无足够范围证据。证据账本增至 1,019 条 claims 与 470 条 references。所有数值范围继续与全球真实 FAD/LAD、冠群年龄、分子分歧时间和直接祖先主张分开。
 
 `rc49` 关闭 #7 与 #8 的 110 条脊椎动物、主龙类和哺乳类遗留显示范围：80 条改为带一手研究或系统综述定位符的来源限定样本/模型窗口，30 条证据不足项明确 withheld 并停止展示旧数值。证据账本现含 961 条 claims 与 444 条 references。十五个相关资源包不再复用同一份时期前缀作为“定向查询”：86 个 PBDB `base_id` 子查询完成 110 页分页，记录完整结果 ID、原始与归一化校验和；148 个历史等级、概念冲突或过宽根查询明确 withheld。包级明细是 55,422 条有界、可复现记录，不是全局化石记录完整性或多样性曲线；全局 13,600 条时期样本仍作为独立图谱层保留。
 
@@ -203,7 +205,7 @@ npm run data:split:geojson -- --input staging/world.geojson
 - 生命树总览是教学导航本体，不是唯一系统发育假说。包内拓扑、分化时间、形态和地层出现必须分别标注。
 - first/last appearance 受采样控制，不等于精确起源/灭绝；分子钟后验不等于化石出现。
 - `automatedReviewStatus: passed` 只说明工程门禁通过，不等于维护者科学审查，更不等于外部专家同行评议。
-- 所有旧版展示范围在没有 claim-linked 文献复核前继续标为 `legacy-display` / `not-reviewed`。
+- canonical 范围账本已无 `legacy-display`：有足够证据的记录标明其真实样本、地层、区域或模型边界，证据不足的端点明确 withheld；两者都不冒充全球 FAD/LAD。
 
 ## 维护资源包
 
@@ -236,4 +238,4 @@ Evo Atlas 没有账号、广告、分析 SDK 或应用后端。笔记、收藏�
 
 ## English summary
 
-Evo Atlas is a bilingual, static-first deep-time evidence explorer for Web, Android and iOS. The dashboard synchronizes geological time, six distinct CAO2024 reconstruction layers, fossil samples, a 392-entity navigation tree and claim-level evidence. Dataset rc49 contains 961 claims and 444 references. It replaces 110 legacy vertebrate, archosaur and mammal display ranges with 80 source-bounded windows and 30 explicit withholdings, and publishes 86 completely paginated package-scoped PBDB subqueries while withholding 148 incompatible, historical-grade or over-broad concepts. The pinned COL26.8 registry routes all 2,183,133 strictly accepted species to one resource owner with zero unmatched names; this nomenclatural coverage is not a claim that every species has a prose dossier or expert review. Android and iOS are Capacitor 8 projects sharing the same React client at app version 0.20.1. Their verified lightweight native shell excludes scientific data, while the production Pages endpoint and complete-offline inventory retain Core, all 24 packages, the 13,600-row global bounded fossil sample, 55,422 retained package-targeted occurrence details, all 1,889 CAO2024 frames and the full COL registry. No account, analytics SDK, private API key, database or application server is required.
+Evo Atlas is a bilingual, static-first deep-time evidence explorer for Web, Android and iOS. The dashboard synchronizes geological time, six distinct CAO2024 reconstruction layers, fossil samples, a 392-entity navigation tree and claim-level evidence. Dataset rc50 contains 1,019 claims and 470 references. Its 403 canonical range records contain 325 available windows, 78 explicit withholdings and no legacy display values; by evidence level, 334 are literature-synthesized and 69 are explicitly withheld for insufficient range evidence. Available windows describe stated samples, strata, regions, models or navigation envelopes rather than universal FADs or LADs. Fifteen packages publish 86 completely paginated package-scoped PBDB subqueries while withholding 148 incompatible, historical-grade or over-broad concepts. The pinned COL26.8 registry routes all 2,183,133 strictly accepted species to one resource owner with zero unmatched names; this nomenclatural coverage is not a claim that every species has a prose dossier or expert review. Android and iOS are Capacitor 8 projects sharing the same React client at app version 0.20.1. Their verified lightweight native shell excludes scientific data, while the production Pages endpoint and complete-offline inventory retain Core, all 24 packages, the 13,600-row global bounded fossil sample, 55,422 retained package-targeted occurrence details, all 1,889 CAO2024 frames and the full COL registry. No account, analytics SDK, private API key, database or application server is required.

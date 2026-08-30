@@ -908,7 +908,7 @@
   {
     "id": "range:spiriferida:global",
     "entityId": "spiriferida",
-    "rangeKind": "taxon-range",
+    "rangeKind": "global-composite",
     "taxonomicConcept": "Spiriferida as revised by Carter et al. 1994",
     "geographicScope": "Order-level Upper Ordovician–Upper Permian interval stated in the systematic revision",
     "olderMa": 458.2,
@@ -1002,7 +1002,7 @@
   {
     "id": "range:bivalvia:global",
     "entityId": "bivalvia",
-    "rangeKind": "taxon-range",
+    "rangeKind": "global-composite",
     "taxonomicConcept": "Bivalvia — Pojetaia study-sample window",
     "geographicScope": "Ajax Limestone and Erkeket Formation Pojetaia material correlated with the Botomian",
     "olderMa": 514.5,
@@ -1164,7 +1164,7 @@
   {
     "id": "range:ammonoidea:global",
     "entityId": "ammonoidea",
-    "rangeKind": "taxon-range",
+    "rangeKind": "global-composite",
     "taxonomicConcept": "Ammonoidea — Permian–Triassic boundary study-sample window",
     "geographicScope": "Middle and Late Permian through Induan ammonoids sampled by McGowan and Smith",
     "olderMa": 274.4,
@@ -1196,7 +1196,7 @@
   {
     "id": "range:goniatitida:global",
     "entityId": "goniatitida",
-    "rangeKind": "taxon-range",
+    "rangeKind": "global-composite",
     "taxonomicConcept": "Goniatitida — early Late Viséan Moroccan study sample",
     "geographicScope": "Early Late Viséan ammonoid assemblage from Morocco",
     "olderMa": 346.7,
@@ -1228,7 +1228,7 @@
   {
     "id": "range:ceratitida:global",
     "entityId": "ceratitida",
-    "rangeKind": "taxon-range",
+    "rangeKind": "global-composite",
     "taxonomicConcept": "Ceratitida as delimited by Shigeta et al. 2001",
     "geographicScope": "Early Permian through end-Triassic range stated in the comparative study",
     "olderMa": 298.9,
@@ -1260,7 +1260,7 @@
   {
     "id": "range:ammonitida:global",
     "entityId": "ammonitida",
-    "rangeKind": "taxon-range",
+    "rangeKind": "global-composite",
     "taxonomicConcept": "Ammonitida — Early Jurassic Hildoceratidae study-sample window",
     "geographicScope": "Early Jurassic Hildoceratidae sampled in the conch-character analysis",
     "olderMa": 201.4,
@@ -1318,7 +1318,7 @@
   {
     "id": "range:belemnitida:global",
     "entityId": "belemnitida",
-    "rangeKind": "taxon-range",
+    "rangeKind": "global-composite",
     "taxonomicConcept": "Belemnitida — tip-dated study and occurrence-calibration envelope",
     "geographicScope": "Twenty-four sampled belemnite species across the group-level study interval",
     "olderMa": 253.1,
@@ -9546,7 +9546,7 @@
   {
     "id": "range:pojetaia:primary-evidence",
     "entityId": "pojetaia",
-    "rangeKind": "taxon-range",
+    "rangeKind": "global-composite",
     "taxonomicConcept": "Pojetaia runnegari — Botomian shell-material window",
     "geographicScope": "Ajax Limestone and Erkeket Formation shell sections represented by Vendrasco et al.",
     "olderMa": 514.5,
@@ -9708,7 +9708,7 @@
   {
     "id": "range:octopus-bimaculoides:primary-evidence",
     "entityId": "octopus-bimaculoides",
-    "rangeKind": "taxon-range",
+    "rangeKind": "global-composite",
     "taxonomicConcept": "Octopus bimaculoides living genomic sample",
     "geographicScope": "One living male genome and twelve-tissue transcriptome sample",
     "olderMa": 0,
@@ -9762,7 +9762,7 @@
   {
     "id": "range:micrina:primary-evidence",
     "entityId": "micrina",
-    "rangeKind": "taxon-range",
+    "rangeKind": "global-composite",
     "taxonomicConcept": "Micrina — late Atdabanian study-sample window",
     "geographicScope": "Wilkawillina Limestone and broadly synchronous late Atdabanian carbonate units sampled by Holmer et al.",
     "olderMa": 521,
@@ -9794,7 +9794,7 @@
   {
     "id": "range:yuganotheca:primary-evidence",
     "entityId": "yuganotheca",
-    "rangeKind": "taxon-range",
+    "rangeKind": "global-composite",
     "taxonomicConcept": "Yuganotheca elegans — Cambrian Stage 3 Chengjiang sample",
     "geographicScope": "Yu’anshan Member of the Heilinpu Formation, Chengjiang Lagerstätte, Yunnan",
     "olderMa": 521,
@@ -9854,7 +9854,7 @@
   {
     "id": "range:lingula-anatina:primary-evidence",
     "entityId": "lingula-anatina",
-    "rangeKind": "taxon-range",
+    "rangeKind": "global-composite",
     "taxonomicConcept": "Lingula anatina living multi-omics sample",
     "geographicScope": "Living gravid adults collected in Kasari Bay, Amami Island, Japan",
     "olderMa": 0,
@@ -11748,247 +11748,5 @@
       }
     ],
     "reviewStatus": "automated-audit-passed"
-  },
-  {
-    "id": "range:demospongiae:global",
-    "entityId": "demospongiae",
-    "rangeKind": "global-composite",
-    "taxonomicConcept": "Demospongiae",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 540,
-    "youngerMa": 0,
-    "status": "available",
-    "uncertainty": {
-      "olderMa": null,
-      "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
-    },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
-    "confidence": "medium",
-    "claimIds": [],
-    "referenceLocators": [
-      {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
-      },
-      {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
-      }
-    ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
-  },
-  {
-    "id": "range:scleractinia:global",
-    "entityId": "scleractinia",
-    "rangeKind": "global-composite",
-    "taxonomicConcept": "Scleractinia",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 245,
-    "youngerMa": 0,
-    "status": "available",
-    "uncertainty": {
-      "olderMa": null,
-      "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
-    },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
-    "confidence": "medium",
-    "claimIds": [],
-    "referenceLocators": [
-      {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
-      },
-      {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
-      }
-    ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
-  },
-  {
-    "id": "range:hexactinellida:global",
-    "entityId": "hexactinellida",
-    "rangeKind": "global-composite",
-    "taxonomicConcept": "hexactinellida",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 551,
-    "youngerMa": 0,
-    "status": "available",
-    "uncertainty": {
-      "olderMa": null,
-      "youngerMa": null,
-      "note": "Rounded navigation bounds are not claim-linked fossil first or last appearances and do not establish crown origination."
-    },
-    "evidenceBasis": "Curated navigation display range; taxonomic membership, fossil occurrence and model divergence time remain separate.",
-    "confidence": "medium",
-    "claimIds": [],
-    "referenceLocators": [
-      {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
-      }
-    ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
-  },
-  {
-    "id": "range:helicolocellus:global",
-    "entityId": "helicolocellus",
-    "rangeKind": "global-composite",
-    "taxonomicConcept": "helicolocellus",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 551,
-    "youngerMa": 539,
-    "status": "available",
-    "uncertainty": {
-      "olderMa": null,
-      "youngerMa": null,
-      "note": "Rounded navigation bounds are not claim-linked fossil first or last appearances and do not establish crown origination."
-    },
-    "evidenceBasis": "Curated navigation display range; taxonomic membership, fossil occurrence and model divergence time remain separate.",
-    "confidence": "medium",
-    "claimIds": [],
-    "referenceLocators": [
-      {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
-      }
-    ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
-  },
-  {
-    "id": "range:eocyathispongia:global",
-    "entityId": "eocyathispongia",
-    "rangeKind": "global-composite",
-    "taxonomicConcept": "eocyathispongia",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 609,
-    "youngerMa": 600,
-    "status": "available",
-    "uncertainty": {
-      "olderMa": null,
-      "youngerMa": null,
-      "note": "Rounded navigation bounds are not claim-linked fossil first or last appearances and do not establish crown origination."
-    },
-    "evidenceBasis": "Curated navigation display range; taxonomic membership, fossil occurrence and model divergence time remain separate.",
-    "confidence": "medium",
-    "claimIds": [],
-    "referenceLocators": [
-      {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
-      }
-    ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
-  },
-  {
-    "id": "range:auroralumina:global",
-    "entityId": "auroralumina",
-    "rangeKind": "global-composite",
-    "taxonomicConcept": "auroralumina",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 562,
-    "youngerMa": 557,
-    "status": "available",
-    "uncertainty": {
-      "olderMa": null,
-      "youngerMa": null,
-      "note": "Rounded navigation bounds are not claim-linked fossil first or last appearances and do not establish crown origination."
-    },
-    "evidenceBasis": "Curated navigation display range; taxonomic membership, fossil occurrence and model divergence time remain separate.",
-    "confidence": "medium",
-    "claimIds": [],
-    "referenceLocators": [
-      {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
-      }
-    ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
-  },
-  {
-    "id": "range:haootia:global",
-    "entityId": "haootia",
-    "rangeKind": "global-composite",
-    "taxonomicConcept": "haootia",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 565,
-    "youngerMa": 560,
-    "status": "available",
-    "uncertainty": {
-      "olderMa": null,
-      "youngerMa": null,
-      "note": "Rounded navigation bounds are not claim-linked fossil first or last appearances and do not establish crown origination."
-    },
-    "evidenceBasis": "Curated navigation display range; taxonomic membership, fossil occurrence and model divergence time remain separate.",
-    "confidence": "medium",
-    "claimIds": [],
-    "referenceLocators": [
-      {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
-      }
-    ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
-  },
-  {
-    "id": "range:xianguangia:global",
-    "entityId": "xianguangia",
-    "rangeKind": "global-composite",
-    "taxonomicConcept": "xianguangia",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 518,
-    "youngerMa": 518,
-    "status": "available",
-    "uncertainty": {
-      "olderMa": null,
-      "youngerMa": null,
-      "note": "Rounded navigation bounds are not claim-linked fossil first or last appearances and do not establish crown origination."
-    },
-    "evidenceBasis": "Curated navigation display range; taxonomic membership, fossil occurrence and model divergence time remain separate.",
-    "confidence": "medium",
-    "claimIds": [],
-    "referenceLocators": [
-      {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
-      }
-    ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
-  },
-  {
-    "id": "range:burgessomedusa:global",
-    "entityId": "burgessomedusa",
-    "rangeKind": "global-composite",
-    "taxonomicConcept": "burgessomedusa",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 506,
-    "youngerMa": 504,
-    "status": "available",
-    "uncertainty": {
-      "olderMa": null,
-      "youngerMa": null,
-      "note": "Rounded navigation bounds are not claim-linked fossil first or last appearances and do not establish crown origination."
-    },
-    "evidenceBasis": "Curated navigation display range; taxonomic membership, fossil occurrence and model divergence time remain separate.",
-    "confidence": "medium",
-    "claimIds": [],
-    "referenceLocators": [
-      {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
-      }
-    ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
   }
 ]

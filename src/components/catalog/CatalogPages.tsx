@@ -9,6 +9,7 @@ import {
   getTaxonProfile,
   getMediaForTaxon,
   getCalibrationsForTaxon,
+  hasPublishedRange,
   taxonProfiles,
 } from '../../services/catalog'
 import { evidenceClaims, getClaimsForSubject } from '../../services/evidence'
@@ -155,6 +156,7 @@ export function TaxonPage({ id, onNavigate }: CatalogPageProps) {
   }, [id])
 
   if (!profile) return <TaxonDirectory onNavigate={onNavigate} />
+  const rangeAvailable = hasPublishedRange(profile)
   const midpoint = (profile.firstAppearance + profile.lastAppearance) / 2
   const references = getReferences(profile.referenceIds)
   const media = getMediaForTaxon(profile.id)
@@ -178,15 +180,13 @@ export function TaxonPage({ id, onNavigate }: CatalogPageProps) {
             <p>{t(profile.rank)} · <em>{profile.parentName}</em></p>
           </div>
           <div className="catalog-age-seal">
-            <strong>{formatAge(profile.firstAppearance, t('Present'))}</strong>
-            <span>{t('to')}</span>
-            <strong>{formatAge(profile.lastAppearance, t('Present'))}</strong>
+            {rangeAvailable ? <><strong>{formatAge(profile.firstAppearance, t('Present'))}</strong><span>{t('to')}</span><strong>{formatAge(profile.lastAppearance, t('Present'))}</strong></> : <strong>{t('Unavailable')}</strong>}
           </div>
         </div>
         <p className="catalog-dek">{t(profile.overview)}</p>
         <div className="catalog-actions">
           <button className="button button--primary" onClick={() => onNavigate('explore', {
-            age: midpoint.toFixed(1),
+            ...(rangeAvailable ? { age: midpoint.toFixed(1) } : {}),
             view: 'map',
             ...(profile.treeNodeId ? { taxon: profile.treeNodeId } : {}),
           })}>{t('Open in explorer')}</button>
@@ -307,7 +307,7 @@ function TaxonDirectory({ onNavigate }: { onNavigate: CatalogPageProps['onNaviga
               <span>{language === 'zh' ? profile.commonNameZh : profile.commonName}</span>
               <h2><em>{profile.scientificName}</em></h2>
               <p>{t(profile.overview)}</p>
-              <small>{t(profile.rank)} · {formatAge(profile.firstAppearance, t('Present'))}—{formatAge(profile.lastAppearance, t('Present'))}</small>
+              <small>{t(profile.rank)} · {hasPublishedRange(profile) ? `${formatAge(profile.firstAppearance, t('Present'))}—${formatAge(profile.lastAppearance, t('Present'))}` : t('Unavailable')}</small>
               {publication && <small className={`directory-maturity directory-maturity--${publication.scientificMaturity}`}>{t(scientificMaturityLabel(publication.scientificMaturity))} · {t(reviewStatusLabel(publication.reviewStatus))}</small>}
             </button>
           )

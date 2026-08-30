@@ -28,7 +28,12 @@ function findNode(nodes: TreeNode[], id: string): TreeNode | null {
 }
 
 function activeAt(node: TreeNode, age: number): boolean {
-  return age <= node.firstAppearance && age >= node.lastAppearance
+  return node.rangeEvidenceLevel !== 'withheld-no-range-evidence' && age <= node.firstAppearance && age >= node.lastAppearance
+}
+
+function rangeLabel(node: TreeNode, presentLabel: string, unavailableLabel: string): string {
+  if (node.rangeEvidenceLevel === 'withheld-no-range-evidence') return unavailableLabel
+  return `${node.firstAppearance}–${node.lastAppearance || presentLabel} Ma`
 }
 
 function flattenNodes(node: TreeNode, output: TreeNode[] = []): TreeNode[] {
@@ -141,7 +146,7 @@ export function EvoTree() {
         .attr('transform', (_node, index) => `translate(0,${67 + index * rowHeight})`)
         .attr('role', 'treeitem')
         .attr('tabindex', 0)
-        .attr('aria-label', (node) => `${nodeLabel(node.data)}: ${node.data.firstAppearance}–${node.data.lastAppearance || t('present')} Ma`)
+        .attr('aria-label', (node) => `${nodeLabel(node.data)}: ${rangeLabel(node.data, t('present'), t('Unavailable'))}`)
         .style('cursor', 'pointer')
         .style('opacity', (node) => inLineage(node) ? 1 : .05)
         .on('click', (_event, node) => handleNodeClick(node.data.id))
@@ -156,11 +161,12 @@ export function EvoTree() {
         .text((node) => `${'·'.repeat(Math.min(node.depth, 5))} ${nodeLabel(node.data)}`)
       rows.append('line').attr('class', 'range-track').attr('x1', labelWidth).attr('x2', width - 34)
       rows.append('line').attr('class', 'range-bar')
+        .attr('visibility', (node) => node.data.rangeEvidenceLevel === 'withheld-no-range-evidence' ? 'hidden' : null)
         .attr('x1', (node) => x(node.data.firstAppearance))
         .attr('x2', (node) => x(node.data.lastAppearance))
         .attr('data-active', (node) => activeAt(node.data, currentAge) ? 'true' : 'false')
         .attr('stroke', (node) => hasEvent(node.data) || hasTrait(node.data) ? nodeFill(node.data) : null)
-      rows.append('title').text((node) => `${node.data.name}: ${node.data.firstAppearance}–${node.data.lastAppearance || t('present')} Ma`)
+      rows.append('title').text((node) => `${node.data.name}: ${rangeLabel(node.data, t('present'), t('Unavailable'))}`)
       return
     }
 
@@ -182,7 +188,7 @@ export function EvoTree() {
           return `rotate(${point.x * 180 / Math.PI - 90}) translate(${point.y},0)`
         })
         .attr('role', 'treeitem').attr('tabindex', 0)
-        .attr('aria-label', (node) => `${nodeLabel(node.data)}: ${node.data.firstAppearance}–${node.data.lastAppearance || t('present')} Ma`)
+        .attr('aria-label', (node) => `${nodeLabel(node.data)}: ${rangeLabel(node.data, t('present'), t('Unavailable'))}`)
         .style('cursor', 'pointer').style('opacity', (node) => nodeOpacity(node))
         .on('click', (_event, node) => handleNodeClick(node.data.id))
         .on('keydown', (event: KeyboardEvent, node) => {
@@ -201,7 +207,7 @@ export function EvoTree() {
         })
         .attr('text-anchor', (node) => (node as d3.HierarchyPointNode<TreeNode>).x >= Math.PI ? 'end' : 'start')
         .text((node) => nodeLabel(node.data).slice(0, 20))
-      nodes.append('title').text((node) => `${node.data.name} · ${node.data.firstAppearance}–${node.data.lastAppearance || t('present')} Ma`)
+      nodes.append('title').text((node) => `${node.data.name} · ${rangeLabel(node.data, t('present'), t('Unavailable'))}`)
       return
     }
 
@@ -230,7 +236,7 @@ export function EvoTree() {
           return `translate(${xFor(point)},${yFor(point)})`
         })
         .attr('role', 'treeitem').attr('tabindex', 0)
-        .attr('aria-label', (node) => `${nodeLabel(node.data)}: ${node.data.firstAppearance}–${node.data.lastAppearance || t('present')} Ma`)
+        .attr('aria-label', (node) => `${nodeLabel(node.data)}: ${rangeLabel(node.data, t('present'), t('Unavailable'))}`)
         .style('cursor', 'pointer').style('opacity', (node) => nodeOpacity(node, .3))
         .on('click', (_event, node) => handleNodeClick(node.data.id))
         .on('keydown', (event: KeyboardEvent, node) => {
@@ -238,7 +244,7 @@ export function EvoTree() {
           event.preventDefault()
           handleNodeClick(node.data.id)
         })
-      drawNodes(nodes, selectedNodeId, 'right', nodeLabel, t('present'))
+      drawNodes(nodes, selectedNodeId, 'right', nodeLabel, t('present'), t('Unavailable'))
       nodes.select('circle').attr('fill', (node) => nodeFill(node.data))
       return
     }
@@ -272,7 +278,7 @@ export function EvoTree() {
     const nodes = g.selectAll<SVGGElement, d3.HierarchyNode<TreeNode>>('g.node').data(root.descendants()).join('g').attr('class', 'node')
       .attr('transform', (node) => `translate(${node.x},${node.y})`)
       .attr('role', 'treeitem').attr('tabindex', 0)
-      .attr('aria-label', (node) => `${nodeLabel(node.data)}: ${node.data.firstAppearance}–${node.data.lastAppearance || t('present')} Ma`)
+      .attr('aria-label', (node) => `${nodeLabel(node.data)}: ${rangeLabel(node.data, t('present'), t('Unavailable'))}`)
       .style('cursor', 'pointer').style('opacity', (node) => nodeOpacity(node, .2))
       .on('click', (_event, node) => handleNodeClick(node.data.id))
       .on('keydown', (event: KeyboardEvent, node) => {
@@ -280,7 +286,7 @@ export function EvoTree() {
         event.preventDefault()
         handleNodeClick(node.data.id)
       })
-    drawNodes(nodes, selectedNodeId, 'above', nodeLabel, t('present'))
+    drawNodes(nodes, selectedNodeId, 'above', nodeLabel, t('present'), t('Unavailable'))
     nodes.select('circle').attr('fill', (node) => nodeFill(node.data))
     if (mode === 'calibration') {
       nodes.filter((node) => mappedCalibrations.some((estimate) => estimate.nodeId === node.data.id))
@@ -334,7 +340,7 @@ export function EvoTree() {
           <table>
             <caption>{t('Tree nodes and represented fossil ranges')}</caption>
             <thead><tr><th>{t('Node')}</th><th>{t('Rank')}</th><th>{t('Range')}</th><th>{t('At current time')}</th></tr></thead>
-            <tbody>{alternativeNodes.map((node) => <tr key={node.id}><td>{nodeLabel(node)}</td><td>{t(node.rank ?? 'not applicable')}</td><td>{node.firstAppearance}–{node.lastAppearance || t('present')} Ma</td><td>{t(activeAt(node, currentAge) ? 'yes' : 'no')}</td></tr>)}</tbody>
+            <tbody>{alternativeNodes.map((node) => <tr key={node.id}><td>{nodeLabel(node)}</td><td>{t(node.rank ?? 'not applicable')}</td><td>{rangeLabel(node, t('present'), t('Unavailable'))}</td><td>{t(activeAt(node, currentAge) ? 'yes' : 'no')}</td></tr>)}</tbody>
           </table>
         </div>
       </details>
@@ -362,6 +368,7 @@ function drawNodes(
   labelPosition: 'right' | 'above',
   labelFor: (node: TreeNode) => string,
   presentLabel: string,
+  unavailableLabel: string,
 ) {
   nodes.append('circle').attr('r', (node) => node.data.id === selectedNodeId ? 6.5 : 4.5)
     .attr('fill', (node) => node.data.extinct ? '#8b949e' : '#58a6ff')
@@ -372,5 +379,5 @@ function drawNodes(
     .attr('y', labelPosition === 'right' ? 3 : -8)
     .attr('text-anchor', labelPosition === 'right' ? 'start' : 'middle')
     .text((node) => `${labelFor(node.data)}${node.data.extinct ? ' †' : ''}`.slice(0, 24))
-  nodes.append('title').text((node) => `${node.data.name} · ${node.data.firstAppearance}–${node.data.lastAppearance || presentLabel} Ma`)
+  nodes.append('title').text((node) => `${node.data.name} · ${rangeLabel(node.data, presentLabel, unavailableLabel)}`)
 }
