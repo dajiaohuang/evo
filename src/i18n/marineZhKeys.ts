@@ -83,4 +83,11 @@ export const marineZhKeys = new Set<string>([
   "Polycotylid Plesiosaur",
   "Tapejarid Pterosaur",
   "Hami Pterosaur",
+  "Probable fish remains in one I. communis individual's gullet contents",
+  "Marine; habitat breadth is not resolved by the cited specimens",
+  "Caudal-fluke propulsion inferred from comparative vertebral anatomy",
+  "A genus-wide body-size envelope is not inferred from the cited specimens",
+  "Predatory ecology documented for one I. communis individual",
+  "An archosaur flying-reptile radiation usually placed within Ornithodira near dinosaurs, while its precise origin remains analysis-dependent; package evidence spans eggs, soft tissues and bounded launch models.",
+  "Every continent; fossil record extremely patchy",
 ])

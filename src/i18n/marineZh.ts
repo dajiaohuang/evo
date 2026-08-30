@@ -83,6 +83,13 @@ export const marineZh: Record<string, string> = {
   "Polycotylid Plesiosaur": "多椎龙科蛇颈龙",
   "Tapejarid Pterosaur": "古神翼龙科翼龙",
   "Hami Pterosaur": "哈密翼龙",
+  "Probable fish remains in one I. communis individual's gullet contents": "一件 I. communis 个体的食道内容物中保存可能的鱼类遗骸",
+  "Marine; habitat breadth is not resolved by the cited specimens": "海生；所引标本不能确定其完整栖息地范围",
+  "Caudal-fluke propulsion inferred from comparative vertebral anatomy": "根据比较椎骨解剖推断以尾鳍推进",
+  "A genus-wide body-size envelope is not inferred from the cited specimens": "不依据所引标本推断整个属的体型范围",
+  "Predatory ecology documented for one I. communis individual": "一件 I. communis 个体记录了捕食生态",
+  "An archosaur flying-reptile radiation usually placed within Ornithodira near dinosaurs, while its precise origin remains analysis-dependent; package evidence spans eggs, soft tissues and bounded launch models.": "一种主龙类飞行爬行动物辐射，通常被置于鸟跖类并接近恐龙，但其确切起源仍取决于分析；包内证据涵盖卵、软组织和有边界的起飞模型。",
+  "Every continent; fossil record extremely patchy": "各大洲均有记录；化石记录极为斑驳",
 }
 
 export default marineZh
