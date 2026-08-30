@@ -3079,5 +3079,271 @@
       }
     ],
     "evidenceStatus": "available-with-limitations"
+  },
+  {
+    "id": "carnivora-evidence-boundaries",
+    "title": "Eleven dossiers across carnivoran origins, form and function",
+    "titleZh": "横跨食肉类起源、形态与功能的十一个证据档案",
+    "dek": "Follow named teeth, skulls, skeletons, sequence matrices and digital experiments without converting separate branches into an ancestor ladder.",
+    "theme": "amber",
+    "durationMinutes": 18,
+    "featured": true,
+    "steps": [
+      {
+        "id": "dormaalocyon-dental-tarsal",
+        "title": "Hundreds of elements replace a two-tooth sketch",
+        "text": "IRSNB M2095–M2099 document reconstructed permanent dentition, while astragali IRSNB M2107–M2108 and calcaneum IRSNB M2109 document the tarsus.",
+        "age": 55.9,
+        "timeRange": [
+          56,
+          55.8
+        ],
+        "taxonIds": [
+          "carnivoraformes-dossiers",
+          "dormaalocyon"
+        ],
+        "view": "evidence",
+        "eventId": "dormaalocyon-dental-tarsal-sample",
+        "annotation": "Dormaalocyon is recovered as a basal carnivoraform in the published character matrix; it is not demonstrated to be crown Carnivora, a direct ancestor or the global first carnivoramorphan.",
+        "claimLinks": [
+          {
+            "claimId": "claim:event:dormaalocyon-dental-tarsal-sample",
+            "relation": "supports"
+          }
+        ]
+      },
+      {
+        "id": "miacoidea-character-matrix",
+        "title": "Traditional “miacoids” do not make two neat stems",
+        "text": "The matrix samples 99 cranial and dental characters across 40 terminals and excludes traditional “Miacidae” and Viverravidae from crown Carnivora in the preferred trees.",
+        "age": 0,
+        "timeRange": [
+          0,
+          0
+        ],
+        "taxonIds": [
+          "carnivoraformes-dossiers",
+          "carnivora"
+        ],
+        "view": "tree",
+        "eventId": "miacoidea-character-matrix-topology",
+        "annotation": "This result rejects a convenient feliform–caniform ancestor ladder but remains a sampled morphology topology whose nodes can change with scoring, taxon sampling and analytical assumptions.",
+        "claimLinks": [
+          {
+            "claimId": "claim:event:miacoidea-character-matrix-topology",
+            "relation": "supports"
+          }
+        ]
+      },
+      {
+        "id": "lycophocyon-holotype-basal-caniform",
+        "title": "A cranium tests the base of Caniformia",
+        "text": "Holotype UCMP 85202 supplies the cranium and dentition; associated paratypes SDSNH 107446 and SDSNH 107447 add postcranial anatomy.",
+        "age": 44.1,
+        "timeRange": [
+          46.2,
+          42
+        ],
+        "taxonIds": [
+          "caniformia",
+          "lycophocyon"
+        ],
+        "view": "tree",
+        "eventId": "lycophocyon-holotype-basal-caniform",
+        "annotation": "Basal-caniform placement is an analytical result and familial assignment remains indeterminate; dietary discriminant scores are comparative-model outputs, not stomach contents or observed hunting.",
+        "claimLinks": [
+          {
+            "claimId": "claim:event:lycophocyon-holotype-basal-caniform",
+            "relation": "supports"
+          }
+        ]
+      },
+      {
+        "id": "carnivora-six-gene-living",
+        "title": "Living sequences separate two crown branches",
+        "text": "The concatenated matrix contains 6,243 base pairs from TR-i-I, TBG, IRBP, ND2, CYTB and 12S rRNA for 76 sampled species.",
+        "age": 0,
+        "timeRange": [
+          0,
+          0
+        ],
+        "taxonIds": [
+          "carnivora",
+          "feliformia",
+          "caniformia"
+        ],
+        "view": "tree",
+        "eventId": "carnivora-six-gene-living-topology",
+        "annotation": "This is a 2005 sequence topology for sampled living taxa; it neither observes fossil anatomy nor fixes fossil first appearances, divergence dates or COL26.8 accepted names.",
+        "claimLinks": [
+          {
+            "claimId": "claim:event:carnivora-six-gene-living-topology",
+            "relation": "supports"
+          }
+        ]
+      },
+      {
+        "id": "texas-basal-amphicyonid",
+        "title": "Two Texas “Miacis” species are rescored",
+        "text": "The holotype cranium of Gustafsonia cognita, TMM 40209-200, was CT-reconstructed; Angelarctocyon australis is represented by TMM 41850-1 and referred jaw material.",
+        "age": 39.3,
+        "timeRange": [
+          42,
+          36.6
+        ],
+        "taxonIds": [
+          "amphicyonidae",
+          "gustafsonia"
+        ],
+        "view": "tree",
+        "eventId": "texas-basal-amphicyonid-reappraisal",
+        "annotation": "The new genera and basal-amphicyonid positions follow revised scoring and sampled trees; they do not locate an exact geographic origin for beardogs or establish direct ancestry.",
+        "claimLinks": [
+          {
+            "claimId": "claim:event:texas-basal-amphicyonid-reappraisal",
+            "relation": "supports"
+          }
+        ]
+      },
+      {
+        "id": "magericyon-feeding",
+        "title": "A digital mandible tests loading scenarios",
+        "text": "Holotype B-4071 is a complete young-adult skull; the 2026 analysis compares intrinsic canine, p4 and m1 bites and extrinsic pull-back and head-shaking loads, with meshes and scripts deposited on Zenodo.",
+        "age": 0,
+        "timeRange": [
+          0,
+          0
+        ],
+        "taxonIds": [
+          "amphicyonidae",
+          "magericyon"
+        ],
+        "view": "evidence",
+        "eventId": "magericyon-feeding-fea",
+        "annotation": "Stress fields, relative bite forces and behavioural scenarios depend on segmentation, material properties, muscle reconstruction, constraints and normalization; they are experiments on models, not observed feeding.",
+        "claimLinks": [
+          {
+            "claimId": "claim:event:magericyon-feeding-fea",
+            "relation": "supports"
+          }
+        ]
+      },
+      {
+        "id": "kretzoiarctos-dental-panda",
+        "title": "Three dental records test panda affinity",
+        "text": "Holotype MNCN-CSIC NV-2-42 is a left P4; NV-2-40 is a right M1, and IPS 46473 is a partial mandible with c1–m2 and associated P4.",
+        "age": 11.5,
+        "timeRange": [
+          11.8,
+          11.2
+        ],
+        "taxonIds": [
+          "ursidae",
+          "kretzoiarctos"
+        ],
+        "view": "evidence",
+        "eventId": "kretzoiarctos-dental-panda-topology",
+        "annotation": "Ailuropodine placement and herbivorous tendency derive from a character matrix and dental comparison; neither demonstrates identical giant-panda ecology nor a direct ancestor or secure centre of origin.",
+        "claimLinks": [
+          {
+            "claimId": "claim:event:kretzoiarctos-dental-panda-topology",
+            "relation": "supports"
+          }
+        ]
+      },
+      {
+        "id": "panthera-blytheae-holotype-total-evidence",
+        "title": "A Tibetan skull enters a combined tree",
+        "text": "Holotype IVPP V18788.1 is an adult partial cranium; IVPP V18788.2 is a ramus fragment and IVPP V18788.3 a partial premaxilla. The locality sample spans 5.95–4.10 Ma in the original magnetostratigraphic framework.",
+        "age": 5.025,
+        "timeRange": [
+          5.95,
+          4.1
+        ],
+        "taxonIds": [
+          "felidae",
+          "panthera-blytheae"
+        ],
+        "view": "tree",
+        "eventId": "panthera-blytheae-holotype-total-evidence",
+        "annotation": "The original Panthera assignment, snow-leopard affinity and Asian biogeographic scenario are analytical conclusions that later work may revise; the sample is not a universal pantherine FAD.",
+        "claimLinks": [
+          {
+            "claimId": "claim:event:panthera-blytheae-holotype-total-evidence",
+            "relation": "supports"
+          }
+        ]
+      },
+      {
+        "id": "hesperocyon-bony-labyrinth",
+        "title": "An inner ear predicts rather than preserves a hunt",
+        "text": "The 36-specimen sample includes Field Museum Hesperocyon gregarius and Aelurodon skulls, segmented as left bony labyrinths and compared by PCA, CVA and MANOVA.",
+        "age": 0,
+        "timeRange": [
+          0,
+          0
+        ],
+        "taxonIds": [
+          "canidae",
+          "hesperocyon"
+        ],
+        "view": "evidence",
+        "eventId": "hesperocyon-bony-labyrinth-model",
+        "annotation": "The reported 82.05% classification and pounce assignment are proxy-model results conditioned on living categories, scaling and phylogeny; they do not preserve an actual hunt or social behaviour.",
+        "claimLinks": [
+          {
+            "claimId": "claim:event:hesperocyon-bony-labyrinth-model",
+            "relation": "supports"
+          }
+        ]
+      },
+      {
+        "id": "puijila-holotype-locomotor-mosaic",
+        "title": "A lake skeleton mixes land and water traits",
+        "text": "Holotype NUFV 405 preserves roughly 65% of one skeleton, including skull, dentition, vertebrae and substantial fore- and hind limbs from an early Miocene lake deposit.",
+        "age": 22,
+        "timeRange": [
+          24,
+          20
+        ],
+        "taxonIds": [
+          "pinnipedimorpha",
+          "puijila"
+        ],
+        "view": "evidence",
+        "eventId": "puijila-holotype-locomotor-mosaic",
+        "annotation": "Semi-aquatic locomotion, pinnipedimorph position and an Arctic freshwater transition are morphology, topology and palaeoenvironmental interpretations; Puijila is not demonstrated as a direct pinniped ancestor.",
+        "claimLinks": [
+          {
+            "claimId": "claim:event:puijila-holotype-locomotor-mosaic",
+            "relation": "supports"
+          }
+        ]
+      },
+      {
+        "id": "enaliarctos-skeleton-swimming",
+        "title": "A stem-pinniped skeleton tests swimming mechanics",
+        "text": "LACM 4321 preserves a skull and much of the postcranial skeleton, allowing measured limb proportions and joint morphology to be compared with living pinnipeds and terrestrial carnivorans.",
+        "age": 23,
+        "timeRange": [
+          24,
+          22
+        ],
+        "taxonIds": [
+          "pinnipedimorpha",
+          "enaliarctos"
+        ],
+        "view": "evidence",
+        "eventId": "enaliarctos-skeleton-swimming-model",
+        "annotation": "COL26.8 routes 310 accepted living species names through Carnivora. This is nomenclatural coverage, not eleven ancestor stages, 310 mature dossiers, a fossil FAD, or agreement among topology and clock models.",
+        "claimLinks": [
+          {
+            "claimId": "claim:event:enaliarctos-skeleton-swimming-model",
+            "relation": "supports"
+          }
+        ]
+      }
+    ],
+    "evidenceStatus": "available-with-limitations"
   }
 ]

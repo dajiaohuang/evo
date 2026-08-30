@@ -10,8 +10,38 @@
       "relationshipKind": "taxonomic-parent"
     },
     {
-      "id": "felidae",
+      "id": "carnivoraformes-dossiers",
       "parentId": "carnivora",
+      "relationshipKind": "taxonomic-parent"
+    },
+    {
+      "id": "dormaalocyon",
+      "parentId": "carnivoraformes-dossiers",
+      "relationshipKind": "navigation-parent"
+    },
+    {
+      "id": "vulpavus",
+      "parentId": "carnivoraformes-dossiers",
+      "relationshipKind": "navigation-parent"
+    },
+    {
+      "id": "uintacyon",
+      "parentId": "carnivoraformes-dossiers",
+      "relationshipKind": "navigation-parent"
+    },
+    {
+      "id": "lycophocyon",
+      "parentId": "carnivoraformes-dossiers",
+      "relationshipKind": "navigation-parent"
+    },
+    {
+      "id": "feliformia",
+      "parentId": "carnivora",
+      "relationshipKind": "taxonomic-parent"
+    },
+    {
+      "id": "felidae",
+      "parentId": "feliformia",
       "relationshipKind": "taxonomic-parent"
     },
     {
@@ -20,8 +50,68 @@
       "relationshipKind": "taxonomic-parent"
     },
     {
-      "id": "canidae",
+      "id": "panthera-blytheae",
+      "parentId": "felidae",
+      "relationshipKind": "taxonomic-parent"
+    },
+    {
+      "id": "caniformia",
       "parentId": "carnivora",
+      "relationshipKind": "taxonomic-parent"
+    },
+    {
+      "id": "canidae",
+      "parentId": "caniformia",
+      "relationshipKind": "taxonomic-parent"
+    },
+    {
+      "id": "hesperocyon",
+      "parentId": "canidae",
+      "relationshipKind": "taxonomic-parent"
+    },
+    {
+      "id": "amphicyonidae",
+      "parentId": "caniformia",
+      "relationshipKind": "taxonomic-parent"
+    },
+    {
+      "id": "gustafsonia",
+      "parentId": "amphicyonidae",
+      "relationshipKind": "taxonomic-parent"
+    },
+    {
+      "id": "angelarctocyon",
+      "parentId": "amphicyonidae",
+      "relationshipKind": "taxonomic-parent"
+    },
+    {
+      "id": "magericyon",
+      "parentId": "amphicyonidae",
+      "relationshipKind": "taxonomic-parent"
+    },
+    {
+      "id": "ursidae",
+      "parentId": "caniformia",
+      "relationshipKind": "taxonomic-parent"
+    },
+    {
+      "id": "kretzoiarctos",
+      "parentId": "ursidae",
+      "relationshipKind": "taxonomic-parent"
+    },
+    {
+      "id": "pinnipedimorpha",
+      "parentId": "caniformia",
+      "relationshipKind": "taxonomic-parent"
+    },
+    {
+      "id": "puijila",
+      "parentId": "pinnipedimorpha",
+      "relationshipKind": "taxonomic-parent"
+    },
+    {
+      "id": "enaliarctos",
+      "parentId": "pinnipedimorpha",
       "relationshipKind": "taxonomic-parent"
     }
   ]
