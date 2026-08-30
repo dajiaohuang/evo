@@ -641,7 +641,7 @@
                       "commonNameZh": "箭石类",
                       "rank": "order",
                       "taxonId": "txn:15832",
-              "firstAppearance": 228,
+                      "firstAppearance": 228,
                       "lastAppearance": 66,
                       "extinct": true,
                       "children": [],
@@ -2234,27 +2234,123 @@
                                                       "extinct": false,
                                                       "children": [
                                                         {
-                                                          "id": "felidae",
-                                                          "name": "Felidae",
-                                                          "commonName": "Cats",
-                                                          "commonNameZh": "猫科",
-                                                          "rank": "family",
-                                                          "taxonId": "txn:41045",
-                                                          "firstAppearance": 30,
+                                                          "id": "carnivoraformes-dossiers",
+                                                          "name": "Carnivoraformes dossier route",
+                                                          "commonName": "Stem carnivoraform dossier route",
+                                                          "commonNameZh": "食肉形类干群档案导航",
+                                                          "rank": "navigation group",
+                                                          "firstAppearance": 56,
+                                                          "lastAppearance": 0,
+                                                          "children": [
+                                                            {
+                                                              "id": "dormaalocyon",
+                                                              "name": "Dormaalocyon",
+                                                              "commonName": "Dormaalocyon",
+                                                              "commonNameZh": "多马尔犬兽",
+                                                              "rank": "genus",
+                                                              "firstAppearance": 56,
+                                                              "lastAppearance": 55.8,
+                                                              "extinct": true,
+                                                              "children": [],
+                                                              "entityKind": "taxon",
+                                                              "contentLevel": "dossier",
+                                                              "parentRelationshipKind": "navigation-parent"
+                                                            },
+                                                            {
+                                                              "id": "vulpavus",
+                                                              "name": "Vulpavus",
+                                                              "commonName": "Vulpavus",
+                                                              "commonNameZh": "狐祖兽",
+                                                              "rank": "genus",
+                                                              "firstAppearance": 55.8,
+                                                              "lastAppearance": 42,
+                                                              "extinct": true,
+                                                              "children": [],
+                                                              "entityKind": "taxon",
+                                                              "contentLevel": "dossier",
+                                                              "parentRelationshipKind": "navigation-parent"
+                                                            },
+                                                            {
+                                                              "id": "uintacyon",
+                                                              "name": "Uintacyon",
+                                                              "commonName": "Uintacyon",
+                                                              "commonNameZh": "尤因塔犬兽",
+                                                              "rank": "genus",
+                                                              "firstAppearance": 55.8,
+                                                              "lastAppearance": 42,
+                                                              "extinct": true,
+                                                              "children": [],
+                                                              "entityKind": "taxon",
+                                                              "contentLevel": "dossier",
+                                                              "parentRelationshipKind": "navigation-parent"
+                                                            },
+                                                            {
+                                                              "id": "lycophocyon",
+                                                              "name": "Lycophocyon",
+                                                              "commonName": "Lycophocyon",
+                                                              "commonNameZh": "狼形兽",
+                                                              "rank": "genus",
+                                                              "firstAppearance": 46.2,
+                                                              "lastAppearance": 42,
+                                                              "extinct": true,
+                                                              "children": [],
+                                                              "entityKind": "taxon",
+                                                              "contentLevel": "dossier",
+                                                              "parentRelationshipKind": "navigation-parent"
+                                                            }
+                                                          ],
+                                                          "entityKind": "navigation-group",
+                                                          "contentLevel": "dossier"
+                                                        },
+                                                        {
+                                                          "id": "feliformia",
+                                                          "name": "Feliformia",
+                                                          "commonName": "Cat-like carnivorans",
+                                                          "commonNameZh": "猫型类",
+                                                          "rank": "suborder",
+                                                          "firstAppearance": 45,
                                                           "lastAppearance": 0,
                                                           "extinct": false,
                                                           "children": [
                                                             {
-                                                              "id": "smilodon",
-                                                              "name": "Smilodon",
-                                                              "commonName": "Saber-toothed Cat",
-                                                              "commonNameZh": "剑齿虎",
-                                                              "rank": "genus",
-                                                              "taxonId": "txn:41079",
-                                                              "firstAppearance": 2.5,
-                                                              "lastAppearance": 0.01,
-                                                              "extinct": true,
-                                                              "children": [],
+                                                              "id": "felidae",
+                                                              "name": "Felidae",
+                                                              "commonName": "Cats",
+                                                              "commonNameZh": "猫科",
+                                                              "rank": "family",
+                                                              "taxonId": "txn:41045",
+                                                              "firstAppearance": 30,
+                                                              "lastAppearance": 0,
+                                                              "extinct": false,
+                                                              "children": [
+                                                                {
+                                                                  "id": "smilodon",
+                                                                  "name": "Smilodon",
+                                                                  "commonName": "Saber-toothed Cat",
+                                                                  "commonNameZh": "剑齿虎",
+                                                                  "rank": "genus",
+                                                                  "taxonId": "txn:41079",
+                                                                  "firstAppearance": 2.5,
+                                                                  "lastAppearance": 0.01,
+                                                                  "extinct": true,
+                                                                  "children": [],
+                                                                  "entityKind": "taxon",
+                                                                  "contentLevel": "dossier"
+                                                                },
+                                                                {
+                                                                  "id": "panthera-blytheae",
+                                                                  "name": "Panthera blytheae",
+                                                                  "commonName": "Panthera blytheae",
+                                                                  "commonNameZh": "布氏豹（原始命名）",
+                                                                  "rank": "species",
+                                                                  "firstAppearance": 5.95,
+                                                                  "lastAppearance": 4.1,
+                                                                  "extinct": true,
+                                                                  "children": [],
+                                                                  "entityKind": "taxon",
+                                                                  "contentLevel": "dossier"
+                                                                }
+                                                              ],
                                                               "entityKind": "taxon",
                                                               "contentLevel": "dossier"
                                                             }
@@ -2263,16 +2359,164 @@
                                                           "contentLevel": "dossier"
                                                         },
                                                         {
-                                                          "id": "canidae",
-                                                          "name": "Canidae",
-                                                          "commonName": "Dogs & Wolves",
-                                                          "commonNameZh": "犬与狼",
-                                                          "rank": "family",
-                                                          "taxonId": "txn:41189",
-                                                          "firstAppearance": 40,
+                                                          "id": "caniformia",
+                                                          "name": "Caniformia",
+                                                          "commonName": "Dog-like carnivorans",
+                                                          "commonNameZh": "犬型类",
+                                                          "rank": "suborder",
+                                                          "firstAppearance": 46.2,
                                                           "lastAppearance": 0,
                                                           "extinct": false,
-                                                          "children": [],
+                                                          "children": [
+                                                            {
+                                                              "id": "canidae",
+                                                              "name": "Canidae",
+                                                              "commonName": "Dogs & Wolves",
+                                                              "commonNameZh": "犬与狼",
+                                                              "rank": "family",
+                                                              "taxonId": "txn:41189",
+                                                              "firstAppearance": 40,
+                                                              "lastAppearance": 0,
+                                                              "extinct": false,
+                                                              "children": [
+                                                                {
+                                                                  "id": "hesperocyon",
+                                                                  "name": "Hesperocyon",
+                                                                  "commonName": "Hesperocyon",
+                                                                  "commonNameZh": "黄昏犬",
+                                                                  "rank": "genus",
+                                                                  "firstAppearance": 40,
+                                                                  "lastAppearance": 29,
+                                                                  "extinct": true,
+                                                                  "children": [],
+                                                                  "entityKind": "taxon",
+                                                                  "contentLevel": "dossier"
+                                                                }
+                                                              ],
+                                                              "entityKind": "taxon",
+                                                              "contentLevel": "dossier"
+                                                            },
+                                                            {
+                                                              "id": "amphicyonidae",
+                                                              "name": "Amphicyonidae",
+                                                              "commonName": "Beardogs",
+                                                              "commonNameZh": "犬熊科",
+                                                              "rank": "family",
+                                                              "firstAppearance": 42,
+                                                              "lastAppearance": 1.8,
+                                                              "extinct": true,
+                                                              "children": [
+                                                                {
+                                                                  "id": "gustafsonia",
+                                                                  "name": "Gustafsonia",
+                                                                  "commonName": "Gustafsonia",
+                                                                  "commonNameZh": "古斯塔夫森兽",
+                                                                  "rank": "genus",
+                                                                  "firstAppearance": 38,
+                                                                  "lastAppearance": 36.6,
+                                                                  "extinct": true,
+                                                                  "children": [],
+                                                                  "entityKind": "taxon",
+                                                                  "contentLevel": "dossier"
+                                                                },
+                                                                {
+                                                                  "id": "angelarctocyon",
+                                                                  "name": "Angelarctocyon",
+                                                                  "commonName": "Angelarctocyon",
+                                                                  "commonNameZh": "天使熊犬兽",
+                                                                  "rank": "genus",
+                                                                  "firstAppearance": 42,
+                                                                  "lastAppearance": 38,
+                                                                  "extinct": true,
+                                                                  "children": [],
+                                                                  "entityKind": "taxon",
+                                                                  "contentLevel": "dossier"
+                                                                },
+                                                                {
+                                                                  "id": "magericyon",
+                                                                  "name": "Magericyon",
+                                                                  "commonName": "Magericyon",
+                                                                  "commonNameZh": "巨犬熊",
+                                                                  "rank": "genus",
+                                                                  "firstAppearance": 9.7,
+                                                                  "lastAppearance": 8.7,
+                                                                  "extinct": true,
+                                                                  "children": [],
+                                                                  "entityKind": "taxon",
+                                                                  "contentLevel": "dossier"
+                                                                }
+                                                              ],
+                                                              "entityKind": "taxon",
+                                                              "contentLevel": "dossier"
+                                                            },
+                                                            {
+                                                              "id": "ursidae",
+                                                              "name": "Ursidae",
+                                                              "commonName": "Bears",
+                                                              "commonNameZh": "熊科",
+                                                              "rank": "family",
+                                                              "firstAppearance": 38,
+                                                              "lastAppearance": 0,
+                                                              "extinct": false,
+                                                              "children": [
+                                                                {
+                                                                  "id": "kretzoiarctos",
+                                                                  "name": "Kretzoiarctos",
+                                                                  "commonName": "Kretzoiarctos",
+                                                                  "commonNameZh": "克氏熊猫",
+                                                                  "rank": "genus",
+                                                                  "firstAppearance": 11.8,
+                                                                  "lastAppearance": 11.2,
+                                                                  "extinct": true,
+                                                                  "children": [],
+                                                                  "entityKind": "taxon",
+                                                                  "contentLevel": "dossier"
+                                                                }
+                                                              ],
+                                                              "entityKind": "taxon",
+                                                              "contentLevel": "dossier"
+                                                            },
+                                                            {
+                                                              "id": "pinnipedimorpha",
+                                                              "name": "Pinnipedimorpha",
+                                                              "commonName": "Pinniped-line carnivorans",
+                                                              "commonNameZh": "鳍足形类",
+                                                              "rank": "clade",
+                                                              "firstAppearance": 29,
+                                                              "lastAppearance": 0,
+                                                              "extinct": false,
+                                                              "children": [
+                                                                {
+                                                                  "id": "puijila",
+                                                                  "name": "Puijila",
+                                                                  "commonName": "Puijila",
+                                                                  "commonNameZh": "普伊拉兽",
+                                                                  "rank": "genus",
+                                                                  "firstAppearance": 24,
+                                                                  "lastAppearance": 20,
+                                                                  "extinct": true,
+                                                                  "children": [],
+                                                                  "entityKind": "taxon",
+                                                                  "contentLevel": "dossier"
+                                                                },
+                                                                {
+                                                                  "id": "enaliarctos",
+                                                                  "name": "Enaliarctos",
+                                                                  "commonName": "Enaliarctos",
+                                                                  "commonNameZh": "始海豹",
+                                                                  "rank": "genus",
+                                                                  "firstAppearance": 24,
+                                                                  "lastAppearance": 22,
+                                                                  "extinct": true,
+                                                                  "children": [],
+                                                                  "entityKind": "taxon",
+                                                                  "contentLevel": "dossier"
+                                                                }
+                                                              ],
+                                                              "entityKind": "taxon",
+                                                              "contentLevel": "dossier"
+                                                            }
+                                                          ],
                                                           "entityKind": "taxon",
                                                           "contentLevel": "dossier"
                                                         }
@@ -3220,14 +3464,14 @@
                                       "lastAppearance": 0,
                                       "extinct": false,
                                       "children": [
-            {
-              "id": "crocodylomorpha",
+                                        {
+                                          "id": "crocodylomorpha",
                                           "name": "Crocodylomorpha",
                                           "commonName": "Crocodilians",
                                           "commonNameZh": "鳄形类",
                                           "rank": "superorder",
                                           "taxonId": "",
-              "firstAppearance": 231,
+                                          "firstAppearance": 231,
                                           "lastAppearance": 0,
                                           "extinct": false,
                                           "children": [

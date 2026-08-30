@@ -1,5 +1,14 @@
 # Dataset changelog
 
+## 2026.08-static-v5-rc26 — 2026-08-30
+
+- Replaced the Carnivora scaffold with eleven bilingual primary-evidence dossiers spanning early carnivoraform specimens and matrices, the living feliform–caniform split, beardog, bear, cat and dog samples, pinnipedimorph skeletons and bounded feeding or hunting proxy models.
+- Anchored specimen-led dossiers to Dormaalocyon IRSNB dental and tarsal material, Lycophocyon UCMP 85202 and associated SDSNH skeletons, Gustafsonia TMM 40209-200, Magericyon B-4071, Kretzoiarctos MNCN-CSIC NV-2-42/NV-2-40 and IPS 46473, Panthera blytheae IVPP V18788.1–3, Puijila NUFV 405 and Enaliarctos LACM 4321.
+- Added curated navigation for a navigation-only stem-carnivoraform dossier route, Feliformia, Caniformia, Amphicyonidae, Ursidae and Pinnipedimorpha without turning separate fossils into a linear ancestor ladder.
+- Kept named specimen observations separate from morphology topology, living sequence topology, magnetostratigraphic occurrence, finite-element mechanics, inner-ear proxy classification and functional locomotor interpretations.
+- Added a dedicated eleven-step bilingual evidence story and independent Carnivora Chinese lazy chunk.
+- Clarified that COL26.8 routes exactly 310 accepted living species names through Carnivora as nomenclatural coverage, not evidence for 310 mature dossiers, fossil completeness or model agreement.
+
 ## 2026.08-static-v5-rc25 — 2026-08-30
 
 - Replaced the Primates scaffold with twelve primary-evidence dossiers spanning a calibration-sensitive crown-Primate clock model, named Paleocene–Pleistocene specimens and two named ancient-genome samples.

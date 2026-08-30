@@ -1,5 +1,5 @@
 export const PACKAGE_SCHEMA_VERSION = 5
-export const DATASET_PACKAGE_VERSION = '2026.08-static-v5-rc25'
+export const DATASET_PACKAGE_VERSION = '2026.08-static-v5-rc26'
 export const DATASET_RELEASE_DATE = '2026-08-30'
 
 export const packageDefinitions = [
@@ -236,6 +236,20 @@ export const packageDefinitions = [
     title: 'Carnivorans',
     titleZh: '食肉目',
     rootEntityIds: ['carnivora'],
+    conceptScope: {
+      en: 'Eleven bilingual primary-evidence dossiers connect named early carnivoraform teeth and tarsals, crown and stem character matrices, living sequence data, beardog, bear, cat and dog samples, pinnipedimorph skeletons and two explicitly bounded functional models. Carnivoraformes is a navigation-only dossier route because its sampled fossils are not silently promoted into crown Carnivora. Feliformia, Caniformia, Amphicyonidae, Ursidae, Felidae, Canidae and Pinnipedimorpha are curated browse routes, not a complete or uncontested genealogy. COL26.8 routes exactly 310 accepted living species names through Carnivora; that nomenclatural count does not measure fossil, dossier, translation, media, topology or review maturity.',
+      zh: '十一个双语一手证据档案连接具名的早期食肉形类牙齿与跗骨、冠群和干群性状矩阵、现生序列数据、犬熊类、熊类、猫科和犬科样本、鳍足形类骨架以及两个明确限定的功能模型。食肉形类仅作为档案导航路径，因为这些化石样本不会被暗中提升为食肉目冠群成员。猫型类、犬型类、犬熊科、熊科、猫科、犬科与鳍足形类都是策展浏览路径，而非完整或无争议的谱系。COL26.8 恰好把 310 个现生接受种名路由到食肉目；这一命名计数不衡量化石、档案、翻译、媒体、拓扑或评审成熟度。',
+    },
+    scientificMaturity: 'structured',
+    limitations: [
+      'Dormaalocyon, Vulpavus, Uintacyon and other traditional “miacoids” are routed through a navigation-only Carnivoraformes dossier group. Their placement relative to crown Carnivora is matrix-dependent and no sampled taxon is presented as a direct ancestor.',
+      'Feliformia and Caniformia are supported here by a 2005 six-gene sample of 76 living species. That sequence topology does not directly date fossils, establish a crown FAD, preserve morphology or replace current nomenclature.',
+      'Lycophocyon, Gustafsonia, Angelarctocyon, Kretzoiarctos and Panthera blytheae retain explicit taxonomic or topological qualification. Published generic assignments, family positions and biogeographic scenarios can be revised without changing the underlying named specimens.',
+      'Magericyon finite-element stress fields and Hesperocyon inner-ear hunting categories are comparative model outputs. They do not directly observe bite force, prey handling, hunting behaviour or sociality.',
+      'Puijila NUFV 405 and Enaliarctos LACM 4321 preserve separate anatomical mosaics. Freshwater transition, propulsion and terrestrial competence are interpretations, not an ancestor–descendant series.',
+      'COL26.8 routes exactly 310 accepted living species names into this package. This is a nomenclatural snapshot rather than evidence for 310 mature dossiers, complete biological coverage, fossil occurrence or model agreement.',
+      'Entity-wide first-appearance fields remain legacy navigation estimates. They must not be read as claim-linked global FADs, crown ages or lineage durations, and bundled PBDB records remain a bounded non-random sample.',
+    ],
     wave: 'A',
   },
   {

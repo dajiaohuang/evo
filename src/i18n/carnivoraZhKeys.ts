@@ -1,0 +1,56 @@
+const exactCarnivoraCopy = new Set<string>([
+  'Dormaal, Tienen Formation, Belgium', 'Carnivoraformes', 'Dormaalocyon',
+  'Forty fossil and living carnivoramorphan terminals', 'Carnivoramorpha', 'Carnivora',
+  'Southern California, Uintan North American Land Mammal Age', 'Caniformia', 'Lycophocyon',
+  'Living Carnivora tissue and sequence sample', 'Feliformia',
+  'Chambers Tuff, Trans-Pecos Texas, USA', 'Amphicyonidae', 'Gustafsonia', 'Angelarctocyon',
+  'Batallones-1 specimen and comparative digital models', 'Magericyon',
+  'Nombrevilla 2 and Abocador de Can Mata, Spain', 'Ursidae', 'Ailuropodinae', 'Kretzoiarctos',
+  'Zanda Basin, Tibetan Himalaya, China', 'Felidae', 'Pantherinae', 'Panthera blytheae',
+  'Thirty-six-specimen carnivoran μCT dataset', 'Canidae', 'Hesperocyon',
+  'Haughton Formation, Devon Island, Nunavut, Canada', 'Pinnipedimorpha', 'Puijila',
+  'Pyramid Hill Sand Member, Jewett Sand, California, USA', 'Enaliarctos',
+  'Stem carnivoraform dossier route', 'Vulpavus', 'Uintacyon', 'Cat-like carnivorans',
+  'Dog-like carnivorans', 'Beardogs', 'Bears', 'Pinniped-line carnivorans',
+  'Hundreds of elements replace a two-tooth sketch',
+  'Traditional “miacoids” do not make two neat stems',
+  'A cranium tests the base of Caniformia',
+  'Living sequences separate two crown branches',
+  'Two Texas “Miacis” species are rescored',
+  'A digital mandible tests loading scenarios',
+  'Three dental records test panda affinity',
+  'A Tibetan skull enters a combined tree',
+  'An inner ear predicts rather than preserves a hunt',
+  'A lake skeleton mixes land and water traits',
+  'A stem-pinniped skeleton tests swimming mechanics',
+  'Follow named teeth, skulls, skeletons, sequence matrices and digital experiments without converting separate branches into an ancestor ladder.',
+  'COL26.8 routes 310 accepted living species names through Carnivora. This is nomenclatural coverage, not eleven ancestor stages, 310 mature dossiers, a fossil FAD, or agreement among topology and clock models.',
+  'The matrix samples 99 cranial and dental characters across 40 terminals and excludes traditional “Miacidae” and Viverravidae from crown Carnivora in the preferred trees.',
+  'This result rejects a convenient feliform–caniform ancestor ladder but remains a sampled morphology topology whose nodes can change with scoring, taxon sampling and analytical assumptions.',
+  'A named cranium, associated skeletons and a 30-terminal matrix test an early branch near the base of Caniformia.',
+  'Basal-caniform placement is an analytical result and familial assignment remains indeterminate; dietary discriminant scores are comparative-model outputs, not stomach contents or observed hunting.',
+  'Six nuclear and mitochondrial loci across 76 living species test the feliform–caniform split and relationships among extant families.',
+  'The new genera and basal-amphicyonid positions follow revised scoring and sampled trees; they do not locate an exact geographic origin for beardogs or establish direct ancestry.',
+  'A complete skull anchors muscle-driven and externally loaded mandible models for testing feeding mechanics in a late Miocene beardog.',
+  'Stress fields, relative bite forces and behavioural scenarios depend on segmentation, material properties, muscle reconstruction, constraints and normalization; they are experiments on models, not observed feeding.',
+  'Named premolars, a molar and a partial mandible test the position and feeding interpretation of an early giant-panda relative.',
+  'A partial skull and associated jaws enter a combined fossil–molecular analysis of the pantherine radiation.',
+  'μCT reconstructions of fossil and living inner ears test whether semicircular-canal shape predicts hunting style.',
+  'A single associated skeleton preserves terrestrial limb proportions alongside traits used to infer freshwater swimming.',
+  'Combined fore- and hind-limb propulsion and terrestrial competence are functional inferences from osteology; the specimen is not footage of locomotion, a direct ancestor or a global pinniped first appearance.',
+])
+
+const dossierMarkers = [
+  'Dormaal', 'IRSNB M', 'Miacis', 'miacoid', 'Vulpavus', 'Uintacyon',
+  'Lycophocyon', 'UCMP 85202', 'SDSNH', '6,243', 'TR-i-I',
+  'Gustafsonia', 'Angelarctocyon', 'TMM 40209-200', 'Magericyon', 'B-4071',
+  'Kretzoiarctos', 'NV-2', 'IPS 46473', 'Ailuropodine',
+  'Panthera', 'IVPP V18788', 'Hesperocyon', '36-specimen', '82.05%',
+  'Puijila', 'NUFV 405', 'Enaliarctos', 'LACM 4321',
+]
+
+export const carnivoraZhKeys = {
+  has(english: string): boolean {
+    return exactCarnivoraCopy.has(english) || dossierMarkers.some((marker) => english.includes(marker))
+  },
+}

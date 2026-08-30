@@ -7830,5 +7830,527 @@
     ],
     "reviewStatus": "not-reviewed",
     "evidenceLevel": "legacy-display"
+  },
+  {
+    "id": "range:carnivoraformes-dossiers:carnivora-evidence",
+    "entityId": "carnivoraformes-dossiers",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Carnivoraformes dossier navigation route",
+    "geographicScope": "Global or represented navigation composite",
+    "olderMa": 56,
+    "youngerMa": 0,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Endpoints are sampling-dependent legacy navigation bounds, not claim-linked FADs, LADs, crown ages or divergence estimates."
+    },
+    "evidenceBasis": "Rounded atlas navigation range retained for browse continuity; detailed chronology remains claim-specific.",
+    "evidenceLevel": "legacy-display",
+    "confidence": "low",
+    "claimIds": [],
+    "referenceLocators": [
+      {
+        "referenceId": "open-tree",
+        "locator": "Navigation context"
+      },
+      {
+        "referenceId": "pbdb-api-2016",
+        "locator": "Legacy fossil-range display context"
+      }
+    ],
+    "reviewStatus": "automated-audit-passed"
+  },
+  {
+    "id": "range:dormaalocyon:carnivora-evidence",
+    "entityId": "dormaalocyon",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Dormaalocyon latouri sampled occurrence",
+    "geographicScope": "Dormaal, Tienen Formation, Belgium",
+    "olderMa": 56,
+    "youngerMa": 55.8,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "This is a study-level sampled occurrence envelope, not a direct date on ancestry or a guaranteed global first or last appearance."
+    },
+    "evidenceBasis": "IRSNB M2095–M2099 document reconstructed permanent dentition, while astragali IRSNB M2107–M2108 and calcaneum IRSNB M2109 document the tarsus.",
+    "evidenceLevel": "literature-synthesized",
+    "confidence": "medium",
+    "claimIds": [
+      "claim:event:dormaalocyon-dental-tarsal-sample"
+    ],
+    "referenceLocators": [
+      {
+        "referenceId": "sole-2014-dormaalocyon",
+        "locator": "1–21; Figures 3 and 8–10; Appendices 1–3; Systematic palaeontology; Tarsal bones; Phylogenetic analysis"
+      }
+    ],
+    "reviewStatus": "automated-audit-passed"
+  },
+  {
+    "id": "range:vulpavus:carnivora-evidence",
+    "entityId": "vulpavus",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Vulpavus navigation display",
+    "geographicScope": "Global or represented navigation composite",
+    "olderMa": 55.8,
+    "youngerMa": 42,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Endpoints are sampling-dependent legacy navigation bounds, not claim-linked FADs, LADs, crown ages or divergence estimates."
+    },
+    "evidenceBasis": "Rounded atlas navigation range retained for browse continuity; detailed chronology remains claim-specific.",
+    "evidenceLevel": "legacy-display",
+    "confidence": "low",
+    "claimIds": [],
+    "referenceLocators": [
+      {
+        "referenceId": "open-tree",
+        "locator": "Navigation context"
+      },
+      {
+        "referenceId": "pbdb-api-2016",
+        "locator": "Legacy fossil-range display context"
+      }
+    ],
+    "reviewStatus": "automated-audit-passed"
+  },
+  {
+    "id": "range:uintacyon:carnivora-evidence",
+    "entityId": "uintacyon",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Uintacyon navigation display",
+    "geographicScope": "Global or represented navigation composite",
+    "olderMa": 55.8,
+    "youngerMa": 42,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Endpoints are sampling-dependent legacy navigation bounds, not claim-linked FADs, LADs, crown ages or divergence estimates."
+    },
+    "evidenceBasis": "Rounded atlas navigation range retained for browse continuity; detailed chronology remains claim-specific.",
+    "evidenceLevel": "legacy-display",
+    "confidence": "low",
+    "claimIds": [],
+    "referenceLocators": [
+      {
+        "referenceId": "open-tree",
+        "locator": "Navigation context"
+      },
+      {
+        "referenceId": "pbdb-api-2016",
+        "locator": "Legacy fossil-range display context"
+      }
+    ],
+    "reviewStatus": "automated-audit-passed"
+  },
+  {
+    "id": "range:lycophocyon:carnivora-evidence",
+    "entityId": "lycophocyon",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Lycophocyon hutchisoni sampled occurrence",
+    "geographicScope": "Southern California, USA",
+    "olderMa": 46.2,
+    "youngerMa": 42,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "This is a study-level sampled occurrence envelope, not a direct date on ancestry or a guaranteed global first or last appearance."
+    },
+    "evidenceBasis": "Holotype UCMP 85202 supplies the cranium and dentition; associated paratypes SDSNH 107446 and SDSNH 107447 add postcranial anatomy.",
+    "evidenceLevel": "literature-synthesized",
+    "confidence": "medium",
+    "claimIds": [
+      "claim:event:lycophocyon-holotype-basal-caniform"
+    ],
+    "referenceLocators": [
+      {
+        "referenceId": "tomiya-2011-lycophocyon",
+        "locator": "e24146; Figures 2–7; Tables 1–3; Appendices S1–S3; Holotype and paratypes; Phylogenetic analysis; Dietary habits"
+      }
+    ],
+    "reviewStatus": "automated-audit-passed"
+  },
+  {
+    "id": "range:feliformia:carnivora-evidence",
+    "entityId": "feliformia",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Feliformia navigation display",
+    "geographicScope": "Global or represented navigation composite",
+    "olderMa": 45,
+    "youngerMa": 0,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Endpoints are sampling-dependent legacy navigation bounds, not claim-linked FADs, LADs, crown ages or divergence estimates."
+    },
+    "evidenceBasis": "Rounded atlas navigation range retained for browse continuity; detailed chronology remains claim-specific.",
+    "evidenceLevel": "legacy-display",
+    "confidence": "low",
+    "claimIds": [],
+    "referenceLocators": [
+      {
+        "referenceId": "open-tree",
+        "locator": "Navigation context"
+      },
+      {
+        "referenceId": "pbdb-api-2016",
+        "locator": "Legacy fossil-range display context"
+      }
+    ],
+    "reviewStatus": "automated-audit-passed"
+  },
+  {
+    "id": "range:panthera-blytheae:carnivora-evidence",
+    "entityId": "panthera-blytheae",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Panthera blytheae Zanda Basin sample",
+    "geographicScope": "Zanda Basin, Tibetan Himalaya, China",
+    "olderMa": 5.95,
+    "youngerMa": 4.1,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "This is a study-level sampled occurrence envelope, not a direct date on ancestry or a guaranteed global first or last appearance."
+    },
+    "evidenceBasis": "Holotype IVPP V18788.1 is an adult partial cranium; IVPP V18788.2 is a ramus fragment and IVPP V18788.3 a partial premaxilla. The locality sample spans 5.95–4.10 Ma in the original magnetostratigraphic framework.",
+    "evidenceLevel": "literature-synthesized",
+    "confidence": "medium",
+    "claimIds": [
+      "claim:event:panthera-blytheae-holotype-total-evidence"
+    ],
+    "referenceLocators": [
+      {
+        "referenceId": "tseng-2014-panthera-blytheae",
+        "locator": "1774–1782; Figures 1–4; Table S1; Data S1–S3; Holotype and referred material; Magnetostratigraphic ages; Combined phylogenetic analysis"
+      }
+    ],
+    "reviewStatus": "automated-audit-passed"
+  },
+  {
+    "id": "range:caniformia:carnivora-evidence",
+    "entityId": "caniformia",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Caniformia navigation display",
+    "geographicScope": "Global or represented navigation composite",
+    "olderMa": 46.2,
+    "youngerMa": 0,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Endpoints are sampling-dependent legacy navigation bounds, not claim-linked FADs, LADs, crown ages or divergence estimates."
+    },
+    "evidenceBasis": "Rounded atlas navigation range retained for browse continuity; detailed chronology remains claim-specific.",
+    "evidenceLevel": "legacy-display",
+    "confidence": "low",
+    "claimIds": [],
+    "referenceLocators": [
+      {
+        "referenceId": "open-tree",
+        "locator": "Navigation context"
+      },
+      {
+        "referenceId": "pbdb-api-2016",
+        "locator": "Legacy fossil-range display context"
+      }
+    ],
+    "reviewStatus": "automated-audit-passed"
+  },
+  {
+    "id": "range:hesperocyon:carnivora-evidence",
+    "entityId": "hesperocyon",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Hesperocyon navigation display",
+    "geographicScope": "Global or represented navigation composite",
+    "olderMa": 40,
+    "youngerMa": 29,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Endpoints are sampling-dependent legacy navigation bounds, not claim-linked FADs, LADs, crown ages or divergence estimates."
+    },
+    "evidenceBasis": "Rounded atlas navigation range retained for browse continuity; detailed chronology remains claim-specific.",
+    "evidenceLevel": "legacy-display",
+    "confidence": "low",
+    "claimIds": [],
+    "referenceLocators": [
+      {
+        "referenceId": "open-tree",
+        "locator": "Navigation context"
+      },
+      {
+        "referenceId": "pbdb-api-2016",
+        "locator": "Legacy fossil-range display context"
+      }
+    ],
+    "reviewStatus": "automated-audit-passed"
+  },
+  {
+    "id": "range:amphicyonidae:carnivora-evidence",
+    "entityId": "amphicyonidae",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Amphicyonidae navigation display",
+    "geographicScope": "Global or represented navigation composite",
+    "olderMa": 42,
+    "youngerMa": 1.8,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Endpoints are sampling-dependent legacy navigation bounds, not claim-linked FADs, LADs, crown ages or divergence estimates."
+    },
+    "evidenceBasis": "Rounded atlas navigation range retained for browse continuity; detailed chronology remains claim-specific.",
+    "evidenceLevel": "legacy-display",
+    "confidence": "low",
+    "claimIds": [],
+    "referenceLocators": [
+      {
+        "referenceId": "open-tree",
+        "locator": "Navigation context"
+      },
+      {
+        "referenceId": "pbdb-api-2016",
+        "locator": "Legacy fossil-range display context"
+      }
+    ],
+    "reviewStatus": "automated-audit-passed"
+  },
+  {
+    "id": "range:gustafsonia:carnivora-evidence",
+    "entityId": "gustafsonia",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Gustafsonia cognita sampled occurrence",
+    "geographicScope": "Chambers Tuff, Texas, USA",
+    "olderMa": 38,
+    "youngerMa": 36.6,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "This is a study-level sampled occurrence envelope, not a direct date on ancestry or a guaranteed global first or last appearance."
+    },
+    "evidenceBasis": "The holotype cranium of Gustafsonia cognita, TMM 40209-200, was CT-reconstructed; Angelarctocyon australis is represented by TMM 41850-1 and referred jaw material.",
+    "evidenceLevel": "literature-synthesized",
+    "confidence": "medium",
+    "claimIds": [
+      "claim:event:texas-basal-amphicyonid-reappraisal"
+    ],
+    "referenceLocators": [
+      {
+        "referenceId": "tomiya-tseng-2016-beardogs",
+        "locator": "160518; Figures 1–7; Tables 1–2; Electronic supplementary material; Revised systematics; Digital reconstruction; Phylogenetic analysis"
+      }
+    ],
+    "reviewStatus": "automated-audit-passed"
+  },
+  {
+    "id": "range:angelarctocyon:carnivora-evidence",
+    "entityId": "angelarctocyon",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Angelarctocyon australis sampled occurrence",
+    "geographicScope": "Chambers Tuff, Texas, USA",
+    "olderMa": 42,
+    "youngerMa": 38,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "This is a study-level sampled occurrence envelope, not a direct date on ancestry or a guaranteed global first or last appearance."
+    },
+    "evidenceBasis": "The holotype cranium of Gustafsonia cognita, TMM 40209-200, was CT-reconstructed; Angelarctocyon australis is represented by TMM 41850-1 and referred jaw material.",
+    "evidenceLevel": "literature-synthesized",
+    "confidence": "medium",
+    "claimIds": [
+      "claim:event:texas-basal-amphicyonid-reappraisal"
+    ],
+    "referenceLocators": [
+      {
+        "referenceId": "tomiya-tseng-2016-beardogs",
+        "locator": "160518; Figures 1–7; Tables 1–2; Electronic supplementary material; Revised systematics; Digital reconstruction; Phylogenetic analysis"
+      }
+    ],
+    "reviewStatus": "automated-audit-passed"
+  },
+  {
+    "id": "range:magericyon:carnivora-evidence",
+    "entityId": "magericyon",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Magericyon anceps Batallones-1 sample",
+    "geographicScope": "Batallones-1, Madrid, Spain",
+    "olderMa": 9.7,
+    "youngerMa": 8.7,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "This is a study-level sampled occurrence envelope, not a direct date on ancestry or a guaranteed global first or last appearance."
+    },
+    "evidenceBasis": "Holotype B-4071 is a complete young-adult skull; the 2026 analysis compares intrinsic canine, p4 and m1 bites and extrinsic pull-back and head-shaking loads, with meshes and scripts deposited on Zenodo.",
+    "evidenceLevel": "literature-synthesized",
+    "confidence": "medium",
+    "claimIds": [
+      "claim:event:magericyon-feeding-fea"
+    ],
+    "referenceLocators": [
+      {
+        "referenceId": "diaz-de-leon-2026-magericyon-fea",
+        "locator": "Article 34; Figures 2–7; Table 1; Online Resources 1–3; Muscle reconstruction; Intrinsic and extrinsic FEA; Bite-force normalization"
+      }
+    ],
+    "reviewStatus": "automated-audit-passed"
+  },
+  {
+    "id": "range:ursidae:carnivora-evidence",
+    "entityId": "ursidae",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Ursidae navigation display",
+    "geographicScope": "Global or represented navigation composite",
+    "olderMa": 38,
+    "youngerMa": 0,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Endpoints are sampling-dependent legacy navigation bounds, not claim-linked FADs, LADs, crown ages or divergence estimates."
+    },
+    "evidenceBasis": "Rounded atlas navigation range retained for browse continuity; detailed chronology remains claim-specific.",
+    "evidenceLevel": "legacy-display",
+    "confidence": "low",
+    "claimIds": [],
+    "referenceLocators": [
+      {
+        "referenceId": "open-tree",
+        "locator": "Navigation context"
+      },
+      {
+        "referenceId": "pbdb-api-2016",
+        "locator": "Legacy fossil-range display context"
+      }
+    ],
+    "reviewStatus": "automated-audit-passed"
+  },
+  {
+    "id": "range:kretzoiarctos:carnivora-evidence",
+    "entityId": "kretzoiarctos",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Kretzoiarctos beatrix Spanish sample",
+    "geographicScope": "Nombrevilla 2 and Abocador de Can Mata, Spain",
+    "olderMa": 11.8,
+    "youngerMa": 11.2,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "This is a study-level sampled occurrence envelope, not a direct date on ancestry or a guaranteed global first or last appearance."
+    },
+    "evidenceBasis": "Holotype MNCN-CSIC NV-2-42 is a left P4; NV-2-40 is a right M1, and IPS 46473 is a partial mandible with c1–m2 and associated P4.",
+    "evidenceLevel": "literature-synthesized",
+    "confidence": "medium",
+    "claimIds": [
+      "claim:event:kretzoiarctos-dental-panda-topology"
+    ],
+    "referenceLocators": [
+      {
+        "referenceId": "abella-2012-kretzoiarctos",
+        "locator": "e48985; Figures 1–4; Tables 1–2; Table S1; Holotype and referred material; Phylogenetic analysis; Dental comparisons"
+      }
+    ],
+    "reviewStatus": "automated-audit-passed"
+  },
+  {
+    "id": "range:pinnipedimorpha:carnivora-evidence",
+    "entityId": "pinnipedimorpha",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Pinnipedimorpha navigation display",
+    "geographicScope": "Global or represented navigation composite",
+    "olderMa": 29,
+    "youngerMa": 0,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Endpoints are sampling-dependent legacy navigation bounds, not claim-linked FADs, LADs, crown ages or divergence estimates."
+    },
+    "evidenceBasis": "Rounded atlas navigation range retained for browse continuity; detailed chronology remains claim-specific.",
+    "evidenceLevel": "legacy-display",
+    "confidence": "low",
+    "claimIds": [],
+    "referenceLocators": [
+      {
+        "referenceId": "open-tree",
+        "locator": "Navigation context"
+      },
+      {
+        "referenceId": "pbdb-api-2016",
+        "locator": "Legacy fossil-range display context"
+      }
+    ],
+    "reviewStatus": "automated-audit-passed"
+  },
+  {
+    "id": "range:puijila:carnivora-evidence",
+    "entityId": "puijila",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Puijila darwini holotype occurrence",
+    "geographicScope": "Haughton Formation, Nunavut, Canada",
+    "olderMa": 24,
+    "youngerMa": 20,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "This is a study-level sampled occurrence envelope, not a direct date on ancestry or a guaranteed global first or last appearance."
+    },
+    "evidenceBasis": "Holotype NUFV 405 preserves roughly 65% of one skeleton, including skull, dentition, vertebrae and substantial fore- and hind limbs from an early Miocene lake deposit.",
+    "evidenceLevel": "literature-synthesized",
+    "confidence": "medium",
+    "claimIds": [
+      "claim:event:puijila-holotype-locomotor-mosaic"
+    ],
+    "referenceLocators": [
+      {
+        "referenceId": "rybczynski-2009-puijila",
+        "locator": "1021–1024; Figures 1–4; Supplementary Information; Holotype; Locomotor anatomy; Phylogenetic analysis"
+      }
+    ],
+    "reviewStatus": "automated-audit-passed"
+  },
+  {
+    "id": "range:enaliarctos:carnivora-evidence",
+    "entityId": "enaliarctos",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Enaliarctos mealsi skeleton occurrence",
+    "geographicScope": "Jewett Sand, California, USA",
+    "olderMa": 24,
+    "youngerMa": 22,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "This is a study-level sampled occurrence envelope, not a direct date on ancestry or a guaranteed global first or last appearance."
+    },
+    "evidenceBasis": "LACM 4321 preserves a skull and much of the postcranial skeleton, allowing measured limb proportions and joint morphology to be compared with living pinnipeds and terrestrial carnivorans.",
+    "evidenceLevel": "literature-synthesized",
+    "confidence": "medium",
+    "claimIds": [
+      "claim:event:enaliarctos-skeleton-swimming-model"
+    ],
+    "referenceLocators": [
+      {
+        "referenceId": "berta-ray-1990-enaliarctos",
+        "locator": "141–157; Figures 1–8; Tables 1–6; Skeletal description; Limb proportions; Locomotor interpretation"
+      }
+    ],
+    "reviewStatus": "automated-audit-passed"
   }
 ]
