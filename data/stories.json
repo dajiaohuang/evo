@@ -5269,6 +5269,132 @@
     ]
   },
   {
+    "id": "echinoderm-evidence-boundaries",
+    "title": "From stereom fragments to living echinoderm crowns",
+    "titleZh": "从立体网骨片到现生棘皮动物冠群",
+    "dek": "Follow five evidence boundaries that keep isolated skeleton, contested affinity, articulated bodies and modelled crown time distinct.",
+    "theme": "ocean",
+    "durationMinutes": 7,
+    "featured": false,
+    "steps": [
+      {
+        "id": "isolated-stereom",
+        "title": "An ossicle is not an articulated animal",
+        "text": "Cambrian Stage 3 stereom ossicles directly record echinoderm skeletal microstructure, but isolated elements do not reveal one complete body plan or a phylum origin date.",
+        "age": 522,
+        "timeRange": [
+          525,
+          520
+        ],
+        "taxonIds": [
+          "echinodermata"
+        ],
+        "view": "evidence",
+        "annotation": "The source-reported numerical calibration is approximate and older than the atlas's current chart.",
+        "claimLinks": [
+          {
+            "claimId": "claim:taxon:echinodermata:earliest-stereom-ossicles",
+            "relation": "supports"
+          }
+        ]
+      },
+      {
+        "id": "contested-yanjiahella",
+        "title": "Keep a Fortunian candidate contested",
+        "text": "Yanjiahella was recovered as a stem echinoderm in one analysis, but a published reanalysis found no unambiguous echinoderm synapomorphy or stereom, so it does not set the range.",
+        "age": 536,
+        "timeRange": [
+          539,
+          529
+        ],
+        "taxonIds": [
+          "echinodermata"
+        ],
+        "view": "tree",
+        "annotation": "Competing matrices are evidence of disagreement, not permission to select a convenient endpoint.",
+        "claimLinks": [
+          {
+            "claimId": "claim:taxon:echinodermata:yanjiahella-affinity",
+            "relation": "supports"
+          }
+        ]
+      },
+      {
+        "id": "articulated-faunas",
+        "title": "Articulated faunas change the record",
+        "text": "By about 510 Ma, articulated echinoderms preserve at least four markedly differentiated body plans, supplying a more robust body-fossil datum than isolated stereom.",
+        "age": 510,
+        "timeRange": [
+          515,
+          508
+        ],
+        "taxonIds": [
+          "echinodermata"
+        ],
+        "view": "diversity",
+        "annotation": "A robust sampled fauna is still not the first evolutionary instant of Echinodermata.",
+        "claimLinks": [
+          {
+            "claimId": "claim:taxon:echinodermata:articulated-faunas-510ma",
+            "relation": "supports"
+          }
+        ]
+      },
+      {
+        "id": "class-records",
+        "title": "Class-level records remain uneven",
+        "text": "The unproblematic crinoid record begins in the middle Tremadocian, while the oldest articulated holothurian used here is late Darriwilian; each class keeps its own specimen and stratigraphic boundary.",
+        "age": 475,
+        "timeRange": [
+          480,
+          465
+        ],
+        "taxonIds": [
+          "crinoidea",
+          "holothuroidea"
+        ],
+        "view": "map",
+        "annotation": "Different preservation histories prevent one class record from standing in for every echinoderm class.",
+        "claimLinks": [
+          {
+            "claimId": "claim:taxon:crinoidea:tremadocian-record",
+            "relation": "supports"
+          },
+          {
+            "claimId": "claim:taxon:holothuroidea:darriwilian-articulated-record",
+            "relation": "supports"
+          }
+        ]
+      },
+      {
+        "id": "stem-versus-crown",
+        "title": "Do not merge stem fossils with crown time",
+        "text": "Darriwilian bothriocidaroid plates anchor total-group Echinoidea, whereas phylogenomic analyses place the crown near the Carboniferous–Permian transition under model-dependent clocks.",
+        "age": 465,
+        "timeRange": [
+          470,
+          290
+        ],
+        "taxonIds": [
+          "echinoidea"
+        ],
+        "view": "tree",
+        "annotation": "A fossil occurrence and a modelled divergence answer different questions and remain separate in the atlas.",
+        "claimLinks": [
+          {
+            "claimId": "claim:taxon:echinoidea:ordovician-stem-record",
+            "relation": "supports"
+          },
+          {
+            "claimId": "claim:taxon:echinoidea:crown-origin",
+            "relation": "contextualizes"
+          }
+        ]
+      }
+    ],
+    "evidenceStatus": "available-with-limitations"
+  },
+  {
     "id": "atlas-chronology-from-rocks-to-models",
     "title": "How the atlas dates deep-time change",
     "titleZh": "图谱如何为深时变化定年",

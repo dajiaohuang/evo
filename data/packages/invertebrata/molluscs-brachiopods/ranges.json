@@ -3,31 +3,29 @@
     "id": "range:brachiopoda:global",
     "entityId": "brachiopoda",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Brachiopoda",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 540,
+    "taxonomicConcept": "Total-group Brachiopoda under the Micrina stem-group reconstruction",
+    "geographicScope": "Early Cambrian Micrina sample to living brachiopods",
+    "olderMa": 520,
     "youngerMa": 0,
     "status": "available",
     "uncertainty": {
-      "olderMa": null,
-      "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "olderMa": 10,
+      "youngerMa": 0,
+      "note": "The older endpoint is a rounded Early Cambrian sample; the whole-body reconstruction and stem placement remain comparative hypotheses."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "evidenceBasis": "Mitral and sellate Micrina sclerites with muscle scars support a bivalved stem-brachiopod reconstruction without setting crown age.",
     "confidence": "medium",
-    "claimIds": [],
+    "claimIds": [
+      "claim:taxon:brachiopoda:root-range-rc39"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
-      },
-      {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "holmer-et-al-2008-micrina",
+        "locator": "pp. 724–728; Figures 1–3"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "literature-synthesized"
   },
   {
     "id": "range:articulata:global",
@@ -525,31 +523,29 @@
     "id": "range:graptolithina:global",
     "entityId": "graptolithina",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Graptolithina",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 510,
+    "taxonomicConcept": "Graptolithina including living rhabdopleurid graptolites",
+    "geographicScope": "Hongjingshao Formation Yunotubus sample to living rhabdopleurids",
+    "olderMa": 516,
     "youngerMa": 0,
     "status": "available",
     "uncertainty": {
-      "olderMa": null,
-      "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "olderMa": 2,
+      "youngerMa": 0,
+      "note": "The older endpoint is the approximate age of one diagnostic Lagerstätte sample, not a graptolite origin date."
     },
-    "evidenceBasis": "The class-level concept includes living rhabdopleurid graptolites, so its display range extends to the present. The older endpoint remains a rounded, sampling-dependent atlas bound.",
+    "evidenceBasis": "Five Yunotubus specimens preserve tubes, zooids and a connecting stolon used in a sampled pterobranch analysis; living rhabdopleurids support the present endpoint.",
     "confidence": "medium",
-    "claimIds": [],
+    "claimIds": [
+      "claim:taxon:graptolithina:root-range-rc39"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
-      },
-      {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "yang-2025-yunotubus",
+        "locator": "Figures 1–5; Geological setting; Systematic palaeontology; phylogenetic analyses"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "literature-synthesized"
   },
   {
     "id": "range:molluscan-origin-dossiers:primary-evidence",

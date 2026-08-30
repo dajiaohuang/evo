@@ -3,31 +3,33 @@
     "id": "range:gymnospermae:global",
     "entityId": "gymnospermae",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Gymnospermae",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 370,
+    "taxonomicConcept": "Total-seed-plant navigation surrogate for the Gymnospermae package root",
+    "geographicScope": "Famennian Hampshire Formation seed sample to living gymnosperm families",
+    "olderMa": 365,
     "youngerMa": 0,
     "status": "available",
     "uncertainty": {
-      "olderMa": null,
-      "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "olderMa": 7,
+      "youngerMa": 0,
+      "note": "The Famennian endpoint is a rounded total-seed-plant sample and is not a crown age or FAD for living Gymnospermae."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "evidenceBasis": "Cupulate lagenostomalean-type seeds anchor the extinct total-group record; complete living-family sampling contextualizes the present endpoint.",
     "confidence": "medium",
-    "claimIds": [],
+    "claimIds": [
+      "claim:taxon:gymnospermae:root-range-rc39"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
+        "referenceId": "gillespie-1981-earliest-seeds",
+        "locator": "pp. 462–464; Figure 1"
       },
       {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "ran-2018-gymnosperm-phylogenomics",
+        "locator": "article 20181012, pp. 1–9; Figures 1–2"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "literature-synthesized"
   },
   {
     "id": "range:cycadophyta:global",

@@ -3,31 +3,33 @@
     "id": "range:trilobita:global",
     "entityId": "trilobita",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Trilobita",
-    "geographicScope": "Global or represented navigation composite",
+    "taxonomicConcept": "Trilobita sampled fossil envelope",
+    "geographicScope": "Widespread early Cambrian record through revised Changhsingian occurrences",
     "olderMa": 521,
     "youngerMa": 252,
     "status": "available",
     "uncertainty": {
-      "olderMa": null,
-      "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "olderMa": 3,
+      "youngerMa": 1,
+      "note": "Both endpoints are rounded sampled bounds: approximately 521 Ma widespread records and latest-Permian occurrences, not exact global FAD/LAD instants."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "evidenceBasis": "An early-trilobite matrix and clock analysis constrains the older record, while revised Changhsingian material constrains survival into the latest Permian.",
     "confidence": "medium",
-    "claimIds": [],
+    "claimIds": [
+      "claim:taxon:trilobita:root-range-rc39"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
+        "referenceId": "holmes-budd-2022-early-trilobites",
+        "locator": "article 1177; Figures 1–4 and supplementary analyses"
       },
       {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "mychko-2025-latest-trilobites",
+        "locator": "article 28.2:a22; Figures 1–7 and global Lopingian overview"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "literature-synthesized"
   },
   {
     "id": "range:phacopida:global",

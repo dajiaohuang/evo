@@ -29,61 +29,61 @@
     "id": "range:plantae:global",
     "entityId": "plantae",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Plantae",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 470,
+    "taxonomicConcept": "Embryophyte evidence within the atlas Plantae root",
+    "geographicScope": "Zanjón Formation cryptospore anchor to living representatives",
+    "olderMa": 473,
     "youngerMa": 0,
     "status": "available",
     "uncertainty": {
-      "olderMa": null,
-      "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "olderMa": 2,
+      "youngerMa": 0,
+      "note": "The older endpoint rounds the source's approximately 473–471 Ma assemblage; it is not a first appearance for all Plantae."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
-    "confidence": "medium",
-    "claimIds": [],
+    "evidenceBasis": "Dated cryptospore monads and tetrads provide a direct sampled embryophyte-on-land anchor; living representatives supply the present endpoint.",
+    "confidence": "high",
+    "claimIds": [
+      "claim:taxon:plantae:root-range-rc39"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
-      },
-      {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "rubinstein-2010-dapingian-cryptospores",
+        "locator": "pp. 365–369; Figures 1–2 and Supporting Figures S1, S3–S4"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "literature-synthesized"
   },
   {
     "id": "range:bryophyta:global",
     "entityId": "bryophyta",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Bryophyta",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 470,
+    "taxonomicConcept": "Bryophyta sensu stricto (mosses)",
+    "geographicScope": "Eastern German late Visean moss sample to living mosses",
+    "olderMa": 335,
     "youngerMa": 0,
     "status": "available",
     "uncertainty": {
-      "olderMa": null,
-      "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "olderMa": 5,
+      "youngerMa": 0,
+      "note": "The older endpoint is a rounded late Visean sample; fragmentary preservation and numerical stage conversion limit precision."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "evidenceBasis": "Three late Visean moss morphotypes provide the direct fossil anchor; older cryptospores are not promoted to crown-moss records.",
     "confidence": "medium",
-    "claimIds": [],
+    "claimIds": [
+      "claim:taxon:bryophyta:root-range-rc39"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
+        "referenceId": "hubers-kerp-2012-oldest-mosses",
+        "locator": "pp. 755–758; Figures 1–3"
       },
       {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "ics-2026-06",
+        "locator": "Mississippian and Visean numerical boundary context"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "literature-synthesized"
   },
   {
     "id": "range:lycophyta:global",
@@ -119,7 +119,7 @@
       }
     ],
     "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "evidenceLevel": "literature-synthesized"
   },
   {
     "id": "range:lepidodendron:global",
@@ -155,31 +155,29 @@
     "id": "range:pteridophyta:global",
     "entityId": "pteridophyta",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Pteridophyta",
-    "geographicScope": "Global or represented navigation composite",
+    "taxonomicConcept": "Atlas Pteridophyta navigation concept; cladoxylopsid exemplar is not crown ferns or horsetails",
+    "geographicScope": "Gilboa–Schoharie Middle Devonian sample to living fern and horsetail lineages",
     "olderMa": 385,
     "youngerMa": 0,
     "status": "available",
     "uncertainty": {
-      "olderMa": null,
-      "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "olderMa": 5,
+      "youngerMa": 0,
+      "note": "The 385 Ma endpoint is a rounded Middle Devonian cladoxylopsid exemplar, not a crown-fern or crown-horsetail first appearance."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "evidenceBasis": "Attached Wattieza crowns and Eospermatopteris trunks directly reconstruct a fern-like cladoxylopsid tree while leaving crown relationships unresolved.",
     "confidence": "medium",
-    "claimIds": [],
+    "claimIds": [
+      "claim:taxon:pteridophyta:root-range-rc39"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
-      },
-      {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "stein-2007-wattieza",
+        "locator": "pp. 904–907; Figures 1–3"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "literature-synthesized"
   },
   {
     "id": "range:equisetopsida:global",
@@ -245,31 +243,33 @@
     "id": "range:gymnospermae:global",
     "entityId": "gymnospermae",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Gymnospermae",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 370,
+    "taxonomicConcept": "Total-seed-plant navigation surrogate for the Gymnospermae package root",
+    "geographicScope": "Famennian Hampshire Formation seed sample to living gymnosperm families",
+    "olderMa": 365,
     "youngerMa": 0,
     "status": "available",
     "uncertainty": {
-      "olderMa": null,
-      "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "olderMa": 7,
+      "youngerMa": 0,
+      "note": "The Famennian endpoint is a rounded total-seed-plant sample and is not a crown age or FAD for living Gymnospermae."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "evidenceBasis": "Cupulate lagenostomalean-type seeds anchor the extinct total-group record; complete living-family sampling contextualizes the present endpoint.",
     "confidence": "medium",
-    "claimIds": [],
+    "claimIds": [
+      "claim:taxon:gymnospermae:root-range-rc39"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
+        "referenceId": "gillespie-1981-earliest-seeds",
+        "locator": "pp. 462–464; Figure 1"
       },
       {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "ran-2018-gymnosperm-phylogenomics",
+        "locator": "article 20181012, pp. 1–9; Figures 1–2"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "literature-synthesized"
   },
   {
     "id": "range:cycadophyta:global",
@@ -665,31 +665,29 @@
     "id": "range:porifera:global",
     "entityId": "porifera",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Porifera",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 635,
+    "taxonomicConcept": "Porifera under the sampled Helicolocellus morphology hypothesis",
+    "geographicScope": "Dengying Formation sample to living sponges",
+    "olderMa": 551,
     "youngerMa": 0,
     "status": "available",
     "uncertainty": {
-      "olderMa": null,
-      "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "olderMa": 12,
+      "youngerMa": 0,
+      "note": "The source brackets the fossil-bearing interval at approximately 551–539 Ma; crown placement is morphology-matrix dependent."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "evidenceBasis": "Helicolocellus specimens preserve a nested organic lattice in a dated interval and are recovered near Hexactinellida in the sampled matrix.",
     "confidence": "medium",
-    "claimIds": [],
+    "claimIds": [
+      "claim:taxon:porifera:root-range-rc39"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
-      },
-      {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "wang-2024-helicolocellus",
+        "locator": "pp. 905–911; Figures 1–4 and Extended Data Figures 1–10"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "literature-synthesized"
   },
   {
     "id": "range:stromatoporoidea:global",
@@ -755,31 +753,29 @@
     "id": "range:cnidaria:global",
     "entityId": "cnidaria",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Cnidaria",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 580,
+    "taxonomicConcept": "Cnidaria under the sampled Auroralumina morphology hypothesis",
+    "geographicScope": "Charnwood Forest Bed B sample to living cnidarians",
+    "olderMa": 562,
     "youngerMa": 0,
     "status": "available",
     "uncertainty": {
-      "olderMa": null,
-      "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "olderMa": 5,
+      "youngerMa": 0,
+      "note": "The fossil horizon is bracketed at 562–557 Ma; medusozoan-stem placement is a matrix result, not an observed origin."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "evidenceBasis": "Auroralumina preserves polypoid anatomy in a dated horizon and is recovered as a stem medusozoan within crown Cnidaria in the sampled analysis.",
     "confidence": "medium",
-    "claimIds": [],
+    "claimIds": [
+      "claim:taxon:cnidaria:root-range-rc39"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
-      },
-      {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "dunn-2022-auroralumina",
+        "locator": "pp. 1095–1104; Figures 1–5 and Extended Data Figures 1–8"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "literature-synthesized"
   },
   {
     "id": "range:anthozoa:global",
@@ -905,31 +901,29 @@
     "id": "range:brachiopoda:global",
     "entityId": "brachiopoda",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Brachiopoda",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 540,
+    "taxonomicConcept": "Total-group Brachiopoda under the Micrina stem-group reconstruction",
+    "geographicScope": "Early Cambrian Micrina sample to living brachiopods",
+    "olderMa": 520,
     "youngerMa": 0,
     "status": "available",
     "uncertainty": {
-      "olderMa": null,
-      "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "olderMa": 10,
+      "youngerMa": 0,
+      "note": "The older endpoint is a rounded Early Cambrian sample; the whole-body reconstruction and stem placement remain comparative hypotheses."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "evidenceBasis": "Mitral and sellate Micrina sclerites with muscle scars support a bivalved stem-brachiopod reconstruction without setting crown age.",
     "confidence": "medium",
-    "claimIds": [],
+    "claimIds": [
+      "claim:taxon:brachiopoda:root-range-rc39"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
-      },
-      {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "holmer-et-al-2008-micrina",
+        "locator": "pp. 724–728; Figures 1–3"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "literature-synthesized"
   },
   {
     "id": "range:articulata:global",
@@ -1427,61 +1421,61 @@
     "id": "range:arthropoda:global",
     "entityId": "arthropoda",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Arthropoda",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 540,
+    "taxonomicConcept": "Arthropoda root anchored by a directly sampled descendant clade",
+    "geographicScope": "Widespread early trilobite record to living arthropods",
+    "olderMa": 521,
     "youngerMa": 0,
     "status": "available",
     "uncertainty": {
-      "olderMa": null,
-      "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "olderMa": 3,
+      "youngerMa": 0,
+      "note": "The older bound is a descendant-clade minimum from widespread trilobites, not the origin of Arthropoda or a crown/total-group equation."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "evidenceBasis": "The approximately 521 Ma widespread trilobite record supplies a direct, conservative minimum for the broader arthropod root.",
     "confidence": "medium",
-    "claimIds": [],
+    "claimIds": [
+      "claim:taxon:arthropoda:root-range-rc39"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
-      },
-      {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "holmes-budd-2022-early-trilobites",
+        "locator": "article 1177; Figures 1–4 and supplementary analyses"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "literature-synthesized"
   },
   {
     "id": "range:trilobita:global",
     "entityId": "trilobita",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Trilobita",
-    "geographicScope": "Global or represented navigation composite",
+    "taxonomicConcept": "Trilobita sampled fossil envelope",
+    "geographicScope": "Widespread early Cambrian record through revised Changhsingian occurrences",
     "olderMa": 521,
     "youngerMa": 252,
     "status": "available",
     "uncertainty": {
-      "olderMa": null,
-      "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "olderMa": 3,
+      "youngerMa": 1,
+      "note": "Both endpoints are rounded sampled bounds: approximately 521 Ma widespread records and latest-Permian occurrences, not exact global FAD/LAD instants."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "evidenceBasis": "An early-trilobite matrix and clock analysis constrains the older record, while revised Changhsingian material constrains survival into the latest Permian.",
     "confidence": "medium",
-    "claimIds": [],
+    "claimIds": [
+      "claim:taxon:trilobita:root-range-rc39"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
+        "referenceId": "holmes-budd-2022-early-trilobites",
+        "locator": "article 1177; Figures 1–4 and supplementary analyses"
       },
       {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "mychko-2025-latest-trilobites",
+        "locator": "article 28.2:a22; Figures 1–7 and global Lopingian overview"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "literature-synthesized"
   },
   {
     "id": "range:phacopida:global",
@@ -1635,31 +1629,29 @@
     "id": "range:insecta:global",
     "entityId": "insecta",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Insecta",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 410,
+    "taxonomicConcept": "Insecta sampled body-fossil envelope",
+    "geographicScope": "Paskov Archaeorthoptera wing sample to living insects",
+    "olderMa": 324,
     "youngerMa": 0,
     "status": "available",
     "uncertainty": {
-      "olderMa": null,
-      "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "olderMa": 3,
+      "youngerMa": 0,
+      "note": "The secure sampled wing replaces an older contested fragment; it is not an insect or flight origin date."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "evidenceBasis": "A lowermost Namurian wing part and counterpart preserve venation attributed to Archaeorthoptera; living insects provide the present endpoint.",
     "confidence": "medium",
-    "claimIds": [],
+    "claimIds": [
+      "claim:taxon:insecta:root-range-rc39"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
-      },
-      {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "prokop-2005-paskov-wing",
+        "locator": "pp. 383–387; Figures 1–2"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "literature-synthesized"
   },
   {
     "id": "range:odonatoptera:global",
@@ -1845,31 +1837,29 @@
     "id": "range:crustacea:global",
     "entityId": "crustacea",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Crustacea",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 510,
+    "taxonomicConcept": "Crustacea under the sampled Yicaris eucrustacean hypothesis",
+    "geographicScope": "Lower Cambrian Yu'anshan Formation sample to living crustaceans",
+    "olderMa": 520,
     "youngerMa": 0,
     "status": "available",
     "uncertainty": {
-      "olderMa": null,
-      "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "olderMa": 10,
+      "youngerMa": 0,
+      "note": "The older endpoint rounds a Lower Cambrian biostratigraphic context; eucrustacean placement is a character interpretation, not an origin date."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "evidenceBasis": "Phosphatized Yicaris growth stages preserve limb anatomy used to place the taxon within Eucrustacea in the sampled analysis.",
     "confidence": "medium",
-    "claimIds": [],
+    "claimIds": [
+      "claim:taxon:crustacea:root-range-rc39"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
-      },
-      {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "zhang-2007-yicaris",
+        "locator": "pp. 595–598; Figures 1–3; Yu'anshan and late Atdabanian context"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "literature-synthesized"
   },
   {
     "id": "range:ostracoda:global",
@@ -2214,31 +2204,29 @@
     "id": "range:graptolithina:global",
     "entityId": "graptolithina",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Graptolithina",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 510,
+    "taxonomicConcept": "Graptolithina including living rhabdopleurid graptolites",
+    "geographicScope": "Hongjingshao Formation Yunotubus sample to living rhabdopleurids",
+    "olderMa": 516,
     "youngerMa": 0,
     "status": "available",
     "uncertainty": {
-      "olderMa": null,
-      "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "olderMa": 2,
+      "youngerMa": 0,
+      "note": "The older endpoint is the approximate age of one diagnostic Lagerstätte sample, not a graptolite origin date."
     },
-    "evidenceBasis": "The class-level concept includes living rhabdopleurid graptolites, so its display range extends to the present. The older endpoint remains a rounded, sampling-dependent atlas bound.",
+    "evidenceBasis": "Five Yunotubus specimens preserve tubes, zooids and a connecting stolon used in a sampled pterobranch analysis; living rhabdopleurids support the present endpoint.",
     "confidence": "medium",
-    "claimIds": [],
+    "claimIds": [
+      "claim:taxon:graptolithina:root-range-rc39"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
-      },
-      {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "yang-2025-yunotubus",
+        "locator": "Figures 1–5; Geological setting; Systematic palaeontology; phylogenetic analyses"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "literature-synthesized"
   },
   {
     "id": "range:vertebrata:global",
@@ -5843,27 +5831,29 @@
     "id": "range:myriapoda:global",
     "entityId": "myriapoda",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Myriapoda",
-    "geographicScope": "Global legacy atlas display",
-    "olderMa": 443,
+    "taxonomicConcept": "Total-group Myriapoda under the sampled Waukartus stem placement",
+    "geographicScope": "Waukesha Lagerstätte sample to living myriapods",
+    "olderMa": 437,
     "youngerMa": 0,
     "status": "available",
     "uncertainty": {
-      "olderMa": null,
-      "youngerMa": null,
-      "note": "Rounded display values; not a literature-synthesized taxon range."
+      "olderMa": 3,
+      "youngerMa": 0,
+      "note": "The endpoint rounds the Llandoverian Waukesha sample; Waukartus is a stem placement and does not set the crown first appearance."
     },
-    "evidenceBasis": "Legacy rounded display range retained for navigation pending dedicated literature synthesis.",
-    "evidenceLevel": "legacy-display",
+    "evidenceBasis": "Thirty-five Waukartus specimens preserve uniramous limbs, muscles and endoskeleton and are recovered immediately stemward of crown Myriapoda in sampled analyses.",
+    "evidenceLevel": "literature-synthesized",
     "confidence": "medium",
-    "claimIds": [],
+    "claimIds": [
+      "claim:taxon:myriapoda:root-range-rc39"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "taxonomic context only; range locator pending"
+        "referenceId": "briggs-2026-waukartus",
+        "locator": "article 20260131; Figures 1–6 and supplementary morphology matrix"
       }
     ],
-    "reviewStatus": "not-reviewed"
+    "reviewStatus": "automated-audit-passed"
   },
   {
     "id": "range:chilopoda:global",

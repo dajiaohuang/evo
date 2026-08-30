@@ -3,61 +3,61 @@
     "id": "range:plantae:global",
     "entityId": "plantae",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Plantae",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 470,
+    "taxonomicConcept": "Embryophyte evidence within the atlas Plantae root",
+    "geographicScope": "Zanjón Formation cryptospore anchor to living representatives",
+    "olderMa": 473,
     "youngerMa": 0,
     "status": "available",
     "uncertainty": {
-      "olderMa": null,
-      "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "olderMa": 2,
+      "youngerMa": 0,
+      "note": "The older endpoint rounds the source's approximately 473–471 Ma assemblage; it is not a first appearance for all Plantae."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
-    "confidence": "medium",
-    "claimIds": [],
+    "evidenceBasis": "Dated cryptospore monads and tetrads provide a direct sampled embryophyte-on-land anchor; living representatives supply the present endpoint.",
+    "confidence": "high",
+    "claimIds": [
+      "claim:taxon:plantae:root-range-rc39"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
-      },
-      {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "rubinstein-2010-dapingian-cryptospores",
+        "locator": "pp. 365–369; Figures 1–2 and Supporting Figures S1, S3–S4"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "literature-synthesized"
   },
   {
     "id": "range:bryophyta:global",
     "entityId": "bryophyta",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Bryophyta",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 470,
+    "taxonomicConcept": "Bryophyta sensu stricto (mosses)",
+    "geographicScope": "Eastern German late Visean moss sample to living mosses",
+    "olderMa": 335,
     "youngerMa": 0,
     "status": "available",
     "uncertainty": {
-      "olderMa": null,
-      "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "olderMa": 5,
+      "youngerMa": 0,
+      "note": "The older endpoint is a rounded late Visean sample; fragmentary preservation and numerical stage conversion limit precision."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "evidenceBasis": "Three late Visean moss morphotypes provide the direct fossil anchor; older cryptospores are not promoted to crown-moss records.",
     "confidence": "medium",
-    "claimIds": [],
+    "claimIds": [
+      "claim:taxon:bryophyta:root-range-rc39"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
+        "referenceId": "hubers-kerp-2012-oldest-mosses",
+        "locator": "pp. 755–758; Figures 1–3"
       },
       {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "ics-2026-06",
+        "locator": "Mississippian and Visean numerical boundary context"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "literature-synthesized"
   },
   {
     "id": "range:lycophyta:global",
@@ -93,7 +93,7 @@
       }
     ],
     "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "evidenceLevel": "literature-synthesized"
   },
   {
     "id": "range:lepidodendron:global",
@@ -129,31 +129,29 @@
     "id": "range:pteridophyta:global",
     "entityId": "pteridophyta",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Pteridophyta",
-    "geographicScope": "Global or represented navigation composite",
+    "taxonomicConcept": "Atlas Pteridophyta navigation concept; cladoxylopsid exemplar is not crown ferns or horsetails",
+    "geographicScope": "Gilboa–Schoharie Middle Devonian sample to living fern and horsetail lineages",
     "olderMa": 385,
     "youngerMa": 0,
     "status": "available",
     "uncertainty": {
-      "olderMa": null,
-      "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "olderMa": 5,
+      "youngerMa": 0,
+      "note": "The 385 Ma endpoint is a rounded Middle Devonian cladoxylopsid exemplar, not a crown-fern or crown-horsetail first appearance."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "evidenceBasis": "Attached Wattieza crowns and Eospermatopteris trunks directly reconstruct a fern-like cladoxylopsid tree while leaving crown relationships unresolved.",
     "confidence": "medium",
-    "claimIds": [],
+    "claimIds": [
+      "claim:taxon:pteridophyta:root-range-rc39"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
-      },
-      {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "stein-2007-wattieza",
+        "locator": "pp. 904–907; Figures 1–3"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "literature-synthesized"
   },
   {
     "id": "range:equisetopsida:global",

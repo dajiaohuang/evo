@@ -13,7 +13,9 @@ Evo Atlas 不是一个把生成文本包装成“完整百科”的项目。它�
 - 名录覆盖：固定到 Catalogue of Life Base Release `COL26.8`。2,183,133 个严格接受种全部能沿真实父子链路由到唯一资源归属，另有 2,065,436 个异名、歧义异名和误用名可解析到接受名。
 - 内容覆盖：24 个静态资源包中的证据档案、事件、故事、范围和参考文献。rc37 已无 `generated-scaffold`，科学成熟度为 23 个 `structured` 和 1 个 `curated-draft`（奇蹄目）；23 个包尚未人工审阅，奇蹄目的存储状态为 `in-review`，但内容摘要变化使有效状态成为 `stale`，没有包声称达到科学 `published`。平台 `published` 与自动检查通过只表示静态发布链完整，不等于内容或专家审阅已经完成。
 
-当前开发数据快照为 `2026.08-static-v5-rc38`，Web/Android/iOS 客户端版本为 `0.20.0`。精确记录数、校验和和限制以 [`data/manifest.json`](data/manifest.json) 为准；科学内容变更见 [`data/CHANGELOG.md`](data/CHANGELOG.md)。
+当前开发数据快照为 `2026.08-static-v5-rc39`，Web/Android/iOS 客户端版本为 `0.20.0`。精确记录数、校验和和限制以 [`data/manifest.json`](data/manifest.json) 为准；科学内容变更见 [`data/CHANGELOG.md`](data/CHANGELOG.md)。
+
+`rc39` 关闭八个植物与无脊椎动物资源包的根范围遗留值：13 个根范围现在都由具页码、图号或章节定位的一手研究 claim 支撑，并明确标为采样导航包络、总群替代范围或模型边界，而不是全类群起源、全球首现/末现或直系祖先。棘皮动物包新增双语证据故事，依次区分孤立立体网骨片、有争议的 Yanjiahella 归属、约 5.10 亿年前关节相连动物群、不同纲的保存窗口，以及海胆总群化石与冠群模型时间。策展导航实体数同步为 392；COL26.8 的 2,183,133 个接受种仍全部唯一归包且 0 个未匹配，Web、Android 与 iOS 继续读取同一个静态快照。
 
 `rc38` 为海绵—刺胞动物、软体动物—腕足动物、棘皮动物、三叶虫—螯肢动物、甲壳动物—昆虫、早期陆生植物、裸子植物和被子植物新增 20 份代表性逐字段证据档案。每个可见年代、地理、分类、生态和形态字段都连接到具页码、图号或章节定位符的主研究主张；争议化石、模型分化时间和样本出现范围仍彼此分开。COL26.8 的 2,183,133 个接受种继续全部唯一归包且 0 个未匹配；逐名路由仍不冒充逐物种 prose 档案。rc34–rc37 的档案、竞争拓扑、灵长目 `3W7` 修正、首次教程、原生测试、CAO 文档与懒加载内容全部保留，Web、Android 与 iOS 继续读取同一个静态发布快照。
 
@@ -45,7 +47,7 @@ Evo Atlas 不是一个把生成文本包装成“完整百科”的项目。它�
 ### 物种、生命树与内容包
 
 - 搜索完整的 `COL26.8` 接受种及解析名称，并在内部页面查看固定版本的祖先链和直接子级。
-- 查看 389 个策展导航实体、24 个资源包及其实际科学成熟度。
+- 查看 392 个策展导航实体、24 个资源包及其实际科学成熟度。
 - 在导航树、范围、径向树和校准证据之间切换；追踪谱系、折叠支系并导出 Newick/Nexus。
 - 将命名学位置、导航节点、系统发育假说、化石首现和分子钟分化时间作为不同类型的信息阅读。
 
@@ -123,7 +125,7 @@ npm run mobile:ios
 
 `npm run mobile:build` 只生成 `dist-mobile/`；`mobile:sync` 再把该壳和插件配置复制到 `android/` 与 `ios/`。不要手改原生工程中被 `.gitignore` 排除的 Web 产物。应用 ID 为 `io.github.dajiaohuang.evoatlas`，自定义深链示例为：
 
-安装后的“数据”页提供两级离线能力：单个/全部资源包下载适合日常使用；“保存完整图谱”会保存 Core、全部资源包、全局化石、全部 CAO2024 帧和完整 COL 名录。当前 rc38 的完整交互数据体积与文件数以版本化发布清单为准；以后版本会按发布清单显示实际体积。重复的 ZIP 导出包不计入离线交互集。
+安装后的“数据”页提供两级离线能力：单个/全部资源包下载适合日常使用；“保存完整图谱”会保存 Core、全部资源包、全局化石、全部 CAO2024 帧和完整 COL 名录。当前 rc39 的完整交互数据体积与文件数以版本化发布清单为准；以后版本会按发布清单显示实际体积。重复的 ZIP 导出包不计入离线交互集。
 
 ```text
 evoatlas://open/stories?id=angiosperm-evidence-boundaries
@@ -226,4 +228,4 @@ Evo Atlas 没有账号、广告、分析 SDK 或应用后端。笔记、收藏�
 
 ## English summary
 
-Evo Atlas is a bilingual, static-first deep-time evidence explorer for Web, Android and iOS. The dashboard synchronizes geological time, six distinct CAO2024 reconstruction layers, fossil samples, a 392-entity navigation tree and claim-level evidence. The rc38 data retain every rc34–rc37 profile, competing topology, tutorial, native test and CAO document while adding twenty field-linked profiles across eight plant and invertebrate packages. Specimen observations, disputed placement, modelled divergence, clade ranges and direct ancestry remain separate evidence levels. The pinned COL26.8 registry still routes all 2,183,133 strictly accepted species to one resource owner with zero unmatched names, while package maturity remains separately disclosed. Android and iOS are Capacitor 8 projects sharing the same React client at app version 0.20.0; the native shell is bundled, and the complete offline manifest retains Core, every package, all fossils, all CAO2024 frames and the full COL registry. No account, analytics SDK, private API key, database or application server is required.
+Evo Atlas is a bilingual, static-first deep-time evidence explorer for Web, Android and iOS. The dashboard synchronizes geological time, six distinct CAO2024 reconstruction layers, fossil samples, a 392-entity navigation tree and claim-level evidence. The rc39 data retain every rc34–rc38 profile, competing topology, tutorial, native test and CAO document while replacing thirteen legacy plant and invertebrate root ranges with primary-study-linked sampled envelopes and adding an evidence-bound echinoderm story. Specimen observations, disputed placement, modelled divergence, clade ranges and direct ancestry remain separate evidence levels. The pinned COL26.8 registry still routes all 2,183,133 strictly accepted species to one resource owner with zero unmatched names, while package maturity remains separately disclosed. Android and iOS are Capacitor 8 projects sharing the same React client at app version 0.20.0; the native shell is bundled, and the complete offline manifest retains Core, every package, all fossils, all CAO2024 frames and the full COL registry. No account, analytics SDK, private API key, database or application server is required.

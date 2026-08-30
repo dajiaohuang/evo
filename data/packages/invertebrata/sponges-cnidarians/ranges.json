@@ -3,31 +3,29 @@
     "id": "range:porifera:global",
     "entityId": "porifera",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Porifera",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 635,
+    "taxonomicConcept": "Porifera under the sampled Helicolocellus morphology hypothesis",
+    "geographicScope": "Dengying Formation sample to living sponges",
+    "olderMa": 551,
     "youngerMa": 0,
     "status": "available",
     "uncertainty": {
-      "olderMa": null,
-      "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "olderMa": 12,
+      "youngerMa": 0,
+      "note": "The source brackets the fossil-bearing interval at approximately 551–539 Ma; crown placement is morphology-matrix dependent."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "evidenceBasis": "Helicolocellus specimens preserve a nested organic lattice in a dated interval and are recovered near Hexactinellida in the sampled matrix.",
     "confidence": "medium",
-    "claimIds": [],
+    "claimIds": [
+      "claim:taxon:porifera:root-range-rc39"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
-      },
-      {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "wang-2024-helicolocellus",
+        "locator": "pp. 905–911; Figures 1–4 and Extended Data Figures 1–10"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "literature-synthesized"
   },
   {
     "id": "range:stromatoporoidea:global",
@@ -93,31 +91,29 @@
     "id": "range:cnidaria:global",
     "entityId": "cnidaria",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Cnidaria",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 580,
+    "taxonomicConcept": "Cnidaria under the sampled Auroralumina morphology hypothesis",
+    "geographicScope": "Charnwood Forest Bed B sample to living cnidarians",
+    "olderMa": 562,
     "youngerMa": 0,
     "status": "available",
     "uncertainty": {
-      "olderMa": null,
-      "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "olderMa": 5,
+      "youngerMa": 0,
+      "note": "The fossil horizon is bracketed at 562–557 Ma; medusozoan-stem placement is a matrix result, not an observed origin."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "evidenceBasis": "Auroralumina preserves polypoid anatomy in a dated horizon and is recovered as a stem medusozoan within crown Cnidaria in the sampled analysis.",
     "confidence": "medium",
-    "claimIds": [],
+    "claimIds": [
+      "claim:taxon:cnidaria:root-range-rc39"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
-      },
-      {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "dunn-2022-auroralumina",
+        "locator": "pp. 1095–1104; Figures 1–5 and Extended Data Figures 1–8"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "literature-synthesized"
   },
   {
     "id": "range:anthozoa:global",
