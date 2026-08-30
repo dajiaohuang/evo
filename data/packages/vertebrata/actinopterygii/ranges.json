@@ -31,269 +31,281 @@
     "id": "range:teleostei:global",
     "entityId": "teleostei",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Teleostei",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 251.9,
-    "youngerMa": 0,
+    "taxonomicConcept": "Crown Teleostei molecular-clock interval",
+    "geographicScope": "Concatenated ohnologue clock model of Qi et al. 2024",
+    "olderMa": 254.36,
+    "youngerMa": 234.16,
     "status": "available",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "note": "The two edges are the reported model interval and do not represent fossil first or last appearances."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "evidenceBasis": "A model interval is displayed instead of extending the clade mechanically to the present as a claimed fossil range.",
     "confidence": "medium",
-    "claimIds": [],
+    "claimIds": [
+      "claim:taxon:teleostei:range-boundary"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
-      },
-      {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "qi-2024-teleost-wgd-dating",
+        "locator": "Article evae128; Figure 1; Supplementary Table S1; Results: crown Teleostei 254.36–234.16 Ma"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "literature-synthesized"
   },
   {
     "id": "range:salmoniformes:global",
     "entityId": "salmoniformes",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Salmoniformes",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 56,
+    "taxonomicConcept": "Salmoniformes temporal range",
+    "geographicScope": "Order-level range pending a fossil-calibrated Salmoniformes-specific source",
+    "olderMa": 0,
     "youngerMa": 0,
-    "status": "available",
+    "status": "withheld-pending-provenance",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "note": "The cited Salmonidae topology does not date Salmoniformes or audit its fossil endpoints."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
-    "confidence": "medium",
-    "claimIds": [],
+    "evidenceBasis": "The former 56 Ma–present display is withheld instead of transferring a family-level living topology into an order range.",
+    "confidence": "low",
+    "claimIds": [
+      "claim:taxon:salmoniformes:range-boundary"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
-      },
-      {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "near-2012-ray-fin-phylogeny",
+        "locator": "13698–13703; Figure 1; supplementary chronogram and calibrations; Broad actinopterygian clock sample; no audited Salmoniformes endpoint in the atlas locator"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "literature-synthesized"
   },
   {
     "id": "range:neopterygii:global",
     "entityId": "neopterygii",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Neopterygii",
-    "geographicScope": "Global legacy atlas display",
-    "olderMa": 298.9,
-    "youngerMa": 0,
+    "taxonomicConcept": "Crown Neopterygii molecular-clock interval",
+    "geographicScope": "Concatenated ohnologue clock model of Qi et al. 2024",
+    "olderMa": 331.33,
+    "youngerMa": 312.76,
     "status": "available",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Navigation-only rounded display bound; not a claim-linked fossil FAD, crown age or molecular estimate."
+      "note": "The interval is model- and calibration-dependent; it is not the first fossil occurrence."
     },
-    "evidenceBasis": "Legacy rounded display range retained for navigation pending dedicated literature synthesis; the package's curated events carry the scoped evidence claims.",
-    "evidenceLevel": "legacy-display",
+    "evidenceBasis": "The display records the reported crown-node interval only and does not imply a continuous sampled fossil record.",
+    "evidenceLevel": "literature-synthesized",
     "confidence": "medium",
-    "claimIds": [],
+    "claimIds": [
+      "claim:taxon:neopterygii:range-boundary"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "taxonomic context only; range locator pending"
+        "referenceId": "qi-2024-teleost-wgd-dating",
+        "locator": "Article evae128; Figure 1; Supplementary Table S1; Results: Neopterygii 331.33–312.76 Ma"
       }
     ],
-    "reviewStatus": "not-reviewed"
+    "reviewStatus": "automated-audit-passed"
   },
   {
     "id": "range:holostei:global",
     "entityId": "holostei",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Holostei",
-    "geographicScope": "Global legacy atlas display",
-    "olderMa": 251.9,
-    "youngerMa": 0,
+    "taxonomicConcept": "Crown Holostei molecular-clock interval",
+    "geographicScope": "Concatenated ohnologue clock model of Qi et al. 2024",
+    "olderMa": 303.82,
+    "youngerMa": 271.33,
     "status": "available",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Navigation-only rounded display bound; not a claim-linked fossil FAD, crown age or molecular estimate."
+      "note": "The interval is the reported clock range and remains sensitive to calibrations and delayed rediploidization assumptions."
     },
-    "evidenceBasis": "Legacy rounded display range retained for navigation pending dedicated literature synthesis; the package's curated events carry the scoped evidence claims.",
-    "evidenceLevel": "legacy-display",
+    "evidenceBasis": "The model interval is distinct from fossil minima and the living duration of gars and bowfin.",
+    "evidenceLevel": "literature-synthesized",
     "confidence": "medium",
-    "claimIds": [],
+    "claimIds": [
+      "claim:taxon:holostei:range-boundary"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "taxonomic context only; range locator pending"
+        "referenceId": "qi-2024-teleost-wgd-dating",
+        "locator": "Article evae128; Figure 1; Supplementary Table S1; Results: Holostei 303.82–271.33 Ma"
       }
     ],
-    "reviewStatus": "not-reviewed"
+    "reviewStatus": "automated-audit-passed"
   },
   {
     "id": "range:lepisosteiformes:global",
     "entityId": "lepisosteiformes",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Lepisosteiformes",
-    "geographicScope": "Global legacy atlas display",
-    "olderMa": 201.4,
+    "taxonomicConcept": "Lepisosteiformes temporal range",
+    "geographicScope": "Order-level interval pending a fossil-calibrated Lepisosteiformes-specific locator",
+    "olderMa": 0,
     "youngerMa": 0,
-    "status": "available",
+    "status": "withheld-pending-provenance",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Navigation-only rounded display bound; not a claim-linked fossil FAD, crown age or molecular estimate."
+      "note": "Living-gar topology and the Holostei node do not establish the order’s fossil endpoints."
     },
-    "evidenceBasis": "Legacy rounded display range retained for navigation pending dedicated literature synthesis; the package's curated events carry the scoped evidence claims.",
-    "evidenceLevel": "legacy-display",
-    "confidence": "medium",
-    "claimIds": [],
+    "evidenceBasis": "The former 201.4 Ma–present display is withheld rather than inferred from a parent-node calibration.",
+    "evidenceLevel": "literature-synthesized",
+    "confidence": "low",
+    "claimIds": [
+      "claim:taxon:lepisosteiformes:range-boundary"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "taxonomic context only; range locator pending"
+        "referenceId": "near-2012-ray-fin-phylogeny",
+        "locator": "13698–13703; Figure 1; supplementary calibrations; Holostei and living-gar sampling; no order-wide fossil range audit"
       }
     ],
-    "reviewStatus": "not-reviewed"
+    "reviewStatus": "automated-audit-passed"
   },
   {
     "id": "range:amiiformes:global",
     "entityId": "amiiformes",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Amiiformes",
-    "geographicScope": "Global legacy atlas display",
-    "olderMa": 251.9,
+    "taxonomicConcept": "Amiiformes temporal range",
+    "geographicScope": "Order-level interval pending an Amiiformes-wide stratigraphic synthesis",
+    "olderMa": 0,
     "youngerMa": 0,
-    "status": "available",
+    "status": "withheld-pending-provenance",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Navigation-only rounded display bound; not a claim-linked fossil FAD, crown age or molecular estimate."
+      "note": "The comprehensive Amiidae monograph does not make its family sample an exact range for all Amiiformes."
     },
-    "evidenceBasis": "Legacy rounded display range retained for navigation pending dedicated literature synthesis; the package's curated events carry the scoped evidence claims.",
-    "evidenceLevel": "legacy-display",
-    "confidence": "medium",
-    "claimIds": [],
+    "evidenceBasis": "The former 251.9 Ma–present display is withheld rather than extrapolated across order and family concepts.",
+    "evidenceLevel": "literature-synthesized",
+    "confidence": "low",
+    "claimIds": [
+      "claim:taxon:amiiformes:range-boundary"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "taxonomic context only; range locator pending"
+        "referenceId": "grande-bemis-1998-amiidae",
+        "locator": "1–690; Cladograms, fossil taxon accounts and character matrix throughout; Amiidae sample and fossil accounts; order-wide endpoint not established"
       }
     ],
-    "reviewStatus": "not-reviewed"
+    "reviewStatus": "automated-audit-passed"
   },
   {
     "id": "range:teleosteomorpha:global",
     "entityId": "teleosteomorpha",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Teleosteomorpha",
-    "geographicScope": "Global legacy atlas display",
-    "olderMa": 251.9,
-    "youngerMa": 0,
+    "taxonomicConcept": "Northern Italian Triassic teleosteomorph sample",
+    "geographicScope": "Late Ladinian–early Carnian units sampled by Arratia 2017",
+    "olderMa": 247,
+    "youngerMa": 241.464,
     "status": "available",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Navigation-only rounded display bound; not a claim-linked fossil FAD, crown age or molecular estimate."
+      "note": "Formation-scale interval for the named fossils; it is not a crown-Teleostei origin or a complete Teleosteomorpha range."
     },
-    "evidenceBasis": "Legacy rounded display range retained for navigation pending dedicated literature synthesis; the package's curated events carry the scoped evidence claims.",
-    "evidenceLevel": "legacy-display",
+    "evidenceBasis": "The range is restricted to the primary-study specimen sample.",
+    "evidenceLevel": "literature-synthesized",
     "confidence": "medium",
-    "claimIds": [],
+    "claimIds": [
+      "claim:taxon:teleosteomorpha:range-boundary"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "taxonomic context only; range locator pending"
+        "referenceId": "arratia-2017-triassic-teleostomorphs",
+        "locator": "Article e1312690; Figures 1–18; geological setting and systematic palaeontology; Northern Italian material, horizons and basal-teleost matrix"
       }
     ],
-    "reviewStatus": "not-reviewed"
+    "reviewStatus": "automated-audit-passed"
   },
   {
     "id": "range:elopomorpha:global",
     "entityId": "elopomorpha",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Elopomorpha",
-    "geographicScope": "Global legacy atlas display",
-    "olderMa": 201.4,
-    "youngerMa": 0,
+    "taxonomicConcept": "Crown Elopomorpha molecular-clock interval",
+    "geographicScope": "Concatenated ohnologue clock model of Qi et al. 2024",
+    "olderMa": 239.12,
+    "youngerMa": 213.05,
     "status": "available",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Navigation-only rounded display bound; not a claim-linked fossil FAD, crown age or molecular estimate."
+      "note": "The interval is a model estimate and not a fossil minimum or global occurrence range."
     },
-    "evidenceBasis": "Legacy rounded display range retained for navigation pending dedicated literature synthesis; the package's curated events carry the scoped evidence claims.",
-    "evidenceLevel": "legacy-display",
+    "evidenceBasis": "Only the reported divergence interval is displayed.",
+    "evidenceLevel": "literature-synthesized",
     "confidence": "medium",
-    "claimIds": [],
+    "claimIds": [
+      "claim:taxon:elopomorpha:range-boundary"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "taxonomic context only; range locator pending"
+        "referenceId": "qi-2024-teleost-wgd-dating",
+        "locator": "Article evae128; Figure 1; Supplementary Table S1; Results: Elopomorpha 239.12–213.05 Ma"
       }
     ],
-    "reviewStatus": "not-reviewed"
+    "reviewStatus": "automated-audit-passed"
   },
   {
     "id": "range:osteoglossomorpha:global",
     "entityId": "osteoglossomorpha",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Osteoglossomorpha",
-    "geographicScope": "Global legacy atlas display",
-    "olderMa": 145,
-    "youngerMa": 0,
+    "taxonomicConcept": "Crown Osteoglossomorpha molecular-clock interval",
+    "geographicScope": "Concatenated ohnologue clock model of Qi et al. 2024",
+    "olderMa": 239.12,
+    "youngerMa": 213.05,
     "status": "available",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Navigation-only rounded display bound; not a claim-linked fossil FAD, crown age or molecular estimate."
+      "note": "The interval brackets the split of the sampled osteoglossomorph and elopomorph lineages; it is model-dependent."
     },
-    "evidenceBasis": "Legacy rounded display range retained for navigation pending dedicated literature synthesis; the package's curated events carry the scoped evidence claims.",
-    "evidenceLevel": "legacy-display",
+    "evidenceBasis": "The display does not equate a node estimate with a fossil occurrence range.",
+    "evidenceLevel": "literature-synthesized",
     "confidence": "medium",
-    "claimIds": [],
+    "claimIds": [
+      "claim:taxon:osteoglossomorpha:range-boundary"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "taxonomic context only; range locator pending"
+        "referenceId": "qi-2024-teleost-wgd-dating",
+        "locator": "Article evae128; Figure 1; Supplementary Table S1; Results: Elopomorpha–Osteoglossomorpha divergence 239.12–213.05 Ma"
       }
     ],
-    "reviewStatus": "not-reviewed"
+    "reviewStatus": "automated-audit-passed"
   },
   {
     "id": "range:clupeocephala:global",
     "entityId": "clupeocephala",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Clupeocephala",
-    "geographicScope": "Global legacy atlas display",
-    "olderMa": 201.4,
-    "youngerMa": 0,
+    "taxonomicConcept": "Crown Clupeocephala molecular-clock interval",
+    "geographicScope": "Concatenated ohnologue clock model of Qi et al. 2024",
+    "olderMa": 210.83,
+    "youngerMa": 186.01,
     "status": "available",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Navigation-only rounded display bound; not a claim-linked fossil FAD, crown age or molecular estimate."
+      "note": "The reported interval is model- and calibration-dependent."
     },
-    "evidenceBasis": "Legacy rounded display range retained for navigation pending dedicated literature synthesis; the package's curated events carry the scoped evidence claims.",
-    "evidenceLevel": "legacy-display",
+    "evidenceBasis": "The interval represents a crown-node estimate, not a complete fossil or species range.",
+    "evidenceLevel": "literature-synthesized",
     "confidence": "medium",
-    "claimIds": [],
+    "claimIds": [
+      "claim:taxon:clupeocephala:range-boundary"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "taxonomic context only; range locator pending"
+        "referenceId": "qi-2024-teleost-wgd-dating",
+        "locator": "Article evae128; Figure 1; Supplementary Table S1; Results: Clupeocephala 210.83–186.01 Ma"
       }
     ],
-    "reviewStatus": "not-reviewed"
+    "reviewStatus": "automated-audit-passed"
   },
   {
     "id": "range:early-actinopterygian-evidence-route:global",

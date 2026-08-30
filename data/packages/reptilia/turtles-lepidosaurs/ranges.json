@@ -59,31 +59,29 @@
     "id": "range:squamata:global",
     "entityId": "squamata",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Squamata",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 201.4,
+    "taxonomicConcept": "Crown Squamata temporal range",
+    "geographicScope": "Crown interval pending a crown-specific fossil calibration",
+    "olderMa": 0,
     "youngerMa": 0,
-    "status": "available",
+    "status": "withheld-pending-provenance",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "note": "Megachirella is placed on the squamate stem and cannot by itself validate the former crown display."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
-    "confidence": "medium",
-    "claimIds": [],
+    "evidenceBasis": "The former 201.4 Ma–present range is withheld rather than transferring a Pan-Squamata stem occurrence to crown Squamata.",
+    "confidence": "low",
+    "claimIds": [
+      "claim:taxon:squamata:range-boundary"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
-      },
-      {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "simoes-2018-megachirella",
+        "locator": "706–709; Figures 1–2; Extended Data Figures 1–8; Middle Triassic specimen and combined-evidence stem-squamate placement"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "literature-synthesized"
   },
   {
     "id": "range:mosasauridae:global",
@@ -121,157 +119,169 @@
     "id": "range:cryptodira:global",
     "entityId": "cryptodira",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Cryptodira",
-    "geographicScope": "Global legacy atlas display",
-    "olderMa": 155.6,
+    "taxonomicConcept": "Crown Cryptodira temporal range",
+    "geographicScope": "Crown interval pending a node-specific fossil calibration",
+    "olderMa": 0,
     "youngerMa": 0,
-    "status": "available",
+    "status": "withheld-pending-provenance",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Navigation-only rounded display bound; not a claim-linked fossil FAD or crown-origin estimate."
+      "note": "The broad Mesozoic turtle matrix does not provide the former 155.6 Ma edge as a validated Cryptodira minimum."
     },
-    "evidenceBasis": "Legacy rounded display range retained for navigation pending dedicated crown-cryptodire synthesis; the Caribemys calibration constrains Testudines rather than this node.",
-    "evidenceLevel": "legacy-display",
-    "confidence": "medium",
-    "claimIds": [],
+    "evidenceBasis": "The former display is withheld rather than borrowing a Testudines calibration.",
+    "evidenceLevel": "literature-synthesized",
+    "confidence": "low",
+    "claimIds": [
+      "claim:taxon:cryptodira:range-boundary"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "taxonomic context only; range locator pending"
+        "referenceId": "joyce-2007-mesozoic-turtle-phylogeny",
+        "locator": "3–102; Figures 1–3; Appendices 1–3; Clade 25: Cryptodira; fossil and living taxon sample; unresolved internal nodes"
       }
     ],
-    "reviewStatus": "not-reviewed"
+    "reviewStatus": "automated-audit-passed"
   },
   {
     "id": "range:pleurodira:global",
     "entityId": "pleurodira",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Pleurodira",
-    "geographicScope": "Global legacy atlas display",
-    "olderMa": 155.6,
+    "taxonomicConcept": "Crown Pleurodira temporal range",
+    "geographicScope": "Crown interval pending a Pleurodira-specific fossil calibration",
+    "olderMa": 0,
     "youngerMa": 0,
-    "status": "available",
+    "status": "withheld-pending-provenance",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Navigation-only rounded display bound; not a claim-linked global FAD or crown-origin estimate."
+      "note": "The 155.6 Ma Caribemys hard minimum constrains crown Testudines in the cited analysis, not Pleurodira specifically."
     },
-    "evidenceBasis": "Legacy display begins at the conservative Caribemys calibration minimum, while the specimen and model bounds remain in their dedicated event claim.",
-    "evidenceLevel": "legacy-display",
-    "confidence": "medium",
-    "claimIds": [],
+    "evidenceBasis": "The former Pleurodira display is withheld rather than reusing a different node’s calibration.",
+    "evidenceLevel": "literature-synthesized",
+    "confidence": "low",
+    "claimIds": [
+      "claim:taxon:pleurodira:range-boundary"
+    ],
     "referenceLocators": [
       {
         "referenceId": "joyce-2013-turtle-calibrations",
-        "locator": "pp. 615–617; Figure 2; Testudines Node 1"
+        "locator": "614–617, 626–629; Figures 1–2 and 5; Table 1; Testudines Node 1; Caribemys hard minimum; model conclusions"
       }
     ],
-    "reviewStatus": "not-reviewed"
+    "reviewStatus": "automated-audit-passed"
   },
   {
     "id": "range:rhynchocephalia:global",
     "entityId": "rhynchocephalia",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Rhynchocephalia",
-    "geographicScope": "Global legacy atlas display",
+    "taxonomicConcept": "Rhynchocephalia time-scaled study sample",
+    "geographicScope": "Fossil taxa plus living Sphenodon in Herrera-Flores et al. 2017",
     "olderMa": 238,
     "youngerMa": 0,
     "status": "available",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Navigation-only rounded display bound; not a claim-linked fossil FAD or complete lineage range."
+      "note": "The older edge is a stage-rounded boundary for the study’s time-scaled sample, not a global FAD."
     },
-    "evidenceBasis": "Legacy rounded display range retained for navigation; this release adds no rhynchocephalian specimen-level range claim.",
-    "evidenceLevel": "legacy-display",
+    "evidenceBasis": "The route spans sampled fossils to living Sphenodon while rejecting the unchanged living-fossil narrative.",
+    "evidenceLevel": "literature-synthesized",
     "confidence": "medium",
-    "claimIds": [],
+    "claimIds": [
+      "claim:taxon:rhynchocephalia:range-boundary"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "taxonomic context only; range locator pending"
+        "referenceId": "herrera-flores-2017-rhynchocephalia",
+        "locator": "319–328; Figures 1–4; time-scaled phylogeny; Fossil diversity, disparity and living Sphenodon sample"
       }
     ],
-    "reviewStatus": "not-reviewed"
+    "reviewStatus": "automated-audit-passed"
   },
   {
     "id": "range:pan-squamata:global",
     "entityId": "pan-squamata",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Pan-Squamata",
-    "geographicScope": "Global legacy atlas display",
+    "taxonomicConcept": "Megachirella-to-living Pan-Squamata evidence route",
+    "geographicScope": "PZO 628 from the Italian Alps plus the sampled living squamate tree",
     "olderMa": 240,
     "youngerMa": 0,
     "status": "available",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Navigation-only rounded display bound; not a secure global FAD, crown age or direct-ancestor interval."
+      "note": "The 240 Ma edge is rounded from the Middle Triassic specimen; stem placement and model ages remain analysis-dependent."
     },
-    "evidenceBasis": "Legacy display supports browsing of stem- and crown-squamate dossiers; each event retains its specimen age and matrix boundary.",
-    "evidenceLevel": "legacy-display",
+    "evidenceBasis": "The route joins one stem sample to living members without calling the specimen a direct ancestor or crown FAD.",
+    "evidenceLevel": "literature-synthesized",
     "confidence": "medium",
-    "claimIds": [],
+    "claimIds": [
+      "claim:taxon:pan-squamata:range-boundary"
+    ],
     "referenceLocators": [
       {
         "referenceId": "simoes-2018-megachirella",
-        "locator": "pp. 706–709; fossil occurrence and topology remain event-scoped"
+        "locator": "706–709; Figures 1–2; Extended Data Figures 1–8; PZO 628 horizon, CT anatomy and combined-evidence stem placement"
       }
     ],
-    "reviewStatus": "not-reviewed"
+    "reviewStatus": "automated-audit-passed"
   },
   {
     "id": "range:serpentes:global",
     "entityId": "serpentes",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Serpentes",
-    "geographicScope": "Global legacy atlas display",
-    "olderMa": 167,
+    "taxonomicConcept": "Pan-Serpentes tip-dating model",
+    "geographicScope": "Combined genomic, phenomic and fossil sample of Hsiang et al. 2015",
+    "olderMa": 128.5,
     "youngerMa": 0,
     "status": "available",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Navigation-only rounded display bound; not a claim-linked global FAD, crown age or complete species range."
+      "note": "128.5 Ma is a model estimate for Pan-Serpentes; crown Serpentes was inferred about 20 Myr later."
     },
-    "evidenceBasis": "Legacy rounded display range retained for navigation; this release adds no snake specimen dossier and does not promote the endpoint to a scientific claim.",
-    "evidenceLevel": "legacy-display",
+    "evidenceBasis": "The model-to-present route separates total-group and crown estimates and is not a direct fossil FAD.",
+    "evidenceLevel": "literature-synthesized",
     "confidence": "medium",
-    "claimIds": [],
+    "claimIds": [
+      "claim:taxon:serpentes:range-boundary"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "taxonomic context only; range locator pending"
+        "referenceId": "hsiang-2015-snake-origins",
+        "locator": "1–22; Figures 1–6; Additional files 1–12; Tip dating: Pan-Serpentes ~128.5 Ma and crown snakes ~110.3 Ma"
       }
     ],
-    "reviewStatus": "not-reviewed"
+    "reviewStatus": "automated-audit-passed"
   },
   {
     "id": "range:mosasauroidea:global",
     "entityId": "mosasauroidea",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Mosasauroidea sensu Madzia and Cau 2017",
-    "geographicScope": "Cretaceous navigation composite",
-    "olderMa": 101,
-    "youngerMa": 66,
+    "taxonomicConcept": "Dallasaurus turneri mosasauroid sample",
+    "geographicScope": "Middle Turonian Arcadia Park Shale, Texas, United States",
+    "olderMa": 93.9,
+    "youngerMa": 89.8,
     "status": "available",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Stage-level envelope; it does not establish absence outside the cited study sample."
+      "note": "Stage-scale middle Turonian window for the named material; it does not cover all Mosasauroidea."
     },
-    "evidenceBasis": "Broad Cretaceous navigation envelope retained for discovery; it is not a claim-linked global occurrence audit.",
+    "evidenceBasis": "The former 101–66 Ma global composite is replaced by a specimen-scoped mosasauroid occurrence.",
     "confidence": "medium",
-    "claimIds": [],
+    "claimIds": [
+      "claim:taxon:mosasauroidea:range-boundary"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "madzia-cau-2017-mosasauroid-nomenclature",
-        "locator": "Table 1; Figures 1–7; phylogenetic definitions"
+        "referenceId": "bell-polcyn-2005-dallasaurus",
+        "locator": "177–178, 189–190; Figures 1–13; Age and geological context; systematic palaeontology; phylogenetic analysis"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "literature-synthesized"
   },
   {
     "id": "range:mosasauridae:dallasaurus-middle-turonian",

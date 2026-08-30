@@ -31,363 +31,417 @@
     "id": "range:pelycosauria:global",
     "entityId": "pelycosauria",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Pelycosauria",
-    "geographicScope": "Global or represented navigation composite",
+    "taxonomicConcept": "Pelycosauria — source-bounded sample window",
+    "geographicScope": "Early-synapsid family record sampled by Brocklehurst et al.",
     "olderMa": 308,
     "youngerMa": 260,
     "status": "available",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "note": "This display is limited to the review's historical pelycosaurian-grade sample, not a monophyletic taxon range; numerical stage conversions follow ICS v2026/06 where applicable."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "evidenceBasis": "The early evolution of synapsids, and the influence of sampling on their fossil record directly anchors the sampled window; the display does not extrapolate it into a global taxon duration.",
     "confidence": "medium",
-    "claimIds": [],
+    "claimIds": [
+      "claim:taxon:pelycosauria:source-bounded-range-rc49"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
+        "referenceId": "brocklehurst-2013-early-synapsids",
+        "locator": "470–490; Abstract; Materials and methods; discussion of pelycosaurian-grade synapsids"
       },
       {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "ics-2026-06",
+        "locator": "International Chronostratigraphic Chart v2026/06; numerical stage boundaries"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "literature-synthesized"
   },
   {
     "id": "range:dimetrodon:global",
     "entityId": "dimetrodon",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Dimetrodon",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 295,
-    "youngerMa": 272,
+    "taxonomicConcept": "Dimetrodon — source-bounded sample window",
+    "geographicScope": "Cisuralian Dimetrodon material sampled by Brink et al.",
+    "olderMa": 290.1,
+    "youngerMa": 273,
     "status": "available",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "note": "This display is limited to the Early Permian species sample used for dental and phylogenetic analysis, not a complete global genus range; numerical stage conversions follow ICS v2026/06 where applicable."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "evidenceBasis": "Hidden dental diversity in the oldest terrestrial apex predator Dimetrodon directly anchors the sampled window; the display does not extrapolate it into a global taxon duration.",
     "confidence": "medium",
-    "claimIds": [],
+    "claimIds": [
+      "claim:taxon:dimetrodon:source-bounded-range-rc49"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
+        "referenceId": "brink-2014-dimetrodon-dentition",
+        "locator": "Article 3269; Methods: phylogenetic analysis; Results: character distribution"
       },
       {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "ics-2026-06",
+        "locator": "International Chronostratigraphic Chart v2026/06; numerical stage boundaries"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "literature-synthesized"
   },
   {
     "id": "range:therapsida:global",
     "entityId": "therapsida",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Therapsida",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 275,
-    "youngerMa": 0,
+    "taxonomicConcept": "Therapsida — source-bounded sample window",
+    "geographicScope": "Kungurian–Capitanian family-level record analysed by Brocklehurst et al.",
+    "olderMa": 283.3,
+    "youngerMa": 259.5,
     "status": "available",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "note": "This display is limited to the sampled diversification interval in that analysis, not the origin, survival or full duration of Therapsida; numerical stage conversions follow ICS v2026/06 where applicable."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "evidenceBasis": "The early evolution of synapsids, and the influence of sampling on their fossil record directly anchors the sampled window; the display does not extrapolate it into a global taxon duration.",
     "confidence": "medium",
-    "claimIds": [],
+    "claimIds": [
+      "claim:taxon:therapsida:source-bounded-range-rc49"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
+        "referenceId": "brocklehurst-2013-early-synapsids",
+        "locator": "470–490; Abstract; Results and Discussion: therapsid diversity through the Kungurian–Capitanian"
       },
       {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "ics-2026-06",
+        "locator": "International Chronostratigraphic Chart v2026/06; numerical stage boundaries"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "literature-synthesized"
   },
   {
     "id": "range:dicynodontia:global",
     "entityId": "dicynodontia",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Dicynodontia",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 268,
-    "youngerMa": 201,
+    "taxonomicConcept": "Dicynodontia — source-bounded sample window",
+    "geographicScope": "Russian late Permian dicynodont sample analysed by Angielczyk",
+    "olderMa": 259.5,
+    "youngerMa": 251.9,
     "status": "available",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "note": "This display is limited to the Russian Permian matrix sample, not the global first and last appearances of Dicynodontia; numerical stage conversions follow ICS v2026/06 where applicable."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "evidenceBasis": "Phylogenetic analysis of Russian Permian dicynodonts (Therapsida: Anomodontia): implications for Permian biostratigraphy and Pangaean biogeography directly anchors the sampled window; the display does not extrapolate it into a global taxon duration.",
     "confidence": "medium",
-    "claimIds": [],
+    "claimIds": [
+      "claim:taxon:dicynodontia:source-bounded-range-rc49"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
+        "referenceId": "angielczyk-2003-dicynodont-phylogeny",
+        "locator": "157–212; Phylogenetic analysis; Results; Discussion of geographic sampling disparity"
       },
       {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "ics-2026-06",
+        "locator": "International Chronostratigraphic Chart v2026/06; numerical stage boundaries"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "literature-synthesized"
   },
   {
     "id": "range:cynodontia:global",
     "entityId": "cynodontia",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Cynodontia",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 260,
-    "youngerMa": 0,
+    "taxonomicConcept": "Cynodontia — source-bounded sample window",
+    "geographicScope": "Late Permian–Early Jurassic cynodont sample analysed by Ruta et al.",
+    "olderMa": 259.5,
+    "youngerMa": 174.7,
     "status": "available",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "note": "This display is limited to the temporal coverage of the matrix sample, not an uninterrupted global range or direct ancestor chain; numerical stage conversions follow ICS v2026/06 where applicable."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "evidenceBasis": "The radiation of cynodonts and the ground plan of mammalian morphological diversity directly anchors the sampled window; the display does not extrapolate it into a global taxon duration.",
     "confidence": "medium",
-    "claimIds": [],
+    "claimIds": [
+      "claim:taxon:cynodontia:source-bounded-range-rc49"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
+        "referenceId": "ruta-2013-cynodont-radiation",
+        "locator": "Article 20131865; Abstract; Introduction; phylogenetic methods and results"
       },
       {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "ics-2026-06",
+        "locator": "International Chronostratigraphic Chart v2026/06; numerical stage boundaries"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "literature-synthesized"
   },
   {
     "id": "range:mammalia:global",
     "entityId": "mammalia",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Mammalia",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 225,
+    "taxonomicConcept": "Mammalia — source-bounded sample window",
+    "geographicScope": "Jurassic euharamiyidan sample under the Mammalia placement tested by Bi et al., continued by living Mammalia",
+    "olderMa": 164.7,
     "youngerMa": 0,
     "status": "available",
     "uncertainty": {
       "olderMa": null,
-      "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "youngerMa": 0,
+      "note": "This display is limited to a contested matrix-dependent navigation envelope; it is not a crown-Mammalia origin date; numerical stage conversions follow ICS v2026/06 where applicable."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
-    "confidence": "medium",
-    "claimIds": [],
+    "evidenceBasis": "Three new Jurassic euharamiyidan species reinforce early divergence of mammals directly anchors the sampled window; the display does not extrapolate it into a global taxon duration.",
+    "confidence": "contested",
+    "claimIds": [
+      "claim:taxon:mammalia:source-bounded-range-rc49"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
+        "referenceId": "bi-2014-euharamiyidans",
+        "locator": "579–584; Mammalia phylogeny and alternative placement discussion"
       },
       {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "ics-2026-06",
+        "locator": "International Chronostratigraphic Chart v2026/06; numerical stage boundaries"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "literature-synthesized"
   },
   {
     "id": "range:ophiacodontidae:global",
     "entityId": "ophiacodontidae",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Ophiacodontidae",
-    "geographicScope": "Global legacy atlas display",
+    "taxonomicConcept": "Ophiacodontidae — source-bounded sample window",
+    "geographicScope": "Ophiacodontid family occurrences analysed by Brocklehurst et al.",
     "olderMa": 308,
     "youngerMa": 272,
     "status": "available",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Navigation-only rounded display bound; not a claim-linked fossil FAD, LAD, lineage duration or ancestor interval."
+      "note": "This display is limited to the family-level sampled record in the diversity analysis, not exact global endpoints; numerical stage conversions follow ICS v2026/06 where applicable."
     },
-    "evidenceBasis": "Legacy rounded display range retained for navigation pending dedicated literature synthesis; the package's specimen-scoped event carries the reviewed Echinerpeton evidence.",
-    "evidenceLevel": "legacy-display",
+    "evidenceBasis": "The early evolution of synapsids, and the influence of sampling on their fossil record directly anchors the sampled window; the display does not extrapolate it into a global taxon duration.",
+    "evidenceLevel": "literature-synthesized",
     "confidence": "medium",
-    "claimIds": [],
+    "claimIds": [
+      "claim:taxon:ophiacodontidae:source-bounded-range-rc49"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "taxonomic context only; range locator pending"
+        "referenceId": "brocklehurst-2013-early-synapsids",
+        "locator": "470–490; Abstract; family-level diversity analyses; discussion of the Kungurian–Roadian interval"
+      },
+      {
+        "referenceId": "ics-2026-06",
+        "locator": "International Chronostratigraphic Chart v2026/06; numerical stage boundaries"
       }
     ],
-    "reviewStatus": "not-reviewed"
+    "reviewStatus": "automated-audit-passed"
   },
   {
     "id": "range:probainognathia:global",
     "entityId": "probainognathia",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Probainognathia",
-    "geographicScope": "Global legacy atlas display",
+    "taxonomicConcept": "Probainognathia — source-bounded sample window",
+    "geographicScope": "Late Triassic–Early Jurassic probainognathian matrix sample in Ruta et al.",
     "olderMa": 237,
-    "youngerMa": 0,
+    "youngerMa": 174.7,
     "status": "available",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Navigation-only rounded display bound; not a claim-linked fossil FAD, crown age or ancestor interval."
+      "note": "This display is limited to the sampled matrix coverage, not a clade origin, extinction or direct mammal ancestry; numerical stage conversions follow ICS v2026/06 where applicable."
     },
-    "evidenceBasis": "Legacy rounded display range retained for navigation pending dedicated literature synthesis; curated event claims remain specimen- and dataset-scoped.",
-    "evidenceLevel": "legacy-display",
+    "evidenceBasis": "The radiation of cynodonts and the ground plan of mammalian morphological diversity directly anchors the sampled window; the display does not extrapolate it into a global taxon duration.",
+    "evidenceLevel": "literature-synthesized",
     "confidence": "medium",
-    "claimIds": [],
+    "claimIds": [
+      "claim:taxon:probainognathia:source-bounded-range-rc49"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "taxonomic context only; range locator pending"
+        "referenceId": "ruta-2013-cynodont-radiation",
+        "locator": "Article 20131865; Abstract; Results: phylogeny, disparity and evolutionary rates"
+      },
+      {
+        "referenceId": "ics-2026-06",
+        "locator": "International Chronostratigraphic Chart v2026/06; numerical stage boundaries"
       }
     ],
-    "reviewStatus": "not-reviewed"
+    "reviewStatus": "automated-audit-passed"
   },
   {
     "id": "range:mammaliamorpha:global",
     "entityId": "mammaliamorpha",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Mammaliamorpha",
-    "geographicScope": "Global legacy atlas display",
+    "taxonomicConcept": "Mammaliamorpha — source-bounded sample window",
+    "geographicScope": "Mesozoic mammaliamorph sample and living continuation represented in Luo et al.",
     "olderMa": 225,
     "youngerMa": 0,
     "status": "available",
     "uncertainty": {
       "olderMa": null,
-      "youngerMa": null,
-      "note": "Navigation-only rounded display bound; not a claim-linked fossil FAD, crown age or ancestor interval."
+      "youngerMa": 0,
+      "note": "This display is limited to the review's definition-dependent sample envelope, not an exact clade origin or direct ancestor sequence; numerical stage conversions follow ICS v2026/06 where applicable."
     },
-    "evidenceBasis": "Legacy rounded display range retained for navigation pending dedicated literature synthesis; curated event claims remain specimen- and dataset-scoped.",
-    "evidenceLevel": "legacy-display",
+    "evidenceBasis": "In quest for a phylogeny of Mesozoic mammals directly anchors the sampled window; the display does not extrapolate it into a global taxon duration.",
+    "evidenceLevel": "literature-synthesized",
     "confidence": "medium",
-    "claimIds": [],
+    "claimIds": [
+      "claim:taxon:mammaliamorpha:source-bounded-range-rc49"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "taxonomic context only; range locator pending"
+        "referenceId": "luo-2002-mesozoic-mammal-phylogeny",
+        "locator": "1–78; Higher-taxon definitions; character analysis; discussion of basal mammaliamorph relationships"
+      },
+      {
+        "referenceId": "ics-2026-06",
+        "locator": "International Chronostratigraphic Chart v2026/06; numerical stage boundaries"
       }
     ],
-    "reviewStatus": "not-reviewed"
+    "reviewStatus": "automated-audit-passed"
   },
   {
     "id": "range:mammaliaformes:global",
     "entityId": "mammaliaformes",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Mammaliaformes",
-    "geographicScope": "Global legacy atlas display",
+    "taxonomicConcept": "Mammaliaformes — source-bounded sample window",
+    "geographicScope": "Mesozoic mammaliaform sample and living continuation represented in Luo et al.",
     "olderMa": 225,
     "youngerMa": 0,
     "status": "available",
     "uncertainty": {
       "olderMa": null,
-      "youngerMa": null,
-      "note": "Navigation-only rounded display bound; not a claim-linked fossil FAD, crown age or ancestor interval."
+      "youngerMa": 0,
+      "note": "This display is limited to the review's sampled, definition-dependent navigation envelope, not a crown-Mammalia origin date; numerical stage conversions follow ICS v2026/06 where applicable."
     },
-    "evidenceBasis": "Legacy rounded display range retained for navigation pending dedicated literature synthesis; curated event claims remain specimen- and dataset-scoped.",
-    "evidenceLevel": "legacy-display",
+    "evidenceBasis": "In quest for a phylogeny of Mesozoic mammals directly anchors the sampled window; the display does not extrapolate it into a global taxon duration.",
+    "evidenceLevel": "literature-synthesized",
     "confidence": "medium",
-    "claimIds": [],
+    "claimIds": [
+      "claim:taxon:mammaliaformes:source-bounded-range-rc49"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "taxonomic context only; range locator pending"
+        "referenceId": "luo-2002-mesozoic-mammal-phylogeny",
+        "locator": "1–78; Definition and diagnosis of Mammaliaformes and Mammalia; phylogenetic results"
+      },
+      {
+        "referenceId": "ics-2026-06",
+        "locator": "International Chronostratigraphic Chart v2026/06; numerical stage boundaries"
       }
     ],
-    "reviewStatus": "not-reviewed"
+    "reviewStatus": "automated-audit-passed"
   },
   {
     "id": "range:haramiyida:global",
     "entityId": "haramiyida",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Haramiyida",
-    "geographicScope": "Global legacy atlas display",
+    "taxonomicConcept": "Haramiyida — source-bounded sample window",
+    "geographicScope": "Late Triassic tooth record through Jurassic euharamiyidan skeletons discussed by Bi et al.",
     "olderMa": 205.7,
-    "youngerMa": 145,
+    "youngerMa": 157.3,
     "status": "available",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Navigation-only rounded display bound; not a claim-linked fossil FAD, LAD, crown placement or ancestor interval."
+      "note": "This display is limited to the source's contested haramiyidan sample envelope, not a stable clade FAD/LAD; numerical stage conversions follow ICS v2026/06 where applicable."
     },
-    "evidenceBasis": "Legacy rounded display range retained for navigation pending dedicated literature synthesis; Haramiyavia's crown placement is represented only by its cited matrix claim.",
-    "evidenceLevel": "legacy-display",
+    "evidenceBasis": "Three new Jurassic euharamiyidan species reinforce early divergence of mammals directly anchors the sampled window; the display does not extrapolate it into a global taxon duration.",
+    "evidenceLevel": "literature-synthesized",
     "confidence": "medium",
-    "claimIds": [],
+    "claimIds": [
+      "claim:taxon:haramiyida:source-bounded-range-rc49"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "taxonomic context only; range locator pending"
+        "referenceId": "bi-2014-euharamiyidans",
+        "locator": "579–584; Phylogenetic analyses; Supplementary Information: character matrix"
+      },
+      {
+        "referenceId": "ics-2026-06",
+        "locator": "International Chronostratigraphic Chart v2026/06; numerical stage boundaries"
       }
     ],
-    "reviewStatus": "not-reviewed"
+    "reviewStatus": "automated-audit-passed"
   },
   {
     "id": "range:morganucodonta:global",
     "entityId": "morganucodonta",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Morganucodonta",
-    "geographicScope": "Global legacy atlas display",
+    "taxonomicConcept": "Morganucodonta — source-bounded sample window",
+    "geographicScope": "Morganucodontan specimens sampled in Luo et al.'s Mesozoic-mammal synthesis",
     "olderMa": 201.4,
     "youngerMa": 145,
     "status": "available",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Navigation-only rounded display bound; not a claim-linked fossil FAD, LAD, crown placement or ancestor interval."
+      "note": "This display is limited to the synthesis's sampled fossil envelope, not exact global genus-group endpoints; numerical stage conversions follow ICS v2026/06 where applicable."
     },
-    "evidenceBasis": "Legacy rounded display range retained for navigation pending dedicated literature synthesis; curated jaw–ear comparisons do not promote this bound.",
-    "evidenceLevel": "legacy-display",
+    "evidenceBasis": "In quest for a phylogeny of Mesozoic mammals directly anchors the sampled window; the display does not extrapolate it into a global taxon duration.",
+    "evidenceLevel": "literature-synthesized",
     "confidence": "medium",
-    "claimIds": [],
+    "claimIds": [
+      "claim:taxon:morganucodonta:source-bounded-range-rc49"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "taxonomic context only; range locator pending"
+        "referenceId": "luo-2002-mesozoic-mammal-phylogeny",
+        "locator": "1–78; Taxon sampling; Mammaliaformes relationships; discussion of crown Mammalia definitions"
+      },
+      {
+        "referenceId": "ics-2026-06",
+        "locator": "International Chronostratigraphic Chart v2026/06; numerical stage boundaries"
       }
     ],
-    "reviewStatus": "not-reviewed"
+    "reviewStatus": "automated-audit-passed"
   },
   {
     "id": "range:eutriconodonta:global",
     "entityId": "eutriconodonta",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Eutriconodonta",
-    "geographicScope": "Global legacy atlas display",
+    "taxonomicConcept": "Eutriconodonta — source-bounded sample window",
+    "geographicScope": "Eutriconodont specimens sampled in Luo et al.'s Mesozoic-mammal synthesis",
     "olderMa": 201.4,
     "youngerMa": 66,
     "status": "available",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Navigation-only rounded display bound; not a claim-linked fossil FAD, LAD, crown placement or ancestor interval."
+      "note": "This display is limited to the matrix sample's broad Mesozoic coverage, not a stable membership list or exact endpoints; numerical stage conversions follow ICS v2026/06 where applicable."
     },
-    "evidenceBasis": "Legacy rounded display range retained for navigation pending dedicated literature synthesis; Liaoconodon's specimen-scoped occurrence does not promote this bound.",
-    "evidenceLevel": "legacy-display",
+    "evidenceBasis": "In quest for a phylogeny of Mesozoic mammals directly anchors the sampled window; the display does not extrapolate it into a global taxon duration.",
+    "evidenceLevel": "literature-synthesized",
     "confidence": "medium",
-    "claimIds": [],
+    "claimIds": [
+      "claim:taxon:eutriconodonta:source-bounded-range-rc49"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "taxonomic context only; range locator pending"
+        "referenceId": "luo-2002-mesozoic-mammal-phylogeny",
+        "locator": "1–78; Eutriconodonta sampling; phylogenetic analyses; discussion of unstable Mesozoic groups"
+      },
+      {
+        "referenceId": "ics-2026-06",
+        "locator": "International Chronostratigraphic Chart v2026/06; numerical stage boundaries"
       }
     ],
-    "reviewStatus": "not-reviewed"
+    "reviewStatus": "automated-audit-passed"
   },
   {
     "id": "range:raranimus:primary-profile-sample",

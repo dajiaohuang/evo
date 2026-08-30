@@ -91,31 +91,29 @@
     "id": "range:elasmosauridae:global",
     "entityId": "elasmosauridae",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Elasmosauridae",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 130,
+    "taxonomicConcept": "Aphrosaurus furlongi represented elasmosaurid sample",
+    "geographicScope": "Maastrichtian Moreno Formation, California, United States",
+    "olderMa": 72.1,
     "youngerMa": 66,
     "status": "available",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "note": "Stage-level Maastrichtian window for the reappraised specimen and formation."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "evidenceBasis": "The interval is specimen- and study-scoped, not the complete Elasmosauridae range.",
     "confidence": "medium",
-    "claimIds": [],
+    "claimIds": [
+      "claim:taxon:elasmosauridae:range-boundary"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
-      },
-      {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "ogorman-2019-elasmosaurid-phylogeny",
+        "locator": "Article e1692025; Figures 1–7; Tables 1–2; Aphrosaurus systematic reappraisal, Moreno Formation age and matrix"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "literature-synthesized"
   },
   {
     "id": "range:pterosauria:global",
@@ -149,31 +147,29 @@
     "id": "range:pteranodontidae:global",
     "entityId": "pteranodontidae",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Pteranodontidae",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 86,
-    "youngerMa": 72,
+    "taxonomicConcept": "Pteranodontid specimens reassessed by Kellner 2010",
+    "geographicScope": "Niobrara and Pierre Shale units of the Western Interior, United States",
+    "olderMa": 89.8,
+    "youngerMa": 80.5,
     "status": "available",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "note": "Rounded Coniacian–Campanian study-sample envelope; taxonomic assignments differ among authors."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "evidenceBasis": "The interval covers the named specimen revision and not every pteranodontid occurrence.",
     "confidence": "medium",
-    "claimIds": [],
+    "claimIds": [
+      "claim:taxon:pteranodontidae:range-boundary"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
-      },
-      {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "kellner-2010-pteranodontidae",
+        "locator": "1063–1084; Figures 1–6; Systematic descriptions and stratigraphic discussion, especially pp. 1067–1082"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "literature-synthesized"
   },
   {
     "id": "range:cartorhynchus:nanlinghu-holotype",

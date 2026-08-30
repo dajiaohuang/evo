@@ -24,7 +24,7 @@
       }
     },
     "evidenceBasis": { "type": "string", "minLength": 20 },
-    "evidenceLevel": { "enum": ["legacy-display", "database-derived", "literature-synthesized", "expert-reviewed"] },
+    "evidenceLevel": { "enum": ["legacy-display", "database-derived", "literature-synthesized", "withheld-no-range-evidence", "expert-reviewed"] },
     "confidence": { "enum": ["high", "medium", "low", "contested"] },
     "claimIds": { "type": "array", "uniqueItems": true, "items": { "type": "string", "pattern": "^claim:" } },
     "referenceLocators": {

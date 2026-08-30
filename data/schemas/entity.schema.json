@@ -51,7 +51,7 @@
         "youngerMa": { "type": "number", "minimum": 0, "maximum": 4567 },
         "status": { "enum": ["available", "unknown", "unavailable", "unmapped", "withheld-pending-provenance"] },
         "basis": { "type": "string", "minLength": 20 },
-        "evidenceLevel": { "enum": ["legacy-display", "database-derived", "literature-synthesized", "expert-reviewed"] },
+        "evidenceLevel": { "enum": ["legacy-display", "database-derived", "literature-synthesized", "withheld-no-range-evidence", "expert-reviewed"] },
         "provisional": { "type": "boolean" }
       }
     },

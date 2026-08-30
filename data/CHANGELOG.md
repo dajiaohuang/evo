@@ -1,5 +1,12 @@
 # Dataset changelog
 
+## 2026.08-static-v5-rc49 — 2026-08-31
+
+- Closed all 110 legacy display ranges in the packages tracked by issues #7 and #8: 80 ranges now expose source-bounded specimen, calibration or model windows with concrete primary-study or systematic-review locators, while 30 unsupported values are explicitly withheld instead of being presented as global first/last appearances, divergence dates or ancestor sequences.
+- Expanded the canonical evidence ledger to 961 bilingual claims and 444 references without changing COL26.8, package review decisions or the six-layer CAO2024 reconstruction inventory.
+- Replaced the shared period-prefix occurrence ledger for fifteen vertebrate, archosaur and mammal packages with 86 completely paginated PBDB `base_id` subqueries. The release records 110 pages, 170,426 summed subquery rows, 135,186 package-unique occurrence IDs and 55,422 deterministic bounded details; 148 incompatible, historical-grade or over-broad targets remain explicitly withheld.
+- Kept the 13,600-row global period sample as a separate atlas layer and preserved the lightweight Android/iOS shell contract. Targeted package results are reproducible scoped samples, not a claim of complete global fossil coverage, diversity or abundance.
+
 ## 2026.08-static-v5-rc48 — 2026-08-31
 
 - Rebuilt all 24 Web/Android/iOS package projections from the rc47 canonical ledgers at app version `0.20.1`, retaining 392 entities, 872 evidence claims, 440 references, 13,600 bounded PBDB occurrences, 1,889 CAO2024 frames and all 2,183,133 accepted-species assignments.

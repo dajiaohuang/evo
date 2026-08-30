@@ -127,31 +127,33 @@
     "id": "range:phorusrhacidae:global",
     "entityId": "phorusrhacidae",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Phorusrhacidae",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 62,
-    "youngerMa": 1.8,
+    "taxonomicConcept": "Phorusrhacidae — source-bounded sample window",
+    "geographicScope": "Playa Los Lobos Llallawavis scagliai sample, Argentina",
+    "olderMa": 3.6,
+    "youngerMa": 2.6,
     "status": "available",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "note": "This display is limited to the Pliocene Llallawavis specimen interval, not the family-wide FAD or LAD; numerical stage conversions follow ICS v2026/06 where applicable."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "evidenceBasis": "A new Mesembriornithinae (Aves, Phorusrhacidae) provides new insights into the phylogeny and sensory capabilities of terror birds directly anchors the sampled window; the display does not extrapolate it into a global taxon duration.",
     "confidence": "medium",
-    "claimIds": [],
+    "claimIds": [
+      "claim:taxon:phorusrhacidae:source-bounded-range-rc49"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
+        "referenceId": "degrange-2015-phorusrhacid-phylogeny",
+        "locator": "35(2):e912656; Systematic paleontology; specimen description; phylogenetic analysis; sensory discussion"
       },
       {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "ics-2026-06",
+        "locator": "International Chronostratigraphic Chart v2026/06; numerical stage boundaries"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "literature-synthesized"
   },
   {
     "id": "range:carnufex:croc-bird-evidence",
@@ -269,28 +271,24 @@
     "id": "range:neoaves:croc-bird-evidence",
     "entityId": "neoaves",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Neoaves living-route navigation interval",
-    "geographicScope": "Global living-bird coverage",
-    "olderMa": 66,
+    "taxonomicConcept": "Neoaves living-route navigation interval — source-bounded sample window — numerical range withheld",
+    "geographicScope": "No numerical geographic-temporal range exposed",
+    "olderMa": 0,
     "youngerMa": 0,
-    "status": "available",
+    "status": "withheld-pending-provenance",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "This is a legacy navigation envelope for a living clade, not a fossil occurrence or molecular-clock result."
+      "note": "The former navigation numbers are withdrawn because the phylogenomic study samples living lineages but supplies no range-fit fossil start or temporal interval. Zero values are non-display placeholders required by the schema."
     },
-    "evidenceBasis": "The living Neoaves navigation node preserves the existing atlas display convention; detailed chronology remains claim-specific.",
-    "evidenceLevel": "legacy-display",
+    "evidenceBasis": "A source audit of The phylogenomic forest of bird trees contains a hard polytomy at the root of Neoaves found relationship or taxonomic evidence but no range-fit support for the former numerical display.",
+    "evidenceLevel": "withheld-no-range-evidence",
     "confidence": "low",
     "claimIds": [],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "Living-clade navigation context"
-      },
-      {
-        "referenceId": "pbdb-api-2016",
-        "locator": "Legacy fossil-range display context"
+        "referenceId": "suh-2016-neoavian-polytomy",
+        "locator": "50–62; Abstract; phylogenomic forest analysis; incomplete lineage sorting; Conclusions"
       }
     ],
     "reviewStatus": "automated-audit-passed"

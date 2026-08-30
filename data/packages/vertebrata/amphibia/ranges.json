@@ -35,121 +35,113 @@
     "id": "range:temnospondyli:global",
     "entityId": "temnospondyli",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Temnospondyli",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 330,
-    "youngerMa": 120,
+    "taxonomicConcept": "Temnospondyl taxa sampled by Schoch 2013",
+    "geographicScope": "Seventy-two-taxon morphology matrix across published formations",
+    "olderMa": 358.9,
+    "youngerMa": 100.5,
     "status": "available",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "note": "Series-level envelope from Early Carboniferous through Early Cretaceous study taxa; endpoints are not global audits."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "evidenceBasis": "The range records the analysis sample explicitly described as spanning the full stratigraphic breadth considered.",
     "confidence": "medium",
-    "claimIds": [],
+    "claimIds": [
+      "claim:taxon:temnospondyli:range-boundary"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
-      },
-      {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "schoch-2013-temnospondyl-phylogeny",
+        "locator": "673–705; Figures 1–12; taxon matrix; Abstract; 72-taxon sample spanning Early Carboniferous–Early Cretaceous"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "literature-synthesized"
   },
   {
     "id": "range:lissamphibia:global",
     "entityId": "lissamphibia",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Lissamphibia",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 250,
+    "taxonomicConcept": "Lissamphibia origin-hypothesis range",
+    "geographicScope": "Competing temnospondyl, lepospondyl and caecilian-stem placements",
+    "olderMa": 0,
     "youngerMa": 0,
-    "status": "available",
+    "status": "withheld-pending-provenance",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "note": "Competing placements change which fossils can bound the total or crown group."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
-    "confidence": "medium",
-    "claimIds": [],
+    "evidenceBasis": "The former 250 Ma–present display is withheld until a declared clade definition and hypothesis-specific calibration are paired.",
+    "confidence": "contested",
+    "claimIds": [
+      "claim:taxon:lissamphibia:range-boundary"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
-      },
-      {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "kligman-2023-funcusvermis",
+        "locator": "102–107; Figure 3; Extended Data Figures 5–7; Triassic stem caecilian and competing lissamphibian-origin implications"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "literature-synthesized"
   },
   {
     "id": "range:anura:global",
     "entityId": "anura",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Anura",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 190,
+    "taxonomicConcept": "Three sampled Gondwanan frog crown lineages",
+    "geographicScope": "Fossil-calibrated phylogenomic sample of Feng et al. 2017",
+    "olderMa": 66,
     "youngerMa": 0,
     "status": "available",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "note": "The 66 Ma edge summarizes modeled K–Pg diversification in three sampled clades, not the origin of Anura."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "evidenceBasis": "The window is restricted to the published phylogenomic diversification result.",
     "confidence": "medium",
-    "claimIds": [],
+    "claimIds": [
+      "claim:taxon:anura:range-boundary"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
-      },
-      {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "feng-2017-frog-phylogenomics",
+        "locator": "E5864–E5870; Figures 1–4; supplementary calibrations; K–Pg diversification estimates for the three sampled Gondwanan clades"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "literature-synthesized"
   },
   {
     "id": "range:caudata:global",
     "entityId": "caudata",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Caudata",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 165,
-    "youngerMa": 0,
+    "taxonomicConcept": "Beiyanerpeton salamandroid sample within the Caudata route",
+    "geographicScope": "Tiaojishan Formation, western Liaoning, China",
+    "olderMa": 160,
+    "youngerMa": 154,
     "status": "available",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "note": "The 157 ± 3 Ma date is from overlying trachyandesite, not direct dating of the skeletons."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "evidenceBasis": "The interval represents six named salamandroid specimens and not the complete Caudata range.",
     "confidence": "medium",
-    "claimIds": [],
+    "claimIds": [
+      "claim:taxon:caudata:range-boundary"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
-      },
-      {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "gao-2012-beiyanerpeton",
+        "locator": "5767–5772; Figures 1–4; Geological setting; PKUP V0601–V0606; 157 ± 3 Ma overlying unit"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "literature-synthesized"
   },
   {
     "id": "range:gymnophionomorpha:global",

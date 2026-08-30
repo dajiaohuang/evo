@@ -3,61 +3,65 @@
     "id": "range:cetacea:global",
     "entityId": "cetacea",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Cetacea",
-    "geographicScope": "Global or represented navigation composite",
+    "taxonomicConcept": "Cetacea — source-bounded sample window",
+    "geographicScope": "Eocene fossil samples through living Cetacea synthesized by Uhen",
     "olderMa": 53,
     "youngerMa": 0,
     "status": "available",
     "uncertainty": {
       "olderMa": null,
-      "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "youngerMa": 0,
+      "note": "This display is limited to a review-bounded fossil-to-living navigation envelope, not an exact cetacean origination date; numerical stage conversions follow ICS v2026/06 where applicable."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "evidenceBasis": "The Origin(s) of Whales directly anchors the sampled window; the display does not extrapolate it into a global taxon duration.",
     "confidence": "medium",
-    "claimIds": [],
+    "claimIds": [
+      "claim:taxon:cetacea:source-bounded-range-rc49"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
+        "referenceId": "uhen-2010-whale-origins",
+        "locator": "189–219; Abstract; Introduction; fossil history synthesis"
       },
       {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "ics-2026-06",
+        "locator": "International Chronostratigraphic Chart v2026/06; numerical stage boundaries"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "literature-synthesized"
   },
   {
     "id": "range:basilosauridae:global",
     "entityId": "basilosauridae",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Basilosauridae",
-    "geographicScope": "Global or represented navigation composite",
+    "taxonomicConcept": "Basilosauridae — source-bounded sample window",
+    "geographicScope": "Late Eocene basilosaurid fossil sample synthesized by Uhen",
     "olderMa": 41,
     "youngerMa": 34,
     "status": "available",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "note": "This display is limited to the review's sampled late-Eocene radiation, not exact family FAD/LAD; numerical stage conversions follow ICS v2026/06 where applicable."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "evidenceBasis": "The Origin(s) of Whales directly anchors the sampled window; the display does not extrapolate it into a global taxon duration.",
     "confidence": "medium",
-    "claimIds": [],
+    "claimIds": [
+      "claim:taxon:basilosauridae:source-bounded-range-rc49"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
+        "referenceId": "uhen-2010-whale-origins",
+        "locator": "207–212; Basilosauridae and late Eocene whale synthesis"
       },
       {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "ics-2026-06",
+        "locator": "International Chronostratigraphic Chart v2026/06; numerical stage boundaries"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "literature-synthesized"
   },
   {
     "id": "range:indohyus:primary-sample",
@@ -266,270 +270,282 @@
     "id": "range:hippopotamidae:global",
     "entityId": "hippopotamidae",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "hippopotamidae",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 23,
+    "taxonomicConcept": "hippopotamidae — source-bounded sample window — numerical range withheld",
+    "geographicScope": "No numerical geographic-temporal range exposed",
+    "olderMa": 0,
     "youngerMa": 0,
-    "status": "available",
+    "status": "withheld-pending-provenance",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Rounded navigation endpoints remain unreviewed and are not a fossil FAD, molecular divergence interval or COL26.8 taxonomic decision."
+      "note": "The former navigation numbers are withdrawn because the morphology review revises membership but does not securely support the legacy 23 Ma numerical start. Zero values are non-display placeholders required by the schema."
     },
-    "evidenceBasis": "Legacy Atlas display range retained for navigation only.",
+    "evidenceBasis": "A source audit of The phylogeny and taxonomy of Hippopotamidae (Mammalia: Artiodactyla): a review based on morphology and cladistic analysis found relationship or taxonomic evidence but no range-fit support for the former numerical display.",
     "confidence": "low",
     "claimIds": [],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
-      },
-      {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "boisserie-2005-hippopotamidae",
+        "locator": "1–26; Taxonomic review; cladistic analysis; discussion of revised family membership"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "withheld-no-range-evidence"
   },
   {
     "id": "range:cetaceamorpha:global",
     "entityId": "cetaceamorpha",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "cetaceamorpha",
-    "geographicScope": "Global or represented navigation composite",
+    "taxonomicConcept": "cetaceamorpha — source-bounded sample window",
+    "geographicScope": "Raoellid-to-living-cetacean navigation sample synthesized by Uhen",
     "olderMa": 53,
     "youngerMa": 0,
     "status": "available",
     "uncertainty": {
       "olderMa": null,
-      "youngerMa": null,
-      "note": "Rounded navigation endpoints remain unreviewed and are not a fossil FAD, molecular divergence interval or COL26.8 taxonomic decision."
+      "youngerMa": 0,
+      "note": "This display is limited to an editorial navigation envelope across separately sampled fossils and living whales, not one observed lineage or origin date; numerical stage conversions follow ICS v2026/06 where applicable."
     },
-    "evidenceBasis": "Unreviewed 53–0 Ma legacy display envelope widened to contain the existing Cetacea navigation range; it is not a claim-linked Cetaceamorpha FAD or crown date.",
-    "confidence": "low",
-    "claimIds": [],
+    "evidenceBasis": "The Origin(s) of Whales directly anchors the sampled window; the display does not extrapolate it into a global taxon duration.",
+    "confidence": "medium",
+    "claimIds": [
+      "claim:taxon:cetaceamorpha:source-bounded-range-rc49"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
+        "referenceId": "uhen-2010-whale-origins",
+        "locator": "189–219; Introduction; Relationships of Cetacea; fossil-transition synthesis"
       },
       {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "ics-2026-06",
+        "locator": "International Chronostratigraphic Chart v2026/06; numerical stage boundaries"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "literature-synthesized"
   },
   {
     "id": "range:raoellidae:global",
     "entityId": "raoellidae",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "raoellidae",
-    "geographicScope": "Global or represented navigation composite",
+    "taxonomicConcept": "raoellidae — source-bounded sample window",
+    "geographicScope": "Eocene raoellid sample synthesized by Uhen",
     "olderMa": 48,
     "youngerMa": 47,
     "status": "available",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Rounded navigation endpoints remain unreviewed and are not a fossil FAD, molecular divergence interval or COL26.8 taxonomic decision."
+      "note": "This display is limited to the sampled raoellid interval in the whale-origin review, not a direct whale ancestor or global family range; numerical stage conversions follow ICS v2026/06 where applicable."
     },
-    "evidenceBasis": "Legacy Atlas display range retained for navigation only.",
-    "confidence": "low",
-    "claimIds": [],
+    "evidenceBasis": "The Origin(s) of Whales directly anchors the sampled window; the display does not extrapolate it into a global taxon duration.",
+    "confidence": "medium",
+    "claimIds": [
+      "claim:taxon:raoellidae:source-bounded-range-rc49"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
+        "referenceId": "uhen-2010-whale-origins",
+        "locator": "193–198; Artiodactyl relatives and earliest cetaceans; raoellid discussion"
       },
       {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "ics-2026-06",
+        "locator": "International Chronostratigraphic Chart v2026/06; numerical stage boundaries"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "literature-synthesized"
   },
   {
     "id": "range:pakicetidae:global",
     "entityId": "pakicetidae",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "pakicetidae",
-    "geographicScope": "Global or represented navigation composite",
+    "taxonomicConcept": "pakicetidae — source-bounded sample window",
+    "geographicScope": "Early Eocene pakicetid sample synthesized by Uhen",
     "olderMa": 50,
     "youngerMa": 47,
     "status": "available",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Rounded navigation endpoints remain unreviewed and are not a fossil FAD, molecular divergence interval or COL26.8 taxonomic decision."
+      "note": "This display is limited to the review's sampled pakicetid interval, not a linear ancestral stage or exact endpoints; numerical stage conversions follow ICS v2026/06 where applicable."
     },
-    "evidenceBasis": "Legacy Atlas display range retained for navigation only.",
-    "confidence": "low",
-    "claimIds": [],
+    "evidenceBasis": "The Origin(s) of Whales directly anchors the sampled window; the display does not extrapolate it into a global taxon duration.",
+    "confidence": "medium",
+    "claimIds": [
+      "claim:taxon:pakicetidae:source-bounded-range-rc49"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
+        "referenceId": "uhen-2010-whale-origins",
+        "locator": "195–200; Earliest whales; Pakicetidae anatomical and stratigraphic discussion"
       },
       {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "ics-2026-06",
+        "locator": "International Chronostratigraphic Chart v2026/06; numerical stage boundaries"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "literature-synthesized"
   },
   {
     "id": "range:ambulocetidae:global",
     "entityId": "ambulocetidae",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "ambulocetidae",
-    "geographicScope": "Global or represented navigation composite",
+    "taxonomicConcept": "ambulocetidae — source-bounded sample window",
+    "geographicScope": "Eocene ambulocetid sample synthesized by Uhen",
     "olderMa": 48,
     "youngerMa": 47,
     "status": "available",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Rounded navigation endpoints remain unreviewed and are not a fossil FAD, molecular divergence interval or COL26.8 taxonomic decision."
+      "note": "This display is limited to the review's sampled ambulocetid interval, not a linear ancestral stage or exact endpoints; numerical stage conversions follow ICS v2026/06 where applicable."
     },
-    "evidenceBasis": "Legacy Atlas display range retained for navigation only.",
-    "confidence": "low",
-    "claimIds": [],
+    "evidenceBasis": "The Origin(s) of Whales directly anchors the sampled window; the display does not extrapolate it into a global taxon duration.",
+    "confidence": "medium",
+    "claimIds": [
+      "claim:taxon:ambulocetidae:source-bounded-range-rc49"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
+        "referenceId": "uhen-2010-whale-origins",
+        "locator": "198–202; Ambulocetidae and amphibious locomotion synthesis"
       },
       {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "ics-2026-06",
+        "locator": "International Chronostratigraphic Chart v2026/06; numerical stage boundaries"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "literature-synthesized"
   },
   {
     "id": "range:protocetidae:global",
     "entityId": "protocetidae",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "protocetidae",
-    "geographicScope": "Global or represented navigation composite",
+    "taxonomicConcept": "protocetidae — source-bounded sample window",
+    "geographicScope": "Middle Eocene protocetid sample synthesized by Uhen",
     "olderMa": 47,
     "youngerMa": 37.7,
     "status": "available",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Rounded navigation endpoints remain unreviewed and are not a fossil FAD, molecular divergence interval or COL26.8 taxonomic decision."
+      "note": "This display is limited to the review's diverse protocetid sample, not uninterrupted global occupancy or exact endpoints; numerical stage conversions follow ICS v2026/06 where applicable."
     },
-    "evidenceBasis": "Legacy Atlas display range retained for navigation only.",
-    "confidence": "low",
-    "claimIds": [],
+    "evidenceBasis": "The Origin(s) of Whales directly anchors the sampled window; the display does not extrapolate it into a global taxon duration.",
+    "confidence": "medium",
+    "claimIds": [
+      "claim:taxon:protocetidae:source-bounded-range-rc49"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
+        "referenceId": "uhen-2010-whale-origins",
+        "locator": "202–207; Protocetidae diversity, distribution and locomotor discussion"
       },
       {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "ics-2026-06",
+        "locator": "International Chronostratigraphic Chart v2026/06; numerical stage boundaries"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "literature-synthesized"
   },
   {
     "id": "range:neoceti:global",
     "entityId": "neoceti",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "neoceti",
-    "geographicScope": "Global or represented navigation composite",
+    "taxonomicConcept": "neoceti — source-bounded sample window",
+    "geographicScope": "Eocene–Oligocene fossil evidence through living Neoceti synthesized by Uhen",
     "olderMa": 36,
     "youngerMa": 0,
     "status": "available",
     "uncertainty": {
       "olderMa": null,
-      "youngerMa": null,
-      "note": "Rounded navigation endpoints remain unreviewed and are not a fossil FAD, molecular divergence interval or COL26.8 taxonomic decision."
+      "youngerMa": 0,
+      "note": "This display is limited to a synthesis-bounded crown-whale navigation envelope, not a directly observed crown split; numerical stage conversions follow ICS v2026/06 where applicable."
     },
-    "evidenceBasis": "Legacy Atlas display range retained for navigation only.",
-    "confidence": "low",
-    "claimIds": [],
+    "evidenceBasis": "The Origin(s) of Whales directly anchors the sampled window; the display does not extrapolate it into a global taxon duration.",
+    "confidence": "medium",
+    "claimIds": [
+      "claim:taxon:neoceti:source-bounded-range-rc49"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
+        "referenceId": "uhen-2010-whale-origins",
+        "locator": "212–217; Origin of modern whales; Mysticeti and Odontoceti discussion"
       },
       {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "ics-2026-06",
+        "locator": "International Chronostratigraphic Chart v2026/06; numerical stage boundaries"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "literature-synthesized"
   },
   {
     "id": "range:mysticeti:global",
     "entityId": "mysticeti",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "mysticeti",
-    "geographicScope": "Global or represented navigation composite",
+    "taxonomicConcept": "mysticeti — source-bounded sample window",
+    "geographicScope": "Oligocene fossil evidence through living Mysticeti synthesized by Uhen",
     "olderMa": 34,
     "youngerMa": 0,
     "status": "available",
     "uncertainty": {
       "olderMa": null,
-      "youngerMa": null,
-      "note": "Rounded navigation endpoints remain unreviewed and are not a fossil FAD, molecular divergence interval or COL26.8 taxonomic decision."
+      "youngerMa": 0,
+      "note": "This display is limited to the review's sampled stem-to-living mysticete envelope, not an exact clade origin; numerical stage conversions follow ICS v2026/06 where applicable."
     },
-    "evidenceBasis": "Legacy Atlas display range retained for navigation only.",
-    "confidence": "low",
-    "claimIds": [],
+    "evidenceBasis": "The Origin(s) of Whales directly anchors the sampled window; the display does not extrapolate it into a global taxon duration.",
+    "confidence": "medium",
+    "claimIds": [
+      "claim:taxon:mysticeti:source-bounded-range-rc49"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
+        "referenceId": "uhen-2010-whale-origins",
+        "locator": "212–219; Modern whales; Mysticeti fossil and anatomical synthesis"
       },
       {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "ics-2026-06",
+        "locator": "International Chronostratigraphic Chart v2026/06; numerical stage boundaries"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "literature-synthesized"
   },
   {
     "id": "range:odontoceti:global",
     "entityId": "odontoceti",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "odontoceti",
-    "geographicScope": "Global or represented navigation composite",
+    "taxonomicConcept": "odontoceti — source-bounded sample window",
+    "geographicScope": "Oligocene fossil evidence through living Odontoceti synthesized by Uhen",
     "olderMa": 34,
     "youngerMa": 0,
     "status": "available",
     "uncertainty": {
       "olderMa": null,
-      "youngerMa": null,
-      "note": "Rounded navigation endpoints remain unreviewed and are not a fossil FAD, molecular divergence interval or COL26.8 taxonomic decision."
+      "youngerMa": 0,
+      "note": "This display is limited to the review's sampled stem-to-living odontocete envelope, not an exact clade origin; numerical stage conversions follow ICS v2026/06 where applicable."
     },
-    "evidenceBasis": "Legacy Atlas display range retained for navigation only.",
-    "confidence": "low",
-    "claimIds": [],
+    "evidenceBasis": "The Origin(s) of Whales directly anchors the sampled window; the display does not extrapolate it into a global taxon duration.",
+    "confidence": "medium",
+    "claimIds": [
+      "claim:taxon:odontoceti:source-bounded-range-rc49"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
+        "referenceId": "uhen-2010-whale-origins",
+        "locator": "212–219; Modern whales; Odontoceti fossil and anatomical synthesis"
       },
       {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "ics-2026-06",
+        "locator": "International Chronostratigraphic Chart v2026/06; numerical stage boundaries"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "literature-synthesized"
   }
 ]

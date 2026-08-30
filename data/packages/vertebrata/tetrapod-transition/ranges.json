@@ -31,121 +31,113 @@
     "id": "range:coelacanthimorpha:global",
     "entityId": "coelacanthimorpha",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Coelacanthimorpha",
-    "geographicScope": "Global or represented navigation composite",
+    "taxonomicConcept": "Living coelacanth lineage divergence model",
+    "geographicScope": "Twenty-four-calibration bony-fish relaxed-clock analysis",
     "olderMa": 409,
     "youngerMa": 0,
     "status": "available",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "note": "409 Ma is the study mean for the coelacanth versus lungfish-plus-tetrapod split, not a fossil occurrence."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "evidenceBasis": "The model-to-present route does not delimit all fossil coelacanthimorphs.",
     "confidence": "medium",
-    "claimIds": [],
+    "claimIds": [
+      "claim:taxon:coelacanthimorpha:range-boundary"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
-      },
-      {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "broughton-2013-bony-fish-tempo",
+        "locator": "Article 2ca8041495ffafd0c92756e75247483e; Figures 1–3; time-calibrated phylogeny; Timescale of bony-fish evolution; crown Sarcopterygii split"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "literature-synthesized"
   },
   {
     "id": "range:dipnoi:global",
     "entityId": "dipnoi",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Dipnoi",
-    "geographicScope": "Global or represented navigation composite",
+    "taxonomicConcept": "Living lungfish lineage divergence model",
+    "geographicScope": "Twenty-four-calibration bony-fish relaxed-clock analysis",
     "olderMa": 409,
     "youngerMa": 0,
     "status": "available",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "note": "409 Ma is the model estimate for the coelacanth versus lungfish-plus-tetrapod split, not a Dipnoi fossil FAD."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "evidenceBasis": "The route preserves the model boundary and living endpoint without claiming a complete lungfish record.",
     "confidence": "medium",
-    "claimIds": [],
+    "claimIds": [
+      "claim:taxon:dipnoi:range-boundary"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
-      },
-      {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "broughton-2013-bony-fish-tempo",
+        "locator": "Article 2ca8041495ffafd0c92756e75247483e; Figures 1–3; time-calibrated phylogeny; Timescale of bony-fish evolution; crown Sarcopterygii split"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "literature-synthesized"
   },
   {
     "id": "range:tetrapodomorpha:global",
     "entityId": "tetrapodomorpha",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Tetrapodomorpha",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 392,
-    "youngerMa": 0,
+    "taxonomicConcept": "Devonian tetrapodomorph transition study sample",
+    "geographicScope": "Multiple Devonian localities synthesized by Clack 2006",
+    "olderMa": 385.3,
+    "youngerMa": 358.86,
     "status": "available",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "note": "The envelope brackets reviewed near-tetrapod and digit-bearing samples; it does not date Tetrapodomorpha as a whole."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "evidenceBasis": "The interval is confined to the transition sample represented in the systematic synthesis.",
     "confidence": "medium",
-    "claimIds": [],
+    "claimIds": [
+      "claim:taxon:tetrapodomorpha:range-boundary"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
-      },
-      {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "clack-2006-early-tetrapods",
+        "locator": "167–189; Figures 1–11; Devonian near-tetrapods, early tetrapods, localities and stratigraphic context"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "literature-synthesized"
   },
   {
     "id": "range:stem-tetrapodomorphs:global",
     "entityId": "stem-tetrapodomorphs",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "stem-tetrapodomorphs",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 392,
-    "youngerMa": 359,
+    "taxonomicConcept": "Tinirau clackae represented stem-tetrapodomorph sample",
+    "geographicScope": "Red Hill I beds, Simpson Park Range, Nevada, United States",
+    "olderMa": 387.7,
+    "youngerMa": 382.7,
     "status": "available",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "note": "Stage-scale upper Givetian window; the historical grade is not asserted to be monophyletic."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "evidenceBasis": "The interval represents the named Tinirau material only and not a grade-wide first or last appearance.",
     "confidence": "medium",
-    "claimIds": [],
+    "claimIds": [
+      "claim:taxon:stem-tetrapodomorphs:range-boundary"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
-      },
-      {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "swartz-2012-tinirau",
+        "locator": "Article e33683, pp. 1–4; Figures 1–4; Age: upper Givetian; locality, holotype and phylogenetic placement"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed",
+    "evidenceLevel": "literature-synthesized"
   },
   {
     "id": "range:tiktaalik:global",
