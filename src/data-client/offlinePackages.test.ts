@@ -90,4 +90,61 @@ describe('complete Atlas offline storage', () => {
     expect([...stored.keys()].some((url) => url.endsWith(files[2].url))).toBe(true)
     expect([...stored.keys()].some((url) => url.endsWith(files[3].url))).toBe(false)
   })
+
+  it('includes research examples in single-package and all-package offline storage', async () => {
+    const datasetVersion = 'dataset-research'
+    const releaseBase = `releases/${datasetVersion}/`
+    const registryFile = { url: `${releaseBase}packages/registry.json` }
+    const packageIds = ['alpha', 'beta']
+    const manifestFiles = Object.fromEntries(packageIds.map((packageId) => [packageId, { url: `${releaseBase}packages/${packageId}/manifest.json` }]))
+    const manifests = Object.fromEntries(packageIds.map((packageId) => [packageId, {
+      packageId,
+      version: datasetVersion,
+      files: {
+        identity: { url: `${releaseBase}packages/${packageId}/identity.json` },
+        researchExamples: { url: `${releaseBase}packages/${packageId}/research-examples.json` },
+      },
+      occurrences: [],
+    }]))
+    const current = {
+      datasetVersion,
+      releaseBase,
+      packages: { registry: registryFile, manifests: manifestFiles },
+    }
+    const registry = { packages: packageIds.map((id) => ({ id })), entityToPackage: {} }
+    const fetchMock = vi.fn(async (input: RequestInfo | URL) => {
+      const url = String(input)
+      if (url.endsWith('/data/current.json')) return jsonResponse(current)
+      if (url.endsWith(registryFile.url)) return jsonResponse(registry)
+      for (const packageId of packageIds) {
+        if (url.endsWith(manifestFiles[packageId].url)) return jsonResponse(manifests[packageId])
+      }
+      return jsonResponse({})
+    })
+    const stored = new Map<string, Response>()
+    const cache = {
+      match: vi.fn(async (url: string) => stored.get(url)?.clone()),
+      put: vi.fn(async (url: string, response: Response) => { stored.set(url, response.clone()) }),
+      delete: vi.fn(async (url: string) => stored.delete(url)),
+    }
+    vi.stubGlobal('fetch', fetchMock)
+    vi.stubGlobal('caches', {
+      open: vi.fn(async () => cache),
+      match: vi.fn(async (url: string) => stored.get(url)?.clone()),
+      keys: vi.fn(async () => []),
+      delete: vi.fn(async () => true),
+    })
+    vi.stubGlobal('Worker', undefined)
+
+    const { saveAllPackagesOffline, savePackageOffline } = await import('./offlinePackages')
+    await savePackageOffline('alpha')
+    expect([...stored.keys()].some((url) => url.endsWith(manifests.alpha.files.researchExamples.url))).toBe(true)
+    expect([...stored.keys()].some((url) => url.endsWith(manifests.beta.files.researchExamples.url))).toBe(false)
+
+    stored.clear()
+    await saveAllPackagesOffline()
+    for (const packageId of packageIds) {
+      expect([...stored.keys()].some((url) => url.endsWith(manifests[packageId].files.researchExamples.url))).toBe(true)
+    }
+  })
 })

@@ -19,6 +19,7 @@ import java.io.ByteArrayOutputStream;
 import java.io.InputStream;
 import java.nio.charset.StandardCharsets;
 import java.security.MessageDigest;
+import java.util.Iterator;
 
 @RunWith(AndroidJUnit4.class)
 public class AppInstrumentedTest {
@@ -101,6 +102,34 @@ public class AppInstrumentedTest {
             }
         }
         assertEquals(20, observationFiles);
+
+        JSONObject richManifests = current.getJSONObject("packages").getJSONObject("manifests");
+        assertEquals(24, richManifests.length());
+        int researchExamples = 0;
+        int researchClaimLinks = 0;
+        int phylogenyPackages = 0;
+        Iterator<String> richPackageIds = richManifests.keys();
+        while (richPackageIds.hasNext()) {
+            String packageId = richPackageIds.next();
+            JSONObject manifestDescriptor = richManifests.getJSONObject(packageId);
+            JSONObject manifestInventoryRecord = findInventoryRecord(files, manifestDescriptor.getString("url"));
+            assertNotNull("rich-package manifest missing from release inventory", manifestInventoryRecord);
+            verifyAssetRecord(context, manifestInventoryRecord);
+            JSONObject pack = readJsonAsset(context, "public/data/" + manifestDescriptor.getString("url"));
+            JSONObject payloads = pack.getJSONObject("files");
+            JSONObject researchDescriptor = payloads.getJSONObject("researchExamples");
+            JSONObject researchInventoryRecord = findInventoryRecord(files, researchDescriptor.getString("url"));
+            assertNotNull("research examples missing from release inventory", researchInventoryRecord);
+            assertEquals(researchDescriptor.getInt("bytes"), researchInventoryRecord.getInt("bytes"));
+            assertEquals(researchDescriptor.getString("sha256"), researchInventoryRecord.getString("sha256"));
+            verifyAssetRecord(context, researchInventoryRecord);
+            researchExamples += pack.getInt("researchExampleCount");
+            researchClaimLinks += pack.getInt("researchClaimLinkCount");
+            if (payloads.has("phylogeny")) phylogenyPackages += 1;
+        }
+        assertEquals(24, researchExamples);
+        assertEquals(34, researchClaimLinks);
+        assertEquals(2, phylogenyPackages);
 
         JSONObject catalogueDescriptor = current.getJSONObject("catalogue").getJSONObject("manifest");
         JSONObject catalogue = readJsonAsset(context, "public/data/" + catalogueDescriptor.getString("url"));

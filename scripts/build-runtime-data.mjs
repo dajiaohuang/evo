@@ -387,6 +387,7 @@ for (const packageEntry of registry.packages) {
   const packageQueryLedger = readJson(`${packageEntry.canonicalPath}/query-ledger.json`)
   const targetedOccurrenceSnapshot = packageQueryLedger.occurrenceSnapshot ? readJson(packageQueryLedger.occurrenceSnapshot) : null
   const packagePhylogenyStatus = readJson(`${packageEntry.canonicalPath}/phylogeny/status.json`)
+  const packageResearchExamples = readJson(`${packageEntry.canonicalPath}/research-examples.json`)
   const packageEntities = entities.filter((entity) => entity.packageId === packageId)
   const packageProfiles = profiles.filter((profile) => entityById.get(profile.treeNodeId)?.packageId === packageId)
   const packageClaims = claims.filter((claim) => ownerForClaim(claim) === packageId)
@@ -406,6 +407,7 @@ for (const packageEntry of registry.packages) {
   if (packageEvents.length) payloadFiles.events = writeGzipJson(`packages/${packageId}/events.json.gz`, packageEvents)
   if (packageStories.length) payloadFiles.stories = writeGzipJson(`packages/${packageId}/stories.json.gz`, packageStories)
   if (packageMedia.length) payloadFiles.media = writeGzipJson(`packages/${packageId}/media.json.gz`, packageMedia)
+  payloadFiles.researchExamples = writeGzipJson(`packages/${packageId}/research-examples.json.gz`, packageResearchExamples)
   const packageReferences = references.filter((reference) => packageReferenceIds.has(reference.id))
   payloadFiles.ranges = writeGzipJson(`packages/${packageId}/ranges.json.gz`, canonicalRanges.filter((range) => packageEntities.some((entity) => entity.id === range.entityId)))
   payloadFiles.localeZh = writeGzipJson(`packages/${packageId}/locale-zh.json.gz`, {
@@ -458,6 +460,8 @@ for (const packageEntry of registry.packages) {
     entityCount: packageEntities.length,
     profileCount: packageProfiles.length,
     claimCount: packageClaims.length,
+    researchExampleCount: packageResearchExamples.examples.length,
+    researchClaimLinkCount: packageResearchExamples.examples.reduce((sum, example) => sum + example.claimIds.length, 0),
     occurrenceCount: occurrenceShards.reduce((sum, file) => sum + file.records, 0),
     queryCoverage: {
       completeness: packageQueryLedger.completeness,

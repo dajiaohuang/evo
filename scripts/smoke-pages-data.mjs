@@ -2,6 +2,7 @@ import { createHash } from 'node:crypto'
 import { existsSync, readFileSync } from 'node:fs'
 import { join } from 'node:path'
 import { gunzipSync } from 'node:zlib'
+import { unzipSync } from 'fflate'
 import { rootDir } from './data-lib.mjs'
 
 const dataRoot = join(rootDir, 'dist/data')
@@ -24,6 +25,8 @@ if (!existsSync(join(dataRoot, 'current.json'))) {
 }
 
 const current = readJson('current.json')
+const currentReleaseFiles = readJson(`${current.releaseBase}release-files.json`)
+const currentReleaseUrls = new Set(currentReleaseFiles.files.map((file) => file.url))
 if (!existsSync(join(dataRoot, 'releases.json'))) failures.push('release retention index is missing')
 else {
   const history = readJson('releases.json')
@@ -57,6 +60,10 @@ for (const [name, file] of Object.entries(current.core)) {
 
 const packageRegistry = readGzipJson(current.packages.registry.url)
 if (packageRegistry.packages.length !== current.packages.count) failures.push('package count mismatch')
+let researchExampleCount = 0
+let researchClaimLinkCount = 0
+let researchExampleAvailableCount = 0
+let packagePhylogenyCount = 0
 for (const packageEntry of packageRegistry.packages) {
   const manifestFile = current.packages.manifests[packageEntry.id]
   releaseUrl(manifestFile, `package ${packageEntry.id} manifest`)
@@ -71,10 +78,27 @@ for (const packageEntry of packageRegistry.packages) {
   if (!['not-reviewed', 'in-review', 'reviewed-with-caveats', 'reviewed', 'stale'].includes(manifest.effectiveReviewStatus)) failures.push(`package ${packageEntry.id}: invalid effective review status`)
   if (['reviewed-with-caveats', 'reviewed'].includes(manifest.reviewStatus) && manifest.effectiveReviewStatus === 'stale') failures.push(`package ${packageEntry.id}: completed maintainer review is stale`)
   if (typeof manifest.chatgptAssisted !== 'boolean') failures.push(`package ${packageEntry.id}: ChatGPT assistance disclosure is missing`)
+  if (manifest.files.phylogeny) packagePhylogenyCount += 1
   for (const [name, file] of Object.entries(manifest.files)) {
     releaseUrl(file, `package ${packageEntry.id}/${name}`)
     checkFile(file, `package ${packageEntry.id}/${name}`)
     try { readGzipJson(file.url) } catch (error) { failures.push(`package ${packageEntry.id}/${name}: cannot parse gzip JSON (${error.message})`) }
+    if (!currentReleaseUrls.has(file.url)) failures.push(`package ${packageEntry.id}/${name}: missing from current release inventory`)
+  }
+  const researchFile = manifest.files.researchExamples
+  if (!researchFile) failures.push(`package ${packageEntry.id}: research examples are missing`)
+  else {
+    const researchExamples = readGzipJson(researchFile.url)
+    const claimLinkCount = researchExamples.examples?.reduce((sum, example) => sum + example.claimIds.length, 0) ?? 0
+    researchExampleCount += researchExamples.examples?.length ?? 0
+    researchClaimLinkCount += claimLinkCount
+    researchExampleAvailableCount += researchExamples.examples?.filter((example) => example.evidenceStatus === 'available-with-limitations').length ?? 0
+    if (researchExamples.schemaVersion !== 1 || researchExamples.packageId !== packageEntry.id) failures.push(`package ${packageEntry.id}: research examples have mismatched identity`)
+    if (manifest.researchExampleCount !== researchExamples.examples?.length || manifest.researchClaimLinkCount !== claimLinkCount) failures.push(`package ${packageEntry.id}: research example counts disagree`)
+    for (const example of researchExamples.examples ?? []) {
+      if (!example.title?.en || !example.title?.zh || !example.limitations?.length) failures.push(`package ${packageEntry.id}/${example.id}: bilingual title or limitations are missing`)
+      if (!/^#\/(explore|compare)\?/.test(example.route)) failures.push(`package ${packageEntry.id}/${example.id}: research route is not usable`)
+    }
   }
   for (const shard of manifest.occurrences) {
     releaseUrl(shard, `package ${packageEntry.id} occurrence`)
@@ -82,7 +106,13 @@ for (const packageEntry of packageRegistry.packages) {
   }
   const download = current.downloads.template.replace('{packageId}', packageEntry.id)
   if (!existsSync(join(dataRoot, download))) failures.push(`package ${packageEntry.id}: download missing`)
+  else if (researchFile) {
+    const entries = unzipSync(new Uint8Array(readFileSync(join(dataRoot, download))))
+    if (!entries[researchFile.url]) failures.push(`package ${packageEntry.id}: ZIP omits research examples`)
+  }
 }
+if (researchExampleCount !== 24 || researchExampleAvailableCount !== 24 || researchClaimLinkCount !== 34) failures.push(`research preset totals are ${researchExampleCount} examples, ${researchExampleAvailableCount} available-with-limitations and ${researchClaimLinkCount} claim links; expected 24/24/34`)
+if (packagePhylogenyCount !== 2) failures.push(`package phylogeny runtime count is ${packagePhylogenyCount}; expected 2 available and 22 unmapped`)
 
 releaseUrl(current.occurrences.manifest, 'occurrence manifest')
 checkFile(current.occurrences.manifest, 'occurrence manifest')
