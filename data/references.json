@@ -332,13 +332,15 @@
     "url": "https://doi.org/10.1111/j.1502-3931.2009.00184.x",
     "doi": "10.1111/j.1502-3931.2009.00184.x",
     "publisher": "Palaeogeography, Palaeoclimatology, Palaeoecology",
-    "sourceRole": "primary-study",
+    "sourceRole": "systematic-review",
     "fitnessFor": [
       "taxonomy",
       "ecology",
-      "event-mechanism"
+      "event-mechanism",
+      "geochronology"
     ],
-    "metadataAssignment": "automated"
+    "metadataAssignment": "curator-reviewed",
+    "pages": "294:99–119"
   },
   {
     "id": "morris-2018-land-plants",
@@ -499,11 +501,13 @@
     "publisher": "PNAS",
     "sourceRole": "primary-study",
     "fitnessFor": [
-      "taxonomy",
       "range",
-      "event-mechanism"
+      "event-mechanism",
+      "geochronology",
+      "methods"
     ],
-    "metadataAssignment": "automated"
+    "metadataAssignment": "curator-reviewed",
+    "pages": "111:3316–3321"
   },
   {
     "id": "alvarez-1980-kpg",
@@ -533,13 +537,14 @@
     "doi": "10.1146/annurev-earth-040610-133431",
     "publisher": "Annual Review of Earth and Planetary Sciences",
     "pages": "489–516",
-    "sourceRole": "primary-study",
+    "sourceRole": "systematic-review",
     "fitnessFor": [
       "taxonomy",
       "ecology",
-      "event-mechanism"
+      "event-mechanism",
+      "geochronology"
     ],
-    "metadataAssignment": "automated"
+    "metadataAssignment": "curator-reviewed"
   },
   {
     "id": "coxall-2005-eot",
@@ -630,13 +635,16 @@
     "url": "https://doi.org/10.1038/ngeo1475",
     "doi": "10.1038/ngeo1475",
     "publisher": "Nature Geoscience",
-    "sourceRole": "primary-study",
+    "sourceRole": "systematic-review",
     "fitnessFor": [
       "taxonomy",
       "range",
-      "event-mechanism"
+      "event-mechanism",
+      "geochronology",
+      "ecology"
     ],
-    "metadataAssignment": "automated"
+    "metadataAssignment": "curator-reviewed",
+    "pages": "5:375–383"
   },
   {
     "id": "brusatte-2010-dinosaur-radiation",
@@ -816,13 +824,15 @@
     "url": "https://doi.org/10.1126/science.1177265",
     "doi": "10.1126/science.1177265",
     "publisher": "Science",
-    "sourceRole": "primary-study",
+    "sourceRole": "systematic-review",
     "fitnessFor": [
       "taxonomy",
       "range",
-      "event-mechanism"
+      "event-mechanism",
+      "geochronology"
     ],
-    "metadataAssignment": "automated"
+    "metadataAssignment": "curator-reviewed",
+    "pages": "327:1214–1218"
   },
   {
     "id": "smith-2013-oldest-echinoderms",
@@ -5085,6 +5095,228 @@
       "topology",
       "morphology",
       "ecology",
+      "methods"
+    ],
+    "metadataAssignment": "curator-reviewed"
+  },
+  {
+    "id": "gumsley-2017-goe",
+    "title": "Timing and tempo of the Great Oxidation Event",
+    "authors": "Gumsley, A.P.; Chamberlain, K.R.; Bleeker, W.; Söderlund, U.; de Kock, M.O.; Larsson, E.R.; Bekker, A.",
+    "publishedYear": 2017,
+    "type": "paper",
+    "url": "https://doi.org/10.1073/pnas.1608824114",
+    "doi": "10.1073/pnas.1608824114",
+    "publisher": "Proceedings of the National Academy of Sciences",
+    "pages": "114:1811–1816",
+    "note": "U–Pb baddeleyite geochronology brackets the onset of the Great Oxidation Event; the dated intrusions and proxy transition are not the same observation.",
+    "sourceRole": "primary-study",
+    "fitnessFor": [
+      "geochronology",
+      "range",
+      "event-mechanism",
+      "methods"
+    ],
+    "metadataAssignment": "curator-reviewed"
+  },
+  {
+    "id": "pu-2016-gaskiers-ediacara",
+    "title": "Dodging snowballs: Geochronology of the Gaskiers glaciation and the first appearance of the Ediacaran biota",
+    "authors": "Pu, J.P.; Bowring, S.A.; Ramezani, J.; Myrow, P.; Raub, T.D.; Landing, E.; Mills, A.; Hodgin, E.; Macdonald, F.A.",
+    "publishedYear": 2016,
+    "type": "paper",
+    "url": "https://doi.org/10.1130/G38284.1",
+    "doi": "10.1130/G38284.1",
+    "publisher": "Geology",
+    "pages": "44:955–958",
+    "note": "CA–ID–TIMS U–Pb zircon ages directly bracket the Gaskiers glaciation and the stratigraphically younger Avalon assemblages discussed in the paper.",
+    "sourceRole": "primary-study",
+    "fitnessFor": [
+      "geochronology",
+      "range",
+      "methods"
+    ],
+    "metadataAssignment": "curator-reviewed"
+  },
+  {
+    "id": "renne-2013-kpg-timescale",
+    "title": "Time scales of critical events around the Cretaceous-Paleogene boundary",
+    "authors": "Renne, P.R.; Deino, A.L.; Hilgen, F.J.; Kuiper, K.F.; Mark, D.F.; Mitchell, W.S.; Morgan, L.E.; Mundil, R.; Smit, J.",
+    "publishedYear": 2013,
+    "type": "paper",
+    "url": "https://doi.org/10.1126/science.1230492",
+    "doi": "10.1126/science.1230492",
+    "publisher": "Science",
+    "pages": "339:684–687",
+    "note": "High-precision 40Ar/39Ar comparisons estimate a 66.043 ± 0.043 Ma boundary and synchronicity of impact and extinction within the study resolution.",
+    "sourceRole": "primary-study",
+    "fitnessFor": [
+      "geochronology",
+      "range",
+      "event-mechanism",
+      "methods"
+    ],
+    "metadataAssignment": "curator-reviewed"
+  },
+  {
+    "id": "yang-2025-yunotubus",
+    "title": "A new graptolite (Pterobranchia) from the early Cambrian Xiaoshiba Lagerstätte of China",
+    "authors": "Yang, J.; Caron, J.-B.; Conway Morris, S.; et al.",
+    "publishedYear": 2025,
+    "type": "paper",
+    "url": "https://doi.org/10.1186/s13358-025-00406-0",
+    "doi": "10.1186/s13358-025-00406-0",
+    "publisher": "Swiss Journal of Palaeontology",
+    "pages": "144:69",
+    "note": "Five specimens of Yunotubus from the Stage 3 Hongjingshao Formation preserve tubes and colonial soft anatomy; morphology matrices test rather than assume pterobranch affinity.",
+    "sourceRole": "primary-study",
+    "fitnessFor": [
+      "range",
+      "taxonomy",
+      "topology",
+      "morphology",
+      "ecology",
+      "geochronology",
+      "methods"
+    ],
+    "metadataAssignment": "curator-reviewed"
+  },
+  {
+    "id": "halanych-1993-rhabdopleura-feeding",
+    "title": "Suspension feeding by the pterobranch hemichordate Rhabdopleura normani",
+    "authors": "Halanych, K.M.",
+    "publishedYear": 1993,
+    "type": "paper",
+    "url": "https://doi.org/10.2307/1542482",
+    "doi": "10.2307/1542482",
+    "publisher": "The Biological Bulletin",
+    "pages": "185:417–427",
+    "note": "Direct observations and microscopy describe feeding currents and particle capture in living Rhabdopleura normani.",
+    "sourceRole": "primary-study",
+    "fitnessFor": [
+      "ecology",
+      "morphology",
+      "methods"
+    ],
+    "metadataAssignment": "curator-reviewed"
+  },
+  {
+    "id": "horner-2011-hell-creek-dinosaur-census",
+    "title": "Dinosaur census reveals abundant Tyrannosaurus and rare ontogenetic stages in the Upper Cretaceous Hell Creek Formation (Maastrichtian), Montana, USA",
+    "authors": "Horner, J.R.; Goodwin, M.B.; Myhrvold, N.",
+    "publishedYear": 2011,
+    "type": "paper",
+    "url": "https://doi.org/10.1371/journal.pone.0016574",
+    "doi": "10.1371/journal.pone.0016574",
+    "publisher": "PLOS ONE",
+    "pages": "6:e16574",
+    "note": "The field census records taxon, locality and stratigraphic position; abundance and ontogenetic interpretation remain sampling-sensitive.",
+    "sourceRole": "primary-study",
+    "fitnessFor": [
+      "range",
+      "ecology",
+      "methods"
+    ],
+    "metadataAssignment": "curator-reviewed"
+  },
+  {
+    "id": "carr-2020-tyrannosaurus-growth-series",
+    "title": "A high-resolution growth series of Tyrannosaurus rex obtained from multiple lines of evidence",
+    "authors": "Carr, T.D.",
+    "publishedYear": 2020,
+    "type": "paper",
+    "url": "https://doi.org/10.7717/peerj.9192",
+    "doi": "10.7717/peerj.9192",
+    "publisher": "PeerJ",
+    "pages": "8:e9192",
+    "note": "A multi-institution specimen series scores ontogenetic characters and tests a growth sequence; age classes are analytical assignments, not direct life histories.",
+    "sourceRole": "primary-study",
+    "fitnessFor": [
+      "taxonomy",
+      "morphology",
+      "ecology",
+      "methods"
+    ],
+    "metadataAssignment": "curator-reviewed"
+  },
+  {
+    "id": "loewen-2013-tyrannosaur-biogeography",
+    "title": "Tyrant dinosaur evolution tracks the rise and fall of Late Cretaceous oceans",
+    "authors": "Loewen, M.A.; Irmis, R.B.; Sertich, J.J.W.; Currie, P.J.; Sampson, S.D.",
+    "publishedYear": 2013,
+    "type": "paper",
+    "url": "https://doi.org/10.1371/journal.pone.0079420",
+    "doi": "10.1371/journal.pone.0079420",
+    "publisher": "PLOS ONE",
+    "pages": "8:e79420",
+    "note": "Morphological phylogeny and event-based biogeographic analyses test tyrannosaurid dispersal scenarios; routes are model outputs.",
+    "sourceRole": "primary-study",
+    "fitnessFor": [
+      "biogeography",
+      "topology",
+      "methods"
+    ],
+    "metadataAssignment": "curator-reviewed"
+  },
+  {
+    "id": "rauhut-2018-oldest-archaeopteryx",
+    "title": "The oldest specimen of Archaeopteryx",
+    "authors": "Rauhut, O.W.M.; Foth, C.; Tischlinger, H.",
+    "publishedYear": 2018,
+    "type": "paper",
+    "url": "https://doi.org/10.7717/peerj.4191",
+    "doi": "10.7717/peerj.4191",
+    "publisher": "PeerJ",
+    "pages": "6:e4191",
+    "note": "The referred Painten specimen provides a specimen- and horizon-bounded extension of Archaeopteryx, not a crown-bird or avialan origin date.",
+    "sourceRole": "primary-study",
+    "fitnessFor": [
+      "taxonomy",
+      "range",
+      "morphology",
+      "geochronology",
+      "methods"
+    ],
+    "metadataAssignment": "curator-reviewed"
+  },
+  {
+    "id": "voeten-2018-archaeopteryx-flight",
+    "title": "Wing bone geometry reveals active flight in Archaeopteryx",
+    "authors": "Voeten, D.F.A.E.; Cubo, J.; de Margerie, E.; Röper, M.; Beyrand, V.; Bureš, S.; Tafforeau, P.; Sanchez, S.",
+    "publishedYear": 2018,
+    "type": "paper",
+    "url": "https://doi.org/10.1038/s41467-018-03296-8",
+    "doi": "10.1038/s41467-018-03296-8",
+    "publisher": "Nature Communications",
+    "pages": "9:923",
+    "note": "Synchrotron wing-bone geometry is compared with living flight modes; flight capacity is inferred biomechanically rather than observed.",
+    "sourceRole": "primary-study",
+    "fitnessFor": [
+      "morphology",
+      "ecology",
+      "methods"
+    ],
+    "metadataAssignment": "curator-reviewed"
+  },
+  {
+    "id": "torres-2025-vegavis-skull",
+    "title": "Cretaceous Antarctic bird skull elucidates early avian ecological diversity",
+    "authors": "Torres, C.R.; Clarke, J.A.; Groenke, J.R.; Lamanna, M.C.; MacPhee, R.D.E.; Musser, G.M.; Roberts, E.M.; O’Connor, P.M.",
+    "publishedYear": 2025,
+    "type": "paper",
+    "url": "https://doi.org/10.1038/s41586-024-08390-0",
+    "doi": "10.1038/s41586-024-08390-0",
+    "publisher": "Nature",
+    "pages": "638:146–151",
+    "note": "The nearly complete AMNH FARB 30899 skull and a combined matrix support crown-waterfowl affinity while the paper explicitly records historically conflicting placements.",
+    "sourceRole": "primary-study",
+    "fitnessFor": [
+      "taxonomy",
+      "topology",
+      "range",
+      "morphology",
+      "ecology",
+      "geochronology",
       "methods"
     ],
     "metadataAssignment": "curator-reviewed"

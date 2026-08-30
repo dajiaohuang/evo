@@ -4,17 +4,25 @@
     "subjectId": "event:great-oxidation",
     "claimKind": "scientific",
     "claimType": "event-mechanism",
-    "statement": "Sulfur-isotope and redox records support a prolonged, stepwise rise of environmental oxygen rather than a single instantaneous event.",
+    "statement": "Sulfur-isotope and redox records support a prolonged oxygenation transition; U–Pb baddeleyite ages place its onset between about 2,460 and 2,426 Ma rather than at one instantaneous boundary.",
     "confidence": "high",
-    "confidenceRationale": "High confidence is assigned because the cited peer-reviewed synthesis integrates several independent isotope and redox proxy systems; the claim is limited to a stepwise pattern and does not assert one exact date or trigger.",
-    "reviewedBy": "Codex automated evidence audit",
-    "reviewedAt": "2026-08-19",
-    "reviewedAgainstReferenceVersion": "lyons-2014-oxygenation @ DOI 10.1038/nature13068",
+    "confidenceRationale": "The proxy transition is supported across a broad synthesis and the onset bracket comes from directly dated igneous units. High confidence applies to that bounded onset interval, not to a single universal oxygen threshold or trigger.",
+    "reviewedBy": "Evo Atlas maintainer primary-source audit",
+    "reviewedAt": "2026-08-30",
+    "reviewedAgainstReferenceVersion": "Gumsley et al. 2017 DOI 10.1073/pnas.1608824114",
     "referenceLinks": [
       {
         "relation": "supports",
+        "referenceId": "gumsley-2017-goe",
+        "pages": "1811–1816",
+        "figure": "Figure 1",
+        "quoteLocator": "Results; Table 1; SI Tables S1 and S4–S5"
+      },
+      {
+        "relation": "contextualizes",
         "referenceId": "lyons-2014-oxygenation",
-        "pages": "307–315"
+        "pages": "307–315",
+        "quoteLocator": "Great Oxidation Event synthesis and proxy discussion"
       }
     ]
   },
@@ -23,17 +31,25 @@
     "subjectId": "event:ediacaran-biota",
     "claimKind": "scientific",
     "claimType": "fossil-range",
-    "statement": "Repeated late Ediacaran body- and trace-fossil assemblages document widespread macroscopic ecosystems while many organismal affinities remain contested.",
+    "statement": "CA–ID–TIMS U–Pb ages bracket the Gaskiers glaciation, and Avalon fossils appear in younger strata by about 571 Ma; this directly dates a regional assemblage, not the origin of animals or a global Ediacaran first appearance.",
     "confidence": "high",
-    "confidenceRationale": "High confidence applies to the repeated, geographically distributed fossil assemblages summarized in the review; uncertainty about the biological affinity of individual forms is explicitly retained in the claim.",
-    "reviewedBy": "Codex automated evidence audit",
-    "reviewedAt": "2026-08-19",
-    "reviewedAgainstReferenceVersion": "narbonne-2005-ediacara @ DOI 10.1146/annurev.earth.33.092203.122519",
+    "confidenceRationale": "High-precision zircon ages and measured stratigraphic order securely bound the Newfoundland succession. High confidence is regional and horizon-specific; correlation to global biological origins remains a separate inference.",
+    "reviewedBy": "Evo Atlas maintainer primary-source audit",
+    "reviewedAt": "2026-08-30",
+    "reviewedAgainstReferenceVersion": "Pu et al. 2016 DOI 10.1130/G38284.1",
     "referenceLinks": [
       {
         "relation": "supports",
+        "referenceId": "pu-2016-gaskiers-ediacara",
+        "pages": "955–958",
+        "figure": "Figures 1–3",
+        "quoteLocator": "Geologic setting; U–Pb geochronology; GSA Data Repository"
+      },
+      {
+        "relation": "contextualizes",
         "referenceId": "narbonne-2005-ediacara",
-        "pages": "421–442"
+        "pages": "421–442",
+        "quoteLocator": "Global Ediacaran assemblage synthesis"
       }
     ]
   },
@@ -52,7 +68,9 @@
       {
         "relation": "supports",
         "referenceId": "erwin-2011-cambrian",
-        "pages": "1091–1097"
+        "pages": "1091–1097",
+        "figure": "Figures 1–3",
+        "quoteLocator": "Stratigraphic pattern and explanatory-model synthesis"
       }
     ]
   },
@@ -70,7 +88,10 @@
     "referenceLinks": [
       {
         "relation": "supports",
-        "referenceId": "servais-2010-gobe"
+        "referenceId": "servais-2010-gobe",
+        "pages": "99–119",
+        "figure": "Figures 1–8",
+        "quoteLocator": "Palaeoecological dimensions and regional timing synthesis"
       }
     ]
   },
@@ -255,7 +276,9 @@
     "referenceLinks": [
       {
         "relation": "supports",
-        "referenceId": "ford-2020-amniote"
+        "referenceId": "ford-2020-amniote",
+        "figure": "Figures 1–4",
+        "quoteLocator": "Phylogenetic analyses; character optimization; supplementary matrices"
       }
     ]
   },
@@ -264,16 +287,19 @@
     "subjectId": "event:end-permian-extinction",
     "claimKind": "scientific",
     "claimType": "event-mechanism",
-    "statement": "High-precision geochronology constrains the end-Permian biotic crisis to a geologically brief interval.",
+    "statement": "CA–ID–TIMS U–Pb ages from the Meishan section place the main end-Permian extinction interval between 251.941 ± 0.037 and 251.880 ± 0.031 Ma, lasting about 60 ± 48 kyr in that calibrated succession.",
     "confidence": "high",
-    "confidenceRationale": "High confidence is limited to the duration constraint supported by high-precision U–Pb dates tied to stratigraphic sections; it does not extend to selecting among competing extinction mechanisms.",
-    "reviewedBy": "Codex automated evidence audit",
-    "reviewedAt": "2026-08-19",
-    "reviewedAgainstReferenceVersion": "burgess-2014-end-permian @ DOI 10.1073/pnas.1317692111",
+    "confidenceRationale": "The interval is bounded by high-precision dated ash beds and a measured fossil succession. High confidence applies to the Meishan calibrated interval, while global ecological expression and causal mechanism require additional records.",
+    "reviewedBy": "Evo Atlas maintainer primary-source audit",
+    "reviewedAt": "2026-08-30",
+    "reviewedAgainstReferenceVersion": "Burgess et al. 2014 DOI 10.1073/pnas.1317692111",
     "referenceLinks": [
       {
         "relation": "supports",
-        "referenceId": "burgess-2014-end-permian"
+        "referenceId": "burgess-2014-end-permian",
+        "pages": "3316–3321",
+        "figure": "Figures 1–3",
+        "quoteLocator": "Results; extinction interval; Table 1; SI U–Pb data tables"
       }
     ]
   },
@@ -291,7 +317,10 @@
     "referenceLinks": [
       {
         "relation": "supports",
-        "referenceId": "chen-2012-triassic-recovery"
+        "referenceId": "chen-2012-triassic-recovery",
+        "pages": "375–383",
+        "figure": "Figures 1–3",
+        "quoteLocator": "Review synthesis; recovery phases; Box 1"
       }
     ]
   },
@@ -321,17 +350,26 @@
     "subjectId": "event:k-pg-extinction",
     "claimKind": "scientific",
     "claimType": "event-mechanism",
-    "statement": "Boundary geochemistry and impact evidence support an extraterrestrial impact as the principal trigger of the K–Pg mass extinction.",
+    "statement": "Boundary clay iridium and impact ejecta support an extraterrestrial impact, while high-precision 40Ar/39Ar ages place the K–Pg boundary at 66.043 ± 0.043 Ma and resolve impact and extinction as synchronous within about 32 kyr.",
     "confidence": "high",
-    "confidenceRationale": "High confidence is grounded in the cited study's replicated boundary iridium anomaly and explicit, testable impact mechanism; this ledger records the foundational evidence and does not claim that every ecological response was instantaneous.",
-    "reviewedBy": "Codex automated evidence audit",
-    "reviewedAt": "2026-08-19",
-    "reviewedAgainstReferenceVersion": "alvarez-1980-kpg @ DOI 10.1126/science.208.4448.1095",
+    "confidenceRationale": "Independent geochemical observations and high-precision radioisotopic comparison converge on impact-boundary synchrony. High confidence does not make every taxon disappearance instantaneous or eliminate regional Signor–Lipps effects.",
+    "reviewedBy": "Evo Atlas maintainer primary-source audit",
+    "reviewedAt": "2026-08-30",
+    "reviewedAgainstReferenceVersion": "Renne et al. 2013 DOI 10.1126/science.1230492",
     "referenceLinks": [
       {
         "relation": "supports",
         "referenceId": "alvarez-1980-kpg",
-        "pages": "1095–1108"
+        "pages": "1095–1108",
+        "figure": "Figures 1–5",
+        "quoteLocator": "Iridium measurements and impact hypothesis"
+      },
+      {
+        "relation": "supports",
+        "referenceId": "renne-2013-kpg-timescale",
+        "pages": "684–687",
+        "figure": "Figures 1–3",
+        "quoteLocator": "40Ar/39Ar results; synchrony calculation; supplementary materials"
       }
     ]
   },
@@ -350,7 +388,9 @@
       {
         "relation": "supports",
         "referenceId": "mcinerney-2011-petm",
-        "pages": "489–516"
+        "pages": "489–516",
+        "figure": "Figures 1–8",
+        "quoteLocator": "Carbon isotope excursion, warming and biotic response synthesis"
       }
     ]
   },
@@ -429,7 +469,9 @@
     "referenceLinks": [
       {
         "relation": "supports",
-        "referenceId": "sandom-2014-megafauna"
+        "referenceId": "sandom-2014-megafauna",
+        "figure": "Figures 1–3",
+        "quoteLocator": "Methods; global extinction-pattern comparison; supplementary data"
       }
     ]
   },
@@ -644,7 +686,9 @@
       {
         "relation": "supports",
         "referenceId": "schulte-2010-chicxulub",
-        "quoteLocator": "Science 327 synthesis, pp. 1214–1218"
+        "pages": "1214–1218",
+        "figure": "Figures 1–4",
+        "quoteLocator": "Global boundary-evidence synthesis"
       }
     ]
   },
@@ -663,7 +707,16 @@
       {
         "relation": "supports",
         "referenceId": "schulte-2010-chicxulub",
-        "quoteLocator": "Science 327 synthesis, pp. 1214–1218"
+        "pages": "1214–1218",
+        "figure": "Figures 1–4",
+        "quoteLocator": "Global boundary-evidence synthesis"
+      },
+      {
+        "relation": "supports",
+        "referenceId": "renne-2013-kpg-timescale",
+        "pages": "684–687",
+        "figure": "Figures 1–3",
+        "quoteLocator": "40Ar/39Ar results; synchrony calculation; supplementary materials"
       }
     ]
   },
@@ -677,7 +730,7 @@
     "confidenceRationale": "Perissodactyla taxonomy is an automated curator-draft decomposition tied to its visible fields and current source inventory; human claim-specific locator review remains pending.",
     "reviewedBy": "Evo Atlas automated evidence decomposition",
     "reviewedAt": "2026-08-20",
-    "reviewedAgainstReferenceVersion": "pnas-2026-perissodactyls source inventory at 2026.08-static-v5-rc34",
+    "reviewedAgainstReferenceVersion": "pnas-2026-perissodactyls source inventory at 2026.08-static-v5-rc35",
     "referenceLinks": [
       {
         "relation": "supports",
@@ -696,7 +749,7 @@
     "confidenceRationale": "Perissodactyla fossil-range is an automated curator-draft decomposition tied to its visible fields and current source inventory; human claim-specific locator review remains pending.",
     "reviewedBy": "Evo Atlas automated evidence decomposition",
     "reviewedAt": "2026-08-20",
-    "reviewedAgainstReferenceVersion": "pbdb-api-2016 source inventory at 2026.08-static-v5-rc34",
+    "reviewedAgainstReferenceVersion": "pbdb-api-2016 source inventory at 2026.08-static-v5-rc35",
     "referenceLinks": [
       {
         "relation": "supports",
@@ -715,7 +768,7 @@
     "confidenceRationale": "Perissodactyla morphology is an automated curator-draft decomposition tied to its visible fields and current source inventory; human claim-specific locator review remains pending.",
     "reviewedBy": "Evo Atlas automated evidence decomposition",
     "reviewedAt": "2026-08-20",
-    "reviewedAgainstReferenceVersion": "amnh-perissodactyl-evolution source inventory at 2026.08-static-v5-rc34",
+    "reviewedAgainstReferenceVersion": "amnh-perissodactyl-evolution source inventory at 2026.08-static-v5-rc35",
     "referenceLinks": [
       {
         "relation": "supports",
@@ -734,7 +787,7 @@
     "confidenceRationale": "Perissodactyla ecology is an automated curator-draft decomposition tied to its visible fields and current source inventory; human claim-specific locator review remains pending.",
     "reviewedBy": "Evo Atlas automated evidence decomposition",
     "reviewedAt": "2026-08-20",
-    "reviewedAgainstReferenceVersion": "amnh-perissodactyl-evolution source inventory at 2026.08-static-v5-rc34",
+    "reviewedAgainstReferenceVersion": "amnh-perissodactyl-evolution source inventory at 2026.08-static-v5-rc35",
     "referenceLinks": [
       {
         "relation": "supports",
@@ -753,7 +806,7 @@
     "confidenceRationale": "Brontotheriidae taxonomy is an automated curator-draft decomposition tied to its visible fields and current source inventory; human claim-specific locator review remains pending.",
     "reviewedBy": "Evo Atlas automated evidence decomposition",
     "reviewedAt": "2026-08-20",
-    "reviewedAgainstReferenceVersion": "amnh-brontotheres source inventory at 2026.08-static-v5-rc34",
+    "reviewedAgainstReferenceVersion": "amnh-brontotheres source inventory at 2026.08-static-v5-rc35",
     "referenceLinks": [
       {
         "relation": "supports",
@@ -772,7 +825,7 @@
     "confidenceRationale": "Brontotheriidae fossil-range is an automated curator-draft decomposition tied to its visible fields and current source inventory; human claim-specific locator review remains pending.",
     "reviewedBy": "Evo Atlas automated evidence decomposition",
     "reviewedAt": "2026-08-20",
-    "reviewedAgainstReferenceVersion": "pbdb-api-2016 source inventory at 2026.08-static-v5-rc34",
+    "reviewedAgainstReferenceVersion": "pbdb-api-2016 source inventory at 2026.08-static-v5-rc35",
     "referenceLinks": [
       {
         "relation": "supports",
@@ -791,7 +844,7 @@
     "confidenceRationale": "Brontotheriidae ecology is an automated curator-draft decomposition tied to its visible fields and current source inventory; human claim-specific locator review remains pending.",
     "reviewedBy": "Evo Atlas automated evidence decomposition",
     "reviewedAt": "2026-08-20",
-    "reviewedAgainstReferenceVersion": "amnh-brontotheres source inventory at 2026.08-static-v5-rc34",
+    "reviewedAgainstReferenceVersion": "amnh-brontotheres source inventory at 2026.08-static-v5-rc35",
     "referenceLinks": [
       {
         "relation": "supports",
@@ -810,7 +863,7 @@
     "confidenceRationale": "Brontotheriidae biogeography is an automated curator-draft decomposition tied to its visible fields and current source inventory; human claim-specific locator review remains pending.",
     "reviewedBy": "Evo Atlas automated evidence decomposition",
     "reviewedAt": "2026-08-20",
-    "reviewedAgainstReferenceVersion": "amnh-brontotheres source inventory at 2026.08-static-v5-rc34",
+    "reviewedAgainstReferenceVersion": "amnh-brontotheres source inventory at 2026.08-static-v5-rc35",
     "referenceLinks": [
       {
         "relation": "supports",
@@ -829,7 +882,7 @@
     "confidenceRationale": "Palaeotherium taxonomy is an automated curator-draft decomposition tied to its visible fields and current source inventory; human claim-specific locator review remains pending.",
     "reviewedBy": "Evo Atlas automated evidence decomposition",
     "reviewedAt": "2026-08-20",
-    "reviewedAgainstReferenceVersion": "hooker-2004-grande-coupure source inventory at 2026.08-static-v5-rc34",
+    "reviewedAgainstReferenceVersion": "hooker-2004-grande-coupure source inventory at 2026.08-static-v5-rc35",
     "referenceLinks": [
       {
         "relation": "supports",
@@ -848,7 +901,7 @@
     "confidenceRationale": "Palaeotherium morphology is an automated curator-draft decomposition tied to its visible fields and current source inventory; human claim-specific locator review remains pending.",
     "reviewedBy": "Evo Atlas automated evidence decomposition",
     "reviewedAt": "2026-08-20",
-    "reviewedAgainstReferenceVersion": "amnh-perissodactyl-evolution source inventory at 2026.08-static-v5-rc34",
+    "reviewedAgainstReferenceVersion": "amnh-perissodactyl-evolution source inventory at 2026.08-static-v5-rc35",
     "referenceLinks": [
       {
         "relation": "supports",
@@ -867,7 +920,7 @@
     "confidenceRationale": "Palaeotherium ecology is an automated curator-draft decomposition tied to its visible fields and current source inventory; human claim-specific locator review remains pending.",
     "reviewedBy": "Evo Atlas automated evidence decomposition",
     "reviewedAt": "2026-08-20",
-    "reviewedAgainstReferenceVersion": "amnh-perissodactyl-evolution source inventory at 2026.08-static-v5-rc34",
+    "reviewedAgainstReferenceVersion": "amnh-perissodactyl-evolution source inventory at 2026.08-static-v5-rc35",
     "referenceLinks": [
       {
         "relation": "supports",
@@ -886,7 +939,7 @@
     "confidenceRationale": "Palaeotherium biogeography is an automated curator-draft decomposition tied to its visible fields and current source inventory; human claim-specific locator review remains pending.",
     "reviewedBy": "Evo Atlas automated evidence decomposition",
     "reviewedAt": "2026-08-20",
-    "reviewedAgainstReferenceVersion": "amnh-perissodactyl-evolution source inventory at 2026.08-static-v5-rc34",
+    "reviewedAgainstReferenceVersion": "amnh-perissodactyl-evolution source inventory at 2026.08-static-v5-rc35",
     "referenceLinks": [
       {
         "relation": "supports",
@@ -905,7 +958,7 @@
     "confidenceRationale": "Metamynodon taxonomy is an automated curator-draft decomposition tied to its visible fields and current source inventory; human claim-specific locator review remains pending.",
     "reviewedBy": "Evo Atlas automated evidence decomposition",
     "reviewedAt": "2026-08-20",
-    "reviewedAgainstReferenceVersion": "amnh-amynodonts source inventory at 2026.08-static-v5-rc34",
+    "reviewedAgainstReferenceVersion": "amnh-amynodonts source inventory at 2026.08-static-v5-rc35",
     "referenceLinks": [
       {
         "relation": "supports",
@@ -924,7 +977,7 @@
     "confidenceRationale": "Metamynodon fossil-range is an automated curator-draft decomposition tied to its visible fields and current source inventory; human claim-specific locator review remains pending.",
     "reviewedBy": "Evo Atlas automated evidence decomposition",
     "reviewedAt": "2026-08-20",
-    "reviewedAgainstReferenceVersion": "pbdb-api-2016 source inventory at 2026.08-static-v5-rc34",
+    "reviewedAgainstReferenceVersion": "pbdb-api-2016 source inventory at 2026.08-static-v5-rc35",
     "referenceLinks": [
       {
         "relation": "supports",
@@ -943,7 +996,7 @@
     "confidenceRationale": "Metamynodon morphology is an automated curator-draft decomposition tied to its visible fields and current source inventory; human claim-specific locator review remains pending.",
     "reviewedBy": "Evo Atlas automated evidence decomposition",
     "reviewedAt": "2026-08-20",
-    "reviewedAgainstReferenceVersion": "amnh-amynodonts source inventory at 2026.08-static-v5-rc34",
+    "reviewedAgainstReferenceVersion": "amnh-amynodonts source inventory at 2026.08-static-v5-rc35",
     "referenceLinks": [
       {
         "relation": "supports",
@@ -962,7 +1015,7 @@
     "confidenceRationale": "Metamynodon biogeography is an automated curator-draft decomposition tied to its visible fields and current source inventory; human claim-specific locator review remains pending.",
     "reviewedBy": "Evo Atlas automated evidence decomposition",
     "reviewedAt": "2026-08-20",
-    "reviewedAgainstReferenceVersion": "amnh-amynodonts source inventory at 2026.08-static-v5-rc34",
+    "reviewedAgainstReferenceVersion": "amnh-amynodonts source inventory at 2026.08-static-v5-rc35",
     "referenceLinks": [
       {
         "relation": "supports",
@@ -981,7 +1034,7 @@
     "confidenceRationale": "Paraceratherium taxonomy is an automated curator-draft decomposition tied to its visible fields and current source inventory; human claim-specific locator review remains pending.",
     "reviewedBy": "Evo Atlas automated evidence decomposition",
     "reviewedAt": "2026-08-20",
-    "reviewedAgainstReferenceVersion": "deng-2021-paraceratherium source inventory at 2026.08-static-v5-rc34",
+    "reviewedAgainstReferenceVersion": "deng-2021-paraceratherium source inventory at 2026.08-static-v5-rc35",
     "referenceLinks": [
       {
         "relation": "supports",
@@ -1000,7 +1053,7 @@
     "confidenceRationale": "Paraceratherium fossil-range is an automated curator-draft decomposition tied to its visible fields and current source inventory; human claim-specific locator review remains pending.",
     "reviewedBy": "Evo Atlas automated evidence decomposition",
     "reviewedAt": "2026-08-20",
-    "reviewedAgainstReferenceVersion": "pbdb-api-2016 source inventory at 2026.08-static-v5-rc34",
+    "reviewedAgainstReferenceVersion": "pbdb-api-2016 source inventory at 2026.08-static-v5-rc35",
     "referenceLinks": [
       {
         "relation": "supports",
@@ -1019,7 +1072,7 @@
     "confidenceRationale": "Paraceratherium morphology is an automated curator-draft decomposition tied to its visible fields and current source inventory; human claim-specific locator review remains pending.",
     "reviewedBy": "Evo Atlas automated evidence decomposition",
     "reviewedAt": "2026-08-20",
-    "reviewedAgainstReferenceVersion": "deng-2021-paraceratherium source inventory at 2026.08-static-v5-rc34",
+    "reviewedAgainstReferenceVersion": "deng-2021-paraceratherium source inventory at 2026.08-static-v5-rc35",
     "referenceLinks": [
       {
         "relation": "supports",
@@ -1038,7 +1091,7 @@
     "confidenceRationale": "Paraceratherium ecology is an automated curator-draft decomposition tied to its visible fields and current source inventory; human claim-specific locator review remains pending.",
     "reviewedBy": "Evo Atlas automated evidence decomposition",
     "reviewedAt": "2026-08-20",
-    "reviewedAgainstReferenceVersion": "deng-2021-paraceratherium source inventory at 2026.08-static-v5-rc34",
+    "reviewedAgainstReferenceVersion": "deng-2021-paraceratherium source inventory at 2026.08-static-v5-rc35",
     "referenceLinks": [
       {
         "relation": "supports",
@@ -1057,7 +1110,7 @@
     "confidenceRationale": "Paraceratherium biogeography is an automated curator-draft decomposition tied to its visible fields and current source inventory; human claim-specific locator review remains pending.",
     "reviewedBy": "Evo Atlas automated evidence decomposition",
     "reviewedAt": "2026-08-20",
-    "reviewedAgainstReferenceVersion": "deng-2021-paraceratherium source inventory at 2026.08-static-v5-rc34",
+    "reviewedAgainstReferenceVersion": "deng-2021-paraceratherium source inventory at 2026.08-static-v5-rc35",
     "referenceLinks": [
       {
         "relation": "supports",
@@ -1076,7 +1129,7 @@
     "confidenceRationale": "Chalicotherium taxonomy is an automated curator-draft decomposition tied to its visible fields and current source inventory; human claim-specific locator review remains pending.",
     "reviewedBy": "Evo Atlas automated evidence decomposition",
     "reviewedAt": "2026-08-20",
-    "reviewedAgainstReferenceVersion": "amnh-perissodactyl-evolution source inventory at 2026.08-static-v5-rc34",
+    "reviewedAgainstReferenceVersion": "amnh-perissodactyl-evolution source inventory at 2026.08-static-v5-rc35",
     "referenceLinks": [
       {
         "relation": "supports",
@@ -1095,7 +1148,7 @@
     "confidenceRationale": "Chalicotherium fossil-range is an automated curator-draft decomposition tied to its visible fields and current source inventory; human claim-specific locator review remains pending.",
     "reviewedBy": "Evo Atlas automated evidence decomposition",
     "reviewedAt": "2026-08-20",
-    "reviewedAgainstReferenceVersion": "pbdb-api-2016 source inventory at 2026.08-static-v5-rc34",
+    "reviewedAgainstReferenceVersion": "pbdb-api-2016 source inventory at 2026.08-static-v5-rc35",
     "referenceLinks": [
       {
         "relation": "supports",
@@ -1114,7 +1167,7 @@
     "confidenceRationale": "Chalicotherium ecology is an automated curator-draft decomposition tied to its visible fields and current source inventory; human claim-specific locator review remains pending.",
     "reviewedBy": "Evo Atlas automated evidence decomposition",
     "reviewedAt": "2026-08-20",
-    "reviewedAgainstReferenceVersion": "amnh-perissodactyl-evolution source inventory at 2026.08-static-v5-rc34",
+    "reviewedAgainstReferenceVersion": "amnh-perissodactyl-evolution source inventory at 2026.08-static-v5-rc35",
     "referenceLinks": [
       {
         "relation": "supports",
@@ -1133,7 +1186,7 @@
     "confidenceRationale": "Chalicotherium biogeography is an automated curator-draft decomposition tied to its visible fields and current source inventory; human claim-specific locator review remains pending.",
     "reviewedBy": "Evo Atlas automated evidence decomposition",
     "reviewedAt": "2026-08-20",
-    "reviewedAgainstReferenceVersion": "amnh-perissodactyl-evolution source inventory at 2026.08-static-v5-rc34",
+    "reviewedAgainstReferenceVersion": "amnh-perissodactyl-evolution source inventory at 2026.08-static-v5-rc35",
     "referenceLinks": [
       {
         "relation": "supports",
@@ -1152,7 +1205,7 @@
     "confidenceRationale": "Anchitherium taxonomy is an automated curator-draft decomposition tied to its visible fields and current source inventory; human claim-specific locator review remains pending.",
     "reviewedBy": "Evo Atlas automated evidence decomposition",
     "reviewedAt": "2026-08-20",
-    "reviewedAgainstReferenceVersion": "amnh-equidae source inventory at 2026.08-static-v5-rc34",
+    "reviewedAgainstReferenceVersion": "amnh-equidae source inventory at 2026.08-static-v5-rc35",
     "referenceLinks": [
       {
         "relation": "supports",
@@ -1171,7 +1224,7 @@
     "confidenceRationale": "Anchitherium fossil-range is an automated curator-draft decomposition tied to its visible fields and current source inventory; human claim-specific locator review remains pending.",
     "reviewedBy": "Evo Atlas automated evidence decomposition",
     "reviewedAt": "2026-08-20",
-    "reviewedAgainstReferenceVersion": "pbdb-api-2016 source inventory at 2026.08-static-v5-rc34",
+    "reviewedAgainstReferenceVersion": "pbdb-api-2016 source inventory at 2026.08-static-v5-rc35",
     "referenceLinks": [
       {
         "relation": "supports",
@@ -1190,7 +1243,7 @@
     "confidenceRationale": "Anchitherium morphology is an automated curator-draft decomposition tied to its visible fields and current source inventory; human claim-specific locator review remains pending.",
     "reviewedBy": "Evo Atlas automated evidence decomposition",
     "reviewedAt": "2026-08-20",
-    "reviewedAgainstReferenceVersion": "amnh-equidae source inventory at 2026.08-static-v5-rc34",
+    "reviewedAgainstReferenceVersion": "amnh-equidae source inventory at 2026.08-static-v5-rc35",
     "referenceLinks": [
       {
         "relation": "supports",
@@ -1209,7 +1262,7 @@
     "confidenceRationale": "Anchitherium biogeography is an automated curator-draft decomposition tied to its visible fields and current source inventory; human claim-specific locator review remains pending.",
     "reviewedBy": "Evo Atlas automated evidence decomposition",
     "reviewedAt": "2026-08-20",
-    "reviewedAgainstReferenceVersion": "amnh-equidae source inventory at 2026.08-static-v5-rc34",
+    "reviewedAgainstReferenceVersion": "amnh-equidae source inventory at 2026.08-static-v5-rc35",
     "referenceLinks": [
       {
         "relation": "supports",
@@ -1228,7 +1281,7 @@
     "confidenceRationale": "Hipparionini taxonomy is an automated curator-draft decomposition tied to its visible fields and current source inventory; human claim-specific locator review remains pending.",
     "reviewedBy": "Evo Atlas automated evidence decomposition",
     "reviewedAt": "2026-08-20",
-    "reviewedAgainstReferenceVersion": "mc-horse-monodactyly-2019 source inventory at 2026.08-static-v5-rc34",
+    "reviewedAgainstReferenceVersion": "mc-horse-monodactyly-2019 source inventory at 2026.08-static-v5-rc35",
     "referenceLinks": [
       {
         "relation": "supports",
@@ -1247,7 +1300,7 @@
     "confidenceRationale": "Hipparionini morphology is an automated curator-draft decomposition tied to its visible fields and current source inventory; human claim-specific locator review remains pending.",
     "reviewedBy": "Evo Atlas automated evidence decomposition",
     "reviewedAt": "2026-08-20",
-    "reviewedAgainstReferenceVersion": "mc-horse-monodactyly-2019 source inventory at 2026.08-static-v5-rc34",
+    "reviewedAgainstReferenceVersion": "mc-horse-monodactyly-2019 source inventory at 2026.08-static-v5-rc35",
     "referenceLinks": [
       {
         "relation": "supports",
@@ -1266,7 +1319,7 @@
     "confidenceRationale": "Hipparionini ecology is an automated curator-draft decomposition tied to its visible fields and current source inventory; human claim-specific locator review remains pending.",
     "reviewedBy": "Evo Atlas automated evidence decomposition",
     "reviewedAt": "2026-08-20",
-    "reviewedAgainstReferenceVersion": "bernor-2021-hipparions source inventory at 2026.08-static-v5-rc34",
+    "reviewedAgainstReferenceVersion": "bernor-2021-hipparions source inventory at 2026.08-static-v5-rc35",
     "referenceLinks": [
       {
         "relation": "supports",
@@ -1285,7 +1338,7 @@
     "confidenceRationale": "Hipparionini biogeography is an automated curator-draft decomposition tied to its visible fields and current source inventory; human claim-specific locator review remains pending.",
     "reviewedBy": "Evo Atlas automated evidence decomposition",
     "reviewedAt": "2026-08-20",
-    "reviewedAgainstReferenceVersion": "bernor-2021-hipparions source inventory at 2026.08-static-v5-rc34",
+    "reviewedAgainstReferenceVersion": "bernor-2021-hipparions source inventory at 2026.08-static-v5-rc35",
     "referenceLinks": [
       {
         "relation": "supports",
@@ -1304,7 +1357,7 @@
     "confidenceRationale": "Teleoceras taxonomy is an automated curator-draft decomposition tied to its visible fields and current source inventory; human claim-specific locator review remains pending.",
     "reviewedBy": "Evo Atlas automated evidence decomposition",
     "reviewedAt": "2026-08-20",
-    "reviewedAgainstReferenceVersion": "macfadden-1998-teleoceras source inventory at 2026.08-static-v5-rc34",
+    "reviewedAgainstReferenceVersion": "macfadden-1998-teleoceras source inventory at 2026.08-static-v5-rc35",
     "referenceLinks": [
       {
         "relation": "supports",
@@ -1323,7 +1376,7 @@
     "confidenceRationale": "Teleoceras fossil-range is an automated curator-draft decomposition tied to its visible fields and current source inventory; human claim-specific locator review remains pending.",
     "reviewedBy": "Evo Atlas automated evidence decomposition",
     "reviewedAt": "2026-08-20",
-    "reviewedAgainstReferenceVersion": "ward-2024-teleoceras source inventory at 2026.08-static-v5-rc34",
+    "reviewedAgainstReferenceVersion": "ward-2024-teleoceras source inventory at 2026.08-static-v5-rc35",
     "referenceLinks": [
       {
         "relation": "supports",
@@ -1342,7 +1395,7 @@
     "confidenceRationale": "Teleoceras morphology is an automated curator-draft decomposition tied to its visible fields and current source inventory; human claim-specific locator review remains pending.",
     "reviewedBy": "Evo Atlas automated evidence decomposition",
     "reviewedAt": "2026-08-20",
-    "reviewedAgainstReferenceVersion": "macfadden-1998-teleoceras source inventory at 2026.08-static-v5-rc34",
+    "reviewedAgainstReferenceVersion": "macfadden-1998-teleoceras source inventory at 2026.08-static-v5-rc35",
     "referenceLinks": [
       {
         "relation": "supports",
@@ -1361,7 +1414,7 @@
     "confidenceRationale": "Teleoceras biogeography is an automated curator-draft decomposition tied to its visible fields and current source inventory; human claim-specific locator review remains pending.",
     "reviewedBy": "Evo Atlas automated evidence decomposition",
     "reviewedAt": "2026-08-20",
-    "reviewedAgainstReferenceVersion": "macfadden-1998-teleoceras source inventory at 2026.08-static-v5-rc34",
+    "reviewedAgainstReferenceVersion": "macfadden-1998-teleoceras source inventory at 2026.08-static-v5-rc35",
     "referenceLinks": [
       {
         "relation": "supports",
@@ -1380,7 +1433,7 @@
     "confidenceRationale": "Coelodonta taxonomy is an automated curator-draft decomposition tied to its visible fields and current source inventory; human claim-specific locator review remains pending.",
     "reviewedBy": "Evo Atlas automated evidence decomposition",
     "reviewedAt": "2026-08-20",
-    "reviewedAgainstReferenceVersion": "gudjonsdottir-2026-coelodonta source inventory at 2026.08-static-v5-rc34",
+    "reviewedAgainstReferenceVersion": "gudjonsdottir-2026-coelodonta source inventory at 2026.08-static-v5-rc35",
     "referenceLinks": [
       {
         "relation": "supports",
@@ -1399,7 +1452,7 @@
     "confidenceRationale": "Coelodonta morphology is an automated curator-draft decomposition tied to its visible fields and current source inventory; human claim-specific locator review remains pending.",
     "reviewedBy": "Evo Atlas automated evidence decomposition",
     "reviewedAt": "2026-08-20",
-    "reviewedAgainstReferenceVersion": "gudjonsdottir-2026-coelodonta source inventory at 2026.08-static-v5-rc34",
+    "reviewedAgainstReferenceVersion": "gudjonsdottir-2026-coelodonta source inventory at 2026.08-static-v5-rc35",
     "referenceLinks": [
       {
         "relation": "supports",
@@ -1418,7 +1471,7 @@
     "confidenceRationale": "Coelodonta ecology is an automated curator-draft decomposition tied to its visible fields and current source inventory; human claim-specific locator review remains pending.",
     "reviewedBy": "Evo Atlas automated evidence decomposition",
     "reviewedAt": "2026-08-20",
-    "reviewedAgainstReferenceVersion": "gudjonsdottir-2026-coelodonta source inventory at 2026.08-static-v5-rc34",
+    "reviewedAgainstReferenceVersion": "gudjonsdottir-2026-coelodonta source inventory at 2026.08-static-v5-rc35",
     "referenceLinks": [
       {
         "relation": "supports",
@@ -1437,7 +1490,7 @@
     "confidenceRationale": "Coelodonta biogeography is an automated curator-draft decomposition tied to its visible fields and current source inventory; human claim-specific locator review remains pending.",
     "reviewedBy": "Evo Atlas automated evidence decomposition",
     "reviewedAt": "2026-08-20",
-    "reviewedAgainstReferenceVersion": "gudjonsdottir-2026-coelodonta source inventory at 2026.08-static-v5-rc34",
+    "reviewedAgainstReferenceVersion": "gudjonsdottir-2026-coelodonta source inventory at 2026.08-static-v5-rc35",
     "referenceLinks": [
       {
         "relation": "supports",
@@ -7050,6 +7103,458 @@
         "pages": "102–107",
         "figure": "Figure 3; Extended Data Figures 5–7",
         "quoteLocator": "Phylogenetic analyses; comparison with Chinlestegophis"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:pterobranchia:fossil-range",
+    "subjectId": "taxon:pterobranchia",
+    "claimKind": "scientific",
+    "claimType": "fossil-range",
+    "statement": "Five Yunotubus specimens from the approximately 516 Ma Hongjingshao Formation provide a diagnostic early Cambrian pterobranch minimum, not a Pterobranchia origin date or proof that every older tube fragment belongs to the clade.",
+    "confidence": "medium",
+    "confidenceRationale": "Five specimens preserve the tube-and-stolon association in one dated Lagerstätte; medium confidence keeps this direct minimum separate from phylogenetic origin and more fragmentary older candidates.",
+    "reviewedBy": "Evo Atlas maintainer primary-source audit",
+    "reviewedAt": "2026-08-30",
+    "reviewedAgainstReferenceVersion": "Yang et al. 2025 DOI 10.1186/s13358-025-00406-0",
+    "referenceLinks": [
+      {
+        "referenceId": "yang-2025-yunotubus",
+        "relation": "supports",
+        "quoteLocator": "Figures 1–5; Geological setting; Systematic palaeontology"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:pterobranchia:biogeography",
+    "subjectId": "taxon:pterobranchia",
+    "claimKind": "scientific",
+    "claimType": "biogeography",
+    "statement": "Yunotubus directly records pterobranchs in the early Cambrian Xiaoshiba Lagerstätte of Yunnan; living Rhabdopleura observations broaden modern marine context without implying continuous occupation of the same region.",
+    "confidence": "medium",
+    "confidenceRationale": "The fossil locality and living sampling sites are direct records, but two study windows cannot reconstruct a continuous global distribution; medium confidence is deliberately occurrence-bounded.",
+    "reviewedBy": "Evo Atlas maintainer primary-source audit",
+    "reviewedAt": "2026-08-30",
+    "reviewedAgainstReferenceVersion": "Yang et al. 2025 DOI 10.1186/s13358-025-00406-0",
+    "referenceLinks": [
+      {
+        "referenceId": "yang-2025-yunotubus",
+        "relation": "supports",
+        "quoteLocator": "Figure 1; locality and stratigraphic sections"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:pterobranchia:taxonomy",
+    "subjectId": "taxon:pterobranchia",
+    "claimKind": "scientific",
+    "claimType": "taxonomy",
+    "statement": "Yunotubus combines fusellar tubes, zooids and a connecting stolon recovered within Pterobranchia by sampled morphology matrices, while that placement remains a scored phylogenetic hypothesis rather than observed ancestry.",
+    "confidence": "medium",
+    "confidenceRationale": "Associated soft and tubular anatomy supports identification, but topology depends on 24-taxon, 39-character analyses; medium confidence preserves the distinction between diagnosis and branch placement.",
+    "reviewedBy": "Evo Atlas maintainer primary-source audit",
+    "reviewedAt": "2026-08-30",
+    "reviewedAgainstReferenceVersion": "Yang et al. 2025 DOI 10.1186/s13358-025-00406-0",
+    "referenceLinks": [
+      {
+        "referenceId": "yang-2025-yunotubus",
+        "relation": "supports",
+        "quoteLocator": "Systematic palaeontology; Figures 2–5; phylogenetic analyses"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:pterobranchia:ecology",
+    "subjectId": "taxon:pterobranchia",
+    "claimKind": "scientific",
+    "claimType": "ecology",
+    "statement": "Video and electron microscopy directly document suspension feeding in living Rhabdopleura normani; this supports the living ecological field but is not projected unchanged onto all fossil pterobranchs.",
+    "confidence": "high",
+    "confidenceRationale": "Feeding currents and particle capture were observed directly in a living species. High confidence is species- and behaviour-specific and does not erase ecological evolution across the fossil radiation.",
+    "reviewedBy": "Evo Atlas maintainer primary-source audit",
+    "reviewedAt": "2026-08-30",
+    "reviewedAgainstReferenceVersion": "Yang et al. 2025 DOI 10.1186/s13358-025-00406-0",
+    "referenceLinks": [
+      {
+        "referenceId": "halanych-1993-rhabdopleura-feeding",
+        "relation": "supports",
+        "pages": "417–427",
+        "figure": "Figures 1–8",
+        "quoteLocator": "Rhabdopleura normani observations; Figures 1–8"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:pterobranchia:morphology",
+    "subjectId": "taxon:pterobranchia",
+    "claimKind": "scientific",
+    "claimType": "morphology",
+    "statement": "Yunotubus preserves colonial zooids connected by a stolon inside fusellar tubes, whereas living Rhabdopleura supplies direct tentacle and ciliary anatomy; the traits come from different sampled taxa and times.",
+    "confidence": "high",
+    "confidenceRationale": "The cited studies image the listed structures directly, yielding high confidence in their occurrence. They do not establish that every structure was invariant throughout Pterobranchia history.",
+    "reviewedBy": "Evo Atlas maintainer primary-source audit",
+    "reviewedAt": "2026-08-30",
+    "reviewedAgainstReferenceVersion": "Yang et al. 2025 DOI 10.1186/s13358-025-00406-0",
+    "referenceLinks": [
+      {
+        "referenceId": "yang-2025-yunotubus",
+        "relation": "supports",
+        "figure": "Figures 2–5",
+        "quoteLocator": "Systematic palaeontology and preserved colony anatomy"
+      },
+      {
+        "referenceId": "halanych-1993-rhabdopleura-feeding",
+        "relation": "supports",
+        "pages": "417–427",
+        "figure": "Figures 2–8",
+        "quoteLocator": "Living tentacle and ciliary anatomy"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:tyrannosaurus:fossil-range",
+    "subjectId": "taxon:tyrannosaurus",
+    "claimKind": "scientific",
+    "claimType": "fossil-range",
+    "statement": "Measured Hell Creek occurrences place Tyrannosaurus in latest Maastrichtian strata up to the K–Pg boundary; the 68–66 Ma atlas envelope is rounded and does not claim a global genus origination at 68 Ma.",
+    "confidence": "medium",
+    "confidenceRationale": "Specimen positions within the Hell Creek section and the independently dated boundary are direct, but formation-wide sampling cannot guarantee the genus FAD; medium confidence marks the rounded envelope.",
+    "reviewedBy": "Evo Atlas maintainer primary-source audit",
+    "reviewedAt": "2026-08-30",
+    "reviewedAgainstReferenceVersion": "Horner et al. 2011 DOI 10.1371/journal.pone.0016574",
+    "referenceLinks": [
+      {
+        "referenceId": "horner-2011-hell-creek-dinosaur-census",
+        "relation": "supports",
+        "quoteLocator": "Figure 1; Tables 1 and S1–S6; locality census"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:tyrannosaurus:biogeography",
+    "subjectId": "taxon:tyrannosaurus",
+    "claimKind": "scientific",
+    "claimType": "biogeography",
+    "statement": "Tyrannosaurus specimens are documented in western North American latest Maastrichtian formations; broader dispersal routes inferred for tyrannosaurids remain model-dependent and are not treated as direct Tyrannosaurus movements.",
+    "confidence": "medium",
+    "confidenceRationale": "Localities directly support western North American occurrence, whereas ancestral-area reconstruction depends on topology and area coding; medium confidence separates observation from route inference.",
+    "reviewedBy": "Evo Atlas maintainer primary-source audit",
+    "reviewedAt": "2026-08-30",
+    "reviewedAgainstReferenceVersion": "Horner et al. 2011 DOI 10.1371/journal.pone.0016574",
+    "referenceLinks": [
+      {
+        "referenceId": "horner-2011-hell-creek-dinosaur-census",
+        "relation": "supports",
+        "figure": "Figure 1",
+        "quoteLocator": "Locality and stratigraphic census"
+      },
+      {
+        "referenceId": "loewen-2013-tyrannosaur-biogeography",
+        "relation": "contextualizes",
+        "figure": "Figures 1–8",
+        "quoteLocator": "Event-based biogeographic analyses"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:tyrannosaurus:taxonomy",
+    "subjectId": "taxon:tyrannosaurus",
+    "claimKind": "scientific",
+    "claimType": "taxonomy",
+    "statement": "A multi-institution growth series documents substantial ontogenetic cranial variation within referred Tyrannosaurus rex specimens, but ontogenetic assignment and synonymy remain analytical decisions rather than directly observed life histories.",
+    "confidence": "medium",
+    "confidenceRationale": "Many scored specimens provide repeatable anatomy, but sequence ordering and taxonomic referral are interpretive. Medium confidence reflects that asymmetry without discarding the observations.",
+    "reviewedBy": "Evo Atlas maintainer primary-source audit",
+    "reviewedAt": "2026-08-30",
+    "reviewedAgainstReferenceVersion": "Horner et al. 2011 DOI 10.1371/journal.pone.0016574",
+    "referenceLinks": [
+      {
+        "referenceId": "horner-2011-hell-creek-dinosaur-census",
+        "relation": "supports",
+        "quoteLocator": "Tables 1–16; Figures 1–19; Materials and Methods"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:tyrannosaurus:ecology",
+    "subjectId": "taxon:tyrannosaurus",
+    "claimKind": "scientific",
+    "claimType": "ecology",
+    "statement": "Tyrannosaurus tooth marks and coprolite contents directly demonstrate bone consumption, while prey choice, population density, bite force and tooth pressure remain separate behavioural or mechanical inferences.",
+    "confidence": "high",
+    "confidenceRationale": "Bone modification and embedded or ingested material directly establish osteophagy. High confidence is confined to consumption evidence and does not elevate demographic or performance models to observations.",
+    "reviewedBy": "Evo Atlas maintainer primary-source audit",
+    "reviewedAt": "2026-08-30",
+    "reviewedAgainstReferenceVersion": "Horner et al. 2011 DOI 10.1371/journal.pone.0016574",
+    "referenceLinks": [
+      {
+        "referenceId": "gignac-2017-tyrannosaurus-osteophagy",
+        "relation": "supports",
+        "figure": "Figures 1–4",
+        "quoteLocator": "Gignac 2017 Figures 1–4; Results; supplementary measurements"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:tyrannosaurus:morphology",
+    "subjectId": "taxon:tyrannosaurus",
+    "claimKind": "scientific",
+    "claimType": "morphology",
+    "statement": "Robust cranial and dental anatomy and two-fingered forelimbs are repeatedly preserved, while the cited growth series shows that several skull proportions change across assigned ontogenetic stages.",
+    "confidence": "high",
+    "confidenceRationale": "Repeated specimen anatomy supports the listed structures with high confidence; the exact growth trajectory remains dependent on referral and stage ordering rather than a tracked individual.",
+    "reviewedBy": "Evo Atlas maintainer primary-source audit",
+    "reviewedAt": "2026-08-30",
+    "reviewedAgainstReferenceVersion": "Horner et al. 2011 DOI 10.1371/journal.pone.0016574",
+    "referenceLinks": [
+      {
+        "referenceId": "horner-2011-hell-creek-dinosaur-census",
+        "relation": "supports",
+        "quoteLocator": "Carr Tables 1–16; Figures 1–19; character descriptions"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:archaeopteryx:fossil-range",
+    "subjectId": "taxon:archaeopteryx",
+    "claimKind": "scientific",
+    "claimType": "fossil-range",
+    "statement": "The Painten specimen extends referred Archaeopteryx material into the earliest Tithonian; the 150–148 Ma atlas interval is a formation- and specimen-bounded envelope, not the origin of Avialae or crown birds.",
+    "confidence": "medium",
+    "confidenceRationale": "A referred specimen and geological setting directly support the extension, but numerical endpoints summarize correlated horizons and referral is taxonomic; medium confidence prevents a false exact FAD.",
+    "reviewedBy": "Evo Atlas maintainer primary-source audit",
+    "reviewedAt": "2026-08-30",
+    "reviewedAgainstReferenceVersion": "Rauhut et al. 2018 DOI 10.7717/peerj.4191",
+    "referenceLinks": [
+      {
+        "referenceId": "rauhut-2018-oldest-archaeopteryx",
+        "relation": "supports",
+        "quoteLocator": "Geological setting; Systematic palaeontology; Figures 1–5; Table 1"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:archaeopteryx:biogeography",
+    "subjectId": "taxon:archaeopteryx",
+    "claimKind": "scientific",
+    "claimType": "biogeography",
+    "statement": "All securely referred Archaeopteryx specimens discussed here come from Late Jurassic Bavarian lithographic limestones; that observed concentration does not demonstrate global absence elsewhere.",
+    "confidence": "high",
+    "confidenceRationale": "Named specimens and quarries directly establish the Bavarian record. High confidence concerns occurrence locations only and explicitly avoids an absence or endemism claim.",
+    "reviewedBy": "Evo Atlas maintainer primary-source audit",
+    "reviewedAt": "2026-08-30",
+    "reviewedAgainstReferenceVersion": "Rauhut et al. 2018 DOI 10.7717/peerj.4191",
+    "referenceLinks": [
+      {
+        "referenceId": "rauhut-2018-oldest-archaeopteryx",
+        "relation": "supports",
+        "quoteLocator": "Geological setting; Figure 1; specimen and locality catalogue"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:archaeopteryx:taxonomy",
+    "subjectId": "taxon:archaeopteryx",
+    "claimKind": "scientific",
+    "claimType": "taxonomy",
+    "statement": "Archaeopteryx is a Late Jurassic avialan outside crown Neornithes; substantial anatomical variation among referred specimens does not make it the direct ancestor of living birds.",
+    "confidence": "high",
+    "confidenceRationale": "Specimen anatomy and repeated phylogenetic placement support avialan affinity, while crown definition excludes the genus. High confidence applies to that scope, not to one immutable internal avialan topology.",
+    "reviewedBy": "Evo Atlas maintainer primary-source audit",
+    "reviewedAt": "2026-08-30",
+    "reviewedAgainstReferenceVersion": "Rauhut et al. 2018 DOI 10.7717/peerj.4191",
+    "referenceLinks": [
+      {
+        "referenceId": "rauhut-2018-oldest-archaeopteryx",
+        "relation": "supports",
+        "quoteLocator": "Systematic palaeontology; phylogenetic discussion; Table 1"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:archaeopteryx:ecology",
+    "subjectId": "taxon:archaeopteryx",
+    "claimKind": "scientific",
+    "claimType": "ecology",
+    "statement": "Wing-bone geometry is compatible with short-burst active flight in comparative models, but the evidence does not directly observe behaviour, endurance or a modern crown-bird flight stroke.",
+    "confidence": "medium",
+    "confidenceRationale": "Synchrotron cross-sections provide direct geometry, while locomotor category comes from comparison with living birds. Medium confidence preserves that model boundary.",
+    "reviewedBy": "Evo Atlas maintainer primary-source audit",
+    "reviewedAt": "2026-08-30",
+    "reviewedAgainstReferenceVersion": "Rauhut et al. 2018 DOI 10.7717/peerj.4191",
+    "referenceLinks": [
+      {
+        "referenceId": "voeten-2018-archaeopteryx-flight",
+        "relation": "supports",
+        "figure": "Figures 1–4",
+        "quoteLocator": "Voeten Figures 1–4; comparative bone-geometry analysis; Supplementary Data 1–2"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:archaeopteryx:morphology",
+    "subjectId": "taxon:archaeopteryx",
+    "claimKind": "scientific",
+    "claimType": "morphology",
+    "statement": "Referred Archaeopteryx skeletons preserve toothed jaws, a long bony tail and feather associations, while wing-bone cross-sections differ from those of specialized soaring birds.",
+    "confidence": "high",
+    "confidenceRationale": "The listed hard-tissue and feather associations are specimen observations, and synchrotron sections are repeatable measurements. High confidence does not assign one flight performance to every specimen.",
+    "reviewedBy": "Evo Atlas maintainer primary-source audit",
+    "reviewedAt": "2026-08-30",
+    "reviewedAgainstReferenceVersion": "Rauhut et al. 2018 DOI 10.7717/peerj.4191",
+    "referenceLinks": [
+      {
+        "referenceId": "rauhut-2018-oldest-archaeopteryx",
+        "relation": "supports",
+        "figure": "Figures 2–32",
+        "quoteLocator": "Specimen description"
+      },
+      {
+        "referenceId": "voeten-2018-archaeopteryx-flight",
+        "relation": "supports",
+        "figure": "Figures 1–3",
+        "quoteLocator": "Synchrotron cross-sections"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:neornithes:fossil-range",
+    "subjectId": "taxon:neornithes",
+    "claimKind": "scientific",
+    "claimType": "fossil-range",
+    "statement": "Vegavis AMNH FARB 30899 from 69.2–68.4 Ma supplies the oldest highlighted crown-bird test in this atlas, but its crown-waterfowl membership is a 2025 matrix result and therefore the 69.2 Ma Neornithes range remains topology-dependent.",
+    "confidence": "medium",
+    "confidenceRationale": "The specimen age is stratigraphically constrained and its skull is directly imaged, but crown membership changed among published analyses. Medium confidence links the range explicitly to the current topology hypothesis.",
+    "reviewedBy": "Evo Atlas maintainer primary-source audit",
+    "reviewedAt": "2026-08-30",
+    "reviewedAgainstReferenceVersion": "Torres et al. 2025 DOI 10.1038/s41586-024-08390-0",
+    "referenceLinks": [
+      {
+        "referenceId": "torres-2025-vegavis-skull",
+        "relation": "supports",
+        "quoteLocator": "146–151; Figures 1–4; age statement; phylogenetic analyses"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:neornithes:biogeography",
+    "subjectId": "taxon:neornithes",
+    "claimKind": "scientific",
+    "claimType": "biogeography",
+    "statement": "The highlighted Maastrichtian crown-bird candidates occur in Antarctica and Europe, whereas living Neornithes are global; these endpoints do not reconstruct a complete Cretaceous distribution or center of origin.",
+    "confidence": "medium",
+    "confidenceRationale": "Named fossil localities and living global distribution are secure at their respective times, but the sparse Cretaceous sample cannot identify an ancestral area. Medium confidence marks that sampling gap.",
+    "reviewedBy": "Evo Atlas maintainer primary-source audit",
+    "reviewedAt": "2026-08-30",
+    "reviewedAgainstReferenceVersion": "Torres et al. 2025 DOI 10.1038/s41586-024-08390-0",
+    "referenceLinks": [
+      {
+        "referenceId": "torres-2025-vegavis-skull",
+        "relation": "supports",
+        "pages": "146–151",
+        "figure": "Figure 1",
+        "quoteLocator": "Age and locality statement"
+      },
+      {
+        "referenceId": "field-2020-asteriornis",
+        "relation": "supports",
+        "pages": "397–401",
+        "quoteLocator": "Geological setting"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:neornithes:taxonomy",
+    "subjectId": "taxon:neornithes",
+    "claimKind": "scientific",
+    "claimType": "taxonomy",
+    "statement": "Neornithes is the crown defined by the common ancestor of living birds and all descendants; Archaeopteryx is outside that crown, while Vegavis and Asteriornis require explicit fossil-placement analyses.",
+    "confidence": "high",
+    "confidenceRationale": "The crown definition and exclusion of Archaeopteryx are stable at this scope. High confidence does not convert contested Cretaceous placements into directly observed membership.",
+    "reviewedBy": "Evo Atlas maintainer primary-source audit",
+    "reviewedAt": "2026-08-30",
+    "reviewedAgainstReferenceVersion": "Torres et al. 2025 DOI 10.1038/s41586-024-08390-0",
+    "referenceLinks": [
+      {
+        "referenceId": "torres-2025-vegavis-skull",
+        "relation": "supports",
+        "pages": "146–151",
+        "figure": "Figure 4",
+        "quoteLocator": "Introduction and phylogenetic analyses"
+      },
+      {
+        "referenceId": "field-2020-asteriornis",
+        "relation": "contextualizes",
+        "pages": "397–401",
+        "quoteLocator": "Phylogenetic analyses"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:neornithes:ecology",
+    "subjectId": "taxon:neornithes",
+    "claimKind": "scientific",
+    "claimType": "ecology",
+    "statement": "Neornithes has no single crown-wide ecology; the narrow beak, enlarged jaw-muscle attachment and skull of Vegavis support underwater prey capture for that fossil only.",
+    "confidence": "medium",
+    "confidenceRationale": "Vegavis feeding anatomy is directly preserved, while functional analogy uses living divers. Medium confidence prevents a single fossil ecology from becoming a crown-wide ancestral state.",
+    "reviewedBy": "Evo Atlas maintainer primary-source audit",
+    "reviewedAt": "2026-08-30",
+    "reviewedAgainstReferenceVersion": "Torres et al. 2025 DOI 10.1038/s41586-024-08390-0",
+    "referenceLinks": [
+      {
+        "referenceId": "torres-2025-vegavis-skull",
+        "relation": "supports",
+        "quoteLocator": "Figures 1–3; functional comparisons of feeding apparatus"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:neornithes:morphology",
+    "subjectId": "taxon:neornithes",
+    "claimKind": "scientific",
+    "claimType": "morphology",
+    "statement": "Vegavis AMNH FARB 30899 preserves a toothless reduced-maxilla beak, hyperinflated cerebrum and specialized jaw apparatus, while Asteriornis preserves a different Maastrichtian galloanseran character combination.",
+    "confidence": "high",
+    "confidenceRationale": "CT reconstruction directly documents the Vegavis structures and the Asteriornis holotype provides an independent character mosaic. High confidence concerns morphology, not identical crown placement.",
+    "reviewedBy": "Evo Atlas maintainer primary-source audit",
+    "reviewedAt": "2026-08-30",
+    "reviewedAgainstReferenceVersion": "Torres et al. 2025 DOI 10.1038/s41586-024-08390-0",
+    "referenceLinks": [
+      {
+        "referenceId": "torres-2025-vegavis-skull",
+        "relation": "supports",
+        "pages": "146–151",
+        "figure": "Figures 1–4",
+        "quoteLocator": "AMNH FARB 30899 description"
+      },
+      {
+        "referenceId": "field-2020-asteriornis",
+        "relation": "contextualizes",
+        "pages": "397–401",
+        "figure": "Figures 1–4",
+        "quoteLocator": "NHMM 2013 008 description"
+      }
+    ]
+  },
+  {
+    "id": "claim:event:vegavis-skull-crown-test",
+    "subjectId": "event:vegavis-skull-crown-test",
+    "claimKind": "scientific",
+    "claimType": "topology",
+    "statement": "The 69.2–68.4 Ma skull AMNH FARB 30899 supports placement of Vegavis among crown waterfowl in the 2025 combined analysis, but earlier analyses recovered stem-anatid, stem-anseriform or outside-Aves positions, so crown membership remains a scoped hypothesis.",
+    "confidence": "medium",
+    "confidenceRationale": "The age and nearly complete skull are direct observations, and the new matrix supplies explicit support for waterfowl affinity. Medium confidence retains the published history of conflicting placements and does not turn one topology into observed ancestry.",
+    "reviewedBy": "Evo Atlas maintainer primary-source audit",
+    "reviewedAt": "2026-08-30",
+    "reviewedAgainstReferenceVersion": "Torres et al. 2025 DOI 10.1038/s41586-024-08390-0",
+    "referenceLinks": [
+      {
+        "referenceId": "torres-2025-vegavis-skull",
+        "relation": "supports",
+        "pages": "146–151",
+        "figure": "Figures 1–4",
+        "quoteLocator": "Abstract; phylogenetic relationships; Methods; Dryad matrix"
       }
     ]
   }

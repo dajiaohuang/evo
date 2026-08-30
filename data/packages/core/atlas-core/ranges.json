@@ -89,31 +89,29 @@
     "id": "range:pterobranchia:global",
     "entityId": "pterobranchia",
     "rangeKind": "global-composite",
-    "taxonomicConcept": "Pterobranchia",
-    "geographicScope": "Global or represented navigation composite",
-    "olderMa": 530,
+    "taxonomicConcept": "Pterobranchia, with Yunotubus as the directly documented fossil minimum",
+    "geographicScope": "Global living lineage; direct fossil anchor at the Xiaoshiba Lagerstätte, Yunnan, China",
+    "olderMa": 516,
     "youngerMa": 0,
     "status": "available",
     "uncertainty": {
-      "olderMa": null,
-      "youngerMa": null,
-      "note": "Endpoints are sampling-dependent display bounds unless a scoped claim states otherwise."
+      "olderMa": 518,
+      "youngerMa": 0,
+      "note": "516 Ma is the rounded age of the diagnostic Yunotubus occurrence, not the origin of Pterobranchia; older fragmentary candidates are not used as a secure endpoint."
     },
-    "evidenceBasis": "First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.",
+    "evidenceBasis": "Five Yunotubus specimens from Cambrian Stage 3 preserve fusellar tubes, zooids and a stolon; living pterobranchs establish survival to the present.",
+    "evidenceLevel": "literature-synthesized",
     "confidence": "medium",
-    "claimIds": [],
+    "claimIds": [
+      "claim:taxon:pterobranchia:fossil-range"
+    ],
     "referenceLocators": [
       {
-        "referenceId": "open-tree",
-        "locator": "https://opentreeoflife.github.io/use"
-      },
-      {
-        "referenceId": "pbdb-api-2016",
-        "locator": "doi:10.1017/pab.2015.39"
+        "referenceId": "yang-2025-yunotubus",
+        "locator": "Figures 1–5; Geological setting; Systematic palaeontology; phylogenetic analyses"
       }
     ],
-    "reviewStatus": "not-reviewed",
-    "evidenceLevel": "legacy-display"
+    "reviewStatus": "automated-audit-passed"
   },
   {
     "id": "range:vertebrata:global",

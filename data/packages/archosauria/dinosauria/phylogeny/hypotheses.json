@@ -1,0 +1,138 @@
+{
+  "schemaVersion": 1,
+  "packageId": "dinosauria",
+  "limitations": [
+    "These two trees reproduce the scoped root arrangements recovered by the cited morphology-matrix analyses; neither is the global navigation hierarchy or a claim of direct ancestry.",
+    "Character rescoring, outgroup choice and taxon sampling alter the root, so branch lengths and displayed temporal ranges must not be interpreted as support values or divergence times.",
+    "The trees stop at the three sampled major lineages and do not duplicate Avialae or crown-bird content owned by crocodylomorphs-birds."
+  ],
+  "hypotheses": [
+    {
+      "schemaVersion": 1,
+      "id": "phylogeny:dinosauria-ornithoscelida-baron-2017",
+      "label": "Baron et al. (2017) Ornithoscelida root hypothesis",
+      "scopeNodeId": "dinosauria",
+      "referenceIds": [
+        "baron-2017-dinosaur-relationships"
+      ],
+      "claimIds": [
+        "claim:event:dinosaur-radiation"
+      ],
+      "note": "A compact projection of the 74-taxon, 457-character matrix result. It records Theropoda plus Ornithischia as Ornithoscelida and does not reproduce every sampled terminal or character.",
+      "root": {
+        "id": "dinosauria",
+        "name": "Dinosauria",
+        "extinct": false,
+        "children": [
+          {
+            "id": "saurischia-baron-2017",
+            "name": "Saurischia sensu Baron et al. 2017",
+            "firstAppearance": 233.2,
+            "lastAppearance": 66,
+            "extinct": true,
+            "children": [
+              {
+                "id": "sauropodomorpha",
+                "name": "Sauropodomorpha",
+                "extinct": true,
+                "children": [],
+                "firstAppearance": 233.2,
+                "lastAppearance": 66
+              },
+              {
+                "id": "herrerasauridae-baron-2017",
+                "name": "Herrerasauridae (matrix terminal)",
+                "firstAppearance": 233.2,
+                "lastAppearance": 228,
+                "extinct": true,
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "ornithoscelida-baron-2017",
+            "name": "Ornithoscelida",
+            "firstAppearance": 233.2,
+            "lastAppearance": 0,
+            "extinct": false,
+            "children": [
+              {
+                "id": "ornithischia",
+                "name": "Ornithischia",
+                "extinct": true,
+                "children": [],
+                "firstAppearance": 228,
+                "lastAppearance": 66
+              },
+              {
+                "id": "theropoda",
+                "name": "Theropoda",
+                "extinct": false,
+                "children": [],
+                "firstAppearance": 228,
+                "lastAppearance": 0
+              }
+            ]
+          }
+        ],
+        "firstAppearance": 233.2,
+        "lastAppearance": 0
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "phylogeny:dinosauria-saurischia-langer-2017",
+      "label": "Langer et al. (2017) classical Saurischia reanalysis",
+      "scopeNodeId": "dinosauria",
+      "referenceIds": [
+        "langer-2017-dinosaur-tree-reanalysis"
+      ],
+      "claimIds": [
+        "claim:event:dinosaur-radiation"
+      ],
+      "note": "A compact projection of the rescored and taxon-expanded analysis that recovered Ornithischia opposite a monophyletic Saurischia. It is an alternative matrix result, not the atlas default tree.",
+      "root": {
+        "id": "dinosauria",
+        "name": "Dinosauria",
+        "extinct": false,
+        "children": [
+          {
+            "id": "ornithischia",
+            "name": "Ornithischia",
+            "extinct": true,
+            "children": [],
+            "firstAppearance": 228,
+            "lastAppearance": 66
+          },
+          {
+            "id": "saurischia",
+            "name": "Saurischia",
+            "extinct": false,
+            "children": [
+              {
+                "id": "sauropodomorpha",
+                "name": "Sauropodomorpha",
+                "extinct": true,
+                "children": [],
+                "firstAppearance": 233.2,
+                "lastAppearance": 66
+              },
+              {
+                "id": "theropoda",
+                "name": "Theropoda",
+                "extinct": false,
+                "children": [],
+                "firstAppearance": 228,
+                "lastAppearance": 0
+              }
+            ],
+            "firstAppearance": 233.2,
+            "lastAppearance": 0
+          }
+        ],
+        "firstAppearance": 233.2,
+        "lastAppearance": 0
+      }
+    }
+  ]
+}

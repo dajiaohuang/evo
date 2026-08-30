@@ -1,5 +1,5 @@
 export const PACKAGE_SCHEMA_VERSION = 5
-export const DATASET_PACKAGE_VERSION = '2026.08-static-v5-rc34'
+export const DATASET_PACKAGE_VERSION = '2026.08-static-v5-rc35'
 export const DATASET_RELEASE_DATE = '2026-08-30'
 
 export const packageDefinitions = [
@@ -9,6 +9,10 @@ export const packageDefinitions = [
     title: 'Atlas Core Navigation',
     titleZh: '图谱核心导航',
     rootEntityIds: ['life', 'invertebrata', 'vertebrata', 'gnathostomata', 'osteichthyes', 'tetrapoda', 'amniota', 'sauropsida', 'archosauria', 'placentalia'],
+    conceptScope: {
+      en: 'Atlas-wide navigation plus a nine-step chronology tutorial that separates directly dated minerals and measured strata from proxy, correlation and causal interpretation. Great Oxidation, Avalon Ediacaran, end-Permian and K–Pg anchors now carry primary geochronology locators; broad Cambrian, Ordovician, Triassic, PETM and Quaternary syntheses remain labelled as syntheses. A Pterobranchia profile uses the diagnostic 516 Ma Yunotubus occurrence as a fossil minimum rather than a clade-origin date. COL26.8 accepted-species routing remains complete across the dedicated content packages.',
+      zh: '提供全图谱导航与九步年代教程，严格区分直接测年的矿物和实测地层、代用指标、地层对比及因果解释。大氧化、阿瓦隆埃迪卡拉生物群、二叠纪末和 K–Pg 锚点现均带一手年代学定位；寒武纪、奥陶纪、三叠纪、PETM 和第四纪的宽尺度论述仍明确标为综合。羽鳃纲档案以约 5.16 亿年前的诊断性 Yunotubus 出现记录作为化石最小年龄，而非类群起源时间。COL26.8 已接受物种仍完整路由到各专属内容包。',
+    },
     wave: 'core',
     scientificMaturity: 'structured',
   },
@@ -373,8 +377,8 @@ export const packageDefinitions = [
     titleZh: '鳄形类与鸟类',
     rootEntityIds: ['crocodylomorpha', 'aves'],
     conceptScope: {
-      en: 'Eleven primary-evidence dossiers compare crocodile-line and bird-line archosaurs without merging their histories: named pseudosuchian, crocodylomorph and paravian specimens; bounded feather and aerodynamic evidence; and explicit crown-crocodilian or crown-bird topology and clock models. Five navigation nodes support dossier discovery without asserting direct ancestry or global first appearances. COL26.8 routes 11,071 strictly accepted living species names into the package; that is nomenclatural browse coverage rather than 11,071 reviewed fossil, anatomical or phylogenetic dossiers.',
-      zh: '十一个一手证据档案比较鳄类支系与鸟类支系主龙而不混并其历史：具名伪鳄类、鳄形类与近鸟类标本，边界明确的羽毛和气动证据，以及冠群鳄或冠群鸟的拓扑与时钟模型。五个导航节点服务于档案发现，但不主张直系祖先或全球首现。COL26.8 将 11,071 个严格接受的现生种名路由到本包；这是命名浏览覆盖，并非 11,071 份已审查化石、解剖或系统发育档案。',
+      en: 'Twelve primary-evidence dossiers compare crocodile-line and bird-line archosaurs without merging their histories. Archaeopteryx is explicitly outside crown Neornithes; the 69.2–68.4 Ma Vegavis skull is a separate, topology-dependent crown-waterfowl test, and younger Asteriornis remains an independent near-crown analysis. Package-specific Archaeopteryx and Neornithes profiles link every displayed field to claims and literature-bounded ranges. Six curated navigation nodes support discovery without asserting direct ancestry or global first appearances. COL26.8 still routes exactly 11,071 strictly accepted living species names into the package as nomenclatural browse coverage.',
+      zh: '十二个一手证据档案比较鳄类支系与鸟类支系主龙而不混并其历史。始祖鸟被明确置于今鸟类冠群之外；6920–6840 万年前的 Vegavis 头骨作为独立且依赖拓扑的冠群水禽测试，更年轻的 Asteriornis 则保持为另一项近冠群分析。始祖鸟与今鸟类专属档案把每个显示字段连接到主张和文献限定延限。六个策展导航节点服务于发现而不主张直系祖先或全球首现。COL26.8 仍把恰好 11,071 个严格接受的现生种名路由到本包，作为命名浏览覆盖。',
     },
     wave: 'B',
     scientificMaturity: 'structured',
@@ -386,8 +390,8 @@ export const packageDefinitions = [
     titleZh: '恐龙',
     rootEntityIds: ['dinosauria'],
     conceptScope: {
-      en: 'Twelve primary-evidence dossiers separate competing early-dinosaur morphology matrices, named Triassic–Cretaceous specimens, ontogenetic and biomechanical models, histology and taphonomy. Navigation routes are not an ancestor ladder or a claim of global first appearances. Avialae, flight evidence and the 11,071 COL26.8 living-bird names remain owned by crocodylomorphs-birds; Dinosauria therefore has structured non-avian fossil content but zero separately owned living COL species. The two bundled PBDB rows are a bounded non-random API-prefix sample and cannot establish a FAD, absence or diversity curve.',
-      zh: '十二个一手证据档案严格区分竞争性的早期恐龙形态矩阵、三叠纪至白垩纪具名标本、个体发育与生物力学模型、组织学及埋藏学。导航路径不是祖先阶梯，也不声称全球首现。鸟翼类、飞行证据与 COL26.8 的 11,071 个现生鸟类名称继续由 crocodylomorphs-birds 包负责；因此 Dinosauria 拥有结构化的非鸟恐龙化石内容，但没有单独归属的现生 COL 物种。包内两条 PBDB 记录只是有界、非随机的 API 前缀样本，不能建立首现、缺失或多样性曲线。',
+      en: 'Twelve primary-evidence dossiers separate competing early-dinosaur morphology matrices, named Triassic–Cretaceous specimens, ontogenetic and biomechanical models, histology and taphonomy. Baron et al. Ornithoscelida and Langer et al. traditional Saurischia are now shipped as two explicitly scoped, competing topology hypotheses rather than a false consensus. A Tyrannosaurus profile links every displayed field and the rounded 68–66 Ma range to primary claims. Avialae, flight evidence and the 11,071 COL26.8 living-bird names remain owned by crocodylomorphs-birds; Dinosauria therefore keeps zero separately owned living COL species.',
+      zh: '十二个一手证据档案严格区分竞争性的早期恐龙形态矩阵、三叠纪至白垩纪具名标本、个体发育与生物力学模型、组织学及埋藏学。Baron 等人的鸟臀—兽脚组合假说与 Langer 等人的传统蜥臀类假说现作为两个范围明确、彼此竞争的拓扑发布，而不是伪造共识。霸王龙专属档案把每个显示字段及舍入的 6800–6600 万年前延限连接到一手主张。鸟翼类、飞行证据和 COL26.8 的 11,071 个现生鸟名仍归 crocodylomorphs-birds 所有，因此 Dinosauria 继续不单独占有现生 COL 物种。',
     },
     limitations: [
       'Baron et al. (2017) and Langer et al. (2017) are competing morphology-matrix results. The atlas navigation does not choose a universal Dinosauria root topology, definition or direct ancestor chain.',

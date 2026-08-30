@@ -1,6 +1,6 @@
 {
   "language": "zh",
-  "version": "2026.08-static-v5-rc34",
+  "version": "2026.08-static-v5-rc35",
   "strings": {
     "entity.life.name": "地球生命",
     "entity.invertebrata.name": "无脊椎动物",
@@ -14,17 +14,23 @@
     "entity.placentalia.name": "胎盘类哺乳动物",
     "entity.sauropsida.name": "爬行动物与鸟类",
     "entity.archosauria.name": "主龙类",
-    "claim.claim:event:great-oxidation.confidenceRationale": "高置信度源于所引同行评议综述整合了多套相互独立的同位素与氧化还原代用指标；本声明仅主张阶段性增氧，不指定唯一日期或单一诱因。",
-    "claim.claim:event:ediacaran-biota.confidenceRationale": "高置信度适用于综述汇总的、跨地域反复出现的化石组合；个别生物的系统归属仍有争议，这一不确定性已保留在声明中。",
+    "profile.pterobranchia.name": "羽鳃类",
+    "claim.claim:event:great-oxidation.confidenceRationale": "一手 U–Pb 测年把大氧化事件起始约束在约 24.60–24.26 亿年前，综合代用指标则说明变化是分阶段的；高置信度不等于存在单一全球氧阈值或唯一触发机制。",
+    "claim.claim:event:ediacaran-biota.confidenceRationale": "高精度锆石测年和实测地层顺序牢固约束纽芬兰剖面；高置信度仅适用于区域层位，并不把约 5.71 亿年前误写成动物起源或全球首现。",
     "claim.claim:event:cambrian-radiation.confidenceRationale": "高置信度来自特殊化石库、小壳化石、遗迹化石与系统发育时间信息的相互印证；声明明确区分了较早的谱系分化与较晚的生态扩张。",
     "claim.claim:event:ordovician-biodiversification.confidenceRationale": "高置信度对应综述记录的多支系分类、生态和生物地理重组；声明不把事件归结为单一原因，也不主张精确的全球统一速率。",
     "claim.claim:event:amniote-divergence.confidenceRationale": "中置信度表示主要的合弓类—蜥形类分裂较稳定，但若干早期羊膜动物的位置会随性状编码和系统分析而改变，单项研究不足以消除冲突。",
-    "claim.claim:event:end-permian-extinction.confidenceRationale": "高置信度仅适用于由高精度 U–Pb 年代和地层对应关系支持的持续时间约束，不延伸到对不同灭绝机制的取舍。",
+    "claim.claim:event:end-permian-extinction.confidenceRationale": "梅山剖面的高精度火山灰层测年与化石序列直接夹定主要灭绝区间；高置信度只覆盖该校准层序，全球生态表现和致因仍需独立证据。",
     "claim.claim:event:triassic-recovery.confidenceRationale": "高置信度来自来源对多个化石类群、环境和生态指标恢复时间的综合；局部轨迹没有被概括成单一的全球同步日期。",
-    "claim.claim:event:k-pg-extinction.confidenceRationale": "高置信度基于所引研究在多处界线重复发现的铱异常及其可检验的撞击机制；本账本并未声称所有生态响应都同时发生。",
+    "claim.claim:event:k-pg-extinction.confidenceRationale": "独立的边界黏土地球化学与高精度氩氩年代比较共同支持撞击—界线同步；高置信度不表示每个类群都在同一瞬间消失，也不消除区域辛格—利普斯效应。",
     "claim.claim:event:petm.confidenceRationale": "高置信度来自综述对海陆同位素、温度与生物记录的整合；声明只主张这些现象同时发生，不裁定碳源及每项响应之间的完整因果链。",
     "claim.claim:event:quaternary-megafauna-extinction.confidenceRationale": "中等置信度反映该全球比较中人类扩张的强关联，同时保留其较弱且主要集中于欧亚大陆的气候信号，以及区域年代序列的不确定性。",
     "claim.claim:event:k-pg-chicxulub.confidenceRationale": "高置信度来自综合撞击坑年代、喷出物、界线沉积与全球地层记录的研究，而不是把 1991 年后确认的撞击坑错误归入 1980 年铱异常论文。",
-    "claim.claim:event:k-pg-turnover.confidenceRationale": "高置信度适用于多套地层记录中界线尺度的化石更替与撞击喷出物关联；不同类群的灭绝和恢复模式仍具有异质性。"
+    "claim.claim:event:k-pg-turnover.confidenceRationale": "高置信度适用于多套地层记录中界线尺度的化石更替与撞击喷出物关联；不同类群的灭绝和恢复模式仍具有异质性。",
+    "claim.claim:taxon:pterobranchia:fossil-range.confidenceRationale": "五件标本在一个有年代约束的化石库中保存管体—匍匐茎组合；中等置信度把这一直接最小年龄与系统起源及更破碎的早期候选严格分开。",
+    "claim.claim:taxon:pterobranchia:biogeography.confidenceRationale": "化石地点和现生取样地点均是直接记录，但两个研究窗口不能重建连续的全球分布；中等置信度被有意限定在出现记录层面。",
+    "claim.claim:taxon:pterobranchia:taxonomy.confidenceRationale": "伴生软体与管状解剖支持鉴定，但拓扑依赖 24 类群、39 性状的分析；中等置信度保留诊断与分支位置的区别。",
+    "claim.claim:taxon:pterobranchia:ecology.confidenceRationale": "摄食水流和颗粒捕获在一个现生种中被直接观察；高置信度只针对该物种和行为，不抹平化石辐射中的生态演变。",
+    "claim.claim:taxon:pterobranchia:morphology.confidenceRationale": "两项研究直接成像所列结构，因此其存在具有高置信度；但这不证明这些结构在羽鳃类历史中始终不变。"
   }
 }

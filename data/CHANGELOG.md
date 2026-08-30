@@ -1,12 +1,20 @@
 # Dataset changelog
 
+## 2026.08-static-v5-rc35 — 2026-08-30
+
+- Added an Atlas Core chronology story with nine claim-linked steps and upgraded the Great Oxidation, Avalon Ediacaran, end-Permian and K–Pg anchors to direct primary geochronology or measured-stratigraphy evidence with precise figure, table and method locators. Broad Ordovician, Triassic, PETM and Quaternary references remain correctly labelled as syntheses.
+- Added package-specific Pterobranchia, Tyrannosaurus, Archaeopteryx and Neornithes profiles. Every displayed profile field is connected to a typed claim, and each principal range is literature-bounded instead of inheriting an unreviewed navigation estimate.
+- Published the Baron et al. Ornithoscelida and Langer et al. traditional Saurischia results as two explicitly scoped, competing Dinosauria topology hypotheses using the existing package phylogeny schema; the navigation tree is not promoted to either result.
+- Added the 69.2–68.4 Ma *Vegavis* skull as a topology-dependent crown-waterfowl test without fabricating a PBDB identifier. *Archaeopteryx* remains outside crown Neornithes, the historically contested *Vegavis* placement remains qualified, and younger *Asteriornis* remains an independent near-crown analysis.
+- Generalized existing package generation, runtime bundling and package validation so any package can publish one or more topology hypotheses through the established schema. All rc34 profiles and claims, onboarding and native tests, CAO documentation, the Web/Android/iOS complete-offline manifest and app version `0.20.0` remain intact.
+
 ## 2026.08-static-v5-rc34 — 2026-08-30
 
 - Added twelve primary-study taxon profiles across early fishes, chondrichthyans, actinopterygians and amphibians. Every visible profile field now projects to a typed claim, bilingual statement and confidence rationale with a concrete page, figure or section locator.
 - Added four navigation-only evidence routes and fourteen named fossil entities so *Priscomyzon*, *Myxinikela*, *Tethymyxine*, *Qianodus*, *Fanjingshania*, *Shenacanthus*, *Gladbachus*, *Cheirolepis*, *Fukangichthys*, *Gerobatrachus*, *Triadobatrachus*, *Funcusvermis*, *Beiyanerpeton* and *Ymboirana* can be reached directly without implying an ancestor ladder.
 - Replaced or supplemented legacy displays with literature-linked, claim-bound sample envelopes wherever the cited primary studies support the exact specimen or taxon concept. Clade-wide ranges without endpoint evidence remain explicitly legacy displays rather than being silently upgraded.
 - Added a dedicated three-step story comparing dissorophoid-temnospondyl, lepospondyl and stereospondyl-caecilian origin models for living amphibians. Support and contradiction links remain visible and no preferred origin topology is selected editorially.
-- Preserved all 2,183,133 COL26.8 accepted species assignments with zero unmatched and retained the shared static release path used by Web, Android and iOS; app version remains `0.19.0`.
+- Preserved all 2,183,133 COL26.8 accepted species assignments with zero unmatched and retained the shared static release path used by Web, Android and iOS; the subsequently merged native-shell release uses app version `0.20.0`.
 
 ## 2026.08-static-v5-rc32 — 2026-08-30
 

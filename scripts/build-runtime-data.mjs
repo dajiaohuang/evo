@@ -42,7 +42,6 @@ const publishedStories = stories.filter((story) => story.evidenceStatus === 'ava
 const places = readJson('data/places.json')
 const media = readJson('data/media.json')
 const calibrations = readJson('data/packages/mammalia/perissodactyla/phylogeny/calibrations.json')
-const perissodactylPhylogeny = readJson('data/packages/mammalia/perissodactyla/phylogeny/hypothesis.json')
 const periodMetadata = readJson('data/period-map-metadata.json')
 const paleogeographyProvenance = readJson('data/paleogeography/provenance.json')
 const occurrenceSource = readJson('data/sources/pbdb-occurrence-bundle.json')
@@ -225,6 +224,7 @@ function ownerForClaim(claim) {
     'microraptor-four-winged-holotype': 'crocodylomorphs-birds',
     'microraptor-wind-tunnel-model': 'crocodylomorphs-birds',
     'asteriornis-holotype-crown-placement': 'crocodylomorphs-birds',
+    'vegavis-skull-crown-test': 'crocodylomorphs-birds',
     'neoavian-genome-topology': 'crocodylomorphs-birds',
     'neornithes-fossil-calibrated-time-tree': 'crocodylomorphs-birds',
     'steropodon-holotype-monotreme': 'other-mammals',
@@ -383,6 +383,7 @@ for (const packageEntry of registry.packages) {
   if (!catalogueCoverageEntry) throw new Error(`Catalogue ownership is missing static package ${packageId}`)
   const packageReview = evaluatePackageReview(packageId)
   const packageQueryLedger = readJson(`${packageEntry.canonicalPath}/query-ledger.json`)
+  const packagePhylogenyStatus = readJson(`${packageEntry.canonicalPath}/phylogeny/status.json`)
   const packageEntities = entities.filter((entity) => entity.packageId === packageId)
   const packageProfiles = profiles.filter((profile) => entityById.get(profile.treeNodeId)?.packageId === packageId)
   const packageClaims = claims.filter((claim) => ownerForClaim(claim) === packageId)
@@ -413,6 +414,9 @@ for (const packageEntry of registry.packages) {
     ]),
   })
   payloadFiles.queryLedger = writeGzipJson(`packages/${packageId}/query-ledger.json.gz`, packageQueryLedger)
+  if (packagePhylogenyStatus.status === 'available') {
+    payloadFiles.phylogeny = writeGzipJson(`packages/${packageId}/phylogeny.json.gz`, readJson(`${packageEntry.canonicalPath}/${packagePhylogenyStatus.topologyPath}`))
+  }
   payloadFiles.search = writeGzipJson(`package-search-index/${packageId}.json.gz`, [
     ...packageEntities.map((entity) => ({ id: entity.id, kind: entity.entityKind, title: entity.names.scientific, titleEn: entity.names.en, titleZh: entity.names.zh, route: `#/explore?taxon=${encodeURIComponent(entity.id)}&view=tree`, terms: [entity.names.scientific, entity.names.en, entity.names.zh, ...entity.synonyms, entity.definition.en, entity.definition.zh] })),
     ...packageProfiles.map((profile) => ({ id: profile.id, kind: 'profile', packageId, title: profile.scientificName, titleEn: profile.commonName, titleZh: profile.commonNameZh, route: `#/taxa?id=${encodeURIComponent(profile.id)}`, terms: [profile.overview, profile.evidenceSummary, ...profile.traits] })),
@@ -420,7 +424,6 @@ for (const packageEntry of registry.packages) {
     ...packageReferences.map((reference) => ({ id: reference.id, kind: 'reference', title: reference.title, route: '#/data', terms: [reference.title, reference.authors, reference.doi, reference.url].filter(Boolean) })),
   ])
   if (packageId === 'perissodactyla') {
-    payloadFiles.phylogeny = writeGzipJson(`packages/${packageId}/phylogeny.json.gz`, perissodactylPhylogeny)
     payloadFiles.calibrations = writeGzipJson(`packages/${packageId}/calibrations.json.gz`, calibrations)
     payloadFiles.occurrenceSnapshot = writeGzipJson(`packages/${packageId}/occurrence-snapshot-v2.json.gz`, perissodactylaOccurrenceSnapshot)
   }

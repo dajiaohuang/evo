@@ -1,12 +1,12 @@
 {
   "schemaVersion": 5,
   "id": "dinosauria",
-  "version": "2026.08-static-v5-rc34",
+  "version": "2026.08-static-v5-rc35",
   "title": "Dinosaurs",
   "titleZh": "恐龙",
   "conceptScope": {
-    "en": "Twelve primary-evidence dossiers separate competing early-dinosaur morphology matrices, named Triassic–Cretaceous specimens, ontogenetic and biomechanical models, histology and taphonomy. Navigation routes are not an ancestor ladder or a claim of global first appearances. Avialae, flight evidence and the 11,071 COL26.8 living-bird names remain owned by crocodylomorphs-birds; Dinosauria therefore has structured non-avian fossil content but zero separately owned living COL species. The two bundled PBDB rows are a bounded non-random API-prefix sample and cannot establish a FAD, absence or diversity curve.",
-    "zh": "十二个一手证据档案严格区分竞争性的早期恐龙形态矩阵、三叠纪至白垩纪具名标本、个体发育与生物力学模型、组织学及埋藏学。导航路径不是祖先阶梯，也不声称全球首现。鸟翼类、飞行证据与 COL26.8 的 11,071 个现生鸟类名称继续由 crocodylomorphs-birds 包负责；因此 Dinosauria 拥有结构化的非鸟恐龙化石内容，但没有单独归属的现生 COL 物种。包内两条 PBDB 记录只是有界、非随机的 API 前缀样本，不能建立首现、缺失或多样性曲线。"
+    "en": "Twelve primary-evidence dossiers separate competing early-dinosaur morphology matrices, named Triassic–Cretaceous specimens, ontogenetic and biomechanical models, histology and taphonomy. Baron et al. Ornithoscelida and Langer et al. traditional Saurischia are now shipped as two explicitly scoped, competing topology hypotheses rather than a false consensus. A Tyrannosaurus profile links every displayed field and the rounded 68–66 Ma range to primary claims. Avialae, flight evidence and the 11,071 COL26.8 living-bird names remain owned by crocodylomorphs-birds; Dinosauria therefore keeps zero separately owned living COL species.",
+    "zh": "十二个一手证据档案严格区分竞争性的早期恐龙形态矩阵、三叠纪至白垩纪具名标本、个体发育与生物力学模型、组织学及埋藏学。Baron 等人的鸟臀—兽脚组合假说与 Langer 等人的传统蜥臀类假说现作为两个范围明确、彼此竞争的拓扑发布，而不是伪造共识。霸王龙专属档案把每个显示字段及舍入的 6800–6600 万年前延限连接到一手主张。鸟翼类、飞行证据和 COL26.8 的 11,071 个现生鸟名仍归 crocodylomorphs-birds 所有，因此 Dinosauria 继续不单独占有现生 COL 物种。"
   },
   "rootEntityIds": [
     "dinosauria"
@@ -48,7 +48,9 @@
     "ranges": "data/ranges/range-evidence.json",
     "externalResolutions": "data/sources/pbdb-taxon-resolution.json",
     "references": "data/references.json",
-    "occurrences": "data/fossils/*.json"
+    "occurrences": "data/fossils/*.json",
+    "profilesSource": "data/packages/archosauria/dinosauria/profiles.source.json",
+    "phylogenySource": "data/packages/archosauria/dinosauria/phylogeny/hypotheses.source.json"
   },
   "platformMaturity": "published",
   "scientificMaturity": "structured",
