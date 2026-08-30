@@ -20,6 +20,7 @@ import './ExplorerWorkspace.css'
 
 type ExplorerView = 'map' | 'tree' | 'diversity'
 type GuideMode = 'choice' | 'tour' | 'hidden'
+type TutorialStepId = 'presets' | 'time' | 'map' | 'tree' | 'evidence'
 
 interface ExplorerWorkspaceProps {
   dashboard?: boolean
@@ -28,8 +29,16 @@ interface ExplorerWorkspaceProps {
 const DASHBOARD_PRESETS: Array<{ id: string; title: string; description: string; age: number; view: ExplorerView; taxonId?: string }> = [
   { id: 'k-pg', title: 'K–Pg boundary', description: 'Extinction boundary, occurrences and changing land geometry', age: 66, view: 'map' },
   { id: 'cambrian', title: 'Cambrian seas', description: 'Early Phanerozoic geography and sampled fossil records', age: 512.8, view: 'map' },
-  { id: 'perissodactyla', title: 'Odd-toed ungulates', description: 'The deepest source-linked package and its tree context', age: 34, view: 'tree', taxonId: 'perissodactyla' },
+  { id: 'perissodactyla', title: 'Odd-toed ungulates', description: 'A curator-draft evidence package and its tree context', age: 34, view: 'tree', taxonId: 'perissodactyla' },
   { id: 'jurassic', title: 'Jurassic radiations', description: 'Compare sampled diversity around 172 Ma', age: 172.3, view: 'diversity' },
+]
+
+const TUTORIAL_STEPS: Array<{ id: TutorialStepId; title: string; description: string }> = [
+  { id: 'presets', title: 'Begin with a preset scene', description: 'Presets set a documented age and primary view together. Try another at any time; they never hide the underlying controls.' },
+  { id: 'time', title: 'Move every view through time', description: 'The geological timeline is the shared clock. Changing age updates the period context, fossil sample and nearest available map frame.' },
+  { id: 'map', title: 'Read the map as a reconstruction', description: 'Map layers are modelled geometries, not direct observations. Fossil markers keep reconstructed and modern coordinates separate.' },
+  { id: 'tree', title: 'Switch to the tree without changing context', description: 'The tree keeps the selected age and subject. Navigation, fossil first appearances and the scoped topology remain distinct representations.' },
+  { id: 'evidence', title: 'Check evidence before drawing a conclusion', description: 'The evidence panel discloses package maturity, claims, sources and uncertainty. Automated checks are not expert review.' },
 ]
 
 const TREE_MODES = new Set<TreeDisplayMode>(['navigation', 'cladogram', 'first-appearance', 'fossil-range', 'calibration', 'radial'])
@@ -96,6 +105,7 @@ export function ExplorerWorkspace({ dashboard = false }: ExplorerWorkspaceProps)
   const [query, setQuery] = useState('')
   const [shareStatus, setShareStatus] = useState<'idle' | 'copied' | 'ready'>('idle')
   const [guideMode, setGuideMode] = useState<GuideMode>(initialGuideMode)
+  const [guideStep, setGuideStep] = useState(0)
   const [detailsOpen, setDetailsOpen] = useState(!dashboard)
 
   const currentAge = useAppStore((state) => state.currentAge)
@@ -242,6 +252,8 @@ export function ExplorerWorkspace({ dashboard = false }: ExplorerWorkspaceProps)
 
   const dismissGuide = () => {
     setGuideMode('hidden')
+    setMobilePanel(null)
+    if (dashboard) setDetailsOpen(false)
     try { window.localStorage.setItem('evo-explorer-guide-v2', 'dismissed') } catch { /* Guide can still close for this session. */ }
   }
 
@@ -253,6 +265,36 @@ export function ExplorerWorkspace({ dashboard = false }: ExplorerWorkspaceProps)
       if (node) void selectSubject({ nodeId: node.id, taxonId: node.taxonId })
     }
   }
+
+  const showTutorialStep = (nextStep: number) => {
+    const boundedStep = Math.min(Math.max(nextStep, 0), TUTORIAL_STEPS.length - 1)
+    const step = TUTORIAL_STEPS[boundedStep]
+    setGuideStep(boundedStep)
+    setMobilePanel(null)
+
+    if (step.id === 'presets') {
+      if (dashboard) setDetailsOpen(false)
+      openPreset(DASHBOARD_PRESETS[1])
+    } else if (step.id === 'time') {
+      setTime(66)
+    } else if (step.id === 'map') {
+      setView('map')
+    } else if (step.id === 'tree') {
+      setView('tree')
+      const node = nodes.find((candidate) => candidate.id === 'perissodactyla')
+      if (node) void selectSubject({ nodeId: node.id, taxonId: node.taxonId })
+    } else if (step.id === 'evidence') {
+      setDetailsOpen(true)
+      setMobilePanel('inspector')
+    }
+  }
+
+  const startTutorial = () => {
+    setGuideMode('tour')
+    showTutorialStep(0)
+  }
+
+  const currentTutorialStep = TUTORIAL_STEPS[guideStep]
 
   const selectedPeriod = periods.find((period) => period.name === currentPeriod)
 
@@ -348,7 +390,7 @@ export function ExplorerWorkspace({ dashboard = false }: ExplorerWorkspaceProps)
               <h1 id="dashboard-welcome-title">{t('Start with the dashboard or take the quick tour?')}</h1>
               <p>{t('The map, tree, fossil sample and geological timeline share one time context. Detailed research tools stay folded until you ask for them.')}</p>
               <div>
-                <button className="dashboard-welcome__primary" autoFocus onClick={() => setGuideMode('tour')}>{t('Take the 3-minute tour')}</button>
+                <button className="dashboard-welcome__primary" autoFocus onClick={startTutorial}>{t('Take the 3-minute tour')}</button>
                 <button onClick={dismissGuide}>{t('Use the dashboard now')}</button>
               </div>
             </div>
@@ -356,13 +398,31 @@ export function ExplorerWorkspace({ dashboard = false }: ExplorerWorkspaceProps)
         )}
         {guideMode === 'tour' && (
           <aside className="explorer-first-run" aria-label={t('Explorer quick guide')}>
-            <div className="explorer-first-run__heading"><strong>{t('Three things to know')}</strong><button onClick={dismissGuide} aria-label={t('Dismiss Explorer guide')}>×</button></div>
-            <ol>
-              <li><span>01</span><p><strong>{t('Time filters every view.')}</strong>{t('The timeline changes which occurrence and branch context is visible.')}</p></li>
-              <li><span>02</span><p><strong>{t('Map, tree and evidence stay synchronized.')}</strong>{t('A selection follows you while each view keeps its own scientific meaning.')}</p></li>
-              <li><span>03</span><p><strong>{t('A data point is not biological truth.')}</strong>{t('Missing or dense records also reflect rock exposure, collection and publication.')}</p></li>
+            <div className="explorer-first-run__heading">
+              <strong>{t('Dashboard walkthrough')}</strong>
+              <button onClick={dismissGuide} aria-label={t('Dismiss Explorer guide')}>×</button>
+            </div>
+            <ol className="explorer-first-run__progress" aria-label={t('Tutorial steps')}>
+              {TUTORIAL_STEPS.map((step, index) => (
+                <li key={step.id} className={index === guideStep ? 'is-current' : index < guideStep ? 'is-complete' : ''}>
+                  <button onClick={() => showTutorialStep(index)} aria-current={index === guideStep ? 'step' : undefined}>
+                    <span>{String(index + 1).padStart(2, '0')}</span>
+                    <small>{t(step.title)}</small>
+                  </button>
+                </li>
+              ))}
             </ol>
-            <button className="explorer-first-run__done" onClick={dismissGuide}>{t('Start exploring')}</button>
+            <article className="explorer-first-run__step" aria-live="polite">
+              <span>{t('Step {current} of {total}', { current: guideStep + 1, total: TUTORIAL_STEPS.length })}</span>
+              <h2>{t(currentTutorialStep.title)}</h2>
+              <p>{t(currentTutorialStep.description)}</p>
+            </article>
+            <div className="explorer-first-run__actions">
+              <button onClick={() => showTutorialStep(guideStep - 1)} disabled={guideStep === 0}>{t('Previous')}</button>
+              {guideStep < TUTORIAL_STEPS.length - 1
+                ? <button className="explorer-first-run__next" autoFocus onClick={() => showTutorialStep(guideStep + 1)}>{t('Next')}</button>
+                : <button className="explorer-first-run__next" autoFocus onClick={dismissGuide}>{t('Finish tour')}</button>}
+            </div>
           </aside>
         )}
         <div className="stage-toolbar">
