@@ -41,6 +41,7 @@ export const plantInvertebrateProfilesZh: Record<string, string> = {
   'Seed-plant growth form': '种子植物生长型',
   'The Tiaojishan specimen directly supports wood characters and locality; its affinity and evolutionary position do not establish a complete phylum range or ancestor sequence.': '髫髻山标本直接支持木材性状和地点信息；其亲缘与演化位置不能确定完整门级年代范围或祖先序列。',
   'Fossil-calibrated clocks and Early Cretaceous body fossils are kept separate: modelled crown ages do not become direct fossil first appearances or ecological dominance.': '化石校准分子钟与早白垩世实体化石彼此分开：模型冠群年龄不会被改写成直接化石首现或生态优势。',
+  'Sessile plant habit inferred; growth was not directly observed': '固着植物习性属于推断；生长过程并未被直接观察',
   'Global living distribution': '全球现生分布',
   'Global fossil-calibration sample': '全球化石校准样本',
   'Aquatic to terrestrial across living and fossil representatives': '现生与化石代表涵盖水生到陆生环境',

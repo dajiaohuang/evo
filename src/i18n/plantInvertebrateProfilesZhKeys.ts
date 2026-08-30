@@ -21,6 +21,7 @@ const exactPlantInvertebrateProfileCopy = new Set([
   'Terrestrial forest or woodland inferred for the wood producer',
   'Tree-sized producer inferred from secondary wood', 'Secondary xylem',
   'Fossil-calibrated clocks and Early Cretaceous body fossils are kept separate: modelled crown ages do not become direct fossil first appearances or ecological dominance.',
+  'Sessile plant habit inferred; growth was not directly observed',
   'Aquatic to terrestrial across living and fossil representatives', 'Herbaceous to tree-sized',
   'Enclosed ovules and seeds', 'Flowers and fruits', 'Highly diverse vegetative body plans',
   'Crato Formation fossil sample', 'Herbaceous fossil; broad size range across the clade',

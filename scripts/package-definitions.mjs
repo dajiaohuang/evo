@@ -1,5 +1,5 @@
 export const PACKAGE_SCHEMA_VERSION = 5
-export const DATASET_PACKAGE_VERSION = '2026.08-static-v5-rc43'
+export const DATASET_PACKAGE_VERSION = '2026.08-static-v5-rc44'
 export const DATASET_RELEASE_DATE = '2026-08-31'
 
 export const packageDefinitions = [
@@ -27,7 +27,7 @@ export const packageDefinitions = [
       zh: '收录部分胚胎植物证据，并完整路由 COL26.8 中已接受的苔藓植物、石松类、蕨类与木贼类物种。逐字段石松门与地钱门档案分别以 Asteroxylon 和 Metzgeriothallus 作为范围受限的范例，不把它们写成直系祖先或普适体制。图谱的 Plantae 节点仅提供导航背景；种子植物归入独立内容包。尚未复核的旧版延限不得解释为任何冠群的化石首现。',
     },
     wave: 'E',
-    scientificMaturity: 'structured',
+    scientificMaturity: 'source-linked',
   },
   {
     id: 'gymnosperms',
@@ -53,7 +53,7 @@ export const packageDefinitions = [
       zh: 'COL26.8 已接受物种经固定的百合纲与木兰纲根路由到被子植物内容包；木兰纲不被表述为精确的真双子叶植物根。逐字段被子植物与单子叶植物档案把校准敏感的冠群模型与标本限定的 Montsechia、Cratolirion 记录严格分开。植物区系优势主张仍待补充，其他旧版延限继续明确标为暂定。',
     },
     wave: 'pilot',
-    scientificMaturity: 'structured',
+    scientificMaturity: 'source-linked',
   },
   {
     id: 'sponges-cnidarians',
@@ -65,7 +65,7 @@ export const packageDefinitions = [
       en: 'Fourteen primary-evidence dossiers separate Cryogenian sterane occurrence from source attribution, named Ediacaran and Cambrian specimens from topology, living phylogenomic samples from universal trees, and coral clock or proxy results from fossil observations. Navigation adds eighteen living and fossil concepts as curated browse routes. COL26.8 routes exactly 30,521 strictly accepted living species names through Porifera usage ID B8TXQ and Cnidaria usage ID CN2; this is nomenclatural coverage, not 30,521 mature dossiers.',
       zh: '十四个一手证据档案严格区分成冰纪甾烷出现与来源归属、埃迪卡拉纪和寒武纪具名标本与系统位置、现生系统基因组样本与通用系统树，以及珊瑚分子钟或代用指标结果与化石观察。导航新增十八个现生和化石概念作为策展浏览路线。COL26.8 经海绵动物门 usage ID B8TXQ 与刺胞动物门 usage ID CN2 精确路由 30,521 个严格接受的现生种名；这是命名覆盖，并非 30,521 份成熟档案。',
     },
-    scientificMaturity: 'structured',
+    scientificMaturity: 'source-linked',
     limitations: [
       'Cryogenian C30 steranes are measured geochemical occurrences, but Rhizaria and other possible producers prevent unique assignment to Demospongiae; the package does not use them as a sponge FAD.',
       'Eocyathispongia, Helicolocellus, Auroralumina, Haootia, Xianguangia and Burgessomedusa are bounded specimens or assemblages with explicit anatomical and topology limits; none is presented as a direct ancestor or permanent global first appearance.',
@@ -85,7 +85,7 @@ export const packageDefinitions = [
       en: 'Thirteen bilingual primary-evidence dossiers separate Ediacaran and Cambrian body fossils, radula and shell observations, sampled phylogenomic topologies, living developmental experiments and genome comparisons. Kimberella, Odontogriphus, Orthrozanclus and Nectocaris remain interpretation-bounded navigation records rather than silently accepted crown molluscs. Aculifera, Polyplacophora, Aplacophora, Monoplacophora and Scaphopoda provide explicit browse routes for the major living molluscan body plans. Micrina and Yuganotheca are routed as stem or mixed-character brachiopod hypotheses, while Kutorgina and Lingula preserve distinct fossil-anatomy and living-genome evidence. COL26.8 routes exactly 159,801 accepted living species names through the package; that nomenclatural count is not 159,801 mature dossiers and does not establish fossil ranges, topology or expert review.',
       zh: '十三个双语一手证据档案严格区分埃迪卡拉纪与寒武纪实体化石、齿舌和壳体观察、采样系统基因组拓扑、现生发育实验与基因组比较。金伯拉虫、齿谜虫、毛饰刺甲虫和游盾虫仍是具有解释边界的导航记录，不会被暗中认定为软体动物冠群。有棘类、多板纲、无板类、单板纲与掘足纲为主要现生软体动物体制提供明确浏览路径。小米克里纳虫和玉案山贝按干群或混合性状腕足动物假说路由，顾脱贝与海豆芽则分别承载化石解剖和现生基因组证据。COL26.8 恰好把 159,801 个现生接受种名路由到本包；该命名计数不等于 159,801 个成熟档案，也不能确定化石延限、拓扑或专家评审。',
     },
-    scientificMaturity: 'structured',
+    scientificMaturity: 'source-linked',
     limitations: [
       'Kimberella, Odontogriphus, Orthrozanclus and Nectocaris preserve character combinations interpreted in competing ways. Their navigation placement supports discovery only and does not assert crown membership, direct ancestry or a global first appearance.',
       'Kocot et al. and Smith et al. sampled different transcriptomic matrices and recovered partly different conchiferan relationships. Both are retained as published topologies rather than merged into a false consensus.',
@@ -128,7 +128,7 @@ export const packageDefinitions = [
       zh: 'COL26.8 经固定的节肢动物、昆虫与甲壳类用法路由现生接受名，仅作为命名层。十三个独立证据档案覆盖寒武纪有颚肢类与泛甲壳动物化石、彼此竞争的深层系统基因组拓扑、泥盆纪六足类材料、归属有争议的 Rhyniognatha、化石校准的陆地化、石炭纪翅与真变态类样本、发育基因敲除以及 1KITE 转录组模型。导航组只是浏览路径，不是统一祖先树。包内 PBDB 记录仍是有界、非随机的 API 前缀样本，不能确定首现、末现、缺失、丰富度或全球分布。',
     },
     wave: 'D',
-    scientificMaturity: 'structured',
+    scientificMaturity: 'source-linked',
   },
   {
     id: 'echinoderms',
@@ -245,7 +245,7 @@ export const packageDefinitions = [
       en: 'Seven primary-evidence dossiers follow named specimens, CT datasets, morphology matrices and living developmental experiments from early synapsids through mammaliaforms. They explicitly separate preserved anatomy, matrix topology, inferred function, crown-Mammalia qualification and fossil or model time; no taxon is presented as a rung in an ancestor ladder. Navigation exposes Ophiacodontidae, Probainognathia, Mammaliamorpha, Mammaliaformes, Haramiyida, Morganucodonta and Eutriconodonta as curated browse routes rather than a complete or uncontested phylogeny. COL26.8 assigns zero accepted species directly to mammal-origins because living Mammalia route to order-specific or other-mammals packages and Synapsida lacks a reliable materialized species root. Zero is a routing boundary, not absence of living synapsids, nomenclatural coverage or content maturity.',
       zh: '七个一手证据档案从早期合弓类追踪至哺乳形类，依据具名标本、CT 数据集、形态矩阵与现生发育实验，并严格区分保存的解剖结构、矩阵拓扑、功能推断、哺乳动物冠群资格以及化石或模型时间；任何类群都不被描述为祖先阶梯的一环。策展导航展示蛇齿龙科、原颌兽类、哺乳形态类、哺乳形类、贼兽类、摩尔根兽类与真三尖齿兽类，但这些只是浏览路径，并非完整或无争议的系统树。COL26.8 没有把已接受种直接分配给 mammal-origins，因为现生哺乳动物被路由至目级或 other-mammals 内容包，而 Synapsida 缺少可靠实体化的种级根节点。零分配是路由边界，不表示没有现生合弓类、没有命名覆盖或内容已经成熟。',
     },
-    scientificMaturity: 'structured',
+    scientificMaturity: 'source-linked',
     limitations: [
       'All entity-wide ranges remain legacy-display navigation estimates and are not promoted to claim-linked fossil first or last appearances by the seven specimen- and experiment-scoped events.',
       'The Jurassic jaw–ear event is a composite comparison of separate taxa, formations and ages; functional language is inference, not measured hearing or bite performance and not an ancestor–descendant series.',
@@ -273,7 +273,7 @@ export const packageDefinitions = [
       en: 'Eight primary-evidence dossiers follow named middle- and late-Eocene specimens and bounded living-genome datasets across Whippomorpha and the cetacean total group. They keep preserved anatomy, ecological and locomotor inference, morphology-matrix placement, retroposon topology, molecular-model time and COL26.8 nomenclatural routing separate; no sampled taxon is presented as a rung in a direct ancestor ladder. COL26.8 routes exactly 503 strictly accepted living species names through Artiodactyla usage ID 6227M and Cetacea usage ID WP. That count is naming coverage, not 503 specimen dossiers or a test of fossil, morphology, ecology, media, translation or expert-review maturity.',
       zh: '八个一手证据档案沿鲸河马类与鲸类总群追踪具名的始新世中晚期标本及有界现生基因组数据集。档案严格区分保存的解剖结构、生态与运动推断、形态矩阵位置、反转座子拓扑、分子模型时间和 COL26.8 命名路由；任何取样类群都不会被写成直接祖先阶梯的一环。COL26.8 通过偶蹄目 usage ID 6227M 与鲸目 usage ID WP 精确路由 503 个严格接受的现生种名。该数量只表示命名覆盖，不表示有 503 份标本档案，也不检验化石、形态、生态、媒体、翻译或专家评审成熟度。',
     },
-    scientificMaturity: 'structured',
+    scientificMaturity: 'source-linked',
     limitations: [
       'Indohyus bone-bed material, the composite Pakicetus reconstruction, Ambulocetus, Peregocetus, Basilosaurus and Aegicetus are bounded specimen samples with explicit association, dating and interpretation limits; none establishes a direct ancestor, a global FAD or a linear land-to-sea sequence.',
       'Whale–hippo retroposons and the 2009 cetacean supermatrix are analyses of sampled living genomes. Their topology and model times do not directly date fossil specimens, demonstrate unchanged anatomy or replace the current nomenclatural catalogue.',
@@ -292,7 +292,7 @@ export const packageDefinitions = [
       en: 'Twelve primary-evidence dossiers separate a calibration-sensitive crown-Primate clock model, named Paleocene–Pleistocene specimens, functional or morphology-matrix interpretations, direct radiocarbon ages and ancient-genome demographic models. Primatomorpha, Plesiadapiformes and fossil placements are curated navigation routes rather than a universal tree or ancestor ladder. COL26.8 routes exactly 530 strictly accepted living species names below Primates usage ID 3W7; that is current nomenclatural browse coverage, not 530 specimen, fossil, morphology, genome, translation or expert-review dossiers.',
       zh: '十二个一手证据档案严格区分校准敏感的灵长类冠群分子钟模型、古新世至更新世具名标本、功能或形态矩阵解释、直接放射性碳年代与古基因组人口史模型。灵长形类、更猴型类和化石位置只是策展导航路径，并非通用系统树或祖先阶梯。COL26.8 在灵长目 usage ID 3W7 下精确路由 530 个严格接受的现生种名；这只是当前命名浏览覆盖，并不表示已有 530 份标本、化石、形态、基因组、翻译或专家评审档案。',
     },
-    scientificMaturity: 'structured',
+    scientificMaturity: 'source-linked',
     limitations: [
       'Purgatorius and Eosimias tarsals, the Altiatlasius tooth hypodigm, Teilhardina regional samples, Notharctus and Darwinius skeleton material, Saadanius, Morotopithecus and Dmanisi Skull 5 are bounded specimens or assemblages. Attribution, function and matrix placement remain separate; none establishes a direct ancestor or global FAD.',
       'The 79.2–70.0 Ma crown-Primate interval is one Bayesian model result; another calibration strategy spans 71.4–63.9 Ma. Neither interval is a fossil occurrence, and the primates navigation display range must not be read as a body-fossil first appearance.',
@@ -311,7 +311,7 @@ export const packageDefinitions = [
       en: 'Eleven bilingual primary-evidence dossiers connect named early carnivoraform teeth and tarsals, crown and stem character matrices, living sequence data, beardog, bear, cat and dog samples, pinnipedimorph skeletons and two explicitly bounded functional models. Carnivoraformes is a navigation-only dossier route because its sampled fossils are not silently promoted into crown Carnivora. Feliformia, Caniformia, Amphicyonidae, Ursidae, Felidae, Canidae and Pinnipedimorpha are curated browse routes, not a complete or uncontested genealogy. COL26.8 routes exactly 310 accepted living species names through Carnivora; that nomenclatural count does not measure fossil, dossier, translation, media, topology or review maturity.',
       zh: '十一个双语一手证据档案连接具名的早期食肉形类牙齿与跗骨、冠群和干群性状矩阵、现生序列数据、犬熊类、熊类、猫科和犬科样本、鳍足形类骨架以及两个明确限定的功能模型。食肉形类仅作为档案导航路径，因为这些化石样本不会被暗中提升为食肉目冠群成员。猫型类、犬型类、犬熊科、熊科、猫科、犬科与鳍足形类都是策展浏览路径，而非完整或无争议的谱系。COL26.8 恰好把 310 个现生接受种名路由到食肉目；这一命名计数不衡量化石、档案、翻译、媒体、拓扑或评审成熟度。',
     },
-    scientificMaturity: 'structured',
+    scientificMaturity: 'source-linked',
     limitations: [
       'Dormaalocyon, Vulpavus, Uintacyon and other traditional “miacoids” are routed through a navigation-only Carnivoraformes dossier group. Their placement relative to crown Carnivora is matrix-dependent and no sampled taxon is presented as a direct ancestor.',
       'Feliformia and Caniformia are supported here by a 2005 six-gene sample of 76 living species. That sequence topology does not directly date fossils, establish a crown FAD, preserve morphology or replace current nomenclature.',
@@ -333,7 +333,7 @@ export const packageDefinitions = [
       en: 'Twelve bilingual primary-evidence dossiers connect named fossils, a living monotreme genome, morphology matrices, bone-density measurements and molecular trees across Monotremata, the therian boundary, Afrotheria, Xenarthra, Glires and Chiroptera. Specimen anatomy, functional interpretation, topology, clocks and living-name routing remain separate; Juramaia is retained as a conditional provenance and topology case, and no taxon is presented as a rung in a linear ancestor ladder. Cetartiodactyla, Perissodactyla, Primates and Carnivora remain owned by their dedicated packages even when sampled by broad placental analyses. COL26.8 assigns 5,099 accepted living species to the residual other-mammals route; that nomenclatural snapshot is not 5,099 dossiers and does not measure fossil, translation, media or expert-review completeness.',
       zh: '十二个双语一手证据档案跨越单孔类、兽亚纲边界、非洲兽、异关节、啮形类和翼手类，连接具名化石、现生单孔类基因组、形态矩阵、骨密度测量与分子树。标本解剖、功能解释、拓扑、时钟和现生名称路由始终分开；Juramaia 被保留为产地与拓扑均有条件限制的案例，任何类群都不被描述为线性祖先阶梯的一环。鲸偶蹄目、奇蹄目、灵长目和食肉目即使出现在广义胎盘类分析样本中，仍归各自专属内容包所有。COL26.8 将 5,099 个现生接受种分配到剩余的 other-mammals 路由；该命名快照不是 5,099 个档案，也不衡量化石、翻译、媒体或专家评审完整度。',
     },
-    scientificMaturity: 'structured',
+    scientificMaturity: 'source-linked',
     limitations: [
       'The early-therian navigation group is a discovery route, not a taxonomic clade. Eomaia, Juramaia and Ambolestes are separate samples whose placements vary with character matrices; they do not form an ancestor sequence.',
       'Juramaia retains the original approximately 160 Ma attribution alongside provenance and tip-dating caveats. It is not used as an unconditional calibration, universal therian FAD or direct ancestor.',
