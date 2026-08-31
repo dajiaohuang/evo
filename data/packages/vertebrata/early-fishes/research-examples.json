@@ -24,6 +24,54 @@
       "limitations": [
         "The linked claim retains its own specimen, stratum, model, confidence and source-locator boundaries. The Explorer route does not establish an exact origin, global first or last appearance, direct ancestry, causal mechanism or package-specific phylogeny."
       ]
+    },
+    {
+      "id": "early-fishes-map-window",
+      "type": "explorer-preset",
+      "title": {
+        "en": "Early fishes occurrence window",
+        "zh": "早期鱼类出现窗口"
+      },
+      "description": {
+        "en": "Open a source-bounded Early fishes time window in the map to inspect sampled occurrence context linked to this package.",
+        "zh": "在地图中打开有来源边界的早期鱼类时间窗口，检查与本包关联的采样出现背景。"
+      },
+      "route": "#/explore?taxon=agnatha&view=map&age=260&older=520&younger=0",
+      "entityIds": [
+        "agnatha"
+      ],
+      "claimIds": [
+        "claim:taxon:agnatha:fossil-range"
+      ],
+      "evidenceStatus": "available-with-limitations",
+      "limitations": [
+        "The interval follows the linked package range and claim; map markers are sampled records and do not establish a complete distribution, exact origination or extinction, or direct ancestry."
+      ]
+    },
+    {
+      "id": "early-fishes-comparison-window",
+      "type": "comparison",
+      "title": {
+        "en": "Early fishes evidence comparison",
+        "zh": "早期鱼类证据比较"
+      },
+      "description": {
+        "en": "Compare priscomyzon and myxinikela through package-linked claims and bounded occurrence context; this side-by-side route is an evidence inspection aid.",
+        "zh": "通过本包关联的声明与限定出现背景比较priscomyzon与myxinikela；并列页面仅用于证据检查。"
+      },
+      "route": "#/compare?left=priscomyzon&right=myxinikela",
+      "entityIds": [
+        "priscomyzon",
+        "myxinikela"
+      ],
+      "claimIds": [
+        "claim:taxon:priscomyzon:fossil-range",
+        "claim:taxon:myxinikela:fossil-range"
+      ],
+      "evidenceStatus": "available-with-limitations",
+      "limitations": [
+        "The two sides retain separate source, sampling, range and uncertainty boundaries; visual differences are not tests of evolutionary causation or a package-specific phylogeny."
+      ]
     }
   ]
 }

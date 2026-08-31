@@ -4,7 +4,7 @@
 
 [在线打开综合看板](https://dajiaohuang.github.io/evo/#/home) · [数据方法](docs/data-methods.md) · [移动端构建](docs/mobile-apps.md) · [参与维护](CONTRIBUTING.md) · [隐私说明](PRIVACY.md)
 
-Evo Atlas 默认直接进入综合看板：地图、时间轴、生命树和化石样本共享一个时间上下文；首次使用时只需选择“直接进入”或“3 分钟教程”。预设场景在综合看板的默认收起状态下可见，打开详细研究工具后随紧凑入口一起收起。
+Evo Atlas 默认直接进入综合看板：地图、时间轴、生命树和化石样本共享一个时间上下文；首次使用时只需选择“直接进入”或“3 分钟教程”。综合看板不再陈列固定场景入口；用户拖动地质时间后，只有当前年代命中可展示范围、且范围与场景共享来源声明的资源包卡片才会在地图上浮现。
 
 ## 当前状态
 
@@ -13,7 +13,11 @@ Evo Atlas 不是一个把生成文本包装成“完整百科”的项目。它�
 - 名录覆盖：固定到 Catalogue of Life Base Release `COL26.8`。2,183,133 个严格接受种全部能沿真实父子链路由到唯一资源归属，另有 2,065,436 个异名、歧义异名和误用名可解析到接受名。24 个富内容包直接拥有 1,819,973 种；余下 363,160 种现由 7 个可下载、可离线读取并同时内置于 Android/iOS 的静态命名资源包拥有。第 32 个 `other-eukaryotes` 分区在本固定发布版中为零记录边界，不伪造空内容。
 - 内容覆盖：24 个静态资源包中的证据档案、事件、故事、范围和参考文献。当前已无 `generated-scaffold` 或 `structured`：23 个包为 `source-linked`，奇蹄目为唯一的 `curated-draft`；23 个包尚未人工审阅，奇蹄目的存储状态为 `in-review`，但内容摘要变化使有效状态成为 `stale`，没有包声称达到科学 `published`。平台 `published` 与自动检查通过只表示静态发布链完整，不等于内容或专家审阅已经完成。
 
-当前开发数据快照为 `2026.08-static-v5-rc77`，Web/Android/iOS 客户端版本为 `0.20.28`，Android/iOS build 为 `31`。精确记录数、校验和限制以 [`data/manifest.json`](data/manifest.json) 为准；科学内容变更见 [`data/CHANGELOG.md`](data/CHANGELOG.md)。
+当前开发数据快照为 `2026.08-static-v5-rc78`，Web/Android/iOS 客户端版本为 `0.20.29`，Android/iOS build 为 `32`。精确记录数、校验和限制以 [`data/manifest.json`](data/manifest.json) 为准；科学内容变更见 [`data/CHANGELOG.md`](data/CHANGELOG.md)。
+
+`rc78` 先完成“每个导航节点都能说明自己”的基础层：392/392 个节点都生成中英文导航摘要，摘要只使用节点等级、资源包归属、已呈现后代范围和直接关联的来源声明数量，并明确不代表系统发育、起源、祖先关系、年代、生态、分布或分类完整性。24 个富内容包从每包 1 个基础预设扩展到每包 3 个、共 72 个研究场景和 102 个声明链接；21 个比较场景的两侧都必须存在真实完整档案，其余使用地图或多样性场景。综合看板移除固定预设列表；地图只按 `available` 范围、当前时间与共享 claim ID 浮现场景卡片，并明确卡片是时间上下文，不是化石地点、地图点或重建分布。Pages 继续使用 `web-light`，Android/iOS build `32` 继续携带同一场景与节点描述以及完整 `native-full` 名录、权威侧车和 109 帧 0.1° PaleoDEM。
+
+Release `2026.08-static-v5-rc78` / app `0.20.29` gives all 392 navigation nodes concise bilingual, scope-only descriptions and expands all 24 rich packages to three evidence scenes each: 72 scenes with 102 claim links. Twenty-one comparison scenes are restricted to pairs that both have real complete profiles; other packages use map or diversity routes. The comprehensive dashboard no longer lists static launchers. Package cards surface on the map only when the selected age intersects an available range that shares a claim with the scene, and the UI states that this is a temporal context overlay rather than a fossil locality or reconstructed distribution. Pages remains `web-light`; Android and iOS build `32` retain the same descriptions and scenes plus the complete `native-full` catalogue, authority layers and 109 lossless 0.1° PaleoDEM frames.
 
 `rc77` 把富内容工作从“名称全集归属”推进到可定位的一手证据档案：被子植物新增禾本科和豆科两个完整档案，并为尚无已核实 PBDB 概念的真双子叶植物增加字段关联证据而不伪造外部 ID；棘皮动物新增海百合、海蕾、海星、蛇尾和海参五纲，四足登陆过渡新增希望螈鱼、棘螈与鱼石螈。完整档案总数由 66 增至 76，证据声明由 1,019 增至 1,062；新增的 43 条声明均保留页码、图号、标本、地层或分析范围边界，不把单点化石、模型推断或现生类比扩写为全球首现、直系祖先或整类群生态。GitHub Pages 仍是轻量 `web-light`，Android/iOS build `31` 则继续逐字节内置 COL26.8 全部 2,183,133 个接受种、全部权威侧车和 109 帧 0.1° PaleoDEM，并同步获得 10 个完整双语档案及真双子叶植物证据档案。
 

@@ -1,5 +1,12 @@
 # Dataset changelog
 
+## App 0.20.29 / 2026.08-static-v5-rc78 — 2026-08-31
+
+- Added concise bilingual navigation descriptions for all 392 canonical nodes. Each description is generated from existing node rank, package ownership, represented descendant scope and direct locator-bearing claim count, and explicitly disclaims phylogeny, origin, ancestry, dates, ecology, distribution and completeness.
+- Expanded all 24 rich-content packages from one research preset each to three scenes each: 72 total scenes with 102 package-local claim links. All 21 comparison scenes require two existing complete-profile IDs; packages without a defensible pair use map or diversity routes.
+- Removed the fixed preset-launcher column from the comprehensive dashboard. The map now surfaces package cards only when the selected age intersects an `available` package range that shares a claim ID and entity with the scene. Cards expose interval, geographic scope and limitations and state that their overlay is not a fossil locality or reconstructed distribution.
+- Fixed comparison-route hydration so both `left` and `right` profile subjects are respected. Pages remains `web-light`; Android and iOS build `32` retain the full `native-full` catalogue, authority shards and all 109 lossless 0.1° PaleoDEM frames together with the same descriptions and scenes.
+
 ## App 0.20.28 / 2026.08-static-v5-rc77 — 2026-08-31
 
 - Expanded the Angiospermae package from two to four complete profiles by adding Poaceae and Fabaceae, with 28 new field-to-claim links, and added a claim-linked Eudicotyledoneae evidence dossier without inventing a PBDB ID for its unresolved concept. The batch adds 11 claims grounded in primary studies with precise locators.

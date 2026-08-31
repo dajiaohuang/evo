@@ -1,5 +1,5 @@
 export const PACKAGE_SCHEMA_VERSION = 5
-export const DATASET_PACKAGE_VERSION = '2026.08-static-v5-rc77'
+export const DATASET_PACKAGE_VERSION = '2026.08-static-v5-rc78'
 export const DATASET_RELEASE_DATE = '2026-08-31'
 
 // Explicit source-bound Explorer presets. These mappings are intentionally
@@ -29,6 +29,108 @@ export const researchPresetDefinitions = {
   'marine-reptiles-pterosaurs': { entityId: 'ichthyosauria', claimIds: ['claim:taxon:ichthyosauria:fossil-range'] },
   'crocodylomorphs-birds': { entityId: 'crocodylomorpha', claimIds: ['claim:taxon:crocodylomorpha'] },
   dinosauria: { entityId: 'dinosauria', claimIds: ['claim:taxon:dinosauria:root-range'] },
+}
+
+// Additional source-bounded scenes are explicit definitions: entity and claim
+// membership is checked by the registry generator, while withheld ranges are
+// deliberately not used as time-driven scene targets.
+export const researchSceneDefinitions = {
+  'atlas-core': { label: { en: 'Atlas-wide life', zh: '全生命图谱' }, scenes: [
+    { id: 'atlas-core-map-window', kind: 'map', route: '#/explore?taxon=life&view=map&age=1850&older=3700&younger=0', entityIds: ['life'], claimIds: ['claim:taxon:life:fossil-range'] },
+    { id: 'atlas-core-diversity-window', kind: 'diversity', route: '#/explore?taxon=pterobranchia&view=diversity&age=516&older=516&younger=0', entityIds: ['pterobranchia'], claimIds: ['claim:taxon:pterobranchia:fossil-range'] },
+  ] },
+  'early-land-plants': { label: { en: 'Early land plants', zh: '早期陆生植物' }, scenes: [
+    { id: 'early-land-plants-map-window', kind: 'map', route: '#/explore?taxon=plantae&view=map&age=236.5&older=473&younger=0', entityIds: ['plantae'], claimIds: ['claim:taxon:plantae:root-range-rc39'] },
+    { id: 'early-land-plants-comparison-window', kind: 'comparison', route: '#/compare?left=lycophyta&right=marchantiophyta', entityIds: ['lycophyta', 'marchantiophyta'], claimIds: ['claim:taxon:lycophyta:fossil-range', 'claim:taxon:marchantiophyta:fossil-range'] },
+  ] },
+  gymnosperms: { label: { en: 'Gymnosperms', zh: '裸子植物' }, scenes: [
+    { id: 'gymnosperms-map-window', kind: 'map', route: '#/explore?taxon=gymnospermae&view=map&age=182.5&older=365&younger=0', entityIds: ['gymnospermae'], claimIds: ['claim:taxon:gymnospermae:root-range-rc39'] },
+    { id: 'gymnosperms-comparison-window', kind: 'comparison', route: '#/compare?left=cycadophyta&right=ginkgophyta', entityIds: ['cycadophyta', 'ginkgophyta'], claimIds: ['claim:taxon:cycadophyta:fossil-range', 'claim:taxon:ginkgophyta:fossil-range'] },
+  ] },
+  angiospermae: { label: { en: 'Angiosperms', zh: '被子植物' }, scenes: [
+    { id: 'angiospermae-map-window', kind: 'map', route: '#/explore?taxon=angiospermae&view=map&age=67.5&older=135&younger=0', entityIds: ['angiospermae'], claimIds: ['claim:taxon:angiospermae:fossil-range'] },
+    { id: 'angiospermae-comparison-window', kind: 'comparison', route: '#/compare?left=angiospermae&right=monocotyledones', entityIds: ['angiospermae', 'monocotyledones'], claimIds: ['claim:taxon:angiospermae:fossil-range', 'claim:taxon:monocotyledones:fossil-range'] },
+  ] },
+  'sponges-cnidarians': { label: { en: 'Sponges and cnidarians', zh: '海绵与刺胞动物' }, scenes: [
+    { id: 'sponges-cnidarians-map-window', kind: 'map', route: '#/explore?taxon=porifera&view=map&age=275.5&older=551&younger=0', entityIds: ['porifera'], claimIds: ['claim:taxon:porifera:root-range-rc39'] },
+    { id: 'sponges-cnidarians-comparison-window', kind: 'comparison', route: '#/compare?left=helicolocellus&right=eocyathispongia', entityIds: ['helicolocellus', 'eocyathispongia'], claimIds: ['claim:taxon:helicolocellus:fossil-range', 'claim:taxon:eocyathispongia:fossil-range'] },
+  ] },
+  'molluscs-brachiopods': { label: { en: 'Molluscs and brachiopods', zh: '软体动物与腕足动物' }, scenes: [
+    { id: 'molluscs-brachiopods-map-window', kind: 'map', route: '#/explore?taxon=mollusca&view=map&age=260&older=520&younger=0', entityIds: ['mollusca'], claimIds: ['claim:taxon:mollusca'] },
+    { id: 'molluscs-brachiopods-comparison-window', kind: 'comparison', route: '#/compare?left=kimberella&right=odontogriphus', entityIds: ['kimberella', 'odontogriphus'], claimIds: ['claim:taxon:kimberella:fossil-range', 'claim:taxon:odontogriphus:fossil-range'] },
+  ] },
+  'trilobites-chelicerates': { label: { en: 'Trilobites and chelicerates', zh: '三叶虫与螯肢类' }, scenes: [
+    { id: 'trilobites-chelicerates-map-window', kind: 'map', route: '#/explore?taxon=trilobita&view=map&age=521&older=521&younger=252', entityIds: ['trilobita'], claimIds: ['claim:taxon:trilobita:root-range-rc39'] },
+    { id: 'trilobites-chelicerates-comparison-window', kind: 'comparison', route: '#/compare?left=bohemolichas&right=urokodia', entityIds: ['bohemolichas', 'urokodia'], claimIds: ['claim:taxon:bohemolichas:fossil-range', 'claim:taxon:urokodia:fossil-range'] },
+  ] },
+  'crustaceans-insects': { label: { en: 'Crustaceans and insects', zh: '甲壳类与昆虫' }, scenes: [
+    { id: 'crustaceans-insects-map-window', kind: 'map', route: '#/explore?taxon=arthropoda&view=map&age=260.5&older=521&younger=0', entityIds: ['arthropoda'], claimIds: ['claim:taxon:arthropoda:root-range-rc39'] },
+    { id: 'crustaceans-insects-comparison-window', kind: 'comparison', route: '#/compare?left=tokummia&right=waptia', entityIds: ['tokummia', 'waptia'], claimIds: ['claim:taxon:tokummia:fossil-range', 'claim:taxon:waptia:fossil-range'] },
+  ] },
+  echinoderms: { label: { en: 'Echinoderms', zh: '棘皮动物' }, scenes: [
+    { id: 'echinoderms-map-window', kind: 'map', route: '#/explore?taxon=echinodermata&view=map&age=255&older=510&younger=0', entityIds: ['echinodermata'], claimIds: ['claim:taxon:echinodermata:fossil-range'] },
+    { id: 'echinoderms-comparison-window', kind: 'comparison', route: '#/compare?left=echinodermata&right=crinoidea', entityIds: ['echinodermata', 'crinoidea'], claimIds: ['claim:taxon:echinodermata:fossil-range', 'claim:taxon:crinoidea:tremadocian-record'] },
+  ] },
+  'early-fishes': { label: { en: 'Early fishes', zh: '早期鱼类' }, scenes: [
+    { id: 'early-fishes-map-window', kind: 'map', route: '#/explore?taxon=agnatha&view=map&age=260&older=520&younger=0', entityIds: ['agnatha'], claimIds: ['claim:taxon:agnatha:fossil-range'] },
+    { id: 'early-fishes-comparison-window', kind: 'comparison', route: '#/compare?left=priscomyzon&right=myxinikela', entityIds: ['priscomyzon', 'myxinikela'], claimIds: ['claim:taxon:priscomyzon:fossil-range', 'claim:taxon:myxinikela:fossil-range'] },
+  ] },
+  chondrichthyes: { label: { en: 'Chondrichthyes', zh: '软骨鱼类' }, scenes: [
+    { id: 'chondrichthyes-map-window', kind: 'map', route: '#/explore?taxon=chondrichthyes&view=map&age=219.5&older=439&younger=0', entityIds: ['chondrichthyes'], claimIds: ['claim:taxon:chondrichthyes:fossil-range'] },
+    { id: 'chondrichthyes-comparison-window', kind: 'comparison', route: '#/compare?left=qianodus&right=shenacanthus', entityIds: ['qianodus', 'shenacanthus'], claimIds: ['claim:taxon:qianodus:fossil-range', 'claim:taxon:shenacanthus:fossil-range'] },
+  ] },
+  actinopterygii: { label: { en: 'Actinopterygii', zh: '辐鳍鱼类' }, scenes: [
+    { id: 'actinopterygii-map-window', kind: 'map', route: '#/explore?taxon=actinopterygii&view=map&age=195.2&older=390.4&younger=0', entityIds: ['actinopterygii'], claimIds: ['claim:taxon:actinopterygii:fossil-range'] },
+    { id: 'actinopterygii-comparison-window', kind: 'comparison', route: '#/compare?left=cheirolepis-trailli&right=fukangichthys', entityIds: ['cheirolepis-trailli', 'fukangichthys'], claimIds: ['claim:taxon:cheirolepis-trailli:fossil-range', 'claim:taxon:fukangichthys:fossil-range'] },
+  ] },
+  amphibia: { label: { en: 'Amphibia', zh: '两栖类' }, scenes: [
+    { id: 'amphibia-map-window', kind: 'map', route: '#/explore?taxon=amphibia&view=map&age=170.5&older=341&younger=0', entityIds: ['amphibia'], claimIds: ['claim:taxon:amphibia:fossil-range'] },
+    { id: 'amphibia-comparison-window', kind: 'comparison', route: '#/compare?left=gerobatrachus&right=triadobatrachus', entityIds: ['gerobatrachus', 'triadobatrachus'], claimIds: ['claim:taxon:gerobatrachus:fossil-range', 'claim:taxon:triadobatrachus:fossil-range'] },
+  ] },
+  'tetrapod-transition': { label: { en: 'Tetrapod transition', zh: '四足动物过渡' }, scenes: [
+    { id: 'tetrapod-transition-map-window', kind: 'map', route: '#/explore?taxon=sarcopterygii&view=map&age=209.5&older=419&younger=0', entityIds: ['sarcopterygii'], claimIds: ['claim:taxon:sarcopterygii:fossil-range'] },
+    { id: 'tetrapod-transition-comparison-window', kind: 'comparison', route: '#/compare?left=tiktaalik&right=elpistostege', entityIds: ['tiktaalik', 'elpistostege'], claimIds: ['claim:taxon:tiktaalik:fossil-range', 'claim:event:elpistostege-digit-bearing-fin'] },
+  ] },
+  'marine-reptiles-pterosaurs': { label: { en: 'Marine reptiles and pterosaurs', zh: '海生爬行动物与翼龙' }, scenes: [
+    { id: 'marine-reptiles-pterosaurs-map-window', kind: 'map', route: '#/explore?taxon=ichthyosauria&view=map&age=169&older=248&younger=90', entityIds: ['ichthyosauria'], claimIds: ['claim:taxon:ichthyosauria:fossil-range'] },
+    { id: 'marine-reptiles-pterosaurs-comparison-window', kind: 'comparison', route: '#/compare?left=ichthyosaurus&right=plesiosauria', entityIds: ['ichthyosaurus', 'plesiosauria'], claimIds: ['claim:taxon:ichthyosaurus:fossil-range', 'claim:taxon:plesiosauria:fossil-range'] },
+  ] },
+  'turtles-lepidosaurs': { label: { en: 'Turtles and lepidosaurs', zh: '龟鳖与鳞龙' }, scenes: [
+    { id: 'turtles-lepidosaurs-map-window', kind: 'map', route: '#/explore?taxon=testudines&view=map&age=110&older=220&younger=0', entityIds: ['testudines'], claimIds: ['claim:taxon:testudines:fossil-range'] },
+    { id: 'turtles-lepidosaurs-diversity-window', kind: 'diversity', route: '#/explore?taxon=mosasauridae&view=diversity&age=79&older=92&younger=66', entityIds: ['mosasauridae'], claimIds: ['claim:taxon:mosasauridae:fossil-range'] },
+  ] },
+  'crocodylomorphs-birds': { label: { en: 'Crocodylomorphs and birds', zh: '鳄类与鸟类' }, scenes: [
+    { id: 'crocodylomorphs-birds-map-window', kind: 'map', route: '#/explore?taxon=crocodylomorpha&view=map&age=115.5&older=231&younger=0', entityIds: ['crocodylomorpha'], claimIds: ['claim:event:carnufex-holotype-predator'] },
+    { id: 'crocodylomorphs-birds-comparison-window', kind: 'comparison', route: '#/compare?left=archaeopteryx&right=neornithes', entityIds: ['archaeopteryx', 'neornithes'], claimIds: ['claim:taxon:archaeopteryx:fossil-range', 'claim:taxon:neornithes:fossil-range'] },
+  ] },
+  dinosauria: { label: { en: 'Dinosauria', zh: '恐龙' }, scenes: [
+    { id: 'dinosauria-map-window', kind: 'map', route: '#/explore?taxon=dinosauria&view=map&age=116.6&older=233.2&younger=0', entityIds: ['dinosauria'], claimIds: ['claim:taxon:dinosauria:root-range'] },
+    { id: 'dinosauria-diversity-window', kind: 'diversity', route: '#/explore?taxon=tyrannosaurus&view=diversity&age=67&older=68&younger=66', entityIds: ['tyrannosaurus'], claimIds: ['claim:taxon:tyrannosaurus:fossil-range'] },
+  ] },
+  carnivora: { label: { en: 'Carnivora', zh: '食肉类' }, scenes: [
+    { id: 'carnivora-map-window', kind: 'map', route: '#/explore?taxon=carnivora&view=map&age=28&older=56&younger=0', entityIds: ['carnivora'], claimIds: ['claim:taxon:carnivora:root-range'] },
+    { id: 'carnivora-comparison-window', kind: 'comparison', route: '#/compare?left=dormaalocyon&right=panthera-blytheae', entityIds: ['dormaalocyon', 'panthera-blytheae'], claimIds: ['claim:taxon:dormaalocyon:fossil-range', 'claim:taxon:panthera-blytheae:fossil-range'] },
+  ] },
+  cetartiodactyla: { label: { en: 'Whippomorpha', zh: '鲸偶蹄类' }, scenes: [
+    { id: 'cetartiodactyla-map-window', kind: 'map', route: '#/explore?taxon=whippomorpha&view=map&age=27.5&older=55&younger=0', entityIds: ['whippomorpha'], claimIds: ['claim:taxon:whippomorpha:root-range'] },
+    { id: 'cetartiodactyla-comparison-window', kind: 'comparison', route: '#/compare?left=indohyus&right=ambulocetus', entityIds: ['indohyus', 'ambulocetus'], claimIds: ['claim:taxon:indohyus:fossil-range', 'claim:taxon:ambulocetus:fossil-range'] },
+  ] },
+  'mammal-origins': { label: { en: 'Mammal origins', zh: '哺乳动物起源' }, scenes: [
+    { id: 'mammal-origins-map-window', kind: 'map', route: '#/explore?taxon=synapsida&view=map&age=154.25&older=308.5&younger=0', entityIds: ['synapsida'], claimIds: ['claim:taxon:synapsida:root-range'] },
+    { id: 'mammal-origins-comparison-window', kind: 'comparison', route: '#/compare?left=haramiyavia&right=liaoconodon', entityIds: ['haramiyavia', 'liaoconodon'], claimIds: ['claim:taxon:haramiyavia:fossil-range', 'claim:taxon:liaoconodon:fossil-range'] },
+  ] },
+  'other-mammals': { label: { en: 'Other mammals', zh: '其他哺乳动物' }, scenes: [
+    { id: 'other-mammals-map-window', kind: 'map', route: '#/explore?taxon=monotremata&view=map&age=55&older=110&younger=0', entityIds: ['monotremata'], claimIds: ['claim:taxon:monotremata:root-range'] },
+    { id: 'other-mammals-comparison-window', kind: 'comparison', route: '#/compare?left=steropodon&right=eomaia', entityIds: ['steropodon', 'eomaia'], claimIds: ['claim:taxon:steropodon:fossil-range', 'claim:taxon:eomaia:fossil-range'] },
+  ] },
+  primates: { label: { en: 'Primates', zh: '灵长类' }, scenes: [
+    { id: 'primates-map-window', kind: 'map', route: '#/explore?taxon=primatomorpha&view=map&age=39.6&older=79.2&younger=0', entityIds: ['primatomorpha'], claimIds: ['claim:taxon:primatomorpha:root-range'] },
+    { id: 'primates-comparison-window', kind: 'comparison', route: '#/compare?left=purgatorius&right=darwinius', entityIds: ['purgatorius', 'darwinius'], claimIds: ['claim:taxon:purgatorius:fossil-range', 'claim:taxon:darwinius:fossil-range'] },
+  ] },
+  perissodactyla: { label: { en: 'Perissodactyla', zh: '奇蹄类' }, scenes: [
+    { id: 'perissodactyla-map-window', kind: 'map', route: '#/explore?taxon=perissodactyla&view=map&age=28&older=56&younger=0', entityIds: ['perissodactyla'], claimIds: ['claim:taxon:perissodactyla:fossil-range'] },
+    { id: 'perissodactyla-diversity-window', kind: 'diversity', route: '#/explore?taxon=perissodactyla&view=diversity&age=28&older=56&younger=0', entityIds: ['perissodactyla'], claimIds: ['claim:taxon:perissodactyla:fossil-range'] },
+  ] },
 }
 
 export const packageDefinitions = [

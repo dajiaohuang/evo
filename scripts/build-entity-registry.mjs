@@ -2,7 +2,7 @@ import { createHash } from 'node:crypto'
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs'
 import { dirname, isAbsolute, join, resolve } from 'node:path'
 import { flattenTree, readJson, rootDir } from './data-lib.mjs'
-import { DATASET_PACKAGE_VERSION, PACKAGE_SCHEMA_VERSION, packageDefinitions, researchPresetDefinitions } from './package-definitions.mjs'
+import { DATASET_PACKAGE_VERSION, PACKAGE_SCHEMA_VERSION, packageDefinitions, researchPresetDefinitions, researchSceneDefinitions } from './package-definitions.mjs'
 
 const ontology = readJson('data/navigation/atlas-ontology.json')
 const profileSourceEntries = packageDefinitions.flatMap((definition) => {
@@ -144,6 +144,7 @@ const rootOwners = new Map()
 for (const definition of packageDefinitions) {
   for (const rootEntityId of definition.rootEntityIds) rootOwners.set(rootEntityId, definition.id)
 }
+const packageDefinitionById = new Map(packageDefinitions.map((definition) => [definition.id, definition]))
 
 function packageForEntity(entityId) {
   let cursor = entityId
@@ -170,6 +171,26 @@ function descendantIds(node, output = []) {
     descendantIds(child, output)
   }
   return output
+}
+
+function navigationDescription(node, packageId, descendantCount, directClaimCount) {
+  const packageDefinition = packageDefinitionById.get(packageId)
+  if (!packageDefinition) throw new Error(`Entity ${node.id} has no package definition`)
+  const rankedEntryEn = node.rank
+    ? `${/^[aeiou]/i.test(node.rank) ? 'an' : 'a'} ${node.rank} navigation entry`
+    : 'a navigation entry'
+  const scopedNodesEn = descendantCount
+    ? `this node and ${descendantCount} represented descendant node${descendantCount === 1 ? '' : 's'}`
+    : 'this node only'
+  const scopedNodesZh = descendantCount
+    ? `此节点和${descendantCount}个已呈现的后代节点`
+    : '此节点本身'
+  const claimsEn = `${directClaimCount} directly linked source-backed claim${directClaimCount === 1 ? '' : 's'}`
+  const claimsZh = `${directClaimCount}项直接关联且带来源定位的证据主张`
+  return {
+    en: `${node.name} is ${rankedEntryEn} in ${packageDefinition.title}. It is a bounded navigation scope for ${scopedNodesEn}, with ${claimsEn}; it is not a phylogeny, origin, direct-ancestry, date, ecology, distribution, or completeness claim.`,
+    zh: `${node.commonNameZh}（${node.name}）是“${packageDefinition.titleZh}”中的导航条目。它为浏览${scopedNodesZh}提供有限范围，并关联${claimsZh}；不表示系统发育、起源、直接祖先、年代、生态、分布或分类完整性。`,
+  }
 }
 
 function ownerForClaim(claim) {
@@ -430,6 +451,9 @@ const entities = flattenTree(ontology).map((node) => {
   const evidence = { ...treeEvidence.default, ...treeEvidence.nodes[node.id] }
   const resolution = taxonResolutionByEntityId.get(node.id)
   const parentId = parents.get(node.id)
+  const packageId = packageForEntity(node.id)
+  const descendantEntityIds = descendantIds(node)
+  const directClaimCount = claims.filter((claim) => claim.subjectId === `taxon:${node.id}`).length
   const ranges = rangesByEntityId.get(node.id) ?? []
   const globalRange = ranges.find((range) => range.rangeKind === 'global-composite')
   if (!globalRange) throw new Error(`Entity ${node.id} has no canonical global range`)
@@ -444,7 +468,7 @@ const entities = flattenTree(ontology).map((node) => {
     entityKind: node.entityKind,
     contentLevel: node.contentLevel,
     externalResolutionStatus: resolution?.externalResolutionStatus ?? 'not-applicable',
-    packageId: packageForEntity(node.id),
+    packageId,
     parentId,
     parentRelationshipKind: node.parentRelationshipKind ?? (parentId ? 'taxonomic-parent' : null),
     names: {
@@ -454,13 +478,10 @@ const entities = flattenTree(ontology).map((node) => {
     },
     synonyms: [],
     rank: node.rank || 'not-applicable',
-    definition: {
-      en: `${node.name} is represented as a ${node.rank || 'navigation'} entity in the Evo Atlas curated navigation ontology.`,
-      zh: `${node.commonNameZh}（${node.name}）在 Evo Atlas 经整理的导航本体中作为${node.rank ? `${node.rank}层级的` : ''}实体呈现。`,
-    },
+    definition: navigationDescription(node, packageId, descendantEntityIds.length, directClaimCount),
     compositionScope: {
       includesSelf: true,
-      descendantEntityIds: descendantIds(node, []),
+      descendantEntityIds,
     },
     temporalRange: {
       olderMa: globalRange.olderMa,
@@ -555,6 +576,55 @@ for (const definition of packageDefinitions) {
   ])
   const packageReferences = references.filter((reference) => packageReferenceIds.has(reference.id))
   const researchPreset = researchPresetDefinitions[definition.id]
+  const researchScenes = researchSceneDefinitions[definition.id]?.scenes ?? []
+  const researchSceneLabel = researchSceneDefinitions[definition.id]?.label ?? { en: definition.title, zh: definition.titleZh }
+  for (const scene of researchScenes) {
+    if (!scene.entityIds.every((entityId) => packageEntityIds.has(entityId))) {
+      throw new Error(`Package ${definition.id} research scene ${scene.id} references an out-of-package entity`)
+    }
+    if (!scene.claimIds.every((claimId) => packageClaims.some((claim) => claim.id === claimId))) {
+      throw new Error(`Package ${definition.id} research scene ${scene.id} references an out-of-package claim`)
+    }
+  }
+  const sourceBoundResearchScenes = researchScenes.map((scene) => {
+    const comparison = scene.kind === 'comparison'
+    const diversity = scene.kind === 'diversity'
+    const entityLabel = scene.entityIds.join(' and ')
+    return {
+      id: scene.id,
+      type: comparison ? 'comparison' : 'explorer-preset',
+      title: comparison
+        ? { en: `${researchSceneLabel.en} evidence comparison`, zh: `${researchSceneLabel.zh}证据比较` }
+        : diversity
+          ? { en: `${researchSceneLabel.en} diversity sample`, zh: `${researchSceneLabel.zh}多样性样本` }
+          : { en: `${researchSceneLabel.en} occurrence window`, zh: `${researchSceneLabel.zh}出现窗口` },
+      description: comparison
+        ? {
+            en: `Compare ${entityLabel} through package-linked claims and bounded occurrence context; this side-by-side route is an evidence inspection aid.`,
+            zh: `通过本包关联的声明与限定出现背景比较${scene.entityIds.join('与')}；并列页面仅用于证据检查。`,
+          }
+        : diversity
+          ? {
+              en: `Open a source-bounded ${researchSceneLabel.en} interval in the diversity view to inspect bundled sample counts, not an estimate of total richness.`,
+              zh: `在多样性视图中打开有来源边界的${researchSceneLabel.zh}区间，检查包内样本计数，而不是总体丰富度估计。`,
+            }
+          : {
+            en: `Open a source-bounded ${researchSceneLabel.en} time window in the map to inspect sampled occurrence context linked to this package.`,
+            zh: `在地图中打开有来源边界的${researchSceneLabel.zh}时间窗口，检查与本包关联的采样出现背景。`,
+          },
+      route: scene.route,
+      entityIds: scene.entityIds,
+      claimIds: scene.claimIds,
+      evidenceStatus: 'available-with-limitations',
+      limitations: [
+        comparison
+          ? 'The two sides retain separate source, sampling, range and uncertainty boundaries; visual differences are not tests of evolutionary causation or a package-specific phylogeny.'
+          : diversity
+            ? 'Counts are derived from the bundled, bounded occurrence sample and do not estimate total diversity, preservation-corrected richness, or a complete taxon range.'
+            : 'The interval follows the linked package range and claim; map markers are sampled records and do not establish a complete distribution, exact origination or extinction, or direct ancestry.',
+      ],
+    }
+  })
   let sourceBoundResearchExample = null
   if (definition.id !== 'perissodactyla') {
     if (!researchPreset) throw new Error(`Package ${definition.id} has no explicit source-bound research preset definition`)
@@ -694,8 +764,8 @@ for (const definition of packageDefinitions) {
           claimIds: packageClaims.filter((claim) => ['taxon:metamynodon', 'taxon:paraceratherium'].includes(claim.subjectId)).map((claim) => claim.id),
           evidenceStatus: 'available-with-limitations',
           limitations: ['Comparison fields inherit each claim, range and occurrence source boundary; visible differences are not tests of evolutionary causation.'],
-        }]
-      : [sourceBoundResearchExample],
+        }, ...sourceBoundResearchScenes]
+      : [sourceBoundResearchExample, ...sourceBoundResearchScenes],
   })
   writeJson(`data/packages/${definition.path}/phylogeny/status.json`, phylogenySourceEntry
     ? {

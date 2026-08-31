@@ -106,8 +106,8 @@ test('Catalog publishes every research preset with bilingual evidence limits and
   await page.goto('./#/catalog')
 
   const cards = page.locator('.research-preset-card')
-  await expect(cards).toHaveCount(24)
-  await expect(cards.locator('code')).toHaveText(Array(24).fill('available-with-limitations'))
+  await expect(cards).toHaveCount(72)
+  await expect(cards.locator('code')).toHaveText(Array(72).fill('available-with-limitations'))
   const lifePreset = cards.filter({ hasText: 'Life source-bound evidence' })
   await expect(lifePreset).toContainText('Limitations')
   await expect(lifePreset).toContainText('does not establish an exact origin')
@@ -119,6 +119,14 @@ test('Catalog publishes every research preset with bilingual evidence limits and
   const chineseLifePreset = page.locator('.research-preset-card').filter({ hasText: '地球生命来源限定证据' })
   await expect(chineseLifePreset).toBeVisible()
   await expect(chineseLifePreset).toContainText('探索器入口不能确立精确起源')
+})
+
+test('comparison scenes hydrate both requested profile subjects', async ({ page }) => {
+  await page.addInitScript(() => window.localStorage.setItem('evo-atlas-language', 'en'))
+  await page.goto('./#/compare?left=metamynodon&right=paraceratherium')
+
+  await expect(page.getByLabel('Taxon A')).toHaveValue('metamynodon')
+  await expect(page.getByLabel('Taxon B')).toHaveValue('paraceratherium')
 })
 
 test('interpretive reconstruction images are paired with visible AI and uncertainty notices', async ({ page }) => {

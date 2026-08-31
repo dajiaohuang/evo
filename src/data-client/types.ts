@@ -19,6 +19,7 @@ export interface RuntimeEntity {
   names: { scientific: string; en: string; zh: string }
   synonyms: string[]
   rank: string
+  definition: { en: string; zh: string }
   evidenceStatus: 'strong' | 'moderate' | 'contextual' | 'contested'
 }
 
@@ -88,6 +89,19 @@ export interface RuntimeResearchExamples {
   schemaVersion: 1
   packageId: string
   examples: RuntimeResearchExample[]
+}
+
+/** A published, source-bounded interval used to place an existing research scene in time. */
+export interface RuntimeRangeEvidence {
+  id: string
+  entityId: string
+  taxonomicConcept: string
+  geographicScope: string
+  olderMa: number
+  youngerMa: number
+  status: 'available' | 'withheld-pending-provenance'
+  confidence: 'low' | 'medium' | 'high' | 'contested'
+  claimIds: string[]
 }
 
 export interface RuntimeWormsNomenclatureCollection {

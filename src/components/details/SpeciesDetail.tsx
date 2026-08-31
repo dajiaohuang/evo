@@ -1,3 +1,4 @@
+import { useEffect, useState } from 'react'
 import { useAppStore } from '../../store'
 import manifest from '../../../data/manifest.json'
 import treeData from '../../../data/navigation/atlas-ontology.json'
@@ -10,6 +11,8 @@ import { useI18n } from '../../i18n'
 import { getTaxonProfile } from '../../services/catalog'
 import { getClaimsForSubject } from '../../services/evidence'
 import { getEntityPublication, getPackagePublication } from '../../services/publication'
+import { loadEntityIndex } from '../../data-client/staticDataClient'
+import type { RuntimeEntity } from '../../data-client/types'
 
 function findNode(nodes: TreeNode[], id: string): TreeNode | null {
   for (const node of nodes) {
@@ -35,8 +38,20 @@ export function SpeciesDetail() {
   const selectFossilOccurrence = useAppStore((s) => s.selectFossilOccurrence)
   const selectSubject = useAppStore((s) => s.selectSubject)
   const setTime = useAppStore((s) => s.setTime)
+  const [entityById, setEntityById] = useState<Map<string, RuntimeEntity>>(() => new Map())
+
+  useEffect(() => {
+    let active = true
+    void loadEntityIndex()
+      .then((entities) => {
+        if (active) setEntityById(new Map(entities.map((entity) => [entity.id, entity])))
+      })
+      .catch(() => undefined)
+    return () => { active = false }
+  }, [])
 
   const node = selectedNodeId ? findNode([treeData as TreeNode], selectedNodeId) : null
+  const entity = node ? entityById.get(node.id) : undefined
   const evidenceCatalog = treeEvidenceData as TreeEvidenceCatalog
   const nodeEvidence: TreeEvidenceRecord | null = node ? {
     ...evidenceCatalog.default,
@@ -157,6 +172,13 @@ export function SpeciesDetail() {
           </p>
 
           <div style={{ display: 'flex', flexDirection: 'column', gap: 8, fontSize: 12 }}>
+            {entity && (
+              <div style={{ padding: 10, background: 'var(--color-surface-alt)', borderRadius: 6 }}>
+                <div style={{ color: 'var(--color-text-muted)', marginBottom: 4 }}>{language === 'zh' ? '导航摘要' : 'Navigation summary'}</div>
+                <p style={{ margin: 0, lineHeight: 1.55 }}>{language === 'zh' ? entity.definition.zh : entity.definition.en}</p>
+              </div>
+            )}
+
             <div style={{ padding: 10, background: 'var(--color-surface-alt)', borderRadius: 6 }}>
               <div style={{ color: 'var(--color-text-muted)', marginBottom: 2 }}>{t('Temporal Range')}</div>
               <div style={{ fontFamily: 'var(--font-mono)' }}>
