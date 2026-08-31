@@ -1060,6 +1060,8 @@ export type CatalogueItisProtistsScope =
   | 'opalozoa'
   | 'radiolaria'
   | 'metamonada'
+  | 'chlorophyta'
+  | 'glaucophyta'
 
 export interface CatalogueItisProtistsResourcePackExtension extends Omit<CatalogueItisOtherAnimalsResourcePackExtension, 'id'> {
   id: `itis-${CatalogueItisProtistsScope}-tsn-crosswalk`

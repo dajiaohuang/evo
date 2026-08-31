@@ -2881,6 +2881,370 @@
           "requestPolicy": "Select the sole inclusive COL-ID range and read at most one COL partition; upstream-only files are never selected by COL ID."
         }
       }
+    },
+    {
+      "id": "itis-chlorophyta-tsn-crosswalk",
+      "recordType": "release-pinned-itis-only-nomenclatural-inventory",
+      "provider": "Integrated Taxonomic Information System",
+      "source": {
+        "datasetId": "itis-2026-08-26",
+        "exportDate": "2026-08-26",
+        "rootTsn": "5414",
+        "license": "CC0-1.0",
+        "citationDoi": "10.5066/F7KH0KBK",
+        "canonicalDescriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-chlorophyta-sidecar.json",
+        "canonicalDescriptorBytes": 8508,
+        "canonicalDescriptorSha256": "c4ec5e4349ec0669e81a3323d4a990f01a7c39c11ac51b69bd4d0189f12317b5"
+      },
+      "scope": {
+        "packageRootUsageIds": [
+          "C",
+          "Z"
+        ],
+        "packageRootScientificNames": [
+          "Chromista",
+          "Protozoa"
+        ],
+        "colRootUsageId": null,
+        "colRootScientificName": "Chlorophyta",
+        "colStrictAcceptedSpecies": 0,
+        "packageStrictAcceptedSpecies": 61518,
+        "packageOutOfScopeStrictAcceptedSpecies": 61518,
+        "colRootAudit": "No exact COL26.8 usage node named Chlorophyta exists in the complete pinned hierarchy. No plant-descendant, Viridiplantae, WFO, or individual-name substitute is used.",
+        "itisRoot": {
+          "tsn": "5414",
+          "scientificName": "Chlorophyta",
+          "rank": "Division",
+          "usage": "accepted",
+          "parentTsn": "846493"
+        },
+        "boundary": "This ITIS-only sidecar retains every current accepted species below the exact ITIS Chlorophyta division TSN 5414. ITIS infrakingdom Chlorophyta TSN 846493 is a distinct broader record and is not substituted. The WFO plant crosswalk remains untouched because it is a separate COL plant-wide crosswalk, not a Chlorophyta root.",
+        "partitionOverlapAudit": {
+          "auditedScopes": [
+            {
+              "scope": "Apicomplexa",
+              "root": {
+                "tsn": 553099,
+                "scientificName": "Apicomplexa",
+                "rank": "Phylum",
+                "usage": "valid"
+              },
+              "overlappingItisTsns": 0
+            },
+            {
+              "scope": "Bigyra",
+              "root": {
+                "tsn": 969916,
+                "scientificName": "Bigyra",
+                "rank": "Division",
+                "usage": "accepted"
+              },
+              "overlappingItisTsns": 0
+            },
+            {
+              "scope": "Cercozoa",
+              "root": {
+                "tsn": 969919,
+                "scientificName": "Cercozoa",
+                "rank": "Division",
+                "usage": "accepted"
+              },
+              "overlappingItisTsns": 0
+            },
+            {
+              "scope": "Ciliophora",
+              "root": {
+                "tsn": 46211,
+                "scientificName": "Ciliophora",
+                "rank": "Phylum",
+                "usage": "valid"
+              },
+              "overlappingItisTsns": 0
+            },
+            {
+              "scope": "Dinophyceae",
+              "root": {
+                "tsn": 9874,
+                "scientificName": "Dinophyceae",
+                "rank": "Class",
+                "usage": "accepted"
+              },
+              "overlappingItisTsns": 0
+            },
+            {
+              "scope": "Euglenophycota",
+              "root": {
+                "tsn": 9601,
+                "scientificName": "Euglenophycota",
+                "rank": "Phylum",
+                "usage": "valid"
+              },
+              "overlappingItisTsns": 0
+            },
+            {
+              "scope": "Haptophyta",
+              "root": {
+                "tsn": 2134,
+                "scientificName": "Haptophyta",
+                "rank": "Division",
+                "usage": "accepted"
+              },
+              "overlappingItisTsns": 0
+            },
+            {
+              "scope": "Ochrophyta",
+              "root": {
+                "tsn": 969917,
+                "scientificName": "Ochrophyta",
+                "rank": "Division",
+                "usage": "accepted"
+              },
+              "overlappingItisTsns": 0
+            },
+            {
+              "scope": "Oomycota/Peronosporales",
+              "root": {
+                "tsn": 13911,
+                "scientificName": "Peronosporales",
+                "rank": "Order",
+                "usage": "accepted"
+              },
+              "overlappingItisTsns": 0
+            },
+            {
+              "scope": "Oomycota/Saprolegniales",
+              "root": {
+                "tsn": 13837,
+                "scientificName": "Saprolegniales",
+                "rank": "Order",
+                "usage": "accepted"
+              },
+              "overlappingItisTsns": 0
+            },
+            {
+              "scope": "Radiolaria (legacy exact-name)",
+              "root": {
+                "tsn": 46088,
+                "scientificName": "Radiolaria",
+                "rank": "Order",
+                "usage": "valid"
+              },
+              "overlappingItisTsns": 0
+            },
+            {
+              "scope": "Rhodophyta",
+              "root": {
+                "tsn": 660046,
+                "scientificName": "Rhodophyta",
+                "rank": "Division",
+                "usage": "accepted"
+              },
+              "overlappingItisTsns": 0
+            }
+          ],
+          "overlappingColUsageIds": [],
+          "overlappingItisTsns": []
+        }
+      },
+      "rootBoundaryAudit": null,
+      "matching": {
+        "normalization": [
+          "Remove the exact trailing COL authorship field from COL scientificName when that suffix is present; no authorship parser is used.",
+          "Normalize Unicode to NFC, replace underscores with spaces, collapse Unicode whitespace and trim.",
+          "For species-rank comparison, remove one parenthesized subgenus token in the exact Genus (Subgenus) species representation; genus and specific epithet must remain unchanged.",
+          "Preserve case, diacritics, punctuation and all remaining name tokens."
+        ],
+        "statuses": {
+          "accepted": "Unavailable: COL26.8 has no exact Chlorophyta root from which to derive a strict accepted-species partition.",
+          "synonym-current-name-redirect": "Unavailable: no exact COL Chlorophyta partition exists.",
+          "ambiguous": "Unavailable: no exact COL Chlorophyta partition exists.",
+          "unmatched": "Unavailable: no exact COL Chlorophyta partition exists."
+        },
+        "prohibited": "No inferred COL scope, WFO replay, fuzzy match, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered or taxon-substituted matching is used."
+      },
+      "evidenceBoundary": {
+        "en": "This CC0 ITIS inventory is a frozen, ITIS-only nomenclatural partition. It is not a global green-algae checklist, a final classification authority, a phylogeny, a species-concept equivalence assertion, a biological dossier or a scientific-review record.",
+        "zh": "此 CC0 ITIS 清单是冻结的、仅限 ITIS 的命名分区；它不是全球绿藻名录、最终分类权威、系统发育、物种概念等同性声明、生物档案或科学审查记录。"
+      },
+      "counts": {
+        "eligible": 0,
+        "records": 1416,
+        "accepted": 0,
+        "redirects": 0,
+        "ambiguous": 0,
+        "unmatched": 0,
+        "withheld": 0,
+        "upstreamOnly": 1416,
+        "nonApplicable": 61518
+      },
+      "files": [
+        {
+          "path": "protists-chromists/itis-chlorophyta-upstream-only-0000.jsonl.gz",
+          "records": 1416,
+          "bytes": 17826,
+          "sourceBytes": 523226,
+          "sha256": "71f5664896eda62595dd907c0799e3a80aa01a41027849f55b1b76e19b25ae65",
+          "sourceSha256": "80864c39139dcc407edf98ed4b2fa7012909aaa4c3af02751c3da7cfd07e6f98",
+          "encoding": "gzip",
+          "mediaType": "application/x-ndjson",
+          "colOwnership": null,
+          "role": "upstream-only"
+        }
+      ],
+      "totalCompressedBytes": 17826,
+      "totalSourceBytes": 523226,
+      "deliveryProfiles": {
+        "web-light": {
+          "payload": "summary-only",
+          "files": [],
+          "records": 0,
+          "totalCompressedBytes": 0,
+          "totalSourceBytes": 0,
+          "statement": "GitHub Pages publishes the complete Chlorophyta authority boundary and canonical hashes without row shards."
+        },
+        "native-full": {
+          "payload": "complete",
+          "files": [
+            "protists-chromists/itis-chlorophyta-upstream-only-0000.jsonl.gz"
+          ],
+          "records": 1416,
+          "totalCompressedBytes": 17826,
+          "totalSourceBytes": 523226
+        }
+      },
+      "limitations": [
+        "This CC0 ITIS inventory is a frozen, ITIS-only nomenclatural partition. It is not a global green-algae checklist, a final classification authority, a phylogeny, a species-concept equivalence assertion, a biological dossier or a scientific-review record.",
+        "No inferred COL scope, WFO replay, fuzzy match, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered or taxon-substituted matching is used."
+      ],
+      "integration": {
+        "clientParityRequirement": "Android and iOS must copy every non-empty native-full file byte-for-byte; Web uses the web-light summary profile.",
+        "lookup": {
+          "strategy": "lexicographic-colId-range-v1",
+          "ordering": "Unicode code-unit ascending",
+          "requestPolicy": "Select the sole inclusive COL-ID range and read at most one COL partition; upstream-only files are never selected by COL ID."
+        }
+      }
+    },
+    {
+      "id": "itis-glaucophyta-tsn-crosswalk",
+      "recordType": "release-pinned-itis-only-nomenclatural-inventory",
+      "provider": "Integrated Taxonomic Information System",
+      "source": {
+        "datasetId": "itis-2026-08-26",
+        "exportDate": "2026-08-26",
+        "rootTsn": "846495",
+        "license": "CC0-1.0",
+        "citationDoi": "10.5066/F7KH0KBK",
+        "canonicalDescriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-glaucophyta-sidecar.json",
+        "canonicalDescriptorBytes": 5554,
+        "canonicalDescriptorSha256": "798c9bc738c6ce10d2e4ea18fa13dce4e8a5ad98a6f8b9f6bd7aa65ddafb7380"
+      },
+      "scope": {
+        "packageRootUsageIds": [
+          "C",
+          "Z"
+        ],
+        "packageRootScientificNames": [
+          "Chromista",
+          "Protozoa"
+        ],
+        "colRootUsageId": null,
+        "colRootScientificName": "Glaucophyta",
+        "colStrictAcceptedSpecies": 0,
+        "packageStrictAcceptedSpecies": 61518,
+        "packageOutOfScopeStrictAcceptedSpecies": 61518,
+        "colRootAudit": "No exact COL26.8 usage node named Glaucophyta exists in the complete pinned hierarchy; no strict COL partition is claimed.",
+        "boundary": "This ITIS-only sidecar retains every current species below the accepted ITIS Glaucophyta division. It deliberately contains no COL match rows until a pinned COL release materializes an exact auditable Glaucophyta root."
+      },
+      "rootBoundaryAudit": {
+        "colExactRootCandidates": [],
+        "colNearRootCandidates": [],
+        "selectedColRoot": null,
+        "selectedItisRoot": {
+          "tsn": "846495",
+          "scientificName": "Glaucophyta",
+          "rank": "Division",
+          "usage": "accepted"
+        },
+        "decision": "The pinned ITIS export has exact accepted Glaucophyta division TSN 846495; COL26.8 has no exact Glaucophyta usage node. Only the ITIS division is retained; no near COL root is substituted."
+      },
+      "matching": {
+        "normalization": [
+          "Remove the exact trailing COL authorship field from COL scientificName when that suffix is present; no authorship parser is used.",
+          "Normalize Unicode to NFC, replace underscores with spaces, collapse Unicode whitespace and trim.",
+          "For species-rank comparison, remove one parenthesized subgenus token in the exact Genus (Subgenus) species representation; genus and specific epithet must remain unchanged.",
+          "Preserve case, diacritics, punctuation and all remaining name tokens."
+        ],
+        "statuses": {
+          "accepted": "Unavailable: COL26.8 has no exact Glaucophyta root from which to derive a strict accepted-species partition.",
+          "synonym-current-name-redirect": "Unavailable: no COL Glaucophyta partition exists in this release.",
+          "ambiguous": "Unavailable: no COL Glaucophyta partition exists in this release.",
+          "unmatched": "Unavailable: no COL Glaucophyta partition exists in this release."
+        },
+        "prohibited": "No inferred COL scope, fuzzy match, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered or taxon-substituted matching is used."
+      },
+      "evidenceBoundary": {
+        "en": "This CC0 ITIS inventory is a frozen, ITIS-only nomenclatural partition. It is not a global Glaucophyta checklist, a final classification authority, a phylogeny, a species-concept equivalence assertion, a biological dossier or a scientific-review record.",
+        "zh": "此 CC0 ITIS 清单是冻结的、仅限 ITIS 的命名分区；它不是全球蓝藻门（Glaucophyta）名录、最终分类权威、系统发育、物种概念等同性声明、生物档案或科学审查记录。"
+      },
+      "counts": {
+        "eligible": 0,
+        "records": 4,
+        "accepted": 0,
+        "redirects": 0,
+        "ambiguous": 0,
+        "unmatched": 0,
+        "withheld": 0,
+        "upstreamOnly": 4,
+        "nonApplicable": 61518
+      },
+      "files": [
+        {
+          "path": "protists-chromists/itis-glaucophyta-upstream-only-0000.jsonl.gz",
+          "records": 4,
+          "bytes": 362,
+          "sourceBytes": 1510,
+          "sha256": "613d74670973a3b5730aaf45d857b0a48b03710638f60512b28afd31a8c4f388",
+          "sourceSha256": "703f6bc7827df7a566d0047d93335ada94d2b44fecb77b79c1e2aaad3c850628",
+          "encoding": "gzip",
+          "mediaType": "application/x-ndjson",
+          "colOwnership": null,
+          "role": "upstream-only"
+        }
+      ],
+      "totalCompressedBytes": 362,
+      "totalSourceBytes": 1510,
+      "deliveryProfiles": {
+        "web-light": {
+          "payload": "summary-only",
+          "files": [],
+          "records": 0,
+          "totalCompressedBytes": 0,
+          "totalSourceBytes": 0,
+          "statement": "GitHub Pages publishes the complete Glaucophyta authority boundary and canonical hashes without row shards."
+        },
+        "native-full": {
+          "payload": "complete",
+          "files": [
+            "protists-chromists/itis-glaucophyta-upstream-only-0000.jsonl.gz"
+          ],
+          "records": 4,
+          "totalCompressedBytes": 362,
+          "totalSourceBytes": 1510
+        }
+      },
+      "limitations": [
+        "This CC0 ITIS inventory is a frozen, ITIS-only nomenclatural partition. It is not a global Glaucophyta checklist, a final classification authority, a phylogeny, a species-concept equivalence assertion, a biological dossier or a scientific-review record.",
+        "No inferred COL scope, fuzzy match, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered or taxon-substituted matching is used."
+      ],
+      "integration": {
+        "clientParityRequirement": "Android and iOS must copy every non-empty native-full file byte-for-byte; Web uses the web-light summary profile.",
+        "lookup": {
+          "strategy": "lexicographic-colId-range-v1",
+          "ordering": "Unicode code-unit ascending",
+          "requestPolicy": "Select the sole inclusive COL-ID range and read at most one COL partition; upstream-only files are never selected by COL ID."
+        }
+      }
     }
   ]
 }
