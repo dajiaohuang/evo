@@ -40,6 +40,7 @@ const taxa = [
   { slug: 'loricifera', label: 'Loricifera' },
   { slug: 'micrognathozoa', label: 'Micrognathozoa' },
   { slug: 'cycliophora', label: 'Cycliophora' },
+  { slug: 'placozoa', label: 'Placozoa' },
 ]
 
 const bryozoaPath = join(packRoot, 'itis-bryozoa-sidecar.json')
