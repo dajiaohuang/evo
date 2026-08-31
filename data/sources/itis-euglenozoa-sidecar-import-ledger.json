@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "importType": "ITIS-2026-08-26-euglenozoa-request-boundary-audit",
+  "generatedFrom": {
+    "sourcePath": "data/sources/itis-2026-08-26.json",
+    "sourceSha256": "38a7a55b4e98cafc66790e47f6bd637e298e23fd691e4771c755b38e4a02d7fc",
+    "itisDatabaseMember": "itisSqlite082626/ITIS.sqlite",
+    "itisDatabaseSha256": "ea7304536cfd7b1e2636d383911ca7931fc83d9ab1194ca2a3c020ea2daf1719",
+    "colPackageManifestPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/manifest.json",
+    "colPackageManifestSha256": "d64df29f13c512e930e16d002f847011b5f18bcb6aba920bfcd75d9f6938bba4"
+  },
+  "scopeAudit": {
+    "requestedLabel": "Euglenozoa",
+    "colPackageId": "protists-chromists",
+    "colPackageRoots": [
+      "C",
+      "Z"
+    ],
+    "colPackageStrictAcceptedSpecies": 61518,
+    "colCandidateRoots": [],
+    "colStrictAcceptedSpecies": 0,
+    "itisRootTsn": "9601",
+    "itisRootScientificName": "Euglenophycota",
+    "itisRootRank": "Phylum",
+    "boundary": "COL26.8 has no exact Euglenozoa or Euglenophycota hierarchy root and ITIS has no Euglenozoa entry. The only reproducible ITIS scope is valid Euglenophycota TSN 9601; this is an ITIS-only partition, not a crosswalk for all Euglenozoa or a proxy for every Protists/Chromists species.",
+    "itisRoot": {
+      "tsn": "9601",
+      "scientificName": "Euglenophycota",
+      "rank": "Phylum",
+      "usage": "valid"
+    },
+    "exactItisEuglenozoaEntries": [],
+    "itisCurrentSpecies": 276,
+    "itisSpeciesSynonymLinks": 1,
+    "maximumUpdateDates": {
+      "taxonomicUnits": "2026-08-26",
+      "synonymLinks": "2026-08-26"
+    }
+  },
+  "matchingContract": {
+    "normalization": [
+      "Remove the exact trailing COL authorship field from COL scientificName when that suffix is present; no authorship parser is used.",
+      "Normalize Unicode to NFC, replace underscores with spaces, collapse Unicode whitespace and trim.",
+      "For species-rank comparison, remove one parenthesized subgenus token in the exact Genus (Subgenus) species representation; genus and specific epithet must remain unchanged.",
+      "Preserve case, diacritics, punctuation and all remaining name tokens."
+    ],
+    "statuses": {
+      "accepted": "Unavailable: no exact COL root defines an eligible crosswalk.",
+      "synonym-current-name-redirect": "Unavailable: no exact COL root defines an eligible crosswalk.",
+      "ambiguous": "Unavailable: no exact COL root defines an eligible crosswalk.",
+      "unmatched": "Unavailable: no exact COL root defines an eligible crosswalk."
+    },
+    "prohibited": "No fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered, taxon-substituted or package-wide name matching is used."
+  },
+  "totals": {
+    "total": 0,
+    "accepted": 0,
+    "synonymCurrentNameRedirect": 0,
+    "ambiguous": 0,
+    "unmatched": 0,
+    "itisCurrentSpecies": 276,
+    "itisSpeciesSynonymLinks": 1,
+    "itisUpstreamOnly": 276
+  },
+  "output": {
+    "descriptor": {
+      "path": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-euglenozoa-sidecar.json",
+      "bytes": 5025,
+      "sha256": "89d6da5c98682972ad662add6ccee91ccc1f1f1456c9d5a97d01b2360914cd04"
+    },
+    "upstreamOnly": {
+      "path": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-euglenozoa-upstream-only-0000.jsonl.gz",
+      "records": 276,
+      "bytes": 3537,
+      "sha256": "a4215c52d975c63846c67f55822ad0754961eee6bfbf3c038ffb4e78c55210d2",
+      "sourceBytes": 115459,
+      "sourceSha256": "8fd2e409d788d6c4c5fbc57f69e81dc2cbaa2be27073d613687a932357aa635d",
+      "encoding": "gzip",
+      "mediaType": "application/x-ndjson",
+      "firstTsn": "9606",
+      "lastTsn": "550494"
+    }
+  },
+  "deliveryContract": {
+    "pagesLight": "Pages needs only this descriptor and may omit the row-level JSONL gzip shard.",
+    "androidIosFull": "Android and iOS complete-data inventories must include the descriptor and the listed row-level shard as the same checksum-addressed bytes.",
+    "runtimeChange": "This import deliberately changes no formal runtime or published release manifest."
+  },
+  "generatedBy": {
+    "scriptPath": "scripts/build-itis-euglenozoa-sidecar.mjs",
+    "scriptSha256": "aa90dfa1b11d346694e200c206e937357f01b7fae500d9ff3cbcf8ffbc14edac",
+    "deterministic": "Pinned input checksums, root-audit guards, fixed SQL, stable TSN ordering and deterministic gzip; no wall-clock fields or name matching."
+  }
+}

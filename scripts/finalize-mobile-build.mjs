@@ -145,6 +145,46 @@ if (!foraminifera || foraminifera.provider !== 'World Foraminifera Database (WoR
   || foraminifera.files.reduce((sum, file) => sum + file.records, 0) !== 47975) {
   throw new Error('Mobile build must stage the complete Foraminifera WFD authority collection')
 }
+const expectedProtistAuthorities = {
+  'itis-ciliophora-tsn-crosswalk': { files: 4, records: 8665 },
+  'itis-apicomplexa-tsn-crosswalk': { files: 1, records: 21 },
+  'itis-dinoflagellata-tsn-crosswalk': { files: 2, records: 1110 },
+  'itis-euglenozoa-tsn-crosswalk': { files: 1, records: 276 },
+  'itis-cercozoa-tsn-crosswalk': { files: 1, records: 52 },
+  'itis-haptophyta-tsn-crosswalk': { files: 1, records: 90 },
+  'itis-ochrophyta-tsn-crosswalk': { files: 2, records: 3397 },
+  'itis-amoebozoa-tsn-crosswalk': { files: 1, records: 1337 },
+  'itis-rhodophyta-tsn-crosswalk': { files: 1, records: 1616 },
+  'itis-oomycota-tsn-crosswalk': { files: 2, records: 1464 },
+  'itis-cryptophyta-tsn-crosswalk': { files: 0, records: 0 },
+  'itis-choanoflagellatea-tsn-crosswalk': { files: 0, records: 0 },
+  'itis-bigyra-tsn-crosswalk': { files: 1, records: 53 },
+  'itis-perkinsozoa-tsn-crosswalk': { files: 0, records: 0 },
+  'itis-labyrinthulomycetes-tsn-crosswalk': { files: 0, records: 0 },
+  'itis-opalozoa-tsn-crosswalk': { files: 0, records: 0 },
+  'itis-radiolaria-tsn-crosswalk': { files: 0, records: 0 },
+  'itis-metamonada-tsn-crosswalk': { files: 0, records: 0 },
+  'itis-chlorophyta-tsn-crosswalk': { files: 1, records: 1416 },
+  'itis-glaucophyta-tsn-crosswalk': { files: 1, records: 4 },
+  'itis-picozoa-tsn-crosswalk': { files: 0, records: 0 },
+  'itis-telonemia-tsn-crosswalk': { files: 0, records: 0 },
+  'itis-centrohelida-tsn-crosswalk': { files: 0, records: 0 },
+  'itis-katablepharidota-tsn-crosswalk': { files: 0, records: 0 },
+  'itis-hemimastigophora-tsn-crosswalk': { files: 0, records: 0 },
+}
+if (protistsManifest.extensions?.length !== Object.keys(expectedProtistAuthorities).length + 1) {
+  throw new Error('Mobile build must stage every declared protists/chromists authority collection')
+}
+for (const [id, expected] of Object.entries(expectedProtistAuthorities)) {
+  const authority = protistsManifest.extensions?.find((extension) => extension.id === id)
+  if (!authority || authority.provider !== 'Integrated Taxonomic Information System'
+    || authority.delivery?.profile !== 'native-full' || authority.delivery?.completeRows !== true
+    || authority.files?.length !== expected.files || authority.delivery?.publishedFileCount !== expected.files
+    || authority.delivery?.canonicalFileCount !== expected.files
+    || authority.files.reduce((sum, file) => sum + file.records, 0) !== expected.records) {
+    throw new Error(`Mobile build must stage the complete ${id} authority collection`)
+  }
+}
 
 const interactiveFiles = releaseFiles.files.filter((file) => !file.url.includes('/downloads/'))
 const bootstrapFiles = ['current.json', 'releases.json', release.filesIndex]

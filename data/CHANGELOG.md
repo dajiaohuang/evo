@@ -1,5 +1,14 @@
 # Dataset changelog
 
+## App 0.20.20 / 2026.08-static-v5-rc69 — 2026-08-31
+
+- Added 25 disjoint, exact-root ITIS `2026-08-26` authority boundaries to the `protists-chromists` resource pack. The 13 non-empty scopes are Ciliophora, Apicomplexa, Dinoflagellata, the Euglenophycota inventory under the Euglenozoa boundary, Cercozoa, Haptophyta, Ochrophyta, Amoebozoa, Rhodophyta, the shared-order Oomycota boundary, Bigyra, Chlorophyta and Glaucophyta.
+- Published 19,501 native records in 19 non-empty files: 12,756 disjoint COL26.8 rows with 1,470 exact accepted names, eight official ITIS synonym redirects, four explicit ambiguities and 11,274 unmatched outcomes, plus 6,745 current ITIS-only species. No fuzzy match, modern-name substitution or inferred package ownership is used.
+- Preserved 12 exact zero-row audits for Cryptophyta, Choanoflagellatea, Perkinsozoa, Labyrinthulomycetes, Opalozoa, Radiolaria, Metamonada, Picozoa, Telonemia, Centrohelida, Katablepharidota and Hemimastigophora. Missing, nearby or legacy-only roots are documented but never substituted; zero-row placeholder gzip files are excluded from the runtime inventory.
+- Kept GitHub Pages on `web-light`: all 25 ITIS descriptors and 19 canonical non-empty file hashes are published, while row shards return 404. Android and iOS build `23` use `native-full`, bundle all 19 files byte-for-byte, and retain the separate five-file, 47,975-record Foraminifera WFD authority layer.
+- Added typed, indexed native lookup for each protist/chromist ITIS scope, plus exact release contracts in the shared client, Pages smoke test, mobile finalizer, Android instrumentation source and iOS application tests. A COL lookup reads at most one inclusive range shard.
+- Consolidated the per-scope authority and delivery boundary in `docs/itis-protists-authority.md`; advanced the shared app to `0.20.20` and dataset to `2026.08-static-v5-rc69` without changing the fixed COL26.8 species ownership graph or the full 109-frame native PaleoDEM series.
+
 ## App 0.20.19 / 2026.08-static-v5-rc68 — 2026-08-31
 
 - Expanded the official ITIS `2026-08-26` CC0 authority layer in the mixed `other-animals` resource pack from five to 26 disjoint scopes. The added scopes are Acanthocephala, Entoprocta, Tardigrada, Chaetognatha, Ctenophora, Kinorhyncha, Gastrotricha, Priapulida, Onychophora, Hemichordata, Sipuncula, Nematomorpha, Phoronida, Gnathostomulida, Loricifera, Micrognathozoa, Cycliophora, Placozoa, Xenacoelomorpha, Orthonectida and Dicyemida.

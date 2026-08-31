@@ -1,0 +1,138 @@
+{
+  "schemaVersion": 1,
+  "sidecarType": "release-pinned-exact-nomenclatural-crosswalk",
+  "packageId": "protists-chromists",
+  "scope": {
+    "packageRootUsageIds": [
+      "C",
+      "Z"
+    ],
+    "packageRootScientificNames": [
+      "Chromista",
+      "Protozoa"
+    ],
+    "colRootUsageId": "622B2",
+    "colRootScientificName": "Amoebozoa",
+    "colStrictAcceptedSpecies": 1337,
+    "packageStrictAcceptedSpecies": 61518,
+    "packageOutOfScopeStrictAcceptedSpecies": 60181,
+    "boundary": "This sidecar covers only strict accepted COL26.8 species descending from the exact Amoebozoa root 622B2. ITIS 2026-08-26 has no exact Amoebozoa root; narrower or broader ITIS roots are intentionally not substituted."
+  },
+  "rootBoundaryAudit": {
+    "colRoot": {
+      "id": "622B2",
+      "scientificName": "Amoebozoa Lühe, 1913 emend. Cavalier-Smith, 1998",
+      "rank": "phylum",
+      "status": "accepted"
+    },
+    "itisExactNameCandidates": [],
+    "selectedItisRoot": null,
+    "decision": "No exact ITIS Amoebozoa root exists in the pinned export. No Amoebida, Rhizopoda, Protozoa or other nearby root is used as a taxon substitute."
+  },
+  "sources": {
+    "col": {
+      "releaseAlias": "COL26.8",
+      "releaseDate": "2026-08-20",
+      "registryManifestPath": "data/catalogue-of-life/releases/2026-08-20/registry/manifest.json",
+      "registryManifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151",
+      "packageManifestPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/manifest.json",
+      "packageManifestSha256": "d64df29f13c512e930e16d002f847011b5f18bcb6aba920bfcd75d9f6938bba4",
+      "ownershipPath": "ta/registry/package-species-coverage.json",
+      "ownershipSha256": "a297bc8a67ce60806fdee733464a79bfcc42e255f7e59535b01f94013c19dfea"
+    },
+    "itis": {
+      "datasetId": "itis-2026-08-26",
+      "exportDate": "2026-08-26",
+      "rootTsn": null,
+      "rootScientificName": "Amoebozoa",
+      "rootStatus": "absent",
+      "sourceLedgerPath": "data/sources/itis-2026-08-26.json",
+      "sourceLedgerSha256": "38a7a55b4e98cafc66790e47f6bd637e298e23fd691e4771c755b38e4a02d7fc",
+      "license": "CC0-1.0",
+      "citationDoi": "10.5066/F7KH0KBK"
+    }
+  },
+  "exactMatching": {
+    "normalization": [
+      "Remove the exact trailing COL authorship field from COL scientificName when that suffix is present; no authorship parser is used.",
+      "Normalize Unicode to NFC, replace underscores with spaces, collapse Unicode whitespace and trim.",
+      "For species-rank comparison, remove one parenthesized subgenus token in the exact Genus (Subgenus) species representation; genus and specific epithet must remain unchanged.",
+      "Preserve case, diacritics, punctuation and all remaining name tokens."
+    ],
+    "statuses": {
+      "accepted": "Unavailable: the pinned ITIS export has no exact Amoebozoa root from which to derive a current-species partition.",
+      "synonym-current-name-redirect": "Unavailable: no exact ITIS Amoebozoa root exists in this release.",
+      "ambiguous": "Unavailable: no exact ITIS Amoebozoa root exists in this release.",
+      "unmatched": "The exact COL Amoebozoa name has no candidate in the empty exact ITIS Amoebozoa index."
+    },
+    "prohibited": "No fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered, package-wide or taxon-substituted matching is used."
+  },
+  "evidenceBoundary": {
+    "en": "This CC0 ITIS sidecar is a frozen exact-name audit for the declared COL26.8 Amoebozoa partition. Because the pinned ITIS export has no exact Amoebozoa root, all COL rows remain explicitly unmatched and no ITIS-only rows are asserted. It is not a global amoebozoan checklist, final classification authority, phylogeny, species-concept equivalence assertion, biological dossier or scientific-review record.",
+    "zh": "此 CC0 ITIS 侧车是 COL26.8 Amoebozoa 分区的冻结精确名称审计。由于固定 ITIS 导出中不存在精确 Amoebozoa 根节点，所有 COL 行均明确保留为 unmatched，不声明 ITIS-only 行；它不是全球变形虫类名录、最终分类权威、系统发育、物种概念等同性声明、生物档案或科学审查记录。"
+  },
+  "counts": {
+    "total": 1337,
+    "accepted": 0,
+    "synonymCurrentNameRedirect": 0,
+    "ambiguous": 0,
+    "unmatched": 1337,
+    "itisCurrentSpecies": 0,
+    "itisSpeciesSynonymLinks": 0,
+    "itisUpstreamOnly": 0
+  },
+  "colUsageIdLocator": {
+    "key": "colUsageId",
+    "ordering": "Unicode code-unit ascending",
+    "sourceShardLimitBytes": 524288,
+    "stableAddressing": "Binary-search non-overlapping inclusive colUsageId ranges; one detail query loads exactly one immutable JSONL gzip shard.",
+    "files": [
+      {
+        "path": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-amoebozoa-sidecar-0000.jsonl.gz",
+        "records": 1337,
+        "firstColUsageId": "3574B",
+        "lastColUsageId": "ZFKF",
+        "bytes": 35250,
+        "sha256": "3fa551b12978cc3b3b568c9df0a11e493093b53ef715f82001cb7d9820cc3ba5",
+        "sourceBytes": 275635,
+        "sourceSha256": "e3449110acbd9c21cd80066d723cb4c8bbcc47fcf386ab5911a88a1284443512"
+      }
+    ]
+  },
+  "upstreamOnly": {
+    "colOwnership": null,
+    "stableAddressing": "No exact ITIS Amoebozoa root exists in this release, so the upstream-only partition is an explicit empty immutable JSONL gzip shard.",
+    "files": [
+      {
+        "path": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-amoebozoa-upstream-only-0000.jsonl.gz",
+        "records": 0,
+        "firstColUsageId": null,
+        "lastColUsageId": null,
+        "bytes": 21,
+        "sha256": "74420f89d2d2a4256b5b578f1c2a01dd2b605f9aca4905db839d008cfd29cac0",
+        "sourceBytes": 1,
+        "sourceSha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "colOwnership": null,
+        "firstTsn": null,
+        "lastTsn": null
+      }
+    ]
+  },
+  "deliveryProfiles": {
+    "web-light": {
+      "payload": "summary-only",
+      "files": [],
+      "records": 0,
+      "totalCompressedBytes": 0
+    },
+    "native-full": {
+      "payload": "complete",
+      "files": [
+        "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-amoebozoa-sidecar-0000.jsonl.gz",
+        "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-amoebozoa-upstream-only-0000.jsonl.gz"
+      ],
+      "records": 1337,
+      "totalCompressedBytes": 35271
+    }
+  }
+}

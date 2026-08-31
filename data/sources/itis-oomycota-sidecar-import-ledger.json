@@ -1,0 +1,185 @@
+{
+  "schemaVersion": 1,
+  "importType": "COL26.8-to-ITIS-exact-oomycota-shared-order-nomenclatural-sidecar",
+  "generatedFrom": {
+    "sourcePath": "data/sources/itis-2026-08-26.json",
+    "sourceSha256": "38a7a55b4e98cafc66790e47f6bd637e298e23fd691e4771c755b38e4a02d7fc",
+    "itisDatabaseMember": "itisSqlite082626/ITIS.sqlite",
+    "itisDatabaseSha256": "ea7304536cfd7b1e2636d383911ca7931fc83d9ab1194ca2a3c020ea2daf1719",
+    "colRegistryManifestPath": "data/catalogue-of-life/releases/2026-08-20/registry/manifest.json",
+    "colRegistryManifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151",
+    "colOwnershipPath": "data/registry/package-species-coverage.json",
+    "colOwnershipSha256": "a297bc8a67ce60806fdee733464a79bfcc42e255f7e59535b01f94013c19dfea",
+    "resourcePackManifestPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/manifest.json",
+    "resourcePackManifestSha256": "d64df29f13c512e930e16d002f847011b5f18bcb6aba920bfcd75d9f6938bba4"
+  },
+  "scopeAudit": {
+    "requestedColRoot": {
+      "usageId": "5K",
+      "scientificName": "Oomycota",
+      "rank": "phylum",
+      "strictAcceptedSpecies": 1673
+    },
+    "selectedSharedOrderRoots": [
+      {
+        "col": {
+          "usageId": "3SH",
+          "scientificName": "Peronosporales",
+          "rank": "order",
+          "parentUsageId": "G3"
+        },
+        "itis": {
+          "tsn": "13911",
+          "scientificName": "Peronosporales",
+          "rank": "Order",
+          "usage": "accepted"
+        },
+        "colStrictAcceptedSpecies": 1179
+      },
+      {
+        "col": {
+          "usageId": "3ZZ",
+          "scientificName": "Saprolegniales",
+          "rank": "order",
+          "parentUsageId": "G3"
+        },
+        "itis": {
+          "tsn": "13837",
+          "scientificName": "Saprolegniales",
+          "rank": "Order",
+          "usage": "accepted"
+        },
+        "colStrictAcceptedSpecies": 247
+      }
+    ],
+    "colStrictAcceptedSpecies": 1426,
+    "packageStrictAcceptedSpecies": 61518,
+    "packageOutOfScopeStrictAcceptedSpecies": 60092,
+    "boundary": "ITIS 2026-08-26 has no exact accepted Oomycota phylum root. Its broader ancestors for the two shared orders follow an historical Fungi/Myxomycota/Phycomycota path, so they are not treated as an Oomycota root. This sidecar therefore covers only strict COL26.8 accepted species below the two exact shared accepted order roots Peronosporales and Saprolegniales; every other COL Oomycota and every remaining Protists and Chromists species is explicitly out of scope.",
+    "rootBoundaryAudit": {
+      "colOomycotaRoot": {
+        "usageId": "5K",
+        "scientificName": "Oomycota",
+        "rank": "phylum",
+        "status": "accepted"
+      },
+      "itisExactOomycotaAcceptedPhylumRoots": [],
+      "selectedSharedOrderRoots": [
+        {
+          "col": {
+            "usageId": "3SH",
+            "scientificName": "Peronosporales",
+            "rank": "order",
+            "parentUsageId": "G3"
+          },
+          "itis": {
+            "tsn": "13911",
+            "scientificName": "Peronosporales",
+            "rank": "Order",
+            "usage": "accepted",
+            "immediateParent": {
+              "tsn": "13785",
+              "scientificName": "Phycomycota",
+              "rank": "Class",
+              "usage": "accepted"
+            }
+          }
+        },
+        {
+          "col": {
+            "usageId": "3ZZ",
+            "scientificName": "Saprolegniales",
+            "rank": "order",
+            "parentUsageId": "G3"
+          },
+          "itis": {
+            "tsn": "13837",
+            "scientificName": "Saprolegniales",
+            "rank": "Order",
+            "usage": "accepted",
+            "immediateParent": {
+              "tsn": "13785",
+              "scientificName": "Phycomycota",
+              "rank": "Class",
+              "usage": "accepted"
+            }
+          }
+        }
+      ],
+      "decision": "Do not infer an ITIS Oomycota root from a broader historical lineage. Use only the two exact shared accepted order names/ranks, and keep the remaining COL Oomycota species out of scope."
+    },
+    "itisCurrentSpecies": 84,
+    "itisSpeciesSynonymLinks": 2,
+    "maximumUpdateDates": {
+      "taxonomicUnits": "2026-08-26",
+      "synonymLinks": "2026-08-26"
+    }
+  },
+  "matchingContract": {
+    "normalization": [
+      "Remove the exact trailing COL authorship field from COL scientificName when that suffix is present; no authorship parser is used.",
+      "Normalize Unicode to NFC, replace underscores with spaces, collapse Unicode whitespace and trim.",
+      "For species-rank comparison, remove one parenthesized subgenus token in the exact Genus (Subgenus) species representation; genus and specific epithet must remain unchanged.",
+      "Preserve case, diacritics, punctuation and all remaining name tokens."
+    ],
+    "statuses": {
+      "accepted": "The normalized COL name resolves to exactly one accepted ITIS species within the selected shared-order union and directly equals that current ITIS name.",
+      "synonym-current-name-redirect": "The normalized COL name equals official ITIS non-current species-name evidence that resolves to exactly one accepted ITIS species within the selected shared-order union.",
+      "ambiguous": "The normalized exact evidence resolves to more than one accepted ITIS species TSN within the selected shared-order union.",
+      "unmatched": "No normalized exact accepted-name or official ITIS species-synonym evidence resolves to an accepted ITIS species within the selected shared-order union."
+    },
+    "prohibited": "No fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered, taxon-substituted, or broader-lineage matching is used."
+  },
+  "totals": {
+    "total": 1426,
+    "accepted": 46,
+    "synonymCurrentNameRedirect": 0,
+    "ambiguous": 0,
+    "unmatched": 1380,
+    "itisCurrentSpecies": 84,
+    "itisSpeciesSynonymLinks": 2,
+    "itisUpstreamOnly": 38
+  },
+  "output": {
+    "descriptor": {
+      "path": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-oomycota-sidecar.json",
+      "bytes": 8461,
+      "sha256": "694152545fa3f07a0b25cb4e24faed3cf6dbaba121d9cf4d1cfe433844f010c5"
+    },
+    "colUsageIdShards": [
+      {
+        "path": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-oomycota-sidecar-0000.jsonl.gz",
+        "records": 1426,
+        "firstColUsageId": "33Q5B",
+        "lastColUsageId": "Q784",
+        "bytes": 36064,
+        "sha256": "9f1ef2ed1ed8307561915cd96f11d3a9b9f7b34a46144bbd09537711b4b02997",
+        "sourceBytes": 277007,
+        "sourceSha256": "12e23c3ba1f0efeb73a72bcb2afd5ff00ca6b7f583344d0afa2020b471c7f1e3"
+      }
+    ],
+    "upstreamOnly": {
+      "path": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-oomycota-upstream-only-0000.jsonl.gz",
+      "records": 38,
+      "firstColUsageId": null,
+      "lastColUsageId": null,
+      "bytes": 891,
+      "sha256": "69609e96de65963a280d84c0e8a9e034de0710de18fce5db894ae8e584618704",
+      "sourceBytes": 15529,
+      "sourceSha256": "1d67f55320f8edadfb4bfbca2e0d160cbecd0624040382c68b5c1c5f365f0200",
+      "colOwnership": null,
+      "firstTsn": "13842",
+      "lastTsn": "189579"
+    }
+  },
+  "deliveryContract": {
+    "pagesLight": "Pages needs only this small descriptor and may omit all row-level JSONL gzip shards.",
+    "androidIosFull": "Android and iOS complete-data inventories must include the descriptor and every non-empty listed row-level shard as the same checksum-addressed bytes.",
+    "runtimeChange": "This import deliberately changes no formal runtime or published release manifest."
+  },
+  "generatedBy": {
+    "scriptPath": "scripts/build-itis-oomycota-sidecar.mjs",
+    "scriptSha256": "1ad2099ddb28e07759b15b28600645374337fd21b51cce01ffe8bb3c2eddae1f",
+    "deterministic": "Pinned input checksums, exact roots, exact SQL, representation-only normalization, code-unit ID ordering and deterministic gzip; no wall-clock fields, wider-root inference or fuzzy matching."
+  }
+}

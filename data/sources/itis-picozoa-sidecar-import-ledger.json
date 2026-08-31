@@ -1,0 +1,683 @@
+{
+  "schemaVersion": 1,
+  "importType": "COL26.8-to-ITIS-exact-picozoa-root-boundary-audit",
+  "generatedFrom": {
+    "sourcePath": "data/sources/itis-2026-08-26.json",
+    "sourceSha256": "38a7a55b4e98cafc66790e47f6bd637e298e23fd691e4771c755b38e4a02d7fc",
+    "itisDatabaseMember": "itisSqlite082626/ITIS.sqlite",
+    "itisDatabaseSha256": "ea7304536cfd7b1e2636d383911ca7931fc83d9ab1194ca2a3c020ea2daf1719",
+    "colRegistryManifestPath": "data/catalogue-of-life/releases/2026-08-20/registry/manifest.json",
+    "colRegistryManifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151",
+    "colOwnershipPath": "data/registry/package-species-coverage.json",
+    "colOwnershipSha256": "a297bc8a67ce60806fdee733464a79bfcc42e255f7e59535b01f94013c19dfea"
+  },
+  "scopeAudit": {
+    "requestedLabel": "Picozoa",
+    "packageRootUsageIds": [
+      "C",
+      "Z"
+    ],
+    "packageRootScientificNames": [
+      "Chromista",
+      "Protozoa"
+    ],
+    "packageStrictAcceptedSpecies": 61518,
+    "packageOutOfScopeStrictAcceptedSpecies": 61518,
+    "colRootUsageId": null,
+    "colRootScientificName": "Picozoa",
+    "colExactRootCandidates": [],
+    "colStrictAcceptedSpecies": 0,
+    "itisRootTsn": null,
+    "itisRootScientificName": "Picozoa",
+    "itisExactRootCandidates": [],
+    "boundary": "Neither COL26.8 nor ITIS 2026-08-26 materializes an exact Picozoa root. The named nearby candidates are retained only as audit context; no neighboring taxon, package-wide search or name substitution supplies rows.",
+    "rootBoundaryAudit": {
+      "colRegistryManifestPath": "data/catalogue-of-life/releases/2026-08-20/registry/manifest.json",
+      "colRegistryManifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151",
+      "colExactRootCandidates": [],
+      "colNearRootCandidates": [],
+      "itisExactRootCandidates": [],
+      "itisContainsNameCandidates": [],
+      "itisNearbyNameCandidates": [],
+      "existingPartitions": [
+        {
+          "label": "Amoebozoa",
+          "descriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-amoebozoa-sidecar.json",
+          "colRootUsageId": "622B2",
+          "itisRootTsn": null,
+          "records": 1337,
+          "colFiles": 1,
+          "upstreamFiles": 1
+        },
+        {
+          "label": "Cryptosporidium Tyzzer, 1907",
+          "descriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-apicomplexa-sidecar.json",
+          "colRootUsageId": "87FBN",
+          "itisRootTsn": "553099",
+          "records": 21,
+          "colFiles": 1,
+          "upstreamFiles": 1
+        },
+        {
+          "label": "Bigyra",
+          "descriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-bigyra-sidecar.json",
+          "colRootUsageId": "622CB",
+          "itisRootTsn": "969916",
+          "records": 53,
+          "colFiles": 1,
+          "upstreamFiles": 1
+        },
+        {
+          "label": "Cercozoa",
+          "descriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-cercozoa-sidecar.json",
+          "colRootUsageId": "35",
+          "itisRootTsn": "969919",
+          "records": 52,
+          "colFiles": 1,
+          "upstreamFiles": 1
+        },
+        {
+          "label": "Chlorophyta",
+          "descriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-chlorophyta-sidecar.json",
+          "colRootUsageId": null,
+          "itisRootTsn": "5414",
+          "records": 0,
+          "colFiles": 0,
+          "upstreamFiles": 1
+        },
+        {
+          "label": "Choanoflagellatea",
+          "descriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-choanoflagellatea-sidecar.json",
+          "colRootUsageId": null,
+          "itisRootTsn": null,
+          "records": 0,
+          "colFiles": 1,
+          "upstreamFiles": 1
+        },
+        {
+          "label": "Ciliophora",
+          "descriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-ciliophora-sidecar.json",
+          "colRootUsageId": "3H",
+          "itisRootTsn": "46211",
+          "records": 8507,
+          "colFiles": 3,
+          "upstreamFiles": 1
+        },
+        {
+          "label": "Cryptophyta",
+          "descriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-cryptophyta-sidecar.json",
+          "colRootUsageId": null,
+          "itisRootTsn": null,
+          "records": 0,
+          "colFiles": 0,
+          "upstreamFiles": 1
+        },
+        {
+          "label": "Dinophyceae (Dinoflagellata)",
+          "descriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-dinoflagellata-sidecar.json",
+          "colRootUsageId": "622D3",
+          "itisRootTsn": "9874",
+          "records": 259,
+          "colFiles": 1,
+          "upstreamFiles": 1
+        },
+        {
+          "label": "Euglenozoa",
+          "descriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-euglenozoa-sidecar.json",
+          "colRootUsageId": null,
+          "itisRootTsn": "9601",
+          "records": 0,
+          "colFiles": 0,
+          "upstreamFiles": 1
+        },
+        {
+          "label": "Glaucophyta",
+          "descriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-glaucophyta-sidecar.json",
+          "colRootUsageId": null,
+          "itisRootTsn": "846495",
+          "records": 0,
+          "colFiles": 0,
+          "upstreamFiles": 1
+        },
+        {
+          "label": "Haptophyta",
+          "descriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-haptophyta-sidecar.json",
+          "colRootUsageId": null,
+          "itisRootTsn": "2134",
+          "records": 0,
+          "colFiles": 0,
+          "upstreamFiles": 1
+        },
+        {
+          "label": "Labyrinthulomycetes",
+          "descriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-labyrinthulomycetes-sidecar.json",
+          "colRootUsageId": null,
+          "itisRootTsn": null,
+          "records": 0,
+          "colFiles": 1,
+          "upstreamFiles": 1
+        },
+        {
+          "label": "Metamonada",
+          "descriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-metamonada-sidecar.json",
+          "colRootUsageId": null,
+          "itisRootTsn": null,
+          "records": 0,
+          "colFiles": 0,
+          "upstreamFiles": 0
+        },
+        {
+          "label": "Ochrophyta",
+          "descriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-ochrophyta-sidecar.json",
+          "colRootUsageId": "5H",
+          "itisRootTsn": "969917",
+          "records": 1101,
+          "colFiles": 1,
+          "upstreamFiles": 1
+        },
+        {
+          "label": "itis-oomycota-sidecar.json",
+          "descriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-oomycota-sidecar.json",
+          "colRootUsageId": "5K",
+          "itisRootTsn": null,
+          "records": 1426,
+          "colFiles": 1,
+          "upstreamFiles": 1
+        },
+        {
+          "label": "Opalozoa",
+          "descriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-opalozoa-sidecar.json",
+          "colRootUsageId": null,
+          "itisRootTsn": null,
+          "records": 0,
+          "colFiles": 0,
+          "upstreamFiles": 1
+        },
+        {
+          "label": "Perkinsozoa",
+          "descriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-perkinsozoa-sidecar.json",
+          "colRootUsageId": null,
+          "itisRootTsn": null,
+          "records": 0,
+          "colFiles": 0,
+          "upstreamFiles": 0
+        },
+        {
+          "label": "Radiolaria",
+          "descriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-radiolaria-sidecar.json",
+          "colRootUsageId": null,
+          "itisRootTsn": null,
+          "records": 0,
+          "colFiles": 0,
+          "upstreamFiles": 1
+        },
+        {
+          "label": "Rhodophyta",
+          "descriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-rhodophyta-sidecar.json",
+          "colRootUsageId": null,
+          "itisRootTsn": "660046",
+          "records": 0,
+          "colFiles": 0,
+          "upstreamFiles": 1
+        }
+      ],
+      "overlapWithExistingPartitions": [
+        {
+          "label": "Amoebozoa",
+          "overlappingColUsageIds": [],
+          "overlappingItisTsns": []
+        },
+        {
+          "label": "Cryptosporidium Tyzzer, 1907",
+          "overlappingColUsageIds": [],
+          "overlappingItisTsns": []
+        },
+        {
+          "label": "Bigyra",
+          "overlappingColUsageIds": [],
+          "overlappingItisTsns": []
+        },
+        {
+          "label": "Cercozoa",
+          "overlappingColUsageIds": [],
+          "overlappingItisTsns": []
+        },
+        {
+          "label": "Chlorophyta",
+          "overlappingColUsageIds": [],
+          "overlappingItisTsns": []
+        },
+        {
+          "label": "Choanoflagellatea",
+          "overlappingColUsageIds": [],
+          "overlappingItisTsns": []
+        },
+        {
+          "label": "Ciliophora",
+          "overlappingColUsageIds": [],
+          "overlappingItisTsns": []
+        },
+        {
+          "label": "Cryptophyta",
+          "overlappingColUsageIds": [],
+          "overlappingItisTsns": []
+        },
+        {
+          "label": "Dinophyceae (Dinoflagellata)",
+          "overlappingColUsageIds": [],
+          "overlappingItisTsns": []
+        },
+        {
+          "label": "Euglenozoa",
+          "overlappingColUsageIds": [],
+          "overlappingItisTsns": []
+        },
+        {
+          "label": "Glaucophyta",
+          "overlappingColUsageIds": [],
+          "overlappingItisTsns": []
+        },
+        {
+          "label": "Haptophyta",
+          "overlappingColUsageIds": [],
+          "overlappingItisTsns": []
+        },
+        {
+          "label": "Labyrinthulomycetes",
+          "overlappingColUsageIds": [],
+          "overlappingItisTsns": []
+        },
+        {
+          "label": "Metamonada",
+          "overlappingColUsageIds": [],
+          "overlappingItisTsns": []
+        },
+        {
+          "label": "Ochrophyta",
+          "overlappingColUsageIds": [],
+          "overlappingItisTsns": []
+        },
+        {
+          "label": "itis-oomycota-sidecar.json",
+          "overlappingColUsageIds": [],
+          "overlappingItisTsns": []
+        },
+        {
+          "label": "Opalozoa",
+          "overlappingColUsageIds": [],
+          "overlappingItisTsns": []
+        },
+        {
+          "label": "Perkinsozoa",
+          "overlappingColUsageIds": [],
+          "overlappingItisTsns": []
+        },
+        {
+          "label": "Radiolaria",
+          "overlappingColUsageIds": [],
+          "overlappingItisTsns": []
+        },
+        {
+          "label": "Rhodophyta",
+          "overlappingColUsageIds": [],
+          "overlappingItisTsns": []
+        }
+      ],
+      "decision": "No exact Picozoa root exists in either pinned source. Zero rows are the complete truthful result for this release; nearby names are not taxonomic proxies."
+    },
+    "maximumUpdateDates": {
+      "taxonomicUnits": "2026-08-26",
+      "synonymLinks": "2026-08-26"
+    }
+  },
+  "rootBoundaryAudit": {
+    "colRegistryManifestPath": "data/catalogue-of-life/releases/2026-08-20/registry/manifest.json",
+    "colRegistryManifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151",
+    "colExactRootCandidates": [],
+    "colNearRootCandidates": [],
+    "itisExactRootCandidates": [],
+    "itisContainsNameCandidates": [],
+    "itisNearbyNameCandidates": [],
+    "existingPartitions": [
+      {
+        "label": "Amoebozoa",
+        "descriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-amoebozoa-sidecar.json",
+        "colRootUsageId": "622B2",
+        "itisRootTsn": null,
+        "records": 1337,
+        "colFiles": 1,
+        "upstreamFiles": 1
+      },
+      {
+        "label": "Cryptosporidium Tyzzer, 1907",
+        "descriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-apicomplexa-sidecar.json",
+        "colRootUsageId": "87FBN",
+        "itisRootTsn": "553099",
+        "records": 21,
+        "colFiles": 1,
+        "upstreamFiles": 1
+      },
+      {
+        "label": "Bigyra",
+        "descriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-bigyra-sidecar.json",
+        "colRootUsageId": "622CB",
+        "itisRootTsn": "969916",
+        "records": 53,
+        "colFiles": 1,
+        "upstreamFiles": 1
+      },
+      {
+        "label": "Cercozoa",
+        "descriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-cercozoa-sidecar.json",
+        "colRootUsageId": "35",
+        "itisRootTsn": "969919",
+        "records": 52,
+        "colFiles": 1,
+        "upstreamFiles": 1
+      },
+      {
+        "label": "Chlorophyta",
+        "descriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-chlorophyta-sidecar.json",
+        "colRootUsageId": null,
+        "itisRootTsn": "5414",
+        "records": 0,
+        "colFiles": 0,
+        "upstreamFiles": 1
+      },
+      {
+        "label": "Choanoflagellatea",
+        "descriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-choanoflagellatea-sidecar.json",
+        "colRootUsageId": null,
+        "itisRootTsn": null,
+        "records": 0,
+        "colFiles": 1,
+        "upstreamFiles": 1
+      },
+      {
+        "label": "Ciliophora",
+        "descriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-ciliophora-sidecar.json",
+        "colRootUsageId": "3H",
+        "itisRootTsn": "46211",
+        "records": 8507,
+        "colFiles": 3,
+        "upstreamFiles": 1
+      },
+      {
+        "label": "Cryptophyta",
+        "descriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-cryptophyta-sidecar.json",
+        "colRootUsageId": null,
+        "itisRootTsn": null,
+        "records": 0,
+        "colFiles": 0,
+        "upstreamFiles": 1
+      },
+      {
+        "label": "Dinophyceae (Dinoflagellata)",
+        "descriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-dinoflagellata-sidecar.json",
+        "colRootUsageId": "622D3",
+        "itisRootTsn": "9874",
+        "records": 259,
+        "colFiles": 1,
+        "upstreamFiles": 1
+      },
+      {
+        "label": "Euglenozoa",
+        "descriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-euglenozoa-sidecar.json",
+        "colRootUsageId": null,
+        "itisRootTsn": "9601",
+        "records": 0,
+        "colFiles": 0,
+        "upstreamFiles": 1
+      },
+      {
+        "label": "Glaucophyta",
+        "descriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-glaucophyta-sidecar.json",
+        "colRootUsageId": null,
+        "itisRootTsn": "846495",
+        "records": 0,
+        "colFiles": 0,
+        "upstreamFiles": 1
+      },
+      {
+        "label": "Haptophyta",
+        "descriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-haptophyta-sidecar.json",
+        "colRootUsageId": null,
+        "itisRootTsn": "2134",
+        "records": 0,
+        "colFiles": 0,
+        "upstreamFiles": 1
+      },
+      {
+        "label": "Labyrinthulomycetes",
+        "descriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-labyrinthulomycetes-sidecar.json",
+        "colRootUsageId": null,
+        "itisRootTsn": null,
+        "records": 0,
+        "colFiles": 1,
+        "upstreamFiles": 1
+      },
+      {
+        "label": "Metamonada",
+        "descriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-metamonada-sidecar.json",
+        "colRootUsageId": null,
+        "itisRootTsn": null,
+        "records": 0,
+        "colFiles": 0,
+        "upstreamFiles": 0
+      },
+      {
+        "label": "Ochrophyta",
+        "descriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-ochrophyta-sidecar.json",
+        "colRootUsageId": "5H",
+        "itisRootTsn": "969917",
+        "records": 1101,
+        "colFiles": 1,
+        "upstreamFiles": 1
+      },
+      {
+        "label": "itis-oomycota-sidecar.json",
+        "descriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-oomycota-sidecar.json",
+        "colRootUsageId": "5K",
+        "itisRootTsn": null,
+        "records": 1426,
+        "colFiles": 1,
+        "upstreamFiles": 1
+      },
+      {
+        "label": "Opalozoa",
+        "descriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-opalozoa-sidecar.json",
+        "colRootUsageId": null,
+        "itisRootTsn": null,
+        "records": 0,
+        "colFiles": 0,
+        "upstreamFiles": 1
+      },
+      {
+        "label": "Perkinsozoa",
+        "descriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-perkinsozoa-sidecar.json",
+        "colRootUsageId": null,
+        "itisRootTsn": null,
+        "records": 0,
+        "colFiles": 0,
+        "upstreamFiles": 0
+      },
+      {
+        "label": "Radiolaria",
+        "descriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-radiolaria-sidecar.json",
+        "colRootUsageId": null,
+        "itisRootTsn": null,
+        "records": 0,
+        "colFiles": 0,
+        "upstreamFiles": 1
+      },
+      {
+        "label": "Rhodophyta",
+        "descriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-rhodophyta-sidecar.json",
+        "colRootUsageId": null,
+        "itisRootTsn": "660046",
+        "records": 0,
+        "colFiles": 0,
+        "upstreamFiles": 1
+      }
+    ],
+    "overlapWithExistingPartitions": [
+      {
+        "label": "Amoebozoa",
+        "overlappingColUsageIds": [],
+        "overlappingItisTsns": []
+      },
+      {
+        "label": "Cryptosporidium Tyzzer, 1907",
+        "overlappingColUsageIds": [],
+        "overlappingItisTsns": []
+      },
+      {
+        "label": "Bigyra",
+        "overlappingColUsageIds": [],
+        "overlappingItisTsns": []
+      },
+      {
+        "label": "Cercozoa",
+        "overlappingColUsageIds": [],
+        "overlappingItisTsns": []
+      },
+      {
+        "label": "Chlorophyta",
+        "overlappingColUsageIds": [],
+        "overlappingItisTsns": []
+      },
+      {
+        "label": "Choanoflagellatea",
+        "overlappingColUsageIds": [],
+        "overlappingItisTsns": []
+      },
+      {
+        "label": "Ciliophora",
+        "overlappingColUsageIds": [],
+        "overlappingItisTsns": []
+      },
+      {
+        "label": "Cryptophyta",
+        "overlappingColUsageIds": [],
+        "overlappingItisTsns": []
+      },
+      {
+        "label": "Dinophyceae (Dinoflagellata)",
+        "overlappingColUsageIds": [],
+        "overlappingItisTsns": []
+      },
+      {
+        "label": "Euglenozoa",
+        "overlappingColUsageIds": [],
+        "overlappingItisTsns": []
+      },
+      {
+        "label": "Glaucophyta",
+        "overlappingColUsageIds": [],
+        "overlappingItisTsns": []
+      },
+      {
+        "label": "Haptophyta",
+        "overlappingColUsageIds": [],
+        "overlappingItisTsns": []
+      },
+      {
+        "label": "Labyrinthulomycetes",
+        "overlappingColUsageIds": [],
+        "overlappingItisTsns": []
+      },
+      {
+        "label": "Metamonada",
+        "overlappingColUsageIds": [],
+        "overlappingItisTsns": []
+      },
+      {
+        "label": "Ochrophyta",
+        "overlappingColUsageIds": [],
+        "overlappingItisTsns": []
+      },
+      {
+        "label": "itis-oomycota-sidecar.json",
+        "overlappingColUsageIds": [],
+        "overlappingItisTsns": []
+      },
+      {
+        "label": "Opalozoa",
+        "overlappingColUsageIds": [],
+        "overlappingItisTsns": []
+      },
+      {
+        "label": "Perkinsozoa",
+        "overlappingColUsageIds": [],
+        "overlappingItisTsns": []
+      },
+      {
+        "label": "Radiolaria",
+        "overlappingColUsageIds": [],
+        "overlappingItisTsns": []
+      },
+      {
+        "label": "Rhodophyta",
+        "overlappingColUsageIds": [],
+        "overlappingItisTsns": []
+      }
+    ],
+    "decision": "No exact Picozoa root exists in either pinned source. Zero rows are the complete truthful result for this release; nearby names are not taxonomic proxies."
+  },
+  "matchingContract": {
+    "normalization": [
+      "Remove the exact trailing COL authorship field from COL scientificName when that suffix is present; no authorship parser is used.",
+      "Normalize Unicode to NFC, replace underscores with spaces, collapse Unicode whitespace and trim.",
+      "For species-rank comparison, remove one parenthesized subgenus token in the exact Genus (Subgenus) species representation; genus and specific epithet must remain unchanged.",
+      "Preserve case, diacritics, punctuation and all remaining name tokens."
+    ],
+    "statuses": {
+      "accepted": "Unavailable: neither pinned source defines an exact Picozoa root.",
+      "synonym-current-name-redirect": "Unavailable: neither pinned source defines an exact Picozoa root.",
+      "ambiguous": "Unavailable: neither pinned source defines an exact Picozoa root.",
+      "unmatched": "Unavailable: neither pinned source defines an exact Picozoa root."
+    },
+    "prohibited": "No inferred root, fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered, neighboring-taxon, higher-rank or package-wide matching is used."
+  },
+  "totals": {
+    "total": 0,
+    "accepted": 0,
+    "synonymCurrentNameRedirect": 0,
+    "ambiguous": 0,
+    "unmatched": 0,
+    "itisCurrentSpecies": 0,
+    "itisSpeciesSynonymLinks": 0,
+    "itisUpstreamOnly": 0
+  },
+  "output": {
+    "descriptor": {
+      "path": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-picozoa-sidecar.json",
+      "bytes": 14624,
+      "sha256": "6157968636ea3eeb302e0f8526b15e663d511aa4089d7b8bbe371fb9d1ece9f6"
+    },
+    "colUsageIdShards": [],
+    "upstreamOnly": {
+      "path": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-picozoa-upstream-only-0000.jsonl.gz",
+      "records": 0,
+      "firstColUsageId": null,
+      "lastColUsageId": null,
+      "bytes": 20,
+      "sha256": "9ceffb7310338057cfe71a4ae1e2c98d2c485d81cdef906532a801f457a38d64",
+      "sourceBytes": 0,
+      "sourceSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "colOwnership": null,
+      "firstTsn": null,
+      "lastTsn": null
+    }
+  },
+  "deliveryContract": {
+    "pagesLight": "Pages publishes descriptor summary only and may omit the empty row-level gzip.",
+    "androidIosFull": "Android and iOS retain the complete explicit empty partition and descriptor; no authoritative Picozoa rows are omitted.",
+    "runtimeChange": "This import deliberately changes no formal runtime, release manifest or central integration."
+  },
+  "generatedBy": {
+    "scriptPath": "scripts/build-itis-picozoa-sidecar.mjs",
+    "scriptSha256": "e978a2b61e12549233d31680a92bd527a2a94b7611b6362b79f07c2fe9ab2388",
+    "deterministic": "Pinned input checksums, exact COL and ITIS root audits, named-neighbor audit, existing-partition overlap inventory and deterministic gzip; no fuzzy matching or wall-clock fields."
+  }
+}

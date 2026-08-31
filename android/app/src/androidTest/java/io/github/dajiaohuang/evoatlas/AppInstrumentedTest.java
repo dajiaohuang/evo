@@ -262,6 +262,7 @@ public class AppInstrumentedTest {
         int indexFungorumIdentifierRecords = 0;
         int foraminiferaAuthorityRecords = 0;
         int otherAnimalsItisRecords = 0;
+        int protistsItisRecords = 0;
         int ictvSpeciesRecords = 0;
         int ictvIsolateRecords = 0;
         int wfoSupplementRecords = 0;
@@ -334,7 +335,7 @@ public class AppInstrumentedTest {
                 }
             } else if (packageId.equals("other-animals")) {
                 JSONArray extensions = pack.getJSONArray("extensions");
-                assertEquals(6, extensions.length());
+                assertEquals(26, extensions.length());
                 String[] expectedIds = new String[]{
                     "itis-platyhelminthes-tsn-crosswalk", "itis-rotifera-tsn-crosswalk", "itis-bryozoa-tsn-crosswalk",
                     "itis-nemertea-tsn-crosswalk", "itis-tunicata-cephalochordata-tsn-crosswalk", "itis-acanthocephala-tsn-crosswalk",
@@ -374,7 +375,6 @@ public class AppInstrumentedTest {
                 }
             } else if (packageId.equals("protists-chromists")) {
                 JSONArray extensions = pack.getJSONArray("extensions");
-                assertEquals(1, extensions.length());
                 JSONObject authority = extensions.getJSONObject(0);
                 assertEquals("foraminifera-wfd-identifiers", authority.getString("id"));
                 assertEquals("World Foraminifera Database (WoRMS) through ChecklistBank", authority.getString("provider"));
@@ -391,6 +391,44 @@ public class AppInstrumentedTest {
                     assertEquals(extensionFile.getString("sha256"), extensionInventoryRecord.getString("sha256"));
                     verifyAssetRecord(context, extensionInventoryRecord);
                     foraminiferaAuthorityRecords += extensionFile.getInt("records");
+                }
+                String[] expectedIds = new String[]{
+                    "itis-ciliophora-tsn-crosswalk", "itis-apicomplexa-tsn-crosswalk", "itis-dinoflagellata-tsn-crosswalk",
+                    "itis-euglenozoa-tsn-crosswalk", "itis-cercozoa-tsn-crosswalk", "itis-haptophyta-tsn-crosswalk",
+                    "itis-ochrophyta-tsn-crosswalk", "itis-amoebozoa-tsn-crosswalk", "itis-rhodophyta-tsn-crosswalk",
+                    "itis-oomycota-tsn-crosswalk", "itis-cryptophyta-tsn-crosswalk", "itis-choanoflagellatea-tsn-crosswalk",
+                    "itis-bigyra-tsn-crosswalk", "itis-perkinsozoa-tsn-crosswalk", "itis-labyrinthulomycetes-tsn-crosswalk",
+                    "itis-opalozoa-tsn-crosswalk", "itis-radiolaria-tsn-crosswalk", "itis-metamonada-tsn-crosswalk",
+                    "itis-chlorophyta-tsn-crosswalk", "itis-glaucophyta-tsn-crosswalk", "itis-picozoa-tsn-crosswalk",
+                    "itis-telonemia-tsn-crosswalk", "itis-centrohelida-tsn-crosswalk", "itis-katablepharidota-tsn-crosswalk",
+                    "itis-hemimastigophora-tsn-crosswalk"
+                };
+                int[] expectedFiles = new int[]{4, 1, 2, 1, 1, 1, 2, 1, 1, 2, 0, 0, 1, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0};
+                int[] expectedRecords = new int[]{8665, 21, 1110, 276, 52, 90, 3397, 1337, 1616, 1464, 0, 0, 53, 0, 0, 0, 0, 0, 1416, 4, 0, 0, 0, 0, 0};
+                assertEquals(expectedIds.length + 1, extensions.length());
+                for (int extensionIndex = 0; extensionIndex < expectedIds.length; extensionIndex += 1) {
+                    JSONObject itisAuthority = extensions.getJSONObject(extensionIndex + 1);
+                    assertEquals(expectedIds[extensionIndex], itisAuthority.getString("id"));
+                    assertEquals("Integrated Taxonomic Information System", itisAuthority.getString("provider"));
+                    assertEquals("CC0-1.0", itisAuthority.getJSONObject("source").getString("license"));
+                    JSONObject itisDelivery = itisAuthority.getJSONObject("delivery");
+                    assertEquals("native-full", itisDelivery.getString("profile"));
+                    assertTrue(itisDelivery.getBoolean("completeRows"));
+                    assertEquals(expectedFiles[extensionIndex], itisDelivery.getInt("canonicalFileCount"));
+                    JSONArray itisFiles = itisAuthority.getJSONArray("files");
+                    assertEquals(expectedFiles[extensionIndex], itisFiles.length());
+                    int authorityRecords = 0;
+                    for (int fileIndex = 0; fileIndex < itisFiles.length(); fileIndex += 1) {
+                        JSONObject itisFile = itisFiles.getJSONObject(fileIndex);
+                        JSONObject inventoryRecord = findInventoryRecord(files, itisFile.getString("url"));
+                        assertNotNull("ITIS protists/chromists shard missing from native release inventory", inventoryRecord);
+                        assertEquals(itisFile.getInt("bytes"), inventoryRecord.getInt("bytes"));
+                        assertEquals(itisFile.getString("sha256"), inventoryRecord.getString("sha256"));
+                        verifyAssetRecord(context, inventoryRecord);
+                        authorityRecords += itisFile.getInt("records");
+                    }
+                    assertEquals(expectedRecords[extensionIndex], authorityRecords);
+                    protistsItisRecords += authorityRecords;
                 }
             } else if (packageId.equals("viruses")) {
                 JSONArray extensions = pack.getJSONArray("extensions");
@@ -452,6 +490,7 @@ public class AppInstrumentedTest {
         assertEquals(157044, indexFungorumIdentifierRecords);
         assertEquals(47975, foraminiferaAuthorityRecords);
         assertEquals(62899, otherAnimalsItisRecords);
+        assertEquals(19501, protistsItisRecords);
         assertEquals(17554, ictvSpeciesRecords);
         assertEquals(19285, ictvIsolateRecords);
         assertEquals(61449, wfoSupplementRecords);

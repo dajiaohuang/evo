@@ -1,0 +1,145 @@
+{
+  "schemaVersion": 1,
+  "importType": "COL26.8-to-ITIS-exact-apicomplexa-nomenclatural-sidecar",
+  "generatedFrom": {
+    "sourcePath": "data/sources/itis-2026-08-26.json",
+    "sourceSha256": "38a7a55b4e98cafc66790e47f6bd637e298e23fd691e4771c755b38e4a02d7fc",
+    "itisDatabaseMember": "itisSqlite082626/ITIS.sqlite",
+    "itisDatabaseSha256": "ea7304536cfd7b1e2636d383911ca7931fc83d9ab1194ca2a3c020ea2daf1719",
+    "colRegistryManifestPath": "data/catalogue-of-life/releases/2026-08-20/registry/manifest.json",
+    "colRegistryManifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151",
+    "colOwnershipPath": "data/registry/package-species-coverage.json",
+    "colOwnershipSha256": "a297bc8a67ce60806fdee733464a79bfcc42e255f7e59535b01f94013c19dfea",
+    "resourcePackManifestPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/manifest.json",
+    "resourcePackManifestSha256": "d64df29f13c512e930e16d002f847011b5f18bcb6aba920bfcd75d9f6938bba4"
+  },
+  "scopeAudit": {
+    "colRootUsageId": "87FBN",
+    "colRootScientificName": "Cryptosporidium Tyzzer, 1907",
+    "colRootRank": "genus",
+    "colStrictAcceptedSpecies": 21,
+    "packageStrictAcceptedSpecies": 61518,
+    "packageOutOfScopeStrictAcceptedSpecies": 61497,
+    "boundary": "COL26.8 does not expose an Apicomplexa parent node in this package. Its complete represented Apicomplexa lineage is the exact Cryptosporidium genus 87FBN under Miozoa 57; no sibling Miozoa or Protozoa species are included.",
+    "mixedResourcePack": {
+      "packageId": "protists-chromists",
+      "manifestPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/manifest.json",
+      "manifestSha256": "d64df29f13c512e930e16d002f847011b5f18bcb6aba920bfcd75d9f6938bba4",
+      "acceptedSpeciesCount": 61518,
+      "inScopeSpecies": 21,
+      "outOfScopeSpecies": 61497,
+      "packageSourceDatasetCounts": {
+        "1033": 96,
+        "1053": 1337,
+        "1109": 444,
+        "1113": 8505,
+        "1157": 47975,
+        "1177": 259,
+        "2073": 1778,
+        "2144": 1122,
+        "null": 2
+      },
+      "apicomplexaSourceDatasetCounts": {
+        "2144": 21
+      },
+      "outOfScopeBoundary": "All remaining Protists and Chromists accepted species are outside the exact COL Cryptosporidium lineage and receive no ITIS Apicomplexa match in this sidecar."
+    },
+    "rootBoundaryAudit": {
+      "selectedItisRoot": {
+        "tsn": "553099",
+        "scientificName": "Apicomplexa",
+        "rank": "Phylum",
+        "usage": "valid"
+      },
+      "broaderItisRoot": {
+        "tsn": "630577",
+        "scientificName": "Protozoa",
+        "rank": "Kingdom",
+        "usage": "valid"
+      },
+      "selectedCurrentSpecies": 21,
+      "broaderCurrentSpecies": 2277,
+      "colRepresentation": {
+        "rootUsageId": "87FBN",
+        "scientificName": "Cryptosporidium Tyzzer, 1907",
+        "rank": "genus",
+        "parentUsageId": "57",
+        "parentScientificName": "Miozoa"
+      },
+      "decision": "Use the valid ITIS Apicomplexa phylum TSN 553099. COL26.8 represents the entire matching scope as the exact Cryptosporidium genus under Miozoa, not as an Apicomplexa node; expanding to Miozoa would include Dinophyceae and create a false cross-root coverage claim."
+    },
+    "itisCurrentSpecies": 21,
+    "itisSpeciesSynonymLinks": 6,
+    "maximumUpdateDates": {
+      "taxonomicUnits": "2026-08-26",
+      "synonymLinks": "2026-08-26"
+    }
+  },
+  "matchingContract": {
+    "normalization": [
+      "Remove the exact trailing COL authorship field from COL scientificName when that suffix is present; no authorship parser is used.",
+      "Normalize Unicode to NFC, replace underscores with spaces, collapse Unicode whitespace and trim.",
+      "For species-rank comparison, remove one parenthesized subgenus token in the exact Genus (Subgenus) species representation; genus and specific epithet must remain unchanged.",
+      "Preserve case, diacritics, punctuation and all remaining name tokens."
+    ],
+    "statuses": {
+      "accepted": "The normalized COL name resolves to exactly one valid ITIS Apicomplexa species and directly equals that current ITIS name.",
+      "synonym-current-name-redirect": "The normalized COL name equals official ITIS invalid species-name evidence that resolves to exactly one valid ITIS Apicomplexa species.",
+      "ambiguous": "The normalized exact evidence resolves to more than one valid ITIS Apicomplexa species TSN.",
+      "unmatched": "No normalized exact valid-name or official ITIS species-synonym evidence resolves to a valid ITIS Apicomplexa species."
+    },
+    "prohibited": "No fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered or taxon-substituted matching is used."
+  },
+  "totals": {
+    "total": 21,
+    "accepted": 21,
+    "synonymCurrentNameRedirect": 0,
+    "ambiguous": 0,
+    "unmatched": 0,
+    "itisCurrentSpecies": 21,
+    "itisSpeciesSynonymLinks": 6,
+    "itisUpstreamOnly": 0
+  },
+  "output": {
+    "descriptor": {
+      "path": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-apicomplexa-sidecar.json",
+      "bytes": 6911,
+      "sha256": "47c4db47df47bd8fab8af7f1345330154f93ab54e1d4fc9580201a1256cef328"
+    },
+    "colUsageIdShards": [
+      {
+        "path": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-apicomplexa-sidecar-0000.jsonl.gz",
+        "records": 21,
+        "firstColUsageId": "322PR",
+        "lastColUsageId": "6BNHZ",
+        "bytes": 1259,
+        "sha256": "a7412a589e0abab4034370f547f963e2c1253014980fe4e1e67293bd03c622b2",
+        "sourceBytes": 9055,
+        "sourceSha256": "cb8530e781aa980095045fe0c9cc753dea9ed6f01c27d2ec119f67812bfe5ac1"
+      }
+    ],
+    "upstreamOnly": {
+      "path": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-apicomplexa-upstream-only-0000.jsonl.gz",
+      "records": 0,
+      "firstColUsageId": null,
+      "lastColUsageId": null,
+      "bytes": 21,
+      "sha256": "74420f89d2d2a4256b5b578f1c2a01dd2b605f9aca4905db839d008cfd29cac0",
+      "sourceBytes": 1,
+      "sourceSha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "colOwnership": null,
+      "firstTsn": null,
+      "lastTsn": null
+    }
+  },
+  "deliveryContract": {
+    "pagesLight": "Pages needs only this small descriptor and may omit all row-level JSONL gzip shards.",
+    "androidIosFull": "Android and iOS complete-data inventories must include the descriptor and every listed row-level shard as the same checksum-addressed bytes.",
+    "runtimeChange": "This import deliberately changes no formal runtime or published release manifest."
+  },
+  "generatedBy": {
+    "scriptPath": "scripts/build-itis-apicomplexa-sidecar.mjs",
+    "scriptSha256": "ffb10d4694b49da13be080a6609ce741edf657c3d522d6a482398f69a9aba22f",
+    "deterministic": "Pinned input checksums, exact roots, exact SQL, representation-only normalization, code-unit ID ordering and deterministic gzip; no wall-clock fields or fuzzy matching."
+  }
+}

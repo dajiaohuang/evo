@@ -1041,7 +1041,38 @@ export interface CatalogueItisOtherAnimalsResourcePackExtension {
   }
 }
 
-export type CatalogueResourcePackExtension = CatalogueLpsnResourcePackExtension | CatalogueIctvResourcePackExtension | CatalogueWfoPlantResourcePackExtension | CatalogueIndexFungorumResourcePackExtension | CatalogueForaminiferaResourcePackExtension | CatalogueItisOtherAnimalsResourcePackExtension
+export type CatalogueItisProtistsScope =
+  | 'ciliophora'
+  | 'apicomplexa'
+  | 'dinoflagellata'
+  | 'euglenozoa'
+  | 'cercozoa'
+  | 'haptophyta'
+  | 'ochrophyta'
+  | 'amoebozoa'
+  | 'rhodophyta'
+  | 'oomycota'
+  | 'cryptophyta'
+  | 'choanoflagellatea'
+  | 'bigyra'
+  | 'perkinsozoa'
+  | 'labyrinthulomycetes'
+  | 'opalozoa'
+  | 'radiolaria'
+  | 'metamonada'
+  | 'chlorophyta'
+  | 'glaucophyta'
+  | 'picozoa'
+  | 'telonemia'
+  | 'centrohelida'
+  | 'katablepharidota'
+  | 'hemimastigophora'
+
+export interface CatalogueItisProtistsResourcePackExtension extends Omit<CatalogueItisOtherAnimalsResourcePackExtension, 'id'> {
+  id: `itis-${CatalogueItisProtistsScope}-tsn-crosswalk`
+}
+
+export type CatalogueResourcePackExtension = CatalogueLpsnResourcePackExtension | CatalogueIctvResourcePackExtension | CatalogueWfoPlantResourcePackExtension | CatalogueIndexFungorumResourcePackExtension | CatalogueForaminiferaResourcePackExtension | CatalogueItisOtherAnimalsResourcePackExtension | CatalogueItisProtistsResourcePackExtension
 
 export interface CatalogueResourcePackManifest {
   schemaVersion: 1

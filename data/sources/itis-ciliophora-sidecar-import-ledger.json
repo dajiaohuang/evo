@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 1,
+  "importType": "COL26.8-to-ITIS-exact-ciliophora-nomenclatural-sidecar",
+  "generatedFrom": {
+    "sourcePath": "data/sources/itis-2026-08-26.json",
+    "sourceSha256": "38a7a55b4e98cafc66790e47f6bd637e298e23fd691e4771c755b38e4a02d7fc",
+    "itisDatabaseMember": "itisSqlite082626/ITIS.sqlite",
+    "itisDatabaseSha256": "ea7304536cfd7b1e2636d383911ca7931fc83d9ab1194ca2a3c020ea2daf1719",
+    "colRegistryManifestPath": "data/catalogue-of-life/releases/2026-08-20/registry/manifest.json",
+    "colRegistryManifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151",
+    "colOwnershipPath": "data/registry/package-species-coverage.json",
+    "colOwnershipSha256": "a297bc8a67ce60806fdee733464a79bfcc42e255f7e59535b01f94013c19dfea"
+  },
+  "scopeAudit": {
+    "packageRootUsageId": "N",
+    "packageRootScientificName": "Animalia",
+    "colRootUsageId": "3H",
+    "colRootScientificName": "Ciliophora",
+    "colStrictAcceptedSpecies": 8507,
+    "packageStrictAcceptedSpecies": 99161,
+    "packageOutOfScopeStrictAcceptedSpecies": 90654,
+    "nonApplicableRemainder": "All other strict accepted COL26.8 species assigned to Other Animals remain outside this Ciliophora sidecar.",
+    "boundary": "This sidecar covers only strict accepted COL26.8 species descending from exact Ciliophora root 3H; all remaining mixed-pack species are explicitly out of scope.",
+    "itisRoot": {
+      "tsn": "46211",
+      "scientificName": "Ciliophora",
+      "rank": "Phylum",
+      "usage": "valid"
+    },
+    "itisCurrentSpecies": 410,
+    "itisSpeciesSynonymLinks": 16,
+    "maximumUpdateDates": {
+      "taxonomicUnits": "2026-08-26",
+      "synonymLinks": "2026-08-26"
+    }
+  },
+  "matchingContract": {
+    "normalization": [
+      "Remove the exact trailing COL authorship field from COL scientificName when that suffix is present; no authorship parser is used.",
+      "Normalize Unicode to NFC, replace underscores with spaces, collapse Unicode whitespace and trim.",
+      "For species-rank comparison, remove one parenthesized subgenus token in the exact Genus (Subgenus) species representation; genus and specific epithet must remain unchanged.",
+      "Preserve case, diacritics, punctuation and all remaining name tokens."
+    ],
+    "statuses": {
+      "accepted": "The normalized COL name resolves to exactly one valid ITIS Ciliophora species and directly equals that current ITIS name.",
+      "synonym-current-name-redirect": "The normalized COL name equals official ITIS invalid species-name evidence that resolves to exactly one valid ITIS Ciliophora species.",
+      "ambiguous": "The normalized exact evidence resolves to more than one valid ITIS Ciliophora species TSN.",
+      "unmatched": "No normalized exact valid-name or official ITIS species-synonym evidence resolves to a valid ITIS Ciliophora species."
+    },
+    "prohibited": "No fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered or taxon-substituted matching is used."
+  },
+  "totals": {
+    "total": 8507,
+    "accepted": 246,
+    "synonymCurrentNameRedirect": 6,
+    "ambiguous": 0,
+    "unmatched": 8255,
+    "itisCurrentSpecies": 410,
+    "itisSpeciesSynonymLinks": 16,
+    "itisUpstreamOnly": 158
+  },
+  "output": {
+    "descriptor": {
+      "path": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-ciliophora-sidecar.json",
+      "bytes": 6235,
+      "sha256": "0e84462801c9b0aa582feb2b3eed454cad86d037e957576a29f4fcf2fbdb3fc9"
+    },
+    "colUsageIdShards": [
+      {
+        "path": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-ciliophora-sidecar-0000.jsonl.gz",
+        "records": 2854,
+        "firstColUsageId": "3245V",
+        "lastColUsageId": "4ZNWN",
+        "bytes": 62192,
+        "sha256": "88efb2f43c6f358800248afd79273163984334ce1a51403d18db33f44afe1abd",
+        "sourceBytes": 524240,
+        "sourceSha256": "86151b0b74de138cbadefebb81e857573d351f04ef8a3e595d1f06d6f7d5e2a0"
+      },
+      {
+        "path": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-ciliophora-sidecar-0001.jsonl.gz",
+        "records": 2864,
+        "firstColUsageId": "4ZNWP",
+        "lastColUsageId": "6T9QG",
+        "bytes": 61735,
+        "sha256": "1dba33b3fb2db946b2bbd69216f0da3df6a3cce3545fc7a202582eeaa1954727",
+        "sourceBytes": 524142,
+        "sourceSha256": "a0e3eed57b9cfd9ee05035bba780f8fc1452a5f76789811943e36ed733fd7ddb"
+      },
+      {
+        "path": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-ciliophora-sidecar-0002.jsonl.gz",
+        "records": 2789,
+        "firstColUsageId": "6TGSV",
+        "lastColUsageId": "ZYHS",
+        "bytes": 60421,
+        "sha256": "c6d177a357004c70e30f53a335b315795d29d4a5f53c2f371acc6ca0550b96ff",
+        "sourceBytes": 501381,
+        "sourceSha256": "ad3b54ff8f914434fdebde94b35e36a48fc1f86828c545340a4dab69fb8aac85"
+      }
+    ],
+    "upstreamOnly": {
+      "path": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-ciliophora-upstream-only-0000.jsonl.gz",
+      "records": 158,
+      "firstColUsageId": null,
+      "lastColUsageId": null,
+      "bytes": 2620,
+      "sha256": "848f9f72d258983c4c45e422a00065f7b9a31294ed4a35ec514d74a72ebf4cd4",
+      "sourceBytes": 58557,
+      "sourceSha256": "2b45453c63f91ed31171cdc64f32b60ba286d5bd2eb9a49bd7f5f2424200f2ad",
+      "colOwnership": null,
+      "firstTsn": "46218",
+      "lastTsn": "610065"
+    }
+  },
+  "deliveryContract": {
+    "pagesLight": "Pages needs only this small descriptor and may omit all row-level JSONL gzip shards.",
+    "androidIosFull": "Android and iOS complete-data inventories must include the descriptor and every listed row-level shard as the same checksum-addressed bytes.",
+    "runtimeChange": "This import deliberately changes no formal runtime or published release manifest."
+  },
+  "generatedBy": {
+    "scriptPath": "scripts/build-itis-ciliophora-sidecar.mjs",
+    "scriptSha256": "c05b9acf7d3294c98838e5f3460633ada12f4addb92642b35404fe5e26114063",
+    "deterministic": "Pinned input checksums, fixed roots, exact SQL, exact representation-only normalization, code-unit ID ordering and deterministic gzip; no wall-clock fields or fuzzy matching."
+  }
+}

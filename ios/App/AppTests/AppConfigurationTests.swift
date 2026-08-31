@@ -216,6 +216,7 @@ final class AppConfigurationTests: XCTestCase {
         var indexFungorumIdentifierRecords = 0
         var foraminiferaAuthorityRecords = 0
         var otherAnimalsItisRecords = 0
+        var protistsItisRecords = 0
         var ictvSpeciesRecords = 0
         var ictvIsolateRecords = 0
         var wfoSupplementRecords = 0
@@ -286,7 +287,7 @@ final class AppConfigurationTests: XCTestCase {
                 }
             } else if packageId == "other-animals" {
                 let extensions = try XCTUnwrap(pack["extensions"] as? [[String: Any]])
-                XCTAssertEqual(extensions.count, 6)
+                XCTAssertEqual(extensions.count, 26)
                 let expectedIds = [
                     "itis-platyhelminthes-tsn-crosswalk", "itis-rotifera-tsn-crosswalk", "itis-bryozoa-tsn-crosswalk",
                     "itis-nemertea-tsn-crosswalk", "itis-tunicata-cephalochordata-tsn-crosswalk", "itis-acanthocephala-tsn-crosswalk",
@@ -324,8 +325,7 @@ final class AppConfigurationTests: XCTestCase {
                 }
             } else if packageId == "protists-chromists" {
                 let extensions = try XCTUnwrap(pack["extensions"] as? [[String: Any]])
-                XCTAssertEqual(extensions.count, 1)
-                let authority = try XCTUnwrap(extensions.first)
+                let authority = try XCTUnwrap(extensions.first { ($0["id"] as? String) == "foraminifera-wfd-identifiers" })
                 XCTAssertEqual(authority["id"] as? String, "foraminifera-wfd-identifiers")
                 XCTAssertEqual(authority["provider"] as? String, "World Foraminifera Database (WoRMS) through ChecklistBank")
                 let delivery = try XCTUnwrap(authority["delivery"] as? [String: Any])
@@ -340,6 +340,44 @@ final class AppConfigurationTests: XCTestCase {
                     XCTAssertEqual(extensionFile["sha256"] as? String, inventoryRecord["sha256"] as? String)
                     try verifyBundled(record: inventoryRecord, below: dataRoot)
                     foraminiferaAuthorityRecords += try XCTUnwrap(extensionFile["records"] as? Int)
+                }
+                let expectedIds = [
+                    "itis-ciliophora-tsn-crosswalk", "itis-apicomplexa-tsn-crosswalk", "itis-dinoflagellata-tsn-crosswalk",
+                    "itis-euglenozoa-tsn-crosswalk", "itis-cercozoa-tsn-crosswalk", "itis-haptophyta-tsn-crosswalk",
+                    "itis-ochrophyta-tsn-crosswalk", "itis-amoebozoa-tsn-crosswalk", "itis-rhodophyta-tsn-crosswalk",
+                    "itis-oomycota-tsn-crosswalk", "itis-cryptophyta-tsn-crosswalk", "itis-choanoflagellatea-tsn-crosswalk",
+                    "itis-bigyra-tsn-crosswalk", "itis-perkinsozoa-tsn-crosswalk", "itis-labyrinthulomycetes-tsn-crosswalk",
+                    "itis-opalozoa-tsn-crosswalk", "itis-radiolaria-tsn-crosswalk", "itis-metamonada-tsn-crosswalk",
+                    "itis-chlorophyta-tsn-crosswalk", "itis-glaucophyta-tsn-crosswalk", "itis-picozoa-tsn-crosswalk",
+                    "itis-telonemia-tsn-crosswalk",
+                    "itis-centrohelida-tsn-crosswalk", "itis-katablepharidota-tsn-crosswalk",
+                    "itis-hemimastigophora-tsn-crosswalk",
+                ]
+                let expectedFiles = [4, 1, 2, 1, 1, 1, 2, 1, 1, 2, 0, 0, 1, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0]
+                let expectedRecords = [8_665, 21, 1_110, 276, 52, 90, 3_397, 1_337, 1_616, 1_464, 0, 0, 53, 0, 0, 0, 0, 0, 1_416, 4, 0, 0, 0, 0, 0]
+                let itisAuthorities = extensions.filter { ($0["provider"] as? String) == "Integrated Taxonomic Information System" }
+                XCTAssertEqual(extensions.count, expectedIds.count + 1)
+                XCTAssertEqual(itisAuthorities.count, expectedIds.count)
+                for (extensionIndex, itisAuthority) in itisAuthorities.enumerated() {
+                    XCTAssertEqual(itisAuthority["id"] as? String, expectedIds[extensionIndex])
+                    XCTAssertEqual((itisAuthority["source"] as? [String: Any])?["license"] as? String, "CC0-1.0")
+                    let itisDelivery = try XCTUnwrap(itisAuthority["delivery"] as? [String: Any])
+                    XCTAssertEqual(itisDelivery["profile"] as? String, "native-full")
+                    XCTAssertEqual(itisDelivery["completeRows"] as? Bool, true)
+                    XCTAssertEqual(itisDelivery["canonicalFileCount"] as? Int, expectedFiles[extensionIndex])
+                    let itisFiles = try XCTUnwrap(itisAuthority["files"] as? [[String: Any]])
+                    XCTAssertEqual(itisFiles.count, expectedFiles[extensionIndex])
+                    var authorityRecords = 0
+                    for itisFile in itisFiles {
+                        let path = try XCTUnwrap(itisFile["url"] as? String)
+                        let inventoryRecord = try XCTUnwrap(files.first { ($0["url"] as? String) == path }, "ITIS protists/chromists shard missing from native release inventory")
+                        XCTAssertEqual(itisFile["bytes"] as? Int, inventoryRecord["bytes"] as? Int)
+                        XCTAssertEqual(itisFile["sha256"] as? String, inventoryRecord["sha256"] as? String)
+                        try verifyBundled(record: inventoryRecord, below: dataRoot)
+                        authorityRecords += try XCTUnwrap(itisFile["records"] as? Int)
+                    }
+                    XCTAssertEqual(authorityRecords, expectedRecords[extensionIndex])
+                    protistsItisRecords += authorityRecords
                 }
             } else if packageId == "viruses" {
                 let extensions = try XCTUnwrap(pack["extensions"] as? [[String: Any]])
@@ -399,6 +437,7 @@ final class AppConfigurationTests: XCTestCase {
         XCTAssertEqual(indexFungorumIdentifierRecords, 157_044)
         XCTAssertEqual(foraminiferaAuthorityRecords, 47_975)
         XCTAssertEqual(otherAnimalsItisRecords, 62_899)
+        XCTAssertEqual(protistsItisRecords, 19_501)
         XCTAssertEqual(ictvSpeciesRecords, 17_554)
         XCTAssertEqual(ictvIsolateRecords, 19_285)
         XCTAssertEqual(wfoSupplementRecords, 61_449)

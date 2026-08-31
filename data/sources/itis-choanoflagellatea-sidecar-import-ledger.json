@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 1,
+  "importType": "COL26.8-to-ITIS-exact-choanoflagellatea-zero-root-audit",
+  "generatedFrom": {
+    "sourcePath": "data/sources/itis-2026-08-26.json",
+    "sourceSha256": "38a7a55b4e98cafc66790e47f6bd637e298e23fd691e4771c755b38e4a02d7fc",
+    "itisDatabaseMember": "itisSqlite082626/ITIS.sqlite",
+    "itisDatabaseSha256": "ea7304536cfd7b1e2636d383911ca7931fc83d9ab1194ca2a3c020ea2daf1719",
+    "colRegistryManifestPath": "data/catalogue-of-life/releases/2026-08-20/registry/manifest.json",
+    "colRegistryManifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151",
+    "colPackageManifestPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/manifest.json",
+    "colPackageManifestSha256": "c128d8403a2a51533fe0cc752dc05519694cac6891ae6a52508290d02e284da9",
+    "colOwnershipPath": "data/registry/package-species-coverage.json",
+    "colOwnershipSha256": "677935a0f456800b41dbf7396578fb256423e5fc52a624c589ea7b4bc21ee033"
+  },
+  "scopeAudit": {
+    "packageRootUsageIds": [
+      "C",
+      "Z"
+    ],
+    "packageRootScientificNames": [
+      "Chromista",
+      "Protozoa"
+    ],
+    "colRootUsageId": null,
+    "colRootScientificName": "Choanoflagellatea",
+    "colStrictAcceptedSpecies": 0,
+    "packageStrictAcceptedSpecies": 61518,
+    "packageOutOfScopeStrictAcceptedSpecies": 61518,
+    "boundary": "No exact COL26.8 Choanoflagellatea root exists in the pinned registry; no species are inferred from a nearby kingdom, phylum or order. The declared Protists and Chromists owner remains the package boundary.",
+    "rootBoundaryAudit": {
+      "colExactNameCandidates": [],
+      "itisExactNameCandidates": [],
+      "itisNearbyNameCandidates": [
+        {
+          "tsn": 43811,
+          "scientific_name": "Choanoflagellida",
+          "rank_name": "Order",
+          "name_usage": "valid",
+          "parent_tsn": 43810
+        }
+      ],
+      "selectedColRoot": null,
+      "selectedItisRoot": null,
+      "decision": "No exact COL26.8 Choanoflagellatea root and no exact ITIS Choanoflagellatea root exist in the pinned snapshots. ITIS Choanoflagellida is recorded only as a nearby non-substitute; no crosswalk rows or ITIS-only rows are asserted."
+    },
+    "maximumUpdateDates": {
+      "taxonomicUnits": "2026-08-26",
+      "synonymLinks": "2026-08-26"
+    }
+  },
+  "matchingContract": {
+    "normalization": [
+      "Remove the exact trailing COL authorship field from COL scientificName when that suffix is present; no authorship parser is used.",
+      "Normalize Unicode to NFC, replace underscores with spaces, collapse Unicode whitespace and trim.",
+      "For species-rank comparison, remove one parenthesized subgenus token in the exact Genus (Subgenus) species representation; genus and specific epithet must remain unchanged.",
+      "Preserve case, diacritics, punctuation and all remaining name tokens."
+    ],
+    "statuses": {
+      "accepted": "Unavailable: the pinned COL registry has no exact Choanoflagellatea root.",
+      "synonym-current-name-redirect": "Unavailable: the pinned COL registry has no exact Choanoflagellatea root.",
+      "ambiguous": "Unavailable: the pinned COL registry has no exact Choanoflagellatea root.",
+      "unmatched": "No Choanoflagellatea scope exists to match; no nearby taxon is substituted."
+    },
+    "prohibited": "No fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered, kingdom-wide, package-wide or taxon-substituted matching is used."
+  },
+  "totals": {
+    "total": 0,
+    "accepted": 0,
+    "synonymCurrentNameRedirect": 0,
+    "ambiguous": 0,
+    "unmatched": 0,
+    "itisCurrentSpecies": 0,
+    "itisSpeciesSynonymLinks": 0,
+    "itisUpstreamOnly": 0
+  },
+  "output": {
+    "descriptor": {
+      "path": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-choanoflagellatea-sidecar.json",
+      "bytes": 6688,
+      "sha256": "5ee74618b9921ed6952272063d042bb4cd34ebe818605089bdcac235df018b63"
+    },
+    "colUsageIdShards": [
+      {
+        "path": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-choanoflagellatea-sidecar-0000.jsonl.gz",
+        "records": 0,
+        "firstColUsageId": null,
+        "lastColUsageId": null,
+        "bytes": 21,
+        "sha256": "74420f89d2d2a4256b5b578f1c2a01dd2b605f9aca4905db839d008cfd29cac0",
+        "sourceBytes": 1,
+        "sourceSha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+      }
+    ],
+    "upstreamOnly": {
+      "path": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-choanoflagellatea-upstream-only-0000.jsonl.gz",
+      "records": 0,
+      "firstColUsageId": null,
+      "lastColUsageId": null,
+      "bytes": 21,
+      "sha256": "74420f89d2d2a4256b5b578f1c2a01dd2b605f9aca4905db839d008cfd29cac0",
+      "sourceBytes": 1,
+      "sourceSha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "colOwnership": null,
+      "firstTsn": null,
+      "lastTsn": null
+    }
+  },
+  "deliveryContract": {
+    "pagesLight": "Pages needs only this small descriptor and may omit both empty row-level JSONL gzip shards.",
+    "androidIosFull": "Android and iOS complete-data inventories must include the descriptor and both listed empty checksum-addressed shards.",
+    "runtimeChange": "This import deliberately changes no formal runtime or published release manifest."
+  },
+  "generatedBy": {
+    "scriptPath": "scripts/build-itis-choanoflagellatea-sidecar.mjs",
+    "scriptSha256": "fef6287eca1274b5f6103394910fa88a9541bf81423ce682c5790f2046136005",
+    "deterministic": "Pinned input checksums, exact missing-root audits, fixed package ownership, representation-only normalization and deterministic gzip; no wall-clock fields or fuzzy matching."
+  }
+}

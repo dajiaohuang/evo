@@ -199,6 +199,4077 @@
           "requestPolicy": "Select the sole inclusive minColId/maxColId shard for a query and load at most that one shard."
         }
       }
+    },
+    {
+      "id": "itis-ciliophora-tsn-crosswalk",
+      "recordType": "release-pinned-exact-nomenclatural-crosswalk",
+      "provider": "Integrated Taxonomic Information System",
+      "source": {
+        "datasetId": "itis-2026-08-26",
+        "exportDate": "2026-08-26",
+        "rootTsn": "46211",
+        "license": "CC0-1.0",
+        "citationDoi": "10.5066/F7KH0KBK",
+        "canonicalDescriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-ciliophora-sidecar.json",
+        "canonicalDescriptorBytes": 6235,
+        "canonicalDescriptorSha256": "0e84462801c9b0aa582feb2b3eed454cad86d037e957576a29f4fcf2fbdb3fc9"
+      },
+      "scope": {
+        "colRootUsageId": "3H",
+        "colRootScientificName": "Ciliophora",
+        "colStrictAcceptedSpecies": 8507,
+        "packageStrictAcceptedSpecies": 61518,
+        "packageOutOfScopeStrictAcceptedSpecies": 53011,
+        "nonApplicableRemainder": "All other strict accepted COL26.8 species assigned to Protists and Chromists remain outside this Ciliophora sidecar.",
+        "boundary": "This sidecar covers only strict accepted COL26.8 species descending from exact Ciliophora root 3H; all remaining mixed-pack species are explicitly out of scope.",
+        "packageRootUsageIds": [
+          "C",
+          "Z"
+        ],
+        "packageRootScientificNames": [
+          "Chromista",
+          "Protozoa"
+        ]
+      },
+      "rootBoundaryAudit": null,
+      "matching": {
+        "normalization": [
+          "Remove the exact trailing COL authorship field from COL scientificName when that suffix is present; no authorship parser is used.",
+          "Normalize Unicode to NFC, replace underscores with spaces, collapse Unicode whitespace and trim.",
+          "For species-rank comparison, remove one parenthesized subgenus token in the exact Genus (Subgenus) species representation; genus and specific epithet must remain unchanged.",
+          "Preserve case, diacritics, punctuation and all remaining name tokens."
+        ],
+        "statuses": {
+          "accepted": "The normalized COL name resolves to exactly one valid ITIS Ciliophora species and directly equals that current ITIS name.",
+          "synonym-current-name-redirect": "The normalized COL name equals official ITIS invalid species-name evidence that resolves to exactly one valid ITIS Ciliophora species.",
+          "ambiguous": "The normalized exact evidence resolves to more than one valid ITIS Ciliophora species TSN.",
+          "unmatched": "No normalized exact valid-name or official ITIS species-synonym evidence resolves to a valid ITIS Ciliophora species."
+        },
+        "prohibited": "No fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered or taxon-substituted matching is used."
+      },
+      "evidenceBoundary": {
+        "en": "This CC0 ITIS sidecar is a frozen exact nomenclatural crosswalk for the declared Ciliophora partition. It is not a global ciliate checklist, final classification authority, phylogeny, species-concept equivalence assertion, biological dossier or scientific-review record.",
+        "zh": "此 CC0 ITIS 侧车是已声明 Ciliophora 分区的冻结严格命名交叉映射；它不是全球纤毛虫名录、最终分类权威、系统发育、物种概念等同性声明、生物档案或科学审查记录。"
+      },
+      "counts": {
+        "eligible": 8507,
+        "records": 8665,
+        "accepted": 246,
+        "redirects": 6,
+        "ambiguous": 0,
+        "unmatched": 8255,
+        "withheld": 0,
+        "upstreamOnly": 158,
+        "nonApplicable": 53011
+      },
+      "files": [
+        {
+          "path": "protists-chromists/itis-ciliophora-sidecar-0000.jsonl.gz",
+          "records": 2854,
+          "bytes": 62192,
+          "sourceBytes": 524240,
+          "sha256": "88efb2f43c6f358800248afd79273163984334ce1a51403d18db33f44afe1abd",
+          "sourceSha256": "86151b0b74de138cbadefebb81e857573d351f04ef8a3e595d1f06d6f7d5e2a0",
+          "encoding": "gzip",
+          "mediaType": "application/x-ndjson",
+          "minColId": "3245V",
+          "maxColId": "4ZNWN",
+          "role": "col-partition"
+        },
+        {
+          "path": "protists-chromists/itis-ciliophora-sidecar-0001.jsonl.gz",
+          "records": 2864,
+          "bytes": 61735,
+          "sourceBytes": 524142,
+          "sha256": "1dba33b3fb2db946b2bbd69216f0da3df6a3cce3545fc7a202582eeaa1954727",
+          "sourceSha256": "a0e3eed57b9cfd9ee05035bba780f8fc1452a5f76789811943e36ed733fd7ddb",
+          "encoding": "gzip",
+          "mediaType": "application/x-ndjson",
+          "minColId": "4ZNWP",
+          "maxColId": "6T9QG",
+          "role": "col-partition"
+        },
+        {
+          "path": "protists-chromists/itis-ciliophora-sidecar-0002.jsonl.gz",
+          "records": 2789,
+          "bytes": 60421,
+          "sourceBytes": 501381,
+          "sha256": "c6d177a357004c70e30f53a335b315795d29d4a5f53c2f371acc6ca0550b96ff",
+          "sourceSha256": "ad3b54ff8f914434fdebde94b35e36a48fc1f86828c545340a4dab69fb8aac85",
+          "encoding": "gzip",
+          "mediaType": "application/x-ndjson",
+          "minColId": "6TGSV",
+          "maxColId": "ZYHS",
+          "role": "col-partition"
+        },
+        {
+          "path": "protists-chromists/itis-ciliophora-upstream-only-0000.jsonl.gz",
+          "records": 158,
+          "bytes": 2620,
+          "sourceBytes": 58557,
+          "sha256": "848f9f72d258983c4c45e422a00065f7b9a31294ed4a35ec514d74a72ebf4cd4",
+          "sourceSha256": "2b45453c63f91ed31171cdc64f32b60ba286d5bd2eb9a49bd7f5f2424200f2ad",
+          "encoding": "gzip",
+          "mediaType": "application/x-ndjson",
+          "colOwnership": null,
+          "role": "upstream-only"
+        }
+      ],
+      "totalCompressedBytes": 186968,
+      "totalSourceBytes": 1608320,
+      "deliveryProfiles": {
+        "web-light": {
+          "payload": "summary-only",
+          "files": [],
+          "records": 0,
+          "totalCompressedBytes": 0,
+          "totalSourceBytes": 0,
+          "statement": "GitHub Pages publishes the complete Ciliophora authority boundary and canonical hashes without row shards."
+        },
+        "native-full": {
+          "payload": "complete",
+          "files": [
+            "protists-chromists/itis-ciliophora-sidecar-0000.jsonl.gz",
+            "protists-chromists/itis-ciliophora-sidecar-0001.jsonl.gz",
+            "protists-chromists/itis-ciliophora-sidecar-0002.jsonl.gz",
+            "protists-chromists/itis-ciliophora-upstream-only-0000.jsonl.gz"
+          ],
+          "records": 8665,
+          "totalCompressedBytes": 186968,
+          "totalSourceBytes": 1608320
+        }
+      },
+      "limitations": [
+        "This CC0 ITIS sidecar is a frozen exact nomenclatural crosswalk for the declared Ciliophora partition. It is not a global ciliate checklist, final classification authority, phylogeny, species-concept equivalence assertion, biological dossier or scientific-review record.",
+        "No fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered or taxon-substituted matching is used."
+      ],
+      "integration": {
+        "clientParityRequirement": "Android and iOS must copy every non-empty native-full file byte-for-byte; Web uses the web-light summary profile.",
+        "lookup": {
+          "strategy": "lexicographic-colId-range-v1",
+          "ordering": "Unicode code-unit ascending",
+          "requestPolicy": "Select the sole inclusive COL-ID range and read at most one COL partition; upstream-only files are never selected by COL ID."
+        }
+      }
+    },
+    {
+      "id": "itis-apicomplexa-tsn-crosswalk",
+      "recordType": "release-pinned-exact-nomenclatural-crosswalk",
+      "provider": "Integrated Taxonomic Information System",
+      "source": {
+        "datasetId": "itis-2026-08-26",
+        "exportDate": "2026-08-26",
+        "rootTsn": "553099",
+        "license": "CC0-1.0",
+        "citationDoi": "10.5066/F7KH0KBK",
+        "canonicalDescriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-apicomplexa-sidecar.json",
+        "canonicalDescriptorBytes": 6911,
+        "canonicalDescriptorSha256": "47c4db47df47bd8fab8af7f1345330154f93ab54e1d4fc9580201a1256cef328"
+      },
+      "scope": {
+        "colRootUsageId": "87FBN",
+        "colRootScientificName": "Cryptosporidium Tyzzer, 1907",
+        "colRootRank": "genus",
+        "colStrictAcceptedSpecies": 21,
+        "packageStrictAcceptedSpecies": 61518,
+        "packageOutOfScopeStrictAcceptedSpecies": 61497,
+        "boundary": "COL26.8 does not expose an Apicomplexa parent node in this package. Its complete represented Apicomplexa lineage is the exact Cryptosporidium genus 87FBN under Miozoa 57; no sibling Miozoa or Protozoa species are included."
+      },
+      "rootBoundaryAudit": {
+        "selectedItisRoot": {
+          "tsn": "553099",
+          "scientificName": "Apicomplexa",
+          "rank": "Phylum",
+          "usage": "valid"
+        },
+        "broaderItisRoot": {
+          "tsn": "630577",
+          "scientificName": "Protozoa",
+          "rank": "Kingdom",
+          "usage": "valid"
+        },
+        "selectedCurrentSpecies": 21,
+        "broaderCurrentSpecies": 2277,
+        "colRepresentation": {
+          "rootUsageId": "87FBN",
+          "scientificName": "Cryptosporidium Tyzzer, 1907",
+          "rank": "genus",
+          "parentUsageId": "57",
+          "parentScientificName": "Miozoa"
+        },
+        "decision": "Use the valid ITIS Apicomplexa phylum TSN 553099. COL26.8 represents the entire matching scope as the exact Cryptosporidium genus under Miozoa, not as an Apicomplexa node; expanding to Miozoa would include Dinophyceae and create a false cross-root coverage claim."
+      },
+      "matching": {
+        "normalization": [
+          "Remove the exact trailing COL authorship field from COL scientificName when that suffix is present; no authorship parser is used.",
+          "Normalize Unicode to NFC, replace underscores with spaces, collapse Unicode whitespace and trim.",
+          "For species-rank comparison, remove one parenthesized subgenus token in the exact Genus (Subgenus) species representation; genus and specific epithet must remain unchanged.",
+          "Preserve case, diacritics, punctuation and all remaining name tokens."
+        ],
+        "statuses": {
+          "accepted": "The normalized COL name resolves to exactly one valid ITIS Apicomplexa species and directly equals that current ITIS name.",
+          "synonym-current-name-redirect": "The normalized COL name equals official ITIS invalid species-name evidence that resolves to exactly one valid ITIS Apicomplexa species.",
+          "ambiguous": "The normalized exact evidence resolves to more than one valid ITIS Apicomplexa species TSN.",
+          "unmatched": "No normalized exact valid-name or official ITIS species-synonym evidence resolves to a valid ITIS Apicomplexa species."
+        },
+        "prohibited": "No fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered or taxon-substituted matching is used."
+      },
+      "evidenceBoundary": {
+        "en": "This CC0 ITIS sidecar is a frozen exact nomenclatural crosswalk for the exactly represented Cryptosporidium portion of Apicomplexa inside Protists and Chromists. It is not a global apicomplexan checklist, final classification authority, phylogeny, species-concept equivalence assertion, biological dossier or scientific-review record.",
+        "zh": "此 CC0 ITIS 侧车是原生生物与色界资源包中可精确表示的 Apicomplexa（Cryptosporidium）部分的冻结严格命名交叉映射；它不是全球顶复门名录、最终分类权威、系统发育、物种概念等同性声明、生物档案或科学审查记录。"
+      },
+      "counts": {
+        "eligible": 21,
+        "records": 21,
+        "accepted": 21,
+        "redirects": 0,
+        "ambiguous": 0,
+        "unmatched": 0,
+        "withheld": 0,
+        "upstreamOnly": 0,
+        "nonApplicable": 61497
+      },
+      "files": [
+        {
+          "path": "protists-chromists/itis-apicomplexa-sidecar-0000.jsonl.gz",
+          "records": 21,
+          "bytes": 1259,
+          "sourceBytes": 9055,
+          "sha256": "a7412a589e0abab4034370f547f963e2c1253014980fe4e1e67293bd03c622b2",
+          "sourceSha256": "cb8530e781aa980095045fe0c9cc753dea9ed6f01c27d2ec119f67812bfe5ac1",
+          "encoding": "gzip",
+          "mediaType": "application/x-ndjson",
+          "minColId": "322PR",
+          "maxColId": "6BNHZ",
+          "role": "col-partition"
+        }
+      ],
+      "totalCompressedBytes": 1259,
+      "totalSourceBytes": 9055,
+      "deliveryProfiles": {
+        "web-light": {
+          "payload": "summary-only",
+          "files": [],
+          "records": 0,
+          "totalCompressedBytes": 0,
+          "totalSourceBytes": 0,
+          "statement": "GitHub Pages publishes the complete Apicomplexa authority boundary and canonical hashes without row shards."
+        },
+        "native-full": {
+          "payload": "complete",
+          "files": [
+            "protists-chromists/itis-apicomplexa-sidecar-0000.jsonl.gz"
+          ],
+          "records": 21,
+          "totalCompressedBytes": 1259,
+          "totalSourceBytes": 9055
+        }
+      },
+      "limitations": [
+        "This CC0 ITIS sidecar is a frozen exact nomenclatural crosswalk for the exactly represented Cryptosporidium portion of Apicomplexa inside Protists and Chromists. It is not a global apicomplexan checklist, final classification authority, phylogeny, species-concept equivalence assertion, biological dossier or scientific-review record.",
+        "No fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered or taxon-substituted matching is used."
+      ],
+      "integration": {
+        "clientParityRequirement": "Android and iOS must copy every non-empty native-full file byte-for-byte; Web uses the web-light summary profile.",
+        "lookup": {
+          "strategy": "lexicographic-colId-range-v1",
+          "ordering": "Unicode code-unit ascending",
+          "requestPolicy": "Select the sole inclusive COL-ID range and read at most one COL partition; upstream-only files are never selected by COL ID."
+        }
+      }
+    },
+    {
+      "id": "itis-dinoflagellata-tsn-crosswalk",
+      "recordType": "release-pinned-exact-nomenclatural-crosswalk",
+      "provider": "Integrated Taxonomic Information System",
+      "source": {
+        "datasetId": "itis-2026-08-26",
+        "exportDate": "2026-08-26",
+        "rootTsn": "9874",
+        "license": "CC0-1.0",
+        "citationDoi": "10.5066/F7KH0KBK",
+        "canonicalDescriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-dinoflagellata-sidecar.json",
+        "canonicalDescriptorBytes": 5293,
+        "canonicalDescriptorSha256": "ffccbff3c31cdfd06c241193ca69c0ade8c01ae40b19a3ffa55e66ff25e6f4ba"
+      },
+      "scope": {
+        "packageRootUsageId": "C",
+        "packageRootScientificName": "Chromista",
+        "colRootUsageId": "622D3",
+        "colRootScientificName": "Dinophyceae (Dinoflagellata)",
+        "colStrictAcceptedSpecies": 259,
+        "packageStrictAcceptedSpecies": 61518,
+        "packageOutOfScopeStrictAcceptedSpecies": 61259,
+        "nonApplicableRemainder": "All other strict accepted COL26.8 species assigned to Protists and Chromists remain outside this Dinophyceae sidecar.",
+        "boundary": "This sidecar covers only strict accepted COL26.8 species descending from exact Dinophyceae root 622D3; all remaining mixed-pack species are explicitly out of scope."
+      },
+      "rootBoundaryAudit": null,
+      "matching": {
+        "normalization": [
+          "Remove the exact trailing COL authorship field from COL scientificName when that suffix is present; no authorship parser is used.",
+          "Normalize Unicode to NFC, replace underscores with spaces, collapse Unicode whitespace and trim.",
+          "For species-rank comparison, remove one parenthesized subgenus token in the exact Genus (Subgenus) species representation; genus and specific epithet must remain unchanged.",
+          "Preserve case, diacritics, punctuation and all remaining name tokens."
+        ],
+        "statuses": {
+          "accepted": "The normalized COL name resolves to exactly one valid ITIS Dinophyceae species and directly equals that current ITIS name.",
+          "synonym-current-name-redirect": "The normalized COL name equals official ITIS invalid species-name evidence that resolves to exactly one valid ITIS Dinophyceae species.",
+          "ambiguous": "The normalized exact evidence resolves to more than one valid ITIS Dinophyceae species TSN.",
+          "unmatched": "No normalized exact valid-name or official ITIS species-synonym evidence resolves to a valid ITIS Dinophyceae species."
+        },
+        "prohibited": "No fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered or taxon-substituted matching is used."
+      },
+      "evidenceBoundary": {
+        "en": "This CC0 ITIS sidecar is a frozen exact nomenclatural crosswalk for the declared Dinophyceae (Dinoflagellata) partition. It is not a global dinoflagellate checklist, final classification authority, phylogeny, species-concept equivalence assertion, biological dossier or scientific-review record.",
+        "zh": "此 CC0 ITIS 侧车是已声明 Dinophyceae（Dinoflagellata）分区的冻结严格命名交叉映射；它不是全球甲藻名录、最终分类权威、系统发育、物种概念等同性声明、生物档案或科学审查记录。"
+      },
+      "counts": {
+        "eligible": 259,
+        "records": 1110,
+        "accepted": 60,
+        "redirects": 2,
+        "ambiguous": 0,
+        "unmatched": 197,
+        "withheld": 0,
+        "upstreamOnly": 851,
+        "nonApplicable": 61259
+      },
+      "files": [
+        {
+          "path": "protists-chromists/itis-dinoflagellata-sidecar-0000.jsonl.gz",
+          "records": 259,
+          "bytes": 6372,
+          "sourceBytes": 60569,
+          "sha256": "45180d37450bb2a884595a2e6c03900c39be29be2f34371e2d0852d8f7966c6f",
+          "sourceSha256": "51cb9effd0520a910bfbf3d3fd92e4febefb1151eeffb1c4456066aa830f4c27",
+          "encoding": "gzip",
+          "mediaType": "application/x-ndjson",
+          "minColId": "3HRNL",
+          "maxColId": "CN83B",
+          "role": "col-partition"
+        },
+        {
+          "path": "protists-chromists/itis-dinoflagellata-upstream-only-0000.jsonl.gz",
+          "records": 851,
+          "bytes": 10987,
+          "sourceBytes": 316560,
+          "sha256": "273bedea09696219f4e25a235efdf57e5f58599a1da8456a31adb0d409199501",
+          "sourceSha256": "2277edab4bdc8ebf29e7e07000f23f0f2c99326a46c9046daa4324eaf648f52e",
+          "encoding": "gzip",
+          "mediaType": "application/x-ndjson",
+          "colOwnership": null,
+          "role": "upstream-only"
+        }
+      ],
+      "totalCompressedBytes": 17359,
+      "totalSourceBytes": 377129,
+      "deliveryProfiles": {
+        "web-light": {
+          "payload": "summary-only",
+          "files": [],
+          "records": 0,
+          "totalCompressedBytes": 0,
+          "totalSourceBytes": 0,
+          "statement": "GitHub Pages publishes the complete Dinoflagellata authority boundary and canonical hashes without row shards."
+        },
+        "native-full": {
+          "payload": "complete",
+          "files": [
+            "protists-chromists/itis-dinoflagellata-sidecar-0000.jsonl.gz",
+            "protists-chromists/itis-dinoflagellata-upstream-only-0000.jsonl.gz"
+          ],
+          "records": 1110,
+          "totalCompressedBytes": 17359,
+          "totalSourceBytes": 377129
+        }
+      },
+      "limitations": [
+        "This CC0 ITIS sidecar is a frozen exact nomenclatural crosswalk for the declared Dinophyceae (Dinoflagellata) partition. It is not a global dinoflagellate checklist, final classification authority, phylogeny, species-concept equivalence assertion, biological dossier or scientific-review record.",
+        "No fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered or taxon-substituted matching is used."
+      ],
+      "integration": {
+        "clientParityRequirement": "Android and iOS must copy every non-empty native-full file byte-for-byte; Web uses the web-light summary profile.",
+        "lookup": {
+          "strategy": "lexicographic-colId-range-v1",
+          "ordering": "Unicode code-unit ascending",
+          "requestPolicy": "Select the sole inclusive COL-ID range and read at most one COL partition; upstream-only files are never selected by COL ID."
+        }
+      }
+    },
+    {
+      "id": "itis-euglenozoa-tsn-crosswalk",
+      "recordType": "release-pinned-itis-only-nomenclatural-partition",
+      "provider": "Integrated Taxonomic Information System",
+      "source": {
+        "datasetId": "itis-2026-08-26",
+        "exportDate": "2026-08-26",
+        "rootTsn": "9601",
+        "license": "CC0-1.0",
+        "citationDoi": "10.5066/F7KH0KBK",
+        "canonicalDescriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-euglenozoa-sidecar.json",
+        "canonicalDescriptorBytes": 5025,
+        "canonicalDescriptorSha256": "89d6da5c98682972ad662add6ccee91ccc1f1f1456c9d5a97d01b2360914cd04"
+      },
+      "scope": {
+        "requestedLabel": "Euglenozoa",
+        "colPackageId": "protists-chromists",
+        "colPackageRoots": [
+          "C",
+          "Z"
+        ],
+        "colPackageStrictAcceptedSpecies": 61518,
+        "colCandidateRoots": [],
+        "colStrictAcceptedSpecies": 0,
+        "itisRootTsn": "9601",
+        "itisRootScientificName": "Euglenophycota",
+        "itisRootRank": "Phylum",
+        "boundary": "COL26.8 has no exact Euglenozoa or Euglenophycota hierarchy root and ITIS has no Euglenozoa entry. The only reproducible ITIS scope is valid Euglenophycota TSN 9601; this is an ITIS-only partition, not a crosswalk for all Euglenozoa or a proxy for every Protists/Chromists species."
+      },
+      "rootBoundaryAudit": null,
+      "matching": {
+        "normalization": [
+          "Remove the exact trailing COL authorship field from COL scientificName when that suffix is present; no authorship parser is used.",
+          "Normalize Unicode to NFC, replace underscores with spaces, collapse Unicode whitespace and trim.",
+          "For species-rank comparison, remove one parenthesized subgenus token in the exact Genus (Subgenus) species representation; genus and specific epithet must remain unchanged.",
+          "Preserve case, diacritics, punctuation and all remaining name tokens."
+        ],
+        "statuses": {
+          "accepted": "Unavailable: no exact COL root defines an eligible crosswalk.",
+          "synonym-current-name-redirect": "Unavailable: no exact COL root defines an eligible crosswalk.",
+          "ambiguous": "Unavailable: no exact COL root defines an eligible crosswalk.",
+          "unmatched": "Unavailable: no exact COL root defines an eligible crosswalk."
+        },
+        "prohibited": "No fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered, taxon-substituted or package-wide name matching is used."
+      },
+      "evidenceBoundary": {
+        "en": "This CC0 ITIS-only partition is a frozen identifier/status record for the explicitly bounded Euglenophycota export. It is not a global Euglenozoa checklist, a COL crosswalk, final classification authority, phylogeny, species-concept equivalence assertion, biological dossier or scientific-review record.",
+        "zh": "此 CC0 ITIS-only 分区是对明确限定的 Euglenophycota 导出的冻结标识/状态记录；它不是全球 Euglenozoa 名录、COL 交叉映射、最终分类权威、系统发育、物种概念等同性声明、生物档案或科学审查记录。"
+      },
+      "counts": {
+        "eligible": 0,
+        "records": 276,
+        "accepted": 0,
+        "redirects": 0,
+        "ambiguous": 0,
+        "unmatched": 0,
+        "withheld": 0,
+        "upstreamOnly": 276,
+        "nonApplicable": 61518
+      },
+      "files": [
+        {
+          "path": "protists-chromists/itis-euglenozoa-upstream-only-0000.jsonl.gz",
+          "records": 276,
+          "bytes": 3537,
+          "sourceBytes": 115459,
+          "sha256": "a4215c52d975c63846c67f55822ad0754961eee6bfbf3c038ffb4e78c55210d2",
+          "sourceSha256": "8fd2e409d788d6c4c5fbc57f69e81dc2cbaa2be27073d613687a932357aa635d",
+          "encoding": "gzip",
+          "mediaType": "application/x-ndjson",
+          "colOwnership": null,
+          "role": "upstream-only"
+        }
+      ],
+      "totalCompressedBytes": 3537,
+      "totalSourceBytes": 115459,
+      "deliveryProfiles": {
+        "web-light": {
+          "payload": "summary-only",
+          "files": [],
+          "records": 0,
+          "totalCompressedBytes": 0,
+          "totalSourceBytes": 0,
+          "statement": "GitHub Pages publishes the complete Euglenozoa boundary / Euglenophycota inventory authority boundary and canonical hashes without row shards."
+        },
+        "native-full": {
+          "payload": "complete",
+          "files": [
+            "protists-chromists/itis-euglenozoa-upstream-only-0000.jsonl.gz"
+          ],
+          "records": 276,
+          "totalCompressedBytes": 3537,
+          "totalSourceBytes": 115459
+        }
+      },
+      "limitations": [
+        "This CC0 ITIS-only partition is a frozen identifier/status record for the explicitly bounded Euglenophycota export. It is not a global Euglenozoa checklist, a COL crosswalk, final classification authority, phylogeny, species-concept equivalence assertion, biological dossier or scientific-review record.",
+        "No fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered, taxon-substituted or package-wide name matching is used."
+      ],
+      "integration": {
+        "clientParityRequirement": "Android and iOS must copy every non-empty native-full file byte-for-byte; Web uses the web-light summary profile.",
+        "lookup": {
+          "strategy": "lexicographic-colId-range-v1",
+          "ordering": "Unicode code-unit ascending",
+          "requestPolicy": "Select the sole inclusive COL-ID range and read at most one COL partition; upstream-only files are never selected by COL ID."
+        }
+      }
+    },
+    {
+      "id": "itis-cercozoa-tsn-crosswalk",
+      "recordType": "release-pinned-exact-nomenclatural-crosswalk",
+      "provider": "Integrated Taxonomic Information System",
+      "source": {
+        "datasetId": "itis-2026-08-26",
+        "exportDate": "2026-08-26",
+        "rootTsn": "969919",
+        "license": "CC0-1.0",
+        "citationDoi": "10.5066/F7KH0KBK",
+        "canonicalDescriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-cercozoa-sidecar.json",
+        "canonicalDescriptorBytes": 5748,
+        "canonicalDescriptorSha256": "74b65afc842dd15c815dd262ce337c021ca72a86a19ec4ddaa58169f46d47efd"
+      },
+      "scope": {
+        "packageRootUsageId": "C",
+        "packageRootScientificName": "Chromista",
+        "colRootUsageId": "35",
+        "colRootScientificName": "Cercozoa",
+        "colStrictAcceptedSpecies": 52,
+        "packageStrictAcceptedSpecies": 61518,
+        "packageOutOfScopeStrictAcceptedSpecies": 61466,
+        "nonApplicableRemainder": "All other strict accepted COL26.8 species assigned to Protists and Chromists remain outside this Cercozoa sidecar.",
+        "boundary": "This sidecar covers only strict accepted COL26.8 species descending from exact Cercozoa root 35. ITIS TSN 969919 is the exact accepted Cercozoa division, but its 2026-08-26 hierarchy has no accepted species descendants; broader ITIS lineages such as Fungi are intentionally excluded."
+      },
+      "rootBoundaryAudit": {
+        "selectedItisRoot": {
+          "tsn": "969919",
+          "scientificName": "Cercozoa",
+          "rank": "Division",
+          "usage": "accepted"
+        },
+        "selectedCurrentSpecies": 0,
+        "selectedSpeciesSynonymLinks": 0,
+        "decision": "Use only the exact ITIS Cercozoa division TSN 969919. Do not substitute the older ITIS Fungi/Myxomycota hierarchy, which would create false cross-root coverage and duplicate unrelated taxa."
+      },
+      "matching": {
+        "normalization": [
+          "Remove the exact trailing COL authorship field from COL scientificName when that suffix is present; no authorship parser is used.",
+          "Normalize Unicode to NFC, replace underscores with spaces, collapse Unicode whitespace and trim.",
+          "For species-rank comparison, remove one parenthesized subgenus token in the exact Genus (Subgenus) species representation; genus and specific epithet must remain unchanged.",
+          "Preserve case, diacritics, punctuation and all remaining name tokens."
+        ],
+        "statuses": {
+          "accepted": "The normalized COL name resolves to exactly one accepted ITIS Cercozoa species and directly equals that current ITIS name.",
+          "synonym-current-name-redirect": "The normalized COL name equals official ITIS invalid species-name evidence that resolves to exactly one accepted ITIS Cercozoa species.",
+          "ambiguous": "The normalized exact evidence resolves to more than one accepted ITIS Cercozoa species TSN.",
+          "unmatched": "No normalized exact accepted-name or official ITIS species-synonym evidence resolves to an accepted ITIS Cercozoa species."
+        },
+        "prohibited": "No fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered or taxon-substituted matching is used."
+      },
+      "evidenceBoundary": {
+        "en": "This CC0 ITIS sidecar is a frozen exact nomenclatural crosswalk for the declared COL26.8 Cercozoa partition. It is not a global cercozoan checklist, a classification authority, a species-concept equivalence assertion, a biological dossier or a scientific-review record.",
+        "zh": "此 CC0 ITIS 侧车是已声明 COL26.8 Cercozoa 分区的冻结严格命名交叉映射；它不是全球 Cercozoa 名录、分类权威、物种概念等同性声明、生物档案或科学审查记录。"
+      },
+      "counts": {
+        "eligible": 52,
+        "records": 52,
+        "accepted": 0,
+        "redirects": 0,
+        "ambiguous": 0,
+        "unmatched": 52,
+        "withheld": 0,
+        "upstreamOnly": 0,
+        "nonApplicable": 61466
+      },
+      "files": [
+        {
+          "path": "protists-chromists/itis-cercozoa-sidecar-0000.jsonl.gz",
+          "records": 52,
+          "bytes": 1578,
+          "sourceBytes": 9128,
+          "sha256": "534868a06fdae97a81b7bcde1836260c11fbbab8c3889e2037b19afbc92ec7f7",
+          "sourceSha256": "9f389124866483e99c84d4ab0b8c6d25ba9d43bd868d97f6bbf8badf9b5eecf4",
+          "encoding": "gzip",
+          "mediaType": "application/x-ndjson",
+          "minColId": "3ZNLP",
+          "maxColId": "7C4VG",
+          "role": "col-partition"
+        }
+      ],
+      "totalCompressedBytes": 1578,
+      "totalSourceBytes": 9128,
+      "deliveryProfiles": {
+        "web-light": {
+          "payload": "summary-only",
+          "files": [],
+          "records": 0,
+          "totalCompressedBytes": 0,
+          "totalSourceBytes": 0,
+          "statement": "GitHub Pages publishes the complete Cercozoa authority boundary and canonical hashes without row shards."
+        },
+        "native-full": {
+          "payload": "complete",
+          "files": [
+            "protists-chromists/itis-cercozoa-sidecar-0000.jsonl.gz"
+          ],
+          "records": 52,
+          "totalCompressedBytes": 1578,
+          "totalSourceBytes": 9128
+        }
+      },
+      "limitations": [
+        "This CC0 ITIS sidecar is a frozen exact nomenclatural crosswalk for the declared COL26.8 Cercozoa partition. It is not a global cercozoan checklist, a classification authority, a species-concept equivalence assertion, a biological dossier or a scientific-review record.",
+        "No fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered or taxon-substituted matching is used."
+      ],
+      "integration": {
+        "clientParityRequirement": "Android and iOS must copy every non-empty native-full file byte-for-byte; Web uses the web-light summary profile.",
+        "lookup": {
+          "strategy": "lexicographic-colId-range-v1",
+          "ordering": "Unicode code-unit ascending",
+          "requestPolicy": "Select the sole inclusive COL-ID range and read at most one COL partition; upstream-only files are never selected by COL ID."
+        }
+      }
+    },
+    {
+      "id": "itis-haptophyta-tsn-crosswalk",
+      "recordType": "release-pinned-itis-only-nomenclatural-inventory",
+      "provider": "Integrated Taxonomic Information System",
+      "source": {
+        "datasetId": "itis-2026-08-26",
+        "exportDate": "2026-08-26",
+        "rootTsn": "2134",
+        "license": "CC0-1.0",
+        "citationDoi": "10.5066/F7KH0KBK",
+        "canonicalDescriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-haptophyta-sidecar.json",
+        "canonicalDescriptorBytes": 4791,
+        "canonicalDescriptorSha256": "53f9df634bfa87db83e29d7a027303a03bd101a5f7181a9358da8bd48703bc40"
+      },
+      "scope": {
+        "packageRootUsageIds": [
+          "C",
+          "Z"
+        ],
+        "packageRootScientificNames": [
+          "Chromista",
+          "Protozoa"
+        ],
+        "colRootUsageId": null,
+        "colRootScientificName": "Haptophyta",
+        "colStrictAcceptedSpecies": 0,
+        "packageStrictAcceptedSpecies": 61518,
+        "packageOutOfScopeStrictAcceptedSpecies": 61518,
+        "colRootAudit": "No exact COL26.8 usage node named Haptophyta exists in the complete pinned hierarchy. Therefore this release cannot derive a strict COL Haptophyta partition or infer one from name overlap.",
+        "boundary": "This ITIS-only sidecar retains every current species below the accepted ITIS Haptophyta division. It deliberately contains no COL match rows until a pinned COL release materializes an exact auditable Haptophyta root."
+      },
+      "rootBoundaryAudit": null,
+      "matching": {
+        "normalization": [
+          "Remove the exact trailing COL authorship field from COL scientificName when that suffix is present; no authorship parser is used.",
+          "Normalize Unicode to NFC, replace underscores with spaces, collapse Unicode whitespace and trim.",
+          "For species-rank comparison, remove one parenthesized subgenus token in the exact Genus (Subgenus) species representation; genus and specific epithet must remain unchanged.",
+          "Preserve case, diacritics, punctuation and all remaining name tokens."
+        ],
+        "statuses": {
+          "accepted": "Unavailable: COL26.8 has no exact Haptophyta root from which to derive a strict accepted-species partition.",
+          "synonym-current-name-redirect": "Unavailable: no COL Haptophyta partition exists in this release.",
+          "ambiguous": "Unavailable: no COL Haptophyta partition exists in this release.",
+          "unmatched": "Unavailable: no COL Haptophyta partition exists in this release."
+        },
+        "prohibited": "No inferred COL scope, fuzzy match, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered or taxon-substituted matching is used."
+      },
+      "evidenceBoundary": {
+        "en": "This CC0 ITIS inventory is a frozen, ITIS-only nomenclatural partition. It is not a global haptophyte checklist, a final classification authority, a phylogeny, a species-concept equivalence assertion, a biological dossier or a scientific-review record.",
+        "zh": "此 CC0 ITIS 清单是冻结的、仅限 ITIS 的命名分区；它不是全球定鞭藻名录、最终分类权威、系统发育、物种概念等同性声明、生物档案或科学审查记录。"
+      },
+      "counts": {
+        "eligible": 0,
+        "records": 90,
+        "accepted": 0,
+        "redirects": 0,
+        "ambiguous": 0,
+        "unmatched": 0,
+        "withheld": 0,
+        "upstreamOnly": 90,
+        "nonApplicable": 61518
+      },
+      "files": [
+        {
+          "path": "protists-chromists/itis-haptophyta-upstream-only-0000.jsonl.gz",
+          "records": 90,
+          "bytes": 1596,
+          "sourceBytes": 33852,
+          "sha256": "4725464ebca4a6037075b2ba837fa673b2daa82c43d0d818fa93d79ab55d82c4",
+          "sourceSha256": "02efd54213ed67eab221fa6acf6a644592d3c8eedad7f725d38223a96cf9661b",
+          "encoding": "gzip",
+          "mediaType": "application/x-ndjson",
+          "colOwnership": null,
+          "role": "upstream-only"
+        }
+      ],
+      "totalCompressedBytes": 1596,
+      "totalSourceBytes": 33852,
+      "deliveryProfiles": {
+        "web-light": {
+          "payload": "summary-only",
+          "files": [],
+          "records": 0,
+          "totalCompressedBytes": 0,
+          "totalSourceBytes": 0,
+          "statement": "GitHub Pages publishes the complete Haptophyta authority boundary and canonical hashes without row shards."
+        },
+        "native-full": {
+          "payload": "complete",
+          "files": [
+            "protists-chromists/itis-haptophyta-upstream-only-0000.jsonl.gz"
+          ],
+          "records": 90,
+          "totalCompressedBytes": 1596,
+          "totalSourceBytes": 33852
+        }
+      },
+      "limitations": [
+        "This CC0 ITIS inventory is a frozen, ITIS-only nomenclatural partition. It is not a global haptophyte checklist, a final classification authority, a phylogeny, a species-concept equivalence assertion, a biological dossier or a scientific-review record.",
+        "No inferred COL scope, fuzzy match, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered or taxon-substituted matching is used."
+      ],
+      "integration": {
+        "clientParityRequirement": "Android and iOS must copy every non-empty native-full file byte-for-byte; Web uses the web-light summary profile.",
+        "lookup": {
+          "strategy": "lexicographic-colId-range-v1",
+          "ordering": "Unicode code-unit ascending",
+          "requestPolicy": "Select the sole inclusive COL-ID range and read at most one COL partition; upstream-only files are never selected by COL ID."
+        }
+      }
+    },
+    {
+      "id": "itis-ochrophyta-tsn-crosswalk",
+      "recordType": "release-pinned-exact-nomenclatural-crosswalk",
+      "provider": "Integrated Taxonomic Information System",
+      "source": {
+        "datasetId": "itis-2026-08-26",
+        "exportDate": "2026-08-26",
+        "rootTsn": "969917",
+        "license": "CC0-1.0",
+        "citationDoi": "10.5066/F7KH0KBK",
+        "canonicalDescriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-ochrophyta-sidecar.json",
+        "canonicalDescriptorBytes": 5639,
+        "canonicalDescriptorSha256": "9af9268af58a0468315c667e44cc63a389a658ec71ccb9a309239fc2371afffd"
+      },
+      "scope": {
+        "packageRootUsageIds": [
+          "C",
+          "Z"
+        ],
+        "packageRootScientificNames": [
+          "Chromista",
+          "Protozoa"
+        ],
+        "colRootUsageId": "5H",
+        "colRootScientificName": "Ochrophyta",
+        "colStrictAcceptedSpecies": 1101,
+        "packageStrictAcceptedSpecies": 61518,
+        "packageOutOfScopeStrictAcceptedSpecies": 60417,
+        "boundary": "This sidecar covers only strict accepted COL26.8 species descending from exact Ochrophyta root 5H. Every other Protists and Chromists species is explicitly out of scope."
+      },
+      "rootBoundaryAudit": {
+        "selectedItisRoot": {
+          "tsn": "969917",
+          "scientificName": "Ochrophyta",
+          "rank": "Division",
+          "usage": "accepted"
+        },
+        "selectedCurrentSpecies": 3399,
+        "selectedSpeciesSynonymLinks": 795,
+        "decision": "Use only the exact accepted ITIS Ochrophyta division TSN 969917 and exact accepted COL Ochrophyta phylum usage 5H; no broader or substituted lineage is used."
+      },
+      "matching": {
+        "normalization": [
+          "Remove the exact trailing COL authorship field from COL scientificName when that suffix is present; no authorship parser is used.",
+          "Normalize Unicode to NFC, replace underscores with spaces, collapse Unicode whitespace and trim.",
+          "For species-rank comparison, remove one parenthesized subgenus token in the exact Genus (Subgenus) species representation; genus and specific epithet must remain unchanged.",
+          "Preserve case, diacritics, punctuation and all remaining name tokens."
+        ],
+        "statuses": {
+          "accepted": "The normalized COL name resolves to exactly one accepted ITIS Ochrophyta species and directly equals that current ITIS name.",
+          "synonym-current-name-redirect": "The normalized COL name equals official ITIS invalid species-name evidence that resolves to exactly one accepted ITIS Ochrophyta species.",
+          "ambiguous": "The normalized exact evidence resolves to more than one accepted ITIS Ochrophyta species TSN.",
+          "unmatched": "No normalized exact accepted-name or official ITIS species-synonym evidence resolves to an accepted ITIS Ochrophyta species."
+        },
+        "prohibited": "No fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered or taxon-substituted matching is used."
+      },
+      "evidenceBoundary": {
+        "en": "This CC0 ITIS sidecar is a frozen exact nomenclatural crosswalk for the declared COL26.8 Ochrophyta partition. It is not a global ochrophyte checklist, final classification authority, phylogeny, species-concept equivalence assertion, biological dossier or scientific-review record.",
+        "zh": "此 CC0 ITIS 侧车是已声明 COL26.8 Ochrophyta 分区的冻结严格命名交叉映射；它不是全球褐藻门名录、最终分类权威、系统发育、物种概念等同性声明、生物档案或科学审查记录。"
+      },
+      "counts": {
+        "eligible": 1101,
+        "records": 3397,
+        "accepted": 1097,
+        "redirects": 0,
+        "ambiguous": 4,
+        "unmatched": 0,
+        "withheld": 0,
+        "upstreamOnly": 2296,
+        "nonApplicable": 60417
+      },
+      "files": [
+        {
+          "path": "protists-chromists/itis-ochrophyta-sidecar-0000.jsonl.gz",
+          "records": 1101,
+          "bytes": 31096,
+          "sourceBytes": 419223,
+          "sha256": "925e9d826131c71e289c20924be14a2f0281ae1839390d03f0aa086eea8c732f",
+          "sourceSha256": "e2cc9d61fc94c195a56eeb9f92ecc21f31726440e8af9c692a9dfbfe327d3097",
+          "encoding": "gzip",
+          "mediaType": "application/x-ndjson",
+          "minColId": "45W37",
+          "maxColId": "TB8S",
+          "role": "col-partition"
+        },
+        {
+          "path": "protists-chromists/itis-ochrophyta-upstream-only-0000.jsonl.gz",
+          "records": 2296,
+          "bytes": 28614,
+          "sourceBytes": 841159,
+          "sha256": "a4eb096b3c447616c3d029e89247f31d083e554797885c516ea426be6d242a67",
+          "sourceSha256": "8e345f3a62e674de6cd467d6edb0ac627fa64ac75a426f998db1a2c2019221c7",
+          "encoding": "gzip",
+          "mediaType": "application/x-ndjson",
+          "colOwnership": null,
+          "role": "upstream-only"
+        }
+      ],
+      "totalCompressedBytes": 59710,
+      "totalSourceBytes": 1260382,
+      "deliveryProfiles": {
+        "web-light": {
+          "payload": "summary-only",
+          "files": [],
+          "records": 0,
+          "totalCompressedBytes": 0,
+          "totalSourceBytes": 0,
+          "statement": "GitHub Pages publishes the complete Ochrophyta authority boundary and canonical hashes without row shards."
+        },
+        "native-full": {
+          "payload": "complete",
+          "files": [
+            "protists-chromists/itis-ochrophyta-sidecar-0000.jsonl.gz",
+            "protists-chromists/itis-ochrophyta-upstream-only-0000.jsonl.gz"
+          ],
+          "records": 3397,
+          "totalCompressedBytes": 59710,
+          "totalSourceBytes": 1260382
+        }
+      },
+      "limitations": [
+        "This CC0 ITIS sidecar is a frozen exact nomenclatural crosswalk for the declared COL26.8 Ochrophyta partition. It is not a global ochrophyte checklist, final classification authority, phylogeny, species-concept equivalence assertion, biological dossier or scientific-review record.",
+        "No fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered or taxon-substituted matching is used."
+      ],
+      "integration": {
+        "clientParityRequirement": "Android and iOS must copy every non-empty native-full file byte-for-byte; Web uses the web-light summary profile.",
+        "lookup": {
+          "strategy": "lexicographic-colId-range-v1",
+          "ordering": "Unicode code-unit ascending",
+          "requestPolicy": "Select the sole inclusive COL-ID range and read at most one COL partition; upstream-only files are never selected by COL ID."
+        }
+      }
+    },
+    {
+      "id": "itis-amoebozoa-tsn-crosswalk",
+      "recordType": "release-pinned-exact-nomenclatural-crosswalk",
+      "provider": "Integrated Taxonomic Information System",
+      "source": {
+        "datasetId": "itis-2026-08-26",
+        "exportDate": "2026-08-26",
+        "rootTsn": null,
+        "license": "CC0-1.0",
+        "citationDoi": "10.5066/F7KH0KBK",
+        "canonicalDescriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-amoebozoa-sidecar.json",
+        "canonicalDescriptorBytes": 6591,
+        "canonicalDescriptorSha256": "8e6af9a24a03f88bc8b61018935580e677066179be54b14be60560e3f8e6bd87"
+      },
+      "scope": {
+        "packageRootUsageIds": [
+          "C",
+          "Z"
+        ],
+        "packageRootScientificNames": [
+          "Chromista",
+          "Protozoa"
+        ],
+        "colRootUsageId": "622B2",
+        "colRootScientificName": "Amoebozoa",
+        "colStrictAcceptedSpecies": 1337,
+        "packageStrictAcceptedSpecies": 61518,
+        "packageOutOfScopeStrictAcceptedSpecies": 60181,
+        "boundary": "This sidecar covers only strict accepted COL26.8 species descending from the exact Amoebozoa root 622B2. ITIS 2026-08-26 has no exact Amoebozoa root; narrower or broader ITIS roots are intentionally not substituted."
+      },
+      "rootBoundaryAudit": {
+        "colRoot": {
+          "id": "622B2",
+          "scientificName": "Amoebozoa Lühe, 1913 emend. Cavalier-Smith, 1998",
+          "rank": "phylum",
+          "status": "accepted"
+        },
+        "itisExactNameCandidates": [],
+        "selectedItisRoot": null,
+        "decision": "No exact ITIS Amoebozoa root exists in the pinned export. No Amoebida, Rhizopoda, Protozoa or other nearby root is used as a taxon substitute."
+      },
+      "matching": {
+        "normalization": [
+          "Remove the exact trailing COL authorship field from COL scientificName when that suffix is present; no authorship parser is used.",
+          "Normalize Unicode to NFC, replace underscores with spaces, collapse Unicode whitespace and trim.",
+          "For species-rank comparison, remove one parenthesized subgenus token in the exact Genus (Subgenus) species representation; genus and specific epithet must remain unchanged.",
+          "Preserve case, diacritics, punctuation and all remaining name tokens."
+        ],
+        "statuses": {
+          "accepted": "Unavailable: the pinned ITIS export has no exact Amoebozoa root from which to derive a current-species partition.",
+          "synonym-current-name-redirect": "Unavailable: no exact ITIS Amoebozoa root exists in this release.",
+          "ambiguous": "Unavailable: no exact ITIS Amoebozoa root exists in this release.",
+          "unmatched": "The exact COL Amoebozoa name has no candidate in the empty exact ITIS Amoebozoa index."
+        },
+        "prohibited": "No fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered, package-wide or taxon-substituted matching is used."
+      },
+      "evidenceBoundary": {
+        "en": "This CC0 ITIS sidecar is a frozen exact-name audit for the declared COL26.8 Amoebozoa partition. Because the pinned ITIS export has no exact Amoebozoa root, all COL rows remain explicitly unmatched and no ITIS-only rows are asserted. It is not a global amoebozoan checklist, final classification authority, phylogeny, species-concept equivalence assertion, biological dossier or scientific-review record.",
+        "zh": "此 CC0 ITIS 侧车是 COL26.8 Amoebozoa 分区的冻结精确名称审计。由于固定 ITIS 导出中不存在精确 Amoebozoa 根节点，所有 COL 行均明确保留为 unmatched，不声明 ITIS-only 行；它不是全球变形虫类名录、最终分类权威、系统发育、物种概念等同性声明、生物档案或科学审查记录。"
+      },
+      "counts": {
+        "eligible": 1337,
+        "records": 1337,
+        "accepted": 0,
+        "redirects": 0,
+        "ambiguous": 0,
+        "unmatched": 1337,
+        "withheld": 0,
+        "upstreamOnly": 0,
+        "nonApplicable": 60181
+      },
+      "files": [
+        {
+          "path": "protists-chromists/itis-amoebozoa-sidecar-0000.jsonl.gz",
+          "records": 1337,
+          "bytes": 35250,
+          "sourceBytes": 275635,
+          "sha256": "3fa551b12978cc3b3b568c9df0a11e493093b53ef715f82001cb7d9820cc3ba5",
+          "sourceSha256": "e3449110acbd9c21cd80066d723cb4c8bbcc47fcf386ab5911a88a1284443512",
+          "encoding": "gzip",
+          "mediaType": "application/x-ndjson",
+          "minColId": "3574B",
+          "maxColId": "ZFKF",
+          "role": "col-partition"
+        }
+      ],
+      "totalCompressedBytes": 35250,
+      "totalSourceBytes": 275635,
+      "deliveryProfiles": {
+        "web-light": {
+          "payload": "summary-only",
+          "files": [],
+          "records": 0,
+          "totalCompressedBytes": 0,
+          "totalSourceBytes": 0,
+          "statement": "GitHub Pages publishes the complete Amoebozoa authority boundary and canonical hashes without row shards."
+        },
+        "native-full": {
+          "payload": "complete",
+          "files": [
+            "protists-chromists/itis-amoebozoa-sidecar-0000.jsonl.gz"
+          ],
+          "records": 1337,
+          "totalCompressedBytes": 35250,
+          "totalSourceBytes": 275635
+        }
+      },
+      "limitations": [
+        "This CC0 ITIS sidecar is a frozen exact-name audit for the declared COL26.8 Amoebozoa partition. Because the pinned ITIS export has no exact Amoebozoa root, all COL rows remain explicitly unmatched and no ITIS-only rows are asserted. It is not a global amoebozoan checklist, final classification authority, phylogeny, species-concept equivalence assertion, biological dossier or scientific-review record.",
+        "No fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered, package-wide or taxon-substituted matching is used."
+      ],
+      "integration": {
+        "clientParityRequirement": "Android and iOS must copy every non-empty native-full file byte-for-byte; Web uses the web-light summary profile.",
+        "lookup": {
+          "strategy": "lexicographic-colId-range-v1",
+          "ordering": "Unicode code-unit ascending",
+          "requestPolicy": "Select the sole inclusive COL-ID range and read at most one COL partition; upstream-only files are never selected by COL ID."
+        }
+      }
+    },
+    {
+      "id": "itis-rhodophyta-tsn-crosswalk",
+      "recordType": "release-pinned-itis-only-nomenclatural-inventory",
+      "provider": "Integrated Taxonomic Information System",
+      "source": {
+        "datasetId": "itis-2026-08-26",
+        "exportDate": "2026-08-26",
+        "rootTsn": "660046",
+        "license": "CC0-1.0",
+        "citationDoi": "10.5066/F7KH0KBK",
+        "canonicalDescriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-rhodophyta-sidecar.json",
+        "canonicalDescriptorBytes": 4700,
+        "canonicalDescriptorSha256": "27d3e907b9fb9fec4a825d08aa70cd354d93256804b1e9d2e6e346fb1c9a78fa"
+      },
+      "scope": {
+        "packageRootUsageIds": [
+          "C",
+          "Z"
+        ],
+        "packageRootScientificNames": [
+          "Chromista",
+          "Protozoa"
+        ],
+        "colRootUsageId": null,
+        "colRootScientificName": "Rhodophyta",
+        "colStrictAcceptedSpecies": 0,
+        "packageStrictAcceptedSpecies": 61518,
+        "packageOutOfScopeStrictAcceptedSpecies": 61518,
+        "colRootAudit": "No exact COL26.8 usage node named Rhodophyta exists in the complete pinned hierarchy. Therefore this release cannot derive a strict COL Rhodophyta partition or infer one from name overlap.",
+        "boundary": "This ITIS-only sidecar retains every current species below the accepted ITIS Rhodophyta division. It deliberately contains no COL match rows until a pinned COL release materializes an exact auditable Rhodophyta root."
+      },
+      "rootBoundaryAudit": null,
+      "matching": {
+        "normalization": [
+          "Remove the exact trailing COL authorship field from COL scientificName when that suffix is present; no authorship parser is used.",
+          "Normalize Unicode to NFC, replace underscores with spaces, collapse Unicode whitespace and trim.",
+          "For species-rank comparison, remove one parenthesized subgenus token in the exact Genus (Subgenus) species representation; genus and specific epithet must remain unchanged.",
+          "Preserve case, diacritics, punctuation and all remaining name tokens."
+        ],
+        "statuses": {
+          "accepted": "Unavailable: COL26.8 has no exact Rhodophyta root from which to derive a strict accepted-species partition.",
+          "synonym-current-name-redirect": "Unavailable: no COL Rhodophyta partition exists in this release.",
+          "ambiguous": "Unavailable: no COL Rhodophyta partition exists in this release.",
+          "unmatched": "Unavailable: no COL Rhodophyta partition exists in this release."
+        },
+        "prohibited": "No inferred COL scope, fuzzy match, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered or taxon-substituted matching is used."
+      },
+      "evidenceBoundary": {
+        "en": "This CC0 ITIS inventory is a frozen, ITIS-only nomenclatural partition. It is not a global rhodophyte checklist, a final classification authority, a phylogeny, a species-concept equivalence assertion, a biological dossier or a scientific-review record.",
+        "zh": "此 CC0 ITIS 清单是冻结的、仅限 ITIS 的命名分区；它不是全球红藻名录、最终分类权威、系统发育、物种概念等同性声明、生物档案或科学审查记录。"
+      },
+      "counts": {
+        "eligible": 0,
+        "records": 1616,
+        "accepted": 0,
+        "redirects": 0,
+        "ambiguous": 0,
+        "unmatched": 0,
+        "withheld": 0,
+        "upstreamOnly": 1616,
+        "nonApplicable": 61518
+      },
+      "files": [
+        {
+          "path": "protists-chromists/itis-rhodophyta-upstream-only-0000.jsonl.gz",
+          "records": 1616,
+          "bytes": 20659,
+          "sourceBytes": 608233,
+          "sha256": "e2402a02e55cc938222691dd0c90d3e93dc99095d0af482870833e6ae3d949fa",
+          "sourceSha256": "dcab3fe52f0fa3812c2539c6cc3fcf0349b980fea3a044f4d8267a3a93717b61",
+          "encoding": "gzip",
+          "mediaType": "application/x-ndjson",
+          "colOwnership": null,
+          "role": "upstream-only"
+        }
+      ],
+      "totalCompressedBytes": 20659,
+      "totalSourceBytes": 608233,
+      "deliveryProfiles": {
+        "web-light": {
+          "payload": "summary-only",
+          "files": [],
+          "records": 0,
+          "totalCompressedBytes": 0,
+          "totalSourceBytes": 0,
+          "statement": "GitHub Pages publishes the complete Rhodophyta authority boundary and canonical hashes without row shards."
+        },
+        "native-full": {
+          "payload": "complete",
+          "files": [
+            "protists-chromists/itis-rhodophyta-upstream-only-0000.jsonl.gz"
+          ],
+          "records": 1616,
+          "totalCompressedBytes": 20659,
+          "totalSourceBytes": 608233
+        }
+      },
+      "limitations": [
+        "This CC0 ITIS inventory is a frozen, ITIS-only nomenclatural partition. It is not a global rhodophyte checklist, a final classification authority, a phylogeny, a species-concept equivalence assertion, a biological dossier or a scientific-review record.",
+        "No inferred COL scope, fuzzy match, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered or taxon-substituted matching is used."
+      ],
+      "integration": {
+        "clientParityRequirement": "Android and iOS must copy every non-empty native-full file byte-for-byte; Web uses the web-light summary profile.",
+        "lookup": {
+          "strategy": "lexicographic-colId-range-v1",
+          "ordering": "Unicode code-unit ascending",
+          "requestPolicy": "Select the sole inclusive COL-ID range and read at most one COL partition; upstream-only files are never selected by COL ID."
+        }
+      }
+    },
+    {
+      "id": "itis-oomycota-tsn-crosswalk",
+      "recordType": "release-pinned-exact-nomenclatural-crosswalk",
+      "provider": "Integrated Taxonomic Information System",
+      "source": {
+        "datasetId": "itis-2026-08-26",
+        "exportDate": "2026-08-26",
+        "rootTsn": null,
+        "license": "CC0-1.0",
+        "citationDoi": "10.5066/F7KH0KBK",
+        "canonicalDescriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-oomycota-sidecar.json",
+        "canonicalDescriptorBytes": 8461,
+        "canonicalDescriptorSha256": "694152545fa3f07a0b25cb4e24faed3cf6dbaba121d9cf4d1cfe433844f010c5"
+      },
+      "scope": {
+        "requestedColRoot": {
+          "usageId": "5K",
+          "scientificName": "Oomycota",
+          "rank": "phylum",
+          "strictAcceptedSpecies": 1673
+        },
+        "selectedSharedOrderRoots": [
+          {
+            "col": {
+              "usageId": "3SH",
+              "scientificName": "Peronosporales",
+              "rank": "order",
+              "parentUsageId": "G3"
+            },
+            "itis": {
+              "tsn": "13911",
+              "scientificName": "Peronosporales",
+              "rank": "Order",
+              "usage": "accepted"
+            },
+            "colStrictAcceptedSpecies": 1179
+          },
+          {
+            "col": {
+              "usageId": "3ZZ",
+              "scientificName": "Saprolegniales",
+              "rank": "order",
+              "parentUsageId": "G3"
+            },
+            "itis": {
+              "tsn": "13837",
+              "scientificName": "Saprolegniales",
+              "rank": "Order",
+              "usage": "accepted"
+            },
+            "colStrictAcceptedSpecies": 247
+          }
+        ],
+        "colStrictAcceptedSpecies": 1426,
+        "packageStrictAcceptedSpecies": 61518,
+        "packageOutOfScopeStrictAcceptedSpecies": 60092,
+        "boundary": "ITIS 2026-08-26 has no exact accepted Oomycota phylum root. Its broader ancestors for the two shared orders follow an historical Fungi/Myxomycota/Phycomycota path, so they are not treated as an Oomycota root. This sidecar therefore covers only strict COL26.8 accepted species below the two exact shared accepted order roots Peronosporales and Saprolegniales; every other COL Oomycota and every remaining Protists and Chromists species is explicitly out of scope."
+      },
+      "rootBoundaryAudit": {
+        "colOomycotaRoot": {
+          "usageId": "5K",
+          "scientificName": "Oomycota",
+          "rank": "phylum",
+          "status": "accepted"
+        },
+        "itisExactOomycotaAcceptedPhylumRoots": [],
+        "selectedSharedOrderRoots": [
+          {
+            "col": {
+              "usageId": "3SH",
+              "scientificName": "Peronosporales",
+              "rank": "order",
+              "parentUsageId": "G3"
+            },
+            "itis": {
+              "tsn": "13911",
+              "scientificName": "Peronosporales",
+              "rank": "Order",
+              "usage": "accepted",
+              "immediateParent": {
+                "tsn": "13785",
+                "scientificName": "Phycomycota",
+                "rank": "Class",
+                "usage": "accepted"
+              }
+            }
+          },
+          {
+            "col": {
+              "usageId": "3ZZ",
+              "scientificName": "Saprolegniales",
+              "rank": "order",
+              "parentUsageId": "G3"
+            },
+            "itis": {
+              "tsn": "13837",
+              "scientificName": "Saprolegniales",
+              "rank": "Order",
+              "usage": "accepted",
+              "immediateParent": {
+                "tsn": "13785",
+                "scientificName": "Phycomycota",
+                "rank": "Class",
+                "usage": "accepted"
+              }
+            }
+          }
+        ],
+        "decision": "Do not infer an ITIS Oomycota root from a broader historical lineage. Use only the two exact shared accepted order names/ranks, and keep the remaining COL Oomycota species out of scope."
+      },
+      "matching": {
+        "normalization": [
+          "Remove the exact trailing COL authorship field from COL scientificName when that suffix is present; no authorship parser is used.",
+          "Normalize Unicode to NFC, replace underscores with spaces, collapse Unicode whitespace and trim.",
+          "For species-rank comparison, remove one parenthesized subgenus token in the exact Genus (Subgenus) species representation; genus and specific epithet must remain unchanged.",
+          "Preserve case, diacritics, punctuation and all remaining name tokens."
+        ],
+        "statuses": {
+          "accepted": "The normalized COL name resolves to exactly one accepted ITIS species within the selected shared-order union and directly equals that current ITIS name.",
+          "synonym-current-name-redirect": "The normalized COL name equals official ITIS non-current species-name evidence that resolves to exactly one accepted ITIS species within the selected shared-order union.",
+          "ambiguous": "The normalized exact evidence resolves to more than one accepted ITIS species TSN within the selected shared-order union.",
+          "unmatched": "No normalized exact accepted-name or official ITIS species-synonym evidence resolves to an accepted ITIS species within the selected shared-order union."
+        },
+        "prohibited": "No fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered, taxon-substituted, or broader-lineage matching is used."
+      },
+      "evidenceBoundary": {
+        "en": "This CC0 ITIS sidecar is a frozen exact nomenclatural crosswalk only for the two shared order roots of the COL26.8 Oomycota partition. It does not assert that ITIS supplies an Oomycota root, or that its historical broader lineage is a usable Oomycota classification. It is not a global oomycete checklist, final classification authority, phylogeny, species-concept equivalence assertion, biological dossier or scientific-review record.",
+        "zh": "此 CC0 ITIS 侧车仅是 COL26.8 Oomycota 分区中两个双方精确共有目根的冻结严格命名交叉映射。它不声称 ITIS 提供 Oomycota 根，也不把 ITIS 的历史性更宽谱系当作可用的 Oomycota 分类。它不是全球卵菌名录、最终分类权威、系统发育、物种概念等同性声明、生物档案或科学审查记录。"
+      },
+      "counts": {
+        "eligible": 1426,
+        "records": 1464,
+        "accepted": 46,
+        "redirects": 0,
+        "ambiguous": 0,
+        "unmatched": 1380,
+        "withheld": 0,
+        "upstreamOnly": 38,
+        "nonApplicable": 60092
+      },
+      "files": [
+        {
+          "path": "protists-chromists/itis-oomycota-sidecar-0000.jsonl.gz",
+          "records": 1426,
+          "bytes": 36064,
+          "sourceBytes": 277007,
+          "sha256": "9f1ef2ed1ed8307561915cd96f11d3a9b9f7b34a46144bbd09537711b4b02997",
+          "sourceSha256": "12e23c3ba1f0efeb73a72bcb2afd5ff00ca6b7f583344d0afa2020b471c7f1e3",
+          "encoding": "gzip",
+          "mediaType": "application/x-ndjson",
+          "minColId": "33Q5B",
+          "maxColId": "Q784",
+          "role": "col-partition"
+        },
+        {
+          "path": "protists-chromists/itis-oomycota-upstream-only-0000.jsonl.gz",
+          "records": 38,
+          "bytes": 891,
+          "sourceBytes": 15529,
+          "sha256": "69609e96de65963a280d84c0e8a9e034de0710de18fce5db894ae8e584618704",
+          "sourceSha256": "1d67f55320f8edadfb4bfbca2e0d160cbecd0624040382c68b5c1c5f365f0200",
+          "encoding": "gzip",
+          "mediaType": "application/x-ndjson",
+          "colOwnership": null,
+          "role": "upstream-only"
+        }
+      ],
+      "totalCompressedBytes": 36955,
+      "totalSourceBytes": 292536,
+      "deliveryProfiles": {
+        "web-light": {
+          "payload": "summary-only",
+          "files": [],
+          "records": 0,
+          "totalCompressedBytes": 0,
+          "totalSourceBytes": 0,
+          "statement": "GitHub Pages publishes the complete Oomycota shared-order boundary authority boundary and canonical hashes without row shards."
+        },
+        "native-full": {
+          "payload": "complete",
+          "files": [
+            "protists-chromists/itis-oomycota-sidecar-0000.jsonl.gz",
+            "protists-chromists/itis-oomycota-upstream-only-0000.jsonl.gz"
+          ],
+          "records": 1464,
+          "totalCompressedBytes": 36955,
+          "totalSourceBytes": 292536
+        }
+      },
+      "limitations": [
+        "This CC0 ITIS sidecar is a frozen exact nomenclatural crosswalk only for the two shared order roots of the COL26.8 Oomycota partition. It does not assert that ITIS supplies an Oomycota root, or that its historical broader lineage is a usable Oomycota classification. It is not a global oomycete checklist, final classification authority, phylogeny, species-concept equivalence assertion, biological dossier or scientific-review record.",
+        "No fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered, taxon-substituted, or broader-lineage matching is used."
+      ],
+      "integration": {
+        "clientParityRequirement": "Android and iOS must copy every non-empty native-full file byte-for-byte; Web uses the web-light summary profile.",
+        "lookup": {
+          "strategy": "lexicographic-colId-range-v1",
+          "ordering": "Unicode code-unit ascending",
+          "requestPolicy": "Select the sole inclusive COL-ID range and read at most one COL partition; upstream-only files are never selected by COL ID."
+        }
+      }
+    },
+    {
+      "id": "itis-cryptophyta-tsn-crosswalk",
+      "recordType": "release-pinned-exact-root-boundary-audit",
+      "provider": "Integrated Taxonomic Information System",
+      "source": {
+        "datasetId": "itis-2026-08-26",
+        "exportDate": "2026-08-26",
+        "rootTsn": null,
+        "license": "CC0-1.0",
+        "citationDoi": "10.5066/F7KH0KBK",
+        "canonicalDescriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-cryptophyta-sidecar.json",
+        "canonicalDescriptorBytes": 5915,
+        "canonicalDescriptorSha256": "d2a899a6a3957978254499f3f6562c9508a2c0dd26f4358c24f28457b4566530"
+      },
+      "scope": {
+        "packageRootUsageIds": [
+          "C",
+          "Z"
+        ],
+        "packageRootScientificNames": [
+          "Chromista",
+          "Protozoa"
+        ],
+        "colRootUsageId": null,
+        "colRootScientificName": "Cryptophyta",
+        "colStrictAcceptedSpecies": 0,
+        "packageStrictAcceptedSpecies": 61518,
+        "packageOutOfScopeStrictAcceptedSpecies": 61518,
+        "colRootAudit": "No exact COL26.8 usage node named Cryptophyta exists in the complete pinned hierarchy; no strict COL partition is claimed.",
+        "boundary": "This boundary audit contains no Cryptophyta rows because neither COL26.8 nor ITIS 2026-08-26 exposes an exact accepted root named Cryptophyta. ITIS Cryptophycophyta and Cryptophyceae are recorded as nearby candidates only and are not substituted."
+      },
+      "rootBoundaryAudit": {
+        "colExactRootCandidates": [],
+        "itisExactNameCandidates": [],
+        "itisNearRootCandidates": [
+          {
+            "tsn": 10597,
+            "scientific_name": "Cryptophycophyta",
+            "rank_name": "Division",
+            "name_usage": "accepted",
+            "parent_tsn": 590735
+          },
+          {
+            "tsn": 10598,
+            "scientific_name": "Cryptophyceae",
+            "rank_name": "Class",
+            "name_usage": "accepted",
+            "parent_tsn": 10597
+          }
+        ],
+        "selectedColRoot": null,
+        "selectedItisRoot": null,
+        "decision": "No exact Cryptophyta root exists in either pinned authority. The nearby accepted ITIS names Cryptophycophyta (TSN 10597) and Cryptophyceae (TSN 10598) are not taxonomic substitutes; no COL or ITIS range is asserted."
+      },
+      "matching": {
+        "normalization": [
+          "Remove the exact trailing COL authorship field from COL scientificName when that suffix is present; no authorship parser is used.",
+          "Normalize Unicode to NFC, replace underscores with spaces, collapse Unicode whitespace and trim.",
+          "For species-rank comparison, remove one parenthesized subgenus token in the exact Genus (Subgenus) species representation; genus and specific epithet must remain unchanged.",
+          "Preserve case, diacritics, punctuation and all remaining name tokens."
+        ],
+        "statuses": {
+          "accepted": "Unavailable: no exact Cryptophyta root exists in the pinned authorities.",
+          "synonym-current-name-redirect": "Unavailable: no exact Cryptophyta root exists in the pinned authorities.",
+          "ambiguous": "Unavailable: no exact Cryptophyta root exists in the pinned authorities.",
+          "unmatched": "Unavailable: no exact Cryptophyta partition exists."
+        },
+        "prohibited": "No fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered, package-wide or taxon-substituted matching is used."
+      },
+      "evidenceBoundary": {
+        "en": "This CC0 ITIS boundary audit is a frozen exact-root check for the declared COL26.8 Protists and Chromists package. It is not a global Cryptophyta checklist, a final classification authority, a species-concept equivalence assertion, a biological dossier or a scientific-review record.",
+        "zh": "此 CC0 ITIS 边界审计仅冻结声明的 COL26.8 原生生物与色界生物包的精确根检查；它不是全球 Cryptophyta 名录、最终分类权威、物种概念等同性声明、生物档案或科学审查记录。"
+      },
+      "counts": {
+        "eligible": 0,
+        "records": 0,
+        "accepted": 0,
+        "redirects": 0,
+        "ambiguous": 0,
+        "unmatched": 0,
+        "withheld": 0,
+        "upstreamOnly": 0,
+        "nonApplicable": 61518
+      },
+      "files": [],
+      "totalCompressedBytes": 0,
+      "totalSourceBytes": 0,
+      "deliveryProfiles": {
+        "web-light": {
+          "payload": "summary-only",
+          "files": [],
+          "records": 0,
+          "totalCompressedBytes": 0,
+          "totalSourceBytes": 0,
+          "statement": "GitHub Pages publishes the complete Cryptophyta boundary authority boundary and canonical hashes without row shards."
+        },
+        "native-full": {
+          "payload": "complete",
+          "files": [],
+          "records": 0,
+          "totalCompressedBytes": 0,
+          "totalSourceBytes": 0
+        }
+      },
+      "limitations": [
+        "This CC0 ITIS boundary audit is a frozen exact-root check for the declared COL26.8 Protists and Chromists package. It is not a global Cryptophyta checklist, a final classification authority, a species-concept equivalence assertion, a biological dossier or a scientific-review record.",
+        "No fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered, package-wide or taxon-substituted matching is used."
+      ],
+      "integration": {
+        "clientParityRequirement": "Android and iOS must copy every non-empty native-full file byte-for-byte; Web uses the web-light summary profile.",
+        "lookup": {
+          "strategy": "lexicographic-colId-range-v1",
+          "ordering": "Unicode code-unit ascending",
+          "requestPolicy": "Select the sole inclusive COL-ID range and read at most one COL partition; upstream-only files are never selected by COL ID."
+        }
+      }
+    },
+    {
+      "id": "itis-choanoflagellatea-tsn-crosswalk",
+      "recordType": "release-pinned-exact-nomenclatural-crosswalk",
+      "provider": "Integrated Taxonomic Information System",
+      "source": {
+        "datasetId": "itis-2026-08-26",
+        "exportDate": "2026-08-26",
+        "rootTsn": null,
+        "license": "CC0-1.0",
+        "citationDoi": "10.5066/F7KH0KBK",
+        "canonicalDescriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-choanoflagellatea-sidecar.json",
+        "canonicalDescriptorBytes": 6688,
+        "canonicalDescriptorSha256": "5ee74618b9921ed6952272063d042bb4cd34ebe818605089bdcac235df018b63"
+      },
+      "scope": {
+        "packageRootUsageIds": [
+          "C",
+          "Z"
+        ],
+        "packageRootScientificNames": [
+          "Chromista",
+          "Protozoa"
+        ],
+        "colRootUsageId": null,
+        "colRootScientificName": "Choanoflagellatea",
+        "colStrictAcceptedSpecies": 0,
+        "packageStrictAcceptedSpecies": 61518,
+        "packageOutOfScopeStrictAcceptedSpecies": 61518,
+        "boundary": "No exact COL26.8 Choanoflagellatea root exists in the pinned registry; no species are inferred from a nearby kingdom, phylum or order. The declared Protists and Chromists owner remains the package boundary."
+      },
+      "rootBoundaryAudit": {
+        "colExactNameCandidates": [],
+        "itisExactNameCandidates": [],
+        "itisNearbyNameCandidates": [
+          {
+            "tsn": 43811,
+            "scientific_name": "Choanoflagellida",
+            "rank_name": "Order",
+            "name_usage": "valid",
+            "parent_tsn": 43810
+          }
+        ],
+        "selectedColRoot": null,
+        "selectedItisRoot": null,
+        "decision": "No exact COL26.8 Choanoflagellatea root and no exact ITIS Choanoflagellatea root exist in the pinned snapshots. ITIS Choanoflagellida is recorded only as a nearby non-substitute; no crosswalk rows or ITIS-only rows are asserted."
+      },
+      "matching": {
+        "normalization": [
+          "Remove the exact trailing COL authorship field from COL scientificName when that suffix is present; no authorship parser is used.",
+          "Normalize Unicode to NFC, replace underscores with spaces, collapse Unicode whitespace and trim.",
+          "For species-rank comparison, remove one parenthesized subgenus token in the exact Genus (Subgenus) species representation; genus and specific epithet must remain unchanged.",
+          "Preserve case, diacritics, punctuation and all remaining name tokens."
+        ],
+        "statuses": {
+          "accepted": "Unavailable: the pinned COL registry has no exact Choanoflagellatea root.",
+          "synonym-current-name-redirect": "Unavailable: the pinned COL registry has no exact Choanoflagellatea root.",
+          "ambiguous": "Unavailable: the pinned COL registry has no exact Choanoflagellatea root.",
+          "unmatched": "No Choanoflagellatea scope exists to match; no nearby taxon is substituted."
+        },
+        "prohibited": "No fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered, kingdom-wide, package-wide or taxon-substituted matching is used."
+      },
+      "evidenceBoundary": {
+        "en": "This CC0 ITIS sidecar records a zero-row exact-root audit for the named Choanoflagellatea scope. Neither pinned COL26.8 nor ITIS contains an exact Choanoflagellatea root; the nearby ITIS Choanoflagellida order is not substituted. It is not a global choanoflagellate checklist, classification authority, phylogeny, species-concept equivalence assertion, biological dossier or scientific-review record.",
+        "zh": "此 CC0 ITIS 侧车记录所声明领鞭毛虫范围的零行精确根审计。固定的 COL26.8 与 ITIS 均不存在精确 Choanoflagellatea 根节点；附近的 ITIS Choanoflagellida 目不作为替代。它不是全球领鞭毛虫名录、分类权威、系统发育、物种概念等同性声明、生物档案或科学审查记录。"
+      },
+      "counts": {
+        "eligible": 0,
+        "records": 0,
+        "accepted": 0,
+        "redirects": 0,
+        "ambiguous": 0,
+        "unmatched": 0,
+        "withheld": 0,
+        "upstreamOnly": 0,
+        "nonApplicable": 61518
+      },
+      "files": [],
+      "totalCompressedBytes": 0,
+      "totalSourceBytes": 0,
+      "deliveryProfiles": {
+        "web-light": {
+          "payload": "summary-only",
+          "files": [],
+          "records": 0,
+          "totalCompressedBytes": 0,
+          "totalSourceBytes": 0,
+          "statement": "GitHub Pages publishes the complete Choanoflagellatea boundary authority boundary and canonical hashes without row shards."
+        },
+        "native-full": {
+          "payload": "complete",
+          "files": [],
+          "records": 0,
+          "totalCompressedBytes": 0,
+          "totalSourceBytes": 0
+        }
+      },
+      "limitations": [
+        "This CC0 ITIS sidecar records a zero-row exact-root audit for the named Choanoflagellatea scope. Neither pinned COL26.8 nor ITIS contains an exact Choanoflagellatea root; the nearby ITIS Choanoflagellida order is not substituted. It is not a global choanoflagellate checklist, classification authority, phylogeny, species-concept equivalence assertion, biological dossier or scientific-review record.",
+        "No fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered, kingdom-wide, package-wide or taxon-substituted matching is used."
+      ],
+      "integration": {
+        "clientParityRequirement": "Android and iOS must copy every non-empty native-full file byte-for-byte; Web uses the web-light summary profile.",
+        "lookup": {
+          "strategy": "lexicographic-colId-range-v1",
+          "ordering": "Unicode code-unit ascending",
+          "requestPolicy": "Select the sole inclusive COL-ID range and read at most one COL partition; upstream-only files are never selected by COL ID."
+        }
+      }
+    },
+    {
+      "id": "itis-bigyra-tsn-crosswalk",
+      "recordType": "release-pinned-exact-nomenclatural-crosswalk",
+      "provider": "Integrated Taxonomic Information System",
+      "source": {
+        "datasetId": "itis-2026-08-26",
+        "exportDate": "2026-08-26",
+        "rootTsn": "969916",
+        "license": "CC0-1.0",
+        "citationDoi": "10.5066/F7KH0KBK",
+        "canonicalDescriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-bigyra-sidecar.json",
+        "canonicalDescriptorBytes": 7071,
+        "canonicalDescriptorSha256": "75fff24d0ed8ede1e2a57a4d8c7b35da2ff12a23d0dcf036f77dfc00736942cb"
+      },
+      "scope": {
+        "packageRootUsageIds": [
+          "C",
+          "Z"
+        ],
+        "packageRootScientificNames": [
+          "Chromista",
+          "Protozoa"
+        ],
+        "colRootUsageId": "622CB",
+        "colRootScientificName": "Bigyra",
+        "colStrictAcceptedSpecies": 53,
+        "packageStrictAcceptedSpecies": 61518,
+        "packageOutOfScopeStrictAcceptedSpecies": 61465,
+        "boundary": "This sidecar covers only strict accepted COL26.8 species descending from exact Bigyra root 622CB. Every other Protists and Chromists species is explicitly out of scope."
+      },
+      "rootBoundaryAudit": {
+        "colRoot": {
+          "id": "622CB",
+          "scientificName": "Bigyra",
+          "rank": "phylum",
+          "status": "accepted"
+        },
+        "selectedItisRoot": {
+          "tsn": "969916",
+          "scientificName": "Bigyra",
+          "rank": "Division",
+          "usage": "accepted"
+        },
+        "itisExactNameCandidates": [
+          {
+            "tsn": 969916,
+            "scientific_name": "Bigyra",
+            "rank_name": "Division",
+            "name_usage": "accepted",
+            "parent_tsn": 969914
+          }
+        ],
+        "selectedCurrentSpecies": 0,
+        "selectedSpeciesSynonymLinks": 0,
+        "decision": "Use only exact accepted ITIS Bigyra division TSN 969916 and exact accepted COL Bigyra phylum usage 622CB. The selected ITIS root has no accepted species, so no narrower or broader taxon is substituted and every COL row remains unmatched."
+      },
+      "matching": {
+        "normalization": [
+          "Remove the exact trailing COL authorship field from COL scientificName when that suffix is present; no authorship parser is used.",
+          "Normalize Unicode to NFC, replace underscores with spaces, collapse Unicode whitespace and trim.",
+          "For species-rank comparison, remove one parenthesized subgenus token in the exact Genus (Subgenus) species representation; genus and specific epithet must remain unchanged.",
+          "Preserve case, diacritics, punctuation and all remaining name tokens."
+        ],
+        "statuses": {
+          "accepted": "Unavailable: the selected exact ITIS Bigyra root has no accepted species from which to derive a current-species partition.",
+          "synonym-current-name-redirect": "Unavailable: the selected exact ITIS Bigyra root has no accepted species and therefore no species-synonym partition.",
+          "ambiguous": "Unavailable: the selected exact ITIS Bigyra root has no accepted species from which to derive candidate ambiguity.",
+          "unmatched": "The exact COL Bigyra name has no candidate in the empty selected ITIS Bigyra accepted-species index."
+        },
+        "prohibited": "No fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered, package-wide or taxon-substituted matching is used."
+      },
+      "evidenceBoundary": {
+        "en": "This CC0 ITIS sidecar is a frozen exact-name audit for the declared COL26.8 Bigyra partition. The selected exact ITIS Bigyra root has no accepted species, so all COL rows remain explicitly unmatched and no ITIS-only rows are asserted. It is not a global bigyran checklist, final classification authority, phylogeny, species-concept equivalence assertion, biological dossier or scientific-review record.",
+        "zh": "此 CC0 ITIS 侧车是 COL26.8 Bigyra 分区的冻结精确名称审计。所选精确 ITIS Bigyra 根节点没有已接受物种，因此所有 COL 行均明确保留为 unmatched，不声明 ITIS-only 行；它不是全球 Bigyra 名录、最终分类权威、系统发育、物种概念等同性声明、生物档案或科学审查记录。"
+      },
+      "counts": {
+        "eligible": 53,
+        "records": 53,
+        "accepted": 0,
+        "redirects": 0,
+        "ambiguous": 0,
+        "unmatched": 53,
+        "withheld": 0,
+        "upstreamOnly": 0,
+        "nonApplicable": 61465
+      },
+      "files": [
+        {
+          "path": "protists-chromists/itis-bigyra-sidecar-0000.jsonl.gz",
+          "records": 53,
+          "bytes": 1700,
+          "sourceBytes": 10712,
+          "sha256": "c66d834f3faddb233e5154fabefafea595043fc2acdefbb88999f9b14ec8a7f5",
+          "sourceSha256": "46a8367b78e77c7c6caf5d8b40fb6fe93396d6f1b3f728ee95adbd79531884c4",
+          "encoding": "gzip",
+          "mediaType": "application/x-ndjson",
+          "minColId": "36MJR",
+          "maxColId": "MPV3",
+          "role": "col-partition"
+        }
+      ],
+      "totalCompressedBytes": 1700,
+      "totalSourceBytes": 10712,
+      "deliveryProfiles": {
+        "web-light": {
+          "payload": "summary-only",
+          "files": [],
+          "records": 0,
+          "totalCompressedBytes": 0,
+          "totalSourceBytes": 0,
+          "statement": "GitHub Pages publishes the complete Bigyra authority boundary and canonical hashes without row shards."
+        },
+        "native-full": {
+          "payload": "complete",
+          "files": [
+            "protists-chromists/itis-bigyra-sidecar-0000.jsonl.gz"
+          ],
+          "records": 53,
+          "totalCompressedBytes": 1700,
+          "totalSourceBytes": 10712
+        }
+      },
+      "limitations": [
+        "This CC0 ITIS sidecar is a frozen exact-name audit for the declared COL26.8 Bigyra partition. The selected exact ITIS Bigyra root has no accepted species, so all COL rows remain explicitly unmatched and no ITIS-only rows are asserted. It is not a global bigyran checklist, final classification authority, phylogeny, species-concept equivalence assertion, biological dossier or scientific-review record.",
+        "No fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered, package-wide or taxon-substituted matching is used."
+      ],
+      "integration": {
+        "clientParityRequirement": "Android and iOS must copy every non-empty native-full file byte-for-byte; Web uses the web-light summary profile.",
+        "lookup": {
+          "strategy": "lexicographic-colId-range-v1",
+          "ordering": "Unicode code-unit ascending",
+          "requestPolicy": "Select the sole inclusive COL-ID range and read at most one COL partition; upstream-only files are never selected by COL ID."
+        }
+      }
+    },
+    {
+      "id": "itis-perkinsozoa-tsn-crosswalk",
+      "recordType": "release-pinned-empty-nomenclatural-partition",
+      "provider": "Integrated Taxonomic Information System",
+      "source": {
+        "datasetId": "itis-2026-08-26",
+        "exportDate": "2026-08-26",
+        "rootTsn": null,
+        "license": "CC0-1.0",
+        "citationDoi": "10.5066/F7KH0KBK",
+        "canonicalDescriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-perkinsozoa-sidecar.json",
+        "canonicalDescriptorBytes": 6601,
+        "canonicalDescriptorSha256": "80b58d51531d3ff53e6c91d981b3268da618bba562f6ee8802d442281a7bedfc"
+      },
+      "scope": {
+        "requestedLabel": "Perkinsozoa",
+        "packageRootUsageIds": [
+          "C",
+          "Z"
+        ],
+        "packageRootScientificNames": [
+          "Chromista",
+          "Protozoa"
+        ],
+        "packageStrictAcceptedSpecies": 61518,
+        "colRootUsageId": null,
+        "colRootScientificName": "Perkinsozoa",
+        "colExactRootCandidates": [],
+        "colStrictAcceptedSpecies": 0,
+        "itisRootTsn": null,
+        "itisRootScientificName": "Perkinsozoa",
+        "itisExactRootCandidates": [],
+        "itisPrefixRootCandidates": [],
+        "boundary": "Neither COL26.8 nor ITIS 2026-08-26 materializes an exact Perkinsozoa root. No adjacent Dinoflagellata, Apicomplexa, Perkinsus, or package-wide name overlap is used as a proxy; this partition therefore has zero crosswalk rows and zero ITIS-only rows."
+      },
+      "rootBoundaryAudit": {
+        "colRegistryManifestPath": "data/catalogue-of-life/releases/2026-08-20/registry/manifest.json",
+        "colRegistryManifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151",
+        "exactColRootCandidates": [],
+        "exactItisRootCandidates": [],
+        "prefixItisRootCandidates": [],
+        "existingPartitions": [
+          {
+            "label": "Dinoflagellata",
+            "descriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-dinoflagellata-sidecar.json",
+            "colRootUsageId": "622D3",
+            "colRootScientificName": "Dinophyceae (Dinoflagellata)",
+            "itisRootTsn": "9874",
+            "colStrictAcceptedSpecies": 259,
+            "sidecarRecords": 259,
+            "overlappingColUsageIds": []
+          },
+          {
+            "label": "Apicomplexa",
+            "descriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-apicomplexa-sidecar.json",
+            "colRootUsageId": "87FBN",
+            "colRootScientificName": "Cryptosporidium Tyzzer, 1907",
+            "itisRootTsn": "553099",
+            "colStrictAcceptedSpecies": 21,
+            "sidecarRecords": 21,
+            "overlappingColUsageIds": []
+          }
+        ],
+        "overlapWithExistingPartitions": [
+          {
+            "label": "Dinoflagellata",
+            "overlappingColUsageIds": []
+          },
+          {
+            "label": "Apicomplexa",
+            "overlappingColUsageIds": []
+          }
+        ],
+        "decision": "No exact root exists in either pinned source. The existing Dinoflagellata and represented Apicomplexa partitions remain disjoint named partitions and are not expanded or duplicated here."
+      },
+      "matching": {
+        "normalization": [
+          "Remove the exact trailing COL authorship field from COL scientificName when that suffix is present; no authorship parser is used.",
+          "Normalize Unicode to NFC, replace underscores with spaces, collapse Unicode whitespace and trim.",
+          "For species-rank comparison, remove one parenthesized subgenus token in the exact Genus (Subgenus) species representation; genus and specific epithet must remain unchanged.",
+          "Preserve case, diacritics, punctuation and all remaining name tokens."
+        ],
+        "statuses": {
+          "accepted": "Unavailable: no exact COL26.8 Perkinsozoa root defines an eligible partition.",
+          "synonym-current-name-redirect": "Unavailable: no exact COL26.8 Perkinsozoa root defines an eligible partition.",
+          "ambiguous": "Unavailable: no exact COL26.8 Perkinsozoa root defines an eligible partition.",
+          "unmatched": "Unavailable: no exact COL26.8 Perkinsozoa root defines an eligible partition."
+        },
+        "prohibited": "No inferred root, fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered, taxon-substituted, adjacent-root or package-wide matching is used."
+      },
+      "evidenceBoundary": {
+        "en": "This CC0 sidecar is an explicitly empty, release-pinned nomenclatural boundary audit. It is not a Perkinsozoa checklist, an inferred taxonomic placement, a final classification authority, a phylogeny, a species-concept equivalence assertion, a biological dossier or a scientific-review record.",
+        "zh": "此 CC0 侧车是明确为空的、固定版本的命名边界审计；它不是 Perkinsozoa 名录、推断的分类位置、最终分类权威、系统发育、物种概念等同性声明、生物档案或科学审查记录。"
+      },
+      "counts": {
+        "eligible": 0,
+        "records": 0,
+        "accepted": 0,
+        "redirects": 0,
+        "ambiguous": 0,
+        "unmatched": 0,
+        "withheld": 0,
+        "upstreamOnly": 0,
+        "nonApplicable": 61518
+      },
+      "files": [],
+      "totalCompressedBytes": 0,
+      "totalSourceBytes": 0,
+      "deliveryProfiles": {
+        "web-light": {
+          "payload": "summary-only",
+          "files": [],
+          "records": 0,
+          "totalCompressedBytes": 0,
+          "totalSourceBytes": 0,
+          "statement": "GitHub Pages publishes the complete Perkinsozoa authority boundary authority boundary and canonical hashes without row shards."
+        },
+        "native-full": {
+          "payload": "complete",
+          "files": [],
+          "records": 0,
+          "totalCompressedBytes": 0,
+          "totalSourceBytes": 0
+        }
+      },
+      "limitations": [
+        "This CC0 sidecar is an explicitly empty, release-pinned nomenclatural boundary audit. It is not a Perkinsozoa checklist, an inferred taxonomic placement, a final classification authority, a phylogeny, a species-concept equivalence assertion, a biological dossier or a scientific-review record.",
+        "No inferred root, fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered, taxon-substituted, adjacent-root or package-wide matching is used."
+      ],
+      "integration": {
+        "clientParityRequirement": "Android and iOS must copy every non-empty native-full file byte-for-byte; Web uses the web-light summary profile.",
+        "lookup": {
+          "strategy": "lexicographic-colId-range-v1",
+          "ordering": "Unicode code-unit ascending",
+          "requestPolicy": "Select the sole inclusive COL-ID range and read at most one COL partition; upstream-only files are never selected by COL ID."
+        }
+      }
+    },
+    {
+      "id": "itis-labyrinthulomycetes-tsn-crosswalk",
+      "recordType": "release-pinned-exact-nomenclatural-crosswalk",
+      "provider": "Integrated Taxonomic Information System",
+      "source": {
+        "datasetId": "itis-2026-08-26",
+        "exportDate": "2026-08-26",
+        "rootTsn": null,
+        "license": "CC0-1.0",
+        "citationDoi": "10.5066/F7KH0KBK",
+        "canonicalDescriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-labyrinthulomycetes-sidecar.json",
+        "canonicalDescriptorBytes": 7661,
+        "canonicalDescriptorSha256": "e19c75308c7942a50cd77feef6bb55ec1c1655032d9c30eb636f316032a035d6"
+      },
+      "scope": {
+        "packageRootUsageIds": [
+          "C",
+          "Z"
+        ],
+        "packageRootScientificNames": [
+          "Chromista",
+          "Protozoa"
+        ],
+        "colRootUsageId": null,
+        "colRootScientificName": "Labyrinthulomycetes",
+        "colStrictAcceptedSpecies": 0,
+        "packageStrictAcceptedSpecies": 61518,
+        "packageOutOfScopeStrictAcceptedSpecies": 61518,
+        "boundary": "No exact COL26.8 Labyrinthulomycetes root exists. Nearby Labyrinthulea is deliberately excluded because it is a Bigyra-descendant scope already covered by the Bigyra authority sidecar; no nearby ITIS lineage is substituted."
+      },
+      "rootBoundaryAudit": {
+        "colExactNameCandidates": [],
+        "colNearbyNameCandidates": [
+          {
+            "id": "DJ",
+            "scientificName": "Labyrinthulea",
+            "rank": "class",
+            "status": "accepted",
+            "parentId": "622CB"
+          }
+        ],
+        "itisExactNameCandidates": [],
+        "itisNearbyNameCandidates": [
+          {
+            "tsn": 46076,
+            "scientific_name": "Labyrinthulea",
+            "rank_name": "Class",
+            "name_usage": "valid",
+            "parent_tsn": 46067
+          }
+        ],
+        "itisNearbyParent": {
+          "tsn": 46067,
+          "scientific_name": "Mycetozoa",
+          "rank_name": "Subphylum",
+          "name_usage": "valid"
+        },
+        "existingPartitionOverlap": {
+          "bigyra": {
+            "colRoot": {
+              "id": "622CB",
+              "scientificName": "Bigyra",
+              "rank": "phylum",
+              "status": "accepted",
+              "parentId": "C"
+            },
+            "relation": "The only nearby COL Labyrinthulea class DJ is directly below Bigyra 622CB, so substituting it would duplicate the existing Bigyra sidecar scope."
+          },
+          "ochrophyta": "No requested or nearby COL candidate is below Ochrophyta root 5H.",
+          "oomycota": "No requested or nearby COL candidate is below Oomycota root 5K; the existing narrowed Oomycota sidecar remains disjoint."
+        },
+        "selectedColRoot": null,
+        "selectedItisRoot": null,
+        "decision": "Neither pinned snapshot contains an exact Labyrinthulomycetes root. The similarly named Labyrinthulea candidates are not substituted: COL DJ is already entirely within Bigyra, while ITIS TSN 46076 sits below Mycetozoa. No row-level crosswalk or ITIS-only partition is asserted."
+      },
+      "matching": {
+        "normalization": [
+          "Remove the exact trailing COL authorship field from COL scientificName when that suffix is present; no authorship parser is used.",
+          "Normalize Unicode to NFC, replace underscores with spaces, collapse Unicode whitespace and trim.",
+          "For species-rank comparison, remove one parenthesized subgenus token in the exact Genus (Subgenus) species representation; genus and specific epithet must remain unchanged.",
+          "Preserve case, diacritics, punctuation and all remaining name tokens."
+        ],
+        "statuses": {
+          "accepted": "Unavailable: no exact COL26.8 Labyrinthulomycetes root exists.",
+          "synonym-current-name-redirect": "Unavailable: no exact COL26.8 Labyrinthulomycetes root exists.",
+          "ambiguous": "Unavailable: no exact COL26.8 Labyrinthulomycetes root exists.",
+          "unmatched": "No Labyrinthulomycetes scope exists to match; nearby taxa are not substituted."
+        },
+        "prohibited": "No fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered, package-wide, overlapping-partition or taxon-substituted matching is used."
+      },
+      "evidenceBoundary": {
+        "en": "This CC0 ITIS sidecar records a zero-row exact-root audit for Labyrinthulomycetes. It does not substitute the conflicting nearby Labyrinthulea classifications or duplicate the existing Bigyra partition. It is not a global checklist, classification authority, phylogeny, species-concept equivalence assertion, biological dossier or scientific-review record.",
+        "zh": "此 CC0 ITIS 侧车记录 Labyrinthulomycetes 的零行精确根审计。它不替代彼此冲突的邻近 Labyrinthulea 分类，也不重复现有 Bigyra 分区；它不是全球名录、分类权威、系统发育、物种概念等同性声明、生物档案或科学审查记录。"
+      },
+      "counts": {
+        "eligible": 0,
+        "records": 0,
+        "accepted": 0,
+        "redirects": 0,
+        "ambiguous": 0,
+        "unmatched": 0,
+        "withheld": 0,
+        "upstreamOnly": 0,
+        "nonApplicable": 61518
+      },
+      "files": [],
+      "totalCompressedBytes": 0,
+      "totalSourceBytes": 0,
+      "deliveryProfiles": {
+        "web-light": {
+          "payload": "summary-only",
+          "files": [],
+          "records": 0,
+          "totalCompressedBytes": 0,
+          "totalSourceBytes": 0,
+          "statement": "GitHub Pages publishes the complete Labyrinthulomycetes authority boundary authority boundary and canonical hashes without row shards."
+        },
+        "native-full": {
+          "payload": "complete",
+          "files": [],
+          "records": 0,
+          "totalCompressedBytes": 0,
+          "totalSourceBytes": 0
+        }
+      },
+      "limitations": [
+        "This CC0 ITIS sidecar records a zero-row exact-root audit for Labyrinthulomycetes. It does not substitute the conflicting nearby Labyrinthulea classifications or duplicate the existing Bigyra partition. It is not a global checklist, classification authority, phylogeny, species-concept equivalence assertion, biological dossier or scientific-review record.",
+        "No fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered, package-wide, overlapping-partition or taxon-substituted matching is used."
+      ],
+      "integration": {
+        "clientParityRequirement": "Android and iOS must copy every non-empty native-full file byte-for-byte; Web uses the web-light summary profile.",
+        "lookup": {
+          "strategy": "lexicographic-colId-range-v1",
+          "ordering": "Unicode code-unit ascending",
+          "requestPolicy": "Select the sole inclusive COL-ID range and read at most one COL partition; upstream-only files are never selected by COL ID."
+        }
+      }
+    },
+    {
+      "id": "itis-opalozoa-tsn-crosswalk",
+      "recordType": "release-pinned-exact-root-boundary-audit",
+      "provider": "Integrated Taxonomic Information System",
+      "source": {
+        "datasetId": "itis-2026-08-26",
+        "exportDate": "2026-08-26",
+        "rootTsn": null,
+        "license": "CC0-1.0",
+        "citationDoi": "10.5066/F7KH0KBK",
+        "canonicalDescriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-opalozoa-sidecar.json",
+        "canonicalDescriptorBytes": 6132,
+        "canonicalDescriptorSha256": "0eb545013479d9bb28ef289e49925c4842dba34d2e3f6a1002ec12934494c1d6"
+      },
+      "scope": {
+        "packageRootUsageIds": [
+          "C",
+          "Z"
+        ],
+        "packageRootScientificNames": [
+          "Chromista",
+          "Protozoa"
+        ],
+        "colRootUsageId": null,
+        "colRootScientificName": "Opalozoa",
+        "colStrictAcceptedSpecies": 0,
+        "packageStrictAcceptedSpecies": 61518,
+        "packageOutOfScopeStrictAcceptedSpecies": 61518,
+        "colRootAudit": "No exact COL26.8 usage node named Opalozoa exists in the complete pinned hierarchy; no strict COL partition is claimed.",
+        "boundary": "This boundary audit contains no Opalozoa rows because neither COL26.8 nor ITIS 2026-08-26 exposes an exact accepted root named Opalozoa. The nearby ITIS name Opalinata (TSN 43846) is recorded only as audit evidence and is not substituted."
+      },
+      "rootBoundaryAudit": {
+        "colExactRootCandidates": [],
+        "colNearRootCandidates": [],
+        "itisExactNameCandidates": [],
+        "itisNearRootCandidates": [
+          {
+            "tsn": 43846,
+            "scientific_name": "Opalinata",
+            "rank_name": "Class",
+            "name_usage": "valid",
+            "parent_tsn": 43782
+          }
+        ],
+        "selectedColRoot": null,
+        "selectedItisRoot": null,
+        "overlapAudit": {
+          "inspectedScopes": [
+            "Bigyra",
+            "Oomycota",
+            "Ochrophyta",
+            "Cercozoa",
+            "Ciliophora",
+            "Dinoflagellata",
+            "Apicomplexa",
+            "Amoebozoa",
+            "Euglenozoa",
+            "Haptophyta",
+            "Rhodophyta",
+            "Cryptophyta",
+            "Choanoflagellatea",
+            "Perkinsozoa",
+            "Labyrinthulomycetes"
+          ],
+          "overlappingColUsageIds": [],
+          "overlappingItisTsns": []
+        },
+        "decision": "No exact Opalozoa root exists in either pinned authority. The nearby accepted/valid ITIS names are not taxonomic substitutes; no COL or ITIS range is asserted."
+      },
+      "matching": {
+        "normalization": [
+          "Remove the exact trailing COL authorship field from COL scientificName when that suffix is present; no authorship parser is used.",
+          "Normalize Unicode to NFC, replace underscores with spaces, collapse Unicode whitespace and trim.",
+          "For species-rank comparison, remove one parenthesized subgenus token in the exact Genus (Subgenus) species representation; genus and specific epithet must remain unchanged.",
+          "Preserve case, diacritics, punctuation and all remaining name tokens."
+        ],
+        "statuses": {
+          "accepted": "Unavailable: no exact Opalozoa root exists in the pinned authorities.",
+          "synonym-current-name-redirect": "Unavailable: no exact Opalozoa root exists in the pinned authorities.",
+          "ambiguous": "Unavailable: no exact Opalozoa root exists in the pinned authorities.",
+          "unmatched": "Unavailable: no exact Opalozoa partition exists."
+        },
+        "prohibited": "No fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered, package-wide or taxon-substituted matching is used."
+      },
+      "evidenceBoundary": {
+        "en": "This CC0 ITIS boundary audit is a frozen exact-root check for the declared COL26.8 Protists and Chromists package. It is not a global Opalozoa checklist, a final classification authority, a species-concept equivalence assertion, a biological dossier or a scientific-review record.",
+        "zh": "此 CC0 ITIS 边界审计仅冻结声明的 COL26.8 原生生物与色界生物包的精确根检查；它不是全球 Opalozoa 名录、最终分类权威、物种概念等同性声明、生物档案或科学审查记录。"
+      },
+      "counts": {
+        "eligible": 0,
+        "records": 0,
+        "accepted": 0,
+        "redirects": 0,
+        "ambiguous": 0,
+        "unmatched": 0,
+        "withheld": 0,
+        "upstreamOnly": 0,
+        "nonApplicable": 61518
+      },
+      "files": [],
+      "totalCompressedBytes": 0,
+      "totalSourceBytes": 0,
+      "deliveryProfiles": {
+        "web-light": {
+          "payload": "summary-only",
+          "files": [],
+          "records": 0,
+          "totalCompressedBytes": 0,
+          "totalSourceBytes": 0,
+          "statement": "GitHub Pages publishes the complete Opalozoa authority boundary authority boundary and canonical hashes without row shards."
+        },
+        "native-full": {
+          "payload": "complete",
+          "files": [],
+          "records": 0,
+          "totalCompressedBytes": 0,
+          "totalSourceBytes": 0
+        }
+      },
+      "limitations": [
+        "This CC0 ITIS boundary audit is a frozen exact-root check for the declared COL26.8 Protists and Chromists package. It is not a global Opalozoa checklist, a final classification authority, a species-concept equivalence assertion, a biological dossier or a scientific-review record.",
+        "No fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered, package-wide or taxon-substituted matching is used."
+      ],
+      "integration": {
+        "clientParityRequirement": "Android and iOS must copy every non-empty native-full file byte-for-byte; Web uses the web-light summary profile.",
+        "lookup": {
+          "strategy": "lexicographic-colId-range-v1",
+          "ordering": "Unicode code-unit ascending",
+          "requestPolicy": "Select the sole inclusive COL-ID range and read at most one COL partition; upstream-only files are never selected by COL ID."
+        }
+      }
+    },
+    {
+      "id": "itis-radiolaria-tsn-crosswalk",
+      "recordType": "release-pinned-exact-root-boundary-audit",
+      "provider": "Integrated Taxonomic Information System",
+      "source": {
+        "datasetId": "itis-2026-08-26",
+        "exportDate": "2026-08-26",
+        "rootTsn": null,
+        "license": "CC0-1.0",
+        "citationDoi": "10.5066/F7KH0KBK",
+        "canonicalDescriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-radiolaria-sidecar.json",
+        "canonicalDescriptorBytes": 9460,
+        "canonicalDescriptorSha256": "97499caa50a39f82bed65fe44264c236a8e74a46a3ad7b5281b00ba27d13c3c3"
+      },
+      "scope": {
+        "packageRootUsageIds": [
+          "C",
+          "Z"
+        ],
+        "packageRootScientificNames": [
+          "Chromista",
+          "Protozoa"
+        ],
+        "colRootUsageId": null,
+        "colRootScientificName": "Radiolaria",
+        "colStrictAcceptedSpecies": 0,
+        "packageStrictAcceptedSpecies": 61518,
+        "packageOutOfScopeStrictAcceptedSpecies": 61518,
+        "colRootAudit": "No exact COL26.8 usage node named Radiolaria exists in the complete pinned hierarchy; no strict COL partition is claimed.",
+        "boundary": "This boundary audit contains no Radiolaria rows: COL26.8 has no exact Radiolaria node, and ITIS 2026-08-26 has no accepted exact Radiolaria root. Its only exact-name valid order is a legacy Labyrinthulea/Piroplasmia placement with no accepted species descendants. Accepted Rhizaria is recorded only as a nearby modern classification candidate and is not substituted."
+      },
+      "rootBoundaryAudit": {
+        "colExactRootCandidates": [],
+        "itisExactNameCandidates": [
+          {
+            "tsn": 46088,
+            "scientific_name": "Radiolaria",
+            "rank_name": "Order",
+            "name_usage": "valid",
+            "parent_tsn": 46078
+          },
+          {
+            "tsn": 46089,
+            "scientific_name": "Radiolaria",
+            "rank_name": "Order",
+            "name_usage": "invalid",
+            "parent_tsn": 0
+          },
+          {
+            "tsn": 152884,
+            "scientific_name": "Radiolaria",
+            "rank_name": "Genus",
+            "name_usage": "invalid",
+            "parent_tsn": 0
+          },
+          {
+            "tsn": 152885,
+            "scientific_name": "Radiolaria",
+            "rank_name": "Genus",
+            "name_usage": "invalid",
+            "parent_tsn": 0
+          }
+        ],
+        "itisAcceptedExactRootCandidates": [],
+        "itisLegacyExactNameRoot": {
+          "tsn": 46088,
+          "scientific_name": "Radiolaria",
+          "rank_name": "Order",
+          "name_usage": "valid",
+          "parent_tsn": 46078
+        },
+        "itisLegacyExactNameLineage": [
+          {
+            "tsn": 46088,
+            "scientific_name": "Radiolaria",
+            "rank_name": "Order",
+            "name_usage": "valid",
+            "parent_tsn": 46078,
+            "depth": 0
+          },
+          {
+            "tsn": 46078,
+            "scientific_name": "Piroplasmia",
+            "rank_name": "Subclass",
+            "name_usage": "valid",
+            "parent_tsn": 46076,
+            "depth": 1
+          },
+          {
+            "tsn": 46076,
+            "scientific_name": "Labyrinthulea",
+            "rank_name": "Class",
+            "name_usage": "valid",
+            "parent_tsn": 46067,
+            "depth": 2
+          },
+          {
+            "tsn": 46067,
+            "scientific_name": "Mycetozoa",
+            "rank_name": "Subphylum",
+            "name_usage": "valid",
+            "parent_tsn": 43780,
+            "depth": 3
+          },
+          {
+            "tsn": 43780,
+            "scientific_name": "Protozoa",
+            "rank_name": "Phylum",
+            "name_usage": "valid",
+            "parent_tsn": 630577,
+            "depth": 4
+          },
+          {
+            "tsn": 630577,
+            "scientific_name": "Protozoa",
+            "rank_name": "Kingdom",
+            "name_usage": "valid",
+            "parent_tsn": 0,
+            "depth": 5
+          }
+        ],
+        "itisLegacyExactNameDescendants": [
+          {
+            "tsn": 46088,
+            "scientific_name": "Radiolaria",
+            "rank_name": "Order",
+            "name_usage": "valid",
+            "parent_tsn": 46078
+          },
+          {
+            "tsn": 46090,
+            "scientific_name": "Acanthoniidae",
+            "rank_name": "Family",
+            "name_usage": "valid",
+            "parent_tsn": 46088
+          }
+        ],
+        "itisNearbyModernCandidates": [
+          {
+            "tsn": 969913,
+            "scientific_name": "Rhizaria",
+            "rank_name": "Infrakingdom",
+            "name_usage": "accepted",
+            "parent_tsn": 969910
+          }
+        ],
+        "selectedColRoot": null,
+        "selectedItisRoot": null,
+        "decision": "No exact accepted Radiolaria root exists in either pinned authority. The ITIS exact-name order TSN 46088 is a valid legacy record under Labyrinthulea/Piroplasmia with no accepted species descendants; accepted Rhizaria TSN 969913 is a nearby modern classification record, not a substitute root. No COL or ITIS range is asserted."
+      },
+      "matching": {
+        "normalization": [
+          "Remove the exact trailing COL authorship field from COL scientificName when that suffix is present; no authorship parser is used.",
+          "Normalize Unicode to NFC, replace underscores with spaces, collapse Unicode whitespace and trim.",
+          "For species-rank comparison, remove one parenthesized subgenus token in the exact Genus (Subgenus) species representation; genus and specific epithet must remain unchanged.",
+          "Preserve case, diacritics, punctuation and all remaining name tokens."
+        ],
+        "statuses": {
+          "accepted": "Unavailable: no exact accepted Radiolaria root exists in the pinned authorities.",
+          "synonym-current-name-redirect": "Unavailable: no exact accepted Radiolaria root exists in the pinned authorities.",
+          "ambiguous": "Unavailable: no exact accepted Radiolaria root exists in the pinned authorities.",
+          "unmatched": "Unavailable: no exact Radiolaria COL partition exists."
+        },
+        "prohibited": "No fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered, package-wide, near-lineage or taxon-substituted matching is used."
+      },
+      "evidenceBoundary": {
+        "en": "This CC0 ITIS boundary audit is a frozen exact-root check for the declared COL26.8 Protists and Chromists package. It is not a global Radiolaria checklist, a final classification authority, a phylogeny, a species-concept equivalence assertion, a biological dossier or a scientific-review record.",
+        "zh": "此 CC0 ITIS 边界审计仅冻结声明的 COL26.8 原生生物与色界生物包的精确根检查；它不是全球 Radiolaria 名录、最终分类权威、系统发育、物种概念等同性声明、生物档案或科学审查记录。"
+      },
+      "counts": {
+        "eligible": 0,
+        "records": 0,
+        "accepted": 0,
+        "redirects": 0,
+        "ambiguous": 0,
+        "unmatched": 0,
+        "withheld": 0,
+        "upstreamOnly": 0,
+        "nonApplicable": 61518
+      },
+      "files": [],
+      "totalCompressedBytes": 0,
+      "totalSourceBytes": 0,
+      "deliveryProfiles": {
+        "web-light": {
+          "payload": "summary-only",
+          "files": [],
+          "records": 0,
+          "totalCompressedBytes": 0,
+          "totalSourceBytes": 0,
+          "statement": "GitHub Pages publishes the complete Radiolaria authority boundary authority boundary and canonical hashes without row shards."
+        },
+        "native-full": {
+          "payload": "complete",
+          "files": [],
+          "records": 0,
+          "totalCompressedBytes": 0,
+          "totalSourceBytes": 0
+        }
+      },
+      "limitations": [
+        "This CC0 ITIS boundary audit is a frozen exact-root check for the declared COL26.8 Protists and Chromists package. It is not a global Radiolaria checklist, a final classification authority, a phylogeny, a species-concept equivalence assertion, a biological dossier or a scientific-review record.",
+        "No fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered, package-wide, near-lineage or taxon-substituted matching is used."
+      ],
+      "integration": {
+        "clientParityRequirement": "Android and iOS must copy every non-empty native-full file byte-for-byte; Web uses the web-light summary profile.",
+        "lookup": {
+          "strategy": "lexicographic-colId-range-v1",
+          "ordering": "Unicode code-unit ascending",
+          "requestPolicy": "Select the sole inclusive COL-ID range and read at most one COL partition; upstream-only files are never selected by COL ID."
+        }
+      }
+    },
+    {
+      "id": "itis-metamonada-tsn-crosswalk",
+      "recordType": "release-pinned-empty-nomenclatural-boundary-audit",
+      "provider": "Integrated Taxonomic Information System",
+      "source": {
+        "datasetId": "itis-2026-08-26",
+        "exportDate": "2026-08-26",
+        "rootTsn": null,
+        "license": "CC0-1.0",
+        "citationDoi": "10.5066/F7KH0KBK",
+        "canonicalDescriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-metamonada-sidecar.json",
+        "canonicalDescriptorBytes": 15531,
+        "canonicalDescriptorSha256": "262015b1da17db9432a5cf1b533e471275c2cb7c58bd356179007840bc04317e"
+      },
+      "scope": {
+        "requestedLabel": "Metamonada",
+        "packageRootUsageIds": [
+          "C",
+          "Z"
+        ],
+        "packageRootScientificNames": [
+          "Chromista",
+          "Protozoa"
+        ],
+        "packageStrictAcceptedSpecies": 61518,
+        "colRootUsageId": null,
+        "colRootScientificName": "Metamonada",
+        "colExactRootCandidates": [],
+        "colStrictAcceptedSpecies": 0,
+        "itisRootTsn": null,
+        "itisRootScientificName": "Metamonada",
+        "itisExactRootCandidates": [],
+        "itisContainsNameCandidates": [],
+        "boundary": "Neither COL26.8 nor ITIS 2026-08-26 materializes an exact Metamonada root. Diplomonadida and other historically neighboring ITIS names are recorded for audit context only and are not used as a taxonomic proxy; this partition therefore emits no crosswalk or ITIS-only species rows."
+      },
+      "rootBoundaryAudit": {
+        "colRegistryManifestPath": "data/catalogue-of-life/releases/2026-08-20/registry/manifest.json",
+        "colRegistryManifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151",
+        "colPackageManifestPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/manifest.json",
+        "colPackageManifestSha256": "4b61235080cd2913a3e535959a05aac23e198f88725ef415d532139d212e6efc",
+        "colExactRootCandidates": [],
+        "itisExactRootCandidates": [],
+        "itisContainsNameCandidates": [],
+        "itisNearbyNameCandidates": [
+          {
+            "tsn": 14271,
+            "scientificName": "Mastigophora",
+            "rank": "Genus",
+            "usage": "accepted",
+            "parentTsn": 14270
+          },
+          {
+            "tsn": 14272,
+            "scientificName": "Mastigophora",
+            "rank": "Genus",
+            "usage": "not accepted",
+            "parentTsn": 0
+          },
+          {
+            "tsn": 43781,
+            "scientificName": "Sarcomastigophora",
+            "rank": "Phylum",
+            "usage": "valid",
+            "parentTsn": 630577
+          },
+          {
+            "tsn": 43782,
+            "scientificName": "Mastigophora",
+            "rank": "Subphylum",
+            "usage": "valid",
+            "parentTsn": 43781
+          },
+          {
+            "tsn": 43783,
+            "scientificName": "Mastigophora",
+            "rank": "Subphylum",
+            "usage": "invalid",
+            "parentTsn": 0
+          },
+          {
+            "tsn": 43810,
+            "scientificName": "Zoomastigophora",
+            "rank": "Class",
+            "usage": "valid",
+            "parentTsn": 43782
+          },
+          {
+            "tsn": 43835,
+            "scientificName": "Diplomonadida",
+            "rank": "Order",
+            "usage": "valid",
+            "parentTsn": 43810
+          },
+          {
+            "tsn": 43837,
+            "scientificName": "Trichomonadida",
+            "rank": "Order",
+            "usage": "valid",
+            "parentTsn": 43810
+          }
+        ],
+        "existingPartitions": [
+          {
+            "label": "itis-amoebozoa-sidecar.json",
+            "descriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-amoebozoa-sidecar.json",
+            "colRootUsageId": "622B2",
+            "itisRootTsn": null,
+            "sidecarRecords": 1337,
+            "overlappingColUsageIds": [],
+            "overlappingItisTsns": []
+          },
+          {
+            "label": "itis-apicomplexa-sidecar.json",
+            "descriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-apicomplexa-sidecar.json",
+            "colRootUsageId": "87FBN",
+            "itisRootTsn": "553099",
+            "sidecarRecords": 21,
+            "overlappingColUsageIds": [],
+            "overlappingItisTsns": []
+          },
+          {
+            "label": "itis-bigyra-sidecar.json",
+            "descriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-bigyra-sidecar.json",
+            "colRootUsageId": "622CB",
+            "itisRootTsn": "969916",
+            "sidecarRecords": 53,
+            "overlappingColUsageIds": [],
+            "overlappingItisTsns": []
+          },
+          {
+            "label": "itis-cercozoa-sidecar.json",
+            "descriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-cercozoa-sidecar.json",
+            "colRootUsageId": "35",
+            "itisRootTsn": "969919",
+            "sidecarRecords": 52,
+            "overlappingColUsageIds": [],
+            "overlappingItisTsns": []
+          },
+          {
+            "label": "itis-choanoflagellatea-sidecar.json",
+            "descriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-choanoflagellatea-sidecar.json",
+            "colRootUsageId": null,
+            "itisRootTsn": null,
+            "sidecarRecords": 0,
+            "overlappingColUsageIds": [],
+            "overlappingItisTsns": []
+          },
+          {
+            "label": "itis-ciliophora-sidecar.json",
+            "descriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-ciliophora-sidecar.json",
+            "colRootUsageId": "3H",
+            "itisRootTsn": "46211",
+            "sidecarRecords": 8507,
+            "overlappingColUsageIds": [],
+            "overlappingItisTsns": []
+          },
+          {
+            "label": "itis-cryptophyta-sidecar.json",
+            "descriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-cryptophyta-sidecar.json",
+            "colRootUsageId": null,
+            "itisRootTsn": null,
+            "sidecarRecords": 0,
+            "overlappingColUsageIds": [],
+            "overlappingItisTsns": []
+          },
+          {
+            "label": "itis-dinoflagellata-sidecar.json",
+            "descriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-dinoflagellata-sidecar.json",
+            "colRootUsageId": "622D3",
+            "itisRootTsn": "9874",
+            "sidecarRecords": 259,
+            "overlappingColUsageIds": [],
+            "overlappingItisTsns": []
+          },
+          {
+            "label": "Euglenozoa",
+            "descriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-euglenozoa-sidecar.json",
+            "colRootUsageId": null,
+            "itisRootTsn": "9601",
+            "sidecarRecords": 0,
+            "overlappingColUsageIds": [],
+            "overlappingItisTsns": []
+          },
+          {
+            "label": "itis-haptophyta-sidecar.json",
+            "descriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-haptophyta-sidecar.json",
+            "colRootUsageId": null,
+            "itisRootTsn": "2134",
+            "sidecarRecords": 0,
+            "overlappingColUsageIds": [],
+            "overlappingItisTsns": []
+          },
+          {
+            "label": "itis-labyrinthulomycetes-sidecar.json",
+            "descriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-labyrinthulomycetes-sidecar.json",
+            "colRootUsageId": null,
+            "itisRootTsn": null,
+            "sidecarRecords": 0,
+            "overlappingColUsageIds": [],
+            "overlappingItisTsns": []
+          },
+          {
+            "label": "itis-ochrophyta-sidecar.json",
+            "descriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-ochrophyta-sidecar.json",
+            "colRootUsageId": "5H",
+            "itisRootTsn": "969917",
+            "sidecarRecords": 1101,
+            "overlappingColUsageIds": [],
+            "overlappingItisTsns": []
+          },
+          {
+            "label": "itis-oomycota-sidecar.json",
+            "descriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-oomycota-sidecar.json",
+            "colRootUsageId": "5K",
+            "itisRootTsn": null,
+            "sidecarRecords": 1426,
+            "overlappingColUsageIds": [],
+            "overlappingItisTsns": []
+          },
+          {
+            "label": "itis-opalozoa-sidecar.json",
+            "descriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-opalozoa-sidecar.json",
+            "colRootUsageId": null,
+            "itisRootTsn": null,
+            "sidecarRecords": 0,
+            "overlappingColUsageIds": [],
+            "overlappingItisTsns": []
+          },
+          {
+            "label": "Perkinsozoa",
+            "descriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-perkinsozoa-sidecar.json",
+            "colRootUsageId": null,
+            "itisRootTsn": null,
+            "sidecarRecords": 0,
+            "overlappingColUsageIds": [],
+            "overlappingItisTsns": []
+          },
+          {
+            "label": "itis-radiolaria-sidecar.json",
+            "descriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-radiolaria-sidecar.json",
+            "colRootUsageId": null,
+            "itisRootTsn": null,
+            "sidecarRecords": 0,
+            "overlappingColUsageIds": [],
+            "overlappingItisTsns": []
+          },
+          {
+            "label": "itis-rhodophyta-sidecar.json",
+            "descriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-rhodophyta-sidecar.json",
+            "colRootUsageId": null,
+            "itisRootTsn": "660046",
+            "sidecarRecords": 0,
+            "overlappingColUsageIds": [],
+            "overlappingItisTsns": []
+          }
+        ],
+        "overlapWithExistingPartitions": [
+          {
+            "label": "itis-amoebozoa-sidecar.json",
+            "overlappingColUsageIds": [],
+            "overlappingItisTsns": []
+          },
+          {
+            "label": "itis-apicomplexa-sidecar.json",
+            "overlappingColUsageIds": [],
+            "overlappingItisTsns": []
+          },
+          {
+            "label": "itis-bigyra-sidecar.json",
+            "overlappingColUsageIds": [],
+            "overlappingItisTsns": []
+          },
+          {
+            "label": "itis-cercozoa-sidecar.json",
+            "overlappingColUsageIds": [],
+            "overlappingItisTsns": []
+          },
+          {
+            "label": "itis-choanoflagellatea-sidecar.json",
+            "overlappingColUsageIds": [],
+            "overlappingItisTsns": []
+          },
+          {
+            "label": "itis-ciliophora-sidecar.json",
+            "overlappingColUsageIds": [],
+            "overlappingItisTsns": []
+          },
+          {
+            "label": "itis-cryptophyta-sidecar.json",
+            "overlappingColUsageIds": [],
+            "overlappingItisTsns": []
+          },
+          {
+            "label": "itis-dinoflagellata-sidecar.json",
+            "overlappingColUsageIds": [],
+            "overlappingItisTsns": []
+          },
+          {
+            "label": "Euglenozoa",
+            "overlappingColUsageIds": [],
+            "overlappingItisTsns": []
+          },
+          {
+            "label": "itis-haptophyta-sidecar.json",
+            "overlappingColUsageIds": [],
+            "overlappingItisTsns": []
+          },
+          {
+            "label": "itis-labyrinthulomycetes-sidecar.json",
+            "overlappingColUsageIds": [],
+            "overlappingItisTsns": []
+          },
+          {
+            "label": "itis-ochrophyta-sidecar.json",
+            "overlappingColUsageIds": [],
+            "overlappingItisTsns": []
+          },
+          {
+            "label": "itis-oomycota-sidecar.json",
+            "overlappingColUsageIds": [],
+            "overlappingItisTsns": []
+          },
+          {
+            "label": "itis-opalozoa-sidecar.json",
+            "overlappingColUsageIds": [],
+            "overlappingItisTsns": []
+          },
+          {
+            "label": "Perkinsozoa",
+            "overlappingColUsageIds": [],
+            "overlappingItisTsns": []
+          },
+          {
+            "label": "itis-radiolaria-sidecar.json",
+            "overlappingColUsageIds": [],
+            "overlappingItisTsns": []
+          },
+          {
+            "label": "itis-rhodophyta-sidecar.json",
+            "overlappingColUsageIds": [],
+            "overlappingItisTsns": []
+          }
+        ],
+        "decision": "No exact Metamonada root exists in either pinned source. No neighboring order, class, phylum, package-wide, fuzzy, or name-substitution scope is accepted; zero rows are the complete truthful result for this release."
+      },
+      "matching": {
+        "normalization": [
+          "Remove the exact trailing COL authorship field from COL scientificName when that suffix is present; no authorship parser is used.",
+          "Normalize Unicode to NFC, replace underscores with spaces, collapse Unicode whitespace and trim.",
+          "For species-rank comparison, remove one parenthesized subgenus token in the exact Genus (Subgenus) species representation; genus and specific epithet must remain unchanged.",
+          "Preserve case, diacritics, punctuation and all remaining name tokens."
+        ],
+        "statuses": {
+          "accepted": "Unavailable: neither pinned source defines an exact Metamonada root.",
+          "synonym-current-name-redirect": "Unavailable: neither pinned source defines an exact Metamonada root.",
+          "ambiguous": "Unavailable: neither pinned source defines an exact Metamonada root.",
+          "unmatched": "Unavailable: neither pinned source defines an exact Metamonada root."
+        },
+        "prohibited": "No inferred root, fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered, neighboring-taxon, higher-rank, or package-wide matching is used."
+      },
+      "evidenceBoundary": {
+        "en": "This CC0 sidecar is an explicitly empty, release-pinned nomenclatural boundary audit. It is not a Metamonada checklist, an inferred taxonomic placement, a final classification authority, a phylogeny, a species-concept equivalence assertion, a biological dossier, or a scientific-review record.",
+        "zh": "此 CC0 侧车是明确为空的、固定版本的命名边界审计；它不是 Metamonada 名录、推断的分类位置、最终分类权威、系统发育、物种概念等同性声明、生物档案或科学审查记录。"
+      },
+      "counts": {
+        "eligible": 0,
+        "records": 0,
+        "accepted": 0,
+        "redirects": 0,
+        "ambiguous": 0,
+        "unmatched": 0,
+        "withheld": 0,
+        "upstreamOnly": 0,
+        "nonApplicable": 61518
+      },
+      "files": [],
+      "totalCompressedBytes": 0,
+      "totalSourceBytes": 0,
+      "deliveryProfiles": {
+        "web-light": {
+          "payload": "summary-only",
+          "files": [],
+          "records": 0,
+          "totalCompressedBytes": 0,
+          "totalSourceBytes": 0,
+          "statement": "GitHub Pages publishes the complete Metamonada authority boundary authority boundary and canonical hashes without row shards."
+        },
+        "native-full": {
+          "payload": "complete",
+          "files": [],
+          "records": 0,
+          "totalCompressedBytes": 0,
+          "totalSourceBytes": 0
+        }
+      },
+      "limitations": [
+        "This CC0 sidecar is an explicitly empty, release-pinned nomenclatural boundary audit. It is not a Metamonada checklist, an inferred taxonomic placement, a final classification authority, a phylogeny, a species-concept equivalence assertion, a biological dossier, or a scientific-review record.",
+        "No inferred root, fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered, neighboring-taxon, higher-rank, or package-wide matching is used."
+      ],
+      "integration": {
+        "clientParityRequirement": "Android and iOS must copy every non-empty native-full file byte-for-byte; Web uses the web-light summary profile.",
+        "lookup": {
+          "strategy": "lexicographic-colId-range-v1",
+          "ordering": "Unicode code-unit ascending",
+          "requestPolicy": "Select the sole inclusive COL-ID range and read at most one COL partition; upstream-only files are never selected by COL ID."
+        }
+      }
+    },
+    {
+      "id": "itis-chlorophyta-tsn-crosswalk",
+      "recordType": "release-pinned-itis-only-nomenclatural-inventory",
+      "provider": "Integrated Taxonomic Information System",
+      "source": {
+        "datasetId": "itis-2026-08-26",
+        "exportDate": "2026-08-26",
+        "rootTsn": "5414",
+        "license": "CC0-1.0",
+        "citationDoi": "10.5066/F7KH0KBK",
+        "canonicalDescriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-chlorophyta-sidecar.json",
+        "canonicalDescriptorBytes": 8508,
+        "canonicalDescriptorSha256": "c4ec5e4349ec0669e81a3323d4a990f01a7c39c11ac51b69bd4d0189f12317b5"
+      },
+      "scope": {
+        "packageRootUsageIds": [
+          "C",
+          "Z"
+        ],
+        "packageRootScientificNames": [
+          "Chromista",
+          "Protozoa"
+        ],
+        "colRootUsageId": null,
+        "colRootScientificName": "Chlorophyta",
+        "colStrictAcceptedSpecies": 0,
+        "packageStrictAcceptedSpecies": 61518,
+        "packageOutOfScopeStrictAcceptedSpecies": 61518,
+        "colRootAudit": "No exact COL26.8 usage node named Chlorophyta exists in the complete pinned hierarchy. No plant-descendant, Viridiplantae, WFO, or individual-name substitute is used.",
+        "itisRoot": {
+          "tsn": "5414",
+          "scientificName": "Chlorophyta",
+          "rank": "Division",
+          "usage": "accepted",
+          "parentTsn": "846493"
+        },
+        "boundary": "This ITIS-only sidecar retains every current accepted species below the exact ITIS Chlorophyta division TSN 5414. ITIS infrakingdom Chlorophyta TSN 846493 is a distinct broader record and is not substituted. The WFO plant crosswalk remains untouched because it is a separate COL plant-wide crosswalk, not a Chlorophyta root.",
+        "partitionOverlapAudit": {
+          "auditedScopes": [
+            {
+              "scope": "Apicomplexa",
+              "root": {
+                "tsn": 553099,
+                "scientificName": "Apicomplexa",
+                "rank": "Phylum",
+                "usage": "valid"
+              },
+              "overlappingItisTsns": 0
+            },
+            {
+              "scope": "Bigyra",
+              "root": {
+                "tsn": 969916,
+                "scientificName": "Bigyra",
+                "rank": "Division",
+                "usage": "accepted"
+              },
+              "overlappingItisTsns": 0
+            },
+            {
+              "scope": "Cercozoa",
+              "root": {
+                "tsn": 969919,
+                "scientificName": "Cercozoa",
+                "rank": "Division",
+                "usage": "accepted"
+              },
+              "overlappingItisTsns": 0
+            },
+            {
+              "scope": "Ciliophora",
+              "root": {
+                "tsn": 46211,
+                "scientificName": "Ciliophora",
+                "rank": "Phylum",
+                "usage": "valid"
+              },
+              "overlappingItisTsns": 0
+            },
+            {
+              "scope": "Dinophyceae",
+              "root": {
+                "tsn": 9874,
+                "scientificName": "Dinophyceae",
+                "rank": "Class",
+                "usage": "accepted"
+              },
+              "overlappingItisTsns": 0
+            },
+            {
+              "scope": "Euglenophycota",
+              "root": {
+                "tsn": 9601,
+                "scientificName": "Euglenophycota",
+                "rank": "Phylum",
+                "usage": "valid"
+              },
+              "overlappingItisTsns": 0
+            },
+            {
+              "scope": "Haptophyta",
+              "root": {
+                "tsn": 2134,
+                "scientificName": "Haptophyta",
+                "rank": "Division",
+                "usage": "accepted"
+              },
+              "overlappingItisTsns": 0
+            },
+            {
+              "scope": "Ochrophyta",
+              "root": {
+                "tsn": 969917,
+                "scientificName": "Ochrophyta",
+                "rank": "Division",
+                "usage": "accepted"
+              },
+              "overlappingItisTsns": 0
+            },
+            {
+              "scope": "Oomycota/Peronosporales",
+              "root": {
+                "tsn": 13911,
+                "scientificName": "Peronosporales",
+                "rank": "Order",
+                "usage": "accepted"
+              },
+              "overlappingItisTsns": 0
+            },
+            {
+              "scope": "Oomycota/Saprolegniales",
+              "root": {
+                "tsn": 13837,
+                "scientificName": "Saprolegniales",
+                "rank": "Order",
+                "usage": "accepted"
+              },
+              "overlappingItisTsns": 0
+            },
+            {
+              "scope": "Radiolaria (legacy exact-name)",
+              "root": {
+                "tsn": 46088,
+                "scientificName": "Radiolaria",
+                "rank": "Order",
+                "usage": "valid"
+              },
+              "overlappingItisTsns": 0
+            },
+            {
+              "scope": "Rhodophyta",
+              "root": {
+                "tsn": 660046,
+                "scientificName": "Rhodophyta",
+                "rank": "Division",
+                "usage": "accepted"
+              },
+              "overlappingItisTsns": 0
+            }
+          ],
+          "overlappingColUsageIds": [],
+          "overlappingItisTsns": []
+        }
+      },
+      "rootBoundaryAudit": null,
+      "matching": {
+        "normalization": [
+          "Remove the exact trailing COL authorship field from COL scientificName when that suffix is present; no authorship parser is used.",
+          "Normalize Unicode to NFC, replace underscores with spaces, collapse Unicode whitespace and trim.",
+          "For species-rank comparison, remove one parenthesized subgenus token in the exact Genus (Subgenus) species representation; genus and specific epithet must remain unchanged.",
+          "Preserve case, diacritics, punctuation and all remaining name tokens."
+        ],
+        "statuses": {
+          "accepted": "Unavailable: COL26.8 has no exact Chlorophyta root from which to derive a strict accepted-species partition.",
+          "synonym-current-name-redirect": "Unavailable: no exact COL Chlorophyta partition exists.",
+          "ambiguous": "Unavailable: no exact COL Chlorophyta partition exists.",
+          "unmatched": "Unavailable: no exact COL Chlorophyta partition exists."
+        },
+        "prohibited": "No inferred COL scope, WFO replay, fuzzy match, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered or taxon-substituted matching is used."
+      },
+      "evidenceBoundary": {
+        "en": "This CC0 ITIS inventory is a frozen, ITIS-only nomenclatural partition. It is not a global green-algae checklist, a final classification authority, a phylogeny, a species-concept equivalence assertion, a biological dossier or a scientific-review record.",
+        "zh": "此 CC0 ITIS 清单是冻结的、仅限 ITIS 的命名分区；它不是全球绿藻名录、最终分类权威、系统发育、物种概念等同性声明、生物档案或科学审查记录。"
+      },
+      "counts": {
+        "eligible": 0,
+        "records": 1416,
+        "accepted": 0,
+        "redirects": 0,
+        "ambiguous": 0,
+        "unmatched": 0,
+        "withheld": 0,
+        "upstreamOnly": 1416,
+        "nonApplicable": 61518
+      },
+      "files": [
+        {
+          "path": "protists-chromists/itis-chlorophyta-upstream-only-0000.jsonl.gz",
+          "records": 1416,
+          "bytes": 17826,
+          "sourceBytes": 523226,
+          "sha256": "71f5664896eda62595dd907c0799e3a80aa01a41027849f55b1b76e19b25ae65",
+          "sourceSha256": "80864c39139dcc407edf98ed4b2fa7012909aaa4c3af02751c3da7cfd07e6f98",
+          "encoding": "gzip",
+          "mediaType": "application/x-ndjson",
+          "colOwnership": null,
+          "role": "upstream-only"
+        }
+      ],
+      "totalCompressedBytes": 17826,
+      "totalSourceBytes": 523226,
+      "deliveryProfiles": {
+        "web-light": {
+          "payload": "summary-only",
+          "files": [],
+          "records": 0,
+          "totalCompressedBytes": 0,
+          "totalSourceBytes": 0,
+          "statement": "GitHub Pages publishes the complete Chlorophyta authority boundary and canonical hashes without row shards."
+        },
+        "native-full": {
+          "payload": "complete",
+          "files": [
+            "protists-chromists/itis-chlorophyta-upstream-only-0000.jsonl.gz"
+          ],
+          "records": 1416,
+          "totalCompressedBytes": 17826,
+          "totalSourceBytes": 523226
+        }
+      },
+      "limitations": [
+        "This CC0 ITIS inventory is a frozen, ITIS-only nomenclatural partition. It is not a global green-algae checklist, a final classification authority, a phylogeny, a species-concept equivalence assertion, a biological dossier or a scientific-review record.",
+        "No inferred COL scope, WFO replay, fuzzy match, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered or taxon-substituted matching is used."
+      ],
+      "integration": {
+        "clientParityRequirement": "Android and iOS must copy every non-empty native-full file byte-for-byte; Web uses the web-light summary profile.",
+        "lookup": {
+          "strategy": "lexicographic-colId-range-v1",
+          "ordering": "Unicode code-unit ascending",
+          "requestPolicy": "Select the sole inclusive COL-ID range and read at most one COL partition; upstream-only files are never selected by COL ID."
+        }
+      }
+    },
+    {
+      "id": "itis-glaucophyta-tsn-crosswalk",
+      "recordType": "release-pinned-itis-only-nomenclatural-inventory",
+      "provider": "Integrated Taxonomic Information System",
+      "source": {
+        "datasetId": "itis-2026-08-26",
+        "exportDate": "2026-08-26",
+        "rootTsn": "846495",
+        "license": "CC0-1.0",
+        "citationDoi": "10.5066/F7KH0KBK",
+        "canonicalDescriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-glaucophyta-sidecar.json",
+        "canonicalDescriptorBytes": 5554,
+        "canonicalDescriptorSha256": "798c9bc738c6ce10d2e4ea18fa13dce4e8a5ad98a6f8b9f6bd7aa65ddafb7380"
+      },
+      "scope": {
+        "packageRootUsageIds": [
+          "C",
+          "Z"
+        ],
+        "packageRootScientificNames": [
+          "Chromista",
+          "Protozoa"
+        ],
+        "colRootUsageId": null,
+        "colRootScientificName": "Glaucophyta",
+        "colStrictAcceptedSpecies": 0,
+        "packageStrictAcceptedSpecies": 61518,
+        "packageOutOfScopeStrictAcceptedSpecies": 61518,
+        "colRootAudit": "No exact COL26.8 usage node named Glaucophyta exists in the complete pinned hierarchy; no strict COL partition is claimed.",
+        "boundary": "This ITIS-only sidecar retains every current species below the accepted ITIS Glaucophyta division. It deliberately contains no COL match rows until a pinned COL release materializes an exact auditable Glaucophyta root."
+      },
+      "rootBoundaryAudit": {
+        "colExactRootCandidates": [],
+        "colNearRootCandidates": [],
+        "selectedColRoot": null,
+        "selectedItisRoot": {
+          "tsn": "846495",
+          "scientificName": "Glaucophyta",
+          "rank": "Division",
+          "usage": "accepted"
+        },
+        "decision": "The pinned ITIS export has exact accepted Glaucophyta division TSN 846495; COL26.8 has no exact Glaucophyta usage node. Only the ITIS division is retained; no near COL root is substituted."
+      },
+      "matching": {
+        "normalization": [
+          "Remove the exact trailing COL authorship field from COL scientificName when that suffix is present; no authorship parser is used.",
+          "Normalize Unicode to NFC, replace underscores with spaces, collapse Unicode whitespace and trim.",
+          "For species-rank comparison, remove one parenthesized subgenus token in the exact Genus (Subgenus) species representation; genus and specific epithet must remain unchanged.",
+          "Preserve case, diacritics, punctuation and all remaining name tokens."
+        ],
+        "statuses": {
+          "accepted": "Unavailable: COL26.8 has no exact Glaucophyta root from which to derive a strict accepted-species partition.",
+          "synonym-current-name-redirect": "Unavailable: no COL Glaucophyta partition exists in this release.",
+          "ambiguous": "Unavailable: no COL Glaucophyta partition exists in this release.",
+          "unmatched": "Unavailable: no COL Glaucophyta partition exists in this release."
+        },
+        "prohibited": "No inferred COL scope, fuzzy match, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered or taxon-substituted matching is used."
+      },
+      "evidenceBoundary": {
+        "en": "This CC0 ITIS inventory is a frozen, ITIS-only nomenclatural partition. It is not a global Glaucophyta checklist, a final classification authority, a phylogeny, a species-concept equivalence assertion, a biological dossier or a scientific-review record.",
+        "zh": "此 CC0 ITIS 清单是冻结的、仅限 ITIS 的命名分区；它不是全球蓝藻门（Glaucophyta）名录、最终分类权威、系统发育、物种概念等同性声明、生物档案或科学审查记录。"
+      },
+      "counts": {
+        "eligible": 0,
+        "records": 4,
+        "accepted": 0,
+        "redirects": 0,
+        "ambiguous": 0,
+        "unmatched": 0,
+        "withheld": 0,
+        "upstreamOnly": 4,
+        "nonApplicable": 61518
+      },
+      "files": [
+        {
+          "path": "protists-chromists/itis-glaucophyta-upstream-only-0000.jsonl.gz",
+          "records": 4,
+          "bytes": 362,
+          "sourceBytes": 1510,
+          "sha256": "613d74670973a3b5730aaf45d857b0a48b03710638f60512b28afd31a8c4f388",
+          "sourceSha256": "703f6bc7827df7a566d0047d93335ada94d2b44fecb77b79c1e2aaad3c850628",
+          "encoding": "gzip",
+          "mediaType": "application/x-ndjson",
+          "colOwnership": null,
+          "role": "upstream-only"
+        }
+      ],
+      "totalCompressedBytes": 362,
+      "totalSourceBytes": 1510,
+      "deliveryProfiles": {
+        "web-light": {
+          "payload": "summary-only",
+          "files": [],
+          "records": 0,
+          "totalCompressedBytes": 0,
+          "totalSourceBytes": 0,
+          "statement": "GitHub Pages publishes the complete Glaucophyta authority boundary and canonical hashes without row shards."
+        },
+        "native-full": {
+          "payload": "complete",
+          "files": [
+            "protists-chromists/itis-glaucophyta-upstream-only-0000.jsonl.gz"
+          ],
+          "records": 4,
+          "totalCompressedBytes": 362,
+          "totalSourceBytes": 1510
+        }
+      },
+      "limitations": [
+        "This CC0 ITIS inventory is a frozen, ITIS-only nomenclatural partition. It is not a global Glaucophyta checklist, a final classification authority, a phylogeny, a species-concept equivalence assertion, a biological dossier or a scientific-review record.",
+        "No inferred COL scope, fuzzy match, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered or taxon-substituted matching is used."
+      ],
+      "integration": {
+        "clientParityRequirement": "Android and iOS must copy every non-empty native-full file byte-for-byte; Web uses the web-light summary profile.",
+        "lookup": {
+          "strategy": "lexicographic-colId-range-v1",
+          "ordering": "Unicode code-unit ascending",
+          "requestPolicy": "Select the sole inclusive COL-ID range and read at most one COL partition; upstream-only files are never selected by COL ID."
+        }
+      }
+    },
+    {
+      "id": "itis-picozoa-tsn-crosswalk",
+      "recordType": "release-pinned-exact-root-boundary-audit",
+      "provider": "Integrated Taxonomic Information System",
+      "source": {
+        "datasetId": "itis-2026-08-26",
+        "exportDate": "2026-08-26",
+        "rootTsn": null,
+        "license": "CC0-1.0",
+        "citationDoi": "10.5066/F7KH0KBK",
+        "canonicalDescriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-picozoa-sidecar.json",
+        "canonicalDescriptorBytes": 14624,
+        "canonicalDescriptorSha256": "6157968636ea3eeb302e0f8526b15e663d511aa4089d7b8bbe371fb9d1ece9f6"
+      },
+      "scope": {
+        "requestedLabel": "Picozoa",
+        "packageRootUsageIds": [
+          "C",
+          "Z"
+        ],
+        "packageRootScientificNames": [
+          "Chromista",
+          "Protozoa"
+        ],
+        "packageStrictAcceptedSpecies": 61518,
+        "packageOutOfScopeStrictAcceptedSpecies": 61518,
+        "colRootUsageId": null,
+        "colRootScientificName": "Picozoa",
+        "colExactRootCandidates": [],
+        "colStrictAcceptedSpecies": 0,
+        "itisRootTsn": null,
+        "itisRootScientificName": "Picozoa",
+        "itisExactRootCandidates": [],
+        "boundary": "Neither COL26.8 nor ITIS 2026-08-26 materializes an exact Picozoa root. The named nearby candidates are retained only as audit context; no neighboring taxon, package-wide search or name substitution supplies rows."
+      },
+      "rootBoundaryAudit": {
+        "colRegistryManifestPath": "data/catalogue-of-life/releases/2026-08-20/registry/manifest.json",
+        "colRegistryManifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151",
+        "colExactRootCandidates": [],
+        "colNearRootCandidates": [],
+        "itisExactRootCandidates": [],
+        "itisContainsNameCandidates": [],
+        "itisNearbyNameCandidates": [],
+        "existingPartitions": [
+          {
+            "label": "Amoebozoa",
+            "descriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-amoebozoa-sidecar.json",
+            "colRootUsageId": "622B2",
+            "itisRootTsn": null,
+            "records": 1337,
+            "colFiles": 1,
+            "upstreamFiles": 1
+          },
+          {
+            "label": "Cryptosporidium Tyzzer, 1907",
+            "descriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-apicomplexa-sidecar.json",
+            "colRootUsageId": "87FBN",
+            "itisRootTsn": "553099",
+            "records": 21,
+            "colFiles": 1,
+            "upstreamFiles": 1
+          },
+          {
+            "label": "Bigyra",
+            "descriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-bigyra-sidecar.json",
+            "colRootUsageId": "622CB",
+            "itisRootTsn": "969916",
+            "records": 53,
+            "colFiles": 1,
+            "upstreamFiles": 1
+          },
+          {
+            "label": "Cercozoa",
+            "descriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-cercozoa-sidecar.json",
+            "colRootUsageId": "35",
+            "itisRootTsn": "969919",
+            "records": 52,
+            "colFiles": 1,
+            "upstreamFiles": 1
+          },
+          {
+            "label": "Chlorophyta",
+            "descriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-chlorophyta-sidecar.json",
+            "colRootUsageId": null,
+            "itisRootTsn": "5414",
+            "records": 0,
+            "colFiles": 0,
+            "upstreamFiles": 1
+          },
+          {
+            "label": "Choanoflagellatea",
+            "descriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-choanoflagellatea-sidecar.json",
+            "colRootUsageId": null,
+            "itisRootTsn": null,
+            "records": 0,
+            "colFiles": 1,
+            "upstreamFiles": 1
+          },
+          {
+            "label": "Ciliophora",
+            "descriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-ciliophora-sidecar.json",
+            "colRootUsageId": "3H",
+            "itisRootTsn": "46211",
+            "records": 8507,
+            "colFiles": 3,
+            "upstreamFiles": 1
+          },
+          {
+            "label": "Cryptophyta",
+            "descriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-cryptophyta-sidecar.json",
+            "colRootUsageId": null,
+            "itisRootTsn": null,
+            "records": 0,
+            "colFiles": 0,
+            "upstreamFiles": 1
+          },
+          {
+            "label": "Dinophyceae (Dinoflagellata)",
+            "descriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-dinoflagellata-sidecar.json",
+            "colRootUsageId": "622D3",
+            "itisRootTsn": "9874",
+            "records": 259,
+            "colFiles": 1,
+            "upstreamFiles": 1
+          },
+          {
+            "label": "Euglenozoa",
+            "descriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-euglenozoa-sidecar.json",
+            "colRootUsageId": null,
+            "itisRootTsn": "9601",
+            "records": 0,
+            "colFiles": 0,
+            "upstreamFiles": 1
+          },
+          {
+            "label": "Glaucophyta",
+            "descriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-glaucophyta-sidecar.json",
+            "colRootUsageId": null,
+            "itisRootTsn": "846495",
+            "records": 0,
+            "colFiles": 0,
+            "upstreamFiles": 1
+          },
+          {
+            "label": "Haptophyta",
+            "descriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-haptophyta-sidecar.json",
+            "colRootUsageId": null,
+            "itisRootTsn": "2134",
+            "records": 0,
+            "colFiles": 0,
+            "upstreamFiles": 1
+          },
+          {
+            "label": "Labyrinthulomycetes",
+            "descriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-labyrinthulomycetes-sidecar.json",
+            "colRootUsageId": null,
+            "itisRootTsn": null,
+            "records": 0,
+            "colFiles": 1,
+            "upstreamFiles": 1
+          },
+          {
+            "label": "Metamonada",
+            "descriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-metamonada-sidecar.json",
+            "colRootUsageId": null,
+            "itisRootTsn": null,
+            "records": 0,
+            "colFiles": 0,
+            "upstreamFiles": 0
+          },
+          {
+            "label": "Ochrophyta",
+            "descriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-ochrophyta-sidecar.json",
+            "colRootUsageId": "5H",
+            "itisRootTsn": "969917",
+            "records": 1101,
+            "colFiles": 1,
+            "upstreamFiles": 1
+          },
+          {
+            "label": "itis-oomycota-sidecar.json",
+            "descriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-oomycota-sidecar.json",
+            "colRootUsageId": "5K",
+            "itisRootTsn": null,
+            "records": 1426,
+            "colFiles": 1,
+            "upstreamFiles": 1
+          },
+          {
+            "label": "Opalozoa",
+            "descriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-opalozoa-sidecar.json",
+            "colRootUsageId": null,
+            "itisRootTsn": null,
+            "records": 0,
+            "colFiles": 0,
+            "upstreamFiles": 1
+          },
+          {
+            "label": "Perkinsozoa",
+            "descriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-perkinsozoa-sidecar.json",
+            "colRootUsageId": null,
+            "itisRootTsn": null,
+            "records": 0,
+            "colFiles": 0,
+            "upstreamFiles": 0
+          },
+          {
+            "label": "Radiolaria",
+            "descriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-radiolaria-sidecar.json",
+            "colRootUsageId": null,
+            "itisRootTsn": null,
+            "records": 0,
+            "colFiles": 0,
+            "upstreamFiles": 1
+          },
+          {
+            "label": "Rhodophyta",
+            "descriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-rhodophyta-sidecar.json",
+            "colRootUsageId": null,
+            "itisRootTsn": "660046",
+            "records": 0,
+            "colFiles": 0,
+            "upstreamFiles": 1
+          }
+        ],
+        "overlapWithExistingPartitions": [
+          {
+            "label": "Amoebozoa",
+            "overlappingColUsageIds": [],
+            "overlappingItisTsns": []
+          },
+          {
+            "label": "Cryptosporidium Tyzzer, 1907",
+            "overlappingColUsageIds": [],
+            "overlappingItisTsns": []
+          },
+          {
+            "label": "Bigyra",
+            "overlappingColUsageIds": [],
+            "overlappingItisTsns": []
+          },
+          {
+            "label": "Cercozoa",
+            "overlappingColUsageIds": [],
+            "overlappingItisTsns": []
+          },
+          {
+            "label": "Chlorophyta",
+            "overlappingColUsageIds": [],
+            "overlappingItisTsns": []
+          },
+          {
+            "label": "Choanoflagellatea",
+            "overlappingColUsageIds": [],
+            "overlappingItisTsns": []
+          },
+          {
+            "label": "Ciliophora",
+            "overlappingColUsageIds": [],
+            "overlappingItisTsns": []
+          },
+          {
+            "label": "Cryptophyta",
+            "overlappingColUsageIds": [],
+            "overlappingItisTsns": []
+          },
+          {
+            "label": "Dinophyceae (Dinoflagellata)",
+            "overlappingColUsageIds": [],
+            "overlappingItisTsns": []
+          },
+          {
+            "label": "Euglenozoa",
+            "overlappingColUsageIds": [],
+            "overlappingItisTsns": []
+          },
+          {
+            "label": "Glaucophyta",
+            "overlappingColUsageIds": [],
+            "overlappingItisTsns": []
+          },
+          {
+            "label": "Haptophyta",
+            "overlappingColUsageIds": [],
+            "overlappingItisTsns": []
+          },
+          {
+            "label": "Labyrinthulomycetes",
+            "overlappingColUsageIds": [],
+            "overlappingItisTsns": []
+          },
+          {
+            "label": "Metamonada",
+            "overlappingColUsageIds": [],
+            "overlappingItisTsns": []
+          },
+          {
+            "label": "Ochrophyta",
+            "overlappingColUsageIds": [],
+            "overlappingItisTsns": []
+          },
+          {
+            "label": "itis-oomycota-sidecar.json",
+            "overlappingColUsageIds": [],
+            "overlappingItisTsns": []
+          },
+          {
+            "label": "Opalozoa",
+            "overlappingColUsageIds": [],
+            "overlappingItisTsns": []
+          },
+          {
+            "label": "Perkinsozoa",
+            "overlappingColUsageIds": [],
+            "overlappingItisTsns": []
+          },
+          {
+            "label": "Radiolaria",
+            "overlappingColUsageIds": [],
+            "overlappingItisTsns": []
+          },
+          {
+            "label": "Rhodophyta",
+            "overlappingColUsageIds": [],
+            "overlappingItisTsns": []
+          }
+        ],
+        "decision": "No exact Picozoa root exists in either pinned source. Zero rows are the complete truthful result for this release; nearby names are not taxonomic proxies."
+      },
+      "matching": {
+        "normalization": [
+          "Remove the exact trailing COL authorship field from COL scientificName when that suffix is present; no authorship parser is used.",
+          "Normalize Unicode to NFC, replace underscores with spaces, collapse Unicode whitespace and trim.",
+          "For species-rank comparison, remove one parenthesized subgenus token in the exact Genus (Subgenus) species representation; genus and specific epithet must remain unchanged.",
+          "Preserve case, diacritics, punctuation and all remaining name tokens."
+        ],
+        "statuses": {
+          "accepted": "Unavailable: neither pinned source defines an exact Picozoa root.",
+          "synonym-current-name-redirect": "Unavailable: neither pinned source defines an exact Picozoa root.",
+          "ambiguous": "Unavailable: neither pinned source defines an exact Picozoa root.",
+          "unmatched": "Unavailable: neither pinned source defines an exact Picozoa root."
+        },
+        "prohibited": "No inferred root, fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered, neighboring-taxon, higher-rank or package-wide matching is used."
+      },
+      "evidenceBoundary": {
+        "en": "This CC0 sidecar is a frozen exact-root boundary audit for Picozoa in the pinned COL26.8 Protists and Chromists package. It is not a global checklist, final classification authority, species-concept equivalence assertion, biological dossier or scientific-review record.",
+        "zh": "此 CC0 侧包是固定版本中针对 Picozoa 的精确根边界审计；它不是全球物种清单、最终分类权威、物种概念等同性声明、生物学档案或科学审查记录。"
+      },
+      "counts": {
+        "eligible": 0,
+        "records": 0,
+        "accepted": 0,
+        "redirects": 0,
+        "ambiguous": 0,
+        "unmatched": 0,
+        "withheld": 0,
+        "upstreamOnly": 0,
+        "nonApplicable": 61518
+      },
+      "files": [],
+      "totalCompressedBytes": 0,
+      "totalSourceBytes": 0,
+      "deliveryProfiles": {
+        "web-light": {
+          "payload": "summary-only",
+          "files": [],
+          "records": 0,
+          "totalCompressedBytes": 0,
+          "totalSourceBytes": 0,
+          "statement": "GitHub Pages publishes the complete Picozoa authority boundary authority boundary and canonical hashes without row shards."
+        },
+        "native-full": {
+          "payload": "complete",
+          "files": [],
+          "records": 0,
+          "totalCompressedBytes": 0,
+          "totalSourceBytes": 0
+        }
+      },
+      "limitations": [
+        "This CC0 sidecar is a frozen exact-root boundary audit for Picozoa in the pinned COL26.8 Protists and Chromists package. It is not a global checklist, final classification authority, species-concept equivalence assertion, biological dossier or scientific-review record.",
+        "No inferred root, fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered, neighboring-taxon, higher-rank or package-wide matching is used."
+      ],
+      "integration": {
+        "clientParityRequirement": "Android and iOS must copy every non-empty native-full file byte-for-byte; Web uses the web-light summary profile.",
+        "lookup": {
+          "strategy": "lexicographic-colId-range-v1",
+          "ordering": "Unicode code-unit ascending",
+          "requestPolicy": "Select the sole inclusive COL-ID range and read at most one COL partition; upstream-only files are never selected by COL ID."
+        }
+      }
+    },
+    {
+      "id": "itis-telonemia-tsn-crosswalk",
+      "recordType": "release-pinned-exact-root-boundary-audit",
+      "provider": "Integrated Taxonomic Information System",
+      "source": {
+        "datasetId": "itis-2026-08-26",
+        "exportDate": "2026-08-26",
+        "rootTsn": null,
+        "license": "CC0-1.0",
+        "citationDoi": "10.5066/F7KH0KBK",
+        "canonicalDescriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-telonemia-sidecar.json",
+        "canonicalDescriptorBytes": 5985,
+        "canonicalDescriptorSha256": "143d9e4590dd7797a702dd14bcd15c6fe49e40653f8870953b0251a949d142ee"
+      },
+      "scope": {
+        "packageRootUsageIds": [
+          "C",
+          "Z"
+        ],
+        "packageRootScientificNames": [
+          "Chromista",
+          "Protozoa"
+        ],
+        "colRootUsageId": null,
+        "colRootScientificName": "Telonemia",
+        "colStrictAcceptedSpecies": 0,
+        "packageStrictAcceptedSpecies": 61518,
+        "packageOutOfScopeStrictAcceptedSpecies": 61518,
+        "colRootAudit": "No exact COL26.8 usage node named Telonemia exists in the complete pinned hierarchy; no strict COL partition is claimed.",
+        "boundary": "This boundary audit contains no Telonemia rows because neither COL26.8 nor ITIS 2026-08-26 exposes an exact accepted root named Telonemia. Nearby names are recorded only as audit evidence and are not substituted."
+      },
+      "rootBoundaryAudit": {
+        "colExactRootCandidates": [],
+        "colNearRootCandidates": [],
+        "itisExactNameCandidates": [],
+        "itisNearRootCandidates": [],
+        "selectedColRoot": null,
+        "selectedItisRoot": null,
+        "overlapAudit": {
+          "inspectedScopes": [
+            "Bigyra",
+            "Oomycota",
+            "Ochrophyta",
+            "Cercozoa",
+            "Ciliophora",
+            "Dinoflagellata",
+            "Apicomplexa",
+            "Amoebozoa",
+            "Euglenozoa",
+            "Haptophyta",
+            "Rhodophyta",
+            "Cryptophyta",
+            "Choanoflagellatea",
+            "Glaucophyta",
+            "Perkinsozoa",
+            "Labyrinthulomycetes",
+            "Opalozoa",
+            "Telonemia"
+          ],
+          "overlappingColUsageIds": [],
+          "overlappingItisTsns": []
+        },
+        "decision": "No exact Telonemia root exists in either pinned authority. Nearby names are not taxonomic substitutes; no COL or ITIS range is asserted."
+      },
+      "matching": {
+        "normalization": [
+          "Remove the exact trailing COL authorship field from COL scientificName when that suffix is present; no authorship parser is used.",
+          "Normalize Unicode to NFC, replace underscores with spaces, collapse Unicode whitespace and trim.",
+          "For species-rank comparison, remove one parenthesized subgenus token in the exact Genus (Subgenus) species representation; genus and specific epithet must remain unchanged.",
+          "Preserve case, diacritics, punctuation and all remaining name tokens."
+        ],
+        "statuses": {
+          "accepted": "Unavailable: no exact Telonemia root exists in the pinned authorities.",
+          "synonym-current-name-redirect": "Unavailable: no exact Telonemia root exists in the pinned authorities.",
+          "ambiguous": "Unavailable: no exact Telonemia root exists in the pinned authorities.",
+          "unmatched": "Unavailable: no exact Telonemia partition exists."
+        },
+        "prohibited": "No fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered, package-wide or taxon-substituted matching is used."
+      },
+      "evidenceBoundary": {
+        "en": "This CC0 ITIS boundary audit is a frozen exact-root check for the declared COL26.8 Protists and Chromists package. It is not a global Telonemia checklist, a final classification authority, a species-concept equivalence assertion, a biological dossier or a scientific-review record.",
+        "zh": "此 CC0 ITIS 边界审计仅冻结声明的 COL26.8 原生生物与色界生物包精确根检查；它不是全球 Telonemia 名录、最终分类权威、物种概念等同性声明、生物档案或科学审查记录。"
+      },
+      "counts": {
+        "eligible": 0,
+        "records": 0,
+        "accepted": 0,
+        "redirects": 0,
+        "ambiguous": 0,
+        "unmatched": 0,
+        "withheld": 0,
+        "upstreamOnly": 0,
+        "nonApplicable": 61518
+      },
+      "files": [],
+      "totalCompressedBytes": 0,
+      "totalSourceBytes": 0,
+      "deliveryProfiles": {
+        "web-light": {
+          "payload": "summary-only",
+          "files": [],
+          "records": 0,
+          "totalCompressedBytes": 0,
+          "totalSourceBytes": 0,
+          "statement": "GitHub Pages publishes the complete Telonemia authority boundary authority boundary and canonical hashes without row shards."
+        },
+        "native-full": {
+          "payload": "complete",
+          "files": [],
+          "records": 0,
+          "totalCompressedBytes": 0,
+          "totalSourceBytes": 0
+        }
+      },
+      "limitations": [
+        "This CC0 ITIS boundary audit is a frozen exact-root check for the declared COL26.8 Protists and Chromists package. It is not a global Telonemia checklist, a final classification authority, a species-concept equivalence assertion, a biological dossier or a scientific-review record.",
+        "No fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered, package-wide or taxon-substituted matching is used."
+      ],
+      "integration": {
+        "clientParityRequirement": "Android and iOS must copy every non-empty native-full file byte-for-byte; Web uses the web-light summary profile.",
+        "lookup": {
+          "strategy": "lexicographic-colId-range-v1",
+          "ordering": "Unicode code-unit ascending",
+          "requestPolicy": "Select the sole inclusive COL-ID range and read at most one COL partition; upstream-only files are never selected by COL ID."
+        }
+      }
+    },
+    {
+      "id": "itis-centrohelida-tsn-crosswalk",
+      "recordType": "release-pinned-exact-root-boundary-audit",
+      "provider": "Integrated Taxonomic Information System",
+      "source": {
+        "datasetId": "itis-2026-08-26",
+        "exportDate": "2026-08-26",
+        "rootTsn": null,
+        "license": "CC0-1.0",
+        "citationDoi": "10.5066/F7KH0KBK",
+        "canonicalDescriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-centrohelida-sidecar.json",
+        "canonicalDescriptorBytes": 16753,
+        "canonicalDescriptorSha256": "4dc01541875f2def2801938553fe54aa1955eac5de369507101f4d45fd844e5e"
+      },
+      "scope": {
+        "packageRootUsageIds": [
+          "C",
+          "Z"
+        ],
+        "packageRootScientificNames": [
+          "Chromista",
+          "Protozoa"
+        ],
+        "colRootUsageId": null,
+        "colRootScientificName": "Centrohelida",
+        "colStrictAcceptedSpecies": 0,
+        "packageStrictAcceptedSpecies": 61518,
+        "packageOutOfScopeStrictAcceptedSpecies": 61518,
+        "colRootAudit": "No exact COL26.8 usage node named Centrohelida exists in the complete pinned hierarchy; no strict COL partition is claimed.",
+        "boundary": "This boundary audit contains no Centrohelida rows: COL26.8 has no exact Centrohelida node, and ITIS 2026-08-26 has no accepted exact Centrohelida root. Its only exact-name record is legacy valid order TSN 46126, whose five valid species are not accepted-current species and are not promoted into an authority partition."
+      },
+      "rootBoundaryAudit": {
+        "colExactRootCandidates": [],
+        "itisExactNameCandidates": [
+          {
+            "tsn": 46126,
+            "scientific_name": "Centrohelida",
+            "rank_name": "Order",
+            "name_usage": "valid",
+            "parent_tsn": 46114
+          }
+        ],
+        "itisAcceptedExactRootCandidates": [],
+        "itisLegacyExactNameRoot": {
+          "tsn": 46126,
+          "scientific_name": "Centrohelida",
+          "rank_name": "Order",
+          "name_usage": "valid",
+          "parent_tsn": 46114
+        },
+        "itisLegacyExactNameLineage": [
+          {
+            "tsn": 46126,
+            "scientific_name": "Centrohelida",
+            "rank_name": "Order",
+            "name_usage": "valid",
+            "parent_tsn": 46114,
+            "depth": 0
+          },
+          {
+            "tsn": 46114,
+            "scientific_name": "Heliozoa",
+            "rank_name": "Class",
+            "name_usage": "valid",
+            "parent_tsn": 46113,
+            "depth": 1
+          },
+          {
+            "tsn": 46113,
+            "scientific_name": "Acanthophractida",
+            "rank_name": "Superclass",
+            "name_usage": "valid",
+            "parent_tsn": 46067,
+            "depth": 2
+          },
+          {
+            "tsn": 46067,
+            "scientific_name": "Mycetozoa",
+            "rank_name": "Subphylum",
+            "name_usage": "valid",
+            "parent_tsn": 43780,
+            "depth": 3
+          },
+          {
+            "tsn": 43780,
+            "scientific_name": "Protozoa",
+            "rank_name": "Phylum",
+            "name_usage": "valid",
+            "parent_tsn": 630577,
+            "depth": 4
+          },
+          {
+            "tsn": 630577,
+            "scientific_name": "Protozoa",
+            "rank_name": "Kingdom",
+            "name_usage": "valid",
+            "parent_tsn": 0,
+            "depth": 5
+          }
+        ],
+        "itisLegacyExactNameDescendants": [
+          {
+            "tsn": 46126,
+            "scientific_name": "Centrohelida",
+            "rank_name": "Order",
+            "name_usage": "valid",
+            "parent_tsn": 46114
+          },
+          {
+            "tsn": 46127,
+            "scientific_name": "Acanthocistidae",
+            "rank_name": "Family",
+            "name_usage": "valid",
+            "parent_tsn": 46126
+          },
+          {
+            "tsn": 46128,
+            "scientific_name": "Acanthocystis",
+            "rank_name": "Genus",
+            "name_usage": "valid",
+            "parent_tsn": 46127
+          },
+          {
+            "tsn": 46129,
+            "scientific_name": "Acanthocystis aculeata",
+            "rank_name": "Species",
+            "name_usage": "valid",
+            "parent_tsn": 46128
+          },
+          {
+            "tsn": 46130,
+            "scientific_name": "Acanthocystis turfacea",
+            "rank_name": "Species",
+            "name_usage": "valid",
+            "parent_tsn": 46128
+          },
+          {
+            "tsn": 46131,
+            "scientific_name": "Pompholyxophrys",
+            "rank_name": "Genus",
+            "name_usage": "valid",
+            "parent_tsn": 46127
+          },
+          {
+            "tsn": 46132,
+            "scientific_name": "Pompholyxophrys punicea",
+            "rank_name": "Species",
+            "name_usage": "valid",
+            "parent_tsn": 46131
+          },
+          {
+            "tsn": 203857,
+            "scientific_name": "Acanthocystis chaetophora",
+            "rank_name": "Species",
+            "name_usage": "valid",
+            "parent_tsn": 46128
+          },
+          {
+            "tsn": 203858,
+            "scientific_name": "Acanthocystis nyriospina",
+            "rank_name": "Species",
+            "name_usage": "valid",
+            "parent_tsn": 46128
+          }
+        ],
+        "itisLegacyAcceptedSpecies": [],
+        "itisLegacyValidSpecies": [
+          {
+            "tsn": 46129,
+            "scientific_name": "Acanthocystis aculeata",
+            "rank_name": "Species",
+            "name_usage": "valid",
+            "parent_tsn": 46128
+          },
+          {
+            "tsn": 46130,
+            "scientific_name": "Acanthocystis turfacea",
+            "rank_name": "Species",
+            "name_usage": "valid",
+            "parent_tsn": 46128
+          },
+          {
+            "tsn": 46132,
+            "scientific_name": "Pompholyxophrys punicea",
+            "rank_name": "Species",
+            "name_usage": "valid",
+            "parent_tsn": 46131
+          },
+          {
+            "tsn": 203857,
+            "scientific_name": "Acanthocystis chaetophora",
+            "rank_name": "Species",
+            "name_usage": "valid",
+            "parent_tsn": 46128
+          },
+          {
+            "tsn": 203858,
+            "scientific_name": "Acanthocystis nyriospina",
+            "rank_name": "Species",
+            "name_usage": "valid",
+            "parent_tsn": 46128
+          }
+        ],
+        "selectedColRoot": null,
+        "selectedItisRoot": null,
+        "decision": "No exact accepted Centrohelida root exists in either pinned authority. ITIS exact-name order TSN 46126 is legacy valid under Heliozoa/Acanthophractida/Mycetozoa, with five valid but no accepted species descendants; it is retained only as boundary evidence and is not converted into an accepted-current partition. No COL or ITIS range is asserted."
+      },
+      "matching": {
+        "normalization": [
+          "Remove the exact trailing COL authorship field from COL scientificName when that suffix is present; no authorship parser is used.",
+          "Normalize Unicode to NFC, replace underscores with spaces, collapse Unicode whitespace and trim.",
+          "For species-rank comparison, remove one parenthesized subgenus token in the exact Genus (Subgenus) species representation; genus and specific epithet must remain unchanged.",
+          "Preserve case, diacritics, punctuation and all remaining name tokens."
+        ],
+        "statuses": {
+          "accepted": "Unavailable: no exact accepted Centrohelida root exists in the pinned authorities.",
+          "synonym-current-name-redirect": "Unavailable: no exact accepted Centrohelida root exists in the pinned authorities.",
+          "ambiguous": "Unavailable: no exact accepted Centrohelida root exists in the pinned authorities.",
+          "unmatched": "Unavailable: no exact accepted Centrohelida root exists in the pinned authorities."
+        },
+        "prohibited": "No fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered, package-wide, near-lineage or taxon-substituted matching is used."
+      },
+      "evidenceBoundary": {
+        "en": "This CC0 ITIS boundary audit is a frozen exact-root check for Centrohelida in the declared COL26.8 Protists and Chromists package. It is not a global checklist, final classification authority, phylogeny, species-concept equivalence assertion, biological dossier or scientific-review record.",
+        "zh": "此 CC0 ITIS 边界审计仅冻结声明的 COL26.8 原生生物与色界生物包中 Centrohelida 的精确根检查；它不是全球名录、最终分类权威、系统发育、物种概念等同性声明、生物档案或科学审查记录。"
+      },
+      "counts": {
+        "eligible": 0,
+        "records": 0,
+        "accepted": 0,
+        "redirects": 0,
+        "ambiguous": 0,
+        "unmatched": 0,
+        "withheld": 0,
+        "upstreamOnly": 0,
+        "nonApplicable": 61518
+      },
+      "files": [],
+      "totalCompressedBytes": 0,
+      "totalSourceBytes": 0,
+      "deliveryProfiles": {
+        "web-light": {
+          "payload": "summary-only",
+          "files": [],
+          "records": 0,
+          "totalCompressedBytes": 0,
+          "totalSourceBytes": 0,
+          "statement": "GitHub Pages publishes the complete Centrohelida authority boundary authority boundary and canonical hashes without row shards."
+        },
+        "native-full": {
+          "payload": "complete",
+          "files": [],
+          "records": 0,
+          "totalCompressedBytes": 0,
+          "totalSourceBytes": 0
+        }
+      },
+      "limitations": [
+        "This CC0 ITIS boundary audit is a frozen exact-root check for Centrohelida in the declared COL26.8 Protists and Chromists package. It is not a global checklist, final classification authority, phylogeny, species-concept equivalence assertion, biological dossier or scientific-review record.",
+        "No fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered, package-wide, near-lineage or taxon-substituted matching is used."
+      ],
+      "integration": {
+        "clientParityRequirement": "Android and iOS must copy every non-empty native-full file byte-for-byte; Web uses the web-light summary profile.",
+        "lookup": {
+          "strategy": "lexicographic-colId-range-v1",
+          "ordering": "Unicode code-unit ascending",
+          "requestPolicy": "Select the sole inclusive COL-ID range and read at most one COL partition; upstream-only files are never selected by COL ID."
+        }
+      }
+    },
+    {
+      "id": "itis-katablepharidota-tsn-crosswalk",
+      "recordType": "release-pinned-exact-root-boundary-audit",
+      "provider": "Integrated Taxonomic Information System",
+      "source": {
+        "datasetId": "itis-2026-08-26",
+        "exportDate": "2026-08-26",
+        "rootTsn": null,
+        "license": "CC0-1.0",
+        "citationDoi": "10.5066/F7KH0KBK",
+        "canonicalDescriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-katablepharidota-sidecar.json",
+        "canonicalDescriptorBytes": 6401,
+        "canonicalDescriptorSha256": "5905d136b61c07b029b1b99f7e0c2dcd1fb03a0746f5609ba7b276a4b9b00a98"
+      },
+      "scope": {
+        "packageRootUsageIds": [
+          "C",
+          "Z"
+        ],
+        "packageRootScientificNames": [
+          "Chromista",
+          "Protozoa"
+        ],
+        "colRootUsageId": null,
+        "colRootScientificName": "Katablepharidota",
+        "colStrictAcceptedSpecies": 0,
+        "packageStrictAcceptedSpecies": 61518,
+        "packageOutOfScopeStrictAcceptedSpecies": 61518,
+        "colRootAudit": "No exact COL26.8 usage node named Katablepharidota exists in the complete pinned hierarchy; no strict COL partition is claimed.",
+        "boundary": "This boundary audit contains no Katablepharidota rows because neither COL26.8 nor ITIS 2026-08-26 exposes an exact accepted root named Katablepharidota. Exact-name candidates such as Katablepharidophyta, Katablepharidophyceae, Katablepharidida, Katablepharidales are recorded only for audit and are not substituted."
+      },
+      "rootBoundaryAudit": {
+        "colExactRootCandidates": [],
+        "colNearRootCandidates": [],
+        "itisExactNameCandidates": [],
+        "itisNearRootCandidates": [],
+        "selectedColRoot": null,
+        "selectedItisRoot": null,
+        "overlapAudit": {
+          "inspectedScopes": [
+            "amoebozoa",
+            "apicomplexa",
+            "bigyra",
+            "centrohelida",
+            "cercozoa",
+            "chlorophyta",
+            "choanoflagellatea",
+            "ciliophora",
+            "cryptophyta",
+            "dinoflagellata",
+            "euglenozoa",
+            "glaucophyta",
+            "haptophyta",
+            "labyrinthulomycetes",
+            "metamonada",
+            "ochrophyta",
+            "oomycota",
+            "opalozoa",
+            "perkinsozoa",
+            "picozoa",
+            "radiolaria",
+            "rhodophyta",
+            "telonemia"
+          ],
+          "overlappingColUsageIds": [],
+          "overlappingItisTsns": []
+        },
+        "decision": "No exact Katablepharidota root exists in either pinned authority. Any nearby exact-name candidates are audit evidence only; no COL or ITIS range is asserted and no taxonomic equivalence is inferred."
+      },
+      "matching": {
+        "normalization": [
+          "Remove the exact trailing COL authorship field from COL scientificName when that suffix is present; no authorship parser is used.",
+          "Normalize Unicode to NFC, replace underscores with spaces, collapse Unicode whitespace and trim.",
+          "For species-rank comparison, remove one parenthesized subgenus token in the exact Genus (Subgenus) species representation; genus and specific epithet must remain unchanged.",
+          "Preserve case, diacritics, punctuation and all remaining name tokens."
+        ],
+        "statuses": {
+          "accepted": "Unavailable: no exact Katablepharidota root exists in the pinned authorities.",
+          "synonym-current-name-redirect": "Unavailable: no exact Katablepharidota root exists in the pinned authorities.",
+          "ambiguous": "Unavailable: no exact Katablepharidota root exists in the pinned authorities.",
+          "unmatched": "Unavailable: no exact Katablepharidota partition exists."
+        },
+        "prohibited": "No fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered, package-wide or taxon-substituted matching is used."
+      },
+      "evidenceBoundary": {
+        "en": "This CC0 ITIS boundary audit is a frozen exact-root check for Katablepharidota in the pinned COL26.8 Protists and Chromists package. It is not a global checklist, a final classification authority, a phylogeny, a species-concept equivalence assertion, a biological dossier or a scientific-review record.",
+        "zh": "此 CC0 ITIS 边界审计冻结记录了固定版本 COL26.8 原生生物与色界生物包中 Katablepharidota 的精确根检查。它不是全球物种清单、最终分类权威、系统发育、物种概念等同性声明、生物档案或科学审查记录。"
+      },
+      "counts": {
+        "eligible": 0,
+        "records": 0,
+        "accepted": 0,
+        "redirects": 0,
+        "ambiguous": 0,
+        "unmatched": 0,
+        "withheld": 0,
+        "upstreamOnly": 0,
+        "nonApplicable": 61518
+      },
+      "files": [],
+      "totalCompressedBytes": 0,
+      "totalSourceBytes": 0,
+      "deliveryProfiles": {
+        "web-light": {
+          "payload": "summary-only",
+          "files": [],
+          "records": 0,
+          "totalCompressedBytes": 0,
+          "totalSourceBytes": 0,
+          "statement": "GitHub Pages publishes the complete Katablepharidota authority boundary authority boundary and canonical hashes without row shards."
+        },
+        "native-full": {
+          "payload": "complete",
+          "files": [],
+          "records": 0,
+          "totalCompressedBytes": 0,
+          "totalSourceBytes": 0
+        }
+      },
+      "limitations": [
+        "This CC0 ITIS boundary audit is a frozen exact-root check for Katablepharidota in the pinned COL26.8 Protists and Chromists package. It is not a global checklist, a final classification authority, a phylogeny, a species-concept equivalence assertion, a biological dossier or a scientific-review record.",
+        "No fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered, package-wide or taxon-substituted matching is used."
+      ],
+      "integration": {
+        "clientParityRequirement": "Android and iOS must copy every non-empty native-full file byte-for-byte; Web uses the web-light summary profile.",
+        "lookup": {
+          "strategy": "lexicographic-colId-range-v1",
+          "ordering": "Unicode code-unit ascending",
+          "requestPolicy": "Select the sole inclusive COL-ID range and read at most one COL partition; upstream-only files are never selected by COL ID."
+        }
+      }
+    },
+    {
+      "id": "itis-hemimastigophora-tsn-crosswalk",
+      "recordType": "release-pinned-exact-root-boundary-audit",
+      "provider": "Integrated Taxonomic Information System",
+      "source": {
+        "datasetId": "itis-2026-08-26",
+        "exportDate": "2026-08-26",
+        "rootTsn": null,
+        "license": "CC0-1.0",
+        "citationDoi": "10.5066/F7KH0KBK",
+        "canonicalDescriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-hemimastigophora-sidecar.json",
+        "canonicalDescriptorBytes": 12644,
+        "canonicalDescriptorSha256": "2414ef84a69bc4aeefbdc98d288d370891677ff4a1875a34451bb423e2776aff"
+      },
+      "scope": {
+        "packageRootUsageIds": [
+          "C",
+          "Z"
+        ],
+        "packageRootScientificNames": [
+          "Chromista",
+          "Protozoa"
+        ],
+        "colRootUsageId": null,
+        "colRootScientificName": "Hemimastigophora",
+        "colStrictAcceptedSpecies": 0,
+        "packageStrictAcceptedSpecies": 61518,
+        "packageOutOfScopeStrictAcceptedSpecies": 61518,
+        "colRootAudit": "No exact COL26.8 usage node named Hemimastigophora exists in the complete pinned hierarchy; no strict COL partition is claimed.",
+        "boundary": "This boundary audit contains no Hemimastigophora rows: COL26.8 has no exact Hemimastigophora node, and ITIS 2026-08-26 has no exact-name record. No broader, narrower or neighboring taxon is promoted into an authority partition."
+      },
+      "rootBoundaryAudit": {
+        "colExactRootCandidates": [],
+        "itisExactNameCandidates": [],
+        "itisAcceptedExactRootCandidates": [],
+        "selectedColRoot": null,
+        "selectedItisRoot": null,
+        "decision": "No exact accepted Hemimastigophora root exists in either pinned authority. No COL or ITIS range is asserted; the empty native shard is retained as an explicit boundary result until a future release supplies an exact accepted root."
+      },
+      "matching": {
+        "normalization": [
+          "Remove the exact trailing COL authorship field from COL scientificName when that suffix is present; no authorship parser is used.",
+          "Normalize Unicode to NFC, replace underscores with spaces, collapse Unicode whitespace and trim.",
+          "For species-rank comparison, remove one parenthesized subgenus token in the exact Genus (Subgenus) species representation; genus and specific epithet must remain unchanged.",
+          "Preserve case, diacritics, punctuation and all remaining name tokens."
+        ],
+        "statuses": {
+          "accepted": "Unavailable: no exact accepted Hemimastigophora root exists in the pinned authorities.",
+          "synonym-current-name-redirect": "Unavailable: no exact accepted Hemimastigophora root exists in the pinned authorities.",
+          "ambiguous": "Unavailable: no exact accepted Hemimastigophora root exists in the pinned authorities.",
+          "unmatched": "Unavailable: no exact accepted Hemimastigophora root exists in the pinned authorities."
+        },
+        "prohibited": "No fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered, package-wide, near-lineage or taxon-substituted matching is used."
+      },
+      "evidenceBoundary": {
+        "en": "This CC0 ITIS boundary audit is a frozen exact-root check for Hemimastigophora in the declared COL26.8 Protists and Chromists package. It is not a global checklist, final classification authority, phylogeny, species-concept equivalence assertion, biological dossier or scientific-review record.",
+        "zh": "此 CC0 ITIS 边界审计仅冻结声明的 COL26.8 原生生物与色界生物包中 Hemimastigophora 的精确根检查；它不是全球名录、最终分类权威、系统发育、物种概念等同性声明、生物档案或科学审查记录。"
+      },
+      "counts": {
+        "eligible": 0,
+        "records": 0,
+        "accepted": 0,
+        "redirects": 0,
+        "ambiguous": 0,
+        "unmatched": 0,
+        "withheld": 0,
+        "upstreamOnly": 0,
+        "nonApplicable": 61518
+      },
+      "files": [],
+      "totalCompressedBytes": 0,
+      "totalSourceBytes": 0,
+      "deliveryProfiles": {
+        "web-light": {
+          "payload": "summary-only",
+          "files": [],
+          "records": 0,
+          "totalCompressedBytes": 0,
+          "totalSourceBytes": 0,
+          "statement": "GitHub Pages publishes the complete Hemimastigophora authority boundary authority boundary and canonical hashes without row shards."
+        },
+        "native-full": {
+          "payload": "complete",
+          "files": [],
+          "records": 0,
+          "totalCompressedBytes": 0,
+          "totalSourceBytes": 0
+        }
+      },
+      "limitations": [
+        "This CC0 ITIS boundary audit is a frozen exact-root check for Hemimastigophora in the declared COL26.8 Protists and Chromists package. It is not a global checklist, final classification authority, phylogeny, species-concept equivalence assertion, biological dossier or scientific-review record.",
+        "No fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered, package-wide, near-lineage or taxon-substituted matching is used."
+      ],
+      "integration": {
+        "clientParityRequirement": "Android and iOS must copy every non-empty native-full file byte-for-byte; Web uses the web-light summary profile.",
+        "lookup": {
+          "strategy": "lexicographic-colId-range-v1",
+          "ordering": "Unicode code-unit ascending",
+          "requestPolicy": "Select the sole inclusive COL-ID range and read at most one COL partition; upstream-only files are never selected by COL ID."
+        }
+      }
     }
   ]
 }

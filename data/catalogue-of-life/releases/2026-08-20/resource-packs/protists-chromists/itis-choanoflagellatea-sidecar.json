@@ -1,0 +1,143 @@
+{
+  "schemaVersion": 1,
+  "sidecarType": "release-pinned-exact-nomenclatural-crosswalk",
+  "packageId": "protists-chromists",
+  "scope": {
+    "packageRootUsageIds": [
+      "C",
+      "Z"
+    ],
+    "packageRootScientificNames": [
+      "Chromista",
+      "Protozoa"
+    ],
+    "colRootUsageId": null,
+    "colRootScientificName": "Choanoflagellatea",
+    "colStrictAcceptedSpecies": 0,
+    "packageStrictAcceptedSpecies": 61518,
+    "packageOutOfScopeStrictAcceptedSpecies": 61518,
+    "boundary": "No exact COL26.8 Choanoflagellatea root exists in the pinned registry; no species are inferred from a nearby kingdom, phylum or order. The declared Protists and Chromists owner remains the package boundary."
+  },
+  "rootBoundaryAudit": {
+    "colExactNameCandidates": [],
+    "itisExactNameCandidates": [],
+    "itisNearbyNameCandidates": [
+      {
+        "tsn": 43811,
+        "scientific_name": "Choanoflagellida",
+        "rank_name": "Order",
+        "name_usage": "valid",
+        "parent_tsn": 43810
+      }
+    ],
+    "selectedColRoot": null,
+    "selectedItisRoot": null,
+    "decision": "No exact COL26.8 Choanoflagellatea root and no exact ITIS Choanoflagellatea root exist in the pinned snapshots. ITIS Choanoflagellida is recorded only as a nearby non-substitute; no crosswalk rows or ITIS-only rows are asserted."
+  },
+  "sources": {
+    "col": {
+      "releaseAlias": "COL26.8",
+      "releaseDate": "2026-08-20",
+      "registryManifestPath": "data/catalogue-of-life/releases/2026-08-20/registry/manifest.json",
+      "registryManifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151",
+      "packageManifestPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/manifest.json",
+      "packageManifestSha256": "c128d8403a2a51533fe0cc752dc05519694cac6891ae6a52508290d02e284da9",
+      "ownershipPath": "data/registry/package-species-coverage.json",
+      "ownershipSha256": "677935a0f456800b41dbf7396578fb256423e5fc52a624c589ea7b4bc21ee033"
+    },
+    "itis": {
+      "datasetId": "itis-2026-08-26",
+      "exportDate": "2026-08-26",
+      "rootTsn": null,
+      "rootScientificName": "Choanoflagellatea",
+      "rootStatus": "absent",
+      "sourceLedgerPath": "data/sources/itis-2026-08-26.json",
+      "sourceLedgerSha256": "38a7a55b4e98cafc66790e47f6bd637e298e23fd691e4771c755b38e4a02d7fc",
+      "license": "CC0-1.0",
+      "citationDoi": "10.5066/F7KH0KBK"
+    }
+  },
+  "exactMatching": {
+    "normalization": [
+      "Remove the exact trailing COL authorship field from COL scientificName when that suffix is present; no authorship parser is used.",
+      "Normalize Unicode to NFC, replace underscores with spaces, collapse Unicode whitespace and trim.",
+      "For species-rank comparison, remove one parenthesized subgenus token in the exact Genus (Subgenus) species representation; genus and specific epithet must remain unchanged.",
+      "Preserve case, diacritics, punctuation and all remaining name tokens."
+    ],
+    "statuses": {
+      "accepted": "Unavailable: the pinned COL registry has no exact Choanoflagellatea root.",
+      "synonym-current-name-redirect": "Unavailable: the pinned COL registry has no exact Choanoflagellatea root.",
+      "ambiguous": "Unavailable: the pinned COL registry has no exact Choanoflagellatea root.",
+      "unmatched": "No Choanoflagellatea scope exists to match; no nearby taxon is substituted."
+    },
+    "prohibited": "No fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered, kingdom-wide, package-wide or taxon-substituted matching is used."
+  },
+  "evidenceBoundary": {
+    "en": "This CC0 ITIS sidecar records a zero-row exact-root audit for the named Choanoflagellatea scope. Neither pinned COL26.8 nor ITIS contains an exact Choanoflagellatea root; the nearby ITIS Choanoflagellida order is not substituted. It is not a global choanoflagellate checklist, classification authority, phylogeny, species-concept equivalence assertion, biological dossier or scientific-review record.",
+    "zh": "此 CC0 ITIS 侧车记录所声明领鞭毛虫范围的零行精确根审计。固定的 COL26.8 与 ITIS 均不存在精确 Choanoflagellatea 根节点；附近的 ITIS Choanoflagellida 目不作为替代。它不是全球领鞭毛虫名录、分类权威、系统发育、物种概念等同性声明、生物档案或科学审查记录。"
+  },
+  "counts": {
+    "total": 0,
+    "accepted": 0,
+    "synonymCurrentNameRedirect": 0,
+    "ambiguous": 0,
+    "unmatched": 0,
+    "itisCurrentSpecies": 0,
+    "itisSpeciesSynonymLinks": 0,
+    "itisUpstreamOnly": 0
+  },
+  "colUsageIdLocator": {
+    "key": "colUsageId",
+    "ordering": "Unicode code-unit ascending",
+    "sourceShardLimitBytes": 524288,
+    "stableAddressing": "The explicit empty shard is immutable and contains no COL usage IDs.",
+    "files": [
+      {
+        "path": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-choanoflagellatea-sidecar-0000.jsonl.gz",
+        "records": 0,
+        "firstColUsageId": null,
+        "lastColUsageId": null,
+        "bytes": 21,
+        "sha256": "74420f89d2d2a4256b5b578f1c2a01dd2b605f9aca4905db839d008cfd29cac0",
+        "sourceBytes": 1,
+        "sourceSha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+      }
+    ]
+  },
+  "upstreamOnly": {
+    "colOwnership": null,
+    "stableAddressing": "The explicit empty shard is immutable because no exact COL or ITIS root is available; no ITIS-only species are inferred.",
+    "files": [
+      {
+        "path": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-choanoflagellatea-upstream-only-0000.jsonl.gz",
+        "records": 0,
+        "firstColUsageId": null,
+        "lastColUsageId": null,
+        "bytes": 21,
+        "sha256": "74420f89d2d2a4256b5b578f1c2a01dd2b605f9aca4905db839d008cfd29cac0",
+        "sourceBytes": 1,
+        "sourceSha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "colOwnership": null,
+        "firstTsn": null,
+        "lastTsn": null
+      }
+    ]
+  },
+  "deliveryProfiles": {
+    "web-light": {
+      "payload": "summary-only",
+      "files": [],
+      "records": 0,
+      "totalCompressedBytes": 0
+    },
+    "native-full": {
+      "payload": "complete",
+      "files": [
+        "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-choanoflagellatea-sidecar-0000.jsonl.gz",
+        "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-choanoflagellatea-upstream-only-0000.jsonl.gz"
+      ],
+      "records": 0,
+      "totalCompressedBytes": 42
+    }
+  }
+}

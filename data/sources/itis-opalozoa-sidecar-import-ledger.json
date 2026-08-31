@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 1,
+  "importType": "COL26.8-to-ITIS-exact-opalozoa-root-boundary-audit",
+  "generatedFrom": {
+    "sourcePath": "data/sources/itis-2026-08-26.json",
+    "sourceSha256": "38a7a55b4e98cafc66790e47f6bd637e298e23fd691e4771c755b38e4a02d7fc",
+    "itisDatabaseMember": "itisSqlite082626/ITIS.sqlite",
+    "itisDatabaseSha256": "ea7304536cfd7b1e2636d383911ca7931fc83d9ab1194ca2a3c020ea2daf1719",
+    "colRegistryManifestPath": "data/catalogue-of-life/releases/2026-08-20/registry/manifest.json",
+    "colRegistryManifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151",
+    "colOwnershipPath": "data/registry/package-species-coverage.json",
+    "colOwnershipSha256": "a297bc8a67ce60806fdee733464a79bfcc42e255f7e59535b01f94013c19dfea"
+  },
+  "scopeAudit": {
+    "packageRootUsageIds": [
+      "C",
+      "Z"
+    ],
+    "packageRootScientificNames": [
+      "Chromista",
+      "Protozoa"
+    ],
+    "colRootUsageId": null,
+    "colRootScientificName": "Opalozoa",
+    "colStrictAcceptedSpecies": 0,
+    "packageStrictAcceptedSpecies": 61518,
+    "packageOutOfScopeStrictAcceptedSpecies": 61518,
+    "colRootAudit": "No exact COL26.8 usage node named Opalozoa exists in the complete pinned hierarchy; no strict COL partition is claimed.",
+    "boundary": "This boundary audit contains no Opalozoa rows because neither COL26.8 nor ITIS 2026-08-26 exposes an exact accepted root named Opalozoa. The nearby ITIS name Opalinata (TSN 43846) is recorded only as audit evidence and is not substituted.",
+    "rootBoundaryAudit": {
+      "colExactRootCandidates": [],
+      "colNearRootCandidates": [],
+      "itisExactNameCandidates": [],
+      "itisNearRootCandidates": [
+        {
+          "tsn": 43846,
+          "scientific_name": "Opalinata",
+          "rank_name": "Class",
+          "name_usage": "valid",
+          "parent_tsn": 43782
+        }
+      ],
+      "selectedColRoot": null,
+      "selectedItisRoot": null,
+      "overlapAudit": {
+        "inspectedScopes": [
+          "Bigyra",
+          "Oomycota",
+          "Ochrophyta",
+          "Cercozoa",
+          "Ciliophora",
+          "Dinoflagellata",
+          "Apicomplexa",
+          "Amoebozoa",
+          "Euglenozoa",
+          "Haptophyta",
+          "Rhodophyta",
+          "Cryptophyta",
+          "Choanoflagellatea",
+          "Perkinsozoa",
+          "Labyrinthulomycetes"
+        ],
+        "overlappingColUsageIds": [],
+        "overlappingItisTsns": []
+      },
+      "decision": "No exact Opalozoa root exists in either pinned authority. The nearby accepted/valid ITIS names are not taxonomic substitutes; no COL or ITIS range is asserted."
+    },
+    "itisCurrentSpecies": 0,
+    "itisSpeciesSynonymLinks": 0,
+    "maximumUpdateDates": {
+      "taxonomicUnits": "2026-08-26",
+      "synonymLinks": "2026-08-26"
+    }
+  },
+  "matchingContract": {
+    "normalization": [
+      "Remove the exact trailing COL authorship field from COL scientificName when that suffix is present; no authorship parser is used.",
+      "Normalize Unicode to NFC, replace underscores with spaces, collapse Unicode whitespace and trim.",
+      "For species-rank comparison, remove one parenthesized subgenus token in the exact Genus (Subgenus) species representation; genus and specific epithet must remain unchanged.",
+      "Preserve case, diacritics, punctuation and all remaining name tokens."
+    ],
+    "statuses": {
+      "accepted": "Unavailable: no exact Opalozoa root exists in the pinned authorities.",
+      "synonym-current-name-redirect": "Unavailable: no exact Opalozoa root exists in the pinned authorities.",
+      "ambiguous": "Unavailable: no exact Opalozoa root exists in the pinned authorities.",
+      "unmatched": "Unavailable: no exact Opalozoa partition exists."
+    },
+    "prohibited": "No fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered, package-wide or taxon-substituted matching is used."
+  },
+  "totals": {
+    "total": 0,
+    "accepted": 0,
+    "synonymCurrentNameRedirect": 0,
+    "ambiguous": 0,
+    "unmatched": 0,
+    "itisCurrentSpecies": 0,
+    "itisSpeciesSynonymLinks": 0,
+    "itisUpstreamOnly": 0
+  },
+  "output": {
+    "descriptor": {
+      "path": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-opalozoa-sidecar.json",
+      "bytes": 6132,
+      "sha256": "0eb545013479d9bb28ef289e49925c4842dba34d2e3f6a1002ec12934494c1d6"
+    },
+    "colUsageIdShards": [],
+    "upstreamOnly": {
+      "path": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-opalozoa-upstream-only-0000.jsonl.gz",
+      "records": 0,
+      "firstColUsageId": null,
+      "lastColUsageId": null,
+      "bytes": 20,
+      "sha256": "9ceffb7310338057cfe71a4ae1e2c98d2c485d81cdef906532a801f457a38d64",
+      "sourceBytes": 0,
+      "sourceSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "colOwnership": null,
+      "firstTsn": null,
+      "lastTsn": null
+    }
+  },
+  "deliveryContract": {
+    "pagesLight": "Pages needs only this small descriptor summary and may omit the empty row-level JSONL gzip shard.",
+    "androidIosFull": "Android and iOS complete-data inventories include the descriptor and the listed explicit empty shard; there are no non-empty authoritative rows to include.",
+    "runtimeChange": "This import deliberately changes no formal runtime or published release manifest."
+  },
+  "generatedBy": {
+    "scriptPath": "scripts/build-itis-opalozoa-sidecar.mjs",
+    "scriptSha256": "ff0cf21a886d23e5c3aead581db953d213e17bbe44c2c5a9b1dc398988fb270b",
+    "deterministic": "Pinned input checksums, exact COL and ITIS root audits, explicit nearby-root conflict record, and deterministic gzip; no wall-clock fields or fuzzy matching."
+  }
+}

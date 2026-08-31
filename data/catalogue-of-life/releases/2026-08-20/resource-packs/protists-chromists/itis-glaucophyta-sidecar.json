@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 1,
+  "sidecarType": "release-pinned-itis-only-nomenclatural-inventory",
+  "packageId": "protists-chromists",
+  "scope": {
+    "packageRootUsageIds": [
+      "C",
+      "Z"
+    ],
+    "packageRootScientificNames": [
+      "Chromista",
+      "Protozoa"
+    ],
+    "colRootUsageId": null,
+    "colRootScientificName": "Glaucophyta",
+    "colStrictAcceptedSpecies": 0,
+    "packageStrictAcceptedSpecies": 61518,
+    "packageOutOfScopeStrictAcceptedSpecies": 61518,
+    "colRootAudit": "No exact COL26.8 usage node named Glaucophyta exists in the complete pinned hierarchy; no strict COL partition is claimed.",
+    "boundary": "This ITIS-only sidecar retains every current species below the accepted ITIS Glaucophyta division. It deliberately contains no COL match rows until a pinned COL release materializes an exact auditable Glaucophyta root."
+  },
+  "rootBoundaryAudit": {
+    "colExactRootCandidates": [],
+    "colNearRootCandidates": [],
+    "selectedColRoot": null,
+    "selectedItisRoot": {
+      "tsn": "846495",
+      "scientificName": "Glaucophyta",
+      "rank": "Division",
+      "usage": "accepted"
+    },
+    "decision": "The pinned ITIS export has exact accepted Glaucophyta division TSN 846495; COL26.8 has no exact Glaucophyta usage node. Only the ITIS division is retained; no near COL root is substituted."
+  },
+  "sources": {
+    "col": {
+      "releaseAlias": "COL26.8",
+      "releaseDate": "2026-08-20",
+      "registryManifestPath": "data/catalogue-of-life/releases/2026-08-20/registry/manifest.json",
+      "registryManifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151",
+      "ownershipPath": "data/registry/package-species-coverage.json",
+      "ownershipSha256": "a297bc8a67ce60806fdee733464a79bfcc42e255f7e59535b01f94013c19dfea"
+    },
+    "itis": {
+      "datasetId": "itis-2026-08-26",
+      "exportDate": "2026-08-26",
+      "rootTsn": "846495",
+      "rootNameUsage": "accepted",
+      "sourceLedgerPath": "data/sources/itis-2026-08-26.json",
+      "sourceLedgerSha256": "38a7a55b4e98cafc66790e47f6bd637e298e23fd691e4771c755b38e4a02d7fc",
+      "license": "CC0-1.0",
+      "citationDoi": "10.5066/F7KH0KBK"
+    }
+  },
+  "exactMatching": {
+    "normalization": [
+      "Remove the exact trailing COL authorship field from COL scientificName when that suffix is present; no authorship parser is used.",
+      "Normalize Unicode to NFC, replace underscores with spaces, collapse Unicode whitespace and trim.",
+      "For species-rank comparison, remove one parenthesized subgenus token in the exact Genus (Subgenus) species representation; genus and specific epithet must remain unchanged.",
+      "Preserve case, diacritics, punctuation and all remaining name tokens."
+    ],
+    "statuses": {
+      "accepted": "Unavailable: COL26.8 has no exact Glaucophyta root from which to derive a strict accepted-species partition.",
+      "synonym-current-name-redirect": "Unavailable: no COL Glaucophyta partition exists in this release.",
+      "ambiguous": "Unavailable: no COL Glaucophyta partition exists in this release.",
+      "unmatched": "Unavailable: no COL Glaucophyta partition exists in this release."
+    },
+    "prohibited": "No inferred COL scope, fuzzy match, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered or taxon-substituted matching is used."
+  },
+  "evidenceBoundary": {
+    "en": "This CC0 ITIS inventory is a frozen, ITIS-only nomenclatural partition. It is not a global Glaucophyta checklist, a final classification authority, a phylogeny, a species-concept equivalence assertion, a biological dossier or a scientific-review record.",
+    "zh": "此 CC0 ITIS 清单是冻结的、仅限 ITIS 的命名分区；它不是全球蓝藻门（Glaucophyta）名录、最终分类权威、系统发育、物种概念等同性声明、生物档案或科学审查记录。"
+  },
+  "counts": {
+    "total": 0,
+    "accepted": 0,
+    "synonymCurrentNameRedirect": 0,
+    "ambiguous": 0,
+    "unmatched": 0,
+    "itisCurrentSpecies": 4,
+    "itisSpeciesSynonymLinks": 0,
+    "itisUpstreamOnly": 4
+  },
+  "colUsageIdLocator": {
+    "key": "colUsageId",
+    "ordering": "Unicode code-unit ascending",
+    "stableAddressing": "No COL row-level files exist because COL26.8 does not materialize an exact Glaucophyta root.",
+    "files": []
+  },
+  "upstreamOnly": {
+    "colOwnership": null,
+    "stableAddressing": "No COL usage ID is assigned. The complete current ITIS Glaucophyta species partition is one immutable JSONL gzip shard.",
+    "files": [
+      {
+        "path": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-glaucophyta-upstream-only-0000.jsonl.gz",
+        "records": 4,
+        "firstColUsageId": null,
+        "lastColUsageId": null,
+        "bytes": 362,
+        "sha256": "613d74670973a3b5730aaf45d857b0a48b03710638f60512b28afd31a8c4f388",
+        "sourceBytes": 1510,
+        "sourceSha256": "703f6bc7827df7a566d0047d93335ada94d2b44fecb77b79c1e2aaad3c850628",
+        "colOwnership": null,
+        "firstTsn": "822",
+        "lastTsn": "6007"
+      }
+    ]
+  },
+  "deliveryProfiles": {
+    "web-light": {
+      "payload": "summary-only",
+      "files": [],
+      "records": 0,
+      "totalCompressedBytes": 0
+    },
+    "native-full": {
+      "payload": "complete",
+      "files": [
+        "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-glaucophyta-upstream-only-0000.jsonl.gz"
+      ],
+      "records": 4,
+      "totalCompressedBytes": 362
+    }
+  }
+}

@@ -5,6 +5,7 @@ const e2eBaseUrl = `http://127.0.0.1:${e2ePort}/evo/`
 
 export default defineConfig({
   testDir: './tests/e2e',
+  outputDir: process.env.PLAYWRIGHT_OUTPUT_DIR ?? './test-results',
   timeout: 60_000,
   expect: { timeout: 10_000 },
   fullyParallel: true,

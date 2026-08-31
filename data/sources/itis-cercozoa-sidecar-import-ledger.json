@@ -1,0 +1,115 @@
+{
+  "schemaVersion": 1,
+  "importType": "COL26.8-to-ITIS-exact-cercozoa-nomenclatural-sidecar",
+  "generatedFrom": {
+    "sourcePath": "data/sources/itis-2026-08-26.json",
+    "sourceSha256": "38a7a55b4e98cafc66790e47f6bd637e298e23fd691e4771c755b38e4a02d7fc",
+    "itisDatabaseMember": "itisSqlite082626/ITIS.sqlite",
+    "itisDatabaseSha256": "ea7304536cfd7b1e2636d383911ca7931fc83d9ab1194ca2a3c020ea2daf1719",
+    "colRegistryManifestPath": "data/catalogue-of-life/releases/2026-08-20/registry/manifest.json",
+    "colRegistryManifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151",
+    "colOwnershipPath": "data/registry/package-species-coverage.json",
+    "colOwnershipSha256": "a297bc8a67ce60806fdee733464a79bfcc42e255f7e59535b01f94013c19dfea"
+  },
+  "scopeAudit": {
+    "packageRootUsageId": "C",
+    "packageRootScientificName": "Chromista",
+    "colRootUsageId": "35",
+    "colRootScientificName": "Cercozoa",
+    "colStrictAcceptedSpecies": 52,
+    "packageStrictAcceptedSpecies": 61518,
+    "packageOutOfScopeStrictAcceptedSpecies": 61466,
+    "nonApplicableRemainder": "All other strict accepted COL26.8 species assigned to Protists and Chromists remain outside this Cercozoa sidecar.",
+    "boundary": "This sidecar covers only strict accepted COL26.8 species descending from exact Cercozoa root 35. ITIS TSN 969919 is the exact accepted Cercozoa division, but its 2026-08-26 hierarchy has no accepted species descendants; broader ITIS lineages such as Fungi are intentionally excluded.",
+    "rootBoundaryAudit": {
+      "selectedItisRoot": {
+        "tsn": "969919",
+        "scientificName": "Cercozoa",
+        "rank": "Division",
+        "usage": "accepted"
+      },
+      "selectedCurrentSpecies": 0,
+      "selectedSpeciesSynonymLinks": 0,
+      "decision": "Use only the exact ITIS Cercozoa division TSN 969919. Do not substitute the older ITIS Fungi/Myxomycota hierarchy, which would create false cross-root coverage and duplicate unrelated taxa."
+    },
+    "itisRoot": {
+      "tsn": "969919",
+      "scientificName": "Cercozoa",
+      "rank": "Division",
+      "usage": "accepted"
+    },
+    "itisCurrentSpecies": 0,
+    "itisSpeciesSynonymLinks": 0,
+    "maximumUpdateDates": {
+      "taxonomicUnits": "2026-08-26",
+      "synonymLinks": "2026-08-26"
+    }
+  },
+  "matchingContract": {
+    "normalization": [
+      "Remove the exact trailing COL authorship field from COL scientificName when that suffix is present; no authorship parser is used.",
+      "Normalize Unicode to NFC, replace underscores with spaces, collapse Unicode whitespace and trim.",
+      "For species-rank comparison, remove one parenthesized subgenus token in the exact Genus (Subgenus) species representation; genus and specific epithet must remain unchanged.",
+      "Preserve case, diacritics, punctuation and all remaining name tokens."
+    ],
+    "statuses": {
+      "accepted": "The normalized COL name resolves to exactly one accepted ITIS Cercozoa species and directly equals that current ITIS name.",
+      "synonym-current-name-redirect": "The normalized COL name equals official ITIS invalid species-name evidence that resolves to exactly one accepted ITIS Cercozoa species.",
+      "ambiguous": "The normalized exact evidence resolves to more than one accepted ITIS Cercozoa species TSN.",
+      "unmatched": "No normalized exact accepted-name or official ITIS species-synonym evidence resolves to an accepted ITIS Cercozoa species."
+    },
+    "prohibited": "No fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered or taxon-substituted matching is used."
+  },
+  "totals": {
+    "total": 52,
+    "accepted": 0,
+    "synonymCurrentNameRedirect": 0,
+    "ambiguous": 0,
+    "unmatched": 52,
+    "itisCurrentSpecies": 0,
+    "itisSpeciesSynonymLinks": 0,
+    "itisUpstreamOnly": 0
+  },
+  "output": {
+    "descriptor": {
+      "path": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-cercozoa-sidecar.json",
+      "bytes": 5748,
+      "sha256": "74b65afc842dd15c815dd262ce337c021ca72a86a19ec4ddaa58169f46d47efd"
+    },
+    "colUsageIdShards": [
+      {
+        "path": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-cercozoa-sidecar-0000.jsonl.gz",
+        "records": 52,
+        "firstColUsageId": "3ZNLP",
+        "lastColUsageId": "7C4VG",
+        "bytes": 1578,
+        "sha256": "534868a06fdae97a81b7bcde1836260c11fbbab8c3889e2037b19afbc92ec7f7",
+        "sourceBytes": 9128,
+        "sourceSha256": "9f389124866483e99c84d4ab0b8c6d25ba9d43bd868d97f6bbf8badf9b5eecf4"
+      }
+    ],
+    "upstreamOnly": {
+      "path": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-cercozoa-upstream-only-0000.jsonl.gz",
+      "records": 0,
+      "firstColUsageId": null,
+      "lastColUsageId": null,
+      "bytes": 21,
+      "sha256": "74420f89d2d2a4256b5b578f1c2a01dd2b605f9aca4905db839d008cfd29cac0",
+      "sourceBytes": 1,
+      "sourceSha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "colOwnership": null,
+      "firstTsn": null,
+      "lastTsn": null
+    }
+  },
+  "deliveryContract": {
+    "pagesLight": "Pages needs only this small descriptor and may omit all row-level JSONL gzip shards.",
+    "androidIosFull": "Android and iOS complete-data inventories must include the descriptor and every listed row-level shard as the same checksum-addressed bytes.",
+    "runtimeChange": "This import deliberately changes no formal runtime or published release manifest."
+  },
+  "generatedBy": {
+    "scriptPath": "scripts/build-itis-cercozoa-sidecar.mjs",
+    "scriptSha256": "0349ae5d8324c8eb9371ea02d7d33a0de758aa3884da641d9d449b8297261005",
+    "deterministic": "Pinned input checksums, fixed roots, exact SQL, exact representation-only normalization, code-unit ID ordering and deterministic gzip; no wall-clock fields or fuzzy matching."
+  }
+}

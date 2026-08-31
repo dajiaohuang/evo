@@ -1,0 +1,234 @@
+{
+  "schemaVersion": 1,
+  "sidecarType": "release-pinned-itis-only-nomenclatural-inventory",
+  "packageId": "protists-chromists",
+  "scope": {
+    "packageRootUsageIds": [
+      "C",
+      "Z"
+    ],
+    "packageRootScientificNames": [
+      "Chromista",
+      "Protozoa"
+    ],
+    "colRootUsageId": null,
+    "colRootScientificName": "Chlorophyta",
+    "colStrictAcceptedSpecies": 0,
+    "packageStrictAcceptedSpecies": 61518,
+    "packageOutOfScopeStrictAcceptedSpecies": 61518,
+    "colRootAudit": "No exact COL26.8 usage node named Chlorophyta exists in the complete pinned hierarchy. No plant-descendant, Viridiplantae, WFO, or individual-name substitute is used.",
+    "itisRoot": {
+      "tsn": "5414",
+      "scientificName": "Chlorophyta",
+      "rank": "Division",
+      "usage": "accepted",
+      "parentTsn": "846493"
+    },
+    "boundary": "This ITIS-only sidecar retains every current accepted species below the exact ITIS Chlorophyta division TSN 5414. ITIS infrakingdom Chlorophyta TSN 846493 is a distinct broader record and is not substituted. The WFO plant crosswalk remains untouched because it is a separate COL plant-wide crosswalk, not a Chlorophyta root.",
+    "partitionOverlapAudit": {
+      "auditedScopes": [
+        {
+          "scope": "Apicomplexa",
+          "root": {
+            "tsn": 553099,
+            "scientificName": "Apicomplexa",
+            "rank": "Phylum",
+            "usage": "valid"
+          },
+          "overlappingItisTsns": 0
+        },
+        {
+          "scope": "Bigyra",
+          "root": {
+            "tsn": 969916,
+            "scientificName": "Bigyra",
+            "rank": "Division",
+            "usage": "accepted"
+          },
+          "overlappingItisTsns": 0
+        },
+        {
+          "scope": "Cercozoa",
+          "root": {
+            "tsn": 969919,
+            "scientificName": "Cercozoa",
+            "rank": "Division",
+            "usage": "accepted"
+          },
+          "overlappingItisTsns": 0
+        },
+        {
+          "scope": "Ciliophora",
+          "root": {
+            "tsn": 46211,
+            "scientificName": "Ciliophora",
+            "rank": "Phylum",
+            "usage": "valid"
+          },
+          "overlappingItisTsns": 0
+        },
+        {
+          "scope": "Dinophyceae",
+          "root": {
+            "tsn": 9874,
+            "scientificName": "Dinophyceae",
+            "rank": "Class",
+            "usage": "accepted"
+          },
+          "overlappingItisTsns": 0
+        },
+        {
+          "scope": "Euglenophycota",
+          "root": {
+            "tsn": 9601,
+            "scientificName": "Euglenophycota",
+            "rank": "Phylum",
+            "usage": "valid"
+          },
+          "overlappingItisTsns": 0
+        },
+        {
+          "scope": "Haptophyta",
+          "root": {
+            "tsn": 2134,
+            "scientificName": "Haptophyta",
+            "rank": "Division",
+            "usage": "accepted"
+          },
+          "overlappingItisTsns": 0
+        },
+        {
+          "scope": "Ochrophyta",
+          "root": {
+            "tsn": 969917,
+            "scientificName": "Ochrophyta",
+            "rank": "Division",
+            "usage": "accepted"
+          },
+          "overlappingItisTsns": 0
+        },
+        {
+          "scope": "Oomycota/Peronosporales",
+          "root": {
+            "tsn": 13911,
+            "scientificName": "Peronosporales",
+            "rank": "Order",
+            "usage": "accepted"
+          },
+          "overlappingItisTsns": 0
+        },
+        {
+          "scope": "Oomycota/Saprolegniales",
+          "root": {
+            "tsn": 13837,
+            "scientificName": "Saprolegniales",
+            "rank": "Order",
+            "usage": "accepted"
+          },
+          "overlappingItisTsns": 0
+        },
+        {
+          "scope": "Radiolaria (legacy exact-name)",
+          "root": {
+            "tsn": 46088,
+            "scientificName": "Radiolaria",
+            "rank": "Order",
+            "usage": "valid"
+          },
+          "overlappingItisTsns": 0
+        },
+        {
+          "scope": "Rhodophyta",
+          "root": {
+            "tsn": 660046,
+            "scientificName": "Rhodophyta",
+            "rank": "Division",
+            "usage": "accepted"
+          },
+          "overlappingItisTsns": 0
+        }
+      ],
+      "overlappingColUsageIds": [],
+      "overlappingItisTsns": []
+    }
+  },
+  "sources": {
+    "col": {
+      "releaseAlias": "COL26.8",
+      "releaseDate": "2026-08-20",
+      "registryManifestPath": "data/catalogue-of-life/releases/2026-08-20/registry/manifest.json",
+      "registryManifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151",
+      "ownershipPath": "data/registry/package-species-coverage.json",
+      "ownershipSha256": "a297bc8a67ce60806fdee733464a79bfcc42e255f7e59535b01f94013c19dfea"
+    },
+    "itis": {
+      "datasetId": "itis-2026-08-26",
+      "exportDate": "2026-08-26",
+      "rootTsn": "5414",
+      "rootNameUsage": "accepted",
+      "sourceLedgerPath": "data/sources/itis-2026-08-26.json",
+      "sourceLedgerSha256": "38a7a55b4e98cafc66790e47f6bd637e298e23fd691e4771c755b38e4a02d7fc",
+      "license": "CC0-1.0",
+      "citationDoi": "10.5066/F7KH0KBK"
+    },
+    "wfoBoundary": {
+      "sourceLedgerPath": "data/sources/wfo-plant-sidecar-import-ledger.json",
+      "sourceLedgerSha256": "080c9e15528492c6d98c4443b9c68dd895a6ee8deb5942c5a4c83a35ca4731d2",
+      "statement": "WFO Plant List 2026-06 is not queried, copied or rematched by this ITIS-only Chlorophyta sidecar."
+    }
+  },
+  "exactMatching": {
+    "normalization": [
+      "Remove the exact trailing COL authorship field from COL scientificName when that suffix is present; no authorship parser is used.",
+      "Normalize Unicode to NFC, replace underscores with spaces, collapse Unicode whitespace and trim.",
+      "For species-rank comparison, remove one parenthesized subgenus token in the exact Genus (Subgenus) species representation; genus and specific epithet must remain unchanged.",
+      "Preserve case, diacritics, punctuation and all remaining name tokens."
+    ],
+    "statuses": {
+      "accepted": "Unavailable: COL26.8 has no exact Chlorophyta root from which to derive a strict accepted-species partition.",
+      "synonym-current-name-redirect": "Unavailable: no exact COL Chlorophyta partition exists.",
+      "ambiguous": "Unavailable: no exact COL Chlorophyta partition exists.",
+      "unmatched": "Unavailable: no exact COL Chlorophyta partition exists."
+    },
+    "prohibited": "No inferred COL scope, WFO replay, fuzzy match, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered or taxon-substituted matching is used."
+  },
+  "evidenceBoundary": {
+    "en": "This CC0 ITIS inventory is a frozen, ITIS-only nomenclatural partition. It is not a global green-algae checklist, a final classification authority, a phylogeny, a species-concept equivalence assertion, a biological dossier or a scientific-review record.",
+    "zh": "此 CC0 ITIS 清单是冻结的、仅限 ITIS 的命名分区；它不是全球绿藻名录、最终分类权威、系统发育、物种概念等同性声明、生物档案或科学审查记录。"
+  },
+  "counts": {
+    "total": 0,
+    "accepted": 0,
+    "synonymCurrentNameRedirect": 0,
+    "ambiguous": 0,
+    "unmatched": 0,
+    "itisCurrentSpecies": 1416,
+    "itisSpeciesSynonymLinks": 0,
+    "itisUpstreamOnly": 1416
+  },
+  "colUsageIdLocator": {
+    "key": "colUsageId",
+    "ordering": "Unicode code-unit ascending",
+    "stableAddressing": "No COL row-level files exist because COL26.8 does not materialize an exact Chlorophyta root.",
+    "files": []
+  },
+  "upstreamOnly": {
+    "colOwnership": null,
+    "stableAddressing": "No COL usage ID is assigned. The complete current ITIS Chlorophyta division species partition is one immutable JSONL gzip shard.",
+    "files": [
+      {
+        "path": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-chlorophyta-upstream-only-0000.jsonl.gz",
+        "records": 1416,
+        "firstColUsageId": null,
+        "lastColUsageId": null,
+        "bytes": 17826,
+        "sha256": "71f5664896eda62595dd907c0799e3a80aa01a41027849f55b1b76e19b25ae65",
+        "sourceBytes": 523226,
+        "sourceSha256": "80864c39139dcc407edf98ed4b2fa7012909aaa4c3af02751c3da7cfd07e6f98",
+        "colOwnership": null,
+        "firstTsn": "5419",
+        "lastTsn": "1237352"
+      }
+    ]
+  }
+}

@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 1,
+  "importType": "COL26.8-to-ITIS-exact-labyrinthulomycetes-zero-root-overlap-audit",
+  "generatedFrom": {
+    "sourcePath": "data/sources/itis-2026-08-26.json",
+    "sourceSha256": "38a7a55b4e98cafc66790e47f6bd637e298e23fd691e4771c755b38e4a02d7fc",
+    "itisDatabaseMember": "itisSqlite082626/ITIS.sqlite",
+    "itisDatabaseSha256": "ea7304536cfd7b1e2636d383911ca7931fc83d9ab1194ca2a3c020ea2daf1719",
+    "colRegistryManifestPath": "itis-ochrophyta-authority/data/catalogue-of-life/releases/2026-08-20/registry/manifest.json",
+    "colRegistryManifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151",
+    "colPackageManifestPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/manifest.json",
+    "colPackageManifestSha256": "50efa51cfac676e26ad1d6a013378da891f5c4f545eb6d454daea93b59684e8a",
+    "colOwnershipPath": "data/registry/package-species-coverage.json",
+    "colOwnershipSha256": "a297bc8a67ce60806fdee733464a79bfcc42e255f7e59535b01f94013c19dfea"
+  },
+  "scopeAudit": {
+    "packageRootUsageIds": [
+      "C",
+      "Z"
+    ],
+    "packageRootScientificNames": [
+      "Chromista",
+      "Protozoa"
+    ],
+    "colRootUsageId": null,
+    "colRootScientificName": "Labyrinthulomycetes",
+    "colStrictAcceptedSpecies": 0,
+    "packageStrictAcceptedSpecies": 61518,
+    "packageOutOfScopeStrictAcceptedSpecies": 61518,
+    "boundary": "No exact COL26.8 Labyrinthulomycetes root exists. Nearby Labyrinthulea is deliberately excluded because it is a Bigyra-descendant scope already covered by the Bigyra authority sidecar; no nearby ITIS lineage is substituted.",
+    "rootBoundaryAudit": {
+      "colExactNameCandidates": [],
+      "colNearbyNameCandidates": [
+        {
+          "id": "DJ",
+          "scientificName": "Labyrinthulea",
+          "rank": "class",
+          "status": "accepted",
+          "parentId": "622CB"
+        }
+      ],
+      "itisExactNameCandidates": [],
+      "itisNearbyNameCandidates": [
+        {
+          "tsn": 46076,
+          "scientific_name": "Labyrinthulea",
+          "rank_name": "Class",
+          "name_usage": "valid",
+          "parent_tsn": 46067
+        }
+      ],
+      "itisNearbyParent": {
+        "tsn": 46067,
+        "scientific_name": "Mycetozoa",
+        "rank_name": "Subphylum",
+        "name_usage": "valid"
+      },
+      "existingPartitionOverlap": {
+        "bigyra": {
+          "colRoot": {
+            "id": "622CB",
+            "scientificName": "Bigyra",
+            "rank": "phylum",
+            "status": "accepted",
+            "parentId": "C"
+          },
+          "relation": "The only nearby COL Labyrinthulea class DJ is directly below Bigyra 622CB, so substituting it would duplicate the existing Bigyra sidecar scope."
+        },
+        "ochrophyta": "No requested or nearby COL candidate is below Ochrophyta root 5H.",
+        "oomycota": "No requested or nearby COL candidate is below Oomycota root 5K; the existing narrowed Oomycota sidecar remains disjoint."
+      },
+      "selectedColRoot": null,
+      "selectedItisRoot": null,
+      "decision": "Neither pinned snapshot contains an exact Labyrinthulomycetes root. The similarly named Labyrinthulea candidates are not substituted: COL DJ is already entirely within Bigyra, while ITIS TSN 46076 sits below Mycetozoa. No row-level crosswalk or ITIS-only partition is asserted."
+    },
+    "maximumUpdateDates": {
+      "taxonomicUnits": "2026-08-26",
+      "synonymLinks": "2026-08-26"
+    }
+  },
+  "matchingContract": {
+    "normalization": [
+      "Remove the exact trailing COL authorship field from COL scientificName when that suffix is present; no authorship parser is used.",
+      "Normalize Unicode to NFC, replace underscores with spaces, collapse Unicode whitespace and trim.",
+      "For species-rank comparison, remove one parenthesized subgenus token in the exact Genus (Subgenus) species representation; genus and specific epithet must remain unchanged.",
+      "Preserve case, diacritics, punctuation and all remaining name tokens."
+    ],
+    "statuses": {
+      "accepted": "Unavailable: no exact COL26.8 Labyrinthulomycetes root exists.",
+      "synonym-current-name-redirect": "Unavailable: no exact COL26.8 Labyrinthulomycetes root exists.",
+      "ambiguous": "Unavailable: no exact COL26.8 Labyrinthulomycetes root exists.",
+      "unmatched": "No Labyrinthulomycetes scope exists to match; nearby taxa are not substituted."
+    },
+    "prohibited": "No fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered, package-wide, overlapping-partition or taxon-substituted matching is used."
+  },
+  "totals": {
+    "total": 0,
+    "accepted": 0,
+    "synonymCurrentNameRedirect": 0,
+    "ambiguous": 0,
+    "unmatched": 0,
+    "itisCurrentSpecies": 0,
+    "itisSpeciesSynonymLinks": 0,
+    "itisUpstreamOnly": 0
+  },
+  "output": {
+    "descriptor": {
+      "path": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-labyrinthulomycetes-sidecar.json",
+      "bytes": 7661,
+      "sha256": "e19c75308c7942a50cd77feef6bb55ec1c1655032d9c30eb636f316032a035d6"
+    },
+    "colUsageIdShards": [
+      {
+        "path": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-labyrinthulomycetes-sidecar-0000.jsonl.gz",
+        "records": 0,
+        "firstColUsageId": null,
+        "lastColUsageId": null,
+        "bytes": 21,
+        "sha256": "74420f89d2d2a4256b5b578f1c2a01dd2b605f9aca4905db839d008cfd29cac0",
+        "sourceBytes": 1,
+        "sourceSha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+      }
+    ],
+    "upstreamOnly": {
+      "path": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-labyrinthulomycetes-upstream-only-0000.jsonl.gz",
+      "records": 0,
+      "firstColUsageId": null,
+      "lastColUsageId": null,
+      "bytes": 21,
+      "sha256": "74420f89d2d2a4256b5b578f1c2a01dd2b605f9aca4905db839d008cfd29cac0",
+      "sourceBytes": 1,
+      "sourceSha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "colOwnership": null,
+      "firstTsn": null,
+      "lastTsn": null
+    }
+  },
+  "deliveryContract": {
+    "pagesLight": "Pages needs only this small descriptor and may omit both empty row-level JSONL gzip shards.",
+    "androidIosFull": "Android and iOS complete-data inventories must include the descriptor and both listed empty checksum-addressed shards.",
+    "runtimeChange": "This import deliberately changes no formal runtime or published release manifest."
+  },
+  "generatedBy": {
+    "scriptPath": "scripts/build-itis-labyrinthulomycetes-sidecar.mjs",
+    "scriptSha256": "53c9eef492a412d0b9d25088d1702963ad8037d05318b9a08828b1210a2c6336",
+    "deterministic": "Pinned input checksums, exact missing-root and existing-partition-overlap audits, representation-only normalization and deterministic gzip; no wall-clock fields or fuzzy matching."
+  }
+}

@@ -1,0 +1,153 @@
+{
+  "schemaVersion": 1,
+  "sidecarType": "release-pinned-exact-nomenclatural-crosswalk",
+  "packageId": "protists-chromists",
+  "scope": {
+    "packageRootUsageIds": [
+      "C",
+      "Z"
+    ],
+    "packageRootScientificNames": [
+      "Chromista",
+      "Protozoa"
+    ],
+    "colRootUsageId": "622CB",
+    "colRootScientificName": "Bigyra",
+    "colStrictAcceptedSpecies": 53,
+    "packageStrictAcceptedSpecies": 61518,
+    "packageOutOfScopeStrictAcceptedSpecies": 61465,
+    "boundary": "This sidecar covers only strict accepted COL26.8 species descending from exact Bigyra root 622CB. Every other Protists and Chromists species is explicitly out of scope."
+  },
+  "rootBoundaryAudit": {
+    "colRoot": {
+      "id": "622CB",
+      "scientificName": "Bigyra",
+      "rank": "phylum",
+      "status": "accepted"
+    },
+    "selectedItisRoot": {
+      "tsn": "969916",
+      "scientificName": "Bigyra",
+      "rank": "Division",
+      "usage": "accepted"
+    },
+    "itisExactNameCandidates": [
+      {
+        "tsn": 969916,
+        "scientific_name": "Bigyra",
+        "rank_name": "Division",
+        "name_usage": "accepted",
+        "parent_tsn": 969914
+      }
+    ],
+    "selectedCurrentSpecies": 0,
+    "selectedSpeciesSynonymLinks": 0,
+    "decision": "Use only exact accepted ITIS Bigyra division TSN 969916 and exact accepted COL Bigyra phylum usage 622CB. The selected ITIS root has no accepted species, so no narrower or broader taxon is substituted and every COL row remains unmatched."
+  },
+  "sources": {
+    "col": {
+      "releaseAlias": "COL26.8",
+      "releaseDate": "2026-08-20",
+      "registryManifestPath": "data/catalogue-of-life/releases/2026-08-20/registry/manifest.json",
+      "registryManifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151",
+      "packageManifestPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/manifest.json",
+      "packageManifestSha256": "d64df29f13c512e930e16d002f847011b5f18bcb6aba920bfcd75d9f6938bba4",
+      "ownershipPath": "data/registry/package-species-coverage.json",
+      "ownershipSha256": "a297bc8a67ce60806fdee733464a79bfcc42e255f7e59535b01f94013c19dfea"
+    },
+    "itis": {
+      "datasetId": "itis-2026-08-26",
+      "exportDate": "2026-08-26",
+      "rootTsn": "969916",
+      "rootNameUsage": "accepted",
+      "rootStatus": "accepted-with-empty-species-partition",
+      "sourceLedgerPath": "data/sources/itis-2026-08-26.json",
+      "sourceLedgerSha256": "38a7a55b4e98cafc66790e47f6bd637e298e23fd691e4771c755b38e4a02d7fc",
+      "license": "CC0-1.0",
+      "citationDoi": "10.5066/F7KH0KBK"
+    }
+  },
+  "exactMatching": {
+    "normalization": [
+      "Remove the exact trailing COL authorship field from COL scientificName when that suffix is present; no authorship parser is used.",
+      "Normalize Unicode to NFC, replace underscores with spaces, collapse Unicode whitespace and trim.",
+      "For species-rank comparison, remove one parenthesized subgenus token in the exact Genus (Subgenus) species representation; genus and specific epithet must remain unchanged.",
+      "Preserve case, diacritics, punctuation and all remaining name tokens."
+    ],
+    "statuses": {
+      "accepted": "Unavailable: the selected exact ITIS Bigyra root has no accepted species from which to derive a current-species partition.",
+      "synonym-current-name-redirect": "Unavailable: the selected exact ITIS Bigyra root has no accepted species and therefore no species-synonym partition.",
+      "ambiguous": "Unavailable: the selected exact ITIS Bigyra root has no accepted species from which to derive candidate ambiguity.",
+      "unmatched": "The exact COL Bigyra name has no candidate in the empty selected ITIS Bigyra accepted-species index."
+    },
+    "prohibited": "No fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered, package-wide or taxon-substituted matching is used."
+  },
+  "evidenceBoundary": {
+    "en": "This CC0 ITIS sidecar is a frozen exact-name audit for the declared COL26.8 Bigyra partition. The selected exact ITIS Bigyra root has no accepted species, so all COL rows remain explicitly unmatched and no ITIS-only rows are asserted. It is not a global bigyran checklist, final classification authority, phylogeny, species-concept equivalence assertion, biological dossier or scientific-review record.",
+    "zh": "此 CC0 ITIS 侧车是 COL26.8 Bigyra 分区的冻结精确名称审计。所选精确 ITIS Bigyra 根节点没有已接受物种，因此所有 COL 行均明确保留为 unmatched，不声明 ITIS-only 行；它不是全球 Bigyra 名录、最终分类权威、系统发育、物种概念等同性声明、生物档案或科学审查记录。"
+  },
+  "counts": {
+    "total": 53,
+    "accepted": 0,
+    "synonymCurrentNameRedirect": 0,
+    "ambiguous": 0,
+    "unmatched": 53,
+    "itisCurrentSpecies": 0,
+    "itisSpeciesSynonymLinks": 0,
+    "itisUpstreamOnly": 0
+  },
+  "colUsageIdLocator": {
+    "key": "colUsageId",
+    "ordering": "Unicode code-unit ascending",
+    "sourceShardLimitBytes": 524288,
+    "stableAddressing": "Binary-search non-overlapping inclusive colUsageId ranges; one detail query loads exactly one immutable JSONL gzip shard.",
+    "files": [
+      {
+        "path": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-bigyra-sidecar-0000.jsonl.gz",
+        "records": 53,
+        "firstColUsageId": "36MJR",
+        "lastColUsageId": "MPV3",
+        "bytes": 1700,
+        "sha256": "c66d834f3faddb233e5154fabefafea595043fc2acdefbb88999f9b14ec8a7f5",
+        "sourceBytes": 10712,
+        "sourceSha256": "46a8367b78e77c7c6caf5d8b40fb6fe93396d6f1b3f728ee95adbd79531884c4"
+      }
+    ]
+  },
+  "upstreamOnly": {
+    "colOwnership": null,
+    "stableAddressing": "The exact ITIS Bigyra root has no accepted species, so the upstream-only partition is an explicit empty immutable JSONL gzip shard.",
+    "files": [
+      {
+        "path": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-bigyra-upstream-only-0000.jsonl.gz",
+        "records": 0,
+        "firstColUsageId": null,
+        "lastColUsageId": null,
+        "bytes": 20,
+        "sha256": "9ceffb7310338057cfe71a4ae1e2c98d2c485d81cdef906532a801f457a38d64",
+        "sourceBytes": 0,
+        "sourceSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "colOwnership": null,
+        "firstTsn": null,
+        "lastTsn": null
+      }
+    ]
+  },
+  "deliveryProfiles": {
+    "web-light": {
+      "payload": "summary-only",
+      "files": [],
+      "records": 0,
+      "totalCompressedBytes": 0
+    },
+    "native-full": {
+      "payload": "complete",
+      "files": [
+        "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-bigyra-sidecar-0000.jsonl.gz",
+        "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-bigyra-upstream-only-0000.jsonl.gz"
+      ],
+      "records": 53,
+      "totalCompressedBytes": 1720
+    }
+  }
+}
