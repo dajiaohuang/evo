@@ -1,0 +1,157 @@
+{
+  "schemaVersion": 1,
+  "importType": "COL26.8-to-ITIS-exact-ctenophora-nomenclatural-sidecar",
+  "generatedFrom": {
+    "sourcePath": "data/sources/itis-2026-08-26.json",
+    "sourceSha256": "38a7a55b4e98cafc66790e47f6bd637e298e23fd691e4771c755b38e4a02d7fc",
+    "itisDatabaseMember": "itisSqlite082626/ITIS.sqlite",
+    "itisDatabaseSha256": "ea7304536cfd7b1e2636d383911ca7931fc83d9ab1194ca2a3c020ea2daf1719",
+    "colRegistryManifestPath": "data/catalogue-of-life/releases/2026-08-20/registry/manifest.json",
+    "colRegistryManifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151",
+    "colOwnershipPath": "data/registry/package-species-coverage.json",
+    "colOwnershipSha256": "a297bc8a67ce60806fdee733464a79bfcc42e255f7e59535b01f94013c19dfea",
+    "resourcePackManifestPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals/manifest.json",
+    "resourcePackManifestSha256": "662d549b01b73fd10ad830f3b9bdf9681ec1e9f9f46dafc4f65457404cba506d"
+  },
+  "scopeAudit": {
+    "colRoots": [
+      {
+        "id": "B8V3L",
+        "scientificName": "Ctenophora"
+      }
+    ],
+    "colStrictAcceptedSpecies": 197,
+    "speciesByColRoot": {
+      "B8V3L": 197
+    },
+    "packageStrictAcceptedSpecies": 99161,
+    "packageOutOfScopeStrictAcceptedSpecies": 98964,
+    "boundary": "Other Animals is the deterministic Animalia remainder after more-specific static-package routes. This sidecar covers only strict accepted COL26.8 species descending from the exact Ctenophora root; every other Other Animals-owned species is explicitly nonapplicable.",
+    "mixedResourcePack": {
+      "packageId": "other-animals",
+      "manifestPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals/manifest.json",
+      "manifestSha256": "662d549b01b73fd10ad830f3b9bdf9681ec1e9f9f46dafc4f65457404cba506d",
+      "acceptedSpeciesCount": 99161,
+      "inScopeSpecies": 197,
+      "outOfScopeSpecies": 98964,
+      "nonApplicableSpecies": 98964,
+      "packageSourceDatasetCounts": {
+        "1081": 20367,
+        "1085": 1364,
+        "1090": 14430,
+        "1099": 4403,
+        "1100": 6,
+        "1104": 19,
+        "1119": 356,
+        "1122": 903,
+        "1123": 4,
+        "1124": 23,
+        "1125": 100,
+        "1126": 5852,
+        "1127": 3015,
+        "1128": 12007,
+        "1132": 132,
+        "1149": 24,
+        "1150": 122,
+        "1153": 362,
+        "1154": 30,
+        "1178": 68,
+        "1180": 197,
+        "1182": 46,
+        "1185": 78,
+        "1186": 3000,
+        "1193": 6508,
+        "2144": 3674,
+        "2302": 19604,
+        "298081": 2467
+      },
+      "scopeSourceDatasetCounts": {
+        "1180": 197
+      },
+      "outOfScopeBoundary": "The remaining 98964 accepted species in Other Animals are outside Ctenophora and receive no match in this sidecar."
+    },
+    "itisRoot": {
+      "tsn": "53856",
+      "scientificName": "Ctenophora",
+      "rank": "Phylum",
+      "usage": "valid"
+    },
+    "itisCurrentSpecies": 65,
+    "itisSpeciesSynonymLinks": 5,
+    "maximumUpdateDates": {
+      "taxonomicUnits": "2026-08-26",
+      "synonymLinks": "2026-08-26"
+    }
+  },
+  "queries": {
+    "currentSpecies": "WITH RECURSIVE descendants(tsn) AS (\n  SELECT ?1\n  UNION ALL\n  SELECT u.tsn FROM taxonomic_units u JOIN descendants d ON u.parent_tsn = d.tsn\n  WHERE u.name_usage = 'valid'\n)\nSELECT u.tsn, l.completename AS scientific_name, u.name_usage, u.credibility_rtng,\n  u.completeness_rtng, u.currency_rating, u.update_date\nFROM descendants d\nJOIN taxonomic_units u ON u.tsn = d.tsn\nJOIN taxon_unit_types r ON r.kingdom_id = u.kingdom_id AND r.rank_id = u.rank_id\nJOIN longnames l ON l.tsn = u.tsn\nWHERE lower(trim(r.rank_name)) = 'species' AND u.name_usage = 'valid'\nORDER BY u.tsn",
+    "speciesSynonyms": "WITH RECURSIVE descendants(tsn) AS (\n  SELECT ?1\n  UNION ALL\n  SELECT u.tsn FROM taxonomic_units u JOIN descendants d ON u.parent_tsn = d.tsn\n  WHERE u.name_usage = 'valid'\n), accepted_species(tsn) AS (\n  SELECT u.tsn FROM descendants d\n  JOIN taxonomic_units u ON u.tsn = d.tsn\n  JOIN taxon_unit_types r ON r.kingdom_id = u.kingdom_id AND r.rank_id = u.rank_id\n  WHERE lower(trim(r.rank_name)) = 'species' AND u.name_usage = 'valid'\n)\nSELECT s.tsn AS synonym_tsn, sl.completename AS synonym_name, su.name_usage AS synonym_usage,\n  su.unaccept_reason, su.update_date AS synonym_update_date, s.tsn_accepted\nFROM synonym_links s\nJOIN accepted_species a ON a.tsn = s.tsn_accepted\nJOIN taxonomic_units su ON su.tsn = s.tsn\nJOIN taxon_unit_types sr ON sr.kingdom_id = su.kingdom_id AND sr.rank_id = su.rank_id\nJOIN longnames sl ON sl.tsn = su.tsn\nWHERE lower(trim(sr.rank_name)) = 'species'\nORDER BY s.tsn, s.tsn_accepted"
+  },
+  "matchingContract": {
+    "normalization": [
+      "Remove the exact trailing COL authorship field from COL scientificName when that suffix is present; no authorship parser is used.",
+      "Normalize Unicode to NFC, replace underscores with spaces, collapse Unicode whitespace and trim.",
+      "For species-rank comparison, remove one parenthesized subgenus token in the exact Genus (Subgenus) species representation; genus and specific epithet must remain unchanged.",
+      "Preserve case, diacritics, punctuation and all remaining name tokens."
+    ],
+    "statuses": {
+      "accepted": "The normalized COL name resolves to exactly one valid ITIS Ctenophora species and directly equals that current ITIS name.",
+      "synonym-current-name-redirect": "The normalized COL name equals official ITIS invalid species-name evidence that resolves to exactly one valid ITIS Ctenophora species.",
+      "ambiguous": "The normalized exact evidence resolves to more than one valid ITIS Ctenophora species TSN.",
+      "unmatched": "No normalized exact valid-name or official ITIS species-synonym evidence resolves to a valid ITIS Ctenophora species."
+    },
+    "prohibited": "No fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered or taxon-substituted matching is used."
+  },
+  "totals": {
+    "total": 197,
+    "accepted": 58,
+    "synonymCurrentNameRedirect": 0,
+    "ambiguous": 0,
+    "unmatched": 139,
+    "itisCurrentSpecies": 65,
+    "itisSpeciesSynonymLinks": 5,
+    "itisUpstreamOnly": 7
+  },
+  "output": {
+    "descriptor": {
+      "path": "data/packages/other-animals/nomenclature/itis-ctenophora-sidecar.json",
+      "bytes": 6429,
+      "sha256": "c8cd41d9efe78ed34ca2c5590ec34a616b334a598ab455a648882f994ca45ff0"
+    },
+    "colUsageIdShards": [
+      {
+        "path": "data/packages/other-animals/nomenclature/itis-ctenophora-sidecar-0000.jsonl.gz",
+        "records": 197,
+        "firstColUsageId": "326LZ",
+        "lastColUsageId": "ZWSP",
+        "bytes": 6416,
+        "sha256": "081ab9369291695b02872aab61226576f40a50cb8151c3088c916148d0c21798",
+        "sourceBytes": 60116,
+        "sourceSha256": "68a16b4fe7e3e954941b109b7b206a5d9dcf6c3c13ab3af38ebed2ebba0f7a54"
+      }
+    ],
+    "upstreamOnly": {
+      "path": "data/packages/other-animals/nomenclature/itis-ctenophora-upstream-only-0000.jsonl.gz",
+      "records": 7,
+      "firstColUsageId": null,
+      "lastColUsageId": null,
+      "bytes": 422,
+      "sha256": "46601808c236ae97f8081272f93569c67542edaa1c02feab375f4ab59b216952",
+      "sourceBytes": 2520,
+      "sourceSha256": "aa9955335bc63f33674990ec7a3bd4af8604fc0734d8f00d21c37f1ac1d3be0e",
+      "colOwnership": null,
+      "firstTsn": "53864",
+      "lastTsn": "659786"
+    }
+  },
+  "deliveryContract": {
+    "pagesLight": "Pages may include only the descriptor and canonical file hashes; row-level JSONL gzip shards are omitted.",
+    "androidIosFull": "Android and iOS complete-data inventories must include this descriptor and every listed row-level shard byte-for-byte.",
+    "runtimeChange": "Data-only import; no runtime, version or release manifest changes."
+  },
+  "generatedBy": {
+    "scriptPath": "scripts/build-itis-ctenophora-sidecar.mjs",
+    "scriptSha256": "0a5f945065cf20b49684abd9f9599a8e946bbf78a8bb2b50b0508549b8dbae13",
+    "deterministic": "Pinned input checksums, fixed COL and ITIS roots, exact SQL, exact representation-only normalization, Unicode code-unit ID ordering and deterministic gzip; no wall-clock fields or fuzzy matching."
+  }
+}
