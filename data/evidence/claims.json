@@ -3921,7 +3921,7 @@
         "relation": "supports",
         "pages": "99–104",
         "figure": "Figures 1–4; Extended Data Figures 1–10",
-        "quoteLocator": "pp. 99–104, Figs. 1–4 and Extended Data Figs. 1–10; Description, Computed tomography, Phylogenetic analysis and Discussion"
+        "quoteLocator": "pp. 99–104, Figs. 1–4 and Extended Data Figs. 1–10; NMS G.2022.1.1 from the Middle Jurassic Kilmaluag Formation, Skye (Extended Data Fig. 1), with Kirtlington elements treated as separate referred comparison material in Extended Data Fig. 4; Description, Computed tomography, Phylogenetic analysis and Discussion"
       }
     ]
   },
@@ -23469,6 +23469,34 @@
     ]
   },
   {
+    "id": "claim:taxon:testudines:taxonomy",
+    "subjectId": "taxon:testudines",
+    "claimType": "taxonomy",
+    "claimKind": "scientific",
+    "statement": "Li et al. place Odontochelys basal to the known fossil and living turtles in their analysis, while the broader Mesozoic turtle matrix of Joyce samples 45 fossil and 22 living species; this profile retains Testudines as a navigation route rather than a single resolved stem-to-crown topology.",
+    "confidence": "medium",
+    "confidenceRationale": "Both primary studies state their sampled taxon matrices and topology results. Medium confidence keeps the profile's route distinction separate from a universal turtle phylogeny or an ancestor claim.",
+    "reviewedBy": "Evo Atlas maintainer primary-source audit",
+    "reviewedAt": "2026-09-01",
+    "reviewedAgainstReferenceVersion": "Li et al. 2008 DOI 10.1038/nature07533; Joyce 2007 DOI 10.3374/0079-032X(2007)48[3:PROMT]2.0.CO;2",
+    "referenceLinks": [
+      {
+        "referenceId": "li-2008-odontochelys",
+        "relation": "supports",
+        "pages": "497–501",
+        "figure": "Figures 1–4",
+        "quoteLocator": "Phylogenetic analysis; statement that the new species is basal to all known turtles"
+      },
+      {
+        "referenceId": "joyce-2007-mesozoic-turtle-phylogeny",
+        "relation": "supports",
+        "pages": "3–102",
+        "figure": "Figures 1–3; Appendices 1–3",
+        "quoteLocator": "Taxon sampling and Mesozoic turtle phylogenetic analysis"
+      }
+    ]
+  },
+  {
     "id": "claim:taxon:pseudopholidoctenus-germanicus:biogeography",
     "subjectId": "taxon:pseudopholidoctenus-germanicus",
     "claimType": "biogeography",
@@ -23486,6 +23514,34 @@
         "pages": "29–30, 32",
         "figure": "Scheme 1; Figure 2",
         "quoteLocator": "Geological site; stratigraphy; provenience"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:testudines:biogeography",
+    "subjectId": "taxon:testudines",
+    "claimType": "biogeography",
+    "claimKind": "scientific",
+    "statement": "The documented turtle-line samples include Odontochelys from Late Triassic marine deposits in southwestern China and Pappochelys from the Middle Triassic Vellberg deposits of Germany; these named localities do not establish a global Testudines distribution.",
+    "confidence": "high",
+    "confidenceRationale": "The primary papers identify the specimens, locality and stratigraphic context directly. High confidence is restricted to those study samples and does not infer unsampled range or absence.",
+    "reviewedBy": "Evo Atlas maintainer primary-source audit",
+    "reviewedAt": "2026-09-01",
+    "reviewedAgainstReferenceVersion": "Li et al. 2008 DOI 10.1038/nature07533; Schoch and Sues 2015 DOI 10.1038/nature14472",
+    "referenceLinks": [
+      {
+        "referenceId": "li-2008-odontochelys",
+        "relation": "supports",
+        "pages": "497–501",
+        "figure": "Figure 1; systematic palaeontology",
+        "quoteLocator": "Specimen and horizon; southwestern China Late Triassic marine deposits"
+      },
+      {
+        "referenceId": "schoch-sues-2015-pappochelys",
+        "relation": "supports",
+        "pages": "584–587",
+        "figure": "Figure 1; Extended Data Figures 1–3",
+        "quoteLocator": "Middle Triassic Vellberg locality and specimen description"
       }
     ]
   },
@@ -23532,6 +23588,34 @@
     ]
   },
   {
+    "id": "claim:taxon:testudines:morphology",
+    "subjectId": "taxon:testudines",
+    "claimType": "morphology",
+    "claimKind": "scientific",
+    "statement": "The cited turtle-line sample records complementary shell mosaics: Odontochelys has a developed plastron, expanded ribs and neural plates without a complete carapace, whereas Pappochelys has broadened ribs and robust paired gastralia without a fused plastron or complete carapace.",
+    "confidence": "medium",
+    "confidenceRationale": "Named specimens and figures directly document the anatomical elements, but comparative homology and sequence are interpretations across samples rather than direct ancestor–descendant observations.",
+    "reviewedBy": "Evo Atlas maintainer primary-source audit",
+    "reviewedAt": "2026-09-01",
+    "reviewedAgainstReferenceVersion": "Li et al. 2008 DOI 10.1038/nature07533; Schoch and Sues 2015 DOI 10.1038/nature14472",
+    "referenceLinks": [
+      {
+        "referenceId": "li-2008-odontochelys",
+        "relation": "supports",
+        "pages": "497–501",
+        "figure": "Figures 1–4",
+        "quoteLocator": "Description of the plastron, neural plates, broadened ribs and incomplete carapace"
+      },
+      {
+        "referenceId": "schoch-sues-2015-pappochelys",
+        "relation": "supports",
+        "pages": "584–587",
+        "figure": "Figures 1–5; Extended Data Figures 1–6",
+        "quoteLocator": "Description of broadened ribs, paired gastralia and shell-body-plan comparison"
+      }
+    ]
+  },
+  {
     "id": "claim:taxon:pseudopholidoctenus-germanicus:fossil-range",
     "subjectId": "taxon:pseudopholidoctenus-germanicus",
     "claimType": "fossil-range",
@@ -23549,6 +23633,34 @@
         "pages": "30, 35, 50–51",
         "figure": "Scheme 1; Figures 2–6",
         "quoteLocator": "Stratigraphy; type material and age; age and oldest teleosteomorphs"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:testudines:ecology",
+    "subjectId": "taxon:testudines",
+    "claimType": "ecology",
+    "claimKind": "scientific",
+    "statement": "Li et al. interpret the marine deposits yielding Odontochelys as marginal sea or river-delta settings, while the cited Pappochelys shell study addresses anatomy and shell evolution; these observations do not establish diet, body size or a single ecological guild for Testudines.",
+    "confidence": "medium",
+    "confidenceRationale": "Depositional context is reported directly, but ecological interpretation is specimen- and study-specific. The profile explicitly withholds taxon-wide diet, locomotion, size and guild claims.",
+    "reviewedBy": "Evo Atlas maintainer primary-source audit",
+    "reviewedAt": "2026-09-01",
+    "reviewedAgainstReferenceVersion": "Li et al. 2008 DOI 10.1038/nature07533; Schoch and Sues 2015 DOI 10.1038/nature14472",
+    "referenceLinks": [
+      {
+        "referenceId": "li-2008-odontochelys",
+        "relation": "supports",
+        "pages": "497–501",
+        "figure": "Figure 1; Discussion",
+        "quoteLocator": "Marine deposits and marginal sea or river-delta habitat interpretation"
+      },
+      {
+        "referenceId": "schoch-sues-2015-pappochelys",
+        "relation": "contextualizes",
+        "pages": "584–587",
+        "figure": "Figure 5",
+        "quoteLocator": "Shell evolution discussion; specimen and body-plan limits"
       }
     ]
   },
@@ -23574,6 +23686,41 @@
     ]
   },
   {
+    "id": "claim:taxon:lepidosauria:taxonomy",
+    "subjectId": "taxon:lepidosauria",
+    "claimType": "taxonomy",
+    "claimKind": "scientific",
+    "statement": "The cited analyses place Megachirella on the squamate stem, Taytalura as an early-diverging stem lepidosauromorph, and Bellairsia on the squamate stem; these placements are sampled analytical results and do not resolve every lepidosaur relationship.",
+    "confidence": "medium",
+    "confidenceRationale": "Each primary study reports an explicit matrix-based placement supported by imaged anatomy. Medium confidence preserves sensitivity to character scoring, taxon sampling and model constraints.",
+    "reviewedBy": "Evo Atlas maintainer primary-source audit",
+    "reviewedAt": "2026-09-01",
+    "reviewedAgainstReferenceVersion": "Simões et al. 2018 DOI 10.1038/s41586-018-0093-3; Martínez et al. 2021 DOI 10.1038/s41586-021-03834-3; Tałanda et al. 2022 DOI 10.1038/s41586-022-05332-6",
+    "referenceLinks": [
+      {
+        "referenceId": "simoes-2018-megachirella",
+        "relation": "supports",
+        "pages": "706–709",
+        "figure": "Figures 1–2; Extended Data Figures 1–8",
+        "quoteLocator": "Combined-evidence analyses and stem-squamate placement"
+      },
+      {
+        "referenceId": "martinez-2021-taytalura",
+        "relation": "supports",
+        "pages": "235–238",
+        "figure": "Figures 1–2; Extended Data Figures 1–10",
+        "quoteLocator": "Phylogenetic analyses and early-diverging stem lepidosauromorph placement"
+      },
+      {
+        "referenceId": "talanda-2022-bellairsia",
+        "relation": "supports",
+        "pages": "99–104",
+        "figure": "Figures 1–4; Extended Data Figures 1–8",
+        "quoteLocator": "Synchrotron anatomy and Bayesian stem-squamate analyses"
+      }
+    ]
+  },
+  {
     "id": "claim:taxon:barschichthys-ruedersdorfensis:biogeography",
     "subjectId": "taxon:barschichthys-ruedersdorfensis",
     "claimType": "biogeography",
@@ -23591,6 +23738,41 @@
         "pages": "29–30, 39",
         "figure": "Scheme 1; Figures 7–10",
         "quoteLocator": "Geological site; stratigraphy; provenience"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:lepidosauria:biogeography",
+    "subjectId": "taxon:lepidosauria",
+    "claimType": "biogeography",
+    "claimKind": "scientific",
+    "statement": "The profile's named lepidosaur samples come from the Middle Triassic Italian Alps (Megachirella), Late Triassic Ischigualasto Formation of Argentina (Taytalura), and the Middle Jurassic Kilmaluag Formation of Skye, Scotland (Bellairsia specimen NMS G.2022.1.1); these occurrences do not establish a global lepidosaur distribution.",
+    "confidence": "high",
+    "confidenceRationale": "Locality and geological context are stated in the respective primary studies. High confidence is limited to the named specimens and formations, with no inference about unsampled areas.",
+    "reviewedBy": "Evo Atlas maintainer primary-source audit",
+    "reviewedAt": "2026-09-01",
+    "reviewedAgainstReferenceVersion": "Simões et al. 2018 DOI 10.1038/s41586-018-0093-3; Martínez et al. 2021 DOI 10.1038/s41586-021-03834-3; Tałanda et al. 2022 DOI 10.1038/s41586-022-05332-6",
+    "referenceLinks": [
+      {
+        "referenceId": "simoes-2018-megachirella",
+        "relation": "supports",
+        "pages": "706–709",
+        "figure": "Figure 1; geological context",
+        "quoteLocator": "Italian Alps specimen PZO 628 and Middle Triassic horizon"
+      },
+      {
+        "referenceId": "martinez-2021-taytalura",
+        "relation": "supports",
+        "pages": "235–238",
+        "figure": "Figure 1; Extended Data Figure 1",
+        "quoteLocator": "Ischigualasto Formation, Argentina; holotype PVSJ 698"
+      },
+      {
+        "referenceId": "talanda-2022-bellairsia",
+        "relation": "supports",
+        "pages": "99–104",
+        "figure": "Figure 1; Extended Data Figures 1–2",
+        "quoteLocator": "Kilmaluag Formation, Skye, Scotland; NMS G.2022.1.1 (Extended Data Fig. 1). Kirtlington elements are separate fragmentary referred comparison material in Extended Data Fig. 4."
       }
     ]
   },
@@ -23637,6 +23819,41 @@
     ]
   },
   {
+    "id": "claim:taxon:lepidosauria:morphology",
+    "subjectId": "taxon:lepidosauria",
+    "claimType": "morphology",
+    "claimKind": "scientific",
+    "statement": "High-resolution imaging exposes complementary early lepidosaur anatomy: Megachirella contributes cranial, wrist and shoulder characters, Taytalura preserves a three-dimensionally exposed CT-resolved skull, and Bellairsia provides synchrotron-resolved stem-lizard anatomy.",
+    "confidence": "medium",
+    "confidenceRationale": "The specimens and imaging observations are directly reported, while comparative character scoring and their evolutionary interpretation depend on each study's matrix and reconstruction.",
+    "reviewedBy": "Evo Atlas maintainer primary-source audit",
+    "reviewedAt": "2026-09-01",
+    "reviewedAgainstReferenceVersion": "Simões et al. 2018 DOI 10.1038/s41586-018-0093-3; Martínez et al. 2021 DOI 10.1038/s41586-021-03834-3; Tałanda et al. 2022 DOI 10.1038/s41586-022-05332-6",
+    "referenceLinks": [
+      {
+        "referenceId": "simoes-2018-megachirella",
+        "relation": "supports",
+        "pages": "706–709",
+        "figure": "Figures 1–2; Extended Data Figures 1–8",
+        "quoteLocator": "CT anatomy of the skull, wrist and shoulder"
+      },
+      {
+        "referenceId": "martinez-2021-taytalura",
+        "relation": "supports",
+        "pages": "235–238",
+        "figure": "Figures 1–2; Extended Data Figures 2–7",
+        "quoteLocator": "Three-dimensional skull preservation and CT anatomy"
+      },
+      {
+        "referenceId": "talanda-2022-bellairsia",
+        "relation": "supports",
+        "pages": "99–104",
+        "figure": "Figures 1–4; Extended Data Figures 1–8",
+        "quoteLocator": "ESRF ID19 synchrotron tomography and stem-lizard anatomical description"
+      }
+    ]
+  },
+  {
     "id": "claim:taxon:barschichthys-ruedersdorfensis:fossil-range",
     "subjectId": "taxon:barschichthys-ruedersdorfensis",
     "claimType": "fossil-range",
@@ -23654,6 +23871,41 @@
         "pages": "30, 39, 50–51",
         "figure": "Scheme 1; Figures 7–10",
         "quoteLocator": "Stratigraphy; type material and age; age and oldest teleosteomorphs"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:lepidosauria:ecology",
+    "subjectId": "taxon:lepidosauria",
+    "claimType": "ecology",
+    "claimKind": "scientific",
+    "statement": "The cited Megachirella, Taytalura and Bellairsia studies provide locality, anatomy and phylogenetic analyses but do not establish a single Lepidosauria diet, habitat, locomotor mode, body-size distribution or ecological guild; those fields remain explicitly unassigned here.",
+    "confidence": "medium",
+    "confidenceRationale": "The primary evidence is anatomical and analytical, not direct observation of extinct behaviour. The profile separates specimen context from unsupported taxon-wide ecological inference.",
+    "reviewedBy": "Evo Atlas maintainer primary-source audit",
+    "reviewedAt": "2026-09-01",
+    "reviewedAgainstReferenceVersion": "Simões et al. 2018 DOI 10.1038/s41586-018-0093-3; Martínez et al. 2021 DOI 10.1038/s41586-021-03834-3; Tałanda et al. 2022 DOI 10.1038/s41586-022-05332-6",
+    "referenceLinks": [
+      {
+        "referenceId": "simoes-2018-megachirella",
+        "relation": "supports",
+        "pages": "706–709",
+        "figure": "Figures 1–2; Extended Data Figures 1–8",
+        "quoteLocator": "CT anatomy and combined-evidence analysis; no taxon-wide ecology result"
+      },
+      {
+        "referenceId": "martinez-2021-taytalura",
+        "relation": "contextualizes",
+        "pages": "235–238",
+        "figure": "Figures 1–2; Extended Data Figures 1–10",
+        "quoteLocator": "Skull description and phylogenetic analyses"
+      },
+      {
+        "referenceId": "talanda-2022-bellairsia",
+        "relation": "contextualizes",
+        "pages": "99–104",
+        "figure": "Figures 1–4; Extended Data Figures 1–8",
+        "quoteLocator": "Synchrotron anatomy and stem-squamate analyses"
       }
     ]
   },
@@ -23700,6 +23952,34 @@
     ]
   },
   {
+    "id": "claim:taxon:mosasauroidea:biogeography",
+    "subjectId": "taxon:mosasauroidea",
+    "claimType": "biogeography",
+    "claimKind": "scientific",
+    "statement": "The profile's named mosasauroid samples include Dallasaurus turneri from the middle Turonian Arcadia Park Shale of north-central Texas and a latest Maastrichtian Mosasaurus occurrence from the Maastricht type area of the Netherlands; these records do not establish a global Mosasauroidea distribution.",
+    "confidence": "high",
+    "confidenceRationale": "The primary studies identify the specimens and geological contexts directly. High confidence is limited to those occurrences and does not infer absence or a complete geographic range.",
+    "reviewedBy": "Evo Atlas maintainer primary-source audit",
+    "reviewedAt": "2026-09-01",
+    "reviewedAgainstReferenceVersion": "Bell and Polcyn 2005 DOI 10.1017/S0016774600020965; Jagt et al. 2008 Fort Hays Studies Special Issue 3",
+    "referenceLinks": [
+      {
+        "referenceId": "bell-polcyn-2005-dallasaurus",
+        "relation": "supports",
+        "pages": "177–178",
+        "figure": "Figures 1–2",
+        "quoteLocator": "Age and geological context; two Dallasaurus skeletons from the middle Turonian Arcadia Park Shale"
+      },
+      {
+        "referenceId": "jagt-et-al-2008-youngest-mosasaurus",
+        "relation": "supports",
+        "pages": "73–77",
+        "figure": "Figures 1–2",
+        "quoteLocator": "NHMM 2007 093 from the highest metre of the Meerssen Member, within one metre below the regional K/Pg boundary"
+      }
+    ]
+  },
+  {
     "id": "claim:taxon:ruedersdorfia-berlinensis:ecology",
     "subjectId": "taxon:ruedersdorfia-berlinensis",
     "claimType": "ecology",
@@ -23742,6 +24022,34 @@
     ]
   },
   {
+    "id": "claim:taxon:mosasauroidea:morphology",
+    "subjectId": "taxon:mosasauroidea",
+    "claimType": "morphology",
+    "claimKind": "scientific",
+    "statement": "Dallasaurus preserves cranial, axial and plesiopedal limb anatomy in two incomplete skeletons, while the cited nomenclatural analysis distinguishes the broader Mosasauroidea branch from node-defined Mosasauridae; limb grade is not treated as the clade definition.",
+    "confidence": "high",
+    "confidenceRationale": "The named specimens, anatomical description and explicit clade definitions are directly reported. High confidence applies to this scoped anatomy-and-definition distinction, not to one universal basal topology.",
+    "reviewedBy": "Evo Atlas maintainer primary-source audit",
+    "reviewedAt": "2026-09-01",
+    "reviewedAgainstReferenceVersion": "Bell and Polcyn 2005 DOI 10.1017/S0016774600020965; Madzia and Cau 2017 DOI 10.7717/peerj.3782",
+    "referenceLinks": [
+      {
+        "referenceId": "bell-polcyn-2005-dallasaurus",
+        "relation": "supports",
+        "pages": "177–194",
+        "figure": "Figures 5–13",
+        "quoteLocator": "Systematic paleontology; pectoral and pelvic girdles; plesiopedal limb description; phylogenetic analysis"
+      },
+      {
+        "referenceId": "madzia-cau-2017-mosasauroid-nomenclature",
+        "relation": "supports",
+        "pages": "Article e3782",
+        "figure": "Table 1; Figures 1–7",
+        "quoteLocator": "Phylogenetic definitions and sensitivity analyses"
+      }
+    ]
+  },
+  {
     "id": "claim:taxon:ruedersdorfia-berlinensis:fossil-range",
     "subjectId": "taxon:ruedersdorfia-berlinensis",
     "claimType": "fossil-range",
@@ -23759,6 +24067,34 @@
         "pages": "30, 45, 50–51",
         "figure": "Scheme 1; Figure 11",
         "quoteLocator": "Stratigraphy; type material and age; age and oldest teleosteomorphs"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:mosasauroidea:ecology",
+    "subjectId": "taxon:mosasauroidea",
+    "claimType": "ecology",
+    "claimKind": "scientific",
+    "statement": "Schulp et al. report tooth-enamel carbon-isotope, body-size and resource-partitioning results for five named mosasaurs in one type-Maastrichtian fauna; the study-bounded marine sample does not establish a single diet, body-size distribution or guild for all Mosasauroidea.",
+    "confidence": "medium",
+    "confidenceRationale": "The isotope and size measurements are direct sample data, while resource partitioning and ecological grouping are interpretations limited to five taxa in one fauna. No global ecological extrapolation is made.",
+    "reviewedBy": "Evo Atlas maintainer primary-source audit",
+    "reviewedAt": "2026-09-01",
+    "reviewedAgainstReferenceVersion": "Schulp et al. 2013 DOI 10.1017/S001677460000010X; Bell and Polcyn 2005 DOI 10.1017/S0016774600020965",
+    "referenceLinks": [
+      {
+        "referenceId": "schulp-et-al-2013-mosasaur-resource-partitioning",
+        "relation": "supports",
+        "pages": "165–169",
+        "figure": "Figure 1",
+        "quoteLocator": "Tooth-enamel carbon isotopes, reconstructed body sizes and resource-partitioning interpretation for five named taxa"
+      },
+      {
+        "referenceId": "bell-polcyn-2005-dallasaurus",
+        "relation": "contextualizes",
+        "pages": "177–194",
+        "figure": "Figures 5–13",
+        "quoteLocator": "Dallasaurus sampled anatomy and limb-grade context"
       }
     ]
   }
