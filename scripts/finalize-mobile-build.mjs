@@ -115,6 +115,11 @@ const expectedRichItisCollections = {
       descriptorSha256: '7eeea9a62f0a51150f643c6f14d02511f8ab042b8264e64bbb0ec505520a5ac8',
       arthropod: true,
     },
+    'itis-collembola-protura-tsn-crosswalk': {
+      files: 2, upstreamFiles: 1, records: 9668, upstreamRecords: 411,
+      descriptorSha256: 'bf90e217fa6871bb1e59807b721ed88403c47e9aa2712a782ef40146b906fdf2',
+      arthropod: true,
+    },
   },
   'trilobites-chelicerates': {
     'itis-chelicerata-tsn-crosswalk': {
@@ -269,8 +274,8 @@ for (const [packageId, expectedCollections] of Object.entries(expectedRichItisCo
     }
   }
 }
-if (arthropodItisFiles !== 161 || arthropodItisRecords !== 1178341) {
-  throw new Error(`Mobile build must stage 161 arthropod ITIS files and 1178341 records; found ${arthropodItisFiles} files and ${arthropodItisRecords} records`)
+if (arthropodItisFiles !== 164 || arthropodItisRecords !== 1188420) {
+  throw new Error(`Mobile build must stage 164 arthropod ITIS files and 1188420 records; found ${arthropodItisFiles} files and ${arthropodItisRecords} records`)
 }
 if (reptiliaItisFiles !== 10 || reptiliaItisRecords !== 13277) {
   throw new Error(`Mobile build must stage 10 non-Crocodylia Reptilia ITIS files and 13277 records; found ${reptiliaItisFiles} files and ${reptiliaItisRecords} records`)
@@ -288,6 +293,16 @@ if (mammalOriginsManifest.nomenclatureCollections) {
   throw new Error('mammal-origins must not publish an ITIS nomenclature collection')
 }
 const catalogueManifest = JSON.parse(readFileSync(join(sourceDataRoot, ...current.catalogue.manifest.url.split('/')), 'utf8'))
+const fungiDescriptor = catalogueManifest.resourcePacks?.manifests?.fungi
+if (!fungiDescriptor?.url) throw new Error('Mobile build is missing the Fungi resource-pack manifest')
+const fungiManifest = JSON.parse(readFileSync(join(sourceDataRoot, ...fungiDescriptor.url.split('/')), 'utf8'))
+const fungiItis = fungiManifest.extensions?.find((extension) => extension.id === 'itis-fungi-tsn-crosswalk')
+if (!fungiItis || fungiItis.provider !== 'Integrated Taxonomic Information System' || fungiItis.source?.rootTsn !== '555705'
+  || fungiItis.delivery?.profile !== 'native-full' || fungiItis.delivery?.completeRows !== true
+  || fungiItis.files?.length !== 57 || fungiItis.delivery?.publishedFileCount !== 57 || fungiItis.delivery?.canonicalFileCount !== 57
+  || fungiItis.files.reduce((sum, file) => sum + file.records, 0) !== 158805) {
+  throw new Error('Mobile build must stage the complete independent ITIS Fungi authority collection')
+}
 const otherAnimalsDescriptor = catalogueManifest.resourcePacks?.manifests?.['other-animals']
 if (!otherAnimalsDescriptor?.url) throw new Error('Mobile build is missing the other-animals resource-pack manifest')
 const otherAnimalsManifest = JSON.parse(readFileSync(join(sourceDataRoot, ...otherAnimalsDescriptor.url.split('/')), 'utf8'))

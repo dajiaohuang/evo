@@ -13,7 +13,11 @@ Evo Atlas 不是一个把生成文本包装成“完整百科”的项目。它�
 - 名录覆盖：固定到 Catalogue of Life Base Release `COL26.8`。2,183,133 个严格接受种全部能沿真实父子链路由到唯一资源归属，另有 2,065,436 个异名、歧义异名和误用名可解析到接受名。24 个富内容包直接拥有 1,819,973 种；余下 363,160 种现由 7 个可下载、可离线读取并同时内置于 Android/iOS 的静态命名资源包拥有。第 32 个 `other-eukaryotes` 分区在本固定发布版中为零记录边界，不伪造空内容。
 - 内容覆盖：24 个静态资源包中的证据档案、事件、故事、范围和参考文献。当前已无 `generated-scaffold` 或 `structured`：23 个包为 `source-linked`，奇蹄目为唯一的 `curated-draft`；23 个包尚未人工审阅，奇蹄目的存储状态为 `in-review`，但内容摘要变化使有效状态成为 `stale`，没有包声称达到科学 `published`。平台 `published` 与自动检查通过只表示静态发布链完整，不等于内容或专家审阅已经完成。
 
-当前开发数据快照为 `2026.08-static-v5-rc75`，Web/Android/iOS 客户端版本为 `0.20.26`，Android/iOS build 为 `29`。精确记录数、校验和限制以 [`data/manifest.json`](data/manifest.json) 为准；科学内容变更见 [`data/CHANGELOG.md`](data/CHANGELOG.md)。
+当前开发数据快照为 `2026.08-static-v5-rc76`，Web/Android/iOS 客户端版本为 `0.20.27`，Android/iOS build 为 `30`。精确记录数、校验和限制以 [`data/manifest.json`](data/manifest.json) 为准；科学内容变更见 [`data/CHANGELOG.md`](data/CHANGELOG.md)。
+
+`rc76` 为 Fungi 增加与 Species Fungorum / Index Fungorum 完全独立的 ITIS CC0 全范围侧车，并闭合节肢动物中最后一个无重叠的 Collembola + Protura 精确根边界。157,044 条 Fungi COL 结果与 1,761 条 ITIS-only 当前种、9,668 条 Collembola/Protura COL 结果与 411 条 ITIS-only 当前种，合计 168,884 条新增原生记录和 60 个非空行分片。Android/iOS build `30` 逐字节内置全部分片；Pages 继续只发来源、范围、统计与 canonical 哈希。古地形审计同时确认两端已保留 PaleoDEM v2 的全部 109 帧 0.1° 原生网格；0.05° HydroShare 模型因 CC BY-NC-SA、11.23 GB 体积、非规则年龄与缺少上游校验和而只进入 [#167](https://github.com/dajiaohuang/evo/issues/167) 的候选研究层，不冒充可分发的原生权威地形。
+
+Release `2026.08-static-v5-rc76` / app `0.20.27` adds independent exact ITIS collections for all 157,044 COL26.8 Fungi species and the disjoint Collembola plus Protura roots. Android and iOS build `30` bundle all 168,884 new native rows across 60 shards; Pages remains summary-and-hash only. The terrain audit confirms that both apps already retain all 109 lossless 0.1° PaleoDEM frames and records the licensed 0.05° model as a blocked, separately labelled research-layer candidate rather than overstating its status.
 
 `rc75` 闭合三处能够由固定 ITIS 根严格证明的富内容包缺口，并为 Bacteria 增加与 LPSN 完全独立的 ITIS CC0 集合。Graptolithina 补入 7 个现生 Rhabdopleura 接受名；Dicyemida 补入 `Kantharella antarctica`，但 Microcyema/Conocyema 继续作为更宽根排除；Oomycota 增加 Leptomitales 与 Hyphochytriales 两个精确目根，不虚构 ITIS Oomycota 门根。Bacteria 的 4,827 条非 LPSN COL 范围行保留 4,824 个精确接受名、2 个歧义、1 个未匹配，并独立保留 9,348 个 ITIS-only 当前种。Android/iOS build `29` 内置全部新增行分片；Pages 只发布描述符、统计与 canonical 哈希。见 [`docs/itis-bacteria-sidecar.md`](docs/itis-bacteria-sidecar.md) 及相应权威边界文档。
 

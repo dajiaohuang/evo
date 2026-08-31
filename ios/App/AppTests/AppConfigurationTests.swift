@@ -163,17 +163,18 @@ final class AppConfigurationTests: XCTestCase {
             } else if packageId == "crustaceans-insects" || packageId == "trilobites-chelicerates" {
                 let collections = try XCTUnwrap(package["nomenclatureCollections"] as? [[String: Any]])
                 let expectedIds = packageId == "crustaceans-insects"
-                    ? ["itis-insecta-tsn-crosswalk", "itis-crustacea-tsn-crosswalk", "itis-myriapoda-tsn-crosswalk"]
+                    ? ["itis-insecta-tsn-crosswalk", "itis-crustacea-tsn-crosswalk", "itis-myriapoda-tsn-crosswalk", "itis-collembola-protura-tsn-crosswalk"]
                     : ["itis-chelicerata-tsn-crosswalk"]
-                let expectedFiles = packageId == "crustaceans-insects" ? [99, 40, 2] : [16]
-                let expectedUpstreamFiles = packageId == "crustaceans-insects" ? [1, 1, 1] : [1]
-                let expectedRecords = packageId == "crustaceans-insects" ? [941_223, 80_890, 14_210] : [99_511]
-                let expectedUpstreamRecords = packageId == "crustaceans-insects" ? [27_357, 5_991, 3_445] : [5_714]
+                let expectedFiles = packageId == "crustaceans-insects" ? [99, 40, 2, 2] : [16]
+                let expectedUpstreamFiles = packageId == "crustaceans-insects" ? [1, 1, 1, 1] : [1]
+                let expectedRecords = packageId == "crustaceans-insects" ? [941_223, 80_890, 14_210, 9_668] : [99_511]
+                let expectedUpstreamRecords = packageId == "crustaceans-insects" ? [27_357, 5_991, 3_445, 411] : [5_714]
                 let expectedDescriptorShas = packageId == "crustaceans-insects"
                     ? [
                         "c168f706a7067fd6d95548777b6fe5cadf0c6b2b67b9442698d9350c521c2cdf",
                         "9fb4271dce81e92f2df706da26c379053e649f21416d81ec1d8db6bb2031490b",
                         "7eeea9a62f0a51150f643c6f14d02511f8ab042b8264e64bbb0ec505520a5ac8",
+                        "bf90e217fa6871bb1e59807b721ed88403c47e9aa2712a782ef40146b906fdf2",
                     ]
                     : ["90383cc2bf44dc092b59c7ed131169317a0a613699aa6485c6f3e9b74decfa3c"]
                 XCTAssertEqual(collections.count, expectedIds.count)
@@ -325,8 +326,8 @@ final class AppConfigurationTests: XCTestCase {
         XCTAssertEqual(phylogenyPackages, 2)
         XCTAssertEqual(wormsNomenclatureRecords, 11_891)
         XCTAssertEqual(richItisNomenclatureRecords, 214_855)
-        XCTAssertEqual(arthropodItisFiles, 161)
-        XCTAssertEqual(arthropodItisNomenclatureRecords, 1_178_341)
+        XCTAssertEqual(arthropodItisFiles, 164)
+        XCTAssertEqual(arthropodItisNomenclatureRecords, 1_188_420)
         XCTAssertEqual(reptiliaItisFiles, 10)
         XCTAssertEqual(reptiliaItisNomenclatureRecords, 13_277)
         XCTAssertEqual(crocodyliaItisFiles, 1)
@@ -393,8 +394,8 @@ final class AppConfigurationTests: XCTestCase {
                 }
             } else if packageId == "fungi" {
                 let extensions = try XCTUnwrap(pack["extensions"] as? [[String: Any]])
-                XCTAssertEqual(extensions.count, 1)
-                let authority = try XCTUnwrap(extensions.first)
+                XCTAssertEqual(extensions.count, 2)
+                let authority = try XCTUnwrap(extensions.first { ($0["id"] as? String) == "index-fungorum-identifiers" })
                 XCTAssertEqual(authority["id"] as? String, "index-fungorum-identifiers")
                 XCTAssertEqual(authority["provider"] as? String, "Species Fungorum / Index Fungorum")
                 let counts = try XCTUnwrap(authority["counts"] as? [String: Any])
@@ -421,6 +422,24 @@ final class AppConfigurationTests: XCTestCase {
                     try verifyBundled(record: inventoryRecord, below: dataRoot)
                     indexFungorumIdentifierRecords += try XCTUnwrap(extensionFile["records"] as? Int)
                 }
+                let itis = try XCTUnwrap(extensions.first { ($0["id"] as? String) == "itis-fungi-tsn-crosswalk" })
+                XCTAssertEqual(itis["provider"] as? String, "Integrated Taxonomic Information System")
+                XCTAssertEqual((itis["source"] as? [String: Any])?["rootTsn"] as? String, "555705")
+                XCTAssertEqual((itis["counts"] as? [String: Any])?["records"] as? Int, 158_805)
+                let itisDelivery = try XCTUnwrap(itis["delivery"] as? [String: Any])
+                XCTAssertEqual(itisDelivery["profile"] as? String, "native-full")
+                XCTAssertEqual(itisDelivery["completeRows"] as? Bool, true)
+                XCTAssertEqual(itisDelivery["canonicalFileCount"] as? Int, 57)
+                let itisFiles = try XCTUnwrap(itis["files"] as? [[String: Any]])
+                XCTAssertEqual(itisFiles.count, 57)
+                var itisRecords = 0
+                for file in itisFiles {
+                    itisRecords += try XCTUnwrap(file["records"] as? Int)
+                    let path = try XCTUnwrap(file["url"] as? String)
+                    let inventoryRecord = try XCTUnwrap(files.first { ($0["url"] as? String) == path }, "ITIS Fungi shard missing from native release inventory")
+                    try verifyBundled(record: inventoryRecord, below: dataRoot)
+                }
+                XCTAssertEqual(itisRecords, 158_805)
             } else if packageId == "other-animals" {
                 let extensions = try XCTUnwrap(pack["extensions"] as? [[String: Any]])
                 XCTAssertEqual(extensions.count, 28)

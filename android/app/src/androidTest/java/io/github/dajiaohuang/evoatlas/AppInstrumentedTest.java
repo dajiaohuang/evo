@@ -207,21 +207,22 @@ public class AppInstrumentedTest {
             } else if (packageId.equals("crustaceans-insects") || packageId.equals("trilobites-chelicerates")) {
                 JSONArray collections = pack.getJSONArray("nomenclatureCollections");
                 String[] expectedIds = packageId.equals("crustaceans-insects")
-                        ? new String[]{"itis-insecta-tsn-crosswalk", "itis-crustacea-tsn-crosswalk", "itis-myriapoda-tsn-crosswalk"}
+                        ? new String[]{"itis-insecta-tsn-crosswalk", "itis-crustacea-tsn-crosswalk", "itis-myriapoda-tsn-crosswalk", "itis-collembola-protura-tsn-crosswalk"}
                         : new String[]{"itis-chelicerata-tsn-crosswalk"};
                 int[] expectedFiles = packageId.equals("crustaceans-insects")
-                        ? new int[]{99, 40, 2} : new int[]{16};
+                        ? new int[]{99, 40, 2, 2} : new int[]{16};
                 int[] expectedUpstreamFiles = packageId.equals("crustaceans-insects")
-                        ? new int[]{1, 1, 1} : new int[]{1};
+                        ? new int[]{1, 1, 1, 1} : new int[]{1};
                 int[] expectedRecords = packageId.equals("crustaceans-insects")
-                        ? new int[]{941223, 80890, 14210} : new int[]{99511};
+                        ? new int[]{941223, 80890, 14210, 9668} : new int[]{99511};
                 int[] expectedUpstreamRecords = packageId.equals("crustaceans-insects")
-                        ? new int[]{27357, 5991, 3445} : new int[]{5714};
+                        ? new int[]{27357, 5991, 3445, 411} : new int[]{5714};
                 String[] expectedDescriptorShas = packageId.equals("crustaceans-insects")
                         ? new String[]{
                         "c168f706a7067fd6d95548777b6fe5cadf0c6b2b67b9442698d9350c521c2cdf",
                         "9fb4271dce81e92f2df706da26c379053e649f21416d81ec1d8db6bb2031490b",
-                        "7eeea9a62f0a51150f643c6f14d02511f8ab042b8264e64bbb0ec505520a5ac8"}
+                        "7eeea9a62f0a51150f643c6f14d02511f8ab042b8264e64bbb0ec505520a5ac8",
+                        "bf90e217fa6871bb1e59807b721ed88403c47e9aa2712a782ef40146b906fdf2"}
                         : new String[]{"90383cc2bf44dc092b59c7ed131169317a0a613699aa6485c6f3e9b74decfa3c"};
                 assertEquals(expectedIds.length, collections.length());
                 for (int index = 0; index < expectedIds.length; index += 1) {
@@ -385,8 +386,8 @@ public class AppInstrumentedTest {
         assertEquals(2, phylogenyPackages);
         assertEquals(11891, wormsNomenclatureRecords);
         assertEquals(214855, richItisNomenclatureRecords);
-        assertEquals(161, arthropodItisFiles);
-        assertEquals(1178341, arthropodItisNomenclatureRecords);
+        assertEquals(164, arthropodItisFiles);
+        assertEquals(1188420, arthropodItisNomenclatureRecords);
         assertEquals(10, reptiliaItisFiles);
         assertEquals(13277, reptiliaItisNomenclatureRecords);
         assertEquals(1, crocodyliaItisFiles);
@@ -455,8 +456,9 @@ public class AppInstrumentedTest {
                 }
             } else if (packageId.equals("fungi")) {
                 JSONArray extensions = pack.getJSONArray("extensions");
-                assertEquals(1, extensions.length());
-                JSONObject authority = extensions.getJSONObject(0);
+                assertEquals(2, extensions.length());
+                JSONObject authority = findCollection(extensions, "index-fungorum-identifiers");
+                assertNotNull(authority);
                 assertEquals("index-fungorum-identifiers", authority.getString("id"));
                 assertEquals("Species Fungorum / Index Fungorum", authority.getString("provider"));
                 JSONObject counts = authority.getJSONObject("counts");
@@ -482,6 +484,28 @@ public class AppInstrumentedTest {
                     verifyAssetRecord(context, extensionInventoryRecord);
                     indexFungorumIdentifierRecords += extensionFile.getInt("records");
                 }
+                JSONObject itis = findCollection(extensions, "itis-fungi-tsn-crosswalk");
+                assertNotNull("ITIS Fungi authority missing", itis);
+                assertEquals("Integrated Taxonomic Information System", itis.getString("provider"));
+                assertEquals("555705", itis.getJSONObject("source").getString("rootTsn"));
+                assertEquals(158805, itis.getJSONObject("counts").getInt("records"));
+                JSONObject itisDelivery = itis.getJSONObject("delivery");
+                assertEquals("native-full", itisDelivery.getString("profile"));
+                assertTrue(itisDelivery.getBoolean("completeRows"));
+                assertEquals(57, itisDelivery.getInt("canonicalFileCount"));
+                JSONArray itisFiles = itis.getJSONArray("files");
+                assertEquals(57, itisFiles.length());
+                int itisRecords = 0;
+                for (int fileIndex = 0; fileIndex < itisFiles.length(); fileIndex += 1) {
+                    JSONObject file = itisFiles.getJSONObject(fileIndex);
+                    JSONObject record = findInventoryRecord(files, file.getString("url"));
+                    assertNotNull("ITIS Fungi shard missing from native release inventory", record);
+                    assertEquals(file.getInt("bytes"), record.getInt("bytes"));
+                    assertEquals(file.getString("sha256"), record.getString("sha256"));
+                    verifyAssetRecord(context, record);
+                    itisRecords += file.getInt("records");
+                }
+                assertEquals(158805, itisRecords);
             } else if (packageId.equals("other-animals")) {
                 JSONArray extensions = pack.getJSONArray("extensions");
                 assertEquals(28, extensions.length());

@@ -160,7 +160,7 @@ for (const packageEntry of packageRegistry.packages) {
       id: 'itis-porifera-cnidaria-tsn-crosswalk', total: 30521, accepted: 4242, redirects: 50, ambiguous: 3, unmatched: 26226, upstreamOnly: 2218, files: 6,
     })
   } else if (packageEntry.id === 'crustaceans-insects') {
-    if (nomenclatureCollections.length !== 3) failures.push('crustaceans-insects: expected three ITIS nomenclature collections')
+    if (nomenclatureCollections.length !== 4) failures.push('crustaceans-insects: expected four ITIS nomenclature collections')
     checkItisSummaryOnlyCollection('crustaceans-insects', nomenclatureCollections, {
       id: 'itis-crustacea-tsn-crosswalk', total: 80890, accepted: 26395, redirects: 115, ambiguous: 38, unmatched: 54342, upstreamOnly: 5991, files: 41,
     })
@@ -169,6 +169,9 @@ for (const packageEntry of packageRegistry.packages) {
     })
     checkItisSummaryOnlyCollection('crustaceans-insects', nomenclatureCollections, {
       id: 'itis-myriapoda-tsn-crosswalk', total: 14210, accepted: 3040, redirects: 0, ambiguous: 2, unmatched: 11168, upstreamOnly: 3445, files: 3,
+    })
+    checkItisSummaryOnlyCollection('crustaceans-insects', nomenclatureCollections, {
+      id: 'itis-collembola-protura-tsn-crosswalk', total: 9668, accepted: 2075, redirects: 25, ambiguous: 4, unmatched: 7564, upstreamOnly: 411, files: 3,
     })
   } else if (packageEntry.id === 'trilobites-chelicerates') {
     if (nomenclatureCollections.length !== 1) failures.push('trilobites-chelicerates: expected one ITIS nomenclature collection')
@@ -677,7 +680,8 @@ if (catalogue.resourcePacks?.packageCount !== 7
       }
     } else if (packageId === 'fungi') {
       const authority = extensions.find((candidate) => candidate.id === 'index-fungorum-identifiers')
-      if (extensions.length !== 1 || !authority || authority.provider !== 'Species Fungorum / Index Fungorum'
+      const itis = extensions.find((candidate) => candidate.id === 'itis-fungi-tsn-crosswalk')
+      if (extensions.length !== 2 || !authority || authority.provider !== 'Species Fungorum / Index Fungorum'
         || authority.recordType !== 'external-name-identifier-crosswalk'
         || authority.integration?.lookup?.strategy !== 'lexicographic-colId-range-v1'
         || authority.counts?.acceptedSpecies !== 157044 || authority.counts?.accepted !== 157044
@@ -685,7 +689,13 @@ if (catalogue.resourcePacks?.packageCount !== 7
         || ['redirect', 'ambiguous', 'unmatched', 'withheld'].some((status) => authority.counts?.[status] !== 0)
         || authority.sourceComposition?.['2073'] !== 155841 || authority.sourceComposition?.['1148'] !== 1203
         || authority.source?.canonicalCrosswalkSha256 !== '5e6ecd007451ac1bf0aab2f07dd6ef9d05530439476b8867e2962c1f73f82607'
-        || authority.source?.canonicalCrosswalkSourceSha256 !== '903be85cc09b6375962ee915e27e93a7b6edc3299bcfeaa414dcdec410f8b748') {
+        || authority.source?.canonicalCrosswalkSourceSha256 !== '903be85cc09b6375962ee915e27e93a7b6edc3299bcfeaa414dcdec410f8b748'
+        || !itis || itis.provider !== 'Integrated Taxonomic Information System' || itis.source?.rootTsn !== '555705'
+        || itis.counts?.records !== 158805 || itis.counts?.accepted !== 928 || itis.counts?.redirects !== 45
+        || itis.counts?.ambiguous !== 1 || itis.counts?.unmatched !== 156070 || itis.counts?.upstreamOnly !== 1761
+        || itis.delivery?.profile !== 'web-light' || itis.delivery?.completeRows !== false || itis.files?.length !== 0
+        || itis.delivery?.publishedFileCount !== 0 || itis.delivery?.canonicalFileCount !== 57 || itis.canonicalFileInventory?.length !== 57
+        || !itis.evidenceBoundary?.en.includes('never substitutes for Index Fungorum')) {
         failures.push('fungi: pinned Species Fungorum / Index Fungorum extension identity or audit boundary is incomplete')
       } else {
         let records = 0
@@ -729,6 +739,7 @@ if (catalogue.resourcePacks?.packageCount !== 7
           failures.push('fungi: authority files do not cover the complete COL Fungi pack exactly once')
         }
         indexFungorumIdentifierRecords += records
+        if (manifestFile.extensionFileCount !== 6 || manifestFile.canonicalExtensionFileCount !== 63) failures.push('fungi: Pages must retain Index Fungorum rows but omit all ITIS Fungi rows')
       }
     } else if (packageId === 'other-animals') {
       const expected = {
