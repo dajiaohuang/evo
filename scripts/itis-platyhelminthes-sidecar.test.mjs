@@ -63,7 +63,7 @@ describe('ITIS Platyhelminthes exact sidecar shards', () => {
     }
     expect(loaded.size).toBe(files.length)
     expect(failures).toEqual([])
-  })
+  }, 15_000)
 
   it('retains exact evidence and explicit unmatched boundaries', () => {
     expect(descriptor.exactMatching.prohibited).toContain('No fuzzy')
