@@ -60,8 +60,8 @@ describe('ITIS Platyhelminthes exact sidecar shards', () => {
       const candidates = files.filter((file) => codeUnitCompare(file.firstColUsageId, record.colUsageId) <= 0 && codeUnitCompare(record.colUsageId, file.lastColUsageId) <= 0)
       expect(candidates).toHaveLength(1)
       const file = candidates[0]
-      if (!loaded.has(file.path)) loaded.set(file.path, readJsonlGzip(file))
-      expect(loaded.get(file.path).filter((item) => item.colUsageId === record.colUsageId)).toHaveLength(1)
+      if (!loaded.has(file.path)) loaded.set(file.path, new Set(readJsonlGzip(file).map((item) => item.colUsageId)))
+      expect(loaded.get(file.path).has(record.colUsageId)).toBe(true)
     }
     expect(loaded.size).toBe(files.length)
   })
