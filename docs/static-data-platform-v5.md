@@ -37,11 +37,14 @@ data/releases/<datasetVersion>/catalogue/hierarchy/nodes/id-<hash-prefix>.jsonl.
 data/releases/<datasetVersion>/catalogue/hierarchy/children/parent-<hash-prefix>.jsonl.gz
 data/releases/<datasetVersion>/catalogue/resource-packs/<package>/manifest.json
 data/releases/<datasetVersion>/catalogue/resource-packs/<package>/species-<shard>.jsonl.gz
+data/releases/<datasetVersion>/catalogue/resource-packs/archaea/lpsn-000.jsonl.gz
 data/releases/<datasetVersion>/catalogue/resource-packs/sources.json.gz
 data/releases/<datasetVersion>/downloads/<package>-<version>.zip
 ```
 
 The browser fetches these files through `src/data-client/staticDataClient.ts`. Package manifests are checksum-verified like payloads, and their `version` must equal the bootstrap `datasetVersion`. On a checksum mismatch the client removes the URL from browser caches and performs one network refetch before failing. Versioned URLs and memory-cache keys prevent release mixing.
+
+Resource-pack extension files are separate from `manifest.files`, so they cannot alter accepted-species shard counts. The runtime builder copies their source bytes unchanged, adds release URLs, includes them in the owning ZIP and release inventory, and therefore supplies the same checksummed bytes to Web offline storage and the Android/iOS full-data bundle. The catalogue client loads the Archaea LPSN extension lazily and independently of the species shard.
 
 ## Paleogeography boundary
 

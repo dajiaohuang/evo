@@ -310,6 +310,7 @@ if (catalogue.resourcePacks?.packageCount !== 7
   failures.push('Catalogue nomenclatural resource-pack inventory is incomplete')
 } else {
   let resourcePackRecords = 0
+  let lpsnIdentifierRecords = 0
   for (const packageId of expectedResourcePackIds) {
     const manifestFile = catalogue.resourcePacks.manifests[packageId]
     releaseUrl(manifestFile, `Catalogue resource pack ${packageId}`)
@@ -341,10 +342,38 @@ if (catalogue.resourcePacks?.packageCount !== 7
     if (packageRecords !== manifest.acceptedSpeciesCount || packageRecords !== manifestFile.acceptedSpeciesCount) {
       failures.push(`${packageId}: nomenclatural resource-pack total mismatch`)
     }
+    const extensions = manifest.extensions ?? []
+    if (packageId === 'archaea') {
+      const extension = extensions.find((candidate) => candidate.id === 'lpsn-identifiers')
+      if (!extension || extension.provider !== 'LPSN' || extension.counts?.eligible !== 790 || extension.counts?.resolved !== 790 || extension.counts?.withheld !== 0) {
+        failures.push('archaea: pinned LPSN identifier extension is incomplete')
+      } else {
+        for (const file of extension.files) {
+          releaseUrl(file, 'archaea LPSN identifier shard')
+          checkFile(file, 'archaea LPSN identifier shard')
+          const records = gunzipSync(readFileSync(join(dataRoot, file.url))).toString('utf8').split('\n').filter(Boolean).map((line) => JSON.parse(line))
+          if (records.length !== file.records) failures.push('archaea: LPSN identifier shard count mismatch')
+          for (const record of records) {
+            if (!record.colId || !/^\d+$/.test(record.lpsnId ?? '') || record.lpsnUrl !== `https://lpsn.dsmz.de/taxon/${record.lpsnId}` || record.mappingBasis !== 'checklistbank-source-record' || record.status !== 'resolved') {
+              failures.push('archaea: LPSN identifier shard contains an invalid mapping')
+              break
+            }
+          }
+          lpsnIdentifierRecords += records.length
+        }
+      }
+    } else if (extensions.length) {
+      failures.push(`${packageId}: unexpected resource-pack extension`)
+    }
     if (!existsSync(join(dataRoot, manifest.download))) failures.push(`${packageId}: nomenclatural resource-pack download missing`)
+    else if (packageId === 'archaea') {
+      const entries = unzipSync(new Uint8Array(readFileSync(join(dataRoot, manifest.download))))
+      if (!entries['lpsn-000.jsonl.gz']) failures.push('archaea: nomenclatural resource-pack ZIP omits the LPSN identifier shard')
+    }
     resourcePackRecords += packageRecords
   }
   if (resourcePackRecords !== 363160) failures.push('Catalogue nomenclatural resource-pack records do not total 363,160')
+  if (lpsnIdentifierRecords !== 790) failures.push(`Archaea LPSN identifier extension contains ${lpsnIdentifierRecords} records; expected 790`)
 }
 
 if (failures.length) {

@@ -138,6 +138,7 @@ public class AppInstrumentedTest {
         assertEquals(363160, resourcePacks.getInt("acceptedSpeciesCount"));
         JSONObject packManifests = resourcePacks.getJSONObject("manifests");
         int resourcePackRecords = 0;
+        int lpsnIdentifierRecords = 0;
         for (String packageId : new String[]{"archaea", "bacteria", "fungi", "other-animals", "other-plants", "protists-chromists", "viruses"}) {
             JSONObject manifestDescriptor = packManifests.getJSONObject(packageId);
             JSONObject inventoryRecord = findInventoryRecord(files, manifestDescriptor.getString("url"));
@@ -158,9 +159,30 @@ public class AppInstrumentedTest {
                 packageRecords += shard.getInt("records");
             }
             assertEquals(pack.getInt("acceptedSpeciesCount"), packageRecords);
+            if (packageId.equals("archaea")) {
+                JSONArray extensions = pack.getJSONArray("extensions");
+                assertEquals(1, extensions.length());
+                JSONObject extension = extensions.getJSONObject(0);
+                assertEquals("lpsn-identifiers", extension.getString("id"));
+                assertEquals("LPSN", extension.getString("provider"));
+                assertEquals(790, extension.getJSONObject("counts").getInt("resolved"));
+                JSONArray extensionFiles = extension.getJSONArray("files");
+                for (int fileIndex = 0; fileIndex < extensionFiles.length(); fileIndex += 1) {
+                    JSONObject extensionFile = extensionFiles.getJSONObject(fileIndex);
+                    JSONObject extensionInventoryRecord = findInventoryRecord(files, extensionFile.getString("url"));
+                    assertNotNull("LPSN extension shard missing from release inventory", extensionInventoryRecord);
+                    assertEquals(extensionFile.getInt("bytes"), extensionInventoryRecord.getInt("bytes"));
+                    assertEquals(extensionFile.getString("sha256"), extensionInventoryRecord.getString("sha256"));
+                    verifyAssetRecord(context, extensionInventoryRecord);
+                    lpsnIdentifierRecords += extensionFile.getInt("records");
+                }
+            } else {
+                assertTrue("only Archaea may carry the LPSN extension", !pack.has("extensions"));
+            }
             resourcePackRecords += packageRecords;
         }
         assertEquals(363160, resourcePackRecords);
+        assertEquals(790, lpsnIdentifierRecords);
     }
 
     private JSONObject findInventoryRecord(JSONArray files, String url) throws Exception {

@@ -63,6 +63,7 @@ export async function saveCatalogueResourcePackOffline(packageId: string, onProg
     runtimeDataUrl(catalogue.resourcePacks.sharedSources.url),
     runtimeDataUrl(manifestFile.url),
     ...manifest.files.map((file) => runtimeDataUrl(file.url)),
+    ...(manifest.extensions ?? []).flatMap((extension) => extension.files.map((file) => runtimeDataUrl(file.url))),
   ]
   await cacheUrls(`${OFFLINE_CACHE_PREFIX}${current.datasetVersion}`, urls, onProgress)
 }

@@ -1,5 +1,5 @@
 import { afterEach, describe, expect, it, vi } from 'vitest'
-import type { CatalogueHierarchyChildRecord, CatalogueHierarchyNodeRecord, CatalogueNomenclaturalRecord, CatalogueRecord, CatalogueResourcePackManifest, CatalogueSourceChecklist, CatalogueSpeciesOwnership, CatalogueTargetRecord, RuntimeMapManifest, RuntimeMapSnapshot } from './types'
+import type { CatalogueHierarchyChildRecord, CatalogueHierarchyNodeRecord, CatalogueLpsnIdentifierRecord, CatalogueNomenclaturalRecord, CatalogueRecord, CatalogueResourcePackManifest, CatalogueSourceChecklist, CatalogueSpeciesOwnership, CatalogueTargetRecord, RuntimeMapManifest, RuntimeMapSnapshot } from './types'
 
 function responseFor(value: unknown) {
   const bytes = new TextEncoder().encode(JSON.stringify(value))
@@ -501,7 +501,7 @@ describe('static runtime release coherence', () => {
     expect(fetchMock.mock.calls.filter(([input]) => String(input).endsWith(sourcesUrl))).toHaveLength(1)
   })
 
-  it('loads a nomenclatural resource pack from checksum-verified NDJSON shards', async () => {
+  it('loads a nomenclatural resource pack and its LPSN extension from separate checksum-verified NDJSON shards', async () => {
     Object.defineProperty(globalThis, 'Worker', { configurable: true, value: undefined })
     const records: CatalogueNomenclaturalRecord[] = [
       { id: 'species-1', parentId: 'genus-1', scientificName: 'Exemplum unum', authorship: 'Author', rank: 'species', status: 'accepted', sourceDatasetId: 'source-1' },
@@ -509,11 +509,18 @@ describe('static runtime release coherence', () => {
     ]
     const body = `${records.map((record) => JSON.stringify(record)).join('\n')}\n`
     const bodySha256 = await sha256Text(body)
-    const shard = { path: 'catalogue/resource-packs/demo/species-001.jsonl.gz', url: 'releases/dataset-pack/catalogue/resource-packs/demo/species-001.jsonl', records: 2, bytes: new TextEncoder().encode(body).byteLength, sourceBytes: new TextEncoder().encode(body).byteLength, sha256: bodySha256, sourceSha256: bodySha256, mediaType: 'application/x-ndjson' as const }
+    const shard = { path: 'catalogue/resource-packs/archaea/species-001.jsonl.gz', url: 'releases/dataset-pack/catalogue/resource-packs/archaea/species-001.jsonl', records: 2, bytes: new TextEncoder().encode(body).byteLength, sourceBytes: new TextEncoder().encode(body).byteLength, sha256: bodySha256, sourceSha256: bodySha256, mediaType: 'application/x-ndjson' as const }
+    const lpsnRecords: CatalogueLpsnIdentifierRecord[] = [
+      { colId: 'species-1', lpsnId: '101', lpsnUrl: 'https://lpsn.dsmz.de/taxon/101', mappingBasis: 'checklistbank-source-record', status: 'resolved' },
+      { colId: 'species-2', lpsnId: '102', lpsnUrl: 'https://lpsn.dsmz.de/taxon/102', mappingBasis: 'checklistbank-source-record', status: 'resolved' },
+    ]
+    const lpsnBody = `${lpsnRecords.map((record) => JSON.stringify(record)).join('\n')}\n`
+    const lpsnSha256 = await sha256Text(lpsnBody)
+    const lpsnFile = { path: 'archaea/lpsn-000.jsonl.gz', url: 'releases/dataset-pack/catalogue/resource-packs/archaea/lpsn-000.jsonl', records: 2, bytes: new TextEncoder().encode(lpsnBody).byteLength, sourceBytes: new TextEncoder().encode(lpsnBody).byteLength, sha256: lpsnSha256, sourceSha256: lpsnSha256, mediaType: 'application/x-ndjson' as const }
     const packManifest: CatalogueResourcePackManifest = {
       schemaVersion: 1,
       packageType: 'static-nomenclatural-resource-pack',
-      packageId: 'demo',
+      packageId: 'archaea',
       version: 'dataset-pack',
       title: 'Demo',
       titleZh: '演示',
@@ -527,28 +534,49 @@ describe('static runtime release coherence', () => {
       missingSourceDatasetId: 1,
       fields: ['id', 'parentId', 'scientificName', 'authorship', 'rank', 'status', 'sourceDatasetId'],
       files: [shard],
+      extensions: [{
+        id: 'lpsn-identifiers',
+        recordType: 'external-name-identifier-crosswalk',
+        provider: 'LPSN',
+        source: {
+          catalogueRelease: 'TEST-COL', catalogueReleaseDate: '2026-08-20', checklistBankDatasetKey: 1,
+          sourceDatasetKey: 2015, sourceDatasetVersion: '2026-07-26', retrievedAt: '2026-08-31',
+          endpointTemplate: 'https://example.test/{colId}', lpsnUrlTemplate: 'https://lpsn.dsmz.de/taxon/{lpsnId}',
+          informationUrl: 'https://lpsn.dsmz.de/', license: 'CC-BY-SA-4.0', licenseUrl: 'https://creativecommons.org/licenses/by-sa/4.0/',
+          citation: 'Fixture citation', canonicalCrosswalkPath: 'data/sources/fixture.json', canonicalCrosswalkSha256: 'a'.repeat(64),
+          requestIntegrity: { algorithm: 'sha256', responseHashBasis: 'Fixture bytes', requestCount: 2, requestLedgerSha256: 'b'.repeat(64) },
+        },
+        eligibility: 'sourceDatasetId=2015', counts: { eligible: 2, resolved: 2, withheld: 0 },
+        fields: ['colId', 'lpsnId', 'lpsnUrl', 'mappingBasis', 'status'], files: [lpsnFile],
+        totalCompressedBytes: lpsnFile.bytes, totalSourceBytes: lpsnFile.sourceBytes,
+        limitations: ['Identifiers only.'],
+      }],
       totalCompressedBytes: shard.bytes,
       totalSourceBytes: 0,
       evidenceBoundary: 'Nomenclature only',
       download: 'downloads/catalogue-demo-dataset-pack.zip',
     }
-    const packManifestFile = { url: 'releases/dataset-pack/catalogue/resource-packs/demo/manifest.json', acceptedSpeciesCount: 2, fileCount: 1, sha256: await sha256(packManifest) }
-    const catalogueManifest = { releaseAlias: 'TEST-COL', counts: { acceptedSpecies: 2 }, resourcePacks: { manifests: { demo: packManifestFile } } }
+    const packManifestFile = { url: 'releases/dataset-pack/catalogue/resource-packs/archaea/manifest.json', acceptedSpeciesCount: 2, fileCount: 1, extensionCount: 1, extensionFileCount: 1, sha256: await sha256(packManifest) }
+    const catalogueManifest = { releaseAlias: 'TEST-COL', counts: { acceptedSpecies: 2 }, resourcePacks: { manifests: { archaea: packManifestFile } } }
     const catalogueFile = { url: 'releases/dataset-pack/catalogue/manifest.json', sha256: await sha256(catalogueManifest) }
     const current = { datasetVersion: 'dataset-pack', releaseBase: 'releases/dataset-pack/', catalogue: { manifest: catalogueFile, releaseAlias: 'TEST-COL', acceptedSpecies: 2 } }
     const payloads = new Map<string, ReturnType<typeof responseFor> | ReturnType<typeof textResponseFor>>([
       [catalogueFile.url, responseFor(catalogueManifest)],
       [packManifestFile.url, responseFor(packManifest)],
       [shard.url, textResponseFor(body)],
+      [lpsnFile.url, textResponseFor(lpsnBody)],
     ])
     vi.stubGlobal('fetch', vi.fn(async (input: RequestInfo | URL) => {
       const url = String(input)
       if (url.endsWith('/data/current.json')) return responseFor(current)
       return [...payloads].find(([path]) => url.endsWith(path))?.[1] ?? { ok: false, status: 404, arrayBuffer: async () => new ArrayBuffer(0) }
     }))
-    const { loadCatalogueResourcePack } = await import('./staticDataClient')
+    const { loadCatalogueLpsnIdentifier, loadCatalogueLpsnIdentifiers, loadCatalogueResourcePack } = await import('./staticDataClient')
 
-    await expect(loadCatalogueResourcePack('demo')).resolves.toEqual({ manifest: packManifest, records })
+    await expect(loadCatalogueResourcePack('archaea')).resolves.toEqual({ manifest: packManifest, records })
+    await expect(loadCatalogueLpsnIdentifiers()).resolves.toEqual({ extension: packManifest.extensions?.[0], records: lpsnRecords })
+    await expect(loadCatalogueLpsnIdentifier('species-2')).resolves.toEqual(lpsnRecords[1])
+    await expect(loadCatalogueLpsnIdentifier('missing')).resolves.toBeNull()
   })
 
   it('loads only the requested direct children from a shared parent-hash shard and caches it', async () => {

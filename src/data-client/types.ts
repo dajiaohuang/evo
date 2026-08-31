@@ -333,6 +333,58 @@ export interface CatalogueNomenclaturalRecord {
   sourceDatasetId: string | null
 }
 
+export interface CatalogueLpsnIdentifierRecord {
+  colId: string
+  lpsnId: string
+  lpsnUrl: string
+  mappingBasis: 'checklistbank-source-record'
+  status: 'resolved'
+}
+
+export interface CatalogueResourcePackPayloadFile extends RuntimeFile {
+  path: string
+  records: number
+  bytes: number
+  sourceBytes: number
+  sha256: string
+  sourceSha256: string
+}
+
+export interface CatalogueResourcePackExtension {
+  id: 'lpsn-identifiers'
+  recordType: 'external-name-identifier-crosswalk'
+  provider: 'LPSN'
+  source: {
+    catalogueRelease: string
+    catalogueReleaseDate: string
+    checklistBankDatasetKey: number
+    sourceDatasetKey: number
+    sourceDatasetVersion: string
+    retrievedAt: string
+    endpointTemplate: string
+    lpsnUrlTemplate: string
+    informationUrl: string
+    license: 'CC-BY-SA-4.0'
+    licenseUrl: string
+    citation: string
+    canonicalCrosswalkPath: string
+    canonicalCrosswalkSha256: string
+    requestIntegrity: {
+      algorithm: 'sha256'
+      responseHashBasis: string
+      requestCount: number
+      requestLedgerSha256: string
+    }
+  }
+  eligibility: string
+  counts: { eligible: number; resolved: number; withheld: number }
+  fields: string[]
+  files: CatalogueResourcePackPayloadFile[]
+  totalCompressedBytes: number
+  totalSourceBytes: number
+  limitations: string[]
+}
+
 export interface CatalogueResourcePackManifest {
   schemaVersion: 1
   packageType: 'static-nomenclatural-resource-pack'
@@ -357,7 +409,8 @@ export interface CatalogueResourcePackManifest {
   acceptedSpeciesCount: number
   missingSourceDatasetId: number
   fields: string[]
-  files: Array<RuntimeFile & { path: string; records: number; bytes: number; sourceBytes: number; sha256: string; sourceSha256: string }>
+  files: CatalogueResourcePackPayloadFile[]
+  extensions?: CatalogueResourcePackExtension[]
   totalCompressedBytes: number
   totalSourceBytes: number
   evidenceBoundary: string
@@ -451,7 +504,7 @@ export interface CatalogueRuntimeManifest {
     packageType: CatalogueResourcePackManifest['packageType']
     packageCount: number
     acceptedSpeciesCount: number
-    manifests: Record<string, RuntimeFile & { acceptedSpeciesCount: number; fileCount: number }>
+    manifests: Record<string, RuntimeFile & { acceptedSpeciesCount: number; fileCount: number; extensionCount?: number; extensionFileCount?: number }>
     sharedSources: RuntimeFile & { count: number }
     downloadTemplate: string
   }

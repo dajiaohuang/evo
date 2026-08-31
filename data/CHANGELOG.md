@@ -1,5 +1,11 @@
 # Dataset changelog
 
+## App 0.20.8 / 2026.08-static-v5-rc57 — 2026-08-31
+
+- Added a deterministic, release-pinned LPSN identifier extension for all 790 COL26.8 Archaea species. Each record follows immutable ChecklistBank dataset `316115` and source dataset `2015` to one specific LPSN page from source version `2026-07-26`; the canonical 2026-08-31 snapshot records every exact response SHA-256 and an aggregate request-ledger hash.
+- Kept the original 790-species shard, accepted-species totals, hierarchy, claims, profiles, stories, phylogenies, fossils and media unchanged. The separately licensed CC BY-SA 4.0 sidecar is identifier-level nomenclatural linkage, not an inferred dossier, ecology, genome, strain, fossil, media, phylogeny or expert-review claim.
+- Published the same 8,116-byte LPSN shard through the runtime manifest, Archaea ZIP, Web offline save and complete Android/iOS release inventory. Catalogue pages load it lazily only for Archaea species and expose the specific source page with the pinned version, retrieval date, license and evidence boundary. Android `versionCode` and iOS build number advance to `11`.
+
 ## App 0.20.7 / 2026.08-static-v5-rc56 — 2026-08-31
 
 - Delivered all twenty-four source-bound research presets as checksummed runtime package payloads instead of leaving them only in canonical authoring files. Every rich-package ZIP and the release inventory now contains its research payload; Web single/all-package offline storage plus Android/iOS full-data bundles consume the same bytes.
