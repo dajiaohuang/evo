@@ -23,6 +23,8 @@ dist-mobile/                 # 临时生成的移动客户端壳，不提交
 
 ## 数据与离线边界
 
+rc77 将 Android 与 iOS 同步到 build `31` / app `0.20.28`。两端继续从同一 `native-full` inventory 内置 COL26.8 全部 2,183,133 个接受种、全部权威命名分片和 109 帧 0.1° PaleoDEM，并新增 10 个双语、字段关联的完整档案：禾本科、豆科，海百合、海蕾、海星、蛇尾、海参，以及希望螈鱼、棘螈、鱼石螈；真双子叶植物另有字段关联证据档案，但因 PBDB 概念未解决而不伪造完整 profile 的外部 ID。43 条新增声明保留一手来源定位与推断边界。Pages 继续使用 `web-light`，不会因本版富内容提升而复制原生全量名录或权威逐种分片。
+
 rc76 将 Android 与 iOS 同步到 build `30` / app `0.20.27`。两端新增独立 ITIS Fungi collection 的 56 个 COL 范围分片和 1 个 upstream-only 分片，并新增 Collembola + Protura 的 2 个 COL 分片和 1 个 upstream-only 分片；合计 168,884 条记录、60 个非空 gzip 全部进入 `native-full`。Species Fungorum / Index Fungorum 与既有 Insecta、Crustacea、Myriapoda、Chelicerata、AviList、Cnidaria collections 均保持独立，Pages `web-light` 不发布任何新增逐种行。两个 App 继续包含全部 109 帧 0.1° PaleoDEM；受限的 0.05° HydroShare 模型不进入默认包。见 [`itis-fungi-authority.md`](itis-fungi-authority.md)、[`itis-collembola-protura-authority.md`](itis-collembola-protura-authority.md) 与 [`paleotopography-native-resolution-audit-rc76.md`](paleotopography-native-resolution-audit-rc76.md)。
 
 rc75 将 Android 与 iOS 同步到 build `29` / app `0.20.26`。两端完整加入 Graptolithina/Rhabdopleura、Dicyemida/Kantharella 与两个 Oomycota 目根的增量分片，并加入独立 ITIS Bacteria TSN `50` 集合的 4 个 COL 范围分片和 4 个 upstream-only 分片；4,827 条 COL 结果与 9,348 条 ITIS-only 行均逐字节进入 `native-full`。既有 LPSN 标识集合保持独立，Pages `web-light` 不发布新增逐种行。完整 Bacteria 契约见 [`itis-bacteria-sidecar.md`](itis-bacteria-sidecar.md)。
