@@ -1,5 +1,5 @@
 import { afterEach, describe, expect, it, vi } from 'vitest'
-import type { CatalogueHierarchyChildRecord, CatalogueHierarchyNodeRecord, CatalogueLpsnIdentifierRecord, CatalogueNomenclaturalRecord, CatalogueRecord, CatalogueResourcePackManifest, CatalogueSourceChecklist, CatalogueSpeciesOwnership, CatalogueTargetRecord, RuntimeMapManifest, RuntimeMapSnapshot, RuntimePaleotopographyCollection } from './types'
+import type { CatalogueHierarchyChildRecord, CatalogueHierarchyNodeRecord, CatalogueLpsnIdentifierRecord, CatalogueNomenclaturalRecord, CatalogueRecord, CatalogueResourcePackManifest, CatalogueSourceChecklist, CatalogueSpeciesOwnership, CatalogueTargetRecord, RuntimeItisPackageScope, RuntimeMapManifest, RuntimeMapSnapshot, RuntimePaleotopographyCollection } from './types'
 
 function responseFor(value: unknown) {
   const bytes = new TextEncoder().encode(JSON.stringify(value))
@@ -514,6 +514,21 @@ describe('static runtime release coherence', () => {
     await expect(loadPackageNomenclatureCollection('echinoderms', 'worms-aphiaid-crosswalk'))
       .resolves.toEqual({ collection, sidecar })
     expect(fetchMock.mock.calls.filter(([input]) => String(input).endsWith(collectionFile.url))).toHaveLength(1)
+
+    vi.resetModules()
+    const webCollection = {
+      ...collection,
+      file: undefined,
+      canonicalFileInventory: [{ bytes: 1, sha256: 'a'.repeat(64) }],
+      delivery: { profile: 'web-light' as const, completeRows: false, publishedFileCount: 0, canonicalFileCount: 1 },
+    }
+    const webManifest = { ...packageManifest, nomenclatureCollections: [webCollection] }
+    const webManifestFile = { ...manifestFile, sha256: await sha256(webManifest) }
+    vi.stubGlobal('fetch', vi.fn(async (input: RequestInfo | URL) => String(input).endsWith('/data/current.json')
+      ? responseFor({ ...current, packages: { manifests: { echinoderms: webManifestFile } } })
+      : responseFor(webManifest)))
+    const webClient = await import('./staticDataClient')
+    await expect(webClient.loadPackageNomenclatureCollection('echinoderms', 'worms-aphiaid-crosswalk')).rejects.toThrow('full Android/iOS data profile')
   })
 
   it('uses WFO COL ID ranges to fetch exactly one rich-package payload shard', async () => {
@@ -967,6 +982,111 @@ describe('static runtime release coherence', () => {
     }))
     const webClient = await import('./staticDataClient')
     await expect(webClient.loadCatalogueItisOtherAnimalsRecord('nemertea', 'N0682')).rejects.toThrow('full Android/iOS data profile')
+  })
+
+  it('loads each major-invertebrate package ITIS collection by typed scope and rejects the Web summary', async () => {
+    Object.defineProperty(globalThis, 'Worker', { configurable: true, value: undefined })
+    const contracts: Array<{
+      scope: RuntimeItisPackageScope
+      packageId: string
+      collectionId: string
+      total: number
+      accepted: number
+      redirects: number
+      ambiguous: number
+      unmatched: number
+      upstreamOnly: number
+      canonicalFileCount: number
+    }> = [
+      { scope: 'mollusca-brachiopoda', packageId: 'molluscs-brachiopods', collectionId: 'itis-mollusca-brachiopoda-tsn-crosswalk', total: 159794, accepted: 7212, redirects: 256, ambiguous: 16, unmatched: 152310, upstreamOnly: 4289, canonicalFileCount: 60 },
+      { scope: 'porifera-cnidaria', packageId: 'sponges-cnidarians', collectionId: 'itis-porifera-cnidaria-tsn-crosswalk', total: 30521, accepted: 4242, redirects: 50, ambiguous: 3, unmatched: 26226, upstreamOnly: 2218, canonicalFileCount: 6 },
+      { scope: 'echinodermata', packageId: 'echinoderms', collectionId: 'itis-echinodermata-tsn-crosswalk', total: 11891, accepted: 3692, redirects: 51, ambiguous: 9, unmatched: 8139, upstreamOnly: 278, canonicalFileCount: 3 },
+    ]
+
+    for (const contract of contracts) {
+      vi.resetModules()
+      const record = { status: 'unmatched' as const, colUsageId: 'M001', colScientificName: `${contract.scope} species` }
+      const body = `${JSON.stringify(record)}\n`
+      const file = {
+        path: `nomenclature/${contract.collectionId}-0000.jsonl.gz`,
+        url: `releases/dataset-${contract.scope}/packages/${contract.packageId}/nomenclature/${contract.collectionId}-0000.jsonl.gz`,
+        records: 1, bytes: new TextEncoder().encode(body).byteLength, sourceBytes: new TextEncoder().encode(body).byteLength,
+        sha256: await sha256Text(body), sourceSha256: await sha256Text(body), mediaType: 'application/x-ndjson' as const,
+        minColId: 'M001', maxColId: 'M001',
+      }
+      const collection = {
+        schemaVersion: 1, id: contract.collectionId, recordType: 'release-pinned-exact-nomenclatural-crosswalk', provider: 'Integrated Taxonomic Information System',
+        packageId: contract.packageId, source: { license: 'CC0-1.0' }, matching: {}, evidenceBoundary: { en: 'fixture', zh: 'fixture' }, limitations: [], descriptorSha256: 'fixture',
+        counts: { total: contract.total, accepted: contract.accepted, synonymCurrentNameRedirect: contract.redirects, ambiguous: contract.ambiguous, unmatched: contract.unmatched, itisCurrentSpecies: 1, itisSpeciesSynonymLinks: 0, itisUpstreamOnly: contract.upstreamOnly },
+        files: [file], upstreamOnlyFiles: [], canonicalFileInventory: Array.from({ length: contract.canonicalFileCount }, () => file),
+        delivery: { profile: 'native-full' as const, completeRows: true, publishedFileCount: 1, canonicalFileCount: contract.canonicalFileCount },
+      }
+      const packageManifest = { packageId: contract.packageId, version: `dataset-${contract.scope}`, files: {}, occurrences: [], nomenclatureCollections: [collection] }
+      const manifestFile = { url: `releases/dataset-${contract.scope}/packages/${contract.packageId}/manifest.json`, sha256: await sha256(packageManifest) }
+      const current = { datasetVersion: `dataset-${contract.scope}`, releaseBase: `releases/dataset-${contract.scope}/`, packages: { manifests: { [contract.packageId]: manifestFile } } }
+      vi.stubGlobal('fetch', vi.fn(async (input: RequestInfo | URL) => {
+        const url = String(input)
+        if (url.endsWith('/data/current.json')) return responseFor(current)
+        if (url.endsWith(manifestFile.url)) return responseFor(packageManifest)
+        return url.endsWith(file.url) ? textResponseFor(body) : { ok: false, status: 404, arrayBuffer: async () => new ArrayBuffer(0) }
+      }))
+      const client = await import('./staticDataClient')
+      await expect(client.loadPackageItisAuthorityRecord(contract.scope, 'M001')).resolves.toMatchObject({ collection: { id: contract.collectionId }, record })
+    }
+
+    vi.resetModules()
+    const contract = contracts.at(-1)!
+    const webCollection = {
+      schemaVersion: 1, id: contract.collectionId, recordType: 'release-pinned-exact-nomenclatural-crosswalk', provider: 'Integrated Taxonomic Information System',
+      packageId: contract.packageId, source: { license: 'CC0-1.0' }, matching: {}, evidenceBoundary: { en: 'fixture', zh: 'fixture' }, limitations: [], descriptorSha256: 'fixture',
+      counts: { total: contract.total, accepted: contract.accepted, synonymCurrentNameRedirect: contract.redirects, ambiguous: contract.ambiguous, unmatched: contract.unmatched, itisCurrentSpecies: 1, itisSpeciesSynonymLinks: 0, itisUpstreamOnly: contract.upstreamOnly },
+      files: [], upstreamOnlyFiles: [], canonicalFileInventory: Array.from({ length: contract.canonicalFileCount }, () => ({})),
+      delivery: { profile: 'web-light' as const, completeRows: false, publishedFileCount: 0, canonicalFileCount: contract.canonicalFileCount },
+    }
+    const webManifest = { packageId: contract.packageId, version: 'dataset-web', files: {}, occurrences: [], nomenclatureCollections: [webCollection] }
+    const webManifestFile = { url: 'releases/dataset-web/packages/echinoderms/manifest.json', sha256: await sha256(webManifest) }
+    vi.stubGlobal('fetch', vi.fn(async (input: RequestInfo | URL) => String(input).endsWith('/data/current.json')
+      ? responseFor({ datasetVersion: 'dataset-web', releaseBase: 'releases/dataset-web/', packages: { manifests: { echinoderms: webManifestFile } } })
+      : responseFor(webManifest)))
+    const webClient = await import('./staticDataClient')
+    await expect(webClient.loadPackageItisAuthorityRecord('echinodermata', 'M001')).rejects.toThrow('full Android/iOS data profile')
+  })
+
+  it('recognizes the Nematoda and Annelida contracts in the multi-extension other-animals pack', async () => {
+    Object.defineProperty(globalThis, 'Worker', { configurable: true, value: undefined })
+    const contracts = [
+      { scope: 'nematoda' as const, total: 19604, accepted: 1899, redirects: 36, ambiguous: 1, unmatched: 17668, upstreamOnly: 1245, nonApplicable: 79557, canonicalFileCount: 4 },
+      { scope: 'annelida' as const, total: 18982, accepted: 4301, redirects: 122, ambiguous: 1, unmatched: 14558, upstreamOnly: 5092, nonApplicable: 80179, canonicalFileCount: 4 },
+    ]
+    for (const contract of contracts) {
+      vi.resetModules()
+      const record = { status: 'unmatched' as const, colUsageId: 'M001', colScientificName: `${contract.scope} species` }
+      const body = `${JSON.stringify(record)}\n`
+      const rangeFiles = [
+        { path: `${contract.scope}-0000.jsonl.gz`, url: `releases/dataset-${contract.scope}/catalogue/resource-packs/other-animals/${contract.scope}-0000.jsonl.gz`, records: 1, bytes: new TextEncoder().encode(body).byteLength, sourceBytes: new TextEncoder().encode(body).byteLength, sha256: await sha256Text(body), sourceSha256: await sha256Text(body), mediaType: 'application/x-ndjson' as const, minColId: 'M001', maxColId: 'M001', role: 'col-partition' as const },
+        { path: `${contract.scope}-0001.jsonl.gz`, url: 'unused-1.jsonl.gz', records: 1, bytes: 1, sourceBytes: 1, sha256: 'a'.repeat(64), sourceSha256: 'b'.repeat(64), mediaType: 'application/x-ndjson' as const, minColId: 'N001', maxColId: 'N001', role: 'col-partition' as const },
+        { path: `${contract.scope}-0002.jsonl.gz`, url: 'unused-2.jsonl.gz', records: contract.total - 2, bytes: 1, sourceBytes: 1, sha256: 'c'.repeat(64), sourceSha256: 'd'.repeat(64), mediaType: 'application/x-ndjson' as const, minColId: 'N002', maxColId: 'Z999', role: 'col-partition' as const },
+      ]
+      const upstreamFile = { path: `${contract.scope}-upstream.jsonl.gz`, url: 'unused-upstream.jsonl.gz', records: contract.upstreamOnly, bytes: 1, sourceBytes: 1, sha256: 'e'.repeat(64), sourceSha256: 'f'.repeat(64), mediaType: 'application/x-ndjson' as const, role: 'upstream-only' as const }
+      const extension = {
+        id: `itis-${contract.scope}-tsn-crosswalk`, recordType: 'release-pinned-exact-nomenclatural-crosswalk', provider: 'Integrated Taxonomic Information System', source: { license: 'CC0-1.0' }, scope: {}, matching: {}, limitations: [],
+        counts: { eligible: contract.total, records: contract.total + contract.upstreamOnly, accepted: contract.accepted, redirects: contract.redirects, ambiguous: contract.ambiguous, unmatched: contract.unmatched, withheld: 0, upstreamOnly: contract.upstreamOnly, nonApplicable: contract.nonApplicable },
+        files: [...rangeFiles, upstreamFile], canonicalFileInventory: [...rangeFiles, upstreamFile], delivery: { profile: 'native-full' as const, completeRows: true, publishedFileCount: 4, canonicalFileCount: contract.canonicalFileCount }, integration: { lookup: { strategy: 'lexicographic-colId-range-v1' } },
+      }
+      const packManifest = { schemaVersion: 1, packageType: 'static-nomenclatural-resource-pack', packageId: 'other-animals', version: `dataset-${contract.scope}`, source: { releaseAlias: 'COL26.8' }, acceptedSpeciesCount: 99161, extensions: [extension] }
+      const packFile = { url: `releases/dataset-${contract.scope}/catalogue/resource-packs/other-animals/manifest.json`, acceptedSpeciesCount: 99161, sha256: await sha256(packManifest) }
+      const catalogueManifest = { releaseAlias: 'COL26.8', counts: { acceptedSpecies: 2183133 }, resourcePacks: { manifests: { 'other-animals': packFile } } }
+      const catalogueFile = { url: `releases/dataset-${contract.scope}/catalogue/manifest.json`, sha256: await sha256(catalogueManifest) }
+      vi.stubGlobal('fetch', vi.fn(async (input: RequestInfo | URL) => {
+        const url = String(input)
+        if (url.endsWith('/data/current.json')) return responseFor({ datasetVersion: `dataset-${contract.scope}`, releaseBase: `releases/dataset-${contract.scope}/`, catalogue: { manifest: catalogueFile, releaseAlias: 'COL26.8', acceptedSpecies: 2183133 } })
+        if (url.endsWith(catalogueFile.url)) return responseFor(catalogueManifest)
+        if (url.endsWith(packFile.url)) return responseFor(packManifest)
+        return url.endsWith(rangeFiles[0].url) ? textResponseFor(body) : { ok: false, status: 404, arrayBuffer: async () => new ArrayBuffer(0) }
+      }))
+      const client = await import('./staticDataClient')
+      await expect(client.loadCatalogueItisOtherAnimalsRecord(contract.scope, 'M001')).resolves.toMatchObject({ extension: { id: extension.id }, record })
+    }
   })
 
   it('loads one indexed ITIS protists/chromists shard from native-full data', async () => {
