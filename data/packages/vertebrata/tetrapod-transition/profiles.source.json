@@ -37,5 +37,122 @@
       "daeschler-2006-tiktaalik-body-plan",
     "shubin-2006-tiktaalik-pectoral-fin"
     ]
+  },
+  {
+    "id": "elpistostege",
+    "treeNodeId": "elpistostege",
+    "pbdbTaxonId": "txn:226298",
+    "scientificName": "Elpistostege",
+    "commonName": "Elpistostege",
+    "commonNameZh": "希望螈鱼",
+    "rank": "genus",
+    "parentName": "Stem tetrapodomorphs",
+    "extinct": true,
+    "geography": [
+      "Miguasha, Quebec, Canada",
+      "Escuminac Formation"
+    ],
+    "regionalRanges": [
+      {
+        "canonicalRangeId": "range:elpistostege:miguasha-sample",
+        "label": "Miguasha Frasnian specimen envelope"
+      }
+    ],
+    "overview": "A late Devonian elpistostegalian represented by an exceptionally complete Miguasha specimen whose pectoral fin preserves a mosaic of fin-ray anatomy and wrist- or digit-like endoskeletal elements.",
+    "ecology": {
+      "diet": "Unavailable from the cited pectoral-fin study",
+      "habitat": "Miguasha aquatic depositional setting; finer habitat preference is unresolved",
+      "locomotion": "Fin propulsion; load-bearing or digit-assisted use remains an inference",
+      "bodySize": "Large-bodied elpistostegalian; a genus-wide size envelope is not inferred",
+      "guild": "Unresolved aquatic predator or generalist; no feeding guild is assigned"
+    },
+    "traits": [
+      "Four proximodistal radial rows in the pectoral fin",
+      "Branched carpals and distal elements interpreted as digits or putative digits",
+      "Lepidotrichia retained, confirming the appendage remained a fin"
+    ],
+    "evidenceSummary": "MHNM 06-2067 and CT reconstruction directly document the internal pectoral-fin architecture; digit homology and sister-group placement remain analysis-dependent, and the profile does not treat Elpistostege as a direct tetrapod ancestor.",
+    "confidence": "medium",
+    "referenceIds": [
+      "cloutier-2020-elpistostege-hand"
+    ]
+  },
+  {
+    "id": "acanthostega",
+    "treeNodeId": "acanthostega",
+    "pbdbTaxonId": "txn:36963",
+    "scientificName": "Acanthostega",
+    "commonName": "Acanthostega",
+    "commonNameZh": "棘螈",
+    "rank": "genus",
+    "parentName": "Stem tetrapodomorphs",
+    "extinct": true,
+    "geography": [
+      "East Greenland",
+      "Upper Devonian limnic deposits"
+    ],
+    "regionalRanges": [
+      {
+        "canonicalRangeId": "range:acanthostega:east-greenland-limb-sample",
+        "label": "East Greenland Famennian limb sample"
+      }
+    ],
+    "overview": "A Devonian tetrapod represented by East Greenland limb material that documents an eight-digit forelimb and preserves the distinction between digit-bearing limbs and evidence for terrestrial walking.",
+    "ecology": {
+      "diet": "Unavailable from the cited limb study",
+      "habitat": "Aquatic or marginal-water setting inferred from the study context; preference unresolved",
+      "locomotion": "Digit-bearing limb; terrestrial walking is not inferred from digit count alone",
+      "bodySize": "Small to medium-sized early tetrapod; a study-wide mass estimate is not provided here",
+      "guild": "Unresolved"
+    },
+    "traits": [
+      "Eight digits documented in the forelimb",
+      "Limb anatomy retains a non-pentadactyl Devonian condition",
+      "Digit-bearing limbs do not by themselves demonstrate habitual terrestrial walking"
+    ],
+    "evidenceSummary": "The described East Greenland limb specimens directly support eight-digit anatomy; ecological and locomotor implications remain bounded, and the profile does not infer a universal ancestral digit number or direct ancestry.",
+    "confidence": "high",
+    "referenceIds": [
+      "coates-1990-polydactyly"
+    ]
+  },
+  {
+    "id": "ichthyostega",
+    "treeNodeId": "ichthyostega",
+    "pbdbTaxonId": "txn:36965",
+    "scientificName": "Ichthyostega",
+    "commonName": "Ichthyostega",
+    "commonNameZh": "鱼石螈",
+    "rank": "genus",
+    "parentName": "Stem tetrapodomorphs",
+    "extinct": true,
+    "geography": [
+      "East Greenland",
+      "Upper Devonian limnic deposits"
+    ],
+    "regionalRanges": [
+      {
+        "canonicalRangeId": "range:ichthyostega:east-greenland-mobility-sample",
+        "label": "East Greenland Famennian mobility sample"
+      }
+    ],
+    "overview": "A Devonian tetrapod whose three-dimensional limb reconstruction provides a bounded test of joint mobility and the mechanical requirements of a typical lateral-sequence walk.",
+    "ecology": {
+      "diet": "Unavailable from the cited joint-mobility study",
+      "habitat": "East Greenland aquatic or marginal-water depositional setting; preference unresolved",
+      "locomotion": "Restricted limb long-axis rotation in the tested reconstruction; this is not a direct observation of behaviour",
+      "bodySize": "Large-bodied early tetrapod; a study-wide body-size envelope is not inferred",
+      "guild": "Unresolved"
+    },
+    "traits": [
+      "Three-dimensional limb-joint reconstruction",
+      "No long-axis rotations required for a typical lateral-sequence walk in the tested model",
+      "Mobility result may be specialized to Ichthyostega rather than all early tetrapods"
+    ],
+    "evidenceSummary": "Micro-CT reconstruction and comparison with five living analogues constrain feasible joint motion; model assumptions and the difference between feasible motion and observed behaviour remain explicit.",
+    "confidence": "medium",
+    "referenceIds": [
+      "pierce-2012-ichthyostega-mobility"
+    ]
   }
 ]

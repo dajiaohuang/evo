@@ -278,5 +278,92 @@
     ],
     "reviewStatus": "automated-audit-passed",
     "evidenceLevel": "literature-synthesized"
+  },
+  {
+    "id": "range:elpistostege:miguasha-sample",
+    "entityId": "elpistostege",
+    "rangeKind": "taxon-range",
+    "taxonomicConcept": "Elpistostege watsoni",
+    "geographicScope": "Miguasha, Quebec, Canada",
+    "olderMa": 382.31,
+    "youngerMa": 372.15,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Frasnian stage envelope for the named Miguasha specimen; not a global genus duration."
+    },
+    "evidenceBasis": "The named specimen and CT study provide a bounded regional occurrence context.",
+    "evidenceLevel": "literature-synthesized",
+    "confidence": "high",
+    "claimIds": [
+      "claim:event:elpistostege-digit-bearing-fin",
+      "claim:taxon:elpistostege:fossil-range"
+    ],
+    "referenceLocators": [
+      {
+        "referenceId": "cloutier-2020-elpistostege-hand",
+        "locator": "pp. 549–554; Figure 1; Figures 2–5; Extended Data Figures 1–2"
+      }
+    ],
+    "reviewStatus": "automated-audit-passed"
+  },
+  {
+    "id": "range:acanthostega:east-greenland-limb-sample",
+    "entityId": "acanthostega",
+    "rangeKind": "taxon-range",
+    "taxonomicConcept": "Acanthostega gunnari",
+    "geographicScope": "East Greenland",
+    "olderMa": 372.15,
+    "youngerMa": 358.86,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Famennian stage envelope for the described limb material; not a precise global FAD or LAD."
+    },
+    "evidenceBasis": "The described East Greenland limb specimens provide a bounded occurrence context.",
+    "evidenceLevel": "literature-synthesized",
+    "confidence": "high",
+    "claimIds": [
+      "claim:event:acanthostega-eight-digit-limb",
+      "claim:taxon:acanthostega:fossil-range"
+    ],
+    "referenceLocators": [
+      {
+        "referenceId": "coates-1990-polydactyly",
+        "locator": "pp. 66–69; Figures 1–3"
+      }
+    ],
+    "reviewStatus": "automated-audit-passed"
+  },
+  {
+    "id": "range:ichthyostega:east-greenland-mobility-sample",
+    "entityId": "ichthyostega",
+    "rangeKind": "taxon-range",
+    "taxonomicConcept": "Ichthyostega",
+    "geographicScope": "East Greenland",
+    "olderMa": 372.15,
+    "youngerMa": 358.86,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Famennian stage envelope for the reconstructed East Greenland specimens; not a global genus duration."
+    },
+    "evidenceBasis": "The named specimens and joint-mobility study provide a bounded occurrence context.",
+    "evidenceLevel": "literature-synthesized",
+    "confidence": "high",
+    "claimIds": [
+      "claim:event:ichthyostega-joint-mobility",
+      "claim:taxon:ichthyostega:fossil-range"
+    ],
+    "referenceLocators": [
+      {
+        "referenceId": "pierce-2012-ichthyostega-mobility",
+        "locator": "pp. 523–526; Figures 1–3; Supplementary Figures 1–6"
+      }
+    ],
+    "reviewStatus": "automated-audit-passed"
   }
 ]

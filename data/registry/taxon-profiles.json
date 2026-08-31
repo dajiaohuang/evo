@@ -273,6 +273,86 @@
     "rangeProvisional": true
   },
   {
+    "id": "poaceae",
+    "treeNodeId": "poaceae",
+    "pbdbTaxonId": "txn:53546",
+    "scientificName": "Poaceae",
+    "commonName": "Grasses",
+    "commonNameZh": "禾本科植物",
+    "rank": "family",
+    "parentName": "Monocotyledoneae",
+    "extinct": false,
+    "geography": [
+      "Lameta Formation coprolite phytolith assemblage, central India",
+      "Living global family context"
+    ],
+    "overview": "The profile separates a sampled plastid topology from latest-Cretaceous Lameta phytolith evidence and a regional Neogene phytolith transition; none of these records supplies a single grass origin, universal C4 history or global grassland narrative.",
+    "ecology": {
+      "diet": "Photosynthetic primary producer; no family-wide ecological role is inferred from the fossil samples",
+      "habitat": "Heterogeneous mixed C3–C4 habitats in the sampled central Great Plains palaeosols; no global habitat is assigned",
+      "locomotion": "Sessile growth",
+      "bodySize": "No family-wide body-size range is inferred from phytolith assemblages",
+      "guild": "Primary-producer context only; the evidence does not equate C4 biomass with open-grassland dominance"
+    },
+    "traits": [
+      "Diagnostic grass phytolith morphotypes in latest-Cretaceous Lameta coprolites",
+      "Chloridoid and other potentially C4 PACMAD short-cell phytoliths in the sampled Great Plains assemblages",
+      "Multiple reconstructed C4 origins on the sampled plastid tree"
+    ],
+    "evidenceSummary": "Prasad and colleagues supply a contested, locality-bounded phytolith record, Strömberg and McInerney quantify a later regional assemblage shift, and GPWG II supplies a sampled plastid topology. These evidence streams are kept separate from body-fossil first appearances, crown ages and global vegetation cover.",
+    "confidence": "medium",
+    "referenceIds": [
+      "prasad-2005-grass-phytoliths",
+      "stromberg-2011-great-plains-phytoliths",
+      "gpwg-ii-2012-grass-phylogeny"
+    ],
+    "firstAppearance": 67,
+    "lastAppearance": 0,
+    "rangeEvidenceLevel": "literature-synthesized",
+    "rangeReviewStatus": "automated-audit-passed",
+    "rangeProvisional": true
+  },
+  {
+    "id": "fabaceae",
+    "treeNodeId": "fabaceae",
+    "pbdbTaxonId": "txn:183021",
+    "scientificName": "Fabaceae",
+    "commonName": "Legumes",
+    "commonNameZh": "豆科植物",
+    "rank": "family",
+    "parentName": "Eudicotyledoneae",
+    "extinct": false,
+    "geography": [
+      "Corral Bluffs, Colorado, United States",
+      "Living global family context"
+    ],
+    "overview": "The 65.35 Ma Corral Bluffs fruit and leaflets provide a source-bounded family record, while a taxonomically comprehensive phylogeny revises living subfamily classification. Neither evidence stream fixes crown-Fabaceae age, subfamily placement of the fossil or an origin centre.",
+    "ecology": {
+      "diet": "Photosynthetic primary-producer identity inferred from family membership; the Corral Bluffs fruit and leaflets do not directly recover a family-wide ecology",
+      "habitat": "Corral Bluffs fossil locality only; no family-wide habitat is assigned",
+      "locomotion": "Sessile growth",
+      "bodySize": "Fruit and leaflet evidence only; no family-wide size range is assigned",
+      "guild": "Primary-producer context only; fossil morphology does not establish a family-wide guild"
+    },
+    "traits": [
+      "A dated Corral Bluffs fruit and associated leaflets assigned to Fabaceae",
+      "Six-subfamily classification supported by a taxonomically broad phylogeny",
+      "Fossil family presence kept separate from subfamily assignment and crown-age inference"
+    ],
+    "evidenceSummary": "Lyson and colleagues document the dated fossil material, Koenen and colleagues discuss its status as the oldest unequivocal legume fossil, and LPWG supplies the sampled living-family classification. The profile does not infer direct ancestry or continuous global occupancy.",
+    "confidence": "medium",
+    "referenceIds": [
+      "lyson-2019-corral-bluffs-recovery",
+      "koenen-2021-legume-origin",
+      "lpwg-2017-legume-classification"
+    ],
+    "firstAppearance": 65.35,
+    "lastAppearance": 0,
+    "rangeEvidenceLevel": "literature-synthesized",
+    "rangeReviewStatus": "automated-audit-passed",
+    "rangeProvisional": true
+  },
+  {
     "id": "eocyathispongia",
     "treeNodeId": "eocyathispongia",
     "pbdbTaxonId": "txn:324165",
@@ -814,6 +894,189 @@
     "rangeProvisional": true
   },
   {
+    "id": "crinoidea",
+    "treeNodeId": "crinoidea",
+    "pbdbTaxonId": "txn:31590",
+    "scientificName": "Crinoidea",
+    "commonName": "Sea lilies and feather stars",
+    "commonNameZh": "海百合与海羊齿",
+    "rank": "class",
+    "parentName": "Echinodermata",
+    "extinct": false,
+    "geography": [
+      "Source-bounded early crinoid study localities"
+    ],
+    "overview": "A class-level profile anchored to a systematic treatment of early crinoid taxa; it keeps the middle Tremadocian unproblematic record separate from the problematic Middle Cambrian Echmatocrinus assignment.",
+    "ecology": {
+      "diet": "Undetermined from the cited systematic study",
+      "habitat": "Marine fossil context; class-wide preference not inferred",
+      "locomotion": "Not reconstructed from the cited early fossil sample",
+      "bodySize": "Not generalized beyond the named source material",
+      "guild": "Unresolved"
+    },
+    "traits": [
+      "Source-bounded anatomical characters of named early crinoid taxa",
+      "Class attribution kept separate from problematic Echmatocrinus material"
+    ],
+    "evidenceSummary": "The cited systematic study supports the middle Tremadocian record and discusses early crinoid anatomy, but it is not a global distribution, ecology or direct-ancestry reconstruction.",
+    "confidence": "high",
+    "referenceIds": [
+      "guensburg-2020-crinoid-origin"
+    ],
+    "firstAppearance": 482,
+    "lastAppearance": 0,
+    "rangeEvidenceLevel": "literature-synthesized",
+    "rangeReviewStatus": "not-reviewed",
+    "rangeProvisional": true
+  },
+  {
+    "id": "blastoidea",
+    "treeNodeId": "blastoidea",
+    "pbdbTaxonId": "txn:30820",
+    "scientificName": "Blastoidea",
+    "commonName": "Blastoids",
+    "commonNameZh": "海蕾类",
+    "rank": "class",
+    "parentName": "Echinodermata",
+    "extinct": true,
+    "geography": [
+      "Source-bounded Sandbian and Wuchiapingian records"
+    ],
+    "overview": "An extinct echinoderm class represented here by the Sandbian Macurdablastus record and a separately sourced Wuchiapingian last occurrence, rather than by an inferred extinction-boundary instant.",
+    "ecology": {
+      "diet": "Undetermined from the cited systematic and functional sources",
+      "habitat": "Fossil locality context only; no class-wide habitat inferred",
+      "locomotion": "Not reconstructed for the class from these sources",
+      "bodySize": "Not generalized beyond named study material",
+      "guild": "Unresolved"
+    },
+    "traits": [
+      "Macurdablastus treated as a named blastoid record",
+      "Hydrospire interpretation retained as source-bounded morphology"
+    ],
+    "evidenceSummary": "The displayed endpoints are observed fossil-record bounds from different studies; neither is turned into a universal ecology, an ancestor sequence or a Permian–Triassic extinction instant.",
+    "confidence": "medium",
+    "referenceIds": [
+      "bauer-2019-macurdablastus",
+      "paul-2021-blastoid-hydrospires"
+    ],
+    "firstAppearance": 455,
+    "lastAppearance": 255,
+    "rangeEvidenceLevel": "literature-synthesized",
+    "rangeReviewStatus": "not-reviewed",
+    "rangeProvisional": true
+  },
+  {
+    "id": "asteroidea",
+    "treeNodeId": "asteroidea",
+    "pbdbTaxonId": "txn:31341",
+    "scientificName": "Asteroidea",
+    "commonName": "Starfish",
+    "commonNameZh": "海星",
+    "rank": "class",
+    "parentName": "Echinodermata",
+    "extinct": false,
+    "geography": [
+      "Utah, United States (source-bounded Eriaster record)"
+    ],
+    "overview": "A class-level profile anchored to Eriaster ibexensis from the very top Tremadocian of Utah; problematic Lower Cambrian Asteriacites traces are not substituted for an asteroid body-fossil record.",
+    "ecology": {
+      "diet": "Undetermined from the cited body-fossil study",
+      "habitat": "Source-bounded marine depositional context",
+      "locomotion": "Not measured or reconstructed from this occurrence",
+      "bodySize": "Not generalized beyond the described material",
+      "guild": "Unresolved"
+    },
+    "traits": [
+      "Eriaster ibexensis body-fossil anatomy",
+      "Asteroid assignment kept distinct from problematic trace-fossil attribution"
+    ],
+    "evidenceSummary": "Eriaster directly anchors the displayed body-fossil boundary, but one occurrence does not establish a global first appearance, whole-class ecology or direct ancestry.",
+    "confidence": "medium",
+    "referenceIds": [
+      "blake-guensburg-2005-eriaster"
+    ],
+    "firstAppearance": 478,
+    "lastAppearance": 0,
+    "rangeEvidenceLevel": "literature-synthesized",
+    "rangeReviewStatus": "not-reviewed",
+    "rangeProvisional": true
+  },
+  {
+    "id": "ophiuroidea",
+    "treeNodeId": "ophiuroidea",
+    "pbdbTaxonId": "txn:31508",
+    "scientificName": "Ophiuroidea",
+    "commonName": "Brittle stars and basket stars",
+    "commonNameZh": "蛇尾与筐蛇尾",
+    "rank": "class",
+    "parentName": "Echinodermata",
+    "extinct": false,
+    "geography": [
+      "Wah Wah Formation, Utah, United States (source-bounded Stenaster record)"
+    ],
+    "overview": "A class-level profile tied to Floian Stenaster material from the Wah Wah Formation; its displayed endpoint is a stage ceiling, not a point-dated global first appearance.",
+    "ecology": {
+      "diet": "Undetermined from the cited systematic study",
+      "habitat": "Source-bounded marine formation context",
+      "locomotion": "Not measured or reconstructed from this occurrence",
+      "bodySize": "Not generalized beyond the described material",
+      "guild": "Unresolved"
+    },
+    "traits": [
+      "Class-level ophiuran anatomy in the described Stenaster material",
+      "Stage-bounded fossil evidence rather than a global origin estimate"
+    ],
+    "evidenceSummary": "Systematic material and a separately resolved PBDB occurrence support the Floian class record, but they do not determine global distribution, ecology or uninterrupted lineage duration.",
+    "confidence": "medium",
+    "referenceIds": [
+      "blake-2016-early-asterozoa",
+      "pbdb-api-2016"
+    ],
+    "firstAppearance": 477.1,
+    "lastAppearance": 0,
+    "rangeEvidenceLevel": "literature-synthesized",
+    "rangeReviewStatus": "not-reviewed",
+    "rangeProvisional": true
+  },
+  {
+    "id": "holothuroidea",
+    "treeNodeId": "holothuroidea",
+    "pbdbTaxonId": "txn:161964",
+    "scientificName": "Holothuroidea",
+    "commonName": "Sea cucumbers",
+    "commonNameZh": "海参",
+    "rank": "class",
+    "parentName": "Echinodermata",
+    "extinct": false,
+    "geography": [
+      "Llandrindod, Wales, United Kingdom (source-bounded Holothurian Bed record)"
+    ],
+    "overview": "A class-level profile anchored to the late Darriwilian articulated Oesolcucumaria eostre record from Wales; a disputed Cambrian database identification is retained as a rejected endpoint candidate.",
+    "ecology": {
+      "diet": "Undetermined from the articulated fossil record",
+      "habitat": "Holothurian Bed marine depositional context",
+      "locomotion": "Not measured from the fossil material",
+      "bodySize": "Not generalized beyond the named articulated material",
+      "guild": "Unresolved"
+    },
+    "traits": [
+      "Diagnostic calcareous ring in Oesolcucumaria eostre",
+      "Articulated body-fossil anatomy from the Holothurian Bed"
+    ],
+    "evidenceSummary": "The calcareous ring and articulated anatomy support a bounded class assignment and range endpoint, while the profile does not upgrade disputed Cambrian material into a global origin or ecology claim.",
+    "confidence": "high",
+    "referenceIds": [
+      "botting-muir-2012-holothurian-bed",
+      "pbdb-api-2016"
+    ],
+    "firstAppearance": 460,
+    "lastAppearance": 0,
+    "rangeEvidenceLevel": "literature-synthesized",
+    "rangeReviewStatus": "not-reviewed",
+    "rangeProvisional": true
+  },
+  {
     "id": "priscomyzon",
     "treeNodeId": "priscomyzon",
     "pbdbTaxonId": "txn:91453",
@@ -1174,6 +1437,168 @@
     ],
     "firstAppearance": 375,
     "lastAppearance": 375,
+    "rangeEvidenceLevel": "literature-synthesized",
+    "rangeReviewStatus": "automated-audit-passed",
+    "rangeProvisional": true
+  },
+  {
+    "id": "elpistostege",
+    "treeNodeId": "elpistostege",
+    "pbdbTaxonId": "txn:226298",
+    "scientificName": "Elpistostege",
+    "commonName": "Elpistostege",
+    "commonNameZh": "希望螈鱼",
+    "rank": "genus",
+    "parentName": "Stem tetrapodomorphs",
+    "extinct": true,
+    "geography": [
+      "Miguasha, Quebec, Canada",
+      "Escuminac Formation"
+    ],
+    "regionalRanges": [
+      {
+        "label": "Miguasha Frasnian specimen envelope",
+        "region": "Miguasha, Quebec, Canada",
+        "rangeKind": "taxon-range",
+        "olderMa": 382.31,
+        "youngerMa": 372.15,
+        "basis": "The named specimen and CT study provide a bounded regional occurrence context.",
+        "confidence": "high",
+        "evidenceLevel": "literature-synthesized",
+        "provisional": true,
+        "referenceIds": [
+          "cloutier-2020-elpistostege-hand"
+        ]
+      }
+    ],
+    "overview": "A late Devonian elpistostegalian represented by an exceptionally complete Miguasha specimen whose pectoral fin preserves a mosaic of fin-ray anatomy and wrist- or digit-like endoskeletal elements.",
+    "ecology": {
+      "diet": "Unavailable from the cited pectoral-fin study",
+      "habitat": "Miguasha aquatic depositional setting; finer habitat preference is unresolved",
+      "locomotion": "Fin propulsion; load-bearing or digit-assisted use remains an inference",
+      "bodySize": "Large-bodied elpistostegalian; a genus-wide size envelope is not inferred",
+      "guild": "Unresolved aquatic predator or generalist; no feeding guild is assigned"
+    },
+    "traits": [
+      "Four proximodistal radial rows in the pectoral fin",
+      "Branched carpals and distal elements interpreted as digits or putative digits",
+      "Lepidotrichia retained, confirming the appendage remained a fin"
+    ],
+    "evidenceSummary": "MHNM 06-2067 and CT reconstruction directly document the internal pectoral-fin architecture; digit homology and sister-group placement remain analysis-dependent, and the profile does not treat Elpistostege as a direct tetrapod ancestor.",
+    "confidence": "medium",
+    "referenceIds": [
+      "cloutier-2020-elpistostege-hand"
+    ],
+    "firstAppearance": 382.31,
+    "lastAppearance": 372.15,
+    "rangeEvidenceLevel": "literature-synthesized",
+    "rangeReviewStatus": "automated-audit-passed",
+    "rangeProvisional": true
+  },
+  {
+    "id": "acanthostega",
+    "treeNodeId": "acanthostega",
+    "pbdbTaxonId": "txn:36963",
+    "scientificName": "Acanthostega",
+    "commonName": "Acanthostega",
+    "commonNameZh": "棘螈",
+    "rank": "genus",
+    "parentName": "Stem tetrapodomorphs",
+    "extinct": true,
+    "geography": [
+      "East Greenland",
+      "Upper Devonian limnic deposits"
+    ],
+    "regionalRanges": [
+      {
+        "label": "East Greenland Famennian limb sample",
+        "region": "East Greenland",
+        "rangeKind": "taxon-range",
+        "olderMa": 372.15,
+        "youngerMa": 358.86,
+        "basis": "The described East Greenland limb specimens provide a bounded occurrence context.",
+        "confidence": "high",
+        "evidenceLevel": "literature-synthesized",
+        "provisional": true,
+        "referenceIds": [
+          "coates-1990-polydactyly"
+        ]
+      }
+    ],
+    "overview": "A Devonian tetrapod represented by East Greenland limb material that documents an eight-digit forelimb and preserves the distinction between digit-bearing limbs and evidence for terrestrial walking.",
+    "ecology": {
+      "diet": "Unavailable from the cited limb study",
+      "habitat": "Aquatic or marginal-water setting inferred from the study context; preference unresolved",
+      "locomotion": "Digit-bearing limb; terrestrial walking is not inferred from digit count alone",
+      "bodySize": "Small to medium-sized early tetrapod; a study-wide mass estimate is not provided here",
+      "guild": "Unresolved"
+    },
+    "traits": [
+      "Eight digits documented in the forelimb",
+      "Limb anatomy retains a non-pentadactyl Devonian condition",
+      "Digit-bearing limbs do not by themselves demonstrate habitual terrestrial walking"
+    ],
+    "evidenceSummary": "The described East Greenland limb specimens directly support eight-digit anatomy; ecological and locomotor implications remain bounded, and the profile does not infer a universal ancestral digit number or direct ancestry.",
+    "confidence": "high",
+    "referenceIds": [
+      "coates-1990-polydactyly"
+    ],
+    "firstAppearance": 372.15,
+    "lastAppearance": 358.86,
+    "rangeEvidenceLevel": "literature-synthesized",
+    "rangeReviewStatus": "automated-audit-passed",
+    "rangeProvisional": true
+  },
+  {
+    "id": "ichthyostega",
+    "treeNodeId": "ichthyostega",
+    "pbdbTaxonId": "txn:36965",
+    "scientificName": "Ichthyostega",
+    "commonName": "Ichthyostega",
+    "commonNameZh": "鱼石螈",
+    "rank": "genus",
+    "parentName": "Stem tetrapodomorphs",
+    "extinct": true,
+    "geography": [
+      "East Greenland",
+      "Upper Devonian limnic deposits"
+    ],
+    "regionalRanges": [
+      {
+        "label": "East Greenland Famennian mobility sample",
+        "region": "East Greenland",
+        "rangeKind": "taxon-range",
+        "olderMa": 372.15,
+        "youngerMa": 358.86,
+        "basis": "The named specimens and joint-mobility study provide a bounded occurrence context.",
+        "confidence": "high",
+        "evidenceLevel": "literature-synthesized",
+        "provisional": true,
+        "referenceIds": [
+          "pierce-2012-ichthyostega-mobility"
+        ]
+      }
+    ],
+    "overview": "A Devonian tetrapod whose three-dimensional limb reconstruction provides a bounded test of joint mobility and the mechanical requirements of a typical lateral-sequence walk.",
+    "ecology": {
+      "diet": "Unavailable from the cited joint-mobility study",
+      "habitat": "East Greenland aquatic or marginal-water depositional setting; preference unresolved",
+      "locomotion": "Restricted limb long-axis rotation in the tested reconstruction; this is not a direct observation of behaviour",
+      "bodySize": "Large-bodied early tetrapod; a study-wide body-size envelope is not inferred",
+      "guild": "Unresolved"
+    },
+    "traits": [
+      "Three-dimensional limb-joint reconstruction",
+      "No long-axis rotations required for a typical lateral-sequence walk in the tested model",
+      "Mobility result may be specialized to Ichthyostega rather than all early tetrapods"
+    ],
+    "evidenceSummary": "Micro-CT reconstruction and comparison with five living analogues constrain feasible joint motion; model assumptions and the difference between feasible motion and observed behaviour remain explicit.",
+    "confidence": "medium",
+    "referenceIds": [
+      "pierce-2012-ichthyostega-mobility"
+    ],
+    "firstAppearance": 372.15,
+    "lastAppearance": 358.86,
     "rangeEvidenceLevel": "literature-synthesized",
     "rangeReviewStatus": "automated-audit-passed",
     "rangeProvisional": true

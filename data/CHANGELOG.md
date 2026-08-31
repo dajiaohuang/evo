@@ -1,5 +1,12 @@
 # Dataset changelog
 
+## App 0.20.28 / 2026.08-static-v5-rc77 — 2026-08-31
+
+- Expanded the Angiospermae package from two to four complete profiles by adding Poaceae and Fabaceae, with 28 new field-to-claim links, and added a claim-linked Eudicotyledoneae evidence dossier without inventing a PBDB ID for its unresolved concept. The batch adds 11 claims grounded in primary studies with precise locators.
+- Expanded the Echinoderms package from two to seven complete profiles by adding Crinoidea, Blastoidea, Asteroidea, Ophiuroidea and Holothuroidea. Twenty new claims and five reused fossil-range claims retain specimen, locality and class-level interpretation boundaries.
+- Added field-linked Elpistostege, Acanthostega and Ichthyostega profiles to the tetrapod-transition package with three specimen-bounded ranges and 12 new bilingual claims. Regional samples, biomechanical models and phylogenetic analyses are not promoted to global ranges, direct ancestry or observed ecology.
+- Increased complete profiles from 66 to 76 and source-linked claims from 1,019 to 1,062 without adding a new scientific-validation subsystem. Pages remains `web-light`; Android and iOS build `31` retain the full COL26.8 catalogue, every native authority shard, all 109 lossless 0.1° PaleoDEM frames and all enriched package data.
+
 ## App 0.20.27 / 2026.08-static-v5-rc76 — 2026-08-31
 
 - Added an independent fixed ITIS `2026-08-26` CC0 Fungi kingdom collection without replacing the complete Species Fungorum / Index Fungorum source linkage. All 157,044 COL26.8 accepted Fungi species retain explicit outcomes: 928 exact current names, 45 official synonym redirects, one ambiguity and 156,070 unmatched rows; 1,761 ITIS-only current species remain in a null-COL partition.

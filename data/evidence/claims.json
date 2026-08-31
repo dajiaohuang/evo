@@ -1923,6 +1923,428 @@
     ]
   },
   {
+    "id": "claim:taxon:crinoidea:taxonomy",
+    "subjectId": "taxon:crinoidea",
+    "claimKind": "scientific",
+    "claimType": "taxonomy",
+    "statement": "The cited systematic study treats named early crinoid taxa and explicitly keeps problematic Middle Cambrian Echmatocrinus outside the unproblematic Crinoidea record used by this profile.",
+    "confidence": "high",
+    "confidenceRationale": "The source makes the record boundary explicit in a systematic treatment; the profile does not turn that bounded treatment into a universal crinoid topology or direct-ancestry claim.",
+    "reviewedBy": "Evo Atlas maintainer primary-source audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "guensburg-2020-crinoid-origin at 2026.08-static-v5-rc76",
+    "referenceLinks": [
+      {
+        "referenceId": "guensburg-2020-crinoid-origin",
+        "relation": "supports",
+        "pages": "311–312",
+        "quoteLocator": "Introduction, discussion of the middle Tremadocian record and problematic Echmatocrinus"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:crinoidea:biogeography",
+    "subjectId": "taxon:crinoidea",
+    "claimKind": "scientific",
+    "claimType": "biogeography",
+    "statement": "The cited early-crinoid systematic material supplies source-bounded fossil locality context, not a global distribution, endemicity or dispersal reconstruction for Crinoidea.",
+    "confidence": "medium",
+    "confidenceRationale": "The primary study documents its sampled fossil context, but a systematic sample cannot establish class-wide geographic presence, absence or origin centre.",
+    "reviewedBy": "Evo Atlas maintainer primary-source audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "guensburg-2020-crinoid-origin at 2026.08-static-v5-rc76",
+    "referenceLinks": [
+      {
+        "referenceId": "guensburg-2020-crinoid-origin",
+        "relation": "supports",
+        "pages": "311–333",
+        "quoteLocator": "Abstract, locality and systematic-palaeontology sections"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:crinoidea:ecology",
+    "subjectId": "taxon:crinoidea",
+    "claimKind": "scientific",
+    "claimType": "ecology",
+    "statement": "The cited systematic study does not establish class-wide diet, habitat preference, locomotor performance, body-size distribution or guild for Crinoidea; these fields remain explicitly unresolved beyond marine fossil context.",
+    "confidence": "high",
+    "confidenceRationale": "This is an evidence-boundary claim: the source is a systematic account of early fossils, not a whole-class ecological reconstruction.",
+    "reviewedBy": "Evo Atlas maintainer primary-source audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "guensburg-2020-crinoid-origin at 2026.08-static-v5-rc76",
+    "referenceLinks": [
+      {
+        "referenceId": "guensburg-2020-crinoid-origin",
+        "relation": "supports",
+        "pages": "311–333",
+        "quoteLocator": "Scope of systematic descriptions and early crinoid origin discussion"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:crinoidea:morphology",
+    "subjectId": "taxon:crinoidea",
+    "claimKind": "scientific",
+    "claimType": "morphology",
+    "statement": "The source documents anatomical characters in named early crinoid taxa, while the profile keeps those observations source-bounded and does not present them as an invariant class-wide character list.",
+    "confidence": "high",
+    "confidenceRationale": "The study directly describes morphology in named specimens; the limitation avoids extrapolating a restricted fossil sample to every crinoid lineage.",
+    "reviewedBy": "Evo Atlas maintainer primary-source audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "guensburg-2020-crinoid-origin at 2026.08-static-v5-rc76",
+    "referenceLinks": [
+      {
+        "referenceId": "guensburg-2020-crinoid-origin",
+        "relation": "supports",
+        "pages": "311–333",
+        "quoteLocator": "Systematic palaeontology and arm-evolution discussion"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:blastoidea:taxonomy",
+    "subjectId": "taxon:blastoidea",
+    "claimKind": "scientific",
+    "claimType": "taxonomy",
+    "statement": "Macurdablastus uniplicatus is treated in the cited revision as a blastoid outside Eublastoidea, providing a source-bounded class record rather than a claim about every blastoid relationship.",
+    "confidence": "medium",
+    "confidenceRationale": "The revision directly redefines Eublastoidea around a named taxon, but broader blastoid relationships remain subject to taxonomic revision and sampling.",
+    "reviewedBy": "Evo Atlas maintainer primary-source audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "bauer-2019-macurdablastus at 2026.08-static-v5-rc76",
+    "referenceLinks": [
+      {
+        "referenceId": "bauer-2019-macurdablastus",
+        "relation": "supports",
+        "pages": "1003–1013",
+        "figure": "Figures 1E–F and 2",
+        "quoteLocator": "Abstract and Systematic palaeontology: Class Blastoidea"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:blastoidea:biogeography",
+    "subjectId": "taxon:blastoidea",
+    "claimKind": "scientific",
+    "claimType": "biogeography",
+    "statement": "The displayed blastoid evidence is restricted to named Sandbian and Wuchiapingian records in its source studies and does not establish a global distribution, origin centre or extinction geography.",
+    "confidence": "medium",
+    "confidenceRationale": "The references document record endpoints, not a geographically complete blastoid occurrence census.",
+    "reviewedBy": "Evo Atlas maintainer primary-source audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "bauer-2019-macurdablastus and paul-2021-blastoid-hydrospires at 2026.08-static-v5-rc76",
+    "referenceLinks": [
+      {
+        "referenceId": "bauer-2019-macurdablastus",
+        "relation": "supports",
+        "pages": "1003–1013",
+        "quoteLocator": "Macurdablastus occurrence and systematic context"
+      },
+      {
+        "referenceId": "paul-2021-blastoid-hydrospires",
+        "relation": "supports",
+        "quoteLocator": "Introduction, reported late Sandbian to Wuchiapingian range"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:blastoidea:ecology",
+    "subjectId": "taxon:blastoidea",
+    "claimKind": "scientific",
+    "claimType": "ecology",
+    "statement": "The cited systematic and hydrospire studies do not establish a class-wide diet, habitat preference, locomotor performance, body-size distribution or guild for Blastoidea; these fields remain unresolved.",
+    "confidence": "high",
+    "confidenceRationale": "The evidence is limited to named fossil morphology and a functional discussion, not a whole-class ecology reconstruction.",
+    "reviewedBy": "Evo Atlas maintainer primary-source audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "bauer-2019-macurdablastus and paul-2021-blastoid-hydrospires at 2026.08-static-v5-rc76",
+    "referenceLinks": [
+      {
+        "referenceId": "bauer-2019-macurdablastus",
+        "relation": "supports",
+        "pages": "1003–1013",
+        "quoteLocator": "Systematic palaeontology and stated study scope"
+      },
+      {
+        "referenceId": "paul-2021-blastoid-hydrospires",
+        "relation": "supports",
+        "quoteLocator": "Functional-significance scope and range discussion"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:blastoidea:morphology",
+    "subjectId": "taxon:blastoidea",
+    "claimKind": "scientific",
+    "claimType": "morphology",
+    "statement": "Macurdablastus is a named blastoid with source-described morphology, and hydrospire interpretation is retained as a source-bounded functional-morphology result rather than a class-wide invariant trait.",
+    "confidence": "medium",
+    "confidenceRationale": "The references directly support named anatomical and functional-morphology discussions, but their scope does not cover all blastoid variation.",
+    "reviewedBy": "Evo Atlas maintainer primary-source audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "bauer-2019-macurdablastus and paul-2021-blastoid-hydrospires at 2026.08-static-v5-rc76",
+    "referenceLinks": [
+      {
+        "referenceId": "bauer-2019-macurdablastus",
+        "relation": "supports",
+        "pages": "1003–1013",
+        "figure": "Figures 1E–F and 2",
+        "quoteLocator": "Systematic palaeontology: Class Blastoidea"
+      },
+      {
+        "referenceId": "paul-2021-blastoid-hydrospires",
+        "relation": "supports",
+        "quoteLocator": "Functional and evolutionary significance of blastoid hydrospires"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:asteroidea:taxonomy",
+    "subjectId": "taxon:asteroidea",
+    "claimKind": "scientific",
+    "claimType": "taxonomy",
+    "statement": "Eriaster ibexensis is treated as an asteroid body fossil in the cited systematic study; problematic Lower Cambrian Asteriacites traces are not used as an Asteroidea body-fossil assignment.",
+    "confidence": "medium",
+    "confidenceRationale": "The study directly describes Eriaster and separates it from the problematic trace evidence, while the profile does not claim a complete asteroid topology.",
+    "reviewedBy": "Evo Atlas maintainer primary-source audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "blake-guensburg-2005-eriaster at 2026.08-static-v5-rc76",
+    "referenceLinks": [
+      {
+        "referenceId": "blake-guensburg-2005-eriaster",
+        "relation": "supports",
+        "pages": "395–399",
+        "figure": "Figures 1–2",
+        "quoteLocator": "Abstract, stratigraphic positions and Systematic palaeontology"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:asteroidea:biogeography",
+    "subjectId": "taxon:asteroidea",
+    "claimKind": "scientific",
+    "claimType": "biogeography",
+    "statement": "Eriaster ibexensis is a source-bounded very-top-Tremadocian record from Utah, United States; it does not establish a global asteroid distribution or origin centre.",
+    "confidence": "medium",
+    "confidenceRationale": "The cited primary study reports the named locality and stratigraphic setting, but one occurrence cannot establish global biogeography.",
+    "reviewedBy": "Evo Atlas maintainer primary-source audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "blake-guensburg-2005-eriaster at 2026.08-static-v5-rc76",
+    "referenceLinks": [
+      {
+        "referenceId": "blake-guensburg-2005-eriaster",
+        "relation": "supports",
+        "pages": "395–399",
+        "quoteLocator": "Stratigraphic positions and locality discussion"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:asteroidea:ecology",
+    "subjectId": "taxon:asteroidea",
+    "claimKind": "scientific",
+    "claimType": "ecology",
+    "statement": "The Eriaster body-fossil study does not establish class-wide diet, habitat preference, locomotor performance, body-size distribution or guild for Asteroidea; only source-bounded marine depositional context is retained.",
+    "confidence": "high",
+    "confidenceRationale": "This explicitly limits inference to the scope of a body-fossil systematic study rather than filling ecological fields from living analogues.",
+    "reviewedBy": "Evo Atlas maintainer primary-source audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "blake-guensburg-2005-eriaster at 2026.08-static-v5-rc76",
+    "referenceLinks": [
+      {
+        "referenceId": "blake-guensburg-2005-eriaster",
+        "relation": "supports",
+        "pages": "395–399",
+        "quoteLocator": "Study scope, stratigraphic positions and Systematic palaeontology"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:asteroidea:morphology",
+    "subjectId": "taxon:asteroidea",
+    "claimKind": "scientific",
+    "claimType": "morphology",
+    "statement": "The cited study documents Eriaster ibexensis body-fossil anatomy; the profile keeps this specimen-level morphology separate from problematic trace fossils and from a class-wide trait inventory.",
+    "confidence": "medium",
+    "confidenceRationale": "The figures and systematic description support the named fossil anatomy, while preservation and sampling limit generalization to all asteroid lineages.",
+    "reviewedBy": "Evo Atlas maintainer primary-source audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "blake-guensburg-2005-eriaster at 2026.08-static-v5-rc76",
+    "referenceLinks": [
+      {
+        "referenceId": "blake-guensburg-2005-eriaster",
+        "relation": "supports",
+        "pages": "395–399",
+        "figure": "Figures 1–2",
+        "quoteLocator": "Systematic palaeontology of Eriaster ibexensis"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:ophiuroidea:taxonomy",
+    "subjectId": "taxon:ophiuroidea",
+    "claimKind": "scientific",
+    "claimType": "taxonomy",
+    "statement": "The cited systematic study reports Stenaster as class-level ophiuran material; the profile uses that bounded assignment without claiming a complete ophiuran topology or direct ancestry.",
+    "confidence": "medium",
+    "confidenceRationale": "The source provides a clear class-level systematic treatment, whereas deeper relationships and whole-class membership are beyond its sampled material.",
+    "reviewedBy": "Evo Atlas maintainer primary-source audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "blake-2016-early-asterozoa at 2026.08-static-v5-rc76",
+    "referenceLinks": [
+      {
+        "referenceId": "blake-2016-early-asterozoa",
+        "relation": "supports",
+        "pages": "161–181",
+        "quoteLocator": "Abstract and Systematic palaeontology: Stenaster sp."
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:ophiuroidea:biogeography",
+    "subjectId": "taxon:ophiuroidea",
+    "claimKind": "scientific",
+    "claimType": "biogeography",
+    "statement": "The cited Stenaster record is from the Floian Wah Wah Formation of Utah, United States; it is a source-bounded occurrence rather than a global ophiuran distribution or origin claim.",
+    "confidence": "medium",
+    "confidenceRationale": "The systematic source and independently resolved PBDB occurrence identify a formation and stage, but neither is a complete geographic census.",
+    "reviewedBy": "Evo Atlas maintainer primary-source audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "blake-2016-early-asterozoa plus PBDB occ:1541278 at 2026.08-static-v5-rc76",
+    "referenceLinks": [
+      {
+        "referenceId": "blake-2016-early-asterozoa",
+        "relation": "supports",
+        "pages": "161–181",
+        "quoteLocator": "Systematic palaeontology: Stenaster sp."
+      },
+      {
+        "referenceId": "pbdb-api-2016",
+        "relation": "contextualizes",
+        "quoteLocator": "PBDB occ:1541278, col:216850, Floian Wah Wah Formation"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:ophiuroidea:ecology",
+    "subjectId": "taxon:ophiuroidea",
+    "claimKind": "scientific",
+    "claimType": "ecology",
+    "statement": "The Stenaster systematic record does not establish class-wide diet, habitat preference, locomotor performance, body-size distribution or guild for Ophiuroidea; only source-bounded marine formation context is retained.",
+    "confidence": "high",
+    "confidenceRationale": "The statement preserves the ecological boundary of a systematic fossil study and avoids substituting living brittle-star ecology for the described occurrence.",
+    "reviewedBy": "Evo Atlas maintainer primary-source audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "blake-2016-early-asterozoa at 2026.08-static-v5-rc76",
+    "referenceLinks": [
+      {
+        "referenceId": "blake-2016-early-asterozoa",
+        "relation": "supports",
+        "pages": "161–181",
+        "quoteLocator": "Study scope and Systematic palaeontology: Stenaster sp."
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:ophiuroidea:morphology",
+    "subjectId": "taxon:ophiuroidea",
+    "claimKind": "scientific",
+    "claimType": "morphology",
+    "statement": "The cited systematic treatment describes class-level ophiuran anatomy in Stenaster material, which remains a source-bounded fossil observation rather than a class-wide invariant trait list.",
+    "confidence": "medium",
+    "confidenceRationale": "The source directly supplies the named systematic evidence; the profile does not extrapolate preservation-limited material to every ophiuran lineage.",
+    "reviewedBy": "Evo Atlas maintainer primary-source audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "blake-2016-early-asterozoa at 2026.08-static-v5-rc76",
+    "referenceLinks": [
+      {
+        "referenceId": "blake-2016-early-asterozoa",
+        "relation": "supports",
+        "pages": "161–181",
+        "quoteLocator": "Systematic palaeontology: Stenaster sp."
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:holothuroidea:taxonomy",
+    "subjectId": "taxon:holothuroidea",
+    "claimKind": "scientific",
+    "claimType": "taxonomy",
+    "statement": "Oesolcucumaria eostre is assigned to Holothuroidea in the cited systematic study by articulated anatomy including a diagnostic calcareous ring; disputed Cambrian material is not used as an equivalent class record.",
+    "confidence": "high",
+    "confidenceRationale": "The holotype and paratypes preserve the diagnostic structure described by the primary study, while the rejected Cambrian candidate lacks an equivalent dedicated revision.",
+    "reviewedBy": "Evo Atlas maintainer primary-source audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "botting-muir-2012-holothurian-bed at 2026.08-static-v5-rc76",
+    "referenceLinks": [
+      {
+        "referenceId": "botting-muir-2012-holothurian-bed",
+        "relation": "supports",
+        "figure": "Figure 9; holotype Figure 9.1",
+        "quoteLocator": "Systematic palaeontology: Class Holothuroidea and Oesolcucumaria"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:holothuroidea:biogeography",
+    "subjectId": "taxon:holothuroidea",
+    "claimKind": "scientific",
+    "claimType": "biogeography",
+    "statement": "The cited articulated Oesolcucumaria record is from the late Darriwilian Holothurian Bed at Llandrindod, Wales; it does not establish global holothurian distribution or an origin centre.",
+    "confidence": "high",
+    "confidenceRationale": "The study reports a named locality and horizon directly, but one articulated bed cannot stand in for complete class biogeography.",
+    "reviewedBy": "Evo Atlas maintainer primary-source audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "botting-muir-2012-holothurian-bed at 2026.08-static-v5-rc76",
+    "referenceLinks": [
+      {
+        "referenceId": "botting-muir-2012-holothurian-bed",
+        "relation": "supports",
+        "quoteLocator": "Holothurian Bed locality, Holotype and Occurrence sections"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:holothuroidea:ecology",
+    "subjectId": "taxon:holothuroidea",
+    "claimKind": "scientific",
+    "claimType": "ecology",
+    "statement": "The articulated Holothurian Bed record does not establish class-wide diet, habitat preference, locomotor performance, body-size distribution or guild for Holothuroidea; the profile retains only its marine depositional context.",
+    "confidence": "high",
+    "confidenceRationale": "The study includes fauna and ecology at a fossil-bed scale, not a whole-class reconstruction; unsupported ecological generalizations remain withheld.",
+    "reviewedBy": "Evo Atlas maintainer primary-source audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "botting-muir-2012-holothurian-bed at 2026.08-static-v5-rc76",
+    "referenceLinks": [
+      {
+        "referenceId": "botting-muir-2012-holothurian-bed",
+        "relation": "supports",
+        "quoteLocator": "Fauna and ecology scope; Systematic palaeontology and occurrence sections"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:holothuroidea:morphology",
+    "subjectId": "taxon:holothuroidea",
+    "claimKind": "scientific",
+    "claimType": "morphology",
+    "statement": "Oesolcucumaria eostre preserves an articulated body and diagnostic calcareous ring in the cited Holothurian Bed material; these observations remain specimen- and locality-bounded.",
+    "confidence": "high",
+    "confidenceRationale": "The cited figure, holotype and systematic description directly document the anatomical basis, while the profile does not treat one fossil assemblage as all holothurian morphology.",
+    "reviewedBy": "Evo Atlas maintainer primary-source audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "botting-muir-2012-holothurian-bed at 2026.08-static-v5-rc76",
+    "referenceLinks": [
+      {
+        "referenceId": "botting-muir-2012-holothurian-bed",
+        "relation": "supports",
+        "figure": "Figure 9; holotype Figure 9.1",
+        "quoteLocator": "Oesolcucumaria remarks, holotype and occurrence"
+      }
+    ]
+  },
+  {
     "id": "claim:event:dapingian-cryptospores",
     "subjectId": "event:dapingian-cryptospores",
     "claimKind": "scientific",
@@ -7766,7 +8188,7 @@
     "confidenceRationale": "The clade definitions are explicit in Table 1, while the Dallasaurus skeletons directly preserve plesiopedal limbs. Basal branching remains analysis-sensitive, so the claim distinguishes definitions and anatomy from one universal topology.",
     "reviewedBy": "Evo Atlas automated evidence decomposition",
     "reviewedAt": "2026-08-30",
-    "reviewedAgainstReferenceVersion": "Primary-study locators audited at 2026.08-static-v5-rc76",
+    "reviewedAgainstReferenceVersion": "Primary-study locators audited at 2026.08-static-v5-rc77",
     "referenceLinks": [
       {
         "referenceId": "madzia-cau-2017-mosasauroid-nomenclature",
@@ -7794,7 +8216,7 @@
     "confidenceRationale": "Bobosaurus is a named articulated specimen, but its placement was presented with alternatives. Rhaeticosaurus preserves a diagnostic articulated skeleton and was tested phylogenetically, allowing evidence age and assignment confidence to remain separate.",
     "reviewedBy": "Evo Atlas automated evidence decomposition",
     "reviewedAt": "2026-08-30",
-    "reviewedAgainstReferenceVersion": "Primary-study locators audited at 2026.08-static-v5-rc76",
+    "reviewedAgainstReferenceVersion": "Primary-study locators audited at 2026.08-static-v5-rc77",
     "referenceLinks": [
       {
         "referenceId": "dalla-vecchia-2006-bobosaurus",
@@ -7822,7 +8244,7 @@
     "confidenceRationale": "The profile separates directly documented specimens and explicit analyses from global range, behaviour and ancestry inferences; confidence is bounded by the cited primary study and its stated sample. This rationale is specific to tiktaalik:taxonomy.",
     "reviewedBy": "Evo Atlas automated evidence decomposition",
     "reviewedAt": "2026-08-30",
-    "reviewedAgainstReferenceVersion": "Primary-study locators audited at 2026.08-static-v5-rc76",
+    "reviewedAgainstReferenceVersion": "Primary-study locators audited at 2026.08-static-v5-rc77",
     "referenceLinks": [
       {
         "referenceId": "daeschler-2006-tiktaalik-body-plan",
@@ -7843,7 +8265,7 @@
     "confidenceRationale": "The profile separates directly documented specimens and explicit analyses from global range, behaviour and ancestry inferences; confidence is bounded by the cited primary study and its stated sample. This rationale is specific to tiktaalik:fossil-range.",
     "reviewedBy": "Evo Atlas automated evidence decomposition",
     "reviewedAt": "2026-08-30",
-    "reviewedAgainstReferenceVersion": "Primary-study locators audited at 2026.08-static-v5-rc76",
+    "reviewedAgainstReferenceVersion": "Primary-study locators audited at 2026.08-static-v5-rc77",
     "referenceLinks": [
       {
         "referenceId": "daeschler-2006-tiktaalik-body-plan",
@@ -7864,7 +8286,7 @@
     "confidenceRationale": "The profile separates directly documented specimens and explicit analyses from global range, behaviour and ancestry inferences; confidence is bounded by the cited primary study and its stated sample. This rationale is specific to tiktaalik:biogeography.",
     "reviewedBy": "Evo Atlas automated evidence decomposition",
     "reviewedAt": "2026-08-30",
-    "reviewedAgainstReferenceVersion": "Primary-study locators audited at 2026.08-static-v5-rc76",
+    "reviewedAgainstReferenceVersion": "Primary-study locators audited at 2026.08-static-v5-rc77",
     "referenceLinks": [
       {
         "referenceId": "daeschler-2006-tiktaalik-body-plan",
@@ -7885,7 +8307,7 @@
     "confidenceRationale": "The profile separates directly documented specimens and explicit analyses from global range, behaviour and ancestry inferences; confidence is bounded by the cited primary study and its stated sample. This rationale is specific to tiktaalik:morphology.",
     "reviewedBy": "Evo Atlas automated evidence decomposition",
     "reviewedAt": "2026-08-30",
-    "reviewedAgainstReferenceVersion": "Primary-study locators audited at 2026.08-static-v5-rc76",
+    "reviewedAgainstReferenceVersion": "Primary-study locators audited at 2026.08-static-v5-rc77",
     "referenceLinks": [
       {
         "referenceId": "daeschler-2006-tiktaalik-body-plan",
@@ -7906,7 +8328,7 @@
     "confidenceRationale": "The profile separates directly documented specimens and explicit analyses from global range, behaviour and ancestry inferences; confidence is bounded by the cited primary study and its stated sample. This rationale is specific to tiktaalik:ecology.",
     "reviewedBy": "Evo Atlas automated evidence decomposition",
     "reviewedAt": "2026-08-30",
-    "reviewedAgainstReferenceVersion": "Primary-study locators audited at 2026.08-static-v5-rc76",
+    "reviewedAgainstReferenceVersion": "Primary-study locators audited at 2026.08-static-v5-rc77",
     "referenceLinks": [
       {
         "referenceId": "daeschler-2006-tiktaalik-body-plan",
@@ -7927,7 +8349,7 @@
     "confidenceRationale": "The claim follows the study's systematic assignment and explicit 144-character analysis, while remaining bounded to that matrix and not turning Dallasaurus into a direct ancestor or a universal family definition.",
     "reviewedBy": "Evo Atlas automated evidence decomposition",
     "reviewedAt": "2026-08-30",
-    "reviewedAgainstReferenceVersion": "Primary-study locators audited at 2026.08-static-v5-rc76",
+    "reviewedAgainstReferenceVersion": "Primary-study locators audited at 2026.08-static-v5-rc77",
     "referenceLinks": [
       {
         "referenceId": "bell-polcyn-2005-dallasaurus",
@@ -7948,7 +8370,7 @@
     "confidenceRationale": "Both endpoints are tied to named specimens and explicit stratigraphic contexts, but the rounded envelope joins two local samples and therefore cannot establish unsampled global first or last appearances.",
     "reviewedBy": "Evo Atlas automated evidence decomposition",
     "reviewedAt": "2026-08-30",
-    "reviewedAgainstReferenceVersion": "Primary-study locators audited at 2026.08-static-v5-rc76",
+    "reviewedAgainstReferenceVersion": "Primary-study locators audited at 2026.08-static-v5-rc77",
     "referenceLinks": [
       {
         "referenceId": "bell-polcyn-2005-dallasaurus",
@@ -7976,7 +8398,7 @@
     "confidenceRationale": "The two localities and stratigraphic positions are directly reported for named specimens, while the claim explicitly withholds a global distribution inference from two sampled regions.",
     "reviewedBy": "Evo Atlas automated evidence decomposition",
     "reviewedAt": "2026-08-30",
-    "reviewedAgainstReferenceVersion": "Primary-study locators audited at 2026.08-static-v5-rc76",
+    "reviewedAgainstReferenceVersion": "Primary-study locators audited at 2026.08-static-v5-rc77",
     "referenceLinks": [
       {
         "referenceId": "bell-polcyn-2005-dallasaurus",
@@ -8004,7 +8426,7 @@
     "confidenceRationale": "Named specimens and figured bones directly support the anatomy, while independent origins of hydropedal limbs depend on the study's character coding and three equally parsimonious trees.",
     "reviewedBy": "Evo Atlas automated evidence decomposition",
     "reviewedAt": "2026-08-30",
-    "reviewedAgainstReferenceVersion": "Primary-study locators audited at 2026.08-static-v5-rc76",
+    "reviewedAgainstReferenceVersion": "Primary-study locators audited at 2026.08-static-v5-rc77",
     "referenceLinks": [
       {
         "referenceId": "bell-polcyn-2005-dallasaurus",
@@ -8025,7 +8447,7 @@
     "confidenceRationale": "The adaptive-grade morphology and five-taxon isotope measurements are direct, but ecological interpretation is sample-bounded and combines body size, diet, diving and habitat effects that the isotope study does not fully separate.",
     "reviewedBy": "Evo Atlas automated evidence decomposition",
     "reviewedAt": "2026-08-30",
-    "reviewedAgainstReferenceVersion": "Primary-study locators audited at 2026.08-static-v5-rc76",
+    "reviewedAgainstReferenceVersion": "Primary-study locators audited at 2026.08-static-v5-rc77",
     "referenceLinks": [
       {
         "referenceId": "bell-polcyn-2005-dallasaurus",
@@ -8053,7 +8475,7 @@
     "confidenceRationale": "The profile separates directly documented specimens and explicit analyses from global range, behaviour and ancestry inferences; confidence is bounded by the cited primary study and its stated sample. This rationale is specific to ichthyosaurus:taxonomy.",
     "reviewedBy": "Evo Atlas automated evidence decomposition",
     "reviewedAt": "2026-08-30",
-    "reviewedAgainstReferenceVersion": "Primary-study locators audited at 2026.08-static-v5-rc76",
+    "reviewedAgainstReferenceVersion": "Primary-study locators audited at 2026.08-static-v5-rc77",
     "referenceLinks": [
       {
         "referenceId": "lomax-massare-2017-ichthyosaurus",
@@ -8074,7 +8496,7 @@
     "confidenceRationale": "The profile separates directly documented specimens and explicit analyses from global range, behaviour and ancestry inferences; confidence is bounded by the cited primary study and its stated sample. This rationale is specific to ichthyosaurus:fossil-range.",
     "reviewedBy": "Evo Atlas automated evidence decomposition",
     "reviewedAt": "2026-08-30",
-    "reviewedAgainstReferenceVersion": "Primary-study locators audited at 2026.08-static-v5-rc76",
+    "reviewedAgainstReferenceVersion": "Primary-study locators audited at 2026.08-static-v5-rc77",
     "referenceLinks": [
       {
         "referenceId": "lomax-massare-2017-ichthyosaurus",
@@ -8095,7 +8517,7 @@
     "confidenceRationale": "The profile separates directly documented specimens and explicit analyses from global range, behaviour and ancestry inferences; confidence is bounded by the cited primary study and its stated sample. This rationale is specific to ichthyosaurus:biogeography.",
     "reviewedBy": "Evo Atlas automated evidence decomposition",
     "reviewedAt": "2026-08-30",
-    "reviewedAgainstReferenceVersion": "Primary-study locators audited at 2026.08-static-v5-rc76",
+    "reviewedAgainstReferenceVersion": "Primary-study locators audited at 2026.08-static-v5-rc77",
     "referenceLinks": [
       {
         "referenceId": "lomax-massare-2017-ichthyosaurus",
@@ -8116,7 +8538,7 @@
     "confidenceRationale": "The profile separates directly documented specimens and explicit analyses from global range, behaviour and ancestry inferences; confidence is bounded by the cited primary study and its stated sample. This rationale is specific to ichthyosaurus:morphology.",
     "reviewedBy": "Evo Atlas automated evidence decomposition",
     "reviewedAt": "2026-08-30",
-    "reviewedAgainstReferenceVersion": "Primary-study locators audited at 2026.08-static-v5-rc76",
+    "reviewedAgainstReferenceVersion": "Primary-study locators audited at 2026.08-static-v5-rc77",
     "referenceLinks": [
       {
         "referenceId": "lomax-massare-2017-ichthyosaurus",
@@ -8137,7 +8559,7 @@
     "confidenceRationale": "The profile separates directly documented specimens and explicit analyses from global range, behaviour and ancestry inferences; confidence is bounded by the cited primary study and its stated sample. This rationale is specific to ichthyosaurus:ecology.",
     "reviewedBy": "Evo Atlas automated evidence decomposition",
     "reviewedAt": "2026-08-31",
-    "reviewedAgainstReferenceVersion": "Primary-study locators audited at 2026.08-static-v5-rc76",
+    "reviewedAgainstReferenceVersion": "Primary-study locators audited at 2026.08-static-v5-rc77",
     "referenceLinks": [
       {
         "referenceId": "lomax-massare-2017-ichthyosaurus",
@@ -8171,7 +8593,7 @@
     "confidenceRationale": "The profile separates directly documented specimens and explicit analyses from global range, behaviour and ancestry inferences; confidence is bounded by the cited primary study and its stated sample. This rationale is specific to plesiosauria:taxonomy.",
     "reviewedBy": "Evo Atlas automated evidence decomposition",
     "reviewedAt": "2026-08-30",
-    "reviewedAgainstReferenceVersion": "Primary-study locators audited at 2026.08-static-v5-rc76",
+    "reviewedAgainstReferenceVersion": "Primary-study locators audited at 2026.08-static-v5-rc77",
     "referenceLinks": [
       {
         "referenceId": "wintrich-2017-rhaeticosaurus",
@@ -8192,7 +8614,7 @@
     "confidenceRationale": "The profile separates directly documented specimens and explicit analyses from global range, behaviour and ancestry inferences; confidence is bounded by the cited primary study and its stated sample. This rationale is specific to plesiosauria:fossil-range.",
     "reviewedBy": "Evo Atlas automated evidence decomposition",
     "reviewedAt": "2026-08-30",
-    "reviewedAgainstReferenceVersion": "Primary-study locators audited at 2026.08-static-v5-rc76",
+    "reviewedAgainstReferenceVersion": "Primary-study locators audited at 2026.08-static-v5-rc77",
     "referenceLinks": [
       {
         "referenceId": "wintrich-2017-rhaeticosaurus",
@@ -8213,7 +8635,7 @@
     "confidenceRationale": "The profile separates directly documented specimens and explicit analyses from global range, behaviour and ancestry inferences; confidence is bounded by the cited primary study and its stated sample. This rationale is specific to plesiosauria:biogeography.",
     "reviewedBy": "Evo Atlas automated evidence decomposition",
     "reviewedAt": "2026-08-30",
-    "reviewedAgainstReferenceVersion": "Primary-study locators audited at 2026.08-static-v5-rc76",
+    "reviewedAgainstReferenceVersion": "Primary-study locators audited at 2026.08-static-v5-rc77",
     "referenceLinks": [
       {
         "referenceId": "wintrich-2017-rhaeticosaurus",
@@ -8234,7 +8656,7 @@
     "confidenceRationale": "The profile separates directly documented specimens and explicit analyses from global range, behaviour and ancestry inferences; confidence is bounded by the cited primary study and its stated sample. This rationale is specific to plesiosauria:morphology.",
     "reviewedBy": "Evo Atlas automated evidence decomposition",
     "reviewedAt": "2026-08-30",
-    "reviewedAgainstReferenceVersion": "Primary-study locators audited at 2026.08-static-v5-rc76",
+    "reviewedAgainstReferenceVersion": "Primary-study locators audited at 2026.08-static-v5-rc77",
     "referenceLinks": [
       {
         "referenceId": "wintrich-2017-rhaeticosaurus",
@@ -8255,7 +8677,7 @@
     "confidenceRationale": "The profile separates directly documented specimens and explicit analyses from global range, behaviour and ancestry inferences; confidence is bounded by the cited primary study and its stated sample. This rationale is specific to plesiosauria:ecology.",
     "reviewedBy": "Evo Atlas automated evidence decomposition",
     "reviewedAt": "2026-08-30",
-    "reviewedAgainstReferenceVersion": "Primary-study locators audited at 2026.08-static-v5-rc76",
+    "reviewedAgainstReferenceVersion": "Primary-study locators audited at 2026.08-static-v5-rc77",
     "referenceLinks": [
       {
         "referenceId": "wintrich-2017-rhaeticosaurus",
@@ -8276,7 +8698,7 @@
     "confidenceRationale": "The profile separates directly documented specimens and explicit analyses from global range, behaviour and ancestry inferences; confidence is bounded by the cited primary study and its stated sample. This rationale is specific to pterosauria:taxonomy.",
     "reviewedBy": "Evo Atlas automated evidence decomposition",
     "reviewedAt": "2026-08-31",
-    "reviewedAgainstReferenceVersion": "Primary-study locators audited at 2026.08-static-v5-rc76",
+    "reviewedAgainstReferenceVersion": "Primary-study locators audited at 2026.08-static-v5-rc77",
     "referenceLinks": [
       {
         "referenceId": "witton-habib-2010-giant-pterosaur-flight",
@@ -8324,7 +8746,7 @@
     "confidenceRationale": "The profile separates directly documented specimens and explicit analyses from global range, behaviour and ancestry inferences; confidence is bounded by the cited primary study and its stated sample. This rationale is specific to pterosauria:biogeography.",
     "reviewedBy": "Evo Atlas automated evidence decomposition",
     "reviewedAt": "2026-08-31",
-    "reviewedAgainstReferenceVersion": "Primary-study locators audited at 2026.08-static-v5-rc76",
+    "reviewedAgainstReferenceVersion": "Primary-study locators audited at 2026.08-static-v5-rc77",
     "referenceLinks": [
       {
         "referenceId": "witton-habib-2010-giant-pterosaur-flight",
@@ -8352,7 +8774,7 @@
     "confidenceRationale": "The profile separates directly documented specimens and explicit analyses from global range, behaviour and ancestry inferences; confidence is bounded by the cited primary study and its stated sample. This rationale is specific to pterosauria:morphology.",
     "reviewedBy": "Evo Atlas automated evidence decomposition",
     "reviewedAt": "2026-08-30",
-    "reviewedAgainstReferenceVersion": "Primary-study locators audited at 2026.08-static-v5-rc76",
+    "reviewedAgainstReferenceVersion": "Primary-study locators audited at 2026.08-static-v5-rc77",
     "referenceLinks": [
       {
         "referenceId": "witton-habib-2010-giant-pterosaur-flight",
@@ -8373,7 +8795,7 @@
     "confidenceRationale": "The profile separates directly documented specimens and explicit analyses from global range, behaviour and ancestry inferences; confidence is bounded by the cited primary study and its stated sample. This rationale is specific to pterosauria:ecology.",
     "reviewedBy": "Evo Atlas automated evidence decomposition",
     "reviewedAt": "2026-08-30",
-    "reviewedAgainstReferenceVersion": "Primary-study locators audited at 2026.08-static-v5-rc76",
+    "reviewedAgainstReferenceVersion": "Primary-study locators audited at 2026.08-static-v5-rc77",
     "referenceLinks": [
       {
         "referenceId": "witton-habib-2010-giant-pterosaur-flight",
@@ -17607,6 +18029,248 @@
     ]
   },
   {
+    "id": "claim:taxon:poaceae:taxonomy",
+    "subjectId": "taxon:poaceae",
+    "claimKind": "scientific",
+    "claimType": "taxonomy",
+    "statement": "The sampled plastid phylogeny resolves major grass lineages and maps multiple C4 origins, but its reconstructed topology does not date Poaceae or imply one ancestral C4 transition.",
+    "confidence": "high",
+    "confidenceRationale": "The primary analysis explicitly reports the sampled plastid topology and mapped transitions. Its taxon and genomic sampling delimit the statement, while fossil chronology and unsampled lineages remain outside the direct evidence.",
+    "reviewedBy": "Evo Atlas maintainer source audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "Grass Phylogeny Working Group II 2012 DOI 10.1111/j.1469-8137.2011.03972.x",
+    "referenceLinks": [
+      {
+        "referenceId": "gpwg-ii-2012-grass-phylogeny",
+        "relation": "supports",
+        "pages": "304–312",
+        "figure": "Figure 1",
+        "quoteLocator": "Phylogenetic analyses and C4 optimization"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:poaceae:biogeography",
+    "subjectId": "taxon:poaceae",
+    "claimKind": "scientific",
+    "claimType": "biogeography",
+    "statement": "The late-Cretaceous grass evidence used here is confined to diagnostic phytolith morphotypes in Lameta Formation dinosaur coprolites in central India; it does not identify a geographic origin or global distribution of grasses.",
+    "confidence": "medium",
+    "confidenceRationale": "The source directly documents the sampled assemblage and its stratigraphic setting, but phytolith affinity and one regional assemblage limit broader geographic interpretation.",
+    "reviewedBy": "Evo Atlas maintainer source audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "Prasad et al. 2005 DOI 10.1126/science.1118806",
+    "referenceLinks": [
+      {
+        "referenceId": "prasad-2005-grass-phytoliths",
+        "relation": "supports",
+        "pages": "310:1177–1180",
+        "figure": "Figure 1",
+        "quoteLocator": "Lameta Formation stratigraphy and coprolite phytolith assemblages"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:poaceae:ecology",
+    "subjectId": "taxon:poaceae",
+    "claimKind": "scientific",
+    "claimType": "ecology",
+    "statement": "Fourteen central Great Plains palaeosol phytolith assemblages record a regional rise of chloridoid and other potentially C4 PACMAD grasses within heterogeneous mixed C3–C4 habitats; this does not establish global open-grassland dominance.",
+    "confidence": "medium",
+    "confidenceRationale": "The assemblage analysis directly quantifies its regional phytolith composition, while morphotype-to-photosynthetic-pathway assignment and the limited geographic sample prevent a family-wide or global ecological claim.",
+    "reviewedBy": "Evo Atlas maintainer source audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "Strömberg and McInerney 2011 DOI 10.1666/09067.1",
+    "referenceLinks": [
+      {
+        "referenceId": "stromberg-2011-great-plains-phytoliths",
+        "relation": "supports",
+        "pages": "50–71",
+        "quoteLocator": "Abstract; assemblage interpretation and limitations"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:poaceae:morphology",
+    "subjectId": "taxon:poaceae",
+    "claimKind": "scientific",
+    "claimType": "morphology",
+    "statement": "Latest-Cretaceous Lameta coprolites preserve phytolith morphotypes interpreted as diagnostic of grasses and assigned to at least five living-grass subclades; these microscopic remains are not a complete grass body plan.",
+    "confidence": "contested",
+    "confidenceRationale": "The source directly illustrates and compares the phytolith morphotypes, but taxonomic affinity from isolated microremains remains the limiting interpretation.",
+    "reviewedBy": "Evo Atlas maintainer source audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "Prasad et al. 2005 DOI 10.1126/science.1118806",
+    "referenceLinks": [
+      {
+        "referenceId": "prasad-2005-grass-phytoliths",
+        "relation": "supports",
+        "pages": "310:1177–1180",
+        "figure": "Figures 2–3",
+        "quoteLocator": "Phytolith morphotypes and comparative assignments"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:eudicotyledones:taxonomy",
+    "subjectId": "taxon:eudicotyledones",
+    "claimKind": "scientific",
+    "claimType": "taxonomy",
+    "statement": "Leefructus mirus is diagnosed as a basal eudicot from the Early Cretaceous Yixian Formation, while a separate 83-plastid-gene analysis resolves selected living early eudicot branches; neither result is a literal ancestor sequence.",
+    "confidence": "medium",
+    "confidenceRationale": "The fossil diagnosis and sampled organellar topology are independently documented, but their different evidence scopes do not fix a complete eudicot phylogeny or crown age.",
+    "reviewedBy": "Evo Atlas maintainer source audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "Sun et al. 2011 DOI 10.1038/nature09811; Moore et al. 2010 DOI 10.1073/pnas.0907801107",
+    "referenceLinks": [
+      {
+        "referenceId": "sun-2011-leefructus",
+        "relation": "supports",
+        "pages": "471:625–628",
+        "figure": "Figures 1–5",
+        "quoteLocator": "Abstract and Leefructus diagnosis"
+      },
+      {
+        "referenceId": "moore-2010-eudicot-plastids",
+        "relation": "supports",
+        "pages": "107:4623–4628",
+        "figure": "Figures 1–2",
+        "quoteLocator": "83-gene phylogenetic analyses"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:eudicotyledones:biogeography",
+    "subjectId": "taxon:eudicotyledones",
+    "claimKind": "scientific",
+    "claimType": "biogeography",
+    "statement": "The fossil locality represented in this profile is the Daxinfangzi bed of the Yixian Formation in northeastern China; one dated locality does not establish a eudicot origin centre or global distribution.",
+    "confidence": "high",
+    "confidenceRationale": "The primary description provides the locality and dated bed envelope directly. The narrow claim makes no extrapolation from that locality to class-wide biogeography.",
+    "reviewedBy": "Evo Atlas maintainer source audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "Sun et al. 2011 DOI 10.1038/nature09811",
+    "referenceLinks": [
+      {
+        "referenceId": "sun-2011-leefructus",
+        "relation": "supports",
+        "pages": "471:625–628",
+        "figure": "Figure 1",
+        "quoteLocator": "Locality, stratigraphic setting and radiometric dates"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:eudicotyledones:ecology",
+    "subjectId": "taxon:eudicotyledones",
+    "claimKind": "scientific",
+    "claimType": "ecology",
+    "statement": "Leefructus preserves vegetative and reproductive plant material, supporting only a bounded primary-producer context for the sampled fossil; its habitat and any class-wide eudicot ecology remain unresolved.",
+    "confidence": "low",
+    "confidenceRationale": "The material establishes the identity and morphology of the sampled fossil but does not directly measure habitat, physiology or class-wide ecological roles.",
+    "reviewedBy": "Evo Atlas maintainer source audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "Sun et al. 2011 DOI 10.1038/nature09811",
+    "referenceLinks": [
+      {
+        "referenceId": "sun-2011-leefructus",
+        "relation": "supports",
+        "pages": "471:625–628",
+        "quoteLocator": "Fossil description and systematic discussion"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:eudicotyledones:morphology",
+    "subjectId": "taxon:eudicotyledones",
+    "claimKind": "scientific",
+    "claimType": "morphology",
+    "statement": "Leefructus mirus preserves diagnostic vegetative and reproductive structures described from the Yixian Formation; this specimen-level anatomy is not a universal eudicot body plan.",
+    "confidence": "high",
+    "confidenceRationale": "The named fossil and its diagnostic structures are directly described and illustrated, while extension to all eudicots would exceed the specimen and analysis scope.",
+    "reviewedBy": "Evo Atlas maintainer source audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "Sun et al. 2011 DOI 10.1038/nature09811",
+    "referenceLinks": [
+      {
+        "referenceId": "sun-2011-leefructus",
+        "relation": "supports",
+        "pages": "471:625–628",
+        "figure": "Figures 1–5",
+        "quoteLocator": "Fossil description and comparative diagnosis"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:fabaceae:biogeography",
+    "subjectId": "taxon:fabaceae",
+    "claimKind": "scientific",
+    "claimType": "biogeography",
+    "statement": "The fossil legume record represented here is the 65.35 Ma Corral Bluffs fruit and leaflets in Colorado, United States; it does not establish a geographic origin or continuous global distribution of Fabaceae.",
+    "confidence": "high",
+    "confidenceRationale": "The primary stratigraphic synthesis directly locates and dates the fossil material. The claim remains confined to that record rather than inferring family-wide history.",
+    "reviewedBy": "Evo Atlas maintainer source audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "Lyson et al. 2019 DOI 10.1126/science.aay2268",
+    "referenceLinks": [
+      {
+        "referenceId": "lyson-2019-corral-bluffs-recovery",
+        "relation": "supports",
+        "pages": "366:977–983",
+        "figure": "Figure 3J–K",
+        "quoteLocator": "Corral Bluffs fossil occurrence and supplementary stratigraphy"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:fabaceae:ecology",
+    "subjectId": "taxon:fabaceae",
+    "claimKind": "scientific",
+    "claimType": "ecology",
+    "statement": "The Corral Bluffs fruit and leaflets support a bounded plant fossil record, but they do not directly establish habitat, diet, physiology or one ecological guild for Fabaceae.",
+    "confidence": "low",
+    "confidenceRationale": "The cited fossil material is diagnostic for the family record but was not an ecological experiment or a family-wide habitat survey.",
+    "reviewedBy": "Evo Atlas maintainer source audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "Lyson et al. 2019 DOI 10.1126/science.aay2268",
+    "referenceLinks": [
+      {
+        "referenceId": "lyson-2019-corral-bluffs-recovery",
+        "relation": "supports",
+        "pages": "366:977–983",
+        "quoteLocator": "Corral Bluffs fossil inventory and stratigraphic context"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:fabaceae:morphology",
+    "subjectId": "taxon:fabaceae",
+    "claimKind": "scientific",
+    "claimType": "morphology",
+    "statement": "A 65.35 Ma Corral Bluffs fruit and leaflets are assigned to Fabaceae; these structures demonstrate a bounded family-level fossil record rather than a subfamily assignment or universal legume morphology.",
+    "confidence": "medium",
+    "confidenceRationale": "The fossil material and age are directly documented, while its subfamily placement and broader ancestral morphology remain unresolved.",
+    "reviewedBy": "Evo Atlas maintainer source audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "Lyson et al. 2019 DOI 10.1126/science.aay2268; Koenen et al. 2021 DOI 10.1093/sysbio/syaa041",
+    "referenceLinks": [
+      {
+        "referenceId": "lyson-2019-corral-bluffs-recovery",
+        "relation": "supports",
+        "pages": "366:977–983",
+        "figure": "Figure 3J–K",
+        "quoteLocator": "Fossil fruit and leaflets"
+      },
+      {
+        "referenceId": "koenen-2021-legume-origin",
+        "relation": "contextualizes",
+        "pages": "70:508–526",
+        "figure": "Figure 5; Supplementary Table S3",
+        "quoteLocator": "Oldest unequivocal legume fossil and divergence-time limitations"
+      }
+    ]
+  },
+  {
     "id": "claim:taxon:stromatoporoidea",
     "subjectId": "taxon:stromatoporoidea",
     "claimKind": "scientific",
@@ -22317,6 +22981,252 @@
         "pages": "1–8",
         "figure": "Figures 1–3; Supplementary Tables",
         "quoteLocator": "Directly dated 14.4 ka C. antiquitatis individual"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:elpistostege:taxonomy",
+    "subjectId": "taxon:elpistostege",
+    "claimType": "taxonomy",
+    "claimKind": "scientific",
+    "statement": "Cloutier et al. place Elpistostege within the elpistostegalian, stem-tetrapodomorph region of their analysed topology; this package preserves that sampled placement without treating it as a fixed universal tree.",
+    "confidence": "medium",
+    "confidenceRationale": "The primary study supplies an explicit specimen-based phylogenetic analysis, but the placement of Elpistostege changes with taxon and character sampling; the claim is limited to that analysis.",
+    "reviewedBy": "Evo Atlas maintainer primary-source audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "Cloutier et al. 2020 DOI 10.1038/s41586-020-2100-8",
+    "referenceLinks": [
+      {
+        "referenceId": "cloutier-2020-elpistostege-hand",
+        "relation": "supports",
+        "pages": "549–554",
+        "figure": "Figures 1–5; Extended Data Figures 1–2",
+        "quoteLocator": "Comparative anatomy and phylogenetic analyses"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:elpistostege:biogeography",
+    "subjectId": "taxon:elpistostege",
+    "claimType": "biogeography",
+    "claimKind": "scientific",
+    "statement": "The Elpistostege specimen used here is from the Miguasha fossil locality in Quebec, Canada; that named locality is not a global distribution or habitat-preference claim.",
+    "confidence": "high",
+    "confidenceRationale": "The locality and specimen context are directly reported in the primary study. The claim deliberately stops at the documented occurrence and does not infer an unsampled range.",
+    "reviewedBy": "Evo Atlas maintainer primary-source audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "Cloutier et al. 2020 DOI 10.1038/s41586-020-2100-8",
+    "referenceLinks": [
+      {
+        "referenceId": "cloutier-2020-elpistostege-hand",
+        "relation": "supports",
+        "pages": "549–554",
+        "figure": "Figure 1; specimen description",
+        "quoteLocator": "Miguasha, Quebec, Canada locality and MHNM 06-2067"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:elpistostege:morphology",
+    "subjectId": "taxon:elpistostege",
+    "claimType": "morphology",
+    "claimKind": "scientific",
+    "statement": "CT data from articulated Elpistostege specimen MHNM 06-2067 document four proximodistal radial rows, branched carpals and distal elements interpreted as digits or putative digits while lepidotrichia remain present.",
+    "confidence": "medium",
+    "confidenceRationale": "The internal anatomy is directly documented, while digit homology and functional interpretation remain hypotheses; medium confidence preserves that distinction.",
+    "reviewedBy": "Evo Atlas maintainer primary-source audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "Cloutier et al. 2020 DOI 10.1038/s41586-020-2100-8",
+    "referenceLinks": [
+      {
+        "referenceId": "cloutier-2020-elpistostege-hand",
+        "relation": "supports",
+        "pages": "549–554",
+        "figure": "Figures 2–5; Extended Data Figures 1–2",
+        "quoteLocator": "Pectoral-fin description and CT reconstruction"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:elpistostege:ecology",
+    "subjectId": "taxon:elpistostege",
+    "claimType": "ecology",
+    "claimKind": "scientific",
+    "statement": "The cited Elpistostege pectoral-fin study documents an aquatic fossil setting but does not establish diet, habitat preference or observed locomotor behaviour for the genus.",
+    "confidence": "medium",
+    "confidenceRationale": "The depositional locality is documented, whereas diet and behaviour are not directly observed in the cited anatomical study; unavailable fields remain unavailable rather than filled from living analogues.",
+    "reviewedBy": "Evo Atlas maintainer primary-source audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "Cloutier et al. 2020 DOI 10.1038/s41586-020-2100-8",
+    "referenceLinks": [
+      {
+        "referenceId": "cloutier-2020-elpistostege-hand",
+        "relation": "supports",
+        "pages": "549–554",
+        "quoteLocator": "Specimen context and pectoral-fin discussion"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:acanthostega:taxonomy",
+    "subjectId": "taxon:acanthostega",
+    "claimType": "taxonomy",
+    "claimKind": "scientific",
+    "statement": "The Acanthostega limb study treats the material as an early tetrapod and compares its digit number with Ichthyostega and Tulerpeton; this package does not convert that comparison into a universal phylogenetic tree.",
+    "confidence": "medium",
+    "confidenceRationale": "The cited primary study provides the taxonomic context and explicit comparative sample, but the profile intentionally avoids extending a limb comparison into an unreported complete topology.",
+    "reviewedBy": "Evo Atlas maintainer primary-source audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "Coates and Clack 1990 DOI 10.1038/347066a0",
+    "referenceLinks": [
+      {
+        "referenceId": "coates-1990-polydactyly",
+        "relation": "supports",
+        "pages": "66–69",
+        "quoteLocator": "Abstract and comparative discussion of Devonian tetrapod limb material"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:acanthostega:biogeography",
+    "subjectId": "taxon:acanthostega",
+    "claimType": "biogeography",
+    "claimKind": "scientific",
+    "statement": "The Acanthostega limb material cited here comes from East Greenland Upper Devonian deposits; the locality is a documented sample, not a global distribution estimate.",
+    "confidence": "high",
+    "confidenceRationale": "The geographic context is explicitly reported with the described limb specimens. No absence or wider range is inferred from the locality.",
+    "reviewedBy": "Evo Atlas maintainer primary-source audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "Coates and Clack 1990 DOI 10.1038/347066a0",
+    "referenceLinks": [
+      {
+        "referenceId": "coates-1990-polydactyly",
+        "relation": "supports",
+        "pages": "66–69",
+        "quoteLocator": "East Greenland specimen descriptions"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:acanthostega:morphology",
+    "subjectId": "taxon:acanthostega",
+    "claimType": "morphology",
+    "claimKind": "scientific",
+    "statement": "Described Acanthostega forelimb material preserves eight digits, demonstrating a non-pentadactyl Devonian limb condition; digit count alone does not demonstrate habitual terrestrial walking.",
+    "confidence": "high",
+    "confidenceRationale": "The digit count is a direct observation in the primary description. The locomotor boundary is retained because the paper does not make digit number equivalent to observed terrestrial behaviour.",
+    "reviewedBy": "Evo Atlas maintainer primary-source audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "Coates and Clack 1990 DOI 10.1038/347066a0",
+    "referenceLinks": [
+      {
+        "referenceId": "coates-1990-polydactyly",
+        "relation": "supports",
+        "pages": "66–69",
+        "figure": "Figures 1–3",
+        "quoteLocator": "Forelimb digit descriptions and discussion of digit number"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:acanthostega:ecology",
+    "subjectId": "taxon:acanthostega",
+    "claimType": "ecology",
+    "claimKind": "scientific",
+    "statement": "The cited Acanthostega limb study does not directly establish diet, habitat preference or observed locomotor behaviour; ecological fields therefore remain unresolved apart from the bounded depositional context.",
+    "confidence": "medium",
+    "confidenceRationale": "The primary evidence is limb anatomy and comparative interpretation, not direct ecological observation. The profile leaves unsupported ecological fields unresolved.",
+    "reviewedBy": "Evo Atlas maintainer primary-source audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "Coates and Clack 1990 DOI 10.1038/347066a0",
+    "referenceLinks": [
+      {
+        "referenceId": "coates-1990-polydactyly",
+        "relation": "supports",
+        "pages": "66–69",
+        "quoteLocator": "Specimen context and discussion of aquatic adaptation"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:ichthyostega:taxonomy",
+    "subjectId": "taxon:ichthyostega",
+    "claimType": "taxonomy",
+    "claimKind": "scientific",
+    "statement": "The Ichthyostega mobility study analyses the genus as an early tetrapod and tests its limb mechanics against living analogues; the mechanical result is not a complete phylogenetic hypothesis.",
+    "confidence": "medium",
+    "confidenceRationale": "The genus-level study and comparison are explicit, but a mobility experiment cannot by itself resolve all early-tetrapod relationships; the claim is kept at the reported scope.",
+    "reviewedBy": "Evo Atlas maintainer primary-source audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "Pierce et al. 2012 DOI 10.1038/nature11124",
+    "referenceLinks": [
+      {
+        "referenceId": "pierce-2012-ichthyostega-mobility",
+        "relation": "supports",
+        "pages": "523–526",
+        "figure": "Figures 1–3",
+        "quoteLocator": "Study introduction and comparative mobility analysis"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:ichthyostega:biogeography",
+    "subjectId": "taxon:ichthyostega",
+    "claimType": "biogeography",
+    "claimKind": "scientific",
+    "statement": "The Ichthyostega specimens reconstructed in the cited study are from East Greenland Upper Devonian deposits; this named sample does not establish a global range.",
+    "confidence": "high",
+    "confidenceRationale": "The specimen and locality context are explicit in the primary study. The claim does not infer distribution beyond the documented sample.",
+    "reviewedBy": "Evo Atlas maintainer primary-source audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "Pierce et al. 2012 DOI 10.1038/nature11124",
+    "referenceLinks": [
+      {
+        "referenceId": "pierce-2012-ichthyostega-mobility",
+        "relation": "supports",
+        "pages": "523–526",
+        "quoteLocator": "East Greenland specimen context"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:ichthyostega:morphology",
+    "subjectId": "taxon:ichthyostega",
+    "claimType": "morphology",
+    "claimKind": "scientific",
+    "statement": "Three-dimensional reconstruction of Ichthyostega limb joints found no long-axis rotations required for a typical lateral-sequence walk in the tested model, while retaining the possibility that this is a specialization of Ichthyostega.",
+    "confidence": "medium",
+    "confidenceRationale": "Micro-CT reconstruction and five living analogues quantitatively constrain feasible motion, but model assumptions and the distinction between feasible motion and observed behaviour remain material limitations.",
+    "reviewedBy": "Evo Atlas maintainer primary-source audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "Pierce et al. 2012 DOI 10.1038/nature11124",
+    "referenceLinks": [
+      {
+        "referenceId": "pierce-2012-ichthyostega-mobility",
+        "relation": "supports",
+        "pages": "523–526",
+        "figure": "Figures 1–3; Supplementary Figures 1–6",
+        "quoteLocator": "Comparative joint-mobility results and discussion"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:ichthyostega:ecology",
+    "subjectId": "taxon:ichthyostega",
+    "claimType": "ecology",
+    "claimKind": "scientific",
+    "statement": "The cited Ichthyostega mobility study constrains modeled limb motion but does not directly establish diet, habitat preference or observed locomotor behaviour for the genus.",
+    "confidence": "medium",
+    "confidenceRationale": "The primary evidence is a reconstruction of joint mobility, not direct observation of an extinct animal. Ecological and behavioural fields remain explicitly unresolved.",
+    "reviewedBy": "Evo Atlas maintainer primary-source audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "Pierce et al. 2012 DOI 10.1038/nature11124",
+    "referenceLinks": [
+      {
+        "referenceId": "pierce-2012-ichthyostega-mobility",
+        "relation": "supports",
+        "pages": "523–526",
+        "quoteLocator": "Methods, mobility reconstruction and discussion"
       }
     ]
   }
