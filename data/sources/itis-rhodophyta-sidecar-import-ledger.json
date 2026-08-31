@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 1,
+  "importType": "ITIS-2026-08-26-Rhodophyta-itis-only-inventory",
+  "generatedFrom": {
+    "sourcePath": "data/sources/itis-2026-08-26.json",
+    "sourceSha256": "38a7a55b4e98cafc66790e47f6bd637e298e23fd691e4771c755b38e4a02d7fc",
+    "itisDatabaseMember": "itisSqlite082626/ITIS.sqlite",
+    "itisDatabaseSha256": "ea7304536cfd7b1e2636d383911ca7931fc83d9ab1194ca2a3c020ea2daf1719",
+    "colRegistryManifestPath": "data/catalogue-of-life/releases/2026-08-20/registry/manifest.json",
+    "colRegistryManifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151",
+    "colOwnershipPath": "data/registry/package-species-coverage.json",
+    "colOwnershipSha256": "a297bc8a67ce60806fdee733464a79bfcc42e255f7e59535b01f94013c19dfea"
+  },
+  "scopeAudit": {
+    "packageRootUsageIds": [
+      "C",
+      "Z"
+    ],
+    "packageRootScientificNames": [
+      "Chromista",
+      "Protozoa"
+    ],
+    "colRootUsageId": null,
+    "colRootScientificName": "Rhodophyta",
+    "colStrictAcceptedSpecies": 0,
+    "packageStrictAcceptedSpecies": 61518,
+    "packageOutOfScopeStrictAcceptedSpecies": 61518,
+    "colRootAudit": "No exact COL26.8 usage node named Rhodophyta exists in the complete pinned hierarchy. Therefore this release cannot derive a strict COL Rhodophyta partition or infer one from name overlap.",
+    "boundary": "This ITIS-only sidecar retains every current species below the accepted ITIS Rhodophyta division. It deliberately contains no COL match rows until a pinned COL release materializes an exact auditable Rhodophyta root.",
+    "exactRhodophytaNodes": [],
+    "itisRoot": {
+      "tsn": "660046",
+      "scientificName": "Rhodophyta",
+      "rank": "Division",
+      "usage": "accepted"
+    },
+    "itisCurrentSpecies": 1616,
+    "itisSpeciesSynonymLinks": 295,
+    "maximumUpdateDates": {
+      "taxonomicUnits": "2026-08-26",
+      "synonymLinks": "2026-08-26"
+    }
+  },
+  "matchingContract": {
+    "normalization": [
+      "Remove the exact trailing COL authorship field from COL scientificName when that suffix is present; no authorship parser is used.",
+      "Normalize Unicode to NFC, replace underscores with spaces, collapse Unicode whitespace and trim.",
+      "For species-rank comparison, remove one parenthesized subgenus token in the exact Genus (Subgenus) species representation; genus and specific epithet must remain unchanged.",
+      "Preserve case, diacritics, punctuation and all remaining name tokens."
+    ],
+    "statuses": {
+      "accepted": "Unavailable: COL26.8 has no exact Rhodophyta root from which to derive a strict accepted-species partition.",
+      "synonym-current-name-redirect": "Unavailable: no COL Rhodophyta partition exists in this release.",
+      "ambiguous": "Unavailable: no COL Rhodophyta partition exists in this release.",
+      "unmatched": "Unavailable: no COL Rhodophyta partition exists in this release."
+    },
+    "prohibited": "No inferred COL scope, fuzzy match, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered or taxon-substituted matching is used."
+  },
+  "totals": {
+    "total": 0,
+    "accepted": 0,
+    "synonymCurrentNameRedirect": 0,
+    "ambiguous": 0,
+    "unmatched": 0,
+    "itisCurrentSpecies": 1616,
+    "itisSpeciesSynonymLinks": 295,
+    "itisUpstreamOnly": 1616
+  },
+  "output": {
+    "descriptor": {
+      "path": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-rhodophyta-sidecar.json",
+      "bytes": 4700,
+      "sha256": "27d3e907b9fb9fec4a825d08aa70cd354d93256804b1e9d2e6e346fb1c9a78fa"
+    },
+    "colUsageIdShards": [],
+    "upstreamOnly": {
+      "path": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-rhodophyta-upstream-only-0000.jsonl.gz",
+      "records": 1616,
+      "firstColUsageId": null,
+      "lastColUsageId": null,
+      "bytes": 20659,
+      "sha256": "e2402a02e55cc938222691dd0c90d3e93dc99095d0af482870833e6ae3d949fa",
+      "sourceBytes": 608233,
+      "sourceSha256": "dcab3fe52f0fa3812c2539c6cc3fcf0349b980fea3a044f4d8267a3a93717b61",
+      "colOwnership": null,
+      "firstTsn": "5550",
+      "lastTsn": "955136"
+    }
+  },
+  "deliveryContract": {
+    "pagesLight": "Pages needs only this descriptor and may omit the ITIS-only row-level JSONL gzip shard.",
+    "androidIosFull": "Android and iOS complete-data inventories must include the descriptor and the listed ITIS-only shard as the same checksum-addressed bytes.",
+    "runtimeChange": "This import deliberately changes no formal runtime or published release manifest."
+  },
+  "generatedBy": {
+    "scriptPath": "scripts/build-itis-rhodophyta-sidecar.mjs",
+    "scriptSha256": "adcf3e565b4b73c56eac1d2796e6440b6cb98542d1ca3d32eac699c0aea55e08",
+    "deterministic": "Pinned input checksums, exact accepted-status SQL, explicit zero-COL-root audit, ascending TSN order and deterministic gzip; no wall-clock fields or fuzzy matching."
+  }
+}
