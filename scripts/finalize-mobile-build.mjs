@@ -288,6 +288,16 @@ if (mammalOriginsManifest.nomenclatureCollections) {
   throw new Error('mammal-origins must not publish an ITIS nomenclature collection')
 }
 const catalogueManifest = JSON.parse(readFileSync(join(sourceDataRoot, ...current.catalogue.manifest.url.split('/')), 'utf8'))
+const fungiDescriptor = catalogueManifest.resourcePacks?.manifests?.fungi
+if (!fungiDescriptor?.url) throw new Error('Mobile build is missing the Fungi resource-pack manifest')
+const fungiManifest = JSON.parse(readFileSync(join(sourceDataRoot, ...fungiDescriptor.url.split('/')), 'utf8'))
+const fungiItis = fungiManifest.extensions?.find((extension) => extension.id === 'itis-fungi-tsn-crosswalk')
+if (!fungiItis || fungiItis.provider !== 'Integrated Taxonomic Information System' || fungiItis.source?.rootTsn !== '555705'
+  || fungiItis.delivery?.profile !== 'native-full' || fungiItis.delivery?.completeRows !== true
+  || fungiItis.files?.length !== 57 || fungiItis.delivery?.publishedFileCount !== 57 || fungiItis.delivery?.canonicalFileCount !== 57
+  || fungiItis.files.reduce((sum, file) => sum + file.records, 0) !== 158805) {
+  throw new Error('Mobile build must stage the complete independent ITIS Fungi authority collection')
+}
 const otherAnimalsDescriptor = catalogueManifest.resourcePacks?.manifests?.['other-animals']
 if (!otherAnimalsDescriptor?.url) throw new Error('Mobile build is missing the other-animals resource-pack manifest')
 const otherAnimalsManifest = JSON.parse(readFileSync(join(sourceDataRoot, ...otherAnimalsDescriptor.url.split('/')), 'utf8'))

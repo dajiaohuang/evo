@@ -393,8 +393,8 @@ final class AppConfigurationTests: XCTestCase {
                 }
             } else if packageId == "fungi" {
                 let extensions = try XCTUnwrap(pack["extensions"] as? [[String: Any]])
-                XCTAssertEqual(extensions.count, 1)
-                let authority = try XCTUnwrap(extensions.first)
+                XCTAssertEqual(extensions.count, 2)
+                let authority = try XCTUnwrap(extensions.first { ($0["id"] as? String) == "index-fungorum-identifiers" })
                 XCTAssertEqual(authority["id"] as? String, "index-fungorum-identifiers")
                 XCTAssertEqual(authority["provider"] as? String, "Species Fungorum / Index Fungorum")
                 let counts = try XCTUnwrap(authority["counts"] as? [String: Any])
@@ -421,6 +421,24 @@ final class AppConfigurationTests: XCTestCase {
                     try verifyBundled(record: inventoryRecord, below: dataRoot)
                     indexFungorumIdentifierRecords += try XCTUnwrap(extensionFile["records"] as? Int)
                 }
+                let itis = try XCTUnwrap(extensions.first { ($0["id"] as? String) == "itis-fungi-tsn-crosswalk" })
+                XCTAssertEqual(itis["provider"] as? String, "Integrated Taxonomic Information System")
+                XCTAssertEqual((itis["source"] as? [String: Any])?["rootTsn"] as? String, "555705")
+                XCTAssertEqual((itis["counts"] as? [String: Any])?["records"] as? Int, 158_805)
+                let itisDelivery = try XCTUnwrap(itis["delivery"] as? [String: Any])
+                XCTAssertEqual(itisDelivery["profile"] as? String, "native-full")
+                XCTAssertEqual(itisDelivery["completeRows"] as? Bool, true)
+                XCTAssertEqual(itisDelivery["canonicalFileCount"] as? Int, 57)
+                let itisFiles = try XCTUnwrap(itis["files"] as? [[String: Any]])
+                XCTAssertEqual(itisFiles.count, 57)
+                var itisRecords = 0
+                for file in itisFiles {
+                    itisRecords += try XCTUnwrap(file["records"] as? Int)
+                    let path = try XCTUnwrap(file["url"] as? String)
+                    let inventoryRecord = try XCTUnwrap(files.first { ($0["url"] as? String) == path }, "ITIS Fungi shard missing from native release inventory")
+                    try verifyBundled(record: inventoryRecord, below: dataRoot)
+                }
+                XCTAssertEqual(itisRecords, 158_805)
             } else if packageId == "other-animals" {
                 let extensions = try XCTUnwrap(pack["extensions"] as? [[String: Any]])
                 XCTAssertEqual(extensions.count, 28)

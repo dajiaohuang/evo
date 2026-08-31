@@ -455,8 +455,9 @@ public class AppInstrumentedTest {
                 }
             } else if (packageId.equals("fungi")) {
                 JSONArray extensions = pack.getJSONArray("extensions");
-                assertEquals(1, extensions.length());
-                JSONObject authority = extensions.getJSONObject(0);
+                assertEquals(2, extensions.length());
+                JSONObject authority = findCollection(extensions, "index-fungorum-identifiers");
+                assertNotNull(authority);
                 assertEquals("index-fungorum-identifiers", authority.getString("id"));
                 assertEquals("Species Fungorum / Index Fungorum", authority.getString("provider"));
                 JSONObject counts = authority.getJSONObject("counts");
@@ -482,6 +483,28 @@ public class AppInstrumentedTest {
                     verifyAssetRecord(context, extensionInventoryRecord);
                     indexFungorumIdentifierRecords += extensionFile.getInt("records");
                 }
+                JSONObject itis = findCollection(extensions, "itis-fungi-tsn-crosswalk");
+                assertNotNull("ITIS Fungi authority missing", itis);
+                assertEquals("Integrated Taxonomic Information System", itis.getString("provider"));
+                assertEquals("555705", itis.getJSONObject("source").getString("rootTsn"));
+                assertEquals(158805, itis.getJSONObject("counts").getInt("records"));
+                JSONObject itisDelivery = itis.getJSONObject("delivery");
+                assertEquals("native-full", itisDelivery.getString("profile"));
+                assertTrue(itisDelivery.getBoolean("completeRows"));
+                assertEquals(57, itisDelivery.getInt("canonicalFileCount"));
+                JSONArray itisFiles = itis.getJSONArray("files");
+                assertEquals(57, itisFiles.length());
+                int itisRecords = 0;
+                for (int fileIndex = 0; fileIndex < itisFiles.length(); fileIndex += 1) {
+                    JSONObject file = itisFiles.getJSONObject(fileIndex);
+                    JSONObject record = findInventoryRecord(files, file.getString("url"));
+                    assertNotNull("ITIS Fungi shard missing from native release inventory", record);
+                    assertEquals(file.getInt("bytes"), record.getInt("bytes"));
+                    assertEquals(file.getString("sha256"), record.getString("sha256"));
+                    verifyAssetRecord(context, record);
+                    itisRecords += file.getInt("records");
+                }
+                assertEquals(158805, itisRecords);
             } else if (packageId.equals("other-animals")) {
                 JSONArray extensions = pack.getJSONArray("extensions");
                 assertEquals(28, extensions.length());
