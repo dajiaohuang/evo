@@ -692,6 +692,7 @@ if (catalogue.resourcePacks?.packageCount !== 7
         'itis-metamonada-tsn-crosswalk': { eligible: 0, records: 0, accepted: 0, redirects: 0, ambiguous: 0, unmatched: 0, upstreamOnly: 0, nonApplicable: 61518, files: 0 },
         'itis-chlorophyta-tsn-crosswalk': { eligible: 0, records: 1416, accepted: 0, redirects: 0, ambiguous: 0, unmatched: 0, upstreamOnly: 1416, nonApplicable: 61518, files: 1 },
         'itis-glaucophyta-tsn-crosswalk': { eligible: 0, records: 4, accepted: 0, redirects: 0, ambiguous: 0, unmatched: 0, upstreamOnly: 4, nonApplicable: 61518, files: 1 },
+        'itis-picozoa-tsn-crosswalk': { eligible: 0, records: 0, accepted: 0, redirects: 0, ambiguous: 0, unmatched: 0, upstreamOnly: 0, nonApplicable: 61518, files: 0 },
       }
       const canonicalItisFiles = Object.values(expectedItis).reduce((sum, counts) => sum + counts.files, 0)
       if (extensions.length !== Object.keys(expectedItis).length + 1 || !foraminifera
