@@ -1,0 +1,170 @@
+{
+  "schemaVersion": 1,
+  "sidecarType": "release-pinned-exact-nomenclatural-crosswalk",
+  "packageId": "crustaceans-insects",
+  "scope": {
+    "colRootUsageId": "L2G4H",
+    "colRootScientificName": "Myriapoda",
+    "colStrictAcceptedSpecies": 14211,
+    "excludedColRootUsageId": "L25JL",
+    "excludedColRootScientificName": "Euthycarcinoidea",
+    "excludedStrictAcceptedSpecies": 1,
+    "colLivingAcceptedSpecies": 14210,
+    "packageStrictAcceptedSpecies": 1049133,
+    "packageOutOfScopeStrictAcceptedSpecies": 1034923,
+    "boundary": "This mixed package contains Crustacea, Insecta, Myriapoda and broader Arthropoda navigation content. This sidecar covers only the strict accepted COL26.8 species descending from the exact Myriapoda root L2G4H, including Chilopoda, Diplopoda, Pauropoda and Symphyla; all remaining package-owned species are explicitly out of scope.",
+    "livingScope": {
+      "includedClasses": [
+        "Chilopoda",
+        "Diplopoda",
+        "Pauropoda",
+        "Symphyla"
+      ],
+      "col26_8": {
+        "acceptedSpecies": 14210,
+        "classBreakdown": [
+          {
+            "colUsageId": "7NF3S",
+            "scientificName": "Diplopoda",
+            "acceptedSpecies": 12987
+          },
+          {
+            "colUsageId": "B6MLD",
+            "scientificName": "Symphyla",
+            "acceptedSpecies": 231
+          },
+          {
+            "colUsageId": "B6MTL",
+            "scientificName": "Pauropoda",
+            "acceptedSpecies": 992
+          }
+        ],
+        "absentClasses": [
+          "Chilopoda"
+        ],
+        "note": "COL26.8 has no accepted Chilopoda species below Myriapoda L2G4H in this pinned registry; Chilopoda is retained from ITIS through the complete upstream-only partition below."
+      },
+      "itis": {
+        "rootTsn": "563885",
+        "currentSpecies": 6488,
+        "classBreakdown": [
+          {
+            "tsn": "154400",
+            "scientificName": "Chilopoda",
+            "currentSpecies": 3197
+          },
+          {
+            "tsn": "154409",
+            "scientificName": "Diplopoda",
+            "currentSpecies": 2061
+          },
+          {
+            "tsn": "154425",
+            "scientificName": "Pauropoda",
+            "currentSpecies": 995
+          },
+          {
+            "tsn": "154408",
+            "scientificName": "Symphyla",
+            "currentSpecies": 235
+          }
+        ]
+      }
+    }
+  },
+  "sources": {
+    "col": {
+      "releaseAlias": "COL26.8",
+      "releaseDate": "2026-08-20",
+      "registryManifestPath": "data/catalogue-of-life/releases/2026-08-20/registry/manifest.json",
+      "registryManifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151",
+      "ownershipPath": "data/registry/package-species-coverage.json",
+      "ownershipSha256": "a297bc8a67ce60806fdee733464a79bfcc42e255f7e59535b01f94013c19dfea"
+    },
+    "itis": {
+      "datasetId": "itis-2026-08-26",
+      "exportDate": "2026-08-26",
+      "rootTsn": "563885",
+      "sourceLedgerPath": "data/sources/itis-2026-08-26.json",
+      "sourceLedgerSha256": "38a7a55b4e98cafc66790e47f6bd637e298e23fd691e4771c755b38e4a02d7fc",
+      "license": "CC0-1.0",
+      "citationDoi": "10.5066/F7KH0KBK"
+    }
+  },
+  "exactMatching": {
+    "normalization": [
+      "Remove the exact trailing COL authorship field from COL scientificName when that suffix is present; no authorship parser is used.",
+      "Normalize Unicode to NFC, replace underscores with spaces, collapse Unicode whitespace and trim.",
+      "For species-rank comparison, remove one parenthesized subgenus token in the exact Genus (Subgenus) species representation; genus and specific epithet must remain unchanged.",
+      "Preserve case, diacritics, punctuation and all remaining name tokens."
+    ],
+    "statuses": {
+      "accepted": "The normalized COL name resolves to exactly one valid ITIS Myriapoda species and directly equals that current ITIS name.",
+      "synonym-current-name-redirect": "The normalized COL name equals official ITIS invalid species-name evidence that resolves to exactly one valid ITIS Myriapoda species.",
+      "ambiguous": "The normalized exact evidence resolves to more than one valid ITIS Myriapoda species TSN.",
+      "unmatched": "No normalized exact valid-name or official ITIS species-synonym evidence resolves to a valid ITIS Myriapoda species."
+    },
+    "prohibited": "No fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered or taxon-substituted matching is used."
+  },
+  "evidenceBoundary": {
+    "en": "This CC0 ITIS sidecar is a frozen exact nomenclatural crosswalk, not a global myriapod checklist, final classification authority, phylogeny, species-concept equivalence assertion, biological dossier or scientific-review record.",
+    "zh": "此 CC0 ITIS 侧车是冻结的严格命名交叉映射；它不是全球昆虫名录、最终分类权威、系统发育树、物种概念等同性声明、生物档案或科学审查记录。"
+  },
+  "counts": {
+    "total": 14210,
+    "accepted": 3040,
+    "synonymCurrentNameRedirect": 0,
+    "ambiguous": 2,
+    "unmatched": 11168,
+    "itisCurrentSpecies": 6488,
+    "itisSpeciesSynonymLinks": 725,
+    "itisUpstreamOnly": 3445
+  },
+  "colUsageIdLocator": {
+    "key": "colUsageId",
+    "ordering": "Unicode code-unit ascending",
+    "sourceShardLimitBytes": 2097152,
+    "stableAddressing": "Binary-search non-overlapping inclusive colUsageId ranges; one detail query loads exactly one immutable JSONL gzip shard.",
+    "files": [
+      {
+        "path": "data/packages/arthropoda/crustaceans-insects/nomenclature/itis-myriapoda-sidecar-0000.jsonl.gz",
+        "records": 9713,
+        "firstColUsageId": "322FX",
+        "lastColUsageId": "847V4",
+        "bytes": 233376,
+        "sha256": "d59da7fcdbacb8e863a9409f1efd6d55b97ba7f85dbe1adff39ba5f9028ff615",
+        "sourceBytes": 2097033,
+        "sourceSha256": "49b7e80b16327fd0abc23a6391aea2b2726d024a337f323db8ec86e9ed1707fc"
+      },
+      {
+        "path": "data/packages/arthropoda/crustaceans-insects/nomenclature/itis-myriapoda-sidecar-0001.jsonl.gz",
+        "records": 4497,
+        "firstColUsageId": "847V5",
+        "lastColUsageId": "ZZ2X",
+        "bytes": 112048,
+        "sha256": "403d686f06eb0f72a922fe74ef56e49f90e22c98f842c17dffd834548a73e6a6",
+        "sourceBytes": 1102202,
+        "sourceSha256": "78e338e99b12fc85fa0cb75902a3b43f0f4cd28970e7bf63fb0b1227faa25b79"
+      }
+    ]
+  },
+  "upstreamOnly": {
+    "colOwnership": null,
+    "stableAddressing": "No COL usage ID is assigned. The complete ITIS-only current-species partition is in its own immutable JSONL gzip shard.",
+    "files": [
+      {
+        "path": "data/packages/arthropoda/crustaceans-insects/nomenclature/itis-myriapoda-upstream-only-0000.jsonl.gz",
+        "records": 3445,
+        "firstColUsageId": null,
+        "lastColUsageId": null,
+        "bytes": 39205,
+        "sha256": "1fc675e084c9b715703fd51e9f4320f97ef228e376578d35e0873ad7cbdec33b",
+        "sourceBytes": 1235655,
+        "sourceSha256": "5731abf15adf6e739647ae0e635545a51d01e7c5cf2a7a1af12b3a0464b2453d",
+        "colOwnership": null,
+        "firstTsn": "154407",
+        "lastTsn": "1141138"
+      }
+    ]
+  }
+}

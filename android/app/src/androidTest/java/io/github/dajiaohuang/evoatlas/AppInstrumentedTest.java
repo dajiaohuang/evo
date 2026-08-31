@@ -141,6 +141,8 @@ public class AppInstrumentedTest {
         int phylogenyPackages = 0;
         int wormsNomenclatureRecords = 0;
         int richItisNomenclatureRecords = 0;
+        int arthropodItisFiles = 0;
+        int arthropodItisNomenclatureRecords = 0;
         int wfoRichRecords = 0;
         Iterator<String> richPackageIds = richManifests.keys();
         while (richPackageIds.hasNext()) {
@@ -191,6 +193,36 @@ public class AppInstrumentedTest {
                 richItisNomenclatureRecords += verifyRichItisCollection(context, files,
                         findCollection(collections, collectionId), expectedFiles, expectedUpstreamFiles,
                         expectedRecords, expectedUpstreamRecords, "ITIS " + packageId);
+            } else if (packageId.equals("crustaceans-insects") || packageId.equals("trilobites-chelicerates")) {
+                JSONArray collections = pack.getJSONArray("nomenclatureCollections");
+                String[] expectedIds = packageId.equals("crustaceans-insects")
+                        ? new String[]{"itis-insecta-tsn-crosswalk", "itis-crustacea-tsn-crosswalk", "itis-myriapoda-tsn-crosswalk"}
+                        : new String[]{"itis-chelicerata-tsn-crosswalk"};
+                int[] expectedFiles = packageId.equals("crustaceans-insects")
+                        ? new int[]{99, 40, 2} : new int[]{16};
+                int[] expectedUpstreamFiles = packageId.equals("crustaceans-insects")
+                        ? new int[]{1, 1, 1} : new int[]{1};
+                int[] expectedRecords = packageId.equals("crustaceans-insects")
+                        ? new int[]{941223, 80890, 14210} : new int[]{99511};
+                int[] expectedUpstreamRecords = packageId.equals("crustaceans-insects")
+                        ? new int[]{27357, 5991, 3445} : new int[]{5714};
+                String[] expectedDescriptorShas = packageId.equals("crustaceans-insects")
+                        ? new String[]{
+                        "c168f706a7067fd6d95548777b6fe5cadf0c6b2b67b9442698d9350c521c2cdf",
+                        "9fb4271dce81e92f2df706da26c379053e649f21416d81ec1d8db6bb2031490b",
+                        "7eeea9a62f0a51150f643c6f14d02511f8ab042b8264e64bbb0ec505520a5ac8"}
+                        : new String[]{"90383cc2bf44dc092b59c7ed131169317a0a613699aa6485c6f3e9b74decfa3c"};
+                assertEquals(expectedIds.length, collections.length());
+                for (int index = 0; index < expectedIds.length; index += 1) {
+                    JSONObject collection = findCollection(collections, expectedIds[index]);
+                    assertNotNull(packageId + " ITIS collection missing: " + expectedIds[index], collection);
+                    assertEquals(expectedDescriptorShas[index], collection.getString("descriptorSha256"));
+                    int collectionRecords = verifyRichItisCollection(context, files, collection,
+                            expectedFiles[index], expectedUpstreamFiles[index], expectedRecords[index],
+                            expectedUpstreamRecords[index], "ITIS " + expectedIds[index]);
+                    arthropodItisFiles += expectedFiles[index] + expectedUpstreamFiles[index];
+                    arthropodItisNomenclatureRecords += collectionRecords + expectedUpstreamRecords[index];
+                }
             } else if (packageId.equals("angiospermae") || packageId.equals("gymnosperms") || packageId.equals("early-land-plants")) {
                 JSONArray collections = pack.getJSONArray("nomenclatureCollections");
                 assertEquals(1, collections.length());
@@ -267,6 +299,8 @@ public class AppInstrumentedTest {
         assertEquals(2, phylogenyPackages);
         assertEquals(11891, wormsNomenclatureRecords);
         assertEquals(202206, richItisNomenclatureRecords);
+        assertEquals(161, arthropodItisFiles);
+        assertEquals(1178341, arthropodItisNomenclatureRecords);
         assertEquals(387988, wfoRichRecords);
 
         JSONObject catalogueDescriptor = current.getJSONObject("catalogue").getJSONObject("manifest");

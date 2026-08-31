@@ -15,13 +15,15 @@ assets/logo.svg              # 原生图标和启动图源文件
 dist-mobile/                 # 临时生成的移动客户端壳，不提交
 ```
 
-移动构建关闭 Vite 的默认 `publicDir` 复制，先用 canonical `data/` 生成当前发布版，再由现有 `release-files.json` 选择全部交互文件并复制到 `dist-mobile/data/`。重复的 24 个资源包 ZIP 导出物不再复制，因为其科学内容已经作为交互文件内置。finalizer 会沿用发布清单的字节数与 SHA-256 逐项核对，拒绝缺失、串版或超过 750 MiB 的产物；这是一条构建契约，不是新的科学内容审查系统。
+移动构建关闭 Vite 的默认 `publicDir` 复制，先用 canonical `data/` 生成当前发布版，再由现有 `release-files.json` 选择全部交互文件并复制到 `dist-mobile/data/`。重复的 24 个资源包 ZIP 导出物不再复制，因为其科学内容已经作为交互文件内置。finalizer 会沿用发布清单的字节数与 SHA-256 逐项核对，拒绝缺失、串版或超过 800 MiB 的产物；这是一条构建契约，不是新的科学内容审查系统。
 
 应用 ID 是 `io.github.dajiaohuang.evoatlas`。Android 最低 API 为 24，iOS 最低版本为 15。原生工程使用 Capacitor 8；iOS 插件通过 Swift Package Manager 引入。
 
 仓库中的 Android Studio 与 Xcode 项目是可复现的原生壳源工程，不是商店发布证明。应用级 Android/iOS 测试源随工程维护，但 AAB、IPA、签名 Archive、Play Console 和 App Store Connect 发布物均不在仓库中；只有在相应平台工具链、模拟器/真机和商店流程完成后才能声称原生版本已发布。
 
 ## 数据与离线边界
+
+rc71 将 Android 与 iOS 同步到 build `25` / app `0.20.22`，并为 Insecta、Crustacea、Chelicerata 和 Myriapoda 加入固定 ITIS `2026-08-26` CC0 权威侧车。1,135,834 条声明范围内的 COL26.8 行保留 280,789 个精确当前接受名、3,148 个官方异名重定向、873 个歧义和 851,024 个未匹配结果；42,507 个 ITIS-only 当前种保持 null COL ownership，合计 1,178,341 条原生端记录。`native-full` 逐字节包含全部 161 个非空 JSONL gzip；finalizer、Android instrumentation 与 iOS application tests 核对 collection ID、行数、release inventory 字节数、SHA-256 与真实资产。Pages 的 `web-light` 只发布描述符、来源、范围、方法、计数、限制和 canonical 哈希，不发布逐种行。Insecta、Crustacea 与 Myriapoda 是 `crustaceans-insects` 内独立范围，Chelicerata 不把 `trilobites-chelicerates` 的 Trilobita 强行映射到 ITIS。逐组统计、根边界与交付契约见 [`itis-arthropods-authority.md`](itis-arthropods-authority.md)。
 
 rc70 将 Android 与 iOS 同步到 build `24` / app `0.20.21`，并把固定 ITIS `2026-08-26` CC0 权威层扩展到线虫、环节动物、软体动物与腕足动物、海绵与刺胞动物和棘皮动物。240,792 条声明范围内的 COL26.8 记录均保留显式结果：21,346 个精确当前接受名、515 个官方异名重定向、30 个歧义和 218,901 个未匹配结果；13,122 个 ITIS-only 当前种保持 null COL ownership，合计 253,914 条原生端权威记录。`native-full` 逐字节包含全部 77 个非空 JSONL gzip，finalizer、Android instrumentation 与 iOS application tests 均核对 collection ID、行数、release inventory 字节数、SHA-256 和真实资产。Pages 的 `web-light` 仅发布描述符、来源、范围、方法、计数、限制和 77 个 canonical 哈希，不发布逐种行。棘皮动物同时保留彼此独立的 WoRMS AphiaID 与 ITIS TSN collection；两者不合并或相互覆盖，WoRMS 也改为 Pages 摘要、原生完整。逐组统计、根边界和交付契约见 [`itis-major-invertebrates-authority.md`](itis-major-invertebrates-authority.md)。
 

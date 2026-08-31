@@ -99,14 +99,40 @@ const expectedRichItisCollections = {
   echinoderms: {
     'itis-echinodermata-tsn-crosswalk': { files: 2, upstreamFiles: 1, records: 11891, upstreamRecords: 278 },
   },
+  'crustaceans-insects': {
+    'itis-insecta-tsn-crosswalk': {
+      files: 99, upstreamFiles: 1, records: 941223, upstreamRecords: 27357,
+      descriptorSha256: 'c168f706a7067fd6d95548777b6fe5cadf0c6b2b67b9442698d9350c521c2cdf',
+      arthropod: true,
+    },
+    'itis-crustacea-tsn-crosswalk': {
+      files: 40, upstreamFiles: 1, records: 80890, upstreamRecords: 5991,
+      descriptorSha256: '9fb4271dce81e92f2df706da26c379053e649f21416d81ec1d8db6bb2031490b',
+      arthropod: true,
+    },
+    'itis-myriapoda-tsn-crosswalk': {
+      files: 2, upstreamFiles: 1, records: 14210, upstreamRecords: 3445,
+      descriptorSha256: '7eeea9a62f0a51150f643c6f14d02511f8ab042b8264e64bbb0ec505520a5ac8',
+      arthropod: true,
+    },
+  },
+  'trilobites-chelicerates': {
+    'itis-chelicerata-tsn-crosswalk': {
+      files: 16, upstreamFiles: 1, records: 99511, upstreamRecords: 5714,
+      descriptorSha256: '90383cc2bf44dc092b59c7ed131169317a0a613699aa6485c6f3e9b74decfa3c',
+      arthropod: true,
+    },
+  },
 }
+let arthropodItisFiles = 0
+let arthropodItisRecords = 0
 for (const [packageId, expectedCollections] of Object.entries(expectedRichItisCollections)) {
   const descriptor = current.packages?.manifests?.[packageId]
   if (!descriptor?.url) throw new Error(`Mobile build is missing the ${packageId} package manifest`)
   const manifest = JSON.parse(readFileSync(join(sourceDataRoot, ...descriptor.url.split('/')), 'utf8'))
   const collections = manifest.nomenclatureCollections
   if (!Array.isArray(collections)) throw new Error(`Mobile build is missing ${packageId} nomenclature collections`)
-  if (collections.length !== (packageId === 'echinoderms' ? 2 : 1)) {
+  if (collections.length !== Object.keys(expectedCollections).length + (packageId === 'echinoderms' ? 1 : 0)) {
     throw new Error(`Mobile build has an unexpected ${packageId} nomenclature collection count`)
   }
   for (const [id, expected] of Object.entries(expectedCollections)) {
@@ -118,7 +144,8 @@ for (const [packageId, expectedCollections] of Object.entries(expectedRichItisCo
       || collection.files?.length !== expected.files || collection.upstreamOnlyFiles?.length !== expected.upstreamFiles
       || collection.counts?.total !== expected.records || collection.counts?.itisUpstreamOnly !== expected.upstreamRecords
       || collection.files.reduce((sum, file) => sum + file.records, 0) !== expected.records
-      || collection.upstreamOnlyFiles.reduce((sum, file) => sum + file.records, 0) !== expected.upstreamRecords) {
+      || collection.upstreamOnlyFiles.reduce((sum, file) => sum + file.records, 0) !== expected.upstreamRecords
+      || (expected.descriptorSha256 && collection.descriptorSha256 !== expected.descriptorSha256)) {
       throw new Error(`Mobile build must stage the complete ${packageId}/${id} authority collection`)
     }
     const canonicalInventory = collection.canonicalFileInventory
@@ -146,6 +173,10 @@ for (const [packageId, expectedCollections] of Object.entries(expectedRichItisCo
         throw new Error(`Mobile rich-package canonical shard inventory is inconsistent: ${packageId}/${id}/${name}`)
       }
     }
+    if (expected.arthropod) {
+      arthropodItisFiles += expected.files + expected.upstreamFiles
+      arthropodItisRecords += expected.records + expected.upstreamRecords
+    }
   }
   if (packageId === 'echinoderms') {
     const worms = collections.find((entry) => entry.id === 'worms-aphiaid-crosswalk')
@@ -157,6 +188,9 @@ for (const [packageId, expectedCollections] of Object.entries(expectedRichItisCo
       throw new Error('Mobile build must retain the complete WoRMS Echinodermata authority collection')
     }
   }
+}
+if (arthropodItisFiles !== 161 || arthropodItisRecords !== 1178341) {
+  throw new Error(`Mobile build must stage 161 arthropod ITIS files and 1178341 records; found ${arthropodItisFiles} files and ${arthropodItisRecords} records`)
 }
 const catalogueManifest = JSON.parse(readFileSync(join(sourceDataRoot, ...current.catalogue.manifest.url.split('/')), 'utf8'))
 const otherAnimalsDescriptor = catalogueManifest.resourcePacks?.manifests?.['other-animals']
@@ -284,7 +318,7 @@ for (const file of interactiveFiles) {
 
 const files = filesBelow(outputRoot)
 const totalBytes = files.reduce((sum, file) => sum + statSync(file).size, 0)
-const limitMiB = 750
+const limitMiB = 800
 const limitBytes = limitMiB * 1024 * 1024
 if (totalBytes > limitBytes) {
   throw new Error(`Mobile application resources are ${(totalBytes / 1024 / 1024).toFixed(2)} MiB; limit is ${limitMiB} MiB`)

@@ -1001,6 +1001,10 @@ describe('static runtime release coherence', () => {
       { scope: 'mollusca-brachiopoda', packageId: 'molluscs-brachiopods', collectionId: 'itis-mollusca-brachiopoda-tsn-crosswalk', total: 159794, accepted: 7212, redirects: 256, ambiguous: 16, unmatched: 152310, upstreamOnly: 4289, canonicalFileCount: 60 },
       { scope: 'porifera-cnidaria', packageId: 'sponges-cnidarians', collectionId: 'itis-porifera-cnidaria-tsn-crosswalk', total: 30521, accepted: 4242, redirects: 50, ambiguous: 3, unmatched: 26226, upstreamOnly: 2218, canonicalFileCount: 6 },
       { scope: 'echinodermata', packageId: 'echinoderms', collectionId: 'itis-echinodermata-tsn-crosswalk', total: 11891, accepted: 3692, redirects: 51, ambiguous: 9, unmatched: 8139, upstreamOnly: 278, canonicalFileCount: 3 },
+      { scope: 'crustacea', packageId: 'crustaceans-insects', collectionId: 'itis-crustacea-tsn-crosswalk', total: 80890, accepted: 26395, redirects: 115, ambiguous: 38, unmatched: 54342, upstreamOnly: 5991, canonicalFileCount: 41 },
+      { scope: 'insecta', packageId: 'crustaceans-insects', collectionId: 'itis-insecta-tsn-crosswalk', total: 941223, accepted: 176406, redirects: 2887, ambiguous: 692, unmatched: 761238, upstreamOnly: 27357, canonicalFileCount: 100 },
+      { scope: 'myriapoda', packageId: 'crustaceans-insects', collectionId: 'itis-myriapoda-tsn-crosswalk', total: 14210, accepted: 3040, redirects: 0, ambiguous: 2, unmatched: 11168, upstreamOnly: 3445, canonicalFileCount: 3 },
+      { scope: 'chelicerata', packageId: 'trilobites-chelicerates', collectionId: 'itis-chelicerata-tsn-crosswalk', total: 99511, accepted: 74948, redirects: 146, ambiguous: 141, unmatched: 24276, upstreamOnly: 5714, canonicalFileCount: 17 },
     ]
 
     for (const contract of contracts) {
@@ -1044,12 +1048,12 @@ describe('static runtime release coherence', () => {
       delivery: { profile: 'web-light' as const, completeRows: false, publishedFileCount: 0, canonicalFileCount: contract.canonicalFileCount },
     }
     const webManifest = { packageId: contract.packageId, version: 'dataset-web', files: {}, occurrences: [], nomenclatureCollections: [webCollection] }
-    const webManifestFile = { url: 'releases/dataset-web/packages/echinoderms/manifest.json', sha256: await sha256(webManifest) }
+    const webManifestFile = { url: `releases/dataset-web/packages/${contract.packageId}/manifest.json`, sha256: await sha256(webManifest) }
     vi.stubGlobal('fetch', vi.fn(async (input: RequestInfo | URL) => String(input).endsWith('/data/current.json')
-      ? responseFor({ datasetVersion: 'dataset-web', releaseBase: 'releases/dataset-web/', packages: { manifests: { echinoderms: webManifestFile } } })
+      ? responseFor({ datasetVersion: 'dataset-web', releaseBase: 'releases/dataset-web/', packages: { manifests: { [contract.packageId]: webManifestFile } } })
       : responseFor(webManifest)))
     const webClient = await import('./staticDataClient')
-    await expect(webClient.loadPackageItisAuthorityRecord('echinodermata', 'M001')).rejects.toThrow('full Android/iOS data profile')
+    await expect(webClient.loadPackageItisAuthorityRecord(contract.scope, 'M001')).rejects.toThrow('full Android/iOS data profile')
   })
 
   it('recognizes the Nematoda and Annelida contracts in the multi-extension other-animals pack', async () => {

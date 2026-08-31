@@ -285,11 +285,19 @@ export type RuntimeItisNomenclatureCollectionId =
   | 'itis-mollusca-brachiopoda-tsn-crosswalk'
   | 'itis-porifera-cnidaria-tsn-crosswalk'
   | 'itis-echinodermata-tsn-crosswalk'
+  | 'itis-crustacea-tsn-crosswalk'
+  | 'itis-insecta-tsn-crosswalk'
+  | 'itis-myriapoda-tsn-crosswalk'
+  | 'itis-chelicerata-tsn-crosswalk'
 
 export type RuntimeItisPackageScope =
   | 'mollusca-brachiopoda'
   | 'porifera-cnidaria'
   | 'echinodermata'
+  | 'crustacea'
+  | 'insecta'
+  | 'myriapoda'
+  | 'chelicerata'
 
 export interface RuntimeItisNomenclatureCollection {
   schemaVersion: 1

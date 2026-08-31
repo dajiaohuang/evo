@@ -413,7 +413,7 @@ export async function loadPackageItisRecord(
 }
 
 const packageItisContracts: Record<import('./types').RuntimeItisPackageScope, {
-  packageId: 'other-animals' | 'molluscs-brachiopods' | 'sponges-cnidarians' | 'echinoderms'
+  packageId: 'other-animals' | 'molluscs-brachiopods' | 'sponges-cnidarians' | 'echinoderms' | 'crustaceans-insects' | 'trilobites-chelicerates'
   collectionId: import('./types').RuntimeItisNomenclatureCollectionId
   total: number
   accepted: number
@@ -426,6 +426,10 @@ const packageItisContracts: Record<import('./types').RuntimeItisPackageScope, {
   'mollusca-brachiopoda': { packageId: 'molluscs-brachiopods', collectionId: 'itis-mollusca-brachiopoda-tsn-crosswalk', total: 159794, accepted: 7212, redirects: 256, ambiguous: 16, unmatched: 152310, upstreamOnly: 4289, canonicalFileCount: 60 },
   'porifera-cnidaria': { packageId: 'sponges-cnidarians', collectionId: 'itis-porifera-cnidaria-tsn-crosswalk', total: 30521, accepted: 4242, redirects: 50, ambiguous: 3, unmatched: 26226, upstreamOnly: 2218, canonicalFileCount: 6 },
   echinodermata: { packageId: 'echinoderms', collectionId: 'itis-echinodermata-tsn-crosswalk', total: 11891, accepted: 3692, redirects: 51, ambiguous: 9, unmatched: 8139, upstreamOnly: 278, canonicalFileCount: 3 },
+  crustacea: { packageId: 'crustaceans-insects', collectionId: 'itis-crustacea-tsn-crosswalk', total: 80890, accepted: 26395, redirects: 115, ambiguous: 38, unmatched: 54342, upstreamOnly: 5991, canonicalFileCount: 41 },
+  insecta: { packageId: 'crustaceans-insects', collectionId: 'itis-insecta-tsn-crosswalk', total: 941223, accepted: 176406, redirects: 2887, ambiguous: 692, unmatched: 761238, upstreamOnly: 27357, canonicalFileCount: 100 },
+  myriapoda: { packageId: 'crustaceans-insects', collectionId: 'itis-myriapoda-tsn-crosswalk', total: 14210, accepted: 3040, redirects: 0, ambiguous: 2, unmatched: 11168, upstreamOnly: 3445, canonicalFileCount: 3 },
+  chelicerata: { packageId: 'trilobites-chelicerates', collectionId: 'itis-chelicerata-tsn-crosswalk', total: 99511, accepted: 74948, redirects: 146, ambiguous: 141, unmatched: 24276, upstreamOnly: 5714, canonicalFileCount: 17 },
 }
 
 export async function loadPackageItisAuthorityRecord(

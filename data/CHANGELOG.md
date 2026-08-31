@@ -1,5 +1,12 @@
 # Dataset changelog
 
+## App 0.20.22 / 2026.08-static-v5-rc71 — 2026-08-31
+
+- Added fixed, exact ITIS `2026-08-26` CC0 authority sidecars for Insecta, Crustacea, Chelicerata, and Myriapoda. Their declared COL26.8 scopes contain 1,135,834 explicit outcomes: 280,789 exact current names, 3,148 official synonym redirects, 873 ambiguities, and 851,024 unmatched records; 42,507 current ITIS-only species remain in separate null-COL partitions.
+- Published 1,178,341 native authority records through 161 non-empty deterministic JSONL gzip shards. Pages `web-light` publishes source, scope, method, counts, limitations, and canonical byte/SHA-256 inventories but no authority rows; Android and iOS build `25` copy every native-full shard byte-for-byte and verify release-inventory parity.
+- Preserved exact mixed-package boundaries: Insecta, Crustacea, and Myriapoda remain independent collections in `crustaceans-insects`; Chelicerata remains separate from the 4,615 non-applicable Trilobita records in `trilobites-chelicerates`; the single Euthycarcinoidea COL record is not counted as living Myriapoda.
+- Added [`docs/itis-arthropods-authority.md`](../docs/itis-arthropods-authority.md) with roots, outcome counts, delivery boundaries, canonical locations, and limitations.
+
 ## App 0.20.21 / 2026.08-static-v5-rc70 — 2026-08-31
 
 - Added fixed, exact ITIS `2026-08-26` CC0 authority sidecars for Nematoda, Annelida, Mollusca plus Brachiopoda, Porifera plus Cnidaria, and Echinodermata. Their declared COL26.8 scopes contain 240,792 explicit outcomes: 21,346 exact current names, 515 official synonym redirects, 30 ambiguities, and 218,901 unmatched records; 13,122 current ITIS-only species remain in separate null-COL partitions.
