@@ -291,6 +291,11 @@ export type RuntimeItisNomenclatureCollectionId =
   | 'itis-chelicerata-tsn-crosswalk'
   | 'itis-reptilia-tsn-crosswalk'
   | 'itis-crocodylia-tsn-crosswalk'
+  | 'itis-perissodactyla-tsn-crosswalk'
+  | 'itis-cetartiodactyla-tsn-crosswalk'
+  | 'itis-primates-tsn-crosswalk'
+  | 'itis-carnivora-tsn-crosswalk'
+  | 'itis-other-mammals-tsn-crosswalk'
 
 export type RuntimeItisPackageScope =
   | 'mollusca-brachiopoda'
@@ -302,6 +307,11 @@ export type RuntimeItisPackageScope =
   | 'chelicerata'
   | 'reptilia-non-crocodylia'
   | 'crocodylia'
+  | 'perissodactyla'
+  | 'cetartiodactyla'
+  | 'primates'
+  | 'carnivora'
+  | 'other-mammals'
 
 export interface RuntimeItisNomenclatureCollection {
   schemaVersion: 1
