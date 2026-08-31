@@ -1,5 +1,7 @@
 # ITIS Fungi authority collection
 
+Release `2026.08-static-v5-rc76` / app `0.20.27` / Android and iOS build `30` delivers this independent collection under the split profile below.
+
 `itis-fungi-tsn-crosswalk` is an independent, release-pinned CC0 ITIS collection for the exact ITIS Fungi kingdom root TSN `555705` and all 157,044 strict accepted COL26.8 Fungi species.
 
 It is deliberately separate from the Species Fungorum / Index Fungorum identifier collection. An ITIS match neither changes Index Fungorum source linkage nor asserts that either source accepts the other's record.

@@ -1,5 +1,12 @@
 # Dataset changelog
 
+## App 0.20.27 / 2026.08-static-v5-rc76 — 2026-08-31
+
+- Added an independent fixed ITIS `2026-08-26` CC0 Fungi kingdom collection without replacing the complete Species Fungorum / Index Fungorum source linkage. All 157,044 COL26.8 accepted Fungi species retain explicit outcomes: 928 exact current names, 45 official synonym redirects, one ambiguity and 156,070 unmatched rows; 1,761 ITIS-only current species remain in a null-COL partition.
+- Added the last large disjoint ITIS animal scope not already covered by another declared collection: Collembola plus Protura. Its 9,668 COL outcomes contain 2,075 exact current names, 25 official redirects, four ambiguities and 7,564 unmatched rows, plus 411 ITIS-only current species.
+- Published 168,884 additional native authority records through 60 non-empty deterministic JSONL gzip shards. Android and iOS build `30` retain all row files byte-for-byte; Pages `web-light` exposes only sources, exact roots, methods, counts, limitations and canonical hashes.
+- Confirmed that the mobile apps already ship every available fixed PaleoDEM v2 frame at its lossless 0.1° source resolution. Documented the separate 0.05° HydroShare goSPL model as blocked for default redistribution because of its CC BY-NC-SA licence, 11.23 GB elevation payload, irregular ages and missing upstream checksum manifest.
+
 ## App 0.20.26 / 2026.08-static-v5-rc75 — 2026-08-31
 
 - Extended fixed ITIS 2026-08-26 exact sidecars: Graptolithina closes seven represented Rhabdopleura names; Dicyemida pins `Kantharella antarctica` under order TSN `57410` while retaining Microcyema/Conocyema as broader-root exclusions; Oomycota adds exact accepted Leptomitales TSN `181554` and Hyphochytriales TSN `13823` without inferring an Oomycota ITIS phylum root.

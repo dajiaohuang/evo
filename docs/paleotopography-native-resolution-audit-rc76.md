@@ -5,12 +5,20 @@ Audit baseline: `origin/main` at `5dc5abc1f01f5abb8cb7a1d709c535259f2d7df8` (rel
 ## Decision
 
 No finer **scientific raster resolution** can be added deterministically from
-the fixed PaleoDEM source already in the repository. The pinned archive's
+the fixed, redistributable PaleoDEM source already in the repository. The pinned archive's
 native grid is 0.1° (3601 × 1801 cells, integer metres), and rc75 already
 publishes every one of its 109 nominal frames (0–540 Ma, 5 Ma cadence) in
 `native-full`. Creating a 0.05° file by copying, interpolating or otherwise
 resampling these cells would increase the byte count but would not add source
 observations; it must not be described as finer terrain.
+
+A separate HydroShare paleo-physiography collection does publish 0.05° goSPL
+model outputs, but it is not currently eligible for Evo's default Web or
+native bundles: its data licence is CC BY-NC-SA 4.0, the server publishes no
+per-file checksum manifest, its 108 irregular ages do not match the 5 Ma
+PaleoDEM contract, and the elevation-only NetCDF files total 11.23 GB. It is
+tracked separately in [issue #167](https://github.com/dajiaohuang/evo/issues/167)
+instead of being silently treated as a replacement source.
 
 The current delivery split is therefore the strongest truthful option:
 
@@ -51,6 +59,7 @@ coverage and does not use the Pages preview as a fallback.
 | 0.05° nearest-neighbour or bilinear raster | Repeats or invents values between 0.1° source cells; no new evidence | Reject |
 | Temporal interpolation between 5 Ma frames | Invents an intermediate surface and conflicts with the no-interpolation contract | Reject |
 | CAO2024 geometry/observations | Vector geometry and typed observation points do not contain elevation or bathymetry | Reject as terrain source |
+| [HydroShare paleo-physiography](https://www.hydroshare.org/resource/b3f1e3581d174bf58b00ba5672604710/) | 108 physical-model outputs at 0.05°, derived from Scotese–Wright and climate forcing; CC BY-NC-SA, 11.23 GB, irregular ages, no upstream checksums | Blocked for default redistribution; track as a possible opt-in research layer in #167 |
 | Müller ocean-crust age/bathymetry | Ocean-only, younger than 140 Ma, and not a global land palaeotopography replacement | Defer as a separate layer |
 | More stored tile levels | Re-encodes the same grid and would spend mobile/Pages budget without increasing source resolution | Reject |
 
@@ -61,7 +70,7 @@ runtime contract: load only the selected frame, render it on demand, and use
 the existing bilinear display sampling only as a visualization operation.
 This delivers all available source detail to Android/iOS without inflating
 Pages or claiming unsupported precision. A future *data* improvement should
-start only after an immutable, redistributable palaeotopography source with
+start only after an immutable, app-compatible redistributable palaeotopography source with
 cells finer than 0.1° (and a complete age/coverage inventory) is acquired.
 
 If a visual-detail improvement is desired before that source exists, it must
