@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "importType": "COL26.8-to-ITIS-exact-fish-nomenclatural-sidecar",
+  "packageId": "chondrichthyes",
+  "collectionId": "itis-chondrichthyes-tsn-crosswalk",
+  "generatedFrom": {
+    "sourcePath": "data/sources/itis-2026-08-26.json",
+    "sourceSha256": "38a7a55b4e98cafc66790e47f6bd637e298e23fd691e4771c755b38e4a02d7fc",
+    "itisDatabaseMember": "itisSqlite082626/ITIS.sqlite",
+    "itisDatabaseSha256": "ea7304536cfd7b1e2636d383911ca7931fc83d9ab1194ca2a3c020ea2daf1719",
+    "colRegistryManifestPath": "data/catalogue-of-life/releases/2026-08-20/registry/manifest.json",
+    "colRegistryManifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151",
+    "colOwnershipPath": "data/registry/package-species-coverage.json",
+    "colOwnershipSha256": "168e7cb70124ca4400e1b86c5fe76e7c1ff551bddd7be50f0149f077f40db1cf"
+  },
+  "scopeAudit": {
+    "colRoots": [
+      "8X6G5"
+    ],
+    "colScopeNames": [
+      "Chondrichthyes"
+    ],
+    "colStrictAcceptedSpecies": 1359,
+    "packageStrictAcceptedSpecies": 1359,
+    "rootUnion": "A species is selected once when any declared COL root occurs in its lineage; nested roots are not additive.",
+    "itisRoot": {
+      "tsn": "159785",
+      "scientificName": "Chondrichthyes",
+      "rank": "Class",
+      "usage": "valid"
+    },
+    "itisCurrentSpecies": 963,
+    "itisSpeciesSynonymLinks": 647,
+    "maximumUpdateDates": {
+      "taxonomicUnits": "2026-08-26",
+      "synonymLinks": "2026-08-26"
+    }
+  },
+  "queries": {
+    "currentSpecies": "WITH RECURSIVE descendants(tsn) AS (\n  SELECT ?1\n  UNION ALL\n  SELECT u.tsn FROM taxonomic_units u JOIN descendants d ON u.parent_tsn = d.tsn\n  WHERE u.name_usage = 'valid'\n)\nSELECT u.tsn, l.completename AS scientific_name, u.name_usage, u.credibility_rtng,\n  u.completeness_rtng, u.currency_rating, u.update_date\nFROM descendants d\nJOIN taxonomic_units u ON u.tsn = d.tsn\nJOIN taxon_unit_types r ON r.kingdom_id = u.kingdom_id AND r.rank_id = u.rank_id\nJOIN longnames l ON l.tsn = u.tsn\nWHERE lower(trim(r.rank_name)) = 'species' AND u.name_usage = 'valid'\nORDER BY u.tsn",
+    "speciesSynonyms": "WITH RECURSIVE descendants(tsn) AS (\n  SELECT ?1\n  UNION ALL\n  SELECT u.tsn FROM taxonomic_units u JOIN descendants d ON u.parent_tsn = d.tsn\n  WHERE u.name_usage = 'valid'\n), accepted(tsn) AS (\n  SELECT u.tsn FROM descendants d\n  JOIN taxonomic_units u ON u.tsn = d.tsn\n  JOIN taxon_unit_types r ON r.kingdom_id = u.kingdom_id AND r.rank_id = u.rank_id\n  WHERE lower(trim(r.rank_name)) = 'species' AND u.name_usage = 'valid'\n)\nSELECT s.tsn AS synonym_tsn, sl.completename AS synonym_name, su.name_usage AS synonym_usage,\n  su.unaccept_reason, su.update_date AS synonym_update_date, s.tsn_accepted\nFROM synonym_links s\nJOIN accepted a ON a.tsn = s.tsn_accepted\nJOIN taxonomic_units su ON su.tsn = s.tsn\nJOIN taxon_unit_types sr ON sr.kingdom_id = su.kingdom_id AND sr.rank_id = su.rank_id\nJOIN longnames sl ON sl.tsn = su.tsn\nWHERE lower(trim(sr.rank_name)) = 'species'\nORDER BY s.tsn, s.tsn_accepted"
+  },
+  "matchingContract": {
+    "normalization": [
+      "Remove the exact trailing COL authorship field from COL scientificName when that suffix is present; no authorship parser is used.",
+      "Normalize Unicode to NFC, replace underscores with spaces, collapse Unicode whitespace and trim.",
+      "For species-rank comparison, remove one parenthesized subgenus token in the exact Genus (Subgenus) species representation; genus and specific epithet must remain unchanged.",
+      "Preserve case, diacritics, punctuation and all remaining name tokens."
+    ],
+    "statuses": {
+      "accepted": "The normalized COL name resolves to exactly one valid ITIS Chondrichthyes species and directly equals that current ITIS name.",
+      "synonym-current-name-redirect": "The normalized COL name equals official ITIS invalid species-name evidence that resolves to exactly one valid ITIS Chondrichthyes species.",
+      "ambiguous": "The normalized exact evidence resolves to more than one valid ITIS Chondrichthyes species TSN.",
+      "unmatched": "No normalized exact valid-name or official ITIS species-synonym evidence resolves to a valid ITIS Chondrichthyes species."
+    },
+    "prohibited": "No fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered or taxon-substituted matching is used."
+  },
+  "totals": {
+    "total": 1359,
+    "accepted": 769,
+    "synonymCurrentNameRedirect": 18,
+    "ambiguous": 1,
+    "unmatched": 571,
+    "itisCurrentSpecies": 963,
+    "itisSpeciesSynonymLinks": 647,
+    "itisUpstreamOnly": 183
+  },
+  "outputs": {
+    "descriptor": {
+      "path": "data/packages/vertebrata/chondrichthyes/nomenclature/itis-chondrichthyes-sidecar.json",
+      "bytes": 4720,
+      "sha256": "102c96a043fd4b5029b64635c6526f8691e35e41da1492822a4c20c3fe3f1831"
+    },
+    "colUsageIdShards": [
+      {
+        "path": "data/packages/vertebrata/chondrichthyes/nomenclature/itis-chondrichthyes-sidecar-000.jsonl.gz",
+        "records": 1359,
+        "bytes": 47590,
+        "sha256": "c6535fc443a52e64fa18433d5993095497a6d7ba2fb19ff1bcb9bf9cad600d2d",
+        "sourceBytes": 414127,
+        "sourceSha256": "a919d2eaaff70a7ffa633cfe1b682e8572127509d50364d4f02e15c5cb263758",
+        "firstColUsageId": "3247M",
+        "lastColUsageId": "ZS3T"
+      }
+    ],
+    "upstreamOnly": [
+      {
+        "path": "data/packages/vertebrata/chondrichthyes/nomenclature/itis-chondrichthyes-upstream-only-000.jsonl.gz",
+        "records": 183,
+        "bytes": 2856,
+        "sha256": "085da73f86c689c4b722553b49dc40c4ca9f197db0476c9fc3fc8914bf5c3233",
+        "sourceBytes": 66135,
+        "sourceSha256": "3b7db9396b038ee559b02b1ef1705af855cfe55dfd1ee265d3639c5e305591f6",
+        "firstColUsageId": null,
+        "lastColUsageId": null,
+        "colOwnership": null,
+        "firstTsn": "159970",
+        "lastTsn": "846102"
+      }
+    ]
+  },
+  "deliveryContract": {
+    "pagesLight": "Pages may publish only the descriptor and canonical file hashes; no row-level JSONL gzip shards.",
+    "androidIosFull": "Android and iOS complete-data inventories must include the descriptor and every listed row-level shard byte-for-byte.",
+    "runtimeChange": "Data-only import; no version, package manifest or release-manifest changes."
+  },
+  "generatedBy": {
+    "scriptPath": "scripts/build-itis-fish-sidecars.mjs",
+    "scriptSha256": "000381ae2447eaf9dfbbfb9b46a4d8d68cb5f1912281e663389c3c760fad4c30",
+    "deterministic": "Pinned input checksums, fixed COL and ITIS roots, exact SQL, representation-only normalization, Unicode code-unit ID ordering and deterministic gzip; no fuzzy matching."
+  }
+}

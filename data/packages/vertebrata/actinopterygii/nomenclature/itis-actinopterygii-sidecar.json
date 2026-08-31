@@ -1,0 +1,323 @@
+{
+  "schemaVersion": 1,
+  "sidecarType": "release-pinned-exact-nomenclatural-crosswalk",
+  "packageId": "actinopterygii",
+  "id": "itis-actinopterygii-tsn-crosswalk",
+  "scope": {
+    "colRootUsageIds": [
+      "8VR36"
+    ],
+    "colScopeNames": [
+      "Actinopterygii"
+    ],
+    "colStrictAcceptedSpecies": 35928,
+    "packageStrictAcceptedSpecies": 35928,
+    "rootUnion": "A species is selected once when any declared COL root occurs in its lineage; nested roots are not additive."
+  },
+  "sources": {
+    "col": {
+      "releaseAlias": "COL26.8",
+      "releaseDate": "2026-08-20",
+      "registryManifestPath": "data/catalogue-of-life/releases/2026-08-20/registry/manifest.json",
+      "registryManifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151",
+      "ownershipPath": "data/registry/package-species-coverage.json",
+      "ownershipSha256": "168e7cb70124ca4400e1b86c5fe76e7c1ff551bddd7be50f0149f077f40db1cf"
+    },
+    "itis": {
+      "datasetId": "itis-2026-08-26",
+      "exportDate": "2026-08-26",
+      "rootTsn": "161061",
+      "scientificName": "Actinopterygii",
+      "rank": "Superclass",
+      "sourceLedgerPath": "data/sources/itis-2026-08-26.json",
+      "sourceLedgerSha256": "38a7a55b4e98cafc66790e47f6bd637e298e23fd691e4771c755b38e4a02d7fc",
+      "license": "CC0-1.0",
+      "citationDoi": "10.5066/F7KH0KBK"
+    }
+  },
+  "exactMatching": {
+    "normalization": [
+      "Remove the exact trailing COL authorship field from COL scientificName when that suffix is present; no authorship parser is used.",
+      "Normalize Unicode to NFC, replace underscores with spaces, collapse Unicode whitespace and trim.",
+      "For species-rank comparison, remove one parenthesized subgenus token in the exact Genus (Subgenus) species representation; genus and specific epithet must remain unchanged.",
+      "Preserve case, diacritics, punctuation and all remaining name tokens."
+    ],
+    "statuses": {
+      "accepted": "The normalized COL name resolves to exactly one valid ITIS Actinopterygii species and directly equals that current ITIS name.",
+      "synonym-current-name-redirect": "The normalized COL name equals official ITIS invalid species-name evidence that resolves to exactly one valid ITIS Actinopterygii species.",
+      "ambiguous": "The normalized exact evidence resolves to more than one valid ITIS Actinopterygii species TSN.",
+      "unmatched": "No normalized exact valid-name or official ITIS species-synonym evidence resolves to a valid ITIS Actinopterygii species."
+    },
+    "prohibited": "No fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered or taxon-substituted matching is used."
+  },
+  "evidenceBoundary": {
+    "en": "This CC0 ITIS sidecar is a frozen exact nomenclatural crosswalk. It is not a final classification authority, phylogeny, species-concept equivalence assertion, biological dossier, fossil record or expert-review record."
+  },
+  "counts": {
+    "total": 35928,
+    "accepted": 24266,
+    "synonymCurrentNameRedirect": 356,
+    "ambiguous": 14,
+    "unmatched": 11292,
+    "itisCurrentSpecies": 28231,
+    "itisSpeciesSynonymLinks": 12317,
+    "itisUpstreamOnly": 3732
+  },
+  "colUsageIdLocator": {
+    "key": "colUsageId",
+    "ordering": "Unicode code-unit ascending",
+    "sourceShardLimitBytes": 524288,
+    "stableAddressing": "Binary-search non-overlapping inclusive COL usage-ID ranges; one detail request loads one immutable JSONL gzip shard.",
+    "files": [
+      {
+        "path": "data/packages/vertebrata/actinopterygii/nomenclature/itis-actinopterygii-sidecar-000.jsonl.gz",
+        "records": 1576,
+        "bytes": 53759,
+        "sha256": "456864796bc25c1a6604fc3b0731842817601e0dc9dc90811d8fee9666bba164",
+        "sourceBytes": 524198,
+        "sourceSha256": "e0dd6724930779977255d6b55b485185893a88e1652bc53929fcc7e396182789",
+        "firstColUsageId": "323C6",
+        "lastColUsageId": "3BL59"
+      },
+      {
+        "path": "data/packages/vertebrata/actinopterygii/nomenclature/itis-actinopterygii-sidecar-001.jsonl.gz",
+        "records": 1552,
+        "bytes": 52776,
+        "sha256": "73716e42dc51e8e0a4e4ca6bdab7cf86c7c0dff5c6f435dc80960bb20f4bd1d0",
+        "sourceBytes": 524128,
+        "sourceSha256": "183adb61fb62976f06532816276bffaf841d5302a0b4b8898304fb3c3fa5c189",
+        "firstColUsageId": "3BL5C",
+        "lastColUsageId": "3J97D"
+      },
+      {
+        "path": "data/packages/vertebrata/actinopterygii/nomenclature/itis-actinopterygii-sidecar-002.jsonl.gz",
+        "records": 1530,
+        "bytes": 51245,
+        "sha256": "9ce72d16b96130b450c2a2bf5594044cc1635b87315b29938d0aa6065e3086cc",
+        "sourceBytes": 524115,
+        "sourceSha256": "8536a8ef9360ea4ff447cc9cea641e62e0746b11922901ce8b340c40b9b7dc59",
+        "firstColUsageId": "3J97H",
+        "lastColUsageId": "3NZBB"
+      },
+      {
+        "path": "data/packages/vertebrata/actinopterygii/nomenclature/itis-actinopterygii-sidecar-003.jsonl.gz",
+        "records": 1600,
+        "bytes": 54392,
+        "sha256": "5c4fd399d6ce4297835998e17d78bcec1db1c98fb8820b9e62e65dbf0a8e0b1c",
+        "sourceBytes": 524263,
+        "sourceSha256": "e18f980c4d22d0dc9da462e3afa3a4211172e9e1309dbcd479c530c16d6f5075",
+        "firstColUsageId": "3NZBD",
+        "lastColUsageId": "3WCMD"
+      },
+      {
+        "path": "data/packages/vertebrata/actinopterygii/nomenclature/itis-actinopterygii-sidecar-004.jsonl.gz",
+        "records": 1533,
+        "bytes": 52560,
+        "sha256": "f6f0a29577b6c64a1440b7a8515e356c91f512355023650634a07c7c31e77e2d",
+        "sourceBytes": 524134,
+        "sourceSha256": "a2eaa62843e31d2f8cc98ffd45ebc76162e3ab0921889d829845902b504a082e",
+        "firstColUsageId": "3WCMF",
+        "lastColUsageId": "45MC4"
+      },
+      {
+        "path": "data/packages/vertebrata/actinopterygii/nomenclature/itis-actinopterygii-sidecar-005.jsonl.gz",
+        "records": 1534,
+        "bytes": 52135,
+        "sha256": "03c0864e6b484f3e6979e751e120f0e41aa432327428f3acb68f94062229fe92",
+        "sourceBytes": 524146,
+        "sourceSha256": "345779a2bd18bfa3f6e5e0b0247b30ed8d7100fd23c3de8909276303751e51e1",
+        "firstColUsageId": "45MC5",
+        "lastColUsageId": "4BZCX"
+      },
+      {
+        "path": "data/packages/vertebrata/actinopterygii/nomenclature/itis-actinopterygii-sidecar-006.jsonl.gz",
+        "records": 1582,
+        "bytes": 53989,
+        "sha256": "2d994cc6a3a95083070d9691b4d037a7910481471bcfba29728f96d081451caf",
+        "sourceBytes": 524173,
+        "sourceSha256": "69b86ec0a92c59b3297f45755883e4e804f716fd014f2a0c80cab4b8a6e612a3",
+        "firstColUsageId": "4BZCY",
+        "lastColUsageId": "4K3R9"
+      },
+      {
+        "path": "data/packages/vertebrata/actinopterygii/nomenclature/itis-actinopterygii-sidecar-007.jsonl.gz",
+        "records": 1520,
+        "bytes": 53050,
+        "sha256": "f2dbdf8647e85570368ebe773043d52d6235c11ce4697c8820b60329f5668e00",
+        "sourceBytes": 524012,
+        "sourceSha256": "ff1bb088217bcc2ef5acc0ab5e869d9069fa5effd07ba8b8df3f58d8c20a9ce1",
+        "firstColUsageId": "4K3RB",
+        "lastColUsageId": "4QHZ4"
+      },
+      {
+        "path": "data/packages/vertebrata/actinopterygii/nomenclature/itis-actinopterygii-sidecar-008.jsonl.gz",
+        "records": 1525,
+        "bytes": 51222,
+        "sha256": "ee7bceed4e795b4a9d7a8374f1c0c044fef632ca242bc66d75fe1dcc2daa3edc",
+        "sourceBytes": 524138,
+        "sourceSha256": "874117468eeca3d72fd4f0db49e53cd9c5ce336850a5c73f9f3bb2554004b528",
+        "firstColUsageId": "4QHZ5",
+        "lastColUsageId": "4X3LS"
+      },
+      {
+        "path": "data/packages/vertebrata/actinopterygii/nomenclature/itis-actinopterygii-sidecar-009.jsonl.gz",
+        "records": 1548,
+        "bytes": 53001,
+        "sha256": "db13dac6527fe74fa2f9e6f022a5cf5e12ad9586c4fc55fa8c0586d334b22a1b",
+        "sourceBytes": 524270,
+        "sourceSha256": "54e0faaaeaf8d75dad2e9c09f9d1d4277a923c2505b9ba3a9dec417f6a9bfaf1",
+        "firstColUsageId": "4X3LT",
+        "lastColUsageId": "57CYB"
+      },
+      {
+        "path": "data/packages/vertebrata/actinopterygii/nomenclature/itis-actinopterygii-sidecar-010.jsonl.gz",
+        "records": 1557,
+        "bytes": 55314,
+        "sha256": "719b7edaeeefd98d3c50efc0a14c7d18fec25af9e3e3bfa58352aa4a643f5922",
+        "sourceBytes": 524121,
+        "sourceSha256": "3812c2b485ec878e76d901a283163ec09711f56eccbdf8e33df1035e9561d36c",
+        "firstColUsageId": "57CYC",
+        "lastColUsageId": "5XBZX"
+      },
+      {
+        "path": "data/packages/vertebrata/actinopterygii/nomenclature/itis-actinopterygii-sidecar-011.jsonl.gz",
+        "records": 1557,
+        "bytes": 58100,
+        "sha256": "715c5daaddb0b47b5634f8871fae2dcfc143fd3f06151ca80287d4179b06fabf",
+        "sourceBytes": 524032,
+        "sourceSha256": "9a38c6d4b291474156a9f111c6bfeb8454846cc2779227a00a5e0eac756017b6",
+        "firstColUsageId": "5XDT5",
+        "lastColUsageId": "69LPC"
+      },
+      {
+        "path": "data/packages/vertebrata/actinopterygii/nomenclature/itis-actinopterygii-sidecar-012.jsonl.gz",
+        "records": 1541,
+        "bytes": 55154,
+        "sha256": "534dfaf820b06d0a6bff25a610bf52b93bb5f1b71d9f4af57ac0492ca4eefbdb",
+        "sourceBytes": 524270,
+        "sourceSha256": "3e8c24d08e38368e0775f557e25fb0757a3f4a00bb98be72eb725ef4d9139694",
+        "firstColUsageId": "69LPD",
+        "lastColUsageId": "6JYDK"
+      },
+      {
+        "path": "data/packages/vertebrata/actinopterygii/nomenclature/itis-actinopterygii-sidecar-013.jsonl.gz",
+        "records": 1504,
+        "bytes": 57502,
+        "sha256": "fe1b48038a3cfa78e31e7b7e7f307c19e04cc7e3843e431d3be79cb947071d70",
+        "sourceBytes": 524239,
+        "sourceSha256": "8b15e5ad46b13bb90441d62fffa7fe4d6c638c2c62b01c14c468373ff5db4f08",
+        "firstColUsageId": "6JYGM",
+        "lastColUsageId": "6QW3T"
+      },
+      {
+        "path": "data/packages/vertebrata/actinopterygii/nomenclature/itis-actinopterygii-sidecar-014.jsonl.gz",
+        "records": 1556,
+        "bytes": 59697,
+        "sha256": "5d11899172ffe2f2ea734c84f29a4238e930d1af11cda7ee1971ec2bd1f9895a",
+        "sourceBytes": 524247,
+        "sourceSha256": "a69319cdd58ebba18f9f1e81e6190616badf029fec1e846f5699132014c89cbb",
+        "firstColUsageId": "6QW3W",
+        "lastColUsageId": "6Y7RR"
+      },
+      {
+        "path": "data/packages/vertebrata/actinopterygii/nomenclature/itis-actinopterygii-sidecar-015.jsonl.gz",
+        "records": 1540,
+        "bytes": 57489,
+        "sha256": "a318d1076e9887a6fe298c7eb1777df23ebc739756b5a46d0ad865fe2315513a",
+        "sourceBytes": 524140,
+        "sourceSha256": "34fb0d06425bd15b700e63044c8933217e2e80679658d21aeb41a7121e3d4f37",
+        "firstColUsageId": "6Y7S3",
+        "lastColUsageId": "76MG9"
+      },
+      {
+        "path": "data/packages/vertebrata/actinopterygii/nomenclature/itis-actinopterygii-sidecar-016.jsonl.gz",
+        "records": 1544,
+        "bytes": 57713,
+        "sha256": "01f98126897d61cfc5bda0ec36c5bc54ab6f4e8b4dfac28ec30621f58efcfc2d",
+        "sourceBytes": 524186,
+        "sourceSha256": "cd5e12d027b93e1e06471bd6e527ea6a5daaaf4c52415e8c560e9d179297018b",
+        "firstColUsageId": "76MWS",
+        "lastColUsageId": "7GBL5"
+      },
+      {
+        "path": "data/packages/vertebrata/actinopterygii/nomenclature/itis-actinopterygii-sidecar-017.jsonl.gz",
+        "records": 1965,
+        "bytes": 62184,
+        "sha256": "0df970c48575d7486d3ff3f393aca8aaf0612db23608089fb1d93909ad41baeb",
+        "sourceBytes": 524116,
+        "sourceSha256": "69ed6403cd3372913e413ca57ade07d4409cf3a68ac0ff9f5fca258441d8ee0c",
+        "firstColUsageId": "7GBL6",
+        "lastColUsageId": "D57NQ"
+      },
+      {
+        "path": "data/packages/vertebrata/actinopterygii/nomenclature/itis-actinopterygii-sidecar-018.jsonl.gz",
+        "records": 2333,
+        "bytes": 71147,
+        "sha256": "1c9b40a302140d8bc25499c988b088b6af3eea435feea77cdf3bcd6243093823",
+        "sourceBytes": 523952,
+        "sourceSha256": "08d9905a18bc310c5b049e2046cb306f750127b1c8fbda279236e42f72718730",
+        "firstColUsageId": "D57NR",
+        "lastColUsageId": "DPWS"
+      },
+      {
+        "path": "data/packages/vertebrata/actinopterygii/nomenclature/itis-actinopterygii-sidecar-019.jsonl.gz",
+        "records": 1626,
+        "bytes": 55257,
+        "sha256": "0e00cdd8f172b74029c6016118e6cb6e2f00f986a166bd116e81d4dc647e7abd",
+        "sourceBytes": 523853,
+        "sourceSha256": "52f143bbd87b0055791a4bdbf03c80d60edd62a2291e9f8456daea6091b4132e",
+        "firstColUsageId": "DPWV",
+        "lastColUsageId": "KXT8"
+      },
+      {
+        "path": "data/packages/vertebrata/actinopterygii/nomenclature/itis-actinopterygii-sidecar-020.jsonl.gz",
+        "records": 1541,
+        "bytes": 53615,
+        "sha256": "623c24e3093e3ba0348168c12c9b52de7db311ea8cb406f460b07a35308da33d",
+        "sourceBytes": 524259,
+        "sourceSha256": "01b01de5151b1460cc3123a13632b011fbcf1dbd3eea6823a0db7994a4f66bd9",
+        "firstColUsageId": "KXTC",
+        "lastColUsageId": "TC2S"
+      },
+      {
+        "path": "data/packages/vertebrata/actinopterygii/nomenclature/itis-actinopterygii-sidecar-021.jsonl.gz",
+        "records": 1793,
+        "bytes": 61298,
+        "sha256": "24130e9eee83fc44039698248e9148b23f72a624e76e94ecdab9951ff4d4dac9",
+        "sourceBytes": 524284,
+        "sourceSha256": "fd062d79829f1d6044744d706a5d261c5e52ac604f0f6c7cc695049be770d791",
+        "firstColUsageId": "TC2T",
+        "lastColUsageId": "YQ2K"
+      },
+      {
+        "path": "data/packages/vertebrata/actinopterygii/nomenclature/itis-actinopterygii-sidecar-022.jsonl.gz",
+        "records": 371,
+        "bytes": 12797,
+        "sha256": "56adcab7b30ad10a18d77b20a58ff1929b2c38e117c8672cf0a48f8595175698",
+        "sourceBytes": 129844,
+        "sourceSha256": "02b578724dbf1f6c0829ed771262b800d456d1b37f3b6a79ea8243906a2887cc",
+        "firstColUsageId": "YQ2L",
+        "lastColUsageId": "ZZBN"
+      }
+    ]
+  },
+  "upstreamOnly": {
+    "colOwnership": null,
+    "stableAddressing": "No COL usage ID is assigned; the complete ITIS-only current-species partition is a separate immutable JSONL gzip shard when non-empty.",
+    "files": [
+      {
+        "path": "data/packages/vertebrata/actinopterygii/nomenclature/itis-actinopterygii-upstream-only-000.jsonl.gz",
+        "records": 3732,
+        "bytes": 52400,
+        "sha256": "dcb73fa082b37a34597e06efc7e5b7ff3582743a10936a384ecbe35f441c76c3",
+        "sourceBytes": 1355687,
+        "sourceSha256": "e681c6522a28979815030248736ea6a8d32c5c3babff75d3f37c7b9e6668a50c",
+        "firstColUsageId": null,
+        "lastColUsageId": null,
+        "colOwnership": null,
+        "firstTsn": "161084",
+        "lastTsn": "1280994"
+      }
+    ]
+  }
+}
