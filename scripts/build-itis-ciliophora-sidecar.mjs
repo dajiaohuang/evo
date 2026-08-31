@@ -12,12 +12,12 @@ const root = resolve(dirname(fileURLToPath(import.meta.url)), '..')
 const sourcePath = join(root, 'data/sources/itis-2026-08-26.json')
 const registryRoot = join(root, 'data/catalogue-of-life/releases/2026-08-20/registry')
 const ownershipPath = join(root, 'data/registry/package-species-coverage.json')
-const packRoot = join(root, 'data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals')
+const packRoot = join(root, 'data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists')
 const descriptorPath = join(packRoot, 'itis-ciliophora-sidecar.json')
 const ledgerPath = join(root, 'data/sources/itis-ciliophora-sidecar-import-ledger.json')
 const ITIS_ROOT_TSN = 46211
 const COL_ROOT_USAGE_ID = '3H'
-const PACKAGE_ID = 'other-animals'
+const PACKAGE_ID = 'protists-chromists'
 const SHARD_SOURCE_LIMIT_BYTES = 512 * 1024
 const currentSpeciesQuery = `WITH RECURSIVE descendants(tsn) AS (
   SELECT ?1 UNION ALL SELECT u.tsn FROM taxonomic_units u JOIN descendants d ON u.parent_tsn = d.tsn WHERE u.name_usage = 'valid'
@@ -92,7 +92,7 @@ async function main() {
   const registryManifestPath = join(registryRoot, 'manifest.json'); const registryBytes = readFileSync(registryManifestPath); const ownershipBytes = readFileSync(ownershipPath)
   if (sha256(registryBytes) !== source.importLedger.colInput.registryManifestSha256) throw new Error('COL registry manifest SHA-256 mismatch')
   const ownership = JSON.parse(ownershipBytes); const colSpecies = await loadColSpecies(JSON.parse(registryBytes)); const packageCount = ownership.packageCounts[PACKAGE_ID]
-  if (colSpecies.length > packageCount) throw new Error('Ciliophora COL scope exceeds Other Animals ownership')
+  if (colSpecies.length > packageCount) throw new Error('Ciliophora COL scope exceeds Protists and Chromists ownership')
   const { rootRecord, maxima, currentRows, synonymRows } = loadItis(sqlitePath)
   if (maxima.taxonomicUnits !== source.databaseAudit.maximumTaxonomicUnitUpdateDate || maxima.synonymLinks !== source.databaseAudit.maximumSynonymLinkUpdateDate) throw new Error(`ITIS update-date mismatch: ${JSON.stringify(maxima)}`)
   const index = createItisMammalNameIndex(currentRows, synonymRows); const crosswalk = []; const evidencedTsns = new Set()
@@ -105,7 +105,7 @@ async function main() {
   const upstreamDescriptor = { ...shardDescriptor(upstreamPath, upstreamOnly, upstreamBytes, upstreamSource), colOwnership: null, firstTsn: upstreamOnly[0]?.currentName.tsn ?? null, lastTsn: upstreamOnly.at(-1)?.currentName.tsn ?? null }
   const counts = { total: crosswalk.length, accepted: crosswalk.filter((r) => r.status === 'accepted').length, synonymCurrentNameRedirect: crosswalk.filter((r) => r.status === 'synonym-current-name-redirect').length, ambiguous: crosswalk.filter((r) => r.status === 'ambiguous').length, unmatched: crosswalk.filter((r) => r.status === 'unmatched').length, itisCurrentSpecies: currentRows.length, itisSpeciesSynonymLinks: synonymRows.length, itisUpstreamOnly: upstreamOnly.length }
   const descriptor = { schemaVersion: 1, sidecarType: 'release-pinned-exact-nomenclatural-crosswalk', packageId: PACKAGE_ID,
-    scope: { packageRootUsageId: 'N', packageRootScientificName: 'Animalia', colRootUsageId: COL_ROOT_USAGE_ID, colRootScientificName: 'Ciliophora', colStrictAcceptedSpecies: colSpecies.length, packageStrictAcceptedSpecies: packageCount, packageOutOfScopeStrictAcceptedSpecies: packageCount - colSpecies.length, nonApplicableRemainder: 'All other strict accepted COL26.8 species assigned to Other Animals remain outside this Ciliophora sidecar.', boundary: 'This sidecar covers only strict accepted COL26.8 species descending from exact Ciliophora root 3H; all remaining mixed-pack species are explicitly out of scope.' },
+    scope: { packageRootUsageIds: ['C', 'Z'], packageRootScientificNames: ['Chromista', 'Protozoa'], colRootUsageId: COL_ROOT_USAGE_ID, colRootScientificName: 'Ciliophora', colStrictAcceptedSpecies: colSpecies.length, packageStrictAcceptedSpecies: packageCount, packageOutOfScopeStrictAcceptedSpecies: packageCount - colSpecies.length, nonApplicableRemainder: 'All other strict accepted COL26.8 species assigned to Protists and Chromists remain outside this Ciliophora sidecar.', boundary: 'This sidecar covers only strict accepted COL26.8 species descending from exact Ciliophora root 3H; all remaining mixed-pack species are explicitly out of scope.' },
     sources: { col: { releaseAlias: 'COL26.8', releaseDate: '2026-08-20', registryManifestPath: repoPath(registryManifestPath), registryManifestSha256: sha256(registryBytes), ownershipPath: repoPath(ownershipPath), ownershipSha256: sha256(ownershipBytes) }, itis: { datasetId: source.datasetId, exportDate: source.release.exportDate, rootTsn: String(ITIS_ROOT_TSN), sourceLedgerPath: repoPath(sourcePath), sourceLedgerSha256: sha256(sourceBytes), license: source.license.spdx, citationDoi: source.citation.doi } },
     exactMatching: { normalization: source.importLedger.normalization, statuses: { accepted: 'The normalized COL name resolves to exactly one valid ITIS Ciliophora species and directly equals that current ITIS name.', 'synonym-current-name-redirect': 'The normalized COL name equals official ITIS invalid species-name evidence that resolves to exactly one valid ITIS Ciliophora species.', ambiguous: 'The normalized exact evidence resolves to more than one valid ITIS Ciliophora species TSN.', unmatched: 'No normalized exact valid-name or official ITIS species-synonym evidence resolves to a valid ITIS Ciliophora species.' }, prohibited: 'No fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered or taxon-substituted matching is used.' },
     evidenceBoundary: { en: 'This CC0 ITIS sidecar is a frozen exact nomenclatural crosswalk for the declared Ciliophora partition. It is not a global ciliate checklist, final classification authority, phylogeny, species-concept equivalence assertion, biological dossier or scientific-review record.', zh: '此 CC0 ITIS 侧车是已声明 Ciliophora 分区的冻结严格命名交叉映射；它不是全球纤毛虫名录、最终分类权威、系统发育、物种概念等同性声明、生物档案或科学审查记录。' },

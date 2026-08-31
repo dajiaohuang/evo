@@ -8,7 +8,7 @@ import { deterministicGzip } from './archive-determinism.mjs'
 import { colExactMatchName } from './itis-cercozoa-sidecar-lib.mjs'
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..')
-const descriptorPath = join(root, 'data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals/itis-cercozoa-sidecar.json')
+const descriptorPath = join(root, 'data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-cercozoa-sidecar.json')
 const ledgerPath = join(root, 'data/sources/itis-cercozoa-sidecar-import-ledger.json')
 const sha256 = (bytes) => createHash('sha256').update(bytes).digest('hex')
 const readShard = (file) => {

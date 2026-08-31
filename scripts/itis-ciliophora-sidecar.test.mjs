@@ -8,7 +8,7 @@ import { deterministicGzip } from './archive-determinism.mjs'
 import { colExactMatchName, normalizeScientificName } from './itis-mammal-sidecar-lib.mjs'
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..')
-const descriptorPath = join(root, 'data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals/itis-ciliophora-sidecar.json')
+const descriptorPath = join(root, 'data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-ciliophora-sidecar.json')
 const ledgerPath = join(root, 'data/sources/itis-ciliophora-sidecar-import-ledger.json')
 const sha256 = (bytes) => createHash('sha256').update(bytes).digest('hex')
 const readShard = (file, deterministic = false) => {
@@ -29,7 +29,7 @@ describe('ITIS Ciliophora exact sidecar', () => {
   it('covers all strict COL26.8 Ciliophora species exactly once', () => {
     expect(descriptor.scope.colRootUsageId).toBe('3H')
     expect(descriptor.scope.colStrictAcceptedSpecies).toBe(8507)
-    expect(descriptor.scope.packageOutOfScopeStrictAcceptedSpecies).toBe(90654)
+    expect(descriptor.scope.packageOutOfScopeStrictAcceptedSpecies).toBe(53011)
     expect(descriptorBytes.length).toBeLessThan(64 * 1024)
     expect(rows).toHaveLength(8507)
     expect(new Set(rows.map((row) => row.colUsageId)).size).toBe(8507)

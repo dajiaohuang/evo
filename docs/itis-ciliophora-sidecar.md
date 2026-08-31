@@ -11,7 +11,7 @@ that the two sources use identical species concepts.
 
 COL26.8 contains 8,507 strict accepted species below the exact phylum node
 `3H` (Ciliophora), all assigned by the deterministic ownership projection to
-the mixed `other-animals` package. The pinned ITIS root is valid phylum TSN
+the mixed `protists-chromists` package. The pinned ITIS root is valid phylum TSN
 `46211` (Ciliophora), with 410 current species and 16 species-level synonym
 links to those current species.
 
