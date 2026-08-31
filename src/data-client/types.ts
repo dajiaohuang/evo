@@ -974,7 +974,7 @@ export interface CatalogueForaminiferaResourcePackExtension {
   }
 }
 
-export type CatalogueItisOtherAnimalsScope = 'platyhelminthes' | 'rotifera' | 'bryozoa' | 'nemertea' | 'tunicata-cephalochordata'
+export type CatalogueItisOtherAnimalsScope = 'platyhelminthes' | 'rotifera' | 'bryozoa' | 'nemertea' | 'tunicata-cephalochordata' | 'acanthocephala'
 
 export interface CatalogueItisOtherAnimalsResourcePackExtension {
   id: `itis-${CatalogueItisOtherAnimalsScope}-tsn-crosswalk`

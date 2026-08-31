@@ -696,6 +696,7 @@ const itisOtherAnimalsContracts: Record<import('./types').CatalogueItisOtherAnim
   bryozoa: { eligible: 20367, accepted: 655, redirects: 15, ambiguous: 0, unmatched: 19697, upstreamOnly: 387, nonApplicable: 78794, canonicalFileCount: 3 },
   nemertea: { eligible: 1364, accepted: 142, redirects: 1, ambiguous: 0, unmatched: 1221, upstreamOnly: 52, nonApplicable: 97797, canonicalFileCount: 2 },
   'tunicata-cephalochordata': { eligible: 3176, accepted: 366, redirects: 8, ambiguous: 0, unmatched: 2802, upstreamOnly: 66, nonApplicable: 95985, canonicalFileCount: 2 },
+  acanthocephala: { eligible: 1325, accepted: 1320, redirects: 0, ambiguous: 5, unmatched: 0, upstreamOnly: 5, nonApplicable: 97836, canonicalFileCount: 3 },
 }
 
 export async function loadCatalogueItisOtherAnimalsRecord(

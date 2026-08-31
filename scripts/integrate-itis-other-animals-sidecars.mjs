@@ -23,6 +23,7 @@ const taxa = [
   { slug: 'bryozoa', label: 'Bryozoa' },
   { slug: 'nemertea', label: 'Nemertea' },
   { slug: 'tunicata-cephalochordata', label: 'Tunicata and Cephalochordata' },
+  { slug: 'acanthocephala', label: 'Acanthocephala' },
 ]
 
 const bryozoaPath = join(packRoot, 'itis-bryozoa-sidecar.json')

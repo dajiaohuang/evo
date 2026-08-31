@@ -334,10 +334,10 @@ public class AppInstrumentedTest {
                 }
             } else if (packageId.equals("other-animals")) {
                 JSONArray extensions = pack.getJSONArray("extensions");
-                assertEquals(5, extensions.length());
-                String[] expectedIds = new String[]{"itis-platyhelminthes-tsn-crosswalk", "itis-rotifera-tsn-crosswalk", "itis-bryozoa-tsn-crosswalk", "itis-nemertea-tsn-crosswalk", "itis-tunicata-cephalochordata-tsn-crosswalk"};
-                int[] expectedFiles = new int[]{15, 3, 3, 2, 2};
-                int[] expectedRecords = new int[]{28252, 2662, 20754, 1416, 3242};
+                assertEquals(6, extensions.length());
+                String[] expectedIds = new String[]{"itis-platyhelminthes-tsn-crosswalk", "itis-rotifera-tsn-crosswalk", "itis-bryozoa-tsn-crosswalk", "itis-nemertea-tsn-crosswalk", "itis-tunicata-cephalochordata-tsn-crosswalk", "itis-acanthocephala-tsn-crosswalk"};
+                int[] expectedFiles = new int[]{15, 3, 3, 2, 2, 3};
+                int[] expectedRecords = new int[]{28252, 2662, 20754, 1416, 3242, 1330};
                 for (int extensionIndex = 0; extensionIndex < extensions.length(); extensionIndex += 1) {
                     JSONObject authority = extensions.getJSONObject(extensionIndex);
                     assertEquals(expectedIds[extensionIndex], authority.getString("id"));
@@ -441,7 +441,7 @@ public class AppInstrumentedTest {
         assertEquals(22360, lpsnIdentifierRecords);
         assertEquals(157044, indexFungorumIdentifierRecords);
         assertEquals(47975, foraminiferaAuthorityRecords);
-        assertEquals(56326, otherAnimalsItisRecords);
+        assertEquals(57656, otherAnimalsItisRecords);
         assertEquals(17554, ictvSpeciesRecords);
         assertEquals(19285, ictvIsolateRecords);
         assertEquals(61449, wfoSupplementRecords);

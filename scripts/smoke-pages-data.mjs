@@ -630,9 +630,10 @@ if (catalogue.resourcePacks?.packageCount !== 7
         'itis-bryozoa-tsn-crosswalk': { eligible: 20367, records: 20754, accepted: 655, redirects: 15, ambiguous: 0, unmatched: 19697, upstreamOnly: 387, nonApplicable: 78794, files: 3 },
         'itis-nemertea-tsn-crosswalk': { eligible: 1364, records: 1416, accepted: 142, redirects: 1, ambiguous: 0, unmatched: 1221, upstreamOnly: 52, nonApplicable: 97797, files: 2 },
         'itis-tunicata-cephalochordata-tsn-crosswalk': { eligible: 3176, records: 3242, accepted: 366, redirects: 8, ambiguous: 0, unmatched: 2802, upstreamOnly: 66, nonApplicable: 95985, files: 2 },
+        'itis-acanthocephala-tsn-crosswalk': { eligible: 1325, records: 1330, accepted: 1320, redirects: 0, ambiguous: 5, unmatched: 0, upstreamOnly: 5, nonApplicable: 97836, files: 3 },
       }
-      if (extensions.length !== 5 || manifestFile.extensionFileCount !== 0 || manifestFile.canonicalExtensionFileCount !== 25) {
-        failures.push('other-animals: Pages must publish five ITIS authority summaries and no row shards')
+      if (extensions.length !== 6 || manifestFile.extensionFileCount !== 0 || manifestFile.canonicalExtensionFileCount !== 28) {
+        failures.push('other-animals: Pages must publish six ITIS authority summaries and no row shards')
       }
       for (const [id, counts] of Object.entries(expected)) {
         const authority = extensions.find((candidate) => candidate.id === id)

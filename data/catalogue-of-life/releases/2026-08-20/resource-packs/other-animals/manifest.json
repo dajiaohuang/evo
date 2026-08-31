@@ -878,6 +878,143 @@
           "requestPolicy": "Select the sole inclusive COL-ID range and read at most one COL partition; upstream-only files are never selected by COL ID."
         }
       }
+    },
+    {
+      "id": "itis-acanthocephala-tsn-crosswalk",
+      "recordType": "release-pinned-exact-nomenclatural-crosswalk",
+      "provider": "Integrated Taxonomic Information System",
+      "source": {
+        "datasetId": "itis-2026-08-26",
+        "exportDate": "2026-08-26",
+        "rootTsn": "64238",
+        "license": "CC0-1.0",
+        "citationDoi": "10.5066/F7KH0KBK",
+        "canonicalDescriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals/itis-acanthocephala-sidecar.json",
+        "canonicalDescriptorBytes": 6095,
+        "canonicalDescriptorSha256": "0b25cb13f74a87045db404172df2b0f877a8eded6dd3a493680dbdeeb3cdc171"
+      },
+      "scope": {
+        "packageRootUsageId": "N",
+        "packageRootScientificName": "Animalia",
+        "colRootUsageId": "622BD",
+        "colRootScientificName": "Acanthocephala Rudolphi, 1802",
+        "colStrictAcceptedSpecies": 1325,
+        "colRootStrictAcceptedSpecies": 1325,
+        "colRootExcludedFromPackage": 0,
+        "packageStrictAcceptedSpecies": 99161,
+        "packageOutOfScopeStrictAcceptedSpecies": 97836,
+        "packageOwnership": "other-animals is the deterministic COL26.8 residual route below Animalia (N); Acanthocephala has no more-specific static-package route.",
+        "sourceComposition": {
+          "2144": 1325
+        },
+        "nonApplicableBoundary": "All 97836 other-animals accepted species not descending from 622BD are non-applicable and remain unmapped in this Acanthocephala sidecar.",
+        "boundary": "This sidecar covers only strict accepted COL26.8 Acanthocephala species owned by Other Animals; it is not a global checklist."
+      },
+      "matching": {
+        "normalization": [
+          "Remove the exact trailing COL authorship field from COL scientificName when that suffix is present; no authorship parser is used.",
+          "Normalize Unicode to NFC, replace underscores with spaces, collapse Unicode whitespace and trim.",
+          "For species-rank comparison, remove one parenthesized subgenus token in the exact Genus (Subgenus) species representation; genus and specific epithet must remain unchanged.",
+          "Preserve case, diacritics, punctuation and all remaining name tokens."
+        ],
+        "statuses": {
+          "accepted": "The normalized COL name resolves to exactly one valid ITIS Acanthocephala species and directly equals that current ITIS name.",
+          "synonym-current-name-redirect": "The normalized COL name equals official ITIS invalid species-name evidence that resolves to exactly one valid ITIS Acanthocephala species.",
+          "ambiguous": "The normalized exact evidence resolves to more than one valid ITIS Acanthocephala species TSN.",
+          "unmatched": "No normalized exact valid-name or official ITIS species-synonym evidence resolves to a valid ITIS Acanthocephala species."
+        },
+        "prohibited": "No fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered or taxon-substituted matching is used."
+      },
+      "evidenceBoundary": {
+        "en": "This CC0 ITIS sidecar is a frozen exact nomenclatural crosswalk for the COL26.8 Acanthocephala partition inside the mixed Other Animals resource pack. It is not a global acanthocephalan checklist, final classification authority, phylogeny, species-concept equivalence assertion, biological dossier or scientific-review record.",
+        "zh": "此 CC0 ITIS 侧车是混合“其他动物”资源包中 COL26.8 棘头动物门分区的冻结严格命名交叉映射；它不是全球棘头动物名录、最终分类权威、系统发育树、物种概念等同性声明、生物档案或科学审查记录。"
+      },
+      "counts": {
+        "eligible": 1325,
+        "records": 1330,
+        "accepted": 1320,
+        "redirects": 0,
+        "ambiguous": 5,
+        "unmatched": 0,
+        "withheld": 0,
+        "upstreamOnly": 5,
+        "nonApplicable": 97836
+      },
+      "files": [
+        {
+          "path": "other-animals/itis-acanthocephala-sidecar-0000.jsonl.gz",
+          "records": 1306,
+          "bytes": 47523,
+          "sourceBytes": 524021,
+          "sha256": "a4a708192be00b17f36237506d32f6d158ce98b1f253cd9b3e8a10fd0c7fb577",
+          "sourceSha256": "b79544ab971e4fcda8ad162e160a0bff327269ca44eaf33e32749b9fe51c5ee7",
+          "encoding": "gzip",
+          "mediaType": "application/x-ndjson",
+          "minColId": "3293L",
+          "maxColId": "YRSY",
+          "role": "col-partition"
+        },
+        {
+          "path": "other-animals/itis-acanthocephala-sidecar-0001.jsonl.gz",
+          "records": 19,
+          "bytes": 904,
+          "sourceBytes": 7160,
+          "sha256": "3b299c78c3ef4d10d426c2c47d855162903cf0f1018050d0ee6f6655ea0bd4fb",
+          "sourceSha256": "1891d35863c9324981ec68bbb6302a5131646e5cf6ab3029a889975577d5c83f",
+          "encoding": "gzip",
+          "mediaType": "application/x-ndjson",
+          "minColId": "YRSZ",
+          "maxColId": "YRTX",
+          "role": "col-partition"
+        },
+        {
+          "path": "other-animals/itis-acanthocephala-upstream-only-0000.jsonl.gz",
+          "records": 5,
+          "bytes": 372,
+          "sourceBytes": 1834,
+          "sha256": "8b8c7d8a38370c55248f9aa7849cd30b9fc0a9c03594bf230e3a3a3a744d2342",
+          "sourceSha256": "42700d765d6b262df4cb3f634745d712a9af906902f466286b41d638b870ede1",
+          "encoding": "gzip",
+          "mediaType": "application/x-ndjson",
+          "colOwnership": null,
+          "role": "upstream-only"
+        }
+      ],
+      "totalCompressedBytes": 48799,
+      "totalSourceBytes": 533015,
+      "deliveryProfiles": {
+        "web-light": {
+          "payload": "summary-only",
+          "files": [],
+          "records": 0,
+          "totalCompressedBytes": 0,
+          "totalSourceBytes": 0,
+          "statement": "GitHub Pages publishes the complete Acanthocephala ITIS summary and canonical hashes without row shards."
+        },
+        "native-full": {
+          "payload": "complete",
+          "files": [
+            "other-animals/itis-acanthocephala-sidecar-0000.jsonl.gz",
+            "other-animals/itis-acanthocephala-sidecar-0001.jsonl.gz",
+            "other-animals/itis-acanthocephala-upstream-only-0000.jsonl.gz"
+          ],
+          "records": 1330,
+          "totalCompressedBytes": 48799,
+          "totalSourceBytes": 533015
+        }
+      },
+      "limitations": [
+        "This CC0 ITIS sidecar is a frozen exact nomenclatural crosswalk for the COL26.8 Acanthocephala partition inside the mixed Other Animals resource pack. It is not a global acanthocephalan checklist, final classification authority, phylogeny, species-concept equivalence assertion, biological dossier or scientific-review record.",
+        "No fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered or taxon-substituted matching is used."
+      ],
+      "integration": {
+        "clientParityRequirement": "Android and iOS must copy every native-full file byte-for-byte; Web uses the web-light summary profile.",
+        "lookup": {
+          "strategy": "lexicographic-colId-range-v1",
+          "ordering": "Unicode code-unit ascending",
+          "requestPolicy": "Select the sole inclusive COL-ID range and read at most one COL partition; upstream-only files are never selected by COL ID."
+        }
+      }
     }
   ]
 }
