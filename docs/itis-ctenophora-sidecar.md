@@ -15,7 +15,7 @@ root `B8V3L` (Ctenophora) inside the mixed `other-animals` resource pack.
   import ledger; the SQLite database itself is not committed.
 
 The descriptor and import provenance are
-`data/packages/other-animals/nomenclature/itis-ctenophora-sidecar.json` and
+`data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals/itis-ctenophora-sidecar.json` and
 `data/sources/itis-ctenophora-sidecar-import-ledger.json`. Matching is exact
 after the repository's representation-only scientific-name normalization. It
 does not use fuzzy, phonetic, edit-distance, token-reordering or
