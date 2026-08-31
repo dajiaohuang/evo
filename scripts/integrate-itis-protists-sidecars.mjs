@@ -28,6 +28,7 @@ const taxa = [
   { slug: 'perkinsozoa', label: 'Perkinsozoa authority boundary' },
   { slug: 'labyrinthulomycetes', label: 'Labyrinthulomycetes authority boundary' },
   { slug: 'opalozoa', label: 'Opalozoa authority boundary' },
+  { slug: 'radiolaria', label: 'Radiolaria authority boundary' },
 ]
 
 const sha256 = (bytes) => createHash('sha256').update(bytes).digest('hex')

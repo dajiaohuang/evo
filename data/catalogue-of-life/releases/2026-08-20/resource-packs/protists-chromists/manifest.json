@@ -2260,6 +2260,219 @@
           "requestPolicy": "Select the sole inclusive COL-ID range and read at most one COL partition; upstream-only files are never selected by COL ID."
         }
       }
+    },
+    {
+      "id": "itis-radiolaria-tsn-crosswalk",
+      "recordType": "release-pinned-exact-root-boundary-audit",
+      "provider": "Integrated Taxonomic Information System",
+      "source": {
+        "datasetId": "itis-2026-08-26",
+        "exportDate": "2026-08-26",
+        "rootTsn": null,
+        "license": "CC0-1.0",
+        "citationDoi": "10.5066/F7KH0KBK",
+        "canonicalDescriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-radiolaria-sidecar.json",
+        "canonicalDescriptorBytes": 9460,
+        "canonicalDescriptorSha256": "97499caa50a39f82bed65fe44264c236a8e74a46a3ad7b5281b00ba27d13c3c3"
+      },
+      "scope": {
+        "packageRootUsageIds": [
+          "C",
+          "Z"
+        ],
+        "packageRootScientificNames": [
+          "Chromista",
+          "Protozoa"
+        ],
+        "colRootUsageId": null,
+        "colRootScientificName": "Radiolaria",
+        "colStrictAcceptedSpecies": 0,
+        "packageStrictAcceptedSpecies": 61518,
+        "packageOutOfScopeStrictAcceptedSpecies": 61518,
+        "colRootAudit": "No exact COL26.8 usage node named Radiolaria exists in the complete pinned hierarchy; no strict COL partition is claimed.",
+        "boundary": "This boundary audit contains no Radiolaria rows: COL26.8 has no exact Radiolaria node, and ITIS 2026-08-26 has no accepted exact Radiolaria root. Its only exact-name valid order is a legacy Labyrinthulea/Piroplasmia placement with no accepted species descendants. Accepted Rhizaria is recorded only as a nearby modern classification candidate and is not substituted."
+      },
+      "rootBoundaryAudit": {
+        "colExactRootCandidates": [],
+        "itisExactNameCandidates": [
+          {
+            "tsn": 46088,
+            "scientific_name": "Radiolaria",
+            "rank_name": "Order",
+            "name_usage": "valid",
+            "parent_tsn": 46078
+          },
+          {
+            "tsn": 46089,
+            "scientific_name": "Radiolaria",
+            "rank_name": "Order",
+            "name_usage": "invalid",
+            "parent_tsn": 0
+          },
+          {
+            "tsn": 152884,
+            "scientific_name": "Radiolaria",
+            "rank_name": "Genus",
+            "name_usage": "invalid",
+            "parent_tsn": 0
+          },
+          {
+            "tsn": 152885,
+            "scientific_name": "Radiolaria",
+            "rank_name": "Genus",
+            "name_usage": "invalid",
+            "parent_tsn": 0
+          }
+        ],
+        "itisAcceptedExactRootCandidates": [],
+        "itisLegacyExactNameRoot": {
+          "tsn": 46088,
+          "scientific_name": "Radiolaria",
+          "rank_name": "Order",
+          "name_usage": "valid",
+          "parent_tsn": 46078
+        },
+        "itisLegacyExactNameLineage": [
+          {
+            "tsn": 46088,
+            "scientific_name": "Radiolaria",
+            "rank_name": "Order",
+            "name_usage": "valid",
+            "parent_tsn": 46078,
+            "depth": 0
+          },
+          {
+            "tsn": 46078,
+            "scientific_name": "Piroplasmia",
+            "rank_name": "Subclass",
+            "name_usage": "valid",
+            "parent_tsn": 46076,
+            "depth": 1
+          },
+          {
+            "tsn": 46076,
+            "scientific_name": "Labyrinthulea",
+            "rank_name": "Class",
+            "name_usage": "valid",
+            "parent_tsn": 46067,
+            "depth": 2
+          },
+          {
+            "tsn": 46067,
+            "scientific_name": "Mycetozoa",
+            "rank_name": "Subphylum",
+            "name_usage": "valid",
+            "parent_tsn": 43780,
+            "depth": 3
+          },
+          {
+            "tsn": 43780,
+            "scientific_name": "Protozoa",
+            "rank_name": "Phylum",
+            "name_usage": "valid",
+            "parent_tsn": 630577,
+            "depth": 4
+          },
+          {
+            "tsn": 630577,
+            "scientific_name": "Protozoa",
+            "rank_name": "Kingdom",
+            "name_usage": "valid",
+            "parent_tsn": 0,
+            "depth": 5
+          }
+        ],
+        "itisLegacyExactNameDescendants": [
+          {
+            "tsn": 46088,
+            "scientific_name": "Radiolaria",
+            "rank_name": "Order",
+            "name_usage": "valid",
+            "parent_tsn": 46078
+          },
+          {
+            "tsn": 46090,
+            "scientific_name": "Acanthoniidae",
+            "rank_name": "Family",
+            "name_usage": "valid",
+            "parent_tsn": 46088
+          }
+        ],
+        "itisNearbyModernCandidates": [
+          {
+            "tsn": 969913,
+            "scientific_name": "Rhizaria",
+            "rank_name": "Infrakingdom",
+            "name_usage": "accepted",
+            "parent_tsn": 969910
+          }
+        ],
+        "selectedColRoot": null,
+        "selectedItisRoot": null,
+        "decision": "No exact accepted Radiolaria root exists in either pinned authority. The ITIS exact-name order TSN 46088 is a valid legacy record under Labyrinthulea/Piroplasmia with no accepted species descendants; accepted Rhizaria TSN 969913 is a nearby modern classification record, not a substitute root. No COL or ITIS range is asserted."
+      },
+      "matching": {
+        "normalization": [
+          "Remove the exact trailing COL authorship field from COL scientificName when that suffix is present; no authorship parser is used.",
+          "Normalize Unicode to NFC, replace underscores with spaces, collapse Unicode whitespace and trim.",
+          "For species-rank comparison, remove one parenthesized subgenus token in the exact Genus (Subgenus) species representation; genus and specific epithet must remain unchanged.",
+          "Preserve case, diacritics, punctuation and all remaining name tokens."
+        ],
+        "statuses": {
+          "accepted": "Unavailable: no exact accepted Radiolaria root exists in the pinned authorities.",
+          "synonym-current-name-redirect": "Unavailable: no exact accepted Radiolaria root exists in the pinned authorities.",
+          "ambiguous": "Unavailable: no exact accepted Radiolaria root exists in the pinned authorities.",
+          "unmatched": "Unavailable: no exact Radiolaria COL partition exists."
+        },
+        "prohibited": "No fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered, package-wide, near-lineage or taxon-substituted matching is used."
+      },
+      "evidenceBoundary": {
+        "en": "This CC0 ITIS boundary audit is a frozen exact-root check for the declared COL26.8 Protists and Chromists package. It is not a global Radiolaria checklist, a final classification authority, a phylogeny, a species-concept equivalence assertion, a biological dossier or a scientific-review record.",
+        "zh": "此 CC0 ITIS 边界审计仅冻结声明的 COL26.8 原生生物与色界生物包的精确根检查；它不是全球 Radiolaria 名录、最终分类权威、系统发育、物种概念等同性声明、生物档案或科学审查记录。"
+      },
+      "counts": {
+        "eligible": 0,
+        "records": 0,
+        "accepted": 0,
+        "redirects": 0,
+        "ambiguous": 0,
+        "unmatched": 0,
+        "withheld": 0,
+        "upstreamOnly": 0,
+        "nonApplicable": 61518
+      },
+      "files": [],
+      "totalCompressedBytes": 0,
+      "totalSourceBytes": 0,
+      "deliveryProfiles": {
+        "web-light": {
+          "payload": "summary-only",
+          "files": [],
+          "records": 0,
+          "totalCompressedBytes": 0,
+          "totalSourceBytes": 0,
+          "statement": "GitHub Pages publishes the complete Radiolaria authority boundary authority boundary and canonical hashes without row shards."
+        },
+        "native-full": {
+          "payload": "complete",
+          "files": [],
+          "records": 0,
+          "totalCompressedBytes": 0,
+          "totalSourceBytes": 0
+        }
+      },
+      "limitations": [
+        "This CC0 ITIS boundary audit is a frozen exact-root check for the declared COL26.8 Protists and Chromists package. It is not a global Radiolaria checklist, a final classification authority, a phylogeny, a species-concept equivalence assertion, a biological dossier or a scientific-review record.",
+        "No fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered, package-wide, near-lineage or taxon-substituted matching is used."
+      ],
+      "integration": {
+        "clientParityRequirement": "Android and iOS must copy every non-empty native-full file byte-for-byte; Web uses the web-light summary profile.",
+        "lookup": {
+          "strategy": "lexicographic-colId-range-v1",
+          "ordering": "Unicode code-unit ascending",
+          "requestPolicy": "Select the sole inclusive COL-ID range and read at most one COL partition; upstream-only files are never selected by COL ID."
+        }
+      }
     }
   ]
 }
