@@ -181,6 +181,7 @@ public class AppInstrumentedTest {
         JSONObject packManifests = resourcePacks.getJSONObject("manifests");
         int resourcePackRecords = 0;
         int lpsnIdentifierRecords = 0;
+        int indexFungorumIdentifierRecords = 0;
         int ictvSpeciesRecords = 0;
         int ictvIsolateRecords = 0;
         int wfoSupplementRecords = 0;
@@ -221,6 +222,35 @@ public class AppInstrumentedTest {
                     assertEquals(extensionFile.getString("sha256"), extensionInventoryRecord.getString("sha256"));
                     verifyAssetRecord(context, extensionInventoryRecord);
                     lpsnIdentifierRecords += extensionFile.getInt("records");
+                }
+            } else if (packageId.equals("fungi")) {
+                JSONArray extensions = pack.getJSONArray("extensions");
+                assertEquals(1, extensions.length());
+                JSONObject authority = extensions.getJSONObject(0);
+                assertEquals("index-fungorum-identifiers", authority.getString("id"));
+                assertEquals("Species Fungorum / Index Fungorum", authority.getString("provider"));
+                JSONObject counts = authority.getJSONObject("counts");
+                assertEquals(157044, counts.getInt("accepted"));
+                assertEquals(0, counts.getInt("redirect"));
+                assertEquals(0, counts.getInt("ambiguous"));
+                assertEquals(0, counts.getInt("unmatched"));
+                assertEquals(0, counts.getInt("withheld"));
+                assertEquals(201, counts.getInt("upstreamOnly"));
+                assertEquals("lexicographic-colId-range-v1", authority.getJSONObject("integration").getJSONObject("lookup").getString("strategy"));
+                JSONArray extensionFiles = authority.getJSONArray("files");
+                assertEquals(6, extensionFiles.length());
+                String previousMax = null;
+                for (int fileIndex = 0; fileIndex < extensionFiles.length(); fileIndex += 1) {
+                    JSONObject extensionFile = extensionFiles.getJSONObject(fileIndex);
+                    assertTrue(extensionFile.getString("minColId").compareTo(extensionFile.getString("maxColId")) <= 0);
+                    if (previousMax != null) assertTrue(previousMax.compareTo(extensionFile.getString("minColId")) < 0);
+                    previousMax = extensionFile.getString("maxColId");
+                    JSONObject extensionInventoryRecord = findInventoryRecord(files, extensionFile.getString("url"));
+                    assertNotNull("Fungi authority shard missing from release inventory", extensionInventoryRecord);
+                    assertEquals(extensionFile.getInt("bytes"), extensionInventoryRecord.getInt("bytes"));
+                    assertEquals(extensionFile.getString("sha256"), extensionInventoryRecord.getString("sha256"));
+                    verifyAssetRecord(context, extensionInventoryRecord);
+                    indexFungorumIdentifierRecords += extensionFile.getInt("records");
                 }
             } else if (packageId.equals("viruses")) {
                 JSONArray extensions = pack.getJSONArray("extensions");
@@ -273,12 +303,13 @@ public class AppInstrumentedTest {
                     wfoSupplementRecords += extensionFile.getInt("records");
                 }
             } else {
-                assertTrue("only Archaea, Bacteria, Viruses and Other Plants may carry resource-pack extensions", !pack.has("extensions"));
+                assertTrue("only Archaea, Bacteria, Fungi, Viruses and Other Plants may carry resource-pack extensions", !pack.has("extensions"));
             }
             resourcePackRecords += packageRecords;
         }
         assertEquals(363160, resourcePackRecords);
         assertEquals(22360, lpsnIdentifierRecords);
+        assertEquals(157044, indexFungorumIdentifierRecords);
         assertEquals(17554, ictvSpeciesRecords);
         assertEquals(19285, ictvIsolateRecords);
         assertEquals(61449, wfoSupplementRecords);

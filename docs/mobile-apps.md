@@ -23,6 +23,8 @@ dist-mobile/                 # 临时生成的移动客户端壳，不提交
 
 ## 数据与离线边界
 
+rc62 把全部 157,044 个 COL26.8 真菌接受种的固定 Species Fungorum / Index Fungorum 标识纳入原生全量数据契约。六个按 COL ID 排序且互不重叠的分片通过 Fungi manifest 与 `release-files.json` 进入 Web、离线存储、Fungi ZIP、Android 和 iOS；原生测试逐片核对字节数与 SHA-256。详情页按 `minColId` / `maxColId` 只加载一个命中分片，不解析完整 157,044 条侧车。源快照额外 201 个接受种仅存在于 canonical 审计，不写入 COL 包。Android `versionCode` 与 iOS build number 为 `16`。
+
 rc61 把 WFO Plant List `2026-06` 的完整固定投影纳入原生全量数据契约：388,686 个 COL26.8 植物接受种按 accepted / redirect / ambiguous / unmatched / withheld 分区，另有 60,751 个 WFO-only 接受种以 `colOwnership: null` 独立提供。Android/iOS 与 Web、三份植物富内容包 ZIP 和 `other-plants` ZIP 读取相同 gzip、字节数与 SHA-256；原生测试逐个核对 collection/extension descriptor、release inventory 与内置分片，并禁止把 upstream-only 记录写入 COL ID。Android `versionCode` 与 iOS build number 为 `15`。
 
 rc60 将固定到 ICTV `MSL41.v1` 与纠正版 `VMR_MSL41.v1.20260729` 的病毒侧车纳入原生完整数据契约。17,552 个 COL26.8 病毒接受种全部精确映射，2 个 ICTV-only 种以 null COL ID 保留；17,554 个当前 ICTV 种与 19,285 条 VMR 代表/附加分离物记录通过与 Web 和 Viruses ZIP 相同的 manifest 路径、字节数与 SHA-256 进入 Android/iOS。原生测试同时核对 ICTV descriptor、release inventory 与实际内置 gzip，并继续要求 rc59 WoRMS、Bacteria/Archaea LPSN 和 PBDB gzip 数据存在。Android `versionCode` 与 iOS build number 为 `14`。

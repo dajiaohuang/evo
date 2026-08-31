@@ -8,6 +8,7 @@ import { deterministicGzip } from './archive-determinism.mjs'
 import { buildBacteriaLpsnSidecar } from './build-bacteria-lpsn-sidecar.mjs'
 import { buildVirusIctvSidecar } from './build-virus-ictv-sidecar.mjs'
 import { buildWfoPlantProjections } from './build-wfo-plant-projections.mjs'
+import { buildFungiAuthoritySidecar } from './build-fungi-authority-sidecar.mjs'
 
 const SCRIPT_PATH = fileURLToPath(import.meta.url)
 const REPOSITORY_ROOT = resolve(dirname(SCRIPT_PATH), '..')
@@ -19,6 +20,7 @@ const DEFAULT_ARCHAEA_LPSN_CROSSWALK = join(REPOSITORY_ROOT, 'data', 'sources', 
 const DEFAULT_BACTERIA_LPSN_CROSSWALK = join(REPOSITORY_ROOT, 'data', 'sources', 'bacteria-lpsn-crosswalk-col26.8.json.gz')
 const DEFAULT_VIRUS_ICTV_CROSSWALK = join(REPOSITORY_ROOT, 'data', 'sources', 'ictv-virus-crosswalk-col26.8-msl41.v1.json.gz')
 const DEFAULT_WFO_PLANT_CROSSWALK = join(REPOSITORY_ROOT, 'data', 'sources', 'wfo-plant-crosswalk-col26.8.json.gz')
+const DEFAULT_FUNGI_AUTHORITY_CROSSWALK = join(REPOSITORY_ROOT, 'data', 'sources', 'fungi-species-fungorum-crosswalk-col26.8.json.gz')
 const RESOURCE_PACK_SOURCE_LIMIT = 6 * 1024 * 1024
 const ARCHAEA_LPSN_FIELDS = ['colId', 'lpsnId', 'lpsnUrl', 'mappingBasis', 'status']
 
@@ -594,6 +596,12 @@ async function main() {
   buildWfoPlantProjections({
     resourcePacksRoot: options.resourcePacksRoot,
     crosswalkPath: options.wfoPlantCrosswalk,
+  })
+  buildFungiAuthoritySidecar({
+    packageRoot: join(options.resourcePacksRoot, 'fungi'),
+    crosswalkPath: DEFAULT_FUNGI_AUTHORITY_CROSSWALK,
+    descriptorPath: join(options.resourcePacksRoot, 'fungi', 'index-fungorum-extension.json'),
+    resourcePacksRoot: options.resourcePacksRoot,
   })
 
   const routeByOwnerId = new Map(routes.map((route) => [route.packageId, route]))

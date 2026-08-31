@@ -2,6 +2,7 @@ import { useEffect, useMemo, useState } from 'react'
 import {
   loadCatalogueChildren,
   loadCatalogueHierarchyNode,
+  loadCatalogueIndexFungorumIdentifier,
   loadCatalogueIctvVirusMetadata,
   loadCatalogueLpsnIdentifiers,
   loadCatalogueLineage,
@@ -16,6 +17,8 @@ import type {
   CatalogueHierarchyNodeRecord,
   CatalogueIctvResourcePackExtension,
   CatalogueIctvVirusRecord,
+  CatalogueIndexFungorumIdentifierRecord,
+  CatalogueIndexFungorumResourcePackExtension,
   CatalogueRuntimeManifest,
   CatalogueLpsnIdentifierRecord,
   CatalogueLpsnResourcePackExtension,
@@ -72,6 +75,8 @@ function CatalogueTaxonRecord({ release, id, onNavigate }: CatalogueTaxonPagePro
   const [ictvStatus, setIctvStatus] = useState<SectionStatus>('idle')
   const [wfo, setWfo] = useState<{ record: WfoPlantRecord; source: WfoPlantSource; counts: { wfoAcceptedSpecies: number; upstreamOnly: number } } | null>(null)
   const [wfoStatus, setWfoStatus] = useState<SectionStatus>('idle')
+  const [fungiAuthority, setFungiAuthority] = useState<{ record: CatalogueIndexFungorumIdentifierRecord; extension: CatalogueIndexFungorumResourcePackExtension } | null>(null)
+  const [fungiAuthorityStatus, setFungiAuthorityStatus] = useState<SectionStatus>('idle')
   const [childFilter, setChildFilter] = useState('')
   const [visibleChildren, setVisibleChildren] = useState(100)
 
@@ -213,10 +218,29 @@ function CatalogueTaxonRecord({ release, id, onNavigate }: CatalogueTaxonPagePro
     }).catch(() => { if (!cancelled) setWfoStatus('error') })
     return () => { cancelled = true }
   }, [node, speciesOwner?.entry.id])
+  useEffect(() => {
+    let cancelled = false
+    if (!node || speciesOwner?.entry.id !== 'fungi') {
+      // eslint-disable-next-line react-hooks/set-state-in-effect -- discard an authority record from a previously selected fungus immediately
+      setFungiAuthority(null)
+      setFungiAuthorityStatus('idle')
+      return () => { cancelled = true }
+    }
+    setFungiAuthority(null)
+    setFungiAuthorityStatus('loading')
+    void loadCatalogueIndexFungorumIdentifier(node.id).then((result) => {
+      if (!cancelled) {
+        setFungiAuthority(result)
+        setFungiAuthorityStatus('ready')
+      }
+    }).catch(() => { if (!cancelled) setFungiAuthorityStatus('error') })
+    return () => { cancelled = true }
+  }, [node, speciesOwner?.entry.id])
   const isHierarchyMember = node?.projection === 'accepted-species-hierarchy'
   const number = (value: number) => value.toLocaleString(zh ? 'zh-CN' : 'en-US')
   const ictvExemplar = ictv?.record.isolates.find((isolate) => isolate.role === 'exemplar')
   const ictvAdditional = ictv?.record.isolates.filter((isolate) => isolate.role === 'additional') ?? []
+  const fungiAuthoritySource = fungiAuthority?.extension.source.sourceDatasets.find((dataset) => String(dataset.datasetId) === fungiAuthority.record.sourceDatasetId)
 
   if (status !== 'ready' || !node || !manifest) {
     const title = status === 'loading'
@@ -371,6 +395,16 @@ function CatalogueTaxonRecord({ release, id, onNavigate }: CatalogueTaxonPagePro
               {wfo.record.status === 'unmatched' && <p>{zh ? '固定版 WFO 中没有精确名称与作者记录；未猜测替代名称。' : 'No exact name-and-authorship record exists in the pinned WFO release; no substitute was guessed.'}</p>}
               {wfo.record.status === 'withheld' && <p>{zh ? `映射被保留：${wfo.record.reason ?? '必要边界无法被精确证明'}` : `Mapping withheld: ${wfo.record.reason ?? 'a required exact boundary could not be proved'}.`}</p>}
               <div>{wfo.record.wfoSnapshotUrl && <a href={wfo.record.wfoSnapshotUrl} target="_blank" rel="noreferrer">{zh ? '打开固定 WFO 记录' : 'Open pinned WFO record'} ↗</a>}<a href={`https://doi.org/${wfo.source.versionDoi}`} target="_blank" rel="noreferrer">DOI ↗</a></div>
+            </div>}
+            {speciesOwner?.entry.id === 'fungi' && (fungiAuthorityStatus === 'idle' || fungiAuthorityStatus === 'loading') && <p>{zh ? '正在按 COL ID 读取对应的真菌权威标识分片…' : 'Loading the single Fungi authority shard selected by COL ID…'}</p>}
+            {speciesOwner?.entry.id === 'fungi' && fungiAuthorityStatus === 'error' && <p className="catalogue-inline-error">{zh ? '真菌权威标识分片读取或完整性校验失败；COL26.8 分类记录仍可使用。' : 'The Fungi authority shard could not be read or verified; the COL26.8 record remains available.'}</p>}
+            {speciesOwner?.entry.id === 'fungi' && fungiAuthorityStatus === 'ready' && !fungiAuthority && <p className="catalogue-inline-error">{zh ? '本记录未在固定权威映射中找到；未使用名称猜测替代。' : 'This record is absent from the pinned authority mapping; no name-based substitute was inferred.'}</p>}
+            {fungiAuthorityStatus === 'ready' && fungiAuthority?.record.colId === node.id && fungiAuthoritySource && <div className="catalogue-lpsn-card catalogue-fungi-card">
+              <strong>{zh ? 'Species Fungorum / Index Fungorum 固定权威标识' : 'Pinned Species Fungorum / Index Fungorum identifier'}</strong>
+              <span>{fungiAuthoritySource.version} · COL26.8 · {fungiAuthority.record.status.toUpperCase()}</span>
+              <p>{zh ? `该映射仅来自固定 sourceDatasetId ${fungiAuthority.record.sourceDatasetId} 的逐字名称与作者唯一匹配，或 ChecklistBank 明示的源记录；不做模糊匹配。COL26.8 的 ${number(fungiAuthority.extension.counts.accepted)} 个真菌接受种均有稳定权威 ID。权威源额外的 ${number(fungiAuthority.extension.counts.upstreamOnly)} 个接受种只保留在审计快照，不冒充 COL 记录。详情页仅按 COL ID 下载一个命中分片。` : `This mapping uses only a unique verbatim name-and-authorship match inside pinned sourceDatasetId ${fungiAuthority.record.sourceDatasetId}, or the explicit ChecklistBank source record—never fuzzy matching. All ${number(fungiAuthority.extension.counts.accepted)} COL26.8 accepted Fungi species have a stable authority ID. The ${number(fungiAuthority.extension.counts.upstreamOnly)} additional accepted source records remain audit-only and are not presented as COL records. A detail view downloads only the single shard selected by COL ID.`}</p>
+              <p>{zh ? '这是命名标识侧车，不是完整 Index Fungorum 数据库，也不表示生态、宿主、基质、地点、描述、媒体、化石、系统发育、物种专档或专家评审已经完成。' : 'This is a nomenclatural identifier sidecar, not a complete Index Fungorum database or a claim of completed ecology, host, substrate, locality, description, media, fossil, phylogeny, species dossier, or expert review.'}</p>
+              <div><a href={fungiAuthority.record.indexFungorumUrl} target="_blank" rel="noreferrer">{zh ? '打开具体 Index Fungorum 记录' : 'Open the specific Index Fungorum record'} ↗</a><a href={`https://doi.org/${fungiAuthoritySource.versionDoi}`} target="_blank" rel="noreferrer">DOI ↗</a><a href={fungiAuthoritySource.licenseUrl} target="_blank" rel="noreferrer">CC BY 4.0 ↗</a></div>
             </div>}
             {speciesOwner?.entry.id === 'archaea' && (lpsnStatus === 'idle' || lpsnStatus === 'loading') && <p>{zh ? '正在读取固定 LPSN 标识映射…' : 'Loading the pinned LPSN identifier mapping…'}</p>}
             {speciesOwner?.entry.id === 'archaea' && lpsnStatus === 'error' && <p className="catalogue-inline-error">{zh ? 'LPSN 标识分片读取或校验失败；COL26.8 分类记录仍可使用。' : 'The LPSN identifier shard could not be read or verified; the COL26.8 record remains available.'}</p>}
