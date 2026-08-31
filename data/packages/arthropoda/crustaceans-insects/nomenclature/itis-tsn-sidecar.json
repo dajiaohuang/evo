@@ -1,0 +1,501 @@
+{
+  "schemaVersion": 1,
+  "sidecarType": "release-pinned-exact-nomenclatural-crosswalk",
+  "packageId": "crustaceans-insects",
+  "scope": "COL26.8 accepted species below exact Crustacea usage KZX8B; Insecta, Hexapoda, Myriapoda and other Arthropoda roots in this mixed package are outside this sidecar.",
+  "sources": {
+    "col": {
+      "releaseAlias": "COL26.8",
+      "releaseDate": "2026-08-20",
+      "rootUsageIds": [
+        "KZX8B"
+      ],
+      "registryManifestPath": "data/catalogue-of-life/releases/2026-08-20/registry/manifest.json",
+      "registryManifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151",
+      "ownershipPath": "data/registry/package-species-coverage.json",
+      "ownershipSha256": "a297bc8a67ce60806fdee733464a79bfcc42e255f7e59535b01f94013c19dfea"
+    },
+    "itis": {
+      "datasetId": "itis-2026-08-26",
+      "exportDate": "2026-08-26",
+      "rootTsn": "83677",
+      "databaseMember": "itisSqlite082626/ITIS.sqlite",
+      "databaseSha256": "ea7304536cfd7b1e2636d383911ca7931fc83d9ab1194ca2a3c020ea2daf1719",
+      "sourceLedgerPath": "data/sources/itis-2026-08-26.json",
+      "sourceLedgerSha256": "38a7a55b4e98cafc66790e47f6bd637e298e23fd691e4771c755b38e4a02d7fc",
+      "license": "CC0-1.0",
+      "citationDoi": "10.5066/F7KH0KBK"
+    }
+  },
+  "exactMatching": {
+    "normalization": [
+      "Remove the exact trailing COL authorship field from COL scientificName when that suffix is present; no authorship parser is used.",
+      "Normalize Unicode to NFC, replace underscores with spaces, collapse Unicode whitespace and trim.",
+      "For species-rank comparison, remove one parenthesized subgenus token in the exact Genus (Subgenus) species representation; genus and specific epithet must remain unchanged.",
+      "Preserve case, diacritics, punctuation and all remaining name tokens."
+    ],
+    "statuses": {
+      "accepted": "The normalized COL name resolves to exactly one valid ITIS Crustacea species and directly equals that current ITIS name.",
+      "synonym-current-name-redirect": "The normalized COL name equals one or more official ITIS invalid species names whose synonym_links rows resolve to exactly one valid ITIS Crustacea species.",
+      "ambiguous": "The normalized exact evidence resolves to more than one valid ITIS Crustacea species TSN.",
+      "unmatched": "No normalized exact valid-name or official ITIS species-synonym evidence resolves to a valid ITIS Crustacea species."
+    },
+    "prohibited": "No fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered or taxon-substituted matching is used."
+  },
+  "evidenceBoundary": {
+    "en": "This CC0 ITIS sidecar is a frozen exact nomenclatural crosswalk for the declared Crustacea partition only. It is not a final classification authority, phylogeny, species-concept equivalence assertion, biological dossier, fossil record or expert-review record; the mixed package still contains separate non-Crustacea Arthropoda routes.",
+    "zh": "此 CC0 ITIS 侧车只为明确声明的甲壳类分区提供冻结的严格命名交叉映射。它不是最终分类权威、系统发育、物种概念等同性声明、生物档案、化石记录或专家审查记录；混合包中的昆虫、六足类、多足类和其他节肢动物路线仍保持独立。"
+  },
+  "counts": {
+    "total": 80890,
+    "accepted": 26395,
+    "synonymCurrentNameRedirect": 115,
+    "ambiguous": 38,
+    "unmatched": 54342,
+    "itisCurrentSpecies": 32493,
+    "itisSpeciesSynonymLinks": 7762,
+    "itisUpstreamOnly": 5991
+  },
+  "colUsageIdLocator": {
+    "key": "colUsageId",
+    "ordering": "Unicode code-unit ascending",
+    "sourceShardLimitBytes": 524288,
+    "stableAddressing": "Binary-search non-overlapping inclusive colUsageId ranges; one detail request loads exactly one immutable JSONL gzip shard.",
+    "files": [
+      {
+        "path": "data/packages/arthropoda/crustaceans-insects/nomenclature/itis-tsn-sidecar-000.jsonl.gz",
+        "records": 2218,
+        "firstColUsageId": "322FY",
+        "lastColUsageId": "35DLK",
+        "bytes": 58800,
+        "sha256": "098eb46fe20c79105f17b87bfa963f8bdcd318f069fa4dd8b5688dd5d5e3d905",
+        "sourceBytes": 524171,
+        "sourceSha256": "04243391466813591e9216dd845cbc1ea0d574c4db9da0a609c2c1ceab41c1e6"
+      },
+      {
+        "path": "data/packages/arthropoda/crustaceans-insects/nomenclature/itis-tsn-sidecar-001.jsonl.gz",
+        "records": 2189,
+        "firstColUsageId": "35DLQ",
+        "lastColUsageId": "3CFG3",
+        "bytes": 60736,
+        "sha256": "05aa634a03780e75f2a3cd083c68c535c0921f6ded99ea891922c224035dfdff",
+        "sourceBytes": 524053,
+        "sourceSha256": "f35ec871df35f4f4d33eb36c61e697ee4d21094552ef5dacf2293ffc7f82433b"
+      },
+      {
+        "path": "data/packages/arthropoda/crustaceans-insects/nomenclature/itis-tsn-sidecar-002.jsonl.gz",
+        "records": 2115,
+        "firstColUsageId": "3CH82",
+        "lastColUsageId": "3JMZ9",
+        "bytes": 60987,
+        "sha256": "e650282612c2e97e8852a6f7b0db91608a8e087d98491968ad6ac93184f8e0b1",
+        "sourceBytes": 524273,
+        "sourceSha256": "1f6ba3f95fc20114971c07c9602775eee19cbb3f85a4cdd45f727b975f6fdc8f"
+      },
+      {
+        "path": "data/packages/arthropoda/crustaceans-insects/nomenclature/itis-tsn-sidecar-003.jsonl.gz",
+        "records": 2114,
+        "firstColUsageId": "3JMZB",
+        "lastColUsageId": "3Q7V3",
+        "bytes": 60974,
+        "sha256": "38aaab56fe8850be7a326c792e2421772b44b35757145ec929e24007223ca7e6",
+        "sourceBytes": 524275,
+        "sourceSha256": "eb22e2abef1ba987f4a08a86a6b95044e59435d4e27c1d033da140ba58bb8cd5"
+      },
+      {
+        "path": "data/packages/arthropoda/crustaceans-insects/nomenclature/itis-tsn-sidecar-004.jsonl.gz",
+        "records": 2168,
+        "firstColUsageId": "3Q7V4",
+        "lastColUsageId": "3WPLR",
+        "bytes": 62662,
+        "sha256": "d09f2f407f44882a9f3009b073313aeb32b49d95bbb5f230285e6878c63df6bd",
+        "sourceBytes": 524066,
+        "sourceSha256": "a9afcc3890c98257b167d5b9263076f87337f98118c5cf2552c1712e34800c5e"
+      },
+      {
+        "path": "data/packages/arthropoda/crustaceans-insects/nomenclature/itis-tsn-sidecar-005.jsonl.gz",
+        "records": 2101,
+        "firstColUsageId": "3WRGP",
+        "lastColUsageId": "443LN",
+        "bytes": 61835,
+        "sha256": "df2d19284700c9ffc0b3416136a059083e1bafcecfef387476b06b30905ad251",
+        "sourceBytes": 524147,
+        "sourceSha256": "a9570fd5e7d1bece1efb2a19844b44fc8bc5a31b57f59619c793d4262af1410c"
+      },
+      {
+        "path": "data/packages/arthropoda/crustaceans-insects/nomenclature/itis-tsn-sidecar-006.jsonl.gz",
+        "records": 2106,
+        "firstColUsageId": "443LP",
+        "lastColUsageId": "47RY6",
+        "bytes": 59935,
+        "sha256": "d2f2904bccf4b26cec341842d88512f26f141ca6c311445d402c48994a7afd3e",
+        "sourceBytes": 523933,
+        "sourceSha256": "59c656df71533ff9a58425f0b195feb6b22c51c6ea1958f85fbe519e804ca74a"
+      },
+      {
+        "path": "data/packages/arthropoda/crustaceans-insects/nomenclature/itis-tsn-sidecar-007.jsonl.gz",
+        "records": 2206,
+        "firstColUsageId": "47RY7",
+        "lastColUsageId": "4D66B",
+        "bytes": 63378,
+        "sha256": "6efda7d7a59028b81812306543b419a8705c5e77a4791110a840021d3beff9b6",
+        "sourceBytes": 524085,
+        "sourceSha256": "44e4c2667c69b9f01e6e1f5606a765c2257571d4c847f7b3bb14c8252784b8e7"
+      },
+      {
+        "path": "data/packages/arthropoda/crustaceans-insects/nomenclature/itis-tsn-sidecar-008.jsonl.gz",
+        "records": 2091,
+        "firstColUsageId": "4D6CP",
+        "lastColUsageId": "4LW2P",
+        "bytes": 60985,
+        "sha256": "200cb5721ef7f86122f2ee72f9c8f1f8b9e05c204447ea2b21b0dc2996f8b720",
+        "sourceBytes": 524272,
+        "sourceSha256": "58a1114659ce5ca7365b7bb2064526751f02beccc9b504711a039dd2c72de1f4"
+      },
+      {
+        "path": "data/packages/arthropoda/crustaceans-insects/nomenclature/itis-tsn-sidecar-009.jsonl.gz",
+        "records": 1922,
+        "firstColUsageId": "4LW2Q",
+        "lastColUsageId": "4PD9X",
+        "bytes": 57038,
+        "sha256": "bdbff438eef1600208445625940b520b47bcd7456cb70284eef961e6ab57070c",
+        "sourceBytes": 524272,
+        "sourceSha256": "d523d89aa966db8ea47b6f3aa5271d07331f20972a72de535469371ffe678290"
+      },
+      {
+        "path": "data/packages/arthropoda/crustaceans-insects/nomenclature/itis-tsn-sidecar-010.jsonl.gz",
+        "records": 2145,
+        "firstColUsageId": "4PDM9",
+        "lastColUsageId": "4YR4S",
+        "bytes": 63441,
+        "sha256": "03e98d397596d81c03432e49751d08757f9d0394a7a5e9910e3f85ffb85de164",
+        "sourceBytes": 524279,
+        "sourceSha256": "f186f6156960286c0fa70c5017472d83b7a74f7b111babb34b9e772abfc041f6"
+      },
+      {
+        "path": "data/packages/arthropoda/crustaceans-insects/nomenclature/itis-tsn-sidecar-011.jsonl.gz",
+        "records": 2033,
+        "firstColUsageId": "4YR4T",
+        "lastColUsageId": "57NLN",
+        "bytes": 60582,
+        "sha256": "9c9b17e01172c47d1dedd933780a76c9c23701b2096d6b068636fddaa5fbd984",
+        "sourceBytes": 524235,
+        "sourceSha256": "8d8e100fb2df3bf4e23eaef0c2014f8c4cd30ea4bf746e0932e07d5fff0419b4"
+      },
+      {
+        "path": "data/packages/arthropoda/crustaceans-insects/nomenclature/itis-tsn-sidecar-012.jsonl.gz",
+        "records": 2138,
+        "firstColUsageId": "57NLP",
+        "lastColUsageId": "5WPVP",
+        "bytes": 64642,
+        "sha256": "e9c0763e99344229a36d79d724cdfb68bc061d4549c64c87c2dcbd9591c4f96f",
+        "sourceBytes": 524058,
+        "sourceSha256": "20f575cf8507f2d78b9f866eaea1620ac6f9314e540e1dadf3f96757b07a6302"
+      },
+      {
+        "path": "data/packages/arthropoda/crustaceans-insects/nomenclature/itis-tsn-sidecar-013.jsonl.gz",
+        "records": 2009,
+        "firstColUsageId": "5WQ7P",
+        "lastColUsageId": "67R4V",
+        "bytes": 64903,
+        "sha256": "c7ebab1589d19cf999e94b5ccaf583ead5bd6b73c7f5fe3db08d42d0677458fc",
+        "sourceBytes": 524185,
+        "sourceSha256": "cc600dd751e77ebe20b2a2606ffb5c64e6921667f6d633ffe1207df8b223f0f1"
+      },
+      {
+        "path": "data/packages/arthropoda/crustaceans-insects/nomenclature/itis-tsn-sidecar-014.jsonl.gz",
+        "records": 2153,
+        "firstColUsageId": "67R57",
+        "lastColUsageId": "6FP42",
+        "bytes": 69623,
+        "sha256": "fce04d4fff27522c235dc820ff718d046d3e73dfe647b84a61cab1494f7df902",
+        "sourceBytes": 524245,
+        "sourceSha256": "c4c6023509e5d4790b3ddcccb3ee1c1500e968b45ac905f79cfbf50ac71c5c6c"
+      },
+      {
+        "path": "data/packages/arthropoda/crustaceans-insects/nomenclature/itis-tsn-sidecar-015.jsonl.gz",
+        "records": 2084,
+        "firstColUsageId": "6FP43",
+        "lastColUsageId": "6N59Q",
+        "bytes": 65932,
+        "sha256": "fbddb5f31dfcafb5926cb49201e778e985c4c5fc6e2fed7b814e3c4b3919acbe",
+        "sourceBytes": 524126,
+        "sourceSha256": "334070d0bcde6f6e4f94a2b4745d74f8f9553fd172396f0990e0999a1120a6bb"
+      },
+      {
+        "path": "data/packages/arthropoda/crustaceans-insects/nomenclature/itis-tsn-sidecar-016.jsonl.gz",
+        "records": 2152,
+        "firstColUsageId": "6N59V",
+        "lastColUsageId": "6SVHV",
+        "bytes": 68439,
+        "sha256": "ce26f076828285e60e533dce9f4d9d89a2a23ecf2acc308337c885d4ab6979c5",
+        "sourceBytes": 524032,
+        "sourceSha256": "2ecd70ba5945570192c6c7cf14bac21978c978defc20ea9364f98eca1a21d835"
+      },
+      {
+        "path": "data/packages/arthropoda/crustaceans-insects/nomenclature/itis-tsn-sidecar-017.jsonl.gz",
+        "records": 2126,
+        "firstColUsageId": "6SVHW",
+        "lastColUsageId": "6ZZPG",
+        "bytes": 67847,
+        "sha256": "4d8e65422bab9731280cf48c3044b3bc225556bfb1fae375e0420f9b6ad31e5b",
+        "sourceBytes": 523927,
+        "sourceSha256": "4241603f8e744e1f84589e03da2db0df28d68045f0b1d06c3a106a588f1fa143"
+      },
+      {
+        "path": "data/packages/arthropoda/crustaceans-insects/nomenclature/itis-tsn-sidecar-018.jsonl.gz",
+        "records": 2157,
+        "firstColUsageId": "6ZZPH",
+        "lastColUsageId": "77CBC",
+        "bytes": 68895,
+        "sha256": "580366433288c0424b4c143b063e15adf66b5e6f79b4f9f24645996ebf63d10a",
+        "sourceBytes": 524239,
+        "sourceSha256": "1591df41cf13606767794d7738a039c72f7afc0e1126392d09f72d2822e12dd9"
+      },
+      {
+        "path": "data/packages/arthropoda/crustaceans-insects/nomenclature/itis-tsn-sidecar-019.jsonl.gz",
+        "records": 2113,
+        "firstColUsageId": "77CBD",
+        "lastColUsageId": "7FLCR",
+        "bytes": 66397,
+        "sha256": "85b3fcf829dd6983b6e9e7a5e2c9bd90dc4bb54b4aea2b921af7e43d05dc2ebc",
+        "sourceBytes": 524204,
+        "sourceSha256": "029b896f459540e84f692ec22fed48b4aa3ae689836faef5df3ff3033189fadb"
+      },
+      {
+        "path": "data/packages/arthropoda/crustaceans-insects/nomenclature/itis-tsn-sidecar-020.jsonl.gz",
+        "records": 1721,
+        "firstColUsageId": "7FLFM",
+        "lastColUsageId": "7ZGHV",
+        "bytes": 53336,
+        "sha256": "4b1180797bb901f2e871a899d933eebadb3a3b5f19271b56786ef893f30d795c",
+        "sourceBytes": 524234,
+        "sourceSha256": "939e416254fe101349baf6b0192d9bab8a1b319760f916d077f139c19523b35a"
+      },
+      {
+        "path": "data/packages/arthropoda/crustaceans-insects/nomenclature/itis-tsn-sidecar-021.jsonl.gz",
+        "records": 2102,
+        "firstColUsageId": "7ZGHW",
+        "lastColUsageId": "85LVZ",
+        "bytes": 62233,
+        "sha256": "a80eb723b8fcf88d62486e4b08ac8185036afa4e91585cb93aa28a42167becc5",
+        "sourceBytes": 524255,
+        "sourceSha256": "5f3b71a0add9510c90037ff6a4d19331856eca7a763d930c80b64ed1142dd664"
+      },
+      {
+        "path": "data/packages/arthropoda/crustaceans-insects/nomenclature/itis-tsn-sidecar-022.jsonl.gz",
+        "records": 2605,
+        "firstColUsageId": "85LW2",
+        "lastColUsageId": "85WCB",
+        "bytes": 65621,
+        "sha256": "b570259b1f58ee070d0ac4929153ca46a8fcb97708413251c557aae082bd5ed1",
+        "sourceBytes": 524233,
+        "sourceSha256": "f8a514de75d3668443b4d34b8b51e2a8581cb83b20813bb91363d29ac3474c88"
+      },
+      {
+        "path": "data/packages/arthropoda/crustaceans-insects/nomenclature/itis-tsn-sidecar-023.jsonl.gz",
+        "records": 2275,
+        "firstColUsageId": "85WCC",
+        "lastColUsageId": "8Q8XX",
+        "bytes": 65548,
+        "sha256": "f50ba9d0a97c9dc70be469f9f858a92141a68c9bffa89ed70f8d4d1df3c44be5",
+        "sourceBytes": 524183,
+        "sourceSha256": "ddee66c81b98b5d7f997aaf6fd18ee203ab79246ab5c60ab959f667db579491d"
+      },
+      {
+        "path": "data/packages/arthropoda/crustaceans-insects/nomenclature/itis-tsn-sidecar-024.jsonl.gz",
+        "records": 1719,
+        "firstColUsageId": "8Q8Y4",
+        "lastColUsageId": "8XDZ",
+        "bytes": 54340,
+        "sha256": "f2cd18aa5a9943df8538021bcf646105de001d49c322f21e274d46d46bc6f154",
+        "sourceBytes": 524121,
+        "sourceSha256": "cff7601299cbfcc4363edc7826e89ec733e3d4aa97bc61be764f60f08951728f"
+      },
+      {
+        "path": "data/packages/arthropoda/crustaceans-insects/nomenclature/itis-tsn-sidecar-025.jsonl.gz",
+        "records": 1653,
+        "firstColUsageId": "8XJF",
+        "lastColUsageId": "9DFWC",
+        "bytes": 51116,
+        "sha256": "83576e97eec0eb2d71870b5d3e606a73cbcfe381a08a3b5e4b2731a353a27c7f",
+        "sourceBytes": 524222,
+        "sourceSha256": "30391aa08283c8ee96b11b04746c068076896a2e29cc69c709429a9e6346bde5"
+      },
+      {
+        "path": "data/packages/arthropoda/crustaceans-insects/nomenclature/itis-tsn-sidecar-026.jsonl.gz",
+        "records": 1578,
+        "firstColUsageId": "9DG48",
+        "lastColUsageId": "9GZJ9",
+        "bytes": 50211,
+        "sha256": "0a6a1224b95abc9f4e713ab699171b0096a9ab9f84d4e31698e77b9bc1eac081",
+        "sourceBytes": 523925,
+        "sourceSha256": "bbbed648347ad8c821ec4fe4df8f95b179ee04feee0487a3d798c960aaa9748c"
+      },
+      {
+        "path": "data/packages/arthropoda/crustaceans-insects/nomenclature/itis-tsn-sidecar-027.jsonl.gz",
+        "records": 1798,
+        "firstColUsageId": "9GZPH",
+        "lastColUsageId": "B3VKN",
+        "bytes": 56876,
+        "sha256": "47cf76adb445250efb193d6d092aef6d64f06c244572bae2825ca369e1f3ccb3",
+        "sourceBytes": 524273,
+        "sourceSha256": "7e4032b2e90bfd36d95d7978f4d9243867018e41697137076b00a5a8100b6961"
+      },
+      {
+        "path": "data/packages/arthropoda/crustaceans-insects/nomenclature/itis-tsn-sidecar-028.jsonl.gz",
+        "records": 1493,
+        "firstColUsageId": "B3VKP",
+        "lastColUsageId": "B7ZWT",
+        "bytes": 48492,
+        "sha256": "a30dd27960b9e21e8e26aef453408e17f233f2b24bdc5f39c8db0c557ac46afb",
+        "sourceBytes": 524185,
+        "sourceSha256": "c72e3f7db00b031f7db22018d6f9b66a7c03569274494598d67fd7af9d823b01"
+      },
+      {
+        "path": "data/packages/arthropoda/crustaceans-insects/nomenclature/itis-tsn-sidecar-029.jsonl.gz",
+        "records": 1345,
+        "firstColUsageId": "B7ZWV",
+        "lastColUsageId": "B8JM6",
+        "bytes": 40212,
+        "sha256": "d10cb60b9e8e2f3086356da409042f84f9f2250729b5ecf82b549f7ee4d70ca0",
+        "sourceBytes": 524080,
+        "sourceSha256": "6a9b91bc99dffc35cfccce6fc797fcb12b6e651ed1ed3d516efc3f60ef4313e4"
+      },
+      {
+        "path": "data/packages/arthropoda/crustaceans-insects/nomenclature/itis-tsn-sidecar-030.jsonl.gz",
+        "records": 2149,
+        "firstColUsageId": "B8JM7",
+        "lastColUsageId": "BJP5F",
+        "bytes": 60427,
+        "sha256": "bcbe103abd12d442d6b4d88c2e3980b417be7a0ee36fade14320f1d0ce2d4d73",
+        "sourceBytes": 524075,
+        "sourceSha256": "19412bb08a66b894b1764edaace9eb1090871076946b5ba0719a204d5a3bf36d"
+      },
+      {
+        "path": "data/packages/arthropoda/crustaceans-insects/nomenclature/itis-tsn-sidecar-031.jsonl.gz",
+        "records": 1643,
+        "firstColUsageId": "BJP5G",
+        "lastColUsageId": "BSB74",
+        "bytes": 53760,
+        "sha256": "7450b48088ec57c4657b245fd90857e59597ac97f5fb496c33549d8f2b697106",
+        "sourceBytes": 524145,
+        "sourceSha256": "3f7bed2940ca664c51d36dcf8a9e253fdb106e55778cd0565df122e4c1ac6763"
+      },
+      {
+        "path": "data/packages/arthropoda/crustaceans-insects/nomenclature/itis-tsn-sidecar-032.jsonl.gz",
+        "records": 2670,
+        "firstColUsageId": "BSB75",
+        "lastColUsageId": "C2YHP",
+        "bytes": 67375,
+        "sha256": "e8eaec2dfa6285d4a1e45e6d6a582f8f34e6642636f0ad4510f7a3049db2f655",
+        "sourceBytes": 524241,
+        "sourceSha256": "9c99c47af00312a5ebd9a028c03afe907cd44ae5f6c7154a2b1d0a494191f837"
+      },
+      {
+        "path": "data/packages/arthropoda/crustaceans-insects/nomenclature/itis-tsn-sidecar-033.jsonl.gz",
+        "records": 2844,
+        "firstColUsageId": "C2YHQ",
+        "lastColUsageId": "C33XR",
+        "bytes": 69577,
+        "sha256": "01bda5ffd74b2efee6eb3ddb47e5c9fa8f031e03cbd8b568832888350ea68ab8",
+        "sourceBytes": 524177,
+        "sourceSha256": "66cd27804e38f2182379a628d026db287753c61b661e0b270f746545773ab33e"
+      },
+      {
+        "path": "data/packages/arthropoda/crustaceans-insects/nomenclature/itis-tsn-sidecar-034.jsonl.gz",
+        "records": 2466,
+        "firstColUsageId": "C33XS",
+        "lastColUsageId": "CWSJ",
+        "bytes": 73901,
+        "sha256": "24855ae5df579402adec9a6f225f6a965a611e9960b01f3efa7384cab6721dbc",
+        "sourceBytes": 524201,
+        "sourceSha256": "c3db119c5127b5b6f5bf2f3db00cfa52cdcf7d6e9cbac6ca8047a1a1678ec237"
+      },
+      {
+        "path": "data/packages/arthropoda/crustaceans-insects/nomenclature/itis-tsn-sidecar-035.jsonl.gz",
+        "records": 1871,
+        "firstColUsageId": "CWSK",
+        "lastColUsageId": "JN4N",
+        "bytes": 56636,
+        "sha256": "c204d9a006d35c0cd812c0feb8472b9ba4184a95e52c0b2b7f27303259b4d20a",
+        "sourceBytes": 524265,
+        "sourceSha256": "1833f268a40a673894474ec8b528106a6f9d8aa17aa8c343019a613584ea41c6"
+      },
+      {
+        "path": "data/packages/arthropoda/crustaceans-insects/nomenclature/itis-tsn-sidecar-036.jsonl.gz",
+        "records": 2153,
+        "firstColUsageId": "JN4P",
+        "lastColUsageId": "NG39",
+        "bytes": 65764,
+        "sha256": "83c86be94f4cf9035d75940194dd78b0ddc16b93b9f9599429b200b040a65dd7",
+        "sourceBytes": 524259,
+        "sourceSha256": "f885711110419aed4540c804c212bc67e92c67ac4eef7ba765360cac350726b1"
+      },
+      {
+        "path": "data/packages/arthropoda/crustaceans-insects/nomenclature/itis-tsn-sidecar-037.jsonl.gz",
+        "records": 2133,
+        "firstColUsageId": "NG3B",
+        "lastColUsageId": "TPTF",
+        "bytes": 59761,
+        "sha256": "e7e2b0850f25b96072b6701cf4e28153b17be7cbf4ebfe1456005ec47d9fce3e",
+        "sourceBytes": 524207,
+        "sourceSha256": "d554f3051ed9caa48ffad8330a1bae90e72bca2ad05fa30e8eeb113c38adec6d"
+      },
+      {
+        "path": "data/packages/arthropoda/crustaceans-insects/nomenclature/itis-tsn-sidecar-038.jsonl.gz",
+        "records": 2268,
+        "firstColUsageId": "TPTG",
+        "lastColUsageId": "ZXBC",
+        "bytes": 71018,
+        "sha256": "35cbc630f7159e8c8e32e11748b46b52f29f07e7ccc4ab497e2f39bcd7f5c567",
+        "sourceBytes": 524201,
+        "sourceSha256": "ae5c5a628abe074b71251839ee7bcae1d78169dd2339cd8def2874b7c60f2a69"
+      },
+      {
+        "path": "data/packages/arthropoda/crustaceans-insects/nomenclature/itis-tsn-sidecar-039.jsonl.gz",
+        "records": 64,
+        "firstColUsageId": "ZXBF",
+        "lastColUsageId": "ZZGM",
+        "bytes": 1881,
+        "sha256": "5f55a533384e9bb7e46514d0336a79bdd705cece4b9434a19d4a33104f425f90",
+        "sourceBytes": 12131,
+        "sourceSha256": "5ab7a88591113551d1a6a40c59d34b49fcfc14e61ef1b2c663e67d792379457e"
+      }
+    ]
+  },
+  "upstreamOnly": {
+    "colOwnership": null,
+    "stableAddressing": "No COL usage ID is assigned; ITIS-only current Crustacea species are in one immutable JSONL gzip shard.",
+    "files": [
+      {
+        "path": "data/packages/arthropoda/crustaceans-insects/nomenclature/itis-upstream-only-000.jsonl.gz",
+        "records": 5991,
+        "firstColUsageId": null,
+        "lastColUsageId": null,
+        "bytes": 82189,
+        "sha256": "e7432d6a46fe4475a1077a6c3f930f5b9059b14d1999d2105cb095996a4e7984",
+        "sourceBytes": 2369985,
+        "sourceSha256": "5dbc8b5ef4985ea23cc7f21615af34bea73797b6678ede45eda1923815663e07",
+        "colOwnership": null,
+        "firstTsn": "83808",
+        "lastTsn": "1269596"
+      }
+    ]
+  },
+  "canonicalCrosswalk": {
+    "path": "data/sources/itis-crustacea-authority-crosswalk-col26.8.json.gz",
+    "bytes": 2659278,
+    "sha256": "b39fd4429eb0af89d8b36ade0e88e7797d937596a9cbe43b53dcea8a1bd928c6"
+  },
+  "integration": {
+    "targetPackageManifestPath": "data/packages/arthropoda/crustaceans-insects/manifest.json",
+    "pagesLight": "Pages may retain only this descriptor and omit every row-level JSONL gzip shard.",
+    "androidIosFull": "Android and iOS complete-data inventories must include this descriptor, every listed row-level shard and the upstream-only shard byte-for-byte.",
+    "lookup": {
+      "strategy": "lexicographic-colUsageId-range-v1",
+      "requestPolicy": "Select the sole file whose inclusive firstColUsageId/lastColUsageId range contains the requested COL usage ID; parse only that payload shard.",
+      "forbiddenBehavior": "A single-species detail query must not download or parse the complete authority sidecar or more than one payload shard."
+    }
+  }
+}
