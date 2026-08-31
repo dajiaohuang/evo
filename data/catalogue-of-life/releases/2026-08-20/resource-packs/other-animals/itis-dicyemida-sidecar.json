@@ -5,18 +5,18 @@
   "scope": {
     "colRootUsageId": "3Z",
     "colRootScientificName": "Dicyemida",
-    "colStrictAcceptedSpecies": 119,
+    "colStrictAcceptedSpecies": 122,
     "packageStrictAcceptedSpecies": 99161,
-    "packageOutOfScopeStrictAcceptedSpecies": 99042,
+    "packageOutOfScopeStrictAcceptedSpecies": 99039,
     "boundary": "other-animals is the deterministic Animalia remainder after more-specific static-package routes. This sidecar covers only strict accepted COL26.8 species descending from exact Dicyemida root 3Z; every other other-animals-owned species is explicitly outside this sidecar."
   },
   "mixedResourcePack": {
     "packageId": "other-animals",
     "manifestPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals/manifest.json",
-    "manifestSha256": "270bf3e06a145dec5583c1dc5d40fd5918fb9c852ef40317b9a7591c02eff0d8",
+    "manifestSha256": "cd41caf26203cf91a9846a384a656b6580e065fa1ea76433160f95b82eb87b48",
     "acceptedSpeciesCount": 99161,
-    "inScopeSpecies": 119,
-    "outOfScopeSpecies": 99042,
+    "inScopeSpecies": 122,
+    "outOfScopeSpecies": 99039,
     "packageSourceDatasetCounts": {
       "1081": 20367,
       "1085": 1364,
@@ -48,7 +48,7 @@
       "298081": 2467
     },
     "dicyemidaSourceDatasetCounts": {
-      "1150": 119
+      "1150": 122
     },
     "outOfScopeBoundary": "All remaining accepted species in Other Animals are not Dicyemida and receive no ITIS Dicyemida match in this sidecar."
   },
@@ -67,6 +67,24 @@
     },
     "selectedCurrentSpecies": 92,
     "broaderCurrentSpecies": 95,
+    "selectedRootWitness": {
+      "tsn": "696187",
+      "scientificName": "Kantharella antarctica"
+    },
+    "broaderRootOnlyExamples": [
+      {
+        "tsn": "696201",
+        "scientificName": "Microcyema vespa"
+      },
+      {
+        "tsn": "696174",
+        "scientificName": "Conocyema deca"
+      },
+      {
+        "tsn": "696203",
+        "scientificName": "Conocyema polymorpha"
+      }
+    ],
     "broaderOnlySpecies": [
       {
         "tsn": "696174",
@@ -81,7 +99,7 @@
         "scientificName": "Conocyema polymorpha"
       }
     ],
-    "decision": "Use the valid ITIS Dicyemida order TSN 57410 as the sidecar root. Rhombozoa TSN 563954 is a broader class and includes Heterocyemida records outside the Dicyemida order; those broader-root-only species are intentionally excluded to prevent root-boundary duplication."
+    "decision": "Use the valid ITIS Dicyemida order TSN 57410 as the sidecar root. Kantharella antarctica is retained as its exact current-species witness. Broader Rhombozoa TSN 563954 includes Heterocyemida-only Microcyema and Conocyema species, which are intentionally excluded rather than treated as Dicyemida."
   },
   "sources": {
     "col": {
@@ -90,7 +108,7 @@
       "registryManifestPath": "data/catalogue-of-life/releases/2026-08-20/registry/manifest.json",
       "registryManifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151",
       "ownershipPath": "data/registry/package-species-coverage.json",
-      "ownershipSha256": "a297bc8a67ce60806fdee733464a79bfcc42e255f7e59535b01f94013c19dfea"
+      "ownershipSha256": "a31a41ef0e9e785192a2fbbed11df9aa9bc06ba2f84a04b8fe38bd45824ff6ff"
     },
     "itis": {
       "datasetId": "itis-2026-08-26",
@@ -122,14 +140,14 @@
     "zh": "æ­¤ CC0 ITIS ä¾§è½¦æ˜¯æ··åˆâ€œå…¶ä»–åŠ¨ç‰©â€èµ„æºåŒ…ä¸­å·²å£°æ˜Ž Dicyemida åˆ†åŒºçš„å†»ç»“ä¸¥æ ¼å‘½åäº¤å‰æ˜ å°„ï¼›å®ƒä¸æ˜¯å…¨çƒçº½å½¢åŠ¨ç‰©åå½•ã€æœ€ç»ˆåˆ†ç±»æƒå¨ã€ç³»ç»Ÿå‘è‚²ã€ç‰©ç§æ¦‚å¿µç­‰åŒæ€§å£°æ˜Žã€ç”Ÿç‰©æ¡£æ¡ˆæˆ–ç§‘å­¦å®¡æŸ¥è®°å½•ã€‚"
   },
   "counts": {
-    "total": 119,
-    "accepted": 85,
+    "total": 122,
+    "accepted": 86,
     "synonymCurrentNameRedirect": 0,
     "ambiguous": 0,
-    "unmatched": 34,
+    "unmatched": 36,
     "itisCurrentSpecies": 92,
     "itisSpeciesSynonymLinks": 6,
-    "itisUpstreamOnly": 7
+    "itisUpstreamOnly": 6
   },
   "colUsageIdLocator": {
     "key": "colUsageId",
@@ -139,13 +157,13 @@
     "files": [
       {
         "path": "data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals/itis-dicyemida-sidecar-0000.jsonl.gz",
-        "records": 119,
+        "records": 122,
         "firstColUsageId": "35VXG",
-        "lastColUsageId": "6W2NN",
-        "bytes": 3440,
-        "sha256": "35b74d5c3420099a8ec710c761de01c9000bdb2ab2d874bb649aef605386a001",
-        "sourceBytes": 38684,
-        "sourceSha256": "621159ee2b214b57a1b45caf0d551ad2821d26ab5b629e7ee48a1b5e42dfee70"
+        "lastColUsageId": "XQZP",
+        "bytes": 3541,
+        "sha256": "c62d347210d2b6f53377feaa4f04845e9deaf1f2b34d50ad29ed11e3809114f5",
+        "sourceBytes": 39414,
+        "sourceSha256": "8217d289ce3701cda0ab53bb63c5db4154ff107b5d96661b1accf4c963cd430e"
       }
     ]
   },
@@ -155,13 +173,13 @@
     "files": [
       {
         "path": "data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals/itis-dicyemida-upstream-only-0000.jsonl.gz",
-        "records": 7,
+        "records": 6,
         "firstColUsageId": null,
         "lastColUsageId": null,
-        "bytes": 385,
-        "sha256": "007adc1f31e2a086799cd5ebd7e6eff785105b0edfab01ac89578e8c20d5b2e9",
-        "sourceBytes": 2519,
-        "sourceSha256": "779247a7f368cc6863a3e2a261855e7bf4ed612fe3dff742056bef6ed67701b2",
+        "bytes": 364,
+        "sha256": "753b2132640674adad3488d02371a3fb3ed21e68832d2dbd0a8b1a798101a36d",
+        "sourceBytes": 2159,
+        "sourceSha256": "88fb238f6572fb5231c695d16acbe13e1118bbe0b6f51833df7996cadb232c4d",
         "colOwnership": null,
         "firstTsn": "696128",
         "lastTsn": "696214"

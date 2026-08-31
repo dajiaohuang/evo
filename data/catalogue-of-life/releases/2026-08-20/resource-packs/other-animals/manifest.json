@@ -3164,15 +3164,15 @@
         "license": "CC0-1.0",
         "citationDoi": "10.5066/F7KH0KBK",
         "canonicalDescriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals/itis-dicyemida-sidecar.json",
-        "canonicalDescriptorBytes": 7520,
-        "canonicalDescriptorSha256": "4d48e851a250d893b566ff49746ea295a17b86128152a23679358a8ba21ca92e"
+        "canonicalDescriptorBytes": 7959,
+        "canonicalDescriptorSha256": "88254f1e4ce38b4d94385bf9f0d30594b74bcf66ee6279c2ce4835d9a77e5d95"
       },
       "scope": {
         "colRootUsageId": "3Z",
         "colRootScientificName": "Dicyemida",
-        "colStrictAcceptedSpecies": 119,
+        "colStrictAcceptedSpecies": 122,
         "packageStrictAcceptedSpecies": 99161,
-        "packageOutOfScopeStrictAcceptedSpecies": 99042,
+        "packageOutOfScopeStrictAcceptedSpecies": 99039,
         "boundary": "other-animals is the deterministic Animalia remainder after more-specific static-package routes. This sidecar covers only strict accepted COL26.8 species descending from exact Dicyemida root 3Z; every other other-animals-owned species is explicitly outside this sidecar."
       },
       "matching": {
@@ -3195,45 +3195,45 @@
         "zh": "æ­¤ CC0 ITIS ä¾§è½¦æ˜¯æ··åˆâ€œå…¶ä»–åŠ¨ç‰©â€èµ„æºåŒ…ä¸­å·²å£°æ˜Ž Dicyemida åˆ†åŒºçš„å†»ç»“ä¸¥æ ¼å‘½åäº¤å‰æ˜ å°„ï¼›å®ƒä¸æ˜¯å…¨çƒçº½å½¢åŠ¨ç‰©åå½•ã€æœ€ç»ˆåˆ†ç±»æƒå¨ã€ç³»ç»Ÿå‘è‚²ã€ç‰©ç§æ¦‚å¿µç­‰åŒæ€§å£°æ˜Žã€ç”Ÿç‰©æ¡£æ¡ˆæˆ–ç§‘å­¦å®¡æŸ¥è®°å½•ã€‚"
       },
       "counts": {
-        "eligible": 119,
-        "records": 126,
-        "accepted": 85,
+        "eligible": 122,
+        "records": 128,
+        "accepted": 86,
         "redirects": 0,
         "ambiguous": 0,
-        "unmatched": 34,
+        "unmatched": 36,
         "withheld": 0,
-        "upstreamOnly": 7,
-        "nonApplicable": 99042
+        "upstreamOnly": 6,
+        "nonApplicable": 99039
       },
       "files": [
         {
           "path": "other-animals/itis-dicyemida-sidecar-0000.jsonl.gz",
-          "records": 119,
-          "bytes": 3440,
-          "sourceBytes": 38684,
-          "sha256": "35b74d5c3420099a8ec710c761de01c9000bdb2ab2d874bb649aef605386a001",
-          "sourceSha256": "621159ee2b214b57a1b45caf0d551ad2821d26ab5b629e7ee48a1b5e42dfee70",
+          "records": 122,
+          "bytes": 3541,
+          "sourceBytes": 39414,
+          "sha256": "c62d347210d2b6f53377feaa4f04845e9deaf1f2b34d50ad29ed11e3809114f5",
+          "sourceSha256": "8217d289ce3701cda0ab53bb63c5db4154ff107b5d96661b1accf4c963cd430e",
           "encoding": "gzip",
           "mediaType": "application/x-ndjson",
           "minColId": "35VXG",
-          "maxColId": "6W2NN",
+          "maxColId": "XQZP",
           "role": "col-partition"
         },
         {
           "path": "other-animals/itis-dicyemida-upstream-only-0000.jsonl.gz",
-          "records": 7,
-          "bytes": 385,
-          "sourceBytes": 2519,
-          "sha256": "007adc1f31e2a086799cd5ebd7e6eff785105b0edfab01ac89578e8c20d5b2e9",
-          "sourceSha256": "779247a7f368cc6863a3e2a261855e7bf4ed612fe3dff742056bef6ed67701b2",
+          "records": 6,
+          "bytes": 364,
+          "sourceBytes": 2159,
+          "sha256": "753b2132640674adad3488d02371a3fb3ed21e68832d2dbd0a8b1a798101a36d",
+          "sourceSha256": "88fb238f6572fb5231c695d16acbe13e1118bbe0b6f51833df7996cadb232c4d",
           "encoding": "gzip",
           "mediaType": "application/x-ndjson",
           "colOwnership": null,
           "role": "upstream-only"
         }
       ],
-      "totalCompressedBytes": 3825,
-      "totalSourceBytes": 41203,
+      "totalCompressedBytes": 3905,
+      "totalSourceBytes": 41573,
       "deliveryProfiles": {
         "web-light": {
           "payload": "summary-only",
@@ -3249,9 +3249,9 @@
             "other-animals/itis-dicyemida-sidecar-0000.jsonl.gz",
             "other-animals/itis-dicyemida-upstream-only-0000.jsonl.gz"
           ],
-          "records": 126,
-          "totalCompressedBytes": 3825,
-          "totalSourceBytes": 41203
+          "records": 128,
+          "totalCompressedBytes": 3905,
+          "totalSourceBytes": 41573
         }
       },
       "limitations": [

@@ -21,6 +21,8 @@ const COL_OOMYCOTA_ROOT = { id: '5K', scientificName: 'Oomycota', rank: 'phylum'
 const ROOTS = [
   { col: { id: '3SH', scientificName: 'Peronosporales', rank: 'order', status: 'accepted', parentId: 'G3' }, itis: { tsn: 13911, scientificName: 'Peronosporales', rank: 'Order', usage: 'accepted' } },
   { col: { id: '3ZZ', scientificName: 'Saprolegniales', rank: 'order', status: 'accepted', parentId: 'G3' }, itis: { tsn: 13837, scientificName: 'Saprolegniales', rank: 'Order', usage: 'accepted' } },
+  { col: { id: '3FT', scientificName: 'Leptomitales', rank: 'order', status: 'accepted', parentId: 'G3' }, itis: { tsn: 181554, scientificName: 'Leptomitales', rank: 'Order', usage: 'accepted' } },
+  { col: { id: '3DC', scientificName: 'Hyphochytriales', rank: 'order', status: 'accepted', parentId: 'CW' }, itis: { tsn: 13823, scientificName: 'Hyphochytriales', rank: 'Order', usage: 'accepted' } },
 ]
 const LIMIT = 512 * 1024
 const currentQuery = `WITH RECURSIVE descendants(tsn) AS (
@@ -234,7 +236,7 @@ async function main() {
     colStrictAcceptedSpecies: colScope.rows.length,
     packageStrictAcceptedSpecies: pack.acceptedSpeciesCount,
     packageOutOfScopeStrictAcceptedSpecies: pack.acceptedSpeciesCount - colScope.rows.length,
-    boundary: 'ITIS 2026-08-26 has no exact accepted Oomycota phylum root. Its broader ancestors for the two shared orders follow an historical Fungi/Myxomycota/Phycomycota path, so they are not treated as an Oomycota root. This sidecar therefore covers only strict COL26.8 accepted species below the two exact shared accepted order roots Peronosporales and Saprolegniales; every other COL Oomycota and every remaining Protists and Chromists species is explicitly out of scope.',
+    boundary: 'ITIS 2026-08-26 has no exact accepted Oomycota phylum root. Its broader ancestors for the four shared orders follow an historical Fungi/Myxomycota/Phycomycota path, so they are not treated as an Oomycota root. This sidecar therefore covers only strict COL26.8 accepted species below the four exact shared accepted order roots Peronosporales, Saprolegniales, Leptomitales and Hyphochytriales; every other COL Oomycota and every remaining Protists and Chromists species is explicitly out of scope.',
   }
   const exactMatching = {
     normalization: source.importLedger.normalization,
@@ -253,7 +255,7 @@ async function main() {
       col: { usageId: colScope.roots[index].id, scientificName: colScope.roots[index].scientificName, rank: colScope.roots[index].rank, parentUsageId: colScope.roots[index].parentId },
       itis: { tsn: String(record.tsn), scientificName: record.scientific_name, rank: record.rank_name, usage: record.name_usage, immediateParent: parent ? { tsn: String(parent.tsn), scientificName: parent.scientific_name, rank: parent.rank_name, usage: parent.name_usage } : null },
     })),
-    decision: 'Do not infer an ITIS Oomycota root from a broader historical lineage. Use only the two exact shared accepted order names/ranks, and keep the remaining COL Oomycota species out of scope.',
+    decision: 'Do not infer an ITIS Oomycota root from a broader historical lineage. Use only the four exact shared accepted order names/ranks, and keep the remaining COL Oomycota species out of scope.',
   }
   const descriptor = {
     schemaVersion: 1,
@@ -267,7 +269,7 @@ async function main() {
     },
     exactMatching,
     evidenceBoundary: {
-      en: 'This CC0 ITIS sidecar is a frozen exact nomenclatural crosswalk only for the two shared order roots of the COL26.8 Oomycota partition. It does not assert that ITIS supplies an Oomycota root, or that its historical broader lineage is a usable Oomycota classification. It is not a global oomycete checklist, final classification authority, phylogeny, species-concept equivalence assertion, biological dossier or scientific-review record.',
+      en: 'This CC0 ITIS sidecar is a frozen exact nomenclatural crosswalk only for the four shared order roots of the COL26.8 Oomycota partition. It does not assert that ITIS supplies an Oomycota root, or that its historical broader lineage is a usable Oomycota classification. It is not a global oomycete checklist, final classification authority, phylogeny, species-concept equivalence assertion, biological dossier or scientific-review record.',
       zh: '此 CC0 ITIS 侧车仅是 COL26.8 Oomycota 分区中两个双方精确共有目根的冻结严格命名交叉映射。它不声称 ITIS 提供 Oomycota 根，也不把 ITIS 的历史性更宽谱系当作可用的 Oomycota 分类。它不是全球卵菌名录、最终分类权威、系统发育、物种概念等同性声明、生物档案或科学审查记录。',
     },
     counts,

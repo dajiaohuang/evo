@@ -114,6 +114,293 @@
         "Source linkage is not an ecology, genome, strain, fossil, media, phylogeny, dossier, or expert-review claim.",
         "The LPSN URL identifies a release-pinned nomenclatural source record; later taxonomic opinions may change."
       ]
+    },
+    {
+      "id": "itis-bacteria-tsn-crosswalk",
+      "recordType": "release-pinned-exact-nomenclatural-crosswalk",
+      "provider": "Integrated Taxonomic Information System",
+      "source": {
+        "datasetId": "itis-2026-08-26",
+        "exportDate": "2026-08-26",
+        "rootTsn": "50",
+        "license": "CC0-1.0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "citationDoi": "10.5066/F7KH0KBK",
+        "sourceLedgerPath": "data/sources/itis-2026-08-26.json",
+        "sourceLedgerSha256": "38a7a55b4e98cafc66790e47f6bd637e298e23fd691e4771c755b38e4a02d7fc",
+        "sourceLedgerBytes": 7715
+      },
+      "scope": "Exactly the 4,827 accepted COL26.8 Bacteria species whose sourceDatasetId is not 2015; this is a separate ITIS authority collection and does not alter, infer, or represent LPSN coverage.",
+      "scopeZh": "仅限 sourceDatasetId 不为 2015 的 4,827 个 COL26.8 接受细菌种；这是独立 ITIS 权威集合，不改变、不推断也不代表 LPSN 覆盖。",
+      "exactMatching": {
+        "normalization": [
+          "Remove the exact trailing COL authorship field from COL scientificName when that suffix is present; no authorship parser is used.",
+          "Normalize Unicode to NFC, replace underscores with spaces, collapse Unicode whitespace and trim.",
+          "For species-rank comparison, remove one parenthesized subgenus token in the exact Genus (Subgenus) species representation; genus and specific epithet must remain unchanged.",
+          "Preserve case, diacritics, punctuation and all remaining name tokens."
+        ],
+        "prohibited": "No fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered, genus-substitution or higher-rank matching is used."
+      },
+      "evidenceBoundary": {
+        "en": "This CC0 ITIS collection is independently delivered beside the LPSN identifier collection. It never substitutes for LPSN source linkage or claims that non-LPSN COL records occur in LPSN.",
+        "zh": "此 CC0 ITIS 集合与 LPSN 标识符集合并列独立交付；绝不替代 LPSN 来源链接，也不声称非 LPSN COL 记录存在于 LPSN 中。"
+      },
+      "counts": {
+        "acceptedSpecies": 26397,
+        "eligible": 4827,
+        "nonApplicable": 21570,
+        "records": 14175,
+        "accepted": 4824,
+        "redirects": 0,
+        "ambiguous": 2,
+        "unmatched": 1,
+        "upstreamOnly": 9348,
+        "withheld": 0
+      },
+      "fields": [
+        "status",
+        "colUsageId",
+        "colScientificName",
+        "colAuthorship",
+        "exactMatchName",
+        "currentName",
+        "matchedSynonyms",
+        "candidates"
+      ],
+      "colUsageIdLocator": {
+        "key": "colUsageId",
+        "ordering": "Unicode code-unit ascending",
+        "sourceShardLimitBytes": 524288,
+        "files": [
+          {
+            "path": "bacteria/itis-bacteria-sidecar-0000.jsonl.gz",
+            "records": 1346,
+            "bytes": 44917,
+            "sourceBytes": 523922,
+            "sha256": "b76476461c055c24c58aab343bccfd564216059b4bd2f0fbbf5ea65f3eed1a98",
+            "sourceSha256": "9a6764cb863567532c90a542d33acf3e2f9b21fd3708f789d5ae3762e16a222a",
+            "encoding": "gzip",
+            "mediaType": "application/x-ndjson",
+            "minColUsageId": "333YG",
+            "maxColUsageId": "CNPX5"
+          },
+          {
+            "path": "bacteria/itis-bacteria-sidecar-0001.jsonl.gz",
+            "records": 1334,
+            "bytes": 44830,
+            "sourceBytes": 524149,
+            "sha256": "d4b06d619cb89eec5b4aaa477f19c5e711dbb41438595e772a919e97670755fe",
+            "sourceSha256": "fa6f308a378af36438de402c02eb803c5d3e22f0f9a2cabd8344ed68587dfe6a",
+            "encoding": "gzip",
+            "mediaType": "application/x-ndjson",
+            "minColUsageId": "CNPX6",
+            "maxColUsageId": "CP44N"
+          },
+          {
+            "path": "bacteria/itis-bacteria-sidecar-0002.jsonl.gz",
+            "records": 1344,
+            "bytes": 43737,
+            "sourceBytes": 524168,
+            "sha256": "a6b67f596f07f945413e638c53152e50f46b381904e9f27990f3d7f1bfdecb8f",
+            "sourceSha256": "81b0ecfb9b0aa6883aa2cffd1d2e2c9c17414109808bf8216a0557dde950ff35",
+            "encoding": "gzip",
+            "mediaType": "application/x-ndjson",
+            "minColUsageId": "CP44P",
+            "maxColUsageId": "CPJNQ"
+          },
+          {
+            "path": "bacteria/itis-bacteria-sidecar-0003.jsonl.gz",
+            "records": 803,
+            "bytes": 28793,
+            "sourceBytes": 316132,
+            "sha256": "179c46b5e4e56012706838b34219233824f649ce298c2b3169ed9cbb64f65df3",
+            "sourceSha256": "7f18077dc82653c20429e96cfc13e7c875bee2bcf6ef0a22d1b291fcc891583c",
+            "encoding": "gzip",
+            "mediaType": "application/x-ndjson",
+            "minColUsageId": "CPJNR",
+            "maxColUsageId": "WT33"
+          }
+        ]
+      },
+      "upstreamOnly": {
+        "colOwnership": null,
+        "key": "tsn",
+        "ordering": "numeric TSN ascending",
+        "files": [
+          {
+            "path": "bacteria/itis-bacteria-upstream-only-0000.jsonl.gz",
+            "records": 2762,
+            "bytes": 30680,
+            "sourceBytes": 524200,
+            "sha256": "3794e1d972cf52c7fb50aa4fd6f0d796c4a1b712fa4bd55ae2c1d53a70945090",
+            "sourceSha256": "3f12ab093adbe6d9f8e6c01f29d8af106b839367452ec4184ebd7410faaf7a3d",
+            "encoding": "gzip",
+            "mediaType": "application/x-ndjson",
+            "minTsn": "64",
+            "maxTsn": "961270"
+          },
+          {
+            "path": "bacteria/itis-bacteria-upstream-only-0001.jsonl.gz",
+            "records": 2771,
+            "bytes": 30238,
+            "sourceBytes": 524261,
+            "sha256": "72dc12517cb879b319a56ba30379f636ac44045ac8b73f888beb7f1b08f053c0",
+            "sourceSha256": "9e0075155a8b514f0be29deb1846eec0a592b78a866841c22426e5fdb34279f7",
+            "encoding": "gzip",
+            "mediaType": "application/x-ndjson",
+            "minTsn": "961271",
+            "maxTsn": "964041"
+          },
+          {
+            "path": "bacteria/itis-bacteria-upstream-only-0002.jsonl.gz",
+            "records": 2761,
+            "bytes": 29616,
+            "sourceBytes": 524117,
+            "sha256": "ec7e7ab0bbec416434508444070dc1b9e9f3f3c4bc43685ae5ec84ef5bf6bb9c",
+            "sourceSha256": "0c3fe033de47c204948543d8ccc5da614cdbcfbf6f5a6709bd28088e6a4159a1",
+            "encoding": "gzip",
+            "mediaType": "application/x-ndjson",
+            "minTsn": "964042",
+            "maxTsn": "966802"
+          },
+          {
+            "path": "bacteria/itis-bacteria-upstream-only-0003.jsonl.gz",
+            "records": 1054,
+            "bytes": 11935,
+            "sourceBytes": 199941,
+            "sha256": "dd2c180dbc86dba04555cb73147a9fd3748b1fb19f643fcbd9483d8e5d455c4c",
+            "sourceSha256": "c0d765420f83f3f50dbd87e525ec31e0c5e4f6d22af5475a8350a484a103e69e",
+            "encoding": "gzip",
+            "mediaType": "application/x-ndjson",
+            "minTsn": "966803",
+            "maxTsn": "1242394"
+          }
+        ]
+      },
+      "files": [
+        {
+          "path": "bacteria/itis-bacteria-sidecar-0000.jsonl.gz",
+          "records": 1346,
+          "bytes": 44917,
+          "sourceBytes": 523922,
+          "sha256": "b76476461c055c24c58aab343bccfd564216059b4bd2f0fbbf5ea65f3eed1a98",
+          "sourceSha256": "9a6764cb863567532c90a542d33acf3e2f9b21fd3708f789d5ae3762e16a222a",
+          "encoding": "gzip",
+          "mediaType": "application/x-ndjson",
+          "minColUsageId": "333YG",
+          "maxColUsageId": "CNPX5"
+        },
+        {
+          "path": "bacteria/itis-bacteria-sidecar-0001.jsonl.gz",
+          "records": 1334,
+          "bytes": 44830,
+          "sourceBytes": 524149,
+          "sha256": "d4b06d619cb89eec5b4aaa477f19c5e711dbb41438595e772a919e97670755fe",
+          "sourceSha256": "fa6f308a378af36438de402c02eb803c5d3e22f0f9a2cabd8344ed68587dfe6a",
+          "encoding": "gzip",
+          "mediaType": "application/x-ndjson",
+          "minColUsageId": "CNPX6",
+          "maxColUsageId": "CP44N"
+        },
+        {
+          "path": "bacteria/itis-bacteria-sidecar-0002.jsonl.gz",
+          "records": 1344,
+          "bytes": 43737,
+          "sourceBytes": 524168,
+          "sha256": "a6b67f596f07f945413e638c53152e50f46b381904e9f27990f3d7f1bfdecb8f",
+          "sourceSha256": "81b0ecfb9b0aa6883aa2cffd1d2e2c9c17414109808bf8216a0557dde950ff35",
+          "encoding": "gzip",
+          "mediaType": "application/x-ndjson",
+          "minColUsageId": "CP44P",
+          "maxColUsageId": "CPJNQ"
+        },
+        {
+          "path": "bacteria/itis-bacteria-sidecar-0003.jsonl.gz",
+          "records": 803,
+          "bytes": 28793,
+          "sourceBytes": 316132,
+          "sha256": "179c46b5e4e56012706838b34219233824f649ce298c2b3169ed9cbb64f65df3",
+          "sourceSha256": "7f18077dc82653c20429e96cfc13e7c875bee2bcf6ef0a22d1b291fcc891583c",
+          "encoding": "gzip",
+          "mediaType": "application/x-ndjson",
+          "minColUsageId": "CPJNR",
+          "maxColUsageId": "WT33"
+        },
+        {
+          "path": "bacteria/itis-bacteria-upstream-only-0000.jsonl.gz",
+          "records": 2762,
+          "bytes": 30680,
+          "sourceBytes": 524200,
+          "sha256": "3794e1d972cf52c7fb50aa4fd6f0d796c4a1b712fa4bd55ae2c1d53a70945090",
+          "sourceSha256": "3f12ab093adbe6d9f8e6c01f29d8af106b839367452ec4184ebd7410faaf7a3d",
+          "encoding": "gzip",
+          "mediaType": "application/x-ndjson",
+          "minTsn": "64",
+          "maxTsn": "961270"
+        },
+        {
+          "path": "bacteria/itis-bacteria-upstream-only-0001.jsonl.gz",
+          "records": 2771,
+          "bytes": 30238,
+          "sourceBytes": 524261,
+          "sha256": "72dc12517cb879b319a56ba30379f636ac44045ac8b73f888beb7f1b08f053c0",
+          "sourceSha256": "9e0075155a8b514f0be29deb1846eec0a592b78a866841c22426e5fdb34279f7",
+          "encoding": "gzip",
+          "mediaType": "application/x-ndjson",
+          "minTsn": "961271",
+          "maxTsn": "964041"
+        },
+        {
+          "path": "bacteria/itis-bacteria-upstream-only-0002.jsonl.gz",
+          "records": 2761,
+          "bytes": 29616,
+          "sourceBytes": 524117,
+          "sha256": "ec7e7ab0bbec416434508444070dc1b9e9f3f3c4bc43685ae5ec84ef5bf6bb9c",
+          "sourceSha256": "0c3fe033de47c204948543d8ccc5da614cdbcfbf6f5a6709bd28088e6a4159a1",
+          "encoding": "gzip",
+          "mediaType": "application/x-ndjson",
+          "minTsn": "964042",
+          "maxTsn": "966802"
+        },
+        {
+          "path": "bacteria/itis-bacteria-upstream-only-0003.jsonl.gz",
+          "records": 1054,
+          "bytes": 11935,
+          "sourceBytes": 199941,
+          "sha256": "dd2c180dbc86dba04555cb73147a9fd3748b1fb19f643fcbd9483d8e5d455c4c",
+          "sourceSha256": "c0d765420f83f3f50dbd87e525ec31e0c5e4f6d22af5475a8350a484a103e69e",
+          "encoding": "gzip",
+          "mediaType": "application/x-ndjson",
+          "minTsn": "966803",
+          "maxTsn": "1242394"
+        }
+      ],
+      "totalCompressedBytes": 264746,
+      "totalSourceBytes": 3660890,
+      "deliveryProfiles": {
+        "web-light": {
+          "records": 0,
+          "files": []
+        },
+        "native-full": {
+          "records": 14175,
+          "files": [
+            "bacteria/itis-bacteria-sidecar-0000.jsonl.gz",
+            "bacteria/itis-bacteria-sidecar-0001.jsonl.gz",
+            "bacteria/itis-bacteria-sidecar-0002.jsonl.gz",
+            "bacteria/itis-bacteria-sidecar-0003.jsonl.gz",
+            "bacteria/itis-bacteria-upstream-only-0000.jsonl.gz",
+            "bacteria/itis-bacteria-upstream-only-0001.jsonl.gz",
+            "bacteria/itis-bacteria-upstream-only-0002.jsonl.gz",
+            "bacteria/itis-bacteria-upstream-only-0003.jsonl.gz"
+          ]
+        }
+      },
+      "limitations": [
+        "This frozen exact-name crosswalk is not a final classification authority, species-concept equivalence assertion, biological dossier, ecology, genome, strain, fossil, media, translation, or expert-review record.",
+        "Ambiguous and unmatched COL names are retained without forced resolution.",
+        "LPSN retains its own source-dataset eligibility and licensing boundary."
+      ]
     }
   ]
 }

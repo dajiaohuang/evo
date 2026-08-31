@@ -91,7 +91,7 @@ if (!itisAmphibia || itisAmphibia.provider !== 'Integrated Taxonomic Information
 }
 const expectedRichItisCollections = {
   'molluscs-brachiopods': {
-    'itis-mollusca-brachiopoda-tsn-crosswalk': { files: 59, upstreamFiles: 1, records: 159794, upstreamRecords: 4289 },
+    'itis-mollusca-brachiopoda-tsn-crosswalk': { files: 59, upstreamFiles: 1, records: 159801, upstreamRecords: 4289 },
   },
   'sponges-cnidarians': {
     'itis-porifera-cnidaria-tsn-crosswalk': { files: 5, upstreamFiles: 1, records: 30521, upstreamRecords: 2218 },
@@ -317,7 +317,7 @@ const expectedOtherAnimalAuthorities = {
   'itis-placozoa-tsn-crosswalk': { files: 1, records: 4 },
   'itis-xenacoelomorpha-tsn-crosswalk': { files: 2, records: 499 },
   'itis-orthonectida-tsn-crosswalk': { files: 2, records: 27 },
-  'itis-dicyemida-tsn-crosswalk': { files: 2, records: 126 },
+  'itis-dicyemida-tsn-crosswalk': { files: 2, records: 128 },
   'itis-nematoda-tsn-crosswalk': { files: 4, records: 20849 },
   'itis-annelida-tsn-crosswalk': { files: 4, records: 24074 },
 }
@@ -355,7 +355,7 @@ const expectedProtistAuthorities = {
   'itis-ochrophyta-tsn-crosswalk': { files: 2, records: 3397 },
   'itis-amoebozoa-tsn-crosswalk': { files: 1, records: 1337 },
   'itis-rhodophyta-tsn-crosswalk': { files: 1, records: 1616 },
-  'itis-oomycota-tsn-crosswalk': { files: 2, records: 1464 },
+  'itis-oomycota-tsn-crosswalk': { files: 2, records: 1536 },
   'itis-cryptophyta-tsn-crosswalk': { files: 0, records: 0 },
   'itis-choanoflagellatea-tsn-crosswalk': { files: 0, records: 0 },
   'itis-bigyra-tsn-crosswalk': { files: 1, records: 53 },

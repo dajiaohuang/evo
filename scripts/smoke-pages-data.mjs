@@ -152,7 +152,7 @@ for (const packageEntry of packageRegistry.packages) {
   } else if (packageEntry.id === 'molluscs-brachiopods') {
     if (nomenclatureCollections.length !== 1) failures.push('molluscs-brachiopods: expected one ITIS nomenclature collection')
     checkItisSummaryOnlyCollection('molluscs-brachiopods', nomenclatureCollections, {
-      id: 'itis-mollusca-brachiopoda-tsn-crosswalk', total: 159794, accepted: 7212, redirects: 256, ambiguous: 16, unmatched: 152310, upstreamOnly: 4289, files: 60,
+      id: 'itis-mollusca-brachiopoda-tsn-crosswalk', total: 159801, accepted: 7219, redirects: 256, ambiguous: 16, unmatched: 152310, upstreamOnly: 4289, files: 60,
     })
   } else if (packageEntry.id === 'sponges-cnidarians') {
     if (nomenclatureCollections.length !== 1) failures.push('sponges-cnidarians: expected one ITIS nomenclature collection')
@@ -601,7 +601,7 @@ if (catalogue.resourcePacks?.packageCount !== 7
     let lpsnExtension = null
     if (expectedLpsn) {
       lpsnExtension = extensions.find((candidate) => candidate.id === 'lpsn-identifiers')
-      if (extensions.length !== 1 || !lpsnExtension || lpsnExtension.recordType !== 'external-name-identifier-crosswalk' || lpsnExtension.provider !== 'LPSN') {
+      if ((packageId === 'bacteria' ? extensions.length !== 2 : extensions.length !== 1) || !lpsnExtension || lpsnExtension.recordType !== 'external-name-identifier-crosswalk' || lpsnExtension.provider !== 'LPSN') {
         failures.push(`${packageId}: pinned LPSN identifier extension identity is incomplete`)
       } else {
         for (const [key, expected] of Object.entries(expectedLpsn.counts)) {
@@ -657,6 +657,23 @@ if (catalogue.resourcePacks?.packageCount !== 7
           failures.push(`${packageId}: LPSN identifier files do not match extension totals`)
         }
         lpsnIdentifierRecords += extensionRecords
+      }
+      if (packageId === 'bacteria') {
+        const itis = extensions.find((candidate) => candidate.id === 'itis-bacteria-tsn-crosswalk')
+        if (!itis || itis.provider !== 'Integrated Taxonomic Information System'
+          || itis.recordType !== 'release-pinned-exact-nomenclatural-crosswalk'
+          || itis.source?.license !== 'CC0-1.0' || itis.source?.exportDate !== '2026-08-26' || itis.source?.rootTsn !== '50'
+          || itis.counts?.eligible !== 4827 || itis.counts?.nonApplicable !== 21570 || itis.counts?.records !== 14175
+          || itis.counts?.accepted !== 4824 || itis.counts?.redirects !== 0 || itis.counts?.ambiguous !== 2 || itis.counts?.unmatched !== 1 || itis.counts?.upstreamOnly !== 9348 || itis.counts?.withheld !== 0
+          || itis.delivery?.profile !== 'web-light' || itis.delivery?.completeRows !== false || itis.files?.length !== 0
+          || itis.delivery?.publishedFileCount !== 0 || itis.delivery?.canonicalFileCount !== 8 || itis.canonicalFileInventory?.length !== 8
+          || !itis.scope?.includes('sourceDatasetId is not 2015') || !itis.evidenceBoundary?.en.includes('never substitutes for LPSN')
+          || itis.canonicalFileInventory?.some((file) => !file.path || file.sha256?.length !== 64 || file.sourceSha256?.length !== 64)) {
+          failures.push('bacteria: Pages must publish the independent ITIS CC0 summary and hashes without row shards or changing LPSN semantics')
+        }
+        if (manifestFile.extensionFileCount !== 1 || manifestFile.canonicalExtensionFileCount !== 9) {
+          failures.push('bacteria: Pages must retain one LPSN row shard and omit all eight ITIS authority row shards')
+        }
       }
     } else if (packageId === 'fungi') {
       const authority = extensions.find((candidate) => candidate.id === 'index-fungorum-identifiers')
@@ -740,7 +757,7 @@ if (catalogue.resourcePacks?.packageCount !== 7
         'itis-placozoa-tsn-crosswalk': { eligible: 4, records: 4, accepted: 4, redirects: 0, ambiguous: 0, unmatched: 0, upstreamOnly: 0, nonApplicable: 99157, files: 1 },
         'itis-xenacoelomorpha-tsn-crosswalk': { eligible: 441, records: 499, accepted: 370, redirects: 6, ambiguous: 1, unmatched: 64, upstreamOnly: 58, nonApplicable: 98720, files: 2 },
         'itis-orthonectida-tsn-crosswalk': { eligible: 24, records: 27, accepted: 22, redirects: 0, ambiguous: 0, unmatched: 2, upstreamOnly: 3, nonApplicable: 99137, files: 2 },
-        'itis-dicyemida-tsn-crosswalk': { eligible: 119, records: 126, accepted: 85, redirects: 0, ambiguous: 0, unmatched: 34, upstreamOnly: 7, nonApplicable: 99042, files: 2 },
+        'itis-dicyemida-tsn-crosswalk': { eligible: 122, records: 128, accepted: 86, redirects: 0, ambiguous: 0, unmatched: 36, upstreamOnly: 6, nonApplicable: 99039, files: 2 },
         'itis-nematoda-tsn-crosswalk': { eligible: 19604, records: 20849, accepted: 1899, redirects: 36, ambiguous: 1, unmatched: 17668, upstreamOnly: 1245, nonApplicable: 79557, files: 4 },
         'itis-annelida-tsn-crosswalk': { eligible: 18982, records: 24074, accepted: 4301, redirects: 122, ambiguous: 1, unmatched: 14558, upstreamOnly: 5092, nonApplicable: 80179, files: 4 },
       }
@@ -773,7 +790,7 @@ if (catalogue.resourcePacks?.packageCount !== 7
         'itis-ochrophyta-tsn-crosswalk': { eligible: 1101, records: 3397, accepted: 1097, redirects: 0, ambiguous: 4, unmatched: 0, upstreamOnly: 2296, nonApplicable: 60417, files: 2 },
         'itis-amoebozoa-tsn-crosswalk': { eligible: 1337, records: 1337, accepted: 0, redirects: 0, ambiguous: 0, unmatched: 1337, upstreamOnly: 0, nonApplicable: 60181, files: 1 },
         'itis-rhodophyta-tsn-crosswalk': { eligible: 0, records: 1616, accepted: 0, redirects: 0, ambiguous: 0, unmatched: 0, upstreamOnly: 1616, nonApplicable: 61518, files: 1 },
-        'itis-oomycota-tsn-crosswalk': { eligible: 1426, records: 1464, accepted: 46, redirects: 0, ambiguous: 0, unmatched: 1380, upstreamOnly: 38, nonApplicable: 60092, files: 2 },
+        'itis-oomycota-tsn-crosswalk': { eligible: 1494, records: 1536, accepted: 53, redirects: 1, ambiguous: 0, unmatched: 1440, upstreamOnly: 42, nonApplicable: 60024, files: 2 },
         'itis-cryptophyta-tsn-crosswalk': { eligible: 0, records: 0, accepted: 0, redirects: 0, ambiguous: 0, unmatched: 0, upstreamOnly: 0, nonApplicable: 61518, files: 0 },
         'itis-choanoflagellatea-tsn-crosswalk': { eligible: 0, records: 0, accepted: 0, redirects: 0, ambiguous: 0, unmatched: 0, upstreamOnly: 0, nonApplicable: 61518, files: 0 },
         'itis-bigyra-tsn-crosswalk': { eligible: 53, records: 53, accepted: 0, redirects: 0, ambiguous: 0, unmatched: 53, upstreamOnly: 0, nonApplicable: 61465, files: 1 },

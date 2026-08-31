@@ -158,7 +158,7 @@ final class AppConfigurationTests: XCTestCase {
                 richItisNomenclatureRecords += try verifyRichItisCollection(
                     collection: try XCTUnwrap(collections.first { ($0["id"] as? String) == collectionId }),
                     inventory: files, below: dataRoot, expectedFiles: isMolluscs ? 59 : 5,
-                    expectedUpstreamFiles: 1, expectedRecords: isMolluscs ? 159_794 : 30_521,
+                    expectedUpstreamFiles: 1, expectedRecords: isMolluscs ? 159_801 : 30_521,
                     expectedUpstreamRecords: isMolluscs ? 4_289 : 2_218, label: "ITIS \(packageId)")
             } else if packageId == "crustaceans-insects" || packageId == "trilobites-chelicerates" {
                 let collections = try XCTUnwrap(package["nomenclatureCollections"] as? [[String: Any]])
@@ -437,7 +437,7 @@ final class AppConfigurationTests: XCTestCase {
                     "itis-nematoda-tsn-crosswalk", "itis-annelida-tsn-crosswalk",
                 ]
                 let expectedFiles = [15, 3, 3, 2, 2, 3, 2, 3, 2, 2, 2, 2, 1, 1, 2, 2, 2, 1, 2, 1, 1, 1, 1, 2, 2, 2, 4, 4]
-                let expectedRecords = [28_252, 2_662, 20_754, 1_416, 3_242, 1_330, 171, 1_461, 156, 204, 420, 997, 23, 235, 139, 205, 404, 19, 104, 46, 1, 2, 4, 499, 27, 126, 20_849, 24_074]
+                let expectedRecords = [28_252, 2_662, 20_754, 1_416, 3_242, 1_330, 171, 1_461, 156, 204, 420, 997, 23, 235, 139, 205, 404, 19, 104, 46, 1, 2, 4, 499, 27, 128, 20_849, 24_074]
                 for expectedIndex in expectedIds.indices {
                     let authority = try XCTUnwrap(extensions.first { ($0["id"] as? String) == expectedIds[expectedIndex] }, "ITIS other-animals authority missing")
                     XCTAssertEqual(authority["provider"] as? String, "Integrated Taxonomic Information System")
@@ -492,7 +492,7 @@ final class AppConfigurationTests: XCTestCase {
                     "itis-hemimastigophora-tsn-crosswalk",
                 ]
                 let expectedFiles = [4, 1, 2, 1, 1, 1, 2, 1, 1, 2, 0, 0, 1, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0]
-                let expectedRecords = [8_665, 21, 1_110, 276, 52, 90, 3_397, 1_337, 1_616, 1_464, 0, 0, 53, 0, 0, 0, 0, 0, 1_416, 4, 0, 0, 0, 0, 0]
+                let expectedRecords = [8_665, 21, 1_110, 276, 52, 90, 3_397, 1_337, 1_616, 1_536, 0, 0, 53, 0, 0, 0, 0, 0, 1_416, 4, 0, 0, 0, 0, 0]
                 let itisAuthorities = extensions.filter { ($0["provider"] as? String) == "Integrated Taxonomic Information System" }
                 XCTAssertEqual(extensions.count, expectedIds.count + 1)
                 XCTAssertEqual(itisAuthorities.count, expectedIds.count)

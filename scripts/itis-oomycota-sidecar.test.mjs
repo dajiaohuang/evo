@@ -54,9 +54,11 @@ describe('ITIS Oomycota shared-order authority sidecar', () => {
     expect(descriptor.scope.selectedSharedOrderRoots).toEqual([
       expect.objectContaining({ col: expect.objectContaining({ usageId: '3SH', scientificName: 'Peronosporales' }), itis: expect.objectContaining({ tsn: '13911', scientificName: 'Peronosporales' }), colStrictAcceptedSpecies: 1179 }),
       expect.objectContaining({ col: expect.objectContaining({ usageId: '3ZZ', scientificName: 'Saprolegniales' }), itis: expect.objectContaining({ tsn: '13837', scientificName: 'Saprolegniales' }), colStrictAcceptedSpecies: 247 }),
+      expect.objectContaining({ col: expect.objectContaining({ usageId: '3FT', scientificName: 'Leptomitales' }), itis: expect.objectContaining({ tsn: '181554', scientificName: 'Leptomitales' }), colStrictAcceptedSpecies: 45 }),
+      expect.objectContaining({ col: expect.objectContaining({ usageId: '3DC', scientificName: 'Hyphochytriales' }), itis: expect.objectContaining({ tsn: '13823', scientificName: 'Hyphochytriales' }), colStrictAcceptedSpecies: 23 }),
     ])
-    expect(descriptor.scope.colStrictAcceptedSpecies).toBe(1426)
-    expect(descriptor.scope.requestedColRoot.strictAcceptedSpecies - descriptor.scope.colStrictAcceptedSpecies).toBe(247)
+    expect(descriptor.scope.colStrictAcceptedSpecies).toBe(1494)
+    expect(descriptor.scope.requestedColRoot.strictAcceptedSpecies - descriptor.scope.colStrictAcceptedSpecies).toBe(179)
     expect(descriptor.scope.boundary).toContain('historical Fungi/Myxomycota/Phycomycota')
     expect(descriptor.rootBoundaryAudit.decision).toContain('Do not infer')
   })
@@ -64,7 +66,7 @@ describe('ITIS Oomycota shared-order authority sidecar', () => {
   it('covers the narrowed COL scope once in deterministic, non-overlapping ranges', () => {
     expect(descriptorBytes.length).toBeLessThan(64 * 1024)
     expect(rows).toHaveLength(descriptor.counts.total)
-    expect(rows).toHaveLength(1426)
+    expect(rows).toHaveLength(1494)
     expect(new Set(rows.map((row) => row.colUsageId)).size).toBe(rows.length)
     expect(files.every((file) => file.sourceBytes <= descriptor.colUsageIdLocator.sourceShardLimitBytes)).toBe(true)
     for (const [index, file] of files.entries()) {
@@ -81,13 +83,13 @@ describe('ITIS Oomycota shared-order authority sidecar', () => {
   it('retains only exact ITIS evidence and includes all non-empty rows for native delivery', () => {
     expect(descriptor.exactMatching.prohibited).toContain('No fuzzy')
     expect(rows.every((row) => row.exactMatchName === colExactMatchName({ scientificName: row.colScientificName, authorship: row.colAuthorship }))).toBe(true)
-    expect(rows.filter((row) => row.status === 'accepted')).toHaveLength(46)
-    expect(rows.filter((row) => row.status === 'synonym-current-name-redirect')).toHaveLength(0)
+    expect(rows.filter((row) => row.status === 'accepted')).toHaveLength(53)
+    expect(rows.filter((row) => row.status === 'synonym-current-name-redirect')).toHaveLength(1)
     expect(rows.filter((row) => row.status === 'ambiguous')).toHaveLength(0)
-    expect(rows.filter((row) => row.status === 'unmatched')).toHaveLength(1380)
+    expect(rows.filter((row) => row.status === 'unmatched')).toHaveLength(1440)
     expect(rows.filter((row) => row.status === 'accepted').every((row) => normalizeScientificName(row.currentName.scientificName) === row.exactMatchName)).toBe(true)
     expect(rows.filter((row) => row.status === 'unmatched').every((row) => !('currentName' in row))).toBe(true)
-    expect(upstream).toHaveLength(38)
+    expect(upstream).toHaveLength(42)
     expect(upstream.every((row) => row.colUsageId === null && row.currentName.usage === 'accepted')).toBe(true)
     const referencedTsns = new Set(rows.filter((row) => row.currentName).map((row) => row.currentName.tsn))
     expect(upstream.every((row) => !referencedTsns.has(row.currentName.tsn))).toBe(true)

@@ -17,9 +17,9 @@ const compare = (left, right) => left < right ? -1 : left > right ? 1 : 0
 const EXPECTED = {
   package: 159801,
   roots: { M2L: 154718, B8V3K: 5076, KZ: 7 },
-  applicable: 159794,
-  statuses: { accepted: 7212, synonymCurrentNameRedirect: 256, ambiguous: 16, unmatched: 152310 },
-  itis: { currentSpecies: 11645, synonymLinks: 7801, upstreamOnly: 4289 },
+  applicable: 159801,
+  statuses: { accepted: 7219, synonymCurrentNameRedirect: 256, ambiguous: 16, unmatched: 152310 },
+  itis: { currentSpecies: 11652, synonymLinks: 7801, upstreamOnly: 4289 },
   shardCount: 59,
 }
 
@@ -40,17 +40,16 @@ describe('ITIS Mollusca and Brachiopoda exact sidecar', () => {
   const rows = files.flatMap((file) => shardRows.get(file.path))
   const upstream = descriptor.upstreamOnly.files.flatMap(readJsonlGzip)
 
-  it('enumerates all package roots and marks Graptolithina non-applicable', () => {
+  it('enumerates all package roots and closes the seven represented Graptolithina species exactly', () => {
     expect(descriptor.packageId).toBe('molluscs-brachiopods')
     expect(descriptor.scope.roots.map(({ col }) => col.id)).toEqual(['M2L', 'B8V3K', 'KZ'])
-    expect(descriptor.scope.roots.filter(({ col }) => col.role === 'applicable').map(({ col }) => col.id)).toEqual(['M2L', 'B8V3K'])
-    expect(descriptor.scope.nonApplicable).toHaveLength(1)
-    expect(descriptor.scope.nonApplicable[0].id).toBe('KZ')
-    expect(descriptor.scope.nonApplicable[0].reason).toContain('outside the requested')
+    expect(descriptor.scope.roots.filter(({ col }) => col.role === 'applicable').map(({ col }) => col.id)).toEqual(['M2L', 'B8V3K', 'KZ'])
+    expect(descriptor.scope.nonApplicable).toEqual([])
     expect(descriptor.scope.packageStrictAcceptedSpecies).toBe(descriptor.scope.roots.reduce((sum, { col }) => sum + col.strictAcceptedSpecies, 0))
     expect(descriptor.scope.packageStrictAcceptedSpecies).toBe(EXPECTED.package)
     expect(Object.fromEntries(descriptor.scope.roots.map(({ col }) => [col.id, col.strictAcceptedSpecies]))).toEqual(EXPECTED.roots)
     expect(descriptor.scope.applicableColStrictAcceptedSpecies).toBe(EXPECTED.applicable)
+    expect(descriptor.scope.roots.find(({ col }) => col.id === 'KZ')).toMatchObject({ itis: { tsn: '993363', scientificName: 'Graptolithina', currentSpecies: 7 } })
   })
 
   it('has one deterministic, non-overlapping shard result for every applicable COL species', () => {
