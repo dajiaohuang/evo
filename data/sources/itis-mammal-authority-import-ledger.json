@@ -9,7 +9,7 @@
     "colRegistryManifestPath": "data/catalogue-of-life/releases/2026-08-20/registry/manifest.json",
     "colRegistryManifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151",
     "colOwnershipPath": "data/registry/package-species-coverage.json",
-    "colOwnershipSha256": "168e7cb70124ca4400e1b86c5fe76e7c1ff551bddd7be50f0149f077f40db1cf",
+    "colOwnershipSha256": "a31a41ef0e9e785192a2fbbed11df9aa9bc06ba2f84a04b8fe38bd45824ff6ff",
     "colOwnershipInputSemantics": "The ownershipSha256 nested in the historical ITIS source import contract is not used as this import input; this migration uses the checked-in ownership projection bytes above and pins their SHA-256 directly."
   },
   "scopeAudit": {
@@ -101,16 +101,16 @@
   "canonical": {
     "path": "data/sources/itis-mammal-authority-crosswalk-col26.8.json.gz",
     "bytes": 266595,
-    "sha256": "078d0d25e8a950054090e322abb8b20b5ec26e29a6787a30519314cdc162a115",
+    "sha256": "018c6feea9485c8abf984706c79ef8ed144f527d05476bef02660c2963a953af",
     "sourceBytes": 3765545,
-    "sourceSha256": "76ee408492ccd611c29d55a7551d6abcdcfe56b16f91355b48f0064c9284a202"
+    "sourceSha256": "092577eb52296242b11b73a253816ca70bd718ca1b5776e4ad61eba2c5622550"
   },
   "outputs": {
     "perissodactyla": {
       "descriptor": {
         "path": "data/packages/mammalia/perissodactyla/nomenclature/itis-tsn-sidecar.json",
         "bytes": 5031,
-        "sha256": "bcba89f8518ae97d49f4221409e690bb474239e470fd1d3bbb9d920dac257dc8"
+        "sha256": "3c7d327c1941e11ff192b3b451d0fa5fb5728fad9236bd4064f99afcd83a73e2"
       },
       "counts": {
         "total": 19,
@@ -140,7 +140,7 @@
       "descriptor": {
         "path": "data/packages/mammalia/cetartiodactyla/nomenclature/itis-tsn-sidecar.json",
         "bytes": 5056,
-        "sha256": "d44e276f5cfdd38f8ba133891aebc4b07f2e8dae280611511b2dcfefea8310d1"
+        "sha256": "f452207ad017e0b128470650dc4f71490cbe2a637279af6fd9f6785a5b99df8d"
       },
       "counts": {
         "total": 503,
@@ -170,7 +170,7 @@
       "descriptor": {
         "path": "data/packages/mammalia/primates/nomenclature/itis-tsn-sidecar.json",
         "bytes": 5012,
-        "sha256": "96dee66ffd47cbf98d61724ad7ea5c271bd247e8996bf59b8413cc50ef99e58f"
+        "sha256": "b8f921704919fae007f45bfdecde5fefcfeb0c004fcc6a69b9d35e399405cf36"
       },
       "counts": {
         "total": 530,
@@ -200,7 +200,7 @@
       "descriptor": {
         "path": "data/packages/mammalia/carnivora/nomenclature/itis-tsn-sidecar.json",
         "bytes": 5015,
-        "sha256": "7993503e39609270b14efe5f472d565cdba381c703d0f790513c3e88e60b68bc"
+        "sha256": "983a47c1a148f9a6f200a06807ae04470a0b6506a47e1fd7c58457a7bc75431f"
       },
       "counts": {
         "total": 310,
@@ -230,7 +230,7 @@
       "descriptor": {
         "path": "data/packages/mammalia/other-mammals/nomenclature/itis-tsn-sidecar.json",
         "bytes": 6957,
-        "sha256": "d41b97b77603ca44d5a153be9489174a1c0c4236591d007e9ceea6b137aa9228"
+        "sha256": "90e1ae6357c2f08fad63a6329b4a81d0770379738cd8d87acea11c11fc40131f"
       },
       "counts": {
         "total": 5099,
@@ -306,7 +306,7 @@
   },
   "generatedBy": {
     "scriptPath": "scripts/build-itis-mammal-sidecar.mjs",
-    "scriptSha256": "47601ea7c4b2edb5a017ef3075836b1450110b0bc9e23ec6f4d9141cec1c162d",
+    "scriptSha256": "dd7e459a2ae8756a50016c60d59e536e232dd05fef3d22da918fe5dc7d26cca0",
     "deterministic": "Pinned input checksums, fixed roots, exact SQL, exact representation-only normalization and stable sorting; no wall-clock fields or fuzzy matching."
   }
 }

@@ -413,7 +413,6 @@ export async function loadPackageItisRecord(
 }
 
 const packageItisContracts: Record<import('./types').RuntimeItisPackageScope, {
-  packageId: 'other-animals' | 'molluscs-brachiopods' | 'sponges-cnidarians' | 'echinoderms' | 'crustaceans-insects' | 'trilobites-chelicerates' | 'turtles-lepidosaurs' | 'crocodylomorphs-birds'
   packageId: 'other-animals' | 'molluscs-brachiopods' | 'sponges-cnidarians' | 'echinoderms' | 'crustaceans-insects' | 'trilobites-chelicerates' | 'turtles-lepidosaurs' | 'crocodylomorphs-birds' | 'perissodactyla' | 'cetartiodactyla' | 'primates' | 'carnivora' | 'other-mammals'
   collectionId: import('./types').RuntimeItisNomenclatureCollectionId
   total: number

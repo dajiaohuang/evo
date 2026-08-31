@@ -985,7 +985,6 @@ describe('static runtime release coherence', () => {
   })
 
   it('loads each typed package ITIS collection by one range shard and rejects the Web summary', async () => {
-  it('loads each typed package ITIS collection by one range shard and rejects the Web summary', async () => {
     Object.defineProperty(globalThis, 'Worker', { configurable: true, value: undefined })
     const contracts: Array<{
       scope: RuntimeItisPackageScope

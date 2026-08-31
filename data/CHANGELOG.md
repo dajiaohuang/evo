@@ -1,5 +1,12 @@
 # Dataset changelog
 
+## App 0.20.24 / 2026.08-static-v5-rc73 — 2026-08-31
+
+- Added fixed, exact ITIS `2026-08-26` CC0 authority sidecars for the five declared Mammalia partitions: Perissodactyla, Cetartiodactyla, Primates, Carnivora, and Other mammals. Their COL26.8 scopes contain 6,461 explicit outcomes: 6,460 current-name matches, one ambiguity, and no redirects or unmatched rows; three current ITIS-only species remain in a separate null-COL partition.
+- Published 6,464 native authority records through nine non-empty deterministic JSONL gzip shards: one COL shard each for Perissodactyla, Cetartiodactyla, Primates, and Carnivora, plus four COL shards and one upstream-only shard for Other mammals. The zero-record `mammal-origins` boundary is not delivered as an ITIS collection.
+- Pages `web-light` publishes descriptors, provenance, scopes, methods, counts, limitations, and canonical byte/SHA-256 inventories but no authority rows. Android and iOS build `27` copy every native-full shard byte-for-byte and verify release-inventory parity by collection ID.
+- Added [`docs/itis-mammal-authority.md`](../docs/itis-mammal-authority.md) with roots, outcome counts, historical/source hash semantics, delivery boundaries, and the explicit `mammal-origins` zero-record boundary.
+
 ## App 0.20.23 / 2026.08-static-v5-rc72 — 2026-08-31
 
 - Added fixed, exact ITIS `2026-08-26` CC0 authority sidecars for the declared Reptilia partitions. The 12,649 exact COL26.8 outcomes contain 9,831 current-name matches, 71 official synonym redirects, three ambiguities, and 2,744 unmatched records; 655 current ITIS species remain in a separate null-COL upstream-only partition.

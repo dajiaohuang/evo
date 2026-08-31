@@ -229,15 +229,15 @@ final class AppConfigurationTests: XCTestCase {
                 let expected: (id: String, files: Int, upstreamFiles: Int, records: Int, upstreamRecords: Int, descriptorSha: String)
                 switch packageId {
                 case "perissodactyla":
-                    expected = ("itis-perissodactyla-tsn-crosswalk", 1, 0, 19, 0, "bcba89f8518ae97d49f4221409e690bb474239e470fd1d3bbb9d920dac257dc8")
+                    expected = ("itis-perissodactyla-tsn-crosswalk", 1, 0, 19, 0, "3c7d327c1941e11ff192b3b451d0fa5fb5728fad9236bd4064f99afcd83a73e2")
                 case "cetartiodactyla":
-                    expected = ("itis-cetartiodactyla-tsn-crosswalk", 1, 0, 503, 0, "d44e276f5cfdd38f8ba133891aebc4b07f2e8dae280611511b2dcfefea8310d1")
+                    expected = ("itis-cetartiodactyla-tsn-crosswalk", 1, 0, 503, 0, "f452207ad017e0b128470650dc4f71490cbe2a637279af6fd9f6785a5b99df8d")
                 case "primates":
-                    expected = ("itis-primates-tsn-crosswalk", 1, 0, 530, 0, "96dee66ffd47cbf98d61724ad7ea5c271bd247e8996bf59b8413cc50ef99e58f")
+                    expected = ("itis-primates-tsn-crosswalk", 1, 0, 530, 0, "b8f921704919fae007f45bfdecde5fefcfeb0c004fcc6a69b9d35e399405cf36")
                 case "carnivora":
-                    expected = ("itis-carnivora-tsn-crosswalk", 1, 0, 310, 0, "7993503e39609270b14efe5f472d565cdba381c703d0f790513c3e88e60b68bc")
+                    expected = ("itis-carnivora-tsn-crosswalk", 1, 0, 310, 0, "983a47c1a148f9a6f200a06807ae04470a0b6506a47e1fd7c58457a7bc75431f")
                 default:
-                    expected = ("itis-other-mammals-tsn-crosswalk", 4, 1, 5_099, 3, "d41b97b77603ca44d5a153be9489174a1c0c4236591d007e9ceea6b137aa9228")
+                    expected = ("itis-other-mammals-tsn-crosswalk", 4, 1, 5_099, 3, "90e1ae6357c2f08fad63a6329b4a81d0770379738cd8d87acea11c11fc40131f")
                 }
                 let collection = try XCTUnwrap(collections.first { ($0["id"] as? String) == expected.id })
                 XCTAssertEqual(collection["descriptorSha256"] as? String, expected.descriptorSha)

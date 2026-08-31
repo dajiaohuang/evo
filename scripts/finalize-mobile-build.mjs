@@ -126,49 +126,49 @@ const expectedRichItisCollections = {
   'turtles-lepidosaurs': {
     'itis-reptilia-tsn-crosswalk': {
       files: 9, upstreamFiles: 1, records: 12622, upstreamRecords: 655,
-      descriptorSha256: 'ef0a4262e33c482cf05e6bd148d188874a17470926c3475dc09a1734307dab48',
+      descriptorSha256: 'c87810d693fb13c7ead541874025361e4abf36555b6f03532a8131aec4bd673e',
       reptilia: true,
     },
   },
   'crocodylomorphs-birds': {
     'itis-crocodylia-tsn-crosswalk': {
       files: 1, upstreamFiles: 0, records: 27, upstreamRecords: 0,
-      descriptorSha256: 'da73286df329505cd95c5a47162995dd77ac1e328cd75ee83494e18822782a1e',
+      descriptorSha256: '3f7bc19fc8422b5202ca8798a22af78c65ed63f45cdf51bcf1a618d03607624d',
       crocodylia: true,
     },
   },
   perissodactyla: {
     'itis-perissodactyla-tsn-crosswalk': {
       files: 1, upstreamFiles: 0, records: 19, upstreamRecords: 0,
-      descriptorSha256: 'bcba89f8518ae97d49f4221409e690bb474239e470fd1d3bbb9d920dac257dc8',
+      descriptorSha256: '3c7d327c1941e11ff192b3b451d0fa5fb5728fad9236bd4064f99afcd83a73e2',
       mammal: true,
     },
   },
   cetartiodactyla: {
     'itis-cetartiodactyla-tsn-crosswalk': {
       files: 1, upstreamFiles: 0, records: 503, upstreamRecords: 0,
-      descriptorSha256: 'd44e276f5cfdd38f8ba133891aebc4b07f2e8dae280611511b2dcfefea8310d1',
+      descriptorSha256: 'f452207ad017e0b128470650dc4f71490cbe2a637279af6fd9f6785a5b99df8d',
       mammal: true,
     },
   },
   primates: {
     'itis-primates-tsn-crosswalk': {
       files: 1, upstreamFiles: 0, records: 530, upstreamRecords: 0,
-      descriptorSha256: '96dee66ffd47cbf98d61724ad7ea5c271bd247e8996bf59b8413cc50ef99e58f',
+      descriptorSha256: 'b8f921704919fae007f45bfdecde5fefcfeb0c004fcc6a69b9d35e399405cf36',
       mammal: true,
     },
   },
   carnivora: {
     'itis-carnivora-tsn-crosswalk': {
       files: 1, upstreamFiles: 0, records: 310, upstreamRecords: 0,
-      descriptorSha256: '7993503e39609270b14efe5f472d565cdba381c703d0f790513c3e88e60b68bc',
+      descriptorSha256: '983a47c1a148f9a6f200a06807ae04470a0b6506a47e1fd7c58457a7bc75431f',
       mammal: true,
     },
   },
   'other-mammals': {
     'itis-other-mammals-tsn-crosswalk': {
       files: 4, upstreamFiles: 1, records: 5099, upstreamRecords: 3,
-      descriptorSha256: 'd41b97b77603ca44d5a153be9489174a1c0c4236591d007e9ceea6b137aa9228',
+      descriptorSha256: '90e1ae6357c2f08fad63a6329b4a81d0770379738cd8d87acea11c11fc40131f',
       mammal: true,
     },
   },
@@ -240,6 +240,7 @@ for (const [packageId, expectedCollections] of Object.entries(expectedRichItisCo
     if (expected.crocodylia) {
       crocodyliaItisFiles += expected.files + expected.upstreamFiles
       crocodyliaItisRecords += expected.records + expected.upstreamRecords
+    }
     if (expected.mammal) {
       mammalItisFiles += expected.files + expected.upstreamFiles
       mammalItisRecords += expected.records + expected.upstreamRecords
@@ -264,6 +265,7 @@ if (reptiliaItisFiles !== 10 || reptiliaItisRecords !== 13277) {
 }
 if (crocodyliaItisFiles !== 1 || crocodyliaItisRecords !== 27) {
   throw new Error(`Mobile build must stage one Crocodylia ITIS file with 27 records; found ${crocodyliaItisFiles} files and ${crocodyliaItisRecords} records`)
+}
 if (mammalItisFiles !== 9 || mammalItisRecords !== 6464) {
   throw new Error(`Mobile build must stage 9 Mammalia ITIS files and 6464 records; found ${mammalItisFiles} files and ${mammalItisRecords} records`)
 }
