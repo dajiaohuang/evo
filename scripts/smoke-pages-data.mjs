@@ -465,14 +465,103 @@ if (catalogue.resourcePacks?.packageCount !== 7
         }
         lpsnIdentifierRecords += extensionRecords
       }
+    } else if (packageId === 'viruses') {
+      const ictvExtension = extensions.find((candidate) => candidate.id === 'ictv-virus-metadata')
+      if (extensions.length !== 1 || !ictvExtension
+        || ictvExtension.recordType !== 'official-taxonomy-and-virus-metadata-crosswalk'
+        || ictvExtension.provider !== 'ICTV') {
+        failures.push('viruses: pinned ICTV MSL/VMR extension identity is incomplete')
+      } else {
+        const expectedCounts = {
+          acceptedSpecies: 17552, eligible: 17552, accepted: 17552, redirect: 0, ambiguous: 0,
+          unmatched: 0, withheld: 0, officialSpecies: 17554, upstreamOnly: 2,
+          vmrIsolates: 19285, exemplarIsolates: 17554, additionalIsolates: 1731,
+        }
+        for (const [key, expected] of Object.entries(expectedCounts)) {
+          if (ictvExtension.counts?.[key] !== expected) failures.push(`viruses: ICTV ${key} count is ${ictvExtension.counts?.[key]}; expected ${expected}`)
+        }
+        if (JSON.stringify(ictvExtension.upstreamOnlySpecies) !== JSON.stringify(['Boscovirus hypoboscidae', 'Simiispumavirus macfas'])) {
+          failures.push('viruses: current ICTV-only species boundary is incomplete')
+        }
+        let extensionRecords = 0
+        let extensionCompressedBytes = 0
+        let extensionSourceBytes = 0
+        let mappedRecords = 0
+        let upstreamOnlyRecords = 0
+        let isolateRecords = 0
+        const seenColIds = new Set()
+        const seenIctvIds = new Set()
+        const seenIsolateIds = new Set()
+        for (const file of ictvExtension.files) {
+          const label = 'viruses ICTV MSL/VMR shard'
+          releaseUrl(file, label)
+          checkFile(file, label)
+          const compressed = readFileSync(join(dataRoot, file.url))
+          const source = gunzipSync(compressed)
+          if (compressed.byteLength !== file.bytes || source.byteLength !== file.sourceBytes
+            || createHash('sha256').update(source).digest('hex') !== file.sourceSha256) {
+            failures.push('viruses: ICTV MSL/VMR shard bytes or source SHA-256 mismatch')
+          }
+          if (!currentReleaseUrls.has(file.url)) failures.push('viruses: ICTV MSL/VMR shard is absent from the current release inventory')
+          const records = source.toString('utf8').split('\n').filter(Boolean).map((line) => JSON.parse(line))
+          if (records.length !== file.records) failures.push('viruses: ICTV MSL/VMR shard count mismatch')
+          for (const record of records) {
+            if (!/^ICTV\d+$/.test(record.ictvTaxonId ?? '') || seenIctvIds.has(record.ictvTaxonId)
+              || record.ictvTaxonUrl !== `https://ictv.global/id/${record.ictvTaxonId}` || !record.isolates?.length) {
+              failures.push('viruses: ICTV MSL/VMR shard contains an invalid or duplicate taxon')
+              break
+            }
+            seenIctvIds.add(record.ictvTaxonId)
+            if (record.mappingStatus === 'accepted') {
+              if (!record.colId || seenColIds.has(record.colId) || record.mappingBasis !== 'exact-unique-current-species-name-and-ictv-id') {
+                failures.push('viruses: ICTV MSL/VMR shard contains an invalid exact COL mapping')
+                break
+              }
+              seenColIds.add(record.colId)
+              mappedRecords += 1
+            } else if (record.mappingStatus === 'upstream-only' && record.colId === null && record.mappingBasis === 'no-col26.8-accepted-species-record') {
+              upstreamOnlyRecords += 1
+            } else {
+              failures.push('viruses: ICTV MSL/VMR shard contains an unknown mapping partition')
+              break
+            }
+            if (record.isolates.filter((isolate) => isolate.role === 'exemplar').length !== 1) {
+              failures.push(`viruses: ${record.ictvTaxonId} does not have exactly one exemplar isolate`)
+              break
+            }
+            for (const isolate of record.isolates) {
+              if (!/^VMR\d+$/.test(isolate.isolateId ?? '') || seenIsolateIds.has(isolate.isolateId)
+                || isolate.isolateUrl !== `https://ictv.global/id/${isolate.isolateId}`) {
+                failures.push('viruses: ICTV MSL/VMR shard contains an invalid or duplicate isolate')
+                break
+              }
+              seenIsolateIds.add(isolate.isolateId)
+              isolateRecords += 1
+            }
+          }
+          extensionRecords += records.length
+          extensionCompressedBytes += compressed.byteLength
+          extensionSourceBytes += source.byteLength
+        }
+        if (extensionRecords !== ictvExtension.counts.officialSpecies
+          || mappedRecords !== ictvExtension.counts.accepted
+          || upstreamOnlyRecords !== ictvExtension.counts.upstreamOnly
+          || isolateRecords !== ictvExtension.counts.vmrIsolates
+          || extensionCompressedBytes !== ictvExtension.totalCompressedBytes
+          || extensionSourceBytes !== ictvExtension.totalSourceBytes) {
+          failures.push('viruses: ICTV MSL/VMR files do not match extension totals')
+        }
+      }
     } else if (extensions.length) {
       failures.push(`${packageId}: unexpected resource-pack extension`)
     }
     if (!existsSync(join(dataRoot, manifest.download))) failures.push(`${packageId}: nomenclatural resource-pack download missing`)
-    else if (lpsnExtension) {
+    else if (extensions.length) {
       const entries = unzipSync(new Uint8Array(readFileSync(join(dataRoot, manifest.download))))
-      for (const file of lpsnExtension.files) {
-        if (!entries[basename(file.url)]) failures.push(`${packageId}: nomenclatural resource-pack ZIP omits ${basename(file.url)}`)
+      for (const extension of extensions) {
+        for (const file of extension.files) {
+          if (!entries[basename(file.url)]) failures.push(`${packageId}: nomenclatural resource-pack ZIP omits ${basename(file.url)}`)
+        }
       }
     }
     resourcePackRecords += packageRecords

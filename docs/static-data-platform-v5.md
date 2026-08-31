@@ -4,6 +4,8 @@ Evo Atlas publishes one static application and one static scientific-data namesp
 
 ## Canonical and runtime layers
 
+rc60 adds the pinned ICTV `MSL41.v1` and corrected `VMR_MSL41.v1.20260729` extension to the Viruses nomenclatural pack. All 17,552 COL26.8 accepted virus species resolve by exact case-sensitive current name plus the unique ICTV ID shared by MSL and VMR; two additional current ICTV species remain explicit null-COL-ID upstream-only records. The extension retains all 17,554 current species and all 19,285 VMR exemplar/additional isolate rows. Its canonical snapshot, runtime shard, Viruses ZIP, browser offline plan, release inventory and Android/iOS bundle use the same checksummed bytes. rc59 WoRMS, Bacteria/Archaea LPSN and PBDB gzip data remain present. ICTV taxonomy and metadata are not evidence that viruses are cellular life or that a fossil, ecology, morphology, phylogeny or expert-review dossier exists.
+
 rc59 adds one date-pinned WoRMS AphiaID nomenclature collection to the Echinoderms rich package. Its unchanged deterministic gzip separates all 11,891 COL26.8 accepted species into 11,843 exact accepted records, two explicit accepted-name redirects, 37 ambiguous names, zero unmatched names and nine withheld records. The rich-package manifest carries a checksummed collection descriptor; the normal ZIP, browser package/full-atlas offline and release-inventory paths deliver the same bytes to Web, Android and iOS. WoRMS is continuously updated, so this is not an immutable WoRMS release or whole-database redistribution. It does not assert a phylogeny, complete biological history or COL/WoRMS species-concept equivalence. The rc59 build also preserves the Bacteria LPSN extension: 21,570 eligible source-dataset records resolve and 4,827 non-LPSN source records remain withheld.
 
 rc58 adds eight bundled, evidence-anchored interpretive reconstruction WebPs to the canonical media registry. The image bytes contain no embedded text or watermark; application and static-page presentations always pair each image with bilingual AI-assistance and uncertainty notices. Each asset has a byte count and SHA-256, evidence-reference IDs and generation provenance; scientific review remains explicitly absent. Runtime package manifests expose asset URLs, rich-package ZIPs include the same bytes, browser package/full-atlas offline plans cache those URLs, and the release inventory carries them unchanged into Android and iOS. External museum media remain link-only and are never copied into the asset pipeline. The rc57 Archaea LPSN extension remains independently licensed and unchanged.
@@ -13,6 +15,8 @@ rc56 delivers the rc55 source-bound research presets through the runtime protoco
 The Archaea nomenclatural resource pack has one source-specific `extensions[]` entry that keeps all 790 COL26.8 species rows unchanged while adding a deterministic LPSN identifier sidecar. Its canonical crosswalk pins ChecklistBank dataset `316115`, source dataset `2015`, LPSN version `2026-07-26` and retrieval date `2026-08-31`; it stores a SHA-256 for every exact source-record response and one aggregate request-ledger hash. The extension is separately licensed under CC BY-SA 4.0 and links every identifier to its specific LPSN page. It is nomenclatural linkage only, not a species dossier or evidence of ecology, genomes, strains, fossils, media, phylogeny or expert review. Normal builds read the committed snapshot offline; network retrieval is an explicit refresh action.
 
 The pinned snapshot was acquired with `node scripts/fetch-archaea-lpsn-crosswalk.mjs --retrieved-at 2026-08-31`. A later refresh must use an explicit new retrieval date, review the changed mappings and response hashes, and regenerate the resource packs; the normal `data:packages:species` build never contacts ChecklistBank or LPSN.
+
+The Viruses nomenclatural resource pack adds a separate CC BY 4.0 ICTV extension while preserving its original 17,552-row COL26.8 shard. Exact, case-sensitive current-name matching plus the unique ICTV ID shared by MSL41.v1 and VMR resolves all 17,552 eligible COL rows with zero redirects, ambiguity, unmatched rows or withholding. The sidecar also retains the two additional current ICTV species that have no COL26.8 accepted ID, so all 17,554 current ICTV species and all 19,285 VMR isolate rows reach the runtime. The corrected VMR is the 2026-07-29 workbook; the source ledger pins both official workbooks by URL, bytes, SHA-256, Zenodo MD5, ETag, Last-Modified and DOI. See `docs/virus-ictv-sidecar.md`.
 
 rc54 PBDB status supersedes the older query totals later in this section. The 24 schema-v2 ledgers now contain 251 complete subqueries across 413 pages, 1,007,973 overlapping returned rows, 595,492 package-unique occurrence IDs and 100,425 deterministic retained details. Another 141 concepts remain withheld because they fail pinned name, rank, complete-lineage, concept-review, applicability or fixed size boundaries. Of 147 formerly stale ontology-expansion mappings, 103 passed exact accepted-name, normalized-rank and compatible-lineage checks; the other 44 retain explicit reasons and any lineage-conflicting candidates are not published as resolved IDs.
 
@@ -43,13 +47,14 @@ data/releases/<datasetVersion>/catalogue/hierarchy/children/parent-<hash-prefix>
 data/releases/<datasetVersion>/catalogue/resource-packs/<package>/manifest.json
 data/releases/<datasetVersion>/catalogue/resource-packs/<package>/species-<shard>.jsonl.gz
 data/releases/<datasetVersion>/catalogue/resource-packs/archaea/lpsn-000.jsonl.gz
+data/releases/<datasetVersion>/catalogue/resource-packs/viruses/ictv-000.jsonl.gz
 data/releases/<datasetVersion>/catalogue/resource-packs/sources.json.gz
 data/releases/<datasetVersion>/downloads/<package>-<version>.zip
 ```
 
 The browser fetches these files through `src/data-client/staticDataClient.ts`. Package manifests are checksum-verified like payloads, and their `version` must equal the bootstrap `datasetVersion`. On a checksum mismatch the client removes the URL from browser caches and performs one network refetch before failing. Versioned URLs and memory-cache keys prevent release mixing.
 
-Resource-pack extension files are separate from `manifest.files`, so they cannot alter accepted-species shard counts. The runtime builder copies their source bytes unchanged, adds release URLs, includes them in the owning ZIP and release inventory, and therefore supplies the same checksummed bytes to Web offline storage and the Android/iOS full-data bundle. The catalogue client loads the Archaea LPSN extension lazily and independently of the species shard.
+Resource-pack extension files are separate from `manifest.files`, so they cannot alter accepted-species shard counts. The runtime builder copies their source bytes unchanged, adds release URLs, includes them in the owning ZIP and release inventory, and therefore supplies the same checksummed bytes to Web offline storage and the Android/iOS full-data bundle. The catalogue client loads the Archaea LPSN and Viruses ICTV extensions lazily and independently of their species shards.
 
 ## Paleogeography boundary
 
@@ -67,7 +72,7 @@ The precached Core search index contains navigation entities, package names, per
 
 The Data page can explicitly save one package or all current packages through the Cache API. This package-only action is distinct from saving the complete Atlas release inventory. Workbox runtime-cache names include the dataset version. Service-worker activation removes stale runtime and explicit-package cache generations, quota errors are purgeable, and clearing offline data still deletes every Evo runtime-data generation plus the in-memory cache.
 
-Deployments fetch the published release inventory before building and retain the current plus two prior version directories. `current.json` moves the active pointer while `releases.json` and per-release file inventories keep retained snapshot URLs independently addressable.
+Deployments fetch the published release inventory before building and attempt to retain at most two prior version directories, subject to the configured retention byte budget. `current.json` moves the active pointer; only versions currently listed in `releases.json` are guaranteed reachable, and each listed per-release file inventory keeps that retained snapshot independently addressable. A prior release that cannot fit the history-fetch budget is omitted rather than partially copied, fabricated or rebuilt.
 
 ## Release gates
 

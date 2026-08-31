@@ -159,6 +159,8 @@ public class AppInstrumentedTest {
         JSONObject packManifests = resourcePacks.getJSONObject("manifests");
         int resourcePackRecords = 0;
         int lpsnIdentifierRecords = 0;
+        int ictvSpeciesRecords = 0;
+        int ictvIsolateRecords = 0;
         for (String packageId : new String[]{"archaea", "bacteria", "fungi", "other-animals", "other-plants", "protists-chromists", "viruses"}) {
             JSONObject manifestDescriptor = packManifests.getJSONObject(packageId);
             JSONObject inventoryRecord = findInventoryRecord(files, manifestDescriptor.getString("url"));
@@ -197,13 +199,45 @@ public class AppInstrumentedTest {
                     verifyAssetRecord(context, extensionInventoryRecord);
                     lpsnIdentifierRecords += extensionFile.getInt("records");
                 }
+            } else if (packageId.equals("viruses")) {
+                JSONArray extensions = pack.getJSONArray("extensions");
+                assertEquals(1, extensions.length());
+                JSONObject ictv = extensions.getJSONObject(0);
+                assertEquals("ictv-virus-metadata", ictv.getString("id"));
+                assertEquals("ICTV", ictv.getString("provider"));
+                assertEquals("CC-BY-4.0", ictv.getJSONObject("source").getString("license"));
+                JSONObject counts = ictv.getJSONObject("counts");
+                assertEquals(17552, counts.getInt("accepted"));
+                assertEquals(0, counts.getInt("redirect"));
+                assertEquals(0, counts.getInt("ambiguous"));
+                assertEquals(0, counts.getInt("unmatched"));
+                assertEquals(0, counts.getInt("withheld"));
+                assertEquals(17554, counts.getInt("officialSpecies"));
+                assertEquals(2, counts.getInt("upstreamOnly"));
+                assertEquals(19285, counts.getInt("vmrIsolates"));
+                JSONArray extensionFiles = ictv.getJSONArray("files");
+                assertEquals(1, extensionFiles.length());
+                for (int fileIndex = 0; fileIndex < extensionFiles.length(); fileIndex += 1) {
+                    JSONObject extensionFile = extensionFiles.getJSONObject(fileIndex);
+                    assertEquals(1346739, extensionFile.getInt("bytes"));
+                    assertEquals("99253ddc92392bdb0a03465eda99e9c2ee3d6660ac690d3b52cb8c9caf3a1443", extensionFile.getString("sha256"));
+                    JSONObject extensionInventoryRecord = findInventoryRecord(files, extensionFile.getString("url"));
+                    assertNotNull("ICTV extension shard missing from release inventory", extensionInventoryRecord);
+                    assertEquals(extensionFile.getInt("bytes"), extensionInventoryRecord.getInt("bytes"));
+                    assertEquals(extensionFile.getString("sha256"), extensionInventoryRecord.getString("sha256"));
+                    verifyAssetRecord(context, extensionInventoryRecord);
+                    ictvSpeciesRecords += extensionFile.getInt("records");
+                }
+                ictvIsolateRecords += counts.getInt("vmrIsolates");
             } else {
-                assertTrue("only Archaea and Bacteria may carry the LPSN extension", !pack.has("extensions"));
+                assertTrue("only Archaea, Bacteria and Viruses may carry resource-pack extensions", !pack.has("extensions"));
             }
             resourcePackRecords += packageRecords;
         }
         assertEquals(363160, resourcePackRecords);
         assertEquals(22360, lpsnIdentifierRecords);
+        assertEquals(17554, ictvSpeciesRecords);
+        assertEquals(19285, ictvIsolateRecords);
     }
 
     private JSONObject findInventoryRecord(JSONArray files, String url) throws Exception {

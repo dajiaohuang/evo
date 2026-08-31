@@ -175,6 +175,19 @@ test('switching Archaea records never retains the previous LPSN URL', async ({ p
   await expect(page.locator('.catalogue-lpsn-card a[href="https://lpsn.dsmz.de/taxon/775728"]')).toBeVisible()
 })
 
+test('Virus records expose the exact pinned ICTV taxonomy and exemplar metadata', async ({ page }) => {
+  await page.addInitScript(() => window.localStorage.setItem('evo-atlas-language', 'en'))
+  await page.goto('./#/registry?release=COL26.8&id=__P2cHTzzJfvA8KpCMJQq0')
+
+  const ictv = page.locator('.catalogue-lpsn-card', { hasText: 'Current ICTV taxonomy and virus metadata' })
+  await expect(ictv).toContainText('MSL41.v1 · VMR 2026-07-29 · ICTV201907903')
+  await expect(ictv).toContainText('All 17,554 current ICTV species ship with the pack; 2 do not yet have a COL26.8 accepted-species ID.')
+  await expect(ictv).toContainText('Exemplar virus: Vibrio phage 1.188.A._10N.286.51.A6')
+  await expect(ictv.getByRole('link', { name: /Open the specific ICTV taxon record/ })).toHaveAttribute('href', 'https://ictv.global/id/ICTV201907903')
+  await expect(ictv.getByRole('link', { name: /GenBank/ })).toHaveAttribute('href', 'https://www.ncbi.nlm.nih.gov/nuccore/MG592554')
+  await expect(ictv.getByRole('link', { name: /CC BY 4.0/ })).toHaveAttribute('href', 'https://creativecommons.org/licenses/by/4.0/')
+})
+
 test('global search distinguishes registry verification failures from no matches', async ({ browser, baseURL }) => {
   const context = await browser.newContext({ baseURL, locale: 'en-US', serviceWorkers: 'block' })
   const page = await context.newPage()
@@ -322,7 +335,7 @@ test('Explorer restores state and removes the unsupported global model parameter
   await expect(page.getByRole('button', { name: 'points' })).toHaveClass(/is-active/)
   await expect(page.getByRole('button', { name: 'modern' })).toHaveClass(/is-active/)
   await expect(page.getByText('Shared time window 20–5 Ma')).toBeVisible()
-  await expect.poll(() => page.url()).toContain('dataset=2026.08-static-v5-rc59')
+  await expect.poll(() => page.url()).toContain('dataset=2026.08-static-v5-rc60')
   for (const fragment of ['older=20', 'younger=5', 'lat=10.000', 'lng=20.000', 'zoom=3.00', 'treeMode=fossil-range']) {
     expect(page.url()).toContain(fragment)
   }
@@ -335,7 +348,7 @@ test('Explorer requires confirmation before replacing a mismatched dataset versi
   await expect(page.getByRole('alertdialog')).toContainText('2025.01-old')
   expect(page.url()).toContain('dataset=2025.01-old')
   await page.getByRole('button', { name: 'Use current dataset' }).click()
-  await expect.poll(() => page.url()).toContain('dataset=2026.08-static-v5-rc59')
+  await expect.poll(() => page.url()).toContain('dataset=2026.08-static-v5-rc60')
 })
 
 test('a service-worker upgrade removes dataset A caches and dataset B remains coherent', async ({ page }) => {
@@ -361,7 +374,7 @@ test('a service-worker upgrade removes dataset A caches and dataset B remains co
   await expect(page.locator('.ownership-row--catalogue-only')).toHaveCount(1)
   await expect(page.locator('.ownership-summary')).toContainText('2,183,133')
   await expect(page.locator('.ownership-summary')).toContainText('7nomenclatural packs')
-  await expect(page.getByRole('link', { name: 'Download ZIP' }).first()).toHaveAttribute('href', /\/(?:fungi|other-animals|protists-chromists|bacteria|viruses|archaea|other-plants)-2026\.08-static-v5-rc59\.zip$/)
+  await expect(page.getByRole('link', { name: 'Download ZIP' }).first()).toHaveAttribute('href', /\/(?:fungi|other-animals|protists-chromists|bacteria|viruses|archaea|other-plants)-2026\.08-static-v5-rc60\.zip$/)
   await expect(page.getByRole('button', { name: 'Save offline' }).first()).toBeVisible()
   await expect(page.locator('.ownership-proof')).toContainText('0 unmatched')
   await expect(page.getByRole('button', { name: /Save complete Atlas \(\d+ MiB\)/ })).toBeVisible()
@@ -376,7 +389,7 @@ test('a service-worker upgrade removes dataset A caches and dataset B remains co
     const versions = await Promise.all(manifestFiles.map((file) => fetch(`/evo/data/${file.url}`).then((response) => response.json()).then((manifest) => manifest.version as string)))
     return { datasetVersion: current.datasetVersion, releaseBase: current.releaseBase, urls: manifestFiles.map((file) => file.url), versions, retained: history.releases.map((entry) => entry.datasetVersion) }
   })
-  expect(releaseState.releaseBase).toBe('releases/2026.08-static-v5-rc59/')
+  expect(releaseState.releaseBase).toBe('releases/2026.08-static-v5-rc60/')
   expect(releaseState.urls.every((url) => url.startsWith(releaseState.releaseBase))).toBe(true)
   expect(releaseState.versions.every((version) => version === releaseState.datasetVersion)).toBe(true)
   expect(releaseState.retained[0]).toBe(releaseState.datasetVersion)

@@ -424,11 +424,11 @@ export async function loadCatalogueResourcePack(packageId: string): Promise<{
 }
 
 export async function loadCatalogueLpsnIdentifiers(): Promise<{
-  extension: import('./types').CatalogueResourcePackExtension
+  extension: import('./types').CatalogueLpsnResourcePackExtension
   records: import('./types').CatalogueLpsnIdentifierRecord[]
 }> {
   const manifest = await loadCatalogueResourcePackManifest('archaea')
-  const extension = manifest.extensions?.find((candidate) => candidate.id === 'lpsn-identifiers')
+  const extension = manifest.extensions?.find((candidate): candidate is import('./types').CatalogueLpsnResourcePackExtension => candidate.id === 'lpsn-identifiers')
   if (!extension
     || extension.provider !== 'LPSN'
     || extension.recordType !== 'external-name-identifier-crosswalk'
@@ -451,6 +451,44 @@ export async function loadCatalogueLpsnIdentifiers(): Promise<{
 
 export async function loadCatalogueLpsnIdentifier(colId: string): Promise<import('./types').CatalogueLpsnIdentifierRecord | null> {
   const { records } = await loadCatalogueLpsnIdentifiers()
+  return records.find((record) => record.colId === colId) ?? null
+}
+
+export async function loadCatalogueIctvVirusMetadata(): Promise<{
+  extension: import('./types').CatalogueIctvResourcePackExtension
+  records: import('./types').CatalogueIctvVirusRecord[]
+}> {
+  const manifest = await loadCatalogueResourcePackManifest('viruses')
+  const extension = manifest.extensions?.find((candidate): candidate is import('./types').CatalogueIctvResourcePackExtension => candidate.id === 'ictv-virus-metadata')
+  if (!extension
+    || extension.provider !== 'ICTV'
+    || extension.recordType !== 'official-taxonomy-and-virus-metadata-crosswalk'
+    || extension.counts.acceptedSpecies !== manifest.acceptedSpeciesCount
+    || extension.counts.accepted !== manifest.acceptedSpeciesCount
+    || extension.counts.redirect !== 0
+    || extension.counts.ambiguous !== 0
+    || extension.counts.unmatched !== 0
+    || extension.counts.withheld !== 0
+    || extension.counts.officialSpecies !== manifest.acceptedSpeciesCount + extension.counts.upstreamOnly) {
+    throw new Error('Viruses ICTV MSL/VMR extension does not match the current nomenclatural pack')
+  }
+  const shards = await Promise.all(extension.files.map((file) => loadRuntimeFile<import('./types').CatalogueIctvVirusRecord[]>(file)))
+  for (const [index, records] of shards.entries()) {
+    if (records.length !== extension.files[index].records) {
+      throw new Error(`Viruses ICTV MSL/VMR shard ${index + 1} does not match its published record count`)
+    }
+  }
+  const records = shards.flat()
+  if (records.length !== extension.counts.officialSpecies
+    || records.filter((record) => record.mappingStatus === 'accepted').length !== extension.counts.accepted
+    || records.filter((record) => record.mappingStatus === 'upstream-only').length !== extension.counts.upstreamOnly) {
+    throw new Error('Viruses ICTV MSL/VMR records do not match the published mapping counts')
+  }
+  return { extension, records }
+}
+
+export async function loadCatalogueIctvVirusRecord(colId: string): Promise<import('./types').CatalogueIctvVirusRecord | null> {
+  const { records } = await loadCatalogueIctvVirusMetadata()
   return records.find((record) => record.colId === colId) ?? null
 }
 

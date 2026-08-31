@@ -120,6 +120,8 @@ final class AppConfigurationTests: XCTestCase {
         let packManifests = try XCTUnwrap(resourcePacks["manifests"] as? [String: [String: Any]])
         var resourcePackRecords = 0
         var lpsnIdentifierRecords = 0
+        var ictvSpeciesRecords = 0
+        var ictvIsolateRecords = 0
         for packageId in ["archaea", "bacteria", "fungi", "other-animals", "other-plants", "protists-chromists", "viruses"] {
             let manifestDescriptor = try XCTUnwrap(packManifests[packageId])
             let manifestPath = try XCTUnwrap(manifestDescriptor["url"] as? String)
@@ -155,13 +157,44 @@ final class AppConfigurationTests: XCTestCase {
                     try verifyBundled(record: extensionInventoryRecord, below: dataRoot)
                     lpsnIdentifierRecords += try XCTUnwrap(extensionFile["records"] as? Int)
                 }
+            } else if packageId == "viruses" {
+                let extensions = try XCTUnwrap(pack["extensions"] as? [[String: Any]])
+                XCTAssertEqual(extensions.count, 1)
+                let ictv = try XCTUnwrap(extensions.first)
+                XCTAssertEqual(ictv["id"] as? String, "ictv-virus-metadata")
+                XCTAssertEqual(ictv["provider"] as? String, "ICTV")
+                XCTAssertEqual((ictv["source"] as? [String: Any])?["license"] as? String, "CC-BY-4.0")
+                let counts = try XCTUnwrap(ictv["counts"] as? [String: Any])
+                XCTAssertEqual(counts["accepted"] as? Int, 17_552)
+                XCTAssertEqual(counts["redirect"] as? Int, 0)
+                XCTAssertEqual(counts["ambiguous"] as? Int, 0)
+                XCTAssertEqual(counts["unmatched"] as? Int, 0)
+                XCTAssertEqual(counts["withheld"] as? Int, 0)
+                XCTAssertEqual(counts["officialSpecies"] as? Int, 17_554)
+                XCTAssertEqual(counts["upstreamOnly"] as? Int, 2)
+                XCTAssertEqual(counts["vmrIsolates"] as? Int, 19_285)
+                let extensionFiles = try XCTUnwrap(ictv["files"] as? [[String: Any]])
+                XCTAssertEqual(extensionFiles.count, 1)
+                for extensionFile in extensionFiles {
+                    XCTAssertEqual(extensionFile["bytes"] as? Int, 1_346_739)
+                    XCTAssertEqual(extensionFile["sha256"] as? String, "99253ddc92392bdb0a03465eda99e9c2ee3d6660ac690d3b52cb8c9caf3a1443")
+                    let extensionPath = try XCTUnwrap(extensionFile["url"] as? String)
+                    let extensionInventoryRecord = try XCTUnwrap(files.first { ($0["url"] as? String) == extensionPath }, "ICTV extension shard missing from release inventory")
+                    XCTAssertEqual(extensionFile["bytes"] as? Int, extensionInventoryRecord["bytes"] as? Int)
+                    XCTAssertEqual(extensionFile["sha256"] as? String, extensionInventoryRecord["sha256"] as? String)
+                    try verifyBundled(record: extensionInventoryRecord, below: dataRoot)
+                    ictvSpeciesRecords += try XCTUnwrap(extensionFile["records"] as? Int)
+                }
+                ictvIsolateRecords += try XCTUnwrap(counts["vmrIsolates"] as? Int)
             } else {
-                XCTAssertNil(pack["extensions"], "Only Archaea and Bacteria may carry the LPSN extension")
+                XCTAssertNil(pack["extensions"], "Only Archaea, Bacteria and Viruses may carry resource-pack extensions")
             }
             resourcePackRecords += packageRecords
         }
         XCTAssertEqual(resourcePackRecords, 363_160)
         XCTAssertEqual(lpsnIdentifierRecords, 22_360)
+        XCTAssertEqual(ictvSpeciesRecords, 17_554)
+        XCTAssertEqual(ictvIsolateRecords, 19_285)
     }
 
     private func verifyBundled(record: [String: Any], below dataRoot: URL) throws {

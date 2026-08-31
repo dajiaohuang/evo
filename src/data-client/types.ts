@@ -384,6 +384,35 @@ export interface CatalogueLpsnIdentifierRecord {
   status: 'resolved'
 }
 
+export interface CatalogueIctvVirusIsolate {
+  isolateId: string
+  isolateUrl: string
+  role: 'exemplar' | 'additional'
+  virusNames: string | null
+  abbreviations: string | null
+  isolateDesignation: string | null
+  genbankAccessions: string | null
+  accessionsUrl: string | null
+  genomeCoverage: string
+  genome: string
+  hostSource: string
+}
+
+export interface CatalogueIctvVirusRecord {
+  colId: string | null
+  scientificName: string
+  mappingStatus: 'accepted' | 'upstream-only'
+  mappingBasis: 'exact-unique-current-species-name-and-ictv-id' | 'no-col26.8-accepted-species-record'
+  ictvTaxonId: string
+  ictvTaxonUrl: string
+  taxonomy: Record<'realm' | 'subrealm' | 'kingdom' | 'subkingdom' | 'phylum' | 'subphylum' | 'class' | 'subclass' | 'order' | 'suborder' | 'family' | 'subfamily' | 'genus' | 'subgenus', string | null>
+  genome: string
+  lastChange: string
+  mslOfLastChange: number
+  proposalForLastChange: string | null
+  isolates: CatalogueIctvVirusIsolate[]
+}
+
 export interface CatalogueResourcePackPayloadFile extends RuntimeFile {
   path: string
   records: number
@@ -393,7 +422,7 @@ export interface CatalogueResourcePackPayloadFile extends RuntimeFile {
   sourceSha256: string
 }
 
-export interface CatalogueResourcePackExtension {
+export interface CatalogueLpsnResourcePackExtension {
   id: 'lpsn-identifiers'
   recordType: 'external-name-identifier-crosswalk'
   provider: 'LPSN'
@@ -427,6 +456,72 @@ export interface CatalogueResourcePackExtension {
   totalSourceBytes: number
   limitations: string[]
 }
+
+export interface CatalogueIctvResourcePackExtension {
+  id: 'ictv-virus-metadata'
+  recordType: 'official-taxonomy-and-virus-metadata-crosswalk'
+  provider: 'ICTV'
+  source: {
+    catalogueRelease: string
+    catalogueReleaseDate: string
+    checklistBankDatasetKey: number
+    sourceDatasetKey: number
+    retrievedAt: string
+    informationUrl: string
+    citationUrl: string
+    license: 'CC-BY-4.0'
+    licenseUrl: string
+    citation: string
+    files: Array<{
+      role: string
+      fileName: string
+      version: string
+      releaseDate: string
+      url: string
+      landingPage: string
+      doi: string
+      bytes: number
+      sha256: string
+      zenodoMd5: string
+      lastModified: string
+      etag: string
+    }>
+    canonicalCrosswalkPath: string
+    canonicalCrosswalkSha256: string
+    canonicalCrosswalkBytes: number
+    canonicalCrosswalkSourceSha256: string
+    canonicalCrosswalkSourceBytes: number
+    fileIntegrity: {
+      algorithm: 'sha256'
+      officialFileLedgerBytes: number
+      officialFileLedgerSha256: string
+    }
+  }
+  eligibility: string
+  matching: Record<string, string>
+  counts: {
+    acceptedSpecies: number
+    eligible: number
+    accepted: number
+    redirect: number
+    ambiguous: number
+    unmatched: number
+    withheld: number
+    officialSpecies: number
+    upstreamOnly: number
+    vmrIsolates: number
+    exemplarIsolates: number
+    additionalIsolates: number
+  }
+  upstreamOnlySpecies: string[]
+  fields: string[]
+  files: CatalogueResourcePackPayloadFile[]
+  totalCompressedBytes: number
+  totalSourceBytes: number
+  limitations: string[]
+}
+
+export type CatalogueResourcePackExtension = CatalogueLpsnResourcePackExtension | CatalogueIctvResourcePackExtension
 
 export interface CatalogueResourcePackManifest {
   schemaVersion: 1

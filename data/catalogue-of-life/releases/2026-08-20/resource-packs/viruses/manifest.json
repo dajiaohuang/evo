@@ -45,5 +45,132 @@
   ],
   "totalCompressedBytes": 758880,
   "totalSourceBytes": 3317764,
-  "evidenceBoundary": "This package preserves official COL26.8 nomenclatural and placement fields only; it does not assert an Evo Atlas dossier, biological evidence, media, fossils, ecology, translation, or expert review."
+  "evidenceBoundary": "This package preserves official COL26.8 nomenclatural and placement fields only; it does not assert an Evo Atlas dossier, biological evidence, media, fossils, ecology, translation, or expert review.",
+  "extensions": [
+    {
+      "id": "ictv-virus-metadata",
+      "recordType": "official-taxonomy-and-virus-metadata-crosswalk",
+      "provider": "ICTV",
+      "source": {
+        "catalogueRelease": "COL26.8",
+        "catalogueReleaseDate": "2026-08-20",
+        "checklistBankDatasetKey": 316115,
+        "sourceDatasetKey": 1014,
+        "retrievedAt": "2026-08-31",
+        "informationUrl": "https://ictv.global/taxonomy",
+        "citationUrl": "https://ictv.global/faq/cite",
+        "license": "CC-BY-4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "citation": "International Committee on Taxonomy of Viruses (ICTV), Master Species List MSL41.v1 and Virus Metadata Resource VMR_MSL41.v1.20260729.",
+        "files": [
+          {
+            "role": "official-current-virus-taxonomy",
+            "fileName": "ICTV_Master_Species_List_2025_MSL41.v1.xlsx",
+            "version": "MSL41.v1",
+            "releaseDate": "2026-03-20",
+            "url": "https://ictv.global/sites/default/files/MSL/ICTV_Master_Species_List_2025_MSL41.v1.xlsx",
+            "landingPage": "https://ictv.global/msl",
+            "doi": "10.5281/zenodo.19154110",
+            "bytes": 1803176,
+            "sha256": "9d262d7864f1f619445a897ae568718ed15b1309c8f0c157a12fd7fb9fd07801",
+            "zenodoMd5": "b86b2ea2a0fc310dfad3ea00ee707474",
+            "lastModified": "2026-03-21T21:43:33Z",
+            "etag": "\"1b83a8-64d8fb18185f3\""
+          },
+          {
+            "role": "official-current-virus-exemplar-metadata",
+            "fileName": "VMR_MSL41.v1.20260729.xlsx",
+            "version": "MSL41.v1.20260729",
+            "releaseDate": "2026-07-29",
+            "url": "https://ictv.global/sites/default/files/VMR/VMR_MSL41.v1.20260729.xlsx",
+            "landingPage": "https://ictv.global/vmr",
+            "doi": "10.5281/zenodo.21694279",
+            "bytes": 3879426,
+            "sha256": "b79b5d82a1b3b8e9dd5e19afe8fe1a8f441267474918a7cefa8ae4913adf45bb",
+            "zenodoMd5": "0cbe5dade3aeb494ca79d97854ee8580",
+            "lastModified": "2026-07-29T23:59:49Z",
+            "etag": "\"3b3202-657c8c03346b9\""
+          }
+        ],
+        "canonicalCrosswalkPath": "data/sources/ictv-virus-crosswalk-col26.8-msl41.v1.json.gz",
+        "canonicalCrosswalkSha256": "398c64156bae1f5b9ad3f64545e1e776122f009a14e4c76ac5d0dec449f5a74a",
+        "canonicalCrosswalkBytes": 1353125,
+        "canonicalCrosswalkSourceSha256": "281286a1900496315686f62b5aba5c043846d8b547080dca9e88eb1b83d5e504",
+        "canonicalCrosswalkSourceBytes": 19263768,
+        "fileIntegrity": {
+          "algorithm": "sha256",
+          "officialFileLedgerBytes": 1038,
+          "officialFileLedgerSha256": "d3f4b496e75e4150538a8284b2e957b80f91eb67c284b6da776b7a582a15f66a",
+          "colSpeciesShard": {
+            "path": "data/catalogue-of-life/releases/2026-08-20/resource-packs/viruses/species-000.jsonl.gz",
+            "bytes": 758880,
+            "sha256": "33ac321b49180529dc97ed5c44bda4c65298b48fde0097f04f23e7c5f3d7ae21",
+            "sourceBytes": 3317764,
+            "sourceSha256": "fe44bd88c8d618101fc197edff90936535f4fd7606489d3a6b3430133d9174ea"
+          }
+        }
+      },
+      "eligibility": "sourceDatasetId=1014 for all 17,552 accepted species in the COL26.8 Viruses pack",
+      "matching": {
+        "eligiblePredicate": "COL26.8 rank=species AND status=accepted AND sourceDatasetId=1014",
+        "acceptedPredicate": "one exact case-sensitive scientificName match to current MSL41.v1, with one unique ICTV_ID shared by MSL and VMR",
+        "redirectPredicate": "not used; no historical-name or synonym redirect is inferred",
+        "ambiguousPredicate": "more than one exact current MSL row or conflicting ICTV IDs",
+        "unmatchedPredicate": "no exact current MSL41.v1 species-name match",
+        "withheldPredicate": "source sector is not ICTV MSL or source workbook identity/integrity cannot be proved",
+        "normalization": "none"
+      },
+      "counts": {
+        "acceptedSpecies": 17552,
+        "eligible": 17552,
+        "accepted": 17552,
+        "redirect": 0,
+        "ambiguous": 0,
+        "unmatched": 0,
+        "withheld": 0,
+        "officialSpecies": 17554,
+        "upstreamOnly": 2,
+        "vmrIsolates": 19285,
+        "exemplarIsolates": 17554,
+        "additionalIsolates": 1731
+      },
+      "upstreamOnlySpecies": [
+        "Boscovirus hypoboscidae",
+        "Simiispumavirus macfas"
+      ],
+      "fields": [
+        "colId",
+        "scientificName",
+        "mappingStatus",
+        "mappingBasis",
+        "ictvTaxonId",
+        "ictvTaxonUrl",
+        "taxonomy",
+        "genome",
+        "lastChange",
+        "mslOfLastChange",
+        "proposalForLastChange",
+        "isolates"
+      ],
+      "files": [
+        {
+          "path": "viruses/ictv-000.jsonl.gz",
+          "records": 17554,
+          "bytes": 1346739,
+          "sourceBytes": 19260678,
+          "sha256": "99253ddc92392bdb0a03465eda99e9c2ee3d6660ac690d3b52cb8c9caf3a1443",
+          "sourceSha256": "0ead1e4d27bf1a1d15189db899bc1c89edb6486aedc69fc5fb49708a1db7b1ca",
+          "encoding": "gzip",
+          "mediaType": "application/x-ndjson"
+        }
+      ],
+      "totalCompressedBytes": 1346739,
+      "totalSourceBytes": 19260678,
+      "limitations": [
+        "The COL26.8 Viruses pack has 17,552 accepted species; current ICTV MSL41.v1 has 17,554. The two ICTV-only records are retained explicitly and are not assigned invented COL IDs.",
+        "Mappings require an exact, unique, case-sensitive current species name plus a unique ICTV ID shared by the pinned MSL and VMR; no normalization, fuzzy matching, synonym inference, or historical redirect is used.",
+        "VMR rows identify official exemplar and additional isolates. They do not assert that accessions were independently revalidated by Evo Atlas or that virus species are biological organisms in the cellular-life sense."
+      ]
+    }
+  ]
 }
