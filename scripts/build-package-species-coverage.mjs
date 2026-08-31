@@ -5,6 +5,7 @@ import { fileURLToPath, pathToFileURL } from 'node:url'
 import { createGunzip } from 'node:zlib'
 import { createInterface } from 'node:readline'
 import { deterministicGzip } from './archive-determinism.mjs'
+import { buildBacteriaLpsnSidecar } from './build-bacteria-lpsn-sidecar.mjs'
 
 const SCRIPT_PATH = fileURLToPath(import.meta.url)
 const REPOSITORY_ROOT = resolve(dirname(SCRIPT_PATH), '..')
@@ -13,6 +14,7 @@ const DEFAULT_PACKAGE_DEFINITIONS = join(REPOSITORY_ROOT, 'scripts', 'package-de
 const DEFAULT_OUTPUT = join(REPOSITORY_ROOT, 'data', 'registry', 'package-species-coverage.json')
 const DEFAULT_RESOURCE_PACKS_ROOT = join(REPOSITORY_ROOT, 'data', 'catalogue-of-life', 'releases', '2026-08-20', 'resource-packs')
 const DEFAULT_ARCHAEA_LPSN_CROSSWALK = join(REPOSITORY_ROOT, 'data', 'sources', 'archaea-lpsn-crosswalk-col26.8.json')
+const DEFAULT_BACTERIA_LPSN_CROSSWALK = join(REPOSITORY_ROOT, 'data', 'sources', 'bacteria-lpsn-crosswalk-col26.8.json.gz')
 const RESOURCE_PACK_SOURCE_LIMIT = 6 * 1024 * 1024
 const ARCHAEA_LPSN_FIELDS = ['colId', 'lpsnId', 'lpsnUrl', 'mappingBasis', 'status']
 
@@ -124,6 +126,7 @@ function parseArgs(argv) {
     output: DEFAULT_OUTPUT,
     resourcePacksRoot: DEFAULT_RESOURCE_PACKS_ROOT,
     archaeaLpsnCrosswalk: DEFAULT_ARCHAEA_LPSN_CROSSWALK,
+    bacteriaLpsnCrosswalk: DEFAULT_BACTERIA_LPSN_CROSSWALK,
   }
   for (let index = 0; index < argv.length; index += 1) {
     const value = argv[index]
@@ -132,6 +135,7 @@ function parseArgs(argv) {
     else if (value === '--output') options.output = resolve(argv[++index])
     else if (value === '--resource-packs-root') options.resourcePacksRoot = resolve(argv[++index])
     else if (value === '--archaea-lpsn-crosswalk') options.archaeaLpsnCrosswalk = resolve(argv[++index])
+    else if (value === '--bacteria-lpsn-crosswalk') options.bacteriaLpsnCrosswalk = resolve(argv[++index])
     else if (value === '--help') options.help = true
     else throw new Error(`Unknown argument: ${value}`)
   }
@@ -148,6 +152,7 @@ function usage() {
     '  --output <path>               Compact routing manifest output',
     '  --resource-packs-root <path>  Deterministic nomenclatural resource packs',
     '  --archaea-lpsn-crosswalk <path>  Pinned COL26.8-to-LPSN identifier snapshot',
+    '  --bacteria-lpsn-crosswalk <path>  Pinned COL26.8 Bacteria-to-LPSN identifier snapshot',
   ].join('\n')
 }
 
@@ -567,6 +572,10 @@ async function main() {
     resourcePackRecords,
     packageCounts,
     archaeaLpsnCrosswalk,
+  })
+  buildBacteriaLpsnSidecar({
+    resourcePacksRoot: options.resourcePacksRoot,
+    crosswalkPath: options.bacteriaLpsnCrosswalk,
   })
 
   const routeByOwnerId = new Map(routes.map((route) => [route.packageId, route]))

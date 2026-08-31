@@ -1,6 +1,6 @@
 import { createHash } from 'node:crypto'
 import { existsSync, readFileSync } from 'node:fs'
-import { join } from 'node:path'
+import { basename, join } from 'node:path'
 import { gunzipSync } from 'node:zlib'
 import { unzipSync } from 'fflate'
 import { rootDir } from './data-lib.mjs'
@@ -316,6 +316,16 @@ checkFile(catalogue.sourceChecklists, 'Catalogue of Life source checklists')
 const catalogueSources = readJson(catalogue.sourceChecklists.url)
 const catalogueSourceIds = new Set(catalogueSources.map((source) => String(source.datasetId)))
 const expectedResourcePackIds = ['archaea', 'bacteria', 'fungi', 'other-animals', 'other-plants', 'protists-chromists', 'viruses']
+const expectedLpsnExtensions = {
+  archaea: {
+    counts: { eligible: 790, resolved: 790, withheld: 0 },
+    withheldByReason: {},
+  },
+  bacteria: {
+    counts: { acceptedSpecies: 26397, eligible: 21570, resolved: 21570, withheld: 4827 },
+    withheldByReason: { sourceDatasetNotLpsn: 4827, missingSourceDatasetId: 0, sourceRecordNotLpsn: 0 },
+  },
+}
 if (catalogue.resourcePacks?.packageCount !== 7
   || catalogue.resourcePacks.acceptedSpeciesCount !== 363160
   || current.catalogue.nomenclaturalResourcePacks !== 7
@@ -357,37 +367,86 @@ if (catalogue.resourcePacks?.packageCount !== 7
       failures.push(`${packageId}: nomenclatural resource-pack total mismatch`)
     }
     const extensions = manifest.extensions ?? []
-    if (packageId === 'archaea') {
-      const extension = extensions.find((candidate) => candidate.id === 'lpsn-identifiers')
-      if (!extension || extension.provider !== 'LPSN' || extension.counts?.eligible !== 790 || extension.counts?.resolved !== 790 || extension.counts?.withheld !== 0) {
-        failures.push('archaea: pinned LPSN identifier extension is incomplete')
+    const expectedLpsn = expectedLpsnExtensions[packageId]
+    const extensionFileCount = extensions.reduce((sum, extension) => sum + (extension.files?.length ?? 0), 0)
+    if ((manifestFile.extensionCount ?? 0) !== extensions.length || (manifestFile.extensionFileCount ?? 0) !== extensionFileCount) {
+      failures.push(`${packageId}: resource-pack extension collection descriptor mismatch`)
+    }
+    let lpsnExtension = null
+    if (expectedLpsn) {
+      lpsnExtension = extensions.find((candidate) => candidate.id === 'lpsn-identifiers')
+      if (extensions.length !== 1 || !lpsnExtension || lpsnExtension.recordType !== 'external-name-identifier-crosswalk' || lpsnExtension.provider !== 'LPSN') {
+        failures.push(`${packageId}: pinned LPSN identifier extension identity is incomplete`)
       } else {
-        for (const file of extension.files) {
-          releaseUrl(file, 'archaea LPSN identifier shard')
-          checkFile(file, 'archaea LPSN identifier shard')
-          const records = gunzipSync(readFileSync(join(dataRoot, file.url))).toString('utf8').split('\n').filter(Boolean).map((line) => JSON.parse(line))
-          if (records.length !== file.records) failures.push('archaea: LPSN identifier shard count mismatch')
+        for (const [key, expected] of Object.entries(expectedLpsn.counts)) {
+          if (lpsnExtension.counts?.[key] !== expected) failures.push(`${packageId}: LPSN ${key} count is ${lpsnExtension.counts?.[key]}; expected ${expected}`)
+        }
+        if (lpsnExtension.counts.resolved + lpsnExtension.counts.withheld !== manifest.acceptedSpeciesCount
+          || lpsnExtension.counts.resolved > lpsnExtension.counts.eligible
+          || lpsnExtension.counts.eligible > manifest.acceptedSpeciesCount) {
+          failures.push(`${packageId}: LPSN resolved/withheld eligibility boundary is invalid`)
+        }
+        const withheldByReason = lpsnExtension.withheldByReason ?? {}
+        for (const [reason, expected] of Object.entries(expectedLpsn.withheldByReason)) {
+          if (withheldByReason[reason] !== expected) failures.push(`${packageId}: LPSN ${reason} count is ${withheldByReason[reason]}; expected ${expected}`)
+        }
+        if (Object.values(withheldByReason).reduce((sum, count) => sum + count, 0) !== lpsnExtension.counts.withheld) {
+          failures.push(`${packageId}: LPSN withheld-reason counts do not equal the withheld boundary`)
+        }
+
+        let extensionRecords = 0
+        let extensionCompressedBytes = 0
+        let extensionSourceBytes = 0
+        const seenColIds = new Set()
+        const seenLpsnIds = new Set()
+        for (const file of lpsnExtension.files) {
+          const label = `${packageId} LPSN identifier shard`
+          releaseUrl(file, label)
+          checkFile(file, label)
+          const compressed = readFileSync(join(dataRoot, file.url))
+          const source = gunzipSync(compressed)
+          if (compressed.byteLength !== file.bytes || source.byteLength !== file.sourceBytes
+            || createHash('sha256').update(source).digest('hex') !== file.sourceSha256) {
+            failures.push(`${packageId}: LPSN identifier shard bytes or source SHA-256 mismatch`)
+          }
+          if (!currentReleaseUrls.has(file.url)) failures.push(`${packageId}: LPSN identifier shard is absent from the current release inventory`)
+          const records = source.toString('utf8').split('\n').filter(Boolean).map((line) => JSON.parse(line))
+          if (records.length !== file.records) failures.push(`${packageId}: LPSN identifier shard count mismatch`)
           for (const record of records) {
-            if (!record.colId || !/^\d+$/.test(record.lpsnId ?? '') || record.lpsnUrl !== `https://lpsn.dsmz.de/taxon/${record.lpsnId}` || record.mappingBasis !== 'checklistbank-source-record' || record.status !== 'resolved') {
-              failures.push('archaea: LPSN identifier shard contains an invalid mapping')
+            if (!record.colId || seenColIds.has(record.colId) || !/^\d+$/.test(record.lpsnId ?? '') || seenLpsnIds.has(record.lpsnId)
+              || record.lpsnUrl !== `https://lpsn.dsmz.de/taxon/${record.lpsnId}` || record.mappingBasis !== 'checklistbank-source-record' || record.status !== 'resolved') {
+              failures.push(`${packageId}: LPSN identifier shard contains an invalid or duplicate mapping`)
               break
             }
+            seenColIds.add(record.colId)
+            seenLpsnIds.add(record.lpsnId)
           }
-          lpsnIdentifierRecords += records.length
+          extensionRecords += records.length
+          extensionCompressedBytes += compressed.byteLength
+          extensionSourceBytes += source.byteLength
         }
+        if (extensionRecords !== lpsnExtension.counts.resolved
+          || extensionCompressedBytes !== lpsnExtension.totalCompressedBytes
+          || extensionSourceBytes !== lpsnExtension.totalSourceBytes) {
+          failures.push(`${packageId}: LPSN identifier files do not match extension totals`)
+        }
+        lpsnIdentifierRecords += extensionRecords
       }
     } else if (extensions.length) {
       failures.push(`${packageId}: unexpected resource-pack extension`)
     }
     if (!existsSync(join(dataRoot, manifest.download))) failures.push(`${packageId}: nomenclatural resource-pack download missing`)
-    else if (packageId === 'archaea') {
+    else if (lpsnExtension) {
       const entries = unzipSync(new Uint8Array(readFileSync(join(dataRoot, manifest.download))))
-      if (!entries['lpsn-000.jsonl.gz']) failures.push('archaea: nomenclatural resource-pack ZIP omits the LPSN identifier shard')
+      for (const file of lpsnExtension.files) {
+        if (!entries[basename(file.url)]) failures.push(`${packageId}: nomenclatural resource-pack ZIP omits ${basename(file.url)}`)
+      }
     }
     resourcePackRecords += packageRecords
   }
   if (resourcePackRecords !== 363160) failures.push('Catalogue nomenclatural resource-pack records do not total 363,160')
-  if (lpsnIdentifierRecords !== 790) failures.push(`Archaea LPSN identifier extension contains ${lpsnIdentifierRecords} records; expected 790`)
+  const expectedLpsnIdentifierRecords = Object.values(expectedLpsnExtensions).reduce((sum, extension) => sum + extension.counts.resolved, 0)
+  if (lpsnIdentifierRecords !== expectedLpsnIdentifierRecords) failures.push(`LPSN identifier extensions contain ${lpsnIdentifierRecords} records; expected ${expectedLpsnIdentifierRecords}`)
 }
 
 if (failures.length) {
