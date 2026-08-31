@@ -154,6 +154,22 @@ for (const packageEntry of packageRegistry.packages) {
     checkItisSummaryOnlyCollection('sponges-cnidarians', nomenclatureCollections, {
       id: 'itis-porifera-cnidaria-tsn-crosswalk', total: 30521, accepted: 4242, redirects: 50, ambiguous: 3, unmatched: 26226, upstreamOnly: 2218, files: 6,
     })
+  } else if (packageEntry.id === 'crustaceans-insects') {
+    if (nomenclatureCollections.length !== 3) failures.push('crustaceans-insects: expected three ITIS nomenclature collections')
+    checkItisSummaryOnlyCollection('crustaceans-insects', nomenclatureCollections, {
+      id: 'itis-crustacea-tsn-crosswalk', total: 80890, accepted: 26395, redirects: 115, ambiguous: 38, unmatched: 54342, upstreamOnly: 5991, files: 41,
+    })
+    checkItisSummaryOnlyCollection('crustaceans-insects', nomenclatureCollections, {
+      id: 'itis-insecta-tsn-crosswalk', total: 941223, accepted: 176406, redirects: 2887, ambiguous: 692, unmatched: 761238, upstreamOnly: 27357, files: 100,
+    })
+    checkItisSummaryOnlyCollection('crustaceans-insects', nomenclatureCollections, {
+      id: 'itis-myriapoda-tsn-crosswalk', total: 14210, accepted: 3040, redirects: 0, ambiguous: 2, unmatched: 11168, upstreamOnly: 3445, files: 3,
+    })
+  } else if (packageEntry.id === 'trilobites-chelicerates') {
+    if (nomenclatureCollections.length !== 1) failures.push('trilobites-chelicerates: expected one ITIS nomenclature collection')
+    checkItisSummaryOnlyCollection('trilobites-chelicerates', nomenclatureCollections, {
+      id: 'itis-chelicerata-tsn-crosswalk', total: 99511, accepted: 74948, redirects: 146, ambiguous: 141, unmatched: 24276, upstreamOnly: 5714, files: 17,
+    })
   } else if (['angiospermae', 'gymnosperms', 'early-land-plants'].includes(packageEntry.id)) {
     const wfo = nomenclatureCollections.find((collection) => collection.id === 'wfo-plant-list-crosswalk')
     if (nomenclatureCollections.length !== 1 || !wfo || wfo.provider !== 'World Flora Online Plant List'
