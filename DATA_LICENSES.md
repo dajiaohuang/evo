@@ -2,6 +2,8 @@
 
 The MIT license in `LICENSE` applies to software only. It does not relicense third-party scientific data, publications, names, institutional pages or media.
 
+The ITIS Amoebozoa boundary sidecar (`data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-amoebozoa-*`) is derived from the official ITIS `itisSqlite082626` export dated 2026-08-26 (DOI `10.5066/F7KH0KBK`, CC0 1.0) and the COL26.8 hierarchy (DOI `10.48580/dgywk`, CC BY 4.0). It retains only COL nomenclatural rows and exact-root audit metadata: ITIS has no exact Amoebozoa root in this export, so no ITIS mapping is inferred. Preserve both attributions, release dates, checksums and the boundary statement in `docs/itis-amoebozoa-authority.md`.
+
 | Material | Location | Source / status | Reuse terms |
 | --- | --- | --- | --- |
 | Fossil occurrence records | `data/fossils/` | Paleobiology Database Data Service 1.2; bounded API-prefix membership assembled 2026-08-18 and higher classification refreshed 2026-08-19 | PBDB collection records identify their Creative Commons status as CC0. Preserve PBDB occurrence, collection and reference identifiers and cite PBDB. Consult the upstream collection page if a record-specific right matters. |

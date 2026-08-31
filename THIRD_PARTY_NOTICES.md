@@ -1,5 +1,7 @@
 # Third-party notices
 
+- The Amoebozoa authority boundary sidecar derives its 1,337 strict accepted COL26.8 species from the CC BY 4.0 Catalogue of Life release `2026-08-20` (DOI `10.48580/dgywk`) and audits the official CC0 ITIS monthly export `itisSqlite082626` dated 2026-08-26 (DOI `10.5066/F7KH0KBK`). ITIS has no exact Amoebozoa root in this export, so all COL rows remain explicitly unmatched; narrower or broader taxonomic roots are not substituted. Pages receives only the descriptor summary and native Android/iOS builds retain every listed shard byte-for-byte.
+
 - Paleobiology Database occurrence, taxonomy, collection, reference and paleocoordinate fields are retrieved through Data Service 1.2. Cite Peters & McClennen (2016), the PBDB, and the primary references retained by occurrence ID.
 - Geological boundary values and display colors are derived from the International Chronostratigraphic Chart 2026/06. Copyright belongs to the International Commission on Stratigraphy; the current chart is offered under CC BY 4.0.
 - Open Tree of Life is used as topology and taxonomy context only; the atlas-wide navigation ontology is not presented as an OpenTree export or as a phylogenetic hypothesis.
