@@ -1,0 +1,116 @@
+{
+  "schemaVersion": 1,
+  "importType": "COL26.8-to-ITIS-exact-cryptophyta-root-boundary-audit",
+  "generatedFrom": {
+    "sourcePath": "data/sources/itis-2026-08-26.json",
+    "sourceSha256": "38a7a55b4e98cafc66790e47f6bd637e298e23fd691e4771c755b38e4a02d7fc",
+    "itisDatabaseMember": "itisSqlite082626/ITIS.sqlite",
+    "itisDatabaseSha256": "ea7304536cfd7b1e2636d383911ca7931fc83d9ab1194ca2a3c020ea2daf1719",
+    "colRegistryManifestPath": "data/catalogue-of-life/releases/2026-08-20/registry/manifest.json",
+    "colRegistryManifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151",
+    "colOwnershipPath": "data/registry/package-species-coverage.json",
+    "colOwnershipSha256": "a297bc8a67ce60806fdee733464a79bfcc42e255f7e59535b01f94013c19dfea"
+  },
+  "scopeAudit": {
+    "packageRootUsageIds": [
+      "C",
+      "Z"
+    ],
+    "packageRootScientificNames": [
+      "Chromista",
+      "Protozoa"
+    ],
+    "colRootUsageId": null,
+    "colRootScientificName": "Cryptophyta",
+    "colStrictAcceptedSpecies": 0,
+    "packageStrictAcceptedSpecies": 61518,
+    "packageOutOfScopeStrictAcceptedSpecies": 61518,
+    "colRootAudit": "No exact COL26.8 usage node named Cryptophyta exists in the complete pinned hierarchy; no strict COL partition is claimed.",
+    "boundary": "This boundary audit contains no Cryptophyta rows because neither COL26.8 nor ITIS 2026-08-26 exposes an exact accepted root named Cryptophyta. ITIS Cryptophycophyta and Cryptophyceae are recorded as nearby candidates only and are not substituted.",
+    "rootBoundaryAudit": {
+      "colExactRootCandidates": [],
+      "itisExactNameCandidates": [],
+      "itisNearRootCandidates": [
+        {
+          "tsn": 10597,
+          "scientific_name": "Cryptophycophyta",
+          "rank_name": "Division",
+          "name_usage": "accepted",
+          "parent_tsn": 590735
+        },
+        {
+          "tsn": 10598,
+          "scientific_name": "Cryptophyceae",
+          "rank_name": "Class",
+          "name_usage": "accepted",
+          "parent_tsn": 10597
+        }
+      ],
+      "selectedColRoot": null,
+      "selectedItisRoot": null,
+      "decision": "No exact Cryptophyta root exists in either pinned authority. The nearby accepted ITIS names Cryptophycophyta (TSN 10597) and Cryptophyceae (TSN 10598) are not taxonomic substitutes; no COL or ITIS range is asserted."
+    },
+    "itisCurrentSpecies": 0,
+    "itisSpeciesSynonymLinks": 0,
+    "maximumUpdateDates": {
+      "taxonomicUnits": "2026-08-26",
+      "synonymLinks": "2026-08-26"
+    }
+  },
+  "matchingContract": {
+    "normalization": [
+      "Remove the exact trailing COL authorship field from COL scientificName when that suffix is present; no authorship parser is used.",
+      "Normalize Unicode to NFC, replace underscores with spaces, collapse Unicode whitespace and trim.",
+      "For species-rank comparison, remove one parenthesized subgenus token in the exact Genus (Subgenus) species representation; genus and specific epithet must remain unchanged.",
+      "Preserve case, diacritics, punctuation and all remaining name tokens."
+    ],
+    "statuses": {
+      "accepted": "Unavailable: no exact Cryptophyta root exists in the pinned authorities.",
+      "synonym-current-name-redirect": "Unavailable: no exact Cryptophyta root exists in the pinned authorities.",
+      "ambiguous": "Unavailable: no exact Cryptophyta root exists in the pinned authorities.",
+      "unmatched": "Unavailable: no exact Cryptophyta partition exists."
+    },
+    "prohibited": "No fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered, package-wide or taxon-substituted matching is used."
+  },
+  "totals": {
+    "total": 0,
+    "accepted": 0,
+    "synonymCurrentNameRedirect": 0,
+    "ambiguous": 0,
+    "unmatched": 0,
+    "itisCurrentSpecies": 0,
+    "itisSpeciesSynonymLinks": 0,
+    "itisUpstreamOnly": 0
+  },
+  "output": {
+    "descriptor": {
+      "path": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-cryptophyta-sidecar.json",
+      "bytes": 5915,
+      "sha256": "d2a899a6a3957978254499f3f6562c9508a2c0dd26f4358c24f28457b4566530"
+    },
+    "colUsageIdShards": [],
+    "upstreamOnly": {
+      "path": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-cryptophyta-upstream-only-0000.jsonl.gz",
+      "records": 0,
+      "firstColUsageId": null,
+      "lastColUsageId": null,
+      "bytes": 20,
+      "sha256": "9ceffb7310338057cfe71a4ae1e2c98d2c485d81cdef906532a801f457a38d64",
+      "sourceBytes": 0,
+      "sourceSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "colOwnership": null,
+      "firstTsn": null,
+      "lastTsn": null
+    }
+  },
+  "deliveryContract": {
+    "pagesLight": "Pages needs only this small descriptor and may omit the empty row-level JSONL gzip shard.",
+    "androidIosFull": "Android and iOS complete-data inventories include the descriptor and the listed explicit empty shard; there are no non-empty authoritative rows to include.",
+    "runtimeChange": "This import deliberately changes no formal runtime or published release manifest."
+  },
+  "generatedBy": {
+    "scriptPath": "scripts/build-itis-cryptophyta-sidecar.mjs",
+    "scriptSha256": "d1078cc0cac2026367b2640a14bf6b37bf33e07a8870556c4db48bae905479c0",
+    "deterministic": "Pinned input checksums, exact COL and ITIS root audits, explicit nearby-root conflict record, and deterministic gzip; no wall-clock fields or fuzzy matching."
+  }
+}
