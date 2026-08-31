@@ -1,5 +1,11 @@
 # Dataset changelog
 
+## App 0.20.30 / 2026.09-static-v5-rc79 — 2026-09-01
+
+- Increased every Web/Pages PaleoDEM v2 preview from a 0.5° every-fifth-cell exact sample to a 0.3° every-third-cell exact sample. All 109 official nominal ages remain independently addressable as 1201×601 signed-int16 grids, with no smoothing, averaging, spatial interpolation or temporal interpolation.
+- Preserved every Android and iOS PaleoDEM payload byte-for-byte at the original 3601×1801, 0.1° lossless native resolution. The native compressed total remains 168,418,483 bytes while the complete Web preview series is 24,847,071 bytes.
+- Updated the runtime contract, manifests, UI labels, documentation, smoke tests and end-to-end checks to reject mixed 0.5°/0.3° releases. Android and iOS advance to build `33`; the 650 MiB Pages gate remains unchanged.
+
 ## App 0.20.29 / 2026.08-static-v5-rc78 — 2026-08-31
 
 - Added concise bilingual navigation descriptions for all 392 canonical nodes. Each description is generated from existing node rank, package ownership, represented descendant scope and direct locator-bearing claim count, and explicitly disclaims phylogeny, origin, ancestry, dates, ecology, distribution and completeness.

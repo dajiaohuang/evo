@@ -13,7 +13,11 @@ Evo Atlas 不是一个把生成文本包装成“完整百科”的项目。它�
 - 名录覆盖：固定到 Catalogue of Life Base Release `COL26.8`。2,183,133 个严格接受种全部能沿真实父子链路由到唯一资源归属，另有 2,065,436 个异名、歧义异名和误用名可解析到接受名。24 个富内容包直接拥有 1,819,973 种；余下 363,160 种现由 7 个可下载、可离线读取并同时内置于 Android/iOS 的静态命名资源包拥有。第 32 个 `other-eukaryotes` 分区在本固定发布版中为零记录边界，不伪造空内容。
 - 内容覆盖：24 个静态资源包中的证据档案、事件、故事、范围和参考文献。当前已无 `generated-scaffold` 或 `structured`：23 个包为 `source-linked`，奇蹄目为唯一的 `curated-draft`；23 个包尚未人工审阅，奇蹄目的存储状态为 `in-review`，但内容摘要变化使有效状态成为 `stale`，没有包声称达到科学 `published`。平台 `published` 与自动检查通过只表示静态发布链完整，不等于内容或专家审阅已经完成。
 
-当前开发数据快照为 `2026.08-static-v5-rc78`，Web/Android/iOS 客户端版本为 `0.20.29`，Android/iOS build 为 `32`。精确记录数、校验和限制以 [`data/manifest.json`](data/manifest.json) 为准；科学内容变更见 [`data/CHANGELOG.md`](data/CHANGELOG.md)。
+当前开发数据快照为 `2026.09-static-v5-rc79`，Web/Android/iOS 客户端版本为 `0.20.30`，Android/iOS build 为 `33`。精确记录数、校验和限制以 [`data/manifest.json`](data/manifest.json) 为准；科学内容变更见 [`data/CHANGELOG.md`](data/CHANGELOG.md)。
+
+`rc79` 将全部 109 个 Web/Pages PaleoDEM v2 年龄帧从 0.5° 每第五格精确抽样提升到 1201×601、0.3° 每第三格精确抽样；不平滑、不平均、不做空间或时间插值。浏览器的完整预览序列为 24,847,071 压缩字节。Android/iOS build `33` 仍逐字节内置全部 109 个 3601×1801、0.1° 原始无损网格（168,418,483 压缩字节），并继续携带 rc78 的全部节点描述、场景、名录和权威侧车。GitHub Pages 的 650 MiB 门槛没有放宽。
+
+Release `2026.09-static-v5-rc79` / app `0.20.30` upgrades all 109 Web/Pages PaleoDEM v2 frames from an exact 0.5° every-fifth-cell sample to an exact 1201×601, 0.3° every-third-cell sample, without smoothing, averaging, spatial interpolation or temporal interpolation. The complete browser preview series occupies 24,847,071 compressed bytes. Android and iOS build `33` still bundle all 109 original 3601×1801, 0.1° lossless grids byte-for-byte (168,418,483 compressed bytes), together with all rc78 descriptions, scenes, catalogue rows and authority sidecars. The GitHub Pages limit remains 650 MiB.
 
 `rc78` 先完成“每个导航节点都能说明自己”的基础层：392/392 个节点都生成中英文导航摘要，摘要只使用节点等级、资源包归属、已呈现后代范围和直接关联的来源声明数量，并明确不代表系统发育、起源、祖先关系、年代、生态、分布或分类完整性。24 个富内容包从每包 1 个基础预设扩展到每包 3 个、共 72 个研究场景和 102 个声明链接；21 个比较场景的两侧都必须存在真实完整档案，其余使用地图或多样性场景。综合看板移除固定预设列表；地图只按 `available` 范围、当前时间与共享 claim ID 浮现场景卡片，并明确卡片是时间上下文，不是化石地点、地图点或重建分布。Pages 继续使用 `web-light`，Android/iOS build `32` 继续携带同一场景与节点描述以及完整 `native-full` 名录、权威侧车和 109 帧 0.1° PaleoDEM。
 
