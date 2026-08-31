@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
-import { MapContainer, GeoJSON, Polyline, Tooltip } from 'react-leaflet'
+import { MapContainer, GeoJSON, Polyline, TileLayer, Tooltip } from 'react-leaflet'
 import type { Map as LeafletMap } from 'leaflet'
 import { useAppStore } from '../../store'
 import { usePaleogeography } from '../../hooks/usePaleogeography'
@@ -79,6 +79,7 @@ export function PaleoMap() {
   const [showContinentalCrust, setShowContinentalCrust] = useState(false)
   const [showContinentOceanBoundaries, setShowContinentOceanBoundaries] = useState(false)
   const [showStaticPolygons, setShowStaticPolygons] = useState(false)
+  const [showPaleotopography, setShowPaleotopography] = useState(false)
   const [enabledObservationDatasets, setEnabledObservationDatasets] = useState<Set<CaoObservationDatasetId>>(() => new Set())
   const [selectedObservation, setSelectedObservation] = useState<{ record: CaoObservationRecord; descriptor: RuntimeMapObservationDataset } | null>(null)
   const markerMode = useAppStore((s) => s.markerMode) as MarkerMode
@@ -194,6 +195,11 @@ export function PaleoMap() {
   const anyLayerLoading = landLayerLoading || requestedPaleogeographyLayers.some((layerId) => loadingLayers[layerId])
   const visibleLayerErrors = requestedPaleogeographyLayers.flatMap((layerId) => layerErrors[layerId] ? [[layerId, layerErrors[layerId]] as const] : [])
   const primaryMapSelection = mapSelections.coastlines ?? mapSelections.platePolygons ?? mapSelections.plateBoundaries
+  const paleotopographyFrame = mapManifest?.paleotopography?.frames[0]
+  const paleotopographyAvailable = Boolean(paleotopographyFrame
+    && currentAge >= paleotopographyFrame.displayAgeRangeMa.youngest
+    && currentAge <= paleotopographyFrame.displayAgeRangeMa.oldest)
+  const paleotopographyTileUrl = paleotopographyFrame ? runtimeDataUrl(paleotopographyFrame.tiles.template) : null
   const observationGroups = useMemo(() => requestedObservationDatasets.flatMap((datasetId) => {
     const collection = observationCollections[datasetId]
     const descriptor = observationDescriptors[datasetId]
@@ -230,6 +236,18 @@ export function PaleoMap() {
         style={{ height: '100%', width: '100%', background: '#07171c' }}
         ref={mapRef}
       >
+        {showPaleotopography && paleotopographyAvailable && paleotopographyFrame && paleotopographyTileUrl && (
+          <TileLayer
+            key={paleotopographyFrame.id}
+            url={paleotopographyTileUrl}
+            tileSize={paleotopographyFrame.tiles.tileSize}
+            minZoom={paleotopographyFrame.tiles.minimumZoom}
+            maxNativeZoom={paleotopographyFrame.tiles.maximumZoom}
+            maxZoom={MAX_MAP_ZOOM}
+            noWrap={true}
+            opacity={0.78}
+          />
+        )}
         {showStaticPolygons && landLayerAvailable && layers?.staticPolygons && (
           <GeoJSON
             key={mapSelections.staticPolygons?.frame.url ?? 'static-polygons'}
@@ -351,6 +369,7 @@ export function PaleoMap() {
           </div>
         )}
         {primaryMapSelection && <div style={{ marginTop: 2, color: '#9eb8aa', fontSize: 9 }}>{t('CAO2024 nearest frame {selected} Ma · requested {requested} Ma · Δ {delta} Myr', { selected: number(primaryMapSelection.selectedAgeMa), requested: number(currentAge), delta: number(primaryMapSelection.deltaMa) })}</div>}
+        {showPaleotopography && paleotopographyAvailable && paleotopographyFrame && <div style={{ marginTop: 2, color: '#d7c88b', fontSize: 9 }}>{t('PALEOMAP archive frame {archive} Ma · internal description {internal} Ma', { archive: paleotopographyFrame.archiveNominalAgeMa, internal: paleotopographyFrame.internalDescriptionAgeMa })}</div>}
       </div>
 
       <div className="map-layer-control" aria-label={t('Map layer controls')}>
@@ -391,6 +410,18 @@ export function PaleoMap() {
         <label title={t('Rigid reconstruction partitions used for plate-ID assignment; not dynamic topological plate coverage.')}>
           <input type="checkbox" checked={showStaticPolygons} disabled={!landLayerAvailable || landLayerLoading || !mapManifest?.layers?.staticPolygons?.frames.length} onChange={(event) => setShowStaticPolygons(event.target.checked)} /> {t('static reconstruction partitions')}
         </label>
+        <span>{t('Numeric palaeotopography and palaeobathymetry')}</span>
+        <label title={t('One modelled PALEOMAP elevation/depth frame. The archive filename says 65 Ma and its internal NetCDF description says 66 Ma; neither value is hidden.')}>
+          <input
+            type="checkbox"
+            aria-label={t('PALEOMAP 65 Ma elevation and bathymetry')}
+            checked={showPaleotopography && paleotopographyAvailable}
+            disabled={!paleotopographyAvailable}
+            onChange={(event) => setShowPaleotopography(event.target.checked)}
+          /> {t('PALEOMAP 65 Ma elevation and bathymetry')}
+        </label>
+        {paleotopographyFrame && <small>{t('Available only from {youngest}–{oldest} Ma without temporal interpolation. Colours are a Web Mercator visualization of a 0.1° metre grid; the canonical grid retains exact integer values.', { youngest: paleotopographyFrame.displayAgeRangeMa.youngest, oldest: paleotopographyFrame.displayAgeRangeMa.oldest })}</small>}
+        {showPaleotopography && paleotopographyAvailable && <small>{t('PALEOMAP terrain is independent of CAO2024 geometry, CAO2024 observations and PBDB palaeocoordinates; overlay does not establish co-registration.')}</small>}
         <span>{t('CAO2024 observations and constraints')}</span>
         {CAO_OBSERVATION_DATASET_IDS.map((datasetId) => {
           const descriptor = mapManifest?.observations?.datasets[datasetId]
@@ -426,6 +457,7 @@ export function PaleoMap() {
           <div><dt>{t('Paleo points')}</dt><dd>{t('PBDB bundled field')}</dd></div>
           <div><dt>{t('Runtime')}</dt><dd>{t('no live reconstruction')}</dd></div>
           {mapManifest && <div><dt>{t('Source')}</dt><dd><a href={mapManifest.source.url} target="_blank" rel="noreferrer">Cao et al. 2024 · {mapManifest.source.license}</a></dd></div>}
+          {paleotopographyFrame && <div><dt>{t('Terrain source')}</dt><dd><a href={mapManifest?.paleotopography?.source.recordUrl} target="_blank" rel="noreferrer">Scotese &amp; Wright 2018 · {mapManifest?.paleotopography?.source.license}</a></dd></div>}
         </dl>
       </div>
 

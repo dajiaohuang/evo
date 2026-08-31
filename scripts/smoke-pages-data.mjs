@@ -337,6 +337,37 @@ if (maps.schemaVersion >= 7) {
     failures.push('current map summary does not expose all CAO2024 observation records')
   }
 }
+if (maps.schemaVersion >= 8) {
+  const collection = maps.paleotopography
+  const frame = collection?.frames?.[0]
+  if (collection?.id !== 'scotese-wright-2018-paleodem-v2'
+    || collection?.source?.doi !== '10.5281/zenodo.5460860'
+    || collection?.source?.license !== 'CC-BY-4.0'
+    || collection?.archive?.redistributed !== false
+    || collection?.frames?.length !== 1) {
+    failures.push('palaeotopography runtime source, license or one-frame boundary is invalid')
+  } else if (frame.archiveNominalAgeMa !== 65
+    || frame.internalDescriptionAgeMa !== 66
+    || frame.grid?.cellCount !== 6485401
+    || frame.tiles?.projection !== 'EPSG:3857'
+    || frame.tiles?.minimumZoom !== 0
+    || frame.tiles?.maximumZoom !== 4
+    || frame.tiles?.files?.length !== 341) {
+    failures.push('palaeotopography frame, dual-age disclosure, grid or pyramid counts are invalid')
+  } else {
+    releaseUrl(frame.grid, 'palaeotopography canonical metre grid')
+    checkFile(frame.grid, 'palaeotopography canonical metre grid')
+    for (const tile of frame.tiles.files) {
+      const label = `palaeotopography tile ${tile.z}/${tile.x}/${tile.y}`
+      releaseUrl(tile, label)
+      checkFile(tile, label)
+      if (!tile.url?.endsWith(`/${tile.z}/${tile.x}/${tile.y}.png`)) failures.push(`${label}: URL does not match tile coordinates`)
+    }
+    if (current.maps.paleotopographyFrameCount !== 1 || current.maps.paleotopographyTileCount !== 341) {
+      failures.push('current map summary does not expose the complete palaeotopography prototype')
+    }
+  }
+}
 for (const snapshot of maps.snapshots) {
   if (snapshot.status !== 'available') continue
   for (const layerId of mapLayerIds) {

@@ -103,6 +103,29 @@ public class AppInstrumentedTest {
         }
         assertEquals(20, observationFiles);
 
+        JSONObject paleotopography = maps.getJSONObject("paleotopography");
+        assertEquals("scotese-wright-2018-paleodem-v2", paleotopography.getString("id"));
+        assertEquals("CC-BY-4.0", paleotopography.getJSONObject("source").getString("license"));
+        assertEquals(1, paleotopography.getJSONArray("frames").length());
+        JSONObject terrainFrame = paleotopography.getJSONArray("frames").getJSONObject(0);
+        assertEquals(65, terrainFrame.getInt("archiveNominalAgeMa"));
+        assertEquals(66, terrainFrame.getInt("internalDescriptionAgeMa"));
+        JSONObject terrainGrid = terrainFrame.getJSONObject("grid");
+        assertEquals(6485401, terrainGrid.getInt("cellCount"));
+        JSONObject terrainGridInventory = findInventoryRecord(files, terrainGrid.getString("url"));
+        assertNotNull("palaeotopography grid missing from release inventory", terrainGridInventory);
+        verifyAssetRecord(context, terrainGridInventory);
+        JSONArray terrainTiles = terrainFrame.getJSONObject("tiles").getJSONArray("files");
+        assertEquals(341, terrainTiles.length());
+        for (int tileIndex = 0; tileIndex < terrainTiles.length(); tileIndex += 1) {
+            JSONObject tile = terrainTiles.getJSONObject(tileIndex);
+            JSONObject tileInventory = findInventoryRecord(files, tile.getString("url"));
+            assertNotNull("palaeotopography tile missing from release inventory", tileInventory);
+            assertEquals(tile.getInt("bytes"), tileInventory.getInt("bytes"));
+            assertEquals(tile.getString("sha256"), tileInventory.getString("sha256"));
+            verifyAssetRecord(context, tileInventory);
+        }
+
         JSONObject richManifests = current.getJSONObject("packages").getJSONObject("manifests");
         assertEquals(24, richManifests.length());
         int researchExamples = 0;

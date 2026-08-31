@@ -22,7 +22,8 @@ function manifestFilesBelow(directory) {
         ? manifestFilesBelow(relativePath)
         : (name.endsWith('.json')
           || (directory === 'data/sources' && name.endsWith('.json.gz'))
-          || (relativePath.includes('/nomenclature/') && name.endsWith('.json.gz')))
+      || (relativePath.includes('/nomenclature/') && name.endsWith('.json.gz'))
+      || (relativePath.includes('/paleotopography/') && name.endsWith('.gz')))
             ? [relativePath]
             : []
     })
@@ -34,6 +35,9 @@ export function dataFiles() {
 
 export function sha256(path) {
   const bytes = readFileSync(join(rootDir, path))
+  if (path.startsWith('data/paleotopography/') && path.endsWith('.gz')) {
+    return createHash('sha256').update(bytes).digest('hex')
+  }
   const canonicalJson = (path.endsWith('.gz') ? gunzipSync(bytes) : bytes).toString('utf8').replaceAll('\r\n', '\n')
   return createHash('sha256').update(canonicalJson, 'utf8').digest('hex')
 }

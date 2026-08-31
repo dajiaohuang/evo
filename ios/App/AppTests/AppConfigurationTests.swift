@@ -64,6 +64,29 @@ final class AppConfigurationTests: XCTestCase {
         }
         XCTAssertEqual(observationFiles, 20)
 
+        let paleotopography = try XCTUnwrap(maps["paleotopography"] as? [String: Any])
+        XCTAssertEqual(paleotopography["id"] as? String, "scotese-wright-2018-paleodem-v2")
+        XCTAssertEqual((paleotopography["source"] as? [String: Any])?["license"] as? String, "CC-BY-4.0")
+        let terrainFrames = try XCTUnwrap(paleotopography["frames"] as? [[String: Any]])
+        XCTAssertEqual(terrainFrames.count, 1)
+        let terrainFrame = try XCTUnwrap(terrainFrames.first)
+        XCTAssertEqual(terrainFrame["archiveNominalAgeMa"] as? Int, 65)
+        XCTAssertEqual(terrainFrame["internalDescriptionAgeMa"] as? Int, 66)
+        let terrainGrid = try XCTUnwrap(terrainFrame["grid"] as? [String: Any])
+        XCTAssertEqual(terrainGrid["cellCount"] as? Int, 6_485_401)
+        let terrainGridPath = try XCTUnwrap(terrainGrid["url"] as? String)
+        let terrainGridInventory = try XCTUnwrap(files.first { ($0["url"] as? String) == terrainGridPath }, "Palaeotopography grid missing from release inventory")
+        try verifyBundled(record: terrainGridInventory, below: dataRoot)
+        let terrainTiles = try XCTUnwrap((terrainFrame["tiles"] as? [String: Any])?["files"] as? [[String: Any]])
+        XCTAssertEqual(terrainTiles.count, 341)
+        for tile in terrainTiles {
+            let tilePath = try XCTUnwrap(tile["url"] as? String)
+            let tileInventory = try XCTUnwrap(files.first { ($0["url"] as? String) == tilePath }, "Palaeotopography tile missing from release inventory")
+            XCTAssertEqual(tile["bytes"] as? Int, tileInventory["bytes"] as? Int)
+            XCTAssertEqual(tile["sha256"] as? String, tileInventory["sha256"] as? String)
+            try verifyBundled(record: tileInventory, below: dataRoot)
+        }
+
         let packageDescriptors = try XCTUnwrap((current["packages"] as? [String: Any])?["manifests"] as? [String: [String: Any]])
         XCTAssertEqual(packageDescriptors.count, 24)
         var researchExamples = 0

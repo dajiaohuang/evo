@@ -348,8 +348,78 @@ export interface RuntimeMapManifest {
   }
   layers?: Record<import('../types').PaleogeographyLayerId, RuntimeMapLayer>
   observations?: RuntimeMapObservations
+  paleotopography?: RuntimePaleotopographyCollection
   /** Compatibility metadata for period descriptions and older releases. */
   snapshots: RuntimeMapSnapshot[]
+}
+
+export interface RuntimePaleotopographyTile extends RuntimeFile {
+  z: number
+  x: number
+  y: number
+}
+
+export interface RuntimePaleotopographyFrame {
+  id: string
+  archiveNominalAgeMa: number
+  internalDescriptionAgeMa: number
+  internalDescription: string
+  ageDisclosure: string
+  displayAgeRangeMa: { youngest: number; oldest: number }
+  elevation: {
+    variable: string
+    unit: 'm'
+    minimum: number
+    maximum: number
+    maskedCells: number
+    nanCells: number
+    integerMetreCells: number
+  }
+  grid: RuntimeFile & {
+    sourceBytes: number
+    sourceSha256: string
+    width: number
+    height: number
+    cellCount: number
+    encoding: 'gzip-signed-int16-little-endian-row-major'
+    mediaType: 'application/octet-stream'
+  }
+  tiles: {
+    template: string
+    projection: 'EPSG:3857'
+    tileSize: 256
+    minimumZoom: number
+    maximumZoom: number
+    resampling: string
+    files: RuntimePaleotopographyTile[]
+  }
+}
+
+export interface RuntimePaleotopographyCollection {
+  id: string
+  source: {
+    authors: string[]
+    publishedYear: number
+    recordVersion: string
+    doi: string
+    recordUrl: string
+    earthByteResourceUrl: string
+    license: 'CC-BY-4.0'
+    licenseUrl: string
+    licenseEvidenceUrl: string
+    retrievedAt: string
+  }
+  archive: {
+    fileName: string
+    contentUrl: string
+    bytes: number
+    officialMd5: string
+    sha256: string
+    netcdfMemberCount: number
+    redistributed: false
+  }
+  scientificLimitations: string[]
+  frames: RuntimePaleotopographyFrame[]
 }
 
 export interface CatalogueRecord {
@@ -899,6 +969,8 @@ export interface CurrentRuntimeManifest {
     geometryFrameCount?: number | null
     observationDatasetCount?: number
     observationRecordCount?: number
+    paleotopographyFrameCount?: number
+    paleotopographyTileCount?: number
   }
   catalogue: {
     manifest: RuntimeFile

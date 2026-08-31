@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "id": "scotese-wright-2018-paleodem-v2",
+  "title": "PALEOMAP Paleodigital Elevation Models for the Phanerozoic",
+  "source": {
+    "authors": [
+      "Christopher R. Scotese",
+      "Nicky M. Wright"
+    ],
+    "publishedYear": 2018,
+    "recordVersion": "v2",
+    "doi": "10.5281/zenodo.5460860",
+    "recordUrl": "https://zenodo.org/records/5460860",
+    "earthByteResourceUrl": "https://www.earthbyte.org/paleodem-resource-scotese-and-wright-2018/",
+    "license": "CC-BY-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "licenseEvidenceUrl": "https://www.earthbyte.org/webdav/ftp/Data_Collections/Scotese_Wright_2018_PaleoDEM/License.txt",
+    "retrievedAt": "2026-08-31"
+  },
+  "archive": {
+    "fileName": "Scotese_Wright_2018_Maps_1-88_6minX6min_PaleoDEMS_nc.zip",
+    "contentUrl": "https://zenodo.org/api/records/5460860/files/Scotese_Wright_2018_Maps_1-88_6minX6min_PaleoDEMS_nc.zip/content",
+    "bytes": 207273848,
+    "officialMd5": "89eb50d8645707ab221b023078535bda",
+    "sha256": "ab360184d8260a815ef5ed6b8b4e0abdbf99ef5ee8aa87dfd070af323ceb42da",
+    "netcdfMemberCount": 109,
+    "redistributed": false
+  },
+  "selectedFrame": {
+    "memberPath": "Scotese_Wright_2018_Maps_1-88_6minX6min_PaleoDEMS_nc/Map16_PALEOMAP_6min_KT_Boundary_65Ma.nc",
+    "bytes": 25992503,
+    "sha256": "aa6724ba20b066ad3cbacf2f6f45b7a2d50ccf82c3f7034593c0481c82b07158",
+    "archiveNominalAgeMa": 65,
+    "internalDescription": "PALEOMAP:KT_Boundary, 66 Ma",
+    "internalDescriptionAgeMa": 66,
+    "ageDisclosure": "The archive member name says 65 Ma while the NetCDF global description says 66 Ma. Both source values are retained; the application labels this as the 65 Ma archive frame with a 66 Ma internal-description boundary and never silently chooses one as more authoritative.",
+    "format": "NETCDF4_CLASSIC",
+    "coordinateReferenceSystem": "geographic longitude/latitude",
+    "width": 3601,
+    "height": 1801,
+    "cellCount": 6485401,
+    "longitude": {
+      "first": -180,
+      "last": 180,
+      "stepDegrees": 0.1,
+      "order": "west-to-east"
+    },
+    "latitude": {
+      "first": 90,
+      "last": -90,
+      "stepDegrees": -0.1,
+      "order": "north-to-south"
+    },
+    "elevation": {
+      "variable": "z",
+      "unit": "m",
+      "minimum": -5920,
+      "maximum": 3600,
+      "maskedCells": 0,
+      "nanCells": 0,
+      "integerMetreCells": 6485401
+    }
+  },
+  "canonicalGrid": {
+    "path": "data/paleotopography/scotese-wright-2018-v2/ma-0065.grid.i16.gz",
+    "encoding": "gzip-signed-int16-little-endian-row-major",
+    "bytes": 3329098,
+    "sha256": "5300d9c8e6703999552cdff027eac7c7920d2e2b21e53f6038a3c2f859f555c3",
+    "decodedBytes": 12970802,
+    "decodedSha256": "abfbdb0821999081dc5b0609532f415f73e13638091376e332cb25063edcaba9",
+    "transformation": "Each source float32 value was verified finite and exactly integral, then stored losslessly as one signed 16-bit metre value in the original north-to-south, west-to-east row order. The final source column is retained even though the visual Web Mercator pyramid samples the half-open [-180, 180) longitude interval.",
+    "importer": "scripts/import-scotese-paleodem.py"
+  },
+  "visualization": {
+    "projection": "EPSG:3857",
+    "tileSize": 256,
+    "minimumZoom": 0,
+    "maximumZoom": 4,
+    "tileCount": 341,
+    "resampling": "bilinear from the retained 0.1 degree metre grid",
+    "maximumZoomGroundSampling": "approximately 0.088 degrees per display pixel at the equator",
+    "displayAgeRangeMa": {
+      "youngest": 62.5,
+      "oldest": 67.5
+    },
+    "selectionPolicy": "The sole prototype frame is available only within half of the source's stated five-million-year cadence. No temporal interpolation or extrapolation is performed.",
+    "generator": "scripts/paleotopography-tile-lib.mjs"
+  },
+  "scientificLimitations": [
+    "This is a modelled PaleoDEM interpretation, not measured ancient elevation or bathymetry and not an uncertainty surface.",
+    "The colour tiles are a bilinearly resampled Web Mercator visualization; the checksummed canonical grid retains the source metre values and polar rows.",
+    "Web Mercator tiles do not display latitudes poleward of approximately 85.051 degrees, although those source cells remain in the canonical grid.",
+    "This PALEOMAP frame is independent of CAO2024 geometry and observations and of PBDB paleocoordinates. Overlay does not imply model co-registration.",
+    "Coastlines, continental polygons, continent-ocean boundaries, plate partitions and observation points do not become elevation or bathymetry by proximity to this grid.",
+    "Only one source frame is shipped by this prototype. It must not be described as continuous 540-0 Ma terrain coverage."
+  ]
+}

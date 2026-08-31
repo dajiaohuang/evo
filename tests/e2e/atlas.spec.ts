@@ -474,6 +474,31 @@ test('dense CAO2024 coastlines select and request distinct frames within the Cre
   await context.close()
 })
 
+test('the pinned PaleoDEM frame exposes its age conflict and requests the high-detail pyramid', async ({ browser, baseURL }) => {
+  const context = await browser.newContext({ baseURL, locale: 'en-US', serviceWorkers: 'block' })
+  const page = await context.newPage()
+  await page.addInitScript(() => {
+    window.localStorage.setItem('evo-explorer-guide-v2', 'dismissed')
+    window.localStorage.setItem('evo-atlas-language', 'en')
+  })
+  const tileRequests: string[] = []
+  page.on('request', (request) => {
+    if (/\/maps\/paleotopography\/scotese-wright-2018-paleodem-v2\/ma-0065\/tiles\/\d+\/\d+\/\d+\.png(?:[?#]|$)/.test(request.url())) {
+      tileRequests.push(request.url())
+    }
+  })
+
+  await page.goto('./#/explore?view=map&age=65')
+  const terrain = page.getByLabel('PALEOMAP 65 Ma elevation and bathymetry')
+  await expect(terrain).toBeEnabled()
+  await terrain.check()
+  await expect(page.getByText('PALEOMAP archive frame 65 Ma · internal description 66 Ma', { exact: true })).toBeVisible()
+  await expect(page.getByText(/independent of CAO2024 geometry, CAO2024 observations and PBDB palaeocoordinates/)).toBeVisible()
+  await expect.poll(() => tileRequests.length).toBeGreaterThan(0)
+
+  await context.close()
+})
+
 test('ages beyond the CAO2024 range remain unavailable instead of clamping to 1800 Ma', async ({ browser, baseURL }) => {
   const context = await browser.newContext({ baseURL, locale: 'en-US', serviceWorkers: 'block' })
   const page = await context.newPage()
