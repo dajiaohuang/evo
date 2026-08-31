@@ -90,6 +90,26 @@ if (!itisAmphibia || itisAmphibia.provider !== 'Integrated Taxonomic Information
   throw new Error('Mobile build must stage the complete ITIS Amphibia authority collection')
 }
 const catalogueManifest = JSON.parse(readFileSync(join(sourceDataRoot, ...current.catalogue.manifest.url.split('/')), 'utf8'))
+const otherAnimalsDescriptor = catalogueManifest.resourcePacks?.manifests?.['other-animals']
+if (!otherAnimalsDescriptor?.url) throw new Error('Mobile build is missing the other-animals resource-pack manifest')
+const otherAnimalsManifest = JSON.parse(readFileSync(join(sourceDataRoot, ...otherAnimalsDescriptor.url.split('/')), 'utf8'))
+const expectedOtherAnimalAuthorities = {
+  'itis-platyhelminthes-tsn-crosswalk': { files: 15, records: 28252 },
+  'itis-rotifera-tsn-crosswalk': { files: 3, records: 2662 },
+  'itis-bryozoa-tsn-crosswalk': { files: 3, records: 20754 },
+  'itis-nemertea-tsn-crosswalk': { files: 2, records: 1416 },
+  'itis-tunicata-cephalochordata-tsn-crosswalk': { files: 2, records: 3242 },
+}
+for (const [id, expected] of Object.entries(expectedOtherAnimalAuthorities)) {
+  const authority = otherAnimalsManifest.extensions?.find((extension) => extension.id === id)
+  if (!authority || authority.provider !== 'Integrated Taxonomic Information System'
+    || authority.delivery?.profile !== 'native-full' || authority.delivery?.completeRows !== true
+    || authority.files?.length !== expected.files || authority.delivery?.publishedFileCount !== expected.files
+    || authority.delivery?.canonicalFileCount !== expected.files
+    || authority.files.reduce((sum, file) => sum + file.records, 0) !== expected.records) {
+    throw new Error(`Mobile build must stage the complete ${id} authority collection`)
+  }
+}
 const protistsDescriptor = catalogueManifest.resourcePacks?.manifests?.['protists-chromists']
 if (!protistsDescriptor?.url) throw new Error('Mobile build is missing the protists-chromists resource-pack manifest')
 const protistsManifest = JSON.parse(readFileSync(join(sourceDataRoot, ...protistsDescriptor.url.split('/')), 'utf8'))

@@ -261,6 +261,7 @@ public class AppInstrumentedTest {
         int lpsnIdentifierRecords = 0;
         int indexFungorumIdentifierRecords = 0;
         int foraminiferaAuthorityRecords = 0;
+        int otherAnimalsItisRecords = 0;
         int ictvSpeciesRecords = 0;
         int ictvIsolateRecords = 0;
         int wfoSupplementRecords = 0;
@@ -330,6 +331,36 @@ public class AppInstrumentedTest {
                     assertEquals(extensionFile.getString("sha256"), extensionInventoryRecord.getString("sha256"));
                     verifyAssetRecord(context, extensionInventoryRecord);
                     indexFungorumIdentifierRecords += extensionFile.getInt("records");
+                }
+            } else if (packageId.equals("other-animals")) {
+                JSONArray extensions = pack.getJSONArray("extensions");
+                assertEquals(5, extensions.length());
+                String[] expectedIds = new String[]{"itis-platyhelminthes-tsn-crosswalk", "itis-rotifera-tsn-crosswalk", "itis-bryozoa-tsn-crosswalk", "itis-nemertea-tsn-crosswalk", "itis-tunicata-cephalochordata-tsn-crosswalk"};
+                int[] expectedFiles = new int[]{15, 3, 3, 2, 2};
+                int[] expectedRecords = new int[]{28252, 2662, 20754, 1416, 3242};
+                for (int extensionIndex = 0; extensionIndex < extensions.length(); extensionIndex += 1) {
+                    JSONObject authority = extensions.getJSONObject(extensionIndex);
+                    assertEquals(expectedIds[extensionIndex], authority.getString("id"));
+                    assertEquals("Integrated Taxonomic Information System", authority.getString("provider"));
+                    assertEquals("CC0-1.0", authority.getJSONObject("source").getString("license"));
+                    JSONObject delivery = authority.getJSONObject("delivery");
+                    assertEquals("native-full", delivery.getString("profile"));
+                    assertTrue(delivery.getBoolean("completeRows"));
+                    assertEquals(expectedFiles[extensionIndex], delivery.getInt("canonicalFileCount"));
+                    JSONArray extensionFiles = authority.getJSONArray("files");
+                    assertEquals(expectedFiles[extensionIndex], extensionFiles.length());
+                    int extensionRecords = 0;
+                    for (int fileIndex = 0; fileIndex < extensionFiles.length(); fileIndex += 1) {
+                        JSONObject extensionFile = extensionFiles.getJSONObject(fileIndex);
+                        JSONObject extensionInventoryRecord = findInventoryRecord(files, extensionFile.getString("url"));
+                        assertNotNull("ITIS other-animals shard missing from native release inventory", extensionInventoryRecord);
+                        assertEquals(extensionFile.getInt("bytes"), extensionInventoryRecord.getInt("bytes"));
+                        assertEquals(extensionFile.getString("sha256"), extensionInventoryRecord.getString("sha256"));
+                        verifyAssetRecord(context, extensionInventoryRecord);
+                        extensionRecords += extensionFile.getInt("records");
+                    }
+                    assertEquals(expectedRecords[extensionIndex], extensionRecords);
+                    otherAnimalsItisRecords += extensionRecords;
                 }
             } else if (packageId.equals("protists-chromists")) {
                 JSONArray extensions = pack.getJSONArray("extensions");
@@ -410,6 +441,7 @@ public class AppInstrumentedTest {
         assertEquals(22360, lpsnIdentifierRecords);
         assertEquals(157044, indexFungorumIdentifierRecords);
         assertEquals(47975, foraminiferaAuthorityRecords);
+        assertEquals(56326, otherAnimalsItisRecords);
         assertEquals(17554, ictvSpeciesRecords);
         assertEquals(19285, ictvIsolateRecords);
         assertEquals(61449, wfoSupplementRecords);

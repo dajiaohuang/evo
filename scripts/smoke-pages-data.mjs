@@ -623,6 +623,31 @@ if (catalogue.resourcePacks?.packageCount !== 7
         }
         indexFungorumIdentifierRecords += records
       }
+    } else if (packageId === 'other-animals') {
+      const expected = {
+        'itis-platyhelminthes-tsn-crosswalk': { eligible: 27007, records: 28252, accepted: 7393, redirects: 239, ambiguous: 23, unmatched: 19352, upstreamOnly: 1245, nonApplicable: 72154, files: 15 },
+        'itis-rotifera-tsn-crosswalk': { eligible: 2467, records: 2662, accepted: 701, redirects: 4, ambiguous: 0, unmatched: 1762, upstreamOnly: 195, nonApplicable: 96694, files: 3 },
+        'itis-bryozoa-tsn-crosswalk': { eligible: 20367, records: 20754, accepted: 655, redirects: 15, ambiguous: 0, unmatched: 19697, upstreamOnly: 387, nonApplicable: 78794, files: 3 },
+        'itis-nemertea-tsn-crosswalk': { eligible: 1364, records: 1416, accepted: 142, redirects: 1, ambiguous: 0, unmatched: 1221, upstreamOnly: 52, nonApplicable: 97797, files: 2 },
+        'itis-tunicata-cephalochordata-tsn-crosswalk': { eligible: 3176, records: 3242, accepted: 366, redirects: 8, ambiguous: 0, unmatched: 2802, upstreamOnly: 66, nonApplicable: 95985, files: 2 },
+      }
+      if (extensions.length !== 5 || manifestFile.extensionFileCount !== 0 || manifestFile.canonicalExtensionFileCount !== 25) {
+        failures.push('other-animals: Pages must publish five ITIS authority summaries and no row shards')
+      }
+      for (const [id, counts] of Object.entries(expected)) {
+        const authority = extensions.find((candidate) => candidate.id === id)
+        if (!authority || authority.provider !== 'Integrated Taxonomic Information System'
+          || authority.source?.license !== 'CC0-1.0' || authority.source?.exportDate !== '2026-08-26'
+          || authority.delivery?.profile !== 'web-light' || authority.delivery?.completeRows !== false
+          || authority.files?.length !== 0 || authority.delivery?.publishedFileCount !== 0
+          || authority.delivery?.canonicalFileCount !== counts.files
+          || authority.canonicalFileInventory?.length !== counts.files
+          || authority.counts?.withheld !== 0
+          || Object.entries(counts).some(([key, value]) => key !== 'files' && authority.counts?.[key] !== value)
+          || authority.canonicalFileInventory?.some((file) => !file.path || file.sha256?.length !== 64 || file.sourceSha256?.length !== 64)) {
+          failures.push(`other-animals: ${id} summary, counts, delivery boundary, or canonical hashes are incomplete`)
+        }
+      }
     } else if (packageId === 'protists-chromists') {
       const foraminifera = extensions.find((candidate) => candidate.id === 'foraminifera-wfd-identifiers')
       if (extensions.length !== 1 || !foraminifera

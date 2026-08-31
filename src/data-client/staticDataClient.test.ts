@@ -908,6 +908,67 @@ describe('static runtime release coherence', () => {
     await expect(webClient.loadCatalogueForaminiferaAuthorityRecord('M001')).rejects.toThrow('full Android/iOS data profile')
   })
 
+  it('loads one native ITIS other-animals range shard and refuses summary-only Web rows', async () => {
+    Object.defineProperty(globalThis, 'Worker', { configurable: true, value: undefined })
+    const records = Array.from({ length: 1364 }, (_, index) => ({
+      status: 'unmatched' as const,
+      colUsageId: `N${String(index).padStart(4, '0')}`,
+      colScientificName: `Nemertea species ${index}`,
+    }))
+    const body = `${records.map((record) => JSON.stringify(record)).join('\n')}\n`
+    const file = {
+      path: 'other-animals/itis-nemertea-sidecar-0000.jsonl.gz',
+      url: 'releases/dataset-itis-other-animals/catalogue/resource-packs/other-animals/itis-nemertea-sidecar-0000.jsonl',
+      records: records.length, bytes: new TextEncoder().encode(body).byteLength, sourceBytes: new TextEncoder().encode(body).byteLength,
+      sha256: await sha256Text(body), sourceSha256: await sha256Text(body), mediaType: 'application/x-ndjson' as const,
+      minColId: records[0].colUsageId, maxColId: records.at(-1)?.colUsageId, role: 'col-partition' as const,
+    }
+    const upstreamFile = {
+      path: 'other-animals/itis-nemertea-upstream-only-0000.jsonl.gz', records: 52, bytes: 1, sourceBytes: 1,
+      sha256: 'a'.repeat(64), sourceSha256: 'b'.repeat(64), mediaType: 'application/x-ndjson' as const, role: 'upstream-only' as const,
+    }
+    const extension = {
+      id: 'itis-nemertea-tsn-crosswalk', recordType: 'release-pinned-exact-nomenclatural-crosswalk', provider: 'Integrated Taxonomic Information System',
+      source: { license: 'CC0-1.0' },
+      counts: { eligible: 1364, records: 1416, accepted: 142, redirects: 1, ambiguous: 0, unmatched: 1221, withheld: 0, upstreamOnly: 52, nonApplicable: 97797 },
+      files: [file, { ...upstreamFile, url: 'unused-upstream.jsonl' }], canonicalFileInventory: [file, upstreamFile],
+      delivery: { profile: 'native-full', completeRows: true, publishedFileCount: 2, canonicalFileCount: 2 },
+      integration: { lookup: { strategy: 'lexicographic-colId-range-v1' } },
+    }
+    const packManifest = { schemaVersion: 1, packageType: 'static-nomenclatural-resource-pack', packageId: 'other-animals', version: 'dataset-itis-other-animals', source: { releaseAlias: 'COL26.8' }, acceptedSpeciesCount: 99161, extensions: [extension] }
+    const packFile = { url: 'releases/dataset-itis-other-animals/catalogue/resource-packs/other-animals/manifest.json', acceptedSpeciesCount: 99161, sha256: await sha256(packManifest) }
+    const catalogueManifest = { releaseAlias: 'COL26.8', counts: { acceptedSpecies: 2183133 }, resourcePacks: { manifests: { 'other-animals': packFile } } }
+    const catalogueFile = { url: 'releases/dataset-itis-other-animals/catalogue/manifest.json', sha256: await sha256(catalogueManifest) }
+    const current = { datasetVersion: 'dataset-itis-other-animals', releaseBase: 'releases/dataset-itis-other-animals/', catalogue: { manifest: catalogueFile, releaseAlias: 'COL26.8', acceptedSpecies: 2183133 } }
+    const fetchMock = vi.fn(async (input: RequestInfo | URL) => {
+      const url = String(input)
+      if (url.endsWith('/data/current.json')) return responseFor(current)
+      if (url.endsWith(catalogueFile.url)) return responseFor(catalogueManifest)
+      if (url.endsWith(packFile.url)) return responseFor(packManifest)
+      return url.endsWith(file.url) ? textResponseFor(body) : { ok: false, status: 404, arrayBuffer: async () => new ArrayBuffer(0) }
+    })
+    vi.stubGlobal('fetch', fetchMock)
+    const { loadCatalogueItisOtherAnimalsRecord } = await import('./staticDataClient')
+    await expect(loadCatalogueItisOtherAnimalsRecord('nemertea', 'N0682')).resolves.toMatchObject({ record: records[682] })
+    expect(fetchMock.mock.calls.filter(([input]) => String(input).includes('itis-nemertea-sidecar'))).toHaveLength(1)
+    expect(fetchMock.mock.calls.some(([input]) => String(input).includes('unused-upstream'))).toBe(false)
+
+    vi.resetModules()
+    const webExtension = { ...extension, files: [], delivery: { profile: 'web-light', completeRows: false, publishedFileCount: 0, canonicalFileCount: 2 } }
+    const webPack = { ...packManifest, extensions: [webExtension] }
+    const webPackFile = { ...packFile, sha256: await sha256(webPack) }
+    const webCatalogue = { ...catalogueManifest, resourcePacks: { manifests: { 'other-animals': webPackFile } } }
+    const webCatalogueFile = { ...catalogueFile, sha256: await sha256(webCatalogue) }
+    vi.stubGlobal('fetch', vi.fn(async (input: RequestInfo | URL) => {
+      const url = String(input)
+      if (url.endsWith('/data/current.json')) return responseFor({ ...current, catalogue: { ...current.catalogue, manifest: webCatalogueFile } })
+      if (url.endsWith(catalogueFile.url)) return responseFor(webCatalogue)
+      return responseFor(webPack)
+    }))
+    const webClient = await import('./staticDataClient')
+    await expect(webClient.loadCatalogueItisOtherAnimalsRecord('nemertea', 'N0682')).rejects.toThrow('full Android/iOS data profile')
+  })
+
   it('loads only the requested direct children from a shared parent-hash shard and caches it', async () => {
     const { catalogueRoutePrefix, loadCatalogueChildren } = await import('./staticDataClient')
     const parentId = 'parent-a'

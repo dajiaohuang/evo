@@ -598,21 +598,21 @@ function compareCodeUnits(left: string, right: string): number {
   return left < right ? -1 : left > right ? 1 : 0
 }
 
-function selectIndexFungorumShard(files: import('./types').CatalogueResourcePackPayloadFile[], colId: string): import('./types').CatalogueResourcePackPayloadFile {
+function selectAuthorityShard(files: import('./types').CatalogueResourcePackPayloadFile[], colId: string, authorityLabel: string): import('./types').CatalogueResourcePackPayloadFile {
   let previousMax: string | null = null
   let selected: import('./types').CatalogueResourcePackPayloadFile | null = null
   for (const file of files) {
     if (!file.minColId || !file.maxColId || compareCodeUnits(file.minColId, file.maxColId) > 0
       || (previousMax !== null && compareCodeUnits(previousMax, file.minColId) >= 0)) {
-      throw new Error('Fungi authority shard ranges are incomplete, unordered, or overlapping')
+      throw new Error(`${authorityLabel} authority shard ranges are incomplete, unordered, or overlapping`)
     }
     if (compareCodeUnits(file.minColId, colId) <= 0 && compareCodeUnits(colId, file.maxColId) <= 0) {
-      if (selected) throw new Error(`Multiple Fungi authority shard ranges cover ${colId}`)
+      if (selected) throw new Error(`Multiple ${authorityLabel} authority shard ranges cover ${colId}`)
       selected = file
     }
     previousMax = file.maxColId
   }
-  if (!selected) throw new Error(`Fungi authority shard range does not cover ${colId}`)
+  if (!selected) throw new Error(`${authorityLabel} authority shard range does not cover ${colId}`)
   return selected
 }
 
@@ -635,7 +635,7 @@ export async function loadCatalogueIndexFungorumIdentifier(colId: string): Promi
     || extension.files.reduce((sum, file) => sum + file.records, 0) !== manifest.acceptedSpeciesCount) {
     throw new Error('Fungi authority extension does not match the current nomenclatural pack')
   }
-  const file = selectIndexFungorumShard(extension.files, colId)
+  const file = selectAuthorityShard(extension.files, colId, 'Fungi')
   const records = await loadRuntimeFile<import('./types').CatalogueIndexFungorumIdentifierRecord[]>(file)
   if (records.length !== file.records || records[0]?.colId !== file.minColId || records.at(-1)?.colId !== file.maxColId
     || records.some((record, index) => record.status !== 'accepted'
@@ -667,7 +667,7 @@ export async function loadCatalogueForaminiferaAuthorityRecord(colId: string): P
   if (!extension.delivery.completeRows || extension.delivery.profile !== 'native-full') {
     throw new Error('Foraminifera row-level records are available in the full Android/iOS data profile; Web publishes the verified coverage summary only')
   }
-  const file = selectIndexFungorumShard(extension.files, colId)
+  const file = selectAuthorityShard(extension.files, colId, 'Foraminifera')
   const records = await loadRuntimeFile<import('./types').CatalogueForaminiferaAuthorityRecord[]>(file)
   if (records.length !== file.records || records[0]?.colId !== file.minColId || records.at(-1)?.colId !== file.maxColId
     || records.some((record, index) => record.status !== 'accepted'
@@ -678,6 +678,71 @@ export async function loadCatalogueForaminiferaAuthorityRecord(colId: string): P
     throw new Error('Foraminifera WFD authority shard contents do not match its range descriptor')
   }
   const record = records.find((candidate) => candidate.colId === colId)
+  return record ? { extension, record } : null
+}
+
+const itisOtherAnimalsContracts: Record<import('./types').CatalogueItisOtherAnimalsScope, {
+  eligible: number
+  accepted: number
+  redirects: number
+  ambiguous: number
+  unmatched: number
+  upstreamOnly: number
+  nonApplicable: number
+  canonicalFileCount: number
+}> = {
+  platyhelminthes: { eligible: 27007, accepted: 7393, redirects: 239, ambiguous: 23, unmatched: 19352, upstreamOnly: 1245, nonApplicable: 72154, canonicalFileCount: 15 },
+  rotifera: { eligible: 2467, accepted: 701, redirects: 4, ambiguous: 0, unmatched: 1762, upstreamOnly: 195, nonApplicable: 96694, canonicalFileCount: 3 },
+  bryozoa: { eligible: 20367, accepted: 655, redirects: 15, ambiguous: 0, unmatched: 19697, upstreamOnly: 387, nonApplicable: 78794, canonicalFileCount: 3 },
+  nemertea: { eligible: 1364, accepted: 142, redirects: 1, ambiguous: 0, unmatched: 1221, upstreamOnly: 52, nonApplicable: 97797, canonicalFileCount: 2 },
+  'tunicata-cephalochordata': { eligible: 3176, accepted: 366, redirects: 8, ambiguous: 0, unmatched: 2802, upstreamOnly: 66, nonApplicable: 95985, canonicalFileCount: 2 },
+}
+
+export async function loadCatalogueItisOtherAnimalsRecord(
+  scope: import('./types').CatalogueItisOtherAnimalsScope,
+  colUsageId: string,
+): Promise<{
+  extension: import('./types').CatalogueItisOtherAnimalsResourcePackExtension
+  record: import('./types').ItisNomenclatureRecord
+} | null> {
+  const expected = itisOtherAnimalsContracts[scope]
+  const manifest = await loadCatalogueResourcePackManifest('other-animals')
+  const expectedId = `itis-${scope}-tsn-crosswalk`
+  const extension = manifest.extensions?.find((candidate): candidate is import('./types').CatalogueItisOtherAnimalsResourcePackExtension => candidate.id === expectedId)
+  if (!extension || extension.provider !== 'Integrated Taxonomic Information System'
+    || extension.recordType !== 'release-pinned-exact-nomenclatural-crosswalk'
+    || extension.source.license !== 'CC0-1.0'
+    || extension.integration.lookup.strategy !== 'lexicographic-colId-range-v1'
+    || extension.counts.eligible !== expected.eligible
+    || extension.counts.accepted !== expected.accepted
+    || extension.counts.redirects !== expected.redirects
+    || extension.counts.ambiguous !== expected.ambiguous
+    || extension.counts.unmatched !== expected.unmatched
+    || extension.counts.upstreamOnly !== expected.upstreamOnly
+    || extension.counts.nonApplicable !== expected.nonApplicable
+    || extension.counts.withheld !== 0
+    || extension.counts.records !== expected.eligible + expected.upstreamOnly
+    || extension.delivery.canonicalFileCount !== expected.canonicalFileCount
+    || extension.canonicalFileInventory.length !== expected.canonicalFileCount) {
+    throw new Error(`ITIS ${scope} authority extension does not match the pinned COL26.8 resource pack`)
+  }
+  if (!extension.delivery.completeRows || extension.delivery.profile !== 'native-full') {
+    throw new Error(`ITIS ${scope} row-level records are available in the full Android/iOS data profile; Web publishes the verified coverage summary only`)
+  }
+  const rangeFiles = extension.files.filter((file) => file.minColId && file.maxColId)
+  if (rangeFiles.length !== expected.canonicalFileCount - 1
+    || rangeFiles.reduce((sum, file) => sum + file.records, 0) !== expected.eligible) {
+    throw new Error(`ITIS ${scope} authority extension does not publish its complete COL partition`)
+  }
+  const file = selectAuthorityShard(rangeFiles, colUsageId, `ITIS ${scope}`)
+  const records = await loadRuntimeFile<import('./types').ItisNomenclatureRecord[]>(file)
+  const allowedStatuses = new Set<import('./types').ItisMappingStatus>(['accepted', 'synonym-current-name-redirect', 'ambiguous', 'unmatched'])
+  if (records.length !== file.records || records[0]?.colUsageId !== file.minColId || records.at(-1)?.colUsageId !== file.maxColId
+    || records.some((record, index) => !allowedStatuses.has(record.status)
+      || (index > 0 && compareCodeUnits(records[index - 1].colUsageId, record.colUsageId) >= 0))) {
+    throw new Error(`ITIS ${scope} authority shard contents do not match its range descriptor`)
+  }
+  const record = records.find((candidate) => candidate.colUsageId === colUsageId)
   return record ? { extension, record } : null
 }
 

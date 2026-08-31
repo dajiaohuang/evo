@@ -75,5 +75,809 @@
   ],
   "totalCompressedBytes": 2345272,
   "totalSourceBytes": 19490559,
-  "evidenceBoundary": "This package preserves official COL26.8 nomenclatural and placement fields only; it does not assert an Evo Atlas dossier, biological evidence, media, fossils, ecology, translation, or expert review."
+  "evidenceBoundary": "This package preserves official COL26.8 nomenclatural and placement fields only; it does not assert an Evo Atlas dossier, biological evidence, media, fossils, ecology, translation, or expert review.",
+  "extensions": [
+    {
+      "id": "itis-platyhelminthes-tsn-crosswalk",
+      "recordType": "release-pinned-exact-nomenclatural-crosswalk",
+      "provider": "Integrated Taxonomic Information System",
+      "source": {
+        "datasetId": "itis-2026-08-26",
+        "exportDate": "2026-08-26",
+        "rootTsn": "53963",
+        "license": "CC0-1.0",
+        "citationDoi": "10.5066/F7KH0KBK",
+        "canonicalDescriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals/itis-platyhelminthes-sidecar.json",
+        "canonicalDescriptorBytes": 12068,
+        "canonicalDescriptorSha256": "c306a0a5abb4d4c2b6221ee39cf26cf4d9b8c7b58ec9ef8cd926c0cc9e6550a4"
+      },
+      "scope": {
+        "colRootUsageId": "7NF2H",
+        "colRootScientificName": "Platyhelminthes Minot, 1876",
+        "colStrictAcceptedSpecies": 27007,
+        "packageStrictAcceptedSpecies": 99161,
+        "packageOutOfScopeStrictAcceptedSpecies": 72154,
+        "packageOwnership": "other-animals is the deterministic COL26.8 residual route below Animalia (N); Platyhelminthes 7NF2H has no more-specific static-package route.",
+        "nonApplicableBoundary": "All other-animals strict accepted species not descending from 7NF2H are non-applicable to this Platyhelminthes sidecar. They remain in the mixed resource pack and are not silently mapped to ITIS Platyhelminthes.",
+        "sourceComposition": {
+          "1126": 5852,
+          "1127": 3015,
+          "1128": 12007,
+          "1193": 6073,
+          "2144": 60
+        }
+      },
+      "matching": {
+        "normalization": [
+          "Remove the exact trailing COL authorship field from COL scientificName when that suffix is present; no authorship parser is used.",
+          "Normalize Unicode to NFC, replace underscores with spaces, collapse Unicode whitespace and trim.",
+          "For species-rank comparison, remove one parenthesized subgenus token in the exact Genus (Subgenus) species representation; genus and specific epithet must remain unchanged.",
+          "Preserve case, diacritics, punctuation and all remaining name tokens."
+        ],
+        "statuses": {
+          "accepted": "The normalized COL name resolves to exactly one valid ITIS Platyhelminthes species and directly equals that current ITIS name.",
+          "synonym-current-name-redirect": "The normalized COL name equals official ITIS invalid species-name evidence that resolves to exactly one valid ITIS Platyhelminthes species.",
+          "ambiguous": "The normalized exact evidence resolves to more than one valid ITIS Platyhelminthes species TSN.",
+          "unmatched": "No normalized exact valid-name or official ITIS species-synonym evidence resolves to a valid ITIS Platyhelminthes species."
+        },
+        "prohibited": "No fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered or taxon-substituted matching is used."
+      },
+      "evidenceBoundary": {
+        "en": "This CC0 ITIS sidecar is a frozen exact nomenclatural crosswalk for the COL26.8 Platyhelminthes partition. It is not a final classification authority, phylogeny, species-concept equivalence assertion, biological dossier, fossil record or scientific-review record. The other-animals resource pack is mixed; its non-Platyhelminthes remainder is explicitly out of scope.",
+        "zh": "此 CC0 ITIS 侧车是 COL26.8 扁形动物分区的冻结严格命名交叉映射；它不是最终分类权威、系统发育树、物种概念等同性声明、生物档案、化石记录或科学审查记录。other-animals 资源包是混合包，其余非扁形动物物种被明确排除在本侧车之外。"
+      },
+      "counts": {
+        "eligible": 27007,
+        "records": 28252,
+        "accepted": 7393,
+        "redirects": 239,
+        "ambiguous": 23,
+        "unmatched": 19352,
+        "withheld": 0,
+        "upstreamOnly": 1245,
+        "nonApplicable": 72154
+      },
+      "files": [
+        {
+          "path": "other-animals/itis-platyhelminthes-sidecar-000.jsonl.gz",
+          "records": 2040,
+          "bytes": 57994,
+          "sourceBytes": 524010,
+          "sha256": "889079ac47636f0cee30f25eddea35eb76c26aaed5570a3fdcfaa033bc76e2ec",
+          "sourceSha256": "41b0a39efb3c0d0c6b52f3a03dd0bf693880a3862448f8bb67b5eb9464172609",
+          "encoding": "gzip",
+          "mediaType": "application/x-ndjson",
+          "minColId": "322VJ",
+          "maxColId": "3F2Y2",
+          "role": "col-partition"
+        },
+        {
+          "path": "other-animals/itis-platyhelminthes-sidecar-001.jsonl.gz",
+          "records": 2015,
+          "bytes": 62179,
+          "sourceBytes": 524165,
+          "sha256": "e9ba9590c433c2be293816f9f70b5620ba087ff24639fff3c2813085b6869039",
+          "sourceSha256": "7015c5402a1a7ae8f69808ba3b5502efd15f7b348df869fe5bfed5488e043733",
+          "encoding": "gzip",
+          "mediaType": "application/x-ndjson",
+          "minColId": "3F3KQ",
+          "maxColId": "3X5D8",
+          "role": "col-partition"
+        },
+        {
+          "path": "other-animals/itis-platyhelminthes-sidecar-002.jsonl.gz",
+          "records": 1816,
+          "bytes": 60589,
+          "sourceBytes": 524062,
+          "sha256": "76b68dbd3e670c3f2f742f41e33ca4944780c41472ba5b69dbe1007113e632cc",
+          "sourceSha256": "883cbc89b9ba089203eb49c9170078e4a9a87fb7b40da7bb247854e5b550dced",
+          "encoding": "gzip",
+          "mediaType": "application/x-ndjson",
+          "minColId": "3X88L",
+          "maxColId": "4D8VB",
+          "role": "col-partition"
+        },
+        {
+          "path": "other-animals/itis-platyhelminthes-sidecar-003.jsonl.gz",
+          "records": 1729,
+          "bytes": 56032,
+          "sourceBytes": 524021,
+          "sha256": "ebcf3c3b5254301b2024ca6accae33de4056b29aed1aee65f15e065ac9965a87",
+          "sourceSha256": "30e45584fbd1efa342398e4cffd197290819e89f621ca9113a713a5f10a22d05",
+          "encoding": "gzip",
+          "mediaType": "application/x-ndjson",
+          "minColId": "4D8VC",
+          "maxColId": "4NX7S",
+          "role": "col-partition"
+        },
+        {
+          "path": "other-animals/itis-platyhelminthes-sidecar-004.jsonl.gz",
+          "records": 1783,
+          "bytes": 58671,
+          "sourceBytes": 524164,
+          "sha256": "68a8e41534a67ef5f41a65801a4318b1fc91e46980c57f807113c7d0b7c1f017",
+          "sourceSha256": "e9d05e5ce9d3adde8a1e65f1534b1aa395b697cc3a606a670b74a5d5b7faeca6",
+          "encoding": "gzip",
+          "mediaType": "application/x-ndjson",
+          "minColId": "4NX7T",
+          "maxColId": "585DR",
+          "role": "col-partition"
+        },
+        {
+          "path": "other-animals/itis-platyhelminthes-sidecar-005.jsonl.gz",
+          "records": 1821,
+          "bytes": 64194,
+          "sourceBytes": 524282,
+          "sha256": "c5b14aa67e8b6c0b9dc293b1580705405704acd85e06c28f9c7da8d20b9a2c97",
+          "sourceSha256": "61e69ae93f4a1008a26651e5b0ceaea384148792d0a42153ea7c239c3a0ed38f",
+          "encoding": "gzip",
+          "mediaType": "application/x-ndjson",
+          "minColId": "585DS",
+          "maxColId": "6G2T5",
+          "role": "col-partition"
+        },
+        {
+          "path": "other-animals/itis-platyhelminthes-sidecar-006.jsonl.gz",
+          "records": 1890,
+          "bytes": 66109,
+          "sourceBytes": 524013,
+          "sha256": "6c249ef6cbcbd964e42a6c4fc6997b9197b115720f1e41c8adadc1dd77bc9f1c",
+          "sourceSha256": "249a3ed2f83ab2af137e53ad8fe22774780e85e728920bbcc6ed401c2a017f09",
+          "encoding": "gzip",
+          "mediaType": "application/x-ndjson",
+          "minColId": "6G9DT",
+          "maxColId": "6ZHT4",
+          "role": "col-partition"
+        },
+        {
+          "path": "other-animals/itis-platyhelminthes-sidecar-007.jsonl.gz",
+          "records": 1772,
+          "bytes": 66828,
+          "sourceBytes": 524148,
+          "sha256": "e393b78c88bea83776d05451cc6a332971e321f4b5531c0d4f098d7366f231f1",
+          "sourceSha256": "95868dba8d2e16213f2a41dfb00fb27170af64d93bf2e68f2cad5de64d9c0a17",
+          "encoding": "gzip",
+          "mediaType": "application/x-ndjson",
+          "minColId": "6ZHT5",
+          "maxColId": "7Z6F7",
+          "role": "col-partition"
+        },
+        {
+          "path": "other-animals/itis-platyhelminthes-sidecar-008.jsonl.gz",
+          "records": 2383,
+          "bytes": 75268,
+          "sourceBytes": 524259,
+          "sha256": "a5c794f95979c48d42b0f99da62243d56a6512456d132e29108b0b6293a84f51",
+          "sourceSha256": "1cffa4d6d43523ab73e97ef63efcc07828ecafc3ea330fcd90792db629ad2045",
+          "encoding": "gzip",
+          "mediaType": "application/x-ndjson",
+          "minColId": "7Z6PW",
+          "maxColId": "8MWXB",
+          "role": "col-partition"
+        },
+        {
+          "path": "other-animals/itis-platyhelminthes-sidecar-009.jsonl.gz",
+          "records": 1998,
+          "bytes": 67062,
+          "sourceBytes": 524241,
+          "sha256": "b326e88122aab9464340364fefee744a2577636d21c78205f1c54cca3b9e537e",
+          "sourceSha256": "505d10959ab6caed6859440a8cc655096b57253241c145fdd1e30e3de99791ec",
+          "encoding": "gzip",
+          "mediaType": "application/x-ndjson",
+          "minColId": "8MWYC",
+          "maxColId": "9ZH3S",
+          "role": "col-partition"
+        },
+        {
+          "path": "other-animals/itis-platyhelminthes-sidecar-010.jsonl.gz",
+          "records": 2449,
+          "bytes": 76677,
+          "sourceBytes": 524217,
+          "sha256": "761f638d9234b4b6ae2e52b66cd947773d02c59797bbfafa48108c247a5bf2d9",
+          "sourceSha256": "63dad9610b10bab8aecb2235917456ecae9650e658915040c9775f0303d4649d",
+          "encoding": "gzip",
+          "mediaType": "application/x-ndjson",
+          "minColId": "9ZJ5",
+          "maxColId": "CFXDF",
+          "role": "col-partition"
+        },
+        {
+          "path": "other-animals/itis-platyhelminthes-sidecar-011.jsonl.gz",
+          "records": 2436,
+          "bytes": 73798,
+          "sourceBytes": 524164,
+          "sha256": "abc2ab4fd4bb6bad9eccda34365ce19c9353cd031456311d1939595a6b985913",
+          "sourceSha256": "b7525f5a751d0e5fa9512eae0f6ddfe8120dc8c6338f07de33f09db48db3e96d",
+          "encoding": "gzip",
+          "mediaType": "application/x-ndjson",
+          "minColId": "CFXMN",
+          "maxColId": "F4GN",
+          "role": "col-partition"
+        },
+        {
+          "path": "other-animals/itis-platyhelminthes-sidecar-012.jsonl.gz",
+          "records": 1934,
+          "bytes": 66481,
+          "sourceBytes": 524177,
+          "sha256": "9cc9d33d4eb4c6d24348c379c3be8dae618503c89fac55c8363664ad3ef80fef",
+          "sourceSha256": "3a84ce2d1ea7ffb6ca86079b2198ed8f34c3a37c6d315d08a7a241bdab7f25a4",
+          "encoding": "gzip",
+          "mediaType": "application/x-ndjson",
+          "minColId": "F5QW",
+          "maxColId": "V4SHJ",
+          "role": "col-partition"
+        },
+        {
+          "path": "other-animals/itis-platyhelminthes-sidecar-013.jsonl.gz",
+          "records": 941,
+          "bytes": 32164,
+          "sourceBytes": 237000,
+          "sha256": "70e7ede3f08e7bd46c3022c9d4ca4c9035bd4e1fcac31f5b2b95a2924e9c2775",
+          "sourceSha256": "9c5279ad3c95bfb2f9b47243344703c300401390d953a82fbc9606c0e880f146",
+          "encoding": "gzip",
+          "mediaType": "application/x-ndjson",
+          "minColId": "V4SHK",
+          "maxColId": "ZYHD",
+          "role": "col-partition"
+        },
+        {
+          "path": "other-animals/itis-platyhelminthes-upstream-only-000.jsonl.gz",
+          "records": 1245,
+          "bytes": 19117,
+          "sourceBytes": 488796,
+          "sha256": "7d7102614e8bad50d0af61e7e000a08b7570b34a9026956fc60eb500fa0c30af",
+          "sourceSha256": "3c3d4ac67fb83471be9fdd04d39037d0bf782e6c5b37636f58c6494bbda60b5b",
+          "encoding": "gzip",
+          "mediaType": "application/x-ndjson",
+          "colOwnership": null,
+          "role": "upstream-only"
+        }
+      ],
+      "totalCompressedBytes": 903163,
+      "totalSourceBytes": 7539719,
+      "deliveryProfiles": {
+        "web-light": {
+          "payload": "summary-only",
+          "files": [],
+          "records": 0,
+          "totalCompressedBytes": 0,
+          "totalSourceBytes": 0,
+          "statement": "GitHub Pages publishes the complete Platyhelminthes ITIS summary and canonical hashes without row shards."
+        },
+        "native-full": {
+          "payload": "complete",
+          "files": [
+            "other-animals/itis-platyhelminthes-sidecar-000.jsonl.gz",
+            "other-animals/itis-platyhelminthes-sidecar-001.jsonl.gz",
+            "other-animals/itis-platyhelminthes-sidecar-002.jsonl.gz",
+            "other-animals/itis-platyhelminthes-sidecar-003.jsonl.gz",
+            "other-animals/itis-platyhelminthes-sidecar-004.jsonl.gz",
+            "other-animals/itis-platyhelminthes-sidecar-005.jsonl.gz",
+            "other-animals/itis-platyhelminthes-sidecar-006.jsonl.gz",
+            "other-animals/itis-platyhelminthes-sidecar-007.jsonl.gz",
+            "other-animals/itis-platyhelminthes-sidecar-008.jsonl.gz",
+            "other-animals/itis-platyhelminthes-sidecar-009.jsonl.gz",
+            "other-animals/itis-platyhelminthes-sidecar-010.jsonl.gz",
+            "other-animals/itis-platyhelminthes-sidecar-011.jsonl.gz",
+            "other-animals/itis-platyhelminthes-sidecar-012.jsonl.gz",
+            "other-animals/itis-platyhelminthes-sidecar-013.jsonl.gz",
+            "other-animals/itis-platyhelminthes-upstream-only-000.jsonl.gz"
+          ],
+          "records": 28252,
+          "totalCompressedBytes": 903163,
+          "totalSourceBytes": 7539719
+        }
+      },
+      "limitations": [
+        "This CC0 ITIS sidecar is a frozen exact nomenclatural crosswalk for the COL26.8 Platyhelminthes partition. It is not a final classification authority, phylogeny, species-concept equivalence assertion, biological dossier, fossil record or scientific-review record. The other-animals resource pack is mixed; its non-Platyhelminthes remainder is explicitly out of scope.",
+        "No fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered or taxon-substituted matching is used."
+      ],
+      "integration": {
+        "clientParityRequirement": "Android and iOS must copy every native-full file byte-for-byte; Web uses the web-light summary profile.",
+        "lookup": {
+          "strategy": "lexicographic-colId-range-v1",
+          "ordering": "Unicode code-unit ascending",
+          "requestPolicy": "Select the sole inclusive COL-ID range and read at most one COL partition; upstream-only files are never selected by COL ID."
+        }
+      }
+    },
+    {
+      "id": "itis-rotifera-tsn-crosswalk",
+      "recordType": "release-pinned-exact-nomenclatural-crosswalk",
+      "provider": "Integrated Taxonomic Information System",
+      "source": {
+        "datasetId": "itis-2026-08-26",
+        "exportDate": "2026-08-26",
+        "rootTsn": "58239",
+        "license": "CC0-1.0",
+        "citationDoi": "10.5066/F7KH0KBK",
+        "canonicalDescriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals/itis-rotifera-sidecar.json",
+        "canonicalDescriptorBytes": 5759,
+        "canonicalDescriptorSha256": "f5f4802562a3345766daee09bca95db3a1b3ef344ceeeb08df5d34c0f0b336d0"
+      },
+      "scope": {
+        "packageRootUsageId": "N",
+        "packageRootScientificName": "Animalia",
+        "colRootUsageId": "5Y",
+        "colRootScientificName": "Rotifera",
+        "colStrictAcceptedSpecies": 2467,
+        "packageStrictAcceptedSpecies": 99161,
+        "packageOutOfScopeStrictAcceptedSpecies": 96694,
+        "nonApplicableRemainder": "Every strict accepted COL26.8 species owned by the other-animals remainder route below N but not descending from 5Y; this complete remainder is explicitly excluded from the Rotifera sidecar.",
+        "boundary": "This mixed package contains many animal phyla and broader Animalia navigation content. This sidecar covers only the strict accepted COL26.8 species descending from the exact Rotifera root 5Y; all remaining package-owned species are explicitly out of scope."
+      },
+      "matching": {
+        "normalization": [
+          "Remove the exact trailing COL authorship field from COL scientificName when that suffix is present; no authorship parser is used.",
+          "Normalize Unicode to NFC, replace underscores with spaces, collapse Unicode whitespace and trim.",
+          "For species-rank comparison, remove one parenthesized subgenus token in the exact Genus (Subgenus) species representation; genus and specific epithet must remain unchanged.",
+          "Preserve case, diacritics, punctuation and all remaining name tokens."
+        ],
+        "statuses": {
+          "accepted": "The normalized COL name resolves to exactly one valid ITIS Rotifera species and directly equals that current ITIS name.",
+          "synonym-current-name-redirect": "The normalized COL name equals official ITIS invalid species-name evidence that resolves to exactly one valid ITIS Rotifera species.",
+          "ambiguous": "The normalized exact evidence resolves to more than one valid ITIS Rotifera species TSN.",
+          "unmatched": "No normalized exact valid-name or official ITIS species-synonym evidence resolves to a valid ITIS Rotifera species."
+        },
+        "prohibited": "No fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered or taxon-substituted matching is used."
+      },
+      "evidenceBoundary": {
+        "en": "This CC0 ITIS sidecar is a frozen exact nomenclatural crosswalk, not a global rotifer checklist, final classification authority, phylogeny, species-concept equivalence assertion, biological dossier or scientific-review record.",
+        "zh": "此 CC0 ITIS 侧车是冻结的严格命名交叉映射；它不是全球轮形动物名录、最终分类权威、系统发育树、物种概念等同性声明、生物档案或科学审查记录。"
+      },
+      "counts": {
+        "eligible": 2467,
+        "records": 2662,
+        "accepted": 701,
+        "redirects": 4,
+        "ambiguous": 0,
+        "unmatched": 1762,
+        "withheld": 0,
+        "upstreamOnly": 195,
+        "nonApplicable": 96694
+      },
+      "files": [
+        {
+          "path": "other-animals/itis-rotifera-sidecar-0000.jsonl.gz",
+          "records": 2236,
+          "bytes": 56538,
+          "sourceBytes": 524058,
+          "sha256": "ed3de03fd271d05688eee9f06a7915ef190c05b8cc202e5c171d73f3bd0a5bcf",
+          "sourceSha256": "156c96151ec21567083f3bdc532a077949d368264bb15b25630b70b91d49013c",
+          "encoding": "gzip",
+          "mediaType": "application/x-ndjson",
+          "minColId": "33MV6",
+          "maxColId": "MTRR",
+          "role": "col-partition"
+        },
+        {
+          "path": "other-animals/itis-rotifera-sidecar-0001.jsonl.gz",
+          "records": 231,
+          "bytes": 5771,
+          "sourceBytes": 55876,
+          "sha256": "4c28f92688819220fffa82a5af4b6d29b360519d93940c502c8cd63775718af3",
+          "sourceSha256": "6d7dcecbb7a4fe27f7483e29cc4fde362dd0a42ecfb3dd63c3a361c8a2cfb4aa",
+          "encoding": "gzip",
+          "mediaType": "application/x-ndjson",
+          "minColId": "MTRS",
+          "maxColId": "XQM7",
+          "role": "col-partition"
+        },
+        {
+          "path": "other-animals/itis-rotifera-upstream-only-0000.jsonl.gz",
+          "records": 195,
+          "bytes": 2825,
+          "sourceBytes": 71749,
+          "sha256": "5d8d04923c5c8fc1fa712ea6cc7dc8557278a20d609193e9bbca746e74df0103",
+          "sourceSha256": "b4403340c04b931fe28091569d902d62f98e5a183d3dd0b2836136c4f58a8d4a",
+          "encoding": "gzip",
+          "mediaType": "application/x-ndjson",
+          "colOwnership": null,
+          "role": "upstream-only"
+        }
+      ],
+      "totalCompressedBytes": 65134,
+      "totalSourceBytes": 651683,
+      "deliveryProfiles": {
+        "web-light": {
+          "payload": "summary-only",
+          "files": [],
+          "records": 0,
+          "totalCompressedBytes": 0,
+          "totalSourceBytes": 0,
+          "statement": "GitHub Pages publishes the complete Rotifera ITIS summary and canonical hashes without row shards."
+        },
+        "native-full": {
+          "payload": "complete",
+          "files": [
+            "other-animals/itis-rotifera-sidecar-0000.jsonl.gz",
+            "other-animals/itis-rotifera-sidecar-0001.jsonl.gz",
+            "other-animals/itis-rotifera-upstream-only-0000.jsonl.gz"
+          ],
+          "records": 2662,
+          "totalCompressedBytes": 65134,
+          "totalSourceBytes": 651683
+        }
+      },
+      "limitations": [
+        "This CC0 ITIS sidecar is a frozen exact nomenclatural crosswalk, not a global rotifer checklist, final classification authority, phylogeny, species-concept equivalence assertion, biological dossier or scientific-review record.",
+        "No fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered or taxon-substituted matching is used."
+      ],
+      "integration": {
+        "clientParityRequirement": "Android and iOS must copy every native-full file byte-for-byte; Web uses the web-light summary profile.",
+        "lookup": {
+          "strategy": "lexicographic-colId-range-v1",
+          "ordering": "Unicode code-unit ascending",
+          "requestPolicy": "Select the sole inclusive COL-ID range and read at most one COL partition; upstream-only files are never selected by COL ID."
+        }
+      }
+    },
+    {
+      "id": "itis-bryozoa-tsn-crosswalk",
+      "recordType": "release-pinned-exact-nomenclatural-crosswalk",
+      "provider": "Integrated Taxonomic Information System",
+      "source": {
+        "datasetId": "itis-2026-08-26",
+        "exportDate": "2026-08-26",
+        "rootTsn": "155469",
+        "license": "CC0-1.0",
+        "citationDoi": "10.5066/F7KH0KBK",
+        "canonicalDescriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals/itis-bryozoa-sidecar.json",
+        "canonicalDescriptorBytes": 6793,
+        "canonicalDescriptorSha256": "ab60debf4c93968fa11a67bb7d4767d5a9997abbce45848e6f4b71f064f18554"
+      },
+      "scope": {
+        "colRootUsageId": "622CG",
+        "colRootScientificName": "Bryozoa",
+        "colStrictAcceptedSpecies": 20367,
+        "packageStrictAcceptedSpecies": 99161,
+        "packageOutOfScopeStrictAcceptedSpecies": 78794,
+        "boundary": "other-animals is the deterministic Animalia remainder after more-specific static-package routes. This sidecar covers only strict accepted COL26.8 species descending from exact Bryozoa root 622CG; every other other-animals-owned species is explicitly outside this sidecar."
+      },
+      "matching": {
+        "normalization": [
+          "Remove the exact trailing COL authorship field from COL scientificName when that suffix is present; no authorship parser is used.",
+          "Normalize Unicode to NFC, replace underscores with spaces, collapse Unicode whitespace and trim.",
+          "For species-rank comparison, remove one parenthesized subgenus token in the exact Genus (Subgenus) species representation; genus and specific epithet must remain unchanged.",
+          "Preserve case, diacritics, punctuation and all remaining name tokens."
+        ],
+        "statuses": {
+          "accepted": "The normalized COL name resolves to exactly one valid ITIS Bryozoa species and directly equals that current ITIS name.",
+          "synonym-current-name-redirect": "The normalized COL name equals official ITIS invalid species-name evidence that resolves to exactly one valid ITIS Bryozoa species.",
+          "ambiguous": "The normalized exact evidence resolves to more than one valid ITIS Bryozoa species TSN.",
+          "unmatched": "No normalized exact valid-name or official ITIS species-synonym evidence resolves to a valid ITIS Bryozoa species."
+        },
+        "prohibited": "No fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered or taxon-substituted matching is used."
+      },
+      "evidenceBoundary": {
+        "en": "This CC0 ITIS sidecar is a frozen exact nomenclatural crosswalk for the declared Bryozoa partition inside the mixed Other Animals resource pack. It is not a global bryozoan checklist, final classification authority, phylogeny, species-concept equivalence assertion, biological dossier or scientific-review record.",
+        "zh": "此 CC0 ITIS 侧车是混合“其他动物”资源包中所声明苔藓动物分区的冻结严格命名交叉映射；它不是全球苔藓动物名录、最终分类权威、系统发育树、物种概念等同性声明、生物档案或科学审查记录。"
+      },
+      "counts": {
+        "eligible": 20367,
+        "records": 20754,
+        "accepted": 655,
+        "redirects": 15,
+        "ambiguous": 0,
+        "unmatched": 19697,
+        "withheld": 0,
+        "upstreamOnly": 387,
+        "nonApplicable": 78794
+      },
+      "files": [
+        {
+          "path": "other-animals/itis-bryozoa-sidecar-0000.jsonl.gz",
+          "records": 10974,
+          "bytes": 248712,
+          "sourceBytes": 2097071,
+          "sha256": "ac1fa59d36ce2c6b473f8870b6279c7a89437ecb88cc13a6553eef92a627e901",
+          "sourceSha256": "91a28481fe6f402f6596289aa2e98b3f7a04d8841fe15f87484f0f8f6b8769c7",
+          "encoding": "gzip",
+          "mediaType": "application/x-ndjson",
+          "minColId": "322VM",
+          "maxColId": "86JVY",
+          "role": "col-partition"
+        },
+        {
+          "path": "other-animals/itis-bryozoa-sidecar-0001.jsonl.gz",
+          "records": 9393,
+          "bytes": 202193,
+          "sourceBytes": 1731106,
+          "sha256": "d79c2bede09dbe7e76aa054c91d5b492aa433709e2455aefd7b34602eeed3576",
+          "sourceSha256": "fa0a303c24e3e53c5150015e47dc34addc884e808d45f49e15bcd29108811b93",
+          "encoding": "gzip",
+          "mediaType": "application/x-ndjson",
+          "minColId": "86JVZ",
+          "maxColId": "ZYZB",
+          "role": "col-partition"
+        },
+        {
+          "path": "other-animals/itis-bryozoa-upstream-only-0000.jsonl.gz",
+          "records": 387,
+          "bytes": 5732,
+          "sourceBytes": 142738,
+          "sha256": "3c6a1dcd08cc6fe6fccac7cc2b630a04f7848f6cb0df82e1086fb75c2e34adf1",
+          "sourceSha256": "65832a3e3f203bca60a23c5c401538ebc778ca7b381f560de39008af4a6ef23d",
+          "encoding": "gzip",
+          "mediaType": "application/x-ndjson",
+          "colOwnership": null,
+          "role": "upstream-only"
+        }
+      ],
+      "totalCompressedBytes": 456637,
+      "totalSourceBytes": 3970915,
+      "deliveryProfiles": {
+        "web-light": {
+          "payload": "summary-only",
+          "files": [],
+          "records": 0,
+          "totalCompressedBytes": 0,
+          "totalSourceBytes": 0,
+          "statement": "GitHub Pages publishes the complete Bryozoa ITIS summary and canonical hashes without row shards."
+        },
+        "native-full": {
+          "payload": "complete",
+          "files": [
+            "other-animals/itis-bryozoa-sidecar-0000.jsonl.gz",
+            "other-animals/itis-bryozoa-sidecar-0001.jsonl.gz",
+            "other-animals/itis-bryozoa-upstream-only-0000.jsonl.gz"
+          ],
+          "records": 20754,
+          "totalCompressedBytes": 456637,
+          "totalSourceBytes": 3970915
+        }
+      },
+      "limitations": [
+        "This CC0 ITIS sidecar is a frozen exact nomenclatural crosswalk for the declared Bryozoa partition inside the mixed Other Animals resource pack. It is not a global bryozoan checklist, final classification authority, phylogeny, species-concept equivalence assertion, biological dossier or scientific-review record.",
+        "No fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered or taxon-substituted matching is used."
+      ],
+      "integration": {
+        "clientParityRequirement": "Android and iOS must copy every native-full file byte-for-byte; Web uses the web-light summary profile.",
+        "lookup": {
+          "strategy": "lexicographic-colId-range-v1",
+          "ordering": "Unicode code-unit ascending",
+          "requestPolicy": "Select the sole inclusive COL-ID range and read at most one COL partition; upstream-only files are never selected by COL ID."
+        }
+      }
+    },
+    {
+      "id": "itis-nemertea-tsn-crosswalk",
+      "recordType": "release-pinned-exact-nomenclatural-crosswalk",
+      "provider": "Integrated Taxonomic Information System",
+      "source": {
+        "datasetId": "itis-2026-08-26",
+        "exportDate": "2026-08-26",
+        "rootTsn": "57411",
+        "license": "CC0-1.0",
+        "citationDoi": "10.5066/F7KH0KBK",
+        "canonicalDescriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals/itis-nemertea-sidecar.json",
+        "canonicalDescriptorBytes": 6297,
+        "canonicalDescriptorSha256": "2e8d195153bbfe68fca5b0c12413ca7c7757ede55f24ae2670ce804acd5df30c"
+      },
+      "scope": {
+        "colRootUsageId": "5C",
+        "colRootScientificName": "Nemertea",
+        "colStrictAcceptedSpecies": 1364,
+        "packageStrictAcceptedSpecies": 99161,
+        "packageOutOfScopeStrictAcceptedSpecies": 97797,
+        "boundary": "other-animals is the deterministic Animalia remainder after more-specific static-package routes. This sidecar covers only strict accepted COL26.8 species descending from exact Nemertea root 5C; every other other-animals-owned species is explicitly outside this sidecar."
+      },
+      "matching": {
+        "normalization": [
+          "Remove the exact trailing COL authorship field from COL scientificName when that suffix is present; no authorship parser is used.",
+          "Normalize Unicode to NFC, replace underscores with spaces, collapse Unicode whitespace and trim.",
+          "For species-rank comparison, remove one parenthesized subgenus token in the exact Genus (Subgenus) species representation; genus and specific epithet must remain unchanged.",
+          "Preserve case, diacritics, punctuation and all remaining name tokens."
+        ],
+        "statuses": {
+          "accepted": "The normalized COL name resolves to exactly one valid ITIS Nemertea species and directly equals that current ITIS name.",
+          "synonym-current-name-redirect": "The normalized COL name equals official ITIS invalid species-name evidence that resolves to exactly one valid ITIS Nemertea species.",
+          "ambiguous": "The normalized exact evidence resolves to more than one valid ITIS Nemertea species TSN.",
+          "unmatched": "No normalized exact valid-name or official ITIS species-synonym evidence resolves to a valid ITIS Nemertea species."
+        },
+        "prohibited": "No fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered or taxon-substituted matching is used."
+      },
+      "evidenceBoundary": {
+        "en": "This CC0 ITIS sidecar is a frozen exact nomenclatural crosswalk for the declared Nemertea partition inside the mixed Other Animals resource pack. It is not a global nemertean checklist, final classification authority, phylogeny, species-concept equivalence assertion, biological dossier or scientific-review record.",
+        "zh": "此 CC0 ITIS 侧车是混合“其他动物”资源包中已声明 Nemertea 分区的冻结严格命名交叉映射；它不是全球纽形动物名录、最终分类权威、系统发育、物种概念等同性声明、生物档案或科学审查记录。"
+      },
+      "counts": {
+        "eligible": 1364,
+        "records": 1416,
+        "accepted": 142,
+        "redirects": 1,
+        "ambiguous": 0,
+        "unmatched": 1221,
+        "withheld": 0,
+        "upstreamOnly": 52,
+        "nonApplicable": 97797
+      },
+      "files": [
+        {
+          "path": "other-animals/itis-nemertea-sidecar-0000.jsonl.gz",
+          "records": 1364,
+          "bytes": 34509,
+          "sourceBytes": 281326,
+          "sha256": "11f68485c9640921f2e0d7e08ce73fb079d33fd4fed3433428b7152fdbd521a6",
+          "sourceSha256": "e961828110fab5de54ae037f0de4a387e204be97ffd834fcc8239101d2975895",
+          "encoding": "gzip",
+          "mediaType": "application/x-ndjson",
+          "minColId": "32KJP",
+          "maxColId": "ZS8H",
+          "role": "col-partition"
+        },
+        {
+          "path": "other-animals/itis-nemertea-upstream-only-0000.jsonl.gz",
+          "records": 52,
+          "bytes": 1035,
+          "sourceBytes": 19093,
+          "sha256": "e6277831f2a54e0377bf902ba450b7c5162267a8ed6043866cd944a701411b16",
+          "sourceSha256": "99ba50a212c8700c0bc402484012599fddec742e07f59ca836687af967a5c052",
+          "encoding": "gzip",
+          "mediaType": "application/x-ndjson",
+          "colOwnership": null,
+          "role": "upstream-only"
+        }
+      ],
+      "totalCompressedBytes": 35544,
+      "totalSourceBytes": 300419,
+      "deliveryProfiles": {
+        "web-light": {
+          "payload": "summary-only",
+          "files": [],
+          "records": 0,
+          "totalCompressedBytes": 0,
+          "totalSourceBytes": 0,
+          "statement": "GitHub Pages publishes the complete Nemertea ITIS summary and canonical hashes without row shards."
+        },
+        "native-full": {
+          "payload": "complete",
+          "files": [
+            "other-animals/itis-nemertea-sidecar-0000.jsonl.gz",
+            "other-animals/itis-nemertea-upstream-only-0000.jsonl.gz"
+          ],
+          "records": 1416,
+          "totalCompressedBytes": 35544,
+          "totalSourceBytes": 300419
+        }
+      },
+      "limitations": [
+        "This CC0 ITIS sidecar is a frozen exact nomenclatural crosswalk for the declared Nemertea partition inside the mixed Other Animals resource pack. It is not a global nemertean checklist, final classification authority, phylogeny, species-concept equivalence assertion, biological dossier or scientific-review record.",
+        "No fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered or taxon-substituted matching is used."
+      ],
+      "integration": {
+        "clientParityRequirement": "Android and iOS must copy every native-full file byte-for-byte; Web uses the web-light summary profile.",
+        "lookup": {
+          "strategy": "lexicographic-colId-range-v1",
+          "ordering": "Unicode code-unit ascending",
+          "requestPolicy": "Select the sole inclusive COL-ID range and read at most one COL partition; upstream-only files are never selected by COL ID."
+        }
+      }
+    },
+    {
+      "id": "itis-tunicata-cephalochordata-tsn-crosswalk",
+      "recordType": "release-pinned-exact-nomenclatural-crosswalk",
+      "provider": "Integrated Taxonomic Information System",
+      "source": {
+        "datasetId": "itis-2026-08-26",
+        "exportDate": "2026-08-26",
+        "license": "CC0-1.0",
+        "citationDoi": "10.5066/F7KH0KBK",
+        "canonicalDescriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals/itis-tunicata-cephalochordata-sidecar.json",
+        "canonicalDescriptorBytes": 7264,
+        "canonicalDescriptorSha256": "8a2b90173548e0ea9b6d8718f3628720e6e90c370d334962aa47c8710309323f"
+      },
+      "scope": {
+        "colRoots": [
+          {
+            "id": "7NF2Z",
+            "scientificName": "Tunicata"
+          },
+          {
+            "id": "7NF2Q",
+            "scientificName": "Cephalochordata"
+          }
+        ],
+        "colStrictAcceptedSpecies": 3176,
+        "speciesByColRoot": {
+          "7NF2Z": 3146,
+          "7NF2Q": 30
+        },
+        "packageStrictAcceptedSpecies": 99161,
+        "packageOutOfScopeStrictAcceptedSpecies": 95985,
+        "boundary": "Other Animals is the deterministic Animalia remainder after more-specific static-package routes. This sidecar covers only strict accepted COL26.8 species descending from the exact Tunicata and Cephalochordata roots; every other Other Animals-owned species is explicitly nonapplicable."
+      },
+      "matching": {
+        "normalization": [
+          "Remove the exact trailing COL authorship field from COL scientificName when that suffix is present; no authorship parser is used.",
+          "Normalize Unicode to NFC, replace underscores with spaces, collapse Unicode whitespace and trim.",
+          "For species-rank comparison, remove one parenthesized subgenus token in the exact Genus (Subgenus) species representation; genus and specific epithet must remain unchanged.",
+          "Preserve case, diacritics, punctuation and all remaining name tokens."
+        ],
+        "statuses": {
+          "accepted": "The normalized COL name resolves to exactly one valid ITIS Tunicata or Cephalochordata species and directly equals that current ITIS name.",
+          "synonym-current-name-redirect": "The normalized COL name equals official ITIS invalid species-name evidence that resolves to exactly one valid ITIS Tunicata or Cephalochordata species.",
+          "ambiguous": "The normalized exact evidence resolves to more than one valid ITIS Tunicata or Cephalochordata species TSN.",
+          "unmatched": "No normalized exact valid-name or official ITIS species-synonym evidence resolves to a valid ITIS Tunicata or Cephalochordata species."
+        },
+        "prohibited": "No fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered or taxon-substituted matching is used."
+      },
+      "evidenceBoundary": {
+        "en": "This CC0 ITIS sidecar is a frozen exact nomenclatural crosswalk for Tunicata and Cephalochordata inside the mixed Other Animals resource pack. ITIS uses valid Urochordata as the Tunicata root in this export; invalid ITIS Tunicata is retained as an explicit alias. This is not a final classification authority, phylogeny, species-concept equivalence assertion, biological dossier or scientific-review record.",
+        "zh": "此 CC0 ITIS 侧车是混合“其他动物”资源包中尾索动物与头索动物分区的冻结严格命名交叉映射。该 ITIS 导出以有效名 Urochordata 作为 Tunicata 的根，并将无效名 Tunicata 明确保留为别名。它不是最终分类权威、系统发育树、物种概念等同性声明、生物档案或科学审查记录。"
+      },
+      "counts": {
+        "eligible": 3176,
+        "records": 3242,
+        "accepted": 366,
+        "redirects": 8,
+        "ambiguous": 0,
+        "unmatched": 2802,
+        "withheld": 0,
+        "upstreamOnly": 66,
+        "nonApplicable": 95985
+      },
+      "files": [
+        {
+          "path": "other-animals/itis-tunicata-cephalochordata-sidecar-0000.jsonl.gz",
+          "records": 3176,
+          "bytes": 74956,
+          "sourceBytes": 849136,
+          "sha256": "a789b16b8474e8155f8bce07615a7fe675d4ce7be2d81f346133b7a8e0ba1bb5",
+          "sourceSha256": "a94f2520b0d328c22ca2f6629e1c53026adbf7077c32a0827ffb21b458a911eb",
+          "encoding": "gzip",
+          "mediaType": "application/x-ndjson",
+          "minColId": "327YW",
+          "maxColId": "YQM5",
+          "role": "col-partition"
+        },
+        {
+          "path": "other-animals/itis-tunicata-cephalochordata-upstream-only-0000.jsonl.gz",
+          "records": 66,
+          "bytes": 1329,
+          "sourceBytes": 25532,
+          "sha256": "907cdbf1b65ec43c5922a445f5aa670bc794b5c04a6526b0024c1727cd226c8f",
+          "sourceSha256": "862171b16909844b5fa40ac66a9ca1b09f80cad60a01d3bad469e0a384e84706",
+          "encoding": "gzip",
+          "mediaType": "application/x-ndjson",
+          "colOwnership": null,
+          "role": "upstream-only"
+        }
+      ],
+      "totalCompressedBytes": 76285,
+      "totalSourceBytes": 874668,
+      "deliveryProfiles": {
+        "web-light": {
+          "payload": "summary-only",
+          "files": [],
+          "records": 0,
+          "totalCompressedBytes": 0,
+          "totalSourceBytes": 0,
+          "statement": "GitHub Pages publishes the complete Tunicata and Cephalochordata ITIS summary and canonical hashes without row shards."
+        },
+        "native-full": {
+          "payload": "complete",
+          "files": [
+            "other-animals/itis-tunicata-cephalochordata-sidecar-0000.jsonl.gz",
+            "other-animals/itis-tunicata-cephalochordata-upstream-only-0000.jsonl.gz"
+          ],
+          "records": 3242,
+          "totalCompressedBytes": 76285,
+          "totalSourceBytes": 874668
+        }
+      },
+      "limitations": [
+        "This CC0 ITIS sidecar is a frozen exact nomenclatural crosswalk for Tunicata and Cephalochordata inside the mixed Other Animals resource pack. ITIS uses valid Urochordata as the Tunicata root in this export; invalid ITIS Tunicata is retained as an explicit alias. This is not a final classification authority, phylogeny, species-concept equivalence assertion, biological dossier or scientific-review record.",
+        "No fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered or taxon-substituted matching is used."
+      ],
+      "integration": {
+        "clientParityRequirement": "Android and iOS must copy every native-full file byte-for-byte; Web uses the web-light summary profile.",
+        "lookup": {
+          "strategy": "lexicographic-colId-range-v1",
+          "ordering": "Unicode code-unit ascending",
+          "requestPolicy": "Select the sole inclusive COL-ID range and read at most one COL partition; upstream-only files are never selected by COL ID."
+        }
+      }
+    }
+  ]
 }

@@ -974,7 +974,48 @@ export interface CatalogueForaminiferaResourcePackExtension {
   }
 }
 
-export type CatalogueResourcePackExtension = CatalogueLpsnResourcePackExtension | CatalogueIctvResourcePackExtension | CatalogueWfoPlantResourcePackExtension | CatalogueIndexFungorumResourcePackExtension | CatalogueForaminiferaResourcePackExtension
+export type CatalogueItisOtherAnimalsScope = 'platyhelminthes' | 'rotifera' | 'bryozoa' | 'nemertea' | 'tunicata-cephalochordata'
+
+export interface CatalogueItisOtherAnimalsResourcePackExtension {
+  id: `itis-${CatalogueItisOtherAnimalsScope}-tsn-crosswalk`
+  recordType: 'release-pinned-exact-nomenclatural-crosswalk'
+  provider: 'Integrated Taxonomic Information System'
+  source: Record<string, unknown> & { license: 'CC0-1.0' }
+  scope: Record<string, unknown>
+  matching: Record<string, unknown>
+  counts: {
+    eligible: number
+    records: number
+    accepted: number
+    redirects: number
+    ambiguous: number
+    unmatched: number
+    withheld: 0
+    upstreamOnly: number
+    nonApplicable: number
+  }
+  files: CatalogueResourcePackPayloadFile[]
+  canonicalFileInventory: Array<CatalogueResourcePackPayloadFile & { role: 'col-partition' | 'upstream-only' }>
+  delivery: {
+    profile: 'web-light' | 'native-full'
+    completeRows: boolean
+    publishedFileCount: number
+    canonicalFileCount: number
+  }
+  totalCompressedBytes: number
+  totalSourceBytes: number
+  limitations: string[]
+  integration: {
+    clientParityRequirement: string
+    lookup: {
+      strategy: 'lexicographic-colId-range-v1'
+      ordering: string
+      requestPolicy: string
+    }
+  }
+}
+
+export type CatalogueResourcePackExtension = CatalogueLpsnResourcePackExtension | CatalogueIctvResourcePackExtension | CatalogueWfoPlantResourcePackExtension | CatalogueIndexFungorumResourcePackExtension | CatalogueForaminiferaResourcePackExtension | CatalogueItisOtherAnimalsResourcePackExtension
 
 export interface CatalogueResourcePackManifest {
   schemaVersion: 1

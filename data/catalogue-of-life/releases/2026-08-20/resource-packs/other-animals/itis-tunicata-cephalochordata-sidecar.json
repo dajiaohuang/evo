@@ -1,0 +1,173 @@
+{
+  "schemaVersion": 1,
+  "sidecarType": "release-pinned-exact-nomenclatural-crosswalk",
+  "packageId": "other-animals",
+  "scope": {
+    "colRoots": [
+      {
+        "id": "7NF2Z",
+        "scientificName": "Tunicata"
+      },
+      {
+        "id": "7NF2Q",
+        "scientificName": "Cephalochordata"
+      }
+    ],
+    "colStrictAcceptedSpecies": 3176,
+    "speciesByColRoot": {
+      "7NF2Z": 3146,
+      "7NF2Q": 30
+    },
+    "packageStrictAcceptedSpecies": 99161,
+    "packageOutOfScopeStrictAcceptedSpecies": 95985,
+    "boundary": "Other Animals is the deterministic Animalia remainder after more-specific static-package routes. This sidecar covers only strict accepted COL26.8 species descending from the exact Tunicata and Cephalochordata roots; every other Other Animals-owned species is explicitly nonapplicable."
+  },
+  "mixedResourcePack": {
+    "packageId": "other-animals",
+    "manifestPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals/manifest.json",
+    "manifestSha256": "662d549b01b73fd10ad830f3b9bdf9681ec1e9f9f46dafc4f65457404cba506d",
+    "acceptedSpeciesCount": 99161,
+    "inScopeSpecies": 3176,
+    "outOfScopeSpecies": 95985,
+    "nonApplicableSpecies": 95985,
+    "packageSourceDatasetCounts": {
+      "1081": 20367,
+      "1085": 1364,
+      "1090": 14430,
+      "1099": 4403,
+      "1100": 6,
+      "1104": 19,
+      "1119": 356,
+      "1122": 903,
+      "1123": 4,
+      "1124": 23,
+      "1125": 100,
+      "1126": 5852,
+      "1127": 3015,
+      "1128": 12007,
+      "1132": 132,
+      "1149": 24,
+      "1150": 122,
+      "1153": 362,
+      "1154": 30,
+      "1178": 68,
+      "1180": 197,
+      "1182": 46,
+      "1185": 78,
+      "1186": 3000,
+      "1193": 6508,
+      "2144": 3674,
+      "2302": 19604,
+      "298081": 2467
+    },
+    "scopeSourceDatasetCounts": {
+      "1154": 30,
+      "1178": 68,
+      "1185": 78,
+      "1186": 3000
+    },
+    "outOfScopeBoundary": "The remaining 95985 accepted species in Other Animals are outside Tunicata/Cephalochordata and receive no match in this sidecar."
+  },
+  "sources": {
+    "col": {
+      "releaseAlias": "COL26.8",
+      "releaseDate": "2026-08-20",
+      "registryManifestPath": "data/catalogue-of-life/releases/2026-08-20/registry/manifest.json",
+      "registryManifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151",
+      "ownershipPath": "data/registry/package-species-coverage.json",
+      "ownershipSha256": "a297bc8a67ce60806fdee733464a79bfcc42e255f7e59535b01f94013c19dfea"
+    },
+    "itis": {
+      "datasetId": "itis-2026-08-26",
+      "exportDate": "2026-08-26",
+      "roots": [
+        {
+          "tsn": "158853",
+          "scientificName": "Urochordata"
+        },
+        {
+          "tsn": "914170",
+          "scientificName": "Cephalochordata"
+        }
+      ],
+      "aliases": [
+        {
+          "tsn": "203347",
+          "scientificName": "Tunicata",
+          "usage": "invalid",
+          "resolvesToTsn": "158853"
+        }
+      ],
+      "sourceLedgerPath": "data/sources/itis-2026-08-26.json",
+      "sourceLedgerSha256": "38a7a55b4e98cafc66790e47f6bd637e298e23fd691e4771c755b38e4a02d7fc",
+      "license": "CC0-1.0",
+      "citationDoi": "10.5066/F7KH0KBK"
+    }
+  },
+  "exactMatching": {
+    "normalization": [
+      "Remove the exact trailing COL authorship field from COL scientificName when that suffix is present; no authorship parser is used.",
+      "Normalize Unicode to NFC, replace underscores with spaces, collapse Unicode whitespace and trim.",
+      "For species-rank comparison, remove one parenthesized subgenus token in the exact Genus (Subgenus) species representation; genus and specific epithet must remain unchanged.",
+      "Preserve case, diacritics, punctuation and all remaining name tokens."
+    ],
+    "statuses": {
+      "accepted": "The normalized COL name resolves to exactly one valid ITIS Tunicata or Cephalochordata species and directly equals that current ITIS name.",
+      "synonym-current-name-redirect": "The normalized COL name equals official ITIS invalid species-name evidence that resolves to exactly one valid ITIS Tunicata or Cephalochordata species.",
+      "ambiguous": "The normalized exact evidence resolves to more than one valid ITIS Tunicata or Cephalochordata species TSN.",
+      "unmatched": "No normalized exact valid-name or official ITIS species-synonym evidence resolves to a valid ITIS Tunicata or Cephalochordata species."
+    },
+    "prohibited": "No fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered or taxon-substituted matching is used."
+  },
+  "evidenceBoundary": {
+    "en": "This CC0 ITIS sidecar is a frozen exact nomenclatural crosswalk for Tunicata and Cephalochordata inside the mixed Other Animals resource pack. ITIS uses valid Urochordata as the Tunicata root in this export; invalid ITIS Tunicata is retained as an explicit alias. This is not a final classification authority, phylogeny, species-concept equivalence assertion, biological dossier or scientific-review record.",
+    "zh": "此 CC0 ITIS 侧车是混合“其他动物”资源包中尾索动物与头索动物分区的冻结严格命名交叉映射。该 ITIS 导出以有效名 Urochordata 作为 Tunicata 的根，并将无效名 Tunicata 明确保留为别名。它不是最终分类权威、系统发育树、物种概念等同性声明、生物档案或科学审查记录。"
+  },
+  "counts": {
+    "total": 3176,
+    "accepted": 366,
+    "synonymCurrentNameRedirect": 8,
+    "ambiguous": 0,
+    "unmatched": 2802,
+    "itisCurrentSpecies": 438,
+    "itisSpeciesSynonymLinks": 286,
+    "itisUpstreamOnly": 66
+  },
+  "colUsageIdLocator": {
+    "key": "colUsageId",
+    "ordering": "Unicode code-unit ascending",
+    "sourceShardLimitBytes": 2097152,
+    "stableAddressing": "Binary-search non-overlapping inclusive colUsageId ranges; one detail query loads exactly one immutable JSONL gzip shard.",
+    "files": [
+      {
+        "path": "data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals/itis-tunicata-cephalochordata-sidecar-0000.jsonl.gz",
+        "records": 3176,
+        "firstColUsageId": "327YW",
+        "lastColUsageId": "YQM5",
+        "bytes": 74956,
+        "sha256": "a789b16b8474e8155f8bce07615a7fe675d4ce7be2d81f346133b7a8e0ba1bb5",
+        "sourceBytes": 849136,
+        "sourceSha256": "a94f2520b0d328c22ca2f6629e1c53026adbf7077c32a0827ffb21b458a911eb"
+      }
+    ]
+  },
+  "upstreamOnly": {
+    "colOwnership": null,
+    "stableAddressing": "No COL usage ID is assigned. The complete ITIS-only current-species partition is in its own immutable JSONL gzip shard.",
+    "files": [
+      {
+        "path": "data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals/itis-tunicata-cephalochordata-upstream-only-0000.jsonl.gz",
+        "records": 66,
+        "firstColUsageId": null,
+        "lastColUsageId": null,
+        "bytes": 1329,
+        "sha256": "907cdbf1b65ec43c5922a445f5aa670bc794b5c04a6526b0024c1727cd226c8f",
+        "sourceBytes": 25532,
+        "sourceSha256": "862171b16909844b5fa40ac66a9ca1b09f80cad60a01d3bad469e0a384e84706",
+        "colOwnership": null,
+        "firstTsn": "158866",
+        "lastTsn": "685582"
+      }
+    ]
+  }
+}
