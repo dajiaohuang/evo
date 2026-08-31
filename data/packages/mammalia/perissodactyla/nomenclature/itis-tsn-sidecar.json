@@ -1,0 +1,338 @@
+{
+  "schemaVersion": 1,
+  "sidecarType": "release-pinned-exact-nomenclatural-crosswalk",
+  "packageId": "perissodactyla",
+  "sources": {
+    "col": {
+      "releaseAlias": "COL26.8",
+      "releaseDate": "2026-08-20",
+      "registryManifestPath": "data/catalogue-of-life/releases/2026-08-20/registry/manifest.json"
+    },
+    "itis": {
+      "datasetId": "itis-2026-08-26",
+      "exportDate": "2026-08-26",
+      "sourceLedgerPath": "data/sources/itis-2026-08-26.json",
+      "sourceLedgerSha256": "38a7a55b4e98cafc66790e47f6bd637e298e23fd691e4771c755b38e4a02d7fc",
+      "license": "CC0-1.0",
+      "citationDoi": "10.5066/F7KH0KBK"
+    }
+  },
+  "exactMatching": {
+    "normalization": [
+      "Remove the exact trailing COL authorship field from COL scientificName when that suffix is present; no authorship parser is used.",
+      "Normalize Unicode to NFC, replace underscores with spaces, collapse Unicode whitespace and trim.",
+      "For species-rank comparison, remove one parenthesized subgenus token in the exact Genus (Subgenus) species representation; genus and specific epithet must remain unchanged.",
+      "Preserve case, diacritics, punctuation and all remaining name tokens."
+    ],
+    "statuses": {
+      "accepted": "The normalized COL name resolves to exactly one valid ITIS Mammalia species and directly equals that current ITIS name.",
+      "synonym-current-name-redirect": "The normalized COL name equals one or more official ITIS invalid species names whose synonym_links rows resolve to exactly one valid ITIS Mammalia species.",
+      "ambiguous": "The normalized exact evidence resolves to more than one valid ITIS Mammalia species TSN.",
+      "unmatched": "No normalized exact valid-name or official species-synonym evidence resolves to a valid ITIS Mammalia species.",
+      "forbidden": "No fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered, genus-substitution or higher-rank match is permitted."
+    }
+  },
+  "evidenceBoundary": {
+    "en": "This CC0 ITIS sidecar supplies release-pinned TSNs and exact nomenclatural redirects. It is not an MDD equivalent, a final classification authority, a phylogeny, or evidence that COL and ITIS use the same species concept.",
+    "zh": "此 CC0 ITIS 侧车仅提供固定版本的 TSN 与严格同名重定向；它不是 MDD 的等价替代品，也不是最终分类权威、系统发育树，且不表示 COL 与 ITIS 采用相同物种概念。"
+  },
+  "counts": {
+    "total": 19,
+    "accepted": 19,
+    "synonymCurrentNameRedirect": 0,
+    "ambiguous": 0,
+    "unmatched": 0
+  },
+  "records": {
+    "accepted": [
+      {
+        "colUsageId": "9LYL",
+        "colScientificName": "Acrocodia indica (Desmarest, 1819)",
+        "colAuthorship": "(Desmarest, 1819)",
+        "exactMatchName": "Acrocodia indica",
+        "currentName": {
+          "tsn": "926161",
+          "scientificName": "Acrocodia indica",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2026-02-24"
+        }
+      },
+      {
+        "colUsageId": "SQFF",
+        "colScientificName": "Ceratotherium simum (Burchell, 1817)",
+        "colAuthorship": "(Burchell, 1817)",
+        "exactMatchName": "Ceratotherium simum",
+        "currentName": {
+          "tsn": "625001",
+          "scientificName": "Ceratotherium simum",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2026-02-24"
+        }
+      },
+      {
+        "colUsageId": "35JV8",
+        "colScientificName": "Dicerorhinus sumatrensis (G. Fischer [von Waldheim], 1814)",
+        "colAuthorship": "(G. Fischer [von Waldheim], 1814)",
+        "exactMatchName": "Dicerorhinus sumatrensis",
+        "currentName": {
+          "tsn": "625002",
+          "scientificName": "Dicerorhinus sumatrensis",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2026-02-24"
+        }
+      },
+      {
+        "colUsageId": "35JVB",
+        "colScientificName": "Diceros bicornis (Linnaeus, 1758)",
+        "colAuthorship": "(Linnaeus, 1758)",
+        "exactMatchName": "Diceros bicornis",
+        "currentName": {
+          "tsn": "625003",
+          "scientificName": "Diceros bicornis",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2026-02-24"
+        }
+      },
+      {
+        "colUsageId": "6FYB7",
+        "colScientificName": "Equus africanus Heuglin & Fitzinger, 1866",
+        "colAuthorship": "Heuglin & Fitzinger, 1866",
+        "exactMatchName": "Equus africanus",
+        "currentName": {
+          "tsn": "926142",
+          "scientificName": "Equus africanus",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2026-02-24"
+        }
+      },
+      {
+        "colUsageId": "7TKMV",
+        "colScientificName": "Equus asinus Linnaeus, 1758",
+        "colAuthorship": "Linnaeus, 1758",
+        "exactMatchName": "Equus asinus",
+        "currentName": {
+          "tsn": "180690",
+          "scientificName": "Equus asinus",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2026-02-24"
+        }
+      },
+      {
+        "colUsageId": "7TKN2",
+        "colScientificName": "Equus caballus Linnaeus, 1758",
+        "colAuthorship": "Linnaeus, 1758",
+        "exactMatchName": "Equus caballus",
+        "currentName": {
+          "tsn": "180691",
+          "scientificName": "Equus caballus",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2026-02-24"
+        }
+      },
+      {
+        "colUsageId": "6FYC2",
+        "colScientificName": "Equus ferus Boddaert, 1785",
+        "colAuthorship": "Boddaert, 1785",
+        "exactMatchName": "Equus ferus",
+        "currentName": {
+          "tsn": "926143",
+          "scientificName": "Equus ferus",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2026-02-24"
+        }
+      },
+      {
+        "colUsageId": "7TKN5",
+        "colScientificName": "Equus grevyi Oustalet, 1882",
+        "colAuthorship": "Oustalet, 1882",
+        "exactMatchName": "Equus grevyi",
+        "currentName": {
+          "tsn": "202400",
+          "scientificName": "Equus grevyi",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2026-02-24"
+        }
+      },
+      {
+        "colUsageId": "6FYC9",
+        "colScientificName": "Equus hemionus Pallas, 1775",
+        "colAuthorship": "Pallas, 1775",
+        "exactMatchName": "Equus hemionus",
+        "currentName": {
+          "tsn": "624993",
+          "scientificName": "Equus hemionus",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2026-02-24"
+        }
+      },
+      {
+        "colUsageId": "7TKMZ",
+        "colScientificName": "Equus kiang Moorcroft, 1841",
+        "colAuthorship": "Moorcroft, 1841",
+        "exactMatchName": "Equus kiang",
+        "currentName": {
+          "tsn": "624994",
+          "scientificName": "Equus kiang",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2026-02-24"
+        }
+      },
+      {
+        "colUsageId": "6FYBC",
+        "colScientificName": "Equus przewalskii Poliakov, 1881",
+        "colAuthorship": "Poliakov, 1881",
+        "exactMatchName": "Equus przewalskii",
+        "currentName": {
+          "tsn": "926144",
+          "scientificName": "Equus przewalskii",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2026-02-24"
+        }
+      },
+      {
+        "colUsageId": "6FYBD",
+        "colScientificName": "Equus quagga Boddaert, 1785",
+        "colAuthorship": "Boddaert, 1785",
+        "exactMatchName": "Equus quagga",
+        "currentName": {
+          "tsn": "624996",
+          "scientificName": "Equus quagga",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2026-02-24"
+        }
+      },
+      {
+        "colUsageId": "6FYB9",
+        "colScientificName": "Equus zebra Linnaeus, 1758",
+        "colAuthorship": "Linnaeus, 1758",
+        "exactMatchName": "Equus zebra",
+        "currentName": {
+          "tsn": "202401",
+          "scientificName": "Equus zebra",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2026-02-24"
+        }
+      },
+      {
+        "colUsageId": "4S84X",
+        "colScientificName": "Rhinoceros sondaicus Desmarest, 1822",
+        "colAuthorship": "Desmarest, 1822",
+        "exactMatchName": "Rhinoceros sondaicus",
+        "currentName": {
+          "tsn": "625004",
+          "scientificName": "Rhinoceros sondaicus",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2026-02-24"
+        }
+      },
+      {
+        "colUsageId": "4S853",
+        "colScientificName": "Rhinoceros unicornis Linnaeus, 1758",
+        "colAuthorship": "Linnaeus, 1758",
+        "exactMatchName": "Rhinoceros unicornis",
+        "currentName": {
+          "tsn": "625005",
+          "scientificName": "Rhinoceros unicornis",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2026-02-24"
+        }
+      },
+      {
+        "colUsageId": "54TF2",
+        "colScientificName": "Tapirella bairdii (Gill, 1865)",
+        "colAuthorship": "(Gill, 1865)",
+        "exactMatchName": "Tapirella bairdii",
+        "currentName": {
+          "tsn": "926160",
+          "scientificName": "Tapirella bairdii",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2026-02-24"
+        }
+      },
+      {
+        "colUsageId": "54TGN",
+        "colScientificName": "Tapirus pinchaque (Roulin, 1829)",
+        "colAuthorship": "(Roulin, 1829)",
+        "exactMatchName": "Tapirus pinchaque",
+        "currentName": {
+          "tsn": "624999",
+          "scientificName": "Tapirus pinchaque",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2026-02-24"
+        }
+      },
+      {
+        "colUsageId": "54TGS",
+        "colScientificName": "Tapirus terrestris (Linnaeus, 1758)",
+        "colAuthorship": "(Linnaeus, 1758)",
+        "exactMatchName": "Tapirus terrestris",
+        "currentName": {
+          "tsn": "625000",
+          "scientificName": "Tapirus terrestris",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2026-02-24"
+        }
+      }
+    ],
+    "synonymCurrentNameRedirect": [],
+    "ambiguous": [],
+    "unmatched": []
+  }
+}

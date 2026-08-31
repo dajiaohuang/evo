@@ -1,0 +1,128 @@
+{
+  "schemaVersion": 1,
+  "datasetId": "itis-2026-08-26",
+  "title": "Integrated Taxonomic Information System monthly SQLite export",
+  "publisher": "Integrated Taxonomic Information System (ITIS)",
+  "release": {
+    "exportDate": "2026-08-26",
+    "releaseLabel": "itisSqlite082626",
+    "versionPolicy": "ITIS publishes dated monthly database dumps rather than a semantic database version.",
+    "dateEvidence": [
+      "The official ZIP member directory is itisSqlite082626.",
+      "The maximum taxonomic_units.update_date and synonym_links.update_date values are both 2026-08-26."
+    ]
+  },
+  "acquisition": {
+    "downloadPage": "https://www.itis.gov/downloads/index.html",
+    "instructionsUrl": "https://www.itis.gov/ftp_download.html",
+    "validationInstructionsUrl": "https://www.itis.gov/downloads/MD5_Instr.txt",
+    "requests": [
+      {
+        "method": "GET",
+        "url": "https://www.itis.gov/downloads/itisSqlite.zip",
+        "retrievedAt": "2026-08-31T00:12:04Z",
+        "response": {
+          "bytes": 224511428,
+          "lastModified": "2026-08-27T21:32:18Z",
+          "etag": "\"cfd0fefbad8171adc10509326ee843ab-27\""
+        },
+        "officialMd5": "3ab23c8d82c73afeda4d368a6173e8cb",
+        "sha256": "9df7e8d9f44a1b814922bfe2ba5e99ad83d29c5ffb87fa4fa679dd49b374f4fe"
+      },
+      {
+        "method": "GET",
+        "url": "https://www.itis.gov/downloads/MD5SUMS",
+        "retrievedAt": "2026-08-31T00:15:08Z",
+        "response": {
+          "bytes": 467,
+          "lastModified": "2026-08-27T21:32:18Z",
+          "etag": "\"1382dfe46da8091c838e854446d6ceb8\""
+        },
+        "sha256": "697c17538e78deae4c475c7c6a9cd53549d8c72dbfc555201d926e11976db02a"
+      }
+    ]
+  },
+  "archive": {
+    "fileName": "itisSqlite.zip",
+    "committed": false,
+    "memberDirectory": "itisSqlite082626",
+    "databaseMember": "itisSqlite082626/ITIS.sqlite",
+    "databaseBytes": 925421568,
+    "databaseSha256": "ea7304536cfd7b1e2636d383911ca7931fc83d9ab1194ca2a3c020ea2daf1719",
+    "readmeMember": "itisSqlite082626/ReadmeSqlite.txt"
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "label": "CC0 1.0 / public domain",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "officialCitationUrl": "https://www.itis.gov/citation.html",
+    "officialLegalUrl": "https://www.itis.gov/privacy.html",
+    "officialScopeStatementUrl": "https://www.itis.gov/about_itis.html",
+    "retrievedOn": "2026-08-31",
+    "scope": "ITIS states that its complete database is available for download and use under CC0. Linked third-party material is outside this import; this sidecar retains only ITIS-produced nomenclatural identifiers and status fields from the official database dump."
+  },
+  "citation": {
+    "doi": "10.5066/F7KH0KBK",
+    "text": "Retrieved August 31, 2026, from the Integrated Taxonomic Information System (ITIS) online database, www.itis.gov, CC0. https://doi.org/10.5066/F7KH0KBK"
+  },
+  "databaseAudit": {
+    "sqliteIntegrityCheck": "ok",
+    "sqliteUserVersion": 0,
+    "taxonomicUnitCount": 1000552,
+    "synonymLinkCount": 319284,
+    "maximumTaxonomicUnitUpdateDate": "2026-08-26",
+    "maximumSynonymLinkUpdateDate": "2026-08-26",
+    "mammaliaRootTsn": "179913",
+    "validMammalSpeciesCount": 6464,
+    "synonymLinksToValidMammalSpecies": 14627,
+    "speciesRankSynonymLinksToValidMammalSpecies": 5180
+  },
+  "importLedger": {
+    "sourceTables": [
+      "longnames",
+      "synonym_links",
+      "taxon_unit_types",
+      "taxonomic_units"
+    ],
+    "queries": {
+      "currentMammalSpecies": "WITH RECURSIVE mammal_descendants(tsn) AS (SELECT ?1 UNION ALL SELECT u.tsn FROM taxonomic_units u JOIN mammal_descendants d ON u.parent_tsn = d.tsn WHERE u.name_usage = 'valid') SELECT u.tsn, l.completename AS scientific_name, u.name_usage, u.credibility_rtng, u.completeness_rtng, u.currency_rating, u.update_date FROM mammal_descendants d JOIN taxonomic_units u ON u.tsn = d.tsn JOIN taxon_unit_types r ON r.kingdom_id = u.kingdom_id AND r.rank_id = u.rank_id JOIN longnames l ON l.tsn = u.tsn WHERE lower(trim(r.rank_name)) = 'species' AND u.name_usage = 'valid' ORDER BY u.tsn",
+      "mammalSpeciesSynonyms": "WITH RECURSIVE mammal_descendants(tsn) AS (SELECT ?1 UNION ALL SELECT u.tsn FROM taxonomic_units u JOIN mammal_descendants d ON u.parent_tsn = d.tsn WHERE u.name_usage = 'valid'), accepted_mammal_species(tsn) AS (SELECT u.tsn FROM mammal_descendants d JOIN taxonomic_units u ON u.tsn = d.tsn JOIN taxon_unit_types r ON r.kingdom_id = u.kingdom_id AND r.rank_id = u.rank_id WHERE lower(trim(r.rank_name)) = 'species' AND u.name_usage = 'valid') SELECT s.tsn AS synonym_tsn, sl.completename AS synonym_name, su.name_usage AS synonym_usage, su.unaccept_reason, su.update_date AS synonym_update_date, s.tsn_accepted FROM synonym_links s JOIN accepted_mammal_species a ON a.tsn = s.tsn_accepted JOIN taxonomic_units su ON su.tsn = s.tsn JOIN taxon_unit_types sr ON sr.kingdom_id = su.kingdom_id AND sr.rank_id = su.rank_id JOIN longnames sl ON sl.tsn = su.tsn WHERE lower(trim(sr.rank_name)) = 'species' ORDER BY s.tsn, s.tsn_accepted"
+    },
+    "colInput": {
+      "releaseAlias": "COL26.8",
+      "releaseDate": "2026-08-20",
+      "registryManifestPath": "data/catalogue-of-life/releases/2026-08-20/registry/manifest.json",
+      "registryManifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151",
+      "ownershipPath": "data/registry/package-species-coverage.json",
+      "ownershipSha256": "0a392968ee13b69a606797e7ca3cc5d6823a60e348ec3e77718b132127e1e369",
+      "strictPredicate": "rank=species AND status=accepted",
+      "packageCounts": {
+        "mammal-origins": 0,
+        "perissodactyla": 19,
+        "cetartiodactyla": 503,
+        "primates": 530,
+        "carnivora": 310,
+        "other-mammals": 5099
+      }
+    },
+    "normalization": [
+      "Remove the exact trailing COL authorship field from COL scientificName when that suffix is present; no authorship parser is used.",
+      "Normalize Unicode to NFC, replace underscores with spaces, collapse Unicode whitespace and trim.",
+      "For species-rank comparison, remove one parenthesized subgenus token in the exact Genus (Subgenus) species representation; genus and specific epithet must remain unchanged.",
+      "Preserve case, diacritics, punctuation and all remaining name tokens."
+    ],
+    "matching": {
+      "accepted": "The normalized COL name resolves to exactly one valid ITIS Mammalia species and directly equals that current ITIS name.",
+      "synonym-current-name-redirect": "The normalized COL name equals one or more official ITIS invalid species names whose synonym_links rows resolve to exactly one valid ITIS Mammalia species.",
+      "ambiguous": "The normalized exact evidence resolves to more than one valid ITIS Mammalia species TSN.",
+      "unmatched": "No normalized exact valid-name or official species-synonym evidence resolves to a valid ITIS Mammalia species.",
+      "forbidden": "No fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered, genus-substitution or higher-rank match is permitted."
+    }
+  },
+  "limitations": [
+    "This is a release/date-pinned nomenclatural crosswalk, not an MDD equivalent and not a final classification authority.",
+    "ITIS and COL can apply different species concepts and update schedules; unmatched and ambiguous rows are retained rather than forced.",
+    "The zero-record mammal-origins package is preserved as a navigation and fossil-content boundary.",
+    "The original ITIS ZIP and SQLite database are not committed; reproducibility depends on the recorded official checksums or a retained verified copy of that monthly export."
+  ]
+}
