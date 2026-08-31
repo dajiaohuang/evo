@@ -78,8 +78,8 @@ export const packageDefinitions = [
     titleZh: '被子植物与禾草',
     rootEntityIds: ['angiospermae'],
     conceptScope: {
-      en: 'COL26.8 accepted-species routing covers flowering plants through the pinned Liliopsida and Magnoliopsida roots; Magnoliopsida is not presented as an exact eudicot root. Field-linked Angiospermae and Monocotyledoneae profiles separate calibration-sensitive crown models from the specimen-scoped Montsechia and Cratolirion records. Floristic-dominance claims remain pending; every published range is source-bounded or explicitly withheld.',
-      zh: 'COL26.8 已接受物种经固定的百合纲与木兰纲根路由到被子植物内容包；木兰纲不被表述为精确的真双子叶植物根。逐字段被子植物与单子叶植物档案把校准敏感的冠群模型与标本限定的 Montsechia、Cratolirion 记录严格分开。植物区系优势主张仍待补充；所有已发布区间均有来源边界或被明确保留。',
+      en: 'COL26.8 accepted-species routing covers flowering plants through the pinned Liliopsida and Magnoliopsida roots; Magnoliopsida is not presented as an exact eudicot root. Field-linked Angiospermae, Monocotyledoneae, Poaceae, Eudicotyledoneae and Fabaceae profiles separate calibration-sensitive crowns, specimen-level fossils, regional phytolith assemblages and sampled living-lineage topology. Every published range is source-bounded or explicitly withheld.',
+      zh: 'COL26.8 已接受物种经固定的百合纲与木兰纲根路由到被子植物内容包；木兰纲不被表述为精确的真双子叶植物根。逐字段被子植物、单子叶植物、禾本科、真双子叶植物与豆科档案严格区分校准敏感的冠群模型、标本级化石、区域植硅体组合与已取样现生谱系拓扑。所有已发布区间均有来源边界或被明确保留。',
     },
     wave: 'pilot',
     scientificMaturity: 'source-linked',

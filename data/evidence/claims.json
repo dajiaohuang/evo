@@ -17607,6 +17607,248 @@
     ]
   },
   {
+    "id": "claim:taxon:poaceae:taxonomy",
+    "subjectId": "taxon:poaceae",
+    "claimKind": "scientific",
+    "claimType": "taxonomy",
+    "statement": "The sampled plastid phylogeny resolves major grass lineages and maps multiple C4 origins, but its reconstructed topology does not date Poaceae or imply one ancestral C4 transition.",
+    "confidence": "high",
+    "confidenceRationale": "The primary analysis explicitly reports the sampled plastid topology and mapped transitions. Its taxon and genomic sampling delimit the statement, while fossil chronology and unsampled lineages remain outside the direct evidence.",
+    "reviewedBy": "Evo Atlas maintainer source audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "Grass Phylogeny Working Group II 2012 DOI 10.1111/j.1469-8137.2011.03972.x",
+    "referenceLinks": [
+      {
+        "referenceId": "gpwg-ii-2012-grass-phylogeny",
+        "relation": "supports",
+        "pages": "304–312",
+        "figure": "Figure 1",
+        "quoteLocator": "Phylogenetic analyses and C4 optimization"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:poaceae:biogeography",
+    "subjectId": "taxon:poaceae",
+    "claimKind": "scientific",
+    "claimType": "biogeography",
+    "statement": "The late-Cretaceous grass evidence used here is confined to diagnostic phytolith morphotypes in Lameta Formation dinosaur coprolites in central India; it does not identify a geographic origin or global distribution of grasses.",
+    "confidence": "medium",
+    "confidenceRationale": "The source directly documents the sampled assemblage and its stratigraphic setting, but phytolith affinity and one regional assemblage limit broader geographic interpretation.",
+    "reviewedBy": "Evo Atlas maintainer source audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "Prasad et al. 2005 DOI 10.1126/science.1118806",
+    "referenceLinks": [
+      {
+        "referenceId": "prasad-2005-grass-phytoliths",
+        "relation": "supports",
+        "pages": "310:1177–1180",
+        "figure": "Figure 1",
+        "quoteLocator": "Lameta Formation stratigraphy and coprolite phytolith assemblages"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:poaceae:ecology",
+    "subjectId": "taxon:poaceae",
+    "claimKind": "scientific",
+    "claimType": "ecology",
+    "statement": "Fourteen central Great Plains palaeosol phytolith assemblages record a regional rise of chloridoid and other potentially C4 PACMAD grasses within heterogeneous mixed C3–C4 habitats; this does not establish global open-grassland dominance.",
+    "confidence": "medium",
+    "confidenceRationale": "The assemblage analysis directly quantifies its regional phytolith composition, while morphotype-to-photosynthetic-pathway assignment and the limited geographic sample prevent a family-wide or global ecological claim.",
+    "reviewedBy": "Evo Atlas maintainer source audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "Strömberg and McInerney 2011 DOI 10.1666/09067.1",
+    "referenceLinks": [
+      {
+        "referenceId": "stromberg-2011-great-plains-phytoliths",
+        "relation": "supports",
+        "pages": "50–71",
+        "quoteLocator": "Abstract; assemblage interpretation and limitations"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:poaceae:morphology",
+    "subjectId": "taxon:poaceae",
+    "claimKind": "scientific",
+    "claimType": "morphology",
+    "statement": "Latest-Cretaceous Lameta coprolites preserve phytolith morphotypes interpreted as diagnostic of grasses and assigned to at least five living-grass subclades; these microscopic remains are not a complete grass body plan.",
+    "confidence": "contested",
+    "confidenceRationale": "The source directly illustrates and compares the phytolith morphotypes, but taxonomic affinity from isolated microremains remains the limiting interpretation.",
+    "reviewedBy": "Evo Atlas maintainer source audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "Prasad et al. 2005 DOI 10.1126/science.1118806",
+    "referenceLinks": [
+      {
+        "referenceId": "prasad-2005-grass-phytoliths",
+        "relation": "supports",
+        "pages": "310:1177–1180",
+        "figure": "Figures 2–3",
+        "quoteLocator": "Phytolith morphotypes and comparative assignments"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:eudicotyledones:taxonomy",
+    "subjectId": "taxon:eudicotyledones",
+    "claimKind": "scientific",
+    "claimType": "taxonomy",
+    "statement": "Leefructus mirus is diagnosed as a basal eudicot from the Early Cretaceous Yixian Formation, while a separate 83-plastid-gene analysis resolves selected living early eudicot branches; neither result is a literal ancestor sequence.",
+    "confidence": "medium",
+    "confidenceRationale": "The fossil diagnosis and sampled organellar topology are independently documented, but their different evidence scopes do not fix a complete eudicot phylogeny or crown age.",
+    "reviewedBy": "Evo Atlas maintainer source audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "Sun et al. 2011 DOI 10.1038/nature09811; Moore et al. 2010 DOI 10.1073/pnas.0907801107",
+    "referenceLinks": [
+      {
+        "referenceId": "sun-2011-leefructus",
+        "relation": "supports",
+        "pages": "471:625–628",
+        "figure": "Figures 1–5",
+        "quoteLocator": "Abstract and Leefructus diagnosis"
+      },
+      {
+        "referenceId": "moore-2010-eudicot-plastids",
+        "relation": "supports",
+        "pages": "107:4623–4628",
+        "figure": "Figures 1–2",
+        "quoteLocator": "83-gene phylogenetic analyses"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:eudicotyledones:biogeography",
+    "subjectId": "taxon:eudicotyledones",
+    "claimKind": "scientific",
+    "claimType": "biogeography",
+    "statement": "The fossil locality represented in this profile is the Daxinfangzi bed of the Yixian Formation in northeastern China; one dated locality does not establish a eudicot origin centre or global distribution.",
+    "confidence": "high",
+    "confidenceRationale": "The primary description provides the locality and dated bed envelope directly. The narrow claim makes no extrapolation from that locality to class-wide biogeography.",
+    "reviewedBy": "Evo Atlas maintainer source audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "Sun et al. 2011 DOI 10.1038/nature09811",
+    "referenceLinks": [
+      {
+        "referenceId": "sun-2011-leefructus",
+        "relation": "supports",
+        "pages": "471:625–628",
+        "figure": "Figure 1",
+        "quoteLocator": "Locality, stratigraphic setting and radiometric dates"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:eudicotyledones:ecology",
+    "subjectId": "taxon:eudicotyledones",
+    "claimKind": "scientific",
+    "claimType": "ecology",
+    "statement": "Leefructus preserves vegetative and reproductive plant material, supporting only a bounded primary-producer context for the sampled fossil; its habitat and any class-wide eudicot ecology remain unresolved.",
+    "confidence": "low",
+    "confidenceRationale": "The material establishes the identity and morphology of the sampled fossil but does not directly measure habitat, physiology or class-wide ecological roles.",
+    "reviewedBy": "Evo Atlas maintainer source audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "Sun et al. 2011 DOI 10.1038/nature09811",
+    "referenceLinks": [
+      {
+        "referenceId": "sun-2011-leefructus",
+        "relation": "supports",
+        "pages": "471:625–628",
+        "quoteLocator": "Fossil description and systematic discussion"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:eudicotyledones:morphology",
+    "subjectId": "taxon:eudicotyledones",
+    "claimKind": "scientific",
+    "claimType": "morphology",
+    "statement": "Leefructus mirus preserves diagnostic vegetative and reproductive structures described from the Yixian Formation; this specimen-level anatomy is not a universal eudicot body plan.",
+    "confidence": "high",
+    "confidenceRationale": "The named fossil and its diagnostic structures are directly described and illustrated, while extension to all eudicots would exceed the specimen and analysis scope.",
+    "reviewedBy": "Evo Atlas maintainer source audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "Sun et al. 2011 DOI 10.1038/nature09811",
+    "referenceLinks": [
+      {
+        "referenceId": "sun-2011-leefructus",
+        "relation": "supports",
+        "pages": "471:625–628",
+        "figure": "Figures 1–5",
+        "quoteLocator": "Fossil description and comparative diagnosis"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:fabaceae:biogeography",
+    "subjectId": "taxon:fabaceae",
+    "claimKind": "scientific",
+    "claimType": "biogeography",
+    "statement": "The fossil legume record represented here is the 65.35 Ma Corral Bluffs fruit and leaflets in Colorado, United States; it does not establish a geographic origin or continuous global distribution of Fabaceae.",
+    "confidence": "high",
+    "confidenceRationale": "The primary stratigraphic synthesis directly locates and dates the fossil material. The claim remains confined to that record rather than inferring family-wide history.",
+    "reviewedBy": "Evo Atlas maintainer source audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "Lyson et al. 2019 DOI 10.1126/science.aay2268",
+    "referenceLinks": [
+      {
+        "referenceId": "lyson-2019-corral-bluffs-recovery",
+        "relation": "supports",
+        "pages": "366:977–983",
+        "figure": "Figure 3J–K",
+        "quoteLocator": "Corral Bluffs fossil occurrence and supplementary stratigraphy"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:fabaceae:ecology",
+    "subjectId": "taxon:fabaceae",
+    "claimKind": "scientific",
+    "claimType": "ecology",
+    "statement": "The Corral Bluffs fruit and leaflets support a bounded plant fossil record, but they do not directly establish habitat, diet, physiology or one ecological guild for Fabaceae.",
+    "confidence": "low",
+    "confidenceRationale": "The cited fossil material is diagnostic for the family record but was not an ecological experiment or a family-wide habitat survey.",
+    "reviewedBy": "Evo Atlas maintainer source audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "Lyson et al. 2019 DOI 10.1126/science.aay2268",
+    "referenceLinks": [
+      {
+        "referenceId": "lyson-2019-corral-bluffs-recovery",
+        "relation": "supports",
+        "pages": "366:977–983",
+        "quoteLocator": "Corral Bluffs fossil inventory and stratigraphic context"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:fabaceae:morphology",
+    "subjectId": "taxon:fabaceae",
+    "claimKind": "scientific",
+    "claimType": "morphology",
+    "statement": "A 65.35 Ma Corral Bluffs fruit and leaflets are assigned to Fabaceae; these structures demonstrate a bounded family-level fossil record rather than a subfamily assignment or universal legume morphology.",
+    "confidence": "medium",
+    "confidenceRationale": "The fossil material and age are directly documented, while its subfamily placement and broader ancestral morphology remain unresolved.",
+    "reviewedBy": "Evo Atlas maintainer source audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "Lyson et al. 2019 DOI 10.1126/science.aay2268; Koenen et al. 2021 DOI 10.1093/sysbio/syaa041",
+    "referenceLinks": [
+      {
+        "referenceId": "lyson-2019-corral-bluffs-recovery",
+        "relation": "supports",
+        "pages": "366:977–983",
+        "figure": "Figure 3J–K",
+        "quoteLocator": "Fossil fruit and leaflets"
+      },
+      {
+        "referenceId": "koenen-2021-legume-origin",
+        "relation": "contextualizes",
+        "pages": "70:508–526",
+        "figure": "Figure 5; Supplementary Table S3",
+        "quoteLocator": "Oldest unequivocal legume fossil and divergence-time limitations"
+      }
+    ]
+  },
+  {
     "id": "claim:taxon:stromatoporoidea",
     "subjectId": "taxon:stromatoporoidea",
     "claimKind": "scientific",
