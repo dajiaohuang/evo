@@ -53,7 +53,7 @@ const entityLinkageBaseline = readJson('data/indexes/entity-linkage-baseline.jso
 const canonicalRanges = readJson('data/ranges/range-evidence.json')
 const taxonResolution = readJson('data/sources/pbdb-taxon-resolution.json')
 const sourceMetadata = readJson('data/sources/pbdb-occurrence-bundle.json')
-const perissodactylaSnapshot = readJson('data/sources/pbdb-targeted-perissodactyla-occurrences-v1.json')
+const perissodactylaSnapshot = readJson('data/sources/pbdb-targeted-perissodactyla-occurrences-v1.json.gz')
 const manifest = readJson('data/manifest.json')
 const packageMetadata = readJson('package.json')
 const packageIds = new Set(readJson('data/registry/package-registry.json').packages.map((entry) => entry.id))

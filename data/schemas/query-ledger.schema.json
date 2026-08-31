@@ -22,7 +22,7 @@
     "completeness": { "enum": ["complete", "bounded", "unknown"] },
     "selectionMethod": { "type": "string", "minLength": 1 },
     "limitations": { "type": "array", "minItems": 1, "items": { "type": "string", "minLength": 1 } },
-    "occurrenceSnapshot": { "type": "string", "pattern": "^data/sources/.+\\.json$" },
+    "occurrenceSnapshot": { "type": "string", "pattern": "^data/sources/.+\\.json\\.gz$" },
     "uniqueRowsObserved": { "type": "integer", "minimum": 0 },
     "uniqueRowsRetained": { "type": "integer", "minimum": 0 },
     "withheldSubqueryCount": { "type": "integer", "minimum": 0 },

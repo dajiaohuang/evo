@@ -2,6 +2,7 @@ import { createHash } from 'node:crypto'
 import { existsSync, readdirSync, writeFileSync } from 'node:fs'
 import { join } from 'node:path'
 import { readJson, rootDir } from './data-lib.mjs'
+import { deterministicGzip } from './archive-determinism.mjs'
 import {
   TARGETED_PACKAGE_RECORD_LIMIT,
   TARGETED_PBDB_PAGE_SIZE,
@@ -55,7 +56,7 @@ const resolutions = new Map(resolutionLedger.resolutions.map((entry) => [entry.e
 const packageById = new Map(registry.packages.map((entry) => [entry.id, entry]))
 
 function snapshotPath(packageId) {
-  return `data/sources/pbdb-targeted-${packageId}-occurrences-v1.json`
+  return `data/sources/pbdb-targeted-${packageId}-occurrences-v1.json.gz`
 }
 
 async function fetchPage(url, entityId) {
@@ -325,7 +326,7 @@ for (const packageId of packageIds) {
     subqueries: results.map((result) => result.ledger),
   }
   snapshot.packageQueryLedger = ledger
-  writeFileSync(outputPath, `${JSON.stringify(snapshot, null, 2)}\n`, 'utf8')
+  writeFileSync(outputPath, deterministicGzip(Buffer.from(`${JSON.stringify(snapshot, null, 2)}\n`, 'utf8'), { level: 9 }))
   writeFileSync(join(packageDirectory, 'query-ledger.json'), `${JSON.stringify(ledger, null, 2)}\n`, 'utf8')
   console.log(`${packageId}: ${eligible.length} complete subqueries, ${withheld.length} withheld, ${allOccurrenceIds.length.toLocaleString()} unique IDs, ${records.length.toLocaleString()} retained records`)
 }
