@@ -969,6 +969,50 @@ describe('static runtime release coherence', () => {
     await expect(webClient.loadCatalogueItisOtherAnimalsRecord('nemertea', 'N0682')).rejects.toThrow('full Android/iOS data profile')
   })
 
+  it('loads one indexed ITIS protists/chromists shard from native-full data', async () => {
+    Object.defineProperty(globalThis, 'Worker', { configurable: true, value: undefined })
+    const records = Array.from({ length: 53 }, (_, index) => ({
+      status: 'unmatched' as const,
+      colUsageId: `B${String(index).padStart(3, '0')}`,
+      colScientificName: `Bigyra species ${index}`,
+      colAuthorship: null,
+      exactMatchName: `Bigyra species ${index}`,
+    }))
+    const body = `${records.map((record) => JSON.stringify(record)).join('\n')}\n`
+    const file = {
+      path: 'protists-chromists/itis-bigyra-sidecar-0000.jsonl.gz',
+      url: 'releases/dataset-itis-protists/catalogue/resource-packs/protists-chromists/itis-bigyra-sidecar-0000.jsonl',
+      records: records.length, bytes: new TextEncoder().encode(body).byteLength, sourceBytes: new TextEncoder().encode(body).byteLength,
+      sha256: await sha256Text(body), sourceSha256: await sha256Text(body), mediaType: 'application/x-ndjson' as const,
+      minColId: records[0].colUsageId, maxColId: records.at(-1)?.colUsageId, role: 'col-partition' as const,
+    }
+    const extension = {
+      id: 'itis-bigyra-tsn-crosswalk', recordType: 'release-pinned-exact-nomenclatural-crosswalk', provider: 'Integrated Taxonomic Information System',
+      source: { license: 'CC0-1.0' },
+      counts: { eligible: 53, records: 53, accepted: 0, redirects: 0, ambiguous: 0, unmatched: 53, withheld: 0, upstreamOnly: 0, nonApplicable: 61465 },
+      files: [file], canonicalFileInventory: [file],
+      delivery: { profile: 'native-full', completeRows: true, publishedFileCount: 1, canonicalFileCount: 1 },
+      integration: { lookup: { strategy: 'lexicographic-colId-range-v1' } },
+    }
+    const packManifest = { schemaVersion: 1, packageType: 'static-nomenclatural-resource-pack', packageId: 'protists-chromists', version: 'dataset-itis-protists', source: { releaseAlias: 'COL26.8' }, acceptedSpeciesCount: 61518, extensions: [extension] }
+    const packFile = { url: 'releases/dataset-itis-protists/catalogue/resource-packs/protists-chromists/manifest.json', acceptedSpeciesCount: 61518, sha256: await sha256(packManifest) }
+    const catalogueManifest = { releaseAlias: 'COL26.8', counts: { acceptedSpecies: 2183133 }, resourcePacks: { manifests: { 'protists-chromists': packFile } } }
+    const catalogueFile = { url: 'releases/dataset-itis-protists/catalogue/manifest.json', sha256: await sha256(catalogueManifest) }
+    const current = { datasetVersion: 'dataset-itis-protists', releaseBase: 'releases/dataset-itis-protists/', catalogue: { manifest: catalogueFile, releaseAlias: 'COL26.8', acceptedSpecies: 2183133 } }
+    const fetchMock = vi.fn(async (input: RequestInfo | URL) => {
+      const url = String(input)
+      if (url.endsWith('/data/current.json')) return responseFor(current)
+      if (url.endsWith(catalogueFile.url)) return responseFor(catalogueManifest)
+      if (url.endsWith(packFile.url)) return responseFor(packManifest)
+      return url.endsWith(file.url) ? textResponseFor(body) : { ok: false, status: 404, arrayBuffer: async () => new ArrayBuffer(0) }
+    })
+    vi.stubGlobal('fetch', fetchMock)
+
+    const { loadCatalogueItisProtistsRecord } = await import('./staticDataClient')
+    await expect(loadCatalogueItisProtistsRecord('bigyra', 'B026')).resolves.toMatchObject({ record: records[26] })
+    expect(fetchMock.mock.calls.filter(([input]) => String(input).includes('itis-bigyra-sidecar'))).toHaveLength(1)
+  })
+
   it('loads only the requested direct children from a shared parent-hash shard and caches it', async () => {
     const { catalogueRoutePrefix, loadCatalogueChildren } = await import('./staticDataClient')
     const parentId = 'parent-a'

@@ -23,6 +23,8 @@ dist-mobile/                 # 临时生成的移动客户端壳，不提交
 
 ## 数据与离线边界
 
+rc69 将 Android 与 iOS 同步到 build `23` / app `0.20.20`，并为 `protists-chromists` 加入 25 个 ITIS 权威边界。两端逐字节包含全部 19 个非空 ITIS 文件和 19,501 条记录，并继续包含有孔虫 WFD 的 5 个文件与 47,975 条记录。12 个没有精确现行根的范围保留为完整的零行边界，不把近邻类群写入应用，也不复制无信息的空 gzip。移动端最终化脚本、Android instrumentation source 与 iOS application tests 都按 manifest 顺序核对扩展 ID、CC0 来源、文件数、行数、release inventory 字节数、SHA-256 和真实资产存在性。Pages 仍只发布摘要与 24 个非空 authority 文件的 canonical 哈希；Web 轻量化不缩减 Android 或 iOS 的完整名录、全部权威行和 109 帧 0.1° PaleoDEM。逐组统计见 [`itis-protists-authority.md`](itis-protists-authority.md)。
+
 rc68 将 Android 与 iOS 同步到 build `22` / app `0.20.19`，并把 `other-animals` 的 ITIS 权威层从五个扩为 26 个互不重叠的范围。两端逐字节包含相同的 62 个非空 canonical 文件：60,572 个 COL26.8 显式结果和 2,327 个 ITIS-only 当前种，共 62,899 行；七个零行 upstream 分区不复制相同的空 gzip。移动端测试按 manifest 顺序检查每个扩展的 ID、CC0 来源、文件数、行数、release inventory 字节数、SHA-256 与真实资产存在性，并要求扩展总数完全相等，不能静默漏掉新范围。Pages 的 `web-light` 不复制行级文件，只保留 26 组完整来源、根边界、方法、统计、限制与 canonical 哈希；这不会缩减 Android 或 iOS 的物种数据。逐组统计见 [`itis-other-animals-authority.md`](itis-other-animals-authority.md)。
 
 rc66 将 Android 与 iOS 同步到 build `20`，并把全部 47,975 个 COL26.8 有孔虫的 WFD `2026-08-01` 权威标识纳入 `native-full`。两端包含相同的 5 个互不重叠 COL-ID JSONL gzip 分片，共 4,046,631 字节；每条记录都来自官方 ChecklistBank dataset `1157` source-record 关系，单种查询最多读取一个分片。`finalize-mobile-build.mjs` 要求 5 个文件、47,975 条记录、完整 canonical inventory 和 `native-full` 标志，并逐文件复核 release inventory 的字节数与 SHA-256。Pages 的 `web-light` 不部署这些行级文件，仅公开来源、方法、计数、限制和 5 文件哈希清单。

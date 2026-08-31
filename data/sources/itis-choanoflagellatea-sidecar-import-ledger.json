@@ -3,15 +3,15 @@
   "importType": "COL26.8-to-ITIS-exact-choanoflagellatea-zero-root-audit",
   "generatedFrom": {
     "sourcePath": "data/sources/itis-2026-08-26.json",
-    "sourceSha256": "6623b81726471c5dbd468a28947d5dc0fa67238d329a6806a293a8489bae46ff",
+    "sourceSha256": "38a7a55b4e98cafc66790e47f6bd637e298e23fd691e4771c755b38e4a02d7fc",
     "itisDatabaseMember": "itisSqlite082626/ITIS.sqlite",
     "itisDatabaseSha256": "ea7304536cfd7b1e2636d383911ca7931fc83d9ab1194ca2a3c020ea2daf1719",
     "colRegistryManifestPath": "data/catalogue-of-life/releases/2026-08-20/registry/manifest.json",
-    "colRegistryManifestSha256": "acaca7808c0d128e2ae7187567c4d32d26180e73a419708228c4b7e91d39a592",
+    "colRegistryManifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151",
     "colPackageManifestPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/manifest.json",
-    "colPackageManifestSha256": "24ced295e0cb7e84a022a577d1b895258ec800946862c08fe4185b10faac9442",
+    "colPackageManifestSha256": "c128d8403a2a51533fe0cc752dc05519694cac6891ae6a52508290d02e284da9",
     "colOwnershipPath": "data/registry/package-species-coverage.json",
-    "colOwnershipSha256": "99b4f135d0db7eba894e614fa6762354c3ae1632e706ea99bb7294a49d7b715f"
+    "colOwnershipSha256": "677935a0f456800b41dbf7396578fb256423e5fc52a624c589ea7b4bc21ee033"
   },
   "scopeAudit": {
     "packageRootUsageIds": [
@@ -77,8 +77,8 @@
   "output": {
     "descriptor": {
       "path": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-choanoflagellatea-sidecar.json",
-      "bytes": 6619,
-      "sha256": "9bf506c8c6466c3b4e2842dd7afb379a40cddfe8895589badc39ce4e8e6257e4"
+      "bytes": 6688,
+      "sha256": "5ee74618b9921ed6952272063d042bb4cd34ebe818605089bdcac235df018b63"
     },
     "colUsageIdShards": [
       {
@@ -113,7 +113,7 @@
   },
   "generatedBy": {
     "scriptPath": "scripts/build-itis-choanoflagellatea-sidecar.mjs",
-    "scriptSha256": "9307b4a7ecdcaf4965f12f57d6b9aee1b784d883fc85caf1758fed7fdb4c225c",
+    "scriptSha256": "fef6287eca1274b5f6103394910fa88a9541bf81423ce682c5790f2046136005",
     "deterministic": "Pinned input checksums, exact missing-root audits, fixed package ownership, representation-only normalization and deterministic gzip; no wall-clock fields or fuzzy matching."
   }
 }

@@ -1619,9 +1619,11 @@
         "datasetId": "itis-2026-08-26",
         "exportDate": "2026-08-26",
         "rootTsn": null,
+        "license": "CC0-1.0",
+        "citationDoi": "10.5066/F7KH0KBK",
         "canonicalDescriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-choanoflagellatea-sidecar.json",
-        "canonicalDescriptorBytes": 6619,
-        "canonicalDescriptorSha256": "9bf506c8c6466c3b4e2842dd7afb379a40cddfe8895589badc39ce4e8e6257e4"
+        "canonicalDescriptorBytes": 6688,
+        "canonicalDescriptorSha256": "5ee74618b9921ed6952272063d042bb4cd34ebe818605089bdcac235df018b63"
       },
       "scope": {
         "packageRootUsageIds": [
@@ -4157,6 +4159,108 @@
       "limitations": [
         "This CC0 ITIS boundary audit is a frozen exact-root check for Katablepharidota in the pinned COL26.8 Protists and Chromists package. It is not a global checklist, a final classification authority, a phylogeny, a species-concept equivalence assertion, a biological dossier or a scientific-review record.",
         "No fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered, package-wide or taxon-substituted matching is used."
+      ],
+      "integration": {
+        "clientParityRequirement": "Android and iOS must copy every non-empty native-full file byte-for-byte; Web uses the web-light summary profile.",
+        "lookup": {
+          "strategy": "lexicographic-colId-range-v1",
+          "ordering": "Unicode code-unit ascending",
+          "requestPolicy": "Select the sole inclusive COL-ID range and read at most one COL partition; upstream-only files are never selected by COL ID."
+        }
+      }
+    },
+    {
+      "id": "itis-hemimastigophora-tsn-crosswalk",
+      "recordType": "release-pinned-exact-root-boundary-audit",
+      "provider": "Integrated Taxonomic Information System",
+      "source": {
+        "datasetId": "itis-2026-08-26",
+        "exportDate": "2026-08-26",
+        "rootTsn": null,
+        "license": "CC0-1.0",
+        "citationDoi": "10.5066/F7KH0KBK",
+        "canonicalDescriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-hemimastigophora-sidecar.json",
+        "canonicalDescriptorBytes": 12644,
+        "canonicalDescriptorSha256": "2414ef84a69bc4aeefbdc98d288d370891677ff4a1875a34451bb423e2776aff"
+      },
+      "scope": {
+        "packageRootUsageIds": [
+          "C",
+          "Z"
+        ],
+        "packageRootScientificNames": [
+          "Chromista",
+          "Protozoa"
+        ],
+        "colRootUsageId": null,
+        "colRootScientificName": "Hemimastigophora",
+        "colStrictAcceptedSpecies": 0,
+        "packageStrictAcceptedSpecies": 61518,
+        "packageOutOfScopeStrictAcceptedSpecies": 61518,
+        "colRootAudit": "No exact COL26.8 usage node named Hemimastigophora exists in the complete pinned hierarchy; no strict COL partition is claimed.",
+        "boundary": "This boundary audit contains no Hemimastigophora rows: COL26.8 has no exact Hemimastigophora node, and ITIS 2026-08-26 has no exact-name record. No broader, narrower or neighboring taxon is promoted into an authority partition."
+      },
+      "rootBoundaryAudit": {
+        "colExactRootCandidates": [],
+        "itisExactNameCandidates": [],
+        "itisAcceptedExactRootCandidates": [],
+        "selectedColRoot": null,
+        "selectedItisRoot": null,
+        "decision": "No exact accepted Hemimastigophora root exists in either pinned authority. No COL or ITIS range is asserted; the empty native shard is retained as an explicit boundary result until a future release supplies an exact accepted root."
+      },
+      "matching": {
+        "normalization": [
+          "Remove the exact trailing COL authorship field from COL scientificName when that suffix is present; no authorship parser is used.",
+          "Normalize Unicode to NFC, replace underscores with spaces, collapse Unicode whitespace and trim.",
+          "For species-rank comparison, remove one parenthesized subgenus token in the exact Genus (Subgenus) species representation; genus and specific epithet must remain unchanged.",
+          "Preserve case, diacritics, punctuation and all remaining name tokens."
+        ],
+        "statuses": {
+          "accepted": "Unavailable: no exact accepted Hemimastigophora root exists in the pinned authorities.",
+          "synonym-current-name-redirect": "Unavailable: no exact accepted Hemimastigophora root exists in the pinned authorities.",
+          "ambiguous": "Unavailable: no exact accepted Hemimastigophora root exists in the pinned authorities.",
+          "unmatched": "Unavailable: no exact accepted Hemimastigophora root exists in the pinned authorities."
+        },
+        "prohibited": "No fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered, package-wide, near-lineage or taxon-substituted matching is used."
+      },
+      "evidenceBoundary": {
+        "en": "This CC0 ITIS boundary audit is a frozen exact-root check for Hemimastigophora in the declared COL26.8 Protists and Chromists package. It is not a global checklist, final classification authority, phylogeny, species-concept equivalence assertion, biological dossier or scientific-review record.",
+        "zh": "此 CC0 ITIS 边界审计仅冻结声明的 COL26.8 原生生物与色界生物包中 Hemimastigophora 的精确根检查；它不是全球名录、最终分类权威、系统发育、物种概念等同性声明、生物档案或科学审查记录。"
+      },
+      "counts": {
+        "eligible": 0,
+        "records": 0,
+        "accepted": 0,
+        "redirects": 0,
+        "ambiguous": 0,
+        "unmatched": 0,
+        "withheld": 0,
+        "upstreamOnly": 0,
+        "nonApplicable": 61518
+      },
+      "files": [],
+      "totalCompressedBytes": 0,
+      "totalSourceBytes": 0,
+      "deliveryProfiles": {
+        "web-light": {
+          "payload": "summary-only",
+          "files": [],
+          "records": 0,
+          "totalCompressedBytes": 0,
+          "totalSourceBytes": 0,
+          "statement": "GitHub Pages publishes the complete Hemimastigophora authority boundary authority boundary and canonical hashes without row shards."
+        },
+        "native-full": {
+          "payload": "complete",
+          "files": [],
+          "records": 0,
+          "totalCompressedBytes": 0,
+          "totalSourceBytes": 0
+        }
+      },
+      "limitations": [
+        "This CC0 ITIS boundary audit is a frozen exact-root check for Hemimastigophora in the declared COL26.8 Protists and Chromists package. It is not a global checklist, final classification authority, phylogeny, species-concept equivalence assertion, biological dossier or scientific-review record.",
+        "No fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered, package-wide, near-lineage or taxon-substituted matching is used."
       ],
       "integration": {
         "clientParityRequirement": "Android and iOS must copy every non-empty native-full file byte-for-byte; Web uses the web-light summary profile.",

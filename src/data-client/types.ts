@@ -1066,6 +1066,7 @@ export type CatalogueItisProtistsScope =
   | 'telonemia'
   | 'centrohelida'
   | 'katablepharidota'
+  | 'hemimastigophora'
 
 export interface CatalogueItisProtistsResourcePackExtension extends Omit<CatalogueItisOtherAnimalsResourcePackExtension, 'id'> {
   id: `itis-${CatalogueItisProtistsScope}-tsn-crosswalk`
