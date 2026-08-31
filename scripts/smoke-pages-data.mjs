@@ -651,9 +651,11 @@ if (catalogue.resourcePacks?.packageCount !== 7
         'itis-xenacoelomorpha-tsn-crosswalk': { eligible: 441, records: 499, accepted: 370, redirects: 6, ambiguous: 1, unmatched: 64, upstreamOnly: 58, nonApplicable: 98720, files: 2 },
         'itis-orthonectida-tsn-crosswalk': { eligible: 24, records: 27, accepted: 22, redirects: 0, ambiguous: 0, unmatched: 2, upstreamOnly: 3, nonApplicable: 99137, files: 2 },
         'itis-dicyemida-tsn-crosswalk': { eligible: 119, records: 126, accepted: 85, redirects: 0, ambiguous: 0, unmatched: 34, upstreamOnly: 7, nonApplicable: 99042, files: 2 },
+        'itis-nematoda-tsn-crosswalk': { eligible: 19604, records: 20849, accepted: 1899, redirects: 36, ambiguous: 1, unmatched: 17668, upstreamOnly: 1245, nonApplicable: 79557, files: 4 },
+        'itis-annelida-tsn-crosswalk': { eligible: 18982, records: 24074, accepted: 4301, redirects: 122, ambiguous: 1, unmatched: 14558, upstreamOnly: 5092, nonApplicable: 80179, files: 4 },
       }
-      if (extensions.length !== 26 || manifestFile.extensionFileCount !== 0 || manifestFile.canonicalExtensionFileCount !== 62) {
-        failures.push('other-animals: Pages must publish 26 ITIS authority summaries and no row shards')
+      if (extensions.length !== 28 || manifestFile.extensionFileCount !== 0 || manifestFile.canonicalExtensionFileCount !== 70) {
+        failures.push('other-animals: Pages must publish 28 ITIS authority summaries and no row shards')
       }
       for (const [id, counts] of Object.entries(expected)) {
         const authority = extensions.find((candidate) => candidate.id === id)

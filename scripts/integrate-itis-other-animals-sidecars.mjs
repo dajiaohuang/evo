@@ -44,6 +44,8 @@ const taxa = [
   { slug: 'xenacoelomorpha', label: 'Xenacoelomorpha' },
   { slug: 'orthonectida', label: 'Orthonectida' },
   { slug: 'dicyemida', label: 'Dicyemida' },
+  { slug: 'nematoda', label: 'Nematoda' },
+  { slug: 'annelida', label: 'Annelida' },
 ]
 
 const bryozoaPath = join(packRoot, 'itis-bryozoa-sidecar.json')
@@ -95,8 +97,10 @@ const toRuntimeFile = (file) => ({
 
 const extensions = taxa.map(({ slug, label }) => {
   const descriptorPath = join(packRoot, `itis-${slug}-sidecar.json`)
+  const descriptor = readJson(descriptorPath)
+  replacePaths(descriptor)
+  const descriptorRecord = writeJson(descriptorPath, descriptor)
   const descriptorBytes = readFileSync(descriptorPath)
-  const descriptor = JSON.parse(descriptorBytes)
   const ledgerPath = join(root, `data/sources/itis-${slug}-sidecar-import-ledger.json`)
   const ledger = readJson(ledgerPath)
   replacePaths(ledger)
@@ -122,8 +126,8 @@ const extensions = taxa.map(({ slug, label }) => {
       license: descriptor.sources.itis.license,
       citationDoi: descriptor.sources.itis.citationDoi,
       canonicalDescriptorPath: `data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals/itis-${slug}-sidecar.json`,
-      canonicalDescriptorBytes: descriptorBytes.length,
-      canonicalDescriptorSha256: sha256(descriptorBytes),
+      canonicalDescriptorBytes: descriptorRecord.bytes,
+      canonicalDescriptorSha256: descriptorRecord.sha256,
     },
     scope: descriptor.scope,
     matching: descriptor.exactMatching,
