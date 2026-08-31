@@ -1990,6 +1990,144 @@
           "requestPolicy": "Select the sole inclusive COL-ID range and read at most one COL partition; upstream-only files are never selected by COL ID."
         }
       }
+    },
+    {
+      "id": "itis-labyrinthulomycetes-tsn-crosswalk",
+      "recordType": "release-pinned-exact-nomenclatural-crosswalk",
+      "provider": "Integrated Taxonomic Information System",
+      "source": {
+        "datasetId": "itis-2026-08-26",
+        "exportDate": "2026-08-26",
+        "rootTsn": null,
+        "license": "CC0-1.0",
+        "citationDoi": "10.5066/F7KH0KBK",
+        "canonicalDescriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-labyrinthulomycetes-sidecar.json",
+        "canonicalDescriptorBytes": 7661,
+        "canonicalDescriptorSha256": "e19c75308c7942a50cd77feef6bb55ec1c1655032d9c30eb636f316032a035d6"
+      },
+      "scope": {
+        "packageRootUsageIds": [
+          "C",
+          "Z"
+        ],
+        "packageRootScientificNames": [
+          "Chromista",
+          "Protozoa"
+        ],
+        "colRootUsageId": null,
+        "colRootScientificName": "Labyrinthulomycetes",
+        "colStrictAcceptedSpecies": 0,
+        "packageStrictAcceptedSpecies": 61518,
+        "packageOutOfScopeStrictAcceptedSpecies": 61518,
+        "boundary": "No exact COL26.8 Labyrinthulomycetes root exists. Nearby Labyrinthulea is deliberately excluded because it is a Bigyra-descendant scope already covered by the Bigyra authority sidecar; no nearby ITIS lineage is substituted."
+      },
+      "rootBoundaryAudit": {
+        "colExactNameCandidates": [],
+        "colNearbyNameCandidates": [
+          {
+            "id": "DJ",
+            "scientificName": "Labyrinthulea",
+            "rank": "class",
+            "status": "accepted",
+            "parentId": "622CB"
+          }
+        ],
+        "itisExactNameCandidates": [],
+        "itisNearbyNameCandidates": [
+          {
+            "tsn": 46076,
+            "scientific_name": "Labyrinthulea",
+            "rank_name": "Class",
+            "name_usage": "valid",
+            "parent_tsn": 46067
+          }
+        ],
+        "itisNearbyParent": {
+          "tsn": 46067,
+          "scientific_name": "Mycetozoa",
+          "rank_name": "Subphylum",
+          "name_usage": "valid"
+        },
+        "existingPartitionOverlap": {
+          "bigyra": {
+            "colRoot": {
+              "id": "622CB",
+              "scientificName": "Bigyra",
+              "rank": "phylum",
+              "status": "accepted",
+              "parentId": "C"
+            },
+            "relation": "The only nearby COL Labyrinthulea class DJ is directly below Bigyra 622CB, so substituting it would duplicate the existing Bigyra sidecar scope."
+          },
+          "ochrophyta": "No requested or nearby COL candidate is below Ochrophyta root 5H.",
+          "oomycota": "No requested or nearby COL candidate is below Oomycota root 5K; the existing narrowed Oomycota sidecar remains disjoint."
+        },
+        "selectedColRoot": null,
+        "selectedItisRoot": null,
+        "decision": "Neither pinned snapshot contains an exact Labyrinthulomycetes root. The similarly named Labyrinthulea candidates are not substituted: COL DJ is already entirely within Bigyra, while ITIS TSN 46076 sits below Mycetozoa. No row-level crosswalk or ITIS-only partition is asserted."
+      },
+      "matching": {
+        "normalization": [
+          "Remove the exact trailing COL authorship field from COL scientificName when that suffix is present; no authorship parser is used.",
+          "Normalize Unicode to NFC, replace underscores with spaces, collapse Unicode whitespace and trim.",
+          "For species-rank comparison, remove one parenthesized subgenus token in the exact Genus (Subgenus) species representation; genus and specific epithet must remain unchanged.",
+          "Preserve case, diacritics, punctuation and all remaining name tokens."
+        ],
+        "statuses": {
+          "accepted": "Unavailable: no exact COL26.8 Labyrinthulomycetes root exists.",
+          "synonym-current-name-redirect": "Unavailable: no exact COL26.8 Labyrinthulomycetes root exists.",
+          "ambiguous": "Unavailable: no exact COL26.8 Labyrinthulomycetes root exists.",
+          "unmatched": "No Labyrinthulomycetes scope exists to match; nearby taxa are not substituted."
+        },
+        "prohibited": "No fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered, package-wide, overlapping-partition or taxon-substituted matching is used."
+      },
+      "evidenceBoundary": {
+        "en": "This CC0 ITIS sidecar records a zero-row exact-root audit for Labyrinthulomycetes. It does not substitute the conflicting nearby Labyrinthulea classifications or duplicate the existing Bigyra partition. It is not a global checklist, classification authority, phylogeny, species-concept equivalence assertion, biological dossier or scientific-review record.",
+        "zh": "此 CC0 ITIS 侧车记录 Labyrinthulomycetes 的零行精确根审计。它不替代彼此冲突的邻近 Labyrinthulea 分类，也不重复现有 Bigyra 分区；它不是全球名录、分类权威、系统发育、物种概念等同性声明、生物档案或科学审查记录。"
+      },
+      "counts": {
+        "eligible": 0,
+        "records": 0,
+        "accepted": 0,
+        "redirects": 0,
+        "ambiguous": 0,
+        "unmatched": 0,
+        "withheld": 0,
+        "upstreamOnly": 0,
+        "nonApplicable": 61518
+      },
+      "files": [],
+      "totalCompressedBytes": 0,
+      "totalSourceBytes": 0,
+      "deliveryProfiles": {
+        "web-light": {
+          "payload": "summary-only",
+          "files": [],
+          "records": 0,
+          "totalCompressedBytes": 0,
+          "totalSourceBytes": 0,
+          "statement": "GitHub Pages publishes the complete Labyrinthulomycetes authority boundary authority boundary and canonical hashes without row shards."
+        },
+        "native-full": {
+          "payload": "complete",
+          "files": [],
+          "records": 0,
+          "totalCompressedBytes": 0,
+          "totalSourceBytes": 0
+        }
+      },
+      "limitations": [
+        "This CC0 ITIS sidecar records a zero-row exact-root audit for Labyrinthulomycetes. It does not substitute the conflicting nearby Labyrinthulea classifications or duplicate the existing Bigyra partition. It is not a global checklist, classification authority, phylogeny, species-concept equivalence assertion, biological dossier or scientific-review record.",
+        "No fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered, package-wide, overlapping-partition or taxon-substituted matching is used."
+      ],
+      "integration": {
+        "clientParityRequirement": "Android and iOS must copy every non-empty native-full file byte-for-byte; Web uses the web-light summary profile.",
+        "lookup": {
+          "strategy": "lexicographic-colId-range-v1",
+          "ordering": "Unicode code-unit ascending",
+          "requestPolicy": "Select the sole inclusive COL-ID range and read at most one COL partition; upstream-only files are never selected by COL ID."
+        }
+      }
     }
   ]
 }

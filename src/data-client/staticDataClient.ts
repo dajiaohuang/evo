@@ -792,6 +792,7 @@ const itisProtistsContracts: Record<import('./types').CatalogueItisProtistsScope
   choanoflagellatea: { eligible: 0, accepted: 0, redirects: 0, ambiguous: 0, unmatched: 0, upstreamOnly: 0, nonApplicable: 61518, canonicalFileCount: 0 },
   bigyra: { eligible: 53, accepted: 0, redirects: 0, ambiguous: 0, unmatched: 53, upstreamOnly: 0, nonApplicable: 61465, canonicalFileCount: 1 },
   perkinsozoa: { eligible: 0, accepted: 0, redirects: 0, ambiguous: 0, unmatched: 0, upstreamOnly: 0, nonApplicable: 61518, canonicalFileCount: 0 },
+  labyrinthulomycetes: { eligible: 0, accepted: 0, redirects: 0, ambiguous: 0, unmatched: 0, upstreamOnly: 0, nonApplicable: 61518, canonicalFileCount: 0 },
 }
 
 export async function loadCatalogueItisProtistsRecord(

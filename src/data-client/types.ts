@@ -1056,6 +1056,7 @@ export type CatalogueItisProtistsScope =
   | 'choanoflagellatea'
   | 'bigyra'
   | 'perkinsozoa'
+  | 'labyrinthulomycetes'
 
 export interface CatalogueItisProtistsResourcePackExtension extends Omit<CatalogueItisOtherAnimalsResourcePackExtension, 'id'> {
   id: `itis-${CatalogueItisProtistsScope}-tsn-crosswalk`
