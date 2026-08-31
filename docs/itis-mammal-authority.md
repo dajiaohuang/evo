@@ -1,5 +1,7 @@
 # ITIS Mammalia authority delivery
 
+Release `2026.08-static-v5-rc73` / app `0.20.24` delivers the five-package Mammalia ITIS crosswalk and the native Android/iOS build `27` contract described below.
+
 This document records the release-scoped ITIS nomenclatural crosswalk delivered for five non-empty Mammalia packages. It is a name/identifier crosswalk, not a species-concept equivalence, phylogeny, final classification, fossil record, biological dossier or scientific-review record.
 
 ## Fixed inputs and hash semantics
@@ -8,19 +10,19 @@ This document records the release-scoped ITIS nomenclatural crosswalk delivered 
 - ITIS input: the official CC0 monthly SQLite export `itisSqlite082626/ITIS.sqlite`, with maximum `taxonomic_units.update_date` and `synonym_links.update_date` values of `2026-08-26`.
 - The ITIS request, database audit, exact queries and source checksums are recorded in [`data/sources/itis-2026-08-26.json`](../data/sources/itis-2026-08-26.json). The generated output ledger is [`data/sources/itis-mammal-authority-import-ledger.json`](../data/sources/itis-mammal-authority-import-ledger.json).
 
-The historical ITIS source contract contains the ownership SHA-256 `0a392968ee13b69a606797e7ca3cc5d6823a60e348ec3e77718b132127e1e369`. That value identifies the ownership bytes recorded when the original ITIS source contract was prepared; it is not the input used for this migration. The actual `generatedFrom.colOwnershipSha256`, repeated in each Mammalia descriptor's `sources.col.ownershipSha256`, is `168e7cb70124ca4400e1b86c5fe76e7c1ff551bddd7be50f0149f077f40db1cf`, the SHA-256 of the checked-in projection bytes actually used to generate these sidecars. The ledger states this distinction explicitly so the historical hash is not mistaken for the provenance of the delivered rows.
+The historical ITIS source contract contains the ownership SHA-256 `0a392968ee13b69a606797e7ca3cc5d6823a60e348ec3e77718b132127e1e369`. That value identifies the ownership bytes recorded when the original ITIS source contract was prepared; it is not the input used for this migration. The actual `generatedFrom.colOwnershipSha256`, repeated in each Mammalia descriptor's `sources.col.ownershipSha256`, is `a31a41ef0e9e785192a2fbbed11df9aa9bc06ba2f84a04b8fe38bd45824ff6ff`, the SHA-256 of the checked-in projection bytes actually used to generate these sidecars. The ledger states this distinction explicitly so the historical hash is not mistaken for the provenance of the delivered rows.
 
 The five descriptors have these SHA-256 values (the runtime/mobile `descriptorSha256` values):
 
 | Package | Descriptor SHA-256 |
 | --- | --- |
-| `perissodactyla` | `bcba89f8518ae97d49f4221409e690bb474239e470fd1d3bbb9d920dac257dc8` |
-| `cetartiodactyla` | `d44e276f5cfdd38f8ba133891aebc4b07f2e8dae280611511b2dcfefea8310d1` |
-| `primates` | `96dee66ffd47cbf98d61724ad7ea5c271bd247e8996bf59b8413cc50ef99e58f` |
-| `carnivora` | `7993503e39609270b14efe5f472d565cdba381c703d0f790513c3e88e60b68bc` |
-| `other-mammals` | `d41b97b77603ca44d5a153be9489174a1c0c4236591d007e9ceea6b137aa9228` |
+| `perissodactyla` | `3c7d327c1941e11ff192b3b451d0fa5fb5728fad9236bd4064f99afcd83a73e2` |
+| `cetartiodactyla` | `f452207ad017e0b128470650dc4f71490cbe2a637279af6fd9f6785a5b99df8d` |
+| `primates` | `b8f921704919fae007f45bfdecde5fefcfeb0c004fcc6a69b9d35e399405cf36` |
+| `carnivora` | `983a47c1a148f9a6f200a06807ae04470a0b6506a47e1fd7c58457a7bc75431f` |
+| `other-mammals` | `90e1ae6357c2f08fad63a6329b4a81d0770379738cd8d87acea11c11fc40131f` |
 
-The combined canonical crosswalk is 3,765,545 decoded bytes, 266,595 gzip bytes, and SHA-256 `078d0d25e8a950054090e322abb8b20b5ec26e29a6787a30519314cdc162a115`.
+The combined canonical crosswalk is 3,765,545 decoded bytes, 266,595 gzip bytes, and SHA-256 `018c6feea9485c8abf984706c79ef8ed144f527d05476bef02660c2963a953af`.
 
 ## Exact result boundary
 
