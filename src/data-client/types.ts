@@ -251,7 +251,59 @@ export interface RuntimeAviListNomenclatureCollection {
   limitations: string[]
 }
 
-export type RuntimePackageNomenclatureCollection = RuntimeWormsNomenclatureCollection | RuntimeWfoPlantNomenclatureCollection | RuntimeAviListNomenclatureCollection
+export type ItisMappingStatus = 'accepted' | 'synonym-current-name-redirect' | 'ambiguous' | 'unmatched' | 'non-applicable'
+
+export interface ItisNomenclatureRecord {
+  status: ItisMappingStatus
+  colUsageId: string
+  colScientificName: string
+  colAuthorship?: string | null
+  exactMatchName?: string
+  currentName?: {
+    tsn: string
+    scientificName: string
+    usage: string
+    credibilityRating?: string | null
+    completenessRating?: string | null
+    currencyRating?: string | null
+    updateDate?: string | null
+  } | null
+  candidates?: Array<{ tsn: string; scientificName: string }>
+}
+
+export interface RuntimeItisNomenclatureCollection {
+  schemaVersion: 1
+  id: 'itis-2026-08-26-tsn-crosswalk'
+  recordType: 'release-pinned-exact-nomenclatural-crosswalk'
+  provider: 'Integrated Taxonomic Information System'
+  packageId: string
+  source: Record<string, unknown>
+  matching: Record<string, unknown>
+  counts: {
+    total: number
+    accepted: number
+    synonymCurrentNameRedirect: number
+    ambiguous: number
+    unmatched: number
+    itisCurrentSpecies: number
+    itisSpeciesSynonymLinks: number
+    itisUpstreamOnly: number
+  }
+  files: CatalogueResourcePackPayloadFile[]
+  upstreamOnlyFiles: CatalogueResourcePackPayloadFile[]
+  canonicalFileInventory: Array<Omit<CatalogueResourcePackPayloadFile, 'url'> & { role: 'col-partition' | 'upstream-only' }>
+  descriptorSha256: string
+  delivery: {
+    profile: 'web-light' | 'native-full'
+    completeRows: boolean
+    publishedFileCount: number
+    canonicalFileCount: number
+  }
+  evidenceBoundary: { en: string; zh: string }
+  limitations: string[]
+}
+
+export type RuntimePackageNomenclatureCollection = RuntimeWormsNomenclatureCollection | RuntimeWfoPlantNomenclatureCollection | RuntimeAviListNomenclatureCollection | RuntimeItisNomenclatureCollection
 
 export interface RuntimePackageManifest {
   schemaVersion: number

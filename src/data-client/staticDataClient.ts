@@ -370,6 +370,30 @@ export async function loadPackageAviListBirdRecord(colId: string): Promise<{
   return { collection, record: records.find((record) => record.colId === colId) ?? null }
 }
 
+export async function loadPackageItisRecord(packageId: string, colUsageId: string): Promise<{
+  collection: import('./types').RuntimeItisNomenclatureCollection
+  record: import('./types').ItisNomenclatureRecord | null
+}> {
+  const manifest = await loadPackageManifest(packageId)
+  const collection = manifest.nomenclatureCollections?.find((candidate): candidate is import('./types').RuntimeItisNomenclatureCollection => (
+    candidate.id === 'itis-2026-08-26-tsn-crosswalk'
+    && candidate.provider === 'Integrated Taxonomic Information System'
+  ))
+  if (!collection || collection.packageId !== packageId) {
+    throw new Error(`Runtime package ${packageId} does not publish its ITIS collection`)
+  }
+  if (!collection.delivery.completeRows || collection.delivery.profile !== 'native-full') {
+    throw new Error('ITIS row-level records are available in the full Android/iOS data profile; Web publishes the verified coverage summary only')
+  }
+  const file = selectWfoColShard(collection.files, colUsageId)
+  const records = await loadRuntimeFile<import('./types').ItisNomenclatureRecord[]>(file)
+  if (records.length !== file.records || records[0]?.colUsageId !== file.minColId || records.at(-1)?.colUsageId !== file.maxColId
+    || records.some((record, index) => !record.colUsageId || (index > 0 && records[index - 1].colUsageId.localeCompare(record.colUsageId) >= 0))) {
+    throw new Error('ITIS COL shard contents do not match its range descriptor')
+  }
+  return { collection, record: records.find((record) => record.colUsageId === colUsageId) ?? null }
+}
+
 export async function loadPackageForEntity(entityId: string): Promise<RuntimePackageManifest | null> {
   const registry = await loadPackageRegistry()
   const packageId = registry.entityToPackage[entityId]

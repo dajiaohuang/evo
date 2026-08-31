@@ -1,7 +1,7 @@
 {
   "name": "evo",
   "private": true,
-  "version": "0.20.15",
+  "version": "0.20.16",
   "type": "module",
   "scripts": {
     "predev": "npm run data:stage",
@@ -36,6 +36,7 @@
     "data:registry:validate": "node scripts/validate-platform.mjs registry",
     "data:packages:validate": "node scripts/validate-platform.mjs packages",
     "data:claims:validate": "node scripts/validate-platform.mjs claims",
+    "data:claims:stamp": "node scripts/stamp-automated-claim-version.mjs",
     "data:translations:validate": "node scripts/validate-platform.mjs translations",
     "data:provenance:validate": "node scripts/validate-platform.mjs provenance",
     "data:review:validate": "node scripts/validate-platform.mjs review",

@@ -1,0 +1,158 @@
+{
+  "schemaVersion": 1,
+  "importType": "COL26.8-to-ITIS-exact-amphibia-nomenclatural-sidecar",
+  "generatedFrom": {
+    "sourcePath": "data/sources/itis-2026-08-26.json",
+    "sourceSha256": "38a7a55b4e98cafc66790e47f6bd637e298e23fd691e4771c755b38e4a02d7fc",
+    "itisDatabaseMember": "itisSqlite082626/ITIS.sqlite",
+    "itisDatabaseSha256": "ea7304536cfd7b1e2636d383911ca7931fc83d9ab1194ca2a3c020ea2daf1719",
+    "colRegistryManifestPath": "data/catalogue-of-life/releases/2026-08-20/registry/manifest.json",
+    "colRegistryManifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151",
+    "colOwnershipPath": "data/registry/package-species-coverage.json",
+    "colOwnershipSha256": "a297bc8a67ce60806fdee733464a79bfcc42e255f7e59535b01f94013c19dfea"
+  },
+  "scopeAudit": {
+    "colRootUsageId": "PH",
+    "colStrictAcceptedSpecies": 8923,
+    "itisRoot": {
+      "tsn": "173420",
+      "scientificName": "Amphibia",
+      "rank": "Class",
+      "usage": "valid"
+    },
+    "itisCurrentSpecies": 8931,
+    "itisSpeciesSynonymLinks": 12680,
+    "maximumUpdateDates": {
+      "taxonomicUnits": "2026-08-26",
+      "synonymLinks": "2026-08-26"
+    }
+  },
+  "matchingContract": {
+    "normalization": [
+      "Remove the exact trailing COL authorship field from COL scientificName when that suffix is present; no authorship parser is used.",
+      "Normalize Unicode to NFC, replace underscores with spaces, collapse Unicode whitespace and trim.",
+      "For species-rank comparison, remove one parenthesized subgenus token in the exact Genus (Subgenus) species representation; genus and specific epithet must remain unchanged.",
+      "Preserve case, diacritics, punctuation and all remaining name tokens."
+    ],
+    "statuses": {
+      "accepted": "The normalized COL name resolves to exactly one valid ITIS Amphibia species and directly equals that current ITIS name.",
+      "synonym-current-name-redirect": "The normalized COL name equals one or more official ITIS invalid species names whose synonym_links rows resolve to exactly one valid ITIS Amphibia species.",
+      "ambiguous": "The normalized exact evidence resolves to more than one valid ITIS Amphibia species TSN.",
+      "unmatched": "No normalized exact valid-name or official ITIS species-synonym evidence resolves to a valid ITIS Amphibia species."
+    },
+    "prohibited": "No fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered or taxon-substituted matching is used."
+  },
+  "totals": {
+    "total": 8923,
+    "accepted": 8909,
+    "synonymCurrentNameRedirect": 0,
+    "ambiguous": 14,
+    "unmatched": 0,
+    "itisCurrentSpecies": 8931,
+    "itisSpeciesSynonymLinks": 12680,
+    "itisUpstreamOnly": 8
+  },
+  "output": {
+    "descriptor": {
+      "path": "data/packages/vertebrata/amphibia/nomenclature/itis-tsn-sidecar.json",
+      "bytes": 7096,
+      "sha256": "9193d4116f0f14e89ae3c5b33793b828ad6d72e5dd4a81acb4543e1513f99da5"
+    },
+    "colUsageIdShards": [
+      {
+        "path": "data/packages/vertebrata/amphibia/nomenclature/itis-tsn-sidecar-000.jsonl.gz",
+        "records": 1320,
+        "firstColUsageId": "323CW",
+        "lastColUsageId": "3TSLM",
+        "bytes": 47606,
+        "sha256": "2835486f15e454aa1931ed27bc0887419870a8ce96feb86235b58d12016fe257",
+        "sourceBytes": 524210,
+        "sourceSha256": "5e883293b6389a37f2640eb7ceb7dd9a48adac0e5d4471d81a58a8fa9f47a118"
+      },
+      {
+        "path": "data/packages/vertebrata/amphibia/nomenclature/itis-tsn-sidecar-001.jsonl.gz",
+        "records": 1312,
+        "firstColUsageId": "3TSLP",
+        "lastColUsageId": "4MJK6",
+        "bytes": 47933,
+        "sha256": "2efeea89b0d7cab45fc6aaf7b3e20231342c576b45666ca74ec5a903ab66975b",
+        "sourceBytes": 523925,
+        "sourceSha256": "edbacbc03523b8ad1628eff0fa9028e381d6a41d5545d3aab2af70aa4942a846"
+      },
+      {
+        "path": "data/packages/vertebrata/amphibia/nomenclature/itis-tsn-sidecar-002.jsonl.gz",
+        "records": 1309,
+        "firstColUsageId": "4MJK7",
+        "lastColUsageId": "5WNNK",
+        "bytes": 48159,
+        "sha256": "80f85df6a1e1e854fad466488129d79d35d8ef31b06abc6434243d45a5b6dc87",
+        "sourceBytes": 523890,
+        "sourceSha256": "59bb67166aa12c38feec51113ed104d3809fc131c9baf160ede45d281a38305d"
+      },
+      {
+        "path": "data/packages/vertebrata/amphibia/nomenclature/itis-tsn-sidecar-003.jsonl.gz",
+        "records": 1325,
+        "firstColUsageId": "5WNNM",
+        "lastColUsageId": "6SDDQ",
+        "bytes": 50516,
+        "sha256": "16705cfbf230a1c590e5ffac263cbe9ec435651d732a4655ddb744c9f492a60e",
+        "sourceBytes": 524144,
+        "sourceSha256": "4e953bb978e8ad81e6c6c637943f224b1fa9dd2a11ec55bf3642d31adb14cbad"
+      },
+      {
+        "path": "data/packages/vertebrata/amphibia/nomenclature/itis-tsn-sidecar-004.jsonl.gz",
+        "records": 1320,
+        "firstColUsageId": "6SDDS",
+        "lastColUsageId": "CWBW",
+        "bytes": 53230,
+        "sha256": "3f0a03f4f3f1c197e32afc23f2845c313081734fce47c750756265ab2b7108a2",
+        "sourceBytes": 524170,
+        "sourceSha256": "f0ee89a8eee3adfb1c95a03be893db1a085a200ec83e6ba7fa59908bdfc8ec4e"
+      },
+      {
+        "path": "data/packages/vertebrata/amphibia/nomenclature/itis-tsn-sidecar-005.jsonl.gz",
+        "records": 1256,
+        "firstColUsageId": "CWBX",
+        "lastColUsageId": "S6F88",
+        "bytes": 52006,
+        "sha256": "39e4c9036bd80794bb48ac32362ea9265a5c51bbe6a65842ee91b4755b363589",
+        "sourceBytes": 523905,
+        "sourceSha256": "1714a5b82402aca4604c49478aafb3fea8b094cb08c6f9b4195926bb1a0e6b94"
+      },
+      {
+        "path": "data/packages/vertebrata/amphibia/nomenclature/itis-tsn-sidecar-006.jsonl.gz",
+        "records": 1081,
+        "firstColUsageId": "S6SZC",
+        "lastColUsageId": "ZS7V",
+        "bytes": 48800,
+        "sha256": "2f362186108daa20714a1ca2f18e2d9f253fd064db47c7fc82feaaa838b2d4cc",
+        "sourceBytes": 458796,
+        "sourceSha256": "baf8f35308693730b623f069b9c38a1d869af3a596edfe1f3ce0874855ce6cd1"
+      }
+    ],
+    "upstreamOnly": {
+      "path": "data/packages/vertebrata/amphibia/nomenclature/itis-upstream-only-000.jsonl.gz",
+      "records": 8,
+      "firstColUsageId": null,
+      "lastColUsageId": null,
+      "bytes": 444,
+      "sha256": "4c6ebf95272058f1bfd55916892c4609a0fa6f5acfec6c010766fddafc05cf05",
+      "sourceBytes": 3017,
+      "sourceSha256": "0e2af6edc04903367ba34a987c36cd6c498782c4507ad163a99a461b3e663978",
+      "colOwnership": null,
+      "firstTsn": "550547",
+      "lastTsn": "774727"
+    }
+  },
+  "deliveryContract": {
+    "pagesLight": "Pages needs only this small descriptor and may omit all row-level JSONL gzip shards.",
+    "zip": "When a package ZIP integration is approved, include the descriptor and every listed row-level shard as the same checksum-addressed bytes.",
+    "androidIosFull": "Android and iOS complete-data inventories must include the descriptor and every listed row-level shard as the same checksum-addressed bytes.",
+    "runtimeChange": "This import deliberately changes no formal runtime or published release manifest."
+  },
+  "generatedBy": {
+    "scriptPath": "scripts/build-itis-amphibia-sidecar.mjs",
+    "scriptSha256": "4d2b4bf6ad68f47127c1182c8325ccc0085b742eff66c85aad67f86587634390",
+    "deterministic": "Pinned input checksums, fixed roots, exact SQL, exact representation-only normalization and stable sorting; no wall-clock fields or fuzzy matching."
+  }
+}

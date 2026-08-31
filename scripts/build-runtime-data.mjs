@@ -94,6 +94,18 @@ const richPackageNomenclatureSources = {
     descriptorPath: 'data/packages/archosauria/crocodylomorphs-birds/nomenclature/avilist-extension.json',
     expectedId: 'avilist-v2025b-avibase-concepts',
     expectedProvider: 'AviList Core Team',
+    expectedLicense: 'CC-BY-4.0',
+    rowEncoding: 'json',
+    colIdField: 'colId',
+  },
+  amphibia: {
+    kind: 'range-sharded',
+    descriptorPath: 'data/packages/vertebrata/amphibia/nomenclature/itis-tsn-sidecar.json',
+    expectedId: 'itis-2026-08-26-tsn-crosswalk',
+    expectedProvider: 'Integrated Taxonomic Information System',
+    expectedLicense: 'CC0-1.0',
+    rowEncoding: 'jsonl',
+    colIdField: 'colUsageId',
   },
 }
 
@@ -142,16 +154,42 @@ function buildRichPackageNomenclatureCollections(packageId) {
   if (!definition) return []
   if (definition.kind === 'range-sharded') {
     const descriptorBytes = readFileSync(join(rootDir, definition.descriptorPath))
-    const descriptor = JSON.parse(descriptorBytes.toString('utf8'))
+    const canonicalDescriptor = JSON.parse(descriptorBytes.toString('utf8'))
+    const isItis = definition.rowEncoding === 'jsonl'
+    const descriptor = isItis ? {
+      schemaVersion: canonicalDescriptor.schemaVersion,
+      id: definition.expectedId,
+      recordType: canonicalDescriptor.sidecarType,
+      provider: definition.expectedProvider,
+      packageId: canonicalDescriptor.packageId,
+      source: { ...canonicalDescriptor.sources.itis, col: canonicalDescriptor.sources.col },
+      matching: canonicalDescriptor.exactMatching,
+      counts: canonicalDescriptor.counts,
+      files: canonicalDescriptor.colUsageIdLocator.files.map((file) => ({
+        ...file,
+        minColId: file.firstColUsageId,
+        maxColId: file.lastColUsageId,
+        mediaType: 'application/x-ndjson',
+      })),
+      upstreamOnlyFiles: canonicalDescriptor.upstreamOnly.files.map((file) => ({
+        ...file,
+        mediaType: 'application/x-ndjson',
+      })),
+      evidenceBoundary: canonicalDescriptor.evidenceBoundary,
+      limitations: [canonicalDescriptor.evidenceBoundary.en, canonicalDescriptor.exactMatching.prohibited],
+    } : canonicalDescriptor
+    const descriptorLicense = isItis ? canonicalDescriptor.sources?.itis?.license : descriptor.source?.license
     if (descriptor.schemaVersion !== 1 || descriptor.id !== definition.expectedId
       || descriptor.provider !== definition.expectedProvider || descriptor.packageId !== packageId
-      || descriptor.source?.license !== 'CC-BY-4.0') {
+      || descriptorLicense !== definition.expectedLicense) {
       throw new Error(`${packageId}: canonical range-sharded collection descriptor is invalid`)
     }
     const packageRoot = dirname(dirname(join(rootDir, definition.descriptorPath)))
     let previousMaxColId = null
     const validateCanonicalFile = (file, rangeKind) => {
-      const sourcePath = resolve(packageRoot, ...file.path.split('/'))
+      const sourcePath = file.path.startsWith('data/')
+        ? resolve(rootDir, ...file.path.split('/'))
+        : resolve(packageRoot, ...file.path.split('/'))
       if (!sourcePath.startsWith(`${packageRoot}${sep}`)) throw new Error(`${packageId}: unsafe nomenclature path ${file.path}`)
       const sourceBytes = readFileSync(sourcePath)
       const decoded = gunzipSync(sourceBytes)
@@ -159,11 +197,14 @@ function buildRichPackageNomenclatureCollections(packageId) {
         || decoded.byteLength !== file.sourceBytes || sha256(decoded) !== file.sourceSha256) {
         throw new Error(`${packageId}: nomenclature shard changed without rebuilding its descriptor: ${file.path}`)
       }
-      const rows = JSON.parse(decoded.toString('utf8'))
+      const rows = definition.rowEncoding === 'jsonl'
+        ? decoded.toString('utf8').trimEnd().split('\n').filter(Boolean).map((line) => JSON.parse(line))
+        : JSON.parse(decoded.toString('utf8'))
       if (!Array.isArray(rows) || rows.length !== file.records) throw new Error(`${packageId}: invalid row count in ${file.path}`)
       if (rangeKind === 'col') {
-        if (rows[0]?.colId !== file.minColId || rows.at(-1)?.colId !== file.maxColId
-          || rows.some((row, index) => index > 0 && rows[index - 1].colId.localeCompare(row.colId) >= 0)
+        const colIdField = definition.colIdField
+        if (rows[0]?.[colIdField] !== file.minColId || rows.at(-1)?.[colIdField] !== file.maxColId
+          || rows.some((row, index) => index > 0 && rows[index - 1][colIdField].localeCompare(row[colIdField]) >= 0)
           || (previousMaxColId !== null && previousMaxColId.localeCompare(file.minColId) >= 0)) {
           throw new Error(`${packageId}: COL shard ranges are absent, overlapping or inconsistent: ${file.path}`)
         }
@@ -173,8 +214,10 @@ function buildRichPackageNomenclatureCollections(packageId) {
     }
     const canonicalFiles = descriptor.files.map((file) => ({ file, bytes: validateCanonicalFile(file, 'col') }))
     const canonicalUpstreamOnlyFiles = (descriptor.upstreamOnlyFiles ?? []).map((file) => ({ file, bytes: validateCanonicalFile(file, 'upstream') }))
-    if (canonicalFiles.reduce((sum, entry) => sum + entry.file.records, 0) !== descriptor.counts.packageAcceptedSpecies
-      || canonicalUpstreamOnlyFiles.reduce((sum, entry) => sum + entry.file.records, 0) !== descriptor.counts.upstreamOnly) {
+    const expectedPackageRecords = isItis ? descriptor.counts.total : descriptor.counts.packageAcceptedSpecies
+    const expectedUpstreamOnlyRecords = isItis ? descriptor.counts.itisUpstreamOnly : descriptor.counts.upstreamOnly
+    if (canonicalFiles.reduce((sum, entry) => sum + entry.file.records, 0) !== expectedPackageRecords
+      || canonicalUpstreamOnlyFiles.reduce((sum, entry) => sum + entry.file.records, 0) !== expectedUpstreamOnlyRecords) {
       throw new Error(`${packageId}: range-sharded record totals do not match the descriptor`)
     }
     const publishFiles = (entries) => deliveryProfile === 'native-full'
