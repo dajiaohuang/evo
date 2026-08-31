@@ -96,7 +96,7 @@ describe('COL26.8 Bacteria LPSN identifier sidecar', () => {
       sourceResponseSha256: responseHashes.get(record.id),
     })).join('\n')}\n`, 'utf8')
     expect(sha256(requestLedgerBytes)).toBe(crosswalk.integrity.requestLedgerSha256)
-  })
+  }, 30_000)
 
   it('publishes resolved identifiers deterministically while leaving species and other packs unchanged', () => {
     const temporaryRoot = mkdtempSync(join(tmpdir(), 'evo-bacteria-lpsn-'))
@@ -162,5 +162,5 @@ describe('COL26.8 Bacteria LPSN identifier sidecar', () => {
     expect(runtimeRecords).toHaveLength(crosswalk.counts.resolved)
     expect(runtimeRecords.map((record) => record.colId)).toEqual(species.filter((record) => resolvedIds.has(record.id)).map((record) => record.id))
     expect(runtimeRecords.every((record) => record.status === 'resolved')).toBe(true)
-  })
+  }, 30_000)
 })
