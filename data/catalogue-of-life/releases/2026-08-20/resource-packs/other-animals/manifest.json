@@ -2433,6 +2433,120 @@
           "requestPolicy": "Select the sole inclusive COL-ID range and read at most one COL partition; upstream-only files are never selected by COL ID."
         }
       }
+    },
+    {
+      "id": "itis-gnathostomulida-tsn-crosswalk",
+      "recordType": "release-pinned-exact-nomenclatural-crosswalk",
+      "provider": "Integrated Taxonomic Information System",
+      "source": {
+        "datasetId": "itis-2026-08-26",
+        "exportDate": "2026-08-26",
+        "rootTsn": "57405",
+        "license": "CC0-1.0",
+        "citationDoi": "10.5066/F7KH0KBK",
+        "canonicalDescriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals/itis-gnathostomulida-sidecar.json",
+        "canonicalDescriptorBytes": 6392,
+        "canonicalDescriptorSha256": "43cf5050c3f2cdc2a0ae3651e89ca47277a8e93c710b39f3d994172790480885"
+      },
+      "scope": {
+        "colRootUsageId": "B8VF3",
+        "colRootScientificName": "Gnathostomulida",
+        "colStrictAcceptedSpecies": 100,
+        "packageStrictAcceptedSpecies": 99161,
+        "packageOutOfScopeStrictAcceptedSpecies": 99061,
+        "boundary": "other-animals is the deterministic Animalia remainder after more-specific static-package routes. This sidecar covers only strict accepted COL26.8 species descending from exact Gnathostomulida root B8VF3; every other other-animals-owned species is explicitly outside this sidecar."
+      },
+      "matching": {
+        "normalization": [
+          "Remove the exact trailing COL authorship field from COL scientificName when that suffix is present; no authorship parser is used.",
+          "Normalize Unicode to NFC, replace underscores with spaces, collapse Unicode whitespace and trim.",
+          "For species-rank comparison, remove one parenthesized subgenus token in the exact Genus (Subgenus) species representation; genus and specific epithet must remain unchanged.",
+          "Preserve case, diacritics, punctuation and all remaining name tokens."
+        ],
+        "statuses": {
+          "accepted": "The normalized COL name resolves to exactly one valid ITIS Gnathostomulida species and directly equals that current ITIS name.",
+          "synonym-current-name-redirect": "The normalized COL name equals official ITIS invalid species-name evidence that resolves to exactly one valid ITIS Gnathostomulida species.",
+          "ambiguous": "The normalized exact evidence resolves to more than one valid ITIS Gnathostomulida species TSN.",
+          "unmatched": "No normalized exact valid-name or official ITIS species-synonym evidence resolves to a valid ITIS Gnathostomulida species."
+        },
+        "prohibited": "No fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered or taxon-substituted matching is used."
+      },
+      "evidenceBoundary": {
+        "en": "This CC0 ITIS sidecar is a frozen exact nomenclatural crosswalk for the declared Gnathostomulida partition inside the mixed Other Animals resource pack. It is not a global gnathostomulidan checklist, final classification authority, phylogeny, species-concept equivalence assertion, biological dossier or scientific-review record.",
+        "zh": "此 CC0 ITIS 侧车是混合“其他动物”资源包中所声明颚胃动物分区的冻结严格命名交叉映射；它不是全球颚胃动物名录、最终分类权威、系统发育树、物种概念等同性声明、生物档案或科学审查记录。"
+      },
+      "counts": {
+        "eligible": 100,
+        "records": 104,
+        "accepted": 90,
+        "redirects": 0,
+        "ambiguous": 0,
+        "unmatched": 10,
+        "withheld": 0,
+        "upstreamOnly": 4,
+        "nonApplicable": 99061
+      },
+      "files": [
+        {
+          "path": "other-animals/itis-gnathostomulida-sidecar-0000.jsonl.gz",
+          "records": 100,
+          "bytes": 3000,
+          "sourceBytes": 36167,
+          "sha256": "fdccb9d9419f316a9d3f8e21751c2fbdaf3abe5c9f1e726556ae48a7f487434d",
+          "sourceSha256": "c8352a37e0ad757274217b31793fd4b45b69a06a4815e67ceafc8fd6e31b830d",
+          "encoding": "gzip",
+          "mediaType": "application/x-ndjson",
+          "minColId": "3GLZ3",
+          "maxColId": "JWNT",
+          "role": "col-partition"
+        },
+        {
+          "path": "other-animals/itis-gnathostomulida-upstream-only-0000.jsonl.gz",
+          "records": 4,
+          "bytes": 338,
+          "sourceBytes": 1465,
+          "sha256": "98c28c9ecc967263c9fe8da72281f2d66799da1cbc93e9d81689f155956b8ba1",
+          "sourceSha256": "ba0c83df631dd60bf04181f4a72bfb7cb6991d9d0e2974a85fe6346e7ea16aa5",
+          "encoding": "gzip",
+          "mediaType": "application/x-ndjson",
+          "colOwnership": null,
+          "role": "upstream-only"
+        }
+      ],
+      "totalCompressedBytes": 3338,
+      "totalSourceBytes": 37632,
+      "deliveryProfiles": {
+        "web-light": {
+          "payload": "summary-only",
+          "files": [],
+          "records": 0,
+          "totalCompressedBytes": 0,
+          "totalSourceBytes": 0,
+          "statement": "GitHub Pages publishes the complete Gnathostomulida ITIS summary and canonical hashes without row shards."
+        },
+        "native-full": {
+          "payload": "complete",
+          "files": [
+            "other-animals/itis-gnathostomulida-sidecar-0000.jsonl.gz",
+            "other-animals/itis-gnathostomulida-upstream-only-0000.jsonl.gz"
+          ],
+          "records": 104,
+          "totalCompressedBytes": 3338,
+          "totalSourceBytes": 37632
+        }
+      },
+      "limitations": [
+        "This CC0 ITIS sidecar is a frozen exact nomenclatural crosswalk for the declared Gnathostomulida partition inside the mixed Other Animals resource pack. It is not a global gnathostomulidan checklist, final classification authority, phylogeny, species-concept equivalence assertion, biological dossier or scientific-review record.",
+        "No fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered or taxon-substituted matching is used."
+      ],
+      "integration": {
+        "clientParityRequirement": "Android and iOS must copy every native-full file byte-for-byte; Web uses the web-light summary profile.",
+        "lookup": {
+          "strategy": "lexicographic-colId-range-v1",
+          "ordering": "Unicode code-unit ascending",
+          "requestPolicy": "Select the sole inclusive COL-ID range and read at most one COL partition; upstream-only files are never selected by COL ID."
+        }
+      }
     }
   ]
 }

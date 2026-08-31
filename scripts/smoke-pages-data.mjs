@@ -643,9 +643,10 @@ if (catalogue.resourcePacks?.packageCount !== 7
         'itis-sipuncula-tsn-crosswalk': { eligible: 146, records: 205, accepted: 146, redirects: 0, ambiguous: 0, unmatched: 0, upstreamOnly: 59, nonApplicable: 99015, files: 2 },
         'itis-nematomorpha-tsn-crosswalk': { eligible: 356, records: 404, accepted: 187, redirects: 6, ambiguous: 0, unmatched: 163, upstreamOnly: 48, nonApplicable: 98805, files: 2 },
         'itis-phoronida-tsn-crosswalk': { eligible: 19, records: 19, accepted: 11, redirects: 8, ambiguous: 0, unmatched: 0, upstreamOnly: 0, nonApplicable: 99142, files: 2 },
+        'itis-gnathostomulida-tsn-crosswalk': { eligible: 100, records: 104, accepted: 90, redirects: 0, ambiguous: 0, unmatched: 10, upstreamOnly: 4, nonApplicable: 99061, files: 2 },
       }
-      if (extensions.length !== 18 || manifestFile.extensionFileCount !== 0 || manifestFile.canonicalExtensionFileCount !== 53) {
-        failures.push('other-animals: Pages must publish 18 ITIS authority summaries and no row shards')
+      if (extensions.length !== 19 || manifestFile.extensionFileCount !== 0 || manifestFile.canonicalExtensionFileCount !== 55) {
+        failures.push('other-animals: Pages must publish 19 ITIS authority summaries and no row shards')
       }
       for (const [id, counts] of Object.entries(expected)) {
         const authority = extensions.find((candidate) => candidate.id === id)

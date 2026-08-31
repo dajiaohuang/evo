@@ -993,6 +993,7 @@ export type CatalogueItisOtherAnimalsScope =
   | 'sipuncula'
   | 'nematomorpha'
   | 'phoronida'
+  | 'gnathostomulida'
 
 export interface CatalogueItisOtherAnimalsResourcePackExtension {
   id: `itis-${CatalogueItisOtherAnimalsScope}-tsn-crosswalk`
