@@ -118,6 +118,7 @@ const expectedOtherAnimalAuthorities = {
   'itis-cycliophora-tsn-crosswalk': { files: 2, records: 2 },
   'itis-placozoa-tsn-crosswalk': { files: 2, records: 4 },
   'itis-xenacoelomorpha-tsn-crosswalk': { files: 2, records: 499 },
+  'itis-orthonectida-tsn-crosswalk': { files: 2, records: 27 },
 }
 if (otherAnimalsManifest.extensions?.length !== Object.keys(expectedOtherAnimalAuthorities).length) {
   throw new Error('Mobile build must stage every declared other-animals ITIS authority collection')

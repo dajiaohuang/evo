@@ -3127,6 +3127,122 @@
           "requestPolicy": "Select the sole inclusive COL-ID range and read at most one COL partition; upstream-only files are never selected by COL ID."
         }
       }
+    },
+    {
+      "id": "itis-orthonectida-tsn-crosswalk",
+      "recordType": "release-pinned-exact-nomenclatural-crosswalk",
+      "provider": "Integrated Taxonomic Information System",
+      "source": {
+        "datasetId": "itis-2026-08-26",
+        "exportDate": "2026-08-26",
+        "rootTsn": "57409",
+        "license": "CC0-1.0",
+        "citationDoi": "10.5066/F7KH0KBK",
+        "canonicalDescriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals/itis-orthonectida-sidecar.json",
+        "canonicalDescriptorBytes": 4818,
+        "canonicalDescriptorSha256": "03d0e22c8cf6c72c7c7cee75120b8f881f04244101cb9069e2333b4a7f5e6bb7"
+      },
+      "scope": {
+        "packageRootUsageId": "N",
+        "packageRootScientificName": "Animalia",
+        "colRootUsageId": "CVJLH",
+        "colRootScientificName": "Orthonectida",
+        "colStrictAcceptedSpecies": 24,
+        "packageStrictAcceptedSpecies": 99161,
+        "packageOutOfScopeStrictAcceptedSpecies": 99137,
+        "boundary": "This sidecar covers only strict accepted COL26.8 species descending from exact Orthonectida root CVJLH."
+      },
+      "matching": {
+        "normalization": [
+          "Remove the exact trailing COL authorship field from COL scientificName when that suffix is present; no authorship parser is used.",
+          "Normalize Unicode to NFC, replace underscores with spaces, collapse Unicode whitespace and trim.",
+          "For species-rank comparison, remove one parenthesized subgenus token in the exact Genus (Subgenus) species representation; genus and specific epithet must remain unchanged.",
+          "Preserve case, diacritics, punctuation and all remaining name tokens."
+        ],
+        "statuses": {
+          "accepted": "The normalized COL name directly equals one valid ITIS Orthonectida species.",
+          "synonym-current-name-redirect": "The normalized COL name equals official ITIS invalid species-name evidence resolving to one valid ITIS Orthonectida species.",
+          "ambiguous": "The normalized exact evidence resolves to more than one valid ITIS species TSN.",
+          "unmatched": "No normalized exact valid-name or official ITIS species-synonym evidence resolves to a valid ITIS Orthonectida species."
+        },
+        "prohibited": "No fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered or taxon-substituted matching is used."
+      },
+      "evidenceBoundary": {
+        "en": "This CC0 ITIS sidecar is a frozen exact nomenclatural crosswalk for the declared Orthonectida partition; it is not a global checklist, final classification authority, phylogeny, species-concept equivalence assertion, biological dossier or scientific-review record.",
+        "zh": "此 CC0 ITIS 侧车是已声明 Orthonectida 分区的冻结严格命名交叉映射；它不是全球名录、最终分类权威、系统发育、物种概念等同性声明、生物档案或科学审查记录。"
+      },
+      "counts": {
+        "eligible": 24,
+        "records": 27,
+        "accepted": 22,
+        "redirects": 0,
+        "ambiguous": 0,
+        "unmatched": 2,
+        "withheld": 0,
+        "upstreamOnly": 3,
+        "nonApplicable": 99137
+      },
+      "files": [
+        {
+          "path": "other-animals/itis-orthonectida-sidecar-0000.jsonl.gz",
+          "records": 24,
+          "bytes": 1034,
+          "sourceBytes": 8631,
+          "sha256": "b2656b4a16eb9aca9602c7bd4666a55013c75ee18ed71b43f3206f0abc59d858",
+          "sourceSha256": "643073a769d4756b33954252ccd2991f76c705f6b3736b78017cccb3657310a9",
+          "encoding": "gzip",
+          "mediaType": "application/x-ndjson",
+          "minColId": "3PSWP",
+          "maxColId": "VBTZ",
+          "role": "col-partition"
+        },
+        {
+          "path": "other-animals/itis-orthonectida-upstream-only-0000.jsonl.gz",
+          "records": 3,
+          "bytes": 303,
+          "sourceBytes": 1085,
+          "sha256": "e9ff35dd9d37cbae66ef98127147f9de1f8ca4b0c6172ef6fd3d13ef8b6116e4",
+          "sourceSha256": "821cf8f4c713c741a2a074f9105ac80d2111278af23bf47c4a0d195fa651af92",
+          "encoding": "gzip",
+          "mediaType": "application/x-ndjson",
+          "colOwnership": null,
+          "role": "upstream-only"
+        }
+      ],
+      "totalCompressedBytes": 1337,
+      "totalSourceBytes": 9716,
+      "deliveryProfiles": {
+        "web-light": {
+          "payload": "summary-only",
+          "files": [],
+          "records": 0,
+          "totalCompressedBytes": 0,
+          "totalSourceBytes": 0,
+          "statement": "GitHub Pages publishes the complete Orthonectida ITIS summary and canonical hashes without row shards."
+        },
+        "native-full": {
+          "payload": "complete",
+          "files": [
+            "other-animals/itis-orthonectida-sidecar-0000.jsonl.gz",
+            "other-animals/itis-orthonectida-upstream-only-0000.jsonl.gz"
+          ],
+          "records": 27,
+          "totalCompressedBytes": 1337,
+          "totalSourceBytes": 9716
+        }
+      },
+      "limitations": [
+        "This CC0 ITIS sidecar is a frozen exact nomenclatural crosswalk for the declared Orthonectida partition; it is not a global checklist, final classification authority, phylogeny, species-concept equivalence assertion, biological dossier or scientific-review record.",
+        "No fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered or taxon-substituted matching is used."
+      ],
+      "integration": {
+        "clientParityRequirement": "Android and iOS must copy every native-full file byte-for-byte; Web uses the web-light summary profile.",
+        "lookup": {
+          "strategy": "lexicographic-colId-range-v1",
+          "ordering": "Unicode code-unit ascending",
+          "requestPolicy": "Select the sole inclusive COL-ID range and read at most one COL partition; upstream-only files are never selected by COL ID."
+        }
+      }
     }
   ]
 }
