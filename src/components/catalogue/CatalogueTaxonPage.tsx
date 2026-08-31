@@ -2,6 +2,7 @@ import { useEffect, useMemo, useState } from 'react'
 import {
   loadCatalogueChildren,
   loadCatalogueHierarchyNode,
+  loadCatalogueIctvVirusMetadata,
   loadCatalogueLpsnIdentifiers,
   loadCatalogueLineage,
   loadCatalogueManifest,
@@ -12,9 +13,11 @@ import {
 import type {
   CatalogueHierarchyChildRecord,
   CatalogueHierarchyNodeRecord,
+  CatalogueIctvResourcePackExtension,
+  CatalogueIctvVirusRecord,
   CatalogueRuntimeManifest,
   CatalogueLpsnIdentifierRecord,
-  CatalogueResourcePackExtension,
+  CatalogueLpsnResourcePackExtension,
   CatalogueSpeciesOwnership,
   CatalogueTaxonRecord,
 } from '../../data-client/types'
@@ -60,8 +63,10 @@ function CatalogueTaxonRecord({ release, id, onNavigate }: CatalogueTaxonPagePro
   const [ownershipStatus, setOwnershipStatus] = useState<SectionStatus>('idle')
   const [sources, setSources] = useState<Awaited<ReturnType<typeof loadCatalogueSourceChecklists>>>([])
   const [sourcesStatus, setSourcesStatus] = useState<SectionStatus>('idle')
-  const [lpsn, setLpsn] = useState<{ record: CatalogueLpsnIdentifierRecord; extension: CatalogueResourcePackExtension } | null>(null)
+  const [lpsn, setLpsn] = useState<{ record: CatalogueLpsnIdentifierRecord; extension: CatalogueLpsnResourcePackExtension } | null>(null)
   const [lpsnStatus, setLpsnStatus] = useState<SectionStatus>('idle')
+  const [ictv, setIctv] = useState<{ record: CatalogueIctvVirusRecord; extension: CatalogueIctvResourcePackExtension } | null>(null)
+  const [ictvStatus, setIctvStatus] = useState<SectionStatus>('idle')
   const [childFilter, setChildFilter] = useState('')
   const [visibleChildren, setVisibleChildren] = useState(100)
 
@@ -164,8 +169,29 @@ function CatalogueTaxonRecord({ release, id, onNavigate }: CatalogueTaxonPagePro
     }).catch(() => { if (!cancelled) setLpsnStatus('error') })
     return () => { cancelled = true }
   }, [node, speciesOwner?.entry.id])
+
+  useEffect(() => {
+    let cancelled = false
+    if (!node || speciesOwner?.entry.id !== 'viruses') {
+      // eslint-disable-next-line react-hooks/set-state-in-effect -- discard metadata from a previously selected virus record immediately
+      setIctv(null)
+      setIctvStatus('idle')
+      return () => { cancelled = true }
+    }
+    setIctv(null)
+    setIctvStatus('loading')
+    void loadCatalogueIctvVirusMetadata().then(({ extension, records }) => {
+      if (cancelled) return
+      const record = records.find((candidate) => candidate.colId === node.id)
+      setIctv(record ? { record, extension } : null)
+      setIctvStatus('ready')
+    }).catch(() => { if (!cancelled) setIctvStatus('error') })
+    return () => { cancelled = true }
+  }, [node, speciesOwner?.entry.id])
   const isHierarchyMember = node?.projection === 'accepted-species-hierarchy'
   const number = (value: number) => value.toLocaleString(zh ? 'zh-CN' : 'en-US')
+  const ictvExemplar = ictv?.record.isolates.find((isolate) => isolate.role === 'exemplar')
+  const ictvAdditional = ictv?.record.isolates.filter((isolate) => isolate.role === 'additional') ?? []
 
   if (status !== 'ready' || !node || !manifest) {
     const title = status === 'loading'
@@ -317,6 +343,17 @@ function CatalogueTaxonRecord({ release, id, onNavigate }: CatalogueTaxonPagePro
               <span>LPSN {lpsn.extension.source.sourceDatasetVersion} · {zh ? '获取于' : 'retrieved'} {lpsn.extension.source.retrievedAt}</span>
               <p>{zh ? '该标识通过固定 COL26.8 / ChecklistBank 316115 来源记录映射，不是按名称猜测，也不代表生态、基因组、菌株、化石、媒体、系统发育或专家评审档案已经完成。' : 'This identifier follows the pinned COL26.8 / ChecklistBank 316115 source record. It is not a name-based guess or a claim of completed ecology, genome, strain, fossil, media, phylogeny, or expert-review content.'}</p>
               <div><a href={lpsn.record.lpsnUrl} target="_blank" rel="noreferrer">{zh ? '打开具体 LPSN 记录' : 'Open the specific LPSN record'} ↗</a><a href={lpsn.extension.source.licenseUrl} target="_blank" rel="noreferrer">CC BY-SA 4.0 ↗</a></div>
+            </div>}
+            {speciesOwner?.entry.id === 'viruses' && (ictvStatus === 'idle' || ictvStatus === 'loading') && <p>{zh ? '正在读取固定 ICTV MSL / VMR 元数据…' : 'Loading the pinned ICTV MSL / VMR metadata…'}</p>}
+            {speciesOwner?.entry.id === 'viruses' && ictvStatus === 'error' && <p className="catalogue-inline-error">{zh ? 'ICTV 元数据分片读取或校验失败；COL26.8 分类记录仍可使用。' : 'The ICTV metadata shard could not be read or verified; the COL26.8 record remains available.'}</p>}
+            {speciesOwner?.entry.id === 'viruses' && ictvStatus === 'ready' && !ictv && <p className="catalogue-inline-error">{zh ? '本病毒记录未在固定 ICTV 精确映射中找到；未使用模糊名称或历史同义名猜测。' : 'This virus record is absent from the pinned exact ICTV mapping; no fuzzy name or historical-synonym substitute was inferred.'}</p>}
+            {ictvStatus === 'ready' && ictv?.record.colId === node.id && <div className="catalogue-lpsn-card">
+              <strong>{zh ? 'ICTV 当前分类与病毒样本元数据' : 'Current ICTV taxonomy and virus metadata'}</strong>
+              <span>MSL41.v1 · VMR 2026-07-29 · {ictv.record.ictvTaxonId}</span>
+              <p>{zh ? `该记录以区分大小写的当前种名精确匹配，并由 MSL 与 VMR 共享的唯一 ICTV ID 复核；不使用名称归一化、模糊匹配或同义名推断。当前 ICTV 的 ${number(ictv.extension.counts.officialSpecies)} 个种全部随包提供，其中 ${number(ictv.extension.counts.upstreamOnly)} 个尚无 COL26.8 接受种 ID。` : `This record uses an exact, case-sensitive current species-name match, confirmed by the unique ICTV ID shared by MSL and VMR. No normalization, fuzzy matching, or synonym inference is used. All ${number(ictv.extension.counts.officialSpecies)} current ICTV species ship with the pack; ${number(ictv.extension.counts.upstreamOnly)} do not yet have a COL26.8 accepted-species ID.`}</p>
+              {ictvExemplar && <p>{zh ? '代表病毒：' : 'Exemplar virus: '}<strong>{ictvExemplar.virusNames ?? ictvExemplar.isolateId}</strong>{ictvExemplar.abbreviations ? ` (${ictvExemplar.abbreviations})` : ''}<br />{ictvExemplar.genome} · {ictvExemplar.genomeCoverage} · {ictvExemplar.hostSource}</p>}
+              {ictvAdditional.length > 0 && <details><summary>{zh ? `${number(ictvAdditional.length)} 条附加分离物` : `${number(ictvAdditional.length)} additional isolate record${ictvAdditional.length === 1 ? '' : 's'}`}</summary><ul>{ictvAdditional.map((isolate) => <li key={isolate.isolateId}><a href={isolate.isolateUrl} target="_blank" rel="noreferrer">{isolate.virusNames ?? isolate.isolateId} ↗</a>{isolate.genbankAccessions ? ` · ${isolate.genbankAccessions}` : ''}</li>)}</ul></details>}
+              <div><a href={ictv.record.ictvTaxonUrl} target="_blank" rel="noreferrer">{zh ? '打开具体 ICTV 分类记录' : 'Open the specific ICTV taxon record'} ↗</a>{ictvExemplar?.accessionsUrl && <a href={ictvExemplar.accessionsUrl} target="_blank" rel="noreferrer">GenBank ↗</a>}<a href={ictv.extension.source.licenseUrl} target="_blank" rel="noreferrer">CC BY 4.0 ↗</a></div>
             </div>}
           </section>
           <section>

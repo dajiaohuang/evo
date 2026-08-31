@@ -14,6 +14,8 @@ The Archaea nomenclatural resource pack has one source-specific `extensions[]` e
 
 The pinned snapshot was acquired with `node scripts/fetch-archaea-lpsn-crosswalk.mjs --retrieved-at 2026-08-31`. A later refresh must use an explicit new retrieval date, review the changed mappings and response hashes, and regenerate the resource packs; the normal `data:packages:species` build never contacts ChecklistBank or LPSN.
 
+The Viruses nomenclatural resource pack adds a separate CC BY 4.0 ICTV extension while preserving its original 17,552-row COL26.8 shard. Exact, case-sensitive current-name matching plus the unique ICTV ID shared by MSL41.v1 and VMR resolves all 17,552 eligible COL rows with zero redirects, ambiguity, unmatched rows or withholding. The sidecar also retains the two additional current ICTV species that have no COL26.8 accepted ID, so all 17,554 current ICTV species and all 19,285 VMR isolate rows reach the runtime. The corrected VMR is the 2026-07-29 workbook; the source ledger pins both official workbooks by URL, bytes, SHA-256, Zenodo MD5, ETag, Last-Modified and DOI. See `docs/virus-ictv-sidecar.md`.
+
 rc54 PBDB status supersedes the older query totals later in this section. The 24 schema-v2 ledgers now contain 251 complete subqueries across 413 pages, 1,007,973 overlapping returned rows, 595,492 package-unique occurrence IDs and 100,425 deterministic retained details. Another 141 concepts remain withheld because they fail pinned name, rank, complete-lineage, concept-review, applicability or fixed size boundaries. Of 147 formerly stale ontology-expansion mappings, 103 passed exact accepted-name, normalized-rank and compatible-lineage checks; the other 44 retain explicit reasons and any lineage-conflicting candidates are not published as resolved IDs.
 
 rc53 supersedes the earlier residual-partition description below: 24 curated-content packages own 1,819,973 accepted species, seven deterministic static nomenclatural resource packs own the remaining 363,160, and the eighth residual route is an explicit zero-record boundary. The seven packs contain fourteen gzip NDJSON species shards plus one shared 160-checklist source ledger; they provide complete release-scoped names and classification placement, not generated dossiers, evidence, media or expert review.
@@ -43,13 +45,14 @@ data/releases/<datasetVersion>/catalogue/hierarchy/children/parent-<hash-prefix>
 data/releases/<datasetVersion>/catalogue/resource-packs/<package>/manifest.json
 data/releases/<datasetVersion>/catalogue/resource-packs/<package>/species-<shard>.jsonl.gz
 data/releases/<datasetVersion>/catalogue/resource-packs/archaea/lpsn-000.jsonl.gz
+data/releases/<datasetVersion>/catalogue/resource-packs/viruses/ictv-000.jsonl.gz
 data/releases/<datasetVersion>/catalogue/resource-packs/sources.json.gz
 data/releases/<datasetVersion>/downloads/<package>-<version>.zip
 ```
 
 The browser fetches these files through `src/data-client/staticDataClient.ts`. Package manifests are checksum-verified like payloads, and their `version` must equal the bootstrap `datasetVersion`. On a checksum mismatch the client removes the URL from browser caches and performs one network refetch before failing. Versioned URLs and memory-cache keys prevent release mixing.
 
-Resource-pack extension files are separate from `manifest.files`, so they cannot alter accepted-species shard counts. The runtime builder copies their source bytes unchanged, adds release URLs, includes them in the owning ZIP and release inventory, and therefore supplies the same checksummed bytes to Web offline storage and the Android/iOS full-data bundle. The catalogue client loads the Archaea LPSN extension lazily and independently of the species shard.
+Resource-pack extension files are separate from `manifest.files`, so they cannot alter accepted-species shard counts. The runtime builder copies their source bytes unchanged, adds release URLs, includes them in the owning ZIP and release inventory, and therefore supplies the same checksummed bytes to Web offline storage and the Android/iOS full-data bundle. The catalogue client loads the Archaea LPSN and Viruses ICTV extensions lazily and independently of their species shards.
 
 ## Paleogeography boundary
 

@@ -41,6 +41,8 @@ rc58 增加 8 幅总计不足 0.5 MiB 的 1280×800 WebP 解释性复原。它�
 
 rc57 的 Archaea 命名包在原有 790 条 COL26.8 species shard 之外增加一份 8,116 字节的 LPSN 标识 sidecar。它与 Web 使用完全相同的路径、字节数和 SHA-256，经 `release-files.json` 自动进入 Android/iOS 资源；重复 ZIP 仍不进入原生包。原生测试会核对 790 条映射、manifest、sidecar 与 inventory 的字节和校验和，但不会把 LPSN 标识扩展解释为生态、基因组、菌株、化石、媒体、系统发育或专家评审档案。
 
+Viruses 命名包同样通过资源包扩展发布固定 ICTV `MSL41.v1` / `VMR_MSL41.v1.20260729` 数据。17,552 个 COL26.8 病毒种全部精确映射，当前 ICTV 多出的 2 个种保留为 null COL ID，合计 17,554 个 ICTV 种与 19,285 条 VMR 分离物记录进入同一 `release-files.json`。Web、Android 与 iOS 不维护不同的病毒数据子集；原生包复制并校验与 Web/包 ZIP 相同的 sidecar 字节。
+
 原生构建固定使用相对数据根 `./data/`；Web 发布根由 Vite 的 `/evo/` 基址决定。不要在 Java/Kotlin/Swift 代码中复制数据 URL。
 
 ## 准备环境

@@ -6,6 +6,7 @@ import { createGunzip } from 'node:zlib'
 import { createInterface } from 'node:readline'
 import { deterministicGzip } from './archive-determinism.mjs'
 import { buildBacteriaLpsnSidecar } from './build-bacteria-lpsn-sidecar.mjs'
+import { buildVirusIctvSidecar } from './build-virus-ictv-sidecar.mjs'
 
 const SCRIPT_PATH = fileURLToPath(import.meta.url)
 const REPOSITORY_ROOT = resolve(dirname(SCRIPT_PATH), '..')
@@ -15,6 +16,7 @@ const DEFAULT_OUTPUT = join(REPOSITORY_ROOT, 'data', 'registry', 'package-specie
 const DEFAULT_RESOURCE_PACKS_ROOT = join(REPOSITORY_ROOT, 'data', 'catalogue-of-life', 'releases', '2026-08-20', 'resource-packs')
 const DEFAULT_ARCHAEA_LPSN_CROSSWALK = join(REPOSITORY_ROOT, 'data', 'sources', 'archaea-lpsn-crosswalk-col26.8.json')
 const DEFAULT_BACTERIA_LPSN_CROSSWALK = join(REPOSITORY_ROOT, 'data', 'sources', 'bacteria-lpsn-crosswalk-col26.8.json.gz')
+const DEFAULT_VIRUS_ICTV_CROSSWALK = join(REPOSITORY_ROOT, 'data', 'sources', 'ictv-virus-crosswalk-col26.8-msl41.v1.json.gz')
 const RESOURCE_PACK_SOURCE_LIMIT = 6 * 1024 * 1024
 const ARCHAEA_LPSN_FIELDS = ['colId', 'lpsnId', 'lpsnUrl', 'mappingBasis', 'status']
 
@@ -127,6 +129,7 @@ function parseArgs(argv) {
     resourcePacksRoot: DEFAULT_RESOURCE_PACKS_ROOT,
     archaeaLpsnCrosswalk: DEFAULT_ARCHAEA_LPSN_CROSSWALK,
     bacteriaLpsnCrosswalk: DEFAULT_BACTERIA_LPSN_CROSSWALK,
+    virusIctvCrosswalk: DEFAULT_VIRUS_ICTV_CROSSWALK,
   }
   for (let index = 0; index < argv.length; index += 1) {
     const value = argv[index]
@@ -136,6 +139,7 @@ function parseArgs(argv) {
     else if (value === '--resource-packs-root') options.resourcePacksRoot = resolve(argv[++index])
     else if (value === '--archaea-lpsn-crosswalk') options.archaeaLpsnCrosswalk = resolve(argv[++index])
     else if (value === '--bacteria-lpsn-crosswalk') options.bacteriaLpsnCrosswalk = resolve(argv[++index])
+    else if (value === '--virus-ictv-crosswalk') options.virusIctvCrosswalk = resolve(argv[++index])
     else if (value === '--help') options.help = true
     else throw new Error(`Unknown argument: ${value}`)
   }
@@ -153,6 +157,7 @@ function usage() {
     '  --resource-packs-root <path>  Deterministic nomenclatural resource packs',
     '  --archaea-lpsn-crosswalk <path>  Pinned COL26.8-to-LPSN identifier snapshot',
     '  --bacteria-lpsn-crosswalk <path>  Pinned COL26.8 Bacteria-to-LPSN identifier snapshot',
+    '  --virus-ictv-crosswalk <path>  Pinned COL26.8/ICTV MSL41.v1 and VMR snapshot',
   ].join('\n')
 }
 
@@ -576,6 +581,10 @@ async function main() {
   buildBacteriaLpsnSidecar({
     resourcePacksRoot: options.resourcePacksRoot,
     crosswalkPath: options.bacteriaLpsnCrosswalk,
+  })
+  buildVirusIctvSidecar({
+    resourcePacksRoot: options.resourcePacksRoot,
+    crosswalkPath: options.virusIctvCrosswalk,
   })
 
   const routeByOwnerId = new Map(routes.map((route) => [route.packageId, route]))

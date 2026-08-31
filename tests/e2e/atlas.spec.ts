@@ -175,6 +175,19 @@ test('switching Archaea records never retains the previous LPSN URL', async ({ p
   await expect(page.locator('.catalogue-lpsn-card a[href="https://lpsn.dsmz.de/taxon/775728"]')).toBeVisible()
 })
 
+test('Virus records expose the exact pinned ICTV taxonomy and exemplar metadata', async ({ page }) => {
+  await page.addInitScript(() => window.localStorage.setItem('evo-atlas-language', 'en'))
+  await page.goto('./#/registry?release=COL26.8&id=__P2cHTzzJfvA8KpCMJQq0')
+
+  const ictv = page.locator('.catalogue-lpsn-card', { hasText: 'Current ICTV taxonomy and virus metadata' })
+  await expect(ictv).toContainText('MSL41.v1 · VMR 2026-07-29 · ICTV201907903')
+  await expect(ictv).toContainText('All 17,554 current ICTV species ship with the pack; 2 do not yet have a COL26.8 accepted-species ID.')
+  await expect(ictv).toContainText('Exemplar virus: Vibrio phage 1.188.A._10N.286.51.A6')
+  await expect(ictv.getByRole('link', { name: /Open the specific ICTV taxon record/ })).toHaveAttribute('href', 'https://ictv.global/id/ICTV201907903')
+  await expect(ictv.getByRole('link', { name: /GenBank/ })).toHaveAttribute('href', 'https://www.ncbi.nlm.nih.gov/nuccore/MG592554')
+  await expect(ictv.getByRole('link', { name: /CC BY 4.0/ })).toHaveAttribute('href', 'https://creativecommons.org/licenses/by/4.0/')
+})
+
 test('global search distinguishes registry verification failures from no matches', async ({ browser, baseURL }) => {
   const context = await browser.newContext({ baseURL, locale: 'en-US', serviceWorkers: 'block' })
   const page = await context.newPage()

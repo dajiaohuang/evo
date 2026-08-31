@@ -863,7 +863,9 @@ for (const sourcePackDescriptor of catalogueResourcePacksSourceManifest.packs) {
       }
       return { ...sourceFile, url: written.url }
     })
-    if (extensionFiles.reduce((sum, file) => sum + file.records, 0) !== extension.counts.resolved) {
+    const expectedExtensionRecords = extension.counts.resolved ?? extension.counts.officialSpecies
+    if (!Number.isInteger(expectedExtensionRecords)
+      || extensionFiles.reduce((sum, file) => sum + file.records, 0) !== expectedExtensionRecords) {
       throw new Error(`${sourcePack.packageId}/${extension.id}: extension shard counts do not match its manifest`)
     }
     return { ...extension, files: extensionFiles }

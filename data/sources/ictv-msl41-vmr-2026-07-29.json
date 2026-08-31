@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "provider": "International Committee on Taxonomy of Viruses (ICTV)",
+  "retrievedAt": "2026-08-31",
+  "license": {
+    "label": "Creative Commons Attribution 4.0 International",
+    "url": "https://creativecommons.org/licenses/by/4.0/",
+    "evidence": [
+      "https://ictv.global/msl",
+      "https://ictv.global/vmr",
+      "https://ictv.global/faq/cite"
+    ]
+  },
+  "sourceFiles": [
+    {
+      "role": "official-current-virus-taxonomy",
+      "fileName": "ICTV_Master_Species_List_2025_MSL41.v1.xlsx",
+      "version": "MSL41.v1",
+      "releaseDate": "2026-03-20",
+      "url": "https://ictv.global/sites/default/files/MSL/ICTV_Master_Species_List_2025_MSL41.v1.xlsx",
+      "landingPage": "https://ictv.global/msl",
+      "doi": "10.5281/zenodo.19154110",
+      "bytes": 1803176,
+      "sha256": "9d262d7864f1f619445a897ae568718ed15b1309c8f0c157a12fd7fb9fd07801",
+      "zenodoMd5": "b86b2ea2a0fc310dfad3ea00ee707474",
+      "lastModified": "2026-03-21T21:43:33Z",
+      "etag": "\"1b83a8-64d8fb18185f3\""
+    },
+    {
+      "role": "official-current-virus-exemplar-metadata",
+      "fileName": "VMR_MSL41.v1.20260729.xlsx",
+      "version": "MSL41.v1.20260729",
+      "releaseDate": "2026-07-29",
+      "url": "https://ictv.global/sites/default/files/VMR/VMR_MSL41.v1.20260729.xlsx",
+      "landingPage": "https://ictv.global/vmr",
+      "doi": "10.5281/zenodo.21694279",
+      "bytes": 3879426,
+      "sha256": "b79b5d82a1b3b8e9dd5e19afe8fe1a8f441267474918a7cefa8ae4913adf45bb",
+      "zenodoMd5": "0cbe5dade3aeb494ca79d97854ee8580",
+      "lastModified": "2026-07-29T23:59:49Z",
+      "etag": "\"3b3202-657c8c03346b9\""
+    }
+  ],
+  "sourceNotes": [
+    "ICTV states that MSL41.v1 is the current official taxonomy and that the VMR is the definitive current source for exemplar-virus metadata.",
+    "ICTV's 2026-07-29 release notice says the earlier 2026-07-21 VMR contained errors and should be discarded.",
+    "The corrected workbook embeds DOI 10.5281/zenodo.21694279 and the live Zenodo API record contains the same filename, byte count and MD5. The older DOI 10.5281/zenodo.21476703 still shown in the release-news prose returned HTTP 410 during this audit, so it is not used as the pinned artifact identifier.",
+    "The raw XLSX files are not committed. Their immutable ICTV URLs, Zenodo checksums and locally computed SHA-256 values are fixed here; the compact derived snapshot is committed for offline reproducibility within the source budget."
+  ],
+  "catalogueInput": {
+    "releaseAlias": "COL26.8",
+    "releaseDate": "2026-08-20",
+    "checklistBankDatasetKey": 316115,
+    "sourceDatasetKey": 1014,
+    "speciesShard": "data/catalogue-of-life/releases/2026-08-20/resource-packs/viruses/species-000.jsonl.gz",
+    "bytes": 758880,
+    "sha256": "33ac321b49180529dc97ed5c44bda4c65298b48fde0097f04f23e7c5f3d7ae21",
+    "sourceBytes": 3317764,
+    "sourceSha256": "fe44bd88c8d618101fc197edff90936535f4fd7606489d3a6b3430133d9174ea"
+  },
+  "matchingPolicy": {
+    "accepted": "One exact case-sensitive COL scientificName match to one current MSL41.v1 Species row, with one unique ICTV_ID shared by MSL and VMR.",
+    "redirect": "No redirect was used. Historical names and the MSL renamed-or-abolished sheet are not substituted for current COL records.",
+    "ambiguous": "More than one exact current MSL row or conflicting ICTV IDs.",
+    "unmatched": "No exact current MSL41.v1 Species match.",
+    "withheld": "The COL source sector is not ICTV MSL, or the official workbook identity/integrity cannot be proved.",
+    "normalization": "none"
+  },
+  "counts": {
+    "colAcceptedSpecies": 17552,
+    "eligible": 17552,
+    "accepted": 17552,
+    "redirect": 0,
+    "ambiguous": 0,
+    "unmatched": 0,
+    "withheld": 0,
+    "ictvCurrentSpecies": 17554,
+    "ictvOnlyWithoutColAcceptedSpeciesId": 2,
+    "vmrIsolates": 19285,
+    "exemplarIsolates": 17554,
+    "additionalIsolates": 1731
+  },
+  "ictvOnlySpecies": [
+    "Boscovirus hypoboscidae",
+    "Simiispumavirus macfas"
+  ],
+  "outputs": {
+    "canonicalSnapshot": "data/sources/ictv-virus-crosswalk-col26.8-msl41.v1.json.gz",
+    "runtimeSidecar": "data/catalogue-of-life/releases/2026-08-20/resource-packs/viruses/ictv-000.jsonl.gz",
+    "importer": "scripts/fetch-ictv-virus-crosswalk.py",
+    "builder": "scripts/build-virus-ictv-sidecar.mjs"
+  },
+  "limitations": [
+    "MSL and VMR are taxonomy and exemplar-virus metadata sources, not evidence that viruses are cellular life or that a named species has a curated Evo Atlas fossil, morphology, ecology, distribution, phylogeny or expert-review dossier.",
+    "GenBank accession strings and links are preserved from the pinned VMR. Evo Atlas did not independently query NCBI to revalidate every accession.",
+    "The two current ICTV species absent from the COL26.8 accepted-species shard are shipped as explicit ICTV-only records with null COL IDs; no COL IDs or placements are invented."
+  ]
+}
