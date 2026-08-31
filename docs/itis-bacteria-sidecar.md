@@ -1,5 +1,7 @@
 # ITIS Bacteria authority collection
 
+Release `2026.08-static-v5-rc75` / app `0.20.26` / Android and iOS build `29` delivers this collection under the native-full contract below.
+
 `itis-bacteria-tsn-crosswalk` is an independent, release-pinned CC0 ITIS
 nomenclatural collection. It covers precisely the 4,827 accepted COL26.8
 Bacteria records whose `sourceDatasetId` is not `2015`.

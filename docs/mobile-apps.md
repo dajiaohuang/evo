@@ -23,6 +23,8 @@ dist-mobile/                 # 临时生成的移动客户端壳，不提交
 
 ## 数据与离线边界
 
+rc75 将 Android 与 iOS 同步到 build `29` / app `0.20.26`。两端完整加入 Graptolithina/Rhabdopleura、Dicyemida/Kantharella 与两个 Oomycota 目根的增量分片，并加入独立 ITIS Bacteria TSN `50` 集合的 4 个 COL 范围分片和 4 个 upstream-only 分片；4,827 条 COL 结果与 9,348 条 ITIS-only 行均逐字节进入 `native-full`。既有 LPSN 标识集合保持独立，Pages `web-light` 不发布新增逐种行。完整 Bacteria 契约见 [`itis-bacteria-sidecar.md`](itis-bacteria-sidecar.md)。
+
 rc74 将 Android 与 iOS 同步到 build `28` / app `0.20.25`，并为 Actinopterygii、Chondrichthyes、Agnatha/Myxini 与 Sarcopterygii 四个互不重复的现生鱼类边界加入固定 ITIS `2026-08-26` CC0 权威侧车。37,436 条 COL26.8 范围行与 3,932 条 ITIS-only 行合计形成 41,368 条原生端记录、29 个非空 JSONL gzip；Myxini 作为 Agnatha 内部后代只计算一次，Sarcopterygii 的八条包内记录也不被宣称为完整现生总数。`native-full` 在 Android/iOS 中逐字节包含全部描述符和行分片，Pages 的 `web-light` 只发布来源、范围、方法、计数、限制和 canonical 哈希。独立 FishBase 历史标识层不与 ITIS 混合。逐组统计、根边界与交付契约见 [`itis-fish-authority.md`](itis-fish-authority.md)。
 
 rc73 将 Android 与 iOS 同步到 build `27` / app `0.20.24`，并为五个 Mammalia 分区加入固定 ITIS `2026-08-26` CC0 权威侧车。6,461 条 COL26.8 范围行保留 6,460 个当前名结果与 1 个歧义；3 个 ITIS-only 当前种保持 null COL ownership，合计 6,464 条原生端记录。`native-full` 逐字节包含全部 9 个非空 JSONL gzip；`mammal-origins` 的零记录边界不交付 ITIS collection。Pages 的 `web-light` 只发布描述符、来源、范围、方法、计数、限制和 canonical 哈希，不发布逐种行。逐组统计、根边界与交付契约见 [`itis-mammal-authority.md`](itis-mammal-authority.md)。

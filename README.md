@@ -13,7 +13,11 @@ Evo Atlas 不是一个把生成文本包装成“完整百科”的项目。它�
 - 名录覆盖：固定到 Catalogue of Life Base Release `COL26.8`。2,183,133 个严格接受种全部能沿真实父子链路由到唯一资源归属，另有 2,065,436 个异名、歧义异名和误用名可解析到接受名。24 个富内容包直接拥有 1,819,973 种；余下 363,160 种现由 7 个可下载、可离线读取并同时内置于 Android/iOS 的静态命名资源包拥有。第 32 个 `other-eukaryotes` 分区在本固定发布版中为零记录边界，不伪造空内容。
 - 内容覆盖：24 个静态资源包中的证据档案、事件、故事、范围和参考文献。当前已无 `generated-scaffold` 或 `structured`：23 个包为 `source-linked`，奇蹄目为唯一的 `curated-draft`；23 个包尚未人工审阅，奇蹄目的存储状态为 `in-review`，但内容摘要变化使有效状态成为 `stale`，没有包声称达到科学 `published`。平台 `published` 与自动检查通过只表示静态发布链完整，不等于内容或专家审阅已经完成。
 
-当前开发数据快照为 `2026.08-static-v5-rc74`，Web/Android/iOS 客户端版本为 `0.20.25`，Android/iOS build 为 `28`。精确记录数、校验和限制以 [`data/manifest.json`](data/manifest.json) 为准；科学内容变更见 [`data/CHANGELOG.md`](data/CHANGELOG.md)。
+当前开发数据快照为 `2026.08-static-v5-rc75`，Web/Android/iOS 客户端版本为 `0.20.26`，Android/iOS build 为 `29`。精确记录数、校验和限制以 [`data/manifest.json`](data/manifest.json) 为准；科学内容变更见 [`data/CHANGELOG.md`](data/CHANGELOG.md)。
+
+`rc75` 闭合三处能够由固定 ITIS 根严格证明的富内容包缺口，并为 Bacteria 增加与 LPSN 完全独立的 ITIS CC0 集合。Graptolithina 补入 7 个现生 Rhabdopleura 接受名；Dicyemida 补入 `Kantharella antarctica`，但 Microcyema/Conocyema 继续作为更宽根排除；Oomycota 增加 Leptomitales 与 Hyphochytriales 两个精确目根，不虚构 ITIS Oomycota 门根。Bacteria 的 4,827 条非 LPSN COL 范围行保留 4,824 个精确接受名、2 个歧义、1 个未匹配，并独立保留 9,348 个 ITIS-only 当前种。Android/iOS build `29` 内置全部新增行分片；Pages 只发布描述符、统计与 canonical 哈希。见 [`docs/itis-bacteria-sidecar.md`](docs/itis-bacteria-sidecar.md) 及相应权威边界文档。
+
+Release `2026.08-static-v5-rc75` / app `0.20.26` closes three exact-root authority gaps and adds an independent CC0 ITIS Bacteria collection. The Bacteria scope preserves 4,824 exact accepted outcomes, two ambiguities, one unmatched COL row, and 9,348 ITIS-only current species without changing the separate LPSN collection. Android and iOS build `29` bundle every new native row shard; Pages remains descriptor-and-hash only. See [`docs/itis-bacteria-sidecar.md`](docs/itis-bacteria-sidecar.md).
 
 `rc74` 为 Actinopterygii、Chondrichthyes、Agnatha/Myxini 与 Sarcopterygii 四个互不重复的现生鱼类边界加入固定 ITIS `2026-08-26` CC0 权威侧车。37,436 条 COL26.8 范围行保留 25,135 个精确当前接受名、377 个官方异名重定向、15 个歧义和 11,909 个未匹配结果；3,932 个 ITIS-only 当前种保持在独立 null-COL 分区，原生端合计 41,368 条记录、29 个非空 JSONL gzip。Android/iOS build `28` 在 `native-full` 下逐字节内置全部数据；Pages 仅发布描述符与 29 个 canonical 哈希，不部署逐种行。FishBase 的独立许可与历史标识边界没有混入 ITIS 集合。完整统计、根边界与交付契约见 [`docs/itis-fish-authority.md`](docs/itis-fish-authority.md)。
 
