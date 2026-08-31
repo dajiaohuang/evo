@@ -2319,6 +2319,120 @@
           "requestPolicy": "Select the sole inclusive COL-ID range and read at most one COL partition; upstream-only files are never selected by COL ID."
         }
       }
+    },
+    {
+      "id": "itis-phoronida-tsn-crosswalk",
+      "recordType": "release-pinned-exact-nomenclatural-crosswalk",
+      "provider": "Integrated Taxonomic Information System",
+      "source": {
+        "datasetId": "itis-2026-08-26",
+        "exportDate": "2026-08-26",
+        "rootTsn": "155456",
+        "license": "CC0-1.0",
+        "citationDoi": "10.5066/F7KH0KBK",
+        "canonicalDescriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals/itis-phoronida-sidecar.json",
+        "canonicalDescriptorBytes": 5008,
+        "canonicalDescriptorSha256": "6fcbb00e815e51c005f17824d940e5afa62c8b652655a43b5e0794691f8ff0e3"
+      },
+      "scope": {
+        "colRootUsageId": "5P",
+        "colRootScientificName": "Phoronida",
+        "colStrictAcceptedSpecies": 19,
+        "packageStrictAcceptedSpecies": 99161,
+        "packageOutOfScopeStrictAcceptedSpecies": 99142,
+        "boundary": "other-animals is the deterministic Animalia remainder after every more-specific static-package route. This sidecar covers only strict accepted COL26.8 species descending from the exact Phoronida root 5P; every other other-animals-owned species is explicitly non-applicable."
+      },
+      "matching": {
+        "normalization": [
+          "Remove the exact trailing COL authorship field from COL scientificName when that suffix is present; no authorship parser is used.",
+          "Normalize Unicode to NFC, replace underscores with spaces, collapse Unicode whitespace and trim.",
+          "For species-rank comparison, remove one parenthesized subgenus token in the exact Genus (Subgenus) species representation; genus and specific epithet must remain unchanged.",
+          "Preserve case, diacritics, punctuation and all remaining name tokens."
+        ],
+        "statuses": {
+          "accepted": "The normalized COL name resolves to exactly one valid ITIS Phoronida species and directly equals that current ITIS name.",
+          "synonym-current-name-redirect": "The normalized COL name equals official ITIS invalid species-name evidence that resolves to exactly one valid ITIS Phoronida species.",
+          "ambiguous": "The normalized exact evidence resolves to more than one valid ITIS Phoronida species TSN.",
+          "unmatched": "No normalized exact valid-name or official ITIS species-synonym evidence resolves to a valid ITIS Phoronida species."
+        },
+        "prohibited": "No fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered or taxon-substituted matching is used."
+      },
+      "evidenceBoundary": {
+        "en": "This CC0 ITIS sidecar is a frozen exact nomenclatural crosswalk, not a global phoronid checklist, final classification authority, phylogeny, species-concept equivalence assertion, biological dossier or scientific-review record.",
+        "zh": "此 CC0 ITIS 侧车是冻结的严格命名交叉映射；它不是全球帚虫动物门（Phoronida）名录、最终分类权威、系统发育树、物种概念等同性声明、生物档案或科学审查记录。"
+      },
+      "counts": {
+        "eligible": 19,
+        "records": 19,
+        "accepted": 11,
+        "redirects": 8,
+        "ambiguous": 0,
+        "unmatched": 0,
+        "withheld": 0,
+        "upstreamOnly": 0,
+        "nonApplicable": 99142
+      },
+      "files": [
+        {
+          "path": "other-animals/itis-phoronida-sidecar-0000.jsonl.gz",
+          "records": 19,
+          "bytes": 1077,
+          "sourceBytes": 8696,
+          "sha256": "14d3778670d5bae13dd4ebf76c8464cd369bddde87653048c62318d794b2dee5",
+          "sourceSha256": "6ed733822f32aa1f8e18f2039dd1a6cb36c0677b8c04df7df63b8b251eac53a8",
+          "encoding": "gzip",
+          "mediaType": "application/x-ndjson",
+          "minColId": "4GRZF",
+          "maxColId": "65364",
+          "role": "col-partition"
+        },
+        {
+          "path": "other-animals/itis-phoronida-upstream-only-0000.jsonl.gz",
+          "records": 0,
+          "bytes": 21,
+          "sourceBytes": 1,
+          "sha256": "74420f89d2d2a4256b5b578f1c2a01dd2b605f9aca4905db839d008cfd29cac0",
+          "sourceSha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+          "encoding": "gzip",
+          "mediaType": "application/x-ndjson",
+          "colOwnership": null,
+          "role": "upstream-only"
+        }
+      ],
+      "totalCompressedBytes": 1098,
+      "totalSourceBytes": 8697,
+      "deliveryProfiles": {
+        "web-light": {
+          "payload": "summary-only",
+          "files": [],
+          "records": 0,
+          "totalCompressedBytes": 0,
+          "totalSourceBytes": 0,
+          "statement": "GitHub Pages publishes the complete Phoronida ITIS summary and canonical hashes without row shards."
+        },
+        "native-full": {
+          "payload": "complete",
+          "files": [
+            "other-animals/itis-phoronida-sidecar-0000.jsonl.gz",
+            "other-animals/itis-phoronida-upstream-only-0000.jsonl.gz"
+          ],
+          "records": 19,
+          "totalCompressedBytes": 1098,
+          "totalSourceBytes": 8697
+        }
+      },
+      "limitations": [
+        "This CC0 ITIS sidecar is a frozen exact nomenclatural crosswalk, not a global phoronid checklist, final classification authority, phylogeny, species-concept equivalence assertion, biological dossier or scientific-review record.",
+        "No fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered or taxon-substituted matching is used."
+      ],
+      "integration": {
+        "clientParityRequirement": "Android and iOS must copy every native-full file byte-for-byte; Web uses the web-light summary profile.",
+        "lookup": {
+          "strategy": "lexicographic-colId-range-v1",
+          "ordering": "Unicode code-unit ascending",
+          "requestPolicy": "Select the sole inclusive COL-ID range and read at most one COL partition; upstream-only files are never selected by COL ID."
+        }
+      }
     }
   ]
 }

@@ -974,7 +974,25 @@ export interface CatalogueForaminiferaResourcePackExtension {
   }
 }
 
-export type CatalogueItisOtherAnimalsScope = 'platyhelminthes' | 'rotifera' | 'bryozoa' | 'nemertea' | 'tunicata-cephalochordata' | 'acanthocephala'
+export type CatalogueItisOtherAnimalsScope =
+  | 'platyhelminthes'
+  | 'rotifera'
+  | 'bryozoa'
+  | 'nemertea'
+  | 'tunicata-cephalochordata'
+  | 'acanthocephala'
+  | 'entoprocta'
+  | 'tardigrada'
+  | 'chaetognatha'
+  | 'ctenophora'
+  | 'kinorhyncha'
+  | 'gastrotricha'
+  | 'priapulida'
+  | 'onychophora'
+  | 'hemichordata'
+  | 'sipuncula'
+  | 'nematomorpha'
+  | 'phoronida'
 
 export interface CatalogueItisOtherAnimalsResourcePackExtension {
   id: `itis-${CatalogueItisOtherAnimalsScope}-tsn-crosswalk`

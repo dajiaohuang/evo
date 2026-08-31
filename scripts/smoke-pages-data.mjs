@@ -631,9 +631,21 @@ if (catalogue.resourcePacks?.packageCount !== 7
         'itis-nemertea-tsn-crosswalk': { eligible: 1364, records: 1416, accepted: 142, redirects: 1, ambiguous: 0, unmatched: 1221, upstreamOnly: 52, nonApplicable: 97797, files: 2 },
         'itis-tunicata-cephalochordata-tsn-crosswalk': { eligible: 3176, records: 3242, accepted: 366, redirects: 8, ambiguous: 0, unmatched: 2802, upstreamOnly: 66, nonApplicable: 95985, files: 2 },
         'itis-acanthocephala-tsn-crosswalk': { eligible: 1325, records: 1330, accepted: 1320, redirects: 0, ambiguous: 5, unmatched: 0, upstreamOnly: 5, nonApplicable: 97836, files: 3 },
+        'itis-entoprocta-tsn-crosswalk': { eligible: 170, records: 171, accepted: 170, redirects: 0, ambiguous: 0, unmatched: 0, upstreamOnly: 1, nonApplicable: 98991, files: 2 },
+        'itis-tardigrada-tsn-crosswalk': { eligible: 1454, records: 1461, accepted: 1454, redirects: 0, ambiguous: 0, unmatched: 0, upstreamOnly: 7, nonApplicable: 97707, files: 3 },
+        'itis-chaetognatha-tsn-crosswalk': { eligible: 132, records: 156, accepted: 92, redirects: 0, ambiguous: 0, unmatched: 40, upstreamOnly: 24, nonApplicable: 99029, files: 2 },
+        'itis-ctenophora-tsn-crosswalk': { eligible: 197, records: 204, accepted: 58, redirects: 0, ambiguous: 0, unmatched: 139, upstreamOnly: 7, nonApplicable: 98964, files: 2 },
+        'itis-kinorhyncha-tsn-crosswalk': { eligible: 362, records: 420, accepted: 91, redirects: 1, ambiguous: 0, unmatched: 270, upstreamOnly: 58, nonApplicable: 98799, files: 2 },
+        'itis-gastrotricha-tsn-crosswalk': { eligible: 903, records: 997, accepted: 574, redirects: 8, ambiguous: 1, unmatched: 320, upstreamOnly: 94, nonApplicable: 98258, files: 2 },
+        'itis-priapulida-tsn-crosswalk': { eligible: 23, records: 23, accepted: 19, redirects: 0, ambiguous: 0, unmatched: 4, upstreamOnly: 0, nonApplicable: 99138, files: 2 },
+        'itis-onychophora-tsn-crosswalk': { eligible: 235, records: 235, accepted: 235, redirects: 0, ambiguous: 0, unmatched: 0, upstreamOnly: 0, nonApplicable: 98926, files: 2 },
+        'itis-hemichordata-tsn-crosswalk': { eligible: 132, records: 139, accepted: 132, redirects: 0, ambiguous: 0, unmatched: 0, upstreamOnly: 7, nonApplicable: 99029, files: 2 },
+        'itis-sipuncula-tsn-crosswalk': { eligible: 146, records: 205, accepted: 146, redirects: 0, ambiguous: 0, unmatched: 0, upstreamOnly: 59, nonApplicable: 99015, files: 2 },
+        'itis-nematomorpha-tsn-crosswalk': { eligible: 356, records: 404, accepted: 187, redirects: 6, ambiguous: 0, unmatched: 163, upstreamOnly: 48, nonApplicable: 98805, files: 2 },
+        'itis-phoronida-tsn-crosswalk': { eligible: 19, records: 19, accepted: 11, redirects: 8, ambiguous: 0, unmatched: 0, upstreamOnly: 0, nonApplicable: 99142, files: 2 },
       }
-      if (extensions.length !== 6 || manifestFile.extensionFileCount !== 0 || manifestFile.canonicalExtensionFileCount !== 28) {
-        failures.push('other-animals: Pages must publish six ITIS authority summaries and no row shards')
+      if (extensions.length !== 18 || manifestFile.extensionFileCount !== 0 || manifestFile.canonicalExtensionFileCount !== 53) {
+        failures.push('other-animals: Pages must publish 18 ITIS authority summaries and no row shards')
       }
       for (const [id, counts] of Object.entries(expected)) {
         const authority = extensions.find((candidate) => candidate.id === id)

@@ -35,6 +35,7 @@ const taxa = [
   { slug: 'hemichordata', label: 'Hemichordata' },
   { slug: 'sipuncula', label: 'Sipuncula' },
   { slug: 'nematomorpha', label: 'Nematomorpha' },
+  { slug: 'phoronida', label: 'Phoronida' },
 ]
 
 const bryozoaPath = join(packRoot, 'itis-bryozoa-sidecar.json')

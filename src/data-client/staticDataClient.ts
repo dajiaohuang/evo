@@ -697,6 +697,18 @@ const itisOtherAnimalsContracts: Record<import('./types').CatalogueItisOtherAnim
   nemertea: { eligible: 1364, accepted: 142, redirects: 1, ambiguous: 0, unmatched: 1221, upstreamOnly: 52, nonApplicable: 97797, canonicalFileCount: 2 },
   'tunicata-cephalochordata': { eligible: 3176, accepted: 366, redirects: 8, ambiguous: 0, unmatched: 2802, upstreamOnly: 66, nonApplicable: 95985, canonicalFileCount: 2 },
   acanthocephala: { eligible: 1325, accepted: 1320, redirects: 0, ambiguous: 5, unmatched: 0, upstreamOnly: 5, nonApplicable: 97836, canonicalFileCount: 3 },
+  entoprocta: { eligible: 170, accepted: 170, redirects: 0, ambiguous: 0, unmatched: 0, upstreamOnly: 1, nonApplicable: 98991, canonicalFileCount: 2 },
+  tardigrada: { eligible: 1454, accepted: 1454, redirects: 0, ambiguous: 0, unmatched: 0, upstreamOnly: 7, nonApplicable: 97707, canonicalFileCount: 3 },
+  chaetognatha: { eligible: 132, accepted: 92, redirects: 0, ambiguous: 0, unmatched: 40, upstreamOnly: 24, nonApplicable: 99029, canonicalFileCount: 2 },
+  ctenophora: { eligible: 197, accepted: 58, redirects: 0, ambiguous: 0, unmatched: 139, upstreamOnly: 7, nonApplicable: 98964, canonicalFileCount: 2 },
+  kinorhyncha: { eligible: 362, accepted: 91, redirects: 1, ambiguous: 0, unmatched: 270, upstreamOnly: 58, nonApplicable: 98799, canonicalFileCount: 2 },
+  gastrotricha: { eligible: 903, accepted: 574, redirects: 8, ambiguous: 1, unmatched: 320, upstreamOnly: 94, nonApplicable: 98258, canonicalFileCount: 2 },
+  priapulida: { eligible: 23, accepted: 19, redirects: 0, ambiguous: 0, unmatched: 4, upstreamOnly: 0, nonApplicable: 99138, canonicalFileCount: 2 },
+  onychophora: { eligible: 235, accepted: 235, redirects: 0, ambiguous: 0, unmatched: 0, upstreamOnly: 0, nonApplicable: 98926, canonicalFileCount: 2 },
+  hemichordata: { eligible: 132, accepted: 132, redirects: 0, ambiguous: 0, unmatched: 0, upstreamOnly: 7, nonApplicable: 99029, canonicalFileCount: 2 },
+  sipuncula: { eligible: 146, accepted: 146, redirects: 0, ambiguous: 0, unmatched: 0, upstreamOnly: 59, nonApplicable: 99015, canonicalFileCount: 2 },
+  nematomorpha: { eligible: 356, accepted: 187, redirects: 6, ambiguous: 0, unmatched: 163, upstreamOnly: 48, nonApplicable: 98805, canonicalFileCount: 2 },
+  phoronida: { eligible: 19, accepted: 11, redirects: 8, ambiguous: 0, unmatched: 0, upstreamOnly: 0, nonApplicable: 99142, canonicalFileCount: 2 },
 }
 
 export async function loadCatalogueItisOtherAnimalsRecord(
