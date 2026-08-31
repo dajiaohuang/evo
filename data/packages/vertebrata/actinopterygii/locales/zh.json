@@ -1,6 +1,6 @@
 {
   "language": "zh",
-  "version": "2026.09-static-v5-rc79",
+  "version": "2026.09-static-v5-rc80",
   "strings": {
     "entity.actinopterygii.name": "辐鳍鱼类",
     "entity.neopterygii.name": "新鳍鱼类",
@@ -16,8 +16,14 @@
     "entity.early-actinopterygian-evidence-route.name": "泥盆纪与三叠纪辐鳍鱼标本档案",
     "entity.cheirolepis-trailli.name": "艾菲尔期早期辐鳍鱼",
     "entity.fukangichthys.name": "三叠纪斯堪尼勒鱼类",
+    "entity.pseudopholidoctenus-germanicus.name": "安尼期真骨鱼总群干群鱼",
+    "entity.barschichthys-ruedersdorfensis.name": "安尼期真骨鱼总群干群鱼",
+    "entity.ruedersdorfia-berlinensis.name": "安尼期真骨鱼总群干群鱼",
     "profile.cheirolepis-trailli.name": "艾菲尔期早期辐鳍鱼",
     "profile.fukangichthys.name": "三叠纪斯堪尼勒鱼类",
+    "profile.pseudopholidoctenus-germanicus.name": "安尼期真骨鱼总群干群鱼",
+    "profile.barschichthys-ruedersdorfensis.name": "安尼期真骨鱼总群干群鱼",
+    "profile.ruedersdorfia-berlinensis.name": "安尼期真骨鱼总群干群鱼",
     "claim.claim:event:cheirolepis-eifelian-endoskeleton.confidenceRationale": "具名馆藏标本、扫描方法与相关结构均有直接描述和图示。中等置信度保留了压扁变形与矿化不完整、研究采用 2012 年时间标尺的数值换算，并区分已取样干群分类单元与辐鳍鱼起源或首现。",
     "claim.claim:event:fukangichthys-crown-actinopterygian-recalibration.confidenceRationale": "标本、CT 解剖、系统矩阵和修订后的校准均已发表，并附稳定性分析。中等置信度保留性状和分类取样敏感性，区分 2017 年位置与 2014 年新鳍鱼位置假说，也避免把化石最小校准换写成起源时间。",
     "claim.claim:event:holostei-genomic-support.confidenceRationale": "相互独立的序列与共线性证据支持现生全骨鱼拓扑，并支持雀鳝基因组位于真骨鱼复制事件之前。中等置信度把推断限定在所取样的基因组和转录组，包括单个 90× 雀鳝组装，同时排除化石年代、形态停滞和多样性决定论。",
@@ -56,6 +62,21 @@
     "claim.claim:taxon:teleosteomorpha:range-boundary.confidenceRationale": "Northern Italian Triassic teleosteomorph sample：所引一手研究或高质量系统综述在给定页码、图表或章节处直接支持此处的样本、校准或暂缓边界。置信度为中等。该置信度不外推至全球首现、全球末现、直接祖先或未采样区间。",
     "claim.claim:taxon:elopomorpha:range-boundary.confidenceRationale": "Crown Elopomorpha molecular-clock interval：所引一手研究或高质量系统综述在给定页码、图表或章节处直接支持此处的样本、校准或暂缓边界。置信度为中等。该置信度不外推至全球首现、全球末现、直接祖先或未采样区间。",
     "claim.claim:taxon:osteoglossomorpha:range-boundary.confidenceRationale": "Crown Osteoglossomorpha molecular-clock interval：所引一手研究或高质量系统综述在给定页码、图表或章节处直接支持此处的样本、校准或暂缓边界。置信度为中等。该置信度不外推至全球首现、全球末现、直接祖先或未采样区间。",
-    "claim.claim:taxon:clupeocephala:range-boundary.confidenceRationale": "Crown Clupeocephala molecular-clock interval：所引一手研究或高质量系统综述在给定页码、图表或章节处直接支持此处的样本、校准或暂缓边界。置信度为中等。该置信度不外推至全球首现、全球末现、直接祖先或未采样区间。"
+    "claim.claim:taxon:clupeocephala:range-boundary.confidenceRationale": "Crown Clupeocephala molecular-clock interval：所引一手研究或高质量系统综述在给定页码、图表或章节处直接支持此处的样本、校准或暂缓边界。置信度为中等。该置信度不外推至全球首现、全球末现、直接祖先或未采样区间。",
+    "claim.claim:taxon:pseudopholidoctenus-germanicus:taxonomy.confidenceRationale": "Pseudopholidoctenus germanicus：一手描述提供新属新种诊断、模式材料及与真骨鱼总群干群成员的比较。置信度为中等，保留来源的干群位置，不推断直系祖先或普遍共识。",
+    "claim.claim:taxon:pseudopholidoctenus-germanicus:biogeography.confidenceRationale": "Pseudopholidoctenus germanicus：研究直接给出 Rüdersdorf 露天矿及中欧（Germanic）盆地背景。单一化石地点不能确立缺失、特有性或全球地理范围。",
+    "claim.claim:taxon:pseudopholidoctenus-germanicus:ecology.confidenceRationale": "Pseudopholidoctenus germanicus：论文记录受限海相盆地环境并比较体形与颌部，但没有给出该物种的实测食性、运动性能或营养级群；生态字段保持有界。",
+    "claim.claim:taxon:pseudopholidoctenus-germanicus:morphology.confidenceRationale": "Pseudopholidoctenus germanicus：诊断及图 2–6 直接记录头盖、盾鳞与尾鳍性状。由于模式材料存在缺失且样本有限，置信度为中等而非种群普遍结论。",
+    "claim.claim:taxon:pseudopholidoctenus-germanicus:fossil-range.confidenceRationale": "Pseudopholidoctenus germanicus：一手论文把模式材料置于约 244 Ma 的 Rüdersdorf 下安尼期中部 Muschelkalk。置信度为中等，因为该点是单地点样本而非全球首现或末现。",
+    "claim.claim:taxon:barschichthys-ruedersdorfensis:taxonomy.confidenceRationale": "Barschichthys ruedersdorfensis：一手描述提供属种诊断、模式材料并明确其为真骨鱼总群干群成员。置信度为中等，保留部分归入标本及干群位置的取样限制。",
+    "claim.claim:taxon:barschichthys-ruedersdorfensis:biogeography.confidenceRationale": "Barschichthys ruedersdorfensis：研究直接报告模式材料所在的 Rüdersdorf 露天矿与盆地背景。该单一地点和小型收藏不能确立缺失、特有性或全球范围。",
+    "claim.claim:taxon:barschichthys-ruedersdorfensis:ecology.confidenceRationale": "Barschichthys ruedersdorfensis：论文记录海相受限盆地背景并讨论三叠纪干群真骨鱼的摄食，但没有为本种提供实测食性或运动性能；营养级群保持未解析。",
+    "claim.claim:taxon:barschichthys-ruedersdorfensis:morphology.confidenceRationale": "Barschichthys ruedersdorfensis：家族与种的诊断及图 7–10 直接记录头盖、颌部、鳞片和饰纹性状。由于保存不完整且归入躯干标本有限，置信度为中等。",
+    "claim.claim:taxon:barschichthys-ruedersdorfensis:fossil-range.confidenceRationale": "Barschichthys ruedersdorfensis：一手论文把模式及归入材料置于约 244 Ma 的 Rüdersdorf 下安尼期中部 Muschelkalk。置信度为中等，因为该点仅代表一个取样地点。",
+    "claim.claim:taxon:ruedersdorfia-berlinensis:taxonomy.confidenceRationale": "Ruedersdorfia berlinensis：一手描述提供种的诊断与模式材料，并明确指出其在真骨鱼总群干群中的位置未知、暂列分类未定。置信度保留这一限定性位置。",
+    "claim.claim:taxon:ruedersdorfia-berlinensis:biogeography.confidenceRationale": "Ruedersdorfia berlinensis：研究为全部模式材料报告德国 Rüdersdorf 露天矿和中欧盆地背景。三个头盖不能确立缺失、特有性或全球延限。",
+    "claim.claim:taxon:ruedersdorfia-berlinensis:ecology.confidenceRationale": "Ruedersdorfia berlinensis：来源记录沉积环境，但只保存头盖，没有足够躯体或摄食结构重建本种生态；置信度针对这一明确限制。",
+    "claim.claim:taxon:ruedersdorfia-berlinensis:morphology.confidenceRationale": "Ruedersdorfia berlinensis：诊断、表 1 与图 11 直接记录头盖比例、中部陷线和饰纹。躯体未保存且正模中的感觉管被饰纹遮蔽，因此置信度为中等。",
+    "claim.claim:taxon:ruedersdorfia-berlinensis:fossil-range.confidenceRationale": "Ruedersdorfia berlinensis：一手论文把模式和归入头盖置于约 244 Ma 的 Rüdersdorf 下安尼期中部 Muschelkalk。置信度为中等，因为这是单地点样本而非全球边界。"
   }
 }

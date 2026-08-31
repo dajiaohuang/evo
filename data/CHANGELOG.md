@@ -1,5 +1,11 @@
 # Dataset changelog
 
+## App 0.20.31 / 2026.09-static-v5-rc80 — 2026-09-01
+
+- Added nine complete bilingual profiles across three evidence packages: Triceratops, Ankylosaurus and Buriolestes in Dinosauria; Testudines, Lepidosauria and Mosasauroidea in turtles and lepidosaurs; and Pseudopholidoctenus germanicus, Barschichthys ruedersdorfensis and Ruedersdorfia berlinensis in Actinopterygii.
+- Added 36 primary-source-linked claims with explicit specimen, locality, stratigraphic, matrix and inference boundaries. Corrected the Bellairsia provenance so NMS G.2022.1.1 is tied to the Middle Jurassic Kilmaluag Formation on Skye, while Kirtlington material remains separate fragmentary referred comparison material.
+- Increased complete profiles from 76 to 85, canonical navigation nodes from 392 to 395 and evidence claims from 1,062 to 1,098. Pages remains `web-light`; Android and iOS build `34` retain the full catalogue, all native authority shards, all 109 lossless 0.1° PaleoDEM frames and the complete enriched package data.
+
 ## App 0.20.30 / 2026.09-static-v5-rc79 — 2026-09-01
 
 - Increased every Web/Pages PaleoDEM v2 preview from a 0.5° every-fifth-cell exact sample to a 0.3° every-third-cell exact sample. All 109 official nominal ages remain independently addressable as 1201×601 signed-int16 grids, with no smoothing, averaging, spatial interpolation or temporal interpolation.

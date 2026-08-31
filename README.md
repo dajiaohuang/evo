@@ -13,7 +13,11 @@ Evo Atlas 不是一个把生成文本包装成“完整百科”的项目。它�
 - 名录覆盖：固定到 Catalogue of Life Base Release `COL26.8`。2,183,133 个严格接受种全部能沿真实父子链路由到唯一资源归属，另有 2,065,436 个异名、歧义异名和误用名可解析到接受名。24 个富内容包直接拥有 1,819,973 种；余下 363,160 种现由 7 个可下载、可离线读取并同时内置于 Android/iOS 的静态命名资源包拥有。第 32 个 `other-eukaryotes` 分区在本固定发布版中为零记录边界，不伪造空内容。
 - 内容覆盖：24 个静态资源包中的证据档案、事件、故事、范围和参考文献。当前已无 `generated-scaffold` 或 `structured`：23 个包为 `source-linked`，奇蹄目为唯一的 `curated-draft`；23 个包尚未人工审阅，奇蹄目的存储状态为 `in-review`，但内容摘要变化使有效状态成为 `stale`，没有包声称达到科学 `published`。平台 `published` 与自动检查通过只表示静态发布链完整，不等于内容或专家审阅已经完成。
 
-当前开发数据快照为 `2026.09-static-v5-rc79`，Web/Android/iOS 客户端版本为 `0.20.30`，Android/iOS build 为 `33`。精确记录数、校验和限制以 [`data/manifest.json`](data/manifest.json) 为准；科学内容变更见 [`data/CHANGELOG.md`](data/CHANGELOG.md)。
+当前开发数据快照为 `2026.09-static-v5-rc80`，Web/Android/iOS 客户端版本为 `0.20.31`，Android/iOS build 为 `34`。精确记录数、校验和限制以 [`data/manifest.json`](data/manifest.json) 为准；科学内容变更见 [`data/CHANGELOG.md`](data/CHANGELOG.md)。
+
+`rc80` 将恐龙、龟鳖与鳞龙、辐鳍鱼三个资源包从代表性入口继续推进到更密的一手证据档案：新增 Triceratops、Ankylosaurus、Buriolestes，Testudines、Lepidosauria、Mosasauroidea，以及三个德国安尼期辐鳍鱼物种的 9 个完整双语档案。完整档案总数由 76 增至 85，导航节点由 392 增至 395，证据主张由 1,062 增至 1,098。每条新增主张都保留论文定位、标本或地点边界；Bellairsia 的近完整标本明确归于苏格兰斯凯岛 Kilmaluag 组，Kirtlington 仅作为独立碎片比较材料。Pages 仍只发布 `web-light`；Android/iOS build `34` 同步获得全部新档案，并继续内置全量名录、权威分片和 109 帧 0.1° PaleoDEM。
+
+Release `2026.09-static-v5-rc80` / app `0.20.31` adds nine complete bilingual, primary-source-linked profiles across Dinosauria, turtles and lepidosaurs, and Actinopterygii. The atlas now carries 85 complete profiles, 395 navigation nodes and 1,098 evidence claims. New statements remain specimen-, locality-, matrix- or study-bounded; the near-complete Bellairsia specimen is correctly tied to the Kilmaluag Formation on Skye, while Kirtlington material is retained only as separate fragmentary comparison material. Pages remains `web-light`; Android and iOS build `34` receive every new profile while retaining the full catalogue, authority shards and all 109 lossless 0.1° PaleoDEM frames.
 
 `rc79` 将全部 109 个 Web/Pages PaleoDEM v2 年龄帧从 0.5° 每第五格精确抽样提升到 1201×601、0.3° 每第三格精确抽样；不平滑、不平均、不做空间或时间插值。浏览器的完整预览序列为 24,847,071 压缩字节。Android/iOS build `33` 仍逐字节内置全部 109 个 3601×1801、0.1° 原始无损网格（168,418,483 压缩字节），并继续携带 rc78 的全部节点描述、场景、名录和权威侧车。GitHub Pages 的 650 MiB 门槛没有放宽。
 

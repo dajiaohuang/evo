@@ -1,5 +1,5 @@
 export const PACKAGE_SCHEMA_VERSION = 5
-export const DATASET_PACKAGE_VERSION = '2026.09-static-v5-rc79'
+export const DATASET_PACKAGE_VERSION = '2026.09-static-v5-rc80'
 export const DATASET_RELEASE_DATE = '2026-09-01'
 
 // Explicit source-bound Explorer presets. These mappings are intentionally
@@ -317,13 +317,13 @@ export const packageDefinitions = [
     titleZh: '辐鳍鱼类',
     rootEntityIds: ['actinopterygii'],
     conceptScope: {
-      en: 'Seven primary-evidence dossiers separate specimen-scoped Devonian and Triassic fossils, topology-sensitive recalibration, extant genome and developmental comparisons, and molecular-model intervals. A new early-actinopterygian evidence route adds field-linked profiles for Cheirolepis trailli and Fukangichthys longidorsalis while keeping occurrence ages separate from the model-dependent crown recalibration. COL26.8 routes 35,928 strictly accepted species names below exact usage ID 8VR36; that nomenclatural coverage is not dossier or expert-review maturity. Other clade-wide navigation ranges remain unreviewed.',
-      zh: '七个一手证据档案严格区分受标本边界约束的泥盆纪与三叠纪化石、依赖拓扑的重新校准、现生基因组与发育比较以及分子模型区间。新增早期辐鳍鱼证据导航，为 Cheirolepis trailli 与 Fukangichthys longidorsalis 提供字段关联档案，同时把化石出现年代与依赖模型的冠群重新校准分开。COL26.8 在精确 usage ID 8VR36 下路由 35,928 个严格接受种名；该命名覆盖不等于档案或专家评审成熟度。其他类群级导航延限仍未复核。',
+      en: 'Seven primary-evidence dossiers separate specimen-scoped Devonian and Triassic fossils, topology-sensitive recalibration, extant genome and developmental comparisons, and molecular-model intervals. The early-actinopterygian evidence route now provides field-linked profiles for Cheirolepis trailli, Fukangichthys longidorsalis, Pseudopholidoctenus germanicus, Barschichthys ruedersdorfensis and Ruedersdorfia berlinensis while keeping occurrence ages separate from the model-dependent crown recalibration. COL26.8 routes 35,928 strictly accepted species names below exact usage ID 8VR36; that nomenclatural coverage is not dossier or expert-review maturity. Other clade-wide navigation ranges remain unreviewed.',
+      zh: '七个一手证据档案严格区分受标本边界约束的泥盆纪与三叠纪化石、依赖拓扑的重新校准、现生基因组与发育比较以及分子模型区间。早期辐鳍鱼证据导航现为 Cheirolepis trailli、Fukangichthys longidorsalis、Pseudopholidoctenus germanicus、Barschichthys ruedersdorfensis 与 Ruedersdorfia berlinensis 提供字段关联档案，同时把化石出现年代与依赖模型的冠群重新校准分开。COL26.8 在精确 usage ID 8VR36 下路由 35,928 个严格接受种名；该命名覆盖不等于档案或专家评审成熟度。其他类群级导航延限仍未复核。',
     },
     wave: 'C',
     scientificMaturity: 'source-linked',
     limitations: [
-      'Cheirolepis and Fukangichthys ranges describe the cited museum and formation samples, not global lineage durations or actinopterygian crown ages.',
+      'Cheirolepis, Fukangichthys, Pseudopholidoctenus, Barschichthys and Ruedersdorfia ranges describe the cited museum, formation or locality samples, not global lineage durations or actinopterygian crown ages.',
       'Fukangichthys occurrence time and the approximately 45-million-year topology-sensitive calibration shift are separate claims and must not be merged.',
       'Ecology fields remain explicitly bounded where the anatomy and topology studies do not establish diet, habitat preference, locomotor performance or trophic guild.',
     ],
