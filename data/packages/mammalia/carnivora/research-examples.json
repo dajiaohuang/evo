@@ -6,19 +6,19 @@
       "id": "carnivora-tree-preset",
       "type": "explorer-preset",
       "title": {
-        "en": "Carnivora source-bound evidence",
-        "zh": "食肉类来源限定证据"
+        "en": "Hesperocyon source-bound evidence",
+        "zh": "黄昏犬来源限定证据"
       },
       "description": {
-        "en": "Open the Explorer at Carnivora to inspect the linked, locator-bearing source claim together with this package's current occurrence context. This is a reproducible evidence entry point, not a phylogenetic result or a complete history of the group.",
-        "zh": "在探索器中打开食肉类，结合本包当前的出现记录背景检查带有精确来源定位的关联声明。这是可复现的证据检查入口，不是系统发育结果，也不是该类群的完整历史。"
+        "en": "Open the Explorer at Hesperocyon to inspect the linked, locator-bearing source claim together with this package's current occurrence context. This is a reproducible evidence entry point, not a phylogenetic result or a complete history of the group.",
+        "zh": "在探索器中打开黄昏犬，结合本包当前的出现记录背景检查带有精确来源定位的关联声明。这是可复现的证据检查入口，不是系统发育结果，也不是该类群的完整历史。"
       },
-      "route": "#/explore?taxon=carnivora&view=tree",
+      "route": "#/explore?taxon=hesperocyon&view=tree",
       "entityIds": [
-        "carnivora"
+        "hesperocyon"
       ],
       "claimIds": [
-        "claim:taxon:carnivora:root-range"
+        "claim:taxon:hesperocyon:taxonomy"
       ],
       "evidenceStatus": "available-with-limitations",
       "limitations": [
@@ -36,12 +36,12 @@
         "en": "Open a source-bounded Carnivora time window in the map to inspect sampled occurrence context linked to this package.",
         "zh": "在地图中打开有来源边界的食肉类时间窗口，检查与本包关联的采样出现背景。"
       },
-      "route": "#/explore?taxon=carnivora&view=map&age=28&older=56&younger=0",
+      "route": "#/explore?taxon=hesperocyon&view=map&age=34.5&older=40&younger=29",
       "entityIds": [
-        "carnivora"
+        "hesperocyon"
       ],
       "claimIds": [
-        "claim:taxon:carnivora:root-range"
+        "claim:taxon:hesperocyon:source-bounded-range-rc49"
       ],
       "evidenceStatus": "available-with-limitations",
       "limitations": [
@@ -56,17 +56,17 @@
         "zh": "食肉类证据比较"
       },
       "description": {
-        "en": "Compare dormaalocyon and panthera-blytheae through package-linked claims and bounded occurrence context; this side-by-side route is an evidence inspection aid.",
-        "zh": "通过本包关联的声明与限定出现背景比较dormaalocyon与panthera-blytheae；并列页面仅用于证据检查。"
+        "en": "Compare hesperocyon and enaliarctos through package-linked claims and bounded occurrence context; this side-by-side route is an evidence inspection aid.",
+        "zh": "通过本包关联的声明与限定出现背景比较hesperocyon与enaliarctos；并列页面仅用于证据检查。"
       },
-      "route": "#/compare?left=dormaalocyon&right=panthera-blytheae",
+      "route": "#/compare?left=hesperocyon&right=enaliarctos",
       "entityIds": [
-        "dormaalocyon",
-        "panthera-blytheae"
+        "hesperocyon",
+        "enaliarctos"
       ],
       "claimIds": [
-        "claim:taxon:dormaalocyon:fossil-range",
-        "claim:taxon:panthera-blytheae:fossil-range"
+        "claim:taxon:hesperocyon:source-bounded-range-rc49",
+        "claim:taxon:enaliarctos:fossil-range"
       ],
       "evidenceStatus": "available-with-limitations",
       "limitations": [
