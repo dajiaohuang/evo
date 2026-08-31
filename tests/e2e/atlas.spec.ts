@@ -353,7 +353,7 @@ test('Explorer restores state and removes the unsupported global model parameter
   await expect(page.getByRole('button', { name: 'points' })).toHaveClass(/is-active/)
   await expect(page.getByRole('button', { name: 'modern' })).toHaveClass(/is-active/)
   await expect(page.getByText('Shared time window 20–5 Ma')).toBeVisible()
-  await expect.poll(() => page.url()).toContain('dataset=2026.08-static-v5-rc62')
+  await expect.poll(() => page.url()).toContain('dataset=2026.08-static-v5-rc63')
   for (const fragment of ['older=20', 'younger=5', 'lat=10.000', 'lng=20.000', 'zoom=3.00', 'treeMode=fossil-range']) {
     expect(page.url()).toContain(fragment)
   }
@@ -366,7 +366,7 @@ test('Explorer requires confirmation before replacing a mismatched dataset versi
   await expect(page.getByRole('alertdialog')).toContainText('2025.01-old')
   expect(page.url()).toContain('dataset=2025.01-old')
   await page.getByRole('button', { name: 'Use current dataset' }).click()
-  await expect.poll(() => page.url()).toContain('dataset=2026.08-static-v5-rc62')
+  await expect.poll(() => page.url()).toContain('dataset=2026.08-static-v5-rc63')
 })
 
 test('a service-worker upgrade removes dataset A caches and dataset B remains coherent', async ({ page }) => {
@@ -392,7 +392,8 @@ test('a service-worker upgrade removes dataset A caches and dataset B remains co
   await expect(page.locator('.ownership-row--catalogue-only')).toHaveCount(1)
   await expect(page.locator('.ownership-summary')).toContainText('2,183,133')
   await expect(page.locator('.ownership-summary')).toContainText('7nomenclatural packs')
-  await expect(page.getByRole('link', { name: 'Download ZIP' }).first()).toHaveAttribute('href', /\/(?:fungi|other-animals|protists-chromists|bacteria|viruses|archaea|other-plants)-2026\.08-static-v5-rc62\.zip$/)
+  await expect(page.getByRole('link', { name: 'Download ZIP' })).toHaveCount(0)
+  await expect(page.getByText(/Pages light omits duplicate ZIPs; full data is bundled with Android\/iOS/).first()).toBeVisible()
   await expect(page.getByRole('button', { name: 'Save offline' }).first()).toBeVisible()
   await expect(page.locator('.ownership-proof')).toContainText('0 unmatched')
   await expect(page.getByRole('button', { name: /Save complete Atlas \(\d+ MiB\)/ })).toBeVisible()
@@ -407,7 +408,7 @@ test('a service-worker upgrade removes dataset A caches and dataset B remains co
     const versions = await Promise.all(manifestFiles.map((file) => fetch(`/evo/data/${file.url}`).then((response) => response.json()).then((manifest) => manifest.version as string)))
     return { datasetVersion: current.datasetVersion, releaseBase: current.releaseBase, urls: manifestFiles.map((file) => file.url), versions, retained: history.releases.map((entry) => entry.datasetVersion) }
   })
-  expect(releaseState.releaseBase).toBe('releases/2026.08-static-v5-rc62/')
+  expect(releaseState.releaseBase).toBe('releases/2026.08-static-v5-rc63/')
   expect(releaseState.urls.every((url) => url.startsWith(releaseState.releaseBase))).toBe(true)
   expect(releaseState.versions.every((version) => version === releaseState.datasetVersion)).toBe(true)
   expect(releaseState.retained[0]).toBe(releaseState.datasetVersion)
@@ -470,6 +471,47 @@ test('dense CAO2024 coastlines select and request distinct frames within the Cre
   await expect(page.getByText('CAO2024 nearest frame 110 Ma · requested 108 Ma · Δ 2 Myr', { exact: true })).toBeVisible()
   await expect.poll(() => coastlineRequests.some((url) => url.includes('/maps/coastlines/ma-0110.000.json.gz'))).toBe(true)
   expect(new Set(coastlineRequests.map((url) => url.match(/ma-[\d.]+\.json\.gz/)?.[0]).filter(Boolean)).size).toBeGreaterThanOrEqual(2)
+
+  await context.close()
+})
+
+test('the complete PaleoDEM series loads one Web preview grid per selected age and renders canvas tiles', async ({ browser, baseURL }) => {
+  const context = await browser.newContext({ baseURL, locale: 'en-US', serviceWorkers: 'block' })
+  const page = await context.newPage()
+  await page.addInitScript(() => {
+    window.localStorage.setItem('evo-explorer-guide-v2', 'dismissed')
+    window.localStorage.setItem('evo-atlas-language', 'en')
+  })
+  const gridRequests: string[] = []
+  page.on('request', (request) => {
+    if (/\/maps\/paleotopography\/scotese-wright-2018-paleodem-v2\/grids\/ma-\d{4}\.preview-05deg\.i16\.gz(?:[?#]|$)/.test(request.url())) {
+      gridRequests.push(request.url())
+    }
+  })
+
+  await page.goto('./#/explore?view=map&age=65')
+  const terrain = page.getByLabel('PALEOMAP elevation and bathymetry')
+  await expect(terrain).toBeEnabled()
+  await terrain.check()
+  await expect(page.getByText(/Nearest nominal frame 65 Ma for requested 65 Ma; no temporal interpolation/)).toBeVisible()
+  await expect(page.getByText('Internal NetCDF description: PALEOMAP:KT_Boundary, 66 Ma', { exact: true })).toBeVisible()
+  await expect(page.getByText(/Web and browser-offline use a checksummed 0.5° exact-decimation preview/)).toBeVisible()
+  await expect(page.getByText(/Web Mercator display ends at ±85.051° latitude/)).toBeVisible()
+  await expect(page.getByText(/independent of CAO2024 geometry, CAO2024 observations and PBDB palaeocoordinates/)).toBeVisible()
+  await expect.poll(() => gridRequests.filter((url) => url.includes('ma-0065.preview-05deg.i16.gz')).length).toBe(1)
+  await expect.poll(() => page.locator('canvas.leaflet-tile').evaluateAll((canvases) => canvases.some((canvas) => {
+    const context = (canvas as HTMLCanvasElement).getContext('2d')
+    if (!context) return false
+    const pixels = context.getImageData(0, 0, (canvas as HTMLCanvasElement).width, (canvas as HTMLCanvasElement).height).data
+    for (let index = 3; index < pixels.length; index += 4) if (pixels[index] !== 0) return true
+    return false
+  }))).toBe(true)
+
+  const ageInput = page.locator('.explorer-timeline input[type="number"]')
+  await ageInput.fill('68')
+  await expect(page.getByText(/Nearest nominal frame 70 Ma for requested 68 Ma; no temporal interpolation/)).toBeVisible()
+  await expect.poll(() => gridRequests.filter((url) => url.includes('ma-0070.preview-05deg.i16.gz')).length).toBe(1)
+  expect(gridRequests).toHaveLength(2)
 
   await context.close()
 })

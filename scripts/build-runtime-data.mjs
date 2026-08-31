@@ -11,6 +11,12 @@ const args = process.argv.slice(2)
 const outputIndex = args.indexOf('--out')
 const requestedOutput = outputIndex >= 0 ? args[outputIndex + 1] : 'dist/data'
 if (!requestedOutput) throw new Error('--out requires a path')
+const paleotopographyIndex = args.indexOf('--paleotopography')
+const paleotopographyDelivery = paleotopographyIndex >= 0 ? args[paleotopographyIndex + 1] : 'web-preview'
+if (paleotopographyDelivery !== 'web-preview' && paleotopographyDelivery !== 'native-full') {
+  throw new Error('--paleotopography must be web-preview or native-full')
+}
+const includeDownloadArchives = paleotopographyDelivery === 'native-full'
 const outputRoot = resolve(rootDir, requestedOutput)
 const allowedRoots = [resolve(rootDir, 'dist/data'), resolve(rootDir, 'public/data')]
 if (!allowedRoots.some((allowed) => outputRoot === allowed || outputRoot.startsWith(`${allowed}${sep}`))) {
@@ -45,6 +51,7 @@ const media = readJson('data/media.json')
 const calibrations = readJson('data/packages/mammalia/perissodactyla/phylogeny/calibrations.json')
 const periodMetadata = readJson('data/period-map-metadata.json')
 const paleogeographyProvenance = readJson('data/paleogeography/provenance.json')
+const paleotopographySource = readJson('data/paleotopography/scotese-wright-2018-v2/manifest.json')
 const caoObservationManifest = readJson('data/paleogeography/observations/manifest.json')
 const occurrenceSource = readJson('data/sources/pbdb-occurrence-bundle.json')
 const treeEvidence = readJson('data/tree/evidence.json')
@@ -90,8 +97,11 @@ function write(relativePath, bytes) {
   return record
 }
 
-function writeJson(relativePath, value, pretty = false) {
-  return write(relativePath, jsonBytes(value, pretty))
+function writeJson(relativePath, value) {
+  // Runtime JSON is content-addressed machine data. Compact encoding preserves
+  // every value while keeping a reliable GitHub Pages margin for all 109 Web
+  // PaleoDEM previews; human-readable canonical sources remain pretty-printed.
+  return write(relativePath, jsonBytes(value))
 }
 
 function writeBootstrapJson(relativePath, value, pretty = false) {
@@ -613,14 +623,16 @@ for (const packageEntry of registry.packages) {
   const manifestFile = writeJson(`packages/${packageId}/manifest.json`, manifest, true)
   packageRuntimeManifests.push({ ...manifest, manifest: manifestFile })
 
-  const zipEntries = {
-    'manifest.json': strToU8(`${JSON.stringify(manifest, null, 2)}\n`),
+  if (includeDownloadArchives) {
+    const zipEntries = {
+      'manifest.json': strToU8(`${JSON.stringify(manifest, null, 2)}\n`),
+    }
+    for (const file of [...Object.values(payloadFiles), ...packageAssetFiles, ...packageNomenclatureFiles, ...occurrenceShards]) {
+      zipEntries[file.url] = new Uint8Array(readFileSync(join(outputRoot, file.url)))
+    }
+    const archive = deterministicZip(zipEntries, { level: 0 })
+    write(`downloads/${packageId}-${sourceManifest.datasetVersion}.zip`, archive)
   }
-  for (const file of [...Object.values(payloadFiles), ...packageAssetFiles, ...packageNomenclatureFiles, ...occurrenceShards]) {
-    zipEntries[file.url] = new Uint8Array(readFileSync(join(outputRoot, file.url)))
-  }
-  const archive = deterministicZip(zipEntries, { level: 0 })
-  write(`downloads/${packageId}-${sourceManifest.datasetVersion}.zip`, archive)
 }
 
 const occurrenceManifestFile = writeJson('occurrences/manifest.json', occurrenceManifest, true)
@@ -786,8 +798,117 @@ const mapSnapshots = periodMetadata.map((period) => {
     layers,
   }
 })
+
+function publishPaleotopographySeries() {
+  const { frames, grid, selection, visualization, totals } = paleotopographySource
+  if (paleotopographySource.source.license !== 'CC-BY-4.0'
+    || paleotopographySource.source.doi !== '10.5281/zenodo.5460860'
+    || paleotopographySource.schemaVersion !== 2
+    || paleotopographySource.archive.netcdfMemberCount !== 109
+    || paleotopographySource.archive.sha256 !== 'ab360184d8260a815ef5ed6b8b4e0abdbf99ef5ee8aa87dfd070af323ceb42da') {
+    throw new Error('Complete PaleoDEM source, license or archive boundary changed without review')
+  }
+  if (grid.width !== 3601 || grid.height !== 1801 || grid.cellCount !== grid.width * grid.height
+    || grid.decodedBytesPerFrame !== grid.cellCount * 2
+    || grid.encoding !== 'gzip-signed-int16-little-endian-row-major'
+    || selection.method !== 'nearest-nominal-age' || selection.tieBreak !== 'younger'
+    || selection.temporalInterpolation !== 'none'
+    || visualization.renderer !== 'client-worker-canvas-grid-layer'
+    || visualization.preGeneratedTiles !== 0) {
+    throw new Error('PaleoDEM grid, selection or client-rendering boundary changed without review')
+  }
+  const canonicalRoot = resolve(rootDir, 'data/paleotopography')
+  const expectedAges = Array.from({ length: 109 }, (_, index) => index * 5)
+  if (!Array.isArray(frames) || frames.length !== expectedAges.length
+    || frames.some((frame, index) => frame.archiveNominalAgeMa !== expectedAges[index])) {
+    throw new Error('PaleoDEM manifest must retain exactly one ordered frame at every 5 Ma age from 0 through 540 Ma')
+  }
+  const nativeFull = paleotopographyDelivery === 'native-full'
+  const runtimeFrames = frames.map((frame) => {
+    if (frame.width !== grid.width || frame.height !== grid.height || frame.cellCount !== grid.cellCount
+      || frame.grid.encoding !== grid.encoding || frame.grid.decodedBytes !== grid.decodedBytesPerFrame
+      || frame.displayAgeRangeMa.youngest > frame.archiveNominalAgeMa
+      || frame.displayAgeRangeMa.oldest < frame.archiveNominalAgeMa) {
+      throw new Error(`PaleoDEM ${frame.archiveNominalAgeMa} Ma frame dimensions or selection window changed without review`)
+    }
+    if (frame.webPreviewGrid.width !== grid.webPreview.width
+      || frame.webPreviewGrid.height !== grid.webPreview.height
+      || frame.webPreviewGrid.decodedBytes !== grid.webPreview.decodedBytesPerFrame
+      || frame.webPreviewGrid.sourceGridSha256 !== frame.grid.decodedSha256
+      || frame.webPreviewGrid.derivation !== 'exact-decimation-every-fifth-source-row-and-column') {
+      throw new Error(`PaleoDEM ${frame.archiveNominalAgeMa} Ma Web preview does not trace exactly to the full grid`)
+    }
+    const selectedGrid = nativeFull ? frame.grid : frame.webPreviewGrid
+    const canonicalPath = resolve(rootDir, selectedGrid.path)
+    if (!canonicalPath.startsWith(`${canonicalRoot}${sep}`)) throw new Error('PaleoDEM canonical grid is outside data/paleotopography')
+    const canonicalBytes = readFileSync(canonicalPath)
+    if (canonicalBytes.byteLength !== selectedGrid.bytes || sha256(canonicalBytes) !== selectedGrid.sha256) {
+      throw new Error(`PaleoDEM ${frame.archiveNominalAgeMa} Ma ${paleotopographyDelivery} grid bytes differ from the pinned source ledger`)
+    }
+    const decoded = gunzipSync(canonicalBytes)
+    if (decoded.byteLength !== selectedGrid.decodedBytes || sha256(decoded) !== selectedGrid.decodedSha256) {
+      throw new Error(`PaleoDEM ${frame.archiveNominalAgeMa} Ma ${paleotopographyDelivery} decoded grid differs from the pinned source ledger`)
+    }
+    const runtimeGrid = write(`maps/paleotopography/${paleotopographySource.id}/grids/ma-${String(frame.archiveNominalAgeMa).padStart(4, '0')}.${nativeFull ? 'full-01deg' : 'preview-05deg'}.i16.gz`, canonicalBytes)
+    const { grid: fullGrid, webPreviewGrid, ...metadata } = frame
+    return {
+      ...metadata,
+      sourceFullGrid: {
+        bytes: fullGrid.bytes,
+        sha256: fullGrid.sha256,
+        decodedBytes: fullGrid.decodedBytes,
+        decodedSha256: fullGrid.decodedSha256,
+        width: frame.width,
+        height: frame.height,
+        cellCount: frame.cellCount,
+        resolutionDegrees: 0.1,
+      },
+      grid: {
+        ...runtimeGrid,
+        sourceBytes: selectedGrid.decodedBytes,
+        sourceSha256: selectedGrid.decodedSha256,
+        width: nativeFull ? frame.width : webPreviewGrid.width,
+        height: nativeFull ? frame.height : webPreviewGrid.height,
+        cellCount: nativeFull ? frame.cellCount : webPreviewGrid.cellCount,
+        resolutionDegrees: nativeFull ? 0.1 : webPreviewGrid.resolutionDegrees,
+        derivation: nativeFull ? 'lossless-full-source-grid' : webPreviewGrid.derivation,
+        gridEncoding: selectedGrid.encoding,
+        mediaType: 'application/octet-stream',
+      },
+    }
+  })
+  const expectedRuntimeBytes = nativeFull ? totals.independentGridGzipBytes : totals.webPreviewGridGzipBytes
+  if (runtimeFrames.reduce((sum, frame) => sum + frame.grid.bytes, 0) !== expectedRuntimeBytes) {
+    throw new Error(`PaleoDEM ${paleotopographyDelivery} runtime bytes do not match the complete-series total`)
+  }
+  return {
+    id: paleotopographySource.id,
+    source: paleotopographySource.source,
+    archive: paleotopographySource.archive,
+    grid,
+    selection,
+    delivery: {
+      profile: paleotopographyDelivery,
+      resolutionDegrees: nativeFull ? 0.1 : grid.webPreview.resolutionDegrees,
+      gridBytes: expectedRuntimeBytes,
+      fullResolutionAvailableInNativeApps: true,
+    },
+    visualization: {
+      ...visualization,
+      maximumNativeZoom: nativeFull ? 4 : 2,
+      maximumZoomGroundSampling: nativeFull
+        ? 'approximately 0.088 degrees per display pixel at the equator'
+        : 'approximately 0.352 degrees per display pixel at the equator; source preview samples are spaced 0.5 degrees',
+    },
+    totals,
+    scientificLimitations: paleotopographySource.scientificLimitations,
+    frames: runtimeFrames,
+  }
+}
+
+const paleotopography = publishPaleotopographySeries()
 const mapsManifestFile = writeJson('maps/manifest.json', {
-  schemaVersion: hasPaleogeographySeries ? 7 : 5,
+  schemaVersion: hasPaleogeographySeries ? 8 : 5,
   version: sourceManifest.datasetVersion,
   source: {
     title: paleogeographyProvenance.dataset.title,
@@ -813,6 +934,7 @@ const mapsManifestFile = writeJson('maps/manifest.json', {
       sourceArchive: caoObservationManifest.sourceArchive,
       scientificBoundary: caoObservationManifest.scientificBoundary,
     },
+    paleotopography,
   } : {}),
   snapshots: mapSnapshots,
 }, true)
@@ -918,7 +1040,7 @@ for (const sourcePackDescriptor of catalogueResourcePacksSourceManifest.packs) {
     version: sourceManifest.datasetVersion,
     files: runtimeFiles,
     ...(runtimeExtensions.length ? { extensions: runtimeExtensions } : {}),
-    download: `${releasePrefix}/downloads/${sourcePack.packageId}-${sourceManifest.datasetVersion}.zip`,
+    ...(includeDownloadArchives ? { download: `${releasePrefix}/downloads/${sourcePack.packageId}-${sourceManifest.datasetVersion}.zip` } : {}),
   }
   const runtimeManifestFile = writeJson(`catalogue/resource-packs/${sourcePack.packageId}/manifest.json`, runtimePackManifest, true)
   catalogueResourcePackManifests[sourcePack.packageId] = {
@@ -929,14 +1051,16 @@ for (const sourcePackDescriptor of catalogueResourcePacksSourceManifest.packs) {
   }
   catalogueResourcePackAcceptedSpecies += sourcePack.acceptedSpeciesCount
 
-  const zipEntries = { 'manifest.json': strToU8(`${JSON.stringify(runtimePackManifest, null, 2)}\n`) }
-  for (const file of runtimeFiles) {
-    zipEntries[basename(file.url)] = new Uint8Array(readFileSync(join(outputRoot, file.url)))
+  if (includeDownloadArchives) {
+    const zipEntries = { 'manifest.json': strToU8(`${JSON.stringify(runtimePackManifest, null, 2)}\n`) }
+    for (const file of runtimeFiles) {
+      zipEntries[basename(file.url)] = new Uint8Array(readFileSync(join(outputRoot, file.url)))
+    }
+    for (const file of runtimeExtensions.flatMap((extension) => extension.files)) {
+      zipEntries[basename(file.url)] = new Uint8Array(readFileSync(join(outputRoot, file.url)))
+    }
+    write(`downloads/${sourcePack.packageId}-${sourceManifest.datasetVersion}.zip`, deterministicZip(zipEntries, { level: 0 }))
   }
-  for (const file of runtimeExtensions.flatMap((extension) => extension.files)) {
-    zipEntries[basename(file.url)] = new Uint8Array(readFileSync(join(outputRoot, file.url)))
-  }
-  write(`downloads/${sourcePack.packageId}-${sourceManifest.datasetVersion}.zip`, deterministicZip(zipEntries, { level: 0 }))
 }
 if (catalogueResourcePackAcceptedSpecies !== catalogueResourcePacksSourceManifest.acceptedSpeciesCount
   || catalogueResourcePackAcceptedSpecies !== catalogueSpeciesOwnership.entries
@@ -956,7 +1080,7 @@ const catalogueRuntimeManifest = {
     acceptedSpeciesCount: catalogueResourcePackAcceptedSpecies,
     manifests: catalogueResourcePackManifests,
     sharedSources: { ...catalogueSourceManifest.sourceChecklists, url: catalogueSourcesFile.url },
-    downloadTemplate: `${releasePrefix}/downloads/{packageId}-${sourceManifest.datasetVersion}.zip`,
+    ...(includeDownloadArchives ? { downloadTemplate: `${releasePrefix}/downloads/{packageId}-${sourceManifest.datasetVersion}.zip` } : {}),
   },
   search: {
     ...catalogueSourceManifest.search,
@@ -1014,6 +1138,11 @@ const current = {
     geometryFrameCount: mapLayers ? Object.values(mapLayers).reduce((sum, layer) => sum + layer.frames.length, 0) : null,
     observationDatasetCount: Object.keys(caoObservationDatasets).length,
     observationRecordCount: caoObservationManifest.counts.total,
+    paleotopographyFrameCount: paleotopography.frames.length,
+    paleotopographyGridCount: paleotopography.frames.length,
+    paleotopographyGridBytes: paleotopography.delivery.gridBytes,
+    paleotopographyDeliveryProfile: paleotopography.delivery.profile,
+    paleotopographyTileCount: 0,
   },
   catalogue: {
     manifest: catalogueManifestFile,
@@ -1032,7 +1161,9 @@ const current = {
     nomenclaturalResourcePackSpecies: catalogueRuntimeManifest.resourcePacks.acceptedSpeciesCount,
     relationshipToAtlas: catalogueRuntimeManifest.relationshipToAtlas,
   },
-  downloads: { template: `${releasePrefix}/downloads/{packageId}-${sourceManifest.datasetVersion}.zip` },
+  downloads: includeDownloadArchives
+    ? { available: true, template: `${releasePrefix}/downloads/{packageId}-${sourceManifest.datasetVersion}.zip` }
+    : { available: false },
   budgets: {
     coreCompressedBytes,
     coreLimitBytes: 5 * 1024 * 1024,
@@ -1077,21 +1208,8 @@ const currentRelease = {
   bytes: currentReleaseBytes,
 }
 const retainedReleases = [currentRelease]
-let retainedBytes = currentReleaseBytes
-for (const entry of (previousReleaseHistory.releases ?? []).filter((candidate) => candidate.datasetVersion !== sourceManifest.datasetVersion)) {
-  if (retainedReleases.length >= 3) break
-  let releaseBytes = entry.bytes
-  if (!Number.isFinite(releaseBytes)) {
-    try {
-      const index = JSON.parse(readFileSync(join(outputRoot, entry.filesIndex), 'utf8'))
-      releaseBytes = (index.files ?? []).reduce((sum, file) => sum + (file.bytes ?? 0), 0) + statSync(join(outputRoot, entry.filesIndex)).size
-    } catch { continue }
-  }
-  if (retainedBytes + releaseBytes > retentionByteLimit) continue
-  retainedReleases.push({ ...entry, bytes: releaseBytes })
-  retainedBytes += releaseBytes
-}
-writeBootstrapJson('releases.json', { schemaVersion: 1, retentionLimit: 3, retentionByteLimit, retainedBytes, releases: retainedReleases }, true)
+const retainedBytes = currentReleaseBytes
+writeBootstrapJson('releases.json', { schemaVersion: 1, retentionLimit: 1, retentionByteLimit, retainedBytes, releases: retainedReleases }, true)
 const retainedVersions = new Set(retainedReleases.map((entry) => entry.datasetVersion))
 const releasesDirectory = join(outputRoot, 'releases')
 for (const name of readdirSync(releasesDirectory)) {

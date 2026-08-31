@@ -1,5 +1,5 @@
 import { afterEach, describe, expect, it, vi } from 'vitest'
-import type { CatalogueHierarchyChildRecord, CatalogueHierarchyNodeRecord, CatalogueLpsnIdentifierRecord, CatalogueNomenclaturalRecord, CatalogueRecord, CatalogueResourcePackManifest, CatalogueSourceChecklist, CatalogueSpeciesOwnership, CatalogueTargetRecord, RuntimeMapManifest, RuntimeMapSnapshot } from './types'
+import type { CatalogueHierarchyChildRecord, CatalogueHierarchyNodeRecord, CatalogueLpsnIdentifierRecord, CatalogueNomenclaturalRecord, CatalogueRecord, CatalogueResourcePackManifest, CatalogueSourceChecklist, CatalogueSpeciesOwnership, CatalogueTargetRecord, RuntimeMapManifest, RuntimeMapSnapshot, RuntimePaleotopographyCollection } from './types'
 
 function responseFor(value: unknown) {
   const bytes = new TextEncoder().encode(JSON.stringify(value))
@@ -811,5 +811,20 @@ describe('static runtime release coherence', () => {
     await installCatalogueFixture({ nodes: [node('depth-leaf', 'depth-middle'), node('depth-middle', 'depth-root'), node('depth-root', null)] })
     await expect(loadCatalogueLineage('depth-leaf', 2)).rejects.toThrow('exceeds maximum depth 2')
     await expect(loadCatalogueLineage('depth-leaf', 0)).rejects.toThrow('maxDepth must be a positive integer')
+  })
+
+  it('selects exactly one nearest nominal PaleoDEM frame without extrapolation', async () => {
+    const collection = {
+      selection: { ageRangeMa: { youngest: 0, oldest: 540 } },
+      frames: [0, 5, 10, 540].map((archiveNominalAgeMa) => ({ archiveNominalAgeMa })),
+    } as unknown as RuntimePaleotopographyCollection
+    const { resolvePaleotopographyFrame } = await import('./staticDataClient')
+
+    expect(resolvePaleotopographyFrame(collection, 0)?.archiveNominalAgeMa).toBe(0)
+    expect(resolvePaleotopographyFrame(collection, 2.5)?.archiveNominalAgeMa).toBe(0)
+    expect(resolvePaleotopographyFrame(collection, 2.5001)?.archiveNominalAgeMa).toBe(5)
+    expect(resolvePaleotopographyFrame(collection, 538)?.archiveNominalAgeMa).toBe(540)
+    expect(resolvePaleotopographyFrame(collection, -0.01)).toBeNull()
+    expect(resolvePaleotopographyFrame(collection, 540.01)).toBeNull()
   })
 })

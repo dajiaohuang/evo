@@ -19,6 +19,8 @@ import type {
   RuntimeMapFrame,
   RuntimeMapFrameSelection,
   RuntimeMapSnapshot,
+  RuntimePaleotopographyCollection,
+  RuntimePaleotopographyFrame,
   RuntimeMediaAsset,
   RuntimePackageManifest,
   RuntimePackageRegistry,
@@ -806,6 +808,27 @@ export async function loadPaleogeographyLayer(
   const file = snapshot.layers?.[layerId]
   if (!file) throw new Error(`${snapshot.period}: paleogeography layer ${layerId} is not published`)
   return loadRuntimeFile<import('../types').PaleogeographyFeatureCollection>(file)
+}
+
+export function resolvePaleotopographyFrame(
+  collection: RuntimePaleotopographyCollection,
+  requestedAgeMa: number,
+): RuntimePaleotopographyFrame | null {
+  const { youngest, oldest } = collection.selection.ageRangeMa
+  if (!Number.isFinite(requestedAgeMa) || requestedAgeMa < youngest || requestedAgeMa > oldest) return null
+  const frames = collection.frames
+  let low = 0
+  let high = frames.length
+  while (low < high) {
+    const middle = (low + high) >>> 1
+    if (frames[middle].archiveNominalAgeMa < requestedAgeMa) low = middle + 1
+    else high = middle
+  }
+  const older = frames[low]
+  const younger = low > 0 ? frames[low - 1] : undefined
+  if (!younger) return older ?? null
+  if (!older) return younger
+  return requestedAgeMa - younger.archiveNominalAgeMa <= older.archiveNominalAgeMa - requestedAgeMa ? younger : older
 }
 
 export function resolvePaleogeographyFrame(

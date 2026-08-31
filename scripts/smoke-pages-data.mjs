@@ -1,8 +1,7 @@
 import { createHash } from 'node:crypto'
 import { existsSync, readFileSync } from 'node:fs'
-import { basename, join } from 'node:path'
+import { join } from 'node:path'
 import { gunzipSync } from 'node:zlib'
-import { unzipSync } from 'fflate'
 import { rootDir } from './data-lib.mjs'
 
 const dataRoot = join(rootDir, 'dist/data')
@@ -28,10 +27,12 @@ if (!existsSync(join(dataRoot, 'current.json'))) {
 const current = readJson('current.json')
 const currentReleaseFiles = readJson(`${current.releaseBase}release-files.json`)
 const currentReleaseUrls = new Set(currentReleaseFiles.files.map((file) => file.url))
+if (current.downloads?.available !== false || current.downloads?.template) failures.push('Pages-light current manifest must disable package ZIP downloads')
+if (currentReleaseFiles.files.some((file) => file.url.includes('/downloads/'))) failures.push('Pages-light release inventory unexpectedly contains duplicate package ZIPs')
 if (!existsSync(join(dataRoot, 'releases.json'))) failures.push('release retention index is missing')
 else {
   const history = readJson('releases.json')
-  if (history.retentionLimit < 2 || history.releases?.[0]?.datasetVersion !== current.datasetVersion) failures.push('release retention index does not lead with the current dataset')
+  if (history.retentionLimit !== 1 || history.releases?.length !== 1 || history.releases[0]?.datasetVersion !== current.datasetVersion) failures.push('release index must contain only the current dataset')
   if (!Number.isFinite(history.retentionByteLimit) || history.retainedBytes > history.retentionByteLimit) failures.push('release retention byte budget is missing or exceeded')
   for (const release of history.releases ?? []) {
     if (!existsSync(join(dataRoot, release.filesIndex))) failures.push(`retained release ${release.datasetVersion}: files index is missing`)
@@ -41,11 +42,6 @@ else {
       if (!sample) failures.push(`retained release ${release.datasetVersion}: files index is empty`)
       else checkFile(sample, `retained release ${release.datasetVersion} sample`)
     }
-  }
-  if (history.releases?.length > 1) {
-    const previous = history.releases[1]
-    const previousIndex = readJson(previous.filesIndex)
-    if (previousIndex.datasetVersion !== previous.datasetVersion) failures.push('previous release files index has a mismatched dataset version')
   }
 }
 const releaseUrl = (file, label) => {
@@ -164,16 +160,6 @@ for (const packageEntry of packageRegistry.packages) {
     }
   } else if (nomenclatureCollections.length) {
     failures.push(`package ${packageEntry.id}: unexpected nomenclature collection`)
-  }
-  const download = current.downloads.template.replace('{packageId}', packageEntry.id)
-  if (!existsSync(join(dataRoot, download))) failures.push(`package ${packageEntry.id}: download missing`)
-  else if (researchFile || nomenclatureCollections.length) {
-    const entries = unzipSync(new Uint8Array(readFileSync(join(dataRoot, download))))
-    if (researchFile && !entries[researchFile.url]) failures.push(`package ${packageEntry.id}: ZIP omits research examples`)
-    if (wormsCollection && !entries[wormsCollection.file.url]) failures.push('echinoderms: package ZIP omits the WoRMS nomenclature collection')
-    for (const collection of nomenclatureCollections.filter((candidate) => candidate.id === 'wfo-plant-list-crosswalk')) {
-      for (const file of collection.files) if (!entries[file.url]) failures.push(`${packageEntry.id}: package ZIP omits WFO shard ${basename(file.url)}`)
-    }
   }
 }
 if (researchExampleCount !== 24 || researchExampleAvailableCount !== 24 || researchClaimLinkCount !== 34) failures.push(`research preset totals are ${researchExampleCount} examples, ${researchExampleAvailableCount} available-with-limitations and ${researchClaimLinkCount} claim links; expected 24/24/34`)
@@ -335,6 +321,54 @@ if (maps.schemaVersion >= 7) {
   }
   if (observationRecords !== 44175 || current.maps.observationDatasetCount !== 5 || current.maps.observationRecordCount !== 44175) {
     failures.push('current map summary does not expose all CAO2024 observation records')
+  }
+}
+if (maps.schemaVersion >= 8) {
+  const collection = maps.paleotopography
+  if (collection?.id !== 'scotese-wright-2018-paleodem-v2'
+    || collection?.source?.doi !== '10.5281/zenodo.5460860'
+    || collection?.source?.license !== 'CC-BY-4.0'
+    || collection?.archive?.redistributed !== false
+    || collection?.frames?.length !== 109
+    || collection?.delivery?.profile !== 'web-preview'
+    || collection?.delivery?.resolutionDegrees !== 0.5
+    || collection?.delivery?.gridBytes !== 10147417
+    || collection?.visualization?.preGeneratedTiles !== 0) {
+    failures.push('palaeotopography Web preview source, license, delivery profile or complete-series boundary is invalid')
+  } else {
+    const expectedAges = Array.from({ length: 109 }, (_, index) => index * 5)
+    if (collection.frames.some((frame, index) => frame.archiveNominalAgeMa !== expectedAges[index])) {
+      failures.push('palaeotopography Web preview ages are not the complete ordered 0–540 Ma series')
+    }
+    let gridBytes = 0
+    for (const frame of collection.frames) {
+      const label = `palaeotopography ${frame.archiveNominalAgeMa} Ma Web preview grid`
+      releaseUrl(frame.grid, label)
+      checkFile(frame.grid, label)
+      if (frame.grid?.width !== 721 || frame.grid?.height !== 361 || frame.grid?.cellCount !== 260281
+        || frame.grid?.resolutionDegrees !== 0.5
+        || frame.grid?.derivation !== 'exact-decimation-every-fifth-source-row-and-column'
+        || frame.sourceFullGrid?.width !== 3601 || frame.sourceFullGrid?.height !== 1801
+        || frame.sourceFullGrid?.resolutionDegrees !== 0.1
+        || !frame.memberSha256 || !frame.internalDescription) {
+        failures.push(`${label}: preview/full-source metadata is invalid`)
+        continue
+      }
+      const decoded = gunzipSync(readFileSync(join(dataRoot, frame.grid.url)))
+      if (decoded.byteLength !== frame.grid.sourceBytes
+        || createHash('sha256').update(decoded).digest('hex') !== frame.grid.sourceSha256) {
+        failures.push(`${label}: decoded checksum mismatch`)
+      }
+      gridBytes += frame.grid.bytes
+    }
+    if (gridBytes !== collection.delivery.gridBytes
+      || current.maps.paleotopographyFrameCount !== 109
+      || current.maps.paleotopographyGridCount !== 109
+      || current.maps.paleotopographyGridBytes !== 10147417
+      || current.maps.paleotopographyDeliveryProfile !== 'web-preview'
+      || current.maps.paleotopographyTileCount !== 0) {
+      failures.push('current map summary does not expose the complete lightweight palaeotopography series')
+    }
   }
 }
 for (const snapshot of maps.snapshots) {
@@ -674,15 +708,7 @@ if (catalogue.resourcePacks?.packageCount !== 7
     } else if (extensions.length) {
       failures.push(`${packageId}: unexpected resource-pack extension`)
     }
-    if (!existsSync(join(dataRoot, manifest.download))) failures.push(`${packageId}: nomenclatural resource-pack download missing`)
-    else if (extensions.length) {
-      const entries = unzipSync(new Uint8Array(readFileSync(join(dataRoot, manifest.download))))
-      for (const extension of extensions) {
-        for (const file of extension.files) {
-          if (!entries[basename(file.url)]) failures.push(`${packageId}: nomenclatural resource-pack ZIP omits ${basename(file.url)}`)
-        }
-      }
-    }
+    if (manifest.download) failures.push(`${packageId}: Pages-light resource-pack manifest unexpectedly publishes a ZIP`)
     resourcePackRecords += packageRecords
   }
   if (resourcePackRecords !== 363160) failures.push('Catalogue nomenclatural resource-pack records do not total 363,160')

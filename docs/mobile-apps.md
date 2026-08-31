@@ -15,13 +15,15 @@ assets/logo.svg              # 原生图标和启动图源文件
 dist-mobile/                 # 临时生成的移动客户端壳，不提交
 ```
 
-移动构建关闭 Vite 的默认 `publicDir` 复制，先用 canonical `data/` 生成当前发布版，再由现有 `release-files.json` 选择全部交互文件并复制到 `dist-mobile/data/`。重复的 24 个资源包 ZIP 导出物不再复制，因为其科学内容已经作为交互文件内置。finalizer 会沿用发布清单的字节数与 SHA-256 逐项核对，拒绝缺失、串版或超过 650 MiB 的产物；这是一条构建契约，不是新的科学内容审查系统。
+移动构建关闭 Vite 的默认 `publicDir` 复制，先用 canonical `data/` 生成当前发布版，再由现有 `release-files.json` 选择全部交互文件并复制到 `dist-mobile/data/`。重复的 24 个资源包 ZIP 导出物不再复制，因为其科学内容已经作为交互文件内置。finalizer 会沿用发布清单的字节数与 SHA-256 逐项核对，拒绝缺失、串版或超过 750 MiB 的产物；这是一条构建契约，不是新的科学内容审查系统。
 
 应用 ID 是 `io.github.dajiaohuang.evoatlas`。Android 最低 API 为 24，iOS 最低版本为 15。原生工程使用 Capacitor 8；iOS 插件通过 Swift Package Manager 引入。
 
 仓库中的 Android Studio 与 Xcode 项目是可复现的原生壳源工程，不是商店发布证明。应用级 Android/iOS 测试源随工程维护，但 AAB、IPA、签名 Archive、Play Console 和 App Store Connect 发布物均不在仓库中；只有在相应平台工具链、模拟器/真机和商店流程完成后才能声称原生版本已发布。
 
 ## 数据与离线边界
+
+rc63 把 Scotese–Wright 2018 PaleoDEM v2 的 109 个 0–540 Ma、5 Ma 名义年龄帧完整纳入 Android 与 iOS build `17`。两个原生包都含全部 3601×1801、0.1°、独立无损 i16 gzip 栅格，总压缩字节为 168,418,483；同一 inventory 逐帧保留源归档 member 哈希、文件名年龄、NetCDF 内部描述/年龄、压缩及解码 SHA-256。一次地图选择只读取一个年龄帧，worker 动态着色 Canvas，不预生成瓦片金字塔，也不做时间插值。Web/Pages 与浏览器离线为了保持 650 MiB 部署门槛，仍覆盖全部 109 个年龄，但使用 721×361、0.5° 的每第五格精确抽样预览，并省略只用于下载的重复包 ZIP；它不是原生端 0.1° 数据。本地 native-full 构建仍可生成 ZIP。界面和 manifest 均显示当前 profile、分辨率、Mercator ±85.051° 显示边界及非共注册限制。
 
 rc62 把全部 157,044 个 COL26.8 真菌接受种的固定 Species Fungorum / Index Fungorum 标识纳入原生全量数据契约。六个按 COL ID 排序且互不重叠的分片通过 Fungi manifest 与 `release-files.json` 进入 Web、离线存储、Fungi ZIP、Android 和 iOS；原生测试逐片核对字节数与 SHA-256。详情页按 `minColId` / `maxColId` 只加载一个命中分片，不解析完整 157,044 条侧车。源快照额外 201 个接受种仅存在于 canonical 审计，不写入 COL 包。Android `versionCode` 与 iOS build number 为 `16`。
 
