@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "sidecarType": "release-pinned-exact-nomenclatural-crosswalk",
+  "packageId": "other-animals",
+  "scope": {
+    "packageRootUsageId": "N",
+    "packageRootScientificName": "Animalia",
+    "colRootUsageId": "L2QNW",
+    "colRootScientificName": "Tardigrada",
+    "colStrictAcceptedSpecies": 1454,
+    "packageStrictAcceptedSpecies": 99161,
+    "packageOutOfScopeStrictAcceptedSpecies": 97707,
+    "nonApplicableRemainder": "Every strict accepted COL26.8 species owned by the other-animals remainder route below N but not descending from L2QNW; this complete remainder is explicitly excluded from the Tardigrada sidecar.",
+    "boundary": "This mixed package contains many animal phyla and broader Animalia navigation content. This sidecar covers only the strict accepted COL26.8 species descending from the exact Tardigrada root L2QNW; all remaining package-owned species are explicitly out of scope."
+  },
+  "sources": {
+    "col": {
+      "releaseAlias": "COL26.8",
+      "releaseDate": "2026-08-20",
+      "registryManifestPath": "data/catalogue-of-life/releases/2026-08-20/registry/manifest.json",
+      "registryManifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151",
+      "ownershipPath": "data/registry/package-species-coverage.json",
+      "ownershipSha256": "a297bc8a67ce60806fdee733464a79bfcc42e255f7e59535b01f94013c19dfea"
+    },
+    "itis": {
+      "datasetId": "itis-2026-08-26",
+      "exportDate": "2026-08-26",
+      "rootTsn": "155166",
+      "sourceLedgerPath": "data/sources/itis-2026-08-26.json",
+      "sourceLedgerSha256": "38a7a55b4e98cafc66790e47f6bd637e298e23fd691e4771c755b38e4a02d7fc",
+      "license": "CC0-1.0",
+      "citationDoi": "10.5066/F7KH0KBK"
+    }
+  },
+  "exactMatching": {
+    "normalization": [
+      "Remove the exact trailing COL authorship field from COL scientificName when that suffix is present; no authorship parser is used.",
+      "Normalize Unicode to NFC, replace underscores with spaces, collapse Unicode whitespace and trim.",
+      "For species-rank comparison, remove one parenthesized subgenus token in the exact Genus (Subgenus) species representation; genus and specific epithet must remain unchanged.",
+      "Preserve case, diacritics, punctuation and all remaining name tokens."
+    ],
+    "statuses": {
+      "accepted": "The normalized COL name resolves to exactly one valid ITIS Tardigrada species and directly equals that current ITIS name.",
+      "synonym-current-name-redirect": "The normalized COL name equals official ITIS invalid species-name evidence that resolves to exactly one valid ITIS Tardigrada species.",
+      "ambiguous": "The normalized exact evidence resolves to more than one valid ITIS Tardigrada species TSN.",
+      "unmatched": "No normalized exact valid-name or official ITIS species-synonym evidence resolves to a valid ITIS Tardigrada species."
+    },
+    "prohibited": "No fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered or taxon-substituted matching is used."
+  },
+  "evidenceBoundary": {
+    "en": "This CC0 ITIS sidecar is a frozen exact nomenclatural crosswalk, not a global tardigrade checklist, final classification authority, phylogeny, species-concept equivalence assertion, biological dossier or scientific-review record.",
+    "zh": "æ­¤ CC0 ITIS ä¾§è½¦æ˜¯å†»ç»“çš„ä¸¥æ ¼å‘½åäº¤å‰æ˜ å°„ï¼›å®ƒä¸æ˜¯å…¨çƒæ˜†è™«åå½•ã€æœ€ç»ˆåˆ†ç±»æƒå¨ã€ç³»ç»Ÿå‘è‚²æ ‘ã€ç‰©ç§æ¦‚å¿µç­‰åŒæ€§å£°æ˜Žã€ç”Ÿç‰©æ¡£æ¡ˆæˆ–ç§‘å­¦å®¡æŸ¥è®°å½•ã€‚"
+  },
+  "counts": {
+    "total": 1454,
+    "accepted": 1454,
+    "synonymCurrentNameRedirect": 0,
+    "ambiguous": 0,
+    "unmatched": 0,
+    "itisCurrentSpecies": 1461,
+    "itisSpeciesSynonymLinks": 613,
+    "itisUpstreamOnly": 7
+  },
+  "colUsageIdLocator": {
+    "key": "colUsageId",
+    "ordering": "Unicode code-unit ascending",
+    "sourceShardLimitBytes": 524288,
+    "stableAddressing": "Binary-search non-overlapping inclusive colUsageId ranges; one detail query loads exactly one immutable JSONL gzip shard.",
+    "files": [
+      {
+        "path": "data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals/itis-tardigrada-sidecar-0000.jsonl.gz",
+        "records": 1301,
+        "firstColUsageId": "36FGZ",
+        "lastColUsageId": "9X99K",
+        "bytes": 46388,
+        "sha256": "1399e7c0100cf65838a4e44bafbad514a5bccbc2381e0ba4fb95841f08f26f41",
+        "sourceBytes": 524245,
+        "sourceSha256": "6ad38badbb27944fce771a82c48413aeba9795299a1393f0da9f8f38f6bdd9b5"
+      },
+      {
+        "path": "data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals/itis-tardigrada-sidecar-0001.jsonl.gz",
+        "records": 153,
+        "firstColUsageId": "9X99L",
+        "lastColUsageId": "YGZ4",
+        "bytes": 6083,
+        "sha256": "872a46de6baca5b7d67d246470a608c1ae61ed29dcd23bb79e190dde9e0e912c",
+        "sourceBytes": 61630,
+        "sourceSha256": "e47fa36de037270a05507ac0df319cd24cfde75c3243265b8c77f2dbb2e3f177"
+      }
+    ]
+  },
+  "upstreamOnly": {
+    "colOwnership": null,
+    "stableAddressing": "No COL usage ID is assigned. The complete ITIS-only current-species partition is in its own immutable JSONL gzip shard.",
+    "files": [
+      {
+        "path": "data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals/itis-tardigrada-upstream-only-0000.jsonl.gz",
+        "records": 7,
+        "firstColUsageId": null,
+        "lastColUsageId": null,
+        "bytes": 434,
+        "sha256": "bb730700bb355d85c94db0a52353294014e95e1b178c7263e8a1bea57831fe0f",
+        "sourceBytes": 2557,
+        "sourceSha256": "c4072e07b6d6a49674d9365887810e5408a474961be12fbf4e6359202e5ed8d2",
+        "colOwnership": null,
+        "firstTsn": "155428",
+        "lastTsn": "1194765"
+      }
+    ]
+  }
+}
