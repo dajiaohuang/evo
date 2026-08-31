@@ -2128,6 +2128,138 @@
           "requestPolicy": "Select the sole inclusive COL-ID range and read at most one COL partition; upstream-only files are never selected by COL ID."
         }
       }
+    },
+    {
+      "id": "itis-opalozoa-tsn-crosswalk",
+      "recordType": "release-pinned-exact-root-boundary-audit",
+      "provider": "Integrated Taxonomic Information System",
+      "source": {
+        "datasetId": "itis-2026-08-26",
+        "exportDate": "2026-08-26",
+        "rootTsn": null,
+        "license": "CC0-1.0",
+        "citationDoi": "10.5066/F7KH0KBK",
+        "canonicalDescriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-opalozoa-sidecar.json",
+        "canonicalDescriptorBytes": 6132,
+        "canonicalDescriptorSha256": "0eb545013479d9bb28ef289e49925c4842dba34d2e3f6a1002ec12934494c1d6"
+      },
+      "scope": {
+        "packageRootUsageIds": [
+          "C",
+          "Z"
+        ],
+        "packageRootScientificNames": [
+          "Chromista",
+          "Protozoa"
+        ],
+        "colRootUsageId": null,
+        "colRootScientificName": "Opalozoa",
+        "colStrictAcceptedSpecies": 0,
+        "packageStrictAcceptedSpecies": 61518,
+        "packageOutOfScopeStrictAcceptedSpecies": 61518,
+        "colRootAudit": "No exact COL26.8 usage node named Opalozoa exists in the complete pinned hierarchy; no strict COL partition is claimed.",
+        "boundary": "This boundary audit contains no Opalozoa rows because neither COL26.8 nor ITIS 2026-08-26 exposes an exact accepted root named Opalozoa. The nearby ITIS name Opalinata (TSN 43846) is recorded only as audit evidence and is not substituted."
+      },
+      "rootBoundaryAudit": {
+        "colExactRootCandidates": [],
+        "colNearRootCandidates": [],
+        "itisExactNameCandidates": [],
+        "itisNearRootCandidates": [
+          {
+            "tsn": 43846,
+            "scientific_name": "Opalinata",
+            "rank_name": "Class",
+            "name_usage": "valid",
+            "parent_tsn": 43782
+          }
+        ],
+        "selectedColRoot": null,
+        "selectedItisRoot": null,
+        "overlapAudit": {
+          "inspectedScopes": [
+            "Bigyra",
+            "Oomycota",
+            "Ochrophyta",
+            "Cercozoa",
+            "Ciliophora",
+            "Dinoflagellata",
+            "Apicomplexa",
+            "Amoebozoa",
+            "Euglenozoa",
+            "Haptophyta",
+            "Rhodophyta",
+            "Cryptophyta",
+            "Choanoflagellatea",
+            "Perkinsozoa",
+            "Labyrinthulomycetes"
+          ],
+          "overlappingColUsageIds": [],
+          "overlappingItisTsns": []
+        },
+        "decision": "No exact Opalozoa root exists in either pinned authority. The nearby accepted/valid ITIS names are not taxonomic substitutes; no COL or ITIS range is asserted."
+      },
+      "matching": {
+        "normalization": [
+          "Remove the exact trailing COL authorship field from COL scientificName when that suffix is present; no authorship parser is used.",
+          "Normalize Unicode to NFC, replace underscores with spaces, collapse Unicode whitespace and trim.",
+          "For species-rank comparison, remove one parenthesized subgenus token in the exact Genus (Subgenus) species representation; genus and specific epithet must remain unchanged.",
+          "Preserve case, diacritics, punctuation and all remaining name tokens."
+        ],
+        "statuses": {
+          "accepted": "Unavailable: no exact Opalozoa root exists in the pinned authorities.",
+          "synonym-current-name-redirect": "Unavailable: no exact Opalozoa root exists in the pinned authorities.",
+          "ambiguous": "Unavailable: no exact Opalozoa root exists in the pinned authorities.",
+          "unmatched": "Unavailable: no exact Opalozoa partition exists."
+        },
+        "prohibited": "No fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered, package-wide or taxon-substituted matching is used."
+      },
+      "evidenceBoundary": {
+        "en": "This CC0 ITIS boundary audit is a frozen exact-root check for the declared COL26.8 Protists and Chromists package. It is not a global Opalozoa checklist, a final classification authority, a species-concept equivalence assertion, a biological dossier or a scientific-review record.",
+        "zh": "此 CC0 ITIS 边界审计仅冻结声明的 COL26.8 原生生物与色界生物包的精确根检查；它不是全球 Opalozoa 名录、最终分类权威、物种概念等同性声明、生物档案或科学审查记录。"
+      },
+      "counts": {
+        "eligible": 0,
+        "records": 0,
+        "accepted": 0,
+        "redirects": 0,
+        "ambiguous": 0,
+        "unmatched": 0,
+        "withheld": 0,
+        "upstreamOnly": 0,
+        "nonApplicable": 61518
+      },
+      "files": [],
+      "totalCompressedBytes": 0,
+      "totalSourceBytes": 0,
+      "deliveryProfiles": {
+        "web-light": {
+          "payload": "summary-only",
+          "files": [],
+          "records": 0,
+          "totalCompressedBytes": 0,
+          "totalSourceBytes": 0,
+          "statement": "GitHub Pages publishes the complete Opalozoa authority boundary authority boundary and canonical hashes without row shards."
+        },
+        "native-full": {
+          "payload": "complete",
+          "files": [],
+          "records": 0,
+          "totalCompressedBytes": 0,
+          "totalSourceBytes": 0
+        }
+      },
+      "limitations": [
+        "This CC0 ITIS boundary audit is a frozen exact-root check for the declared COL26.8 Protists and Chromists package. It is not a global Opalozoa checklist, a final classification authority, a species-concept equivalence assertion, a biological dossier or a scientific-review record.",
+        "No fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered, package-wide or taxon-substituted matching is used."
+      ],
+      "integration": {
+        "clientParityRequirement": "Android and iOS must copy every non-empty native-full file byte-for-byte; Web uses the web-light summary profile.",
+        "lookup": {
+          "strategy": "lexicographic-colId-range-v1",
+          "ordering": "Unicode code-unit ascending",
+          "requestPolicy": "Select the sole inclusive COL-ID range and read at most one COL partition; upstream-only files are never selected by COL ID."
+        }
+      }
     }
   ]
 }
