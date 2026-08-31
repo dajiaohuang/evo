@@ -65,7 +65,7 @@ export const researchSceneDefinitions = {
   ] },
   'crustaceans-insects': { label: { en: 'Crustaceans and insects', zh: '甲壳类与昆虫' }, scenes: [
     { id: 'crustaceans-insects-strudiella-map-window', kind: 'map', route: '#/explore?taxon=strudiella&view=map&age=365&older=365&younger=365', entityIds: ['strudiella'], claimIds: ['claim:taxon:strudiella:fossil-range', 'claim:event:strudiella-reassessment'] },
-    { id: 'crustaceans-insects-contested-comparison-window', kind: 'comparison', route: '#/compare?left=strudiella&right=cretophasmomima', entityIds: ['strudiella', 'cretophasmomima'], claimIds: ['claim:taxon:strudiella:fossil-range', 'claim:taxon:cretophasmomima:fossil-range'] },
+    { id: 'crustaceans-insects-contested-comparison-window', kind: 'comparison', route: '#/compare?left=strudiella&right=cretophasmomima', entityIds: ['strudiella', 'cretophasmomima'], entityLabel: { en: 'Strudiella and Cretophasmomima melanogramma', zh: 'Strudiella 与 Cretophasmomima melanogramma' }, claimIds: ['claim:taxon:strudiella:fossil-range', 'claim:taxon:cretophasmomima:fossil-range'] },
   ] },
   echinoderms: { label: { en: 'Echinoderms', zh: '棘皮动物' }, scenes: [
     { id: 'echinoderms-map-window', kind: 'map', route: '#/explore?taxon=echinodermata&view=map&age=255&older=510&younger=0', entityIds: ['echinodermata'], claimIds: ['claim:taxon:echinodermata:fossil-range'] },
