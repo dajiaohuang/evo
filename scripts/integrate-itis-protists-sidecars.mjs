@@ -33,6 +33,7 @@ const taxa = [
   { slug: 'chlorophyta', label: 'Chlorophyta' },
   { slug: 'glaucophyta', label: 'Glaucophyta' },
   { slug: 'picozoa', label: 'Picozoa authority boundary' },
+  { slug: 'telonemia', label: 'Telonemia authority boundary' },
 ]
 
 const sha256 = (bytes) => createHash('sha256').update(bytes).digest('hex')
