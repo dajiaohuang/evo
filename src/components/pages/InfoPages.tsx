@@ -270,7 +270,9 @@ export function DataPage({ onNavigate }: PageProps) {
                       ? <span>{language === 'zh' ? '已随应用内置' : 'Bundled with app'}</span>
                       : <>
                         <button type="button" disabled={cataloguePackStatus[entry.id] === 'saving'} onClick={() => void storeCataloguePackOffline(entry.id)}>{cataloguePackStatus[entry.id] === 'saving' ? (language === 'zh' ? '保存中…' : 'Saving…') : cataloguePackStatus[entry.id] === 'saved' ? (language === 'zh' ? '已离线保存' : 'Saved offline') : cataloguePackStatus[entry.id] === 'failed' ? (language === 'zh' ? '重试保存' : 'Retry save') : (language === 'zh' ? '离线保存' : 'Save offline')}</button>
-                        <a href={runtimeDataUrl(catalogue.resourcePacks.downloadTemplate.replace('{packageId}', entry.id))} download>{language === 'zh' ? '下载 ZIP' : 'Download ZIP'}</a>
+                        {catalogue.resourcePacks.downloadTemplate
+                          ? <a href={runtimeDataUrl(catalogue.resourcePacks.downloadTemplate.replace('{packageId}', entry.id))} download>{language === 'zh' ? '下载 ZIP' : 'Download ZIP'}</a>
+                          : <span>{language === 'zh' ? 'Pages 轻量版不复制 ZIP；完整数据已内置于 Android/iOS' : 'Pages light omits duplicate ZIPs; full data is bundled with Android/iOS'}</span>}
                       </>}
                   </> : <span>—</span>}
                 </span>

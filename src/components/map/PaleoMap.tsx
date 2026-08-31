@@ -426,6 +426,7 @@ export function PaleoMap() {
         </label>
         {paleotopographyFrame && paleotopographyCollection && <small>{t('Nearest nominal frame {selected} Ma for requested {requested} Ma; no temporal interpolation. A worker loads only this independent {resolution}° integer-metre grid and colours visible Web Mercator canvas tiles.', { selected: paleotopographyFrame.archiveNominalAgeMa, requested: currentAge, resolution: paleotopographyCollection.delivery.resolutionDegrees })}</small>}
         {paleotopographyCollection?.delivery.profile === 'web-preview' && <small>{t('Web and browser-offline use a checksummed 0.5° exact-decimation preview. Android and iOS bundle every independent lossless 0.1° source grid.')}</small>}
+        {paleotopographyFrame && <small>{t('Web Mercator display ends at ±85.051° latitude; the source and native grids retain both polar rows.')}</small>}
         {paleotopographyFrame && <small>{t('Internal NetCDF description: {description}', { description: paleotopographyFrame.internalDescription })}</small>}
         {showPaleotopography && paleotopographyStatus === 'loading' && <small role="status">{t('Loading one checksum-verified PALEOMAP grid…')}</small>}
         {showPaleotopography && paleotopographyStatus === 'error' && <small role="alert" title={paleotopographyError ?? undefined}>{t('The selected PALEOMAP grid is unavailable; other verified layers remain visible.')}</small>}

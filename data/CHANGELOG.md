@@ -1,5 +1,13 @@
 # Dataset changelog
 
+## App 0.20.14 / 2026.08-static-v5-rc63 — 2026-08-31
+
+- Replaced the one-frame PaleoDEM prototype and its stored tile pyramid with all 109 official Scotese–Wright 2018 PaleoDEM v2 frames from 0 to 540 Ma at 5 Ma nominal cadence. Every canonical frame retains the exact archive member bytes/SHA-256, filename nominal age, verbatim NetCDF description/parsed age, 3601×1801 integer-metre values, independent lossless i16 gzip and decoded hash.
+- Added a dual delivery profile. Web/Pages and browser offline cover all 109 ages with independently addressable 721×361, 0.5° previews produced by exact every-fifth-cell sampling; Android and iOS build `17` bundle all 109 original 3601×1801, 0.1° lossless grids with byte-identical native inventories. Pages-light publishes no full grids and omits duplicate package ZIPs, while local native-full builds can still create ZIP exports.
+- Added a worker/Canvas renderer that requests and verifies only the nearest nominal frame, colours visible Web Mercator tiles dynamically and never interpolates through time. Removed the pre-generated 341-tile pyramid. Disclosures preserve source/internal age disagreements, profile resolution, the ±85.051° display boundary and the fact that modelled terrain is neither ground truth nor demonstrated co-registration with CAO2024/PBDB.
+- Added complete-series extraction, compressed/decoded hash validation, exact-decimation tests, Web/native profile smoke tests, native byte-parity checks and a two-age E2E assertion proving one payload request per selected age.
+- Changed Pages retention to the current release only. Historical versions remain auditable in Git and the changelog but are no longer copied into the deploy artifact; this provides a reliable margin beneath the unchanged 650 MiB Pages gate without reducing the 0.5° all-age Web previews.
+
 ## App 0.20.13 / 2026.08-static-v5-rc62 — 2026-08-31
 
 - Added a release-pinned CC BY 4.0 Species Fungorum / Index Fungorum identifier extension for every one of the 157,044 strict accepted COL26.8 Fungi species: 155,841 records from Species Fungorum Plus `Apr 2024` and 1,203 from the fixed Microsporidia `Nov 2015` dataset. All records resolve to accepted authority IDs; redirect, ambiguous, unmatched and withheld are zero.

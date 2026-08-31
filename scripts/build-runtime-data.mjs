@@ -16,6 +16,7 @@ const paleotopographyDelivery = paleotopographyIndex >= 0 ? args[paleotopography
 if (paleotopographyDelivery !== 'web-preview' && paleotopographyDelivery !== 'native-full') {
   throw new Error('--paleotopography must be web-preview or native-full')
 }
+const includeDownloadArchives = paleotopographyDelivery === 'native-full'
 const outputRoot = resolve(rootDir, requestedOutput)
 const allowedRoots = [resolve(rootDir, 'dist/data'), resolve(rootDir, 'public/data')]
 if (!allowedRoots.some((allowed) => outputRoot === allowed || outputRoot.startsWith(`${allowed}${sep}`))) {
@@ -96,8 +97,11 @@ function write(relativePath, bytes) {
   return record
 }
 
-function writeJson(relativePath, value, pretty = false) {
-  return write(relativePath, jsonBytes(value, pretty))
+function writeJson(relativePath, value) {
+  // Runtime JSON is content-addressed machine data. Compact encoding preserves
+  // every value while keeping a reliable GitHub Pages margin for all 109 Web
+  // PaleoDEM previews; human-readable canonical sources remain pretty-printed.
+  return write(relativePath, jsonBytes(value))
 }
 
 function writeBootstrapJson(relativePath, value, pretty = false) {
@@ -619,14 +623,16 @@ for (const packageEntry of registry.packages) {
   const manifestFile = writeJson(`packages/${packageId}/manifest.json`, manifest, true)
   packageRuntimeManifests.push({ ...manifest, manifest: manifestFile })
 
-  const zipEntries = {
-    'manifest.json': strToU8(`${JSON.stringify(manifest, null, 2)}\n`),
+  if (includeDownloadArchives) {
+    const zipEntries = {
+      'manifest.json': strToU8(`${JSON.stringify(manifest, null, 2)}\n`),
+    }
+    for (const file of [...Object.values(payloadFiles), ...packageAssetFiles, ...packageNomenclatureFiles, ...occurrenceShards]) {
+      zipEntries[file.url] = new Uint8Array(readFileSync(join(outputRoot, file.url)))
+    }
+    const archive = deterministicZip(zipEntries, { level: 0 })
+    write(`downloads/${packageId}-${sourceManifest.datasetVersion}.zip`, archive)
   }
-  for (const file of [...Object.values(payloadFiles), ...packageAssetFiles, ...packageNomenclatureFiles, ...occurrenceShards]) {
-    zipEntries[file.url] = new Uint8Array(readFileSync(join(outputRoot, file.url)))
-  }
-  const archive = deterministicZip(zipEntries, { level: 0 })
-  write(`downloads/${packageId}-${sourceManifest.datasetVersion}.zip`, archive)
 }
 
 const occurrenceManifestFile = writeJson('occurrences/manifest.json', occurrenceManifest, true)
@@ -1034,7 +1040,7 @@ for (const sourcePackDescriptor of catalogueResourcePacksSourceManifest.packs) {
     version: sourceManifest.datasetVersion,
     files: runtimeFiles,
     ...(runtimeExtensions.length ? { extensions: runtimeExtensions } : {}),
-    download: `${releasePrefix}/downloads/${sourcePack.packageId}-${sourceManifest.datasetVersion}.zip`,
+    ...(includeDownloadArchives ? { download: `${releasePrefix}/downloads/${sourcePack.packageId}-${sourceManifest.datasetVersion}.zip` } : {}),
   }
   const runtimeManifestFile = writeJson(`catalogue/resource-packs/${sourcePack.packageId}/manifest.json`, runtimePackManifest, true)
   catalogueResourcePackManifests[sourcePack.packageId] = {
@@ -1045,14 +1051,16 @@ for (const sourcePackDescriptor of catalogueResourcePacksSourceManifest.packs) {
   }
   catalogueResourcePackAcceptedSpecies += sourcePack.acceptedSpeciesCount
 
-  const zipEntries = { 'manifest.json': strToU8(`${JSON.stringify(runtimePackManifest, null, 2)}\n`) }
-  for (const file of runtimeFiles) {
-    zipEntries[basename(file.url)] = new Uint8Array(readFileSync(join(outputRoot, file.url)))
+  if (includeDownloadArchives) {
+    const zipEntries = { 'manifest.json': strToU8(`${JSON.stringify(runtimePackManifest, null, 2)}\n`) }
+    for (const file of runtimeFiles) {
+      zipEntries[basename(file.url)] = new Uint8Array(readFileSync(join(outputRoot, file.url)))
+    }
+    for (const file of runtimeExtensions.flatMap((extension) => extension.files)) {
+      zipEntries[basename(file.url)] = new Uint8Array(readFileSync(join(outputRoot, file.url)))
+    }
+    write(`downloads/${sourcePack.packageId}-${sourceManifest.datasetVersion}.zip`, deterministicZip(zipEntries, { level: 0 }))
   }
-  for (const file of runtimeExtensions.flatMap((extension) => extension.files)) {
-    zipEntries[basename(file.url)] = new Uint8Array(readFileSync(join(outputRoot, file.url)))
-  }
-  write(`downloads/${sourcePack.packageId}-${sourceManifest.datasetVersion}.zip`, deterministicZip(zipEntries, { level: 0 }))
 }
 if (catalogueResourcePackAcceptedSpecies !== catalogueResourcePacksSourceManifest.acceptedSpeciesCount
   || catalogueResourcePackAcceptedSpecies !== catalogueSpeciesOwnership.entries
@@ -1072,7 +1080,7 @@ const catalogueRuntimeManifest = {
     acceptedSpeciesCount: catalogueResourcePackAcceptedSpecies,
     manifests: catalogueResourcePackManifests,
     sharedSources: { ...catalogueSourceManifest.sourceChecklists, url: catalogueSourcesFile.url },
-    downloadTemplate: `${releasePrefix}/downloads/{packageId}-${sourceManifest.datasetVersion}.zip`,
+    ...(includeDownloadArchives ? { downloadTemplate: `${releasePrefix}/downloads/{packageId}-${sourceManifest.datasetVersion}.zip` } : {}),
   },
   search: {
     ...catalogueSourceManifest.search,
@@ -1153,7 +1161,9 @@ const current = {
     nomenclaturalResourcePackSpecies: catalogueRuntimeManifest.resourcePacks.acceptedSpeciesCount,
     relationshipToAtlas: catalogueRuntimeManifest.relationshipToAtlas,
   },
-  downloads: { template: `${releasePrefix}/downloads/{packageId}-${sourceManifest.datasetVersion}.zip` },
+  downloads: includeDownloadArchives
+    ? { available: true, template: `${releasePrefix}/downloads/{packageId}-${sourceManifest.datasetVersion}.zip` }
+    : { available: false },
   budgets: {
     coreCompressedBytes,
     coreLimitBytes: 5 * 1024 * 1024,
@@ -1198,21 +1208,8 @@ const currentRelease = {
   bytes: currentReleaseBytes,
 }
 const retainedReleases = [currentRelease]
-let retainedBytes = currentReleaseBytes
-for (const entry of (previousReleaseHistory.releases ?? []).filter((candidate) => candidate.datasetVersion !== sourceManifest.datasetVersion)) {
-  if (retainedReleases.length >= 3) break
-  let releaseBytes = entry.bytes
-  if (!Number.isFinite(releaseBytes)) {
-    try {
-      const index = JSON.parse(readFileSync(join(outputRoot, entry.filesIndex), 'utf8'))
-      releaseBytes = (index.files ?? []).reduce((sum, file) => sum + (file.bytes ?? 0), 0) + statSync(join(outputRoot, entry.filesIndex)).size
-    } catch { continue }
-  }
-  if (retainedBytes + releaseBytes > retentionByteLimit) continue
-  retainedReleases.push({ ...entry, bytes: releaseBytes })
-  retainedBytes += releaseBytes
-}
-writeBootstrapJson('releases.json', { schemaVersion: 1, retentionLimit: 3, retentionByteLimit, retainedBytes, releases: retainedReleases }, true)
+const retainedBytes = currentReleaseBytes
+writeBootstrapJson('releases.json', { schemaVersion: 1, retentionLimit: 1, retentionByteLimit, retainedBytes, releases: retainedReleases }, true)
 const retainedVersions = new Set(retainedReleases.map((entry) => entry.datasetVersion))
 const releasesDirectory = join(outputRoot, 'releases')
 for (const name of readdirSync(releasesDirectory)) {

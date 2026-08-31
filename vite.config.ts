@@ -9,6 +9,9 @@ export default defineConfig(({ mode }) => {
   const nativeBuild = mode === 'mobile'
 
   return {
+    define: {
+      'import.meta.env.VITE_DATASET_VERSION': JSON.stringify(datasetVersion),
+    },
     publicDir: nativeBuild ? false : 'public',
     plugins: [
       react(),

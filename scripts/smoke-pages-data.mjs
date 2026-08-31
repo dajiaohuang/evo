@@ -1,8 +1,7 @@
 import { createHash } from 'node:crypto'
 import { existsSync, readFileSync } from 'node:fs'
-import { basename, join } from 'node:path'
+import { join } from 'node:path'
 import { gunzipSync } from 'node:zlib'
-import { unzipSync } from 'fflate'
 import { rootDir } from './data-lib.mjs'
 
 const dataRoot = join(rootDir, 'dist/data')
@@ -28,10 +27,12 @@ if (!existsSync(join(dataRoot, 'current.json'))) {
 const current = readJson('current.json')
 const currentReleaseFiles = readJson(`${current.releaseBase}release-files.json`)
 const currentReleaseUrls = new Set(currentReleaseFiles.files.map((file) => file.url))
+if (current.downloads?.available !== false || current.downloads?.template) failures.push('Pages-light current manifest must disable package ZIP downloads')
+if (currentReleaseFiles.files.some((file) => file.url.includes('/downloads/'))) failures.push('Pages-light release inventory unexpectedly contains duplicate package ZIPs')
 if (!existsSync(join(dataRoot, 'releases.json'))) failures.push('release retention index is missing')
 else {
   const history = readJson('releases.json')
-  if (history.retentionLimit < 2 || history.releases?.[0]?.datasetVersion !== current.datasetVersion) failures.push('release retention index does not lead with the current dataset')
+  if (history.retentionLimit !== 1 || history.releases?.length !== 1 || history.releases[0]?.datasetVersion !== current.datasetVersion) failures.push('release index must contain only the current dataset')
   if (!Number.isFinite(history.retentionByteLimit) || history.retainedBytes > history.retentionByteLimit) failures.push('release retention byte budget is missing or exceeded')
   for (const release of history.releases ?? []) {
     if (!existsSync(join(dataRoot, release.filesIndex))) failures.push(`retained release ${release.datasetVersion}: files index is missing`)
@@ -41,11 +42,6 @@ else {
       if (!sample) failures.push(`retained release ${release.datasetVersion}: files index is empty`)
       else checkFile(sample, `retained release ${release.datasetVersion} sample`)
     }
-  }
-  if (history.releases?.length > 1) {
-    const previous = history.releases[1]
-    const previousIndex = readJson(previous.filesIndex)
-    if (previousIndex.datasetVersion !== previous.datasetVersion) failures.push('previous release files index has a mismatched dataset version')
   }
 }
 const releaseUrl = (file, label) => {
@@ -164,16 +160,6 @@ for (const packageEntry of packageRegistry.packages) {
     }
   } else if (nomenclatureCollections.length) {
     failures.push(`package ${packageEntry.id}: unexpected nomenclature collection`)
-  }
-  const download = current.downloads.template.replace('{packageId}', packageEntry.id)
-  if (!existsSync(join(dataRoot, download))) failures.push(`package ${packageEntry.id}: download missing`)
-  else if (researchFile || nomenclatureCollections.length) {
-    const entries = unzipSync(new Uint8Array(readFileSync(join(dataRoot, download))))
-    if (researchFile && !entries[researchFile.url]) failures.push(`package ${packageEntry.id}: ZIP omits research examples`)
-    if (wormsCollection && !entries[wormsCollection.file.url]) failures.push('echinoderms: package ZIP omits the WoRMS nomenclature collection')
-    for (const collection of nomenclatureCollections.filter((candidate) => candidate.id === 'wfo-plant-list-crosswalk')) {
-      for (const file of collection.files) if (!entries[file.url]) failures.push(`${packageEntry.id}: package ZIP omits WFO shard ${basename(file.url)}`)
-    }
   }
 }
 if (researchExampleCount !== 24 || researchExampleAvailableCount !== 24 || researchClaimLinkCount !== 34) failures.push(`research preset totals are ${researchExampleCount} examples, ${researchExampleAvailableCount} available-with-limitations and ${researchClaimLinkCount} claim links; expected 24/24/34`)
@@ -722,15 +708,7 @@ if (catalogue.resourcePacks?.packageCount !== 7
     } else if (extensions.length) {
       failures.push(`${packageId}: unexpected resource-pack extension`)
     }
-    if (!existsSync(join(dataRoot, manifest.download))) failures.push(`${packageId}: nomenclatural resource-pack download missing`)
-    else if (extensions.length) {
-      const entries = unzipSync(new Uint8Array(readFileSync(join(dataRoot, manifest.download))))
-      for (const extension of extensions) {
-        for (const file of extension.files) {
-          if (!entries[basename(file.url)]) failures.push(`${packageId}: nomenclatural resource-pack ZIP omits ${basename(file.url)}`)
-        }
-      }
-    }
+    if (manifest.download) failures.push(`${packageId}: Pages-light resource-pack manifest unexpectedly publishes a ZIP`)
     resourcePackRecords += packageRecords
   }
   if (resourcePackRecords !== 363160) failures.push('Catalogue nomenclatural resource-pack records do not total 363,160')

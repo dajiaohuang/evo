@@ -45,9 +45,14 @@ async function sha256(bytes: ArrayBuffer | Uint8Array): Promise<string> {
 async function initialize(message: InitializeMessage) {
   const response = await fetch(message.url)
   if (!response.ok) throw new Error(`PaleoDEM grid request failed (${response.status})`)
-  const compressed = new Uint8Array(await response.arrayBuffer())
-  if (await sha256(compressed) !== message.sha256) throw new Error('PaleoDEM compressed grid checksum mismatch')
-  const decoded = gunzipSync(compressed)
+  const wireBytes = new Uint8Array(await response.arrayBuffer())
+  const isGzip = wireBytes[0] === 0x1f && wireBytes[1] === 0x8b
+  const expectedWireSha256 = isGzip ? message.sha256 : message.decodedSha256
+  if (await sha256(wireBytes) !== expectedWireSha256) throw new Error('PaleoDEM grid checksum mismatch')
+  // Some static hosts advertise .gz files with Content-Encoding: gzip, so
+  // fetch() exposes the decoded body. Other hosts expose the stored gzip
+  // bytes. Both transports must resolve to the same verified integer grid.
+  const decoded = isGzip ? gunzipSync(wireBytes) : wireBytes
   if (decoded.byteLength !== message.decodedBytes || await sha256(decoded) !== message.decodedSha256) {
     throw new Error('PaleoDEM decoded grid checksum mismatch')
   }

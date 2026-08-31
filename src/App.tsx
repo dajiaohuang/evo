@@ -4,7 +4,8 @@ import { ErrorBoundary } from './components/common/ErrorBoundary'
 import { AppShell } from './components/shell/AppShell'
 import { buildRouteHash, parseRouteHash, type AppRoute } from './utils/routing'
 import { useI18n } from './i18n'
-import manifest from '../data/manifest.json'
+
+const datasetVersion = import.meta.env.VITE_DATASET_VERSION
 
 const ExplorerWorkspace = lazy(() => import('./components/explorer/ExplorerWorkspace')
   .then((module) => ({ default: module.ExplorerWorkspace })))
@@ -100,7 +101,7 @@ export default function App() {
         applyMetadata(entityTitle, description, staticPath)
       })
     } else {
-      const staticPath = route === 'methods' ? 'methods/' : route === 'data' ? `datasets/${manifest.datasetVersion}/` : ''
+      const staticPath = route === 'methods' ? 'methods/' : route === 'data' ? `datasets/${datasetVersion}/` : ''
       applyMetadata(null, fallbackDescription, staticPath)
     }
     return () => { cancelled = true }

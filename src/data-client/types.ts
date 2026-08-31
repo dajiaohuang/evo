@@ -933,7 +933,7 @@ export interface CatalogueRuntimeManifest {
     acceptedSpeciesCount: number
     manifests: Record<string, RuntimeFile & { acceptedSpeciesCount: number; fileCount: number; extensionCount?: number; extensionFileCount?: number }>
     sharedSources: RuntimeFile & { count: number }
-    downloadTemplate: string
+    downloadTemplate?: string
   }
   search: {
     minimumQueryLength: number
@@ -1047,7 +1047,7 @@ export interface CurrentRuntimeManifest {
     nomenclaturalResourcePackSpecies?: number
     relationshipToAtlas: string
   }
-  downloads: { template: string }
+  downloads: { available: boolean; template?: string }
   budgets: {
     coreCompressedBytes: number
     coreLimitBytes: number
