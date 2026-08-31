@@ -456,5 +456,61 @@
       }
     ],
     "reviewStatus": "automated-audit-passed"
+  },
+  {
+    "id": "range:tujiaaspis:global",
+    "entityId": "tujiaaspis",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Tujiaaspis vividus represented Huixingshao Formation sample",
+    "geographicScope": "Huixingshao Formation, Xiushan County, Chongqing, South China",
+    "olderMa": 438.6,
+    "youngerMa": 432.9,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Telychian stage envelope for the source horizon, not a global Tujiaaspis range, fossil FAD, LAD or divergence date."
+    },
+    "evidenceBasis": "Holotype IVPP V26668 and figured paratypes IVPP V27410–V27411 are articulated Huixingshao Formation specimens. The numeric window only converts the published Telychian horizon to the atlas time scale.",
+    "evidenceLevel": "literature-synthesized",
+    "confidence": "medium",
+    "claimIds": [
+      "claim:taxon:tujiaaspis:fossil-range"
+    ],
+    "referenceLocators": [
+      {
+        "referenceId": "gai-2022-tujiaaspis",
+        "locator": "pp. 959–963, especially Extended Data Fig. 1 and Extended Data Fig. 2; holotype IVPP V26668 and paratypes IVPP V27410–V27411; geological setting and postcranial anatomy"
+      }
+    ],
+    "reviewStatus": "automated-audit-passed"
+  },
+  {
+    "id": "range:xiushanosteus:global",
+    "entityId": "xiushanosteus",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Xiushanosteus mirabilis represented Huixingshao Formation sample",
+    "geographicScope": "Huixingshao Formation, Xiushan County, Chongqing, South China",
+    "olderMa": 438.6,
+    "youngerMa": 432.9,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Telychian stage envelope for the source horizon, not a global Xiushanosteus range, fossil FAD, LAD or gnathostome origin."
+    },
+    "evidenceBasis": "Holotype IVPP V300001 and referred IVPP V300002–V300021 are articulated Huixingshao Formation specimens. The numeric window only converts the published Telychian horizon to the atlas time scale.",
+    "evidenceLevel": "literature-synthesized",
+    "confidence": "high",
+    "claimIds": [
+      "claim:taxon:xiushanosteus:fossil-range"
+    ],
+    "referenceLocators": [
+      {
+        "referenceId": "zhu-2022-chongqing-gnathostomes",
+        "locator": "pp. 954–958, especially pp. 955–957; Figures 1a, 2 and 4; Extended Data Figures 3a–e and 4–6; systematic palaeontology, horizon and anatomical description"
+      }
+    ],
+    "reviewStatus": "automated-audit-passed"
   }
 ]

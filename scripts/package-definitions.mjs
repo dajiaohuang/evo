@@ -72,8 +72,8 @@ export const researchSceneDefinitions = {
     { id: 'echinoderms-comparison-window', kind: 'comparison', route: '#/compare?left=echinodermata&right=crinoidea', entityIds: ['echinodermata', 'crinoidea'], claimIds: ['claim:taxon:echinodermata:fossil-range', 'claim:taxon:crinoidea:tremadocian-record'] },
   ] },
   'early-fishes': { label: { en: 'Early fishes', zh: '早期鱼类' }, scenes: [
-    { id: 'early-fishes-map-window', kind: 'map', route: '#/explore?taxon=agnatha&view=map&age=260&older=520&younger=0', entityIds: ['agnatha'], claimIds: ['claim:taxon:agnatha:fossil-range'] },
-    { id: 'early-fishes-comparison-window', kind: 'comparison', route: '#/compare?left=priscomyzon&right=myxinikela', entityIds: ['priscomyzon', 'myxinikela'], claimIds: ['claim:taxon:priscomyzon:fossil-range', 'claim:taxon:myxinikela:fossil-range'] },
+    { id: 'early-fishes-map-window', kind: 'map', route: '#/explore?taxon=xiushanosteus&view=map&age=436&older=438.6&younger=432.9', entityIds: ['xiushanosteus'], claimIds: ['claim:taxon:xiushanosteus:fossil-range'] },
+    { id: 'early-fishes-comparison-window', kind: 'comparison', route: '#/compare?left=tujiaaspis&right=xiushanosteus', entityIds: ['tujiaaspis', 'xiushanosteus'], claimIds: ['claim:taxon:tujiaaspis:fossil-range', 'claim:taxon:xiushanosteus:fossil-range'] },
   ] },
   chondrichthyes: { label: { en: 'Chondrichthyes', zh: '软骨鱼类' }, scenes: [
     { id: 'chondrichthyes-map-window', kind: 'map', route: '#/explore?taxon=chondrichthyes&view=map&age=219.5&older=439&younger=0', entityIds: ['chondrichthyes'], claimIds: ['claim:taxon:chondrichthyes:fossil-range'] },
@@ -281,8 +281,8 @@ export const packageDefinitions = [
     titleZh: '无颌类与早期有颌鱼类',
     rootEntityIds: ['agnatha', 'placodermi', 'acanthodii'],
     conceptScope: {
-      en: 'COL26.8 accepted-species routing covers the pinned Agnatha and Myxini roots. A dedicated fossil-evidence route now exposes Priscomyzon, Myxinikela and Tethymyxine as specimen-bounded profiles with field-to-claim links and concrete primary-study locators. Total-group lamprey, stem hagfish and crown-Myxini evidence remain distinct; none of the displayed intervals is promoted to a global origin. The bundled PBDB occurrence rows remain a bounded, non-random API-prefix sample and cannot establish FAD, LAD, absence, richness or global distribution.',
-      zh: 'COL26.8 已接受物种经固定的无颌类与盲鳗纲根路由到本包。新增化石证据导航，以受标本边界约束的档案展示 Priscomyzon、Myxinikela 与 Tethymyxine，并把字段连接到具精确定位符的一手研究。七鳃鳗总群、盲鳗干群与盲鳗冠群证据彼此分开；任何显示区间都不被提升为全球起源。包内 PBDB 出现记录仍是有界、非随机的 API 前缀样本，不能确定首现、末现、缺失、丰富度或全球分布。',
+      en: 'COL26.8 accepted-species routing covers the pinned Agnatha and Myxini roots. Five specimen- and locality-bounded profiles expose Priscomyzon, Myxinikela, Tethymyxine, Tujiaaspis and Xiushanosteus with field-to-claim links and concrete primary-study locators. Lamprey, hagfish, galeaspid and placoderm-grade evidence remain distinct; the 432.9–438.6 Ma Telychian windows are study envelopes, not global FADs, LADs or origins. The bundled PBDB occurrence rows remain a bounded, non-random API-prefix sample and cannot establish FAD, LAD, absence, richness or global distribution.',
+      zh: 'COL26.8 已接受物种经固定的无颌类与盲鳗纲根路由到本包。五份受标本和地点边界约束的档案展示 Priscomyzon、Myxinikela、Tethymyxine、Tujiaaspis 与 Xiushanosteus，并把字段连接到具精确定位符的一手研究。七鳃鳗、盲鳗、盔甲鱼类与盾皮鱼等级证据彼此分开；432.9–438.6 Ma 的特列奇期窗口只是研究样本包络，而不是全球首现、末现或起源。包内 PBDB 出现记录仍是有界、非随机的 API 前缀样本，不能确定首现、末现、缺失、丰富度或全球分布。',
     },
     wave: 'C',
     scientificMaturity: 'source-linked',
