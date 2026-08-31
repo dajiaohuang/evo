@@ -22,10 +22,11 @@ const current = JSON.parse(readFileSync(join(dist, 'data/current.json'), 'utf8')
 const releaseRoot = join(dist, 'data', ...current.releaseBase.split('/').filter(Boolean))
 const size = (paths) => paths.reduce((sum, path) => sum + statSync(path).size, 0)
 const relativePath = (path) => relative(dist, path).replaceAll('\\', '/')
+const mib = 1024 * 1024
 const totalBytes = size(files)
 if (totalBytes > 650 * 1024 * 1024) failures.push(`Pages artifact is ${(totalBytes / 1024 / 1024).toFixed(2)} MiB; hard limit is 650 MiB`)
 
-const shards = files.filter((path) => /[/\\](occurrences|maps|catalogue)[/\\].+\.(json|jsonl|ndjson)\.gz$/.test(path))
+const shards = files.filter((path) => /[/\\](occurrences|maps|catalogue|packages)[/\\].+\.(json|jsonl|ndjson)\.gz$/.test(path))
 for (const path of shards) if (statSync(path).size > 8 * 1024 * 1024) failures.push(`${relativePath(path)} exceeds the 8 MiB shard limit`)
 
 const observationShards = files.filter((path) => path.startsWith(join(releaseRoot, 'maps', 'observations')) && path.endsWith('.json.gz'))
@@ -41,13 +42,41 @@ if (coreBytes > 5 * 1024 * 1024) failures.push(`Core runtime data is ${(coreByte
 
 const packagesRoot = join(releaseRoot, 'packages')
 const packageIds = existsSync(packagesRoot) ? readdirSync(packagesRoot) : []
+let webQueryableNomenclatureBytes = 0
 for (const packageId of packageIds) {
-  const packageFiles = filesBelow(join(packagesRoot, packageId)).filter((path) => path.endsWith('.json.gz'))
+  const packageRoot = join(packagesRoot, packageId)
+  const allPackageFiles = filesBelow(packageRoot)
+  const packageFiles = allPackageFiles.filter((path) => path.endsWith('.json.gz'))
   const searchPath = join(releaseRoot, 'package-search-index', `${packageId}.json.gz`)
   if (existsSync(searchPath)) packageFiles.push(searchPath)
   const packageBytes = size(packageFiles)
   if (packageBytes > 5 * 1024 * 1024) failures.push(`${packageId} knowledge data is ${(packageBytes / 1024 / 1024).toFixed(2)} MiB; limit is 5 MiB`)
+
+  const manifestPath = join(packageRoot, 'manifest.json')
+  if (!existsSync(manifestPath)) {
+    failures.push(`${packageId} package manifest is missing`)
+    continue
+  }
+  const manifest = JSON.parse(readFileSync(manifestPath, 'utf8'))
+  const publishedNomenclatureRows = new Set((manifest.nomenclatureCollections ?? [])
+    .flatMap((collection) => [...(collection.files ?? []), ...(collection.upstreamOnlyFiles ?? [])])
+    .filter((file) => /\.(jsonl|ndjson)\.gz$/.test(file.url ?? ''))
+    .map((file) => `data/${file.url}`))
+  const rowFiles = allPackageFiles.filter((path) => /\.(jsonl|ndjson)\.gz$/.test(path))
+  const rowPaths = new Set(rowFiles.map(relativePath))
+  for (const path of rowFiles) {
+    if (!publishedNomenclatureRows.has(relativePath(path))) {
+      failures.push(`${packageId} publishes an undeclared nomenclature row shard: ${relativePath(path)}`)
+    }
+  }
+  for (const url of publishedNomenclatureRows) {
+    if (!rowPaths.has(url)) failures.push(`${packageId} declares a missing nomenclature row shard: ${url}`)
+  }
+  const rowBytes = size(rowFiles)
+  webQueryableNomenclatureBytes += rowBytes
+  if (rowBytes > 16 * mib) failures.push(`${packageId} web-queryable nomenclature rows are ${(rowBytes / mib).toFixed(2)} MiB; limit is 16 MiB`)
 }
+if (webQueryableNomenclatureBytes > 20 * mib) failures.push(`Web-queryable package nomenclature rows are ${(webQueryableNomenclatureBytes / mib).toFixed(2)} MiB; limit is 20 MiB`)
 
 const initialJs = files.filter((path) => /[/\\]assets[/\\]index-[^/\\]+\.js$/.test(path))
 for (const path of initialJs) if (statSync(path).size > 500 * 1024) failures.push(`${relativePath(path)} is ${(statSync(path).size / 1024).toFixed(1)} KiB; initial JS limit is 500 KiB`)
@@ -101,5 +130,5 @@ if (failures.length) {
   for (const failure of failures) console.error(`- ${failure}`)
   process.exitCode = 1
 } else {
-  console.log(`Pages budget passed: ${(totalBytes / 1024 / 1024).toFixed(2)} MiB total, ${(mapFrameBytes / 1024 / 1024).toFixed(2)} MiB geometry frames, ${(observationBytes / 1024 / 1024).toFixed(2)} MiB CAO observations, ${(coreBytes / 1024).toFixed(1)} KiB core, ${shards.length} data shards, ${packageIds.length} packages.`)
+  console.log(`Pages budget passed: ${(totalBytes / 1024 / 1024).toFixed(2)} MiB total, ${(mapFrameBytes / 1024 / 1024).toFixed(2)} MiB geometry frames, ${(observationBytes / 1024 / 1024).toFixed(2)} MiB CAO observations, ${(coreBytes / 1024).toFixed(1)} KiB core, ${(webQueryableNomenclatureBytes / mib).toFixed(2)} MiB web-queryable nomenclature rows, ${shards.length} data shards, ${packageIds.length} packages.`)
 }
