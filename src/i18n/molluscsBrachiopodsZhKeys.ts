@@ -24,6 +24,16 @@ const exactCopy = new Set<string>([
   'A second matrix adds every major living group',
   'Conflicting deep nodes and corrected supplementary figures are retained rather than averaged into false certainty.',
   'Articulation and valve homology are reconstructions, not a preserved whole organism or settled stem topology.',
+  'Wilkawillina Limestone', 'Arrowie Basin', 'South Australia',
+  'Not directly preserved; feeding mode is unresolved',
+  'Sessile marine carbonate setting inferred from the reconstructed attachment',
+  'Sessile interpretation; locomotion is not observed',
+  'Sessile benthic ecology is inferred from reconstruction, not directly observed',
+  'Heilinpu Formation', 'Attached interpretation inferred from the pedicle; movement is not observed',
+  'Millimetre-scale tubular fossil body',
+  'Suspension-feeding interpretation is limited to the reconstructed specimen anatomy',
+  'Paired agglutinated valves around a lophophoral chamber',
+  'Bipartite tube with a median collar', 'Long pedicle with an inferred coelomic space',
 ])
 
 const dossierMarkers = [

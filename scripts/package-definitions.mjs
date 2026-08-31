@@ -11,7 +11,7 @@ export const researchPresetDefinitions = {
   gymnosperms: { entityId: 'gymnospermae', claimIds: ['claim:taxon:gymnospermae:root-range-rc39'] },
   angiospermae: { entityId: 'angiospermae', claimIds: ['claim:taxon:angiospermae:fossil-range'] },
   'sponges-cnidarians': { entityId: 'haootia', claimIds: ['claim:taxon:haootia:range-boundary-rc50'] },
-  'molluscs-brachiopods': { entityId: 'mollusca', claimIds: ['claim:taxon:mollusca'] },
+  'molluscs-brachiopods': { entityId: 'yuganotheca', claimIds: ['claim:taxon:yuganotheca:taxonomy'] },
   'trilobites-chelicerates': { entityId: 'trilobita', claimIds: ['claim:taxon:trilobita:root-range-rc39'] },
   'crustaceans-insects': { entityId: 'arthropoda', claimIds: ['claim:taxon:arthropoda:root-range-rc39'] },
   echinoderms: { entityId: 'echinodermata', claimIds: ['claim:taxon:echinodermata:fossil-range'] },
@@ -56,8 +56,8 @@ export const researchSceneDefinitions = {
     { id: 'sponges-cnidarians-comparison-window', kind: 'comparison', route: '#/compare?left=haootia&right=xianguangia', entityIds: ['haootia', 'xianguangia'], claimIds: ['claim:taxon:haootia:range-boundary-rc50', 'claim:taxon:xianguangia:range-boundary-rc50'] },
   ] },
   'molluscs-brachiopods': { label: { en: 'Molluscs and brachiopods', zh: '软体动物与腕足动物' }, scenes: [
-    { id: 'molluscs-brachiopods-map-window', kind: 'map', route: '#/explore?taxon=mollusca&view=map&age=260&older=520&younger=0', entityIds: ['mollusca'], claimIds: ['claim:taxon:mollusca'] },
-    { id: 'molluscs-brachiopods-comparison-window', kind: 'comparison', route: '#/compare?left=kimberella&right=odontogriphus', entityIds: ['kimberella', 'odontogriphus'], claimIds: ['claim:taxon:kimberella:fossil-range', 'claim:taxon:odontogriphus:fossil-range'] },
+    { id: 'molluscs-brachiopods-map-window', kind: 'map', route: '#/explore?taxon=yuganotheca&view=map&age=518&older=521&younger=514.5', entityIds: ['micrina', 'yuganotheca'], claimIds: ['claim:taxon:micrina:source-bounded-range-rc50', 'claim:taxon:yuganotheca:source-bounded-range-rc50'] },
+    { id: 'molluscs-brachiopods-comparison-window', kind: 'comparison', route: '#/compare?left=micrina&right=yuganotheca', entityIds: ['micrina', 'yuganotheca'], claimIds: ['claim:taxon:micrina:source-bounded-range-rc50', 'claim:taxon:yuganotheca:source-bounded-range-rc50'] },
   ] },
   'trilobites-chelicerates': { label: { en: 'Trilobites and chelicerates', zh: '三叶虫与螯肢类' }, scenes: [
     { id: 'trilobites-chelicerates-map-window', kind: 'map', route: '#/explore?taxon=trilobita&view=map&age=521&older=521&younger=252', entityIds: ['trilobita'], claimIds: ['claim:taxon:trilobita:root-range-rc39'] },
