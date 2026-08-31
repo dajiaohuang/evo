@@ -1012,6 +1012,9 @@ describe('static runtime release coherence', () => {
       { scope: 'primates', packageId: 'primates', collectionId: 'itis-primates-tsn-crosswalk', total: 530, accepted: 530, redirects: 0, ambiguous: 0, unmatched: 0, upstreamOnly: 0, canonicalFileCount: 1 },
       { scope: 'carnivora', packageId: 'carnivora', collectionId: 'itis-carnivora-tsn-crosswalk', total: 310, accepted: 310, redirects: 0, ambiguous: 0, unmatched: 0, upstreamOnly: 0, canonicalFileCount: 1 },
       { scope: 'other-mammals', packageId: 'other-mammals', collectionId: 'itis-other-mammals-tsn-crosswalk', total: 5099, accepted: 5099, redirects: 0, ambiguous: 0, unmatched: 0, upstreamOnly: 3, canonicalFileCount: 5 },
+      { scope: 'actinopterygii', packageId: 'actinopterygii', collectionId: 'itis-actinopterygii-tsn-crosswalk', total: 35928, accepted: 24266, redirects: 356, ambiguous: 14, unmatched: 11292, upstreamOnly: 3732, canonicalFileCount: 24 },
+      { scope: 'chondrichthyes', packageId: 'chondrichthyes', collectionId: 'itis-chondrichthyes-tsn-crosswalk', total: 1359, accepted: 769, redirects: 18, ambiguous: 1, unmatched: 571, upstreamOnly: 183, canonicalFileCount: 2 },
+      { scope: 'agnatha-myxini', packageId: 'early-fishes', collectionId: 'itis-agnatha-myxini-tsn-crosswalk', total: 141, accepted: 92, redirects: 3, ambiguous: 0, unmatched: 46, upstreamOnly: 17, canonicalFileCount: 2 },
     ]
 
     for (const contract of contracts) {

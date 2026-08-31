@@ -248,6 +248,15 @@ for (const packageEntry of packageRegistry.packages) {
       mammalItisRecords += collection.counts?.total ?? 0
       mammalItisUpstreamOnly += collection.counts?.itisUpstreamOnly ?? 0
     }
+  } else if (['actinopterygii', 'chondrichthyes', 'early-fishes'].includes(packageEntry.id)) {
+  } else if (['actinopterygii', 'chondrichthyes', 'early-fishes'].includes(packageEntry.id)) {
+    const expectedFishCollections = {
+      actinopterygii: { id: 'itis-actinopterygii-tsn-crosswalk', total: 35928, accepted: 24266, redirects: 356, ambiguous: 14, unmatched: 11292, upstreamOnly: 3732, files: 24 },
+      chondrichthyes: { id: 'itis-chondrichthyes-tsn-crosswalk', total: 1359, accepted: 769, redirects: 18, ambiguous: 1, unmatched: 571, upstreamOnly: 183, files: 2 },
+      'early-fishes': { id: 'itis-agnatha-myxini-tsn-crosswalk', total: 141, accepted: 92, redirects: 3, ambiguous: 0, unmatched: 46, upstreamOnly: 17, files: 2 },
+    }
+    if (nomenclatureCollections.length !== 1) failures.push(`${packageEntry.id}: expected one ITIS nomenclature collection`)
+    checkItisSummaryOnlyCollection(packageEntry.id, nomenclatureCollections, expectedFishCollections[packageEntry.id])
   } else if (packageEntry.id === 'crocodylomorphs-birds') {
     const avilist = nomenclatureCollections.find((collection) => collection.id === 'avilist-v2025b-avibase-concepts')
     const itis = nomenclatureCollections.find((collection) => collection.id === 'itis-crocodylia-tsn-crosswalk')
