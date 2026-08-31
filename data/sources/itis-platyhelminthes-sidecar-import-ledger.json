@@ -1,0 +1,241 @@
+{
+  "schemaVersion": 1,
+  "importType": "COL26.8-to-ITIS-exact-platyhelminthes-nomenclatural-sidecar",
+  "generatedFrom": {
+    "sourcePath": "data/sources/itis-2026-08-26.json",
+    "sourceSha256": "38a7a55b4e98cafc66790e47f6bd637e298e23fd691e4771c755b38e4a02d7fc",
+    "itisDatabaseMember": "itisSqlite082626/ITIS.sqlite",
+    "itisDatabaseSha256": "ea7304536cfd7b1e2636d383911ca7931fc83d9ab1194ca2a3c020ea2daf1719",
+    "colRegistryManifestPath": "data/catalogue-of-life/releases/2026-08-20/registry/manifest.json",
+    "colRegistryManifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151",
+    "colOwnershipPath": "data/registry/package-species-coverage.json",
+    "colOwnershipSha256": "a297bc8a67ce60806fdee733464a79bfcc42e255f7e59535b01f94013c19dfea",
+    "resourcePackManifestPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals/manifest.json",
+    "resourcePackManifestSha256": "662d549b01b73fd10ad830f3b9bdf9681ec1e9f9f46dafc4f65457404cba506d"
+  },
+  "scopeAudit": {
+    "colRootUsageId": "7NF2H",
+    "colRootScientificName": "Platyhelminthes Minot, 1876",
+    "colStrictAcceptedSpecies": 27007,
+    "packageStrictAcceptedSpecies": 99161,
+    "packageOutOfScopeStrictAcceptedSpecies": 72154,
+    "packageOwnership": "other-animals is the deterministic COL26.8 residual route below Animalia (N); Platyhelminthes 7NF2H has no more-specific static-package route.",
+    "nonApplicableBoundary": "All other-animals strict accepted species not descending from 7NF2H are non-applicable to this Platyhelminthes sidecar. They remain in the mixed resource pack and are not silently mapped to ITIS Platyhelminthes.",
+    "sourceComposition": {
+      "1126": 5852,
+      "1127": 3015,
+      "1128": 12007,
+      "1193": 6073,
+      "2144": 60
+    },
+    "itisRoot": {
+      "tsn": "53963",
+      "scientificName": "Platyhelminthes",
+      "rank": "Phylum",
+      "usage": "valid"
+    },
+    "itisCurrentSpecies": 8732,
+    "itisSpeciesSynonymLinks": 3566,
+    "maximumUpdateDates": {
+      "taxonomicUnits": "2026-08-26",
+      "synonymLinks": "2026-08-26"
+    }
+  },
+  "matchingContract": {
+    "normalization": [
+      "Remove the exact trailing COL authorship field from COL scientificName when that suffix is present; no authorship parser is used.",
+      "Normalize Unicode to NFC, replace underscores with spaces, collapse Unicode whitespace and trim.",
+      "For species-rank comparison, remove one parenthesized subgenus token in the exact Genus (Subgenus) species representation; genus and specific epithet must remain unchanged.",
+      "Preserve case, diacritics, punctuation and all remaining name tokens."
+    ],
+    "statuses": {
+      "accepted": "The normalized COL name resolves to exactly one valid ITIS Platyhelminthes species and directly equals that current ITIS name.",
+      "synonym-current-name-redirect": "The normalized COL name equals official ITIS invalid species-name evidence that resolves to exactly one valid ITIS Platyhelminthes species.",
+      "ambiguous": "The normalized exact evidence resolves to more than one valid ITIS Platyhelminthes species TSN.",
+      "unmatched": "No normalized exact valid-name or official ITIS species-synonym evidence resolves to a valid ITIS Platyhelminthes species."
+    },
+    "prohibited": "No fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered or taxon-substituted matching is used."
+  },
+  "totals": {
+    "total": 27007,
+    "accepted": 7393,
+    "synonymCurrentNameRedirect": 239,
+    "ambiguous": 23,
+    "unmatched": 19352,
+    "itisCurrentSpecies": 8732,
+    "itisSpeciesSynonymLinks": 3566,
+    "itisUpstreamOnly": 1245
+  },
+  "output": {
+    "descriptor": {
+      "path": "data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals/itis-platyhelminthes-sidecar.json",
+      "bytes": 12068,
+      "sha256": "c306a0a5abb4d4c2b6221ee39cf26cf4d9b8c7b58ec9ef8cd926c0cc9e6550a4"
+    },
+    "colUsageIdShards": [
+      {
+        "path": "data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals/itis-platyhelminthes-sidecar-000.jsonl.gz",
+        "records": 2040,
+        "firstColUsageId": "322VJ",
+        "lastColUsageId": "3F2Y2",
+        "bytes": 57994,
+        "sha256": "889079ac47636f0cee30f25eddea35eb76c26aaed5570a3fdcfaa033bc76e2ec",
+        "sourceBytes": 524010,
+        "sourceSha256": "41b0a39efb3c0d0c6b52f3a03dd0bf693880a3862448f8bb67b5eb9464172609"
+      },
+      {
+        "path": "data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals/itis-platyhelminthes-sidecar-001.jsonl.gz",
+        "records": 2015,
+        "firstColUsageId": "3F3KQ",
+        "lastColUsageId": "3X5D8",
+        "bytes": 62179,
+        "sha256": "e9ba9590c433c2be293816f9f70b5620ba087ff24639fff3c2813085b6869039",
+        "sourceBytes": 524165,
+        "sourceSha256": "7015c5402a1a7ae8f69808ba3b5502efd15f7b348df869fe5bfed5488e043733"
+      },
+      {
+        "path": "data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals/itis-platyhelminthes-sidecar-002.jsonl.gz",
+        "records": 1816,
+        "firstColUsageId": "3X88L",
+        "lastColUsageId": "4D8VB",
+        "bytes": 60589,
+        "sha256": "76b68dbd3e670c3f2f742f41e33ca4944780c41472ba5b69dbe1007113e632cc",
+        "sourceBytes": 524062,
+        "sourceSha256": "883cbc89b9ba089203eb49c9170078e4a9a87fb7b40da7bb247854e5b550dced"
+      },
+      {
+        "path": "data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals/itis-platyhelminthes-sidecar-003.jsonl.gz",
+        "records": 1729,
+        "firstColUsageId": "4D8VC",
+        "lastColUsageId": "4NX7S",
+        "bytes": 56032,
+        "sha256": "ebcf3c3b5254301b2024ca6accae33de4056b29aed1aee65f15e065ac9965a87",
+        "sourceBytes": 524021,
+        "sourceSha256": "30e45584fbd1efa342398e4cffd197290819e89f621ca9113a713a5f10a22d05"
+      },
+      {
+        "path": "data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals/itis-platyhelminthes-sidecar-004.jsonl.gz",
+        "records": 1783,
+        "firstColUsageId": "4NX7T",
+        "lastColUsageId": "585DR",
+        "bytes": 58671,
+        "sha256": "68a8e41534a67ef5f41a65801a4318b1fc91e46980c57f807113c7d0b7c1f017",
+        "sourceBytes": 524164,
+        "sourceSha256": "e9d05e5ce9d3adde8a1e65f1534b1aa395b697cc3a606a670b74a5d5b7faeca6"
+      },
+      {
+        "path": "data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals/itis-platyhelminthes-sidecar-005.jsonl.gz",
+        "records": 1821,
+        "firstColUsageId": "585DS",
+        "lastColUsageId": "6G2T5",
+        "bytes": 64194,
+        "sha256": "c5b14aa67e8b6c0b9dc293b1580705405704acd85e06c28f9c7da8d20b9a2c97",
+        "sourceBytes": 524282,
+        "sourceSha256": "61e69ae93f4a1008a26651e5b0ceaea384148792d0a42153ea7c239c3a0ed38f"
+      },
+      {
+        "path": "data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals/itis-platyhelminthes-sidecar-006.jsonl.gz",
+        "records": 1890,
+        "firstColUsageId": "6G9DT",
+        "lastColUsageId": "6ZHT4",
+        "bytes": 66109,
+        "sha256": "6c249ef6cbcbd964e42a6c4fc6997b9197b115720f1e41c8adadc1dd77bc9f1c",
+        "sourceBytes": 524013,
+        "sourceSha256": "249a3ed2f83ab2af137e53ad8fe22774780e85e728920bbcc6ed401c2a017f09"
+      },
+      {
+        "path": "data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals/itis-platyhelminthes-sidecar-007.jsonl.gz",
+        "records": 1772,
+        "firstColUsageId": "6ZHT5",
+        "lastColUsageId": "7Z6F7",
+        "bytes": 66828,
+        "sha256": "e393b78c88bea83776d05451cc6a332971e321f4b5531c0d4f098d7366f231f1",
+        "sourceBytes": 524148,
+        "sourceSha256": "95868dba8d2e16213f2a41dfb00fb27170af64d93bf2e68f2cad5de64d9c0a17"
+      },
+      {
+        "path": "data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals/itis-platyhelminthes-sidecar-008.jsonl.gz",
+        "records": 2383,
+        "firstColUsageId": "7Z6PW",
+        "lastColUsageId": "8MWXB",
+        "bytes": 75268,
+        "sha256": "a5c794f95979c48d42b0f99da62243d56a6512456d132e29108b0b6293a84f51",
+        "sourceBytes": 524259,
+        "sourceSha256": "1cffa4d6d43523ab73e97ef63efcc07828ecafc3ea330fcd90792db629ad2045"
+      },
+      {
+        "path": "data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals/itis-platyhelminthes-sidecar-009.jsonl.gz",
+        "records": 1998,
+        "firstColUsageId": "8MWYC",
+        "lastColUsageId": "9ZH3S",
+        "bytes": 67062,
+        "sha256": "b326e88122aab9464340364fefee744a2577636d21c78205f1c54cca3b9e537e",
+        "sourceBytes": 524241,
+        "sourceSha256": "505d10959ab6caed6859440a8cc655096b57253241c145fdd1e30e3de99791ec"
+      },
+      {
+        "path": "data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals/itis-platyhelminthes-sidecar-010.jsonl.gz",
+        "records": 2449,
+        "firstColUsageId": "9ZJ5",
+        "lastColUsageId": "CFXDF",
+        "bytes": 76677,
+        "sha256": "761f638d9234b4b6ae2e52b66cd947773d02c59797bbfafa48108c247a5bf2d9",
+        "sourceBytes": 524217,
+        "sourceSha256": "63dad9610b10bab8aecb2235917456ecae9650e658915040c9775f0303d4649d"
+      },
+      {
+        "path": "data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals/itis-platyhelminthes-sidecar-011.jsonl.gz",
+        "records": 2436,
+        "firstColUsageId": "CFXMN",
+        "lastColUsageId": "F4GN",
+        "bytes": 73798,
+        "sha256": "abc2ab4fd4bb6bad9eccda34365ce19c9353cd031456311d1939595a6b985913",
+        "sourceBytes": 524164,
+        "sourceSha256": "b7525f5a751d0e5fa9512eae0f6ddfe8120dc8c6338f07de33f09db48db3e96d"
+      },
+      {
+        "path": "data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals/itis-platyhelminthes-sidecar-012.jsonl.gz",
+        "records": 1934,
+        "firstColUsageId": "F5QW",
+        "lastColUsageId": "V4SHJ",
+        "bytes": 66481,
+        "sha256": "9cc9d33d4eb4c6d24348c379c3be8dae618503c89fac55c8363664ad3ef80fef",
+        "sourceBytes": 524177,
+        "sourceSha256": "3a84ce2d1ea7ffb6ca86079b2198ed8f34c3a37c6d315d08a7a241bdab7f25a4"
+      },
+      {
+        "path": "data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals/itis-platyhelminthes-sidecar-013.jsonl.gz",
+        "records": 941,
+        "firstColUsageId": "V4SHK",
+        "lastColUsageId": "ZYHD",
+        "bytes": 32164,
+        "sha256": "70e7ede3f08e7bd46c3022c9d4ca4c9035bd4e1fcac31f5b2b95a2924e9c2775",
+        "sourceBytes": 237000,
+        "sourceSha256": "9c5279ad3c95bfb2f9b47243344703c300401390d953a82fbc9606c0e880f146"
+      }
+    ],
+    "upstreamOnly": {
+      "path": "data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals/itis-platyhelminthes-upstream-only-000.jsonl.gz",
+      "records": 1245,
+      "firstColUsageId": null,
+      "lastColUsageId": null,
+      "bytes": 19117,
+      "sha256": "7d7102614e8bad50d0af61e7e000a08b7570b34a9026956fc60eb500fa0c30af",
+      "sourceBytes": 488796,
+      "sourceSha256": "3c3d4ac67fb83471be9fdd04d39037d0bf782e6c5b37636f58c6494bbda60b5b",
+      "colOwnership": null,
+      "firstTsn": "54016",
+      "lastTsn": "1061763"
+    }
+  },
+  "deliveryContract": {
+    "pagesLight": "Pages needs only this small descriptor and may omit all row-level JSONL gzip shards.",
+    "androidIosFull": "Android and iOS complete-data inventories must include this descriptor and every listed row-level shard as the same checksum-addressed bytes.",
+    "runtimeChange": "This import deliberately changes no formal runtime or published release manifest."
+  },
+  "generatedBy": {
+    "scriptPath": "scripts/build-itis-platyhelminthes-sidecar.mjs",
+    "scriptSha256": "9b47830f03c4ebbc280400f2d48a5121b551d26c41bb2c03a36bd87a524c3c3c",
+    "deterministic": "Pinned input checksums, fixed roots, exact SQL, exact representation-only normalization, code-unit ID ordering and deterministic gzip; no wall-clock fields or fuzzy matching."
+  }
+}
