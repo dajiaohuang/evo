@@ -118,21 +118,23 @@
     "taxonomicConcept": "Stem-chondrichthyan evidence route navigation envelope",
     "geographicScope": "Represented specimen localities only",
     "olderMa": 439,
-    "youngerMa": 385,
+    "youngerMa": 326,
     "status": "available",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
       "note": "Navigation envelope across heterogeneous samples; not a lineage duration, global FAD or ancestor sequence."
     },
-    "evidenceBasis": "The browse interval spans the represented specimen dossiers while preserving each occurrence, topology and interpretation as a separate evidence record.",
+    "evidenceBasis": "The browse interval spans the represented specimen dossiers from the Silurian through the Late Mississippian while preserving each occurrence, topology and interpretation as a separate evidence record.",
     "evidenceLevel": "literature-synthesized",
     "confidence": "medium",
     "claimIds": [
       "claim:event:early-silurian-qianodus-tooth-whorls",
       "claim:event:rongxi-fanjingshania-dermoskeleton",
       "claim:event:chongqing-shenacanthus-body-plan",
-      "claim:event:givetian-gladbachus-mosaic-anatomy"
+      "claim:event:givetian-gladbachus-mosaic-anatomy",
+      "claim:event:famennian-maghriboselache-broad-snout",
+      "claim:event:late-mississippian-cosmoselachus-operculum"
     ],
     "referenceLocators": [
       {
@@ -150,6 +152,14 @@
       {
         "referenceId": "coates-2018-gladbachus",
         "locator": "Article 20172418; Figs. 1–4"
+      },
+      {
+        "referenceId": "klug-2023-maghriboselache",
+        "locator": "pp. 1–28; Figures 1–15; Systematic palaeontology; phylogenetic analysis"
+      },
+      {
+        "referenceId": "bronson-2024-cosmoselachus",
+        "locator": "pp. 101–117; Figures 1–8; CT reconstruction and phylogenetic analysis"
       }
     ],
     "reviewStatus": "automated-audit-passed"
@@ -262,6 +272,70 @@
       {
         "referenceId": "coates-2018-gladbachus",
         "locator": "1–10, especially 2–10; Figures 1–4; Supplementary Figure S1; Specimen description; CT and histology results; phylogenetic results and discussion"
+      },
+      {
+        "referenceId": "klug-2023-maghriboselache",
+        "locator": "pp. 1–28; Figures 1–15; Systematic palaeontology; phylogenetic analysis"
+      },
+      {
+        "referenceId": "bronson-2024-cosmoselachus",
+        "locator": "pp. 101–117; Figures 1–8; CT reconstruction and phylogenetic analysis"
+      }
+    ],
+    "reviewStatus": "automated-audit-passed"
+  },
+  {
+    "id": "range:maghriboselache:global",
+    "entityId": "maghriboselache",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Maghriboselache mohamezanei represented Famennian Anti-Atlas sample",
+    "geographicScope": "Thylacocephalan Layer, southern Maïder and Tafilalt, eastern Anti-Atlas, Morocco",
+    "olderMa": 369.5,
+    "youngerMa": 369,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Late early to early middle Famennian study envelope; multiple specimens do not establish a global species duration or crown-group boundary."
+    },
+    "evidenceBasis": "The named Moroccan sample includes several partly articulated skeletons and three-dimensional neurocrania from the Thylacocephalan Layer; the numeric window converts the published Famennian assignment only.",
+    "evidenceLevel": "literature-synthesized",
+    "confidence": "medium",
+    "claimIds": [
+      "claim:taxon:maghriboselache:fossil-range"
+    ],
+    "referenceLocators": [
+      {
+        "referenceId": "klug-2023-maghriboselache",
+        "locator": "pp. 1–7, 19–28; Figures 1–2, 13–15; Material; time calibration; Conclusions"
+      }
+    ],
+    "reviewStatus": "automated-audit-passed"
+  },
+  {
+    "id": "range:cosmoselachus:global",
+    "entityId": "cosmoselachus",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Cosmoselachus mehlingi represented Fayetteville Shale holotype sample",
+    "geographicScope": "Fayetteville Shale near Cove Creek, Searcy County, Arkansas, United States",
+    "olderMa": 326,
+    "youngerMa": 326,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Late Mississippian point for the partial holotype; it is not a global species duration, symmoriiform FAD or complete body record."
+    },
+    "evidenceBasis": "AMNH FF 20509 is the single partial holotype from the Fayetteville Shale; the point envelope records that sample and not unsampled occurrences.",
+    "evidenceLevel": "literature-synthesized",
+    "confidence": "medium",
+    "claimIds": [
+      "claim:taxon:cosmoselachus:fossil-range"
+    ],
+    "referenceLocators": [
+      {
+        "referenceId": "bronson-2024-cosmoselachus",
+        "locator": "pp. 101–117; Figures 1–8; Material; Systematic palaeontology; CT and phylogenetic analysis"
       }
     ],
     "reviewStatus": "automated-audit-passed"

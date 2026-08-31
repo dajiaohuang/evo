@@ -12760,5 +12760,85 @@
         ]
       }
     ]
+  },
+  {
+    "id": "famennian-maghriboselache-broad-snout",
+    "title": "Maghriboselache documents a broad-snouted Devonian symmoriiform",
+    "titleZh": "Maghriboselache 记录泥盆纪宽吻对称鳍鲨形软骨鱼",
+    "category": "innovation",
+    "startAge": 369.5,
+    "endAge": 369,
+    "regions": ["Thylacocephalan Layer, southern Maïder and Tafilalt, eastern Anti-Atlas, Morocco"],
+    "clades": ["Maghriboselache mohamezanei", "symmoriiform Chondrichthyes"],
+    "summary": "Several partly articulated Famennian specimens preserve three-dimensional neurocrania, a broad cartilage-enclosed snout, widely separated nasal capsules and high-aspect-ratio fins; the sample records sensory and body-plan disparity without dating a global crown origin.",
+    "claimIds": ["claim:event:famennian-maghriboselache-broad-snout"],
+    "evidenceItems": [
+      {
+        "statement": "The holotype AA.MEM.DS.12 and referred specimens including PIMUZ A/I 5159 preserve cranial, fin and partly articulated body anatomy in the Thylacocephalan Layer.",
+        "relation": "supports",
+        "claimIds": ["claim:event:famennian-maghriboselache-broad-snout"],
+        "referenceLinks": [{"relation": "supports", "referenceId": "klug-2023-maghriboselache", "pages": "1–7", "figure": "Figures 1–6; Supplementary Table S1", "quoteLocator": "Introduction; Material; Systematic palaeontology; neurocranium description"}]
+      },
+      {
+        "statement": "The broad rostrum and laterally separated nasal capsules are described as an early sensory specialization, while the time-calibrated placement remains matrix-dependent.",
+        "relation": "supports",
+        "claimIds": ["claim:event:famennian-maghriboselache-broad-snout"],
+        "referenceLinks": [{"relation": "supports", "referenceId": "klug-2023-maghriboselache", "pages": "19–28", "figure": "Figures 13–15", "quoteLocator": "Phylogenetic analysis; Discussion; Conclusions"}]
+      }
+    ],
+    "uncertaintyItems": [
+      {
+        "statement": "Most skeletons have missing caudal regions and some cranial parts are compressed; body length, sex and ecology therefore remain sample-bounded interpretations.",
+        "relation": "contextualizes",
+        "claimIds": ["claim:event:famennian-maghriboselache-broad-snout"],
+        "referenceLinks": [{"relation": "supports", "referenceId": "klug-2023-maghriboselache", "pages": "4–7", "figure": "Figures 1–2; Supplementary Figures", "quoteLocator": "Material and methods; body form and preservation"}]
+      },
+      {
+        "statement": "The event is a Moroccan specimen record and does not establish direct ancestry, a global FAD/LAD or an uninterrupted holocephalan lineage.",
+        "relation": "contextualizes",
+        "claimIds": ["claim:event:famennian-maghriboselache-broad-snout"],
+        "referenceLinks": [{"relation": "supports", "referenceId": "klug-2023-maghriboselache", "pages": "19–28", "quoteLocator": "Time calibration; Discussion; Conclusions"}]
+      }
+    ]
+  },
+  {
+    "id": "late-mississippian-cosmoselachus-operculum",
+    "title": "Cosmoselachus reveals an operculate symmoriiform",
+    "titleZh": "Cosmoselachus 揭示具鳃盖的对称鳍鲨形软骨鱼",
+    "category": "innovation",
+    "startAge": 326,
+    "endAge": 326,
+    "regions": ["Fayetteville Shale near Cove Creek, Searcy County, Arkansas, United States"],
+    "clades": ["Cosmoselachus mehlingi", "Falcatidae", "Symmoriiformes"],
+    "summary": "CT reconstruction of the partial holotype AMNH FF 20509 documents elongate fused branchial rays forming a corrugated operculate structure over posterior gill arches, adding a bounded Carboniferous body-plan sample to the early chondrichthyan record.",
+    "claimIds": ["claim:event:late-mississippian-cosmoselachus-operculum"],
+    "evidenceItems": [
+      {
+        "statement": "AMNH FF 20509 preserves lower jaws with teeth, a partial upper jaw and basicranium, branchial elements, pectoral cartilage and fin material from the Fayetteville Shale.",
+        "relation": "supports",
+        "claimIds": ["claim:event:late-mississippian-cosmoselachus-operculum"],
+        "referenceLinks": [{"relation": "supports", "referenceId": "bronson-2024-cosmoselachus", "pages": "101–106", "figure": "Figures 1–4", "quoteLocator": "Abstract; Material; Systematic palaeontology; specimen description"}]
+      },
+      {
+        "statement": "The study identifies elongate rays extending from the hyoid and branchial arches and fused into an operculum covering at least two posterior branchial arches.",
+        "relation": "supports",
+        "claimIds": ["claim:event:late-mississippian-cosmoselachus-operculum"],
+        "referenceLinks": [{"relation": "supports", "referenceId": "bronson-2024-cosmoselachus", "pages": "107–113", "figure": "Figures 5–7", "quoteLocator": "CT reconstruction; branchial anatomy; phylogenetic analysis"}]
+      }
+    ],
+    "uncertaintyItems": [
+      {
+        "statement": "The holotype is partial and has experienced damage and pyrite decay; body size, complete locomotion and population variation are unavailable.",
+        "relation": "contextualizes",
+        "claimIds": ["claim:event:late-mississippian-cosmoselachus-operculum"],
+        "referenceLinks": [{"relation": "supports", "referenceId": "bronson-2024-cosmoselachus", "pages": "101–106", "figure": "Figures 1–4", "quoteLocator": "Material; specimen condition; preservation limits"}]
+      },
+      {
+        "statement": "The phylogenetic placement is a sampled analysis and the event is not a global symmoriiform or Chondrichthyes endpoint, direct ancestor or complete species range.",
+        "relation": "contextualizes",
+        "claimIds": ["claim:event:late-mississippian-cosmoselachus-operculum"],
+        "referenceLinks": [{"relation": "supports", "referenceId": "bronson-2024-cosmoselachus", "pages": "113–117", "figure": "Figure 8", "quoteLocator": "Phylogenetic analysis; Discussion; Conclusions"}]
+      }
+    ]
   }
 ]

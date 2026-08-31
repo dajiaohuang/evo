@@ -78,6 +78,8 @@ export const researchSceneDefinitions = {
   chondrichthyes: { label: { en: 'Chondrichthyes', zh: '软骨鱼类' }, scenes: [
     { id: 'chondrichthyes-map-window', kind: 'map', route: '#/explore?taxon=chondrichthyes&view=map&age=219.5&older=439&younger=0', entityIds: ['chondrichthyes'], claimIds: ['claim:taxon:chondrichthyes:fossil-range'] },
     { id: 'chondrichthyes-comparison-window', kind: 'comparison', route: '#/compare?left=qianodus&right=shenacanthus', entityIds: ['qianodus', 'shenacanthus'], claimIds: ['claim:taxon:qianodus:fossil-range', 'claim:taxon:shenacanthus:fossil-range'] },
+    { id: 'chondrichthyes-devonian-carboniferous-map', kind: 'map', route: '#/explore?taxon=stem-chondrichthyan-evidence-route&view=map&age=347.5&older=369.5&younger=326', entityIds: ['stem-chondrichthyan-evidence-route', 'maghriboselache', 'cosmoselachus'], claimIds: ['claim:taxon:maghriboselache:fossil-range', 'claim:taxon:cosmoselachus:fossil-range'] },
+    { id: 'chondrichthyes-devonian-carboniferous-comparison', kind: 'comparison', route: '#/compare?left=maghriboselache&right=cosmoselachus', entityIds: ['maghriboselache', 'cosmoselachus'], claimIds: ['claim:taxon:maghriboselache:fossil-range', 'claim:taxon:cosmoselachus:fossil-range'] },
   ] },
   actinopterygii: { label: { en: 'Actinopterygii', zh: '辐鳍鱼类' }, scenes: [
     { id: 'actinopterygii-map-window', kind: 'map', route: '#/explore?taxon=actinopterygii&view=map&age=195.2&older=390.4&younger=0', entityIds: ['actinopterygii'], claimIds: ['claim:taxon:actinopterygii:fossil-range'] },
@@ -299,13 +301,13 @@ export const packageDefinitions = [
     titleZh: '软骨鱼类',
     rootEntityIds: ['chondrichthyes'],
     conceptScope: {
-      en: 'COL26.8 accepted-species routing covers living cartilaginous fishes. A new stem-chondrichthyan evidence route exposes Qianodus, Fanjingshania, Shenacanthus and Gladbachus, with rich profiles and field-to-claim links for the three externally resolved taxa. Their isolated whorls, dermal elements, near-complete holotype and compressed CT specimen remain separate samples; none is presented as a crown shark or global Chondrichthyes first appearance. Bundled PBDB rows remain a bounded, non-random API-prefix sample.',
-      zh: 'COL26.8 已接受物种路由覆盖现生软骨鱼类。新增软骨鱼干群证据导航，展示 Qianodus、Fanjingshania、Shenacanthus 与 Gladbachus；其中三个可外部精确解析的类群具有完整档案和字段—主张链接。孤立齿旋、皮质骨片、近完整正模与 CT 检查的压扁标本仍是不同样本；任何一项都不被表述为冠群鲨类或软骨鱼类全球首现。包内 PBDB 记录仍是有界、非随机的 API 前缀样本。',
+      en: 'COL26.8 accepted-species routing covers living cartilaginous fishes. The stem-chondrichthyan evidence route now exposes Qianodus, Fanjingshania, Shenacanthus, Gladbachus, Maghriboselache and Cosmoselachus; five externally resolved taxa have bilingual profiles and field-to-claim links, while Fanjingshania remains a source-linked navigation entry. Isolated whorls, dermal elements, near-complete and partial holotypes, and CT specimens remain separate samples; none is presented as a crown shark or global Chondrichthyes first appearance. Bundled PBDB rows remain a bounded, non-random API-prefix sample.',
+      zh: 'COL26.8 已接受物种路由覆盖现生软骨鱼类。软骨鱼干群证据导航现展示 Qianodus、Fanjingshania、Shenacanthus、Gladbachus、Maghriboselache 与 Cosmoselachus；其中五个已由外部数据解析的类群提供双语档案和字段—主张链接，Fanjingshania 仍是带来源链接的导航条目。孤立齿旋、皮质骨片、近完整及部分正模与 CT 标本仍是不同样本；任何一项都不被表述为冠群鲨类或软骨鱼类全球首现。包内 PBDB 记录仍是有界、非随机的 API 前缀样本。',
     },
     wave: 'C',
     scientificMaturity: 'source-linked',
     limitations: [
-      'Qianodus, Fanjingshania, Shenacanthus and Gladbachus are connected by a navigation-parent evidence route, not an ancestor sequence or reviewed total-group phylogeny.',
+      'Qianodus, Fanjingshania, Shenacanthus, Gladbachus, Maghriboselache and Cosmoselachus are connected by a navigation-parent evidence route, not an ancestor sequence or reviewed total-group phylogeny.',
       'The literature-linked intervals apply to named samples and formations. Unsupported clade-wide endpoints for Chondrichthyes, Elasmobranchii, Holocephali or megalodon are explicitly withheld rather than displayed as global ranges.',
       'Fanjingshania has no exact concept in the pinned PBDB snapshot, so its external identifier remains withheld while the specimen dossier and source-linked range remain browsable.',
     ],
