@@ -39,12 +39,42 @@
           "usage": "accepted"
         },
         "colStrictAcceptedSpecies": 247
+      },
+      {
+        "col": {
+          "usageId": "3FT",
+          "scientificName": "Leptomitales",
+          "rank": "order",
+          "parentUsageId": "G3"
+        },
+        "itis": {
+          "tsn": "181554",
+          "scientificName": "Leptomitales",
+          "rank": "Order",
+          "usage": "accepted"
+        },
+        "colStrictAcceptedSpecies": 45
+      },
+      {
+        "col": {
+          "usageId": "3DC",
+          "scientificName": "Hyphochytriales",
+          "rank": "order",
+          "parentUsageId": "CW"
+        },
+        "itis": {
+          "tsn": "13823",
+          "scientificName": "Hyphochytriales",
+          "rank": "Order",
+          "usage": "accepted"
+        },
+        "colStrictAcceptedSpecies": 23
       }
     ],
-    "colStrictAcceptedSpecies": 1426,
+    "colStrictAcceptedSpecies": 1494,
     "packageStrictAcceptedSpecies": 61518,
-    "packageOutOfScopeStrictAcceptedSpecies": 60092,
-    "boundary": "ITIS 2026-08-26 has no exact accepted Oomycota phylum root. Its broader ancestors for the two shared orders follow an historical Fungi/Myxomycota/Phycomycota path, so they are not treated as an Oomycota root. This sidecar therefore covers only strict COL26.8 accepted species below the two exact shared accepted order roots Peronosporales and Saprolegniales; every other COL Oomycota and every remaining Protists and Chromists species is explicitly out of scope."
+    "packageOutOfScopeStrictAcceptedSpecies": 60024,
+    "boundary": "ITIS 2026-08-26 has no exact accepted Oomycota phylum root. Its broader ancestors for the four shared orders follow an historical Fungi/Myxomycota/Phycomycota path, so they are not treated as an Oomycota root. This sidecar therefore covers only strict COL26.8 accepted species below the four exact shared accepted order roots Peronosporales, Saprolegniales, Leptomitales and Hyphochytriales; every other COL Oomycota and every remaining Protists and Chromists species is explicitly out of scope."
   },
   "rootBoundaryAudit": {
     "colOomycotaRoot": {
@@ -94,9 +124,49 @@
             "usage": "accepted"
           }
         }
+      },
+      {
+        "col": {
+          "usageId": "3FT",
+          "scientificName": "Leptomitales",
+          "rank": "order",
+          "parentUsageId": "G3"
+        },
+        "itis": {
+          "tsn": "181554",
+          "scientificName": "Leptomitales",
+          "rank": "Order",
+          "usage": "accepted",
+          "immediateParent": {
+            "tsn": "13785",
+            "scientificName": "Phycomycota",
+            "rank": "Class",
+            "usage": "accepted"
+          }
+        }
+      },
+      {
+        "col": {
+          "usageId": "3DC",
+          "scientificName": "Hyphochytriales",
+          "rank": "order",
+          "parentUsageId": "CW"
+        },
+        "itis": {
+          "tsn": "13823",
+          "scientificName": "Hyphochytriales",
+          "rank": "Order",
+          "usage": "accepted",
+          "immediateParent": {
+            "tsn": "13785",
+            "scientificName": "Phycomycota",
+            "rank": "Class",
+            "usage": "accepted"
+          }
+        }
       }
     ],
-    "decision": "Do not infer an ITIS Oomycota root from a broader historical lineage. Use only the two exact shared accepted order names/ranks, and keep the remaining COL Oomycota species out of scope."
+    "decision": "Do not infer an ITIS Oomycota root from a broader historical lineage. Use only the four exact shared accepted order names/ranks, and keep the remaining COL Oomycota species out of scope."
   },
   "sources": {
     "col": {
@@ -105,7 +175,7 @@
       "registryManifestPath": "data/catalogue-of-life/releases/2026-08-20/registry/manifest.json",
       "registryManifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151",
       "ownershipPath": "data/registry/package-species-coverage.json",
-      "ownershipSha256": "a297bc8a67ce60806fdee733464a79bfcc42e255f7e59535b01f94013c19dfea"
+      "ownershipSha256": "a31a41ef0e9e785192a2fbbed11df9aa9bc06ba2f84a04b8fe38bd45824ff6ff"
     },
     "itis": {
       "datasetId": "itis-2026-08-26",
@@ -132,18 +202,18 @@
     "prohibited": "No fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered, taxon-substituted, or broader-lineage matching is used."
   },
   "evidenceBoundary": {
-    "en": "This CC0 ITIS sidecar is a frozen exact nomenclatural crosswalk only for the two shared order roots of the COL26.8 Oomycota partition. It does not assert that ITIS supplies an Oomycota root, or that its historical broader lineage is a usable Oomycota classification. It is not a global oomycete checklist, final classification authority, phylogeny, species-concept equivalence assertion, biological dossier or scientific-review record.",
+    "en": "This CC0 ITIS sidecar is a frozen exact nomenclatural crosswalk only for the four shared order roots of the COL26.8 Oomycota partition. It does not assert that ITIS supplies an Oomycota root, or that its historical broader lineage is a usable Oomycota classification. It is not a global oomycete checklist, final classification authority, phylogeny, species-concept equivalence assertion, biological dossier or scientific-review record.",
     "zh": "此 CC0 ITIS 侧车仅是 COL26.8 Oomycota 分区中两个双方精确共有目根的冻结严格命名交叉映射。它不声称 ITIS 提供 Oomycota 根，也不把 ITIS 的历史性更宽谱系当作可用的 Oomycota 分类。它不是全球卵菌名录、最终分类权威、系统发育、物种概念等同性声明、生物档案或科学审查记录。"
   },
   "counts": {
-    "total": 1426,
-    "accepted": 46,
-    "synonymCurrentNameRedirect": 0,
+    "total": 1494,
+    "accepted": 53,
+    "synonymCurrentNameRedirect": 1,
     "ambiguous": 0,
-    "unmatched": 1380,
-    "itisCurrentSpecies": 84,
-    "itisSpeciesSynonymLinks": 2,
-    "itisUpstreamOnly": 38
+    "unmatched": 1440,
+    "itisCurrentSpecies": 96,
+    "itisSpeciesSynonymLinks": 6,
+    "itisUpstreamOnly": 42
   },
   "colUsageIdLocator": {
     "key": "colUsageId",
@@ -153,13 +223,13 @@
     "files": [
       {
         "path": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-oomycota-sidecar-0000.jsonl.gz",
-        "records": 1426,
-        "firstColUsageId": "33Q5B",
-        "lastColUsageId": "Q784",
-        "bytes": 36064,
-        "sha256": "9f1ef2ed1ed8307561915cd96f11d3a9b9f7b34a46144bbd09537711b4b02997",
-        "sourceBytes": 277007,
-        "sourceSha256": "12e23c3ba1f0efeb73a72bcb2afd5ff00ca6b7f583344d0afa2020b471c7f1e3"
+        "records": 1494,
+        "firstColUsageId": "33PPP",
+        "lastColUsageId": "YGGB",
+        "bytes": 37907,
+        "sha256": "50a0dfee11bc9d3bbb3d289d5ea6edd571310fb42a5afe207fde5356c6a3fbbf",
+        "sourceBytes": 290796,
+        "sourceSha256": "f980c53d6052a9e41ca3c5d1f5b4c139b8ecf320e067e88162e9ec101027a8c9"
       }
     ]
   },
@@ -169,13 +239,13 @@
     "files": [
       {
         "path": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-oomycota-upstream-only-0000.jsonl.gz",
-        "records": 38,
+        "records": 42,
         "firstColUsageId": null,
         "lastColUsageId": null,
-        "bytes": 891,
-        "sha256": "69609e96de65963a280d84c0e8a9e034de0710de18fce5db894ae8e584618704",
-        "sourceBytes": 15529,
-        "sourceSha256": "1d67f55320f8edadfb4bfbca2e0d160cbecd0624040382c68b5c1c5f365f0200",
+        "bytes": 972,
+        "sha256": "04bb09f11aab9907a0236889ac1986088c0c9ff4b6a159ca0f129fed8462f4c7",
+        "sourceBytes": 17166,
+        "sourceSha256": "1f4e9395fd5f911fe53877248d25863790c87a08821c4bcc4f9b058ed3c6d674",
         "colOwnership": null,
         "firstTsn": "13842",
         "lastTsn": "189579"

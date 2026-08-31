@@ -21,6 +21,12 @@ const ITIS_ROOT_TSN = 57410
 const COL_ROOT_USAGE_ID = '3Z'
 const PACKAGE_ID = 'other-animals'
 const SHARD_SOURCE_LIMIT_BYTES = 512 * 1024
+const SELECTED_ROOT_WITNESS = { tsn: 696187, scientificName: 'Kantharella antarctica' }
+const BROADER_ROOT_ONLY_EXAMPLES = [
+  { tsn: 696201, scientificName: 'Microcyema vespa' },
+  { tsn: 696174, scientificName: 'Conocyema deca' },
+  { tsn: 696203, scientificName: 'Conocyema polymorpha' },
+]
 const currentSpeciesQuery = `WITH RECURSIVE descendants(tsn) AS (
   SELECT ?1 UNION ALL SELECT u.tsn FROM taxonomic_units u JOIN descendants d ON u.parent_tsn = d.tsn WHERE u.name_usage = 'valid'
 ) SELECT u.tsn, l.completename AS scientific_name, u.name_usage, u.credibility_rtng, u.completeness_rtng, u.currency_rating, u.update_date
@@ -78,7 +84,14 @@ function loadItis(sqlitePath) {
     const maxima = database.prepare('SELECT (SELECT max(update_date) FROM taxonomic_units) AS taxonomicUnits, (SELECT max(update_date) FROM synonym_links) AS synonymLinks').get()
     const currentRows = database.prepare(currentSpeciesQuery).all(ITIS_ROOT_TSN)
     const broaderRows = database.prepare(currentSpeciesQuery).all(broaderRootTsn)
-    return { rootRecord, broaderRootRecord, maxima, currentRows, broaderRows, synonymRows: database.prepare(synonymQuery).all(ITIS_ROOT_TSN) }
+    const selectedRootWitness = currentRows.find((row) => Number(row.tsn) === SELECTED_ROOT_WITNESS.tsn)
+    if (!selectedRootWitness || selectedRootWitness.scientific_name !== SELECTED_ROOT_WITNESS.scientificName) throw new Error('Pinned Kantharella antarctica witness is no longer a current Dicyemida species')
+    const broaderOnlyExamples = BROADER_ROOT_ONLY_EXAMPLES.map((example) => {
+      const row = broaderRows.find((candidate) => Number(candidate.tsn) === example.tsn)
+      if (!row || row.scientific_name !== example.scientificName || currentRows.some((candidate) => String(candidate.tsn) === String(row.tsn))) throw new Error(`Pinned broader-root-only witness changed: ${example.scientificName}`)
+      return row
+    })
+    return { rootRecord, broaderRootRecord, maxima, currentRows, broaderRows, selectedRootWitness, broaderOnlyExamples, synonymRows: database.prepare(synonymQuery).all(ITIS_ROOT_TSN) }
   } finally { database.close() }
 }
 
@@ -108,7 +121,7 @@ async function main() {
   if (sha256(registryBytes) !== source.importLedger.colInput.registryManifestSha256) throw new Error('COL registry manifest SHA-256 mismatch')
   const ownership = JSON.parse(ownershipBytes); const resourcePack = JSON.parse(resourcePackBytes); const colSpecies = colSpeciesPath ? JSON.parse(readFileSync(colSpeciesPath, 'utf8')) : await loadColSpecies(JSON.parse(registryBytes)); const packSpecies = await loadPackSpecies(resourcePack); const packIds = new Set(packSpecies.map((record) => record.id))
   if (resourcePack.packageId !== PACKAGE_ID || resourcePack.acceptedSpeciesCount !== ownership.packageCounts[PACKAGE_ID] || colSpecies.some((record) => !packIds.has(record.id))) throw new Error('Dicyemida and Other Animals ownership boundaries changed')
-  const { rootRecord, broaderRootRecord, maxima, currentRows, broaderRows, synonymRows } = loadItis(sqlitePath)
+  const { rootRecord, broaderRootRecord, maxima, currentRows, broaderRows, selectedRootWitness, broaderOnlyExamples, synonymRows } = loadItis(sqlitePath)
   if (maxima.taxonomicUnits !== source.databaseAudit.maximumTaxonomicUnitUpdateDate || maxima.synonymLinks !== source.databaseAudit.maximumSynonymLinkUpdateDate) throw new Error(`ITIS update-date mismatch: ${JSON.stringify(maxima)}`)
   const index = createItisMammalNameIndex(currentRows, synonymRows); const crosswalk = []; const evidencedTsns = new Set()
   for (const colRecord of colSpecies) { const matched = matchColSpecies(colRecord, index); const record = { status: matched.status, ...matched.record }; crosswalk.push(record); if (record.currentName) evidencedTsns.add(record.currentName.tsn); for (const candidate of record.candidates ?? []) evidencedTsns.add(candidate.currentName.tsn) }
@@ -122,7 +135,7 @@ async function main() {
   const descriptor = { schemaVersion: 1, sidecarType: 'release-pinned-exact-nomenclatural-crosswalk', packageId: PACKAGE_ID,
     scope: { colRootUsageId: COL_ROOT_USAGE_ID, colRootScientificName: 'Dicyemida', colStrictAcceptedSpecies: colSpecies.length, packageStrictAcceptedSpecies: resourcePack.acceptedSpeciesCount, packageOutOfScopeStrictAcceptedSpecies: resourcePack.acceptedSpeciesCount - colSpecies.length, boundary: 'other-animals is the deterministic Animalia remainder after more-specific static-package routes. This sidecar covers only strict accepted COL26.8 species descending from exact Dicyemida root 3Z; every other other-animals-owned species is explicitly outside this sidecar.' },
     mixedResourcePack: { packageId: PACKAGE_ID, manifestPath: repoPath(resourcePackManifestPath), manifestSha256: sha256(resourcePackBytes), acceptedSpeciesCount: packSpecies.length, inScopeSpecies: colSpecies.length, outOfScopeSpecies: packSpecies.length - colSpecies.length, packageSourceDatasetCounts: sourceDatasetCounts(packSpecies), dicyemidaSourceDatasetCounts: sourceDatasetCounts(colSpecies), outOfScopeBoundary: 'All remaining accepted species in Other Animals are not Dicyemida and receive no ITIS Dicyemida match in this sidecar.' },
-    rootBoundaryAudit: { selectedRoot: { tsn: String(rootRecord.tsn), scientificName: rootRecord.completename, rank: rootRecord.rank_name, usage: rootRecord.name_usage }, broaderRoot: { tsn: String(broaderRootRecord.tsn), scientificName: broaderRootRecord.completename, rank: broaderRootRecord.rank_name, usage: broaderRootRecord.name_usage }, selectedCurrentSpecies: currentRows.length, broaderCurrentSpecies: broaderRows.length, broaderOnlySpecies: broaderRows.filter((row) => !new Set(currentRows.map((candidate) => String(candidate.tsn))).has(String(row.tsn))).map((row) => ({ tsn: String(row.tsn), scientificName: String(row.scientific_name) })), decision: 'Use the valid ITIS Dicyemida order TSN 57410 as the sidecar root. Rhombozoa TSN 563954 is a broader class and includes Heterocyemida records outside the Dicyemida order; those broader-root-only species are intentionally excluded to prevent root-boundary duplication.' },
+    rootBoundaryAudit: { selectedRoot: { tsn: String(rootRecord.tsn), scientificName: rootRecord.completename, rank: rootRecord.rank_name, usage: rootRecord.name_usage }, broaderRoot: { tsn: String(broaderRootRecord.tsn), scientificName: broaderRootRecord.completename, rank: broaderRootRecord.rank_name, usage: broaderRootRecord.name_usage }, selectedCurrentSpecies: currentRows.length, broaderCurrentSpecies: broaderRows.length, selectedRootWitness: { tsn: String(selectedRootWitness.tsn), scientificName: String(selectedRootWitness.scientific_name) }, broaderRootOnlyExamples: broaderOnlyExamples.map((row) => ({ tsn: String(row.tsn), scientificName: String(row.scientific_name) })), broaderOnlySpecies: broaderRows.filter((row) => !new Set(currentRows.map((candidate) => String(candidate.tsn))).has(String(row.tsn))).map((row) => ({ tsn: String(row.tsn), scientificName: String(row.scientific_name) })), decision: 'Use the valid ITIS Dicyemida order TSN 57410 as the sidecar root. Kantharella antarctica is retained as its exact current-species witness. Broader Rhombozoa TSN 563954 includes Heterocyemida-only Microcyema and Conocyema species, which are intentionally excluded rather than treated as Dicyemida.' },
     sources: { col: { releaseAlias: 'COL26.8', releaseDate: '2026-08-20', registryManifestPath: repoPath(registryManifestPath), registryManifestSha256: sha256(registryBytes), ownershipPath: repoPath(ownershipPath), ownershipSha256: sha256(ownershipBytes) }, itis: { datasetId: source.datasetId, exportDate: source.release.exportDate, rootTsn: String(ITIS_ROOT_TSN), sourceLedgerPath: repoPath(sourcePath), sourceLedgerSha256: sha256(sourceBytes), license: source.license.spdx, citationDoi: source.citation.doi } },
     exactMatching: { normalization: source.importLedger.normalization, statuses: { accepted: 'The normalized COL name resolves to exactly one valid ITIS Dicyemida species and directly equals that current ITIS name.', 'synonym-current-name-redirect': 'The normalized COL name equals official ITIS invalid species-name evidence that resolves to exactly one valid ITIS Dicyemida species.', ambiguous: 'The normalized exact evidence resolves to more than one valid ITIS Dicyemida species TSN.', unmatched: 'No normalized exact valid-name or official ITIS species-synonym evidence resolves to a valid ITIS Dicyemida species.' }, prohibited: 'No fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered or taxon-substituted matching is used.' },
     evidenceBoundary: { en: 'This CC0 ITIS sidecar is a frozen exact nomenclatural crosswalk for the declared Dicyemida partition inside the mixed Other Animals resource pack. It is not a global dicyemidan checklist, final classification authority, phylogeny, species-concept equivalence assertion, biological dossier or scientific-review record.', zh: 'æ­¤ CC0 ITIS ä¾§è½¦æ˜¯æ··åˆâ€œå…¶ä»–åŠ¨ç‰©â€èµ„æºåŒ…ä¸­å·²å£°æ˜Ž Dicyemida åˆ†åŒºçš„å†»ç»“ä¸¥æ ¼å‘½åäº¤å‰æ˜ å°„ï¼›å®ƒä¸æ˜¯å…¨çƒçº½å½¢åŠ¨ç‰©åå½•ã€æœ€ç»ˆåˆ†ç±»æƒå¨ã€ç³»ç»Ÿå‘è‚²ã€ç‰©ç§æ¦‚å¿µç­‰åŒæ€§å£°æ˜Žã€ç”Ÿç‰©æ¡£æ¡ˆæˆ–ç§‘å­¦å®¡æŸ¥è®°å½•ã€‚' },
@@ -132,4 +145,3 @@ async function main() {
   writeFileSync(ledgerPath, jsonBytes(ledger)); console.log(JSON.stringify({ totals: descriptor.counts, scope: descriptor.scope, mixedResourcePack: descriptor.mixedResourcePack, output: ledger.output }, null, 2))
 }
 await main()
-
