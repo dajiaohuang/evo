@@ -394,6 +394,21 @@ for (const packageEntry of registry.packages) {
   const packageEvents = events.filter((event) => packageClaims.some((claim) => claim.subjectId === `event:${event.id}`))
   const packageStories = publishedStories.filter((story) => ownerForStory(story) === packageId)
   const packageMedia = media.filter((asset) => entityById.get(asset.taxonId)?.packageId === packageId)
+  const assetFilesById = new Map(packageMedia.filter((asset) => asset.asset).map((asset) => {
+    const source = readFileSync(join(rootDir, asset.asset.path))
+    if (source.byteLength !== asset.asset.bytes || sha256(source) !== asset.asset.sha256) {
+      throw new Error(`Media asset ${asset.id} does not match its canonical byte length or SHA-256`)
+    }
+    const file = {
+      ...write(`packages/${packageId}/media/${basename(asset.asset.path)}`, source),
+      mediaType: asset.asset.mediaType,
+    }
+    return [asset.id, file]
+  }))
+  const packageAssetFiles = [...assetFilesById.values()]
+  const runtimePackageMedia = packageMedia.map((asset) => asset.asset
+    ? { ...asset, asset: { ...asset.asset, ...assetFilesById.get(asset.id) } }
+    : asset)
   const packageReferenceIds = new Set([
     ...packageEntities.flatMap((entity) => entity.referenceIds),
     ...packageProfiles.flatMap((profile) => profile.referenceIds),
@@ -406,7 +421,7 @@ for (const packageEntry of registry.packages) {
   if (packageClaims.length) payloadFiles.claims = writeGzipJson(`packages/${packageId}/claims.json.gz`, packageClaims)
   if (packageEvents.length) payloadFiles.events = writeGzipJson(`packages/${packageId}/events.json.gz`, packageEvents)
   if (packageStories.length) payloadFiles.stories = writeGzipJson(`packages/${packageId}/stories.json.gz`, packageStories)
-  if (packageMedia.length) payloadFiles.media = writeGzipJson(`packages/${packageId}/media.json.gz`, packageMedia)
+  if (runtimePackageMedia.length) payloadFiles.media = writeGzipJson(`packages/${packageId}/media.json.gz`, runtimePackageMedia)
   payloadFiles.researchExamples = writeGzipJson(`packages/${packageId}/research-examples.json.gz`, packageResearchExamples)
   const packageReferences = references.filter((reference) => packageReferenceIds.has(reference.id))
   payloadFiles.ranges = writeGzipJson(`packages/${packageId}/ranges.json.gz`, canonicalRanges.filter((range) => packageEntities.some((entity) => entity.id === range.entityId)))
@@ -435,7 +450,7 @@ for (const packageEntry of registry.packages) {
     payloadFiles.occurrenceSnapshot = writeGzipJson(`packages/${packageId}/occurrence-snapshot-v1.json.gz`, targetedOccurrenceSnapshot)
   }
   const occurrenceShards = occurrenceManifest.packages[packageId] ?? []
-  const knowledgeBytes = Object.values(payloadFiles).reduce((sum, file) => sum + file.bytes, 0)
+  const knowledgeBytes = [...Object.values(payloadFiles), ...packageAssetFiles].reduce((sum, file) => sum + file.bytes, 0)
   const occurrenceBytes = occurrenceShards.reduce((sum, file) => sum + file.bytes, 0)
   const manifest = {
     schemaVersion: 5,
@@ -485,12 +500,13 @@ for (const packageEntry of registry.packages) {
       canonicalRawBytes: canonicalPackageBytes(packageEntry),
       runtimeKnowledgeCompressedBytes: knowledgeBytes,
       numberOfShards: occurrenceShards.length,
-      largestShardBytes: Math.max(0, ...occurrenceShards.map((file) => file.bytes)),
+      largestShardBytes: Math.max(0, ...occurrenceShards.map((file) => file.bytes), ...packageAssetFiles.map((file) => file.bytes)),
       initialLoadImpactBytes: 0,
       packageLoadTime: 'client-measured',
       offlineCacheSizeBytes: knowledgeBytes + occurrenceBytes,
     },
     files: payloadFiles,
+    assets: packageAssetFiles,
     occurrences: occurrenceShards,
   }
   const manifestFile = writeJson(`packages/${packageId}/manifest.json`, manifest, true)
@@ -499,7 +515,7 @@ for (const packageEntry of registry.packages) {
   const zipEntries = {
     'manifest.json': strToU8(`${JSON.stringify(manifest, null, 2)}\n`),
   }
-  for (const file of [...Object.values(payloadFiles), ...occurrenceShards]) {
+  for (const file of [...Object.values(payloadFiles), ...packageAssetFiles, ...occurrenceShards]) {
     zipEntries[file.url] = new Uint8Array(readFileSync(join(outputRoot, file.url)))
   }
   const archive = deterministicZip(zipEntries, { level: 0 })

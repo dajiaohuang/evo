@@ -14,11 +14,12 @@ import {
 } from '../../services/catalog'
 import { evidenceClaims, getClaimsForSubject } from '../../services/evidence'
 import { buildEvidenceIssueUrl, getEntityPublication, reviewStatusLabel, scientificMaturityLabel } from '../../services/publication'
-import { loadPackageForEntity } from '../../data-client/staticDataClient'
+import { loadMediaForEntity, runtimeDataUrl } from '../../data-client/staticDataClient'
 import { EvidenceStatus } from '../common/EvidenceStatus'
 import { useAppStore } from '../../store'
 import type { AppRoute } from '../../utils/routing'
 import type { ConfidenceLevel, EvidenceClaim, ReferenceRecord } from '../../types'
+import type { MediaAsset } from '../../types/catalog'
 import { useI18n } from '../../i18n'
 import { StoryBuilder, StoryLearningPanel } from './StoryStudio'
 import './CatalogPages.css'
@@ -146,20 +147,25 @@ export function TaxonPage({ id, onNavigate }: CatalogPageProps) {
   const taxonError = useAppStore((state) => (
     profile ? state.taxonOccurrenceErrors[`descendants:${profile.id}`] : null
   ))
+  const [runtimeMedia, setRuntimeMedia] = useState<{ entityId: string; assets: MediaAsset[] } | null>(null)
 
   useEffect(() => {
     if (profile) void loadOccurrences(profile.id)
   }, [loadOccurrences, profile])
 
   useEffect(() => {
-    if (id) void loadPackageForEntity(id).catch(() => undefined)
+    let active = true
+    if (id) void loadMediaForEntity(id).then((assets) => {
+      if (active) setRuntimeMedia({ entityId: id, assets })
+    }).catch(() => undefined)
+    return () => { active = false }
   }, [id])
 
   if (!profile) return <TaxonDirectory onNavigate={onNavigate} />
   const rangeAvailable = hasPublishedRange(profile)
   const midpoint = (profile.firstAppearance + profile.lastAppearance) / 2
   const references = getReferences(profile.referenceIds)
-  const media = getMediaForTaxon(profile.id)
+  const media = runtimeMedia?.entityId === profile.id ? runtimeMedia.assets : getMediaForTaxon(profile.id)
   const claims = getClaimsForSubject(`taxon:${profile.id}`)
   const publication = getEntityPublication(profile.treeNodeId ?? profile.id)
   const scrollToSection = (sectionId: string) => {
@@ -272,10 +278,20 @@ export function TaxonPage({ id, onNavigate }: CatalogPageProps) {
           </section>
 
           <section id="media" className="catalog-section">
-            <span className="section-label">{t('05 / Museum media')}</span>
-            <h2>{t('Specimens and reconstructions at their source')}</h2>
+            <span className="section-label">{t('05 / Media')}</span>
+            <h2>{t('Source media and labelled interpretive reconstructions')}</h2>
             <div className="media-ledger">
-              {media.map((asset) => <a key={asset.id} href={asset.sourceUrl} target="_blank" rel="noreferrer"><span>{t(asset.type.replace('-', ' '))}</span><strong>{t(asset.title)}</strong><small>{asset.sourceName} · {asset.subjectScope}</small><p>{language === 'zh' ? asset.captionZh : asset.caption}</p><p>{t(asset.licenseNote)}</p><i>↗</i></a>)}
+              {media.map((asset) => asset.contentOrigin === 'ai-assisted-interpretive-reconstruction'
+                ? <article key={asset.id} className="media-card media-card--reconstruction">
+                    {asset.asset?.url && <img src={runtimeDataUrl(asset.asset.url)} width={asset.asset.width} height={asset.asset.height} loading="lazy" decoding="async" alt={language === 'zh' ? asset.altTextZh : asset.altText} />}
+                    <span className="media-card__badge">{language === 'zh' ? asset.interpretiveNoticeZh : asset.interpretiveNotice}</span>
+                    <strong>{language === 'zh' ? asset.titleZh : asset.title}</strong>
+                    <small>{asset.sourceName} · {asset.subjectScope}</small>
+                    <p>{language === 'zh' ? asset.captionZh : asset.caption}</p>
+                    <p className="media-card__uncertainty"><b>{language === 'zh' ? '不确定性' : 'Uncertainty'}</b>{language === 'zh' ? asset.uncertaintyZh : asset.uncertainty}</p>
+                    <a href={asset.sourceUrl} target="_blank" rel="noreferrer">{language === 'zh' ? '生成记录、许可与哈希' : 'Generation record, licence and hashes'} ↗</a>
+                  </article>
+                : <a className="media-card media-card--external" key={asset.id} href={asset.sourceUrl} target="_blank" rel="noreferrer"><span>{t(asset.type.replace('-', ' '))}</span><strong>{t(asset.title)}</strong><small>{asset.sourceName} · {asset.subjectScope}</small><p>{language === 'zh' ? asset.captionZh : asset.caption}</p><p>{t(asset.licenseNote)}</p><i>↗</i></a>)}
             </div>
           </section>
 

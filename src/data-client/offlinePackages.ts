@@ -36,6 +36,7 @@ export async function savePackageOffline(packageId: string, onProgress?: (comple
   const urls = [
     runtimeDataUrl(manifestFile.url),
     ...Object.values(manifest.files).map((file) => runtimeDataUrl(file.url)),
+    ...(manifest.assets ?? []).map((file) => runtimeDataUrl(file.url)),
     ...manifest.occurrences.map((file) => runtimeDataUrl(file.url)),
   ]
   await cacheUrls(`${OFFLINE_CACHE_PREFIX}${current.datasetVersion}`, urls, onProgress)
@@ -48,6 +49,7 @@ export async function saveAllPackagesOffline(onProgress?: (completed: number, to
   const urls = manifests.flatMap((manifest) => [
     runtimeDataUrl(current.packages.manifests[manifest.packageId].url),
     ...Object.values(manifest.files).map((file) => runtimeDataUrl(file.url)),
+    ...(manifest.assets ?? []).map((file) => runtimeDataUrl(file.url)),
     ...manifest.occurrences.map((file) => runtimeDataUrl(file.url)),
   ])
   await cacheUrls(`${OFFLINE_CACHE_PREFIX}${current.datasetVersion}`, [...new Set(urls)], onProgress)

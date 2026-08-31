@@ -5,7 +5,7 @@ export interface RuntimeFile {
   sha256?: string
   sourceSha256?: string
   encoding?: 'gzip'
-  mediaType?: 'application/json' | 'application/x-ndjson'
+  mediaType?: 'application/json' | 'application/x-ndjson' | 'image/webp'
 }
 
 export interface RuntimeEntity {
@@ -144,7 +144,12 @@ export interface RuntimePackageManifest {
     offlineCacheSizeBytes: number
   }
   files: Record<string, RuntimeFile> & { researchExamples: RuntimeFile }
+  assets?: RuntimeFile[]
   occurrences: Array<RuntimeFile & { records: number; period: string; packageId: string }>
+}
+
+export type RuntimeMediaAsset = Omit<import('../types').MediaAsset, 'asset'> & {
+  asset?: NonNullable<import('../types').MediaAsset['asset']> & RuntimeFile
 }
 
 export interface OccurrenceRuntimeManifest {
