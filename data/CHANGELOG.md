@@ -1,5 +1,13 @@
 # Dataset changelog
 
+## App 0.20.21 / 2026.08-static-v5-rc70 — 2026-08-31
+
+- Added fixed, exact ITIS `2026-08-26` CC0 authority sidecars for Nematoda, Annelida, Mollusca plus Brachiopoda, Porifera plus Cnidaria, and Echinodermata. Their declared COL26.8 scopes contain 240,792 explicit outcomes: 21,346 exact current names, 515 official synonym redirects, 30 ambiguities, and 218,901 unmatched records; 13,122 current ITIS-only species remain in separate null-COL partitions.
+- Published the 253,914 native authority records through 77 non-empty deterministic JSONL gzip shards. Pages `web-light` publishes source, scope, method, counts, limitations, and canonical byte/SHA-256 inventories but no authority rows; Android and iOS build `24` copy every native-full shard byte-for-byte and verify release-inventory parity.
+- Generalized rich-package nomenclature collections so Echinoderms carries separate WoRMS AphiaID and ITIS TSN authorities without merging or overwriting either. The WoRMS row payload now follows the same Pages-summary/native-full split.
+- Added typed indexed lookup contracts for the three new rich-package ITIS collections and the two new `other-animals` scopes. A COL lookup reads at most one ordered inclusive range shard and never treats an ITIS-only partition as a COL member.
+- Added [`docs/itis-major-invertebrates-authority.md`](../docs/itis-major-invertebrates-authority.md) with scope roots, outcome counts, delivery boundaries, canonical locations, and limitations.
+
 ## App 0.20.20 / 2026.08-static-v5-rc69 — 2026-08-31
 
 - Added 25 disjoint, exact-root ITIS `2026-08-26` authority boundaries to the `protists-chromists` resource pack. The 13 non-empty scopes are Ciliophora, Apicomplexa, Dinoflagellata, the Euglenophycota inventory under the Euglenozoa boundary, Cercozoa, Haptophyta, Ochrophyta, Amoebozoa, Rhodophyta, the shared-order Oomycota boundary, Bigyra, Chlorophyta and Glaucophyta.
