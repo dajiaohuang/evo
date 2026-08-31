@@ -2,7 +2,7 @@ import { createHash } from 'node:crypto'
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs'
 import { dirname, isAbsolute, join, resolve } from 'node:path'
 import { flattenTree, readJson, rootDir } from './data-lib.mjs'
-import { DATASET_PACKAGE_VERSION, PACKAGE_SCHEMA_VERSION, packageDefinitions, researchPresetDefinitions } from './package-definitions.mjs'
+import { DATASET_PACKAGE_VERSION, PACKAGE_SCHEMA_VERSION, packageDefinitions, researchPresetDefinitions, researchSceneDefinitions } from './package-definitions.mjs'
 
 const ontology = readJson('data/navigation/atlas-ontology.json')
 const profileSourceEntries = packageDefinitions.flatMap((definition) => {
@@ -576,6 +576,55 @@ for (const definition of packageDefinitions) {
   ])
   const packageReferences = references.filter((reference) => packageReferenceIds.has(reference.id))
   const researchPreset = researchPresetDefinitions[definition.id]
+  const researchScenes = researchSceneDefinitions[definition.id]?.scenes ?? []
+  const researchSceneLabel = researchSceneDefinitions[definition.id]?.label ?? { en: definition.title, zh: definition.titleZh }
+  for (const scene of researchScenes) {
+    if (!scene.entityIds.every((entityId) => packageEntityIds.has(entityId))) {
+      throw new Error(`Package ${definition.id} research scene ${scene.id} references an out-of-package entity`)
+    }
+    if (!scene.claimIds.every((claimId) => packageClaims.some((claim) => claim.id === claimId))) {
+      throw new Error(`Package ${definition.id} research scene ${scene.id} references an out-of-package claim`)
+    }
+  }
+  const sourceBoundResearchScenes = researchScenes.map((scene) => {
+    const comparison = scene.kind === 'comparison'
+    const diversity = scene.kind === 'diversity'
+    const entityLabel = scene.entityIds.join(' and ')
+    return {
+      id: scene.id,
+      type: comparison ? 'comparison' : 'explorer-preset',
+      title: comparison
+        ? { en: `${researchSceneLabel.en} evidence comparison`, zh: `${researchSceneLabel.zh}证据比较` }
+        : diversity
+          ? { en: `${researchSceneLabel.en} diversity sample`, zh: `${researchSceneLabel.zh}多样性样本` }
+          : { en: `${researchSceneLabel.en} occurrence window`, zh: `${researchSceneLabel.zh}出现窗口` },
+      description: comparison
+        ? {
+            en: `Compare ${entityLabel} through package-linked claims and bounded occurrence context; this side-by-side route is an evidence inspection aid.`,
+            zh: `通过本包关联的声明与限定出现背景比较${scene.entityIds.join('与')}；并列页面仅用于证据检查。`,
+          }
+        : diversity
+          ? {
+              en: `Open a source-bounded ${researchSceneLabel.en} interval in the diversity view to inspect bundled sample counts, not an estimate of total richness.`,
+              zh: `在多样性视图中打开有来源边界的${researchSceneLabel.zh}区间，检查包内样本计数，而不是总体丰富度估计。`,
+            }
+          : {
+            en: `Open a source-bounded ${researchSceneLabel.en} time window in the map to inspect sampled occurrence context linked to this package.`,
+            zh: `在地图中打开有来源边界的${researchSceneLabel.zh}时间窗口，检查与本包关联的采样出现背景。`,
+          },
+      route: scene.route,
+      entityIds: scene.entityIds,
+      claimIds: scene.claimIds,
+      evidenceStatus: 'available-with-limitations',
+      limitations: [
+        comparison
+          ? 'The two sides retain separate source, sampling, range and uncertainty boundaries; visual differences are not tests of evolutionary causation or a package-specific phylogeny.'
+          : diversity
+            ? 'Counts are derived from the bundled, bounded occurrence sample and do not estimate total diversity, preservation-corrected richness, or a complete taxon range.'
+            : 'The interval follows the linked package range and claim; map markers are sampled records and do not establish a complete distribution, exact origination or extinction, or direct ancestry.',
+      ],
+    }
+  })
   let sourceBoundResearchExample = null
   if (definition.id !== 'perissodactyla') {
     if (!researchPreset) throw new Error(`Package ${definition.id} has no explicit source-bound research preset definition`)
@@ -715,8 +764,8 @@ for (const definition of packageDefinitions) {
           claimIds: packageClaims.filter((claim) => ['taxon:metamynodon', 'taxon:paraceratherium'].includes(claim.subjectId)).map((claim) => claim.id),
           evidenceStatus: 'available-with-limitations',
           limitations: ['Comparison fields inherit each claim, range and occurrence source boundary; visible differences are not tests of evolutionary causation.'],
-        }]
-      : [sourceBoundResearchExample],
+        }, ...sourceBoundResearchScenes]
+      : [sourceBoundResearchExample, ...sourceBoundResearchScenes],
   })
   writeJson(`data/packages/${definition.path}/phylogeny/status.json`, phylogenySourceEntry
     ? {

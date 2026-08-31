@@ -24,6 +24,54 @@
       "limitations": [
         "The linked claim retains its own specimen, stratum, model, confidence and source-locator boundaries. The Explorer route does not establish an exact origin, global first or last appearance, direct ancestry, causal mechanism or package-specific phylogeny."
       ]
+    },
+    {
+      "id": "gymnosperms-map-window",
+      "type": "explorer-preset",
+      "title": {
+        "en": "Gymnosperms occurrence window",
+        "zh": "裸子植物出现窗口"
+      },
+      "description": {
+        "en": "Open a source-bounded Gymnosperms time window in the map to inspect sampled occurrence context linked to this package.",
+        "zh": "在地图中打开有来源边界的裸子植物时间窗口，检查与本包关联的采样出现背景。"
+      },
+      "route": "#/explore?taxon=gymnospermae&view=map&age=182.5&older=365&younger=0",
+      "entityIds": [
+        "gymnospermae"
+      ],
+      "claimIds": [
+        "claim:taxon:gymnospermae:root-range-rc39"
+      ],
+      "evidenceStatus": "available-with-limitations",
+      "limitations": [
+        "The interval follows the linked package range and claim; map markers are sampled records and do not establish a complete distribution, exact origination or extinction, or direct ancestry."
+      ]
+    },
+    {
+      "id": "gymnosperms-comparison-window",
+      "type": "comparison",
+      "title": {
+        "en": "Gymnosperms evidence comparison",
+        "zh": "裸子植物证据比较"
+      },
+      "description": {
+        "en": "Compare cycadophyta and ginkgophyta through package-linked claims and bounded occurrence context; this side-by-side route is an evidence inspection aid.",
+        "zh": "通过本包关联的声明与限定出现背景比较cycadophyta与ginkgophyta；并列页面仅用于证据检查。"
+      },
+      "route": "#/compare?left=cycadophyta&right=ginkgophyta",
+      "entityIds": [
+        "cycadophyta",
+        "ginkgophyta"
+      ],
+      "claimIds": [
+        "claim:taxon:cycadophyta:fossil-range",
+        "claim:taxon:ginkgophyta:fossil-range"
+      ],
+      "evidenceStatus": "available-with-limitations",
+      "limitations": [
+        "The two sides retain separate source, sampling, range and uncertainty boundaries; visual differences are not tests of evolutionary causation or a package-specific phylogeny."
+      ]
     }
   ]
 }

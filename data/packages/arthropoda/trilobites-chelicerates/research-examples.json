@@ -24,6 +24,54 @@
       "limitations": [
         "The linked claim retains its own specimen, stratum, model, confidence and source-locator boundaries. The Explorer route does not establish an exact origin, global first or last appearance, direct ancestry, causal mechanism or package-specific phylogeny."
       ]
+    },
+    {
+      "id": "trilobites-chelicerates-map-window",
+      "type": "explorer-preset",
+      "title": {
+        "en": "Trilobites and chelicerates occurrence window",
+        "zh": "三叶虫与螯肢类出现窗口"
+      },
+      "description": {
+        "en": "Open a source-bounded Trilobites and chelicerates time window in the map to inspect sampled occurrence context linked to this package.",
+        "zh": "在地图中打开有来源边界的三叶虫与螯肢类时间窗口，检查与本包关联的采样出现背景。"
+      },
+      "route": "#/explore?taxon=trilobita&view=map&age=521&older=521&younger=252",
+      "entityIds": [
+        "trilobita"
+      ],
+      "claimIds": [
+        "claim:taxon:trilobita:root-range-rc39"
+      ],
+      "evidenceStatus": "available-with-limitations",
+      "limitations": [
+        "The interval follows the linked package range and claim; map markers are sampled records and do not establish a complete distribution, exact origination or extinction, or direct ancestry."
+      ]
+    },
+    {
+      "id": "trilobites-chelicerates-comparison-window",
+      "type": "comparison",
+      "title": {
+        "en": "Trilobites and chelicerates evidence comparison",
+        "zh": "三叶虫与螯肢类证据比较"
+      },
+      "description": {
+        "en": "Compare bohemolichas and urokodia through package-linked claims and bounded occurrence context; this side-by-side route is an evidence inspection aid.",
+        "zh": "通过本包关联的声明与限定出现背景比较bohemolichas与urokodia；并列页面仅用于证据检查。"
+      },
+      "route": "#/compare?left=bohemolichas&right=urokodia",
+      "entityIds": [
+        "bohemolichas",
+        "urokodia"
+      ],
+      "claimIds": [
+        "claim:taxon:bohemolichas:fossil-range",
+        "claim:taxon:urokodia:fossil-range"
+      ],
+      "evidenceStatus": "available-with-limitations",
+      "limitations": [
+        "The two sides retain separate source, sampling, range and uncertainty boundaries; visual differences are not tests of evolutionary causation or a package-specific phylogeny."
+      ]
     }
   ]
 }
