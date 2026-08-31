@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "importType": "COL26.8-to-ITIS-exact-xenacoelomorpha-nomenclatural-sidecar",
+  "generatedFrom": {
+    "sourcePath": "data/sources/itis-2026-08-26.json",
+    "sourceSha256": "38a7a55b4e98cafc66790e47f6bd637e298e23fd691e4771c755b38e4a02d7fc",
+    "itisDatabaseMember": "itisSqlite082626/ITIS.sqlite",
+    "itisDatabaseSha256": "ea7304536cfd7b1e2636d383911ca7931fc83d9ab1194ca2a3c020ea2daf1719",
+    "colRegistryManifestPath": "data/catalogue-of-life/releases/2026-08-20/registry/manifest.json",
+    "colRegistryManifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151",
+    "colOwnershipPath": "data/registry/package-species-coverage.json",
+    "colOwnershipSha256": "a297bc8a67ce60806fdee733464a79bfcc42e255f7e59535b01f94013c19dfea"
+  },
+  "scopeAudit": {
+    "colRootUsageId": "7NF2K",
+    "colRootScientificName": "Xenacoelomorpha",
+    "colStrictAcceptedSpecies": 441,
+    "packageStrictAcceptedSpecies": 99161,
+    "packageOutOfScopeStrictAcceptedSpecies": 98720,
+    "boundary": "other-animals is the deterministic Animalia remainder after every more-specific static-package route. This sidecar covers only strict accepted COL26.8 species descending from the exact Xenacoelomorpha root 7NF2K (including Acoela and Xenoturbellida); every other other-animals-owned species is explicitly non-applicable.",
+    "itisRoot": {
+      "tsn": "914162",
+      "scientificName": "Xenacoelomorpha",
+      "rank": "Phylum",
+      "usage": "valid"
+    },
+    "itisCurrentSpecies": 435,
+    "itisSpeciesSynonymLinks": 232,
+    "maximumUpdateDates": {
+      "taxonomicUnits": "2026-08-26",
+      "synonymLinks": "2026-08-26"
+    }
+  },
+  "matchingContract": {
+    "normalization": [
+      "Remove the exact trailing COL authorship field from COL scientificName when that suffix is present; no authorship parser is used.",
+      "Normalize Unicode to NFC, replace underscores with spaces, collapse Unicode whitespace and trim.",
+      "For species-rank comparison, remove one parenthesized subgenus token in the exact Genus (Subgenus) species representation; genus and specific epithet must remain unchanged.",
+      "Preserve case, diacritics, punctuation and all remaining name tokens."
+    ],
+    "statuses": {
+      "accepted": "The normalized COL name resolves to exactly one valid ITIS Xenacoelomorpha species and directly equals that current ITIS name.",
+      "synonym-current-name-redirect": "The normalized COL name equals official ITIS invalid species-name evidence that resolves to exactly one valid ITIS Xenacoelomorpha species.",
+      "ambiguous": "The normalized exact evidence resolves to more than one valid ITIS Xenacoelomorpha species TSN.",
+      "unmatched": "No normalized exact valid-name or official ITIS species-synonym evidence resolves to a valid ITIS Xenacoelomorpha species."
+    },
+    "prohibited": "No fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered or taxon-substituted matching is used."
+  },
+  "totals": {
+    "total": 441,
+    "accepted": 370,
+    "synonymCurrentNameRedirect": 6,
+    "ambiguous": 1,
+    "unmatched": 64,
+    "itisCurrentSpecies": 435,
+    "itisSpeciesSynonymLinks": 232,
+    "itisUpstreamOnly": 58
+  },
+  "output": {
+    "descriptor": {
+      "path": "data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals/itis-xenacoelomorpha-sidecar.json",
+      "bytes": 5123,
+      "sha256": "ccbbeaa7a624fe8a478ec246c4897cb7ace8e026185fdb682794f89b5bcc4bd7"
+    },
+    "colUsageIdShards": [
+      {
+        "path": "data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals/itis-xenacoelomorpha-sidecar-0000.jsonl.gz",
+        "records": 441,
+        "firstColUsageId": "33YQL",
+        "lastColUsageId": "XYRX",
+        "bytes": 14544,
+        "sha256": "d7d6375912d2436d45b6b52b506271d8fedc9bbaec50b9cb2de2a0af60d37d7f",
+        "sourceBytes": 160669,
+        "sourceSha256": "d8736a810c661f9cce960aece3cce4421bfaf6c7ec2ed8002bdc6a938704be4b"
+      }
+    ],
+    "upstreamOnly": {
+      "path": "data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals/itis-xenacoelomorpha-upstream-only-0000.jsonl.gz",
+      "records": 58,
+      "firstColUsageId": null,
+      "lastColUsageId": null,
+      "bytes": 1102,
+      "sha256": "a780fe778e30bdafb900e45e65f915c53a33f0fda23d42cc477fc8552697567f",
+      "sourceBytes": 21204,
+      "sourceSha256": "095b0caedc03114a5ae4eae674bbece78c198fdc5a9268f7fb12dbd44058e258",
+      "colOwnership": null,
+      "firstTsn": "53981",
+      "lastTsn": "1043281"
+    }
+  },
+  "deliveryContract": {
+    "pagesLight": "Pages needs only this descriptor and may omit every row-level JSONL gzip shard.",
+    "androidIosFull": "Android and iOS complete-data inventories must include the descriptor and every listed row-level shard as the same checksum-addressed bytes.",
+    "runtimeChange": "This import deliberately changes no formal runtime or published release manifest."
+  },
+  "generatedBy": {
+    "scriptPath": "scripts/build-itis-xenacoelomorpha-sidecar.mjs",
+    "scriptSha256": "da87b66e1bfe2eb9e6ceaffda48ef032f51fcf4cc7026c03aafd9abc6d7c9f8b",
+    "deterministic": "Pinned input checksums, fixed roots, exact SQL, exact representation-only normalization, code-unit ID ordering and deterministic gzip; no wall-clock fields or fuzzy matching."
+  }
+}
