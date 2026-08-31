@@ -23,6 +23,8 @@ dist-mobile/                 # 临时生成的移动客户端壳，不提交
 
 ## 数据与离线边界
 
+rc58 增加 8 幅总计不足 0.5 MiB 的 1280×800 WebP 解释性复原。它们不是原生工程中的另行拷贝：`release-files.json` 把与 Web/包 ZIP 相同的内容寻址字节送入 Android 与 iOS，Capacitor 同步后必须逐文件保持 SHA-256 一致。界面永久显示“AI 辅助解释性复原”和中英不确定性；prompt、seed、工作流、模型/许可哈希及拒收记录只在 canonical provenance 中维护。rc57 的 8,116 字节 LPSN sidecar 同时保留。
+
 移动构建通过 `.env.mobile` 将数据根设置为：
 
 ```text
