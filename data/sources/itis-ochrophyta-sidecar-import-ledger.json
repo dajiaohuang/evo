@@ -1,0 +1,120 @@
+{
+  "schemaVersion": 1,
+  "importType": "COL26.8-to-ITIS-exact-ochrophyta-nomenclatural-sidecar",
+  "generatedFrom": {
+    "sourcePath": "data/sources/itis-2026-08-26.json",
+    "sourceSha256": "38a7a55b4e98cafc66790e47f6bd637e298e23fd691e4771c755b38e4a02d7fc",
+    "itisDatabaseMember": "itisSqlite082626/ITIS.sqlite",
+    "itisDatabaseSha256": "ea7304536cfd7b1e2636d383911ca7931fc83d9ab1194ca2a3c020ea2daf1719",
+    "colRegistryManifestPath": "data/catalogue-of-life/releases/2026-08-20/registry/manifest.json",
+    "colRegistryManifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151",
+    "colOwnershipPath": "data/registry/package-species-coverage.json",
+    "colOwnershipSha256": "a297bc8a67ce60806fdee733464a79bfcc42e255f7e59535b01f94013c19dfea"
+  },
+  "scopeAudit": {
+    "packageRootUsageIds": [
+      "C",
+      "Z"
+    ],
+    "packageRootScientificNames": [
+      "Chromista",
+      "Protozoa"
+    ],
+    "colRootUsageId": "5H",
+    "colRootScientificName": "Ochrophyta",
+    "colStrictAcceptedSpecies": 1101,
+    "packageStrictAcceptedSpecies": 61518,
+    "packageOutOfScopeStrictAcceptedSpecies": 60417,
+    "boundary": "This sidecar covers only strict accepted COL26.8 species descending from exact Ochrophyta root 5H. Every other Protists and Chromists species is explicitly out of scope.",
+    "rootBoundaryAudit": {
+      "selectedItisRoot": {
+        "tsn": "969917",
+        "scientificName": "Ochrophyta",
+        "rank": "Division",
+        "usage": "accepted"
+      },
+      "selectedCurrentSpecies": 3399,
+      "selectedSpeciesSynonymLinks": 795,
+      "decision": "Use only the exact accepted ITIS Ochrophyta division TSN 969917 and exact accepted COL Ochrophyta phylum usage 5H; no broader or substituted lineage is used."
+    },
+    "itisRoot": {
+      "tsn": "969917",
+      "scientificName": "Ochrophyta",
+      "rank": "Division",
+      "usage": "accepted"
+    },
+    "itisCurrentSpecies": 3399,
+    "itisSpeciesSynonymLinks": 795,
+    "maximumUpdateDates": {
+      "taxonomicUnits": "2026-08-26",
+      "synonymLinks": "2026-08-26"
+    }
+  },
+  "matchingContract": {
+    "normalization": [
+      "Remove the exact trailing COL authorship field from COL scientificName when that suffix is present; no authorship parser is used.",
+      "Normalize Unicode to NFC, replace underscores with spaces, collapse Unicode whitespace and trim.",
+      "For species-rank comparison, remove one parenthesized subgenus token in the exact Genus (Subgenus) species representation; genus and specific epithet must remain unchanged.",
+      "Preserve case, diacritics, punctuation and all remaining name tokens."
+    ],
+    "statuses": {
+      "accepted": "The normalized COL name resolves to exactly one accepted ITIS Ochrophyta species and directly equals that current ITIS name.",
+      "synonym-current-name-redirect": "The normalized COL name equals official ITIS invalid species-name evidence that resolves to exactly one accepted ITIS Ochrophyta species.",
+      "ambiguous": "The normalized exact evidence resolves to more than one accepted ITIS Ochrophyta species TSN.",
+      "unmatched": "No normalized exact accepted-name or official ITIS species-synonym evidence resolves to an accepted ITIS Ochrophyta species."
+    },
+    "prohibited": "No fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered or taxon-substituted matching is used."
+  },
+  "totals": {
+    "total": 1101,
+    "accepted": 1097,
+    "synonymCurrentNameRedirect": 0,
+    "ambiguous": 4,
+    "unmatched": 0,
+    "itisCurrentSpecies": 3399,
+    "itisSpeciesSynonymLinks": 795,
+    "itisUpstreamOnly": 2296
+  },
+  "output": {
+    "descriptor": {
+      "path": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-ochrophyta-sidecar.json",
+      "bytes": 5639,
+      "sha256": "9af9268af58a0468315c667e44cc63a389a658ec71ccb9a309239fc2371afffd"
+    },
+    "colUsageIdShards": [
+      {
+        "path": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-ochrophyta-sidecar-0000.jsonl.gz",
+        "records": 1101,
+        "firstColUsageId": "45W37",
+        "lastColUsageId": "TB8S",
+        "bytes": 31096,
+        "sha256": "925e9d826131c71e289c20924be14a2f0281ae1839390d03f0aa086eea8c732f",
+        "sourceBytes": 419223,
+        "sourceSha256": "e2cc9d61fc94c195a56eeb9f92ecc21f31726440e8af9c692a9dfbfe327d3097"
+      }
+    ],
+    "upstreamOnly": {
+      "path": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-ochrophyta-upstream-only-0000.jsonl.gz",
+      "records": 2296,
+      "firstColUsageId": null,
+      "lastColUsageId": null,
+      "bytes": 28614,
+      "sha256": "a4eb096b3c447616c3d029e89247f31d083e554797885c516ea426be6d242a67",
+      "sourceBytes": 841159,
+      "sourceSha256": "8e345f3a62e674de6cd467d6edb0ac627fa64ac75a426f998db1a2c2019221c7",
+      "colOwnership": null,
+      "firstTsn": "1088",
+      "lastTsn": "1021186"
+    }
+  },
+  "deliveryContract": {
+    "pagesLight": "Pages needs only this small descriptor and may omit all row-level JSONL gzip shards.",
+    "androidIosFull": "Android and iOS complete-data inventories must include the descriptor and every listed row-level shard as the same checksum-addressed bytes.",
+    "runtimeChange": "This import deliberately changes no formal runtime or published release manifest."
+  },
+  "generatedBy": {
+    "scriptPath": "scripts/build-itis-ochrophyta-sidecar.mjs",
+    "scriptSha256": "b715c17c305153844a08b23db93d6e9ace789f6bd8066e8da65886778aeeb3d9",
+    "deterministic": "Pinned input checksums, exact roots, exact SQL, representation-only normalization, code-unit ID ordering and deterministic gzip; no wall-clock fields or fuzzy matching."
+  }
+}
