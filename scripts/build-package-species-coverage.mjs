@@ -12,7 +12,9 @@ const DEFAULT_REGISTRY_ROOT = join(REPOSITORY_ROOT, 'data', 'catalogue-of-life',
 const DEFAULT_PACKAGE_DEFINITIONS = join(REPOSITORY_ROOT, 'scripts', 'package-definitions.mjs')
 const DEFAULT_OUTPUT = join(REPOSITORY_ROOT, 'data', 'registry', 'package-species-coverage.json')
 const DEFAULT_RESOURCE_PACKS_ROOT = join(REPOSITORY_ROOT, 'data', 'catalogue-of-life', 'releases', '2026-08-20', 'resource-packs')
+const DEFAULT_ARCHAEA_LPSN_CROSSWALK = join(REPOSITORY_ROOT, 'data', 'sources', 'archaea-lpsn-crosswalk-col26.8.json')
 const RESOURCE_PACK_SOURCE_LIMIT = 6 * 1024 * 1024
+const ARCHAEA_LPSN_FIELDS = ['colId', 'lpsnId', 'lpsnUrl', 'mappingBasis', 'status']
 
 // Release-scoped CoL usage IDs, ordered from specific teaching packages to
 // broad catalogue-only owners. Fossil/navigation packages without a reliable
@@ -121,6 +123,7 @@ function parseArgs(argv) {
     packageDefinitions: DEFAULT_PACKAGE_DEFINITIONS,
     output: DEFAULT_OUTPUT,
     resourcePacksRoot: DEFAULT_RESOURCE_PACKS_ROOT,
+    archaeaLpsnCrosswalk: DEFAULT_ARCHAEA_LPSN_CROSSWALK,
   }
   for (let index = 0; index < argv.length; index += 1) {
     const value = argv[index]
@@ -128,6 +131,7 @@ function parseArgs(argv) {
     else if (value === '--package-definitions') options.packageDefinitions = resolve(argv[++index])
     else if (value === '--output') options.output = resolve(argv[++index])
     else if (value === '--resource-packs-root') options.resourcePacksRoot = resolve(argv[++index])
+    else if (value === '--archaea-lpsn-crosswalk') options.archaeaLpsnCrosswalk = resolve(argv[++index])
     else if (value === '--help') options.help = true
     else throw new Error(`Unknown argument: ${value}`)
   }
@@ -143,6 +147,7 @@ function usage() {
     '  --package-definitions <path>  Package definitions module',
     '  --output <path>               Compact routing manifest output',
     '  --resource-packs-root <path>  Deterministic nomenclatural resource packs',
+    '  --archaea-lpsn-crosswalk <path>  Pinned COL26.8-to-LPSN identifier snapshot',
   ].join('\n')
 }
 
@@ -303,7 +308,120 @@ function chunkBySourceBytes(records, limit = RESOURCE_PACK_SOURCE_LIMIT) {
   return chunks
 }
 
-function writeResourcePacks({ resourcePacksRoot, registryRoot, sourceManifest, resourcePackRecords, packageCounts }) {
+function loadArchaeaLpsnCrosswalk(path) {
+  const bytes = readFileSync(path)
+  const snapshot = JSON.parse(bytes.toString('utf8'))
+  const source = snapshot.source ?? {}
+  if (snapshot.schemaVersion !== 1
+    || snapshot.crosswalkType !== 'release-pinned-external-name-identifier-crosswalk'
+    || source.provider !== 'LPSN'
+    || source.catalogueRelease !== 'COL26.8'
+    || source.catalogueReleaseDate !== '2026-08-20'
+    || source.checklistBankDatasetKey !== 316115
+    || source.sourceDatasetKey !== 2015
+    || source.sourceDatasetVersion !== '2026-07-26'
+    || source.retrievedAt !== '2026-08-31'
+    || source.license !== 'CC-BY-SA-4.0'
+    || snapshot.counts?.eligible !== 790
+    || snapshot.counts?.resolved !== 790
+    || snapshot.counts?.withheld !== 0
+    || snapshot.integrity?.algorithm !== 'sha256'
+    || snapshot.integrity?.requestCount !== 790
+    || !Array.isArray(snapshot.records)
+    || snapshot.records.length !== 790) {
+    throw new Error('Archaea LPSN crosswalk does not match the pinned COL26.8/LPSN 2026-07-26 snapshot contract')
+  }
+  const colIds = new Set()
+  const lpsnIds = new Set()
+  for (const record of snapshot.records) {
+    if (!record.colId || colIds.has(record.colId)
+      || !/^\d+$/.test(record.lpsnId ?? '') || lpsnIds.has(record.lpsnId)
+      || record.lpsnUrl !== source.lpsnUrlTemplate.replace('{lpsnId}', record.lpsnId)
+      || record.mappingBasis !== 'checklistbank-source-record'
+      || record.status !== 'resolved'
+      || !/^[a-f0-9]{64}$/.test(record.sourceResponseSha256 ?? '')) {
+      throw new Error(`Invalid or duplicate Archaea LPSN crosswalk record: ${record.colId ?? 'missing COL ID'}`)
+    }
+    colIds.add(record.colId)
+    lpsnIds.add(record.lpsnId)
+  }
+  const requestLedgerBytes = Buffer.from(`${snapshot.records.map((record) => JSON.stringify({
+    colId: record.colId,
+    requestUrl: source.endpointTemplate.replace('{colId}', encodeURIComponent(record.colId)),
+    sourceResponseSha256: record.sourceResponseSha256,
+  })).join('\n')}\n`, 'utf8')
+  if (sha256(requestLedgerBytes) !== snapshot.integrity.requestLedgerSha256) {
+    throw new Error('Archaea LPSN crosswalk request-ledger SHA-256 does not match its records')
+  }
+  return { snapshot, bytes, path }
+}
+
+function buildArchaeaLpsnExtension({ crosswalk, speciesRecords, packageRoot }) {
+  const speciesById = new Map(speciesRecords.map((record) => [record.id, record]))
+  if (speciesRecords.some((record) => String(record.sourceDatasetId) !== String(crosswalk.snapshot.source.sourceDatasetKey))) {
+    throw new Error('Archaea LPSN extension eligibility requires sourceDatasetId=2015 for every species')
+  }
+  const crosswalkIds = new Set(crosswalk.snapshot.records.map((record) => record.colId))
+  const crosswalkByColId = new Map(crosswalk.snapshot.records.map((record) => [record.colId, record]))
+  const missing = speciesRecords.filter((record) => !crosswalkIds.has(record.id)).map((record) => record.id)
+  const extra = crosswalk.snapshot.records.filter((record) => !speciesById.has(record.colId)).map((record) => record.colId)
+  if (missing.length || extra.length) {
+    throw new Error(`Archaea LPSN crosswalk membership differs from the species shard: ${missing.length} missing, ${extra.length} extra`)
+  }
+  const runtimeRecords = speciesRecords.map((species) => {
+    const record = crosswalkByColId.get(species.id)
+    return Object.fromEntries(ARCHAEA_LPSN_FIELDS.map((field) => [field, record[field]]))
+  })
+  const source = ndjsonBytes(runtimeRecords)
+  const compressed = Buffer.from(deterministicGzip(source, { level: 9 }))
+  const name = 'lpsn-000.jsonl.gz'
+  writeFileSync(join(packageRoot, name), compressed)
+  const file = {
+    path: `archaea/${name}`,
+    records: runtimeRecords.length,
+    bytes: compressed.byteLength,
+    sourceBytes: source.byteLength,
+    sha256: sha256(compressed),
+    sourceSha256: sha256(source),
+    encoding: 'gzip',
+    mediaType: 'application/x-ndjson',
+  }
+  const pinnedSource = crosswalk.snapshot.source
+  return {
+    id: 'lpsn-identifiers',
+    recordType: 'external-name-identifier-crosswalk',
+    provider: 'LPSN',
+    source: {
+      catalogueRelease: pinnedSource.catalogueRelease,
+      catalogueReleaseDate: pinnedSource.catalogueReleaseDate,
+      checklistBankDatasetKey: pinnedSource.checklistBankDatasetKey,
+      sourceDatasetKey: pinnedSource.sourceDatasetKey,
+      sourceDatasetVersion: pinnedSource.sourceDatasetVersion,
+      retrievedAt: pinnedSource.retrievedAt,
+      endpointTemplate: pinnedSource.endpointTemplate,
+      lpsnUrlTemplate: pinnedSource.lpsnUrlTemplate,
+      informationUrl: pinnedSource.informationUrl,
+      license: pinnedSource.license,
+      licenseUrl: pinnedSource.licenseUrl,
+      citation: pinnedSource.citation,
+      canonicalCrosswalkPath: 'data/sources/archaea-lpsn-crosswalk-col26.8.json',
+      canonicalCrosswalkSha256: sha256(crosswalk.bytes),
+      requestIntegrity: crosswalk.snapshot.integrity,
+    },
+    eligibility: 'sourceDatasetId=2015 for every accepted species in this pack',
+    counts: { eligible: speciesRecords.length, resolved: runtimeRecords.length, withheld: 0 },
+    fields: ARCHAEA_LPSN_FIELDS,
+    files: [file],
+    totalCompressedBytes: file.bytes,
+    totalSourceBytes: file.sourceBytes,
+    limitations: [
+      'Source linkage is not an ecology, genome, fossil, media, phylogeny, dossier, or expert-review claim.',
+      'The LPSN URL identifies a release-pinned nomenclatural source record; later taxonomic opinions may change.',
+    ],
+  }
+}
+
+function writeResourcePacks({ resourcePacksRoot, registryRoot, sourceManifest, resourcePackRecords, packageCounts, archaeaLpsnCrosswalk }) {
   const expectedRoot = resolve(dirname(registryRoot), 'resource-packs')
   if (resourcePacksRoot !== expectedRoot) throw new Error(`Resource-pack output must be the sibling of the selected registry: ${expectedRoot}`)
   rmSync(resourcePacksRoot, { recursive: true, force: true })
@@ -340,6 +458,9 @@ function writeResourcePacks({ resourcePacksRoot, registryRoot, sourceManifest, r
       }
     })
     const missingSourceDatasetId = records.filter((record) => record.sourceDatasetId === null || record.sourceDatasetId === undefined).length
+    const extensions = route.id === 'archaea'
+      ? [buildArchaeaLpsnExtension({ crosswalk: archaeaLpsnCrosswalk, speciesRecords: records, packageRoot })]
+      : []
     const manifest = {
       schemaVersion: 1,
       packageType: 'static-nomenclatural-resource-pack',
@@ -364,6 +485,7 @@ function writeResourcePacks({ resourcePacksRoot, registryRoot, sourceManifest, r
       missingSourceDatasetId,
       fields: ['id', 'parentId', 'scientificName', 'authorship', 'rank', 'status', 'sourceDatasetId'],
       files,
+      ...(extensions.length ? { extensions } : {}),
       totalCompressedBytes: files.reduce((sum, file) => sum + file.bytes, 0),
       totalSourceBytes: files.reduce((sum, file) => sum + file.sourceBytes, 0),
       evidenceBoundary: 'This package preserves official COL26.8 nomenclatural and placement fields only; it does not assert an Evo Atlas dossier, biological evidence, media, fossils, ecology, translation, or expert review.',
@@ -379,6 +501,12 @@ function writeResourcePacks({ resourcePacksRoot, registryRoot, sourceManifest, r
       fileCount: files.length,
       totalCompressedBytes: manifest.totalCompressedBytes,
       totalSourceBytes: manifest.totalSourceBytes,
+      ...(extensions.length ? {
+        extensionCount: extensions.length,
+        extensionFileCount: extensions.reduce((sum, extension) => sum + extension.files.length, 0),
+        extensionCompressedBytes: extensions.reduce((sum, extension) => sum + extension.totalCompressedBytes, 0),
+        extensionSourceBytes: extensions.reduce((sum, extension) => sum + extension.totalSourceBytes, 0),
+      } : {}),
     })
   }
   const manifest = {
@@ -409,6 +537,7 @@ async function main() {
   }
   const sourceManifestPath = join(options.registryRoot, 'manifest.json')
   const sourceManifest = JSON.parse(readFileSync(sourceManifestPath, 'utf8'))
+  const archaeaLpsnCrosswalk = loadArchaeaLpsnCrosswalk(options.archaeaLpsnCrosswalk)
   const packageModule = await import(`${pathToFileURL(options.packageDefinitions).href}?sha=${await sha256File(options.packageDefinitions)}`)
   const packageDefinitions = packageModule.packageDefinitions
   const packageIds = new Set(packageDefinitions.map((definition) => definition.id))
@@ -437,6 +566,7 @@ async function main() {
     sourceManifest,
     resourcePackRecords,
     packageCounts,
+    archaeaLpsnCrosswalk,
   })
 
   const routeByOwnerId = new Map(routes.map((route) => [route.packageId, route]))

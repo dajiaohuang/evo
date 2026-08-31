@@ -35,6 +35,8 @@ dist-mobile/                 # 临时生成的移动客户端壳，不提交
 
 原生应用安装后即可在断网状态读取当前内置发布版，杀进程重启也不依赖缓存配额。升级应用会替换内置数据版本；在线外部 DOI、来源站点和用户主动打开的链接仍需要网络。Web 新数据版本发布后仍需重新保存对应版本，旧版本缓存可在“数据”页清除。
 
+rc57 的 Archaea 命名包在原有 790 条 COL26.8 species shard 之外增加一份 8,116 字节的 LPSN 标识 sidecar。它与 Web 使用完全相同的路径、字节数和 SHA-256，经 `release-files.json` 自动进入 Android/iOS 资源；重复 ZIP 仍不进入原生包。原生测试会核对 790 条映射、manifest、sidecar 与 inventory 的字节和校验和，但不会把 LPSN 标识扩展解释为生态、基因组、菌株、化石、媒体、系统发育或专家评审档案。
+
 原生构建固定使用相对数据根 `./data/`；Web 发布根由 Vite 的 `/evo/` 基址决定。不要在 Java/Kotlin/Swift 代码中复制数据 URL。
 
 ## 准备环境

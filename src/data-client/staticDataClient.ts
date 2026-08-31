@@ -393,6 +393,37 @@ export async function loadCatalogueResourcePack(packageId: string): Promise<{
   return { manifest, records }
 }
 
+export async function loadCatalogueLpsnIdentifiers(): Promise<{
+  extension: import('./types').CatalogueResourcePackExtension
+  records: import('./types').CatalogueLpsnIdentifierRecord[]
+}> {
+  const manifest = await loadCatalogueResourcePackManifest('archaea')
+  const extension = manifest.extensions?.find((candidate) => candidate.id === 'lpsn-identifiers')
+  if (!extension
+    || extension.provider !== 'LPSN'
+    || extension.recordType !== 'external-name-identifier-crosswalk'
+    || extension.counts.eligible !== manifest.acceptedSpeciesCount
+    || extension.counts.withheld !== 0) {
+    throw new Error('Archaea LPSN identifier extension does not match the current nomenclatural pack')
+  }
+  const shards = await Promise.all(extension.files.map((file) => loadRuntimeFile<import('./types').CatalogueLpsnIdentifierRecord[]>(file)))
+  for (const [index, records] of shards.entries()) {
+    if (records.length !== extension.files[index].records) {
+      throw new Error(`Archaea LPSN identifier shard ${index + 1} does not match its published record count`)
+    }
+  }
+  const records = shards.flat()
+  if (records.length !== extension.counts.resolved) {
+    throw new Error('Archaea LPSN identifiers do not match the published resolved count')
+  }
+  return { extension, records }
+}
+
+export async function loadCatalogueLpsnIdentifier(colId: string): Promise<import('./types').CatalogueLpsnIdentifierRecord | null> {
+  const { records } = await loadCatalogueLpsnIdentifiers()
+  return records.find((record) => record.colId === colId) ?? null
+}
+
 export function resolveCatalogueSpeciesOwner(
   lineage: Pick<CatalogueHierarchyNodeRecord, 'id'>[],
   ownership: CatalogueSpeciesOwnership,

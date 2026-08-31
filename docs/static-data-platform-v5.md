@@ -6,6 +6,10 @@ Evo Atlas publishes one static application and one static scientific-data namesp
 
 rc56 delivers the rc55 source-bound research presets through the runtime protocol. Each of the 24 rich-content package manifests now names a checksummed research-examples gzip payload, and the existing manifest-driven archive/offline/release-inventory path carries the same files into package ZIPs, browser storage and Android/iOS assets. The bilingual Catalog loads all 24 examples, verifies package/example/link counts and exposes their actual Explorer or comparison routes. The 34 package-local claim links, two available phylogeny hypotheses and twenty-two `unmapped` states are unchanged. These routes are evidence-inspection presets, not inferred phylogenies or claims of exact origin, global FAD/LAD, crown age, continuous lineage duration, direct ancestry or causation.
 
+The Archaea nomenclatural resource pack has one source-specific `extensions[]` entry that keeps all 790 COL26.8 species rows unchanged while adding a deterministic LPSN identifier sidecar. Its canonical crosswalk pins ChecklistBank dataset `316115`, source dataset `2015`, LPSN version `2026-07-26` and retrieval date `2026-08-31`; it stores a SHA-256 for every exact source-record response and one aggregate request-ledger hash. The extension is separately licensed under CC BY-SA 4.0 and links every identifier to its specific LPSN page. It is nomenclatural linkage only, not a species dossier or evidence of ecology, genomes, strains, fossils, media, phylogeny or expert review. Normal builds read the committed snapshot offline; network retrieval is an explicit refresh action.
+
+The pinned snapshot was acquired with `node scripts/fetch-archaea-lpsn-crosswalk.mjs --retrieved-at 2026-08-31`. A later refresh must use an explicit new retrieval date, review the changed mappings and response hashes, and regenerate the resource packs; the normal `data:packages:species` build never contacts ChecklistBank or LPSN.
+
 rc54 PBDB status supersedes the older query totals later in this section. The 24 schema-v2 ledgers now contain 251 complete subqueries across 413 pages, 1,007,973 overlapping returned rows, 595,492 package-unique occurrence IDs and 100,425 deterministic retained details. Another 141 concepts remain withheld because they fail pinned name, rank, complete-lineage, concept-review, applicability or fixed size boundaries. Of 147 formerly stale ontology-expansion mappings, 103 passed exact accepted-name, normalized-rank and compatible-lineage checks; the other 44 retain explicit reasons and any lineage-conflicting candidates are not published as resolved IDs.
 
 rc53 supersedes the earlier residual-partition description below: 24 curated-content packages own 1,819,973 accepted species, seven deterministic static nomenclatural resource packs own the remaining 363,160, and the eighth residual route is an explicit zero-record boundary. The seven packs contain fourteen gzip NDJSON species shards plus one shared 160-checklist source ledger; they provide complete release-scoped names and classification placement, not generated dossiers, evidence, media or expert review.
@@ -33,11 +37,14 @@ data/releases/<datasetVersion>/catalogue/hierarchy/nodes/id-<hash-prefix>.jsonl.
 data/releases/<datasetVersion>/catalogue/hierarchy/children/parent-<hash-prefix>.jsonl.gz
 data/releases/<datasetVersion>/catalogue/resource-packs/<package>/manifest.json
 data/releases/<datasetVersion>/catalogue/resource-packs/<package>/species-<shard>.jsonl.gz
+data/releases/<datasetVersion>/catalogue/resource-packs/archaea/lpsn-000.jsonl.gz
 data/releases/<datasetVersion>/catalogue/resource-packs/sources.json.gz
 data/releases/<datasetVersion>/downloads/<package>-<version>.zip
 ```
 
 The browser fetches these files through `src/data-client/staticDataClient.ts`. Package manifests are checksum-verified like payloads, and their `version` must equal the bootstrap `datasetVersion`. On a checksum mismatch the client removes the URL from browser caches and performs one network refetch before failing. Versioned URLs and memory-cache keys prevent release mixing.
+
+Resource-pack extension files are separate from `manifest.files`, so they cannot alter accepted-species shard counts. The runtime builder copies their source bytes unchanged, adds release URLs, includes them in the owning ZIP and release inventory, and therefore supplies the same checksummed bytes to Web offline storage and the Android/iOS full-data bundle. The catalogue client loads the Archaea LPSN extension lazily and independently of the species shard.
 
 ## Paleogeography boundary
 

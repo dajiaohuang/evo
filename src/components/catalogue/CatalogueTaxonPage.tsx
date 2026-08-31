@@ -2,6 +2,7 @@ import { useEffect, useMemo, useState } from 'react'
 import {
   loadCatalogueChildren,
   loadCatalogueHierarchyNode,
+  loadCatalogueLpsnIdentifiers,
   loadCatalogueLineage,
   loadCatalogueManifest,
   loadCatalogueSpeciesOwnership,
@@ -12,6 +13,8 @@ import type {
   CatalogueHierarchyChildRecord,
   CatalogueHierarchyNodeRecord,
   CatalogueRuntimeManifest,
+  CatalogueLpsnIdentifierRecord,
+  CatalogueResourcePackExtension,
   CatalogueSpeciesOwnership,
   CatalogueTaxonRecord,
 } from '../../data-client/types'
@@ -57,6 +60,8 @@ function CatalogueTaxonRecord({ release, id, onNavigate }: CatalogueTaxonPagePro
   const [ownershipStatus, setOwnershipStatus] = useState<SectionStatus>('idle')
   const [sources, setSources] = useState<Awaited<ReturnType<typeof loadCatalogueSourceChecklists>>>([])
   const [sourcesStatus, setSourcesStatus] = useState<SectionStatus>('idle')
+  const [lpsn, setLpsn] = useState<{ record: CatalogueLpsnIdentifierRecord; extension: CatalogueResourcePackExtension } | null>(null)
+  const [lpsnStatus, setLpsnStatus] = useState<SectionStatus>('idle')
   const [childFilter, setChildFilter] = useState('')
   const [visibleChildren, setVisibleChildren] = useState(100)
 
@@ -140,6 +145,25 @@ function CatalogueTaxonRecord({ release, id, onNavigate }: CatalogueTaxonPagePro
     if (!node || node.projection !== 'accepted-species-hierarchy' || node.rank !== 'species' || node.status !== 'accepted' || !ownership || lineageStatus !== 'ready') return null
     return resolveCatalogueSpeciesOwner(lineage, ownership)
   }, [lineage, lineageStatus, node, ownership])
+
+  useEffect(() => {
+    let cancelled = false
+    if (!node || speciesOwner?.entry.id !== 'archaea') {
+      // eslint-disable-next-line react-hooks/set-state-in-effect -- discard an identifier from a previously selected archaeal record immediately
+      setLpsn(null)
+      setLpsnStatus('idle')
+      return () => { cancelled = true }
+    }
+    setLpsn(null)
+    setLpsnStatus('loading')
+    void loadCatalogueLpsnIdentifiers().then(({ extension, records }) => {
+      if (cancelled) return
+      const record = records.find((candidate) => candidate.colId === node.id)
+      setLpsn(record ? { record, extension } : null)
+      setLpsnStatus('ready')
+    }).catch(() => { if (!cancelled) setLpsnStatus('error') })
+    return () => { cancelled = true }
+  }, [node, speciesOwner?.entry.id])
   const isHierarchyMember = node?.projection === 'accepted-species-hierarchy'
   const number = (value: number) => value.toLocaleString(zh ? 'zh-CN' : 'en-US')
 
@@ -285,6 +309,15 @@ function CatalogueTaxonRecord({ release, id, onNavigate }: CatalogueTaxonPagePro
               <div>{source.informationUrl && <a href={source.informationUrl} target="_blank" rel="noreferrer">{zh ? '来源站点' : 'Source site'} ↗</a>}{source.doi && <a href={`https://doi.org/${source.doi}`} target="_blank" rel="noreferrer">DOI ↗</a>}</div>
             </div>}
             {node.sourceDatasetId && sourcesStatus === 'ready' && !source && <p>{zh ? `来源 datasetID ${node.sourceDatasetId} 未列入本版来源清单。` : `Source datasetID ${node.sourceDatasetId} is not listed in this release's source checklist file.`}</p>}
+            {speciesOwner?.entry.id === 'archaea' && (lpsnStatus === 'idle' || lpsnStatus === 'loading') && <p>{zh ? '正在读取固定 LPSN 标识映射…' : 'Loading the pinned LPSN identifier mapping…'}</p>}
+            {speciesOwner?.entry.id === 'archaea' && lpsnStatus === 'error' && <p className="catalogue-inline-error">{zh ? 'LPSN 标识分片读取或校验失败；COL26.8 分类记录仍可使用。' : 'The LPSN identifier shard could not be read or verified; the COL26.8 record remains available.'}</p>}
+            {speciesOwner?.entry.id === 'archaea' && lpsnStatus === 'ready' && !lpsn && <p className="catalogue-inline-error">{zh ? '本古菌记录未在固定 LPSN 映射中找到；未使用名称猜测替代。' : 'This archaeal record is absent from the pinned LPSN mapping; no name-based substitute was inferred.'}</p>}
+            {lpsnStatus === 'ready' && lpsn?.record.colId === node.id && <div className="catalogue-lpsn-card">
+              <strong>{zh ? 'LPSN 固定来源记录' : 'Pinned LPSN source record'}</strong>
+              <span>LPSN {lpsn.extension.source.sourceDatasetVersion} · {zh ? '获取于' : 'retrieved'} {lpsn.extension.source.retrievedAt}</span>
+              <p>{zh ? '该标识通过固定 COL26.8 / ChecklistBank 316115 来源记录映射，不是按名称猜测，也不代表生态、基因组、菌株、化石、媒体、系统发育或专家评审档案已经完成。' : 'This identifier follows the pinned COL26.8 / ChecklistBank 316115 source record. It is not a name-based guess or a claim of completed ecology, genome, strain, fossil, media, phylogeny, or expert-review content.'}</p>
+              <div><a href={lpsn.record.lpsnUrl} target="_blank" rel="noreferrer">{zh ? '打开具体 LPSN 记录' : 'Open the specific LPSN record'} ↗</a><a href={lpsn.extension.source.licenseUrl} target="_blank" rel="noreferrer">CC BY-SA 4.0 ↗</a></div>
+            </div>}
           </section>
           <section>
             <span>04</span><h2>{zh ? '证据边界' : 'Evidence boundary'}</h2>

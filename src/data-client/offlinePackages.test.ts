@@ -147,4 +147,56 @@ describe('complete Atlas offline storage', () => {
       expect([...stored.keys()].some((url) => url.endsWith(manifests[packageId].files.researchExamples.url))).toBe(true)
     }
   })
+
+  it('stores nomenclatural extension shards with the selected catalogue resource pack', async () => {
+    const datasetVersion = 'dataset-lpsn'
+    const releaseBase = `releases/${datasetVersion}/`
+    const catalogueFile = { url: `${releaseBase}catalogue/manifest.json` }
+    const sourcesFile = { url: `${releaseBase}catalogue/sources.json` }
+    const packFile = { url: `${releaseBase}catalogue/resource-packs/archaea/manifest.json`, acceptedSpeciesCount: 2, fileCount: 1 }
+    const speciesFile = { url: `${releaseBase}catalogue/resource-packs/archaea/species-000.jsonl.gz`, records: 2 }
+    const lpsnFile = { url: `${releaseBase}catalogue/resource-packs/archaea/lpsn-000.jsonl.gz`, records: 2 }
+    const current = {
+      datasetVersion,
+      releaseBase,
+      catalogue: { manifest: catalogueFile, releaseAlias: 'TEST-COL', acceptedSpecies: 2 },
+    }
+    const catalogue = {
+      releaseAlias: 'TEST-COL',
+      counts: { acceptedSpecies: 2 },
+      resourcePacks: { manifests: { archaea: packFile }, sharedSources: sourcesFile },
+    }
+    const pack = {
+      packageId: 'archaea', packageType: 'static-nomenclatural-resource-pack', version: datasetVersion,
+      source: { releaseAlias: 'TEST-COL' }, acceptedSpeciesCount: 2, files: [speciesFile],
+      extensions: [{ id: 'lpsn-identifiers', files: [lpsnFile] }],
+    }
+    const responses = new Map<string, unknown>([
+      ['current.json', current], [catalogueFile.url, catalogue], [packFile.url, pack],
+      [sourcesFile.url, []], [speciesFile.url, []], [lpsnFile.url, []],
+    ])
+    const fetchMock = vi.fn(async (input: RequestInfo | URL) => {
+      const url = String(input)
+      const entry = [...responses.entries()].find(([suffix]) => url.endsWith(suffix))
+      return entry ? jsonResponse(entry[1]) : new Response(null, { status: 404 })
+    })
+    const stored = new Map<string, Response>()
+    const cache = {
+      match: vi.fn(async (url: string) => stored.get(url)?.clone()),
+      put: vi.fn(async (url: string, response: Response) => { stored.set(url, response.clone()) }),
+      delete: vi.fn(async (url: string) => stored.delete(url)),
+    }
+    vi.stubGlobal('fetch', fetchMock)
+    vi.stubGlobal('caches', {
+      open: vi.fn(async () => cache), match: vi.fn(async (url: string) => stored.get(url)?.clone()),
+      keys: vi.fn(async () => []), delete: vi.fn(async () => true),
+    })
+    vi.stubGlobal('Worker', undefined)
+
+    const { saveCatalogueResourcePackOffline } = await import('./offlinePackages')
+    await saveCatalogueResourcePackOffline('archaea')
+    for (const file of [catalogueFile, sourcesFile, packFile, speciesFile, lpsnFile]) {
+      expect([...stored.keys()].some((url) => url.endsWith(file.url))).toBe(true)
+    }
+  })
 })

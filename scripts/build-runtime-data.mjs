@@ -775,10 +775,30 @@ for (const sourcePackDescriptor of catalogueResourcePacksSourceManifest.packs) {
   if (runtimeFiles.reduce((sum, file) => sum + file.records, 0) !== sourcePack.acceptedSpeciesCount) {
     throw new Error(`${sourcePack.packageId}: catalogue resource-pack shard counts do not match its manifest`)
   }
+  const runtimeExtensions = (sourcePack.extensions ?? []).map((extension) => {
+    const extensionFiles = extension.files.map((sourceFile) => {
+      const sourcePath = join(catalogueResourcePacksSourceRoot, ...sourceFile.path.split('/'))
+      const written = write(`catalogue/resource-packs/${sourceFile.path}`, readFileSync(sourcePath))
+      if (written.sha256 !== sourceFile.sha256 || written.bytes !== sourceFile.bytes) {
+        throw new Error(`${sourcePack.packageId}/${extension.id}: extension shard changed without rebuilding its manifest: ${sourceFile.path}`)
+      }
+      return { ...sourceFile, url: written.url }
+    })
+    if (extensionFiles.reduce((sum, file) => sum + file.records, 0) !== extension.counts.resolved) {
+      throw new Error(`${sourcePack.packageId}/${extension.id}: extension shard counts do not match its manifest`)
+    }
+    return { ...extension, files: extensionFiles }
+  })
+  const runtimeExtensionFileCount = runtimeExtensions.reduce((sum, extension) => sum + extension.files.length, 0)
+  if (runtimeExtensions.length !== (sourcePackDescriptor.extensionCount ?? 0)
+    || runtimeExtensionFileCount !== (sourcePackDescriptor.extensionFileCount ?? 0)) {
+    throw new Error(`${sourcePack.packageId}: resource-pack extensions do not match the collection manifest`)
+  }
   const runtimePackManifest = {
     ...sourcePack,
     version: sourceManifest.datasetVersion,
     files: runtimeFiles,
+    ...(runtimeExtensions.length ? { extensions: runtimeExtensions } : {}),
     download: `${releasePrefix}/downloads/${sourcePack.packageId}-${sourceManifest.datasetVersion}.zip`,
   }
   const runtimeManifestFile = writeJson(`catalogue/resource-packs/${sourcePack.packageId}/manifest.json`, runtimePackManifest, true)
@@ -786,11 +806,15 @@ for (const sourcePackDescriptor of catalogueResourcePacksSourceManifest.packs) {
     ...runtimeManifestFile,
     acceptedSpeciesCount: sourcePack.acceptedSpeciesCount,
     fileCount: runtimeFiles.length,
+    ...(runtimeExtensions.length ? { extensionCount: runtimeExtensions.length, extensionFileCount: runtimeExtensionFileCount } : {}),
   }
   catalogueResourcePackAcceptedSpecies += sourcePack.acceptedSpeciesCount
 
   const zipEntries = { 'manifest.json': strToU8(`${JSON.stringify(runtimePackManifest, null, 2)}\n`) }
   for (const file of runtimeFiles) {
+    zipEntries[basename(file.url)] = new Uint8Array(readFileSync(join(outputRoot, file.url)))
+  }
+  for (const file of runtimeExtensions.flatMap((extension) => extension.files)) {
     zipEntries[basename(file.url)] = new Uint8Array(readFileSync(join(outputRoot, file.url)))
   }
   write(`downloads/${sourcePack.packageId}-${sourceManifest.datasetVersion}.zip`, deterministicZip(zipEntries, { level: 0 }))

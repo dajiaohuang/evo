@@ -98,6 +98,7 @@ final class AppConfigurationTests: XCTestCase {
         XCTAssertEqual(resourcePacks["acceptedSpeciesCount"] as? Int, 363_160)
         let packManifests = try XCTUnwrap(resourcePacks["manifests"] as? [String: [String: Any]])
         var resourcePackRecords = 0
+        var lpsnIdentifierRecords = 0
         for packageId in ["archaea", "bacteria", "fungi", "other-animals", "other-plants", "protists-chromists", "viruses"] {
             let manifestDescriptor = try XCTUnwrap(packManifests[packageId])
             let manifestPath = try XCTUnwrap(manifestDescriptor["url"] as? String)
@@ -117,9 +118,29 @@ final class AppConfigurationTests: XCTestCase {
                 packageRecords += try XCTUnwrap(shard["records"] as? Int)
             }
             XCTAssertEqual(pack["acceptedSpeciesCount"] as? Int, packageRecords)
+            if packageId == "archaea" {
+                let extensions = try XCTUnwrap(pack["extensions"] as? [[String: Any]])
+                XCTAssertEqual(extensions.count, 1)
+                let lpsn = try XCTUnwrap(extensions.first)
+                XCTAssertEqual(lpsn["id"] as? String, "lpsn-identifiers")
+                XCTAssertEqual(lpsn["provider"] as? String, "LPSN")
+                XCTAssertEqual((lpsn["counts"] as? [String: Any])?["resolved"] as? Int, 790)
+                let extensionFiles = try XCTUnwrap(lpsn["files"] as? [[String: Any]])
+                for extensionFile in extensionFiles {
+                    let extensionPath = try XCTUnwrap(extensionFile["url"] as? String)
+                    let extensionInventoryRecord = try XCTUnwrap(files.first { ($0["url"] as? String) == extensionPath }, "LPSN extension shard missing from release inventory")
+                    XCTAssertEqual(extensionFile["bytes"] as? Int, extensionInventoryRecord["bytes"] as? Int)
+                    XCTAssertEqual(extensionFile["sha256"] as? String, extensionInventoryRecord["sha256"] as? String)
+                    try verifyBundled(record: extensionInventoryRecord, below: dataRoot)
+                    lpsnIdentifierRecords += try XCTUnwrap(extensionFile["records"] as? Int)
+                }
+            } else {
+                XCTAssertNil(pack["extensions"], "Only Archaea may carry the LPSN extension")
+            }
             resourcePackRecords += packageRecords
         }
         XCTAssertEqual(resourcePackRecords, 363_160)
+        XCTAssertEqual(lpsnIdentifierRecords, 790)
     }
 
     private func verifyBundled(record: [String: Any], below dataRoot: URL) throws {

@@ -43,6 +43,66 @@
       "mediaType": "application/x-ndjson"
     }
   ],
+  "extensions": [
+    {
+      "id": "lpsn-identifiers",
+      "recordType": "external-name-identifier-crosswalk",
+      "provider": "LPSN",
+      "source": {
+        "catalogueRelease": "COL26.8",
+        "catalogueReleaseDate": "2026-08-20",
+        "checklistBankDatasetKey": 316115,
+        "sourceDatasetKey": 2015,
+        "sourceDatasetVersion": "2026-07-26",
+        "retrievedAt": "2026-08-31",
+        "endpointTemplate": "https://api.checklistbank.org/dataset/316115/nameusage/{colId}/source",
+        "lpsnUrlTemplate": "https://lpsn.dsmz.de/taxon/{lpsnId}",
+        "informationUrl": "https://lpsn.dsmz.de/",
+        "license": "CC-BY-SA-4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "citation": "Freese et al. (2026), List of Prokaryotic names with Standing in Nomenclature (LPSN), https://doi.org/10.1093/nar/gkaf1110",
+        "canonicalCrosswalkPath": "data/sources/archaea-lpsn-crosswalk-col26.8.json",
+        "canonicalCrosswalkSha256": "563b52d0f9a582dc20a39f7cc28821d595b1b6d579f9095a2235beb016252d25",
+        "requestIntegrity": {
+          "algorithm": "sha256",
+          "responseHashBasis": "Exact UTF-8 response bytes returned by the pinned ChecklistBank source-record endpoint.",
+          "requestCount": 790,
+          "requestLedgerSha256": "28c037e4414652643de7d0980db277fe9a72ea545c2f63595370d4169cdb5a3e"
+        }
+      },
+      "eligibility": "sourceDatasetId=2015 for every accepted species in this pack",
+      "counts": {
+        "eligible": 790,
+        "resolved": 790,
+        "withheld": 0
+      },
+      "fields": [
+        "colId",
+        "lpsnId",
+        "lpsnUrl",
+        "mappingBasis",
+        "status"
+      ],
+      "files": [
+        {
+          "path": "archaea/lpsn-000.jsonl.gz",
+          "records": 790,
+          "bytes": 8116,
+          "sourceBytes": 115491,
+          "sha256": "41aee5e8a3c317fd58b9324ae8faec6fd91eaedd165bd4eeedafa68aad1f3286",
+          "sourceSha256": "a1923047558fd3d0dc4df47284d8f9d31f52d774808be232a66f368c280280a7",
+          "encoding": "gzip",
+          "mediaType": "application/x-ndjson"
+        }
+      ],
+      "totalCompressedBytes": 8116,
+      "totalSourceBytes": 115491,
+      "limitations": [
+        "Source linkage is not an ecology, genome, fossil, media, phylogeny, dossier, or expert-review claim.",
+        "The LPSN URL identifies a release-pinned nomenclatural source record; later taxonomic opinions may change."
+      ]
+    }
+  ],
   "totalCompressedBytes": 17365,
   "totalSourceBytes": 156379,
   "evidenceBoundary": "This package preserves official COL26.8 nomenclatural and placement fields only; it does not assert an Evo Atlas dossier, biological evidence, media, fossils, ecology, translation, or expert review."
