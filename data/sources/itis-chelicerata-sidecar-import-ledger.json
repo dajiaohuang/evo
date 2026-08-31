@@ -1,0 +1,254 @@
+{
+  "schemaVersion": 1,
+  "importType": "COL26.8-to-ITIS-exact-chelicerata-nomenclatural-sidecar",
+  "generatedFrom": {
+    "sourcePath": "data/sources/itis-2026-08-26.json",
+    "sourceSha256": "38a7a55b4e98cafc66790e47f6bd637e298e23fd691e4771c755b38e4a02d7fc",
+    "itisDatabaseMember": "itisSqlite082626/ITIS.sqlite",
+    "itisDatabaseSha256": "ea7304536cfd7b1e2636d383911ca7931fc83d9ab1194ca2a3c020ea2daf1719",
+    "colRegistryManifestPath": "data/catalogue-of-life/releases/2026-08-20/registry/manifest.json",
+    "colRegistryManifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151",
+    "colOwnershipPath": "data/registry/package-species-coverage.json",
+    "colOwnershipSha256": "a297bc8a67ce60806fdee733464a79bfcc42e255f7e59535b01f94013c19dfea"
+  },
+  "scopeAudit": {
+    "colRootUsageId": "KZWYC",
+    "colRootScientificName": "Chelicerata",
+    "colStrictAcceptedSpecies": 99511,
+    "excludedColRootUsageId": "TRL",
+    "excludedColRootScientificName": "Trilobita",
+    "excludedStrictAcceptedSpecies": 4615,
+    "packageStrictAcceptedSpecies": 104126,
+    "packageOutOfScopeStrictAcceptedSpecies": 4615,
+    "boundary": "This mixed package contains extinct Trilobita and living Chelicerata. This sidecar covers only strict accepted COL26.8 species descending from exact Chelicerata root KZWYC; all Trilobita species are explicitly non-applicable because current ITIS has no Trilobita authority branch.",
+    "itisRoot": {
+      "tsn": "82697",
+      "scientificName": "Chelicerata",
+      "rank": "Subphylum",
+      "usage": "valid"
+    },
+    "itisCurrentSpecies": 80938,
+    "itisSpeciesSynonymLinks": 10036,
+    "maximumUpdateDates": {
+      "taxonomicUnits": "2026-08-26",
+      "synonymLinks": "2026-08-26"
+    }
+  },
+  "matchingContract": {
+    "normalization": [
+      "Remove the exact trailing COL authorship field from COL scientificName when that suffix is present; no authorship parser is used.",
+      "Normalize Unicode to NFC, replace underscores with spaces, collapse Unicode whitespace and trim.",
+      "For species-rank comparison, remove one parenthesized subgenus token in the exact Genus (Subgenus) species representation; genus and specific epithet must remain unchanged.",
+      "Preserve case, diacritics, punctuation and all remaining name tokens."
+    ],
+    "statuses": {
+      "accepted": "The normalized COL name resolves to exactly one valid ITIS Chelicerata species and directly equals that current ITIS name.",
+      "synonym-current-name-redirect": "The normalized COL name equals official ITIS invalid species-name evidence that resolves to exactly one valid ITIS Chelicerata species.",
+      "ambiguous": "The normalized exact evidence resolves to more than one valid ITIS Chelicerata species TSN.",
+      "unmatched": "No normalized exact valid-name or official ITIS species-synonym evidence resolves to a valid ITIS Chelicerata species."
+    },
+    "prohibited": "No fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered or taxon-substituted matching is used."
+  },
+  "totals": {
+    "total": 99511,
+    "accepted": 74948,
+    "synonymCurrentNameRedirect": 146,
+    "ambiguous": 141,
+    "unmatched": 24276,
+    "itisCurrentSpecies": 80938,
+    "itisSpeciesSynonymLinks": 10036,
+    "itisUpstreamOnly": 5714
+  },
+  "output": {
+    "descriptor": {
+      "path": "data/packages/arthropoda/trilobites-chelicerates/nomenclature/itis-chelicerata-sidecar.json",
+      "bytes": 12193,
+      "sha256": "90383cc2bf44dc092b59c7ed131169317a0a613699aa6485c6f3e9b74decfa3c"
+    },
+    "colUsageIdShards": [
+      {
+        "path": "data/packages/arthropoda/trilobites-chelicerates/nomenclature/itis-chelicerata-sidecar-0000.jsonl.gz",
+        "records": 5795,
+        "firstColUsageId": "3235D",
+        "lastColUsageId": "3GRND",
+        "bytes": 173574,
+        "sha256": "654c8aee67704fab86b6e1bd0116862901acc6a161891408843cba4a60f74f95",
+        "sourceBytes": 2096900,
+        "sourceSha256": "3b5c7c4d4cd1fdb58c1e67feda81f7a7c5d19f4a542a17e0fa45b1fac311b889"
+      },
+      {
+        "path": "data/packages/arthropoda/trilobites-chelicerates/nomenclature/itis-chelicerata-sidecar-0001.jsonl.gz",
+        "records": 5684,
+        "firstColUsageId": "3GRNF",
+        "lastColUsageId": "3SLWQ",
+        "bytes": 173516,
+        "sha256": "7402c170e41444e0e9c2f625fab81ff0f659e46b117f0f89f3745ed8e62c79a1",
+        "sourceBytes": 2097058,
+        "sourceSha256": "1af9cae2db3827c3e845d004b078fcbcda7cab018bef6213a9b781a48ba09679"
+      },
+      {
+        "path": "data/packages/arthropoda/trilobites-chelicerates/nomenclature/itis-chelicerata-sidecar-0002.jsonl.gz",
+        "records": 6122,
+        "firstColUsageId": "3SLWS",
+        "lastColUsageId": "47NYT",
+        "bytes": 183274,
+        "sha256": "c5f1726d007945a6adea904470dab2f3d9c7105b345e3af2244c932808367d02",
+        "sourceBytes": 2096805,
+        "sourceSha256": "f92fb4720b38f22f3ba67007440d1bed90583ca96f0c828fc0f8ddcda8f14071"
+      },
+      {
+        "path": "data/packages/arthropoda/trilobites-chelicerates/nomenclature/itis-chelicerata-sidecar-0003.jsonl.gz",
+        "records": 5998,
+        "firstColUsageId": "47NYV",
+        "lastColUsageId": "4MP7J",
+        "bytes": 181069,
+        "sha256": "a50e842085a6329e1c041410598a699d6579ee0df54c710fb1a58c9832025efc",
+        "sourceBytes": 2096862,
+        "sourceSha256": "774bcb1240420dc69465ba0fd9267929ef5917f475efc4acc381978d02cd1096"
+      },
+      {
+        "path": "data/packages/arthropoda/trilobites-chelicerates/nomenclature/itis-chelicerata-sidecar-0004.jsonl.gz",
+        "records": 5843,
+        "firstColUsageId": "4MP7K",
+        "lastColUsageId": "553LJ",
+        "bytes": 179972,
+        "sha256": "18bf8f019db5904222e2111bfa4a8bc26a52944338d16cbf9320bb82815f65cf",
+        "sourceBytes": 2097041,
+        "sourceSha256": "86697a92b09ee6aaffc04a8a5911e016a70f335dc41ea90568a9578feb8cc8c5"
+      },
+      {
+        "path": "data/packages/arthropoda/trilobites-chelicerates/nomenclature/itis-chelicerata-sidecar-0005.jsonl.gz",
+        "records": 5947,
+        "firstColUsageId": "553LK",
+        "lastColUsageId": "5D6CN",
+        "bytes": 173572,
+        "sha256": "c4f6c43a689fe50f1b03adc4f70b4ba5aacf4c906b7e233fbd81e82f03f48483",
+        "sourceBytes": 2097046,
+        "sourceSha256": "b9ee3e9803b8d38f57eaf1b1203a8663e1a229442698837f4b9d5c434caa5eeb"
+      },
+      {
+        "path": "data/packages/arthropoda/trilobites-chelicerates/nomenclature/itis-chelicerata-sidecar-0006.jsonl.gz",
+        "records": 5925,
+        "firstColUsageId": "5D6CP",
+        "lastColUsageId": "6D5JK",
+        "bytes": 200798,
+        "sha256": "a46fa05c4be8f6a3895280705805d0703c1470633ccd7e61d08e972d558e74ee",
+        "sourceBytes": 2097076,
+        "sourceSha256": "1095fad70669ad45c300875c42a1938d57f8db8840bf9eed5c1aaf56a58642e7"
+      },
+      {
+        "path": "data/packages/arthropoda/trilobites-chelicerates/nomenclature/itis-chelicerata-sidecar-0007.jsonl.gz",
+        "records": 5825,
+        "firstColUsageId": "6D5JM",
+        "lastColUsageId": "6S9JW",
+        "bytes": 197295,
+        "sha256": "2da58b01f17ada51c7ce915f95a5820b5ae8a7c43b2d9192568de26e65371f11",
+        "sourceBytes": 2096957,
+        "sourceSha256": "5a7fbbad3bafa60452ab1842dc5e7da3aa11df622801fc102100d43befe20b30"
+      },
+      {
+        "path": "data/packages/arthropoda/trilobites-chelicerates/nomenclature/itis-chelicerata-sidecar-0008.jsonl.gz",
+        "records": 6025,
+        "firstColUsageId": "6S9JX",
+        "lastColUsageId": "75N7G",
+        "bytes": 204704,
+        "sha256": "aaf65ae5c6b257ee548c8138b5e66f2b287a1a70f8a425394ce53c34dcb6a241",
+        "sourceBytes": 2096934,
+        "sourceSha256": "133774307ea07f1a78b046045235f2786e9c2f4cfd2d9bcc60aab6ccad48bdbd"
+      },
+      {
+        "path": "data/packages/arthropoda/trilobites-chelicerates/nomenclature/itis-chelicerata-sidecar-0009.jsonl.gz",
+        "records": 6279,
+        "firstColUsageId": "75NFY",
+        "lastColUsageId": "7VL6G",
+        "bytes": 202254,
+        "sha256": "ec0cbbccf7bfeb9f4aca1d9ba97222096d8c9f8d0c9cc0adfd8cfda3001dfe87",
+        "sourceBytes": 2097106,
+        "sourceSha256": "5843dc7b114d443e517a5e36c130a401fc4d41c0d1808b7390e9dc92a2ce8a87"
+      },
+      {
+        "path": "data/packages/arthropoda/trilobites-chelicerates/nomenclature/itis-chelicerata-sidecar-0010.jsonl.gz",
+        "records": 7628,
+        "firstColUsageId": "7VL6H",
+        "lastColUsageId": "8T9D9",
+        "bytes": 214359,
+        "sha256": "4d441a8ddd048b87c29ef7d27599484e76ec18f65e3409e73bed0fc8f55ea2fb",
+        "sourceBytes": 2096790,
+        "sourceSha256": "c5a3edc349a594555fa3d44c3c4a7e4746f65b6501fc1c569cc02a0af7142205"
+      },
+      {
+        "path": "data/packages/arthropoda/trilobites-chelicerates/nomenclature/itis-chelicerata-sidecar-0011.jsonl.gz",
+        "records": 5240,
+        "firstColUsageId": "8T9DB",
+        "lastColUsageId": "8ZKMF",
+        "bytes": 204413,
+        "sha256": "265e23b9ec57ae79a2c150d6c97a7abdb0f810e94d72f033499fcdc7d04fc0fe",
+        "sourceBytes": 2096792,
+        "sourceSha256": "e901a3eb611ac997124f14a4d620385ea7121ab31a8c68c108a2b9975e4d69e2"
+      },
+      {
+        "path": "data/packages/arthropoda/trilobites-chelicerates/nomenclature/itis-chelicerata-sidecar-0012.jsonl.gz",
+        "records": 6963,
+        "firstColUsageId": "8ZKMG",
+        "lastColUsageId": "9GFPH",
+        "bytes": 211697,
+        "sha256": "5b144b22490776ade3cbeb628fde60dff9b1a89b141c1015641f5c4643ef5694",
+        "sourceBytes": 2097001,
+        "sourceSha256": "2569b17631dd3a4ed15ad768605ef578462e1f9a4b5338a8e41a7de8dd47639f"
+      },
+      {
+        "path": "data/packages/arthropoda/trilobites-chelicerates/nomenclature/itis-chelicerata-sidecar-0013.jsonl.gz",
+        "records": 6304,
+        "firstColUsageId": "9GFPJ",
+        "lastColUsageId": "C7QFT",
+        "bytes": 195223,
+        "sha256": "a369db3b09231a971e159c9db1ac90f3a79848101973647548cbefb2fdbf0c8f",
+        "sourceBytes": 2097079,
+        "sourceSha256": "89415b012feb922de98423a0a9ea6395ec064f9d1c85631404e195939afa1d43"
+      },
+      {
+        "path": "data/packages/arthropoda/trilobites-chelicerates/nomenclature/itis-chelicerata-sidecar-0014.jsonl.gz",
+        "records": 7395,
+        "firstColUsageId": "C7QHZ",
+        "lastColUsageId": "LTKN3",
+        "bytes": 203133,
+        "sha256": "7b6907591e88b16e0edb3facdd92e4aa1f6d750d267e05ded2bb6e43be56c215",
+        "sourceBytes": 2096699,
+        "sourceSha256": "1764d3ce505f1d9a8bb78743e7d02a2401dabf193d144f1ce42c226d0a4a21da"
+      },
+      {
+        "path": "data/packages/arthropoda/trilobites-chelicerates/nomenclature/itis-chelicerata-sidecar-0015.jsonl.gz",
+        "records": 6538,
+        "firstColUsageId": "LTKN7",
+        "lastColUsageId": "ZZZX",
+        "bytes": 195146,
+        "sha256": "3e0953b20dfa0711d04314fe6df39118166d4a50a06eb60b6fbf6d506be1c9fb",
+        "sourceBytes": 2016570,
+        "sourceSha256": "248c82f09187dc2f1f8b235d7ccec09d63c9f442d9a8e1707759222ea597f8eb"
+      }
+    ],
+    "upstreamOnly": {
+      "path": "data/packages/arthropoda/trilobites-chelicerates/nomenclature/itis-chelicerata-upstream-only-0000.jsonl.gz",
+      "records": 5714,
+      "firstColUsageId": null,
+      "lastColUsageId": null,
+      "bytes": 73035,
+      "sha256": "53a8101a54d1fc6c73285e8bc8fb5d152c45405ecfd8b1f2595277f08f855c61",
+      "sourceBytes": 2060091,
+      "sourceSha256": "2621260e74e5693f1088a931bd3417da4608e03a0933dd09f5e50cf0162e97f8",
+      "colOwnership": null,
+      "firstTsn": "82764",
+      "lastTsn": "1217405"
+    }
+  },
+  "deliveryContract": {
+    "pagesLight": "Pages needs only this small descriptor and may omit all row-level JSONL gzip shards.",
+    "androidIosFull": "Android and iOS complete-data inventories must include the descriptor and every listed row-level shard as the same checksum-addressed bytes.",
+    "runtimeChange": "This import deliberately changes no formal runtime or published release manifest."
+  },
+  "generatedBy": {
+    "scriptPath": "scripts/build-itis-chelicerata-sidecar.mjs",
+    "scriptSha256": "feecf5a7c3ef4e9352c8d8c823bc11f1eb241cd3d6720c56b4eb2577779c1210",
+    "deterministic": "Pinned input checksums, fixed roots, exact SQL, exact representation-only normalization, code-unit ID ordering and deterministic gzip; no wall-clock fields or fuzzy matching."
+  }
+}
