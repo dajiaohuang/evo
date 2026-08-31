@@ -4,7 +4,7 @@
   "provider": "Paleobiology Database",
   "endpoint": "https://paleobiodb.org/data1.2/occs/list.json",
   "endpointVersion": "1.2",
-  "occurrenceSnapshot": "data/sources/pbdb-targeted-carnivora-occurrences-v1.json",
+  "occurrenceSnapshot": "data/sources/pbdb-targeted-carnivora-occurrences-v1.json.gz",
   "queryParameters": {
     "template": "base_id={accepted PBDB taxon number}&limit=5000&offset={offset}&show=full,class&order=id&datainfo",
     "pageSize": 5000,

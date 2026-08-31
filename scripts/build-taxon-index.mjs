@@ -7,7 +7,7 @@ import { descendantTaxonScope, normalizeTaxonName, occurrenceMatchMethod } from 
 const ontology = readJson('data/navigation/atlas-ontology.json')
 const resolutions = new Map(readJson('data/sources/pbdb-taxon-resolution.json').resolutions.map((entry) => [entry.entityId, entry]))
 const entities = readJson('data/registry/entities/entities.json')
-const targetedSnapshots = packageDefinitions.map((definition) => readJson(`data/sources/pbdb-targeted-${definition.id}-occurrences-v1.json`))
+const targetedSnapshots = packageDefinitions.map((definition) => readJson(`data/sources/pbdb-targeted-${definition.id}-occurrences-v1.json.gz`))
 const completeQueryByEntityId = new Map(targetedSnapshots.flatMap((snapshot) => snapshot.packageQueryLedger.subqueries.map((entry) => [entry.entityId, entry])))
 const entityById = new Map(entities.map((entry) => [entry.id, entry]))
 const timeScale = readJson('data/time-scale.json')
@@ -135,7 +135,7 @@ const coverage = {
     'data/navigation/atlas-ontology.json',
     'data/registry/entities/entities.json',
     'data/sources/pbdb-taxon-resolution.json',
-    'data/sources/pbdb-targeted-*-occurrences-v1.json',
+    'data/sources/pbdb-targeted-*-occurrences-v1.json.gz',
     'data/fossils/*.json',
   ],
   scope: 'Bundled bounded occurrence sample only; this is entity-linkage coverage, not biological coverage or sampling completeness.',

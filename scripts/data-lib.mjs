@@ -1,11 +1,14 @@
 import { createHash } from 'node:crypto'
 import { readFileSync, readdirSync, statSync } from 'node:fs'
 import { join, relative } from 'node:path'
+import { gunzipSync } from 'node:zlib'
 
 export const rootDir = process.cwd()
 
 export function readJson(path) {
-  return JSON.parse(readFileSync(join(rootDir, path), 'utf8'))
+  const bytes = readFileSync(join(rootDir, path))
+  const source = path.endsWith('.gz') ? gunzipSync(bytes) : bytes
+  return JSON.parse(source.toString('utf8'))
 }
 
 function jsonFilesBelow(directory) {
@@ -17,7 +20,7 @@ function jsonFilesBelow(directory) {
       const relativePath = `${directory}/${name}`.replaceAll('\\', '/')
       return statSync(absolutePath).isDirectory()
         ? jsonFilesBelow(relativePath)
-        : name.endsWith('.json') ? [relativePath] : []
+        : (name.endsWith('.json') || (directory === 'data/sources' && name.endsWith('.json.gz'))) ? [relativePath] : []
     })
 }
 
@@ -26,7 +29,8 @@ export function dataFiles() {
 }
 
 export function sha256(path) {
-  const canonicalJson = readFileSync(join(rootDir, path), 'utf8').replaceAll('\r\n', '\n')
+  const bytes = readFileSync(join(rootDir, path))
+  const canonicalJson = (path.endsWith('.gz') ? gunzipSync(bytes) : bytes).toString('utf8').replaceAll('\r\n', '\n')
   return createHash('sha256').update(canonicalJson, 'utf8').digest('hex')
 }
 

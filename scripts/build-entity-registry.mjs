@@ -588,7 +588,7 @@ for (const definition of packageDefinitions) {
     }
   }
   const acceptedRows = occurrenceCountsByPackage.get(definition.id) ?? 0
-  const targetedOccurrenceSnapshotPath = `data/sources/pbdb-targeted-${definition.id}-occurrences-v1.json`
+  const targetedOccurrenceSnapshotPath = `data/sources/pbdb-targeted-${definition.id}-occurrences-v1.json.gz`
   const targetedOccurrenceSnapshot = existsSync(join(rootDir, targetedOccurrenceSnapshotPath)) ? readJson(targetedOccurrenceSnapshotPath) : null
   const queryLedger = targetedOccurrenceSnapshot?.packageQueryLedger ?? {
         schemaVersion: 1,
