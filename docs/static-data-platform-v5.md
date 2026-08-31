@@ -114,4 +114,4 @@ npm run pages:budget
 npm run pages:smoke
 ```
 
-The hard Pages gate is 650 MiB total, 8 MiB per data shard, 5 MiB Core data, 5 MiB package knowledge data, 10 MiB precache, 500 KiB initial JavaScript and seven minutes for the site build. The source data/code target is 700 MiB. The current build report is written to `dist/data/build-metrics.json` after Vite finishes.
+The hard Pages gate is 650 MiB total, 8 MiB per data shard, 5 MiB Core data, 5 MiB package knowledge data, 16 MiB per package and 20 MiB total for published web-queryable nomenclature rows, 10 MiB precache, 500 KiB initial JavaScript and seven minutes for the site build. The nomenclature-row allowance counts published package JSONL/NDJSON gzip files separately from package knowledge so the intentional WFO browser lookup remains visible to the budget without being mistaken for a dossier payload; it never relaxes the 650 MiB whole-artifact gate. The source data/code target is 700 MiB. The current build report is written to `dist/data/build-metrics.json` after Vite finishes.

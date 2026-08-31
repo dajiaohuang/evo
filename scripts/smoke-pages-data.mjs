@@ -1,5 +1,5 @@
 import { createHash } from 'node:crypto'
-import { existsSync, readFileSync } from 'node:fs'
+import { existsSync, readFileSync, statSync } from 'node:fs'
 import { join } from 'node:path'
 import { gunzipSync } from 'node:zlib'
 import { rootDir } from './data-lib.mjs'
@@ -83,6 +83,8 @@ let researchClaimLinkCount = 0
 let researchExampleAvailableCount = 0
 let packagePhylogenyCount = 0
 let wfoRichRecords = 0
+let wfoRichShards = 0
+let wfoRichBytes = 0
 for (const packageEntry of packageRegistry.packages) {
   const manifestFile = current.packages.manifests[packageEntry.id]
   releaseUrl(manifestFile, `package ${packageEntry.id} manifest`)
@@ -182,7 +184,11 @@ for (const packageEntry of packageRegistry.packages) {
         releaseUrl(file, `${packageEntry.id} WFO nomenclature shard`)
         checkFile(file, `${packageEntry.id} WFO nomenclature shard`)
         if (!currentReleaseUrls.has(file.url)) failures.push(`${packageEntry.id}: WFO shard is absent from the current release inventory`)
-        const source = gunzipSync(readFileSync(join(dataRoot, file.url)))
+        const compressed = readFileSync(join(dataRoot, file.url))
+        const source = gunzipSync(compressed)
+        if (compressed.byteLength !== file.bytes || statSync(join(dataRoot, file.url)).size !== file.bytes) {
+          failures.push(`${packageEntry.id}: WFO shard byte count disagrees with its descriptor`)
+        }
         const rows = source.toString('utf8').split('\n').filter(Boolean).map((line) => JSON.parse(line))
         if (rows.length !== file.records || createHash('sha256').update(source).digest('hex') !== file.sourceSha256) {
           failures.push(`${packageEntry.id}: WFO shard count or source SHA-256 mismatch`)
@@ -192,6 +198,8 @@ for (const packageEntry of packageRegistry.packages) {
           else statuses[row.status] += 1
         }
         records += rows.length
+        wfoRichShards += 1
+        wfoRichBytes += compressed.byteLength
       }
       if (records !== wfo.counts.total || Object.entries(statuses).some(([key, count]) => count !== wfo.counts[key])) {
         failures.push(`${packageEntry.id}: WFO status counts disagree with its descriptor`)
@@ -238,6 +246,7 @@ for (const packageEntry of packageRegistry.packages) {
 if (researchExampleCount !== 24 || researchExampleAvailableCount !== 24 || researchClaimLinkCount !== 34) failures.push(`research preset totals are ${researchExampleCount} examples, ${researchExampleAvailableCount} available-with-limitations and ${researchClaimLinkCount} claim links; expected 24/24/34`)
 if (packagePhylogenyCount !== 2) failures.push(`package phylogeny runtime count is ${packagePhylogenyCount}; expected 2 available and 22 unmapped`)
 if (wfoRichRecords !== 387988) failures.push(`WFO rich-package collections contain ${wfoRichRecords} records; expected 387,988`)
+if (wfoRichShards !== 32 || wfoRichBytes !== 15584333) failures.push(`WFO rich-package collections contain ${wfoRichShards} shards and ${wfoRichBytes} compressed bytes; expected 32/15,584,333`)
 
 releaseUrl(current.occurrences.manifest, 'occurrence manifest')
 checkFile(current.occurrences.manifest, 'occurrence manifest')
