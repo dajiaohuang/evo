@@ -1,6 +1,6 @@
 # ITIS Reptilia authority sidecars
 
-This import pins a nomenclatural crosswalk from the official ITIS monthly SQLite export dated 2026-08-26 to the strict accepted-species rows in the COL26.8 release dated 2026-08-20. It is an identifier and name-status sidecar, not a claim that ITIS and COL use identical species concepts, a final classification authority, a phylogeny, a fossil record, a biological dossier or expert review.
+Release `2026.08-static-v5-rc72` pins a nomenclatural crosswalk from the official ITIS monthly SQLite export dated 2026-08-26 to the strict accepted-species rows in the COL26.8 release dated 2026-08-20. It is an identifier and name-status sidecar, not a claim that ITIS and COL use identical species concepts, a final classification authority, a phylogeny, a fossil record, a biological dossier or expert review.
 
 ## Exact scope
 
@@ -12,7 +12,7 @@ ITIS root TSN `173747` is the valid class `Reptilia`. The 27 Crocodylia records 
 
 ITIS publishes the complete database under [CC0](https://www.itis.gov/about_itis.html) and provides [download and validation instructions](https://www.itis.gov/downloads/index.html). The source ledger is [`data/sources/itis-2026-08-26.json`](../data/sources/itis-2026-08-26.json), which records the official download metadata, the database member and checksums. The extracted database is not committed. The database SHA-256 is `ea7304536cfd7b1e2636d383911ca7931fc83d9ab1194ca2a3c020ea2daf1719`.
 
-The canonical deterministic gzip is [`data/sources/itis-reptilia-authority-crosswalk-col26.8.json.gz`](../data/sources/itis-reptilia-authority-crosswalk-col26.8.json.gz). Its compressed size is 518,780 bytes and its SHA-256 is `854b3889f795cbdbe359b51212ba03d53eb1e9cf0b6e28518366e978ad4f5059`. The complete import ledger is [`data/sources/itis-reptilia-authority-import-ledger.json`](../data/sources/itis-reptilia-authority-import-ledger.json).
+The canonical deterministic gzip is [`data/sources/itis-reptilia-authority-crosswalk-col26.8.json.gz`](../data/sources/itis-reptilia-authority-crosswalk-col26.8.json.gz). Its compressed size is 518,779 bytes and its SHA-256 is `29c3e6a58c64fe1bd4764c19f507ecde4f5b5c58f21d75c1ddac9baa60fd042e`. The complete import ledger is [`data/sources/itis-reptilia-authority-import-ledger.json`](../data/sources/itis-reptilia-authority-import-ledger.json).
 
 With the verified extracted ITIS database available locally, regenerate the canonical snapshot and package projections with:
 
@@ -30,4 +30,4 @@ Each package has a small descriptor plus non-overlapping inclusive `colUsageId`-
 - [`turtles-lepidosaurs` nomenclature](../data/packages/reptilia/turtles-lepidosaurs/nomenclature/itis-tsn-sidecar.json) contains all 12,622 non-Crocodylia records and the 655 ITIS-only rows.
 - [`crocodylomorphs-birds` nomenclature](../data/packages/archosauria/crocodylomorphs-birds/nomenclature/itis-tsn-sidecar.json) contains only its 27 Crocodylia records; its upstream-only partition is empty because every current Crocodylia species is represented by the selected COL rows.
 
-The descriptor is sufficient for a lightweight Pages deployment; row-level authority shards may be omitted from that deployment. Android and iOS complete-data inventories must include each descriptor and every listed shard byte-for-byte. A detail lookup selects one inclusive `colUsageId` range and must not parse the complete canonical crosswalk or more than one row shard.
+Pages `web-light` publishes the two descriptors and the canonical inventory only: it omits all 11 row-level authority shards. Android and iOS build `26` use `native-full` and must include each descriptor and every listed shard byte-for-byte. The existing four-file AviList collection remains a separate collection in `crocodylomorphs-birds`; it is neither merged with nor counted as Reptilia ITIS. A detail lookup selects one inclusive `colUsageId` range and must not parse the complete canonical crosswalk or more than one row shard.

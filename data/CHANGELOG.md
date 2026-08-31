@@ -1,5 +1,12 @@
 # Dataset changelog
 
+## App 0.20.23 / 2026.08-static-v5-rc72 — 2026-08-31
+
+- Added fixed, exact ITIS `2026-08-26` CC0 authority sidecars for the declared Reptilia partitions. The 12,649 exact COL26.8 outcomes contain 9,831 current-name matches, 71 official synonym redirects, three ambiguities, and 2,744 unmatched records; 655 current ITIS species remain in a separate null-COL upstream-only partition.
+- Published 13,304 native authority records in 11 non-empty deterministic JSONL gzip shards: ten files for 12,622 non-Crocodylia `turtles-lepidosaurs` COL rows plus 655 ITIS-only rows, and one 27-record Crocodylia file in `crocodylomorphs-birds`. All Aves are explicitly excluded and the pre-existing four-file AviList collection remains separate.
+- Pages `web-light` publishes the two descriptors, provenance, scopes, methods, counts, limitations, and canonical byte/SHA-256 inventories but no authority rows. Android and iOS build `26` copy every native-full shard byte-for-byte and verify release-inventory parity by collection ID.
+- Added [`docs/itis-reptilia-authority-sidecars.md`](../docs/itis-reptilia-authority-sidecars.md) with roots, outcome counts, exact matching limits, delivery boundaries, canonical locations, and the explicit Aves exclusion.
+
 ## App 0.20.22 / 2026.08-static-v5-rc71 — 2026-08-31
 
 - Added fixed, exact ITIS `2026-08-26` CC0 authority sidecars for Insecta, Crustacea, Chelicerata, and Myriapoda. Their declared COL26.8 scopes contain 1,135,834 explicit outcomes: 280,789 exact current names, 3,148 official synonym redirects, 873 ambiguities, and 851,024 unmatched records; 42,507 current ITIS-only species remain in separate null-COL partitions.
