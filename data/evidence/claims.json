@@ -1923,6 +1923,384 @@
     ]
   },
   {
+    "id": "claim:taxon:crinoidea:taxonomy",
+    "subjectId": "taxon:crinoidea",
+    "claimKind": "scientific",
+    "claimType": "taxonomy",
+    "statement": "The cited systematic study treats named early crinoid taxa and explicitly keeps problematic Middle Cambrian Echmatocrinus outside the unproblematic Crinoidea record used by this profile.",
+    "confidence": "high",
+    "confidenceRationale": "The source makes the record boundary explicit in a systematic treatment; the profile does not turn that bounded treatment into a universal crinoid topology or direct-ancestry claim.",
+    "reviewedBy": "Evo Atlas maintainer primary-source audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "guensburg-2020-crinoid-origin at 2026.08-static-v5-rc76",
+    "referenceLinks": [{
+      "referenceId": "guensburg-2020-crinoid-origin",
+      "relation": "supports",
+      "pages": "311–312",
+      "quoteLocator": "Introduction, discussion of the middle Tremadocian record and problematic Echmatocrinus"
+    }]
+  },
+  {
+    "id": "claim:taxon:crinoidea:biogeography",
+    "subjectId": "taxon:crinoidea",
+    "claimKind": "scientific",
+    "claimType": "biogeography",
+    "statement": "The cited early-crinoid systematic material supplies source-bounded fossil locality context, not a global distribution, endemicity or dispersal reconstruction for Crinoidea.",
+    "confidence": "medium",
+    "confidenceRationale": "The primary study documents its sampled fossil context, but a systematic sample cannot establish class-wide geographic presence, absence or origin centre.",
+    "reviewedBy": "Evo Atlas maintainer primary-source audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "guensburg-2020-crinoid-origin at 2026.08-static-v5-rc76",
+    "referenceLinks": [{
+      "referenceId": "guensburg-2020-crinoid-origin",
+      "relation": "supports",
+      "pages": "311–333",
+      "quoteLocator": "Abstract, locality and systematic-palaeontology sections"
+    }]
+  },
+  {
+    "id": "claim:taxon:crinoidea:ecology",
+    "subjectId": "taxon:crinoidea",
+    "claimKind": "scientific",
+    "claimType": "ecology",
+    "statement": "The cited systematic study does not establish class-wide diet, habitat preference, locomotor performance, body-size distribution or guild for Crinoidea; these fields remain explicitly unresolved beyond marine fossil context.",
+    "confidence": "high",
+    "confidenceRationale": "This is an evidence-boundary claim: the source is a systematic account of early fossils, not a whole-class ecological reconstruction.",
+    "reviewedBy": "Evo Atlas maintainer primary-source audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "guensburg-2020-crinoid-origin at 2026.08-static-v5-rc76",
+    "referenceLinks": [{
+      "referenceId": "guensburg-2020-crinoid-origin",
+      "relation": "supports",
+      "pages": "311–333",
+      "quoteLocator": "Scope of systematic descriptions and early crinoid origin discussion"
+    }]
+  },
+  {
+    "id": "claim:taxon:crinoidea:morphology",
+    "subjectId": "taxon:crinoidea",
+    "claimKind": "scientific",
+    "claimType": "morphology",
+    "statement": "The source documents anatomical characters in named early crinoid taxa, while the profile keeps those observations source-bounded and does not present them as an invariant class-wide character list.",
+    "confidence": "high",
+    "confidenceRationale": "The study directly describes morphology in named specimens; the limitation avoids extrapolating a restricted fossil sample to every crinoid lineage.",
+    "reviewedBy": "Evo Atlas maintainer primary-source audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "guensburg-2020-crinoid-origin at 2026.08-static-v5-rc76",
+    "referenceLinks": [{
+      "referenceId": "guensburg-2020-crinoid-origin",
+      "relation": "supports",
+      "pages": "311–333",
+      "quoteLocator": "Systematic palaeontology and arm-evolution discussion"
+    }]
+  },
+  {
+    "id": "claim:taxon:blastoidea:taxonomy",
+    "subjectId": "taxon:blastoidea",
+    "claimKind": "scientific",
+    "claimType": "taxonomy",
+    "statement": "Macurdablastus uniplicatus is treated in the cited revision as a blastoid outside Eublastoidea, providing a source-bounded class record rather than a claim about every blastoid relationship.",
+    "confidence": "medium",
+    "confidenceRationale": "The revision directly redefines Eublastoidea around a named taxon, but broader blastoid relationships remain subject to taxonomic revision and sampling.",
+    "reviewedBy": "Evo Atlas maintainer primary-source audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "bauer-2019-macurdablastus at 2026.08-static-v5-rc76",
+    "referenceLinks": [{
+      "referenceId": "bauer-2019-macurdablastus",
+      "relation": "supports",
+      "pages": "1003–1013",
+      "figure": "Figures 1E–F and 2",
+      "quoteLocator": "Abstract and Systematic palaeontology: Class Blastoidea"
+    }]
+  },
+  {
+    "id": "claim:taxon:blastoidea:biogeography",
+    "subjectId": "taxon:blastoidea",
+    "claimKind": "scientific",
+    "claimType": "biogeography",
+    "statement": "The displayed blastoid evidence is restricted to named Sandbian and Wuchiapingian records in its source studies and does not establish a global distribution, origin centre or extinction geography.",
+    "confidence": "medium",
+    "confidenceRationale": "The references document record endpoints, not a geographically complete blastoid occurrence census.",
+    "reviewedBy": "Evo Atlas maintainer primary-source audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "bauer-2019-macurdablastus and paul-2021-blastoid-hydrospires at 2026.08-static-v5-rc76",
+    "referenceLinks": [{
+      "referenceId": "bauer-2019-macurdablastus",
+      "relation": "supports",
+      "pages": "1003–1013",
+      "quoteLocator": "Macurdablastus occurrence and systematic context"
+    }, {
+      "referenceId": "paul-2021-blastoid-hydrospires",
+      "relation": "supports",
+      "quoteLocator": "Introduction, reported late Sandbian to Wuchiapingian range"
+    }]
+  },
+  {
+    "id": "claim:taxon:blastoidea:ecology",
+    "subjectId": "taxon:blastoidea",
+    "claimKind": "scientific",
+    "claimType": "ecology",
+    "statement": "The cited systematic and hydrospire studies do not establish a class-wide diet, habitat preference, locomotor performance, body-size distribution or guild for Blastoidea; these fields remain unresolved.",
+    "confidence": "high",
+    "confidenceRationale": "The evidence is limited to named fossil morphology and a functional discussion, not a whole-class ecology reconstruction.",
+    "reviewedBy": "Evo Atlas maintainer primary-source audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "bauer-2019-macurdablastus and paul-2021-blastoid-hydrospires at 2026.08-static-v5-rc76",
+    "referenceLinks": [{
+      "referenceId": "bauer-2019-macurdablastus",
+      "relation": "supports",
+      "pages": "1003–1013",
+      "quoteLocator": "Systematic palaeontology and stated study scope"
+    }, {
+      "referenceId": "paul-2021-blastoid-hydrospires",
+      "relation": "supports",
+      "quoteLocator": "Functional-significance scope and range discussion"
+    }]
+  },
+  {
+    "id": "claim:taxon:blastoidea:morphology",
+    "subjectId": "taxon:blastoidea",
+    "claimKind": "scientific",
+    "claimType": "morphology",
+    "statement": "Macurdablastus is a named blastoid with source-described morphology, and hydrospire interpretation is retained as a source-bounded functional-morphology result rather than a class-wide invariant trait.",
+    "confidence": "medium",
+    "confidenceRationale": "The references directly support named anatomical and functional-morphology discussions, but their scope does not cover all blastoid variation.",
+    "reviewedBy": "Evo Atlas maintainer primary-source audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "bauer-2019-macurdablastus and paul-2021-blastoid-hydrospires at 2026.08-static-v5-rc76",
+    "referenceLinks": [{
+      "referenceId": "bauer-2019-macurdablastus",
+      "relation": "supports",
+      "pages": "1003–1013",
+      "figure": "Figures 1E–F and 2",
+      "quoteLocator": "Systematic palaeontology: Class Blastoidea"
+    }, {
+      "referenceId": "paul-2021-blastoid-hydrospires",
+      "relation": "supports",
+      "quoteLocator": "Functional and evolutionary significance of blastoid hydrospires"
+    }]
+  },
+  {
+    "id": "claim:taxon:asteroidea:taxonomy",
+    "subjectId": "taxon:asteroidea",
+    "claimKind": "scientific",
+    "claimType": "taxonomy",
+    "statement": "Eriaster ibexensis is treated as an asteroid body fossil in the cited systematic study; problematic Lower Cambrian Asteriacites traces are not used as an Asteroidea body-fossil assignment.",
+    "confidence": "medium",
+    "confidenceRationale": "The study directly describes Eriaster and separates it from the problematic trace evidence, while the profile does not claim a complete asteroid topology.",
+    "reviewedBy": "Evo Atlas maintainer primary-source audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "blake-guensburg-2005-eriaster at 2026.08-static-v5-rc76",
+    "referenceLinks": [{
+      "referenceId": "blake-guensburg-2005-eriaster",
+      "relation": "supports",
+      "pages": "395–399",
+      "figure": "Figures 1–2",
+      "quoteLocator": "Abstract, stratigraphic positions and Systematic palaeontology"
+    }]
+  },
+  {
+    "id": "claim:taxon:asteroidea:biogeography",
+    "subjectId": "taxon:asteroidea",
+    "claimKind": "scientific",
+    "claimType": "biogeography",
+    "statement": "Eriaster ibexensis is a source-bounded very-top-Tremadocian record from Utah, United States; it does not establish a global asteroid distribution or origin centre.",
+    "confidence": "medium",
+    "confidenceRationale": "The cited primary study reports the named locality and stratigraphic setting, but one occurrence cannot establish global biogeography.",
+    "reviewedBy": "Evo Atlas maintainer primary-source audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "blake-guensburg-2005-eriaster at 2026.08-static-v5-rc76",
+    "referenceLinks": [{
+      "referenceId": "blake-guensburg-2005-eriaster",
+      "relation": "supports",
+      "pages": "395–399",
+      "quoteLocator": "Stratigraphic positions and locality discussion"
+    }]
+  },
+  {
+    "id": "claim:taxon:asteroidea:ecology",
+    "subjectId": "taxon:asteroidea",
+    "claimKind": "scientific",
+    "claimType": "ecology",
+    "statement": "The Eriaster body-fossil study does not establish class-wide diet, habitat preference, locomotor performance, body-size distribution or guild for Asteroidea; only source-bounded marine depositional context is retained.",
+    "confidence": "high",
+    "confidenceRationale": "This explicitly limits inference to the scope of a body-fossil systematic study rather than filling ecological fields from living analogues.",
+    "reviewedBy": "Evo Atlas maintainer primary-source audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "blake-guensburg-2005-eriaster at 2026.08-static-v5-rc76",
+    "referenceLinks": [{
+      "referenceId": "blake-guensburg-2005-eriaster",
+      "relation": "supports",
+      "pages": "395–399",
+      "quoteLocator": "Study scope, stratigraphic positions and Systematic palaeontology"
+    }]
+  },
+  {
+    "id": "claim:taxon:asteroidea:morphology",
+    "subjectId": "taxon:asteroidea",
+    "claimKind": "scientific",
+    "claimType": "morphology",
+    "statement": "The cited study documents Eriaster ibexensis body-fossil anatomy; the profile keeps this specimen-level morphology separate from problematic trace fossils and from a class-wide trait inventory.",
+    "confidence": "medium",
+    "confidenceRationale": "The figures and systematic description support the named fossil anatomy, while preservation and sampling limit generalization to all asteroid lineages.",
+    "reviewedBy": "Evo Atlas maintainer primary-source audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "blake-guensburg-2005-eriaster at 2026.08-static-v5-rc76",
+    "referenceLinks": [{
+      "referenceId": "blake-guensburg-2005-eriaster",
+      "relation": "supports",
+      "pages": "395–399",
+      "figure": "Figures 1–2",
+      "quoteLocator": "Systematic palaeontology of Eriaster ibexensis"
+    }]
+  },
+  {
+    "id": "claim:taxon:ophiuroidea:taxonomy",
+    "subjectId": "taxon:ophiuroidea",
+    "claimKind": "scientific",
+    "claimType": "taxonomy",
+    "statement": "The cited systematic study reports Stenaster as class-level ophiuran material; the profile uses that bounded assignment without claiming a complete ophiuran topology or direct ancestry.",
+    "confidence": "medium",
+    "confidenceRationale": "The source provides a clear class-level systematic treatment, whereas deeper relationships and whole-class membership are beyond its sampled material.",
+    "reviewedBy": "Evo Atlas maintainer primary-source audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "blake-2016-early-asterozoa at 2026.08-static-v5-rc76",
+    "referenceLinks": [{
+      "referenceId": "blake-2016-early-asterozoa",
+      "relation": "supports",
+      "pages": "161–181",
+      "quoteLocator": "Abstract and Systematic palaeontology: Stenaster sp."
+    }]
+  },
+  {
+    "id": "claim:taxon:ophiuroidea:biogeography",
+    "subjectId": "taxon:ophiuroidea",
+    "claimKind": "scientific",
+    "claimType": "biogeography",
+    "statement": "The cited Stenaster record is from the Floian Wah Wah Formation of Utah, United States; it is a source-bounded occurrence rather than a global ophiuran distribution or origin claim.",
+    "confidence": "medium",
+    "confidenceRationale": "The systematic source and independently resolved PBDB occurrence identify a formation and stage, but neither is a complete geographic census.",
+    "reviewedBy": "Evo Atlas maintainer primary-source audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "blake-2016-early-asterozoa plus PBDB occ:1541278 at 2026.08-static-v5-rc76",
+    "referenceLinks": [{
+      "referenceId": "blake-2016-early-asterozoa",
+      "relation": "supports",
+      "pages": "161–181",
+      "quoteLocator": "Systematic palaeontology: Stenaster sp."
+    }, {
+      "referenceId": "pbdb-api-2016",
+      "relation": "contextualizes",
+      "quoteLocator": "PBDB occ:1541278, col:216850, Floian Wah Wah Formation"
+    }]
+  },
+  {
+    "id": "claim:taxon:ophiuroidea:ecology",
+    "subjectId": "taxon:ophiuroidea",
+    "claimKind": "scientific",
+    "claimType": "ecology",
+    "statement": "The Stenaster systematic record does not establish class-wide diet, habitat preference, locomotor performance, body-size distribution or guild for Ophiuroidea; only source-bounded marine formation context is retained.",
+    "confidence": "high",
+    "confidenceRationale": "The statement preserves the ecological boundary of a systematic fossil study and avoids substituting living brittle-star ecology for the described occurrence.",
+    "reviewedBy": "Evo Atlas maintainer primary-source audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "blake-2016-early-asterozoa at 2026.08-static-v5-rc76",
+    "referenceLinks": [{
+      "referenceId": "blake-2016-early-asterozoa",
+      "relation": "supports",
+      "pages": "161–181",
+      "quoteLocator": "Study scope and Systematic palaeontology: Stenaster sp."
+    }]
+  },
+  {
+    "id": "claim:taxon:ophiuroidea:morphology",
+    "subjectId": "taxon:ophiuroidea",
+    "claimKind": "scientific",
+    "claimType": "morphology",
+    "statement": "The cited systematic treatment describes class-level ophiuran anatomy in Stenaster material, which remains a source-bounded fossil observation rather than a class-wide invariant trait list.",
+    "confidence": "medium",
+    "confidenceRationale": "The source directly supplies the named systematic evidence; the profile does not extrapolate preservation-limited material to every ophiuran lineage.",
+    "reviewedBy": "Evo Atlas maintainer primary-source audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "blake-2016-early-asterozoa at 2026.08-static-v5-rc76",
+    "referenceLinks": [{
+      "referenceId": "blake-2016-early-asterozoa",
+      "relation": "supports",
+      "pages": "161–181",
+      "quoteLocator": "Systematic palaeontology: Stenaster sp."
+    }]
+  },
+  {
+    "id": "claim:taxon:holothuroidea:taxonomy",
+    "subjectId": "taxon:holothuroidea",
+    "claimKind": "scientific",
+    "claimType": "taxonomy",
+    "statement": "Oesolcucumaria eostre is assigned to Holothuroidea in the cited systematic study by articulated anatomy including a diagnostic calcareous ring; disputed Cambrian material is not used as an equivalent class record.",
+    "confidence": "high",
+    "confidenceRationale": "The holotype and paratypes preserve the diagnostic structure described by the primary study, while the rejected Cambrian candidate lacks an equivalent dedicated revision.",
+    "reviewedBy": "Evo Atlas maintainer primary-source audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "botting-muir-2012-holothurian-bed at 2026.08-static-v5-rc76",
+    "referenceLinks": [{
+      "referenceId": "botting-muir-2012-holothurian-bed",
+      "relation": "supports",
+      "figure": "Figure 9; holotype Figure 9.1",
+      "quoteLocator": "Systematic palaeontology: Class Holothuroidea and Oesolcucumaria"
+    }]
+  },
+  {
+    "id": "claim:taxon:holothuroidea:biogeography",
+    "subjectId": "taxon:holothuroidea",
+    "claimKind": "scientific",
+    "claimType": "biogeography",
+    "statement": "The cited articulated Oesolcucumaria record is from the late Darriwilian Holothurian Bed at Llandrindod, Wales; it does not establish global holothurian distribution or an origin centre.",
+    "confidence": "high",
+    "confidenceRationale": "The study reports a named locality and horizon directly, but one articulated bed cannot stand in for complete class biogeography.",
+    "reviewedBy": "Evo Atlas maintainer primary-source audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "botting-muir-2012-holothurian-bed at 2026.08-static-v5-rc76",
+    "referenceLinks": [{
+      "referenceId": "botting-muir-2012-holothurian-bed",
+      "relation": "supports",
+      "quoteLocator": "Holothurian Bed locality, Holotype and Occurrence sections"
+    }]
+  },
+  {
+    "id": "claim:taxon:holothuroidea:ecology",
+    "subjectId": "taxon:holothuroidea",
+    "claimKind": "scientific",
+    "claimType": "ecology",
+    "statement": "The articulated Holothurian Bed record does not establish class-wide diet, habitat preference, locomotor performance, body-size distribution or guild for Holothuroidea; the profile retains only its marine depositional context.",
+    "confidence": "high",
+    "confidenceRationale": "The study includes fauna and ecology at a fossil-bed scale, not a whole-class reconstruction; unsupported ecological generalizations remain withheld.",
+    "reviewedBy": "Evo Atlas maintainer primary-source audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "botting-muir-2012-holothurian-bed at 2026.08-static-v5-rc76",
+    "referenceLinks": [{
+      "referenceId": "botting-muir-2012-holothurian-bed",
+      "relation": "supports",
+      "quoteLocator": "Fauna and ecology scope; Systematic palaeontology and occurrence sections"
+    }]
+  },
+  {
+    "id": "claim:taxon:holothuroidea:morphology",
+    "subjectId": "taxon:holothuroidea",
+    "claimKind": "scientific",
+    "claimType": "morphology",
+    "statement": "Oesolcucumaria eostre preserves an articulated body and diagnostic calcareous ring in the cited Holothurian Bed material; these observations remain specimen- and locality-bounded.",
+    "confidence": "high",
+    "confidenceRationale": "The cited figure, holotype and systematic description directly document the anatomical basis, while the profile does not treat one fossil assemblage as all holothurian morphology.",
+    "reviewedBy": "Evo Atlas maintainer primary-source audit",
+    "reviewedAt": "2026-08-31",
+    "reviewedAgainstReferenceVersion": "botting-muir-2012-holothurian-bed at 2026.08-static-v5-rc76",
+    "referenceLinks": [{
+      "referenceId": "botting-muir-2012-holothurian-bed",
+      "relation": "supports",
+      "figure": "Figure 9; holotype Figure 9.1",
+      "quoteLocator": "Oesolcucumaria remarks, holotype and occurrence"
+    }]
+  },
+  {
     "id": "claim:event:dapingian-cryptospores",
     "subjectId": "event:dapingian-cryptospores",
     "claimKind": "scientific",
