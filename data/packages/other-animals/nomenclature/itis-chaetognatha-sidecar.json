@@ -1,0 +1,140 @@
+{
+  "schemaVersion": 1,
+  "sidecarType": "release-pinned-exact-nomenclatural-crosswalk",
+  "packageId": "other-animals",
+  "scope": {
+    "colRootUsageId": "36",
+    "colRootScientificName": "Chaetognatha",
+    "colStrictAcceptedSpecies": 132,
+    "packageStrictAcceptedSpecies": 99161,
+    "packageOutOfScopeStrictAcceptedSpecies": 99029,
+    "boundary": "other-animals is the deterministic Animalia remainder after more-specific static-package routes. This sidecar covers only strict accepted COL26.8 species descending from exact Chaetognatha root 36; every other other-animals-owned species is explicitly non-applicable."
+  },
+  "mixedResourcePack": {
+    "packageId": "other-animals",
+    "manifestPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals/manifest.json",
+    "manifestSha256": "662d549b01b73fd10ad830f3b9bdf9681ec1e9f9f46dafc4f65457404cba506d",
+    "acceptedSpeciesCount": 99161,
+    "inScopeSpecies": 132,
+    "outOfScopeSpecies": 99029,
+    "packageSourceDatasetCounts": {
+      "1081": 20367,
+      "1085": 1364,
+      "1090": 14430,
+      "1099": 4403,
+      "1100": 6,
+      "1104": 19,
+      "1119": 356,
+      "1122": 903,
+      "1123": 4,
+      "1124": 23,
+      "1125": 100,
+      "1126": 5852,
+      "1127": 3015,
+      "1128": 12007,
+      "1132": 132,
+      "1149": 24,
+      "1150": 122,
+      "1153": 362,
+      "1154": 30,
+      "1178": 68,
+      "1180": 197,
+      "1182": 46,
+      "1185": 78,
+      "1186": 3000,
+      "1193": 6508,
+      "2144": 3674,
+      "2302": 19604,
+      "298081": 2467
+    },
+    "chaetognathaSourceDatasetCounts": {
+      "1132": 132
+    },
+    "outOfScopeBoundary": "All remaining accepted species in Other Animals are not Chaetognatha and receive no ITIS Chaetognatha match in this sidecar."
+  },
+  "sources": {
+    "col": {
+      "releaseAlias": "COL26.8",
+      "releaseDate": "2026-08-20",
+      "registryManifestPath": "data/catalogue-of-life/releases/2026-08-20/registry/manifest.json",
+      "registryManifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151",
+      "ownershipPath": "data/registry/package-species-coverage.json",
+      "ownershipSha256": "a297bc8a67ce60806fdee733464a79bfcc42e255f7e59535b01f94013c19dfea"
+    },
+    "itis": {
+      "datasetId": "itis-2026-08-26",
+      "exportDate": "2026-08-26",
+      "rootTsn": "158650",
+      "sourceLedgerPath": "data/sources/itis-2026-08-26.json",
+      "sourceLedgerSha256": "38a7a55b4e98cafc66790e47f6bd637e298e23fd691e4771c755b38e4a02d7fc",
+      "license": "CC0-1.0",
+      "citationDoi": "10.5066/F7KH0KBK"
+    }
+  },
+  "exactMatching": {
+    "normalization": [
+      "Remove the exact trailing COL authorship field from COL scientificName when that suffix is present; no authorship parser is used.",
+      "Normalize Unicode to NFC, replace underscores with spaces, collapse Unicode whitespace and trim.",
+      "For species-rank comparison, remove one parenthesized subgenus token in the exact Genus (Subgenus) species representation; genus and specific epithet must remain unchanged.",
+      "Preserve case, diacritics, punctuation and all remaining name tokens."
+    ],
+    "statuses": {
+      "accepted": "The normalized COL name resolves to exactly one valid ITIS Chaetognatha species and directly equals that current ITIS name.",
+      "synonym-current-name-redirect": "The normalized COL name equals official ITIS invalid species-name evidence that resolves to exactly one valid ITIS Chaetognatha species.",
+      "ambiguous": "The normalized exact evidence resolves to more than one valid ITIS Chaetognatha species TSN.",
+      "unmatched": "No normalized exact valid-name or official ITIS species-synonym evidence resolves to a valid ITIS Chaetognatha species."
+    },
+    "prohibited": "No fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered or taxon-substituted matching is used."
+  },
+  "evidenceBoundary": {
+    "en": "This CC0 ITIS sidecar is a frozen exact nomenclatural crosswalk for the declared Chaetognatha partition inside the mixed Other Animals resource pack. It is not a global chaetognath checklist, final classification authority, phylogeny, species-concept equivalence assertion, biological dossier or scientific-review record.",
+    "zh": "此 CC0 ITIS 侧车是混合“其他动物”资源包中已声明 Chaetognatha 分区的冻结严格命名交叉映射；它不是全球毛颚动物名录、最终分类权威、系统发育、物种概念等同性声明、生物档案或科学审查记录。"
+  },
+  "counts": {
+    "total": 132,
+    "accepted": 92,
+    "synonymCurrentNameRedirect": 0,
+    "ambiguous": 0,
+    "unmatched": 40,
+    "itisCurrentSpecies": 116,
+    "itisSpeciesSynonymLinks": 47,
+    "itisUpstreamOnly": 24
+  },
+  "colUsageIdLocator": {
+    "key": "colUsageId",
+    "ordering": "Unicode code-unit ascending",
+    "sourceShardLimitBytes": 524288,
+    "stableAddressing": "Binary-search non-overlapping inclusive colUsageId ranges; one detail query loads exactly one immutable JSONL gzip shard.",
+    "files": [
+      {
+        "path": "data/packages/other-animals/nomenclature/itis-chaetognatha-sidecar-0000.jsonl.gz",
+        "records": 132,
+        "firstColUsageId": "34DQ4",
+        "lastColUsageId": "V99PP",
+        "bytes": 4584,
+        "sha256": "cd431da0403a35843b0f9fafcc6d4fa85fbd11eba63da53eb9694fbeb79b2676",
+        "sourceBytes": 43965,
+        "sourceSha256": "92428aa245459ba0be6991453dbd00c6345aa89cc4c457d8d7f8b87bc8516a1c"
+      }
+    ]
+  },
+  "upstreamOnly": {
+    "colOwnership": null,
+    "stableAddressing": "No COL usage ID is assigned. The complete ITIS-only current-species partition is in its own immutable JSONL gzip shard.",
+    "files": [
+      {
+        "path": "data/packages/other-animals/nomenclature/itis-chaetognatha-upstream-only-0000.jsonl.gz",
+        "records": 24,
+        "firstColUsageId": null,
+        "lastColUsageId": null,
+        "bytes": 681,
+        "sha256": "b4fbaf91571e6361a378776dfdbd293a3ea26b0df648a2adfa6b4c99bda1b0da",
+        "sourceBytes": 8922,
+        "sourceSha256": "4e8fb5548a48a519aa603d6dbe04fba0ff49abd3aa132c1f70c0e170b01a72e6",
+        "colOwnership": null,
+        "firstTsn": "158654",
+        "lastTsn": "158851"
+      }
+    ]
+  }
+}

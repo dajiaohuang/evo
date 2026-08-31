@@ -1,0 +1,145 @@
+{
+  "schemaVersion": 1,
+  "importType": "COL26.8-to-ITIS-exact-chaetognatha-nomenclatural-sidecar",
+  "generatedFrom": {
+    "sourcePath": "data/sources/itis-2026-08-26.json",
+    "sourceSha256": "38a7a55b4e98cafc66790e47f6bd637e298e23fd691e4771c755b38e4a02d7fc",
+    "itisDatabaseMember": "itisSqlite082626/ITIS.sqlite",
+    "itisDatabaseSha256": "ea7304536cfd7b1e2636d383911ca7931fc83d9ab1194ca2a3c020ea2daf1719",
+    "colRegistryManifestPath": "data/catalogue-of-life/releases/2026-08-20/registry/manifest.json",
+    "colRegistryManifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151",
+    "colOwnershipPath": "data/registry/package-species-coverage.json",
+    "colOwnershipSha256": "a297bc8a67ce60806fdee733464a79bfcc42e255f7e59535b01f94013c19dfea",
+    "resourcePackManifestPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals/manifest.json",
+    "resourcePackManifestSha256": "662d549b01b73fd10ad830f3b9bdf9681ec1e9f9f46dafc4f65457404cba506d"
+  },
+  "scopeAudit": {
+    "colRootUsageId": "36",
+    "colRootScientificName": "Chaetognatha",
+    "colStrictAcceptedSpecies": 132,
+    "packageStrictAcceptedSpecies": 99161,
+    "packageOutOfScopeStrictAcceptedSpecies": 99029,
+    "boundary": "other-animals is the deterministic Animalia remainder after more-specific static-package routes. This sidecar covers only strict accepted COL26.8 species descending from exact Chaetognatha root 36; every other other-animals-owned species is explicitly non-applicable.",
+    "mixedResourcePack": {
+      "packageId": "other-animals",
+      "manifestPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals/manifest.json",
+      "manifestSha256": "662d549b01b73fd10ad830f3b9bdf9681ec1e9f9f46dafc4f65457404cba506d",
+      "acceptedSpeciesCount": 99161,
+      "inScopeSpecies": 132,
+      "outOfScopeSpecies": 99029,
+      "packageSourceDatasetCounts": {
+        "1081": 20367,
+        "1085": 1364,
+        "1090": 14430,
+        "1099": 4403,
+        "1100": 6,
+        "1104": 19,
+        "1119": 356,
+        "1122": 903,
+        "1123": 4,
+        "1124": 23,
+        "1125": 100,
+        "1126": 5852,
+        "1127": 3015,
+        "1128": 12007,
+        "1132": 132,
+        "1149": 24,
+        "1150": 122,
+        "1153": 362,
+        "1154": 30,
+        "1178": 68,
+        "1180": 197,
+        "1182": 46,
+        "1185": 78,
+        "1186": 3000,
+        "1193": 6508,
+        "2144": 3674,
+        "2302": 19604,
+        "298081": 2467
+      },
+      "chaetognathaSourceDatasetCounts": {
+        "1132": 132
+      },
+      "outOfScopeBoundary": "All remaining accepted species in Other Animals are not Chaetognatha and receive no ITIS Chaetognatha match in this sidecar."
+    },
+    "itisRoot": {
+      "tsn": "158650",
+      "scientificName": "Chaetognatha",
+      "rank": "Phylum",
+      "usage": "valid"
+    },
+    "itisCurrentSpecies": 116,
+    "itisSpeciesSynonymLinks": 47,
+    "maximumUpdateDates": {
+      "taxonomicUnits": "2026-08-26",
+      "synonymLinks": "2026-08-26"
+    }
+  },
+  "matchingContract": {
+    "normalization": [
+      "Remove the exact trailing COL authorship field from COL scientificName when that suffix is present; no authorship parser is used.",
+      "Normalize Unicode to NFC, replace underscores with spaces, collapse Unicode whitespace and trim.",
+      "For species-rank comparison, remove one parenthesized subgenus token in the exact Genus (Subgenus) species representation; genus and specific epithet must remain unchanged.",
+      "Preserve case, diacritics, punctuation and all remaining name tokens."
+    ],
+    "statuses": {
+      "accepted": "The normalized COL name resolves to exactly one valid ITIS Chaetognatha species and directly equals that current ITIS name.",
+      "synonym-current-name-redirect": "The normalized COL name equals official ITIS invalid species-name evidence that resolves to exactly one valid ITIS Chaetognatha species.",
+      "ambiguous": "The normalized exact evidence resolves to more than one valid ITIS Chaetognatha species TSN.",
+      "unmatched": "No normalized exact valid-name or official ITIS species-synonym evidence resolves to a valid ITIS Chaetognatha species."
+    },
+    "prohibited": "No fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered or taxon-substituted matching is used."
+  },
+  "totals": {
+    "total": 132,
+    "accepted": 92,
+    "synonymCurrentNameRedirect": 0,
+    "ambiguous": 0,
+    "unmatched": 40,
+    "itisCurrentSpecies": 116,
+    "itisSpeciesSynonymLinks": 47,
+    "itisUpstreamOnly": 24
+  },
+  "output": {
+    "descriptor": {
+      "path": "data/packages/other-animals/nomenclature/itis-chaetognatha-sidecar.json",
+      "bytes": 6275,
+      "sha256": "f90cc4b678960f045bd076be4f5b0281b4b35acc8bf7ab4eb3571cd81230d20e"
+    },
+    "colUsageIdShards": [
+      {
+        "path": "data/packages/other-animals/nomenclature/itis-chaetognatha-sidecar-0000.jsonl.gz",
+        "records": 132,
+        "firstColUsageId": "34DQ4",
+        "lastColUsageId": "V99PP",
+        "bytes": 4584,
+        "sha256": "cd431da0403a35843b0f9fafcc6d4fa85fbd11eba63da53eb9694fbeb79b2676",
+        "sourceBytes": 43965,
+        "sourceSha256": "92428aa245459ba0be6991453dbd00c6345aa89cc4c457d8d7f8b87bc8516a1c"
+      }
+    ],
+    "upstreamOnly": {
+      "path": "data/packages/other-animals/nomenclature/itis-chaetognatha-upstream-only-0000.jsonl.gz",
+      "records": 24,
+      "firstColUsageId": null,
+      "lastColUsageId": null,
+      "bytes": 681,
+      "sha256": "b4fbaf91571e6361a378776dfdbd293a3ea26b0df648a2adfa6b4c99bda1b0da",
+      "sourceBytes": 8922,
+      "sourceSha256": "4e8fb5548a48a519aa603d6dbe04fba0ff49abd3aa132c1f70c0e170b01a72e6",
+      "colOwnership": null,
+      "firstTsn": "158654",
+      "lastTsn": "158851"
+    }
+  },
+  "deliveryContract": {
+    "pagesLight": "Pages needs only this small descriptor and may omit all row-level JSONL gzip shards.",
+    "androidIosFull": "Android and iOS complete-data inventories must include the descriptor and every listed row-level shard as the same checksum-addressed bytes.",
+    "runtimeChange": "This import deliberately changes no formal runtime or published release manifest."
+  },
+  "generatedBy": {
+    "scriptPath": "scripts/build-itis-chaetognatha-sidecar.mjs",
+    "scriptSha256": "278a73d133ed84ced4769d902d64f4678483ed3758147cca506ca47760154aca",
+    "deterministic": "Pinned input checksums, fixed roots, exact SQL, exact representation-only normalization, code-unit ID ordering and deterministic gzip; no wall-clock fields or fuzzy matching."
+  }
+}
