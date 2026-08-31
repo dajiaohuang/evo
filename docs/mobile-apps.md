@@ -23,6 +23,8 @@ dist-mobile/                 # 临时生成的移动客户端壳，不提交
 
 ## 数据与离线边界
 
+rc81 将 Android 与 iOS 同步到 build `35` / app `0.20.32`。两端完整获得 Aglaophyton、Horneophyton、Coniferophyta、Araucariaceae、Carnufex 与 Asteriornis 6 个新增双语档案和 26 条主张，当前原生包共有 91 个完整档案、397 个导航节点和 1,124 条证据主张；三个更新包的精确时间地图场景也同步进入两端。`native-full` 仍逐字节保留 COL26.8 全部 2,183,133 个接受种、全部权威分片和 109 帧 0.1° PaleoDEM；Pages 保持 `web-light`，不复制原生端全量逐种行。
+
 rc80 将 Android 与 iOS 同步到 build `34` / app `0.20.31`。两端完整获得恐龙、龟鳖与鳞龙、辐鳍鱼三个资源包新增的 9 个双语一手证据档案与 36 条主张，当前原生包共有 85 个完整档案、395 个导航节点和 1,098 条证据主张。`native-full` 仍逐字节保留 COL26.8 全部 2,183,133 个接受种、全部权威分片和 109 帧 0.1° PaleoDEM；Pages 保持 `web-light`，不复制原生端全量逐种行。
 
 rc79 将 Android 与 iOS 同步到 build `33` / app `0.20.30`。两端仍从 `native-full` inventory 逐字节获得全部 109 个 3601×1801、0.1° PaleoDEM v2 无损网格，总压缩字节保持 168,418,483；Web/Pages 独立升级为全部年龄 1201×601、0.3° 每第三格精确抽样。移动端同时继续包含完整名录、全部权威逐种分片、24 个富内容包和 rc78 的 392 个导航描述与 72 个研究场景。

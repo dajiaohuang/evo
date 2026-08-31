@@ -1,5 +1,12 @@
 # Dataset changelog
 
+## App 0.20.32 / 2026.09-static-v5-rc81 — 2026-09-01
+
+- Expanded Early land plants, Gymnosperms, and Crocodylomorphs and birds from two to four complete bilingual profiles each: Aglaophyton, Horneophyton, Coniferophyta, Araucariaceae, Carnufex and Asteriornis.
+- Added 26 field-linked primary-evidence claims, increasing the atlas from 85 to 91 complete profiles, 395 to 397 navigation nodes and 1,098 to 1,124 claims. Corrected the Leslie et al. 2012 display title to the published “Hemisphere-scale differences in conifer evolutionary dynamics”.
+- Kept the Rhynie material within its 412.8–410.2 Ma locality window, Holyoke J 1430 within its Hettangian specimen context, Carnufex NCSM 21558 at the bounded 231 Ma occurrence and Asteriornis NHMM 2013 008 within 66.8–66.7 Ma. None is promoted to a global FAD/LAD, direct ancestor, universal ecology or method-independent topology.
+- Retained exactly three research scenes per rich package while retargeting the three map scenes to source-matched Aglaophyton, Araucariaceae and Carnufex windows. Pages remains `web-light`; Android and iOS build `35` retain every profile plus the full catalogue, authority shards and all 109 lossless 0.1° PaleoDEM frames.
+
 ## App 0.20.31 / 2026.09-static-v5-rc80 — 2026-09-01
 
 - Added nine complete bilingual profiles across three evidence packages: Triceratops, Ankylosaurus and Buriolestes in Dinosauria; Testudines, Lepidosauria and Mosasauroidea in turtles and lepidosaurs; and Pseudopholidoctenus germanicus, Barschichthys ruedersdorfensis and Ruedersdorfia berlinensis in Actinopterygii.

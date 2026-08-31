@@ -77,5 +77,83 @@
     "rangeEvidenceLevel": "literature-synthesized",
     "rangeReviewStatus": "automated-audit-passed",
     "rangeProvisional": true
+  },
+  {
+    "id": "coniferophyta",
+    "treeNodeId": "coniferophyta",
+    "pbdbTaxonId": "txn:56176",
+    "scientificName": "Coniferophyta",
+    "commonName": "Conifers",
+    "commonNameZh": "松柏类",
+    "rank": "phylum",
+    "parentName": "Gymnospermae navigation aggregate",
+    "extinct": false,
+    "geography": [
+      "Living conifer sample across both hemispheres",
+      "Fossil calibrations used in the dated analysis"
+    ],
+    "overview": "A dated phylogeny sampling about 80% of living conifer species tests hemispheric differences in evolutionary dynamics; its modelled nodes and fossil calibrations are not direct occurrences or a complete total-group history.",
+    "ecology": {
+      "diet": "Not generalized by the cited dated-phylogeny study",
+      "habitat": "No single habitat is assigned across the sampled living conifers",
+      "locomotion": "Sessile plant growth is not an analysed outcome of the cited study",
+      "bodySize": "Not generalized by the cited dated-phylogeny study",
+      "guild": "No single ecological guild is assigned from the cited analysis"
+    },
+    "traits": [
+      "No universal leaf morphology is generalized from the sampled molecular tree",
+      "No universal cone morphology is generalized from the sampled molecular tree",
+      "Fossil calibrations constrain sampled nodes rather than recording body characters"
+    ],
+    "evidenceSummary": "The primary analysis directly supports its sampled tree, calibrations and hemispheric comparison; morphology and ecology remain explicitly ungeneralized, and the separate 300–0 Ma display is only a conservative review-bounded navigation range.",
+    "confidence": "medium",
+    "referenceIds": [
+      "leslie-2012-conifer-hemispheres",
+      "leslie-2018-conifer-evolution"
+    ],
+    "firstAppearance": 300,
+    "lastAppearance": 0,
+    "rangeEvidenceLevel": "literature-synthesized",
+    "rangeReviewStatus": "automated-audit-passed",
+    "rangeProvisional": true
+  },
+  {
+    "id": "araucariaceae",
+    "treeNodeId": "araucariaceae",
+    "pbdbTaxonId": "txn:54789",
+    "scientificName": "Araucariaceae",
+    "commonName": "Araucarian conifers",
+    "commonNameZh": "南洋杉科",
+    "rank": "family",
+    "parentName": "Coniferophyta",
+    "extinct": false,
+    "geography": [
+      "Hettangian South Hadley Falls Member, Massachusetts, United States",
+      "Living and fossil taxa sampled in the family-level matrix"
+    ],
+    "overview": "Holyoke specimen J 1430 supplies a bounded Lower Jurassic bract-scale exemplar, while a separate combined matrix samples 31 living and eight fossil araucariacean species; neither establishes an exact family origin or direct ancestry.",
+    "ecology": {
+      "diet": "Not resolved by the cited specimen description and phylogenetic analysis",
+      "habitat": "Not generalized beyond the named fossil locality and sampled living taxa",
+      "locomotion": "Sessile plant growth is not directly observed in the fossil sample",
+      "bodySize": "Not resolved from the isolated bract-scale complex",
+      "guild": "No single ecological guild is assigned from the cited studies"
+    },
+    "traits": [
+      "Wedge-shaped bract-scale complex in specimen J 1430",
+      "Centrally placed ovule retained at maturity in the sampled fossil",
+      "Lateral wings documented on the Holyoke bract-scale complex"
+    ],
+    "evidenceSummary": "The primary description directly supports J 1430's anatomy, locality and Hettangian context; family relationships come from a character matrix and remain analytical rather than an ancestor sequence or a global range boundary.",
+    "confidence": "medium",
+    "referenceIds": [
+      "axsmith-2008-holyoke-araucaria",
+      "escapa-catalano-2013-araucariaceae"
+    ],
+    "firstAppearance": 201.4,
+    "lastAppearance": 0,
+    "rangeEvidenceLevel": "literature-synthesized",
+    "rangeReviewStatus": "automated-audit-passed",
+    "rangeProvisional": true
   }
 ]

@@ -32,6 +32,8 @@
         "fabaceae",
         "marchantiophyta",
         "anthocerotophyta",
+        "aglaophyton",
+        "horneophyton",
         "invertebrata",
         "porifera",
         "stromatoporoidea",
@@ -416,6 +418,8 @@
         "txn:54885",
         "txn:55352",
         "txn:55120",
+        "txn:55149",
+        "txn:409636",
         "txn:2894",
         "txn:3338",
         "txn:2895",
@@ -684,6 +688,8 @@
         "angiospermae",
         "monocotyledones",
         "marchantiophyta",
+        "aglaophyton",
+        "horneophyton",
         "porifera",
         "stromatoporoidea",
         "demospongiae",
@@ -993,7 +999,9 @@
         "eudicotyledones",
         "fabaceae",
         "marchantiophyta",
-        "anthocerotophyta"
+        "anthocerotophyta",
+        "aglaophyton",
+        "horneophyton"
       ],
       "descendantTaxonIds": [
         "txn:54311",
@@ -1002,7 +1010,9 @@
         "txn:54828",
         "txn:54885",
         "txn:55352",
-        "txn:55120"
+        "txn:55120",
+        "txn:55149",
+        "txn:409636"
       ],
       "descendantScientificNames": [
         "plantae",
@@ -1011,7 +1021,9 @@
         "pteridophyta",
         "angiospermae",
         "monocotyledones",
-        "marchantiophyta"
+        "marchantiophyta",
+        "aglaophyton",
+        "horneophyton"
       ],
       "matchMethods": {
         "exactExternalId": 14,
@@ -1458,6 +1470,56 @@
       "descendantEntityIds": [],
       "descendantTaxonIds": [],
       "descendantScientificNames": [],
+      "matchMethods": {
+        "exactExternalId": 0,
+        "acceptedName": 0,
+        "higherClassification": 0
+      },
+      "completeSnapshotAvailable": false,
+      "completeSnapshotRows": null,
+      "periods": [],
+      "matchedTotal": 0
+    },
+    "aglaophyton": {
+      "entityId": "aglaophyton",
+      "packageId": "early-land-plants",
+      "entityKind": "taxon",
+      "externalTaxonId": "txn:55149",
+      "scientificNameNormalized": "aglaophyton",
+      "externalResolutionStatus": "resolved-exact",
+      "queryStatus": "resolved-zero-in-bounded-sample",
+      "descendantEntityIds": [],
+      "descendantTaxonIds": [
+        "txn:55149"
+      ],
+      "descendantScientificNames": [
+        "aglaophyton"
+      ],
+      "matchMethods": {
+        "exactExternalId": 0,
+        "acceptedName": 0,
+        "higherClassification": 0
+      },
+      "completeSnapshotAvailable": false,
+      "completeSnapshotRows": null,
+      "periods": [],
+      "matchedTotal": 0
+    },
+    "horneophyton": {
+      "entityId": "horneophyton",
+      "packageId": "early-land-plants",
+      "entityKind": "taxon",
+      "externalTaxonId": "txn:409636",
+      "scientificNameNormalized": "horneophyton",
+      "externalResolutionStatus": "resolved-exact",
+      "queryStatus": "resolved-zero-in-bounded-sample",
+      "descendantEntityIds": [],
+      "descendantTaxonIds": [
+        "txn:409636"
+      ],
+      "descendantScientificNames": [
+        "horneophyton"
+      ],
       "matchMethods": {
         "exactExternalId": 0,
         "acceptedName": 0,

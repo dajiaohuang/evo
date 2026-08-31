@@ -278,5 +278,69 @@
     ],
     "reviewStatus": "automated-audit-passed",
     "evidenceLevel": "withheld-no-range-evidence"
+  },
+  {
+    "id": "range:aglaophyton:rhynie-chert-sample",
+    "entityId": "aglaophyton",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Aglaophyton major represented Rhynie-chert material",
+    "geographicScope": "Rhynie Chert, Rhynie Outlier, Aberdeenshire, Scotland",
+    "olderMa": 412.8,
+    "youngerMa": 410.2,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "The 411.5 ± 1.3 Ma U–Pb constraint is represented as a bounded locality-age window for the cited Rhynie material, not a global first or last appearance of Aglaophyton."
+    },
+    "evidenceBasis": "The anatomical redescription identifies Aglaophyton major in the Rhynie Chert, while the independent ID-TIMS study constrains the Rhynie Outlier with a 411.5 ± 1.3 Ma zircon age.",
+    "evidenceLevel": "literature-synthesized",
+    "confidence": "medium",
+    "claimIds": [
+      "claim:taxon:aglaophyton:fossil-range"
+    ],
+    "referenceLocators": [
+      {
+        "referenceId": "edwards-1986-aglaophyton",
+        "locator": "pp. 173–204; redescription, reconstruction and Rhynie Chert provenance"
+      },
+      {
+        "referenceId": "parry-2011-rhynie-age",
+        "locator": "pp. 863–872, especially Abstract and Results; 411.5 ± 1.3 Ma ID-TIMS U–Pb zircon age"
+      }
+    ],
+    "reviewStatus": "automated-audit-passed"
+  },
+  {
+    "id": "range:horneophyton:rhynie-chert-sample",
+    "entityId": "horneophyton",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Horneophyton lignieri represented Rhynie-chert material",
+    "geographicScope": "Rhynie Chert, Rhynie Outlier, Aberdeenshire, Scotland",
+    "olderMa": 412.8,
+    "youngerMa": 410.2,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "The 411.5 ± 1.3 Ma U–Pb constraint is represented as a bounded locality-age window for the cited Rhynie material, not a global first or last appearance of Horneophyton."
+    },
+    "evidenceBasis": "The confocal study identifies Horneophyton lignieri in named Rhynie-chert slides, while the independent ID-TIMS study constrains the Rhynie Outlier with a 411.5 ± 1.3 Ma zircon age.",
+    "evidenceLevel": "literature-synthesized",
+    "confidence": "medium",
+    "claimIds": [
+      "claim:taxon:horneophyton:fossil-range"
+    ],
+    "referenceLocators": [
+      {
+        "referenceId": "kenrick-long-2026-horneophyton",
+        "locator": "pp. 3149–3164; Materials and Methods; NHMUK PI In 24697, NHMUK OC 1938 and NHMUK SC 3137; Figures 1–8"
+      },
+      {
+        "referenceId": "parry-2011-rhynie-age",
+        "locator": "pp. 863–872, especially Abstract and Results; 411.5 ± 1.3 Ma ID-TIMS U–Pb zircon age"
+      }
+    ],
+    "reviewStatus": "automated-audit-passed"
   }
 ]

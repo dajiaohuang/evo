@@ -1,6 +1,6 @@
 {
   "language": "zh",
-  "version": "2026.09-static-v5-rc80",
+  "version": "2026.09-static-v5-rc81",
   "strings": {
     "entity.gymnospermae.name": "裸子植物",
     "entity.cycadophyta.name": "苏铁类",
@@ -9,6 +9,8 @@
     "entity.araucariaceae.name": "南洋杉类",
     "profile.cycadophyta.name": "苏铁类",
     "profile.ginkgophyta.name": "银杏类",
+    "profile.coniferophyta.name": "松柏类",
+    "profile.araucariaceae.name": "南洋杉科",
     "claim.claim:event:extant-gymnosperm-backbone.confidenceRationale": "该拓扑来自覆盖全部现生科的大型核基因矩阵，但研究也记录了基因树冲突以及部分数据子集中的替代位置。因此图谱把 Gnepine 排列呈现为支持较强的已发表假说，而不是永久共识。",
     "claim.claim:event:living-cycad-radiation-model.confidenceRationale": "2011 年结果是针对取样现生谱系的可复现模型估计；后续分析采用不同的分类取样、化石和校准处理，并恢复出更老的深层节点。中等置信度适用于模型结果及其边界的研究史，不适用于一个普适的现生苏铁多样化年龄。",
     "claim.claim:event:cycadaceae-palaeogene-crown-model.confidenceRationale": "一手研究明确比较了校准方案和树先验，其偏好的组合证据得到所列平均年龄。其他方案的结果范围宽得多，因此图谱保留模型和校准依赖性，不把显示区间当作观察延限。",
@@ -29,6 +31,14 @@
     "claim.claim:taxon:coniferophyta.confidenceRationale": "该综述明确整合现生与化石证据，同时承认重大灭绝与取样空缺，因此不能给出精确端点。",
     "claim.claim:taxon:araucariaceae.confidenceRationale": "多类证据分区支持显式检验，但化石不完整与替代编码使若干位置仍不确定。",
     "claim.claim:taxon:coniferophyta:range-boundary-rc50.confidenceRationale": "Leslie 等（2018）明确指出松柏类拥有超过 3 亿年的广泛化石记录，并讨论灭绝造成的采样限制。中等置信度仅把 300 Ma 用作保守证据下界。",
-    "claim.claim:taxon:araucariaceae:range-boundary-rc50.confidenceRationale": "Axsmith 等（2008）直接描述 J 1430 及其赫塘期南哈德利瀑布段背景。中等置信度仅适用于该科级标本与现生延续，不延伸到更老且含糊的南洋杉类材料。"
+    "claim.claim:taxon:araucariaceae:range-boundary-rc50.confidenceRationale": "Axsmith 等（2008）直接描述 J 1430 及其赫塘期南哈德利瀑布段背景。中等置信度仅适用于该科级标本与现生延续，不延伸到更老且含糊的南洋杉类材料。",
+    "claim.claim:taxon:coniferophyta:profile-taxonomy.confidenceRationale": "类群取样、序列分析和化石校准流程均有明确说明；灭绝多样性与未取样现生物种限制了对分析树之外的外推。",
+    "claim.claim:taxon:coniferophyta:profile-biogeography.confidenceRationale": "半球编码和比较结果属于一手分析的直接组成，但研究以现生物种为主，不能提供完整化石或地理记录。",
+    "claim.claim:taxon:coniferophyta:profile-morphology.confidenceRationale": "方法直接公开了分子数据集与校准的用途；高置信度仅指研究范围限制，并不主张松柏类缺少共享形态。",
+    "claim.claim:taxon:coniferophyta:profile-ecology.confidenceRationale": "一手研究检验的是多样化与半球格局，而非普遍的松柏类生态表型；明确保留空缺符合其研究边界。",
+    "claim.claim:taxon:araucariaceae:profile-taxonomy.confidenceRationale": "类群、性状取样和简约法分析均有明确记录；中等置信度保留对类群取样、性状编码和不完整化石多样性的敏感性。",
+    "claim.claim:taxon:araucariaceae:profile-biogeography.confidenceRationale": "开放的一手描述直接给出标本馆藏、地点与地层单元；中等置信度同时保留单标本和来源元数据边界。",
+    "claim.claim:taxon:araucariaceae:profile-morphology.confidenceRationale": "论文直接描述并图示了标本尺寸、种子位置、侧翼和比较；中等置信度仅限 J 1430，并保留单标本和来源元数据边界。",
+    "claim.claim:taxon:araucariaceae:profile-ecology.confidenceRationale": "两项一手研究分别处理标本解剖或性状矩阵关系，而非所列科级生态属性，因此档案不作推断。"
   }
 }

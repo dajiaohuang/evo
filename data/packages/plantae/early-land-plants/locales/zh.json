@@ -1,6 +1,6 @@
 {
   "language": "zh",
-  "version": "2026.09-static-v5-rc80",
+  "version": "2026.09-static-v5-rc81",
   "strings": {
     "entity.plantae.name": "植物",
     "entity.bryophyta.name": "藓类（狭义苔藓植物门）",
@@ -11,8 +11,12 @@
     "entity.filicopsida.name": "真蕨类",
     "entity.marchantiophyta.name": "地钱门",
     "entity.anthocerotophyta.name": "角苔门",
+    "entity.aglaophyton.name": "阿格兰蕨属",
+    "entity.horneophyton.name": "角蕨属",
     "profile.lycophyta.name": "石松类",
     "profile.marchantiophyta.name": "地钱门",
+    "profile.aglaophyton.name": "阿格兰蕨属",
+    "profile.horneophyton.name": "角蕨属",
     "claim.claim:event:plants-on-land.confidenceRationale": "该研究整合了七种苔藓植物—维管植物拓扑和系统基因组数据，但年龄估计仍受分子钟模型与校准策略影响，尤其依赖胚胎植物冠群约束；它不能独立支持隐孢子、大化石、根系或土壤发育观察。",
     "claim.claim:event:dapingian-cryptospores.confidenceRationale": "一手研究报告了双实验室处理、明确的生物地层控制以及同一层位中有图示的单体和四分体。高置信度仅适用于有年代约束的隐孢子组合及其胚胎植物解释，不扩展到作者对陆生化中心或更早起源时间的推测。",
     "claim.claim:event:ordovician-sporangia:caradoc-record.confidenceRationale": "钻孔、深度区间、地层单位和 Caradoc 归属均有明确记录，但 Caradoc 是已废弃的区域单位，论文没有给出该化石层位对应现代阶的数值年龄，因此显示窗口刻意保持宽泛。",
@@ -40,6 +44,16 @@
     "claim.claim:taxon:lepidodendron:range-boundary-rc50.confidenceRationale": "Bateman 等（1992）为支序分析采样了解剖保存的树状石松，但实体概念并未对齐到单一全球属级范围。低置信度记录这一尚未解决的范围错配。",
     "claim.claim:taxon:equisetopsida:range-boundary-rc50.confidenceRationale": "Elgorriaga 等（2018）明确描述楔叶类具有泥盆纪化石史，并分析化石与现生木贼。中等置信度仅限于这一宽泛导航概念及命名区间换算。",
     "claim.claim:taxon:filicopsida:range-boundary-rc50.confidenceRationale": "Galtier 与 Scott（1985）明确区分可疑的泥盆纪归属与更可靠的早石炭世真蕨证据，而 Lehtonen（2011）主要提供拓扑。低置信度记录尚未解决的分类边界。",
-    "claim.claim:taxon:anthocerotophyta:range-boundary-rc50.confidenceRationale": "Li 等（2020）直接支持现生基因组比较与拓扑，而非化石首现。低置信度表示旧有 470 Ma 端点缺少适合范围用途的证据。"
+    "claim.claim:taxon:anthocerotophyta:range-boundary-rc50.confidenceRationale": "Li 等（2020）直接支持现生基因组比较与拓扑，而非化石首现。低置信度表示旧有 470 Ma 端点缺少适合范围用途的证据。",
+    "claim.claim:taxon:aglaophyton:taxonomy.confidenceRationale": "一手再描述明确记录建属依据与高阶归属边界；高置信度仅限该分类处理，不表示直接祖先，也不声称所有更高阶关系已有共识。",
+    "claim.claim:taxon:aglaophyton:biogeography.confidenceRationale": "解剖论文与独立年代学论文都明确指向莱尼燧石或莱尼露头；高置信度只适用于具名材料与产地，不推断未取样地区。",
+    "claim.claim:taxon:aglaophyton:ecology.confidenceRationale": "轴的方向和群落复原来自取样解剖，而生理与种群生态没有被直接观察；中等置信度标记复原结果与缺失生态信息之间的边界。",
+    "claim.claim:taxon:aglaophyton:morphology.confidenceRationale": "一手再描述直接记录复原和导管束分区；高置信度只适用于所研究材料与诊断，不外推每条轴的功能或更高阶归属。",
+    "claim.claim:taxon:aglaophyton:fossil-range.confidenceRationale": "年代学研究直接报告锆石年龄与误差，解剖论文把材料锚定到莱尼；由于被测安山岩约束产地而非每件化石，置信度保持中等。",
+    "claim.claim:taxon:horneophyton:taxonomy.confidenceRationale": "一手研究记录分类核验、24 张切片总体和三张具名详查切片；高置信度限于样本身份，不扩展为所有历史归入或祖先状态。",
+    "claim.claim:taxon:horneophyton:biogeography.confidenceRationale": "解剖与年代研究独立识别莱尼燧石和莱尼露头；高置信度限于所代表产地，不把其他地区的缺失解释为真实不存在。",
+    "claim.claim:taxon:horneophyton:ecology.confidenceRationale": "论文报告沉积背景与植物复原，但实验重点是导管细胞解剖；中等置信度区分这些背景观察与未测量的生理和种群生态。",
+    "claim.claim:taxon:horneophyton:morphology.confidenceRationale": "具名切片、共聚焦光学切面、三维渲染和细胞壁测量直接支持解剖观察；高置信度不延伸到推断的生理功能或普适祖先维管系统。",
+    "claim.claim:taxon:horneophyton:fossil-range.confidenceRationale": "年代学研究直接报告锆石年龄与误差，解剖研究把具名切片锚定到莱尼；由于被测安山岩约束产地而非每张切片，置信度保持中等。"
   }
 }

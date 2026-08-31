@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "generatedAt": "2026-08-30",
+  "generatedAt": "2026-08-31",
   "policy": "PBDB name/rank resolution, automated lineage recommendations and human curator decisions are separate. Only taxonomic-parent edges use the complete pinned PBDB ancestor chain for compatibility; navigation and display edges do not assert taxonomic parentage.",
   "rankNormalization": {
     "clade": "unranked clade"
@@ -19,10 +19,10 @@
     "sourceUrl": "https://zenodo.org/records/21620933"
   },
   "reconciliationRun": {
-    "retryReason": "not-reconciled-after-ontology-expansion",
-    "attempted": 147,
-    "resolved": 103,
-    "withheld": 44,
+    "retryReason": "rc81-new-ontology-nodes",
+    "attempted": 2,
+    "resolved": 2,
+    "withheld": 0,
     "sourceCsv": {
       "file": "pbdb_taxa.csv",
       "bytes": 523407413,
@@ -30,8 +30,8 @@
     }
   },
   "summary": {
-    "ontologyNodes": 395,
-    "resolved": 283,
+    "ontologyNodes": 397,
+    "resolved": 285,
     "unresolved": 112,
     "needsConceptReview": 28,
     "humanCuratorDecisions": 0
@@ -1377,6 +1377,146 @@
       "occurrenceCount": 72,
       "referenceNo": "ref:71202",
       "snapshotModifiedAt": "2022-10-24 06:23:42"
+    },
+    {
+      "entityId": "aglaophyton",
+      "localName": "Aglaophyton",
+      "localRank": "genus",
+      "previousPbdbId": "txn:55149",
+      "resolutionStatus": "resolved",
+      "resolutionReason": "resolved-exact-name-rank-and-lineage",
+      "externalResolutionStatus": "resolved-exact",
+      "pbdbId": "txn:55149",
+      "candidatePbdbId": "txn:55149",
+      "acceptedName": "Aglaophyton",
+      "acceptedRank": "genus",
+      "matchedTaxonName": "Aglaophyton",
+      "pbdbParentName": "Polysporangiomorpha",
+      "pbdbClassification": {
+        "phylum": "Polysporangiomorpha",
+        "class": "NO_CLASS_SPECIFIED",
+        "order": "NO_ORDER_SPECIFIED",
+        "family": "NO_FAMILY_SPECIFIED"
+      },
+      "resolvedName": "Aglaophyton",
+      "resolvedRank": "genus",
+      "resolvedImmediateParent": "Polysporangiomorpha",
+      "resolvedClassification": {
+        "phylum": "Polysporangiomorpha",
+        "class": "NO_CLASS_SPECIFIED",
+        "order": "NO_ORDER_SPECIFIED",
+        "family": "NO_FAMILY_SPECIFIED"
+      },
+      "resolvedAncestorChain": [
+        {
+          "pbdbId": "txn:55146",
+          "name": "Polysporangiomorpha"
+        },
+        {
+          "pbdbId": "txn:55109",
+          "name": "Embryobiotes"
+        },
+        {
+          "pbdbId": "txn:55095",
+          "name": "Streptobionta"
+        },
+        {
+          "pbdbId": "txn:55080",
+          "name": "Chlorobiota"
+        },
+        {
+          "pbdbId": "txn:1",
+          "name": "Eukaryota"
+        },
+        {
+          "pbdbId": "txn:28595",
+          "name": "Life"
+        }
+      ],
+      "localExpectedParentConcept": "Plantae",
+      "parentRelationshipKind": "navigation-parent",
+      "lineageCompatibility": "not-applicable-non-taxonomic-edge",
+      "conceptReviewStatus": "not-required-navigation-edge",
+      "automatedRecommendation": "accept-external-mapping",
+      "humanCuratorDecision": null,
+      "curatorRationale": null,
+      "curatorReviewedAt": null,
+      "curatorReviewer": null,
+      "occurrenceCount": 0,
+      "referenceNo": "ref:9410",
+      "snapshotModifiedAt": "2013-04-30 15:43:10"
+    },
+    {
+      "entityId": "horneophyton",
+      "localName": "Horneophyton",
+      "localRank": "genus",
+      "previousPbdbId": "txn:409636",
+      "resolutionStatus": "resolved",
+      "resolutionReason": "resolved-exact-name-rank-and-lineage",
+      "externalResolutionStatus": "resolved-exact",
+      "pbdbId": "txn:409636",
+      "candidatePbdbId": "txn:409636",
+      "acceptedName": "Horneophyton",
+      "acceptedRank": "genus",
+      "matchedTaxonName": "Horneophyton",
+      "pbdbParentName": "Psilophytophyta",
+      "pbdbClassification": {
+        "phylum": "Psilophytophyta",
+        "class": "NO_CLASS_SPECIFIED",
+        "order": "NO_ORDER_SPECIFIED",
+        "family": "NO_FAMILY_SPECIFIED"
+      },
+      "resolvedName": "Horneophyton",
+      "resolvedRank": "genus",
+      "resolvedImmediateParent": "Psilophytophyta",
+      "resolvedClassification": {
+        "phylum": "Psilophytophyta",
+        "class": "NO_CLASS_SPECIFIED",
+        "order": "NO_ORDER_SPECIFIED",
+        "family": "NO_FAMILY_SPECIFIED"
+      },
+      "resolvedAncestorChain": [
+        {
+          "pbdbId": "txn:263751",
+          "name": "Psilophytophyta"
+        },
+        {
+          "pbdbId": "txn:250231",
+          "name": "Embryophyta"
+        },
+        {
+          "pbdbId": "txn:518962",
+          "name": "Streptophyta"
+        },
+        {
+          "pbdbId": "txn:114017",
+          "name": "Viridiplantae"
+        },
+        {
+          "pbdbId": "txn:54311",
+          "name": "Plantae"
+        },
+        {
+          "pbdbId": "txn:1",
+          "name": "Eukaryota"
+        },
+        {
+          "pbdbId": "txn:28595",
+          "name": "Life"
+        }
+      ],
+      "localExpectedParentConcept": "Plantae",
+      "parentRelationshipKind": "navigation-parent",
+      "lineageCompatibility": "not-applicable-non-taxonomic-edge",
+      "conceptReviewStatus": "not-required-navigation-edge",
+      "automatedRecommendation": "accept-external-mapping",
+      "humanCuratorDecision": null,
+      "curatorRationale": null,
+      "curatorReviewedAt": null,
+      "curatorReviewer": null,
+      "occurrenceCount": 1,
+      "referenceNo": "ref:71641",
+      "snapshotModifiedAt": "2020-02-27 01:04:44"
     },
     {
       "entityId": "invertebrata",
