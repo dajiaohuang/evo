@@ -128,11 +128,13 @@ describe('COL26.8 Bacteria LPSN identifier sidecar', () => {
     const descriptor = collectionAfter.packs.find((pack) => pack.packageId === 'bacteria')
     expect(descriptor).toMatchObject({
       acceptedSpeciesCount: 26397,
-      extensionCount: 1,
-      extensionFileCount: 1,
-      extensionCompressedBytes: first.extension.totalCompressedBytes,
-      extensionSourceBytes: first.extension.totalSourceBytes,
+      extensionCount: 2,
+      extensionFileCount: 9,
     })
+    expect(JSON.parse(firstFiles.manifest).extensions.map((extension) => extension.id)).toEqual([
+      'itis-bacteria-tsn-crosswalk',
+      'lpsn-identifiers',
+    ])
     expect(first.extension).toEqual(second.extension)
     expect(first.extension.counts).toEqual({
       acceptedSpecies: 26397,

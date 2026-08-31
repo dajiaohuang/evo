@@ -1,0 +1,151 @@
+{
+  "schemaVersion": 1,
+  "importType": "COL26.8-non-LPSN-to-ITIS-exact-bacteria-nomenclatural-sidecar",
+  "generatedFrom": {
+    "sourcePath": "data/sources/itis-2026-08-26.json",
+    "sourceSha256": "38a7a55b4e98cafc66790e47f6bd637e298e23fd691e4771c755b38e4a02d7fc",
+    "itisDatabaseSha256": "ea7304536cfd7b1e2636d383911ca7931fc83d9ab1194ca2a3c020ea2daf1719",
+    "resourcePackManifestPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/bacteria/manifest.json",
+    "resourcePackManifestSha256": "7e78fda7f99a07e4dd294d327f9a0e66b850ce40494a0152c7a1b845e3175d5d"
+  },
+  "scopeAudit": {
+    "colAcceptedSpecies": 26397,
+    "colNonLpsnSpecies": 4827,
+    "lpsnExcludedBySourceDatasetId": 21570,
+    "itisRoot": {
+      "tsn": "50",
+      "scientificName": "Bacteria",
+      "rank": "Kingdom",
+      "usage": "valid"
+    },
+    "itisCurrentSpecies": 14174,
+    "itisSpeciesSynonymLinks": 1891,
+    "itisUpstreamOnly": 9348,
+    "maximumUpdateDates": {
+      "taxonomicUnits": "2026-08-26",
+      "synonymLinks": "2026-08-26"
+    }
+  },
+  "totals": {
+    "acceptedSpecies": 26397,
+    "eligible": 4827,
+    "nonApplicable": 21570,
+    "records": 14175,
+    "accepted": 4824,
+    "redirects": 0,
+    "ambiguous": 2,
+    "unmatched": 1,
+    "upstreamOnly": 9348,
+    "withheld": 0
+  },
+  "output": {
+    "colUsageIdShards": [
+      {
+        "path": "bacteria/itis-bacteria-sidecar-0000.jsonl.gz",
+        "records": 1346,
+        "bytes": 44917,
+        "sourceBytes": 523922,
+        "sha256": "b76476461c055c24c58aab343bccfd564216059b4bd2f0fbbf5ea65f3eed1a98",
+        "sourceSha256": "9a6764cb863567532c90a542d33acf3e2f9b21fd3708f789d5ae3762e16a222a",
+        "encoding": "gzip",
+        "mediaType": "application/x-ndjson",
+        "minColUsageId": "333YG",
+        "maxColUsageId": "CNPX5"
+      },
+      {
+        "path": "bacteria/itis-bacteria-sidecar-0001.jsonl.gz",
+        "records": 1334,
+        "bytes": 44830,
+        "sourceBytes": 524149,
+        "sha256": "d4b06d619cb89eec5b4aaa477f19c5e711dbb41438595e772a919e97670755fe",
+        "sourceSha256": "fa6f308a378af36438de402c02eb803c5d3e22f0f9a2cabd8344ed68587dfe6a",
+        "encoding": "gzip",
+        "mediaType": "application/x-ndjson",
+        "minColUsageId": "CNPX6",
+        "maxColUsageId": "CP44N"
+      },
+      {
+        "path": "bacteria/itis-bacteria-sidecar-0002.jsonl.gz",
+        "records": 1344,
+        "bytes": 43737,
+        "sourceBytes": 524168,
+        "sha256": "a6b67f596f07f945413e638c53152e50f46b381904e9f27990f3d7f1bfdecb8f",
+        "sourceSha256": "81b0ecfb9b0aa6883aa2cffd1d2e2c9c17414109808bf8216a0557dde950ff35",
+        "encoding": "gzip",
+        "mediaType": "application/x-ndjson",
+        "minColUsageId": "CP44P",
+        "maxColUsageId": "CPJNQ"
+      },
+      {
+        "path": "bacteria/itis-bacteria-sidecar-0003.jsonl.gz",
+        "records": 803,
+        "bytes": 28793,
+        "sourceBytes": 316132,
+        "sha256": "179c46b5e4e56012706838b34219233824f649ce298c2b3169ed9cbb64f65df3",
+        "sourceSha256": "7f18077dc82653c20429e96cfc13e7c875bee2bcf6ef0a22d1b291fcc891583c",
+        "encoding": "gzip",
+        "mediaType": "application/x-ndjson",
+        "minColUsageId": "CPJNR",
+        "maxColUsageId": "WT33"
+      }
+    ],
+    "upstreamOnly": [
+      {
+        "path": "bacteria/itis-bacteria-upstream-only-0000.jsonl.gz",
+        "records": 2762,
+        "bytes": 30680,
+        "sourceBytes": 524200,
+        "sha256": "3794e1d972cf52c7fb50aa4fd6f0d796c4a1b712fa4bd55ae2c1d53a70945090",
+        "sourceSha256": "3f12ab093adbe6d9f8e6c01f29d8af106b839367452ec4184ebd7410faaf7a3d",
+        "encoding": "gzip",
+        "mediaType": "application/x-ndjson",
+        "minTsn": "64",
+        "maxTsn": "961270"
+      },
+      {
+        "path": "bacteria/itis-bacteria-upstream-only-0001.jsonl.gz",
+        "records": 2771,
+        "bytes": 30238,
+        "sourceBytes": 524261,
+        "sha256": "72dc12517cb879b319a56ba30379f636ac44045ac8b73f888beb7f1b08f053c0",
+        "sourceSha256": "9e0075155a8b514f0be29deb1846eec0a592b78a866841c22426e5fdb34279f7",
+        "encoding": "gzip",
+        "mediaType": "application/x-ndjson",
+        "minTsn": "961271",
+        "maxTsn": "964041"
+      },
+      {
+        "path": "bacteria/itis-bacteria-upstream-only-0002.jsonl.gz",
+        "records": 2761,
+        "bytes": 29616,
+        "sourceBytes": 524117,
+        "sha256": "ec7e7ab0bbec416434508444070dc1b9e9f3f3c4bc43685ae5ec84ef5bf6bb9c",
+        "sourceSha256": "0c3fe033de47c204948543d8ccc5da614cdbcfbf6f5a6709bd28088e6a4159a1",
+        "encoding": "gzip",
+        "mediaType": "application/x-ndjson",
+        "minTsn": "964042",
+        "maxTsn": "966802"
+      },
+      {
+        "path": "bacteria/itis-bacteria-upstream-only-0003.jsonl.gz",
+        "records": 1054,
+        "bytes": 11935,
+        "sourceBytes": 199941,
+        "sha256": "dd2c180dbc86dba04555cb73147a9fd3748b1fb19f643fcbd9483d8e5d455c4c",
+        "sourceSha256": "c0d765420f83f3f50dbd87e525ec31e0c5e4f6d22af5475a8350a484a103e69e",
+        "encoding": "gzip",
+        "mediaType": "application/x-ndjson",
+        "minTsn": "966803",
+        "maxTsn": "1242394"
+      }
+    ]
+  },
+  "deliveryContract": {
+    "pagesLight": "Pages needs only this extension summary and hashes; all row-level JSONL gzip shards are omitted.",
+    "androidIosFull": "Android and iOS include every checksum-addressed crosswalk and ITIS-only shard."
+  },
+  "generatedBy": {
+    "scriptPath": "scripts/build-itis-bacteria-sidecar.mjs",
+    "deterministic": "Pinned checksums, fixed roots, exact SQL, representation-only normalization, stable ordering and deterministic gzip; no wall-clock fields or fuzzy matching."
+  }
+}
