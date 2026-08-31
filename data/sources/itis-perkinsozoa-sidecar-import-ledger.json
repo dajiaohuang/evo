@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 1,
+  "importType": "ITIS-2026-08-26-COL26.8-Perkinsozoa-empty-boundary-audit",
+  "generatedFrom": {
+    "sourcePath": "data/sources/itis-2026-08-26.json",
+    "sourceSha256": "38a7a55b4e98cafc66790e47f6bd637e298e23fd691e4771c755b38e4a02d7fc",
+    "itisDatabaseMember": "itisSqlite082626/ITIS.sqlite",
+    "itisDatabaseSha256": "ea7304536cfd7b1e2636d383911ca7931fc83d9ab1194ca2a3c020ea2daf1719",
+    "colRegistryManifestPath": "data/catalogue-of-life/releases/2026-08-20/registry/manifest.json",
+    "colRegistryManifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151",
+    "colPackageManifestPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/manifest.json",
+    "colPackageManifestSha256": "782b5dc475f70472e51164deda0f9328c06e99616b782d8f422e352f66e1c947",
+    "colOwnershipPath": "data/registry/package-species-coverage.json",
+    "colOwnershipSha256": "a297bc8a67ce60806fdee733464a79bfcc42e255f7e59535b01f94013c19dfea",
+    "existingPartitionDescriptors": [
+      {
+        "label": "Dinoflagellata",
+        "path": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-dinoflagellata-sidecar.json"
+      },
+      {
+        "label": "Apicomplexa",
+        "path": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-apicomplexa-sidecar.json"
+      }
+    ]
+  },
+  "scopeAudit": {
+    "requestedLabel": "Perkinsozoa",
+    "packageRootUsageIds": [
+      "C",
+      "Z"
+    ],
+    "packageRootScientificNames": [
+      "Chromista",
+      "Protozoa"
+    ],
+    "packageStrictAcceptedSpecies": 61518,
+    "colRootUsageId": null,
+    "colRootScientificName": "Perkinsozoa",
+    "colExactRootCandidates": [],
+    "colStrictAcceptedSpecies": 0,
+    "itisRootTsn": null,
+    "itisRootScientificName": "Perkinsozoa",
+    "itisExactRootCandidates": [],
+    "itisPrefixRootCandidates": [],
+    "boundary": "Neither COL26.8 nor ITIS 2026-08-26 materializes an exact Perkinsozoa root. No adjacent Dinoflagellata, Apicomplexa, Perkinsus, or package-wide name overlap is used as a proxy; this partition therefore has zero crosswalk rows and zero ITIS-only rows."
+  },
+  "rootBoundaryAudit": {
+    "colRegistryManifestPath": "data/catalogue-of-life/releases/2026-08-20/registry/manifest.json",
+    "colRegistryManifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151",
+    "exactColRootCandidates": [],
+    "exactItisRootCandidates": [],
+    "prefixItisRootCandidates": [],
+    "existingPartitions": [
+      {
+        "label": "Dinoflagellata",
+        "descriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-dinoflagellata-sidecar.json",
+        "colRootUsageId": "622D3",
+        "colRootScientificName": "Dinophyceae (Dinoflagellata)",
+        "itisRootTsn": "9874",
+        "colStrictAcceptedSpecies": 259,
+        "sidecarRecords": 259,
+        "overlappingColUsageIds": []
+      },
+      {
+        "label": "Apicomplexa",
+        "descriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-apicomplexa-sidecar.json",
+        "colRootUsageId": "87FBN",
+        "colRootScientificName": "Cryptosporidium Tyzzer, 1907",
+        "itisRootTsn": "553099",
+        "colStrictAcceptedSpecies": 21,
+        "sidecarRecords": 21,
+        "overlappingColUsageIds": []
+      }
+    ],
+    "overlapWithExistingPartitions": [
+      {
+        "label": "Dinoflagellata",
+        "overlappingColUsageIds": []
+      },
+      {
+        "label": "Apicomplexa",
+        "overlappingColUsageIds": []
+      }
+    ],
+    "decision": "No exact root exists in either pinned source. The existing Dinoflagellata and represented Apicomplexa partitions remain disjoint named partitions and are not expanded or duplicated here."
+  },
+  "matchingContract": {
+    "normalization": [
+      "Remove the exact trailing COL authorship field from COL scientificName when that suffix is present; no authorship parser is used.",
+      "Normalize Unicode to NFC, replace underscores with spaces, collapse Unicode whitespace and trim.",
+      "For species-rank comparison, remove one parenthesized subgenus token in the exact Genus (Subgenus) species representation; genus and specific epithet must remain unchanged.",
+      "Preserve case, diacritics, punctuation and all remaining name tokens."
+    ],
+    "statuses": {
+      "accepted": "Unavailable: no exact COL26.8 Perkinsozoa root defines an eligible partition.",
+      "synonym-current-name-redirect": "Unavailable: no exact COL26.8 Perkinsozoa root defines an eligible partition.",
+      "ambiguous": "Unavailable: no exact COL26.8 Perkinsozoa root defines an eligible partition.",
+      "unmatched": "Unavailable: no exact COL26.8 Perkinsozoa root defines an eligible partition."
+    },
+    "prohibited": "No inferred root, fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered, taxon-substituted, adjacent-root or package-wide matching is used."
+  },
+  "totals": {
+    "total": 0,
+    "accepted": 0,
+    "synonymCurrentNameRedirect": 0,
+    "ambiguous": 0,
+    "unmatched": 0,
+    "itisCurrentSpecies": 0,
+    "itisSpeciesSynonymLinks": 0,
+    "itisUpstreamOnly": 0
+  },
+  "output": {
+    "descriptor": {
+      "path": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-perkinsozoa-sidecar.json",
+      "bytes": 6601,
+      "sha256": "80b58d51531d3ff53e6c91d981b3268da618bba562f6ee8802d442281a7bedfc"
+    },
+    "colUsageIdShards": [],
+    "upstreamOnly": []
+  },
+  "deliveryContract": {
+    "pagesLight": "Pages publishes summary-only descriptor metadata and no row-level payload.",
+    "androidIosFull": "Android and iOS native-full inventories include the complete empty partition; no non-empty row is omitted.",
+    "runtimeChange": "This import deliberately changes no formal runtime, release manifest or central integration."
+  },
+  "generatedBy": {
+    "scriptPath": "scripts/build-itis-perkinsozoa-sidecar.mjs",
+    "scriptSha256": "e854123954ea533f0b5626c5de5df0a47c11253494b15b20c43a519aa9ee4779",
+    "deterministic": "Pinned input checksums, exact-name root audits, explicit overlap audit and fixed zero-row output; no wall-clock fields, inferred roots or name matching."
+  }
+}

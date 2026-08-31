@@ -1,0 +1,146 @@
+{
+  "schemaVersion": 1,
+  "sidecarType": "release-pinned-empty-nomenclatural-partition",
+  "packageId": "protists-chromists",
+  "scope": {
+    "requestedLabel": "Perkinsozoa",
+    "packageRootUsageIds": [
+      "C",
+      "Z"
+    ],
+    "packageRootScientificNames": [
+      "Chromista",
+      "Protozoa"
+    ],
+    "packageStrictAcceptedSpecies": 61518,
+    "colRootUsageId": null,
+    "colRootScientificName": "Perkinsozoa",
+    "colExactRootCandidates": [],
+    "colStrictAcceptedSpecies": 0,
+    "itisRootTsn": null,
+    "itisRootScientificName": "Perkinsozoa",
+    "itisExactRootCandidates": [],
+    "itisPrefixRootCandidates": [],
+    "boundary": "Neither COL26.8 nor ITIS 2026-08-26 materializes an exact Perkinsozoa root. No adjacent Dinoflagellata, Apicomplexa, Perkinsus, or package-wide name overlap is used as a proxy; this partition therefore has zero crosswalk rows and zero ITIS-only rows."
+  },
+  "rootBoundaryAudit": {
+    "colRegistryManifestPath": "data/catalogue-of-life/releases/2026-08-20/registry/manifest.json",
+    "colRegistryManifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151",
+    "exactColRootCandidates": [],
+    "exactItisRootCandidates": [],
+    "prefixItisRootCandidates": [],
+    "existingPartitions": [
+      {
+        "label": "Dinoflagellata",
+        "descriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-dinoflagellata-sidecar.json",
+        "colRootUsageId": "622D3",
+        "colRootScientificName": "Dinophyceae (Dinoflagellata)",
+        "itisRootTsn": "9874",
+        "colStrictAcceptedSpecies": 259,
+        "sidecarRecords": 259,
+        "overlappingColUsageIds": []
+      },
+      {
+        "label": "Apicomplexa",
+        "descriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-apicomplexa-sidecar.json",
+        "colRootUsageId": "87FBN",
+        "colRootScientificName": "Cryptosporidium Tyzzer, 1907",
+        "itisRootTsn": "553099",
+        "colStrictAcceptedSpecies": 21,
+        "sidecarRecords": 21,
+        "overlappingColUsageIds": []
+      }
+    ],
+    "overlapWithExistingPartitions": [
+      {
+        "label": "Dinoflagellata",
+        "overlappingColUsageIds": []
+      },
+      {
+        "label": "Apicomplexa",
+        "overlappingColUsageIds": []
+      }
+    ],
+    "decision": "No exact root exists in either pinned source. The existing Dinoflagellata and represented Apicomplexa partitions remain disjoint named partitions and are not expanded or duplicated here."
+  },
+  "sources": {
+    "col": {
+      "releaseAlias": "COL26.8",
+      "releaseDate": "2026-08-20",
+      "packageManifestPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/manifest.json",
+      "packageManifestSha256": "782b5dc475f70472e51164deda0f9328c06e99616b782d8f422e352f66e1c947",
+      "registryManifestPath": "data/catalogue-of-life/releases/2026-08-20/registry/manifest.json",
+      "registryManifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151",
+      "ownershipPath": "data/registry/package-species-coverage.json",
+      "ownershipSha256": "a297bc8a67ce60806fdee733464a79bfcc42e255f7e59535b01f94013c19dfea"
+    },
+    "itis": {
+      "datasetId": "itis-2026-08-26",
+      "exportDate": "2026-08-26",
+      "rootTsn": null,
+      "requestedRootName": "Perkinsozoa",
+      "sourceLedgerPath": "data/sources/itis-2026-08-26.json",
+      "sourceLedgerSha256": "38a7a55b4e98cafc66790e47f6bd637e298e23fd691e4771c755b38e4a02d7fc",
+      "license": "CC0-1.0",
+      "citationDoi": "10.5066/F7KH0KBK"
+    }
+  },
+  "exactMatching": {
+    "normalization": [
+      "Remove the exact trailing COL authorship field from COL scientificName when that suffix is present; no authorship parser is used.",
+      "Normalize Unicode to NFC, replace underscores with spaces, collapse Unicode whitespace and trim.",
+      "For species-rank comparison, remove one parenthesized subgenus token in the exact Genus (Subgenus) species representation; genus and specific epithet must remain unchanged.",
+      "Preserve case, diacritics, punctuation and all remaining name tokens."
+    ],
+    "statuses": {
+      "accepted": "Unavailable: no exact COL26.8 Perkinsozoa root defines an eligible partition.",
+      "synonym-current-name-redirect": "Unavailable: no exact COL26.8 Perkinsozoa root defines an eligible partition.",
+      "ambiguous": "Unavailable: no exact COL26.8 Perkinsozoa root defines an eligible partition.",
+      "unmatched": "Unavailable: no exact COL26.8 Perkinsozoa root defines an eligible partition."
+    },
+    "prohibited": "No inferred root, fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered, taxon-substituted, adjacent-root or package-wide matching is used."
+  },
+  "evidenceBoundary": {
+    "en": "This CC0 sidecar is an explicitly empty, release-pinned nomenclatural boundary audit. It is not a Perkinsozoa checklist, an inferred taxonomic placement, a final classification authority, a phylogeny, a species-concept equivalence assertion, a biological dossier or a scientific-review record.",
+    "zh": "此 CC0 侧车是明确为空的、固定版本的命名边界审计；它不是 Perkinsozoa 名录、推断的分类位置、最终分类权威、系统发育、物种概念等同性声明、生物档案或科学审查记录。"
+  },
+  "counts": {
+    "total": 0,
+    "accepted": 0,
+    "synonymCurrentNameRedirect": 0,
+    "ambiguous": 0,
+    "unmatched": 0,
+    "itisCurrentSpecies": 0,
+    "itisSpeciesSynonymLinks": 0,
+    "itisUpstreamOnly": 0
+  },
+  "colUsageIdLocator": {
+    "key": "colUsageId",
+    "ordering": "Unicode code-unit ascending",
+    "stableAddressing": "No COL row-level files exist because neither pinned source materializes an exact Perkinsozoa root.",
+    "files": []
+  },
+  "upstreamOnly": {
+    "colOwnership": null,
+    "stableAddressing": "No exact ITIS Perkinsozoa root exists, so no ITIS-only rows are emitted.",
+    "files": []
+  },
+  "deliveryProfiles": {
+    "web-light": {
+      "payload": "summary-only",
+      "files": [],
+      "records": 0,
+      "totalCompressedBytes": 0,
+      "totalSourceBytes": 0,
+      "statement": "GitHub Pages carries this descriptor and its hashes only; no row-level payload exists."
+    },
+    "native-full": {
+      "payload": "complete",
+      "files": [],
+      "records": 0,
+      "totalCompressedBytes": 0,
+      "totalSourceBytes": 0,
+      "statement": "Android and iOS carry the complete empty partition; there are no non-empty rows to omit."
+    }
+  }
+}
