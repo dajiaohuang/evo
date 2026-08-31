@@ -262,16 +262,20 @@ function makeDescriptor({ packageId, scope, packageRecords, allMatches, upstream
     currentName: currentName(row),
     basis: `No strict COL26.8 accepted species or official species-synonym evidence resolves to this current ITIS Reptilia species; package partition: ${scope}.`,
   })).sort((left, right) => Number(left.currentName.tsn) - Number(right.currentName.tsn))
-  const upstreamSource = jsonlBytes(upstreamRecords)
-  const upstreamCompressed = Buffer.from(deterministicGzip(upstreamSource, { level: 9 }))
-  const upstreamPath = join(root, 'itis-upstream-only-000.jsonl.gz')
-  writeFileSync(upstreamPath, upstreamCompressed)
-  const upstreamDescriptor = {
-    ...outputDescriptor(upstreamPath, upstreamRecords, upstreamCompressed, upstreamSource),
-    colOwnership: null,
-    firstTsn: upstreamRecords[0]?.currentName.tsn ?? null,
-    lastTsn: upstreamRecords.at(-1)?.currentName.tsn ?? null,
-  }
+  const upstreamDescriptor = upstreamRecords.length
+    ? (() => {
+      const upstreamSource = jsonlBytes(upstreamRecords)
+      const upstreamCompressed = Buffer.from(deterministicGzip(upstreamSource, { level: 9 }))
+      const upstreamPath = join(root, 'itis-upstream-only-000.jsonl.gz')
+      writeFileSync(upstreamPath, upstreamCompressed)
+      return {
+        ...outputDescriptor(upstreamPath, upstreamRecords, upstreamCompressed, upstreamSource),
+        colOwnership: null,
+        firstTsn: upstreamRecords[0].currentName.tsn,
+        lastTsn: upstreamRecords.at(-1).currentName.tsn,
+      }
+    })()
+    : null
   const counts = countsFor(records)
   const descriptor = {
     schemaVersion: 1,
@@ -323,8 +327,10 @@ function makeDescriptor({ packageId, scope, packageRecords, allMatches, upstream
     },
     upstreamOnly: {
       colOwnership: null,
-      stableAddressing: 'No COL usage ID is assigned. The package-partitioned ITIS-only current-species records are in one immutable JSONL gzip shard.',
-      files: [upstreamDescriptor],
+      stableAddressing: upstreamDescriptor
+        ? 'No COL usage ID is assigned. The package-partitioned ITIS-only current-species records are in one immutable JSONL gzip shard.'
+        : 'No ITIS-only current species belong to this package partition.',
+      files: upstreamDescriptor ? [upstreamDescriptor] : [],
     },
     canonicalCrosswalk: {
       path: repoPath(CANONICAL_PATH),

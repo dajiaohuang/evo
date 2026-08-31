@@ -53,7 +53,7 @@ describe('ITIS Reptilia authority import contract', () => {
   })
 
   for (const [packageId, relativeRoot] of Object.entries(PACKAGE_ROOTS)) {
-    it(`${packageId} exposes only non-overlapping range shards and an independent upstream-only shard`, () => {
+    it(`${packageId} exposes only non-overlapping range shards and a conditional upstream-only shard`, () => {
       const result = ledger.outputs[packageId]
       const descriptorPath = join(ROOT, relativeRoot, 'itis-tsn-sidecar.json')
       const descriptorBytes = readFileSync(descriptorPath)
@@ -80,10 +80,15 @@ describe('ITIS Reptilia authority import contract', () => {
         const current = descriptor.colUsageIdLocator.files[index]
         expect(codeUnitCompare(previous.lastColUsageId, current.firstColUsageId)).toBe(-1)
       }
-      const upstream = descriptor.upstreamOnly.files[0]
-      const upstreamBytes = readFileSync(join(ROOT, upstream.path))
-      expect(sha256(upstreamBytes)).toBe(upstream.sha256)
-      expect(lines(gunzipSync(upstreamBytes))).toHaveLength(upstream.records)
+      expect(descriptor.upstreamOnly.files).toHaveLength(result.upstreamOnly ? 1 : 0)
+      if (result.upstreamOnly) {
+        const upstream = descriptor.upstreamOnly.files[0]
+        const upstreamBytes = readFileSync(join(ROOT, upstream.path))
+        expect(sha256(upstreamBytes)).toBe(upstream.sha256)
+        expect(lines(gunzipSync(upstreamBytes))).toHaveLength(upstream.records)
+      } else {
+        expect(descriptor.upstreamOnly.stableAddressing).toContain('No ITIS-only')
+      }
       expect(descriptor.integration.androidIosFull).toContain('byte-for-byte')
       expect(descriptor.integration.pagesLight).toContain('omit')
     })

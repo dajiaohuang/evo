@@ -9,7 +9,7 @@
     "colRegistryManifestPath": "data/catalogue-of-life/releases/2026-08-20/registry/manifest.json",
     "colRegistryManifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151",
     "colOwnershipPath": "data/registry/package-species-coverage.json",
-    "colOwnershipSha256": "a297bc8a67ce60806fdee733464a79bfcc42e255f7e59535b01f94013c19dfea"
+    "colOwnershipSha256": "168e7cb70124ca4400e1b86c5fe76e7c1ff551bddd7be50f0149f077f40db1cf"
   },
   "scopeAudit": {
     "colRootUsageIds": [
@@ -75,17 +75,17 @@
   },
   "canonical": {
     "path": "data/sources/itis-reptilia-authority-crosswalk-col26.8.json.gz",
-    "bytes": 518780,
-    "sha256": "854b3889f795cbdbe359b51212ba03d53eb1e9cf0b6e28518366e978ad4f5059",
+    "bytes": 518779,
+    "sha256": "29c3e6a58c64fe1bd4764c19f507ecde4f5b5c58f21d75c1ddac9baa60fd042e",
     "sourceBytes": 7228917,
-    "sourceSha256": "5b4b3ac47aab26853a29f0c3b6f3f1e280d3f26f0f32a829ec4e60dde6d5332a"
+    "sourceSha256": "da836db87355b21f1d07158a6209266becd737ccc537b2f97ec9936e8fb381b4"
   },
   "outputs": {
     "turtles-lepidosaurs": {
       "descriptor": {
         "path": "data/packages/reptilia/turtles-lepidosaurs/nomenclature/itis-tsn-sidecar.json",
         "bytes": 9638,
-        "sha256": "3b8296e4ba6e3f9cb15f575f0492f058c9fddb4977f80480849c0deb2316e79e"
+        "sha256": "ef0a4262e33c482cf05e6bd148d188874a17470926c3475dc09a1734307dab48"
       },
       "counts": {
         "total": 12622,
@@ -206,8 +206,8 @@
     "crocodylomorphs-birds": {
       "descriptor": {
         "path": "data/packages/archosauria/crocodylomorphs-birds/nomenclature/itis-tsn-sidecar.json",
-        "bytes": 5994,
-        "sha256": "f954cb1cc5618f54fff53ba0a14a7c7963c111b8d310ce22814f5a02d88485af"
+        "bytes": 5406,
+        "sha256": "da73286df329505cd95c5a47162995dd77ac1e328cd75ee83494e18822782a1e"
       },
       "counts": {
         "total": 27,
@@ -231,19 +231,7 @@
           "sourceSha256": "94ad8f110b3a824f86617148b8f44257044546a80176e73fa593f9b5647854fc"
         }
       ],
-      "upstreamOnly": {
-        "path": "data/packages/archosauria/crocodylomorphs-birds/nomenclature/itis-upstream-only-000.jsonl.gz",
-        "records": 0,
-        "firstColUsageId": null,
-        "lastColUsageId": null,
-        "bytes": 21,
-        "sha256": "74420f89d2d2a4256b5b578f1c2a01dd2b605f9aca4905db839d008cfd29cac0",
-        "sourceBytes": 1,
-        "sourceSha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
-        "colOwnership": null,
-        "firstTsn": null,
-        "lastTsn": null
-      }
+      "upstreamOnly": null
     }
   },
   "deliveryContract": {
@@ -253,7 +241,7 @@
   },
   "generatedBy": {
     "scriptPath": "scripts/build-itis-reptilia-sidecars.mjs",
-    "scriptSha256": "9d41c15d864e12b84026eafa5e30459300f7be27e40f6a5642140d6c749a4be4",
+    "scriptSha256": "71e33a8dd856fb3a9f46be5882a5de61562ec2793c191e8612d2a1f86f78032d",
     "deterministic": "Pinned input checksums, fixed roots, exact SQL, exact representation-only normalization and stable sorting; no wall-clock fields or fuzzy matching."
   }
 }
