@@ -116,6 +116,16 @@ test('Catalog publishes every research preset with bilingual evidence limits and
   await expect(chineseLifePreset).toContainText('探索器入口不能确立精确起源')
 })
 
+test('interpretive reconstruction images are paired with visible AI and uncertainty notices', async ({ page }) => {
+  await page.addInitScript(() => window.localStorage.setItem('evo-atlas-language', 'en'))
+  await page.goto('./#/taxa?id=lycophyta')
+
+  const reconstruction = page.locator('.media-card--reconstruction')
+  await expect(reconstruction.getByRole('img')).toHaveAttribute('alt', 'A small branching Asteroxylon exemplar with upright axes and a creeping root-bearing axis')
+  await expect(reconstruction.locator('.media-card__badge')).toHaveText('AI-assisted interpretive reconstruction — not a specimen photograph, scale drawing or direct evidence.')
+  await expect(reconstruction.locator('.media-card__uncertainty')).toContainText('Asteroxylon is a species-level exemplar.')
+})
+
 test('Catalogue search returns every usage in an exact-name homonym cluster larger than 12', async ({ page }) => {
   await page.addInitScript(() => window.localStorage.setItem('evo-atlas-language', 'en'))
   await page.goto('./#/catalog')

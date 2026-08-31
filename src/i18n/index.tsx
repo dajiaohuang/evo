@@ -890,7 +890,7 @@ const zh: Record<string, string> = {
   '05 / Museum media': '05 / 博物馆媒体',
   'Specimens and reconstructions at their source': '来源机构中的标本与复原',
   '05 / Media': '05 / 媒体',
-  'Source media and labelled interpretive reconstructions': '来源媒体与明确标识的解释性复原',
+  'Source media and interpretive reconstructions': '来源媒体与解释性复原',
   'Asteroxylon rooting-system interpretive reconstruction': '星木属生根系统解释性复原',
   'Eocyathispongia holotype-geometry interpretive reconstruction': '始杯海绵正模几何形态解释性复原',
   'Kimberella body-plan interpretive reconstruction': '金伯拉虫体制解释性复原',

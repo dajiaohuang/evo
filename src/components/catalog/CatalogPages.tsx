@@ -279,7 +279,7 @@ export function TaxonPage({ id, onNavigate }: CatalogPageProps) {
 
           <section id="media" className="catalog-section">
             <span className="section-label">{t('05 / Media')}</span>
-            <h2>{t('Source media and labelled interpretive reconstructions')}</h2>
+            <h2>{t('Source media and interpretive reconstructions')}</h2>
             <div className="media-ledger">
               {media.map((asset) => asset.contentOrigin === 'ai-assisted-interpretive-reconstruction'
                 ? <article key={asset.id} className="media-card media-card--reconstruction">
