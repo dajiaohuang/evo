@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "sidecarType": "release-pinned-exact-nomenclatural-crosswalk",
+  "packageId": "crustaceans-insects",
+  "scope": {
+    "colRoots": [
+      {
+        "id": "KZS5W",
+        "scientificName": "Collembola"
+      },
+      {
+        "id": "8NKDZ",
+        "scientificName": "Protura"
+      }
+    ],
+    "colStrictAcceptedSpecies": 9668,
+    "speciesByColRoot": {
+      "KZS5W": 8910,
+      "8NKDZ": 758
+    },
+    "packageStrictAcceptedSpecies": 1049133,
+    "packageOutOfScopeStrictAcceptedSpecies": 1039465,
+    "boundary": "This mixed package already has separate ITIS collections for Crustacea, Insecta and Myriapoda. This collection covers only exact COL26.8 Collembola and Protura roots, which are disjoint from those declared collection roots; every other package-owned species is nonapplicable."
+  },
+  "sources": {
+    "col": {
+      "releaseAlias": "COL26.8",
+      "releaseDate": "2026-08-20",
+      "registryManifestPath": "data/catalogue-of-life/releases/2026-08-20/registry/manifest.json",
+      "registryManifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151",
+      "ownershipPath": "data/registry/package-species-coverage.json",
+      "ownershipSha256": "a31a41ef0e9e785192a2fbbed11df9aa9bc06ba2f84a04b8fe38bd45824ff6ff"
+    },
+    "itis": {
+      "datasetId": "itis-2026-08-26",
+      "exportDate": "2026-08-26",
+      "roots": [
+        {
+          "tsn": "914185",
+          "scientificName": "Collembola"
+        },
+        {
+          "tsn": "914187",
+          "scientificName": "Protura"
+        }
+      ],
+      "sourceLedgerPath": "data/sources/itis-2026-08-26.json",
+      "sourceLedgerSha256": "38a7a55b4e98cafc66790e47f6bd637e298e23fd691e4771c755b38e4a02d7fc",
+      "license": "CC0-1.0",
+      "citationDoi": "10.5066/F7KH0KBK"
+    }
+  },
+  "exactMatching": {
+    "normalization": [
+      "Remove the exact trailing COL authorship field from COL scientificName when that suffix is present; no authorship parser is used.",
+      "Normalize Unicode to NFC, replace underscores with spaces, collapse Unicode whitespace and trim.",
+      "For species-rank comparison, remove one parenthesized subgenus token in the exact Genus (Subgenus) species representation; genus and specific epithet must remain unchanged.",
+      "Preserve case, diacritics, punctuation and all remaining name tokens."
+    ],
+    "statuses": {
+      "accepted": "The normalized COL name resolves to exactly one valid ITIS Collembola or Protura species and directly equals that current ITIS name.",
+      "synonym-current-name-redirect": "The normalized COL name equals official ITIS invalid species-name evidence that resolves to exactly one valid ITIS Collembola or Protura species.",
+      "ambiguous": "The normalized exact evidence resolves to more than one valid ITIS Collembola or Protura species TSN.",
+      "unmatched": "No normalized exact valid-name or official ITIS species-synonym evidence resolves to a valid ITIS Collembola or Protura species."
+    },
+    "prohibited": "No fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered or taxon-substituted matching is used."
+  },
+  "evidenceBoundary": {
+    "en": "This CC0 ITIS sidecar is a frozen exact nomenclatural crosswalk for Collembola and Protura. It is not a checklist, final classification authority, phylogeny, species-concept equivalence assertion, biological dossier or scientific-review record.",
+    "zh": "此 CC0 ITIS 侧车是弹尾纲与原尾纲的冻结严格命名交叉映射；它不是名录、最终分类权威、系统发育树、物种概念等同性声明、生物档案或科学审查记录。"
+  },
+  "counts": {
+    "total": 9668,
+    "accepted": 2075,
+    "synonymCurrentNameRedirect": 25,
+    "ambiguous": 4,
+    "unmatched": 7564,
+    "itisCurrentSpecies": 2507,
+    "itisSpeciesSynonymLinks": 449,
+    "itisUpstreamOnly": 411
+  },
+  "colUsageIdLocator": {
+    "key": "colUsageId",
+    "ordering": "Unicode code-unit ascending",
+    "sourceShardLimitBytes": 2097152,
+    "stableAddressing": "Binary-search non-overlapping inclusive COL usage ID ranges; one detail query loads at most one immutable JSONL gzip shard.",
+    "files": [
+      {
+        "path": "data/packages/arthropoda/crustaceans-insects/nomenclature/itis-collembola-protura-sidecar-0000.jsonl.gz",
+        "records": 6821,
+        "firstColUsageId": "333WW",
+        "lastColUsageId": "6XB8P",
+        "bytes": 191800,
+        "sha256": "abedfed6be3cf3640071bbd3c09fb81fa8d6f012d87c8f74e20b31fe3a16e61f",
+        "sourceBytes": 2097038,
+        "sourceSha256": "1237928f34daafad36cc0a378ee88ab4626c169ede5ee6f9fe53bb6f7ea219da"
+      },
+      {
+        "path": "data/packages/arthropoda/crustaceans-insects/nomenclature/itis-collembola-protura-sidecar-0001.jsonl.gz",
+        "records": 2847,
+        "firstColUsageId": "6XB8Q",
+        "lastColUsageId": "ZZG5",
+        "bytes": 86903,
+        "sha256": "6423fe2074d0122a9843449efa72ccf3654d2c50ce3910b01caf9208eeebf8e3",
+        "sourceBytes": 873336,
+        "sourceSha256": "7af5be53537bcb4d63c4b6574b8f9b58de73b858dc2c07d6698a9f8ebcc1978f"
+      }
+    ]
+  },
+  "upstreamOnly": {
+    "colOwnership": null,
+    "stableAddressing": "No COL usage ID is assigned. The complete ITIS-only current-species partition is separately stored.",
+    "files": [
+      {
+        "path": "data/packages/arthropoda/crustaceans-insects/nomenclature/itis-collembola-protura-upstream-only-0000.jsonl.gz",
+        "records": 411,
+        "firstColUsageId": null,
+        "lastColUsageId": null,
+        "bytes": 5306,
+        "sha256": "47238f5d28fd9cd3152914787f72c83a592ef3244675775656a3531939b10b9e",
+        "sourceBytes": 155635,
+        "sourceSha256": "3b30e08a317c45ac9ddb84e2c0bd841735fdd3cf1e3b13f5d98b24d95040f62a",
+        "colOwnership": null,
+        "firstTsn": "99258",
+        "lastTsn": "771755"
+      }
+    ]
+  }
+}

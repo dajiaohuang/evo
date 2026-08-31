@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 1,
+  "importType": "COL26.8-to-ITIS-exact-collembola-protura-nomenclatural-sidecar",
+  "generatedFrom": {
+    "sourcePath": "data/sources/itis-2026-08-26.json",
+    "sourceSha256": "38a7a55b4e98cafc66790e47f6bd637e298e23fd691e4771c755b38e4a02d7fc",
+    "itisDatabaseMember": "itisSqlite082626/ITIS.sqlite",
+    "itisDatabaseSha256": "ea7304536cfd7b1e2636d383911ca7931fc83d9ab1194ca2a3c020ea2daf1719",
+    "colRegistryManifestPath": "data/catalogue-of-life/releases/2026-08-20/registry/manifest.json",
+    "colRegistryManifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151",
+    "colOwnershipPath": "data/registry/package-species-coverage.json",
+    "colOwnershipSha256": "a31a41ef0e9e785192a2fbbed11df9aa9bc06ba2f84a04b8fe38bd45824ff6ff"
+  },
+  "scopeAudit": {
+    "colRoots": [
+      {
+        "id": "KZS5W",
+        "scientificName": "Collembola"
+      },
+      {
+        "id": "8NKDZ",
+        "scientificName": "Protura"
+      }
+    ],
+    "colStrictAcceptedSpecies": 9668,
+    "speciesByColRoot": {
+      "KZS5W": 8910,
+      "8NKDZ": 758
+    },
+    "packageStrictAcceptedSpecies": 1049133,
+    "packageOutOfScopeStrictAcceptedSpecies": 1039465,
+    "boundary": "This mixed package already has separate ITIS collections for Crustacea, Insecta and Myriapoda. This collection covers only exact COL26.8 Collembola and Protura roots, which are disjoint from those declared collection roots; every other package-owned species is nonapplicable.",
+    "itisRoots": [
+      {
+        "tsn": "914185",
+        "scientificName": "Collembola",
+        "rank": "Class",
+        "usage": "valid"
+      },
+      {
+        "tsn": "914187",
+        "scientificName": "Protura",
+        "rank": "Class",
+        "usage": "valid"
+      }
+    ],
+    "itisCurrentSpecies": 2507,
+    "itisSpeciesSynonymLinks": 449,
+    "maximumUpdateDates": {
+      "taxonomicUnits": "2026-08-26",
+      "synonymLinks": "2026-08-26"
+    }
+  },
+  "matchingContract": {
+    "normalization": [
+      "Remove the exact trailing COL authorship field from COL scientificName when that suffix is present; no authorship parser is used.",
+      "Normalize Unicode to NFC, replace underscores with spaces, collapse Unicode whitespace and trim.",
+      "For species-rank comparison, remove one parenthesized subgenus token in the exact Genus (Subgenus) species representation; genus and specific epithet must remain unchanged.",
+      "Preserve case, diacritics, punctuation and all remaining name tokens."
+    ],
+    "statuses": {
+      "accepted": "The normalized COL name resolves to exactly one valid ITIS Collembola or Protura species and directly equals that current ITIS name.",
+      "synonym-current-name-redirect": "The normalized COL name equals official ITIS invalid species-name evidence that resolves to exactly one valid ITIS Collembola or Protura species.",
+      "ambiguous": "The normalized exact evidence resolves to more than one valid ITIS Collembola or Protura species TSN.",
+      "unmatched": "No normalized exact valid-name or official ITIS species-synonym evidence resolves to a valid ITIS Collembola or Protura species."
+    },
+    "prohibited": "No fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered or taxon-substituted matching is used."
+  },
+  "totals": {
+    "total": 9668,
+    "accepted": 2075,
+    "synonymCurrentNameRedirect": 25,
+    "ambiguous": 4,
+    "unmatched": 7564,
+    "itisCurrentSpecies": 2507,
+    "itisSpeciesSynonymLinks": 449,
+    "itisUpstreamOnly": 411
+  },
+  "output": {
+    "descriptor": {
+      "path": "data/packages/arthropoda/crustaceans-insects/nomenclature/itis-collembola-protura-sidecar.json",
+      "bytes": 5902,
+      "sha256": "bf90e217fa6871bb1e59807b721ed88403c47e9aa2712a782ef40146b906fdf2"
+    },
+    "colUsageIdShards": [
+      {
+        "path": "data/packages/arthropoda/crustaceans-insects/nomenclature/itis-collembola-protura-sidecar-0000.jsonl.gz",
+        "records": 6821,
+        "firstColUsageId": "333WW",
+        "lastColUsageId": "6XB8P",
+        "bytes": 191800,
+        "sha256": "abedfed6be3cf3640071bbd3c09fb81fa8d6f012d87c8f74e20b31fe3a16e61f",
+        "sourceBytes": 2097038,
+        "sourceSha256": "1237928f34daafad36cc0a378ee88ab4626c169ede5ee6f9fe53bb6f7ea219da"
+      },
+      {
+        "path": "data/packages/arthropoda/crustaceans-insects/nomenclature/itis-collembola-protura-sidecar-0001.jsonl.gz",
+        "records": 2847,
+        "firstColUsageId": "6XB8Q",
+        "lastColUsageId": "ZZG5",
+        "bytes": 86903,
+        "sha256": "6423fe2074d0122a9843449efa72ccf3654d2c50ce3910b01caf9208eeebf8e3",
+        "sourceBytes": 873336,
+        "sourceSha256": "7af5be53537bcb4d63c4b6574b8f9b58de73b858dc2c07d6698a9f8ebcc1978f"
+      }
+    ],
+    "upstreamOnly": {
+      "path": "data/packages/arthropoda/crustaceans-insects/nomenclature/itis-collembola-protura-upstream-only-0000.jsonl.gz",
+      "records": 411,
+      "firstColUsageId": null,
+      "lastColUsageId": null,
+      "bytes": 5306,
+      "sha256": "47238f5d28fd9cd3152914787f72c83a592ef3244675775656a3531939b10b9e",
+      "sourceBytes": 155635,
+      "sourceSha256": "3b30e08a317c45ac9ddb84e2c0bd841735fdd3cf1e3b13f5d98b24d95040f62a",
+      "colOwnership": null,
+      "firstTsn": "99258",
+      "lastTsn": "771755"
+    }
+  },
+  "deliveryContract": {
+    "pagesLight": "Pages may publish only this descriptor and the canonical row-file hashes; row shards are omitted.",
+    "androidIosFull": "Android and iOS native-full inventories must include every listed row shard byte-for-byte.",
+    "runtimeChange": "Data-only import; no version or release-manifest change."
+  },
+  "generatedBy": {
+    "scriptPath": "scripts/build-itis-collembola-protura-sidecar.mjs",
+    "scriptSha256": "b3a415c5962ebe6530afbd0fa53387452570f7ac3c6ab41f8a42fbaf206c9a55",
+    "deterministic": "Pinned checksums, fixed disjoint roots, exact SQL, representation-only normalization, Unicode code-unit ordering and deterministic gzip; no wall-clock data or fuzzy matching."
+  }
+}

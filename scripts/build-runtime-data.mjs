@@ -137,6 +137,14 @@ const richPackageNomenclatureSources = {
     expectedLicense: 'CC0-1.0',
     rowEncoding: 'jsonl',
     colIdField: 'colUsageId',
+  }, {
+    kind: 'range-sharded',
+    descriptorPath: 'data/packages/arthropoda/crustaceans-insects/nomenclature/itis-collembola-protura-sidecar.json',
+    expectedId: 'itis-collembola-protura-tsn-crosswalk',
+    expectedProvider: 'Integrated Taxonomic Information System',
+    expectedLicense: 'CC0-1.0',
+    rowEncoding: 'jsonl',
+    colIdField: 'colUsageId',
   }],
   'trilobites-chelicerates': [{
     kind: 'range-sharded',
