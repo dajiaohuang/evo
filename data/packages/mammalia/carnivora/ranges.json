@@ -590,24 +590,28 @@
     "rangeKind": "global-composite",
     "taxonomicConcept": "Enaliarctos mealsi skeleton occurrence",
     "geographicScope": "Jewett Sand, California, USA",
-    "olderMa": 24,
-    "youngerMa": 22,
+    "olderMa": 23,
+    "youngerMa": 23,
     "status": "available",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "This is a study-level sampled occurrence envelope, not a direct date on ancestry or a guaranteed global first or last appearance."
+      "note": "The source reports approximately 23 Ma; this rounded specimen age is not a precise radiometric date, direct ancestry date, or guaranteed global first or last appearance."
     },
-    "evidenceBasis": "LACM 4321 preserves a skull and much of the postcranial skeleton, allowing measured limb proportions and joint morphology to be compared with living pinnipeds and terrestrial carnivorans.",
+    "evidenceBasis": "The primary report places the nearly complete LACM 4321 skeleton at approximately 23 Ma; the detailed study describes its virtually complete anatomy and bounded locomotor comparisons.",
     "evidenceLevel": "literature-synthesized",
     "confidence": "medium",
     "claimIds": [
-      "claim:event:enaliarctos-skeleton-swimming-model"
+      "claim:taxon:enaliarctos:fossil-range"
     ],
     "referenceLocators": [
       {
         "referenceId": "berta-ray-1990-enaliarctos",
         "locator": "141–157; Figures 1–8; Tables 1–6; Skeletal description; Limb proportions; Locomotor interpretation"
+      },
+      {
+        "referenceId": "berta-ray-wyss-1989-enaliarctos",
+        "locator": "60–62; abstract: nearly complete skeleton from California rocks, approximately 23 million years old"
       }
     ],
     "reviewStatus": "automated-audit-passed"
