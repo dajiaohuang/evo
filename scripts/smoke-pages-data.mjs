@@ -9,6 +9,7 @@ const dataRoot = join(rootDir, 'dist/data')
 const pagesRoot = join(rootDir, 'dist')
 const sourceTimeScale = JSON.parse(readFileSync(join(rootDir, 'data/time-scale.json'), 'utf8'))
 const sourceManifest = JSON.parse(readFileSync(join(rootDir, 'data/manifest.json'), 'utf8'))
+const sourceMedia = JSON.parse(readFileSync(join(rootDir, 'data/media.json'), 'utf8'))
 const namedObjectSlug = (value) => `${String(value).toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '')}-${createHash('sha256').update(value, 'utf8').digest('hex').slice(0, 8)}`
 const failures = []
 const readJson = (relativePath) => JSON.parse(readFileSync(join(dataRoot, relativePath), 'utf8'))
@@ -154,6 +155,19 @@ if (existsSync(flagshipStaticPath)) {
 }
 const scaffoldStaticPath = join(pagesRoot, 'taxa/dinosauria/index.html')
 if (existsSync(scaffoldStaticPath) && readFileSync(scaffoldStaticPath, 'utf8').includes('name="robots" content="noindex,follow"')) failures.push('structured Dinosauria static pages must be indexable')
+
+const reconstruction = sourceMedia.find((asset) => asset.id === 'asteroxylon-interpretive-reconstruction')
+for (const [language, relativePath] of [['en', 'media/asteroxylon-interpretive-reconstruction/index.html'], ['zh', 'zh/media/asteroxylon-interpretive-reconstruction/index.html']]) {
+  const target = join(pagesRoot, relativePath)
+  if (!existsSync(target)) failures.push(`interpretive reconstruction static page is missing: ${relativePath}`)
+  else {
+    const html = readFileSync(target, 'utf8')
+    const markers = language === 'zh'
+      ? [reconstruction?.altTextZh, reconstruction?.interpretiveNoticeZh, reconstruction?.uncertaintyZh]
+      : [reconstruction?.altText, reconstruction?.interpretiveNotice, reconstruction?.uncertainty]
+    for (const marker of markers) if (!marker || !html.includes(marker)) failures.push(`${relativePath} is missing its paired interpretive notice or uncertainty`)
+  }
+}
 
 const localizedStaticChecks = [
   { path: 'zh/events/tiaojishan-ginkgoxylon/index.html', markers: ['天义山组银杏样化石木材', '一件经解剖诊断'] },

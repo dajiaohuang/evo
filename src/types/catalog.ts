@@ -186,6 +186,7 @@ export interface MediaAsset {
   id: string
   taxonId: string
   title: string
+  titleZh?: string
   type: 'museum-gallery' | 'specimen-feature' | 'reconstruction' | '3d-model'
   sourceName: string
   sourceUrl: string
@@ -199,4 +200,20 @@ export interface MediaAsset {
   subjectScope: string
   reviewedAt: string
   licenseNote: string
+  contentOrigin?: 'external-source' | 'ai-assisted-interpretive-reconstruction'
+  interpretiveNotice?: string
+  interpretiveNoticeZh?: string
+  uncertainty?: string
+  uncertaintyZh?: string
+  evidenceReferenceIds?: string[]
+  provenancePath?: string
+  asset?: {
+    path: string
+    url?: string
+    bytes: number
+    sha256: string
+    width: 1280
+    height: 800
+    mediaType: 'image/webp'
+  }
 }

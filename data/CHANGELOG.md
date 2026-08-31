@@ -1,5 +1,11 @@
 # Dataset changelog
 
+## App 0.20.9 / 2026.08-static-v5-rc58 — 2026-08-31
+
+- Added eight locally generated, evidence-anchored 1280×800 WebP interpretive reconstructions for Asteroxylon, Eocyathispongia, Kimberella, Waptia, Shenacanthus, Tiktaalik, Ambulocetus and Archaeopteryx. The image bytes contain no embedded text or watermark; every application and static-page presentation pairs the image with bilingual AI-assistance and uncertainty notices and keeps it distinct from a specimen photograph, scale drawing or direct observation.
+- Retained the reproducible ComfyUI prompt graph, fixed seeds, model/workflow/license hashes, rejected variants, selected PNG and output WebP hashes, and original-detail acceptance review. Scientific-review status remains explicitly `not-reviewed`; cited scientific publications are evidence anchors and are not relicensed.
+- Published the identical eight assets through the canonical manifest, rich-package ZIPs, Web package/full-atlas offline storage and the complete Android/iOS release inventory. The rc57 Archaea LPSN sidecar remains unchanged and is carried through the same Web/native projections. Android `versionCode` and iOS build number advance to `12`.
+
 ## App 0.20.8 / 2026.08-static-v5-rc57 — 2026-08-31
 
 - Added a deterministic, release-pinned LPSN identifier extension for all 790 COL26.8 Archaea species. Each record follows immutable ChecklistBank dataset `316115` and source dataset `2015` to one specific LPSN page from source version `2026-07-26`; the canonical 2026-08-31 snapshot records every exact response SHA-256 and an aggregate request-ledger hash.

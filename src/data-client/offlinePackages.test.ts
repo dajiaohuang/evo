@@ -91,7 +91,7 @@ describe('complete Atlas offline storage', () => {
     expect([...stored.keys()].some((url) => url.endsWith(files[3].url))).toBe(false)
   })
 
-  it('includes research examples in single-package and all-package offline storage', async () => {
+  it('includes research examples and bundled media in single-package and all-package offline storage', async () => {
     const datasetVersion = 'dataset-research'
     const releaseBase = `releases/${datasetVersion}/`
     const registryFile = { url: `${releaseBase}packages/registry.json` }
@@ -104,6 +104,7 @@ describe('complete Atlas offline storage', () => {
         identity: { url: `${releaseBase}packages/${packageId}/identity.json` },
         researchExamples: { url: `${releaseBase}packages/${packageId}/research-examples.json` },
       },
+      assets: [{ url: `${releaseBase}packages/${packageId}/media/reconstruction.webp` }],
       occurrences: [],
     }]))
     const current = {
@@ -139,12 +140,15 @@ describe('complete Atlas offline storage', () => {
     const { saveAllPackagesOffline, savePackageOffline } = await import('./offlinePackages')
     await savePackageOffline('alpha')
     expect([...stored.keys()].some((url) => url.endsWith(manifests.alpha.files.researchExamples.url))).toBe(true)
+    expect([...stored.keys()].some((url) => url.endsWith(manifests.alpha.assets[0].url))).toBe(true)
     expect([...stored.keys()].some((url) => url.endsWith(manifests.beta.files.researchExamples.url))).toBe(false)
+    expect([...stored.keys()].some((url) => url.endsWith(manifests.beta.assets[0].url))).toBe(false)
 
     stored.clear()
     await saveAllPackagesOffline()
     for (const packageId of packageIds) {
       expect([...stored.keys()].some((url) => url.endsWith(manifests[packageId].files.researchExamples.url))).toBe(true)
+      expect([...stored.keys()].some((url) => url.endsWith(manifests[packageId].assets[0].url))).toBe(true)
     }
   })
 

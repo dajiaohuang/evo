@@ -1,6 +1,6 @@
 import Ajv2020 from 'ajv/dist/2020.js'
 import { createHash } from 'node:crypto'
-import { existsSync } from 'node:fs'
+import { existsSync, readFileSync } from 'node:fs'
 import { join } from 'node:path'
 import { collectDataSummary, flattenTree, readJson, rootDir } from './data-lib.mjs'
 import { validatePlatform } from './platform-validation-lib.mjs'
@@ -12,6 +12,24 @@ failures.push(...validatePlatform('all'))
 const check = (condition, message) => { if (!condition) failures.push(message) }
 const unique = (items) => new Set(items).size === items.length
 const sameValues = (left, right) => JSON.stringify(left) === JSON.stringify(right)
+
+function webpInfo(bytes) {
+  if (bytes.subarray(0, 4).toString('ascii') !== 'RIFF' || bytes.subarray(8, 12).toString('ascii') !== 'WEBP') return null
+  const chunks = []
+  let width = null
+  let height = null
+  for (let offset = 12; offset + 8 <= bytes.length;) {
+    const type = bytes.subarray(offset, offset + 4).toString('ascii')
+    const length = bytes.readUInt32LE(offset + 4)
+    chunks.push(type)
+    if (type === 'VP8X' && length >= 10) {
+      width = bytes.readUIntLE(offset + 12, 3) + 1
+      height = bytes.readUIntLE(offset + 15, 3) + 1
+    }
+    offset += 8 + length + (length % 2)
+  }
+  return { width, height, chunks }
+}
 
 const periodMetadata = readJson('data/period-map-metadata.json')
 const timeScale = readJson('data/time-scale.json')
@@ -297,11 +315,31 @@ for (const id of Object.keys(treeEvidence.nodes)) check(ontologyTree.idSet.has(i
 validateReferences('tree evidence default', treeEvidence.default.references)
 for (const [id, evidence] of Object.entries(treeEvidence.nodes)) validateReferences(`tree evidence ${id}`, evidence.references)
 
+const mediaProvenance = new Map()
 for (const asset of media) {
   check(profileIds.has(asset.taxonId), `media ${asset.id}: unknown taxon ${asset.taxonId}`)
   check(/^https:\/\//.test(asset.sourceUrl), `media ${asset.id}: source URL must use HTTPS`)
   check(asset.rightsStatus !== 'external-link-only' || asset.license === 'No reusable-content license verified', `media ${asset.id}: external-only media must not imply a reusable license`)
-  check(asset.reviewedAt === '2026-08-19', `media ${asset.id}: rights review date is stale`)
+  check(asset.reviewedAt <= '2026-08-31', `media ${asset.id}: rights review date is in the future`)
+  if (asset.contentOrigin !== 'ai-assisted-interpretive-reconstruction') continue
+  for (const referenceId of asset.evidenceReferenceIds ?? []) check(referencesById.has(referenceId), `media ${asset.id}: unknown evidence reference ${referenceId}`)
+  check(existsSync(join(rootDir, asset.provenancePath ?? '')), `media ${asset.id}: generation provenance is missing`)
+  check(existsSync(join(rootDir, asset.asset?.path ?? '')), `media ${asset.id}: bundled WebP is missing`)
+  if (!asset.asset || !existsSync(join(rootDir, asset.asset.path))) continue
+  const bytes = readFileSync(join(rootDir, asset.asset.path))
+  const digest = createHash('sha256').update(bytes).digest('hex')
+  const info = webpInfo(bytes)
+  check(bytes.byteLength === asset.asset.bytes, `media ${asset.id}: asset byte count is stale`)
+  check(digest === asset.asset.sha256, `media ${asset.id}: asset SHA-256 is stale`)
+  check(bytes.byteLength <= 384 * 1024, `media ${asset.id}: asset exceeds the 384 KiB hard limit`)
+  check(info?.width === 1280 && info?.height === 800, `media ${asset.id}: asset must be 1280x800 WebP`)
+  check(info?.chunks.includes('ICCP'), `media ${asset.id}: asset must carry an sRGB ICC profile`)
+  check(!info?.chunks.some((chunk) => chunk === 'EXIF' || chunk === 'XMP '), `media ${asset.id}: asset must not carry EXIF or XMP metadata`)
+  if (!mediaProvenance.has(asset.provenancePath)) mediaProvenance.set(asset.provenancePath, readJson(asset.provenancePath))
+  const provenance = mediaProvenance.get(asset.provenancePath)
+  const provenanceAsset = provenance.assets?.find((entry) => entry.id === asset.id)
+  check(provenance.inputImages?.length === 0, `media ${asset.id}: reconstruction provenance must not use external image inputs`)
+  check(provenanceAsset?.outputSha256 === digest && provenanceAsset?.outputBytes === bytes.byteLength, `media ${asset.id}: output provenance does not match the bundled asset`)
 }
 
 for (const claim of claims) {

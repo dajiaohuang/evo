@@ -19,6 +19,7 @@ import type {
   RuntimeMapFrame,
   RuntimeMapFrameSelection,
   RuntimeMapSnapshot,
+  RuntimeMediaAsset,
   RuntimePackageManifest,
   RuntimePackageRegistry,
   RuntimeResearchExamples,
@@ -281,6 +282,14 @@ export async function loadPackageForEntity(entityId: string): Promise<RuntimePac
     loadedPackageSearch.set(packageId, entries)
   }
   return manifest
+}
+
+export async function loadMediaForEntity(entityId: string): Promise<RuntimeMediaAsset[]> {
+  const manifest = await loadPackageForEntity(entityId)
+  const mediaFile = manifest?.files.media
+  if (!mediaFile) return []
+  const media = await loadRuntimeFile<RuntimeMediaAsset[]>(mediaFile)
+  return media.filter((asset) => asset.taxonId === entityId)
 }
 
 export async function loadOccurrenceManifest(): Promise<OccurrenceRuntimeManifest> {
