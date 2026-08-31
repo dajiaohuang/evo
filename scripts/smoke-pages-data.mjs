@@ -601,7 +601,7 @@ if (catalogue.resourcePacks?.packageCount !== 7
     let lpsnExtension = null
     if (expectedLpsn) {
       lpsnExtension = extensions.find((candidate) => candidate.id === 'lpsn-identifiers')
-      if (extensions.length !== 1 || !lpsnExtension || lpsnExtension.recordType !== 'external-name-identifier-crosswalk' || lpsnExtension.provider !== 'LPSN') {
+      if ((packageId === 'bacteria' ? extensions.length !== 2 : extensions.length !== 1) || !lpsnExtension || lpsnExtension.recordType !== 'external-name-identifier-crosswalk' || lpsnExtension.provider !== 'LPSN') {
         failures.push(`${packageId}: pinned LPSN identifier extension identity is incomplete`)
       } else {
         for (const [key, expected] of Object.entries(expectedLpsn.counts)) {
@@ -657,6 +657,23 @@ if (catalogue.resourcePacks?.packageCount !== 7
           failures.push(`${packageId}: LPSN identifier files do not match extension totals`)
         }
         lpsnIdentifierRecords += extensionRecords
+      }
+      if (packageId === 'bacteria') {
+        const itis = extensions.find((candidate) => candidate.id === 'itis-bacteria-tsn-crosswalk')
+        if (!itis || itis.provider !== 'Integrated Taxonomic Information System'
+          || itis.recordType !== 'release-pinned-exact-nomenclatural-crosswalk'
+          || itis.source?.license !== 'CC0-1.0' || itis.source?.exportDate !== '2026-08-26' || itis.source?.rootTsn !== '50'
+          || itis.counts?.eligible !== 4827 || itis.counts?.nonApplicable !== 21570 || itis.counts?.records !== 14175
+          || itis.counts?.accepted !== 4824 || itis.counts?.redirects !== 0 || itis.counts?.ambiguous !== 2 || itis.counts?.unmatched !== 1 || itis.counts?.upstreamOnly !== 9348 || itis.counts?.withheld !== 0
+          || itis.delivery?.profile !== 'web-light' || itis.delivery?.completeRows !== false || itis.files?.length !== 0
+          || itis.delivery?.publishedFileCount !== 0 || itis.delivery?.canonicalFileCount !== 8 || itis.canonicalFileInventory?.length !== 8
+          || !itis.scope?.includes('sourceDatasetId is not 2015') || !itis.evidenceBoundary?.en.includes('never substitutes for LPSN')
+          || itis.canonicalFileInventory?.some((file) => !file.path || file.sha256?.length !== 64 || file.sourceSha256?.length !== 64)) {
+          failures.push('bacteria: Pages must publish the independent ITIS CC0 summary and hashes without row shards or changing LPSN semantics')
+        }
+        if (manifestFile.extensionFileCount !== 1 || manifestFile.canonicalExtensionFileCount !== 9) {
+          failures.push('bacteria: Pages must retain one LPSN row shard and omit all eight ITIS authority row shards')
+        }
       }
     } else if (packageId === 'fungi') {
       const authority = extensions.find((candidate) => candidate.id === 'index-fungorum-identifiers')
