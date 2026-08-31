@@ -35,6 +35,52 @@
       "limitations": [
         "Comparison fields inherit each claim, range and occurrence source boundary; visible differences are not tests of evolutionary causation."
       ]
+    },
+    {
+      "id": "perissodactyla-map-window",
+      "type": "explorer-preset",
+      "title": {
+        "en": "Perissodactyla occurrence window",
+        "zh": "奇蹄类出现窗口"
+      },
+      "description": {
+        "en": "Open a source-bounded Perissodactyla time window in the map to inspect sampled occurrence context linked to this package.",
+        "zh": "在地图中打开有来源边界的奇蹄类时间窗口，检查与本包关联的采样出现背景。"
+      },
+      "route": "#/explore?taxon=perissodactyla&view=map&age=28&older=56&younger=0",
+      "entityIds": [
+        "perissodactyla"
+      ],
+      "claimIds": [
+        "claim:taxon:perissodactyla:fossil-range"
+      ],
+      "evidenceStatus": "available-with-limitations",
+      "limitations": [
+        "The interval follows the linked package range and claim; map markers are sampled records and do not establish a complete distribution, exact origination or extinction, or direct ancestry."
+      ]
+    },
+    {
+      "id": "perissodactyla-diversity-window",
+      "type": "explorer-preset",
+      "title": {
+        "en": "Perissodactyla diversity sample",
+        "zh": "奇蹄类多样性样本"
+      },
+      "description": {
+        "en": "Open a source-bounded Perissodactyla interval in the diversity view to inspect bundled sample counts, not an estimate of total richness.",
+        "zh": "在多样性视图中打开有来源边界的奇蹄类区间，检查包内样本计数，而不是总体丰富度估计。"
+      },
+      "route": "#/explore?taxon=perissodactyla&view=diversity&age=28&older=56&younger=0",
+      "entityIds": [
+        "perissodactyla"
+      ],
+      "claimIds": [
+        "claim:taxon:perissodactyla:fossil-range"
+      ],
+      "evidenceStatus": "available-with-limitations",
+      "limitations": [
+        "Counts are derived from the bundled, bounded occurrence sample and do not estimate total diversity, preservation-corrected richness, or a complete taxon range."
+      ]
     }
   ]
 }

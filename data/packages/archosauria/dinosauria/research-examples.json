@@ -24,6 +24,52 @@
       "limitations": [
         "The linked claim retains its own specimen, stratum, model, confidence and source-locator boundaries. The Explorer route does not establish an exact origin, global first or last appearance, direct ancestry, causal mechanism or package-specific phylogeny."
       ]
+    },
+    {
+      "id": "dinosauria-map-window",
+      "type": "explorer-preset",
+      "title": {
+        "en": "Dinosauria occurrence window",
+        "zh": "恐龙出现窗口"
+      },
+      "description": {
+        "en": "Open a source-bounded Dinosauria time window in the map to inspect sampled occurrence context linked to this package.",
+        "zh": "在地图中打开有来源边界的恐龙时间窗口，检查与本包关联的采样出现背景。"
+      },
+      "route": "#/explore?taxon=dinosauria&view=map&age=116.6&older=233.2&younger=0",
+      "entityIds": [
+        "dinosauria"
+      ],
+      "claimIds": [
+        "claim:taxon:dinosauria:root-range"
+      ],
+      "evidenceStatus": "available-with-limitations",
+      "limitations": [
+        "The interval follows the linked package range and claim; map markers are sampled records and do not establish a complete distribution, exact origination or extinction, or direct ancestry."
+      ]
+    },
+    {
+      "id": "dinosauria-diversity-window",
+      "type": "explorer-preset",
+      "title": {
+        "en": "Dinosauria diversity sample",
+        "zh": "恐龙多样性样本"
+      },
+      "description": {
+        "en": "Open a source-bounded Dinosauria interval in the diversity view to inspect bundled sample counts, not an estimate of total richness.",
+        "zh": "在多样性视图中打开有来源边界的恐龙区间，检查包内样本计数，而不是总体丰富度估计。"
+      },
+      "route": "#/explore?taxon=tyrannosaurus&view=diversity&age=67&older=68&younger=66",
+      "entityIds": [
+        "tyrannosaurus"
+      ],
+      "claimIds": [
+        "claim:taxon:tyrannosaurus:fossil-range"
+      ],
+      "evidenceStatus": "available-with-limitations",
+      "limitations": [
+        "Counts are derived from the bundled, bounded occurrence sample and do not estimate total diversity, preservation-corrected richness, or a complete taxon range."
+      ]
     }
   ]
 }

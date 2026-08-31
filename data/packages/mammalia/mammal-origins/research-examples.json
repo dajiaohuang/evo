@@ -24,6 +24,54 @@
       "limitations": [
         "The linked claim retains its own specimen, stratum, model, confidence and source-locator boundaries. The Explorer route does not establish an exact origin, global first or last appearance, direct ancestry, causal mechanism or package-specific phylogeny."
       ]
+    },
+    {
+      "id": "mammal-origins-map-window",
+      "type": "explorer-preset",
+      "title": {
+        "en": "Mammal origins occurrence window",
+        "zh": "哺乳动物起源出现窗口"
+      },
+      "description": {
+        "en": "Open a source-bounded Mammal origins time window in the map to inspect sampled occurrence context linked to this package.",
+        "zh": "在地图中打开有来源边界的哺乳动物起源时间窗口，检查与本包关联的采样出现背景。"
+      },
+      "route": "#/explore?taxon=synapsida&view=map&age=154.25&older=308.5&younger=0",
+      "entityIds": [
+        "synapsida"
+      ],
+      "claimIds": [
+        "claim:taxon:synapsida:root-range"
+      ],
+      "evidenceStatus": "available-with-limitations",
+      "limitations": [
+        "The interval follows the linked package range and claim; map markers are sampled records and do not establish a complete distribution, exact origination or extinction, or direct ancestry."
+      ]
+    },
+    {
+      "id": "mammal-origins-comparison-window",
+      "type": "comparison",
+      "title": {
+        "en": "Mammal origins evidence comparison",
+        "zh": "哺乳动物起源证据比较"
+      },
+      "description": {
+        "en": "Compare haramiyavia and liaoconodon through package-linked claims and bounded occurrence context; this side-by-side route is an evidence inspection aid.",
+        "zh": "通过本包关联的声明与限定出现背景比较haramiyavia与liaoconodon；并列页面仅用于证据检查。"
+      },
+      "route": "#/compare?left=haramiyavia&right=liaoconodon",
+      "entityIds": [
+        "haramiyavia",
+        "liaoconodon"
+      ],
+      "claimIds": [
+        "claim:taxon:haramiyavia:fossil-range",
+        "claim:taxon:liaoconodon:fossil-range"
+      ],
+      "evidenceStatus": "available-with-limitations",
+      "limitations": [
+        "The two sides retain separate source, sampling, range and uncertainty boundaries; visual differences are not tests of evolutionary causation or a package-specific phylogeny."
+      ]
     }
   ]
 }

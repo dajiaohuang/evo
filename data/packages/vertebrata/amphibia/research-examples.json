@@ -24,6 +24,54 @@
       "limitations": [
         "The linked claim retains its own specimen, stratum, model, confidence and source-locator boundaries. The Explorer route does not establish an exact origin, global first or last appearance, direct ancestry, causal mechanism or package-specific phylogeny."
       ]
+    },
+    {
+      "id": "amphibia-map-window",
+      "type": "explorer-preset",
+      "title": {
+        "en": "Amphibia occurrence window",
+        "zh": "两栖类出现窗口"
+      },
+      "description": {
+        "en": "Open a source-bounded Amphibia time window in the map to inspect sampled occurrence context linked to this package.",
+        "zh": "在地图中打开有来源边界的两栖类时间窗口，检查与本包关联的采样出现背景。"
+      },
+      "route": "#/explore?taxon=amphibia&view=map&age=170.5&older=341&younger=0",
+      "entityIds": [
+        "amphibia"
+      ],
+      "claimIds": [
+        "claim:taxon:amphibia:fossil-range"
+      ],
+      "evidenceStatus": "available-with-limitations",
+      "limitations": [
+        "The interval follows the linked package range and claim; map markers are sampled records and do not establish a complete distribution, exact origination or extinction, or direct ancestry."
+      ]
+    },
+    {
+      "id": "amphibia-comparison-window",
+      "type": "comparison",
+      "title": {
+        "en": "Amphibia evidence comparison",
+        "zh": "两栖类证据比较"
+      },
+      "description": {
+        "en": "Compare gerobatrachus and triadobatrachus through package-linked claims and bounded occurrence context; this side-by-side route is an evidence inspection aid.",
+        "zh": "通过本包关联的声明与限定出现背景比较gerobatrachus与triadobatrachus；并列页面仅用于证据检查。"
+      },
+      "route": "#/compare?left=gerobatrachus&right=triadobatrachus",
+      "entityIds": [
+        "gerobatrachus",
+        "triadobatrachus"
+      ],
+      "claimIds": [
+        "claim:taxon:gerobatrachus:fossil-range",
+        "claim:taxon:triadobatrachus:fossil-range"
+      ],
+      "evidenceStatus": "available-with-limitations",
+      "limitations": [
+        "The two sides retain separate source, sampling, range and uncertainty boundaries; visual differences are not tests of evolutionary causation or a package-specific phylogeny."
+      ]
     }
   ]
 }
