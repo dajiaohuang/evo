@@ -45,5 +45,75 @@
   ],
   "totalCompressedBytes": 590043,
   "totalSourceBytes": 5291582,
-  "evidenceBoundary": "This package preserves official COL26.8 nomenclatural and placement fields only; it does not assert an Evo Atlas dossier, biological evidence, media, fossils, ecology, translation, or expert review."
+  "evidenceBoundary": "This package preserves official COL26.8 nomenclatural and placement fields only; it does not assert an Evo Atlas dossier, biological evidence, media, fossils, ecology, translation, or expert review.",
+  "extensions": [
+    {
+      "id": "lpsn-identifiers",
+      "recordType": "external-name-identifier-crosswalk",
+      "provider": "LPSN",
+      "source": {
+        "catalogueRelease": "COL26.8",
+        "catalogueReleaseDate": "2026-08-20",
+        "checklistBankDatasetKey": 316115,
+        "sourceDatasetKey": 2015,
+        "sourceDatasetVersion": "2026-07-26",
+        "retrievedAt": "2026-08-31",
+        "endpointTemplate": "https://api.checklistbank.org/dataset/316115/nameusage/{colId}/source",
+        "lpsnUrlTemplate": "https://lpsn.dsmz.de/taxon/{lpsnId}",
+        "informationUrl": "https://lpsn.dsmz.de/",
+        "license": "CC-BY-SA-4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "citation": "Freese et al. (2026), List of Prokaryotic names with Standing in Nomenclature (LPSN), https://doi.org/10.1093/nar/gkaf1110",
+        "canonicalCrosswalkPath": "data/sources/bacteria-lpsn-crosswalk-col26.8.json.gz",
+        "canonicalCrosswalkSha256": "68998c8ff4e4a3ef563411ae381398d06a471b242b51e40321cad20f0bb4db9a",
+        "canonicalCrosswalkBytes": 1094500,
+        "canonicalCrosswalkSourceSha256": "d3e390dbeb154a8af9f813b188e71dff62146f152336f9c8d1d105754b05f8b9",
+        "canonicalCrosswalkSourceBytes": 6886097,
+        "requestIntegrity": {
+          "algorithm": "sha256",
+          "responseHashBasis": "Exact UTF-8 response bytes returned by the pinned ChecklistBank source-record endpoint.",
+          "requestCount": 21570,
+          "requestLedgerSha256": "6e21dfd5bc013c2c3edb1a8235bb2cc386d19a469efc7e083fda3efe6952c873"
+        }
+      },
+      "eligibility": "sourceDatasetId=2015 for 21,570 of 26,397 accepted species; other source datasets remain withheld",
+      "counts": {
+        "acceptedSpecies": 26397,
+        "eligible": 21570,
+        "resolved": 21570,
+        "withheld": 4827
+      },
+      "withheldByReason": {
+        "sourceDatasetNotLpsn": 4827,
+        "missingSourceDatasetId": 0,
+        "sourceRecordNotLpsn": 0
+      },
+      "fields": [
+        "colId",
+        "lpsnId",
+        "lpsnUrl",
+        "mappingBasis",
+        "status"
+      ],
+      "files": [
+        {
+          "path": "bacteria/lpsn-000.jsonl.gz",
+          "records": 21570,
+          "bytes": 214929,
+          "sourceBytes": 3151511,
+          "sha256": "3591c41843b1a2664044162a21bf120d9e71c5173da4b459ae2373423178ab45",
+          "sourceSha256": "ed0319ba05646e2ae193ecfd066bdebbbaa6f2124efcfc1dac973bf0eb231019",
+          "encoding": "gzip",
+          "mediaType": "application/x-ndjson"
+        }
+      ],
+      "totalCompressedBytes": 214929,
+      "totalSourceBytes": 3151511,
+      "limitations": [
+        "Only accepted species whose pinned COL26.8 sourceDatasetId is 2015 are eligible; ITIS and missing-source records are not name-matched to LPSN.",
+        "Source linkage is not an ecology, genome, strain, fossil, media, phylogeny, dossier, or expert-review claim.",
+        "The LPSN URL identifies a release-pinned nomenclatural source record; later taxonomic opinions may change."
+      ]
+    }
+  ]
 }
