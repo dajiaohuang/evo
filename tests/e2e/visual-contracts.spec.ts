@@ -81,7 +81,7 @@ test('map evidence cards follow range and claim links as geological time changes
   await page.goto('./#/home?age=512.8')
   const cards = page.getByRole('region', { name: 'Time-matched evidence scenes' })
   await expect(cards).toBeVisible()
-  await cards.getByRole('button', { name: 'Show 2 more scenes' }).click()
+  await cards.getByRole('button', { name: /^Show \d+ more scenes$/ }).click()
   await expect(cards).toContainText('Trilobites and Chelicerates')
   await expect(cards).toContainText('Limitations')
 

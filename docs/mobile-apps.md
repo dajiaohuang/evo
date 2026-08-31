@@ -23,6 +23,8 @@ dist-mobile/                 # 临时生成的移动客户端壳，不提交
 
 ## 数据与离线边界
 
+rc78 将 Android 与 iOS 同步到 build `32` / app `0.20.29`。两端获得与 Web 相同的 392/392 个双语导航摘要、72 个来源限定研究场景和按时间匹配的地图资源包卡片；卡片只使用 `available` 范围以及与场景共享的实体和 claim ID，不把时间匹配冒充化石地点或重建分布。`native-full` 仍逐字节保留 COL26.8 全部 2,183,133 个接受种、全部权威分片和 109 帧 0.1° PaleoDEM；Pages 继续保持 `web-light`。
+
 rc77 将 Android 与 iOS 同步到 build `31` / app `0.20.28`。两端继续从同一 `native-full` inventory 内置 COL26.8 全部 2,183,133 个接受种、全部权威命名分片和 109 帧 0.1° PaleoDEM，并新增 10 个双语、字段关联的完整档案：禾本科、豆科，海百合、海蕾、海星、蛇尾、海参，以及希望螈鱼、棘螈、鱼石螈；真双子叶植物另有字段关联证据档案，但因 PBDB 概念未解决而不伪造完整 profile 的外部 ID。43 条新增声明保留一手来源定位与推断边界。Pages 继续使用 `web-light`，不会因本版富内容提升而复制原生全量名录或权威逐种分片。
 
 rc76 将 Android 与 iOS 同步到 build `30` / app `0.20.27`。两端新增独立 ITIS Fungi collection 的 56 个 COL 范围分片和 1 个 upstream-only 分片，并新增 Collembola + Protura 的 2 个 COL 分片和 1 个 upstream-only 分片；合计 168,884 条记录、60 个非空 gzip 全部进入 `native-full`。Species Fungorum / Index Fungorum 与既有 Insecta、Crustacea、Myriapoda、Chelicerata、AviList、Cnidaria collections 均保持独立，Pages `web-light` 不发布任何新增逐种行。两个 App 继续包含全部 109 帧 0.1° PaleoDEM；受限的 0.05° HydroShare 模型不进入默认包。见 [`itis-fungi-authority.md`](itis-fungi-authority.md)、[`itis-collembola-protura-authority.md`](itis-collembola-protura-authority.md) 与 [`paleotopography-native-resolution-audit-rc76.md`](paleotopography-native-resolution-audit-rc76.md)。

@@ -1,7 +1,7 @@
 import { readFileSync } from 'node:fs'
 import { join } from 'node:path'
 import { describe, expect, it } from 'vitest'
-import { packageDefinitions, researchPresetDefinitions } from './package-definitions.mjs'
+import { packageDefinitions, researchPresetDefinitions, researchSceneDefinitions } from './package-definitions.mjs'
 import { rootDir } from './data-lib.mjs'
 
 const claims = JSON.parse(readFileSync(join(rootDir, 'data/evidence/claims.json'), 'utf8'))
@@ -29,7 +29,7 @@ function hasLocator(link) {
 }
 
 describe('source-bound package research presets', () => {
-  it('publishes one explicitly mapped, claim-linked preset for every package', () => {
+  it('publishes three explicitly mapped, claim-linked scenes for every package', () => {
     expect(Object.keys(researchPresetDefinitions).sort()).toEqual(packageDefinitions
       .filter((definition) => definition.id !== 'perissodactyla')
       .map((definition) => definition.id)
@@ -38,12 +38,8 @@ describe('source-bound package research presets', () => {
     for (const definition of packageDefinitions) {
       const research = readPackage(definition, 'research-examples.json')
       expect(research.packageId).toBe(definition.id)
-      expect(research.examples).toHaveLength(1)
+      expect(research.examples).toHaveLength(3)
       const example = research.examples[0]
-      expect(example.evidenceStatus).toBe('available-with-limitations')
-      expect(example.title.en.length).toBeGreaterThan(10)
-      expect(example.title.zh.length).toBeGreaterThan(4)
-      expect(example.limitations.length).toBeGreaterThan(0)
 
       if (definition.id === 'perissodactyla') {
         expect(example.id).toBe('perissodactyla-lineage-comparison')
@@ -58,11 +54,19 @@ describe('source-bound package research presets', () => {
         expect(example.route).toContain(`taxon=${encodeURIComponent(expected.entityId)}`)
       }
 
-      for (const claimId of example.claimIds) {
-        const claim = claimsById.get(claimId)
-        expect(claim, `${definition.id}/${claimId}`).toBeDefined()
-        expect(claim.referenceLinks.length, `${definition.id}/${claimId}`).toBeGreaterThan(0)
-        expect(claim.referenceLinks.every(hasLocator), `${definition.id}/${claimId}`).toBe(true)
+      expect(research.examples.slice(1).map((scene) => scene.id)).toEqual(researchSceneDefinitions[definition.id].scenes.map((scene) => scene.id))
+
+      for (const scene of research.examples) {
+        expect(scene.evidenceStatus).toBe('available-with-limitations')
+        expect(scene.title.en.length).toBeGreaterThan(10)
+        expect(scene.title.zh.length).toBeGreaterThan(4)
+        expect(scene.limitations.length).toBeGreaterThan(0)
+        for (const claimId of scene.claimIds) {
+          const claim = claimsById.get(claimId)
+          expect(claim, `${definition.id}/${scene.id}/${claimId}`).toBeDefined()
+          expect(claim.referenceLinks.length, `${definition.id}/${scene.id}/${claimId}`).toBeGreaterThan(0)
+          expect(claim.referenceLinks.every(hasLocator), `${definition.id}/${scene.id}/${claimId}`).toBe(true)
+        }
       }
     }
   })

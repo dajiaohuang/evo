@@ -1,5 +1,4 @@
-import assert from 'node:assert/strict'
-import test from 'node:test'
+import { expect, test } from 'vitest'
 import { readJson } from './data-lib.mjs'
 
 function flattenTree(node, output = []) {
@@ -14,17 +13,17 @@ test('every canonical navigation node has a concise bilingual bounded navigation
   const claims = readJson('data/evidence/claims.json')
   const entityById = new Map(entities.map((entity) => [entity.id, entity]))
 
-  assert.equal(entityById.size, nodes.length, 'the generated registry must represent every canonical node exactly once')
+  expect(entityById.size, 'the generated registry must represent every canonical node exactly once').toBe(nodes.length)
   for (const node of nodes) {
     const entity = entityById.get(node.id)
-    assert.ok(entity, `${node.id} is missing from the generated entity registry`)
+    expect(entity, `${node.id} is missing from the generated entity registry`).toBeDefined()
     const sourceLinkedClaims = claims.filter((claim) => claim.subjectId === `taxon:${node.id}` && claim.referenceLinks.length > 0)
-    assert.ok(sourceLinkedClaims.length > 0, `${node.id} needs a directly linked source-backed claim`)
-    assert.match(entity.definition.en, /navigation (?:entry|envelope)/i, `${node.id} needs an English navigation description`)
-    assert.match(entity.definition.en, /not a phylogeny/i, `${node.id} must distinguish navigation from phylogeny`)
-    assert.match(entity.definition.zh, /导航/, `${node.id} needs a Chinese navigation description`)
-    assert.match(entity.definition.zh, /不表示系统发育/, `${node.id} must distinguish navigation from phylogeny in Chinese`)
-    assert.ok(entity.definition.en.length <= 420, `${node.id} English description must stay concise`)
-    assert.ok(entity.definition.zh.length <= 220, `${node.id} Chinese description must stay concise`)
+    expect(sourceLinkedClaims.length, `${node.id} needs a directly linked source-backed claim`).toBeGreaterThan(0)
+    expect(entity.definition.en, `${node.id} needs an English navigation description`).toMatch(/navigation (?:entry|envelope)/i)
+    expect(entity.definition.en, `${node.id} must distinguish navigation from phylogeny`).toMatch(/not a phylogeny/i)
+    expect(entity.definition.zh, `${node.id} needs a Chinese navigation description`).toMatch(/导航/)
+    expect(entity.definition.zh, `${node.id} must distinguish navigation from phylogeny in Chinese`).toMatch(/不表示系统发育/)
+    expect(entity.definition.en.length, `${node.id} English description must stay concise`).toBeLessThanOrEqual(420)
+    expect(entity.definition.zh.length, `${node.id} Chinese description must stay concise`).toBeLessThanOrEqual(220)
   }
 })
