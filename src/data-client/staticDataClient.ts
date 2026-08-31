@@ -348,6 +348,28 @@ export async function loadPackageWfoPlantRecord(packageId: 'angiospermae' | 'gym
   return { collection, record: await loadWfoColRecordFromFiles(collection.files, colId) }
 }
 
+export async function loadPackageAviListBirdRecord(colId: string): Promise<{
+  collection: import('./types').RuntimeAviListNomenclatureCollection
+  record: import('./types').AviListBirdRecord | null
+}> {
+  const packageId = 'crocodylomorphs-birds'
+  const manifest = await loadPackageManifest(packageId)
+  const collection = manifest.nomenclatureCollections?.find((candidate): candidate is import('./types').RuntimeAviListNomenclatureCollection => candidate.id === 'avilist-v2025b-avibase-concepts')
+  if (!collection || collection.packageId !== packageId || collection.provider !== 'AviList Core Team') {
+    throw new Error('Runtime birds package does not publish its AviList collection')
+  }
+  if (!collection.delivery.completeRows || collection.delivery.profile !== 'native-full') {
+    throw new Error('AviList row-level records are available in the full Android/iOS data profile; Web publishes the verified coverage summary only')
+  }
+  const file = selectWfoColShard(collection.files, colId)
+  const records = await loadRuntimeFile<import('./types').AviListBirdRecord[]>(file)
+  if (records.length !== file.records || records[0]?.colId !== file.minColId || records.at(-1)?.colId !== file.maxColId
+    || records.some((record, index) => !record.colId || (index > 0 && records[index - 1].colId.localeCompare(record.colId) >= 0))) {
+    throw new Error('AviList COL shard contents do not match its range descriptor')
+  }
+  return { collection, record: records.find((record) => record.colId === colId) ?? null }
+}
+
 export async function loadPackageForEntity(entityId: string): Promise<RuntimePackageManifest | null> {
   const registry = await loadPackageRegistry()
   const packageId = registry.entityToPackage[entityId]

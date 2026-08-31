@@ -532,3 +532,8 @@
 - Added an offline PWA shell with lazy runtime data caching and a browser-local IndexedDB query workspace.
 
 This changelog describes the bundled atlas snapshot, not upstream database release history.
+## App 0.20.15 / 2026.08-static-v5-rc64 — 2026-08-31
+
+- Added the release-pinned CC BY 4.0 AviList `v2025b` authority crosswalk to `crocodylomorphs-birds`. Of 11,044 strict accepted COL26.8 Aves, 10,444 match an accepted AviList name exactly, 78 follow an official protonym plus exact authority-year redirect, one remains ambiguous and 521 remain unmatched. Another 609 accepted AviList species remain explicit upstream-only records; the package's 27 Crocodylia species are non-applicable and excluded from bird counts.
+- Added explicit `web-light` and `native-full` runtime profiles. Pages publishes the complete AviList source, licence, scope, counts, limitations and canonical hash inventory without row shards. Android and iOS build `18` bundle byte-identical copies of all three non-overlapping COL-ID shards and the upstream-only shard; a row lookup selects at most one COL range shard.
+- Kept all 109 PaleoDEM ages in both profiles: Web remains on the 0.5° preview series and both native apps retain all 109 full 0.1° grids. Package ZIPs remain native/local-only, and Pages continues current-release-only retention.

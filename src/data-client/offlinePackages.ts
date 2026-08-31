@@ -4,6 +4,13 @@ import type { RuntimeReleaseFile } from './types'
 const OFFLINE_CACHE_PREFIX = 'evo-explicit-offline-packages-'
 const RUNTIME_CACHE_PREFIX = 'evo-runtime-data-'
 
+function nomenclatureFiles(collection: import('./types').RuntimePackageNomenclatureCollection) {
+  return [
+    ...('files' in collection ? collection.files : [collection.file]),
+    ...('upstreamOnlyFiles' in collection ? collection.upstreamOnlyFiles : []),
+  ]
+}
+
 export interface CompleteAtlasOfflinePlan {
   datasetVersion: string
   fileCount: number
@@ -37,7 +44,7 @@ export async function savePackageOffline(packageId: string, onProgress?: (comple
     runtimeDataUrl(manifestFile.url),
     ...Object.values(manifest.files).map((file) => runtimeDataUrl(file.url)),
     ...(manifest.assets ?? []).map((file) => runtimeDataUrl(file.url)),
-    ...(manifest.nomenclatureCollections ?? []).flatMap((collection) => ('files' in collection ? collection.files : [collection.file]).map((file) => runtimeDataUrl(file.url))),
+    ...(manifest.nomenclatureCollections ?? []).flatMap((collection) => nomenclatureFiles(collection).map((file) => runtimeDataUrl(file.url))),
     ...manifest.occurrences.map((file) => runtimeDataUrl(file.url)),
   ]
   await cacheUrls(`${OFFLINE_CACHE_PREFIX}${current.datasetVersion}`, urls, onProgress)
@@ -51,7 +58,7 @@ export async function saveAllPackagesOffline(onProgress?: (completed: number, to
     runtimeDataUrl(current.packages.manifests[manifest.packageId].url),
     ...Object.values(manifest.files).map((file) => runtimeDataUrl(file.url)),
     ...(manifest.assets ?? []).map((file) => runtimeDataUrl(file.url)),
-    ...(manifest.nomenclatureCollections ?? []).flatMap((collection) => ('files' in collection ? collection.files : [collection.file]).map((file) => runtimeDataUrl(file.url))),
+    ...(manifest.nomenclatureCollections ?? []).flatMap((collection) => nomenclatureFiles(collection).map((file) => runtimeDataUrl(file.url))),
     ...manifest.occurrences.map((file) => runtimeDataUrl(file.url)),
   ])
   await cacheUrls(`${OFFLINE_CACHE_PREFIX}${current.datasetVersion}`, [...new Set(urls)], onProgress)

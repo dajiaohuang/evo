@@ -1,0 +1,168 @@
+{
+  "schemaVersion": 1,
+  "id": "avilist-v2025b-avibase-concepts",
+  "recordType": "release-pinned-exact-avian-authority-crosswalk",
+  "packageId": "crocodylomorphs-birds",
+  "provider": "AviList Core Team",
+  "source": {
+    "version": "v2025b",
+    "published": "2026-06-11",
+    "versionDoi": "10.2173/avilist.v2025b",
+    "license": "CC-BY-4.0",
+    "canonicalCrosswalkPath": "data/sources/avilist-v2025b-crosswalk-col26.8.json.gz",
+    "canonicalCrosswalkBytes": 852997,
+    "canonicalCrosswalkSha256": "a97192be3d420f14e0721d76c611a7eec3aa648463d633c14a96fafd01a8d8cb",
+    "canonicalCrosswalkSourceBytes": 7707397,
+    "canonicalCrosswalkSourceSha256": "9e07b33fb63eaf487b9c9785dc3aef2320119c6d5e4ef4bf4afa2cabea8088bf"
+  },
+  "scope": {
+    "eligible": "All 11,044 strict accepted COL26.8 species descending from Aves root V2.",
+    "nonApplicable": "All 27 strict accepted COL26.8 species descending from Crocodylia root 329 remain package-local non-applicable records and are excluded from AviList match/unmatched counts."
+  },
+  "counts": {
+    "packageAcceptedSpecies": 11071,
+    "colAcceptedAves": 11044,
+    "colAcceptedCrocodylia": 27,
+    "avilistAcceptedSpecies": 11131,
+    "accepted": 10444,
+    "officialCurrentNameRedirect": 78,
+    "ambiguous": 1,
+    "unmatched": 521,
+    "nonApplicable": 27,
+    "uniqueMatchedAviListSpecies": 10522,
+    "manyToOneColLinks": 0,
+    "upstreamOnly": 609
+  },
+  "colSourceComposition": {
+    "aves": [
+      {
+        "datasetId": "2144",
+        "title": "The Integrated Taxonomic Information System",
+        "shortName": "ITIS",
+        "version": "2026-07-28",
+        "publicationDate": "2026-07-28",
+        "doi": "10.48580/d4ky",
+        "licenseLabel": "Public Domain (CC0 1.0)",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/legalcode",
+        "acceptedSpecies": 11044
+      }
+    ],
+    "crocodyliaNonApplicable": [
+      {
+        "datasetId": "1008",
+        "title": "The Reptile Database",
+        "shortName": "ReptileDB",
+        "version": "2026-06",
+        "publicationDate": "2026-06-24",
+        "doi": "10.48580/d37s",
+        "licenseLabel": "Creative Commons Attribution (CC BY) 4.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by/4.0/legalcode",
+        "acceptedSpecies": 27
+      }
+    ]
+  },
+  "packageRecordSchema": {
+    "commonFields": [
+      "colId",
+      "colSourceDatasetId",
+      "colScientificName",
+      "status"
+    ],
+    "matchedFields": [
+      "mappingBasis",
+      "avibaseId",
+      "officialScientificName",
+      "officialAuthority",
+      "officialEnglishName",
+      "officialOrder",
+      "officialFamily",
+      "officialProtonym",
+      "sourceRow"
+    ],
+    "statusValues": [
+      "accepted",
+      "official-current-name-redirect",
+      "ambiguous",
+      "unmatched",
+      "non-applicable"
+    ]
+  },
+  "files": [
+    {
+      "path": "nomenclature/avilist-col-000.json.gz",
+      "records": 4682,
+      "bytes": 266703,
+      "sourceBytes": 2096863,
+      "sha256": "a5279e355e0fddd8b689a6f17801fefa65c196a039c7f494ee9e742f843a0b64",
+      "sourceSha256": "37003e29cd2606494b06a1c0f2e4b95aea4ee051f2c5afcfa587573e997ee1cb",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "minColId": "322KX",
+      "maxColId": "5D8LL"
+    },
+    {
+      "path": "nomenclature/avilist-col-001.json.gz",
+      "records": 4714,
+      "bytes": 279436,
+      "sourceBytes": 2097127,
+      "sha256": "5ba7d6fd17158e48020a5c0a01e23a94467aa67533d3df35ac04cdfa0b4f811c",
+      "sourceSha256": "3647be9f5110a099aac98e5960b1cd117b54e363acc7c359bb6f1c1859efa2fe",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "minColId": "5D8LM",
+      "maxColId": "F6MX"
+    },
+    {
+      "path": "nomenclature/avilist-col-002.json.gz",
+      "records": 1675,
+      "bytes": 98328,
+      "sourceBytes": 744637,
+      "sha256": "7e6dd21da25463c22344094e284cbe194588900feeebcf4e34b24df7fb084e23",
+      "sourceSha256": "0fec4db92ff1d6cb94dba33466abab922752c7f63eead704a52e6205c5fe2af6",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "minColId": "F6MZ",
+      "maxColId": "ZT9Y"
+    }
+  ],
+  "upstreamOnlyFiles": [
+    {
+      "path": "nomenclature/avilist-upstream-only-000.json.gz",
+      "records": 609,
+      "bytes": 34280,
+      "sourceBytes": 204005,
+      "sha256": "2ed8377c86c7a1273603b18d000a086500a9013486fb617e37ed145d9c08613a",
+      "sourceSha256": "041d1fae9e078287b30aec8db66ef0cf04bed57a1a48cee74820758e82f3b8ff",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "minAvibaseId": "avibase-009C0626",
+      "maxAvibaseId": "avibase-FF5968A9"
+    }
+  ],
+  "totalCompressedBytes": 678747,
+  "totalSourceBytes": 5142632,
+  "lookup": {
+    "strategy": "lexicographic-colId-range-v1",
+    "ordering": "Unicode code-unit ascending with no locale folding or normalization.",
+    "requestPolicy": "Select the sole package file whose inclusive minColId/maxColId range contains the requested COL ID; load and parse only that payload shard.",
+    "forbiddenBehavior": "A single-species detail query must not download or parse the complete AviList sidecar, any upstream-only shard or more than one package payload shard."
+  },
+  "futureIntegration": {
+    "runtimeManifest": "Register this descriptor and every checksummed file in the crocodylomorphs-birds rich-package collection without altering the COL species inventory.",
+    "webAndBrowserOffline": "The Web client and package/full-atlas offline plans must consume the same descriptor and gzip bytes.",
+    "packageZip": "The normal package ZIP must include the descriptor, package colId shards and upstream-only shards unchanged.",
+    "androidAndIos": "The complete native release inventory must stage those identical bytes for both Android and iOS; no reduced native subset is permitted.",
+    "releaseBoundary": "This data-only change does not edit runtime manifests, release inventories, mobile projects or dataset/app versions."
+  },
+  "generatedBy": {
+    "scriptPath": "scripts/build-avilist-birds-projections.mjs",
+    "scriptSha256": "93adf4cae07dcbd215a17e5498dc7635bf85bdb6ca5f6805741ad35462cef8f2",
+    "deterministic": "Stable Unicode code-unit ordering, compact JSON arrays and archive-determinism gzip with fixed metadata."
+  },
+  "limitations": [
+    "The crocodylomorphs-birds package count of 11,071 consists of 11,044 Aves plus 27 Crocodylia; 11,071 must not be described as an Aves count.",
+    "Exact current-name or protonym agreement is not a species-concept equivalence assertion. Many-to-one mappings, if present, remain visible in the import counts and are never used to merge COL records.",
+    "Unmatched and ambiguous COL Aves rows and upstream-only AviList species remain explicit rather than being forced through fuzzy matching.",
+    "AvibaseID identifies an AviList taxonomic concept, not a nomenclatural-name record or a phylogenetic node."
+  ]
+}

@@ -25,6 +25,7 @@ if (!existsSync(join(dataRoot, 'current.json'))) {
 }
 
 const current = readJson('current.json')
+if (current.deliveryProfile !== 'web-light') failures.push('Pages current manifest must use the web-light delivery profile')
 const currentReleaseFiles = readJson(`${current.releaseBase}release-files.json`)
 const currentReleaseUrls = new Set(currentReleaseFiles.files.map((file) => file.url))
 if (current.downloads?.available !== false || current.downloads?.template) failures.push('Pages-light current manifest must disable package ZIP downloads')
@@ -157,6 +158,23 @@ for (const packageEntry of packageRegistry.packages) {
         failures.push(`${packageEntry.id}: WFO status counts disagree with its descriptor`)
       }
       wfoRichRecords += records
+    }
+  } else if (packageEntry.id === 'crocodylomorphs-birds') {
+    const avilist = nomenclatureCollections.find((collection) => collection.id === 'avilist-v2025b-avibase-concepts')
+    if (nomenclatureCollections.length !== 1 || !avilist || avilist.provider !== 'AviList Core Team'
+      || avilist.recordType !== 'release-pinned-exact-avian-authority-crosswalk'
+      || avilist.source?.license !== 'CC-BY-4.0'
+      || avilist.counts?.packageAcceptedSpecies !== 11071
+      || avilist.counts?.colAcceptedAves !== 11044
+      || avilist.counts?.colAcceptedCrocodylia !== 27
+      || avilist.counts?.upstreamOnly !== 609) {
+      failures.push('crocodylomorphs-birds: AviList nomenclature summary is incomplete')
+    } else if (avilist.delivery?.profile !== 'web-light' || avilist.delivery?.completeRows !== false
+      || avilist.delivery?.publishedFileCount !== 0 || avilist.delivery?.canonicalFileCount !== 4
+      || avilist.files?.length !== 0 || avilist.upstreamOnlyFiles?.length !== 0
+      || avilist.canonicalFileInventory?.length !== 4
+      || avilist.canonicalFileInventory.some((file) => !file.path || file.sha256?.length !== 64 || file.sourceSha256?.length !== 64)) {
+      failures.push('crocodylomorphs-birds: Pages must publish the AviList summary without full row shards')
     }
   } else if (nomenclatureCollections.length) {
     failures.push(`package ${packageEntry.id}: unexpected nomenclature collection`)

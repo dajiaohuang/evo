@@ -20,6 +20,7 @@ final class AppConfigurationTests: XCTestCase {
     func testCompleteScientificReleaseIsBundledForOfflineStartup() throws {
         let dataRoot = try XCTUnwrap(Bundle.main.resourceURL).appendingPathComponent("public/data", isDirectory: true)
         let current = try jsonObject(at: dataRoot.appendingPathComponent("current.json"))
+        XCTAssertEqual(current["deliveryProfile"] as? String, "native-full")
         let datasetVersion = try XCTUnwrap(current["datasetVersion"] as? String)
         XCTAssertEqual(current["releaseBase"] as? String, "releases/\(datasetVersion)/")
 
@@ -151,8 +152,29 @@ final class AppConfigurationTests: XCTestCase {
                 }
                 XCTAssertEqual((collection["counts"] as? [String: Any])?["total"] as? Int, collectionRecords)
                 wfoRichRecords += collectionRecords
+            } else if packageId == "crocodylomorphs-birds" {
+                let collections = try XCTUnwrap(package["nomenclatureCollections"] as? [[String: Any]])
+                XCTAssertEqual(collections.count, 1)
+                let collection = try XCTUnwrap(collections.first)
+                XCTAssertEqual(collection["id"] as? String, "avilist-v2025b-avibase-concepts")
+                XCTAssertEqual(collection["provider"] as? String, "AviList Core Team")
+                let delivery = try XCTUnwrap(collection["delivery"] as? [String: Any])
+                XCTAssertEqual(delivery["profile"] as? String, "native-full")
+                XCTAssertEqual(delivery["completeRows"] as? Bool, true)
+                let colFiles = try XCTUnwrap(collection["files"] as? [[String: Any]])
+                let upstreamFiles = try XCTUnwrap(collection["upstreamOnlyFiles"] as? [[String: Any]])
+                XCTAssertEqual(colFiles.count + upstreamFiles.count, 4)
+                for file in colFiles + upstreamFiles {
+                    let path = try XCTUnwrap(file["url"] as? String)
+                    let inventoryRecord = try XCTUnwrap(files.first { ($0["url"] as? String) == path }, "AviList shard missing from native release inventory")
+                    XCTAssertEqual(file["bytes"] as? Int, inventoryRecord["bytes"] as? Int)
+                    XCTAssertEqual(file["sha256"] as? String, inventoryRecord["sha256"] as? String)
+                    try verifyBundled(record: inventoryRecord, below: dataRoot)
+                }
+                XCTAssertEqual((collection["counts"] as? [String: Any])?["packageAcceptedSpecies"] as? Int, 11_071)
+                XCTAssertEqual((collection["counts"] as? [String: Any])?["upstreamOnly"] as? Int, 609)
             } else {
-                XCTAssertNil(package["nomenclatureCollections"], "Only echinoderms and the three plant rich packages may carry nomenclature collections")
+                XCTAssertNil(package["nomenclatureCollections"], "Only declared authority-backed rich packages may carry nomenclature collections")
             }
         }
         XCTAssertEqual(researchExamples, 24)
