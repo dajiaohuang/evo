@@ -154,6 +154,17 @@ test('Archaea records expose their pinned LPSN source identifier without implyin
   await expect(lpsn.getByRole('link', { name: /CC BY-SA 4.0/ })).toHaveAttribute('href', 'https://creativecommons.org/licenses/by-sa/4.0/')
 })
 
+test('switching Archaea records never retains the previous LPSN URL', async ({ page }) => {
+  await page.addInitScript(() => window.localStorage.setItem('evo-atlas-language', 'en'))
+  await page.goto('./#/registry?release=COL26.8&id=354SW')
+  await expect(page.locator('.catalogue-lpsn-card a[href="https://lpsn.dsmz.de/taxon/775725"]')).toBeVisible()
+
+  await page.evaluate(() => { window.location.hash = '#/registry?release=COL26.8&id=354T2' })
+  await expect(page).toHaveURL(/#\/registry\?release=COL26\.8&id=354T2$/)
+  await expect(page.locator('.catalogue-lpsn-card a[href="https://lpsn.dsmz.de/taxon/775725"]')).toHaveCount(0)
+  await expect(page.locator('.catalogue-lpsn-card a[href="https://lpsn.dsmz.de/taxon/775728"]')).toBeVisible()
+})
+
 test('global search distinguishes registry verification failures from no matches', async ({ browser, baseURL }) => {
   const context = await browser.newContext({ baseURL, locale: 'en-US', serviceWorkers: 'block' })
   const page = await context.newPage()
