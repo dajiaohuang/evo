@@ -99,7 +99,7 @@ export const turtleLepidosaurZh: Record<string, string> = {
   'The lepidosaur route links CT-resolved specimens that illuminate early lepidosauriform and squamate anatomy: Megachirella is recovered on the squamate stem, Taytalura as an early-diverging stem lepidosauromorph, and Bellairsia on the squamate stem in the cited analyses. Each placement is matrix- and specimen-bounded.': '鳞龙类路线连接经 CT 解析、揭示早期鳞龙形类和有鳞类解剖的标本：所引分析将 Megachirella 恢复在有鳞类干群，将 Taytalura 恢复为早分化鳞龙形类干群，并将 Bellairsia 恢复在有鳞类干群。每个位置都受矩阵和标本限制。',
   'Middle Triassic Italian Alps (Megachirella specimen PZO 628)': '意大利阿尔卑斯山中三叠世（Megachirella 标本 PZO 628）',
   'Late Triassic Ischigualasto Formation, Argentina (Taytalura holotype PVSJ 698)': '阿根廷晚三叠世伊斯奇瓜拉斯托组（Taytalura 正模 PVSJ 698）',
-  'Middle Jurassic Kirtlington fissure-fill, United Kingdom (Bellairsia specimen NMS G.2022.1.1)': '英国基特林顿中侏罗世裂隙充填（Bellairsia 标本 NMS G.2022.1.1）',
+  'Middle Jurassic Kilmaluag Formation, Isle of Skye, Scotland (Bellairsia specimen NMS G.2022.1.1)': '苏格兰斯凯岛 Kilmaluag 组中侏罗世（Bellairsia 标本 NMS G.2022.1.1）',
   'No taxon-wide diet is established by the cited skull and skeleton studies; this field remains unresolved.': '所引头骨与骨骼研究没有确立整个类群的食性；该字段仍未解决。',
   'The cited studies document fossil localities and anatomy but do not establish a single habitat for Lepidosauria; no broader habitat is inferred here.': '所引研究记录了化石地点和解剖，但没有确立鳞龙类的单一生境；这里不推断更广的生境。',
   'No taxon-wide locomotor mode is assigned from the CT-resolved skull and skeletal characters.': '不根据 CT 解析的头骨和骨骼性状指定整个类群的运动方式。',
