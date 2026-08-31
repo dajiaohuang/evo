@@ -19,6 +19,7 @@ export interface RuntimeEntity {
   names: { scientific: string; en: string; zh: string }
   synonyms: string[]
   rank: string
+  definition: { en: string; zh: string }
   evidenceStatus: 'strong' | 'moderate' | 'contextual' | 'contested'
 }
 
