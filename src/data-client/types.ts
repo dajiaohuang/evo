@@ -299,6 +299,7 @@ export type RuntimeItisNomenclatureCollectionId =
   | 'itis-actinopterygii-tsn-crosswalk'
   | 'itis-chondrichthyes-tsn-crosswalk'
   | 'itis-agnatha-myxini-tsn-crosswalk'
+  | 'itis-sarcopterygii-tsn-crosswalk'
 
 export type RuntimeItisPackageScope =
   | 'mollusca-brachiopoda'
@@ -318,6 +319,7 @@ export type RuntimeItisPackageScope =
   | 'actinopterygii'
   | 'chondrichthyes'
   | 'agnatha-myxini'
+  | 'sarcopterygii'
 
 export interface RuntimeItisNomenclatureCollection {
   schemaVersion: 1

@@ -259,6 +259,15 @@ const richPackageNomenclatureSources = {
     rowEncoding: 'jsonl',
     colIdField: 'colUsageId',
   }],
+  'tetrapod-transition': [{
+    kind: 'range-sharded',
+    descriptorPath: 'data/packages/vertebrata/tetrapod-transition/nomenclature/itis-sarcopterygii-sidecar.json',
+    expectedId: 'itis-sarcopterygii-tsn-crosswalk',
+    expectedProvider: 'Integrated Taxonomic Information System',
+    expectedLicense: 'CC0-1.0',
+    rowEncoding: 'jsonl',
+    colIdField: 'colUsageId',
+  }],
 }
 
 function sha256(bytes) {

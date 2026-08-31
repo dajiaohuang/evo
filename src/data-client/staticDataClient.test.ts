@@ -1015,6 +1015,7 @@ describe('static runtime release coherence', () => {
       { scope: 'actinopterygii', packageId: 'actinopterygii', collectionId: 'itis-actinopterygii-tsn-crosswalk', total: 35928, accepted: 24266, redirects: 356, ambiguous: 14, unmatched: 11292, upstreamOnly: 3732, canonicalFileCount: 24 },
       { scope: 'chondrichthyes', packageId: 'chondrichthyes', collectionId: 'itis-chondrichthyes-tsn-crosswalk', total: 1359, accepted: 769, redirects: 18, ambiguous: 1, unmatched: 571, upstreamOnly: 183, canonicalFileCount: 2 },
       { scope: 'agnatha-myxini', packageId: 'early-fishes', collectionId: 'itis-agnatha-myxini-tsn-crosswalk', total: 141, accepted: 92, redirects: 3, ambiguous: 0, unmatched: 46, upstreamOnly: 17, canonicalFileCount: 2 },
+      { scope: 'sarcopterygii', packageId: 'tetrapod-transition', collectionId: 'itis-sarcopterygii-tsn-crosswalk', total: 8, accepted: 8, redirects: 0, ambiguous: 0, unmatched: 0, upstreamOnly: 0, canonicalFileCount: 1 },
     ]
 
     for (const contract of contracts) {
