@@ -19,6 +19,10 @@ test('Radiolaria records the exact-root absence without replacing it with Rhizar
   assert.deepEqual(descriptor.rootBoundaryAudit.itisLegacyExactNameRoot, { tsn: 46088, scientific_name: 'Radiolaria', rank_name: 'Order', name_usage: 'valid', parent_tsn: 46078 })
   assert.deepEqual(descriptor.rootBoundaryAudit.itisNearbyModernCandidates.map((row) => row.tsn), [969913])
   assert.equal(descriptor.rootBoundaryAudit.selectedItisRoot, null)
+  assert.equal(descriptor.partitionOverlapAudit.colUsageIdOverlapCount, 0)
+  assert.equal(descriptor.partitionOverlapAudit.itisCurrentTsnOverlapCount, 0)
+  assert.ok(descriptor.partitionOverlapAudit.auditedSidecars.includes('itis-cercozoa'))
+  assert.ok(descriptor.partitionOverlapAudit.auditedSidecars.includes('foraminifera-wfd-identifiers'))
 })
 
 test('Radiolaria has no inferred rows and native-full remains checksum-addressed', () => {
@@ -27,6 +31,8 @@ test('Radiolaria has no inferred rows and native-full remains checksum-addressed
     itisCurrentSpecies: 0, itisSpeciesSynonymLinks: 0, itisUpstreamOnly: 0,
   })
   assert.deepEqual(descriptor.colUsageIdLocator.files, [])
+  assert.deepEqual(descriptor.partitionOverlapAudit.radiolariaColUsageIds, [])
+  assert.deepEqual(descriptor.partitionOverlapAudit.radiolariaItisCurrentTsns, [])
   assert.equal(descriptor.deliveryProfiles['web-light'].records, 0)
   assert.equal(descriptor.deliveryProfiles['native-full'].records, 0)
   const [file] = descriptor.upstreamOnly.files

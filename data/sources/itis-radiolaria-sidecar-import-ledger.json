@@ -146,6 +146,31 @@
       "selectedItisRoot": null,
       "decision": "No exact accepted Radiolaria root exists in either pinned authority. The ITIS exact-name order TSN 46088 is a valid legacy record under Labyrinthulea/Piroplasmia with no accepted species descendants; accepted Rhizaria TSN 969913 is a nearby modern classification record, not a substitute root. No COL or ITIS range is asserted."
     },
+    "partitionOverlapAudit": {
+      "auditedSidecars": [
+        "foraminifera-wfd-identifiers",
+        "itis-amoebozoa",
+        "itis-apicomplexa",
+        "itis-bigyra",
+        "itis-cercozoa",
+        "itis-choanoflagellatea",
+        "itis-ciliophora",
+        "itis-cryptophyta",
+        "itis-dinoflagellata",
+        "itis-euglenozoa",
+        "itis-haptophyta",
+        "itis-labyrinthulomycetes",
+        "itis-ochrophyta",
+        "itis-oomycota",
+        "itis-perkinsozoa",
+        "itis-rhodophyta"
+      ],
+      "radiolariaColUsageIds": [],
+      "radiolariaItisCurrentTsns": [],
+      "colUsageIdOverlapCount": 0,
+      "itisCurrentTsnOverlapCount": 0,
+      "decision": "The exact-root contract produces no Radiolaria COL usage IDs and no accepted ITIS current-species TSNs. It therefore overlaps none of the audited Protists and Chromists sidecars, including Cercozoa, Foraminifera, Bigyra, Ochrophyta, Oomycota, Perkinsozoa and Labyrinthulomycetes."
+    },
     "itisCurrentSpecies": 0,
     "itisSpeciesSynonymLinks": 0,
     "maximumUpdateDates": {
@@ -181,8 +206,8 @@
   "output": {
     "descriptor": {
       "path": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-radiolaria-sidecar.json",
-      "bytes": 8530,
-      "sha256": "33d184026bb52c7696e3f787da07332023fb0cefdedbfbbdcf7408461a34e71c"
+      "bytes": 9460,
+      "sha256": "97499caa50a39f82bed65fe44264c236a8e74a46a3ad7b5281b00ba27d13c3c3"
     },
     "colUsageIdShards": [],
     "upstreamOnly": {
@@ -206,7 +231,7 @@
   },
   "generatedBy": {
     "scriptPath": "scripts/build-itis-radiolaria-sidecar.mjs",
-    "scriptSha256": "90f463668c6887a9844e5c6aac79e5c3fd12eccd2cb70daf8cf0f60dbd27a823",
+    "scriptSha256": "c7c9862983b6e2b478d54f2734596aafb7719a551b3e2604c23714542e88bdab",
     "deterministic": "Pinned input checksums, exact COL and ITIS root audits, explicit legacy and nearby-modern records, and deterministic gzip; no wall-clock fields or fuzzy matching."
   }
 }

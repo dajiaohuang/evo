@@ -138,6 +138,31 @@
     "selectedItisRoot": null,
     "decision": "No exact accepted Radiolaria root exists in either pinned authority. The ITIS exact-name order TSN 46088 is a valid legacy record under Labyrinthulea/Piroplasmia with no accepted species descendants; accepted Rhizaria TSN 969913 is a nearby modern classification record, not a substitute root. No COL or ITIS range is asserted."
   },
+  "partitionOverlapAudit": {
+    "auditedSidecars": [
+      "foraminifera-wfd-identifiers",
+      "itis-amoebozoa",
+      "itis-apicomplexa",
+      "itis-bigyra",
+      "itis-cercozoa",
+      "itis-choanoflagellatea",
+      "itis-ciliophora",
+      "itis-cryptophyta",
+      "itis-dinoflagellata",
+      "itis-euglenozoa",
+      "itis-haptophyta",
+      "itis-labyrinthulomycetes",
+      "itis-ochrophyta",
+      "itis-oomycota",
+      "itis-perkinsozoa",
+      "itis-rhodophyta"
+    ],
+    "radiolariaColUsageIds": [],
+    "radiolariaItisCurrentTsns": [],
+    "colUsageIdOverlapCount": 0,
+    "itisCurrentTsnOverlapCount": 0,
+    "decision": "The exact-root contract produces no Radiolaria COL usage IDs and no accepted ITIS current-species TSNs. It therefore overlaps none of the audited Protists and Chromists sidecars, including Cercozoa, Foraminifera, Bigyra, Ochrophyta, Oomycota, Perkinsozoa and Labyrinthulomycetes."
+  },
   "sources": {
     "col": {
       "releaseAlias": "COL26.8",

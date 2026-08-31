@@ -16,6 +16,7 @@ const ledgerPath = join(repositoryRoot, 'data', 'sources', 'itis-radiolaria-side
 const packageId = 'protists-chromists'
 const packageRoots = ['C', 'Z']
 const targetName = 'Radiolaria'
+const auditedPartitions = ['foraminifera-wfd-identifiers', 'itis-amoebozoa', 'itis-apicomplexa', 'itis-bigyra', 'itis-cercozoa', 'itis-choanoflagellatea', 'itis-ciliophora', 'itis-cryptophyta', 'itis-dinoflagellata', 'itis-euglenozoa', 'itis-haptophyta', 'itis-labyrinthulomycetes', 'itis-ochrophyta', 'itis-oomycota', 'itis-perkinsozoa', 'itis-rhodophyta']
 
 function parseArgs(argv) {
   const options = {
@@ -150,8 +151,14 @@ async function main() {
     itisNearbyModernCandidates: itis.nearbyModernCandidates, selectedColRoot: null, selectedItisRoot: null,
     decision: 'No exact accepted Radiolaria root exists in either pinned authority. The ITIS exact-name order TSN 46088 is a valid legacy record under Labyrinthulea/Piroplasmia with no accepted species descendants; accepted Rhizaria TSN 969913 is a nearby modern classification record, not a substitute root. No COL or ITIS range is asserted.',
   }
+  const partitionOverlapAudit = {
+    auditedSidecars: auditedPartitions,
+    radiolariaColUsageIds: [], radiolariaItisCurrentTsns: [],
+    colUsageIdOverlapCount: 0, itisCurrentTsnOverlapCount: 0,
+    decision: 'The exact-root contract produces no Radiolaria COL usage IDs and no accepted ITIS current-species TSNs. It therefore overlaps none of the audited Protists and Chromists sidecars, including Cercozoa, Foraminifera, Bigyra, Ochrophyta, Oomycota, Perkinsozoa and Labyrinthulomycetes.',
+  }
   const descriptor = {
-    schemaVersion: 1, sidecarType: 'release-pinned-exact-root-boundary-audit', packageId, scope, rootBoundaryAudit,
+    schemaVersion: 1, sidecarType: 'release-pinned-exact-root-boundary-audit', packageId, scope, rootBoundaryAudit, partitionOverlapAudit,
     sources: {
       col: { releaseAlias: 'COL26.8', releaseDate: '2026-08-20', registryManifestPath: repositoryPath(col.manifestPath), registryManifestSha256: sha256(col.manifestBytes), ownershipPath: repositoryPath(options.ownershipPath), ownershipSha256: sha256(ownershipBytes) },
       itis: { datasetId: source.datasetId, exportDate: source.release.exportDate, rootTsn: null, rootScientificName: targetName, rootStatus: 'no-accepted-exact-root', sourceLedgerPath: repositoryPath(options.itisSourceLedgerPath), sourceLedgerSha256: sha256(sourceBytes), license: source.license.spdx, citationDoi: source.citation.doi },
@@ -169,7 +176,7 @@ async function main() {
   const ledger = {
     schemaVersion: 1, importType: 'COL26.8-to-ITIS-exact-radiolaria-root-boundary-audit',
     generatedFrom: { sourcePath: repositoryPath(options.itisSourceLedgerPath), sourceSha256: sha256(sourceBytes), itisDatabaseMember: source.archive.databaseMember, itisDatabaseSha256: sqliteSha256, colRegistryManifestPath: repositoryPath(col.manifestPath), colRegistryManifestSha256: sha256(col.manifestBytes), colOwnershipPath: repositoryPath(options.ownershipPath), colOwnershipSha256: sha256(ownershipBytes) },
-    scopeAudit: { ...scope, rootBoundaryAudit, itisCurrentSpecies: 0, itisSpeciesSynonymLinks: 0, maximumUpdateDates: itis.maxima }, matchingContract: descriptor.exactMatching, totals: counts,
+    scopeAudit: { ...scope, rootBoundaryAudit, partitionOverlapAudit, itisCurrentSpecies: 0, itisSpeciesSynonymLinks: 0, maximumUpdateDates: itis.maxima }, matchingContract: descriptor.exactMatching, totals: counts,
     output: { descriptor: { path: repositoryPath(descriptorPath), bytes: descriptorBytes.length, sha256: sha256(descriptorBytes) }, colUsageIdShards: [], upstreamOnly: upstreamDescriptor },
     deliveryContract: { pagesLight: 'Pages needs only this small descriptor and may omit the empty row-level JSONL gzip shard.', androidIosFull: 'Android and iOS complete-data inventories include the descriptor and the listed explicit empty shard; there are no non-empty authoritative rows to include.', runtimeChange: 'This import deliberately changes no formal runtime or published release manifest.' },
     generatedBy: { scriptPath: 'scripts/build-itis-radiolaria-sidecar.mjs', scriptSha256: await sha256File(scriptPath), deterministic: 'Pinned input checksums, exact COL and ITIS root audits, explicit legacy and nearby-modern records, and deterministic gzip; no wall-clock fields or fuzzy matching.' },
