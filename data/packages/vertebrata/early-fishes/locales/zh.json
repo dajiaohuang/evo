@@ -1,12 +1,13 @@
 {
   "language": "zh",
-  "version": "2026.09-static-v5-rc81",
+  "version": "2026.09-static-v5-rc82",
   "strings": {
     "entity.agnatha.name": "无颌鱼类",
     "entity.conodonta.name": "牙形石类",
     "entity.ostracodermi.name": "披甲无颌鱼类",
     "entity.heterostraci.name": "异甲类",
     "entity.osteostraci.name": "骨甲类",
+    "entity.tujiaaspis.name": "志留纪土家鱼",
     "entity.cyclostomata.name": "七鳃鳗与盲鳗",
     "entity.petromyzontida.name": "七鳃鳗",
     "entity.myxini.name": "盲鳗纲",
@@ -17,10 +18,13 @@
     "entity.placodermi.name": "盾皮鱼类",
     "entity.arthrodira.name": "节甲鱼类",
     "entity.dunkleosteus.name": "邓氏鱼",
+    "entity.xiushanosteus.name": "志留纪秀山鱼",
     "entity.acanthodii.name": "棘鱼类",
     "profile.priscomyzon.name": "泥盆纪原七鳃鳗",
     "profile.myxinikela.name": "石炭纪盲鳗干群",
     "profile.tethymyxine.name": "白垩纪冠群盲鳗",
+    "profile.tujiaaspis.name": "志留纪土家鱼",
+    "profile.xiushanosteus.name": "志留纪秀山鱼",
     "claim.claim:event:chongqing-xiushanosteus-complete-body.confidenceRationale": "多件关节相连标本直接保存小型躯体与颅甲，一手研究给出了标本清单、层位和详细图版。高置信度只适用于已记录材料及性状镶嵌；盾皮鱼等级的关系仍解析不足，不能转化为祖先关系。",
     "claim.claim:event:famennian-priscomyzon-oral-disc.confidenceRationale": "一手研究描述并图示了正模解剖、地点和法门期归属。中等置信度保留单标本边界、来源采用的近似数值年代，以及缺少生命周期阶段和行为直接保存的事实。",
     "claim.claim:event:mazon-creek-myxinikela-stem-hagfish.confidenceRationale": "修订研究比较了两件有编号标本，报告了尺寸、地点和解剖，并明确恢复出盲鳗干群镶嵌。中等置信度反映两件标本的埋藏史不同、副模软骨等结构存在歧义，以及原先过度现代化复原受到大幅修正。",
@@ -59,6 +63,16 @@
     "claim.claim:taxon:cyclostomata:range-boundary.confidenceRationale": "Cyclostome fossil-and-living evidence route：所引一手研究或高质量系统综述在给定页码、图表或章节处直接支持此处的样本、校准或暂缓边界。置信度为中等。该置信度不外推至全球首现、全球末现、直接祖先或未采样区间。",
     "claim.claim:taxon:petromyzontida:range-boundary.confidenceRationale": "Petromyzontida fossil-and-living evidence route：所引一手研究或高质量系统综述在给定页码、图表或章节处直接支持此处的样本、校准或暂缓边界。置信度为中等。该置信度不外推至全球首现、全球末现、直接祖先或未采样区间。",
     "claim.claim:taxon:arthrodira:range-boundary.confidenceRationale": "Famennian eubrachythoracid sample within Arthrodira：所引一手研究或高质量系统综述在给定页码、图表或章节处直接支持此处的样本、校准或暂缓边界。置信度为中等。该置信度不外推至全球首现、全球末现、直接祖先或未采样区间。",
-    "claim.claim:taxon:dunkleosteus:range-boundary.confidenceRationale": "Dunkleosteus species sampled by Carr and Hlavin 2010：所引一手研究或高质量系统综述在给定页码、图表或章节处直接支持此处的样本、校准或暂缓边界。置信度为中等。该置信度不外推至全球首现、全球末现、直接祖先或未采样区间。"
+    "claim.claim:taxon:dunkleosteus:range-boundary.confidenceRationale": "Dunkleosteus species sampled by Carr and Hlavin 2010：所引一手研究或高质量系统综述在给定页码、图表或章节处直接支持此处的样本、校准或暂缓边界。置信度为中等。该置信度不外推至全球首现、全球末现、直接祖先或未采样区间。",
+    "claim.claim:taxon:tujiaaspis:taxonomy.confidenceRationale": "Tujiaaspis vividus：关节相连标本与已发表的系统发育分析支持这一有限鉴定。置信度保持中等，因为其位置依赖模型，且 Ostracodermi 在本导航中是非单系的历史等级。",
+    "claim.claim:taxon:tujiaaspis:biogeography.confidenceRationale": "Tujiaaspis vividus：一手研究绘制了地点并确定含鱼层位。单一地层样本不能确定缺失、特有性或全球地理范围，故置信度为中等。",
+    "claim.claim:taxon:tujiaaspis:ecology.confidenceRationale": "Tujiaaspis vividus：模型结论明确受重建形态与 CFD 假设限制。中等置信度仅适用于这一边界，而不是完整生态重建。",
+    "claim.claim:taxon:tujiaaspis:morphology.confidenceRationale": "Tujiaaspis vividus：具名标本与图件直接支持所记录的躯干性状。保存与重建限制性状完整性和变异，因此置信度为中等。",
+    "claim.claim:taxon:tujiaaspis:fossil-range.confidenceRationale": "Tujiaaspis vividus：一手来源及明确的地质定位符支持该层位。数值包络限定于地点和阶，非全球首现或末现，故置信度为中等。",
+    "claim.claim:taxon:xiushanosteus:taxonomy.confidenceRationale": "Xiushanosteus mirabilis：多件关节相连标本和已发表分析直接支持具名材料及有限的性状镶嵌。高置信度仅适用于这些观察，不外推为直系祖先或普遍的盾皮鱼拓扑。",
+    "claim.claim:taxon:xiushanosteus:biogeography.confidenceRationale": "Xiushanosteus mirabilis：一手研究直接确定重庆拉格施泰特、层位和标本系列。高置信度仅适用于该记录地点，不确定更广地理范围。",
+    "claim.claim:taxon:xiushanosteus:ecology.confidenceRationale": "Xiushanosteus mirabilis：来源记录材料与动物群背景，却未直接观察行为或生态位。中等置信度仅针对这一明确的证据边界，而不是生态重建。",
+    "claim.claim:taxon:xiushanosteus:morphology.confidenceRationale": "Xiushanosteus mirabilis：多件具名关节相连标本与详细图件直接支持躯体和颅部观察。高置信度不外推到未保存的解剖或直系祖先关系。",
+    "claim.claim:taxon:xiushanosteus:fossil-range.confidenceRationale": "Xiushanosteus mirabilis：多件具名标本及明确层位支持该样本限定窗口。高置信度仅适用于文献记录样本和阶级换算，不是全球出现边界。"
   }
 }

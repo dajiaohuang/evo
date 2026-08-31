@@ -6,19 +6,19 @@
       "id": "sponges-cnidarians-tree-preset",
       "type": "explorer-preset",
       "title": {
-        "en": "Porifera source-bound evidence",
-        "zh": "海绵动物来源限定证据"
+        "en": "Haootia source-bound evidence",
+        "zh": "四方豪蒂虫来源限定证据"
       },
       "description": {
-        "en": "Open the Explorer at Porifera to inspect the linked, locator-bearing source claim together with this package's current occurrence context. This is a reproducible evidence entry point, not a phylogenetic result or a complete history of the group.",
-        "zh": "在探索器中打开海绵动物，结合本包当前的出现记录背景检查带有精确来源定位的关联声明。这是可复现的证据检查入口，不是系统发育结果，也不是该类群的完整历史。"
+        "en": "Open the Explorer at Haootia to inspect the linked, locator-bearing source claim together with this package's current occurrence context. This is a reproducible evidence entry point, not a phylogenetic result or a complete history of the group.",
+        "zh": "在探索器中打开四方豪蒂虫，结合本包当前的出现记录背景检查带有精确来源定位的关联声明。这是可复现的证据检查入口，不是系统发育结果，也不是该类群的完整历史。"
       },
-      "route": "#/explore?taxon=porifera&view=tree",
+      "route": "#/explore?taxon=haootia&view=tree",
       "entityIds": [
-        "porifera"
+        "haootia"
       ],
       "claimIds": [
-        "claim:taxon:porifera:root-range-rc39"
+        "claim:taxon:haootia:range-boundary-rc50"
       ],
       "evidenceStatus": "available-with-limitations",
       "limitations": [
@@ -36,12 +36,12 @@
         "en": "Open a source-bounded Sponges and cnidarians time window in the map to inspect sampled occurrence context linked to this package.",
         "zh": "在地图中打开有来源边界的海绵与刺胞动物时间窗口，检查与本包关联的采样出现背景。"
       },
-      "route": "#/explore?taxon=porifera&view=map&age=275.5&older=551&younger=0",
+      "route": "#/explore?taxon=haootia&view=map&age=560&older=560&younger=560",
       "entityIds": [
-        "porifera"
+        "haootia"
       ],
       "claimIds": [
-        "claim:taxon:porifera:root-range-rc39"
+        "claim:taxon:haootia:range-boundary-rc50"
       ],
       "evidenceStatus": "available-with-limitations",
       "limitations": [
@@ -56,17 +56,17 @@
         "zh": "海绵与刺胞动物证据比较"
       },
       "description": {
-        "en": "Compare helicolocellus and eocyathispongia through package-linked claims and bounded occurrence context; this side-by-side route is an evidence inspection aid.",
-        "zh": "通过本包关联的声明与限定出现背景比较helicolocellus与eocyathispongia；并列页面仅用于证据检查。"
+        "en": "Compare haootia and xianguangia through package-linked claims and bounded occurrence context; this side-by-side route is an evidence inspection aid.",
+        "zh": "通过本包关联的声明与限定出现背景比较haootia与xianguangia；并列页面仅用于证据检查。"
       },
-      "route": "#/compare?left=helicolocellus&right=eocyathispongia",
+      "route": "#/compare?left=haootia&right=xianguangia",
       "entityIds": [
-        "helicolocellus",
-        "eocyathispongia"
+        "haootia",
+        "xianguangia"
       ],
       "claimIds": [
-        "claim:taxon:helicolocellus:fossil-range",
-        "claim:taxon:eocyathispongia:fossil-range"
+        "claim:taxon:haootia:range-boundary-rc50",
+        "claim:taxon:xianguangia:range-boundary-rc50"
       ],
       "evidenceStatus": "available-with-limitations",
       "limitations": [

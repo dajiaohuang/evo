@@ -1,5 +1,5 @@
 export const PACKAGE_SCHEMA_VERSION = 5
-export const DATASET_PACKAGE_VERSION = '2026.09-static-v5-rc81'
+export const DATASET_PACKAGE_VERSION = '2026.09-static-v5-rc82'
 export const DATASET_RELEASE_DATE = '2026-09-01'
 
 // Explicit source-bound Explorer presets. These mappings are intentionally
@@ -10,7 +10,7 @@ export const researchPresetDefinitions = {
   'early-land-plants': { entityId: 'plantae', claimIds: ['claim:taxon:plantae:root-range-rc39'] },
   gymnosperms: { entityId: 'gymnospermae', claimIds: ['claim:taxon:gymnospermae:root-range-rc39'] },
   angiospermae: { entityId: 'angiospermae', claimIds: ['claim:taxon:angiospermae:fossil-range'] },
-  'sponges-cnidarians': { entityId: 'porifera', claimIds: ['claim:taxon:porifera:root-range-rc39'] },
+  'sponges-cnidarians': { entityId: 'haootia', claimIds: ['claim:taxon:haootia:range-boundary-rc50'] },
   'molluscs-brachiopods': { entityId: 'mollusca', claimIds: ['claim:taxon:mollusca'] },
   'trilobites-chelicerates': { entityId: 'trilobita', claimIds: ['claim:taxon:trilobita:root-range-rc39'] },
   'crustaceans-insects': { entityId: 'arthropoda', claimIds: ['claim:taxon:arthropoda:root-range-rc39'] },
@@ -23,7 +23,7 @@ export const researchPresetDefinitions = {
   'mammal-origins': { entityId: 'synapsida', claimIds: ['claim:taxon:synapsida:root-range'] },
   cetartiodactyla: { entityId: 'whippomorpha', claimIds: ['claim:taxon:whippomorpha:root-range'] },
   primates: { entityId: 'primatomorpha', claimIds: ['claim:taxon:primatomorpha:root-range'] },
-  carnivora: { entityId: 'carnivora', claimIds: ['claim:taxon:carnivora:root-range'] },
+  carnivora: { entityId: 'hesperocyon', claimIds: ['claim:taxon:hesperocyon:taxonomy'] },
   'other-mammals': { entityId: 'monotremata', claimIds: ['claim:taxon:monotremata:root-range'] },
   'turtles-lepidosaurs': { entityId: 'testudines', claimIds: ['claim:taxon:testudines:fossil-range'] },
   'marine-reptiles-pterosaurs': { entityId: 'ichthyosauria', claimIds: ['claim:taxon:ichthyosauria:fossil-range'] },
@@ -52,8 +52,8 @@ export const researchSceneDefinitions = {
     { id: 'angiospermae-comparison-window', kind: 'comparison', route: '#/compare?left=angiospermae&right=monocotyledones', entityIds: ['angiospermae', 'monocotyledones'], claimIds: ['claim:taxon:angiospermae:fossil-range', 'claim:taxon:monocotyledones:fossil-range'] },
   ] },
   'sponges-cnidarians': { label: { en: 'Sponges and cnidarians', zh: '海绵与刺胞动物' }, scenes: [
-    { id: 'sponges-cnidarians-map-window', kind: 'map', route: '#/explore?taxon=porifera&view=map&age=275.5&older=551&younger=0', entityIds: ['porifera'], claimIds: ['claim:taxon:porifera:root-range-rc39'] },
-    { id: 'sponges-cnidarians-comparison-window', kind: 'comparison', route: '#/compare?left=helicolocellus&right=eocyathispongia', entityIds: ['helicolocellus', 'eocyathispongia'], claimIds: ['claim:taxon:helicolocellus:fossil-range', 'claim:taxon:eocyathispongia:fossil-range'] },
+    { id: 'sponges-cnidarians-map-window', kind: 'map', route: '#/explore?taxon=haootia&view=map&age=560&older=560&younger=560', entityIds: ['haootia'], claimIds: ['claim:taxon:haootia:range-boundary-rc50'] },
+    { id: 'sponges-cnidarians-comparison-window', kind: 'comparison', route: '#/compare?left=haootia&right=xianguangia', entityIds: ['haootia', 'xianguangia'], claimIds: ['claim:taxon:haootia:range-boundary-rc50', 'claim:taxon:xianguangia:range-boundary-rc50'] },
   ] },
   'molluscs-brachiopods': { label: { en: 'Molluscs and brachiopods', zh: '软体动物与腕足动物' }, scenes: [
     { id: 'molluscs-brachiopods-map-window', kind: 'map', route: '#/explore?taxon=mollusca&view=map&age=260&older=520&younger=0', entityIds: ['mollusca'], claimIds: ['claim:taxon:mollusca'] },
@@ -72,8 +72,8 @@ export const researchSceneDefinitions = {
     { id: 'echinoderms-comparison-window', kind: 'comparison', route: '#/compare?left=echinodermata&right=crinoidea', entityIds: ['echinodermata', 'crinoidea'], claimIds: ['claim:taxon:echinodermata:fossil-range', 'claim:taxon:crinoidea:tremadocian-record'] },
   ] },
   'early-fishes': { label: { en: 'Early fishes', zh: '早期鱼类' }, scenes: [
-    { id: 'early-fishes-map-window', kind: 'map', route: '#/explore?taxon=agnatha&view=map&age=260&older=520&younger=0', entityIds: ['agnatha'], claimIds: ['claim:taxon:agnatha:fossil-range'] },
-    { id: 'early-fishes-comparison-window', kind: 'comparison', route: '#/compare?left=priscomyzon&right=myxinikela', entityIds: ['priscomyzon', 'myxinikela'], claimIds: ['claim:taxon:priscomyzon:fossil-range', 'claim:taxon:myxinikela:fossil-range'] },
+    { id: 'early-fishes-map-window', kind: 'map', route: '#/explore?taxon=xiushanosteus&view=map&age=436&older=438.6&younger=432.9', entityIds: ['xiushanosteus'], claimIds: ['claim:taxon:xiushanosteus:fossil-range'] },
+    { id: 'early-fishes-comparison-window', kind: 'comparison', route: '#/compare?left=tujiaaspis&right=xiushanosteus', entityIds: ['tujiaaspis', 'xiushanosteus'], claimIds: ['claim:taxon:tujiaaspis:fossil-range', 'claim:taxon:xiushanosteus:fossil-range'] },
   ] },
   chondrichthyes: { label: { en: 'Chondrichthyes', zh: '软骨鱼类' }, scenes: [
     { id: 'chondrichthyes-map-window', kind: 'map', route: '#/explore?taxon=chondrichthyes&view=map&age=219.5&older=439&younger=0', entityIds: ['chondrichthyes'], claimIds: ['claim:taxon:chondrichthyes:fossil-range'] },
@@ -108,8 +108,8 @@ export const researchSceneDefinitions = {
     { id: 'dinosauria-diversity-window', kind: 'diversity', route: '#/explore?taxon=tyrannosaurus&view=diversity&age=67&older=68&younger=66', entityIds: ['tyrannosaurus'], claimIds: ['claim:taxon:tyrannosaurus:fossil-range'] },
   ] },
   carnivora: { label: { en: 'Carnivora', zh: '食肉类' }, scenes: [
-    { id: 'carnivora-map-window', kind: 'map', route: '#/explore?taxon=carnivora&view=map&age=28&older=56&younger=0', entityIds: ['carnivora'], claimIds: ['claim:taxon:carnivora:root-range'] },
-    { id: 'carnivora-comparison-window', kind: 'comparison', route: '#/compare?left=dormaalocyon&right=panthera-blytheae', entityIds: ['dormaalocyon', 'panthera-blytheae'], claimIds: ['claim:taxon:dormaalocyon:fossil-range', 'claim:taxon:panthera-blytheae:fossil-range'] },
+    { id: 'carnivora-map-window', kind: 'map', route: '#/explore?taxon=hesperocyon&view=map&age=34.5&older=40&younger=29', entityIds: ['hesperocyon'], claimIds: ['claim:taxon:hesperocyon:source-bounded-range-rc49'] },
+    { id: 'carnivora-comparison-window', kind: 'comparison', route: '#/compare?left=hesperocyon&right=enaliarctos', entityIds: ['hesperocyon', 'enaliarctos'], claimIds: ['claim:taxon:hesperocyon:source-bounded-range-rc49', 'claim:taxon:enaliarctos:fossil-range'] },
   ] },
   cetartiodactyla: { label: { en: 'Whippomorpha', zh: '鲸偶蹄类' }, scenes: [
     { id: 'cetartiodactyla-map-window', kind: 'map', route: '#/explore?taxon=whippomorpha&view=map&age=27.5&older=55&younger=0', entityIds: ['whippomorpha'], claimIds: ['claim:taxon:whippomorpha:root-range'] },
@@ -193,8 +193,8 @@ export const packageDefinitions = [
     titleZh: '海绵与刺胞动物',
     rootEntityIds: ['porifera', 'cnidaria'],
     conceptScope: {
-      en: 'Fourteen primary-evidence dossiers separate Cryogenian sterane occurrence from source attribution, named Ediacaran and Cambrian specimens from topology, living phylogenomic samples from universal trees, and coral clock or proxy results from fossil observations. Navigation adds eighteen living and fossil concepts as curated browse routes. COL26.8 routes exactly 30,521 strictly accepted living species names through Porifera usage ID B8TXQ and Cnidaria usage ID CN2; this is nomenclatural coverage, not 30,521 mature dossiers.',
-      zh: '十四个一手证据档案严格区分成冰纪甾烷出现与来源归属、埃迪卡拉纪和寒武纪具名标本与系统位置、现生系统基因组样本与通用系统树，以及珊瑚分子钟或代用指标结果与化石观察。导航新增十八个现生和化石概念作为策展浏览路线。COL26.8 经海绵动物门 usage ID B8TXQ 与刺胞动物门 usage ID CN2 精确路由 30,521 个严格接受的现生种名；这是命名覆盖，并非 30,521 份成熟档案。',
+      en: 'Fourteen primary-evidence dossiers separate Cryogenian sterane occurrence from source attribution, named Ediacaran and Cambrian specimens from topology, living phylogenomic samples from universal trees, and coral clock or proxy results from fossil observations. Five field-linked profiles now cover Eocyathispongia, Helicolocellus, Auroralumina, Haootia and Xianguangia; each keeps specimen or assemblage bounds and competing affinity interpretations visible. Navigation adds eighteen living and fossil concepts as curated browse routes. COL26.8 routes exactly 30,521 strictly accepted living species names through Porifera usage ID B8TXQ and Cnidaria usage ID CN2; this is nomenclatural coverage, not 30,521 mature dossiers.',
+      zh: '十四个一手证据档案严格区分成冰纪甾烷出现与来源归属、埃迪卡拉纪和寒武纪具名标本与系统位置、现生系统基因组样本与通用系统树，以及珊瑚分子钟或代用指标结果与化石观察。五份逐字段档案现覆盖 Eocyathispongia、Helicolocellus、Auroralumina、Haootia 与 Xianguangia，并保留标本或动物群边界及相互竞争的亲缘解释。导航新增十八个现生和化石概念作为策展浏览路线。COL26.8 经海绵动物门 usage ID B8TXQ 与刺胞动物门 usage ID CN2 精确路由 30,521 个严格接受的现生种名；这是命名覆盖，并非 30,521 份成熟档案。',
     },
     scientificMaturity: 'source-linked',
     limitations: [
@@ -281,8 +281,8 @@ export const packageDefinitions = [
     titleZh: '无颌类与早期有颌鱼类',
     rootEntityIds: ['agnatha', 'placodermi', 'acanthodii'],
     conceptScope: {
-      en: 'COL26.8 accepted-species routing covers the pinned Agnatha and Myxini roots. A dedicated fossil-evidence route now exposes Priscomyzon, Myxinikela and Tethymyxine as specimen-bounded profiles with field-to-claim links and concrete primary-study locators. Total-group lamprey, stem hagfish and crown-Myxini evidence remain distinct; none of the displayed intervals is promoted to a global origin. The bundled PBDB occurrence rows remain a bounded, non-random API-prefix sample and cannot establish FAD, LAD, absence, richness or global distribution.',
-      zh: 'COL26.8 已接受物种经固定的无颌类与盲鳗纲根路由到本包。新增化石证据导航，以受标本边界约束的档案展示 Priscomyzon、Myxinikela 与 Tethymyxine，并把字段连接到具精确定位符的一手研究。七鳃鳗总群、盲鳗干群与盲鳗冠群证据彼此分开；任何显示区间都不被提升为全球起源。包内 PBDB 出现记录仍是有界、非随机的 API 前缀样本，不能确定首现、末现、缺失、丰富度或全球分布。',
+      en: 'COL26.8 accepted-species routing covers the pinned Agnatha and Myxini roots. Five specimen- and locality-bounded profiles expose Priscomyzon, Myxinikela, Tethymyxine, Tujiaaspis and Xiushanosteus with field-to-claim links and concrete primary-study locators. Lamprey, hagfish, galeaspid and placoderm-grade evidence remain distinct; the 432.9–438.6 Ma Telychian windows are study envelopes, not global FADs, LADs or origins. The bundled PBDB occurrence rows remain a bounded, non-random API-prefix sample and cannot establish FAD, LAD, absence, richness or global distribution.',
+      zh: 'COL26.8 已接受物种经固定的无颌类与盲鳗纲根路由到本包。五份受标本和地点边界约束的档案展示 Priscomyzon、Myxinikela、Tethymyxine、Tujiaaspis 与 Xiushanosteus，并把字段连接到具精确定位符的一手研究。七鳃鳗、盲鳗、盔甲鱼类与盾皮鱼等级证据彼此分开；432.9–438.6 Ma 的特列奇期窗口只是研究样本包络，而不是全球首现、末现或起源。包内 PBDB 出现记录仍是有界、非随机的 API 前缀样本，不能确定首现、末现、缺失、丰富度或全球分布。',
     },
     wave: 'C',
     scientificMaturity: 'source-linked',

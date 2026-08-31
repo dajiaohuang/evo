@@ -165,6 +165,7 @@
         "ostracodermi",
         "heterostraci",
         "osteostraci",
+        "tujiaaspis",
         "cyclostomata",
         "petromyzontida",
         "myxini",
@@ -176,6 +177,7 @@
         "placodermi",
         "arthrodira",
         "dunkleosteus",
+        "xiushanosteus",
         "chondrichthyes",
         "elasmobranchii",
         "carcharocles",
@@ -507,12 +509,14 @@
         "txn:33518",
         "txn:33521",
         "txn:67149",
+        "txn:503608",
         "txn:401644",
         "txn:91453",
         "txn:178986",
         "txn:384229",
         "txn:34249",
         "txn:34328",
+        "txn:500054",
         "txn:34422",
         "txn:80603",
         "txn:34760",
@@ -777,12 +781,14 @@
         "hemichordata",
         "pterobranchia",
         "vertebrata",
+        "tujiaaspis",
         "myxini",
         "priscomyzon riniensis",
         "myxinikela siroka",
         "tethymyxine tapirostrum",
         "placodermi",
         "dunkleosteus",
+        "xiushanosteus",
         "chondrichthyes",
         "otodus megalodon",
         "holocephali",
@@ -5682,6 +5688,7 @@
         "ostracodermi",
         "heterostraci",
         "osteostraci",
+        "tujiaaspis",
         "cyclostomata",
         "petromyzontida",
         "myxini",
@@ -5693,6 +5700,7 @@
         "placodermi",
         "arthrodira",
         "dunkleosteus",
+        "xiushanosteus",
         "chondrichthyes",
         "elasmobranchii",
         "carcharocles",
@@ -5929,12 +5937,14 @@
       ],
       "descendantTaxonIds": [
         "txn:67149",
+        "txn:503608",
         "txn:401644",
         "txn:91453",
         "txn:178986",
         "txn:384229",
         "txn:34249",
         "txn:34328",
+        "txn:500054",
         "txn:34422",
         "txn:80603",
         "txn:34760",
@@ -6104,12 +6114,14 @@
       ],
       "descendantScientificNames": [
         "vertebrata",
+        "tujiaaspis",
         "myxini",
         "priscomyzon riniensis",
         "myxinikela siroka",
         "tethymyxine tapirostrum",
         "placodermi",
         "dunkleosteus",
+        "xiushanosteus",
         "chondrichthyes",
         "otodus megalodon",
         "holocephali",
@@ -6310,6 +6322,7 @@
         "ostracodermi",
         "heterostraci",
         "osteostraci",
+        "tujiaaspis",
         "cyclostomata",
         "petromyzontida",
         "myxini",
@@ -6319,12 +6332,14 @@
         "tethymyxine"
       ],
       "descendantTaxonIds": [
+        "txn:503608",
         "txn:401644",
         "txn:91453",
         "txn:178986",
         "txn:384229"
       ],
       "descendantScientificNames": [
+        "tujiaaspis",
         "myxini",
         "priscomyzon riniensis",
         "myxinikela siroka",
@@ -6371,10 +6386,15 @@
       "queryStatus": "historical-grade",
       "descendantEntityIds": [
         "heterostraci",
-        "osteostraci"
+        "osteostraci",
+        "tujiaaspis"
       ],
-      "descendantTaxonIds": [],
-      "descendantScientificNames": [],
+      "descendantTaxonIds": [
+        "txn:503608"
+      ],
+      "descendantScientificNames": [
+        "tujiaaspis"
+      ],
       "matchMethods": {
         "exactExternalId": 0,
         "acceptedName": 0,
@@ -6417,6 +6437,31 @@
       "descendantEntityIds": [],
       "descendantTaxonIds": [],
       "descendantScientificNames": [],
+      "matchMethods": {
+        "exactExternalId": 0,
+        "acceptedName": 0,
+        "higherClassification": 0
+      },
+      "completeSnapshotAvailable": false,
+      "completeSnapshotRows": null,
+      "periods": [],
+      "matchedTotal": 0
+    },
+    "tujiaaspis": {
+      "entityId": "tujiaaspis",
+      "packageId": "early-fishes",
+      "entityKind": "taxon",
+      "externalTaxonId": "txn:503608",
+      "scientificNameNormalized": "tujiaaspis",
+      "externalResolutionStatus": "resolved-exact",
+      "queryStatus": "resolved-zero-in-bounded-sample",
+      "descendantEntityIds": [],
+      "descendantTaxonIds": [
+        "txn:503608"
+      ],
+      "descendantScientificNames": [
+        "tujiaaspis"
+      ],
       "matchMethods": {
         "exactExternalId": 0,
         "acceptedName": 0,
@@ -6631,6 +6676,7 @@
         "placodermi",
         "arthrodira",
         "dunkleosteus",
+        "xiushanosteus",
         "chondrichthyes",
         "elasmobranchii",
         "carcharocles",
@@ -6868,6 +6914,7 @@
       "descendantTaxonIds": [
         "txn:34249",
         "txn:34328",
+        "txn:500054",
         "txn:34422",
         "txn:80603",
         "txn:34760",
@@ -7038,6 +7085,7 @@
       "descendantScientificNames": [
         "placodermi",
         "dunkleosteus",
+        "xiushanosteus",
         "chondrichthyes",
         "otodus megalodon",
         "holocephali",
@@ -7235,15 +7283,18 @@
       "queryStatus": "complete-query-observed",
       "descendantEntityIds": [
         "arthrodira",
-        "dunkleosteus"
+        "dunkleosteus",
+        "xiushanosteus"
       ],
       "descendantTaxonIds": [
         "txn:34249",
-        "txn:34328"
+        "txn:34328",
+        "txn:500054"
       ],
       "descendantScientificNames": [
         "placodermi",
-        "dunkleosteus"
+        "dunkleosteus",
+        "xiushanosteus"
       ],
       "matchMethods": {
         "exactExternalId": 0,
@@ -7306,6 +7357,31 @@
       },
       "completeSnapshotAvailable": true,
       "completeSnapshotRows": 7,
+      "periods": [],
+      "matchedTotal": 0
+    },
+    "xiushanosteus": {
+      "entityId": "xiushanosteus",
+      "packageId": "early-fishes",
+      "entityKind": "taxon",
+      "externalTaxonId": "txn:500054",
+      "scientificNameNormalized": "xiushanosteus",
+      "externalResolutionStatus": "resolved-exact",
+      "queryStatus": "resolved-zero-in-bounded-sample",
+      "descendantEntityIds": [],
+      "descendantTaxonIds": [
+        "txn:500054"
+      ],
+      "descendantScientificNames": [
+        "xiushanosteus"
+      ],
+      "matchMethods": {
+        "exactExternalId": 0,
+        "acceptedName": 0,
+        "higherClassification": 0
+      },
+      "completeSnapshotAvailable": false,
+      "completeSnapshotRows": null,
       "periods": [],
       "matchedTotal": 0
     },

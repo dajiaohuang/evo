@@ -38,6 +38,23 @@ const exactCarnivoraCopy = new Set<string>([
   'μCT reconstructions of fossil and living inner ears test whether semicircular-canal shape predicts hunting style.',
   'A single associated skeleton preserves terrestrial limb proportions alongside traits used to infer freshwater swimming.',
   'Combined fore- and hind-limb propulsion and terrestrial competence are functional inferences from osteology; the specimen is not footage of locomotion, a direct ancestor or a global pinniped first appearance.',
+  'North American Hesperocyoninae localities sampled by Wang',
+  'Not resolved by the monograph as a directly observed diet',
+  'Not resolved as a genus-wide habitat by the sampled systematics',
+  'Postcranial locomotor performance is not established by the cited monograph',
+  'No genus-wide body-size estimate is projected from the sampled material',
+  'No single ecological guild is assigned from the cited systematic evidence',
+  'Dental and cranial characters scored in a morphology matrix',
+  'The primary monograph directly supports the named fossil and matrix sample. Its 40–29 Ma display is only a source-bounded sampled-genus window, while placement, ecology and ancestry remain qualified.',
+  'Pyramid Hill Sandstone Member, Jewett Sand', 'Central California, United States',
+  'Not resolved by the cited skeletal locomotor study',
+  'Jewett Sand depositional setting; habitual ecology is not directly observed',
+  'Aquatic and terrestrial locomotor capacities inferred comparatively from axial and limb anatomy',
+  'Not projected as a genus-wide body-size estimate from one skeleton',
+  'No feeding guild is assigned from the cited skeletal evidence',
+  'Flexible lumbar vertebral morphology in the comparative interpretation',
+  'Flipper-like limbs with developed bony processes and muscle-attachment areas',
+  'The skeleton, member and central-California occurrence are direct records. Monophyly, ursid relationship, swimming strokes and terrestrial performance remain the primary study\'s comparative inferences, not a universal pinniped history.',
 ])
 
 const dossierMarkers = [

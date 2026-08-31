@@ -8115,24 +8115,28 @@
     "rangeKind": "global-composite",
     "taxonomicConcept": "Enaliarctos mealsi skeleton occurrence",
     "geographicScope": "Jewett Sand, California, USA",
-    "olderMa": 24,
-    "youngerMa": 22,
+    "olderMa": 23,
+    "youngerMa": 23,
     "status": "available",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
-      "note": "This is a study-level sampled occurrence envelope, not a direct date on ancestry or a guaranteed global first or last appearance."
+      "note": "The source reports approximately 23 Ma; this rounded specimen age is not a precise radiometric date, direct ancestry date, or guaranteed global first or last appearance."
     },
-    "evidenceBasis": "LACM 4321 preserves a skull and much of the postcranial skeleton, allowing measured limb proportions and joint morphology to be compared with living pinnipeds and terrestrial carnivorans.",
+    "evidenceBasis": "The primary report places the nearly complete LACM 4321 skeleton at approximately 23 Ma; the detailed study describes its virtually complete anatomy and bounded locomotor comparisons.",
     "evidenceLevel": "literature-synthesized",
     "confidence": "medium",
     "claimIds": [
-      "claim:event:enaliarctos-skeleton-swimming-model"
+      "claim:taxon:enaliarctos:fossil-range"
     ],
     "referenceLocators": [
       {
         "referenceId": "berta-ray-1990-enaliarctos",
         "locator": "141–157; Figures 1–8; Tables 1–6; Skeletal description; Limb proportions; Locomotor interpretation"
+      },
+      {
+        "referenceId": "berta-ray-wyss-1989-enaliarctos",
+        "locator": "60–62; abstract: nearly complete skeleton from California rocks, approximately 23 million years old"
       }
     ],
     "reviewStatus": "automated-audit-passed"
@@ -8955,7 +8959,7 @@
     "rangeKind": "global-composite",
     "taxonomicConcept": "Haootia muscle and staurozoan interpretation evidence boundary",
     "geographicScope": "Fermeuse Formation, Bonavista Peninsula, Newfoundland, Canada",
-    "olderMa": 565,
+    "olderMa": 560,
     "youngerMa": 560,
     "status": "available",
     "uncertainty": {
@@ -8973,7 +8977,7 @@
     "referenceLocators": [
       {
         "referenceId": "liu-2014-haootia",
-        "locator": "20141202; Figures 1–4; Supplementary Information; Holotype OUM ÁT.424/p and original muscular-cnidarian reconstruction"
+        "locator": "20141202; approximately 560 Ma; Figures 1–4; Supplementary Information; plastotype OUM ÁT.424/p and original muscular-cnidarian reconstruction"
       }
     ],
     "reviewStatus": "automated-audit-passed"
@@ -11946,6 +11950,54 @@
         "locator": "pp. 863–872, especially Abstract and Results; 411.5 ± 1.3 Ma ID-TIMS U–Pb zircon age"
       }
     ],
+    "reviewStatus": "automated-audit-passed"
+  },
+  {
+    "id": "range:tujiaaspis:global",
+    "entityId": "tujiaaspis",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Tujiaaspis vividus represented Huixingshao Formation sample",
+    "geographicScope": "Huixingshao Formation, Lianghe village, Yongdong town, Xiushan County, Chongqing Municipality, and Kapeng Reservoir, Baojing County, Xiangxi, Hunan, South China",
+    "olderMa": 438.6,
+    "youngerMa": 432.9,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Telychian stage envelope for the source horizon, not a global Tujiaaspis range, fossil FAD, LAD or divergence date."
+    },
+    "evidenceBasis": "Holotype IVPP V26668 and figured paratypes IVPP V27410–V27411 are articulated Huixingshao Formation specimens. The numeric window only converts the published Telychian horizon to the atlas time scale.",
+    "evidenceLevel": "literature-synthesized",
+    "confidence": "medium",
+    "claimIds": ["claim:taxon:tujiaaspis:fossil-range"],
+    "referenceLocators": [{
+      "referenceId": "gai-2022-tujiaaspis",
+      "locator": "pp. 959–963, especially Extended Data Fig. 1 and Extended Data Fig. 2; holotype IVPP V26668 and paratypes IVPP V27410–V27411; geological setting and postcranial anatomy"
+    }],
+    "reviewStatus": "automated-audit-passed"
+  },
+  {
+    "id": "range:xiushanosteus:global",
+    "entityId": "xiushanosteus",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Xiushanosteus mirabilis represented Huixingshao Formation sample",
+    "geographicScope": "Huixingshao Formation, Xiushan County, Chongqing, South China",
+    "olderMa": 438.6,
+    "youngerMa": 432.9,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Telychian stage envelope for the source horizon, not a global Xiushanosteus range, fossil FAD, LAD or gnathostome origin."
+    },
+    "evidenceBasis": "Holotype IVPP V300001 and referred IVPP V300002–V300021 are articulated Huixingshao Formation specimens. The numeric window only converts the published Telychian horizon to the atlas time scale.",
+    "evidenceLevel": "literature-synthesized",
+    "confidence": "high",
+    "claimIds": ["claim:taxon:xiushanosteus:fossil-range"],
+    "referenceLocators": [{
+      "referenceId": "zhu-2022-chongqing-gnathostomes",
+      "locator": "pp. 954–958, especially pp. 955–957; Figures 1a, 2 and 4; Extended Data Figures 3a–e and 4–6; systematic palaeontology, horizon and anatomical description"
+    }],
     "reviewStatus": "automated-audit-passed"
   }
 ]
