@@ -10,6 +10,7 @@ import { getSpatialPosition, hasSpatialPosition, type CoordinateMode } from '../
 import { observationsToGeoJson, visibleCaoObservations } from '../../utils/caoObservations'
 import { resolvePaleotopographyFrame, runtimeDataUrl } from '../../data-client/staticDataClient'
 import { PaleotopographyLayer } from './PaleotopographyLayer'
+import { TemporalPackageCards } from './TemporalPackageCards'
 import { MIN_MAP_ZOOM, MAX_MAP_ZOOM, DEFAULT_MAP_CENTER, DEFAULT_MAP_ZOOM } from '../../constants'
 import { useI18n } from '../../i18n'
 import { CAO_OBSERVATION_DATASET_IDS, type CaoObservationDatasetId, type CaoObservationRecord, type FossilOccurrence, type PaleogeographyLayerId } from '../../types'
@@ -375,6 +376,8 @@ export function PaleoMap() {
         {primaryMapSelection && <div style={{ marginTop: 2, color: '#9eb8aa', fontSize: 9 }}>{t('CAO2024 nearest frame {selected} Ma · requested {requested} Ma · Δ {delta} Myr', { selected: number(primaryMapSelection.selectedAgeMa), requested: number(currentAge), delta: number(primaryMapSelection.deltaMa) })}</div>}
         {showPaleotopography && paleotopographyAvailable && paleotopographyFrame && <div style={{ marginTop: 2, color: '#d7c88b', fontSize: 9 }}>{t('PALEOMAP nearest archive frame {archive} Ma · internal description age {internal}', { archive: paleotopographyFrame.archiveNominalAgeMa, internal: paleotopographyFrame.internalDescriptionAgeMa === null ? t('not stated') : `${paleotopographyFrame.internalDescriptionAgeMa} Ma` })}</div>}
       </div>
+
+      <TemporalPackageCards ageMa={currentAge} />
 
       <div className="map-layer-control" aria-label={t('Map layer controls')}>
         <span>{t('Evidence layer')}</span>

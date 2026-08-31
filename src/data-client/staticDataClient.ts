@@ -24,6 +24,7 @@ import type {
   RuntimeMediaAsset,
   RuntimePackageManifest,
   RuntimePackageRegistry,
+  RuntimeRangeEvidence,
   RuntimeResearchExamples,
   RuntimeReleaseFilesIndex,
   RuntimeReleasesIndex,
@@ -271,6 +272,19 @@ export async function loadPackageResearchExamples(packageId: string): Promise<Ru
     throw new Error(`Runtime research examples for ${packageId} do not match the package manifest`)
   }
   return payload
+}
+
+export async function loadPackageRanges(packageId: string): Promise<RuntimeRangeEvidence[]> {
+  const manifest = await loadPackageManifest(packageId)
+  const ranges = await loadRuntimeFile<RuntimeRangeEvidence[]>(manifest.files.ranges)
+  if (ranges.some((range) => !Number.isFinite(range.olderMa)
+    || !Number.isFinite(range.youngerMa)
+    || range.olderMa < range.youngerMa
+    || !range.entityId
+    || (range.status === 'available' && !range.claimIds.length))) {
+    throw new Error(`Runtime range evidence for ${packageId} is invalid`)
+  }
+  return ranges
 }
 
 export async function loadPackageNomenclatureCollection(

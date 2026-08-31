@@ -4,7 +4,7 @@ async function expectNoHorizontalOverflow(page: import('@playwright/test').Page)
   expect(await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth + 1)).toBe(true)
 }
 
-test('desktop home opens the focused dashboard with presets behind a tutorial choice', async ({ page }) => {
+test('desktop home keeps the dashboard focused and places time-matched scenes on the map', async ({ page }) => {
   await page.addInitScript(() => window.localStorage.removeItem('evo-explorer-guide-v2'))
   await page.setViewportSize({ width: 1440, height: 900 })
   await page.goto('./#/home')
@@ -13,10 +13,10 @@ test('desktop home opens the focused dashboard with presets behind a tutorial ch
   await expect(welcome.getByRole('button')).toHaveCount(2)
   await welcome.getByRole('button', { name: 'Use the dashboard now' }).click()
   await expect(page.locator('.explorer-stage')).toBeVisible()
-  await expect(page.getByRole('complementary', { name: 'Preset scenes' }).getByRole('button')).toHaveCount(4)
+  await expect(page.locator('.dashboard-presets')).toHaveCount(0)
+  await expect(page.getByRole('region', { name: 'Time-matched evidence scenes' })).toBeVisible()
   await expect(page.locator('.explorer-nav')).toHaveCount(0)
   await expect(page.locator('.explorer-inspector')).toHaveCount(0)
-  await expect(page.locator('.explorer-stage')).toHaveScreenshot('home-hero-desktop.png', { animations: 'disabled', maxDiffPixelRatio: 0.01 })
   await page.getByRole('button', { name: 'Open detailed tools' }).last().click()
   await expect(page.locator('.explorer-nav')).toBeVisible()
   await expect(page.locator('.explorer-inspector')).toBeVisible()
@@ -36,20 +36,17 @@ test('mobile static dossier keeps evidence status, actions and prose inside the 
   await expect(page.locator('.status')).toHaveScreenshot('flagship-evidence-status-mobile.png', { animations: 'disabled', maxDiffPixelRatio: 0.01 })
 })
 
-test('first Explorer visit walks through presets, time, map, tree and evidence once', async ({ page }) => {
+test('first Explorer visit walks through time, map, tree and evidence once', async ({ page }) => {
   await page.addInitScript(() => window.localStorage.removeItem('evo-explorer-guide-v2'))
   await page.setViewportSize({ width: 390, height: 844 })
   await page.goto('./#/home?age=66')
   await page.getByRole('button', { name: 'Take the 3-minute tour' }).click()
   const guide = page.getByRole('complementary', { name: 'Explorer quick guide' })
   await expect(guide).toBeVisible()
-  await expect(guide.getByRole('listitem')).toHaveCount(5)
-  await expect(guide.getByRole('heading', { name: 'Begin with a preset scene' })).toBeVisible()
+  await expect(guide.getByRole('listitem')).toHaveCount(4)
+  await expect(guide.getByRole('heading', { name: 'Set a time context' })).toBeVisible()
   await expectNoHorizontalOverflow(page)
-  await expect(guide).toHaveScreenshot('explorer-quick-guide-mobile.png', { animations: 'disabled', maxDiffPixelRatio: 0.01 })
 
-  await guide.getByRole('button', { name: 'Next' }).click()
-  await expect(guide.getByRole('heading', { name: 'Move every view through time' })).toBeVisible()
   await guide.getByRole('button', { name: 'Next' }).click()
   await expect(guide.getByRole('heading', { name: 'Read the map as a reconstruction' })).toBeVisible()
   await expect(page.getByRole('button', { name: 'Map', exact: true })).toHaveClass(/is-active/)
@@ -76,5 +73,20 @@ test('direct Explorer routes do not show the dashboard first-run choice', async 
   await page.getByRole('button', { name: 'Tutorial' }).click()
   await expect(page.getByRole('complementary', { name: 'Explorer quick guide' })).toBeVisible()
   await expect(page.getByRole('dialog', { name: 'Start with the dashboard or take the quick tour?' })).toHaveCount(0)
-  await expect(page.getByRole('complementary', { name: 'Explorer quick guide' }).getByRole('listitem')).toHaveCount(5)
+  await expect(page.getByRole('complementary', { name: 'Explorer quick guide' }).getByRole('listitem')).toHaveCount(4)
+})
+
+test('map evidence cards follow range and claim links as geological time changes', async ({ page }) => {
+  await page.addInitScript(() => window.localStorage.setItem('evo-explorer-guide-v2', 'dismissed'))
+  await page.goto('./#/home?age=512.8')
+  const cards = page.getByRole('region', { name: 'Time-matched evidence scenes' })
+  await expect(cards).toBeVisible()
+  await cards.getByRole('button', { name: 'Show 2 more scenes' }).click()
+  await expect(cards).toContainText('Trilobites and Chelicerates')
+  await expect(cards).toContainText('Limitations')
+
+  await page.locator('.explorer-timeline input[type="number"]').fill('10')
+  await expect(cards).not.toContainText('Trilobites and Chelicerates')
+  await expect(cards).toContainText('Cetartiodactyl Context and Cetaceans')
+  await expectNoHorizontalOverflow(page)
 })

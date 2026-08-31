@@ -91,6 +91,19 @@ export interface RuntimeResearchExamples {
   examples: RuntimeResearchExample[]
 }
 
+/** A published, source-bounded interval used to place an existing research scene in time. */
+export interface RuntimeRangeEvidence {
+  id: string
+  entityId: string
+  taxonomicConcept: string
+  geographicScope: string
+  olderMa: number
+  youngerMa: number
+  status: 'available' | 'withheld-pending-provenance'
+  confidence: 'low' | 'medium' | 'high' | 'contested'
+  claimIds: string[]
+}
+
 export interface RuntimeWormsNomenclatureCollection {
   id: 'worms-aphiaid-crosswalk'
   recordType: 'external-name-identifier-crosswalk'
