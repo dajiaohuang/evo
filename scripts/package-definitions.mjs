@@ -23,7 +23,7 @@ export const researchPresetDefinitions = {
   'mammal-origins': { entityId: 'synapsida', claimIds: ['claim:taxon:synapsida:root-range'] },
   cetartiodactyla: { entityId: 'whippomorpha', claimIds: ['claim:taxon:whippomorpha:root-range'] },
   primates: { entityId: 'primatomorpha', claimIds: ['claim:taxon:primatomorpha:root-range'] },
-  carnivora: { entityId: 'carnivora', claimIds: ['claim:taxon:carnivora:root-range'] },
+  carnivora: { entityId: 'hesperocyon', claimIds: ['claim:taxon:hesperocyon:taxonomy'] },
   'other-mammals': { entityId: 'monotremata', claimIds: ['claim:taxon:monotremata:root-range'] },
   'turtles-lepidosaurs': { entityId: 'testudines', claimIds: ['claim:taxon:testudines:fossil-range'] },
   'marine-reptiles-pterosaurs': { entityId: 'ichthyosauria', claimIds: ['claim:taxon:ichthyosauria:fossil-range'] },
@@ -108,8 +108,8 @@ export const researchSceneDefinitions = {
     { id: 'dinosauria-diversity-window', kind: 'diversity', route: '#/explore?taxon=tyrannosaurus&view=diversity&age=67&older=68&younger=66', entityIds: ['tyrannosaurus'], claimIds: ['claim:taxon:tyrannosaurus:fossil-range'] },
   ] },
   carnivora: { label: { en: 'Carnivora', zh: '食肉类' }, scenes: [
-    { id: 'carnivora-map-window', kind: 'map', route: '#/explore?taxon=carnivora&view=map&age=28&older=56&younger=0', entityIds: ['carnivora'], claimIds: ['claim:taxon:carnivora:root-range'] },
-    { id: 'carnivora-comparison-window', kind: 'comparison', route: '#/compare?left=dormaalocyon&right=panthera-blytheae', entityIds: ['dormaalocyon', 'panthera-blytheae'], claimIds: ['claim:taxon:dormaalocyon:fossil-range', 'claim:taxon:panthera-blytheae:fossil-range'] },
+    { id: 'carnivora-map-window', kind: 'map', route: '#/explore?taxon=hesperocyon&view=map&age=34.5&older=40&younger=29', entityIds: ['hesperocyon'], claimIds: ['claim:taxon:hesperocyon:source-bounded-range-rc49'] },
+    { id: 'carnivora-comparison-window', kind: 'comparison', route: '#/compare?left=hesperocyon&right=enaliarctos', entityIds: ['hesperocyon', 'enaliarctos'], claimIds: ['claim:taxon:hesperocyon:source-bounded-range-rc49', 'claim:taxon:enaliarctos:fossil-range'] },
   ] },
   cetartiodactyla: { label: { en: 'Whippomorpha', zh: '鲸偶蹄类' }, scenes: [
     { id: 'cetartiodactyla-map-window', kind: 'map', route: '#/explore?taxon=whippomorpha&view=map&age=27.5&older=55&younger=0', entityIds: ['whippomorpha'], claimIds: ['claim:taxon:whippomorpha:root-range'] },
