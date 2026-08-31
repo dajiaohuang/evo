@@ -559,6 +559,8 @@ function ownerForClaim(claim) {
     'parhyale-wing-homology-knockout': 'crustaceans-insects',
     'insect-1kite-topology-clock': 'crustaceans-insects',
     'pennsylvanian-eumetabola-sample': 'crustaceans-insects',
+    'strudiella-reassessment': 'crustaceans-insects',
+    'cretophasmomima-crypsis': 'crustaceans-insects',
     'early-trilobite-phylogenetic-clock': 'trilobites-chelicerates',
     'tatelt-trilobite-3d-anatomy': 'trilobites-chelicerates',
     'trilobite-upper-limb-gill': 'trilobites-chelicerates',

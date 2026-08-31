@@ -64,8 +64,8 @@ export const researchSceneDefinitions = {
     { id: 'trilobites-chelicerates-comparison-window', kind: 'comparison', route: '#/compare?left=bohemolichas&right=urokodia', entityIds: ['bohemolichas', 'urokodia'], claimIds: ['claim:taxon:bohemolichas:fossil-range', 'claim:taxon:urokodia:fossil-range'] },
   ] },
   'crustaceans-insects': { label: { en: 'Crustaceans and insects', zh: '甲壳类与昆虫' }, scenes: [
-    { id: 'crustaceans-insects-map-window', kind: 'map', route: '#/explore?taxon=arthropoda&view=map&age=260.5&older=521&younger=0', entityIds: ['arthropoda'], claimIds: ['claim:taxon:arthropoda:root-range-rc39'] },
-    { id: 'crustaceans-insects-comparison-window', kind: 'comparison', route: '#/compare?left=tokummia&right=waptia', entityIds: ['tokummia', 'waptia'], claimIds: ['claim:taxon:tokummia:fossil-range', 'claim:taxon:waptia:fossil-range'] },
+    { id: 'crustaceans-insects-strudiella-map-window', kind: 'map', route: '#/explore?taxon=strudiella&view=map&age=365&older=365&younger=365', entityIds: ['strudiella'], claimIds: ['claim:taxon:strudiella:fossil-range', 'claim:event:strudiella-reassessment'] },
+    { id: 'crustaceans-insects-contested-comparison-window', kind: 'comparison', route: '#/compare?left=strudiella&right=cretophasmomima', entityIds: ['strudiella', 'cretophasmomima'], claimIds: ['claim:taxon:strudiella:fossil-range', 'claim:taxon:cretophasmomima:fossil-range'] },
   ] },
   echinoderms: { label: { en: 'Echinoderms', zh: '棘皮动物' }, scenes: [
     { id: 'echinoderms-map-window', kind: 'map', route: '#/explore?taxon=echinodermata&view=map&age=255&older=510&younger=0', entityIds: ['echinodermata'], claimIds: ['claim:taxon:echinodermata:fossil-range'] },

@@ -143,11 +143,13 @@
         "early-hexapod-evidence-route",
         "rhyniella",
         "rhyniognatha",
+        "strudiella",
         "insect-flight-evidence-route",
         "paskov-wing",
         "parhyale-wing-experiment",
         "insect-radiation-evidence-route",
         "pennsylvanian-eumetabola",
+        "cretophasmomima",
         "insect-1kite-dataset",
         "echinodermata",
         "crinoidea",
@@ -499,6 +501,8 @@
         "txn:121037",
         "txn:473019",
         "txn:310815",
+        "txn:243457",
+        "txn:290093",
         "txn:30739",
         "txn:31590",
         "txn:30820",
@@ -771,6 +775,8 @@
         "waptia fieldensis",
         "yicaris dianensis",
         "rhyniella praecursor",
+        "strudiella",
+        "cretophasmomima melanogramma",
         "echinodermata",
         "crinoidea",
         "blastoidea",
@@ -1653,11 +1659,13 @@
         "early-hexapod-evidence-route",
         "rhyniella",
         "rhyniognatha",
+        "strudiella",
         "insect-flight-evidence-route",
         "paskov-wing",
         "parhyale-wing-experiment",
         "insect-radiation-evidence-route",
         "pennsylvanian-eumetabola",
+        "cretophasmomima",
         "insect-1kite-dataset",
         "echinodermata",
         "crinoidea",
@@ -1748,6 +1756,8 @@
         "txn:121037",
         "txn:473019",
         "txn:310815",
+        "txn:243457",
+        "txn:290093",
         "txn:30739",
         "txn:31590",
         "txn:30820",
@@ -1836,6 +1846,8 @@
         "waptia fieldensis",
         "yicaris dianensis",
         "rhyniella praecursor",
+        "strudiella",
+        "cretophasmomima melanogramma",
         "echinodermata",
         "crinoidea",
         "blastoidea",
@@ -3777,11 +3789,13 @@
         "early-hexapod-evidence-route",
         "rhyniella",
         "rhyniognatha",
+        "strudiella",
         "insect-flight-evidence-route",
         "paskov-wing",
         "parhyale-wing-experiment",
         "insect-radiation-evidence-route",
         "pennsylvanian-eumetabola",
+        "cretophasmomima",
         "insect-1kite-dataset"
       ],
       "descendantTaxonIds": [
@@ -3818,7 +3832,9 @@
         "txn:473103",
         "txn:121037",
         "txn:473019",
-        "txn:310815"
+        "txn:310815",
+        "txn:243457",
+        "txn:290093"
       ],
       "descendantScientificNames": [
         "arthropoda",
@@ -3854,7 +3870,9 @@
         "tokummia katalepsis",
         "waptia fieldensis",
         "yicaris dianensis",
-        "rhyniella praecursor"
+        "rhyniella praecursor",
+        "strudiella",
+        "cretophasmomima melanogramma"
       ],
       "matchMethods": {
         "exactExternalId": 53,
@@ -5158,13 +5176,16 @@
       "queryStatus": "navigation-only",
       "descendantEntityIds": [
         "rhyniella",
-        "rhyniognatha"
+        "rhyniognatha",
+        "strudiella"
       ],
       "descendantTaxonIds": [
-        "txn:310815"
+        "txn:310815",
+        "txn:243457"
       ],
       "descendantScientificNames": [
-        "rhyniella praecursor"
+        "rhyniella praecursor",
+        "strudiella"
       ],
       "matchMethods": {
         "exactExternalId": 0,
@@ -5212,6 +5233,31 @@
       "descendantEntityIds": [],
       "descendantTaxonIds": [],
       "descendantScientificNames": [],
+      "matchMethods": {
+        "exactExternalId": 0,
+        "acceptedName": 0,
+        "higherClassification": 0
+      },
+      "completeSnapshotAvailable": false,
+      "completeSnapshotRows": null,
+      "periods": [],
+      "matchedTotal": 0
+    },
+    "strudiella": {
+      "entityId": "strudiella",
+      "packageId": "crustaceans-insects",
+      "entityKind": "taxon",
+      "externalTaxonId": "txn:243457",
+      "scientificNameNormalized": "strudiella",
+      "externalResolutionStatus": "resolved-exact",
+      "queryStatus": "resolved-zero-in-bounded-sample",
+      "descendantEntityIds": [],
+      "descendantTaxonIds": [
+        "txn:243457"
+      ],
+      "descendantScientificNames": [
+        "strudiella"
+      ],
       "matchMethods": {
         "exactExternalId": 0,
         "acceptedName": 0,
@@ -5298,10 +5344,15 @@
       "queryStatus": "navigation-only",
       "descendantEntityIds": [
         "pennsylvanian-eumetabola",
+        "cretophasmomima",
         "insect-1kite-dataset"
       ],
-      "descendantTaxonIds": [],
-      "descendantScientificNames": [],
+      "descendantTaxonIds": [
+        "txn:290093"
+      ],
+      "descendantScientificNames": [
+        "cretophasmomima melanogramma"
+      ],
       "matchMethods": {
         "exactExternalId": 0,
         "acceptedName": 0,
@@ -5323,6 +5374,31 @@
       "descendantEntityIds": [],
       "descendantTaxonIds": [],
       "descendantScientificNames": [],
+      "matchMethods": {
+        "exactExternalId": 0,
+        "acceptedName": 0,
+        "higherClassification": 0
+      },
+      "completeSnapshotAvailable": false,
+      "completeSnapshotRows": null,
+      "periods": [],
+      "matchedTotal": 0
+    },
+    "cretophasmomima": {
+      "entityId": "cretophasmomima",
+      "packageId": "crustaceans-insects",
+      "entityKind": "taxon",
+      "externalTaxonId": "txn:290093",
+      "scientificNameNormalized": "cretophasmomima melanogramma",
+      "externalResolutionStatus": "resolved-exact",
+      "queryStatus": "resolved-zero-in-bounded-sample",
+      "descendantEntityIds": [],
+      "descendantTaxonIds": [
+        "txn:290093"
+      ],
+      "descendantScientificNames": [
+        "cretophasmomima melanogramma"
+      ],
       "matchMethods": {
         "exactExternalId": 0,
         "acceptedName": 0,
