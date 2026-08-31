@@ -51,7 +51,7 @@ rc65 将 Android 与 iOS 同步到 build `19`，并把两栖类完整 ITIS 权�
 
 rc64 在保留 rc63 全部古地形的同时，将两端同步到 build `18`，并加入 AviList `v2025b` 的完整鸟类权威命名数据。Android 与 iOS 都包含相同的 3 个 COL-ID 范围分片和 1 个 609 条记录的 upstream-only 分片；11,044 个 COL 鸟类结果与包内 27 个明确不适用的鳄目结果不会因 Pages 轻量化而从原生应用中缺失。`finalize-mobile-build.mjs` 会检查 `native-full` 标记、分片数和记录总数，然后按 release inventory 逐文件复制并复核哈希。
 
-rc63 把 Scotese–Wright 2018 PaleoDEM v2 的 109 个 0–540 Ma、5 Ma 名义年龄帧完整纳入 Android 与 iOS build `17`。两个原生包都含全部 3601×1801、0.1°、独立无损 i16 gzip 栅格，总压缩字节为 168,418,483；同一 inventory 逐帧保留源归档 member 哈希、文件名年龄、NetCDF 内部描述/年龄、压缩及解码 SHA-256。一次地图选择只读取一个年龄帧，worker 动态着色 Canvas，不预生成瓦片金字塔，也不做时间插值。Web/Pages 与浏览器离线为了保持 650 MiB 部署门槛，仍覆盖全部 109 个年龄，但使用 721×361、0.5° 的每第五格精确抽样预览，并省略只用于下载的重复包 ZIP；它不是原生端 0.1° 数据。本地 native-full 构建仍可生成 ZIP。界面和 manifest 均显示当前 profile、分辨率、Mercator ±85.051° 显示边界及非共注册限制。
+Android 与 iOS 的 `native-full` 仍完整保留 Scotese–Wright 2018 PaleoDEM v2 的 109 个 0–540 Ma、5 Ma 名义年龄帧：两个原生包都含全部 3601×1801、0.1°、独立无损 i16 gzip 栅格，总压缩字节为 168,418,483；同一 inventory 逐帧保留源归档 member 哈希、文件名年龄、NetCDF 内部描述/年龄、压缩及解码 SHA-256。一次地图选择只读取一个年龄帧，worker 动态着色 Canvas，不预生成瓦片金字塔，也不做时间插值。Web/Pages 与浏览器离线为了保持 650 MiB 部署门槛，仍覆盖全部 109 个年龄，但使用 1201×601、0.3° 的每第三格精确抽样预览，并省略只用于下载的重复包 ZIP；它不是原生端 0.1° 数据。本地 native-full 构建仍可生成 ZIP。界面和 manifest 均显示当前 profile、分辨率、Mercator ±85.051° 显示边界及非共注册限制。
 
 rc62 把全部 157,044 个 COL26.8 真菌接受种的固定 Species Fungorum / Index Fungorum 标识纳入原生全量数据契约。六个按 COL ID 排序且互不重叠的分片通过 Fungi manifest 与 `release-files.json` 进入 Web、离线存储、Fungi ZIP、Android 和 iOS；原生测试逐片核对字节数与 SHA-256。详情页按 `minColId` / `maxColId` 只加载一个命中分片，不解析完整 157,044 条侧车。源快照额外 201 个接受种仅存在于 canonical 审计，不写入 COL 包。Android `versionCode` 与 iOS build number 为 `16`。
 

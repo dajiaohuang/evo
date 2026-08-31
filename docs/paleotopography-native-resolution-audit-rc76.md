@@ -24,7 +24,7 @@ The current delivery split is therefore the strongest truthful option:
 
 | Profile | Frames | Grid | Compressed grids | Purpose |
 | --- | ---: | --- | ---: | --- |
-| `web-preview` | 109 | 721 × 361, exact 0.5° every-fifth-cell decimation | 10,147,417 bytes | GitHub Pages / browser preview |
+| `web-preview` | 109 | 1201 × 601, exact 0.3° every-third-cell decimation | 24,847,071 bytes | GitHub Pages / browser preview |
 | `native-full` | 109 | 3601 × 1801, exact 0.1° source grid | 168,418,483 bytes | Android and iOS offline data |
 
 The Pages profile remains below its paleogeography budget because it does not

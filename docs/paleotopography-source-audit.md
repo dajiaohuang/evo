@@ -33,7 +33,7 @@ Each original grid is projected without numeric loss into deterministic gzip-com
 
 ## Dual delivery profile
 
-GitHub Pages has a 650 MiB deployment gate and does not publish the 109 full grids. Its `web-preview` release still covers every one of the 109 ages with a 721×361, 0.5° grid made by selecting every fifth source row and column. This is exact decimation: there is no averaging, spatial interpolation or temporal interpolation. Every preview records its compressed/decoded byte count and SHA-256 plus the full source grid's decoded SHA-256. The complete preview set totals `10,147,417` compressed bytes and `56,741,258` decoded bytes.
+GitHub Pages has a 650 MiB deployment gate and does not publish the 109 full grids. Its `web-preview` release still covers every one of the 109 ages with a 1201×601, 0.3° grid made by selecting every third source row and column. This is exact decimation: there is no averaging, spatial interpolation or temporal interpolation. Every preview records its compressed/decoded byte count and SHA-256 plus the full source grid's decoded SHA-256. The complete preview set totals `24,847,071` compressed bytes and `157,352,618` decoded bytes.
 
 Android and iOS use the `native-full` profile. Both bundles include all 109 original-resolution 3601×1801 0.1° lossless grids and the same complete metadata/hash inventory. Pages-light and browser-offline contain the lightweight previews and omit duplicate downloadable package ZIPs; local native-full builds can still generate those exports. The canonical repository retains both grid profiles. A profile label, resolution and total bytes are visible in the runtime manifest and UI, so the Web preview is not presented as native resolution.
 
@@ -41,7 +41,7 @@ The map chooses the nearest nominal 5 Ma frame, with ties resolved to the younge
 
 ## Reproducibility
 
-`scripts/import-scotese-paleodem.py` validates the official archive and regenerates the canonical full and preview grids plus the manifest. `scripts/paleotopography-series.test.mjs` decompresses all 218 payloads, verifies compressed and decoded hashes, and proves that every preview cell is the corresponding every-fifth full-grid cell. Runtime builders independently verify the chosen profile against the canonical manifest. Native tests verify that Android and iOS inventories point to the complete full-resolution series.
+`scripts/import-scotese-paleodem.py` validates the official archive and regenerates the canonical full and preview grids plus the manifest. `scripts/paleotopography-series.test.mjs` decompresses all 218 payloads, verifies compressed and decoded hashes, and proves that every preview cell is the corresponding every-third full-grid cell. Runtime builders independently verify the chosen profile against the canonical manifest. Native tests verify that Android and iOS inventories point to the complete full-resolution series.
 
 ## Prohibited claims
 
@@ -50,4 +50,4 @@ The map chooses the nearest nominal 5 Ma frame, with ties resolved to the younge
 - Do not silently choose the filename age over the internal description, or vice versa.
 - Do not claim PALEOMAP, CAO2024 and PBDB reconstructions are co-registered.
 - Do not infer missing ages, interpolate through time or present nearest-frame selection as a continuous terrain history.
-- Do not call the 0.5° exact-decimation Web grids 0.1° full-resolution data.
+- Do not call the 0.3° exact-decimation Web grids 0.1° full-resolution data.
