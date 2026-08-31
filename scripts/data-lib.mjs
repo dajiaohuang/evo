@@ -11,7 +11,7 @@ export function readJson(path) {
   return JSON.parse(source.toString('utf8'))
 }
 
-function jsonFilesBelow(directory) {
+function manifestFilesBelow(directory) {
   const absoluteDirectory = join(rootDir, directory)
   return readdirSync(absoluteDirectory)
     .sort()
@@ -19,13 +19,17 @@ function jsonFilesBelow(directory) {
       const absolutePath = join(absoluteDirectory, name)
       const relativePath = `${directory}/${name}`.replaceAll('\\', '/')
       return statSync(absolutePath).isDirectory()
-        ? jsonFilesBelow(relativePath)
-        : (name.endsWith('.json') || (directory === 'data/sources' && name.endsWith('.json.gz'))) ? [relativePath] : []
+        ? manifestFilesBelow(relativePath)
+        : (name.endsWith('.json')
+          || (directory === 'data/sources' && name.endsWith('.json.gz'))
+          || (relativePath.includes('/nomenclature/') && name.endsWith('.json.gz')))
+            ? [relativePath]
+            : []
     })
 }
 
 export function dataFiles() {
-  return jsonFilesBelow('data').filter((path) => path !== 'data/manifest.json')
+  return manifestFilesBelow('data').filter((path) => path !== 'data/manifest.json')
 }
 
 export function sha256(path) {

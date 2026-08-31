@@ -1,5 +1,11 @@
 # Dataset changelog
 
+## App 0.20.10 / 2026.08-static-v5-rc59 — 2026-08-31
+
+- Added a date-pinned WoRMS AphiaID nomenclatural sidecar for all 11,891 COL26.8 species owned by the Echinoderms rich package. Strict exact-name results are separated into 11,843 accepted mappings, two explicit accepted-name redirects, 37 ambiguous names, zero unmatched names and nine withheld records; no fuzzy, case-folded, authority-only or higher-rank inference is used.
+- Published the unchanged deterministic gzip through a rich-package collection descriptor, the Echinoderms ZIP, Web single/all-package offline storage and the complete Android/iOS release inventory. The sidecar is a minimal CC BY 4.0 identifier/status crosswalk, not a frozen WoRMS release, complete database redistribution, phylogeny, biological dossier or assertion that COL and WoRMS species concepts are equivalent.
+- Preserved the mainline Bacteria LPSN extension alongside Archaea: 21,570 eligible LPSN-sourced Bacteria records resolve and 4,827 ITIS-sourced records remain explicitly withheld. Android `versionCode` and iOS build number advance to `13`.
+
 ## App 0.20.9 / 2026.08-static-v5-rc58 — 2026-08-31
 
 - Added eight locally generated, evidence-anchored 1280×800 WebP interpretive reconstructions for Asteroxylon, Eocyathispongia, Kimberella, Waptia, Shenacanthus, Tiktaalik, Ambulocetus and Archaeopteryx. The image bytes contain no embedded text or watermark; every application and static-page presentation pairs the image with bilingual AI-assistance and uncertainty notices and keeps it distinct from a specimen photograph, scale drawing or direct observation.

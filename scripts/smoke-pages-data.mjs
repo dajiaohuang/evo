@@ -65,6 +65,7 @@ let researchExampleCount = 0
 let researchClaimLinkCount = 0
 let researchExampleAvailableCount = 0
 let packagePhylogenyCount = 0
+let wormsNomenclatureRecords = 0
 for (const packageEntry of packageRegistry.packages) {
   const manifestFile = current.packages.manifests[packageEntry.id]
   releaseUrl(manifestFile, `package ${packageEntry.id} manifest`)
@@ -105,15 +106,47 @@ for (const packageEntry of packageRegistry.packages) {
     releaseUrl(shard, `package ${packageEntry.id} occurrence`)
     checkFile(shard, `package ${packageEntry.id} occurrence`)
   }
+  const nomenclatureCollections = manifest.nomenclatureCollections ?? []
+  let wormsCollection = null
+  if (packageEntry.id === 'echinoderms') {
+    wormsCollection = nomenclatureCollections.find((collection) => collection.id === 'worms-aphiaid-crosswalk')
+    if (nomenclatureCollections.length !== 1 || !wormsCollection || wormsCollection.provider !== 'WoRMS'
+      || wormsCollection.recordType !== 'external-name-identifier-crosswalk'
+      || wormsCollection.snapshotBoundary !== 'date-pinned-continuously-updated-service'
+      || wormsCollection.source?.license !== 'CC-BY-4.0') {
+      failures.push('echinoderms: WoRMS nomenclature collection descriptor is incomplete')
+    } else {
+      const file = wormsCollection.file
+      releaseUrl(file, 'echinoderms WoRMS nomenclature collection')
+      checkFile(file, 'echinoderms WoRMS nomenclature collection')
+      if (!currentReleaseUrls.has(file.url)) failures.push('echinoderms: WoRMS collection is absent from the current release inventory')
+      const compressed = readFileSync(join(dataRoot, file.url))
+      const source = gunzipSync(compressed)
+      const sidecar = JSON.parse(source.toString('utf8'))
+      const categories = ['accepted', 'acceptedNameRedirect', 'ambiguous', 'unmatched', 'withheld']
+      if (file.bytes !== compressed.byteLength || file.sourceBytes !== source.byteLength
+        || file.sourceSha256 !== createHash('sha256').update(source).digest('hex')
+        || sidecar.packageId !== 'echinoderms' || sidecar.sidecarType !== 'date-pinned-exact-nomenclatural-crosswalk'
+        || categories.some((key) => sidecar.records?.[key]?.length !== wormsCollection.counts?.[key])
+        || categories.reduce((sum, key) => sum + sidecar.records[key].length, 0) !== wormsCollection.counts.total) {
+        failures.push('echinoderms: WoRMS sidecar bytes, identity or status counts disagree with its descriptor')
+      }
+      wormsNomenclatureRecords += sidecar.counts.total
+    }
+  } else if (nomenclatureCollections.length) {
+    failures.push(`package ${packageEntry.id}: unexpected nomenclature collection`)
+  }
   const download = current.downloads.template.replace('{packageId}', packageEntry.id)
   if (!existsSync(join(dataRoot, download))) failures.push(`package ${packageEntry.id}: download missing`)
-  else if (researchFile) {
+  else if (researchFile || wormsCollection) {
     const entries = unzipSync(new Uint8Array(readFileSync(join(dataRoot, download))))
-    if (!entries[researchFile.url]) failures.push(`package ${packageEntry.id}: ZIP omits research examples`)
+    if (researchFile && !entries[researchFile.url]) failures.push(`package ${packageEntry.id}: ZIP omits research examples`)
+    if (wormsCollection && !entries[wormsCollection.file.url]) failures.push('echinoderms: package ZIP omits the WoRMS nomenclature collection')
   }
 }
 if (researchExampleCount !== 24 || researchExampleAvailableCount !== 24 || researchClaimLinkCount !== 34) failures.push(`research preset totals are ${researchExampleCount} examples, ${researchExampleAvailableCount} available-with-limitations and ${researchClaimLinkCount} claim links; expected 24/24/34`)
 if (packagePhylogenyCount !== 2) failures.push(`package phylogeny runtime count is ${packagePhylogenyCount}; expected 2 available and 22 unmapped`)
+if (wormsNomenclatureRecords !== 11891) failures.push(`WoRMS nomenclature collection contains ${wormsNomenclatureRecords} records; expected 11,891`)
 
 releaseUrl(current.occurrences.manifest, 'occurrence manifest')
 checkFile(current.occurrences.manifest, 'occurrence manifest')

@@ -108,6 +108,7 @@ public class AppInstrumentedTest {
         int researchExamples = 0;
         int researchClaimLinks = 0;
         int phylogenyPackages = 0;
+        int wormsNomenclatureRecords = 0;
         Iterator<String> richPackageIds = richManifests.keys();
         while (richPackageIds.hasNext()) {
             String packageId = richPackageIds.next();
@@ -126,10 +127,29 @@ public class AppInstrumentedTest {
             researchExamples += pack.getInt("researchExampleCount");
             researchClaimLinks += pack.getInt("researchClaimLinkCount");
             if (payloads.has("phylogeny")) phylogenyPackages += 1;
+            if (packageId.equals("echinoderms")) {
+                JSONArray collections = pack.getJSONArray("nomenclatureCollections");
+                assertEquals(1, collections.length());
+                JSONObject collection = collections.getJSONObject(0);
+                assertEquals("worms-aphiaid-crosswalk", collection.getString("id"));
+                assertEquals("WoRMS", collection.getString("provider"));
+                assertEquals("CC-BY-4.0", collection.getJSONObject("source").getString("license"));
+                assertEquals(11891, collection.getJSONObject("counts").getInt("total"));
+                JSONObject collectionFile = collection.getJSONObject("file");
+                JSONObject collectionInventoryRecord = findInventoryRecord(files, collectionFile.getString("url"));
+                assertNotNull("WoRMS collection missing from release inventory", collectionInventoryRecord);
+                assertEquals(collectionFile.getInt("bytes"), collectionInventoryRecord.getInt("bytes"));
+                assertEquals(collectionFile.getString("sha256"), collectionInventoryRecord.getString("sha256"));
+                verifyAssetRecord(context, collectionInventoryRecord);
+                wormsNomenclatureRecords += collection.getJSONObject("counts").getInt("total");
+            } else {
+                assertTrue("only echinoderms may carry the WoRMS collection", !pack.has("nomenclatureCollections"));
+            }
         }
         assertEquals(24, researchExamples);
         assertEquals(34, researchClaimLinks);
         assertEquals(2, phylogenyPackages);
+        assertEquals(11891, wormsNomenclatureRecords);
 
         JSONObject catalogueDescriptor = current.getJSONObject("catalogue").getJSONObject("manifest");
         JSONObject catalogue = readJsonAsset(context, "public/data/" + catalogueDescriptor.getString("url"));
@@ -159,13 +179,14 @@ public class AppInstrumentedTest {
                 packageRecords += shard.getInt("records");
             }
             assertEquals(pack.getInt("acceptedSpeciesCount"), packageRecords);
-            if (packageId.equals("archaea")) {
+            if (packageId.equals("archaea") || packageId.equals("bacteria")) {
                 JSONArray extensions = pack.getJSONArray("extensions");
                 assertEquals(1, extensions.length());
                 JSONObject extension = extensions.getJSONObject(0);
                 assertEquals("lpsn-identifiers", extension.getString("id"));
                 assertEquals("LPSN", extension.getString("provider"));
-                assertEquals(790, extension.getJSONObject("counts").getInt("resolved"));
+                int expectedResolved = packageId.equals("archaea") ? 790 : 21570;
+                assertEquals(expectedResolved, extension.getJSONObject("counts").getInt("resolved"));
                 JSONArray extensionFiles = extension.getJSONArray("files");
                 for (int fileIndex = 0; fileIndex < extensionFiles.length(); fileIndex += 1) {
                     JSONObject extensionFile = extensionFiles.getJSONObject(fileIndex);
@@ -177,12 +198,12 @@ public class AppInstrumentedTest {
                     lpsnIdentifierRecords += extensionFile.getInt("records");
                 }
             } else {
-                assertTrue("only Archaea may carry the LPSN extension", !pack.has("extensions"));
+                assertTrue("only Archaea and Bacteria may carry the LPSN extension", !pack.has("extensions"));
             }
             resourcePackRecords += packageRecords;
         }
         assertEquals(363160, resourcePackRecords);
-        assertEquals(790, lpsnIdentifierRecords);
+        assertEquals(22360, lpsnIdentifierRecords);
     }
 
     private JSONObject findInventoryRecord(JSONArray files, String url) throws Exception {

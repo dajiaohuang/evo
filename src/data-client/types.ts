@@ -90,6 +90,43 @@ export interface RuntimeResearchExamples {
   examples: RuntimeResearchExample[]
 }
 
+export interface RuntimePackageNomenclatureCollection {
+  id: 'worms-aphiaid-crosswalk'
+  recordType: 'external-name-identifier-crosswalk'
+  provider: 'WoRMS'
+  snapshotBoundary: 'date-pinned-continuously-updated-service'
+  source: {
+    catalogueRelease: string
+    catalogueReleaseDate: string
+    wormsDatasetId: string
+    retrievedAt: string
+    license: 'CC-BY-4.0'
+    citationDoi: string
+    sourceLedgerPath: string
+    sourceLedgerSha256: string
+  }
+  matching: string
+  counts: {
+    total: number
+    accepted: number
+    acceptedNameRedirect: number
+    ambiguous: number
+    unmatched: number
+    withheld: number
+  }
+  fields: string[]
+  file: RuntimeFile
+  evidenceBoundary: { en: string; zh: string }
+}
+
+export interface RuntimeNomenclaturalSidecar {
+  schemaVersion: 1
+  sidecarType: 'date-pinned-exact-nomenclatural-crosswalk'
+  packageId: string
+  counts: RuntimePackageNomenclatureCollection['counts']
+  records: Record<'accepted' | 'acceptedNameRedirect' | 'ambiguous' | 'unmatched' | 'withheld', unknown[]>
+}
+
 export interface RuntimePackageManifest {
   schemaVersion: number
   packageId: string
@@ -145,6 +182,7 @@ export interface RuntimePackageManifest {
   }
   files: Record<string, RuntimeFile> & { researchExamples: RuntimeFile }
   assets?: RuntimeFile[]
+  nomenclatureCollections?: RuntimePackageNomenclatureCollection[]
   occurrences: Array<RuntimeFile & { records: number; period: string; packageId: string }>
 }
 

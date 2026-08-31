@@ -480,6 +480,42 @@ describe('static runtime release coherence', () => {
     expect(fetchMock.mock.calls.filter(([input]) => String(input).endsWith(researchFile.url))).toHaveLength(1)
   })
 
+  it('loads a checksummed rich-package nomenclature collection and verifies status counts', async () => {
+    Object.defineProperty(globalThis, 'Worker', { configurable: true, value: undefined })
+    const sidecar = {
+      schemaVersion: 1 as const,
+      sidecarType: 'date-pinned-exact-nomenclatural-crosswalk' as const,
+      packageId: 'echinoderms',
+      counts: { total: 3, accepted: 1, acceptedNameRedirect: 1, ambiguous: 1, unmatched: 0, withheld: 0 },
+      records: { accepted: [{}], acceptedNameRedirect: [{}], ambiguous: [{}], unmatched: [], withheld: [] },
+    }
+    const collectionFile = { url: 'releases/dataset-worms/packages/echinoderms/nomenclature/worms.json', sha256: await sha256(sidecar) }
+    const collection = {
+      id: 'worms-aphiaid-crosswalk', provider: 'WoRMS', recordType: 'external-name-identifier-crosswalk',
+      counts: sidecar.counts, file: collectionFile,
+    }
+    const packageManifest = {
+      packageId: 'echinoderms', version: 'dataset-worms', files: {}, occurrences: [], nomenclatureCollections: [collection],
+    }
+    const manifestFile = { url: 'releases/dataset-worms/packages/echinoderms/manifest.json', sha256: await sha256(packageManifest) }
+    const current = {
+      datasetVersion: 'dataset-worms', releaseBase: 'releases/dataset-worms/', packages: { manifests: { echinoderms: manifestFile } },
+    }
+    const fetchMock = vi.fn(async (input: RequestInfo | URL) => {
+      const url = String(input)
+      if (url.endsWith('/data/current.json')) return responseFor(current)
+      if (url.endsWith(manifestFile.url)) return responseFor(packageManifest)
+      if (url.endsWith(collectionFile.url)) return responseFor(sidecar)
+      return { ok: false, status: 404, arrayBuffer: async () => new ArrayBuffer(0) }
+    })
+    vi.stubGlobal('fetch', fetchMock)
+
+    const { loadPackageNomenclatureCollection } = await import('./staticDataClient')
+    await expect(loadPackageNomenclatureCollection('echinoderms', 'worms-aphiaid-crosswalk'))
+      .resolves.toEqual({ collection, sidecar })
+    expect(fetchMock.mock.calls.filter(([input]) => String(input).endsWith(collectionFile.url))).toHaveLength(1)
+  })
+
   it('loads and caches the pinned source-checklist ledger through the verified runtime file path', async () => {
     const sources: CatalogueSourceChecklist[] = [{
       datasetId: '1005',

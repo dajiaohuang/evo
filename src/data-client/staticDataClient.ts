@@ -271,6 +271,27 @@ export async function loadPackageResearchExamples(packageId: string): Promise<Ru
   return payload
 }
 
+export async function loadPackageNomenclatureCollection(
+  packageId: string,
+  collectionId: import('./types').RuntimePackageNomenclatureCollection['id'],
+): Promise<{
+  collection: import('./types').RuntimePackageNomenclatureCollection
+  sidecar: import('./types').RuntimeNomenclaturalSidecar
+}> {
+  const manifest = await loadPackageManifest(packageId)
+  const collection = manifest.nomenclatureCollections?.find((candidate) => candidate.id === collectionId)
+  if (!collection) throw new Error(`Runtime package ${packageId} does not publish nomenclature collection ${collectionId}`)
+  const sidecar = await loadRuntimeFile<import('./types').RuntimeNomenclaturalSidecar>(collection.file)
+  const categories = ['accepted', 'acceptedNameRedirect', 'ambiguous', 'unmatched', 'withheld'] as const
+  const categorizedTotal = categories.reduce((sum, key) => sum + (sidecar.records[key]?.length ?? 0), 0)
+  if (sidecar.packageId !== packageId || sidecar.sidecarType !== 'date-pinned-exact-nomenclatural-crosswalk'
+    || categorizedTotal !== collection.counts.total
+    || categories.some((key) => sidecar.records[key]?.length !== collection.counts[key])) {
+    throw new Error(`Runtime nomenclature collection ${packageId}/${collectionId} does not match its package manifest`)
+  }
+  return { collection, sidecar }
+}
+
 export async function loadPackageForEntity(entityId: string): Promise<RuntimePackageManifest | null> {
   const registry = await loadPackageRegistry()
   const packageId = registry.entityToPackage[entityId]

@@ -59,6 +59,15 @@ const packageById = new Map(registry.packages.map((entry) => [entry.id, entry]))
 const entityById = new Map(entities.map((entry) => [entry.id, entry]))
 const packageForPbdbTaxon = new Map(entities.flatMap((entry) => entry.externalIds.pbdb ? [[entry.externalIds.pbdb, entry.packageId]] : []))
 const files = new Map()
+const richPackageNomenclatureSources = {
+  echinoderms: {
+    id: 'worms-aphiaid-crosswalk',
+    provider: 'WoRMS',
+    sourcePath: 'data/packages/invertebrata/echinoderms/nomenclature/worms-aphiaid-sidecar.json.gz',
+    runtimeName: 'worms-aphiaid-sidecar.json.gz',
+    expectedCounts: { total: 11891, accepted: 11843, acceptedNameRedirect: 2, ambiguous: 37, unmatched: 0, withheld: 9 },
+  },
+}
 
 function sha256(bytes) {
   return createHash('sha256').update(bytes).digest('hex')
@@ -95,6 +104,57 @@ function writeGzipJson(relativePath, value) {
   const source = jsonBytes(value)
   const compressed = deterministicGzip(source, { level: 9 })
   return { ...write(relativePath, compressed), sourceBytes: source.byteLength, sourceSha256: sha256(source), encoding: 'gzip', mediaType: 'application/json' }
+}
+
+function buildRichPackageNomenclatureCollections(packageId) {
+  const definition = richPackageNomenclatureSources[packageId]
+  if (!definition) return []
+  const compressed = readFileSync(join(rootDir, definition.sourcePath))
+  const source = gunzipSync(compressed)
+  const sidecar = JSON.parse(source.toString('utf8'))
+  const countsMatch = Object.entries(definition.expectedCounts).every(([key, value]) => sidecar.counts?.[key] === value)
+  const recordCountsMatch = Object.entries(definition.expectedCounts)
+    .filter(([key]) => key !== 'total')
+    .every(([key, value]) => sidecar.records?.[key]?.length === value)
+  const categorizedTotal = ['accepted', 'acceptedNameRedirect', 'ambiguous', 'unmatched', 'withheld']
+    .reduce((sum, key) => sum + (sidecar.counts?.[key] ?? 0), 0)
+  if (sidecar.schemaVersion !== 1 || sidecar.packageId !== packageId || !countsMatch || !recordCountsMatch
+    || categorizedTotal !== sidecar.counts.total) {
+    throw new Error(`${packageId}: canonical WoRMS sidecar identity or status counts are invalid`)
+  }
+  const sourceLedger = readFileSync(join(rootDir, sidecar.sources.worms.sourceLedgerPath))
+  if (sha256(sourceLedger) !== sidecar.sources.worms.sourceLedgerSha256) {
+    throw new Error(`${packageId}: canonical WoRMS source ledger does not match the sidecar`)
+  }
+  const published = {
+    ...write(`packages/${packageId}/nomenclature/${definition.runtimeName}`, compressed),
+    sourceBytes: source.byteLength,
+    sourceSha256: sha256(source),
+    encoding: 'gzip',
+    mediaType: 'application/json',
+  }
+  if (published.bytes > 8 * 1024 * 1024) throw new Error(`${published.url} exceeds the 8 MiB shard hard limit`)
+  return [{
+    id: definition.id,
+    recordType: 'external-name-identifier-crosswalk',
+    provider: definition.provider,
+    snapshotBoundary: 'date-pinned-continuously-updated-service',
+    source: {
+      catalogueRelease: sidecar.sources.col.releaseAlias,
+      catalogueReleaseDate: sidecar.sources.col.releaseDate,
+      wormsDatasetId: sidecar.sources.worms.datasetId,
+      retrievedAt: sidecar.sources.worms.retrievedAt,
+      license: sidecar.sources.worms.license,
+      citationDoi: sidecar.sources.worms.citationDoi,
+      sourceLedgerPath: sidecar.sources.worms.sourceLedgerPath,
+      sourceLedgerSha256: sidecar.sources.worms.sourceLedgerSha256,
+    },
+    matching: 'exact scientific name or explicit WoRMS accepted-name redirect; no fuzzy matching',
+    counts: sidecar.counts,
+    fields: ['colUsageId', 'colScientificName', 'colAuthorship', 'colSourceDatasetId', 'exactMatchName', 'requestBatch', 'aphiaRecord', 'matchedNames', 'acceptedName', 'reason'],
+    file: published,
+    evidenceBoundary: sidecar.evidenceBoundary,
+  }]
 }
 
 function filesBelow(directory) {
@@ -406,6 +466,8 @@ for (const packageEntry of registry.packages) {
     return [asset.id, file]
   }))
   const packageAssetFiles = [...assetFilesById.values()]
+  const packageNomenclatureCollections = buildRichPackageNomenclatureCollections(packageId)
+  const packageNomenclatureFiles = packageNomenclatureCollections.map((collection) => collection.file)
   const runtimePackageMedia = packageMedia.map((asset) => asset.asset
     ? { ...asset, asset: { ...asset.asset, ...assetFilesById.get(asset.id) } }
     : asset)
@@ -450,7 +512,7 @@ for (const packageEntry of registry.packages) {
     payloadFiles.occurrenceSnapshot = writeGzipJson(`packages/${packageId}/occurrence-snapshot-v1.json.gz`, targetedOccurrenceSnapshot)
   }
   const occurrenceShards = occurrenceManifest.packages[packageId] ?? []
-  const knowledgeBytes = [...Object.values(payloadFiles), ...packageAssetFiles].reduce((sum, file) => sum + file.bytes, 0)
+  const knowledgeBytes = [...Object.values(payloadFiles), ...packageAssetFiles, ...packageNomenclatureFiles].reduce((sum, file) => sum + file.bytes, 0)
   const occurrenceBytes = occurrenceShards.reduce((sum, file) => sum + file.bytes, 0)
   const manifest = {
     schemaVersion: 5,
@@ -500,13 +562,14 @@ for (const packageEntry of registry.packages) {
       canonicalRawBytes: canonicalPackageBytes(packageEntry),
       runtimeKnowledgeCompressedBytes: knowledgeBytes,
       numberOfShards: occurrenceShards.length,
-      largestShardBytes: Math.max(0, ...occurrenceShards.map((file) => file.bytes), ...packageAssetFiles.map((file) => file.bytes)),
+      largestShardBytes: Math.max(0, ...occurrenceShards.map((file) => file.bytes), ...packageAssetFiles.map((file) => file.bytes), ...packageNomenclatureFiles.map((file) => file.bytes)),
       initialLoadImpactBytes: 0,
       packageLoadTime: 'client-measured',
       offlineCacheSizeBytes: knowledgeBytes + occurrenceBytes,
     },
     files: payloadFiles,
     assets: packageAssetFiles,
+    ...(packageNomenclatureCollections.length ? { nomenclatureCollections: packageNomenclatureCollections } : {}),
     occurrences: occurrenceShards,
   }
   const manifestFile = writeJson(`packages/${packageId}/manifest.json`, manifest, true)
@@ -515,7 +578,7 @@ for (const packageEntry of registry.packages) {
   const zipEntries = {
     'manifest.json': strToU8(`${JSON.stringify(manifest, null, 2)}\n`),
   }
-  for (const file of [...Object.values(payloadFiles), ...packageAssetFiles, ...occurrenceShards]) {
+  for (const file of [...Object.values(payloadFiles), ...packageAssetFiles, ...packageNomenclatureFiles, ...occurrenceShards]) {
     zipEntries[file.url] = new Uint8Array(readFileSync(join(outputRoot, file.url)))
   }
   const archive = deterministicZip(zipEntries, { level: 0 })
