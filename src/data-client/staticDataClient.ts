@@ -711,6 +711,8 @@ const itisOtherAnimalsContracts: Record<import('./types').CatalogueItisOtherAnim
   phoronida: { eligible: 19, accepted: 11, redirects: 8, ambiguous: 0, unmatched: 0, upstreamOnly: 0, nonApplicable: 99142, canonicalFileCount: 2 },
   gnathostomulida: { eligible: 100, accepted: 90, redirects: 0, ambiguous: 0, unmatched: 10, upstreamOnly: 4, nonApplicable: 99061, canonicalFileCount: 2 },
   loricifera: { eligible: 46, accepted: 22, redirects: 0, ambiguous: 0, unmatched: 24, upstreamOnly: 0, nonApplicable: 99115, canonicalFileCount: 2 },
+  micrognathozoa: { eligible: 1, accepted: 1, redirects: 0, ambiguous: 0, unmatched: 0, upstreamOnly: 0, nonApplicable: 99160, canonicalFileCount: 2 },
+  cycliophora: { eligible: 2, accepted: 2, redirects: 0, ambiguous: 0, unmatched: 0, upstreamOnly: 0, nonApplicable: 99159, canonicalFileCount: 2 },
 }
 
 export async function loadCatalogueItisOtherAnimalsRecord(

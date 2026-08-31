@@ -645,9 +645,11 @@ if (catalogue.resourcePacks?.packageCount !== 7
         'itis-phoronida-tsn-crosswalk': { eligible: 19, records: 19, accepted: 11, redirects: 8, ambiguous: 0, unmatched: 0, upstreamOnly: 0, nonApplicable: 99142, files: 2 },
         'itis-gnathostomulida-tsn-crosswalk': { eligible: 100, records: 104, accepted: 90, redirects: 0, ambiguous: 0, unmatched: 10, upstreamOnly: 4, nonApplicable: 99061, files: 2 },
         'itis-loricifera-tsn-crosswalk': { eligible: 46, records: 46, accepted: 22, redirects: 0, ambiguous: 0, unmatched: 24, upstreamOnly: 0, nonApplicable: 99115, files: 2 },
+        'itis-micrognathozoa-tsn-crosswalk': { eligible: 1, records: 1, accepted: 1, redirects: 0, ambiguous: 0, unmatched: 0, upstreamOnly: 0, nonApplicable: 99160, files: 2 },
+        'itis-cycliophora-tsn-crosswalk': { eligible: 2, records: 2, accepted: 2, redirects: 0, ambiguous: 0, unmatched: 0, upstreamOnly: 0, nonApplicable: 99159, files: 2 },
       }
-      if (extensions.length !== 20 || manifestFile.extensionFileCount !== 0 || manifestFile.canonicalExtensionFileCount !== 57) {
-        failures.push('other-animals: Pages must publish 20 ITIS authority summaries and no row shards')
+      if (extensions.length !== 22 || manifestFile.extensionFileCount !== 0 || manifestFile.canonicalExtensionFileCount !== 61) {
+        failures.push('other-animals: Pages must publish 22 ITIS authority summaries and no row shards')
       }
       for (const [id, counts] of Object.entries(expected)) {
         const authority = extensions.find((candidate) => candidate.id === id)

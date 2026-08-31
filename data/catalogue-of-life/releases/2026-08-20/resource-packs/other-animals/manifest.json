@@ -2665,6 +2665,237 @@
           "requestPolicy": "Select the sole inclusive COL-ID range and read at most one COL partition; upstream-only files are never selected by COL ID."
         }
       }
+    },
+    {
+      "id": "itis-micrognathozoa-tsn-crosswalk",
+      "recordType": "release-pinned-exact-nomenclatural-crosswalk",
+      "provider": "Integrated Taxonomic Information System",
+      "source": {
+        "datasetId": "itis-2026-08-26",
+        "exportDate": "2026-08-26",
+        "rootTsn": "808373",
+        "license": "CC0-1.0",
+        "citationDoi": "10.5066/F7KH0KBK",
+        "canonicalDescriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals/itis-micrognathozoa-sidecar.json",
+        "canonicalDescriptorBytes": 5182,
+        "canonicalDescriptorSha256": "2ee74aeb0359440fd5d86d38afe146ba31962c92004c26ad00c697bd4cd85374"
+      },
+      "scope": {
+        "colRootUsageId": "54",
+        "colRootScientificName": "Micrognathozoa",
+        "colStrictAcceptedSpecies": 1,
+        "packageStrictAcceptedSpecies": 99161,
+        "packageOutOfScopeStrictAcceptedSpecies": 99160,
+        "boundary": "other-animals is the deterministic Animalia remainder after more-specific static-package routes. This sidecar covers only strict accepted COL26.8 species descending from exact Micrognathozoa root 54; every other other-animals-owned species is explicitly outside this sidecar."
+      },
+      "matching": {
+        "normalization": [
+          "Remove the exact trailing COL authorship field from COL scientificName when that suffix is present; no authorship parser is used.",
+          "Normalize Unicode to NFC, replace underscores with spaces, collapse Unicode whitespace and trim.",
+          "For species-rank comparison, remove one parenthesized subgenus token in the exact Genus (Subgenus) species representation; genus and specific epithet must remain unchanged.",
+          "Preserve case, diacritics, punctuation and all remaining name tokens."
+        ],
+        "statuses": {
+          "accepted": "The normalized COL name resolves to exactly one valid ITIS Micrognathozoa species and directly equals that current ITIS name.",
+          "synonym-current-name-redirect": "The normalized COL name equals official ITIS invalid species-name evidence that resolves to exactly one valid ITIS Micrognathozoa species.",
+          "ambiguous": "The normalized exact evidence resolves to more than one valid ITIS Micrognathozoa species TSN.",
+          "unmatched": "No normalized exact valid-name or official ITIS species-synonym evidence resolves to a valid ITIS Micrognathozoa species."
+        },
+        "prohibited": "No fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered or taxon-substituted matching is used."
+      },
+      "evidenceBoundary": {
+        "en": "This CC0 ITIS sidecar is a frozen exact nomenclatural crosswalk for the declared Micrognathozoa partition inside the mixed Other Animals resource pack. It is not a global micrognathozoan checklist, final classification authority, phylogeny, species-concept equivalence assertion, biological dossier or scientific-review record.",
+        "zh": "此 CC0 ITIS 侧车是混合“其他动物”资源包中所声明微颚动物分区的冻结严格命名交叉映射；它不是全球微颚动物名录、最终分类权威、系统发育树、物种概念等同性声明、生物档案或科学审查记录。"
+      },
+      "counts": {
+        "eligible": 1,
+        "records": 1,
+        "accepted": 1,
+        "redirects": 0,
+        "ambiguous": 0,
+        "unmatched": 0,
+        "withheld": 0,
+        "upstreamOnly": 0,
+        "nonApplicable": 99160
+      },
+      "files": [
+        {
+          "path": "other-animals/itis-micrognathozoa-sidecar-0000.jsonl.gz",
+          "records": 1,
+          "bytes": 246,
+          "sourceBytes": 395,
+          "sha256": "1374fe8a53349793493f28de48df999d09be4730fefa0074dada952049187d41",
+          "sourceSha256": "7d3862a17664474747897481149e2dd3361c10fadd65fcbc1e691f70d5d13ec6",
+          "encoding": "gzip",
+          "mediaType": "application/x-ndjson",
+          "minColId": "6QDGQ",
+          "maxColId": "6QDGQ",
+          "role": "col-partition"
+        },
+        {
+          "path": "other-animals/itis-micrognathozoa-upstream-only-0000.jsonl.gz",
+          "records": 0,
+          "bytes": 21,
+          "sourceBytes": 1,
+          "sha256": "74420f89d2d2a4256b5b578f1c2a01dd2b605f9aca4905db839d008cfd29cac0",
+          "sourceSha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+          "encoding": "gzip",
+          "mediaType": "application/x-ndjson",
+          "colOwnership": null,
+          "role": "upstream-only"
+        }
+      ],
+      "totalCompressedBytes": 267,
+      "totalSourceBytes": 396,
+      "deliveryProfiles": {
+        "web-light": {
+          "payload": "summary-only",
+          "files": [],
+          "records": 0,
+          "totalCompressedBytes": 0,
+          "totalSourceBytes": 0,
+          "statement": "GitHub Pages publishes the complete Micrognathozoa ITIS summary and canonical hashes without row shards."
+        },
+        "native-full": {
+          "payload": "complete",
+          "files": [
+            "other-animals/itis-micrognathozoa-sidecar-0000.jsonl.gz",
+            "other-animals/itis-micrognathozoa-upstream-only-0000.jsonl.gz"
+          ],
+          "records": 1,
+          "totalCompressedBytes": 267,
+          "totalSourceBytes": 396
+        }
+      },
+      "limitations": [
+        "This CC0 ITIS sidecar is a frozen exact nomenclatural crosswalk for the declared Micrognathozoa partition inside the mixed Other Animals resource pack. It is not a global micrognathozoan checklist, final classification authority, phylogeny, species-concept equivalence assertion, biological dossier or scientific-review record.",
+        "No fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered or taxon-substituted matching is used."
+      ],
+      "integration": {
+        "clientParityRequirement": "Android and iOS must copy every native-full file byte-for-byte; Web uses the web-light summary profile.",
+        "lookup": {
+          "strategy": "lexicographic-colId-range-v1",
+          "ordering": "Unicode code-unit ascending",
+          "requestPolicy": "Select the sole inclusive COL-ID range and read at most one COL partition; upstream-only files are never selected by COL ID."
+        }
+      }
+    },
+    {
+      "id": "itis-cycliophora-tsn-crosswalk",
+      "recordType": "release-pinned-exact-nomenclatural-crosswalk",
+      "provider": "Integrated Taxonomic Information System",
+      "source": {
+        "datasetId": "itis-2026-08-26",
+        "exportDate": "2026-08-26",
+        "rootTsn": "563958",
+        "license": "CC0-1.0",
+        "citationDoi": "10.5066/F7KH0KBK",
+        "canonicalDescriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals/itis-cycliophora-sidecar.json",
+        "canonicalDescriptorBytes": 5181,
+        "canonicalDescriptorSha256": "4d05919a018bd7ff97c42c7c8d503516c1847d12df709188ab517069c54c12c2"
+      },
+      "scope": {
+        "packageRootUsageId": "N",
+        "packageRootScientificName": "Animalia",
+        "colRootUsageId": "622CL",
+        "colRootScientificName": "Cycliophora",
+        "colStrictAcceptedSpecies": 2,
+        "packageStrictAcceptedSpecies": 99161,
+        "packageOutOfScopeStrictAcceptedSpecies": 99159,
+        "nonApplicableRemainder": "All other strict accepted COL26.8 species assigned to Other Animals remain outside this Cycliophora sidecar.",
+        "boundary": "This sidecar covers only strict accepted COL26.8 species descending from exact Cycliophora root 622CL; all remaining mixed-pack species are explicitly out of scope."
+      },
+      "matching": {
+        "normalization": [
+          "Remove the exact trailing COL authorship field from COL scientificName when that suffix is present; no authorship parser is used.",
+          "Normalize Unicode to NFC, replace underscores with spaces, collapse Unicode whitespace and trim.",
+          "For species-rank comparison, remove one parenthesized subgenus token in the exact Genus (Subgenus) species representation; genus and specific epithet must remain unchanged.",
+          "Preserve case, diacritics, punctuation and all remaining name tokens."
+        ],
+        "statuses": {
+          "accepted": "The normalized COL name resolves to exactly one valid ITIS Cycliophora species and directly equals that current ITIS name.",
+          "synonym-current-name-redirect": "The normalized COL name equals official ITIS invalid species-name evidence that resolves to exactly one valid ITIS Cycliophora species.",
+          "ambiguous": "The normalized exact evidence resolves to more than one valid ITIS Cycliophora species TSN.",
+          "unmatched": "No normalized exact valid-name or official ITIS species-synonym evidence resolves to a valid ITIS Cycliophora species."
+        },
+        "prohibited": "No fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered or taxon-substituted matching is used."
+      },
+      "evidenceBoundary": {
+        "en": "This CC0 ITIS sidecar is a frozen exact nomenclatural crosswalk for the declared Cycliophora partition. It is not a global cycliophoran checklist, final classification authority, phylogeny, species-concept equivalence assertion, biological dossier or scientific-review record.",
+        "zh": "此 CC0 ITIS 侧车是已声明 Cycliophora 分区的冻结严格命名交叉映射；它不是全球环口动物名录、最终分类权威、系统发育、物种概念等同性声明、生物档案或科学审查记录。"
+      },
+      "counts": {
+        "eligible": 2,
+        "records": 2,
+        "accepted": 2,
+        "redirects": 0,
+        "ambiguous": 0,
+        "unmatched": 0,
+        "withheld": 0,
+        "upstreamOnly": 0,
+        "nonApplicable": 99159
+      },
+      "files": [
+        {
+          "path": "other-animals/itis-cycliophora-sidecar-0000.jsonl.gz",
+          "records": 2,
+          "bytes": 298,
+          "sourceBytes": 781,
+          "sha256": "abe0fac165e2b3faed63c878ef4ce836211226230aaf1f9ac75f83ea5c48b952",
+          "sourceSha256": "461d2bf18c6df9d48e7194e379f72a57a6feaaabacf5d75b3788c74fb2e3731d",
+          "encoding": "gzip",
+          "mediaType": "application/x-ndjson",
+          "minColId": "7B6TP",
+          "maxColId": "7B75M",
+          "role": "col-partition"
+        },
+        {
+          "path": "other-animals/itis-cycliophora-upstream-only-0000.jsonl.gz",
+          "records": 0,
+          "bytes": 21,
+          "sourceBytes": 1,
+          "sha256": "74420f89d2d2a4256b5b578f1c2a01dd2b605f9aca4905db839d008cfd29cac0",
+          "sourceSha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+          "encoding": "gzip",
+          "mediaType": "application/x-ndjson",
+          "colOwnership": null,
+          "role": "upstream-only"
+        }
+      ],
+      "totalCompressedBytes": 319,
+      "totalSourceBytes": 782,
+      "deliveryProfiles": {
+        "web-light": {
+          "payload": "summary-only",
+          "files": [],
+          "records": 0,
+          "totalCompressedBytes": 0,
+          "totalSourceBytes": 0,
+          "statement": "GitHub Pages publishes the complete Cycliophora ITIS summary and canonical hashes without row shards."
+        },
+        "native-full": {
+          "payload": "complete",
+          "files": [
+            "other-animals/itis-cycliophora-sidecar-0000.jsonl.gz",
+            "other-animals/itis-cycliophora-upstream-only-0000.jsonl.gz"
+          ],
+          "records": 2,
+          "totalCompressedBytes": 319,
+          "totalSourceBytes": 782
+        }
+      },
+      "limitations": [
+        "This CC0 ITIS sidecar is a frozen exact nomenclatural crosswalk for the declared Cycliophora partition. It is not a global cycliophoran checklist, final classification authority, phylogeny, species-concept equivalence assertion, biological dossier or scientific-review record.",
+        "No fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered or taxon-substituted matching is used."
+      ],
+      "integration": {
+        "clientParityRequirement": "Android and iOS must copy every native-full file byte-for-byte; Web uses the web-light summary profile.",
+        "lookup": {
+          "strategy": "lexicographic-colId-range-v1",
+          "ordering": "Unicode code-unit ascending",
+          "requestPolicy": "Select the sole inclusive COL-ID range and read at most one COL partition; upstream-only files are never selected by COL ID."
+        }
+      }
     }
   ]
 }

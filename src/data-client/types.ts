@@ -995,6 +995,8 @@ export type CatalogueItisOtherAnimalsScope =
   | 'phoronida'
   | 'gnathostomulida'
   | 'loricifera'
+  | 'micrognathozoa'
+  | 'cycliophora'
 
 export interface CatalogueItisOtherAnimalsResourcePackExtension {
   id: `itis-${CatalogueItisOtherAnimalsScope}-tsn-crosswalk`
