@@ -24097,5 +24097,180 @@
         "quoteLocator": "Dallasaurus sampled anatomy and limb-grade context"
       }
     ]
+  },
+  {
+    "id": "claim:taxon:coniferophyta:profile-taxonomy",
+    "subjectId": "taxon:coniferophyta",
+    "claimType": "taxonomy",
+    "claimKind": "scientific",
+    "statement": "Leslie et al. assembled an age-calibrated phylogeny sampling about 80% of living conifer species to compare sampled hemispheric clades; this molecular tree is not a complete total-group taxonomy, direct ancestor sequence or fossil occurrence ledger.",
+    "confidence": "medium",
+    "confidenceRationale": "The taxon sample, sequence analysis and fossil-calibration procedure are explicit, while extinct diversity and unsampled living species limit extension beyond the analyzed tree.",
+    "reviewedBy": "Evo Atlas maintainer primary-source audit",
+    "reviewedAt": "2026-09-01",
+    "reviewedAgainstReferenceVersion": "Leslie et al. 2012 DOI 10.1073/pnas.1213621109",
+    "referenceLinks": [
+      {
+        "referenceId": "leslie-2012-conifer-hemispheres",
+        "relation": "supports",
+        "pages": "16217–16221",
+        "figure": "Figure 1; SI Appendix Figures S1–S2 and Table S1",
+        "quoteLocator": "Methods: phylogeny construction, dating and sampling; Results: dated extant-conifer tree"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:coniferophyta:profile-biogeography",
+    "subjectId": "taxon:coniferophyta",
+    "claimType": "biogeography",
+    "claimKind": "scientific",
+    "statement": "The sampled living conifer tree contains broadly Northern- and Southern-Hemisphere lineages and supports a modelled contrast in their evolutionary dynamics; the result does not establish complete present or past distributions for Coniferophyta.",
+    "confidence": "medium",
+    "confidenceRationale": "The hemispheric coding and comparative results are direct parts of the primary analysis, but the sample is living-species focused and cannot supply a complete fossil or geographic record.",
+    "reviewedBy": "Evo Atlas maintainer primary-source audit",
+    "reviewedAt": "2026-09-01",
+    "reviewedAgainstReferenceVersion": "Leslie et al. 2012 DOI 10.1073/pnas.1213621109",
+    "referenceLinks": [
+      {
+        "referenceId": "leslie-2012-conifer-hemispheres",
+        "relation": "supports",
+        "pages": "16217–16221",
+        "figure": "Figures 1–2; SI Appendix Table S1",
+        "quoteLocator": "Results: divergence-time patterns and diversification-model comparisons; Discussion: hemispheric and regional scope"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:coniferophyta:profile-morphology",
+    "subjectId": "taxon:coniferophyta",
+    "claimType": "morphology",
+    "claimKind": "scientific",
+    "statement": "The cited conifer analysis uses molecular sequences and fossil calibrations rather than a clade-wide morphological matrix; this profile therefore withholds universal leaf, cone and body-form traits instead of converting calibration fossils into body-character observations.",
+    "confidence": "high",
+    "confidenceRationale": "The methods disclose the molecular dataset and calibration role directly. High confidence applies to the study-scope limitation, not to any claim that conifers lack shared morphology.",
+    "reviewedBy": "Evo Atlas maintainer primary-source audit",
+    "reviewedAt": "2026-09-01",
+    "reviewedAgainstReferenceVersion": "Leslie et al. 2012 DOI 10.1073/pnas.1213621109",
+    "referenceLinks": [
+      {
+        "referenceId": "leslie-2012-conifer-hemispheres",
+        "relation": "supports",
+        "pages": "16217–16221",
+        "figure": "Figure 1; SI Appendix: Fossil calibrations",
+        "quoteLocator": "Methods: molecular phylogeny and node-calibration scope"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:coniferophyta:profile-ecology",
+    "subjectId": "taxon:coniferophyta",
+    "claimType": "ecology",
+    "claimKind": "scientific",
+    "statement": "Leslie et al. discuss broad climatic and habitat contrasts around sampled living lineages but do not measure one diet, habitat, growth form, body-size distribution or ecological guild for all Coniferophyta; those profile fields remain explicitly ungeneralized.",
+    "confidence": "high",
+    "confidenceRationale": "The primary study tests diversification and hemispheric patterns rather than a universal conifer ecological phenotype; the explicit withholding follows that study boundary.",
+    "reviewedBy": "Evo Atlas maintainer primary-source audit",
+    "reviewedAt": "2026-09-01",
+    "reviewedAgainstReferenceVersion": "Leslie et al. 2012 DOI 10.1073/pnas.1213621109",
+    "referenceLinks": [
+      {
+        "referenceId": "leslie-2012-conifer-hemispheres",
+        "relation": "supports",
+        "pages": "16217–16221",
+        "figure": "Figures 1–2",
+        "quoteLocator": "Discussion: regional climatic and habitat examples; limitations of a single causal explanation"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:araucariaceae:profile-taxonomy",
+    "subjectId": "taxon:araucariaceae",
+    "claimType": "taxonomy",
+    "claimKind": "scientific",
+    "statement": "Escapa and Catalano analyze 39 araucariacean species—31 living and eight fossil—using molecular and morphological characters; the recovered family relationships are sampled matrix results, not direct ancestry or an exhaustive record of Araucariaceae.",
+    "confidence": "medium",
+    "confidenceRationale": "The taxon and character samples and parsimony analyses are explicit. Medium confidence preserves sensitivity to taxon sampling, character coding and incomplete fossil diversity.",
+    "reviewedBy": "Evo Atlas maintainer primary-source audit",
+    "reviewedAt": "2026-09-01",
+    "reviewedAgainstReferenceVersion": "Escapa and Catalano 2013 DOI 10.1086/672369",
+    "referenceLinks": [
+      {
+        "referenceId": "escapa-catalano-2013-araucariaceae",
+        "relation": "supports",
+        "pages": "1153–1170",
+        "figure": "Table 1; Figures 3–6; online Appendix",
+        "quoteLocator": "Methods: taxon and character sampling; Results: combined analyses; Conclusions"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:araucariaceae:profile-biogeography",
+    "subjectId": "taxon:araucariaceae",
+    "claimType": "biogeography",
+    "claimKind": "scientific",
+    "statement": "Holyoke specimen J 1430 comes from the Hettangian South Hadley Falls Member of the Portland Formation in Massachusetts; this single Lower Jurassic occurrence does not establish a complete family distribution, endemicity or absence elsewhere.",
+    "confidence": "medium",
+    "confidenceRationale": "The specimen repository, locality and stratigraphic unit are stated directly in the open primary description; medium confidence also preserves the single-specimen and source-metadata boundary.",
+    "reviewedBy": "Evo Atlas maintainer primary-source audit",
+    "reviewedAt": "2026-09-01",
+    "reviewedAgainstReferenceVersion": "Axsmith, Escapa and Huber 2008 Palaeontologia Electronica 11.3.13A",
+    "referenceLinks": [
+      {
+        "referenceId": "axsmith-2008-holyoke-araucaria",
+        "relation": "supports",
+        "pages": "11.3.13A:1–9",
+        "figure": "Figure 1",
+        "quoteLocator": "Materials and Methods: Holyoke Dam locality, repository specimen J 1430 and South Hadley Falls Member context"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:araucariaceae:profile-morphology",
+    "subjectId": "taxon:araucariaceae",
+    "claimType": "morphology",
+    "claimKind": "scientific",
+    "statement": "Specimen J 1430 is a single bract-scale complex with a wedge-like outline, central seed-bearing region and lateral wings; these directly described characters support the sampled fossil comparison but are not universal family traits.",
+    "confidence": "medium",
+    "confidenceRationale": "The specimen dimensions, seed position, wings and comparison are described and figured directly. Medium confidence is limited to J 1430 and preserves the single-specimen and source-metadata boundary.",
+    "reviewedBy": "Evo Atlas maintainer primary-source audit",
+    "reviewedAt": "2026-09-01",
+    "reviewedAgainstReferenceVersion": "Axsmith, Escapa and Huber 2008 Palaeontologia Electronica 11.3.13A",
+    "referenceLinks": [
+      {
+        "referenceId": "axsmith-2008-holyoke-araucaria",
+        "relation": "supports",
+        "pages": "11.3.13A:4–6",
+        "figure": "Figure 2",
+        "quoteLocator": "Description and Comparisons: specimen dimensions, central seed-bearing zone, longitudinally striated lateral wings and Eutacta comparison"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:araucariaceae:profile-ecology",
+    "subjectId": "taxon:araucariaceae",
+    "claimType": "ecology",
+    "claimKind": "scientific",
+    "statement": "The isolated Holyoke bract-scale and the combined family phylogeny do not directly determine diet, habitat preference, growth observation, whole-plant body size or one ecological guild for Araucariaceae; those fields are explicitly withheld or locality-bounded.",
+    "confidence": "high",
+    "confidenceRationale": "Both primary studies expose specimen anatomy or character-matrix relationships rather than the listed family-wide ecological attributes, so the profile does not infer them.",
+    "reviewedBy": "Evo Atlas maintainer primary-source audit",
+    "reviewedAt": "2026-09-01",
+    "reviewedAgainstReferenceVersion": "Axsmith et al. 2008 Palaeontologia Electronica 11.3.13A; Escapa and Catalano 2013 DOI 10.1086/672369",
+    "referenceLinks": [
+      {
+        "referenceId": "axsmith-2008-holyoke-araucaria",
+        "relation": "supports",
+        "pages": "11.3.13A:1–9",
+        "figure": "Figures 1–3",
+        "quoteLocator": "Study scope: isolated bract-scale description and stratigraphic/phylogenetic congruence"
+      },
+      {
+        "referenceId": "escapa-catalano-2013-araucariaceae",
+        "relation": "supports",
+        "pages": "1153–1170",
+        "figure": "Table 1; Figures 3–6",
+        "quoteLocator": "Study scope: molecular and morphological character-matrix analyses"
+      }
+    ]
   }
 ]
