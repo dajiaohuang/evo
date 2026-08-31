@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "importType": "COL26.8-to-WoRMS-exact-echinoderm-nomenclatural-sidecar",
+  "generatedFrom": {
+    "sourcePath": "data/sources/worms-echinoderms-2026-08-31.json",
+    "sourceSha256": "5bb39541a54c4e9cee33ee70652c9aa14e6f3a8dd488bb6c87cfdf3d2cf1b100",
+    "colRegistryManifestPath": "data/catalogue-of-life/releases/2026-08-20/registry/manifest.json",
+    "colRegistryManifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151",
+    "colOwnershipPath": "data/registry/package-species-coverage.json",
+    "colOwnershipSha256": "37e6065267e3d92157fb5e6f1d236dcbe70702fc5171e7322214e15e9c80d2f4"
+  },
+  "matchingContract": {
+    "normalization": [
+      "Remove the exact trailing COL authorship field only when that exact suffix is present.",
+      "Normalize Unicode to NFC, replace underscores with spaces, collapse Unicode whitespace and trim.",
+      "Preserve case, diacritics, punctuation, subgenus tokens and all other name tokens."
+    ],
+    "accepted": "Exactly one WoRMS Echinodermata species target is returned with match_type=exact, and an accepted record directly equals the normalized COL query name.",
+    "acceptedNameRedirect": "Exact WoRMS name evidence resolves to one explicit valid_AphiaID/current valid_name but the matching record is not itself the accepted record.",
+    "ambiguous": "Exact WoRMS Echinodermata name evidence resolves to more than one valid_AphiaID.",
+    "unmatched": "No Species-rank, Echinodermata, match_type=exact record equals the normalized COL query name.",
+    "withheld": "The COL authorship boundary is unsafe or an exact WoRMS record lacks fields required to preserve its explicit accepted target.",
+    "forbidden": "No fuzzy endpoint, like query, edit distance, phonetic, case-folded, diacritic-stripped, token-reordered, genus-substitution, authority-only or higher-rank match is permitted."
+  },
+  "totals": {
+    "total": 11891,
+    "accepted": 11843,
+    "acceptedNameRedirect": 2,
+    "ambiguous": 37,
+    "unmatched": 0,
+    "withheld": 9
+  },
+  "output": {
+    "packageId": "echinoderms",
+    "path": "data/packages/invertebrata/echinoderms/nomenclature/worms-aphiaid-sidecar.json.gz",
+    "records": 11891,
+    "bytes": 751115,
+    "sha256": "c85649c266e63f4a04384336b32f0a93f65844ffdadd9955e43cba64e9899e0d",
+    "sourceBytes": 9805745,
+    "sourceSha256": "e4c028771ef03cbd8dca2c4ef076e045ea21a3fb66b8073a61af9636abd10373",
+    "encoding": "gzip",
+    "mediaType": "application/json"
+  },
+  "generatedBy": {
+    "scriptPath": "scripts/fetch-worms-echinoderms-sidecar.mjs",
+    "scriptSha256": "d4c5b714333b4fc679a94c4fc203c83532fb76b94868af03b576f0dbcf94984b",
+    "deterministic": "Explicit retrieval instant, pinned COL inputs, exact request URLs, response checksums, exact normalization, stable record sorting and deterministic gzip metadata."
+  }
+}

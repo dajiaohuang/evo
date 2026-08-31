@@ -23,6 +23,8 @@ dist-mobile/                 # 临时生成的移动客户端壳，不提交
 
 ## 数据与离线边界
 
+rc59 将棘皮动物包的 11,891 条 WoRMS AphiaID 命名侧车作为独立 collection 文件纳入共享发布清单。Android/iOS 读取与 Web、包 ZIP 完全相同的 751,115 字节 gzip 和 SHA-256；原生测试核对 collection descriptor、release inventory 与实际内置文件，并同时确保 Bacteria 与 Archaea 两份 LPSN 扩展不丢失。该侧车仅提供按日期固定的严格同名或明确接受名重定向，不是冻结 WoRMS 整库、系统树、完整生物学档案或 COL/WoRMS 物种概念等价声明。
+
 rc58 增加 8 幅总计不足 0.5 MiB 的 1280×800 WebP 解释性复原。它们不是原生工程中的另行拷贝：`release-files.json` 把与 Web/包 ZIP 相同的内容寻址字节送入 Android 与 iOS，Capacitor 同步后必须逐文件保持 SHA-256 一致。WebP 本身不含文字或水印；界面中的每次展示都在图旁配对“AI 辅助解释性复原”和中英不确定性说明。prompt、seed、工作流、模型/许可哈希及拒收记录只在 canonical provenance 中维护。rc57 的 8,116 字节 LPSN sidecar 同时保留。
 
 移动构建通过 `.env.mobile` 将数据根设置为：

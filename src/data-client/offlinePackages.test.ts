@@ -91,7 +91,7 @@ describe('complete Atlas offline storage', () => {
     expect([...stored.keys()].some((url) => url.endsWith(files[3].url))).toBe(false)
   })
 
-  it('includes research examples and bundled media in single-package and all-package offline storage', async () => {
+  it('includes research examples, bundled media and nomenclature collections in package offline storage', async () => {
     const datasetVersion = 'dataset-research'
     const releaseBase = `releases/${datasetVersion}/`
     const registryFile = { url: `${releaseBase}packages/registry.json` }
@@ -105,6 +105,10 @@ describe('complete Atlas offline storage', () => {
         researchExamples: { url: `${releaseBase}packages/${packageId}/research-examples.json` },
       },
       assets: [{ url: `${releaseBase}packages/${packageId}/media/reconstruction.webp` }],
+      nomenclatureCollections: packageId === 'alpha' ? [{
+        id: 'worms-aphiaid-crosswalk',
+        file: { url: `${releaseBase}packages/${packageId}/nomenclature/worms-aphiaid-sidecar.json.gz` },
+      }] : [],
       occurrences: [],
     }]))
     const current = {
@@ -141,6 +145,7 @@ describe('complete Atlas offline storage', () => {
     await savePackageOffline('alpha')
     expect([...stored.keys()].some((url) => url.endsWith(manifests.alpha.files.researchExamples.url))).toBe(true)
     expect([...stored.keys()].some((url) => url.endsWith(manifests.alpha.assets[0].url))).toBe(true)
+    expect([...stored.keys()].some((url) => url.endsWith(manifests.alpha.nomenclatureCollections[0].file.url))).toBe(true)
     expect([...stored.keys()].some((url) => url.endsWith(manifests.beta.files.researchExamples.url))).toBe(false)
     expect([...stored.keys()].some((url) => url.endsWith(manifests.beta.assets[0].url))).toBe(false)
 
@@ -150,6 +155,7 @@ describe('complete Atlas offline storage', () => {
       expect([...stored.keys()].some((url) => url.endsWith(manifests[packageId].files.researchExamples.url))).toBe(true)
       expect([...stored.keys()].some((url) => url.endsWith(manifests[packageId].assets[0].url))).toBe(true)
     }
+    expect([...stored.keys()].some((url) => url.endsWith(manifests.alpha.nomenclatureCollections[0].file.url))).toBe(true)
   })
 
   it('stores nomenclatural extension shards with the selected catalogue resource pack', async () => {
