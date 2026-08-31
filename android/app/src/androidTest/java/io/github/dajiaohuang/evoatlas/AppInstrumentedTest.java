@@ -199,7 +199,7 @@ public class AppInstrumentedTest {
                         : "itis-porifera-cnidaria-tsn-crosswalk";
                 int expectedFiles = packageId.equals("molluscs-brachiopods") ? 59 : 5;
                 int expectedUpstreamFiles = 1;
-                int expectedRecords = packageId.equals("molluscs-brachiopods") ? 159794 : 30521;
+                int expectedRecords = packageId.equals("molluscs-brachiopods") ? 159801 : 30521;
                 int expectedUpstreamRecords = packageId.equals("molluscs-brachiopods") ? 4289 : 2218;
                 richItisNomenclatureRecords += verifyRichItisCollection(context, files,
                         findCollection(collections, collectionId), expectedFiles, expectedUpstreamFiles,
@@ -498,7 +498,7 @@ public class AppInstrumentedTest {
                     "itis-nematoda-tsn-crosswalk", "itis-annelida-tsn-crosswalk"
                 };
                 int[] expectedFiles = new int[]{15, 3, 3, 2, 2, 3, 2, 3, 2, 2, 2, 2, 1, 1, 2, 2, 2, 1, 2, 1, 1, 1, 1, 2, 2, 2, 4, 4};
-                int[] expectedRecords = new int[]{28252, 2662, 20754, 1416, 3242, 1330, 171, 1461, 156, 204, 420, 997, 23, 235, 139, 205, 404, 19, 104, 46, 1, 2, 4, 499, 27, 126, 20849, 24074};
+                int[] expectedRecords = new int[]{28252, 2662, 20754, 1416, 3242, 1330, 171, 1461, 156, 204, 420, 997, 23, 235, 139, 205, 404, 19, 104, 46, 1, 2, 4, 499, 27, 128, 20849, 24074};
                 for (int expectedIndex = 0; expectedIndex < expectedIds.length; expectedIndex += 1) {
                     JSONObject authority = findCollection(extensions, expectedIds[expectedIndex]);
                     assertNotNull("ITIS other-animals authority missing", authority);
@@ -555,7 +555,7 @@ public class AppInstrumentedTest {
                     "itis-hemimastigophora-tsn-crosswalk"
                 };
                 int[] expectedFiles = new int[]{4, 1, 2, 1, 1, 1, 2, 1, 1, 2, 0, 0, 1, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0};
-                int[] expectedRecords = new int[]{8665, 21, 1110, 276, 52, 90, 3397, 1337, 1616, 1464, 0, 0, 53, 0, 0, 0, 0, 0, 1416, 4, 0, 0, 0, 0, 0};
+                int[] expectedRecords = new int[]{8665, 21, 1110, 276, 52, 90, 3397, 1337, 1616, 1536, 0, 0, 53, 0, 0, 0, 0, 0, 1416, 4, 0, 0, 0, 0, 0};
                 assertEquals(expectedIds.length + 1, extensions.length());
                 for (int extensionIndex = 0; extensionIndex < expectedIds.length; extensionIndex += 1) {
                     JSONObject itisAuthority = findCollection(extensions, expectedIds[extensionIndex]);

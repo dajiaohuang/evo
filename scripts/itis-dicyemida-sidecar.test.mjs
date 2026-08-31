@@ -44,8 +44,8 @@ describe('ITIS Dicyemida exact sidecar', () => {
   it('covers the complete strict COL26.8 Dicyemida partition exactly once', () => {
     expect(descriptor.packageId).toBe('other-animals')
     expect(descriptor.scope.colRootUsageId).toBe('3Z')
-    expect(descriptor.scope.colStrictAcceptedSpecies).toBe(119)
-    expect(rows).toHaveLength(119)
+    expect(descriptor.scope.colStrictAcceptedSpecies).toBe(122)
+    expect(rows).toHaveLength(122)
     expect(new Set(rows.map((row) => row.colUsageId)).size).toBe(rows.length)
     expect(descriptorBytes.length).toBeLessThan(64 * 1024)
     expect(files.every((file) => file.sourceBytes <= descriptor.colUsageIdLocator.sourceShardLimitBytes)).toBe(true)
@@ -59,6 +59,8 @@ describe('ITIS Dicyemida exact sidecar', () => {
     expect(descriptor.rootBoundaryAudit.selectedCurrentSpecies).toBe(92)
     expect(descriptor.rootBoundaryAudit.broaderCurrentSpecies).toBe(95)
     expect(descriptor.rootBoundaryAudit.broaderOnlySpecies.map((row) => row.tsn)).toEqual(['696174', '696201', '696203'])
+    expect(descriptor.rootBoundaryAudit.selectedRootWitness).toEqual({ tsn: '696187', scientificName: 'Kantharella antarctica' })
+    expect(descriptor.rootBoundaryAudit.broaderRootOnlyExamples.map((row) => row.scientificName)).toEqual(['Microcyema vespa', 'Conocyema deca', 'Conocyema polymorpha'])
   })
 
   it('retains only exact evidence and byte-exact upstream rows', () => {
@@ -66,7 +68,7 @@ describe('ITIS Dicyemida exact sidecar', () => {
     expect(rows.every((row) => row.exactMatchName === colExactMatchName({ scientificName: row.colScientificName, authorship: row.colAuthorship }))).toBe(true)
     expect(rows.filter((row) => row.status === 'accepted').every((row) => normalizeScientificName(row.currentName.scientificName) === row.exactMatchName)).toBe(true)
     expect(rows.filter((row) => row.status === 'unmatched').every((row) => !('currentName' in row))).toBe(true)
-    expect(upstream).toHaveLength(7)
+    expect(upstream).toHaveLength(6)
     expect(upstream.every((row) => row.colUsageId === null && row.currentName.usage === 'valid')).toBe(true)
     expect(ledger.output.descriptor.sha256).toBe(sha256(descriptorBytes))
     expect(ledger.deliveryContract.androidIosFull).toContain('every listed row-level shard')
