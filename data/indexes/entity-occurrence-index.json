@@ -187,6 +187,8 @@
         "fanjingshania",
         "shenacanthus",
         "gladbachus",
+        "maghriboselache",
+        "cosmoselachus",
         "acanthodii",
         "osteichthyes",
         "actinopterygii",
@@ -523,6 +525,8 @@
         "txn:503113",
         "txn:500057",
         "txn:502070",
+        "txn:502450",
+        "txn:494487",
         "txn:34849",
         "txn:63784",
         "txn:35190",
@@ -795,6 +799,8 @@
         "qianodus duplicis",
         "shenacanthus vermiformis",
         "gladbachus adentatus",
+        "maghriboselache mohamezanei",
+        "cosmoselachus mehlingi",
         "acanthodii",
         "holostei",
         "amiiformes",
@@ -5710,6 +5716,8 @@
         "fanjingshania",
         "shenacanthus",
         "gladbachus",
+        "maghriboselache",
+        "cosmoselachus",
         "acanthodii",
         "osteichthyes",
         "actinopterygii",
@@ -5951,6 +5959,8 @@
         "txn:503113",
         "txn:500057",
         "txn:502070",
+        "txn:502450",
+        "txn:494487",
         "txn:34849",
         "txn:63784",
         "txn:35190",
@@ -6128,6 +6138,8 @@
         "qianodus duplicis",
         "shenacanthus vermiformis",
         "gladbachus adentatus",
+        "maghriboselache mohamezanei",
+        "cosmoselachus mehlingi",
         "acanthodii",
         "holostei",
         "amiiformes",
@@ -6686,6 +6698,8 @@
         "fanjingshania",
         "shenacanthus",
         "gladbachus",
+        "maghriboselache",
+        "cosmoselachus",
         "acanthodii",
         "osteichthyes",
         "actinopterygii",
@@ -6921,6 +6935,8 @@
         "txn:503113",
         "txn:500057",
         "txn:502070",
+        "txn:502450",
+        "txn:494487",
         "txn:34849",
         "txn:63784",
         "txn:35190",
@@ -7092,6 +7108,8 @@
         "qianodus duplicis",
         "shenacanthus vermiformis",
         "gladbachus adentatus",
+        "maghriboselache mohamezanei",
+        "cosmoselachus mehlingi",
         "acanthodii",
         "holostei",
         "amiiformes",
@@ -7401,7 +7419,9 @@
         "qianodus",
         "fanjingshania",
         "shenacanthus",
-        "gladbachus"
+        "gladbachus",
+        "maghriboselache",
+        "cosmoselachus"
       ],
       "descendantTaxonIds": [
         "txn:34422",
@@ -7409,7 +7429,9 @@
         "txn:34760",
         "txn:503113",
         "txn:500057",
-        "txn:502070"
+        "txn:502070",
+        "txn:502450",
+        "txn:494487"
       ],
       "descendantScientificNames": [
         "chondrichthyes",
@@ -7417,7 +7439,9 @@
         "holocephali",
         "qianodus duplicis",
         "shenacanthus vermiformis",
-        "gladbachus adentatus"
+        "gladbachus adentatus",
+        "maghriboselache mohamezanei",
+        "cosmoselachus mehlingi"
       ],
       "matchMethods": {
         "exactExternalId": 4,
@@ -7524,17 +7548,23 @@
         "qianodus",
         "fanjingshania",
         "shenacanthus",
-        "gladbachus"
+        "gladbachus",
+        "maghriboselache",
+        "cosmoselachus"
       ],
       "descendantTaxonIds": [
         "txn:503113",
         "txn:500057",
-        "txn:502070"
+        "txn:502070",
+        "txn:502450",
+        "txn:494487"
       ],
       "descendantScientificNames": [
         "qianodus duplicis",
         "shenacanthus vermiformis",
-        "gladbachus adentatus"
+        "gladbachus adentatus",
+        "maghriboselache mohamezanei",
+        "cosmoselachus mehlingi"
       ],
       "matchMethods": {
         "exactExternalId": 0,
@@ -7639,6 +7669,56 @@
       },
       "completeSnapshotAvailable": true,
       "completeSnapshotRows": 1,
+      "periods": [],
+      "matchedTotal": 0
+    },
+    "maghriboselache": {
+      "entityId": "maghriboselache",
+      "packageId": "chondrichthyes",
+      "entityKind": "taxon",
+      "externalTaxonId": "txn:502450",
+      "scientificNameNormalized": "maghriboselache mohamezanei",
+      "externalResolutionStatus": "resolved-exact",
+      "queryStatus": "resolved-zero-in-bounded-sample",
+      "descendantEntityIds": [],
+      "descendantTaxonIds": [
+        "txn:502450"
+      ],
+      "descendantScientificNames": [
+        "maghriboselache mohamezanei"
+      ],
+      "matchMethods": {
+        "exactExternalId": 0,
+        "acceptedName": 0,
+        "higherClassification": 0
+      },
+      "completeSnapshotAvailable": false,
+      "completeSnapshotRows": null,
+      "periods": [],
+      "matchedTotal": 0
+    },
+    "cosmoselachus": {
+      "entityId": "cosmoselachus",
+      "packageId": "chondrichthyes",
+      "entityKind": "taxon",
+      "externalTaxonId": "txn:494487",
+      "scientificNameNormalized": "cosmoselachus mehlingi",
+      "externalResolutionStatus": "resolved-exact",
+      "queryStatus": "resolved-zero-in-bounded-sample",
+      "descendantEntityIds": [],
+      "descendantTaxonIds": [
+        "txn:494487"
+      ],
+      "descendantScientificNames": [
+        "cosmoselachus mehlingi"
+      ],
+      "matchMethods": {
+        "exactExternalId": 0,
+        "acceptedName": 0,
+        "higherClassification": 0
+      },
+      "completeSnapshotAvailable": false,
+      "completeSnapshotRows": null,
       "periods": [],
       "matchedTotal": 0
     },

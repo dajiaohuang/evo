@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "generatedAt": "2026-08-31",
+  "generatedAt": "2026-09-01",
   "policy": "PBDB name/rank resolution, automated lineage recommendations and human curator decisions are separate. Only taxonomic-parent edges use the complete pinned PBDB ancestor chain for compatibility; navigation and display edges do not assert taxonomic parentage.",
   "rankNormalization": {
     "clade": "unranked clade"
@@ -19,9 +19,9 @@
     "sourceUrl": "https://zenodo.org/records/21620933"
   },
   "reconciliationRun": {
-    "retryReason": "rc81-new-ontology-nodes",
-    "attempted": 2,
-    "resolved": 2,
+    "retryReason": "issue-181-new-ontology-nodes",
+    "attempted": 4,
+    "resolved": 4,
     "withheld": 0,
     "sourceCsv": {
       "file": "pbdb_taxa.csv",
@@ -30,8 +30,8 @@
     }
   },
   "summary": {
-    "ontologyNodes": 399,
-    "resolved": 287,
+    "ontologyNodes": 401,
+    "resolved": 289,
     "unresolved": 112,
     "needsConceptReview": 28,
     "humanCuratorDecisions": 0
@@ -48880,6 +48880,70 @@
       "occurrenceCount": 193,
       "referenceNo": "ref:19315",
       "snapshotModifiedAt": "2013-10-27 04:21:23"
+    },
+    {
+      "entityId": "maghriboselache",
+      "localName": "Maghriboselache mohamezanei",
+      "localRank": "species",
+      "previousPbdbId": null,
+      "resolutionStatus": "resolved",
+      "resolutionReason": "resolved-exact-name-and-rank",
+      "externalResolutionStatus": "resolved-exact",
+      "pbdbId": "txn:502450",
+      "acceptedName": "Maghriboselache mohamezanei",
+      "acceptedRank": "species",
+      "matchedTaxonName": "Maghriboselache mohamezanei",
+      "pbdbParentName": "Maghriboselache",
+      "pbdbClassification": {"phylum": "Chordata", "class": "Chondrichthyes", "order": null, "family": null},
+      "resolvedName": "Maghriboselache mohamezanei",
+      "resolvedRank": "species",
+      "resolvedImmediateParent": "Maghriboselache",
+      "resolvedClassification": {"phylum": "Chordata", "class": "Chondrichthyes", "order": null, "family": null},
+      "resolvedAncestorChain": [],
+      "localExpectedParentConcept": "Stem-chondrichthyan evidence route",
+      "parentRelationshipKind": "navigation-parent",
+      "lineageCompatibility": "not-applicable-non-taxonomic-edge",
+      "conceptReviewStatus": "not-required-navigation-edge",
+      "automatedRecommendation": "accept-external-mapping",
+      "humanCuratorDecision": null,
+      "curatorRationale": null,
+      "curatorReviewedAt": null,
+      "curatorReviewer": null,
+      "occurrenceCount": 4,
+      "referenceNo": "ref:90606",
+      "snapshotModifiedAt": null
+    },
+    {
+      "entityId": "cosmoselachus",
+      "localName": "Cosmoselachus mehlingi",
+      "localRank": "species",
+      "previousPbdbId": null,
+      "resolutionStatus": "resolved",
+      "resolutionReason": "resolved-exact-name-and-rank",
+      "externalResolutionStatus": "resolved-exact",
+      "pbdbId": "txn:494487",
+      "acceptedName": "Cosmoselachus mehlingi",
+      "acceptedRank": "species",
+      "matchedTaxonName": "Cosmoselachus mehlingi",
+      "pbdbParentName": "Cosmoselachus",
+      "pbdbClassification": {"phylum": "Chordata", "class": "Chondrichthyes", "order": null, "family": null},
+      "resolvedName": "Cosmoselachus mehlingi",
+      "resolvedRank": "species",
+      "resolvedImmediateParent": "Cosmoselachus",
+      "resolvedClassification": {"phylum": "Chordata", "class": "Chondrichthyes", "order": null, "family": null},
+      "resolvedAncestorChain": [],
+      "localExpectedParentConcept": "Stem-chondrichthyan evidence route",
+      "parentRelationshipKind": "navigation-parent",
+      "lineageCompatibility": "not-applicable-non-taxonomic-edge",
+      "conceptReviewStatus": "not-required-navigation-edge",
+      "automatedRecommendation": "accept-external-mapping",
+      "humanCuratorDecision": null,
+      "curatorRationale": null,
+      "curatorReviewedAt": null,
+      "curatorReviewer": null,
+      "occurrenceCount": 1,
+      "referenceNo": "ref:88920",
+      "snapshotModifiedAt": null
     }
   ]
 }

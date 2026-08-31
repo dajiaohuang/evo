@@ -25359,6 +25359,157 @@
     ]
   },
   {
+    "id": "claim:event:famennian-maghriboselache-broad-snout",
+    "subjectId": "event:famennian-maghriboselache-broad-snout",
+    "claimKind": "scientific",
+    "claimType": "event-mechanism",
+    "statement": "Several partly articulated Maghriboselache mohamezanei skeletons from the Famennian Thylacocephalan Layer of Morocco preserve three-dimensional neurocrania with a broad cartilage-enclosed snout, widely separated nasal capsules and high-aspect-ratio fins; this is a specimen-level sensory and body-plan record, not a global crown-chondrichthyan origin.",
+    "confidence": "medium",
+    "confidenceRationale": "The primary study documents multiple named specimens, their Famennian layer and cranial and fin anatomy, while missing caudal regions, compression and matrix-sensitive placement limit organism-wide and lineage-wide inference.",
+    "reviewedBy": "Evo Atlas maintainer primary-source audit",
+    "reviewedAt": "2026-09-01",
+    "reviewedAgainstReferenceVersion": "Klug et al. 2023 DOI 10.1186/s13358-023-00266-6",
+    "referenceLinks": [
+      {
+        "relation": "supports",
+        "referenceId": "klug-2023-maghriboselache",
+        "pages": "1–7",
+        "figure": "Figures 1–6; Supplementary Table S1",
+        "quoteLocator": "Introduction; Material; Systematic palaeontology; neurocranium description"
+      },
+      {
+        "relation": "supports",
+        "referenceId": "klug-2023-maghriboselache",
+        "pages": "19–28",
+        "figure": "Figures 13–15",
+        "quoteLocator": "Phylogenetic analysis; Discussion; Conclusions"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:maghriboselache:taxonomy",
+    "subjectId": "taxon:maghriboselache",
+    "claimType": "taxonomy",
+    "claimKind": "scientific",
+    "statement": "Maghriboselache mohamezanei is a new symmoriiform chondrichthyan represented by several partly articulated skeletons; the cited matrix places it with Cladoselache in an early symmoriiform grouping, while alternative analyses can recover symmoriiforms differently.",
+    "confidence": "medium",
+    "confidenceRationale": "The named taxon and specimen-based diagnosis are directly described, but the paper reports alternative placements for symmoriiforms and the atlas preserves that topology sensitivity.",
+    "reviewedBy": "Evo Atlas maintainer primary-source audit",
+    "reviewedAt": "2026-09-01",
+    "reviewedAgainstReferenceVersion": "Klug et al. 2023 DOI 10.1186/s13358-023-00266-6",
+    "referenceLinks": [{
+      "relation": "supports",
+      "referenceId": "klug-2023-maghriboselache",
+      "pages": "1–7, 19–25",
+      "figure": "Figures 1–6, 13–15",
+      "quoteLocator": "Systematic palaeontology; phylogenetic analysis; Discussion"
+    }]
+  },
+  {
+    "id": "claim:taxon:maghriboselache:biogeography",
+    "subjectId": "taxon:maghriboselache",
+    "claimType": "biogeography",
+    "claimKind": "scientific",
+    "statement": "Maghriboselache mohamezanei is documented from the Thylacocephalan Layer at localities in the southern Maïder and Tafilalt regions of the eastern Anti-Atlas, Morocco; this represented sample does not establish a global distribution.",
+    "confidence": "medium",
+    "confidenceRationale": "The source lists named localities and specimen accessions directly; a finite Moroccan sample cannot establish absence, endemism or a worldwide range.",
+    "reviewedBy": "Evo Atlas maintainer primary-source audit",
+    "reviewedAt": "2026-09-01",
+    "reviewedAgainstReferenceVersion": "Klug et al. 2023 DOI 10.1186/s13358-023-00266-6",
+    "referenceLinks": [{
+      "relation": "supports",
+      "referenceId": "klug-2023-maghriboselache",
+      "pages": "3–5",
+      "figure": "Figure 1; Supplementary Table S1",
+      "quoteLocator": "Material; localities; Thylacocephalan Layer"
+    }]
+  },
+  {
+    "id": "claim:taxon:maghriboselache:ecology",
+    "subjectId": "taxon:maghriboselache",
+    "claimType": "ecology",
+    "claimKind": "scientific",
+    "statement": "Maghriboselache preserves a marine depositional context, digestive-tract and liver traces, high-aspect-ratio tails and large pectoral fins, but diet, habitat preference, locomotor performance and trophic guild are not directly established.",
+    "confidence": "medium",
+    "confidenceRationale": "The paper reports preserved soft-tissue and fin evidence and discusses implied functions, while explicitly limited preservation and lack of measured performance prevent a complete ecological reconstruction.",
+    "reviewedBy": "Evo Atlas maintainer primary-source audit",
+    "reviewedAt": "2026-09-01",
+    "reviewedAgainstReferenceVersion": "Klug et al. 2023 DOI 10.1186/s13358-023-00266-6",
+    "referenceLinks": [{
+      "relation": "supports",
+      "referenceId": "klug-2023-maghriboselache",
+      "pages": "3–7, 19–28",
+      "figure": "Figures 1–2, 8–9, 15",
+      "quoteLocator": "Material and methods; body form; pectoral and caudal fins; Discussion; Conclusions"
+    }]
+  },
+  {
+    "id": "claim:taxon:maghriboselache:morphology",
+    "subjectId": "taxon:maghriboselache",
+    "claimType": "morphology",
+    "claimKind": "scientific",
+    "statement": "Maghriboselache has a broad cartilage-enclosed snout with large, widely separated nasal capsules, a high-aspect-ratio lunate tail and strap-like pectoral-fin radials; the holotype neurocranium and referred three-dimensional material document these features separately.",
+    "confidence": "medium",
+    "confidenceRationale": "Figures and descriptions directly document the named cranial and fin features, but the material is distributed across specimens and some regions are compressed or missing.",
+    "reviewedBy": "Evo Atlas maintainer primary-source audit",
+    "reviewedAt": "2026-09-01",
+    "reviewedAgainstReferenceVersion": "Klug et al. 2023 DOI 10.1186/s13358-023-00266-6",
+    "referenceLinks": [{
+      "relation": "supports",
+      "referenceId": "klug-2023-maghriboselache",
+      "pages": "5–7, 10–18, 25–28",
+      "figure": "Figures 3–9, 13–15",
+      "quoteLocator": "Neurocranium; pectoral and caudal fins; sensory specialization; Conclusions"
+    }]
+  },
+  {
+    "id": "claim:taxon:maghriboselache:fossil-range",
+    "subjectId": "taxon:maghriboselache",
+    "claimType": "fossil-range",
+    "claimKind": "scientific",
+    "statement": "The displayed 369.5–369 Ma interval is the late early to early middle Famennian Thylacocephalan Layer sample for Maghriboselache mohamezanei and is not a global species FAD, LAD or crown-chondrichthyan origin.",
+    "confidence": "medium",
+    "confidenceRationale": "The primary source fixes the Famennian layer and named localities, but the interval is explicitly a study-sample envelope rather than a complete stratigraphic range.",
+    "reviewedBy": "Evo Atlas maintainer primary-source audit",
+    "reviewedAt": "2026-09-01",
+    "reviewedAgainstReferenceVersion": "Klug et al. 2023 DOI 10.1186/s13358-023-00266-6",
+    "referenceLinks": [{
+      "relation": "supports",
+      "referenceId": "klug-2023-maghriboselache",
+      "pages": "3–5, 19–28",
+      "figure": "Figures 1, 13–15; Supplementary Table S1",
+      "quoteLocator": "Material; age; time calibration; Discussion; Conclusions"
+    }]
+  },
+  {
+    "id": "claim:event:late-mississippian-cosmoselachus-operculum",
+    "subjectId": "event:late-mississippian-cosmoselachus-operculum",
+    "claimKind": "scientific",
+    "claimType": "event-mechanism",
+    "statement": "The partial holotype AMNH FF 20509 of Cosmoselachus mehlingi from the Late Mississippian Fayetteville Shale preserves elongate rays from the hyoid and branchial arches fused into a corrugated operculum covering at least two posterior branchial arches.",
+    "confidence": "medium",
+    "confidenceRationale": "The primary description and CT reconstruction directly document the accessioned partial specimen and operculate anatomy, while its damage and incomplete body limit broader functional inference.",
+    "reviewedBy": "Evo Atlas maintainer primary-source audit",
+    "reviewedAt": "2026-09-01",
+    "reviewedAgainstReferenceVersion": "Bronson et al. 2024 DOI 10.5252/geodiversitas2024v46a4",
+    "referenceLinks": [
+      {
+        "relation": "supports",
+        "referenceId": "bronson-2024-cosmoselachus",
+        "pages": "101–106",
+        "figure": "Figures 1–4",
+        "quoteLocator": "Abstract; Material; Systematic palaeontology; specimen description"
+      },
+      {
+        "relation": "supports",
+        "referenceId": "bronson-2024-cosmoselachus",
+        "pages": "107–113",
+        "figure": "Figures 5–7",
+        "quoteLocator": "CT reconstruction; branchial anatomy; phylogenetic analysis"
+      }
+    ]
+  },
+  {
     "id": "claim:taxon:yuganotheca:taxonomy",
     "subjectId": "taxon:yuganotheca",
     "claimType": "taxonomy",
@@ -25448,5 +25599,100 @@
       "quoteLocator": "Erratum correcting Supplementary Figures S4–S6 cited with the anatomical reconstruction"
     }
     ]
+  },
+  {
+    "id": "claim:taxon:cosmoselachus:taxonomy",
+    "subjectId": "taxon:cosmoselachus",
+    "claimType": "taxonomy",
+    "claimKind": "scientific",
+    "statement": "Cosmoselachus mehlingi is a new symmoriiform chondrichthyan from the Late Mississippian, represented by the partial holotype AMNH FF 20509 and recovered in the cited analysis as a falcatid within Symmoriiformes.",
+    "confidence": "medium",
+    "confidenceRationale": "The paper provides a formal diagnosis and named specimen, while the higher placement is a sampled phylogenetic result rather than a universal topology.",
+    "reviewedBy": "Evo Atlas maintainer primary-source audit",
+    "reviewedAt": "2026-09-01",
+    "reviewedAgainstReferenceVersion": "Bronson et al. 2024 DOI 10.5252/geodiversitas2024v46a4",
+    "referenceLinks": [{
+      "relation": "supports",
+      "referenceId": "bronson-2024-cosmoselachus",
+      "pages": "101–106, 113–117",
+      "figure": "Figures 1–4, 8",
+      "quoteLocator": "Systematic palaeontology; diagnosis; phylogenetic analysis"
+    }]
+  },
+  {
+    "id": "claim:taxon:cosmoselachus:biogeography",
+    "subjectId": "taxon:cosmoselachus",
+    "claimType": "biogeography",
+    "claimKind": "scientific",
+    "statement": "Cosmoselachus mehlingi is recorded from the Fayetteville Shale near Cove Creek in Searcy County, Arkansas, United States; this holotype locality does not establish a global distribution.",
+    "confidence": "medium",
+    "confidenceRationale": "The type locality and formation are directly tied to AMNH FF 20509, but one partial specimen cannot establish geographic absence, endemism or a species-wide distribution.",
+    "reviewedBy": "Evo Atlas maintainer primary-source audit",
+    "reviewedAt": "2026-09-01",
+    "reviewedAgainstReferenceVersion": "Bronson et al. 2024 DOI 10.5252/geodiversitas2024v46a4",
+    "referenceLinks": [{
+      "relation": "supports",
+      "referenceId": "bronson-2024-cosmoselachus",
+      "pages": "101–106",
+      "figure": "Figures 1–2",
+      "quoteLocator": "Abstract; locality and formation; Material; Systematic palaeontology"
+    }]
+  },
+  {
+    "id": "claim:taxon:cosmoselachus:ecology",
+    "subjectId": "taxon:cosmoselachus",
+    "claimType": "ecology",
+    "claimKind": "scientific",
+    "statement": "Cosmoselachus preserves teeth, branchial arches and partial pectoral fins in a marine Fayetteville Shale setting, but prey, habitat preference, locomotor performance, body size and trophic guild remain unresolved from the partial holotype.",
+    "confidence": "medium",
+    "confidenceRationale": "The paper supplies anatomical and depositional observations but does not directly observe behaviour or provide a complete body for ecological or performance estimates.",
+    "reviewedBy": "Evo Atlas maintainer primary-source audit",
+    "reviewedAt": "2026-09-01",
+    "reviewedAgainstReferenceVersion": "Bronson et al. 2024 DOI 10.5252/geodiversitas2024v46a4",
+    "referenceLinks": [{
+      "relation": "supports",
+      "referenceId": "bronson-2024-cosmoselachus",
+      "pages": "101–113",
+      "figure": "Figures 1–7",
+      "quoteLocator": "Material; teeth and jaw description; branchial and pectoral anatomy"
+    }]
+  },
+  {
+    "id": "claim:taxon:cosmoselachus:morphology",
+    "subjectId": "taxon:cosmoselachus",
+    "claimType": "morphology",
+    "claimKind": "scientific",
+    "statement": "Cosmoselachus has small cladodont teeth in widely spaced families, scalloped Meckel cartilages, elongate fused pharyngeal rays forming an operculum and approximately fifteen to eighteen distal fin radials.",
+    "confidence": "medium",
+    "confidenceRationale": "The diagnosis and CT figures directly support the named dental, jaw, branchial and fin features, while CT resolution and partial preservation limit some anatomical identifications.",
+    "reviewedBy": "Evo Atlas maintainer primary-source audit",
+    "reviewedAt": "2026-09-01",
+    "reviewedAgainstReferenceVersion": "Bronson et al. 2024 DOI 10.5252/geodiversitas2024v46a4",
+    "referenceLinks": [{
+      "relation": "supports",
+      "referenceId": "bronson-2024-cosmoselachus",
+      "pages": "104–113",
+      "figure": "Figures 3–7",
+      "quoteLocator": "Diagnosis; tooth families; Meckel cartilages; branchial rays; CT reconstruction"
+    }]
+  },
+  {
+    "id": "claim:taxon:cosmoselachus:fossil-range",
+    "subjectId": "taxon:cosmoselachus",
+    "claimType": "fossil-range",
+    "claimKind": "scientific",
+    "statement": "The displayed 326 Ma point is the Late Mississippian Fayetteville Shale holotype sample for Cosmoselachus mehlingi and is not a global species FAD, LAD, symmoriiform endpoint or complete range.",
+    "confidence": "medium",
+    "confidenceRationale": "The source fixes the Late Mississippian formation and holotype, but one partial specimen supports only a locality- and sample-scoped time point.",
+    "reviewedBy": "Evo Atlas maintainer primary-source audit",
+    "reviewedAt": "2026-09-01",
+    "reviewedAgainstReferenceVersion": "Bronson et al. 2024 DOI 10.5252/geodiversitas2024v46a4",
+    "referenceLinks": [{
+      "relation": "supports",
+      "referenceId": "bronson-2024-cosmoselachus",
+      "pages": "101–117",
+      "figure": "Figures 1–8",
+      "quoteLocator": "Abstract; Material; Systematic palaeontology; phylogenetic analysis; Conclusions"
+    }]
   }
 ]
