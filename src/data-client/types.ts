@@ -566,8 +566,8 @@ export interface RuntimePaleotopographyFrame {
     width: number
     height: number
     cellCount: number
-    resolutionDegrees: 0.1 | 0.5
-    derivation: 'lossless-full-source-grid' | 'exact-decimation-every-fifth-source-row-and-column'
+    resolutionDegrees: 0.1 | 0.3
+    derivation: 'lossless-full-source-grid' | 'exact-decimation-every-third-source-row-and-column'
     gridEncoding: 'gzip-signed-int16-little-endian-row-major'
     mediaType: 'application/octet-stream'
   }

@@ -24,7 +24,7 @@ WIDTH = 3601
 HEIGHT = 1801
 CELL_COUNT = WIDTH * HEIGHT
 DECODED_BYTES = CELL_COUNT * 2
-PREVIEW_STRIDE = 5
+PREVIEW_STRIDE = 3
 PREVIEW_WIDTH = (WIDTH - 1) // PREVIEW_STRIDE + 1
 PREVIEW_HEIGHT = (HEIGHT - 1) // PREVIEW_STRIDE + 1
 PREVIEW_DECODED_BYTES = PREVIEW_WIDTH * PREVIEW_HEIGHT * 2
@@ -145,7 +145,7 @@ def main() -> None:
             temporary_grid = grid_path.with_suffix(f"{grid_path.suffix}.tmp")
             temporary_grid.write_bytes(compressed_grid)
             temporary_grid.replace(grid_path)
-            preview_name = f"ma-{age:04d}.preview-05deg.i16.gz"
+            preview_name = f"ma-{age:04d}.preview-03deg.i16.gz"
             preview_path = arguments.output_root / preview_name
             temporary_preview = preview_path.with_suffix(f"{preview_path.suffix}.tmp")
             temporary_preview.write_bytes(compressed_preview)
@@ -192,10 +192,10 @@ def main() -> None:
                 },
                 "webPreviewGrid": {
                     "path": f"data/paleotopography/scotese-wright-2018-v2/{preview_name}",
-                    "derivation": "exact-decimation-every-fifth-source-row-and-column",
+                    "derivation": "exact-decimation-every-third-source-row-and-column",
                     "sourceGridSha256": hashlib.sha256(packed).hexdigest(),
                     "stride": PREVIEW_STRIDE,
-                    "resolutionDegrees": 0.5,
+                    "resolutionDegrees": 0.3,
                     "width": PREVIEW_WIDTH,
                     "height": PREVIEW_HEIGHT,
                     "cellCount": PREVIEW_WIDTH * PREVIEW_HEIGHT,
@@ -247,13 +247,13 @@ def main() -> None:
             "encoding": "gzip-signed-int16-little-endian-row-major",
             "transformation": "Every finite, exactly integral source z value is stored losslessly as signed 16-bit little-endian metres in unchanged north-to-south, west-to-east row order. No spatial or temporal interpolation is stored.",
             "webPreview": {
-                "resolutionDegrees": 0.5,
+                "resolutionDegrees": 0.3,
                 "stride": PREVIEW_STRIDE,
                 "width": PREVIEW_WIDTH,
                 "height": PREVIEW_HEIGHT,
                 "cellCount": PREVIEW_WIDTH * PREVIEW_HEIGHT,
                 "decodedBytesPerFrame": PREVIEW_DECODED_BYTES,
-                "derivation": "Retain every fifth source row and column, including all four geographic edges. Values remain exact selected source integer metres; no averaging or interpolation is stored.",
+                "derivation": "Retain every third source row and column, including all four geographic edges. Values remain exact selected source integer metres; no smoothing, averaging or spatial or temporal interpolation is stored.",
             },
         },
         "selection": {
