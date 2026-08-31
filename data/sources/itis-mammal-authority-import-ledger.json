@@ -1,0 +1,312 @@
+{
+  "schemaVersion": 1,
+  "importType": "COL26.8-to-ITIS-exact-mammalia-nomenclatural-sidecars",
+  "generatedFrom": {
+    "sourcePath": "data/sources/itis-2026-08-26.json",
+    "sourceSha256": "38a7a55b4e98cafc66790e47f6bd637e298e23fd691e4771c755b38e4a02d7fc",
+    "itisDatabaseMember": "itisSqlite082626/ITIS.sqlite",
+    "itisDatabaseSha256": "ea7304536cfd7b1e2636d383911ca7931fc83d9ab1194ca2a3c020ea2daf1719",
+    "colRegistryManifestPath": "data/catalogue-of-life/releases/2026-08-20/registry/manifest.json",
+    "colRegistryManifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151",
+    "colOwnershipPath": "data/registry/package-species-coverage.json",
+    "colOwnershipSha256": "168e7cb70124ca4400e1b86c5fe76e7c1ff551bddd7be50f0149f077f40db1cf",
+    "colOwnershipInputSemantics": "The ownershipSha256 nested in the historical ITIS source import contract is not used as this import input; this migration uses the checked-in ownership projection bytes above and pins their SHA-256 directly."
+  },
+  "scopeAudit": {
+    "colRootUsageIds": [
+      "623DW",
+      "6227M",
+      "WP",
+      "3W7",
+      "VS",
+      "6224G"
+    ],
+    "colStrictAcceptedSpecies": 6461,
+    "packageCounts": {
+      "perissodactyla": {
+        "total": 19,
+        "accepted": 19,
+        "synonymCurrentNameRedirect": 0,
+        "ambiguous": 0,
+        "unmatched": 0
+      },
+      "cetartiodactyla": {
+        "total": 503,
+        "accepted": 502,
+        "synonymCurrentNameRedirect": 0,
+        "ambiguous": 1,
+        "unmatched": 0
+      },
+      "primates": {
+        "total": 530,
+        "accepted": 530,
+        "synonymCurrentNameRedirect": 0,
+        "ambiguous": 0,
+        "unmatched": 0
+      },
+      "carnivora": {
+        "total": 310,
+        "accepted": 310,
+        "synonymCurrentNameRedirect": 0,
+        "ambiguous": 0,
+        "unmatched": 0
+      },
+      "other-mammals": {
+        "total": 5099,
+        "accepted": 5099,
+        "synonymCurrentNameRedirect": 0,
+        "ambiguous": 0,
+        "unmatched": 0
+      },
+      "upstreamOnly": {
+        "perissodactyla": 0,
+        "cetartiodactyla": 0,
+        "primates": 0,
+        "carnivora": 0,
+        "other-mammals": 3
+      }
+    },
+    "itisRoot": {
+      "tsn": "179913",
+      "scientificName": "Mammalia",
+      "rank": "Class",
+      "usage": "valid"
+    },
+    "itisCurrentSpecies": 6464,
+    "itisSpeciesSynonymLinks": 5180,
+    "maximumUpdateDates": {
+      "taxonomicUnits": "2026-08-26",
+      "synonymLinks": "2026-08-26"
+    }
+  },
+  "matchingContract": {
+    "normalization": [
+      "Remove the exact trailing COL authorship field from COL scientificName when that suffix is present; no authorship parser is used.",
+      "Normalize Unicode to NFC, replace underscores with spaces, collapse Unicode whitespace and trim.",
+      "For species-rank comparison, remove one parenthesized subgenus token in the exact Genus (Subgenus) species representation; genus and specific epithet must remain unchanged.",
+      "Preserve case, diacritics, punctuation and all remaining name tokens."
+    ],
+    "forbidden": "No fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered or taxon-substituted matching is used."
+  },
+  "totals": {
+    "total": 6461,
+    "accepted": 6460,
+    "synonymCurrentNameRedirect": 0,
+    "ambiguous": 1,
+    "unmatched": 0,
+    "itisCurrentSpecies": 6464,
+    "itisSpeciesSynonymLinks": 5180,
+    "itisUpstreamOnly": 3
+  },
+  "canonical": {
+    "path": "data/sources/itis-mammal-authority-crosswalk-col26.8.json.gz",
+    "bytes": 266595,
+    "sha256": "078d0d25e8a950054090e322abb8b20b5ec26e29a6787a30519314cdc162a115",
+    "sourceBytes": 3765545,
+    "sourceSha256": "76ee408492ccd611c29d55a7551d6abcdcfe56b16f91355b48f0064c9284a202"
+  },
+  "outputs": {
+    "perissodactyla": {
+      "descriptor": {
+        "path": "data/packages/mammalia/perissodactyla/nomenclature/itis-tsn-sidecar.json",
+        "bytes": 5031,
+        "sha256": "bcba89f8518ae97d49f4221409e690bb474239e470fd1d3bbb9d920dac257dc8"
+      },
+      "counts": {
+        "total": 19,
+        "accepted": 19,
+        "synonymCurrentNameRedirect": 0,
+        "ambiguous": 0,
+        "unmatched": 0,
+        "itisCurrentSpecies": 6464,
+        "itisSpeciesSynonymLinks": 5180,
+        "itisUpstreamOnly": 0
+      },
+      "colUsageIdShards": [
+        {
+          "path": "data/packages/mammalia/perissodactyla/nomenclature/itis-tsn-sidecar-000.jsonl.gz",
+          "records": 19,
+          "firstColUsageId": "35JV8",
+          "lastColUsageId": "SQFF",
+          "bytes": 931,
+          "sha256": "0d6cce7d3503abb0a59a09e0530bfadefc8bc9336024bcb940e259233a9c871b",
+          "sourceBytes": 6945,
+          "sourceSha256": "1c4c74e622a86e5302b34c571fd9ac2eb11cc4c173134ee88c8624916f6edad6"
+        }
+      ],
+      "upstreamOnly": null
+    },
+    "cetartiodactyla": {
+      "descriptor": {
+        "path": "data/packages/mammalia/cetartiodactyla/nomenclature/itis-tsn-sidecar.json",
+        "bytes": 5056,
+        "sha256": "d44e276f5cfdd38f8ba133891aebc4b07f2e8dae280611511b2dcfefea8310d1"
+      },
+      "counts": {
+        "total": 503,
+        "accepted": 502,
+        "synonymCurrentNameRedirect": 0,
+        "ambiguous": 1,
+        "unmatched": 0,
+        "itisCurrentSpecies": 6464,
+        "itisSpeciesSynonymLinks": 5180,
+        "itisUpstreamOnly": 0
+      },
+      "colUsageIdShards": [
+        {
+          "path": "data/packages/mammalia/cetartiodactyla/nomenclature/itis-tsn-sidecar-000.jsonl.gz",
+          "records": 503,
+          "firstColUsageId": "342N9",
+          "lastColUsageId": "XPLQ",
+          "bytes": 18565,
+          "sha256": "fc0d55b6f7dd78324abd003fd1e544a76ed4e7656a916621fc03779d1bddac4a",
+          "sourceBytes": 187868,
+          "sourceSha256": "260d0b4844e532eafcf67eacd58b0e73429b9365a628fef89febec08692fb678"
+        }
+      ],
+      "upstreamOnly": null
+    },
+    "primates": {
+      "descriptor": {
+        "path": "data/packages/mammalia/primates/nomenclature/itis-tsn-sidecar.json",
+        "bytes": 5012,
+        "sha256": "96dee66ffd47cbf98d61724ad7ea5c271bd247e8996bf59b8413cc50ef99e58f"
+      },
+      "counts": {
+        "total": 530,
+        "accepted": 530,
+        "synonymCurrentNameRedirect": 0,
+        "ambiguous": 0,
+        "unmatched": 0,
+        "itisCurrentSpecies": 6464,
+        "itisSpeciesSynonymLinks": 5180,
+        "itisUpstreamOnly": 0
+      },
+      "colUsageIdShards": [
+        {
+          "path": "data/packages/mammalia/primates/nomenclature/itis-tsn-sidecar-000.jsonl.gz",
+          "records": 530,
+          "firstColUsageId": "34B7X",
+          "lastColUsageId": "X6S9",
+          "bytes": 20348,
+          "sha256": "d87fb2e57429ab0d587346c29b9d368bac90aa1f119560c80d9e6b4ca5bf3a5e",
+          "sourceBytes": 209143,
+          "sourceSha256": "5260ba8b84371f33cba31a98c1d65a2c44b67cc420eb9717f037e4cadd3388e8"
+        }
+      ],
+      "upstreamOnly": null
+    },
+    "carnivora": {
+      "descriptor": {
+        "path": "data/packages/mammalia/carnivora/nomenclature/itis-tsn-sidecar.json",
+        "bytes": 5015,
+        "sha256": "7993503e39609270b14efe5f472d565cdba381c703d0f790513c3e88e60b68bc"
+      },
+      "counts": {
+        "total": 310,
+        "accepted": 310,
+        "synonymCurrentNameRedirect": 0,
+        "ambiguous": 0,
+        "unmatched": 0,
+        "itisCurrentSpecies": 6464,
+        "itisSpeciesSynonymLinks": 5180,
+        "itisUpstreamOnly": 0
+      },
+      "colUsageIdShards": [
+        {
+          "path": "data/packages/mammalia/carnivora/nomenclature/itis-tsn-sidecar-000.jsonl.gz",
+          "records": 310,
+          "firstColUsageId": "339RB",
+          "lastColUsageId": "ZZ3R",
+          "bytes": 11389,
+          "sha256": "fe51033b8b9e9bd859d2a0f6da7629230c2550ba4063b18de1dc864a0ef07fe4",
+          "sourceBytes": 114767,
+          "sourceSha256": "e04149b4a5165d0ba246f99a18d3cb97d8d02b91203920243e713b087a596f70"
+        }
+      ],
+      "upstreamOnly": null
+    },
+    "other-mammals": {
+      "descriptor": {
+        "path": "data/packages/mammalia/other-mammals/nomenclature/itis-tsn-sidecar.json",
+        "bytes": 6957,
+        "sha256": "d41b97b77603ca44d5a153be9489174a1c0c4236591d007e9ceea6b137aa9228"
+      },
+      "counts": {
+        "total": 5099,
+        "accepted": 5099,
+        "synonymCurrentNameRedirect": 0,
+        "ambiguous": 0,
+        "unmatched": 0,
+        "itisCurrentSpecies": 6464,
+        "itisSpeciesSynonymLinks": 5180,
+        "itisUpstreamOnly": 3
+      },
+      "colUsageIdShards": [
+        {
+          "path": "data/packages/mammalia/other-mammals/nomenclature/itis-tsn-sidecar-000.jsonl.gz",
+          "records": 1385,
+          "firstColUsageId": "323B3",
+          "lastColUsageId": "48DGY",
+          "bytes": 50444,
+          "sha256": "46ebd4cdf653bf23d1ca4d8d60c0b0cf8c65c1cf676518e0acde8423ced318c1",
+          "sourceBytes": 524199,
+          "sourceSha256": "5dba767cfe30f75b40921084b4da29115c922964bb1ad729900e94fc8402eb08"
+        },
+        {
+          "path": "data/packages/mammalia/other-mammals/nomenclature/itis-tsn-sidecar-001.jsonl.gz",
+          "records": 1388,
+          "firstColUsageId": "48DGZ",
+          "lastColUsageId": "666VJ",
+          "bytes": 49720,
+          "sha256": "0ad3f0355aaac14a2c09ae4ddd6b9be91cd34fa292c59aafc35f67a8cfe7056b",
+          "sourceBytes": 524249,
+          "sourceSha256": "00cca1d9464c5f96a2d9eebb82423c448f5416f4e855bafbf648b5b1743ba851"
+        },
+        {
+          "path": "data/packages/mammalia/other-mammals/nomenclature/itis-tsn-sidecar-002.jsonl.gz",
+          "records": 1379,
+          "firstColUsageId": "666VL",
+          "lastColUsageId": "8LZYP",
+          "bytes": 54893,
+          "sha256": "74538475c572764d88c630d57b7e63170b6c7a89705c563613fb40f64dbdc1eb",
+          "sourceBytes": 524226,
+          "sourceSha256": "f35e41f4df6a34b6d588f858a33b9e9cbd65840dbcd7d747dcb9ea90f3410434"
+        },
+        {
+          "path": "data/packages/mammalia/other-mammals/nomenclature/itis-tsn-sidecar-003.jsonl.gz",
+          "records": 947,
+          "firstColUsageId": "8LZYQ",
+          "lastColUsageId": "ZY8B",
+          "bytes": 35587,
+          "sha256": "373a5a350622ec3921dc75528e92e68031007fffc46a5326fe6f3d92c4c357c3",
+          "sourceBytes": 362606,
+          "sourceSha256": "f765cca8957cb2f01e431322bc6691c4b0ce197d1f8bfc40feee9bd44382c9cf"
+        }
+      ],
+      "upstreamOnly": {
+        "path": "data/packages/mammalia/other-mammals/nomenclature/itis-upstream-only-000.jsonl.gz",
+        "records": 3,
+        "firstColUsageId": null,
+        "lastColUsageId": null,
+        "bytes": 368,
+        "sha256": "c0aec2fd7fcdb1af70916736c7851879569b3638b1812acdf858a3b3ae4dd381",
+        "sourceBytes": 1290,
+        "sourceSha256": "9a760e2c0924a1746a5f189af67c7f21810878eea612214dbaea4a7b48e54172",
+        "colOwnership": null,
+        "firstTsn": "625357",
+        "lastTsn": "632040"
+      }
+    }
+  },
+  "deliveryContract": {
+    "pagesLight": "Pages may include only the small per-package descriptors and omit all row-level sidecar shards.",
+    "androidIosFull": "Android and iOS must include each descriptor, all listed colUsageId shards and each listed upstream-only shard byte-for-byte.",
+    "runtimeChange": "This data import changes no runtime/version/release manifest."
+  },
+  "generatedBy": {
+    "scriptPath": "scripts/build-itis-mammal-sidecar.mjs",
+    "scriptSha256": "47601ea7c4b2edb5a017ef3075836b1450110b0bc9e23ec6f4d9141cec1c162d",
+    "deterministic": "Pinned input checksums, fixed roots, exact SQL, exact representation-only normalization and stable sorting; no wall-clock fields or fuzzy matching."
+  }
+}
