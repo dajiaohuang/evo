@@ -160,7 +160,7 @@ for (const packageEntry of packageRegistry.packages) {
       id: 'itis-porifera-cnidaria-tsn-crosswalk', total: 30521, accepted: 4242, redirects: 50, ambiguous: 3, unmatched: 26226, upstreamOnly: 2218, files: 6,
     })
   } else if (packageEntry.id === 'crustaceans-insects') {
-    if (nomenclatureCollections.length !== 3) failures.push('crustaceans-insects: expected three ITIS nomenclature collections')
+    if (nomenclatureCollections.length !== 4) failures.push('crustaceans-insects: expected four ITIS nomenclature collections')
     checkItisSummaryOnlyCollection('crustaceans-insects', nomenclatureCollections, {
       id: 'itis-crustacea-tsn-crosswalk', total: 80890, accepted: 26395, redirects: 115, ambiguous: 38, unmatched: 54342, upstreamOnly: 5991, files: 41,
     })
@@ -169,6 +169,9 @@ for (const packageEntry of packageRegistry.packages) {
     })
     checkItisSummaryOnlyCollection('crustaceans-insects', nomenclatureCollections, {
       id: 'itis-myriapoda-tsn-crosswalk', total: 14210, accepted: 3040, redirects: 0, ambiguous: 2, unmatched: 11168, upstreamOnly: 3445, files: 3,
+    })
+    checkItisSummaryOnlyCollection('crustaceans-insects', nomenclatureCollections, {
+      id: 'itis-collembola-protura-tsn-crosswalk', total: 9668, accepted: 2075, redirects: 25, ambiguous: 4, unmatched: 7564, upstreamOnly: 411, files: 3,
     })
   } else if (packageEntry.id === 'trilobites-chelicerates') {
     if (nomenclatureCollections.length !== 1) failures.push('trilobites-chelicerates: expected one ITIS nomenclature collection')

@@ -163,17 +163,18 @@ final class AppConfigurationTests: XCTestCase {
             } else if packageId == "crustaceans-insects" || packageId == "trilobites-chelicerates" {
                 let collections = try XCTUnwrap(package["nomenclatureCollections"] as? [[String: Any]])
                 let expectedIds = packageId == "crustaceans-insects"
-                    ? ["itis-insecta-tsn-crosswalk", "itis-crustacea-tsn-crosswalk", "itis-myriapoda-tsn-crosswalk"]
+                    ? ["itis-insecta-tsn-crosswalk", "itis-crustacea-tsn-crosswalk", "itis-myriapoda-tsn-crosswalk", "itis-collembola-protura-tsn-crosswalk"]
                     : ["itis-chelicerata-tsn-crosswalk"]
-                let expectedFiles = packageId == "crustaceans-insects" ? [99, 40, 2] : [16]
-                let expectedUpstreamFiles = packageId == "crustaceans-insects" ? [1, 1, 1] : [1]
-                let expectedRecords = packageId == "crustaceans-insects" ? [941_223, 80_890, 14_210] : [99_511]
-                let expectedUpstreamRecords = packageId == "crustaceans-insects" ? [27_357, 5_991, 3_445] : [5_714]
+                let expectedFiles = packageId == "crustaceans-insects" ? [99, 40, 2, 2] : [16]
+                let expectedUpstreamFiles = packageId == "crustaceans-insects" ? [1, 1, 1, 1] : [1]
+                let expectedRecords = packageId == "crustaceans-insects" ? [941_223, 80_890, 14_210, 9_668] : [99_511]
+                let expectedUpstreamRecords = packageId == "crustaceans-insects" ? [27_357, 5_991, 3_445, 411] : [5_714]
                 let expectedDescriptorShas = packageId == "crustaceans-insects"
                     ? [
                         "c168f706a7067fd6d95548777b6fe5cadf0c6b2b67b9442698d9350c521c2cdf",
                         "9fb4271dce81e92f2df706da26c379053e649f21416d81ec1d8db6bb2031490b",
                         "7eeea9a62f0a51150f643c6f14d02511f8ab042b8264e64bbb0ec505520a5ac8",
+                        "bf90e217fa6871bb1e59807b721ed88403c47e9aa2712a782ef40146b906fdf2",
                     ]
                     : ["90383cc2bf44dc092b59c7ed131169317a0a613699aa6485c6f3e9b74decfa3c"]
                 XCTAssertEqual(collections.count, expectedIds.count)
@@ -325,8 +326,8 @@ final class AppConfigurationTests: XCTestCase {
         XCTAssertEqual(phylogenyPackages, 2)
         XCTAssertEqual(wormsNomenclatureRecords, 11_891)
         XCTAssertEqual(richItisNomenclatureRecords, 214_855)
-        XCTAssertEqual(arthropodItisFiles, 161)
-        XCTAssertEqual(arthropodItisNomenclatureRecords, 1_178_341)
+        XCTAssertEqual(arthropodItisFiles, 164)
+        XCTAssertEqual(arthropodItisNomenclatureRecords, 1_188_420)
         XCTAssertEqual(reptiliaItisFiles, 10)
         XCTAssertEqual(reptiliaItisNomenclatureRecords, 13_277)
         XCTAssertEqual(crocodyliaItisFiles, 1)
