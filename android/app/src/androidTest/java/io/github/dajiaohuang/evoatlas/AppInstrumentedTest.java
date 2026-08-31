@@ -194,6 +194,28 @@ public class AppInstrumentedTest {
                 }
                 assertEquals(collection.getJSONObject("counts").getInt("total"), collectionRecords);
                 wfoRichRecords += collectionRecords;
+            } else if (packageId.equals("amphibia")) {
+                JSONArray collections = pack.getJSONArray("nomenclatureCollections");
+                assertEquals(1, collections.length());
+                JSONObject collection = collections.getJSONObject(0);
+                assertEquals("itis-2026-08-26-tsn-crosswalk", collection.getString("id"));
+                assertEquals("Integrated Taxonomic Information System", collection.getString("provider"));
+                JSONObject delivery = collection.getJSONObject("delivery");
+                assertEquals("native-full", delivery.getString("profile"));
+                assertTrue(delivery.getBoolean("completeRows"));
+                JSONArray colFiles = collection.getJSONArray("files");
+                JSONArray upstreamFiles = collection.getJSONArray("upstreamOnlyFiles");
+                assertEquals(8, colFiles.length() + upstreamFiles.length());
+                for (int index = 0; index < colFiles.length() + upstreamFiles.length(); index += 1) {
+                    JSONObject file = index < colFiles.length() ? colFiles.getJSONObject(index) : upstreamFiles.getJSONObject(index - colFiles.length());
+                    JSONObject inventoryRecord = findInventoryRecord(files, file.getString("url"));
+                    assertNotNull("ITIS Amphibia shard missing from native release inventory", inventoryRecord);
+                    assertEquals(file.getInt("bytes"), inventoryRecord.getInt("bytes"));
+                    assertEquals(file.getString("sha256"), inventoryRecord.getString("sha256"));
+                    verifyAssetRecord(context, inventoryRecord);
+                }
+                assertEquals(8923, collection.getJSONObject("counts").getInt("total"));
+                assertEquals(8, collection.getJSONObject("counts").getInt("itisUpstreamOnly"));
             } else if (packageId.equals("crocodylomorphs-birds")) {
                 JSONArray collections = pack.getJSONArray("nomenclatureCollections");
                 assertEquals(1, collections.length());

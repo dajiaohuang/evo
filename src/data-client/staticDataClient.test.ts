@@ -635,6 +635,70 @@ describe('static runtime release coherence', () => {
     await expect(webClient.loadPackageAviListBirdRecord('M001')).rejects.toThrow('full Android/iOS data profile')
   })
 
+  it('loads one ITIS JSONL range shard in native-full and keeps Web summary-only', async () => {
+    Object.defineProperty(globalThis, 'Worker', { configurable: true, value: undefined })
+    const rows = [
+      { status: 'accepted', colUsageId: 'A001', colScientificName: 'Amphibia alpha', currentName: { tsn: '1', scientificName: 'Amphibia alpha', usage: 'valid' } },
+      { status: 'ambiguous', colUsageId: 'M001', colScientificName: 'Amphibia media', candidates: [{ tsn: '2', scientificName: 'Amphibia media' }] },
+      { status: 'accepted', colUsageId: 'Z001', colScientificName: 'Amphibia zeta', currentName: { tsn: '3', scientificName: 'Amphibia zeta', usage: 'valid' } },
+    ] as const
+    const shardFiles = await Promise.all(rows.map(async (row, index) => {
+      const body = `${JSON.stringify(row)}\n`
+      const digest = await sha256Text(body)
+      return {
+        body,
+        file: {
+          path: `data/packages/vertebrata/amphibia/nomenclature/itis-tsn-sidecar-${index}.jsonl.gz`,
+          url: `releases/dataset-itis/packages/amphibia/nomenclature/itis-tsn-sidecar-${index}.jsonl`,
+          records: 1,
+          bytes: new TextEncoder().encode(body).byteLength,
+          sourceBytes: new TextEncoder().encode(body).byteLength,
+          sha256: digest,
+          sourceSha256: digest,
+          mediaType: 'application/x-ndjson' as const,
+          minColId: row.colUsageId,
+          maxColId: row.colUsageId,
+        },
+      }
+    }))
+    const collection = {
+      schemaVersion: 1,
+      id: 'itis-2026-08-26-tsn-crosswalk',
+      recordType: 'release-pinned-exact-nomenclatural-crosswalk',
+      provider: 'Integrated Taxonomic Information System',
+      packageId: 'amphibia',
+      source: {}, matching: {}, evidenceBoundary: { en: 'fixture', zh: 'fixture' }, limitations: [], descriptorSha256: 'fixture',
+      counts: { total: 3, accepted: 2, synonymCurrentNameRedirect: 0, ambiguous: 1, unmatched: 0, itisCurrentSpecies: 3, itisSpeciesSynonymLinks: 0, itisUpstreamOnly: 0 },
+      files: shardFiles.map(({ file }) => file), upstreamOnlyFiles: [], canonicalFileInventory: [],
+      delivery: { profile: 'native-full', completeRows: true, publishedFileCount: 3, canonicalFileCount: 3 },
+    }
+    const packageManifest = { packageId: 'amphibia', version: 'dataset-itis', files: {}, occurrences: [], nomenclatureCollections: [collection] }
+    const manifestFile = { url: 'releases/dataset-itis/packages/amphibia/manifest.json', sha256: await sha256(packageManifest) }
+    const current = { datasetVersion: 'dataset-itis', releaseBase: 'releases/dataset-itis/', packages: { manifests: { amphibia: manifestFile } } }
+    const fetchMock = vi.fn(async (input: RequestInfo | URL) => {
+      const url = String(input)
+      if (url.endsWith('/data/current.json')) return responseFor(current)
+      if (url.endsWith(manifestFile.url)) return responseFor(packageManifest)
+      const shard = shardFiles.find(({ file }) => url.endsWith(file.url))
+      return shard ? textResponseFor(shard.body) : { ok: false, status: 404, arrayBuffer: async () => new ArrayBuffer(0) }
+    })
+    vi.stubGlobal('fetch', fetchMock)
+
+    const { loadPackageItisRecord } = await import('./staticDataClient')
+    await expect(loadPackageItisRecord('amphibia', 'M001')).resolves.toMatchObject({ record: rows[1] })
+    expect(fetchMock.mock.calls.filter(([input]) => String(input).includes('/nomenclature/itis-tsn-sidecar-'))).toHaveLength(1)
+
+    vi.resetModules()
+    const webCollection = { ...collection, files: [], delivery: { profile: 'web-light', completeRows: false, publishedFileCount: 0, canonicalFileCount: 3 } }
+    const webManifest = { ...packageManifest, nomenclatureCollections: [webCollection] }
+    const webManifestFile = { ...manifestFile, sha256: await sha256(webManifest) }
+    vi.stubGlobal('fetch', vi.fn(async (input: RequestInfo | URL) => String(input).endsWith('/data/current.json')
+      ? responseFor({ ...current, packages: { manifests: { amphibia: webManifestFile } } })
+      : responseFor(webManifest)))
+    const webClient = await import('./staticDataClient')
+    await expect(webClient.loadPackageItisRecord('amphibia', 'M001')).rejects.toThrow('full Android/iOS data profile')
+  })
+
   it('loads and caches the pinned source-checklist ledger through the verified runtime file path', async () => {
     const sources: CatalogueSourceChecklist[] = [{
       datasetId: '1005',

@@ -159,6 +159,22 @@ for (const packageEntry of packageRegistry.packages) {
       }
       wfoRichRecords += records
     }
+  } else if (packageEntry.id === 'amphibia') {
+    const itis = nomenclatureCollections.find((collection) => collection.id === 'itis-2026-08-26-tsn-crosswalk')
+    if (nomenclatureCollections.length !== 1 || !itis || itis.provider !== 'Integrated Taxonomic Information System'
+      || itis.recordType !== 'release-pinned-exact-nomenclatural-crosswalk'
+      || itis.source?.license !== 'CC0-1.0'
+      || itis.counts?.total !== 8923 || itis.counts?.accepted !== 8909
+      || itis.counts?.ambiguous !== 14 || itis.counts?.unmatched !== 0
+      || itis.counts?.itisUpstreamOnly !== 8) {
+      failures.push('amphibia: ITIS nomenclature summary is incomplete')
+    } else if (itis.delivery?.profile !== 'web-light' || itis.delivery?.completeRows !== false
+      || itis.delivery?.publishedFileCount !== 0 || itis.delivery?.canonicalFileCount !== 8
+      || itis.files?.length !== 0 || itis.upstreamOnlyFiles?.length !== 0
+      || itis.canonicalFileInventory?.length !== 8
+      || itis.canonicalFileInventory.some((file) => !file.path || file.sha256?.length !== 64 || file.sourceSha256?.length !== 64)) {
+      failures.push('amphibia: Pages must publish the ITIS summary without full row shards')
+    }
   } else if (packageEntry.id === 'crocodylomorphs-birds') {
     const avilist = nomenclatureCollections.find((collection) => collection.id === 'avilist-v2025b-avibase-concepts')
     if (nomenclatureCollections.length !== 1 || !avilist || avilist.provider !== 'AviList Core Team'

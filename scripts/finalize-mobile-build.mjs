@@ -77,6 +77,18 @@ if (!avilist || avilist.delivery?.profile !== 'native-full' || avilist.delivery?
   || avilist.upstreamOnlyFiles.reduce((sum, file) => sum + file.records, 0) !== 609) {
   throw new Error('Mobile build must stage the complete AviList birds authority collection')
 }
+const amphibiaManifestFile = current.packages?.manifests?.amphibia
+if (!amphibiaManifestFile?.url) throw new Error('Mobile build is missing the Amphibia package manifest')
+const amphibiaManifest = JSON.parse(readFileSync(join(sourceDataRoot, ...amphibiaManifestFile.url.split('/')), 'utf8'))
+const itisAmphibia = amphibiaManifest.nomenclatureCollections?.find((collection) => collection.id === 'itis-2026-08-26-tsn-crosswalk')
+if (!itisAmphibia || itisAmphibia.provider !== 'Integrated Taxonomic Information System'
+  || itisAmphibia.delivery?.profile !== 'native-full' || itisAmphibia.delivery?.completeRows !== true
+  || itisAmphibia.files?.length !== 7 || itisAmphibia.upstreamOnlyFiles?.length !== 1
+  || itisAmphibia.delivery?.publishedFileCount !== 8 || itisAmphibia.delivery?.canonicalFileCount !== 8
+  || itisAmphibia.files.reduce((sum, file) => sum + file.records, 0) !== 8923
+  || itisAmphibia.upstreamOnlyFiles.reduce((sum, file) => sum + file.records, 0) !== 8) {
+  throw new Error('Mobile build must stage the complete ITIS Amphibia authority collection')
+}
 
 const interactiveFiles = releaseFiles.files.filter((file) => !file.url.includes('/downloads/'))
 const bootstrapFiles = ['current.json', 'releases.json', release.filesIndex]
