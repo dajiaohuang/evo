@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 1,
+  "importType": "COL26.8-to-ITIS-exact-amphibia-nomenclatural-sidecar",
+  "generatedFrom": {
+    "sourcePath": "data/sources/itis-2026-08-26.json",
+    "sourceSha256": "38a7a55b4e98cafc66790e47f6bd637e298e23fd691e4771c755b38e4a02d7fc",
+    "itisDatabaseMember": "itisSqlite082626/ITIS.sqlite",
+    "itisDatabaseSha256": "ea7304536cfd7b1e2636d383911ca7931fc83d9ab1194ca2a3c020ea2daf1719",
+    "colRegistryManifestPath": "data/catalogue-of-life/releases/2026-08-20/registry/manifest.json",
+    "colRegistryManifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151",
+    "colOwnershipPath": "data/registry/package-species-coverage.json",
+    "colOwnershipSha256": "6fe5871f3d5bd9a332fc874af6226221379adf3cee7871a3237fa9376258afe0"
+  },
+  "scopeAudit": {
+    "colRootUsageId": "PH",
+    "colStrictAcceptedSpecies": 8923,
+    "itisRoot": {
+      "tsn": "173420",
+      "scientificName": "Amphibia",
+      "rank": "Class",
+      "usage": "valid"
+    },
+    "itisCurrentSpecies": 8931,
+    "itisSpeciesSynonymLinks": 12680,
+    "maximumUpdateDates": {
+      "taxonomicUnits": "2026-08-26",
+      "synonymLinks": "2026-08-26"
+    }
+  },
+  "matchingContract": {
+    "normalization": [
+      "Remove the exact trailing COL authorship field from COL scientificName when that suffix is present; no authorship parser is used.",
+      "Normalize Unicode to NFC, replace underscores with spaces, collapse Unicode whitespace and trim.",
+      "For species-rank comparison, remove one parenthesized subgenus token in the exact Genus (Subgenus) species representation; genus and specific epithet must remain unchanged.",
+      "Preserve case, diacritics, punctuation and all remaining name tokens."
+    ],
+    "statuses": {
+      "accepted": "The normalized COL name resolves to exactly one valid ITIS Amphibia species and directly equals that current ITIS name.",
+      "synonym-current-name-redirect": "The normalized COL name equals one or more official ITIS invalid species names whose synonym_links rows resolve to exactly one valid ITIS Amphibia species.",
+      "ambiguous": "The normalized exact evidence resolves to more than one valid ITIS Amphibia species TSN.",
+      "unmatched": "No normalized exact valid-name or official ITIS species-synonym evidence resolves to a valid ITIS Amphibia species."
+    },
+    "prohibited": "No fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered or taxon-substituted matching is used."
+  },
+  "totals": {
+    "total": 8923,
+    "accepted": 8909,
+    "synonymCurrentNameRedirect": 0,
+    "ambiguous": 14,
+    "unmatched": 0,
+    "itisCurrentSpecies": 8931,
+    "itisSpeciesSynonymLinks": 12680,
+    "itisUpstreamOnly": 8
+  },
+  "output": {
+    "path": "data/packages/vertebrata/amphibia/nomenclature/itis-tsn-sidecar.json",
+    "bytes": 6009288,
+    "sha256": "6352f267c8c8444193f259aba2b930bfa680bb13e078ec5f8b861b6b17714cca"
+  },
+  "deliveryContract": {
+    "webLight": "Optional lazy package sidecar; do not add it to default precache.",
+    "zip": "Include the exact sidecar bytes with the Amphibia package ZIP when a runtime integration is approved.",
+    "androidIosFull": "Include the same checksum-addressed sidecar bytes in Android and iOS complete-data inventories when a runtime integration is approved.",
+    "runtimeChange": "This import deliberately changes no formal runtime or published release manifest."
+  },
+  "generatedBy": {
+    "scriptPath": "scripts/build-itis-amphibia-sidecar.mjs",
+    "scriptSha256": "1950dd1a6fdb7f914663e2369fa1812df4368679139e7a2a4e74db914dca72f0",
+    "deterministic": "Pinned input checksums, fixed roots, exact SQL, exact representation-only normalization and stable sorting; no wall-clock fields or fuzzy matching."
+  }
+}
