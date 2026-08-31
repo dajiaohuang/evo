@@ -671,7 +671,28 @@ if (catalogue.resourcePacks?.packageCount !== 7
       }
     } else if (packageId === 'protists-chromists') {
       const foraminifera = extensions.find((candidate) => candidate.id === 'foraminifera-wfd-identifiers')
-      if (extensions.length !== 1 || !foraminifera
+      const expectedItis = {
+        'itis-ciliophora-tsn-crosswalk': { eligible: 8507, records: 8665, accepted: 246, redirects: 6, ambiguous: 0, unmatched: 8255, upstreamOnly: 158, nonApplicable: 53011, files: 4 },
+        'itis-apicomplexa-tsn-crosswalk': { eligible: 21, records: 21, accepted: 21, redirects: 0, ambiguous: 0, unmatched: 0, upstreamOnly: 0, nonApplicable: 61497, files: 1 },
+        'itis-dinoflagellata-tsn-crosswalk': { eligible: 259, records: 1110, accepted: 60, redirects: 2, ambiguous: 0, unmatched: 197, upstreamOnly: 851, nonApplicable: 61259, files: 2 },
+        'itis-euglenozoa-tsn-crosswalk': { eligible: 0, records: 276, accepted: 0, redirects: 0, ambiguous: 0, unmatched: 0, upstreamOnly: 276, nonApplicable: 61518, files: 1 },
+        'itis-cercozoa-tsn-crosswalk': { eligible: 52, records: 52, accepted: 0, redirects: 0, ambiguous: 0, unmatched: 52, upstreamOnly: 0, nonApplicable: 61466, files: 1 },
+        'itis-haptophyta-tsn-crosswalk': { eligible: 0, records: 90, accepted: 0, redirects: 0, ambiguous: 0, unmatched: 0, upstreamOnly: 90, nonApplicable: 61518, files: 1 },
+        'itis-ochrophyta-tsn-crosswalk': { eligible: 1101, records: 3397, accepted: 1097, redirects: 0, ambiguous: 4, unmatched: 0, upstreamOnly: 2296, nonApplicable: 60417, files: 2 },
+        'itis-amoebozoa-tsn-crosswalk': { eligible: 1337, records: 1337, accepted: 0, redirects: 0, ambiguous: 0, unmatched: 1337, upstreamOnly: 0, nonApplicable: 60181, files: 1 },
+        'itis-rhodophyta-tsn-crosswalk': { eligible: 0, records: 1616, accepted: 0, redirects: 0, ambiguous: 0, unmatched: 0, upstreamOnly: 1616, nonApplicable: 61518, files: 1 },
+        'itis-oomycota-tsn-crosswalk': { eligible: 1426, records: 1464, accepted: 46, redirects: 0, ambiguous: 0, unmatched: 1380, upstreamOnly: 38, nonApplicable: 60092, files: 2 },
+        'itis-cryptophyta-tsn-crosswalk': { eligible: 0, records: 0, accepted: 0, redirects: 0, ambiguous: 0, unmatched: 0, upstreamOnly: 0, nonApplicable: 61518, files: 0 },
+        'itis-choanoflagellatea-tsn-crosswalk': { eligible: 0, records: 0, accepted: 0, redirects: 0, ambiguous: 0, unmatched: 0, upstreamOnly: 0, nonApplicable: 61518, files: 0 },
+        'itis-bigyra-tsn-crosswalk': { eligible: 53, records: 53, accepted: 0, redirects: 0, ambiguous: 0, unmatched: 53, upstreamOnly: 0, nonApplicable: 61465, files: 1 },
+        'itis-perkinsozoa-tsn-crosswalk': { eligible: 0, records: 0, accepted: 0, redirects: 0, ambiguous: 0, unmatched: 0, upstreamOnly: 0, nonApplicable: 61518, files: 0 },
+        'itis-labyrinthulomycetes-tsn-crosswalk': { eligible: 0, records: 0, accepted: 0, redirects: 0, ambiguous: 0, unmatched: 0, upstreamOnly: 0, nonApplicable: 61518, files: 0 },
+        'itis-opalozoa-tsn-crosswalk': { eligible: 0, records: 0, accepted: 0, redirects: 0, ambiguous: 0, unmatched: 0, upstreamOnly: 0, nonApplicable: 61518, files: 0 },
+        'itis-radiolaria-tsn-crosswalk': { eligible: 0, records: 0, accepted: 0, redirects: 0, ambiguous: 0, unmatched: 0, upstreamOnly: 0, nonApplicable: 61518, files: 0 },
+        'itis-metamonada-tsn-crosswalk': { eligible: 0, records: 0, accepted: 0, redirects: 0, ambiguous: 0, unmatched: 0, upstreamOnly: 0, nonApplicable: 61518, files: 0 },
+      }
+      const canonicalItisFiles = Object.values(expectedItis).reduce((sum, counts) => sum + counts.files, 0)
+      if (extensions.length !== Object.keys(expectedItis).length + 1 || !foraminifera
         || foraminifera.provider !== 'World Foraminifera Database (WoRMS) through ChecklistBank'
         || foraminifera.source?.license !== 'CC-BY-4.0'
         || foraminifera.source?.sourceDatasetKey !== 1157
@@ -682,9 +703,23 @@ if (catalogue.resourcePacks?.packageCount !== 7
         || foraminifera.files?.length !== 0 || foraminifera.delivery?.publishedFileCount !== 0
         || foraminifera.delivery?.canonicalFileCount !== 5
         || foraminifera.canonicalFileInventory?.length !== 5
-        || manifestFile.extensionFileCount !== 0 || manifestFile.canonicalExtensionFileCount !== 5
+        || manifestFile.extensionFileCount !== 0 || manifestFile.canonicalExtensionFileCount !== canonicalItisFiles + 5
         || foraminifera.canonicalFileInventory.some((file) => !file.path || file.sha256?.length !== 64 || file.sourceSha256?.length !== 64)) {
         failures.push('protists-chromists: Pages must publish the complete Foraminifera authority summary and hashes without row shards')
+      }
+      for (const [id, counts] of Object.entries(expectedItis)) {
+        const authority = extensions.find((candidate) => candidate.id === id)
+        if (!authority || authority.provider !== 'Integrated Taxonomic Information System'
+          || authority.source?.license !== 'CC0-1.0' || authority.source?.exportDate !== '2026-08-26'
+          || authority.delivery?.profile !== 'web-light' || authority.delivery?.completeRows !== false
+          || authority.files?.length !== 0 || authority.delivery?.publishedFileCount !== 0
+          || authority.delivery?.canonicalFileCount !== counts.files
+          || authority.canonicalFileInventory?.length !== counts.files
+          || authority.counts?.withheld !== 0
+          || Object.entries(counts).some(([key, value]) => key !== 'files' && authority.counts?.[key] !== value)
+          || authority.canonicalFileInventory?.some((file) => !file.path || file.sha256?.length !== 64 || file.sourceSha256?.length !== 64)) {
+          failures.push(`protists-chromists: ${id} summary, counts, delivery boundary, or canonical hashes are incomplete`)
+        }
       }
     } else if (packageId === 'viruses') {
       const ictvExtension = extensions.find((candidate) => candidate.id === 'ictv-virus-metadata')

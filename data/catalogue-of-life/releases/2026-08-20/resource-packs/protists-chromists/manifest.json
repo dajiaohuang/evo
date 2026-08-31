@@ -2473,6 +2473,414 @@
           "requestPolicy": "Select the sole inclusive COL-ID range and read at most one COL partition; upstream-only files are never selected by COL ID."
         }
       }
+    },
+    {
+      "id": "itis-metamonada-tsn-crosswalk",
+      "recordType": "release-pinned-empty-nomenclatural-boundary-audit",
+      "provider": "Integrated Taxonomic Information System",
+      "source": {
+        "datasetId": "itis-2026-08-26",
+        "exportDate": "2026-08-26",
+        "rootTsn": null,
+        "license": "CC0-1.0",
+        "citationDoi": "10.5066/F7KH0KBK",
+        "canonicalDescriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-metamonada-sidecar.json",
+        "canonicalDescriptorBytes": 15531,
+        "canonicalDescriptorSha256": "262015b1da17db9432a5cf1b533e471275c2cb7c58bd356179007840bc04317e"
+      },
+      "scope": {
+        "requestedLabel": "Metamonada",
+        "packageRootUsageIds": [
+          "C",
+          "Z"
+        ],
+        "packageRootScientificNames": [
+          "Chromista",
+          "Protozoa"
+        ],
+        "packageStrictAcceptedSpecies": 61518,
+        "colRootUsageId": null,
+        "colRootScientificName": "Metamonada",
+        "colExactRootCandidates": [],
+        "colStrictAcceptedSpecies": 0,
+        "itisRootTsn": null,
+        "itisRootScientificName": "Metamonada",
+        "itisExactRootCandidates": [],
+        "itisContainsNameCandidates": [],
+        "boundary": "Neither COL26.8 nor ITIS 2026-08-26 materializes an exact Metamonada root. Diplomonadida and other historically neighboring ITIS names are recorded for audit context only and are not used as a taxonomic proxy; this partition therefore emits no crosswalk or ITIS-only species rows."
+      },
+      "rootBoundaryAudit": {
+        "colRegistryManifestPath": "data/catalogue-of-life/releases/2026-08-20/registry/manifest.json",
+        "colRegistryManifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151",
+        "colPackageManifestPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/manifest.json",
+        "colPackageManifestSha256": "4b61235080cd2913a3e535959a05aac23e198f88725ef415d532139d212e6efc",
+        "colExactRootCandidates": [],
+        "itisExactRootCandidates": [],
+        "itisContainsNameCandidates": [],
+        "itisNearbyNameCandidates": [
+          {
+            "tsn": 14271,
+            "scientificName": "Mastigophora",
+            "rank": "Genus",
+            "usage": "accepted",
+            "parentTsn": 14270
+          },
+          {
+            "tsn": 14272,
+            "scientificName": "Mastigophora",
+            "rank": "Genus",
+            "usage": "not accepted",
+            "parentTsn": 0
+          },
+          {
+            "tsn": 43781,
+            "scientificName": "Sarcomastigophora",
+            "rank": "Phylum",
+            "usage": "valid",
+            "parentTsn": 630577
+          },
+          {
+            "tsn": 43782,
+            "scientificName": "Mastigophora",
+            "rank": "Subphylum",
+            "usage": "valid",
+            "parentTsn": 43781
+          },
+          {
+            "tsn": 43783,
+            "scientificName": "Mastigophora",
+            "rank": "Subphylum",
+            "usage": "invalid",
+            "parentTsn": 0
+          },
+          {
+            "tsn": 43810,
+            "scientificName": "Zoomastigophora",
+            "rank": "Class",
+            "usage": "valid",
+            "parentTsn": 43782
+          },
+          {
+            "tsn": 43835,
+            "scientificName": "Diplomonadida",
+            "rank": "Order",
+            "usage": "valid",
+            "parentTsn": 43810
+          },
+          {
+            "tsn": 43837,
+            "scientificName": "Trichomonadida",
+            "rank": "Order",
+            "usage": "valid",
+            "parentTsn": 43810
+          }
+        ],
+        "existingPartitions": [
+          {
+            "label": "itis-amoebozoa-sidecar.json",
+            "descriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-amoebozoa-sidecar.json",
+            "colRootUsageId": "622B2",
+            "itisRootTsn": null,
+            "sidecarRecords": 1337,
+            "overlappingColUsageIds": [],
+            "overlappingItisTsns": []
+          },
+          {
+            "label": "itis-apicomplexa-sidecar.json",
+            "descriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-apicomplexa-sidecar.json",
+            "colRootUsageId": "87FBN",
+            "itisRootTsn": "553099",
+            "sidecarRecords": 21,
+            "overlappingColUsageIds": [],
+            "overlappingItisTsns": []
+          },
+          {
+            "label": "itis-bigyra-sidecar.json",
+            "descriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-bigyra-sidecar.json",
+            "colRootUsageId": "622CB",
+            "itisRootTsn": "969916",
+            "sidecarRecords": 53,
+            "overlappingColUsageIds": [],
+            "overlappingItisTsns": []
+          },
+          {
+            "label": "itis-cercozoa-sidecar.json",
+            "descriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-cercozoa-sidecar.json",
+            "colRootUsageId": "35",
+            "itisRootTsn": "969919",
+            "sidecarRecords": 52,
+            "overlappingColUsageIds": [],
+            "overlappingItisTsns": []
+          },
+          {
+            "label": "itis-choanoflagellatea-sidecar.json",
+            "descriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-choanoflagellatea-sidecar.json",
+            "colRootUsageId": null,
+            "itisRootTsn": null,
+            "sidecarRecords": 0,
+            "overlappingColUsageIds": [],
+            "overlappingItisTsns": []
+          },
+          {
+            "label": "itis-ciliophora-sidecar.json",
+            "descriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-ciliophora-sidecar.json",
+            "colRootUsageId": "3H",
+            "itisRootTsn": "46211",
+            "sidecarRecords": 8507,
+            "overlappingColUsageIds": [],
+            "overlappingItisTsns": []
+          },
+          {
+            "label": "itis-cryptophyta-sidecar.json",
+            "descriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-cryptophyta-sidecar.json",
+            "colRootUsageId": null,
+            "itisRootTsn": null,
+            "sidecarRecords": 0,
+            "overlappingColUsageIds": [],
+            "overlappingItisTsns": []
+          },
+          {
+            "label": "itis-dinoflagellata-sidecar.json",
+            "descriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-dinoflagellata-sidecar.json",
+            "colRootUsageId": "622D3",
+            "itisRootTsn": "9874",
+            "sidecarRecords": 259,
+            "overlappingColUsageIds": [],
+            "overlappingItisTsns": []
+          },
+          {
+            "label": "Euglenozoa",
+            "descriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-euglenozoa-sidecar.json",
+            "colRootUsageId": null,
+            "itisRootTsn": "9601",
+            "sidecarRecords": 0,
+            "overlappingColUsageIds": [],
+            "overlappingItisTsns": []
+          },
+          {
+            "label": "itis-haptophyta-sidecar.json",
+            "descriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-haptophyta-sidecar.json",
+            "colRootUsageId": null,
+            "itisRootTsn": "2134",
+            "sidecarRecords": 0,
+            "overlappingColUsageIds": [],
+            "overlappingItisTsns": []
+          },
+          {
+            "label": "itis-labyrinthulomycetes-sidecar.json",
+            "descriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-labyrinthulomycetes-sidecar.json",
+            "colRootUsageId": null,
+            "itisRootTsn": null,
+            "sidecarRecords": 0,
+            "overlappingColUsageIds": [],
+            "overlappingItisTsns": []
+          },
+          {
+            "label": "itis-ochrophyta-sidecar.json",
+            "descriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-ochrophyta-sidecar.json",
+            "colRootUsageId": "5H",
+            "itisRootTsn": "969917",
+            "sidecarRecords": 1101,
+            "overlappingColUsageIds": [],
+            "overlappingItisTsns": []
+          },
+          {
+            "label": "itis-oomycota-sidecar.json",
+            "descriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-oomycota-sidecar.json",
+            "colRootUsageId": "5K",
+            "itisRootTsn": null,
+            "sidecarRecords": 1426,
+            "overlappingColUsageIds": [],
+            "overlappingItisTsns": []
+          },
+          {
+            "label": "itis-opalozoa-sidecar.json",
+            "descriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-opalozoa-sidecar.json",
+            "colRootUsageId": null,
+            "itisRootTsn": null,
+            "sidecarRecords": 0,
+            "overlappingColUsageIds": [],
+            "overlappingItisTsns": []
+          },
+          {
+            "label": "Perkinsozoa",
+            "descriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-perkinsozoa-sidecar.json",
+            "colRootUsageId": null,
+            "itisRootTsn": null,
+            "sidecarRecords": 0,
+            "overlappingColUsageIds": [],
+            "overlappingItisTsns": []
+          },
+          {
+            "label": "itis-radiolaria-sidecar.json",
+            "descriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-radiolaria-sidecar.json",
+            "colRootUsageId": null,
+            "itisRootTsn": null,
+            "sidecarRecords": 0,
+            "overlappingColUsageIds": [],
+            "overlappingItisTsns": []
+          },
+          {
+            "label": "itis-rhodophyta-sidecar.json",
+            "descriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-rhodophyta-sidecar.json",
+            "colRootUsageId": null,
+            "itisRootTsn": "660046",
+            "sidecarRecords": 0,
+            "overlappingColUsageIds": [],
+            "overlappingItisTsns": []
+          }
+        ],
+        "overlapWithExistingPartitions": [
+          {
+            "label": "itis-amoebozoa-sidecar.json",
+            "overlappingColUsageIds": [],
+            "overlappingItisTsns": []
+          },
+          {
+            "label": "itis-apicomplexa-sidecar.json",
+            "overlappingColUsageIds": [],
+            "overlappingItisTsns": []
+          },
+          {
+            "label": "itis-bigyra-sidecar.json",
+            "overlappingColUsageIds": [],
+            "overlappingItisTsns": []
+          },
+          {
+            "label": "itis-cercozoa-sidecar.json",
+            "overlappingColUsageIds": [],
+            "overlappingItisTsns": []
+          },
+          {
+            "label": "itis-choanoflagellatea-sidecar.json",
+            "overlappingColUsageIds": [],
+            "overlappingItisTsns": []
+          },
+          {
+            "label": "itis-ciliophora-sidecar.json",
+            "overlappingColUsageIds": [],
+            "overlappingItisTsns": []
+          },
+          {
+            "label": "itis-cryptophyta-sidecar.json",
+            "overlappingColUsageIds": [],
+            "overlappingItisTsns": []
+          },
+          {
+            "label": "itis-dinoflagellata-sidecar.json",
+            "overlappingColUsageIds": [],
+            "overlappingItisTsns": []
+          },
+          {
+            "label": "Euglenozoa",
+            "overlappingColUsageIds": [],
+            "overlappingItisTsns": []
+          },
+          {
+            "label": "itis-haptophyta-sidecar.json",
+            "overlappingColUsageIds": [],
+            "overlappingItisTsns": []
+          },
+          {
+            "label": "itis-labyrinthulomycetes-sidecar.json",
+            "overlappingColUsageIds": [],
+            "overlappingItisTsns": []
+          },
+          {
+            "label": "itis-ochrophyta-sidecar.json",
+            "overlappingColUsageIds": [],
+            "overlappingItisTsns": []
+          },
+          {
+            "label": "itis-oomycota-sidecar.json",
+            "overlappingColUsageIds": [],
+            "overlappingItisTsns": []
+          },
+          {
+            "label": "itis-opalozoa-sidecar.json",
+            "overlappingColUsageIds": [],
+            "overlappingItisTsns": []
+          },
+          {
+            "label": "Perkinsozoa",
+            "overlappingColUsageIds": [],
+            "overlappingItisTsns": []
+          },
+          {
+            "label": "itis-radiolaria-sidecar.json",
+            "overlappingColUsageIds": [],
+            "overlappingItisTsns": []
+          },
+          {
+            "label": "itis-rhodophyta-sidecar.json",
+            "overlappingColUsageIds": [],
+            "overlappingItisTsns": []
+          }
+        ],
+        "decision": "No exact Metamonada root exists in either pinned source. No neighboring order, class, phylum, package-wide, fuzzy, or name-substitution scope is accepted; zero rows are the complete truthful result for this release."
+      },
+      "matching": {
+        "normalization": [
+          "Remove the exact trailing COL authorship field from COL scientificName when that suffix is present; no authorship parser is used.",
+          "Normalize Unicode to NFC, replace underscores with spaces, collapse Unicode whitespace and trim.",
+          "For species-rank comparison, remove one parenthesized subgenus token in the exact Genus (Subgenus) species representation; genus and specific epithet must remain unchanged.",
+          "Preserve case, diacritics, punctuation and all remaining name tokens."
+        ],
+        "statuses": {
+          "accepted": "Unavailable: neither pinned source defines an exact Metamonada root.",
+          "synonym-current-name-redirect": "Unavailable: neither pinned source defines an exact Metamonada root.",
+          "ambiguous": "Unavailable: neither pinned source defines an exact Metamonada root.",
+          "unmatched": "Unavailable: neither pinned source defines an exact Metamonada root."
+        },
+        "prohibited": "No inferred root, fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered, neighboring-taxon, higher-rank, or package-wide matching is used."
+      },
+      "evidenceBoundary": {
+        "en": "This CC0 sidecar is an explicitly empty, release-pinned nomenclatural boundary audit. It is not a Metamonada checklist, an inferred taxonomic placement, a final classification authority, a phylogeny, a species-concept equivalence assertion, a biological dossier, or a scientific-review record.",
+        "zh": "此 CC0 侧车是明确为空的、固定版本的命名边界审计；它不是 Metamonada 名录、推断的分类位置、最终分类权威、系统发育、物种概念等同性声明、生物档案或科学审查记录。"
+      },
+      "counts": {
+        "eligible": 0,
+        "records": 0,
+        "accepted": 0,
+        "redirects": 0,
+        "ambiguous": 0,
+        "unmatched": 0,
+        "withheld": 0,
+        "upstreamOnly": 0,
+        "nonApplicable": 61518
+      },
+      "files": [],
+      "totalCompressedBytes": 0,
+      "totalSourceBytes": 0,
+      "deliveryProfiles": {
+        "web-light": {
+          "payload": "summary-only",
+          "files": [],
+          "records": 0,
+          "totalCompressedBytes": 0,
+          "totalSourceBytes": 0,
+          "statement": "GitHub Pages publishes the complete Metamonada authority boundary authority boundary and canonical hashes without row shards."
+        },
+        "native-full": {
+          "payload": "complete",
+          "files": [],
+          "records": 0,
+          "totalCompressedBytes": 0,
+          "totalSourceBytes": 0
+        }
+      },
+      "limitations": [
+        "This CC0 sidecar is an explicitly empty, release-pinned nomenclatural boundary audit. It is not a Metamonada checklist, an inferred taxonomic placement, a final classification authority, a phylogeny, a species-concept equivalence assertion, a biological dossier, or a scientific-review record.",
+        "No inferred root, fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered, neighboring-taxon, higher-rank, or package-wide matching is used."
+      ],
+      "integration": {
+        "clientParityRequirement": "Android and iOS must copy every non-empty native-full file byte-for-byte; Web uses the web-light summary profile.",
+        "lookup": {
+          "strategy": "lexicographic-colId-range-v1",
+          "ordering": "Unicode code-unit ascending",
+          "requestPolicy": "Select the sole inclusive COL-ID range and read at most one COL partition; upstream-only files are never selected by COL ID."
+        }
+      }
     }
   ]
 }
