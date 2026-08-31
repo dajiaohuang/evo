@@ -6,19 +6,19 @@
       "id": "molluscs-brachiopods-tree-preset",
       "type": "explorer-preset",
       "title": {
-        "en": "Mollusca source-bound evidence",
-        "zh": "软体动物来源限定证据"
+        "en": "Yuganotheca elegans source-bound evidence",
+        "zh": "玉案山贝来源限定证据"
       },
       "description": {
-        "en": "Open the Explorer at Mollusca to inspect the linked, locator-bearing source claim together with this package's current occurrence context. This is a reproducible evidence entry point, not a phylogenetic result or a complete history of the group.",
-        "zh": "在探索器中打开软体动物，结合本包当前的出现记录背景检查带有精确来源定位的关联声明。这是可复现的证据检查入口，不是系统发育结果，也不是该类群的完整历史。"
+        "en": "Open the Explorer at Yuganotheca elegans to inspect the linked, locator-bearing source claim together with this package's current occurrence context. This is a reproducible evidence entry point, not a phylogenetic result or a complete history of the group.",
+        "zh": "在探索器中打开玉案山贝，结合本包当前的出现记录背景检查带有精确来源定位的关联声明。这是可复现的证据检查入口，不是系统发育结果，也不是该类群的完整历史。"
       },
-      "route": "#/explore?taxon=mollusca&view=tree",
+      "route": "#/explore?taxon=yuganotheca&view=tree",
       "entityIds": [
-        "mollusca"
+        "yuganotheca"
       ],
       "claimIds": [
-        "claim:taxon:mollusca"
+        "claim:taxon:yuganotheca:taxonomy"
       ],
       "evidenceStatus": "available-with-limitations",
       "limitations": [
@@ -36,12 +36,14 @@
         "en": "Open a source-bounded Molluscs and brachiopods time window in the map to inspect sampled occurrence context linked to this package.",
         "zh": "在地图中打开有来源边界的软体动物与腕足动物时间窗口，检查与本包关联的采样出现背景。"
       },
-      "route": "#/explore?taxon=mollusca&view=map&age=260&older=520&younger=0",
+      "route": "#/explore?taxon=yuganotheca&view=map&age=518&older=521&younger=514.5",
       "entityIds": [
-        "mollusca"
+        "micrina",
+        "yuganotheca"
       ],
       "claimIds": [
-        "claim:taxon:mollusca"
+        "claim:taxon:micrina:source-bounded-range-rc50",
+        "claim:taxon:yuganotheca:source-bounded-range-rc50"
       ],
       "evidenceStatus": "available-with-limitations",
       "limitations": [
@@ -56,17 +58,17 @@
         "zh": "软体动物与腕足动物证据比较"
       },
       "description": {
-        "en": "Compare kimberella and odontogriphus through package-linked claims and bounded occurrence context; this side-by-side route is an evidence inspection aid.",
-        "zh": "通过本包关联的声明与限定出现背景比较kimberella与odontogriphus；并列页面仅用于证据检查。"
+        "en": "Compare micrina and yuganotheca through package-linked claims and bounded occurrence context; this side-by-side route is an evidence inspection aid.",
+        "zh": "通过本包关联的声明与限定出现背景比较micrina与yuganotheca；并列页面仅用于证据检查。"
       },
-      "route": "#/compare?left=kimberella&right=odontogriphus",
+      "route": "#/compare?left=micrina&right=yuganotheca",
       "entityIds": [
-        "kimberella",
-        "odontogriphus"
+        "micrina",
+        "yuganotheca"
       ],
       "claimIds": [
-        "claim:taxon:kimberella:fossil-range",
-        "claim:taxon:odontogriphus:fossil-range"
+        "claim:taxon:micrina:source-bounded-range-rc50",
+        "claim:taxon:yuganotheca:source-bounded-range-rc50"
       ],
       "evidenceStatus": "available-with-limitations",
       "limitations": [
