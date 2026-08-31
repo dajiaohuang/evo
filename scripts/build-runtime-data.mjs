@@ -6,12 +6,16 @@ import { strToU8 } from 'fflate'
 import { flattenTree, readJson, rootDir } from './data-lib.mjs'
 import { evaluatePackageReview } from './check-review-freshness.mjs'
 import { deterministicGzip, deterministicZip } from './archive-determinism.mjs'
-import { buildPaleotopographyPyramid, PALEOTOPOGRAPHY_TILE_SIZE } from './paleotopography-tile-lib.mjs'
 
 const args = process.argv.slice(2)
 const outputIndex = args.indexOf('--out')
 const requestedOutput = outputIndex >= 0 ? args[outputIndex + 1] : 'dist/data'
 if (!requestedOutput) throw new Error('--out requires a path')
+const paleotopographyIndex = args.indexOf('--paleotopography')
+const paleotopographyDelivery = paleotopographyIndex >= 0 ? args[paleotopographyIndex + 1] : 'web-preview'
+if (paleotopographyDelivery !== 'web-preview' && paleotopographyDelivery !== 'native-full') {
+  throw new Error('--paleotopography must be web-preview or native-full')
+}
 const outputRoot = resolve(rootDir, requestedOutput)
 const allowedRoots = [resolve(rootDir, 'dist/data'), resolve(rootDir, 'public/data')]
 if (!allowedRoots.some((allowed) => outputRoot === allowed || outputRoot.startsWith(`${allowed}${sep}`))) {
@@ -789,81 +793,114 @@ const mapSnapshots = periodMetadata.map((period) => {
   }
 })
 
-function publishPaleotopographyPrototype() {
-  const frame = paleotopographySource.selectedFrame
-  const grid = paleotopographySource.canonicalGrid
-  const visualization = paleotopographySource.visualization
+function publishPaleotopographySeries() {
+  const { frames, grid, selection, visualization, totals } = paleotopographySource
   if (paleotopographySource.source.license !== 'CC-BY-4.0'
     || paleotopographySource.source.doi !== '10.5281/zenodo.5460860'
-    || frame.archiveNominalAgeMa !== 65
-    || frame.internalDescriptionAgeMa !== 66) {
-    throw new Error('PaleoDEM prototype source, license or dual-age boundary changed without review')
+    || paleotopographySource.schemaVersion !== 2
+    || paleotopographySource.archive.netcdfMemberCount !== 109
+    || paleotopographySource.archive.sha256 !== 'ab360184d8260a815ef5ed6b8b4e0abdbf99ef5ee8aa87dfd070af323ceb42da') {
+    throw new Error('Complete PaleoDEM source, license or archive boundary changed without review')
   }
-  if (frame.width !== 3601 || frame.height !== 1801 || frame.cellCount !== frame.width * frame.height
-    || grid.encoding !== 'gzip-signed-int16-little-endian-row-major') {
-    throw new Error('PaleoDEM canonical grid dimensions or encoding changed without review')
+  if (grid.width !== 3601 || grid.height !== 1801 || grid.cellCount !== grid.width * grid.height
+    || grid.decodedBytesPerFrame !== grid.cellCount * 2
+    || grid.encoding !== 'gzip-signed-int16-little-endian-row-major'
+    || selection.method !== 'nearest-nominal-age' || selection.tieBreak !== 'younger'
+    || selection.temporalInterpolation !== 'none'
+    || visualization.renderer !== 'client-worker-canvas-grid-layer'
+    || visualization.preGeneratedTiles !== 0) {
+    throw new Error('PaleoDEM grid, selection or client-rendering boundary changed without review')
   }
-  const canonicalPath = resolve(rootDir, grid.path)
   const canonicalRoot = resolve(rootDir, 'data/paleotopography')
-  if (!canonicalPath.startsWith(`${canonicalRoot}${sep}`)) throw new Error('PaleoDEM canonical grid is outside data/paleotopography')
-  const canonicalBytes = readFileSync(canonicalPath)
-  if (canonicalBytes.byteLength !== grid.bytes || sha256(canonicalBytes) !== grid.sha256) {
-    throw new Error('PaleoDEM canonical grid bytes differ from the pinned source ledger')
+  const expectedAges = Array.from({ length: 109 }, (_, index) => index * 5)
+  if (!Array.isArray(frames) || frames.length !== expectedAges.length
+    || frames.some((frame, index) => frame.archiveNominalAgeMa !== expectedAges[index])) {
+    throw new Error('PaleoDEM manifest must retain exactly one ordered frame at every 5 Ma age from 0 through 540 Ma')
   }
-  const decoded = gunzipSync(canonicalBytes)
-  if (decoded.byteLength !== grid.decodedBytes || sha256(decoded) !== grid.decodedSha256) {
-    throw new Error('PaleoDEM decoded metre grid differs from the pinned source ledger')
-  }
-  const runtimeRoot = `maps/paleotopography/${paleotopographySource.id}/ma-0065`
-  const runtimeGrid = write(`${runtimeRoot}/grid.i16.gz`, canonicalBytes)
-  const tileFiles = buildPaleotopographyPyramid({
-    sourcePath: canonicalPath,
-    width: frame.width,
-    height: frame.height,
-    minZoom: visualization.minimumZoom,
-    maxZoom: visualization.maximumZoom,
-    writeTile: (tilePath, bytes) => write(`${runtimeRoot}/tiles/${tilePath}`, bytes),
+  const nativeFull = paleotopographyDelivery === 'native-full'
+  const runtimeFrames = frames.map((frame) => {
+    if (frame.width !== grid.width || frame.height !== grid.height || frame.cellCount !== grid.cellCount
+      || frame.grid.encoding !== grid.encoding || frame.grid.decodedBytes !== grid.decodedBytesPerFrame
+      || frame.displayAgeRangeMa.youngest > frame.archiveNominalAgeMa
+      || frame.displayAgeRangeMa.oldest < frame.archiveNominalAgeMa) {
+      throw new Error(`PaleoDEM ${frame.archiveNominalAgeMa} Ma frame dimensions or selection window changed without review`)
+    }
+    if (frame.webPreviewGrid.width !== grid.webPreview.width
+      || frame.webPreviewGrid.height !== grid.webPreview.height
+      || frame.webPreviewGrid.decodedBytes !== grid.webPreview.decodedBytesPerFrame
+      || frame.webPreviewGrid.sourceGridSha256 !== frame.grid.decodedSha256
+      || frame.webPreviewGrid.derivation !== 'exact-decimation-every-fifth-source-row-and-column') {
+      throw new Error(`PaleoDEM ${frame.archiveNominalAgeMa} Ma Web preview does not trace exactly to the full grid`)
+    }
+    const selectedGrid = nativeFull ? frame.grid : frame.webPreviewGrid
+    const canonicalPath = resolve(rootDir, selectedGrid.path)
+    if (!canonicalPath.startsWith(`${canonicalRoot}${sep}`)) throw new Error('PaleoDEM canonical grid is outside data/paleotopography')
+    const canonicalBytes = readFileSync(canonicalPath)
+    if (canonicalBytes.byteLength !== selectedGrid.bytes || sha256(canonicalBytes) !== selectedGrid.sha256) {
+      throw new Error(`PaleoDEM ${frame.archiveNominalAgeMa} Ma ${paleotopographyDelivery} grid bytes differ from the pinned source ledger`)
+    }
+    const decoded = gunzipSync(canonicalBytes)
+    if (decoded.byteLength !== selectedGrid.decodedBytes || sha256(decoded) !== selectedGrid.decodedSha256) {
+      throw new Error(`PaleoDEM ${frame.archiveNominalAgeMa} Ma ${paleotopographyDelivery} decoded grid differs from the pinned source ledger`)
+    }
+    const runtimeGrid = write(`maps/paleotopography/${paleotopographySource.id}/grids/ma-${String(frame.archiveNominalAgeMa).padStart(4, '0')}.${nativeFull ? 'full-01deg' : 'preview-05deg'}.i16.gz`, canonicalBytes)
+    const { grid: fullGrid, webPreviewGrid, ...metadata } = frame
+    return {
+      ...metadata,
+      sourceFullGrid: {
+        bytes: fullGrid.bytes,
+        sha256: fullGrid.sha256,
+        decodedBytes: fullGrid.decodedBytes,
+        decodedSha256: fullGrid.decodedSha256,
+        width: frame.width,
+        height: frame.height,
+        cellCount: frame.cellCount,
+        resolutionDegrees: 0.1,
+      },
+      grid: {
+        ...runtimeGrid,
+        sourceBytes: selectedGrid.decodedBytes,
+        sourceSha256: selectedGrid.decodedSha256,
+        width: nativeFull ? frame.width : webPreviewGrid.width,
+        height: nativeFull ? frame.height : webPreviewGrid.height,
+        cellCount: nativeFull ? frame.cellCount : webPreviewGrid.cellCount,
+        resolutionDegrees: nativeFull ? 0.1 : webPreviewGrid.resolutionDegrees,
+        derivation: nativeFull ? 'lossless-full-source-grid' : webPreviewGrid.derivation,
+        gridEncoding: selectedGrid.encoding,
+        mediaType: 'application/octet-stream',
+      },
+    }
   })
-  if (tileFiles.length !== visualization.tileCount) {
-    throw new Error(`PaleoDEM pyramid produced ${tileFiles.length} tiles; expected ${visualization.tileCount}`)
+  const expectedRuntimeBytes = nativeFull ? totals.independentGridGzipBytes : totals.webPreviewGridGzipBytes
+  if (runtimeFrames.reduce((sum, frame) => sum + frame.grid.bytes, 0) !== expectedRuntimeBytes) {
+    throw new Error(`PaleoDEM ${paleotopographyDelivery} runtime bytes do not match the complete-series total`)
   }
   return {
     id: paleotopographySource.id,
     source: paleotopographySource.source,
     archive: paleotopographySource.archive,
+    grid,
+    selection,
+    delivery: {
+      profile: paleotopographyDelivery,
+      resolutionDegrees: nativeFull ? 0.1 : grid.webPreview.resolutionDegrees,
+      gridBytes: expectedRuntimeBytes,
+      fullResolutionAvailableInNativeApps: true,
+    },
+    visualization: {
+      ...visualization,
+      maximumNativeZoom: nativeFull ? 4 : 2,
+      maximumZoomGroundSampling: nativeFull
+        ? 'approximately 0.088 degrees per display pixel at the equator'
+        : 'approximately 0.352 degrees per display pixel at the equator; source preview samples are spaced 0.5 degrees',
+    },
+    totals,
     scientificLimitations: paleotopographySource.scientificLimitations,
-    frames: [{
-      id: 'kt-boundary-archive-65ma',
-      archiveNominalAgeMa: frame.archiveNominalAgeMa,
-      internalDescriptionAgeMa: frame.internalDescriptionAgeMa,
-      internalDescription: frame.internalDescription,
-      ageDisclosure: frame.ageDisclosure,
-      displayAgeRangeMa: visualization.displayAgeRangeMa,
-      elevation: frame.elevation,
-      grid: {
-        ...runtimeGrid,
-        sourceBytes: grid.decodedBytes,
-        sourceSha256: grid.decodedSha256,
-        width: frame.width,
-        height: frame.height,
-        cellCount: frame.cellCount,
-        encoding: grid.encoding,
-        mediaType: 'application/octet-stream',
-      },
-      tiles: {
-        template: `${releasePrefix}/${runtimeRoot}/tiles/{z}/{x}/{y}.png`,
-        projection: visualization.projection,
-        tileSize: PALEOTOPOGRAPHY_TILE_SIZE,
-        minimumZoom: visualization.minimumZoom,
-        maximumZoom: visualization.maximumZoom,
-        resampling: visualization.resampling,
-        files: tileFiles,
-      },
-    }],
+    frames: runtimeFrames,
   }
 }
 
-const paleotopography = publishPaleotopographyPrototype()
+const paleotopography = publishPaleotopographySeries()
 const mapsManifestFile = writeJson('maps/manifest.json', {
   schemaVersion: hasPaleogeographySeries ? 8 : 5,
   version: sourceManifest.datasetVersion,
@@ -1094,7 +1131,10 @@ const current = {
     observationDatasetCount: Object.keys(caoObservationDatasets).length,
     observationRecordCount: caoObservationManifest.counts.total,
     paleotopographyFrameCount: paleotopography.frames.length,
-    paleotopographyTileCount: paleotopography.frames.reduce((sum, frame) => sum + frame.tiles.files.length, 0),
+    paleotopographyGridCount: paleotopography.frames.length,
+    paleotopographyGridBytes: paleotopography.delivery.gridBytes,
+    paleotopographyDeliveryProfile: paleotopography.delivery.profile,
+    paleotopographyTileCount: 0,
   },
   catalogue: {
     manifest: catalogueManifestFile,

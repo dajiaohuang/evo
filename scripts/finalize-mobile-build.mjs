@@ -56,6 +56,13 @@ const releaseFiles = JSON.parse(readFileSync(join(sourceDataRoot, ...release.fil
 if (releaseFiles.datasetVersion !== current.datasetVersion || !Array.isArray(releaseFiles.files)) {
   throw new Error(`Release file inventory does not belong to dataset ${current.datasetVersion}`)
 }
+const maps = JSON.parse(readFileSync(join(sourceDataRoot, ...current.maps.manifest.url.split('/')), 'utf8'))
+if (maps.paleotopography?.delivery?.profile !== 'native-full'
+  || maps.paleotopography?.delivery?.resolutionDegrees !== 0.1
+  || maps.paleotopography?.delivery?.gridBytes !== 168418483
+  || maps.paleotopography?.frames?.length !== 109) {
+  throw new Error('Mobile build must stage all 109 full-resolution PaleoDEM grids')
+}
 
 const interactiveFiles = releaseFiles.files.filter((file) => !file.url.includes('/downloads/'))
 const bootstrapFiles = ['current.json', 'releases.json', release.filesIndex]
@@ -84,9 +91,10 @@ for (const file of interactiveFiles) {
 
 const files = filesBelow(outputRoot)
 const totalBytes = files.reduce((sum, file) => sum + statSync(file).size, 0)
-const limitBytes = 650 * 1024 * 1024
+const limitMiB = 750
+const limitBytes = limitMiB * 1024 * 1024
 if (totalBytes > limitBytes) {
-  throw new Error(`Mobile application resources are ${(totalBytes / 1024 / 1024).toFixed(2)} MiB; limit is ${limitBytes / 1024 / 1024} MiB`)
+  throw new Error(`Mobile application resources are ${(totalBytes / 1024 / 1024).toFixed(2)} MiB; limit is ${limitMiB} MiB`)
 }
 
 const bundledBytes = interactiveFiles.reduce((sum, file) => sum + file.bytes, 0)

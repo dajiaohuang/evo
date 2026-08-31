@@ -353,16 +353,15 @@ export interface RuntimeMapManifest {
   snapshots: RuntimeMapSnapshot[]
 }
 
-export interface RuntimePaleotopographyTile extends RuntimeFile {
-  z: number
-  x: number
-  y: number
-}
-
 export interface RuntimePaleotopographyFrame {
   id: string
   archiveNominalAgeMa: number
-  internalDescriptionAgeMa: number
+  memberPath: string
+  memberBytes: number
+  memberCompressedBytes: number
+  memberSha256: string
+  format: 'NETCDF4_CLASSIC'
+  internalDescriptionAgeMa: number | null
   internalDescription: string
   ageDisclosure: string
   displayAgeRangeMa: { youngest: number; oldest: number }
@@ -375,23 +374,29 @@ export interface RuntimePaleotopographyFrame {
     nanCells: number
     integerMetreCells: number
   }
-  grid: RuntimeFile & {
+  sourceFullGrid: {
+    bytes: number
+    sha256: string
+    decodedBytes: number
+    decodedSha256: string
+    width: 3601
+    height: 1801
+    cellCount: 6485401
+    resolutionDegrees: 0.1
+  }
+  grid: Omit<RuntimeFile, 'encoding' | 'mediaType'> & {
+    url: string
+    bytes: number
+    sha256: string
     sourceBytes: number
     sourceSha256: string
     width: number
     height: number
     cellCount: number
-    encoding: 'gzip-signed-int16-little-endian-row-major'
+    resolutionDegrees: 0.1 | 0.5
+    derivation: 'lossless-full-source-grid' | 'exact-decimation-every-fifth-source-row-and-column'
+    gridEncoding: 'gzip-signed-int16-little-endian-row-major'
     mediaType: 'application/octet-stream'
-  }
-  tiles: {
-    template: string
-    projection: 'EPSG:3857'
-    tileSize: 256
-    minimumZoom: number
-    maximumZoom: number
-    resampling: string
-    files: RuntimePaleotopographyTile[]
   }
 }
 
@@ -417,6 +422,56 @@ export interface RuntimePaleotopographyCollection {
     sha256: string
     netcdfMemberCount: number
     redistributed: false
+  }
+  grid: {
+    coordinateReferenceSystem: 'geographic longitude/latitude'
+    width: 3601
+    height: 1801
+    cellCount: 6485401
+    decodedBytesPerFrame: 12970802
+    encoding: 'gzip-signed-int16-little-endian-row-major'
+    transformation: string
+    webPreview: {
+      resolutionDegrees: 0.5
+      stride: 5
+      width: 721
+      height: 361
+      cellCount: 260281
+      decodedBytesPerFrame: 520562
+      derivation: string
+    }
+  }
+  selection: {
+    ageRangeMa: { youngest: 0; oldest: 540 }
+    cadenceMa: 5
+    method: 'nearest-nominal-age'
+    tieBreak: 'younger'
+    outsideRange: 'unavailable'
+    temporalInterpolation: 'none'
+  }
+  visualization: {
+    renderer: 'client-worker-canvas-grid-layer'
+    projection: 'EPSG:3857'
+    tileSize: 256
+    maximumNativeZoom: 4
+    maximumZoomGroundSampling: string
+    resampling: string
+    mercatorLatitudeLimitDegrees: number
+    preGeneratedTiles: 0
+  }
+  delivery: {
+    profile: 'web-preview' | 'native-full'
+    resolutionDegrees: 0.5 | 0.1
+    gridBytes: number
+    fullResolutionAvailableInNativeApps: true
+  }
+  totals: {
+    frames: 109
+    sourceMemberBytes: number
+    independentGridGzipBytes: number
+    webPreviewGridGzipBytes: number
+    decodedGridBytes: number
+    webPreviewDecodedGridBytes: number
   }
   scientificLimitations: string[]
   frames: RuntimePaleotopographyFrame[]
@@ -970,6 +1025,9 @@ export interface CurrentRuntimeManifest {
     observationDatasetCount?: number
     observationRecordCount?: number
     paleotopographyFrameCount?: number
+    paleotopographyGridCount?: number
+    paleotopographyGridBytes?: number
+    paleotopographyDeliveryProfile?: 'web-preview' | 'native-full'
     paleotopographyTileCount?: number
   }
   catalogue: {

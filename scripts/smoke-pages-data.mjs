@@ -339,32 +339,49 @@ if (maps.schemaVersion >= 7) {
 }
 if (maps.schemaVersion >= 8) {
   const collection = maps.paleotopography
-  const frame = collection?.frames?.[0]
   if (collection?.id !== 'scotese-wright-2018-paleodem-v2'
     || collection?.source?.doi !== '10.5281/zenodo.5460860'
     || collection?.source?.license !== 'CC-BY-4.0'
     || collection?.archive?.redistributed !== false
-    || collection?.frames?.length !== 1) {
-    failures.push('palaeotopography runtime source, license or one-frame boundary is invalid')
-  } else if (frame.archiveNominalAgeMa !== 65
-    || frame.internalDescriptionAgeMa !== 66
-    || frame.grid?.cellCount !== 6485401
-    || frame.tiles?.projection !== 'EPSG:3857'
-    || frame.tiles?.minimumZoom !== 0
-    || frame.tiles?.maximumZoom !== 4
-    || frame.tiles?.files?.length !== 341) {
-    failures.push('palaeotopography frame, dual-age disclosure, grid or pyramid counts are invalid')
+    || collection?.frames?.length !== 109
+    || collection?.delivery?.profile !== 'web-preview'
+    || collection?.delivery?.resolutionDegrees !== 0.5
+    || collection?.delivery?.gridBytes !== 10147417
+    || collection?.visualization?.preGeneratedTiles !== 0) {
+    failures.push('palaeotopography Web preview source, license, delivery profile or complete-series boundary is invalid')
   } else {
-    releaseUrl(frame.grid, 'palaeotopography canonical metre grid')
-    checkFile(frame.grid, 'palaeotopography canonical metre grid')
-    for (const tile of frame.tiles.files) {
-      const label = `palaeotopography tile ${tile.z}/${tile.x}/${tile.y}`
-      releaseUrl(tile, label)
-      checkFile(tile, label)
-      if (!tile.url?.endsWith(`/${tile.z}/${tile.x}/${tile.y}.png`)) failures.push(`${label}: URL does not match tile coordinates`)
+    const expectedAges = Array.from({ length: 109 }, (_, index) => index * 5)
+    if (collection.frames.some((frame, index) => frame.archiveNominalAgeMa !== expectedAges[index])) {
+      failures.push('palaeotopography Web preview ages are not the complete ordered 0–540 Ma series')
     }
-    if (current.maps.paleotopographyFrameCount !== 1 || current.maps.paleotopographyTileCount !== 341) {
-      failures.push('current map summary does not expose the complete palaeotopography prototype')
+    let gridBytes = 0
+    for (const frame of collection.frames) {
+      const label = `palaeotopography ${frame.archiveNominalAgeMa} Ma Web preview grid`
+      releaseUrl(frame.grid, label)
+      checkFile(frame.grid, label)
+      if (frame.grid?.width !== 721 || frame.grid?.height !== 361 || frame.grid?.cellCount !== 260281
+        || frame.grid?.resolutionDegrees !== 0.5
+        || frame.grid?.derivation !== 'exact-decimation-every-fifth-source-row-and-column'
+        || frame.sourceFullGrid?.width !== 3601 || frame.sourceFullGrid?.height !== 1801
+        || frame.sourceFullGrid?.resolutionDegrees !== 0.1
+        || !frame.memberSha256 || !frame.internalDescription) {
+        failures.push(`${label}: preview/full-source metadata is invalid`)
+        continue
+      }
+      const decoded = gunzipSync(readFileSync(join(dataRoot, frame.grid.url)))
+      if (decoded.byteLength !== frame.grid.sourceBytes
+        || createHash('sha256').update(decoded).digest('hex') !== frame.grid.sourceSha256) {
+        failures.push(`${label}: decoded checksum mismatch`)
+      }
+      gridBytes += frame.grid.bytes
+    }
+    if (gridBytes !== collection.delivery.gridBytes
+      || current.maps.paleotopographyFrameCount !== 109
+      || current.maps.paleotopographyGridCount !== 109
+      || current.maps.paleotopographyGridBytes !== 10147417
+      || current.maps.paleotopographyDeliveryProfile !== 'web-preview'
+      || current.maps.paleotopographyTileCount !== 0) {
+      failures.push('current map summary does not expose the complete lightweight palaeotopography series')
     }
   }
 }

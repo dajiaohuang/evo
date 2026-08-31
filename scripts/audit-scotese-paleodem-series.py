@@ -90,6 +90,7 @@ def main() -> None:
                 if checkpoint:
                     stored = packed
                     encoding = "absolute-i16"
+                    stored_bytes = compressed_size(stored.tobytes(order="C"))
                 else:
                     difference = packed.astype(np.int32) - previous.astype(np.int32)
                     if difference.min() < np.iinfo(np.int16).min or difference.max() > np.iinfo(np.int16).max:
