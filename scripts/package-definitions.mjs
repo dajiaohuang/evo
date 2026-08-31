@@ -44,7 +44,7 @@ export const researchSceneDefinitions = {
     { id: 'early-land-plants-comparison-window', kind: 'comparison', route: '#/compare?left=lycophyta&right=marchantiophyta', entityIds: ['lycophyta', 'marchantiophyta'], claimIds: ['claim:taxon:lycophyta:fossil-range', 'claim:taxon:marchantiophyta:fossil-range'] },
   ] },
   gymnosperms: { label: { en: 'Gymnosperms', zh: '裸子植物' }, scenes: [
-    { id: 'gymnosperms-map-window', kind: 'map', route: '#/explore?taxon=gymnospermae&view=map&age=182.5&older=365&younger=0', entityIds: ['gymnospermae'], claimIds: ['claim:taxon:gymnospermae:root-range-rc39'] },
+    { id: 'gymnosperms-map-window', kind: 'map', route: '#/explore?taxon=araucariaceae&view=map&age=100.7&older=201.4&younger=0', entityIds: ['araucariaceae'], claimIds: ['claim:taxon:araucariaceae:range-boundary-rc50'] },
     { id: 'gymnosperms-comparison-window', kind: 'comparison', route: '#/compare?left=cycadophyta&right=ginkgophyta', entityIds: ['cycadophyta', 'ginkgophyta'], claimIds: ['claim:taxon:cycadophyta:fossil-range', 'claim:taxon:ginkgophyta:fossil-range'] },
   ] },
   angiospermae: { label: { en: 'Angiosperms', zh: '被子植物' }, scenes: [
@@ -100,7 +100,7 @@ export const researchSceneDefinitions = {
     { id: 'turtles-lepidosaurs-diversity-window', kind: 'diversity', route: '#/explore?taxon=mosasauridae&view=diversity&age=79&older=92&younger=66', entityIds: ['mosasauridae'], claimIds: ['claim:taxon:mosasauridae:fossil-range'] },
   ] },
   'crocodylomorphs-birds': { label: { en: 'Crocodylomorphs and birds', zh: '鳄类与鸟类' }, scenes: [
-    { id: 'crocodylomorphs-birds-map-window', kind: 'map', route: '#/explore?taxon=crocodylomorpha&view=map&age=115.5&older=231&younger=0', entityIds: ['crocodylomorpha'], claimIds: ['claim:event:carnufex-holotype-predator'] },
+    { id: 'crocodylomorphs-birds-map-window', kind: 'map', route: '#/explore?taxon=carnufex&view=map&age=231&older=231&younger=231', entityIds: ['carnufex'], claimIds: ['claim:event:carnufex-holotype-predator'] },
     { id: 'crocodylomorphs-birds-comparison-window', kind: 'comparison', route: '#/compare?left=archaeopteryx&right=neornithes', entityIds: ['archaeopteryx', 'neornithes'], claimIds: ['claim:taxon:archaeopteryx:fossil-range', 'claim:taxon:neornithes:fossil-range'] },
   ] },
   dinosauria: { label: { en: 'Dinosauria', zh: '恐龙' }, scenes: [
