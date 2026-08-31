@@ -12808,6 +12808,34 @@
     ]
   },
   {
+    "id": "strudiella-reassessment",
+    "title": "Strudiella insect diagnosis and re-assessment",
+    "titleZh": "Strudiella 昆虫诊断与再评估",
+    "category": "classification",
+    "startAge": 365,
+    "endAge": 365,
+    "regions": ["Strud locality, Belgium"],
+    "clades": ["Strudiella devonica", "Hexapoda"],
+    "summary": "A Late Devonian specimen was first described as a complete insect and later re-examined as an arthropod that cannot be securely identified as an insect.",
+    "claimIds": ["claim:event:strudiella-reassessment"],
+    "evidenceItems": [
+      {
+        "statement": "Garrouste et al. named and interpreted the nearly complete Strud specimen as Strudiella devonica, a terrestrial Late Devonian insect.",
+        "relation": "supports",
+        "claimIds": ["claim:event:strudiella-reassessment"],
+        "referenceLinks": [{"referenceId": "garrouste-2012-strudiella", "relation": "supports", "pages": "82–85", "figure": "Figures 1–4", "quoteLocator": "Original diagnosis and terrestrial interpretation"}]
+      }
+    ],
+    "uncertaintyItems": [
+      {
+        "statement": "Hörnschemeyer et al. rejected the insect identification after re-investigation; the atlas preserves this disagreement rather than using Strudiella as a secure insect calibration.",
+        "relation": "contextualizes",
+        "claimIds": ["claim:event:strudiella-reassessment"],
+        "referenceLinks": [{"referenceId": "hornschemeyer-2013-strudiella", "relation": "supports", "pages": "E3–E4", "figure": "Figure 1", "quoteLocator": "Re-investigation and conclusion that Strudiella is not an insect"}]
+      }
+    ]
+  },
+  {
     "id": "late-mississippian-cosmoselachus-operculum",
     "title": "Cosmoselachus reveals an operculate symmoriiform",
     "titleZh": "Cosmoselachus 揭示具鳃盖的对称鳍鲨形软骨鱼",
@@ -12844,6 +12872,34 @@
         "relation": "contextualizes",
         "claimIds": ["claim:event:late-mississippian-cosmoselachus-operculum"],
         "referenceLinks": [{"relation": "supports", "referenceId": "bronson-2024-cosmoselachus", "pages": "113–117", "figure": "Figure 8", "quoteLocator": "Phylogenetic analysis; Discussion; Conclusions"}]
+      }
+    ]
+  },
+  {
+    "id": "cretophasmomima-crypsis",
+    "title": "Cretophasmomima wing pattern and proposed leaf crypsis",
+    "titleZh": "Cretophasmomima 翅脉图案与拟叶隐蔽假说",
+    "category": "ecology",
+    "startAge": 130,
+    "endAge": 122,
+    "regions": ["Yixian Formation, Jehol biota, Inner Mongolia, China"],
+    "clades": ["Cretophasmomima melanogramma", "Phasmatodea"],
+    "summary": "The Early Cretaceous stick-insect fossil preserves dark wing veins that the describing study compared with a contemporaneous leaf-shaped plant organ as a possible crypsis model.",
+    "claimIds": ["claim:event:cretophasmomima-crypsis"],
+    "evidenceItems": [
+      {
+        "statement": "The primary description documents the wing pattern and its comparison with Membranifolia admirabilis in the Jehol setting.",
+        "relation": "supports",
+        "claimIds": ["claim:event:cretophasmomima-crypsis"],
+        "referenceLinks": [{"referenceId": "wang-2014-cretophasmomima", "relation": "supports", "pages": "e91290", "figure": "Figures 6–7", "quoteLocator": "Wing coloration, plant comparison and proposed crypsis"}]
+      }
+    ],
+    "uncertaintyItems": [
+      {
+        "statement": "The fossil preserves a pattern and a proposed model, not observed predator avoidance, feeding behaviour or measured crypsis performance.",
+        "relation": "contextualizes",
+        "claimIds": ["claim:event:cretophasmomima-crypsis"],
+        "referenceLinks": [{"referenceId": "wang-2014-cretophasmomima", "relation": "supports", "pages": "e91290", "figure": "Figures 6–7", "quoteLocator": "Cautious functional interpretation of the wing pattern"}]
       }
     ]
   }
