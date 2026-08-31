@@ -107,6 +107,8 @@ final class AppConfigurationTests: XCTestCase {
         var reptiliaItisNomenclatureRecords = 0
         var crocodyliaItisFiles = 0
         var crocodyliaItisNomenclatureRecords = 0
+        var mammalItisFiles = 0
+        var mammalItisNomenclatureRecords = 0
         var wfoRichRecords = 0
         for (packageId, manifestDescriptor) in packageDescriptors {
             let manifestPath = try XCTUnwrap(manifestDescriptor["url"] as? String)
@@ -221,6 +223,33 @@ final class AppConfigurationTests: XCTestCase {
                 }
                 XCTAssertEqual((collection["counts"] as? [String: Any])?["total"] as? Int, 8_923)
                 XCTAssertEqual((collection["counts"] as? [String: Any])?["itisUpstreamOnly"] as? Int, 8)
+            } else if ["perissodactyla", "cetartiodactyla", "primates", "carnivora", "other-mammals"].contains(packageId) {
+                let collections = try XCTUnwrap(package["nomenclatureCollections"] as? [[String: Any]])
+                XCTAssertEqual(collections.count, 1)
+                let expected: (id: String, files: Int, upstreamFiles: Int, records: Int, upstreamRecords: Int, descriptorSha: String)
+                switch packageId {
+                case "perissodactyla":
+                    expected = ("itis-perissodactyla-tsn-crosswalk", 1, 0, 19, 0, "bcba89f8518ae97d49f4221409e690bb474239e470fd1d3bbb9d920dac257dc8")
+                case "cetartiodactyla":
+                    expected = ("itis-cetartiodactyla-tsn-crosswalk", 1, 0, 503, 0, "d44e276f5cfdd38f8ba133891aebc4b07f2e8dae280611511b2dcfefea8310d1")
+                case "primates":
+                    expected = ("itis-primates-tsn-crosswalk", 1, 0, 530, 0, "96dee66ffd47cbf98d61724ad7ea5c271bd247e8996bf59b8413cc50ef99e58f")
+                case "carnivora":
+                    expected = ("itis-carnivora-tsn-crosswalk", 1, 0, 310, 0, "7993503e39609270b14efe5f472d565cdba381c703d0f790513c3e88e60b68bc")
+                default:
+                    expected = ("itis-other-mammals-tsn-crosswalk", 4, 1, 5_099, 3, "d41b97b77603ca44d5a153be9489174a1c0c4236591d007e9ceea6b137aa9228")
+                }
+                let collection = try XCTUnwrap(collections.first { ($0["id"] as? String) == expected.id })
+                XCTAssertEqual(collection["descriptorSha256"] as? String, expected.descriptorSha)
+                let collectionRecords = try verifyRichItisCollection(
+                    collection: collection, inventory: files, below: dataRoot,
+                    expectedFiles: expected.files, expectedUpstreamFiles: expected.upstreamFiles,
+                    expectedRecords: expected.records, expectedUpstreamRecords: expected.upstreamRecords,
+                    label: "ITIS \(expected.id)")
+                mammalItisFiles += expected.files + expected.upstreamFiles
+                mammalItisNomenclatureRecords += collectionRecords + expected.upstreamRecords
+            } else if packageId == "mammal-origins" {
+                XCTAssertNil(package["nomenclatureCollections"], "mammal-origins must not publish an ITIS nomenclature collection")
             } else if packageId == "turtles-lepidosaurs" {
                 let collections = try XCTUnwrap(package["nomenclatureCollections"] as? [[String: Any]])
                 XCTAssertEqual(collections.count, 1)
@@ -271,6 +300,8 @@ final class AppConfigurationTests: XCTestCase {
         XCTAssertEqual(reptiliaItisNomenclatureRecords, 13_277)
         XCTAssertEqual(crocodyliaItisFiles, 1)
         XCTAssertEqual(crocodyliaItisNomenclatureRecords, 27)
+        XCTAssertEqual(mammalItisFiles, 9)
+        XCTAssertEqual(mammalItisNomenclatureRecords, 6_464)
         XCTAssertEqual(wfoRichRecords, 387_988)
 
         let catalogueDescriptor = try XCTUnwrap((current["catalogue"] as? [String: Any])?["manifest"] as? [String: Any])

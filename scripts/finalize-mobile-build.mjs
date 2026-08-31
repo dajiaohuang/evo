@@ -137,6 +137,41 @@ const expectedRichItisCollections = {
       crocodylia: true,
     },
   },
+  perissodactyla: {
+    'itis-perissodactyla-tsn-crosswalk': {
+      files: 1, upstreamFiles: 0, records: 19, upstreamRecords: 0,
+      descriptorSha256: 'bcba89f8518ae97d49f4221409e690bb474239e470fd1d3bbb9d920dac257dc8',
+      mammal: true,
+    },
+  },
+  cetartiodactyla: {
+    'itis-cetartiodactyla-tsn-crosswalk': {
+      files: 1, upstreamFiles: 0, records: 503, upstreamRecords: 0,
+      descriptorSha256: 'd44e276f5cfdd38f8ba133891aebc4b07f2e8dae280611511b2dcfefea8310d1',
+      mammal: true,
+    },
+  },
+  primates: {
+    'itis-primates-tsn-crosswalk': {
+      files: 1, upstreamFiles: 0, records: 530, upstreamRecords: 0,
+      descriptorSha256: '96dee66ffd47cbf98d61724ad7ea5c271bd247e8996bf59b8413cc50ef99e58f',
+      mammal: true,
+    },
+  },
+  carnivora: {
+    'itis-carnivora-tsn-crosswalk': {
+      files: 1, upstreamFiles: 0, records: 310, upstreamRecords: 0,
+      descriptorSha256: '7993503e39609270b14efe5f472d565cdba381c703d0f790513c3e88e60b68bc',
+      mammal: true,
+    },
+  },
+  'other-mammals': {
+    'itis-other-mammals-tsn-crosswalk': {
+      files: 4, upstreamFiles: 1, records: 5099, upstreamRecords: 3,
+      descriptorSha256: 'd41b97b77603ca44d5a153be9489174a1c0c4236591d007e9ceea6b137aa9228',
+      mammal: true,
+    },
+  },
 }
 let arthropodItisFiles = 0
 let arthropodItisRecords = 0
@@ -144,6 +179,8 @@ let reptiliaItisFiles = 0
 let reptiliaItisRecords = 0
 let crocodyliaItisFiles = 0
 let crocodyliaItisRecords = 0
+let mammalItisFiles = 0
+let mammalItisRecords = 0
 for (const [packageId, expectedCollections] of Object.entries(expectedRichItisCollections)) {
   const descriptor = current.packages?.manifests?.[packageId]
   if (!descriptor?.url) throw new Error(`Mobile build is missing the ${packageId} package manifest`)
@@ -203,6 +240,9 @@ for (const [packageId, expectedCollections] of Object.entries(expectedRichItisCo
     if (expected.crocodylia) {
       crocodyliaItisFiles += expected.files + expected.upstreamFiles
       crocodyliaItisRecords += expected.records + expected.upstreamRecords
+    if (expected.mammal) {
+      mammalItisFiles += expected.files + expected.upstreamFiles
+      mammalItisRecords += expected.records + expected.upstreamRecords
     }
   }
   if (packageId === 'echinoderms') {
@@ -224,6 +264,14 @@ if (reptiliaItisFiles !== 10 || reptiliaItisRecords !== 13277) {
 }
 if (crocodyliaItisFiles !== 1 || crocodyliaItisRecords !== 27) {
   throw new Error(`Mobile build must stage one Crocodylia ITIS file with 27 records; found ${crocodyliaItisFiles} files and ${crocodyliaItisRecords} records`)
+if (mammalItisFiles !== 9 || mammalItisRecords !== 6464) {
+  throw new Error(`Mobile build must stage 9 Mammalia ITIS files and 6464 records; found ${mammalItisFiles} files and ${mammalItisRecords} records`)
+}
+const mammalOriginsDescriptor = current.packages?.manifests?.['mammal-origins']
+if (!mammalOriginsDescriptor?.url) throw new Error('Mobile build is missing the mammal-origins package manifest')
+const mammalOriginsManifest = JSON.parse(readFileSync(join(sourceDataRoot, ...mammalOriginsDescriptor.url.split('/')), 'utf8'))
+if (mammalOriginsManifest.nomenclatureCollections) {
+  throw new Error('mammal-origins must not publish an ITIS nomenclature collection')
 }
 const catalogueManifest = JSON.parse(readFileSync(join(sourceDataRoot, ...current.catalogue.manifest.url.split('/')), 'utf8'))
 const otherAnimalsDescriptor = catalogueManifest.resourcePacks?.manifests?.['other-animals']
