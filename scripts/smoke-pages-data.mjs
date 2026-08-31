@@ -637,22 +637,23 @@ if (catalogue.resourcePacks?.packageCount !== 7
         'itis-ctenophora-tsn-crosswalk': { eligible: 197, records: 204, accepted: 58, redirects: 0, ambiguous: 0, unmatched: 139, upstreamOnly: 7, nonApplicable: 98964, files: 2 },
         'itis-kinorhyncha-tsn-crosswalk': { eligible: 362, records: 420, accepted: 91, redirects: 1, ambiguous: 0, unmatched: 270, upstreamOnly: 58, nonApplicable: 98799, files: 2 },
         'itis-gastrotricha-tsn-crosswalk': { eligible: 903, records: 997, accepted: 574, redirects: 8, ambiguous: 1, unmatched: 320, upstreamOnly: 94, nonApplicable: 98258, files: 2 },
-        'itis-priapulida-tsn-crosswalk': { eligible: 23, records: 23, accepted: 19, redirects: 0, ambiguous: 0, unmatched: 4, upstreamOnly: 0, nonApplicable: 99138, files: 2 },
-        'itis-onychophora-tsn-crosswalk': { eligible: 235, records: 235, accepted: 235, redirects: 0, ambiguous: 0, unmatched: 0, upstreamOnly: 0, nonApplicable: 98926, files: 2 },
+        'itis-priapulida-tsn-crosswalk': { eligible: 23, records: 23, accepted: 19, redirects: 0, ambiguous: 0, unmatched: 4, upstreamOnly: 0, nonApplicable: 99138, files: 1 },
+        'itis-onychophora-tsn-crosswalk': { eligible: 235, records: 235, accepted: 235, redirects: 0, ambiguous: 0, unmatched: 0, upstreamOnly: 0, nonApplicable: 98926, files: 1 },
         'itis-hemichordata-tsn-crosswalk': { eligible: 132, records: 139, accepted: 132, redirects: 0, ambiguous: 0, unmatched: 0, upstreamOnly: 7, nonApplicable: 99029, files: 2 },
         'itis-sipuncula-tsn-crosswalk': { eligible: 146, records: 205, accepted: 146, redirects: 0, ambiguous: 0, unmatched: 0, upstreamOnly: 59, nonApplicable: 99015, files: 2 },
         'itis-nematomorpha-tsn-crosswalk': { eligible: 356, records: 404, accepted: 187, redirects: 6, ambiguous: 0, unmatched: 163, upstreamOnly: 48, nonApplicable: 98805, files: 2 },
-        'itis-phoronida-tsn-crosswalk': { eligible: 19, records: 19, accepted: 11, redirects: 8, ambiguous: 0, unmatched: 0, upstreamOnly: 0, nonApplicable: 99142, files: 2 },
+        'itis-phoronida-tsn-crosswalk': { eligible: 19, records: 19, accepted: 11, redirects: 8, ambiguous: 0, unmatched: 0, upstreamOnly: 0, nonApplicable: 99142, files: 1 },
         'itis-gnathostomulida-tsn-crosswalk': { eligible: 100, records: 104, accepted: 90, redirects: 0, ambiguous: 0, unmatched: 10, upstreamOnly: 4, nonApplicable: 99061, files: 2 },
-        'itis-loricifera-tsn-crosswalk': { eligible: 46, records: 46, accepted: 22, redirects: 0, ambiguous: 0, unmatched: 24, upstreamOnly: 0, nonApplicable: 99115, files: 2 },
-        'itis-micrognathozoa-tsn-crosswalk': { eligible: 1, records: 1, accepted: 1, redirects: 0, ambiguous: 0, unmatched: 0, upstreamOnly: 0, nonApplicable: 99160, files: 2 },
-        'itis-cycliophora-tsn-crosswalk': { eligible: 2, records: 2, accepted: 2, redirects: 0, ambiguous: 0, unmatched: 0, upstreamOnly: 0, nonApplicable: 99159, files: 2 },
-        'itis-placozoa-tsn-crosswalk': { eligible: 4, records: 4, accepted: 4, redirects: 0, ambiguous: 0, unmatched: 0, upstreamOnly: 0, nonApplicable: 99157, files: 2 },
+        'itis-loricifera-tsn-crosswalk': { eligible: 46, records: 46, accepted: 22, redirects: 0, ambiguous: 0, unmatched: 24, upstreamOnly: 0, nonApplicable: 99115, files: 1 },
+        'itis-micrognathozoa-tsn-crosswalk': { eligible: 1, records: 1, accepted: 1, redirects: 0, ambiguous: 0, unmatched: 0, upstreamOnly: 0, nonApplicable: 99160, files: 1 },
+        'itis-cycliophora-tsn-crosswalk': { eligible: 2, records: 2, accepted: 2, redirects: 0, ambiguous: 0, unmatched: 0, upstreamOnly: 0, nonApplicable: 99159, files: 1 },
+        'itis-placozoa-tsn-crosswalk': { eligible: 4, records: 4, accepted: 4, redirects: 0, ambiguous: 0, unmatched: 0, upstreamOnly: 0, nonApplicable: 99157, files: 1 },
         'itis-xenacoelomorpha-tsn-crosswalk': { eligible: 441, records: 499, accepted: 370, redirects: 6, ambiguous: 1, unmatched: 64, upstreamOnly: 58, nonApplicable: 98720, files: 2 },
         'itis-orthonectida-tsn-crosswalk': { eligible: 24, records: 27, accepted: 22, redirects: 0, ambiguous: 0, unmatched: 2, upstreamOnly: 3, nonApplicable: 99137, files: 2 },
+        'itis-dicyemida-tsn-crosswalk': { eligible: 119, records: 126, accepted: 85, redirects: 0, ambiguous: 0, unmatched: 34, upstreamOnly: 7, nonApplicable: 99042, files: 2 },
       }
-      if (extensions.length !== 25 || manifestFile.extensionFileCount !== 0 || manifestFile.canonicalExtensionFileCount !== 67) {
-        failures.push('other-animals: Pages must publish 25 ITIS authority summaries and no row shards')
+      if (extensions.length !== 26 || manifestFile.extensionFileCount !== 0 || manifestFile.canonicalExtensionFileCount !== 62) {
+        failures.push('other-animals: Pages must publish 26 ITIS authority summaries and no row shards')
       }
       for (const [id, counts] of Object.entries(expected)) {
         const authority = extensions.find((candidate) => candidate.id === id)

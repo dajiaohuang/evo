@@ -1,5 +1,12 @@
 # Dataset changelog
 
+## App 0.20.19 / 2026.08-static-v5-rc68 — 2026-08-31
+
+- Expanded the official ITIS `2026-08-26` CC0 authority layer in the mixed `other-animals` resource pack from five to 26 disjoint scopes. The added scopes are Acanthocephala, Entoprocta, Tardigrada, Chaetognatha, Ctenophora, Kinorhyncha, Gastrotricha, Priapulida, Onychophora, Hemichordata, Sipuncula, Nematomorpha, Phoronida, Gnathostomulida, Loricifera, Micrognathozoa, Cycliophora, Placozoa, Xenacoelomorpha, Orthonectida and Dicyemida.
+- Preserved explicit exact-evidence outcomes for all 60,572 in-scope COL26.8 accepted species: 14,342 current-name links, 296 official synonym redirects, 30 ambiguities and 45,904 unmatched records. Kept 2,327 additional current ITIS species in separate null-COL upstream-only partitions. Root audits prevent invalid or broader `Kamptozoa`, old `Acoela` and `Rhombozoa` boundaries from duplicating accepted scopes.
+- Published complete source, scope, root, method, count, limitation and canonical 62-file non-empty hash inventories through Pages `web-light` without row shards. Android and iOS build `22` include all 62,899 records byte-for-byte under `native-full`; zero-row placeholder gzip files are omitted, and the generic lookup rejects Web row access and reads at most one matching COL-ID range shard.
+- Canonicalized the Chaetognatha and Ctenophora sidecar paths and corrected corrupted or taxon-mismatched Chinese evidence-boundary text in the Tardigrada, Gastrotricha, Priapulida and Sipuncula generators and descriptors.
+
 ## App 0.20.18 / 2026.08-static-v5-rc67 — 2026-08-31
 
 - Added complete, disjoint ITIS `2026-08-26` CC0 nomenclatural sidecars for Platyhelminthes, Rotifera, Bryozoa, Nemertea, and Tunicata plus Cephalochordata inside the mixed `other-animals` resource pack.

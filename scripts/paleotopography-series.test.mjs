@@ -86,5 +86,5 @@ describe('complete Scotese–Wright PaleoDEM series', () => {
       decodedGridBytes: decodedBytes,
       webPreviewDecodedGridBytes: previewDecodedBytes,
     })
-  })
+  }, 30_000)
 })

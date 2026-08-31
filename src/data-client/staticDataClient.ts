@@ -703,19 +703,20 @@ const itisOtherAnimalsContracts: Record<import('./types').CatalogueItisOtherAnim
   ctenophora: { eligible: 197, accepted: 58, redirects: 0, ambiguous: 0, unmatched: 139, upstreamOnly: 7, nonApplicable: 98964, canonicalFileCount: 2 },
   kinorhyncha: { eligible: 362, accepted: 91, redirects: 1, ambiguous: 0, unmatched: 270, upstreamOnly: 58, nonApplicable: 98799, canonicalFileCount: 2 },
   gastrotricha: { eligible: 903, accepted: 574, redirects: 8, ambiguous: 1, unmatched: 320, upstreamOnly: 94, nonApplicable: 98258, canonicalFileCount: 2 },
-  priapulida: { eligible: 23, accepted: 19, redirects: 0, ambiguous: 0, unmatched: 4, upstreamOnly: 0, nonApplicable: 99138, canonicalFileCount: 2 },
-  onychophora: { eligible: 235, accepted: 235, redirects: 0, ambiguous: 0, unmatched: 0, upstreamOnly: 0, nonApplicable: 98926, canonicalFileCount: 2 },
+  priapulida: { eligible: 23, accepted: 19, redirects: 0, ambiguous: 0, unmatched: 4, upstreamOnly: 0, nonApplicable: 99138, canonicalFileCount: 1 },
+  onychophora: { eligible: 235, accepted: 235, redirects: 0, ambiguous: 0, unmatched: 0, upstreamOnly: 0, nonApplicable: 98926, canonicalFileCount: 1 },
   hemichordata: { eligible: 132, accepted: 132, redirects: 0, ambiguous: 0, unmatched: 0, upstreamOnly: 7, nonApplicable: 99029, canonicalFileCount: 2 },
   sipuncula: { eligible: 146, accepted: 146, redirects: 0, ambiguous: 0, unmatched: 0, upstreamOnly: 59, nonApplicable: 99015, canonicalFileCount: 2 },
   nematomorpha: { eligible: 356, accepted: 187, redirects: 6, ambiguous: 0, unmatched: 163, upstreamOnly: 48, nonApplicable: 98805, canonicalFileCount: 2 },
-  phoronida: { eligible: 19, accepted: 11, redirects: 8, ambiguous: 0, unmatched: 0, upstreamOnly: 0, nonApplicable: 99142, canonicalFileCount: 2 },
+  phoronida: { eligible: 19, accepted: 11, redirects: 8, ambiguous: 0, unmatched: 0, upstreamOnly: 0, nonApplicable: 99142, canonicalFileCount: 1 },
   gnathostomulida: { eligible: 100, accepted: 90, redirects: 0, ambiguous: 0, unmatched: 10, upstreamOnly: 4, nonApplicable: 99061, canonicalFileCount: 2 },
-  loricifera: { eligible: 46, accepted: 22, redirects: 0, ambiguous: 0, unmatched: 24, upstreamOnly: 0, nonApplicable: 99115, canonicalFileCount: 2 },
-  micrognathozoa: { eligible: 1, accepted: 1, redirects: 0, ambiguous: 0, unmatched: 0, upstreamOnly: 0, nonApplicable: 99160, canonicalFileCount: 2 },
-  cycliophora: { eligible: 2, accepted: 2, redirects: 0, ambiguous: 0, unmatched: 0, upstreamOnly: 0, nonApplicable: 99159, canonicalFileCount: 2 },
-  placozoa: { eligible: 4, accepted: 4, redirects: 0, ambiguous: 0, unmatched: 0, upstreamOnly: 0, nonApplicable: 99157, canonicalFileCount: 2 },
+  loricifera: { eligible: 46, accepted: 22, redirects: 0, ambiguous: 0, unmatched: 24, upstreamOnly: 0, nonApplicable: 99115, canonicalFileCount: 1 },
+  micrognathozoa: { eligible: 1, accepted: 1, redirects: 0, ambiguous: 0, unmatched: 0, upstreamOnly: 0, nonApplicable: 99160, canonicalFileCount: 1 },
+  cycliophora: { eligible: 2, accepted: 2, redirects: 0, ambiguous: 0, unmatched: 0, upstreamOnly: 0, nonApplicable: 99159, canonicalFileCount: 1 },
+  placozoa: { eligible: 4, accepted: 4, redirects: 0, ambiguous: 0, unmatched: 0, upstreamOnly: 0, nonApplicable: 99157, canonicalFileCount: 1 },
   xenacoelomorpha: { eligible: 441, accepted: 370, redirects: 6, ambiguous: 1, unmatched: 64, upstreamOnly: 58, nonApplicable: 98720, canonicalFileCount: 2 },
   orthonectida: { eligible: 24, accepted: 22, redirects: 0, ambiguous: 0, unmatched: 2, upstreamOnly: 3, nonApplicable: 99137, canonicalFileCount: 2 },
+  dicyemida: { eligible: 119, accepted: 85, redirects: 0, ambiguous: 0, unmatched: 34, upstreamOnly: 7, nonApplicable: 99042, canonicalFileCount: 2 },
 }
 
 export async function loadCatalogueItisOtherAnimalsRecord(
@@ -750,7 +751,8 @@ export async function loadCatalogueItisOtherAnimalsRecord(
     throw new Error(`ITIS ${scope} row-level records are available in the full Android/iOS data profile; Web publishes the verified coverage summary only`)
   }
   const rangeFiles = extension.files.filter((file) => file.minColId && file.maxColId)
-  if (rangeFiles.length !== expected.canonicalFileCount - 1
+  const expectedUpstreamFiles = expected.upstreamOnly > 0 ? 1 : 0
+  if (rangeFiles.length !== expected.canonicalFileCount - expectedUpstreamFiles
     || rangeFiles.reduce((sum, file) => sum + file.records, 0) !== expected.eligible) {
     throw new Error(`ITIS ${scope} authority extension does not publish its complete COL partition`)
   }

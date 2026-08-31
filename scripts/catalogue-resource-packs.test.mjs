@@ -148,7 +148,7 @@ describe('COL26.8 static nomenclatural resource packs', () => {
 
   it('publishes the complete Phoronida ITIS summary and native-full files', () => {
     const descriptor = collection.packs.find((pack) => pack.packageId === 'other-animals')
-    expect(descriptor).toMatchObject({ acceptedSpeciesCount: 99161, fileCount: 4, extensionCount: 25, extensionFileCount: 67 })
+    expect(descriptor).toMatchObject({ acceptedSpeciesCount: 99161, fileCount: 4, extensionCount: 26, extensionFileCount: 62 })
     const manifest = JSON.parse(readFileSync(join(resourcePacksRoot, descriptor.manifestPath), 'utf8'))
     const extension = manifest.extensions.find((candidate) => candidate.id === 'itis-phoronida-tsn-crosswalk')
     expect(extension).toMatchObject({
@@ -156,11 +156,10 @@ describe('COL26.8 static nomenclatural resource packs', () => {
       counts: { eligible: 19, records: 19, accepted: 11, redirects: 8, ambiguous: 0, unmatched: 0, upstreamOnly: 0, nonApplicable: 99142 },
       deliveryProfiles: {
         'web-light': { payload: 'summary-only', files: [], records: 0 },
-        'native-full': { payload: 'complete', files: ['other-animals/itis-phoronida-sidecar-0000.jsonl.gz', 'other-animals/itis-phoronida-upstream-only-0000.jsonl.gz'], records: 19 },
+        'native-full': { payload: 'complete', files: ['other-animals/itis-phoronida-sidecar-0000.jsonl.gz'], records: 19 },
       },
     })
-    expect(extension.files).toHaveLength(2)
+    expect(extension.files).toHaveLength(1)
     expect(extension.files[0]).toMatchObject({ path: 'other-animals/itis-phoronida-sidecar-0000.jsonl.gz', records: 19, minColId: '4GRZF', maxColId: '65364', role: 'col-partition' })
-    expect(extension.files[1]).toMatchObject({ path: 'other-animals/itis-phoronida-upstream-only-0000.jsonl.gz', records: 0, colOwnership: null, role: 'upstream-only' })
   })
 })

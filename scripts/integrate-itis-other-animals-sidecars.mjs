@@ -43,6 +43,7 @@ const taxa = [
   { slug: 'placozoa', label: 'Placozoa' },
   { slug: 'xenacoelomorpha', label: 'Xenacoelomorpha' },
   { slug: 'orthonectida', label: 'Orthonectida' },
+  { slug: 'dicyemida', label: 'Dicyemida' },
 ]
 
 const bryozoaPath = join(packRoot, 'itis-bryozoa-sidecar.json')
@@ -104,7 +105,9 @@ const extensions = taxa.map(({ slug, label }) => {
   ledger.output.descriptor.sha256 = sha256(descriptorBytes)
   ledger.generatedBy.scriptSha256 = sha256(readFileSync(join(root, `scripts/build-itis-${slug}-sidecar.mjs`)))
   writeJson(ledgerPath, ledger)
-  const files = [...descriptor.colUsageIdLocator.files, ...descriptor.upstreamOnly.files].map(toRuntimeFile)
+  const files = [...descriptor.colUsageIdLocator.files, ...descriptor.upstreamOnly.files]
+    .filter((file) => file.records > 0)
+    .map(toRuntimeFile)
   const records = descriptor.counts.total + descriptor.counts.itisUpstreamOnly
   const totalCompressedBytes = files.reduce((sum, file) => sum + file.bytes, 0)
   const totalSourceBytes = files.reduce((sum, file) => sum + file.sourceBytes, 0)
