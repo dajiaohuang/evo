@@ -1,0 +1,4703 @@
+{
+  "schemaVersion": 1,
+  "sidecarType": "release-pinned-exact-nomenclatural-crosswalk",
+  "packageId": "carnivora",
+  "sources": {
+    "col": {
+      "releaseAlias": "COL26.8",
+      "releaseDate": "2026-08-20",
+      "registryManifestPath": "data/catalogue-of-life/releases/2026-08-20/registry/manifest.json"
+    },
+    "itis": {
+      "datasetId": "itis-2026-08-26",
+      "exportDate": "2026-08-26",
+      "sourceLedgerPath": "data/sources/itis-2026-08-26.json",
+      "sourceLedgerSha256": "38a7a55b4e98cafc66790e47f6bd637e298e23fd691e4771c755b38e4a02d7fc",
+      "license": "CC0-1.0",
+      "citationDoi": "10.5066/F7KH0KBK"
+    }
+  },
+  "exactMatching": {
+    "normalization": [
+      "Remove the exact trailing COL authorship field from COL scientificName when that suffix is present; no authorship parser is used.",
+      "Normalize Unicode to NFC, replace underscores with spaces, collapse Unicode whitespace and trim.",
+      "For species-rank comparison, remove one parenthesized subgenus token in the exact Genus (Subgenus) species representation; genus and specific epithet must remain unchanged.",
+      "Preserve case, diacritics, punctuation and all remaining name tokens."
+    ],
+    "statuses": {
+      "accepted": "The normalized COL name resolves to exactly one valid ITIS Mammalia species and directly equals that current ITIS name.",
+      "synonym-current-name-redirect": "The normalized COL name equals one or more official ITIS invalid species names whose synonym_links rows resolve to exactly one valid ITIS Mammalia species.",
+      "ambiguous": "The normalized exact evidence resolves to more than one valid ITIS Mammalia species TSN.",
+      "unmatched": "No normalized exact valid-name or official species-synonym evidence resolves to a valid ITIS Mammalia species.",
+      "forbidden": "No fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered, genus-substitution or higher-rank match is permitted."
+    }
+  },
+  "evidenceBoundary": {
+    "en": "This CC0 ITIS sidecar supplies release-pinned TSNs and exact nomenclatural redirects. It is not an MDD equivalent, a final classification authority, a phylogeny, or evidence that COL and ITIS use the same species concept.",
+    "zh": "此 CC0 ITIS 侧车仅提供固定版本的 TSN 与严格同名重定向；它不是 MDD 的等价替代品，也不是最终分类权威、系统发育树，且不表示 COL 与 ITIS 采用相同物种概念。"
+  },
+  "counts": {
+    "total": 310,
+    "accepted": 310,
+    "synonymCurrentNameRedirect": 0,
+    "ambiguous": 0,
+    "unmatched": 0
+  },
+  "records": {
+    "accepted": [
+      {
+        "colUsageId": "9BTZ",
+        "colScientificName": "Acinonyx jubatus (Schreber, 1775)",
+        "colAuthorship": "(Schreber, 1775)",
+        "exactMatchName": "Acinonyx jubatus",
+        "currentName": {
+          "tsn": "183813",
+          "scientificName": "Acinonyx jubatus",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-06-25"
+        }
+      },
+      {
+        "colUsageId": "6673Q",
+        "colScientificName": "Ailuropoda melanoleuca (David, 1869)",
+        "colAuthorship": "(David, 1869)",
+        "exactMatchName": "Ailuropoda melanoleuca",
+        "currentName": {
+          "tsn": "621845",
+          "scientificName": "Ailuropoda melanoleuca",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-02-26"
+        }
+      },
+      {
+        "colUsageId": "65V3W",
+        "colScientificName": "Ailurus fulgens F. G. Cuvier, 1825",
+        "colAuthorship": "F. G. Cuvier, 1825",
+        "exactMatchName": "Ailurus fulgens",
+        "currentName": {
+          "tsn": "621846",
+          "scientificName": "Ailurus fulgens",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-02-26"
+        }
+      },
+      {
+        "colUsageId": "9GYC4",
+        "colScientificName": "Ailurus styani Thomas, 1902",
+        "colAuthorship": "Thomas, 1902",
+        "exactMatchName": "Ailurus styani",
+        "currentName": {
+          "tsn": "1191078",
+          "scientificName": "Ailurus styani",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-02-26"
+        }
+      },
+      {
+        "colUsageId": "F65C",
+        "colScientificName": "Aonyx capensis (Schinz, 1821)",
+        "colAuthorship": "(Schinz, 1821)",
+        "exactMatchName": "Aonyx capensis",
+        "currentName": {
+          "tsn": "621911",
+          "scientificName": "Aonyx capensis",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2025-09-19"
+        }
+      },
+      {
+        "colUsageId": "67L4L",
+        "colScientificName": "Aonyx cinereus (Illiger, 1815)",
+        "colAuthorship": "(Illiger, 1815)",
+        "exactMatchName": "Aonyx cinereus",
+        "currentName": {
+          "tsn": "726286",
+          "scientificName": "Aonyx cinereus",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2025-09-19"
+        }
+      },
+      {
+        "colUsageId": "F65F",
+        "colScientificName": "Aonyx congicus (Lönnberg, 1910)",
+        "colAuthorship": "(Lönnberg, 1910)",
+        "exactMatchName": "Aonyx congicus",
+        "currentName": {
+          "tsn": "621912",
+          "scientificName": "Aonyx congicus",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2025-09-19"
+        }
+      },
+      {
+        "colUsageId": "5VRMH",
+        "colScientificName": "Arctictis binturong (Raffles, 1822)",
+        "colAuthorship": "(Raffles, 1822)",
+        "exactMatchName": "Arctictis binturong",
+        "currentName": {
+          "tsn": "621981",
+          "scientificName": "Arctictis binturong",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-06-25"
+        }
+      },
+      {
+        "colUsageId": "5VS33",
+        "colScientificName": "Arctocephalus australis (Zimmermann, 1783)",
+        "colAuthorship": "(Zimmermann, 1783)",
+        "exactMatchName": "Arctocephalus australis",
+        "currentName": {
+          "tsn": "180633",
+          "scientificName": "Arctocephalus australis",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-02-26"
+        }
+      },
+      {
+        "colUsageId": "5VRR3",
+        "colScientificName": "Arctocephalus forsteri (Lesson, 1828)",
+        "colAuthorship": "(Lesson, 1828)",
+        "exactMatchName": "Arctocephalus forsteri",
+        "currentName": {
+          "tsn": "180631",
+          "scientificName": "Arctocephalus forsteri",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-02-26"
+        }
+      },
+      {
+        "colUsageId": "5VS2R",
+        "colScientificName": "Arctocephalus galapagoensis Heller, 1904",
+        "colAuthorship": "Heller, 1904",
+        "exactMatchName": "Arctocephalus galapagoensis",
+        "currentName": {
+          "tsn": "180634",
+          "scientificName": "Arctocephalus galapagoensis",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-02-26"
+        }
+      },
+      {
+        "colUsageId": "5W3QR",
+        "colScientificName": "Arctocephalus gazella (Peters, 1875)",
+        "colAuthorship": "(Peters, 1875)",
+        "exactMatchName": "Arctocephalus gazella",
+        "currentName": {
+          "tsn": "180630",
+          "scientificName": "Arctocephalus gazella",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-02-26"
+        }
+      },
+      {
+        "colUsageId": "5W433",
+        "colScientificName": "Arctocephalus philippii (Peters, 1866)",
+        "colAuthorship": "(Peters, 1866)",
+        "exactMatchName": "Arctocephalus philippii",
+        "currentName": {
+          "tsn": "180635",
+          "scientificName": "Arctocephalus philippii",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-02-26"
+        }
+      },
+      {
+        "colUsageId": "67RQR",
+        "colScientificName": "Arctocephalus pusillus (Schreber, 1775)",
+        "colAuthorship": "(Schreber, 1775)",
+        "exactMatchName": "Arctocephalus pusillus",
+        "currentName": {
+          "tsn": "180629",
+          "scientificName": "Arctocephalus pusillus",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-02-26"
+        }
+      },
+      {
+        "colUsageId": "67S2R",
+        "colScientificName": "Arctocephalus tropicalis (J. E. Gray, 1872)",
+        "colAuthorship": "(J. E. Gray, 1872)",
+        "exactMatchName": "Arctocephalus tropicalis",
+        "currentName": {
+          "tsn": "180632",
+          "scientificName": "Arctocephalus tropicalis",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-02-26"
+        }
+      },
+      {
+        "colUsageId": "GB34",
+        "colScientificName": "Arctogalidia trivirgata (Gray, 1832)",
+        "colAuthorship": "(Gray, 1832)",
+        "exactMatchName": "Arctogalidia trivirgata",
+        "currentName": {
+          "tsn": "621982",
+          "scientificName": "Arctogalidia trivirgata",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-06-25"
+        }
+      },
+      {
+        "colUsageId": "GB5L",
+        "colScientificName": "Arctonyx albogularis (Blyth, 1853)",
+        "colAuthorship": "(Blyth, 1853)",
+        "exactMatchName": "Arctonyx albogularis",
+        "currentName": {
+          "tsn": "1086062",
+          "scientificName": "Arctonyx albogularis",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2025-09-19"
+        }
+      },
+      {
+        "colUsageId": "GB5N",
+        "colScientificName": "Arctonyx collaris F. G. Cuvier, 1825",
+        "colAuthorship": "F. G. Cuvier, 1825",
+        "exactMatchName": "Arctonyx collaris",
+        "currentName": {
+          "tsn": "621921",
+          "scientificName": "Arctonyx collaris",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2025-09-19"
+        }
+      },
+      {
+        "colUsageId": "GB5Q",
+        "colScientificName": "Arctonyx hoevenii (Hubrecht, 1891)",
+        "colAuthorship": "(Hubrecht, 1891)",
+        "exactMatchName": "Arctonyx hoevenii",
+        "currentName": {
+          "tsn": "1086064",
+          "scientificName": "Arctonyx hoevenii",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2025-09-19"
+        }
+      },
+      {
+        "colUsageId": "J8SQ",
+        "colScientificName": "Atelocynus microtis (Sclater, 1883)",
+        "colAuthorship": "(Sclater, 1883)",
+        "exactMatchName": "Atelocynus microtis",
+        "currentName": {
+          "tsn": "552773",
+          "scientificName": "Atelocynus microtis",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2025-09-19"
+        }
+      },
+      {
+        "colUsageId": "CFHH4",
+        "colScientificName": "Atilax paludinosus (G. Cuvier, 1829)",
+        "colAuthorship": "(G. Cuvier, 1829)",
+        "exactMatchName": "Atilax paludinosus",
+        "currentName": {
+          "tsn": "621880",
+          "scientificName": "Atilax paludinosus",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-06-25"
+        }
+      },
+      {
+        "colUsageId": "KV7G",
+        "colScientificName": "Bassaricyon alleni Thomas, 1880",
+        "colAuthorship": "Thomas, 1880",
+        "exactMatchName": "Bassaricyon alleni",
+        "currentName": {
+          "tsn": "621959",
+          "scientificName": "Bassaricyon alleni",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-02-26"
+        }
+      },
+      {
+        "colUsageId": "KV7J",
+        "colScientificName": "Bassaricyon gabbii J. A. Allen, 1876",
+        "colAuthorship": "J. A. Allen, 1876",
+        "exactMatchName": "Bassaricyon gabbii",
+        "currentName": {
+          "tsn": "621961",
+          "scientificName": "Bassaricyon gabbii",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-02-26"
+        }
+      },
+      {
+        "colUsageId": "KV7L",
+        "colScientificName": "Bassaricyon medius Thomas, 1909",
+        "colAuthorship": "Thomas, 1909",
+        "exactMatchName": "Bassaricyon medius",
+        "currentName": {
+          "tsn": "914144",
+          "scientificName": "Bassaricyon medius",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2022-09-24"
+        }
+      },
+      {
+        "colUsageId": "KV7M",
+        "colScientificName": "Bassaricyon neblina Helgen, Pinto, Kays, Helgen, Tsuchiya, Quinn, Wilson & Maldonado, 2013",
+        "colAuthorship": "Helgen, Pinto, Kays, Helgen, Tsuchiya, Quinn, Wilson & Maldonado, 2013",
+        "exactMatchName": "Bassaricyon neblina",
+        "currentName": {
+          "tsn": "914142",
+          "scientificName": "Bassaricyon neblina",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2022-09-24"
+        }
+      },
+      {
+        "colUsageId": "KV7S",
+        "colScientificName": "Bassariscus astutus (Lichtenstein, 1830)",
+        "colAuthorship": "(Lichtenstein, 1830)",
+        "exactMatchName": "Bassariscus astutus",
+        "currentName": {
+          "tsn": "180577",
+          "scientificName": "Bassariscus astutus",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-02-26"
+        }
+      },
+      {
+        "colUsageId": "KV7T",
+        "colScientificName": "Bassariscus sumichrasti (Saussure, 1860)",
+        "colAuthorship": "(Saussure, 1860)",
+        "exactMatchName": "Bassariscus sumichrasti",
+        "currentName": {
+          "tsn": "621965",
+          "scientificName": "Bassariscus sumichrasti",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-02-26"
+        }
+      },
+      {
+        "colUsageId": "68FLW",
+        "colScientificName": "Bdeogale crassicauda Peters, 1852",
+        "colAuthorship": "Peters, 1852",
+        "exactMatchName": "Bdeogale crassicauda",
+        "currentName": {
+          "tsn": "621881",
+          "scientificName": "Bdeogale crassicauda",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-06-25"
+        }
+      },
+      {
+        "colUsageId": "68FM8",
+        "colScientificName": "Bdeogale jacksoni (Thomas, 1894)",
+        "colAuthorship": "(Thomas, 1894)",
+        "exactMatchName": "Bdeogale jacksoni",
+        "currentName": {
+          "tsn": "621882",
+          "scientificName": "Bdeogale jacksoni",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-06-25"
+        }
+      },
+      {
+        "colUsageId": "5WFLV",
+        "colScientificName": "Bdeogale nigripes Pucheran, 1855",
+        "colAuthorship": "Pucheran, 1855",
+        "exactMatchName": "Bdeogale nigripes",
+        "currentName": {
+          "tsn": "621883",
+          "scientificName": "Bdeogale nigripes",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-06-25"
+        }
+      },
+      {
+        "colUsageId": "PVZG",
+        "colScientificName": "Callorhinus ursinus (Linnaeus, 1758)",
+        "colAuthorship": "(Linnaeus, 1758)",
+        "exactMatchName": "Callorhinus ursinus",
+        "currentName": {
+          "tsn": "180627",
+          "scientificName": "Callorhinus ursinus",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-02-26"
+        }
+      },
+      {
+        "colUsageId": "QLX7",
+        "colScientificName": "Canis aureus Linnaeus, 1758",
+        "colAuthorship": "Linnaeus, 1758",
+        "exactMatchName": "Canis aureus",
+        "currentName": {
+          "tsn": "183817",
+          "scientificName": "Canis aureus",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2025-09-19"
+        }
+      },
+      {
+        "colUsageId": "QLXF",
+        "colScientificName": "Canis familiaris Linnaeus, 1758",
+        "colAuthorship": "Linnaeus, 1758",
+        "exactMatchName": "Canis familiaris",
+        "currentName": {
+          "tsn": "183815",
+          "scientificName": "Canis familiaris",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2025-09-19"
+        }
+      },
+      {
+        "colUsageId": "QLXJ",
+        "colScientificName": "Canis latrans Say, 1823",
+        "colAuthorship": "Say, 1823",
+        "exactMatchName": "Canis latrans",
+        "currentName": {
+          "tsn": "180599",
+          "scientificName": "Canis latrans",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2025-09-19"
+        }
+      },
+      {
+        "colUsageId": "QLXK",
+        "colScientificName": "Canis lupaster Hemprich & Ehrenberg, 1833",
+        "colAuthorship": "Hemprich & Ehrenberg, 1833",
+        "exactMatchName": "Canis lupaster",
+        "currentName": {
+          "tsn": "998422",
+          "scientificName": "Canis lupaster",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2025-09-19"
+        }
+      },
+      {
+        "colUsageId": "QLXL",
+        "colScientificName": "Canis lupus Linnaeus, 1758",
+        "colAuthorship": "Linnaeus, 1758",
+        "exactMatchName": "Canis lupus",
+        "currentName": {
+          "tsn": "180596",
+          "scientificName": "Canis lupus",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2025-09-19"
+        }
+      },
+      {
+        "colUsageId": "M66TP",
+        "colScientificName": "Canis lycaon Schreber, 1775",
+        "colAuthorship": "Schreber, 1775",
+        "exactMatchName": "Canis lycaon",
+        "currentName": {
+          "tsn": "1271690",
+          "scientificName": "Canis lycaon",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2025-09-19"
+        }
+      },
+      {
+        "colUsageId": "QLXS",
+        "colScientificName": "Canis rufus Audubon & Bachman, 1851",
+        "colAuthorship": "Audubon & Bachman, 1851",
+        "exactMatchName": "Canis rufus",
+        "currentName": {
+          "tsn": "180600",
+          "scientificName": "Canis rufus",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2025-09-19"
+        }
+      },
+      {
+        "colUsageId": "5WXTW",
+        "colScientificName": "Canis simensis Rüppell, 1840",
+        "colAuthorship": "Rüppell, 1840",
+        "exactMatchName": "Canis simensis",
+        "currentName": {
+          "tsn": "621851",
+          "scientificName": "Canis simensis",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2025-09-19"
+        }
+      },
+      {
+        "colUsageId": "CFJ2J",
+        "colScientificName": "Caracal aurata (Temminck, 1827)",
+        "colAuthorship": "(Temminck, 1827)",
+        "exactMatchName": "Caracal aurata",
+        "currentName": {
+          "tsn": "1229766",
+          "scientificName": "Caracal aurata",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-06-25"
+        }
+      },
+      {
+        "colUsageId": "QZRR",
+        "colScientificName": "Caracal caracal (Schreber, 1776)",
+        "colAuthorship": "(Schreber, 1776)",
+        "exactMatchName": "Caracal caracal",
+        "currentName": {
+          "tsn": "552775",
+          "scientificName": "Caracal caracal",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-06-25"
+        }
+      },
+      {
+        "colUsageId": "69FCB",
+        "colScientificName": "Catopuma badia (Gray, 1874)",
+        "colAuthorship": "(Gray, 1874)",
+        "exactMatchName": "Catopuma badia",
+        "currentName": {
+          "tsn": "621866",
+          "scientificName": "Catopuma badia",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-06-25"
+        }
+      },
+      {
+        "colUsageId": "RVXB",
+        "colScientificName": "Catopuma temminckii (Vigors & Horsfield, 1827)",
+        "colAuthorship": "(Vigors & Horsfield, 1827)",
+        "exactMatchName": "Catopuma temminckii",
+        "currentName": {
+          "tsn": "621867",
+          "scientificName": "Catopuma temminckii",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-06-25"
+        }
+      },
+      {
+        "colUsageId": "SWGW",
+        "colScientificName": "Cerdocyon thous (Linnaeus, 1766)",
+        "colAuthorship": "(Linnaeus, 1766)",
+        "exactMatchName": "Cerdocyon thous",
+        "currentName": {
+          "tsn": "183825",
+          "scientificName": "Cerdocyon thous",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2025-09-19"
+        }
+      },
+      {
+        "colUsageId": "5YK6J",
+        "colScientificName": "Chrotogale owstoni Thomas, 1912",
+        "colAuthorship": "Thomas, 1912",
+        "exactMatchName": "Chrotogale owstoni",
+        "currentName": {
+          "tsn": "621976",
+          "scientificName": "Chrotogale owstoni",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-06-25"
+        }
+      },
+      {
+        "colUsageId": "5YNGG",
+        "colScientificName": "Chrysocyon brachyurus (Illiger, 1815)",
+        "colAuthorship": "(Illiger, 1815)",
+        "exactMatchName": "Chrysocyon brachyurus",
+        "currentName": {
+          "tsn": "183827",
+          "scientificName": "Chrysocyon brachyurus",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2025-09-19"
+        }
+      },
+      {
+        "colUsageId": "VMQL",
+        "colScientificName": "Civettictis civetta (Schreber, 1776)",
+        "colAuthorship": "(Schreber, 1776)",
+        "exactMatchName": "Civettictis civetta",
+        "currentName": {
+          "tsn": "621988",
+          "scientificName": "Civettictis civetta",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-06-25"
+        }
+      },
+      {
+        "colUsageId": "XLCB",
+        "colScientificName": "Conepatus chinga (Molina, 1782)",
+        "colAuthorship": "(Molina, 1782)",
+        "exactMatchName": "Conepatus chinga",
+        "currentName": {
+          "tsn": "621930",
+          "scientificName": "Conepatus chinga",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-02-26"
+        }
+      },
+      {
+        "colUsageId": "XLCC",
+        "colScientificName": "Conepatus humboldtii Gray, 1837",
+        "colAuthorship": "Gray, 1837",
+        "exactMatchName": "Conepatus humboldtii",
+        "currentName": {
+          "tsn": "621931",
+          "scientificName": "Conepatus humboldtii",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-02-26"
+        }
+      },
+      {
+        "colUsageId": "XLCD",
+        "colScientificName": "Conepatus leuconotus (Lichtenstein, 1832)",
+        "colAuthorship": "(Lichtenstein, 1832)",
+        "exactMatchName": "Conepatus leuconotus",
+        "currentName": {
+          "tsn": "180567",
+          "scientificName": "Conepatus leuconotus",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-02-26"
+        }
+      },
+      {
+        "colUsageId": "XLCF",
+        "colScientificName": "Conepatus semistriatus (Boddaert, 1785)",
+        "colAuthorship": "(Boddaert, 1785)",
+        "exactMatchName": "Conepatus semistriatus",
+        "currentName": {
+          "tsn": "621932",
+          "scientificName": "Conepatus semistriatus",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-02-26"
+        }
+      },
+      {
+        "colUsageId": "ZL56",
+        "colScientificName": "Crocuta crocuta (Erxleben, 1777)",
+        "colAuthorship": "(Erxleben, 1777)",
+        "exactMatchName": "Crocuta crocuta",
+        "currentName": {
+          "tsn": "621907",
+          "scientificName": "Crocuta crocuta",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-06-25"
+        }
+      },
+      {
+        "colUsageId": "ZLMM",
+        "colScientificName": "Crossarchus alexandri Thomas & Wroughton, 1907",
+        "colAuthorship": "Thomas & Wroughton, 1907",
+        "exactMatchName": "Crossarchus alexandri",
+        "currentName": {
+          "tsn": "621884",
+          "scientificName": "Crossarchus alexandri",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-06-25"
+        }
+      },
+      {
+        "colUsageId": "ZLMN",
+        "colScientificName": "Crossarchus ansorgei Thomas, 1910",
+        "colAuthorship": "Thomas, 1910",
+        "exactMatchName": "Crossarchus ansorgei",
+        "currentName": {
+          "tsn": "621885",
+          "scientificName": "Crossarchus ansorgei",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-06-25"
+        }
+      },
+      {
+        "colUsageId": "ZLMP",
+        "colScientificName": "Crossarchus obscurus F. Cuvier, 1825",
+        "colAuthorship": "F. Cuvier, 1825",
+        "exactMatchName": "Crossarchus obscurus",
+        "currentName": {
+          "tsn": "621886",
+          "scientificName": "Crossarchus obscurus",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-06-25"
+        }
+      },
+      {
+        "colUsageId": "ZLMQ",
+        "colScientificName": "Crossarchus platycephalus Goldman, 1984",
+        "colAuthorship": "Goldman, 1984",
+        "exactMatchName": "Crossarchus platycephalus",
+        "currentName": {
+          "tsn": "726264",
+          "scientificName": "Crossarchus platycephalus",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-06-25"
+        }
+      },
+      {
+        "colUsageId": "ZZ3R",
+        "colScientificName": "Cryptoprocta ferox Bennett, 1833",
+        "colAuthorship": "Bennett, 1833",
+        "exactMatchName": "Cryptoprocta ferox",
+        "currentName": {
+          "tsn": "621973",
+          "scientificName": "Cryptoprocta ferox",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-06-25"
+        }
+      },
+      {
+        "colUsageId": "6C3NM",
+        "colScientificName": "Cuon alpinus (Pallas, 1811)",
+        "colAuthorship": "(Pallas, 1811)",
+        "exactMatchName": "Cuon alpinus",
+        "currentName": {
+          "tsn": "183831",
+          "scientificName": "Cuon alpinus",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2025-09-19"
+        }
+      },
+      {
+        "colUsageId": "CFQF2",
+        "colScientificName": "Cynictis penicillata (G. Cuvier, 1829)",
+        "colAuthorship": "(G. Cuvier, 1829)",
+        "exactMatchName": "Cynictis penicillata",
+        "currentName": {
+          "tsn": "621887",
+          "scientificName": "Cynictis penicillata",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-06-25"
+        }
+      },
+      {
+        "colUsageId": "339RB",
+        "colScientificName": "Cynogale bennettii Gray, 1837",
+        "colAuthorship": "Gray, 1837",
+        "exactMatchName": "Cynogale bennettii",
+        "currentName": {
+          "tsn": "621977",
+          "scientificName": "Cynogale bennettii",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-06-25"
+        }
+      },
+      {
+        "colUsageId": "33PXN",
+        "colScientificName": "Cystophora cristata (Erxleben, 1777)",
+        "colAuthorship": "(Erxleben, 1777)",
+        "exactMatchName": "Cystophora cristata",
+        "currentName": {
+          "tsn": "180657",
+          "scientificName": "Cystophora cristata",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-02-26"
+        }
+      },
+      {
+        "colUsageId": "36LH6",
+        "colScientificName": "Diplogale hosei (Thomas, 1892)",
+        "colAuthorship": "(Thomas, 1892)",
+        "exactMatchName": "Diplogale hosei",
+        "currentName": {
+          "tsn": "621978",
+          "scientificName": "Diplogale hosei",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-06-25"
+        }
+      },
+      {
+        "colUsageId": "6DCVH",
+        "colScientificName": "Dologale dybowskii (Pousargues, 1893)",
+        "colAuthorship": "(Pousargues, 1893)",
+        "exactMatchName": "Dologale dybowskii",
+        "currentName": {
+          "tsn": "621888",
+          "scientificName": "Dologale dybowskii",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-06-25"
+        }
+      },
+      {
+        "colUsageId": "3844R",
+        "colScientificName": "Dusicyon australis (Kerr, 1792)",
+        "colAuthorship": "(Kerr, 1792)",
+        "exactMatchName": "Dusicyon australis",
+        "currentName": {
+          "tsn": "621852",
+          "scientificName": "Dusicyon australis",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2025-09-19"
+        }
+      },
+      {
+        "colUsageId": "NSKRC",
+        "colScientificName": "Dusicyon avus (Burmeister, 1866)",
+        "colAuthorship": "(Burmeister, 1866)",
+        "exactMatchName": "Dusicyon avus",
+        "currentName": {
+          "tsn": "1271672",
+          "scientificName": "Dusicyon avus",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2025-09-19"
+        }
+      },
+      {
+        "colUsageId": "38VYB",
+        "colScientificName": "Eira barbara (Linnaeus, 1758)",
+        "colAuthorship": "(Linnaeus, 1758)",
+        "exactMatchName": "Eira barbara",
+        "currentName": {
+          "tsn": "621934",
+          "scientificName": "Eira barbara",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2025-09-19"
+        }
+      },
+      {
+        "colUsageId": "39TWB",
+        "colScientificName": "Enhydra lutris (Linnaeus, 1758)",
+        "colAuthorship": "(Linnaeus, 1758)",
+        "exactMatchName": "Enhydra lutris",
+        "currentName": {
+          "tsn": "180547",
+          "scientificName": "Enhydra lutris",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2025-09-19"
+        }
+      },
+      {
+        "colUsageId": "6H29T",
+        "colScientificName": "Erignathus barbatus (Erxleben, 1777)",
+        "colAuthorship": "(Erxleben, 1777)",
+        "exactMatchName": "Erignathus barbatus",
+        "currentName": {
+          "tsn": "180655",
+          "scientificName": "Erignathus barbatus",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-02-26"
+        }
+      },
+      {
+        "colUsageId": "6H93Y",
+        "colScientificName": "Eumetopias jubatus (Schreber, 1776)",
+        "colAuthorship": "(Schreber, 1776)",
+        "exactMatchName": "Eumetopias jubatus",
+        "currentName": {
+          "tsn": "180625",
+          "scientificName": "Eumetopias jubatus",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-02-26"
+        }
+      },
+      {
+        "colUsageId": "6HD57",
+        "colScientificName": "Eupleres goudotii Doyère, 1835",
+        "colAuthorship": "Doyère, 1835",
+        "exactMatchName": "Eupleres goudotii",
+        "currentName": {
+          "tsn": "621974",
+          "scientificName": "Eupleres goudotii",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-06-25"
+        }
+      },
+      {
+        "colUsageId": "6HR5M",
+        "colScientificName": "Felis bieti A. Milne-Edwards, 1892",
+        "colAuthorship": "A. Milne-Edwards, 1892",
+        "exactMatchName": "Felis bieti",
+        "currentName": {
+          "tsn": "183789",
+          "scientificName": "Felis bieti",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-06-25"
+        }
+      },
+      {
+        "colUsageId": "3DXV3",
+        "colScientificName": "Felis catus Linnaeus, 1758",
+        "colAuthorship": "Linnaeus, 1758",
+        "exactMatchName": "Felis catus",
+        "currentName": {
+          "tsn": "183798",
+          "scientificName": "Felis catus",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-06-25"
+        }
+      },
+      {
+        "colUsageId": "3DXV4",
+        "colScientificName": "Felis chaus Schreber, 1777",
+        "colAuthorship": "Schreber, 1777",
+        "exactMatchName": "Felis chaus",
+        "currentName": {
+          "tsn": "183802",
+          "scientificName": "Felis chaus",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-06-25"
+        }
+      },
+      {
+        "colUsageId": "3DXVF",
+        "colScientificName": "Felis lybica Forster, 1780",
+        "colAuthorship": "Forster, 1780",
+        "exactMatchName": "Felis lybica",
+        "currentName": {
+          "tsn": "183799",
+          "scientificName": "Felis lybica",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-06-25"
+        }
+      },
+      {
+        "colUsageId": "3DXVH",
+        "colScientificName": "Felis margarita Loche, 1858",
+        "colAuthorship": "Loche, 1858",
+        "exactMatchName": "Felis margarita",
+        "currentName": {
+          "tsn": "183801",
+          "scientificName": "Felis margarita",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-06-25"
+        }
+      },
+      {
+        "colUsageId": "3DXVM",
+        "colScientificName": "Felis nigripes Burchell, 1824",
+        "colAuthorship": "Burchell, 1824",
+        "exactMatchName": "Felis nigripes",
+        "currentName": {
+          "tsn": "183800",
+          "scientificName": "Felis nigripes",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-06-25"
+        }
+      },
+      {
+        "colUsageId": "3DXW2",
+        "colScientificName": "Felis silvestris Schreber, 1777",
+        "colAuthorship": "Schreber, 1777",
+        "exactMatchName": "Felis silvestris",
+        "currentName": {
+          "tsn": "180589",
+          "scientificName": "Felis silvestris",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-06-25"
+        }
+      },
+      {
+        "colUsageId": "6JKJF",
+        "colScientificName": "Fossa fossana (Müller, 1776)",
+        "colAuthorship": "(Müller, 1776)",
+        "exactMatchName": "Fossa fossana",
+        "currentName": {
+          "tsn": "621975",
+          "scientificName": "Fossa fossana",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-06-25"
+        }
+      },
+      {
+        "colUsageId": "3F4B3",
+        "colScientificName": "Galerella flavescens (Bocage, 1889)",
+        "colAuthorship": "(Bocage, 1889)",
+        "exactMatchName": "Galerella flavescens",
+        "currentName": {
+          "tsn": "622008",
+          "scientificName": "Galerella flavescens",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-06-25"
+        }
+      },
+      {
+        "colUsageId": "3F4B7",
+        "colScientificName": "Galerella ochracea (Gray, 1848)",
+        "colAuthorship": "(Gray, 1848)",
+        "exactMatchName": "Galerella ochracea",
+        "currentName": {
+          "tsn": "726265",
+          "scientificName": "Galerella ochracea",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2025-01-21"
+        }
+      },
+      {
+        "colUsageId": "6K7FF",
+        "colScientificName": "Galerella pulverulenta (Wagner, 1839)",
+        "colAuthorship": "(Wagner, 1839)",
+        "exactMatchName": "Galerella pulverulenta",
+        "currentName": {
+          "tsn": "622009",
+          "scientificName": "Galerella pulverulenta",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-06-25"
+        }
+      },
+      {
+        "colUsageId": "3F4BB",
+        "colScientificName": "Galerella sanguinea (Rüppell, 1835)",
+        "colAuthorship": "(Rüppell, 1835)",
+        "exactMatchName": "Galerella sanguinea",
+        "currentName": {
+          "tsn": "622010",
+          "scientificName": "Galerella sanguinea",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2025-01-21"
+        }
+      },
+      {
+        "colUsageId": "3F53G",
+        "colScientificName": "Galictis cuja (Molina, 1782)",
+        "colAuthorship": "(Molina, 1782)",
+        "exactMatchName": "Galictis cuja",
+        "currentName": {
+          "tsn": "621935",
+          "scientificName": "Galictis cuja",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2025-09-19"
+        }
+      },
+      {
+        "colUsageId": "3F53J",
+        "colScientificName": "Galictis vittata (Schreber, 1776)",
+        "colAuthorship": "(Schreber, 1776)",
+        "exactMatchName": "Galictis vittata",
+        "currentName": {
+          "tsn": "621936",
+          "scientificName": "Galictis vittata",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2025-09-19"
+        }
+      },
+      {
+        "colUsageId": "3F53T",
+        "colScientificName": "Galidia elegans I. Geoffroy Saint-Hilaire, 1837",
+        "colAuthorship": "I. Geoffroy Saint-Hilaire, 1837",
+        "exactMatchName": "Galidia elegans",
+        "currentName": {
+          "tsn": "621875",
+          "scientificName": "Galidia elegans",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-06-25"
+        }
+      },
+      {
+        "colUsageId": "3F53V",
+        "colScientificName": "Galidictis fasciata (Gmelin, 1788)",
+        "colAuthorship": "(Gmelin, 1788)",
+        "exactMatchName": "Galidictis fasciata",
+        "currentName": {
+          "tsn": "621876",
+          "scientificName": "Galidictis fasciata",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-06-25"
+        }
+      },
+      {
+        "colUsageId": "3FKNY",
+        "colScientificName": "Genetta abyssinica (Rüppell, 1836)",
+        "colAuthorship": "(Rüppell, 1836)",
+        "exactMatchName": "Genetta abyssinica",
+        "currentName": {
+          "tsn": "621989",
+          "scientificName": "Genetta abyssinica",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-06-25"
+        }
+      },
+      {
+        "colUsageId": "3FKNZ",
+        "colScientificName": "Genetta angolensis Bocage, 1882",
+        "colAuthorship": "Bocage, 1882",
+        "exactMatchName": "Genetta angolensis",
+        "currentName": {
+          "tsn": "621990",
+          "scientificName": "Genetta angolensis",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-06-25"
+        }
+      },
+      {
+        "colUsageId": "3FKP2",
+        "colScientificName": "Genetta bourloni Gaubert, 2003",
+        "colAuthorship": "Gaubert, 2003",
+        "exactMatchName": "Genetta bourloni",
+        "currentName": {
+          "tsn": "726258",
+          "scientificName": "Genetta bourloni",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-06-25"
+        }
+      },
+      {
+        "colUsageId": "3FKP3",
+        "colScientificName": "Genetta cristata Hayman in Sanborn, 1940",
+        "colAuthorship": "Hayman in Sanborn, 1940",
+        "exactMatchName": "Genetta cristata",
+        "currentName": {
+          "tsn": "726259",
+          "scientificName": "Genetta cristata",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-06-25"
+        }
+      },
+      {
+        "colUsageId": "CFTMS",
+        "colScientificName": "Genetta felina (Thunberg, 1811)",
+        "colAuthorship": "(Thunberg, 1811)",
+        "exactMatchName": "Genetta felina",
+        "currentName": {
+          "tsn": "1229695",
+          "scientificName": "Genetta felina",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-06-25"
+        }
+      },
+      {
+        "colUsageId": "KTW3Q",
+        "colScientificName": "Genetta fieldiana Du Chaillu, 1860",
+        "colAuthorship": "Du Chaillu, 1860",
+        "exactMatchName": "Genetta fieldiana",
+        "currentName": {
+          "tsn": "1255363",
+          "scientificName": "Genetta fieldiana",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2025-03-19"
+        }
+      },
+      {
+        "colUsageId": "3FKP4",
+        "colScientificName": "Genetta genetta (Linnaeus, 1758)",
+        "colAuthorship": "(Linnaeus, 1758)",
+        "exactMatchName": "Genetta genetta",
+        "currentName": {
+          "tsn": "621991",
+          "scientificName": "Genetta genetta",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-06-25"
+        }
+      },
+      {
+        "colUsageId": "3FKP5",
+        "colScientificName": "Genetta johnstoni Pocock, 1908",
+        "colAuthorship": "Pocock, 1908",
+        "exactMatchName": "Genetta johnstoni",
+        "currentName": {
+          "tsn": "621992",
+          "scientificName": "Genetta johnstoni",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-06-25"
+        }
+      },
+      {
+        "colUsageId": "3FKP7",
+        "colScientificName": "Genetta pardina I. Geoffroy Saint-Hilaire, 1832",
+        "colAuthorship": "I. Geoffroy Saint-Hilaire, 1832",
+        "exactMatchName": "Genetta pardina",
+        "currentName": {
+          "tsn": "726260",
+          "scientificName": "Genetta pardina",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-06-25"
+        }
+      },
+      {
+        "colUsageId": "3FKP8",
+        "colScientificName": "Genetta piscivora (J. A. Allen, 1919)",
+        "colAuthorship": "(J. A. Allen, 1919)",
+        "exactMatchName": "Genetta piscivora",
+        "currentName": {
+          "tsn": "726261",
+          "scientificName": "Genetta piscivora",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-06-25"
+        }
+      },
+      {
+        "colUsageId": "3FKP9",
+        "colScientificName": "Genetta poensis Waterhouse, 1838",
+        "colAuthorship": "Waterhouse, 1838",
+        "exactMatchName": "Genetta poensis",
+        "currentName": {
+          "tsn": "726262",
+          "scientificName": "Genetta poensis",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-06-25"
+        }
+      },
+      {
+        "colUsageId": "6JZNQ",
+        "colScientificName": "Genetta servalina Pucheran, 1855",
+        "colAuthorship": "Pucheran, 1855",
+        "exactMatchName": "Genetta servalina",
+        "currentName": {
+          "tsn": "621994",
+          "scientificName": "Genetta servalina",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-06-25"
+        }
+      },
+      {
+        "colUsageId": "3FKPB",
+        "colScientificName": "Genetta thierryi Matschie, 1902",
+        "colAuthorship": "Matschie, 1902",
+        "exactMatchName": "Genetta thierryi",
+        "currentName": {
+          "tsn": "621995",
+          "scientificName": "Genetta thierryi",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-06-25"
+        }
+      },
+      {
+        "colUsageId": "3FKPC",
+        "colScientificName": "Genetta tigrina (Schreber, 1776)",
+        "colAuthorship": "(Schreber, 1776)",
+        "exactMatchName": "Genetta tigrina",
+        "currentName": {
+          "tsn": "621996",
+          "scientificName": "Genetta tigrina",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-06-25"
+        }
+      },
+      {
+        "colUsageId": "3FKPD",
+        "colScientificName": "Genetta victoriae Thomas, 1901",
+        "colAuthorship": "Thomas, 1901",
+        "exactMatchName": "Genetta victoriae",
+        "currentName": {
+          "tsn": "621997",
+          "scientificName": "Genetta victoriae",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-06-25"
+        }
+      },
+      {
+        "colUsageId": "3HLZN",
+        "colScientificName": "Gulo gulo (Linnaeus, 1758)",
+        "colAuthorship": "(Linnaeus, 1758)",
+        "exactMatchName": "Gulo gulo",
+        "currentName": {
+          "tsn": "180551",
+          "scientificName": "Gulo gulo",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2025-09-19"
+        }
+      },
+      {
+        "colUsageId": "3JBV8",
+        "colScientificName": "Halichoerus grypus (Fabricius, 1791)",
+        "colAuthorship": "(Fabricius, 1791)",
+        "exactMatchName": "Halichoerus grypus",
+        "currentName": {
+          "tsn": "180653",
+          "scientificName": "Halichoerus grypus",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-02-26"
+        }
+      },
+      {
+        "colUsageId": "9GR29",
+        "colScientificName": "Helarctos malayanus (Raffles, 1822)",
+        "colAuthorship": "(Raffles, 1822)",
+        "exactMatchName": "Helarctos malayanus",
+        "currentName": {
+          "tsn": "621847",
+          "scientificName": "Helarctos malayanus",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-02-26"
+        }
+      },
+      {
+        "colUsageId": "3KH34",
+        "colScientificName": "Helogale hirtula Thomas, 1904",
+        "colAuthorship": "Thomas, 1904",
+        "exactMatchName": "Helogale hirtula",
+        "currentName": {
+          "tsn": "621889",
+          "scientificName": "Helogale hirtula",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-06-25"
+        }
+      },
+      {
+        "colUsageId": "3KH35",
+        "colScientificName": "Helogale parvula (Sundevall, 1847)",
+        "colAuthorship": "(Sundevall, 1847)",
+        "exactMatchName": "Helogale parvula",
+        "currentName": {
+          "tsn": "621890",
+          "scientificName": "Helogale parvula",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-06-25"
+        }
+      },
+      {
+        "colUsageId": "3KNR9",
+        "colScientificName": "Hemigalus derbyanus (Gray, 1837)",
+        "colAuthorship": "(Gray, 1837)",
+        "exactMatchName": "Hemigalus derbyanus",
+        "currentName": {
+          "tsn": "621979",
+          "scientificName": "Hemigalus derbyanus",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-06-25"
+        }
+      },
+      {
+        "colUsageId": "CFYBG",
+        "colScientificName": "Herpailurus yagouaroundi (É. Geoffroy Saint-Hilaire, 1803)",
+        "colAuthorship": "(É. Geoffroy Saint-Hilaire, 1803)",
+        "exactMatchName": "Herpailurus yagouaroundi",
+        "currentName": {
+          "tsn": "1229748",
+          "scientificName": "Herpailurus yagouaroundi",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-06-25"
+        }
+      },
+      {
+        "colUsageId": "3L2WF",
+        "colScientificName": "Herpestes ichneumon (Linnaeus, 1758)",
+        "colAuthorship": "(Linnaeus, 1758)",
+        "exactMatchName": "Herpestes ichneumon",
+        "currentName": {
+          "tsn": "621893",
+          "scientificName": "Herpestes ichneumon",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-06-25"
+        }
+      },
+      {
+        "colUsageId": "3M5LY",
+        "colScientificName": "Histriophoca fasciata (Zimmermann, 1783)",
+        "colAuthorship": "(Zimmermann, 1783)",
+        "exactMatchName": "Histriophoca fasciata",
+        "currentName": {
+          "tsn": "622021",
+          "scientificName": "Histriophoca fasciata",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-02-26"
+        }
+      },
+      {
+        "colUsageId": "6MGT8",
+        "colScientificName": "Hyaena hyaena (Linnaeus, 1758)",
+        "colAuthorship": "(Linnaeus, 1758)",
+        "exactMatchName": "Hyaena hyaena",
+        "currentName": {
+          "tsn": "621908",
+          "scientificName": "Hyaena hyaena",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-06-25"
+        }
+      },
+      {
+        "colUsageId": "3N527",
+        "colScientificName": "Hydrictis maculicollis (Lichtenstein, 1835)",
+        "colAuthorship": "(Lichtenstein, 1835)",
+        "exactMatchName": "Hydrictis maculicollis",
+        "currentName": {
+          "tsn": "622024",
+          "scientificName": "Hydrictis maculicollis",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2025-09-19"
+        }
+      },
+      {
+        "colUsageId": "6MKHD",
+        "colScientificName": "Hydrurga leptonyx (de Blainville, 1820)",
+        "colAuthorship": "(de Blainville, 1820)",
+        "exactMatchName": "Hydrurga leptonyx",
+        "currentName": {
+          "tsn": "180667",
+          "scientificName": "Hydrurga leptonyx",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-02-26"
+        }
+      },
+      {
+        "colUsageId": "CFY9D",
+        "colScientificName": "Ichneumia albicauda (G. Cuvier, 1829)",
+        "colAuthorship": "(G. Cuvier, 1829)",
+        "exactMatchName": "Ichneumia albicauda",
+        "currentName": {
+          "tsn": "621900",
+          "scientificName": "Ichneumia albicauda",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-06-25"
+        }
+      },
+      {
+        "colUsageId": "6N5X5",
+        "colScientificName": "Ictonyx libycus (Hemprich & Ehrenberg, 1833)",
+        "colAuthorship": "(Hemprich & Ehrenberg, 1833)",
+        "exactMatchName": "Ictonyx libycus",
+        "currentName": {
+          "tsn": "726287",
+          "scientificName": "Ictonyx libycus",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2025-09-19"
+        }
+      },
+      {
+        "colUsageId": "3PBCF",
+        "colScientificName": "Ictonyx striatus (Perry, 1810)",
+        "colAuthorship": "(Perry, 1810)",
+        "exactMatchName": "Ictonyx striatus",
+        "currentName": {
+          "tsn": "621938",
+          "scientificName": "Ictonyx striatus",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2025-09-19"
+        }
+      },
+      {
+        "colUsageId": "3T785",
+        "colScientificName": "Leopardus braccatus (Cope, 1889)",
+        "colAuthorship": "(Cope, 1889)",
+        "exactMatchName": "Leopardus braccatus",
+        "currentName": {
+          "tsn": "726250",
+          "scientificName": "Leopardus braccatus",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-06-25"
+        }
+      },
+      {
+        "colUsageId": "3T786",
+        "colScientificName": "Leopardus colocola (Molina, 1782)",
+        "colAuthorship": "(Molina, 1782)",
+        "exactMatchName": "Leopardus colocola",
+        "currentName": {
+          "tsn": "1229764",
+          "scientificName": "Leopardus colocola",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-06-25"
+        }
+      },
+      {
+        "colUsageId": "CFYC9",
+        "colScientificName": "Leopardus garleppi (Matschie, 1912)",
+        "colAuthorship": "(Matschie, 1912)",
+        "exactMatchName": "Leopardus garleppi",
+        "currentName": {
+          "tsn": "1229732",
+          "scientificName": "Leopardus garleppi",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-12-16"
+        }
+      },
+      {
+        "colUsageId": "3T787",
+        "colScientificName": "Leopardus geoffroyi (d'Orbigny & Gervais, 1844)",
+        "colAuthorship": "(d'Orbigny & Gervais, 1844)",
+        "exactMatchName": "Leopardus geoffroyi",
+        "currentName": {
+          "tsn": "726252",
+          "scientificName": "Leopardus geoffroyi",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-06-25"
+        }
+      },
+      {
+        "colUsageId": "3T789",
+        "colScientificName": "Leopardus guigna (Molina, 1782)",
+        "colAuthorship": "(Molina, 1782)",
+        "exactMatchName": "Leopardus guigna",
+        "currentName": {
+          "tsn": "726253",
+          "scientificName": "Leopardus guigna",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-06-25"
+        }
+      },
+      {
+        "colUsageId": "6P8KN",
+        "colScientificName": "Leopardus guttulus (Hensel, 1872)",
+        "colAuthorship": "(Hensel, 1872)",
+        "exactMatchName": "Leopardus guttulus",
+        "currentName": {
+          "tsn": "933421",
+          "scientificName": "Leopardus guttulus",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-06-25"
+        }
+      },
+      {
+        "colUsageId": "3T78B",
+        "colScientificName": "Leopardus jacobitus (Cornalia, 1865)",
+        "colAuthorship": "(Cornalia, 1865)",
+        "exactMatchName": "Leopardus jacobitus",
+        "currentName": {
+          "tsn": "726254",
+          "scientificName": "Leopardus jacobitus",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-06-25"
+        }
+      },
+      {
+        "colUsageId": "CFYCB",
+        "colScientificName": "Leopardus munoai (Ximénez, 1961)",
+        "colAuthorship": "(Ximénez, 1961)",
+        "exactMatchName": "Leopardus munoai",
+        "currentName": {
+          "tsn": "1229733",
+          "scientificName": "Leopardus munoai",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-06-25"
+        }
+      },
+      {
+        "colUsageId": "CGLN3",
+        "colScientificName": "Leopardus narinensis Ruiz-García, 2018",
+        "colAuthorship": "Ruiz-García, 2018",
+        "exactMatchName": "Leopardus narinensis",
+        "currentName": {
+          "tsn": "1229734",
+          "scientificName": "Leopardus narinensis",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-06-25"
+        }
+      },
+      {
+        "colUsageId": "3T78C",
+        "colScientificName": "Leopardus pajeros (Desmarest, 1816)",
+        "colAuthorship": "(Desmarest, 1816)",
+        "exactMatchName": "Leopardus pajeros",
+        "currentName": {
+          "tsn": "726255",
+          "scientificName": "Leopardus pajeros",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-06-25"
+        }
+      },
+      {
+        "colUsageId": "3T78D",
+        "colScientificName": "Leopardus pardalis (Linnaeus, 1758)",
+        "colAuthorship": "(Linnaeus, 1758)",
+        "exactMatchName": "Leopardus pardalis",
+        "currentName": {
+          "tsn": "552470",
+          "scientificName": "Leopardus pardalis",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-06-25"
+        }
+      },
+      {
+        "colUsageId": "6P8MM",
+        "colScientificName": "Leopardus tigrinus (Schreber, 1775)",
+        "colAuthorship": "(Schreber, 1775)",
+        "exactMatchName": "Leopardus tigrinus",
+        "currentName": {
+          "tsn": "621868",
+          "scientificName": "Leopardus tigrinus",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-06-25"
+        }
+      },
+      {
+        "colUsageId": "3T78F",
+        "colScientificName": "Leopardus wiedii (Schinz, 1821)",
+        "colAuthorship": "(Schinz, 1821)",
+        "exactMatchName": "Leopardus wiedii",
+        "currentName": {
+          "tsn": "552469",
+          "scientificName": "Leopardus wiedii",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-06-25"
+        }
+      },
+      {
+        "colUsageId": "3THH7",
+        "colScientificName": "Leptailurus serval (Schreber, 1776)",
+        "colAuthorship": "(Schreber, 1776)",
+        "exactMatchName": "Leptailurus serval",
+        "currentName": {
+          "tsn": "552766",
+          "scientificName": "Leptailurus serval",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-06-25"
+        }
+      },
+      {
+        "colUsageId": "3TSK3",
+        "colScientificName": "Leptonychotes weddellii (Lesson, 1826)",
+        "colAuthorship": "(Lesson, 1826)",
+        "exactMatchName": "Leptonychotes weddellii",
+        "currentName": {
+          "tsn": "180669",
+          "scientificName": "Leptonychotes weddellii",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-02-26"
+        }
+      },
+      {
+        "colUsageId": "6PWS4",
+        "colScientificName": "Liberiictis kuhni Hayman, 1958",
+        "colAuthorship": "Hayman, 1958",
+        "exactMatchName": "Liberiictis kuhni",
+        "currentName": {
+          "tsn": "621901",
+          "scientificName": "Liberiictis kuhni",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-06-25"
+        }
+      },
+      {
+        "colUsageId": "3VT8H",
+        "colScientificName": "Lobodon carcinophaga (Hombron & Jacquinot, 1842)",
+        "colAuthorship": "(Hombron & Jacquinot, 1842)",
+        "exactMatchName": "Lobodon carcinophaga",
+        "currentName": {
+          "tsn": "622023",
+          "scientificName": "Lobodon carcinophaga",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-02-26"
+        }
+      },
+      {
+        "colUsageId": "3VZKQ",
+        "colScientificName": "Lontra canadensis (Schreber, 1777)",
+        "colAuthorship": "(Schreber, 1777)",
+        "exactMatchName": "Lontra canadensis",
+        "currentName": {
+          "tsn": "180549",
+          "scientificName": "Lontra canadensis",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2025-09-19"
+        }
+      },
+      {
+        "colUsageId": "3VZKR",
+        "colScientificName": "Lontra felina (Molina, 1782)",
+        "colAuthorship": "(Molina, 1782)",
+        "exactMatchName": "Lontra felina",
+        "currentName": {
+          "tsn": "621913",
+          "scientificName": "Lontra felina",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2025-09-19"
+        }
+      },
+      {
+        "colUsageId": "3VZKS",
+        "colScientificName": "Lontra longicaudis (Olfers, 1818)",
+        "colAuthorship": "(Olfers, 1818)",
+        "exactMatchName": "Lontra longicaudis",
+        "currentName": {
+          "tsn": "621914",
+          "scientificName": "Lontra longicaudis",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2025-09-19"
+        }
+      },
+      {
+        "colUsageId": "3VZKT",
+        "colScientificName": "Lontra provocax (Thomas, 1908)",
+        "colAuthorship": "(Thomas, 1908)",
+        "exactMatchName": "Lontra provocax",
+        "currentName": {
+          "tsn": "621915",
+          "scientificName": "Lontra provocax",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2025-09-19"
+        }
+      },
+      {
+        "colUsageId": "QD72X",
+        "colScientificName": "Lupulella adustus (Sundevall, 1847)",
+        "colAuthorship": "(Sundevall, 1847)",
+        "exactMatchName": "Lupulella adustus",
+        "currentName": {
+          "tsn": "1271664",
+          "scientificName": "Lupulella adustus",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2025-09-19"
+        }
+      },
+      {
+        "colUsageId": "QD73C",
+        "colScientificName": "Lupulella mesomelas (Schreber, 1775)",
+        "colAuthorship": "(Schreber, 1775)",
+        "exactMatchName": "Lupulella mesomelas",
+        "currentName": {
+          "tsn": "1271675",
+          "scientificName": "Lupulella mesomelas",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2025-09-19"
+        }
+      },
+      {
+        "colUsageId": "72PQL",
+        "colScientificName": "Lutra lutra (Linnaeus, 1758)",
+        "colAuthorship": "(Linnaeus, 1758)",
+        "exactMatchName": "Lutra lutra",
+        "currentName": {
+          "tsn": "621916",
+          "scientificName": "Lutra lutra",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2025-09-19"
+        }
+      },
+      {
+        "colUsageId": "3WGGS",
+        "colScientificName": "Lutra sumatrana (Gray, 1865)",
+        "colAuthorship": "(Gray, 1865)",
+        "exactMatchName": "Lutra sumatrana",
+        "currentName": {
+          "tsn": "621918",
+          "scientificName": "Lutra sumatrana",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2025-09-19"
+        }
+      },
+      {
+        "colUsageId": "3WGKH",
+        "colScientificName": "Lutrogale perspicillata (I. Geoffroy Saint-Hilaire, 1826)",
+        "colAuthorship": "(I. Geoffroy Saint-Hilaire, 1826)",
+        "exactMatchName": "Lutrogale perspicillata",
+        "currentName": {
+          "tsn": "621919",
+          "scientificName": "Lutrogale perspicillata",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2025-09-19"
+        }
+      },
+      {
+        "colUsageId": "3WJ93",
+        "colScientificName": "Lycalopex culpaeus (Molina, 1782)",
+        "colAuthorship": "(Molina, 1782)",
+        "exactMatchName": "Lycalopex culpaeus",
+        "currentName": {
+          "tsn": "726270",
+          "scientificName": "Lycalopex culpaeus",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2025-09-19"
+        }
+      },
+      {
+        "colUsageId": "3WJ94",
+        "colScientificName": "Lycalopex fulvipes (Martin, 1837)",
+        "colAuthorship": "(Martin, 1837)",
+        "exactMatchName": "Lycalopex fulvipes",
+        "currentName": {
+          "tsn": "726271",
+          "scientificName": "Lycalopex fulvipes",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2025-09-19"
+        }
+      },
+      {
+        "colUsageId": "3WJ95",
+        "colScientificName": "Lycalopex griseus (Gray, 1837)",
+        "colAuthorship": "(Gray, 1837)",
+        "exactMatchName": "Lycalopex griseus",
+        "currentName": {
+          "tsn": "726272",
+          "scientificName": "Lycalopex griseus",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2025-09-19"
+        }
+      },
+      {
+        "colUsageId": "L2BMK",
+        "colScientificName": "Lycalopex gymnocercus (G. Fischer von Waldheim, 1814)",
+        "colAuthorship": "(G. Fischer von Waldheim, 1814)",
+        "exactMatchName": "Lycalopex gymnocercus",
+        "currentName": {
+          "tsn": "726273",
+          "scientificName": "Lycalopex gymnocercus",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2025-09-19"
+        }
+      },
+      {
+        "colUsageId": "3WJ97",
+        "colScientificName": "Lycalopex sechurae (Thomas, 1900)",
+        "colAuthorship": "(Thomas, 1900)",
+        "exactMatchName": "Lycalopex sechurae",
+        "currentName": {
+          "tsn": "726274",
+          "scientificName": "Lycalopex sechurae",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2025-09-19"
+        }
+      },
+      {
+        "colUsageId": "3WJ98",
+        "colScientificName": "Lycalopex vetulus (Lund, 1842)",
+        "colAuthorship": "(Lund, 1842)",
+        "exactMatchName": "Lycalopex vetulus",
+        "currentName": {
+          "tsn": "726275",
+          "scientificName": "Lycalopex vetulus",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2025-09-19"
+        }
+      },
+      {
+        "colUsageId": "73256",
+        "colScientificName": "Lycaon pictus (Temminck, 1820)",
+        "colAuthorship": "(Temminck, 1820)",
+        "exactMatchName": "Lycaon pictus",
+        "currentName": {
+          "tsn": "183833",
+          "scientificName": "Lycaon pictus",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2025-09-19"
+        }
+      },
+      {
+        "colUsageId": "3WSGZ",
+        "colScientificName": "Lyncodon patagonicus (de Blainville, 1842)",
+        "colAuthorship": "(de Blainville, 1842)",
+        "exactMatchName": "Lyncodon patagonicus",
+        "currentName": {
+          "tsn": "621939",
+          "scientificName": "Lyncodon patagonicus",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2025-09-19"
+        }
+      },
+      {
+        "colUsageId": "3WSJS",
+        "colScientificName": "Lynx canadensis Kerr, 1792",
+        "colAuthorship": "Kerr, 1792",
+        "exactMatchName": "Lynx canadensis",
+        "currentName": {
+          "tsn": "180585",
+          "scientificName": "Lynx canadensis",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-06-25"
+        }
+      },
+      {
+        "colUsageId": "6QR9T",
+        "colScientificName": "Lynx lynx (Linnaeus, 1758)",
+        "colAuthorship": "(Linnaeus, 1758)",
+        "exactMatchName": "Lynx lynx",
+        "currentName": {
+          "tsn": "180584",
+          "scientificName": "Lynx lynx",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-06-25"
+        }
+      },
+      {
+        "colUsageId": "3WSJV",
+        "colScientificName": "Lynx pardinus (Temminck, 1827)",
+        "colAuthorship": "(Temminck, 1827)",
+        "exactMatchName": "Lynx pardinus",
+        "currentName": {
+          "tsn": "621869",
+          "scientificName": "Lynx pardinus",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-06-25"
+        }
+      },
+      {
+        "colUsageId": "3WSJW",
+        "colScientificName": "Lynx rufus (Schreber, 1777)",
+        "colAuthorship": "(Schreber, 1777)",
+        "exactMatchName": "Lynx rufus",
+        "currentName": {
+          "tsn": "180582",
+          "scientificName": "Lynx rufus",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-06-25"
+        }
+      },
+      {
+        "colUsageId": "3X52R",
+        "colScientificName": "Macrogalidia musschenbroekii (Schlegel, 1877)",
+        "colAuthorship": "(Schlegel, 1877)",
+        "exactMatchName": "Macrogalidia musschenbroekii",
+        "currentName": {
+          "tsn": "621983",
+          "scientificName": "Macrogalidia musschenbroekii",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-06-25"
+        }
+      },
+      {
+        "colUsageId": "3Y9VR",
+        "colScientificName": "Martes americana (Turton, 1806)",
+        "colAuthorship": "(Turton, 1806)",
+        "exactMatchName": "Martes americana",
+        "currentName": {
+          "tsn": "180559",
+          "scientificName": "Martes americana",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2025-09-19"
+        }
+      },
+      {
+        "colUsageId": "3Y9VS",
+        "colScientificName": "Martes caurina (Merriam, 1890)",
+        "colAuthorship": "(Merriam, 1890)",
+        "exactMatchName": "Martes caurina",
+        "currentName": {
+          "tsn": "1086128",
+          "scientificName": "Martes caurina",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2025-09-19"
+        }
+      },
+      {
+        "colUsageId": "3Y9VV",
+        "colScientificName": "Martes flavigula (Boddaert, 1785)",
+        "colAuthorship": "(Boddaert, 1785)",
+        "exactMatchName": "Martes flavigula",
+        "currentName": {
+          "tsn": "621940",
+          "scientificName": "Martes flavigula",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2025-09-19"
+        }
+      },
+      {
+        "colUsageId": "3Y9VW",
+        "colScientificName": "Martes foina (Erxleben, 1777)",
+        "colAuthorship": "(Erxleben, 1777)",
+        "exactMatchName": "Martes foina",
+        "currentName": {
+          "tsn": "621941",
+          "scientificName": "Martes foina",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2025-09-19"
+        }
+      },
+      {
+        "colUsageId": "3Y9VX",
+        "colScientificName": "Martes gwatkinsii Horsfield, 1851",
+        "colAuthorship": "Horsfield, 1851",
+        "exactMatchName": "Martes gwatkinsii",
+        "currentName": {
+          "tsn": "621942",
+          "scientificName": "Martes gwatkinsii",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2025-09-19"
+        }
+      },
+      {
+        "colUsageId": "3Y9W2",
+        "colScientificName": "Martes martes (Linnaeus, 1758)",
+        "colAuthorship": "(Linnaeus, 1758)",
+        "exactMatchName": "Martes martes",
+        "currentName": {
+          "tsn": "621943",
+          "scientificName": "Martes martes",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2025-09-19"
+        }
+      },
+      {
+        "colUsageId": "3Y9W3",
+        "colScientificName": "Martes melampus (Wagner, 1840)",
+        "colAuthorship": "(Wagner, 1840)",
+        "exactMatchName": "Martes melampus",
+        "currentName": {
+          "tsn": "621944",
+          "scientificName": "Martes melampus",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2025-09-19"
+        }
+      },
+      {
+        "colUsageId": "3Y9W9",
+        "colScientificName": "Martes zibellina (Linnaeus, 1758)",
+        "colAuthorship": "(Linnaeus, 1758)",
+        "exactMatchName": "Martes zibellina",
+        "currentName": {
+          "tsn": "621945",
+          "scientificName": "Martes zibellina",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2025-09-19"
+        }
+      },
+      {
+        "colUsageId": "3ZDRJ",
+        "colScientificName": "Meles anakuma Temminck, 1844",
+        "colAuthorship": "Temminck, 1844",
+        "exactMatchName": "Meles anakuma",
+        "currentName": {
+          "tsn": "726278",
+          "scientificName": "Meles anakuma",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2025-09-19"
+        }
+      },
+      {
+        "colUsageId": "3ZDRM",
+        "colScientificName": "Meles canescens Blanford, 1875",
+        "colAuthorship": "Blanford, 1875",
+        "exactMatchName": "Meles canescens",
+        "currentName": {
+          "tsn": "1086067",
+          "scientificName": "Meles canescens",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2025-09-19"
+        }
+      },
+      {
+        "colUsageId": "3ZDRV",
+        "colScientificName": "Meles leucurus (Hodgson, 1847)",
+        "colAuthorship": "(Hodgson, 1847)",
+        "exactMatchName": "Meles leucurus",
+        "currentName": {
+          "tsn": "726279",
+          "scientificName": "Meles leucurus",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2025-09-19"
+        }
+      },
+      {
+        "colUsageId": "3ZDRX",
+        "colScientificName": "Meles meles (Linnaeus, 1758)",
+        "colAuthorship": "(Linnaeus, 1758)",
+        "exactMatchName": "Meles meles",
+        "currentName": {
+          "tsn": "621922",
+          "scientificName": "Meles meles",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2025-09-19"
+        }
+      },
+      {
+        "colUsageId": "3ZLBF",
+        "colScientificName": "Mellivora capensis (Schreber, 1776)",
+        "colAuthorship": "(Schreber, 1776)",
+        "exactMatchName": "Mellivora capensis",
+        "currentName": {
+          "tsn": "621929",
+          "scientificName": "Mellivora capensis",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2025-09-19"
+        }
+      },
+      {
+        "colUsageId": "3ZM86",
+        "colScientificName": "Melogale cucphuongensis Nadler, Streicher, Stefen, Schwierz & Roos, 2011",
+        "colAuthorship": "Nadler, Streicher, Stefen, Schwierz & Roos, 2011",
+        "exactMatchName": "Melogale cucphuongensis",
+        "currentName": {
+          "tsn": "1086068",
+          "scientificName": "Melogale cucphuongensis",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2025-09-19"
+        }
+      },
+      {
+        "colUsageId": "3ZM87",
+        "colScientificName": "Melogale everetti (Thomas, 1895)",
+        "colAuthorship": "(Thomas, 1895)",
+        "exactMatchName": "Melogale everetti",
+        "currentName": {
+          "tsn": "621923",
+          "scientificName": "Melogale everetti",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2025-09-19"
+        }
+      },
+      {
+        "colUsageId": "3ZM88",
+        "colScientificName": "Melogale moschata (Gray, 1831)",
+        "colAuthorship": "(Gray, 1831)",
+        "exactMatchName": "Melogale moschata",
+        "currentName": {
+          "tsn": "621924",
+          "scientificName": "Melogale moschata",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2025-09-19"
+        }
+      },
+      {
+        "colUsageId": "3ZM89",
+        "colScientificName": "Melogale orientalis (Horsfield, 1821)",
+        "colAuthorship": "(Horsfield, 1821)",
+        "exactMatchName": "Melogale orientalis",
+        "currentName": {
+          "tsn": "621925",
+          "scientificName": "Melogale orientalis",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2025-09-19"
+        }
+      },
+      {
+        "colUsageId": "6R9WQ",
+        "colScientificName": "Melogale personata I. Geoffroy Saint-Hilaire, 1831",
+        "colAuthorship": "I. Geoffroy Saint-Hilaire, 1831",
+        "exactMatchName": "Melogale personata",
+        "currentName": {
+          "tsn": "621926",
+          "scientificName": "Melogale personata",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2025-09-19"
+        }
+      },
+      {
+        "colUsageId": "V5JLZ",
+        "colScientificName": "Melogale subaurantiaca (Swinhoe, 1862)",
+        "colAuthorship": "(Swinhoe, 1862)",
+        "exactMatchName": "Melogale subaurantiaca",
+        "currentName": {
+          "tsn": "1271748",
+          "scientificName": "Melogale subaurantiaca",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2025-09-19"
+        }
+      },
+      {
+        "colUsageId": "6QY9D",
+        "colScientificName": "Melursus ursinus (Shaw, 1791)",
+        "colAuthorship": "(Shaw, 1791)",
+        "exactMatchName": "Melursus ursinus",
+        "currentName": {
+          "tsn": "621848",
+          "scientificName": "Melursus ursinus",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-02-26"
+        }
+      },
+      {
+        "colUsageId": "3ZT5H",
+        "colScientificName": "Mephitis macroura Lichtenstein, 1832",
+        "colAuthorship": "Lichtenstein, 1832",
+        "exactMatchName": "Mephitis macroura",
+        "currentName": {
+          "tsn": "180563",
+          "scientificName": "Mephitis macroura",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-02-26"
+        }
+      },
+      {
+        "colUsageId": "3ZT5J",
+        "colScientificName": "Mephitis mephitis (Schreber, 1776)",
+        "colAuthorship": "(Schreber, 1776)",
+        "exactMatchName": "Mephitis mephitis",
+        "currentName": {
+          "tsn": "180562",
+          "scientificName": "Mephitis mephitis",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-02-26"
+        }
+      },
+      {
+        "colUsageId": "43MJ6",
+        "colScientificName": "Mirounga angustirostris (Gill, 1866)",
+        "colAuthorship": "(Gill, 1866)",
+        "exactMatchName": "Mirounga angustirostris",
+        "currentName": {
+          "tsn": "180672",
+          "scientificName": "Mirounga angustirostris",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-02-26"
+        }
+      },
+      {
+        "colUsageId": "43MJ7",
+        "colScientificName": "Mirounga leonina (Linnaeus, 1758)",
+        "colAuthorship": "(Linnaeus, 1758)",
+        "exactMatchName": "Mirounga leonina",
+        "currentName": {
+          "tsn": "180671",
+          "scientificName": "Mirounga leonina",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-02-26"
+        }
+      },
+      {
+        "colUsageId": "43ZLW",
+        "colScientificName": "Monachus monachus (Hermann, 1779)",
+        "colAuthorship": "(Hermann, 1779)",
+        "exactMatchName": "Monachus monachus",
+        "currentName": {
+          "tsn": "180659",
+          "scientificName": "Monachus monachus",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-02-26"
+        }
+      },
+      {
+        "colUsageId": "44KLN",
+        "colScientificName": "Mungos gambianus (Ogilby, 1835)",
+        "colAuthorship": "(Ogilby, 1835)",
+        "exactMatchName": "Mungos gambianus",
+        "currentName": {
+          "tsn": "621902",
+          "scientificName": "Mungos gambianus",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-06-25"
+        }
+      },
+      {
+        "colUsageId": "44KLP",
+        "colScientificName": "Mungos mungo (Gmelin, 1788)",
+        "colAuthorship": "(Gmelin, 1788)",
+        "exactMatchName": "Mungos mungo",
+        "currentName": {
+          "tsn": "621903",
+          "scientificName": "Mungos mungo",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-06-25"
+        }
+      },
+      {
+        "colUsageId": "44KLQ",
+        "colScientificName": "Mungotictis decemlineata (Grandidier, 1867)",
+        "colAuthorship": "(Grandidier, 1867)",
+        "exactMatchName": "Mungotictis decemlineata",
+        "currentName": {
+          "tsn": "621878",
+          "scientificName": "Mungotictis decemlineata",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-06-25"
+        }
+      },
+      {
+        "colUsageId": "QW2BD",
+        "colScientificName": "Mustela aistoodonnivalis Wu & Kao, 1991",
+        "colAuthorship": "Wu & Kao, 1991",
+        "exactMatchName": "Mustela aistoodonnivalis",
+        "currentName": {
+          "tsn": "1271750",
+          "scientificName": "Mustela aistoodonnivalis",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2025-09-19"
+        }
+      },
+      {
+        "colUsageId": "44QVW",
+        "colScientificName": "Mustela altaica Pallas, 1811",
+        "colAuthorship": "Pallas, 1811",
+        "exactMatchName": "Mustela altaica",
+        "currentName": {
+          "tsn": "621947",
+          "scientificName": "Mustela altaica",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2025-09-19"
+        }
+      },
+      {
+        "colUsageId": "44QWG",
+        "colScientificName": "Mustela erminea Linnaeus, 1758",
+        "colAuthorship": "Linnaeus, 1758",
+        "exactMatchName": "Mustela erminea",
+        "currentName": {
+          "tsn": "180555",
+          "scientificName": "Mustela erminea",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2025-09-19"
+        }
+      },
+      {
+        "colUsageId": "44QWJ",
+        "colScientificName": "Mustela eversmanii Lesson, 1827",
+        "colAuthorship": "Lesson, 1827",
+        "exactMatchName": "Mustela eversmanii",
+        "currentName": {
+          "tsn": "726280",
+          "scientificName": "Mustela eversmanii",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2025-09-19"
+        }
+      },
+      {
+        "colUsageId": "44QWQ",
+        "colScientificName": "Mustela furo Linnaeus, 1758",
+        "colAuthorship": "Linnaeus, 1758",
+        "exactMatchName": "Mustela furo",
+        "currentName": {
+          "tsn": "1086143",
+          "scientificName": "Mustela furo",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2025-09-19"
+        }
+      },
+      {
+        "colUsageId": "44QX8",
+        "colScientificName": "Mustela itatsi Temminck, 1844",
+        "colAuthorship": "Temminck, 1844",
+        "exactMatchName": "Mustela itatsi",
+        "currentName": {
+          "tsn": "726281",
+          "scientificName": "Mustela itatsi",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2025-09-19"
+        }
+      },
+      {
+        "colUsageId": "6RQQN",
+        "colScientificName": "Mustela kathiah Hodgson, 1835",
+        "colAuthorship": "Hodgson, 1835",
+        "exactMatchName": "Mustela kathiah",
+        "currentName": {
+          "tsn": "621950",
+          "scientificName": "Mustela kathiah",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2025-09-19"
+        }
+      },
+      {
+        "colUsageId": "44QXK",
+        "colScientificName": "Mustela lutreola (Linnaeus, 1761)",
+        "colAuthorship": "(Linnaeus, 1761)",
+        "exactMatchName": "Mustela lutreola",
+        "currentName": {
+          "tsn": "621951",
+          "scientificName": "Mustela lutreola",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2025-09-19"
+        }
+      },
+      {
+        "colUsageId": "44QXL",
+        "colScientificName": "Mustela lutreolina Robinson & Thomas, 1917",
+        "colAuthorship": "Robinson & Thomas, 1917",
+        "exactMatchName": "Mustela lutreolina",
+        "currentName": {
+          "tsn": "621952",
+          "scientificName": "Mustela lutreolina",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2025-09-19"
+        }
+      },
+      {
+        "colUsageId": "44QY2",
+        "colScientificName": "Mustela nigripes (Audubon & Bachman, 1851)",
+        "colAuthorship": "(Audubon & Bachman, 1851)",
+        "exactMatchName": "Mustela nigripes",
+        "currentName": {
+          "tsn": "180557",
+          "scientificName": "Mustela nigripes",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2025-09-19"
+        }
+      },
+      {
+        "colUsageId": "44QY4",
+        "colScientificName": "Mustela nivalis Linnaeus, 1766",
+        "colAuthorship": "Linnaeus, 1766",
+        "exactMatchName": "Mustela nivalis",
+        "currentName": {
+          "tsn": "180554",
+          "scientificName": "Mustela nivalis",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2025-09-19"
+        }
+      },
+      {
+        "colUsageId": "44QY5",
+        "colScientificName": "Mustela nudipes Desmarest, 1822",
+        "colAuthorship": "Desmarest, 1822",
+        "exactMatchName": "Mustela nudipes",
+        "currentName": {
+          "tsn": "621953",
+          "scientificName": "Mustela nudipes",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2025-09-19"
+        }
+      },
+      {
+        "colUsageId": "44QYC",
+        "colScientificName": "Mustela putorius Linnaeus, 1758",
+        "colAuthorship": "Linnaeus, 1758",
+        "exactMatchName": "Mustela putorius",
+        "currentName": {
+          "tsn": "621954",
+          "scientificName": "Mustela putorius",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2025-09-19"
+        }
+      },
+      {
+        "colUsageId": "44QYK",
+        "colScientificName": "Mustela sibirica Pallas, 1773",
+        "colAuthorship": "Pallas, 1773",
+        "exactMatchName": "Mustela sibirica",
+        "currentName": {
+          "tsn": "621955",
+          "scientificName": "Mustela sibirica",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2025-09-19"
+        }
+      },
+      {
+        "colUsageId": "44QYP",
+        "colScientificName": "Mustela strigidorsa Gray, 1853",
+        "colAuthorship": "Gray, 1853",
+        "exactMatchName": "Mustela strigidorsa",
+        "currentName": {
+          "tsn": "621956",
+          "scientificName": "Mustela strigidorsa",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2025-09-19"
+        }
+      },
+      {
+        "colUsageId": "4528K",
+        "colScientificName": "Mydaus javanensis (Desmarest, 1820)",
+        "colAuthorship": "(Desmarest, 1820)",
+        "exactMatchName": "Mydaus javanensis",
+        "currentName": {
+          "tsn": "621927",
+          "scientificName": "Mydaus javanensis",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-02-26"
+        }
+      },
+      {
+        "colUsageId": "4528L",
+        "colScientificName": "Mydaus marchei Huet, 1887",
+        "colAuthorship": "Huet, 1887",
+        "exactMatchName": "Mydaus marchei",
+        "currentName": {
+          "tsn": "621928",
+          "scientificName": "Mydaus marchei",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-02-26"
+        }
+      },
+      {
+        "colUsageId": "45LRZ",
+        "colScientificName": "Nandinia binotata (Gray, 1830)",
+        "colAuthorship": "(Gray, 1830)",
+        "exactMatchName": "Nandinia binotata",
+        "currentName": {
+          "tsn": "621980",
+          "scientificName": "Nandinia binotata",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-06-25"
+        }
+      },
+      {
+        "colUsageId": "6S6BF",
+        "colScientificName": "Nasua narica (Linnaeus, 1766)",
+        "colAuthorship": "(Linnaeus, 1766)",
+        "exactMatchName": "Nasua narica",
+        "currentName": {
+          "tsn": "552462",
+          "scientificName": "Nasua narica",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-02-26"
+        }
+      },
+      {
+        "colUsageId": "45STB",
+        "colScientificName": "Nasua nasua (Linnaeus, 1766)",
+        "colAuthorship": "(Linnaeus, 1766)",
+        "exactMatchName": "Nasua nasua",
+        "currentName": {
+          "tsn": "180579",
+          "scientificName": "Nasua nasua",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-02-26"
+        }
+      },
+      {
+        "colUsageId": "9GXWV",
+        "colScientificName": "Nasua olivacea Gray, 1865",
+        "colAuthorship": "Gray, 1865",
+        "exactMatchName": "Nasua olivacea",
+        "currentName": {
+          "tsn": "1191045",
+          "scientificName": "Nasua olivacea",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-02-26"
+        }
+      },
+      {
+        "colUsageId": "46H7Y",
+        "colScientificName": "Neofelis diardi (G. Cuvier, 1823)",
+        "colAuthorship": "(G. Cuvier, 1823)",
+        "exactMatchName": "Neofelis diardi",
+        "currentName": {
+          "tsn": "933419",
+          "scientificName": "Neofelis diardi",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-06-25"
+        }
+      },
+      {
+        "colUsageId": "46H7Z",
+        "colScientificName": "Neofelis nebulosa (Griffith, 1821)",
+        "colAuthorship": "(Griffith, 1821)",
+        "exactMatchName": "Neofelis nebulosa",
+        "currentName": {
+          "tsn": "183809",
+          "scientificName": "Neofelis nebulosa",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-06-25"
+        }
+      },
+      {
+        "colUsageId": "R6LVL",
+        "colScientificName": "Neogale africana (Desmarest, 1818)",
+        "colAuthorship": "(Desmarest, 1818)",
+        "exactMatchName": "Neogale africana",
+        "currentName": {
+          "tsn": "1271755",
+          "scientificName": "Neogale africana",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2025-09-19"
+        }
+      },
+      {
+        "colUsageId": "R6LVT",
+        "colScientificName": "Neogale felipei (Izor & de la Torre, 1978)",
+        "colAuthorship": "(Izor & de la Torre, 1978)",
+        "exactMatchName": "Neogale felipei",
+        "currentName": {
+          "tsn": "1271754",
+          "scientificName": "Neogale felipei",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2025-09-19"
+        }
+      },
+      {
+        "colUsageId": "R6LW4",
+        "colScientificName": "Neogale frenata (Lichtenstein, 1831)",
+        "colAuthorship": "(Lichtenstein, 1831)",
+        "exactMatchName": "Neogale frenata",
+        "currentName": {
+          "tsn": "1271752",
+          "scientificName": "Neogale frenata",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2025-09-19"
+        }
+      },
+      {
+        "colUsageId": "R6M29",
+        "colScientificName": "Neogale macrodon (Prentiss, 1903)",
+        "colAuthorship": "(Prentiss, 1903)",
+        "exactMatchName": "Neogale macrodon",
+        "currentName": {
+          "tsn": "1271753",
+          "scientificName": "Neogale macrodon",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2025-09-19"
+        }
+      },
+      {
+        "colUsageId": "R6M2J",
+        "colScientificName": "Neogale vison (Schreber, 1777)",
+        "colAuthorship": "(Schreber, 1777)",
+        "exactMatchName": "Neogale vison",
+        "currentName": {
+          "tsn": "1271751",
+          "scientificName": "Neogale vison",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2025-09-19"
+        }
+      },
+      {
+        "colUsageId": "46N48",
+        "colScientificName": "Neomonachus schauinslandi (Matschie, 1905)",
+        "colAuthorship": "(Matschie, 1905)",
+        "exactMatchName": "Neomonachus schauinslandi",
+        "currentName": {
+          "tsn": "1133135",
+          "scientificName": "Neomonachus schauinslandi",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-02-26"
+        }
+      },
+      {
+        "colUsageId": "46N49",
+        "colScientificName": "Neomonachus tropicalis (Gray, 1850)",
+        "colAuthorship": "(Gray, 1850)",
+        "exactMatchName": "Neomonachus tropicalis",
+        "currentName": {
+          "tsn": "1133134",
+          "scientificName": "Neomonachus tropicalis",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-02-26"
+        }
+      },
+      {
+        "colUsageId": "46Q8P",
+        "colScientificName": "Neophoca cinerea (Péron, 1816)",
+        "colAuthorship": "(Péron, 1816)",
+        "exactMatchName": "Neophoca cinerea",
+        "currentName": {
+          "tsn": "180623",
+          "scientificName": "Neophoca cinerea",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-02-26"
+        }
+      },
+      {
+        "colUsageId": "4859P",
+        "colScientificName": "Nyctereutes procyonoides (Gray, 1834)",
+        "colAuthorship": "(Gray, 1834)",
+        "exactMatchName": "Nyctereutes procyonoides",
+        "currentName": {
+          "tsn": "183821",
+          "scientificName": "Nyctereutes procyonoides",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2025-09-19"
+        }
+      },
+      {
+        "colUsageId": "QPQMG",
+        "colScientificName": "Nyctereutes viverrinus (Temminck, 1839)",
+        "colAuthorship": "(Temminck, 1839)",
+        "exactMatchName": "Nyctereutes viverrinus",
+        "currentName": {
+          "tsn": "1271668",
+          "scientificName": "Nyctereutes viverrinus",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2025-09-19"
+        }
+      },
+      {
+        "colUsageId": "74HLW",
+        "colScientificName": "Odobenus rosmarus (Linnaeus, 1758)",
+        "colAuthorship": "(Linnaeus, 1758)",
+        "exactMatchName": "Odobenus rosmarus",
+        "currentName": {
+          "tsn": "180639",
+          "scientificName": "Odobenus rosmarus",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-02-26"
+        }
+      },
+      {
+        "colUsageId": "49CTS",
+        "colScientificName": "Ommatophoca rossii Gray, 1844",
+        "colAuthorship": "Gray, 1844",
+        "exactMatchName": "Ommatophoca rossii",
+        "currentName": {
+          "tsn": "180665",
+          "scientificName": "Ommatophoca rossii",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-02-26"
+        }
+      },
+      {
+        "colUsageId": "4B23F",
+        "colScientificName": "Otaria byronia (de Blainville, 1820)",
+        "colAuthorship": "(de Blainville, 1820)",
+        "exactMatchName": "Otaria byronia",
+        "currentName": {
+          "tsn": "552767",
+          "scientificName": "Otaria byronia",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-02-26"
+        }
+      },
+      {
+        "colUsageId": "4B7BN",
+        "colScientificName": "Otocolobus manul (Pallas, 1776)",
+        "colAuthorship": "(Pallas, 1776)",
+        "exactMatchName": "Otocolobus manul",
+        "currentName": {
+          "tsn": "552765",
+          "scientificName": "Otocolobus manul",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-06-25"
+        }
+      },
+      {
+        "colUsageId": "4B7CH",
+        "colScientificName": "Otocyon megalotis (Desmarest, 1822)",
+        "colAuthorship": "(Desmarest, 1822)",
+        "exactMatchName": "Otocyon megalotis",
+        "currentName": {
+          "tsn": "183835",
+          "scientificName": "Otocyon megalotis",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2025-09-19"
+        }
+      },
+      {
+        "colUsageId": "75KB3",
+        "colScientificName": "Pagophilus groenlandicus (Erxleben, 1777)",
+        "colAuthorship": "(Erxleben, 1777)",
+        "exactMatchName": "Pagophilus groenlandicus",
+        "currentName": {
+          "tsn": "622022",
+          "scientificName": "Pagophilus groenlandicus",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-02-26"
+        }
+      },
+      {
+        "colUsageId": "75KD7",
+        "colScientificName": "Paguma larvata (C. E. H. Smith, 1827)",
+        "colAuthorship": "(C. E. H. Smith, 1827)",
+        "exactMatchName": "Paguma larvata",
+        "currentName": {
+          "tsn": "621984",
+          "scientificName": "Paguma larvata",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-06-25"
+        }
+      },
+      {
+        "colUsageId": "4CGXP",
+        "colScientificName": "Panthera leo (Linnaeus, 1758)",
+        "colAuthorship": "(Linnaeus, 1758)",
+        "exactMatchName": "Panthera leo",
+        "currentName": {
+          "tsn": "183803",
+          "scientificName": "Panthera leo",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-06-25"
+        }
+      },
+      {
+        "colUsageId": "4CGXQ",
+        "colScientificName": "Panthera onca (Linnaeus, 1758)",
+        "colAuthorship": "(Linnaeus, 1758)",
+        "exactMatchName": "Panthera onca",
+        "currentName": {
+          "tsn": "180593",
+          "scientificName": "Panthera onca",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-06-25"
+        }
+      },
+      {
+        "colUsageId": "4CGXR",
+        "colScientificName": "Panthera pardus (Linnaeus, 1758)",
+        "colAuthorship": "(Linnaeus, 1758)",
+        "exactMatchName": "Panthera pardus",
+        "currentName": {
+          "tsn": "183804",
+          "scientificName": "Panthera pardus",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-06-25"
+        }
+      },
+      {
+        "colUsageId": "4CGXS",
+        "colScientificName": "Panthera tigris (Linnaeus, 1758)",
+        "colAuthorship": "(Linnaeus, 1758)",
+        "exactMatchName": "Panthera tigris",
+        "currentName": {
+          "tsn": "183805",
+          "scientificName": "Panthera tigris",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-06-25"
+        }
+      },
+      {
+        "colUsageId": "4CGXT",
+        "colScientificName": "Panthera uncia (Schreber, 1775)",
+        "colAuthorship": "(Schreber, 1775)",
+        "exactMatchName": "Panthera uncia",
+        "currentName": {
+          "tsn": "933420",
+          "scientificName": "Panthera uncia",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-06-25"
+        }
+      },
+      {
+        "colUsageId": "4CSCZ",
+        "colScientificName": "Paracynictis selousi (de Winton, 1896)",
+        "colAuthorship": "(de Winton, 1896)",
+        "exactMatchName": "Paracynictis selousi",
+        "currentName": {
+          "tsn": "621904",
+          "scientificName": "Paracynictis selousi",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-06-25"
+        }
+      },
+      {
+        "colUsageId": "75P5H",
+        "colScientificName": "Paradoxurus hermaphroditus (Pallas, 1777)",
+        "colAuthorship": "(Pallas, 1777)",
+        "exactMatchName": "Paradoxurus hermaphroditus",
+        "currentName": {
+          "tsn": "621985",
+          "scientificName": "Paradoxurus hermaphroditus",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-06-25"
+        }
+      },
+      {
+        "colUsageId": "6TP5J",
+        "colScientificName": "Paradoxurus jerdoni Blanford, 1885",
+        "colAuthorship": "Blanford, 1885",
+        "exactMatchName": "Paradoxurus jerdoni",
+        "currentName": {
+          "tsn": "621986",
+          "scientificName": "Paradoxurus jerdoni",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-06-25"
+        }
+      },
+      {
+        "colUsageId": "CG6HF",
+        "colScientificName": "Paradoxurus musangus (Raffles, 1821)",
+        "colAuthorship": "(Raffles, 1821)",
+        "exactMatchName": "Paradoxurus musangus",
+        "currentName": {
+          "tsn": "1229744",
+          "scientificName": "Paradoxurus musangus",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-06-25"
+        }
+      },
+      {
+        "colUsageId": "CG6HK",
+        "colScientificName": "Paradoxurus philippinensis Jourdan, 1837",
+        "colAuthorship": "Jourdan, 1837",
+        "exactMatchName": "Paradoxurus philippinensis",
+        "currentName": {
+          "tsn": "1229746",
+          "scientificName": "Paradoxurus philippinensis",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-06-25"
+        }
+      },
+      {
+        "colUsageId": "75P5J",
+        "colScientificName": "Paradoxurus zeylonensis (Schreber, 1778)",
+        "colAuthorship": "(Schreber, 1778)",
+        "exactMatchName": "Paradoxurus zeylonensis",
+        "currentName": {
+          "tsn": "621987",
+          "scientificName": "Paradoxurus zeylonensis",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-06-25"
+        }
+      },
+      {
+        "colUsageId": "4CX4N",
+        "colScientificName": "Parahyaena brunnea (Thunberg, 1820)",
+        "colAuthorship": "(Thunberg, 1820)",
+        "exactMatchName": "Parahyaena brunnea",
+        "currentName": {
+          "tsn": "622007",
+          "scientificName": "Parahyaena brunnea",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-06-25"
+        }
+      },
+      {
+        "colUsageId": "4DJJ2",
+        "colScientificName": "Pardofelis marmorata (Martin, 1837)",
+        "colAuthorship": "(Martin, 1837)",
+        "exactMatchName": "Pardofelis marmorata",
+        "currentName": {
+          "tsn": "621872",
+          "scientificName": "Pardofelis marmorata",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-06-25"
+        }
+      },
+      {
+        "colUsageId": "75Y24",
+        "colScientificName": "Pekania pennanti (Erxleben, 1777)",
+        "colAuthorship": "(Erxleben, 1777)",
+        "exactMatchName": "Pekania pennanti",
+        "currentName": {
+          "tsn": "1086061",
+          "scientificName": "Pekania pennanti",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2025-09-19"
+        }
+      },
+      {
+        "colUsageId": "6VBY4",
+        "colScientificName": "Phoca largha Pallas, 1811",
+        "colAuthorship": "Pallas, 1811",
+        "exactMatchName": "Phoca largha",
+        "currentName": {
+          "tsn": "180642",
+          "scientificName": "Phoca largha",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-02-26"
+        }
+      },
+      {
+        "colUsageId": "4GK65",
+        "colScientificName": "Phoca vitulina Linnaeus, 1758",
+        "colAuthorship": "Linnaeus, 1758",
+        "exactMatchName": "Phoca vitulina",
+        "currentName": {
+          "tsn": "180649",
+          "scientificName": "Phoca vitulina",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-02-26"
+        }
+      },
+      {
+        "colUsageId": "4GK6L",
+        "colScientificName": "Phocarctos hookeri (Gray, 1844)",
+        "colAuthorship": "(Gray, 1844)",
+        "exactMatchName": "Phocarctos hookeri",
+        "currentName": {
+          "tsn": "180617",
+          "scientificName": "Phocarctos hookeri",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-02-26"
+        }
+      },
+      {
+        "colUsageId": "4KTJ5",
+        "colScientificName": "Poecilogale albinucha (Gray, 1864)",
+        "colAuthorship": "(Gray, 1864)",
+        "exactMatchName": "Poecilogale albinucha",
+        "currentName": {
+          "tsn": "621957",
+          "scientificName": "Poecilogale albinucha",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2025-09-19"
+        }
+      },
+      {
+        "colUsageId": "4KWLT",
+        "colScientificName": "Poiana leightoni Pocock, 1908",
+        "colAuthorship": "Pocock, 1908",
+        "exactMatchName": "Poiana leightoni",
+        "currentName": {
+          "tsn": "726263",
+          "scientificName": "Poiana leightoni",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-06-25"
+        }
+      },
+      {
+        "colUsageId": "784L8",
+        "colScientificName": "Poiana richardsonii (Thomson, 1842)",
+        "colAuthorship": "(Thomson, 1842)",
+        "exactMatchName": "Poiana richardsonii",
+        "currentName": {
+          "tsn": "621999",
+          "scientificName": "Poiana richardsonii",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-06-25"
+        }
+      },
+      {
+        "colUsageId": "4M6YV",
+        "colScientificName": "Potos flavus (Schreber, 1774)",
+        "colAuthorship": "(Schreber, 1774)",
+        "exactMatchName": "Potos flavus",
+        "currentName": {
+          "tsn": "621964",
+          "scientificName": "Potos flavus",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-02-26"
+        }
+      },
+      {
+        "colUsageId": "4MF7C",
+        "colScientificName": "Prionailurus bengalensis (Kerr, 1792)",
+        "colAuthorship": "(Kerr, 1792)",
+        "exactMatchName": "Prionailurus bengalensis",
+        "currentName": {
+          "tsn": "552763",
+          "scientificName": "Prionailurus bengalensis",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-06-25"
+        }
+      },
+      {
+        "colUsageId": "CG8CW",
+        "colScientificName": "Prionailurus javanensis (Desmarest, 1816)",
+        "colAuthorship": "(Desmarest, 1816)",
+        "exactMatchName": "Prionailurus javanensis",
+        "currentName": {
+          "tsn": "1229747",
+          "scientificName": "Prionailurus javanensis",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-06-25"
+        }
+      },
+      {
+        "colUsageId": "6W932",
+        "colScientificName": "Prionailurus planiceps (Vigors & Horsfield, 1827)",
+        "colAuthorship": "(Vigors & Horsfield, 1827)",
+        "exactMatchName": "Prionailurus planiceps",
+        "currentName": {
+          "tsn": "621873",
+          "scientificName": "Prionailurus planiceps",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-06-25"
+        }
+      },
+      {
+        "colUsageId": "4MF7F",
+        "colScientificName": "Prionailurus rubiginosus (I. Geoffroy Saint-Hilaire, 1831)",
+        "colAuthorship": "(I. Geoffroy Saint-Hilaire, 1831)",
+        "exactMatchName": "Prionailurus rubiginosus",
+        "currentName": {
+          "tsn": "552774",
+          "scientificName": "Prionailurus rubiginosus",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-06-25"
+        }
+      },
+      {
+        "colUsageId": "4MF7G",
+        "colScientificName": "Prionailurus viverrinus (Bennett, 1833)",
+        "colAuthorship": "(Bennett, 1833)",
+        "exactMatchName": "Prionailurus viverrinus",
+        "currentName": {
+          "tsn": "552770",
+          "scientificName": "Prionailurus viverrinus",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-06-25"
+        }
+      },
+      {
+        "colUsageId": "4MFP7",
+        "colScientificName": "Prionodon linsang (Hardwicke, 1821)",
+        "colAuthorship": "(Hardwicke, 1821)",
+        "exactMatchName": "Prionodon linsang",
+        "currentName": {
+          "tsn": "622000",
+          "scientificName": "Prionodon linsang",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-06-25"
+        }
+      },
+      {
+        "colUsageId": "6W8QY",
+        "colScientificName": "Prionodon pardicolor Hodgson, 1842",
+        "colAuthorship": "Hodgson, 1842",
+        "exactMatchName": "Prionodon pardicolor",
+        "currentName": {
+          "tsn": "622001",
+          "scientificName": "Prionodon pardicolor",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-06-25"
+        }
+      },
+      {
+        "colUsageId": "6VY96",
+        "colScientificName": "Procyon cancrivorus (G. [Baron] Cuvier, 1798)",
+        "colAuthorship": "(G. [Baron] Cuvier, 1798)",
+        "exactMatchName": "Procyon cancrivorus",
+        "currentName": {
+          "tsn": "621967",
+          "scientificName": "Procyon cancrivorus",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-02-26"
+        }
+      },
+      {
+        "colUsageId": "4MPXY",
+        "colScientificName": "Procyon lotor (Linnaeus, 1758)",
+        "colAuthorship": "(Linnaeus, 1758)",
+        "exactMatchName": "Procyon lotor",
+        "currentName": {
+          "tsn": "180575",
+          "scientificName": "Procyon lotor",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-02-26"
+        }
+      },
+      {
+        "colUsageId": "4MPY5",
+        "colScientificName": "Procyon pygmaeus Merriam, 1901",
+        "colAuthorship": "Merriam, 1901",
+        "exactMatchName": "Procyon pygmaeus",
+        "currentName": {
+          "tsn": "621972",
+          "scientificName": "Procyon pygmaeus",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-02-26"
+        }
+      },
+      {
+        "colUsageId": "4N38B",
+        "colScientificName": "Proteles cristata (Sparrman, 1783)",
+        "colAuthorship": "(Sparrman, 1783)",
+        "exactMatchName": "Proteles cristata",
+        "currentName": {
+          "tsn": "726269",
+          "scientificName": "Proteles cristata",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-06-25"
+        }
+      },
+      {
+        "colUsageId": "4PZZS",
+        "colScientificName": "Pteronura brasiliensis (Zimmermann, 1780)",
+        "colAuthorship": "(Zimmermann, 1780)",
+        "exactMatchName": "Pteronura brasiliensis",
+        "currentName": {
+          "tsn": "1086352",
+          "scientificName": "Pteronura brasiliensis",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2025-09-19"
+        }
+      },
+      {
+        "colUsageId": "4QHKG",
+        "colScientificName": "Puma concolor (Linnaeus, 1771)",
+        "colAuthorship": "(Linnaeus, 1771)",
+        "exactMatchName": "Puma concolor",
+        "currentName": {
+          "tsn": "552479",
+          "scientificName": "Puma concolor",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-06-25"
+        }
+      },
+      {
+        "colUsageId": "4QKSK",
+        "colScientificName": "Pusa caspica (Gmelin, 1788)",
+        "colAuthorship": "(Gmelin, 1788)",
+        "exactMatchName": "Pusa caspica",
+        "currentName": {
+          "tsn": "622019",
+          "scientificName": "Pusa caspica",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-02-26"
+        }
+      },
+      {
+        "colUsageId": "4QKSL",
+        "colScientificName": "Pusa hispida (Schreber, 1775)",
+        "colAuthorship": "(Schreber, 1775)",
+        "exactMatchName": "Pusa hispida",
+        "currentName": {
+          "tsn": "622018",
+          "scientificName": "Pusa hispida",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-02-26"
+        }
+      },
+      {
+        "colUsageId": "4QKSQ",
+        "colScientificName": "Pusa sibirica (Gmelin, 1788)",
+        "colAuthorship": "(Gmelin, 1788)",
+        "exactMatchName": "Pusa sibirica",
+        "currentName": {
+          "tsn": "622020",
+          "scientificName": "Pusa sibirica",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-02-26"
+        }
+      },
+      {
+        "colUsageId": "78VPL",
+        "colScientificName": "Rhynchogale melleri (Gray, 1865)",
+        "colAuthorship": "(Gray, 1865)",
+        "exactMatchName": "Rhynchogale melleri",
+        "currentName": {
+          "tsn": "621905",
+          "scientificName": "Rhynchogale melleri",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-06-25"
+        }
+      },
+      {
+        "colUsageId": "6XBMD",
+        "colScientificName": "Salanoia concolor (I. Geoffroy Saint-Hilaire, 1837)",
+        "colAuthorship": "(I. Geoffroy Saint-Hilaire, 1837)",
+        "exactMatchName": "Salanoia concolor",
+        "currentName": {
+          "tsn": "621879",
+          "scientificName": "Salanoia concolor",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-06-25"
+        }
+      },
+      {
+        "colUsageId": "4YJ85",
+        "colScientificName": "Speothos venaticus (Lund, 1842)",
+        "colAuthorship": "(Lund, 1842)",
+        "exactMatchName": "Speothos venaticus",
+        "currentName": {
+          "tsn": "183829",
+          "scientificName": "Speothos venaticus",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2025-09-19"
+        }
+      },
+      {
+        "colUsageId": "4Z3P4",
+        "colScientificName": "Spilogale angustifrons Howell, 1902",
+        "colAuthorship": "Howell, 1902",
+        "exactMatchName": "Spilogale angustifrons",
+        "currentName": {
+          "tsn": "726285",
+          "scientificName": "Spilogale angustifrons",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-02-26"
+        }
+      },
+      {
+        "colUsageId": "4Z3P5",
+        "colScientificName": "Spilogale gracilis Merriam, 1890",
+        "colAuthorship": "Merriam, 1890",
+        "exactMatchName": "Spilogale gracilis",
+        "currentName": {
+          "tsn": "552466",
+          "scientificName": "Spilogale gracilis",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-02-26"
+        }
+      },
+      {
+        "colUsageId": "9GWW2",
+        "colScientificName": "Spilogale interrupta (Rafinesque, 1820)",
+        "colAuthorship": "(Rafinesque, 1820)",
+        "exactMatchName": "Spilogale interrupta",
+        "currentName": {
+          "tsn": "1192482",
+          "scientificName": "Spilogale interrupta",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-02-26"
+        }
+      },
+      {
+        "colUsageId": "9GYC5",
+        "colScientificName": "Spilogale leucoparia Merriam, 1890",
+        "colAuthorship": "Merriam, 1890",
+        "exactMatchName": "Spilogale leucoparia",
+        "currentName": {
+          "tsn": "1192481",
+          "scientificName": "Spilogale leucoparia",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-02-26"
+        }
+      },
+      {
+        "colUsageId": "4Z3P6",
+        "colScientificName": "Spilogale putorius (Linnaeus, 1758)",
+        "colAuthorship": "(Linnaeus, 1758)",
+        "exactMatchName": "Spilogale putorius",
+        "currentName": {
+          "tsn": "180570",
+          "scientificName": "Spilogale putorius",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-02-26"
+        }
+      },
+      {
+        "colUsageId": "4Z3P7",
+        "colScientificName": "Spilogale pygmaea Thomas, 1898",
+        "colAuthorship": "Thomas, 1898",
+        "exactMatchName": "Spilogale pygmaea",
+        "currentName": {
+          "tsn": "621933",
+          "scientificName": "Spilogale pygmaea",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-02-26"
+        }
+      },
+      {
+        "colUsageId": "9GYC6",
+        "colScientificName": "Spilogale yucatanensis Burt, 1938",
+        "colAuthorship": "Burt, 1938",
+        "exactMatchName": "Spilogale yucatanensis",
+        "currentName": {
+          "tsn": "1192483",
+          "scientificName": "Spilogale yucatanensis",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-02-26"
+        }
+      },
+      {
+        "colUsageId": "7B5YQ",
+        "colScientificName": "Suricata suricatta (Schreber, 1776)",
+        "colAuthorship": "(Schreber, 1776)",
+        "exactMatchName": "Suricata suricatta",
+        "currentName": {
+          "tsn": "621906",
+          "scientificName": "Suricata suricatta",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-06-25"
+        }
+      },
+      {
+        "colUsageId": "54ZSX",
+        "colScientificName": "Taxidea taxus (Schreber, 1777)",
+        "colAuthorship": "(Schreber, 1777)",
+        "exactMatchName": "Taxidea taxus",
+        "currentName": {
+          "tsn": "180565",
+          "scientificName": "Taxidea taxus",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2025-09-19"
+        }
+      },
+      {
+        "colUsageId": "5832V",
+        "colScientificName": "Tremarctos ornatus (F. G. Cuvier, 1825)",
+        "colAuthorship": "(F. G. Cuvier, 1825)",
+        "exactMatchName": "Tremarctos ornatus",
+        "currentName": {
+          "tsn": "621849",
+          "scientificName": "Tremarctos ornatus",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-02-26"
+        }
+      },
+      {
+        "colUsageId": "7DTJY",
+        "colScientificName": "Urocyon cinereoargenteus (Schreber, 1775)",
+        "colAuthorship": "(Schreber, 1775)",
+        "exactMatchName": "Urocyon cinereoargenteus",
+        "currentName": {
+          "tsn": "180609",
+          "scientificName": "Urocyon cinereoargenteus",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2025-09-19"
+        }
+      },
+      {
+        "colUsageId": "7DTJX",
+        "colScientificName": "Urocyon littoralis (Baird, 1858)",
+        "colAuthorship": "(Baird, 1858)",
+        "exactMatchName": "Urocyon littoralis",
+        "currentName": {
+          "tsn": "180610",
+          "scientificName": "Urocyon littoralis",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2025-09-19"
+        }
+      },
+      {
+        "colUsageId": "7F2KC",
+        "colScientificName": "Ursus americanus Pallas, 1780",
+        "colAuthorship": "Pallas, 1780",
+        "exactMatchName": "Ursus americanus",
+        "currentName": {
+          "tsn": "180544",
+          "scientificName": "Ursus americanus",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-02-26"
+        }
+      },
+      {
+        "colUsageId": "7F2KB",
+        "colScientificName": "Ursus arctos Linnaeus, 1758",
+        "colAuthorship": "Linnaeus, 1758",
+        "exactMatchName": "Ursus arctos",
+        "currentName": {
+          "tsn": "180543",
+          "scientificName": "Ursus arctos",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-02-26"
+        }
+      },
+      {
+        "colUsageId": "7F2J9",
+        "colScientificName": "Ursus maritimus Phipps, 1774",
+        "colAuthorship": "Phipps, 1774",
+        "exactMatchName": "Ursus maritimus",
+        "currentName": {
+          "tsn": "180542",
+          "scientificName": "Ursus maritimus",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-02-26"
+        }
+      },
+      {
+        "colUsageId": "7F2JC",
+        "colScientificName": "Ursus thibetanus G. [Baron] Cuvier, 1823",
+        "colAuthorship": "G. [Baron] Cuvier, 1823",
+        "exactMatchName": "Ursus thibetanus",
+        "currentName": {
+          "tsn": "621850",
+          "scientificName": "Ursus thibetanus",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-02-26"
+        }
+      },
+      {
+        "colUsageId": "CGHSK",
+        "colScientificName": "Urva auropunctata (Hodgson, 1836)",
+        "colAuthorship": "(Hodgson, 1836)",
+        "exactMatchName": "Urva auropunctata",
+        "currentName": {
+          "tsn": "1229757",
+          "scientificName": "Urva auropunctata",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-06-25"
+        }
+      },
+      {
+        "colUsageId": "CGHSP",
+        "colScientificName": "Urva brachyura (Gray, 1837)",
+        "colAuthorship": "(Gray, 1837)",
+        "exactMatchName": "Urva brachyura",
+        "currentName": {
+          "tsn": "1229756",
+          "scientificName": "Urva brachyura",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-06-25"
+        }
+      },
+      {
+        "colUsageId": "CGHSR",
+        "colScientificName": "Urva edwardsii (É. Geoffroy Saint-Hilaire, 1818)",
+        "colAuthorship": "(É. Geoffroy Saint-Hilaire, 1818)",
+        "exactMatchName": "Urva edwardsii",
+        "currentName": {
+          "tsn": "1229755",
+          "scientificName": "Urva edwardsii",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-06-25"
+        }
+      },
+      {
+        "colUsageId": "CGHSV",
+        "colScientificName": "Urva fusca (Waterhouse, 1838)",
+        "colAuthorship": "(Waterhouse, 1838)",
+        "exactMatchName": "Urva fusca",
+        "currentName": {
+          "tsn": "1229754",
+          "scientificName": "Urva fusca",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-06-25"
+        }
+      },
+      {
+        "colUsageId": "CGHSZ",
+        "colScientificName": "Urva javanica (É. Geoffroy Saint-Hilaire, 1818)",
+        "colAuthorship": "(É. Geoffroy Saint-Hilaire, 1818)",
+        "exactMatchName": "Urva javanica",
+        "currentName": {
+          "tsn": "1229753",
+          "scientificName": "Urva javanica",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-06-25"
+        }
+      },
+      {
+        "colUsageId": "CGHT6",
+        "colScientificName": "Urva semitorquata (Gray, 1846)",
+        "colAuthorship": "(Gray, 1846)",
+        "exactMatchName": "Urva semitorquata",
+        "currentName": {
+          "tsn": "1229752",
+          "scientificName": "Urva semitorquata",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-06-25"
+        }
+      },
+      {
+        "colUsageId": "CGHT7",
+        "colScientificName": "Urva smithii (Gray, 1837)",
+        "colAuthorship": "(Gray, 1837)",
+        "exactMatchName": "Urva smithii",
+        "currentName": {
+          "tsn": "1229751",
+          "scientificName": "Urva smithii",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-06-25"
+        }
+      },
+      {
+        "colUsageId": "CGHT8",
+        "colScientificName": "Urva urva (Hodgson, 1836)",
+        "colAuthorship": "(Hodgson, 1836)",
+        "exactMatchName": "Urva urva",
+        "currentName": {
+          "tsn": "1229750",
+          "scientificName": "Urva urva",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-06-25"
+        }
+      },
+      {
+        "colUsageId": "CGHT9",
+        "colScientificName": "Urva vitticollis (Bennett, 1835)",
+        "colAuthorship": "(Bennett, 1835)",
+        "exactMatchName": "Urva vitticollis",
+        "currentName": {
+          "tsn": "1229749",
+          "scientificName": "Urva vitticollis",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-06-25"
+        }
+      },
+      {
+        "colUsageId": "5BMZM",
+        "colScientificName": "Viverra civettina Blyth, 1862",
+        "colAuthorship": "Blyth, 1862",
+        "exactMatchName": "Viverra civettina",
+        "currentName": {
+          "tsn": "622002",
+          "scientificName": "Viverra civettina",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-06-25"
+        }
+      },
+      {
+        "colUsageId": "5BMZP",
+        "colScientificName": "Viverra megaspila Blyth, 1862",
+        "colAuthorship": "Blyth, 1862",
+        "exactMatchName": "Viverra megaspila",
+        "currentName": {
+          "tsn": "622003",
+          "scientificName": "Viverra megaspila",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-06-25"
+        }
+      },
+      {
+        "colUsageId": "7FT8X",
+        "colScientificName": "Viverra tangalunga Gray, 1832",
+        "colAuthorship": "Gray, 1832",
+        "exactMatchName": "Viverra tangalunga",
+        "currentName": {
+          "tsn": "622004",
+          "scientificName": "Viverra tangalunga",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-06-25"
+        }
+      },
+      {
+        "colUsageId": "5BMZW",
+        "colScientificName": "Viverra zibetha Linnaeus, 1758",
+        "colAuthorship": "Linnaeus, 1758",
+        "exactMatchName": "Viverra zibetha",
+        "currentName": {
+          "tsn": "622005",
+          "scientificName": "Viverra zibetha",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-06-25"
+        }
+      },
+      {
+        "colUsageId": "5BMZX",
+        "colScientificName": "Viverricula indica (É. Geoffroy Saint-Hilaire, 1803)",
+        "colAuthorship": "(É. Geoffroy Saint-Hilaire, 1803)",
+        "exactMatchName": "Viverricula indica",
+        "currentName": {
+          "tsn": "728007",
+          "scientificName": "Viverricula indica",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-06-25"
+        }
+      },
+      {
+        "colUsageId": "5BQYJ",
+        "colScientificName": "Vormela peregusna (Güldenstädt, 1770)",
+        "colAuthorship": "(Güldenstädt, 1770)",
+        "exactMatchName": "Vormela peregusna",
+        "currentName": {
+          "tsn": "621958",
+          "scientificName": "Vormela peregusna",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2025-09-19"
+        }
+      },
+      {
+        "colUsageId": "5BSFM",
+        "colScientificName": "Vulpes bengalensis (Shaw, 1800)",
+        "colAuthorship": "(Shaw, 1800)",
+        "exactMatchName": "Vulpes bengalensis",
+        "currentName": {
+          "tsn": "621858",
+          "scientificName": "Vulpes bengalensis",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2025-09-19"
+        }
+      },
+      {
+        "colUsageId": "5BSFN",
+        "colScientificName": "Vulpes cana Blanford, 1877",
+        "colAuthorship": "Blanford, 1877",
+        "exactMatchName": "Vulpes cana",
+        "currentName": {
+          "tsn": "621859",
+          "scientificName": "Vulpes cana",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2025-09-19"
+        }
+      },
+      {
+        "colUsageId": "5BSFP",
+        "colScientificName": "Vulpes chama (A. Smith, 1833)",
+        "colAuthorship": "(A. Smith, 1833)",
+        "exactMatchName": "Vulpes chama",
+        "currentName": {
+          "tsn": "621860",
+          "scientificName": "Vulpes chama",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2025-09-19"
+        }
+      },
+      {
+        "colUsageId": "5BSFQ",
+        "colScientificName": "Vulpes corsac (Linnaeus, 1768)",
+        "colAuthorship": "(Linnaeus, 1768)",
+        "exactMatchName": "Vulpes corsac",
+        "currentName": {
+          "tsn": "621861",
+          "scientificName": "Vulpes corsac",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2025-09-19"
+        }
+      },
+      {
+        "colUsageId": "5BSFR",
+        "colScientificName": "Vulpes ferrilata Hodgson, 1842",
+        "colAuthorship": "Hodgson, 1842",
+        "exactMatchName": "Vulpes ferrilata",
+        "currentName": {
+          "tsn": "621862",
+          "scientificName": "Vulpes ferrilata",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2025-09-19"
+        }
+      },
+      {
+        "colUsageId": "7G4SC",
+        "colScientificName": "Vulpes lagopus (Linnaeus, 1758)",
+        "colAuthorship": "(Linnaeus, 1758)",
+        "exactMatchName": "Vulpes lagopus",
+        "currentName": {
+          "tsn": "622025",
+          "scientificName": "Vulpes lagopus",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2025-09-19"
+        }
+      },
+      {
+        "colUsageId": "5BSFW",
+        "colScientificName": "Vulpes macrotis Merriam, 1888",
+        "colAuthorship": "Merriam, 1888",
+        "exactMatchName": "Vulpes macrotis",
+        "currentName": {
+          "tsn": "180606",
+          "scientificName": "Vulpes macrotis",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2025-09-19"
+        }
+      },
+      {
+        "colUsageId": "5BSFY",
+        "colScientificName": "Vulpes pallida (Cretzschmar, 1826)",
+        "colAuthorship": "(Cretzschmar, 1826)",
+        "exactMatchName": "Vulpes pallida",
+        "currentName": {
+          "tsn": "621863",
+          "scientificName": "Vulpes pallida",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2025-09-19"
+        }
+      },
+      {
+        "colUsageId": "5BSFZ",
+        "colScientificName": "Vulpes rueppellii (Schinz, 1825)",
+        "colAuthorship": "(Schinz, 1825)",
+        "exactMatchName": "Vulpes rueppellii",
+        "currentName": {
+          "tsn": "621864",
+          "scientificName": "Vulpes rueppellii",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2025-09-19"
+        }
+      },
+      {
+        "colUsageId": "5BSG2",
+        "colScientificName": "Vulpes velox (Say, 1823)",
+        "colAuthorship": "(Say, 1823)",
+        "exactMatchName": "Vulpes velox",
+        "currentName": {
+          "tsn": "180607",
+          "scientificName": "Vulpes velox",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2025-09-19"
+        }
+      },
+      {
+        "colUsageId": "5BSG3",
+        "colScientificName": "Vulpes vulpes (Linnaeus, 1758)",
+        "colAuthorship": "(Linnaeus, 1758)",
+        "exactMatchName": "Vulpes vulpes",
+        "currentName": {
+          "tsn": "180604",
+          "scientificName": "Vulpes vulpes",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2025-09-19"
+        }
+      },
+      {
+        "colUsageId": "5BSG4",
+        "colScientificName": "Vulpes zerda (Zimmermann, 1780)",
+        "colAuthorship": "(Zimmermann, 1780)",
+        "exactMatchName": "Vulpes zerda",
+        "currentName": {
+          "tsn": "621865",
+          "scientificName": "Vulpes zerda",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2025-09-19"
+        }
+      },
+      {
+        "colUsageId": "CGJKF",
+        "colScientificName": "Xenogale naso (de Winton, 1901)",
+        "colAuthorship": "(de Winton, 1901)",
+        "exactMatchName": "Xenogale naso",
+        "currentName": {
+          "tsn": "1229713",
+          "scientificName": "Xenogale naso",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-06-25"
+        }
+      },
+      {
+        "colUsageId": "5CV54",
+        "colScientificName": "Zalophus californianus (Lesson, 1828)",
+        "colAuthorship": "(Lesson, 1828)",
+        "exactMatchName": "Zalophus californianus",
+        "currentName": {
+          "tsn": "180621",
+          "scientificName": "Zalophus californianus",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-02-26"
+        }
+      },
+      {
+        "colUsageId": "5CV56",
+        "colScientificName": "Zalophus japonicus (Peters, 1866)",
+        "colAuthorship": "(Peters, 1866)",
+        "exactMatchName": "Zalophus japonicus",
+        "currentName": {
+          "tsn": "622013",
+          "scientificName": "Zalophus japonicus",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-02-26"
+        }
+      },
+      {
+        "colUsageId": "5CV57",
+        "colScientificName": "Zalophus wollebaeki Sivertsen, 1953",
+        "colAuthorship": "Sivertsen, 1953",
+        "exactMatchName": "Zalophus wollebaeki",
+        "currentName": {
+          "tsn": "622014",
+          "scientificName": "Zalophus wollebaeki",
+          "usage": "valid",
+          "credibilityRating": "TWG standards met",
+          "completenessRating": null,
+          "currencyRating": null,
+          "updateDate": "2024-02-26"
+        }
+      }
+    ],
+    "synonymCurrentNameRedirect": [],
+    "ambiguous": [],
+    "unmatched": []
+  }
+}

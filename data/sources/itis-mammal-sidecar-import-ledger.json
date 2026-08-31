@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 1,
+  "importType": "COL26.8-to-ITIS-exact-mammal-nomenclatural-sidecars",
+  "generatedFrom": {
+    "sourcePath": "data/sources/itis-2026-08-26.json",
+    "sourceSha256": "38a7a55b4e98cafc66790e47f6bd637e298e23fd691e4771c755b38e4a02d7fc",
+    "itisDatabaseMember": "itisSqlite082626/ITIS.sqlite",
+    "itisDatabaseSha256": "ea7304536cfd7b1e2636d383911ca7931fc83d9ab1194ca2a3c020ea2daf1719",
+    "colRegistryManifestPath": "data/catalogue-of-life/releases/2026-08-20/registry/manifest.json",
+    "colRegistryManifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151",
+    "colOwnershipPath": "data/registry/package-species-coverage.json",
+    "colOwnershipSha256": "0a392968ee13b69a606797e7ca3cc5d6823a60e348ec3e77718b132127e1e369"
+  },
+  "matchingContract": {
+    "sourceTables": [
+      "longnames",
+      "synonym_links",
+      "taxon_unit_types",
+      "taxonomic_units"
+    ],
+    "queries": {
+      "currentMammalSpecies": "WITH RECURSIVE mammal_descendants(tsn) AS (SELECT ?1 UNION ALL SELECT u.tsn FROM taxonomic_units u JOIN mammal_descendants d ON u.parent_tsn = d.tsn WHERE u.name_usage = 'valid') SELECT u.tsn, l.completename AS scientific_name, u.name_usage, u.credibility_rtng, u.completeness_rtng, u.currency_rating, u.update_date FROM mammal_descendants d JOIN taxonomic_units u ON u.tsn = d.tsn JOIN taxon_unit_types r ON r.kingdom_id = u.kingdom_id AND r.rank_id = u.rank_id JOIN longnames l ON l.tsn = u.tsn WHERE lower(trim(r.rank_name)) = 'species' AND u.name_usage = 'valid' ORDER BY u.tsn",
+      "mammalSpeciesSynonyms": "WITH RECURSIVE mammal_descendants(tsn) AS (SELECT ?1 UNION ALL SELECT u.tsn FROM taxonomic_units u JOIN mammal_descendants d ON u.parent_tsn = d.tsn WHERE u.name_usage = 'valid'), accepted_mammal_species(tsn) AS (SELECT u.tsn FROM mammal_descendants d JOIN taxonomic_units u ON u.tsn = d.tsn JOIN taxon_unit_types r ON r.kingdom_id = u.kingdom_id AND r.rank_id = u.rank_id WHERE lower(trim(r.rank_name)) = 'species' AND u.name_usage = 'valid') SELECT s.tsn AS synonym_tsn, sl.completename AS synonym_name, su.name_usage AS synonym_usage, su.unaccept_reason, su.update_date AS synonym_update_date, s.tsn_accepted FROM synonym_links s JOIN accepted_mammal_species a ON a.tsn = s.tsn_accepted JOIN taxonomic_units su ON su.tsn = s.tsn JOIN taxon_unit_types sr ON sr.kingdom_id = su.kingdom_id AND sr.rank_id = su.rank_id JOIN longnames sl ON sl.tsn = su.tsn WHERE lower(trim(sr.rank_name)) = 'species' ORDER BY s.tsn, s.tsn_accepted"
+    },
+    "colInput": {
+      "releaseAlias": "COL26.8",
+      "releaseDate": "2026-08-20",
+      "registryManifestPath": "data/catalogue-of-life/releases/2026-08-20/registry/manifest.json",
+      "registryManifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151",
+      "ownershipPath": "data/registry/package-species-coverage.json",
+      "ownershipSha256": "0a392968ee13b69a606797e7ca3cc5d6823a60e348ec3e77718b132127e1e369",
+      "strictPredicate": "rank=species AND status=accepted",
+      "packageCounts": {
+        "mammal-origins": 0,
+        "perissodactyla": 19,
+        "cetartiodactyla": 503,
+        "primates": 530,
+        "carnivora": 310,
+        "other-mammals": 5099
+      }
+    },
+    "normalization": [
+      "Remove the exact trailing COL authorship field from COL scientificName when that suffix is present; no authorship parser is used.",
+      "Normalize Unicode to NFC, replace underscores with spaces, collapse Unicode whitespace and trim.",
+      "For species-rank comparison, remove one parenthesized subgenus token in the exact Genus (Subgenus) species representation; genus and specific epithet must remain unchanged.",
+      "Preserve case, diacritics, punctuation and all remaining name tokens."
+    ],
+    "matching": {
+      "accepted": "The normalized COL name resolves to exactly one valid ITIS Mammalia species and directly equals that current ITIS name.",
+      "synonym-current-name-redirect": "The normalized COL name equals one or more official ITIS invalid species names whose synonym_links rows resolve to exactly one valid ITIS Mammalia species.",
+      "ambiguous": "The normalized exact evidence resolves to more than one valid ITIS Mammalia species TSN.",
+      "unmatched": "No normalized exact valid-name or official species-synonym evidence resolves to a valid ITIS Mammalia species.",
+      "forbidden": "No fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered, genus-substitution or higher-rank match is permitted."
+    }
+  },
+  "totals": {
+    "total": 6461,
+    "accepted": 6460,
+    "synonymCurrentNameRedirect": 0,
+    "ambiguous": 1,
+    "unmatched": 0
+  },
+  "outputs": [
+    {
+      "packageId": "mammal-origins",
+      "path": "data/packages/mammalia/mammal-origins/nomenclature/itis-tsn-sidecar.json",
+      "bytes": 2713,
+      "sha256": "ea217771f0a3afbba4935157f23d49845d53a9e475e975ca38feb29b609f15da",
+      "counts": {
+        "total": 0,
+        "accepted": 0,
+        "synonymCurrentNameRedirect": 0,
+        "ambiguous": 0,
+        "unmatched": 0
+      }
+    },
+    {
+      "packageId": "perissodactyla",
+      "path": "data/packages/mammalia/perissodactyla/nomenclature/itis-tsn-sidecar.json",
+      "bytes": 12267,
+      "sha256": "75a902e63cdbca7b1b623447752cd44d84c82bf047c5e0620c142e4db026601e",
+      "counts": {
+        "total": 19,
+        "accepted": 19,
+        "synonymCurrentNameRedirect": 0,
+        "ambiguous": 0,
+        "unmatched": 0
+      }
+    },
+    {
+      "packageId": "cetartiodactyla",
+      "path": "data/packages/mammalia/cetartiodactyla/nomenclature/itis-tsn-sidecar.json",
+      "bytes": 260202,
+      "sha256": "f1f817a74197817a257ce47ac317a4b9d696ba13446ad546898f71881b7d7333",
+      "counts": {
+        "total": 503,
+        "accepted": 502,
+        "synonymCurrentNameRedirect": 0,
+        "ambiguous": 1,
+        "unmatched": 0
+      }
+    },
+    {
+      "packageId": "primates",
+      "path": "data/packages/mammalia/primates/nomenclature/itis-tsn-sidecar.json",
+      "bytes": 284468,
+      "sha256": "88e4f9125caeac32f1f1cfbbcdf5547f700d0320b62fa29a99986fc09b3d1f9c",
+      "counts": {
+        "total": 530,
+        "accepted": 530,
+        "synonymCurrentNameRedirect": 0,
+        "ambiguous": 0,
+        "unmatched": 0
+      }
+    },
+    {
+      "packageId": "carnivora",
+      "path": "data/packages/mammalia/carnivora/nomenclature/itis-tsn-sidecar.json",
+      "bytes": 159953,
+      "sha256": "cee968cb34a5779b8df0eda708520827b490fd319d696c0efd4d460def5d83d5",
+      "counts": {
+        "total": 310,
+        "accepted": 310,
+        "synonymCurrentNameRedirect": 0,
+        "ambiguous": 0,
+        "unmatched": 0
+      }
+    },
+    {
+      "packageId": "other-mammals",
+      "path": "data/packages/mammalia/other-mammals/nomenclature/itis-tsn-sidecar.json",
+      "bytes": 2636565,
+      "sha256": "dfabb344cf9f720ad21a5ab5581f87a2dee7c024156f3b736a3c351ca6e1275f",
+      "counts": {
+        "total": 5099,
+        "accepted": 5099,
+        "synonymCurrentNameRedirect": 0,
+        "ambiguous": 0,
+        "unmatched": 0
+      }
+    }
+  ],
+  "generatedBy": {
+    "scriptPath": "scripts/build-itis-mammal-sidecar.mjs",
+    "scriptSha256": "daceb6f1447e9d71ad891c002610e5922cf3075d6a86f67ff1a67fa02284a4e0",
+    "deterministic": "Pinned input checksums, exact SQL, fixed route priority, exact name normalization and explicit sorting; no wall-clock values or fuzzy matching."
+  }
+}
