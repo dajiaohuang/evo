@@ -47,6 +47,8 @@ node scripts/build-bacteria-lpsn-sidecar.mjs
 
 That command changes only `bacteria/lpsn-000.jsonl.gz`, `bacteria/manifest.json`, and the Bacteria descriptor in `resource-packs/manifest.json`. The original species shard is verified against its existing byte length and SHA-256 before any output is written.
 
+The standard `npm run data:packages:species` rebuild also invokes the same sidecar builder after materializing all base resource packs. This prevents a normal full regeneration from dropping the extension; no network request occurs in either build path.
+
 ## Rights and evidence boundary
 
 The Bacteria sidecar is attributed to LPSN version `2026-07-26`, accessed `2026-08-31`, under CC BY-SA 4.0. Every redistributed identifier has a link to its specific LPSN page, as requested by the [LPSN copyright notice](https://lpsn.dsmz.de/text/copyright). Cite Freese et al. (2026), [DOI 10.1093/nar/gkaf1110](https://doi.org/10.1093/nar/gkaf1110).

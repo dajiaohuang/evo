@@ -9,7 +9,7 @@
     "colRegistryManifestPath": "data/catalogue-of-life/releases/2026-08-20/registry/manifest.json",
     "colRegistryManifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151",
     "colOwnershipPath": "data/registry/package-species-coverage.json",
-    "colOwnershipSha256": "fcc9de965a6024a5e957c11272fff6b7af7197ab33aae2d5e3fbb8f0200a16fc"
+    "colOwnershipSha256": "2c2c51cf5d87582940866b5993149ade673bc8235da8d71a362cd634737dc5a5"
   },
   "matchingContract": {
     "sourceTables": [
@@ -28,8 +28,8 @@
       "registryManifestPath": "data/catalogue-of-life/releases/2026-08-20/registry/manifest.json",
       "registryManifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151",
       "ownershipPath": "data/registry/package-species-coverage.json",
-      "ownershipSha256": "fcc9de965a6024a5e957c11272fff6b7af7197ab33aae2d5e3fbb8f0200a16fc",
-      "ownershipProjectionCompatibility": "The rc58 ownership projection differs from the pinned import input only in datasetPackageVersion and package-definitions SHA-256. Routes, accepted-species membership, package counts and coverage proof are unchanged; all six checked sidecar files remain byte-identical.",
+      "ownershipSha256": "2c2c51cf5d87582940866b5993149ade673bc8235da8d71a362cd634737dc5a5",
+      "ownershipProjectionCompatibility": "The current ownership projection differs from the pinned import input only in datasetPackageVersion, package-definitions SHA-256 and generatedBy script SHA-256. Routes, accepted-species membership, package counts and coverage proof are unchanged; all six checked sidecar files remain byte-identical.",
       "strictPredicate": "rank=species AND status=accepted",
       "packageCounts": {
         "mammal-origins": 0,
