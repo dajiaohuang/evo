@@ -10,7 +10,7 @@ export const researchPresetDefinitions = {
   'early-land-plants': { entityId: 'plantae', claimIds: ['claim:taxon:plantae:root-range-rc39'] },
   gymnosperms: { entityId: 'gymnospermae', claimIds: ['claim:taxon:gymnospermae:root-range-rc39'] },
   angiospermae: { entityId: 'angiospermae', claimIds: ['claim:taxon:angiospermae:fossil-range'] },
-  'sponges-cnidarians': { entityId: 'porifera', claimIds: ['claim:taxon:porifera:root-range-rc39'] },
+  'sponges-cnidarians': { entityId: 'haootia', claimIds: ['claim:taxon:haootia:range-boundary-rc50'] },
   'molluscs-brachiopods': { entityId: 'mollusca', claimIds: ['claim:taxon:mollusca'] },
   'trilobites-chelicerates': { entityId: 'trilobita', claimIds: ['claim:taxon:trilobita:root-range-rc39'] },
   'crustaceans-insects': { entityId: 'arthropoda', claimIds: ['claim:taxon:arthropoda:root-range-rc39'] },
@@ -52,8 +52,8 @@ export const researchSceneDefinitions = {
     { id: 'angiospermae-comparison-window', kind: 'comparison', route: '#/compare?left=angiospermae&right=monocotyledones', entityIds: ['angiospermae', 'monocotyledones'], claimIds: ['claim:taxon:angiospermae:fossil-range', 'claim:taxon:monocotyledones:fossil-range'] },
   ] },
   'sponges-cnidarians': { label: { en: 'Sponges and cnidarians', zh: '海绵与刺胞动物' }, scenes: [
-    { id: 'sponges-cnidarians-map-window', kind: 'map', route: '#/explore?taxon=porifera&view=map&age=275.5&older=551&younger=0', entityIds: ['porifera'], claimIds: ['claim:taxon:porifera:root-range-rc39'] },
-    { id: 'sponges-cnidarians-comparison-window', kind: 'comparison', route: '#/compare?left=helicolocellus&right=eocyathispongia', entityIds: ['helicolocellus', 'eocyathispongia'], claimIds: ['claim:taxon:helicolocellus:fossil-range', 'claim:taxon:eocyathispongia:fossil-range'] },
+    { id: 'sponges-cnidarians-map-window', kind: 'map', route: '#/explore?taxon=haootia&view=map&age=562.5&older=565&younger=560', entityIds: ['haootia'], claimIds: ['claim:taxon:haootia:range-boundary-rc50'] },
+    { id: 'sponges-cnidarians-comparison-window', kind: 'comparison', route: '#/compare?left=haootia&right=xianguangia', entityIds: ['haootia', 'xianguangia'], claimIds: ['claim:taxon:haootia:range-boundary-rc50', 'claim:taxon:xianguangia:range-boundary-rc50'] },
   ] },
   'molluscs-brachiopods': { label: { en: 'Molluscs and brachiopods', zh: '软体动物与腕足动物' }, scenes: [
     { id: 'molluscs-brachiopods-map-window', kind: 'map', route: '#/explore?taxon=mollusca&view=map&age=260&older=520&younger=0', entityIds: ['mollusca'], claimIds: ['claim:taxon:mollusca'] },
@@ -193,8 +193,8 @@ export const packageDefinitions = [
     titleZh: '海绵与刺胞动物',
     rootEntityIds: ['porifera', 'cnidaria'],
     conceptScope: {
-      en: 'Fourteen primary-evidence dossiers separate Cryogenian sterane occurrence from source attribution, named Ediacaran and Cambrian specimens from topology, living phylogenomic samples from universal trees, and coral clock or proxy results from fossil observations. Navigation adds eighteen living and fossil concepts as curated browse routes. COL26.8 routes exactly 30,521 strictly accepted living species names through Porifera usage ID B8TXQ and Cnidaria usage ID CN2; this is nomenclatural coverage, not 30,521 mature dossiers.',
-      zh: '十四个一手证据档案严格区分成冰纪甾烷出现与来源归属、埃迪卡拉纪和寒武纪具名标本与系统位置、现生系统基因组样本与通用系统树，以及珊瑚分子钟或代用指标结果与化石观察。导航新增十八个现生和化石概念作为策展浏览路线。COL26.8 经海绵动物门 usage ID B8TXQ 与刺胞动物门 usage ID CN2 精确路由 30,521 个严格接受的现生种名；这是命名覆盖，并非 30,521 份成熟档案。',
+      en: 'Fourteen primary-evidence dossiers separate Cryogenian sterane occurrence from source attribution, named Ediacaran and Cambrian specimens from topology, living phylogenomic samples from universal trees, and coral clock or proxy results from fossil observations. Five field-linked profiles now cover Eocyathispongia, Helicolocellus, Auroralumina, Haootia and Xianguangia; each keeps specimen or assemblage bounds and competing affinity interpretations visible. Navigation adds eighteen living and fossil concepts as curated browse routes. COL26.8 routes exactly 30,521 strictly accepted living species names through Porifera usage ID B8TXQ and Cnidaria usage ID CN2; this is nomenclatural coverage, not 30,521 mature dossiers.',
+      zh: '十四个一手证据档案严格区分成冰纪甾烷出现与来源归属、埃迪卡拉纪和寒武纪具名标本与系统位置、现生系统基因组样本与通用系统树，以及珊瑚分子钟或代用指标结果与化石观察。五份逐字段档案现覆盖 Eocyathispongia、Helicolocellus、Auroralumina、Haootia 与 Xianguangia，并保留标本或动物群边界及相互竞争的亲缘解释。导航新增十八个现生和化石概念作为策展浏览路线。COL26.8 经海绵动物门 usage ID B8TXQ 与刺胞动物门 usage ID CN2 精确路由 30,521 个严格接受的现生种名；这是命名覆盖，并非 30,521 份成熟档案。',
     },
     scientificMaturity: 'source-linked',
     limitations: [
