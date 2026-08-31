@@ -55,15 +55,14 @@ describe('ITIS Platyhelminthes exact sidecar shards', () => {
   })
 
   it('selects exactly one immutable shard for each COL detail ID', () => {
-    const loaded = new Map()
+    const loaded = new Map(files.map((file) => [file.path, new Set(readJsonlGzip(file).map((item) => item.colUsageId))]))
+    const failures = []
     for (const record of rows) {
       const candidates = files.filter((file) => codeUnitCompare(file.firstColUsageId, record.colUsageId) <= 0 && codeUnitCompare(record.colUsageId, file.lastColUsageId) <= 0)
-      expect(candidates).toHaveLength(1)
-      const file = candidates[0]
-      if (!loaded.has(file.path)) loaded.set(file.path, new Set(readJsonlGzip(file).map((item) => item.colUsageId)))
-      expect(loaded.get(file.path).has(record.colUsageId)).toBe(true)
+      if (candidates.length !== 1 || !loaded.get(candidates[0]?.path)?.has(record.colUsageId)) failures.push(record.colUsageId)
     }
     expect(loaded.size).toBe(files.length)
+    expect(failures).toEqual([])
   })
 
   it('retains exact evidence and explicit unmatched boundaries', () => {
