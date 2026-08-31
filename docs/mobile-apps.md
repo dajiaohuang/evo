@@ -31,6 +31,8 @@ rc66 将 Android 与 iOS 同步到 build `20`，并把全部 47,975 个 COL26.8 
 
 rc65 将 Android 与 iOS 同步到 build `19`，并把两栖类完整 ITIS 权威命名侧车纳入 `native-full`：8,923 个 COL26.8 结果分布在 7 个互不重叠的 COL-ID JSONL gzip 分片中，另有 1 个包含 8 个 ITIS-only 当前种的分片。两端从同一 release inventory 复制并逐文件核对字节数与 SHA-256；`finalize-mobile-build.mjs` 同时要求 7+1 分片、8,923+8 条记录和 `native-full` 标志。Pages 不包含这些行级文件，只保留可审计描述符与 canonical 哈希清单。
 
+本数据侧车为棘皮动物 Echinodermata 固定 ITIS 官方 `itisSqlite082626`（根 TSN `156857`）与 COL26.8 `CHN` 根，完整保留 11,891 个接受种：2 个互不重叠的 COL-ID JSONL gzip 分片含 3,692 个当前名精确匹配、51 个官方种级异名重定向、9 个明确歧义和 8,139 个未匹配结果；另有 278 个 ITIS-only 当前种以 null COL ownership 单独保存。descriptor、导入 ledger 与每个分片均带字节数/SHA-256；本次仅增加数据与审计材料，不改变运行时或版本，后续原生完整发布应逐文件复制这些分片，Pages 仅保留 descriptor 与 canonical 哈希清单。
+
 rc64 在保留 rc63 全部古地形的同时，将两端同步到 build `18`，并加入 AviList `v2025b` 的完整鸟类权威命名数据。Android 与 iOS 都包含相同的 3 个 COL-ID 范围分片和 1 个 609 条记录的 upstream-only 分片；11,044 个 COL 鸟类结果与包内 27 个明确不适用的鳄目结果不会因 Pages 轻量化而从原生应用中缺失。`finalize-mobile-build.mjs` 会检查 `native-full` 标记、分片数和记录总数，然后按 release inventory 逐文件复制并复核哈希。
 
 rc63 把 Scotese–Wright 2018 PaleoDEM v2 的 109 个 0–540 Ma、5 Ma 名义年龄帧完整纳入 Android 与 iOS build `17`。两个原生包都含全部 3601×1801、0.1°、独立无损 i16 gzip 栅格，总压缩字节为 168,418,483；同一 inventory 逐帧保留源归档 member 哈希、文件名年龄、NetCDF 内部描述/年龄、压缩及解码 SHA-256。一次地图选择只读取一个年龄帧，worker 动态着色 Canvas，不预生成瓦片金字塔，也不做时间插值。Web/Pages 与浏览器离线为了保持 650 MiB 部署门槛，仍覆盖全部 109 个年龄，但使用 721×361、0.5° 的每第五格精确抽样预览，并省略只用于下载的重复包 ZIP；它不是原生端 0.1° 数据。本地 native-full 构建仍可生成 ZIP。界面和 manifest 均显示当前 profile、分辨率、Mercator ±85.051° 显示边界及非共注册限制。
