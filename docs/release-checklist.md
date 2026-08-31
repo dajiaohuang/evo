@@ -8,7 +8,7 @@
 6. Serve `dist` under `/evo/` and probe `/evo/`, `/evo/manifest.webmanifest`, `/evo/sw.js`, `/evo/data/current.json` and at least one package manifest and occurrence shard.
 7. Check keyboard navigation, the skip control, catalog section controls, browser back/forward, complete share URLs, mobile Explorer drawers and reduced-motion behavior.
 8. Confirm offline shell/Core reload works after one connected visit, visited lazy data remains available, and “save all packages” runs only after an explicit user action.
-9. Confirm `data/releases.json` leads with the current dataset and retained release file indexes remain reachable; confirm service-worker activation removes an older `evo-runtime-data-*` cache.
+9. Confirm `data/releases.json` leads with the current dataset, its retained byte total stays within budget and every listed release file index remains reachable; do not assume an unlisted prior version exists merely because retention allows at most two. Confirm service-worker activation removes an older `evo-runtime-data-*` cache.
 10. Review `DATA_LICENSES.md`, `MEDIA_ATTRIBUTION.json`, the source manifest and any changed item-level rights notes.
 11. Confirm no paleogeographic geometry is bundled unless every snapshot has the required provenance ledger fields and redistribution terms.
 12. In GitHub branch protection for `main`, require a pull request, both CI jobs, an up-to-date branch, resolved conversations, and block force pushes.

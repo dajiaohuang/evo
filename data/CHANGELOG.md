@@ -1,5 +1,13 @@
 # Dataset changelog
 
+## App 0.20.11 / 2026.08-static-v5-rc60 — 2026-08-31
+
+- Added the current ICTV Master Species List `MSL41.v1` and corrected Virus Metadata Resource `VMR_MSL41.v1.20260729` as a fixed, reproducible CC BY 4.0 extension to the COL26.8 Viruses nomenclatural pack. Both official workbooks are pinned by filename, release date, DOI, byte count, SHA-256, Zenodo MD5, ETag and Last-Modified; the superseded erroneous 2026-07-21 VMR is explicitly excluded.
+- Resolved all 17,552 COL26.8 virus species by one exact, case-sensitive current species name and the unique ICTV ID shared by MSL and VMR. Redirect, ambiguous, unmatched and withheld partitions are all zero. `Boscovirus hypoboscidae` and `Simiispumavirus macfas`, the two current ICTV species absent from the COL26.8 accepted shard, remain explicit upstream-only records with null COL IDs rather than invented mappings.
+- Published all 17,554 current ICTV species and 19,285 VMR rows (17,554 exemplar viruses and 1,731 additional isolates) through the same manifest, Viruses ZIP, Web offline inventory and Android/iOS full-data bundle. The original 17,552-row COL species shard, rc59 WoRMS collection, Bacteria/Archaea LPSN extensions and compact PBDB gzip sources remain unchanged. Android `versionCode` and iOS build number advance to `14`.
+- Kept the interpretation boundary explicit: ICTV taxonomy and virus metadata do not establish that viruses are cellular life, independently revalidate every GenBank accession or create fossil, morphology, ecology, distribution, phylogeny, media or expert-review dossiers.
+- Corrected the release-history promise after #124: deployments attempt to retain at most two prior datasets, subject to the configured retention byte budget, and only versions listed in the deployed `data/releases.json` are guaranteed reachable. rc58 is not rebuilt or represented as retained when its roughly 598.6 MiB release cannot fit the 400 MiB history-fetch budget; the Pages budget is not increased and long-term shared content-addressed history remains unresolved.
+
 ## App 0.20.10 / 2026.08-static-v5-rc59 — 2026-08-31
 
 - Added a date-pinned WoRMS AphiaID nomenclatural sidecar for all 11,891 COL26.8 species owned by the Echinoderms rich package. Strict exact-name results are separated into 11,843 accepted mappings, two explicit accepted-name redirects, 37 ambiguous names, zero unmatched names and nine withheld records; no fuzzy, case-folded, authority-only or higher-rank inference is used.
