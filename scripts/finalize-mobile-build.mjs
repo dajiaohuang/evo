@@ -97,6 +97,8 @@ const expectedOtherAnimalAuthorities = {
   'itis-platyhelminthes-tsn-crosswalk': { files: 15, records: 28252 },
   'itis-rotifera-tsn-crosswalk': { files: 3, records: 2662 },
   'itis-bryozoa-tsn-crosswalk': { files: 3, records: 20754 },
+  'itis-nemertea-tsn-crosswalk': { files: 2, records: 1416 },
+  'itis-tunicata-cephalochordata-tsn-crosswalk': { files: 2, records: 3242 },
 }
 for (const [id, expected] of Object.entries(expectedOtherAnimalAuthorities)) {
   const authority = otherAnimalsManifest.extensions?.find((extension) => extension.id === id)

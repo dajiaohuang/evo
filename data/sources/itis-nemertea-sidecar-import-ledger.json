@@ -102,13 +102,13 @@
   },
   "output": {
     "descriptor": {
-      "path": "data/packages/other-animals/nomenclature/itis-nemertea-sidecar.json",
-      "bytes": 6235,
-      "sha256": "3d150be75bc10107f553c326b2750feb9c5daa98ed0116db833f265c91cc3860"
+      "path": "data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals/itis-nemertea-sidecar.json",
+      "bytes": 6297,
+      "sha256": "2e8d195153bbfe68fca5b0c12413ca7c7757ede55f24ae2670ce804acd5df30c"
     },
     "colUsageIdShards": [
       {
-        "path": "data/packages/other-animals/nomenclature/itis-nemertea-sidecar-0000.jsonl.gz",
+        "path": "data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals/itis-nemertea-sidecar-0000.jsonl.gz",
         "records": 1364,
         "firstColUsageId": "32KJP",
         "lastColUsageId": "ZS8H",
@@ -119,7 +119,7 @@
       }
     ],
     "upstreamOnly": {
-      "path": "data/packages/other-animals/nomenclature/itis-nemertea-upstream-only-0000.jsonl.gz",
+      "path": "data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals/itis-nemertea-upstream-only-0000.jsonl.gz",
       "records": 52,
       "firstColUsageId": null,
       "lastColUsageId": null,
@@ -139,7 +139,7 @@
   },
   "generatedBy": {
     "scriptPath": "scripts/build-itis-nemertea-sidecar.mjs",
-    "scriptSha256": "9a326b60ff57d496e33ee182658285ddb68d31a4afcf7064d1ad095f8c1318b5",
+    "scriptSha256": "c41a34cbd8a09f46845b24693a83cb83c7948be607a9f60c94e4c084deb0eb58",
     "deterministic": "Pinned input checksums, fixed roots, exact SQL, exact representation-only normalization, code-unit ID ordering and deterministic gzip; no wall-clock fields or fuzzy matching."
   }
 }

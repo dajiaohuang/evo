@@ -21,6 +21,8 @@ const taxa = [
   { slug: 'platyhelminthes', label: 'Platyhelminthes' },
   { slug: 'rotifera', label: 'Rotifera' },
   { slug: 'bryozoa', label: 'Bryozoa' },
+  { slug: 'nemertea', label: 'Nemertea' },
+  { slug: 'tunicata-cephalochordata', label: 'Tunicata and Cephalochordata' },
 ]
 
 const bryozoaPath = join(packRoot, 'itis-bryozoa-sidecar.json')
@@ -51,6 +53,13 @@ bryozoaLedger.output.descriptor = {
 bryozoaLedger.generatedBy.scriptSha256 = sha256(readFileSync(join(root, 'scripts/build-itis-bryozoa-sidecar.mjs')))
 writeJson(bryozoaLedgerPath, bryozoaLedger)
 
+for (const slug of ['nemertea', 'tunicata-cephalochordata']) {
+  const descriptorPath = join(packRoot, `itis-${slug}-sidecar.json`)
+  const descriptor = readJson(descriptorPath)
+  replacePaths(descriptor)
+  writeJson(descriptorPath, descriptor)
+}
+
 const toRuntimeFile = (file) => ({
   path: `other-animals/${file.path.split('/').at(-1)}`,
   records: file.records,
@@ -69,6 +78,7 @@ const extensions = taxa.map(({ slug, label }) => {
   const descriptor = JSON.parse(descriptorBytes)
   const ledgerPath = join(root, `data/sources/itis-${slug}-sidecar-import-ledger.json`)
   const ledger = readJson(ledgerPath)
+  replacePaths(ledger)
   ledger.output.descriptor.path = `data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals/itis-${slug}-sidecar.json`
   ledger.output.descriptor.bytes = descriptorBytes.length
   ledger.output.descriptor.sha256 = sha256(descriptorBytes)

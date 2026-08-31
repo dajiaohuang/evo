@@ -8,7 +8,7 @@ import { deterministicGzip } from './archive-determinism.mjs'
 import { colExactMatchName, normalizeScientificName } from './itis-mammal-sidecar-lib.mjs'
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..')
-const nomenclatureRoot = join(root, 'data/packages/other-animals/nomenclature')
+const nomenclatureRoot = join(root, 'data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals')
 const descriptorPath = join(nomenclatureRoot, 'itis-tunicata-cephalochordata-sidecar.json')
 const ledgerPath = join(root, 'data/sources/itis-tunicata-cephalochordata-sidecar-import-ledger.json')
 const sha256 = (bytes) => createHash('sha256').update(bytes).digest('hex')

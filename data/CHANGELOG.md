@@ -1,5 +1,12 @@
 # Dataset changelog
 
+## App 0.20.18 / 2026.08-static-v5-rc67 — 2026-08-31
+
+- Added complete, disjoint ITIS `2026-08-26` CC0 nomenclatural sidecars for Platyhelminthes, Rotifera, Bryozoa, Nemertea, and Tunicata plus Cephalochordata inside the mixed `other-animals` resource pack.
+- Preserved explicit outcomes for all 54,381 COL26.8 accepted species: 9,257 exact current-name links, 267 official synonym redirects, 23 ambiguities, and 44,834 unmatched records. Kept 1,945 additional current ITIS species in separate null-COL upstream-only partitions; no fuzzy matching or invented ownership is used.
+- Published complete provenance, scope boundaries, counts, limitations, and the canonical 25-file hash inventory through Pages `web-light` without row shards. Android and iOS build `21` include all 56,326 rows byte-for-byte under `native-full` and verify every file against the release inventory.
+- Added a typed lazy lookup that rejects summary-only Web access, excludes upstream-only files from COL-ID routing, and parses at most one non-overlapping range shard. Added Web/native, generator, package-manifest, Android, and iOS coverage.
+
 ## App 0.20.14 / 2026.08-static-v5-rc63 — 2026-08-31
 
 - Replaced the one-frame PaleoDEM prototype and its stored tile pyramid with all 109 official Scotese–Wright 2018 PaleoDEM v2 frames from 0 to 540 Ma at 5 Ma nominal cadence. Every canonical frame retains the exact archive member bytes/SHA-256, filename nominal age, verbatim NetCDF description/parsed age, 3601×1801 integer-metre values, independent lossless i16 gzip and decoded hash.

@@ -23,6 +23,8 @@ dist-mobile/                 # 临时生成的移动客户端壳，不提交
 
 ## 数据与离线边界
 
+rc67 将 Android 与 iOS 同步到 build `21` / app `0.20.18`，并把 `other-animals` 中五个 ITIS 权威分区的全部 56,326 行纳入 `native-full`。两端逐字节包含相同的 25 个文件：54,381 个 COL26.8 结果和 1,945 个 ITIS-only 当前种；分区分别为 Platyhelminthes、Rotifera、Bryozoa、Nemertea、Tunicata + Cephalochordata。移动端测试逐扩展检查 ID、CC0 来源、文件数、行数、release inventory 字节数、SHA-256 与真实资产存在性。Pages 的 `web-light` 不复制这些行级文件，只保留五组完整统计、方法、限制与 canonical 哈希；这不会缩减 Android 或 iOS 的物种数据。
+
 rc66 将 Android 与 iOS 同步到 build `20`，并把全部 47,975 个 COL26.8 有孔虫的 WFD `2026-08-01` 权威标识纳入 `native-full`。两端包含相同的 5 个互不重叠 COL-ID JSONL gzip 分片，共 4,046,631 字节；每条记录都来自官方 ChecklistBank dataset `1157` source-record 关系，单种查询最多读取一个分片。`finalize-mobile-build.mjs` 要求 5 个文件、47,975 条记录、完整 canonical inventory 和 `native-full` 标志，并逐文件复核 release inventory 的字节数与 SHA-256。Pages 的 `web-light` 不部署这些行级文件，仅公开来源、方法、计数、限制和 5 文件哈希清单。
 
 rc65 将 Android 与 iOS 同步到 build `19`，并把两栖类完整 ITIS 权威命名侧车纳入 `native-full`：8,923 个 COL26.8 结果分布在 7 个互不重叠的 COL-ID JSONL gzip 分片中，另有 1 个包含 8 个 ITIS-only 当前种的分片。两端从同一 release inventory 复制并逐文件核对字节数与 SHA-256；`finalize-mobile-build.mjs` 同时要求 7+1 分片、8,923+8 条记录和 `native-full` 标志。Pages 不包含这些行级文件，只保留可审计描述符与 canonical 哈希清单。

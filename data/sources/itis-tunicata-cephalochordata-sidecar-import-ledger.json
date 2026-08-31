@@ -126,13 +126,13 @@
   },
   "output": {
     "descriptor": {
-      "path": "data/packages/other-animals/nomenclature/itis-tunicata-cephalochordata-sidecar.json",
-      "bytes": 6833,
-      "sha256": "a785bcf04f33153905d952319d9f9ed30f3b3fdb69db6da3223d3b0ffcbb060d"
+      "path": "data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals/itis-tunicata-cephalochordata-sidecar.json",
+      "bytes": 7264,
+      "sha256": "8a2b90173548e0ea9b6d8718f3628720e6e90c370d334962aa47c8710309323f"
     },
     "colUsageIdShards": [
       {
-        "path": "data/packages/other-animals/nomenclature/itis-tunicata-cephalochordata-sidecar-0000.jsonl.gz",
+        "path": "data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals/itis-tunicata-cephalochordata-sidecar-0000.jsonl.gz",
         "records": 3176,
         "firstColUsageId": "327YW",
         "lastColUsageId": "YQM5",
@@ -143,7 +143,7 @@
       }
     ],
     "upstreamOnly": {
-      "path": "data/packages/other-animals/nomenclature/itis-tunicata-cephalochordata-upstream-only-0000.jsonl.gz",
+      "path": "data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals/itis-tunicata-cephalochordata-upstream-only-0000.jsonl.gz",
       "records": 66,
       "firstColUsageId": null,
       "lastColUsageId": null,
@@ -163,7 +163,7 @@
   },
   "generatedBy": {
     "scriptPath": "scripts/build-itis-tunicata-cephalochordata-sidecar.mjs",
-    "scriptSha256": "9dbfe3676c1da4b52eb5ef51731559e92ee9afadf940e322fc0ed1d3cdf928eb",
+    "scriptSha256": "454f269d0a260052a086ac6d5b323ea1cd92c61520b10365dbb81373b047b1b9",
     "deterministic": "Pinned input checksums, fixed roots, exact SQL, exact representation-only normalization, code-unit ID ordering and deterministic gzip; no wall-clock fields or fuzzy matching."
   }
 }
