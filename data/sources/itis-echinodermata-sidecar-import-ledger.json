@@ -1,0 +1,128 @@
+{
+  "schemaVersion": 1,
+  "importType": "COL26.8-to-ITIS-exact-echinodermata-nomenclatural-sidecar",
+  "generatedFrom": {
+    "sourcePath": "data/sources/itis-2026-08-26.json",
+    "sourceSha256": "38a7a55b4e98cafc66790e47f6bd637e298e23fd691e4771c755b38e4a02d7fc",
+    "itisDatabaseMember": "itisSqlite082626/ITIS.sqlite",
+    "itisDatabaseSha256": "ea7304536cfd7b1e2636d383911ca7931fc83d9ab1194ca2a3c020ea2daf1719",
+    "colRegistryManifestPath": "data/catalogue-of-life/releases/2026-08-20/registry/manifest.json",
+    "colRegistryManifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151",
+    "colOwnershipPath": "data/registry/package-species-coverage.json",
+    "colOwnershipSha256": "a297bc8a67ce60806fdee733464a79bfcc42e255f7e59535b01f94013c19dfea"
+  },
+  "scopeAudit": {
+    "roots": [
+      {
+        "usageId": "CHN",
+        "scientificName": "Echinodermata",
+        "itisTsn": "156857",
+        "itisScientificName": "Echinodermata",
+        "itisRank": "Phylum",
+        "itisUsage": "valid"
+      }
+    ],
+    "colStrictAcceptedSpecies": 11891,
+    "colStrictAcceptedSpeciesByRoot": {
+      "Echinodermata": 11891
+    },
+    "packageStrictAcceptedSpecies": 11891,
+    "packageOutOfScopeStrictAcceptedSpecies": 0,
+    "itisCurrentSpecies": 3998,
+    "itisSpeciesSynonymLinks": 3771,
+    "maximumUpdateDates": {
+      "taxonomicUnits": "2026-08-26",
+      "synonymLinks": "2026-08-26"
+    }
+  },
+  "queries": {
+    "currentSpecies": "WITH RECURSIVE descendants(tsn) AS (\n  SELECT ?1\n  UNION ALL\n  SELECT u.tsn FROM taxonomic_units u JOIN descendants d ON u.parent_tsn = d.tsn\n  WHERE u.name_usage = 'valid'\n)\nSELECT u.tsn, l.completename AS scientific_name, u.name_usage, u.credibility_rtng,\n  u.completeness_rtng, u.currency_rating, u.update_date\nFROM descendants d\nJOIN taxonomic_units u ON u.tsn = d.tsn\nJOIN taxon_unit_types r ON r.kingdom_id = u.kingdom_id AND r.rank_id = u.rank_id\nJOIN longnames l ON l.tsn = u.tsn\nWHERE lower(trim(r.rank_name)) = 'species' AND u.name_usage = 'valid'\nORDER BY u.tsn",
+    "speciesSynonyms": "WITH RECURSIVE descendants(tsn) AS (\n  SELECT ?1\n  UNION ALL\n  SELECT u.tsn FROM taxonomic_units u JOIN descendants d ON u.parent_tsn = d.tsn\n  WHERE u.name_usage = 'valid'\n), accepted(tsn) AS (\n  SELECT u.tsn FROM descendants d\n  JOIN taxonomic_units u ON u.tsn = d.tsn\n  JOIN taxon_unit_types r ON r.kingdom_id = u.kingdom_id AND r.rank_id = u.rank_id\n  WHERE lower(trim(r.rank_name)) = 'species' AND u.name_usage = 'valid'\n)\nSELECT s.tsn AS synonym_tsn, sl.completename AS synonym_name, su.name_usage AS synonym_usage,\n  su.unaccept_reason, su.update_date AS synonym_update_date, s.tsn_accepted\nFROM synonym_links s\nJOIN accepted a ON a.tsn = s.tsn_accepted\nJOIN taxonomic_units su ON su.tsn = s.tsn\nJOIN taxon_unit_types sr ON sr.kingdom_id = su.kingdom_id AND sr.rank_id = su.rank_id\nJOIN longnames sl ON sl.tsn = su.tsn\nWHERE lower(trim(sr.rank_name)) = 'species'\nORDER BY s.tsn, s.tsn_accepted"
+  },
+  "matchingContract": {
+    "normalization": [
+      "Remove the exact trailing COL authorship field from COL scientificName when that suffix is present; no authorship parser is used.",
+      "Normalize Unicode to NFC, replace underscores with spaces, collapse Unicode whitespace and trim.",
+      "For species-rank comparison, remove one parenthesized subgenus token in the exact Genus (Subgenus) species representation; genus and specific epithet must remain unchanged.",
+      "Preserve case, diacritics, punctuation and all remaining name tokens."
+    ],
+    "statuses": {
+      "accepted": "The normalized COL name resolves to exactly one valid ITIS Echinodermata species and directly equals that current ITIS name.",
+      "synonym-current-name-redirect": "The normalized COL name equals official ITIS invalid species-name evidence that resolves to exactly one valid ITIS Echinodermata species.",
+      "ambiguous": "The normalized exact evidence resolves to more than one valid ITIS Echinodermata species TSN.",
+      "unmatched": "No normalized exact valid-name or official ITIS species-synonym evidence resolves to a valid ITIS Echinodermata species."
+    },
+    "prohibited": "No fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered or taxon-substituted matching is used."
+  },
+  "totals": {
+    "total": 11891,
+    "accepted": 3692,
+    "synonymCurrentNameRedirect": 51,
+    "ambiguous": 9,
+    "unmatched": 8139,
+    "byRoot": {
+      "Echinodermata": {
+        "total": 11891,
+        "accepted": 3692,
+        "synonymCurrentNameRedirect": 51,
+        "ambiguous": 9,
+        "unmatched": 8139
+      }
+    },
+    "itisCurrentSpecies": 3998,
+    "itisSpeciesSynonymLinks": 3771,
+    "itisUpstreamOnly": 278
+  },
+  "outputs": {
+    "descriptor": {
+      "path": "data/packages/invertebrata/echinoderms/nomenclature/itis-echinodermata-sidecar.json",
+      "bytes": 5833,
+      "sha256": "59dfb6c1d27fd0ce414d00c2000865c84d32fbd800126eadaeee8ce3ad6acf97"
+    },
+    "colUsageIdShards": [
+      {
+        "path": "data/packages/invertebrata/echinoderms/nomenclature/itis-echinodermata-sidecar-0000.jsonl.gz",
+        "records": 6051,
+        "firstColUsageId": "325L9",
+        "lastColUsageId": "6JMW6",
+        "bytes": 180166,
+        "sha256": "c9e99f25321b211b46c10ba482c8c3f899d5d7637690da1ec546d2c0af69b63b",
+        "sourceBytes": 2096596,
+        "sourceSha256": "e1ec001142043be4d237261c3402bda98b6f040382550993872abb6175bc65fe"
+      },
+      {
+        "path": "data/packages/invertebrata/echinoderms/nomenclature/itis-echinodermata-sidecar-0001.jsonl.gz",
+        "records": 5840,
+        "firstColUsageId": "6JMW7",
+        "lastColUsageId": "ZYFQ",
+        "bytes": 169435,
+        "sha256": "531b2b0eab0a280036f9396780bc36c24d5fc6960067fa04e85d1a585fce73d8",
+        "sourceBytes": 1890127,
+        "sourceSha256": "f740c16d807a7b3a1528263ff369e679364172adcc00287c0c45ea3d72df71ee"
+      }
+    ],
+    "upstreamOnly": {
+      "path": "data/packages/invertebrata/echinoderms/nomenclature/itis-echinodermata-upstream-only-0000.jsonl.gz",
+      "records": 278,
+      "firstColUsageId": null,
+      "lastColUsageId": null,
+      "bytes": 4775,
+      "sha256": "3cb33ede6b9dc6508d29f34193f6c2534dbdeda3e799aad33551e99ff33798b7",
+      "sourceBytes": 111774,
+      "sourceSha256": "9557594f1661c6a6a13776e7c1256a42818114fc2fd122838efd20973693297e",
+      "colOwnership": null,
+      "firstTsn": "156906",
+      "lastTsn": "1081160"
+    }
+  },
+  "deliveryContract": {
+    "pagesLight": "Pages may include only the descriptor and canonical file hashes; row-level JSONL gzip shards are omitted.",
+    "androidIosFull": "Android and iOS complete-data inventories must include this descriptor and every listed row-level shard byte-for-byte.",
+    "runtimeChange": "Data-only import; no runtime, version or release manifest changes."
+  },
+  "generatedBy": {
+    "scriptPath": "scripts/build-itis-echinodermata-sidecars.mjs",
+    "scriptSha256": "30218edf4c7f24ea8f7cf7b253ccf91d61556b6f15c5ebd8c0b8d6ea40be6b34",
+    "deterministic": "Pinned input checksums, fixed COL and ITIS roots, exact SQL, exact representation-only normalization, Unicode code-unit ID ordering and deterministic gzip; no wall-clock fields or fuzzy matching."
+  }
+}

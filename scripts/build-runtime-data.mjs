@@ -79,17 +79,44 @@ const entityById = new Map(entities.map((entry) => [entry.id, entry]))
 const packageForPbdbTaxon = new Map(entities.flatMap((entry) => entry.externalIds.pbdb ? [[entry.externalIds.pbdb, entry.packageId]] : []))
 const files = new Map()
 const richPackageNomenclatureSources = {
-  echinoderms: {
+  echinoderms: [{
+    kind: 'worms',
     id: 'worms-aphiaid-crosswalk',
     provider: 'WoRMS',
     sourcePath: 'data/packages/invertebrata/echinoderms/nomenclature/worms-aphiaid-sidecar.json.gz',
     runtimeName: 'worms-aphiaid-sidecar.json.gz',
     expectedCounts: { total: 11891, accepted: 11843, acceptedNameRedirect: 2, ambiguous: 37, unmatched: 0, withheld: 9 },
-  },
-  angiospermae: { kind: 'wfo', descriptorPath: 'data/packages/plantae/angiospermae/nomenclature/manifest.json' },
-  gymnosperms: { kind: 'wfo', descriptorPath: 'data/packages/plantae/gymnosperms/nomenclature/manifest.json' },
-  'early-land-plants': { kind: 'wfo', descriptorPath: 'data/packages/plantae/early-land-plants/nomenclature/manifest.json' },
-  'crocodylomorphs-birds': {
+  }, {
+    kind: 'range-sharded',
+    descriptorPath: 'data/packages/invertebrata/echinoderms/nomenclature/itis-echinodermata-sidecar.json',
+    expectedId: 'itis-echinodermata-tsn-crosswalk',
+    expectedProvider: 'Integrated Taxonomic Information System',
+    expectedLicense: 'CC0-1.0',
+    rowEncoding: 'jsonl',
+    colIdField: 'colUsageId',
+  }],
+  'molluscs-brachiopods': [{
+    kind: 'range-sharded',
+    descriptorPath: 'data/packages/invertebrata/molluscs-brachiopods/nomenclature/itis-mollusca-brachiopoda-tsn-sidecar.json',
+    expectedId: 'itis-mollusca-brachiopoda-tsn-crosswalk',
+    expectedProvider: 'Integrated Taxonomic Information System',
+    expectedLicense: 'CC0-1.0',
+    rowEncoding: 'jsonl',
+    colIdField: 'colUsageId',
+  }],
+  'sponges-cnidarians': [{
+    kind: 'range-sharded',
+    descriptorPath: 'data/packages/invertebrata/sponges-cnidarians/nomenclature/itis-porifera-cnidaria-sidecar.json',
+    expectedId: 'itis-porifera-cnidaria-tsn-crosswalk',
+    expectedProvider: 'Integrated Taxonomic Information System',
+    expectedLicense: 'CC0-1.0',
+    rowEncoding: 'jsonl',
+    colIdField: 'colUsageId',
+  }],
+  angiospermae: [{ kind: 'wfo', descriptorPath: 'data/packages/plantae/angiospermae/nomenclature/manifest.json' }],
+  gymnosperms: [{ kind: 'wfo', descriptorPath: 'data/packages/plantae/gymnosperms/nomenclature/manifest.json' }],
+  'early-land-plants': [{ kind: 'wfo', descriptorPath: 'data/packages/plantae/early-land-plants/nomenclature/manifest.json' }],
+  'crocodylomorphs-birds': [{
     kind: 'range-sharded',
     descriptorPath: 'data/packages/archosauria/crocodylomorphs-birds/nomenclature/avilist-extension.json',
     expectedId: 'avilist-v2025b-avibase-concepts',
@@ -97,8 +124,8 @@ const richPackageNomenclatureSources = {
     expectedLicense: 'CC-BY-4.0',
     rowEncoding: 'json',
     colIdField: 'colId',
-  },
-  amphibia: {
+  }],
+  amphibia: [{
     kind: 'range-sharded',
     descriptorPath: 'data/packages/vertebrata/amphibia/nomenclature/itis-tsn-sidecar.json',
     expectedId: 'itis-2026-08-26-tsn-crosswalk',
@@ -106,7 +133,7 @@ const richPackageNomenclatureSources = {
     expectedLicense: 'CC0-1.0',
     rowEncoding: 'jsonl',
     colIdField: 'colUsageId',
-  },
+  }],
 }
 
 function sha256(bytes) {
@@ -150,8 +177,12 @@ function writeGzipJson(relativePath, value) {
 }
 
 function buildRichPackageNomenclatureCollections(packageId) {
-  const definition = richPackageNomenclatureSources[packageId]
-  if (!definition) return []
+  const definitions = richPackageNomenclatureSources[packageId]
+  if (!definitions) return []
+  return definitions.flatMap((definition) => buildRichPackageNomenclatureCollection(packageId, definition))
+}
+
+function buildRichPackageNomenclatureCollection(packageId, definition) {
   if (definition.kind === 'range-sharded') {
     const descriptorBytes = readFileSync(join(rootDir, definition.descriptorPath))
     const canonicalDescriptor = JSON.parse(descriptorBytes.toString('utf8'))
@@ -294,14 +325,18 @@ function buildRichPackageNomenclatureCollections(packageId) {
   if (sha256(sourceLedger) !== sidecar.sources.worms.sourceLedgerSha256) {
     throw new Error(`${packageId}: canonical WoRMS source ledger does not match the sidecar`)
   }
-  const published = {
-    ...write(`packages/${packageId}/nomenclature/${definition.runtimeName}`, compressed),
+  const canonicalFile = {
+    bytes: compressed.byteLength,
+    sha256: sha256(compressed),
     sourceBytes: source.byteLength,
     sourceSha256: sha256(source),
     encoding: 'gzip',
     mediaType: 'application/json',
   }
-  if (published.bytes > 8 * 1024 * 1024) throw new Error(`${published.url} exceeds the 8 MiB shard hard limit`)
+  if (canonicalFile.bytes > 8 * 1024 * 1024) throw new Error(`${packageId}/${definition.id} exceeds the 8 MiB shard hard limit`)
+  const published = deliveryProfile === 'native-full'
+    ? { ...canonicalFile, ...write(`packages/${packageId}/nomenclature/${definition.runtimeName}`, compressed) }
+    : null
   return [{
     id: definition.id,
     recordType: 'external-name-identifier-crosswalk',
@@ -320,7 +355,14 @@ function buildRichPackageNomenclatureCollections(packageId) {
     matching: 'exact scientific name or explicit WoRMS accepted-name redirect; no fuzzy matching',
     counts: sidecar.counts,
     fields: ['colUsageId', 'colScientificName', 'colAuthorship', 'colSourceDatasetId', 'exactMatchName', 'requestBatch', 'aphiaRecord', 'matchedNames', 'acceptedName', 'reason'],
-    file: published,
+    ...(published ? { file: published } : {}),
+    canonicalFileInventory: [canonicalFile],
+    delivery: {
+      profile: deliveryProfile,
+      completeRows: deliveryProfile === 'native-full',
+      publishedFileCount: published ? 1 : 0,
+      canonicalFileCount: 1,
+    },
     evidenceBoundary: sidecar.evidenceBoundary,
   }]
 }

@@ -3266,6 +3266,290 @@
           "requestPolicy": "Select the sole inclusive COL-ID range and read at most one COL partition; upstream-only files are never selected by COL ID."
         }
       }
+    },
+    {
+      "id": "itis-nematoda-tsn-crosswalk",
+      "recordType": "release-pinned-exact-nomenclatural-crosswalk",
+      "provider": "Integrated Taxonomic Information System",
+      "source": {
+        "datasetId": "itis-2026-08-26",
+        "exportDate": "2026-08-26",
+        "rootTsn": "59490",
+        "license": "CC0-1.0",
+        "citationDoi": "10.5066/F7KH0KBK",
+        "canonicalDescriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals/itis-nematoda-sidecar.json",
+        "canonicalDescriptorBytes": 5965,
+        "canonicalDescriptorSha256": "cc560671a8f2219c44ee61018964c85e6f131a930c1689def072f1738cf1374a"
+      },
+      "scope": {
+        "colRootUsageId": "NM",
+        "colRootScientificName": "Nematoda",
+        "colStrictAcceptedSpecies": 19604,
+        "packageStrictAcceptedSpecies": 99161,
+        "packageOutOfScopeStrictAcceptedSpecies": 79557,
+        "boundary": "other-animals is the deterministic Animalia remainder after every more-specific static-package route. This sidecar covers only strict accepted COL26.8 species descending from the exact Nematoda root NM; every other other-animals-owned species is explicitly non-applicable."
+      },
+      "matching": {
+        "normalization": [
+          "Remove the exact trailing COL authorship field from COL scientificName when that suffix is present; no authorship parser is used.",
+          "Normalize Unicode to NFC, replace underscores with spaces, collapse Unicode whitespace and trim.",
+          "For species-rank comparison, remove one parenthesized subgenus token in the exact Genus (Subgenus) species representation; genus and specific epithet must remain unchanged.",
+          "Preserve case, diacritics, punctuation and all remaining name tokens."
+        ],
+        "statuses": {
+          "accepted": "The normalized COL name resolves to exactly one valid ITIS Nematoda species and directly equals that current ITIS name.",
+          "synonym-current-name-redirect": "The normalized COL name equals official ITIS invalid species-name evidence that resolves to exactly one valid ITIS Nematoda species.",
+          "ambiguous": "The normalized exact evidence resolves to more than one valid ITIS Nematoda species TSN.",
+          "unmatched": "No normalized exact valid-name or official ITIS species-synonym evidence resolves to a valid ITIS Nematoda species."
+        },
+        "prohibited": "No fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered or taxon-substituted matching is used."
+      },
+      "evidenceBoundary": {
+        "en": "This CC0 ITIS sidecar is a frozen exact nomenclatural crosswalk, not a global nematode checklist, final classification authority, phylogeny, species-concept equivalence assertion, biological dossier or scientific-review record.",
+        "zh": "此 CC0 ITIS 侧车是冻结的严格命名交叉映射；它不是全球线虫名录、最终分类权威、系统发育树、物种概念等同性声明、生物档案或科学审查记录。"
+      },
+      "counts": {
+        "eligible": 19604,
+        "records": 20849,
+        "accepted": 1899,
+        "redirects": 36,
+        "ambiguous": 1,
+        "unmatched": 17668,
+        "withheld": 0,
+        "upstreamOnly": 1245,
+        "nonApplicable": 79557
+      },
+      "files": [
+        {
+          "path": "other-animals/itis-nematoda-sidecar-0000.jsonl.gz",
+          "records": 8818,
+          "bytes": 234703,
+          "sourceBytes": 2097029,
+          "sha256": "a84f5ef4b71b345ac87b8407ada9e5969037a741c0947bba0523c1ff328a8025",
+          "sourceSha256": "1a65ae51503119eea2a73b6b8bba3afb7cd6c3279b43175a2a01be2cd28aca20",
+          "encoding": "gzip",
+          "mediaType": "application/x-ndjson",
+          "minColId": "87LKG",
+          "maxColId": "8GL3K",
+          "role": "col-partition"
+        },
+        {
+          "path": "other-animals/itis-nematoda-sidecar-0001.jsonl.gz",
+          "records": 10083,
+          "bytes": 297697,
+          "sourceBytes": 2096835,
+          "sha256": "1e14e4d71f43db6cb58bd7959139da38897baa45a2bbaeaec7551ab5b8c94610",
+          "sourceSha256": "6a03352674f24984d8c65f03bf9f014d1ca646be71e46e1f260cf9597e137220",
+          "encoding": "gzip",
+          "mediaType": "application/x-ndjson",
+          "minColId": "8GL3L",
+          "maxColId": "CVYT6",
+          "role": "col-partition"
+        },
+        {
+          "path": "other-animals/itis-nematoda-sidecar-0002.jsonl.gz",
+          "records": 703,
+          "bytes": 20942,
+          "sourceBytes": 148924,
+          "sha256": "cc7c3282b46c37046da543177f771a7b3ae12f0c5a703b33270627923b3738bd",
+          "sourceSha256": "fa07853d3e287c2739b28e73f90cd0692a84425a82d220e52b4224bb917eae7a",
+          "encoding": "gzip",
+          "mediaType": "application/x-ndjson",
+          "minColId": "CVYT7",
+          "maxColId": "VQ9VL",
+          "role": "col-partition"
+        },
+        {
+          "path": "other-animals/itis-nematoda-upstream-only-0000.jsonl.gz",
+          "records": 1245,
+          "bytes": 16702,
+          "sourceBytes": 461513,
+          "sha256": "124d83c477bdc8cf04cfc7a179a4247509d858f035e2ce5d3861cfdf920b4cd1",
+          "sourceSha256": "322cfb3a01c6475626294df2791c660cfd98807616f61d8731aae5e08c5a13dd",
+          "encoding": "gzip",
+          "mediaType": "application/x-ndjson",
+          "colOwnership": null,
+          "role": "upstream-only"
+        }
+      ],
+      "totalCompressedBytes": 570044,
+      "totalSourceBytes": 4804301,
+      "deliveryProfiles": {
+        "web-light": {
+          "payload": "summary-only",
+          "files": [],
+          "records": 0,
+          "totalCompressedBytes": 0,
+          "totalSourceBytes": 0,
+          "statement": "GitHub Pages publishes the complete Nematoda ITIS summary and canonical hashes without row shards."
+        },
+        "native-full": {
+          "payload": "complete",
+          "files": [
+            "other-animals/itis-nematoda-sidecar-0000.jsonl.gz",
+            "other-animals/itis-nematoda-sidecar-0001.jsonl.gz",
+            "other-animals/itis-nematoda-sidecar-0002.jsonl.gz",
+            "other-animals/itis-nematoda-upstream-only-0000.jsonl.gz"
+          ],
+          "records": 20849,
+          "totalCompressedBytes": 570044,
+          "totalSourceBytes": 4804301
+        }
+      },
+      "limitations": [
+        "This CC0 ITIS sidecar is a frozen exact nomenclatural crosswalk, not a global nematode checklist, final classification authority, phylogeny, species-concept equivalence assertion, biological dossier or scientific-review record.",
+        "No fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered or taxon-substituted matching is used."
+      ],
+      "integration": {
+        "clientParityRequirement": "Android and iOS must copy every native-full file byte-for-byte; Web uses the web-light summary profile.",
+        "lookup": {
+          "strategy": "lexicographic-colId-range-v1",
+          "ordering": "Unicode code-unit ascending",
+          "requestPolicy": "Select the sole inclusive COL-ID range and read at most one COL partition; upstream-only files are never selected by COL ID."
+        }
+      }
+    },
+    {
+      "id": "itis-annelida-tsn-crosswalk",
+      "recordType": "release-pinned-exact-nomenclatural-crosswalk",
+      "provider": "Integrated Taxonomic Information System",
+      "source": {
+        "datasetId": "itis-2026-08-26",
+        "exportDate": "2026-08-26",
+        "rootTsn": "64357",
+        "license": "CC0-1.0",
+        "citationDoi": "10.5066/F7KH0KBK",
+        "canonicalDescriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals/itis-annelida-sidecar.json",
+        "canonicalDescriptorBytes": 7313,
+        "canonicalDescriptorSha256": "a9097d5a87e90af58adf0d4381a893e5bc6ba6114f36e74cbc32b14302774ba2"
+      },
+      "scope": {
+        "colRootUsageId": "NN",
+        "colRootScientificName": "Annelida",
+        "colStrictAcceptedSpecies": 18982,
+        "packageStrictAcceptedSpecies": 99161,
+        "packageOutOfScopeStrictAcceptedSpecies": 80179,
+        "boundary": "other-animals is the deterministic Animalia remainder after more-specific static-package routes. This sidecar covers only strict accepted COL26.8 species descending from exact Annelida root NN; every other other-animals-owned species is explicitly outside this sidecar."
+      },
+      "matching": {
+        "normalization": [
+          "Remove the exact trailing COL authorship field from COL scientificName when that suffix is present; no authorship parser is used.",
+          "Normalize Unicode to NFC, replace underscores with spaces, collapse Unicode whitespace and trim.",
+          "For species-rank comparison, remove one parenthesized subgenus token in the exact Genus (Subgenus) species representation; genus and specific epithet must remain unchanged.",
+          "Preserve case, diacritics, punctuation and all remaining name tokens."
+        ],
+        "statuses": {
+          "accepted": "The normalized COL name resolves to exactly one valid ITIS Annelida species and directly equals that current ITIS name.",
+          "synonym-current-name-redirect": "The normalized COL name equals official ITIS invalid species-name evidence that resolves to exactly one valid ITIS Annelida species.",
+          "ambiguous": "The normalized exact evidence resolves to more than one valid ITIS Annelida species TSN.",
+          "unmatched": "No normalized exact valid-name or official ITIS species-synonym evidence resolves to a valid ITIS Annelida species."
+        },
+        "prohibited": "No fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered or taxon-substituted matching is used."
+      },
+      "evidenceBoundary": {
+        "en": "This CC0 ITIS sidecar is a frozen exact nomenclatural crosswalk for the declared Annelida partition inside the mixed Other Animals resource pack. It is not a global annelid checklist, final classification authority, phylogeny, species-concept equivalence assertion, biological dossier or scientific-review record.",
+        "zh": "此 CC0 ITIS 侧车是混合“其他动物”资源包中所声明环节动物分区的冻结严格命名交叉映射；它不是全球环节动物名录、最终分类权威、系统发育树、物种概念等同性声明、生物档案或科学审查记录。"
+      },
+      "counts": {
+        "eligible": 18982,
+        "records": 24074,
+        "accepted": 4301,
+        "redirects": 122,
+        "ambiguous": 1,
+        "unmatched": 14558,
+        "withheld": 0,
+        "upstreamOnly": 5092,
+        "nonApplicable": 80179
+      },
+      "files": [
+        {
+          "path": "other-animals/itis-annelida-sidecar-0000.jsonl.gz",
+          "records": 9143,
+          "bytes": 258111,
+          "sourceBytes": 2096870,
+          "sha256": "69ae3a940605ae6e3303c5fdae617c29f0122db31fa9fdaf749293892b4c7f7e",
+          "sourceSha256": "c7e172f7e971ba02c1e4e337a9664e4693062d9ceba194dca6bacf5633fbcd28",
+          "encoding": "gzip",
+          "mediaType": "application/x-ndjson",
+          "minColId": "325RW",
+          "maxColId": "6R27D",
+          "role": "col-partition"
+        },
+        {
+          "path": "other-animals/itis-annelida-sidecar-0001.jsonl.gz",
+          "records": 8796,
+          "bytes": 248166,
+          "sourceBytes": 2097093,
+          "sha256": "3f8586cf9c094d7a94808ff387f18d8d94f0f70830245b9af11c49cd6377cd56",
+          "sourceSha256": "4fc8d04172762e7d78508185bae3f49dd7b1bedeb7f615a790b8fe0b4e46a176",
+          "encoding": "gzip",
+          "mediaType": "application/x-ndjson",
+          "minColId": "6R27F",
+          "maxColId": "N6T2",
+          "role": "col-partition"
+        },
+        {
+          "path": "other-animals/itis-annelida-sidecar-0002.jsonl.gz",
+          "records": 1043,
+          "bytes": 32512,
+          "sourceBytes": 256053,
+          "sha256": "95bbfb6541e890787e426f808fccfb970af4188a45f0ce69dc31c0b9367241fd",
+          "sourceSha256": "605ffed983cbb1b4bef1c4b276079135ef7734878cb18158d3d73ca8412c98a4",
+          "encoding": "gzip",
+          "mediaType": "application/x-ndjson",
+          "minColId": "N6T3",
+          "maxColId": "ZYBG",
+          "role": "col-partition"
+        },
+        {
+          "path": "other-animals/itis-annelida-upstream-only-0000.jsonl.gz",
+          "records": 5092,
+          "bytes": 59289,
+          "sourceBytes": 1830923,
+          "sha256": "46a565da84738d4e96f1ea107d1f8910c2ba61f7117faf40a9bb3a614ca91ed9",
+          "sourceSha256": "4eb07c896bb97b5ef4824d0945b448f752832910929536acd8366c03e8c5bea4",
+          "encoding": "gzip",
+          "mediaType": "application/x-ndjson",
+          "colOwnership": null,
+          "role": "upstream-only"
+        }
+      ],
+      "totalCompressedBytes": 598078,
+      "totalSourceBytes": 6280939,
+      "deliveryProfiles": {
+        "web-light": {
+          "payload": "summary-only",
+          "files": [],
+          "records": 0,
+          "totalCompressedBytes": 0,
+          "totalSourceBytes": 0,
+          "statement": "GitHub Pages publishes the complete Annelida ITIS summary and canonical hashes without row shards."
+        },
+        "native-full": {
+          "payload": "complete",
+          "files": [
+            "other-animals/itis-annelida-sidecar-0000.jsonl.gz",
+            "other-animals/itis-annelida-sidecar-0001.jsonl.gz",
+            "other-animals/itis-annelida-sidecar-0002.jsonl.gz",
+            "other-animals/itis-annelida-upstream-only-0000.jsonl.gz"
+          ],
+          "records": 24074,
+          "totalCompressedBytes": 598078,
+          "totalSourceBytes": 6280939
+        }
+      },
+      "limitations": [
+        "This CC0 ITIS sidecar is a frozen exact nomenclatural crosswalk for the declared Annelida partition inside the mixed Other Animals resource pack. It is not a global annelid checklist, final classification authority, phylogeny, species-concept equivalence assertion, biological dossier or scientific-review record.",
+        "No fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered or taxon-substituted matching is used."
+      ],
+      "integration": {
+        "clientParityRequirement": "Android and iOS must copy every native-full file byte-for-byte; Web uses the web-light summary profile.",
+        "lookup": {
+          "strategy": "lexicographic-colId-range-v1",
+          "ordering": "Unicode code-unit ascending",
+          "requestPolicy": "Select the sole inclusive COL-ID range and read at most one COL partition; upstream-only files are never selected by COL ID."
+        }
+      }
     }
   ]
 }

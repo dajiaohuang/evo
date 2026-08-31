@@ -146,9 +146,9 @@ describe('COL26.8 static nomenclatural resource packs', () => {
     }
   })
 
-  it('publishes the complete Phoronida ITIS summary and native-full files', () => {
+  it('publishes every Other Animals ITIS summary and native-full file inventory', () => {
     const descriptor = collection.packs.find((pack) => pack.packageId === 'other-animals')
-    expect(descriptor).toMatchObject({ acceptedSpeciesCount: 99161, fileCount: 4, extensionCount: 26, extensionFileCount: 62 })
+    expect(descriptor).toMatchObject({ acceptedSpeciesCount: 99161, fileCount: 4, extensionCount: 28, extensionFileCount: 70 })
     const manifest = JSON.parse(readFileSync(join(resourcePacksRoot, descriptor.manifestPath), 'utf8'))
     const extension = manifest.extensions.find((candidate) => candidate.id === 'itis-phoronida-tsn-crosswalk')
     expect(extension).toMatchObject({
@@ -161,5 +161,20 @@ describe('COL26.8 static nomenclatural resource packs', () => {
     })
     expect(extension.files).toHaveLength(1)
     expect(extension.files[0]).toMatchObject({ path: 'other-animals/itis-phoronida-sidecar-0000.jsonl.gz', records: 19, minColId: '4GRZF', maxColId: '65364', role: 'col-partition' })
+
+    expect(manifest.extensions.find((candidate) => candidate.id === 'itis-nematoda-tsn-crosswalk')).toMatchObject({
+      counts: { eligible: 19604, records: 20849, accepted: 1899, redirects: 36, ambiguous: 1, unmatched: 17668, upstreamOnly: 1245, nonApplicable: 79557 },
+      deliveryProfiles: {
+        'web-light': { payload: 'summary-only', files: [], records: 0 },
+        'native-full': { payload: 'complete', records: 20849 },
+      },
+    })
+    expect(manifest.extensions.find((candidate) => candidate.id === 'itis-annelida-tsn-crosswalk')).toMatchObject({
+      counts: { eligible: 18982, records: 24074, accepted: 4301, redirects: 122, ambiguous: 1, unmatched: 14558, upstreamOnly: 5092, nonApplicable: 80179 },
+      deliveryProfiles: {
+        'web-light': { payload: 'summary-only', files: [], records: 0 },
+        'native-full': { payload: 'complete', records: 24074 },
+      },
+    })
   })
 })

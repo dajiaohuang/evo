@@ -6,7 +6,7 @@ const RUNTIME_CACHE_PREFIX = 'evo-runtime-data-'
 
 function nomenclatureFiles(collection: import('./types').RuntimePackageNomenclatureCollection) {
   return [
-    ...('files' in collection ? collection.files : [collection.file]),
+    ...('files' in collection ? collection.files : (collection.file ? [collection.file] : [])),
     ...('upstreamOnlyFiles' in collection ? collection.upstreamOnlyFiles : []),
   ]
 }

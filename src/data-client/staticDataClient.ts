@@ -284,6 +284,9 @@ export async function loadPackageNomenclatureCollection(
   const collection = manifest.nomenclatureCollections?.find((candidate) => candidate.id === collectionId)
   if (!collection) throw new Error(`Runtime package ${packageId} does not publish nomenclature collection ${collectionId}`)
   if (collection.id !== 'worms-aphiaid-crosswalk') throw new Error(`${collectionId} is not a JSON sidecar collection`)
+  if (!collection.file || (collection.delivery && (!collection.delivery.completeRows || collection.delivery.profile !== 'native-full'))) {
+    throw new Error('WoRMS row-level records are available in the full Android/iOS data profile; Web publishes the verified coverage summary only')
+  }
   const sidecar = await loadRuntimeFile<import('./types').RuntimeNomenclaturalSidecar>(collection.file)
   const categories = ['accepted', 'acceptedNameRedirect', 'ambiguous', 'unmatched', 'withheld'] as const
   const categorizedTotal = categories.reduce((sum, key) => sum + (sidecar.records[key]?.length ?? 0), 0)
@@ -370,13 +373,17 @@ export async function loadPackageAviListBirdRecord(colId: string): Promise<{
   return { collection, record: records.find((record) => record.colId === colId) ?? null }
 }
 
-export async function loadPackageItisRecord(packageId: string, colUsageId: string): Promise<{
+async function loadIndexedPackageItisRecord(
+  packageId: string,
+  collectionId: import('./types').RuntimeItisNomenclatureCollectionId,
+  colUsageId: string,
+): Promise<{
   collection: import('./types').RuntimeItisNomenclatureCollection
   record: import('./types').ItisNomenclatureRecord | null
 }> {
   const manifest = await loadPackageManifest(packageId)
   const collection = manifest.nomenclatureCollections?.find((candidate): candidate is import('./types').RuntimeItisNomenclatureCollection => (
-    candidate.id === 'itis-2026-08-26-tsn-crosswalk'
+    candidate.id === collectionId
     && candidate.provider === 'Integrated Taxonomic Information System'
   ))
   if (!collection || collection.packageId !== packageId) {
@@ -392,6 +399,57 @@ export async function loadPackageItisRecord(packageId: string, colUsageId: strin
     throw new Error('ITIS COL shard contents do not match its range descriptor')
   }
   return { collection, record: records.find((record) => record.colUsageId === colUsageId) ?? null }
+}
+
+export async function loadPackageItisRecord(
+  packageId: string,
+  colUsageId: string,
+  collectionId: import('./types').RuntimeItisNomenclatureCollectionId = 'itis-2026-08-26-tsn-crosswalk',
+): Promise<{
+  collection: import('./types').RuntimeItisNomenclatureCollection
+  record: import('./types').ItisNomenclatureRecord | null
+}> {
+  return loadIndexedPackageItisRecord(packageId, collectionId, colUsageId)
+}
+
+const packageItisContracts: Record<import('./types').RuntimeItisPackageScope, {
+  packageId: 'other-animals' | 'molluscs-brachiopods' | 'sponges-cnidarians' | 'echinoderms'
+  collectionId: import('./types').RuntimeItisNomenclatureCollectionId
+  total: number
+  accepted: number
+  redirects: number
+  ambiguous: number
+  unmatched: number
+  upstreamOnly: number
+  canonicalFileCount: number
+}> = {
+  'mollusca-brachiopoda': { packageId: 'molluscs-brachiopods', collectionId: 'itis-mollusca-brachiopoda-tsn-crosswalk', total: 159794, accepted: 7212, redirects: 256, ambiguous: 16, unmatched: 152310, upstreamOnly: 4289, canonicalFileCount: 60 },
+  'porifera-cnidaria': { packageId: 'sponges-cnidarians', collectionId: 'itis-porifera-cnidaria-tsn-crosswalk', total: 30521, accepted: 4242, redirects: 50, ambiguous: 3, unmatched: 26226, upstreamOnly: 2218, canonicalFileCount: 6 },
+  echinodermata: { packageId: 'echinoderms', collectionId: 'itis-echinodermata-tsn-crosswalk', total: 11891, accepted: 3692, redirects: 51, ambiguous: 9, unmatched: 8139, upstreamOnly: 278, canonicalFileCount: 3 },
+}
+
+export async function loadPackageItisAuthorityRecord(
+  scope: import('./types').RuntimeItisPackageScope,
+  colUsageId: string,
+): Promise<{
+  collection: import('./types').RuntimeItisNomenclatureCollection
+  record: import('./types').ItisNomenclatureRecord | null
+}> {
+  const expected = packageItisContracts[scope]
+  const result = await loadIndexedPackageItisRecord(expected.packageId, expected.collectionId, colUsageId)
+  const { collection } = result
+  if (collection.packageId !== expected.packageId
+    || collection.counts.total !== expected.total
+    || collection.counts.accepted !== expected.accepted
+    || collection.counts.synonymCurrentNameRedirect !== expected.redirects
+    || collection.counts.ambiguous !== expected.ambiguous
+    || collection.counts.unmatched !== expected.unmatched
+    || collection.counts.itisUpstreamOnly !== expected.upstreamOnly
+    || collection.delivery.canonicalFileCount !== expected.canonicalFileCount
+    || collection.canonicalFileInventory.length !== expected.canonicalFileCount) {
+    throw new Error(`ITIS ${scope} authority collection does not match its pinned runtime contract`)
+  }
+  return result
 }
 
 export async function loadPackageForEntity(entityId: string): Promise<RuntimePackageManifest | null> {
@@ -691,6 +749,8 @@ const itisOtherAnimalsContracts: Record<import('./types').CatalogueItisOtherAnim
   nonApplicable: number
   canonicalFileCount: number
 }> = {
+  nematoda: { eligible: 19604, accepted: 1899, redirects: 36, ambiguous: 1, unmatched: 17668, upstreamOnly: 1245, nonApplicable: 79557, canonicalFileCount: 4 },
+  annelida: { eligible: 18982, accepted: 4301, redirects: 122, ambiguous: 1, unmatched: 14558, upstreamOnly: 5092, nonApplicable: 80179, canonicalFileCount: 4 },
   platyhelminthes: { eligible: 27007, accepted: 7393, redirects: 239, ambiguous: 23, unmatched: 19352, upstreamOnly: 1245, nonApplicable: 72154, canonicalFileCount: 15 },
   rotifera: { eligible: 2467, accepted: 701, redirects: 4, ambiguous: 0, unmatched: 1762, upstreamOnly: 195, nonApplicable: 96694, canonicalFileCount: 3 },
   bryozoa: { eligible: 20367, accepted: 655, redirects: 15, ambiguous: 0, unmatched: 19697, upstreamOnly: 387, nonApplicable: 78794, canonicalFileCount: 3 },

@@ -115,7 +115,14 @@ export interface RuntimeWormsNomenclatureCollection {
     withheld: number
   }
   fields: string[]
-  file: RuntimeFile
+  file?: RuntimeFile
+  canonicalFileInventory: Array<Omit<RuntimeFile, 'url'>>
+  delivery: {
+    profile: 'web-light' | 'native-full'
+    completeRows: boolean
+    publishedFileCount: number
+    canonicalFileCount: 1
+  }
   evidenceBoundary: { en: string; zh: string }
 }
 
@@ -271,9 +278,22 @@ export interface ItisNomenclatureRecord {
   candidates?: Array<{ tsn: string; scientificName: string }>
 }
 
+export type RuntimeItisNomenclatureCollectionId =
+  | 'itis-2026-08-26-tsn-crosswalk'
+  | 'itis-nematoda-tsn-crosswalk'
+  | 'itis-annelida-tsn-crosswalk'
+  | 'itis-mollusca-brachiopoda-tsn-crosswalk'
+  | 'itis-porifera-cnidaria-tsn-crosswalk'
+  | 'itis-echinodermata-tsn-crosswalk'
+
+export type RuntimeItisPackageScope =
+  | 'mollusca-brachiopoda'
+  | 'porifera-cnidaria'
+  | 'echinodermata'
+
 export interface RuntimeItisNomenclatureCollection {
   schemaVersion: 1
-  id: 'itis-2026-08-26-tsn-crosswalk'
+  id: RuntimeItisNomenclatureCollectionId
   recordType: 'release-pinned-exact-nomenclatural-crosswalk'
   provider: 'Integrated Taxonomic Information System'
   packageId: string
@@ -285,8 +305,10 @@ export interface RuntimeItisNomenclatureCollection {
     synonymCurrentNameRedirect: number
     ambiguous: number
     unmatched: number
-    itisCurrentSpecies: number
-    itisSpeciesSynonymLinks: number
+    itisCurrentSpecies?: number
+    itisSpeciesSynonymLinks?: number
+    itisApplicableCurrentSpecies?: number
+    itisApplicableSpeciesSynonymLinks?: number
     itisUpstreamOnly: number
   }
   files: CatalogueResourcePackPayloadFile[]
@@ -975,6 +997,8 @@ export interface CatalogueForaminiferaResourcePackExtension {
 }
 
 export type CatalogueItisOtherAnimalsScope =
+  | 'nematoda'
+  | 'annelida'
   | 'platyhelminthes'
   | 'rotifera'
   | 'bryozoa'

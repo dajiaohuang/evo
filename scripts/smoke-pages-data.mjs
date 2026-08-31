@@ -18,6 +18,26 @@ const checkFile = (file, label) => {
   if (!file?.url || !existsSync(join(dataRoot, file.url))) failures.push(`${label}: missing ${file?.url ?? 'URL'}`)
   else if (file.sha256 && checksum(file.url) !== file.sha256) failures.push(`${label}: checksum mismatch for ${file.url}`)
 }
+const checkItisSummaryOnlyCollection = (packageId, collections, expected) => {
+  const collection = collections.find((candidate) => candidate.id === expected.id)
+  if (!collection || collection.provider !== 'Integrated Taxonomic Information System'
+    || collection.recordType !== 'release-pinned-exact-nomenclatural-crosswalk'
+    || collection.source?.license !== 'CC0-1.0'
+    || collection.counts?.total !== expected.total
+    || collection.counts?.accepted !== expected.accepted
+    || collection.counts?.synonymCurrentNameRedirect !== expected.redirects
+    || collection.counts?.ambiguous !== expected.ambiguous
+    || collection.counts?.unmatched !== expected.unmatched
+    || collection.counts?.itisUpstreamOnly !== expected.upstreamOnly) {
+    failures.push(`${packageId}: ${expected.id} ITIS nomenclature summary is incomplete`)
+  } else if (collection.delivery?.profile !== 'web-light' || collection.delivery?.completeRows !== false
+    || collection.delivery?.publishedFileCount !== 0 || collection.delivery?.canonicalFileCount !== expected.files
+    || collection.files?.length !== 0 || collection.upstreamOnlyFiles?.length !== 0
+    || collection.canonicalFileInventory?.length !== expected.files
+    || collection.canonicalFileInventory.some((file) => !file.path || file.sha256?.length !== 64 || file.sourceSha256?.length !== 64)) {
+    failures.push(`${packageId}: Pages must publish the ${expected.id} ITIS summary without full row shards`)
+  }
+}
 
 if (!existsSync(join(dataRoot, 'current.json'))) {
   console.error('Pages smoke failed: dist/data/current.json is missing.')
@@ -62,7 +82,6 @@ let researchExampleCount = 0
 let researchClaimLinkCount = 0
 let researchExampleAvailableCount = 0
 let packagePhylogenyCount = 0
-let wormsNomenclatureRecords = 0
 let wfoRichRecords = 0
 for (const packageEntry of packageRegistry.packages) {
   const manifestFile = current.packages.manifests[packageEntry.id]
@@ -108,29 +127,33 @@ for (const packageEntry of packageRegistry.packages) {
   let wormsCollection = null
   if (packageEntry.id === 'echinoderms') {
     wormsCollection = nomenclatureCollections.find((collection) => collection.id === 'worms-aphiaid-crosswalk')
-    if (nomenclatureCollections.length !== 1 || !wormsCollection || wormsCollection.provider !== 'WoRMS'
+    if (nomenclatureCollections.length !== 2 || !wormsCollection || wormsCollection.provider !== 'WoRMS'
       || wormsCollection.recordType !== 'external-name-identifier-crosswalk'
       || wormsCollection.snapshotBoundary !== 'date-pinned-continuously-updated-service'
-      || wormsCollection.source?.license !== 'CC-BY-4.0') {
+      || wormsCollection.source?.license !== 'CC-BY-4.0'
+      || wormsCollection.counts?.total !== 11891 || wormsCollection.counts?.accepted !== 11843
+      || wormsCollection.counts?.acceptedNameRedirect !== 2 || wormsCollection.counts?.ambiguous !== 37
+      || wormsCollection.counts?.unmatched !== 0 || wormsCollection.counts?.withheld !== 9) {
       failures.push('echinoderms: WoRMS nomenclature collection descriptor is incomplete')
-    } else {
-      const file = wormsCollection.file
-      releaseUrl(file, 'echinoderms WoRMS nomenclature collection')
-      checkFile(file, 'echinoderms WoRMS nomenclature collection')
-      if (!currentReleaseUrls.has(file.url)) failures.push('echinoderms: WoRMS collection is absent from the current release inventory')
-      const compressed = readFileSync(join(dataRoot, file.url))
-      const source = gunzipSync(compressed)
-      const sidecar = JSON.parse(source.toString('utf8'))
-      const categories = ['accepted', 'acceptedNameRedirect', 'ambiguous', 'unmatched', 'withheld']
-      if (file.bytes !== compressed.byteLength || file.sourceBytes !== source.byteLength
-        || file.sourceSha256 !== createHash('sha256').update(source).digest('hex')
-        || sidecar.packageId !== 'echinoderms' || sidecar.sidecarType !== 'date-pinned-exact-nomenclatural-crosswalk'
-        || categories.some((key) => sidecar.records?.[key]?.length !== wormsCollection.counts?.[key])
-        || categories.reduce((sum, key) => sum + sidecar.records[key].length, 0) !== wormsCollection.counts.total) {
-        failures.push('echinoderms: WoRMS sidecar bytes, identity or status counts disagree with its descriptor')
-      }
-      wormsNomenclatureRecords += sidecar.counts.total
+    } else if (wormsCollection.delivery?.profile !== 'web-light' || wormsCollection.delivery?.completeRows !== false
+      || wormsCollection.delivery?.publishedFileCount !== 0 || wormsCollection.delivery?.canonicalFileCount !== 1
+      || wormsCollection.file || wormsCollection.canonicalFileInventory?.length !== 1
+      || wormsCollection.canonicalFileInventory.some((file) => file.sha256?.length !== 64 || file.sourceSha256?.length !== 64)) {
+      failures.push('echinoderms: Pages must publish the WoRMS summary without the row-level sidecar')
     }
+    checkItisSummaryOnlyCollection('echinoderms', nomenclatureCollections, {
+      id: 'itis-echinodermata-tsn-crosswalk', total: 11891, accepted: 3692, redirects: 51, ambiguous: 9, unmatched: 8139, upstreamOnly: 278, files: 3,
+    })
+  } else if (packageEntry.id === 'molluscs-brachiopods') {
+    if (nomenclatureCollections.length !== 1) failures.push('molluscs-brachiopods: expected one ITIS nomenclature collection')
+    checkItisSummaryOnlyCollection('molluscs-brachiopods', nomenclatureCollections, {
+      id: 'itis-mollusca-brachiopoda-tsn-crosswalk', total: 159794, accepted: 7212, redirects: 256, ambiguous: 16, unmatched: 152310, upstreamOnly: 4289, files: 60,
+    })
+  } else if (packageEntry.id === 'sponges-cnidarians') {
+    if (nomenclatureCollections.length !== 1) failures.push('sponges-cnidarians: expected one ITIS nomenclature collection')
+    checkItisSummaryOnlyCollection('sponges-cnidarians', nomenclatureCollections, {
+      id: 'itis-porifera-cnidaria-tsn-crosswalk', total: 30521, accepted: 4242, redirects: 50, ambiguous: 3, unmatched: 26226, upstreamOnly: 2218, files: 6,
+    })
   } else if (['angiospermae', 'gymnosperms', 'early-land-plants'].includes(packageEntry.id)) {
     const wfo = nomenclatureCollections.find((collection) => collection.id === 'wfo-plant-list-crosswalk')
     if (nomenclatureCollections.length !== 1 || !wfo || wfo.provider !== 'World Flora Online Plant List'
@@ -198,7 +221,6 @@ for (const packageEntry of packageRegistry.packages) {
 }
 if (researchExampleCount !== 24 || researchExampleAvailableCount !== 24 || researchClaimLinkCount !== 34) failures.push(`research preset totals are ${researchExampleCount} examples, ${researchExampleAvailableCount} available-with-limitations and ${researchClaimLinkCount} claim links; expected 24/24/34`)
 if (packagePhylogenyCount !== 2) failures.push(`package phylogeny runtime count is ${packagePhylogenyCount}; expected 2 available and 22 unmapped`)
-if (wormsNomenclatureRecords !== 11891) failures.push(`WoRMS nomenclature collection contains ${wormsNomenclatureRecords} records; expected 11,891`)
 if (wfoRichRecords !== 387988) failures.push(`WFO rich-package collections contain ${wfoRichRecords} records; expected 387,988`)
 
 releaseUrl(current.occurrences.manifest, 'occurrence manifest')
@@ -651,9 +673,11 @@ if (catalogue.resourcePacks?.packageCount !== 7
         'itis-xenacoelomorpha-tsn-crosswalk': { eligible: 441, records: 499, accepted: 370, redirects: 6, ambiguous: 1, unmatched: 64, upstreamOnly: 58, nonApplicable: 98720, files: 2 },
         'itis-orthonectida-tsn-crosswalk': { eligible: 24, records: 27, accepted: 22, redirects: 0, ambiguous: 0, unmatched: 2, upstreamOnly: 3, nonApplicable: 99137, files: 2 },
         'itis-dicyemida-tsn-crosswalk': { eligible: 119, records: 126, accepted: 85, redirects: 0, ambiguous: 0, unmatched: 34, upstreamOnly: 7, nonApplicable: 99042, files: 2 },
+        'itis-nematoda-tsn-crosswalk': { eligible: 19604, records: 20849, accepted: 1899, redirects: 36, ambiguous: 1, unmatched: 17668, upstreamOnly: 1245, nonApplicable: 79557, files: 4 },
+        'itis-annelida-tsn-crosswalk': { eligible: 18982, records: 24074, accepted: 4301, redirects: 122, ambiguous: 1, unmatched: 14558, upstreamOnly: 5092, nonApplicable: 80179, files: 4 },
       }
-      if (extensions.length !== 26 || manifestFile.extensionFileCount !== 0 || manifestFile.canonicalExtensionFileCount !== 62) {
-        failures.push('other-animals: Pages must publish 26 ITIS authority summaries and no row shards')
+      if (extensions.length !== 28 || manifestFile.extensionFileCount !== 0 || manifestFile.canonicalExtensionFileCount !== 70) {
+        failures.push('other-animals: Pages must publish 28 ITIS authority summaries and no row shards')
       }
       for (const [id, counts] of Object.entries(expected)) {
         const authority = extensions.find((candidate) => candidate.id === id)

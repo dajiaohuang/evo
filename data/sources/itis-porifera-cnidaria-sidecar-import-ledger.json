@@ -1,0 +1,174 @@
+{
+  "schemaVersion": 1,
+  "importType": "COL26.8-to-ITIS-exact-porifera-cnidaria-nomenclatural-sidecar",
+  "generatedFrom": {
+    "sourcePath": "data/sources/itis-2026-08-26.json",
+    "sourceSha256": "38a7a55b4e98cafc66790e47f6bd637e298e23fd691e4771c755b38e4a02d7fc",
+    "itisDatabaseMember": "itisSqlite082626/ITIS.sqlite",
+    "itisDatabaseSha256": "ea7304536cfd7b1e2636d383911ca7931fc83d9ab1194ca2a3c020ea2daf1719",
+    "colRegistryManifestPath": "data/catalogue-of-life/releases/2026-08-20/registry/manifest.json",
+    "colRegistryManifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151",
+    "colOwnershipPath": "data/registry/package-species-coverage.json",
+    "colOwnershipSha256": "a297bc8a67ce60806fdee733464a79bfcc42e255f7e59535b01f94013c19dfea"
+  },
+  "scopeAudit": {
+    "roots": [
+      {
+        "usageId": "B8TXQ",
+        "scientificName": "Porifera",
+        "itisTsn": "46861",
+        "itisScientificName": "Porifera",
+        "itisRank": "Phylum",
+        "itisUsage": "valid"
+      },
+      {
+        "usageId": "CN2",
+        "scientificName": "Cnidaria",
+        "itisTsn": "48738",
+        "itisScientificName": "Cnidaria",
+        "itisRank": "Phylum",
+        "itisUsage": "valid"
+      }
+    ],
+    "colStrictAcceptedSpecies": 30521,
+    "colStrictAcceptedSpeciesByRoot": {
+      "Porifera": 9899,
+      "Cnidaria": 20622
+    },
+    "packageStrictAcceptedSpecies": 30521,
+    "packageOutOfScopeStrictAcceptedSpecies": 0,
+    "itisCurrentSpecies": 6494,
+    "itisSpeciesSynonymLinks": 843,
+    "maximumUpdateDates": {
+      "taxonomicUnits": "2026-08-26",
+      "synonymLinks": "2026-08-26"
+    }
+  },
+  "queries": {
+    "currentSpecies": "WITH RECURSIVE descendants(tsn) AS (\n  SELECT ?1\n  UNION ALL\n  SELECT u.tsn FROM taxonomic_units u JOIN descendants d ON u.parent_tsn = d.tsn\n  WHERE u.name_usage = 'valid'\n)\nSELECT u.tsn, l.completename AS scientific_name, u.name_usage, u.credibility_rtng,\n  u.completeness_rtng, u.currency_rating, u.update_date\nFROM descendants d\nJOIN taxonomic_units u ON u.tsn = d.tsn\nJOIN taxon_unit_types r ON r.kingdom_id = u.kingdom_id AND r.rank_id = u.rank_id\nJOIN longnames l ON l.tsn = u.tsn\nWHERE lower(trim(r.rank_name)) = 'species' AND u.name_usage = 'valid'\nORDER BY u.tsn",
+    "speciesSynonyms": "WITH RECURSIVE descendants(tsn) AS (\n  SELECT ?1\n  UNION ALL\n  SELECT u.tsn FROM taxonomic_units u JOIN descendants d ON u.parent_tsn = d.tsn\n  WHERE u.name_usage = 'valid'\n), accepted(tsn) AS (\n  SELECT u.tsn FROM descendants d\n  JOIN taxonomic_units u ON u.tsn = d.tsn\n  JOIN taxon_unit_types r ON r.kingdom_id = u.kingdom_id AND r.rank_id = u.rank_id\n  WHERE lower(trim(r.rank_name)) = 'species' AND u.name_usage = 'valid'\n)\nSELECT s.tsn AS synonym_tsn, sl.completename AS synonym_name, su.name_usage AS synonym_usage,\n  su.unaccept_reason, su.update_date AS synonym_update_date, s.tsn_accepted\nFROM synonym_links s\nJOIN accepted a ON a.tsn = s.tsn_accepted\nJOIN taxonomic_units su ON su.tsn = s.tsn\nJOIN taxon_unit_types sr ON sr.kingdom_id = su.kingdom_id AND sr.rank_id = su.rank_id\nJOIN longnames sl ON sl.tsn = su.tsn\nWHERE lower(trim(sr.rank_name)) = 'species'\nORDER BY s.tsn, s.tsn_accepted"
+  },
+  "matchingContract": {
+    "normalization": [
+      "Remove the exact trailing COL authorship field from COL scientificName when that suffix is present; no authorship parser is used.",
+      "Normalize Unicode to NFC, replace underscores with spaces, collapse Unicode whitespace and trim.",
+      "For species-rank comparison, remove one parenthesized subgenus token in the exact Genus (Subgenus) species representation; genus and specific epithet must remain unchanged.",
+      "Preserve case, diacritics, punctuation and all remaining name tokens."
+    ],
+    "statuses": {
+      "accepted": "The normalized COL name resolves to exactly one valid ITIS Porifera/Cnidaria species and directly equals that current ITIS name.",
+      "synonym-current-name-redirect": "The normalized COL name equals official ITIS invalid species-name evidence that resolves to exactly one valid ITIS Porifera/Cnidaria species.",
+      "ambiguous": "The normalized exact evidence resolves to more than one valid ITIS Porifera/Cnidaria species TSN.",
+      "unmatched": "No normalized exact valid-name or official ITIS species-synonym evidence resolves to a valid ITIS Porifera/Cnidaria species."
+    },
+    "prohibited": "No fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered or taxon-substituted matching is used."
+  },
+  "totals": {
+    "total": 30521,
+    "accepted": 4242,
+    "synonymCurrentNameRedirect": 50,
+    "ambiguous": 3,
+    "unmatched": 26226,
+    "byRoot": {
+      "Porifera": {
+        "total": 9899,
+        "accepted": 718,
+        "synonymCurrentNameRedirect": 16,
+        "ambiguous": 3,
+        "unmatched": 9162
+      },
+      "Cnidaria": {
+        "total": 20622,
+        "accepted": 3524,
+        "synonymCurrentNameRedirect": 34,
+        "ambiguous": 0,
+        "unmatched": 17064
+      }
+    },
+    "itisCurrentSpecies": 6494,
+    "itisSpeciesSynonymLinks": 843,
+    "itisUpstreamOnly": 2218
+  },
+  "outputs": {
+    "descriptor": {
+      "path": "data/packages/invertebrata/sponges-cnidarians/nomenclature/itis-porifera-cnidaria-sidecar.json",
+      "bytes": 7639,
+      "sha256": "667a9eafe4143e414797b34cb989d8a10d46d527bb1da9eaf097b3e67a5b0954"
+    },
+    "colUsageIdShards": [
+      {
+        "path": "data/packages/invertebrata/sponges-cnidarians/nomenclature/itis-porifera-cnidaria-sidecar-0000.jsonl.gz",
+        "records": 6590,
+        "firstColUsageId": "323D7",
+        "lastColUsageId": "4LXSZ",
+        "bytes": 183935,
+        "sha256": "e7fdc0c8f357ec65cc0f4bfba6d273c18c959f6a999e91c3a9d320731188456a",
+        "sourceBytes": 2096991,
+        "sourceSha256": "641cd72cea2eacc9a693b49ff67ecf902c6ec10ff37093c0f2c88665791bbd6e"
+      },
+      {
+        "path": "data/packages/invertebrata/sponges-cnidarians/nomenclature/itis-porifera-cnidaria-sidecar-0001.jsonl.gz",
+        "records": 6545,
+        "firstColUsageId": "4LXT3",
+        "lastColUsageId": "6PHGQ",
+        "bytes": 195505,
+        "sha256": "607c6158c0dbd078b79bcd67a3080699bb9723ee991f91415fb659dcfe5f24a6",
+        "sourceBytes": 2096794,
+        "sourceSha256": "5ed79cb915d4b8c0c9be2a31dea441610d4d53f2f1c34b5f98533023703f90ef"
+      },
+      {
+        "path": "data/packages/invertebrata/sponges-cnidarians/nomenclature/itis-porifera-cnidaria-sidecar-0002.jsonl.gz",
+        "records": 7004,
+        "firstColUsageId": "6PHGS",
+        "lastColUsageId": "994FB",
+        "bytes": 200586,
+        "sha256": "79b13096e52bca1c7dd82efde1a6816ecb12419c53e239f6ea2545f41ccd9878",
+        "sourceBytes": 2097115,
+        "sourceSha256": "6912832f316153855ef9d5eca113c8e90536e7ffe578d4bf29af60f10dbc15b8"
+      },
+      {
+        "path": "data/packages/invertebrata/sponges-cnidarians/nomenclature/itis-porifera-cnidaria-sidecar-0003.jsonl.gz",
+        "records": 7221,
+        "firstColUsageId": "994G9",
+        "lastColUsageId": "KVY5G",
+        "bytes": 194159,
+        "sha256": "191f3f1ee6363113e0f641c9a121990207a879ef04ae7e3200c62bfecbb446f8",
+        "sourceBytes": 2096873,
+        "sourceSha256": "4a4ae9dcab7307b738a74d7456f4dfef36dd563da79f6ecd3b6ffda653135e3f"
+      },
+      {
+        "path": "data/packages/invertebrata/sponges-cnidarians/nomenclature/itis-porifera-cnidaria-sidecar-0004.jsonl.gz",
+        "records": 3161,
+        "firstColUsageId": "KVY65",
+        "lastColUsageId": "ZYTD",
+        "bytes": 89451,
+        "sha256": "96495048dc2ddad8814744f95592276b9c82e954745c0252e5eec50131099864",
+        "sourceBytes": 946956,
+        "sourceSha256": "8401c896285fe45d9d5f5a314dbd344db13e59234d47ec8af9c221db7e70d897"
+      }
+    ],
+    "upstreamOnly": {
+      "path": "data/packages/invertebrata/sponges-cnidarians/nomenclature/itis-porifera-cnidaria-upstream-only-0000.jsonl.gz",
+      "records": 2218,
+      "firstColUsageId": null,
+      "lastColUsageId": null,
+      "bytes": 31056,
+      "sha256": "5920bc6381c69af181b95d8c2ddbed014d0f004f31088ad50a539406ae08b1dd",
+      "sourceBytes": 905146,
+      "sourceSha256": "77b2c721afd938d6fae824eeaf68ec2903a5c6951a5c86867c83877b0615cace",
+      "colOwnership": null,
+      "firstTsn": "46173",
+      "lastTsn": "1160324"
+    }
+  },
+  "deliveryContract": {
+    "pagesLight": "Pages may include only the descriptor and canonical file hashes; row-level JSONL gzip shards are omitted.",
+    "androidIosFull": "Android and iOS complete-data inventories must include this descriptor and every listed row-level shard byte-for-byte.",
+    "runtimeChange": "Data-only import; no runtime, version or release manifest changes."
+  },
+  "generatedBy": {
+    "scriptPath": "scripts/build-itis-porifera-cnidaria-sidecars.mjs",
+    "scriptSha256": "222e99261a1c6ecc1e3fa556011d97bc6b95fd015ce291ec38b7d78679a62121",
+    "deterministic": "Pinned input checksums, fixed COL and ITIS roots, exact SQL, exact representation-only normalization, Unicode code-unit ID ordering and deterministic gzip; no wall-clock fields or fuzzy matching."
+  }
+}
