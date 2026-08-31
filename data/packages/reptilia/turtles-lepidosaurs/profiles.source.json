@@ -39,5 +39,112 @@
       "schulp-et-al-2013-mosasaur-resource-partitioning",
       "jagt-et-al-2008-youngest-mosasaurus"
     ]
+  },
+  {
+    "id": "testudines",
+    "treeNodeId": "testudines",
+    "pbdbTaxonId": "txn:56475",
+    "scientificName": "Testudines",
+    "commonName": "Turtles & tortoises",
+    "commonNameZh": "龟鳖类",
+    "rank": "order",
+    "parentName": "Sauropsida",
+    "extinct": false,
+    "geography": [
+      "Late Triassic marine deposits of southwestern China (Odontochelys sample)",
+      "Middle Triassic Vellberg deposits, Germany (Pappochelys sample)"
+    ],
+    "overview": "The turtle-line route is anchored by a shell mosaic: Odontochelys has a developed plastron and incomplete dorsal carapace, while Pappochelys retains broadened ribs and paired gastralia. These are sampled stem-turtle observations and comparative hypotheses, not a direct ancestor sequence or a crown-origin date.",
+    "ecology": {
+      "diet": "No taxon-wide diet is established by the cited shell studies; this field remains unresolved beyond the named specimens.",
+      "habitat": "Sample-specific only: the marine deposits yielding Odontochelys were interpreted as marginal sea or river-delta settings; this is not a global turtle habitat claim.",
+      "locomotion": "No taxon-wide locomotor mode is assigned; rib, gastralia and shell evidence is anatomical rather than a behavioural observation.",
+      "bodySize": "No taxon-wide body-size estimate is assigned from the cited shell specimens.",
+      "guild": "No ecological guild is assigned; the package preserves shell anatomy and depositional context without inferring a community role."
+    },
+    "traits": [
+      "Odontochelys preserves a fully developed plastron, expanded ribs and neural plates without a complete carapace",
+      "Pappochelys preserves broadened ribs and robust paired gastralia rather than a fused plastron",
+      "The shell sequence is a comparative homology model across named samples, not direct ancestry"
+    ],
+    "evidenceSummary": "Li et al. document three named Odontochelys specimens from southwestern China, while Schoch and Sues document complementary Vellberg Pappochelys anatomy. Their shell sequence and topology are retained as bounded interpretations with specimen, formation and analysis limits.",
+    "confidence": "medium",
+    "referenceIds": [
+      "li-2008-odontochelys",
+      "schoch-sues-2015-pappochelys",
+      "joyce-2007-mesozoic-turtle-phylogeny"
+    ]
+  },
+  {
+    "id": "lepidosauria",
+    "treeNodeId": "lepidosauria",
+    "pbdbTaxonId": "txn:95312",
+    "scientificName": "Lepidosauria",
+    "commonName": "Lizards, snakes & tuatara",
+    "commonNameZh": "蜥蜴、蛇与喙头蜥",
+    "rank": "superorder",
+    "parentName": "Sauropsida",
+    "extinct": false,
+    "geography": [
+      "Middle Triassic Italian Alps (Megachirella specimen PZO 628)",
+      "Late Triassic Ischigualasto Formation, Argentina (Taytalura holotype PVSJ 698)",
+      "Middle Jurassic Kirtlington fissure-fill, United Kingdom (Bellairsia specimen NMS G.2022.1.1)"
+    ],
+    "overview": "The lepidosaur route links CT-resolved specimens that illuminate early lepidosauriform and squamate anatomy: Megachirella is recovered on the squamate stem, Taytalura as an early-diverging stem lepidosauromorph, and Bellairsia on the squamate stem in the cited analyses. Each placement is matrix- and specimen-bounded.",
+    "ecology": {
+      "diet": "No taxon-wide diet is established by the cited skull and skeleton studies; this field remains unresolved.",
+      "habitat": "The cited studies document fossil localities and anatomy but do not establish a single habitat for Lepidosauria; no broader habitat is inferred here.",
+      "locomotion": "No taxon-wide locomotor mode is assigned from the CT-resolved skull and skeletal characters.",
+      "bodySize": "No taxon-wide body-size estimate is assigned from the single or partial specimens used in the cited analyses.",
+      "guild": "No ecological guild is assigned; analytical stem placement is not an ecological observation."
+    },
+    "traits": [
+      "Megachirella PZO 628 contributes CT-resolved cranial, wrist and shoulder characters to a combined-evidence analysis",
+      "Taytalura PVSJ 698 preserves a three-dimensionally exposed skull with CT-resolved early lepidosauromorph characters",
+      "Bellairsia NMS G.2022.1.1 was examined with synchrotron tomography and tested as a stem squamate"
+    ],
+    "evidenceSummary": "Simões et al., Martínez et al. and Tałanda et al. provide named specimens, imaging methods and explicit analytical placements across the lepidosaur route. The profile does not convert any stem specimen into a direct ancestor, crown FAD or global ecological history.",
+    "confidence": "medium",
+    "referenceIds": [
+      "simoes-2018-megachirella",
+      "martinez-2021-taytalura",
+      "talanda-2022-bellairsia"
+    ]
+  },
+  {
+    "id": "mosasauroidea",
+    "treeNodeId": "mosasauroidea",
+    "pbdbTaxonId": "txn:53220",
+    "scientificName": "Mosasauroidea",
+    "commonName": "Mosasauroids",
+    "commonNameZh": "沧龙超科",
+    "rank": "superfamily",
+    "parentName": "Squamata",
+    "extinct": true,
+    "geography": [
+      "Middle Turonian Arcadia Park Shale, north-central Texas (Dallasaurus sample)",
+      "Maastrichtian type area, the Netherlands (sampled Mosasaurus occurrence)"
+    ],
+    "overview": "Mosasauroidea is retained as a broader branch-defined mosasauroid route, distinct from node-defined Mosasauridae. Dallasaurus preserves a plesiopedal limb condition in the middle Turonian sample, while the nomenclatural analysis separates clade definitions from any single basal topology.",
+    "ecology": {
+      "diet": "Sample-bounded: tooth-enamel isotopes and associated body-size data support resource-partitioning interpretations among five type-Maastrichtian mosasaur taxa, not one diet for all Mosasauroidea.",
+      "habitat": "The cited samples are marine; habitat interpretation is limited to the documented Texas and Maastrichtian study contexts.",
+      "locomotion": "Dallasaurus is described with plesiopedal limbs, while the cited family analysis distinguishes plesiopedal and hydropedal grades among sampled mosasauroids.",
+      "bodySize": "Body-size comparisons are available for the five named taxa in the type-Maastrichtian isotope sample; they are not a global size distribution.",
+      "guild": "The five-taxon Maastrichtian sample supports a local resource-partitioning interpretation, not a universal mosasauroid guild assignment."
+    },
+    "traits": [
+      "Mosasauroidea and Mosasauridae have distinct branch- and node-based definitions in the cited nomenclatural analysis",
+      "Dallasaurus preserves cranial, axial and plesiopedal limb anatomy in two incomplete skeletons",
+      "Plesiopedal and hydropedal limb grades are separated from family membership in the sampled analysis"
+    ],
+    "evidenceSummary": "Madzia and Cau define the clade-boundary distinction, Bell and Polcyn document the Dallasaurus skeletons and limb grades, and Schulp et al. provide a five-taxon isotope and body-size sample. All ecological and geographic statements remain study- and specimen-bounded.",
+    "confidence": "medium",
+    "referenceIds": [
+      "madzia-cau-2017-mosasauroid-nomenclature",
+      "bell-polcyn-2005-dallasaurus",
+      "schulp-et-al-2013-mosasaur-resource-partitioning",
+      "jagt-et-al-2008-youngest-mosasaurus"
+    ]
   }
 ]
