@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 1,
+  "importType": "COL26.8-to-ITIS-exact-dinoflagellata-nomenclatural-sidecar",
+  "generatedFrom": {
+    "sourcePath": "data/sources/itis-2026-08-26.json",
+    "sourceSha256": "38a7a55b4e98cafc66790e47f6bd637e298e23fd691e4771c755b38e4a02d7fc",
+    "itisDatabaseMember": "itisSqlite082626/ITIS.sqlite",
+    "itisDatabaseSha256": "ea7304536cfd7b1e2636d383911ca7931fc83d9ab1194ca2a3c020ea2daf1719",
+    "colRegistryManifestPath": "data/catalogue-of-life/releases/2026-08-20/registry/manifest.json",
+    "colRegistryManifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151",
+    "colOwnershipPath": "data/registry/package-species-coverage.json",
+    "colOwnershipSha256": "a297bc8a67ce60806fdee733464a79bfcc42e255f7e59535b01f94013c19dfea"
+  },
+  "scopeAudit": {
+    "packageRootUsageId": "C",
+    "packageRootScientificName": "Chromista",
+    "colRootUsageId": "622D3",
+    "colRootScientificName": "Dinophyceae (Dinoflagellata)",
+    "colStrictAcceptedSpecies": 259,
+    "packageStrictAcceptedSpecies": 61518,
+    "packageOutOfScopeStrictAcceptedSpecies": 61259,
+    "nonApplicableRemainder": "All other strict accepted COL26.8 species assigned to Protists and Chromists remain outside this Dinophyceae sidecar.",
+    "boundary": "This sidecar covers only strict accepted COL26.8 species descending from exact Dinophyceae root 622D3; all remaining mixed-pack species are explicitly out of scope.",
+    "itisRoot": {
+      "tsn": "9874",
+      "scientificName": "Dinophyceae",
+      "rank": "Class",
+      "usage": "accepted"
+    },
+    "itisCurrentSpecies": 912,
+    "itisSpeciesSynonymLinks": 149,
+    "maximumUpdateDates": {
+      "taxonomicUnits": "2026-08-26",
+      "synonymLinks": "2026-08-26"
+    }
+  },
+  "matchingContract": {
+    "normalization": [
+      "Remove the exact trailing COL authorship field from COL scientificName when that suffix is present; no authorship parser is used.",
+      "Normalize Unicode to NFC, replace underscores with spaces, collapse Unicode whitespace and trim.",
+      "For species-rank comparison, remove one parenthesized subgenus token in the exact Genus (Subgenus) species representation; genus and specific epithet must remain unchanged.",
+      "Preserve case, diacritics, punctuation and all remaining name tokens."
+    ],
+    "statuses": {
+      "accepted": "The normalized COL name resolves to exactly one valid ITIS Dinophyceae species and directly equals that current ITIS name.",
+      "synonym-current-name-redirect": "The normalized COL name equals official ITIS invalid species-name evidence that resolves to exactly one valid ITIS Dinophyceae species.",
+      "ambiguous": "The normalized exact evidence resolves to more than one valid ITIS Dinophyceae species TSN.",
+      "unmatched": "No normalized exact valid-name or official ITIS species-synonym evidence resolves to a valid ITIS Dinophyceae species."
+    },
+    "prohibited": "No fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered or taxon-substituted matching is used."
+  },
+  "totals": {
+    "total": 259,
+    "accepted": 60,
+    "synonymCurrentNameRedirect": 2,
+    "ambiguous": 0,
+    "unmatched": 197,
+    "itisCurrentSpecies": 912,
+    "itisSpeciesSynonymLinks": 149,
+    "itisUpstreamOnly": 851
+  },
+  "output": {
+    "descriptor": {
+      "path": "data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals/itis-dinoflagellata-sidecar.json",
+      "bytes": 5283,
+      "sha256": "4455be82c24628d58d1091af4ecdbb96751d5d865bfd8e060193f2d86e425291"
+    },
+    "colUsageIdShards": [
+      {
+        "path": "data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals/itis-dinoflagellata-sidecar-0000.jsonl.gz",
+        "records": 259,
+        "firstColUsageId": "3HRNL",
+        "lastColUsageId": "CN83B",
+        "bytes": 6372,
+        "sha256": "45180d37450bb2a884595a2e6c03900c39be29be2f34371e2d0852d8f7966c6f",
+        "sourceBytes": 60569,
+        "sourceSha256": "51cb9effd0520a910bfbf3d3fd92e4febefb1151eeffb1c4456066aa830f4c27"
+      }
+    ],
+    "upstreamOnly": {
+      "path": "data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals/itis-dinoflagellata-upstream-only-0000.jsonl.gz",
+      "records": 851,
+      "firstColUsageId": null,
+      "lastColUsageId": null,
+      "bytes": 10987,
+      "sha256": "273bedea09696219f4e25a235efdf57e5f58599a1da8456a31adb0d409199501",
+      "sourceBytes": 316560,
+      "sourceSha256": "2277edab4bdc8ebf29e7e07000f23f0f2c99326a46c9046daa4324eaf648f52e",
+      "colOwnership": null,
+      "firstTsn": "1080",
+      "lastTsn": "615888"
+    }
+  },
+  "deliveryContract": {
+    "pagesLight": "Pages needs only this small descriptor and may omit all row-level JSONL gzip shards.",
+    "androidIosFull": "Android and iOS complete-data inventories must include the descriptor and every listed row-level shard as the same checksum-addressed bytes.",
+    "runtimeChange": "This import deliberately changes no formal runtime or published release manifest."
+  },
+  "generatedBy": {
+    "scriptPath": "scripts/build-itis-dinoflagellata-sidecar.mjs",
+    "scriptSha256": "2360cb74f96e4ab2dad09f61105fe430d8100474f53dbb84bf285796f8533554",
+    "deterministic": "Pinned input checksums, fixed roots, exact SQL, exact representation-only normalization, code-unit ID ordering and deterministic gzip; no wall-clock fields or fuzzy matching."
+  }
+}
