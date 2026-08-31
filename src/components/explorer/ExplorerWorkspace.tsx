@@ -20,22 +20,14 @@ import './ExplorerWorkspace.css'
 
 type ExplorerView = 'map' | 'tree' | 'diversity'
 type GuideMode = 'choice' | 'tour' | 'hidden'
-type TutorialStepId = 'presets' | 'time' | 'map' | 'tree' | 'evidence'
+type TutorialStepId = 'time' | 'map' | 'tree' | 'evidence'
 
 interface ExplorerWorkspaceProps {
   dashboard?: boolean
 }
 
-const DASHBOARD_PRESETS: Array<{ id: string; title: string; description: string; age: number; view: ExplorerView; taxonId?: string }> = [
-  { id: 'k-pg', title: 'K–Pg boundary', description: 'Extinction boundary, occurrences and changing land geometry', age: 66, view: 'map' },
-  { id: 'cambrian', title: 'Cambrian seas', description: 'Early Phanerozoic geography and sampled fossil records', age: 512.8, view: 'map' },
-  { id: 'perissodactyla', title: 'Odd-toed ungulates', description: 'An evidence package at curated-draft maturity and its tree context', age: 34, view: 'tree', taxonId: 'perissodactyla' },
-  { id: 'jurassic', title: 'Jurassic radiations', description: 'Compare sampled diversity around 172 Ma', age: 172.3, view: 'diversity' },
-]
-
 const TUTORIAL_STEPS: Array<{ id: TutorialStepId; title: string; description: string }> = [
-  { id: 'presets', title: 'Begin with a preset scene', description: 'Presets set a documented age and primary view together. Try another at any time; they never hide the underlying controls.' },
-  { id: 'time', title: 'Move every view through time', description: 'The geological timeline is the shared clock. Changing age updates the period context, fossil sample and nearest available map frame.' },
+  { id: 'time', title: 'Set a time context', description: 'The geological timeline is the shared clock. Changing age updates the period context, fossil sample and nearest available map frame; only claim-linked, published range evidence can surface a scene card.' },
   { id: 'map', title: 'Read the map as a reconstruction', description: 'Map layers are modelled geometries, not direct observations. Fossil markers keep reconstructed and modern coordinates separate.' },
   { id: 'tree', title: 'Switch to the tree without changing context', description: 'The tree keeps the selected age and subject. Navigation, fossil first appearances and the scoped topology remain distinct representations.' },
   { id: 'evidence', title: 'Check evidence before drawing a conclusion', description: 'The evidence panel discloses package maturity, claims, sources and uncertainty. Automated checks are not expert review.' },
@@ -257,26 +249,16 @@ export function ExplorerWorkspace({ dashboard = false }: ExplorerWorkspaceProps)
     try { window.localStorage.setItem('evo-explorer-guide-v2', 'dismissed') } catch { /* Guide can still close for this session. */ }
   }
 
-  const openPreset = (preset: (typeof DASHBOARD_PRESETS)[number]) => {
-    setTime(preset.age)
-    setView(preset.view)
-    if (preset.taxonId) {
-      const node = nodes.find((candidate) => candidate.id === preset.taxonId)
-      if (node) void selectSubject({ nodeId: node.id, taxonId: node.taxonId })
-    }
-  }
-
   const showTutorialStep = (nextStep: number) => {
     const boundedStep = Math.min(Math.max(nextStep, 0), TUTORIAL_STEPS.length - 1)
     const step = TUTORIAL_STEPS[boundedStep]
     setGuideStep(boundedStep)
     setMobilePanel(null)
 
-    if (step.id === 'presets') {
+    if (step.id === 'time') {
       if (dashboard) setDetailsOpen(false)
-      openPreset(DASHBOARD_PRESETS[1])
-    } else if (step.id === 'time') {
-      setTime(66)
+      setView('map')
+      setTime(512.8)
     } else if (step.id === 'map') {
       setView('map')
     } else if (step.id === 'tree') {
@@ -450,19 +432,6 @@ export function ExplorerWorkspace({ dashboard = false }: ExplorerWorkspaceProps)
         </div>
 
         <div className="dashboard-stage-body">
-          {dashboard && !detailsOpen && (
-            <aside className="dashboard-presets" aria-label={t('Preset scenes')}>
-              <div><span>{t('Preset scenes')}</span><small>{t('Choose a starting point')}</small></div>
-              {DASHBOARD_PRESETS.map((preset) => (
-                <button key={preset.id} onClick={() => openPreset(preset)}>
-                  <span>{preset.age.toFixed(1)} <small>Ma</small></span>
-                  <strong>{t(preset.title)}</strong>
-                  <p>{t(preset.description)}</p>
-                  <i>→</i>
-                </button>
-              ))}
-            </aside>
-          )}
           <div className="stage-canvas">
             <Suspense fallback={<ModuleLoading />}>
               {view === 'map' ? (
