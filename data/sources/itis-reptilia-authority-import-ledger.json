@@ -1,0 +1,259 @@
+{
+  "schemaVersion": 1,
+  "importType": "COL26.8-to-ITIS-exact-reptilia-nomenclatural-sidecars",
+  "generatedFrom": {
+    "sourcePath": "data/sources/itis-2026-08-26.json",
+    "sourceSha256": "38a7a55b4e98cafc66790e47f6bd637e298e23fd691e4771c755b38e4a02d7fc",
+    "itisDatabaseMember": "itisSqlite082626/ITIS.sqlite",
+    "itisDatabaseSha256": "ea7304536cfd7b1e2636d383911ca7931fc83d9ab1194ca2a3c020ea2daf1719",
+    "colRegistryManifestPath": "data/catalogue-of-life/releases/2026-08-20/registry/manifest.json",
+    "colRegistryManifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151",
+    "colOwnershipPath": "data/registry/package-species-coverage.json",
+    "colOwnershipSha256": "a297bc8a67ce60806fdee733464a79bfcc42e255f7e59535b01f94013c19dfea"
+  },
+  "scopeAudit": {
+    "colRootUsageIds": [
+      "45C",
+      "477",
+      "RP",
+      "329"
+    ],
+    "colStrictAcceptedSpecies": 12649,
+    "packageCounts": {
+      "turtles-lepidosaurs": {
+        "total": 12622,
+        "accepted": 9805,
+        "synonymCurrentNameRedirect": 70,
+        "ambiguous": 3,
+        "unmatched": 2744
+      },
+      "crocodylomorphs-birds": {
+        "total": 27,
+        "accepted": 26,
+        "synonymCurrentNameRedirect": 1,
+        "ambiguous": 0,
+        "unmatched": 0
+      },
+      "upstreamOnly": {
+        "turtles-lepidosaurs": 655,
+        "crocodylomorphs-birds": 0
+      }
+    },
+    "avesExcluded": 11044,
+    "itisRoot": {
+      "tsn": "173747",
+      "scientificName": "Reptilia",
+      "rank": "Class",
+      "usage": "valid"
+    },
+    "crocodyliaRootTsn": "551734",
+    "itisCurrentSpecies": 10550,
+    "itisSpeciesSynonymLinks": 4243,
+    "maximumUpdateDates": {
+      "taxonomicUnits": "2026-08-26",
+      "synonymLinks": "2026-08-26"
+    }
+  },
+  "matchingContract": {
+    "normalization": [
+      "Remove the exact trailing COL authorship field from COL scientificName when that suffix is present; no authorship parser is used.",
+      "Normalize Unicode to NFC, replace underscores with spaces, collapse Unicode whitespace and trim.",
+      "For species-rank comparison, remove one parenthesized subgenus token in the exact Genus (Subgenus) species representation; genus and specific epithet must remain unchanged.",
+      "Preserve case, diacritics, punctuation and all remaining name tokens."
+    ],
+    "forbidden": "No fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered or taxon-substituted matching is used."
+  },
+  "totals": {
+    "total": 12649,
+    "accepted": 9831,
+    "synonymCurrentNameRedirect": 71,
+    "ambiguous": 3,
+    "unmatched": 2744,
+    "itisCurrentSpecies": 10550,
+    "itisSpeciesSynonymLinks": 4243,
+    "itisUpstreamOnly": 655
+  },
+  "canonical": {
+    "path": "data/sources/itis-reptilia-authority-crosswalk-col26.8.json.gz",
+    "bytes": 518780,
+    "sha256": "854b3889f795cbdbe359b51212ba03d53eb1e9cf0b6e28518366e978ad4f5059",
+    "sourceBytes": 7228917,
+    "sourceSha256": "5b4b3ac47aab26853a29f0c3b6f3f1e280d3f26f0f32a829ec4e60dde6d5332a"
+  },
+  "outputs": {
+    "turtles-lepidosaurs": {
+      "descriptor": {
+        "path": "data/packages/reptilia/turtles-lepidosaurs/nomenclature/itis-tsn-sidecar.json",
+        "bytes": 9638,
+        "sha256": "3b8296e4ba6e3f9cb15f575f0492f058c9fddb4977f80480849c0deb2316e79e"
+      },
+      "counts": {
+        "total": 12622,
+        "accepted": 9805,
+        "synonymCurrentNameRedirect": 70,
+        "ambiguous": 3,
+        "unmatched": 2744,
+        "itisCurrentSpecies": 10550,
+        "itisSpeciesSynonymLinks": 4243,
+        "itisUpstreamOnly": 655
+      },
+      "colUsageIdShards": [
+        {
+          "path": "data/packages/reptilia/turtles-lepidosaurs/nomenclature/itis-tsn-sidecar-000.jsonl.gz",
+          "records": 1432,
+          "firstColUsageId": "3256B",
+          "lastColUsageId": "3N89T",
+          "bytes": 50623,
+          "sha256": "11498199aff8280ea33efd530249013e95d32fd89ceaa4a49f8a3524380e45b4",
+          "sourceBytes": 523949,
+          "sourceSha256": "475763982ca715af85fe36a02edd85bc6f33d89371c0e76492d6273fbd43abfa"
+        },
+        {
+          "path": "data/packages/reptilia/turtles-lepidosaurs/nomenclature/itis-tsn-sidecar-001.jsonl.gz",
+          "records": 1380,
+          "firstColUsageId": "3N89X",
+          "lastColUsageId": "4BRCY",
+          "bytes": 49127,
+          "sha256": "1329eda070d32e78d553b7e725443a41f00612a8ba1d24493811ab75d48e6951",
+          "sourceBytes": 524129,
+          "sourceSha256": "f6ffe7604d6b3f182daff8c4c99c81aaa47b5298337ac3d5b29c47578c1fbc30"
+        },
+        {
+          "path": "data/packages/reptilia/turtles-lepidosaurs/nomenclature/itis-tsn-sidecar-002.jsonl.gz",
+          "records": 1372,
+          "firstColUsageId": "4BRD3",
+          "lastColUsageId": "54PGB",
+          "bytes": 49656,
+          "sha256": "df5babb910006f1fc7e599158dc059b6b6a9fa0a6cb5f5b576206cea473da08e",
+          "sourceBytes": 523925,
+          "sourceSha256": "5374e30d6691399f84bbbc1d8e688641cac64ad79d9cfe33f0c7c8b0ee805a89"
+        },
+        {
+          "path": "data/packages/reptilia/turtles-lepidosaurs/nomenclature/itis-tsn-sidecar-003.jsonl.gz",
+          "records": 1413,
+          "firstColUsageId": "54PGF",
+          "lastColUsageId": "68NGW",
+          "bytes": 51722,
+          "sha256": "7bd179cae80c62c13efece55a1ab898fd9ced6cca481760d36bf9c8d3504e396",
+          "sourceBytes": 524129,
+          "sourceSha256": "368b17e21ebb071d9e58a647eaa99a67ccd35142b8a176a66e4d7f8cc5a0aa69"
+        },
+        {
+          "path": "data/packages/reptilia/turtles-lepidosaurs/nomenclature/itis-tsn-sidecar-004.jsonl.gz",
+          "records": 1394,
+          "firstColUsageId": "68NGX",
+          "lastColUsageId": "6YQ83",
+          "bytes": 54025,
+          "sha256": "b45e717adb26288bd277a0efc5935c1b3b7cbd2f64928c1e5c9ce8e2a982d7de",
+          "sourceBytes": 524035,
+          "sourceSha256": "d0487cc9b658348fa66ae92416a9035fc0c4b437c5a49deb5713fb3ab25ecdda"
+        },
+        {
+          "path": "data/packages/reptilia/turtles-lepidosaurs/nomenclature/itis-tsn-sidecar-005.jsonl.gz",
+          "records": 1377,
+          "firstColUsageId": "6YQVJ",
+          "lastColUsageId": "897LK",
+          "bytes": 54737,
+          "sha256": "d36f017c1b43f4e27e027877dc4ad6f6bf894ca8cfbd4e5ab901b3af93b82f47",
+          "sourceBytes": 524139,
+          "sourceSha256": "57a660adf3783381f81fbc5dea18e197aa880e424b68564e8c47a1c1f8330314"
+        },
+        {
+          "path": "data/packages/reptilia/turtles-lepidosaurs/nomenclature/itis-tsn-sidecar-006.jsonl.gz",
+          "records": 1799,
+          "firstColUsageId": "897LL",
+          "lastColUsageId": "C6B6F",
+          "bytes": 70623,
+          "sha256": "48d9f419e2fb0800d6d7a35a2e1f1c1fdd64d275ac1208d8747613b5a54080ec",
+          "sourceBytes": 524131,
+          "sourceSha256": "110944bd48b235594d2c6c5b372587d1f9957a942ea823875eb3c6e8ef669c57"
+        },
+        {
+          "path": "data/packages/reptilia/turtles-lepidosaurs/nomenclature/itis-tsn-sidecar-007.jsonl.gz",
+          "records": 1613,
+          "firstColUsageId": "C6B6G",
+          "lastColUsageId": "TFSV",
+          "bytes": 59702,
+          "sha256": "e4ccdb640aa88c8eff53f8f865ead2544f8f72694d07eb6dd863df10685dfef6",
+          "sourceBytes": 524101,
+          "sourceSha256": "b134c24b535af5c892bc0f93a9751116ccd342ca06468c2c0d2e32ab632c67a3"
+        },
+        {
+          "path": "data/packages/reptilia/turtles-lepidosaurs/nomenclature/itis-tsn-sidecar-008.jsonl.gz",
+          "records": 842,
+          "firstColUsageId": "TK42",
+          "lastColUsageId": "ZYNC",
+          "bytes": 32044,
+          "sha256": "b11e1749a2e139158e481a0ece5d814b3ba711d78e23991010cb7c97ef94be69",
+          "sourceBytes": 253679,
+          "sourceSha256": "42f42cca1eb3fa9bd500d1e5134ba4ecc2cb0692ba710e7886b9877ac1e660ee"
+        }
+      ],
+      "upstreamOnly": {
+        "path": "data/packages/reptilia/turtles-lepidosaurs/nomenclature/itis-upstream-only-000.jsonl.gz",
+        "records": 655,
+        "firstColUsageId": null,
+        "lastColUsageId": null,
+        "bytes": 10425,
+        "sha256": "447419882daf1b0c3c24db75ed0a036c32fafb9cd52f1742674fa1084233eaa8",
+        "sourceBytes": 308279,
+        "sourceSha256": "878969e7561b9cc60d4f58d2e7251c6a3065ad48bbca463132e07894b9c242f8",
+        "colOwnership": null,
+        "firstTsn": "174212",
+        "lastTsn": "1233342"
+      }
+    },
+    "crocodylomorphs-birds": {
+      "descriptor": {
+        "path": "data/packages/archosauria/crocodylomorphs-birds/nomenclature/itis-tsn-sidecar.json",
+        "bytes": 5994,
+        "sha256": "f954cb1cc5618f54fff53ba0a14a7c7963c111b8d310ce22814f5a02d88485af"
+      },
+      "counts": {
+        "total": 27,
+        "accepted": 26,
+        "synonymCurrentNameRedirect": 1,
+        "ambiguous": 0,
+        "unmatched": 0,
+        "itisCurrentSpecies": 10550,
+        "itisSpeciesSynonymLinks": 4243,
+        "itisUpstreamOnly": 0
+      },
+      "colUsageIdShards": [
+        {
+          "path": "data/packages/archosauria/crocodylomorphs-birds/nomenclature/itis-tsn-sidecar-000.jsonl.gz",
+          "records": 27,
+          "firstColUsageId": "3FFQ3",
+          "lastColUsageId": "ZKNT",
+          "bytes": 1362,
+          "sha256": "09e2a93841b7b00eefbfcb1366feae8a85b7f696fa6d66cb0786f4d108f50230",
+          "sourceBytes": 10361,
+          "sourceSha256": "94ad8f110b3a824f86617148b8f44257044546a80176e73fa593f9b5647854fc"
+        }
+      ],
+      "upstreamOnly": {
+        "path": "data/packages/archosauria/crocodylomorphs-birds/nomenclature/itis-upstream-only-000.jsonl.gz",
+        "records": 0,
+        "firstColUsageId": null,
+        "lastColUsageId": null,
+        "bytes": 21,
+        "sha256": "74420f89d2d2a4256b5b578f1c2a01dd2b605f9aca4905db839d008cfd29cac0",
+        "sourceBytes": 1,
+        "sourceSha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "colOwnership": null,
+        "firstTsn": null,
+        "lastTsn": null
+      }
+    }
+  },
+  "deliveryContract": {
+    "pagesLight": "Pages may include only the small per-package descriptors and omit all row-level sidecar shards.",
+    "androidIosFull": "Android and iOS must include each descriptor, all listed colUsageId shards and each listed upstream-only shard byte-for-byte.",
+    "runtimeChange": "This data import changes no runtime/version/release manifest."
+  },
+  "generatedBy": {
+    "scriptPath": "scripts/build-itis-reptilia-sidecars.mjs",
+    "scriptSha256": "9d41c15d864e12b84026eafa5e30459300f7be27e40f6a5642140d6c749a4be4",
+    "deterministic": "Pinned input checksums, fixed roots, exact SQL, exact representation-only normalization and stable sorting; no wall-clock fields or fuzzy matching."
+  }
+}
