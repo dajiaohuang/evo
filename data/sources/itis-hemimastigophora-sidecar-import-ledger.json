@@ -1,0 +1,278 @@
+{
+  "schemaVersion": 1,
+  "importType": "COL26.8-to-ITIS-exact-hemimastigophora-root-boundary-audit",
+  "generatedFrom": {
+    "sourcePath": "data/sources/itis-2026-08-26.json",
+    "sourceSha256": "38a7a55b4e98cafc66790e47f6bd637e298e23fd691e4771c755b38e4a02d7fc",
+    "itisDatabaseMember": "itisSqlite082626/ITIS.sqlite",
+    "itisDatabaseSha256": "ea7304536cfd7b1e2636d383911ca7931fc83d9ab1194ca2a3c020ea2daf1719",
+    "colRegistryManifestPath": "data/catalogue-of-life/releases/2026-08-20/registry/manifest.json",
+    "colRegistryManifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151",
+    "colOwnershipPath": "data/registry/package-species-coverage.json",
+    "colOwnershipSha256": "a297bc8a67ce60806fdee733464a79bfcc42e255f7e59535b01f94013c19dfea"
+  },
+  "scopeAudit": {
+    "packageRootUsageIds": [
+      "C",
+      "Z"
+    ],
+    "packageRootScientificNames": [
+      "Chromista",
+      "Protozoa"
+    ],
+    "colRootUsageId": null,
+    "colRootScientificName": "Hemimastigophora",
+    "colStrictAcceptedSpecies": 0,
+    "packageStrictAcceptedSpecies": 61518,
+    "packageOutOfScopeStrictAcceptedSpecies": 61518,
+    "colRootAudit": "No exact COL26.8 usage node named Hemimastigophora exists in the complete pinned hierarchy; no strict COL partition is claimed.",
+    "boundary": "This boundary audit contains no Hemimastigophora rows: COL26.8 has no exact Hemimastigophora node, and ITIS 2026-08-26 has no exact-name record. No broader, narrower or neighboring taxon is promoted into an authority partition.",
+    "rootBoundaryAudit": {
+      "colExactRootCandidates": [],
+      "itisExactNameCandidates": [],
+      "itisAcceptedExactRootCandidates": [],
+      "selectedColRoot": null,
+      "selectedItisRoot": null,
+      "decision": "No exact accepted Hemimastigophora root exists in either pinned authority. No COL or ITIS range is asserted; the empty native shard is retained as an explicit boundary result until a future release supplies an exact accepted root."
+    },
+    "partitionOverlapAudit": {
+      "auditedSidecars": [
+        {
+          "descriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-amoebozoa-sidecar.json",
+          "label": "Amoebozoa",
+          "colRootUsageId": "622B2",
+          "itisRootTsn": null,
+          "rows": 1337
+        },
+        {
+          "descriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-apicomplexa-sidecar.json",
+          "label": "Cryptosporidium Tyzzer, 1907",
+          "colRootUsageId": "87FBN",
+          "itisRootTsn": "553099",
+          "rows": 21
+        },
+        {
+          "descriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-bigyra-sidecar.json",
+          "label": "Bigyra",
+          "colRootUsageId": "622CB",
+          "itisRootTsn": "969916",
+          "rows": 53
+        },
+        {
+          "descriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-centrohelida-sidecar.json",
+          "label": "Centrohelida",
+          "colRootUsageId": null,
+          "itisRootTsn": null,
+          "rows": 0
+        },
+        {
+          "descriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-cercozoa-sidecar.json",
+          "label": "Cercozoa",
+          "colRootUsageId": "35",
+          "itisRootTsn": "969919",
+          "rows": 52
+        },
+        {
+          "descriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-chlorophyta-sidecar.json",
+          "label": "Chlorophyta",
+          "colRootUsageId": null,
+          "itisRootTsn": "5414",
+          "rows": 0
+        },
+        {
+          "descriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-choanoflagellatea-sidecar.json",
+          "label": "Choanoflagellatea",
+          "colRootUsageId": null,
+          "itisRootTsn": null,
+          "rows": 0
+        },
+        {
+          "descriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-ciliophora-sidecar.json",
+          "label": "Ciliophora",
+          "colRootUsageId": "3H",
+          "itisRootTsn": "46211",
+          "rows": 8507
+        },
+        {
+          "descriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-cryptophyta-sidecar.json",
+          "label": "Cryptophyta",
+          "colRootUsageId": null,
+          "itisRootTsn": null,
+          "rows": 0
+        },
+        {
+          "descriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-dinoflagellata-sidecar.json",
+          "label": "Dinophyceae (Dinoflagellata)",
+          "colRootUsageId": "622D3",
+          "itisRootTsn": "9874",
+          "rows": 259
+        },
+        {
+          "descriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-euglenozoa-sidecar.json",
+          "label": "Euglenozoa",
+          "colRootUsageId": null,
+          "itisRootTsn": "9601",
+          "rows": 0
+        },
+        {
+          "descriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-glaucophyta-sidecar.json",
+          "label": "Glaucophyta",
+          "colRootUsageId": null,
+          "itisRootTsn": "846495",
+          "rows": 0
+        },
+        {
+          "descriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-haptophyta-sidecar.json",
+          "label": "Haptophyta",
+          "colRootUsageId": null,
+          "itisRootTsn": "2134",
+          "rows": 0
+        },
+        {
+          "descriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-katablepharidota-sidecar.json",
+          "label": "Katablepharidota",
+          "colRootUsageId": null,
+          "itisRootTsn": null,
+          "rows": 0
+        },
+        {
+          "descriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-labyrinthulomycetes-sidecar.json",
+          "label": "Labyrinthulomycetes",
+          "colRootUsageId": null,
+          "itisRootTsn": null,
+          "rows": 0
+        },
+        {
+          "descriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-metamonada-sidecar.json",
+          "label": "Metamonada",
+          "colRootUsageId": null,
+          "itisRootTsn": null,
+          "rows": 0
+        },
+        {
+          "descriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-ochrophyta-sidecar.json",
+          "label": "Ochrophyta",
+          "colRootUsageId": "5H",
+          "itisRootTsn": "969917",
+          "rows": 1101
+        },
+        {
+          "descriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-oomycota-sidecar.json",
+          "label": "itis-oomycota-sidecar.json",
+          "colRootUsageId": null,
+          "itisRootTsn": null,
+          "rows": 1426
+        },
+        {
+          "descriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-opalozoa-sidecar.json",
+          "label": "Opalozoa",
+          "colRootUsageId": null,
+          "itisRootTsn": null,
+          "rows": 0
+        },
+        {
+          "descriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-perkinsozoa-sidecar.json",
+          "label": "Perkinsozoa",
+          "colRootUsageId": null,
+          "itisRootTsn": null,
+          "rows": 0
+        },
+        {
+          "descriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-picozoa-sidecar.json",
+          "label": "Picozoa",
+          "colRootUsageId": null,
+          "itisRootTsn": null,
+          "rows": 0
+        },
+        {
+          "descriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-radiolaria-sidecar.json",
+          "label": "Radiolaria",
+          "colRootUsageId": null,
+          "itisRootTsn": null,
+          "rows": 0
+        },
+        {
+          "descriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-rhodophyta-sidecar.json",
+          "label": "Rhodophyta",
+          "colRootUsageId": null,
+          "itisRootTsn": "660046",
+          "rows": 0
+        },
+        {
+          "descriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-telonemia-sidecar.json",
+          "label": "Telonemia",
+          "colRootUsageId": null,
+          "itisRootTsn": null,
+          "rows": 0
+        }
+      ],
+      "hemimastigophoraColUsageIds": [],
+      "hemimastigophoraItisCurrentTsns": [],
+      "colUsageIdOverlapCount": 0,
+      "itisCurrentTsnOverlapCount": 0,
+      "decision": "The exact-root contract produces no COL usage IDs and no accepted ITIS current-species TSNs. The empty sets are disjoint from every observed existing or in-flight Protists and Chromists ITIS sidecar; no related taxon is used as a proxy."
+    },
+    "itisCurrentSpecies": 0,
+    "itisSpeciesSynonymLinks": 0,
+    "maximumUpdateDates": {
+      "taxonomicUnits": "2026-08-26",
+      "synonymLinks": "2026-08-26"
+    }
+  },
+  "matchingContract": {
+    "normalization": [
+      "Remove the exact trailing COL authorship field from COL scientificName when that suffix is present; no authorship parser is used.",
+      "Normalize Unicode to NFC, replace underscores with spaces, collapse Unicode whitespace and trim.",
+      "For species-rank comparison, remove one parenthesized subgenus token in the exact Genus (Subgenus) species representation; genus and specific epithet must remain unchanged.",
+      "Preserve case, diacritics, punctuation and all remaining name tokens."
+    ],
+    "statuses": {
+      "accepted": "Unavailable: no exact accepted Hemimastigophora root exists in the pinned authorities.",
+      "synonym-current-name-redirect": "Unavailable: no exact accepted Hemimastigophora root exists in the pinned authorities.",
+      "ambiguous": "Unavailable: no exact accepted Hemimastigophora root exists in the pinned authorities.",
+      "unmatched": "Unavailable: no exact accepted Hemimastigophora root exists in the pinned authorities."
+    },
+    "prohibited": "No fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered, package-wide, near-lineage or taxon-substituted matching is used."
+  },
+  "totals": {
+    "total": 0,
+    "accepted": 0,
+    "synonymCurrentNameRedirect": 0,
+    "ambiguous": 0,
+    "unmatched": 0,
+    "itisCurrentSpecies": 0,
+    "itisSpeciesSynonymLinks": 0,
+    "itisUpstreamOnly": 0
+  },
+  "output": {
+    "descriptor": {
+      "path": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-hemimastigophora-sidecar.json",
+      "bytes": 12644,
+      "sha256": "2414ef84a69bc4aeefbdc98d288d370891677ff4a1875a34451bb423e2776aff"
+    },
+    "colUsageIdShards": [],
+    "upstreamOnly": {
+      "path": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-hemimastigophora-upstream-only-0000.jsonl.gz",
+      "records": 0,
+      "firstColUsageId": null,
+      "lastColUsageId": null,
+      "bytes": 20,
+      "sha256": "9ceffb7310338057cfe71a4ae1e2c98d2c485d81cdef906532a801f457a38d64",
+      "sourceBytes": 0,
+      "sourceSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "colOwnership": null,
+      "firstTsn": null,
+      "lastTsn": null
+    }
+  },
+  "deliveryContract": {
+    "pagesLight": "Pages needs only this small descriptor and may omit the empty row-level JSONL gzip shard.",
+    "androidIosFull": "Android and iOS complete-data inventories include the descriptor and listed explicit empty shard; no accepted-current authoritative rows are omitted.",
+    "runtimeChange": "This import deliberately changes no formal runtime or published release manifest."
+  },
+  "generatedBy": {
+    "scriptPath": "scripts/build-itis-hemimastigophora-sidecar.mjs",
+    "scriptSha256": "6ad7ea87057c832a5120b5a76712bf2f3d4e7468febc54bfbc49e537b9472ee4",
+    "deterministic": "Pinned input checksums, exact COL and ITIS root audits, explicit empty partitions, existing-sidecar overlap inventory and deterministic gzip; no wall-clock fields or fuzzy matching."
+  }
+}
