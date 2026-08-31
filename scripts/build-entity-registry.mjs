@@ -144,6 +144,7 @@ const rootOwners = new Map()
 for (const definition of packageDefinitions) {
   for (const rootEntityId of definition.rootEntityIds) rootOwners.set(rootEntityId, definition.id)
 }
+const packageDefinitionById = new Map(packageDefinitions.map((definition) => [definition.id, definition]))
 
 function packageForEntity(entityId) {
   let cursor = entityId
@@ -170,6 +171,26 @@ function descendantIds(node, output = []) {
     descendantIds(child, output)
   }
   return output
+}
+
+function navigationDescription(node, packageId, descendantCount, directClaimCount) {
+  const packageDefinition = packageDefinitionById.get(packageId)
+  if (!packageDefinition) throw new Error(`Entity ${node.id} has no package definition`)
+  const rankedEntryEn = node.rank
+    ? `${/^[aeiou]/i.test(node.rank) ? 'an' : 'a'} ${node.rank} navigation entry`
+    : 'a navigation entry'
+  const scopedNodesEn = descendantCount
+    ? `this node and ${descendantCount} represented descendant node${descendantCount === 1 ? '' : 's'}`
+    : 'this node only'
+  const scopedNodesZh = descendantCount
+    ? `此节点和${descendantCount}个已呈现的后代节点`
+    : '此节点本身'
+  const claimsEn = `${directClaimCount} directly linked source-backed claim${directClaimCount === 1 ? '' : 's'}`
+  const claimsZh = `${directClaimCount}项直接关联且带来源定位的证据主张`
+  return {
+    en: `${node.name} is ${rankedEntryEn} in ${packageDefinition.title}. It is a bounded navigation scope for ${scopedNodesEn}, with ${claimsEn}; it is not a phylogeny, origin, direct-ancestry, date, ecology, distribution, or completeness claim.`,
+    zh: `${node.commonNameZh}（${node.name}）是“${packageDefinition.titleZh}”中的导航条目。它为浏览${scopedNodesZh}提供有限范围，并关联${claimsZh}；不表示系统发育、起源、直接祖先、年代、生态、分布或分类完整性。`,
+  }
 }
 
 function ownerForClaim(claim) {
@@ -430,6 +451,9 @@ const entities = flattenTree(ontology).map((node) => {
   const evidence = { ...treeEvidence.default, ...treeEvidence.nodes[node.id] }
   const resolution = taxonResolutionByEntityId.get(node.id)
   const parentId = parents.get(node.id)
+  const packageId = packageForEntity(node.id)
+  const descendantEntityIds = descendantIds(node)
+  const directClaimCount = claims.filter((claim) => claim.subjectId === `taxon:${node.id}`).length
   const ranges = rangesByEntityId.get(node.id) ?? []
   const globalRange = ranges.find((range) => range.rangeKind === 'global-composite')
   if (!globalRange) throw new Error(`Entity ${node.id} has no canonical global range`)
@@ -444,7 +468,7 @@ const entities = flattenTree(ontology).map((node) => {
     entityKind: node.entityKind,
     contentLevel: node.contentLevel,
     externalResolutionStatus: resolution?.externalResolutionStatus ?? 'not-applicable',
-    packageId: packageForEntity(node.id),
+    packageId,
     parentId,
     parentRelationshipKind: node.parentRelationshipKind ?? (parentId ? 'taxonomic-parent' : null),
     names: {
@@ -454,13 +478,10 @@ const entities = flattenTree(ontology).map((node) => {
     },
     synonyms: [],
     rank: node.rank || 'not-applicable',
-    definition: {
-      en: `${node.name} is represented as a ${node.rank || 'navigation'} entity in the Evo Atlas curated navigation ontology.`,
-      zh: `${node.commonNameZh}（${node.name}）在 Evo Atlas 经整理的导航本体中作为${node.rank ? `${node.rank}层级的` : ''}实体呈现。`,
-    },
+    definition: navigationDescription(node, packageId, descendantEntityIds.length, directClaimCount),
     compositionScope: {
       includesSelf: true,
-      descendantEntityIds: descendantIds(node, []),
+      descendantEntityIds,
     },
     temporalRange: {
       olderMa: globalRange.olderMa,
