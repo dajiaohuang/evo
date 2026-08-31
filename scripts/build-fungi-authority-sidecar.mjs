@@ -1,5 +1,5 @@
 import { createHash } from 'node:crypto'
-import { readFileSync, readdirSync, rmSync, writeFileSync } from 'node:fs'
+import { existsSync, readFileSync, readdirSync, rmSync, writeFileSync } from 'node:fs'
 import { dirname, join, resolve } from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { gunzipSync } from 'node:zlib'
@@ -47,7 +47,7 @@ function usage() {
     'Usage: node scripts/build-fungi-authority-sidecar.mjs [options]',
     '',
     'Builds deterministic package-local Index Fungorum identifier shards from the committed canonical crosswalk.',
-    'The generated extension descriptor is ready to be attached to the Fungi resource-pack manifest by a client-delivery release.',
+    'When resource-pack manifests are present, the generated descriptor is attached to the Fungi pack and collection manifest.',
   ].join('\n')
 }
 
@@ -134,7 +134,7 @@ function chunkBySourceBytes(records) {
   return chunks
 }
 
-export function buildFungiAuthoritySidecar({ packageRoot, crosswalkPath, descriptorPath }) {
+export function buildFungiAuthoritySidecar({ packageRoot, crosswalkPath, descriptorPath, resourcePacksRoot = dirname(packageRoot) }) {
   const { records: species } = readFungiSpecies(packageRoot)
   const crosswalk = loadCrosswalk(crosswalkPath, species)
   const crosswalkByColId = new Map(crosswalk.snapshot.records.map((record) => [record.colId, record]))
@@ -208,7 +208,7 @@ export function buildFungiAuthoritySidecar({ packageRoot, crosswalkPath, descrip
     ],
     integration: {
       targetManifestPath: 'data/catalogue-of-life/releases/2026-08-20/resource-packs/fungi/manifest.json',
-      clientParityRequirement: 'When attached in a release, all files must be copied unchanged into Web runtime, offline ZIP, Android assets, and iOS assets.',
+      clientParityRequirement: 'All files are copied unchanged into Web runtime, offline ZIP, Android assets, and iOS assets.',
       lookup: {
         strategy: 'lexicographic-colId-range-v1',
         ordering: 'Unicode code-unit ascending with no locale folding or normalization.',
@@ -218,6 +218,42 @@ export function buildFungiAuthoritySidecar({ packageRoot, crosswalkPath, descrip
     },
   }
   writeFileSync(descriptorPath, `${JSON.stringify(descriptor, null, 2)}\n`, 'utf8')
+  const packageManifestPath = join(packageRoot, 'manifest.json')
+  const collectionManifestPath = join(resourcePacksRoot, 'manifest.json')
+  if (existsSync(packageManifestPath) && existsSync(collectionManifestPath)) {
+    const packageManifest = JSON.parse(readFileSync(packageManifestPath, 'utf8'))
+    packageManifest.extensions = [
+      ...(packageManifest.extensions ?? []).filter((candidate) => candidate.id !== descriptor.id),
+      descriptor,
+    ]
+    writeFileSync(packageManifestPath, `${JSON.stringify(packageManifest, null, 2)}\n`, 'utf8')
+
+    const collection = JSON.parse(readFileSync(collectionManifestPath, 'utf8'))
+    const packageSummary = collection.packs.find((pack) => pack.packageId === 'fungi')
+    if (!packageSummary) throw new Error('Fungi resource-pack collection descriptor is missing')
+    const manifestBytes = readFileSync(packageManifestPath)
+    Object.assign(packageSummary, {
+      manifestBytes: manifestBytes.byteLength,
+      manifestSha256: sha256(manifestBytes),
+      extensionCount: packageManifest.extensions.length,
+      extensionFileCount: packageManifest.extensions.reduce((sum, extension) => sum + extension.files.length, 0),
+      extensionCompressedBytes: packageManifest.extensions.reduce((sum, extension) => sum + extension.totalCompressedBytes, 0),
+      extensionSourceBytes: packageManifest.extensions.reduce((sum, extension) => sum + extension.totalSourceBytes, 0),
+    })
+    collection.authoritativeSupplements = {
+      ...(collection.authoritativeSupplements ?? {}),
+      indexFungorumIdentifiers: {
+        catalogueRelease: source.catalogueRelease,
+        acceptedSpecies: descriptor.counts.accepted,
+        upstreamOnlyAuditRecords: descriptor.counts.upstreamOnly,
+        upstreamOnlyColOwnership: null,
+        sourceComposition: descriptor.sourceComposition,
+        resourcePack: 'fungi',
+        lookupStrategy: descriptor.integration.lookup.strategy,
+      },
+    }
+    writeFileSync(collectionManifestPath, `${JSON.stringify(collection, null, 2)}\n`, 'utf8')
+  }
   return descriptor
 }
 

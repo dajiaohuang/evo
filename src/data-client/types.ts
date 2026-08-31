@@ -618,7 +618,74 @@ export interface CatalogueWfoPlantResourcePackExtension {
   limitations: string[]
 }
 
-export type CatalogueResourcePackExtension = CatalogueLpsnResourcePackExtension | CatalogueIctvResourcePackExtension | CatalogueWfoPlantResourcePackExtension
+export interface CatalogueIndexFungorumIdentifierRecord {
+  colId: string
+  sourceDatasetId: '2073' | '1148'
+  indexFungorumId: string
+  indexFungorumUrl: string
+  mappingBasis: 'exact-source-dataset-and-verbatim-label' | 'checklistbank-source-record'
+  status: 'accepted'
+}
+
+export interface CatalogueIndexFungorumResourcePackExtension {
+  id: 'index-fungorum-identifiers'
+  recordType: 'external-name-identifier-crosswalk'
+  provider: 'Species Fungorum / Index Fungorum'
+  source: {
+    catalogueRelease: 'COL26.8'
+    catalogueReleaseDate: string
+    checklistBankDatasetKey: number
+    sourceDatasets: Array<{
+      datasetId: '2073' | '1148'
+      title: string
+      version: string
+      issued: string
+      doi: string
+      versionDoi: string
+      license: 'CC-BY-4.0'
+      licenseUrl: string
+      citation: string
+    }>
+    retrievedAt: string
+    indexFungorumUrlTemplate: string
+    canonicalCrosswalkPath: string
+    canonicalCrosswalkBytes: number
+    canonicalCrosswalkSha256: string
+    canonicalCrosswalkSourceBytes: number
+    canonicalCrosswalkSourceSha256: string
+    requestIntegrity: Record<string, string | number>
+    rightsBoundary: string
+  }
+  eligibility: string
+  counts: {
+    acceptedSpecies: number
+    eligible: number
+    accepted: number
+    redirect: 0
+    ambiguous: 0
+    unmatched: 0
+    withheld: 0
+    upstreamOnly: number
+  }
+  sourceComposition: { '2073': number; '1148': number }
+  fields: string[]
+  files: CatalogueResourcePackPayloadFile[]
+  totalCompressedBytes: number
+  totalSourceBytes: number
+  limitations: string[]
+  integration: {
+    targetManifestPath: string
+    clientParityRequirement: string
+    lookup: {
+      strategy: 'lexicographic-colId-range-v1'
+      ordering: string
+      requestPolicy: string
+      forbiddenBehavior: string
+    }
+  }
+}
+
+export type CatalogueResourcePackExtension = CatalogueLpsnResourcePackExtension | CatalogueIctvResourcePackExtension | CatalogueWfoPlantResourcePackExtension | CatalogueIndexFungorumResourcePackExtension
 
 export interface CatalogueResourcePackManifest {
   schemaVersion: 1

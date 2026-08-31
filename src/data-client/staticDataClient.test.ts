@@ -670,6 +670,59 @@ describe('static runtime release coherence', () => {
     await expect(loadCatalogueLpsnIdentifier('missing')).resolves.toBeNull()
   })
 
+  it('loads exactly one COL-ID range shard for a Fungi authority detail lookup', async () => {
+    Object.defineProperty(globalThis, 'Worker', { configurable: true, value: undefined })
+    const records = [
+      { colId: 'M001', sourceDatasetId: '2073', indexFungorumId: '12345', indexFungorumUrl: 'https://www.indexfungorum.org/Names/NamesRecord.asp?RecordID=12345', mappingBasis: 'exact-source-dataset-and-verbatim-label', status: 'accepted' },
+    ] as const
+    const bodies = ['', `${JSON.stringify(records[0])}\n`, '']
+    const ranges = [['A001', 'L999'], ['M001', 'M001'], ['M002', 'Z999']] as const
+    const publishedCounts = [78521, 1, 78522]
+    const files = await Promise.all(ranges.map(async ([minColId, maxColId], index) => ({
+      path: `fungi/index-fungorum-00${index}.jsonl.gz`,
+      url: `releases/dataset-fungi/catalogue/resource-packs/fungi/index-fungorum-00${index}.jsonl`,
+      records: publishedCounts[index],
+      bytes: new TextEncoder().encode(bodies[index]).byteLength,
+      sourceBytes: new TextEncoder().encode(bodies[index]).byteLength,
+      sha256: await sha256Text(bodies[index]),
+      sourceSha256: await sha256Text(bodies[index]),
+      mediaType: 'application/x-ndjson' as const,
+      minColId,
+      maxColId,
+    })))
+    const extension = {
+      id: 'index-fungorum-identifiers', recordType: 'external-name-identifier-crosswalk', provider: 'Species Fungorum / Index Fungorum',
+      source: { sourceDatasets: [] },
+      counts: { acceptedSpecies: 157044, eligible: 157044, accepted: 157044, redirect: 0, ambiguous: 0, unmatched: 0, withheld: 0, upstreamOnly: 201 },
+      sourceComposition: { '2073': 155841, '1148': 1203 },
+      files,
+      integration: { lookup: { strategy: 'lexicographic-colId-range-v1' } },
+    }
+    const packManifest = {
+      schemaVersion: 1, packageType: 'static-nomenclatural-resource-pack', packageId: 'fungi', version: 'dataset-fungi',
+      source: { releaseAlias: 'COL26.8' }, acceptedSpeciesCount: 157044, extensions: [extension],
+    }
+    const packFile = { url: 'releases/dataset-fungi/catalogue/resource-packs/fungi/manifest.json', acceptedSpeciesCount: 157044, sha256: await sha256(packManifest) }
+    const catalogueManifest = { releaseAlias: 'COL26.8', counts: { acceptedSpecies: 2183133 }, resourcePacks: { manifests: { fungi: packFile } } }
+    const catalogueFile = { url: 'releases/dataset-fungi/catalogue/manifest.json', sha256: await sha256(catalogueManifest) }
+    const current = { datasetVersion: 'dataset-fungi', releaseBase: 'releases/dataset-fungi/', catalogue: { manifest: catalogueFile, releaseAlias: 'COL26.8', acceptedSpecies: 2183133 } }
+    const fetchMock = vi.fn(async (input: RequestInfo | URL) => {
+      const url = String(input)
+      if (url.endsWith('/data/current.json')) return responseFor(current)
+      if (url.endsWith(catalogueFile.url)) return responseFor(catalogueManifest)
+      if (url.endsWith(packFile.url)) return responseFor(packManifest)
+      const index = files.findIndex((file) => url.endsWith(file.url))
+      return index >= 0 ? textResponseFor(bodies[index]) : { ok: false, status: 404, arrayBuffer: async () => new ArrayBuffer(0) }
+    })
+    vi.stubGlobal('fetch', fetchMock)
+
+    const { loadCatalogueIndexFungorumIdentifier } = await import('./staticDataClient')
+    await expect(loadCatalogueIndexFungorumIdentifier('M001')).resolves.toMatchObject({ record: records[0] })
+    expect(fetchMock.mock.calls.filter(([input]) => String(input).includes('index-fungorum-'))).toHaveLength(1)
+    expect(fetchMock.mock.calls.some(([input]) => String(input).endsWith(files[0].url))).toBe(false)
+    expect(fetchMock.mock.calls.some(([input]) => String(input).endsWith(files[2].url))).toBe(false)
+  })
+
   it('loads only the requested direct children from a shared parent-hash shard and caches it', async () => {
     const { catalogueRoutePrefix, loadCatalogueChildren } = await import('./staticDataClient')
     const parentId = 'parent-a'

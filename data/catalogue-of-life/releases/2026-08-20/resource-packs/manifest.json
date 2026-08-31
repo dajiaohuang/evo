@@ -58,12 +58,16 @@
     {
       "packageId": "fungi",
       "manifestPath": "fungi/manifest.json",
-      "manifestBytes": 3345,
-      "manifestSha256": "57721ad58860c77e2209b06cee5d512fafce244870ea017928f888c681b8b446",
+      "manifestBytes": 10778,
+      "manifestSha256": "0777eeb8a3e3f52327a63d1a2ab6fba3f75fdcb7aeec5b5510e874a03a808682",
       "acceptedSpeciesCount": 157044,
       "fileCount": 5,
       "totalCompressedBytes": 3408943,
-      "totalSourceBytes": 29748901
+      "totalSourceBytes": 29748901,
+      "extensionCount": 1,
+      "extensionFileCount": 6,
+      "extensionCompressedBytes": 1623111,
+      "extensionSourceBytes": 37040225
     },
     {
       "packageId": "protists-chromists",
@@ -114,6 +118,18 @@
         "early-land-plants"
       ],
       "residualResourcePack": "other-plants"
+    },
+    "indexFungorumIdentifiers": {
+      "catalogueRelease": "COL26.8",
+      "acceptedSpecies": 157044,
+      "upstreamOnlyAuditRecords": 201,
+      "upstreamOnlyColOwnership": null,
+      "sourceComposition": {
+        "1148": 1203,
+        "2073": 155841
+      },
+      "resourcePack": "fungi",
+      "lookupStrategy": "lexicographic-colId-range-v1"
     }
   }
 }

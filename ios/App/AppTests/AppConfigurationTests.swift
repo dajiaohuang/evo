@@ -141,6 +141,7 @@ final class AppConfigurationTests: XCTestCase {
         let packManifests = try XCTUnwrap(resourcePacks["manifests"] as? [String: [String: Any]])
         var resourcePackRecords = 0
         var lpsnIdentifierRecords = 0
+        var indexFungorumIdentifierRecords = 0
         var ictvSpeciesRecords = 0
         var ictvIsolateRecords = 0
         var wfoSupplementRecords = 0
@@ -178,6 +179,36 @@ final class AppConfigurationTests: XCTestCase {
                     XCTAssertEqual(extensionFile["sha256"] as? String, extensionInventoryRecord["sha256"] as? String)
                     try verifyBundled(record: extensionInventoryRecord, below: dataRoot)
                     lpsnIdentifierRecords += try XCTUnwrap(extensionFile["records"] as? Int)
+                }
+            } else if packageId == "fungi" {
+                let extensions = try XCTUnwrap(pack["extensions"] as? [[String: Any]])
+                XCTAssertEqual(extensions.count, 1)
+                let authority = try XCTUnwrap(extensions.first)
+                XCTAssertEqual(authority["id"] as? String, "index-fungorum-identifiers")
+                XCTAssertEqual(authority["provider"] as? String, "Species Fungorum / Index Fungorum")
+                let counts = try XCTUnwrap(authority["counts"] as? [String: Any])
+                XCTAssertEqual(counts["accepted"] as? Int, 157_044)
+                XCTAssertEqual(counts["redirect"] as? Int, 0)
+                XCTAssertEqual(counts["ambiguous"] as? Int, 0)
+                XCTAssertEqual(counts["unmatched"] as? Int, 0)
+                XCTAssertEqual(counts["withheld"] as? Int, 0)
+                XCTAssertEqual(counts["upstreamOnly"] as? Int, 201)
+                XCTAssertEqual(((authority["integration"] as? [String: Any])?["lookup"] as? [String: Any])?["strategy"] as? String, "lexicographic-colId-range-v1")
+                let extensionFiles = try XCTUnwrap(authority["files"] as? [[String: Any]])
+                XCTAssertEqual(extensionFiles.count, 6)
+                var previousMax: String?
+                for extensionFile in extensionFiles {
+                    let minColId = try XCTUnwrap(extensionFile["minColId"] as? String)
+                    let maxColId = try XCTUnwrap(extensionFile["maxColId"] as? String)
+                    XCTAssertLessThanOrEqual(minColId, maxColId)
+                    if let previousMax { XCTAssertLessThan(previousMax, minColId) }
+                    previousMax = maxColId
+                    let extensionPath = try XCTUnwrap(extensionFile["url"] as? String)
+                    let inventoryRecord = try XCTUnwrap(files.first { ($0["url"] as? String) == extensionPath }, "Fungi authority shard missing from release inventory")
+                    XCTAssertEqual(extensionFile["bytes"] as? Int, inventoryRecord["bytes"] as? Int)
+                    XCTAssertEqual(extensionFile["sha256"] as? String, inventoryRecord["sha256"] as? String)
+                    try verifyBundled(record: inventoryRecord, below: dataRoot)
+                    indexFungorumIdentifierRecords += try XCTUnwrap(extensionFile["records"] as? Int)
                 }
             } else if packageId == "viruses" {
                 let extensions = try XCTUnwrap(pack["extensions"] as? [[String: Any]])
@@ -228,12 +259,13 @@ final class AppConfigurationTests: XCTestCase {
                     wfoSupplementRecords += try XCTUnwrap(extensionFile["records"] as? Int)
                 }
             } else {
-                XCTAssertNil(pack["extensions"], "Only Archaea, Bacteria, Viruses and Other Plants may carry resource-pack extensions")
+                XCTAssertNil(pack["extensions"], "Only Archaea, Bacteria, Fungi, Viruses and Other Plants may carry resource-pack extensions")
             }
             resourcePackRecords += packageRecords
         }
         XCTAssertEqual(resourcePackRecords, 363_160)
         XCTAssertEqual(lpsnIdentifierRecords, 22_360)
+        XCTAssertEqual(indexFungorumIdentifierRecords, 157_044)
         XCTAssertEqual(ictvSpeciesRecords, 17_554)
         XCTAssertEqual(ictvIsolateRecords, 19_285)
         XCTAssertEqual(wfoSupplementRecords, 61_449)

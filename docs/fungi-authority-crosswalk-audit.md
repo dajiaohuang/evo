@@ -43,9 +43,9 @@ No case folding, authorship normalization, edit distance, fuzzy matching, cross-
 - Package-local payload: six deterministic `index-fungorum-*.jsonl.gz` shards containing all 157,044 COL mappings; 1,623,111 compressed bytes total.
 - Integration descriptor: `data/catalogue-of-life/releases/2026-08-20/resource-packs/fungi/index-fungorum-extension.json`.
 
-The original five `species-*.jsonl.gz` shards are unchanged byte-for-byte. The extension descriptor is intentionally not yet attached to the public Fungi manifest in this data-only commit. A later client-delivery release must attach the descriptor and copy the six payload files unchanged into Web runtime data, browser-offline data, the downloadable ZIP, Android assets, and iOS assets. The same release must update runtime smoke coverage and verify matching bytes and SHA-256 values across every client.
+The original five `species-*.jsonl.gz` shards are unchanged byte-for-byte. In rc62 the extension descriptor is attached to the public Fungi manifest. The runtime builder copies the six payloads unchanged into the Web release inventory, browser-offline plan, Fungi ZIP, Android assets, and iOS assets. Runtime smoke plus Android and iOS source tests verify each descriptor byte count and SHA-256 against the same release-inventory record.
 
-The six payloads are sorted by COL ID with non-overlapping inclusive `minColId` / `maxColId` ranges. A single-species detail query must select the sole matching range and load only that one compressed payload. Downloading or parsing all 157,044 authority records for one detail page is explicitly outside the integration contract. The full canonical crosswalk remains available for audit and rebuild work, not interactive detail lookup.
+The six payloads are sorted by COL ID with non-overlapping inclusive `minColId` / `maxColId` ranges. A single-species detail query selects the sole matching range and loads only that compressed payload. The runtime unit test asserts that the other five payloads are not requested. Downloading or parsing all 157,044 authority records for one detail page is explicitly outside the integration contract. The full canonical crosswalk remains available for audit and rebuild work, not interactive detail lookup.
 
 ## Limitations
 

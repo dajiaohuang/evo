@@ -546,6 +546,61 @@ export async function loadCatalogueIctvVirusRecord(colId: string): Promise<impor
   return records.find((record) => record.colId === colId) ?? null
 }
 
+function compareCodeUnits(left: string, right: string): number {
+  return left < right ? -1 : left > right ? 1 : 0
+}
+
+function selectIndexFungorumShard(files: import('./types').CatalogueResourcePackPayloadFile[], colId: string): import('./types').CatalogueResourcePackPayloadFile {
+  let previousMax: string | null = null
+  let selected: import('./types').CatalogueResourcePackPayloadFile | null = null
+  for (const file of files) {
+    if (!file.minColId || !file.maxColId || compareCodeUnits(file.minColId, file.maxColId) > 0
+      || (previousMax !== null && compareCodeUnits(previousMax, file.minColId) >= 0)) {
+      throw new Error('Fungi authority shard ranges are incomplete, unordered, or overlapping')
+    }
+    if (compareCodeUnits(file.minColId, colId) <= 0 && compareCodeUnits(colId, file.maxColId) <= 0) {
+      if (selected) throw new Error(`Multiple Fungi authority shard ranges cover ${colId}`)
+      selected = file
+    }
+    previousMax = file.maxColId
+  }
+  if (!selected) throw new Error(`Fungi authority shard range does not cover ${colId}`)
+  return selected
+}
+
+export async function loadCatalogueIndexFungorumIdentifier(colId: string): Promise<{
+  extension: import('./types').CatalogueIndexFungorumResourcePackExtension
+  record: import('./types').CatalogueIndexFungorumIdentifierRecord
+} | null> {
+  const manifest = await loadCatalogueResourcePackManifest('fungi')
+  const extension = manifest.extensions?.find((candidate): candidate is import('./types').CatalogueIndexFungorumResourcePackExtension => candidate.id === 'index-fungorum-identifiers')
+  if (!extension || extension.provider !== 'Species Fungorum / Index Fungorum'
+    || extension.recordType !== 'external-name-identifier-crosswalk'
+    || extension.integration.lookup.strategy !== 'lexicographic-colId-range-v1'
+    || extension.counts.acceptedSpecies !== manifest.acceptedSpeciesCount
+    || extension.counts.accepted !== manifest.acceptedSpeciesCount
+    || extension.counts.eligible !== manifest.acceptedSpeciesCount
+    || extension.counts.redirect !== 0 || extension.counts.ambiguous !== 0
+    || extension.counts.unmatched !== 0 || extension.counts.withheld !== 0
+    || extension.counts.upstreamOnly !== 201
+    || extension.sourceComposition['2073'] !== 155841 || extension.sourceComposition['1148'] !== 1203
+    || extension.files.reduce((sum, file) => sum + file.records, 0) !== manifest.acceptedSpeciesCount) {
+    throw new Error('Fungi authority extension does not match the current nomenclatural pack')
+  }
+  const file = selectIndexFungorumShard(extension.files, colId)
+  const records = await loadRuntimeFile<import('./types').CatalogueIndexFungorumIdentifierRecord[]>(file)
+  if (records.length !== file.records || records[0]?.colId !== file.minColId || records.at(-1)?.colId !== file.maxColId
+    || records.some((record, index) => record.status !== 'accepted'
+      || !/^(2073|1148)$/.test(record.sourceDatasetId)
+      || !/^\d+$/.test(record.indexFungorumId)
+      || record.indexFungorumUrl !== `https://www.indexfungorum.org/Names/NamesRecord.asp?RecordID=${record.indexFungorumId}`
+      || (index > 0 && compareCodeUnits(records[index - 1].colId, record.colId) >= 0))) {
+    throw new Error('Fungi authority shard contents do not match its range descriptor')
+  }
+  const record = records.find((candidate) => candidate.colId === colId)
+  return record ? { extension, record } : null
+}
+
 export async function loadCatalogueWfoPlantSupplement(): Promise<{
   extension: import('./types').CatalogueWfoPlantResourcePackExtension
   records: import('./types').WfoPlantRecord[]

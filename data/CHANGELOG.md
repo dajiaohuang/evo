@@ -1,5 +1,12 @@
 # Dataset changelog
 
+## App 0.20.13 / 2026.08-static-v5-rc62 — 2026-08-31
+
+- Added a release-pinned CC BY 4.0 Species Fungorum / Index Fungorum identifier extension for every one of the 157,044 strict accepted COL26.8 Fungi species: 155,841 records from Species Fungorum Plus `Apr 2024` and 1,203 from the fixed Microsporidia `Nov 2015` dataset. All records resolve to accepted authority IDs; redirect, ambiguous, unmatched and withheld are zero.
+- Required byte-identical name-and-authorship matches inside the declared `sourceDatasetId`, with only 60 exceptional records resolved through the exact ChecklistBank source-record link. No normalization, fuzzy matching, cross-dataset guessing or live-site scraping is used. The two source snapshots' 201 additional accepted species remain audit-only and are not presented as COL records.
+- Published six deterministic, non-overlapping COL-ID range shards through the same Fungi manifest, package ZIP, browser offline inventory and Android/iOS full-data bundle. A detail lookup selects and parses exactly one matching shard; tests assert that it does not fetch the other five or the full 157,044-record audit snapshot.
+- Preserved the original five Fungi COL species shards byte-for-byte together with rc61 WFO, rc60 ICTV, rc59 WoRMS/LPSN and compact PBDB gzip data. Android `versionCode` and iOS build number advance to `16`.
+
 ## App 0.20.12 / 2026.08-static-v5-rc61 — 2026-08-31
 
 - Pinned the official CC0 World Flora Online Plant List `2026-06`, version DOI `10.5281/zenodo.20782718` (concept DOI `10.5281/zenodo.7460141`), with the official archive MD5, local SHA-256 and every expanded source-member hash retained in the source ledger.

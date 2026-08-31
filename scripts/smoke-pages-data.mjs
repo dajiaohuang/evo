@@ -401,6 +401,7 @@ if (catalogue.resourcePacks?.packageCount !== 7
 } else {
   let resourcePackRecords = 0
   let lpsnIdentifierRecords = 0
+  let indexFungorumIdentifierRecords = 0
   let wfoSupplementRecords = 0
   for (const packageId of expectedResourcePackIds) {
     const manifestFile = catalogue.resourcePacks.manifests[packageId]
@@ -498,6 +499,61 @@ if (catalogue.resourcePacks?.packageCount !== 7
           failures.push(`${packageId}: LPSN identifier files do not match extension totals`)
         }
         lpsnIdentifierRecords += extensionRecords
+      }
+    } else if (packageId === 'fungi') {
+      const authority = extensions.find((candidate) => candidate.id === 'index-fungorum-identifiers')
+      if (extensions.length !== 1 || !authority || authority.provider !== 'Species Fungorum / Index Fungorum'
+        || authority.recordType !== 'external-name-identifier-crosswalk'
+        || authority.integration?.lookup?.strategy !== 'lexicographic-colId-range-v1'
+        || authority.counts?.acceptedSpecies !== 157044 || authority.counts?.accepted !== 157044
+        || authority.counts?.eligible !== 157044 || authority.counts?.upstreamOnly !== 201
+        || ['redirect', 'ambiguous', 'unmatched', 'withheld'].some((status) => authority.counts?.[status] !== 0)
+        || authority.sourceComposition?.['2073'] !== 155841 || authority.sourceComposition?.['1148'] !== 1203
+        || authority.source?.canonicalCrosswalkSha256 !== '5e6ecd007451ac1bf0aab2f07dd6ef9d05530439476b8867e2962c1f73f82607'
+        || authority.source?.canonicalCrosswalkSourceSha256 !== '903be85cc09b6375962ee915e27e93a7b6edc3299bcfeaa414dcdec410f8b748') {
+        failures.push('fungi: pinned Species Fungorum / Index Fungorum extension identity or audit boundary is incomplete')
+      } else {
+        let records = 0
+        let compressedBytes = 0
+        let sourceBytes = 0
+        let previousMax = null
+        const seenColIds = new Set()
+        const seenAuthorityIds = new Set()
+        for (const file of authority.files) {
+          releaseUrl(file, 'fungi authority identifier shard')
+          checkFile(file, 'fungi authority identifier shard')
+          const compressed = readFileSync(join(dataRoot, file.url))
+          const source = gunzipSync(compressed)
+          const rows = source.toString('utf8').split('\n').filter(Boolean).map((line) => JSON.parse(line))
+          if (!file.minColId || !file.maxColId || file.minColId > file.maxColId
+            || (previousMax !== null && previousMax >= file.minColId)
+            || rows.length !== file.records || rows[0]?.colId !== file.minColId || rows.at(-1)?.colId !== file.maxColId
+            || createHash('sha256').update(source).digest('hex') !== file.sourceSha256) {
+            failures.push('fungi: authority shard range, count, bytes, or source SHA-256 mismatch')
+          }
+          for (const [index, record] of rows.entries()) {
+            if (!record.colId || seenColIds.has(record.colId) || !/^(2073|1148)$/.test(record.sourceDatasetId ?? '')
+              || !/^\d+$/.test(record.indexFungorumId ?? '') || seenAuthorityIds.has(record.indexFungorumId)
+              || record.indexFungorumUrl !== `https://www.indexfungorum.org/Names/NamesRecord.asp?RecordID=${record.indexFungorumId}`
+              || record.status !== 'accepted'
+              || !['exact-source-dataset-and-verbatim-label', 'checklistbank-source-record'].includes(record.mappingBasis)
+              || (index > 0 && rows[index - 1].colId >= record.colId)) {
+              failures.push('fungi: authority shard contains an invalid, duplicate, or unordered mapping')
+              break
+            }
+            seenColIds.add(record.colId)
+            seenAuthorityIds.add(record.indexFungorumId)
+          }
+          previousMax = file.maxColId
+          records += rows.length
+          compressedBytes += compressed.byteLength
+          sourceBytes += source.byteLength
+        }
+        if (records !== authority.counts.accepted || compressedBytes !== authority.totalCompressedBytes
+          || sourceBytes !== authority.totalSourceBytes || seenColIds.size !== manifest.acceptedSpeciesCount) {
+          failures.push('fungi: authority files do not cover the complete COL Fungi pack exactly once')
+        }
+        indexFungorumIdentifierRecords += records
       }
     } else if (packageId === 'viruses') {
       const ictvExtension = extensions.find((candidate) => candidate.id === 'ictv-virus-metadata')
@@ -632,6 +688,7 @@ if (catalogue.resourcePacks?.packageCount !== 7
   if (resourcePackRecords !== 363160) failures.push('Catalogue nomenclatural resource-pack records do not total 363,160')
   const expectedLpsnIdentifierRecords = Object.values(expectedLpsnExtensions).reduce((sum, extension) => sum + extension.counts.resolved, 0)
   if (lpsnIdentifierRecords !== expectedLpsnIdentifierRecords) failures.push(`LPSN identifier extensions contain ${lpsnIdentifierRecords} records; expected ${expectedLpsnIdentifierRecords}`)
+  if (indexFungorumIdentifierRecords !== 157044) failures.push(`Fungi authority extension contains ${indexFungorumIdentifierRecords} records; expected 157,044`)
   if (wfoSupplementRecords !== 61449) failures.push(`WFO Other Plants extension contains ${wfoSupplementRecords} records; expected 61,449`)
 }
 

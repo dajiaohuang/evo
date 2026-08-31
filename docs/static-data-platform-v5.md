@@ -2,6 +2,8 @@
 
 Evo Atlas publishes one static application and one static scientific-data namespace at `/evo/data/`. Runtime use has no database, API server, external object store or required release asset.
 
+rc62 adds a release-pinned Species Fungorum / Index Fungorum identifier extension for every one of the 157,044 accepted COL26.8 Fungi species. Six non-overlapping COL-ID range shards are copied unchanged through the Fungi manifest, ZIP, browser offline storage, release inventory, Android and iOS. The catalogue detail client chooses the sole matching range and downloads only that payload; a unit test asserts that one lookup requests exactly one sidecar shard. The 201 additional accepted source records remain canonical-audit-only and never receive COL ownership.
+
 ## Canonical and runtime layers
 
 rc61 adds the complete release-pinned WFO Plant List `2026-06` projection. Exact case-, diacritic-, punctuation- and authorship-preserving rules classify every one of the 388,686 COL26.8 plant species as accepted, explicit synonym redirect, ambiguous, unmatched or withheld. The 60,751 WFO accepted species without an unambiguous COL link stay in a separate null-ownership partition. Three rich-package collection descriptors and the Other Plants extension deliver the same deterministic NDJSON gzip shards through runtime manifests, ZIPs, explicit offline storage, the release inventory, Android and iOS; no COL species shard is rewritten.
@@ -50,13 +52,14 @@ data/releases/<datasetVersion>/catalogue/resource-packs/<package>/manifest.json
 data/releases/<datasetVersion>/catalogue/resource-packs/<package>/species-<shard>.jsonl.gz
 data/releases/<datasetVersion>/catalogue/resource-packs/archaea/lpsn-000.jsonl.gz
 data/releases/<datasetVersion>/catalogue/resource-packs/viruses/ictv-000.jsonl.gz
+data/releases/<datasetVersion>/catalogue/resource-packs/fungi/index-fungorum-<shard>.jsonl.gz
 data/releases/<datasetVersion>/catalogue/resource-packs/sources.json.gz
 data/releases/<datasetVersion>/downloads/<package>-<version>.zip
 ```
 
 The browser fetches these files through `src/data-client/staticDataClient.ts`. Package manifests are checksum-verified like payloads, and their `version` must equal the bootstrap `datasetVersion`. On a checksum mismatch the client removes the URL from browser caches and performs one network refetch before failing. Versioned URLs and memory-cache keys prevent release mixing.
 
-Resource-pack extension files are separate from `manifest.files`, so they cannot alter accepted-species shard counts. The runtime builder copies their source bytes unchanged, adds release URLs, includes them in the owning ZIP and release inventory, and therefore supplies the same checksummed bytes to Web offline storage and the Android/iOS full-data bundle. The catalogue client loads the Archaea LPSN and Viruses ICTV extensions lazily and independently of their species shards.
+Resource-pack extension files are separate from `manifest.files`, so they cannot alter accepted-species shard counts. The runtime builder copies their source bytes unchanged, adds release URLs, includes them in the owning ZIP and release inventory, and therefore supplies the same checksummed bytes to Web offline storage and the Android/iOS full-data bundle. The catalogue client loads the Archaea LPSN and Viruses ICTV extensions lazily and independently of their species shards; Fungi authority details additionally use COL-ID ranges so one species request loads only one of six payloads.
 
 ## Paleogeography boundary
 
