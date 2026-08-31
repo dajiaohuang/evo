@@ -335,9 +335,17 @@ public class AppInstrumentedTest {
             } else if (packageId.equals("other-animals")) {
                 JSONArray extensions = pack.getJSONArray("extensions");
                 assertEquals(6, extensions.length());
-                String[] expectedIds = new String[]{"itis-platyhelminthes-tsn-crosswalk", "itis-rotifera-tsn-crosswalk", "itis-bryozoa-tsn-crosswalk", "itis-nemertea-tsn-crosswalk", "itis-tunicata-cephalochordata-tsn-crosswalk", "itis-acanthocephala-tsn-crosswalk"};
-                int[] expectedFiles = new int[]{15, 3, 3, 2, 2, 3};
-                int[] expectedRecords = new int[]{28252, 2662, 20754, 1416, 3242, 1330};
+                String[] expectedIds = new String[]{
+                    "itis-platyhelminthes-tsn-crosswalk", "itis-rotifera-tsn-crosswalk", "itis-bryozoa-tsn-crosswalk",
+                    "itis-nemertea-tsn-crosswalk", "itis-tunicata-cephalochordata-tsn-crosswalk", "itis-acanthocephala-tsn-crosswalk",
+                    "itis-entoprocta-tsn-crosswalk", "itis-tardigrada-tsn-crosswalk", "itis-chaetognatha-tsn-crosswalk",
+                    "itis-ctenophora-tsn-crosswalk", "itis-kinorhyncha-tsn-crosswalk", "itis-gastrotricha-tsn-crosswalk",
+                    "itis-priapulida-tsn-crosswalk", "itis-onychophora-tsn-crosswalk", "itis-hemichordata-tsn-crosswalk",
+                    "itis-sipuncula-tsn-crosswalk", "itis-nematomorpha-tsn-crosswalk", "itis-phoronida-tsn-crosswalk",
+                    "itis-gnathostomulida-tsn-crosswalk", "itis-loricifera-tsn-crosswalk"
+                };
+                int[] expectedFiles = new int[]{15, 3, 3, 2, 2, 3, 2, 3, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2};
+                int[] expectedRecords = new int[]{28252, 2662, 20754, 1416, 3242, 1330, 171, 1461, 156, 204, 420, 997, 23, 235, 139, 205, 404, 19, 104, 46};
                 for (int extensionIndex = 0; extensionIndex < extensions.length(); extensionIndex += 1) {
                     JSONObject authority = extensions.getJSONObject(extensionIndex);
                     assertEquals(expectedIds[extensionIndex], authority.getString("id"));
@@ -441,7 +449,7 @@ public class AppInstrumentedTest {
         assertEquals(22360, lpsnIdentifierRecords);
         assertEquals(157044, indexFungorumIdentifierRecords);
         assertEquals(47975, foraminiferaAuthorityRecords);
-        assertEquals(57656, otherAnimalsItisRecords);
+        assertEquals(62240, otherAnimalsItisRecords);
         assertEquals(17554, ictvSpeciesRecords);
         assertEquals(19285, ictvIsolateRecords);
         assertEquals(61449, wfoSupplementRecords);

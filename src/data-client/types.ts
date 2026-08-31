@@ -994,6 +994,7 @@ export type CatalogueItisOtherAnimalsScope =
   | 'nematomorpha'
   | 'phoronida'
   | 'gnathostomulida'
+  | 'loricifera'
 
 export interface CatalogueItisOtherAnimalsResourcePackExtension {
   id: `itis-${CatalogueItisOtherAnimalsScope}-tsn-crosswalk`

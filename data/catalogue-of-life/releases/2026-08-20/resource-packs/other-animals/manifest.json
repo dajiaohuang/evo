@@ -1282,8 +1282,8 @@
         "license": "CC0-1.0",
         "citationDoi": "10.5066/F7KH0KBK",
         "canonicalDescriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals/itis-chaetognatha-sidecar.json",
-        "canonicalDescriptorBytes": 6275,
-        "canonicalDescriptorSha256": "f90cc4b678960f045bd076be4f5b0281b4b35acc8bf7ab4eb3571cd81230d20e"
+        "canonicalDescriptorBytes": 6337,
+        "canonicalDescriptorSha256": "391199a7e34f1c46aabc90146dd4bc3cab47502cf58c9541ede9aba0b6c92cb4"
       },
       "scope": {
         "colRootUsageId": "36",
@@ -1395,8 +1395,8 @@
         "license": "CC0-1.0",
         "citationDoi": "10.5066/F7KH0KBK",
         "canonicalDescriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals/itis-ctenophora-sidecar.json",
-        "canonicalDescriptorBytes": 6429,
-        "canonicalDescriptorSha256": "c8cd41d9efe78ed34ca2c5590ec34a616b334a598ab455a648882f994ca45ff0"
+        "canonicalDescriptorBytes": 6491,
+        "canonicalDescriptorSha256": "cd722d9ede1fc4461e21d9d4707701faa12b781de8a563d2278970a7d6b1f30a"
       },
       "scope": {
         "colRoots": [
@@ -2537,6 +2537,124 @@
       },
       "limitations": [
         "This CC0 ITIS sidecar is a frozen exact nomenclatural crosswalk for the declared Gnathostomulida partition inside the mixed Other Animals resource pack. It is not a global gnathostomulidan checklist, final classification authority, phylogeny, species-concept equivalence assertion, biological dossier or scientific-review record.",
+        "No fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered or taxon-substituted matching is used."
+      ],
+      "integration": {
+        "clientParityRequirement": "Android and iOS must copy every native-full file byte-for-byte; Web uses the web-light summary profile.",
+        "lookup": {
+          "strategy": "lexicographic-colId-range-v1",
+          "ordering": "Unicode code-unit ascending",
+          "requestPolicy": "Select the sole inclusive COL-ID range and read at most one COL partition; upstream-only files are never selected by COL ID."
+        }
+      }
+    },
+    {
+      "id": "itis-loricifera-tsn-crosswalk",
+      "recordType": "release-pinned-exact-nomenclatural-crosswalk",
+      "provider": "Integrated Taxonomic Information System",
+      "source": {
+        "datasetId": "itis-2026-08-26",
+        "exportDate": "2026-08-26",
+        "rootTsn": "202425",
+        "license": "CC0-1.0",
+        "citationDoi": "10.5066/F7KH0KBK",
+        "canonicalDescriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals/itis-loricifera-sidecar.json",
+        "canonicalDescriptorBytes": 7210,
+        "canonicalDescriptorSha256": "68982c25c1960e9e37eb94aa5185d9d3d001cf6446135a67155916a19d89032d"
+      },
+      "scope": {
+        "colRootUsageId": "B8VF6",
+        "colRootScientificName": "Loricifera Kristensen, 1983",
+        "colStrictAcceptedSpecies": 46,
+        "packageStrictAcceptedSpecies": 99161,
+        "packageOutOfScopeStrictAcceptedSpecies": 99115,
+        "packageOwnership": "other-animals is the deterministic COL26.8 residual route below Animalia (N); Loricifera B8VF6 has no more-specific static-package route.",
+        "nonApplicableBoundary": "All other-animals strict accepted species not descending from B8VF6 are non-applicable to this Loricifera sidecar. They remain in the mixed resource pack and are not silently mapped to ITIS Loricifera.",
+        "sourceComposition": {
+          "1182": 46
+        }
+      },
+      "matching": {
+        "normalization": [
+          "Remove the exact trailing COL authorship field from COL scientificName when that suffix is present; no authorship parser is used.",
+          "Normalize Unicode to NFC, replace underscores with spaces, collapse Unicode whitespace and trim.",
+          "For species-rank comparison, remove one parenthesized subgenus token in the exact Genus (Subgenus) species representation; genus and specific epithet must remain unchanged.",
+          "Preserve case, diacritics, punctuation and all remaining name tokens."
+        ],
+        "statuses": {
+          "accepted": "The normalized COL name resolves to exactly one valid ITIS Loricifera species and directly equals that current ITIS name.",
+          "synonym-current-name-redirect": "The normalized COL name equals official ITIS invalid species-name evidence that resolves to exactly one valid ITIS Loricifera species.",
+          "ambiguous": "The normalized exact evidence resolves to more than one valid ITIS Loricifera species TSN.",
+          "unmatched": "No normalized exact valid-name or official ITIS species-synonym evidence resolves to a valid ITIS Loricifera species."
+        },
+        "prohibited": "No fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered or taxon-substituted matching is used."
+      },
+      "evidenceBoundary": {
+        "en": "This CC0 ITIS sidecar is a frozen exact nomenclatural crosswalk for the COL26.8 Loricifera partition. It is not a final classification authority, phylogeny, species-concept equivalence assertion, biological dossier, fossil record or scientific-review record. The other-animals resource pack is mixed; its non-Loricifera remainder is explicitly out of scope.",
+        "zh": "此 CC0 ITIS 侧车是 COL26.8 Loricifera 分区的冻结严格命名交叉映射；它不是最终分类权威、系统发育树、物种概念等同性声明、生物档案、化石记录或科学审查记录。other-animals 资源包是混合包，其余非 Loricifera 物种被明确排除在本侧车之外。"
+      },
+      "counts": {
+        "eligible": 46,
+        "records": 46,
+        "accepted": 22,
+        "redirects": 0,
+        "ambiguous": 0,
+        "unmatched": 24,
+        "withheld": 0,
+        "upstreamOnly": 0,
+        "nonApplicable": 99115
+      },
+      "files": [
+        {
+          "path": "other-animals/itis-loricifera-sidecar-000.jsonl.gz",
+          "records": 46,
+          "bytes": 1714,
+          "sourceBytes": 13897,
+          "sha256": "a276865818067e92846900ae12aded1a0d0bd413a5414d1a16b8648c0046c11f",
+          "sourceSha256": "39a60d39ba58c00762307d0c13716d54978e59214614306345173eddcf455b2b",
+          "encoding": "gzip",
+          "mediaType": "application/x-ndjson",
+          "minColId": "32C2F",
+          "maxColId": "JVB4",
+          "role": "col-partition"
+        },
+        {
+          "path": "other-animals/itis-loricifera-upstream-only-000.jsonl.gz",
+          "records": 0,
+          "bytes": 21,
+          "sourceBytes": 1,
+          "sha256": "74420f89d2d2a4256b5b578f1c2a01dd2b605f9aca4905db839d008cfd29cac0",
+          "sourceSha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+          "encoding": "gzip",
+          "mediaType": "application/x-ndjson",
+          "colOwnership": null,
+          "role": "upstream-only"
+        }
+      ],
+      "totalCompressedBytes": 1735,
+      "totalSourceBytes": 13898,
+      "deliveryProfiles": {
+        "web-light": {
+          "payload": "summary-only",
+          "files": [],
+          "records": 0,
+          "totalCompressedBytes": 0,
+          "totalSourceBytes": 0,
+          "statement": "GitHub Pages publishes the complete Loricifera ITIS summary and canonical hashes without row shards."
+        },
+        "native-full": {
+          "payload": "complete",
+          "files": [
+            "other-animals/itis-loricifera-sidecar-000.jsonl.gz",
+            "other-animals/itis-loricifera-upstream-only-000.jsonl.gz"
+          ],
+          "records": 46,
+          "totalCompressedBytes": 1735,
+          "totalSourceBytes": 13898
+        }
+      },
+      "limitations": [
+        "This CC0 ITIS sidecar is a frozen exact nomenclatural crosswalk for the COL26.8 Loricifera partition. It is not a final classification authority, phylogeny, species-concept equivalence assertion, biological dossier, fossil record or scientific-review record. The other-animals resource pack is mixed; its non-Loricifera remainder is explicitly out of scope.",
         "No fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered or taxon-substituted matching is used."
       ],
       "integration": {

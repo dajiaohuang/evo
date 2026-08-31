@@ -37,6 +37,7 @@ const taxa = [
   { slug: 'nematomorpha', label: 'Nematomorpha' },
   { slug: 'phoronida', label: 'Phoronida' },
   { slug: 'gnathostomulida', label: 'Gnathostomulida' },
+  { slug: 'loricifera', label: 'Loricifera' },
 ]
 
 const bryozoaPath = join(packRoot, 'itis-bryozoa-sidecar.json')
