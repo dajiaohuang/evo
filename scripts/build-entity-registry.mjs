@@ -812,13 +812,15 @@ for (const definition of packageDefinitions) {
           : field.startsWith('traits')
             ? 'morphology'
             : 'taxonomy'
-    const fieldLink = (claim) => {
+    const fieldLink = (claim, field) => {
+      const fieldReferenceLinks = claim.referenceLinks
+        .filter((link) => link.relation === 'supports')
+        .filter((link) => field === 'ecology.diet' || !/Soft tissues/i.test(link.quoteLocator ?? ''))
       return {
         claimId: claim.id,
         claimType: claim.claimType,
         relation: 'supports',
-        sourceLocators: claim.referenceLinks
-          .filter((link) => link.relation === 'supports')
+        sourceLocators: fieldReferenceLinks
           .map((link) => ({ referenceId: link.referenceId, locator: link.pages ?? link.figure ?? link.quoteLocator ?? 'Source scope; precise locator pending curator review.' })),
         confidence: claim.confidence,
         reviewStatus: 'automated-audit-passed',
@@ -838,7 +840,7 @@ for (const definition of packageDefinitions) {
           const claim = claimBySubjectAndType.get(`taxon:${profile.id}|${claimType}`)
           if (!claim) throw new Error(`Profile ${profile.id}/${field} is missing a ${claimType} claim`)
           return [field, {
-            ...fieldLink(claim),
+            ...fieldLink(claim, field),
             contentOrigin: field === 'firstAppearance' || field === 'lastAppearance' || field.startsWith('regionalRanges')
               ? 'source-derived-fact'
               : 'editorial-synthesis',
