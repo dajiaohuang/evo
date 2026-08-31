@@ -67,6 +67,9 @@ const richPackageNomenclatureSources = {
     runtimeName: 'worms-aphiaid-sidecar.json.gz',
     expectedCounts: { total: 11891, accepted: 11843, acceptedNameRedirect: 2, ambiguous: 37, unmatched: 0, withheld: 9 },
   },
+  angiospermae: { kind: 'wfo', descriptorPath: 'data/packages/plantae/angiospermae/nomenclature/manifest.json' },
+  gymnosperms: { kind: 'wfo', descriptorPath: 'data/packages/plantae/gymnosperms/nomenclature/manifest.json' },
+  'early-land-plants': { kind: 'wfo', descriptorPath: 'data/packages/plantae/early-land-plants/nomenclature/manifest.json' },
 }
 
 function sha256(bytes) {
@@ -109,6 +112,41 @@ function writeGzipJson(relativePath, value) {
 function buildRichPackageNomenclatureCollections(packageId) {
   const definition = richPackageNomenclatureSources[packageId]
   if (!definition) return []
+  if (definition.kind === 'wfo') {
+    const descriptorBytes = readFileSync(join(rootDir, definition.descriptorPath))
+    const descriptor = JSON.parse(descriptorBytes.toString('utf8'))
+    const categorizedTotal = ['accepted', 'redirect', 'ambiguous', 'unmatched', 'withheld']
+      .reduce((sum, key) => sum + (descriptor.counts?.[key] ?? 0), 0)
+    if (descriptor.schemaVersion !== 1 || descriptor.id !== 'wfo-plant-list-crosswalk'
+      || descriptor.packageId !== packageId || categorizedTotal !== descriptor.counts.total) {
+      throw new Error(`${packageId}: canonical WFO collection descriptor is invalid`)
+    }
+    const ledgerBytes = readFileSync(join(rootDir, descriptor.source.sourceLedgerPath))
+    if (sha256(ledgerBytes) !== descriptor.source.sourceLedgerSha256) {
+      throw new Error(`${packageId}: WFO source ledger does not match its collection descriptor`)
+    }
+    let previousMaxColId = null
+    const files = descriptor.files.map((file) => {
+      const sourceBytes = readFileSync(join(rootDir, ...file.path.split('/')))
+      if (sourceBytes.byteLength !== file.bytes || sha256(sourceBytes) !== file.sha256) {
+        throw new Error(`${packageId}: WFO shard changed without rebuilding its collection descriptor: ${file.path}`)
+      }
+      const rows = gunzipSync(sourceBytes).toString('utf8').split('\n').filter(Boolean).map((line) => JSON.parse(line))
+      if (rows.length !== file.records || rows[0]?.colId !== file.minColId || rows.at(-1)?.colId !== file.maxColId
+        || rows.some((row, index) => index > 0 && rows[index - 1].colId.localeCompare(row.colId) >= 0)
+        || (previousMaxColId !== null && previousMaxColId.localeCompare(file.minColId) >= 0)) {
+        throw new Error(`${packageId}: WFO shard ranges are absent, overlapping or inconsistent: ${file.path}`)
+      }
+      previousMaxColId = file.maxColId
+      const published = write(`packages/${packageId}/nomenclature/${basename(file.path)}`, sourceBytes)
+      if (published.bytes > 8 * 1024 * 1024) throw new Error(`${published.url} exceeds the 8 MiB shard hard limit`)
+      return { ...file, ...published }
+    })
+    if (files.reduce((sum, file) => sum + file.records, 0) !== descriptor.counts.total) {
+      throw new Error(`${packageId}: WFO shards do not match the collection descriptor`)
+    }
+    return [{ ...descriptor, descriptorSha256: sha256(descriptorBytes), files }]
+  }
   const compressed = readFileSync(join(rootDir, definition.sourcePath))
   const source = gunzipSync(compressed)
   const sidecar = JSON.parse(source.toString('utf8'))
@@ -467,7 +505,7 @@ for (const packageEntry of registry.packages) {
   }))
   const packageAssetFiles = [...assetFilesById.values()]
   const packageNomenclatureCollections = buildRichPackageNomenclatureCollections(packageId)
-  const packageNomenclatureFiles = packageNomenclatureCollections.map((collection) => collection.file)
+  const packageNomenclatureFiles = packageNomenclatureCollections.flatMap((collection) => collection.files ?? [collection.file])
   const runtimePackageMedia = packageMedia.map((asset) => asset.asset
     ? { ...asset, asset: { ...asset.asset, ...assetFilesById.get(asset.id) } }
     : asset)
@@ -863,7 +901,7 @@ for (const sourcePackDescriptor of catalogueResourcePacksSourceManifest.packs) {
       }
       return { ...sourceFile, url: written.url }
     })
-    const expectedExtensionRecords = extension.counts.resolved ?? extension.counts.officialSpecies
+    const expectedExtensionRecords = extension.counts.resolved ?? extension.counts.officialSpecies ?? extension.counts.records
     if (!Number.isInteger(expectedExtensionRecords)
       || extensionFiles.reduce((sum, file) => sum + file.records, 0) !== expectedExtensionRecords) {
       throw new Error(`${sourcePack.packageId}/${extension.id}: extension shard counts do not match its manifest`)

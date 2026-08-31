@@ -516,6 +516,61 @@ describe('static runtime release coherence', () => {
     expect(fetchMock.mock.calls.filter(([input]) => String(input).endsWith(collectionFile.url))).toHaveLength(1)
   })
 
+  it('uses WFO COL ID ranges to fetch exactly one rich-package payload shard', async () => {
+    Object.defineProperty(globalThis, 'Worker', { configurable: true, value: undefined })
+    const records = [
+      { colId: 'A001', packageId: 'angiospermae', status: 'accepted', wfoId: 'wfo-1' },
+      { colId: 'M001', packageId: 'angiospermae', status: 'unmatched' },
+      { colId: 'Z001', packageId: 'angiospermae', status: 'withheld', reason: 'fixture' },
+    ] as const
+    const shardFiles = await Promise.all(records.map(async (record, index) => {
+      const body = `${JSON.stringify(record)}\n`
+      const digest = await sha256Text(body)
+      return {
+        body,
+        file: {
+          path: `data/packages/plantae/angiospermae/nomenclature/wfo-${index}.jsonl.gz`,
+          url: `releases/dataset-wfo/packages/angiospermae/nomenclature/wfo-${index}.jsonl`,
+          records: 1,
+          bytes: new TextEncoder().encode(body).byteLength,
+          sourceBytes: new TextEncoder().encode(body).byteLength,
+          sha256: digest,
+          sourceSha256: digest,
+          mediaType: 'application/x-ndjson' as const,
+          minColId: record.colId,
+          maxColId: record.colId,
+        },
+      }
+    }))
+    const collection = {
+      schemaVersion: 1,
+      id: 'wfo-plant-list-crosswalk',
+      recordType: 'release-pinned-exact-plant-name-crosswalk',
+      provider: 'World Flora Online Plant List',
+      packageId: 'angiospermae',
+      source: { wfoAcceptedSpecies: 382438, upstreamOnly: 60751 },
+      counts: { total: 3, accepted: 1, redirect: 0, ambiguous: 0, unmatched: 1, withheld: 1 },
+      files: shardFiles.map(({ file }) => file),
+    }
+    const packageManifest = { packageId: 'angiospermae', version: 'dataset-wfo', files: {}, occurrences: [], nomenclatureCollections: [collection] }
+    const manifestFile = { url: 'releases/dataset-wfo/packages/angiospermae/manifest.json', sha256: await sha256(packageManifest) }
+    const current = { datasetVersion: 'dataset-wfo', releaseBase: 'releases/dataset-wfo/', packages: { manifests: { angiospermae: manifestFile } } }
+    const fetchMock = vi.fn(async (input: RequestInfo | URL) => {
+      const url = String(input)
+      if (url.endsWith('/data/current.json')) return responseFor(current)
+      if (url.endsWith(manifestFile.url)) return responseFor(packageManifest)
+      const shard = shardFiles.find(({ file }) => url.endsWith(file.url))
+      return shard ? textResponseFor(shard.body) : { ok: false, status: 404, arrayBuffer: async () => new ArrayBuffer(0) }
+    })
+    vi.stubGlobal('fetch', fetchMock)
+
+    const { loadPackageWfoPlantRecord } = await import('./staticDataClient')
+    await expect(loadPackageWfoPlantRecord('angiospermae', 'M001')).resolves.toMatchObject({ record: records[1] })
+    expect(fetchMock.mock.calls.filter(([input]) => String(input).includes('/nomenclature/wfo-'))).toHaveLength(1)
+    expect(fetchMock.mock.calls.some(([input]) => String(input).endsWith(shardFiles[0].file.url))).toBe(false)
+    expect(fetchMock.mock.calls.some(([input]) => String(input).endsWith(shardFiles[2].file.url))).toBe(false)
+  })
+
   it('loads and caches the pinned source-checklist ledger through the verified runtime file path', async () => {
     const sources: CatalogueSourceChecklist[] = [{
       datasetId: '1005',

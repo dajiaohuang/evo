@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "datasetId": "wfo-plant-list-2026-06",
+  "title": "World Flora Online Plant List June 2026",
+  "publisher": "World Flora Online Consortium",
+  "release": {
+    "version": "2026-06",
+    "issued": "2026-06-21",
+    "versionDoi": "10.5281/zenodo.20782718",
+    "conceptDoi": "10.5281/zenodo.7460141",
+    "recordUrl": "https://zenodo.org/records/20782718",
+    "apiRecordUrl": "https://zenodo.org/api/records/20782718",
+    "retrievedAt": "2026-08-31"
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "label": "Creative Commons Zero v1.0 Universal",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "evidence": [
+      "The official Zenodo record metadata has license.id=cc-zero.",
+      "The packaged metadata.json has license=cc0.",
+      "World Flora Online's contributor guidance states that Taxonomic Backbone data are placed in the public domain under CC0."
+    ],
+    "guidanceUrl": "https://about.worldfloraonline.org/images/uploads/documents/WFOGeneralGuidelinesForDataContributorsV2.07.pdf"
+  },
+  "citation": "World Flora Online Consortium. (2026). World Flora Online Plant List June 2026 (Version 2026-06). World Flora Online. https://doi.org/10.5281/zenodo.20782718",
+  "archive": {
+    "member": "wfo_plantlist_2026-06.zip",
+    "contentUrl": "https://zenodo.org/api/records/20782718/files/wfo_plantlist_2026-06.zip/content",
+    "bytes": 132643291,
+    "officialMd5": "02f989b01b8eb142ec5934bd634b3876",
+    "sha256": "75f1ad1f371978c9e46f3044152c07ed276fe57be9fb9a15b3621b19cf231987",
+    "format": "Catalogue of Life Data Package"
+  },
+  "members": {
+    "metadata.json": { "bytes": 109295, "sha256": "ca963540858635181be346857925e421d8e0f01d7335c454e435c602022d12a0" },
+    "name.tsv": { "bytes": 380612911, "sha256": "c506eb9e21efe9e268e20f8cd9bc65f91b55e1722d19c27d58a6681f8b680ed8" },
+    "taxon.tsv": { "bytes": 96789455, "sha256": "0d23bddb2ab8d7e6505e741acb54b6603ca9523751be555a734ee4019fa61c23" },
+    "synonym.tsv": { "bytes": 121225634, "sha256": "dba9a8562d173971ae57705dbdb68aa866e76295294742834b6f55f7182595ca" },
+    "reference.tsv": { "bytes": 321277092, "sha256": "7bb72b7929471a3854f123f7b901d2053106485a61b6c838993785bd2556d7c1" },
+    "typematerial.tsv": { "bytes": 55447515, "sha256": "321c0cf791c3f46af8ebf854ef5544eb5a7b5c934d193ab9454138c75050b31e" }
+  },
+  "matchingContract": {
+    "normalization": [
+      "Remove the exact trailing COL authorship field only when that exact suffix is present.",
+      "Normalize Unicode to NFC, replace underscores with spaces, collapse Unicode whitespace and trim.",
+      "Preserve case, diacritics, punctuation, name tokens and authorship tokens."
+    ],
+    "accepted": "Exactly one WFO 2026-06 accepted species has the exact normalized scientific name, authorship and species rank.",
+    "redirect": "Exactly one WFO 2026-06 synonym name has the exact normalized scientific name, authorship and species rank and explicitly points to one accepted WFO species.",
+    "ambiguous": "Exact WFO records resolve to more than one accepted WFO species.",
+    "unmatched": "No exact WFO species-name record exists.",
+    "withheld": "The COL authorship boundary cannot be removed exactly or a required WFO accepted target is absent.",
+    "upstreamOnly": "A WFO 2026-06 accepted species is not the unambiguous target of any COL26.8 plant record.",
+    "forbidden": "No fuzzy, case-folded, diacritic-stripped, punctuation-stripped, edit-distance, phonetic, token-reordered, genus-substitution or authority-only matching is permitted."
+  },
+  "distributionBoundary": {
+    "rawArchiveCommitted": false,
+    "statement": "The official 132.6 MB archive and its expanded members remain external reproducibility inputs. The repository commits only the source ledger, generator, import ledger and minimal derived crosswalk.",
+    "evidenceBoundary": "The crosswalk supplies release-pinned nomenclatural identifiers and explicit status relationships. It is not evidence of phylogeny, ecology, distribution, extinction, fossils, media, translation, dossier maturity or expert review."
+  }
+}

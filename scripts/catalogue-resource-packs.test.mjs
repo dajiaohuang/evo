@@ -140,7 +140,7 @@ describe('COL26.8 static nomenclatural resource packs', () => {
       expect(record.status).toBe('resolved')
     }
 
-    for (const other of collection.packs.filter((pack) => !['archaea', 'bacteria', 'viruses'].includes(pack.packageId))) {
+    for (const other of collection.packs.filter((pack) => !['archaea', 'bacteria', 'viruses', 'other-plants'].includes(pack.packageId))) {
       const otherManifest = JSON.parse(readFileSync(join(resourcePacksRoot, other.manifestPath), 'utf8'))
       expect(otherManifest.extensions).toBeUndefined()
     }

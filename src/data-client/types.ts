@@ -90,7 +90,7 @@ export interface RuntimeResearchExamples {
   examples: RuntimeResearchExample[]
 }
 
-export interface RuntimePackageNomenclatureCollection {
+export interface RuntimeWormsNomenclatureCollection {
   id: 'worms-aphiaid-crosswalk'
   recordType: 'external-name-identifier-crosswalk'
   provider: 'WoRMS'
@@ -123,9 +123,80 @@ export interface RuntimeNomenclaturalSidecar {
   schemaVersion: 1
   sidecarType: 'date-pinned-exact-nomenclatural-crosswalk'
   packageId: string
-  counts: RuntimePackageNomenclatureCollection['counts']
+  counts: RuntimeWormsNomenclatureCollection['counts']
   records: Record<'accepted' | 'acceptedNameRedirect' | 'ambiguous' | 'unmatched' | 'withheld', unknown[]>
 }
+
+export type WfoPlantMappingStatus = 'accepted' | 'redirect' | 'ambiguous' | 'unmatched' | 'withheld' | 'upstream-only'
+
+export interface WfoPlantRecord {
+  colId?: string
+  packageId?: 'angiospermae' | 'gymnosperms' | 'early-land-plants' | 'other-plants'
+  colScientificName?: string
+  colAuthorship?: string
+  colSourceDatasetId?: string
+  status: WfoPlantMappingStatus
+  mappingBasis?: string
+  reason?: string
+  wfoId?: string
+  wfoUrl?: string
+  wfoSnapshotId?: string
+  wfoSnapshotUrl?: string
+  wfoScientificName?: string
+  wfoAuthorship?: string
+  wfoParentId?: string
+  wfoExtinct?: boolean
+  candidateWfoIds?: string[]
+}
+
+export interface WfoPlantCounts {
+  total: number
+  accepted: number
+  redirect: number
+  ambiguous: number
+  unmatched: number
+  withheld: number
+}
+
+export interface WfoPlantSource {
+  catalogueRelease: string
+  catalogueReleaseDate: string
+  checklistBankDatasetKey: number
+  wfoVersion: string
+  wfoIssued: string
+  versionDoi: string
+  conceptDoi: string
+  license: 'CC0-1.0'
+  canonicalCrosswalkPath: string
+  canonicalCrosswalkSha256: string
+  canonicalCrosswalkBytes: number
+  canonicalCrosswalkSourceSha256: string
+  canonicalCrosswalkSourceBytes: number
+  sourceLedgerPath: string
+  sourceLedgerSha256: string
+  archiveSha256: string
+  wfoAcceptedSpecies: number
+  upstreamOnly: number
+}
+
+export interface RuntimeWfoPlantNomenclatureCollection {
+  schemaVersion: 1
+  id: 'wfo-plant-list-crosswalk'
+  recordType: 'release-pinned-exact-plant-name-crosswalk'
+  provider: 'World Flora Online Plant List'
+  packageId: 'angiospermae' | 'gymnosperms' | 'early-land-plants'
+  source: WfoPlantSource
+  matching: Record<string, string | string[]>
+  counts: WfoPlantCounts
+  fields: string[]
+  files: CatalogueResourcePackPayloadFile[]
+  totalCompressedBytes: number
+  totalSourceBytes: number
+  evidenceBoundary: string
+  descriptorSha256: string
+}
+
+export type RuntimePackageNomenclatureCollection = RuntimeWormsNomenclatureCollection | RuntimeWfoPlantNomenclatureCollection
 
 export interface RuntimePackageManifest {
   schemaVersion: number
@@ -420,6 +491,10 @@ export interface CatalogueResourcePackPayloadFile extends RuntimeFile {
   sourceBytes: number
   sha256: string
   sourceSha256: string
+  minColId?: string
+  maxColId?: string
+  minWfoId?: string
+  maxWfoId?: string
 }
 
 export interface CatalogueLpsnResourcePackExtension {
@@ -521,7 +596,29 @@ export interface CatalogueIctvResourcePackExtension {
   limitations: string[]
 }
 
-export type CatalogueResourcePackExtension = CatalogueLpsnResourcePackExtension | CatalogueIctvResourcePackExtension
+export interface CatalogueWfoPlantResourcePackExtension {
+  id: 'wfo-plant-list-crosswalk'
+  recordType: 'release-pinned-exact-plant-name-crosswalk'
+  provider: 'World Flora Online Plant List'
+  source: WfoPlantSource
+  eligibility: string
+  matching: Record<string, string | string[]>
+  counts: WfoPlantCounts & {
+    colAcceptedPlantSpecies: number
+    packageColRecords: number
+    wfoAcceptedSpecies: number
+    upstreamOnly: number
+    records: number
+  }
+  fields: string[]
+  partitions: Array<{ id: string; colOwnership: string | null; records: number; files: CatalogueResourcePackPayloadFile[] }>
+  files: CatalogueResourcePackPayloadFile[]
+  totalCompressedBytes: number
+  totalSourceBytes: number
+  limitations: string[]
+}
+
+export type CatalogueResourcePackExtension = CatalogueLpsnResourcePackExtension | CatalogueIctvResourcePackExtension | CatalogueWfoPlantResourcePackExtension
 
 export interface CatalogueResourcePackManifest {
   schemaVersion: 1

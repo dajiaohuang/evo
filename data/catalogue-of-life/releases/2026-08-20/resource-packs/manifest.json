@@ -78,12 +78,16 @@
     {
       "packageId": "other-plants",
       "manifestPath": "other-plants/manifest.json",
-      "manifestBytes": 2084,
-      "manifestSha256": "7cf3dcdc570d664053eae77d46046603b5387b9ec402ce8a22f4fea8e52479f4",
+      "manifestBytes": 11991,
+      "manifestSha256": "e7728a8d84ffa06c4b0d5f6a098e363ef6d455f2ed243d65f877ac79e2d8622a",
       "acceptedSpeciesCount": 698,
       "fileCount": 1,
       "totalCompressedBytes": 15929,
-      "totalSourceBytes": 133848
+      "totalSourceBytes": 133848,
+      "extensionCount": 1,
+      "extensionFileCount": 5,
+      "extensionCompressedBytes": 2058070,
+      "extensionSourceBytes": 21993127
     },
     {
       "packageId": "other-animals",
@@ -95,5 +99,21 @@
       "totalCompressedBytes": 2345272,
       "totalSourceBytes": 19490559
     }
-  ]
+  ],
+  "authoritativeSupplements": {
+    "wfoPlantList": {
+      "version": "2026-06",
+      "versionDoi": "10.5281/zenodo.20782718",
+      "acceptedSpecies": 382438,
+      "colPlantRecords": 388686,
+      "upstreamOnly": 60751,
+      "upstreamOnlyColOwnership": null,
+      "affectedRichPackages": [
+        "angiospermae",
+        "gymnosperms",
+        "early-land-plants"
+      ],
+      "residualResourcePack": "other-plants"
+    }
+  }
 }

@@ -8,6 +8,7 @@ import {
   loadCatalogueManifest,
   loadCatalogueSpeciesOwnership,
   loadCatalogueSourceChecklists,
+  loadWfoPlantRecord,
   resolveCatalogueSpeciesOwner,
 } from '../../data-client/staticDataClient'
 import type {
@@ -20,6 +21,8 @@ import type {
   CatalogueLpsnResourcePackExtension,
   CatalogueSpeciesOwnership,
   CatalogueTaxonRecord,
+  WfoPlantRecord,
+  WfoPlantSource,
 } from '../../data-client/types'
 import type { AppRoute } from '../../utils/routing'
 import { useI18n } from '../../i18n'
@@ -67,6 +70,8 @@ function CatalogueTaxonRecord({ release, id, onNavigate }: CatalogueTaxonPagePro
   const [lpsnStatus, setLpsnStatus] = useState<SectionStatus>('idle')
   const [ictv, setIctv] = useState<{ record: CatalogueIctvVirusRecord; extension: CatalogueIctvResourcePackExtension } | null>(null)
   const [ictvStatus, setIctvStatus] = useState<SectionStatus>('idle')
+  const [wfo, setWfo] = useState<{ record: WfoPlantRecord; source: WfoPlantSource; counts: { wfoAcceptedSpecies: number; upstreamOnly: number } } | null>(null)
+  const [wfoStatus, setWfoStatus] = useState<SectionStatus>('idle')
   const [childFilter, setChildFilter] = useState('')
   const [visibleChildren, setVisibleChildren] = useState(100)
 
@@ -186,6 +191,26 @@ function CatalogueTaxonRecord({ release, id, onNavigate }: CatalogueTaxonPagePro
       setIctv(record ? { record, extension } : null)
       setIctvStatus('ready')
     }).catch(() => { if (!cancelled) setIctvStatus('error') })
+    return () => { cancelled = true }
+  }, [node, speciesOwner?.entry.id])
+  useEffect(() => {
+    let cancelled = false
+    const packageId = speciesOwner?.entry.id
+    const isPlant = packageId === 'angiospermae' || packageId === 'gymnosperms' || packageId === 'early-land-plants' || packageId === 'other-plants'
+    if (!node || !packageId || !isPlant) {
+      // eslint-disable-next-line react-hooks/set-state-in-effect -- discard a WFO record from a previously selected plant immediately
+      setWfo(null)
+      setWfoStatus('idle')
+      return () => { cancelled = true }
+    }
+    setWfo(null)
+    setWfoStatus('loading')
+    void loadWfoPlantRecord(node.id, packageId).then((result) => {
+      if (!cancelled) {
+        setWfo(result)
+        setWfoStatus('ready')
+      }
+    }).catch(() => { if (!cancelled) setWfoStatus('error') })
     return () => { cancelled = true }
   }, [node, speciesOwner?.entry.id])
   const isHierarchyMember = node?.projection === 'accepted-species-hierarchy'
@@ -335,6 +360,18 @@ function CatalogueTaxonRecord({ release, id, onNavigate }: CatalogueTaxonPagePro
               <div>{source.informationUrl && <a href={source.informationUrl} target="_blank" rel="noreferrer">{zh ? '来源站点' : 'Source site'} ↗</a>}{source.doi && <a href={`https://doi.org/${source.doi}`} target="_blank" rel="noreferrer">DOI ↗</a>}</div>
             </div>}
             {node.sourceDatasetId && sourcesStatus === 'ready' && !source && <p>{zh ? `来源 datasetID ${node.sourceDatasetId} 未列入本版来源清单。` : `Source datasetID ${node.sourceDatasetId} is not listed in this release's source checklist file.`}</p>}
+            {(['angiospermae', 'gymnosperms', 'early-land-plants', 'other-plants'].includes(speciesOwner?.entry.id ?? '')) && (wfoStatus === 'idle' || wfoStatus === 'loading') && <p>{zh ? '正在读取固定 WFO 植物名录精确映射…' : 'Loading the pinned exact WFO Plant List mapping…'}</p>}
+            {(['angiospermae', 'gymnosperms', 'early-land-plants', 'other-plants'].includes(speciesOwner?.entry.id ?? '')) && wfoStatus === 'error' && <p className="catalogue-inline-error">{zh ? 'WFO 分片读取或完整性校验失败；COL26.8 记录仍可使用。' : 'The WFO shard could not be read or verified; the COL26.8 record remains available.'}</p>}
+            {wfoStatus === 'ready' && wfo?.record.colId === node.id && <div className="catalogue-lpsn-card catalogue-wfo-card">
+              <strong>{zh ? 'WFO 植物名录固定映射' : 'Pinned WFO Plant List mapping'}</strong>
+              <span>WFO {wfo.source.wfoVersion} · COL26.8 · {wfo.record.status.toUpperCase()}</span>
+              <p>{zh ? `映射状态：${wfo.record.status}。仅使用区分大小写、变音符号和标点的精确名称与作者字段，或 WFO 明示的同物异名目标；不使用模糊匹配。WFO 当前 ${number(wfo.counts.wfoAcceptedSpecies)} 个接受种全部随数据集提供，其中 ${number(wfo.counts.upstreamOnly)} 个尚无可证明的 COL26.8 ID，保留在独立的非 COL 分区。` : `Mapping status: ${wfo.record.status}. Matching preserves case, diacritics, punctuation, and authorship, using only exact names or an explicit WFO synonym target—never fuzzy matching. All ${number(wfo.counts.wfoAcceptedSpecies)} WFO accepted species ship with the dataset; ${number(wfo.counts.upstreamOnly)} without a provable COL26.8 ID remain in a separate non-COL partition.`}</p>
+              {wfo.record.status === 'redirect' && <p>{zh ? 'COL 名称精确命中 WFO 同物异名，并只跟随 WFO 明示的接受名目标。' : 'The COL name exactly matches a WFO synonym and follows only its explicit accepted-name target.'}</p>}
+              {wfo.record.status === 'ambiguous' && <p>{zh ? `存在多个精确 WFO 接受名候选：${wfo.record.candidateWfoIds?.join(' · ')}` : `Multiple exact WFO accepted-name candidates remain: ${wfo.record.candidateWfoIds?.join(' · ')}`}</p>}
+              {wfo.record.status === 'unmatched' && <p>{zh ? '固定版 WFO 中没有精确名称与作者记录；未猜测替代名称。' : 'No exact name-and-authorship record exists in the pinned WFO release; no substitute was guessed.'}</p>}
+              {wfo.record.status === 'withheld' && <p>{zh ? `映射被保留：${wfo.record.reason ?? '必要边界无法被精确证明'}` : `Mapping withheld: ${wfo.record.reason ?? 'a required exact boundary could not be proved'}.`}</p>}
+              <div>{wfo.record.wfoSnapshotUrl && <a href={wfo.record.wfoSnapshotUrl} target="_blank" rel="noreferrer">{zh ? '打开固定 WFO 记录' : 'Open pinned WFO record'} ↗</a>}<a href={`https://doi.org/${wfo.source.versionDoi}`} target="_blank" rel="noreferrer">DOI ↗</a></div>
+            </div>}
             {speciesOwner?.entry.id === 'archaea' && (lpsnStatus === 'idle' || lpsnStatus === 'loading') && <p>{zh ? '正在读取固定 LPSN 标识映射…' : 'Loading the pinned LPSN identifier mapping…'}</p>}
             {speciesOwner?.entry.id === 'archaea' && lpsnStatus === 'error' && <p className="catalogue-inline-error">{zh ? 'LPSN 标识分片读取或校验失败；COL26.8 分类记录仍可使用。' : 'The LPSN identifier shard could not be read or verified; the COL26.8 record remains available.'}</p>}
             {speciesOwner?.entry.id === 'archaea' && lpsnStatus === 'ready' && !lpsn && <p className="catalogue-inline-error">{zh ? '本古菌记录未在固定 LPSN 映射中找到；未使用名称猜测替代。' : 'This archaeal record is absent from the pinned LPSN mapping; no name-based substitute was inferred.'}</p>}

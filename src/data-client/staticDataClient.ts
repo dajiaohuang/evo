@@ -281,6 +281,7 @@ export async function loadPackageNomenclatureCollection(
   const manifest = await loadPackageManifest(packageId)
   const collection = manifest.nomenclatureCollections?.find((candidate) => candidate.id === collectionId)
   if (!collection) throw new Error(`Runtime package ${packageId} does not publish nomenclature collection ${collectionId}`)
+  if (collection.id !== 'worms-aphiaid-crosswalk') throw new Error(`${collectionId} is not a JSON sidecar collection`)
   const sidecar = await loadRuntimeFile<import('./types').RuntimeNomenclaturalSidecar>(collection.file)
   const categories = ['accepted', 'acceptedNameRedirect', 'ambiguous', 'unmatched', 'withheld'] as const
   const categorizedTotal = categories.reduce((sum, key) => sum + (sidecar.records[key]?.length ?? 0), 0)
@@ -290,6 +291,59 @@ export async function loadPackageNomenclatureCollection(
     throw new Error(`Runtime nomenclature collection ${packageId}/${collectionId} does not match its package manifest`)
   }
   return { collection, sidecar }
+}
+
+export async function loadPackageWfoPlantRecords(packageId: 'angiospermae' | 'gymnosperms' | 'early-land-plants'): Promise<{
+  collection: import('./types').RuntimeWfoPlantNomenclatureCollection
+  records: import('./types').WfoPlantRecord[]
+}> {
+  const manifest = await loadPackageManifest(packageId)
+  const collection = manifest.nomenclatureCollections?.find((candidate): candidate is import('./types').RuntimeWfoPlantNomenclatureCollection => candidate.id === 'wfo-plant-list-crosswalk')
+  if (!collection || collection.packageId !== packageId || collection.provider !== 'World Flora Online Plant List') {
+    throw new Error(`Runtime package ${packageId} does not publish its WFO Plant List collection`)
+  }
+  const shards = await Promise.all(collection.files.map((file) => loadRuntimeFile<import('./types').WfoPlantRecord[]>(file)))
+  const records = shards.flat()
+  const statuses = ['accepted', 'redirect', 'ambiguous', 'unmatched', 'withheld'] as const
+  if (records.length !== collection.counts.total
+    || statuses.some((status) => records.filter((record) => record.status === status).length !== collection.counts[status])
+    || records.some((record) => record.packageId !== packageId || !record.colId)) {
+    throw new Error(`Runtime WFO collection ${packageId} does not match its descriptor`)
+  }
+  return { collection, records }
+}
+
+function selectWfoColShard(files: import('./types').CatalogueResourcePackPayloadFile[], colId: string): import('./types').CatalogueResourcePackPayloadFile {
+  let previousMax: string | null = null
+  for (const file of files) {
+    if (!file.minColId || !file.maxColId || file.minColId.localeCompare(file.maxColId) > 0
+      || (previousMax !== null && previousMax.localeCompare(file.minColId) >= 0)) {
+      throw new Error('WFO COL shard ranges are absent, invalid or overlapping')
+    }
+    previousMax = file.maxColId
+    if (file.minColId.localeCompare(colId) <= 0 && file.maxColId.localeCompare(colId) >= 0) return file
+  }
+  throw new Error(`WFO COL shard range does not cover ${colId}`)
+}
+
+async function loadWfoColRecordFromFiles(files: import('./types').CatalogueResourcePackPayloadFile[], colId: string): Promise<import('./types').WfoPlantRecord | null> {
+  const file = selectWfoColShard(files, colId)
+  const records = await loadRuntimeFile<import('./types').WfoPlantRecord[]>(file)
+  if (records.length !== file.records || records[0]?.colId !== file.minColId || records.at(-1)?.colId !== file.maxColId
+    || records.some((record, index) => !record.colId || (index > 0 && records[index - 1].colId!.localeCompare(record.colId) >= 0))) {
+    throw new Error('WFO COL shard contents do not match its range descriptor')
+  }
+  return records.find((record) => record.colId === colId) ?? null
+}
+
+export async function loadPackageWfoPlantRecord(packageId: 'angiospermae' | 'gymnosperms' | 'early-land-plants', colId: string): Promise<{
+  collection: import('./types').RuntimeWfoPlantNomenclatureCollection
+  record: import('./types').WfoPlantRecord | null
+}> {
+  const manifest = await loadPackageManifest(packageId)
+  const collection = manifest.nomenclatureCollections?.find((candidate): candidate is import('./types').RuntimeWfoPlantNomenclatureCollection => candidate.id === 'wfo-plant-list-crosswalk')
+  if (!collection || collection.packageId !== packageId) throw new Error(`Runtime package ${packageId} does not publish its WFO Plant List collection`)
+  return { collection, record: await loadWfoColRecordFromFiles(collection.files, colId) }
 }
 
 export async function loadPackageForEntity(entityId: string): Promise<RuntimePackageManifest | null> {
@@ -490,6 +544,48 @@ export async function loadCatalogueIctvVirusMetadata(): Promise<{
 export async function loadCatalogueIctvVirusRecord(colId: string): Promise<import('./types').CatalogueIctvVirusRecord | null> {
   const { records } = await loadCatalogueIctvVirusMetadata()
   return records.find((record) => record.colId === colId) ?? null
+}
+
+export async function loadCatalogueWfoPlantSupplement(): Promise<{
+  extension: import('./types').CatalogueWfoPlantResourcePackExtension
+  records: import('./types').WfoPlantRecord[]
+}> {
+  const manifest = await loadCatalogueResourcePackManifest('other-plants')
+  const extension = manifest.extensions?.find((candidate): candidate is import('./types').CatalogueWfoPlantResourcePackExtension => candidate.id === 'wfo-plant-list-crosswalk')
+  if (!extension || extension.provider !== 'World Flora Online Plant List'
+    || extension.counts.packageColRecords !== manifest.acceptedSpeciesCount
+    || extension.counts.records !== extension.counts.packageColRecords + extension.counts.upstreamOnly) {
+    throw new Error('Other-plants WFO extension does not preserve its COL and upstream-only partitions')
+  }
+  const shards = await Promise.all(extension.files.map((file) => loadRuntimeFile<import('./types').WfoPlantRecord[]>(file)))
+  const records = shards.flat()
+  if (records.length !== extension.counts.records
+    || records.filter((record) => record.status === 'upstream-only').length !== extension.counts.upstreamOnly
+    || records.filter((record) => record.packageId === 'other-plants').length !== extension.counts.packageColRecords
+    || records.some((record) => record.status === 'upstream-only' && record.colId !== undefined)) {
+    throw new Error('Other-plants WFO records do not match the published partition counts')
+  }
+  return { extension, records }
+}
+
+export async function loadWfoPlantRecord(colId: string, packageId: string): Promise<{
+  record: import('./types').WfoPlantRecord
+  source: import('./types').WfoPlantSource
+  counts: { wfoAcceptedSpecies: number; upstreamOnly: number }
+} | null> {
+  if (packageId === 'angiospermae' || packageId === 'gymnosperms' || packageId === 'early-land-plants') {
+    const { collection, record } = await loadPackageWfoPlantRecord(packageId, colId)
+    return record ? { record, source: collection.source, counts: { wfoAcceptedSpecies: collection.source.wfoAcceptedSpecies, upstreamOnly: collection.source.upstreamOnly } } : null
+  }
+  if (packageId === 'other-plants') {
+    const manifest = await loadCatalogueResourcePackManifest('other-plants')
+    const extension = manifest.extensions?.find((candidate): candidate is import('./types').CatalogueWfoPlantResourcePackExtension => candidate.id === 'wfo-plant-list-crosswalk')
+    const partition = extension?.partitions.find((candidate) => candidate.id === 'other-plants-col' && candidate.colOwnership === 'other-plants')
+    if (!extension || !partition || partition.records !== manifest.acceptedSpeciesCount) throw new Error('Other-plants WFO COL partition descriptor is invalid')
+    const record = await loadWfoColRecordFromFiles(partition.files, colId)
+    return record ? { record, source: extension.source, counts: { wfoAcceptedSpecies: extension.counts.wfoAcceptedSpecies, upstreamOnly: extension.counts.upstreamOnly } } : null
+  }
+  return null
 }
 
 export function resolveCatalogueSpeciesOwner(
