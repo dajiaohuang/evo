@@ -1,17 +1,17 @@
 # Dataset changelog
 
+## App 0.20.26 / 2026.08-static-v5-rc75 — 2026-08-31
+
+- Extended fixed ITIS 2026-08-26 exact sidecars: Graptolithina closes seven represented Rhabdopleura names; Dicyemida pins `Kantharella antarctica` under order TSN `57410` while retaining Microcyema/Conocyema as broader-root exclusions; Oomycota adds exact accepted Leptomitales TSN `181554` and Hyphochytriales TSN `13823` without inferring an Oomycota ITIS phylum root.
+- Added an independent CC0 ITIS Bacteria TSN `50` collection for all 4,827 non-LPSN COL26.8 Bacteria rows: 4,824 exact accepted outcomes, two ambiguities, one unmatched row, and 9,348 ITIS-only current species. The existing LPSN identifier collection remains unchanged in source, licence and semantics.
+- Pages remains descriptor/hash summary-only. Android and iOS build `29` native-full inventories retain every non-empty listed row shard byte-for-byte, including all eight Bacteria row files.
+
 ## App 0.20.25 / 2026.08-static-v5-rc74 — 2026-08-31
 
 - Added fixed, exact ITIS `2026-08-26` CC0 authority sidecars for Actinopterygii, Chondrichthyes, the nested Agnatha/Myxini union, and the eight living Sarcopterygii rows routed to `tetrapod-transition`. Their disjoint COL26.8 scopes contain 37,436 explicit outcomes: 25,135 exact current names, 377 official synonym redirects, 15 ambiguities, and 11,909 unmatched records.
 - Preserved 3,932 current ITIS-only species in separate null-COL partitions, producing 41,368 native authority records across 29 non-empty deterministic JSONL gzip shards. Myxini is not double-counted inside Agnatha, and the Sarcopterygii boundary does not claim that the package's eight routed rows are the full living superclass.
 - Kept Pages deployable through `web-light`: package manifests publish sources, roots, methods, counts, limitations, and all 29 canonical byte/SHA-256 records without row shards. Android and iOS build `28` use `native-full`, bundle every descriptor and row shard byte-for-byte, and verify release-inventory parity.
 - Kept the historical FishBase identifier sidecar independent from ITIS because its source, licence, scope, and identifier semantics differ. Added typed single-range lookup contracts, platform tests, and [`docs/itis-fish-authority.md`](../docs/itis-fish-authority.md).
-
-## App 0.20.26 / 2026.08-static-v5-rc75 — 2026-08-31
-
-- Extended fixed ITIS 2026-08-26 exact sidecars: Graptolithina closes seven represented Rhabdopleura names; Dicyemida pins `Kantharella antarctica` under order TSN `57410` while retaining Microcyema/Conocyema as broader-root exclusions; Oomycota adds exact accepted Leptomitales TSN `181554` and Hyphochytriales TSN `13823` without inferring an Oomycota ITIS phylum root.
-- Added an independent CC0 ITIS Bacteria TSN `50` collection for all 4,827 non-LPSN COL26.8 Bacteria rows: 4,824 exact accepted outcomes, two ambiguities, one unmatched row, and 9,348 ITIS-only current species. The existing LPSN identifier collection remains unchanged in source, licence and semantics.
-- Pages remains descriptor/hash summary-only. Android and iOS build `29` native-full inventories retain every non-empty listed row shard byte-for-byte, including all eight Bacteria row files.
 
 ## App 0.20.24 / 2026.08-static-v5-rc73 — 2026-08-31
 
