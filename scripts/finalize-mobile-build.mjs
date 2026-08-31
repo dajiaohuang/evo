@@ -89,6 +89,75 @@ if (!itisAmphibia || itisAmphibia.provider !== 'Integrated Taxonomic Information
   || itisAmphibia.upstreamOnlyFiles.reduce((sum, file) => sum + file.records, 0) !== 8) {
   throw new Error('Mobile build must stage the complete ITIS Amphibia authority collection')
 }
+const expectedRichItisCollections = {
+  'molluscs-brachiopods': {
+    'itis-mollusca-brachiopoda-tsn-crosswalk': { files: 59, upstreamFiles: 1, records: 159794, upstreamRecords: 4289 },
+  },
+  'sponges-cnidarians': {
+    'itis-porifera-cnidaria-tsn-crosswalk': { files: 5, upstreamFiles: 1, records: 30521, upstreamRecords: 2218 },
+  },
+  echinoderms: {
+    'itis-echinodermata-tsn-crosswalk': { files: 2, upstreamFiles: 1, records: 11891, upstreamRecords: 278 },
+  },
+}
+for (const [packageId, expectedCollections] of Object.entries(expectedRichItisCollections)) {
+  const descriptor = current.packages?.manifests?.[packageId]
+  if (!descriptor?.url) throw new Error(`Mobile build is missing the ${packageId} package manifest`)
+  const manifest = JSON.parse(readFileSync(join(sourceDataRoot, ...descriptor.url.split('/')), 'utf8'))
+  const collections = manifest.nomenclatureCollections
+  if (!Array.isArray(collections)) throw new Error(`Mobile build is missing ${packageId} nomenclature collections`)
+  if (collections.length !== (packageId === 'echinoderms' ? 2 : 1)) {
+    throw new Error(`Mobile build has an unexpected ${packageId} nomenclature collection count`)
+  }
+  for (const [id, expected] of Object.entries(expectedCollections)) {
+    const collection = collections.find((entry) => entry.id === id)
+    if (!collection || collection.provider !== 'Integrated Taxonomic Information System'
+      || collection.delivery?.profile !== 'native-full' || collection.delivery?.completeRows !== true
+      || collection.delivery?.publishedFileCount !== expected.files + expected.upstreamFiles
+      || collection.delivery?.canonicalFileCount !== expected.files + expected.upstreamFiles
+      || collection.files?.length !== expected.files || collection.upstreamOnlyFiles?.length !== expected.upstreamFiles
+      || collection.counts?.total !== expected.records || collection.counts?.itisUpstreamOnly !== expected.upstreamRecords
+      || collection.files.reduce((sum, file) => sum + file.records, 0) !== expected.records
+      || collection.upstreamOnlyFiles.reduce((sum, file) => sum + file.records, 0) !== expected.upstreamRecords) {
+      throw new Error(`Mobile build must stage the complete ${packageId}/${id} authority collection`)
+    }
+    const canonicalInventory = collection.canonicalFileInventory
+    if (!Array.isArray(canonicalInventory) || canonicalInventory.length !== expected.files + expected.upstreamFiles) {
+      throw new Error(`Mobile build has an incomplete canonical inventory for ${packageId}/${id}`)
+    }
+    for (const file of [...collection.files, ...collection.upstreamOnlyFiles]) {
+      const source = resolve(sourceDataRoot, ...file.url.split('/'))
+      if (!source.startsWith(`${sourceDataRoot}${sep}`) || !existsSync(source) || !statSync(source).isFile()) {
+        throw new Error(`Mobile rich-package authority references a missing or unsafe file: ${file.url}`)
+      }
+      if (sha256(source) !== file.sha256 || statSync(source).size !== file.bytes) {
+        throw new Error(`Mobile rich-package authority shard does not match its manifest: ${file.url}`)
+      }
+      const inventoryRecord = releaseFiles.files.find((entry) => entry.url === file.url)
+      if (!inventoryRecord || inventoryRecord.bytes !== file.bytes || inventoryRecord.sha256 !== file.sha256) {
+        throw new Error(`Mobile rich-package authority shard is missing from release inventory: ${file.url}`)
+      }
+    }
+    for (const canonicalFile of canonicalInventory) {
+      const name = canonicalFile.path.split('/').at(-1)
+      const runtimeFile = [...collection.files, ...collection.upstreamOnlyFiles].find((file) => file.url.split('/').at(-1) === name)
+      if (!runtimeFile || runtimeFile.records !== canonicalFile.records
+        || runtimeFile.bytes !== canonicalFile.bytes || runtimeFile.sha256 !== canonicalFile.sha256) {
+        throw new Error(`Mobile rich-package canonical shard inventory is inconsistent: ${packageId}/${id}/${name}`)
+      }
+    }
+  }
+  if (packageId === 'echinoderms') {
+    const worms = collections.find((entry) => entry.id === 'worms-aphiaid-crosswalk')
+    const wormsFile = worms?.file
+    const wormsInventoryRecord = wormsFile && releaseFiles.files.find((entry) => entry.url === wormsFile.url)
+    if (!worms || worms.provider !== 'WoRMS' || worms.source?.license !== 'CC-BY-4.0'
+      || worms.counts?.total !== 11891 || !wormsInventoryRecord
+      || wormsFile.bytes !== wormsInventoryRecord.bytes || wormsFile.sha256 !== wormsInventoryRecord.sha256) {
+      throw new Error('Mobile build must retain the complete WoRMS Echinodermata authority collection')
+    }
+  }
+}
 const catalogueManifest = JSON.parse(readFileSync(join(sourceDataRoot, ...current.catalogue.manifest.url.split('/')), 'utf8'))
 const otherAnimalsDescriptor = catalogueManifest.resourcePacks?.manifests?.['other-animals']
 if (!otherAnimalsDescriptor?.url) throw new Error('Mobile build is missing the other-animals resource-pack manifest')
@@ -120,6 +189,8 @@ const expectedOtherAnimalAuthorities = {
   'itis-xenacoelomorpha-tsn-crosswalk': { files: 2, records: 499 },
   'itis-orthonectida-tsn-crosswalk': { files: 2, records: 27 },
   'itis-dicyemida-tsn-crosswalk': { files: 2, records: 126 },
+  'itis-nematoda-tsn-crosswalk': { files: 4, records: 20849 },
+  'itis-annelida-tsn-crosswalk': { files: 4, records: 24074 },
 }
 if (otherAnimalsManifest.extensions?.length !== Object.keys(expectedOtherAnimalAuthorities).length) {
   throw new Error('Mobile build must stage every declared other-animals ITIS authority collection')

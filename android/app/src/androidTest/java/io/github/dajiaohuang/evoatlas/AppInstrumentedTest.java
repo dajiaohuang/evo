@@ -140,6 +140,7 @@ public class AppInstrumentedTest {
         int researchClaimLinks = 0;
         int phylogenyPackages = 0;
         int wormsNomenclatureRecords = 0;
+        int richItisNomenclatureRecords = 0;
         int wfoRichRecords = 0;
         Iterator<String> richPackageIds = richManifests.keys();
         while (richPackageIds.hasNext()) {
@@ -161,19 +162,35 @@ public class AppInstrumentedTest {
             if (payloads.has("phylogeny")) phylogenyPackages += 1;
             if (packageId.equals("echinoderms")) {
                 JSONArray collections = pack.getJSONArray("nomenclatureCollections");
-                assertEquals(1, collections.length());
-                JSONObject collection = collections.getJSONObject(0);
-                assertEquals("worms-aphiaid-crosswalk", collection.getString("id"));
-                assertEquals("WoRMS", collection.getString("provider"));
-                assertEquals("CC-BY-4.0", collection.getJSONObject("source").getString("license"));
-                assertEquals(11891, collection.getJSONObject("counts").getInt("total"));
-                JSONObject collectionFile = collection.getJSONObject("file");
+                assertEquals(2, collections.length());
+                JSONObject worms = findCollection(collections, "worms-aphiaid-crosswalk");
+                assertNotNull(worms);
+                assertEquals("WoRMS", worms.getString("provider"));
+                assertEquals("CC-BY-4.0", worms.getJSONObject("source").getString("license"));
+                assertEquals(11891, worms.getJSONObject("counts").getInt("total"));
+                JSONObject collectionFile = worms.getJSONObject("file");
                 JSONObject collectionInventoryRecord = findInventoryRecord(files, collectionFile.getString("url"));
                 assertNotNull("WoRMS collection missing from release inventory", collectionInventoryRecord);
                 assertEquals(collectionFile.getInt("bytes"), collectionInventoryRecord.getInt("bytes"));
                 assertEquals(collectionFile.getString("sha256"), collectionInventoryRecord.getString("sha256"));
                 verifyAssetRecord(context, collectionInventoryRecord);
-                wormsNomenclatureRecords += collection.getJSONObject("counts").getInt("total");
+                wormsNomenclatureRecords += worms.getJSONObject("counts").getInt("total");
+                richItisNomenclatureRecords += verifyRichItisCollection(context, files,
+                        findCollection(collections, "itis-echinodermata-tsn-crosswalk"),
+                        2, 1, 11891, 278, "ITIS Echinodermata");
+            } else if (packageId.equals("molluscs-brachiopods") || packageId.equals("sponges-cnidarians")) {
+                JSONArray collections = pack.getJSONArray("nomenclatureCollections");
+                assertEquals(1, collections.length());
+                String collectionId = packageId.equals("molluscs-brachiopods")
+                        ? "itis-mollusca-brachiopoda-tsn-crosswalk"
+                        : "itis-porifera-cnidaria-tsn-crosswalk";
+                int expectedFiles = packageId.equals("molluscs-brachiopods") ? 59 : 5;
+                int expectedUpstreamFiles = 1;
+                int expectedRecords = packageId.equals("molluscs-brachiopods") ? 159794 : 30521;
+                int expectedUpstreamRecords = packageId.equals("molluscs-brachiopods") ? 4289 : 2218;
+                richItisNomenclatureRecords += verifyRichItisCollection(context, files,
+                        findCollection(collections, collectionId), expectedFiles, expectedUpstreamFiles,
+                        expectedRecords, expectedUpstreamRecords, "ITIS " + packageId);
             } else if (packageId.equals("angiospermae") || packageId.equals("gymnosperms") || packageId.equals("early-land-plants")) {
                 JSONArray collections = pack.getJSONArray("nomenclatureCollections");
                 assertEquals(1, collections.length());
@@ -249,6 +266,7 @@ public class AppInstrumentedTest {
         assertEquals(34, researchClaimLinks);
         assertEquals(2, phylogenyPackages);
         assertEquals(11891, wormsNomenclatureRecords);
+        assertEquals(202206, richItisNomenclatureRecords);
         assertEquals(387988, wfoRichRecords);
 
         JSONObject catalogueDescriptor = current.getJSONObject("catalogue").getJSONObject("manifest");
@@ -335,7 +353,7 @@ public class AppInstrumentedTest {
                 }
             } else if (packageId.equals("other-animals")) {
                 JSONArray extensions = pack.getJSONArray("extensions");
-                assertEquals(26, extensions.length());
+                assertEquals(28, extensions.length());
                 String[] expectedIds = new String[]{
                     "itis-platyhelminthes-tsn-crosswalk", "itis-rotifera-tsn-crosswalk", "itis-bryozoa-tsn-crosswalk",
                     "itis-nemertea-tsn-crosswalk", "itis-tunicata-cephalochordata-tsn-crosswalk", "itis-acanthocephala-tsn-crosswalk",
@@ -345,21 +363,23 @@ public class AppInstrumentedTest {
                     "itis-sipuncula-tsn-crosswalk", "itis-nematomorpha-tsn-crosswalk", "itis-phoronida-tsn-crosswalk",
                     "itis-gnathostomulida-tsn-crosswalk", "itis-loricifera-tsn-crosswalk",
                     "itis-micrognathozoa-tsn-crosswalk", "itis-cycliophora-tsn-crosswalk", "itis-placozoa-tsn-crosswalk",
-                    "itis-xenacoelomorpha-tsn-crosswalk", "itis-orthonectida-tsn-crosswalk", "itis-dicyemida-tsn-crosswalk"
+                    "itis-xenacoelomorpha-tsn-crosswalk", "itis-orthonectida-tsn-crosswalk", "itis-dicyemida-tsn-crosswalk",
+                    "itis-nematoda-tsn-crosswalk", "itis-annelida-tsn-crosswalk"
                 };
-                int[] expectedFiles = new int[]{15, 3, 3, 2, 2, 3, 2, 3, 2, 2, 2, 2, 1, 1, 2, 2, 2, 1, 2, 1, 1, 1, 1, 2, 2, 2};
-                int[] expectedRecords = new int[]{28252, 2662, 20754, 1416, 3242, 1330, 171, 1461, 156, 204, 420, 997, 23, 235, 139, 205, 404, 19, 104, 46, 1, 2, 4, 499, 27, 126};
-                for (int extensionIndex = 0; extensionIndex < extensions.length(); extensionIndex += 1) {
-                    JSONObject authority = extensions.getJSONObject(extensionIndex);
-                    assertEquals(expectedIds[extensionIndex], authority.getString("id"));
+                int[] expectedFiles = new int[]{15, 3, 3, 2, 2, 3, 2, 3, 2, 2, 2, 2, 1, 1, 2, 2, 2, 1, 2, 1, 1, 1, 1, 2, 2, 2, 4, 4};
+                int[] expectedRecords = new int[]{28252, 2662, 20754, 1416, 3242, 1330, 171, 1461, 156, 204, 420, 997, 23, 235, 139, 205, 404, 19, 104, 46, 1, 2, 4, 499, 27, 126, 20849, 24074};
+                for (int expectedIndex = 0; expectedIndex < expectedIds.length; expectedIndex += 1) {
+                    JSONObject authority = findCollection(extensions, expectedIds[expectedIndex]);
+                    assertNotNull("ITIS other-animals authority missing", authority);
                     assertEquals("Integrated Taxonomic Information System", authority.getString("provider"));
                     assertEquals("CC0-1.0", authority.getJSONObject("source").getString("license"));
                     JSONObject delivery = authority.getJSONObject("delivery");
                     assertEquals("native-full", delivery.getString("profile"));
                     assertTrue(delivery.getBoolean("completeRows"));
-                    assertEquals(expectedFiles[extensionIndex], delivery.getInt("canonicalFileCount"));
+                    assertEquals(expectedFiles[expectedIndex], delivery.getInt("canonicalFileCount"));
+                    assertEquals(expectedFiles[expectedIndex], delivery.getInt("publishedFileCount"));
                     JSONArray extensionFiles = authority.getJSONArray("files");
-                    assertEquals(expectedFiles[extensionIndex], extensionFiles.length());
+                    assertEquals(expectedFiles[expectedIndex], extensionFiles.length());
                     int extensionRecords = 0;
                     for (int fileIndex = 0; fileIndex < extensionFiles.length(); fileIndex += 1) {
                         JSONObject extensionFile = extensionFiles.getJSONObject(fileIndex);
@@ -370,7 +390,7 @@ public class AppInstrumentedTest {
                         verifyAssetRecord(context, extensionInventoryRecord);
                         extensionRecords += extensionFile.getInt("records");
                     }
-                    assertEquals(expectedRecords[extensionIndex], extensionRecords);
+                    assertEquals(expectedRecords[expectedIndex], extensionRecords);
                     otherAnimalsItisRecords += extensionRecords;
                 }
             } else if (packageId.equals("protists-chromists")) {
@@ -407,7 +427,8 @@ public class AppInstrumentedTest {
                 int[] expectedRecords = new int[]{8665, 21, 1110, 276, 52, 90, 3397, 1337, 1616, 1464, 0, 0, 53, 0, 0, 0, 0, 0, 1416, 4, 0, 0, 0, 0, 0};
                 assertEquals(expectedIds.length + 1, extensions.length());
                 for (int extensionIndex = 0; extensionIndex < expectedIds.length; extensionIndex += 1) {
-                    JSONObject itisAuthority = extensions.getJSONObject(extensionIndex + 1);
+                    JSONObject itisAuthority = findCollection(extensions, expectedIds[extensionIndex]);
+                    assertNotNull("ITIS protists/chromists authority missing", itisAuthority);
                     assertEquals(expectedIds[extensionIndex], itisAuthority.getString("id"));
                     assertEquals("Integrated Taxonomic Information System", itisAuthority.getString("provider"));
                     assertEquals("CC0-1.0", itisAuthority.getJSONObject("source").getString("license"));
@@ -489,11 +510,77 @@ public class AppInstrumentedTest {
         assertEquals(22360, lpsnIdentifierRecords);
         assertEquals(157044, indexFungorumIdentifierRecords);
         assertEquals(47975, foraminiferaAuthorityRecords);
-        assertEquals(62899, otherAnimalsItisRecords);
+        assertEquals(107822, otherAnimalsItisRecords);
         assertEquals(19501, protistsItisRecords);
         assertEquals(17554, ictvSpeciesRecords);
         assertEquals(19285, ictvIsolateRecords);
         assertEquals(61449, wfoSupplementRecords);
+    }
+
+    private JSONObject findCollection(JSONArray collections, String id) throws Exception {
+        for (int index = 0; index < collections.length(); index += 1) {
+            JSONObject collection = collections.getJSONObject(index);
+            if (collection.getString("id").equals(id)) return collection;
+        }
+        return null;
+    }
+
+    private int verifyRichItisCollection(Context context, JSONArray inventory, JSONObject collection,
+                                         int expectedFiles, int expectedUpstreamFiles,
+                                         int expectedRecords, int expectedUpstreamRecords,
+                                         String label) throws Exception {
+        assertNotNull(label + " collection missing", collection);
+        assertEquals("Integrated Taxonomic Information System", collection.getString("provider"));
+        assertEquals("CC0-1.0", collection.getJSONObject("source").getString("license"));
+        JSONObject delivery = collection.getJSONObject("delivery");
+        assertEquals("native-full", delivery.getString("profile"));
+        assertTrue(delivery.getBoolean("completeRows"));
+        assertEquals(expectedFiles + expectedUpstreamFiles, delivery.getInt("publishedFileCount"));
+        assertEquals(expectedFiles + expectedUpstreamFiles, delivery.getInt("canonicalFileCount"));
+        assertEquals(expectedRecords, collection.getJSONObject("counts").getInt("total"));
+        assertEquals(expectedUpstreamRecords, collection.getJSONObject("counts").getInt("itisUpstreamOnly"));
+        JSONArray files = collection.getJSONArray("files");
+        JSONArray upstreamFiles = collection.getJSONArray("upstreamOnlyFiles");
+        assertEquals(expectedFiles, files.length());
+        assertEquals(expectedUpstreamFiles, upstreamFiles.length());
+        JSONArray canonicalInventory = collection.getJSONArray("canonicalFileInventory");
+        assertEquals(expectedFiles + expectedUpstreamFiles, canonicalInventory.length());
+        int records = 0;
+        for (int group = 0; group < 2; group += 1) {
+            JSONArray shardGroup = group == 0 ? files : upstreamFiles;
+            for (int index = 0; index < shardGroup.length(); index += 1) {
+                JSONObject shard = shardGroup.getJSONObject(index);
+                JSONObject inventoryRecord = findInventoryRecord(inventory, shard.getString("url"));
+                assertNotNull(label + " shard missing from native release inventory", inventoryRecord);
+                assertEquals(shard.getInt("bytes"), inventoryRecord.getInt("bytes"));
+                assertEquals(shard.getString("sha256"), inventoryRecord.getString("sha256"));
+                verifyAssetRecord(context, inventoryRecord);
+                records += shard.getInt("records");
+            }
+        }
+        assertEquals(expectedRecords + expectedUpstreamRecords, records);
+        for (int index = 0; index < canonicalInventory.length(); index += 1) {
+            JSONObject canonical = canonicalInventory.getJSONObject(index);
+            String canonicalPath = canonical.getString("path");
+            String canonicalName = canonicalPath.substring(canonicalPath.lastIndexOf('/') + 1);
+            JSONObject runtime = null;
+            for (int group = 0; group < 2 && runtime == null; group += 1) {
+                JSONArray shardGroup = group == 0 ? files : upstreamFiles;
+                for (int shardIndex = 0; shardIndex < shardGroup.length(); shardIndex += 1) {
+                    JSONObject candidate = shardGroup.getJSONObject(shardIndex);
+                    String candidatePath = candidate.getString("url");
+                    if (candidatePath.substring(candidatePath.lastIndexOf('/') + 1).equals(canonicalName)) {
+                        runtime = candidate;
+                        break;
+                    }
+                }
+            }
+            assertNotNull(label + " canonical shard inventory mismatch", runtime);
+            assertEquals(canonical.getInt("records"), runtime.getInt("records"));
+            assertEquals(canonical.getInt("bytes"), runtime.getInt("bytes"));
+            assertEquals(canonical.getString("sha256"), runtime.getString("sha256"));
+        }
+        return expectedRecords;
     }
 
     private JSONObject findInventoryRecord(JSONArray files, String url) throws Exception {
