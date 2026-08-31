@@ -48,6 +48,12 @@ The canonical metre grid is transformed into a deterministic EPSG:3857 colour-ti
 
 The Web Mercator visualization excludes the polar caps beyond approximately ±85.051°, while the canonical grid retains the polar rows. Tile colours and bilinear resampling are visualization choices, not new elevation evidence.
 
+## Complete-series storage audit
+
+The pinned archive contains 109 unique NetCDF frames at five-million-year nominal ages from 0 to 540 Ma. `scripts/audit-scotese-paleodem-series.py` verified every frame against the shared 3,601 × 1,801 coordinate grid, finite unmasked values, integer metres and the signed 16-bit range. Independently gzip-compressing every lossless little-endian i16 frame totals 168,418,483 bytes. A bounded temporal-delta experiment with an absolute checkpoint every twelve frames totals 214,432,870 bytes and is therefore rejected: neighbouring reconstructions do not compress more efficiently as simple cell-wise deltas.
+
+Pre-rendering the 341-tile z0–z4 pyramid for all 109 ages would multiply the prototype's 17,820,715 visual-tile bytes into an unsuitable multi-gigabyte distribution. Complete-series delivery should keep independently addressable lossless grids and render the selected frame on the client, or place optional derived visualization artifacts outside the required canonical inventory. It must not trade away source resolution, fabricate temporal interpolation or force a user to download unrelated ages for one selected frame.
+
 ## Prohibited claims
 
 - Do not call CAO2024 geometry, observation points or land coverage palaeotopography.
