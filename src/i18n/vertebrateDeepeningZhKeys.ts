@@ -44,6 +44,16 @@ const vertebrateDeepeningMarkers = [
   'Compare temnospondyl', 'sampled morphology topology', 'Marjanović and Laurin', 'Parsimony step difference',
   'conflict is retained', 'Aquatic body form preserved', 'Aquatic swimmer', 'Aquatic; performance',
   'Undetermined from the fossil', 'Undetermined by the cited', 'Complete body fossil',
+  'Miguasha', 'Escuminac Formation', 'Unavailable from the cited', 'Fin propulsion', 'elpistostegalian', 'Unresolved aquatic',
+  'Four proximodistal radial rows', 'Branched carpals', 'Lepidotrichia', 'MHNM 06-2067',
+  'East Greenland', 'Upper Devonian limnic deposits', 'Aquatic or marginal-water', 'Digit-bearing limb',
+  'Small to medium-sized', 'Eight digits', 'Limb anatomy retains', 'Digit-bearing limbs do not',
+  'three-dimensional limb', 'Restricted limb long-axis', 'Large-bodied early tetrapod',
+  'Three-dimensional limb-joint', 'No long-axis rotations', 'Mobility result', 'Micro-CT reconstruction',
+  'Cloutier et al.', 'The Elpistostege specimen', 'CT data from articulated Elpistostege',
+  'The cited Elpistostege', 'The Acanthostega limb study', 'The Acanthostega limb material',
+  'Described Acanthostega', 'The cited Acanthostega', 'The Ichthyostega mobility study',
+  'The Ichthyostega specimens', 'Three-dimensional reconstruction of Ichthyostega', 'The cited Ichthyostega',
 ]
 
 export function hasVertebrateDeepeningTranslation(english: string): boolean {
