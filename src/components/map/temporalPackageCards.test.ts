@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest'
-import { findTemporalPackageCards } from './temporalPackageCards'
+import { findTemporalPackageCards } from './temporalPackageSceneMatcher'
 
 const range = {
   id: 'range:taxon', entityId: 'taxon', taxonomicConcept: 'A bounded taxon concept', geographicScope: 'Known localities only',

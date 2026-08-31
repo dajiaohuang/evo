@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState } from 'react'
 import { loadPackageRanges, loadPackageRegistry, loadPackageResearchExamples } from '../../data-client/staticDataClient'
 import { useI18n } from '../../i18n'
-import { findTemporalPackageCards, type TemporalPackageSource } from './temporalPackageCards'
+import { findTemporalPackageCards, type TemporalPackageSource } from './temporalPackageSceneMatcher'
 import './TemporalPackageCards.css'
 
 const INITIAL_CARD_LIMIT = 3

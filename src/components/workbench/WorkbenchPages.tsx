@@ -409,7 +409,7 @@ export function ComparePage({ params, onNavigate }: WorkbenchProps) {
   const initialEvent = getEvolutionEvent(params.get('event'))
   const [mode, setMode] = useState<CompareMode>(params.get('left') ? 'taxa' : initialEvent ? 'time' : 'taxa')
   const [leftTaxon, setLeftTaxon] = useState(params.get('left') ?? 'metamynodon')
-  const [rightTaxon, setRightTaxon] = useState('teleoceras')
+  const [rightTaxon, setRightTaxon] = useState(params.get('right') ?? 'teleoceras')
   const [olderA, setOlderA] = useState(initialEvent ? initialEvent.startAge + 5 : 40)
   const [youngerA, setYoungerA] = useState(initialEvent ? initialEvent.startAge : 30)
   const [olderB, setOlderB] = useState(initialEvent ? initialEvent.endAge : 20)
