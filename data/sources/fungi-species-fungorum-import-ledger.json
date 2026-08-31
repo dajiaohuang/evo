@@ -1,0 +1,544 @@
+{
+  "schemaVersion": 1,
+  "importType": "fungal-authority-crosswalk-import-ledger",
+  "retrievedAt": "2026-08-31",
+  "generator": {
+    "path": "scripts/fetch-fungi-authority-crosswalk.mjs",
+    "sha256": "8053525a70bf4bb5327ebe74969fabe842d38b5d1666fa4ad66566c27b4358cb"
+  },
+  "sourceDatasets": [
+    {
+      "datasetId": "2073",
+      "title": "Species Fungorum Plus",
+      "version": "Apr 2024",
+      "issued": "2024-04-28",
+      "doi": "10.48580/d4hj",
+      "versionDoi": "10.48580/d4hj.v14",
+      "authority": "Index Fungorum",
+      "checklistBankDatasetUrl": "https://api.checklistbank.org/dataset/2073",
+      "informationUrl": "http://www.speciesfungorum.org",
+      "license": "CC-BY-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "citation": "Kirk, P. M. (2024). Species Fungorum Plus (Apr 2024). Royal Botanic Gardens, Kew. https://doi.org/10.48580/d4hj",
+      "metadataResponse": {
+        "requestUrl": "https://api.checklistbank.org/dataset/2073",
+        "responseUrl": "https://api.checklistbank.org/dataset/2073",
+        "responseDate": "Mon, 31 Aug 2026 02:28:36 GMT",
+        "etag": null,
+        "lastModified": null,
+        "bytes": 2982,
+        "sha256": "01f7e78ef60f39a34391831a83775ee020e3be8c973e7590b11065ad7aa6a566"
+      },
+      "officialExport": {
+        "requestUrl": "https://api.checklistbank.org/dataset/2073/export.zip?format=DWCA",
+        "responseUrl": "https://download.checklistbank.org/job/44/442263ab-6c7e-461f-8dc6-5cd67303770c.zip",
+        "responseDate": "Mon, 31 Aug 2026 02:55:17 GMT",
+        "etag": "\"6b4d49-6488acd1ae57c\"",
+        "lastModified": "Sat, 17 Jan 2026 00:47:24 GMT",
+        "bytes": 7032137,
+        "sha256": "5a8875093c84660d6ffd488c3cd25431c0291b07f524a935e5beaffc40c07387",
+        "dataMember": {
+          "path": "dataset-2073.tsv",
+          "bytes": 79201640,
+          "sha256": "2c7211638579e7125ec595ed5f178770dafa55f838e243e1f9d122a600ec32db"
+        },
+        "metadataMember": {
+          "path": "metadata.yaml",
+          "bytes": 1933,
+          "sha256": "44a913b5610f97cdf51c0a83ac48ca4aa94158537d242aecaff25280cc39a249"
+        },
+        "recordCount": 328830
+      }
+    },
+    {
+      "datasetId": "1148",
+      "title": "Unicellular spore-forming protozoan parasites",
+      "shortName": "Microsporidia",
+      "version": "Nov 2015",
+      "issued": "2015-11-22",
+      "doi": "10.48580/d3dm",
+      "versionDoi": "10.48580/d3dm.v6",
+      "authority": "Index Fungorum / Species Fungorum",
+      "checklistBankDatasetUrl": "https://api.checklistbank.org/dataset/1148",
+      "informationUrl": "http://www.speciesfungorum.org",
+      "license": "CC-BY-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "citation": "Kirk, P. (2015). Unicellular spore-forming protozoan parasites (Nov 2015). https://doi.org/10.48580/d3dm",
+      "metadataResponse": {
+        "requestUrl": "https://api.checklistbank.org/dataset/1148",
+        "responseUrl": "https://api.checklistbank.org/dataset/1148",
+        "responseDate": "Mon, 31 Aug 2026 02:44:01 GMT",
+        "etag": null,
+        "lastModified": null,
+        "bytes": 1574,
+        "sha256": "78b72cc9a8216522ca0892ff81a567421bb95c129d3056446e0fd29a98e1d6ff"
+      },
+      "officialApiPages": [
+        {
+          "requestUrl": "https://api.checklistbank.org/dataset/1148/nameusage?limit=1000&offset=0",
+          "responseUrl": "https://api.checklistbank.org/dataset/1148/nameusage?limit=1000&offset=0",
+          "responseDate": "Mon, 31 Aug 2026 02:48:21 GMT",
+          "etag": null,
+          "lastModified": null,
+          "bytes": 1284384,
+          "sha256": "a9ba36c90f5aa54daad7587b1d6c177596ecbe2ae97e5c6306a4871541c0d976"
+        },
+        {
+          "requestUrl": "https://api.checklistbank.org/dataset/1148/nameusage?limit=1000&offset=1000",
+          "responseUrl": "https://api.checklistbank.org/dataset/1148/nameusage?limit=1000&offset=1000",
+          "responseDate": "Mon, 31 Aug 2026 02:48:22 GMT",
+          "etag": null,
+          "lastModified": null,
+          "bytes": 837701,
+          "sha256": "49b1abae9a723b713bff59ebb437182b8a2516190d94f1814e0ae1f2ffcdff82"
+        }
+      ],
+      "recordCount": 1844
+    }
+  ],
+  "directSourceRequests": [
+    {
+      "colId": "3KG8W",
+      "requestUrl": "https://api.checklistbank.org/dataset/316115/nameusage/3KG8W/source",
+      "responseDate": "Mon, 31 Aug 2026 02:48:43 GMT",
+      "bytes": 124,
+      "sha256": "f4092208735f791ab652a81f4f040df67e7e962fac49bb33d847b0832ec71ef9"
+    },
+    {
+      "colId": "3KJFT",
+      "requestUrl": "https://api.checklistbank.org/dataset/316115/nameusage/3KJFT/source",
+      "responseDate": "Mon, 31 Aug 2026 02:49:27 GMT",
+      "bytes": 124,
+      "sha256": "5aabcbd464bd0cdfdecc5c78177b735c4da42d912ba2a0cc97ef1f9a35786d9e"
+    },
+    {
+      "colId": "3KJR7",
+      "requestUrl": "https://api.checklistbank.org/dataset/316115/nameusage/3KJR7/source",
+      "responseDate": "Mon, 31 Aug 2026 02:49:27 GMT",
+      "bytes": 124,
+      "sha256": "46b41f4e3ea1d56d7b3b55736b2a94e9a357a80c502d507508419d9bc8d11b02"
+    },
+    {
+      "colId": "3KPHJ",
+      "requestUrl": "https://api.checklistbank.org/dataset/316115/nameusage/3KPHJ/source",
+      "responseDate": "Mon, 31 Aug 2026 02:49:27 GMT",
+      "bytes": 124,
+      "sha256": "108eaf7c68f6f14e8127fe41a33f2fe9bfab0c8865c3e204465a8f28f2e7d9dd"
+    },
+    {
+      "colId": "3QYSN",
+      "requestUrl": "https://api.checklistbank.org/dataset/316115/nameusage/3QYSN/source",
+      "responseDate": "Mon, 31 Aug 2026 02:48:42 GMT",
+      "bytes": 124,
+      "sha256": "b0378372ebdfcb4279ba9f081538aecfb386983e9a624485f6805df0e82b49fd"
+    },
+    {
+      "colId": "3R2V5",
+      "requestUrl": "https://api.checklistbank.org/dataset/316115/nameusage/3R2V5/source",
+      "responseDate": "Mon, 31 Aug 2026 02:49:27 GMT",
+      "bytes": 124,
+      "sha256": "ae7fc2cf1e2c3d4a8ec84d987e5acfd8f18c423662e0eaac63962dc7802ee8cb"
+    },
+    {
+      "colId": "3R2V8",
+      "requestUrl": "https://api.checklistbank.org/dataset/316115/nameusage/3R2V8/source",
+      "responseDate": "Mon, 31 Aug 2026 02:49:27 GMT",
+      "bytes": 124,
+      "sha256": "f24e6e08c86ad4011c0949d7f5a74dbbd4803caee6c5c88ac96a7d5cb5fc6293"
+    },
+    {
+      "colId": "3RKG9",
+      "requestUrl": "https://api.checklistbank.org/dataset/316115/nameusage/3RKG9/source",
+      "responseDate": "Mon, 31 Aug 2026 02:49:27 GMT",
+      "bytes": 124,
+      "sha256": "4594bb2fca7e12cf34cd95e70a5ebd6b0797d02d9338ff45c6bcc3a256b3dd94"
+    },
+    {
+      "colId": "3RRR7",
+      "requestUrl": "https://api.checklistbank.org/dataset/316115/nameusage/3RRR7/source",
+      "responseDate": "Mon, 31 Aug 2026 02:49:27 GMT",
+      "bytes": 124,
+      "sha256": "4072ce99d3f58f455635b59d9ad26710ffdf9207d31eb6f6cfd89f8f011e8be0"
+    },
+    {
+      "colId": "3T4HC",
+      "requestUrl": "https://api.checklistbank.org/dataset/316115/nameusage/3T4HC/source",
+      "responseDate": "Mon, 31 Aug 2026 02:49:27 GMT",
+      "bytes": 124,
+      "sha256": "1929c14555597aa50762be493d074ba5886e85da3ff27f7317744eb568033b6a"
+    },
+    {
+      "colId": "3XCX5",
+      "requestUrl": "https://api.checklistbank.org/dataset/316115/nameusage/3XCX5/source",
+      "responseDate": "Mon, 31 Aug 2026 02:49:27 GMT",
+      "bytes": 124,
+      "sha256": "967c3187dc525245fafc9970150b8a6100f3d1bb62f352027f5e68772506c608"
+    },
+    {
+      "colId": "3XZPY",
+      "requestUrl": "https://api.checklistbank.org/dataset/316115/nameusage/3XZPY/source",
+      "responseDate": "Mon, 31 Aug 2026 02:49:27 GMT",
+      "bytes": 124,
+      "sha256": "3b7c6ec0dc99b4222733ccd29d309ea69720469a9524a6378be5d0e1afc6db84"
+    },
+    {
+      "colId": "47QZL",
+      "requestUrl": "https://api.checklistbank.org/dataset/316115/nameusage/47QZL/source",
+      "responseDate": "Mon, 31 Aug 2026 02:49:27 GMT",
+      "bytes": 126,
+      "sha256": "69410ab6301eec707afb6dc557fba08999914e53555326a7f46aef1d02d25d58"
+    },
+    {
+      "colId": "4QD6S",
+      "requestUrl": "https://api.checklistbank.org/dataset/316115/nameusage/4QD6S/source",
+      "responseDate": "Mon, 31 Aug 2026 02:49:27 GMT",
+      "bytes": 124,
+      "sha256": "16b66ffe1ba724723b1689f7e059bbda804d46ffd727bcf822b17515af7c6445"
+    },
+    {
+      "colId": "4RMSD",
+      "requestUrl": "https://api.checklistbank.org/dataset/316115/nameusage/4RMSD/source",
+      "responseDate": "Mon, 31 Aug 2026 02:49:27 GMT",
+      "bytes": 124,
+      "sha256": "7f0ba973e58c39137eb59af39908282e8b9e09ce7f0e5994becefd41901fb129"
+    },
+    {
+      "colId": "52JMM",
+      "requestUrl": "https://api.checklistbank.org/dataset/316115/nameusage/52JMM/source",
+      "responseDate": "Mon, 31 Aug 2026 02:49:27 GMT",
+      "bytes": 124,
+      "sha256": "5ae9123d8b8ddf643a7c0ddcf5f1d7275586e3b07cbd6628749d5c798c525f05"
+    },
+    {
+      "colId": "568MY",
+      "requestUrl": "https://api.checklistbank.org/dataset/316115/nameusage/568MY/source",
+      "responseDate": "Mon, 31 Aug 2026 02:49:28 GMT",
+      "bytes": 126,
+      "sha256": "8a674ef4165fb9b9def7db8d957251ec3d0c8c394c71dacbaa8f4ad327dd8616"
+    },
+    {
+      "colId": "58DPC",
+      "requestUrl": "https://api.checklistbank.org/dataset/316115/nameusage/58DPC/source",
+      "responseDate": "Mon, 31 Aug 2026 02:49:28 GMT",
+      "bytes": 124,
+      "sha256": "937f1fdffb76d9c819272fdf89041e5704562a72ddb1ba5e1ec3eb50d1564d31"
+    },
+    {
+      "colId": "5B8ZN",
+      "requestUrl": "https://api.checklistbank.org/dataset/316115/nameusage/5B8ZN/source",
+      "responseDate": "Mon, 31 Aug 2026 02:49:28 GMT",
+      "bytes": 124,
+      "sha256": "a3b96ea071b1b3a792639bc641bf986f713ed413b2550cf3ee10233496620109"
+    },
+    {
+      "colId": "5BXJV",
+      "requestUrl": "https://api.checklistbank.org/dataset/316115/nameusage/5BXJV/source",
+      "responseDate": "Mon, 31 Aug 2026 02:49:28 GMT",
+      "bytes": 124,
+      "sha256": "6bf8630815826b6436cd07b23153dd5cbff6b2463f72f104d9c294f0c9898cc2"
+    },
+    {
+      "colId": "5C3QN",
+      "requestUrl": "https://api.checklistbank.org/dataset/316115/nameusage/5C3QN/source",
+      "responseDate": "Mon, 31 Aug 2026 02:49:28 GMT",
+      "bytes": 124,
+      "sha256": "d5783ba67f7c7b028c20d18568c9474d42908aa43083e0520ca2729d3d3fef9f"
+    },
+    {
+      "colId": "5YZCH",
+      "requestUrl": "https://api.checklistbank.org/dataset/316115/nameusage/5YZCH/source",
+      "responseDate": "Mon, 31 Aug 2026 02:49:28 GMT",
+      "bytes": 124,
+      "sha256": "9e707e3adc4301941f64896bbcf72e8d159f524d9088ac3581ad25e47b60bbf9"
+    },
+    {
+      "colId": "6B2CZ",
+      "requestUrl": "https://api.checklistbank.org/dataset/316115/nameusage/6B2CZ/source",
+      "responseDate": "Mon, 31 Aug 2026 02:49:28 GMT",
+      "bytes": 124,
+      "sha256": "bf6d20c186f400bd25c681f0c7e80d5d74201a20f4448b8eb32fa38f3021236f"
+    },
+    {
+      "colId": "6B5N4",
+      "requestUrl": "https://api.checklistbank.org/dataset/316115/nameusage/6B5N4/source",
+      "responseDate": "Mon, 31 Aug 2026 02:49:28 GMT",
+      "bytes": 124,
+      "sha256": "c956a7f9470915e78d7e533ad65c56db282b160ead3a2749ceabdb4a72c486ed"
+    },
+    {
+      "colId": "6C24Q",
+      "requestUrl": "https://api.checklistbank.org/dataset/316115/nameusage/6C24Q/source",
+      "responseDate": "Mon, 31 Aug 2026 02:49:28 GMT",
+      "bytes": 124,
+      "sha256": "9e5e3c9c51c4e61db6082833c24256d7598f529e1b6d8125d533d5280000be7b"
+    },
+    {
+      "colId": "6MGLC",
+      "requestUrl": "https://api.checklistbank.org/dataset/316115/nameusage/6MGLC/source",
+      "responseDate": "Mon, 31 Aug 2026 02:49:28 GMT",
+      "bytes": 124,
+      "sha256": "e294712aab4fed31d6e60b53efea20b7fd7db8819df77985e8b83113eaf0f1da"
+    },
+    {
+      "colId": "6NJXZ",
+      "requestUrl": "https://api.checklistbank.org/dataset/316115/nameusage/6NJXZ/source",
+      "responseDate": "Mon, 31 Aug 2026 02:49:28 GMT",
+      "bytes": 124,
+      "sha256": "8282b9e17f54d960628bbe24833794ae0f3c2d52ae0f05dc6af87cc400a448fc"
+    },
+    {
+      "colId": "6NQ2B",
+      "requestUrl": "https://api.checklistbank.org/dataset/316115/nameusage/6NQ2B/source",
+      "responseDate": "Mon, 31 Aug 2026 02:49:28 GMT",
+      "bytes": 124,
+      "sha256": "d137493f6c224d0b2dedc8a6248cd5891a088450af02f0fbc55888e17c634947"
+    },
+    {
+      "colId": "6NR2M",
+      "requestUrl": "https://api.checklistbank.org/dataset/316115/nameusage/6NR2M/source",
+      "responseDate": "Mon, 31 Aug 2026 02:49:28 GMT",
+      "bytes": 124,
+      "sha256": "007ab186f66ab3a0e756c8a5c529e2199f782abb24f5e235d8b59ae20344eb75"
+    },
+    {
+      "colId": "6VFGZ",
+      "requestUrl": "https://api.checklistbank.org/dataset/316115/nameusage/6VFGZ/source",
+      "responseDate": "Mon, 31 Aug 2026 02:49:28 GMT",
+      "bytes": 124,
+      "sha256": "463a4c1e30d352c870612d10e7f868ede0e4035c865c19ec06757b13a75a1c84"
+    },
+    {
+      "colId": "72YJW",
+      "requestUrl": "https://api.checklistbank.org/dataset/316115/nameusage/72YJW/source",
+      "responseDate": "Mon, 31 Aug 2026 02:49:28 GMT",
+      "bytes": 124,
+      "sha256": "ade44e1062afe3ab2c4f9a49ced09f9c31e097dee724d58ff3dad8c7c3f2fef1"
+    },
+    {
+      "colId": "7432M",
+      "requestUrl": "https://api.checklistbank.org/dataset/316115/nameusage/7432M/source",
+      "responseDate": "Mon, 31 Aug 2026 02:49:28 GMT",
+      "bytes": 124,
+      "sha256": "aa24566bbcfba33a51c871961c9e6878985f48e405ca7620297cffe3dda2f982"
+    },
+    {
+      "colId": "74696",
+      "requestUrl": "https://api.checklistbank.org/dataset/316115/nameusage/74696/source",
+      "responseDate": "Mon, 31 Aug 2026 02:49:28 GMT",
+      "bytes": 124,
+      "sha256": "791e141e04a6359e71b8a26a44832e7b9e90cbd92dbadf6af43570aa0b74d36c"
+    },
+    {
+      "colId": "767VF",
+      "requestUrl": "https://api.checklistbank.org/dataset/316115/nameusage/767VF/source",
+      "responseDate": "Mon, 31 Aug 2026 02:49:28 GMT",
+      "bytes": 124,
+      "sha256": "65f30ac2853a9b9932d58f7317197a1eb1ffb1cd572254965852e85c29b98680"
+    },
+    {
+      "colId": "7687F",
+      "requestUrl": "https://api.checklistbank.org/dataset/316115/nameusage/7687F/source",
+      "responseDate": "Mon, 31 Aug 2026 02:49:28 GMT",
+      "bytes": 124,
+      "sha256": "a410e901e1b3d0c4b6b4d1504e78693c22af58e31156057ffa8c2955eb691268"
+    },
+    {
+      "colId": "77HBK",
+      "requestUrl": "https://api.checklistbank.org/dataset/316115/nameusage/77HBK/source",
+      "responseDate": "Mon, 31 Aug 2026 02:49:28 GMT",
+      "bytes": 124,
+      "sha256": "563aad368c958a19f14db08a3c7f7eefed49b75d6ef98f10c31200fb7e8a3720"
+    },
+    {
+      "colId": "77HC8",
+      "requestUrl": "https://api.checklistbank.org/dataset/316115/nameusage/77HC8/source",
+      "responseDate": "Mon, 31 Aug 2026 02:49:28 GMT",
+      "bytes": 124,
+      "sha256": "64c85ec6227d693daec4535fcd4927d1198dd2c6dc1386288ae0864f6b546c4d"
+    },
+    {
+      "colId": "7DS3J",
+      "requestUrl": "https://api.checklistbank.org/dataset/316115/nameusage/7DS3J/source",
+      "responseDate": "Mon, 31 Aug 2026 02:49:28 GMT",
+      "bytes": 124,
+      "sha256": "dd4c4b829650a8263d736c209ce969444a7883a7ed5b035903c47b61739e8f5a"
+    },
+    {
+      "colId": "B2PRJ",
+      "requestUrl": "https://api.checklistbank.org/dataset/316115/nameusage/B2PRJ/source",
+      "responseDate": "Mon, 31 Aug 2026 02:49:28 GMT",
+      "bytes": 124,
+      "sha256": "755f03de71b4ff622441aeb8107c6d5985cedbae148f9883c0fc3d27e771744f"
+    },
+    {
+      "colId": "C9V63",
+      "requestUrl": "https://api.checklistbank.org/dataset/316115/nameusage/C9V63/source",
+      "responseDate": "Mon, 31 Aug 2026 02:49:28 GMT",
+      "bytes": 124,
+      "sha256": "e44516595c1ebc87b614fa41f0e80719c300342fd14a85b6157d617596481ef8"
+    },
+    {
+      "colId": "CCJKX",
+      "requestUrl": "https://api.checklistbank.org/dataset/316115/nameusage/CCJKX/source",
+      "responseDate": "Mon, 31 Aug 2026 02:49:29 GMT",
+      "bytes": 124,
+      "sha256": "ef43228fe296d34a14d523a974ccf55f030b03658e17142e1b838b3a6abb9d78"
+    },
+    {
+      "colId": "CCJMX",
+      "requestUrl": "https://api.checklistbank.org/dataset/316115/nameusage/CCJMX/source",
+      "responseDate": "Mon, 31 Aug 2026 02:49:29 GMT",
+      "bytes": 124,
+      "sha256": "4eb235ab57efbff31a1ec5313df051a460a10c0b9d59b7799c6627157d98d6bc"
+    },
+    {
+      "colId": "CCJPB",
+      "requestUrl": "https://api.checklistbank.org/dataset/316115/nameusage/CCJPB/source",
+      "responseDate": "Mon, 31 Aug 2026 02:49:29 GMT",
+      "bytes": 124,
+      "sha256": "a18a50d00570156a30ccdf3e0157ab2a4e1d5fa186f9645e4837c55ca7e11fe9"
+    },
+    {
+      "colId": "CCJWC",
+      "requestUrl": "https://api.checklistbank.org/dataset/316115/nameusage/CCJWC/source",
+      "responseDate": "Mon, 31 Aug 2026 02:49:29 GMT",
+      "bytes": 124,
+      "sha256": "5befed61d2d90c0930f70fb199e7be03d6baf70ce82830bb58eb928e56097d90"
+    },
+    {
+      "colId": "CCJWR",
+      "requestUrl": "https://api.checklistbank.org/dataset/316115/nameusage/CCJWR/source",
+      "responseDate": "Mon, 31 Aug 2026 02:49:29 GMT",
+      "bytes": 124,
+      "sha256": "ee7092bc67f7876f202d6bf262dc238207c8a0c170b411e02908047360a64a18"
+    },
+    {
+      "colId": "CCJZP",
+      "requestUrl": "https://api.checklistbank.org/dataset/316115/nameusage/CCJZP/source",
+      "responseDate": "Mon, 31 Aug 2026 02:49:29 GMT",
+      "bytes": 124,
+      "sha256": "bce4825bf537821c0e8ef26e5aeeb70c868a5499293b97b91db92bce118bdb8c"
+    },
+    {
+      "colId": "CCK49",
+      "requestUrl": "https://api.checklistbank.org/dataset/316115/nameusage/CCK49/source",
+      "responseDate": "Mon, 31 Aug 2026 02:49:29 GMT",
+      "bytes": 124,
+      "sha256": "c6278970344cb3bacf6c88d571f677aff55a88e5240fb7beebcdf8543eb53231"
+    },
+    {
+      "colId": "CCK4M",
+      "requestUrl": "https://api.checklistbank.org/dataset/316115/nameusage/CCK4M/source",
+      "responseDate": "Mon, 31 Aug 2026 02:49:29 GMT",
+      "bytes": 124,
+      "sha256": "ce05f34a76421a042fd3bac2b065e7437147ca5a411bcdfd3456c7aba8d916ea"
+    },
+    {
+      "colId": "CCK7M",
+      "requestUrl": "https://api.checklistbank.org/dataset/316115/nameusage/CCK7M/source",
+      "responseDate": "Mon, 31 Aug 2026 02:49:29 GMT",
+      "bytes": 124,
+      "sha256": "9dbb1118f647d05e5fbac6cdf2d82e2a9c56994b8dd054a8c3b692d9e1527b13"
+    },
+    {
+      "colId": "CCK9W",
+      "requestUrl": "https://api.checklistbank.org/dataset/316115/nameusage/CCK9W/source",
+      "responseDate": "Mon, 31 Aug 2026 02:49:29 GMT",
+      "bytes": 124,
+      "sha256": "9c993d056839216dcb10c0aadd3e88a74f29eb2f2506e1797195812bae87825c"
+    },
+    {
+      "colId": "CCKDZ",
+      "requestUrl": "https://api.checklistbank.org/dataset/316115/nameusage/CCKDZ/source",
+      "responseDate": "Mon, 31 Aug 2026 02:49:29 GMT",
+      "bytes": 124,
+      "sha256": "3f2de481a47d2d45719c968e1200b4a9bcda6bda6fad35e5e21e2e65c332fe15"
+    },
+    {
+      "colId": "CCKFC",
+      "requestUrl": "https://api.checklistbank.org/dataset/316115/nameusage/CCKFC/source",
+      "responseDate": "Mon, 31 Aug 2026 02:49:29 GMT",
+      "bytes": 124,
+      "sha256": "d873000ecd7ddcd31b46faaf6d57e2a50e4f78a87de224c62f282ff043c0c5c7"
+    },
+    {
+      "colId": "CCKLY",
+      "requestUrl": "https://api.checklistbank.org/dataset/316115/nameusage/CCKLY/source",
+      "responseDate": "Mon, 31 Aug 2026 02:49:29 GMT",
+      "bytes": 124,
+      "sha256": "165249421e6cb092392d190a37619bad3c9d127794461b421073b125fcf712ff"
+    },
+    {
+      "colId": "CCKMC",
+      "requestUrl": "https://api.checklistbank.org/dataset/316115/nameusage/CCKMC/source",
+      "responseDate": "Mon, 31 Aug 2026 02:49:29 GMT",
+      "bytes": 124,
+      "sha256": "804ae91c948a5c6aadf5022db953804d49a7fc7f8833d21eb679eace6af3d9ac"
+    },
+    {
+      "colId": "CPXS2",
+      "requestUrl": "https://api.checklistbank.org/dataset/316115/nameusage/CPXS2/source",
+      "responseDate": "Mon, 31 Aug 2026 02:49:29 GMT",
+      "bytes": 126,
+      "sha256": "58db68c7982ad429ca7ec82302998b4068291c5063636eae150a74f475ce8531"
+    },
+    {
+      "colId": "FVB8",
+      "requestUrl": "https://api.checklistbank.org/dataset/316115/nameusage/FVB8/source",
+      "responseDate": "Mon, 31 Aug 2026 02:49:29 GMT",
+      "bytes": 124,
+      "sha256": "1ef73dd257641c4b069d140da560b90b0919e4df3fa642f0cd63129fbd08ec35"
+    },
+    {
+      "colId": "HSDL",
+      "requestUrl": "https://api.checklistbank.org/dataset/316115/nameusage/HSDL/source",
+      "responseDate": "Mon, 31 Aug 2026 02:49:29 GMT",
+      "bytes": 124,
+      "sha256": "483905ba48834f907ec493c2547bd90cd62a328015d96add9049ffc4c6c18664"
+    },
+    {
+      "colId": "HTT6",
+      "requestUrl": "https://api.checklistbank.org/dataset/316115/nameusage/HTT6/source",
+      "responseDate": "Mon, 31 Aug 2026 02:49:29 GMT",
+      "bytes": 124,
+      "sha256": "b8f8683d22f43c0282f0c5c896e7358f3b583d9bc4d9fcf9d41ca3eb20a3836a"
+    },
+    {
+      "colId": "HW3K",
+      "requestUrl": "https://api.checklistbank.org/dataset/316115/nameusage/HW3K/source",
+      "responseDate": "Mon, 31 Aug 2026 02:49:29 GMT",
+      "bytes": 124,
+      "sha256": "3ea03d4675da40f0e724d883824668c61abc83debd3c1f309842a1dff5c08b4c"
+    },
+    {
+      "colId": "YK2H",
+      "requestUrl": "https://api.checklistbank.org/dataset/316115/nameusage/YK2H/source",
+      "responseDate": "Mon, 31 Aug 2026 02:49:29 GMT",
+      "bytes": 124,
+      "sha256": "bae64798f5dbf039fb21e1986b1c9629aa5a093a97346e8bcd846769145cb8f4"
+    }
+  ],
+  "output": {
+    "path": "data/sources/fungi-species-fungorum-crosswalk-col26.8.json.gz",
+    "bytes": 4429748,
+    "sha256": "5e6ecd007451ac1bf0aab2f07dd6ef9d05530439476b8867e2962c1f73f82607",
+    "sourceBytes": 56939519,
+    "sourceSha256": "903be85cc09b6375962ee915e27e93a7b6edc3299bcfeaa414dcdec410f8b748",
+    "counts": {
+      "acceptedSpecies": 157044,
+      "eligible": 157044,
+      "accepted": 157044,
+      "redirect": 0,
+      "ambiguous": 0,
+      "unmatched": 0,
+      "withheld": 0,
+      "upstreamOnly": 201
+    }
+  },
+  "limitations": [
+    "This is a release-scoped identifier crosswalk, not a claim that described fungal diversity is complete.",
+    "Species Fungorum and Index Fungorum are continuously curated; later taxonomic opinions and identifiers may differ.",
+    "Upstream-only means accepted species in the two pinned source snapshots that are not used by the COL26.8 Fungi accepted-species pack.",
+    "The minimal sidecar does not copy the live Index Fungorum database or independently validate nomenclatural acts."
+  ]
+}

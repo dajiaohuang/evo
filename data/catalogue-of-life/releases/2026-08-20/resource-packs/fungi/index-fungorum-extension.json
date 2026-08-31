@@ -1,0 +1,162 @@
+{
+  "id": "index-fungorum-identifiers",
+  "recordType": "external-name-identifier-crosswalk",
+  "provider": "Species Fungorum / Index Fungorum",
+  "source": {
+    "catalogueRelease": "COL26.8",
+    "catalogueReleaseDate": "2026-08-20",
+    "checklistBankDatasetKey": 316115,
+    "sourceDatasets": [
+      {
+        "datasetId": "2073",
+        "title": "Species Fungorum Plus",
+        "version": "Apr 2024",
+        "issued": "2024-04-28",
+        "doi": "10.48580/d4hj",
+        "versionDoi": "10.48580/d4hj.v14",
+        "license": "CC-BY-4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "citation": "Kirk, P. M. (2024). Species Fungorum Plus (Apr 2024). Royal Botanic Gardens, Kew. https://doi.org/10.48580/d4hj"
+      },
+      {
+        "datasetId": "1148",
+        "title": "Unicellular spore-forming protozoan parasites",
+        "version": "Nov 2015",
+        "issued": "2015-11-22",
+        "doi": "10.48580/d3dm",
+        "versionDoi": "10.48580/d3dm.v6",
+        "license": "CC-BY-4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "citation": "Kirk, P. (2015). Unicellular spore-forming protozoan parasites (Nov 2015). https://doi.org/10.48580/d3dm"
+      }
+    ],
+    "retrievedAt": "2026-08-31",
+    "indexFungorumUrlTemplate": "https://www.indexfungorum.org/Names/NamesRecord.asp?RecordID={id}",
+    "canonicalCrosswalkPath": "data/sources/fungi-species-fungorum-crosswalk-col26.8.json.gz",
+    "canonicalCrosswalkBytes": 4429748,
+    "canonicalCrosswalkSha256": "5e6ecd007451ac1bf0aab2f07dd6ef9d05530439476b8867e2962c1f73f82607",
+    "canonicalCrosswalkSourceBytes": 56939519,
+    "canonicalCrosswalkSourceSha256": "903be85cc09b6375962ee915e27e93a7b6edc3299bcfeaa414dcdec410f8b748",
+    "requestIntegrity": {
+      "algorithm": "sha256",
+      "directSourceRequestCount": 60,
+      "directSourceRequestLedgerSha256": "f30dbac797606b05eba3df3880dacb34839983e86f5d79a9a8e1caa59fb29276",
+      "recordLedgerSha256": "0c8288bab9c0327b14fc291f1584d56b3a98843e66dc5cf586f7444e98f494d5"
+    },
+    "rightsBoundary": "Only the two release-pinned ChecklistBank source datasets declared CC BY 4.0 are used. No live Index Fungorum page content, bibliographic detail, hosts, substrates, localities, descriptions, media, or complete live database is copied."
+  },
+  "eligibility": "Every strict accepted COL26.8 Fungi species whose sourceDatasetId is Species Fungorum Plus 2073 or Microsporidia 1148.",
+  "counts": {
+    "acceptedSpecies": 157044,
+    "eligible": 157044,
+    "accepted": 157044,
+    "redirect": 0,
+    "ambiguous": 0,
+    "unmatched": 0,
+    "withheld": 0,
+    "upstreamOnly": 201
+  },
+  "sourceComposition": {
+    "1148": 1203,
+    "2073": 155841
+  },
+  "fields": [
+    "colId",
+    "sourceDatasetId",
+    "indexFungorumId",
+    "indexFungorumUrl",
+    "mappingBasis",
+    "status"
+  ],
+  "files": [
+    {
+      "path": "fungi/index-fungorum-000.jsonl.gz",
+      "records": 26659,
+      "bytes": 273799,
+      "sourceBytes": 6291380,
+      "sha256": "757c2def3289d04b1620306ac6a486c5755050ea95112f685862bb84884e8582",
+      "sourceSha256": "057cf6478a1c8cf9f85b13df81c7999d4b952a5195ada3fa7146dcdeb762c035",
+      "encoding": "gzip",
+      "mediaType": "application/x-ndjson",
+      "minColId": "322GR",
+      "maxColId": "3Y9JZ"
+    },
+    {
+      "path": "fungi/index-fungorum-001.jsonl.gz",
+      "records": 26658,
+      "bytes": 272496,
+      "sourceBytes": 6291276,
+      "sha256": "aaf829644d3a95ac8601740664b0c4f18073b926d6f9775a50144db2abedcffd",
+      "sourceSha256": "cd6db1e3889f8b0df0f05bd1903bdd59e50700fca645806712ca7f5ae3d019cf",
+      "encoding": "gzip",
+      "mediaType": "application/x-ndjson",
+      "minColId": "3Y9K2",
+      "maxColId": "4QC38"
+    },
+    {
+      "path": "fungi/index-fungorum-002.jsonl.gz",
+      "records": 26659,
+      "bytes": 274872,
+      "sourceBytes": 6291416,
+      "sha256": "79064160f29c7407cece6ba5c6a3e62b6631d82bda390950c7a59ebc56af89ab",
+      "sourceSha256": "751f54ad7f173001fe4caee002693b3a9e44f7df26851e3c927b41fc73abdcf6",
+      "encoding": "gzip",
+      "mediaType": "application/x-ndjson",
+      "minColId": "4QC39",
+      "maxColId": "64QJ2"
+    },
+    {
+      "path": "fungi/index-fungorum-003.jsonl.gz",
+      "records": 26659,
+      "bytes": 282554,
+      "sourceBytes": 6291414,
+      "sha256": "c4b1de931402b94ad2013b30e72810fad4e1a034cfaa4cc44141e5b30865c20a",
+      "sourceSha256": "fd9d264c6820f0d2214aba6644df837c4939e99bd04cbf13b9eda4345251b2f1",
+      "encoding": "gzip",
+      "mediaType": "application/x-ndjson",
+      "minColId": "64QJ3",
+      "maxColId": "7383G"
+    },
+    {
+      "path": "fungi/index-fungorum-004.jsonl.gz",
+      "records": 26662,
+      "bytes": 275206,
+      "sourceBytes": 6291400,
+      "sha256": "2eb83acee40cfb13326e817547b958ee2cf09cd1ba19c28a546255a4b095199c",
+      "sourceSha256": "3cbb538b81e7b4c62312a5b381cfb7e3f9bc34c8d343164ab74f20832bef4bce",
+      "encoding": "gzip",
+      "mediaType": "application/x-ndjson",
+      "minColId": "73843",
+      "maxColId": "B392F"
+    },
+    {
+      "path": "fungi/index-fungorum-005.jsonl.gz",
+      "records": 23747,
+      "bytes": 244184,
+      "sourceBytes": 5583339,
+      "sha256": "9f3002d53a27c429588c8bc78cdf319cfdc8e4f9234a2903fcb8bae41fa742dc",
+      "sourceSha256": "e590f11298a0af80cc7ca8bced0d9f8db6950da8286c07647c5f48d6be18153c",
+      "encoding": "gzip",
+      "mediaType": "application/x-ndjson",
+      "minColId": "B392H",
+      "maxColId": "ZZH6"
+    }
+  ],
+  "totalCompressedBytes": 1623111,
+  "totalSourceBytes": 37040225,
+  "limitations": [
+    "This is a release-scoped identifier crosswalk, not a claim that fungal taxonomy or described fungal diversity is complete.",
+    "No live Index Fungorum page content, bibliography, host, substrate, locality, description, media, fossil, ecology, phylogeny, dossier, or expert review is copied.",
+    "Upstream-only records remain in the canonical audit snapshot and are not injected into the COL26.8 accepted-species pack."
+  ],
+  "integration": {
+    "targetManifestPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/fungi/manifest.json",
+    "clientParityRequirement": "When attached in a release, all files must be copied unchanged into Web runtime, offline ZIP, Android assets, and iOS assets.",
+    "lookup": {
+      "strategy": "lexicographic-colId-range-v1",
+      "ordering": "Unicode code-unit ascending with no locale folding or normalization.",
+      "requestPolicy": "Select the sole file whose inclusive minColId/maxColId range contains the requested COL ID; load and parse only that payload shard.",
+      "forbiddenBehavior": "A single-species detail query must not download or parse the complete authority sidecar or more than one payload shard."
+    }
+  }
+}
