@@ -45,5 +45,222 @@
   ],
   "totalCompressedBytes": 15929,
   "totalSourceBytes": 133848,
-  "evidenceBoundary": "This package preserves official COL26.8 nomenclatural and placement fields only; it does not assert an Evo Atlas dossier, biological evidence, media, fossils, ecology, translation, or expert review."
+  "evidenceBoundary": "This package preserves official COL26.8 nomenclatural and placement fields only; it does not assert an Evo Atlas dossier, biological evidence, media, fossils, ecology, translation, or expert review.",
+  "extensions": [
+    {
+      "id": "wfo-plant-list-crosswalk",
+      "recordType": "release-pinned-exact-plant-name-crosswalk",
+      "provider": "World Flora Online Plant List",
+      "source": {
+        "catalogueRelease": "COL26.8",
+        "catalogueReleaseDate": "2026-08-20",
+        "checklistBankDatasetKey": 316115,
+        "wfoVersion": "2026-06",
+        "wfoIssued": "2026-06-21",
+        "versionDoi": "10.5281/zenodo.20782718",
+        "conceptDoi": "10.5281/zenodo.7460141",
+        "license": "CC0-1.0",
+        "canonicalCrosswalkPath": "data/sources/wfo-plant-crosswalk-col26.8.json.gz",
+        "canonicalCrosswalkSha256": "491d673f2549ddff260a560eda49d67a0169cb000a88d06b6670509b1779cca0",
+        "canonicalCrosswalkBytes": 18043579,
+        "canonicalCrosswalkSourceSha256": "980144add135db3fa709392552534e19e33bc45605a97f5bafeb4d239d1621af",
+        "canonicalCrosswalkSourceBytes": 260967760,
+        "sourceLedgerPath": "data/sources/wfo-plant-list-2026-06.json",
+        "sourceLedgerSha256": "5bab095517de524a24cc127804df8390db2d5e20994874873ec18d56c02e66fc",
+        "archiveSha256": "75f1ad1f371978c9e46f3044152c07ed276fe57be9fb9a15b3621b19cf231987",
+        "wfoAcceptedSpecies": 382438,
+        "upstreamOnly": 60751
+      },
+      "eligibility": "The COL partition contains only the 698 accepted COL26.8 species owned by other-plants; WFO upstream-only records have null COL ownership and remain a separate non-COL partition.",
+      "matching": {
+        "normalization": [
+          "Remove the exact trailing COL authorship field only when that exact suffix is present.",
+          "Normalize Unicode to NFC, replace underscores with spaces, collapse Unicode whitespace and trim.",
+          "Preserve case, diacritics, punctuation, name tokens and authorship tokens."
+        ],
+        "accepted": "Exactly one WFO 2026-06 accepted species has the exact normalized scientific name, authorship and species rank.",
+        "redirect": "Exactly one WFO 2026-06 synonym name has the exact normalized scientific name, authorship and species rank and explicitly points to one accepted WFO species.",
+        "ambiguous": "Exact WFO records resolve to more than one accepted WFO species.",
+        "unmatched": "No exact WFO species-name record exists.",
+        "withheld": "The COL authorship boundary cannot be removed exactly or a required WFO accepted target is absent.",
+        "upstreamOnly": "A WFO 2026-06 accepted species is not the unambiguous target of any COL26.8 plant record.",
+        "forbidden": "No fuzzy, case-folded, diacritic-stripped, punctuation-stripped, edit-distance, phonetic, token-reordered, genus-substitution or authority-only matching is permitted."
+      },
+      "counts": {
+        "colAcceptedPlantSpecies": 388686,
+        "packageColRecords": 698,
+        "accepted": 0,
+        "redirect": 0,
+        "ambiguous": 0,
+        "unmatched": 698,
+        "withheld": 0,
+        "wfoAcceptedSpecies": 382438,
+        "upstreamOnly": 60751,
+        "records": 61449
+      },
+      "fields": [
+        "colAuthorship",
+        "colId",
+        "colScientificName",
+        "colSourceDatasetId",
+        "mappingBasis",
+        "packageId",
+        "status",
+        "wfoAuthorship",
+        "wfoExtinct",
+        "wfoId",
+        "wfoParentId",
+        "wfoScientificName",
+        "wfoSnapshotId",
+        "wfoSnapshotUrl",
+        "wfoUrl"
+      ],
+      "partitions": [
+        {
+          "id": "other-plants-col",
+          "colOwnership": "other-plants",
+          "records": 698,
+          "files": [
+            {
+              "path": "other-plants/wfo-col-000.jsonl.gz",
+              "records": 698,
+              "bytes": 15692,
+              "sourceBytes": 176426,
+              "sha256": "6c790b859cd6f2b53e5d64958df3696f4bbe9d631220a48a0a4240dae639099e",
+              "sourceSha256": "47abf8f3262ac0c39713cd4f50d0242db66f9279621b623ec397967059a8e6d3",
+              "encoding": "gzip",
+              "mediaType": "application/x-ndjson",
+              "minColId": "36SWD",
+              "maxColId": "XPXV"
+            }
+          ]
+        },
+        {
+          "id": "wfo-upstream-only",
+          "colOwnership": null,
+          "records": 60751,
+          "files": [
+            {
+              "path": "other-plants/wfo-upstream-only-000.jsonl.gz",
+              "records": 17637,
+              "bytes": 607823,
+              "sourceBytes": 6291202,
+              "sha256": "1e03067ed3b0a4767c6e3c01596839f2ddb3398039d5c7bb40ff94f69c30b1b9",
+              "sourceSha256": "4f8c13c78fd1acc982766a7581f245efb8cfc18f63a586d23b04712cd0162a23",
+              "encoding": "gzip",
+              "mediaType": "application/x-ndjson",
+              "minWfoId": "wfo-0000000007",
+              "maxWfoId": "wfo-0000422130"
+            },
+            {
+              "path": "other-plants/wfo-upstream-only-001.jsonl.gz",
+              "records": 17625,
+              "bytes": 557428,
+              "sourceBytes": 6291220,
+              "sha256": "fd085f4986ef80bd6118d2df3063751741d233e1224e68f7b208818bbdc0ed3b",
+              "sourceSha256": "b1e9e05f55b2d609d98004f638380994aacf0d3c6d0afc288ef900a67692d8c9",
+              "encoding": "gzip",
+              "mediaType": "application/x-ndjson",
+              "minWfoId": "wfo-0000422137",
+              "maxWfoId": "wfo-0000962492"
+            },
+            {
+              "path": "other-plants/wfo-upstream-only-002.jsonl.gz",
+              "records": 17485,
+              "bytes": 572162,
+              "sourceBytes": 6291135,
+              "sha256": "bf4bb93cc5e8a8caf16031569a8e8009689673f63b8bfe49353f27b91aa8a01e",
+              "sourceSha256": "9845c6dc6048bb65e9f1aa1cd49e7f1f0bd289ba65db7e483cbc7a19bde4ec3a",
+              "encoding": "gzip",
+              "mediaType": "application/x-ndjson",
+              "minWfoId": "wfo-0000962493",
+              "maxWfoId": "wfo-0001292574"
+            },
+            {
+              "path": "other-plants/wfo-upstream-only-003.jsonl.gz",
+              "records": 8004,
+              "bytes": 304965,
+              "sourceBytes": 2943144,
+              "sha256": "8e3163a15349f742ea529ac0db371df6235f3dd387182efd537758cf07b5d734",
+              "sourceSha256": "d56f5b252818ef0ebf2ad994681f1cb8c4bc6b122f51db0624455138b5cdec76",
+              "encoding": "gzip",
+              "mediaType": "application/x-ndjson",
+              "minWfoId": "wfo-0001292577",
+              "maxWfoId": "wfo-1200118773"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "path": "other-plants/wfo-col-000.jsonl.gz",
+          "records": 698,
+          "bytes": 15692,
+          "sourceBytes": 176426,
+          "sha256": "6c790b859cd6f2b53e5d64958df3696f4bbe9d631220a48a0a4240dae639099e",
+          "sourceSha256": "47abf8f3262ac0c39713cd4f50d0242db66f9279621b623ec397967059a8e6d3",
+          "encoding": "gzip",
+          "mediaType": "application/x-ndjson",
+          "minColId": "36SWD",
+          "maxColId": "XPXV"
+        },
+        {
+          "path": "other-plants/wfo-upstream-only-000.jsonl.gz",
+          "records": 17637,
+          "bytes": 607823,
+          "sourceBytes": 6291202,
+          "sha256": "1e03067ed3b0a4767c6e3c01596839f2ddb3398039d5c7bb40ff94f69c30b1b9",
+          "sourceSha256": "4f8c13c78fd1acc982766a7581f245efb8cfc18f63a586d23b04712cd0162a23",
+          "encoding": "gzip",
+          "mediaType": "application/x-ndjson",
+          "minWfoId": "wfo-0000000007",
+          "maxWfoId": "wfo-0000422130"
+        },
+        {
+          "path": "other-plants/wfo-upstream-only-001.jsonl.gz",
+          "records": 17625,
+          "bytes": 557428,
+          "sourceBytes": 6291220,
+          "sha256": "fd085f4986ef80bd6118d2df3063751741d233e1224e68f7b208818bbdc0ed3b",
+          "sourceSha256": "b1e9e05f55b2d609d98004f638380994aacf0d3c6d0afc288ef900a67692d8c9",
+          "encoding": "gzip",
+          "mediaType": "application/x-ndjson",
+          "minWfoId": "wfo-0000422137",
+          "maxWfoId": "wfo-0000962492"
+        },
+        {
+          "path": "other-plants/wfo-upstream-only-002.jsonl.gz",
+          "records": 17485,
+          "bytes": 572162,
+          "sourceBytes": 6291135,
+          "sha256": "bf4bb93cc5e8a8caf16031569a8e8009689673f63b8bfe49353f27b91aa8a01e",
+          "sourceSha256": "9845c6dc6048bb65e9f1aa1cd49e7f1f0bd289ba65db7e483cbc7a19bde4ec3a",
+          "encoding": "gzip",
+          "mediaType": "application/x-ndjson",
+          "minWfoId": "wfo-0000962493",
+          "maxWfoId": "wfo-0001292574"
+        },
+        {
+          "path": "other-plants/wfo-upstream-only-003.jsonl.gz",
+          "records": 8004,
+          "bytes": 304965,
+          "sourceBytes": 2943144,
+          "sha256": "8e3163a15349f742ea529ac0db371df6235f3dd387182efd537758cf07b5d734",
+          "sourceSha256": "d56f5b252818ef0ebf2ad994681f1cb8c4bc6b122f51db0624455138b5cdec76",
+          "encoding": "gzip",
+          "mediaType": "application/x-ndjson",
+          "minWfoId": "wfo-0001292577",
+          "maxWfoId": "wfo-1200118773"
+        }
+      ],
+      "totalCompressedBytes": 2058070,
+      "totalSourceBytes": 21993127,
+      "limitations": [
+        "The crosswalk supplies release-pinned nomenclatural identifiers and explicit status relationships. It is not evidence of phylogeny, ecology, distribution, extinction, fossils, media, translation, dossier maturity or expert review.",
+        "COL26.8 and WFO 2026-06 are independent snapshots with different update timing and species concepts; exact name agreement is not proof of concept equivalence.",
+        "Ambiguous, unmatched and withheld COL rows are retained explicitly. Upstream-only WFO accepted species are not silently forced into a COL package.",
+        "Later WFO or COL releases require a new immutable snapshot and a concept-level diff; this sidecar must not be silently rewritten."
+      ]
+    }
+  ]
 }

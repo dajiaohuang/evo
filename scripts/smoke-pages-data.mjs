@@ -66,6 +66,7 @@ let researchClaimLinkCount = 0
 let researchExampleAvailableCount = 0
 let packagePhylogenyCount = 0
 let wormsNomenclatureRecords = 0
+let wfoRichRecords = 0
 for (const packageEntry of packageRegistry.packages) {
   const manifestFile = current.packages.manifests[packageEntry.id]
   releaseUrl(manifestFile, `package ${packageEntry.id} manifest`)
@@ -133,20 +134,52 @@ for (const packageEntry of packageRegistry.packages) {
       }
       wormsNomenclatureRecords += sidecar.counts.total
     }
+  } else if (['angiospermae', 'gymnosperms', 'early-land-plants'].includes(packageEntry.id)) {
+    const wfo = nomenclatureCollections.find((collection) => collection.id === 'wfo-plant-list-crosswalk')
+    if (nomenclatureCollections.length !== 1 || !wfo || wfo.provider !== 'World Flora Online Plant List'
+      || wfo.recordType !== 'release-pinned-exact-plant-name-crosswalk' || wfo.source?.license !== 'CC0-1.0') {
+      failures.push(`${packageEntry.id}: WFO nomenclature collection descriptor is incomplete`)
+    } else {
+      let records = 0
+      const statuses = { accepted: 0, redirect: 0, ambiguous: 0, unmatched: 0, withheld: 0 }
+      for (const file of wfo.files) {
+        releaseUrl(file, `${packageEntry.id} WFO nomenclature shard`)
+        checkFile(file, `${packageEntry.id} WFO nomenclature shard`)
+        if (!currentReleaseUrls.has(file.url)) failures.push(`${packageEntry.id}: WFO shard is absent from the current release inventory`)
+        const source = gunzipSync(readFileSync(join(dataRoot, file.url)))
+        const rows = source.toString('utf8').split('\n').filter(Boolean).map((line) => JSON.parse(line))
+        if (rows.length !== file.records || createHash('sha256').update(source).digest('hex') !== file.sourceSha256) {
+          failures.push(`${packageEntry.id}: WFO shard count or source SHA-256 mismatch`)
+        }
+        for (const row of rows) {
+          if (!row.colId || row.packageId !== packageEntry.id || !(row.status in statuses)) failures.push(`${packageEntry.id}: invalid WFO COL partition record`)
+          else statuses[row.status] += 1
+        }
+        records += rows.length
+      }
+      if (records !== wfo.counts.total || Object.entries(statuses).some(([key, count]) => count !== wfo.counts[key])) {
+        failures.push(`${packageEntry.id}: WFO status counts disagree with its descriptor`)
+      }
+      wfoRichRecords += records
+    }
   } else if (nomenclatureCollections.length) {
     failures.push(`package ${packageEntry.id}: unexpected nomenclature collection`)
   }
   const download = current.downloads.template.replace('{packageId}', packageEntry.id)
   if (!existsSync(join(dataRoot, download))) failures.push(`package ${packageEntry.id}: download missing`)
-  else if (researchFile || wormsCollection) {
+  else if (researchFile || nomenclatureCollections.length) {
     const entries = unzipSync(new Uint8Array(readFileSync(join(dataRoot, download))))
     if (researchFile && !entries[researchFile.url]) failures.push(`package ${packageEntry.id}: ZIP omits research examples`)
     if (wormsCollection && !entries[wormsCollection.file.url]) failures.push('echinoderms: package ZIP omits the WoRMS nomenclature collection')
+    for (const collection of nomenclatureCollections.filter((candidate) => candidate.id === 'wfo-plant-list-crosswalk')) {
+      for (const file of collection.files) if (!entries[file.url]) failures.push(`${packageEntry.id}: package ZIP omits WFO shard ${basename(file.url)}`)
+    }
   }
 }
 if (researchExampleCount !== 24 || researchExampleAvailableCount !== 24 || researchClaimLinkCount !== 34) failures.push(`research preset totals are ${researchExampleCount} examples, ${researchExampleAvailableCount} available-with-limitations and ${researchClaimLinkCount} claim links; expected 24/24/34`)
 if (packagePhylogenyCount !== 2) failures.push(`package phylogeny runtime count is ${packagePhylogenyCount}; expected 2 available and 22 unmapped`)
 if (wormsNomenclatureRecords !== 11891) failures.push(`WoRMS nomenclature collection contains ${wormsNomenclatureRecords} records; expected 11,891`)
+if (wfoRichRecords !== 387988) failures.push(`WFO rich-package collections contain ${wfoRichRecords} records; expected 387,988`)
 
 releaseUrl(current.occurrences.manifest, 'occurrence manifest')
 checkFile(current.occurrences.manifest, 'occurrence manifest')
@@ -368,6 +401,7 @@ if (catalogue.resourcePacks?.packageCount !== 7
 } else {
   let resourcePackRecords = 0
   let lpsnIdentifierRecords = 0
+  let wfoSupplementRecords = 0
   for (const packageId of expectedResourcePackIds) {
     const manifestFile = catalogue.resourcePacks.manifests[packageId]
     releaseUrl(manifestFile, `Catalogue resource pack ${packageId}`)
@@ -552,6 +586,35 @@ if (catalogue.resourcePacks?.packageCount !== 7
           failures.push('viruses: ICTV MSL/VMR files do not match extension totals')
         }
       }
+    } else if (packageId === 'other-plants') {
+      const wfo = extensions.find((candidate) => candidate.id === 'wfo-plant-list-crosswalk')
+      if (extensions.length !== 1 || !wfo || wfo.provider !== 'World Flora Online Plant List'
+        || wfo.source?.license !== 'CC0-1.0' || wfo.counts?.packageColRecords !== 698
+        || wfo.counts?.upstreamOnly !== 60751 || wfo.counts?.records !== 61449) {
+        failures.push('other-plants: WFO extension identity or partition counts are incomplete')
+      } else {
+        const partitions = new Map(wfo.partitions.map((partition) => [partition.id, partition]))
+        if (partitions.get('other-plants-col')?.colOwnership !== 'other-plants'
+          || partitions.get('wfo-upstream-only')?.colOwnership !== null) failures.push('other-plants: WFO ownership boundaries are invalid')
+        let records = 0
+        let upstreamOnly = 0
+        for (const file of wfo.files) {
+          releaseUrl(file, 'other-plants WFO shard')
+          checkFile(file, 'other-plants WFO shard')
+          const source = gunzipSync(readFileSync(join(dataRoot, file.url)))
+          const rows = source.toString('utf8').split('\n').filter(Boolean).map((line) => JSON.parse(line))
+          if (rows.length !== file.records || createHash('sha256').update(source).digest('hex') !== file.sourceSha256) failures.push('other-plants: WFO shard count or source SHA-256 mismatch')
+          for (const row of rows) {
+            if (row.status === 'upstream-only') {
+              upstreamOnly += 1
+              if ('colId' in row || 'packageId' in row) failures.push('other-plants: upstream-only WFO record impersonates COL ownership')
+            }
+          }
+          records += rows.length
+        }
+        if (records !== wfo.counts.records || upstreamOnly !== wfo.counts.upstreamOnly) failures.push('other-plants: WFO files do not match extension totals')
+        wfoSupplementRecords += records
+      }
     } else if (extensions.length) {
       failures.push(`${packageId}: unexpected resource-pack extension`)
     }
@@ -569,6 +632,7 @@ if (catalogue.resourcePacks?.packageCount !== 7
   if (resourcePackRecords !== 363160) failures.push('Catalogue nomenclatural resource-pack records do not total 363,160')
   const expectedLpsnIdentifierRecords = Object.values(expectedLpsnExtensions).reduce((sum, extension) => sum + extension.counts.resolved, 0)
   if (lpsnIdentifierRecords !== expectedLpsnIdentifierRecords) failures.push(`LPSN identifier extensions contain ${lpsnIdentifierRecords} records; expected ${expectedLpsnIdentifierRecords}`)
+  if (wfoSupplementRecords !== 61449) failures.push(`WFO Other Plants extension contains ${wfoSupplementRecords} records; expected 61,449`)
 }
 
 if (failures.length) {

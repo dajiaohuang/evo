@@ -188,6 +188,24 @@ test('Virus records expose the exact pinned ICTV taxonomy and exemplar metadata'
   await expect(ictv.getByRole('link', { name: /CC BY 4.0/ })).toHaveAttribute('href', 'https://creativecommons.org/licenses/by/4.0/')
 })
 
+test('Plant records expose every exact WFO mapping outcome without routing WFO-only species into COL', async ({ page }) => {
+  await page.addInitScript(() => window.localStorage.setItem('evo-atlas-language', 'en'))
+  const cases = [
+    ['322F4', 'ACCEPTED', 'Open pinned WFO record'],
+    ['3237L', 'REDIRECT', 'explicit accepted-name target'],
+    ['33CTC', 'AMBIGUOUS', 'wfo-0000377696 · wfo-0001302265'],
+    ['322LZ', 'UNMATCHED', 'no substitute was guessed'],
+    ['343BQ', 'WITHHELD', 'authorship-is-not-an-exact-trailing-suffix'],
+  ] as const
+  for (const [id, status, evidence] of cases) {
+    await page.goto(`./#/registry?release=COL26.8&id=${id}`)
+    const wfo = page.locator('.catalogue-wfo-card')
+    await expect(wfo).toContainText(`WFO 2026-06 · COL26.8 · ${status}`)
+    await expect(wfo).toContainText(evidence)
+    await expect(wfo).toContainText('All 382,438 WFO accepted species ship with the dataset; 60,751 without a provable COL26.8 ID remain in a separate non-COL partition.')
+  }
+})
+
 test('global search distinguishes registry verification failures from no matches', async ({ browser, baseURL }) => {
   const context = await browser.newContext({ baseURL, locale: 'en-US', serviceWorkers: 'block' })
   const page = await context.newPage()
@@ -335,7 +353,7 @@ test('Explorer restores state and removes the unsupported global model parameter
   await expect(page.getByRole('button', { name: 'points' })).toHaveClass(/is-active/)
   await expect(page.getByRole('button', { name: 'modern' })).toHaveClass(/is-active/)
   await expect(page.getByText('Shared time window 20–5 Ma')).toBeVisible()
-  await expect.poll(() => page.url()).toContain('dataset=2026.08-static-v5-rc60')
+  await expect.poll(() => page.url()).toContain('dataset=2026.08-static-v5-rc61')
   for (const fragment of ['older=20', 'younger=5', 'lat=10.000', 'lng=20.000', 'zoom=3.00', 'treeMode=fossil-range']) {
     expect(page.url()).toContain(fragment)
   }
@@ -348,7 +366,7 @@ test('Explorer requires confirmation before replacing a mismatched dataset versi
   await expect(page.getByRole('alertdialog')).toContainText('2025.01-old')
   expect(page.url()).toContain('dataset=2025.01-old')
   await page.getByRole('button', { name: 'Use current dataset' }).click()
-  await expect.poll(() => page.url()).toContain('dataset=2026.08-static-v5-rc60')
+  await expect.poll(() => page.url()).toContain('dataset=2026.08-static-v5-rc61')
 })
 
 test('a service-worker upgrade removes dataset A caches and dataset B remains coherent', async ({ page }) => {
@@ -374,7 +392,7 @@ test('a service-worker upgrade removes dataset A caches and dataset B remains co
   await expect(page.locator('.ownership-row--catalogue-only')).toHaveCount(1)
   await expect(page.locator('.ownership-summary')).toContainText('2,183,133')
   await expect(page.locator('.ownership-summary')).toContainText('7nomenclatural packs')
-  await expect(page.getByRole('link', { name: 'Download ZIP' }).first()).toHaveAttribute('href', /\/(?:fungi|other-animals|protists-chromists|bacteria|viruses|archaea|other-plants)-2026\.08-static-v5-rc60\.zip$/)
+  await expect(page.getByRole('link', { name: 'Download ZIP' }).first()).toHaveAttribute('href', /\/(?:fungi|other-animals|protists-chromists|bacteria|viruses|archaea|other-plants)-2026\.08-static-v5-rc61\.zip$/)
   await expect(page.getByRole('button', { name: 'Save offline' }).first()).toBeVisible()
   await expect(page.locator('.ownership-proof')).toContainText('0 unmatched')
   await expect(page.getByRole('button', { name: /Save complete Atlas \(\d+ MiB\)/ })).toBeVisible()
@@ -389,7 +407,7 @@ test('a service-worker upgrade removes dataset A caches and dataset B remains co
     const versions = await Promise.all(manifestFiles.map((file) => fetch(`/evo/data/${file.url}`).then((response) => response.json()).then((manifest) => manifest.version as string)))
     return { datasetVersion: current.datasetVersion, releaseBase: current.releaseBase, urls: manifestFiles.map((file) => file.url), versions, retained: history.releases.map((entry) => entry.datasetVersion) }
   })
-  expect(releaseState.releaseBase).toBe('releases/2026.08-static-v5-rc60/')
+  expect(releaseState.releaseBase).toBe('releases/2026.08-static-v5-rc61/')
   expect(releaseState.urls.every((url) => url.startsWith(releaseState.releaseBase))).toBe(true)
   expect(releaseState.versions.every((version) => version === releaseState.datasetVersion)).toBe(true)
   expect(releaseState.retained[0]).toBe(releaseState.datasetVersion)

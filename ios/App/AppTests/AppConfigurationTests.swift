@@ -70,6 +70,7 @@ final class AppConfigurationTests: XCTestCase {
         var researchClaimLinks = 0
         var phylogenyPackages = 0
         var wormsNomenclatureRecords = 0
+        var wfoRichRecords = 0
         for (packageId, manifestDescriptor) in packageDescriptors {
             let manifestPath = try XCTUnwrap(manifestDescriptor["url"] as? String)
             let manifestInventoryRecord = try XCTUnwrap(files.first { ($0["url"] as? String) == manifestPath }, "Rich-package manifest missing from release inventory")
@@ -102,14 +103,34 @@ final class AppConfigurationTests: XCTestCase {
                 XCTAssertEqual(collectionFile["sha256"] as? String, collectionInventoryRecord["sha256"] as? String)
                 try verifyBundled(record: collectionInventoryRecord, below: dataRoot)
                 wormsNomenclatureRecords += try XCTUnwrap(collectionCounts["total"] as? Int)
+            } else if ["angiospermae", "gymnosperms", "early-land-plants"].contains(packageId) {
+                let collections = try XCTUnwrap(package["nomenclatureCollections"] as? [[String: Any]])
+                XCTAssertEqual(collections.count, 1)
+                let collection = try XCTUnwrap(collections.first)
+                XCTAssertEqual(collection["id"] as? String, "wfo-plant-list-crosswalk")
+                XCTAssertEqual(collection["provider"] as? String, "World Flora Online Plant List")
+                XCTAssertEqual((collection["source"] as? [String: Any])?["license"] as? String, "CC0-1.0")
+                let collectionFiles = try XCTUnwrap(collection["files"] as? [[String: Any]])
+                var collectionRecords = 0
+                for collectionFile in collectionFiles {
+                    let path = try XCTUnwrap(collectionFile["url"] as? String)
+                    let inventoryRecord = try XCTUnwrap(files.first { ($0["url"] as? String) == path }, "WFO rich-package shard missing from release inventory")
+                    XCTAssertEqual(collectionFile["bytes"] as? Int, inventoryRecord["bytes"] as? Int)
+                    XCTAssertEqual(collectionFile["sha256"] as? String, inventoryRecord["sha256"] as? String)
+                    try verifyBundled(record: inventoryRecord, below: dataRoot)
+                    collectionRecords += try XCTUnwrap(collectionFile["records"] as? Int)
+                }
+                XCTAssertEqual((collection["counts"] as? [String: Any])?["total"] as? Int, collectionRecords)
+                wfoRichRecords += collectionRecords
             } else {
-                XCTAssertNil(package["nomenclatureCollections"], "Only echinoderms may carry the WoRMS collection")
+                XCTAssertNil(package["nomenclatureCollections"], "Only echinoderms and the three plant rich packages may carry nomenclature collections")
             }
         }
         XCTAssertEqual(researchExamples, 24)
         XCTAssertEqual(researchClaimLinks, 34)
         XCTAssertEqual(phylogenyPackages, 2)
         XCTAssertEqual(wormsNomenclatureRecords, 11_891)
+        XCTAssertEqual(wfoRichRecords, 387_988)
 
         let catalogueDescriptor = try XCTUnwrap((current["catalogue"] as? [String: Any])?["manifest"] as? [String: Any])
         let cataloguePath = try XCTUnwrap(catalogueDescriptor["url"] as? String)
@@ -122,6 +143,7 @@ final class AppConfigurationTests: XCTestCase {
         var lpsnIdentifierRecords = 0
         var ictvSpeciesRecords = 0
         var ictvIsolateRecords = 0
+        var wfoSupplementRecords = 0
         for packageId in ["archaea", "bacteria", "fungi", "other-animals", "other-plants", "protists-chromists", "viruses"] {
             let manifestDescriptor = try XCTUnwrap(packManifests[packageId])
             let manifestPath = try XCTUnwrap(manifestDescriptor["url"] as? String)
@@ -186,8 +208,27 @@ final class AppConfigurationTests: XCTestCase {
                     ictvSpeciesRecords += try XCTUnwrap(extensionFile["records"] as? Int)
                 }
                 ictvIsolateRecords += try XCTUnwrap(counts["vmrIsolates"] as? Int)
+            } else if packageId == "other-plants" {
+                let extensions = try XCTUnwrap(pack["extensions"] as? [[String: Any]])
+                XCTAssertEqual(extensions.count, 1)
+                let wfo = try XCTUnwrap(extensions.first)
+                XCTAssertEqual(wfo["id"] as? String, "wfo-plant-list-crosswalk")
+                XCTAssertEqual(wfo["provider"] as? String, "World Flora Online Plant List")
+                let counts = try XCTUnwrap(wfo["counts"] as? [String: Any])
+                XCTAssertEqual(counts["packageColRecords"] as? Int, 698)
+                XCTAssertEqual(counts["upstreamOnly"] as? Int, 60_751)
+                XCTAssertEqual(counts["records"] as? Int, 61_449)
+                let extensionFiles = try XCTUnwrap(wfo["files"] as? [[String: Any]])
+                for extensionFile in extensionFiles {
+                    let path = try XCTUnwrap(extensionFile["url"] as? String)
+                    let inventoryRecord = try XCTUnwrap(files.first { ($0["url"] as? String) == path }, "WFO supplement shard missing from release inventory")
+                    XCTAssertEqual(extensionFile["bytes"] as? Int, inventoryRecord["bytes"] as? Int)
+                    XCTAssertEqual(extensionFile["sha256"] as? String, inventoryRecord["sha256"] as? String)
+                    try verifyBundled(record: inventoryRecord, below: dataRoot)
+                    wfoSupplementRecords += try XCTUnwrap(extensionFile["records"] as? Int)
+                }
             } else {
-                XCTAssertNil(pack["extensions"], "Only Archaea, Bacteria and Viruses may carry resource-pack extensions")
+                XCTAssertNil(pack["extensions"], "Only Archaea, Bacteria, Viruses and Other Plants may carry resource-pack extensions")
             }
             resourcePackRecords += packageRecords
         }
@@ -195,6 +236,7 @@ final class AppConfigurationTests: XCTestCase {
         XCTAssertEqual(lpsnIdentifierRecords, 22_360)
         XCTAssertEqual(ictvSpeciesRecords, 17_554)
         XCTAssertEqual(ictvIsolateRecords, 19_285)
+        XCTAssertEqual(wfoSupplementRecords, 61_449)
     }
 
     private func verifyBundled(record: [String: Any], below dataRoot: URL) throws {

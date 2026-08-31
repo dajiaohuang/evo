@@ -1,5 +1,13 @@
 # Dataset changelog
 
+## App 0.20.12 / 2026.08-static-v5-rc61 — 2026-08-31
+
+- Pinned the official CC0 World Flora Online Plant List `2026-06`, version DOI `10.5281/zenodo.20782718` (concept DOI `10.5281/zenodo.7460141`), with the official archive MD5, local SHA-256 and every expanded source-member hash retained in the source ledger.
+- Classified all 388,686 accepted COL26.8 plant species by exact release-scoped evidence: 316,788 accepted links, 7,854 explicit synonym redirects, 173 ambiguous records, 63,833 unmatched records and 38 withheld records. Matching preserves case, diacritics, punctuation and authorship and never uses fuzzy substitution.
+- Published all 382,438 WFO accepted species. The 60,751 without an unambiguous COL26.8 link remain a separate upstream-only partition with null COL ownership; they are visible in pack descriptors and statistics and are not assigned invented COL IDs or package routes.
+- Added deterministic WFO shards and collection descriptors to Angiospermae (352,619 COL rows), Gymnosperms (1,599), Early Land Plants (33,770) and Other Plants (698 COL rows plus the separate WFO-only partition). The identical files are delivered by Web runtime, package ZIPs, explicit offline storage and the complete Android/iOS bundle. Android `versionCode` and iOS build number advance to `15`.
+- Preserved the original COL species shards and the rc60 ICTV, rc59 WoRMS, Bacteria/Archaea LPSN and compact PBDB gzip payloads unchanged.
+
 ## App 0.20.11 / 2026.08-static-v5-rc60 — 2026-08-31
 
 - Added the current ICTV Master Species List `MSL41.v1` and corrected Virus Metadata Resource `VMR_MSL41.v1.20260729` as a fixed, reproducible CC BY 4.0 extension to the COL26.8 Viruses nomenclatural pack. Both official workbooks are pinned by filename, release date, DOI, byte count, SHA-256, Zenodo MD5, ETag and Last-Modified; the superseded erroneous 2026-07-21 VMR is explicitly excluded.

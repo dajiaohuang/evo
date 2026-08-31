@@ -109,6 +109,7 @@ public class AppInstrumentedTest {
         int researchClaimLinks = 0;
         int phylogenyPackages = 0;
         int wormsNomenclatureRecords = 0;
+        int wfoRichRecords = 0;
         Iterator<String> richPackageIds = richManifests.keys();
         while (richPackageIds.hasNext()) {
             String packageId = richPackageIds.next();
@@ -142,14 +143,35 @@ public class AppInstrumentedTest {
                 assertEquals(collectionFile.getString("sha256"), collectionInventoryRecord.getString("sha256"));
                 verifyAssetRecord(context, collectionInventoryRecord);
                 wormsNomenclatureRecords += collection.getJSONObject("counts").getInt("total");
+            } else if (packageId.equals("angiospermae") || packageId.equals("gymnosperms") || packageId.equals("early-land-plants")) {
+                JSONArray collections = pack.getJSONArray("nomenclatureCollections");
+                assertEquals(1, collections.length());
+                JSONObject collection = collections.getJSONObject(0);
+                assertEquals("wfo-plant-list-crosswalk", collection.getString("id"));
+                assertEquals("World Flora Online Plant List", collection.getString("provider"));
+                assertEquals("CC0-1.0", collection.getJSONObject("source").getString("license"));
+                JSONArray collectionFiles = collection.getJSONArray("files");
+                int collectionRecords = 0;
+                for (int index = 0; index < collectionFiles.length(); index += 1) {
+                    JSONObject collectionFile = collectionFiles.getJSONObject(index);
+                    JSONObject inventoryRecord = findInventoryRecord(files, collectionFile.getString("url"));
+                    assertNotNull("WFO rich-package shard missing from release inventory", inventoryRecord);
+                    assertEquals(collectionFile.getInt("bytes"), inventoryRecord.getInt("bytes"));
+                    assertEquals(collectionFile.getString("sha256"), inventoryRecord.getString("sha256"));
+                    verifyAssetRecord(context, inventoryRecord);
+                    collectionRecords += collectionFile.getInt("records");
+                }
+                assertEquals(collection.getJSONObject("counts").getInt("total"), collectionRecords);
+                wfoRichRecords += collectionRecords;
             } else {
-                assertTrue("only echinoderms may carry the WoRMS collection", !pack.has("nomenclatureCollections"));
+                assertTrue("only echinoderms and the three plant rich packages may carry nomenclature collections", !pack.has("nomenclatureCollections"));
             }
         }
         assertEquals(24, researchExamples);
         assertEquals(34, researchClaimLinks);
         assertEquals(2, phylogenyPackages);
         assertEquals(11891, wormsNomenclatureRecords);
+        assertEquals(387988, wfoRichRecords);
 
         JSONObject catalogueDescriptor = current.getJSONObject("catalogue").getJSONObject("manifest");
         JSONObject catalogue = readJsonAsset(context, "public/data/" + catalogueDescriptor.getString("url"));
@@ -161,6 +183,7 @@ public class AppInstrumentedTest {
         int lpsnIdentifierRecords = 0;
         int ictvSpeciesRecords = 0;
         int ictvIsolateRecords = 0;
+        int wfoSupplementRecords = 0;
         for (String packageId : new String[]{"archaea", "bacteria", "fungi", "other-animals", "other-plants", "protists-chromists", "viruses"}) {
             JSONObject manifestDescriptor = packManifests.getJSONObject(packageId);
             JSONObject inventoryRecord = findInventoryRecord(files, manifestDescriptor.getString("url"));
@@ -229,8 +252,28 @@ public class AppInstrumentedTest {
                     ictvSpeciesRecords += extensionFile.getInt("records");
                 }
                 ictvIsolateRecords += counts.getInt("vmrIsolates");
+            } else if (packageId.equals("other-plants")) {
+                JSONArray extensions = pack.getJSONArray("extensions");
+                assertEquals(1, extensions.length());
+                JSONObject wfo = extensions.getJSONObject(0);
+                assertEquals("wfo-plant-list-crosswalk", wfo.getString("id"));
+                assertEquals("World Flora Online Plant List", wfo.getString("provider"));
+                JSONObject counts = wfo.getJSONObject("counts");
+                assertEquals(698, counts.getInt("packageColRecords"));
+                assertEquals(60751, counts.getInt("upstreamOnly"));
+                assertEquals(61449, counts.getInt("records"));
+                JSONArray extensionFiles = wfo.getJSONArray("files");
+                for (int fileIndex = 0; fileIndex < extensionFiles.length(); fileIndex += 1) {
+                    JSONObject extensionFile = extensionFiles.getJSONObject(fileIndex);
+                    JSONObject inventoryRecord = findInventoryRecord(files, extensionFile.getString("url"));
+                    assertNotNull("WFO supplement shard missing from release inventory", inventoryRecord);
+                    assertEquals(extensionFile.getInt("bytes"), inventoryRecord.getInt("bytes"));
+                    assertEquals(extensionFile.getString("sha256"), inventoryRecord.getString("sha256"));
+                    verifyAssetRecord(context, inventoryRecord);
+                    wfoSupplementRecords += extensionFile.getInt("records");
+                }
             } else {
-                assertTrue("only Archaea, Bacteria and Viruses may carry resource-pack extensions", !pack.has("extensions"));
+                assertTrue("only Archaea, Bacteria, Viruses and Other Plants may carry resource-pack extensions", !pack.has("extensions"));
             }
             resourcePackRecords += packageRecords;
         }
@@ -238,6 +281,7 @@ public class AppInstrumentedTest {
         assertEquals(22360, lpsnIdentifierRecords);
         assertEquals(17554, ictvSpeciesRecords);
         assertEquals(19285, ictvIsolateRecords);
+        assertEquals(61449, wfoSupplementRecords);
     }
 
     private JSONObject findInventoryRecord(JSONArray files, String url) throws Exception {

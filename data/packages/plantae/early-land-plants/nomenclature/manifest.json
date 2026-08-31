@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 1,
+  "id": "wfo-plant-list-crosswalk",
+  "recordType": "release-pinned-exact-plant-name-crosswalk",
+  "provider": "World Flora Online Plant List",
+  "packageId": "early-land-plants",
+  "source": {
+    "catalogueRelease": "COL26.8",
+    "catalogueReleaseDate": "2026-08-20",
+    "checklistBankDatasetKey": 316115,
+    "wfoVersion": "2026-06",
+    "wfoIssued": "2026-06-21",
+    "versionDoi": "10.5281/zenodo.20782718",
+    "conceptDoi": "10.5281/zenodo.7460141",
+    "license": "CC0-1.0",
+    "canonicalCrosswalkPath": "data/sources/wfo-plant-crosswalk-col26.8.json.gz",
+    "canonicalCrosswalkSha256": "491d673f2549ddff260a560eda49d67a0169cb000a88d06b6670509b1779cca0",
+    "canonicalCrosswalkBytes": 18043579,
+    "canonicalCrosswalkSourceSha256": "980144add135db3fa709392552534e19e33bc45605a97f5bafeb4d239d1621af",
+    "canonicalCrosswalkSourceBytes": 260967760,
+    "sourceLedgerPath": "data/sources/wfo-plant-list-2026-06.json",
+    "sourceLedgerSha256": "5bab095517de524a24cc127804df8390db2d5e20994874873ec18d56c02e66fc",
+    "archiveSha256": "75f1ad1f371978c9e46f3044152c07ed276fe57be9fb9a15b3621b19cf231987",
+    "wfoAcceptedSpecies": 382438,
+    "upstreamOnly": 60751
+  },
+  "matching": {
+    "normalization": [
+      "Remove the exact trailing COL authorship field only when that exact suffix is present.",
+      "Normalize Unicode to NFC, replace underscores with spaces, collapse Unicode whitespace and trim.",
+      "Preserve case, diacritics, punctuation, name tokens and authorship tokens."
+    ],
+    "accepted": "Exactly one WFO 2026-06 accepted species has the exact normalized scientific name, authorship and species rank.",
+    "redirect": "Exactly one WFO 2026-06 synonym name has the exact normalized scientific name, authorship and species rank and explicitly points to one accepted WFO species.",
+    "ambiguous": "Exact WFO records resolve to more than one accepted WFO species.",
+    "unmatched": "No exact WFO species-name record exists.",
+    "withheld": "The COL authorship boundary cannot be removed exactly or a required WFO accepted target is absent.",
+    "upstreamOnly": "A WFO 2026-06 accepted species is not the unambiguous target of any COL26.8 plant record.",
+    "forbidden": "No fuzzy, case-folded, diacritic-stripped, punctuation-stripped, edit-distance, phonetic, token-reordered, genus-substitution or authority-only matching is permitted."
+  },
+  "counts": {
+    "total": 33770,
+    "accepted": 22719,
+    "redirect": 146,
+    "ambiguous": 18,
+    "unmatched": 10883,
+    "withheld": 4
+  },
+  "fields": [
+    "candidateWfoIds",
+    "colAuthorship",
+    "colId",
+    "colScientificName",
+    "colSourceDatasetId",
+    "mappingBasis",
+    "packageId",
+    "reason",
+    "status",
+    "wfoAuthorship",
+    "wfoExtinct",
+    "wfoId",
+    "wfoScientificName",
+    "wfoSnapshotId",
+    "wfoSnapshotUrl",
+    "wfoUrl"
+  ],
+  "files": [
+    {
+      "path": "data/packages/plantae/early-land-plants/nomenclature/wfo-000.jsonl.gz",
+      "records": 13321,
+      "bytes": 498377,
+      "sourceBytes": 6291226,
+      "sha256": "455cd1c85cd0a9236afd59823ea62be9c5f4c7ce36f5ddd9b74bd70eddc38734",
+      "sourceSha256": "8039627055b36b43e96d8a69a32ab1b07c23fdd39da973e54c379289c96e0f58",
+      "encoding": "gzip",
+      "mediaType": "application/x-ndjson",
+      "minColId": "324FH",
+      "maxColId": "5BWVR"
+    },
+    {
+      "path": "data/packages/plantae/early-land-plants/nomenclature/wfo-001.jsonl.gz",
+      "records": 14262,
+      "bytes": 550466,
+      "sourceBytes": 6291254,
+      "sha256": "a598e5f2ad411291ddb2730f194dc7934db6ccf1a45e46469bd65ca18560e971",
+      "sourceSha256": "10d19675cda29ae1f7622eef5d9b32acae8e189a8e2de89c2a4a91d10826c03e",
+      "encoding": "gzip",
+      "mediaType": "application/x-ndjson",
+      "minColId": "5BWVV",
+      "maxColId": "BBFCV"
+    },
+    {
+      "path": "data/packages/plantae/early-land-plants/nomenclature/wfo-002.jsonl.gz",
+      "records": 6187,
+      "bytes": 239359,
+      "sourceBytes": 2812744,
+      "sha256": "4313ea30449bd218f4f32c02c2b6447171697a3b4631700ec494589ab0ef878d",
+      "sourceSha256": "82ace89713a4c33b104733b263317ab9de8bcd50882319d654aafa62e3907064",
+      "encoding": "gzip",
+      "mediaType": "application/x-ndjson",
+      "minColId": "BBFH4",
+      "maxColId": "ZYZ4"
+    }
+  ],
+  "totalCompressedBytes": 1288202,
+  "totalSourceBytes": 15395224,
+  "evidenceBoundary": "Exact release-pinned nomenclatural linkage only; no fuzzy matching, concept equivalence, phylogeny, ecology, fossil, media, translation, dossier or expert-review claim."
+}
