@@ -571,6 +571,70 @@ describe('static runtime release coherence', () => {
     expect(fetchMock.mock.calls.some(([input]) => String(input).endsWith(shardFiles[2].file.url))).toBe(false)
   })
 
+  it('loads one AviList range shard in native-full and refuses unavailable Web row data', async () => {
+    Object.defineProperty(globalThis, 'Worker', { configurable: true, value: undefined })
+    const rows = [
+      { colId: 'A001', colSourceDatasetId: '2144', colScientificName: 'Avis alpha', status: 'accepted' },
+      { colId: 'M001', colSourceDatasetId: '2144', colScientificName: 'Avis media', status: 'unmatched' },
+      { colId: 'Z001', colSourceDatasetId: '1008', colScientificName: 'Crocodylus zeta', status: 'non-applicable' },
+    ] as const
+    const shardFiles = await Promise.all(rows.map(async (row, index) => {
+      const body = JSON.stringify([row])
+      const digest = await sha256Text(body)
+      return {
+        body,
+        file: {
+          path: `nomenclature/avilist-col-${index}.json.gz`,
+          url: `releases/dataset-avilist/packages/crocodylomorphs-birds/nomenclature/avilist-col-${index}.json`,
+          records: 1,
+          bytes: new TextEncoder().encode(body).byteLength,
+          sourceBytes: new TextEncoder().encode(body).byteLength,
+          sha256: digest,
+          sourceSha256: digest,
+          mediaType: 'application/json' as const,
+          minColId: row.colId,
+          maxColId: row.colId,
+        },
+      }
+    }))
+    const collection = {
+      schemaVersion: 1,
+      id: 'avilist-v2025b-avibase-concepts',
+      recordType: 'release-pinned-exact-avian-authority-crosswalk',
+      provider: 'AviList Core Team',
+      packageId: 'crocodylomorphs-birds',
+      source: {}, scope: {}, limitations: [], totalCompressedBytes: 0, totalSourceBytes: 0, descriptorSha256: 'fixture',
+      counts: { packageAcceptedSpecies: 3, colAcceptedAves: 2, colAcceptedCrocodylia: 1, avilistAcceptedSpecies: 2, accepted: 1, officialCurrentNameRedirect: 0, ambiguous: 0, unmatched: 1, nonApplicable: 1, uniqueMatchedAviListSpecies: 1, manyToOneColLinks: 0, upstreamOnly: 0 },
+      files: shardFiles.map(({ file }) => file), upstreamOnlyFiles: [],
+      delivery: { profile: 'native-full', completeRows: true, publishedFileCount: 3, canonicalFileCount: 3 },
+    }
+    const packageManifest = { packageId: 'crocodylomorphs-birds', version: 'dataset-avilist', files: {}, occurrences: [], nomenclatureCollections: [collection] }
+    const manifestFile = { url: 'releases/dataset-avilist/packages/crocodylomorphs-birds/manifest.json', sha256: await sha256(packageManifest) }
+    const current = { datasetVersion: 'dataset-avilist', releaseBase: 'releases/dataset-avilist/', packages: { manifests: { 'crocodylomorphs-birds': manifestFile } } }
+    const fetchMock = vi.fn(async (input: RequestInfo | URL) => {
+      const url = String(input)
+      if (url.endsWith('/data/current.json')) return responseFor(current)
+      if (url.endsWith(manifestFile.url)) return responseFor(packageManifest)
+      const shard = shardFiles.find(({ file }) => url.endsWith(file.url))
+      return shard ? textResponseFor(shard.body) : { ok: false, status: 404, arrayBuffer: async () => new ArrayBuffer(0) }
+    })
+    vi.stubGlobal('fetch', fetchMock)
+
+    const { loadPackageAviListBirdRecord } = await import('./staticDataClient')
+    await expect(loadPackageAviListBirdRecord('M001')).resolves.toMatchObject({ record: rows[1] })
+    expect(fetchMock.mock.calls.filter(([input]) => String(input).includes('/nomenclature/avilist-col-'))).toHaveLength(1)
+
+    vi.resetModules()
+    const webCollection = { ...collection, files: [], delivery: { profile: 'web-light', completeRows: false, publishedFileCount: 0, canonicalFileCount: 3 } }
+    const webManifest = { ...packageManifest, nomenclatureCollections: [webCollection] }
+    const webManifestFile = { ...manifestFile, sha256: await sha256(webManifest) }
+    vi.stubGlobal('fetch', vi.fn(async (input: RequestInfo | URL) => String(input).endsWith('/data/current.json')
+      ? responseFor({ ...current, packages: { manifests: { 'crocodylomorphs-birds': webManifestFile } } })
+      : responseFor(webManifest)))
+    const webClient = await import('./staticDataClient')
+    await expect(webClient.loadPackageAviListBirdRecord('M001')).rejects.toThrow('full Android/iOS data profile')
+  })
+
   it('loads and caches the pinned source-checklist ledger through the verified runtime file path', async () => {
     const sources: CatalogueSourceChecklist[] = [{
       datasetId: '1005',

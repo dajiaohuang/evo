@@ -47,6 +47,9 @@ if (sourceDataRoot !== expectedSourceDataRoot || !existsSync(join(sourceDataRoot
 }
 
 const current = JSON.parse(readFileSync(join(sourceDataRoot, 'current.json'), 'utf8'))
+if (current.deliveryProfile !== 'native-full') {
+  throw new Error('Mobile build must use the native-full data delivery profile')
+}
 const releases = JSON.parse(readFileSync(join(sourceDataRoot, 'releases.json'), 'utf8'))
 const release = releases.releases?.find((entry) => entry.datasetVersion === current.datasetVersion)
 if (!release || release.releaseBase !== current.releaseBase || !release.filesIndex) {
@@ -62,6 +65,17 @@ if (maps.paleotopography?.delivery?.profile !== 'native-full'
   || maps.paleotopography?.delivery?.gridBytes !== 168418483
   || maps.paleotopography?.frames?.length !== 109) {
   throw new Error('Mobile build must stage all 109 full-resolution PaleoDEM grids')
+}
+const birdsManifestFile = current.packages?.manifests?.['crocodylomorphs-birds']
+if (!birdsManifestFile?.url) throw new Error('Mobile build is missing the birds package manifest')
+const birdsManifest = JSON.parse(readFileSync(join(sourceDataRoot, ...birdsManifestFile.url.split('/')), 'utf8'))
+const avilist = birdsManifest.nomenclatureCollections?.find((collection) => collection.id === 'avilist-v2025b-avibase-concepts')
+if (!avilist || avilist.delivery?.profile !== 'native-full' || avilist.delivery?.completeRows !== true
+  || avilist.files?.length !== 3 || avilist.upstreamOnlyFiles?.length !== 1
+  || avilist.delivery?.publishedFileCount !== 4 || avilist.delivery?.canonicalFileCount !== 4
+  || avilist.files.reduce((sum, file) => sum + file.records, 0) !== 11071
+  || avilist.upstreamOnlyFiles.reduce((sum, file) => sum + file.records, 0) !== 609) {
+  throw new Error('Mobile build must stage the complete AviList birds authority collection')
 }
 
 const interactiveFiles = releaseFiles.files.filter((file) => !file.url.includes('/downloads/'))

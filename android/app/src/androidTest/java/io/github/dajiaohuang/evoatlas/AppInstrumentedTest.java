@@ -51,6 +51,7 @@ public class AppInstrumentedTest {
     public void completeScientificReleaseIsBundledForOfflineStartup() throws Exception {
         Context context = InstrumentationRegistry.getInstrumentation().getTargetContext();
         JSONObject current = readJsonAsset(context, "public/data/current.json");
+        assertEquals("native-full", current.getString("deliveryProfile"));
         String datasetVersion = current.getString("datasetVersion");
         assertEquals("releases/" + datasetVersion + "/", current.getString("releaseBase"));
 
@@ -193,8 +194,33 @@ public class AppInstrumentedTest {
                 }
                 assertEquals(collection.getJSONObject("counts").getInt("total"), collectionRecords);
                 wfoRichRecords += collectionRecords;
+            } else if (packageId.equals("crocodylomorphs-birds")) {
+                JSONArray collections = pack.getJSONArray("nomenclatureCollections");
+                assertEquals(1, collections.length());
+                JSONObject collection = collections.getJSONObject(0);
+                assertEquals("avilist-v2025b-avibase-concepts", collection.getString("id"));
+                assertEquals("AviList Core Team", collection.getString("provider"));
+                JSONObject delivery = collection.getJSONObject("delivery");
+                assertEquals("native-full", delivery.getString("profile"));
+                assertTrue(delivery.getBoolean("completeRows"));
+                JSONArray allFiles = new JSONArray();
+                JSONArray colFiles = collection.getJSONArray("files");
+                JSONArray upstreamFiles = collection.getJSONArray("upstreamOnlyFiles");
+                for (int index = 0; index < colFiles.length(); index += 1) allFiles.put(colFiles.getJSONObject(index));
+                for (int index = 0; index < upstreamFiles.length(); index += 1) allFiles.put(upstreamFiles.getJSONObject(index));
+                assertEquals(4, allFiles.length());
+                for (int index = 0; index < allFiles.length(); index += 1) {
+                    JSONObject file = allFiles.getJSONObject(index);
+                    JSONObject inventoryRecord = findInventoryRecord(files, file.getString("url"));
+                    assertNotNull("AviList shard missing from native release inventory", inventoryRecord);
+                    assertEquals(file.getInt("bytes"), inventoryRecord.getInt("bytes"));
+                    assertEquals(file.getString("sha256"), inventoryRecord.getString("sha256"));
+                    verifyAssetRecord(context, inventoryRecord);
+                }
+                assertEquals(11071, collection.getJSONObject("counts").getInt("packageAcceptedSpecies"));
+                assertEquals(609, collection.getJSONObject("counts").getInt("upstreamOnly"));
             } else {
-                assertTrue("only echinoderms and the three plant rich packages may carry nomenclature collections", !pack.has("nomenclatureCollections"));
+                assertTrue("only the declared authority-backed rich packages may carry nomenclature collections", !pack.has("nomenclatureCollections"));
             }
         }
         assertEquals(24, researchExamples);

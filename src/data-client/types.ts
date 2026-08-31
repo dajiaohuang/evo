@@ -194,9 +194,64 @@ export interface RuntimeWfoPlantNomenclatureCollection {
   totalSourceBytes: number
   evidenceBoundary: string
   descriptorSha256: string
+  canonicalFileInventory: Array<Omit<CatalogueResourcePackPayloadFile, 'url'> & { role: 'col-partition' | 'upstream-only' }>
 }
 
-export type RuntimePackageNomenclatureCollection = RuntimeWormsNomenclatureCollection | RuntimeWfoPlantNomenclatureCollection
+export type AviListMappingStatus = 'accepted' | 'official-current-name-redirect' | 'ambiguous' | 'unmatched' | 'non-applicable'
+
+export interface AviListBirdRecord {
+  colId: string
+  colSourceDatasetId: string
+  colScientificName: string
+  status: AviListMappingStatus
+  mappingBasis?: string
+  avibaseId?: string
+  officialScientificName?: string
+  officialAuthority?: string
+  officialEnglishName?: string
+  officialOrder?: string
+  officialFamily?: string
+  officialProtonym?: string
+  sourceRow?: number
+}
+
+export interface RuntimeAviListNomenclatureCollection {
+  schemaVersion: 1
+  id: 'avilist-v2025b-avibase-concepts'
+  recordType: 'release-pinned-exact-avian-authority-crosswalk'
+  provider: 'AviList Core Team'
+  packageId: 'crocodylomorphs-birds'
+  source: Record<string, string | number>
+  scope: Record<string, string>
+  counts: {
+    packageAcceptedSpecies: number
+    colAcceptedAves: number
+    colAcceptedCrocodylia: number
+    avilistAcceptedSpecies: number
+    accepted: number
+    officialCurrentNameRedirect: number
+    ambiguous: number
+    unmatched: number
+    nonApplicable: number
+    uniqueMatchedAviListSpecies: number
+    manyToOneColLinks: number
+    upstreamOnly: number
+  }
+  files: CatalogueResourcePackPayloadFile[]
+  upstreamOnlyFiles: CatalogueResourcePackPayloadFile[]
+  totalCompressedBytes: number
+  totalSourceBytes: number
+  descriptorSha256: string
+  delivery: {
+    profile: 'web-light' | 'native-full'
+    completeRows: boolean
+    publishedFileCount: number
+    canonicalFileCount: number
+  }
+  limitations: string[]
+}
+
+export type RuntimePackageNomenclatureCollection = RuntimeWormsNomenclatureCollection | RuntimeWfoPlantNomenclatureCollection | RuntimeAviListNomenclatureCollection
 
 export interface RuntimePackageManifest {
   schemaVersion: number
@@ -1000,6 +1055,7 @@ export interface CurrentRuntimeManifest {
   datasetVersion: string
   appVersion: string
   publication: string
+  deliveryProfile: 'web-light' | 'native-full'
   scopeStatement: string
   includedMajorGroups: string[]
   excludedMajorGroups: string[]

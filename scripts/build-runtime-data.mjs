@@ -12,11 +12,23 @@ const outputIndex = args.indexOf('--out')
 const requestedOutput = outputIndex >= 0 ? args[outputIndex + 1] : 'dist/data'
 if (!requestedOutput) throw new Error('--out requires a path')
 const paleotopographyIndex = args.indexOf('--paleotopography')
-const paleotopographyDelivery = paleotopographyIndex >= 0 ? args[paleotopographyIndex + 1] : 'web-preview'
+const deliveryProfileIndex = args.indexOf('--profile')
+const deliveryProfile = deliveryProfileIndex >= 0
+  ? args[deliveryProfileIndex + 1]
+  : (paleotopographyIndex >= 0 && args[paleotopographyIndex + 1] === 'native-full' ? 'native-full' : 'web-light')
+if (deliveryProfile !== 'web-light' && deliveryProfile !== 'native-full') {
+  throw new Error('--profile must be web-light or native-full')
+}
+const paleotopographyDelivery = paleotopographyIndex >= 0
+  ? args[paleotopographyIndex + 1]
+  : (deliveryProfile === 'native-full' ? 'native-full' : 'web-preview')
 if (paleotopographyDelivery !== 'web-preview' && paleotopographyDelivery !== 'native-full') {
   throw new Error('--paleotopography must be web-preview or native-full')
 }
-const includeDownloadArchives = paleotopographyDelivery === 'native-full'
+if ((deliveryProfile === 'native-full') !== (paleotopographyDelivery === 'native-full')) {
+  throw new Error('--profile and --paleotopography must select the same delivery class')
+}
+const includeDownloadArchives = deliveryProfile === 'native-full'
 const outputRoot = resolve(rootDir, requestedOutput)
 const allowedRoots = [resolve(rootDir, 'dist/data'), resolve(rootDir, 'public/data')]
 if (!allowedRoots.some((allowed) => outputRoot === allowed || outputRoot.startsWith(`${allowed}${sep}`))) {
@@ -77,6 +89,12 @@ const richPackageNomenclatureSources = {
   angiospermae: { kind: 'wfo', descriptorPath: 'data/packages/plantae/angiospermae/nomenclature/manifest.json' },
   gymnosperms: { kind: 'wfo', descriptorPath: 'data/packages/plantae/gymnosperms/nomenclature/manifest.json' },
   'early-land-plants': { kind: 'wfo', descriptorPath: 'data/packages/plantae/early-land-plants/nomenclature/manifest.json' },
+  'crocodylomorphs-birds': {
+    kind: 'range-sharded',
+    descriptorPath: 'data/packages/archosauria/crocodylomorphs-birds/nomenclature/avilist-extension.json',
+    expectedId: 'avilist-v2025b-avibase-concepts',
+    expectedProvider: 'AviList Core Team',
+  },
 }
 
 function sha256(bytes) {
@@ -122,6 +140,65 @@ function writeGzipJson(relativePath, value) {
 function buildRichPackageNomenclatureCollections(packageId) {
   const definition = richPackageNomenclatureSources[packageId]
   if (!definition) return []
+  if (definition.kind === 'range-sharded') {
+    const descriptorBytes = readFileSync(join(rootDir, definition.descriptorPath))
+    const descriptor = JSON.parse(descriptorBytes.toString('utf8'))
+    if (descriptor.schemaVersion !== 1 || descriptor.id !== definition.expectedId
+      || descriptor.provider !== definition.expectedProvider || descriptor.packageId !== packageId
+      || descriptor.source?.license !== 'CC-BY-4.0') {
+      throw new Error(`${packageId}: canonical range-sharded collection descriptor is invalid`)
+    }
+    const packageRoot = dirname(dirname(join(rootDir, definition.descriptorPath)))
+    let previousMaxColId = null
+    const validateCanonicalFile = (file, rangeKind) => {
+      const sourcePath = resolve(packageRoot, ...file.path.split('/'))
+      if (!sourcePath.startsWith(`${packageRoot}${sep}`)) throw new Error(`${packageId}: unsafe nomenclature path ${file.path}`)
+      const sourceBytes = readFileSync(sourcePath)
+      const decoded = gunzipSync(sourceBytes)
+      if (sourceBytes.byteLength !== file.bytes || sha256(sourceBytes) !== file.sha256
+        || decoded.byteLength !== file.sourceBytes || sha256(decoded) !== file.sourceSha256) {
+        throw new Error(`${packageId}: nomenclature shard changed without rebuilding its descriptor: ${file.path}`)
+      }
+      const rows = JSON.parse(decoded.toString('utf8'))
+      if (!Array.isArray(rows) || rows.length !== file.records) throw new Error(`${packageId}: invalid row count in ${file.path}`)
+      if (rangeKind === 'col') {
+        if (rows[0]?.colId !== file.minColId || rows.at(-1)?.colId !== file.maxColId
+          || rows.some((row, index) => index > 0 && rows[index - 1].colId.localeCompare(row.colId) >= 0)
+          || (previousMaxColId !== null && previousMaxColId.localeCompare(file.minColId) >= 0)) {
+          throw new Error(`${packageId}: COL shard ranges are absent, overlapping or inconsistent: ${file.path}`)
+        }
+        previousMaxColId = file.maxColId
+      }
+      return sourceBytes
+    }
+    const canonicalFiles = descriptor.files.map((file) => ({ file, bytes: validateCanonicalFile(file, 'col') }))
+    const canonicalUpstreamOnlyFiles = (descriptor.upstreamOnlyFiles ?? []).map((file) => ({ file, bytes: validateCanonicalFile(file, 'upstream') }))
+    if (canonicalFiles.reduce((sum, entry) => sum + entry.file.records, 0) !== descriptor.counts.packageAcceptedSpecies
+      || canonicalUpstreamOnlyFiles.reduce((sum, entry) => sum + entry.file.records, 0) !== descriptor.counts.upstreamOnly) {
+      throw new Error(`${packageId}: range-sharded record totals do not match the descriptor`)
+    }
+    const publishFiles = (entries) => deliveryProfile === 'native-full'
+      ? entries.map(({ file, bytes }) => ({ ...file, ...write(`packages/${packageId}/nomenclature/${basename(file.path)}`, bytes) }))
+      : []
+    const files = publishFiles(canonicalFiles)
+    const upstreamOnlyFiles = publishFiles(canonicalUpstreamOnlyFiles)
+    return [{
+      ...descriptor,
+      descriptorSha256: sha256(descriptorBytes),
+      canonicalFileInventory: [
+        ...descriptor.files.map((file) => ({ ...file, role: 'col-partition' })),
+        ...(descriptor.upstreamOnlyFiles ?? []).map((file) => ({ ...file, role: 'upstream-only' })),
+      ],
+      files,
+      upstreamOnlyFiles,
+      delivery: {
+        profile: deliveryProfile,
+        completeRows: deliveryProfile === 'native-full',
+        publishedFileCount: files.length + upstreamOnlyFiles.length,
+        canonicalFileCount: canonicalFiles.length + canonicalUpstreamOnlyFiles.length,
+      },
+    }]
+  }
   if (definition.kind === 'wfo') {
     const descriptorBytes = readFileSync(join(rootDir, definition.descriptorPath))
     const descriptor = JSON.parse(descriptorBytes.toString('utf8'))
@@ -515,7 +592,10 @@ for (const packageEntry of registry.packages) {
   }))
   const packageAssetFiles = [...assetFilesById.values()]
   const packageNomenclatureCollections = buildRichPackageNomenclatureCollections(packageId)
-  const packageNomenclatureFiles = packageNomenclatureCollections.flatMap((collection) => collection.files ?? [collection.file])
+  const packageNomenclatureFiles = packageNomenclatureCollections.flatMap((collection) => [
+    ...(collection.files ?? (collection.file ? [collection.file] : [])),
+    ...(collection.upstreamOnlyFiles ?? []),
+  ])
   const runtimePackageMedia = packageMedia.map((asset) => asset.asset
     ? { ...asset, asset: { ...asset.asset, ...assetFilesById.get(asset.id) } }
     : asset)
@@ -1114,6 +1194,7 @@ const current = {
   datasetVersion: sourceManifest.datasetVersion,
   appVersion: sourceManifest.appVersion,
   publication: 'GitHub Pages static data platform',
+  deliveryProfile,
   scopeStatement: sourceManifest.scopeStatement,
   includedMajorGroups: sourceManifest.includedMajorGroups,
   excludedMajorGroups: sourceManifest.excludedMajorGroups,
