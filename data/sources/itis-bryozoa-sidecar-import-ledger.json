@@ -102,13 +102,13 @@
   },
   "output": {
     "descriptor": {
-      "path": "data/packages/other-animals/nomenclature/itis-bryozoa-sidecar.json",
-      "bytes": 7601,
-      "sha256": "34510d56e3253b6eae66a720aa60a9026ce871927c067cac3de007d472c90640"
+      "path": "data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals/itis-bryozoa-sidecar.json",
+      "bytes": 6793,
+      "sha256": "ab60debf4c93968fa11a67bb7d4767d5a9997abbce45848e6f4b71f064f18554"
     },
     "colUsageIdShards": [
       {
-        "path": "data/packages/other-animals/nomenclature/itis-bryozoa-sidecar-0000.jsonl.gz",
+        "path": "data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals/itis-bryozoa-sidecar-0000.jsonl.gz",
         "records": 10974,
         "firstColUsageId": "322VM",
         "lastColUsageId": "86JVY",
@@ -118,7 +118,7 @@
         "sourceSha256": "91a28481fe6f402f6596289aa2e98b3f7a04d8841fe15f87484f0f8f6b8769c7"
       },
       {
-        "path": "data/packages/other-animals/nomenclature/itis-bryozoa-sidecar-0001.jsonl.gz",
+        "path": "data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals/itis-bryozoa-sidecar-0001.jsonl.gz",
         "records": 9393,
         "firstColUsageId": "86JVZ",
         "lastColUsageId": "ZYZB",
@@ -129,7 +129,7 @@
       }
     ],
     "upstreamOnly": {
-      "path": "data/packages/other-animals/nomenclature/itis-bryozoa-upstream-only-0000.jsonl.gz",
+      "path": "data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals/itis-bryozoa-upstream-only-0000.jsonl.gz",
       "records": 387,
       "firstColUsageId": null,
       "lastColUsageId": null,
@@ -149,7 +149,7 @@
   },
   "generatedBy": {
     "scriptPath": "scripts/build-itis-bryozoa-sidecar.mjs",
-    "scriptSha256": "7279f94aa8b980b309287e80fac3def008f48d3143ce3cef49c75856d0d36cee",
+    "scriptSha256": "991ec5d0311d32a6da3cbab984133e9ed91911386d5bb9d009e7c408d4eb5350",
     "deterministic": "Pinned input checksums, fixed roots, exact SQL, exact representation-only normalization, code-unit ID ordering and deterministic gzip; no wall-clock fields or fuzzy matching."
   }
 }

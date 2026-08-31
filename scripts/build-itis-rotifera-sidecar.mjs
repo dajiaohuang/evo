@@ -229,7 +229,7 @@ unmatched: 'No normalized exact valid-name or official ITIS species-synonym evid
     },
     evidenceBoundary: {
 en: 'This CC0 ITIS sidecar is a frozen exact nomenclatural crosswalk, not a global rotifer checklist, final classification authority, phylogeny, species-concept equivalence assertion, biological dossier or scientific-review record.',
-      zh: '此 CC0 ITIS 侧车是冻结的严格命名交叉映射；它不是全球昆虫名录、最终分类权威、系统发育树、物种概念等同性声明、生物档案或科学审查记录。',
+      zh: '此 CC0 ITIS 侧车是冻结的严格命名交叉映射；它不是全球轮形动物名录、最终分类权威、系统发育树、物种概念等同性声明、生物档案或科学审查记录。',
     },
     counts: { total, ...counts, itisCurrentSpecies: currentRows.length, itisSpeciesSynonymLinks: synonymRows.length, itisUpstreamOnly: upstreamOnly.length },
     colUsageIdLocator: { key: 'colUsageId', ordering: 'Unicode code-unit ascending', sourceShardLimitBytes: SHARD_SOURCE_LIMIT_BYTES, stableAddressing: 'Binary-search non-overlapping inclusive colUsageId ranges; one detail query loads exactly one immutable JSONL gzip shard.', files: shards },
