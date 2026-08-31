@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 1,
+  "importType": "COL26.8-to-ITIS-exact-sarcopterygii-nomenclatural-sidecar",
+  "generatedFrom": {
+    "sourcePath": "data/sources/itis-2026-08-26.json",
+    "sourceSha256": "38a7a55b4e98cafc66790e47f6bd637e298e23fd691e4771c755b38e4a02d7fc",
+    "itisDatabaseMember": "itisSqlite082626/ITIS.sqlite",
+    "itisDatabaseSha256": "ea7304536cfd7b1e2636d383911ca7931fc83d9ab1194ca2a3c020ea2daf1719",
+    "colRegistryManifestPath": "data/catalogue-of-life/releases/2026-08-20/registry/manifest.json",
+    "colRegistryManifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151",
+    "colOwnershipPath": "data/registry/package-species-coverage.json",
+    "colOwnershipSha256": "a31a41ef0e9e785192a2fbbed11df9aa9bc06ba2f84a04b8fe38bd45824ff6ff"
+  },
+  "scopeAudit": {
+    "colRootUsageId": "8VSMX",
+    "colStrictAcceptedSpecies": 8,
+    "itisRoot": {
+      "tsn": "161048",
+      "scientificName": "Sarcopterygii",
+      "rank": "Superclass",
+      "usage": "valid"
+    },
+    "itisCurrentSpecies": 8,
+    "itisSpeciesSynonymLinks": 12,
+    "itisUpstreamOnly": 0,
+    "maximumUpdateDates": {
+      "taxonomicUnits": "2026-08-26",
+      "synonymLinks": "2026-08-26"
+    }
+  },
+  "matchingContract": {
+    "normalization": [
+      "Remove the exact trailing COL authorship field from COL scientificName when that suffix is present; no authorship parser is used.",
+      "Normalize Unicode to NFC, replace underscores with spaces, collapse Unicode whitespace and trim.",
+      "For species-rank comparison, remove one parenthesized subgenus token in the exact Genus (Subgenus) species representation; genus and specific epithet must remain unchanged.",
+      "Preserve case, diacritics, punctuation and all remaining name tokens."
+    ],
+    "statuses": {
+      "accepted": "The normalized COL name resolves to exactly one valid ITIS Sarcopterygii species and directly equals that current ITIS name.",
+      "synonym-current-name-redirect": "The normalized COL name equals one or more official ITIS invalid species names whose synonym_links rows resolve to exactly one valid ITIS Sarcopterygii species.",
+      "ambiguous": "The normalized exact evidence resolves to more than one valid ITIS Sarcopterygii species TSN.",
+      "unmatched": "No normalized exact valid-name or official ITIS species-synonym evidence resolves to a valid ITIS Sarcopterygii species."
+    },
+    "prohibited": "No fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered or taxon-substituted matching is used."
+  },
+  "totals": {
+    "total": 8,
+    "accepted": 8,
+    "synonymCurrentNameRedirect": 0,
+    "ambiguous": 0,
+    "unmatched": 0,
+    "itisCurrentSpecies": 8,
+    "itisSpeciesSynonymLinks": 12,
+    "itisUpstreamOnly": 0
+  },
+  "output": {
+    "descriptor": {
+      "path": "data/packages/vertebrata/tetrapod-transition/nomenclature/itis-sarcopterygii-sidecar.json",
+      "bytes": 3960,
+      "sha256": "e74af1403f906883c6f18baed1e7613455ca747fb1be6cba0c42124d20d9b1db"
+    },
+    "colUsageIdShards": [
+      {
+        "path": "data/packages/vertebrata/tetrapod-transition/nomenclature/itis-sarcopterygii-sidecar-000.jsonl.gz",
+        "records": 8,
+        "firstColUsageId": "4N6QX",
+        "lastColUsageId": "6S8FM",
+        "bytes": 593,
+        "sha256": "a6a88a1561d1d439ab56dd685f8ac252c95f753e4df2a7e39495bcd0ea1b9d40",
+        "sourceBytes": 3116,
+        "sourceSha256": "b30e98c8b5ca14fc5251662305c0051ca9cec0a1cecd471f6d1fe9f1aa94e210"
+      }
+    ],
+    "upstreamOnly": []
+  },
+  "deliveryContract": {
+    "pagesLight": "Pages needs only this small descriptor and may omit all row-level JSONL gzip shards.",
+    "zip": "When a package ZIP integration is approved, include the descriptor and every listed row-level shard as the same checksum-addressed bytes.",
+    "androidIosFull": "Android and iOS complete-data inventories must include the descriptor and every listed row-level shard as the same checksum-addressed bytes.",
+    "runtimeChange": "This import deliberately changes no formal runtime or published release manifest."
+  },
+  "generatedBy": {
+    "scriptPath": "scripts/build-itis-sarcopterygii-sidecar.mjs",
+    "scriptSha256": "e588cfd49f03490fc330f9e1b26297dc07324bd04431ccc5211da937c6a2d4ea",
+    "deterministic": "Pinned input checksums, fixed roots, exact SQL, exact representation-only normalization and stable sorting; no wall-clock fields or fuzzy matching."
+  }
+}

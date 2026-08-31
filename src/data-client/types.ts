@@ -296,6 +296,10 @@ export type RuntimeItisNomenclatureCollectionId =
   | 'itis-primates-tsn-crosswalk'
   | 'itis-carnivora-tsn-crosswalk'
   | 'itis-other-mammals-tsn-crosswalk'
+  | 'itis-actinopterygii-tsn-crosswalk'
+  | 'itis-chondrichthyes-tsn-crosswalk'
+  | 'itis-agnatha-myxini-tsn-crosswalk'
+  | 'itis-sarcopterygii-tsn-crosswalk'
 
 export type RuntimeItisPackageScope =
   | 'mollusca-brachiopoda'
@@ -312,6 +316,10 @@ export type RuntimeItisPackageScope =
   | 'primates'
   | 'carnivora'
   | 'other-mammals'
+  | 'actinopterygii'
+  | 'chondrichthyes'
+  | 'agnatha-myxini'
+  | 'sarcopterygii'
 
 export interface RuntimeItisNomenclatureCollection {
   schemaVersion: 1

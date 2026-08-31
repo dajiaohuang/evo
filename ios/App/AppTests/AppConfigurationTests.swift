@@ -109,6 +109,11 @@ final class AppConfigurationTests: XCTestCase {
         var crocodyliaItisNomenclatureRecords = 0
         var mammalItisFiles = 0
         var mammalItisNomenclatureRecords = 0
+        var fishItisFiles = 0
+        var fishItisNomenclatureRecords = 0
+        var fishItisUpstreamRecords = 0
+        var sarcopterygiiItisFiles = 0
+        var sarcopterygiiItisNomenclatureRecords = 0
         var wfoRichRecords = 0
         for (packageId, manifestDescriptor) in packageDescriptors {
             let manifestPath = try XCTUnwrap(manifestDescriptor["url"] as? String)
@@ -223,6 +228,32 @@ final class AppConfigurationTests: XCTestCase {
                 }
                 XCTAssertEqual((collection["counts"] as? [String: Any])?["total"] as? Int, 8_923)
                 XCTAssertEqual((collection["counts"] as? [String: Any])?["itisUpstreamOnly"] as? Int, 8)
+            } else if ["actinopterygii", "chondrichthyes", "early-fishes"].contains(packageId) {
+                let collections = try XCTUnwrap(package["nomenclatureCollections"] as? [[String: Any]])
+                XCTAssertEqual(collections.count, 1)
+                let collectionId = packageId == "actinopterygii"
+                    ? "itis-actinopterygii-tsn-crosswalk"
+                    : packageId == "chondrichthyes"
+                    ? "itis-chondrichthyes-tsn-crosswalk"
+                    : "itis-agnatha-myxini-tsn-crosswalk"
+                let expectedFiles = packageId == "actinopterygii" ? 23 : 1
+                let expectedRecords = packageId == "actinopterygii" ? 35_928 : packageId == "chondrichthyes" ? 1_359 : 141
+                let expectedUpstreamRecords = packageId == "actinopterygii" ? 3_732 : packageId == "chondrichthyes" ? 183 : 17
+                fishItisNomenclatureRecords += try verifyRichItisCollection(
+                    collection: try XCTUnwrap(collections.first { ($0["id"] as? String) == collectionId }),
+                    inventory: files, below: dataRoot, expectedFiles: expectedFiles, expectedUpstreamFiles: 1,
+                    expectedRecords: expectedRecords, expectedUpstreamRecords: expectedUpstreamRecords,
+                    label: "ITIS \(collectionId)")
+                fishItisFiles += expectedFiles + 1
+                fishItisUpstreamRecords += expectedUpstreamRecords
+            } else if packageId == "tetrapod-transition" {
+                let collections = try XCTUnwrap(package["nomenclatureCollections"] as? [[String: Any]])
+                XCTAssertEqual(collections.count, 1)
+                sarcopterygiiItisNomenclatureRecords += try verifyRichItisCollection(
+                    collection: try XCTUnwrap(collections.first { ($0["id"] as? String) == "itis-sarcopterygii-tsn-crosswalk" }),
+                    inventory: files, below: dataRoot, expectedFiles: 1, expectedUpstreamFiles: 0,
+                    expectedRecords: 8, expectedUpstreamRecords: 0, label: "ITIS Sarcopterygii")
+                sarcopterygiiItisFiles += 1
             } else if ["perissodactyla", "cetartiodactyla", "primates", "carnivora", "other-mammals"].contains(packageId) {
                 let collections = try XCTUnwrap(package["nomenclatureCollections"] as? [[String: Any]])
                 XCTAssertEqual(collections.count, 1)
@@ -302,6 +333,11 @@ final class AppConfigurationTests: XCTestCase {
         XCTAssertEqual(crocodyliaItisNomenclatureRecords, 27)
         XCTAssertEqual(mammalItisFiles, 9)
         XCTAssertEqual(mammalItisNomenclatureRecords, 6_464)
+        XCTAssertEqual(fishItisFiles, 28)
+        XCTAssertEqual(fishItisNomenclatureRecords, 37_428)
+        XCTAssertEqual(fishItisUpstreamRecords, 3_932)
+        XCTAssertEqual(sarcopterygiiItisFiles, 1)
+        XCTAssertEqual(sarcopterygiiItisNomenclatureRecords, 8)
         XCTAssertEqual(wfoRichRecords, 387_988)
 
         let catalogueDescriptor = try XCTUnwrap((current["catalogue"] as? [String: Any])?["manifest"] as? [String: Any])
