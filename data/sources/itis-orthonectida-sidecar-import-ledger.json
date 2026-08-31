@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 1,
+  "importType": "COL26.8-to-ITIS-exact-orthonectida-nomenclatural-sidecar",
+  "generatedFrom": {
+    "sourcePath": "data/sources/itis-2026-08-26.json",
+    "sourceSha256": "38a7a55b4e98cafc66790e47f6bd637e298e23fd691e4771c755b38e4a02d7fc",
+    "itisDatabaseMember": "itisSqlite082626/ITIS.sqlite",
+    "itisDatabaseSha256": "ea7304536cfd7b1e2636d383911ca7931fc83d9ab1194ca2a3c020ea2daf1719",
+    "colRegistryManifestPath": "data/catalogue-of-life/releases/2026-08-20/registry/manifest.json",
+    "colRegistryManifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151",
+    "colOwnershipPath": "data/registry/package-species-coverage.json",
+    "colOwnershipSha256": "a297bc8a67ce60806fdee733464a79bfcc42e255f7e59535b01f94013c19dfea"
+  },
+  "scopeAudit": {
+    "packageRootUsageId": "N",
+    "packageRootScientificName": "Animalia",
+    "colRootUsageId": "CVJLH",
+    "colRootScientificName": "Orthonectida",
+    "colStrictAcceptedSpecies": 24,
+    "packageStrictAcceptedSpecies": 99161,
+    "packageOutOfScopeStrictAcceptedSpecies": 99137,
+    "boundary": "This sidecar covers only strict accepted COL26.8 species descending from exact Orthonectida root CVJLH.",
+    "itisRoot": {
+      "tsn": "57409",
+      "scientificName": "Orthonectida",
+      "rank": "Phylum",
+      "usage": "valid"
+    },
+    "itisCurrentSpecies": 25,
+    "itisSpeciesSynonymLinks": 7,
+    "maximumUpdateDates": {
+      "taxonomicUnits": "2026-08-26",
+      "synonymLinks": "2026-08-26"
+    }
+  },
+  "matchingContract": {
+    "normalization": [
+      "Remove the exact trailing COL authorship field from COL scientificName when that suffix is present; no authorship parser is used.",
+      "Normalize Unicode to NFC, replace underscores with spaces, collapse Unicode whitespace and trim.",
+      "For species-rank comparison, remove one parenthesized subgenus token in the exact Genus (Subgenus) species representation; genus and specific epithet must remain unchanged.",
+      "Preserve case, diacritics, punctuation and all remaining name tokens."
+    ],
+    "statuses": {
+      "accepted": "The normalized COL name directly equals one valid ITIS Orthonectida species.",
+      "synonym-current-name-redirect": "The normalized COL name equals official ITIS invalid species-name evidence resolving to one valid ITIS Orthonectida species.",
+      "ambiguous": "The normalized exact evidence resolves to more than one valid ITIS species TSN.",
+      "unmatched": "No normalized exact valid-name or official ITIS species-synonym evidence resolves to a valid ITIS Orthonectida species."
+    },
+    "prohibited": "No fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered or taxon-substituted matching is used."
+  },
+  "totals": {
+    "total": 24,
+    "accepted": 22,
+    "synonymCurrentNameRedirect": 0,
+    "ambiguous": 0,
+    "unmatched": 2,
+    "itisCurrentSpecies": 25,
+    "itisSpeciesSynonymLinks": 7,
+    "itisUpstreamOnly": 3
+  },
+  "output": {
+    "descriptor": {
+      "path": "data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals/itis-orthonectida-sidecar.json",
+      "bytes": 4818,
+      "sha256": "03d0e22c8cf6c72c7c7cee75120b8f881f04244101cb9069e2333b4a7f5e6bb7"
+    },
+    "colUsageIdShards": [
+      {
+        "path": "data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals/itis-orthonectida-sidecar-0000.jsonl.gz",
+        "records": 24,
+        "firstColUsageId": "3PSWP",
+        "lastColUsageId": "VBTZ",
+        "bytes": 1034,
+        "sha256": "b2656b4a16eb9aca9602c7bd4666a55013c75ee18ed71b43f3206f0abc59d858",
+        "sourceBytes": 8631,
+        "sourceSha256": "643073a769d4756b33954252ccd2991f76c705f6b3736b78017cccb3657310a9"
+      }
+    ],
+    "upstreamOnly": {
+      "path": "data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals/itis-orthonectida-upstream-only-0000.jsonl.gz",
+      "records": 3,
+      "firstColUsageId": null,
+      "lastColUsageId": null,
+      "bytes": 303,
+      "sha256": "e9ff35dd9d37cbae66ef98127147f9de1f8ca4b0c6172ef6fd3d13ef8b6116e4",
+      "sourceBytes": 1085,
+      "sourceSha256": "821cf8f4c713c741a2a074f9105ac80d2111278af23bf47c4a0d195fa651af92"
+    }
+  },
+  "deliveryContract": {
+    "pagesLight": "Pages needs only this descriptor and may omit row-level JSONL gzip shards.",
+    "androidIosFull": "Android and iOS inventories must include the descriptor and every listed row-level shard byte-for-byte.",
+    "runtimeChange": "This import changes no formal runtime or published release manifest."
+  },
+  "generatedBy": {
+    "scriptPath": "scripts/build-itis-orthonectida-sidecar.mjs",
+    "scriptSha256": "c23b9a2b1970e54b505241d515193540f27bef409fa48dc314d89bc0b1b5ecf4",
+    "deterministic": "Pinned input checksums, fixed roots, exact SQL, representation-only normalization and deterministic gzip."
+  }
+}

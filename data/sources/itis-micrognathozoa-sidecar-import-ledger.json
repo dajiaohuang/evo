@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 1,
+  "importType": "COL26.8-to-ITIS-exact-micrognathozoa-nomenclatural-sidecar",
+  "generatedFrom": {
+    "sourcePath": "data/sources/itis-2026-08-26.json",
+    "sourceSha256": "38a7a55b4e98cafc66790e47f6bd637e298e23fd691e4771c755b38e4a02d7fc",
+    "itisDatabaseMember": "itisSqlite082626/ITIS.sqlite",
+    "itisDatabaseSha256": "ea7304536cfd7b1e2636d383911ca7931fc83d9ab1194ca2a3c020ea2daf1719",
+    "colRegistryManifestPath": "data/catalogue-of-life/releases/2026-08-20/registry/manifest.json",
+    "colRegistryManifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151",
+    "colOwnershipPath": "data/registry/package-species-coverage.json",
+    "colOwnershipSha256": "a297bc8a67ce60806fdee733464a79bfcc42e255f7e59535b01f94013c19dfea",
+    "resourcePackManifestPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals/manifest.json",
+    "resourcePackManifestSha256": "270bf3e06a145dec5583c1dc5d40fd5918fb9c852ef40317b9a7591c02eff0d8"
+  },
+  "scopeAudit": {
+    "colRootUsageId": "54",
+    "colRootScientificName": "Micrognathozoa",
+    "colStrictAcceptedSpecies": 1,
+    "packageStrictAcceptedSpecies": 99161,
+    "packageOutOfScopeStrictAcceptedSpecies": 99160,
+    "boundary": "other-animals is the deterministic Animalia remainder after more-specific static-package routes. This sidecar covers only strict accepted COL26.8 species descending from exact Micrognathozoa root 54; every other other-animals-owned species is explicitly outside this sidecar.",
+    "itisRoot": {
+      "tsn": "808373",
+      "scientificName": "Micrognathozoa",
+      "rank": "Phylum",
+      "usage": "valid"
+    },
+    "itisCurrentSpecies": 1,
+    "itisSpeciesSynonymLinks": 0,
+    "maximumUpdateDates": {
+      "taxonomicUnits": "2026-08-26",
+      "synonymLinks": "2026-08-26"
+    }
+  },
+  "matchingContract": {
+    "normalization": [
+      "Remove the exact trailing COL authorship field from COL scientificName when that suffix is present; no authorship parser is used.",
+      "Normalize Unicode to NFC, replace underscores with spaces, collapse Unicode whitespace and trim.",
+      "For species-rank comparison, remove one parenthesized subgenus token in the exact Genus (Subgenus) species representation; genus and specific epithet must remain unchanged.",
+      "Preserve case, diacritics, punctuation and all remaining name tokens."
+    ],
+    "statuses": {
+      "accepted": "The normalized COL name resolves to exactly one valid ITIS Micrognathozoa species and directly equals that current ITIS name.",
+      "synonym-current-name-redirect": "The normalized COL name equals official ITIS invalid species-name evidence that resolves to exactly one valid ITIS Micrognathozoa species.",
+      "ambiguous": "The normalized exact evidence resolves to more than one valid ITIS Micrognathozoa species TSN.",
+      "unmatched": "No normalized exact valid-name or official ITIS species-synonym evidence resolves to a valid ITIS Micrognathozoa species."
+    },
+    "prohibited": "No fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered or taxon-substituted matching is used."
+  },
+  "totals": {
+    "total": 1,
+    "accepted": 1,
+    "synonymCurrentNameRedirect": 0,
+    "ambiguous": 0,
+    "unmatched": 0,
+    "itisCurrentSpecies": 1,
+    "itisSpeciesSynonymLinks": 0,
+    "itisUpstreamOnly": 0
+  },
+  "output": {
+    "descriptor": {
+      "path": "data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals/itis-micrognathozoa-sidecar.json",
+      "bytes": 5182,
+      "sha256": "2ee74aeb0359440fd5d86d38afe146ba31962c92004c26ad00c697bd4cd85374"
+    },
+    "colUsageIdShards": [
+      {
+        "path": "data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals/itis-micrognathozoa-sidecar-0000.jsonl.gz",
+        "records": 1,
+        "firstColUsageId": "6QDGQ",
+        "lastColUsageId": "6QDGQ",
+        "bytes": 246,
+        "sha256": "1374fe8a53349793493f28de48df999d09be4730fefa0074dada952049187d41",
+        "sourceBytes": 395,
+        "sourceSha256": "7d3862a17664474747897481149e2dd3361c10fadd65fcbc1e691f70d5d13ec6"
+      }
+    ],
+    "upstreamOnly": {
+      "path": "data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals/itis-micrognathozoa-upstream-only-0000.jsonl.gz",
+      "records": 0,
+      "firstColUsageId": null,
+      "lastColUsageId": null,
+      "bytes": 21,
+      "sha256": "74420f89d2d2a4256b5b578f1c2a01dd2b605f9aca4905db839d008cfd29cac0",
+      "sourceBytes": 1,
+      "sourceSha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "colOwnership": null,
+      "firstTsn": null,
+      "lastTsn": null
+    }
+  },
+  "deliveryContract": {
+    "pagesLight": "Pages needs only this descriptor and may omit all row-level JSONL gzip shards.",
+    "androidIosFull": "Android and iOS complete-data inventories must include the descriptor and every listed row-level shard as the same checksum-addressed bytes.",
+    "runtimeChange": "This import deliberately changes no formal runtime or published release manifest."
+  },
+  "generatedBy": {
+    "scriptPath": "scripts/build-itis-micrognathozoa-sidecar.mjs",
+    "scriptSha256": "ecbc38bdd3a797d2abc48d6ca8cbdefc72556862d82bf730f1a027875f7e8163",
+    "deterministic": "Pinned input checksums, fixed roots, exact SQL, exact representation-only normalization, code-unit ID ordering and deterministic gzip; no wall-clock fields or fuzzy matching."
+  }
+}

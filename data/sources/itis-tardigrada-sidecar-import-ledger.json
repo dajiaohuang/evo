@@ -1,0 +1,114 @@
+{
+  "schemaVersion": 1,
+  "importType": "COL26.8-to-ITIS-exact-tardigrada-nomenclatural-sidecar",
+  "generatedFrom": {
+    "sourcePath": "data/sources/itis-2026-08-26.json",
+    "sourceSha256": "38a7a55b4e98cafc66790e47f6bd637e298e23fd691e4771c755b38e4a02d7fc",
+    "itisDatabaseMember": "itisSqlite082626/ITIS.sqlite",
+    "itisDatabaseSha256": "ea7304536cfd7b1e2636d383911ca7931fc83d9ab1194ca2a3c020ea2daf1719",
+    "colRegistryManifestPath": "data/catalogue-of-life/releases/2026-08-20/registry/manifest.json",
+    "colRegistryManifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151",
+    "colOwnershipPath": "data/registry/package-species-coverage.json",
+    "colOwnershipSha256": "a297bc8a67ce60806fdee733464a79bfcc42e255f7e59535b01f94013c19dfea"
+  },
+  "scopeAudit": {
+    "packageRootUsageId": "N",
+    "packageRootScientificName": "Animalia",
+    "colRootUsageId": "L2QNW",
+    "colRootScientificName": "Tardigrada",
+    "colStrictAcceptedSpecies": 1454,
+    "packageStrictAcceptedSpecies": 99161,
+    "packageOutOfScopeStrictAcceptedSpecies": 97707,
+    "nonApplicableRemainder": "Every strict accepted COL26.8 species owned by the other-animals remainder route below N but not descending from L2QNW; this complete remainder is explicitly excluded from the Tardigrada sidecar.",
+    "boundary": "This mixed package contains many animal phyla and broader Animalia navigation content. This sidecar covers only the strict accepted COL26.8 species descending from the exact Tardigrada root L2QNW; all remaining package-owned species are explicitly out of scope.",
+    "itisRoot": {
+      "tsn": "155166",
+      "scientificName": "Tardigrada",
+      "rank": "Phylum",
+      "usage": "valid"
+    },
+    "itisCurrentSpecies": 1461,
+    "itisSpeciesSynonymLinks": 613,
+    "maximumUpdateDates": {
+      "taxonomicUnits": "2026-08-26",
+      "synonymLinks": "2026-08-26"
+    }
+  },
+  "matchingContract": {
+    "normalization": [
+      "Remove the exact trailing COL authorship field from COL scientificName when that suffix is present; no authorship parser is used.",
+      "Normalize Unicode to NFC, replace underscores with spaces, collapse Unicode whitespace and trim.",
+      "For species-rank comparison, remove one parenthesized subgenus token in the exact Genus (Subgenus) species representation; genus and specific epithet must remain unchanged.",
+      "Preserve case, diacritics, punctuation and all remaining name tokens."
+    ],
+    "statuses": {
+      "accepted": "The normalized COL name resolves to exactly one valid ITIS Tardigrada species and directly equals that current ITIS name.",
+      "synonym-current-name-redirect": "The normalized COL name equals official ITIS invalid species-name evidence that resolves to exactly one valid ITIS Tardigrada species.",
+      "ambiguous": "The normalized exact evidence resolves to more than one valid ITIS Tardigrada species TSN.",
+      "unmatched": "No normalized exact valid-name or official ITIS species-synonym evidence resolves to a valid ITIS Tardigrada species."
+    },
+    "prohibited": "No fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered or taxon-substituted matching is used."
+  },
+  "totals": {
+    "total": 1454,
+    "accepted": 1454,
+    "synonymCurrentNameRedirect": 0,
+    "ambiguous": 0,
+    "unmatched": 0,
+    "itisCurrentSpecies": 1461,
+    "itisSpeciesSynonymLinks": 613,
+    "itisUpstreamOnly": 7
+  },
+  "output": {
+    "descriptor": {
+      "path": "data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals/itis-tardigrada-sidecar.json",
+      "bytes": 5812,
+      "sha256": "e262720453fb97d9192093ee18f9b60832dfb059529c56317d7aef20bb64d73a"
+    },
+    "colUsageIdShards": [
+      {
+        "path": "data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals/itis-tardigrada-sidecar-0000.jsonl.gz",
+        "records": 1301,
+        "firstColUsageId": "36FGZ",
+        "lastColUsageId": "9X99K",
+        "bytes": 46388,
+        "sha256": "1399e7c0100cf65838a4e44bafbad514a5bccbc2381e0ba4fb95841f08f26f41",
+        "sourceBytes": 524245,
+        "sourceSha256": "6ad38badbb27944fce771a82c48413aeba9795299a1393f0da9f8f38f6bdd9b5"
+      },
+      {
+        "path": "data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals/itis-tardigrada-sidecar-0001.jsonl.gz",
+        "records": 153,
+        "firstColUsageId": "9X99L",
+        "lastColUsageId": "YGZ4",
+        "bytes": 6083,
+        "sha256": "872a46de6baca5b7d67d246470a608c1ae61ed29dcd23bb79e190dde9e0e912c",
+        "sourceBytes": 61630,
+        "sourceSha256": "e47fa36de037270a05507ac0df319cd24cfde75c3243265b8c77f2dbb2e3f177"
+      }
+    ],
+    "upstreamOnly": {
+      "path": "data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals/itis-tardigrada-upstream-only-0000.jsonl.gz",
+      "records": 7,
+      "firstColUsageId": null,
+      "lastColUsageId": null,
+      "bytes": 434,
+      "sha256": "bb730700bb355d85c94db0a52353294014e95e1b178c7263e8a1bea57831fe0f",
+      "sourceBytes": 2557,
+      "sourceSha256": "c4072e07b6d6a49674d9365887810e5408a474961be12fbf4e6359202e5ed8d2",
+      "colOwnership": null,
+      "firstTsn": "155428",
+      "lastTsn": "1194765"
+    }
+  },
+  "deliveryContract": {
+    "pagesLight": "Pages needs only this small descriptor and may omit all row-level JSONL gzip shards.",
+    "androidIosFull": "Android and iOS complete-data inventories must include the descriptor and every listed row-level shard as the same checksum-addressed bytes.",
+    "runtimeChange": "This import deliberately changes no formal runtime or published release manifest."
+  },
+  "generatedBy": {
+    "scriptPath": "scripts/build-itis-tardigrada-sidecar.mjs",
+    "scriptSha256": "e954301c7e29b006b8fffc053c719318ef8e8addb8426244c0f00216396da9c4",
+    "deterministic": "Pinned input checksums, fixed roots, exact SQL, exact representation-only normalization, code-unit ID ordering and deterministic gzip; no wall-clock fields or fuzzy matching."
+  }
+}

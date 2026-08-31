@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 1,
+  "importType": "COL26.8-to-ITIS-exact-loricifera-nomenclatural-sidecar",
+  "generatedFrom": {
+    "sourcePath": "data/sources/itis-2026-08-26.json",
+    "sourceSha256": "38a7a55b4e98cafc66790e47f6bd637e298e23fd691e4771c755b38e4a02d7fc",
+    "itisDatabaseMember": "itisSqlite082626/ITIS.sqlite",
+    "itisDatabaseSha256": "ea7304536cfd7b1e2636d383911ca7931fc83d9ab1194ca2a3c020ea2daf1719",
+    "colRegistryManifestPath": "data/catalogue-of-life/releases/2026-08-20/registry/manifest.json",
+    "colRegistryManifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151",
+    "colOwnershipPath": "data/registry/package-species-coverage.json",
+    "colOwnershipSha256": "a297bc8a67ce60806fdee733464a79bfcc42e255f7e59535b01f94013c19dfea",
+    "resourcePackManifestPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals/manifest.json",
+    "resourcePackManifestSha256": "270bf3e06a145dec5583c1dc5d40fd5918fb9c852ef40317b9a7591c02eff0d8"
+  },
+  "scopeAudit": {
+    "colRootUsageId": "B8VF6",
+    "colRootScientificName": "Loricifera Kristensen, 1983",
+    "colStrictAcceptedSpecies": 46,
+    "packageStrictAcceptedSpecies": 99161,
+    "packageOutOfScopeStrictAcceptedSpecies": 99115,
+    "packageOwnership": "other-animals is the deterministic COL26.8 residual route below Animalia (N); Loricifera B8VF6 has no more-specific static-package route.",
+    "nonApplicableBoundary": "All other-animals strict accepted species not descending from B8VF6 are non-applicable to this Loricifera sidecar. They remain in the mixed resource pack and are not silently mapped to ITIS Loricifera.",
+    "sourceComposition": {
+      "1182": 46
+    },
+    "itisRoot": {
+      "tsn": "202425",
+      "scientificName": "Loricifera",
+      "rank": "Phylum",
+      "usage": "valid"
+    },
+    "itisCurrentSpecies": 22,
+    "itisSpeciesSynonymLinks": 0,
+    "maximumUpdateDates": {
+      "taxonomicUnits": "2026-08-26",
+      "synonymLinks": "2026-08-26"
+    }
+  },
+  "matchingContract": {
+    "normalization": [
+      "Remove the exact trailing COL authorship field from COL scientificName when that suffix is present; no authorship parser is used.",
+      "Normalize Unicode to NFC, replace underscores with spaces, collapse Unicode whitespace and trim.",
+      "For species-rank comparison, remove one parenthesized subgenus token in the exact Genus (Subgenus) species representation; genus and specific epithet must remain unchanged.",
+      "Preserve case, diacritics, punctuation and all remaining name tokens."
+    ],
+    "statuses": {
+      "accepted": "The normalized COL name resolves to exactly one valid ITIS Loricifera species and directly equals that current ITIS name.",
+      "synonym-current-name-redirect": "The normalized COL name equals official ITIS invalid species-name evidence that resolves to exactly one valid ITIS Loricifera species.",
+      "ambiguous": "The normalized exact evidence resolves to more than one valid ITIS Loricifera species TSN.",
+      "unmatched": "No normalized exact valid-name or official ITIS species-synonym evidence resolves to a valid ITIS Loricifera species."
+    },
+    "prohibited": "No fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered or taxon-substituted matching is used."
+  },
+  "totals": {
+    "total": 46,
+    "accepted": 22,
+    "synonymCurrentNameRedirect": 0,
+    "ambiguous": 0,
+    "unmatched": 24,
+    "itisCurrentSpecies": 22,
+    "itisSpeciesSynonymLinks": 0,
+    "itisUpstreamOnly": 0
+  },
+  "output": {
+    "descriptor": {
+      "path": "data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals/itis-loricifera-sidecar.json",
+      "bytes": 7210,
+      "sha256": "68982c25c1960e9e37eb94aa5185d9d3d001cf6446135a67155916a19d89032d"
+    },
+    "colUsageIdShards": [
+      {
+        "path": "data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals/itis-loricifera-sidecar-000.jsonl.gz",
+        "records": 46,
+        "firstColUsageId": "32C2F",
+        "lastColUsageId": "JVB4",
+        "bytes": 1714,
+        "sha256": "a276865818067e92846900ae12aded1a0d0bd413a5414d1a16b8648c0046c11f",
+        "sourceBytes": 13897,
+        "sourceSha256": "39a60d39ba58c00762307d0c13716d54978e59214614306345173eddcf455b2b"
+      }
+    ],
+    "upstreamOnly": {
+      "path": "data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals/itis-loricifera-upstream-only-000.jsonl.gz",
+      "records": 0,
+      "firstColUsageId": null,
+      "lastColUsageId": null,
+      "bytes": 21,
+      "sha256": "74420f89d2d2a4256b5b578f1c2a01dd2b605f9aca4905db839d008cfd29cac0",
+      "sourceBytes": 1,
+      "sourceSha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "colOwnership": null,
+      "firstTsn": null,
+      "lastTsn": null
+    }
+  },
+  "deliveryContract": {
+    "pagesLight": "Pages needs only this small descriptor and may omit all row-level JSONL gzip shards.",
+    "androidIosFull": "Android and iOS complete-data inventories must include this descriptor and every listed row-level shard as the same checksum-addressed bytes.",
+    "runtimeChange": "This import deliberately changes no formal runtime or published release manifest."
+  },
+  "generatedBy": {
+    "scriptPath": "scripts/build-itis-loricifera-sidecar.mjs",
+    "scriptSha256": "e380d6235a1ee5e475262d77ddc660e8ab8c2cbd362e34e9fa8032fdb1b5e341",
+    "deterministic": "Pinned input checksums, fixed roots, exact SQL, exact representation-only normalization, code-unit ID ordering and deterministic gzip; no wall-clock fields or fuzzy matching."
+  }
+}

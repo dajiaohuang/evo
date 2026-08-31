@@ -1,0 +1,143 @@
+{
+  "schemaVersion": 1,
+  "sidecarType": "release-pinned-exact-nomenclatural-crosswalk",
+  "packageId": "other-animals",
+  "scope": {
+    "colRootUsageId": "5B",
+    "colRootScientificName": "Nematomorpha",
+    "colStrictAcceptedSpecies": 356,
+    "packageStrictAcceptedSpecies": 99161,
+    "packageOutOfScopeStrictAcceptedSpecies": 98805,
+    "packageOwnership": "other-animals is the deterministic COL26.8 residual route below Animalia (N); Nematomorpha 5B has no more-specific static-package route.",
+    "nonApplicableBoundary": "All other-animals strict accepted species not descending from 5B are non-applicable to this Nematomorpha sidecar. They remain in the mixed resource pack and are not silently mapped to ITIS Nematomorpha.",
+    "sourceComposition": {
+      "1119": 356
+    }
+  },
+  "sources": {
+    "col": {
+      "releaseAlias": "COL26.8",
+      "releaseDate": "2026-08-20",
+      "rootUsageId": "5B",
+      "registryManifestPath": "data/catalogue-of-life/releases/2026-08-20/registry/manifest.json",
+      "registryManifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151",
+      "ownershipPath": "data/registry/package-species-coverage.json",
+      "ownershipSha256": "a297bc8a67ce60806fdee733464a79bfcc42e255f7e59535b01f94013c19dfea",
+      "resourcePackManifestPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals/manifest.json",
+      "resourcePackManifestSha256": "270bf3e06a145dec5583c1dc5d40fd5918fb9c852ef40317b9a7591c02eff0d8"
+    },
+    "itis": {
+      "datasetId": "itis-2026-08-26",
+      "exportDate": "2026-08-26",
+      "rootTsn": "64183",
+      "sourceLedgerPath": "data/sources/itis-2026-08-26.json",
+      "sourceLedgerSha256": "38a7a55b4e98cafc66790e47f6bd637e298e23fd691e4771c755b38e4a02d7fc",
+      "license": "CC0-1.0",
+      "citationDoi": "10.5066/F7KH0KBK"
+    }
+  },
+  "exactMatching": {
+    "normalization": [
+      "Remove the exact trailing COL authorship field from COL scientificName when that suffix is present; no authorship parser is used.",
+      "Normalize Unicode to NFC, replace underscores with spaces, collapse Unicode whitespace and trim.",
+      "For species-rank comparison, remove one parenthesized subgenus token in the exact Genus (Subgenus) species representation; genus and specific epithet must remain unchanged.",
+      "Preserve case, diacritics, punctuation and all remaining name tokens."
+    ],
+    "statuses": {
+      "accepted": "The normalized COL name resolves to exactly one valid ITIS Nematomorpha species and directly equals that current ITIS name.",
+      "synonym-current-name-redirect": "The normalized COL name equals official ITIS invalid species-name evidence that resolves to exactly one valid ITIS Nematomorpha species.",
+      "ambiguous": "The normalized exact evidence resolves to more than one valid ITIS Nematomorpha species TSN.",
+      "unmatched": "No normalized exact valid-name or official ITIS species-synonym evidence resolves to a valid ITIS Nematomorpha species."
+    },
+    "prohibited": "No fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered or taxon-substituted matching is used."
+  },
+  "evidenceBoundary": {
+    "en": "This CC0 ITIS sidecar is a frozen exact nomenclatural crosswalk for the COL26.8 Nematomorpha partition. It is not a final classification authority, phylogeny, species-concept equivalence assertion, biological dossier, fossil record or scientific-review record. The other-animals resource pack is mixed; its non-Nematomorpha remainder is explicitly out of scope.",
+    "zh": "此 CC0 ITIS 侧车是 COL26.8 Nematomorpha 分区的冻结严格命名交叉映射；它不是最终分类权威、系统发育树、物种概念等同性声明、生物档案、化石记录或科学审查记录。other-animals 资源包是混合包，其余非 Nematomorpha 物种被明确排除在本侧车之外。"
+  },
+  "counts": {
+    "total": 356,
+    "accepted": 187,
+    "synonymCurrentNameRedirect": 6,
+    "ambiguous": 0,
+    "unmatched": 163,
+    "itisCurrentSpecies": 238,
+    "itisSpeciesSynonymLinks": 70,
+    "itisUpstreamOnly": 48
+  },
+  "colUsageIdLocator": {
+    "key": "colUsageId",
+    "ordering": "Unicode code-unit ascending",
+    "sourceShardLimitBytes": 524288,
+    "stableAddressing": "Binary-search the non-overlapping inclusive colUsageId ranges; one detail query loads exactly one immutable JSONL gzip shard.",
+    "files": [
+      {
+        "path": "data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals/itis-nematomorpha-sidecar-000.jsonl.gz",
+        "records": 356,
+        "firstColUsageId": "3BT8G",
+        "lastColUsageId": "L5H4",
+        "bytes": 9729,
+        "sha256": "e94580356963ebf1bbc8134447a108b6b043106c5a9c1c25eca74fee1173fb38",
+        "sourceBytes": 104583,
+        "sourceSha256": "19c9f5e436bb2d9cecf1940e8e5d4f11126b6f6265b495c2bb1c61296bcd898f"
+      }
+    ]
+  },
+  "upstreamOnly": {
+    "colOwnership": null,
+    "stableAddressing": "No COL usage ID is assigned. The complete ITIS-only current-species partition is in its own immutable JSONL gzip shard.",
+    "files": [
+      {
+        "path": "data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals/itis-nematomorpha-upstream-only-000.jsonl.gz",
+        "records": 48,
+        "firstColUsageId": null,
+        "lastColUsageId": null,
+        "bytes": 914,
+        "sha256": "0e8ec2717ef7daf8954fe91d245be2937302fcdf3310920f74efabfe3292ca99",
+        "sourceBytes": 18142,
+        "sourceSha256": "b315b752135ff72a3a42b1bb859f83c7c1d2f03735128ce51199b5b669c25572",
+        "colOwnership": null,
+        "firstTsn": "64186",
+        "lastTsn": "700174"
+      }
+    ]
+  },
+  "deliveryProfiles": {
+    "web-light": {
+      "payload": "summary-only",
+      "records": 0,
+      "files": [],
+      "statement": "GitHub Pages carries the descriptor and hashes without row-level Nematomorpha payload shards."
+    },
+    "native-full": {
+      "payload": "complete",
+      "records": 356,
+      "files": [
+        {
+          "path": "data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals/itis-nematomorpha-sidecar-000.jsonl.gz",
+          "records": 356,
+          "firstColUsageId": "3BT8G",
+          "lastColUsageId": "L5H4",
+          "bytes": 9729,
+          "sha256": "e94580356963ebf1bbc8134447a108b6b043106c5a9c1c25eca74fee1173fb38",
+          "sourceBytes": 104583,
+          "sourceSha256": "19c9f5e436bb2d9cecf1940e8e5d4f11126b6f6265b495c2bb1c61296bcd898f"
+        },
+        {
+          "path": "data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals/itis-nematomorpha-upstream-only-000.jsonl.gz",
+          "records": 48,
+          "firstColUsageId": null,
+          "lastColUsageId": null,
+          "bytes": 914,
+          "sha256": "0e8ec2717ef7daf8954fe91d245be2937302fcdf3310920f74efabfe3292ca99",
+          "sourceBytes": 18142,
+          "sourceSha256": "b315b752135ff72a3a42b1bb859f83c7c1d2f03735128ce51199b5b669c25572",
+          "colOwnership": null,
+          "firstTsn": "64186",
+          "lastTsn": "700174"
+        }
+      ],
+      "statement": "Android and iOS carry every checksum-addressed Nematomorpha row shard, including the explicit ITIS-only partition."
+    }
+  }
+}

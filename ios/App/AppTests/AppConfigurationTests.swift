@@ -286,10 +286,20 @@ final class AppConfigurationTests: XCTestCase {
                 }
             } else if packageId == "other-animals" {
                 let extensions = try XCTUnwrap(pack["extensions"] as? [[String: Any]])
-                XCTAssertEqual(extensions.count, 5)
-                let expectedIds = ["itis-platyhelminthes-tsn-crosswalk", "itis-rotifera-tsn-crosswalk", "itis-bryozoa-tsn-crosswalk", "itis-nemertea-tsn-crosswalk", "itis-tunicata-cephalochordata-tsn-crosswalk"]
-                let expectedFiles = [15, 3, 3, 2, 2]
-                let expectedRecords = [28_252, 2_662, 20_754, 1_416, 3_242]
+                XCTAssertEqual(extensions.count, 6)
+                let expectedIds = [
+                    "itis-platyhelminthes-tsn-crosswalk", "itis-rotifera-tsn-crosswalk", "itis-bryozoa-tsn-crosswalk",
+                    "itis-nemertea-tsn-crosswalk", "itis-tunicata-cephalochordata-tsn-crosswalk", "itis-acanthocephala-tsn-crosswalk",
+                    "itis-entoprocta-tsn-crosswalk", "itis-tardigrada-tsn-crosswalk", "itis-chaetognatha-tsn-crosswalk",
+                    "itis-ctenophora-tsn-crosswalk", "itis-kinorhyncha-tsn-crosswalk", "itis-gastrotricha-tsn-crosswalk",
+                    "itis-priapulida-tsn-crosswalk", "itis-onychophora-tsn-crosswalk", "itis-hemichordata-tsn-crosswalk",
+                    "itis-sipuncula-tsn-crosswalk", "itis-nematomorpha-tsn-crosswalk", "itis-phoronida-tsn-crosswalk",
+                    "itis-gnathostomulida-tsn-crosswalk", "itis-loricifera-tsn-crosswalk",
+                    "itis-micrognathozoa-tsn-crosswalk", "itis-cycliophora-tsn-crosswalk", "itis-placozoa-tsn-crosswalk",
+                    "itis-xenacoelomorpha-tsn-crosswalk", "itis-orthonectida-tsn-crosswalk", "itis-dicyemida-tsn-crosswalk",
+                ]
+                let expectedFiles = [15, 3, 3, 2, 2, 3, 2, 3, 2, 2, 2, 2, 1, 1, 2, 2, 2, 1, 2, 1, 1, 1, 1, 2, 2, 2]
+                let expectedRecords = [28_252, 2_662, 20_754, 1_416, 3_242, 1_330, 171, 1_461, 156, 204, 420, 997, 23, 235, 139, 205, 404, 19, 104, 46, 1, 2, 4, 499, 27, 126]
                 for (extensionIndex, authority) in extensions.enumerated() {
                     XCTAssertEqual(authority["id"] as? String, expectedIds[extensionIndex])
                     XCTAssertEqual(authority["provider"] as? String, "Integrated Taxonomic Information System")
@@ -388,7 +398,7 @@ final class AppConfigurationTests: XCTestCase {
         XCTAssertEqual(lpsnIdentifierRecords, 22_360)
         XCTAssertEqual(indexFungorumIdentifierRecords, 157_044)
         XCTAssertEqual(foraminiferaAuthorityRecords, 47_975)
-        XCTAssertEqual(otherAnimalsItisRecords, 56_326)
+        XCTAssertEqual(otherAnimalsItisRecords, 62_899)
         XCTAssertEqual(ictvSpeciesRecords, 17_554)
         XCTAssertEqual(ictvIsolateRecords, 19_285)
         XCTAssertEqual(wfoSupplementRecords, 61_449)

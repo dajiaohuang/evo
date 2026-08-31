@@ -1,0 +1,142 @@
+{
+  "schemaVersion": 1,
+  "sidecarType": "release-pinned-exact-nomenclatural-crosswalk",
+  "packageId": "other-animals",
+  "scope": {
+    "colRootUsageId": "4R",
+    "colRootScientificName": "Hemichordata",
+    "colStrictAcceptedSpecies": 132,
+    "colRootStrictAcceptedSpecies": 139,
+    "colRootExcludedFromPackage": 7,
+    "packageStrictAcceptedSpecies": 99161,
+    "packageOutOfScopeStrictAcceptedSpecies": 99029,
+    "boundary": "other-animals is the deterministic Animalia remainder after more-specific static-package routes. This sidecar covers only the strict accepted COL26.8 Hemichordata species owned by the Other Animals package; seven Hemichordata species are outside that package boundary and therefore are not duplicated here."
+  },
+  "mixedResourcePack": {
+    "packageId": "other-animals",
+    "manifestPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals/manifest.json",
+    "manifestSha256": "662d549b01b73fd10ad830f3b9bdf9681ec1e9f9f46dafc4f65457404cba506d",
+    "acceptedSpeciesCount": 99161,
+    "inScopeSpecies": 132,
+    "outOfScopeSpecies": 99029,
+    "packageSourceDatasetCounts": {
+      "1081": 20367,
+      "1085": 1364,
+      "1090": 14430,
+      "1099": 4403,
+      "1100": 6,
+      "1104": 19,
+      "1119": 356,
+      "1122": 903,
+      "1123": 4,
+      "1124": 23,
+      "1125": 100,
+      "1126": 5852,
+      "1127": 3015,
+      "1128": 12007,
+      "1132": 132,
+      "1149": 24,
+      "1150": 122,
+      "1153": 362,
+      "1154": 30,
+      "1178": 68,
+      "1180": 197,
+      "1182": 46,
+      "1185": 78,
+      "1186": 3000,
+      "1193": 6508,
+      "2144": 3674,
+      "2302": 19604,
+      "298081": 2467
+    },
+    "hemichordataSourceDatasetCounts": {
+      "2144": 132
+    },
+    "outOfScopeBoundary": "The remaining 99029 accepted species in Other Animals are not Hemichordata and receive no ITIS Hemichordata match in this sidecar."
+  },
+  "sources": {
+    "col": {
+      "releaseAlias": "COL26.8",
+      "releaseDate": "2026-08-20",
+      "registryManifestPath": "data/catalogue-of-life/releases/2026-08-20/registry/manifest.json",
+      "registryManifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151",
+      "ownershipPath": "data/registry/package-species-coverage.json",
+      "ownershipSha256": "a297bc8a67ce60806fdee733464a79bfcc42e255f7e59535b01f94013c19dfea"
+    },
+    "itis": {
+      "datasetId": "itis-2026-08-26",
+      "exportDate": "2026-08-26",
+      "rootTsn": "158616",
+      "sourceLedgerPath": "data/sources/itis-2026-08-26.json",
+      "sourceLedgerSha256": "38a7a55b4e98cafc66790e47f6bd637e298e23fd691e4771c755b38e4a02d7fc",
+      "license": "CC0-1.0",
+      "citationDoi": "10.5066/F7KH0KBK"
+    }
+  },
+  "exactMatching": {
+    "normalization": [
+      "Remove the exact trailing COL authorship field from COL scientificName when that suffix is present; no authorship parser is used.",
+      "Normalize Unicode to NFC, replace underscores with spaces, collapse Unicode whitespace and trim.",
+      "For species-rank comparison, remove one parenthesized subgenus token in the exact Genus (Subgenus) species representation; genus and specific epithet must remain unchanged.",
+      "Preserve case, diacritics, punctuation and all remaining name tokens."
+    ],
+    "statuses": {
+      "accepted": "The normalized COL name resolves to exactly one valid ITIS Hemichordata species and directly equals that current ITIS name.",
+      "synonym-current-name-redirect": "The normalized COL name equals official ITIS invalid species-name evidence that resolves to exactly one valid ITIS Hemichordata species.",
+      "ambiguous": "The normalized exact evidence resolves to more than one valid ITIS Hemichordata species TSN.",
+      "unmatched": "No normalized exact valid-name or official ITIS species-synonym evidence resolves to a valid ITIS Hemichordata species."
+    },
+    "prohibited": "No fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered or taxon-substituted matching is used."
+  },
+  "evidenceBoundary": {
+    "en": "This CC0 ITIS sidecar is a frozen exact nomenclatural crosswalk for the declared Hemichordata partition inside the mixed Other Animals resource pack. It is not a global hemichordate checklist, final classification authority, phylogeny, species-concept equivalence assertion, biological dossier or scientific-review record.",
+    "zh": "此 CC0 ITIS 侧车是混合“其他动物”资源包中所声明半索动物门分区的冻结严格命名交叉映射；它不是全球半索动物名录、最终分类权威、系统发育树、物种概念等同性声明、生物档案或科学审查记录。"
+  },
+  "counts": {
+    "total": 132,
+    "accepted": 132,
+    "synonymCurrentNameRedirect": 0,
+    "ambiguous": 0,
+    "unmatched": 0,
+    "itisCurrentSpecies": 139,
+    "itisSpeciesSynonymLinks": 41,
+    "itisUpstreamOnly": 7
+  },
+  "colUsageIdLocator": {
+    "key": "colUsageId",
+    "ordering": "Unicode code-unit ascending",
+    "sourceShardLimitBytes": 2097152,
+    "stableAddressing": "Binary-search non-overlapping inclusive colUsageId ranges; one detail query loads exactly one immutable JSONL gzip shard.",
+    "files": [
+      {
+        "path": "data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals/itis-hemichordata-sidecar-0000.jsonl.gz",
+        "records": 132,
+        "firstColUsageId": "3G57H",
+        "lastColUsageId": "WXWD",
+        "bytes": 4902,
+        "sha256": "8b1cc298f57d90aa422d34d3fda7cddca78d47180e839888b80e852c7ae26515",
+        "sourceBytes": 51827,
+        "sourceSha256": "e5a7b527ede327e332a10465e34b98a40591fb2ce537540b7cb6af1dbdd8f7dd"
+      }
+    ]
+  },
+  "upstreamOnly": {
+    "colOwnership": null,
+    "stableAddressing": "No COL usage ID is assigned. The complete ITIS-only current-species partition is in its own immutable JSONL gzip shard.",
+    "files": [
+      {
+        "path": "data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals/itis-hemichordata-upstream-only-0000.jsonl.gz",
+        "records": 7,
+        "firstColUsageId": null,
+        "lastColUsageId": null,
+        "bytes": 359,
+        "sha256": "22545f7435ac173c92ba521633b5bba0906cd596561b7d4a9bdd66e026ab5aba",
+        "sourceBytes": 2536,
+        "sourceSha256": "47fce462ec8cfe2d6c83361966e45c1c8e0f777f64eb997bb0f3f721d60c524f",
+        "colOwnership": null,
+        "firstTsn": "158646",
+        "lastTsn": "993495"
+      }
+    ]
+  }
+}

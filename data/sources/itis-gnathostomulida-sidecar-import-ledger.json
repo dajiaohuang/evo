@@ -1,0 +1,145 @@
+{
+  "schemaVersion": 1,
+  "importType": "COL26.8-to-ITIS-exact-gnathostomulida-nomenclatural-sidecar",
+  "generatedFrom": {
+    "sourcePath": "data/sources/itis-2026-08-26.json",
+    "sourceSha256": "38a7a55b4e98cafc66790e47f6bd637e298e23fd691e4771c755b38e4a02d7fc",
+    "itisDatabaseMember": "itisSqlite082626/ITIS.sqlite",
+    "itisDatabaseSha256": "ea7304536cfd7b1e2636d383911ca7931fc83d9ab1194ca2a3c020ea2daf1719",
+    "colRegistryManifestPath": "data/catalogue-of-life/releases/2026-08-20/registry/manifest.json",
+    "colRegistryManifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151",
+    "colOwnershipPath": "data/registry/package-species-coverage.json",
+    "colOwnershipSha256": "a297bc8a67ce60806fdee733464a79bfcc42e255f7e59535b01f94013c19dfea",
+    "resourcePackManifestPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals/manifest.json",
+    "resourcePackManifestSha256": "270bf3e06a145dec5583c1dc5d40fd5918fb9c852ef40317b9a7591c02eff0d8"
+  },
+  "scopeAudit": {
+    "colRootUsageId": "B8VF3",
+    "colRootScientificName": "Gnathostomulida",
+    "colStrictAcceptedSpecies": 100,
+    "packageStrictAcceptedSpecies": 99161,
+    "packageOutOfScopeStrictAcceptedSpecies": 99061,
+    "boundary": "other-animals is the deterministic Animalia remainder after more-specific static-package routes. This sidecar covers only strict accepted COL26.8 species descending from exact Gnathostomulida root B8VF3; every other other-animals-owned species is explicitly outside this sidecar.",
+    "mixedResourcePack": {
+      "packageId": "other-animals",
+      "manifestPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals/manifest.json",
+      "manifestSha256": "270bf3e06a145dec5583c1dc5d40fd5918fb9c852ef40317b9a7591c02eff0d8",
+      "acceptedSpeciesCount": 99161,
+      "inScopeSpecies": 100,
+      "outOfScopeSpecies": 99061,
+      "packageSourceDatasetCounts": {
+        "1081": 20367,
+        "1085": 1364,
+        "1090": 14430,
+        "1099": 4403,
+        "1100": 6,
+        "1104": 19,
+        "1119": 356,
+        "1122": 903,
+        "1123": 4,
+        "1124": 23,
+        "1125": 100,
+        "1126": 5852,
+        "1127": 3015,
+        "1128": 12007,
+        "1132": 132,
+        "1149": 24,
+        "1150": 122,
+        "1153": 362,
+        "1154": 30,
+        "1178": 68,
+        "1180": 197,
+        "1182": 46,
+        "1185": 78,
+        "1186": 3000,
+        "1193": 6508,
+        "2144": 3674,
+        "2302": 19604,
+        "298081": 2467
+      },
+      "gnathostomulidaSourceDatasetCounts": {
+        "1125": 100
+      },
+      "outOfScopeBoundary": "The remaining 99061 accepted species in Other Animals are not Gnathostomulida and receive no ITIS Gnathostomulida match in this sidecar."
+    },
+    "itisRoot": {
+      "tsn": "57405",
+      "scientificName": "Gnathostomulida",
+      "rank": "Phylum",
+      "usage": "valid"
+    },
+    "itisCurrentSpecies": 94,
+    "itisSpeciesSynonymLinks": 4,
+    "maximumUpdateDates": {
+      "taxonomicUnits": "2026-08-26",
+      "synonymLinks": "2026-08-26"
+    }
+  },
+  "matchingContract": {
+    "normalization": [
+      "Remove the exact trailing COL authorship field from COL scientificName when that suffix is present; no authorship parser is used.",
+      "Normalize Unicode to NFC, replace underscores with spaces, collapse Unicode whitespace and trim.",
+      "For species-rank comparison, remove one parenthesized subgenus token in the exact Genus (Subgenus) species representation; genus and specific epithet must remain unchanged.",
+      "Preserve case, diacritics, punctuation and all remaining name tokens."
+    ],
+    "statuses": {
+      "accepted": "The normalized COL name resolves to exactly one valid ITIS Gnathostomulida species and directly equals that current ITIS name.",
+      "synonym-current-name-redirect": "The normalized COL name equals official ITIS invalid species-name evidence that resolves to exactly one valid ITIS Gnathostomulida species.",
+      "ambiguous": "The normalized exact evidence resolves to more than one valid ITIS Gnathostomulida species TSN.",
+      "unmatched": "No normalized exact valid-name or official ITIS species-synonym evidence resolves to a valid ITIS Gnathostomulida species."
+    },
+    "prohibited": "No fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered or taxon-substituted matching is used."
+  },
+  "totals": {
+    "total": 100,
+    "accepted": 90,
+    "synonymCurrentNameRedirect": 0,
+    "ambiguous": 0,
+    "unmatched": 10,
+    "itisCurrentSpecies": 94,
+    "itisSpeciesSynonymLinks": 4,
+    "itisUpstreamOnly": 4
+  },
+  "output": {
+    "descriptor": {
+      "path": "data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals/itis-gnathostomulida-sidecar.json",
+      "bytes": 6392,
+      "sha256": "43cf5050c3f2cdc2a0ae3651e89ca47277a8e93c710b39f3d994172790480885"
+    },
+    "colUsageIdShards": [
+      {
+        "path": "data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals/itis-gnathostomulida-sidecar-0000.jsonl.gz",
+        "records": 100,
+        "firstColUsageId": "3GLZ3",
+        "lastColUsageId": "JWNT",
+        "bytes": 3000,
+        "sha256": "fdccb9d9419f316a9d3f8e21751c2fbdaf3abe5c9f1e726556ae48a7f487434d",
+        "sourceBytes": 36167,
+        "sourceSha256": "c8352a37e0ad757274217b31793fd4b45b69a06a4815e67ceafc8fd6e31b830d"
+      }
+    ],
+    "upstreamOnly": {
+      "path": "data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals/itis-gnathostomulida-upstream-only-0000.jsonl.gz",
+      "records": 4,
+      "firstColUsageId": null,
+      "lastColUsageId": null,
+      "bytes": 338,
+      "sha256": "98c28c9ecc967263c9fe8da72281f2d66799da1cbc93e9d81689f155956b8ba1",
+      "sourceBytes": 1465,
+      "sourceSha256": "ba0c83df631dd60bf04181f4a72bfb7cb6991d9d0e2974a85fe6346e7ea16aa5",
+      "colOwnership": null,
+      "firstTsn": "684811",
+      "lastTsn": "684859"
+    }
+  },
+  "deliveryContract": {
+    "pagesLight": "Pages needs only this small descriptor and may omit all row-level JSONL gzip shards.",
+    "androidIosFull": "Android and iOS complete-data inventories must include the descriptor and every listed row-level shard as the same checksum-addressed bytes.",
+    "runtimeChange": "This import deliberately changes no formal runtime or published release manifest."
+  },
+  "generatedBy": {
+    "scriptPath": "scripts/build-itis-gnathostomulida-sidecar.mjs",
+    "scriptSha256": "e3bb68c9539758581dc7ef11496116d0787f1bd3ce251f446d315916c6ba61c3",
+    "deterministic": "Pinned input checksums, fixed roots, exact SQL, exact representation-only normalization, code-unit ID ordering and deterministic gzip; no wall-clock fields or fuzzy matching."
+  }
+}

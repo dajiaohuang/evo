@@ -23,6 +23,27 @@ const taxa = [
   { slug: 'bryozoa', label: 'Bryozoa' },
   { slug: 'nemertea', label: 'Nemertea' },
   { slug: 'tunicata-cephalochordata', label: 'Tunicata and Cephalochordata' },
+  { slug: 'acanthocephala', label: 'Acanthocephala' },
+  { slug: 'entoprocta', label: 'Entoprocta' },
+  { slug: 'tardigrada', label: 'Tardigrada' },
+  { slug: 'chaetognatha', label: 'Chaetognatha' },
+  { slug: 'ctenophora', label: 'Ctenophora' },
+  { slug: 'kinorhyncha', label: 'Kinorhyncha' },
+  { slug: 'gastrotricha', label: 'Gastrotricha' },
+  { slug: 'priapulida', label: 'Priapulida' },
+  { slug: 'onychophora', label: 'Onychophora' },
+  { slug: 'hemichordata', label: 'Hemichordata' },
+  { slug: 'sipuncula', label: 'Sipuncula' },
+  { slug: 'nematomorpha', label: 'Nematomorpha' },
+  { slug: 'phoronida', label: 'Phoronida' },
+  { slug: 'gnathostomulida', label: 'Gnathostomulida' },
+  { slug: 'loricifera', label: 'Loricifera' },
+  { slug: 'micrognathozoa', label: 'Micrognathozoa' },
+  { slug: 'cycliophora', label: 'Cycliophora' },
+  { slug: 'placozoa', label: 'Placozoa' },
+  { slug: 'xenacoelomorpha', label: 'Xenacoelomorpha' },
+  { slug: 'orthonectida', label: 'Orthonectida' },
+  { slug: 'dicyemida', label: 'Dicyemida' },
 ]
 
 const bryozoaPath = join(packRoot, 'itis-bryozoa-sidecar.json')
@@ -84,7 +105,9 @@ const extensions = taxa.map(({ slug, label }) => {
   ledger.output.descriptor.sha256 = sha256(descriptorBytes)
   ledger.generatedBy.scriptSha256 = sha256(readFileSync(join(root, `scripts/build-itis-${slug}-sidecar.mjs`)))
   writeJson(ledgerPath, ledger)
-  const files = [...descriptor.colUsageIdLocator.files, ...descriptor.upstreamOnly.files].map(toRuntimeFile)
+  const files = [...descriptor.colUsageIdLocator.files, ...descriptor.upstreamOnly.files]
+    .filter((file) => file.records > 0)
+    .map(toRuntimeFile)
   const records = descriptor.counts.total + descriptor.counts.itisUpstreamOnly
   const totalCompressedBytes = files.reduce((sum, file) => sum + file.bytes, 0)
   const totalSourceBytes = files.reduce((sum, file) => sum + file.sourceBytes, 0)

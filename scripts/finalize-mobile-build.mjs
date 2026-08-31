@@ -99,6 +99,30 @@ const expectedOtherAnimalAuthorities = {
   'itis-bryozoa-tsn-crosswalk': { files: 3, records: 20754 },
   'itis-nemertea-tsn-crosswalk': { files: 2, records: 1416 },
   'itis-tunicata-cephalochordata-tsn-crosswalk': { files: 2, records: 3242 },
+  'itis-acanthocephala-tsn-crosswalk': { files: 3, records: 1330 },
+  'itis-entoprocta-tsn-crosswalk': { files: 2, records: 171 },
+  'itis-tardigrada-tsn-crosswalk': { files: 3, records: 1461 },
+  'itis-chaetognatha-tsn-crosswalk': { files: 2, records: 156 },
+  'itis-ctenophora-tsn-crosswalk': { files: 2, records: 204 },
+  'itis-kinorhyncha-tsn-crosswalk': { files: 2, records: 420 },
+  'itis-gastrotricha-tsn-crosswalk': { files: 2, records: 997 },
+  'itis-priapulida-tsn-crosswalk': { files: 1, records: 23 },
+  'itis-onychophora-tsn-crosswalk': { files: 1, records: 235 },
+  'itis-hemichordata-tsn-crosswalk': { files: 2, records: 139 },
+  'itis-sipuncula-tsn-crosswalk': { files: 2, records: 205 },
+  'itis-nematomorpha-tsn-crosswalk': { files: 2, records: 404 },
+  'itis-phoronida-tsn-crosswalk': { files: 1, records: 19 },
+  'itis-gnathostomulida-tsn-crosswalk': { files: 2, records: 104 },
+  'itis-loricifera-tsn-crosswalk': { files: 1, records: 46 },
+  'itis-micrognathozoa-tsn-crosswalk': { files: 1, records: 1 },
+  'itis-cycliophora-tsn-crosswalk': { files: 1, records: 2 },
+  'itis-placozoa-tsn-crosswalk': { files: 1, records: 4 },
+  'itis-xenacoelomorpha-tsn-crosswalk': { files: 2, records: 499 },
+  'itis-orthonectida-tsn-crosswalk': { files: 2, records: 27 },
+  'itis-dicyemida-tsn-crosswalk': { files: 2, records: 126 },
+}
+if (otherAnimalsManifest.extensions?.length !== Object.keys(expectedOtherAnimalAuthorities).length) {
+  throw new Error('Mobile build must stage every declared other-animals ITIS authority collection')
 }
 for (const [id, expected] of Object.entries(expectedOtherAnimalAuthorities)) {
   const authority = otherAnimalsManifest.extensions?.find((extension) => extension.id === id)

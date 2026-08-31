@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "importType": "COL26.8-to-ITIS-exact-phoronida-nomenclatural-sidecar",
+  "generatedFrom": {
+    "sourcePath": "data/sources/itis-2026-08-26.json",
+    "sourceSha256": "38a7a55b4e98cafc66790e47f6bd637e298e23fd691e4771c755b38e4a02d7fc",
+    "itisDatabaseMember": "itisSqlite082626/ITIS.sqlite",
+    "itisDatabaseSha256": "ea7304536cfd7b1e2636d383911ca7931fc83d9ab1194ca2a3c020ea2daf1719",
+    "colRegistryManifestPath": "data/catalogue-of-life/releases/2026-08-20/registry/manifest.json",
+    "colRegistryManifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151",
+    "colOwnershipPath": "data/registry/package-species-coverage.json",
+    "colOwnershipSha256": "a297bc8a67ce60806fdee733464a79bfcc42e255f7e59535b01f94013c19dfea"
+  },
+  "scopeAudit": {
+    "colRootUsageId": "5P",
+    "colRootScientificName": "Phoronida",
+    "colStrictAcceptedSpecies": 19,
+    "packageStrictAcceptedSpecies": 99161,
+    "packageOutOfScopeStrictAcceptedSpecies": 99142,
+    "boundary": "other-animals is the deterministic Animalia remainder after every more-specific static-package route. This sidecar covers only strict accepted COL26.8 species descending from the exact Phoronida root 5P; every other other-animals-owned species is explicitly non-applicable.",
+    "itisRoot": {
+      "tsn": "155456",
+      "scientificName": "Phoronida",
+      "rank": "Phylum",
+      "usage": "valid"
+    },
+    "itisCurrentSpecies": 11,
+    "itisSpeciesSynonymLinks": 38,
+    "maximumUpdateDates": {
+      "taxonomicUnits": "2026-08-26",
+      "synonymLinks": "2026-08-26"
+    }
+  },
+  "matchingContract": {
+    "normalization": [
+      "Remove the exact trailing COL authorship field from COL scientificName when that suffix is present; no authorship parser is used.",
+      "Normalize Unicode to NFC, replace underscores with spaces, collapse Unicode whitespace and trim.",
+      "For species-rank comparison, remove one parenthesized subgenus token in the exact Genus (Subgenus) species representation; genus and specific epithet must remain unchanged.",
+      "Preserve case, diacritics, punctuation and all remaining name tokens."
+    ],
+    "statuses": {
+      "accepted": "The normalized COL name resolves to exactly one valid ITIS Phoronida species and directly equals that current ITIS name.",
+      "synonym-current-name-redirect": "The normalized COL name equals official ITIS invalid species-name evidence that resolves to exactly one valid ITIS Phoronida species.",
+      "ambiguous": "The normalized exact evidence resolves to more than one valid ITIS Phoronida species TSN.",
+      "unmatched": "No normalized exact valid-name or official ITIS species-synonym evidence resolves to a valid ITIS Phoronida species."
+    },
+    "prohibited": "No fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered or taxon-substituted matching is used."
+  },
+  "totals": {
+    "total": 19,
+    "accepted": 11,
+    "synonymCurrentNameRedirect": 8,
+    "ambiguous": 0,
+    "unmatched": 0,
+    "itisCurrentSpecies": 11,
+    "itisSpeciesSynonymLinks": 38,
+    "itisUpstreamOnly": 0
+  },
+  "output": {
+    "descriptor": {
+      "path": "data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals/itis-phoronida-sidecar.json",
+      "bytes": 5008,
+      "sha256": "6fcbb00e815e51c005f17824d940e5afa62c8b652655a43b5e0794691f8ff0e3"
+    },
+    "colUsageIdShards": [
+      {
+        "path": "data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals/itis-phoronida-sidecar-0000.jsonl.gz",
+        "records": 19,
+        "firstColUsageId": "4GRZF",
+        "lastColUsageId": "65364",
+        "bytes": 1077,
+        "sha256": "14d3778670d5bae13dd4ebf76c8464cd369bddde87653048c62318d794b2dee5",
+        "sourceBytes": 8696,
+        "sourceSha256": "6ed733822f32aa1f8e18f2039dd1a6cb36c0677b8c04df7df63b8b251eac53a8"
+      }
+    ],
+    "upstreamOnly": {
+      "path": "data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals/itis-phoronida-upstream-only-0000.jsonl.gz",
+      "records": 0,
+      "firstColUsageId": null,
+      "lastColUsageId": null,
+      "bytes": 21,
+      "sha256": "74420f89d2d2a4256b5b578f1c2a01dd2b605f9aca4905db839d008cfd29cac0",
+      "sourceBytes": 1,
+      "sourceSha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "colOwnership": null,
+      "firstTsn": null,
+      "lastTsn": null
+    }
+  },
+  "deliveryContract": {
+    "pagesLight": "Pages needs only this small descriptor and may omit all row-level JSONL gzip shards.",
+    "androidIosFull": "Android and iOS complete-data inventories must include the descriptor and every listed row-level shard as the same checksum-addressed bytes.",
+    "runtimeChange": "This import deliberately changes no formal runtime or published release manifest."
+  },
+  "generatedBy": {
+    "scriptPath": "scripts/build-itis-phoronida-sidecar.mjs",
+    "scriptSha256": "4fdd96e37ca18f13388099a72dfa857f18f28d1988b282ed00a504674be12e2f",
+    "deterministic": "Pinned input checksums, fixed roots, exact SQL, exact representation-only normalization, code-unit ID ordering and deterministic gzip; no wall-clock fields or fuzzy matching."
+  }
+}
