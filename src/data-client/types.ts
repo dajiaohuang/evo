@@ -289,6 +289,8 @@ export type RuntimeItisNomenclatureCollectionId =
   | 'itis-insecta-tsn-crosswalk'
   | 'itis-myriapoda-tsn-crosswalk'
   | 'itis-chelicerata-tsn-crosswalk'
+  | 'itis-reptilia-tsn-crosswalk'
+  | 'itis-crocodylia-tsn-crosswalk'
 
 export type RuntimeItisPackageScope =
   | 'mollusca-brachiopoda'
@@ -298,6 +300,8 @@ export type RuntimeItisPackageScope =
   | 'insecta'
   | 'myriapoda'
   | 'chelicerata'
+  | 'reptilia-non-crocodylia'
+  | 'crocodylia'
 
 export interface RuntimeItisNomenclatureCollection {
   schemaVersion: 1
