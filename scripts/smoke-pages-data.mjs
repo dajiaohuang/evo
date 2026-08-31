@@ -460,6 +460,7 @@ if (maps.schemaVersion >= 8) {
     || collection?.delivery?.profile !== 'web-preview'
     || collection?.delivery?.resolutionDegrees !== 0.3
     || collection?.delivery?.gridBytes !== 24847071
+    || collection?.totals?.webPreviewGridGzipBytes !== 24847071
     || collection?.visualization?.preGeneratedTiles !== 0) {
     failures.push('palaeotopography Web preview source, license, delivery profile or complete-series boundary is invalid')
   } else {

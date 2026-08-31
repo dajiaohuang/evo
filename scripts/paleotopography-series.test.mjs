@@ -87,7 +87,7 @@ describe('complete Scotese–Wright PaleoDEM series', () => {
     expect(compressedBytes).toBe(168418483)
     expect(decodedBytes).toBe(1413817418)
     expect(previewCompressedBytes).toBe(24847071)
-    expect(previewDecodedBytes).toBe(109 * 1201 * 601 * 2)
+  expect(previewDecodedBytes).toBe(157352618)
     expect(manifest.totals).toMatchObject({
       frames: 109,
       independentGridGzipBytes: compressedBytes,

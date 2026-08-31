@@ -1203,7 +1203,7 @@ function publishPaleotopographySeries() {
       maximumNativeZoom: nativeFull ? 4 : 2,
       maximumZoomGroundSampling: nativeFull
         ? 'approximately 0.088 degrees per display pixel at the equator'
-        : 'approximately 0.352 degrees per display pixel at the equator; source preview samples are spaced 0.5 degrees',
+        : 'approximately 0.352 degrees per display pixel at the equator; source preview samples are spaced 0.3 degrees',
     },
     totals,
     scientificLimitations: paleotopographySource.scientificLimitations,
