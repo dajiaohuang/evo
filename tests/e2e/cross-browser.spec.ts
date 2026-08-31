@@ -1,4 +1,9 @@
-import { expect, test } from '@playwright/test'
+import { expect, test, type Page } from '@playwright/test'
+
+const currentDatasetVersion = async (page: Page) => page.evaluate(async () => {
+  const current = await fetch('/evo/data/current.json', { cache: 'no-store' }).then((response) => response.json()) as { datasetVersion: string }
+  return current.datasetVersion
+})
 
 test.beforeEach(async ({ page }) => {
   await page.addInitScript(() => {
@@ -39,7 +44,8 @@ test('@cross-browser static knowledge pages expose metadata and a working app ha
 
 test('@cross-browser Explorer restores a versioned share state', async ({ page }) => {
   await page.goto('./#/explore?age=34&view=tree&taxon=perissodactyla')
+  const datasetVersion = await currentDatasetVersion(page)
   await expect(page.getByRole('button', { name: 'Tree', exact: true })).toHaveClass(/is-active/)
   await expect(page.getByText('34.0', { exact: true })).toBeVisible()
-    await expect.poll(() => page.url()).toContain('dataset=2026.08-static-v5-rc72')
+  await expect.poll(() => page.url()).toContain(`dataset=${datasetVersion}`)
 })
