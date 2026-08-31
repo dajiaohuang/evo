@@ -195,7 +195,6 @@ const richPackageNomenclatureSources = {
     colIdField: 'colUsageId',
   }],
   actinopterygii: [{
-  actinopterygii: [{
     kind: 'range-sharded',
     descriptorPath: 'data/packages/vertebrata/actinopterygii/nomenclature/itis-actinopterygii-sidecar.json',
     expectedId: 'itis-actinopterygii-tsn-crosswalk',
@@ -213,7 +212,6 @@ const richPackageNomenclatureSources = {
     rowEncoding: 'jsonl',
     colIdField: 'colUsageId',
   }],
-  chondrichthyes: [{
   chondrichthyes: [{
     kind: 'range-sharded',
     descriptorPath: 'data/packages/vertebrata/chondrichthyes/nomenclature/itis-chondrichthyes-sidecar.json',

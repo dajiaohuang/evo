@@ -1,5 +1,7 @@
 # ITIS fish authority sidecars
 
+Release `2026.08-static-v5-rc74` / app `0.20.25` / Android and iOS build `28` delivers the four collections and native-full contract documented below.
+
 This note defines the frozen, exact-only ITIS nomenclatural sidecars for the four
 living-fish scopes currently delivered by Evo Atlas. It is a delivery and
 provenance record, not a replacement classification, a fish-diversity census, a

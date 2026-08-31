@@ -1,5 +1,12 @@
 # Dataset changelog
 
+## App 0.20.25 / 2026.08-static-v5-rc74 — 2026-08-31
+
+- Added fixed, exact ITIS `2026-08-26` CC0 authority sidecars for Actinopterygii, Chondrichthyes, the nested Agnatha/Myxini union, and the eight living Sarcopterygii rows routed to `tetrapod-transition`. Their disjoint COL26.8 scopes contain 37,436 explicit outcomes: 25,135 exact current names, 377 official synonym redirects, 15 ambiguities, and 11,909 unmatched records.
+- Preserved 3,932 current ITIS-only species in separate null-COL partitions, producing 41,368 native authority records across 29 non-empty deterministic JSONL gzip shards. Myxini is not double-counted inside Agnatha, and the Sarcopterygii boundary does not claim that the package's eight routed rows are the full living superclass.
+- Kept Pages deployable through `web-light`: package manifests publish sources, roots, methods, counts, limitations, and all 29 canonical byte/SHA-256 records without row shards. Android and iOS build `28` use `native-full`, bundle every descriptor and row shard byte-for-byte, and verify release-inventory parity.
+- Kept the historical FishBase identifier sidecar independent from ITIS because its source, licence, scope, and identifier semantics differ. Added typed single-range lookup contracts, platform tests, and [`docs/itis-fish-authority.md`](../docs/itis-fish-authority.md).
+
 ## App 0.20.24 / 2026.08-static-v5-rc73 — 2026-08-31
 
 - Added fixed, exact ITIS `2026-08-26` CC0 authority sidecars for the five declared Mammalia partitions: Perissodactyla, Cetartiodactyla, Primates, Carnivora, and Other mammals. Their COL26.8 scopes contain 6,461 explicit outcomes: 6,460 current-name matches, one ambiguity, and no redirects or unmatched rows; three current ITIS-only species remain in a separate null-COL partition.
