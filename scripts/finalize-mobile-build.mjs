@@ -89,6 +89,18 @@ if (!itisAmphibia || itisAmphibia.provider !== 'Integrated Taxonomic Information
   || itisAmphibia.upstreamOnlyFiles.reduce((sum, file) => sum + file.records, 0) !== 8) {
   throw new Error('Mobile build must stage the complete ITIS Amphibia authority collection')
 }
+const catalogueManifest = JSON.parse(readFileSync(join(sourceDataRoot, ...current.catalogue.manifest.url.split('/')), 'utf8'))
+const protistsDescriptor = catalogueManifest.resourcePacks?.manifests?.['protists-chromists']
+if (!protistsDescriptor?.url) throw new Error('Mobile build is missing the protists-chromists resource-pack manifest')
+const protistsManifest = JSON.parse(readFileSync(join(sourceDataRoot, ...protistsDescriptor.url.split('/')), 'utf8'))
+const foraminifera = protistsManifest.extensions?.find((extension) => extension.id === 'foraminifera-wfd-identifiers')
+if (!foraminifera || foraminifera.provider !== 'World Foraminifera Database (WoRMS) through ChecklistBank'
+  || foraminifera.delivery?.profile !== 'native-full' || foraminifera.delivery?.completeRows !== true
+  || foraminifera.files?.length !== 5 || foraminifera.delivery?.publishedFileCount !== 5
+  || foraminifera.delivery?.canonicalFileCount !== 5
+  || foraminifera.files.reduce((sum, file) => sum + file.records, 0) !== 47975) {
+  throw new Error('Mobile build must stage the complete Foraminifera WFD authority collection')
+}
 
 const interactiveFiles = releaseFiles.files.filter((file) => !file.url.includes('/downloads/'))
 const bootstrapFiles = ['current.json', 'releases.json', release.filesIndex]

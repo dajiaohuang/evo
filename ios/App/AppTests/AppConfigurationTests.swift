@@ -214,6 +214,7 @@ final class AppConfigurationTests: XCTestCase {
         var resourcePackRecords = 0
         var lpsnIdentifierRecords = 0
         var indexFungorumIdentifierRecords = 0
+        var foraminiferaAuthorityRecords = 0
         var ictvSpeciesRecords = 0
         var ictvIsolateRecords = 0
         var wfoSupplementRecords = 0
@@ -282,6 +283,25 @@ final class AppConfigurationTests: XCTestCase {
                     try verifyBundled(record: inventoryRecord, below: dataRoot)
                     indexFungorumIdentifierRecords += try XCTUnwrap(extensionFile["records"] as? Int)
                 }
+            } else if packageId == "protists-chromists" {
+                let extensions = try XCTUnwrap(pack["extensions"] as? [[String: Any]])
+                XCTAssertEqual(extensions.count, 1)
+                let authority = try XCTUnwrap(extensions.first)
+                XCTAssertEqual(authority["id"] as? String, "foraminifera-wfd-identifiers")
+                XCTAssertEqual(authority["provider"] as? String, "World Foraminifera Database (WoRMS) through ChecklistBank")
+                let delivery = try XCTUnwrap(authority["delivery"] as? [String: Any])
+                XCTAssertEqual(delivery["profile"] as? String, "native-full")
+                XCTAssertEqual(delivery["completeRows"] as? Bool, true)
+                let extensionFiles = try XCTUnwrap(authority["files"] as? [[String: Any]])
+                XCTAssertEqual(extensionFiles.count, 5)
+                for extensionFile in extensionFiles {
+                    let path = try XCTUnwrap(extensionFile["url"] as? String)
+                    let inventoryRecord = try XCTUnwrap(files.first { ($0["url"] as? String) == path }, "Foraminifera authority shard missing from native release inventory")
+                    XCTAssertEqual(extensionFile["bytes"] as? Int, inventoryRecord["bytes"] as? Int)
+                    XCTAssertEqual(extensionFile["sha256"] as? String, inventoryRecord["sha256"] as? String)
+                    try verifyBundled(record: inventoryRecord, below: dataRoot)
+                    foraminiferaAuthorityRecords += try XCTUnwrap(extensionFile["records"] as? Int)
+                }
             } else if packageId == "viruses" {
                 let extensions = try XCTUnwrap(pack["extensions"] as? [[String: Any]])
                 XCTAssertEqual(extensions.count, 1)
@@ -338,6 +358,7 @@ final class AppConfigurationTests: XCTestCase {
         XCTAssertEqual(resourcePackRecords, 363_160)
         XCTAssertEqual(lpsnIdentifierRecords, 22_360)
         XCTAssertEqual(indexFungorumIdentifierRecords, 157_044)
+        XCTAssertEqual(foraminiferaAuthorityRecords, 47_975)
         XCTAssertEqual(ictvSpeciesRecords, 17_554)
         XCTAssertEqual(ictvIsolateRecords, 19_285)
         XCTAssertEqual(wfoSupplementRecords, 61_449)

@@ -1138,24 +1138,46 @@ for (const sourcePackDescriptor of catalogueResourcePacksSourceManifest.packs) {
     throw new Error(`${sourcePack.packageId}: catalogue resource-pack shard counts do not match its manifest`)
   }
   const runtimeExtensions = (sourcePack.extensions ?? []).map((extension) => {
-    const extensionFiles = extension.files.map((sourceFile) => {
+    const canonicalExtensionFiles = extension.files.map((sourceFile) => {
       const sourcePath = join(catalogueResourcePacksSourceRoot, ...sourceFile.path.split('/'))
-      const written = write(`catalogue/resource-packs/${sourceFile.path}`, readFileSync(sourcePath))
-      if (written.sha256 !== sourceFile.sha256 || written.bytes !== sourceFile.bytes) {
+      const sourceBytes = readFileSync(sourcePath)
+      if (sha256(sourceBytes) !== sourceFile.sha256 || sourceBytes.byteLength !== sourceFile.bytes) {
         throw new Error(`${sourcePack.packageId}/${extension.id}: extension shard changed without rebuilding its manifest: ${sourceFile.path}`)
       }
-      return { ...sourceFile, url: written.url }
+      return { sourceFile, sourceBytes }
     })
     const expectedExtensionRecords = extension.counts.resolved ?? extension.counts.officialSpecies ?? extension.counts.records ?? extension.counts.accepted
     if (!Number.isInteger(expectedExtensionRecords)
-      || extensionFiles.reduce((sum, file) => sum + file.records, 0) !== expectedExtensionRecords) {
+      || canonicalExtensionFiles.reduce((sum, entry) => sum + entry.sourceFile.records, 0) !== expectedExtensionRecords) {
       throw new Error(`${sourcePack.packageId}/${extension.id}: extension shard counts do not match its manifest`)
     }
-    return { ...extension, files: extensionFiles }
+    const profileContract = extension.deliveryProfiles?.[deliveryProfile]
+    if (extension.deliveryProfiles && (!profileContract
+      || profileContract.records !== (deliveryProfile === 'native-full' ? expectedExtensionRecords : 0)
+      || profileContract.files.length !== (deliveryProfile === 'native-full' ? canonicalExtensionFiles.length : 0))) {
+      throw new Error(`${sourcePack.packageId}/${extension.id}: delivery profile does not match the canonical extension inventory`)
+    }
+    const publishRows = !extension.deliveryProfiles || deliveryProfile === 'native-full'
+    const extensionFiles = publishRows ? canonicalExtensionFiles.map(({ sourceFile, sourceBytes }) => ({
+      ...sourceFile,
+      ...write(`catalogue/resource-packs/${sourceFile.path}`, sourceBytes),
+    })) : []
+    return {
+      ...extension,
+      canonicalFileInventory: extension.files,
+      files: extensionFiles,
+      delivery: {
+        profile: deliveryProfile,
+        completeRows: publishRows,
+        publishedFileCount: extensionFiles.length,
+        canonicalFileCount: canonicalExtensionFiles.length,
+      },
+    }
   })
   const runtimeExtensionFileCount = runtimeExtensions.reduce((sum, extension) => sum + extension.files.length, 0)
+  const canonicalExtensionFileCount = runtimeExtensions.reduce((sum, extension) => sum + extension.delivery.canonicalFileCount, 0)
   if (runtimeExtensions.length !== (sourcePackDescriptor.extensionCount ?? 0)
-    || runtimeExtensionFileCount !== (sourcePackDescriptor.extensionFileCount ?? 0)) {
+    || canonicalExtensionFileCount !== (sourcePackDescriptor.extensionFileCount ?? 0)) {
     throw new Error(`${sourcePack.packageId}: resource-pack extensions do not match the collection manifest`)
   }
   const runtimePackManifest = {
@@ -1170,7 +1192,11 @@ for (const sourcePackDescriptor of catalogueResourcePacksSourceManifest.packs) {
     ...runtimeManifestFile,
     acceptedSpeciesCount: sourcePack.acceptedSpeciesCount,
     fileCount: runtimeFiles.length,
-    ...(runtimeExtensions.length ? { extensionCount: runtimeExtensions.length, extensionFileCount: runtimeExtensionFileCount } : {}),
+    ...(runtimeExtensions.length ? {
+      extensionCount: runtimeExtensions.length,
+      extensionFileCount: runtimeExtensionFileCount,
+      canonicalExtensionFileCount,
+    } : {}),
   }
   catalogueResourcePackAcceptedSpecies += sourcePack.acceptedSpeciesCount
 

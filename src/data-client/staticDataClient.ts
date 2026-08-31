@@ -649,6 +649,38 @@ export async function loadCatalogueIndexFungorumIdentifier(colId: string): Promi
   return record ? { extension, record } : null
 }
 
+export async function loadCatalogueForaminiferaAuthorityRecord(colId: string): Promise<{
+  extension: import('./types').CatalogueForaminiferaResourcePackExtension
+  record: import('./types').CatalogueForaminiferaAuthorityRecord
+} | null> {
+  const manifest = await loadCatalogueResourcePackManifest('protists-chromists')
+  const extension = manifest.extensions?.find((candidate): candidate is import('./types').CatalogueForaminiferaResourcePackExtension => candidate.id === 'foraminifera-wfd-identifiers')
+  if (!extension || extension.provider !== 'World Foraminifera Database (WoRMS) through ChecklistBank'
+    || extension.recordType !== 'external-name-identifier-crosswalk'
+    || extension.source.license !== 'CC-BY-4.0'
+    || extension.integration.lookup.strategy !== 'lexicographic-colId-range-v1'
+    || extension.counts.eligible !== 47975 || extension.counts.resolved !== 47975
+    || extension.counts.accepted !== 47975 || extension.counts.withheld !== 0
+    || extension.delivery.canonicalFileCount !== 5) {
+    throw new Error('Foraminifera WFD authority extension does not match the pinned COL26.8 resource pack')
+  }
+  if (!extension.delivery.completeRows || extension.delivery.profile !== 'native-full') {
+    throw new Error('Foraminifera row-level records are available in the full Android/iOS data profile; Web publishes the verified coverage summary only')
+  }
+  const file = selectIndexFungorumShard(extension.files, colId)
+  const records = await loadRuntimeFile<import('./types').CatalogueForaminiferaAuthorityRecord[]>(file)
+  if (records.length !== file.records || records[0]?.colId !== file.minColId || records.at(-1)?.colId !== file.maxColId
+    || records.some((record, index) => record.status !== 'accepted'
+      || record.sourceDatasetId !== '1157'
+      || !/^\d+$/.test(record.sourceAphiaId)
+      || record.sourceUrl !== `https://www.marinespecies.org/foraminifera/aphia.php?p=taxdetails&id=${record.sourceAphiaId}`
+      || (index > 0 && compareCodeUnits(records[index - 1].colId, record.colId) >= 0))) {
+    throw new Error('Foraminifera WFD authority shard contents do not match its range descriptor')
+  }
+  const record = records.find((candidate) => candidate.colId === colId)
+  return record ? { extension, record } : null
+}
+
 export async function loadCatalogueWfoPlantSupplement(): Promise<{
   extension: import('./types').CatalogueWfoPlantResourcePackExtension
   records: import('./types').WfoPlantRecord[]

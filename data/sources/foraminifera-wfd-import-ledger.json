@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "importType": "COL26.8-to-WoRMS-Foraminifera-exact-source-record-crosswalk",
+  "generatedFrom": {
+    "sourcePath": "data/sources/foraminifera-wfd-col26.8-crosswalk.json.gz",
+    "sourceSha256": "a6c29b160fb6a7be1da50661ccb4007a0faabc65b68ba4a61690c6d9336b8b62",
+    "colRegistryManifestPath": "data/catalogue-of-life/releases/2026-08-20/registry/manifest.json",
+    "colRegistryManifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151",
+    "retrievalDate": "2026-08-31"
+  },
+  "scope": "COL26.8 strict accepted species descending from root usage C (Chromista) whose sourceDatasetId is 1157 (World Foraminifera Database).",
+  "totals": {
+    "acceptedSpecies": 47975,
+    "sourceRecords": 86094,
+    "sourceAcceptedSpecies": 48154,
+    "linkedSourceRecords": 47975,
+    "accepted": 47975,
+    "redirects": 0
+  },
+  "upstreamOnly": {
+    "status": "not-asserted",
+    "reason": "ChecklistBank exposes a complete date-pinned nameusage page set, but no immutable downloadable WFD archive was available. The accepted-species inventory digest is retained for audit; this release does not redistribute or claim a complete upstream-only set.",
+    "acceptedSpeciesInventoryCount": 48154,
+    "acceptedSpeciesInventorySha256": "08c15f3afab6b0a84754e912704aa5d800e185d25c0cb5e948cd2c69d083c92d",
+    "observedUnlinkedAcceptedSpeciesCount": 179
+  },
+  "output": {
+    "path": "data/sources/foraminifera-wfd-col26.8-crosswalk.json.gz",
+    "bytes": 6288967,
+    "sha256": "a6c29b160fb6a7be1da50661ccb4007a0faabc65b68ba4a61690c6d9336b8b62",
+    "sourceBytes": 51686657,
+    "sourceSha256": "84a767144012e0c4f80a65d4fc4bed4442e55b9654dcfc77b77c340b53c77068",
+    "encoding": "gzip",
+    "mediaType": "application/json"
+  },
+  "generatedBy": {
+    "scriptPath": "scripts/fetch-foraminifera-authority-sidecar.mjs",
+    "scriptSha256": "261862f14684a939a363b25dc63c8df888c107375d0efc9f49a42222ce82f0c2",
+    "deterministic": "Pinned COL registry bytes, explicit retrieval date, complete source pages, exact relation URLs and response digests, stable record ordering and deterministic gzip."
+  }
+}

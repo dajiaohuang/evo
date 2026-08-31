@@ -851,6 +851,63 @@ describe('static runtime release coherence', () => {
     expect(fetchMock.mock.calls.some(([input]) => String(input).endsWith(files[2].url))).toBe(false)
   })
 
+  it('loads one native Foraminifera range shard and refuses summary-only Web rows', async () => {
+    Object.defineProperty(globalThis, 'Worker', { configurable: true, value: undefined })
+    const record = {
+      colId: 'M001', sourceDatasetId: '1157', colScientificName: 'Foramina testata', sourceId: 'urn:lsid:marinespecies.org:taxname:760406',
+      sourceAphiaId: '760406', sourceUrl: 'https://www.marinespecies.org/foraminifera/aphia.php?p=taxdetails&id=760406',
+      scientificName: 'Foramina testata', rank: 'species', status: 'accepted', acceptedSourceId: null,
+      acceptedScientificName: null, acceptedSourceUrl: null, mappingBasis: 'checklistbank-source-record', sourceResponseSha256: 'a'.repeat(64),
+    } as const
+    const body = `${JSON.stringify(record)}\n`
+    const file = {
+      path: 'protists-chromists/foraminifera-wfd-000.jsonl.gz',
+      url: 'releases/dataset-foraminifera/catalogue/resource-packs/protists-chromists/foraminifera-wfd-000.jsonl',
+      records: 1, bytes: new TextEncoder().encode(body).byteLength, sourceBytes: new TextEncoder().encode(body).byteLength,
+      sha256: await sha256Text(body), sourceSha256: await sha256Text(body), mediaType: 'application/x-ndjson' as const,
+      minColId: 'M001', maxColId: 'M001',
+    }
+    const extension = {
+      id: 'foraminifera-wfd-identifiers', recordType: 'external-name-identifier-crosswalk', provider: 'World Foraminifera Database (WoRMS) through ChecklistBank',
+      source: { license: 'CC-BY-4.0' },
+      counts: { eligible: 47975, resolved: 47975, acceptedSpecies: 47975, accepted: 47975, redirects: 0, ambiguous: 0, unmatched: 0, withheld: 0, upstreamOnly: null },
+      files: [file], canonicalFileInventory: [file],
+      delivery: { profile: 'native-full', completeRows: true, publishedFileCount: 1, canonicalFileCount: 5 },
+      integration: { lookup: { strategy: 'lexicographic-colId-range-v1' } },
+    }
+    const packManifest = { schemaVersion: 1, packageType: 'static-nomenclatural-resource-pack', packageId: 'protists-chromists', version: 'dataset-foraminifera', source: { releaseAlias: 'COL26.8' }, acceptedSpeciesCount: 61518, extensions: [extension] }
+    const packFile = { url: 'releases/dataset-foraminifera/catalogue/resource-packs/protists-chromists/manifest.json', acceptedSpeciesCount: 61518, sha256: await sha256(packManifest) }
+    const catalogueManifest = { releaseAlias: 'COL26.8', counts: { acceptedSpecies: 2183133 }, resourcePacks: { manifests: { 'protists-chromists': packFile } } }
+    const catalogueFile = { url: 'releases/dataset-foraminifera/catalogue/manifest.json', sha256: await sha256(catalogueManifest) }
+    const current = { datasetVersion: 'dataset-foraminifera', releaseBase: 'releases/dataset-foraminifera/', catalogue: { manifest: catalogueFile, releaseAlias: 'COL26.8', acceptedSpecies: 2183133 } }
+    const fetchMock = vi.fn(async (input: RequestInfo | URL) => {
+      const url = String(input)
+      if (url.endsWith('/data/current.json')) return responseFor(current)
+      if (url.endsWith(catalogueFile.url)) return responseFor(catalogueManifest)
+      if (url.endsWith(packFile.url)) return responseFor(packManifest)
+      return url.endsWith(file.url) ? textResponseFor(body) : { ok: false, status: 404, arrayBuffer: async () => new ArrayBuffer(0) }
+    })
+    vi.stubGlobal('fetch', fetchMock)
+    const { loadCatalogueForaminiferaAuthorityRecord } = await import('./staticDataClient')
+    await expect(loadCatalogueForaminiferaAuthorityRecord('M001')).resolves.toMatchObject({ record })
+    expect(fetchMock.mock.calls.filter(([input]) => String(input).includes('foraminifera-wfd-'))).toHaveLength(1)
+
+    vi.resetModules()
+    const webExtension = { ...extension, files: [], delivery: { profile: 'web-light', completeRows: false, publishedFileCount: 0, canonicalFileCount: 5 } }
+    const webPack = { ...packManifest, extensions: [webExtension] }
+    const webPackFile = { ...packFile, sha256: await sha256(webPack) }
+    const webCatalogue = { ...catalogueManifest, resourcePacks: { manifests: { 'protists-chromists': webPackFile } } }
+    const webCatalogueFile = { ...catalogueFile, sha256: await sha256(webCatalogue) }
+    vi.stubGlobal('fetch', vi.fn(async (input: RequestInfo | URL) => {
+      const url = String(input)
+      if (url.endsWith('/data/current.json')) return responseFor({ ...current, catalogue: { ...current.catalogue, manifest: webCatalogueFile } })
+      if (url.endsWith(catalogueFile.url)) return responseFor(webCatalogue)
+      return responseFor(webPack)
+    }))
+    const webClient = await import('./staticDataClient')
+    await expect(webClient.loadCatalogueForaminiferaAuthorityRecord('M001')).rejects.toThrow('full Android/iOS data profile')
+  })
+
   it('loads only the requested direct children from a shared parent-hash shard and caches it', async () => {
     const { catalogueRoutePrefix, loadCatalogueChildren } = await import('./staticDataClient')
     const parentId = 'parent-a'
