@@ -143,6 +143,10 @@ public class AppInstrumentedTest {
         int richItisNomenclatureRecords = 0;
         int arthropodItisFiles = 0;
         int arthropodItisNomenclatureRecords = 0;
+        int reptiliaItisFiles = 0;
+        int reptiliaItisNomenclatureRecords = 0;
+        int crocodyliaItisFiles = 0;
+        int crocodyliaItisNomenclatureRecords = 0;
         int wfoRichRecords = 0;
         Iterator<String> richPackageIds = richManifests.keys();
         while (richPackageIds.hasNext()) {
@@ -265,18 +269,26 @@ public class AppInstrumentedTest {
                 }
                 assertEquals(8923, collection.getJSONObject("counts").getInt("total"));
                 assertEquals(8, collection.getJSONObject("counts").getInt("itisUpstreamOnly"));
-            } else if (packageId.equals("crocodylomorphs-birds")) {
+            } else if (packageId.equals("turtles-lepidosaurs")) {
                 JSONArray collections = pack.getJSONArray("nomenclatureCollections");
                 assertEquals(1, collections.length());
-                JSONObject collection = collections.getJSONObject(0);
-                assertEquals("avilist-v2025b-avibase-concepts", collection.getString("id"));
-                assertEquals("AviList Core Team", collection.getString("provider"));
-                JSONObject delivery = collection.getJSONObject("delivery");
+                richItisNomenclatureRecords += verifyRichItisCollection(context, files,
+                        findCollection(collections, "itis-reptilia-tsn-crosswalk"),
+                        9, 1, 12622, 655, "ITIS non-Crocodylia Reptilia");
+                reptiliaItisFiles += 10;
+                reptiliaItisNomenclatureRecords += 13277;
+            } else if (packageId.equals("crocodylomorphs-birds")) {
+                JSONArray collections = pack.getJSONArray("nomenclatureCollections");
+                assertEquals(2, collections.length());
+                JSONObject avilist = findCollection(collections, "avilist-v2025b-avibase-concepts");
+                assertNotNull("AviList collection missing", avilist);
+                assertEquals("AviList Core Team", avilist.getString("provider"));
+                JSONObject delivery = avilist.getJSONObject("delivery");
                 assertEquals("native-full", delivery.getString("profile"));
                 assertTrue(delivery.getBoolean("completeRows"));
                 JSONArray allFiles = new JSONArray();
-                JSONArray colFiles = collection.getJSONArray("files");
-                JSONArray upstreamFiles = collection.getJSONArray("upstreamOnlyFiles");
+                JSONArray colFiles = avilist.getJSONArray("files");
+                JSONArray upstreamFiles = avilist.getJSONArray("upstreamOnlyFiles");
                 for (int index = 0; index < colFiles.length(); index += 1) allFiles.put(colFiles.getJSONObject(index));
                 for (int index = 0; index < upstreamFiles.length(); index += 1) allFiles.put(upstreamFiles.getJSONObject(index));
                 assertEquals(4, allFiles.length());
@@ -288,8 +300,13 @@ public class AppInstrumentedTest {
                     assertEquals(file.getString("sha256"), inventoryRecord.getString("sha256"));
                     verifyAssetRecord(context, inventoryRecord);
                 }
-                assertEquals(11071, collection.getJSONObject("counts").getInt("packageAcceptedSpecies"));
-                assertEquals(609, collection.getJSONObject("counts").getInt("upstreamOnly"));
+                assertEquals(11071, avilist.getJSONObject("counts").getInt("packageAcceptedSpecies"));
+                assertEquals(609, avilist.getJSONObject("counts").getInt("upstreamOnly"));
+                richItisNomenclatureRecords += verifyRichItisCollection(context, files,
+                        findCollection(collections, "itis-crocodylia-tsn-crosswalk"),
+                        1, 0, 27, 0, "ITIS Crocodylia");
+                crocodyliaItisFiles += 1;
+                crocodyliaItisNomenclatureRecords += 27;
             } else {
                 assertTrue("only the declared authority-backed rich packages may carry nomenclature collections", !pack.has("nomenclatureCollections"));
             }
@@ -298,9 +315,13 @@ public class AppInstrumentedTest {
         assertEquals(34, researchClaimLinks);
         assertEquals(2, phylogenyPackages);
         assertEquals(11891, wormsNomenclatureRecords);
-        assertEquals(202206, richItisNomenclatureRecords);
+        assertEquals(214855, richItisNomenclatureRecords);
         assertEquals(161, arthropodItisFiles);
         assertEquals(1178341, arthropodItisNomenclatureRecords);
+        assertEquals(10, reptiliaItisFiles);
+        assertEquals(13277, reptiliaItisNomenclatureRecords);
+        assertEquals(1, crocodyliaItisFiles);
+        assertEquals(27, crocodyliaItisNomenclatureRecords);
         assertEquals(387988, wfoRichRecords);
 
         JSONObject catalogueDescriptor = current.getJSONObject("catalogue").getJSONObject("manifest");

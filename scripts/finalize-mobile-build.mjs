@@ -123,16 +123,35 @@ const expectedRichItisCollections = {
       arthropod: true,
     },
   },
+  'turtles-lepidosaurs': {
+    'itis-reptilia-tsn-crosswalk': {
+      files: 9, upstreamFiles: 1, records: 12622, upstreamRecords: 655,
+      descriptorSha256: 'ef0a4262e33c482cf05e6bd148d188874a17470926c3475dc09a1734307dab48',
+      reptilia: true,
+    },
+  },
+  'crocodylomorphs-birds': {
+    'itis-crocodylia-tsn-crosswalk': {
+      files: 1, upstreamFiles: 0, records: 27, upstreamRecords: 0,
+      descriptorSha256: 'da73286df329505cd95c5a47162995dd77ac1e328cd75ee83494e18822782a1e',
+      crocodylia: true,
+    },
+  },
 }
 let arthropodItisFiles = 0
 let arthropodItisRecords = 0
+let reptiliaItisFiles = 0
+let reptiliaItisRecords = 0
+let crocodyliaItisFiles = 0
+let crocodyliaItisRecords = 0
 for (const [packageId, expectedCollections] of Object.entries(expectedRichItisCollections)) {
   const descriptor = current.packages?.manifests?.[packageId]
   if (!descriptor?.url) throw new Error(`Mobile build is missing the ${packageId} package manifest`)
   const manifest = JSON.parse(readFileSync(join(sourceDataRoot, ...descriptor.url.split('/')), 'utf8'))
   const collections = manifest.nomenclatureCollections
   if (!Array.isArray(collections)) throw new Error(`Mobile build is missing ${packageId} nomenclature collections`)
-  if (collections.length !== Object.keys(expectedCollections).length + (packageId === 'echinoderms' ? 1 : 0)) {
+  const additionalAuthorityCollections = packageId === 'echinoderms' || packageId === 'crocodylomorphs-birds' ? 1 : 0
+  if (collections.length !== Object.keys(expectedCollections).length + additionalAuthorityCollections) {
     throw new Error(`Mobile build has an unexpected ${packageId} nomenclature collection count`)
   }
   for (const [id, expected] of Object.entries(expectedCollections)) {
@@ -177,6 +196,14 @@ for (const [packageId, expectedCollections] of Object.entries(expectedRichItisCo
       arthropodItisFiles += expected.files + expected.upstreamFiles
       arthropodItisRecords += expected.records + expected.upstreamRecords
     }
+    if (expected.reptilia) {
+      reptiliaItisFiles += expected.files + expected.upstreamFiles
+      reptiliaItisRecords += expected.records + expected.upstreamRecords
+    }
+    if (expected.crocodylia) {
+      crocodyliaItisFiles += expected.files + expected.upstreamFiles
+      crocodyliaItisRecords += expected.records + expected.upstreamRecords
+    }
   }
   if (packageId === 'echinoderms') {
     const worms = collections.find((entry) => entry.id === 'worms-aphiaid-crosswalk')
@@ -191,6 +218,12 @@ for (const [packageId, expectedCollections] of Object.entries(expectedRichItisCo
 }
 if (arthropodItisFiles !== 161 || arthropodItisRecords !== 1178341) {
   throw new Error(`Mobile build must stage 161 arthropod ITIS files and 1178341 records; found ${arthropodItisFiles} files and ${arthropodItisRecords} records`)
+}
+if (reptiliaItisFiles !== 10 || reptiliaItisRecords !== 13277) {
+  throw new Error(`Mobile build must stage 10 non-Crocodylia Reptilia ITIS files and 13277 records; found ${reptiliaItisFiles} files and ${reptiliaItisRecords} records`)
+}
+if (crocodyliaItisFiles !== 1 || crocodyliaItisRecords !== 27) {
+  throw new Error(`Mobile build must stage one Crocodylia ITIS file with 27 records; found ${crocodyliaItisFiles} files and ${crocodyliaItisRecords} records`)
 }
 const catalogueManifest = JSON.parse(readFileSync(join(sourceDataRoot, ...current.catalogue.manifest.url.split('/')), 'utf8'))
 const otherAnimalsDescriptor = catalogueManifest.resourcePacks?.manifests?.['other-animals']

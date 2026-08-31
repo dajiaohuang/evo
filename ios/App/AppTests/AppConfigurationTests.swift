@@ -103,6 +103,10 @@ final class AppConfigurationTests: XCTestCase {
         var richItisNomenclatureRecords = 0
         var arthropodItisFiles = 0
         var arthropodItisNomenclatureRecords = 0
+        var reptiliaItisFiles = 0
+        var reptiliaItisNomenclatureRecords = 0
+        var crocodyliaItisFiles = 0
+        var crocodyliaItisNomenclatureRecords = 0
         var wfoRichRecords = 0
         for (packageId, manifestDescriptor) in packageDescriptors {
             let manifestPath = try XCTUnwrap(manifestDescriptor["url"] as? String)
@@ -217,17 +221,25 @@ final class AppConfigurationTests: XCTestCase {
                 }
                 XCTAssertEqual((collection["counts"] as? [String: Any])?["total"] as? Int, 8_923)
                 XCTAssertEqual((collection["counts"] as? [String: Any])?["itisUpstreamOnly"] as? Int, 8)
-            } else if packageId == "crocodylomorphs-birds" {
+            } else if packageId == "turtles-lepidosaurs" {
                 let collections = try XCTUnwrap(package["nomenclatureCollections"] as? [[String: Any]])
                 XCTAssertEqual(collections.count, 1)
-                let collection = try XCTUnwrap(collections.first)
-                XCTAssertEqual(collection["id"] as? String, "avilist-v2025b-avibase-concepts")
-                XCTAssertEqual(collection["provider"] as? String, "AviList Core Team")
-                let delivery = try XCTUnwrap(collection["delivery"] as? [String: Any])
+                richItisNomenclatureRecords += try verifyRichItisCollection(
+                    collection: try XCTUnwrap(collections.first { ($0["id"] as? String) == "itis-reptilia-tsn-crosswalk" }),
+                    inventory: files, below: dataRoot, expectedFiles: 9, expectedUpstreamFiles: 1,
+                    expectedRecords: 12_622, expectedUpstreamRecords: 655, label: "ITIS non-Crocodylia Reptilia")
+                reptiliaItisFiles += 10
+                reptiliaItisNomenclatureRecords += 13_277
+            } else if packageId == "crocodylomorphs-birds" {
+                let collections = try XCTUnwrap(package["nomenclatureCollections"] as? [[String: Any]])
+                XCTAssertEqual(collections.count, 2)
+                let avilist = try XCTUnwrap(collections.first { ($0["id"] as? String) == "avilist-v2025b-avibase-concepts" })
+                XCTAssertEqual(avilist["provider"] as? String, "AviList Core Team")
+                let delivery = try XCTUnwrap(avilist["delivery"] as? [String: Any])
                 XCTAssertEqual(delivery["profile"] as? String, "native-full")
                 XCTAssertEqual(delivery["completeRows"] as? Bool, true)
-                let colFiles = try XCTUnwrap(collection["files"] as? [[String: Any]])
-                let upstreamFiles = try XCTUnwrap(collection["upstreamOnlyFiles"] as? [[String: Any]])
+                let colFiles = try XCTUnwrap(avilist["files"] as? [[String: Any]])
+                let upstreamFiles = try XCTUnwrap(avilist["upstreamOnlyFiles"] as? [[String: Any]])
                 XCTAssertEqual(colFiles.count + upstreamFiles.count, 4)
                 for file in colFiles + upstreamFiles {
                     let path = try XCTUnwrap(file["url"] as? String)
@@ -236,8 +248,14 @@ final class AppConfigurationTests: XCTestCase {
                     XCTAssertEqual(file["sha256"] as? String, inventoryRecord["sha256"] as? String)
                     try verifyBundled(record: inventoryRecord, below: dataRoot)
                 }
-                XCTAssertEqual((collection["counts"] as? [String: Any])?["packageAcceptedSpecies"] as? Int, 11_071)
-                XCTAssertEqual((collection["counts"] as? [String: Any])?["upstreamOnly"] as? Int, 609)
+                XCTAssertEqual((avilist["counts"] as? [String: Any])?["packageAcceptedSpecies"] as? Int, 11_071)
+                XCTAssertEqual((avilist["counts"] as? [String: Any])?["upstreamOnly"] as? Int, 609)
+                richItisNomenclatureRecords += try verifyRichItisCollection(
+                    collection: try XCTUnwrap(collections.first { ($0["id"] as? String) == "itis-crocodylia-tsn-crosswalk" }),
+                    inventory: files, below: dataRoot, expectedFiles: 1, expectedUpstreamFiles: 0,
+                    expectedRecords: 27, expectedUpstreamRecords: 0, label: "ITIS Crocodylia")
+                crocodyliaItisFiles += 1
+                crocodyliaItisNomenclatureRecords += 27
             } else {
                 XCTAssertNil(package["nomenclatureCollections"], "Only declared authority-backed rich packages may carry nomenclature collections")
             }
@@ -246,9 +264,13 @@ final class AppConfigurationTests: XCTestCase {
         XCTAssertEqual(researchClaimLinks, 34)
         XCTAssertEqual(phylogenyPackages, 2)
         XCTAssertEqual(wormsNomenclatureRecords, 11_891)
-        XCTAssertEqual(richItisNomenclatureRecords, 202_206)
+        XCTAssertEqual(richItisNomenclatureRecords, 214_855)
         XCTAssertEqual(arthropodItisFiles, 161)
         XCTAssertEqual(arthropodItisNomenclatureRecords, 1_178_341)
+        XCTAssertEqual(reptiliaItisFiles, 10)
+        XCTAssertEqual(reptiliaItisNomenclatureRecords, 13_277)
+        XCTAssertEqual(crocodyliaItisFiles, 1)
+        XCTAssertEqual(crocodyliaItisNomenclatureRecords, 27)
         XCTAssertEqual(wfoRichRecords, 387_988)
 
         let catalogueDescriptor = try XCTUnwrap((current["catalogue"] as? [String: Any])?["manifest"] as? [String: Any])

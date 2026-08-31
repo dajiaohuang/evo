@@ -984,7 +984,7 @@ describe('static runtime release coherence', () => {
     await expect(webClient.loadCatalogueItisOtherAnimalsRecord('nemertea', 'N0682')).rejects.toThrow('full Android/iOS data profile')
   })
 
-  it('loads each major-invertebrate package ITIS collection by typed scope and rejects the Web summary', async () => {
+  it('loads each typed package ITIS collection by one range shard and rejects the Web summary', async () => {
     Object.defineProperty(globalThis, 'Worker', { configurable: true, value: undefined })
     const contracts: Array<{
       scope: RuntimeItisPackageScope
@@ -1005,6 +1005,8 @@ describe('static runtime release coherence', () => {
       { scope: 'insecta', packageId: 'crustaceans-insects', collectionId: 'itis-insecta-tsn-crosswalk', total: 941223, accepted: 176406, redirects: 2887, ambiguous: 692, unmatched: 761238, upstreamOnly: 27357, canonicalFileCount: 100 },
       { scope: 'myriapoda', packageId: 'crustaceans-insects', collectionId: 'itis-myriapoda-tsn-crosswalk', total: 14210, accepted: 3040, redirects: 0, ambiguous: 2, unmatched: 11168, upstreamOnly: 3445, canonicalFileCount: 3 },
       { scope: 'chelicerata', packageId: 'trilobites-chelicerates', collectionId: 'itis-chelicerata-tsn-crosswalk', total: 99511, accepted: 74948, redirects: 146, ambiguous: 141, unmatched: 24276, upstreamOnly: 5714, canonicalFileCount: 17 },
+      { scope: 'reptilia-non-crocodylia', packageId: 'turtles-lepidosaurs', collectionId: 'itis-reptilia-tsn-crosswalk', total: 12622, accepted: 9805, redirects: 70, ambiguous: 3, unmatched: 2744, upstreamOnly: 655, canonicalFileCount: 10 },
+      { scope: 'crocodylia', packageId: 'crocodylomorphs-birds', collectionId: 'itis-crocodylia-tsn-crosswalk', total: 27, accepted: 26, redirects: 1, ambiguous: 0, unmatched: 0, upstreamOnly: 0, canonicalFileCount: 1 },
     ]
 
     for (const contract of contracts) {
@@ -1028,14 +1030,16 @@ describe('static runtime release coherence', () => {
       const packageManifest = { packageId: contract.packageId, version: `dataset-${contract.scope}`, files: {}, occurrences: [], nomenclatureCollections: [collection] }
       const manifestFile = { url: `releases/dataset-${contract.scope}/packages/${contract.packageId}/manifest.json`, sha256: await sha256(packageManifest) }
       const current = { datasetVersion: `dataset-${contract.scope}`, releaseBase: `releases/dataset-${contract.scope}/`, packages: { manifests: { [contract.packageId]: manifestFile } } }
-      vi.stubGlobal('fetch', vi.fn(async (input: RequestInfo | URL) => {
+      const fetchMock = vi.fn(async (input: RequestInfo | URL) => {
         const url = String(input)
         if (url.endsWith('/data/current.json')) return responseFor(current)
         if (url.endsWith(manifestFile.url)) return responseFor(packageManifest)
         return url.endsWith(file.url) ? textResponseFor(body) : { ok: false, status: 404, arrayBuffer: async () => new ArrayBuffer(0) }
-      }))
+      })
+      vi.stubGlobal('fetch', fetchMock)
       const client = await import('./staticDataClient')
       await expect(client.loadPackageItisAuthorityRecord(contract.scope, 'M001')).resolves.toMatchObject({ collection: { id: contract.collectionId }, record })
+      expect(fetchMock.mock.calls.filter(([input]) => String(input).endsWith(file.url))).toHaveLength(1)
     }
 
     vi.resetModules()
