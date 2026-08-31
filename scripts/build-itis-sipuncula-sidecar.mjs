@@ -280,7 +280,7 @@ async function main() {
     },
     evidenceBoundary: {
       en: 'This CC0 ITIS sidecar is a frozen exact nomenclatural crosswalk for the COL26.8 Sipuncula partition. It is not a final classification authority, phylogeny, species-concept equivalence assertion, biological dossier, fossil record or scientific-review record. The other-animals resource pack is mixed; its non-Sipuncula remainder is explicitly out of scope.',
-      zh: 'æ­¤ CC0 ITIS ä¾§è½¦æ˜¯ COL26.8 æ‰å½¢åŠ¨ç‰©åˆ†åŒºçš„å†»ç»“ä¸¥æ ¼å‘½åäº¤å‰æ˜ å°„ï¼›å®ƒä¸æ˜¯æœ€ç»ˆåˆ†ç±»æƒå¨ã€ç³»ç»Ÿå‘è‚²æ ‘ã€ç‰©ç§æ¦‚å¿µç­‰åŒæ€§å£°æ˜Žã€ç”Ÿç‰©æ¡£æ¡ˆã€åŒ–çŸ³è®°å½•æˆ–ç§‘å­¦å®¡æŸ¥è®°å½•ã€‚other-animals èµ„æºåŒ…æ˜¯æ··åˆåŒ…ï¼Œå…¶ä½™éžæ‰å½¢åŠ¨ç‰©ç‰©ç§è¢«æ˜Žç¡®æŽ’é™¤åœ¨æœ¬ä¾§è½¦ä¹‹å¤–ã€‚',
+      zh: '此 CC0 ITIS 侧车是 COL26.8 星虫动物门分区的冻结严格命名交叉映射；它不是最终分类权威、系统发育树、物种概念等同性声明、生物档案、化石记录或科学审查记录。other-animals 是混合资源包，其余非星虫动物物种明确排除在本侧车之外。',
     },
     counts: { ...counts, itisCurrentSpecies: itis.currentRows.length, itisSpeciesSynonymLinks: itis.synonymRows.length, itisUpstreamOnly: upstreamOnly.length },
     colUsageIdLocator: {

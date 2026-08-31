@@ -1015,6 +1015,1310 @@
           "requestPolicy": "Select the sole inclusive COL-ID range and read at most one COL partition; upstream-only files are never selected by COL ID."
         }
       }
+    },
+    {
+      "id": "itis-entoprocta-tsn-crosswalk",
+      "recordType": "release-pinned-exact-nomenclatural-crosswalk",
+      "provider": "Integrated Taxonomic Information System",
+      "source": {
+        "datasetId": "itis-2026-08-26",
+        "exportDate": "2026-08-26",
+        "rootTsn": "156732",
+        "license": "CC0-1.0",
+        "citationDoi": "10.5066/F7KH0KBK",
+        "canonicalDescriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals/itis-entoprocta-sidecar.json",
+        "canonicalDescriptorBytes": 6944,
+        "canonicalDescriptorSha256": "00313a482730ade0e5c43d0ac60764103b206b31827115857f02c38157d4c406"
+      },
+      "scope": {
+        "colRootUsageId": "BDTX4",
+        "colRootScientificName": "Entoprocta",
+        "colStrictAcceptedSpecies": 170,
+        "packageStrictAcceptedSpecies": 99161,
+        "packageOutOfScopeStrictAcceptedSpecies": 98991,
+        "boundary": "other-animals is the deterministic Animalia remainder after more-specific static-package routes. This sidecar covers only strict accepted COL26.8 species descending from exact Entoprocta root BDTX4; every other other-animals-owned species is explicitly outside this sidecar.",
+        "itisSynonymBoundary": {
+          "excludedName": "Kamptozoa",
+          "tsn": "914161",
+          "usage": "invalid",
+          "reason": "The same invalid ITIS synonym TSN has multiple accepted targets in the pinned export, so it is audit evidence only and is never added as a second Entoprocta root.",
+          "observedAcceptedTsns": [
+            "156732",
+            "563958"
+          ]
+        }
+      },
+      "matching": {
+        "normalization": [
+          "Remove the exact trailing COL authorship field from COL scientificName when that suffix is present; no authorship parser is used.",
+          "Normalize Unicode to NFC, replace underscores with spaces, collapse Unicode whitespace and trim.",
+          "For species-rank comparison, remove one parenthesized subgenus token in the exact Genus (Subgenus) species representation; genus and specific epithet must remain unchanged.",
+          "Preserve case, diacritics, punctuation and all remaining name tokens."
+        ],
+        "statuses": {
+          "accepted": "The normalized COL name resolves to exactly one valid ITIS Entoprocta species and directly equals that current ITIS name.",
+          "synonym-current-name-redirect": "The normalized COL name equals official ITIS invalid species-name evidence that resolves to exactly one valid ITIS Entoprocta species.",
+          "ambiguous": "The normalized exact evidence resolves to more than one valid ITIS Entoprocta species TSN.",
+          "unmatched": "No normalized exact valid-name or official ITIS species-synonym evidence resolves to a valid ITIS Entoprocta species."
+        },
+        "prohibited": "No fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered or taxon-substituted matching is used."
+      },
+      "evidenceBoundary": {
+        "en": "This CC0 ITIS sidecar is a frozen exact nomenclatural crosswalk for the declared Entoprocta partition inside the mixed Other Animals resource pack. ITIS Kamptozoa is an invalid synonym with multiple accepted targets in this export and is deliberately not an additive root. This is not a global entoproctan checklist, final classification authority, phylogeny, species-concept equivalence assertion, biological dossier or scientific-review record.",
+        "zh": "此 CC0 ITIS 侧车是混合“其他动物”资源包中已声明 Entoprocta 分区的冻结严格命名交叉映射。ITIS 中的 Kamptozoa 是在此导出中具有多个接受目标的无效同义名，故明确不作为可相加的根。它不是全球内肛动物名录、最终分类权威、系统发育、物种概念等同性声明、生物档案或科学审查记录。"
+      },
+      "counts": {
+        "eligible": 170,
+        "records": 171,
+        "accepted": 170,
+        "redirects": 0,
+        "ambiguous": 0,
+        "unmatched": 0,
+        "withheld": 0,
+        "upstreamOnly": 1,
+        "nonApplicable": 98991
+      },
+      "files": [
+        {
+          "path": "other-animals/itis-entoprocta-sidecar-0000.jsonl.gz",
+          "records": 170,
+          "bytes": 5424,
+          "sourceBytes": 63738,
+          "sha256": "c4f68ded99d96e95666be8b9c00202650f5d52882192e10c0515b7270b3c60b5",
+          "sourceSha256": "0eebafd9ca8334a7de0292bcdc632afea4b54bb7d35385163d3a05199a5776b7",
+          "encoding": "gzip",
+          "mediaType": "application/x-ndjson",
+          "minColId": "3W9GY",
+          "maxColId": "KP9N",
+          "role": "col-partition"
+        },
+        {
+          "path": "other-animals/itis-entoprocta-upstream-only-0000.jsonl.gz",
+          "records": 1,
+          "bytes": 264,
+          "sourceBytes": 354,
+          "sha256": "3348e3adccca77c11fa038ba2ac3f2fcec957647a6ab617a7451c1ebf525f71c",
+          "sourceSha256": "886c739ed1d2a4d1df409be645b9f105971e8ac2c289add6875a93b31092e41d",
+          "encoding": "gzip",
+          "mediaType": "application/x-ndjson",
+          "colOwnership": null,
+          "role": "upstream-only"
+        }
+      ],
+      "totalCompressedBytes": 5688,
+      "totalSourceBytes": 64092,
+      "deliveryProfiles": {
+        "web-light": {
+          "payload": "summary-only",
+          "files": [],
+          "records": 0,
+          "totalCompressedBytes": 0,
+          "totalSourceBytes": 0,
+          "statement": "GitHub Pages publishes the complete Entoprocta ITIS summary and canonical hashes without row shards."
+        },
+        "native-full": {
+          "payload": "complete",
+          "files": [
+            "other-animals/itis-entoprocta-sidecar-0000.jsonl.gz",
+            "other-animals/itis-entoprocta-upstream-only-0000.jsonl.gz"
+          ],
+          "records": 171,
+          "totalCompressedBytes": 5688,
+          "totalSourceBytes": 64092
+        }
+      },
+      "limitations": [
+        "This CC0 ITIS sidecar is a frozen exact nomenclatural crosswalk for the declared Entoprocta partition inside the mixed Other Animals resource pack. ITIS Kamptozoa is an invalid synonym with multiple accepted targets in this export and is deliberately not an additive root. This is not a global entoproctan checklist, final classification authority, phylogeny, species-concept equivalence assertion, biological dossier or scientific-review record.",
+        "No fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered or taxon-substituted matching is used."
+      ],
+      "integration": {
+        "clientParityRequirement": "Android and iOS must copy every native-full file byte-for-byte; Web uses the web-light summary profile.",
+        "lookup": {
+          "strategy": "lexicographic-colId-range-v1",
+          "ordering": "Unicode code-unit ascending",
+          "requestPolicy": "Select the sole inclusive COL-ID range and read at most one COL partition; upstream-only files are never selected by COL ID."
+        }
+      }
+    },
+    {
+      "id": "itis-tardigrada-tsn-crosswalk",
+      "recordType": "release-pinned-exact-nomenclatural-crosswalk",
+      "provider": "Integrated Taxonomic Information System",
+      "source": {
+        "datasetId": "itis-2026-08-26",
+        "exportDate": "2026-08-26",
+        "rootTsn": "155166",
+        "license": "CC0-1.0",
+        "citationDoi": "10.5066/F7KH0KBK",
+        "canonicalDescriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals/itis-tardigrada-sidecar.json",
+        "canonicalDescriptorBytes": 5812,
+        "canonicalDescriptorSha256": "e262720453fb97d9192093ee18f9b60832dfb059529c56317d7aef20bb64d73a"
+      },
+      "scope": {
+        "packageRootUsageId": "N",
+        "packageRootScientificName": "Animalia",
+        "colRootUsageId": "L2QNW",
+        "colRootScientificName": "Tardigrada",
+        "colStrictAcceptedSpecies": 1454,
+        "packageStrictAcceptedSpecies": 99161,
+        "packageOutOfScopeStrictAcceptedSpecies": 97707,
+        "nonApplicableRemainder": "Every strict accepted COL26.8 species owned by the other-animals remainder route below N but not descending from L2QNW; this complete remainder is explicitly excluded from the Tardigrada sidecar.",
+        "boundary": "This mixed package contains many animal phyla and broader Animalia navigation content. This sidecar covers only the strict accepted COL26.8 species descending from the exact Tardigrada root L2QNW; all remaining package-owned species are explicitly out of scope."
+      },
+      "matching": {
+        "normalization": [
+          "Remove the exact trailing COL authorship field from COL scientificName when that suffix is present; no authorship parser is used.",
+          "Normalize Unicode to NFC, replace underscores with spaces, collapse Unicode whitespace and trim.",
+          "For species-rank comparison, remove one parenthesized subgenus token in the exact Genus (Subgenus) species representation; genus and specific epithet must remain unchanged.",
+          "Preserve case, diacritics, punctuation and all remaining name tokens."
+        ],
+        "statuses": {
+          "accepted": "The normalized COL name resolves to exactly one valid ITIS Tardigrada species and directly equals that current ITIS name.",
+          "synonym-current-name-redirect": "The normalized COL name equals official ITIS invalid species-name evidence that resolves to exactly one valid ITIS Tardigrada species.",
+          "ambiguous": "The normalized exact evidence resolves to more than one valid ITIS Tardigrada species TSN.",
+          "unmatched": "No normalized exact valid-name or official ITIS species-synonym evidence resolves to a valid ITIS Tardigrada species."
+        },
+        "prohibited": "No fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered or taxon-substituted matching is used."
+      },
+      "evidenceBoundary": {
+        "en": "This CC0 ITIS sidecar is a frozen exact nomenclatural crosswalk, not a global tardigrade checklist, final classification authority, phylogeny, species-concept equivalence assertion, biological dossier or scientific-review record.",
+        "zh": "此 CC0 ITIS 侧车是缓步动物门分区的冻结严格命名交叉映射；它不是全球缓步动物名录、最终分类权威、系统发育树、物种概念等同性声明、生物档案或科学审查记录。"
+      },
+      "counts": {
+        "eligible": 1454,
+        "records": 1461,
+        "accepted": 1454,
+        "redirects": 0,
+        "ambiguous": 0,
+        "unmatched": 0,
+        "withheld": 0,
+        "upstreamOnly": 7,
+        "nonApplicable": 97707
+      },
+      "files": [
+        {
+          "path": "other-animals/itis-tardigrada-sidecar-0000.jsonl.gz",
+          "records": 1301,
+          "bytes": 46388,
+          "sourceBytes": 524245,
+          "sha256": "1399e7c0100cf65838a4e44bafbad514a5bccbc2381e0ba4fb95841f08f26f41",
+          "sourceSha256": "6ad38badbb27944fce771a82c48413aeba9795299a1393f0da9f8f38f6bdd9b5",
+          "encoding": "gzip",
+          "mediaType": "application/x-ndjson",
+          "minColId": "36FGZ",
+          "maxColId": "9X99K",
+          "role": "col-partition"
+        },
+        {
+          "path": "other-animals/itis-tardigrada-sidecar-0001.jsonl.gz",
+          "records": 153,
+          "bytes": 6083,
+          "sourceBytes": 61630,
+          "sha256": "872a46de6baca5b7d67d246470a608c1ae61ed29dcd23bb79e190dde9e0e912c",
+          "sourceSha256": "e47fa36de037270a05507ac0df319cd24cfde75c3243265b8c77f2dbb2e3f177",
+          "encoding": "gzip",
+          "mediaType": "application/x-ndjson",
+          "minColId": "9X99L",
+          "maxColId": "YGZ4",
+          "role": "col-partition"
+        },
+        {
+          "path": "other-animals/itis-tardigrada-upstream-only-0000.jsonl.gz",
+          "records": 7,
+          "bytes": 434,
+          "sourceBytes": 2557,
+          "sha256": "bb730700bb355d85c94db0a52353294014e95e1b178c7263e8a1bea57831fe0f",
+          "sourceSha256": "c4072e07b6d6a49674d9365887810e5408a474961be12fbf4e6359202e5ed8d2",
+          "encoding": "gzip",
+          "mediaType": "application/x-ndjson",
+          "colOwnership": null,
+          "role": "upstream-only"
+        }
+      ],
+      "totalCompressedBytes": 52905,
+      "totalSourceBytes": 588432,
+      "deliveryProfiles": {
+        "web-light": {
+          "payload": "summary-only",
+          "files": [],
+          "records": 0,
+          "totalCompressedBytes": 0,
+          "totalSourceBytes": 0,
+          "statement": "GitHub Pages publishes the complete Tardigrada ITIS summary and canonical hashes without row shards."
+        },
+        "native-full": {
+          "payload": "complete",
+          "files": [
+            "other-animals/itis-tardigrada-sidecar-0000.jsonl.gz",
+            "other-animals/itis-tardigrada-sidecar-0001.jsonl.gz",
+            "other-animals/itis-tardigrada-upstream-only-0000.jsonl.gz"
+          ],
+          "records": 1461,
+          "totalCompressedBytes": 52905,
+          "totalSourceBytes": 588432
+        }
+      },
+      "limitations": [
+        "This CC0 ITIS sidecar is a frozen exact nomenclatural crosswalk, not a global tardigrade checklist, final classification authority, phylogeny, species-concept equivalence assertion, biological dossier or scientific-review record.",
+        "No fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered or taxon-substituted matching is used."
+      ],
+      "integration": {
+        "clientParityRequirement": "Android and iOS must copy every native-full file byte-for-byte; Web uses the web-light summary profile.",
+        "lookup": {
+          "strategy": "lexicographic-colId-range-v1",
+          "ordering": "Unicode code-unit ascending",
+          "requestPolicy": "Select the sole inclusive COL-ID range and read at most one COL partition; upstream-only files are never selected by COL ID."
+        }
+      }
+    },
+    {
+      "id": "itis-chaetognatha-tsn-crosswalk",
+      "recordType": "release-pinned-exact-nomenclatural-crosswalk",
+      "provider": "Integrated Taxonomic Information System",
+      "source": {
+        "datasetId": "itis-2026-08-26",
+        "exportDate": "2026-08-26",
+        "rootTsn": "158650",
+        "license": "CC0-1.0",
+        "citationDoi": "10.5066/F7KH0KBK",
+        "canonicalDescriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals/itis-chaetognatha-sidecar.json",
+        "canonicalDescriptorBytes": 6275,
+        "canonicalDescriptorSha256": "f90cc4b678960f045bd076be4f5b0281b4b35acc8bf7ab4eb3571cd81230d20e"
+      },
+      "scope": {
+        "colRootUsageId": "36",
+        "colRootScientificName": "Chaetognatha",
+        "colStrictAcceptedSpecies": 132,
+        "packageStrictAcceptedSpecies": 99161,
+        "packageOutOfScopeStrictAcceptedSpecies": 99029,
+        "boundary": "other-animals is the deterministic Animalia remainder after more-specific static-package routes. This sidecar covers only strict accepted COL26.8 species descending from exact Chaetognatha root 36; every other other-animals-owned species is explicitly non-applicable."
+      },
+      "matching": {
+        "normalization": [
+          "Remove the exact trailing COL authorship field from COL scientificName when that suffix is present; no authorship parser is used.",
+          "Normalize Unicode to NFC, replace underscores with spaces, collapse Unicode whitespace and trim.",
+          "For species-rank comparison, remove one parenthesized subgenus token in the exact Genus (Subgenus) species representation; genus and specific epithet must remain unchanged.",
+          "Preserve case, diacritics, punctuation and all remaining name tokens."
+        ],
+        "statuses": {
+          "accepted": "The normalized COL name resolves to exactly one valid ITIS Chaetognatha species and directly equals that current ITIS name.",
+          "synonym-current-name-redirect": "The normalized COL name equals official ITIS invalid species-name evidence that resolves to exactly one valid ITIS Chaetognatha species.",
+          "ambiguous": "The normalized exact evidence resolves to more than one valid ITIS Chaetognatha species TSN.",
+          "unmatched": "No normalized exact valid-name or official ITIS species-synonym evidence resolves to a valid ITIS Chaetognatha species."
+        },
+        "prohibited": "No fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered or taxon-substituted matching is used."
+      },
+      "evidenceBoundary": {
+        "en": "This CC0 ITIS sidecar is a frozen exact nomenclatural crosswalk for the declared Chaetognatha partition inside the mixed Other Animals resource pack. It is not a global chaetognath checklist, final classification authority, phylogeny, species-concept equivalence assertion, biological dossier or scientific-review record.",
+        "zh": "此 CC0 ITIS 侧车是混合“其他动物”资源包中已声明 Chaetognatha 分区的冻结严格命名交叉映射；它不是全球毛颚动物名录、最终分类权威、系统发育、物种概念等同性声明、生物档案或科学审查记录。"
+      },
+      "counts": {
+        "eligible": 132,
+        "records": 156,
+        "accepted": 92,
+        "redirects": 0,
+        "ambiguous": 0,
+        "unmatched": 40,
+        "withheld": 0,
+        "upstreamOnly": 24,
+        "nonApplicable": 99029
+      },
+      "files": [
+        {
+          "path": "other-animals/itis-chaetognatha-sidecar-0000.jsonl.gz",
+          "records": 132,
+          "bytes": 4584,
+          "sourceBytes": 43965,
+          "sha256": "cd431da0403a35843b0f9fafcc6d4fa85fbd11eba63da53eb9694fbeb79b2676",
+          "sourceSha256": "92428aa245459ba0be6991453dbd00c6345aa89cc4c457d8d7f8b87bc8516a1c",
+          "encoding": "gzip",
+          "mediaType": "application/x-ndjson",
+          "minColId": "34DQ4",
+          "maxColId": "V99PP",
+          "role": "col-partition"
+        },
+        {
+          "path": "other-animals/itis-chaetognatha-upstream-only-0000.jsonl.gz",
+          "records": 24,
+          "bytes": 681,
+          "sourceBytes": 8922,
+          "sha256": "b4fbaf91571e6361a378776dfdbd293a3ea26b0df648a2adfa6b4c99bda1b0da",
+          "sourceSha256": "4e8fb5548a48a519aa603d6dbe04fba0ff49abd3aa132c1f70c0e170b01a72e6",
+          "encoding": "gzip",
+          "mediaType": "application/x-ndjson",
+          "colOwnership": null,
+          "role": "upstream-only"
+        }
+      ],
+      "totalCompressedBytes": 5265,
+      "totalSourceBytes": 52887,
+      "deliveryProfiles": {
+        "web-light": {
+          "payload": "summary-only",
+          "files": [],
+          "records": 0,
+          "totalCompressedBytes": 0,
+          "totalSourceBytes": 0,
+          "statement": "GitHub Pages publishes the complete Chaetognatha ITIS summary and canonical hashes without row shards."
+        },
+        "native-full": {
+          "payload": "complete",
+          "files": [
+            "other-animals/itis-chaetognatha-sidecar-0000.jsonl.gz",
+            "other-animals/itis-chaetognatha-upstream-only-0000.jsonl.gz"
+          ],
+          "records": 156,
+          "totalCompressedBytes": 5265,
+          "totalSourceBytes": 52887
+        }
+      },
+      "limitations": [
+        "This CC0 ITIS sidecar is a frozen exact nomenclatural crosswalk for the declared Chaetognatha partition inside the mixed Other Animals resource pack. It is not a global chaetognath checklist, final classification authority, phylogeny, species-concept equivalence assertion, biological dossier or scientific-review record.",
+        "No fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered or taxon-substituted matching is used."
+      ],
+      "integration": {
+        "clientParityRequirement": "Android and iOS must copy every native-full file byte-for-byte; Web uses the web-light summary profile.",
+        "lookup": {
+          "strategy": "lexicographic-colId-range-v1",
+          "ordering": "Unicode code-unit ascending",
+          "requestPolicy": "Select the sole inclusive COL-ID range and read at most one COL partition; upstream-only files are never selected by COL ID."
+        }
+      }
+    },
+    {
+      "id": "itis-ctenophora-tsn-crosswalk",
+      "recordType": "release-pinned-exact-nomenclatural-crosswalk",
+      "provider": "Integrated Taxonomic Information System",
+      "source": {
+        "datasetId": "itis-2026-08-26",
+        "exportDate": "2026-08-26",
+        "license": "CC0-1.0",
+        "citationDoi": "10.5066/F7KH0KBK",
+        "canonicalDescriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals/itis-ctenophora-sidecar.json",
+        "canonicalDescriptorBytes": 6429,
+        "canonicalDescriptorSha256": "c8cd41d9efe78ed34ca2c5590ec34a616b334a598ab455a648882f994ca45ff0"
+      },
+      "scope": {
+        "colRoots": [
+          {
+            "id": "B8V3L",
+            "scientificName": "Ctenophora"
+          }
+        ],
+        "colStrictAcceptedSpecies": 197,
+        "speciesByColRoot": {
+          "B8V3L": 197
+        },
+        "packageStrictAcceptedSpecies": 99161,
+        "packageOutOfScopeStrictAcceptedSpecies": 98964,
+        "boundary": "Other Animals is the deterministic Animalia remainder after more-specific static-package routes. This sidecar covers only strict accepted COL26.8 species descending from the exact Ctenophora root; every other Other Animals-owned species is explicitly nonapplicable."
+      },
+      "matching": {
+        "normalization": [
+          "Remove the exact trailing COL authorship field from COL scientificName when that suffix is present; no authorship parser is used.",
+          "Normalize Unicode to NFC, replace underscores with spaces, collapse Unicode whitespace and trim.",
+          "For species-rank comparison, remove one parenthesized subgenus token in the exact Genus (Subgenus) species representation; genus and specific epithet must remain unchanged.",
+          "Preserve case, diacritics, punctuation and all remaining name tokens."
+        ],
+        "statuses": {
+          "accepted": "The normalized COL name resolves to exactly one valid ITIS Ctenophora species and directly equals that current ITIS name.",
+          "synonym-current-name-redirect": "The normalized COL name equals official ITIS invalid species-name evidence that resolves to exactly one valid ITIS Ctenophora species.",
+          "ambiguous": "The normalized exact evidence resolves to more than one valid ITIS Ctenophora species TSN.",
+          "unmatched": "No normalized exact valid-name or official ITIS species-synonym evidence resolves to a valid ITIS Ctenophora species."
+        },
+        "prohibited": "No fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered or taxon-substituted matching is used."
+      },
+      "evidenceBoundary": {
+        "en": "This CC0 ITIS sidecar is a frozen exact nomenclatural crosswalk for the declared Ctenophora partition inside the mixed Other Animals resource pack. It is not a final classification authority, phylogeny, species-concept equivalence assertion, biological dossier, fossil record or scientific-review record.",
+        "zh": "此 CC0 ITIS 侧车仅为混合“其他动物”资源包中明确声明的栉水母动物分区提供冻结的严格命名交叉映射；它不是最终分类权威、系统发育树、物种概念等同性声明、生物档案、化石记录或科学审查记录。"
+      },
+      "counts": {
+        "eligible": 197,
+        "records": 204,
+        "accepted": 58,
+        "redirects": 0,
+        "ambiguous": 0,
+        "unmatched": 139,
+        "withheld": 0,
+        "upstreamOnly": 7,
+        "nonApplicable": 98964
+      },
+      "files": [
+        {
+          "path": "other-animals/itis-ctenophora-sidecar-0000.jsonl.gz",
+          "records": 197,
+          "bytes": 6416,
+          "sourceBytes": 60116,
+          "sha256": "081ab9369291695b02872aab61226576f40a50cb8151c3088c916148d0c21798",
+          "sourceSha256": "68a16b4fe7e3e954941b109b7b206a5d9dcf6c3c13ab3af38ebed2ebba0f7a54",
+          "encoding": "gzip",
+          "mediaType": "application/x-ndjson",
+          "minColId": "326LZ",
+          "maxColId": "ZWSP",
+          "role": "col-partition"
+        },
+        {
+          "path": "other-animals/itis-ctenophora-upstream-only-0000.jsonl.gz",
+          "records": 7,
+          "bytes": 422,
+          "sourceBytes": 2520,
+          "sha256": "46601808c236ae97f8081272f93569c67542edaa1c02feab375f4ab59b216952",
+          "sourceSha256": "aa9955335bc63f33674990ec7a3bd4af8604fc0734d8f00d21c37f1ac1d3be0e",
+          "encoding": "gzip",
+          "mediaType": "application/x-ndjson",
+          "colOwnership": null,
+          "role": "upstream-only"
+        }
+      ],
+      "totalCompressedBytes": 6838,
+      "totalSourceBytes": 62636,
+      "deliveryProfiles": {
+        "web-light": {
+          "payload": "summary-only",
+          "files": [],
+          "records": 0,
+          "totalCompressedBytes": 0,
+          "totalSourceBytes": 0,
+          "statement": "GitHub Pages publishes the complete Ctenophora ITIS summary and canonical hashes without row shards."
+        },
+        "native-full": {
+          "payload": "complete",
+          "files": [
+            "other-animals/itis-ctenophora-sidecar-0000.jsonl.gz",
+            "other-animals/itis-ctenophora-upstream-only-0000.jsonl.gz"
+          ],
+          "records": 204,
+          "totalCompressedBytes": 6838,
+          "totalSourceBytes": 62636
+        }
+      },
+      "limitations": [
+        "This CC0 ITIS sidecar is a frozen exact nomenclatural crosswalk for the declared Ctenophora partition inside the mixed Other Animals resource pack. It is not a final classification authority, phylogeny, species-concept equivalence assertion, biological dossier, fossil record or scientific-review record.",
+        "No fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered or taxon-substituted matching is used."
+      ],
+      "integration": {
+        "clientParityRequirement": "Android and iOS must copy every native-full file byte-for-byte; Web uses the web-light summary profile.",
+        "lookup": {
+          "strategy": "lexicographic-colId-range-v1",
+          "ordering": "Unicode code-unit ascending",
+          "requestPolicy": "Select the sole inclusive COL-ID range and read at most one COL partition; upstream-only files are never selected by COL ID."
+        }
+      }
+    },
+    {
+      "id": "itis-kinorhyncha-tsn-crosswalk",
+      "recordType": "release-pinned-exact-nomenclatural-crosswalk",
+      "provider": "Integrated Taxonomic Information System",
+      "source": {
+        "datasetId": "itis-2026-08-26",
+        "exportDate": "2026-08-26",
+        "rootTsn": "59467",
+        "license": "CC0-1.0",
+        "citationDoi": "10.5066/F7KH0KBK",
+        "canonicalDescriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals/itis-kinorhyncha-sidecar.json",
+        "canonicalDescriptorBytes": 6353,
+        "canonicalDescriptorSha256": "a3ce55acf17de50e184b2b672f7ef3b6a7cb252b9f646af0472b4ddc1966b609"
+      },
+      "scope": {
+        "colRootUsageId": "B8VF5",
+        "colRootScientificName": "Kinorhyncha Reinhard, 1885",
+        "colStrictAcceptedSpecies": 362,
+        "packageStrictAcceptedSpecies": 99161,
+        "packageOutOfScopeStrictAcceptedSpecies": 98799,
+        "boundary": "other-animals is the deterministic Animalia remainder after more-specific static-package routes. This sidecar covers only strict accepted COL26.8 species descending from exact Kinorhyncha root B8VF5; every other other-animals-owned species is explicitly outside this sidecar."
+      },
+      "matching": {
+        "normalization": [
+          "Remove the exact trailing COL authorship field from COL scientificName when that suffix is present; no authorship parser is used.",
+          "Normalize Unicode to NFC, replace underscores with spaces, collapse Unicode whitespace and trim.",
+          "For species-rank comparison, remove one parenthesized subgenus token in the exact Genus (Subgenus) species representation; genus and specific epithet must remain unchanged.",
+          "Preserve case, diacritics, punctuation and all remaining name tokens."
+        ],
+        "statuses": {
+          "accepted": "The normalized COL name resolves to exactly one valid ITIS Kinorhyncha species and directly equals that current ITIS name.",
+          "synonym-current-name-redirect": "The normalized COL name equals official ITIS invalid species-name evidence that resolves to exactly one valid ITIS Kinorhyncha species.",
+          "ambiguous": "The normalized exact evidence resolves to more than one valid ITIS Kinorhyncha species TSN.",
+          "unmatched": "No normalized exact valid-name or official ITIS species-synonym evidence resolves to a valid ITIS Kinorhyncha species."
+        },
+        "prohibited": "No fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered or taxon-substituted matching is used."
+      },
+      "evidenceBoundary": {
+        "en": "This CC0 ITIS sidecar is a frozen exact nomenclatural crosswalk for the declared Kinorhyncha partition inside the mixed Other Animals resource pack. It is not a global kinorhynch checklist, final classification authority, phylogeny, species-concept equivalence assertion, biological dossier or scientific-review record.",
+        "zh": "此 CC0 ITIS 侧车是混合“其他动物”资源包中已声明动吻动物门分区的冻结严格命名交叉映射；它不是全球动吻动物名录、最终分类权威、系统发育、物种概念等同性声明、生物档案或科学审查记录。"
+      },
+      "counts": {
+        "eligible": 362,
+        "records": 420,
+        "accepted": 91,
+        "redirects": 1,
+        "ambiguous": 0,
+        "unmatched": 270,
+        "withheld": 0,
+        "upstreamOnly": 58,
+        "nonApplicable": 98799
+      },
+      "files": [
+        {
+          "path": "other-animals/itis-kinorhyncha-sidecar-0000.jsonl.gz",
+          "records": 362,
+          "bytes": 10160,
+          "sourceBytes": 101594,
+          "sha256": "a1137015add8681aa2a9c7d2ecbc23fdd7aec583cd0511fbea2d9a396cca8e18",
+          "sourceSha256": "39b1f223b55e34f68c8582b42fedf5543b8926aadec5cc0f1c4ab6835aae442b",
+          "encoding": "gzip",
+          "mediaType": "application/x-ndjson",
+          "minColId": "37KDR",
+          "maxColId": "XKWH",
+          "role": "col-partition"
+        },
+        {
+          "path": "other-animals/itis-kinorhyncha-upstream-only-0000.jsonl.gz",
+          "records": 58,
+          "bytes": 970,
+          "sourceBytes": 20937,
+          "sha256": "472d581110bcc7aca6d34618bb810a00215d3ced9a49520fa692be3173f11112",
+          "sourceSha256": "e8975922c41075b7d0352057d48de005fe4f81a340bb8541560d12f75de93e86",
+          "encoding": "gzip",
+          "mediaType": "application/x-ndjson",
+          "colOwnership": null,
+          "role": "upstream-only"
+        }
+      ],
+      "totalCompressedBytes": 11130,
+      "totalSourceBytes": 122531,
+      "deliveryProfiles": {
+        "web-light": {
+          "payload": "summary-only",
+          "files": [],
+          "records": 0,
+          "totalCompressedBytes": 0,
+          "totalSourceBytes": 0,
+          "statement": "GitHub Pages publishes the complete Kinorhyncha ITIS summary and canonical hashes without row shards."
+        },
+        "native-full": {
+          "payload": "complete",
+          "files": [
+            "other-animals/itis-kinorhyncha-sidecar-0000.jsonl.gz",
+            "other-animals/itis-kinorhyncha-upstream-only-0000.jsonl.gz"
+          ],
+          "records": 420,
+          "totalCompressedBytes": 11130,
+          "totalSourceBytes": 122531
+        }
+      },
+      "limitations": [
+        "This CC0 ITIS sidecar is a frozen exact nomenclatural crosswalk for the declared Kinorhyncha partition inside the mixed Other Animals resource pack. It is not a global kinorhynch checklist, final classification authority, phylogeny, species-concept equivalence assertion, biological dossier or scientific-review record.",
+        "No fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered or taxon-substituted matching is used."
+      ],
+      "integration": {
+        "clientParityRequirement": "Android and iOS must copy every native-full file byte-for-byte; Web uses the web-light summary profile.",
+        "lookup": {
+          "strategy": "lexicographic-colId-range-v1",
+          "ordering": "Unicode code-unit ascending",
+          "requestPolicy": "Select the sole inclusive COL-ID range and read at most one COL partition; upstream-only files are never selected by COL ID."
+        }
+      }
+    },
+    {
+      "id": "itis-gastrotricha-tsn-crosswalk",
+      "recordType": "release-pinned-exact-nomenclatural-crosswalk",
+      "provider": "Integrated Taxonomic Information System",
+      "source": {
+        "datasetId": "itis-2026-08-26",
+        "exportDate": "2026-08-26",
+        "rootTsn": "57597",
+        "license": "CC0-1.0",
+        "citationDoi": "10.5066/F7KH0KBK",
+        "canonicalDescriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals/itis-gastrotricha-sidecar.json",
+        "canonicalDescriptorBytes": 5358,
+        "canonicalDescriptorSha256": "c99b0e8c1c1265702e46f834c60ac2cfee2ff1dadea2d16b2b3a5e308b15cd0e"
+      },
+      "scope": {
+        "packageRootUsageId": "N",
+        "packageRootScientificName": "Animalia",
+        "colRootUsageId": "B8V3M",
+        "colRootScientificName": "Gastrotricha",
+        "colStrictAcceptedSpecies": 903,
+        "packageStrictAcceptedSpecies": 99161,
+        "packageOutOfScopeStrictAcceptedSpecies": 98258,
+        "nonApplicableRemainder": "Every strict accepted COL26.8 species owned by the other-animals remainder route below N but not descending from B8V3M; this complete remainder is explicitly excluded from the Gastrotricha sidecar.",
+        "boundary": "This mixed package contains many animal phyla and broader Animalia navigation content. This sidecar covers only the strict accepted COL26.8 species descending from the exact Gastrotricha root B8V3M; all remaining package-owned species are explicitly out of scope."
+      },
+      "matching": {
+        "normalization": [
+          "Remove the exact trailing COL authorship field from COL scientificName when that suffix is present; no authorship parser is used.",
+          "Normalize Unicode to NFC, replace underscores with spaces, collapse Unicode whitespace and trim.",
+          "For species-rank comparison, remove one parenthesized subgenus token in the exact Genus (Subgenus) species representation; genus and specific epithet must remain unchanged.",
+          "Preserve case, diacritics, punctuation and all remaining name tokens."
+        ],
+        "statuses": {
+          "accepted": "The normalized COL name resolves to exactly one valid ITIS Gastrotricha species and directly equals that current ITIS name.",
+          "synonym-current-name-redirect": "The normalized COL name equals official ITIS invalid species-name evidence that resolves to exactly one valid ITIS Gastrotricha species.",
+          "ambiguous": "The normalized exact evidence resolves to more than one valid ITIS Gastrotricha species TSN.",
+          "unmatched": "No normalized exact valid-name or official ITIS species-synonym evidence resolves to a valid ITIS Gastrotricha species."
+        },
+        "prohibited": "No fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered or taxon-substituted matching is used."
+      },
+      "evidenceBoundary": {
+        "en": "This CC0 ITIS sidecar is a frozen exact nomenclatural crosswalk, not a global gastrotrich checklist, final classification authority, phylogeny, species-concept equivalence assertion, biological dossier or scientific-review record.",
+        "zh": "此 CC0 ITIS 侧车是腹毛动物门分区的冻结严格命名交叉映射；它不是全球腹毛动物名录、最终分类权威、系统发育树、物种概念等同性声明、生物档案或科学审查记录。"
+      },
+      "counts": {
+        "eligible": 903,
+        "records": 997,
+        "accepted": 574,
+        "redirects": 8,
+        "ambiguous": 1,
+        "unmatched": 320,
+        "withheld": 0,
+        "upstreamOnly": 94,
+        "nonApplicable": 98258
+      },
+      "files": [
+        {
+          "path": "other-animals/itis-gastrotricha-sidecar-0000.jsonl.gz",
+          "records": 903,
+          "bytes": 27888,
+          "sourceBytes": 294948,
+          "sha256": "d4fdae206ac0dbe51d945ac4cd06514403051fc652ca6b1587e57cd984d1f225",
+          "sourceSha256": "b77722ea752bb4e930f91165d849b22a03f38c0d292d08f7ba2df5dce6d0695c",
+          "encoding": "gzip",
+          "mediaType": "application/x-ndjson",
+          "minColId": "33WDG",
+          "maxColId": "Z5DF",
+          "role": "col-partition"
+        },
+        {
+          "path": "other-animals/itis-gastrotricha-upstream-only-0000.jsonl.gz",
+          "records": 94,
+          "bytes": 1563,
+          "sourceBytes": 34075,
+          "sha256": "afca6a30c31ca571a89ad98ca833fa8a732891440cf923ede2e29d764daec21f",
+          "sourceSha256": "33f2fb33939e3ac78c8fad2097ace8838b6d046c339e93dccc38b61fb1694b2a",
+          "encoding": "gzip",
+          "mediaType": "application/x-ndjson",
+          "colOwnership": null,
+          "role": "upstream-only"
+        }
+      ],
+      "totalCompressedBytes": 29451,
+      "totalSourceBytes": 329023,
+      "deliveryProfiles": {
+        "web-light": {
+          "payload": "summary-only",
+          "files": [],
+          "records": 0,
+          "totalCompressedBytes": 0,
+          "totalSourceBytes": 0,
+          "statement": "GitHub Pages publishes the complete Gastrotricha ITIS summary and canonical hashes without row shards."
+        },
+        "native-full": {
+          "payload": "complete",
+          "files": [
+            "other-animals/itis-gastrotricha-sidecar-0000.jsonl.gz",
+            "other-animals/itis-gastrotricha-upstream-only-0000.jsonl.gz"
+          ],
+          "records": 997,
+          "totalCompressedBytes": 29451,
+          "totalSourceBytes": 329023
+        }
+      },
+      "limitations": [
+        "This CC0 ITIS sidecar is a frozen exact nomenclatural crosswalk, not a global gastrotrich checklist, final classification authority, phylogeny, species-concept equivalence assertion, biological dossier or scientific-review record.",
+        "No fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered or taxon-substituted matching is used."
+      ],
+      "integration": {
+        "clientParityRequirement": "Android and iOS must copy every native-full file byte-for-byte; Web uses the web-light summary profile.",
+        "lookup": {
+          "strategy": "lexicographic-colId-range-v1",
+          "ordering": "Unicode code-unit ascending",
+          "requestPolicy": "Select the sole inclusive COL-ID range and read at most one COL partition; upstream-only files are never selected by COL ID."
+        }
+      }
+    },
+    {
+      "id": "itis-priapulida-tsn-crosswalk",
+      "recordType": "release-pinned-exact-nomenclatural-crosswalk",
+      "provider": "Integrated Taxonomic Information System",
+      "source": {
+        "datasetId": "itis-2026-08-26",
+        "exportDate": "2026-08-26",
+        "rootTsn": "563953",
+        "license": "CC0-1.0",
+        "citationDoi": "10.5066/F7KH0KBK",
+        "canonicalDescriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals/itis-priapulida-sidecar.json",
+        "canonicalDescriptorBytes": 7213,
+        "canonicalDescriptorSha256": "add07d5ce45c21938412a39820a51eeeb17d95091017e569b18dddfbc793e7c5"
+      },
+      "scope": {
+        "colRootUsageId": "B8VF9",
+        "colRootScientificName": "Priapulida Théel, 1906",
+        "colStrictAcceptedSpecies": 23,
+        "packageStrictAcceptedSpecies": 99161,
+        "packageOutOfScopeStrictAcceptedSpecies": 99138,
+        "packageOwnership": "other-animals is the deterministic COL26.8 residual route below Animalia (N); Priapulida B8VF9 has no more-specific static-package route.",
+        "nonApplicableBoundary": "All other-animals strict accepted species not descending from B8VF9 are non-applicable to this Priapulida sidecar. They remain in the mixed resource pack and are not silently mapped to ITIS Priapulida.",
+        "sourceComposition": {
+          "1124": 23
+        }
+      },
+      "matching": {
+        "normalization": [
+          "Remove the exact trailing COL authorship field from COL scientificName when that suffix is present; no authorship parser is used.",
+          "Normalize Unicode to NFC, replace underscores with spaces, collapse Unicode whitespace and trim.",
+          "For species-rank comparison, remove one parenthesized subgenus token in the exact Genus (Subgenus) species representation; genus and specific epithet must remain unchanged.",
+          "Preserve case, diacritics, punctuation and all remaining name tokens."
+        ],
+        "statuses": {
+          "accepted": "The normalized COL name resolves to exactly one valid ITIS Priapulida species and directly equals that current ITIS name.",
+          "synonym-current-name-redirect": "The normalized COL name equals official ITIS invalid species-name evidence that resolves to exactly one valid ITIS Priapulida species.",
+          "ambiguous": "The normalized exact evidence resolves to more than one valid ITIS Priapulida species TSN.",
+          "unmatched": "No normalized exact valid-name or official ITIS species-synonym evidence resolves to a valid ITIS Priapulida species."
+        },
+        "prohibited": "No fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered or taxon-substituted matching is used."
+      },
+      "evidenceBoundary": {
+        "en": "This CC0 ITIS sidecar is a frozen exact nomenclatural crosswalk for the COL26.8 Priapulida partition. It is not a final classification authority, phylogeny, species-concept equivalence assertion, biological dossier, fossil record or scientific-review record. The other-animals resource pack is mixed; its non-Priapulida remainder is explicitly out of scope.",
+        "zh": "此 CC0 ITIS 侧车是 COL26.8 鳃曳动物门分区的冻结严格命名交叉映射；它不是最终分类权威、系统发育树、物种概念等同性声明、生物档案、化石记录或科学审查记录。other-animals 是混合资源包，其余非鳃曳动物物种明确排除在本侧车之外。"
+      },
+      "counts": {
+        "eligible": 23,
+        "records": 23,
+        "accepted": 19,
+        "redirects": 0,
+        "ambiguous": 0,
+        "unmatched": 4,
+        "withheld": 0,
+        "upstreamOnly": 0,
+        "nonApplicable": 99138
+      },
+      "files": [
+        {
+          "path": "other-animals/itis-priapulida-sidecar-000.jsonl.gz",
+          "records": 23,
+          "bytes": 1169,
+          "sourceBytes": 8264,
+          "sha256": "41369b191f24545b9cd9965e3b5d479ef315e6a388a0f4da205306682b195613",
+          "sourceSha256": "364496b628aef0ff5c19d6509b8e7b22b3a93f1a69252760a8e217eab3e5af2a",
+          "encoding": "gzip",
+          "mediaType": "application/x-ndjson",
+          "minColId": "3JCX7",
+          "maxColId": "V4X7S",
+          "role": "col-partition"
+        },
+        {
+          "path": "other-animals/itis-priapulida-upstream-only-000.jsonl.gz",
+          "records": 0,
+          "bytes": 21,
+          "sourceBytes": 1,
+          "sha256": "74420f89d2d2a4256b5b578f1c2a01dd2b605f9aca4905db839d008cfd29cac0",
+          "sourceSha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+          "encoding": "gzip",
+          "mediaType": "application/x-ndjson",
+          "colOwnership": null,
+          "role": "upstream-only"
+        }
+      ],
+      "totalCompressedBytes": 1190,
+      "totalSourceBytes": 8265,
+      "deliveryProfiles": {
+        "web-light": {
+          "payload": "summary-only",
+          "files": [],
+          "records": 0,
+          "totalCompressedBytes": 0,
+          "totalSourceBytes": 0,
+          "statement": "GitHub Pages publishes the complete Priapulida ITIS summary and canonical hashes without row shards."
+        },
+        "native-full": {
+          "payload": "complete",
+          "files": [
+            "other-animals/itis-priapulida-sidecar-000.jsonl.gz",
+            "other-animals/itis-priapulida-upstream-only-000.jsonl.gz"
+          ],
+          "records": 23,
+          "totalCompressedBytes": 1190,
+          "totalSourceBytes": 8265
+        }
+      },
+      "limitations": [
+        "This CC0 ITIS sidecar is a frozen exact nomenclatural crosswalk for the COL26.8 Priapulida partition. It is not a final classification authority, phylogeny, species-concept equivalence assertion, biological dossier, fossil record or scientific-review record. The other-animals resource pack is mixed; its non-Priapulida remainder is explicitly out of scope.",
+        "No fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered or taxon-substituted matching is used."
+      ],
+      "integration": {
+        "clientParityRequirement": "Android and iOS must copy every native-full file byte-for-byte; Web uses the web-light summary profile.",
+        "lookup": {
+          "strategy": "lexicographic-colId-range-v1",
+          "ordering": "Unicode code-unit ascending",
+          "requestPolicy": "Select the sole inclusive COL-ID range and read at most one COL partition; upstream-only files are never selected by COL ID."
+        }
+      }
+    },
+    {
+      "id": "itis-onychophora-tsn-crosswalk",
+      "recordType": "release-pinned-exact-nomenclatural-crosswalk",
+      "provider": "Integrated Taxonomic Information System",
+      "source": {
+        "datasetId": "itis-2026-08-26",
+        "exportDate": "2026-08-26",
+        "rootTsn": "1217461",
+        "license": "CC0-1.0",
+        "citationDoi": "10.5066/F7KH0KBK",
+        "canonicalDescriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals/itis-onychophora-sidecar.json",
+        "canonicalDescriptorBytes": 6338,
+        "canonicalDescriptorSha256": "f46c433539d6f5a8836a2c30ffdf4c5d02ee96ca4f85e2afcf247ef4e98a60e3"
+      },
+      "scope": {
+        "colRootUsageId": "BV844",
+        "colRootScientificName": "Onychophora Grube, 1850",
+        "colStrictAcceptedSpecies": 235,
+        "packageStrictAcceptedSpecies": 99161,
+        "packageOutOfScopeStrictAcceptedSpecies": 98926,
+        "boundary": "other-animals is the deterministic Animalia remainder after more-specific static-package routes. This sidecar covers only strict accepted COL26.8 species descending from exact Onychophora root BV844; every other other-animals-owned species is explicitly outside this sidecar."
+      },
+      "matching": {
+        "normalization": [
+          "Remove the exact trailing COL authorship field from COL scientificName when that suffix is present; no authorship parser is used.",
+          "Normalize Unicode to NFC, replace underscores with spaces, collapse Unicode whitespace and trim.",
+          "For species-rank comparison, remove one parenthesized subgenus token in the exact Genus (Subgenus) species representation; genus and specific epithet must remain unchanged.",
+          "Preserve case, diacritics, punctuation and all remaining name tokens."
+        ],
+        "statuses": {
+          "accepted": "The normalized COL name resolves to exactly one valid ITIS Onychophora species and directly equals that current ITIS name.",
+          "synonym-current-name-redirect": "The normalized COL name equals official ITIS invalid species-name evidence that resolves to exactly one valid ITIS Onychophora species.",
+          "ambiguous": "The normalized exact evidence resolves to more than one valid ITIS Onychophora species TSN.",
+          "unmatched": "No normalized exact valid-name or official ITIS species-synonym evidence resolves to a valid ITIS Onychophora species."
+        },
+        "prohibited": "No fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered or taxon-substituted matching is used."
+      },
+      "evidenceBoundary": {
+        "en": "This CC0 ITIS sidecar is a frozen exact nomenclatural crosswalk for the declared Onychophora partition inside the mixed Other Animals resource pack. It is not a global onychophoran checklist, final classification authority, phylogeny, species-concept equivalence assertion, biological dossier or scientific-review record.",
+        "zh": "此 CC0 ITIS 侧车是混合“其他动物”资源包中已声明有爪动物门分区的冻结严格命名交叉映射；它不是全球有爪动物名录、最终分类权威、系统发育、物种概念等同性声明、生物档案或科学审查记录。"
+      },
+      "counts": {
+        "eligible": 235,
+        "records": 235,
+        "accepted": 235,
+        "redirects": 0,
+        "ambiguous": 0,
+        "unmatched": 0,
+        "withheld": 0,
+        "upstreamOnly": 0,
+        "nonApplicable": 98926
+      },
+      "files": [
+        {
+          "path": "other-animals/itis-onychophora-sidecar-0000.jsonl.gz",
+          "records": 235,
+          "bytes": 8158,
+          "sourceBytes": 92050,
+          "sha256": "65bcdc3d8231cca578ee0182cdaddf30105fd48a171bc496a02eba5cd1f44d06",
+          "sourceSha256": "29957e1aacaf43003651ee4b493d1d6b9eab40e1ad9c54849a6090dab114d10d",
+          "encoding": "gzip",
+          "mediaType": "application/x-ndjson",
+          "minColId": "33WYV",
+          "maxColId": "ZJHH",
+          "role": "col-partition"
+        },
+        {
+          "path": "other-animals/itis-onychophora-upstream-only-0000.jsonl.gz",
+          "records": 0,
+          "bytes": 21,
+          "sourceBytes": 1,
+          "sha256": "74420f89d2d2a4256b5b578f1c2a01dd2b605f9aca4905db839d008cfd29cac0",
+          "sourceSha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+          "encoding": "gzip",
+          "mediaType": "application/x-ndjson",
+          "colOwnership": null,
+          "role": "upstream-only"
+        }
+      ],
+      "totalCompressedBytes": 8179,
+      "totalSourceBytes": 92051,
+      "deliveryProfiles": {
+        "web-light": {
+          "payload": "summary-only",
+          "files": [],
+          "records": 0,
+          "totalCompressedBytes": 0,
+          "totalSourceBytes": 0,
+          "statement": "GitHub Pages publishes the complete Onychophora ITIS summary and canonical hashes without row shards."
+        },
+        "native-full": {
+          "payload": "complete",
+          "files": [
+            "other-animals/itis-onychophora-sidecar-0000.jsonl.gz",
+            "other-animals/itis-onychophora-upstream-only-0000.jsonl.gz"
+          ],
+          "records": 235,
+          "totalCompressedBytes": 8179,
+          "totalSourceBytes": 92051
+        }
+      },
+      "limitations": [
+        "This CC0 ITIS sidecar is a frozen exact nomenclatural crosswalk for the declared Onychophora partition inside the mixed Other Animals resource pack. It is not a global onychophoran checklist, final classification authority, phylogeny, species-concept equivalence assertion, biological dossier or scientific-review record.",
+        "No fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered or taxon-substituted matching is used."
+      ],
+      "integration": {
+        "clientParityRequirement": "Android and iOS must copy every native-full file byte-for-byte; Web uses the web-light summary profile.",
+        "lookup": {
+          "strategy": "lexicographic-colId-range-v1",
+          "ordering": "Unicode code-unit ascending",
+          "requestPolicy": "Select the sole inclusive COL-ID range and read at most one COL partition; upstream-only files are never selected by COL ID."
+        }
+      }
+    },
+    {
+      "id": "itis-hemichordata-tsn-crosswalk",
+      "recordType": "release-pinned-exact-nomenclatural-crosswalk",
+      "provider": "Integrated Taxonomic Information System",
+      "source": {
+        "datasetId": "itis-2026-08-26",
+        "exportDate": "2026-08-26",
+        "rootTsn": "158616",
+        "license": "CC0-1.0",
+        "citationDoi": "10.5066/F7KH0KBK",
+        "canonicalDescriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals/itis-hemichordata-sidecar.json",
+        "canonicalDescriptorBytes": 6463,
+        "canonicalDescriptorSha256": "3bb015c1acbeff9d3c70eaa721621b666fc3751646ef27c1c989cf897c304033"
+      },
+      "scope": {
+        "colRootUsageId": "4R",
+        "colRootScientificName": "Hemichordata",
+        "colStrictAcceptedSpecies": 132,
+        "colRootStrictAcceptedSpecies": 139,
+        "colRootExcludedFromPackage": 7,
+        "packageStrictAcceptedSpecies": 99161,
+        "packageOutOfScopeStrictAcceptedSpecies": 99029,
+        "boundary": "other-animals is the deterministic Animalia remainder after more-specific static-package routes. This sidecar covers only the strict accepted COL26.8 Hemichordata species owned by the Other Animals package; seven Hemichordata species are outside that package boundary and therefore are not duplicated here."
+      },
+      "matching": {
+        "normalization": [
+          "Remove the exact trailing COL authorship field from COL scientificName when that suffix is present; no authorship parser is used.",
+          "Normalize Unicode to NFC, replace underscores with spaces, collapse Unicode whitespace and trim.",
+          "For species-rank comparison, remove one parenthesized subgenus token in the exact Genus (Subgenus) species representation; genus and specific epithet must remain unchanged.",
+          "Preserve case, diacritics, punctuation and all remaining name tokens."
+        ],
+        "statuses": {
+          "accepted": "The normalized COL name resolves to exactly one valid ITIS Hemichordata species and directly equals that current ITIS name.",
+          "synonym-current-name-redirect": "The normalized COL name equals official ITIS invalid species-name evidence that resolves to exactly one valid ITIS Hemichordata species.",
+          "ambiguous": "The normalized exact evidence resolves to more than one valid ITIS Hemichordata species TSN.",
+          "unmatched": "No normalized exact valid-name or official ITIS species-synonym evidence resolves to a valid ITIS Hemichordata species."
+        },
+        "prohibited": "No fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered or taxon-substituted matching is used."
+      },
+      "evidenceBoundary": {
+        "en": "This CC0 ITIS sidecar is a frozen exact nomenclatural crosswalk for the declared Hemichordata partition inside the mixed Other Animals resource pack. It is not a global hemichordate checklist, final classification authority, phylogeny, species-concept equivalence assertion, biological dossier or scientific-review record.",
+        "zh": "此 CC0 ITIS 侧车是混合“其他动物”资源包中所声明半索动物门分区的冻结严格命名交叉映射；它不是全球半索动物名录、最终分类权威、系统发育树、物种概念等同性声明、生物档案或科学审查记录。"
+      },
+      "counts": {
+        "eligible": 132,
+        "records": 139,
+        "accepted": 132,
+        "redirects": 0,
+        "ambiguous": 0,
+        "unmatched": 0,
+        "withheld": 0,
+        "upstreamOnly": 7,
+        "nonApplicable": 99029
+      },
+      "files": [
+        {
+          "path": "other-animals/itis-hemichordata-sidecar-0000.jsonl.gz",
+          "records": 132,
+          "bytes": 4902,
+          "sourceBytes": 51827,
+          "sha256": "8b1cc298f57d90aa422d34d3fda7cddca78d47180e839888b80e852c7ae26515",
+          "sourceSha256": "e5a7b527ede327e332a10465e34b98a40591fb2ce537540b7cb6af1dbdd8f7dd",
+          "encoding": "gzip",
+          "mediaType": "application/x-ndjson",
+          "minColId": "3G57H",
+          "maxColId": "WXWD",
+          "role": "col-partition"
+        },
+        {
+          "path": "other-animals/itis-hemichordata-upstream-only-0000.jsonl.gz",
+          "records": 7,
+          "bytes": 359,
+          "sourceBytes": 2536,
+          "sha256": "22545f7435ac173c92ba521633b5bba0906cd596561b7d4a9bdd66e026ab5aba",
+          "sourceSha256": "47fce462ec8cfe2d6c83361966e45c1c8e0f777f64eb997bb0f3f721d60c524f",
+          "encoding": "gzip",
+          "mediaType": "application/x-ndjson",
+          "colOwnership": null,
+          "role": "upstream-only"
+        }
+      ],
+      "totalCompressedBytes": 5261,
+      "totalSourceBytes": 54363,
+      "deliveryProfiles": {
+        "web-light": {
+          "payload": "summary-only",
+          "files": [],
+          "records": 0,
+          "totalCompressedBytes": 0,
+          "totalSourceBytes": 0,
+          "statement": "GitHub Pages publishes the complete Hemichordata ITIS summary and canonical hashes without row shards."
+        },
+        "native-full": {
+          "payload": "complete",
+          "files": [
+            "other-animals/itis-hemichordata-sidecar-0000.jsonl.gz",
+            "other-animals/itis-hemichordata-upstream-only-0000.jsonl.gz"
+          ],
+          "records": 139,
+          "totalCompressedBytes": 5261,
+          "totalSourceBytes": 54363
+        }
+      },
+      "limitations": [
+        "This CC0 ITIS sidecar is a frozen exact nomenclatural crosswalk for the declared Hemichordata partition inside the mixed Other Animals resource pack. It is not a global hemichordate checklist, final classification authority, phylogeny, species-concept equivalence assertion, biological dossier or scientific-review record.",
+        "No fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered or taxon-substituted matching is used."
+      ],
+      "integration": {
+        "clientParityRequirement": "Android and iOS must copy every native-full file byte-for-byte; Web uses the web-light summary profile.",
+        "lookup": {
+          "strategy": "lexicographic-colId-range-v1",
+          "ordering": "Unicode code-unit ascending",
+          "requestPolicy": "Select the sole inclusive COL-ID range and read at most one COL partition; upstream-only files are never selected by COL ID."
+        }
+      }
+    },
+    {
+      "id": "itis-sipuncula-tsn-crosswalk",
+      "recordType": "release-pinned-exact-nomenclatural-crosswalk",
+      "provider": "Integrated Taxonomic Information System",
+      "source": {
+        "datasetId": "itis-2026-08-26",
+        "exportDate": "2026-08-26",
+        "rootTsn": "154520",
+        "license": "CC0-1.0",
+        "citationDoi": "10.5066/F7KH0KBK",
+        "canonicalDescriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals/itis-sipuncula-sidecar.json",
+        "canonicalDescriptorBytes": 5657,
+        "canonicalDescriptorSha256": "b18433cd4ec42f05a33fd48f3af8735c2c689e939effcd750aedc45219071893"
+      },
+      "scope": {
+        "colRootUsageId": "63",
+        "colRootScientificName": "Sipuncula",
+        "colStrictAcceptedSpecies": 146,
+        "packageStrictAcceptedSpecies": 99161,
+        "packageOutOfScopeStrictAcceptedSpecies": 99015,
+        "packageOwnership": "other-animals is the deterministic COL26.8 residual route below Animalia (N); Sipuncula 63 has no more-specific static-package route.",
+        "nonApplicableBoundary": "All other-animals strict accepted species not descending from 63 are non-applicable to this Sipuncula sidecar. They remain in the mixed resource pack and are not silently mapped to ITIS Sipuncula.",
+        "sourceComposition": {
+          "2144": 146
+        }
+      },
+      "matching": {
+        "normalization": [
+          "Remove the exact trailing COL authorship field from COL scientificName when that suffix is present; no authorship parser is used.",
+          "Normalize Unicode to NFC, replace underscores with spaces, collapse Unicode whitespace and trim.",
+          "For species-rank comparison, remove one parenthesized subgenus token in the exact Genus (Subgenus) species representation; genus and specific epithet must remain unchanged.",
+          "Preserve case, diacritics, punctuation and all remaining name tokens."
+        ],
+        "statuses": {
+          "accepted": "The normalized COL name resolves to exactly one valid ITIS Sipuncula species and directly equals that current ITIS name.",
+          "synonym-current-name-redirect": "The normalized COL name equals official ITIS invalid species-name evidence that resolves to exactly one valid ITIS Sipuncula species.",
+          "ambiguous": "The normalized exact evidence resolves to more than one valid ITIS Sipuncula species TSN.",
+          "unmatched": "No normalized exact valid-name or official ITIS species-synonym evidence resolves to a valid ITIS Sipuncula species."
+        },
+        "prohibited": "No fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered or taxon-substituted matching is used."
+      },
+      "evidenceBoundary": {
+        "en": "This CC0 ITIS sidecar is a frozen exact nomenclatural crosswalk for the COL26.8 Sipuncula partition. It is not a final classification authority, phylogeny, species-concept equivalence assertion, biological dossier, fossil record or scientific-review record. The other-animals resource pack is mixed; its non-Sipuncula remainder is explicitly out of scope.",
+        "zh": "此 CC0 ITIS 侧车是 COL26.8 星虫动物门分区的冻结严格命名交叉映射；它不是最终分类权威、系统发育树、物种概念等同性声明、生物档案、化石记录或科学审查记录。other-animals 是混合资源包，其余非星虫动物物种明确排除在本侧车之外。"
+      },
+      "counts": {
+        "eligible": 146,
+        "records": 205,
+        "accepted": 146,
+        "redirects": 0,
+        "ambiguous": 0,
+        "unmatched": 0,
+        "withheld": 0,
+        "upstreamOnly": 59,
+        "nonApplicable": 99015
+      },
+      "files": [
+        {
+          "path": "other-animals/itis-sipuncula-sidecar-000.jsonl.gz",
+          "records": 146,
+          "bytes": 5287,
+          "sourceBytes": 57346,
+          "sha256": "82bc857998d4f8d332f6c2fb555967082a84eebdf568ddb0ac54622f56a6ffbd",
+          "sourceSha256": "347394003d545468eeeda6d99c1e7bd8f447bcad4c3ea06be7659b534f5891ea",
+          "encoding": "gzip",
+          "mediaType": "application/x-ndjson",
+          "minColId": "3GRNT",
+          "maxColId": "HHMC",
+          "role": "col-partition"
+        },
+        {
+          "path": "other-animals/itis-sipuncula-upstream-only-000.jsonl.gz",
+          "records": 59,
+          "bytes": 1119,
+          "sourceBytes": 22787,
+          "sha256": "599ae5f9c68a95ab6116a771a35d3811f988c2596b9b9b4c669d336d8091fffc",
+          "sourceSha256": "78cb9c7db9a825e7c7c65be98f0c0f3b1d7e16c92b5b98fb8a2898e2c4825ff3",
+          "encoding": "gzip",
+          "mediaType": "application/x-ndjson",
+          "colOwnership": null,
+          "role": "upstream-only"
+        }
+      ],
+      "totalCompressedBytes": 6406,
+      "totalSourceBytes": 80133,
+      "deliveryProfiles": {
+        "web-light": {
+          "payload": "summary-only",
+          "files": [],
+          "records": 0,
+          "totalCompressedBytes": 0,
+          "totalSourceBytes": 0,
+          "statement": "GitHub Pages publishes the complete Sipuncula ITIS summary and canonical hashes without row shards."
+        },
+        "native-full": {
+          "payload": "complete",
+          "files": [
+            "other-animals/itis-sipuncula-sidecar-000.jsonl.gz",
+            "other-animals/itis-sipuncula-upstream-only-000.jsonl.gz"
+          ],
+          "records": 205,
+          "totalCompressedBytes": 6406,
+          "totalSourceBytes": 80133
+        }
+      },
+      "limitations": [
+        "This CC0 ITIS sidecar is a frozen exact nomenclatural crosswalk for the COL26.8 Sipuncula partition. It is not a final classification authority, phylogeny, species-concept equivalence assertion, biological dossier, fossil record or scientific-review record. The other-animals resource pack is mixed; its non-Sipuncula remainder is explicitly out of scope.",
+        "No fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered or taxon-substituted matching is used."
+      ],
+      "integration": {
+        "clientParityRequirement": "Android and iOS must copy every native-full file byte-for-byte; Web uses the web-light summary profile.",
+        "lookup": {
+          "strategy": "lexicographic-colId-range-v1",
+          "ordering": "Unicode code-unit ascending",
+          "requestPolicy": "Select the sole inclusive COL-ID range and read at most one COL partition; upstream-only files are never selected by COL ID."
+        }
+      }
+    },
+    {
+      "id": "itis-nematomorpha-tsn-crosswalk",
+      "recordType": "release-pinned-exact-nomenclatural-crosswalk",
+      "provider": "Integrated Taxonomic Information System",
+      "source": {
+        "datasetId": "itis-2026-08-26",
+        "exportDate": "2026-08-26",
+        "rootTsn": "64183",
+        "license": "CC0-1.0",
+        "citationDoi": "10.5066/F7KH0KBK",
+        "canonicalDescriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals/itis-nematomorpha-sidecar.json",
+        "canonicalDescriptorBytes": 7255,
+        "canonicalDescriptorSha256": "3cb8e2ce98e3f0d6be8cf8b20b53959ca45a7d1be0667d03c7c1431b480abea2"
+      },
+      "scope": {
+        "colRootUsageId": "5B",
+        "colRootScientificName": "Nematomorpha",
+        "colStrictAcceptedSpecies": 356,
+        "packageStrictAcceptedSpecies": 99161,
+        "packageOutOfScopeStrictAcceptedSpecies": 98805,
+        "packageOwnership": "other-animals is the deterministic COL26.8 residual route below Animalia (N); Nematomorpha 5B has no more-specific static-package route.",
+        "nonApplicableBoundary": "All other-animals strict accepted species not descending from 5B are non-applicable to this Nematomorpha sidecar. They remain in the mixed resource pack and are not silently mapped to ITIS Nematomorpha.",
+        "sourceComposition": {
+          "1119": 356
+        }
+      },
+      "matching": {
+        "normalization": [
+          "Remove the exact trailing COL authorship field from COL scientificName when that suffix is present; no authorship parser is used.",
+          "Normalize Unicode to NFC, replace underscores with spaces, collapse Unicode whitespace and trim.",
+          "For species-rank comparison, remove one parenthesized subgenus token in the exact Genus (Subgenus) species representation; genus and specific epithet must remain unchanged.",
+          "Preserve case, diacritics, punctuation and all remaining name tokens."
+        ],
+        "statuses": {
+          "accepted": "The normalized COL name resolves to exactly one valid ITIS Nematomorpha species and directly equals that current ITIS name.",
+          "synonym-current-name-redirect": "The normalized COL name equals official ITIS invalid species-name evidence that resolves to exactly one valid ITIS Nematomorpha species.",
+          "ambiguous": "The normalized exact evidence resolves to more than one valid ITIS Nematomorpha species TSN.",
+          "unmatched": "No normalized exact valid-name or official ITIS species-synonym evidence resolves to a valid ITIS Nematomorpha species."
+        },
+        "prohibited": "No fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered or taxon-substituted matching is used."
+      },
+      "evidenceBoundary": {
+        "en": "This CC0 ITIS sidecar is a frozen exact nomenclatural crosswalk for the COL26.8 Nematomorpha partition. It is not a final classification authority, phylogeny, species-concept equivalence assertion, biological dossier, fossil record or scientific-review record. The other-animals resource pack is mixed; its non-Nematomorpha remainder is explicitly out of scope.",
+        "zh": "此 CC0 ITIS 侧车是 COL26.8 Nematomorpha 分区的冻结严格命名交叉映射；它不是最终分类权威、系统发育树、物种概念等同性声明、生物档案、化石记录或科学审查记录。other-animals 资源包是混合包，其余非 Nematomorpha 物种被明确排除在本侧车之外。"
+      },
+      "counts": {
+        "eligible": 356,
+        "records": 404,
+        "accepted": 187,
+        "redirects": 6,
+        "ambiguous": 0,
+        "unmatched": 163,
+        "withheld": 0,
+        "upstreamOnly": 48,
+        "nonApplicable": 98805
+      },
+      "files": [
+        {
+          "path": "other-animals/itis-nematomorpha-sidecar-000.jsonl.gz",
+          "records": 356,
+          "bytes": 9729,
+          "sourceBytes": 104583,
+          "sha256": "e94580356963ebf1bbc8134447a108b6b043106c5a9c1c25eca74fee1173fb38",
+          "sourceSha256": "19c9f5e436bb2d9cecf1940e8e5d4f11126b6f6265b495c2bb1c61296bcd898f",
+          "encoding": "gzip",
+          "mediaType": "application/x-ndjson",
+          "minColId": "3BT8G",
+          "maxColId": "L5H4",
+          "role": "col-partition"
+        },
+        {
+          "path": "other-animals/itis-nematomorpha-upstream-only-000.jsonl.gz",
+          "records": 48,
+          "bytes": 914,
+          "sourceBytes": 18142,
+          "sha256": "0e8ec2717ef7daf8954fe91d245be2937302fcdf3310920f74efabfe3292ca99",
+          "sourceSha256": "b315b752135ff72a3a42b1bb859f83c7c1d2f03735128ce51199b5b669c25572",
+          "encoding": "gzip",
+          "mediaType": "application/x-ndjson",
+          "colOwnership": null,
+          "role": "upstream-only"
+        }
+      ],
+      "totalCompressedBytes": 10643,
+      "totalSourceBytes": 122725,
+      "deliveryProfiles": {
+        "web-light": {
+          "payload": "summary-only",
+          "files": [],
+          "records": 0,
+          "totalCompressedBytes": 0,
+          "totalSourceBytes": 0,
+          "statement": "GitHub Pages publishes the complete Nematomorpha ITIS summary and canonical hashes without row shards."
+        },
+        "native-full": {
+          "payload": "complete",
+          "files": [
+            "other-animals/itis-nematomorpha-sidecar-000.jsonl.gz",
+            "other-animals/itis-nematomorpha-upstream-only-000.jsonl.gz"
+          ],
+          "records": 404,
+          "totalCompressedBytes": 10643,
+          "totalSourceBytes": 122725
+        }
+      },
+      "limitations": [
+        "This CC0 ITIS sidecar is a frozen exact nomenclatural crosswalk for the COL26.8 Nematomorpha partition. It is not a final classification authority, phylogeny, species-concept equivalence assertion, biological dossier, fossil record or scientific-review record. The other-animals resource pack is mixed; its non-Nematomorpha remainder is explicitly out of scope.",
+        "No fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered or taxon-substituted matching is used."
+      ],
+      "integration": {
+        "clientParityRequirement": "Android and iOS must copy every native-full file byte-for-byte; Web uses the web-light summary profile.",
+        "lookup": {
+          "strategy": "lexicographic-colId-range-v1",
+          "ordering": "Unicode code-unit ascending",
+          "requestPolicy": "Select the sole inclusive COL-ID range and read at most one COL partition; upstream-only files are never selected by COL ID."
+        }
+      }
     }
   ]
 }

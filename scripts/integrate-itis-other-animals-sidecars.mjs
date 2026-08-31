@@ -24,6 +24,17 @@ const taxa = [
   { slug: 'nemertea', label: 'Nemertea' },
   { slug: 'tunicata-cephalochordata', label: 'Tunicata and Cephalochordata' },
   { slug: 'acanthocephala', label: 'Acanthocephala' },
+  { slug: 'entoprocta', label: 'Entoprocta' },
+  { slug: 'tardigrada', label: 'Tardigrada' },
+  { slug: 'chaetognatha', label: 'Chaetognatha' },
+  { slug: 'ctenophora', label: 'Ctenophora' },
+  { slug: 'kinorhyncha', label: 'Kinorhyncha' },
+  { slug: 'gastrotricha', label: 'Gastrotricha' },
+  { slug: 'priapulida', label: 'Priapulida' },
+  { slug: 'onychophora', label: 'Onychophora' },
+  { slug: 'hemichordata', label: 'Hemichordata' },
+  { slug: 'sipuncula', label: 'Sipuncula' },
+  { slug: 'nematomorpha', label: 'Nematomorpha' },
 ]
 
 const bryozoaPath = join(packRoot, 'itis-bryozoa-sidecar.json')
