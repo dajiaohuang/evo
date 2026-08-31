@@ -78,7 +78,7 @@ describe('ITIS Insecta exact sidecar shards', () => {
     expect(rows.filter((row) => row.status === 'synonym-current-name-redirect').every((row) => row.matchedSynonyms.length > 0 && row.matchedSynonyms.every((synonym) => normalizeScientificName(synonym.scientificName) === row.exactMatchName))).toBe(true)
     expect(rows.filter((row) => row.status === 'ambiguous').every((row) => row.candidates.length > 1)).toBe(true)
     expect(rows.filter((row) => row.status === 'unmatched').every((row) => !('currentName' in row))).toBe(true)
-    for (const row of rows) expect(locate(files, row.colUsageId)).not.toBeNull()
+    expect(rows.every((row) => locate(files, row.colUsageId) !== null)).toBe(true)
   }, 20_000)
 
   it('keeps ITIS-only current species in a separate null-COL shard and preserves the stated delivery boundary', () => {
