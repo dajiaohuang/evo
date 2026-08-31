@@ -768,6 +768,82 @@ export async function loadCatalogueItisOtherAnimalsRecord(
   return record ? { extension, record } : null
 }
 
+const itisProtistsContracts: Record<import('./types').CatalogueItisProtistsScope, {
+  eligible: number
+  accepted: number
+  redirects: number
+  ambiguous: number
+  unmatched: number
+  upstreamOnly: number
+  nonApplicable: number
+  canonicalFileCount: number
+}> = {
+  ciliophora: { eligible: 8507, accepted: 246, redirects: 6, ambiguous: 0, unmatched: 8255, upstreamOnly: 158, nonApplicable: 53011, canonicalFileCount: 4 },
+  apicomplexa: { eligible: 21, accepted: 21, redirects: 0, ambiguous: 0, unmatched: 0, upstreamOnly: 0, nonApplicable: 61497, canonicalFileCount: 1 },
+  dinoflagellata: { eligible: 259, accepted: 60, redirects: 2, ambiguous: 0, unmatched: 197, upstreamOnly: 851, nonApplicable: 61259, canonicalFileCount: 2 },
+  euglenozoa: { eligible: 0, accepted: 0, redirects: 0, ambiguous: 0, unmatched: 0, upstreamOnly: 276, nonApplicable: 61518, canonicalFileCount: 1 },
+  cercozoa: { eligible: 52, accepted: 0, redirects: 0, ambiguous: 0, unmatched: 52, upstreamOnly: 0, nonApplicable: 61466, canonicalFileCount: 1 },
+  haptophyta: { eligible: 0, accepted: 0, redirects: 0, ambiguous: 0, unmatched: 0, upstreamOnly: 90, nonApplicable: 61518, canonicalFileCount: 1 },
+  ochrophyta: { eligible: 1101, accepted: 1097, redirects: 0, ambiguous: 4, unmatched: 0, upstreamOnly: 2296, nonApplicable: 60417, canonicalFileCount: 2 },
+  amoebozoa: { eligible: 1337, accepted: 0, redirects: 0, ambiguous: 0, unmatched: 1337, upstreamOnly: 0, nonApplicable: 60181, canonicalFileCount: 1 },
+  rhodophyta: { eligible: 0, accepted: 0, redirects: 0, ambiguous: 0, unmatched: 0, upstreamOnly: 1616, nonApplicable: 61518, canonicalFileCount: 1 },
+  oomycota: { eligible: 1426, accepted: 46, redirects: 0, ambiguous: 0, unmatched: 1380, upstreamOnly: 38, nonApplicable: 60092, canonicalFileCount: 2 },
+  cryptophyta: { eligible: 0, accepted: 0, redirects: 0, ambiguous: 0, unmatched: 0, upstreamOnly: 0, nonApplicable: 61518, canonicalFileCount: 0 },
+  choanoflagellatea: { eligible: 0, accepted: 0, redirects: 0, ambiguous: 0, unmatched: 0, upstreamOnly: 0, nonApplicable: 61518, canonicalFileCount: 0 },
+  bigyra: { eligible: 53, accepted: 0, redirects: 0, ambiguous: 0, unmatched: 53, upstreamOnly: 0, nonApplicable: 61465, canonicalFileCount: 1 },
+  perkinsozoa: { eligible: 0, accepted: 0, redirects: 0, ambiguous: 0, unmatched: 0, upstreamOnly: 0, nonApplicable: 61518, canonicalFileCount: 0 },
+}
+
+export async function loadCatalogueItisProtistsRecord(
+  scope: import('./types').CatalogueItisProtistsScope,
+  colUsageId: string,
+): Promise<{
+  extension: import('./types').CatalogueItisProtistsResourcePackExtension
+  record: import('./types').ItisNomenclatureRecord
+} | null> {
+  const expected = itisProtistsContracts[scope]
+  const manifest = await loadCatalogueResourcePackManifest('protists-chromists')
+  const expectedId = `itis-${scope}-tsn-crosswalk`
+  const extension = manifest.extensions?.find((candidate): candidate is import('./types').CatalogueItisProtistsResourcePackExtension => candidate.id === expectedId)
+  if (!extension || extension.provider !== 'Integrated Taxonomic Information System'
+    || extension.recordType !== 'release-pinned-exact-nomenclatural-crosswalk'
+    || extension.source.license !== 'CC0-1.0'
+    || extension.integration.lookup.strategy !== 'lexicographic-colId-range-v1'
+    || extension.counts.eligible !== expected.eligible
+    || extension.counts.accepted !== expected.accepted
+    || extension.counts.redirects !== expected.redirects
+    || extension.counts.ambiguous !== expected.ambiguous
+    || extension.counts.unmatched !== expected.unmatched
+    || extension.counts.upstreamOnly !== expected.upstreamOnly
+    || extension.counts.nonApplicable !== expected.nonApplicable
+    || extension.counts.withheld !== 0
+    || extension.counts.records !== expected.eligible + expected.upstreamOnly
+    || extension.delivery.canonicalFileCount !== expected.canonicalFileCount
+    || extension.canonicalFileInventory.length !== expected.canonicalFileCount) {
+    throw new Error(`ITIS ${scope} authority extension does not match the pinned COL26.8 protists/chromists resource pack`)
+  }
+  if (!extension.delivery.completeRows || extension.delivery.profile !== 'native-full') {
+    throw new Error(`ITIS ${scope} row-level records are available in the full Android/iOS data profile; Web publishes the verified coverage summary only`)
+  }
+  if (expected.eligible === 0) return null
+  const rangeFiles = extension.files.filter((file) => file.minColId && file.maxColId)
+  const expectedUpstreamFiles = expected.upstreamOnly > 0 ? 1 : 0
+  if (rangeFiles.length !== expected.canonicalFileCount - expectedUpstreamFiles
+    || rangeFiles.reduce((sum, file) => sum + file.records, 0) !== expected.eligible) {
+    throw new Error(`ITIS ${scope} authority extension does not publish its complete COL partition`)
+  }
+  const file = selectAuthorityShard(rangeFiles, colUsageId, `ITIS ${scope}`)
+  const records = await loadRuntimeFile<import('./types').ItisNomenclatureRecord[]>(file)
+  const allowedStatuses = new Set<import('./types').ItisMappingStatus>(['accepted', 'synonym-current-name-redirect', 'ambiguous', 'unmatched'])
+  if (records.length !== file.records || records[0]?.colUsageId !== file.minColId || records.at(-1)?.colUsageId !== file.maxColId
+    || records.some((record, index) => !allowedStatuses.has(record.status)
+      || (index > 0 && compareCodeUnits(records[index - 1].colUsageId, record.colUsageId) >= 0))) {
+    throw new Error(`ITIS ${scope} authority shard contents do not match its range descriptor`)
+  }
+  const record = records.find((candidate) => candidate.colUsageId === colUsageId)
+  return record ? { extension, record } : null
+}
+
 export async function loadCatalogueWfoPlantSupplement(): Promise<{
   extension: import('./types').CatalogueWfoPlantResourcePackExtension
   records: import('./types').WfoPlantRecord[]
