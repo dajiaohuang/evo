@@ -1,5 +1,13 @@
 # Dataset changelog
 
+## App 0.20.33 / 2026.09-static-v5-rc82 — 2026-09-01
+
+- Expanded Early fishes, Sponges and cnidarians, and Carnivora from three to five complete bilingual profiles each: Tujiaaspis vividus, Xiushanosteus mirabilis, Haootia quadriformis, Xianguangia sinica, Hesperocyon and genus-level Enaliarctos.
+- Added 26 field-linked primary-evidence claims, increasing the atlas from 91 to 97 complete profiles, 397 to 399 navigation nodes and 1,124 to 1,150 claims. Every new visible field retains a locator-bearing claim and Chinese translation.
+- Kept the Chongqing fish records within a 438.6–432.9 Ma Telychian sample envelope; retained Haootia, Xianguangia and Enaliarctos as specimen-, locality- or study-bounded displays. LACM 4321 now uses the primary report's explicitly approximate 23 Ma age rather than an unsupported 24–22 Ma interval.
+- Corrected the Wang 1994 Hesperocyoninae reference to the official AMNH handle `2246/829`, removed the DOI belonging to the 2009 Caninae monograph, aligned the Enaliarctos scientific name with its genus rank and corrected LACM 4321 to a virtually complete skeleton.
+- Retained exactly three research scenes per rich package while retargeting the updated map and comparison routes to source-matched windows. Pages remains `web-light`; Android and iOS build `36` retain every profile plus the full catalogue, authority shards and all 109 lossless 0.1° PaleoDEM frames.
+
 ## App 0.20.32 / 2026.09-static-v5-rc81 — 2026-09-01
 
 - Expanded Early land plants, Gymnosperms, and Crocodylomorphs and birds from two to four complete bilingual profiles each: Aglaophyton, Horneophyton, Coniferophyta, Araucariaceae, Carnufex and Asteriornis.
