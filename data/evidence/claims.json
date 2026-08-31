@@ -24440,5 +24440,240 @@
         "quoteLocator": "Mean body-mass estimate and discussion of possible littoral ecology"
       }
     ]
+  },
+  {
+    "id": "claim:taxon:aglaophyton:taxonomy",
+    "subjectId": "taxon:aglaophyton",
+    "claimType": "taxonomy",
+    "claimKind": "scientific",
+    "statement": "Edwards established Aglaophyton for the plant formerly called Rhynia major after re-examining new and historical material; the profile preserves the paper's refusal to assign the genus to a living higher group.",
+    "confidence": "high",
+    "confidenceRationale": "The primary redescription explicitly names the genus, gives its basis and discusses higher placement. High confidence is restricted to that taxonomic act and does not imply direct ancestry or current consensus on every higher relationship.",
+    "reviewedBy": "Evo Atlas maintainer primary-source audit",
+    "reviewedAt": "2026-09-01",
+    "reviewedAgainstReferenceVersion": "Edwards 1986 DOI 10.1111/j.1095-8339.1986.tb01020.x",
+    "referenceLinks": [
+      {
+        "referenceId": "edwards-1986-aglaophyton",
+        "relation": "supports",
+        "pages": "173–204",
+        "figure": "Reconstruction and conducting-strand figures",
+        "quoteLocator": "Abstract; generic diagnosis; redescription and systematic discussion"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:aglaophyton:biogeography",
+    "subjectId": "taxon:aglaophyton",
+    "claimType": "biogeography",
+    "claimKind": "scientific",
+    "statement": "The profiled Aglaophyton major material is from the Rhynie Chert of Aberdeenshire, Scotland; this named deposit does not establish the genus's complete geographic distribution or centre of origin.",
+    "confidence": "high",
+    "confidenceRationale": "The anatomical paper identifies the Rhynie Chert source and the geochronology paper independently identifies the Rhynie Outlier. High confidence applies only to the represented material and locality.",
+    "reviewedBy": "Evo Atlas maintainer primary-source audit",
+    "reviewedAt": "2026-09-01",
+    "reviewedAgainstReferenceVersion": "Edwards 1986 DOI 10.1111/j.1095-8339.1986.tb01020.x; Parry et al. 2011 DOI 10.1144/0016-76492010-043",
+    "referenceLinks": [
+      {
+        "referenceId": "edwards-1986-aglaophyton",
+        "relation": "supports",
+        "pages": "173–204",
+        "quoteLocator": "Title, material and Rhynie Chert provenance"
+      },
+      {
+        "referenceId": "parry-2011-rhynie-age",
+        "relation": "contextualizes",
+        "pages": "863–872",
+        "figure": "Figure 1",
+        "quoteLocator": "Rhynie Outlier geological setting"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:aglaophyton:ecology",
+    "subjectId": "taxon:aglaophyton",
+    "claimType": "ecology",
+    "claimKind": "scientific",
+    "statement": "The Aglaophyton reconstruction includes extensive stands of decumbent axes with upright branches, but the fossil study did not measure carbon acquisition, population breadth or a genus-wide ecological guild.",
+    "confidence": "medium",
+    "confidenceRationale": "Axis orientation and the stand reconstruction are results of the sampled anatomy, whereas detailed physiology and population ecology were not observed. Medium confidence marks this boundary between reconstruction and unavailable ecology.",
+    "reviewedBy": "Evo Atlas maintainer primary-source audit",
+    "reviewedAt": "2026-09-01",
+    "reviewedAgainstReferenceVersion": "Edwards 1986 DOI 10.1111/j.1095-8339.1986.tb01020.x",
+    "referenceLinks": [
+      {
+        "referenceId": "edwards-1986-aglaophyton",
+        "relation": "supports",
+        "pages": "173–204",
+        "figure": "Whole-plant reconstruction",
+        "quoteLocator": "Abstract; growth-form reconstruction and discussion"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:aglaophyton:morphology",
+    "subjectId": "taxon:aglaophyton",
+    "claimType": "morphology",
+    "claimKind": "scientific",
+    "statement": "Aglaophyton major was reconstructed with decumbent axes, dichotomously branching upright axes and terminal sporangia; its three-zoned conducting strand lacks the differential wall thickenings used to diagnose tracheids.",
+    "confidence": "high",
+    "confidenceRationale": "The primary redescription reports the reconstruction and conducting-strand zones directly from re-examined material. High confidence applies to the studied sample and diagnosis, not to function in every axis or higher-group placement.",
+    "reviewedBy": "Evo Atlas maintainer primary-source audit",
+    "reviewedAt": "2026-09-01",
+    "reviewedAgainstReferenceVersion": "Edwards 1986 DOI 10.1111/j.1095-8339.1986.tb01020.x",
+    "referenceLinks": [
+      {
+        "referenceId": "edwards-1986-aglaophyton",
+        "relation": "supports",
+        "pages": "173–204",
+        "figure": "Reconstruction and conducting-strand figures",
+        "quoteLocator": "Abstract; reconstruction; conducting-strand description and rediagnosis"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:aglaophyton:fossil-range",
+    "subjectId": "taxon:aglaophyton",
+    "claimType": "fossil-range",
+    "claimKind": "scientific",
+    "statement": "The displayed 412.8–410.2 Ma interval is the 411.5 ± 1.3 Ma U–Pb uncertainty window used for the represented Rhynie-chert material; it is not a global Aglaophyton first appearance, last appearance or lineage duration.",
+    "confidence": "medium",
+    "confidenceRationale": "The geochronology study directly reports the zircon age and uncertainty, while the anatomical paper ties the profiled material to Rhynie. Confidence remains medium because the dated andesite constrains the deposit rather than directly dating each fossil specimen.",
+    "reviewedBy": "Evo Atlas maintainer primary-source audit",
+    "reviewedAt": "2026-09-01",
+    "reviewedAgainstReferenceVersion": "Parry et al. 2011 DOI 10.1144/0016-76492010-043; Edwards 1986 DOI 10.1111/j.1095-8339.1986.tb01020.x",
+    "referenceLinks": [
+      {
+        "referenceId": "parry-2011-rhynie-age",
+        "relation": "supports",
+        "pages": "863–872",
+        "figure": "Figures 1–4",
+        "quoteLocator": "Abstract; ID-TIMS methods and Results; 411.5 ± 1.3 Ma zircon age"
+      },
+      {
+        "referenceId": "edwards-1986-aglaophyton",
+        "relation": "contextualizes",
+        "pages": "173–204",
+        "quoteLocator": "Rhynie Chert material and redescription"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:horneophyton:taxonomy",
+    "subjectId": "taxon:horneophyton",
+    "claimType": "taxonomy",
+    "claimKind": "scientific",
+    "statement": "Kenrick and Long verified Horneophyton lignieri in a 24-section museum sample and selected three named NHMUK slides for detailed imaging; the profile does not turn the study's evolutionary interpretation into direct ancestry.",
+    "confidence": "high",
+    "confidenceRationale": "The primary study identifies the taxon, specimen pool, selected slides and verification method. High confidence applies to that sampled identity rather than every historical assignment or inferred ancestor state.",
+    "reviewedBy": "Evo Atlas maintainer primary-source audit",
+    "reviewedAt": "2026-09-01",
+    "reviewedAgainstReferenceVersion": "Kenrick and Long 2026 DOI 10.1111/nph.70850",
+    "referenceLinks": [
+      {
+        "referenceId": "kenrick-long-2026-horneophyton",
+        "relation": "supports",
+        "pages": "3149–3164",
+        "figure": "Figure 1; Supporting Information Methods S1",
+        "quoteLocator": "Materials and Methods; 24 sections, three selected slides and taxonomic verification"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:horneophyton:biogeography",
+    "subjectId": "taxon:horneophyton",
+    "claimType": "biogeography",
+    "claimKind": "scientific",
+    "statement": "The profiled Horneophyton lignieri slides contain Rhynie-chert material from Aberdeenshire, Scotland; this museum sample does not establish a complete geographic distribution or origin centre.",
+    "confidence": "high",
+    "confidenceRationale": "The primary anatomical and geochronological studies independently identify the Rhynie Chert and Rhynie Outlier. High confidence is limited to the represented deposit and does not infer absence elsewhere.",
+    "reviewedBy": "Evo Atlas maintainer primary-source audit",
+    "reviewedAt": "2026-09-01",
+    "reviewedAgainstReferenceVersion": "Kenrick and Long 2026 DOI 10.1111/nph.70850; Parry et al. 2011 DOI 10.1144/0016-76492010-043",
+    "referenceLinks": [
+      {
+        "referenceId": "kenrick-long-2026-horneophyton",
+        "relation": "supports",
+        "pages": "3149–3164",
+        "figure": "Figure 1",
+        "quoteLocator": "Study site and museum material; NHMUK PI In 24697, NHMUK OC 1938 and NHMUK SC 3137"
+      },
+      {
+        "referenceId": "parry-2011-rhynie-age",
+        "relation": "contextualizes",
+        "pages": "863–872",
+        "figure": "Figure 1",
+        "quoteLocator": "Rhynie Outlier geological setting"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:horneophyton:ecology",
+    "subjectId": "taxon:horneophyton",
+    "claimType": "ecology",
+    "claimKind": "scientific",
+    "statement": "The study context associates Horneophyton lignieri with Rhynie sinter surfaces and reconstructs a sessile rhizoid-bearing plant, but the selected thin sections do not measure ecological breadth, carbon acquisition or a population-wide guild.",
+    "confidence": "medium",
+    "confidenceRationale": "The paper reports the deposit context and reconstructed plant form but focuses experimentally on conducting-cell anatomy. Medium confidence distinguishes those contextual observations from unmeasured physiological and population ecology.",
+    "reviewedBy": "Evo Atlas maintainer primary-source audit",
+    "reviewedAt": "2026-09-01",
+    "reviewedAgainstReferenceVersion": "Kenrick and Long 2026 DOI 10.1111/nph.70850",
+    "referenceLinks": [
+      {
+        "referenceId": "kenrick-long-2026-horneophyton",
+        "relation": "supports",
+        "pages": "3149–3164",
+        "figure": "Figure 1",
+        "quoteLocator": "Introduction and study setting; reconstruction; Materials and Methods"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:horneophyton:morphology",
+    "subjectId": "taxon:horneophyton",
+    "claimType": "morphology",
+    "claimKind": "scientific",
+    "statement": "Confocal imaging of Horneophyton lignieri shows papillate or labyrinthine wall ingrowths in conducting cells and does not recover distinct xylem and phloem; resemblance to transfer cells and transport function remain interpretations.",
+    "confidence": "high",
+    "confidenceRationale": "Named slides, confocal optical sections, three-dimensional renderings and measured cell walls directly support the anatomical observations. High confidence does not extend to the inferred physiological role or a universal ancestral vascular system.",
+    "reviewedBy": "Evo Atlas maintainer primary-source audit",
+    "reviewedAt": "2026-09-01",
+    "reviewedAgainstReferenceVersion": "Kenrick and Long 2026 DOI 10.1111/nph.70850",
+    "referenceLinks": [
+      {
+        "referenceId": "kenrick-long-2026-horneophyton",
+        "relation": "supports",
+        "pages": "3149–3164",
+        "figure": "Figures 2–8; Supporting Figures S1–S5",
+        "quoteLocator": "Conducting-cell Results; transfer-cell comparison; xylem and phloem reassessment"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:horneophyton:fossil-range",
+    "subjectId": "taxon:horneophyton",
+    "claimType": "fossil-range",
+    "claimKind": "scientific",
+    "statement": "The displayed 412.8–410.2 Ma interval is the 411.5 ± 1.3 Ma U–Pb uncertainty window used for the represented Rhynie-chert Horneophyton material; it is not a global first appearance, last appearance or lineage duration.",
+    "confidence": "medium",
+    "confidenceRationale": "The geochronology study directly reports the zircon age and uncertainty, while the anatomical study ties the profiled slides to Rhynie. Confidence remains medium because the dated andesite constrains the deposit rather than directly dating each slide.",
+    "reviewedBy": "Evo Atlas maintainer primary-source audit",
+    "reviewedAt": "2026-09-01",
+    "reviewedAgainstReferenceVersion": "Parry et al. 2011 DOI 10.1144/0016-76492010-043; Kenrick and Long 2026 DOI 10.1111/nph.70850",
+    "referenceLinks": [
+      {
+        "referenceId": "parry-2011-rhynie-age",
+        "relation": "supports",
+        "pages": "863–872",
+        "figure": "Figures 1–4",
+        "quoteLocator": "Abstract; ID-TIMS methods and Results; 411.5 ± 1.3 Ma zircon age"
+      },
+      {
+        "referenceId": "kenrick-long-2026-horneophyton",
+        "relation": "contextualizes",
+        "pages": "3149–3164",
+        "quoteLocator": "Rhynie Chert material and named NHMUK slides"
+      }
+    ]
   }
 ]

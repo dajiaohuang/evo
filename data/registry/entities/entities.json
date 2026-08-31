@@ -15,8 +15,8 @@
     "synonyms": [],
     "rank": "not-applicable",
     "definition": {
-      "en": "Life is a navigation entry in Atlas Core Navigation. It is a bounded navigation scope for this node and 394 represented descendant nodes, with 1 directly linked source-backed claim; it is not a phylogeny, origin, direct-ancestry, date, ecology, distribution, or completeness claim.",
-      "zh": "地球生命（Life）是“图谱核心导航”中的导航条目。它为浏览此节点和394个已呈现的后代节点提供有限范围，并关联1项直接关联且带来源定位的证据主张；不表示系统发育、起源、直接祖先、年代、生态、分布或分类完整性。"
+      "en": "Life is a navigation entry in Atlas Core Navigation. It is a bounded navigation scope for this node and 396 represented descendant nodes, with 1 directly linked source-backed claim; it is not a phylogeny, origin, direct-ancestry, date, ecology, distribution, or completeness claim.",
+      "zh": "地球生命（Life）是“图谱核心导航”中的导航条目。它为浏览此节点和396个已呈现的后代节点提供有限范围，并关联1项直接关联且带来源定位的证据主张；不表示系统发育、起源、直接祖先、年代、生态、分布或分类完整性。"
     },
     "compositionScope": {
       "includesSelf": true,
@@ -40,6 +40,8 @@
         "fabaceae",
         "marchantiophyta",
         "anthocerotophyta",
+        "aglaophyton",
+        "horneophyton",
         "invertebrata",
         "porifera",
         "stromatoporoidea",
@@ -460,8 +462,8 @@
     "synonyms": [],
     "rank": "kingdom",
     "definition": {
-      "en": "Plantae is a kingdom navigation entry in Early Land-Plant Evidence, Bryophytes and Seed-Free Vascular Plants. It is a bounded navigation scope for this node and 18 represented descendant nodes, with 1 directly linked source-backed claim; it is not a phylogeny, origin, direct-ancestry, date, ecology, distribution, or completeness claim.",
-      "zh": "植物（Plantae）是“早期陆生植物证据、苔藓植物与无种子维管植物”中的导航条目。它为浏览此节点和18个已呈现的后代节点提供有限范围，并关联1项直接关联且带来源定位的证据主张；不表示系统发育、起源、直接祖先、年代、生态、分布或分类完整性。"
+      "en": "Plantae is a kingdom navigation entry in Early Land-Plant Evidence, Bryophytes and Seed-Free Vascular Plants. It is a bounded navigation scope for this node and 20 represented descendant nodes, with 1 directly linked source-backed claim; it is not a phylogeny, origin, direct-ancestry, date, ecology, distribution, or completeness claim.",
+      "zh": "植物（Plantae）是“早期陆生植物证据、苔藓植物与无种子维管植物”中的导航条目。它为浏览此节点和20个已呈现的后代节点提供有限范围，并关联1项直接关联且带来源定位的证据主张；不表示系统发育、起源、直接祖先、年代、生态、分布或分类完整性。"
     },
     "compositionScope": {
       "includesSelf": true,
@@ -483,7 +485,9 @@
         "eudicotyledones",
         "fabaceae",
         "marchantiophyta",
-        "anthocerotophyta"
+        "anthocerotophyta",
+        "aglaophyton",
+        "horneophyton"
       ]
     },
     "temporalRange": {
@@ -1472,6 +1476,112 @@
     "dataAvailability": {
       "narrativeProfile": "unavailable",
       "ecology": "unknown",
+      "media": "unavailable",
+      "topologyHypothesis": "unmapped"
+    },
+    "version": "2026.09-static-v5-rc80"
+  },
+  {
+    "id": "aglaophyton",
+    "entityKind": "taxon",
+    "contentLevel": "full-profile",
+    "externalResolutionStatus": "resolved-exact",
+    "packageId": "early-land-plants",
+    "parentId": "plantae",
+    "parentRelationshipKind": "navigation-parent",
+    "names": {
+      "scientific": "Aglaophyton",
+      "en": "Aglaophyton",
+      "zh": "阿格兰蕨属"
+    },
+    "synonyms": [],
+    "rank": "genus",
+    "definition": {
+      "en": "Aglaophyton is a genus navigation entry in Early Land-Plant Evidence, Bryophytes and Seed-Free Vascular Plants. It is a bounded navigation scope for this node only, with 5 directly linked source-backed claims; it is not a phylogeny, origin, direct-ancestry, date, ecology, distribution, or completeness claim.",
+      "zh": "阿格兰蕨属（Aglaophyton）是“早期陆生植物证据、苔藓植物与无种子维管植物”中的导航条目。它为浏览此节点本身提供有限范围，并关联5项直接关联且带来源定位的证据主张；不表示系统发育、起源、直接祖先、年代、生态、分布或分类完整性。"
+    },
+    "compositionScope": {
+      "includesSelf": true,
+      "descendantEntityIds": []
+    },
+    "temporalRange": {
+      "olderMa": 412.8,
+      "youngerMa": 410.2,
+      "status": "available",
+      "basis": "The anatomical redescription identifies Aglaophyton major in the Rhynie Chert, while the independent ID-TIMS study constrains the Rhynie Outlier with a 411.5 ± 1.3 Ma zircon age.",
+      "evidenceLevel": "literature-synthesized",
+      "provisional": true
+    },
+    "externalIds": {
+      "pbdb": "txn:55149"
+    },
+    "referenceIds": [
+      "edwards-1986-aglaophyton",
+      "parry-2011-rhynie-age",
+      "open-tree",
+      "pbdb-api-2016",
+      "pbdb-taxa-2026-07-19"
+    ],
+    "evidenceStatus": "contextual",
+    "limitations": [
+      "A missing branch or fossil occurrence does not imply biological absence. Internal nodes are not calibrated divergence estimates."
+    ],
+    "dataAvailability": {
+      "narrativeProfile": "available",
+      "ecology": "available",
+      "media": "unavailable",
+      "topologyHypothesis": "unmapped"
+    },
+    "version": "2026.09-static-v5-rc80"
+  },
+  {
+    "id": "horneophyton",
+    "entityKind": "taxon",
+    "contentLevel": "full-profile",
+    "externalResolutionStatus": "resolved-exact",
+    "packageId": "early-land-plants",
+    "parentId": "plantae",
+    "parentRelationshipKind": "navigation-parent",
+    "names": {
+      "scientific": "Horneophyton",
+      "en": "Horneophyton",
+      "zh": "角蕨属"
+    },
+    "synonyms": [],
+    "rank": "genus",
+    "definition": {
+      "en": "Horneophyton is a genus navigation entry in Early Land-Plant Evidence, Bryophytes and Seed-Free Vascular Plants. It is a bounded navigation scope for this node only, with 5 directly linked source-backed claims; it is not a phylogeny, origin, direct-ancestry, date, ecology, distribution, or completeness claim.",
+      "zh": "角蕨属（Horneophyton）是“早期陆生植物证据、苔藓植物与无种子维管植物”中的导航条目。它为浏览此节点本身提供有限范围，并关联5项直接关联且带来源定位的证据主张；不表示系统发育、起源、直接祖先、年代、生态、分布或分类完整性。"
+    },
+    "compositionScope": {
+      "includesSelf": true,
+      "descendantEntityIds": []
+    },
+    "temporalRange": {
+      "olderMa": 412.8,
+      "youngerMa": 410.2,
+      "status": "available",
+      "basis": "The confocal study identifies Horneophyton lignieri in named Rhynie-chert slides, while the independent ID-TIMS study constrains the Rhynie Outlier with a 411.5 ± 1.3 Ma zircon age.",
+      "evidenceLevel": "literature-synthesized",
+      "provisional": true
+    },
+    "externalIds": {
+      "pbdb": "txn:409636"
+    },
+    "referenceIds": [
+      "kenrick-long-2026-horneophyton",
+      "parry-2011-rhynie-age",
+      "open-tree",
+      "pbdb-api-2016",
+      "pbdb-taxa-2026-07-19"
+    ],
+    "evidenceStatus": "contextual",
+    "limitations": [
+      "A missing branch or fossil occurrence does not imply biological absence. Internal nodes are not calibrated divergence estimates."
+    ],
+    "dataAvailability": {
+      "narrativeProfile": "available",
+      "ecology": "available",
       "media": "unavailable",
       "topologyHypothesis": "unmapped"
     },

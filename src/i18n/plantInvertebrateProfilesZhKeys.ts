@@ -39,6 +39,16 @@ const exactPlantInvertebrateProfileCopy = new Set([
   'Small thalloid gametophyte in the profiled fossil', 'Thalloid gametophyte',
   'Associated sporophyte capsule in the fossil sample',
   'Givetian specimens support a liverwort body-fossil record and anatomy; older cryptospore and sporangial evidence does not securely set crown-Marchantiophyta first appearance.',
+  'Photosynthetic land-plant identity; carbon acquisition was not measured in the fossils',
+  'Sessile growth reconstructed from decumbent and upright axes',
+  'Short plant reconstructed from sampled axes; no genus-wide population range',
+  'Decumbent axes forming stands in the reconstruction',
+  'Dichotomously branching upright axes with terminal sporangia',
+  'The 1986 redescription directly supports the named genus, sampled anatomy and reconstruction. The separate Rhynie U-Pb study supplies only a locality-age window, not a global genus duration, direct ancestor or settled higher placement.',
+  'Sessile growth; locomotor performance does not apply',
+  'Diminutive reconstructed plant; the sampled thin sections do not define a population range',
+  'Rhizoid-bearing rhizome and bifurcating aerial axes in the reconstruction',
+  'Confocal microscopy and three-dimensional modelling directly document cell-wall form in named NHMUK slides. Transfer-cell resemblance and transport function remain interpretations, while the independent locality-age window is not a global range or origin date.',
   'Tropical and subtropical living distribution', 'Broader fossil record',
   'Terrestrial tropical to subtropical habitats in living species', 'Shrub to tree-sized seed plants',
   'Fossil leaf sampling used in total-evidence models', 'East Asian living representative',
@@ -106,7 +116,8 @@ const exactPlantInvertebrateProfileCopy = new Set([
 ])
 
 const plantInvertebrateProfileMarkers = [
-  'Asteroxylon', 'Metzgeriothallus', 'cycad', 'Cycad', 'Ginkg', 'angiosperm', 'Angiosperm',
+  'Asteroxylon', 'Metzgeriothallus', 'Aglaophyton', 'Horneophyton', 'Rhynie Chert', 'conducting strand',
+  'conducting cells', 'xylem and phloem', 'cycad', 'Cycad', 'Ginkg', 'angiosperm', 'Angiosperm',
   'monocot', 'Monocot', 'Cratolirion', 'Montsechia', 'Doushantuo', 'Weng’an', 'sponge',
   'Shibantan', 'Helicolocellus', 'goblet', 'Charnwood', 'Bradgate', 'polyp', 'tentacle',
   'Kimberella', 'White Sea', 'foot-like', 'Odontogriphus', 'tooth row', 'tooth-row',
