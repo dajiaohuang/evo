@@ -52,7 +52,7 @@ export const researchSceneDefinitions = {
     { id: 'angiospermae-comparison-window', kind: 'comparison', route: '#/compare?left=angiospermae&right=monocotyledones', entityIds: ['angiospermae', 'monocotyledones'], claimIds: ['claim:taxon:angiospermae:fossil-range', 'claim:taxon:monocotyledones:fossil-range'] },
   ] },
   'sponges-cnidarians': { label: { en: 'Sponges and cnidarians', zh: '海绵与刺胞动物' }, scenes: [
-    { id: 'sponges-cnidarians-map-window', kind: 'map', route: '#/explore?taxon=haootia&view=map&age=562.5&older=565&younger=560', entityIds: ['haootia'], claimIds: ['claim:taxon:haootia:range-boundary-rc50'] },
+    { id: 'sponges-cnidarians-map-window', kind: 'map', route: '#/explore?taxon=haootia&view=map&age=560&older=560&younger=560', entityIds: ['haootia'], claimIds: ['claim:taxon:haootia:range-boundary-rc50'] },
     { id: 'sponges-cnidarians-comparison-window', kind: 'comparison', route: '#/compare?left=haootia&right=xianguangia', entityIds: ['haootia', 'xianguangia'], claimIds: ['claim:taxon:haootia:range-boundary-rc50', 'claim:taxon:xianguangia:range-boundary-rc50'] },
   ] },
   'molluscs-brachiopods': { label: { en: 'Molluscs and brachiopods', zh: '软体动物与腕足动物' }, scenes: [

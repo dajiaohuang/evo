@@ -28,6 +28,21 @@ const exactVertebrateDeepeningCopy = new Set<string>([
   'Armoured total-group chondrichthyan', 'Devonian mosaic chondrichthyan',
   'Devonian and Triassic specimen dossiers', 'Eifelian early ray-fin', 'Triassic scanilepiform',
   'Origin-boundary specimen dossiers', 'Triassic stem caecilian', 'Oligocene aquatic caecilian',
+  'Tujiaaspis', 'Xiushanosteus', 'Silurian galeaspid', 'Silurian placoderm-grade fish',
+  'Ostracodermi historical navigation grade', 'Placodermi historical navigation grade', 'Huixingshao Formation',
+  'Lianghe village, Yongdong town, Xiushan County, Chongqing Municipality',
+  'Kapeng Reservoir, Baojing County, Xiangxi, Hunan', 'Xiushan County, Chongqing', 'South China',
+  'Undetermined from the articulated fossils',
+  'The study models passive lift from the preserved ventrolateral fins; swimming performance was not measured',
+  'Specimen-specific; no profile-wide body-length estimate is asserted',
+  'Three unpaired dorsal fins', 'Approximately symmetrical hypochordal tail',
+  'Continuous branchial-to-caudal ventrolateral fins',
+  'Aquatic body preservation; swimming performance was not measured',
+  'Approximately 30 mm in the figured articulated material', 'Articulated cranial armour',
+  'Mosaic skull-roof character combination', 'Approximately 30 mm body preservation',
+  'IVPP V26668, V27410 and V27411 preserve the key postcranial anatomy; their sample window does not establish global galeaspid duration, direct ancestry or a universal fin-evolution sequence.',
+  'A Telychian jawed stem-gnathostome genus anchored here by the articulated Xiushanosteus mirabilis holotype and multiple referred bodies from the Chongqing Lagerstätte.',
+  'Holotype IVPP V300001 and referred specimens IVPP V300002–V300021 provide articulated anatomical evidence, not a global jawed-vertebrate first appearance, direct ancestor or complete placoderm history.',
 ])
 
 const vertebrateDeepeningMarkers = [
