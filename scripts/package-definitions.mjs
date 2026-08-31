@@ -40,8 +40,8 @@ export const researchSceneDefinitions = {
     { id: 'atlas-core-diversity-window', kind: 'diversity', route: '#/explore?taxon=pterobranchia&view=diversity&age=516&older=516&younger=0', entityIds: ['pterobranchia'], claimIds: ['claim:taxon:pterobranchia:fossil-range'] },
   ] },
   'early-land-plants': { label: { en: 'Early land plants', zh: '早期陆生植物' }, scenes: [
-    { id: 'early-land-plants-map-window', kind: 'map', route: '#/explore?taxon=plantae&view=map&age=236.5&older=473&younger=0', entityIds: ['plantae'], claimIds: ['claim:taxon:plantae:root-range-rc39'] },
-    { id: 'early-land-plants-comparison-window', kind: 'comparison', route: '#/compare?left=lycophyta&right=marchantiophyta', entityIds: ['lycophyta', 'marchantiophyta'], claimIds: ['claim:taxon:lycophyta:fossil-range', 'claim:taxon:marchantiophyta:fossil-range'] },
+    { id: 'early-land-plants-map-window', kind: 'map', route: '#/explore?taxon=aglaophyton&view=map&age=411.5&older=412.8&younger=410.2', entityIds: ['aglaophyton'], claimIds: ['claim:taxon:aglaophyton:fossil-range'] },
+    { id: 'early-land-plants-comparison-window', kind: 'comparison', route: '#/compare?left=aglaophyton&right=horneophyton', entityIds: ['aglaophyton', 'horneophyton'], claimIds: ['claim:taxon:aglaophyton:fossil-range', 'claim:taxon:horneophyton:fossil-range'] },
   ] },
   gymnosperms: { label: { en: 'Gymnosperms', zh: '裸子植物' }, scenes: [
     { id: 'gymnosperms-map-window', kind: 'map', route: '#/explore?taxon=araucariaceae&view=map&age=100.7&older=201.4&younger=0', entityIds: ['araucariaceae'], claimIds: ['claim:taxon:araucariaceae:range-boundary-rc50'] },
@@ -154,8 +154,8 @@ export const packageDefinitions = [
     titleZh: '早期陆生植物证据、苔藓植物与无种子维管植物',
     rootEntityIds: ['plantae', 'bryophyta', 'lycophyta', 'pteridophyta'],
     conceptScope: {
-      en: 'Selected Embryophyta evidence plus COL26.8 accepted-species coverage for bryophytes, lycophytes, ferns and horsetails. Field-linked Lycopodiophyta and Marchantiophyta profiles use Asteroxylon and Metzgeriothallus as bounded exemplars rather than direct ancestors or universal body plans. The atlas Plantae node is navigation context only; seed plants belong to separate packages. Every range is now source-bounded or explicitly withheld, and neither state should be interpreted as a crown-group first appearance.',
-      zh: '收录部分胚胎植物证据，并完整路由 COL26.8 中已接受的苔藓植物、石松类、蕨类与木贼类物种。逐字段石松门与地钱门档案分别以 Asteroxylon 和 Metzgeriothallus 作为范围受限的范例，不把它们写成直系祖先或普适体制。图谱的 Plantae 节点仅提供导航背景；种子植物归入独立内容包。所有区间现均有来源边界或被明确保留，两种状态都不得解释为冠群的化石首现。',
+      en: 'Selected Embryophyta evidence plus COL26.8 accepted-species coverage for bryophytes, lycophytes, ferns and horsetails. Four field-linked profiles keep Asteroxylon, Metzgeriothallus, Aglaophyton and Horneophyton as bounded exemplars rather than direct ancestors or universal body plans. The two Rhynie profiles use the same 412.8–410.2 Ma locality window without converting it into a global genus duration. The atlas Plantae node is navigation context only; seed plants belong to separate packages.',
+      zh: '收录部分胚胎植物证据，并完整路由 COL26.8 中已接受的苔藓植物、石松类、蕨类与木贼类物种。四份逐字段档案把 Asteroxylon、Metzgeriothallus、Aglaophyton 与 Horneophyton 保持为范围受限的范例，不写成直系祖先或普适体制。两份莱尼档案共享 4.128 亿至 4.102 亿年前的产地窗口，但不把它改写为属级全球延限。图谱的 Plantae 节点仅提供导航背景；种子植物归入独立内容包。',
     },
     wave: 'E',
     scientificMaturity: 'source-linked',
@@ -517,8 +517,8 @@ export const packageDefinitions = [
     titleZh: '鳄形类与鸟类',
     rootEntityIds: ['crocodylomorpha', 'aves'],
     conceptScope: {
-      en: 'Twelve primary-evidence dossiers compare crocodile-line and bird-line archosaurs without merging their histories. Archaeopteryx is explicitly outside crown Neornithes; the 69.2–68.4 Ma Vegavis skull is a separate, topology-dependent crown-waterfowl test, and younger Asteriornis remains an independent near-crown analysis. Package-specific Archaeopteryx and Neornithes profiles link every displayed field to claims and literature-bounded ranges. Six curated navigation nodes support discovery without asserting direct ancestry or global first appearances. COL26.8 still routes exactly 11,071 strictly accepted living species names into the package as nomenclatural browse coverage.',
-      zh: '十二个一手证据档案比较鳄类支系与鸟类支系主龙而不混并其历史。始祖鸟被明确置于今鸟类冠群之外；6920–6840 万年前的 Vegavis 头骨作为独立且依赖拓扑的冠群水禽测试，更年轻的 Asteriornis 则保持为另一项近冠群分析。始祖鸟与今鸟类专属档案把每个显示字段连接到主张和文献限定延限。六个策展导航节点服务于发现而不主张直系祖先或全球首现。COL26.8 仍把恰好 11,071 个严格接受的现生种名路由到本包，作为命名浏览覆盖。',
+      en: 'Twelve primary-evidence dossiers compare crocodile-line and bird-line archosaurs without merging their histories. Four package-specific profiles—Archaeopteryx, Neornithes, Carnufex and Asteriornis—link every displayed field to claims and literature-bounded ranges. Carnufex remains a 231 Ma holotype-level occurrence, while Asteriornis remains a 66.8–66.7 Ma specimen and method-dependent near-crown analysis. Six curated navigation nodes support discovery without asserting direct ancestry or global first appearances. COL26.8 still routes exactly 11,071 strictly accepted living species names into the package as nomenclatural browse coverage.',
+      zh: '十二个一手证据档案比较鳄类支系与鸟类支系主龙而不混并其历史。始祖鸟、今鸟类、Carnufex 与 Asteriornis 四份专属档案把每个显示字段连接到主张和文献限定延限。Carnufex 保持为 2.31 亿年前的正模层级出现记录；Asteriornis 保持为 6680 万至 6670 万年前的标本和依赖方法的近冠群分析。六个策展导航节点服务于发现而不主张直系祖先或全球首现。COL26.8 仍把恰好 11,071 个严格接受的现生种名路由到本包，作为命名浏览覆盖。',
     },
     wave: 'B',
     scientificMaturity: 'source-linked',
