@@ -27,6 +27,15 @@ describe('complete Scotese–Wright PaleoDEM series', () => {
       outsideRange: 'unavailable',
       temporalInterpolation: 'none',
     })
+    expect(manifest.grid.transformation).toContain('No spatial or temporal interpolation')
+    expect(manifest.grid.webPreview).toMatchObject({
+      stride: 3,
+      resolutionDegrees: 0.3,
+      width: 1201,
+      height: 601,
+      cellCount: 721801,
+    })
+    expect(manifest.grid.webPreview.derivation).toContain('no smoothing')
     expect(manifest.visualization).toMatchObject({ renderer: 'client-worker-canvas-grid-layer', preGeneratedTiles: 0 })
 
     let compressedBytes = 0
@@ -51,22 +60,22 @@ describe('complete Scotese–Wright PaleoDEM series', () => {
       const previewCompressed = readFileSync(resolve(rootDir, frame.webPreviewGrid.path))
       const previewDecoded = gunzipSync(previewCompressed)
       expect(frame.webPreviewGrid).toMatchObject({
-        derivation: 'exact-decimation-every-fifth-source-row-and-column',
+        derivation: 'exact-decimation-every-third-source-row-and-column',
         sourceGridSha256: frame.grid.decodedSha256,
-        stride: 5,
-        resolutionDegrees: 0.5,
-        width: 721,
-        height: 361,
-        cellCount: 260281,
+        stride: 3,
+        resolutionDegrees: 0.3,
+        width: 1201,
+        height: 601,
+        cellCount: 721801,
       })
       expect(previewCompressed.byteLength).toBe(frame.webPreviewGrid.bytes)
       expect(sha256(previewCompressed)).toBe(frame.webPreviewGrid.sha256)
       expect(previewDecoded.byteLength).toBe(frame.webPreviewGrid.decodedBytes)
       expect(sha256(previewDecoded)).toBe(frame.webPreviewGrid.decodedSha256)
       const exactDecimation = Buffer.alloc(previewDecoded.byteLength)
-      for (let row = 0; row < 361; row += 1) {
-        for (let column = 0; column < 721; column += 1) {
-          exactDecimation.writeInt16LE(decoded.readInt16LE(((row * 5) * 3601 + column * 5) * 2), (row * 721 + column) * 2)
+      for (let row = 0; row < 601; row += 1) {
+        for (let column = 0; column < 1201; column += 1) {
+          exactDecimation.writeInt16LE(decoded.readInt16LE(((row * 3) * 3601 + column * 3) * 2), (row * 1201 + column) * 2)
         }
       }
       expect(previewDecoded.equals(exactDecimation)).toBe(true)
@@ -77,8 +86,8 @@ describe('complete Scotese–Wright PaleoDEM series', () => {
     }
     expect(compressedBytes).toBe(168418483)
     expect(decodedBytes).toBe(1413817418)
-    expect(previewCompressedBytes).toBe(10147417)
-    expect(previewDecodedBytes).toBe(56741258)
+    expect(previewCompressedBytes).toBe(24847071)
+  expect(previewDecodedBytes).toBe(157352618)
     expect(manifest.totals).toMatchObject({
       frames: 109,
       independentGridGzipBytes: compressedBytes,

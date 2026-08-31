@@ -499,7 +499,7 @@ test('the complete PaleoDEM series loads one Web preview grid per selected age a
   })
   const gridRequests: string[] = []
   page.on('request', (request) => {
-    if (/\/maps\/paleotopography\/scotese-wright-2018-paleodem-v2\/grids\/ma-\d{4}\.preview-05deg\.i16\.gz(?:[?#]|$)/.test(request.url())) {
+    if (/\/maps\/paleotopography\/scotese-wright-2018-paleodem-v2\/grids\/ma-\d{4}\.preview-03deg\.i16\.gz(?:[?#]|$)/.test(request.url())) {
       gridRequests.push(request.url())
     }
   })
@@ -510,10 +510,10 @@ test('the complete PaleoDEM series loads one Web preview grid per selected age a
   await terrain.check()
   await expect(page.getByText(/Nearest nominal frame 65 Ma for requested 65 Ma; no temporal interpolation/)).toBeVisible()
   await expect(page.getByText('Internal NetCDF description: PALEOMAP:KT_Boundary, 66 Ma', { exact: true })).toBeVisible()
-  await expect(page.getByText(/Web and browser-offline use a checksummed 0.5° exact-decimation preview/)).toBeVisible()
+  await expect(page.getByText(/Web and browser-offline use a checksummed 0.3° exact every-third-cell preview/)).toBeVisible()
   await expect(page.getByText(/Web Mercator display ends at ±85.051° latitude/)).toBeVisible()
   await expect(page.getByText(/independent of CAO2024 geometry, CAO2024 observations and PBDB palaeocoordinates/)).toBeVisible()
-  await expect.poll(() => gridRequests.filter((url) => url.includes('ma-0065.preview-05deg.i16.gz')).length).toBe(1)
+  await expect.poll(() => gridRequests.filter((url) => url.includes('ma-0065.preview-03deg.i16.gz')).length).toBe(1)
   await expect.poll(() => page.locator('canvas.leaflet-tile').evaluateAll((canvases) => canvases.some((canvas) => {
     const context = (canvas as HTMLCanvasElement).getContext('2d')
     if (!context) return false
@@ -525,7 +525,7 @@ test('the complete PaleoDEM series loads one Web preview grid per selected age a
   const ageInput = page.locator('.explorer-timeline input[type="number"]')
   await ageInput.fill('68')
   await expect(page.getByText(/Nearest nominal frame 70 Ma for requested 68 Ma; no temporal interpolation/)).toBeVisible()
-  await expect.poll(() => gridRequests.filter((url) => url.includes('ma-0070.preview-05deg.i16.gz')).length).toBe(1)
+  await expect.poll(() => gridRequests.filter((url) => url.includes('ma-0070.preview-03deg.i16.gz')).length).toBe(1)
   expect(gridRequests).toHaveLength(2)
 
   await context.close()

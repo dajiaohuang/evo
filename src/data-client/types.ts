@@ -566,8 +566,8 @@ export interface RuntimePaleotopographyFrame {
     width: number
     height: number
     cellCount: number
-    resolutionDegrees: 0.1 | 0.5
-    derivation: 'lossless-full-source-grid' | 'exact-decimation-every-fifth-source-row-and-column'
+    resolutionDegrees: 0.1 | 0.3
+    derivation: 'lossless-full-source-grid' | 'exact-decimation-every-third-source-row-and-column'
     gridEncoding: 'gzip-signed-int16-little-endian-row-major'
     mediaType: 'application/octet-stream'
   }
@@ -605,12 +605,12 @@ export interface RuntimePaleotopographyCollection {
     encoding: 'gzip-signed-int16-little-endian-row-major'
     transformation: string
     webPreview: {
-      resolutionDegrees: 0.5
-      stride: 5
-      width: 721
-      height: 361
-      cellCount: 260281
-      decodedBytesPerFrame: 520562
+      resolutionDegrees: 0.3
+      stride: 3
+      width: 1201
+      height: 601
+      cellCount: 721801
+      decodedBytesPerFrame: 1443602
       derivation: string
     }
   }
@@ -634,7 +634,7 @@ export interface RuntimePaleotopographyCollection {
   }
   delivery: {
     profile: 'web-preview' | 'native-full'
-    resolutionDegrees: 0.5 | 0.1
+    resolutionDegrees: 0.3 | 0.1
     gridBytes: number
     fullResolutionAvailableInNativeApps: true
   }

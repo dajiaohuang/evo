@@ -1140,7 +1140,7 @@ function publishPaleotopographySeries() {
       || frame.webPreviewGrid.height !== grid.webPreview.height
       || frame.webPreviewGrid.decodedBytes !== grid.webPreview.decodedBytesPerFrame
       || frame.webPreviewGrid.sourceGridSha256 !== frame.grid.decodedSha256
-      || frame.webPreviewGrid.derivation !== 'exact-decimation-every-fifth-source-row-and-column') {
+      || frame.webPreviewGrid.derivation !== 'exact-decimation-every-third-source-row-and-column') {
       throw new Error(`PaleoDEM ${frame.archiveNominalAgeMa} Ma Web preview does not trace exactly to the full grid`)
     }
     const selectedGrid = nativeFull ? frame.grid : frame.webPreviewGrid
@@ -1154,7 +1154,7 @@ function publishPaleotopographySeries() {
     if (decoded.byteLength !== selectedGrid.decodedBytes || sha256(decoded) !== selectedGrid.decodedSha256) {
       throw new Error(`PaleoDEM ${frame.archiveNominalAgeMa} Ma ${paleotopographyDelivery} decoded grid differs from the pinned source ledger`)
     }
-    const runtimeGrid = write(`maps/paleotopography/${paleotopographySource.id}/grids/ma-${String(frame.archiveNominalAgeMa).padStart(4, '0')}.${nativeFull ? 'full-01deg' : 'preview-05deg'}.i16.gz`, canonicalBytes)
+    const runtimeGrid = write(`maps/paleotopography/${paleotopographySource.id}/grids/ma-${String(frame.archiveNominalAgeMa).padStart(4, '0')}.${nativeFull ? 'full-01deg' : 'preview-03deg'}.i16.gz`, canonicalBytes)
     const { grid: fullGrid, webPreviewGrid, ...metadata } = frame
     return {
       ...metadata,
@@ -1203,7 +1203,7 @@ function publishPaleotopographySeries() {
       maximumNativeZoom: nativeFull ? 4 : 2,
       maximumZoomGroundSampling: nativeFull
         ? 'approximately 0.088 degrees per display pixel at the equator'
-        : 'approximately 0.352 degrees per display pixel at the equator; source preview samples are spaced 0.5 degrees',
+        : 'approximately 0.352 degrees per display pixel at the equator; source preview samples are spaced 0.3 degrees',
     },
     totals,
     scientificLimitations: paleotopographySource.scientificLimitations,

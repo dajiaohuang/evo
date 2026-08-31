@@ -458,8 +458,9 @@ if (maps.schemaVersion >= 8) {
     || collection?.archive?.redistributed !== false
     || collection?.frames?.length !== 109
     || collection?.delivery?.profile !== 'web-preview'
-    || collection?.delivery?.resolutionDegrees !== 0.5
-    || collection?.delivery?.gridBytes !== 10147417
+    || collection?.delivery?.resolutionDegrees !== 0.3
+    || collection?.delivery?.gridBytes !== 24847071
+    || collection?.totals?.webPreviewGridGzipBytes !== 24847071
     || collection?.visualization?.preGeneratedTiles !== 0) {
     failures.push('palaeotopography Web preview source, license, delivery profile or complete-series boundary is invalid')
   } else {
@@ -472,9 +473,9 @@ if (maps.schemaVersion >= 8) {
       const label = `palaeotopography ${frame.archiveNominalAgeMa} Ma Web preview grid`
       releaseUrl(frame.grid, label)
       checkFile(frame.grid, label)
-      if (frame.grid?.width !== 721 || frame.grid?.height !== 361 || frame.grid?.cellCount !== 260281
-        || frame.grid?.resolutionDegrees !== 0.5
-        || frame.grid?.derivation !== 'exact-decimation-every-fifth-source-row-and-column'
+      if (frame.grid?.width !== 1201 || frame.grid?.height !== 601 || frame.grid?.cellCount !== 721801
+        || frame.grid?.resolutionDegrees !== 0.3
+        || frame.grid?.derivation !== 'exact-decimation-every-third-source-row-and-column'
         || frame.sourceFullGrid?.width !== 3601 || frame.sourceFullGrid?.height !== 1801
         || frame.sourceFullGrid?.resolutionDegrees !== 0.1
         || !frame.memberSha256 || !frame.internalDescription) {
@@ -491,7 +492,7 @@ if (maps.schemaVersion >= 8) {
     if (gridBytes !== collection.delivery.gridBytes
       || current.maps.paleotopographyFrameCount !== 109
       || current.maps.paleotopographyGridCount !== 109
-      || current.maps.paleotopographyGridBytes !== 10147417
+      || current.maps.paleotopographyGridBytes !== 24847071
       || current.maps.paleotopographyDeliveryProfile !== 'web-preview'
       || current.maps.paleotopographyTileCount !== 0) {
       failures.push('current map summary does not expose the complete lightweight palaeotopography series')
