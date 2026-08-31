@@ -1,0 +1,743 @@
+{
+  "schemaVersion": 1,
+  "importType": "COL26.8-to-ITIS-exact-mollusca-brachiopoda-nomenclatural-sidecar",
+  "generatedFrom": {
+    "sourcePath": "data/sources/itis-2026-08-26.json",
+    "sourceSha256": "38a7a55b4e98cafc66790e47f6bd637e298e23fd691e4771c755b38e4a02d7fc",
+    "itisDatabaseMember": "itisSqlite082626/ITIS.sqlite",
+    "itisDatabaseSha256": "ea7304536cfd7b1e2636d383911ca7931fc83d9ab1194ca2a3c020ea2daf1719",
+    "colRegistryManifestPath": "data/catalogue-of-life/releases/2026-08-20/registry/manifest.json",
+    "colRegistryManifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151",
+    "colOwnershipPath": "data/registry/package-species-coverage.json",
+    "colOwnershipSha256": "a297bc8a67ce60806fdee733464a79bfcc42e255f7e59535b01f94013c19dfea"
+  },
+  "scopeAudit": {
+    "roots": [
+      {
+        "col": {
+          "id": "M2L",
+          "scientificName": "Mollusca",
+          "itisScientificName": "Mollusca",
+          "role": "applicable",
+          "itisTsn": 69458,
+          "itisRank": "Phylum",
+          "strictAcceptedSpecies": 154718
+        },
+        "itis": {
+          "tsn": "69458",
+          "scientificName": "Mollusca",
+          "rank": "Phylum",
+          "usage": "valid",
+          "currentSpecies": 11550,
+          "speciesSynonymLinks": 7751
+        }
+      },
+      {
+        "col": {
+          "id": "B8V3K",
+          "scientificName": "Brachiopoda Duméril, 1805",
+          "itisScientificName": "Brachiopoda",
+          "role": "applicable",
+          "itisTsn": 156755,
+          "itisRank": "Phylum",
+          "strictAcceptedSpecies": 5076
+        },
+        "itis": {
+          "tsn": "156755",
+          "scientificName": "Brachiopoda",
+          "rank": "Phylum",
+          "usage": "valid",
+          "currentSpecies": 95,
+          "speciesSynonymLinks": 50
+        }
+      },
+      {
+        "col": {
+          "id": "KZ",
+          "scientificName": "Graptolithina Bronn, 1849",
+          "itisScientificName": "Graptolithina",
+          "role": "non-applicable",
+          "itisTsn": 993363,
+          "itisRank": "Subclass",
+          "reason": "This package teaching root is retained as an explicit fossil/archival boundary. It is outside the requested Mollusca-and-Brachiopoda ITIS crosswalk scope, so no homonymous or higher-rank substitution is attempted.",
+          "strictAcceptedSpecies": 7
+        },
+        "itis": {
+          "tsn": "993363",
+          "scientificName": "Graptolithina",
+          "rank": "Subclass",
+          "usage": "valid",
+          "currentSpecies": 7,
+          "speciesSynonymLinks": 0
+        }
+      }
+    ],
+    "packageStrictAcceptedSpecies": 159801,
+    "applicableColStrictAcceptedSpecies": 159794,
+    "nonApplicable": [
+      {
+        "id": "KZ",
+        "scientificName": "Graptolithina Bronn, 1849",
+        "itisScientificName": "Graptolithina",
+        "role": "non-applicable",
+        "itisTsn": 993363,
+        "itisRank": "Subclass",
+        "reason": "This package teaching root is retained as an explicit fossil/archival boundary. It is outside the requested Mollusca-and-Brachiopoda ITIS crosswalk scope, so no homonymous or higher-rank substitution is attempted.",
+        "strictAcceptedSpecies": 7,
+        "itisCurrentSpeciesAuditOnly": 7,
+        "itisSpeciesSynonymLinksAuditOnly": 0
+      }
+    ],
+    "maximumUpdateDates": {
+      "taxonomicUnits": "2026-08-26",
+      "synonymLinks": "2026-08-26"
+    }
+  },
+  "matchingContract": {
+    "normalization": [
+      "Remove the exact trailing COL authorship field from COL scientificName when that suffix is present; no authorship parser is used.",
+      "Normalize Unicode to NFC, replace underscores with spaces, collapse Unicode whitespace and trim.",
+      "For species-rank comparison, remove one parenthesized subgenus token in the exact Genus (Subgenus) species representation; genus and specific epithet must remain unchanged.",
+      "Preserve case, diacritics, punctuation and all remaining name tokens."
+    ],
+    "statuses": {
+      "accepted": "The normalized COL name resolves to exactly one valid ITIS species under a declared applicable root and directly equals that current ITIS name.",
+      "synonym-current-name-redirect": "The normalized COL name equals one or more official ITIS invalid species names whose synonym_links rows resolve to exactly one valid ITIS species under a declared applicable root.",
+      "ambiguous": "The normalized exact evidence resolves to more than one valid ITIS species TSN under the declared applicable roots.",
+      "unmatched": "No normalized exact valid-name or official ITIS species-synonym evidence resolves to a valid ITIS species under the declared applicable roots."
+    },
+    "prohibited": "No fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered, taxon-substituted, homonym-substituted or higher-rank matching is used."
+  },
+  "totals": {
+    "total": 159794,
+    "accepted": 7212,
+    "synonymCurrentNameRedirect": 256,
+    "ambiguous": 16,
+    "unmatched": 152310,
+    "itisApplicableCurrentSpecies": 11645,
+    "itisApplicableSpeciesSynonymLinks": 7801,
+    "itisUpstreamOnly": 4289
+  },
+  "output": {
+    "descriptor": {
+      "path": "data/packages/invertebrata/molluscs-brachiopods/nomenclature/itis-mollusca-brachiopoda-tsn-sidecar.json",
+      "bytes": 35050,
+      "sha256": "96d1788efbcbdec9d800214f7d2ca74be46e91900cf4ddb7b75c8cd6a720343a"
+    },
+    "colUsageIdShards": [
+      {
+        "path": "data/packages/invertebrata/molluscs-brachiopods/nomenclature/itis-mollusca-brachiopoda-tsn-sidecar-000.jsonl.gz",
+        "records": 2635,
+        "firstColUsageId": "322C4",
+        "lastColUsageId": "37D7D",
+        "bytes": 69255,
+        "sha256": "bc5036464f13e4730738e90d21d8f6769f341a0c5dc04ba8df838401d065edc7",
+        "sourceBytes": 524210,
+        "sourceSha256": "36313664c9c9864e85c13003e840a5b6273befe29a068ba5272ed97b1317ac27"
+      },
+      {
+        "path": "data/packages/invertebrata/molluscs-brachiopods/nomenclature/itis-mollusca-brachiopoda-tsn-sidecar-001.jsonl.gz",
+        "records": 2693,
+        "firstColUsageId": "37D83",
+        "lastColUsageId": "3DYCW",
+        "bytes": 68856,
+        "sha256": "a69f6ddf4da1fb7e3a77ca332f158d328e94dbe65aa68eb61d33f536e2e74816",
+        "sourceBytes": 524083,
+        "sourceSha256": "2f0c41e2385635c0085e501904276ece58a601672d8bc8bc1ba97e1953ccce7f"
+      },
+      {
+        "path": "data/packages/invertebrata/molluscs-brachiopods/nomenclature/itis-mollusca-brachiopoda-tsn-sidecar-002.jsonl.gz",
+        "records": 2765,
+        "firstColUsageId": "3DYCY",
+        "lastColUsageId": "3JBJD",
+        "bytes": 67992,
+        "sha256": "d1100b7be0d5dfd703d2699aa1b6ac9b2bf8ad75bbbc4d0685ece94270066429",
+        "sourceBytes": 524117,
+        "sourceSha256": "d52485bb5b49f4da1342e0a179e9f03e433ac66a828df7f76916a110d46f9a78"
+      },
+      {
+        "path": "data/packages/invertebrata/molluscs-brachiopods/nomenclature/itis-mollusca-brachiopoda-tsn-sidecar-003.jsonl.gz",
+        "records": 2642,
+        "firstColUsageId": "3JBJF",
+        "lastColUsageId": "3Q4NF",
+        "bytes": 70575,
+        "sha256": "0f1ed5dacd2f81f62da8191d006a58fc237d09a63ce6fad13e3381733810a57a",
+        "sourceBytes": 524232,
+        "sourceSha256": "7e1aff1fdb3108b8bd3d955b386508abe3a13b3e250d10d26be33d542f011f6f"
+      },
+      {
+        "path": "data/packages/invertebrata/molluscs-brachiopods/nomenclature/itis-mollusca-brachiopoda-tsn-sidecar-004.jsonl.gz",
+        "records": 2659,
+        "firstColUsageId": "3Q4NG",
+        "lastColUsageId": "3TYQG",
+        "bytes": 69756,
+        "sha256": "e38303fed8472555c6fa0b0450a36e1371ca1a02e97d154c98e49986805dec68",
+        "sourceBytes": 524233,
+        "sourceSha256": "88a269acc77ebeabe1ad6213ddd9c94bc5f77a92e8eb30c67d88ff197d991639"
+      },
+      {
+        "path": "data/packages/invertebrata/molluscs-brachiopods/nomenclature/itis-mollusca-brachiopoda-tsn-sidecar-005.jsonl.gz",
+        "records": 2616,
+        "firstColUsageId": "3TYQH",
+        "lastColUsageId": "3YZHN",
+        "bytes": 68962,
+        "sha256": "2acef444a9d86b8e4ae80f20f69517e952d00934c38fad04d63da65a536cb3b3",
+        "sourceBytes": 524132,
+        "sourceSha256": "36c131b3ae13be12bad6152895b1ffe4993ef503288a433ba05803d2a9d9252a"
+      },
+      {
+        "path": "data/packages/invertebrata/molluscs-brachiopods/nomenclature/itis-mollusca-brachiopoda-tsn-sidecar-006.jsonl.gz",
+        "records": 2715,
+        "firstColUsageId": "3YZHP",
+        "lastColUsageId": "45K7H",
+        "bytes": 70247,
+        "sha256": "3aee98d97428fe7e3e0d8c7a026140bda5c192df17f0dd7e7251247b7f4e424f",
+        "sourceBytes": 524129,
+        "sourceSha256": "e50fc11223b321306ef16a830508278105b933f855a14832bce700e9d73de9a0"
+      },
+      {
+        "path": "data/packages/invertebrata/molluscs-brachiopods/nomenclature/itis-mollusca-brachiopoda-tsn-sidecar-007.jsonl.gz",
+        "records": 2593,
+        "firstColUsageId": "45K7J",
+        "lastColUsageId": "48SZQ",
+        "bytes": 67867,
+        "sha256": "dd32f03b2c8ed96409b1e6d079aec112fef9f520e49712370539044d1ef0cc15",
+        "sourceBytes": 523934,
+        "sourceSha256": "c0b16d52bbe142777f71b69a4326eb66f1acad0c54cb575cec89e0d57d4869ac"
+      },
+      {
+        "path": "data/packages/invertebrata/molluscs-brachiopods/nomenclature/itis-mollusca-brachiopoda-tsn-sidecar-008.jsonl.gz",
+        "records": 2683,
+        "firstColUsageId": "48SZR",
+        "lastColUsageId": "4F3FK",
+        "bytes": 68564,
+        "sha256": "ae080e7ccaf5b552ac7d15e759f7bf12e2739e9d2c9102652b5051badee3bacc",
+        "sourceBytes": 524044,
+        "sourceSha256": "0fa8f10602589a88565b3b74493eefbd3f34e5ba73f99e4244d8f4bab0a7c5b6"
+      },
+      {
+        "path": "data/packages/invertebrata/molluscs-brachiopods/nomenclature/itis-mollusca-brachiopoda-tsn-sidecar-009.jsonl.gz",
+        "records": 2620,
+        "firstColUsageId": "4F3FS",
+        "lastColUsageId": "4M9SS",
+        "bytes": 69838,
+        "sha256": "e1a29baa4f4dbce7b50572d014e44ddd235f4b68431daa0043c75a80e1034ebd",
+        "sourceBytes": 524233,
+        "sourceSha256": "ff5e95e656417f938eec8bfb88880637efd6efe374fbe5cca0272170ea8cd106"
+      },
+      {
+        "path": "data/packages/invertebrata/molluscs-brachiopods/nomenclature/itis-mollusca-brachiopoda-tsn-sidecar-010.jsonl.gz",
+        "records": 2685,
+        "firstColUsageId": "4M9ST",
+        "lastColUsageId": "4QT77",
+        "bytes": 70526,
+        "sha256": "b87f79454316c2acbc3405c5b3de58772de03934348d205e557c0fde44a019b2",
+        "sourceBytes": 524116,
+        "sourceSha256": "1862cc82909f2b52ee062ec1c22c6465744292d31e7be94fd7dc7c8dbb7f41b1"
+      },
+      {
+        "path": "data/packages/invertebrata/molluscs-brachiopods/nomenclature/itis-mollusca-brachiopoda-tsn-sidecar-011.jsonl.gz",
+        "records": 2665,
+        "firstColUsageId": "4QT78",
+        "lastColUsageId": "4X2S6",
+        "bytes": 68224,
+        "sha256": "9b81ba5d8e00969eea13809a9cfcb61dce4bd48d01b920482eac927c40a75c5a",
+        "sourceBytes": 524180,
+        "sourceSha256": "6f7c007a6ca262b695cbad0622df9bd8b8e7dbfafd17549900f153dbbb9df5be"
+      },
+      {
+        "path": "data/packages/invertebrata/molluscs-brachiopods/nomenclature/itis-mollusca-brachiopoda-tsn-sidecar-012.jsonl.gz",
+        "records": 2700,
+        "firstColUsageId": "4X2SB",
+        "lastColUsageId": "53Z4P",
+        "bytes": 69779,
+        "sha256": "af0eeaf44f1505a561ed01ddee98f2ab2b15248850c526000de46722bef624f3",
+        "sourceBytes": 524245,
+        "sourceSha256": "9934cec7743e21740565b0ff45bb2210b32b490ff7c0b95e27e32508684139d8"
+      },
+      {
+        "path": "data/packages/invertebrata/molluscs-brachiopods/nomenclature/itis-mollusca-brachiopoda-tsn-sidecar-013.jsonl.gz",
+        "records": 2715,
+        "firstColUsageId": "53Z4Q",
+        "lastColUsageId": "595ZN",
+        "bytes": 69961,
+        "sha256": "9de5d4b929aaaf9957825c4e7ffcffaa1cd246180a0a4b8a7df4c9b4cd4b4774",
+        "sourceBytes": 524206,
+        "sourceSha256": "c21729ae49717c2e5420811a52c6e3c700d81207452d440707f23c2a0055ada6"
+      },
+      {
+        "path": "data/packages/invertebrata/molluscs-brachiopods/nomenclature/itis-mollusca-brachiopoda-tsn-sidecar-014.jsonl.gz",
+        "records": 2589,
+        "firstColUsageId": "595ZP",
+        "lastColUsageId": "5BP4Y",
+        "bytes": 60539,
+        "sha256": "41b24bb821c4707f9c25ecbd1c7a8a6eed957279d33ce3f16fc100b858f9c109",
+        "sourceBytes": 524201,
+        "sourceSha256": "52a8ef3185f4af9a1a2dd3a8c1daa15238514761489f7e43f9f03ea8fdb8c066"
+      },
+      {
+        "path": "data/packages/invertebrata/molluscs-brachiopods/nomenclature/itis-mollusca-brachiopoda-tsn-sidecar-015.jsonl.gz",
+        "records": 2714,
+        "firstColUsageId": "5BP4Z",
+        "lastColUsageId": "5X935",
+        "bytes": 73525,
+        "sha256": "e99b4b3e4ea54f8630c8c2c29ebc03f107ebd71bd6e22e53f88cd6181f03680c",
+        "sourceBytes": 523948,
+        "sourceSha256": "feb05224fe833ad7f2d787d2158a912b92c5cb181f85f7aeb9d825653dc45344"
+      },
+      {
+        "path": "data/packages/invertebrata/molluscs-brachiopods/nomenclature/itis-mollusca-brachiopoda-tsn-sidecar-016.jsonl.gz",
+        "records": 2672,
+        "firstColUsageId": "5X96T",
+        "lastColUsageId": "66T4D",
+        "bytes": 74405,
+        "sha256": "22c15658e5abd76beebf7601d9e813616e1ff6e80126a7f1d90a0a857bae0baa",
+        "sourceBytes": 524233,
+        "sourceSha256": "fa7b1924020773e0b283c3676733137f755f9945dc25c73a969c5b51051f9f7a"
+      },
+      {
+        "path": "data/packages/invertebrata/molluscs-brachiopods/nomenclature/itis-mollusca-brachiopoda-tsn-sidecar-017.jsonl.gz",
+        "records": 2603,
+        "firstColUsageId": "66T9B",
+        "lastColUsageId": "6D2M6",
+        "bytes": 77133,
+        "sha256": "2ac2579efb9bc54dd67173389fd259a1205b8f8db2247d824f056ee59edff2d8",
+        "sourceBytes": 524246,
+        "sourceSha256": "36ecfc4904637e9e91615013276fdea270e4b3163b6ee2e3c2ba87e249ae5ddc"
+      },
+      {
+        "path": "data/packages/invertebrata/molluscs-brachiopods/nomenclature/itis-mollusca-brachiopoda-tsn-sidecar-018.jsonl.gz",
+        "records": 2576,
+        "firstColUsageId": "6D2ML",
+        "lastColUsageId": "6J6DR",
+        "bytes": 70062,
+        "sha256": "83e40d5bb711f7ca0da1b2110d66d3855efc37033e2f3481e68eb2629a1d518f",
+        "sourceBytes": 524098,
+        "sourceSha256": "bdd9a38a78d36c6a7ebb3f1c839752aa5002ada7270821d4e95d29b0cfc628c1"
+      },
+      {
+        "path": "data/packages/invertebrata/molluscs-brachiopods/nomenclature/itis-mollusca-brachiopoda-tsn-sidecar-019.jsonl.gz",
+        "records": 2650,
+        "firstColUsageId": "6J6DS",
+        "lastColUsageId": "6NCZL",
+        "bytes": 74813,
+        "sha256": "d805342e805d3963d56a18137da91069e1eaf4f33b7f5e56955696af8cf2aaa9",
+        "sourceBytes": 524118,
+        "sourceSha256": "d3e30078a01048984a4f009b6341e2702b44d7a89fe2b876db38569fe8c26b10"
+      },
+      {
+        "path": "data/packages/invertebrata/molluscs-brachiopods/nomenclature/itis-mollusca-brachiopoda-tsn-sidecar-020.jsonl.gz",
+        "records": 2692,
+        "firstColUsageId": "6ND2C",
+        "lastColUsageId": "6SXLT",
+        "bytes": 78544,
+        "sha256": "f1077cdbbfbb6b29017c152e4276aaeb8e9249662fb3f3b5d86c95a05d71c189",
+        "sourceBytes": 524272,
+        "sourceSha256": "681ac6ecff243e7881cc5d2b3e7202e61bcd0fae5247c52de308e5e190200942"
+      },
+      {
+        "path": "data/packages/invertebrata/molluscs-brachiopods/nomenclature/itis-mollusca-brachiopoda-tsn-sidecar-021.jsonl.gz",
+        "records": 2645,
+        "firstColUsageId": "6SXLV",
+        "lastColUsageId": "6Z3FY",
+        "bytes": 78358,
+        "sha256": "9beb22f37d4bef77eda8e8c772445beca9e6cb53fdc517b5eea637cc1accdd47",
+        "sourceBytes": 524203,
+        "sourceSha256": "4d8e73d54afd7948d1c920cae75c7ad30410692325a7c9413dccf3b3d4aa8301"
+      },
+      {
+        "path": "data/packages/invertebrata/molluscs-brachiopods/nomenclature/itis-mollusca-brachiopoda-tsn-sidecar-022.jsonl.gz",
+        "records": 2712,
+        "firstColUsageId": "6Z3GY",
+        "lastColUsageId": "75W4F",
+        "bytes": 78371,
+        "sha256": "e307843c57731bf54a9b57f3cf60c801c556d8d2e68108b872af16d916d7935e",
+        "sourceBytes": 524199,
+        "sourceSha256": "51e5367da1f73434d3255f01fe70967970fa3da59a7c95b93b64ba1931318768"
+      },
+      {
+        "path": "data/packages/invertebrata/molluscs-brachiopods/nomenclature/itis-mollusca-brachiopoda-tsn-sidecar-023.jsonl.gz",
+        "records": 2679,
+        "firstColUsageId": "75W4L",
+        "lastColUsageId": "7C9TX",
+        "bytes": 79282,
+        "sha256": "5996f3c22892ee2be7f64128b9835d81b138f22a9c54cf254f64f4ad608fadf1",
+        "sourceBytes": 524288,
+        "sourceSha256": "6f5d8b60048a4cad6cb5a9f908e21f7ffb0723e7e6e0eb92fd248df60ee4089c"
+      },
+      {
+        "path": "data/packages/invertebrata/molluscs-brachiopods/nomenclature/itis-mollusca-brachiopoda-tsn-sidecar-024.jsonl.gz",
+        "records": 2695,
+        "firstColUsageId": "7C9TY",
+        "lastColUsageId": "7PVGZ",
+        "bytes": 74551,
+        "sha256": "08b0c9163d1a05939715a2ac1be0f16ba0fd62d8488b90e0635cfc9dc6067ff1",
+        "sourceBytes": 524274,
+        "sourceSha256": "b52d582a24f1037d22e288b31b9850807cb1cbc409fd9920840cc2f51b46d114"
+      },
+      {
+        "path": "data/packages/invertebrata/molluscs-brachiopods/nomenclature/itis-mollusca-brachiopoda-tsn-sidecar-025.jsonl.gz",
+        "records": 2682,
+        "firstColUsageId": "7PVHL",
+        "lastColUsageId": "7QKLZ",
+        "bytes": 68144,
+        "sha256": "2266e428ddab9f117f9c513651d960633916698db993c73ee642be99dd70b57b",
+        "sourceBytes": 524250,
+        "sourceSha256": "a6513924921789982f9dea5851dc6c0f83b390761084c4ce7a7f83a115d89c69"
+      },
+      {
+        "path": "data/packages/invertebrata/molluscs-brachiopods/nomenclature/itis-mollusca-brachiopoda-tsn-sidecar-026.jsonl.gz",
+        "records": 2700,
+        "firstColUsageId": "7QKM2",
+        "lastColUsageId": "7R46H",
+        "bytes": 65552,
+        "sha256": "0e9e279296419dbc4c061754fc8cb1f00380f05c2ee801e0eef82c455e7e9d5e",
+        "sourceBytes": 524107,
+        "sourceSha256": "3a095952272d8ba796b81931876a781a0cbbb66186d359116e92335424d9642d"
+      },
+      {
+        "path": "data/packages/invertebrata/molluscs-brachiopods/nomenclature/itis-mollusca-brachiopoda-tsn-sidecar-027.jsonl.gz",
+        "records": 2751,
+        "firstColUsageId": "7R46J",
+        "lastColUsageId": "7RH59",
+        "bytes": 67076,
+        "sha256": "b44c81abe61f1873ca8559111ff323fde762890ff587d0cb64a392ded10ab94e",
+        "sourceBytes": 524223,
+        "sourceSha256": "ee9dc6bc7c1d5cfdb34a491a43c59706c9f3c5ac9ee84ec5cd6f5e2c62eea371"
+      },
+      {
+        "path": "data/packages/invertebrata/molluscs-brachiopods/nomenclature/itis-mollusca-brachiopoda-tsn-sidecar-028.jsonl.gz",
+        "records": 2608,
+        "firstColUsageId": "7RH5B",
+        "lastColUsageId": "7RZ59",
+        "bytes": 66046,
+        "sha256": "8e8463406e1b29fb60b95bd6cfd3ca827d7e7b4a715ceb171a120d369ac69759",
+        "sourceBytes": 524223,
+        "sourceSha256": "a629016bf868750320589b015209262f191965cc69a196b31f1f978b04038b75"
+      },
+      {
+        "path": "data/packages/invertebrata/molluscs-brachiopods/nomenclature/itis-mollusca-brachiopoda-tsn-sidecar-029.jsonl.gz",
+        "records": 2639,
+        "firstColUsageId": "7RZ5V",
+        "lastColUsageId": "7SKDQ",
+        "bytes": 67554,
+        "sha256": "54f91e52790023a66558dad79f1af21a809b309fbcad6b6970e0f973dc81d72a",
+        "sourceBytes": 524044,
+        "sourceSha256": "7e10bf26293b40f6e76c4ed52b3e179cf06c50fc08879919361b7b83f470889d"
+      },
+      {
+        "path": "data/packages/invertebrata/molluscs-brachiopods/nomenclature/itis-mollusca-brachiopoda-tsn-sidecar-030.jsonl.gz",
+        "records": 2622,
+        "firstColUsageId": "7SKDV",
+        "lastColUsageId": "7SWYQ",
+        "bytes": 67465,
+        "sha256": "94e26084348c472f20d126385206496a4cbf1ca8d3b39fb363d36021ada689a8",
+        "sourceBytes": 524115,
+        "sourceSha256": "4d2f63c97b8621fa15016c76594bbb60a5dc43eeb018110325ec7f3000fa0019"
+      },
+      {
+        "path": "data/packages/invertebrata/molluscs-brachiopods/nomenclature/itis-mollusca-brachiopoda-tsn-sidecar-031.jsonl.gz",
+        "records": 2505,
+        "firstColUsageId": "7SWYW",
+        "lastColUsageId": "7TBJW",
+        "bytes": 65429,
+        "sha256": "5c76eb6e7745ffcd14f121bcd69e3425aaf01a31cab06db96f0e3be198471840",
+        "sourceBytes": 524167,
+        "sourceSha256": "99552589cd1aa7bbe8a973dcbaa79f9c4b5a7e8b7de0bf86ee2a1881d203b404"
+      },
+      {
+        "path": "data/packages/invertebrata/molluscs-brachiopods/nomenclature/itis-mollusca-brachiopoda-tsn-sidecar-032.jsonl.gz",
+        "records": 2653,
+        "firstColUsageId": "7TBJX",
+        "lastColUsageId": "86B9G",
+        "bytes": 67399,
+        "sha256": "160eb9bc837758018feb323f843ff158f5173ea6aa06713f19ae2fb1cd504f7c",
+        "sourceBytes": 524286,
+        "sourceSha256": "9c0a5ecfbb761504d6c772d57f5abfa2722acc6b37c1d25ac901e78531503a90"
+      },
+      {
+        "path": "data/packages/invertebrata/molluscs-brachiopods/nomenclature/itis-mollusca-brachiopoda-tsn-sidecar-033.jsonl.gz",
+        "records": 2821,
+        "firstColUsageId": "86B9H",
+        "lastColUsageId": "8H9DY",
+        "bytes": 74645,
+        "sha256": "554699d5de5961d1425e5ea81b457cd6393754c147f36151abbabfbc6b0310b6",
+        "sourceBytes": 524278,
+        "sourceSha256": "16ae061c241e2cf6366e382d51ea8b4fe0b7b47eab0434c974d6132e5d75dfa0"
+      },
+      {
+        "path": "data/packages/invertebrata/molluscs-brachiopods/nomenclature/itis-mollusca-brachiopoda-tsn-sidecar-034.jsonl.gz",
+        "records": 2737,
+        "firstColUsageId": "8H9F2",
+        "lastColUsageId": "8RWZP",
+        "bytes": 77708,
+        "sha256": "34a6803e3fd492232dbf150481aad38e715705edafbd87d94e66ceecfce69842",
+        "sourceBytes": 524134,
+        "sourceSha256": "88938e608d4131763c46e215bf8668bbcc0a4b07f3b21e13bf21fe0a0873f4d1"
+      },
+      {
+        "path": "data/packages/invertebrata/molluscs-brachiopods/nomenclature/itis-mollusca-brachiopoda-tsn-sidecar-035.jsonl.gz",
+        "records": 2742,
+        "firstColUsageId": "8RWZX",
+        "lastColUsageId": "8VQQP",
+        "bytes": 73863,
+        "sha256": "cb072950c233b5048cba11c5e5be5fa444ee751c91fafed393590a9df3365059",
+        "sourceBytes": 524244,
+        "sourceSha256": "edf0f894aa690176e92b9bbec9c536cbb73969529b488e416db2520fa8eb9a6d"
+      },
+      {
+        "path": "data/packages/invertebrata/molluscs-brachiopods/nomenclature/itis-mollusca-brachiopoda-tsn-sidecar-036.jsonl.gz",
+        "records": 2900,
+        "firstColUsageId": "8VQQR",
+        "lastColUsageId": "8YPBD",
+        "bytes": 60636,
+        "sha256": "477063145abc1561b4188355c9ff4bca951d7ed1603eba44cecf9f03d085c25a",
+        "sourceBytes": 524189,
+        "sourceSha256": "c6b7496d618f357644e67d3995b612b1d4e54c6d0cf5a0c305805b240fb4830d"
+      },
+      {
+        "path": "data/packages/invertebrata/molluscs-brachiopods/nomenclature/itis-mollusca-brachiopoda-tsn-sidecar-037.jsonl.gz",
+        "records": 2777,
+        "firstColUsageId": "8YPBF",
+        "lastColUsageId": "9GJ92",
+        "bytes": 74880,
+        "sha256": "da9cb8a262a4d487e675fec336d5bf508c94ebf66be71fc0be52589e9edb8aca",
+        "sourceBytes": 524195,
+        "sourceSha256": "ffbf0ceb570c01d1cc1fb3c45b7ffa2c505180b1e034aee5ae44fd18cd722c2c"
+      },
+      {
+        "path": "data/packages/invertebrata/molluscs-brachiopods/nomenclature/itis-mollusca-brachiopoda-tsn-sidecar-038.jsonl.gz",
+        "records": 2850,
+        "firstColUsageId": "9GJ96",
+        "lastColUsageId": "9J8QF",
+        "bytes": 71254,
+        "sha256": "77a808cd36530f7f336810bc871ab6cc7a3dcf03628ca8997012f05a14a0c0b5",
+        "sourceBytes": 524168,
+        "sourceSha256": "1f62aab9bd4c89fb06670a3579a1b7d7cccd233a9797e0f9f8e38ee9fbb5bf7f"
+      },
+      {
+        "path": "data/packages/invertebrata/molluscs-brachiopods/nomenclature/itis-mollusca-brachiopoda-tsn-sidecar-039.jsonl.gz",
+        "records": 2790,
+        "firstColUsageId": "9J8QG",
+        "lastColUsageId": "B4PFG",
+        "bytes": 76514,
+        "sha256": "c45038ed70a24953d71380bfdf2a89513c9b5117f5a378b922bd77b59fb7b42f",
+        "sourceBytes": 524269,
+        "sourceSha256": "a491a6f8f51a73e6d929c76ee263a155f9d483726e9bd9ce98315190d1fe36b4"
+      },
+      {
+        "path": "data/packages/invertebrata/molluscs-brachiopods/nomenclature/itis-mollusca-brachiopoda-tsn-sidecar-040.jsonl.gz",
+        "records": 2818,
+        "firstColUsageId": "B4PFH",
+        "lastColUsageId": "B7T2K",
+        "bytes": 73422,
+        "sha256": "d312d81220140bfd52451c602bdbee741c856b029b8cf882678cce96e32c0f9e",
+        "sourceBytes": 524248,
+        "sourceSha256": "40bb916086c4158f33cbe403a6b0a080328af69ebaa8046d28c2e2d6f2cc1b35"
+      },
+      {
+        "path": "data/packages/invertebrata/molluscs-brachiopods/nomenclature/itis-mollusca-brachiopoda-tsn-sidecar-041.jsonl.gz",
+        "records": 2868,
+        "firstColUsageId": "B7T2M",
+        "lastColUsageId": "BJ42K",
+        "bytes": 71157,
+        "sha256": "37ee45594670ee4982d3b8b8cd795db689a70e9c73ac6af1a35350ee627fa4c1",
+        "sourceBytes": 524203,
+        "sourceSha256": "52deef3e3b74ef6e67d38078c7cbb640e1053b2babf937efe785b0be577e6469"
+      },
+      {
+        "path": "data/packages/invertebrata/molluscs-brachiopods/nomenclature/itis-mollusca-brachiopoda-tsn-sidecar-042.jsonl.gz",
+        "records": 2798,
+        "firstColUsageId": "BJ42L",
+        "lastColUsageId": "C4RJX",
+        "bytes": 75211,
+        "sha256": "10b3e8ad998dd861ccc1eda1bd3297c29dad936fd68f8b14136c54d230ebff17",
+        "sourceBytes": 524089,
+        "sourceSha256": "fc7c8226e3cd864aa997b6f41e035238cd463bb8fc8bb3281641c2a4695f5cca"
+      },
+      {
+        "path": "data/packages/invertebrata/molluscs-brachiopods/nomenclature/itis-mollusca-brachiopoda-tsn-sidecar-043.jsonl.gz",
+        "records": 2799,
+        "firstColUsageId": "C4RJY",
+        "lastColUsageId": "C5YC8",
+        "bytes": 75878,
+        "sha256": "ee084cd95d3404ee3d5a92f6591a7aedd5e1c47c8591e2377aade06244a3b7ba",
+        "sourceBytes": 524240,
+        "sourceSha256": "7635f67ea621e363ed6c445de620abc3e7db7b214095c24d2e86ada98f01b16d"
+      },
+      {
+        "path": "data/packages/invertebrata/molluscs-brachiopods/nomenclature/itis-mollusca-brachiopoda-tsn-sidecar-044.jsonl.gz",
+        "records": 2786,
+        "firstColUsageId": "C5YCG",
+        "lastColUsageId": "CCMDH",
+        "bytes": 73745,
+        "sha256": "c4b74dd97dc60d3d0efa1e46df122a31f2d90b697b584afe60fd24f9570677e1",
+        "sourceBytes": 524216,
+        "sourceSha256": "21108496c2900477b06d6ce5813d9448e0b2ef32c378aec121376143e8470077"
+      },
+      {
+        "path": "data/packages/invertebrata/molluscs-brachiopods/nomenclature/itis-mollusca-brachiopoda-tsn-sidecar-045.jsonl.gz",
+        "records": 2776,
+        "firstColUsageId": "CCMDJ",
+        "lastColUsageId": "CHMZL",
+        "bytes": 76157,
+        "sha256": "5b205013b4a09aff869c31dd065d94d26def072ec6a98def379f06b50244341d",
+        "sourceBytes": 524216,
+        "sourceSha256": "03afddea45c6dafa703f31bfc1d24dbafdde2024b66d4c1e5e29f1abd9ee3362"
+      },
+      {
+        "path": "data/packages/invertebrata/molluscs-brachiopods/nomenclature/itis-mollusca-brachiopoda-tsn-sidecar-046.jsonl.gz",
+        "records": 2829,
+        "firstColUsageId": "CHMZM",
+        "lastColUsageId": "CN6T6",
+        "bytes": 76172,
+        "sha256": "145a8a9af5c55322dbdefb076b8c3575ed68d4e07695248f14534f7e9898ac45",
+        "sourceBytes": 524086,
+        "sourceSha256": "08fccab6f6c57dcf3efe2a3ff3691c106782b79114fca0f2039951cbd7d34d6b"
+      },
+      {
+        "path": "data/packages/invertebrata/molluscs-brachiopods/nomenclature/itis-mollusca-brachiopoda-tsn-sidecar-047.jsonl.gz",
+        "records": 2796,
+        "firstColUsageId": "CN6T7",
+        "lastColUsageId": "CTBQ6",
+        "bytes": 78011,
+        "sha256": "10abd6783c52cdcade3508b2f08a4e8e1257d71eabf85a1389b0057349939b0e",
+        "sourceBytes": 524153,
+        "sourceSha256": "dc733aef27f2a24050be174562f03cde3af0fe9523b9531799ec699490622b1a"
+      },
+      {
+        "path": "data/packages/invertebrata/molluscs-brachiopods/nomenclature/itis-mollusca-brachiopoda-tsn-sidecar-048.jsonl.gz",
+        "records": 2813,
+        "firstColUsageId": "CTBQ7",
+        "lastColUsageId": "F336S",
+        "bytes": 73944,
+        "sha256": "3691212f0475124431cd6fc26d1c62da8bb2e33d8861fe1c1a3a90bfda3a8a4d",
+        "sourceBytes": 524183,
+        "sourceSha256": "0d24087d7b8a75971416d30af9325196fe561b7889a1d7b2116a2942810501ad"
+      },
+      {
+        "path": "data/packages/invertebrata/molluscs-brachiopods/nomenclature/itis-mollusca-brachiopoda-tsn-sidecar-049.jsonl.gz",
+        "records": 2738,
+        "firstColUsageId": "F336V",
+        "lastColUsageId": "KTVLV",
+        "bytes": 73172,
+        "sha256": "e0d8b681a241fd7c47726f33ba563e63ac04eca4d962180f8ad9b81ff93cddc4",
+        "sourceBytes": 524137,
+        "sourceSha256": "f0df157097e1b33a4235fa37372d17866dd3eb77636a29e64a18d98aba896b0a"
+      },
+      {
+        "path": "data/packages/invertebrata/molluscs-brachiopods/nomenclature/itis-mollusca-brachiopoda-tsn-sidecar-050.jsonl.gz",
+        "records": 2717,
+        "firstColUsageId": "KTVLX",
+        "lastColUsageId": "L2WGJ",
+        "bytes": 75103,
+        "sha256": "b3275081b395394e47a8ce4eeb9ff6637d666ff86661b53795304ea3f5617db8",
+        "sourceBytes": 524272,
+        "sourceSha256": "938472e5c2b4e0aa9745bb986b8735159c6af888a07dc32b3174f9dc31991ed3"
+      },
+      {
+        "path": "data/packages/invertebrata/molluscs-brachiopods/nomenclature/itis-mollusca-brachiopoda-tsn-sidecar-051.jsonl.gz",
+        "records": 2648,
+        "firstColUsageId": "L2WGK",
+        "lastColUsageId": "P9P5",
+        "bytes": 70908,
+        "sha256": "c13626eb60d20471d4cff15cbc7eaea670c0551ecb3ae90ed862b52bdf364ba4",
+        "sourceBytes": 524114,
+        "sourceSha256": "4eeb7df3bf815830bbd8ed0ceb52c2d4161669d0264194b124b4510e9a01411e"
+      },
+      {
+        "path": "data/packages/invertebrata/molluscs-brachiopods/nomenclature/itis-mollusca-brachiopoda-tsn-sidecar-052.jsonl.gz",
+        "records": 2610,
+        "firstColUsageId": "P9P6",
+        "lastColUsageId": "TR58",
+        "bytes": 69134,
+        "sha256": "86aa99976d1358bce5bec21299cb4d7ee0661635743c756fe437702b38e52973",
+        "sourceBytes": 524288,
+        "sourceSha256": "c1d249040d99f07bcdebbb762a548148359fac88dc7f15229ca7b5a09b3691ba"
+      },
+      {
+        "path": "data/packages/invertebrata/molluscs-brachiopods/nomenclature/itis-mollusca-brachiopoda-tsn-sidecar-053.jsonl.gz",
+        "records": 2821,
+        "firstColUsageId": "TRG99",
+        "lastColUsageId": "V7DL2",
+        "bytes": 76842,
+        "sha256": "b3b875418aee32970c0496bb47896723b16ed9cfa7d6af9d49527f7b12146912",
+        "sourceBytes": 524172,
+        "sourceSha256": "37a2ed73bf8a7521878492b662da367c6b4f33f831f4f0b28ac905251d39edb9"
+      },
+      {
+        "path": "data/packages/invertebrata/molluscs-brachiopods/nomenclature/itis-mollusca-brachiopoda-tsn-sidecar-054.jsonl.gz",
+        "records": 2876,
+        "firstColUsageId": "V7DL6",
+        "lastColUsageId": "V9VJW",
+        "bytes": 81530,
+        "sha256": "af722885283128c1f6e9dc73b71f0e2d73dff39baa34a23400daf5473478c85e",
+        "sourceBytes": 524184,
+        "sourceSha256": "ac80feed4b3d1df77a704cb7527872e18a11e7ec06bc09cb7b9e6dc226808481"
+      },
+      {
+        "path": "data/packages/invertebrata/molluscs-brachiopods/nomenclature/itis-mollusca-brachiopoda-tsn-sidecar-055.jsonl.gz",
+        "records": 2784,
+        "firstColUsageId": "V9VK2",
+        "lastColUsageId": "VCBQP",
+        "bytes": 81075,
+        "sha256": "ab501c025c818c930fafab763cac317d248aae759ad64b0e3ca3a5f7fa3ef3e5",
+        "sourceBytes": 524253,
+        "sourceSha256": "f4f1aee147732eb75413af7bf9fb73063d7779959a516eecbe6bc571298d9626"
+      },
+      {
+        "path": "data/packages/invertebrata/molluscs-brachiopods/nomenclature/itis-mollusca-brachiopoda-tsn-sidecar-056.jsonl.gz",
+        "records": 2853,
+        "firstColUsageId": "VCBQY",
+        "lastColUsageId": "VGX9T",
+        "bytes": 80383,
+        "sha256": "5afa32703060bd67f3614d0d6b35a908c7c7cb5eefa04d3455f34090ccbd2226",
+        "sourceBytes": 524201,
+        "sourceSha256": "a0705eb9d3389d028624863a8b6eb172dc1882abe347d4f550236783d0383b7f"
+      },
+      {
+        "path": "data/packages/invertebrata/molluscs-brachiopods/nomenclature/itis-mollusca-brachiopoda-tsn-sidecar-057.jsonl.gz",
+        "records": 2746,
+        "firstColUsageId": "VGXBG",
+        "lastColUsageId": "WQ99",
+        "bytes": 76310,
+        "sha256": "9bbc6aa0c0268dfbf468818dbd365b3aec63a20a33058a58d5974151dd2b95a5",
+        "sourceBytes": 524153,
+        "sourceSha256": "cdae4fe40167402f625ab46d3aad7d567c6e7a72a677ff0c2b1ccbe92bf644de"
+      },
+      {
+        "path": "data/packages/invertebrata/molluscs-brachiopods/nomenclature/itis-mollusca-brachiopoda-tsn-sidecar-058.jsonl.gz",
+        "records": 2328,
+        "firstColUsageId": "WQ9B",
+        "lastColUsageId": "ZZ2V",
+        "bytes": 58893,
+        "sha256": "37a13167d9b36ad0bc5b56ee4ac7a5ed3def8db96271c1352ae1ea606a012c92",
+        "sourceBytes": 463305,
+        "sourceSha256": "1943a4e3bb7c7a19fac55c6dee160d2a2f511a7aa1225c57cfcbb770bc3a1ac6"
+      }
+    ],
+    "upstreamOnly": {
+      "path": "data/packages/invertebrata/molluscs-brachiopods/nomenclature/itis-mollusca-brachiopoda-upstream-only-000.jsonl.gz",
+      "records": 4289,
+      "firstColUsageId": null,
+      "lastColUsageId": null,
+      "bytes": 58076,
+      "sha256": "b9a3dc1c9ec64e9ba09562a05ce5f043eca4bacc2ce550242a390d79bba9355f",
+      "sourceBytes": 1736369,
+      "sourceSha256": "12b1969653d1552694658b8f482eb090b8538b1f4382d360a2ab2443383ab81a",
+      "colOwnership": null,
+      "firstTsn": "57767",
+      "lastTsn": "1280723"
+    }
+  },
+  "deliveryContract": {
+    "pagesLight": "Pages needs only this small descriptor and canonical hash inventory; it may omit all row-level JSONL gzip shards.",
+    "androidIosFull": "Android and iOS complete-data inventories must include the descriptor and every listed row-level shard as the same checksum-addressed bytes.",
+    "runtimeChange": "This import deliberately changes no formal runtime or published release manifest."
+  },
+  "generatedBy": {
+    "scriptPath": "scripts/build-itis-mollusca-brachiopoda-sidecar.mjs",
+    "scriptSha256": "1beb67b68e7a3472ff73359401a9d155755bc22b81c277e96f830391869088ad",
+    "deterministic": "Pinned input checksums, declared non-overlapping roots, fixed SQL, exact representation-only normalization and stable sorting; no wall-clock fields or fuzzy matching."
+  }
+}
