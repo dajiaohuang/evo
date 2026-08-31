@@ -998,6 +998,7 @@ export type CatalogueItisOtherAnimalsScope =
   | 'micrognathozoa'
   | 'cycliophora'
   | 'placozoa'
+  | 'xenacoelomorpha'
 
 export interface CatalogueItisOtherAnimalsResourcePackExtension {
   id: `itis-${CatalogueItisOtherAnimalsScope}-tsn-crosswalk`

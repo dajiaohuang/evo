@@ -714,6 +714,7 @@ const itisOtherAnimalsContracts: Record<import('./types').CatalogueItisOtherAnim
   micrognathozoa: { eligible: 1, accepted: 1, redirects: 0, ambiguous: 0, unmatched: 0, upstreamOnly: 0, nonApplicable: 99160, canonicalFileCount: 2 },
   cycliophora: { eligible: 2, accepted: 2, redirects: 0, ambiguous: 0, unmatched: 0, upstreamOnly: 0, nonApplicable: 99159, canonicalFileCount: 2 },
   placozoa: { eligible: 4, accepted: 4, redirects: 0, ambiguous: 0, unmatched: 0, upstreamOnly: 0, nonApplicable: 99157, canonicalFileCount: 2 },
+  xenacoelomorpha: { eligible: 441, accepted: 370, redirects: 6, ambiguous: 1, unmatched: 64, upstreamOnly: 58, nonApplicable: 98720, canonicalFileCount: 2 },
 }
 
 export async function loadCatalogueItisOtherAnimalsRecord(

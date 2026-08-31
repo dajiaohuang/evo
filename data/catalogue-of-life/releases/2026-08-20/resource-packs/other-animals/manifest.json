@@ -3013,6 +3013,120 @@
           "requestPolicy": "Select the sole inclusive COL-ID range and read at most one COL partition; upstream-only files are never selected by COL ID."
         }
       }
+    },
+    {
+      "id": "itis-xenacoelomorpha-tsn-crosswalk",
+      "recordType": "release-pinned-exact-nomenclatural-crosswalk",
+      "provider": "Integrated Taxonomic Information System",
+      "source": {
+        "datasetId": "itis-2026-08-26",
+        "exportDate": "2026-08-26",
+        "rootTsn": "914162",
+        "license": "CC0-1.0",
+        "citationDoi": "10.5066/F7KH0KBK",
+        "canonicalDescriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals/itis-xenacoelomorpha-sidecar.json",
+        "canonicalDescriptorBytes": 5123,
+        "canonicalDescriptorSha256": "ccbbeaa7a624fe8a478ec246c4897cb7ace8e026185fdb682794f89b5bcc4bd7"
+      },
+      "scope": {
+        "colRootUsageId": "7NF2K",
+        "colRootScientificName": "Xenacoelomorpha",
+        "colStrictAcceptedSpecies": 441,
+        "packageStrictAcceptedSpecies": 99161,
+        "packageOutOfScopeStrictAcceptedSpecies": 98720,
+        "boundary": "other-animals is the deterministic Animalia remainder after every more-specific static-package route. This sidecar covers only strict accepted COL26.8 species descending from the exact Xenacoelomorpha root 7NF2K (including Acoela and Xenoturbellida); every other other-animals-owned species is explicitly non-applicable."
+      },
+      "matching": {
+        "normalization": [
+          "Remove the exact trailing COL authorship field from COL scientificName when that suffix is present; no authorship parser is used.",
+          "Normalize Unicode to NFC, replace underscores with spaces, collapse Unicode whitespace and trim.",
+          "For species-rank comparison, remove one parenthesized subgenus token in the exact Genus (Subgenus) species representation; genus and specific epithet must remain unchanged.",
+          "Preserve case, diacritics, punctuation and all remaining name tokens."
+        ],
+        "statuses": {
+          "accepted": "The normalized COL name resolves to exactly one valid ITIS Xenacoelomorpha species and directly equals that current ITIS name.",
+          "synonym-current-name-redirect": "The normalized COL name equals official ITIS invalid species-name evidence that resolves to exactly one valid ITIS Xenacoelomorpha species.",
+          "ambiguous": "The normalized exact evidence resolves to more than one valid ITIS Xenacoelomorpha species TSN.",
+          "unmatched": "No normalized exact valid-name or official ITIS species-synonym evidence resolves to a valid ITIS Xenacoelomorpha species."
+        },
+        "prohibited": "No fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered or taxon-substituted matching is used."
+      },
+      "evidenceBoundary": {
+        "en": "This CC0 ITIS sidecar is a frozen exact nomenclatural crosswalk for Xenacoelomorpha, not a global checklist, final classification authority, phylogeny, species-concept equivalence assertion, biological dossier or scientific-review record.",
+        "zh": "此 CC0 ITIS 侧车是 Xenacoelomorpha 的冻结严格命名交叉映射；它不是全球名录、最终分类权威、系统发育树、物种概念等同性声明、生物档案或科学审查记录。"
+      },
+      "counts": {
+        "eligible": 441,
+        "records": 499,
+        "accepted": 370,
+        "redirects": 6,
+        "ambiguous": 1,
+        "unmatched": 64,
+        "withheld": 0,
+        "upstreamOnly": 58,
+        "nonApplicable": 98720
+      },
+      "files": [
+        {
+          "path": "other-animals/itis-xenacoelomorpha-sidecar-0000.jsonl.gz",
+          "records": 441,
+          "bytes": 14544,
+          "sourceBytes": 160669,
+          "sha256": "d7d6375912d2436d45b6b52b506271d8fedc9bbaec50b9cb2de2a0af60d37d7f",
+          "sourceSha256": "d8736a810c661f9cce960aece3cce4421bfaf6c7ec2ed8002bdc6a938704be4b",
+          "encoding": "gzip",
+          "mediaType": "application/x-ndjson",
+          "minColId": "33YQL",
+          "maxColId": "XYRX",
+          "role": "col-partition"
+        },
+        {
+          "path": "other-animals/itis-xenacoelomorpha-upstream-only-0000.jsonl.gz",
+          "records": 58,
+          "bytes": 1102,
+          "sourceBytes": 21204,
+          "sha256": "a780fe778e30bdafb900e45e65f915c53a33f0fda23d42cc477fc8552697567f",
+          "sourceSha256": "095b0caedc03114a5ae4eae674bbece78c198fdc5a9268f7fb12dbd44058e258",
+          "encoding": "gzip",
+          "mediaType": "application/x-ndjson",
+          "colOwnership": null,
+          "role": "upstream-only"
+        }
+      ],
+      "totalCompressedBytes": 15646,
+      "totalSourceBytes": 181873,
+      "deliveryProfiles": {
+        "web-light": {
+          "payload": "summary-only",
+          "files": [],
+          "records": 0,
+          "totalCompressedBytes": 0,
+          "totalSourceBytes": 0,
+          "statement": "GitHub Pages publishes the complete Xenacoelomorpha ITIS summary and canonical hashes without row shards."
+        },
+        "native-full": {
+          "payload": "complete",
+          "files": [
+            "other-animals/itis-xenacoelomorpha-sidecar-0000.jsonl.gz",
+            "other-animals/itis-xenacoelomorpha-upstream-only-0000.jsonl.gz"
+          ],
+          "records": 499,
+          "totalCompressedBytes": 15646,
+          "totalSourceBytes": 181873
+        }
+      },
+      "limitations": [
+        "This CC0 ITIS sidecar is a frozen exact nomenclatural crosswalk for Xenacoelomorpha, not a global checklist, final classification authority, phylogeny, species-concept equivalence assertion, biological dossier or scientific-review record.",
+        "No fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered or taxon-substituted matching is used."
+      ],
+      "integration": {
+        "clientParityRequirement": "Android and iOS must copy every native-full file byte-for-byte; Web uses the web-light summary profile.",
+        "lookup": {
+          "strategy": "lexicographic-colId-range-v1",
+          "ordering": "Unicode code-unit ascending",
+          "requestPolicy": "Select the sole inclusive COL-ID range and read at most one COL partition; upstream-only files are never selected by COL ID."
+        }
+      }
     }
   ]
 }
