@@ -172,6 +172,15 @@ const expectedRichItisCollections = {
       mammal: true,
     },
   },
+  actinopterygii: {
+    'itis-actinopterygii-tsn-crosswalk': { files: 23, upstreamFiles: 1, records: 35928, upstreamRecords: 3732 },
+  },
+  chondrichthyes: {
+    'itis-chondrichthyes-tsn-crosswalk': { files: 1, upstreamFiles: 1, records: 1359, upstreamRecords: 183 },
+  },
+  'early-fishes': {
+    'itis-agnatha-myxini-tsn-crosswalk': { files: 1, upstreamFiles: 1, records: 141, upstreamRecords: 17 },
+  },
 }
 let arthropodItisFiles = 0
 let arthropodItisRecords = 0

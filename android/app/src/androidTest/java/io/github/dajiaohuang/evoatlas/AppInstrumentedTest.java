@@ -149,6 +149,9 @@ public class AppInstrumentedTest {
         int crocodyliaItisNomenclatureRecords = 0;
         int mammalItisFiles = 0;
         int mammalItisNomenclatureRecords = 0;
+        int fishItisFiles = 0;
+        int fishItisNomenclatureRecords = 0;
+        int fishItisUpstreamRecords = 0;
         int wfoRichRecords = 0;
         Iterator<String> richPackageIds = richManifests.keys();
         while (richPackageIds.hasNext()) {
@@ -271,6 +274,22 @@ public class AppInstrumentedTest {
                 }
                 assertEquals(8923, collection.getJSONObject("counts").getInt("total"));
                 assertEquals(8, collection.getJSONObject("counts").getInt("itisUpstreamOnly"));
+            } else if (packageId.equals("actinopterygii") || packageId.equals("chondrichthyes") || packageId.equals("early-fishes")) {
+                JSONArray collections = pack.getJSONArray("nomenclatureCollections");
+                assertEquals(1, collections.length());
+                String collectionId = packageId.equals("actinopterygii")
+                        ? "itis-actinopterygii-tsn-crosswalk"
+                        : packageId.equals("chondrichthyes")
+                        ? "itis-chondrichthyes-tsn-crosswalk"
+                        : "itis-agnatha-myxini-tsn-crosswalk";
+                int expectedFiles = packageId.equals("actinopterygii") ? 23 : 1;
+                int expectedRecords = packageId.equals("actinopterygii") ? 35928 : packageId.equals("chondrichthyes") ? 1359 : 141;
+                int expectedUpstreamRecords = packageId.equals("actinopterygii") ? 3732 : packageId.equals("chondrichthyes") ? 183 : 17;
+                fishItisNomenclatureRecords += verifyRichItisCollection(context, files,
+                        findCollection(collections, collectionId), expectedFiles, 1,
+                        expectedRecords, expectedUpstreamRecords, "ITIS " + collectionId);
+                fishItisFiles += expectedFiles + 1;
+                fishItisUpstreamRecords += expectedUpstreamRecords;
             } else if (packageId.equals("perissodactyla") || packageId.equals("cetartiodactyla")
                     || packageId.equals("primates") || packageId.equals("carnivora")
                     || packageId.equals("other-mammals")) {
@@ -365,6 +384,9 @@ public class AppInstrumentedTest {
         assertEquals(27, crocodyliaItisNomenclatureRecords);
         assertEquals(9, mammalItisFiles);
         assertEquals(6464, mammalItisNomenclatureRecords);
+        assertEquals(28, fishItisFiles);
+        assertEquals(37428, fishItisNomenclatureRecords);
+        assertEquals(3932, fishItisUpstreamRecords);
         assertEquals(387988, wfoRichRecords);
 
         JSONObject catalogueDescriptor = current.getJSONObject("catalogue").getJSONObject("manifest");
