@@ -1,10 +1,11 @@
 import { createHash } from 'node:crypto'
-import { createReadStream, mkdirSync, readFileSync, writeFileSync } from 'node:fs'
+import { createReadStream, mkdirSync, readFileSync, readdirSync, rmSync, writeFileSync } from 'node:fs'
 import { dirname, join, resolve } from 'node:path'
 import { createInterface } from 'node:readline'
 import { DatabaseSync } from 'node:sqlite'
 import { fileURLToPath } from 'node:url'
 import { createGunzip } from 'node:zlib'
+import { deterministicGzip } from './archive-determinism.mjs'
 import {
   createItisMammalNameIndex,
   matchColSpecies,
@@ -20,6 +21,7 @@ const OUTPUT_PATH = join(REPOSITORY_ROOT, 'data', 'packages', 'vertebrata', 'amp
 const LEDGER_PATH = join(REPOSITORY_ROOT, 'data', 'sources', 'itis-amphibia-sidecar-import-ledger.json')
 const AMPHIBIA_ROOT_TSN = 173420
 const AMPHIBIA_COL_ROOT_ID = 'PH'
+const SHARD_SOURCE_LIMIT_BYTES = 512 * 1024
 const MATCHING_STATUSES = {
   accepted: 'The normalized COL name resolves to exactly one valid ITIS Amphibia species and directly equals that current ITIS name.',
   'synonym-current-name-redirect': 'The normalized COL name equals one or more official ITIS invalid species names whose synonym_links rows resolve to exactly one valid ITIS Amphibia species.',
@@ -81,6 +83,46 @@ function repoPath(path) {
 
 function jsonBytes(value) {
   return Buffer.from(`${JSON.stringify(value, null, 2)}\n`, 'utf8')
+}
+
+function jsonlBytes(records) {
+  return Buffer.from(`${records.map((record) => JSON.stringify(record)).join('\n')}\n`, 'utf8')
+}
+
+function compareCodeUnits(left, right) {
+  return left < right ? -1 : left > right ? 1 : 0
+}
+
+function chunkBySourceBytes(records) {
+  const chunks = []
+  let current = []
+  let currentBytes = 0
+  for (const record of records) {
+    const recordBytes = Buffer.byteLength(JSON.stringify(record), 'utf8') + 1
+    if (recordBytes > SHARD_SOURCE_LIMIT_BYTES) throw new Error(`COL ${record.colUsageId}: one JSONL record exceeds the source shard limit`)
+    if (current.length && currentBytes + recordBytes > SHARD_SOURCE_LIMIT_BYTES) {
+      chunks.push(current)
+      current = []
+      currentBytes = 0
+    }
+    current.push(record)
+    currentBytes += recordBytes
+  }
+  if (current.length) chunks.push(current)
+  return chunks
+}
+
+function outputDescriptor(path, records, bytes, sourceBytes) {
+  return {
+    path: repoPath(path),
+    records: records.length,
+    firstColUsageId: records[0]?.colUsageId ?? null,
+    lastColUsageId: records.at(-1)?.colUsageId ?? null,
+    bytes: bytes.length,
+    sha256: sha256(bytes),
+    sourceBytes: sourceBytes.length,
+    sourceSha256: sha256(sourceBytes),
+  }
 }
 
 async function forEachGzipJsonLine(path, visit) {
@@ -186,16 +228,6 @@ async function main() {
     for (const candidate of result.record.candidates ?? []) evidencedTsns.add(candidate.currentName.tsn)
   }
   for (const key of Object.keys(groups)) groups[key] = sortCrosswalkRecords(groups[key])
-  const locators = {}
-  for (const [recordGroup, records] of Object.entries(groups)) {
-    for (const [recordIndex, record] of records.entries()) {
-      locators[record.colUsageId] = {
-        shard: 'itis-tsn-sidecar.json',
-        recordGroup,
-        recordIndex,
-      }
-    }
-  }
   const upstreamOnly = sortUpstreamOnly(currentRows
     .filter((row) => !evidencedTsns.has(String(row.tsn)))
     .map((row) => ({
@@ -204,6 +236,35 @@ async function main() {
       basis: 'No strict COL26.8 Amphibia accepted-species name or official ITIS species-synonym evidence resolves to this current ITIS TSN.',
     })))
   const counts = countsFor(groups)
+  const crosswalkRecords = Object.entries(groups)
+    .flatMap(([status, records]) => records.map((record) => ({ status, ...record })))
+    .sort((left, right) => compareCodeUnits(left.colUsageId, right.colUsageId))
+  if (new Set(crosswalkRecords.map((record) => record.colUsageId)).size !== colSpecies.length) {
+    throw new Error('COL Amphibia sidecar records are not uniquely addressable by colUsageId')
+  }
+  const nomenclatureRoot = dirname(OUTPUT_PATH)
+  mkdirSync(nomenclatureRoot, { recursive: true })
+  for (const name of readdirSync(nomenclatureRoot)) {
+    if (/^itis-(?:tsn-sidecar|upstream-only)-\d{3}\.jsonl\.gz$/u.test(name)) rmSync(join(nomenclatureRoot, name))
+  }
+  const shardDescriptors = chunkBySourceBytes(crosswalkRecords).map((records, index) => {
+    const fileName = `itis-tsn-sidecar-${String(index).padStart(3, '0')}.jsonl.gz`
+    const sourceBytes = jsonlBytes(records)
+    const bytes = Buffer.from(deterministicGzip(sourceBytes, { level: 9 }))
+    const path = join(nomenclatureRoot, fileName)
+    writeFileSync(path, bytes)
+    return outputDescriptor(path, records, bytes, sourceBytes)
+  })
+  const upstreamSourceBytes = jsonlBytes(upstreamOnly)
+  const upstreamBytes = Buffer.from(deterministicGzip(upstreamSourceBytes, { level: 9 }))
+  const upstreamPath = join(nomenclatureRoot, 'itis-upstream-only-000.jsonl.gz')
+  writeFileSync(upstreamPath, upstreamBytes)
+  const upstreamDescriptor = {
+    ...outputDescriptor(upstreamPath, upstreamOnly, upstreamBytes, upstreamSourceBytes),
+    colOwnership: null,
+    firstTsn: upstreamOnly[0]?.currentName.tsn ?? null,
+    lastTsn: upstreamOnly.at(-1)?.currentName.tsn ?? null,
+  }
   const sidecar = {
     schemaVersion: 1,
     sidecarType: 'release-pinned-exact-nomenclatural-crosswalk',
@@ -222,15 +283,20 @@ async function main() {
       zh: '此 CC0 ITIS 侧车提供冻结的严格命名交叉映射；它不是最终分类权威、系统发育树、物种概念等同性声明、生物档案或科学审查记录。',
     },
     counts: { ...counts, itisCurrentSpecies: currentRows.length, itisSpeciesSynonymLinks: synonymRows.length, itisUpstreamOnly: upstreamOnly.length },
-    locators: {
+    colUsageIdLocator: {
       key: 'colUsageId',
-      stableAddressing: 'Each strict COL26.8 accepted Amphibia usage ID resolves to exactly one record in the named immutable sidecar shard.',
-      entries: Object.fromEntries(Object.entries(locators).sort(([left], [right]) => left.localeCompare(right))),
+      ordering: 'Unicode code-unit ascending',
+      sourceShardLimitBytes: SHARD_SOURCE_LIMIT_BYTES,
+      stableAddressing: 'Binary-search the non-overlapping inclusive colUsageId ranges; a detail request loads exactly one matching immutable JSONL gzip shard.',
+      files: shardDescriptors,
     },
-    records: { ...groups, itisUpstreamOnly: upstreamOnly },
+    upstreamOnly: {
+      colOwnership: null,
+      stableAddressing: 'No COL usage ID is assigned. The complete ITIS-only current-species partition is in its own immutable JSONL gzip shard.',
+      files: [upstreamDescriptor],
+    },
   }
   const sidecarBytes = jsonBytes(sidecar)
-  mkdirSync(dirname(OUTPUT_PATH), { recursive: true })
   writeFileSync(OUTPUT_PATH, sidecarBytes)
   const ledger = {
     schemaVersion: 1,
@@ -239,8 +305,12 @@ async function main() {
     scopeAudit: { colRootUsageId: AMPHIBIA_COL_ROOT_ID, colStrictAcceptedSpecies: colSpecies.length, itisRoot: { tsn: String(root.tsn), scientificName: root.completename, rank: root.rank_name, usage: root.name_usage }, itisCurrentSpecies: currentRows.length, itisSpeciesSynonymLinks: synonymRows.length, maximumUpdateDates: maxima },
     matchingContract: sidecar.exactMatching,
     totals: sidecar.counts,
-    output: { path: repoPath(OUTPUT_PATH), bytes: sidecarBytes.length, sha256: sha256(sidecarBytes) },
-    deliveryContract: { webLight: 'Optional lazy package sidecar; do not add it to default precache.', zip: 'Include the exact sidecar bytes with the Amphibia package ZIP when a runtime integration is approved.', androidIosFull: 'Include the same checksum-addressed sidecar bytes in Android and iOS complete-data inventories when a runtime integration is approved.', runtimeChange: 'This import deliberately changes no formal runtime or published release manifest.' },
+    output: {
+      descriptor: { path: repoPath(OUTPUT_PATH), bytes: sidecarBytes.length, sha256: sha256(sidecarBytes) },
+      colUsageIdShards: shardDescriptors,
+      upstreamOnly: upstreamDescriptor,
+    },
+    deliveryContract: { pagesLight: 'Pages needs only this small descriptor and may omit all row-level JSONL gzip shards.', zip: 'When a package ZIP integration is approved, include the descriptor and every listed row-level shard as the same checksum-addressed bytes.', androidIosFull: 'Android and iOS complete-data inventories must include the descriptor and every listed row-level shard as the same checksum-addressed bytes.', runtimeChange: 'This import deliberately changes no formal runtime or published release manifest.' },
     generatedBy: { scriptPath: repoPath(SCRIPT_PATH), scriptSha256: await sha256File(SCRIPT_PATH), deterministic: 'Pinned input checksums, fixed roots, exact SQL, exact representation-only normalization and stable sorting; no wall-clock fields or fuzzy matching.' },
   }
   writeFileSync(LEDGER_PATH, jsonBytes(ledger))
