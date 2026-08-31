@@ -1007,6 +1007,11 @@ describe('static runtime release coherence', () => {
       { scope: 'chelicerata', packageId: 'trilobites-chelicerates', collectionId: 'itis-chelicerata-tsn-crosswalk', total: 99511, accepted: 74948, redirects: 146, ambiguous: 141, unmatched: 24276, upstreamOnly: 5714, canonicalFileCount: 17 },
       { scope: 'reptilia-non-crocodylia', packageId: 'turtles-lepidosaurs', collectionId: 'itis-reptilia-tsn-crosswalk', total: 12622, accepted: 9805, redirects: 70, ambiguous: 3, unmatched: 2744, upstreamOnly: 655, canonicalFileCount: 10 },
       { scope: 'crocodylia', packageId: 'crocodylomorphs-birds', collectionId: 'itis-crocodylia-tsn-crosswalk', total: 27, accepted: 26, redirects: 1, ambiguous: 0, unmatched: 0, upstreamOnly: 0, canonicalFileCount: 1 },
+      { scope: 'perissodactyla', packageId: 'perissodactyla', collectionId: 'itis-perissodactyla-tsn-crosswalk', total: 19, accepted: 19, redirects: 0, ambiguous: 0, unmatched: 0, upstreamOnly: 0, canonicalFileCount: 1 },
+      { scope: 'cetartiodactyla', packageId: 'cetartiodactyla', collectionId: 'itis-cetartiodactyla-tsn-crosswalk', total: 503, accepted: 502, redirects: 0, ambiguous: 1, unmatched: 0, upstreamOnly: 0, canonicalFileCount: 1 },
+      { scope: 'primates', packageId: 'primates', collectionId: 'itis-primates-tsn-crosswalk', total: 530, accepted: 530, redirects: 0, ambiguous: 0, unmatched: 0, upstreamOnly: 0, canonicalFileCount: 1 },
+      { scope: 'carnivora', packageId: 'carnivora', collectionId: 'itis-carnivora-tsn-crosswalk', total: 310, accepted: 310, redirects: 0, ambiguous: 0, unmatched: 0, upstreamOnly: 0, canonicalFileCount: 1 },
+      { scope: 'other-mammals', packageId: 'other-mammals', collectionId: 'itis-other-mammals-tsn-crosswalk', total: 5099, accepted: 5099, redirects: 0, ambiguous: 0, unmatched: 0, upstreamOnly: 3, canonicalFileCount: 5 },
     ]
 
     for (const contract of contracts) {
@@ -1043,7 +1048,7 @@ describe('static runtime release coherence', () => {
     }
 
     vi.resetModules()
-    const contract = contracts.at(-1)!
+    const contract = contracts.find(({ scope }) => scope === 'other-mammals')!
     const webCollection = {
       schemaVersion: 1, id: contract.collectionId, recordType: 'release-pinned-exact-nomenclatural-crosswalk', provider: 'Integrated Taxonomic Information System',
       packageId: contract.packageId, source: { license: 'CC0-1.0' }, matching: {}, evidenceBoundary: { en: 'fixture', zh: 'fixture' }, limitations: [], descriptorSha256: 'fixture',

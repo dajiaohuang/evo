@@ -413,7 +413,7 @@ export async function loadPackageItisRecord(
 }
 
 const packageItisContracts: Record<import('./types').RuntimeItisPackageScope, {
-  packageId: 'other-animals' | 'molluscs-brachiopods' | 'sponges-cnidarians' | 'echinoderms' | 'crustaceans-insects' | 'trilobites-chelicerates' | 'turtles-lepidosaurs' | 'crocodylomorphs-birds'
+  packageId: 'other-animals' | 'molluscs-brachiopods' | 'sponges-cnidarians' | 'echinoderms' | 'crustaceans-insects' | 'trilobites-chelicerates' | 'turtles-lepidosaurs' | 'crocodylomorphs-birds' | 'perissodactyla' | 'cetartiodactyla' | 'primates' | 'carnivora' | 'other-mammals'
   collectionId: import('./types').RuntimeItisNomenclatureCollectionId
   total: number
   accepted: number
@@ -432,6 +432,11 @@ const packageItisContracts: Record<import('./types').RuntimeItisPackageScope, {
   chelicerata: { packageId: 'trilobites-chelicerates', collectionId: 'itis-chelicerata-tsn-crosswalk', total: 99511, accepted: 74948, redirects: 146, ambiguous: 141, unmatched: 24276, upstreamOnly: 5714, canonicalFileCount: 17 },
   'reptilia-non-crocodylia': { packageId: 'turtles-lepidosaurs', collectionId: 'itis-reptilia-tsn-crosswalk', total: 12622, accepted: 9805, redirects: 70, ambiguous: 3, unmatched: 2744, upstreamOnly: 655, canonicalFileCount: 10 },
   crocodylia: { packageId: 'crocodylomorphs-birds', collectionId: 'itis-crocodylia-tsn-crosswalk', total: 27, accepted: 26, redirects: 1, ambiguous: 0, unmatched: 0, upstreamOnly: 0, canonicalFileCount: 1 },
+  perissodactyla: { packageId: 'perissodactyla', collectionId: 'itis-perissodactyla-tsn-crosswalk', total: 19, accepted: 19, redirects: 0, ambiguous: 0, unmatched: 0, upstreamOnly: 0, canonicalFileCount: 1 },
+  cetartiodactyla: { packageId: 'cetartiodactyla', collectionId: 'itis-cetartiodactyla-tsn-crosswalk', total: 503, accepted: 502, redirects: 0, ambiguous: 1, unmatched: 0, upstreamOnly: 0, canonicalFileCount: 1 },
+  primates: { packageId: 'primates', collectionId: 'itis-primates-tsn-crosswalk', total: 530, accepted: 530, redirects: 0, ambiguous: 0, unmatched: 0, upstreamOnly: 0, canonicalFileCount: 1 },
+  carnivora: { packageId: 'carnivora', collectionId: 'itis-carnivora-tsn-crosswalk', total: 310, accepted: 310, redirects: 0, ambiguous: 0, unmatched: 0, upstreamOnly: 0, canonicalFileCount: 1 },
+  'other-mammals': { packageId: 'other-mammals', collectionId: 'itis-other-mammals-tsn-crosswalk', total: 5099, accepted: 5099, redirects: 0, ambiguous: 0, unmatched: 0, upstreamOnly: 3, canonicalFileCount: 5 },
 }
 
 export async function loadPackageItisAuthorityRecord(

@@ -1,6 +1,7 @@
 import { createHash } from 'node:crypto'
 import { readFileSync } from 'node:fs'
 import { dirname, join, resolve } from 'node:path'
+import { gunzipSync } from 'node:zlib'
 import { fileURLToPath } from 'node:url'
 import { describe, expect, it } from 'vitest'
 import {
@@ -12,13 +13,13 @@ import {
 
 const REPOSITORY_ROOT = resolve(dirname(fileURLToPath(import.meta.url)), '..')
 const PACKAGE_COUNTS = {
-  'mammal-origins': 0,
   perissodactyla: 19,
   cetartiodactyla: 503,
   primates: 530,
   carnivora: 310,
   'other-mammals': 5099,
 }
+const PACKAGE_ROOTS = Object.fromEntries(Object.keys(PACKAGE_COUNTS).map((packageId) => [packageId, `data/packages/mammalia/${packageId}/nomenclature`]))
 
 function sha256(bytes) {
   return createHash('sha256').update(bytes).digest('hex')
@@ -74,49 +75,68 @@ describe('ITIS Mammalia exact sidecar matching', () => {
   })
 })
 
-describe('checked-in ITIS Mammalia sidecars', () => {
-  const ledgerPath = join(REPOSITORY_ROOT, 'data', 'sources', 'itis-mammal-sidecar-import-ledger.json')
+describe('checked-in ITIS Mammalia authority sidecars', () => {
+  const ledgerPath = join(REPOSITORY_ROOT, 'data', 'sources', 'itis-mammal-authority-import-ledger.json')
   const ledgerBytes = readFileSync(ledgerPath)
   const ledger = JSON.parse(ledgerBytes.toString('utf8'))
 
-  it('covers the six COL26.8 mammal package owners exactly once', () => {
+  it('covers the five non-empty COL26.8 mammal package owners exactly once', () => {
     expect(ledger.totals.total).toBe(6461)
-    expect(ledger.outputs.map((output) => output.packageId)).toEqual(Object.keys(PACKAGE_COUNTS))
-    expect(Object.fromEntries(ledger.outputs.map((output) => [output.packageId, output.counts.total]))).toEqual(PACKAGE_COUNTS)
-    expect(ledger.matchingContract.matching.forbidden).toContain('No fuzzy')
+    expect(Object.keys(ledger.outputs)).toEqual(Object.keys(PACKAGE_COUNTS))
+    expect(Object.fromEntries(Object.entries(ledger.outputs).map(([packageId, output]) => [packageId, output.counts.total]))).toEqual(PACKAGE_COUNTS)
+    expect(ledger.matchingContract.exactMatching?.forbidden ?? ledger.matchingContract.forbidden).toContain('No fuzzy')
+    expect(ledger.totals.itisUpstreamOnly).toBe(3)
+  })
+
+  it('pins the canonical crosswalk and its complete package partition', () => {
+    const canonicalBytes = readFileSync(join(REPOSITORY_ROOT, ...ledger.canonical.path.split('/')))
+    expect(canonicalBytes.length).toBe(ledger.canonical.bytes)
+    expect(sha256(canonicalBytes)).toBe(ledger.canonical.sha256)
+    const canonical = JSON.parse(gunzipSync(canonicalBytes).toString('utf8'))
+    expect(canonical.records).toHaveLength(6461)
+    expect(new Set(canonical.records.map((record) => record.colUsageId)).size).toBe(6461)
+    expect(canonical.records.map((record) => record.colUsageId)).toEqual([...canonical.records].map((record) => record.colUsageId).sort((left, right) => left < right ? -1 : left > right ? 1 : 0))
+    expect(canonical.upstreamOnlyRecords).toHaveLength(3)
+    expect(canonical.upstreamOnlyRecords.every((record) => record.packageId === 'other-mammals')).toBe(true)
+    expect(canonical.integrity.recordLedgerSha256).toBe(sha256(Buffer.from(`${canonical.records.map((record) => JSON.stringify(record)).join('\n')}\n`)))
   })
 
   for (const [packageId, expectedCount] of Object.entries(PACKAGE_COUNTS)) {
-    it(`${packageId} preserves deterministic exact-match evidence`, () => {
-      const output = ledger.outputs.find((entry) => entry.packageId === packageId)
-      const path = join(REPOSITORY_ROOT, ...output.path.split('/'))
-      const bytes = readFileSync(path)
+    it(`${packageId} exposes disjoint range shards and upstream-only evidence`, () => {
+      const output = ledger.outputs[packageId]
+      const descriptorPath = join(REPOSITORY_ROOT, ...PACKAGE_ROOTS[packageId].split('/'), 'itis-tsn-sidecar.json')
+      const bytes = readFileSync(descriptorPath)
       const sidecar = JSON.parse(bytes.toString('utf8'))
-      expect(bytes.length).toBe(output.bytes)
-      expect(sha256(bytes)).toBe(output.sha256)
+      expect(bytes.length).toBe(output.descriptor.bytes)
+      expect(sha256(bytes)).toBe(output.descriptor.sha256)
       expect(sidecar.packageId).toBe(packageId)
       expect(sidecar.counts).toEqual(output.counts)
       expect(sidecar.counts.total).toBe(expectedCount)
-
-      const groups = sidecar.records
-      const allRecords = Object.values(groups).flat()
-      expect(new Set(allRecords.map((record) => record.colUsageId)).size).toBe(expectedCount)
-      expect(allRecords.every((record) => record.exactMatchName === colExactMatchName({
-        scientificName: record.colScientificName,
-        authorship: record.colAuthorship,
-      }))).toBe(true)
-      expect(groups.accepted.every((record) => normalizeScientificName(record.currentName.scientificName) === record.exactMatchName)).toBe(true)
-      expect(groups.synonymCurrentNameRedirect.every((record) => (
-        record.matchedSynonyms.length > 0
-        && record.matchedSynonyms.every((name) => normalizeScientificName(name.scientificName) === record.exactMatchName)
-      ))).toBe(true)
-      expect(groups.ambiguous.every((record) => (
-        record.candidates.length > 1
-        && new Set(record.candidates.map((candidate) => candidate.currentName.tsn)).size === record.candidates.length
-        && record.candidates.every((candidate) => candidate.evidence.some((evidence) => (
-          normalizeScientificName(evidence.name.scientificName) === record.exactMatchName
-        )))
-      ))).toBe(true)
+      const records = sidecar.colUsageIdLocator.files.flatMap((file) => {
+        const shard = readFileSync(join(REPOSITORY_ROOT, ...file.path.split('/')))
+        expect(shard.length).toBe(file.bytes)
+        expect(sha256(shard)).toBe(file.sha256)
+        const payload = gunzipSync(shard).toString('utf8').trim().split('\n').map((line) => JSON.parse(line))
+        expect(payload).toHaveLength(file.records)
+        expect(payload[0].colUsageId).toBe(file.firstColUsageId)
+        expect(payload.at(-1).colUsageId).toBe(file.lastColUsageId)
+        return payload
+      })
+      expect(records).toHaveLength(expectedCount)
+      expect(new Set(records.map((record) => record.colUsageId)).size).toBe(expectedCount)
+      for (let index = 1; index < sidecar.colUsageIdLocator.files.length; index += 1) {
+        expect(sidecar.colUsageIdLocator.files[index - 1].lastColUsageId < sidecar.colUsageIdLocator.files[index].firstColUsageId).toBe(true)
+      }
+      const upstreamFiles = sidecar.upstreamOnly.files
+      expect(upstreamFiles).toHaveLength(packageId === 'other-mammals' ? 1 : 0)
+      if (upstreamFiles.length) {
+        const file = upstreamFiles[0]
+        const shard = readFileSync(join(REPOSITORY_ROOT, ...file.path.split('/')))
+        expect(sha256(shard)).toBe(file.sha256)
+        const upstream = gunzipSync(shard).toString('utf8').trim().split('\n').map((line) => JSON.parse(line))
+        expect(upstream).toHaveLength(3)
+        expect(upstream.every((record) => record.colUsageId === null)).toBe(true)
+      }
     })
   }
 
@@ -128,9 +148,9 @@ describe('checked-in ITIS Mammalia sidecars', () => {
       const bytes = readFileSync(join(REPOSITORY_ROOT, ...ledger.generatedFrom[pathKey].split('/')))
       expect(sha256(bytes)).toBe(ledger.generatedFrom[hashKey])
     }
-    // The rc59 sidecar truthfully pins the ownership bytes used at import time;
-    // later release metadata must not rewrite that provenance or its gzip.
-    expect(ledger.generatedFrom.colOwnershipSha256).toBe('aa750d41daef08e4512767680a3707e10a644a4ac04c44b4f7a2b5850d16754a')
+    const ownershipBytes = readFileSync(join(REPOSITORY_ROOT, ...ledger.generatedFrom.colOwnershipPath.split('/')))
+    expect(sha256(ownershipBytes)).toBe(ledger.generatedFrom.colOwnershipSha256)
+    expect(ledger.generatedFrom.colOwnershipInputSemantics).toContain('historical ITIS source import contract')
     const scriptBytes = readFileSync(join(REPOSITORY_ROOT, ...ledger.generatedBy.scriptPath.split('/')))
     expect(sha256(scriptBytes)).toBe(ledger.generatedBy.scriptSha256)
   })

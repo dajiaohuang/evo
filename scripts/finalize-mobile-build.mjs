@@ -126,15 +126,50 @@ const expectedRichItisCollections = {
   'turtles-lepidosaurs': {
     'itis-reptilia-tsn-crosswalk': {
       files: 9, upstreamFiles: 1, records: 12622, upstreamRecords: 655,
-      descriptorSha256: 'ef0a4262e33c482cf05e6bd148d188874a17470926c3475dc09a1734307dab48',
+      descriptorSha256: 'c87810d693fb13c7ead541874025361e4abf36555b6f03532a8131aec4bd673e',
       reptilia: true,
     },
   },
   'crocodylomorphs-birds': {
     'itis-crocodylia-tsn-crosswalk': {
       files: 1, upstreamFiles: 0, records: 27, upstreamRecords: 0,
-      descriptorSha256: 'da73286df329505cd95c5a47162995dd77ac1e328cd75ee83494e18822782a1e',
+      descriptorSha256: '3f7bc19fc8422b5202ca8798a22af78c65ed63f45cdf51bcf1a618d03607624d',
       crocodylia: true,
+    },
+  },
+  perissodactyla: {
+    'itis-perissodactyla-tsn-crosswalk': {
+      files: 1, upstreamFiles: 0, records: 19, upstreamRecords: 0,
+      descriptorSha256: '3c7d327c1941e11ff192b3b451d0fa5fb5728fad9236bd4064f99afcd83a73e2',
+      mammal: true,
+    },
+  },
+  cetartiodactyla: {
+    'itis-cetartiodactyla-tsn-crosswalk': {
+      files: 1, upstreamFiles: 0, records: 503, upstreamRecords: 0,
+      descriptorSha256: 'f452207ad017e0b128470650dc4f71490cbe2a637279af6fd9f6785a5b99df8d',
+      mammal: true,
+    },
+  },
+  primates: {
+    'itis-primates-tsn-crosswalk': {
+      files: 1, upstreamFiles: 0, records: 530, upstreamRecords: 0,
+      descriptorSha256: 'b8f921704919fae007f45bfdecde5fefcfeb0c004fcc6a69b9d35e399405cf36',
+      mammal: true,
+    },
+  },
+  carnivora: {
+    'itis-carnivora-tsn-crosswalk': {
+      files: 1, upstreamFiles: 0, records: 310, upstreamRecords: 0,
+      descriptorSha256: '983a47c1a148f9a6f200a06807ae04470a0b6506a47e1fd7c58457a7bc75431f',
+      mammal: true,
+    },
+  },
+  'other-mammals': {
+    'itis-other-mammals-tsn-crosswalk': {
+      files: 4, upstreamFiles: 1, records: 5099, upstreamRecords: 3,
+      descriptorSha256: '90e1ae6357c2f08fad63a6329b4a81d0770379738cd8d87acea11c11fc40131f',
+      mammal: true,
     },
   },
 }
@@ -144,6 +179,8 @@ let reptiliaItisFiles = 0
 let reptiliaItisRecords = 0
 let crocodyliaItisFiles = 0
 let crocodyliaItisRecords = 0
+let mammalItisFiles = 0
+let mammalItisRecords = 0
 for (const [packageId, expectedCollections] of Object.entries(expectedRichItisCollections)) {
   const descriptor = current.packages?.manifests?.[packageId]
   if (!descriptor?.url) throw new Error(`Mobile build is missing the ${packageId} package manifest`)
@@ -204,6 +241,10 @@ for (const [packageId, expectedCollections] of Object.entries(expectedRichItisCo
       crocodyliaItisFiles += expected.files + expected.upstreamFiles
       crocodyliaItisRecords += expected.records + expected.upstreamRecords
     }
+    if (expected.mammal) {
+      mammalItisFiles += expected.files + expected.upstreamFiles
+      mammalItisRecords += expected.records + expected.upstreamRecords
+    }
   }
   if (packageId === 'echinoderms') {
     const worms = collections.find((entry) => entry.id === 'worms-aphiaid-crosswalk')
@@ -224,6 +265,15 @@ if (reptiliaItisFiles !== 10 || reptiliaItisRecords !== 13277) {
 }
 if (crocodyliaItisFiles !== 1 || crocodyliaItisRecords !== 27) {
   throw new Error(`Mobile build must stage one Crocodylia ITIS file with 27 records; found ${crocodyliaItisFiles} files and ${crocodyliaItisRecords} records`)
+}
+if (mammalItisFiles !== 9 || mammalItisRecords !== 6464) {
+  throw new Error(`Mobile build must stage 9 Mammalia ITIS files and 6464 records; found ${mammalItisFiles} files and ${mammalItisRecords} records`)
+}
+const mammalOriginsDescriptor = current.packages?.manifests?.['mammal-origins']
+if (!mammalOriginsDescriptor?.url) throw new Error('Mobile build is missing the mammal-origins package manifest')
+const mammalOriginsManifest = JSON.parse(readFileSync(join(sourceDataRoot, ...mammalOriginsDescriptor.url.split('/')), 'utf8'))
+if (mammalOriginsManifest.nomenclatureCollections) {
+  throw new Error('mammal-origins must not publish an ITIS nomenclature collection')
 }
 const catalogueManifest = JSON.parse(readFileSync(join(sourceDataRoot, ...current.catalogue.manifest.url.split('/')), 'utf8'))
 const otherAnimalsDescriptor = catalogueManifest.resourcePacks?.manifests?.['other-animals']

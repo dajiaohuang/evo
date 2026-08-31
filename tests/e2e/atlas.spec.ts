@@ -1,5 +1,10 @@
 import AxeBuilder from '@axe-core/playwright'
-import { expect, test } from '@playwright/test'
+import { expect, test, type Page } from '@playwright/test'
+
+const currentDatasetVersion = async (page: Page) => page.evaluate(async () => {
+  const current = await fetch('/evo/data/current.json', { cache: 'no-store' }).then((response) => response.json()) as { datasetVersion: string }
+  return current.datasetVersion
+})
 
 test.beforeEach(async ({ page }) => {
   await page.addInitScript(() => window.localStorage.setItem('evo-explorer-guide-v2', 'dismissed'))
@@ -350,10 +355,11 @@ test('skip and catalog section controls do not corrupt the hash route', async ({
 
 test('Explorer restores state and removes the unsupported global model parameter', async ({ page }) => {
   await page.goto('./#/explore?age=12.3&older=20&younger=5&view=map&lat=10&lng=20&zoom=3&markers=points&coords=modern&land=0&treeMode=fossil-range&model=test-model')
+  const datasetVersion = await currentDatasetVersion(page)
   await expect(page.getByRole('button', { name: 'points' })).toHaveClass(/is-active/)
   await expect(page.getByRole('button', { name: 'modern' })).toHaveClass(/is-active/)
   await expect(page.getByText('Shared time window 20–5 Ma')).toBeVisible()
-    await expect.poll(() => page.url()).toContain('dataset=2026.08-static-v5-rc72')
+  await expect.poll(() => page.url()).toContain(`dataset=${datasetVersion}`)
   for (const fragment of ['older=20', 'younger=5', 'lat=10.000', 'lng=20.000', 'zoom=3.00', 'treeMode=fossil-range']) {
     expect(page.url()).toContain(fragment)
   }
@@ -363,10 +369,11 @@ test('Explorer restores state and removes the unsupported global model parameter
 
 test('Explorer requires confirmation before replacing a mismatched dataset version', async ({ page }) => {
   await page.goto('./#/explore?dataset=2025.01-old&age=66')
+  const datasetVersion = await currentDatasetVersion(page)
   await expect(page.getByRole('alertdialog')).toContainText('2025.01-old')
   expect(page.url()).toContain('dataset=2025.01-old')
   await page.getByRole('button', { name: 'Use current dataset' }).click()
-    await expect.poll(() => page.url()).toContain('dataset=2026.08-static-v5-rc72')
+  await expect.poll(() => page.url()).toContain(`dataset=${datasetVersion}`)
 })
 
 test('a service-worker upgrade removes dataset A caches and dataset B remains coherent', async ({ page }) => {
@@ -408,7 +415,7 @@ test('a service-worker upgrade removes dataset A caches and dataset B remains co
     const versions = await Promise.all(manifestFiles.map((file) => fetch(`/evo/data/${file.url}`).then((response) => response.json()).then((manifest) => manifest.version as string)))
     return { datasetVersion: current.datasetVersion, releaseBase: current.releaseBase, urls: manifestFiles.map((file) => file.url), versions, retained: history.releases.map((entry) => entry.datasetVersion) }
   })
-    expect(releaseState.releaseBase).toBe('releases/2026.08-static-v5-rc72/')
+  expect(releaseState.releaseBase).toBe(`releases/${releaseState.datasetVersion}/`)
   expect(releaseState.urls.every((url) => url.startsWith(releaseState.releaseBase))).toBe(true)
   expect(releaseState.versions.every((version) => version === releaseState.datasetVersion)).toBe(true)
   expect(releaseState.retained[0]).toBe(releaseState.datasetVersion)

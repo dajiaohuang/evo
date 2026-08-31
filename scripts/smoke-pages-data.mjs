@@ -85,6 +85,9 @@ let packagePhylogenyCount = 0
 let wfoRichRecords = 0
 let wfoRichShards = 0
 let wfoRichBytes = 0
+let mammalItisCanonicalFiles = 0
+let mammalItisRecords = 0
+let mammalItisUpstreamOnly = 0
 for (const packageEntry of packageRegistry.packages) {
   const manifestFile = current.packages.manifests[packageEntry.id]
   releaseUrl(manifestFile, `package ${packageEntry.id} manifest`)
@@ -229,6 +232,22 @@ for (const packageEntry of packageRegistry.packages) {
       || itis.canonicalFileInventory.some((file) => !file.path || file.sha256?.length !== 64 || file.sourceSha256?.length !== 64)) {
       failures.push('amphibia: Pages must publish the ITIS summary without full row shards')
     }
+  } else if (['perissodactyla', 'cetartiodactyla', 'primates', 'carnivora', 'other-mammals'].includes(packageEntry.id)) {
+    const expected = {
+      perissodactyla: { id: 'itis-perissodactyla-tsn-crosswalk', total: 19, accepted: 19, redirects: 0, ambiguous: 0, unmatched: 0, upstreamOnly: 0, files: 1 },
+      cetartiodactyla: { id: 'itis-cetartiodactyla-tsn-crosswalk', total: 503, accepted: 502, redirects: 0, ambiguous: 1, unmatched: 0, upstreamOnly: 0, files: 1 },
+      primates: { id: 'itis-primates-tsn-crosswalk', total: 530, accepted: 530, redirects: 0, ambiguous: 0, unmatched: 0, upstreamOnly: 0, files: 1 },
+      carnivora: { id: 'itis-carnivora-tsn-crosswalk', total: 310, accepted: 310, redirects: 0, ambiguous: 0, unmatched: 0, upstreamOnly: 0, files: 1 },
+      'other-mammals': { id: 'itis-other-mammals-tsn-crosswalk', total: 5099, accepted: 5099, redirects: 0, ambiguous: 0, unmatched: 0, upstreamOnly: 3, files: 5 },
+    }[packageEntry.id]
+    if (nomenclatureCollections.length !== 1) failures.push(`${packageEntry.id}: expected one ITIS nomenclature collection`)
+    checkItisSummaryOnlyCollection(packageEntry.id, nomenclatureCollections, expected)
+    const collection = nomenclatureCollections.find((candidate) => candidate.id === expected.id)
+    if (collection) {
+      mammalItisCanonicalFiles += collection.canonicalFileInventory?.length ?? 0
+      mammalItisRecords += collection.counts?.total ?? 0
+      mammalItisUpstreamOnly += collection.counts?.itisUpstreamOnly ?? 0
+    }
   } else if (packageEntry.id === 'crocodylomorphs-birds') {
     const avilist = nomenclatureCollections.find((collection) => collection.id === 'avilist-v2025b-avibase-concepts')
     const itis = nomenclatureCollections.find((collection) => collection.id === 'itis-crocodylia-tsn-crosswalk')
@@ -259,6 +278,9 @@ if (researchExampleCount !== 24 || researchExampleAvailableCount !== 24 || resea
 if (packagePhylogenyCount !== 2) failures.push(`package phylogeny runtime count is ${packagePhylogenyCount}; expected 2 available and 22 unmapped`)
 if (wfoRichRecords !== 387988) failures.push(`WFO rich-package collections contain ${wfoRichRecords} records; expected 387,988`)
 if (wfoRichShards !== 32 || wfoRichBytes !== 15584333) failures.push(`WFO rich-package collections contain ${wfoRichShards} shards and ${wfoRichBytes} compressed bytes; expected 32/15,584,333`)
+if (mammalItisCanonicalFiles !== 9 || mammalItisRecords !== 6461 || mammalItisUpstreamOnly !== 3) {
+  failures.push(`Mammalia ITIS Pages summaries contain ${mammalItisRecords} COL records, ${mammalItisCanonicalFiles} canonical row shards, and ${mammalItisUpstreamOnly} upstream-only records; expected 6,461/9/3`)
+}
 
 releaseUrl(current.occurrences.manifest, 'occurrence manifest')
 checkFile(current.occurrences.manifest, 'occurrence manifest')
