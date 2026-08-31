@@ -1,0 +1,146 @@
+{
+  "schemaVersion": 1,
+  "sidecarType": "release-pinned-exact-nomenclatural-crosswalk",
+  "packageId": "protists-chromists",
+  "scope": {
+    "colRootUsageId": "87FBN",
+    "colRootScientificName": "Cryptosporidium Tyzzer, 1907",
+    "colRootRank": "genus",
+    "colStrictAcceptedSpecies": 21,
+    "packageStrictAcceptedSpecies": 61518,
+    "packageOutOfScopeStrictAcceptedSpecies": 61497,
+    "boundary": "COL26.8 does not expose an Apicomplexa parent node in this package. Its complete represented Apicomplexa lineage is the exact Cryptosporidium genus 87FBN under Miozoa 57; no sibling Miozoa or Protozoa species are included."
+  },
+  "mixedResourcePack": {
+    "packageId": "protists-chromists",
+    "manifestPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/manifest.json",
+    "manifestSha256": "d64df29f13c512e930e16d002f847011b5f18bcb6aba920bfcd75d9f6938bba4",
+    "acceptedSpeciesCount": 61518,
+    "inScopeSpecies": 21,
+    "outOfScopeSpecies": 61497,
+    "packageSourceDatasetCounts": {
+      "1033": 96,
+      "1053": 1337,
+      "1109": 444,
+      "1113": 8505,
+      "1157": 47975,
+      "1177": 259,
+      "2073": 1778,
+      "2144": 1122,
+      "null": 2
+    },
+    "apicomplexaSourceDatasetCounts": {
+      "2144": 21
+    },
+    "outOfScopeBoundary": "All remaining Protists and Chromists accepted species are outside the exact COL Cryptosporidium lineage and receive no ITIS Apicomplexa match in this sidecar."
+  },
+  "rootBoundaryAudit": {
+    "selectedItisRoot": {
+      "tsn": "553099",
+      "scientificName": "Apicomplexa",
+      "rank": "Phylum",
+      "usage": "valid"
+    },
+    "broaderItisRoot": {
+      "tsn": "630577",
+      "scientificName": "Protozoa",
+      "rank": "Kingdom",
+      "usage": "valid"
+    },
+    "selectedCurrentSpecies": 21,
+    "broaderCurrentSpecies": 2277,
+    "colRepresentation": {
+      "rootUsageId": "87FBN",
+      "scientificName": "Cryptosporidium Tyzzer, 1907",
+      "rank": "genus",
+      "parentUsageId": "57",
+      "parentScientificName": "Miozoa"
+    },
+    "decision": "Use the valid ITIS Apicomplexa phylum TSN 553099. COL26.8 represents the entire matching scope as the exact Cryptosporidium genus under Miozoa, not as an Apicomplexa node; expanding to Miozoa would include Dinophyceae and create a false cross-root coverage claim."
+  },
+  "sources": {
+    "col": {
+      "releaseAlias": "COL26.8",
+      "releaseDate": "2026-08-20",
+      "registryManifestPath": "data/catalogue-of-life/releases/2026-08-20/registry/manifest.json",
+      "registryManifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151",
+      "ownershipPath": "data/registry/package-species-coverage.json",
+      "ownershipSha256": "a297bc8a67ce60806fdee733464a79bfcc42e255f7e59535b01f94013c19dfea"
+    },
+    "itis": {
+      "datasetId": "itis-2026-08-26",
+      "exportDate": "2026-08-26",
+      "rootTsn": "553099",
+      "sourceLedgerPath": "data/sources/itis-2026-08-26.json",
+      "sourceLedgerSha256": "38a7a55b4e98cafc66790e47f6bd637e298e23fd691e4771c755b38e4a02d7fc",
+      "license": "CC0-1.0",
+      "citationDoi": "10.5066/F7KH0KBK"
+    }
+  },
+  "exactMatching": {
+    "normalization": [
+      "Remove the exact trailing COL authorship field from COL scientificName when that suffix is present; no authorship parser is used.",
+      "Normalize Unicode to NFC, replace underscores with spaces, collapse Unicode whitespace and trim.",
+      "For species-rank comparison, remove one parenthesized subgenus token in the exact Genus (Subgenus) species representation; genus and specific epithet must remain unchanged.",
+      "Preserve case, diacritics, punctuation and all remaining name tokens."
+    ],
+    "statuses": {
+      "accepted": "The normalized COL name resolves to exactly one valid ITIS Apicomplexa species and directly equals that current ITIS name.",
+      "synonym-current-name-redirect": "The normalized COL name equals official ITIS invalid species-name evidence that resolves to exactly one valid ITIS Apicomplexa species.",
+      "ambiguous": "The normalized exact evidence resolves to more than one valid ITIS Apicomplexa species TSN.",
+      "unmatched": "No normalized exact valid-name or official ITIS species-synonym evidence resolves to a valid ITIS Apicomplexa species."
+    },
+    "prohibited": "No fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered or taxon-substituted matching is used."
+  },
+  "evidenceBoundary": {
+    "en": "This CC0 ITIS sidecar is a frozen exact nomenclatural crosswalk for the exactly represented Cryptosporidium portion of Apicomplexa inside Protists and Chromists. It is not a global apicomplexan checklist, final classification authority, phylogeny, species-concept equivalence assertion, biological dossier or scientific-review record.",
+    "zh": "此 CC0 ITIS 侧车是原生生物与色界资源包中可精确表示的 Apicomplexa（Cryptosporidium）部分的冻结严格命名交叉映射；它不是全球顶复门名录、最终分类权威、系统发育、物种概念等同性声明、生物档案或科学审查记录。"
+  },
+  "counts": {
+    "total": 21,
+    "accepted": 21,
+    "synonymCurrentNameRedirect": 0,
+    "ambiguous": 0,
+    "unmatched": 0,
+    "itisCurrentSpecies": 21,
+    "itisSpeciesSynonymLinks": 6,
+    "itisUpstreamOnly": 0
+  },
+  "colUsageIdLocator": {
+    "key": "colUsageId",
+    "ordering": "Unicode code-unit ascending",
+    "sourceShardLimitBytes": 524288,
+    "stableAddressing": "Binary-search non-overlapping inclusive colUsageId ranges; one detail query loads exactly one immutable JSONL gzip shard.",
+    "files": [
+      {
+        "path": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-apicomplexa-sidecar-0000.jsonl.gz",
+        "records": 21,
+        "firstColUsageId": "322PR",
+        "lastColUsageId": "6BNHZ",
+        "bytes": 1259,
+        "sha256": "a7412a589e0abab4034370f547f963e2c1253014980fe4e1e67293bd03c622b2",
+        "sourceBytes": 9055,
+        "sourceSha256": "cb8530e781aa980095045fe0c9cc753dea9ed6f01c27d2ec119f67812bfe5ac1"
+      }
+    ]
+  },
+  "upstreamOnly": {
+    "colOwnership": null,
+    "stableAddressing": "No COL usage ID is assigned. The complete ITIS-only current-species partition is in its own immutable JSONL gzip shard.",
+    "files": [
+      {
+        "path": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-apicomplexa-upstream-only-0000.jsonl.gz",
+        "records": 0,
+        "firstColUsageId": null,
+        "lastColUsageId": null,
+        "bytes": 21,
+        "sha256": "74420f89d2d2a4256b5b578f1c2a01dd2b605f9aca4905db839d008cfd29cac0",
+        "sourceBytes": 1,
+        "sourceSha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "colOwnership": null,
+        "firstTsn": null,
+        "lastTsn": null
+      }
+    ]
+  }
+}
