@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 1,
+  "datasetId": "avilist-v2025b",
+  "title": "AviList: The Global Avian Checklist, v2025b",
+  "publisher": "AviList Core Team",
+  "release": {
+    "version": "v2025b",
+    "published": "2026-06-11",
+    "versionDoi": "10.2173/avilist.v2025b",
+    "versionPage": "https://www.avilist.org/checklist/v2025b/",
+    "versionBoundary": "AviList states that v2025b retains the same 11,131 species concepts and core scientific names as v2025 while correcting ancillary fields and selected errata. Later annual releases require a new pinned import and concept-level diff."
+  },
+  "acquisition": {
+    "method": "GET",
+    "url": "https://www.avilist.org/wp-content/uploads/2026/06/AviList-v2025b-10Jun2026-extended.xlsx",
+    "retrievedAt": "2026-08-31T03:11:47Z",
+    "response": {
+      "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "bytes": 8954422,
+      "sha256": "2e1fd3374e23af732b04115b033dd9d97fc53ba275c312d02ef5d12cfb85c988",
+      "etag": "\"6a2aec3d-88a236\"",
+      "lastModified": "2026-06-11T17:11:25Z"
+    },
+    "committed": false,
+    "recovery": "Download the exact official extended workbook URL and verify its byte count and SHA-256 before running the import. The workbook is not copied into the repository."
+  },
+  "license": {
+    "spdx": "CC-BY-4.0",
+    "label": "Creative Commons Attribution 4.0 International",
+    "url": "https://creativecommons.org/licenses/by/4.0/",
+    "officialStatementUrl": "https://www.avilist.org/checklist/v2025b/",
+    "retrievedOn": "2026-08-31",
+    "attribution": "AviList Core Team. 2026. AviList: The Global Avian Checklist, v2025b. https://doi.org/10.2173/avilist.v2025b"
+  },
+  "workbookAudit": {
+    "worksheet": "AviList v2025b extended",
+    "worksheetPath": "xl/worksheets/sheet1.xml",
+    "rowCountIncludingHeader": 33687,
+    "columnCount": 26,
+    "speciesCount": 11131,
+    "subspeciesCount": 19879,
+    "requiredHeaders": [
+      "Sequence",
+      "Taxon_rank",
+      "Order",
+      "Family",
+      "Scientific_name",
+      "Authority",
+      "English_name_AviList",
+      "AvibaseID",
+      "Protonym"
+    ],
+    "stableIdentifierDefinition": "The official metadata defines AvibaseID as a unique alphanumeric stable taxonomic-concept identifier independent of nomenclature.",
+    "metadataUrl": "https://www.avilist.org/wp-content/uploads/2025/06/AviList_v2025_metadata_11Jun.pdf"
+  },
+  "colInput": {
+    "releaseAlias": "COL26.8",
+    "releaseDate": "2026-08-20",
+    "checklistBankDatasetKey": 316115,
+    "registryManifestPath": "data/catalogue-of-life/releases/2026-08-20/registry/manifest.json",
+    "registryManifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151",
+    "ownershipPath": "data/registry/package-species-coverage.json",
+    "ownershipSha256": "6fe5871f3d5bd9a332fc874af6226221379adf3cee7871a3237fa9376258afe0",
+    "packageId": "crocodylomorphs-birds",
+    "packageAcceptedSpecies": 11071,
+    "avesRootId": "V2",
+    "avesAcceptedSpecies": 11044,
+    "crocodyliaRootId": "329",
+    "crocodyliaAcceptedSpecies": 27,
+    "strictPredicate": "rank=species AND status=accepted AND descendant of the exact pinned Aves or Crocodylia root"
+  },
+  "matchingContract": {
+    "normalization": [
+      "Remove the exact trailing COL authorship field only when that suffix is present; no authorship parser is used.",
+      "Normalize Unicode to NFC, replace underscores with spaces, collapse whitespace and trim.",
+      "Fold only the explicit Genus (Subgenus) species representation to Genus species.",
+      "Preserve case, diacritics, punctuation, genus, specific epithet and all remaining tokens."
+    ],
+    "accepted": "The normalized COL Aves name equals exactly one AviList species Scientific_name.",
+    "officialCurrentNameRedirect": "Only when there is no current-name match, the normalized COL Aves name equals exactly one official AviList Protonym and the four-digit publication year extracted from the COL authorship exactly equals the year in the AviList Authority field; that row's Scientific_name is retained as the official current name.",
+    "ambiguous": "The permitted exact current-name or official-protonym evidence points to more than one AviList species concept, or an exact protonym has a missing/conflicting authorship year and therefore cannot exclude homonymy.",
+    "unmatched": "No permitted exact current-name or official-protonym evidence resolves the COL Aves record.",
+    "nonApplicable": "The 27 accepted Crocodylia species share the package but are outside AviList's avian scope and are not counted as AviList unmatched records.",
+    "forbidden": "No fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered, gender-ending, genus-substitution, author-name approximation, common-name, external-checklist or higher-rank inference is permitted. Decision-summary prose is not parsed into redirects."
+  },
+  "distributionBoundary": {
+    "retainedFields": [
+      "AviList source row",
+      "Sequence",
+      "Order",
+      "Family",
+      "Scientific_name",
+      "Authority",
+      "English_name_AviList",
+      "AvibaseID",
+      "Protonym"
+    ],
+    "excludedFields": "Bibliographic text, decision summaries, ranges, IUCN categories, BirdLife links, Cornell species codes, Birds of the World links, type localities, original-description titles and URLs are not copied into the crosswalk.",
+    "evidenceBoundary": "AviList linkage is release-pinned nomenclatural and taxonomic-concept evidence. It is not proof that COL and AviList apply identical species concepts, and it supplies no fossil, ecology, morphology, distribution, phylogeny, ancestry, complete-history or expert-review dossier."
+  },
+  "limitations": [
+    "The crocodylomorphs-birds package count of 11,071 consists of 11,044 Aves plus 27 Crocodylia; 11,071 must not be described as an Aves count.",
+    "Exact current-name or protonym agreement is not a species-concept equivalence assertion. Many-to-one mappings, if present, remain visible in the import counts and are never used to merge COL records.",
+    "Unmatched and ambiguous COL Aves rows and upstream-only AviList species remain explicit rather than being forced through fuzzy matching.",
+    "AvibaseID identifies an AviList taxonomic concept, not a nomenclatural-name record or a phylogenetic node."
+  ]
+}
