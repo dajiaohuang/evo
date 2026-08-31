@@ -260,6 +260,7 @@ public class AppInstrumentedTest {
         int resourcePackRecords = 0;
         int lpsnIdentifierRecords = 0;
         int indexFungorumIdentifierRecords = 0;
+        int foraminiferaAuthorityRecords = 0;
         int ictvSpeciesRecords = 0;
         int ictvIsolateRecords = 0;
         int wfoSupplementRecords = 0;
@@ -330,6 +331,26 @@ public class AppInstrumentedTest {
                     verifyAssetRecord(context, extensionInventoryRecord);
                     indexFungorumIdentifierRecords += extensionFile.getInt("records");
                 }
+            } else if (packageId.equals("protists-chromists")) {
+                JSONArray extensions = pack.getJSONArray("extensions");
+                assertEquals(1, extensions.length());
+                JSONObject authority = extensions.getJSONObject(0);
+                assertEquals("foraminifera-wfd-identifiers", authority.getString("id"));
+                assertEquals("World Foraminifera Database (WoRMS) through ChecklistBank", authority.getString("provider"));
+                JSONObject delivery = authority.getJSONObject("delivery");
+                assertEquals("native-full", delivery.getString("profile"));
+                assertTrue(delivery.getBoolean("completeRows"));
+                JSONArray extensionFiles = authority.getJSONArray("files");
+                assertEquals(5, extensionFiles.length());
+                for (int fileIndex = 0; fileIndex < extensionFiles.length(); fileIndex += 1) {
+                    JSONObject extensionFile = extensionFiles.getJSONObject(fileIndex);
+                    JSONObject extensionInventoryRecord = findInventoryRecord(files, extensionFile.getString("url"));
+                    assertNotNull("Foraminifera authority shard missing from native release inventory", extensionInventoryRecord);
+                    assertEquals(extensionFile.getInt("bytes"), extensionInventoryRecord.getInt("bytes"));
+                    assertEquals(extensionFile.getString("sha256"), extensionInventoryRecord.getString("sha256"));
+                    verifyAssetRecord(context, extensionInventoryRecord);
+                    foraminiferaAuthorityRecords += extensionFile.getInt("records");
+                }
             } else if (packageId.equals("viruses")) {
                 JSONArray extensions = pack.getJSONArray("extensions");
                 assertEquals(1, extensions.length());
@@ -388,6 +409,7 @@ public class AppInstrumentedTest {
         assertEquals(363160, resourcePackRecords);
         assertEquals(22360, lpsnIdentifierRecords);
         assertEquals(157044, indexFungorumIdentifierRecords);
+        assertEquals(47975, foraminiferaAuthorityRecords);
         assertEquals(17554, ictvSpeciesRecords);
         assertEquals(19285, ictvIsolateRecords);
         assertEquals(61449, wfoSupplementRecords);

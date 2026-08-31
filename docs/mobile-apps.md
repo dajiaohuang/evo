@@ -23,6 +23,8 @@ dist-mobile/                 # 临时生成的移动客户端壳，不提交
 
 ## 数据与离线边界
 
+rc66 将 Android 与 iOS 同步到 build `20`，并把全部 47,975 个 COL26.8 有孔虫的 WFD `2026-08-01` 权威标识纳入 `native-full`。两端包含相同的 5 个互不重叠 COL-ID JSONL gzip 分片，共 4,046,631 字节；每条记录都来自官方 ChecklistBank dataset `1157` source-record 关系，单种查询最多读取一个分片。`finalize-mobile-build.mjs` 要求 5 个文件、47,975 条记录、完整 canonical inventory 和 `native-full` 标志，并逐文件复核 release inventory 的字节数与 SHA-256。Pages 的 `web-light` 不部署这些行级文件，仅公开来源、方法、计数、限制和 5 文件哈希清单。
+
 rc65 将 Android 与 iOS 同步到 build `19`，并把两栖类完整 ITIS 权威命名侧车纳入 `native-full`：8,923 个 COL26.8 结果分布在 7 个互不重叠的 COL-ID JSONL gzip 分片中，另有 1 个包含 8 个 ITIS-only 当前种的分片。两端从同一 release inventory 复制并逐文件核对字节数与 SHA-256；`finalize-mobile-build.mjs` 同时要求 7+1 分片、8,923+8 条记录和 `native-full` 标志。Pages 不包含这些行级文件，只保留可审计描述符与 canonical 哈希清单。
 
 rc64 在保留 rc63 全部古地形的同时，将两端同步到 build `18`，并加入 AviList `v2025b` 的完整鸟类权威命名数据。Android 与 iOS 都包含相同的 3 个 COL-ID 范围分片和 1 个 609 条记录的 upstream-only 分片；11,044 个 COL 鸟类结果与包内 27 个明确不适用的鳄目结果不会因 Pages 轻量化而从原生应用中缺失。`finalize-mobile-build.mjs` 会检查 `native-full` 标记、分片数和记录总数，然后按 release inventory 逐文件复制并复核哈希。

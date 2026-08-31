@@ -623,6 +623,23 @@ if (catalogue.resourcePacks?.packageCount !== 7
         }
         indexFungorumIdentifierRecords += records
       }
+    } else if (packageId === 'protists-chromists') {
+      const foraminifera = extensions.find((candidate) => candidate.id === 'foraminifera-wfd-identifiers')
+      if (extensions.length !== 1 || !foraminifera
+        || foraminifera.provider !== 'World Foraminifera Database (WoRMS) through ChecklistBank'
+        || foraminifera.source?.license !== 'CC-BY-4.0'
+        || foraminifera.source?.sourceDatasetKey !== 1157
+        || foraminifera.counts?.eligible !== 47975 || foraminifera.counts?.resolved !== 47975
+        || foraminifera.counts?.accepted !== 47975 || foraminifera.counts?.withheld !== 0
+        || foraminifera.counts?.upstreamOnly !== null
+        || foraminifera.delivery?.profile !== 'web-light' || foraminifera.delivery?.completeRows !== false
+        || foraminifera.files?.length !== 0 || foraminifera.delivery?.publishedFileCount !== 0
+        || foraminifera.delivery?.canonicalFileCount !== 5
+        || foraminifera.canonicalFileInventory?.length !== 5
+        || manifestFile.extensionFileCount !== 0 || manifestFile.canonicalExtensionFileCount !== 5
+        || foraminifera.canonicalFileInventory.some((file) => !file.path || file.sha256?.length !== 64 || file.sourceSha256?.length !== 64)) {
+        failures.push('protists-chromists: Pages must publish the complete Foraminifera authority summary and hashes without row shards')
+      }
     } else if (packageId === 'viruses') {
       const ictvExtension = extensions.find((candidate) => candidate.id === 'ictv-virus-metadata')
       if (extensions.length !== 1 || !ictvExtension

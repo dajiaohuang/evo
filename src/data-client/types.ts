@@ -917,7 +917,64 @@ export interface CatalogueIndexFungorumResourcePackExtension {
   }
 }
 
-export type CatalogueResourcePackExtension = CatalogueLpsnResourcePackExtension | CatalogueIctvResourcePackExtension | CatalogueWfoPlantResourcePackExtension | CatalogueIndexFungorumResourcePackExtension
+export interface CatalogueForaminiferaAuthorityRecord {
+  colId: string
+  sourceDatasetId: '1157'
+  colScientificName: string
+  colAuthorship?: string | null
+  sourceId: string
+  sourceAphiaId: string
+  sourceUrl: string
+  scientificName: string
+  authorship?: string | null
+  rank: 'species'
+  status: 'accepted'
+  acceptedSourceId: null
+  acceptedScientificName: null
+  acceptedSourceUrl: null
+  mappingBasis: 'checklistbank-source-record'
+  sourceResponseSha256: string
+}
+
+export interface CatalogueForaminiferaResourcePackExtension {
+  id: 'foraminifera-wfd-identifiers'
+  recordType: 'external-name-identifier-crosswalk'
+  provider: 'World Foraminifera Database (WoRMS) through ChecklistBank'
+  source: Record<string, unknown> & { license: 'CC-BY-4.0' }
+  eligibility: string
+  counts: {
+    eligible: 47975
+    resolved: 47975
+    acceptedSpecies: 47975
+    accepted: 47975
+    redirects: 0
+    ambiguous: 0
+    unmatched: 0
+    withheld: 0
+    upstreamOnly: null
+  }
+  files: CatalogueResourcePackPayloadFile[]
+  canonicalFileInventory: CatalogueResourcePackPayloadFile[]
+  delivery: {
+    profile: 'web-light' | 'native-full'
+    completeRows: boolean
+    publishedFileCount: number
+    canonicalFileCount: number
+  }
+  totalCompressedBytes: number
+  totalSourceBytes: number
+  limitations: string[]
+  integration: {
+    clientParityRequirement: string
+    lookup: {
+      strategy: 'lexicographic-colId-range-v1'
+      ordering: string
+      requestPolicy: string
+    }
+  }
+}
+
+export type CatalogueResourcePackExtension = CatalogueLpsnResourcePackExtension | CatalogueIctvResourcePackExtension | CatalogueWfoPlantResourcePackExtension | CatalogueIndexFungorumResourcePackExtension | CatalogueForaminiferaResourcePackExtension
 
 export interface CatalogueResourcePackManifest {
   schemaVersion: 1
