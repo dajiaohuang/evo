@@ -1,0 +1,114 @@
+{
+  "schemaVersion": 1,
+  "importType": "COL26.8-to-ITIS-exact-rotifera-nomenclatural-sidecar",
+  "generatedFrom": {
+    "sourcePath": "data/sources/itis-2026-08-26.json",
+    "sourceSha256": "38a7a55b4e98cafc66790e47f6bd637e298e23fd691e4771c755b38e4a02d7fc",
+    "itisDatabaseMember": "itisSqlite082626/ITIS.sqlite",
+    "itisDatabaseSha256": "ea7304536cfd7b1e2636d383911ca7931fc83d9ab1194ca2a3c020ea2daf1719",
+    "colRegistryManifestPath": "data/catalogue-of-life/releases/2026-08-20/registry/manifest.json",
+    "colRegistryManifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151",
+    "colOwnershipPath": "data/registry/package-species-coverage.json",
+    "colOwnershipSha256": "a297bc8a67ce60806fdee733464a79bfcc42e255f7e59535b01f94013c19dfea"
+  },
+  "scopeAudit": {
+    "packageRootUsageId": "N",
+    "packageRootScientificName": "Animalia",
+    "colRootUsageId": "5Y",
+    "colRootScientificName": "Rotifera",
+    "colStrictAcceptedSpecies": 2467,
+    "packageStrictAcceptedSpecies": 99161,
+    "packageOutOfScopeStrictAcceptedSpecies": 96694,
+    "nonApplicableRemainder": "Every strict accepted COL26.8 species owned by the other-animals remainder route below N but not descending from 5Y; this complete remainder is explicitly excluded from the Rotifera sidecar.",
+    "boundary": "This mixed package contains many animal phyla and broader Animalia navigation content. This sidecar covers only the strict accepted COL26.8 species descending from the exact Rotifera root 5Y; all remaining package-owned species are explicitly out of scope.",
+    "itisRoot": {
+      "tsn": "58239",
+      "scientificName": "Rotifera",
+      "rank": "Phylum",
+      "usage": "valid"
+    },
+    "itisCurrentSpecies": 897,
+    "itisSpeciesSynonymLinks": 62,
+    "maximumUpdateDates": {
+      "taxonomicUnits": "2026-08-26",
+      "synonymLinks": "2026-08-26"
+    }
+  },
+  "matchingContract": {
+    "normalization": [
+      "Remove the exact trailing COL authorship field from COL scientificName when that suffix is present; no authorship parser is used.",
+      "Normalize Unicode to NFC, replace underscores with spaces, collapse Unicode whitespace and trim.",
+      "For species-rank comparison, remove one parenthesized subgenus token in the exact Genus (Subgenus) species representation; genus and specific epithet must remain unchanged.",
+      "Preserve case, diacritics, punctuation and all remaining name tokens."
+    ],
+    "statuses": {
+      "accepted": "The normalized COL name resolves to exactly one valid ITIS Rotifera species and directly equals that current ITIS name.",
+      "synonym-current-name-redirect": "The normalized COL name equals official ITIS invalid species-name evidence that resolves to exactly one valid ITIS Rotifera species.",
+      "ambiguous": "The normalized exact evidence resolves to more than one valid ITIS Rotifera species TSN.",
+      "unmatched": "No normalized exact valid-name or official ITIS species-synonym evidence resolves to a valid ITIS Rotifera species."
+    },
+    "prohibited": "No fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered or taxon-substituted matching is used."
+  },
+  "totals": {
+    "total": 2467,
+    "accepted": 701,
+    "synonymCurrentNameRedirect": 4,
+    "ambiguous": 0,
+    "unmatched": 1762,
+    "itisCurrentSpecies": 897,
+    "itisSpeciesSynonymLinks": 62,
+    "itisUpstreamOnly": 195
+  },
+  "output": {
+    "descriptor": {
+      "path": "data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals/itis-rotifera-sidecar.json",
+      "bytes": 5753,
+      "sha256": "a95178081899d1f6d10b1dc5c3a183c13cbf288c54656c6b2271e5daa9e2b960"
+    },
+    "colUsageIdShards": [
+      {
+        "path": "data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals/itis-rotifera-sidecar-0000.jsonl.gz",
+        "records": 2236,
+        "firstColUsageId": "33MV6",
+        "lastColUsageId": "MTRR",
+        "bytes": 56538,
+        "sha256": "ed3de03fd271d05688eee9f06a7915ef190c05b8cc202e5c171d73f3bd0a5bcf",
+        "sourceBytes": 524058,
+        "sourceSha256": "156c96151ec21567083f3bdc532a077949d368264bb15b25630b70b91d49013c"
+      },
+      {
+        "path": "data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals/itis-rotifera-sidecar-0001.jsonl.gz",
+        "records": 231,
+        "firstColUsageId": "MTRS",
+        "lastColUsageId": "XQM7",
+        "bytes": 5771,
+        "sha256": "4c28f92688819220fffa82a5af4b6d29b360519d93940c502c8cd63775718af3",
+        "sourceBytes": 55876,
+        "sourceSha256": "6d7dcecbb7a4fe27f7483e29cc4fde362dd0a42ecfb3dd63c3a361c8a2cfb4aa"
+      }
+    ],
+    "upstreamOnly": {
+      "path": "data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals/itis-rotifera-upstream-only-0000.jsonl.gz",
+      "records": 195,
+      "firstColUsageId": null,
+      "lastColUsageId": null,
+      "bytes": 2825,
+      "sha256": "5d8d04923c5c8fc1fa712ea6cc7dc8557278a20d609193e9bbca746e74df0103",
+      "sourceBytes": 71749,
+      "sourceSha256": "b4403340c04b931fe28091569d902d62f98e5a183d3dd0b2836136c4f58a8d4a",
+      "colOwnership": null,
+      "firstTsn": "58244",
+      "lastTsn": "59464"
+    }
+  },
+  "deliveryContract": {
+    "pagesLight": "Pages needs only this small descriptor and may omit all row-level JSONL gzip shards.",
+    "androidIosFull": "Android and iOS complete-data inventories must include the descriptor and every listed row-level shard as the same checksum-addressed bytes.",
+    "runtimeChange": "This import deliberately changes no formal runtime or published release manifest."
+  },
+  "generatedBy": {
+    "scriptPath": "scripts/build-itis-rotifera-sidecar.mjs",
+    "scriptSha256": "5f9d15888ebc990ec37e99191afd086235478b6724906840564c2a7a3a05c2d5",
+    "deterministic": "Pinned input checksums, fixed roots, exact SQL, exact representation-only normalization, code-unit ID ordering and deterministic gzip; no wall-clock fields or fuzzy matching."
+  }
+}
