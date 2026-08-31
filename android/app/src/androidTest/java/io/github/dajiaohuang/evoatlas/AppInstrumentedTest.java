@@ -400,10 +400,10 @@ public class AppInstrumentedTest {
                     "itis-bigyra-tsn-crosswalk", "itis-perkinsozoa-tsn-crosswalk", "itis-labyrinthulomycetes-tsn-crosswalk",
                     "itis-opalozoa-tsn-crosswalk", "itis-radiolaria-tsn-crosswalk", "itis-metamonada-tsn-crosswalk",
                     "itis-chlorophyta-tsn-crosswalk", "itis-glaucophyta-tsn-crosswalk", "itis-picozoa-tsn-crosswalk",
-                    "itis-telonemia-tsn-crosswalk"
+                    "itis-telonemia-tsn-crosswalk", "itis-centrohelida-tsn-crosswalk", "itis-katablepharidota-tsn-crosswalk"
                 };
-                int[] expectedFiles = new int[]{4, 1, 2, 1, 1, 1, 2, 1, 1, 2, 0, 0, 1, 0, 0, 0, 0, 0, 1, 1, 0, 0};
-                int[] expectedRecords = new int[]{8665, 21, 1110, 276, 52, 90, 3397, 1337, 1616, 1464, 0, 0, 53, 0, 0, 0, 0, 0, 1416, 4, 0, 0};
+                int[] expectedFiles = new int[]{4, 1, 2, 1, 1, 1, 2, 1, 1, 2, 0, 0, 1, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0};
+                int[] expectedRecords = new int[]{8665, 21, 1110, 276, 52, 90, 3397, 1337, 1616, 1464, 0, 0, 53, 0, 0, 0, 0, 0, 1416, 4, 0, 0, 0, 0};
                 assertEquals(expectedIds.length + 1, extensions.length());
                 for (int extensionIndex = 0; extensionIndex < expectedIds.length; extensionIndex += 1) {
                     JSONObject itisAuthority = extensions.getJSONObject(extensionIndex + 1);

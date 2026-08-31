@@ -800,6 +800,8 @@ const itisProtistsContracts: Record<import('./types').CatalogueItisProtistsScope
   glaucophyta: { eligible: 0, accepted: 0, redirects: 0, ambiguous: 0, unmatched: 0, upstreamOnly: 4, nonApplicable: 61518, canonicalFileCount: 1 },
   picozoa: { eligible: 0, accepted: 0, redirects: 0, ambiguous: 0, unmatched: 0, upstreamOnly: 0, nonApplicable: 61518, canonicalFileCount: 0 },
   telonemia: { eligible: 0, accepted: 0, redirects: 0, ambiguous: 0, unmatched: 0, upstreamOnly: 0, nonApplicable: 61518, canonicalFileCount: 0 },
+  centrohelida: { eligible: 0, accepted: 0, redirects: 0, ambiguous: 0, unmatched: 0, upstreamOnly: 0, nonApplicable: 61518, canonicalFileCount: 0 },
+  katablepharidota: { eligible: 0, accepted: 0, redirects: 0, ambiguous: 0, unmatched: 0, upstreamOnly: 0, nonApplicable: 61518, canonicalFileCount: 0 },
 }
 
 export async function loadCatalogueItisProtistsRecord(

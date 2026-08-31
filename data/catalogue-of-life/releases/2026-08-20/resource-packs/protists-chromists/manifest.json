@@ -3764,6 +3764,408 @@
           "requestPolicy": "Select the sole inclusive COL-ID range and read at most one COL partition; upstream-only files are never selected by COL ID."
         }
       }
+    },
+    {
+      "id": "itis-centrohelida-tsn-crosswalk",
+      "recordType": "release-pinned-exact-root-boundary-audit",
+      "provider": "Integrated Taxonomic Information System",
+      "source": {
+        "datasetId": "itis-2026-08-26",
+        "exportDate": "2026-08-26",
+        "rootTsn": null,
+        "license": "CC0-1.0",
+        "citationDoi": "10.5066/F7KH0KBK",
+        "canonicalDescriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-centrohelida-sidecar.json",
+        "canonicalDescriptorBytes": 16753,
+        "canonicalDescriptorSha256": "4dc01541875f2def2801938553fe54aa1955eac5de369507101f4d45fd844e5e"
+      },
+      "scope": {
+        "packageRootUsageIds": [
+          "C",
+          "Z"
+        ],
+        "packageRootScientificNames": [
+          "Chromista",
+          "Protozoa"
+        ],
+        "colRootUsageId": null,
+        "colRootScientificName": "Centrohelida",
+        "colStrictAcceptedSpecies": 0,
+        "packageStrictAcceptedSpecies": 61518,
+        "packageOutOfScopeStrictAcceptedSpecies": 61518,
+        "colRootAudit": "No exact COL26.8 usage node named Centrohelida exists in the complete pinned hierarchy; no strict COL partition is claimed.",
+        "boundary": "This boundary audit contains no Centrohelida rows: COL26.8 has no exact Centrohelida node, and ITIS 2026-08-26 has no accepted exact Centrohelida root. Its only exact-name record is legacy valid order TSN 46126, whose five valid species are not accepted-current species and are not promoted into an authority partition."
+      },
+      "rootBoundaryAudit": {
+        "colExactRootCandidates": [],
+        "itisExactNameCandidates": [
+          {
+            "tsn": 46126,
+            "scientific_name": "Centrohelida",
+            "rank_name": "Order",
+            "name_usage": "valid",
+            "parent_tsn": 46114
+          }
+        ],
+        "itisAcceptedExactRootCandidates": [],
+        "itisLegacyExactNameRoot": {
+          "tsn": 46126,
+          "scientific_name": "Centrohelida",
+          "rank_name": "Order",
+          "name_usage": "valid",
+          "parent_tsn": 46114
+        },
+        "itisLegacyExactNameLineage": [
+          {
+            "tsn": 46126,
+            "scientific_name": "Centrohelida",
+            "rank_name": "Order",
+            "name_usage": "valid",
+            "parent_tsn": 46114,
+            "depth": 0
+          },
+          {
+            "tsn": 46114,
+            "scientific_name": "Heliozoa",
+            "rank_name": "Class",
+            "name_usage": "valid",
+            "parent_tsn": 46113,
+            "depth": 1
+          },
+          {
+            "tsn": 46113,
+            "scientific_name": "Acanthophractida",
+            "rank_name": "Superclass",
+            "name_usage": "valid",
+            "parent_tsn": 46067,
+            "depth": 2
+          },
+          {
+            "tsn": 46067,
+            "scientific_name": "Mycetozoa",
+            "rank_name": "Subphylum",
+            "name_usage": "valid",
+            "parent_tsn": 43780,
+            "depth": 3
+          },
+          {
+            "tsn": 43780,
+            "scientific_name": "Protozoa",
+            "rank_name": "Phylum",
+            "name_usage": "valid",
+            "parent_tsn": 630577,
+            "depth": 4
+          },
+          {
+            "tsn": 630577,
+            "scientific_name": "Protozoa",
+            "rank_name": "Kingdom",
+            "name_usage": "valid",
+            "parent_tsn": 0,
+            "depth": 5
+          }
+        ],
+        "itisLegacyExactNameDescendants": [
+          {
+            "tsn": 46126,
+            "scientific_name": "Centrohelida",
+            "rank_name": "Order",
+            "name_usage": "valid",
+            "parent_tsn": 46114
+          },
+          {
+            "tsn": 46127,
+            "scientific_name": "Acanthocistidae",
+            "rank_name": "Family",
+            "name_usage": "valid",
+            "parent_tsn": 46126
+          },
+          {
+            "tsn": 46128,
+            "scientific_name": "Acanthocystis",
+            "rank_name": "Genus",
+            "name_usage": "valid",
+            "parent_tsn": 46127
+          },
+          {
+            "tsn": 46129,
+            "scientific_name": "Acanthocystis aculeata",
+            "rank_name": "Species",
+            "name_usage": "valid",
+            "parent_tsn": 46128
+          },
+          {
+            "tsn": 46130,
+            "scientific_name": "Acanthocystis turfacea",
+            "rank_name": "Species",
+            "name_usage": "valid",
+            "parent_tsn": 46128
+          },
+          {
+            "tsn": 46131,
+            "scientific_name": "Pompholyxophrys",
+            "rank_name": "Genus",
+            "name_usage": "valid",
+            "parent_tsn": 46127
+          },
+          {
+            "tsn": 46132,
+            "scientific_name": "Pompholyxophrys punicea",
+            "rank_name": "Species",
+            "name_usage": "valid",
+            "parent_tsn": 46131
+          },
+          {
+            "tsn": 203857,
+            "scientific_name": "Acanthocystis chaetophora",
+            "rank_name": "Species",
+            "name_usage": "valid",
+            "parent_tsn": 46128
+          },
+          {
+            "tsn": 203858,
+            "scientific_name": "Acanthocystis nyriospina",
+            "rank_name": "Species",
+            "name_usage": "valid",
+            "parent_tsn": 46128
+          }
+        ],
+        "itisLegacyAcceptedSpecies": [],
+        "itisLegacyValidSpecies": [
+          {
+            "tsn": 46129,
+            "scientific_name": "Acanthocystis aculeata",
+            "rank_name": "Species",
+            "name_usage": "valid",
+            "parent_tsn": 46128
+          },
+          {
+            "tsn": 46130,
+            "scientific_name": "Acanthocystis turfacea",
+            "rank_name": "Species",
+            "name_usage": "valid",
+            "parent_tsn": 46128
+          },
+          {
+            "tsn": 46132,
+            "scientific_name": "Pompholyxophrys punicea",
+            "rank_name": "Species",
+            "name_usage": "valid",
+            "parent_tsn": 46131
+          },
+          {
+            "tsn": 203857,
+            "scientific_name": "Acanthocystis chaetophora",
+            "rank_name": "Species",
+            "name_usage": "valid",
+            "parent_tsn": 46128
+          },
+          {
+            "tsn": 203858,
+            "scientific_name": "Acanthocystis nyriospina",
+            "rank_name": "Species",
+            "name_usage": "valid",
+            "parent_tsn": 46128
+          }
+        ],
+        "selectedColRoot": null,
+        "selectedItisRoot": null,
+        "decision": "No exact accepted Centrohelida root exists in either pinned authority. ITIS exact-name order TSN 46126 is legacy valid under Heliozoa/Acanthophractida/Mycetozoa, with five valid but no accepted species descendants; it is retained only as boundary evidence and is not converted into an accepted-current partition. No COL or ITIS range is asserted."
+      },
+      "matching": {
+        "normalization": [
+          "Remove the exact trailing COL authorship field from COL scientificName when that suffix is present; no authorship parser is used.",
+          "Normalize Unicode to NFC, replace underscores with spaces, collapse Unicode whitespace and trim.",
+          "For species-rank comparison, remove one parenthesized subgenus token in the exact Genus (Subgenus) species representation; genus and specific epithet must remain unchanged.",
+          "Preserve case, diacritics, punctuation and all remaining name tokens."
+        ],
+        "statuses": {
+          "accepted": "Unavailable: no exact accepted Centrohelida root exists in the pinned authorities.",
+          "synonym-current-name-redirect": "Unavailable: no exact accepted Centrohelida root exists in the pinned authorities.",
+          "ambiguous": "Unavailable: no exact accepted Centrohelida root exists in the pinned authorities.",
+          "unmatched": "Unavailable: no exact accepted Centrohelida root exists in the pinned authorities."
+        },
+        "prohibited": "No fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered, package-wide, near-lineage or taxon-substituted matching is used."
+      },
+      "evidenceBoundary": {
+        "en": "This CC0 ITIS boundary audit is a frozen exact-root check for Centrohelida in the declared COL26.8 Protists and Chromists package. It is not a global checklist, final classification authority, phylogeny, species-concept equivalence assertion, biological dossier or scientific-review record.",
+        "zh": "此 CC0 ITIS 边界审计仅冻结声明的 COL26.8 原生生物与色界生物包中 Centrohelida 的精确根检查；它不是全球名录、最终分类权威、系统发育、物种概念等同性声明、生物档案或科学审查记录。"
+      },
+      "counts": {
+        "eligible": 0,
+        "records": 0,
+        "accepted": 0,
+        "redirects": 0,
+        "ambiguous": 0,
+        "unmatched": 0,
+        "withheld": 0,
+        "upstreamOnly": 0,
+        "nonApplicable": 61518
+      },
+      "files": [],
+      "totalCompressedBytes": 0,
+      "totalSourceBytes": 0,
+      "deliveryProfiles": {
+        "web-light": {
+          "payload": "summary-only",
+          "files": [],
+          "records": 0,
+          "totalCompressedBytes": 0,
+          "totalSourceBytes": 0,
+          "statement": "GitHub Pages publishes the complete Centrohelida authority boundary authority boundary and canonical hashes without row shards."
+        },
+        "native-full": {
+          "payload": "complete",
+          "files": [],
+          "records": 0,
+          "totalCompressedBytes": 0,
+          "totalSourceBytes": 0
+        }
+      },
+      "limitations": [
+        "This CC0 ITIS boundary audit is a frozen exact-root check for Centrohelida in the declared COL26.8 Protists and Chromists package. It is not a global checklist, final classification authority, phylogeny, species-concept equivalence assertion, biological dossier or scientific-review record.",
+        "No fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered, package-wide, near-lineage or taxon-substituted matching is used."
+      ],
+      "integration": {
+        "clientParityRequirement": "Android and iOS must copy every non-empty native-full file byte-for-byte; Web uses the web-light summary profile.",
+        "lookup": {
+          "strategy": "lexicographic-colId-range-v1",
+          "ordering": "Unicode code-unit ascending",
+          "requestPolicy": "Select the sole inclusive COL-ID range and read at most one COL partition; upstream-only files are never selected by COL ID."
+        }
+      }
+    },
+    {
+      "id": "itis-katablepharidota-tsn-crosswalk",
+      "recordType": "release-pinned-exact-root-boundary-audit",
+      "provider": "Integrated Taxonomic Information System",
+      "source": {
+        "datasetId": "itis-2026-08-26",
+        "exportDate": "2026-08-26",
+        "rootTsn": null,
+        "license": "CC0-1.0",
+        "citationDoi": "10.5066/F7KH0KBK",
+        "canonicalDescriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-katablepharidota-sidecar.json",
+        "canonicalDescriptorBytes": 6401,
+        "canonicalDescriptorSha256": "5905d136b61c07b029b1b99f7e0c2dcd1fb03a0746f5609ba7b276a4b9b00a98"
+      },
+      "scope": {
+        "packageRootUsageIds": [
+          "C",
+          "Z"
+        ],
+        "packageRootScientificNames": [
+          "Chromista",
+          "Protozoa"
+        ],
+        "colRootUsageId": null,
+        "colRootScientificName": "Katablepharidota",
+        "colStrictAcceptedSpecies": 0,
+        "packageStrictAcceptedSpecies": 61518,
+        "packageOutOfScopeStrictAcceptedSpecies": 61518,
+        "colRootAudit": "No exact COL26.8 usage node named Katablepharidota exists in the complete pinned hierarchy; no strict COL partition is claimed.",
+        "boundary": "This boundary audit contains no Katablepharidota rows because neither COL26.8 nor ITIS 2026-08-26 exposes an exact accepted root named Katablepharidota. Exact-name candidates such as Katablepharidophyta, Katablepharidophyceae, Katablepharidida, Katablepharidales are recorded only for audit and are not substituted."
+      },
+      "rootBoundaryAudit": {
+        "colExactRootCandidates": [],
+        "colNearRootCandidates": [],
+        "itisExactNameCandidates": [],
+        "itisNearRootCandidates": [],
+        "selectedColRoot": null,
+        "selectedItisRoot": null,
+        "overlapAudit": {
+          "inspectedScopes": [
+            "amoebozoa",
+            "apicomplexa",
+            "bigyra",
+            "centrohelida",
+            "cercozoa",
+            "chlorophyta",
+            "choanoflagellatea",
+            "ciliophora",
+            "cryptophyta",
+            "dinoflagellata",
+            "euglenozoa",
+            "glaucophyta",
+            "haptophyta",
+            "labyrinthulomycetes",
+            "metamonada",
+            "ochrophyta",
+            "oomycota",
+            "opalozoa",
+            "perkinsozoa",
+            "picozoa",
+            "radiolaria",
+            "rhodophyta",
+            "telonemia"
+          ],
+          "overlappingColUsageIds": [],
+          "overlappingItisTsns": []
+        },
+        "decision": "No exact Katablepharidota root exists in either pinned authority. Any nearby exact-name candidates are audit evidence only; no COL or ITIS range is asserted and no taxonomic equivalence is inferred."
+      },
+      "matching": {
+        "normalization": [
+          "Remove the exact trailing COL authorship field from COL scientificName when that suffix is present; no authorship parser is used.",
+          "Normalize Unicode to NFC, replace underscores with spaces, collapse Unicode whitespace and trim.",
+          "For species-rank comparison, remove one parenthesized subgenus token in the exact Genus (Subgenus) species representation; genus and specific epithet must remain unchanged.",
+          "Preserve case, diacritics, punctuation and all remaining name tokens."
+        ],
+        "statuses": {
+          "accepted": "Unavailable: no exact Katablepharidota root exists in the pinned authorities.",
+          "synonym-current-name-redirect": "Unavailable: no exact Katablepharidota root exists in the pinned authorities.",
+          "ambiguous": "Unavailable: no exact Katablepharidota root exists in the pinned authorities.",
+          "unmatched": "Unavailable: no exact Katablepharidota partition exists."
+        },
+        "prohibited": "No fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered, package-wide or taxon-substituted matching is used."
+      },
+      "evidenceBoundary": {
+        "en": "This CC0 ITIS boundary audit is a frozen exact-root check for Katablepharidota in the pinned COL26.8 Protists and Chromists package. It is not a global checklist, a final classification authority, a phylogeny, a species-concept equivalence assertion, a biological dossier or a scientific-review record.",
+        "zh": "此 CC0 ITIS 边界审计冻结记录了固定版本 COL26.8 原生生物与色界生物包中 Katablepharidota 的精确根检查。它不是全球物种清单、最终分类权威、系统发育、物种概念等同性声明、生物档案或科学审查记录。"
+      },
+      "counts": {
+        "eligible": 0,
+        "records": 0,
+        "accepted": 0,
+        "redirects": 0,
+        "ambiguous": 0,
+        "unmatched": 0,
+        "withheld": 0,
+        "upstreamOnly": 0,
+        "nonApplicable": 61518
+      },
+      "files": [],
+      "totalCompressedBytes": 0,
+      "totalSourceBytes": 0,
+      "deliveryProfiles": {
+        "web-light": {
+          "payload": "summary-only",
+          "files": [],
+          "records": 0,
+          "totalCompressedBytes": 0,
+          "totalSourceBytes": 0,
+          "statement": "GitHub Pages publishes the complete Katablepharidota authority boundary authority boundary and canonical hashes without row shards."
+        },
+        "native-full": {
+          "payload": "complete",
+          "files": [],
+          "records": 0,
+          "totalCompressedBytes": 0,
+          "totalSourceBytes": 0
+        }
+      },
+      "limitations": [
+        "This CC0 ITIS boundary audit is a frozen exact-root check for Katablepharidota in the pinned COL26.8 Protists and Chromists package. It is not a global checklist, a final classification authority, a phylogeny, a species-concept equivalence assertion, a biological dossier or a scientific-review record.",
+        "No fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered, package-wide or taxon-substituted matching is used."
+      ],
+      "integration": {
+        "clientParityRequirement": "Android and iOS must copy every non-empty native-full file byte-for-byte; Web uses the web-light summary profile.",
+        "lookup": {
+          "strategy": "lexicographic-colId-range-v1",
+          "ordering": "Unicode code-unit ascending",
+          "requestPolicy": "Select the sole inclusive COL-ID range and read at most one COL partition; upstream-only files are never selected by COL ID."
+        }
+      }
     }
   ]
 }

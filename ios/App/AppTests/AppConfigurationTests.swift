@@ -350,9 +350,10 @@ final class AppConfigurationTests: XCTestCase {
                     "itis-opalozoa-tsn-crosswalk", "itis-radiolaria-tsn-crosswalk", "itis-metamonada-tsn-crosswalk",
                     "itis-chlorophyta-tsn-crosswalk", "itis-glaucophyta-tsn-crosswalk", "itis-picozoa-tsn-crosswalk",
                     "itis-telonemia-tsn-crosswalk",
+                    "itis-centrohelida-tsn-crosswalk", "itis-katablepharidota-tsn-crosswalk",
                 ]
-                let expectedFiles = [4, 1, 2, 1, 1, 1, 2, 1, 1, 2, 0, 0, 1, 0, 0, 0, 0, 0, 1, 1, 0, 0]
-                let expectedRecords = [8_665, 21, 1_110, 276, 52, 90, 3_397, 1_337, 1_616, 1_464, 0, 0, 53, 0, 0, 0, 0, 0, 1_416, 4, 0, 0]
+                let expectedFiles = [4, 1, 2, 1, 1, 1, 2, 1, 1, 2, 0, 0, 1, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0]
+                let expectedRecords = [8_665, 21, 1_110, 276, 52, 90, 3_397, 1_337, 1_616, 1_464, 0, 0, 53, 0, 0, 0, 0, 0, 1_416, 4, 0, 0, 0, 0]
                 let itisAuthorities = extensions.filter { ($0["provider"] as? String) == "Integrated Taxonomic Information System" }
                 XCTAssertEqual(extensions.count, expectedIds.count + 1)
                 XCTAssertEqual(itisAuthorities.count, expectedIds.count)

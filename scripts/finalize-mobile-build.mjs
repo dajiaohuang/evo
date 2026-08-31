@@ -168,6 +168,8 @@ const expectedProtistAuthorities = {
   'itis-glaucophyta-tsn-crosswalk': { files: 1, records: 4 },
   'itis-picozoa-tsn-crosswalk': { files: 0, records: 0 },
   'itis-telonemia-tsn-crosswalk': { files: 0, records: 0 },
+  'itis-centrohelida-tsn-crosswalk': { files: 0, records: 0 },
+  'itis-katablepharidota-tsn-crosswalk': { files: 0, records: 0 },
 }
 if (protistsManifest.extensions?.length !== Object.keys(expectedProtistAuthorities).length + 1) {
   throw new Error('Mobile build must stage every declared protists/chromists authority collection')
