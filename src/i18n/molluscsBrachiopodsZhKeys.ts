@@ -20,7 +20,7 @@ const exactCopy = new Set<string>([
   'Ninety newly prepared specimens reveal a funnel, fins, eyes and two tentacles but no diagnostic hard-part series.',
   'The expanded sample repeatedly preserves paired camera-like eyes, lateral fins, an axial cavity and a ventral funnel-like structure.',
   'Deep conchiferan nodes vary among matrices and contemporary studies; the published corrigendum means corrected supplementary figures are the controlling visual record.',
-  'Specimens preserve a lophophoral chamber between paired agglutinated valves above a collar, conical tube and long pedicle with coelomic space.',
+  'Across referred specimens, the reconstruction combines a lophophoral chamber between paired agglutinated valves with a collar, conical tube and long pedicle with inferred coelomic space; no individual fossil is asserted to preserve every feature.',
   'A second matrix adds every major living group',
   'Conflicting deep nodes and corrected supplementary figures are retained rather than averaged into false certainty.',
   'Articulation and valve homology are reconstructions, not a preserved whole organism or settled stem topology.',
