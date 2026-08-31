@@ -101,6 +101,8 @@ final class AppConfigurationTests: XCTestCase {
         var phylogenyPackages = 0
         var wormsNomenclatureRecords = 0
         var richItisNomenclatureRecords = 0
+        var arthropodItisFiles = 0
+        var arthropodItisNomenclatureRecords = 0
         var wfoRichRecords = 0
         for (packageId, manifestDescriptor) in packageDescriptors {
             let manifestPath = try XCTUnwrap(manifestDescriptor["url"] as? String)
@@ -147,6 +149,34 @@ final class AppConfigurationTests: XCTestCase {
                     inventory: files, below: dataRoot, expectedFiles: isMolluscs ? 59 : 5,
                     expectedUpstreamFiles: 1, expectedRecords: isMolluscs ? 159_794 : 30_521,
                     expectedUpstreamRecords: isMolluscs ? 4_289 : 2_218, label: "ITIS \(packageId)")
+            } else if packageId == "crustaceans-insects" || packageId == "trilobites-chelicerates" {
+                let collections = try XCTUnwrap(package["nomenclatureCollections"] as? [[String: Any]])
+                let expectedIds = packageId == "crustaceans-insects"
+                    ? ["itis-insecta-tsn-crosswalk", "itis-crustacea-tsn-crosswalk", "itis-myriapoda-tsn-crosswalk"]
+                    : ["itis-chelicerata-tsn-crosswalk"]
+                let expectedFiles = packageId == "crustaceans-insects" ? [99, 40, 2] : [16]
+                let expectedUpstreamFiles = packageId == "crustaceans-insects" ? [1, 1, 1] : [1]
+                let expectedRecords = packageId == "crustaceans-insects" ? [941_223, 80_890, 14_210] : [99_511]
+                let expectedUpstreamRecords = packageId == "crustaceans-insects" ? [27_357, 5_991, 3_445] : [5_714]
+                let expectedDescriptorShas = packageId == "crustaceans-insects"
+                    ? [
+                        "c168f706a7067fd6d95548777b6fe5cadf0c6b2b67b9442698d9350c521c2cdf",
+                        "9fb4271dce81e92f2df706da26c379053e649f21416d81ec1d8db6bb2031490b",
+                        "7eeea9a62f0a51150f643c6f14d02511f8ab042b8264e64bbb0ec505520a5ac8",
+                    ]
+                    : ["90383cc2bf44dc092b59c7ed131169317a0a613699aa6485c6f3e9b74decfa3c"]
+                XCTAssertEqual(collections.count, expectedIds.count)
+                for index in expectedIds.indices {
+                    let collection = try XCTUnwrap(collections.first { ($0["id"] as? String) == expectedIds[index] }, "ITIS collection missing: \(expectedIds[index])")
+                    XCTAssertEqual(collection["descriptorSha256"] as? String, expectedDescriptorShas[index])
+                    let collectionRecords = try verifyRichItisCollection(
+                        collection: collection, inventory: files, below: dataRoot,
+                        expectedFiles: expectedFiles[index], expectedUpstreamFiles: expectedUpstreamFiles[index],
+                        expectedRecords: expectedRecords[index], expectedUpstreamRecords: expectedUpstreamRecords[index],
+                        label: "ITIS \(expectedIds[index])")
+                    arthropodItisFiles += expectedFiles[index] + expectedUpstreamFiles[index]
+                    arthropodItisNomenclatureRecords += collectionRecords + expectedUpstreamRecords[index]
+                }
             } else if ["angiospermae", "gymnosperms", "early-land-plants"].contains(packageId) {
                 let collections = try XCTUnwrap(package["nomenclatureCollections"] as? [[String: Any]])
                 XCTAssertEqual(collections.count, 1)
@@ -217,6 +247,8 @@ final class AppConfigurationTests: XCTestCase {
         XCTAssertEqual(phylogenyPackages, 2)
         XCTAssertEqual(wormsNomenclatureRecords, 11_891)
         XCTAssertEqual(richItisNomenclatureRecords, 202_206)
+        XCTAssertEqual(arthropodItisFiles, 161)
+        XCTAssertEqual(arthropodItisNomenclatureRecords, 1_178_341)
         XCTAssertEqual(wfoRichRecords, 387_988)
 
         let catalogueDescriptor = try XCTUnwrap((current["catalogue"] as? [String: Any])?["manifest"] as? [String: Any])
