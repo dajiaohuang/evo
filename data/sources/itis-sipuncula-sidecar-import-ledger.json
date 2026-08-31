@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 1,
+  "importType": "COL26.8-to-ITIS-exact-sipuncula-nomenclatural-sidecar",
+  "generatedFrom": {
+    "sourcePath": "data/sources/itis-2026-08-26.json",
+    "sourceSha256": "38a7a55b4e98cafc66790e47f6bd637e298e23fd691e4771c755b38e4a02d7fc",
+    "itisDatabaseMember": "itisSqlite082626/ITIS.sqlite",
+    "itisDatabaseSha256": "ea7304536cfd7b1e2636d383911ca7931fc83d9ab1194ca2a3c020ea2daf1719",
+    "colRegistryManifestPath": "data/catalogue-of-life/releases/2026-08-20/registry/manifest.json",
+    "colRegistryManifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151",
+    "colOwnershipPath": "data/registry/package-species-coverage.json",
+    "colOwnershipSha256": "a297bc8a67ce60806fdee733464a79bfcc42e255f7e59535b01f94013c19dfea",
+    "resourcePackManifestPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals/manifest.json",
+    "resourcePackManifestSha256": "662d549b01b73fd10ad830f3b9bdf9681ec1e9f9f46dafc4f65457404cba506d"
+  },
+  "scopeAudit": {
+    "colRootUsageId": "63",
+    "colRootScientificName": "Sipuncula",
+    "colStrictAcceptedSpecies": 146,
+    "packageStrictAcceptedSpecies": 99161,
+    "packageOutOfScopeStrictAcceptedSpecies": 99015,
+    "packageOwnership": "other-animals is the deterministic COL26.8 residual route below Animalia (N); Sipuncula 63 has no more-specific static-package route.",
+    "nonApplicableBoundary": "All other-animals strict accepted species not descending from 63 are non-applicable to this Sipuncula sidecar. They remain in the mixed resource pack and are not silently mapped to ITIS Sipuncula.",
+    "sourceComposition": {
+      "2144": 146
+    },
+    "itisRoot": {
+      "tsn": "154520",
+      "scientificName": "Sipuncula",
+      "rank": "Phylum",
+      "usage": "valid"
+    },
+    "itisCurrentSpecies": 205,
+    "itisSpeciesSynonymLinks": 575,
+    "maximumUpdateDates": {
+      "taxonomicUnits": "2026-08-26",
+      "synonymLinks": "2026-08-26"
+    }
+  },
+  "matchingContract": {
+    "normalization": [
+      "Remove the exact trailing COL authorship field from COL scientificName when that suffix is present; no authorship parser is used.",
+      "Normalize Unicode to NFC, replace underscores with spaces, collapse Unicode whitespace and trim.",
+      "For species-rank comparison, remove one parenthesized subgenus token in the exact Genus (Subgenus) species representation; genus and specific epithet must remain unchanged.",
+      "Preserve case, diacritics, punctuation and all remaining name tokens."
+    ],
+    "statuses": {
+      "accepted": "The normalized COL name resolves to exactly one valid ITIS Sipuncula species and directly equals that current ITIS name.",
+      "synonym-current-name-redirect": "The normalized COL name equals official ITIS invalid species-name evidence that resolves to exactly one valid ITIS Sipuncula species.",
+      "ambiguous": "The normalized exact evidence resolves to more than one valid ITIS Sipuncula species TSN.",
+      "unmatched": "No normalized exact valid-name or official ITIS species-synonym evidence resolves to a valid ITIS Sipuncula species."
+    },
+    "prohibited": "No fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered or taxon-substituted matching is used."
+  },
+  "totals": {
+    "total": 146,
+    "accepted": 146,
+    "synonymCurrentNameRedirect": 0,
+    "ambiguous": 0,
+    "unmatched": 0,
+    "itisCurrentSpecies": 205,
+    "itisSpeciesSynonymLinks": 575,
+    "itisUpstreamOnly": 59
+  },
+  "output": {
+    "descriptor": {
+      "path": "data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals/itis-sipuncula-sidecar.json",
+      "bytes": 5988,
+      "sha256": "3379b37813c2229fdf88541dfe8e835f6660502824906fc039cbebc3efb9a24f"
+    },
+    "colUsageIdShards": [
+      {
+        "path": "data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals/itis-sipuncula-sidecar-000.jsonl.gz",
+        "records": 146,
+        "firstColUsageId": "3GRNT",
+        "lastColUsageId": "HHMC",
+        "bytes": 5287,
+        "sha256": "82bc857998d4f8d332f6c2fb555967082a84eebdf568ddb0ac54622f56a6ffbd",
+        "sourceBytes": 57346,
+        "sourceSha256": "347394003d545468eeeda6d99c1e7bd8f447bcad4c3ea06be7659b534f5891ea"
+      }
+    ],
+    "upstreamOnly": {
+      "path": "data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals/itis-sipuncula-upstream-only-000.jsonl.gz",
+      "records": 59,
+      "firstColUsageId": null,
+      "lastColUsageId": null,
+      "bytes": 1119,
+      "sha256": "599ae5f9c68a95ab6116a771a35d3811f988c2596b9b9b4c669d336d8091fffc",
+      "sourceBytes": 22787,
+      "sourceSha256": "78cb9c7db9a825e7c7c65be98f0c0f3b1d7e16c92b5b98fb8a2898e2c4825ff3",
+      "colOwnership": null,
+      "firstTsn": "154525",
+      "lastTsn": "773077"
+    }
+  },
+  "deliveryContract": {
+    "pagesLight": "Pages needs only this small descriptor and may omit all row-level JSONL gzip shards.",
+    "androidIosFull": "Android and iOS complete-data inventories must include this descriptor and every listed row-level shard as the same checksum-addressed bytes.",
+    "runtimeChange": "This import deliberately changes no formal runtime or published release manifest."
+  },
+  "generatedBy": {
+    "scriptPath": "scripts/build-itis-sipuncula-sidecar.mjs",
+    "scriptSha256": "379136f5a1b78aa44e6127d879d45040513620945c744160999d1474a3475499",
+    "deterministic": "Pinned input checksums, fixed roots, exact SQL, exact representation-only normalization, code-unit ID ordering and deterministic gzip; no wall-clock fields or fuzzy matching."
+  }
+}
