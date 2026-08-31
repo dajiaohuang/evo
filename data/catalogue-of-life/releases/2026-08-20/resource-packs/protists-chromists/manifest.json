@@ -56,5 +56,149 @@
   ],
   "totalCompressedBytes": 1230537,
   "totalSourceBytes": 11548492,
-  "evidenceBoundary": "This package preserves official COL26.8 nomenclatural and placement fields only; it does not assert an Evo Atlas dossier, biological evidence, media, fossils, ecology, translation, or expert review."
+  "evidenceBoundary": "This package preserves official COL26.8 nomenclatural and placement fields only; it does not assert an Evo Atlas dossier, biological evidence, media, fossils, ecology, translation, or expert review.",
+  "extensions": [
+    {
+      "id": "foraminifera-wfd-identifiers",
+      "recordType": "external-name-identifier-crosswalk",
+      "provider": "World Foraminifera Database (WoRMS) through ChecklistBank",
+      "source": {
+        "catalogueRelease": "COL26.8",
+        "catalogueReleaseDate": "2026-08-20",
+        "checklistBankDatasetKey": 316115,
+        "sourceDatasetKey": 1157,
+        "sourceDatasetTitle": "World Foraminifera Database",
+        "sourceDatasetVersion": "2026-08-01",
+        "sourceDatasetVersionDoi": "10.48580/d3dx.v88",
+        "sourceDatasetDoi": "10.48580/d3dx",
+        "license": "CC-BY-4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "informationUrl": "https://www.marinespecies.org/foraminifera",
+        "retrievedAt": "2026-08-31",
+        "canonicalCrosswalkPath": "data/sources/foraminifera-wfd-col26.8-crosswalk.json.gz",
+        "canonicalCrosswalkBytes": 6288967,
+        "canonicalCrosswalkSha256": "a6c29b160fb6a7be1da50661ccb4007a0faabc65b68ba4a61690c6d9336b8b62",
+        "canonicalCrosswalkSourceBytes": 51686657,
+        "canonicalCrosswalkSourceSha256": "84a767144012e0c4f80a65d4fc4bed4442e55b9654dcfc77b77c340b53c77068",
+        "sourcePageCount": 87,
+        "sourceRecordCount": 86094,
+        "directSourceRequestCount": 47975,
+        "directSourceRequestLedgerSha256": "afb32e6ac3d5f76fe768f185cdcd48ce9d12aa3dde992ac88f99da233a7dcab5",
+        "rightsBoundary": "This is a minimal derived identifier/status projection for the pinned COL release. It does not redistribute raw WFD responses or assert a complete upstream-only inventory."
+      },
+      "eligibility": "Every strict accepted COL26.8 species whose sourceDatasetId is World Foraminifera Database 1157 and whose lineage descends from browse root C (Chromista).",
+      "counts": {
+        "eligible": 47975,
+        "resolved": 47975,
+        "acceptedSpecies": 47975,
+        "accepted": 47975,
+        "redirects": 0,
+        "ambiguous": 0,
+        "unmatched": 0,
+        "withheld": 0,
+        "upstreamOnly": null
+      },
+      "files": [
+        {
+          "path": "protists-chromists/foraminifera-wfd-000.jsonl.gz",
+          "records": 9912,
+          "bytes": 817920,
+          "sourceBytes": 6290961,
+          "sha256": "94c33041832632e6affef092d7a7f7e2f3c69e785f968aa47496fa45b47755ec",
+          "sourceSha256": "9cbb38569a1f0403196e6210201860957d5cc21119399fcf6bb943ef2123a5f6",
+          "encoding": "gzip",
+          "mediaType": "application/x-ndjson",
+          "minColId": "32KML",
+          "maxColId": "823D4"
+        },
+        {
+          "path": "protists-chromists/foraminifera-wfd-001.jsonl.gz",
+          "records": 9892,
+          "bytes": 833577,
+          "sourceBytes": 6291067,
+          "sha256": "bd1e628d4fa1d5456ebfb879f799c271f929cc85051e8cb88066b0ce66571539",
+          "sourceSha256": "8963a17b873aab26173d96350e844ef0de320f8f1e5e3b03c584a5b649f2dabb",
+          "encoding": "gzip",
+          "mediaType": "application/x-ndjson",
+          "minColId": "823D6",
+          "maxColId": "82MNX"
+        },
+        {
+          "path": "protists-chromists/foraminifera-wfd-002.jsonl.gz",
+          "records": 9854,
+          "bytes": 829186,
+          "sourceBytes": 6291137,
+          "sha256": "34457e663666488b7d330f15c697853ea1e341f226f66eef3a3ccd94114949d8",
+          "sourceSha256": "071789add904ff1cc9221e6bf943f69d2806aaf0988c1198691b73c6e0427fc3",
+          "encoding": "gzip",
+          "mediaType": "application/x-ndjson",
+          "minColId": "82MNY",
+          "maxColId": "836JC"
+        },
+        {
+          "path": "protists-chromists/foraminifera-wfd-003.jsonl.gz",
+          "records": 9827,
+          "bytes": 830736,
+          "sourceBytes": 6291124,
+          "sha256": "21538ae7825bca54e9a452c8b5378293af1ff45868340febe601969fe2215055",
+          "sourceSha256": "33af1af3c580df575afb9351d39d07e945e89bce8e0013f87e18fff29f9296e6",
+          "encoding": "gzip",
+          "mediaType": "application/x-ndjson",
+          "minColId": "836JD",
+          "maxColId": "83R3T"
+        },
+        {
+          "path": "protists-chromists/foraminifera-wfd-004.jsonl.gz",
+          "records": 8490,
+          "bytes": 735212,
+          "sourceBytes": 5463190,
+          "sha256": "c43726197917f9fb33be0c978ae091c00ae85de15be7d338c12cc6f927423106",
+          "sourceSha256": "4b91169edfdf784bff9b4dcfda2edff1629393896e5e7377cf0a5cdbb326a261",
+          "encoding": "gzip",
+          "mediaType": "application/x-ndjson",
+          "minColId": "83R3W",
+          "maxColId": "ZRZ9"
+        }
+      ],
+      "totalCompressedBytes": 4046631,
+      "totalSourceBytes": 30627479,
+      "deliveryProfiles": {
+        "web-light": {
+          "payload": "summary-only",
+          "files": [],
+          "records": 0,
+          "totalCompressedBytes": 0,
+          "totalSourceBytes": 0,
+          "statement": "GitHub Pages carries the descriptor and hashes but no Foraminifera authority payload shards."
+        },
+        "native-full": {
+          "payload": "complete",
+          "files": [
+            "protists-chromists/foraminifera-wfd-000.jsonl.gz",
+            "protists-chromists/foraminifera-wfd-001.jsonl.gz",
+            "protists-chromists/foraminifera-wfd-002.jsonl.gz",
+            "protists-chromists/foraminifera-wfd-003.jsonl.gz",
+            "protists-chromists/foraminifera-wfd-004.jsonl.gz"
+          ],
+          "records": 47975,
+          "totalCompressedBytes": 4046631,
+          "totalSourceBytes": 30627479,
+          "releaseFilesSha256": "192ed0a20553e050703375ec2940beac6657113d6a2c448cb3a379e8c3129171"
+        }
+      },
+      "limitations": [
+        "This is a COL26.8 release-scoped authority identifier projection, not a frozen complete WFD archive or a claim that every Foraminifera taxon is represented in COL.",
+        "ChecklistBank exposes a complete date-pinned WFD nameusage page set, but no immutable downloadable archive was available; upstream-only is therefore not asserted.",
+        "No distributions, traits, ecology, media, bibliography, fossil evidence, phylogeny or dossier content is copied."
+      ],
+      "integration": {
+        "clientParityRequirement": "Native Android and iOS must copy every native-full file byte-for-byte; Web uses the web-light summary profile.",
+        "lookup": {
+          "strategy": "lexicographic-colId-range-v1",
+          "ordering": "Unicode code-unit ascending without locale folding or normalization.",
+          "requestPolicy": "Select the sole inclusive minColId/maxColId shard for a query and load at most that one shard."
+        }
+      }
+    }
+  ]
 }

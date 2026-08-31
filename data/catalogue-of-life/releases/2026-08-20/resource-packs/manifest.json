@@ -72,12 +72,16 @@
     {
       "packageId": "protists-chromists",
       "manifestPath": "protists-chromists/manifest.json",
-      "manifestBytes": 2432,
-      "manifestSha256": "50efa51cfac676e26ad1d6a013378da891f5c4f545eb6d454daea93b59684e8a",
+      "manifestBytes": 9078,
+      "manifestSha256": "d64df29f13c512e930e16d002f847011b5f18bcb6aba920bfcd75d9f6938bba4",
       "acceptedSpeciesCount": 61518,
       "fileCount": 2,
       "totalCompressedBytes": 1230537,
-      "totalSourceBytes": 11548492
+      "totalSourceBytes": 11548492,
+      "extensionCount": 1,
+      "extensionFileCount": 5,
+      "extensionCompressedBytes": 4046631,
+      "extensionSourceBytes": 30627479
     },
     {
       "packageId": "other-plants",
@@ -130,6 +134,15 @@
       },
       "resourcePack": "fungi",
       "lookupStrategy": "lexicographic-colId-range-v1"
+    },
+    "foraminiferaWfdIdentifiers": {
+      "catalogueRelease": "COL26.8",
+      "acceptedSpecies": 47975,
+      "sourceDatasetKey": 1157,
+      "resourcePack": "protists-chromists",
+      "lookupStrategy": "lexicographic-colId-range-v1",
+      "webProfile": "web-light",
+      "nativeProfile": "native-full"
     }
   }
 }
