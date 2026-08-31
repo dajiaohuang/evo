@@ -152,6 +152,8 @@ public class AppInstrumentedTest {
         int fishItisFiles = 0;
         int fishItisNomenclatureRecords = 0;
         int fishItisUpstreamRecords = 0;
+        int sarcopterygiiItisFiles = 0;
+        int sarcopterygiiItisNomenclatureRecords = 0;
         int wfoRichRecords = 0;
         Iterator<String> richPackageIds = richManifests.keys();
         while (richPackageIds.hasNext()) {
@@ -290,6 +292,13 @@ public class AppInstrumentedTest {
                         expectedRecords, expectedUpstreamRecords, "ITIS " + collectionId);
                 fishItisFiles += expectedFiles + 1;
                 fishItisUpstreamRecords += expectedUpstreamRecords;
+            } else if (packageId.equals("tetrapod-transition")) {
+                JSONArray collections = pack.getJSONArray("nomenclatureCollections");
+                assertEquals(1, collections.length());
+                sarcopterygiiItisNomenclatureRecords += verifyRichItisCollection(context, files,
+                        findCollection(collections, "itis-sarcopterygii-tsn-crosswalk"), 1, 0,
+                        8, 0, "ITIS Sarcopterygii");
+                sarcopterygiiItisFiles += 1;
             } else if (packageId.equals("perissodactyla") || packageId.equals("cetartiodactyla")
                     || packageId.equals("primates") || packageId.equals("carnivora")
                     || packageId.equals("other-mammals")) {
@@ -387,6 +396,8 @@ public class AppInstrumentedTest {
         assertEquals(28, fishItisFiles);
         assertEquals(37428, fishItisNomenclatureRecords);
         assertEquals(3932, fishItisUpstreamRecords);
+        assertEquals(1, sarcopterygiiItisFiles);
+        assertEquals(8, sarcopterygiiItisNomenclatureRecords);
         assertEquals(387988, wfoRichRecords);
 
         JSONObject catalogueDescriptor = current.getJSONObject("catalogue").getJSONObject("manifest");

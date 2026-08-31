@@ -181,6 +181,9 @@ const expectedRichItisCollections = {
   'early-fishes': {
     'itis-agnatha-myxini-tsn-crosswalk': { files: 1, upstreamFiles: 1, records: 141, upstreamRecords: 17 },
   },
+  'tetrapod-transition': {
+    'itis-sarcopterygii-tsn-crosswalk': { files: 1, upstreamFiles: 0, records: 8, upstreamRecords: 0 },
+  },
 }
 let arthropodItisFiles = 0
 let arthropodItisRecords = 0

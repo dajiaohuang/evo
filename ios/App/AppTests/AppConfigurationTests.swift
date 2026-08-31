@@ -112,6 +112,8 @@ final class AppConfigurationTests: XCTestCase {
         var fishItisFiles = 0
         var fishItisNomenclatureRecords = 0
         var fishItisUpstreamRecords = 0
+        var sarcopterygiiItisFiles = 0
+        var sarcopterygiiItisNomenclatureRecords = 0
         var wfoRichRecords = 0
         for (packageId, manifestDescriptor) in packageDescriptors {
             let manifestPath = try XCTUnwrap(manifestDescriptor["url"] as? String)
@@ -244,6 +246,14 @@ final class AppConfigurationTests: XCTestCase {
                     label: "ITIS \(collectionId)")
                 fishItisFiles += expectedFiles + 1
                 fishItisUpstreamRecords += expectedUpstreamRecords
+            } else if packageId == "tetrapod-transition" {
+                let collections = try XCTUnwrap(package["nomenclatureCollections"] as? [[String: Any]])
+                XCTAssertEqual(collections.count, 1)
+                sarcopterygiiItisNomenclatureRecords += try verifyRichItisCollection(
+                    collection: try XCTUnwrap(collections.first { ($0["id"] as? String) == "itis-sarcopterygii-tsn-crosswalk" }),
+                    inventory: files, below: dataRoot, expectedFiles: 1, expectedUpstreamFiles: 0,
+                    expectedRecords: 8, expectedUpstreamRecords: 0, label: "ITIS Sarcopterygii")
+                sarcopterygiiItisFiles += 1
             } else if ["perissodactyla", "cetartiodactyla", "primates", "carnivora", "other-mammals"].contains(packageId) {
                 let collections = try XCTUnwrap(package["nomenclatureCollections"] as? [[String: Any]])
                 XCTAssertEqual(collections.count, 1)
@@ -326,6 +336,8 @@ final class AppConfigurationTests: XCTestCase {
         XCTAssertEqual(fishItisFiles, 28)
         XCTAssertEqual(fishItisNomenclatureRecords, 37_428)
         XCTAssertEqual(fishItisUpstreamRecords, 3_932)
+        XCTAssertEqual(sarcopterygiiItisFiles, 1)
+        XCTAssertEqual(sarcopterygiiItisNomenclatureRecords, 8)
         XCTAssertEqual(wfoRichRecords, 387_988)
 
         let catalogueDescriptor = try XCTUnwrap((current["catalogue"] as? [String: Any])?["manifest"] as? [String: Any])
