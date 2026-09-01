@@ -72,6 +72,121 @@
       "limitations": [
         "The two sides retain separate source, sampling, range and uncertainty boundaries; visual differences are not tests of evolutionary causation or a package-specific phylogeny."
       ]
+    },
+    {
+      "id": "mammal-origins-raranimus-dashankou-map",
+      "type": "explorer-preset",
+      "title": {
+        "en": "Raranimus Dashankou sample window",
+        "zh": "达善沟基干兽孔类样本窗口"
+      },
+      "description": {
+        "en": "Open the 269.34 Ma midpoint of the 274.4–264.28 Ma Xidagou Formation sample for Raranimus dashankouensis (IVPP V15424) to inspect bounded occurrence context in the map; this route is an evidence aid, not a direct date or ancestry claim.",
+        "zh": "在地图中打开 Raranimus dashankouensis（IVPP V15424）274.4–264.28 Ma 西达沟组样本的 269.34 Ma 中点，检查有界的出现背景；此路由用于证据检查，不是直接测年或祖先关系声明。"
+      },
+      "route": "#/explore?taxon=raranimus&view=map&age=269.34&older=274.4&younger=264.28",
+      "entityIds": [
+        "raranimus"
+      ],
+      "claimIds": [
+        "claim:taxon:raranimus:fossil-range"
+      ],
+      "evidenceStatus": "available-with-limitations",
+      "limitations": [
+        "The mapped markers are bounded package samples; 269.34 Ma is a routing age within the cited Xidagou window, not a specimen date, global FAD/LAD, complete distribution, direct ancestry, causal mechanism, or exact fossil-to-map co-registration."
+      ]
+    },
+    {
+      "id": "mammal-origins-haramiyavia-tait-bjerg-map",
+      "type": "explorer-preset",
+      "title": {
+        "en": "Haramiyavia Tait Bjerg sample window",
+        "zh": "哈拉米亚兽泰特山样本窗口"
+      },
+      "description": {
+        "en": "Open the 203.55 Ma midpoint of the 205.7–201.4 Ma Tait Bjerg Beds sample for Haramiyavia clemmenseni in the map, retaining its East Greenland formation context; the window does not turn jaw evidence into a crown-Mammalia date.",
+        "zh": "在地图中打开 Haramiyavia clemmenseni 东格陵兰 Tait Bjerg Beds 样本 205.7–201.4 Ma 范围的 203.55 Ma 中点，并保留地层背景；该窗口不会把颌骨证据转换为冠群哺乳动物起源日期。"
+      },
+      "route": "#/explore?taxon=haramiyavia&view=map&age=203.55&older=205.7&younger=201.4",
+      "entityIds": [
+        "haramiyavia"
+      ],
+      "claimIds": [
+        "claim:taxon:haramiyavia:fossil-range"
+      ],
+      "evidenceStatus": "available-with-limitations",
+      "limitations": [
+        "The mapped markers are bounded package samples; 203.55 Ma routes within the Tait Bjerg Beds envelope and does not establish a specimen date, global FAD/LAD, complete distribution, crown-Mammalia origin, direct ancestry, causal mechanism, or exact fossil-to-map co-registration."
+      ]
+    },
+    {
+      "id": "mammal-origins-liaoconodon-jiufotang-map",
+      "type": "explorer-preset",
+      "title": {
+        "en": "Liaoconodon Jiufotang sample window",
+        "zh": "热河真三尖齿兽九佛堂样本窗口"
+      },
+      "description": {
+        "en": "Open the 117.3 Ma midpoint of the 121.4–113.2 Ma Jiufotang Formation envelope for Liaoconodon hui (IVPP V16051) to inspect sampled occurrence context; detached ear elements and ossified Meckel’s cartilage remain anatomical evidence, not a universal transition.",
+        "zh": "在地图中打开 Liaoconodon hui（IVPP V16051）121.4–113.2 Ma 九佛堂组范围的 117.3 Ma 中点，检查采样出现背景；分离的耳骨与骨化梅克尔软骨仍是解剖证据，不是普遍转变。"
+      },
+      "route": "#/explore?taxon=liaoconodon&view=map&age=117.3&older=121.4&younger=113.2",
+      "entityIds": [
+        "liaoconodon"
+      ],
+      "claimIds": [
+        "claim:taxon:liaoconodon:fossil-range"
+      ],
+      "evidenceStatus": "available-with-limitations",
+      "limitations": [
+        "The mapped markers are bounded package samples; 117.3 Ma routes within the Jiufotang envelope, while the ear and dentary anatomy remains specimen-bounded and does not establish global FAD/LAD, complete distribution, direct ancestry, causal mechanism, or exact fossil-to-map co-registration."
+      ]
+    },
+    {
+      "id": "mammal-origins-morganucodonta-jurassic-map",
+      "type": "explorer-preset",
+      "title": {
+        "en": "Morganucodonta Lower Jurassic window",
+        "zh": "摩尔根兽类早侏罗世窗口"
+      },
+      "description": {
+        "en": "Open the 173.2 Ma midpoint of the 201.4–145 Ma source-bounded Morganucodonta sample to inspect the Wales-and-China skull context; this map preset does not infer an order-wide range or a linear jaw-to-ear transition.",
+        "zh": "在地图中打开 201.4–145 Ma 有来源边界的摩尔根兽类样本 173.2 Ma 中点，检查威尔士与中国颅骨背景；该预设不推断目级完整范围或线性的颌骨—中耳转变。"
+      },
+      "route": "#/explore?taxon=morganucodonta&view=map&age=173.2&older=201.4&younger=145",
+      "entityIds": [
+        "morganucodonta"
+      ],
+      "claimIds": [
+        "claim:taxon:morganucodonta:source-bounded-range-rc49"
+      ],
+      "evidenceStatus": "available-with-limitations",
+      "limitations": [
+        "The mapped markers are bounded package samples; 173.2 Ma is only a routing age inside the broad matrix-sample envelope, and the Wales/China records do not establish global FAD/LAD, complete order distribution, direct ancestry, causal mechanism, or exact fossil-to-map co-registration."
+      ]
+    },
+    {
+      "id": "mammal-origins-probainognathia-matrix-map",
+      "type": "explorer-preset",
+      "title": {
+        "en": "Probainognathia matrix sample window",
+        "zh": "原颌兽类矩阵样本窗口"
+      },
+      "description": {
+        "en": "Open the 205.85 Ma midpoint of the 237–174.7 Ma source-bounded Probainognathia matrix coverage to inspect sampled occurrence context; the route visualizes an age window, not a clade origin or direct lineage to Mammalia.",
+        "zh": "在地图中打开 237–174.7 Ma 有来源边界的原颌兽类矩阵覆盖 205.85 Ma 中点，检查采样出现背景；该路由显示的是时间窗口，不是该类群起源或通往哺乳动物的直接谱系。"
+      },
+      "route": "#/explore?taxon=probainognathia&view=map&age=205.85&older=237&younger=174.7",
+      "entityIds": [
+        "probainognathia"
+      ],
+      "claimIds": [
+        "claim:taxon:probainognathia:source-bounded-range-rc49"
+      ],
+      "evidenceStatus": "available-with-limitations",
+      "limitations": [
+        "The mapped markers are bounded package samples; 205.85 Ma is a routing age within sampled matrix coverage and does not establish a clade origin, global FAD/LAD, complete distribution, direct ancestry, causal mechanism, or exact fossil-to-map co-registration."
+      ]
     }
   ]
 }
