@@ -27543,5 +27543,173 @@
   {
     "id":"claim:taxon:kretzoiarctos:morphology","subjectId":"taxon:kretzoiarctos","claimKind":"scientific","claimType":"morphology","statement":"The study identifies left P4 NV-2-42, right M1 NV-2-40 and partial mandible IPS 46473 with associated P4 as Kretzoiarctos material.","confidence":"high","confidenceRationale":"The statement reports named dental and mandibular specimens without extrapolating their anatomy.","reviewedBy":"Evo Atlas data maintenance","reviewedAt":"2026-09-01","reviewedAgainstReferenceVersion":"abella-2012-kretzoiarctos primary-study locator checked for 2026.09 carnivora profile expansion","referenceLinks":[{"referenceId":"abella-2012-kretzoiarctos","relation":"supports","pages":"Article e48985","figure":"Figures 1–2","quoteLocator":"Holotype; Paratype; new material"}]},
   {
-    "id":"claim:taxon:kretzoiarctos:ecology","subjectId":"taxon:kretzoiarctos","claimKind":"scientific","claimType":"ecology","statement":"The paper interprets dental features as a tendency toward a more herbivorous diet, but the dental sample does not directly observe feeding, habitat, locomotion or a population-wide ecological guild.","confidence":"medium","confidenceRationale":"The diet statement is a comparative interpretation and its limits are explicit.","reviewedBy":"Evo Atlas data maintenance","reviewedAt":"2026-09-01","reviewedAgainstReferenceVersion":"abella-2012-kretzoiarctos primary-study locator checked for 2026.09 carnivora profile expansion","referenceLinks":[{"referenceId":"abella-2012-kretzoiarctos","relation":"supports","pages":"Article e48985","figure":"Figure 3","quoteLocator":"Discussion; Ailuropodini dental features"}]}
+    "id":"claim:taxon:kretzoiarctos:ecology","subjectId":"taxon:kretzoiarctos","claimKind":"scientific","claimType":"ecology","statement":"The paper interprets dental features as a tendency toward a more herbivorous diet, but the dental sample does not directly observe feeding, habitat, locomotion or a population-wide ecological guild.","confidence":"medium","confidenceRationale":"The diet statement is a comparative interpretation and its limits are explicit.","reviewedBy":"Evo Atlas data maintenance","reviewedAt":"2026-09-01","reviewedAgainstReferenceVersion":"abella-2012-kretzoiarctos primary-study locator checked for 2026.09 carnivora profile expansion","referenceLinks":[{"referenceId":"abella-2012-kretzoiarctos","relation":"supports","pages":"Article e48985","figure":"Figure 3","quoteLocator":"Discussion; Ailuropodini dental features"}]},
+  {
+    "id": "claim:taxon:notharctus:taxonomy",
+    "subjectId": "taxon:notharctus",
+    "claimKind": "scientific",
+    "claimType": "taxonomy",
+    "statement": "Maiolino and colleagues treat the semi-articulated AMNH 143612 and AMNH 143640 foot as Notharctus for a ray-specific phalangeal comparison; this attribution and comparison do not establish crown-primate membership or direct ancestry.",
+    "confidence": "medium",
+    "confidenceRationale": "The named foot and comparative assignment are directly documented, while higher-level placement and ancestry are not tested by specimen association alone.",
+    "reviewedBy": "Evo Atlas issue #189 primary-source audit",
+    "reviewedAt": "2026-09-01",
+    "reviewedAgainstReferenceVersion": "Maiolino et al. 2012 DOI 10.1371/journal.pone.0029135; concrete locator audited 2026-09-01",
+    "referenceLinks": [
+      {
+        "referenceId": "maiolino-2012-notharctus",
+        "relation": "supports",
+        "pages": "e29135",
+        "figure": "Figures 3–10; Table 2",
+        "quoteLocator": "Materials and Methods; Notharctus specimen association and ray-specific phalangeal comparisons"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:notharctus:biogeography",
+    "subjectId": "taxon:notharctus",
+    "claimKind": "scientific",
+    "claimType": "biogeography",
+    "statement": "The profiled Notharctus foot is bounded to AMNH 143612 and AMNH 143640 from the Bridger Formation in Wyoming; this specimen provenance does not establish a complete genus distribution.",
+    "confidence": "high",
+    "confidenceRationale": "The primary study directly identifies the specimens and formation context, while no global presence or absence survey is part of the anatomical comparison.",
+    "reviewedBy": "Evo Atlas issue #189 primary-source audit",
+    "reviewedAt": "2026-09-01",
+    "reviewedAgainstReferenceVersion": "Maiolino et al. 2012 DOI 10.1371/journal.pone.0029135; concrete locator audited 2026-09-01",
+    "referenceLinks": [
+      {
+        "referenceId": "maiolino-2012-notharctus",
+        "relation": "supports",
+        "pages": "e29135",
+        "figure": "Figures 3–4",
+        "quoteLocator": "Materials and Methods; AMNH 143612 and AMNH 143640; Bridger Formation provenance"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:notharctus:ecology",
+    "subjectId": "taxon:notharctus",
+    "claimKind": "scientific",
+    "claimType": "ecology",
+    "statement": "The cited Notharctus foot study tests phalangeal function rather than diet, habitual habitat, observed locomotion, population body size or ecological guild; those fields therefore remain unresolved in this profile.",
+    "confidence": "high",
+    "confidenceRationale": "The study's evidence is a bounded anatomical and functional comparison, so withholding unobserved ecological attributes follows directly from its scope.",
+    "reviewedBy": "Evo Atlas issue #189 primary-source audit",
+    "reviewedAt": "2026-09-01",
+    "reviewedAgainstReferenceVersion": "Maiolino et al. 2012 DOI 10.1371/journal.pone.0029135; concrete locator audited 2026-09-01",
+    "referenceLinks": [
+      {
+        "referenceId": "maiolino-2012-notharctus",
+        "relation": "supports",
+        "pages": "e29135",
+        "figure": "Figures 3–10; Table 2",
+        "quoteLocator": "Materials and Methods; Results and Discussion delimit the dataset to foot anatomy and functional comparison"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:notharctus:morphology",
+    "subjectId": "taxon:notharctus",
+    "claimKind": "scientific",
+    "claimType": "morphology",
+    "statement": "AMNH 143612 and AMNH 143640 preserve a semi-articulated foot with ray-specific proximal and intermediate phalanges used to infer a digit-two grooming claw; grooming behaviour itself is not observed.",
+    "confidence": "medium",
+    "confidenceRationale": "The bones and ray assignments are illustrated directly, whereas grooming-claw function is a comparative inference and cannot demonstrate behaviour in the fossil animal.",
+    "reviewedBy": "Evo Atlas issue #189 primary-source audit",
+    "reviewedAt": "2026-09-01",
+    "reviewedAgainstReferenceVersion": "Maiolino et al. 2012 DOI 10.1371/journal.pone.0029135; concrete locator audited 2026-09-01",
+    "referenceLinks": [
+      {
+        "referenceId": "maiolino-2012-notharctus",
+        "relation": "supports",
+        "pages": "e29135",
+        "figure": "Figures 3–10; Table 2",
+        "quoteLocator": "Ray-specific phalangeal identification and digit-two grooming-claw functional discussion"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:eosimias:taxonomy",
+    "subjectId": "taxon:eosimias",
+    "claimKind": "scientific",
+    "claimType": "taxonomy",
+    "statement": "Gebo and colleagues attribute isolated Shanghuang and Yuanqu calcanei and tali to Eosimias and recover anthropoid affinity in their sampled character analysis; the bones are not dentally associated skeletons or demonstrated direct ancestors.",
+    "confidence": "medium",
+    "confidenceRationale": "The attribution and matrix result are published, but specimen association and higher-level placement remain comparative inferences rather than direct observations.",
+    "reviewedBy": "Evo Atlas issue #189 primary-source audit",
+    "reviewedAt": "2026-09-01",
+    "reviewedAgainstReferenceVersion": "Gebo et al. 2000 DOI 10.1038/35005066; concrete locator audited 2026-09-01",
+    "referenceLinks": [
+      {
+        "referenceId": "gebo-2000-eosimias",
+        "relation": "supports",
+        "pages": "276–278",
+        "figure": "Figure 1; Supplementary Tables 1–2",
+        "quoteLocator": "Isolated tarsal attribution and sampled anthropoid-affinity character analysis"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:eosimias:biogeography",
+    "subjectId": "taxon:eosimias",
+    "claimKind": "scientific",
+    "claimType": "biogeography",
+    "statement": "The profiled Eosimias tarsals come from the Shanghuang fissure fillings and Yuanqu Basin in China; these sampled localities do not establish a complete distribution for the genus.",
+    "confidence": "high",
+    "confidenceRationale": "The primary report names both locality samples, while its anatomical comparison is not a geographic presence-or-absence survey.",
+    "reviewedBy": "Evo Atlas issue #189 primary-source audit",
+    "reviewedAt": "2026-09-01",
+    "reviewedAgainstReferenceVersion": "Gebo et al. 2000 DOI 10.1038/35005066; concrete locator audited 2026-09-01",
+    "referenceLinks": [
+      {
+        "referenceId": "gebo-2000-eosimias",
+        "relation": "supports",
+        "pages": "276–278",
+        "figure": "Figure 1",
+        "quoteLocator": "Shanghuang and Yuanqu provenance of the described isolated tarsals"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:eosimias:ecology",
+    "subjectId": "taxon:eosimias",
+    "claimKind": "scientific",
+    "claimType": "ecology",
+    "statement": "The isolated Eosimias tarsals support anatomical comparison but do not directly record diet, habitual habitat, observed locomotion, population body size or ecological guild; these fields remain bounded or unresolved here.",
+    "confidence": "high",
+    "confidenceRationale": "The study reports ankle-bone anatomy and character comparisons, not behavioural or ecological observations, so the profile does not promote functional possibilities into direct evidence.",
+    "reviewedBy": "Evo Atlas issue #189 primary-source audit",
+    "reviewedAt": "2026-09-01",
+    "reviewedAgainstReferenceVersion": "Gebo et al. 2000 DOI 10.1038/35005066; concrete locator audited 2026-09-01",
+    "referenceLinks": [
+      {
+        "referenceId": "gebo-2000-eosimias",
+        "relation": "supports",
+        "pages": "276–278",
+        "figure": "Figure 1; Supplementary Tables 1–2",
+        "quoteLocator": "Anatomical description and character comparison; no direct diet, habitat or behaviour dataset"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:eosimias:morphology",
+    "subjectId": "taxon:eosimias",
+    "claimKind": "scientific",
+    "claimType": "morphology",
+    "statement": "The Shanghuang and Yuanqu sample consists of isolated calcanei and tali with a mosaic of characters used in an anthropoid-affinity test; the study does not document a complete associated foot or dental-postcranial association.",
+    "confidence": "medium",
+    "confidenceRationale": "The named bones and scored characters are direct evidence, while whole-foot reconstruction and taxonomic association beyond the isolated material remain inferential.",
+    "reviewedBy": "Evo Atlas issue #189 primary-source audit",
+    "reviewedAt": "2026-09-01",
+    "reviewedAgainstReferenceVersion": "Gebo et al. 2000 DOI 10.1038/35005066; concrete locator audited 2026-09-01",
+    "referenceLinks": [
+      {
+        "referenceId": "gebo-2000-eosimias",
+        "relation": "supports",
+        "pages": "276–278",
+        "figure": "Figure 1; Supplementary Tables 1–2",
+        "quoteLocator": "Calcaneal and talar anatomy; character mosaic; absence of dental association"
+      }
+    ]
+  }
 ]

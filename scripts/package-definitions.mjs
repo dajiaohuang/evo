@@ -133,6 +133,12 @@ export const researchSceneDefinitions = {
   primates: { label: { en: 'Primates', zh: '灵长类' }, scenes: [
     { id: 'primates-map-window', kind: 'map', route: '#/explore?taxon=teilhardina&view=map&age=55.9&older=56&younger=55.8', entityIds: ['teilhardina'], claimIds: ['claim:taxon:teilhardina:fossil-range'] },
     { id: 'primates-comparison-window', kind: 'comparison', route: '#/compare?left=teilhardina&right=morotopithecus', entityIds: ['teilhardina', 'morotopithecus'], claimIds: ['claim:taxon:teilhardina:fossil-range', 'claim:taxon:morotopithecus:fossil-range'] },
+    { id: 'primates-notharctus-map-window', kind: 'map', route: '#/explore?taxon=notharctus&view=map&age=49.25&older=50&younger=48.5', entityIds: ['notharctus'], claimIds: ['claim:taxon:notharctus:fossil-range'] },
+    { id: 'primates-notharctus-foot-evidence', kind: 'map', route: '#/explore?taxon=notharctus&view=map&age=49.25&older=50&younger=48.5', entityIds: ['notharctus'], claimIds: ['claim:taxon:notharctus:morphology', 'claim:event:notharctus-grooming-claw-foot'] },
+    { id: 'primates-notharctus-function-comparison', kind: 'comparison', route: '#/compare?left=notharctus&right=adapiformes', entityIds: ['notharctus', 'adapiformes'], claimIds: ['claim:taxon:notharctus:morphology', 'claim:taxon:adapiformes:concept-boundary'] },
+    { id: 'primates-eosimias-map-window', kind: 'map', route: '#/explore?taxon=eosimias&view=map&age=42.75&older=45&younger=40.5', entityIds: ['eosimias'], claimIds: ['claim:taxon:eosimias:fossil-range'] },
+    { id: 'primates-eosimias-tarsal-evidence', kind: 'map', route: '#/explore?taxon=eosimias&view=map&age=42.75&older=45&younger=40.5', entityIds: ['eosimias'], claimIds: ['claim:taxon:eosimias:taxonomy', 'claim:event:eosimias-isolated-tarsal-anthropoid-test'] },
+    { id: 'primates-notharctus-eosimias-comparison', kind: 'comparison', route: '#/compare?left=notharctus&right=eosimias', entityIds: ['notharctus', 'eosimias'], claimIds: ['claim:taxon:notharctus:morphology', 'claim:taxon:eosimias:morphology'] },
   ] },
   perissodactyla: { label: { en: 'Perissodactyla', zh: '奇蹄类' }, scenes: [
     { id: 'perissodactyla-map-window', kind: 'map', route: '#/explore?taxon=perissodactyla&view=map&age=28&older=56&younger=0', entityIds: ['perissodactyla'], claimIds: ['claim:taxon:perissodactyla:fossil-range'] },
