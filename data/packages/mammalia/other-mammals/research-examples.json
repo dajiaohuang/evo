@@ -29,12 +29,12 @@
       "id": "other-mammals-map-window",
       "type": "explorer-preset",
       "title": {
-        "en": "Other mammals occurrence window",
-        "zh": "其他哺乳动物出现窗口"
+        "en": "Monotremata occurrence window",
+        "zh": "单孔类出现窗口"
       },
       "description": {
-        "en": "Open a source-bounded Other mammals time window in the map to inspect sampled occurrence context linked to this package.",
-        "zh": "在地图中打开有来源边界的其他哺乳动物时间窗口，检查与本包关联的采样出现背景。"
+        "en": "Open a source-bounded Monotremata time window in the map to inspect sampled occurrence context linked to this package.",
+        "zh": "在地图中打开有来源边界的单孔类时间窗口，检查与本包关联的采样出现背景。"
       },
       "route": "#/explore?taxon=monotremata&view=map&age=55&older=110&younger=0",
       "entityIds": [
@@ -56,8 +56,8 @@
         "zh": "其他哺乳动物证据比较"
       },
       "description": {
-        "en": "Compare eritherium and mimolagus through package-linked claims and bounded occurrence context; this side-by-side route is an evidence inspection aid.",
-        "zh": "通过本包关联的声明与限定出现背景比较eritherium与mimolagus；并列页面仅用于证据检查。"
+        "en": "Compare Eritherium and Mimolagus through package-linked claims and bounded occurrence context; this side-by-side route is an evidence inspection aid.",
+        "zh": "通过本包关联的声明与限定出现背景比较始祖象与拟兔；并列页面仅用于证据检查。"
       },
       "route": "#/compare?left=eritherium&right=mimolagus",
       "entityIds": [
@@ -71,6 +71,144 @@
       "evidenceStatus": "available-with-limitations",
       "limitations": [
         "The two sides retain separate source, sampling, range and uncertainty boundaries; visual differences are not tests of evolutionary causation or a package-specific phylogeny."
+      ]
+    },
+    {
+      "id": "other-mammals-steropodon-griman-creek-map",
+      "type": "explorer-preset",
+      "title": {
+        "en": "Steropodon occurrence window",
+        "zh": "硬齿鸭嘴兽出现窗口"
+      },
+      "description": {
+        "en": "Open a source-bounded Steropodon time window in the map to inspect sampled occurrence context linked to this package.",
+        "zh": "在地图中打开有来源边界的硬齿鸭嘴兽时间窗口，检查与本包关联的采样出现背景。"
+      },
+      "route": "#/explore?taxon=steropodon&view=map&age=105&older=110&younger=100",
+      "entityIds": [
+        "steropodon"
+      ],
+      "claimIds": [
+        "claim:event:steropodon-holotype-monotreme"
+      ],
+      "evidenceStatus": "available-with-limitations",
+      "limitations": [
+        "The interval follows the linked package range and claim; map markers are sampled records and do not establish a complete distribution, exact origination or extinction, or direct ancestry."
+      ]
+    },
+    {
+      "id": "other-mammals-juramaia-provenance-map",
+      "type": "explorer-preset",
+      "title": {
+        "en": "Juramaia occurrence window",
+        "zh": "侏罗兽出现窗口"
+      },
+      "description": {
+        "en": "Open a source-bounded Juramaia time window in the map to inspect sampled occurrence context linked to this package.",
+        "zh": "在地图中打开有来源边界的侏罗兽时间窗口，检查与本包关联的采样出现背景。"
+      },
+      "route": "#/explore?taxon=juramaia&view=map&age=160&older=161&younger=159",
+      "entityIds": [
+        "juramaia"
+      ],
+      "claimIds": [
+        "claim:event:juramaia-conditional-provenance"
+      ],
+      "evidenceStatus": "available-with-limitations",
+      "limitations": [
+        "The interval follows the linked package range and claim; map markers are sampled records and do not establish a complete distribution, exact origination or extinction, or direct ancestry."
+      ]
+    },
+    {
+      "id": "other-mammals-eomaia-yixian-map",
+      "type": "explorer-preset",
+      "title": {
+        "en": "Eomaia occurrence window",
+        "zh": "始祖兽出现窗口"
+      },
+      "description": {
+        "en": "Open a source-bounded Eomaia time window in the map to inspect sampled occurrence context linked to this package.",
+        "zh": "在地图中打开有来源边界的始祖兽时间窗口，检查与本包关联的采样出现背景。"
+      },
+      "route": "#/explore?taxon=eomaia&view=map&age=125&older=125.8&younger=124.1",
+      "entityIds": [
+        "eomaia"
+      ],
+      "claimIds": [
+        "claim:event:eomaia-holotype-topology"
+      ],
+      "evidenceStatus": "available-with-limitations",
+      "limitations": [
+        "The interval follows the linked package range and claim; map markers are sampled records and do not establish a complete distribution, exact origination or extinction, or direct ancestry."
+      ]
+    },
+    {
+      "id": "other-mammals-eritherium-sidi-chennane-map",
+      "type": "explorer-preset",
+      "title": {
+        "en": "Eritherium occurrence window",
+        "zh": "始祖象出现窗口"
+      },
+      "description": {
+        "en": "Open a source-bounded Eritherium time window in the map to inspect sampled occurrence context linked to this package.",
+        "zh": "在地图中打开有来源边界的始祖象时间窗口，检查与本包关联的采样出现背景。"
+      },
+      "route": "#/explore?taxon=eritherium&view=map&age=60&older=60.5&younger=59.2",
+      "entityIds": [
+        "eritherium"
+      ],
+      "claimIds": [
+        "claim:event:eritherium-holotype-proboscidean"
+      ],
+      "evidenceStatus": "available-with-limitations",
+      "limitations": [
+        "The interval follows the linked package range and claim; map markers are sampled records and do not establish a complete distribution, exact origination or extinction, or direct ancestry."
+      ]
+    },
+    {
+      "id": "other-mammals-thalassocnus-pisco-map",
+      "type": "explorer-preset",
+      "title": {
+        "en": "Thalassocnus occurrence window",
+        "zh": "海懒兽出现窗口"
+      },
+      "description": {
+        "en": "Open a source-bounded Thalassocnus time window in the map to inspect sampled occurrence context linked to this package.",
+        "zh": "在地图中打开有来源边界的海懒兽时间窗口，检查与本包关联的采样出现背景。"
+      },
+      "route": "#/explore?taxon=thalassocnus&view=map&age=5.5&older=8&younger=3",
+      "entityIds": [
+        "thalassocnus"
+      ],
+      "claimIds": [
+        "claim:event:thalassocnus-bone-density-series"
+      ],
+      "evidenceStatus": "available-with-limitations",
+      "limitations": [
+        "The interval follows the linked package range and claim; map markers are sampled records and do not establish a complete distribution, exact origination or extinction, or direct ancestry."
+      ]
+    },
+    {
+      "id": "other-mammals-onychonycteris-fossil-butte-map",
+      "type": "explorer-preset",
+      "title": {
+        "en": "Onychonycteris occurrence window",
+        "zh": "爪蝠出现窗口"
+      },
+      "description": {
+        "en": "Open a source-bounded Onychonycteris time window in the map to inspect sampled occurrence context linked to this package.",
+        "zh": "在地图中打开有来源边界的爪蝠时间窗口，检查与本包关联的采样出现背景。"
+      },
+      "route": "#/explore?taxon=onychonycteris&view=map&age=51.4&older=52.5&younger=50.3",
+      "entityIds": [
+        "onychonycteris"
+      ],
+      "claimIds": [
+        "claim:event:onychonycteris-flight-echolocation"
+      ],
+      "evidenceStatus": "available-with-limitations",
+      "limitations": [
+        "The interval follows the linked package range and claim; map markers are sampled records and do not establish a complete distribution, exact origination or extinction, or direct ancestry."
       ]
     }
   ]

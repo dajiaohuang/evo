@@ -30,11 +30,11 @@
       "type": "explorer-preset",
       "title": {
         "en": "Whippomorpha occurrence window",
-        "zh": "鲸偶蹄类出现窗口"
+        "zh": "鲸河马类及化石近亲出现窗口"
       },
       "description": {
         "en": "Open a source-bounded Whippomorpha time window in the map to inspect sampled occurrence context linked to this package.",
-        "zh": "在地图中打开有来源边界的鲸偶蹄类时间窗口，检查与本包关联的采样出现背景。"
+        "zh": "在地图中打开有来源边界的鲸河马类及化石近亲时间窗口，检查与本包关联的采样出现背景。"
       },
       "route": "#/explore?taxon=whippomorpha&view=map&age=27.5&older=55&younger=0",
       "entityIds": [
@@ -56,8 +56,8 @@
         "zh": "鲸偶蹄类证据比较"
       },
       "description": {
-        "en": "Compare indohyus and ambulocetus through package-linked claims and bounded occurrence context; this side-by-side route is an evidence inspection aid.",
-        "zh": "通过本包关联的声明与限定出现背景比较indohyus与ambulocetus；并列页面仅用于证据检查。"
+        "en": "Compare Indohyus and Ambulocetus through package-linked claims and bounded occurrence context; this side-by-side route is an evidence inspection aid.",
+        "zh": "通过本包关联的声明与限定出现背景比较印多霍斯兽属与陆行鲸属；并列页面仅用于证据检查。"
       },
       "route": "#/compare?left=indohyus&right=ambulocetus",
       "entityIds": [
@@ -71,6 +71,144 @@
       "evidenceStatus": "available-with-limitations",
       "limitations": [
         "The two sides retain separate source, sampling, range and uncertainty boundaries; visual differences are not tests of evolutionary causation or a package-specific phylogeny."
+      ]
+    },
+    {
+      "id": "cetartiodactyla-indohyus-sindkhatudi-map",
+      "type": "explorer-preset",
+      "title": {
+        "en": "Indohyus occurrence window",
+        "zh": "印多霍斯兽属出现窗口"
+      },
+      "description": {
+        "en": "Open a source-bounded Indohyus time window in the map to inspect sampled occurrence context linked to this package.",
+        "zh": "在地图中打开有来源边界的印多霍斯兽属时间窗口，检查与本包关联的采样出现背景。"
+      },
+      "route": "#/explore?taxon=indohyus&view=map&age=47.5&older=48&younger=47",
+      "entityIds": [
+        "indohyus"
+      ],
+      "claimIds": [
+        "claim:event:indohyus-aquatic-raoellid-evidence"
+      ],
+      "evidenceStatus": "available-with-limitations",
+      "limitations": [
+        "The interval follows the linked package range and claim; map markers are sampled records and do not establish a complete distribution, exact origination or extinction, or direct ancestry."
+      ]
+    },
+    {
+      "id": "cetartiodactyla-pakicetus-ganda-kas-map",
+      "type": "explorer-preset",
+      "title": {
+        "en": "Pakicetus occurrence window",
+        "zh": "巴基鲸属出现窗口"
+      },
+      "description": {
+        "en": "Open a source-bounded Pakicetus time window in the map to inspect sampled occurrence context linked to this package.",
+        "zh": "在地图中打开有来源边界的巴基鲸属时间窗口，检查与本包关联的采样出现背景。"
+      },
+      "route": "#/explore?taxon=pakicetus&view=map&age=49&older=50&younger=48",
+      "entityIds": [
+        "pakicetus"
+      ],
+      "claimIds": [
+        "claim:event:pakicetus-composite-terrestrial-skeleton"
+      ],
+      "evidenceStatus": "available-with-limitations",
+      "limitations": [
+        "The interval follows the linked package range and claim; map markers are sampled records and do not establish a complete distribution, exact origination or extinction, or direct ancestry."
+      ]
+    },
+    {
+      "id": "cetartiodactyla-ambulocetus-kuldana-map",
+      "type": "explorer-preset",
+      "title": {
+        "en": "Ambulocetus occurrence window",
+        "zh": "陆行鲸属出现窗口"
+      },
+      "description": {
+        "en": "Open a source-bounded Ambulocetus time window in the map to inspect sampled occurrence context linked to this package.",
+        "zh": "在地图中打开有来源边界的陆行鲸属时间窗口，检查与本包关联的采样出现背景。"
+      },
+      "route": "#/explore?taxon=ambulocetus&view=map&age=47.5&older=48&younger=47",
+      "entityIds": [
+        "ambulocetus"
+      ],
+      "claimIds": [
+        "claim:event:ambulocetus-holotype-locomotion"
+      ],
+      "evidenceStatus": "available-with-limitations",
+      "limitations": [
+        "The interval follows the linked package range and claim; map markers are sampled records and do not establish a complete distribution, exact origination or extinction, or direct ancestry."
+      ]
+    },
+    {
+      "id": "cetartiodactyla-peregocetus-yumaque-map",
+      "type": "explorer-preset",
+      "title": {
+        "en": "Peregocetus occurrence window",
+        "zh": "游走鲸属出现窗口"
+      },
+      "description": {
+        "en": "Open a source-bounded Peregocetus time window in the map to inspect sampled occurrence context linked to this package.",
+        "zh": "在地图中打开有来源边界的游走鲸属时间窗口，检查与本包关联的采样出现背景。"
+      },
+      "route": "#/explore?taxon=peregocetus&view=map&age=42.6&older=42.6&younger=42.6",
+      "entityIds": [
+        "peregocetus"
+      ],
+      "claimIds": [
+        "claim:event:peregocetus-holotype-amphibious-dispersal"
+      ],
+      "evidenceStatus": "available-with-limitations",
+      "limitations": [
+        "The interval follows the linked package range and claim; map markers are sampled records and do not establish a complete distribution, exact origination or extinction, or direct ancestry."
+      ]
+    },
+    {
+      "id": "cetartiodactyla-basilosaurus-wadi-al-hitan-map",
+      "type": "explorer-preset",
+      "title": {
+        "en": "Basilosaurus occurrence window",
+        "zh": "龙王鲸属出现窗口"
+      },
+      "description": {
+        "en": "Open a source-bounded Basilosaurus time window in the map to inspect sampled occurrence context linked to this package.",
+        "zh": "在地图中打开有来源边界的龙王鲸属时间窗口，检查与本包关联的采样出现背景。"
+      },
+      "route": "#/explore?taxon=basilosaurus&view=map&age=36.35&older=37.7&younger=35",
+      "entityIds": [
+        "basilosaurus"
+      ],
+      "claimIds": [
+        "claim:event:basilosaurus-hind-limb-specimens"
+      ],
+      "evidenceStatus": "available-with-limitations",
+      "limitations": [
+        "The interval follows the linked package range and claim; map markers are sampled records and do not establish a complete distribution, exact origination or extinction, or direct ancestry."
+      ]
+    },
+    {
+      "id": "cetartiodactyla-aegicetus-gehannam-map",
+      "type": "explorer-preset",
+      "title": {
+        "en": "Aegicetus occurrence window",
+        "zh": "盾鲸属出现窗口"
+      },
+      "description": {
+        "en": "Open a source-bounded Aegicetus time window in the map to inspect sampled occurrence context linked to this package.",
+        "zh": "在地图中打开有来源边界的盾鲸属时间窗口，检查与本包关联的采样出现背景。"
+      },
+      "route": "#/explore?taxon=aegicetus&view=map&age=37.71&older=37.71&younger=37.71",
+      "entityIds": [
+        "aegicetus"
+      ],
+      "claimIds": [
+        "claim:event:aegicetus-holotype-tail-propulsion"
+      ],
+      "evidenceStatus": "available-with-limitations",
+      "limitations": [
+        "The interval follows the linked package range and claim; map markers are sampled records and do not establish a complete distribution, exact origination or extinction, or direct ancestry."
       ]
     }
   ]

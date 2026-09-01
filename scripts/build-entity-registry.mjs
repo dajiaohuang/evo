@@ -591,8 +591,11 @@ for (const definition of packageDefinitions) {
   const sourceBoundResearchScenes = researchScenes.map((scene) => {
     const comparison = scene.kind === 'comparison'
     const diversity = scene.kind === 'diversity'
-    const entityLabel = scene.entityLabel?.en ?? scene.entityIds.join(' and ')
-    const entityLabelZh = scene.entityLabel?.zh ? ` ${scene.entityLabel.zh}` : scene.entityIds.join('与')
+    const sceneEntityNames = scene.entityIds
+      .map((entityId) => packageEntities.find((entity) => entity.id === entityId)?.names)
+      .filter(Boolean)
+    const entityLabel = scene.entityLabel?.en ?? sceneEntityNames.map((names) => names.scientific).join(' and ')
+    const entityLabelZh = scene.entityLabel?.zh ?? sceneEntityNames.map((names) => names.zh).join('与')
     return {
       id: scene.id,
       type: comparison ? 'comparison' : 'explorer-preset',
@@ -600,7 +603,7 @@ for (const definition of packageDefinitions) {
         ? { en: `${researchSceneLabel.en} evidence comparison`, zh: `${researchSceneLabel.zh}证据比较` }
         : diversity
           ? { en: `${researchSceneLabel.en} diversity sample`, zh: `${researchSceneLabel.zh}多样性样本` }
-          : { en: `${researchSceneLabel.en} occurrence window`, zh: `${researchSceneLabel.zh}出现窗口` },
+          : { en: `${entityLabel} occurrence window`, zh: `${entityLabelZh}出现窗口` },
       description: comparison
         ? {
             en: `Compare ${entityLabel} through package-linked claims and bounded occurrence context; this side-by-side route is an evidence inspection aid.`,
@@ -612,8 +615,8 @@ for (const definition of packageDefinitions) {
               zh: `在多样性视图中打开有来源边界的${researchSceneLabel.zh}区间，检查包内样本计数，而不是总体丰富度估计。`,
             }
           : {
-            en: `Open a source-bounded ${researchSceneLabel.en} time window in the map to inspect sampled occurrence context linked to this package.`,
-            zh: `在地图中打开有来源边界的${researchSceneLabel.zh}时间窗口，检查与本包关联的采样出现背景。`,
+            en: `Open a source-bounded ${entityLabel} time window in the map to inspect sampled occurrence context linked to this package.`,
+            zh: `在地图中打开有来源边界的${entityLabelZh}时间窗口，检查与本包关联的采样出现背景。`,
           },
       route: scene.route,
       entityIds: scene.entityIds,

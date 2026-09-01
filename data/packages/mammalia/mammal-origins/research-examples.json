@@ -29,12 +29,12 @@
       "id": "mammal-origins-map-window",
       "type": "explorer-preset",
       "title": {
-        "en": "Mammal origins occurrence window",
-        "zh": "哺乳动物起源出现窗口"
+        "en": "Dimetrodon occurrence window",
+        "zh": "异齿龙出现窗口"
       },
       "description": {
-        "en": "Open a source-bounded Mammal origins time window in the map to inspect sampled occurrence context linked to this package.",
-        "zh": "在地图中打开有来源边界的哺乳动物起源时间窗口，检查与本包关联的采样出现背景。"
+        "en": "Open a source-bounded Dimetrodon time window in the map to inspect sampled occurrence context linked to this package.",
+        "zh": "在地图中打开有来源边界的异齿龙时间窗口，检查与本包关联的采样出现背景。"
       },
       "route": "#/explore?taxon=dimetrodon&view=map&age=281.55&older=290.1&younger=273",
       "entityIds": [
@@ -56,8 +56,8 @@
         "zh": "哺乳动物起源证据比较"
       },
       "description": {
-        "en": "Compare dimetrodon and morganucodonta through package-linked claims and bounded occurrence context; this side-by-side route is an evidence inspection aid.",
-        "zh": "通过本包关联的声明与限定出现背景比较dimetrodon与morganucodonta；并列页面仅用于证据检查。"
+        "en": "Compare Dimetrodon and Morganucodonta through package-linked claims and bounded occurrence context; this side-by-side route is an evidence inspection aid.",
+        "zh": "通过本包关联的声明与限定出现背景比较异齿龙与摩尔根兽类；并列页面仅用于证据检查。"
       },
       "route": "#/compare?left=dimetrodon&right=morganucodonta",
       "entityIds": [
@@ -71,6 +71,121 @@
       "evidenceStatus": "available-with-limitations",
       "limitations": [
         "The two sides retain separate source, sampling, range and uncertainty boundaries; visual differences are not tests of evolutionary causation or a package-specific phylogeny."
+      ]
+    },
+    {
+      "id": "mammal-origins-raranimus-dashankou-map",
+      "type": "explorer-preset",
+      "title": {
+        "en": "Raranimus occurrence window",
+        "zh": "达善沟基干兽孔类出现窗口"
+      },
+      "description": {
+        "en": "Open a source-bounded Raranimus time window in the map to inspect sampled occurrence context linked to this package.",
+        "zh": "在地图中打开有来源边界的达善沟基干兽孔类时间窗口，检查与本包关联的采样出现背景。"
+      },
+      "route": "#/explore?taxon=raranimus&view=map&age=269.34&older=274.4&younger=264.28",
+      "entityIds": [
+        "raranimus"
+      ],
+      "claimIds": [
+        "claim:taxon:raranimus:fossil-range"
+      ],
+      "evidenceStatus": "available-with-limitations",
+      "limitations": [
+        "The interval follows the linked package range and claim; map markers are sampled records and do not establish a complete distribution, exact origination or extinction, or direct ancestry."
+      ]
+    },
+    {
+      "id": "mammal-origins-haramiyavia-tait-bjerg-map",
+      "type": "explorer-preset",
+      "title": {
+        "en": "Haramiyavia occurrence window",
+        "zh": "晚三叠世哈拉米亚兽出现窗口"
+      },
+      "description": {
+        "en": "Open a source-bounded Haramiyavia time window in the map to inspect sampled occurrence context linked to this package.",
+        "zh": "在地图中打开有来源边界的晚三叠世哈拉米亚兽时间窗口，检查与本包关联的采样出现背景。"
+      },
+      "route": "#/explore?taxon=haramiyavia&view=map&age=203.55&older=205.7&younger=201.4",
+      "entityIds": [
+        "haramiyavia"
+      ],
+      "claimIds": [
+        "claim:taxon:haramiyavia:fossil-range"
+      ],
+      "evidenceStatus": "available-with-limitations",
+      "limitations": [
+        "The interval follows the linked package range and claim; map markers are sampled records and do not establish a complete distribution, exact origination or extinction, or direct ancestry."
+      ]
+    },
+    {
+      "id": "mammal-origins-liaoconodon-jiufotang-map",
+      "type": "explorer-preset",
+      "title": {
+        "en": "Liaoconodon occurrence window",
+        "zh": "热河真三尖齿兽出现窗口"
+      },
+      "description": {
+        "en": "Open a source-bounded Liaoconodon time window in the map to inspect sampled occurrence context linked to this package.",
+        "zh": "在地图中打开有来源边界的热河真三尖齿兽时间窗口，检查与本包关联的采样出现背景。"
+      },
+      "route": "#/explore?taxon=liaoconodon&view=map&age=117.3&older=121.4&younger=113.2",
+      "entityIds": [
+        "liaoconodon"
+      ],
+      "claimIds": [
+        "claim:taxon:liaoconodon:fossil-range"
+      ],
+      "evidenceStatus": "available-with-limitations",
+      "limitations": [
+        "The interval follows the linked package range and claim; map markers are sampled records and do not establish a complete distribution, exact origination or extinction, or direct ancestry."
+      ]
+    },
+    {
+      "id": "mammal-origins-morganucodonta-jurassic-map",
+      "type": "explorer-preset",
+      "title": {
+        "en": "Morganucodonta occurrence window",
+        "zh": "摩尔根兽类出现窗口"
+      },
+      "description": {
+        "en": "Open a source-bounded Morganucodonta time window in the map to inspect sampled occurrence context linked to this package.",
+        "zh": "在地图中打开有来源边界的摩尔根兽类时间窗口，检查与本包关联的采样出现背景。"
+      },
+      "route": "#/explore?taxon=morganucodonta&view=map&age=173.2&older=201.4&younger=145",
+      "entityIds": [
+        "morganucodonta"
+      ],
+      "claimIds": [
+        "claim:taxon:morganucodonta:source-bounded-range-rc49"
+      ],
+      "evidenceStatus": "available-with-limitations",
+      "limitations": [
+        "The interval follows the linked package range and claim; map markers are sampled records and do not establish a complete distribution, exact origination or extinction, or direct ancestry."
+      ]
+    },
+    {
+      "id": "mammal-origins-probainognathia-matrix-map",
+      "type": "explorer-preset",
+      "title": {
+        "en": "Probainognathia occurrence window",
+        "zh": "原颌兽类出现窗口"
+      },
+      "description": {
+        "en": "Open a source-bounded Probainognathia time window in the map to inspect sampled occurrence context linked to this package.",
+        "zh": "在地图中打开有来源边界的原颌兽类时间窗口，检查与本包关联的采样出现背景。"
+      },
+      "route": "#/explore?taxon=probainognathia&view=map&age=205.85&older=237&younger=174.7",
+      "entityIds": [
+        "probainognathia"
+      ],
+      "claimIds": [
+        "claim:taxon:probainognathia:source-bounded-range-rc49"
+      ],
+      "evidenceStatus": "available-with-limitations",
+      "limitations": [
+        "The interval follows the linked package range and claim; map markers are sampled records and do not establish a complete distribution, exact origination or extinction, or direct ancestry."
       ]
     }
   ]
