@@ -1,5 +1,12 @@
 # Dataset changelog
 
+## App 0.20.44 / 2026.09-static-v5-rc93 — 2026-09-01
+
+- Added 18 source-bounded, age-driven map scenes: six each for Atlas core, Tetrapod transition, and Trilobites and chelicerates. All three packages now expose nine scenes, raising the atlas from 185 to 203 scenes and from 260 to 288 scene-to-claim links.
+- Connected every new card to an existing locator-bearing claim and an `available` range sharing its routed entity and age. One integration-time Megachelicerax link was corrected from a global claim outside the package to the package-owned range claim; all 150 age-driven scenes now satisfy the entity, claim and range intersection contract.
+- Preserved named-specimen, locality, formation, trace, functional, homology, phylogenetic, model and rounded-age boundaries. No card turns reconstruction into observed behaviour or asserts a global FAD/LAD, direct ancestry, complete distribution or exact fossil-to-map co-registration.
+- Regenerated the shared package registry and manifest as RC93. Android `versionCode` and iOS build number advance to `47` / app `0.20.44`; both native apps retain the complete `native-full` catalogue, authority shards and all 109 lossless 0.1° PaleoDEM frames while Pages remains `web-light`.
+
 ## App 0.20.43 / 2026.09-static-v5-rc92 — 2026-09-01
 
 - Added 18 source-bounded, age-driven plant map scenes: six each for Early land plants, Gymnosperms and Angiosperms. All three packages now expose nine scenes, raising the atlas from 167 to 185 scenes and from 227 to 260 scene-to-claim links.
