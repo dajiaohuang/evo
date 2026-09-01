@@ -1,5 +1,5 @@
 export const PACKAGE_SCHEMA_VERSION = 5
-export const DATASET_PACKAGE_VERSION = '2026.09-static-v5-rc88'
+export const DATASET_PACKAGE_VERSION = '2026.09-static-v5-rc89'
 export const DATASET_RELEASE_DATE = '2026-09-01'
 
 // Explicit source-bound Explorer presets. These mappings are intentionally
@@ -90,15 +90,31 @@ export const researchSceneDefinitions = {
   ] },
   'early-fishes': { label: { en: 'Early fishes', zh: '早期鱼类' }, scenes: [
     { id: 'early-fishes-map-window', kind: 'map', route: '#/explore?taxon=xiushanosteus&view=map&age=436&older=438.6&younger=432.9', entityIds: ['xiushanosteus'], claimIds: ['claim:taxon:xiushanosteus:fossil-range'] },
+    { id: 'early-fishes-heterostraci-silurian-devonian-map', kind: 'map', route: '#/explore?taxon=heterostraci&view=map&age=418.55&older=443.8&younger=393.3', entityIds: ['heterostraci'], claimIds: ['claim:taxon:heterostraci:range-boundary'] },
+    { id: 'early-fishes-osteostraci-silurian-devonian-map', kind: 'map', route: '#/explore?taxon=osteostraci&view=map&age=396.15&older=433.4&younger=358.9', entityIds: ['osteostraci'], claimIds: ['claim:taxon:osteostraci:range-boundary'] },
+    { id: 'early-fishes-priscomyzon-famennian-map', kind: 'map', route: '#/explore?taxon=priscomyzon&view=map&age=359.5&older=360&younger=359', entityIds: ['priscomyzon'], claimIds: ['claim:taxon:priscomyzon:fossil-range'] },
+    { id: 'early-fishes-myxinikela-moscovian-map', kind: 'map', route: '#/explore?taxon=myxinikela&view=map&age=308.5&older=310&younger=307', entityIds: ['myxinikela'], claimIds: ['claim:taxon:myxinikela:fossil-range'] },
+    { id: 'early-fishes-tethymyxine-cenomanian-map', kind: 'map', route: '#/explore?taxon=tethymyxine&view=map&age=97.2&older=100.5&younger=93.9', entityIds: ['tethymyxine'], claimIds: ['claim:taxon:tethymyxine:fossil-range'] },
     { id: 'early-fishes-comparison-window', kind: 'comparison', route: '#/compare?left=tujiaaspis&right=xiushanosteus', entityIds: ['tujiaaspis', 'xiushanosteus'], claimIds: ['claim:taxon:tujiaaspis:fossil-range', 'claim:taxon:xiushanosteus:fossil-range'] },
   ] },
   chondrichthyes: { label: { en: 'Chondrichthyes', zh: '软骨鱼类' }, scenes: [
     { id: 'chondrichthyes-devonian-carboniferous-map', kind: 'map', route: '#/explore?taxon=maghriboselache&view=map&age=369.25&older=369.5&younger=369', entityIds: ['maghriboselache'], claimIds: ['claim:taxon:maghriboselache:fossil-range'] },
     { id: 'chondrichthyes-devonian-carboniferous-comparison', kind: 'comparison', route: '#/compare?left=maghriboselache&right=cosmoselachus', entityIds: ['maghriboselache', 'cosmoselachus'], claimIds: ['claim:taxon:maghriboselache:fossil-range', 'claim:taxon:cosmoselachus:fossil-range'] },
+    { id: 'chondrichthyes-silurian-qianodus-map', kind: 'map', route: '#/explore?taxon=qianodus&view=map&age=439&older=439&younger=439', entityIds: ['qianodus'], claimIds: ['claim:taxon:qianodus:fossil-range'] },
+    { id: 'chondrichthyes-silurian-fanjingshania-map', kind: 'map', route: '#/explore?taxon=fanjingshania&view=map&age=439&older=439&younger=439', entityIds: ['fanjingshania'], claimIds: ['claim:event:rongxi-fanjingshania-dermoskeleton'] },
+    { id: 'chondrichthyes-silurian-shenacanthus-map', kind: 'map', route: '#/explore?taxon=shenacanthus&view=map&age=436&older=436&younger=436', entityIds: ['shenacanthus'], claimIds: ['claim:taxon:shenacanthus:fossil-range'] },
+    { id: 'chondrichthyes-devonian-gladbachus-map', kind: 'map', route: '#/explore?taxon=gladbachus&view=map&age=385&older=385&younger=385', entityIds: ['gladbachus'], claimIds: ['claim:taxon:gladbachus:fossil-range'] },
+    { id: 'chondrichthyes-famennian-maghriboselache-map', kind: 'map', route: '#/explore?taxon=maghriboselache&view=map&age=369.25&older=369.5&younger=369', entityIds: ['maghriboselache'], claimIds: ['claim:taxon:maghriboselache:fossil-range'] },
+    { id: 'chondrichthyes-mississippian-cosmoselachus-map', kind: 'map', route: '#/explore?taxon=cosmoselachus&view=map&age=326&older=326&younger=326', entityIds: ['cosmoselachus'], claimIds: ['claim:taxon:cosmoselachus:fossil-range'] },
   ] },
   actinopterygii: { label: { en: 'Actinopterygii', zh: '辐鳍鱼类' }, scenes: [
     { id: 'actinopterygii-map-window', kind: 'map', route: '#/explore?taxon=actinopterygii&view=map&age=195.2&older=390.4&younger=0', entityIds: ['actinopterygii'], claimIds: ['claim:taxon:actinopterygii:fossil-range'] },
     { id: 'actinopterygii-comparison-window', kind: 'comparison', route: '#/compare?left=cheirolepis-trailli&right=fukangichthys', entityIds: ['cheirolepis-trailli', 'fukangichthys'], claimIds: ['claim:taxon:cheirolepis-trailli:fossil-range', 'claim:taxon:fukangichthys:fossil-range'] },
+    { id: 'cheirolepis-eifelian-map', kind: 'map', route: '#/explore?taxon=cheirolepis-trailli&view=map&age=389.25&older=390.4&younger=388.1', entityIds: ['cheirolepis-trailli'], claimIds: ['claim:taxon:cheirolepis-trailli:fossil-range'] },
+    { id: 'fukangichthys-middle-triassic-map', kind: 'map', route: '#/explore?taxon=fukangichthys&view=map&age=244.232&older=247&younger=241.464', entityIds: ['fukangichthys'], claimIds: ['claim:taxon:fukangichthys:fossil-range'] },
+    { id: 'pseudopholidoctenus-ruedersdorf-map', kind: 'map', route: '#/explore?taxon=pseudopholidoctenus-germanicus&view=map&age=244&older=244&younger=244', entityIds: ['pseudopholidoctenus-germanicus'], claimIds: ['claim:taxon:pseudopholidoctenus-germanicus:fossil-range'] },
+    { id: 'barschichthys-ruedersdorf-map', kind: 'map', route: '#/explore?taxon=barschichthys-ruedersdorfensis&view=map&age=244&older=244&younger=244', entityIds: ['barschichthys-ruedersdorfensis'], claimIds: ['claim:taxon:barschichthys-ruedersdorfensis:fossil-range'] },
+    { id: 'ruedersdorfia-skull-roof-map', kind: 'map', route: '#/explore?taxon=ruedersdorfia-berlinensis&view=map&age=244&older=244&younger=244', entityIds: ['ruedersdorfia-berlinensis'], claimIds: ['claim:taxon:ruedersdorfia-berlinensis:fossil-range'] },
   ] },
   amphibia: { label: { en: 'Amphibia', zh: '两栖类' }, scenes: [
     { id: 'amphibia-map-window', kind: 'map', route: '#/explore?taxon=amphibia&view=map&age=170.5&older=341&younger=0', entityIds: ['amphibia'], claimIds: ['claim:taxon:amphibia:fossil-range'] },
