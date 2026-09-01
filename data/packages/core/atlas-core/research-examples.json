@@ -70,6 +70,144 @@
       "limitations": [
         "Counts are derived from the bundled, bounded occurrence sample and do not estimate total diversity, preservation-corrected richness, or a complete taxon range."
       ]
+    },
+    {
+      "id": "atlas-core-life-isua-3700-map",
+      "type": "explorer-preset",
+      "title": {
+        "en": "Isua biosignature evidence window",
+        "zh": "伊苏阿生物标志证据窗口"
+      },
+      "description": {
+        "en": "Open the map at the rounded 3.7 Ga Isua evidence boundary to inspect sampled occurrence context beside the linked biogenic-graphite claim.",
+        "zh": "在约 37 亿年前的伊苏阿证据边界打开地图，结合关联的生物成因石墨声明检查采样出现背景。"
+      },
+      "route": "#/explore?taxon=life&view=map&age=3700&older=3700&younger=3600",
+      "entityIds": [
+        "life"
+      ],
+      "claimIds": [
+        "claim:taxon:life:fossil-range"
+      ],
+      "evidenceStatus": "available-with-limitations",
+      "limitations": [
+        "This route is bounded by graphite, isotope and geological evidence from metamorphosed Isua metasediments in western Greenland. Its rounded 3.7 Ga age is a conservative sampled biosignature minimum, not an abiogenesis or LUCA date; alternative abiotic interpretations, preservation limits, global distribution and exact marker co-location remain unresolved."
+      ]
+    },
+    {
+      "id": "atlas-core-vertebrata-chengjiang-518-map",
+      "type": "explorer-preset",
+      "title": {
+        "en": "Chengjiang vertebrate anchor window",
+        "zh": "澄江脊椎动物锚点窗口"
+      },
+      "description": {
+        "en": "Open the map around the approximately 518 Ma Chengjiang fossil anchor to inspect sampled occurrence context for Myllokunmingia and Haikouichthys evidence.",
+        "zh": "在约 5.18 亿年前的澄江化石锚点附近打开地图，检查与昆明鱼和海口鱼证据相关的采样出现背景。"
+      },
+      "route": "#/explore?taxon=vertebrata&view=map&age=518&older=520&younger=516",
+      "entityIds": [
+        "vertebrata"
+      ],
+      "claimIds": [
+        "claim:taxon:vertebrata:root-range"
+      ],
+      "evidenceStatus": "available-with-limitations",
+      "limitations": [
+        "The age window follows the rounded 520–0 Ma route and the approximately 518 Ma Lower Cambrian Chengjiang material in Yunnan, China. Named specimens and their morphology matrix are the local evidence; the 520 Ma ceiling is navigational, and neither the specimens nor map markers establish a crown node, global FAD, direct ancestry, complete distribution or exact co-location."
+      ]
+    },
+    {
+      "id": "atlas-core-gnathostomata-qianodus-439-map",
+      "type": "explorer-preset",
+      "title": {
+        "en": "Qianodus tooth-whorl evidence window",
+        "zh": "钱氏鱼齿旋证据窗口"
+      },
+      "description": {
+        "en": "Open the map around the approximately 439 Ma Qianodus sample to inspect occurrence context linked to the documented tooth whorls.",
+        "zh": "在约 4.39 亿年前的钱氏鱼标本附近打开地图，检查与已记录齿旋关联的出现背景。"
+      },
+      "route": "#/explore?taxon=gnathostomata&view=map&age=439&older=439&younger=438",
+      "entityIds": [
+        "gnathostomata"
+      ],
+      "claimIds": [
+        "claim:taxon:gnathostomata:root-range"
+      ],
+      "evidenceStatus": "available-with-limitations",
+      "limitations": [
+        "This rounded late Aeronian window is limited to Qianodus tooth whorls from the Rongxi Formation at Leijiatun, Guizhou, China, and their stem-chondrichthyan analysis. Isolated dental material does not date jaw origins or crown Gnathostomata, and the map does not supply a global FAD, complete distribution, direct ancestry or an exact fossil-marker co-location."
+      ]
+    },
+    {
+      "id": "atlas-core-osteichthyes-eosteus-436-map",
+      "type": "explorer-preset",
+      "title": {
+        "en": "Eosteus articulated-specimen window",
+        "zh": "始骨鱼关节连接标本窗口"
+      },
+      "description": {
+        "en": "Open the map around the approximately 436 Ma Eosteus occurrence to inspect sampled context for the articulated early Silurian specimen.",
+        "zh": "在约 4.36 亿年前的始骨鱼出现记录附近打开地图，检查该早志留世关节连接标本的采样背景。"
+      },
+      "route": "#/explore?taxon=osteichthyes&view=map&age=436&older=436&younger=434",
+      "entityIds": [
+        "osteichthyes"
+      ],
+      "claimIds": [
+        "claim:taxon:osteichthyes:root-range"
+      ],
+      "evidenceStatus": "available-with-limitations",
+      "limitations": [
+        "The rounded window follows the articulated Eosteus chongqingensis specimen from the Huixingshao Formation, Chongqing, China. The occurrence is direct evidence, while stem placement comes from parsimony and Bayesian models; it is not a crown split, origination or global FAD, and map markers do not reconstruct complete distribution or exact specimen locality."
+      ]
+    },
+    {
+      "id": "atlas-core-tetrapoda-zachelmie-390-map",
+      "type": "explorer-preset",
+      "title": {
+        "en": "Zachełmie trackway evidence window",
+        "zh": "扎赫乌米耶足迹证据窗口"
+      },
+      "description": {
+        "en": "Open the map at the rounded 390 Ma Zachełmie trackway age to inspect sampled context for digit-bearing limbed-tetrapod traces.",
+        "zh": "在约 3.90 亿年前的扎赫乌米耶足迹年龄处打开地图，检查有趾的有肢四足动物遗迹采样背景。"
+      },
+      "route": "#/explore?taxon=tetrapoda&view=map&age=390&older=390&younger=387",
+      "entityIds": [
+        "tetrapoda"
+      ],
+      "claimIds": [
+        "claim:taxon:tetrapoda:root-range"
+      ],
+      "evidenceStatus": "available-with-limitations",
+      "limitations": [
+        "This rounded Eifelian route is limited to digit-bearing quadrupedal traces and their stratigraphic setting at Zachełmie quarry in Poland. The trackmaker is unnamed and locomotor interpretation is not direct observation of a body taxon; the route does not establish a crown calibration, global FAD, direct ancestor, complete distribution or exact map-marker co-registration."
+      ]
+    },
+    {
+      "id": "atlas-core-archosauria-ctenosauriscus-247-2-map",
+      "type": "explorer-preset",
+      "title": {
+        "en": "Ctenosauriscus latest Olenekian window",
+        "zh": "棘龙蜥最新奥伦尼克期窗口"
+      },
+      "description": {
+        "en": "Open the map at the 247.2 Ma Ctenosauriscus anchor to inspect sampled occurrence context beside the holotype and matrix-linked claim.",
+        "zh": "在 2.472 亿年前的棘龙蜥锚点打开地图，结合正模与性状矩阵关联声明检查采样出现背景。"
+      },
+      "route": "#/explore?taxon=archosauria&view=map&age=247.2&older=247.2&younger=246",
+      "entityIds": [
+        "archosauria"
+      ],
+      "claimIds": [
+        "claim:taxon:archosauria:root-range"
+      ],
+      "evidenceStatus": "available-with-limitations",
+      "limitations": [
+        "The 247.2 Ma calibration is a rounded latest Olenekian context for Ctenosauriscus GZG.V.4191 from the Upper Middle Buntsandstein near Göttingen, Germany. Its pseudosuchian placement depends on the revised character matrix and sampling is sparse and geographically biased; this is not an exact origin, global FAD, direct ancestry, complete early-archosaur distribution or exact map-marker co-location."
+      ]
     }
   ]
 }
