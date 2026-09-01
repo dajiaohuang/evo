@@ -22,7 +22,7 @@ export interface ReferenceRecord {
 export interface TaxonProfile {
   id: string
   treeNodeId?: string
-  pbdbTaxonId?: string
+  pbdbTaxonId?: string | null
   scientificName: string
   commonName: string
   commonNameZh: string

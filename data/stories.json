@@ -3301,6 +3301,90 @@
         ]
       },
       {
+        "id": "lycophocyon-santiago-map",
+        "title": "Three southern-California localities delimit the sample",
+        "text": "UCMP and SDSNH material is reported from member C of the Santiago Formation in San Diego County; the map shows named study localities rather than a continental range.",
+        "age": 44.1,
+        "timeRange": [46.2, 42],
+        "taxonIds": ["lycophocyon"],
+        "view": "map",
+        "eventId": "lycophocyon-holotype-basal-caniform",
+        "annotation": "The displayed interval is a source-bounded occurrence window, not a global first or last appearance.",
+        "claimLinks": [{"claimId":"claim:taxon:lycophocyon:biogeography","relation":"supports"},{"claimId":"claim:taxon:lycophocyon:fossil-range","relation":"supports"}]
+      },
+      {
+        "id": "lycophocyon-two-trees",
+        "title": "Broad and Paleogene-only matrices answer differently",
+        "text": "The 50-taxon analysis leaves nearby relationships unresolved, whereas the Paleogene-only consensus places Lycophocyon on the caniform branch outside crown Canoidea.",
+        "age": 44.1,
+        "timeRange": [46.2, 42],
+        "taxonIds": ["caniformia", "lycophocyon"],
+        "view": "tree",
+        "eventId": "lycophocyon-holotype-basal-caniform",
+        "annotation": "Both results are sampled morphology hypotheses; neither is an ancestor ladder.",
+        "claimLinks": [{"claimId":"claim:taxon:lycophocyon:taxonomy","relation":"supports"}]
+      },
+      {
+        "id": "lycophocyon-classifier-comparison",
+        "title": "A classifier compares 82 living reference species",
+        "text": "A six-variable classifier assigned the holotype 83% posterior probability of carnivory, against 46 carnivores, 21 omnivores/hard-object feeders and 15 insectivores in the reference set.",
+        "age": 44.1,
+        "timeRange": [46.2, 42],
+        "taxonIds": ["lycophocyon"],
+        "view": "evidence",
+        "eventId": "lycophocyon-holotype-basal-caniform",
+        "annotation": "This is a comparative dietary prediction, not a fossil stomach-content record.",
+        "claimLinks": [{"claimId":"claim:taxon:lycophocyon:ecology","relation":"supports"}]
+      },
+      {
+        "id": "kretzoiarctos-iberian-map",
+        "title": "Two Spanish basins anchor three dental records",
+        "text": "Nombrevilla 2 supplies the P4 holotype and M1 paratype, while ACM/C6-Camí supplies the partial mandible and associated P4.",
+        "age": 11.5,
+        "timeRange": [11.8, 11.2],
+        "taxonIds": ["ursidae", "kretzoiarctos"],
+        "view": "map",
+        "eventId": "kretzoiarctos-dental-panda-topology",
+        "annotation": "These occurrence points do not determine a panda-lineage origin centre or a global genus range.",
+        "claimLinks": [{"claimId":"claim:taxon:kretzoiarctos:biogeography","relation":"supports"},{"claimId":"claim:taxon:kretzoiarctos:fossil-range","relation":"supports"}]
+      },
+      {
+        "id": "kretzoiarctos-matrix-comparison",
+        "title": "A published ursid tree retains internal uncertainty",
+        "text": "The fossil-plus-living matrix recovers Kretzoiarctos within Ailuropodinae, but its majority-rule bootstrap does not resolve internal ailuropodine clades.",
+        "age": 11.5,
+        "timeRange": [11.8, 11.2],
+        "taxonIds": ["ursidae", "kretzoiarctos"],
+        "view": "tree",
+        "eventId": "kretzoiarctos-dental-panda-topology",
+        "annotation": "The route compares a published morphology result; it is not a direct-ancestor claim or an ecological equivalence with living giant pandas.",
+        "claimLinks": [{"claimId":"claim:taxon:kretzoiarctos:taxonomy","relation":"supports"}]
+      },
+      {
+        "id": "kretzoiarctos-specimen-comparison",
+        "title": "A P4, M1 and mandible remain separate observations",
+        "text": "Figure 1 documents the left P4 NV-2-42, right M1 NV-2-40 and IPS 46473 partial mandible; the route compares the preserved specimen record before any dietary interpretation.",
+        "age": 11.5,
+        "timeRange": [11.8, 11.2],
+        "taxonIds": ["kretzoiarctos"],
+        "view": "evidence",
+        "eventId": "kretzoiarctos-dental-panda-topology",
+        "annotation": "Dental comparisons can inform a hypothesis, but do not observe feeding or establish giant-panda-equivalent ecology.",
+        "claimLinks": [{"claimId":"claim:taxon:kretzoiarctos:morphology","relation":"supports"},{"claimId":"claim:taxon:kretzoiarctos:ecology","relation":"contextualizes"}]
+      },
+      {
+        "id": "magericyon-fea-comparison",
+        "title": "Standardized loads compare models, not fossil behaviour",
+        "text": "Finite-element comparisons test canine, p4 and m1 bite positions plus standardized external loading; reported stress and force patterns are simulated under stated constraints.",
+        "age": 0,
+        "timeRange": [0, 0],
+        "taxonIds": ["amphicyonidae", "magericyon"],
+        "view": "evidence",
+        "eventId": "magericyon-feeding-fea",
+        "annotation": "The zero time range is the 2026 modelling event, not Magericyon's fossil occurrence; muscle reconstruction and loading choices condition the results.",
+        "claimLinks": [{"claimId":"claim:event:magericyon-feeding-fea","relation":"supports"}]
+      },
+      {
         "id": "panthera-blytheae-holotype-total-evidence",
         "title": "A Tibetan skull enters a combined tree",
         "text": "Holotype IVPP V18788.1 is an adult partial cranium; IVPP V18788.2 is a ramus fragment and IVPP V18788.3 a partial premaxilla. The locality sample spans 5.95–4.10 Ma in the original magnetostratigraphic framework.",
@@ -4188,6 +4272,66 @@
             "relation": "supports"
           }
         ]
+      },
+      {
+        "id": "burgessomedusa-raymond-quarry-map",
+        "title": "One quarry, not a global range",
+        "text": "The map fixes Burgessomedusa to Raymond Quarry in British Columbia. It does not turn a single Burgess Shale sample into a worldwide distribution.",
+        "age": 505,
+        "timeRange": [506, 504],
+        "taxonIds": ["burgessomedusa"],
+        "view": "map",
+        "eventId": "burgessomedusa-swimming-medusa",
+        "annotation": "A site age is not a FAD or LAD.",
+        "claimLinks": [{"claimId": "claim:taxon:burgessomedusa:biogeography", "relation": "supports"}]
+      },
+      {
+        "id": "burgessomedusa-bell-comparison",
+        "title": "A box-like bell tests, not settles, placement",
+        "text": "Burgessomedusa has a cuboidal umbrella and more than ninety marginal tentacles. Comparison with living medusozoans is informative, but compression and coding sensitivity retain several placements.",
+        "age": 505,
+        "timeRange": [506, 504],
+        "taxonIds": ["burgessomedusa", "cubozoa", "scyphozoa", "staurozoa"],
+        "view": "evidence",
+        "eventId": "burgessomedusa-swimming-medusa",
+        "annotation": "Morphospace comparison is not a direct ancestor line.",
+        "claimLinks": [{"claimId": "claim:taxon:burgessomedusa:morphology", "relation": "supports"}, {"claimId": "claim:taxon:burgessomedusa:taxonomy", "relation": "contextualizes"}]
+      },
+      {
+        "id": "amphimedon-great-barrier-reef-map",
+        "title": "A living reef sample has no fossil duration",
+        "text": "Amphimedon queenslandica was sampled from the Great Barrier Reef. The route maps the living sample and deliberately carries no numerical species fossil range.",
+        "age": 0,
+        "timeRange": [0, 0],
+        "taxonIds": ["amphimedon_queenslandica"],
+        "view": "map",
+        "eventId": "amphimedon-draft-genome",
+        "annotation": "Living occurrence does not date species origin.",
+        "claimLinks": [{"claimId": "claim:taxon:amphimedon_queenslandica:biogeography", "relation": "supports"}]
+      },
+      {
+        "id": "amphimedon-life-stages-comparison",
+        "title": "One genome, three figured life stages",
+        "text": "The study figures adult, embryo and larval stages alongside a draft genome. Sequence content and life stages are observations; an ancestral body plan is not.",
+        "age": 0,
+        "timeRange": [0, 0],
+        "taxonIds": ["amphimedon_queenslandica", "demospongiae"],
+        "view": "evidence",
+        "eventId": "amphimedon-draft-genome",
+        "annotation": "Observed life history is not a Precambrian reconstruction.",
+        "claimLinks": [{"claimId": "claim:taxon:amphimedon_queenslandica:morphology", "relation": "supports"}]
+      },
+      {
+        "id": "amphimedon-toolkit-boundary-tree",
+        "title": "A toolkit is not an ancestor",
+        "text": "Comparative gene-family results document a living demosponge genome and test deep animal relationships. They do not make Amphimedon a stand-in for all Porifera or the first animal.",
+        "age": 0,
+        "timeRange": [0, 0],
+        "taxonIds": ["amphimedon_queenslandica", "porifera", "cnidaria"],
+        "view": "tree",
+        "eventId": "amphimedon-draft-genome",
+        "annotation": "Comparative ancestry remains an inference.",
+        "claimLinks": [{"claimId": "claim:taxon:amphimedon_queenslandica:taxonomy", "relation": "supports"}]
       },
       {
         "id": "cnidarian-phylogenomic-sample",

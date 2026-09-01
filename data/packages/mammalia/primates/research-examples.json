@@ -72,6 +72,150 @@
       "limitations": [
         "The two sides retain separate source, sampling, range and uncertainty boundaries; visual differences are not tests of evolutionary causation or a package-specific phylogeny."
       ]
+    },
+    {
+      "id": "primates-notharctus-map-window",
+      "type": "explorer-preset",
+      "title": {
+        "en": "Primates occurrence window",
+        "zh": "灵长类出现窗口"
+      },
+      "description": {
+        "en": "Open a source-bounded Primates time window in the map to inspect sampled occurrence context linked to this package.",
+        "zh": "在地图中打开有来源边界的灵长类时间窗口，检查与本包关联的采样出现背景。"
+      },
+      "route": "#/explore?taxon=notharctus&view=map&age=49.25&older=50&younger=48.5",
+      "entityIds": [
+        "notharctus"
+      ],
+      "claimIds": [
+        "claim:taxon:notharctus:fossil-range"
+      ],
+      "evidenceStatus": "available-with-limitations",
+      "limitations": [
+        "The interval follows the linked package range and claim; map markers are sampled records and do not establish a complete distribution, exact origination or extinction, or direct ancestry."
+      ]
+    },
+    {
+      "id": "primates-notharctus-foot-evidence",
+      "type": "explorer-preset",
+      "title": {
+        "en": "Primates occurrence window",
+        "zh": "灵长类出现窗口"
+      },
+      "description": {
+        "en": "Open a source-bounded Primates time window in the map to inspect sampled occurrence context linked to this package.",
+        "zh": "在地图中打开有来源边界的灵长类时间窗口，检查与本包关联的采样出现背景。"
+      },
+      "route": "#/explore?taxon=notharctus&view=map&age=49.25&older=50&younger=48.5",
+      "entityIds": [
+        "notharctus"
+      ],
+      "claimIds": [
+        "claim:taxon:notharctus:morphology",
+        "claim:event:notharctus-grooming-claw-foot"
+      ],
+      "evidenceStatus": "available-with-limitations",
+      "limitations": [
+        "The interval follows the linked package range and claim; map markers are sampled records and do not establish a complete distribution, exact origination or extinction, or direct ancestry."
+      ]
+    },
+    {
+      "id": "primates-notharctus-function-comparison",
+      "type": "comparison",
+      "title": {
+        "en": "Primates evidence comparison",
+        "zh": "灵长类证据比较"
+      },
+      "description": {
+        "en": "Compare notharctus and adapiformes through package-linked claims and bounded occurrence context; this side-by-side route is an evidence inspection aid.",
+        "zh": "通过本包关联的声明与限定出现背景比较notharctus与adapiformes；并列页面仅用于证据检查。"
+      },
+      "route": "#/compare?left=notharctus&right=adapiformes",
+      "entityIds": [
+        "notharctus",
+        "adapiformes"
+      ],
+      "claimIds": [
+        "claim:taxon:notharctus:morphology",
+        "claim:taxon:adapiformes:concept-boundary"
+      ],
+      "evidenceStatus": "available-with-limitations",
+      "limitations": [
+        "The two sides retain separate source, sampling, range and uncertainty boundaries; visual differences are not tests of evolutionary causation or a package-specific phylogeny."
+      ]
+    },
+    {
+      "id": "primates-eosimias-map-window",
+      "type": "explorer-preset",
+      "title": {
+        "en": "Primates occurrence window",
+        "zh": "灵长类出现窗口"
+      },
+      "description": {
+        "en": "Open a source-bounded Primates time window in the map to inspect sampled occurrence context linked to this package.",
+        "zh": "在地图中打开有来源边界的灵长类时间窗口，检查与本包关联的采样出现背景。"
+      },
+      "route": "#/explore?taxon=eosimias&view=map&age=42.75&older=45&younger=40.5",
+      "entityIds": [
+        "eosimias"
+      ],
+      "claimIds": [
+        "claim:taxon:eosimias:fossil-range"
+      ],
+      "evidenceStatus": "available-with-limitations",
+      "limitations": [
+        "The interval follows the linked package range and claim; map markers are sampled records and do not establish a complete distribution, exact origination or extinction, or direct ancestry."
+      ]
+    },
+    {
+      "id": "primates-eosimias-tarsal-evidence",
+      "type": "explorer-preset",
+      "title": {
+        "en": "Primates occurrence window",
+        "zh": "灵长类出现窗口"
+      },
+      "description": {
+        "en": "Open a source-bounded Primates time window in the map to inspect sampled occurrence context linked to this package.",
+        "zh": "在地图中打开有来源边界的灵长类时间窗口，检查与本包关联的采样出现背景。"
+      },
+      "route": "#/explore?taxon=eosimias&view=map&age=42.75&older=45&younger=40.5",
+      "entityIds": [
+        "eosimias"
+      ],
+      "claimIds": [
+        "claim:taxon:eosimias:taxonomy",
+        "claim:event:eosimias-isolated-tarsal-anthropoid-test"
+      ],
+      "evidenceStatus": "available-with-limitations",
+      "limitations": [
+        "The interval follows the linked package range and claim; map markers are sampled records and do not establish a complete distribution, exact origination or extinction, or direct ancestry."
+      ]
+    },
+    {
+      "id": "primates-notharctus-eosimias-comparison",
+      "type": "comparison",
+      "title": {
+        "en": "Primates evidence comparison",
+        "zh": "灵长类证据比较"
+      },
+      "description": {
+        "en": "Compare notharctus and eosimias through package-linked claims and bounded occurrence context; this side-by-side route is an evidence inspection aid.",
+        "zh": "通过本包关联的声明与限定出现背景比较notharctus与eosimias；并列页面仅用于证据检查。"
+      },
+      "route": "#/compare?left=notharctus&right=eosimias",
+      "entityIds": [
+        "notharctus",
+        "eosimias"
+      ],
+      "claimIds": [
+        "claim:taxon:notharctus:morphology",
+        "claim:taxon:eosimias:morphology"
+      ],
+      "evidenceStatus": "available-with-limitations",
+      "limitations": [
+        "The two sides retain separate source, sampling, range and uncertainty boundaries; visual differences are not tests of evolutionary causation or a package-specific phylogeny."
+      ]
     }
   ]
 }
