@@ -58,6 +58,8 @@ export const researchSceneDefinitions = {
   'molluscs-brachiopods': { label: { en: 'Molluscs and brachiopods', zh: '软体动物与腕足动物' }, scenes: [
     { id: 'molluscs-brachiopods-map-window', kind: 'map', route: '#/explore?taxon=yuganotheca&view=map&age=518&older=521&younger=514.5', entityIds: ['micrina', 'yuganotheca'], claimIds: ['claim:taxon:micrina:source-bounded-range-rc50', 'claim:taxon:yuganotheca:source-bounded-range-rc50'] },
     { id: 'molluscs-brachiopods-comparison-window', kind: 'comparison', route: '#/compare?left=micrina&right=yuganotheca', entityIds: ['micrina', 'yuganotheca'], claimIds: ['claim:taxon:micrina:source-bounded-range-rc50', 'claim:taxon:yuganotheca:source-bounded-range-rc50'] },
+    { id: 'molluscs-brachiopods-pojetaia-map-window', kind: 'map', route: '#/explore?taxon=pojetaia&view=map&age=510&older=514.5&younger=506.5', entityIds: ['pojetaia'], claimIds: ['claim:taxon:pojetaia:source-bounded-range-rc50'] },
+    { id: 'molluscs-brachiopods-pojetaia-kutorgina-comparison', kind: 'comparison', route: '#/compare?left=pojetaia&right=kutorgina-chengjiangensis', entityIds: ['pojetaia', 'kutorgina-chengjiangensis'], claimIds: ['claim:taxon:pojetaia:source-bounded-range-rc50', 'claim:taxon:kutorgina-chengjiangensis:fossil-range'] },
   ] },
   'trilobites-chelicerates': { label: { en: 'Trilobites and chelicerates', zh: '三叶虫与螯肢类' }, scenes: [
     { id: 'trilobites-chelicerates-map-window', kind: 'map', route: '#/explore?taxon=olenoides&view=map&age=507&older=509&younger=505', entityIds: ['olenoides'], claimIds: ['claim:taxon:olenoides'] },
