@@ -229,6 +229,83 @@
         "The part and counterpart preserve the named anatomy; predation, functional performance and the bridging stem-chelicerate position remain morphology, matrix and model interpretations, not direct ancestry or observed behaviour.",
         "Map context is a sampled Utah locality window and does not establish complete distribution or exact fossil-to-map co-registration."
       ]
+    },
+    {
+      "id": "trilobites-chelicerates-pentecopterus-winneshiek-map",
+      "type": "explorer-preset",
+      "title": {
+        "en": "Winneshiek Pentecopterus decorahensis occurrence window",
+        "zh": "Winneshiek组 Pentecopterus decorahensis出现窗口"
+      },
+      "description": {
+        "en": "Open the Darriwilian 467.3–458.4 Ma Winneshiek Lagerstätte window near Decorah, Iowa, for the named megalograptid eurypterid Pentecopterus decorahensis (including holotype SUI 139941 and more than 150 cuticular specimens) and inspect its morphology-matrix evidence for early eurypterid disparity.",
+        "zh": "打开爱荷华州迪科拉附近Winneshiek化石库的达瑞威尔期 4.673–4.584 亿年前窗口，检查具名巨翼鲎类海蝎 Pentecopterus decorahensis（包括正模 SUI 139941 及150余件角质层标本）及其早期海蝎形态差异矩阵证据。"
+      },
+      "route": "#/explore?taxon=eurypterida&view=map&age=462.5&older=467.3&younger=458.4",
+      "entityIds": [
+        "eurypterida"
+      ],
+      "claimIds": [
+        "claim:taxon:eurypterida"
+      ],
+      "evidenceStatus": "available-with-limitations",
+      "limitations": [
+        "The 467.3–458.4 Ma interval is the regional Darriwilian absolute-timescale envelope for the Winneshiek Shale, not a direct date on each specimen or a global eurypterid FAD/LAD.",
+        "The named species, preserved cuticle and appendage morphology are direct specimen evidence; megalograptid placement, explosive radiation and any Cambrian ghost range are matrix or historical inferences, not direct ancestry.",
+        "PBDB modern and reconstructed palaeocoordinates represent a bounded locality sample near Decorah and are separate coordinate models; they do not establish complete distribution, exact specimen co-registration or a global origin."
+      ]
+    },
+    {
+      "id": "trilobites-chelicerates-jaekelopterus-willwerath-map",
+      "type": "explorer-preset",
+      "title": {
+        "en": "Willwerath Jaekelopterus rhenaniae giant-chelicera window",
+        "zh": "Willwerath组 Jaekelopterus rhenaniae巨型螯肢窗口"
+      },
+      "description": {
+        "en": "Open the rounded 411–407 Ma Early Devonian Willwerath Lagerstätte window in the Rhenish Slate Mountains for the 46 cm Jaekelopterus rhenaniae chelicera and inspect the cited allometric body-size reconstruction.",
+        "zh": "打开莱茵板岩山早泥盆世 4.11–4.07 亿年前 Willwerath化石库窗口，检查 Jaekelopterus rhenaniae 长达46厘米的螯肢及引文中的异速生长体长重建。"
+      },
+      "route": "#/explore?taxon=jaekelopterus&view=map&age=409&older=411&younger=407",
+      "entityIds": [
+        "jaekelopterus"
+      ],
+      "claimIds": [
+        "claim:event:jaekelopterus-giant-chelicera",
+        "claim:taxon:jaekelopterus"
+      ],
+      "evidenceStatus": "available-with-limitations",
+      "limitations": [
+        "The 411–407 Ma interval is a broad Willwerath locality envelope, not a direct radiometric date for the claw or a global Jaekelopterus FAD/LAD.",
+        "The 46 cm chelicera and associated cuticle are direct anatomy; the approximately 2.5 m body length depends on pterygotid proportions and positive-allometry assumptions, while predation and swimming performance are ecological models.",
+        "Map markers use sampled Willwerath coordinates with separate palaeogeographic reconstruction and collection bias; they do not establish complete distribution, exact fossil-to-map co-registration or direct ancestry."
+      ]
+    },
+    {
+      "id": "trilobites-chelicerates-parioscorpio-waukesha-map",
+      "type": "explorer-preset",
+      "title": {
+        "en": "Waukesha Parioscorpio venator internal-anatomy window",
+        "zh": "沃基肖 Parioscorpio venator内部解剖窗口"
+      },
+      "description": {
+        "en": "Open the 437.5–436.5 Ma conodont-bounded Brandon Bridge Formation window at the Waukesha Lagerstätte for Parioscorpio venator holotype UWGM 2162 and paratype UWGM 2163, and inspect the internal structures used in scorpion-terrestrialization hypotheses.",
+        "zh": "打开沃基肖化石库 Brandon Bridge组经牙形刺限定的 4.375–4.365 亿年前窗口，检查 Parioscorpio venator 正模 UWGM 2162 与副模 UWGM 2163，以及用于蝎类陆生化假说的内部结构。"
+      },
+      "route": "#/explore?taxon=parioscorpio&view=map&age=437&older=437.5&younger=436.5",
+      "entityIds": [
+        "parioscorpio"
+      ],
+      "claimIds": [
+        "claim:event:parioscorpio-terrestrialization",
+        "claim:taxon:parioscorpio"
+      ],
+      "evidenceStatus": "available-with-limitations",
+      "limitations": [
+        "The 437.5–436.5 Ma age is a conodont-bounded depositional interval, not a direct date on either specimen or a global scorpion FAD.",
+        "The body plan and medial structures are directly preserved, while book-lung homology, pulmonary-cardiovascular function and terrestrial physiology remain contested interpretations constrained by incomplete respiratory anatomy and nearshore deposition.",
+        "PBDB coordinates identify the sampled Waukesha locality and its separate palaeogeographic model; transport and preservation bias prevent claims of complete distribution, exact fossil-to-map co-registration or direct ancestry."
+      ]
     }
   ]
 }

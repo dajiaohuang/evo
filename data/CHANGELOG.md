@@ -1,5 +1,12 @@
 # Dataset changelog
 
+## App 0.20.52 / 2026.09-static-v5-rc101 — 2026-09-01
+
+- Added nine source-bounded, age-driven map scenes: three each for Dinosauria, Crustaceans and insects, and Trilobites and chelicerates. All three packages now expose 12 scenes, raising the atlas from 279 to 288 scenes and from 449 to 470 scene-to-claim links.
+- Added bounded windows for *Mussaurus*, *Ledumahadi* and *Triceratops*; *Luprisca*, *Waukartus* and *Saxonagrion*; and *Pentecopterus*, *Jaekelopterus* and *Parioscorpio*.
+- Connected all new cards to locator-bearing claims and `available` ranges sharing routed age and entity context. The atlas now has 235 age-driven routes; named specimens, formation envelopes, classification matrices, functional interpretations and ecological reconstructions remain distinct from direct observation, global FAD/LAD, complete distribution, direct ancestry or exact fossil-to-map co-registration.
+- Regenerated the shared package registry and manifest as RC101. Android `versionCode` and iOS build number advance to `55` / app `0.20.52`; both native apps retain the complete `native-full` catalogue, authority shards and all 109 lossless 0.1° PaleoDEM frames while Pages remains `web-light`.
+
 ## App 0.20.51 / 2026.09-static-v5-rc100 — 2026-09-01
 
 - Added nine source-bounded, age-driven map scenes: three each for Tetrapod transition, Carnivora and Echinoderms. The packages now expose 12, 13 and 13 scenes respectively, raising the atlas from 270 to 279 scenes and from 436 to 449 scene-to-claim links.
