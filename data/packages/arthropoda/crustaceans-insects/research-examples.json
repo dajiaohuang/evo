@@ -145,6 +145,78 @@
       "limitations": [
         "The interval follows the linked package range and claim; map markers are sampled records and do not establish a complete distribution, exact origination or extinction, or direct ancestry."
       ]
+    },
+    {
+      "id": "crustaceans-insects-tokummia-marble-canyon-window",
+      "type": "explorer-preset",
+      "title": {
+        "en": "Tokummia katalepsis Marble Canyon sample",
+        "zh": "Tokummia katalepsis 大理石峡谷标本地点"
+      },
+      "description": {
+        "en": "Open the 508 Ma Marble Canyon map point to inspect the linked Tokummia katalepsis specimen sample and its appendage evidence.",
+        "zh": "在地图中打开 508 Ma 的大理石峡谷点位，检查关联的 Tokummia katalepsis 标本样本及其附肢证据。"
+      },
+      "route": "#/explore?taxon=tokummia&view=map&age=508&older=508&younger=508",
+      "entityIds": [
+        "tokummia"
+      ],
+      "claimIds": [
+        "claim:event:tokummia-mandibulate-anatomy",
+        "claim:taxon:tokummia:fossil-range"
+      ],
+      "evidenceStatus": "available-with-limitations",
+      "limitations": [
+        "The 508 Ma point is a Marble Canyon locality sample, not a global species range or a mandibulate origin date. Scored appendages are preserved in the named specimens, whereas stem-mandibulate recovery is a morphology-matrix interpretation; neither establishes direct ancestry or complete distribution."
+      ]
+    },
+    {
+      "id": "crustaceans-insects-waptia-burgess-shale-window",
+      "type": "explorer-preset",
+      "title": {
+        "en": "Waptia fieldensis Burgess Shale specimen series",
+        "zh": "Waptia fieldensis 伯吉斯页岩标本系列"
+      },
+      "description": {
+        "en": "Open the 508 Ma Burgess Shale map point to inspect the linked Waptia fieldensis specimen series and mandible evidence.",
+        "zh": "在地图中打开 508 Ma 的伯吉斯页岩点位，检查关联的 Waptia fieldensis 标本系列及其大颚证据。"
+      },
+      "route": "#/explore?taxon=waptia&view=map&age=508&older=508&younger=508",
+      "entityIds": [
+        "waptia"
+      ],
+      "claimIds": [
+        "claim:event:waptia-mandibulate-series",
+        "claim:taxon:waptia:fossil-range"
+      ],
+      "evidenceStatus": "available-with-limitations",
+      "limitations": [
+        "The 508 Ma point bounds the Burgess Shale specimen series, not a global Waptia duration or a pancrustacean crown age. The figured specimen series and mouthparts are observations; pancrustacean placement and swimming-predator ecology are topology and functional interpretations, not observed behavior or direct ancestry."
+      ]
+    },
+    {
+      "id": "crustaceans-insects-yicaris-yuanshan-window",
+      "type": "explorer-preset",
+      "title": {
+        "en": "Yicaris dianensis Yu'anshan Formation developmental series",
+        "zh": "Yicaris dianensis 玉案山组发育系列"
+      },
+      "description": {
+        "en": "Open the 521–514 Ma Yu'anshan Formation window to inspect the linked Yicaris dianensis growth-stage sample and limb evidence.",
+        "zh": "在地图中打开 521–514 Ma 的玉案山组窗口，检查关联的 Yicaris dianensis 生长阶段样本及其附肢证据。"
+      },
+      "route": "#/explore?taxon=yicaris&view=map&age=518&older=521&younger=514",
+      "entityIds": [
+        "yicaris"
+      ],
+      "claimIds": [
+        "claim:event:yicaris-developmental-series",
+        "claim:taxon:yicaris:fossil-range"
+      ],
+      "evidenceStatus": "available-with-limitations",
+      "limitations": [
+        "The 521–514 Ma interval is a broad Yu'anshan Formation context for the developmental sample, not a global Yicaris duration or a eucrustacean first-appearance date. Phosphatized growth-stage anatomy is directly preserved, while epipodite homology and crown-eucrustacean placement are character interpretations sensitive to preservation and sampling."
+      ]
     }
   ]
 }
