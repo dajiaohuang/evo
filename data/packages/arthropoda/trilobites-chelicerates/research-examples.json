@@ -6,19 +6,19 @@
       "id": "trilobites-chelicerates-tree-preset",
       "type": "explorer-preset",
       "title": {
-        "en": "Trilobita source-bound evidence",
-        "zh": "三叶虫来源限定证据"
+        "en": "Megachelicerax source-bound evidence",
+        "zh": "巨螯肢虫属来源限定证据"
       },
       "description": {
-        "en": "Open the Explorer at Trilobita to inspect the linked, locator-bearing source claim together with this package's current occurrence context. This is a reproducible evidence entry point, not a phylogenetic result or a complete history of the group.",
-        "zh": "在探索器中打开三叶虫，结合本包当前的出现记录背景检查带有精确来源定位的关联声明。这是可复现的证据检查入口，不是系统发育结果，也不是该类群的完整历史。"
+        "en": "Open the Explorer at Megachelicerax to inspect the linked, locator-bearing source claim together with this package's current occurrence context. This is a reproducible evidence entry point, not a phylogenetic result or a complete history of the group.",
+        "zh": "在探索器中打开巨螯肢虫属，结合本包当前的出现记录背景检查带有精确来源定位的关联声明。这是可复现的证据检查入口，不是系统发育结果，也不是该类群的完整历史。"
       },
-      "route": "#/explore?taxon=trilobita&view=tree",
+      "route": "#/explore?taxon=megachelicerax&view=tree",
       "entityIds": [
-        "trilobita"
+        "megachelicerax"
       ],
       "claimIds": [
-        "claim:taxon:trilobita:root-range-rc39"
+        "claim:taxon:megachelicerax:topology"
       ],
       "evidenceStatus": "available-with-limitations",
       "limitations": [
@@ -36,12 +36,12 @@
         "en": "Open a source-bounded Trilobites and chelicerates time window in the map to inspect sampled occurrence context linked to this package.",
         "zh": "在地图中打开有来源边界的三叶虫与螯肢类时间窗口，检查与本包关联的采样出现背景。"
       },
-      "route": "#/explore?taxon=trilobita&view=map&age=521&older=521&younger=252",
+      "route": "#/explore?taxon=olenoides&view=map&age=507&older=509&younger=505",
       "entityIds": [
-        "trilobita"
+        "olenoides"
       ],
       "claimIds": [
-        "claim:taxon:trilobita:root-range-rc39"
+        "claim:taxon:olenoides"
       ],
       "evidenceStatus": "available-with-limitations",
       "limitations": [
@@ -56,17 +56,17 @@
         "zh": "三叶虫与螯肢类证据比较"
       },
       "description": {
-        "en": "Compare bohemolichas and urokodia through package-linked claims and bounded occurrence context; this side-by-side route is an evidence inspection aid.",
-        "zh": "通过本包关联的声明与限定出现背景比较bohemolichas与urokodia；并列页面仅用于证据检查。"
+        "en": "Compare olenoides and megachelicerax through package-linked claims and bounded occurrence context; this side-by-side route is an evidence inspection aid.",
+        "zh": "通过本包关联的声明与限定出现背景比较olenoides与megachelicerax；并列页面仅用于证据检查。"
       },
-      "route": "#/compare?left=bohemolichas&right=urokodia",
+      "route": "#/compare?left=olenoides&right=megachelicerax",
       "entityIds": [
-        "bohemolichas",
-        "urokodia"
+        "olenoides",
+        "megachelicerax"
       ],
       "claimIds": [
-        "claim:taxon:bohemolichas:fossil-range",
-        "claim:taxon:urokodia:fossil-range"
+        "claim:taxon:olenoides",
+        "claim:taxon:megachelicerax"
       ],
       "evidenceStatus": "available-with-limitations",
       "limitations": [

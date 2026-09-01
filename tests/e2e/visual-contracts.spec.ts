@@ -78,7 +78,7 @@ test('direct Explorer routes do not show the dashboard first-run choice', async 
 
 test('map evidence cards follow range and claim links as geological time changes', async ({ page }) => {
   await page.addInitScript(() => window.localStorage.setItem('evo-explorer-guide-v2', 'dismissed'))
-  await page.goto('./#/home?age=512.8')
+  await page.goto('./#/home?age=507')
   const cards = page.getByRole('region', { name: 'Time-matched evidence scenes' })
   await expect(cards).toBeVisible()
   await cards.getByRole('button', { name: /^Show \d+ more scenes$/ }).click()
