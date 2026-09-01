@@ -195,6 +195,116 @@
       "limitations": [
         "The two sides retain separate source, sampling, range and uncertainty boundaries; visual differences are not tests of evolutionary causation or a package-specific phylogeny."
       ]
+    },
+    {
+      "id": "sponges-cnidarians-eocyathispongia-wengan-map",
+      "type": "explorer-preset",
+      "title": {
+        "en": "Eocyathispongia Weng'an sample window",
+        "zh": "瓮安始杯海绵样本窗口"
+      },
+      "description": {
+        "en": "Open the rounded 604.5 Ma Weng'an biota window for the Doushantuo Formation Eocyathispongia sample and inspect the cellular-resolution, sponge-grade evidence with its single-specimen boundary.",
+        "zh": "打开取整为604.5 Ma的瓮安生物群窗口，检查陡山沱组始杯海绵样本的细胞分辨率海绵级证据及其单标本边界。"
+      },
+      "route": "#/explore?taxon=eocyathispongia&view=map&age=604.5&older=609&younger=600",
+      "entityIds": [
+        "eocyathispongia"
+      ],
+      "claimIds": [
+        "claim:event:eocyathispongia-single-specimen",
+        "claim:taxon:eocyathispongia:fossil-range",
+        "claim:taxon:eocyathispongia:biogeography",
+        "claim:taxon:eocyathispongia:morphology"
+      ],
+      "evidenceStatus": "available-with-limitations",
+      "limitations": [
+        "The rounded 604.5 Ma age is the midpoint of a 609–600 Ma Doushantuo Formation envelope for one specimen, not a direct date, global Eocyathispongia range or Porifera FAD/LAD.",
+        "The named Eocyathispongia qiania specimen preserves three tubes and cellular features; sponge-grade affinity remains a bounded interpretation requiring additional specimens, not direct ancestry or observed behaviour.",
+        "Map markers show sampled occurrence context subject to collection and preservation bias, not a complete distribution or exact fossil-to-paleomap co-registration."
+      ]
+    },
+    {
+      "id": "sponges-cnidarians-helicolocellus-shibantan-map",
+      "type": "explorer-preset",
+      "title": {
+        "en": "Helicolocellus Shibantan sample window",
+        "zh": "石板滩螺旋格海绵样本窗口"
+      },
+      "description": {
+        "en": "Open the rounded 545 Ma Shibantan window for Helicolocellus cantori from the Dengying Formation and inspect its named holotype, nested-grid skeleton and bounded sponge interpretation.",
+        "zh": "打开取整为545 Ma的石板滩窗口，检查灯影组康托尔螺旋格海绵的具名正模、嵌套方格骨架及其有边界的海绵解释。"
+      },
+      "route": "#/explore?taxon=helicolocellus&view=map&age=545&older=551&younger=539",
+      "entityIds": [
+        "helicolocellus"
+      ],
+      "claimIds": [
+        "claim:event:helicolocellus-organic-skeleton",
+        "claim:taxon:helicolocellus:fossil-range",
+        "claim:taxon:helicolocellus:biogeography",
+        "claim:taxon:helicolocellus:morphology"
+      ],
+      "evidenceStatus": "available-with-limitations",
+      "limitations": [
+        "The rounded 545 Ma age is the midpoint of a 551–539 Ma Dengying Formation envelope for sampled material, not a direct specimen date, global range or crown-sponge FAD/LAD.",
+        "Holotype NIGP-176531 and referred material document a goblet-shaped body; organic-skeleton homology and placement near Hexactinellida remain morphology-matrix interpretations, not direct ancestry.",
+        "Map markers show a Shibantan locality sample with preservation and collection bias, not a complete distribution or proof of exact fossil-to-paleomap co-registration."
+      ]
+    },
+    {
+      "id": "sponges-cnidarians-soltanieh-hexactinellida-map",
+      "type": "explorer-preset",
+      "title": {
+        "en": "Soltanieh glass-sponge spicules window",
+        "zh": "Soltanieh玻璃海绵骨针窗口"
+      },
+      "description": {
+        "en": "Open the basal-Cambrian Soltanieh Formation window at the rounded 536 Ma anchor to inspect the diagnostic reassessment of siliceous sponge spicules and its cautious class-level context.",
+        "zh": "打开取整为536 Ma的早寒武世Soltanieh组窗口，检查硅质海绵骨针的诊断性复核及其谨慎的纲级语境。"
+      },
+      "route": "#/explore?taxon=hexactinellida&view=map&age=536&older=536&younger=536",
+      "entityIds": [
+        "hexactinellida"
+      ],
+      "claimIds": [
+        "claim:event:soltanieh-basal-cambrian-spicules",
+        "claim:taxon:hexactinellida"
+      ],
+      "evidenceStatus": "available-with-limitations",
+      "limitations": [
+        "The 536 Ma map age is a rounded atlas anchor for basal-Cambrian Soltanieh material, not an exact crown-Hexactinellida FAD or continuous occupancy record.",
+        "The cited review identifies siliceous spicules as the oldest reliable sponge remains under its criteria; isolated spicules do not establish all crown relationships, global distribution or direct ancestry.",
+        "Map markers show bounded sampled occurrence context and do not establish completeness, observed behaviour or exact fossil-to-paleomap co-registration."
+      ]
+    },
+    {
+      "id": "sponges-cnidarians-auroralumina-charnwood-map",
+      "type": "explorer-preset",
+      "title": {
+        "en": "Auroralumina Charnwood sample window",
+        "zh": "Charnwood曙光虫样本窗口"
+      },
+      "description": {
+        "en": "Open the rounded 559.5 Ma Charnwood Forest window for Auroralumina attenboroughii from the Bradgate Formation and inspect its named fossil surface and polyp morphology.",
+        "zh": "打开取整为559.5 Ma的Charnwood Forest窗口，检查Bradgate组阿滕伯勒曙光虫的具名化石表面及水螅体形态。"
+      },
+      "route": "#/explore?taxon=auroralumina&view=map&age=559.5&older=562&younger=557",
+      "entityIds": [
+        "auroralumina"
+      ],
+      "claimIds": [
+        "claim:event:auroralumina-charnwood-polyps",
+        "claim:taxon:auroralumina:fossil-range",
+        "claim:taxon:auroralumina:biogeography",
+        "claim:taxon:auroralumina:morphology"
+      ],
+      "evidenceStatus": "available-with-limitations",
+      "limitations": [
+        "The rounded 559.5 Ma age is the midpoint of a 562–557 Ma Bradgate Formation context for one specimen, not a direct date, global cnidarian range or crown-group origin.",
+        "The named holotype and plastotype record bifurcating polyp-like tubes and tentacle impressions; crown placement remains a morphology-analysis hypothesis, not direct ancestry or observed predation.",
+        "Map markers show one Charnwood Forest fossil-surface context with preservation and collection bias, not a complete distribution or exact fossil-to-paleomap co-registration."
+      ]
     }
   ]
 }
