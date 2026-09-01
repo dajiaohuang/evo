@@ -72,6 +72,144 @@
       "limitations": [
         "The two sides retain separate source, sampling, range and uncertainty boundaries; visual differences are not tests of evolutionary causation or a package-specific phylogeny."
       ]
+    },
+    {
+      "id": "other-mammals-steropodon-griman-creek-map",
+      "type": "explorer-preset",
+      "title": {
+        "en": "Steropodon at Lightning Ridge",
+        "zh": "闪电岭的硬齿鸭嘴兽"
+      },
+      "description": {
+        "en": "At 105 Ma, inspect the Griman Creek Formation context for the tooth-bearing right dentary AM F66763. The linked primary description supports the specimen and published dental comparison, while monotreme affinity remains an interpretation.",
+        "zh": "在 1.05 亿年前的地图上检查格里曼溪组中带齿右下颌 AM F66763 的地层背景。关联的一手描述直接支持该标本及已发表的牙齿比较，而其单孔类亲缘仍属于解释。"
+      },
+      "route": "#/explore?taxon=steropodon&view=map&age=105&older=110&younger=100",
+      "entityIds": [
+        "steropodon"
+      ],
+      "claimIds": [
+        "claim:event:steropodon-holotype-monotreme"
+      ],
+      "evidenceStatus": "available-with-limitations",
+      "limitations": [
+        "The 110–100 Ma window is the broad formation context of one named specimen; it is not a global monotreme first appearance, a crown-membership result, a direct ancestor claim or an exact fossil-to-map co-registration."
+      ]
+    },
+    {
+      "id": "other-mammals-juramaia-provenance-map",
+      "type": "explorer-preset",
+      "title": {
+        "en": "Juramaia's conditional Jurassic context",
+        "zh": "侏罗兽有条件的侏罗纪背景"
+      },
+      "description": {
+        "en": "At 160 Ma, examine the originally attributed Tiaojishan context of partial skeleton BMNH PM1343B together with its explicit provenance and tip-dating dispute. The map preserves the published attribution without converting it into a secure calibration.",
+        "zh": "在 1.60 亿年前的地图上检查部分骨架 BMNH PM1343B 最初归属的髫髻山组背景，并同时保留其产地来源与尖端定年争议。地图保存已发表的归属，但不把它转化为可靠的校准点。"
+      },
+      "route": "#/explore?taxon=juramaia&view=map&age=160&older=161&younger=159",
+      "entityIds": [
+        "juramaia"
+      ],
+      "claimIds": [
+        "claim:event:juramaia-conditional-provenance"
+      ],
+      "evidenceStatus": "available-with-limitations",
+      "limitations": [
+        "The routed interval follows the original stratigraphic attribution; collection provenance, morphology coding and tip-dating priors leave the age and topology contested, and the card does not establish a universal therian divergence date."
+      ]
+    },
+    {
+      "id": "other-mammals-eomaia-yixian-map",
+      "type": "explorer-preset",
+      "title": {
+        "en": "Eomaia in the Yixian Formation",
+        "zh": "义县组中的始祖兽"
+      },
+      "description": {
+        "en": "At 125 Ma, inspect the Yixian Formation context of articulated skeleton CAGS 01-IG-1a,b. Preserved dentition, feet and claws are direct evidence; eutherian placement and scansoriality remain matrix- and comparison-dependent.",
+        "zh": "在 1.25 亿年前的地图上检查义县组关节相连骨架 CAGS 01-IG-1a,b 的背景。保存的牙列、足部和爪是直接证据；真兽类位置与攀援生活方式仍取决于矩阵和功能比较。"
+      },
+      "route": "#/explore?taxon=eomaia&view=map&age=125&older=125.8&younger=124.1",
+      "entityIds": [
+        "eomaia"
+      ],
+      "claimIds": [
+        "claim:event:eomaia-holotype-topology"
+      ],
+      "evidenceStatus": "available-with-limitations",
+      "limitations": [
+        "This is the bounded context of one articulated specimen; later combined matrices can recover another placement, locomotion is inferred rather than observed, and no direct ancestry or exact map co-registration is implied."
+      ]
+    },
+    {
+      "id": "other-mammals-eritherium-sidi-chennane-map",
+      "type": "explorer-preset",
+      "title": {
+        "en": "Eritherium at Sidi Chennane",
+        "zh": "西迪谢纳讷的始祖象"
+      },
+      "description": {
+        "en": "At 60 Ma, inspect the early Thanetian lower bone bed of Sidi Chennane associated with holotype skull MNHN PM69 and the 15-specimen Eritherium hypodigm. Cranial and dental characters support a stem-proboscidean interpretation.",
+        "zh": "在 6000 万年前的地图上检查西迪谢纳讷早赞尼特期下部骨层，以及与之关联的正模头骨 MNHN PM69 和 15 件始祖象标本组合。颅骨与牙齿特征支持长鼻类干群解释。"
+      },
+      "route": "#/explore?taxon=eritherium&view=map&age=60&older=60.5&younger=59.2",
+      "entityIds": [
+        "eritherium"
+      ],
+      "claimIds": [
+        "claim:event:eritherium-holotype-proboscidean"
+      ],
+      "evidenceStatus": "available-with-limitations",
+      "limitations": [
+        "The card is limited to the named hypodigm and early Thanetian locality interval; stem placement and body mass are comparative estimates, not a global proboscidean origin, complete range or direct-ancestor claim."
+      ]
+    },
+    {
+      "id": "other-mammals-thalassocnus-pisco-map",
+      "type": "explorer-preset",
+      "title": {
+        "en": "Thalassocnus bone-density series",
+        "zh": "海懒兽骨密度序列"
+      },
+      "description": {
+        "en": "At 5.5 Ma, inspect the Pisco Formation context for five stratigraphically successive Thalassocnus species used in CT and thin-section comparisons. Increasing bone compactness supports a progressive aquatic-adaptation interpretation.",
+        "zh": "在 550 万年前的地图上检查皮斯科组中五个地层上连续的海懒兽物种，它们用于 CT 与薄片比较。骨骼致密度增加支持逐步水生适应的解释。"
+      },
+      "route": "#/explore?taxon=thalassocnus&view=map&age=5.5&older=8&younger=3",
+      "entityIds": [
+        "thalassocnus"
+      ],
+      "claimIds": [
+        "claim:event:thalassocnus-bone-density-series"
+      ],
+      "evidenceStatus": "available-with-limitations",
+      "limitations": [
+        "The 8–3 Ma window summarizes sampled Pisco Formation horizons; sample gaps and phylogenetic ordering bound the trend, while hydrostatic control, marine grazing and behaviour remain functional inferences."
+      ]
+    },
+    {
+      "id": "other-mammals-onychonycteris-fossil-butte-map",
+      "type": "explorer-preset",
+      "title": {
+        "en": "Onychonycteris at Fossil Butte",
+        "zh": "化石孤丘的爪蝠"
+      },
+      "description": {
+        "en": "At 51.4 Ma, inspect the Fossil Butte Member context of nearly complete holotype ROM 55351A. Wing proportions and cochlear anatomy provide morphological proxies for powered flight and limited laryngeal-echolocation specialization.",
+        "zh": "在 5140 万年前的地图上检查化石孤丘段中近完整正模 ROM 55351A 的背景。翼部比例与耳蜗解剖为动力飞行及有限喉源回声定位专化提供形态代理证据。"
+      },
+      "route": "#/explore?taxon=onychonycteris&view=map&age=51.4&older=52.5&younger=50.3",
+      "entityIds": [
+        "onychonycteris"
+      ],
+      "claimIds": [
+        "claim:event:onychonycteris-flight-echolocation"
+      ],
+      "evidenceStatus": "available-with-limitations",
+      "limitations": [
+        "This is one holotype and one bounded formation interval; flight performance, echolocation capacity and stem placement are proxy- and matrix-based, and the specimen is not presented as a direct ancestor or a complete bat distribution."
+      ]
     }
   ]
 }
