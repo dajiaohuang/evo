@@ -72,6 +72,150 @@
       "limitations": [
         "The two sides retain separate source, sampling, range and uncertainty boundaries; visual differences are not tests of evolutionary causation or a package-specific phylogeny."
       ]
+    },
+    {
+      "id": "cetartiodactyla-indohyus-sindkhatudi-map",
+      "type": "explorer-preset",
+      "title": {
+        "en": "Indohyus Sindkhatudi bone-bed map window",
+        "zh": "Indohyus 辛德哈图迪骨床地图窗口"
+      },
+      "description": {
+        "en": "Open the 48–47 Ma Sindkhatudi sample window for Indohyus to inspect sampled occurrence context alongside the locator-bearing aquatic-wading claim. This route is an evidence-inspection aid, not a direct-ancestor or global-range reconstruction.",
+        "zh": "打开 Indohyus 48–47 Ma 辛德哈图迪样本窗口，在带定位来源的水生涉水证据旁检查取样出现背景。该路线用于证据检查，不是直接祖先或全球分布重建。"
+      },
+      "route": "#/explore?taxon=indohyus&view=map&age=47.5&older=48&younger=47",
+      "entityIds": [
+        "indohyus"
+      ],
+      "claimIds": [
+        "claim:event:indohyus-aquatic-raoellid-evidence"
+      ],
+      "evidenceStatus": "available-with-limitations",
+      "limitations": [
+        "The 48–47 Ma interval follows the available range for the Sindkhatudi bone-bed sample; it is not a global FAD, LAD or continuous lineage duration.",
+        "Map markers are sampled records and model context; they do not establish complete distribution, direct ancestry, causal mechanism or exact fossil-to-map co-registration."
+      ]
+    },
+    {
+      "id": "cetartiodactyla-pakicetus-ganda-kas-map",
+      "type": "explorer-preset",
+      "title": {
+        "en": "Pakicetus Ganda Kas locality map window",
+        "zh": "Pakicetus 甘达卡斯地点地图窗口"
+      },
+      "description": {
+        "en": "Open a 50–48 Ma map window for the H-GSP Locality 62 Pakicetus sample at Ganda Kas, Pakistan, and inspect the source-bounded composite reconstruction claim. The route does not turn separate elements into one specimen or an ancestor sequence.",
+        "zh": "打开巴基斯坦甘达卡斯 H-GSP 62 号地点 Pakicetus 样本的 50–48 Ma 地图窗口，检查有来源边界的组合重建声明。该路线不会把分离标本变成单一个体或祖先序列。"
+      },
+      "route": "#/explore?taxon=pakicetus&view=map&age=49&older=50&younger=48",
+      "entityIds": [
+        "pakicetus"
+      ],
+      "claimIds": [
+        "claim:event:pakicetus-composite-terrestrial-skeleton"
+      ],
+      "evidenceStatus": "available-with-limitations",
+      "limitations": [
+        "The 50–48 Ma interval is the available locality-level envelope for separately catalogued H-GSP 62 material; it is not a global FAD, LAD or complete Pakicetus distribution.",
+        "The reconstruction and locomotor interpretation retain specimen-association limits; map context does not establish direct ancestry, causal mechanism or exact fossil-to-map co-registration."
+      ]
+    },
+    {
+      "id": "cetartiodactyla-ambulocetus-kuldana-map",
+      "type": "explorer-preset",
+      "title": {
+        "en": "Ambulocetus Kuldana Formation map window",
+        "zh": "Ambulocetus 库尔达纳组地图窗口"
+      },
+      "description": {
+        "en": "Open the 48–47 Ma Kuldana Formation window for Ambulocetus holotype H-GSP 18507 in Pakistan to inspect the partial-skeleton evidence and its inferred amphibious locomotor mosaic.",
+        "zh": "打开巴基斯坦库尔达纳组 Ambulocetus 正模标本 H-GSP 18507 的 48–47 Ma 窗口，检查部分骨架证据及其推断的两栖运动组合。"
+      },
+      "route": "#/explore?taxon=ambulocetus&view=map&age=47.5&older=48&younger=47",
+      "entityIds": [
+        "ambulocetus"
+      ],
+      "claimIds": [
+        "claim:event:ambulocetus-holotype-locomotion"
+      ],
+      "evidenceStatus": "available-with-limitations",
+      "limitations": [
+        "The 48–47 Ma interval follows the available stratigraphic envelope for the named holotype, not a direct numerical date or global FAD/LAD.",
+        "Swimming and terrestrial movement are functional hypotheses from incomplete anatomy; map markers do not establish complete distribution, direct ancestry, causal mechanism or exact fossil-to-map co-registration."
+      ]
+    },
+    {
+      "id": "cetartiodactyla-peregocetus-yumaque-map",
+      "type": "explorer-preset",
+      "title": {
+        "en": "Peregocetus Yumaque Member map window",
+        "zh": "Peregocetus 玉马科段地图窗口"
+      },
+      "description": {
+        "en": "Open the approximately 42.6 Ma Lowest Yumaque Member window for Peregocetus holotype MUSM 3580 in Peru and inspect its locator-bearing amphibious-dispersal evidence. The age is a biochronological interpretation, not a direct specimen date.",
+        "zh": "打开秘鲁 Peregocetus 正模标本 MUSM 3580 所在最低玉马科段约 42.6 Ma 窗口，检查带定位来源的两栖扩散证据。该年龄是生物年代学解释，不是标本的直接测年。"
+      },
+      "route": "#/explore?taxon=peregocetus&view=map&age=42.6&older=42.6&younger=42.6",
+      "entityIds": [
+        "peregocetus"
+      ],
+      "claimIds": [
+        "claim:event:peregocetus-holotype-amphibious-dispersal"
+      ],
+      "evidenceStatus": "available-with-limitations",
+      "limitations": [
+        "The point age follows the available nannofossil-based biochronological interpretation for the lowest Yumaque Member; it is not a global FAD, LAD or genus-wide duration.",
+        "Locomotion and the westward dispersal route remain functional and phylogenetic interpretations; map context does not establish complete distribution, direct ancestry, causal mechanism or exact fossil-to-map co-registration."
+      ]
+    },
+    {
+      "id": "cetartiodactyla-basilosaurus-wadi-al-hitan-map",
+      "type": "explorer-preset",
+      "title": {
+        "en": "Basilosaurus Wadi Al Hitan hind-limb map window",
+        "zh": "Basilosaurus 瓦迪阿尔希坦后肢地图窗口"
+      },
+      "description": {
+        "en": "Open the 37.7–35 Ma Birket Qarun Formation window for Egyptian Basilosaurus material, including UM 93231, to inspect the locator-bearing hind-limb and bone-microstructure evidence.",
+        "zh": "打开埃及比尔克特卡伦组 37.7–35 Ma 窗口，检查包括 UM 93231 在内的 Basilosaurus 材料及带定位来源的后肢与骨组织微结构证据。"
+      },
+      "route": "#/explore?taxon=basilosaurus&view=map&age=36.35&older=37.7&younger=35",
+      "entityIds": [
+        "basilosaurus"
+      ],
+      "claimIds": [
+        "claim:event:basilosaurus-hind-limb-specimens"
+      ],
+      "evidenceStatus": "available-with-limitations",
+      "limitations": [
+        "The 37.7–35 Ma interval is the available broad formation envelope for the sampled Egyptian material, not a direct date on UM 93231 or a global Basilosaurus range.",
+        "The specimens support anatomical measurements while functional roles remain inferred; map markers do not establish complete distribution, direct ancestry, causal mechanism or exact fossil-to-map co-registration."
+      ]
+    },
+    {
+      "id": "cetartiodactyla-aegicetus-gehannam-map",
+      "type": "explorer-preset",
+      "title": {
+        "en": "Aegicetus Gehannam Formation map window",
+        "zh": "Aegicetus 吉哈南组地图窗口"
+      },
+      "description": {
+        "en": "Open the approximately 37.71 Ma Lower Gehannam Formation window for Aegicetus holotype CGM 60584 at Wadi Al Hitan and inspect the source-bounded vertebral and limb-reduction evidence.",
+        "zh": "打开瓦迪阿尔希坦下部吉哈南组 Aegicetus 正模标本 CGM 60584 约 37.71 Ma 窗口，检查有来源边界的脊柱与肢体缩减证据。"
+      },
+      "route": "#/explore?taxon=aegicetus&view=map&age=37.71&older=37.71&younger=37.71",
+      "entityIds": [
+        "aegicetus"
+      ],
+      "claimIds": [
+        "claim:event:aegicetus-holotype-tail-propulsion"
+      ],
+      "evidenceStatus": "available-with-limitations",
+      "limitations": [
+        "The point age follows the available boundary translation for the lower Gehannam Formation amid conflicting stratigraphic evidence; it is not an exact specimen date or global FAD/LAD.",
+        "A shift toward tail-assisted propulsion is inferred and no fluke is preserved; map context does not establish complete distribution, direct ancestry, causal mechanism or exact fossil-to-map co-registration."
+      ]
     }
   ]
 }
