@@ -4190,6 +4190,66 @@
         ]
       },
       {
+        "id": "burgessomedusa-raymond-quarry-map",
+        "title": "One quarry, not a global range",
+        "text": "The map fixes Burgessomedusa to Raymond Quarry in British Columbia. It does not turn a single Burgess Shale sample into a worldwide distribution.",
+        "age": 505,
+        "timeRange": [506, 504],
+        "taxonIds": ["burgessomedusa"],
+        "view": "map",
+        "eventId": "burgessomedusa-swimming-medusa",
+        "annotation": "A site age is not a FAD or LAD.",
+        "claimLinks": [{"claimId": "claim:taxon:burgessomedusa:biogeography", "relation": "supports"}]
+      },
+      {
+        "id": "burgessomedusa-bell-comparison",
+        "title": "A box-like bell tests, not settles, placement",
+        "text": "Burgessomedusa has a cuboidal umbrella and more than ninety marginal tentacles. Comparison with living medusozoans is informative, but compression and coding sensitivity retain several placements.",
+        "age": 505,
+        "timeRange": [506, 504],
+        "taxonIds": ["burgessomedusa", "cubozoa", "scyphozoa", "staurozoa"],
+        "view": "evidence",
+        "eventId": "burgessomedusa-swimming-medusa",
+        "annotation": "Morphospace comparison is not a direct ancestor line.",
+        "claimLinks": [{"claimId": "claim:taxon:burgessomedusa:morphology", "relation": "supports"}, {"claimId": "claim:taxon:burgessomedusa:taxonomy", "relation": "contextualizes"}]
+      },
+      {
+        "id": "amphimedon-great-barrier-reef-map",
+        "title": "A living reef sample has no fossil duration",
+        "text": "Amphimedon queenslandica was sampled from the Great Barrier Reef. The route maps the living sample and deliberately carries no numerical species fossil range.",
+        "age": 0,
+        "timeRange": [0, 0],
+        "taxonIds": ["amphimedon_queenslandica"],
+        "view": "map",
+        "eventId": "amphimedon-draft-genome",
+        "annotation": "Living occurrence does not date species origin.",
+        "claimLinks": [{"claimId": "claim:taxon:amphimedon_queenslandica:biogeography", "relation": "supports"}]
+      },
+      {
+        "id": "amphimedon-life-stages-comparison",
+        "title": "One genome, three figured life stages",
+        "text": "The study figures adult, embryo and larval stages alongside a draft genome. Sequence content and life stages are observations; an ancestral body plan is not.",
+        "age": 0,
+        "timeRange": [0, 0],
+        "taxonIds": ["amphimedon_queenslandica", "demospongiae"],
+        "view": "evidence",
+        "eventId": "amphimedon-draft-genome",
+        "annotation": "Observed life history is not a Precambrian reconstruction.",
+        "claimLinks": [{"claimId": "claim:taxon:amphimedon_queenslandica:morphology", "relation": "supports"}]
+      },
+      {
+        "id": "amphimedon-toolkit-boundary-tree",
+        "title": "A toolkit is not an ancestor",
+        "text": "Comparative gene-family results document a living demosponge genome and test deep animal relationships. They do not make Amphimedon a stand-in for all Porifera or the first animal.",
+        "age": 0,
+        "timeRange": [0, 0],
+        "taxonIds": ["amphimedon_queenslandica", "porifera", "cnidaria"],
+        "view": "tree",
+        "eventId": "amphimedon-draft-genome",
+        "annotation": "Comparative ancestry remains an inference.",
+        "claimLinks": [{"claimId": "claim:taxon:amphimedon_queenslandica:taxonomy", "relation": "supports"}]
+      },
+      {
         "id": "cnidarian-phylogenomic-sample",
         "title": "Some deep nodes resolve, one stays weak",
         "text": "The sampled matrix supports Anthozoa and Medusozoa and several internal groups, but Ceriantharia keeps Hexacorallia uncertain.",
