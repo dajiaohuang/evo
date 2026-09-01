@@ -1,5 +1,12 @@
 # Dataset changelog
 
+## App 0.20.50 / 2026.09-static-v5-rc99 — 2026-09-01
+
+- Added 10 source-bounded, age-driven map scenes: three each for Other mammals and Gymnosperms and four for Primates. Other mammals and Gymnosperms now expose 12 scenes each and Primates exposes 13, raising the atlas from 260 to 270 scenes and from 411 to 436 scene-to-claim links.
+- Added named material, locality, formation and model windows for *Ambolestes*, Afrotheria and *Mimolagus*; *Purgatorius*, *Darwinius*, *Saadanius* and *Altiatlasius*; and cycad range contraction, Holyoke J 1430 Araucariaceae and the >300 Ma conifer fossil record boundary.
+- Connected all new cards to locator-bearing claims and `available` ranges sharing routed age and entity context. The atlas now has 217 age-driven routes; molecular and biogeographic models, total-evidence matrices, sampled anatomy, regional records and rounded ages remain distinct from direct observations, global FAD/LAD, complete distribution, direct ancestry or exact fossil-to-map co-registration.
+- Regenerated the shared package registry and manifest as RC99. Android `versionCode` and iOS build number advance to `53` / app `0.20.50`; both native apps retain the complete `native-full` catalogue, authority shards and all 109 lossless 0.1° PaleoDEM frames while Pages remains `web-light`.
+
 ## App 0.20.49 / 2026.09-static-v5-rc98 — 2026-09-01
 
 - Added 11 source-bounded, age-driven map scenes: three for Chondrichthyes and four each for Angiospermae and Early land plants. Chondrichthyes now exposes 12 scenes and both plant packages expose 13, raising the atlas from 249 to 260 scenes and from 382 to 411 scene-to-claim links.
