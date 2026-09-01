@@ -34,6 +34,11 @@ const exactCopy = new Set<string>([
   'Suspension-feeding interpretation is limited to the reconstructed specimen anatomy',
   'Paired agglutinated valves around a lophophoral chamber',
   'Bipartite tube with a median collar', 'Long pedicle with an inferred coelomic space',
+  'Ajax Limestone, South Australia', 'Erkeket Formation, South Australia',
+  'Shallow-marine Cambrian carbonate setting inferred from the sampled formations',
+  'Foliated-aragonite comparison', 'Chengjiang Lagerstätte', 'Early Cambrian calcareous beds',
+  'Pedicle attachment inferred from the preserved pedicle; movement is not observed',
+  'Articulated calcareous valves', 'Digestive tract and pedicle',
 ])
 
 const dossierMarkers = [

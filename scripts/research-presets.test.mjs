@@ -29,16 +29,18 @@ function hasLocator(link) {
 }
 
 describe('source-bound package research presets', () => {
-  it('publishes three explicitly mapped, claim-linked scenes for every package', () => {
+  it('publishes at least three explicitly mapped, claim-linked scenes per package and every declared deepening scene', () => {
     expect(Object.keys(researchPresetDefinitions).sort()).toEqual(packageDefinitions
       .filter((definition) => definition.id !== 'perissodactyla')
       .map((definition) => definition.id)
       .sort())
 
+    let publishedSceneCount = 0
     for (const definition of packageDefinitions) {
       const research = readPackage(definition, 'research-examples.json')
       expect(research.packageId).toBe(definition.id)
-      expect(research.examples).toHaveLength(3)
+      expect(research.examples.length).toBeGreaterThanOrEqual(3)
+      publishedSceneCount += research.examples.length
       const example = research.examples[0]
 
       if (definition.id === 'perissodactyla') {
@@ -69,6 +71,7 @@ describe('source-bound package research presets', () => {
         }
       }
     }
+    expect(publishedSceneCount).toBe(79)
   })
 
   it('does not promote navigation context into package phylogenies', () => {

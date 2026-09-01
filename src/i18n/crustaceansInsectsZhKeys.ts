@@ -77,6 +77,19 @@ const markers = [
   'The primary description documents the wing pattern and its comparison with Membranifolia admirabilis in the Jehol setting.',
   'The fossil preserves a pattern and a proposed model, not observed predator avoidance, feeding behaviour or measured crypsis performance.',
   'An omnivorous orthopteroid-mandible interpretation was proposed; feeding is not directly observed', 'Contested orthopteroid mandible interpretation',
+  'Aberdeenshire, Scotland', 'Not directly recorded by the described material',
+  'A furcula is preserved, but locomotor performance is not observed',
+  'Not established as a population-wide body-size estimate', 'Ecological guild is unresolved',
+  'Four preserved head capsules', 'Additional body specimens including an abdomen', 'Springtail-like furcula',
+  'A targeted-genomics analysis sampled 478 loci from 136 living species representing 46 of 48 living odonate families to test classification; it is a sampled phylogenetic result, not a complete geographic or fossil history.',
+  'Saxonagrion type locality: Salagou Formation, Lodève Basin, France',
+  'Targeted-genomics sample: 136 living species representing 46 of 48 families',
+  'Not inferred from the targeted-genomics classification sample',
+  'Wing use and flight performance are not measured by this study',
+  'Not reported as a comparative body-size dataset', 'No ecological guild is assigned from the phylogenetic sample',
+  'Saxonagrion forewing venation', 'Panodonata attribution proposed from the fossil wing',
+  '478 targeted genomic loci in the living classification sample',
+  'The primary study directly documents its locus and taxon sampling and an updated classification; ecological traits, fossil anatomy and exact origins remain outside its dataset.',
 ]
 
 export function hasCrustaceansInsectsTranslation(english: string): boolean {

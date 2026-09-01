@@ -81,7 +81,7 @@ export const researchSceneDefinitions = {
     { id: 'early-fishes-comparison-window', kind: 'comparison', route: '#/compare?left=tujiaaspis&right=xiushanosteus', entityIds: ['tujiaaspis', 'xiushanosteus'], claimIds: ['claim:taxon:tujiaaspis:fossil-range', 'claim:taxon:xiushanosteus:fossil-range'] },
   ] },
   chondrichthyes: { label: { en: 'Chondrichthyes', zh: '软骨鱼类' }, scenes: [
-    { id: 'chondrichthyes-devonian-carboniferous-map', kind: 'map', route: '#/explore?taxon=stem-chondrichthyan-evidence-route&view=map&age=347.5&older=369.5&younger=326', entityIds: ['stem-chondrichthyan-evidence-route', 'maghriboselache', 'cosmoselachus'], claimIds: ['claim:taxon:maghriboselache:fossil-range', 'claim:taxon:cosmoselachus:fossil-range'] },
+    { id: 'chondrichthyes-devonian-carboniferous-map', kind: 'map', route: '#/explore?taxon=maghriboselache&view=map&age=369.25&older=369.5&younger=369', entityIds: ['maghriboselache'], claimIds: ['claim:taxon:maghriboselache:fossil-range'] },
     { id: 'chondrichthyes-devonian-carboniferous-comparison', kind: 'comparison', route: '#/compare?left=maghriboselache&right=cosmoselachus', entityIds: ['maghriboselache', 'cosmoselachus'], claimIds: ['claim:taxon:maghriboselache:fossil-range', 'claim:taxon:cosmoselachus:fossil-range'] },
   ] },
   actinopterygii: { label: { en: 'Actinopterygii', zh: '辐鳍鱼类' }, scenes: [

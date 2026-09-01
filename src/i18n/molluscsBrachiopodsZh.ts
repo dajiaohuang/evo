@@ -122,4 +122,13 @@ export const molluscsBrachiopodsZh: Record<string, string> = {
   'Sellate muscle scars, mitral apophyses and the late Atdabanian material are documented directly, but the muscle-platform interpretation, assembled whole body, valve homology and stem-brachiopod placement are tested interpretations. This profile records a bounded study sample, not a global genus duration or direct ancestry.': 'sellate 肌痕、mitral 突起和晚 Atdabanian 材料有直接记录，但肌肉平台解释、整体躯体组合、壳瓣同源性与干群腕足动物位置均是经检验的解释。本档案记录的是受限定的研究样本，而非该属全球延续时间或直接祖先。',
   'The referred 710-specimen Yuganotheca sample from the Yu’anshan Member collectively supports a reconstruction combining paired agglutinated valves, a lophophore, tube and pedicle; individual fossils do not all preserve this entire suite. The character mosaic supports comparison near the brachiopod–phoronid stem region but does not resolve exact homology or ancestry.': '玉案山段由 710 件归入标本组成的 Yuganotheca 样本共同支持一项复原，其结合成对胶结壳瓣、触手冠、管体和肉茎；单件化石并不都保存这整套性状。该性状镶嵌支持与腕足动物—帚虫干群区域比较，但不能解决确切同源性或祖先关系。',
   'The referred Chengjiang sample supplies the anatomical mosaic and formal stratigraphic context collectively; no individual fossil is asserted to preserve every reconstructed feature. Exact homology of the valves and tube, as well as the brachiopod–phoronid stem position, remain topology-dependent; the profile is not a global species range or direct-ancestor claim.': '归入的澄江样本共同提供解剖镶嵌与正式地层背景；并不声称任何单件化石保存每一项复原特征。壳瓣和管体的确切同源性以及腕足动物—帚虫干群位置仍依赖拓扑；本档案并非物种全球延限或直接祖先主张。',
+  'Ajax Limestone, South Australia': '澳大利亚南部阿贾克斯石灰岩',
+  'Erkeket Formation, South Australia': '澳大利亚南部 Erkeket 组',
+  'Shallow-marine Cambrian carbonate setting inferred from the sampled formations': '由取样地层推断的寒武纪浅海碳酸盐环境',
+  'Foliated-aragonite comparison': '叶片状霰石比较',
+  'Chengjiang Lagerstätte': '澄江生物群',
+  'Early Cambrian calcareous beds': '早寒武世钙质岩层',
+  'Pedicle attachment inferred from the preserved pedicle; movement is not observed': '由保存的肉茎推断附着；未观察到移动',
+  'Articulated calcareous valves': '关节相连的钙质壳瓣',
+  'Digestive tract and pedicle': '消化道与肉茎',
 }
