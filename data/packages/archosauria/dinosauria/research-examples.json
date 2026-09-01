@@ -116,6 +116,102 @@
       "limitations": [
         "Counts are derived from the bundled, bounded occurrence sample and do not estimate total diversity, preservation-corrected richness, or a complete taxon range."
       ]
+    },
+    {
+      "id": "dinosauria-buriolestes-candelaria-map",
+      "type": "explorer-preset",
+      "title": {
+        "en": "Buriolestes Candelária specimen window",
+        "zh": "布氏盗龙坎德拉里亚标本窗口"
+      },
+      "description": {
+        "en": "Open the map around the source-bounded Buriolestes holotype interval to inspect sampled occurrence context beside the documented ULBRA-PVT280 evidence.",
+        "zh": "在来源限定的布氏盗龙正模标本时间段附近打开地图，结合已记录的 ULBRA-PVT280 证据检查采样出现背景。"
+      },
+      "route": "#/explore?taxon=buriolestes&view=map&age=232.3&older=233.2&younger=231.4",
+      "entityIds": [
+        "buriolestes"
+      ],
+      "claimIds": [
+        "claim:event:buriolestes-holotype-feeding-boundary"
+      ],
+      "evidenceStatus": "available-with-limitations",
+      "limitations": [
+        "ULBRA-PVT280 and its Candelária Sequence context in Brazil are the bounded specimen-and-stratum evidence; the rounded 232.3 Ma map age is an interval selector, not a direct date on the individual.",
+        "Faunivory and placement near the sauropodomorph root are comparative character-matrix and ancestral-state reconstructions, not observations of ancestry. The bounded, non-random occurrence sample and map markers do not establish a global FAD, complete distribution, direct ancestor, or exact specimen-marker co-location."
+      ]
+    },
+    {
+      "id": "dinosauria-eocursor-lower-elliot-map",
+      "type": "explorer-preset",
+      "title": {
+        "en": "Eocursor Lower Elliot specimen window",
+        "zh": "曙奔龙下埃利奥特组标本窗口"
+      },
+      "description": {
+        "en": "Open the map within the source-bounded Lower Elliot Formation interval to inspect sampled context for the Eocursor holotype, SAM-PK-K8025.",
+        "zh": "在来源限定的下埃利奥特组时间段内打开地图，检查曙奔龙正模标本 SAM-PK-K8025 的采样背景。"
+      },
+      "route": "#/explore?taxon=eocursor&view=map&age=205.7&older=210&younger=201.3",
+      "entityIds": [
+        "eocursor"
+      ],
+      "claimIds": [
+        "claim:event:eocursor-holotype-ornithischian-test"
+      ],
+      "evidenceStatus": "available-with-limitations",
+      "limitations": [
+        "SAM-PK-K8025 is partial material from South Africa's Lower Elliot Formation; 205.7 Ma is a rounded study-level formation window, not a direct specimen date.",
+        "Its early-ornithischian position is a morphology-matrix result rather than a preserved ancestor. Sampling and preservation are limited, and the map does not establish a global FAD, complete distribution, direct ancestry, or exact specimen locality."
+      ]
+    },
+    {
+      "id": "dinosauria-scelidosaurus-charmouth-map",
+      "type": "explorer-preset",
+      "title": {
+        "en": "Scelidosaurus Charmouth Mudstone window",
+        "zh": "腿龙查茅斯泥岩组窗口"
+      },
+      "description": {
+        "en": "Open the map around the source-bounded Charmouth Mudstone interval to inspect sampled context for the Scelidosaurus lectotype, NHMUK R1111.",
+        "zh": "在来源限定的查茅斯泥岩组时间段附近打开地图，检查腿龙选模标本 NHMUK R1111 的采样背景。"
+      },
+      "route": "#/explore?taxon=scelidosaurus&view=map&age=192&older=193&younger=191",
+      "entityIds": [
+        "scelidosaurus"
+      ],
+      "claimIds": [
+        "claim:event:scelidosaurus-r1111-dermal-skeleton"
+      ],
+      "evidenceStatus": "available-with-limitations",
+      "limitations": [
+        "NHMUK R1111 and associated osteoderms are locality-and-stratum-bounded to the Charmouth Mudstone Formation in Dorset; 192 Ma is a rounded interval, not a directly measured age for every element.",
+        "Armour association is observed where preservation survives, while keratinous covering, biology and stem-ankylosaur placement are comparative reconstructions. Sparse, non-random sampled markers do not demonstrate a global FAD, complete distribution, direct ancestry, or exact lectotype-map co-location."
+      ]
+    },
+    {
+      "id": "dinosauria-yutyrannus-yixian-map",
+      "type": "explorer-preset",
+      "title": {
+        "en": "Yutyrannus Yixian integument window",
+        "zh": "羽王龙义县组皮肤衍生物窗口"
+      },
+      "description": {
+        "en": "Open the map around the source-bounded Yixian Formation interval to inspect sampled context for the three documented Yutyrannus integument-bearing specimens.",
+        "zh": "在来源限定的义县组时间段附近打开地图，检查三件已记录具皮肤衍生物羽王龙标本的采样背景。"
+      },
+      "route": "#/explore?taxon=yutyrannus&view=map&age=125&older=125.8&younger=124.1",
+      "entityIds": [
+        "yutyrannus"
+      ],
+      "claimIds": [
+        "claim:event:yutyrannus-feathered-tyrannosauroid"
+      ],
+      "evidenceStatus": "available-with-limitations",
+      "limitations": [
+        "ZCDM V5000, ZCDM V5001 and ELDM V1001 are a three-specimen sample from the Yixian Formation, Liaoning; the 125 Ma route is a rounded formation interval rather than a direct date for each skeleton.",
+        "Associated filamentous integument is the specimen evidence, but insulation, display, whole-body coverage and phylogenetic implications are functional or comparative reconstructions. The bounded, non-random sample cannot establish a global FAD, complete distribution, direct ancestry, or exact specimen-marker co-location."
+      ]
     }
   ]
 }
