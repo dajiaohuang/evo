@@ -20,7 +20,7 @@ export const researchPresetDefinitions = {
   actinopterygii: { entityId: 'actinopterygii', claimIds: ['claim:taxon:actinopterygii:fossil-range'] },
   'tetrapod-transition': { entityId: 'sarcopterygii', claimIds: ['claim:taxon:sarcopterygii:fossil-range'] },
   amphibia: { entityId: 'amphibia', claimIds: ['claim:taxon:amphibia:fossil-range'] },
-  'mammal-origins': { entityId: 'synapsida', claimIds: ['claim:taxon:synapsida:root-range'] },
+  'mammal-origins': { entityId: 'dimetrodon', claimIds: ['claim:taxon:dimetrodon:topology'] },
   cetartiodactyla: { entityId: 'whippomorpha', claimIds: ['claim:taxon:whippomorpha:root-range'] },
   primates: { entityId: 'primatomorpha', claimIds: ['claim:taxon:primatomorpha:root-range'] },
   carnivora: { entityId: 'hesperocyon', claimIds: ['claim:taxon:hesperocyon:taxonomy'] },
@@ -116,8 +116,8 @@ export const researchSceneDefinitions = {
     { id: 'cetartiodactyla-comparison-window', kind: 'comparison', route: '#/compare?left=indohyus&right=ambulocetus', entityIds: ['indohyus', 'ambulocetus'], claimIds: ['claim:taxon:indohyus:fossil-range', 'claim:taxon:ambulocetus:fossil-range'] },
   ] },
   'mammal-origins': { label: { en: 'Mammal origins', zh: '哺乳动物起源' }, scenes: [
-    { id: 'mammal-origins-map-window', kind: 'map', route: '#/explore?taxon=synapsida&view=map&age=154.25&older=308.5&younger=0', entityIds: ['synapsida'], claimIds: ['claim:taxon:synapsida:root-range'] },
-    { id: 'mammal-origins-comparison-window', kind: 'comparison', route: '#/compare?left=haramiyavia&right=liaoconodon', entityIds: ['haramiyavia', 'liaoconodon'], claimIds: ['claim:taxon:haramiyavia:fossil-range', 'claim:taxon:liaoconodon:fossil-range'] },
+    { id: 'mammal-origins-map-window', kind: 'map', route: '#/explore?taxon=dimetrodon&view=map&age=281.55&older=290.1&younger=273', entityIds: ['dimetrodon'], claimIds: ['claim:taxon:dimetrodon:source-bounded-range-rc49'] },
+    { id: 'mammal-origins-comparison-window', kind: 'comparison', route: '#/compare?left=dimetrodon&right=morganucodonta', entityIds: ['dimetrodon', 'morganucodonta'], claimIds: ['claim:taxon:dimetrodon:source-bounded-range-rc49', 'claim:taxon:morganucodonta:source-bounded-range-rc49'] },
   ] },
   'other-mammals': { label: { en: 'Other mammals', zh: '其他哺乳动物' }, scenes: [
     { id: 'other-mammals-map-window', kind: 'map', route: '#/explore?taxon=monotremata&view=map&age=55&older=110&younger=0', entityIds: ['monotremata'], claimIds: ['claim:taxon:monotremata:root-range'] },
@@ -373,12 +373,12 @@ export const packageDefinitions = [
     titleZh: '合弓类与哺乳动物起源',
     rootEntityIds: ['synapsida'],
     conceptScope: {
-      en: 'Seven primary-evidence dossiers follow named specimens, CT datasets, morphology matrices and living developmental experiments from early synapsids through mammaliaforms. They explicitly separate preserved anatomy, matrix topology, inferred function, crown-Mammalia qualification and fossil or model time; no taxon is presented as a rung in an ancestor ladder. Navigation exposes Ophiacodontidae, Probainognathia, Mammaliamorpha, Mammaliaformes, Haramiyida, Morganucodonta and Eutriconodonta as curated browse routes rather than a complete or uncontested phylogeny. COL26.8 assigns zero accepted species directly to mammal-origins because living Mammalia route to order-specific or other-mammals packages and Synapsida lacks a reliable materialized species root. Zero is a routing boundary, not absence of living synapsids, nomenclatural coverage or content maturity.',
-      zh: '七个一手证据档案从早期合弓类追踪至哺乳形类，依据具名标本、CT 数据集、形态矩阵与现生发育实验，并严格区分保存的解剖结构、矩阵拓扑、功能推断、哺乳动物冠群资格以及化石或模型时间；任何类群都不被描述为祖先阶梯的一环。策展导航展示蛇齿龙科、原颌兽类、哺乳形态类、哺乳形类、贼兽类、摩尔根兽类与真三尖齿兽类，但这些只是浏览路径，并非完整或无争议的系统树。COL26.8 没有把已接受种直接分配给 mammal-origins，因为现生哺乳动物被路由至目级或 other-mammals 内容包，而 Synapsida 缺少可靠实体化的种级根节点。零分配是路由边界，不表示没有现生合弓类、没有命名覆盖或内容已经成熟。',
+      en: 'Five primary-evidence dossiers follow named specimens, morphology matrices and a skull comparison from early synapsids through mammaliaforms. They explicitly separate preserved anatomy, matrix topology, inferred function, crown-Mammalia qualification and fossil or model time; no taxon is presented as a rung in an ancestor ladder. Navigation exposes Ophiacodontidae, Probainognathia, Mammaliamorpha, Mammaliaformes, Haramiyida, Morganucodonta and Eutriconodonta as curated browse routes rather than a complete or uncontested phylogeny. COL26.8 assigns zero accepted species directly to mammal-origins because living Mammalia route to order-specific or other-mammals packages and Synapsida lacks a reliable materialized species root. Zero is a routing boundary, not absence of living synapsids, nomenclatural coverage or content maturity.',
+      zh: '五个一手证据档案从早期合弓类追踪至哺乳形类，依据具名标本、形态矩阵与颅骨比较，并严格区分保存的解剖结构、矩阵拓扑、功能推断、哺乳动物冠群资格以及化石或模型时间；任何类群都不被描述为祖先阶梯的一环。策展导航展示蛇齿龙科、原颌兽类、哺乳形态类、哺乳形类、贼兽类、摩尔根兽类与真三尖齿兽类，但这些只是浏览路径，并非完整或无争议的系统树。COL26.8 没有把已接受种直接分配给 mammal-origins，因为现生哺乳动物被路由至目级或 other-mammals 内容包，而 Synapsida 缺少可靠实体化的种级根节点。零分配是路由边界，不表示没有现生合弓类、没有命名覆盖或内容已经成熟。',
     },
     scientificMaturity: 'source-linked',
     limitations: [
-      'Every entity-wide range is now source-bounded to a stated sample or explicitly withheld; the seven specimen- and experiment-scoped events do not promote local observations into global first or last appearances.',
+      'Every entity-wide range is now source-bounded to a stated sample or explicitly withheld; specimen- and experiment-scoped events do not promote local observations into global first or last appearances.',
       'The Jurassic jaw–ear event is a composite comparison of separate taxa, formations and ages; functional language is inference, not measured hearing or bite performance and not an ancestor–descendant series.',
       'Crown membership and deep placement follow cited character matrices, while historical and navigation-only parent edges remain browse aids rather than universal topology assertions.',
       'COL26.8 zero assigned species is a package-routing result; extant Mammalia are covered by other packages and the count does not grade dossier, fossil, morphology, media, translation or expert-review completeness.',

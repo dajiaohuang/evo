@@ -17378,6 +17378,12 @@
         "referenceId": "luo-2002-mesozoic-mammal-phylogeny",
         "pages": "1–78",
         "quoteLocator": "Taxon sampling; Mammaliaformes relationships; discussion of crown Mammalia definitions"
+      },
+      {
+        "relation": "supports",
+        "referenceId": "kermack-1981-morganucodon-skull",
+        "pages": "1–158, especially 1–8",
+        "quoteLocator": "Material, taxonomy and systematic position of Morganucodon"
       }
     ]
   },
@@ -20881,6 +20887,78 @@
     ]
   },
   {
+    "id": "claim:taxon:dimetrodon:taxonomy",
+    "subjectId": "taxon:dimetrodon",
+    "claimKind": "scientific",
+    "claimType": "taxonomy",
+    "statement": "This dossier is limited to the Dimetrodon and cf. Dimetrodon teeth and skull material explicitly sampled by Brink and Reisz; the study's sphenacodontid placement is a matrix result and not direct ancestry.",
+    "confidence": "medium",
+    "confidenceRationale": "Named museum specimens and the sampled analysis identify the evidence boundary, but species-level attribution of isolated material and higher placement remain analytical.",
+    "reviewedBy": "Evo Atlas RC84 mammal-origins dossier audit",
+    "reviewedAt": "2026-09-01",
+    "reviewedAgainstReferenceVersion": "brink-2014-dimetrodon-dentition primary-study locators checked 2026-09-01",
+    "referenceLinks": [{
+      "relation": "supports",
+      "referenceId": "brink-2014-dimetrodon-dentition",
+      "pages": "Article 3269; Figures 1–4",
+      "quoteLocator": "Results: Morphology and histology of sphenacodontid teeth; Methods: Description of sphenacodontid teeth"
+    }]
+  },
+  {
+    "id": "claim:taxon:dimetrodon:biogeography",
+    "subjectId": "taxon:dimetrodon",
+    "claimKind": "scientific",
+    "claimType": "biogeography",
+    "statement": "The profile maps only the Early Permian Texas and New Mexico sample, including Archer City, Mount Barry, Briar Creek, Rattlesnake Canyon and the Craddock bonebed; it does not assert a complete geographic distribution.",
+    "confidence": "medium",
+    "confidenceRationale": "The paper lists the sampled localities and associated Dimetrodon material, while its sampling design is not a global occurrence census.",
+    "reviewedBy": "Evo Atlas RC84 mammal-origins dossier audit",
+    "reviewedAt": "2026-09-01",
+    "reviewedAgainstReferenceVersion": "brink-2014-dimetrodon-dentition primary-study locators checked 2026-09-01",
+    "referenceLinks": [{
+      "relation": "supports",
+      "referenceId": "brink-2014-dimetrodon-dentition",
+      "pages": "Article 3269; Supplementary Table 1",
+      "quoteLocator": "Methods: Description of sphenacodontid teeth"
+    }]
+  },
+  {
+    "id": "claim:taxon:dimetrodon:ecology",
+    "subjectId": "taxon:dimetrodon",
+    "claimKind": "scientific",
+    "claimType": "ecology",
+    "statement": "The authors interpret sphenacodontids, including the sampled Dimetrodon material, as fully terrestrial apex predators and relate dental-character change to feeding style and trophic interactions; direct prey use and locomotor performance were not observed for each specimen.",
+    "confidence": "medium",
+    "confidenceRationale": "Dental anatomy and the authors' ecological interpretation support a bounded predator inference, but they do not directly record behaviour, prey or performance.",
+    "reviewedBy": "Evo Atlas RC84 mammal-origins dossier audit",
+    "reviewedAt": "2026-09-01",
+    "reviewedAgainstReferenceVersion": "brink-2014-dimetrodon-dentition primary-study locators checked 2026-09-01",
+    "referenceLinks": [{
+      "relation": "supports",
+      "referenceId": "brink-2014-dimetrodon-dentition",
+      "pages": "Article 3269; Figures 1–6",
+      "quoteLocator": "Abstract; Results: Phylogenetic analysis"
+    }]
+  },
+  {
+    "id": "claim:taxon:dimetrodon:morphology",
+    "subjectId": "taxon:dimetrodon",
+    "claimKind": "scientific",
+    "claimType": "morphology",
+    "statement": "MCZ 2779, MCZ 2028, ROM 64021 and UMMP 9722 document the sampled Dimetrodon snout and teeth, including enlarged anterior teeth, carinae and variation in lingual cusp morphology; these observations do not diagnose every species or individual of the genus.",
+    "confidence": "high",
+    "confidenceRationale": "The paper figures and describes the named specimens directly; scope is retained at the observed material rather than extrapolated to every Dimetrodon.",
+    "reviewedBy": "Evo Atlas RC84 mammal-origins dossier audit",
+    "reviewedAt": "2026-09-01",
+    "reviewedAgainstReferenceVersion": "brink-2014-dimetrodon-dentition primary-study locators checked 2026-09-01",
+    "referenceLinks": [{
+      "relation": "supports",
+      "referenceId": "brink-2014-dimetrodon-dentition",
+      "pages": "Article 3269; Figures 1–4",
+      "quoteLocator": "Results: Morphology and histology of sphenacodontid teeth"
+    }]
+  },
+  {
     "id": "claim:taxon:dimetrodon:source-bounded-range-rc49",
     "subjectId": "taxon:dimetrodon",
     "claimKind": "scientific",
@@ -21154,6 +21232,60 @@
         "quoteLocator": "Numerical boundaries for named geological stages used to bound the source sample"
       }
     ]
+  },
+  {
+    "id": "claim:taxon:morganucodonta:biogeography",
+    "subjectId": "taxon:morganucodonta",
+    "claimKind": "scientific",
+    "claimType": "biogeography",
+    "statement": "The primary skull study describes Lower Jurassic Morganucodon watsoni from Wales and M. oehleri from China; these two source localities are representative material, not a complete geographic distribution for Morganucodonta.",
+    "confidence": "medium",
+    "confidenceRationale": "The source names the two species, countries and Lower Jurassic context, but an order-level dossier must not turn them into a complete range or origin centre.",
+    "reviewedBy": "Evo Atlas RC84 mammal-origins dossier audit",
+    "reviewedAt": "2026-09-01",
+    "reviewedAgainstReferenceVersion": "kermack-1981-morganucodon-skull primary-study locators checked 2026-09-01",
+    "referenceLinks": [{
+      "relation": "supports",
+      "referenceId": "kermack-1981-morganucodon-skull",
+      "pages": "1–158, especially 1–8",
+      "quoteLocator": "Introduction and material: M. watsoni from Wales; M. oehleri from China"
+    }]
+  },
+  {
+    "id": "claim:taxon:morganucodonta:ecology",
+    "subjectId": "taxon:morganucodonta",
+    "claimKind": "scientific",
+    "claimType": "ecology",
+    "statement": "The described Morganucodon skulls have teeth differentiated into incisors, canines, premolars and molars, but the study does not directly observe diet, habitat, locomotion or behaviour for Morganucodonta as a whole.",
+    "confidence": "medium",
+    "confidenceRationale": "The dental differentiation is a direct anatomical observation; ecological function is deliberately withheld beyond a cautious dental inference.",
+    "reviewedBy": "Evo Atlas RC84 mammal-origins dossier audit",
+    "reviewedAt": "2026-09-01",
+    "reviewedAgainstReferenceVersion": "kermack-1981-morganucodon-skull primary-study locators checked 2026-09-01",
+    "referenceLinks": [{
+      "relation": "supports",
+      "referenceId": "kermack-1981-morganucodon-skull",
+      "pages": "1–158, especially 1–8",
+      "quoteLocator": "Abstract; dentition and functional differentiation"
+    }]
+  },
+  {
+    "id": "claim:taxon:morganucodonta:morphology",
+    "subjectId": "taxon:morganucodonta",
+    "claimKind": "scientific",
+    "claimType": "morphology",
+    "statement": "Kermack and colleagues describe a 26 mm Morganucodon watsoni skull and a slightly larger M. oehleri skull, with a squamosal–dentary contact while the articular–quadrate joint is retained; this is one anatomical mosaic, not a linear transition or direct ancestry claim.",
+    "confidence": "high",
+    "confidenceRationale": "The named skull study directly describes the stated anatomy, while functional and evolutionary interpretations remain bounded to the authors' material and taxon sampling.",
+    "reviewedBy": "Evo Atlas RC84 mammal-origins dossier audit",
+    "reviewedAt": "2026-09-01",
+    "reviewedAgainstReferenceVersion": "kermack-1981-morganucodon-skull primary-study locators checked 2026-09-01",
+    "referenceLinks": [{
+      "relation": "supports",
+      "referenceId": "kermack-1981-morganucodon-skull",
+      "pages": "1–158, especially 1–8",
+      "quoteLocator": "Abstract; skull, jaw articulation and middle-ear descriptions"
+    }]
   },
   {
     "id": "claim:taxon:morganucodonta:source-bounded-range-rc49",
