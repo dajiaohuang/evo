@@ -68,6 +68,9 @@ export const researchSceneDefinitions = {
   'crustaceans-insects': { label: { en: 'Crustaceans and insects', zh: '甲壳类与昆虫' }, scenes: [
     { id: 'crustaceans-insects-strudiella-map-window', kind: 'map', route: '#/explore?taxon=strudiella&view=map&age=365&older=365&younger=365', entityIds: ['strudiella'], claimIds: ['claim:taxon:strudiella:fossil-range', 'claim:event:strudiella-reassessment'] },
     { id: 'crustaceans-insects-contested-comparison-window', kind: 'comparison', route: '#/compare?left=strudiella&right=cretophasmomima', entityIds: ['strudiella', 'cretophasmomima'], entityLabel: { en: 'Strudiella and Cretophasmomima melanogramma', zh: 'Strudiella 与 Cretophasmomima melanogramma' }, claimIds: ['claim:taxon:strudiella:fossil-range', 'claim:taxon:cretophasmomima:fossil-range'] },
+    { id: 'crustaceans-insects-rhyniella-rhynie-window', kind: 'map', route: '#/explore?taxon=rhyniella&view=map&age=407&older=411&younger=407', entityIds: ['rhyniella'], claimIds: ['claim:taxon:rhyniella', 'claim:taxon:rhyniella:morphology'] },
+    { id: 'crustaceans-insects-rhyniognatha-contested-window', kind: 'map', route: '#/explore?taxon=rhyniognatha&view=map&age=407&older=411&younger=407', entityIds: ['rhyniognatha'], claimIds: ['claim:event:rhyniognatha-contested-affinity', 'claim:taxon:rhyniognatha'] },
+    { id: 'crustaceans-insects-paskov-wing-window', kind: 'map', route: '#/explore?taxon=paskov-wing&view=map&age=324&older=325&younger=323', entityIds: ['paskov-wing'], claimIds: ['claim:event:paskov-carboniferous-wing', 'claim:taxon:paskov-wing'] },
   ] },
   echinoderms: { label: { en: 'Echinoderms', zh: '棘皮动物' }, scenes: [
     { id: 'echinoderms-map-window', kind: 'map', route: '#/explore?taxon=echinodermata&view=map&age=255&older=510&younger=0', entityIds: ['echinodermata'], claimIds: ['claim:taxon:echinodermata:fossil-range'] },
