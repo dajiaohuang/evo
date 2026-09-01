@@ -1,5 +1,12 @@
 # Dataset changelog
 
+## App 0.20.39 / 2026.09-static-v5-rc88 — 2026-09-01
+
+- Added 17 source-bounded, age-driven map scenes: five for Perissodactyla, seven for Echinoderms and five for Amphibia. The three packages now expose 8, 10 and 8 scenes, and the atlas totals rise from 97 to 114 scenes and from 151 to 168 scene-to-claim links.
+- Connected the new cards to existing locator-bearing claims and `available` ranges for named specimens, regional dispersal windows, articulated faunas and class-specific records. All 61 age-driven scenes now intersect a shared entity-and-claim range at the routed age.
+- Preserved source boundaries throughout: one dated specimen or sampled horizon is not presented as a global first or last appearance, exact origin, direct ancestor, complete distribution, extinction cause or demonstrated fossil-to-map co-registration.
+- Regenerated the shared package registry and manifest as RC88. Android `versionCode` and iOS build number advance to `42` / app `0.20.39`; both native apps retain the complete `native-full` catalogue, authority shards and all 109 lossless 0.1° PaleoDEM frames while Pages remains `web-light`.
+
 ## App 0.20.38 / 2026.09-static-v5-rc87 — 2026-09-01
 
 - Expanded Sponges and cnidarians, Carnivora and Primates from five to seven complete bilingual profiles each: Burgessomedusa phasmiformis, Amphimedon queenslandica, Lycophocyon hutchisoni, Kretzoiarctos beatrix, Notharctus and Eosimias.

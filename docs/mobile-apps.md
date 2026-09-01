@@ -23,6 +23,8 @@ dist-mobile/                 # 临时生成的移动客户端壳，不提交
 
 ## 数据与离线边界
 
+rc88 将 Android 与 iOS 同步到 build `42` / app `0.20.39`。两端完整获得奇蹄目、棘皮动物与两栖类新增的 17 张来源限定地图卡；三个包现分别提供 8、10、8 个场景，原生包合计 114 个研究场景和 168 条场景—主张链接。全部 61 个时间驱动场景都在路由年龄命中一个共享实体和主张的 `available` 范围；单件标本、地层窗口、区域记录、模型结果和取整年龄均不被提升为全球首末现、直接祖先、完整分布或精确地图共定位。`native-full` 继续逐字节保留 COL26.8 全部 2,183,133 个接受种、全部权威分片和 109 帧 0.1° PaleoDEM；Pages 保持 `web-light`。
+
 rc87 将 Android 与 iOS 同步到 build `41` / app `0.20.38`。两端完整获得 Burgessomedusa phasmiformis、Amphimedon queenslandica、Lycophocyon hutchisoni、Kretzoiarctos beatrix、Notharctus 与 Eosimias 6 个新增双语档案、24 条主张和 18 个研究场景；当前原生包共有 127 个完整档案、403 个导航节点、1,277 条证据主张、484 条参考文献与 97 个来源限定场景。全部 44 个时间驱动场景都在路由年龄命中一个共享实体和主张的 `available` 范围；现生 Amphimedon 样本不获得伪造的化石时限。`native-full` 继续逐字节保留 COL26.8 全部 2,183,133 个接受种、全部权威分片和 109 帧 0.1° PaleoDEM；Pages 保持 `web-light`。
 
 rc86 将 Android 与 iOS 同步到 build `40` / app `0.20.37`。两端完整获得 Yinlong downsi、Yutyrannus huali、Pojetaia runnegari、Kutorgina chengjiangensis、Rhyniella praecursor 与 Odonata 6 个新增双语档案、23 条主张和 7 个研究场景，当前原生包共有 121 个完整档案、403 个导航节点、1,253 条证据主张、484 条参考文献与 79 个来源限定场景。全部 34 个时间驱动场景都在路由年龄命中一个共享实体和主张的 `available` 范围；Rhyniognatha 与 Paskov 翅化石仍是有争议的场景证据，不因原生全量交付而获得伪造的 PBDB ID 或完整档案。`native-full` 继续逐字节保留 COL26.8 全部 2,183,133 个接受种、全部权威分片和 109 帧 0.1° PaleoDEM；Pages 保持 `web-light`，不复制原生端全量逐种行。

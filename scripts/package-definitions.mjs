@@ -1,5 +1,5 @@
 export const PACKAGE_SCHEMA_VERSION = 5
-export const DATASET_PACKAGE_VERSION = '2026.09-static-v5-rc87'
+export const DATASET_PACKAGE_VERSION = '2026.09-static-v5-rc88'
 export const DATASET_RELEASE_DATE = '2026-09-01'
 
 // Explicit source-bound Explorer presets. These mappings are intentionally
@@ -80,6 +80,13 @@ export const researchSceneDefinitions = {
   echinoderms: { label: { en: 'Echinoderms', zh: '棘皮动物' }, scenes: [
     { id: 'echinoderms-map-window', kind: 'map', route: '#/explore?taxon=echinodermata&view=map&age=255&older=510&younger=0', entityIds: ['echinodermata'], claimIds: ['claim:taxon:echinodermata:fossil-range'] },
     { id: 'echinoderms-comparison-window', kind: 'comparison', route: '#/compare?left=echinodermata&right=crinoidea', entityIds: ['echinodermata', 'crinoidea'], claimIds: ['claim:taxon:echinodermata:fossil-range', 'claim:taxon:crinoidea:tremadocian-record'] },
+    { id: 'echinoderms-articulated-faunas-map', kind: 'map', route: '#/explore?taxon=echinodermata&view=map&age=510&older=510&younger=0', entityIds: ['echinodermata'], claimIds: ['claim:taxon:echinodermata:articulated-faunas-510ma'] },
+    { id: 'echinoderms-crinoid-tremadocian-map', kind: 'map', route: '#/explore?taxon=crinoidea&view=map&age=482&older=482&younger=0', entityIds: ['crinoidea'], claimIds: ['claim:taxon:crinoidea:tremadocian-record'] },
+    { id: 'echinoderms-asteroid-tremadocian-map', kind: 'map', route: '#/explore?taxon=asteroidea&view=map&age=478&older=478&younger=0', entityIds: ['asteroidea'], claimIds: ['claim:taxon:asteroidea:top-tremadocian-body-fossil'] },
+    { id: 'echinoderms-ophiuroid-floian-map', kind: 'map', route: '#/explore?taxon=ophiuroidea&view=map&age=477.1&older=477.1&younger=0', entityIds: ['ophiuroidea'], claimIds: ['claim:taxon:ophiuroidea:floian-body-fossil'] },
+    { id: 'echinoderms-echinoid-darriwilian-map', kind: 'map', route: '#/explore?taxon=echinoidea&view=map&age=460&older=460&younger=0', entityIds: ['echinoidea'], claimIds: ['claim:taxon:echinoidea:ordovician-stem-record'] },
+    { id: 'echinoderms-holothurian-darriwilian-map', kind: 'map', route: '#/explore?taxon=holothuroidea&view=map&age=460&older=460&younger=0', entityIds: ['holothuroidea'], claimIds: ['claim:taxon:holothuroidea:darriwilian-articulated-record'] },
+    { id: 'echinoderms-blastoid-wuchiapingian-map', kind: 'map', route: '#/explore?taxon=blastoidea&view=map&age=255&older=455&younger=255', entityIds: ['blastoidea'], claimIds: ['claim:taxon:blastoidea:sandbian-wuchiapingian-record'] },
   ] },
   'early-fishes': { label: { en: 'Early fishes', zh: '早期鱼类' }, scenes: [
     { id: 'early-fishes-map-window', kind: 'map', route: '#/explore?taxon=xiushanosteus&view=map&age=436&older=438.6&younger=432.9', entityIds: ['xiushanosteus'], claimIds: ['claim:taxon:xiushanosteus:fossil-range'] },
@@ -96,6 +103,11 @@ export const researchSceneDefinitions = {
   amphibia: { label: { en: 'Amphibia', zh: '两栖类' }, scenes: [
     { id: 'amphibia-map-window', kind: 'map', route: '#/explore?taxon=amphibia&view=map&age=170.5&older=341&younger=0', entityIds: ['amphibia'], claimIds: ['claim:taxon:amphibia:fossil-range'] },
     { id: 'amphibia-comparison-window', kind: 'comparison', route: '#/compare?left=gerobatrachus&right=triadobatrachus', entityIds: ['gerobatrachus', 'triadobatrachus'], claimIds: ['claim:taxon:gerobatrachus:fossil-range', 'claim:taxon:triadobatrachus:fossil-range'] },
+    { id: 'amphibia-gerobatrachus-map-window', kind: 'map', route: '#/explore?taxon=gerobatrachus&view=map&age=279&older=283.3&younger=274.4', entityIds: ['gerobatrachus'], claimIds: ['claim:taxon:gerobatrachus:fossil-range'] },
+    { id: 'amphibia-triadobatrachus-map-window', kind: 'map', route: '#/explore?taxon=triadobatrachus&view=map&age=249&older=251.902&younger=247', entityIds: ['triadobatrachus'], claimIds: ['claim:taxon:triadobatrachus:fossil-range'] },
+    { id: 'amphibia-funcusvermis-map-window', kind: 'map', route: '#/explore?taxon=funcusvermis&view=map&age=220&older=223.036&younger=218.043', entityIds: ['funcusvermis'], claimIds: ['claim:taxon:funcusvermis:fossil-range'] },
+    { id: 'amphibia-beiyanerpeton-map-window', kind: 'map', route: '#/explore?taxon=beiyanerpeton&view=map&age=157&older=160&younger=154', entityIds: ['beiyanerpeton'], claimIds: ['claim:taxon:beiyanerpeton:fossil-range'] },
+    { id: 'amphibia-ymboirana-map-window', kind: 'map', route: '#/explore?taxon=ymboirana&view=map&age=25&older=27.82&younger=23.03', entityIds: ['ymboirana'], claimIds: ['claim:event:oligocene-ymboirana-crown-caecilian'] },
   ] },
   'tetrapod-transition': { label: { en: 'Tetrapod transition', zh: '四足动物过渡' }, scenes: [
     { id: 'tetrapod-transition-map-window', kind: 'map', route: '#/explore?taxon=sarcopterygii&view=map&age=209.5&older=419&younger=0', entityIds: ['sarcopterygii'], claimIds: ['claim:taxon:sarcopterygii:fossil-range'] },
@@ -155,6 +167,11 @@ export const researchSceneDefinitions = {
   perissodactyla: { label: { en: 'Perissodactyla', zh: '奇蹄类' }, scenes: [
     { id: 'perissodactyla-map-window', kind: 'map', route: '#/explore?taxon=perissodactyla&view=map&age=28&older=56&younger=0', entityIds: ['perissodactyla'], claimIds: ['claim:taxon:perissodactyla:fossil-range'] },
     { id: 'perissodactyla-diversity-window', kind: 'diversity', route: '#/explore?taxon=perissodactyla&view=diversity&age=28&older=56&younger=0', entityIds: ['perissodactyla'], claimIds: ['claim:taxon:perissodactyla:fossil-range'] },
+    { id: 'perissodactyla-petm-radiation-map', kind: 'map', route: '#/explore?taxon=perissodactyla&view=map&age=56&older=56&younger=56', entityIds: ['perissodactyla'], claimIds: ['claim:taxon:perissodactyla:fossil-range'] },
+    { id: 'perissodactyla-hipparionini-old-world-dispersal-map', kind: 'map', route: '#/explore?taxon=hipparionini&view=map&age=11.2&older=11.4&younger=11', entityIds: ['hipparionini'], claimIds: ['claim:taxon:hipparionini:fossil-range'] },
+    { id: 'perissodactyla-paraceratherium-linxia-map', kind: 'map', route: '#/explore?taxon=paraceratherium&view=map&age=26.5&older=26.5&younger=26.5', entityIds: ['paraceratherium'], claimIds: ['claim:taxon:paraceratherium:fossil-range'] },
+    { id: 'perissodactyla-teleoceras-ashfall-map', kind: 'map', route: '#/explore?taxon=teleoceras&view=map&age=11.86&older=12.5&younger=10', entityIds: ['teleoceras'], claimIds: ['claim:taxon:teleoceras:fossil-range'] },
+    { id: 'perissodactyla-coelodonta-late-individual-map', kind: 'map', route: '#/explore?taxon=coelodonta&view=map&age=0.0144&older=0.0144&younger=0.0144', entityIds: ['coelodonta'], claimIds: ['claim:taxon:coelodonta:fossil-range'] },
   ] },
 }
 
