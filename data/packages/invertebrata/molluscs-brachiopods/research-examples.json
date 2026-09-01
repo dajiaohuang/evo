@@ -74,6 +74,54 @@
       "limitations": [
         "The two sides retain separate source, sampling, range and uncertainty boundaries; visual differences are not tests of evolutionary causation or a package-specific phylogeny."
       ]
+    },
+    {
+      "id": "molluscs-brachiopods-pojetaia-map-window",
+      "type": "explorer-preset",
+      "title": {
+        "en": "Molluscs and brachiopods occurrence window",
+        "zh": "软体动物与腕足动物出现窗口"
+      },
+      "description": {
+        "en": "Open a source-bounded Molluscs and brachiopods time window in the map to inspect sampled occurrence context linked to this package.",
+        "zh": "在地图中打开有来源边界的软体动物与腕足动物时间窗口，检查与本包关联的采样出现背景。"
+      },
+      "route": "#/explore?taxon=pojetaia&view=map&age=510&older=514.5&younger=506.5",
+      "entityIds": [
+        "pojetaia"
+      ],
+      "claimIds": [
+        "claim:taxon:pojetaia:source-bounded-range-rc50"
+      ],
+      "evidenceStatus": "available-with-limitations",
+      "limitations": [
+        "The interval follows the linked package range and claim; map markers are sampled records and do not establish a complete distribution, exact origination or extinction, or direct ancestry."
+      ]
+    },
+    {
+      "id": "molluscs-brachiopods-pojetaia-kutorgina-comparison",
+      "type": "comparison",
+      "title": {
+        "en": "Molluscs and brachiopods evidence comparison",
+        "zh": "软体动物与腕足动物证据比较"
+      },
+      "description": {
+        "en": "Compare pojetaia and kutorgina-chengjiangensis through package-linked claims and bounded occurrence context; this side-by-side route is an evidence inspection aid.",
+        "zh": "通过本包关联的声明与限定出现背景比较pojetaia与kutorgina-chengjiangensis；并列页面仅用于证据检查。"
+      },
+      "route": "#/compare?left=pojetaia&right=kutorgina-chengjiangensis",
+      "entityIds": [
+        "pojetaia",
+        "kutorgina-chengjiangensis"
+      ],
+      "claimIds": [
+        "claim:taxon:pojetaia:source-bounded-range-rc50",
+        "claim:taxon:kutorgina-chengjiangensis:fossil-range"
+      ],
+      "evidenceStatus": "available-with-limitations",
+      "limitations": [
+        "The two sides retain separate source, sampling, range and uncertainty boundaries; visual differences are not tests of evolutionary causation or a package-specific phylogeny."
+      ]
     }
   ]
 }
