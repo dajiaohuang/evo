@@ -77,12 +77,12 @@
       "id": "gymnosperms-famennian-seed-window",
       "type": "explorer-preset",
       "title": {
-        "en": "Famennian cupulate-seed evidence",
-        "zh": "法门期杯状种子证据"
+        "en": "Famennian cupulate seeds occurrence window",
+        "zh": "法门期杯状种子出现窗口"
       },
       "description": {
-        "en": "Open the Gymnospermae navigation envelope at the rounded 365 Ma Famennian seed sample to inspect the Hampshire Formation evidence that anchors early total-group seed plants.",
-        "zh": "在约 3.65 亿年前的法门期种子样本处打开裸子植物导航包络，检查汉普郡组证据如何锚定早期种子植物总群。"
+        "en": "Open a source-bounded Famennian cupulate seeds time window in the map to inspect sampled occurrence context linked to this package.",
+        "zh": "在地图中打开有来源边界的法门期杯状种子时间窗口，检查与本包关联的采样出现背景。"
       },
       "route": "#/explore?taxon=gymnospermae&view=map&age=365&older=365&younger=0",
       "entityIds": [
@@ -93,7 +93,7 @@
       ],
       "evidenceStatus": "available-with-limitations",
       "limitations": [
-        "The rounded age is a Famennian Hampshire Formation sample envelope for total-group seed plants, not a crown-Gymnospermae age, global first appearance, direct ancestor sequence or complete distribution."
+        "The interval follows the linked package range and claim; map markers are sampled records and do not establish a complete distribution, exact origination or extinction, or direct ancestry."
       ]
     },
     {
@@ -104,8 +104,8 @@
         "zh": "苏铁冠群年龄模型窗口"
       },
       "description": {
-        "en": "Open Cycadophyta at the rounded 330.4 Ma fossilized-birth–death median to inspect how fossil-integrated dating frames crown Cycadales alongside living cycads.",
-        "zh": "在约 3.304 亿年前的化石化出生–死亡模型中位数处打开苏铁类，检查化石整合定年如何结合现生苏铁界定苏铁目冠群。"
+        "en": "Open the model-age window in the map as calibration context for the linked cycad claims, not as a mapped fossil occurrence.",
+        "zh": "在地图中打开模型年龄窗口，作为关联苏铁声明的校准语境，而不是地图化的化石出现记录。"
       },
       "route": "#/explore?taxon=cycadophyta&view=map&age=330.4&older=358.9&younger=296.2",
       "entityIds": [
@@ -117,19 +117,19 @@
       ],
       "evidenceStatus": "available-with-limitations",
       "limitations": [
-        "The age is a model median with a 296.2–358.9 Ma 95% HPD, not a directly observed fossil FAD; the route does not establish a global cycad origin or synchronous living-species radiation."
+        "This is a model and calibration context. The routed age is not a direct fossil occurrence, a global first appearance, or exact spatial evidence."
       ]
     },
     {
       "id": "gymnosperms-cycadaceae-palaeogene-window",
       "type": "explorer-preset",
       "title": {
-        "en": "Cycadaceae Palaeogene crown model",
-        "zh": "苏铁科古近纪冠群模型"
+        "en": "Cycadaceae Palaeogene crown-model window",
+        "zh": "苏铁科古近纪冠群模型窗口"
       },
       "description": {
-        "en": "Open Cycadophyta around the rounded 69.3 Ma Cycadaceae model mean to inspect calibration- and tree-prior-dependent evidence for extant Cycadaceae.",
-        "zh": "在约 6930 万年前的苏铁科模型平均值附近打开苏铁类，检查依赖校准与树先验的现生苏铁科证据。"
+        "en": "Open the inferred Palaeogene crown-age interval as model context alongside the linked cycad range evidence.",
+        "zh": "打开推断的古近纪冠群年龄区间，将其作为模型语境与关联苏铁范围证据一同检查。"
       },
       "route": "#/explore?taxon=cycadophyta&view=map&age=69.3&older=69.3&younger=42.9",
       "entityIds": [
@@ -141,19 +141,19 @@
       ],
       "evidenceStatus": "available-with-limitations",
       "limitations": [
-        "The 69.31 and 42.88 Ma means are alternative model-prior results for extant Cycadaceae, not fossil first appearances, an age for all cycads or a direct ancestor sequence."
+        "The interval is a model result, not a direct Cycadaceae fossil occurrence, global FAD, or exact spatial record."
       ]
     },
     {
       "id": "gymnosperms-tiaojishan-ginkgoxylon-window",
       "type": "explorer-preset",
       "title": {
-        "en": "Tiaojishan Ginkgoxylon wood window",
-        "zh": "桃花山组银杏木材窗口"
+        "en": "Tiaojishan Ginkgoxylon wood occurrence window",
+        "zh": "髫髻山组银杏木材出现窗口"
       },
       "description": {
-        "en": "Open Ginkgophyta across the rounded 153–165 Ma Tiaojishan interval to inspect PB22285, the diagnosed Ginkgoxylon liaoningense wood specimen from western Liaoning.",
-        "zh": "在约 1.53–1.65 亿年前的桃花山组区间打开银杏类，检查辽西标本 PB22285 及其鉴定的辽宁银杏木材。"
+        "en": "Open a source-bounded Tiaojishan Ginkgoxylon wood time window in the map to inspect sampled occurrence context linked to this package.",
+        "zh": "在地图中打开有来源边界的髫髻山组银杏木材时间窗口，检查与本包关联的采样出现背景。"
       },
       "route": "#/explore?taxon=ginkgophyta&view=map&age=159&older=165&younger=153",
       "entityIds": [
@@ -165,19 +165,19 @@
       ],
       "evidenceStatus": "available-with-limitations",
       "limitations": [
-        "The interval belongs to one dated wood specimen and its organ-taxon diagnosis; it does not establish the phylum FAD, an unbroken lineage, a particular co-occurring leaf species or direct ancestry of living Ginkgo."
+        "The interval follows the linked package range and claim; map markers are sampled records and do not establish a complete distribution, exact origination or extinction, or direct ancestry."
       ]
     },
     {
       "id": "gymnosperms-conifer-hemisphere-model-window",
       "type": "explorer-preset",
       "title": {
-        "en": "Conifer hemispheric node model",
-        "zh": "松柏类半球节点模型"
+        "en": "Conifer hemispheric-node model window",
+        "zh": "松柏类半球节点模型窗口"
       },
       "description": {
-        "en": "Open Coniferophyta at the rounded 8.7 Ma Southern Hemisphere sampled-node median to inspect its modelled contrast with the 5.2 Ma Northern Hemisphere sample.",
-        "zh": "在约 870 万年前的南半球取样节点中位数处打开松柏类，检查其与约 520 万年前北半球取样的模型对比。"
+        "en": "Open the inferred node-age window to inspect the linked hemispheric model context without treating it as a fossil locality.",
+        "zh": "打开推断的节点年龄窗口，检查关联的半球模型语境，不把它当作化石地点记录。"
       },
       "route": "#/explore?taxon=coniferophyta&view=map&age=8.7&older=8.7&younger=5.2",
       "entityIds": [
@@ -189,19 +189,19 @@
       ],
       "evidenceStatus": "available-with-limitations",
       "limitations": [
-        "These are relative modelled ages from 489 sampled living conifer species and 16 fossil calibrations, not fossil range endpoints, a complete conifer history or proof of climatic causation."
+        "This window represents an inferred model node, not a fossil occurrence, exact palaeolocation, or complete hemispheric history."
       ]
     },
     {
       "id": "gymnosperms-holyoke-araucaria-window",
       "type": "explorer-preset",
       "title": {
-        "en": "Holyoke Araucariaceae bract-scale window",
-        "zh": "霍利奥克南洋杉科苞鳞片窗口"
+        "en": "Holyoke Araucariaceae bract scale occurrence window",
+        "zh": "Holyoke南洋杉科苞鳞片出现窗口"
       },
       "description": {
-        "en": "Open Araucariaceae at the rounded 201.4 Ma Hettangian endpoint to inspect specimen J 1430 from the South Hadley Falls Member and its bract-scale anatomy.",
-        "zh": "在约 2.014 亿年前的赫塘期端点处打开南洋杉科，检查南哈德利瀑布段标本 J 1430 及其苞鳞片解剖。"
+        "en": "Open a source-bounded Holyoke Araucariaceae bract scale time window in the map to inspect sampled occurrence context linked to this package.",
+        "zh": "在地图中打开有来源边界的Holyoke南洋杉科苞鳞片时间窗口，检查与本包关联的采样出现背景。"
       },
       "route": "#/explore?taxon=araucariaceae&view=map&age=201.4&older=201.4&younger=0",
       "entityIds": [
@@ -212,7 +212,7 @@
       ],
       "evidenceStatus": "available-with-limitations",
       "limitations": [
-        "The Hettangian endpoint is a named Massachusetts specimen anchor in a sample-to-living navigation anthology, not the family FAD, a Triassic absence claim, an exact crown origin or direct ancestry."
+        "The interval follows the linked package range and claim; map markers are sampled records and do not establish a complete distribution, exact origination or extinction, or direct ancestry."
       ]
     }
   ]

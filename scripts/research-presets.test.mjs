@@ -71,7 +71,7 @@ describe('source-bound package research presets', () => {
         }
       }
     }
-    expect(publishedSceneCount).toBe(167)
+    expect(publishedSceneCount).toBe(185)
   })
 
   it('does not promote navigation context into package phylogenies', () => {

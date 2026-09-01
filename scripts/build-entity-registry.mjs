@@ -599,12 +599,12 @@ for (const definition of packageDefinitions) {
     return {
       id: scene.id,
       type: comparison ? 'comparison' : 'explorer-preset',
-      title: comparison
+      title: scene.title ?? (comparison
         ? { en: `${researchSceneLabel.en} evidence comparison`, zh: `${researchSceneLabel.zh}证据比较` }
         : diversity
           ? { en: `${researchSceneLabel.en} diversity sample`, zh: `${researchSceneLabel.zh}多样性样本` }
-          : { en: `${entityLabel} occurrence window`, zh: `${entityLabelZh}出现窗口` },
-      description: comparison
+          : { en: `${entityLabel} occurrence window`, zh: `${entityLabelZh}出现窗口` }),
+      description: scene.description ?? (comparison
         ? {
             en: `Compare ${entityLabel} through package-linked claims and bounded occurrence context; this side-by-side route is an evidence inspection aid.`,
             zh: `通过本包关联的声明与限定出现背景比较${entityLabelZh}；并列页面仅用于证据检查。`,
@@ -617,12 +617,12 @@ for (const definition of packageDefinitions) {
           : {
             en: `Open a source-bounded ${entityLabel} time window in the map to inspect sampled occurrence context linked to this package.`,
             zh: `在地图中打开有来源边界的${entityLabelZh}时间窗口，检查与本包关联的采样出现背景。`,
-          },
+          }),
       route: scene.route,
       entityIds: scene.entityIds,
       claimIds: scene.claimIds,
       evidenceStatus: 'available-with-limitations',
-      limitations: [
+      limitations: scene.limitations ?? [
         comparison
           ? 'The two sides retain separate source, sampling, range and uncertainty boundaries; visual differences are not tests of evolutionary causation or a package-specific phylogeny.'
           : diversity
