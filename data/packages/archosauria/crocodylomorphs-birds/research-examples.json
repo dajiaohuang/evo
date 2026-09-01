@@ -72,6 +72,121 @@
       "limitations": [
         "The two sides retain separate source, sampling, range and uncertainty boundaries; visual differences are not tests of evolutionary causation or a package-specific phylogeny."
       ]
+    },
+    {
+      "id": "crocodylomorphs-birds-junggarsuchus-shishugou-map",
+      "type": "explorer-preset",
+      "title": {
+        "en": "Junggarsuchus occurrence window",
+        "zh": "准噶尔鳄出现窗口"
+      },
+      "description": {
+        "en": "Open a source-bounded Junggarsuchus time window in the map to inspect sampled occurrence context linked to this package.",
+        "zh": "在地图中打开有来源边界的准噶尔鳄时间窗口，检查与本包关联的采样出现背景。"
+      },
+      "route": "#/explore?taxon=junggarsuchus&view=map&age=165.9&older=168.3&younger=163.5",
+      "entityIds": [
+        "junggarsuchus"
+      ],
+      "claimIds": [
+        "claim:event:junggarsuchus-skull-consolidation"
+      ],
+      "evidenceStatus": "available-with-limitations",
+      "limitations": [
+        "The interval follows the linked package range and claim; map markers are sampled records and do not establish a complete distribution, exact origination or extinction, or direct ancestry."
+      ]
+    },
+    {
+      "id": "crocodylomorphs-birds-archaeopteryx-bavaria-map",
+      "type": "explorer-preset",
+      "title": {
+        "en": "Archaeopteryx occurrence window",
+        "zh": "始祖鸟出现窗口"
+      },
+      "description": {
+        "en": "Open a source-bounded Archaeopteryx time window in the map to inspect sampled occurrence context linked to this package.",
+        "zh": "在地图中打开有来源边界的始祖鸟时间窗口，检查与本包关联的采样出现背景。"
+      },
+      "route": "#/explore?taxon=archaeopteryx&view=map&age=149&older=150&younger=148",
+      "entityIds": [
+        "archaeopteryx"
+      ],
+      "claimIds": [
+        "claim:taxon:archaeopteryx:fossil-range"
+      ],
+      "evidenceStatus": "available-with-limitations",
+      "limitations": [
+        "The interval follows the linked package range and claim; map markers are sampled records and do not establish a complete distribution, exact origination or extinction, or direct ancestry."
+      ]
+    },
+    {
+      "id": "crocodylomorphs-birds-phorusrhacidae-llallawavis-map",
+      "type": "explorer-preset",
+      "title": {
+        "en": "Phorusrhacidae occurrence window",
+        "zh": "恐鹤类出现窗口"
+      },
+      "description": {
+        "en": "Open a source-bounded Phorusrhacidae time window in the map to inspect sampled occurrence context linked to this package.",
+        "zh": "在地图中打开有来源边界的恐鹤类时间窗口，检查与本包关联的采样出现背景。"
+      },
+      "route": "#/explore?taxon=phorusrhacidae&view=map&age=3.1&older=3.6&younger=2.6",
+      "entityIds": [
+        "phorusrhacidae"
+      ],
+      "claimIds": [
+        "claim:taxon:phorusrhacidae:source-bounded-range-rc49"
+      ],
+      "evidenceStatus": "available-with-limitations",
+      "limitations": [
+        "The interval follows the linked package range and claim; map markers are sampled records and do not establish a complete distribution, exact origination or extinction, or direct ancestry."
+      ]
+    },
+    {
+      "id": "crocodylomorphs-birds-asteriornis-maastricht-map",
+      "type": "explorer-preset",
+      "title": {
+        "en": "Asteriornis occurrence window",
+        "zh": "阿斯忒里鸟出现窗口"
+      },
+      "description": {
+        "en": "Open a source-bounded Asteriornis time window in the map to inspect sampled occurrence context linked to this package.",
+        "zh": "在地图中打开有来源边界的阿斯忒里鸟时间窗口，检查与本包关联的采样出现背景。"
+      },
+      "route": "#/explore?taxon=asteriornis&view=map&age=66.75&older=66.8&younger=66.7",
+      "entityIds": [
+        "asteriornis"
+      ],
+      "claimIds": [
+        "claim:taxon:asteriornis"
+      ],
+      "evidenceStatus": "available-with-limitations",
+      "limitations": [
+        "The interval follows the linked package range and claim; map markers are sampled records and do not establish a complete distribution, exact origination or extinction, or direct ancestry."
+      ]
+    },
+    {
+      "id": "crocodylomorphs-birds-vegavis-vega-island-map",
+      "type": "explorer-preset",
+      "title": {
+        "en": "Vegavis occurrence window",
+        "zh": "维加鸟出现窗口"
+      },
+      "description": {
+        "en": "Open a source-bounded Vegavis time window in the map to inspect sampled occurrence context linked to this package.",
+        "zh": "在地图中打开有来源边界的维加鸟时间窗口，检查与本包关联的采样出现背景。"
+      },
+      "route": "#/explore?taxon=vegavis&view=map&age=68.8&older=69.2&younger=68.4",
+      "entityIds": [
+        "vegavis"
+      ],
+      "claimIds": [
+        "claim:event:vegavis-skull-crown-test"
+      ],
+      "evidenceStatus": "available-with-limitations",
+      "limitations": [
+        "The interval follows the linked package range and claim; map markers are sampled records and do not establish a complete distribution, exact origination or extinction, or direct ancestry."
+      ]
     }
   ]
 }
