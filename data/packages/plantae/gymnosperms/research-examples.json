@@ -72,6 +72,148 @@
       "limitations": [
         "The two sides retain separate source, sampling, range and uncertainty boundaries; visual differences are not tests of evolutionary causation or a package-specific phylogeny."
       ]
+    },
+    {
+      "id": "gymnosperms-famennian-seed-window",
+      "type": "explorer-preset",
+      "title": {
+        "en": "Famennian cupulate seeds occurrence window",
+        "zh": "法门期杯状种子出现窗口"
+      },
+      "description": {
+        "en": "Open a source-bounded Famennian cupulate seeds time window in the map to inspect sampled occurrence context linked to this package.",
+        "zh": "在地图中打开有来源边界的法门期杯状种子时间窗口，检查与本包关联的采样出现背景。"
+      },
+      "route": "#/explore?taxon=gymnospermae&view=map&age=365&older=365&younger=0",
+      "entityIds": [
+        "gymnospermae"
+      ],
+      "claimIds": [
+        "claim:taxon:gymnospermae:root-range-rc39"
+      ],
+      "evidenceStatus": "available-with-limitations",
+      "limitations": [
+        "The interval follows the linked package range and claim; map markers are sampled records and do not establish a complete distribution, exact origination or extinction, or direct ancestry."
+      ]
+    },
+    {
+      "id": "gymnosperms-cycad-crown-model-window",
+      "type": "explorer-preset",
+      "title": {
+        "en": "Cycad crown-age model window",
+        "zh": "苏铁冠群年龄模型窗口"
+      },
+      "description": {
+        "en": "Open the model-age window in the map as calibration context for the linked cycad claims, not as a mapped fossil occurrence.",
+        "zh": "在地图中打开模型年龄窗口，作为关联苏铁声明的校准语境，而不是地图化的化石出现记录。"
+      },
+      "route": "#/explore?taxon=cycadophyta&view=map&age=330.4&older=358.9&younger=296.2",
+      "entityIds": [
+        "cycadophyta"
+      ],
+      "claimIds": [
+        "claim:taxon:cycadophyta:fossil-range",
+        "claim:event:living-cycad-radiation-model"
+      ],
+      "evidenceStatus": "available-with-limitations",
+      "limitations": [
+        "This is a model and calibration context. The routed age is not a direct fossil occurrence, a global first appearance, or exact spatial evidence."
+      ]
+    },
+    {
+      "id": "gymnosperms-cycadaceae-palaeogene-window",
+      "type": "explorer-preset",
+      "title": {
+        "en": "Cycadaceae Palaeogene crown-model window",
+        "zh": "苏铁科古近纪冠群模型窗口"
+      },
+      "description": {
+        "en": "Open the inferred Palaeogene crown-age interval as model context alongside the linked cycad range evidence.",
+        "zh": "打开推断的古近纪冠群年龄区间，将其作为模型语境与关联苏铁范围证据一同检查。"
+      },
+      "route": "#/explore?taxon=cycadophyta&view=map&age=69.3&older=69.3&younger=42.9",
+      "entityIds": [
+        "cycadophyta"
+      ],
+      "claimIds": [
+        "claim:taxon:cycadophyta:fossil-range",
+        "claim:event:cycadaceae-palaeogene-crown-model"
+      ],
+      "evidenceStatus": "available-with-limitations",
+      "limitations": [
+        "The interval is a model result, not a direct Cycadaceae fossil occurrence, global FAD, or exact spatial record."
+      ]
+    },
+    {
+      "id": "gymnosperms-tiaojishan-ginkgoxylon-window",
+      "type": "explorer-preset",
+      "title": {
+        "en": "Tiaojishan Ginkgoxylon wood occurrence window",
+        "zh": "髫髻山组银杏木材出现窗口"
+      },
+      "description": {
+        "en": "Open a source-bounded Tiaojishan Ginkgoxylon wood time window in the map to inspect sampled occurrence context linked to this package.",
+        "zh": "在地图中打开有来源边界的髫髻山组银杏木材时间窗口，检查与本包关联的采样出现背景。"
+      },
+      "route": "#/explore?taxon=ginkgophyta&view=map&age=159&older=165&younger=153",
+      "entityIds": [
+        "ginkgophyta"
+      ],
+      "claimIds": [
+        "claim:taxon:ginkgophyta:fossil-range",
+        "claim:event:tiaojishan-ginkgoxylon"
+      ],
+      "evidenceStatus": "available-with-limitations",
+      "limitations": [
+        "The interval follows the linked package range and claim; map markers are sampled records and do not establish a complete distribution, exact origination or extinction, or direct ancestry."
+      ]
+    },
+    {
+      "id": "gymnosperms-conifer-hemisphere-model-window",
+      "type": "explorer-preset",
+      "title": {
+        "en": "Conifer hemispheric-node model window",
+        "zh": "松柏类半球节点模型窗口"
+      },
+      "description": {
+        "en": "Open the inferred node-age window to inspect the linked hemispheric model context without treating it as a fossil locality.",
+        "zh": "打开推断的节点年龄窗口，检查关联的半球模型语境，不把它当作化石地点记录。"
+      },
+      "route": "#/explore?taxon=coniferophyta&view=map&age=8.7&older=8.7&younger=5.2",
+      "entityIds": [
+        "coniferophyta"
+      ],
+      "claimIds": [
+        "claim:taxon:coniferophyta:range-boundary-rc50",
+        "claim:event:conifer-hemisphere-node-pattern"
+      ],
+      "evidenceStatus": "available-with-limitations",
+      "limitations": [
+        "This window represents an inferred model node, not a fossil occurrence, exact palaeolocation, or complete hemispheric history."
+      ]
+    },
+    {
+      "id": "gymnosperms-holyoke-araucaria-window",
+      "type": "explorer-preset",
+      "title": {
+        "en": "Holyoke Araucariaceae bract scale occurrence window",
+        "zh": "Holyoke南洋杉科苞鳞片出现窗口"
+      },
+      "description": {
+        "en": "Open a source-bounded Holyoke Araucariaceae bract scale time window in the map to inspect sampled occurrence context linked to this package.",
+        "zh": "在地图中打开有来源边界的Holyoke南洋杉科苞鳞片时间窗口，检查与本包关联的采样出现背景。"
+      },
+      "route": "#/explore?taxon=araucariaceae&view=map&age=201.4&older=201.4&younger=0",
+      "entityIds": [
+        "araucariaceae"
+      ],
+      "claimIds": [
+        "claim:taxon:araucariaceae:range-boundary-rc50"
+      ],
+      "evidenceStatus": "available-with-limitations",
+      "limitations": [
+        "The interval follows the linked package range and claim; map markers are sampled records and do not establish a complete distribution, exact origination or extinction, or direct ancestry."
+      ]
     }
   ]
 }

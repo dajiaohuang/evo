@@ -72,6 +72,150 @@
       "limitations": [
         "The two sides retain separate source, sampling, range and uncertainty boundaries; visual differences are not tests of evolutionary causation or a package-specific phylogeny."
       ]
+    },
+    {
+      "id": "angiospermae-non-pollen-calibration-map-window",
+      "type": "explorer-preset",
+      "title": {
+        "en": "Non-pollen crown-calibration context",
+        "zh": "非花粉冠群校准语境"
+      },
+      "description": {
+        "en": "Open the rounded 135 Ma atlas boundary to inspect how crown-age estimates depend on calibration choices; this card does not represent a pollen or body-fossil occurrence.",
+        "zh": "打开图谱取整后的 135 Ma 边界，检查冠群年龄估计对校准选择的依赖；本卡不代表花粉或植物体化石出现记录。"
+      },
+      "route": "#/explore?taxon=angiospermae&view=map&age=135&older=135&younger=0",
+      "entityIds": [
+        "angiospermae"
+      ],
+      "claimIds": [
+        "claim:taxon:angiospermae:fossil-range",
+        "claim:event:crown-angiosperm-calibration-sensitivity"
+      ],
+      "evidenceStatus": "available-with-limitations",
+      "limitations": [
+        "This is calibration-sensitivity context, not a pollen record, body-fossil occurrence, global angiosperm FAD, or exact spatial observation."
+      ]
+    },
+    {
+      "id": "angiospermae-montsechia-map-window",
+      "type": "explorer-preset",
+      "title": {
+        "en": "Montsechia Barremian sample occurrence window",
+        "zh": "Montsechia巴列姆期样本出现窗口"
+      },
+      "description": {
+        "en": "Open a source-bounded Montsechia Barremian sample time window in the map to inspect sampled occurrence context linked to this package.",
+        "zh": "在地图中打开有来源边界的Montsechia巴列姆期样本时间窗口，检查与本包关联的采样出现背景。"
+      },
+      "route": "#/explore?taxon=angiospermae&view=map&age=128&older=130&younger=125",
+      "entityIds": [
+        "angiospermae"
+      ],
+      "claimIds": [
+        "claim:taxon:angiospermae:fossil-range",
+        "claim:event:barremian-montsechia"
+      ],
+      "evidenceStatus": "available-with-limitations",
+      "limitations": [
+        "The interval follows the linked package range and claim; map markers are sampled records and do not establish a complete distribution, exact origination or extinction, or direct ancestry."
+      ]
+    },
+    {
+      "id": "angiospermae-cratolirion-map-window",
+      "type": "explorer-preset",
+      "title": {
+        "en": "Cratolirion whole-plant sample occurrence window",
+        "zh": "Cratolirion整株样本出现窗口"
+      },
+      "description": {
+        "en": "Open a source-bounded Cratolirion whole-plant sample time window in the map to inspect sampled occurrence context linked to this package.",
+        "zh": "在地图中打开有来源边界的Cratolirion整株样本时间窗口，检查与本包关联的采样出现背景。"
+      },
+      "route": "#/explore?taxon=monocotyledones&view=map&age=115&older=115&younger=115",
+      "entityIds": [
+        "monocotyledones"
+      ],
+      "claimIds": [
+        "claim:taxon:monocotyledones:fossil-range",
+        "claim:event:crato-cratolirion"
+      ],
+      "evidenceStatus": "available-with-limitations",
+      "limitations": [
+        "The interval follows the linked package range and claim; map markers are sampled records and do not establish a complete distribution, exact origination or extinction, or direct ancestry."
+      ]
+    },
+    {
+      "id": "angiospermae-leefructus-map-window",
+      "type": "explorer-preset",
+      "title": {
+        "en": "Leefructus eudicot sample occurrence window",
+        "zh": "Leefructus真双子叶样本出现窗口"
+      },
+      "description": {
+        "en": "Open a source-bounded Leefructus eudicot sample time window in the map to inspect sampled occurrence context linked to this package.",
+        "zh": "在地图中打开有来源边界的Leefructus真双子叶样本时间窗口，检查与本包关联的采样出现背景。"
+      },
+      "route": "#/explore?taxon=eudicotyledones&view=map&age=124&older=125.8&younger=122.6",
+      "entityIds": [
+        "eudicotyledones"
+      ],
+      "claimIds": [
+        "claim:taxon:eudicotyledones:range-boundary-rc50",
+        "claim:event:yixian-leefructus"
+      ],
+      "evidenceStatus": "available-with-limitations",
+      "limitations": [
+        "The interval follows the linked package range and claim; map markers are sampled records and do not establish a complete distribution, exact origination or extinction, or direct ancestry."
+      ]
+    },
+    {
+      "id": "angiospermae-lameta-phytolith-map-window",
+      "type": "explorer-preset",
+      "title": {
+        "en": "Lameta grass-phytolith sample occurrence window",
+        "zh": "Lameta禾草植硅体样本出现窗口"
+      },
+      "description": {
+        "en": "Open a source-bounded Lameta grass-phytolith sample time window in the map to inspect sampled occurrence context linked to this package.",
+        "zh": "在地图中打开有来源边界的Lameta禾草植硅体样本时间窗口，检查与本包关联的采样出现背景。"
+      },
+      "route": "#/explore?taxon=poaceae&view=map&age=66&older=67&younger=0",
+      "entityIds": [
+        "poaceae"
+      ],
+      "claimIds": [
+        "claim:taxon:poaceae:range-boundary-rc50",
+        "claim:taxon:poaceae:morphology"
+      ],
+      "evidenceStatus": "available-with-limitations",
+      "limitations": [
+        "The interval follows the linked package range and claim; map markers are sampled records and do not establish a complete distribution, exact origination or extinction, or direct ancestry."
+      ]
+    },
+    {
+      "id": "angiospermae-corral-bluffs-fruit-map-window",
+      "type": "explorer-preset",
+      "title": {
+        "en": "Corral Bluffs legume-fruit sample occurrence window",
+        "zh": "Corral Bluffs豆科果实样本出现窗口"
+      },
+      "description": {
+        "en": "Open a source-bounded Corral Bluffs legume-fruit sample time window in the map to inspect sampled occurrence context linked to this package.",
+        "zh": "在地图中打开有来源边界的Corral Bluffs豆科果实样本时间窗口，检查与本包关联的采样出现背景。"
+      },
+      "route": "#/explore?taxon=fabaceae&view=map&age=65.35&older=65.35&younger=65.35",
+      "entityIds": [
+        "fabaceae"
+      ],
+      "claimIds": [
+        "claim:taxon:fabaceae:range-boundary-rc50",
+        "claim:taxon:fabaceae:morphology"
+      ],
+      "evidenceStatus": "available-with-limitations",
+      "limitations": [
+        "The interval follows the linked package range and claim; map markers are sampled records and do not establish a complete distribution, exact origination or extinction, or direct ancestry."
+      ]
     }
   ]
 }

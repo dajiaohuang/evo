@@ -1,5 +1,12 @@
 # Dataset changelog
 
+## App 0.20.43 / 2026.09-static-v5-rc92 — 2026-09-01
+
+- Added 18 source-bounded, age-driven plant map scenes: six each for Early land plants, Gymnosperms and Angiosperms. All three packages now expose nine scenes, raising the atlas from 167 to 185 scenes and from 227 to 260 scene-to-claim links.
+- Connected every new card to an existing locator-bearing claim and an `available` range sharing its routed entity and age. All 132 age-driven scenes now satisfy the same entity, claim and range intersection contract.
+- Preserved specimen, locality, formation, calibration, model, functional and rounded-age boundaries. In particular, the angiosperm calibration-sensitivity scene is explicitly non-pollen model context rather than a fossil occurrence; no card asserts a global FAD/LAD, direct ancestry, complete distribution or exact fossil-to-map co-registration.
+- Regenerated the shared package registry and manifest as RC92. Android `versionCode` and iOS build number advance to `46` / app `0.20.43`; both native apps retain the complete `native-full` catalogue, authority shards and all 109 lossless 0.1° PaleoDEM frames while Pages remains `web-light`.
+
 ## App 0.20.42 / 2026.09-static-v5-rc91 — 2026-09-01
 
 - Added 20 source-bounded, age-driven map scenes: six for Turtles and lepidosaurs, nine for Marine reptiles and pterosaurs, and five for Crocodylomorphs and birds. The three packages now expose 9, 12 and 8 scenes, raising the atlas from 147 to 167 scenes and from 201 to 227 scene-to-claim links; six turtle/lepidosaur cards retain both their event claim and the range claim required by the time-map overlay.
