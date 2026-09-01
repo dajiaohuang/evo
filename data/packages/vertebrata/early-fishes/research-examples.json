@@ -49,6 +49,126 @@
       ]
     },
     {
+      "id": "early-fishes-heterostraci-silurian-devonian-map",
+      "type": "explorer-preset",
+      "title": {
+        "en": "Heterostraci study-matrix window",
+        "zh": "异甲鱼研究矩阵窗口"
+      },
+      "description": {
+        "en": "Open the Silurian–Early Devonian Heterostraci study-matrix window to inspect age-routed sampled occurrence context; this is an evidence inspection aid, not a complete clade history.",
+        "zh": "打开志留纪至早泥盆世异甲鱼研究矩阵窗口，检查按年代路由的采样出现背景；这是证据检查入口，不是该类群的完整历史。"
+      },
+      "route": "#/explore?taxon=heterostraci&view=map&age=418.55&older=443.8&younger=393.3",
+      "entityIds": [
+        "heterostraci"
+      ],
+      "claimIds": [
+        "claim:taxon:heterostraci:range-boundary"
+      ],
+      "evidenceStatus": "available-with-limitations",
+      "limitations": [
+        "The 443.8–393.3 Ma interval follows the dated taxa included in the Randle et al. study matrix; it is a stage-bound study-sample envelope, not a global Heterostraci FAD or LAD.",
+        "Map markers reflect sampled localities, specimens and occurrence coding in that matrix; incomplete locality and taxon sampling do not support a complete distribution, direct ancestry or an unsampled interval."
+      ]
+    },
+    {
+      "id": "early-fishes-osteostraci-silurian-devonian-map",
+      "type": "explorer-preset",
+      "title": {
+        "en": "Osteostraci sampled-genera window",
+        "zh": "骨甲鱼采样属窗口"
+      },
+      "description": {
+        "en": "Open the Silurian–Devonian Osteostraci sampled-genera window to inspect an age-routed morphology-matrix context; the plotted interval is not an exact clade origin or extinction.",
+        "zh": "打开志留纪至泥盆世骨甲鱼采样属窗口，检查按年代路由的形态矩阵背景；所示区间不是精确的类群起源或灭绝时间。"
+      },
+      "route": "#/explore?taxon=osteostraci&view=map&age=396.15&older=433.4&younger=358.9",
+      "entityIds": [
+        "osteostraci"
+      ],
+      "claimIds": [
+        "claim:taxon:osteostraci:range-boundary"
+      ],
+      "evidenceStatus": "available-with-limitations",
+      "limitations": [
+        "The 433.4–358.9 Ma interval is the stratigraphic envelope of sampled genera in Sansom’s morphology matrix; it is not a global Osteostraci FAD, LAD or continuous lineage duration.",
+        "Map markers and matrix observations are bounded by the represented specimens and localities; unsampled occurrences, complete distribution and direct ancestry remain unresolved."
+      ]
+    },
+    {
+      "id": "early-fishes-priscomyzon-famennian-map",
+      "type": "explorer-preset",
+      "title": {
+        "en": "Priscomyzon Famennian locality window",
+        "zh": "Priscomyzon 法门期地点窗口"
+      },
+      "description": {
+        "en": "Open the rounded Famennian Waterloo Farm window for the Priscomyzon holotype to inspect its source-bounded locality and age context on the map.",
+        "zh": "打开 Priscomyzon 正模标本在圆整法门期 Waterloo Farm 的窗口，在地图中检查其有来源边界的地点与年代背景。"
+      },
+      "route": "#/explore?taxon=priscomyzon&view=map&age=359.5&older=360&younger=359",
+      "entityIds": [
+        "priscomyzon"
+      ],
+      "claimIds": [
+        "claim:taxon:priscomyzon:fossil-range"
+      ],
+      "evidenceStatus": "available-with-limitations",
+      "limitations": [
+        "The 360–359 Ma values are a rounded time-scale envelope for holotype AM5750 from the Famennian Witpoort Formation at Waterloo Farm, Eastern Cape, South Africa; they are not a direct numerical date or global species range.",
+        "The map represents one named specimen and locality; its sampled occurrence cannot establish a complete distribution, crown-lamprey FAD, lifecycle, behaviour or direct ancestry."
+      ]
+    },
+    {
+      "id": "early-fishes-myxinikela-moscovian-map",
+      "type": "explorer-preset",
+      "title": {
+        "en": "Myxinikela Moscovian specimen window",
+        "zh": "Myxinikela 莫斯科期标本窗口"
+      },
+      "description": {
+        "en": "Open the rounded Moscovian Francis Creek Shale window for the Myxinikela specimens to inspect their source-bounded locality and age context on the map.",
+        "zh": "打开 Myxinikela 标本在圆整莫斯科期 Francis Creek Shale 的窗口，在地图中检查其有来源边界的地点与年代背景。"
+      },
+      "route": "#/explore?taxon=myxinikela&view=map&age=308.5&older=310&younger=307",
+      "entityIds": [
+        "myxinikela"
+      ],
+      "claimIds": [
+        "claim:taxon:myxinikela:fossil-range"
+      ],
+      "evidenceStatus": "available-with-limitations",
+      "limitations": [
+        "The 310–307 Ma values bound holotype FMNH PF15373 and paratype FMNH PF8472 from the Moscovian Francis Creek Shale, former Pit 11, Illinois; preservation differs between specimens and the interval is not a direct numerical date or hagfish range.",
+        "The map shows a bounded specimen locality and does not establish a broader distribution, crown-Myxini FAD, modern hagfish ecology or direct ancestry."
+      ]
+    },
+    {
+      "id": "early-fishes-tethymyxine-cenomanian-map",
+      "type": "explorer-preset",
+      "title": {
+        "en": "Tethymyxine Cenomanian Lagerstätte window",
+        "zh": "Tethymyxine 森诺曼期化石库窗口"
+      },
+      "description": {
+        "en": "Open the rounded Cenomanian Hâdjoula Lagerstätte window for Tethymyxine to inspect its single-holotype locality and age context on the map.",
+        "zh": "打开 Tethymyxine 单件正模标本在圆整森诺曼期 Hâdjoula 化石库的窗口，在地图中检查其地点与年代背景。"
+      },
+      "route": "#/explore?taxon=tethymyxine&view=map&age=97.2&older=100.5&younger=93.9",
+      "entityIds": [
+        "tethymyxine"
+      ],
+      "claimIds": [
+        "claim:taxon:tethymyxine:fossil-range"
+      ],
+      "evidenceStatus": "available-with-limitations",
+      "limitations": [
+        "The 100.5–93.9 Ma values are a Cenomanian stage envelope for holotype BHI 6445 from the Hâdjoula Lagerstätte, Lebanon; one complete body fossil does not provide a direct numerical date or global crown-Myxini FAD.",
+        "The map represents one sampled locality and specimen; it cannot establish a complete distribution, uninterrupted range, direct ancestry or an inferred diet and behaviour."
+      ]
+    },
+    {
       "id": "early-fishes-comparison-window",
       "type": "comparison",
       "title": {
