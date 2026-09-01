@@ -99,6 +99,31 @@
       ]
     },
     {
+      "id": "molluscs-brachiopods-pojetaia-kutorgina-comparison",
+      "type": "comparison",
+      "title": {
+        "en": "Molluscs and brachiopods evidence comparison",
+        "zh": "软体动物与腕足动物证据比较"
+      },
+      "description": {
+        "en": "Compare Pojetaia runnegari and Kutorgina chengjiangensis through package-linked claims and bounded occurrence context; this side-by-side route is an evidence inspection aid.",
+        "zh": "通过本包关联的声明与限定出现背景比较波杰塔贝与澄江顾脱贝；并列页面仅用于证据检查。"
+      },
+      "route": "#/compare?left=pojetaia&right=kutorgina-chengjiangensis",
+      "entityIds": [
+        "pojetaia",
+        "kutorgina-chengjiangensis"
+      ],
+      "claimIds": [
+        "claim:taxon:pojetaia:source-bounded-range-rc50",
+        "claim:taxon:kutorgina-chengjiangensis:fossil-range"
+      ],
+      "evidenceStatus": "available-with-limitations",
+      "limitations": [
+        "The two sides retain separate source, sampling, range and uncertainty boundaries; visual differences are not tests of evolutionary causation or a package-specific phylogeny."
+      ]
+    },
+    {
       "id": "molluscs-brachiopods-kimberella-white-sea-map",
       "type": "explorer-preset",
       "title": {
@@ -196,31 +221,6 @@
         "The 519 Ma map age is the rounded midpoint of a 520–518 Ma formation-scale Chengjiang window, not a direct date for a valve, a global brachiopod FAD/LAD or a continuous lineage range.",
         "Exceptionally preserved calcareous valves with lophophore, gut and pedicle constrain the cited Chengjiang material; morphology and organismal interpretation do not by themselves resolve broader phylogeny, ecology or direct ancestry.",
         "Markers show a locality- and stratum-bounded sampled occurrence context with preservation and collection bias, not complete global distribution, abundance or direct fossil-to-paleomap co-registration."
-      ]
-    },
-    {
-      "id": "molluscs-brachiopods-pojetaia-kutorgina-comparison",
-      "type": "comparison",
-      "title": {
-        "en": "Molluscs and brachiopods evidence comparison",
-        "zh": "软体动物与腕足动物证据比较"
-      },
-      "description": {
-        "en": "Compare Pojetaia runnegari and Kutorgina chengjiangensis through package-linked claims and bounded occurrence context; this side-by-side route is an evidence inspection aid.",
-        "zh": "通过本包关联的声明与限定出现背景比较波杰塔贝与澄江顾脱贝；并列页面仅用于证据检查。"
-      },
-      "route": "#/compare?left=pojetaia&right=kutorgina-chengjiangensis",
-      "entityIds": [
-        "pojetaia",
-        "kutorgina-chengjiangensis"
-      ],
-      "claimIds": [
-        "claim:taxon:pojetaia:source-bounded-range-rc50",
-        "claim:taxon:kutorgina-chengjiangensis:fossil-range"
-      ],
-      "evidenceStatus": "available-with-limitations",
-      "limitations": [
-        "The two sides retain separate source, sampling, range and uncertainty boundaries; visual differences are not tests of evolutionary causation or a package-specific phylogeny."
       ]
     }
   ]
