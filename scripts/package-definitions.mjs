@@ -12,7 +12,7 @@ export const researchPresetDefinitions = {
   angiospermae: { entityId: 'angiospermae', claimIds: ['claim:taxon:angiospermae:fossil-range'] },
   'sponges-cnidarians': { entityId: 'haootia', claimIds: ['claim:taxon:haootia:range-boundary-rc50'] },
   'molluscs-brachiopods': { entityId: 'yuganotheca', claimIds: ['claim:taxon:yuganotheca:taxonomy'] },
-  'trilobites-chelicerates': { entityId: 'trilobita', claimIds: ['claim:taxon:trilobita:root-range-rc39'] },
+  'trilobites-chelicerates': { entityId: 'megachelicerax', claimIds: ['claim:taxon:megachelicerax:topology'] },
   'crustaceans-insects': { entityId: 'arthropoda', claimIds: ['claim:taxon:arthropoda:root-range-rc39'] },
   echinoderms: { entityId: 'echinodermata', claimIds: ['claim:taxon:echinodermata:fossil-range'] },
   'early-fishes': { entityId: 'agnatha', claimIds: ['claim:taxon:agnatha:fossil-range'] },
@@ -60,8 +60,8 @@ export const researchSceneDefinitions = {
     { id: 'molluscs-brachiopods-comparison-window', kind: 'comparison', route: '#/compare?left=micrina&right=yuganotheca', entityIds: ['micrina', 'yuganotheca'], claimIds: ['claim:taxon:micrina:source-bounded-range-rc50', 'claim:taxon:yuganotheca:source-bounded-range-rc50'] },
   ] },
   'trilobites-chelicerates': { label: { en: 'Trilobites and chelicerates', zh: '三叶虫与螯肢类' }, scenes: [
-    { id: 'trilobites-chelicerates-map-window', kind: 'map', route: '#/explore?taxon=trilobita&view=map&age=521&older=521&younger=252', entityIds: ['trilobita'], claimIds: ['claim:taxon:trilobita:root-range-rc39'] },
-    { id: 'trilobites-chelicerates-comparison-window', kind: 'comparison', route: '#/compare?left=bohemolichas&right=urokodia', entityIds: ['bohemolichas', 'urokodia'], claimIds: ['claim:taxon:bohemolichas:fossil-range', 'claim:taxon:urokodia:fossil-range'] },
+    { id: 'trilobites-chelicerates-map-window', kind: 'map', route: '#/explore?taxon=olenoides&view=map&age=507&older=509&younger=505', entityIds: ['olenoides'], claimIds: ['claim:taxon:olenoides'] },
+    { id: 'trilobites-chelicerates-comparison-window', kind: 'comparison', route: '#/compare?left=olenoides&right=megachelicerax', entityIds: ['olenoides', 'megachelicerax'], claimIds: ['claim:taxon:olenoides', 'claim:taxon:megachelicerax'] },
   ] },
   'crustaceans-insects': { label: { en: 'Crustaceans and insects', zh: '甲壳类与昆虫' }, scenes: [
     { id: 'crustaceans-insects-strudiella-map-window', kind: 'map', route: '#/explore?taxon=strudiella&view=map&age=365&older=365&younger=365', entityIds: ['strudiella'], claimIds: ['claim:taxon:strudiella:fossil-range', 'claim:event:strudiella-reassessment'] },
