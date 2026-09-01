@@ -1,5 +1,12 @@
 # Dataset changelog
 
+## App 0.20.51 / 2026.09-static-v5-rc100 — 2026-09-01
+
+- Added nine source-bounded, age-driven map scenes: three each for Tetrapod transition, Carnivora and Echinoderms. The packages now expose 12, 13 and 13 scenes respectively, raising the atlas from 270 to 279 scenes and from 436 to 449 scene-to-claim links.
+- Added bounded windows for *Guiyu*, *Tinirau* and a 24-calibration bony-fish clock model; *Dormaalocyon*, *Puijila* and *Panthera blytheae*; and the contested affinity of *Yanjiahella*, early echinoid fossil/model evidence and articulated *Oesolcucumaria* material.
+- Connected all new cards to locator-bearing claims and `available` ranges sharing routed age and entity context. The atlas now has 226 age-driven routes; named specimens, formation envelopes, competing affinities, functional interpretations and clock models remain distinct from direct observation, global FAD/LAD, complete distribution, direct ancestry or exact fossil-to-map co-registration.
+- Regenerated the shared package registry and manifest as RC100. Android `versionCode` and iOS build number advance to `54` / app `0.20.51`; both native apps retain the complete `native-full` catalogue, authority shards and all 109 lossless 0.1° PaleoDEM frames while Pages remains `web-light`.
+
 ## App 0.20.50 / 2026.09-static-v5-rc99 — 2026-09-01
 
 - Added 10 source-bounded, age-driven map scenes: three each for Other mammals and Gymnosperms and four for Primates. Other mammals and Gymnosperms now expose 12 scenes each and Primates exposes 13, raising the atlas from 260 to 270 scenes and from 411 to 436 scene-to-claim links.
