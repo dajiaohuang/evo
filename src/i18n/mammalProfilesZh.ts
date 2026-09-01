@@ -358,7 +358,6 @@ export const mammalProfilesZh: Record<string, string> = {
   "Middle Eocene mimotonid": "中始新世拟兔科动物",
   "Lower Irdin Manha Formation": "Irdin Manha 组下部",
   "Erlian Basin, Nei Mongol": "内蒙古二连盆地",
-  "China": "中国",
   "Holotype right M3 IVPP V20115 and referred teeth and tarsals from the lower Irdin Manha Formation document a Middle Eocene Mimolagus sample used to test mimotonid anatomy and affinity.": "Irdin Manha 组下部的正模右上第三臼齿 IVPP V20115 及归入牙齿和跗骨记录了一个中始新世 Mimolagus 样本，用于检验拟兔科的解剖与亲缘。",
   "Herbivory inferred from dental morphology; direct food evidence absent": "由牙齿形态推断植食性；缺乏直接食物证据",
   "Lower Irdin Manha depositional setting; habitual microhabitat unresolved": "Irdin Manha 组下部沉积背景；日常微栖息地未定",

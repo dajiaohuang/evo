@@ -358,7 +358,6 @@ export const mammalProfilesZhKeys = new Set<string>([
   "Middle Eocene mimotonid",
   "Lower Irdin Manha Formation",
   "Erlian Basin, Nei Mongol",
-  "China",
   "Holotype right M3 IVPP V20115 and referred teeth and tarsals from the lower Irdin Manha Formation document a Middle Eocene Mimolagus sample used to test mimotonid anatomy and affinity.",
   "Herbivory inferred from dental morphology; direct food evidence absent",
   "Lower Irdin Manha depositional setting; habitual microhabitat unresolved",
