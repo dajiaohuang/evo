@@ -187,6 +187,114 @@
       "limitations": [
         "The interval follows the linked package range and claim; map markers are sampled records and do not establish a complete distribution, exact origination or extinction, or direct ancestry."
       ]
+    },
+    {
+      "id": "actinopterygii-cheirolepis-endoskeleton-map-window",
+      "type": "explorer-preset",
+      "title": {
+        "en": "Cheirolepis Achanarras endoskeleton sample",
+        "zh": "Cheirolepis Achanarras 内骨骼样本"
+      },
+      "description": {
+        "en": "Open the rounded 389.25 Ma late Eifelian Achanarras Limestone window for the named Scottish museum specimens examined by CT and inspect the early ray-fin endoskeletal mosaic.",
+        "zh": "打开取整为 3.8925 亿年前的晚艾菲尔期 Achanarras 石灰岩窗口，检查经 CT 扫描的苏格兰具名博物馆标本及其早期辐鳍鱼内骨骼组合。"
+      },
+      "route": "#/explore?taxon=cheirolepis-trailli&view=map&age=389.25&older=390.4&younger=388.1",
+      "entityIds": [
+        "cheirolepis-trailli"
+      ],
+      "claimIds": [
+        "claim:event:cheirolepis-eifelian-endoskeleton",
+        "claim:taxon:cheirolepis-trailli:fossil-range",
+        "claim:taxon:cheirolepis-trailli:biogeography"
+      ],
+      "evidenceStatus": "available-with-limitations",
+      "limitations": [
+        "The 389.25 Ma map age is the rounded midpoint of the 390.4–388.1 Ma late Eifelian sample envelope, not a direct specimen date or a global Actinopterygii FAD/LAD.",
+        "The CT study documents named Cheirolepis trailli museum material from the Achanarras Limestone and correlated Scottish localities; anatomical reconstruction and sampled actinopterygian placement remain study- and preservation-bounded, not direct ancestry.",
+        "The map uses a CAO2024 reconstruction frame for age context while markers are bounded occurrence samples; it does not establish complete distribution, observed behaviour, or exact specimen-to-map co-registration."
+      ]
+    },
+    {
+      "id": "actinopterygii-fukangichthys-calibration-map-window",
+      "type": "explorer-preset",
+      "title": {
+        "en": "Fukangichthys CT calibration sample",
+        "zh": "Fukangichthys CT 校准样本"
+      },
+      "description": {
+        "en": "Open the rounded 244.232 Ma Middle Triassic Kelamayi Formation window for IVPP V4096.6 and IVPP V4096.13 to inspect the CT-based placement and its model-dependent ray-fin timescale consequence.",
+        "zh": "打开取整为 2.44232 亿年前的中三叠世克拉玛依组窗口，检查 IVPP V4096.6 与 IVPP V4096.13 标本的 CT 分析位置及其依赖模型的辐鳍鱼时间尺度后果。"
+      },
+      "route": "#/explore?taxon=fukangichthys&view=map&age=244.232&older=247&younger=241.464",
+      "entityIds": [
+        "fukangichthys"
+      ],
+      "claimIds": [
+        "claim:event:fukangichthys-crown-actinopterygian-recalibration",
+        "claim:taxon:fukangichthys:fossil-range",
+        "claim:taxon:fukangichthys:morphology"
+      ],
+      "evidenceStatus": "available-with-limitations",
+      "limitations": [
+        "The 244.232 Ma age is a rounded midpoint of the 247–241.464 Ma Kelamayi Formation envelope, not a direct date for either specimen, a crown-origin time, or a global range endpoint.",
+        "The named Xinjiang specimens and their endoskeletal characters are the sampled evidence; the approximately 45-million-year crown-minimum shift is a character-matrix and topology-model result, not direct ancestry or a birth date for crown Actinopterygii.",
+        "The map uses a CAO2024 reconstruction frame for age context while markers retain PBDB and locality sampling limits; it does not imply complete distribution, exact fossil-to-map co-registration, or observed ecology."
+      ]
+    },
+    {
+      "id": "actinopterygii-pseudopholidoctenus-diagnosis-map-window",
+      "type": "explorer-preset",
+      "title": {
+        "en": "Pseudopholidoctenus Rüdersdorf diagnosis sample",
+        "zh": "Pseudopholidoctenus Rüdersdorf 诊断样本"
+      },
+      "description": {
+        "en": "Open the rounded approximately 244 Ma lower Anisian Rüdersdorf window for holotype MB.f.18641 and paratypes MB.f.19904–19906 from the middle Muschelkalk Fischmergel, and inspect the fused skull roof and caudal-ray diagnosis.",
+        "zh": "打开约 2.44 亿年前的早安尼期 Rüdersdorf 窗口，检查来自中部 Muschelkalk Fischmergel 的正模 MB.f.18641 与副模 MB.f.19904–19906，以及融合头顶骨和尾鳍鳍条诊断。"
+      },
+      "route": "#/explore?taxon=pseudopholidoctenus-germanicus&view=map&age=244&older=244&younger=244",
+      "entityIds": [
+        "pseudopholidoctenus-germanicus"
+      ],
+      "claimIds": [
+        "claim:taxon:pseudopholidoctenus-germanicus:fossil-range",
+        "claim:taxon:pseudopholidoctenus-germanicus:morphology",
+        "claim:taxon:pseudopholidoctenus-germanicus:biogeography"
+      ],
+      "evidenceStatus": "available-with-limitations",
+      "limitations": [
+        "The rounded approximately 244 Ma point is a lower Anisian Rüdersdorf locality sample, not an exact date for any type specimen or a global teleosteomorph or teleost FAD/LAD.",
+        "The holotype and paratypes from the Rüdersdorf opencast mine in the Central European (Germanic) Basin document the diagnosis; comparative stem-teleosteomorph placement is a character-model interpretation, not direct ancestry.",
+        "The map uses a CAO2024 reconstruction frame for age context while the evidence is limited to one quarry, one stratum and a small type series; markers do not show complete distribution, behaviour, or exact specimen-to-map co-registration."
+      ]
+    },
+    {
+      "id": "actinopterygii-barschichthys-cranial-map-window",
+      "type": "explorer-preset",
+      "title": {
+        "en": "Barschichthys Rüdersdorf cranial sample",
+        "zh": "Barschichthys Rüdersdorf 颅骨样本"
+      },
+      "description": {
+        "en": "Open the rounded approximately 244 Ma lower Anisian Rüdersdorf window for holotype MB.f.19907 and paratypes MB.f.19908–19909 from the middle Muschelkalk Fischmergel, and inspect the lobated skull roof, ganoid scales and toothed jaw.",
+        "zh": "打开约 2.44 亿年前的早安尼期 Rüdersdorf 窗口，检查来自中部 Muschelkalk Fischmergel 的正模 MB.f.19907 与副模 MB.f.19908–19909，以及具叶状边缘的头顶骨、硬鳞和有齿下颌。"
+      },
+      "route": "#/explore?taxon=barschichthys-ruedersdorfensis&view=map&age=244&older=244&younger=244",
+      "entityIds": [
+        "barschichthys-ruedersdorfensis"
+      ],
+      "claimIds": [
+        "claim:taxon:barschichthys-ruedersdorfensis:fossil-range",
+        "claim:taxon:barschichthys-ruedersdorfensis:morphology",
+        "claim:taxon:barschichthys-ruedersdorfensis:biogeography"
+      ],
+      "evidenceStatus": "available-with-limitations",
+      "limitations": [
+        "The rounded approximately 244 Ma point is a lower Anisian Rüdersdorf locality sample, not an exact date for any type specimen or a global teleosteomorph or teleost FAD/LAD.",
+        "The named skull roofs and partial head/trunk from the Rüdersdorf opencast mine in the Central European (Germanic) Basin document the cranial and scale diagnosis; diet, locomotor performance and stem placement remain unresolved or model-dependent.",
+        "The map uses a CAO2024 reconstruction frame for age context while the evidence is limited to one quarry, one stratum and a small type series; markers do not show complete distribution, behaviour, or exact specimen-to-map co-registration."
+      ]
     }
   ]
 }
