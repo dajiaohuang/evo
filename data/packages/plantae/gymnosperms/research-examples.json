@@ -214,6 +214,90 @@
       "limitations": [
         "The interval follows the linked package range and claim; map markers are sampled records and do not establish a complete distribution, exact origination or extinction, or direct ancestry."
       ]
+    },
+    {
+      "id": "gymnosperms-cycad-latitudinal-contraction-window",
+      "type": "explorer-preset",
+      "title": {
+        "en": "Cycad high-latitude contraction model window",
+        "zh": "苏铁高纬度收缩模型窗口"
+      },
+      "description": {
+        "en": "Open the source-bounded Cretaceous–Miocene interval used to inspect Coiro et al.’s fossil-integrated model of expanded cycad latitudinal span and later high-latitude contraction.",
+        "zh": "打开有来源边界的白垩纪至中新世区间，检查 Coiro 等将化石整合进系统发育后对苏铁纬度跨度扩大及随后高纬度收缩的模型。"
+      },
+      "route": "#/explore?taxon=cycadophyta&view=map&age=40&older=66&younger=15",
+      "entityIds": [
+        "cycadophyta"
+      ],
+      "claimIds": [
+        "claim:taxon:cycadophyta:biogeography",
+        "claim:event:cycad-latitudinal-contraction",
+        "claim:taxon:cycadophyta:fossil-range"
+      ],
+      "evidenceStatus": "available-with-limitations",
+      "limitations": [
+        "The 66–15 Ma interval is a rounded model-context window spanning Cretaceous–Palaeogene occupation and end-Palaeogene to middle-Miocene contraction; it is not a dated single occurrence, global FAD/LAD or continuous range.",
+        "The result is inferred from 321 living species, 60 fossil leaf species and a time-stratified biogeographic model; high-latitude extirpations and ancestral areas are model outputs, not direct observations or proof of one climatic cause.",
+        "Map markers are sampled occurrence context and do not establish complete distribution, exact fossil-marker co-location or direct ancestry."
+      ]
+    },
+    {
+      "id": "gymnosperms-araucariaceae-total-evidence-window",
+      "type": "explorer-preset",
+      "title": {
+        "en": "Araucariaceae fossil–molecule matrix window",
+        "zh": "南洋杉科化石—分子矩阵窗口"
+      },
+      "description": {
+        "en": "Open the source-bounded Hettangian window around Holyoke specimen J 1430 while inspecting the family analysis that sampled 39 ingroup species (31 living, 8 fossil) across genomic and morphological characters.",
+        "zh": "打开围绕 Holyoke J 1430 标本的有来源边界赫塘阶窗口，同时检查该科分析：39 个内群种（31 个现生、8 个化石）及其基因组和形态性状取样。"
+      },
+      "route": "#/explore?taxon=araucariaceae&view=map&age=200.45&older=201.4&younger=199.5",
+      "entityIds": [
+        "araucariaceae"
+      ],
+      "claimIds": [
+        "claim:taxon:araucariaceae",
+        "claim:taxon:araucariaceae:profile-taxonomy",
+        "claim:taxon:araucariaceae:profile-biogeography",
+        "claim:taxon:araucariaceae:profile-morphology",
+        "claim:taxon:araucariaceae:range-boundary-rc50"
+      ],
+      "evidenceStatus": "available-with-limitations",
+      "limitations": [
+        "The routed 201.4–199.5 Ma interval is the rounded Hettangian context for specimen J 1430 from the South Hadley Falls Member; it is not a family FAD/LAD or a complete Jurassic distribution.",
+        "The combined topology is a sampled matrix result whose placement depends on taxon selection, character coding and preservation; it does not identify J 1430 or any fossil terminal as a direct ancestor of a living species.",
+        "Map markers are sampled records and are not exact co-registration of the specimen, matrix terminals and map points; unsampled diversity and absence remain unresolved."
+      ]
+    },
+    {
+      "id": "gymnosperms-conifer-fossil-record-window",
+      "type": "explorer-preset",
+      "title": {
+        "en": "Conifer 300-million-year fossil-record window",
+        "zh": "松柏类三亿年化石记录窗口"
+      },
+      "description": {
+        "en": "Open the source-bounded 300–0 Ma navigation window to inspect the review’s “more than 300 million years” fossil-record floor alongside the sampled living-conifer tree and its hemispheric context.",
+        "zh": "打开有来源边界的 300–0 Ma 导航窗口，将综述所述“超过三亿年”化石记录下限与取样的现生松柏树及其半球语境一并检查。"
+      },
+      "route": "#/explore?taxon=coniferophyta&view=map&age=300&older=300&younger=0",
+      "entityIds": [
+        "coniferophyta"
+      ],
+      "claimIds": [
+        "claim:taxon:coniferophyta:range-boundary-rc50",
+        "claim:taxon:coniferophyta",
+        "claim:taxon:coniferophyta:profile-taxonomy",
+        "claim:taxon:coniferophyta:profile-biogeography"
+      ],
+      "evidenceStatus": "available-with-limitations",
+      "limitations": [
+        "The 300 Ma older edge is a conservative rounded display floor for a review statement, not an exact conifer origin, specimen-level FAD or global LAD; the 0 Ma endpoint denotes living sampled lineages.",
+        "The linked molecular tree samples living species and the review emphasizes extinct diversity and fossil gaps; neither provides a complete total-group distribution or an unbroken lineage through the window.",
+        "Map markers are occurrence context and do not establish exact co-location, direct ancestry or causal ecological history; fossil-rich and living samples have different evidentiary status."
+      ]
     }
   ]
 }
