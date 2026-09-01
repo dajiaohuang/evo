@@ -1,5 +1,13 @@
 # Dataset changelog
 
+## App 0.20.36 / 2026.09-static-v5-rc85 — 2026-09-01
+
+- Expanded Trilobites and chelicerates, Cetartiodactyla, and Other mammals from three to five complete bilingual profiles each: Olenoides serratus, Megachelicerax cousteaui, Pakicetus attocki, Peregocetus pacificus, Eritherium azzouzorum and Mimolagus aurorae.
+- Added 25 field-linked primary-evidence claims, increasing the atlas from 109 to 115 complete profiles and 1,205 to 1,230 claims while retaining 403 navigation nodes, 483 references and 72 research scenes. The dossiers reuse existing nodes and source-ledger entries rather than manufacturing topology or reference growth.
+- Preserved specimen and inference boundaries: Olenoides respiratory function and Megachelicerax stem placement remain functional or matrix interpretations; Pakicetus combines separately catalogued material from one locality; Peregocetus dispersal is a reconstructed hypothesis; and Eritherium and Mimolagus remain bounded to named type and referred material, sampled localities and comparative analyses.
+- Retained exactly three source-matched tree, time-map or comparison scenes in each updated package.
+- Kept Pages on `web-light`; Android and iOS build `39` receive the same RC85 dossiers and retain the complete `native-full` catalogue, authority shards and all 109 lossless 0.1° PaleoDEM frames.
+
 ## App 0.20.35 / 2026.09-static-v5-rc84 — 2026-09-01
 
 - Expanded Mammal origins, Marine reptiles and pterosaurs, and Primates from three to five complete bilingual profiles each: Dimetrodon, Morganucodonta, Chaohusaurus, Rhaeticosaurus mertensi, Teilhardina and Morotopithecus bishopi.
