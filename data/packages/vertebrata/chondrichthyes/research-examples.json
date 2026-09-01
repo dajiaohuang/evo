@@ -210,6 +210,86 @@
       "limitations": [
         "The interval follows the linked package range and claim; map markers are sampled records and do not establish a complete distribution, exact origination or extinction, or direct ancestry."
       ]
+    },
+    {
+      "id": "chondrichthyes-qianodus-holotype-tooth-whorl-map",
+      "type": "explorer-preset",
+      "title": {
+        "en": "Qianodus holotype tooth-whorl window",
+        "zh": "黔齿鱼正模齿旋窗口"
+      },
+      "description": {
+        "en": "Open the rounded 439 Ma late Aeronian Rongxi Formation window at Leijiatun, Guizhou, to inspect the sample containing holotype IVPP V26641 and 23 isolated Qianodus tooth whorls.",
+        "zh": "打开贵州雷家屯晚埃隆期荣溪组约 4.39 亿年前的窗口，检查包含正模 IVPP V26641 与 23 个孤立黔齿鱼齿旋的样本。"
+      },
+      "route": "#/explore?taxon=qianodus&view=map&age=439&older=439&younger=439",
+      "entityIds": [
+        "qianodus"
+      ],
+      "claimIds": [
+        "claim:event:early-silurian-qianodus-tooth-whorls",
+        "claim:taxon:qianodus:morphology",
+        "claim:taxon:qianodus:fossil-range"
+      ],
+      "evidenceStatus": "available-with-limitations",
+      "limitations": [
+        "The 439 Ma selector is a rounded late Aeronian sample age from the Ozarkodina guizhouensis biozone, not a direct date for every whorl or a global Chondrichthyes FAD/LAD. / 439 Ma 选择值是来自 Ozarkodina guizhouensis 生物带的晚埃隆期取整样本年龄，并非每个齿旋的直接年龄或软骨鱼类全球首现/末现。",
+        "Tooth addition and histology are observations from isolated whorls, including IVPP V26641; no articulated body or jaw links the whorls to co-occurring scales and spines, and the stem-chondrichthyan placement is a phylogenetic inference rather than direct ancestry. / 齿列添加与组织学是对孤立齿旋（包括 IVPP V26641）的观察；没有关节连接的身体或颌骨把齿旋与共存鳞片、鳍棘联系起来，软骨鱼干群位置是系统发育推断而非直系祖先关系。",
+        "The map shows bounded Leijiatun/Rongxi occurrence context and CAO2024 reconstruction context; it does not establish complete distribution, abundance, ecology or exact fossil-to-map co-registration. / 地图显示有界的雷家屯—荣溪组出现背景与 CAO2024 重建背景；它不确立完整分布、丰度、生态或化石与地图的精确共定位。"
+      ]
+    },
+    {
+      "id": "chondrichthyes-fanjingshania-shoulder-remodelling-map",
+      "type": "explorer-preset",
+      "title": {
+        "en": "Fanjingshania shoulder-remodelling window",
+        "zh": "梵净山鱼肩带重塑窗口"
+      },
+      "description": {
+        "en": "Open the rounded 439 Ma Rongxi Formation window at Leijiatun, Guizhou, to inspect holotype IVPP V27433.1 and referred shoulder elements IVPP V27433.8–12 and V27434.2, including the later tomography evidence for cyclical bone-and-dentine resorption.",
+        "zh": "打开贵州雷家屯荣溪组约 4.39 亿年前的窗口，检查正模 IVPP V27433.1 及归入的肩带标本 IVPP V27433.8–12、V27434.2，包括后续断层扫描显示的骨与牙本质周期性吸收。"
+      },
+      "route": "#/explore?taxon=fanjingshania&view=map&age=439&older=439&younger=439",
+      "entityIds": [
+        "fanjingshania"
+      ],
+      "claimIds": [
+        "claim:event:rongxi-fanjingshania-dermoskeleton",
+        "claim:taxon:fanjingshania"
+      ],
+      "evidenceStatus": "available-with-limitations",
+      "limitations": [
+        "The 439 Ma point is a rounded late Aeronian formation sample, not a direct date for each element or a global chondrichthyan first or last appearance. / 439 Ma 点位是晚埃隆期地层样本的取整年龄，并非每个骨片的直接年龄或软骨鱼类全球首现/末现。",
+        "The original study records a fused shoulder-plate/spine fragment and more than one thousand isolated dermal elements; the later CT study observes growth centres and resorption in referred elements, while a complete body, associated dentition and full-body reconstruction remain unavailable. / 原始研究记录了融合的肩板—鳍棘碎片及一千多个孤立皮质骨片；后续 CT 研究观察到归入标本的生长中心与吸收现象，但完整身体、相关牙齿和完整体复原仍不可得。",
+        "Fanjingshania is treated as stem Chondrichthyes in a sampled phylogenetic analysis, not a crown shark or direct ancestor. Map markers retain locality and sampling limits and do not show complete distribution, behaviour or exact fossil-to-map co-registration. / 梵净山鱼在取样的系统发育分析中被视为软骨鱼干群成员，而非冠群鲨类或直系祖先。地图标记保留地点与取样限制，不表示完整分布、行为或化石与地图的精确共定位。"
+      ]
+    },
+    {
+      "id": "chondrichthyes-shenacanthus-body-plan-map",
+      "type": "explorer-preset",
+      "title": {
+        "en": "Shenacanthus articulated body-plan window",
+        "zh": "申氏棘鱼关节连接体制窗口"
+      },
+      "description": {
+        "en": "Open the rounded 436 Ma Huixingshao Formation window at Yongdong, Xiushan, Chongqing, to inspect sole near-complete holotype IVPP V300000 and its mosaic of minute scales, branchial anatomy and large thoracic armour.",
+        "zh": "打开重庆秀山永东回星哨组约 4.36 亿年前的窗口，检查唯一近完整正模 IVPP V300000 及其由微小鳞片、鳃区解剖和大型胸甲组成的镶嵌体制。"
+      },
+      "route": "#/explore?taxon=shenacanthus&view=map&age=436&older=436&younger=436",
+      "entityIds": [
+        "shenacanthus"
+      ],
+      "claimIds": [
+        "claim:event:chongqing-shenacanthus-body-plan",
+        "claim:taxon:shenacanthus:morphology",
+        "claim:taxon:shenacanthus:fossil-range"
+      ],
+      "evidenceStatus": "available-with-limitations",
+      "limitations": [
+        "The 436 Ma selector is a rounded Telychian horizon value, not a direct date for the holotype or a global Chondrichthyes FAD/LAD. / 436 Ma 选择值是特列奇期地层视窗的取整年龄，并非正模的直接年龄或软骨鱼类全球首现/末现。",
+        "The near-complete body and anatomical mosaic are direct observations from one specimen; no teeth are preserved, and maximum-parsimony versus Bayesian analyses differ in the precise total-group placement, so the result is model-dependent rather than a direct ancestor. / 近完整身体与解剖镶嵌体制是对单件标本的直接观察；未保存牙齿，最大简约法与贝叶斯分析对总群中的精确位置存在差异，因此该结果依赖模型，并非直系祖先关系。",
+        "The map is a Yongdong/Huixingshao sample context paired with a CAO2024 reconstruction frame. One holotype cannot establish species duration, complete distribution, behaviour or exact fossil-to-map co-registration. / 地图将永东—回星哨组样本背景与 CAO2024 重建帧并列；一件正模不能确立物种延续时间、完整分布、行为或化石与地图的精确共定位。"
+      ]
     }
   ]
 }
