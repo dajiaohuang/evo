@@ -122,6 +122,106 @@
       "limitations": [
         "The two sides retain separate source, sampling, range and uncertainty boundaries; visual differences are not tests of evolutionary causation or a package-specific phylogeny."
       ]
+    },
+    {
+      "id": "molluscs-brachiopods-kimberella-white-sea-map",
+      "type": "explorer-preset",
+      "title": {
+        "en": "Kimberella White Sea sample window",
+        "zh": "金伯虫白海样本窗口"
+      },
+      "description": {
+        "en": "Open the 558–555 Ma White Sea Kimberella sample window in the map to inspect the source-linked body-fossil evidence and its bounded occurrence context.",
+        "zh": "在地图中打开 558–555 Ma 的金伯虫白海样本窗口，检查带来源关联的身体化石证据及其限定出现背景。"
+      },
+      "route": "#/explore?taxon=kimberella&view=map&age=556.5&older=558&younger=555",
+      "entityIds": [
+        "kimberella"
+      ],
+      "claimIds": [
+        "claim:event:kimberella-white-sea-morphology"
+      ],
+      "evidenceStatus": "available-with-limitations",
+      "limitations": [
+        "The 556.5 Ma map age is the rounded midpoint of a 558–555 Ma White Sea assemblage window, not a direct date for any specimen, a global Kimberella duration or a molluscan FAD.",
+        "More than 35 named-assemblage body fossils constrain the observed outline and regions; mollusc-like resemblance, homology and phylogenetic placement remain comparative interpretations, not crown membership or direct ancestry.",
+        "Markers show the package's sampled occurrence context, not a complete distribution or a sampling-corrected abundance map; locality and stratum context do not demonstrate ecology or a global absence elsewhere."
+      ]
+    },
+    {
+      "id": "molluscs-brachiopods-odontogriphus-burgess-map",
+      "type": "explorer-preset",
+      "title": {
+        "en": "Odontogriphus Burgess Shale sample window",
+        "zh": "齿舌虫伯吉斯页岩样本窗口"
+      },
+      "description": {
+        "en": "Open the 508–505 Ma Burgess Shale Odontogriphus sample window in the map to inspect the source-linked tooth-row evidence alongside its bounded occurrence context.",
+        "zh": "在地图中打开 508–505 Ma 的齿舌虫伯吉斯页岩样本窗口，结合其限定出现背景检查带来源关联的齿列证据。"
+      },
+      "route": "#/explore?taxon=odontogriphus&view=map&age=506.5&older=508&younger=505",
+      "entityIds": [
+        "odontogriphus"
+      ],
+      "claimIds": [
+        "claim:event:odontogriphus-radula-sample"
+      ],
+      "evidenceStatus": "available-with-limitations",
+      "limitations": [
+        "The 506.5 Ma map age is a rounded midpoint of the 508–505 Ma Burgess Shale sample window, not a direct specimen date, a global species range or a crown-mollusc calibration.",
+        "The 189-specimen sample directly records repeated tooth rows and associated soft anatomy from this locality and stratum; radular homology and stem-mollusc placement are comparative morphology and phylogenetic interpretations, not observed feeding or direct ancestry.",
+        "Map markers are sampled occurrence context and preserve collection and preservation bias; they do not establish complete distribution, abundance, global FAD/LAD or ecology."
+      ]
+    },
+    {
+      "id": "molluscs-brachiopods-nectocaris-burgess-map",
+      "type": "explorer-preset",
+      "title": {
+        "en": "Nectocaris Burgess Shale soft-body test",
+        "zh": "内克托卡里斯伯吉斯页岩软体证据检验"
+      },
+      "description": {
+        "en": "Open the 508–505 Ma Burgess Shale Nectocaris window in the map to inspect the source-linked soft-body evidence and the limits of its cephalopod interpretation.",
+        "zh": "在地图中打开 508–505 Ma 的内克托卡里斯伯吉斯页岩窗口，检查带来源关联的软体证据及其头足类解释的界限。"
+      },
+      "route": "#/explore?taxon=nectocaris&view=map&age=506.5&older=508&younger=505",
+      "entityIds": [
+        "nectocaris"
+      ],
+      "claimIds": [
+        "claim:event:nectocaris-soft-body-cephalopod-test"
+      ],
+      "evidenceStatus": "available-with-limitations",
+      "limitations": [
+        "The 506.5 Ma map age is a rounded midpoint of the 508–505 Ma Burgess Shale context, not a direct specimen date, a global Nectocaris duration or a cephalopod crown age.",
+        "Ninety prepared specimens directly constrain soft anatomy at this locality and stratum, but the cephalopod placement is a contested comparative/topological interpretation because diagnostic shell, siphuncle, beak and radula evidence are absent; it does not establish ecology or direct ancestry.",
+        "Markers show sampled occurrence context subject to preservation and collection bias, not a complete distribution, global FAD/LAD, abundance estimate or proof that mapped geography is a fossil-to-reconstruction co-registration."
+      ]
+    },
+    {
+      "id": "molluscs-brachiopods-kutorgina-chengjiang-map",
+      "type": "explorer-preset",
+      "title": {
+        "en": "Kutorgina Chengjiang formation window",
+        "zh": "澄江顾脱贝地层窗口"
+      },
+      "description": {
+        "en": "Open the 520–518 Ma Chengjiang Kutorgina window in the map to inspect the source-linked exceptional-preservation occurrence and its formation-scale limits.",
+        "zh": "在地图中打开 520–518 Ma 的澄江顾脱贝窗口，检查带来源关联的特殊保存出现记录及其地层尺度边界。"
+      },
+      "route": "#/explore?taxon=kutorgina-chengjiangensis&view=map&age=519&older=520&younger=518",
+      "entityIds": [
+        "kutorgina-chengjiangensis"
+      ],
+      "claimIds": [
+        "claim:taxon:kutorgina-chengjiangensis:fossil-range"
+      ],
+      "evidenceStatus": "available-with-limitations",
+      "limitations": [
+        "The 519 Ma map age is the rounded midpoint of a 520–518 Ma formation-scale Chengjiang window, not a direct date for a valve, a global brachiopod FAD/LAD or a continuous lineage range.",
+        "Exceptionally preserved calcareous valves with lophophore, gut and pedicle constrain the cited Chengjiang material; morphology and organismal interpretation do not by themselves resolve broader phylogeny, ecology or direct ancestry.",
+        "Markers show a locality- and stratum-bounded sampled occurrence context with preservation and collection bias, not complete global distribution, abundance or direct fossil-to-paleomap co-registration."
+      ]
     }
   ]
 }
