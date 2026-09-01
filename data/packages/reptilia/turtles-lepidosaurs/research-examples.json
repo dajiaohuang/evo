@@ -75,144 +75,144 @@
       "id": "turtles-lepidosaurs-odontochelys-xiaowa-map",
       "type": "explorer-preset",
       "title": {
-        "en": "Odontochelys Xiaowa Formation map window",
-        "zh": "Odontochelys 小洼组地图窗口"
+        "en": "Odontochelys at Xiaowa occurrence window",
+        "zh": "小洼组 Odontochelys出现窗口"
       },
       "description": {
-        "en": "Open the approximately 220 Ma lower Xiaowa Formation window near Guanling, Guizhou, for Odontochelys specimens IVPP V 15639, V 13240 and V 15653. The rounded 220 Ma focus displays the sampled plastron and incomplete dorsal-shell context; plastron-first assembly remains a comparative homology model, not a direct ancestor sequence.",
-        "zh": "打开贵州关岭附近小洼组下部约 220 Ma 窗口，检查 Odontochelys 标本 IVPP V 15639、V 13240 和 V 15653。220 Ma 取整年龄用于显示取样到的腹甲与不完整背甲背景；腹甲先形成仍是比较同源性模型，不是直接祖先序列。"
+        "en": "Open a source-bounded Odontochelys at Xiaowa time window in the map to inspect sampled occurrence context linked to this package.",
+        "zh": "在地图中打开有来源边界的小洼组 Odontochelys时间窗口，检查与本包关联的采样出现背景。"
       },
       "route": "#/explore?taxon=testudines&view=map&age=220&older=220&younger=220",
       "entityIds": [
         "testudines"
       ],
       "claimIds": [
-        "claim:event:odontochelys-plastron-dorsal-shell-mosaic"
+        "claim:event:odontochelys-plastron-dorsal-shell-mosaic",
+        "claim:taxon:testudines:fossil-range"
       ],
       "evidenceStatus": "available-with-limitations",
       "limitations": [
-        "The 220 Ma point follows the available Testudines display envelope and the named Late Triassic sample; it is not a global FAD, LAD or complete turtle distribution.",
-        "The specimens, Xiaowa locality and shell reconstruction retain source, sampling and preservation boundaries; map context does not establish direct ancestry, causal mechanism or exact fossil-to-map co-registration."
+        "The interval follows the linked package range and claim; map markers are sampled records and do not establish a complete distribution, exact origination or extinction, or direct ancestry."
       ]
     },
     {
       "id": "turtles-lepidosaurs-caribemys-calibration-map",
       "type": "explorer-preset",
       "title": {
-        "en": "Caribemys crown-turtle calibration map window",
-        "zh": "Caribemys 冠群龟校准地图窗口"
+        "en": "Caribemys calibration occurrence window",
+        "zh": "Caribemys 冠群龟校准出现窗口"
       },
       "description": {
-        "en": "Open the approximately 155.6 Ma Oxfordian calibration window for Caribemys holotype MNHNCu P-3209 from western Cuba. The rounded focus represents the fossil's hard minimum in the cited clock model, not a direct crown-origin date, specimen-level radiometric date or global turtle FAD.",
-        "zh": "打开古巴西部 Caribemys 正模标本 MNHNCu P-3209 约 155.6 Ma 的牛津期校准窗口。该取整焦点表示所引分子钟模型中的化石硬下限，不是冠群起源的直接年龄、标本直接测年或全球龟类首现。"
+        "en": "Open a source-bounded Caribemys calibration time window in the map to inspect sampled occurrence context linked to this package.",
+        "zh": "在地图中打开有来源边界的Caribemys 冠群龟校准时间窗口，检查与本包关联的采样出现背景。"
       },
       "route": "#/explore?taxon=testudines&view=map&age=155.6&older=155.6&younger=155.6",
       "entityIds": [
         "testudines"
       ],
       "claimIds": [
-        "claim:event:caribemys-crown-turtle-calibration"
+        "claim:event:caribemys-crown-turtle-calibration",
+        "claim:taxon:testudines:fossil-range"
       ],
       "evidenceStatus": "available-with-limitations",
       "limitations": [
-        "The 155.6 Ma point lies within the available Testudines envelope but is a hard-minimum calibration boundary for MNHNCu P-3209, not a complete occurrence interval or global FAD/LAD.",
-        "Topology, molecular data, priors and clock model affect the older posterior; the map route does not establish direct ancestry or exact fossil-to-map co-registration."
+        "The interval follows the linked package range and claim; map markers are sampled records and do not establish a complete distribution, exact origination or extinction, or direct ancestry."
       ]
     },
     {
       "id": "turtles-lepidosaurs-taytalura-ischigualasto-map",
       "type": "explorer-preset",
       "title": {
-        "en": "Taytalura Ischigualasto map window",
-        "zh": "Taytalura 伊斯奇瓜拉斯托地图窗口"
+        "en": "Taytalura at Ischigualasto occurrence window",
+        "zh": "伊斯奇瓜拉斯托 Taytalura出现窗口"
       },
       "description": {
-        "en": "Open the approximately 231.4 Ma Late Carnian window for Taytalura holotype PVSJ 698 from the lower Cancha de Bochas Member of the Ischigualasto Formation, Argentina. The rounded focus is a stratigraphic navigation anchor for the three-dimensionally preserved skull and CT analysis, not a direct ancestor or global lepidosaur FAD.",
-        "zh": "打开阿根廷伊斯奇瓜拉斯托组 Cancha de Bochas 段下部 Taytalura 正模标本 PVSJ 698 的晚卡尼期约 231.4 Ma 窗口。该取整焦点是三维保存头骨及 CT 分析的地层导航锚点，不是直接祖先或全球鳞龙类首现。"
+        "en": "Open a source-bounded Taytalura at Ischigualasto time window in the map to inspect sampled occurrence context linked to this package.",
+        "zh": "在地图中打开有来源边界的伊斯奇瓜拉斯托 Taytalura时间窗口，检查与本包关联的采样出现背景。"
       },
       "route": "#/explore?taxon=lepidosauria&view=map&age=231.4&older=231.7&younger=231.1",
       "entityIds": [
         "lepidosauria"
       ],
       "claimIds": [
-        "claim:event:taytalura-stem-lepidosaur-skull"
+        "claim:event:taytalura-stem-lepidosaur-skull",
+        "claim:taxon:lepidosauria:fossil-range"
       ],
       "evidenceStatus": "available-with-limitations",
       "limitations": [
-        "The 231.7–231.1 Ma window is a rounded local stratigraphic envelope within the available Lepidosauria route; it is not a global FAD, LAD or complete distribution.",
-        "Only the PVSJ 698 skull is documented; stem placement and any ancestral-state reconstruction remain model- and matrix-dependent, and the map does not establish exact fossil-to-map co-registration."
+        "The interval follows the linked package range and claim; map markers are sampled records and do not establish a complete distribution, exact origination or extinction, or direct ancestry."
       ]
     },
     {
       "id": "turtles-lepidosaurs-megachirella-dolomites-map",
       "type": "explorer-preset",
       "title": {
-        "en": "Megachirella Italian Alps map window",
-        "zh": "Megachirella 意大利阿尔卑斯地图窗口"
+        "en": "Megachirella in the Dolomites occurrence window",
+        "zh": "多洛米蒂 Megachirella出现窗口"
       },
       "description": {
-        "en": "Open the approximately 240 Ma Middle Triassic window for the only known Megachirella specimen, PZO 628, from the Italian Alps. The rounded age marks the fossil's study envelope while high-resolution micro-CT anatomy enters a combined morphology–molecule model; it is not a crown-Squamata FAD or direct ancestor observation.",
-        "zh": "打开意大利阿尔卑斯约 240 Ma 中三叠世窗口，检查目前唯一已知的 Megachirella 标本 PZO 628。取整年龄标记该化石的研究包络，高分辨率微 CT 解剖进入形态—分子联合模型；这不是冠群有鳞类首现或直接祖先观察。"
+        "en": "Open a source-bounded Megachirella in the Dolomites time window in the map to inspect sampled occurrence context linked to this package.",
+        "zh": "在地图中打开有来源边界的多洛米蒂 Megachirella时间窗口，检查与本包关联的采样出现背景。"
       },
       "route": "#/explore?taxon=lepidosauria&view=map&age=240&older=240&younger=240",
       "entityIds": [
         "lepidosauria"
       ],
       "claimIds": [
-        "claim:event:megachirella-ct-stem-squamate"
+        "claim:event:megachirella-ct-stem-squamate",
+        "claim:taxon:lepidosauria:fossil-range"
       ],
       "evidenceStatus": "available-with-limitations",
       "limitations": [
-        "The 240 Ma point follows the available Lepidosauria envelope and the rounded Middle Triassic PZO 628 horizon; it is not a global FAD, LAD or continuous lineage duration.",
-        "Compression, single-specimen sampling, character scoring, molecular partitions and clock priors bound the model; map context does not establish direct ancestry or exact fossil-to-map co-registration."
+        "The interval follows the linked package range and claim; map markers are sampled records and do not establish a complete distribution, exact origination or extinction, or direct ancestry."
       ]
     },
     {
       "id": "turtles-lepidosaurs-bellairsia-skye-map",
       "type": "explorer-preset",
       "title": {
-        "en": "Bellairsia Kilmaluag Formation map window",
-        "zh": "Bellairsia 基尔马卢格组地图窗口"
+        "en": "Bellairsia on Skye occurrence window",
+        "zh": "斯凯岛 Bellairsia出现窗口"
       },
       "description": {
-        "en": "Open the approximately 167 Ma Middle Jurassic Kilmaluag Formation window on Skye, Scotland, for near-complete Bellairsia gracilis specimen NMS G.2022.1.1. The rounded age summarizes the Bathonian horizon; synchrotron anatomy and stem-squamate placement are study-bounded evidence, while Kirtlington comparison material remains separate.",
-        "zh": "打开苏格兰斯凯岛中侏罗世基尔马卢格组约 167 Ma 窗口，检查近完整的 Bellairsia gracilis 标本 NMS G.2022.1.1。取整年龄概括巴通期层位；同步辐射解剖与有鳞类干群位置仅限本研究，基尔特灵比较材料保持分开。"
+        "en": "Open a source-bounded Bellairsia on Skye time window in the map to inspect sampled occurrence context linked to this package.",
+        "zh": "在地图中打开有来源边界的斯凯岛 Bellairsia时间窗口，检查与本包关联的采样出现背景。"
       },
       "route": "#/explore?taxon=lepidosauria&view=map&age=167&older=168.3&younger=166.1",
       "entityIds": [
         "lepidosauria"
       ],
       "claimIds": [
-        "claim:event:bellairsia-synchrotron-stem-squamate"
+        "claim:event:bellairsia-synchrotron-stem-squamate",
+        "claim:taxon:lepidosauria:fossil-range"
       ],
       "evidenceStatus": "available-with-limitations",
       "limitations": [
-        "The 168.3–166.1 Ma Bathonian window follows the available Lepidosauria envelope and the named Skye horizon; it is not a global FAD, LAD or complete squamate distribution.",
-        "NMS G.2022.1.1 is distinct from referred Kirtlington fragments; reconstruction, character coding and molecular-backbone constraints limit the model, and map context does not establish direct ancestry or exact co-registration."
+        "The interval follows the linked package range and claim; map markers are sampled records and do not establish a complete distribution, exact origination or extinction, or direct ancestry."
       ]
     },
     {
       "id": "turtles-lepidosaurs-mosasauroidea-dallasaurus-map",
       "type": "explorer-preset",
       "title": {
-        "en": "Mosasauroidea Dallasaurus clade-boundary map window",
-        "zh": "Mosasauroidea Dallasaurus 支系边界地图窗口"
+        "en": "Dallasaurus mosasauroid boundary occurrence window",
+        "zh": "Dallasaurus 沧龙超科支系边界出现窗口"
       },
       "description": {
-        "en": "Open the 93.9–89.8 Ma middle Turonian Arcadia Park Shale window in north-central Texas for the Dallasaurus turneri skeleton sample. The 91.85 Ma focus is a rounded midpoint for comparing branch- and node-defined clades and plesiopedal anatomy; it is not a global mosasauroid FAD, LAD or ancestry sequence.",
-        "zh": "打开美国得州中北部中土仑期 Arcadia Park 页岩 93.9–89.8 Ma 窗口，检查 Dallasaurus turneri 骨架样本。91.85 Ma 是用于比较分支定义与节点定义支系及原始足型解剖的取整中点，不是全球沧龙超科首现、末现或祖先序列。"
+        "en": "Open a source-bounded Dallasaurus mosasauroid boundary time window in the map to inspect sampled occurrence context linked to this package.",
+        "zh": "在地图中打开有来源边界的Dallasaurus 沧龙超科支系边界时间窗口，检查与本包关联的采样出现背景。"
       },
       "route": "#/explore?taxon=mosasauroidea&view=map&age=91.85&older=93.9&younger=89.8",
       "entityIds": [
         "mosasauroidea"
       ],
       "claimIds": [
-        "claim:event:mosasauroid-clade-boundaries"
+        "claim:event:mosasauroid-clade-boundaries",
+        "claim:taxon:mosasauroidea:range-boundary"
       ],
       "evidenceStatus": "available-with-limitations",
       "limitations": [
-        "The 93.9–89.8 Ma interval follows the available Dallasaurus Mosasauroidea study envelope; it does not establish a global clade duration, complete distribution or FAD/LAD.",
-        "Clade definitions are explicit but basal branching remains analysis-sensitive; sampled plesiopedal anatomy and map markers do not establish direct ancestry, causal mechanism or exact fossil-to-map co-registration."
+        "The interval follows the linked package range and claim; map markers are sampled records and do not establish a complete distribution, exact origination or extinction, or direct ancestry."
       ]
     }
   ]

@@ -1,5 +1,5 @@
 export const PACKAGE_SCHEMA_VERSION = 5
-export const DATASET_PACKAGE_VERSION = '2026.09-static-v5-rc90'
+export const DATASET_PACKAGE_VERSION = '2026.09-static-v5-rc91'
 export const DATASET_RELEASE_DATE = '2026-09-01'
 
 // Explicit source-bound Explorer presets. These mappings are intentionally
@@ -132,14 +132,34 @@ export const researchSceneDefinitions = {
   'marine-reptiles-pterosaurs': { label: { en: 'Marine reptiles and pterosaurs', zh: '海生爬行动物与翼龙' }, scenes: [
     { id: 'marine-reptiles-pterosaurs-map-window', kind: 'map', route: '#/explore?taxon=ichthyosauria&view=map&age=169&older=248&younger=90', entityIds: ['ichthyosauria'], claimIds: ['claim:taxon:ichthyosauria:fossil-range'] },
     { id: 'marine-reptiles-pterosaurs-comparison-window', kind: 'comparison', route: '#/compare?left=ichthyosaurus&right=plesiosauria', entityIds: ['ichthyosaurus', 'plesiosauria'], claimIds: ['claim:taxon:ichthyosaurus:fossil-range', 'claim:taxon:plesiosauria:fossil-range'] },
+    { id: 'marine-reptiles-pterosaurs-cartorhynchus-map-window', kind: 'map', route: '#/explore?taxon=cartorhynchus&view=map&age=248&older=248&younger=248', entityIds: ['cartorhynchus'], claimIds: ['claim:event:cartorhynchus-holotype-body-plan'] },
+    { id: 'marine-reptiles-pterosaurs-chaohusaurus-map-window', kind: 'map', route: '#/explore?taxon=chaohusaurus&view=map&age=248&older=248&younger=248', entityIds: ['chaohusaurus'], claimIds: ['claim:event:chaohusaurus-maternal-specimen'] },
+    { id: 'marine-reptiles-pterosaurs-stenopterygius-map-window', kind: 'map', route: '#/explore?taxon=stenopterygius&view=map&age=178.4&older=182.7&younger=174.1', entityIds: ['stenopterygius'], claimIds: ['claim:event:stenopterygius-soft-tissues'] },
+    { id: 'marine-reptiles-pterosaurs-rhaeticosaurus-map-window', kind: 'map', route: '#/explore?taxon=rhaeticosaurus&view=map&age=203.55&older=205.7&younger=201.4', entityIds: ['rhaeticosaurus'], claimIds: ['claim:event:rhaeticosaurus-holotype-histology'] },
+    { id: 'marine-reptiles-pterosaurs-elasmosauridae-map-window', kind: 'map', route: '#/explore?taxon=elasmosauridae&view=map&age=69.05&older=72.1&younger=66', entityIds: ['elasmosauridae'], claimIds: ['claim:taxon:elasmosauridae:range-boundary'] },
+    { id: 'marine-reptiles-pterosaurs-polycotylus-map-window', kind: 'map', route: '#/explore?taxon=polycotylus&view=map&age=78&older=83.6&younger=72.1', entityIds: ['polycotylus'], claimIds: ['claim:event:polycotylus-gravid-specimen'] },
+    { id: 'marine-reptiles-pterosaurs-pteranodontidae-map-window', kind: 'map', route: '#/explore?taxon=pteranodontidae&view=map&age=85.15&older=89.8&younger=80.5', entityIds: ['pteranodontidae'], claimIds: ['claim:taxon:pteranodontidae:range-boundary'] },
+    { id: 'marine-reptiles-pterosaurs-tupandactylus-map-window', kind: 'map', route: '#/explore?taxon=tupandactylus&view=map&age=112.5&older=115&younger=110', entityIds: ['tupandactylus'], claimIds: ['claim:event:tupandactylus-feather-melanosomes'] },
+    { id: 'marine-reptiles-pterosaurs-hamipterus-map-window', kind: 'map', route: '#/explore?taxon=hamipterus&view=map&age=112.5&older=115&younger=110', entityIds: ['hamipterus'], claimIds: ['claim:event:hamipterus-egg-assemblage'] },
   ] },
   'turtles-lepidosaurs': { label: { en: 'Turtles and lepidosaurs', zh: '龟鳖与鳞龙' }, scenes: [
     { id: 'turtles-lepidosaurs-map-window', kind: 'map', route: '#/explore?taxon=testudines&view=map&age=110&older=220&younger=0', entityIds: ['testudines'], claimIds: ['claim:taxon:testudines:fossil-range'] },
     { id: 'turtles-lepidosaurs-diversity-window', kind: 'diversity', route: '#/explore?taxon=mosasauridae&view=diversity&age=79&older=92&younger=66', entityIds: ['mosasauridae'], claimIds: ['claim:taxon:mosasauridae:fossil-range'] },
+    { id: 'turtles-lepidosaurs-odontochelys-xiaowa-map', kind: 'map', route: '#/explore?taxon=testudines&view=map&age=220&older=220&younger=220', entityIds: ['testudines'], entityLabel: { en: 'Odontochelys at Xiaowa', zh: '小洼组 Odontochelys' }, claimIds: ['claim:event:odontochelys-plastron-dorsal-shell-mosaic', 'claim:taxon:testudines:fossil-range'] },
+    { id: 'turtles-lepidosaurs-caribemys-calibration-map', kind: 'map', route: '#/explore?taxon=testudines&view=map&age=155.6&older=155.6&younger=155.6', entityIds: ['testudines'], entityLabel: { en: 'Caribemys calibration', zh: 'Caribemys 冠群龟校准' }, claimIds: ['claim:event:caribemys-crown-turtle-calibration', 'claim:taxon:testudines:fossil-range'] },
+    { id: 'turtles-lepidosaurs-taytalura-ischigualasto-map', kind: 'map', route: '#/explore?taxon=lepidosauria&view=map&age=231.4&older=231.7&younger=231.1', entityIds: ['lepidosauria'], entityLabel: { en: 'Taytalura at Ischigualasto', zh: '伊斯奇瓜拉斯托 Taytalura' }, claimIds: ['claim:event:taytalura-stem-lepidosaur-skull', 'claim:taxon:lepidosauria:fossil-range'] },
+    { id: 'turtles-lepidosaurs-megachirella-dolomites-map', kind: 'map', route: '#/explore?taxon=lepidosauria&view=map&age=240&older=240&younger=240', entityIds: ['lepidosauria'], entityLabel: { en: 'Megachirella in the Dolomites', zh: '多洛米蒂 Megachirella' }, claimIds: ['claim:event:megachirella-ct-stem-squamate', 'claim:taxon:lepidosauria:fossil-range'] },
+    { id: 'turtles-lepidosaurs-bellairsia-skye-map', kind: 'map', route: '#/explore?taxon=lepidosauria&view=map&age=167&older=168.3&younger=166.1', entityIds: ['lepidosauria'], entityLabel: { en: 'Bellairsia on Skye', zh: '斯凯岛 Bellairsia' }, claimIds: ['claim:event:bellairsia-synchrotron-stem-squamate', 'claim:taxon:lepidosauria:fossil-range'] },
+    { id: 'turtles-lepidosaurs-mosasauroidea-dallasaurus-map', kind: 'map', route: '#/explore?taxon=mosasauroidea&view=map&age=91.85&older=93.9&younger=89.8', entityIds: ['mosasauroidea'], entityLabel: { en: 'Dallasaurus mosasauroid boundary', zh: 'Dallasaurus 沧龙超科支系边界' }, claimIds: ['claim:event:mosasauroid-clade-boundaries', 'claim:taxon:mosasauroidea:range-boundary'] },
   ] },
   'crocodylomorphs-birds': { label: { en: 'Crocodylomorphs and birds', zh: '鳄类与鸟类' }, scenes: [
     { id: 'crocodylomorphs-birds-map-window', kind: 'map', route: '#/explore?taxon=carnufex&view=map&age=231&older=231&younger=231', entityIds: ['carnufex'], claimIds: ['claim:event:carnufex-holotype-predator'] },
     { id: 'crocodylomorphs-birds-comparison-window', kind: 'comparison', route: '#/compare?left=archaeopteryx&right=neornithes', entityIds: ['archaeopteryx', 'neornithes'], claimIds: ['claim:taxon:archaeopteryx:fossil-range', 'claim:taxon:neornithes:fossil-range'] },
+    { id: 'crocodylomorphs-birds-junggarsuchus-shishugou-map', kind: 'map', route: '#/explore?taxon=junggarsuchus&view=map&age=165.9&older=168.3&younger=163.5', entityIds: ['junggarsuchus'], claimIds: ['claim:event:junggarsuchus-skull-consolidation'] },
+    { id: 'crocodylomorphs-birds-archaeopteryx-bavaria-map', kind: 'map', route: '#/explore?taxon=archaeopteryx&view=map&age=149&older=150&younger=148', entityIds: ['archaeopteryx'], claimIds: ['claim:taxon:archaeopteryx:fossil-range'] },
+    { id: 'crocodylomorphs-birds-phorusrhacidae-llallawavis-map', kind: 'map', route: '#/explore?taxon=phorusrhacidae&view=map&age=3.1&older=3.6&younger=2.6', entityIds: ['phorusrhacidae'], claimIds: ['claim:taxon:phorusrhacidae:source-bounded-range-rc49'] },
+    { id: 'crocodylomorphs-birds-asteriornis-maastricht-map', kind: 'map', route: '#/explore?taxon=asteriornis&view=map&age=66.75&older=66.8&younger=66.7', entityIds: ['asteriornis'], claimIds: ['claim:taxon:asteriornis'] },
+    { id: 'crocodylomorphs-birds-vegavis-vega-island-map', kind: 'map', route: '#/explore?taxon=vegavis&view=map&age=68.8&older=69.2&younger=68.4', entityIds: ['vegavis'], claimIds: ['claim:event:vegavis-skull-crown-test'] },
   ] },
   dinosauria: { label: { en: 'Dinosauria', zh: '恐龙' }, scenes: [
     { id: 'dinosauria-map-window', kind: 'map', route: '#/explore?taxon=dinosauria&view=map&age=116.6&older=233.2&younger=0', entityIds: ['dinosauria'], claimIds: ['claim:taxon:dinosauria:root-range'] },
