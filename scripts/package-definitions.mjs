@@ -121,7 +121,7 @@ export const researchSceneDefinitions = {
   ] },
   'other-mammals': { label: { en: 'Other mammals', zh: '其他哺乳动物' }, scenes: [
     { id: 'other-mammals-map-window', kind: 'map', route: '#/explore?taxon=monotremata&view=map&age=55&older=110&younger=0', entityIds: ['monotremata'], claimIds: ['claim:taxon:monotremata:root-range'] },
-    { id: 'other-mammals-comparison-window', kind: 'comparison', route: '#/compare?left=steropodon&right=eomaia', entityIds: ['steropodon', 'eomaia'], claimIds: ['claim:taxon:steropodon:fossil-range', 'claim:taxon:eomaia:fossil-range'] },
+    { id: 'other-mammals-comparison-window', kind: 'comparison', route: '#/compare?left=eritherium&right=mimolagus', entityIds: ['eritherium', 'mimolagus'], claimIds: ['claim:taxon:eritherium:fossil-range', 'claim:taxon:mimolagus:fossil-range'] },
   ] },
   primates: { label: { en: 'Primates', zh: '灵长类' }, scenes: [
     { id: 'primates-map-window', kind: 'map', route: '#/explore?taxon=teilhardina&view=map&age=55.9&older=56&younger=55.8', entityIds: ['teilhardina'], claimIds: ['claim:taxon:teilhardina:fossil-range'] },

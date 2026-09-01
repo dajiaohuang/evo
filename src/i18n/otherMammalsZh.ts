@@ -100,4 +100,12 @@ export const otherMammalsZh: Record<string, string> = {
   "Juramaia": "侏罗兽",
   "Eomaia": "始祖兽",
   "Ambolestes": "无惧兽",
+  "MNHN PM69 and fourteen referred specimens define Eritherium azzouzorum; the source's stem-proboscidean placement is a character-matrix result, not a direct ancestry claim.": "MNHN PM69 与十四件归入标本界定 Eritherium azzouzorum；来源中的长鼻类干群位置是性状矩阵结果，而非直接祖先主张。",
+  "The profile is limited to the lower bone bed of phosphate bed IIa at Sidi Chennane in Morocco's Ouled Abdoun Basin; this locality does not establish the distribution or geographic origin of Proboscidea.": "本档案限定于摩洛哥 Ouled Abdoun 盆地 Sidi Chennane 磷酸盐 IIa 层的下部骨层；该地点不能确立长鼻目的分布或地理起源。",
+  "Cranial and dental anatomy permits comparative functional interpretation, but diet, habitual habitat, locomotion and behaviour are not directly observed in the 15-specimen hypodigm.": "颅骨和牙齿解剖允许比较功能解释，但在这套 15 件标本组合中并未直接观察到食性、日常栖息地、运动或行为。",
+  "Holotype skull MNHN PM69 preserves a rostrum and maxillary dentition, while fourteen referred specimens extend the sampled upper and lower teeth and cranial anatomy.": "正模头骨 MNHN PM69 保存吻部和上颌牙列；十四件归入标本扩展了已采样的上下牙齿与颅骨解剖。",
+  "Right M3 IVPP V20115 and referred material are assigned to Mimolagus aurorae in the published comparison; mimotonid and lagomorph affinities are matrix- and character-dependent, not direct ancestry.": "已发表比较将右上第三臼齿 IVPP V20115 及归入材料归为 Mimolagus aurorae；拟兔科和兔形类亲缘取决于矩阵与性状，而非直接祖先。",
+  "The profile is restricted to the lower Irdin Manha Formation sample in the Erlian Basin, Nei Mongol, China; this does not establish the complete distribution or origin centre of Mimolagus or Glires.": "本档案限定于中国内蒙古二连盆地 Irdin Manha 组下部的样本；这不能确立 Mimolagus 或啮形类的完整分布或起源中心。",
+  "Dental and tarsal comparisons support herbivory, locomotor and body-mass inferences for the source sample, but direct food use, habitat use and behaviour were not observed.": "牙齿与跗骨比较支持对来源样本植食性、运动和体重的推断，但未观察到直接食物利用、栖息地利用或行为。",
+  "Holotype right upper third molar IVPP V20115 and referred teeth and tarsals directly record the dental and postcranial characters used in Mimolagus comparisons.": "正模右上第三臼齿 IVPP V20115 以及归入的牙齿和跗骨，直接记录了 Mimolagus 比较中使用的牙齿和颅后性状。",
 }
