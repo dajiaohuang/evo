@@ -26212,6 +26212,27 @@
     ]
   },
   {
+    "id": "claim:taxon:chaohusaurus:taxonomy",
+    "subjectId": "taxon:chaohusaurus",
+    "claimKind": "scientific",
+    "claimType": "taxonomy",
+    "statement": "Chaohusaurus is assigned to the Early Triassic ichthyopterygians in Motani et al.'s study using delayed ossification of carpals and tarsals, dental morphology, vertebral count and hypophalangeal flippers; species-level taxonomy may require revision as more specimens are prepared.",
+    "confidence": "high",
+    "confidenceRationale": "The paper states the diagnostic character combination and assignment procedure directly; the species-level caveat is retained rather than treating the genus assignment as an immutable taxonomy.",
+    "reviewedBy": "Evo Atlas data maintenance",
+    "reviewedAt": "2026-09-01",
+    "reviewedAgainstReferenceVersion": "motani-2014-chaohusaurus-viviparity concrete-locator audit at 2026.09-static-v5-rc83",
+    "referenceLinks": [
+      {
+        "referenceId": "motani-2014-chaohusaurus-viviparity",
+        "relation": "supports",
+        "pages": "e88640, Materials and Methods—Taxonomy",
+        "figure": "Figures 1–4; Supplementary Figures S1–S3",
+        "quoteLocator": "Chaohusaurus assignment; delayed ossification, dental morphology, vertebral count and hypophalangeal flippers"
+      }
+    ]
+  },
+  {
     "id": "claim:taxon:teilhardina:morphology",
     "subjectId": "taxon:teilhardina",
     "claimType": "morphology",
@@ -26229,6 +26250,27 @@
         "pages": "11223–11227",
         "figure": "Figures 1–3; Supporting Tables",
         "quoteLocator": "Dental morphology and intercontinental morphological sequence"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:chaohusaurus:biogeography",
+    "subjectId": "taxon:chaohusaurus",
+    "claimKind": "scientific",
+    "claimType": "biogeography",
+    "statement": "The profiled Chaohusaurus record is limited to south Majiashan Quarry at Chaohu, Anhui, China, where the Spathian Nanlinghu Formation is exposed; this named collection does not establish a complete geographic distribution.",
+    "confidence": "high",
+    "confidenceRationale": "The primary paper names the quarry, region and exposed formation in its specimen methods. The claim is explicitly a locality boundary and does not infer a global range from one collection.",
+    "reviewedBy": "Evo Atlas data maintenance",
+    "reviewedAt": "2026-09-01",
+    "reviewedAgainstReferenceVersion": "motani-2014-chaohusaurus-viviparity concrete-locator audit at 2026.09-static-v5-rc83",
+    "referenceLinks": [
+      {
+        "referenceId": "motani-2014-chaohusaurus-viviparity",
+        "relation": "supports",
+        "pages": "e88640, Materials and Methods—Specimens",
+        "figure": "Figure 1; Supplementary Figure S1",
+        "quoteLocator": "south Majiashan fossil quarry; Chaohu, Anhui, China; Spathian Nanlinghu Formation"
       }
     ]
   },
@@ -26254,6 +26296,69 @@
     ]
   },
   {
+    "id": "claim:taxon:chaohusaurus:morphology",
+    "subjectId": "taxon:chaohusaurus",
+    "claimKind": "scientific",
+    "claimType": "morphology",
+    "statement": "Maternal specimen AGM I-1 preserves an articulated Chaohusaurus skeleton with two embryos in the body and a neonate adjacent to the pelvis, while the genus assignment uses its documented dental, vertebral and flipper characters.",
+    "confidence": "high",
+    "confidenceRationale": "The specimen association and preserved elements are illustrated and described in the results. High confidence is restricted to the named slab and diagnostic character set, not to a universal body plan.",
+    "reviewedBy": "Evo Atlas data maintenance",
+    "reviewedAt": "2026-09-01",
+    "reviewedAgainstReferenceVersion": "motani-2014-chaohusaurus-viviparity concrete-locator audit at 2026.09-static-v5-rc83",
+    "referenceLinks": [
+      {
+        "referenceId": "motani-2014-chaohusaurus-viviparity",
+        "relation": "supports",
+        "pages": "e88640, Results—Maternal specimen and Embryonic identification",
+        "figure": "Figures 2–4; Supplementary Figures S2–S3",
+        "quoteLocator": "AGM I-1 maternal skeleton; two embryos; adjacent neonate; articulated anatomy"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:chaohusaurus:ecology",
+    "subjectId": "taxon:chaohusaurus",
+    "claimKind": "scientific",
+    "claimType": "ecology",
+    "statement": "AGM I-1 directly documents pregnancy in an Early Triassic ichthyosauromorph; the head-first embryo orientation and a proposed terrestrial origin of viviparity are comparative interpretations, not directly observed behaviour or an ancestral state for all ichthyosaurs.",
+    "confidence": "medium",
+    "confidenceRationale": "Embryo association is direct specimen evidence, whereas delivery posture and reproductive-history conclusions depend on orientation, phylogeny and comparative reasoning; the claim keeps those evidence levels separate.",
+    "reviewedBy": "Evo Atlas data maintenance",
+    "reviewedAt": "2026-09-01",
+    "reviewedAgainstReferenceVersion": "motani-2014-chaohusaurus-viviparity concrete-locator audit at 2026.09-static-v5-rc83",
+    "referenceLinks": [
+      {
+        "referenceId": "motani-2014-chaohusaurus-viviparity",
+        "relation": "supports",
+        "pages": "e88640, Results; Discussion—Evolution of reproductive strategy",
+        "figure": "Figures 2–4",
+        "quoteLocator": "AGM I-1 embryos and neonate; embryo orientation; reproductive-history interpretation"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:rhaeticosaurus:taxonomy",
+    "subjectId": "taxon:rhaeticosaurus",
+    "claimKind": "scientific",
+    "claimType": "taxonomy",
+    "statement": "Rhaeticosaurus mertensi is a new small-bodied plesiosaurian recovered within Plesiosauria as a basal Pliosauridae member in the published 35-taxon, 270-character analysis; that placement is matrix-dependent rather than direct ancestry.",
+    "confidence": "medium",
+    "confidenceRationale": "The paper directly defines the new taxon and reports the matrix result, but the topology is conditional on taxon sampling and characters; it is not presented as observed lineage descent.",
+    "reviewedBy": "Evo Atlas data maintenance",
+    "reviewedAt": "2026-09-01",
+    "reviewedAgainstReferenceVersion": "wintrich-2017-rhaeticosaurus concrete-locator audit at 2026.09-static-v5-rc83",
+    "referenceLinks": [
+      {
+        "referenceId": "wintrich-2017-rhaeticosaurus",
+        "relation": "supports",
+        "pages": "e1701144, Systematic paleontology; Phylogenetic relationships",
+        "figure": "Figures 2–3; Supplementary Tables S2–S3",
+        "quoteLocator": "Rhaeticosaurus mertensi diagnosis; 35-taxon, 270-character matrix; basal Pliosauridae placement"
+      }
+    ]
+  },
+  {
     "id": "claim:taxon:morotopithecus:biogeography",
     "subjectId": "taxon:morotopithecus",
     "claimType": "biogeography",
@@ -26271,6 +26376,27 @@
         "pages": "159–183",
         "figure": "Figures 1–2",
         "quoteLocator": "Discovery and geochronology; Moroto I and Moroto II locality context for MUZM 60 and MUZM 80"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:rhaeticosaurus:biogeography",
+    "subjectId": "taxon:rhaeticosaurus",
+    "claimKind": "scientific",
+    "claimType": "biogeography",
+    "statement": "The Rhaeticosaurus holotype comes from clay pit #3 of the Lücking brick company, 1 km north of Bonenburg in Warburg, North Rhine-Westphalia, Germany, in Rhaetian dark marine mudstones of the Exter Formation; this is a locality record, not a complete distribution.",
+    "confidence": "high",
+    "confidenceRationale": "The locality-and-horizon section gives the named clay pit, distance, municipality, formation, lithology and Rhaetian age. The claim remains bounded to this documented occurrence.",
+    "reviewedBy": "Evo Atlas data maintenance",
+    "reviewedAt": "2026-09-01",
+    "reviewedAgainstReferenceVersion": "wintrich-2017-rhaeticosaurus concrete-locator audit at 2026.09-static-v5-rc83",
+    "referenceLinks": [
+      {
+        "referenceId": "wintrich-2017-rhaeticosaurus",
+        "relation": "supports",
+        "pages": "e1701144, Locality and horizon",
+        "figure": "Figure 1A–B; Supplementary Figure S1",
+        "quoteLocator": "Lücking clay pit #3; 1 km north of Bonenburg; Exter Formation; Rhaetian dark marine mudstone; 21 m below Triassic–Jurassic boundary"
       }
     ]
   },
@@ -26313,6 +26439,48 @@
         "pages": "159–183",
         "figure": "Figures 3–12; Tables 1–10",
         "quoteLocator": "Morphological descriptions and measurements of the separate shoulder and femoral material"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:rhaeticosaurus:morphology",
+    "subjectId": "taxon:rhaeticosaurus",
+    "claimKind": "scientific",
+    "claimType": "morphology",
+    "statement": "Holotype LWL-MFN P 64047 is a partial articulated subadult skeleton preserving the occiput, lower jaw, vertebral column, girdles and left limbs; its diagnosis includes ventrally concave V-shaped cervical neurocentral sutures and foreshortened zeugopodials.",
+    "confidence": "high",
+    "confidenceRationale": "The holotype inventory and diagnostic proportions are directly described and illustrated. The confidence applies to the specimen-level anatomy and does not imply an invariant condition across Plesiosauria.",
+    "reviewedBy": "Evo Atlas data maintenance",
+    "reviewedAt": "2026-09-01",
+    "reviewedAgainstReferenceVersion": "wintrich-2017-rhaeticosaurus concrete-locator audit at 2026.09-static-v5-rc83",
+    "referenceLinks": [
+      {
+        "referenceId": "wintrich-2017-rhaeticosaurus",
+        "relation": "supports",
+        "pages": "e1701144, Holotype specimen; Diagnosis; Brief anatomical description",
+        "figure": "Figure 2A–E; Supplementary Figures S1–S4; Supplementary Table S4",
+        "quoteLocator": "LWL-MFN P 64047; articulated anatomy; cervical sutures; foreshortened zeugopodials"
+      }
+    ]
+  },
+  {
+    "id": "claim:taxon:rhaeticosaurus:ecology",
+    "subjectId": "taxon:rhaeticosaurus",
+    "claimKind": "scientific",
+    "claimType": "ecology",
+    "statement": "Rhaeticosaurus preserves four similar pointed flippers and a short tail consistent with plesiosaurian hydrofoil and paraxial-locomotion comparisons, while histological growth and physiological implications remain interpretations rather than directly measured behaviour or metabolism.",
+    "confidence": "medium",
+    "confidenceRationale": "The paper reports the limb and tail anatomy and compares it with hydrofoil function, while the histology discussion interprets vascularized bone. The claim separates mechanical and physiological inference from direct preservation.",
+    "reviewedBy": "Evo Atlas data maintenance",
+    "reviewedAt": "2026-09-01",
+    "reviewedAgainstReferenceVersion": "wintrich-2017-rhaeticosaurus concrete-locator audit at 2026.09-static-v5-rc83",
+    "referenceLinks": [
+      {
+        "referenceId": "wintrich-2017-rhaeticosaurus",
+        "relation": "supports",
+        "pages": "e1701144, Abstract; Brief anatomical description; Bone histology",
+        "figure": "Figures 2 and 4; Supplementary Figures S8–S12",
+        "quoteLocator": "four flippers as hydrofoils; short tail and paraxial locomotion; sampled humeral and femoral histology"
       }
     ]
   }
