@@ -70,6 +70,52 @@
       "limitations": [
         "Counts are derived from the bundled, bounded occurrence sample and do not estimate total diversity, preservation-corrected richness, or a complete taxon range."
       ]
+    },
+    {
+      "id": "dinosauria-yinlong-map-window",
+      "type": "explorer-preset",
+      "title": {
+        "en": "Dinosauria occurrence window",
+        "zh": "恐龙出现窗口"
+      },
+      "description": {
+        "en": "Open a source-bounded Dinosauria time window in the map to inspect sampled occurrence context linked to this package.",
+        "zh": "在地图中打开有来源边界的恐龙时间窗口，检查与本包关联的采样出现背景。"
+      },
+      "route": "#/explore?taxon=yinlong&view=map&age=158&older=161.2&younger=155.7",
+      "entityIds": [
+        "yinlong"
+      ],
+      "claimIds": [
+        "claim:taxon:yinlong"
+      ],
+      "evidenceStatus": "available-with-limitations",
+      "limitations": [
+        "The interval follows the linked package range and claim; map markers are sampled records and do not establish a complete distribution, exact origination or extinction, or direct ancestry."
+      ]
+    },
+    {
+      "id": "dinosauria-yutyrannus-diversity-window",
+      "type": "explorer-preset",
+      "title": {
+        "en": "Dinosauria diversity sample",
+        "zh": "恐龙多样性样本"
+      },
+      "description": {
+        "en": "Open a source-bounded Dinosauria interval in the diversity view to inspect bundled sample counts, not an estimate of total richness.",
+        "zh": "在多样性视图中打开有来源边界的恐龙区间，检查包内样本计数，而不是总体丰富度估计。"
+      },
+      "route": "#/explore?taxon=yutyrannus&view=diversity&age=125&older=125.8&younger=124.1",
+      "entityIds": [
+        "yutyrannus"
+      ],
+      "claimIds": [
+        "claim:taxon:yutyrannus"
+      ],
+      "evidenceStatus": "available-with-limitations",
+      "limitations": [
+        "Counts are derived from the bundled, bounded occurrence sample and do not estimate total diversity, preservation-corrected richness, or a complete taxon range."
+      ]
     }
   ]
 }

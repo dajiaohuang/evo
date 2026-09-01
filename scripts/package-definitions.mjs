@@ -1,5 +1,5 @@
 export const PACKAGE_SCHEMA_VERSION = 5
-export const DATASET_PACKAGE_VERSION = '2026.09-static-v5-rc85'
+export const DATASET_PACKAGE_VERSION = '2026.09-static-v5-rc86'
 export const DATASET_RELEASE_DATE = '2026-09-01'
 
 // Explicit source-bound Explorer presets. These mappings are intentionally
@@ -58,6 +58,8 @@ export const researchSceneDefinitions = {
   'molluscs-brachiopods': { label: { en: 'Molluscs and brachiopods', zh: '软体动物与腕足动物' }, scenes: [
     { id: 'molluscs-brachiopods-map-window', kind: 'map', route: '#/explore?taxon=yuganotheca&view=map&age=518&older=521&younger=514.5', entityIds: ['micrina', 'yuganotheca'], claimIds: ['claim:taxon:micrina:source-bounded-range-rc50', 'claim:taxon:yuganotheca:source-bounded-range-rc50'] },
     { id: 'molluscs-brachiopods-comparison-window', kind: 'comparison', route: '#/compare?left=micrina&right=yuganotheca', entityIds: ['micrina', 'yuganotheca'], claimIds: ['claim:taxon:micrina:source-bounded-range-rc50', 'claim:taxon:yuganotheca:source-bounded-range-rc50'] },
+    { id: 'molluscs-brachiopods-pojetaia-map-window', kind: 'map', route: '#/explore?taxon=pojetaia&view=map&age=510&older=514.5&younger=506.5', entityIds: ['pojetaia'], claimIds: ['claim:taxon:pojetaia:source-bounded-range-rc50'] },
+    { id: 'molluscs-brachiopods-pojetaia-kutorgina-comparison', kind: 'comparison', route: '#/compare?left=pojetaia&right=kutorgina-chengjiangensis', entityIds: ['pojetaia', 'kutorgina-chengjiangensis'], claimIds: ['claim:taxon:pojetaia:source-bounded-range-rc50', 'claim:taxon:kutorgina-chengjiangensis:fossil-range'] },
   ] },
   'trilobites-chelicerates': { label: { en: 'Trilobites and chelicerates', zh: '三叶虫与螯肢类' }, scenes: [
     { id: 'trilobites-chelicerates-map-window', kind: 'map', route: '#/explore?taxon=olenoides&view=map&age=507&older=509&younger=505', entityIds: ['olenoides'], claimIds: ['claim:taxon:olenoides'] },
@@ -66,6 +68,9 @@ export const researchSceneDefinitions = {
   'crustaceans-insects': { label: { en: 'Crustaceans and insects', zh: '甲壳类与昆虫' }, scenes: [
     { id: 'crustaceans-insects-strudiella-map-window', kind: 'map', route: '#/explore?taxon=strudiella&view=map&age=365&older=365&younger=365', entityIds: ['strudiella'], claimIds: ['claim:taxon:strudiella:fossil-range', 'claim:event:strudiella-reassessment'] },
     { id: 'crustaceans-insects-contested-comparison-window', kind: 'comparison', route: '#/compare?left=strudiella&right=cretophasmomima', entityIds: ['strudiella', 'cretophasmomima'], entityLabel: { en: 'Strudiella and Cretophasmomima melanogramma', zh: 'Strudiella 与 Cretophasmomima melanogramma' }, claimIds: ['claim:taxon:strudiella:fossil-range', 'claim:taxon:cretophasmomima:fossil-range'] },
+    { id: 'crustaceans-insects-rhyniella-rhynie-window', kind: 'map', route: '#/explore?taxon=rhyniella&view=map&age=407&older=411&younger=407', entityIds: ['rhyniella'], claimIds: ['claim:taxon:rhyniella', 'claim:taxon:rhyniella:morphology'] },
+    { id: 'crustaceans-insects-rhyniognatha-contested-window', kind: 'map', route: '#/explore?taxon=rhyniognatha&view=map&age=407&older=411&younger=407', entityIds: ['rhyniognatha'], claimIds: ['claim:event:rhyniognatha-contested-affinity', 'claim:taxon:rhyniognatha'] },
+    { id: 'crustaceans-insects-paskov-wing-window', kind: 'map', route: '#/explore?taxon=paskov-wing&view=map&age=324&older=325&younger=323', entityIds: ['paskov-wing'], claimIds: ['claim:event:paskov-carboniferous-wing', 'claim:taxon:paskov-wing'] },
   ] },
   echinoderms: { label: { en: 'Echinoderms', zh: '棘皮动物' }, scenes: [
     { id: 'echinoderms-map-window', kind: 'map', route: '#/explore?taxon=echinodermata&view=map&age=255&older=510&younger=0', entityIds: ['echinodermata'], claimIds: ['claim:taxon:echinodermata:fossil-range'] },
@@ -76,7 +81,7 @@ export const researchSceneDefinitions = {
     { id: 'early-fishes-comparison-window', kind: 'comparison', route: '#/compare?left=tujiaaspis&right=xiushanosteus', entityIds: ['tujiaaspis', 'xiushanosteus'], claimIds: ['claim:taxon:tujiaaspis:fossil-range', 'claim:taxon:xiushanosteus:fossil-range'] },
   ] },
   chondrichthyes: { label: { en: 'Chondrichthyes', zh: '软骨鱼类' }, scenes: [
-    { id: 'chondrichthyes-devonian-carboniferous-map', kind: 'map', route: '#/explore?taxon=stem-chondrichthyan-evidence-route&view=map&age=347.5&older=369.5&younger=326', entityIds: ['stem-chondrichthyan-evidence-route', 'maghriboselache', 'cosmoselachus'], claimIds: ['claim:taxon:maghriboselache:fossil-range', 'claim:taxon:cosmoselachus:fossil-range'] },
+    { id: 'chondrichthyes-devonian-carboniferous-map', kind: 'map', route: '#/explore?taxon=maghriboselache&view=map&age=369.25&older=369.5&younger=369', entityIds: ['maghriboselache'], claimIds: ['claim:taxon:maghriboselache:fossil-range'] },
     { id: 'chondrichthyes-devonian-carboniferous-comparison', kind: 'comparison', route: '#/compare?left=maghriboselache&right=cosmoselachus', entityIds: ['maghriboselache', 'cosmoselachus'], claimIds: ['claim:taxon:maghriboselache:fossil-range', 'claim:taxon:cosmoselachus:fossil-range'] },
   ] },
   actinopterygii: { label: { en: 'Actinopterygii', zh: '辐鳍鱼类' }, scenes: [
@@ -106,6 +111,8 @@ export const researchSceneDefinitions = {
   dinosauria: { label: { en: 'Dinosauria', zh: '恐龙' }, scenes: [
     { id: 'dinosauria-map-window', kind: 'map', route: '#/explore?taxon=dinosauria&view=map&age=116.6&older=233.2&younger=0', entityIds: ['dinosauria'], claimIds: ['claim:taxon:dinosauria:root-range'] },
     { id: 'dinosauria-diversity-window', kind: 'diversity', route: '#/explore?taxon=tyrannosaurus&view=diversity&age=67&older=68&younger=66', entityIds: ['tyrannosaurus'], claimIds: ['claim:taxon:tyrannosaurus:fossil-range'] },
+    { id: 'dinosauria-yinlong-map-window', kind: 'map', route: '#/explore?taxon=yinlong&view=map&age=158&older=161.2&younger=155.7', entityIds: ['yinlong'], claimIds: ['claim:taxon:yinlong'] },
+    { id: 'dinosauria-yutyrannus-diversity-window', kind: 'diversity', route: '#/explore?taxon=yutyrannus&view=diversity&age=125&older=125.8&younger=124.1', entityIds: ['yutyrannus'], claimIds: ['claim:taxon:yutyrannus'] },
   ] },
   carnivora: { label: { en: 'Carnivora', zh: '食肉类' }, scenes: [
     { id: 'carnivora-map-window', kind: 'map', route: '#/explore?taxon=hesperocyon&view=map&age=34.5&older=40&younger=29', entityIds: ['hesperocyon'], claimIds: ['claim:taxon:hesperocyon:source-bounded-range-rc49'] },

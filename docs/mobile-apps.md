@@ -23,6 +23,8 @@ dist-mobile/                 # 临时生成的移动客户端壳，不提交
 
 ## 数据与离线边界
 
+rc86 将 Android 与 iOS 同步到 build `40` / app `0.20.37`。两端完整获得 Yinlong downsi、Yutyrannus huali、Pojetaia runnegari、Kutorgina chengjiangensis、Rhyniella praecursor 与 Odonata 6 个新增双语档案、23 条主张和 7 个研究场景，当前原生包共有 121 个完整档案、403 个导航节点、1,253 条证据主张、484 条参考文献与 79 个来源限定场景。全部 34 个时间驱动场景都在路由年龄命中一个共享实体和主张的 `available` 范围；Rhyniognatha 与 Paskov 翅化石仍是有争议的场景证据，不因原生全量交付而获得伪造的 PBDB ID 或完整档案。`native-full` 继续逐字节保留 COL26.8 全部 2,183,133 个接受种、全部权威分片和 109 帧 0.1° PaleoDEM；Pages 保持 `web-light`，不复制原生端全量逐种行。
+
 rc85 将 Android 与 iOS 同步到 build `39` / app `0.20.36`。两端完整获得 Olenoides serratus、Megachelicerax cousteaui、Pakicetus attocki、Peregocetus pacificus、Eritherium azzouzorum 与 Mimolagus aurorae 6 个新增双语档案和 25 条主张，当前原生包共有 115 个完整档案、403 个导航节点、1,230 条证据主张、483 条参考文献与 72 个来源限定场景。新增内容复用既有导航节点与来源账本，并保留非关联材料、功能与拓扑推断、重建扩散路线、具名标本和地点边界。`native-full` 仍逐字节保留 COL26.8 全部 2,183,133 个接受种、全部权威分片和 109 帧 0.1° PaleoDEM；Pages 保持 `web-light`，不复制原生端全量逐种行。
 
 rc84 将 Android 与 iOS 同步到 build `38` / app `0.20.35`。两端完整获得 Dimetrodon、Morganucodonta、Chaohusaurus、Rhaeticosaurus mertensi、Teilhardina 与 Morotopithecus bishopi 6 个新增双语档案和 23 条主张，当前原生包共有 109 个完整档案、403 个导航节点、1,205 条证据主张和 483 条参考文献；三个更新包各自的 3 个来源匹配树、时间地图或比较场景也同步进入两端。新增档案复用既有导航节点，并保留具名标本、地点、层位、非关联骨架、竞争拓扑和非直接祖先边界。`native-full` 仍逐字节保留 COL26.8 全部 2,183,133 个接受种、全部权威分片和 109 帧 0.1° PaleoDEM；Pages 保持 `web-light`，不复制原生端全量逐种行。

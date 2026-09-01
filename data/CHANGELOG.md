@@ -1,5 +1,14 @@
 # Dataset changelog
 
+## App 0.20.37 / 2026.09-static-v5-rc86 — 2026-09-01
+
+- Expanded Dinosauria from four to six complete bilingual profiles and Molluscs and brachiopods and Crustaceans and insects from five to seven each: Yinlong downsi, Yutyrannus huali, Pojetaia runnegari, Kutorgina chengjiangensis, Rhyniella praecursor and Odonata.
+- Added 23 field-linked primary-evidence claims and one reference, increasing the atlas from 115 to 121 complete profiles, 1,230 to 1,253 claims, 483 to 484 references and 72 to 79 research scenes while retaining 403 navigation nodes.
+- Increased the three updated packages to five, five and six scenes. All 34 time-driven scenes now intersect an `available` range at their routed age and share an entity and claim with that range; the legacy chondrichthyan scene now targets the 369.25 Ma Maghriboselache specimen window, and the Teilhardina range retains both event and taxon-claim context.
+- Preserved specimen, sample and inference boundaries: Yinlong matrix placement and Yutyrannus filament interpretation are not direct ancestry, global first appearances or complete body coverage; Pojetaia, Kutorgina and Rhyniella remain tied to sampled material and horizons; and the living-taxon Odonata genomic sample is distinct from the single Saxonagrion fossil record.
+- Kept Rhyniognatha and the Paskov wing as contested, source-bounded evidence scenes without inventing unresolved PBDB identifiers or complete profiles.
+- Kept Pages on `web-light`; Android and iOS build `40` receive the same RC86 dossiers and scenes while retaining the complete `native-full` catalogue, authority shards and all 109 lossless 0.1° PaleoDEM frames.
+
 ## App 0.20.36 / 2026.09-static-v5-rc85 — 2026-09-01
 
 - Expanded Trilobites and chelicerates, Cetartiodactyla, and Other mammals from three to five complete bilingual profiles each: Olenoides serratus, Megachelicerax cousteaui, Pakicetus attocki, Peregocetus pacificus, Eritherium azzouzorum and Mimolagus aurorae.
