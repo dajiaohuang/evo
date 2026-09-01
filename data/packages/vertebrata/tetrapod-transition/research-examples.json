@@ -72,6 +72,147 @@
       "limitations": [
         "The two sides retain separate source, sampling, range and uncertainty boundaries; visual differences are not tests of evolutionary causation or a package-specific phylogeny."
       ]
+    },
+    {
+      "id": "tetrapod-transition-tiktaalik-body-plan-map-window",
+      "type": "explorer-preset",
+      "title": {
+        "en": "Tiktaalik Fram Formation body-plan sample",
+        "zh": "提塔利克鱼弗拉姆组体型样本"
+      },
+      "description": {
+        "en": "Open the approximately 375 Ma Fram Formation window for the named Tiktaalik material to inspect the body-plan claim at its Daeschler et al. locator. The map age follows the documented formation sample, not a global Tiktaalik duration.",
+        "zh": "打开约 375 Ma 的弗拉姆组窗口，检查具名提塔利克鱼材料及 Daeschler 等论文定位的体型声明。地图年龄遵循已记录的组级样本，而不是 Tiktaalik 的全球存续期。"
+      },
+      "route": "#/explore?taxon=tiktaalik&view=map&age=375&older=375&younger=375",
+      "entityIds": [
+        "tiktaalik"
+      ],
+      "claimIds": [
+        "claim:taxon:tiktaalik:fossil-range",
+        "claim:event:tiktaalik-body-plan-mosaic"
+      ],
+      "evidenceStatus": "available-with-limitations",
+      "limitations": [
+        "The route is bounded to the approximately 375 Ma Fram Formation material and the cited anatomical mosaic. It does not identify a direct ancestor, prove habitual terrestrial walking, establish a global FAD/LAD, or co-register a specimen with a map marker."
+      ]
+    },
+    {
+      "id": "tetrapod-transition-tiktaalik-pectoral-fin-map-window",
+      "type": "explorer-preset",
+      "title": {
+        "en": "Tiktaalik pectoral-fin anatomy window",
+        "zh": "提塔利克鱼胸鳍解剖窗口"
+      },
+      "description": {
+        "en": "Inspect the same approximately 375 Ma Tiktaalik occurrence window through the pectoral-fin study: wrist-like joints and load-bearing inference remain evidence about a ray-bearing fin, not a recorded free-digit limb or walking trace.",
+        "zh": "通过胸鳍研究检查同一约 375 Ma 的 Tiktaalik 出现窗口：腕状关节与承重推断仅涉及仍保有鳍条的鳍，并非已记录的自由指肢或行走遗迹。"
+      },
+      "route": "#/explore?taxon=tiktaalik&view=map&age=375&older=375&younger=375",
+      "entityIds": [
+        "tiktaalik"
+      ],
+      "claimIds": [
+        "claim:taxon:tiktaalik:fossil-range",
+        "claim:event:tiktaalik-pectoral-fin"
+      ],
+      "evidenceStatus": "available-with-limitations",
+      "limitations": [
+        "This age route shares Tiktaalik's formation-bounded range claim; the fin study is a separate anatomical and functional interpretation. It does not observe behaviour, convert the fin into a terrestrial limb, establish global distribution, or show exact specimen-to-map co-location."
+      ]
+    },
+    {
+      "id": "tetrapod-transition-elpistostege-digit-fin-map-window",
+      "type": "explorer-preset",
+      "title": {
+        "en": "Elpistostege digit-bearing fin sample",
+        "zh": "希望螈鱼具指鳍样本"
+      },
+      "description": {
+        "en": "Open a 377 Ma point within the Miguasha Frasnian envelope for articulated specimen MHNM 06-2067 and its CT-based digit or putative-digit interpretation. Retained lepidotrichia keep this evidence distinct from a free-digit limb.",
+        "zh": "在米瓜沙弗拉斯期窗口内打开 377 Ma 点，检查关节相连标本 MHNM 06-2067 及其基于 CT 的指或可能指解释。保留的鳍条使该证据与自由指肢明确区分。"
+      },
+      "route": "#/explore?taxon=elpistostege&view=map&age=377&older=382.31&younger=372.15",
+      "entityIds": [
+        "elpistostege"
+      ],
+      "claimIds": [
+        "claim:event:elpistostege-digit-bearing-fin"
+      ],
+      "evidenceStatus": "available-with-limitations",
+      "limitations": [
+        "The Frasnian envelope contextualizes one named Miguasha specimen and an analysis-dependent homology interpretation. It is not a global genus range, direct-ancestor claim, behavioural observation, complete distribution, or exact map co-registration."
+      ]
+    },
+    {
+      "id": "tetrapod-transition-acanthostega-eight-digit-map-window",
+      "type": "explorer-preset",
+      "title": {
+        "en": "Acanthostega eight-digit limb sample",
+        "zh": "棘螈八指肢体样本"
+      },
+      "description": {
+        "en": "Open a 365 Ma point within the East Greenland Famennian window to inspect the limb material documenting eight forelimb digits. The count tests a primitive-pentadactyl assumption; it is not an observation of terrestrial walking.",
+        "zh": "在东格陵兰法门期窗口内打开 365 Ma 点，检查记录前肢八指的肢体材料。该计数检验原始五指假设，并非对陆地行走的观察。"
+      },
+      "route": "#/explore?taxon=acanthostega&view=map&age=365&older=372.15&younger=358.86",
+      "entityIds": [
+        "acanthostega"
+      ],
+      "claimIds": [
+        "claim:event:acanthostega-eight-digit-limb"
+      ],
+      "evidenceStatus": "available-with-limitations",
+      "limitations": [
+        "The route is a stage-level context for the described East Greenland limb material. It does not supply a global FAD/LAD, a direct ancestor, complete geographic coverage, observed locomotion, or a precise fossil-marker overlay."
+      ]
+    },
+    {
+      "id": "tetrapod-transition-ichthyostega-mobility-model-map-window",
+      "type": "explorer-preset",
+      "title": {
+        "en": "Ichthyostega joint-mobility model window",
+        "zh": "鱼石螈关节活动模型窗口"
+      },
+      "description": {
+        "en": "Open a 365 Ma point within the East Greenland Famennian envelope for the reconstructed Ichthyostega specimens and the comparative joint-mobility model. The model constrains feasible motion; it does not record behaviour or represent every early tetrapod.",
+        "zh": "在东格陵兰法门期窗口内打开 365 Ma 点，检查重建的鱼石螈标本及比较关节活动模型。该模型约束可行运动，不记录实际行为，也不代表所有早期四足动物。"
+      },
+      "route": "#/explore?taxon=ichthyostega&view=map&age=365&older=372.15&younger=358.86",
+      "entityIds": [
+        "ichthyostega"
+      ],
+      "claimIds": [
+        "claim:event:ichthyostega-joint-mobility"
+      ],
+      "evidenceStatus": "available-with-limitations",
+      "limitations": [
+        "This stage-level route provides occurrence context for named reconstructed specimens and a model-dependent range-of-motion result. It does not establish observed walking, universal early-tetrapod locomotion, direct ancestry, global range, or exact map co-location."
+      ]
+    },
+    {
+      "id": "tetrapod-transition-tetrapodomorph-trace-context-map-window",
+      "type": "explorer-preset",
+      "title": {
+        "en": "Late Devonian tetrapodomorph synthesis context",
+        "zh": "晚泥盆世四足形类综合背景"
+      },
+      "description": {
+        "en": "Open a 375 Ma point within Clack's Late Devonian transition-study window to inspect a systematic synthesis alongside the separately locator-backed Zachełmie trace claim. This route keeps footprint evidence, body specimens and phylogenetic explanation distinct.",
+        "zh": "在 Clack 晚泥盆世转型研究窗口内打开 375 Ma 点，结合独立带定位来源的扎赫乌米耶遗迹声明检查系统综述。该路线将足迹证据、身体标本与系统发育解释保持分离。"
+      },
+      "route": "#/explore?taxon=tetrapodomorpha&view=map&age=375&older=385.3&younger=358.86",
+      "entityIds": [
+        "tetrapodomorpha"
+      ],
+      "claimIds": [
+        "claim:taxon:tetrapodomorpha:range-boundary",
+        "claim:event:zachelmie-digit-trackways"
+      ],
+      "evidenceStatus": "available-with-limitations",
+      "limitations": [
+        "The map age belongs to Clack's Late Devonian synthesis window, not to a Zachełmie locality marker. The Polish traces identify neither a named body taxon nor a direct ancestor; neither source establishes a complete range, global FAD/LAD, behavioural observation, or exact spatial co-registration."
+      ]
     }
   ]
 }
