@@ -851,5 +851,67 @@
       }
     ],
     "reviewStatus": "automated-audit-passed"
+  },
+  {
+    "id": "range:strudiella:global",
+    "entityId": "strudiella",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Strudiella devonica single contested Strud specimen",
+    "geographicScope": "Strud locality, Upper Devonian freshwater sediments, Belgium",
+    "olderMa": 365,
+    "youngerMa": 365,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": 5,
+      "youngerMa": 5,
+      "note": "The approximately 365 Ma point is a rounded Late Devonian deposit age for one disputed specimen, not a global range or insect first appearance."
+    },
+    "evidenceBasis": "The original description places the nearly complete specimen in Late Devonian freshwater sediments at Strud; a later re-investigation disputes its insect identity.",
+    "evidenceLevel": "literature-synthesized",
+    "confidence": "contested",
+    "claimIds": [
+      "claim:event:strudiella-reassessment",
+      "claim:taxon:strudiella:fossil-range"
+    ],
+    "referenceLocators": [
+      {
+        "referenceId": "garrouste-2012-strudiella",
+        "locator": "pp. 82–85; Figures 1–4; Late Devonian Strud locality and specimen description"
+      },
+      {
+        "referenceId": "hornschemeyer-2013-strudiella",
+        "locator": "pp. E3–E4; re-investigation of the same Strud specimen"
+      }
+    ],
+    "reviewStatus": "automated-audit-passed"
+  },
+  {
+    "id": "range:cretophasmomima:global",
+    "entityId": "cretophasmomima",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Cretophasmomima melanogramma Yixian Formation sample",
+    "geographicScope": "Yixian Formation, Jehol biota, Inner Mongolia, China",
+    "olderMa": 130,
+    "youngerMa": 122,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "The 130–122 Ma window converts the cited approximately 126 ± 4 Ma formation age for three specimens; it is not a global species range or phasmatodean origin date."
+    },
+    "evidenceBasis": "One female and two male specimens are reported from the Yixian Formation, dated by the primary study to approximately 126 ± 4 Ma.",
+    "evidenceLevel": "literature-synthesized",
+    "confidence": "medium",
+    "claimIds": [
+      "claim:event:cretophasmomima-crypsis",
+      "claim:taxon:cretophasmomima:fossil-range"
+    ],
+    "referenceLocators": [
+      {
+        "referenceId": "wang-2014-cretophasmomima",
+        "locator": "e91290; Abstract and Figures 1–3; Yixian Formation at approximately 126 ± 4 Ma"
+      }
+    ],
+    "reviewStatus": "automated-audit-passed"
   }
 ]

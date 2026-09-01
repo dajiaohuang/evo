@@ -210,6 +210,8 @@ function ownerForClaim(claim) {
     'parhyale-wing-homology-knockout': 'crustaceans-insects',
     'insect-1kite-topology-clock': 'crustaceans-insects',
     'pennsylvanian-eumetabola-sample': 'crustaceans-insects',
+    'strudiella-reassessment': 'crustaceans-insects',
+    'cretophasmomima-crypsis': 'crustaceans-insects',
     'early-trilobite-phylogenetic-clock': 'trilobites-chelicerates',
     'tatelt-trilobite-3d-anatomy': 'trilobites-chelicerates',
     'trilobite-upper-limb-gill': 'trilobites-chelicerates',
@@ -589,7 +591,8 @@ for (const definition of packageDefinitions) {
   const sourceBoundResearchScenes = researchScenes.map((scene) => {
     const comparison = scene.kind === 'comparison'
     const diversity = scene.kind === 'diversity'
-    const entityLabel = scene.entityIds.join(' and ')
+    const entityLabel = scene.entityLabel?.en ?? scene.entityIds.join(' and ')
+    const entityLabelZh = scene.entityLabel?.zh ? ` ${scene.entityLabel.zh}` : scene.entityIds.join('与')
     return {
       id: scene.id,
       type: comparison ? 'comparison' : 'explorer-preset',
@@ -601,7 +604,7 @@ for (const definition of packageDefinitions) {
       description: comparison
         ? {
             en: `Compare ${entityLabel} through package-linked claims and bounded occurrence context; this side-by-side route is an evidence inspection aid.`,
-            zh: `通过本包关联的声明与限定出现背景比较${scene.entityIds.join('与')}；并列页面仅用于证据检查。`,
+            zh: `通过本包关联的声明与限定出现背景比较${entityLabelZh}；并列页面仅用于证据检查。`,
           }
         : diversity
           ? {
@@ -812,13 +815,15 @@ for (const definition of packageDefinitions) {
           : field.startsWith('traits')
             ? 'morphology'
             : 'taxonomy'
-    const fieldLink = (claim) => {
+    const fieldLink = (claim, field) => {
+      const fieldReferenceLinks = claim.referenceLinks
+        .filter((link) => link.relation === 'supports')
+        .filter((link) => field === 'ecology.diet' || !/Soft tissues/i.test(link.quoteLocator ?? ''))
       return {
         claimId: claim.id,
         claimType: claim.claimType,
         relation: 'supports',
-        sourceLocators: claim.referenceLinks
-          .filter((link) => link.relation === 'supports')
+        sourceLocators: fieldReferenceLinks
           .map((link) => ({ referenceId: link.referenceId, locator: link.pages ?? link.figure ?? link.quoteLocator ?? 'Source scope; precise locator pending curator review.' })),
         confidence: claim.confidence,
         reviewStatus: 'automated-audit-passed',
@@ -838,7 +843,7 @@ for (const definition of packageDefinitions) {
           const claim = claimBySubjectAndType.get(`taxon:${profile.id}|${claimType}`)
           if (!claim) throw new Error(`Profile ${profile.id}/${field} is missing a ${claimType} claim`)
           return [field, {
-            ...fieldLink(claim),
+            ...fieldLink(claim, field),
             contentOrigin: field === 'firstAppearance' || field === 'lastAppearance' || field.startsWith('regionalRanges')
               ? 'source-derived-fact'
               : 'editorial-synthesis',

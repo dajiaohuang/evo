@@ -9777,7 +9777,7 @@
       "youngerMa": null,
       "note": "Cambrian Stage 3 is a conservative envelope for the cited late Atdabanian material; it is not a global genus range or an origin date for Brachiopoda."
     },
-    "evidenceBasis": "Holmer et al. identify Micrina material from four broadly synchronous late Atdabanian carbonate units; ICS v2026/06 supplies the Stage 3 boundaries.",
+    "evidenceBasis": "Holmer et al. identify Micrina material from four localities in three broadly synchronous late Atdabanian carbonate units; ICS v2026/06 supplies the Stage 3 boundaries.",
     "evidenceLevel": "literature-synthesized",
     "confidence": "medium",
     "claimIds": [
@@ -9786,7 +9786,7 @@
     "referenceLocators": [
       {
         "referenceId": "holmer-et-al-2008-micrina",
-        "locator": "724–728; p. 725, Figure 1, Lower Cambrian Wilkawillina Limestone; p. 727, Table 1, four broadly synchronous late Atdabanian carbonate units"
+        "locator": "pp. 725–727; p. 725, Figure 1, Lower Cambrian Wilkawillina Limestone; p. 727, Table 1, four localities in three broadly synchronous late Atdabanian carbonate units"
       },
       {
         "referenceId": "ics-2026-06",
@@ -9809,7 +9809,7 @@
       "youngerMa": null,
       "note": "Cambrian Stage 3 bounds the cited late Atdabanian/Botoman sample; it is not a direct specimen date, global genus range or lophophorate divergence interval."
     },
-    "evidenceBasis": "Zhang et al. place 710 specimens in the Eoredlichia–Wutingaspis zone and explicitly correlate the material with late Atdabanian/Botoman Cambrian Stage 3.",
+    "evidenceBasis": "Zhang et al. place a referred sample of 710 specimens in the Eoredlichia–Wutingaspis zone and explicitly correlate the material with late Atdabanian/Botoman Cambrian Stage 3.",
     "evidenceLevel": "literature-synthesized",
     "confidence": "medium",
     "claimIds": [
@@ -9818,7 +9818,7 @@
     "referenceLocators": [
       {
         "referenceId": "zhang-et-al-2014-yuganotheca",
-        "locator": "Article 4682; Systematic palaeontology, Stratigraphy and locality; Heilinpu Formation, Yu’anshan Member, Eoredlichia–Wutingaspis zone, late Atdabanian/Botoman, Cambrian Stage 3; Figures 1–6"
+        "locator": "Materials and Methods—Material (710 referred specimens); Systematic palaeontology—Stratigraphy and locality; Heilinpu Formation, Yu’anshan Member, Eoredlichia–Wutingaspis zone, late Atdabanian/Botoman, Cambrian Stage 3"
       },
       {
         "referenceId": "ics-2026-06",
@@ -10932,21 +10932,23 @@
     "taxonomicConcept": "Stem-chondrichthyan evidence route navigation envelope",
     "geographicScope": "Represented specimen localities only",
     "olderMa": 439,
-    "youngerMa": 385,
+    "youngerMa": 326,
     "status": "available",
     "uncertainty": {
       "olderMa": null,
       "youngerMa": null,
       "note": "Navigation envelope across heterogeneous samples; not a lineage duration, global FAD or ancestor sequence."
     },
-    "evidenceBasis": "The browse interval spans the represented specimen dossiers while preserving each occurrence, topology and interpretation as a separate evidence record.",
+    "evidenceBasis": "The browse interval spans the represented specimen dossiers from the Silurian through the Late Mississippian while preserving each occurrence, topology and interpretation as a separate evidence record.",
     "evidenceLevel": "literature-synthesized",
     "confidence": "medium",
     "claimIds": [
       "claim:event:early-silurian-qianodus-tooth-whorls",
       "claim:event:rongxi-fanjingshania-dermoskeleton",
       "claim:event:chongqing-shenacanthus-body-plan",
-      "claim:event:givetian-gladbachus-mosaic-anatomy"
+      "claim:event:givetian-gladbachus-mosaic-anatomy",
+      "claim:event:famennian-maghriboselache-broad-snout",
+      "claim:event:late-mississippian-cosmoselachus-operculum"
     ],
     "referenceLocators": [
       {
@@ -10964,6 +10966,14 @@
       {
         "referenceId": "coates-2018-gladbachus",
         "locator": "Article 20172418; Figs. 1–4"
+      },
+      {
+        "referenceId": "klug-2023-maghriboselache",
+        "locator": "pp. 1–28; Figures 1–15; Systematic palaeontology; phylogenetic analysis"
+      },
+      {
+        "referenceId": "bronson-2024-cosmoselachus",
+        "locator": "pp. 101–117; Figures 1–8; CT reconstruction and phylogenetic analysis"
       }
     ],
     "reviewStatus": "automated-audit-passed"
@@ -11269,6 +11279,14 @@
       {
         "referenceId": "coates-2018-gladbachus",
         "locator": "1–10, especially 2–10; Figures 1–4; Supplementary Figure S1; Specimen description; CT and histology results; phylogenetic results and discussion"
+      },
+      {
+        "referenceId": "klug-2023-maghriboselache",
+        "locator": "pp. 1–28; Figures 1–15; Systematic palaeontology; phylogenetic analysis"
+      },
+      {
+        "referenceId": "bronson-2024-cosmoselachus",
+        "locator": "pp. 101–117; Figures 1–8; CT reconstruction and phylogenetic analysis"
       }
     ],
     "reviewStatus": "automated-audit-passed"
@@ -11998,6 +12016,101 @@
       "referenceId": "zhu-2022-chongqing-gnathostomes",
       "locator": "pp. 954–958, especially pp. 955–957; Figures 1a, 2 and 4; Extended Data Figures 3a–e and 4–6; systematic palaeontology, horizon and anatomical description"
     }],
+    "reviewStatus": "automated-audit-passed"
+  },
+  {
+    "id": "range:maghriboselache:global",
+    "entityId": "maghriboselache",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Maghriboselache mohamezanei represented Famennian Anti-Atlas sample",
+    "geographicScope": "Thylacocephalan Layer, southern Maïder and Tafilalt, eastern Anti-Atlas, Morocco",
+    "olderMa": 369.5,
+    "youngerMa": 369,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Late early to early middle Famennian study envelope; multiple specimens do not establish a global species duration or crown-group boundary."
+    },
+    "evidenceBasis": "The named Moroccan sample includes several partly articulated skeletons and three-dimensional neurocrania from the Thylacocephalan Layer; the numeric window converts the published Famennian assignment only.",
+    "evidenceLevel": "literature-synthesized",
+    "confidence": "medium",
+    "claimIds": ["claim:taxon:maghriboselache:fossil-range"],
+    "referenceLocators": [{
+      "referenceId": "klug-2023-maghriboselache",
+      "locator": "pp. 1–7, 19–28; Figures 1–2, 13–15; Material; time calibration; Conclusions"
+    }],
+    "reviewStatus": "automated-audit-passed"
+  },
+  {
+    "id": "range:cosmoselachus:global",
+    "entityId": "cosmoselachus",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Cosmoselachus mehlingi represented Fayetteville Shale holotype sample",
+    "geographicScope": "Fayetteville Shale near Cove Creek, Searcy County, Arkansas, United States",
+    "olderMa": 326,
+    "youngerMa": 326,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "Late Mississippian point for the partial holotype; it is not a global species duration, symmoriiform FAD or complete body record."
+    },
+    "evidenceBasis": "AMNH FF 20509 is the single partial holotype from the Fayetteville Shale; the point envelope records that sample and not unsampled occurrences.",
+    "evidenceLevel": "literature-synthesized",
+    "confidence": "medium",
+    "claimIds": ["claim:taxon:cosmoselachus:fossil-range"],
+    "referenceLocators": [{
+      "referenceId": "bronson-2024-cosmoselachus",
+      "locator": "pp. 101–117; Figures 1–8; Material; Systematic palaeontology; CT and phylogenetic analysis"
+    }],
+    "reviewStatus": "automated-audit-passed"
+  },
+  {
+    "id": "range:strudiella:global",
+    "entityId": "strudiella",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Strudiella devonica single contested Strud specimen",
+    "geographicScope": "Strud locality, Upper Devonian freshwater sediments, Belgium",
+    "olderMa": 365,
+    "youngerMa": 365,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": 5,
+      "youngerMa": 5,
+      "note": "The approximately 365 Ma point is a rounded Late Devonian deposit age for one disputed specimen, not a global range or insect first appearance."
+    },
+    "evidenceBasis": "The original description places the nearly complete specimen in Late Devonian freshwater sediments at Strud; a later re-investigation disputes its insect identity.",
+    "evidenceLevel": "literature-synthesized",
+    "confidence": "contested",
+    "claimIds": ["claim:event:strudiella-reassessment", "claim:taxon:strudiella:fossil-range"],
+    "referenceLocators": [
+      {"referenceId": "garrouste-2012-strudiella", "locator": "pp. 82–85; Figures 1–4; Late Devonian Strud locality and specimen description"},
+      {"referenceId": "hornschemeyer-2013-strudiella", "locator": "pp. E3–E4; re-investigation of the same Strud specimen"}
+    ],
+    "reviewStatus": "automated-audit-passed"
+  },
+  {
+    "id": "range:cretophasmomima:global",
+    "entityId": "cretophasmomima",
+    "rangeKind": "global-composite",
+    "taxonomicConcept": "Cretophasmomima melanogramma Yixian Formation sample",
+    "geographicScope": "Yixian Formation, Jehol biota, Inner Mongolia, China",
+    "olderMa": 130,
+    "youngerMa": 122,
+    "status": "available",
+    "uncertainty": {
+      "olderMa": null,
+      "youngerMa": null,
+      "note": "The 130–122 Ma window converts the cited approximately 126 ± 4 Ma formation age for three specimens; it is not a global species range or phasmatodean origin date."
+    },
+    "evidenceBasis": "One female and two male specimens are reported from the Yixian Formation, dated by the primary study to approximately 126 ± 4 Ma.",
+    "evidenceLevel": "literature-synthesized",
+    "confidence": "medium",
+    "claimIds": ["claim:event:cretophasmomima-crypsis", "claim:taxon:cretophasmomima:fossil-range"],
+    "referenceLocators": [
+      {"referenceId": "wang-2014-cretophasmomima", "locator": "e91290; Abstract and Figures 1–3; Yixian Formation at approximately 126 ± 4 Ma"}
+    ],
     "reviewStatus": "automated-audit-passed"
   }
 ]

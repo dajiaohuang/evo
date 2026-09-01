@@ -1,5 +1,5 @@
 export const PACKAGE_SCHEMA_VERSION = 5
-export const DATASET_PACKAGE_VERSION = '2026.09-static-v5-rc82'
+export const DATASET_PACKAGE_VERSION = '2026.09-static-v5-rc83'
 export const DATASET_RELEASE_DATE = '2026-09-01'
 
 // Explicit source-bound Explorer presets. These mappings are intentionally
@@ -11,7 +11,7 @@ export const researchPresetDefinitions = {
   gymnosperms: { entityId: 'gymnospermae', claimIds: ['claim:taxon:gymnospermae:root-range-rc39'] },
   angiospermae: { entityId: 'angiospermae', claimIds: ['claim:taxon:angiospermae:fossil-range'] },
   'sponges-cnidarians': { entityId: 'haootia', claimIds: ['claim:taxon:haootia:range-boundary-rc50'] },
-  'molluscs-brachiopods': { entityId: 'mollusca', claimIds: ['claim:taxon:mollusca'] },
+  'molluscs-brachiopods': { entityId: 'yuganotheca', claimIds: ['claim:taxon:yuganotheca:taxonomy'] },
   'trilobites-chelicerates': { entityId: 'trilobita', claimIds: ['claim:taxon:trilobita:root-range-rc39'] },
   'crustaceans-insects': { entityId: 'arthropoda', claimIds: ['claim:taxon:arthropoda:root-range-rc39'] },
   echinoderms: { entityId: 'echinodermata', claimIds: ['claim:taxon:echinodermata:fossil-range'] },
@@ -56,16 +56,16 @@ export const researchSceneDefinitions = {
     { id: 'sponges-cnidarians-comparison-window', kind: 'comparison', route: '#/compare?left=haootia&right=xianguangia', entityIds: ['haootia', 'xianguangia'], claimIds: ['claim:taxon:haootia:range-boundary-rc50', 'claim:taxon:xianguangia:range-boundary-rc50'] },
   ] },
   'molluscs-brachiopods': { label: { en: 'Molluscs and brachiopods', zh: '软体动物与腕足动物' }, scenes: [
-    { id: 'molluscs-brachiopods-map-window', kind: 'map', route: '#/explore?taxon=mollusca&view=map&age=260&older=520&younger=0', entityIds: ['mollusca'], claimIds: ['claim:taxon:mollusca'] },
-    { id: 'molluscs-brachiopods-comparison-window', kind: 'comparison', route: '#/compare?left=kimberella&right=odontogriphus', entityIds: ['kimberella', 'odontogriphus'], claimIds: ['claim:taxon:kimberella:fossil-range', 'claim:taxon:odontogriphus:fossil-range'] },
+    { id: 'molluscs-brachiopods-map-window', kind: 'map', route: '#/explore?taxon=yuganotheca&view=map&age=518&older=521&younger=514.5', entityIds: ['micrina', 'yuganotheca'], claimIds: ['claim:taxon:micrina:source-bounded-range-rc50', 'claim:taxon:yuganotheca:source-bounded-range-rc50'] },
+    { id: 'molluscs-brachiopods-comparison-window', kind: 'comparison', route: '#/compare?left=micrina&right=yuganotheca', entityIds: ['micrina', 'yuganotheca'], claimIds: ['claim:taxon:micrina:source-bounded-range-rc50', 'claim:taxon:yuganotheca:source-bounded-range-rc50'] },
   ] },
   'trilobites-chelicerates': { label: { en: 'Trilobites and chelicerates', zh: '三叶虫与螯肢类' }, scenes: [
     { id: 'trilobites-chelicerates-map-window', kind: 'map', route: '#/explore?taxon=trilobita&view=map&age=521&older=521&younger=252', entityIds: ['trilobita'], claimIds: ['claim:taxon:trilobita:root-range-rc39'] },
     { id: 'trilobites-chelicerates-comparison-window', kind: 'comparison', route: '#/compare?left=bohemolichas&right=urokodia', entityIds: ['bohemolichas', 'urokodia'], claimIds: ['claim:taxon:bohemolichas:fossil-range', 'claim:taxon:urokodia:fossil-range'] },
   ] },
   'crustaceans-insects': { label: { en: 'Crustaceans and insects', zh: '甲壳类与昆虫' }, scenes: [
-    { id: 'crustaceans-insects-map-window', kind: 'map', route: '#/explore?taxon=arthropoda&view=map&age=260.5&older=521&younger=0', entityIds: ['arthropoda'], claimIds: ['claim:taxon:arthropoda:root-range-rc39'] },
-    { id: 'crustaceans-insects-comparison-window', kind: 'comparison', route: '#/compare?left=tokummia&right=waptia', entityIds: ['tokummia', 'waptia'], claimIds: ['claim:taxon:tokummia:fossil-range', 'claim:taxon:waptia:fossil-range'] },
+    { id: 'crustaceans-insects-strudiella-map-window', kind: 'map', route: '#/explore?taxon=strudiella&view=map&age=365&older=365&younger=365', entityIds: ['strudiella'], claimIds: ['claim:taxon:strudiella:fossil-range', 'claim:event:strudiella-reassessment'] },
+    { id: 'crustaceans-insects-contested-comparison-window', kind: 'comparison', route: '#/compare?left=strudiella&right=cretophasmomima', entityIds: ['strudiella', 'cretophasmomima'], entityLabel: { en: 'Strudiella and Cretophasmomima melanogramma', zh: 'Strudiella 与 Cretophasmomima melanogramma' }, claimIds: ['claim:taxon:strudiella:fossil-range', 'claim:taxon:cretophasmomima:fossil-range'] },
   ] },
   echinoderms: { label: { en: 'Echinoderms', zh: '棘皮动物' }, scenes: [
     { id: 'echinoderms-map-window', kind: 'map', route: '#/explore?taxon=echinodermata&view=map&age=255&older=510&younger=0', entityIds: ['echinodermata'], claimIds: ['claim:taxon:echinodermata:fossil-range'] },
@@ -76,8 +76,8 @@ export const researchSceneDefinitions = {
     { id: 'early-fishes-comparison-window', kind: 'comparison', route: '#/compare?left=tujiaaspis&right=xiushanosteus', entityIds: ['tujiaaspis', 'xiushanosteus'], claimIds: ['claim:taxon:tujiaaspis:fossil-range', 'claim:taxon:xiushanosteus:fossil-range'] },
   ] },
   chondrichthyes: { label: { en: 'Chondrichthyes', zh: '软骨鱼类' }, scenes: [
-    { id: 'chondrichthyes-map-window', kind: 'map', route: '#/explore?taxon=chondrichthyes&view=map&age=219.5&older=439&younger=0', entityIds: ['chondrichthyes'], claimIds: ['claim:taxon:chondrichthyes:fossil-range'] },
-    { id: 'chondrichthyes-comparison-window', kind: 'comparison', route: '#/compare?left=qianodus&right=shenacanthus', entityIds: ['qianodus', 'shenacanthus'], claimIds: ['claim:taxon:qianodus:fossil-range', 'claim:taxon:shenacanthus:fossil-range'] },
+    { id: 'chondrichthyes-devonian-carboniferous-map', kind: 'map', route: '#/explore?taxon=stem-chondrichthyan-evidence-route&view=map&age=347.5&older=369.5&younger=326', entityIds: ['stem-chondrichthyan-evidence-route', 'maghriboselache', 'cosmoselachus'], claimIds: ['claim:taxon:maghriboselache:fossil-range', 'claim:taxon:cosmoselachus:fossil-range'] },
+    { id: 'chondrichthyes-devonian-carboniferous-comparison', kind: 'comparison', route: '#/compare?left=maghriboselache&right=cosmoselachus', entityIds: ['maghriboselache', 'cosmoselachus'], claimIds: ['claim:taxon:maghriboselache:fossil-range', 'claim:taxon:cosmoselachus:fossil-range'] },
   ] },
   actinopterygii: { label: { en: 'Actinopterygii', zh: '辐鳍鱼类' }, scenes: [
     { id: 'actinopterygii-map-window', kind: 'map', route: '#/explore?taxon=actinopterygii&view=map&age=195.2&older=390.4&younger=0', entityIds: ['actinopterygii'], claimIds: ['claim:taxon:actinopterygii:fossil-range'] },
@@ -214,7 +214,7 @@ export const packageDefinitions = [
     rootEntityIds: ['mollusca', 'brachiopoda', 'graptolithina'],
     conceptScope: {
       en: 'Thirteen bilingual primary-evidence dossiers separate Ediacaran and Cambrian body fossils, radula and shell observations, sampled phylogenomic topologies, living developmental experiments and genome comparisons. Kimberella, Odontogriphus, Orthrozanclus and Nectocaris remain interpretation-bounded navigation records rather than silently accepted crown molluscs. Aculifera, Polyplacophora, Aplacophora, Monoplacophora and Scaphopoda provide explicit browse routes for the major living molluscan body plans. Micrina and Yuganotheca are routed as stem or mixed-character brachiopod hypotheses, while Kutorgina and Lingula preserve distinct fossil-anatomy and living-genome evidence. COL26.8 routes exactly 159,801 accepted living species names through the package; that nomenclatural count is not 159,801 mature dossiers and does not establish fossil ranges, topology or expert review.',
-      zh: '十三个双语一手证据档案严格区分埃迪卡拉纪与寒武纪实体化石、齿舌和壳体观察、采样系统基因组拓扑、现生发育实验与基因组比较。金伯拉虫、齿谜虫、毛饰刺甲虫和游盾虫仍是具有解释边界的导航记录，不会被暗中认定为软体动物冠群。有棘类、多板纲、无板类、单板纲与掘足纲为主要现生软体动物体制提供明确浏览路径。小米克里纳虫和玉案山贝按干群或混合性状腕足动物假说路由，顾脱贝与海豆芽则分别承载化石解剖和现生基因组证据。COL26.8 恰好把 159,801 个现生接受种名路由到本包；该命名计数不等于 159,801 个成熟档案，也不能确定化石延限、拓扑或专家评审。',
+      zh: '十三个双语一手证据档案严格区分埃迪卡拉纪与寒武纪实体化石、齿舌和壳体观察、采样系统基因组拓扑、现生发育实验与基因组比较。金伯拉虫、齿谜虫、毛饰刺甲虫和游盾虫仍是具有解释边界的导航记录，不会被暗中认定为软体动物冠群。有棘类、多板纲、无板类、单板纲与掘足纲为主要现生软体动物体制提供明确浏览路径。小米克里纳虫和 Yuganotheca 按干群或混合性状腕足动物假说路由，顾脱贝与海豆芽则分别承载化石解剖和现生基因组证据。COL26.8 恰好把 159,801 个现生接受种名路由到本包；该命名计数不等于 159,801 个成熟档案，也不能确定化石延限、拓扑或专家评审。',
     },
     scientificMaturity: 'source-linked',
     limitations: [
@@ -299,13 +299,13 @@ export const packageDefinitions = [
     titleZh: '软骨鱼类',
     rootEntityIds: ['chondrichthyes'],
     conceptScope: {
-      en: 'COL26.8 accepted-species routing covers living cartilaginous fishes. A new stem-chondrichthyan evidence route exposes Qianodus, Fanjingshania, Shenacanthus and Gladbachus, with rich profiles and field-to-claim links for the three externally resolved taxa. Their isolated whorls, dermal elements, near-complete holotype and compressed CT specimen remain separate samples; none is presented as a crown shark or global Chondrichthyes first appearance. Bundled PBDB rows remain a bounded, non-random API-prefix sample.',
-      zh: 'COL26.8 已接受物种路由覆盖现生软骨鱼类。新增软骨鱼干群证据导航，展示 Qianodus、Fanjingshania、Shenacanthus 与 Gladbachus；其中三个可外部精确解析的类群具有完整档案和字段—主张链接。孤立齿旋、皮质骨片、近完整正模与 CT 检查的压扁标本仍是不同样本；任何一项都不被表述为冠群鲨类或软骨鱼类全球首现。包内 PBDB 记录仍是有界、非随机的 API 前缀样本。',
+      en: 'COL26.8 accepted-species routing covers living cartilaginous fishes. The stem-chondrichthyan evidence route now exposes Qianodus, Fanjingshania, Shenacanthus, Gladbachus, Maghriboselache and Cosmoselachus; five externally resolved taxa have bilingual profiles and field-to-claim links, while Fanjingshania remains a source-linked navigation entry. Isolated whorls, dermal elements, near-complete and partial holotypes, and CT specimens remain separate samples; none is presented as a crown shark or global Chondrichthyes first appearance. Bundled PBDB rows remain a bounded, non-random API-prefix sample.',
+      zh: 'COL26.8 已接受物种路由覆盖现生软骨鱼类。软骨鱼干群证据导航现展示 Qianodus、Fanjingshania、Shenacanthus、Gladbachus、Maghriboselache 与 Cosmoselachus；其中五个已由外部数据解析的类群提供双语档案和字段—主张链接，Fanjingshania 仍是带来源链接的导航条目。孤立齿旋、皮质骨片、近完整及部分正模与 CT 标本仍是不同样本；任何一项都不被表述为冠群鲨类或软骨鱼类全球首现。包内 PBDB 记录仍是有界、非随机的 API 前缀样本。',
     },
     wave: 'C',
     scientificMaturity: 'source-linked',
     limitations: [
-      'Qianodus, Fanjingshania, Shenacanthus and Gladbachus are connected by a navigation-parent evidence route, not an ancestor sequence or reviewed total-group phylogeny.',
+      'Qianodus, Fanjingshania, Shenacanthus, Gladbachus, Maghriboselache and Cosmoselachus are connected by a navigation-parent evidence route, not an ancestor sequence or reviewed total-group phylogeny.',
       'The literature-linked intervals apply to named samples and formations. Unsupported clade-wide endpoints for Chondrichthyes, Elasmobranchii, Holocephali or megalodon are explicitly withheld rather than displayed as global ranges.',
       'Fanjingshania has no exact concept in the pinned PBDB snapshot, so its external identifier remains withheld while the specimen dossier and source-linked range remain browsable.',
     ],

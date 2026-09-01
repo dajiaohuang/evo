@@ -20,10 +20,20 @@ const exactCopy = new Set<string>([
   'Ninety newly prepared specimens reveal a funnel, fins, eyes and two tentacles but no diagnostic hard-part series.',
   'The expanded sample repeatedly preserves paired camera-like eyes, lateral fins, an axial cavity and a ventral funnel-like structure.',
   'Deep conchiferan nodes vary among matrices and contemporary studies; the published corrigendum means corrected supplementary figures are the controlling visual record.',
-  'Specimens preserve a lophophoral chamber between paired agglutinated valves above a collar, conical tube and long pedicle with coelomic space.',
+  'Across referred specimens, the reconstruction combines a lophophoral chamber between paired agglutinated valves with a collar, conical tube and long pedicle with inferred coelomic space; no individual fossil is asserted to preserve every feature.',
   'A second matrix adds every major living group',
   'Conflicting deep nodes and corrected supplementary figures are retained rather than averaged into false certainty.',
   'Articulation and valve homology are reconstructions, not a preserved whole organism or settled stem topology.',
+  'Wilkawillina Limestone', 'Arrowie Basin', 'South Australia',
+  'Not directly preserved; feeding mode is unresolved',
+  'Sessile marine carbonate setting inferred from the reconstructed attachment',
+  'Sessile interpretation; locomotion is not observed',
+  'Sessile benthic ecology is inferred from reconstruction, not directly observed',
+  'Heilinpu Formation', 'Attached interpretation inferred from the pedicle; movement is not observed',
+  'Millimetre-scale tubular fossil body',
+  'Suspension-feeding interpretation is limited to the reconstructed specimen anatomy',
+  'Paired agglutinated valves around a lophophoral chamber',
+  'Bipartite tube with a median collar', 'Long pedicle with an inferred coelomic space',
 ])
 
 const dossierMarkers = [

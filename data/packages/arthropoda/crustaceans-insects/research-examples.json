@@ -26,7 +26,7 @@
       ]
     },
     {
-      "id": "crustaceans-insects-map-window",
+      "id": "crustaceans-insects-strudiella-map-window",
       "type": "explorer-preset",
       "title": {
         "en": "Crustaceans and insects occurrence window",
@@ -36,12 +36,13 @@
         "en": "Open a source-bounded Crustaceans and insects time window in the map to inspect sampled occurrence context linked to this package.",
         "zh": "在地图中打开有来源边界的甲壳类与昆虫时间窗口，检查与本包关联的采样出现背景。"
       },
-      "route": "#/explore?taxon=arthropoda&view=map&age=260.5&older=521&younger=0",
+      "route": "#/explore?taxon=strudiella&view=map&age=365&older=365&younger=365",
       "entityIds": [
-        "arthropoda"
+        "strudiella"
       ],
       "claimIds": [
-        "claim:taxon:arthropoda:root-range-rc39"
+        "claim:taxon:strudiella:fossil-range",
+        "claim:event:strudiella-reassessment"
       ],
       "evidenceStatus": "available-with-limitations",
       "limitations": [
@@ -49,24 +50,24 @@
       ]
     },
     {
-      "id": "crustaceans-insects-comparison-window",
+      "id": "crustaceans-insects-contested-comparison-window",
       "type": "comparison",
       "title": {
         "en": "Crustaceans and insects evidence comparison",
         "zh": "甲壳类与昆虫证据比较"
       },
       "description": {
-        "en": "Compare tokummia and waptia through package-linked claims and bounded occurrence context; this side-by-side route is an evidence inspection aid.",
-        "zh": "通过本包关联的声明与限定出现背景比较tokummia与waptia；并列页面仅用于证据检查。"
+        "en": "Compare Strudiella and Cretophasmomima melanogramma through package-linked claims and bounded occurrence context; this side-by-side route is an evidence inspection aid.",
+        "zh": "通过本包关联的声明与限定出现背景比较 Strudiella 与 Cretophasmomima melanogramma；并列页面仅用于证据检查。"
       },
-      "route": "#/compare?left=tokummia&right=waptia",
+      "route": "#/compare?left=strudiella&right=cretophasmomima",
       "entityIds": [
-        "tokummia",
-        "waptia"
+        "strudiella",
+        "cretophasmomima"
       ],
       "claimIds": [
-        "claim:taxon:tokummia:fossil-range",
-        "claim:taxon:waptia:fossil-range"
+        "claim:taxon:strudiella:fossil-range",
+        "claim:taxon:cretophasmomima:fossil-range"
       ],
       "evidenceStatus": "available-with-limitations",
       "limitations": [
