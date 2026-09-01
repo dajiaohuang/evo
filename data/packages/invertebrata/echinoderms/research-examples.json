@@ -233,6 +233,79 @@
       "limitations": [
         "The interval follows the linked package range and claim; map markers are sampled records and do not establish a complete distribution, exact origination or extinction, or direct ancestry."
       ]
+    },
+    {
+      "id": "echinoderms-yanjiahella-fortunian-contested-map",
+      "type": "explorer-preset",
+      "title": {
+        "en": "Yanjiahella Fortunian contested-affinity window",
+        "zh": "Yanjiahella 幸运阶争议亲缘窗口"
+      },
+      "description": {
+        "en": "Open the current 538.8–529 Ma Fortunian window for Yanjiahella biscarpa from the Yanjiahe Formation of Hubei, China. The preserved plated theca and stalk are observations; a stem-echinoderm placement is the original inference and remains contested by published reanalysis.",
+        "zh": "打开当前 538.8–529 Ma 幸运阶窗口，检查中国湖北杨家河组的 Yanjiahella biscarpa。保存的具板体和柄是直接观察；其棘皮动物干群位置是原始推断，并受到已发表重分析的质疑。"
+      },
+      "route": "#/explore?taxon=echinodermata&view=map&age=536&older=538.8&younger=529",
+      "entityIds": [
+        "echinodermata"
+      ],
+      "claimIds": [
+        "claim:taxon:echinodermata:yanjiahella-affinity"
+      ],
+      "evidenceStatus": "available-with-limitations",
+      "limitations": [
+        "The route uses the current formal Fortunian boundaries, while Topper et al. report an approximately 540 Ma source context. Topper et al. proposed a stem-echinoderm affinity, but Zamora et al. found no unambiguous echinoderm synapomorphy or stereom and unstable affinities. This named occurrence is therefore not used as the Echinodermata range, direct ancestor, global FAD or exact map-marker co-location.",
+        "该路线采用当前正式幸运阶界线，而 Topper 等人报告的是约 540 Ma 的来源语境。Topper 等人提出棘皮动物干群亲缘，但 Zamora 等人指出没有明确的棘皮动物共有衍征或 stereom，且亲缘位置不稳定。因此，该具名出现记录不用于确定棘皮动物范围、直系祖先、全球首现或精确地图标记共定位。"
+      ]
+    },
+    {
+      "id": "echinoderms-echinoid-crown-model-map",
+      "type": "explorer-preset",
+      "title": {
+        "en": "Echinoid stem record and crown-model window",
+        "zh": "海胆干群记录与冠群模型窗口"
+      },
+      "description": {
+        "en": "Open the 323.4–274.4 Ma Pennsylvanian–Cisuralian model window alongside the observed Darriwilian bothriocidaroid plates. The Ordovician plates are direct fossil observations; the younger crown-Echinoidea interval is a phylogenomic dating inference, with most posterior probability in the early Permian.",
+        "zh": "打开 323.4–274.4 Ma 宾夕法尼亚亚纪—乌拉尔统模型窗口，并与达瑞威尔期 bothriocidaroid 骨板的观察记录对照。奥陶纪骨板是直接化石观察；较年轻的冠群海胆年龄区间是系统基因组年代推断，后验概率主要集中在早二叠世。"
+      },
+      "route": "#/explore?taxon=echinoidea&view=map&age=298.9&older=323.4&younger=274.4",
+      "entityIds": [
+        "echinoidea"
+      ],
+      "claimIds": [
+        "claim:taxon:echinoidea:ordovician-stem-record",
+        "claim:taxon:echinoidea:crown-origin"
+      ],
+      "evidenceStatus": "available-with-limitations",
+      "limitations": [
+        "The current Carboniferous–Permian boundaries are navigation bounds for a model result, not a fossil locality or point-dated crown origin. Thompson et al. place bothriocidaroids in the Ordovician stem record, while Mongiardino Koch et al. date crown Echinoidea with calibration- and clock-dependent analyses. Neither the plates nor the model establishes a direct ancestor, global FAD or complete distribution.",
+        "当前石炭纪—二叠纪界线只是模型结果的导航边界，不是化石地点或点定的冠群起源。Thompson 等人将 bothriocidaroids 放在奥陶纪干群记录中，而 Mongiardino Koch 等人用受校准和时钟影响的分析估计海胆冠群年龄。骨板和模型都不能建立直系祖先、全球首现或完整分布。"
+      ]
+    },
+    {
+      "id": "echinoderms-holothurian-llandrindod-articulated-map",
+      "type": "explorer-preset",
+      "title": {
+        "en": "Oesolcucumaria articulated Holothurian Bed window",
+        "zh": "Oesolcucumaria 关节标本海参层窗口"
+      },
+      "description": {
+        "en": "Open the 469.4–458.2 Ma Darriwilian window for the Holothurian Bed at Llandrindod, Wales. The articulated body and diagnostic calcareous ring of Oesolcucumaria eostre are direct observations; the Holothuroidea assignment and oldest-articulated-record status are bounded taxonomic inferences.",
+        "zh": "打开 469.4–458.2 Ma 达瑞威尔期窗口，检查威尔士 Llandrindod 的海参层。Oesolcucumaria eostre 的关节连接身体和诊断性钙质环是直接观察；Holothuroidea 归属及“最早关节记录”地位是有界的分类推断。"
+      },
+      "route": "#/explore?taxon=holothuroidea&view=map&age=458.2&older=469.4&younger=458.2",
+      "entityIds": [
+        "holothuroidea"
+      ],
+      "claimIds": [
+        "claim:taxon:holothuroidea:darriwilian-articulated-record"
+      ],
+      "evidenceStatus": "available-with-limitations",
+      "limitations": [
+        "The current Darriwilian boundaries provide a stage-scale proxy for a late-Darriwilian occurrence, not a point date. The Botting–Muir material is a named locality and articulated specimen record; it does not establish a global holothurian FAD, origin centre, direct ancestor, complete distribution or exact map-marker co-location, and the disputed Cambrian PBDB identification remains excluded.",
+        "当前达瑞威尔阶界线只是晚达瑞威尔期出现记录的阶级尺度代理，不是点年龄。Botting–Muir 材料是具名地点和关节标本记录；它不能建立海参类全球首现、起源中心、直系祖先、完整分布或精确地图标记共定位，存在争议的寒武纪 PBDB 鉴定仍被排除。"
+      ]
     }
   ]
 }

@@ -213,6 +213,75 @@
       "limitations": [
         "The map age belongs to Clack's Late Devonian synthesis window, not to a Zachełmie locality marker. The Polish traces identify neither a named body taxon nor a direct ancestor; neither source establishes a complete range, global FAD/LAD, behavioural observation, or exact spatial co-registration."
       ]
+    },
+    {
+      "id": "tetrapod-transition-guiyu-articulated-sarcopterygian-map-window",
+      "type": "explorer-preset",
+      "title": {
+        "en": "Guiyu Ludlow articulated-specimen window",
+        "zh": "Guiyu志留纪卢德洛关节标本窗口"
+      },
+      "description": {
+        "en": "Open the rounded 419 Ma Ludlow anchor for the near-complete Guiyu oneiros holotype V15541 from the Kuanti Formation near Qujing, Yunnan. Zhu et al. document its mosaic pectoral-girdle, fin-spine and squamation anatomy as an articulated sarcopterygian anchor for the early osteichthyan record.",
+        "zh": "打开约 4.19 亿年前志留纪卢德洛期锚点，检查云南曲靖附近宽塘组 Guiyu oneiros 近完整正模 V15541。Zhu 等人记录其镶嵌式胸带、鳍棘和鳞甲解剖，将其作为早期骨鱼记录中的关节连接肉鳍鱼锚点。"
+      },
+      "route": "#/explore?taxon=sarcopterygii&view=map&age=419&older=419&younger=419",
+      "entityIds": [
+        "sarcopterygii"
+      ],
+      "claimIds": [
+        "claim:taxon:sarcopterygii:fossil-range"
+      ],
+      "evidenceStatus": "available-with-limitations",
+      "limitations": [
+        "The 419 Ma value is a rounded Ludlow age for the named Guiyu material and its stratigraphic setting, not a global Sarcopterygii FAD or a direct-ancestor date. The anatomical mosaic is directly observed, while stem placement and the actinopterygian–sarcopterygian minimum are analytical inferences; the map does not establish complete distribution or exact fossil-marker co-location."
+      ]
+    },
+    {
+      "id": "tetrapod-transition-tinirau-red-hill-map-window",
+      "type": "explorer-preset",
+      "title": {
+        "en": "Tinirau upper-Givetian marine sample window",
+        "zh": "Tinirau晚吉维特期海生样本窗口"
+      },
+      "description": {
+        "en": "Open the approximately 385.2 Ma center of the upper-Givetian Red Hill I window for Tinirau clackae, including holotype UCMP 118605 and the six-specimen sample from locality V74084 in Eureka County, Nevada. The marine matrix and morphology-based stem placement are kept separate from a direct-ancestor or first-digit claim.",
+        "zh": "打开约 3.852 亿年前上吉维特期 Red Hill I 窗口的中心，检查 Tinirau clackae，包括正模 UCMP 118605 及内华达州尤里卡县 V74084 地点的六件标本样本。海相基质与基于形态的干群位置和“首个具指”主张保持区分。"
+      },
+      "route": "#/explore?taxon=stem-tetrapodomorphs&view=map&age=385.2&older=387.7&younger=382.7",
+      "entityIds": [
+        "stem-tetrapodomorphs"
+      ],
+      "claimIds": [
+        "claim:taxon:stem-tetrapodomorphs:range-boundary"
+      ],
+      "evidenceStatus": "available-with-limitations",
+      "limitations": [
+        "This upper-Givetian route is a named-sample envelope from the Red Hill I beds immediately above the Denay Formation; its marine setting and morphology matrix do not make Tinirau a direct ancestor, a monophyletic grade, or a grade-wide FAD. The rounded route does not establish global range, complete sampling, behaviour, or exact specimen-to-map co-registration."
+      ]
+    },
+    {
+      "id": "tetrapod-transition-coelacanth-crown-split-model-map-window",
+      "type": "explorer-preset",
+      "title": {
+        "en": "Coelacanth–lungfish–tetrapod split model window",
+        "zh": "腔棘鱼—肺鱼—四足动物分裂模型窗口"
+      },
+      "description": {
+        "en": "Open the 409 Ma model-age anchor for the Broughton et al. 21-locus, 24-calibration relaxed-clock analysis, which places the living coelacanth split from lungfishes plus tetrapods near the Early Devonian. The time-calibrated topology and its confidence interval are model output, not a fossil occurrence or map locality.",
+        "zh": "打开 Broughton 等人基于 21 个位点、24 个校准的松弛分子钟分析所给约 4.09 亿年前模型年龄锚点；该分析把现生腔棘鱼与肺鱼加四足动物的分裂置于早泥盆世附近。时标拓扑及其置信区间是模型输出，而非化石出现或地图地点。"
+      },
+      "route": "#/explore?taxon=coelacanthimorpha&view=map&age=409&older=409&younger=409",
+      "entityIds": [
+        "coelacanthimorpha"
+      ],
+      "claimIds": [
+        "claim:taxon:coelacanthimorpha:range-boundary"
+      ],
+      "evidenceStatus": "available-with-limitations",
+      "limitations": [
+        "The 409 Ma selector is the rounded mean of a living-lineage divergence model (reported with a 95% credibility interval), not a Coelacanthimorpha fossil FAD, a sampled specimen age, or an observed ancestral population. It does not replace the fossil record, establish direct ancestry or complete distribution, or imply exact co-registration with map markers."
+      ]
     }
   ]
 }
