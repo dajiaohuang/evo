@@ -106,6 +106,8 @@ export const researchSceneDefinitions = {
   dinosauria: { label: { en: 'Dinosauria', zh: '恐龙' }, scenes: [
     { id: 'dinosauria-map-window', kind: 'map', route: '#/explore?taxon=dinosauria&view=map&age=116.6&older=233.2&younger=0', entityIds: ['dinosauria'], claimIds: ['claim:taxon:dinosauria:root-range'] },
     { id: 'dinosauria-diversity-window', kind: 'diversity', route: '#/explore?taxon=tyrannosaurus&view=diversity&age=67&older=68&younger=66', entityIds: ['tyrannosaurus'], claimIds: ['claim:taxon:tyrannosaurus:fossil-range'] },
+    { id: 'dinosauria-yinlong-map-window', kind: 'map', route: '#/explore?taxon=yinlong&view=map&age=158&older=161.2&younger=155.7', entityIds: ['yinlong'], claimIds: ['claim:taxon:yinlong'] },
+    { id: 'dinosauria-yutyrannus-diversity-window', kind: 'diversity', route: '#/explore?taxon=yutyrannus&view=diversity&age=125&older=125.8&younger=124.1', entityIds: ['yutyrannus'], claimIds: ['claim:taxon:yutyrannus'] },
   ] },
   carnivora: { label: { en: 'Carnivora', zh: '食肉类' }, scenes: [
     { id: 'carnivora-map-window', kind: 'map', route: '#/explore?taxon=hesperocyon&view=map&age=34.5&older=40&younger=29', entityIds: ['hesperocyon'], claimIds: ['claim:taxon:hesperocyon:source-bounded-range-rc49'] },
