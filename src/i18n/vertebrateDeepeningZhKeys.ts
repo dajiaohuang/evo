@@ -91,6 +91,17 @@ const vertebrateDeepeningMarkers = [
   'The cited Elpistostege', 'The Acanthostega limb study', 'The Acanthostega limb material',
   'Described Acanthostega', 'The cited Acanthostega', 'The Ichthyostega mobility study',
   'The Ichthyostega specimens', 'Three-dimensional reconstruction of Ichthyostega', 'The cited Ichthyostega',
+  'A Famennian symmoriiform', 'Maghriboselache', 'Thylacocephalan Layer', 'Maïder', 'Anti-Atlas', 'Morocco', 'PIMUZ A/I 5155',
+  'High-aspect-ratio', 'Estimated in-life lengths', 'Broad cartilage-enclosed snout', 'Widely separated large nasal',
+  'Strap-like pectoral-fin radials', 'Several Moroccan specimens', 'Late Mississippian', 'Fayetteville Shale',
+  'Cove Creek', 'Searcy County', 'Arkansas', 'tooth arrangement is preserved', 'Partial pectoral fins',
+  'Unavailable from the partial holotype', 'Elongate fused pharyngeal-arch', 'Small cladodont teeth',
+  'Scalloped Meckel', 'Fifteen to eighteen distal fin radials', 'The single partial holotype AMNH FF 20509',
+  'Several partly articulated Famennian', 'Falcatidae', 'Symmoriiformes', 'AMNH FF 20509 preserves lower jaws',
+  'The study identifies elongate rays', 'The holotype is partial and has experienced damage',
+  'The phylogenetic placement is a sampled analysis', 'Silurian–Carboniferous specimen dossiers',
+  'Broad-snouted Devonian symmoriiform', 'Operculate Mississippian symmoriiform', 'symmoriiform Chondrichthyes',
+  'broad rostrum', 'Most skeletons', 'CT reconstruction', 'Cosmoselachus',
 ]
 
 export function hasVertebrateDeepeningTranslation(english: string): boolean {

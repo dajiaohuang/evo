@@ -23,6 +23,8 @@ dist-mobile/                 # 临时生成的移动客户端壳，不提交
 
 ## 数据与离线边界
 
+rc83 将 Android 与 iOS 同步到 build `37` / app `0.20.34`。两端完整获得 Micrina、Yuganotheca elegans、Maghriboselache mohamezanei、Cosmoselachus mehlingi、Strudiella 与 Cretophasmomima melanogramma 6 个新增双语档案和 32 条主张，当前原生包共有 103 个完整档案、403 个导航节点和 1,182 条证据主张；三个更新包各自的 3 个来源匹配时间地图或比较场景也同步进入两端。`native-full` 仍逐字节保留 COL26.8 全部 2,183,133 个接受种、全部权威分片和 109 帧 0.1° PaleoDEM；Pages 保持 `web-light`，不复制原生端全量逐种行。
+
 rc82 将 Android 与 iOS 同步到 build `36` / app `0.20.33`。两端完整获得属级 Tujiaaspis 与 Xiushanosteus（以 T. vividus 与 X. mirabilis 标本为锚点）、Haootia quadriformis、Xianguangia sinica、Hesperocyon 与属级 Enaliarctos 6 个新增双语档案和 26 条主张，当前原生包共有 97 个完整档案、399 个导航节点和 1,150 条证据主张；三个更新包的精确时间地图与比较场景也同步进入两端。`native-full` 仍逐字节保留 COL26.8 全部 2,183,133 个接受种、全部权威分片和 109 帧 0.1° PaleoDEM；Pages 保持 `web-light`，不复制原生端全量逐种行。
 
 rc81 将 Android 与 iOS 同步到 build `35` / app `0.20.32`。两端完整获得 Aglaophyton、Horneophyton、Coniferophyta、Araucariaceae、Carnufex 与 Asteriornis 6 个新增双语档案和 26 条主张，当前原生包共有 91 个完整档案、397 个导航节点和 1,124 条证据主张；三个更新包的精确时间地图场景也同步进入两端。`native-full` 仍逐字节保留 COL26.8 全部 2,183,133 个接受种、全部权威分片和 109 帧 0.1° PaleoDEM；Pages 保持 `web-light`，不复制原生端全量逐种行。

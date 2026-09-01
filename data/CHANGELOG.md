@@ -1,5 +1,13 @@
 # Dataset changelog
 
+## App 0.20.34 / 2026.09-static-v5-rc83 — 2026-09-01
+
+- Expanded Molluscs and brachiopods, Chondrichthyes, and Crustaceans and insects from three to five complete bilingual profiles each: Micrina, Yuganotheca elegans, Maghriboselache mohamezanei, Cosmoselachus mehlingi, Strudiella and Cretophasmomima melanogramma.
+- Added 32 field-linked primary-evidence claims, increasing the atlas from 97 to 103 complete profiles, 399 to 403 navigation nodes and 1,150 to 1,182 claims. Every new visible field retains a locator-bearing claim and Chinese translation.
+- Preserved specimen and inference boundaries: Yuganotheca is a 710-specimen combined reconstruction with corrected supplementary figures; Maghriboselache retains topology-sensitive placement; Cosmoselachus is limited to a damaged partial holotype; Strudiella remains a contested arthropod after its insect diagnosis was rejected; and Cretophasmomima leaf crypsis remains a functional interpretation.
+- Retained three source-matched time-map or comparison scenes per updated package.
+- Kept Pages on `web-light`; Android and iOS build `37` receive the same RC83 dossiers and retain the complete `native-full` catalogue, authority shards and all 109 lossless 0.1° PaleoDEM frames.
+
 ## App 0.20.33 / 2026.09-static-v5-rc82 — 2026-09-01
 
 - Expanded Early fishes, Sponges and cnidarians, and Carnivora from three to five complete bilingual profiles each: genus-level Tujiaaspis and Xiushanosteus anchored by T. vividus and X. mirabilis specimens, Haootia quadriformis, Xianguangia sinica, Hesperocyon and genus-level Enaliarctos.
