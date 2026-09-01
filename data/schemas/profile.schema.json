@@ -7,7 +7,12 @@
   "properties": {
     "id": { "type": "string", "minLength": 1 },
     "treeNodeId": { "type": "string", "minLength": 1 },
-    "pbdbTaxonId": { "type": "string", "pattern": "^txn:[0-9]+$" },
+    "pbdbTaxonId": {
+      "oneOf": [
+        { "type": "string", "pattern": "^txn:[0-9]+$" },
+        { "type": "null" }
+      ]
+    },
     "scientificName": { "type": "string", "minLength": 1 },
     "commonName": { "type": "string", "minLength": 1 },
     "commonNameZh": { "type": "string", "minLength": 1 },

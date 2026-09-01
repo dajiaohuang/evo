@@ -302,7 +302,12 @@ check(treeEvidence.navigationModel?.toLowerCase().includes('navigation ontology'
 for (const profile of profiles) {
   if (profile.treeNodeId) check(ontologyTree.idSet.has(profile.treeNodeId), `taxon ${profile.id}: unknown navigation node ${profile.treeNodeId}`)
   const resolution = resolutionsByEntityId.get(profile.treeNodeId)
-  check(resolution?.resolutionStatus === 'resolved' && profile.pbdbTaxonId === resolution.pbdbId, `taxon ${profile.id}: profile PBDB ID must match a verified ontology resolution`)
+  check(
+    resolution?.resolutionStatus === 'resolved'
+      ? profile.pbdbTaxonId === resolution.pbdbId
+      : resolution?.resolutionStatus === 'unresolved' && resolution.pbdbId === null && profile.pbdbTaxonId === null,
+    `taxon ${profile.id}: profile PBDB ID must match the verified ontology resolution or its explicit unresolved boundary`,
+  )
   check(profile.firstAppearance >= profile.lastAppearance, `taxon ${profile.id}: invalid temporal range`)
   const globalRange = canonicalRanges.find((range) => range.entityId === profile.treeNodeId && range.rangeKind === 'global-composite')
   check(globalRange?.olderMa === profile.firstAppearance && globalRange?.youngerMa === profile.lastAppearance, `taxon ${profile.id}: profile range must project the canonical global range`)

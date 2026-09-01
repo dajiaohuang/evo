@@ -245,5 +245,7 @@ export const spongesCnidariansZhKeys = new Set<string>([
   "Observed life history is not a Precambrian reconstruction.",
   "A toolkit is not an ancestor",
   "Comparative gene-family results document a living demosponge genome and test deep animal relationships. They do not make Amphimedon a stand-in for all Porifera or the first animal.",
-  "Comparative ancestry remains an inference."
+  "Comparative ancestry remains an inference.",
+  "Raymond Quarry",
+  "Great Barrier Reef",
 ])

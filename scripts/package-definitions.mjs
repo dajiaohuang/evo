@@ -1,5 +1,5 @@
 export const PACKAGE_SCHEMA_VERSION = 5
-export const DATASET_PACKAGE_VERSION = '2026.09-static-v5-rc86'
+export const DATASET_PACKAGE_VERSION = '2026.09-static-v5-rc87'
 export const DATASET_RELEASE_DATE = '2026-09-01'
 
 // Explicit source-bound Explorer presets. These mappings are intentionally
@@ -54,6 +54,11 @@ export const researchSceneDefinitions = {
   'sponges-cnidarians': { label: { en: 'Sponges and cnidarians', zh: '海绵与刺胞动物' }, scenes: [
     { id: 'sponges-cnidarians-map-window', kind: 'map', route: '#/explore?taxon=haootia&view=map&age=560&older=560&younger=560', entityIds: ['haootia'], claimIds: ['claim:taxon:haootia:range-boundary-rc50'] },
     { id: 'sponges-cnidarians-comparison-window', kind: 'comparison', route: '#/compare?left=haootia&right=xianguangia', entityIds: ['haootia', 'xianguangia'], claimIds: ['claim:taxon:haootia:range-boundary-rc50', 'claim:taxon:xianguangia:range-boundary-rc50'] },
+    { id: 'sponges-cnidarians-burgessomedusa-map-window', kind: 'map', route: '#/explore?taxon=burgessomedusa&view=map&age=505&older=506&younger=504', entityIds: ['burgessomedusa'], claimIds: ['claim:event:burgessomedusa-swimming-medusa', 'claim:taxon:burgessomedusa:range-boundary-rc50', 'claim:taxon:burgessomedusa:biogeography'] },
+    { id: 'sponges-cnidarians-burgessomedusa-bell-comparison', kind: 'comparison', route: '#/compare?left=burgessomedusa&right=cubozoa', entityIds: ['burgessomedusa', 'cubozoa'], claimIds: ['claim:taxon:burgessomedusa:morphology', 'claim:taxon:burgessomedusa:taxonomy'] },
+    { id: 'sponges-cnidarians-burgessomedusa-evidence-route', kind: 'map', route: '#/explore?taxon=burgessomedusa&view=map&age=505&older=506&younger=504', entityIds: ['burgessomedusa'], claimIds: ['claim:event:burgessomedusa-swimming-medusa', 'claim:taxon:burgessomedusa:ecology'] },
+    { id: 'sponges-cnidarians-amphimedon-life-stage-route', kind: 'map', route: '#/explore?taxon=amphimedon_queenslandica&view=tree', entityIds: ['amphimedon_queenslandica'], claimIds: ['claim:taxon:amphimedon_queenslandica:morphology', 'claim:taxon:amphimedon_queenslandica:taxonomy'] },
+    { id: 'sponges-cnidarians-amphimedon-toolkit-comparison', kind: 'comparison', route: '#/compare?left=amphimedon_queenslandica&right=demospongiae', entityIds: ['amphimedon_queenslandica', 'demospongiae'], claimIds: ['claim:taxon:amphimedon_queenslandica:ecology', 'claim:taxon:amphimedon_queenslandica:taxonomy'] },
   ] },
   'molluscs-brachiopods': { label: { en: 'Molluscs and brachiopods', zh: '软体动物与腕足动物' }, scenes: [
     { id: 'molluscs-brachiopods-map-window', kind: 'map', route: '#/explore?taxon=yuganotheca&view=map&age=518&older=521&younger=514.5', entityIds: ['micrina', 'yuganotheca'], claimIds: ['claim:taxon:micrina:source-bounded-range-rc50', 'claim:taxon:yuganotheca:source-bounded-range-rc50'] },
@@ -117,6 +122,13 @@ export const researchSceneDefinitions = {
   carnivora: { label: { en: 'Carnivora', zh: '食肉类' }, scenes: [
     { id: 'carnivora-map-window', kind: 'map', route: '#/explore?taxon=hesperocyon&view=map&age=34.5&older=40&younger=29', entityIds: ['hesperocyon'], claimIds: ['claim:taxon:hesperocyon:source-bounded-range-rc49'] },
     { id: 'carnivora-comparison-window', kind: 'comparison', route: '#/compare?left=hesperocyon&right=enaliarctos', entityIds: ['hesperocyon', 'enaliarctos'], claimIds: ['claim:taxon:hesperocyon:source-bounded-range-rc49', 'claim:taxon:enaliarctos:fossil-range'] },
+    { id: 'carnivora-lycophocyon-map-window', kind: 'map', route: '#/explore?taxon=lycophocyon&view=map&age=44.1&older=46.2&younger=42', entityIds: ['lycophocyon'], claimIds: ['claim:event:lycophocyon-holotype-basal-caniform', 'claim:taxon:lycophocyon:fossil-range', 'claim:taxon:lycophocyon:biogeography'] },
+    { id: 'carnivora-lycophocyon-tree-route', kind: 'map', route: '#/explore?taxon=lycophocyon&view=map&age=44.1&older=46.2&younger=42', entityIds: ['lycophocyon'], claimIds: ['claim:event:lycophocyon-holotype-basal-caniform', 'claim:taxon:lycophocyon:taxonomy'] },
+    { id: 'carnivora-lycophocyon-classifier-comparison', kind: 'comparison', route: '#/compare?left=lycophocyon&right=caniformia', entityIds: ['lycophocyon', 'caniformia'], claimIds: ['claim:taxon:lycophocyon:ecology', 'claim:taxon:lycophocyon:morphology'] },
+    { id: 'carnivora-kretzoiarctos-map-window', kind: 'map', route: '#/explore?taxon=kretzoiarctos&view=map&age=11.5&older=11.8&younger=11.2', entityIds: ['kretzoiarctos'], claimIds: ['claim:event:kretzoiarctos-dental-panda-topology', 'claim:taxon:kretzoiarctos:fossil-range', 'claim:taxon:kretzoiarctos:biogeography'] },
+    { id: 'carnivora-kretzoiarctos-tree-route', kind: 'map', route: '#/explore?taxon=kretzoiarctos&view=map&age=11.5&older=11.8&younger=11.2', entityIds: ['kretzoiarctos'], claimIds: ['claim:event:kretzoiarctos-dental-panda-topology', 'claim:taxon:kretzoiarctos:taxonomy'] },
+    { id: 'carnivora-kretzoiarctos-specimen-comparison', kind: 'comparison', route: '#/compare?left=kretzoiarctos&right=ursidae', entityIds: ['kretzoiarctos', 'ursidae'], claimIds: ['claim:taxon:kretzoiarctos:morphology', 'claim:taxon:kretzoiarctos:ecology'] },
+    { id: 'carnivora-magericyon-fea-comparison', kind: 'comparison', route: '#/compare?left=magericyon&right=amphicyonidae', entityIds: ['magericyon', 'amphicyonidae'], claimIds: ['claim:event:magericyon-feeding-fea'] },
   ] },
   cetartiodactyla: { label: { en: 'Whippomorpha', zh: '鲸偶蹄类' }, scenes: [
     { id: 'cetartiodactyla-map-window', kind: 'map', route: '#/explore?taxon=whippomorpha&view=map&age=27.5&older=55&younger=0', entityIds: ['whippomorpha'], claimIds: ['claim:taxon:whippomorpha:root-range'] },
@@ -206,8 +218,8 @@ export const packageDefinitions = [
     titleZh: '海绵与刺胞动物',
     rootEntityIds: ['porifera', 'cnidaria'],
     conceptScope: {
-      en: 'Fourteen primary-evidence dossiers separate Cryogenian sterane occurrence from source attribution, named Ediacaran and Cambrian specimens from topology, living phylogenomic samples from universal trees, and coral clock or proxy results from fossil observations. Five field-linked profiles now cover Eocyathispongia, Helicolocellus, Auroralumina, Haootia and Xianguangia; each keeps specimen or assemblage bounds and competing affinity interpretations visible. Navigation adds eighteen living and fossil concepts as curated browse routes. COL26.8 routes exactly 30,521 strictly accepted living species names through Porifera usage ID B8TXQ and Cnidaria usage ID CN2; this is nomenclatural coverage, not 30,521 mature dossiers.',
-      zh: '十四个一手证据档案严格区分成冰纪甾烷出现与来源归属、埃迪卡拉纪和寒武纪具名标本与系统位置、现生系统基因组样本与通用系统树，以及珊瑚分子钟或代用指标结果与化石观察。五份逐字段档案现覆盖 Eocyathispongia、Helicolocellus、Auroralumina、Haootia 与 Xianguangia，并保留标本或动物群边界及相互竞争的亲缘解释。导航新增十八个现生和化石概念作为策展浏览路线。COL26.8 经海绵动物门 usage ID B8TXQ 与刺胞动物门 usage ID CN2 精确路由 30,521 个严格接受的现生种名；这是命名覆盖，并非 30,521 份成熟档案。',
+      en: 'Fourteen primary-evidence dossiers separate Cryogenian sterane occurrence from source attribution, named Ediacaran and Cambrian specimens from topology, living phylogenomic samples from universal trees, and coral clock or proxy results from fossil observations. Seven field-linked profiles now cover Eocyathispongia, Helicolocellus, Auroralumina, Haootia, Xianguangia, Burgessomedusa and Amphimedon queenslandica; each keeps specimen, locality, living-sample or assemblage bounds and competing affinity interpretations visible. Navigation adds eighteen living and fossil concepts as curated browse routes. COL26.8 routes exactly 30,521 strictly accepted living species names through Porifera usage ID B8TXQ and Cnidaria usage ID CN2; this is nomenclatural coverage, not 30,521 mature dossiers.',
+      zh: '十四个一手证据档案严格区分成冰纪甾烷出现与来源归属、埃迪卡拉纪和寒武纪具名标本与系统位置、现生系统基因组样本与通用系统树，以及珊瑚分子钟或代用指标结果与化石观察。七份逐字段档案现覆盖 Eocyathispongia、Helicolocellus、Auroralumina、Haootia、Xianguangia、Burgessomedusa 与 Amphimedon queenslandica，并保留标本、地点、现生样本或动物群边界及相互竞争的亲缘解释。导航新增十八个现生和化石概念作为策展浏览路线。COL26.8 经海绵动物门 usage ID B8TXQ 与刺胞动物门 usage ID CN2 精确路由 30,521 个严格接受的现生种名；这是命名覆盖，并非 30,521 份成熟档案。',
     },
     scientificMaturity: 'source-linked',
     limitations: [
@@ -433,8 +445,8 @@ export const packageDefinitions = [
     titleZh: '灵长形类与灵长类主证据',
     rootEntityIds: ['primatomorpha'],
     conceptScope: {
-      en: 'Five complete bilingual primary-evidence dossiers present named Paleocene–Miocene samples with functional or morphology-matrix interpretations. Package-linked claims separately retain a calibration-sensitive crown-Primate clock model, direct radiocarbon ages and ancient-genome demographic models. The early-Eocene Teilhardina dental sequence and early-Miocene Morotopithecus postcrania are bounded evidence samples, not a universal tree or ancestor ladder. Primatomorpha, Plesiadapiformes and fossil placements remain curated navigation routes. COL26.8 routes exactly 530 strictly accepted living species names below Primates usage ID 3W7; that is current nomenclatural browse coverage, not 530 specimen, fossil, morphology, genome, translation or expert-review dossiers.',
-      zh: '五个完整的双语一手证据档案呈现古新世至中新世的具名样本及其功能或形态矩阵解释。包内关联声明另外保留校准敏感的灵长类冠群分子钟模型、直接放射性碳年代和古基因组人口史模型。早始新世更猴属牙齿序列和早中新世莫罗古猿姿势骨骼都是范围明确的证据样本，并非通用系统树或祖先阶梯。灵长形类、更猴型类和化石位置仍只是策展导航路径。COL26.8 在灵长目 usage ID 3W7 下精确路由 530 个严格接受的现生种名；这只是当前命名浏览覆盖，并不表示已有 530 份标本、化石、形态、基因组、翻译或专家评审档案。',
+      en: 'Seven complete bilingual primary-evidence dossiers present named Paleocene–Miocene samples with functional or morphology-matrix interpretations. Package-linked claims separately retain a calibration-sensitive crown-Primate clock model, direct radiocarbon ages and ancient-genome demographic models. Teilhardina dental samples, the Notharctus foot, isolated Eosimias tarsals and Morotopithecus postcrania are bounded evidence samples, not a universal tree or ancestor ladder. Primatomorpha, Plesiadapiformes and fossil placements remain curated navigation routes. COL26.8 routes exactly 530 strictly accepted living species names below Primates usage ID 3W7; that is current nomenclatural browse coverage, not 530 specimen, fossil, morphology, genome, translation or expert-review dossiers.',
+      zh: '七个完整的双语一手证据档案呈现古新世至中新世的具名样本及其功能或形态矩阵解释。包内关联声明另外保留校准敏感的灵长类冠群分子钟模型、直接放射性碳年代和古基因组人口史模型。更猴属牙齿样本、北猴属足部、孤立曙猿跗骨和莫罗古猿颅后骨骼都是范围明确的证据样本，并非通用系统树或祖先阶梯。灵长形类、更猴型类和化石位置仍只是策展导航路径。COL26.8 在灵长目 usage ID 3W7 下精确路由 530 个严格接受的现生种名；这只是当前命名浏览覆盖，并不表示已有 530 份标本、化石、形态、基因组、翻译或专家评审档案。',
     },
     scientificMaturity: 'source-linked',
     limitations: [
@@ -452,8 +464,8 @@ export const packageDefinitions = [
     titleZh: '食肉目',
     rootEntityIds: ['carnivora'],
     conceptScope: {
-      en: 'Eleven bilingual primary-evidence dossiers connect named early carnivoraform teeth and tarsals, crown and stem character matrices, living sequence data, beardog, bear, cat and dog samples, pinnipedimorph skeletons and two explicitly bounded functional models. Carnivoraformes is a navigation-only dossier route because its sampled fossils are not silently promoted into crown Carnivora. Feliformia, Caniformia, Amphicyonidae, Ursidae, Felidae, Canidae and Pinnipedimorpha are curated browse routes, not a complete or uncontested genealogy. COL26.8 routes exactly 310 accepted living species names through Carnivora; that nomenclatural count does not measure fossil, dossier, translation, media, topology or review maturity.',
-      zh: '十一个双语一手证据档案连接具名的早期食肉形类牙齿与跗骨、冠群和干群性状矩阵、现生序列数据、犬熊类、熊类、猫科和犬科样本、鳍足形类骨架以及两个明确限定的功能模型。食肉形类仅作为档案导航路径，因为这些化石样本不会被暗中提升为食肉目冠群成员。猫型类、犬型类、犬熊科、熊科、猫科、犬科与鳍足形类都是策展浏览路径，而非完整或无争议的谱系。COL26.8 恰好把 310 个现生接受种名路由到食肉目；这一命名计数不衡量化石、档案、翻译、媒体、拓扑或评审成熟度。',
+      en: 'Eleven bilingual primary-evidence dossiers and seven complete field-linked profiles connect named early carnivoraform teeth and tarsals, crown and stem character matrices, living sequence data, beardog, bear, cat and dog samples, pinnipedimorph skeletons and two explicitly bounded functional models. Lycophocyon and Kretzoiarctos now expose specimen, locality, classifier and matrix boundaries through map and comparison scenes. Carnivoraformes is a navigation-only dossier route because its sampled fossils are not silently promoted into crown Carnivora. Feliformia, Caniformia, Amphicyonidae, Ursidae, Felidae, Canidae and Pinnipedimorpha are curated browse routes, not a complete or uncontested genealogy. COL26.8 routes exactly 310 accepted living species names through Carnivora; that nomenclatural count does not measure fossil, dossier, translation, media, topology or review maturity.',
+      zh: '十一个双语一手证据档案和七份完整逐字段档案连接具名的早期食肉形类牙齿与跗骨、冠群和干群性状矩阵、现生序列数据、犬熊类、熊类、猫科和犬科样本、鳍足形类骨架以及两个明确限定的功能模型。Lycophocyon 与 Kretzoiarctos 现通过地图和对比场景明确展示标本、地点、分类器与矩阵边界。食肉形类仅作为档案导航路径，因为这些化石样本不会被暗中提升为食肉目冠群成员。猫型类、犬型类、犬熊科、熊科、猫科、犬科与鳍足形类都是策展浏览路径，而非完整或无争议的谱系。COL26.8 恰好把 310 个现生接受种名路由到食肉目；这一命名计数不衡量化石、档案、翻译、媒体、拓扑或评审成熟度。',
     },
     scientificMaturity: 'source-linked',
     limitations: [

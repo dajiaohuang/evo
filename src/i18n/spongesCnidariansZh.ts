@@ -245,5 +245,7 @@ export const spongesCnidariansZh: Record<string, string> = {
   "Observed life history is not a Precambrian reconstruction.": "观察到的生活史不是前寒武纪复原。",
   "A toolkit is not an ancestor": "工具箱不等于祖先",
   "Comparative gene-family results document a living demosponge genome and test deep animal relationships. They do not make Amphimedon a stand-in for all Porifera or the first animal.": "比较基因家族结果记录了一个现生寻常海绵基因组并检验动物深层关系。它们不会使 Amphimedon 成为全部海绵动物或第一动物的替身。",
-  "Comparative ancestry remains an inference.": "比较性的祖先关系仍是推断。"
+  "Comparative ancestry remains an inference.": "比较性的祖先关系仍是推断。",
+  "Raymond Quarry": "雷蒙德采石场",
+  "Great Barrier Reef": "大堡礁",
 }

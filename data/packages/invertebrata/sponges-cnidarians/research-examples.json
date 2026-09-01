@@ -72,6 +72,129 @@
       "limitations": [
         "The two sides retain separate source, sampling, range and uncertainty boundaries; visual differences are not tests of evolutionary causation or a package-specific phylogeny."
       ]
+    },
+    {
+      "id": "sponges-cnidarians-burgessomedusa-map-window",
+      "type": "explorer-preset",
+      "title": {
+        "en": "Sponges and cnidarians occurrence window",
+        "zh": "海绵与刺胞动物出现窗口"
+      },
+      "description": {
+        "en": "Open a source-bounded Sponges and cnidarians time window in the map to inspect sampled occurrence context linked to this package.",
+        "zh": "在地图中打开有来源边界的海绵与刺胞动物时间窗口，检查与本包关联的采样出现背景。"
+      },
+      "route": "#/explore?taxon=burgessomedusa&view=map&age=505&older=506&younger=504",
+      "entityIds": [
+        "burgessomedusa"
+      ],
+      "claimIds": [
+        "claim:event:burgessomedusa-swimming-medusa",
+        "claim:taxon:burgessomedusa:range-boundary-rc50",
+        "claim:taxon:burgessomedusa:biogeography"
+      ],
+      "evidenceStatus": "available-with-limitations",
+      "limitations": [
+        "The interval follows the linked package range and claim; map markers are sampled records and do not establish a complete distribution, exact origination or extinction, or direct ancestry."
+      ]
+    },
+    {
+      "id": "sponges-cnidarians-burgessomedusa-bell-comparison",
+      "type": "comparison",
+      "title": {
+        "en": "Sponges and cnidarians evidence comparison",
+        "zh": "海绵与刺胞动物证据比较"
+      },
+      "description": {
+        "en": "Compare burgessomedusa and cubozoa through package-linked claims and bounded occurrence context; this side-by-side route is an evidence inspection aid.",
+        "zh": "通过本包关联的声明与限定出现背景比较burgessomedusa与cubozoa；并列页面仅用于证据检查。"
+      },
+      "route": "#/compare?left=burgessomedusa&right=cubozoa",
+      "entityIds": [
+        "burgessomedusa",
+        "cubozoa"
+      ],
+      "claimIds": [
+        "claim:taxon:burgessomedusa:morphology",
+        "claim:taxon:burgessomedusa:taxonomy"
+      ],
+      "evidenceStatus": "available-with-limitations",
+      "limitations": [
+        "The two sides retain separate source, sampling, range and uncertainty boundaries; visual differences are not tests of evolutionary causation or a package-specific phylogeny."
+      ]
+    },
+    {
+      "id": "sponges-cnidarians-burgessomedusa-evidence-route",
+      "type": "explorer-preset",
+      "title": {
+        "en": "Sponges and cnidarians occurrence window",
+        "zh": "海绵与刺胞动物出现窗口"
+      },
+      "description": {
+        "en": "Open a source-bounded Sponges and cnidarians time window in the map to inspect sampled occurrence context linked to this package.",
+        "zh": "在地图中打开有来源边界的海绵与刺胞动物时间窗口，检查与本包关联的采样出现背景。"
+      },
+      "route": "#/explore?taxon=burgessomedusa&view=map&age=505&older=506&younger=504",
+      "entityIds": [
+        "burgessomedusa"
+      ],
+      "claimIds": [
+        "claim:event:burgessomedusa-swimming-medusa",
+        "claim:taxon:burgessomedusa:ecology"
+      ],
+      "evidenceStatus": "available-with-limitations",
+      "limitations": [
+        "The interval follows the linked package range and claim; map markers are sampled records and do not establish a complete distribution, exact origination or extinction, or direct ancestry."
+      ]
+    },
+    {
+      "id": "sponges-cnidarians-amphimedon-life-stage-route",
+      "type": "explorer-preset",
+      "title": {
+        "en": "Sponges and cnidarians occurrence window",
+        "zh": "海绵与刺胞动物出现窗口"
+      },
+      "description": {
+        "en": "Open a source-bounded Sponges and cnidarians time window in the map to inspect sampled occurrence context linked to this package.",
+        "zh": "在地图中打开有来源边界的海绵与刺胞动物时间窗口，检查与本包关联的采样出现背景。"
+      },
+      "route": "#/explore?taxon=amphimedon_queenslandica&view=tree",
+      "entityIds": [
+        "amphimedon_queenslandica"
+      ],
+      "claimIds": [
+        "claim:taxon:amphimedon_queenslandica:morphology",
+        "claim:taxon:amphimedon_queenslandica:taxonomy"
+      ],
+      "evidenceStatus": "available-with-limitations",
+      "limitations": [
+        "The interval follows the linked package range and claim; map markers are sampled records and do not establish a complete distribution, exact origination or extinction, or direct ancestry."
+      ]
+    },
+    {
+      "id": "sponges-cnidarians-amphimedon-toolkit-comparison",
+      "type": "comparison",
+      "title": {
+        "en": "Sponges and cnidarians evidence comparison",
+        "zh": "海绵与刺胞动物证据比较"
+      },
+      "description": {
+        "en": "Compare amphimedon_queenslandica and demospongiae through package-linked claims and bounded occurrence context; this side-by-side route is an evidence inspection aid.",
+        "zh": "通过本包关联的声明与限定出现背景比较amphimedon_queenslandica与demospongiae；并列页面仅用于证据检查。"
+      },
+      "route": "#/compare?left=amphimedon_queenslandica&right=demospongiae",
+      "entityIds": [
+        "amphimedon_queenslandica",
+        "demospongiae"
+      ],
+      "claimIds": [
+        "claim:taxon:amphimedon_queenslandica:ecology",
+        "claim:taxon:amphimedon_queenslandica:taxonomy"
+      ],
+      "evidenceStatus": "available-with-limitations",
+      "limitations": [
+        "The two sides retain separate source, sampling, range and uncertainty boundaries; visual differences are not tests of evolutionary causation or a package-specific phylogeny."
+      ]
     }
   ]
 }

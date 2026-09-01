@@ -286,7 +286,7 @@ for (const packageEntry of packageRegistry.packages) {
     failures.push(`package ${packageEntry.id}: unexpected nomenclature collection`)
   }
 }
-if (researchExampleCount !== 79 || researchExampleAvailableCount !== 79 || researchClaimLinkCount !== 115) failures.push(`research scene totals are ${researchExampleCount} examples, ${researchExampleAvailableCount} available-with-limitations and ${researchClaimLinkCount} claim links; expected 79/79/115`)
+if (researchExampleCount !== 97 || researchExampleAvailableCount !== 97 || researchClaimLinkCount !== 151) failures.push(`research scene totals are ${researchExampleCount} examples, ${researchExampleAvailableCount} available-with-limitations and ${researchClaimLinkCount} claim links; expected 97/97/151`)
 if (packagePhylogenyCount !== 2) failures.push(`package phylogeny runtime count is ${packagePhylogenyCount}; expected 2 available and 22 unmapped`)
 if (wfoRichRecords !== 387988) failures.push(`WFO rich-package collections contain ${wfoRichRecords} records; expected 387,988`)
 if (wfoRichShards !== 32 || wfoRichBytes !== 15584333) failures.push(`WFO rich-package collections contain ${wfoRichShards} shards and ${wfoRichBytes} compressed bytes; expected 32/15,584,333`)

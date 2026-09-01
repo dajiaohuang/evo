@@ -1,5 +1,13 @@
 # Dataset changelog
 
+## App 0.20.38 / 2026.09-static-v5-rc87 — 2026-09-01
+
+- Expanded Sponges and cnidarians, Carnivora and Primates from five to seven complete bilingual profiles each: Burgessomedusa phasmiformis, Amphimedon queenslandica, Lycophocyon hutchisoni, Kretzoiarctos beatrix, Notharctus and Eosimias.
+- Added 24 field-linked primary-evidence claims, increasing the atlas from 121 to 127 complete profiles and 1,253 to 1,277 claims while retaining 403 navigation nodes and 484 references.
+- Added 18 source-bounded map, tree and comparison scenes, increasing the package scene totals to 8, 10 and 9 and the atlas total from 79 to 97. All 44 age-driven scenes intersect an `available` range at their routed age and share entity and claim context with it.
+- Withheld a numerical fossil duration for the living Amphimedon genome sample. Burgessomedusa remains bounded to Raymond Quarry; Lycophocyon and Kretzoiarctos retain classifier, matrix and locality limits; Notharctus and Eosimias retain functional, isolated-bone and association limits. None is promoted to a direct ancestor, global FAD/LAD, complete distribution or observed behaviour.
+- Kept Pages on `web-light`; Android and iOS build `41` receive the same RC87 dossiers and scenes while retaining the complete `native-full` catalogue, authority shards and all 109 lossless 0.1° PaleoDEM frames.
+
 ## App 0.20.37 / 2026.09-static-v5-rc86 — 2026-09-01
 
 - Expanded Dinosauria from four to six complete bilingual profiles and Molluscs and brachiopods and Crustaceans and insects from five to seven each: Yinlong downsi, Yutyrannus huali, Pojetaia runnegari, Kutorgina chengjiangensis, Rhyniella praecursor and Odonata.

@@ -1015,39 +1015,403 @@
   {
     "profileId": "lycophocyon",
     "fields": {
-      "firstAppearance":{"claimId":"claim:taxon:lycophocyon:fossil-range","claimType":"fossil-range","relation":"supports","sourceLocators":[{"referenceId":"tomiya-2011-lycophocyon","locator":"Article e24146; pp. 2–3; Figure 8"}],"confidence":"medium","reviewStatus":"automated-audit-passed","contentOrigin":"source-derived-fact"},
-      "lastAppearance":{"claimId":"claim:taxon:lycophocyon:fossil-range","claimType":"fossil-range","relation":"supports","sourceLocators":[{"referenceId":"tomiya-2011-lycophocyon","locator":"Article e24146; pp. 2–3; Figure 8"}],"confidence":"medium","reviewStatus":"automated-audit-passed","contentOrigin":"source-derived-fact"},
-      "geography":{"claimId":"claim:taxon:lycophocyon:biogeography","claimType":"biogeography","relation":"supports","sourceLocators":[{"referenceId":"tomiya-2011-lycophocyon","locator":"pp. 2–3; Distribution; Holotype locality; Paratypes"}],"confidence":"high","reviewStatus":"automated-audit-passed","contentOrigin":"editorial-synthesis"},
-      "overview":{"claimId":"claim:taxon:lycophocyon:taxonomy","claimType":"taxonomy","relation":"supports","sourceLocators":[{"referenceId":"tomiya-2011-lycophocyon","locator":"pp. 13–16; Cladistic Analysis; Figure 8"}],"confidence":"medium","reviewStatus":"automated-audit-passed","contentOrigin":"editorial-synthesis"},
-      "evidenceSummary":{"claimId":"claim:taxon:lycophocyon:taxonomy","claimType":"taxonomy","relation":"supports","sourceLocators":[{"referenceId":"tomiya-2011-lycophocyon","locator":"pp. 13–16; Cladistic Analysis; Figure 8"}],"confidence":"medium","reviewStatus":"automated-audit-passed","contentOrigin":"editorial-synthesis"},
-      "confidence":{"claimId":"claim:taxon:lycophocyon:taxonomy","claimType":"taxonomy","relation":"supports","sourceLocators":[{"referenceId":"tomiya-2011-lycophocyon","locator":"pp. 13–16; Cladistic Analysis; Figure 8"}],"confidence":"medium","reviewStatus":"automated-audit-passed","contentOrigin":"editorial-synthesis"},
-      "ecology.diet":{"claimId":"claim:taxon:lycophocyon:ecology","claimType":"ecology","relation":"supports","sourceLocators":[{"referenceId":"tomiya-2011-lycophocyon","locator":"pp. 13–14; Dietary Inference; Figure 7; Table 3"}],"confidence":"medium","reviewStatus":"automated-audit-passed","contentOrigin":"editorial-synthesis"},
-      "ecology.habitat":{"claimId":"claim:taxon:lycophocyon:ecology","claimType":"ecology","relation":"supports","sourceLocators":[{"referenceId":"tomiya-2011-lycophocyon","locator":"pp. 2–3; Distribution"}],"confidence":"medium","reviewStatus":"automated-audit-passed","contentOrigin":"editorial-synthesis"},
-      "ecology.locomotion":{"claimId":"claim:taxon:lycophocyon:ecology","claimType":"ecology","relation":"supports","sourceLocators":[{"referenceId":"tomiya-2011-lycophocyon","locator":"pp. 2–3; Paratypes"}],"confidence":"medium","reviewStatus":"automated-audit-passed","contentOrigin":"editorial-synthesis"},
-      "ecology.bodySize":{"claimId":"claim:taxon:lycophocyon:ecology","claimType":"ecology","relation":"supports","sourceLocators":[{"referenceId":"tomiya-2011-lycophocyon","locator":"p. 13; Dietary Inference"}],"confidence":"medium","reviewStatus":"automated-audit-passed","contentOrigin":"editorial-synthesis"},
-      "ecology.guild":{"claimId":"claim:taxon:lycophocyon:ecology","claimType":"ecology","relation":"supports","sourceLocators":[{"referenceId":"tomiya-2011-lycophocyon","locator":"pp. 13–14; Dietary Inference"}],"confidence":"medium","reviewStatus":"automated-audit-passed","contentOrigin":"editorial-synthesis"},
-      "traits[0]":{"claimId":"claim:taxon:lycophocyon:morphology","claimType":"morphology","relation":"supports","sourceLocators":[{"referenceId":"tomiya-2011-lycophocyon","locator":"pp. 2–3; Holotype"}],"confidence":"high","reviewStatus":"automated-audit-passed","contentOrigin":"editorial-synthesis"},
-      "traits[1]":{"claimId":"claim:taxon:lycophocyon:morphology","claimType":"morphology","relation":"supports","sourceLocators":[{"referenceId":"tomiya-2011-lycophocyon","locator":"pp. 2–3; Paratypes"}],"confidence":"high","reviewStatus":"automated-audit-passed","contentOrigin":"editorial-synthesis"},
-      "traits[2]":{"claimId":"claim:taxon:lycophocyon:morphology","claimType":"morphology","relation":"supports","sourceLocators":[{"referenceId":"tomiya-2011-lycophocyon","locator":"pp. 2–3; Paratypes"}],"confidence":"medium","reviewStatus":"automated-audit-passed","contentOrigin":"editorial-synthesis"}
+      "firstAppearance": {
+        "claimId": "claim:taxon:lycophocyon:fossil-range",
+        "claimType": "fossil-range",
+        "relation": "supports",
+        "sourceLocators": [
+          {
+            "referenceId": "tomiya-2011-lycophocyon",
+            "locator": "Article e24146"
+          }
+        ],
+        "confidence": "medium",
+        "reviewStatus": "automated-audit-passed",
+        "contentOrigin": "source-derived-fact"
+      },
+      "lastAppearance": {
+        "claimId": "claim:taxon:lycophocyon:fossil-range",
+        "claimType": "fossil-range",
+        "relation": "supports",
+        "sourceLocators": [
+          {
+            "referenceId": "tomiya-2011-lycophocyon",
+            "locator": "Article e24146"
+          }
+        ],
+        "confidence": "medium",
+        "reviewStatus": "automated-audit-passed",
+        "contentOrigin": "source-derived-fact"
+      },
+      "geography": {
+        "claimId": "claim:taxon:lycophocyon:biogeography",
+        "claimType": "biogeography",
+        "relation": "supports",
+        "sourceLocators": [
+          {
+            "referenceId": "tomiya-2011-lycophocyon",
+            "locator": "2–3"
+          }
+        ],
+        "confidence": "high",
+        "reviewStatus": "automated-audit-passed",
+        "contentOrigin": "editorial-synthesis"
+      },
+      "overview": {
+        "claimId": "claim:taxon:lycophocyon:taxonomy",
+        "claimType": "taxonomy",
+        "relation": "supports",
+        "sourceLocators": [
+          {
+            "referenceId": "tomiya-2011-lycophocyon",
+            "locator": "13–16"
+          }
+        ],
+        "confidence": "medium",
+        "reviewStatus": "automated-audit-passed",
+        "contentOrigin": "editorial-synthesis"
+      },
+      "evidenceSummary": {
+        "claimId": "claim:taxon:lycophocyon:taxonomy",
+        "claimType": "taxonomy",
+        "relation": "supports",
+        "sourceLocators": [
+          {
+            "referenceId": "tomiya-2011-lycophocyon",
+            "locator": "13–16"
+          }
+        ],
+        "confidence": "medium",
+        "reviewStatus": "automated-audit-passed",
+        "contentOrigin": "editorial-synthesis"
+      },
+      "confidence": {
+        "claimId": "claim:taxon:lycophocyon:taxonomy",
+        "claimType": "taxonomy",
+        "relation": "supports",
+        "sourceLocators": [
+          {
+            "referenceId": "tomiya-2011-lycophocyon",
+            "locator": "13–16"
+          }
+        ],
+        "confidence": "medium",
+        "reviewStatus": "automated-audit-passed",
+        "contentOrigin": "editorial-synthesis"
+      },
+      "ecology.diet": {
+        "claimId": "claim:taxon:lycophocyon:ecology",
+        "claimType": "ecology",
+        "relation": "supports",
+        "sourceLocators": [
+          {
+            "referenceId": "tomiya-2011-lycophocyon",
+            "locator": "13–14"
+          }
+        ],
+        "confidence": "medium",
+        "reviewStatus": "automated-audit-passed",
+        "contentOrigin": "editorial-synthesis"
+      },
+      "ecology.habitat": {
+        "claimId": "claim:taxon:lycophocyon:ecology",
+        "claimType": "ecology",
+        "relation": "supports",
+        "sourceLocators": [
+          {
+            "referenceId": "tomiya-2011-lycophocyon",
+            "locator": "13–14"
+          }
+        ],
+        "confidence": "medium",
+        "reviewStatus": "automated-audit-passed",
+        "contentOrigin": "editorial-synthesis"
+      },
+      "ecology.locomotion": {
+        "claimId": "claim:taxon:lycophocyon:ecology",
+        "claimType": "ecology",
+        "relation": "supports",
+        "sourceLocators": [
+          {
+            "referenceId": "tomiya-2011-lycophocyon",
+            "locator": "13–14"
+          }
+        ],
+        "confidence": "medium",
+        "reviewStatus": "automated-audit-passed",
+        "contentOrigin": "editorial-synthesis"
+      },
+      "ecology.bodySize": {
+        "claimId": "claim:taxon:lycophocyon:ecology",
+        "claimType": "ecology",
+        "relation": "supports",
+        "sourceLocators": [
+          {
+            "referenceId": "tomiya-2011-lycophocyon",
+            "locator": "13–14"
+          }
+        ],
+        "confidence": "medium",
+        "reviewStatus": "automated-audit-passed",
+        "contentOrigin": "editorial-synthesis"
+      },
+      "ecology.guild": {
+        "claimId": "claim:taxon:lycophocyon:ecology",
+        "claimType": "ecology",
+        "relation": "supports",
+        "sourceLocators": [
+          {
+            "referenceId": "tomiya-2011-lycophocyon",
+            "locator": "13–14"
+          }
+        ],
+        "confidence": "medium",
+        "reviewStatus": "automated-audit-passed",
+        "contentOrigin": "editorial-synthesis"
+      },
+      "traits[0]": {
+        "claimId": "claim:taxon:lycophocyon:morphology",
+        "claimType": "morphology",
+        "relation": "supports",
+        "sourceLocators": [
+          {
+            "referenceId": "tomiya-2011-lycophocyon",
+            "locator": "2–3"
+          }
+        ],
+        "confidence": "high",
+        "reviewStatus": "automated-audit-passed",
+        "contentOrigin": "editorial-synthesis"
+      },
+      "traits[1]": {
+        "claimId": "claim:taxon:lycophocyon:morphology",
+        "claimType": "morphology",
+        "relation": "supports",
+        "sourceLocators": [
+          {
+            "referenceId": "tomiya-2011-lycophocyon",
+            "locator": "2–3"
+          }
+        ],
+        "confidence": "high",
+        "reviewStatus": "automated-audit-passed",
+        "contentOrigin": "editorial-synthesis"
+      },
+      "traits[2]": {
+        "claimId": "claim:taxon:lycophocyon:morphology",
+        "claimType": "morphology",
+        "relation": "supports",
+        "sourceLocators": [
+          {
+            "referenceId": "tomiya-2011-lycophocyon",
+            "locator": "2–3"
+          }
+        ],
+        "confidence": "high",
+        "reviewStatus": "automated-audit-passed",
+        "contentOrigin": "editorial-synthesis"
+      }
     }
   },
   {
-    "profileId":"kretzoiarctos",
-    "fields":{
-      "firstAppearance":{"claimId":"claim:taxon:kretzoiarctos:fossil-range","claimType":"fossil-range","relation":"supports","sourceLocators":[{"referenceId":"abella-2012-kretzoiarctos","locator":"Article e48985; Figure 1; Chronological range"}],"confidence":"medium","reviewStatus":"automated-audit-passed","contentOrigin":"source-derived-fact"},
-      "lastAppearance":{"claimId":"claim:taxon:kretzoiarctos:fossil-range","claimType":"fossil-range","relation":"supports","sourceLocators":[{"referenceId":"abella-2012-kretzoiarctos","locator":"Article e48985; Figure 1; Chronological range"}],"confidence":"medium","reviewStatus":"automated-audit-passed","contentOrigin":"source-derived-fact"},
-      "geography":{"claimId":"claim:taxon:kretzoiarctos:biogeography","claimType":"biogeography","relation":"supports","sourceLocators":[{"referenceId":"abella-2012-kretzoiarctos","locator":"Figure 1; Type locality; Other localities"}],"confidence":"high","reviewStatus":"automated-audit-passed","contentOrigin":"editorial-synthesis"},
-      "overview":{"claimId":"claim:taxon:kretzoiarctos:taxonomy","claimType":"taxonomy","relation":"supports","sourceLocators":[{"referenceId":"abella-2012-kretzoiarctos","locator":"Cladistic Analysis; Figure 3; Table S1"}],"confidence":"medium","reviewStatus":"automated-audit-passed","contentOrigin":"editorial-synthesis"},
-      "evidenceSummary":{"claimId":"claim:taxon:kretzoiarctos:taxonomy","claimType":"taxonomy","relation":"supports","sourceLocators":[{"referenceId":"abella-2012-kretzoiarctos","locator":"Cladistic Analysis; Figure 3; Table S1"}],"confidence":"medium","reviewStatus":"automated-audit-passed","contentOrigin":"editorial-synthesis"},
-      "confidence":{"claimId":"claim:taxon:kretzoiarctos:taxonomy","claimType":"taxonomy","relation":"supports","sourceLocators":[{"referenceId":"abella-2012-kretzoiarctos","locator":"Cladistic Analysis; Figure 3; Table S1"}],"confidence":"medium","reviewStatus":"automated-audit-passed","contentOrigin":"editorial-synthesis"},
-      "ecology.diet":{"claimId":"claim:taxon:kretzoiarctos:ecology","claimType":"ecology","relation":"supports","sourceLocators":[{"referenceId":"abella-2012-kretzoiarctos","locator":"Discussion; dental comparisons"}],"confidence":"medium","reviewStatus":"automated-audit-passed","contentOrigin":"editorial-synthesis"},
-      "ecology.habitat":{"claimId":"claim:taxon:kretzoiarctos:ecology","claimType":"ecology","relation":"supports","sourceLocators":[{"referenceId":"abella-2012-kretzoiarctos","locator":"Figure 1; localities"}],"confidence":"medium","reviewStatus":"automated-audit-passed","contentOrigin":"editorial-synthesis"},
-      "ecology.locomotion":{"claimId":"claim:taxon:kretzoiarctos:ecology","claimType":"ecology","relation":"supports","sourceLocators":[{"referenceId":"abella-2012-kretzoiarctos","locator":"Studied Material; dental and mandibular sample"}],"confidence":"medium","reviewStatus":"automated-audit-passed","contentOrigin":"editorial-synthesis"},
-      "ecology.bodySize":{"claimId":"claim:taxon:kretzoiarctos:ecology","claimType":"ecology","relation":"supports","sourceLocators":[{"referenceId":"abella-2012-kretzoiarctos","locator":"Emended Diagnosis"}],"confidence":"medium","reviewStatus":"automated-audit-passed","contentOrigin":"editorial-synthesis"},
-      "ecology.guild":{"claimId":"claim:taxon:kretzoiarctos:ecology","claimType":"ecology","relation":"supports","sourceLocators":[{"referenceId":"abella-2012-kretzoiarctos","locator":"Discussion; dental comparisons"}],"confidence":"medium","reviewStatus":"automated-audit-passed","contentOrigin":"editorial-synthesis"},
-      "traits[0]":{"claimId":"claim:taxon:kretzoiarctos:morphology","claimType":"morphology","relation":"supports","sourceLocators":[{"referenceId":"abella-2012-kretzoiarctos","locator":"Figure 1; Holotype"}],"confidence":"high","reviewStatus":"automated-audit-passed","contentOrigin":"editorial-synthesis"},
-      "traits[1]":{"claimId":"claim:taxon:kretzoiarctos:morphology","claimType":"morphology","relation":"supports","sourceLocators":[{"referenceId":"abella-2012-kretzoiarctos","locator":"Figures 1–2; Paratype and new material"}],"confidence":"high","reviewStatus":"automated-audit-passed","contentOrigin":"editorial-synthesis"},
-      "traits[2]":{"claimId":"claim:taxon:kretzoiarctos:morphology","claimType":"morphology","relation":"supports","sourceLocators":[{"referenceId":"abella-2012-kretzoiarctos","locator":"Figures 1–2; studied material"}],"confidence":"medium","reviewStatus":"automated-audit-passed","contentOrigin":"editorial-synthesis"}
+    "profileId": "kretzoiarctos",
+    "fields": {
+      "firstAppearance": {
+        "claimId": "claim:taxon:kretzoiarctos:fossil-range",
+        "claimType": "fossil-range",
+        "relation": "supports",
+        "sourceLocators": [
+          {
+            "referenceId": "abella-2012-kretzoiarctos",
+            "locator": "Article e48985"
+          }
+        ],
+        "confidence": "medium",
+        "reviewStatus": "automated-audit-passed",
+        "contentOrigin": "source-derived-fact"
+      },
+      "lastAppearance": {
+        "claimId": "claim:taxon:kretzoiarctos:fossil-range",
+        "claimType": "fossil-range",
+        "relation": "supports",
+        "sourceLocators": [
+          {
+            "referenceId": "abella-2012-kretzoiarctos",
+            "locator": "Article e48985"
+          }
+        ],
+        "confidence": "medium",
+        "reviewStatus": "automated-audit-passed",
+        "contentOrigin": "source-derived-fact"
+      },
+      "geography": {
+        "claimId": "claim:taxon:kretzoiarctos:biogeography",
+        "claimType": "biogeography",
+        "relation": "supports",
+        "sourceLocators": [
+          {
+            "referenceId": "abella-2012-kretzoiarctos",
+            "locator": "Article e48985"
+          }
+        ],
+        "confidence": "high",
+        "reviewStatus": "automated-audit-passed",
+        "contentOrigin": "editorial-synthesis"
+      },
+      "overview": {
+        "claimId": "claim:taxon:kretzoiarctos:taxonomy",
+        "claimType": "taxonomy",
+        "relation": "supports",
+        "sourceLocators": [
+          {
+            "referenceId": "abella-2012-kretzoiarctos",
+            "locator": "Article e48985"
+          }
+        ],
+        "confidence": "medium",
+        "reviewStatus": "automated-audit-passed",
+        "contentOrigin": "editorial-synthesis"
+      },
+      "evidenceSummary": {
+        "claimId": "claim:taxon:kretzoiarctos:taxonomy",
+        "claimType": "taxonomy",
+        "relation": "supports",
+        "sourceLocators": [
+          {
+            "referenceId": "abella-2012-kretzoiarctos",
+            "locator": "Article e48985"
+          }
+        ],
+        "confidence": "medium",
+        "reviewStatus": "automated-audit-passed",
+        "contentOrigin": "editorial-synthesis"
+      },
+      "confidence": {
+        "claimId": "claim:taxon:kretzoiarctos:taxonomy",
+        "claimType": "taxonomy",
+        "relation": "supports",
+        "sourceLocators": [
+          {
+            "referenceId": "abella-2012-kretzoiarctos",
+            "locator": "Article e48985"
+          }
+        ],
+        "confidence": "medium",
+        "reviewStatus": "automated-audit-passed",
+        "contentOrigin": "editorial-synthesis"
+      },
+      "ecology.diet": {
+        "claimId": "claim:taxon:kretzoiarctos:ecology",
+        "claimType": "ecology",
+        "relation": "supports",
+        "sourceLocators": [
+          {
+            "referenceId": "abella-2012-kretzoiarctos",
+            "locator": "Article e48985"
+          }
+        ],
+        "confidence": "medium",
+        "reviewStatus": "automated-audit-passed",
+        "contentOrigin": "editorial-synthesis"
+      },
+      "ecology.habitat": {
+        "claimId": "claim:taxon:kretzoiarctos:ecology",
+        "claimType": "ecology",
+        "relation": "supports",
+        "sourceLocators": [
+          {
+            "referenceId": "abella-2012-kretzoiarctos",
+            "locator": "Article e48985"
+          }
+        ],
+        "confidence": "medium",
+        "reviewStatus": "automated-audit-passed",
+        "contentOrigin": "editorial-synthesis"
+      },
+      "ecology.locomotion": {
+        "claimId": "claim:taxon:kretzoiarctos:ecology",
+        "claimType": "ecology",
+        "relation": "supports",
+        "sourceLocators": [
+          {
+            "referenceId": "abella-2012-kretzoiarctos",
+            "locator": "Article e48985"
+          }
+        ],
+        "confidence": "medium",
+        "reviewStatus": "automated-audit-passed",
+        "contentOrigin": "editorial-synthesis"
+      },
+      "ecology.bodySize": {
+        "claimId": "claim:taxon:kretzoiarctos:ecology",
+        "claimType": "ecology",
+        "relation": "supports",
+        "sourceLocators": [
+          {
+            "referenceId": "abella-2012-kretzoiarctos",
+            "locator": "Article e48985"
+          }
+        ],
+        "confidence": "medium",
+        "reviewStatus": "automated-audit-passed",
+        "contentOrigin": "editorial-synthesis"
+      },
+      "ecology.guild": {
+        "claimId": "claim:taxon:kretzoiarctos:ecology",
+        "claimType": "ecology",
+        "relation": "supports",
+        "sourceLocators": [
+          {
+            "referenceId": "abella-2012-kretzoiarctos",
+            "locator": "Article e48985"
+          }
+        ],
+        "confidence": "medium",
+        "reviewStatus": "automated-audit-passed",
+        "contentOrigin": "editorial-synthesis"
+      },
+      "traits[0]": {
+        "claimId": "claim:taxon:kretzoiarctos:morphology",
+        "claimType": "morphology",
+        "relation": "supports",
+        "sourceLocators": [
+          {
+            "referenceId": "abella-2012-kretzoiarctos",
+            "locator": "Article e48985"
+          }
+        ],
+        "confidence": "high",
+        "reviewStatus": "automated-audit-passed",
+        "contentOrigin": "editorial-synthesis"
+      },
+      "traits[1]": {
+        "claimId": "claim:taxon:kretzoiarctos:morphology",
+        "claimType": "morphology",
+        "relation": "supports",
+        "sourceLocators": [
+          {
+            "referenceId": "abella-2012-kretzoiarctos",
+            "locator": "Article e48985"
+          }
+        ],
+        "confidence": "high",
+        "reviewStatus": "automated-audit-passed",
+        "contentOrigin": "editorial-synthesis"
+      },
+      "traits[2]": {
+        "claimId": "claim:taxon:kretzoiarctos:morphology",
+        "claimType": "morphology",
+        "relation": "supports",
+        "sourceLocators": [
+          {
+            "referenceId": "abella-2012-kretzoiarctos",
+            "locator": "Article e48985"
+          }
+        ],
+        "confidence": "high",
+        "reviewStatus": "automated-audit-passed",
+        "contentOrigin": "editorial-synthesis"
+      }
     }
   }
 ]
