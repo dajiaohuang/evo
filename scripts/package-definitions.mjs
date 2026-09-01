@@ -22,7 +22,7 @@ export const researchPresetDefinitions = {
   amphibia: { entityId: 'amphibia', claimIds: ['claim:taxon:amphibia:fossil-range'] },
   'mammal-origins': { entityId: 'synapsida', claimIds: ['claim:taxon:synapsida:root-range'] },
   cetartiodactyla: { entityId: 'whippomorpha', claimIds: ['claim:taxon:whippomorpha:root-range'] },
-  primates: { entityId: 'primatomorpha', claimIds: ['claim:taxon:primatomorpha:root-range'] },
+  primates: { entityId: 'teilhardina', claimIds: ['claim:taxon:teilhardina:taxonomy'] },
   carnivora: { entityId: 'hesperocyon', claimIds: ['claim:taxon:hesperocyon:taxonomy'] },
   'other-mammals': { entityId: 'monotremata', claimIds: ['claim:taxon:monotremata:root-range'] },
   'turtles-lepidosaurs': { entityId: 'testudines', claimIds: ['claim:taxon:testudines:fossil-range'] },
@@ -124,8 +124,8 @@ export const researchSceneDefinitions = {
     { id: 'other-mammals-comparison-window', kind: 'comparison', route: '#/compare?left=steropodon&right=eomaia', entityIds: ['steropodon', 'eomaia'], claimIds: ['claim:taxon:steropodon:fossil-range', 'claim:taxon:eomaia:fossil-range'] },
   ] },
   primates: { label: { en: 'Primates', zh: '灵长类' }, scenes: [
-    { id: 'primates-map-window', kind: 'map', route: '#/explore?taxon=primatomorpha&view=map&age=39.6&older=79.2&younger=0', entityIds: ['primatomorpha'], claimIds: ['claim:taxon:primatomorpha:root-range'] },
-    { id: 'primates-comparison-window', kind: 'comparison', route: '#/compare?left=purgatorius&right=darwinius', entityIds: ['purgatorius', 'darwinius'], claimIds: ['claim:taxon:purgatorius:fossil-range', 'claim:taxon:darwinius:fossil-range'] },
+    { id: 'primates-map-window', kind: 'map', route: '#/explore?taxon=teilhardina&view=map&age=55.9&older=56&younger=55.8', entityIds: ['teilhardina'], claimIds: ['claim:taxon:teilhardina:fossil-range'] },
+    { id: 'primates-comparison-window', kind: 'comparison', route: '#/compare?left=teilhardina&right=morotopithecus', entityIds: ['teilhardina', 'morotopithecus'], claimIds: ['claim:taxon:teilhardina:fossil-range', 'claim:taxon:morotopithecus:fossil-range'] },
   ] },
   perissodactyla: { label: { en: 'Perissodactyla', zh: '奇蹄类' }, scenes: [
     { id: 'perissodactyla-map-window', kind: 'map', route: '#/explore?taxon=perissodactyla&view=map&age=28&older=56&younger=0', entityIds: ['perissodactyla'], claimIds: ['claim:taxon:perissodactyla:fossil-range'] },
@@ -420,8 +420,8 @@ export const packageDefinitions = [
     titleZh: '灵长形类与灵长类主证据',
     rootEntityIds: ['primatomorpha'],
     conceptScope: {
-      en: 'Twelve primary-evidence dossiers separate a calibration-sensitive crown-Primate clock model, named Paleocene–Pleistocene specimens, functional or morphology-matrix interpretations, direct radiocarbon ages and ancient-genome demographic models. Primatomorpha, Plesiadapiformes and fossil placements are curated navigation routes rather than a universal tree or ancestor ladder. COL26.8 routes exactly 530 strictly accepted living species names below Primates usage ID 3W7; that is current nomenclatural browse coverage, not 530 specimen, fossil, morphology, genome, translation or expert-review dossiers.',
-      zh: '十二个一手证据档案严格区分校准敏感的灵长类冠群分子钟模型、古新世至更新世具名标本、功能或形态矩阵解释、直接放射性碳年代与古基因组人口史模型。灵长形类、更猴型类和化石位置只是策展导航路径，并非通用系统树或祖先阶梯。COL26.8 在灵长目 usage ID 3W7 下精确路由 530 个严格接受的现生种名；这只是当前命名浏览覆盖，并不表示已有 530 份标本、化石、形态、基因组、翻译或专家评审档案。',
+      en: 'Five complete bilingual primary-evidence dossiers present named Paleocene–Miocene samples with functional or morphology-matrix interpretations. Package-linked claims separately retain a calibration-sensitive crown-Primate clock model, direct radiocarbon ages and ancient-genome demographic models. The early-Eocene Teilhardina dental sequence and early-Miocene Morotopithecus postcrania are bounded evidence samples, not a universal tree or ancestor ladder. Primatomorpha, Plesiadapiformes and fossil placements remain curated navigation routes. COL26.8 routes exactly 530 strictly accepted living species names below Primates usage ID 3W7; that is current nomenclatural browse coverage, not 530 specimen, fossil, morphology, genome, translation or expert-review dossiers.',
+      zh: '五个完整的双语一手证据档案呈现古新世至中新世的具名样本及其功能或形态矩阵解释。包内关联声明另外保留校准敏感的灵长类冠群分子钟模型、直接放射性碳年代和古基因组人口史模型。早始新世更猴属牙齿序列和早中新世莫罗古猿姿势骨骼都是范围明确的证据样本，并非通用系统树或祖先阶梯。灵长形类、更猴型类和化石位置仍只是策展导航路径。COL26.8 在灵长目 usage ID 3W7 下精确路由 530 个严格接受的现生种名；这只是当前命名浏览覆盖，并不表示已有 530 份标本、化石、形态、基因组、翻译或专家评审档案。',
     },
     scientificMaturity: 'source-linked',
     limitations: [
