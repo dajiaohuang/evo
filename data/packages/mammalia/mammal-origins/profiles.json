@@ -1,5 +1,44 @@
 [
   {
+    "id": "dimetrodon",
+    "treeNodeId": "dimetrodon",
+    "pbdbTaxonId": "txn:38904",
+    "scientificName": "Dimetrodon",
+    "commonName": "Dimetrodon dental sample",
+    "commonNameZh": "异齿龙牙齿标本组",
+    "rank": "genus",
+    "parentName": "Pelycosauria",
+    "extinct": true,
+    "geography": [
+      "Archer City, Mount Barry, Briar Creek, Rattlesnake Canyon and Craddock bonebed",
+      "Texas and New Mexico, United States",
+      "Asselian–Kungurian sample"
+    ],
+    "overview": "Named Early Permian Dimetrodon and cf. Dimetrodon teeth document diverse carina and cusp anatomy in a sphenacodontid matrix; neither the sample nor its topology identifies a direct mammalian ancestor.",
+    "ecology": {
+      "diet": "Predatory feeding inferred from sphenacodontid tooth anatomy; individual prey is not preserved",
+      "habitat": "Fully terrestrial apex-predator interpretation for the sampled sphenacodontids; habitat breadth is unresolved",
+      "locomotion": "Not measured by the dental sample",
+      "bodySize": "The profile does not infer a genus-wide mass or body-length range",
+      "guild": "Terrestrial predator inference bounded to the source's sampled ecological interpretation"
+    },
+    "traits": [
+      "MCZ 2779 snout with enlarged anterior maxillary tooth",
+      "MCZ 2028 and UMMP 9722 dentary teeth with lingual cusp variation",
+      "Carina and denticle character changes optimized in the sampled phylogeny"
+    ],
+    "evidenceSummary": "Figures 1–4 and the methods tie named teeth to Early Permian Texas and New Mexico localities; tooth form supports a bounded ecological interpretation, while species attribution of isolated material, performance and ancestry remain unresolved.",
+    "confidence": "medium",
+    "referenceIds": [
+      "brink-2014-dimetrodon-dentition"
+    ],
+    "firstAppearance": 290.1,
+    "lastAppearance": 273,
+    "rangeEvidenceLevel": "literature-synthesized",
+    "rangeReviewStatus": "automated-audit-passed",
+    "rangeProvisional": true
+  },
+  {
     "id": "raranimus",
     "treeNodeId": "raranimus",
     "pbdbTaxonId": "txn:164054",
@@ -73,6 +112,46 @@
     ],
     "firstAppearance": 205.7,
     "lastAppearance": 201.4,
+    "rangeEvidenceLevel": "literature-synthesized",
+    "rangeReviewStatus": "automated-audit-passed",
+    "rangeProvisional": true
+  },
+  {
+    "id": "morganucodonta",
+    "treeNodeId": "morganucodonta",
+    "pbdbTaxonId": "txn:175182",
+    "scientificName": "Morganucodonta",
+    "commonName": "Morganucodontans",
+    "commonNameZh": "摩尔根兽类颅骨标本组",
+    "rank": "order",
+    "parentName": "Mammaliaformes",
+    "extinct": true,
+    "geography": [
+      "Wales and China",
+      "Lower Jurassic representative material",
+      "No complete order-level distribution inferred"
+    ],
+    "overview": "Morganucodon watsoni from Wales and M. oehleri from China anchor a Lower Jurassic skull comparison with both a squamosal–dentary contact and retained articular–quadrate joint; the anatomy is not a linear transition or direct ancestry claim.",
+    "ecology": {
+      "diet": "Tooth classes are functionally differentiated, but direct diet is not observed",
+      "habitat": "Lower Jurassic source context; life habitat is unresolved",
+      "locomotion": "Not established by the skull study",
+      "bodySize": "M. watsoni skull is reported as 26 mm long; no order-wide body-size envelope is inferred",
+      "guild": "A whole-order ecological guild is not assigned"
+    },
+    "traits": [
+      "26 mm M. watsoni skull and slightly larger M. oehleri skull",
+      "Differentiated incisors, canines, premolars and molars",
+      "Squamosal–dentary contact with retained articular–quadrate joint"
+    ],
+    "evidenceSummary": "Kermack, Mussett and Rigney's pages 1–158 directly describe the two named Lower Jurassic skull samples; the profile keeps locality, taxonomic scope, diet, functional interpretation and crown placement separate.",
+    "confidence": "medium",
+    "referenceIds": [
+      "kermack-1981-morganucodon-skull",
+      "luo-2002-mesozoic-mammal-phylogeny"
+    ],
+    "firstAppearance": 201.4,
+    "lastAppearance": 145,
     "rangeEvidenceLevel": "literature-synthesized",
     "rangeReviewStatus": "automated-audit-passed",
     "rangeProvisional": true

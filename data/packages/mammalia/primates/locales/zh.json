@@ -1,6 +1,6 @@
 {
   "language": "zh",
-  "version": "2026.09-static-v5-rc83",
+  "version": "2026.09-static-v5-rc84",
   "strings": {
     "entity.primatomorpha.name": "灵长形类",
     "entity.plesiadapiformes.name": "更猴型灵长形类",
@@ -26,6 +26,8 @@
     "profile.purgatorius.name": "古新世炼狱猴样本",
     "profile.darwinius.name": "梅塞尔达尔文猴",
     "profile.saadanius.name": "狭鼻猴干群萨达猴标本",
+    "profile.teilhardina.name": "PETM 更猴属牙齿样本",
+    "profile.morotopithecus.name": "莫罗古猿姿势骨骼样本",
     "claim.claim:event:primate-crown-clock-model.confidenceRationale": "中等置信度反映可复现且取样范围明确的系统发育基因组模型，同时保留深层节点年代对校准策略、时钟模型和化石先验的强依赖。",
     "claim.claim:event:purgatorius-garbani-tarsals.confidenceRationale": "中等置信度把直接保存的踝部解剖，与基于大小、数量和形态的归属，以及功能和系统发育解释分开。",
     "claim.claim:event:altiatlasius-dental-placement-boundary.confidenceRationale": "低置信度针对广义系统位置而非牙齿标本本身；样本少、彼此孤立且内部不均一，后续分析也检验了互不相容的位置。",
@@ -75,6 +77,14 @@
     "claim.claim:taxon:homo_sapiens:source-bounded-range-rc49.confidenceRationale": "Homo sapiens 采用 Fu, Q.; Li, H.; Moorjani, P.; Jay, F.; Slepchenko, S.M.; Bondarev, A.A.; Johnson, P.L.F.; Aximu-Petri, A.; Prüfer, K.; de Filippo, C.; et al.（2014）的论文，因为所引页码与定位符直接标示了研究采样的类群、标本或现生序列集合。中等置信度仅适用于 Directly dated Ust'-Ishim 1 individual, western Siberia；更宽泛端点保持未声明。",
     "claim.claim:taxon:homo_neanderthalensis:source-bounded-range-rc49.confidenceRationale": "Homo neanderthalensis 采用 Prüfer, K.; de Filippo, C.; Grote, S.; Mafessoni, F.; Korlević, P.; Hajdinjak, M.; Vernot, B.; Skov, L.; Hsieh, P.; Peyrégne, S.; et al.（2017）的论文，因为所引页码与定位符直接标示了研究采样的类群、标本或现生序列集合。中等置信度仅适用于 Vindija 33.19 specimen age envelope, Croatia；更宽泛端点保持未声明。",
     "claim.claim:taxon:plesiadapiformes:source-bounded-range-rc49.confidenceRationale": "plesiadapiformes 采用 Silcox, M.T.; López-Torres, S.（2017）的论文，因为所引页码与定位符直接标示了研究采样的类群、标本或现生序列集合。中等置信度仅适用于 Paleogene plesiadapiform record synthesized by Silcox and López-Torres；更宽泛端点保持未声明。",
-    "claim.claim:taxon:adapiformes:source-bounded-range-rc49.confidenceRationale": "adapiformes 采用 Silcox, M.T.; López-Torres, S.（2017）的论文，因为所引页码与定位符直接标示了研究采样的类群、标本或现生序列集合。中等置信度仅适用于 Eocene adapiform record synthesized by Silcox and López-Torres；更宽泛端点保持未声明。"
+    "claim.claim:taxon:adapiformes:source-bounded-range-rc49.confidenceRationale": "adapiformes 采用 Silcox, M.T.; López-Torres, S.（2017）的论文，因为所引页码与定位符直接标示了研究采样的类群、标本或现生序列集合。中等置信度仅适用于 Eocene adapiform record synthesized by Silcox and López-Torres；更宽泛端点保持未声明。",
+    "claim.claim:taxon:teilhardina:taxonomy.confidenceRationale": "牙齿鉴定由一手论文直接报告，但跨洲序列依赖物种归属和地层对比，而非同一种群或同一骨架的关联。",
+    "claim.claim:taxon:teilhardina:biogeography.confidenceRationale": "论文直接报告了取样地点及其对比序列；未取样地点和地点之间的实际移动均超出标本证据范围。",
+    "claim.claim:taxon:teilhardina:ecology.confidenceRationale": "一手论文中具名材料和图版把证据限定为牙齿样本及剖面背景，因此档案明确保留未被观察到的生态属性。",
+    "claim.claim:taxon:teilhardina:morphology.confidenceRationale": "图版和补充表格直接支持牙齿比较，但样本关联、物种归属和更广泛的解剖重建仍受限制。",
+    "claim.claim:taxon:morotopithecus:taxonomy.confidenceRationale": "论文对具名标本进行归属和比较，但其归属、关联关系及更高阶演化含义仍是彼此独立的比较推断。",
+    "claim.claim:taxon:morotopithecus:biogeography.confidenceRationale": "具名标本与地点背景由一手论文直接报告，而超出这些取样地点的分布并未被观察到。",
+    "claim.claim:taxon:morotopithecus:ecology.confidenceRationale": "细致的功能比较支持运动方式推断，但化石不能直接观察行为、食性或完整生态位，且两件标本并不关联。",
+    "claim.claim:taxon:morotopithecus:morphology.confidenceRationale": "论文直接绘图、测量并比较两件姿势骨骼标本；二者不关联限制了对完整身体的重建。"
   }
 }

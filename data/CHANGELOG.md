@@ -1,5 +1,13 @@
 # Dataset changelog
 
+## App 0.20.35 / 2026.09-static-v5-rc84 — 2026-09-01
+
+- Expanded Mammal origins, Marine reptiles and pterosaurs, and Primates from three to five complete bilingual profiles each: Dimetrodon, Morganucodonta, Chaohusaurus, Rhaeticosaurus mertensi, Teilhardina and Morotopithecus bishopi.
+- Added 23 field-linked primary-evidence claims, increasing the atlas from 103 to 109 complete profiles and 1,182 to 1,205 claims while retaining 403 navigation nodes and increasing the reference ledger from 482 to 483 entries. The new dossiers reuse existing navigation nodes rather than manufacturing extra topology.
+- Preserved specimen and inference boundaries: Dimetrodon is not asserted as a direct mammal ancestor; Morganucodonta compares separately sampled Welsh and Chinese skulls; Chaohusaurus is bounded to the AGM I-1 maternal and embryonic slab; Rhaeticosaurus uses a partial subadult holotype and matrix-dependent placement; Teilhardina's correlated PETM dental sequence is not a migration track; and Morotopithecus MUZM 60 and MUZM 80 are not an associated skeleton.
+- Retained exactly three source-matched tree, time-map or comparison scenes in each updated package.
+- Kept Pages on `web-light`; Android and iOS build `38` receive the same RC84 dossiers and retain the complete `native-full` catalogue, authority shards and all 109 lossless 0.1° PaleoDEM frames.
+
 ## App 0.20.34 / 2026.09-static-v5-rc83 — 2026-09-01
 
 - Expanded Molluscs and brachiopods, Chondrichthyes, and Crustaceans and insects from three to five complete bilingual profiles each: Micrina, Yuganotheca elegans, Maghriboselache mohamezanei, Cosmoselachus mehlingi, Strudiella and Cretophasmomima melanogramma.
