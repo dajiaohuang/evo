@@ -1,5 +1,12 @@
 # Dataset changelog
 
+## App 0.20.46 / 2026.09-static-v5-rc95 — 2026-09-01
+
+- Added 12 source-bounded, age-driven map scenes: four each for Early fishes, Actinopterygii and Amphibia. All three packages now expose 12 scenes, raising the atlas from 214 to 226 scenes and from 302 to 329 scene-to-claim links.
+- Added specimen- and locality-bounded windows for *Xiushanosteus*, *Priscomyzon*, *Myxinikela* and *Tethymyxine*; *Cheirolepis*, *Fukangichthys*, *Pseudopholidoctenus* and *Barschichthys*; and *Gerobatrachus*, *Triadobatrachus*, *Funcusvermis* and *Beiyanerpeton*. Every card keeps preserved anatomy separate from functional, homology, developmental and phylogenetic interpretations.
+- Connected the new cards to package-shipped, locator-bearing claims and `available` ranges sharing their routed entity and age. The atlas now has 173 age-driven routes; locality and formation windows, rounded ages and sampled specimens remain distinct from global FAD/LAD, complete distribution, direct ancestry, observed behaviour or exact fossil-to-map co-registration.
+- Regenerated the shared package registry and manifest as RC95. Android `versionCode` and iOS build number advance to `49` / app `0.20.46`; both native apps retain the complete `native-full` catalogue, authority shards and all 109 lossless 0.1° PaleoDEM frames while Pages remains `web-light`.
+
 ## App 0.20.45 / 2026.09-static-v5-rc94 — 2026-09-01
 
 - Added 11 source-bounded, age-driven map scenes: four each for Dinosauria and Molluscs and brachiopods, plus three for Crustaceans and insects. All three packages now expose nine scenes, raising the atlas from 203 to 214 scenes and from 288 to 302 scene-to-claim links.
