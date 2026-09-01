@@ -6,19 +6,19 @@
       "id": "mammal-origins-tree-preset",
       "type": "explorer-preset",
       "title": {
-        "en": "Synapsida source-bound evidence",
-        "zh": "合弓类来源限定证据"
+        "en": "Dimetrodon source-bound evidence",
+        "zh": "异齿龙来源限定证据"
       },
       "description": {
-        "en": "Open the Explorer at Synapsida to inspect the linked, locator-bearing source claim together with this package's current occurrence context. This is a reproducible evidence entry point, not a phylogenetic result or a complete history of the group.",
-        "zh": "在探索器中打开合弓类，结合本包当前的出现记录背景检查带有精确来源定位的关联声明。这是可复现的证据检查入口，不是系统发育结果，也不是该类群的完整历史。"
+        "en": "Open the Explorer at Dimetrodon to inspect the linked, locator-bearing source claim together with this package's current occurrence context. This is a reproducible evidence entry point, not a phylogenetic result or a complete history of the group.",
+        "zh": "在探索器中打开异齿龙，结合本包当前的出现记录背景检查带有精确来源定位的关联声明。这是可复现的证据检查入口，不是系统发育结果，也不是该类群的完整历史。"
       },
-      "route": "#/explore?taxon=synapsida&view=tree",
+      "route": "#/explore?taxon=dimetrodon&view=tree",
       "entityIds": [
-        "synapsida"
+        "dimetrodon"
       ],
       "claimIds": [
-        "claim:taxon:synapsida:root-range"
+        "claim:taxon:dimetrodon:topology"
       ],
       "evidenceStatus": "available-with-limitations",
       "limitations": [
@@ -36,12 +36,12 @@
         "en": "Open a source-bounded Mammal origins time window in the map to inspect sampled occurrence context linked to this package.",
         "zh": "在地图中打开有来源边界的哺乳动物起源时间窗口，检查与本包关联的采样出现背景。"
       },
-      "route": "#/explore?taxon=synapsida&view=map&age=154.25&older=308.5&younger=0",
+      "route": "#/explore?taxon=dimetrodon&view=map&age=281.55&older=290.1&younger=273",
       "entityIds": [
-        "synapsida"
+        "dimetrodon"
       ],
       "claimIds": [
-        "claim:taxon:synapsida:root-range"
+        "claim:taxon:dimetrodon:source-bounded-range-rc49"
       ],
       "evidenceStatus": "available-with-limitations",
       "limitations": [
@@ -56,17 +56,17 @@
         "zh": "哺乳动物起源证据比较"
       },
       "description": {
-        "en": "Compare haramiyavia and liaoconodon through package-linked claims and bounded occurrence context; this side-by-side route is an evidence inspection aid.",
-        "zh": "通过本包关联的声明与限定出现背景比较haramiyavia与liaoconodon；并列页面仅用于证据检查。"
+        "en": "Compare dimetrodon and morganucodonta through package-linked claims and bounded occurrence context; this side-by-side route is an evidence inspection aid.",
+        "zh": "通过本包关联的声明与限定出现背景比较dimetrodon与morganucodonta；并列页面仅用于证据检查。"
       },
-      "route": "#/compare?left=haramiyavia&right=liaoconodon",
+      "route": "#/compare?left=dimetrodon&right=morganucodonta",
       "entityIds": [
-        "haramiyavia",
-        "liaoconodon"
+        "dimetrodon",
+        "morganucodonta"
       ],
       "claimIds": [
-        "claim:taxon:haramiyavia:fossil-range",
-        "claim:taxon:liaoconodon:fossil-range"
+        "claim:taxon:dimetrodon:source-bounded-range-rc49",
+        "claim:taxon:morganucodonta:source-bounded-range-rc49"
       ],
       "evidenceStatus": "available-with-limitations",
       "limitations": [

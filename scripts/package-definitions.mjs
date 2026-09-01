@@ -1,5 +1,5 @@
 export const PACKAGE_SCHEMA_VERSION = 5
-export const DATASET_PACKAGE_VERSION = '2026.09-static-v5-rc83'
+export const DATASET_PACKAGE_VERSION = '2026.09-static-v5-rc84'
 export const DATASET_RELEASE_DATE = '2026-09-01'
 
 // Explicit source-bound Explorer presets. These mappings are intentionally
@@ -20,9 +20,9 @@ export const researchPresetDefinitions = {
   actinopterygii: { entityId: 'actinopterygii', claimIds: ['claim:taxon:actinopterygii:fossil-range'] },
   'tetrapod-transition': { entityId: 'sarcopterygii', claimIds: ['claim:taxon:sarcopterygii:fossil-range'] },
   amphibia: { entityId: 'amphibia', claimIds: ['claim:taxon:amphibia:fossil-range'] },
-  'mammal-origins': { entityId: 'synapsida', claimIds: ['claim:taxon:synapsida:root-range'] },
+  'mammal-origins': { entityId: 'dimetrodon', claimIds: ['claim:taxon:dimetrodon:topology'] },
   cetartiodactyla: { entityId: 'whippomorpha', claimIds: ['claim:taxon:whippomorpha:root-range'] },
-  primates: { entityId: 'primatomorpha', claimIds: ['claim:taxon:primatomorpha:root-range'] },
+  primates: { entityId: 'teilhardina', claimIds: ['claim:taxon:teilhardina:taxonomy'] },
   carnivora: { entityId: 'hesperocyon', claimIds: ['claim:taxon:hesperocyon:taxonomy'] },
   'other-mammals': { entityId: 'monotremata', claimIds: ['claim:taxon:monotremata:root-range'] },
   'turtles-lepidosaurs': { entityId: 'testudines', claimIds: ['claim:taxon:testudines:fossil-range'] },
@@ -116,16 +116,16 @@ export const researchSceneDefinitions = {
     { id: 'cetartiodactyla-comparison-window', kind: 'comparison', route: '#/compare?left=indohyus&right=ambulocetus', entityIds: ['indohyus', 'ambulocetus'], claimIds: ['claim:taxon:indohyus:fossil-range', 'claim:taxon:ambulocetus:fossil-range'] },
   ] },
   'mammal-origins': { label: { en: 'Mammal origins', zh: '哺乳动物起源' }, scenes: [
-    { id: 'mammal-origins-map-window', kind: 'map', route: '#/explore?taxon=synapsida&view=map&age=154.25&older=308.5&younger=0', entityIds: ['synapsida'], claimIds: ['claim:taxon:synapsida:root-range'] },
-    { id: 'mammal-origins-comparison-window', kind: 'comparison', route: '#/compare?left=haramiyavia&right=liaoconodon', entityIds: ['haramiyavia', 'liaoconodon'], claimIds: ['claim:taxon:haramiyavia:fossil-range', 'claim:taxon:liaoconodon:fossil-range'] },
+    { id: 'mammal-origins-map-window', kind: 'map', route: '#/explore?taxon=dimetrodon&view=map&age=281.55&older=290.1&younger=273', entityIds: ['dimetrodon'], claimIds: ['claim:taxon:dimetrodon:source-bounded-range-rc49'] },
+    { id: 'mammal-origins-comparison-window', kind: 'comparison', route: '#/compare?left=dimetrodon&right=morganucodonta', entityIds: ['dimetrodon', 'morganucodonta'], claimIds: ['claim:taxon:dimetrodon:source-bounded-range-rc49', 'claim:taxon:morganucodonta:source-bounded-range-rc49'] },
   ] },
   'other-mammals': { label: { en: 'Other mammals', zh: '其他哺乳动物' }, scenes: [
     { id: 'other-mammals-map-window', kind: 'map', route: '#/explore?taxon=monotremata&view=map&age=55&older=110&younger=0', entityIds: ['monotremata'], claimIds: ['claim:taxon:monotremata:root-range'] },
     { id: 'other-mammals-comparison-window', kind: 'comparison', route: '#/compare?left=steropodon&right=eomaia', entityIds: ['steropodon', 'eomaia'], claimIds: ['claim:taxon:steropodon:fossil-range', 'claim:taxon:eomaia:fossil-range'] },
   ] },
   primates: { label: { en: 'Primates', zh: '灵长类' }, scenes: [
-    { id: 'primates-map-window', kind: 'map', route: '#/explore?taxon=primatomorpha&view=map&age=39.6&older=79.2&younger=0', entityIds: ['primatomorpha'], claimIds: ['claim:taxon:primatomorpha:root-range'] },
-    { id: 'primates-comparison-window', kind: 'comparison', route: '#/compare?left=purgatorius&right=darwinius', entityIds: ['purgatorius', 'darwinius'], claimIds: ['claim:taxon:purgatorius:fossil-range', 'claim:taxon:darwinius:fossil-range'] },
+    { id: 'primates-map-window', kind: 'map', route: '#/explore?taxon=teilhardina&view=map&age=55.9&older=56&younger=55.8', entityIds: ['teilhardina'], claimIds: ['claim:taxon:teilhardina:fossil-range'] },
+    { id: 'primates-comparison-window', kind: 'comparison', route: '#/compare?left=teilhardina&right=morotopithecus', entityIds: ['teilhardina', 'morotopithecus'], claimIds: ['claim:taxon:teilhardina:fossil-range', 'claim:taxon:morotopithecus:fossil-range'] },
   ] },
   perissodactyla: { label: { en: 'Perissodactyla', zh: '奇蹄类' }, scenes: [
     { id: 'perissodactyla-map-window', kind: 'map', route: '#/explore?taxon=perissodactyla&view=map&age=28&older=56&younger=0', entityIds: ['perissodactyla'], claimIds: ['claim:taxon:perissodactyla:fossil-range'] },
@@ -373,12 +373,12 @@ export const packageDefinitions = [
     titleZh: '合弓类与哺乳动物起源',
     rootEntityIds: ['synapsida'],
     conceptScope: {
-      en: 'Seven primary-evidence dossiers follow named specimens, CT datasets, morphology matrices and living developmental experiments from early synapsids through mammaliaforms. They explicitly separate preserved anatomy, matrix topology, inferred function, crown-Mammalia qualification and fossil or model time; no taxon is presented as a rung in an ancestor ladder. Navigation exposes Ophiacodontidae, Probainognathia, Mammaliamorpha, Mammaliaformes, Haramiyida, Morganucodonta and Eutriconodonta as curated browse routes rather than a complete or uncontested phylogeny. COL26.8 assigns zero accepted species directly to mammal-origins because living Mammalia route to order-specific or other-mammals packages and Synapsida lacks a reliable materialized species root. Zero is a routing boundary, not absence of living synapsids, nomenclatural coverage or content maturity.',
-      zh: '七个一手证据档案从早期合弓类追踪至哺乳形类，依据具名标本、CT 数据集、形态矩阵与现生发育实验，并严格区分保存的解剖结构、矩阵拓扑、功能推断、哺乳动物冠群资格以及化石或模型时间；任何类群都不被描述为祖先阶梯的一环。策展导航展示蛇齿龙科、原颌兽类、哺乳形态类、哺乳形类、贼兽类、摩尔根兽类与真三尖齿兽类，但这些只是浏览路径，并非完整或无争议的系统树。COL26.8 没有把已接受种直接分配给 mammal-origins，因为现生哺乳动物被路由至目级或 other-mammals 内容包，而 Synapsida 缺少可靠实体化的种级根节点。零分配是路由边界，不表示没有现生合弓类、没有命名覆盖或内容已经成熟。',
+      en: 'Five primary-evidence dossiers follow named specimens, morphology matrices and a skull comparison from early synapsids through mammaliaforms. They explicitly separate preserved anatomy, matrix topology, inferred function, crown-Mammalia qualification and fossil or model time; no taxon is presented as a rung in an ancestor ladder. Navigation exposes Ophiacodontidae, Probainognathia, Mammaliamorpha, Mammaliaformes, Haramiyida, Morganucodonta and Eutriconodonta as curated browse routes rather than a complete or uncontested phylogeny. COL26.8 assigns zero accepted species directly to mammal-origins because living Mammalia route to order-specific or other-mammals packages and Synapsida lacks a reliable materialized species root. Zero is a routing boundary, not absence of living synapsids, nomenclatural coverage or content maturity.',
+      zh: '五个一手证据档案从早期合弓类追踪至哺乳形类，依据具名标本、形态矩阵与颅骨比较，并严格区分保存的解剖结构、矩阵拓扑、功能推断、哺乳动物冠群资格以及化石或模型时间；任何类群都不被描述为祖先阶梯的一环。策展导航展示蛇齿龙科、原颌兽类、哺乳形态类、哺乳形类、贼兽类、摩尔根兽类与真三尖齿兽类，但这些只是浏览路径，并非完整或无争议的系统树。COL26.8 没有把已接受种直接分配给 mammal-origins，因为现生哺乳动物被路由至目级或 other-mammals 内容包，而 Synapsida 缺少可靠实体化的种级根节点。零分配是路由边界，不表示没有现生合弓类、没有命名覆盖或内容已经成熟。',
     },
     scientificMaturity: 'source-linked',
     limitations: [
-      'Every entity-wide range is now source-bounded to a stated sample or explicitly withheld; the seven specimen- and experiment-scoped events do not promote local observations into global first or last appearances.',
+      'Every entity-wide range is now source-bounded to a stated sample or explicitly withheld; specimen- and experiment-scoped events do not promote local observations into global first or last appearances.',
       'The Jurassic jaw–ear event is a composite comparison of separate taxa, formations and ages; functional language is inference, not measured hearing or bite performance and not an ancestor–descendant series.',
       'Crown membership and deep placement follow cited character matrices, while historical and navigation-only parent edges remain browse aids rather than universal topology assertions.',
       'COL26.8 zero assigned species is a package-routing result; extant Mammalia are covered by other packages and the count does not grade dossier, fossil, morphology, media, translation or expert-review completeness.',
@@ -420,8 +420,8 @@ export const packageDefinitions = [
     titleZh: '灵长形类与灵长类主证据',
     rootEntityIds: ['primatomorpha'],
     conceptScope: {
-      en: 'Twelve primary-evidence dossiers separate a calibration-sensitive crown-Primate clock model, named Paleocene–Pleistocene specimens, functional or morphology-matrix interpretations, direct radiocarbon ages and ancient-genome demographic models. Primatomorpha, Plesiadapiformes and fossil placements are curated navigation routes rather than a universal tree or ancestor ladder. COL26.8 routes exactly 530 strictly accepted living species names below Primates usage ID 3W7; that is current nomenclatural browse coverage, not 530 specimen, fossil, morphology, genome, translation or expert-review dossiers.',
-      zh: '十二个一手证据档案严格区分校准敏感的灵长类冠群分子钟模型、古新世至更新世具名标本、功能或形态矩阵解释、直接放射性碳年代与古基因组人口史模型。灵长形类、更猴型类和化石位置只是策展导航路径，并非通用系统树或祖先阶梯。COL26.8 在灵长目 usage ID 3W7 下精确路由 530 个严格接受的现生种名；这只是当前命名浏览覆盖，并不表示已有 530 份标本、化石、形态、基因组、翻译或专家评审档案。',
+      en: 'Five complete bilingual primary-evidence dossiers present named Paleocene–Miocene samples with functional or morphology-matrix interpretations. Package-linked claims separately retain a calibration-sensitive crown-Primate clock model, direct radiocarbon ages and ancient-genome demographic models. The early-Eocene Teilhardina dental sequence and early-Miocene Morotopithecus postcrania are bounded evidence samples, not a universal tree or ancestor ladder. Primatomorpha, Plesiadapiformes and fossil placements remain curated navigation routes. COL26.8 routes exactly 530 strictly accepted living species names below Primates usage ID 3W7; that is current nomenclatural browse coverage, not 530 specimen, fossil, morphology, genome, translation or expert-review dossiers.',
+      zh: '五个完整的双语一手证据档案呈现古新世至中新世的具名样本及其功能或形态矩阵解释。包内关联声明另外保留校准敏感的灵长类冠群分子钟模型、直接放射性碳年代和古基因组人口史模型。早始新世更猴属牙齿序列和早中新世莫罗古猿姿势骨骼都是范围明确的证据样本，并非通用系统树或祖先阶梯。灵长形类、更猴型类和化石位置仍只是策展导航路径。COL26.8 在灵长目 usage ID 3W7 下精确路由 530 个严格接受的现生种名；这只是当前命名浏览覆盖，并不表示已有 530 份标本、化石、形态、基因组、翻译或专家评审档案。',
     },
     scientificMaturity: 'source-linked',
     limitations: [

@@ -2427,6 +2427,45 @@
     "rangeProvisional": true
   },
   {
+    "id": "dimetrodon",
+    "treeNodeId": "dimetrodon",
+    "pbdbTaxonId": "txn:38904",
+    "scientificName": "Dimetrodon",
+    "commonName": "Dimetrodon dental sample",
+    "commonNameZh": "异齿龙牙齿标本组",
+    "rank": "genus",
+    "parentName": "Pelycosauria",
+    "extinct": true,
+    "geography": [
+      "Archer City, Mount Barry, Briar Creek, Rattlesnake Canyon and Craddock bonebed",
+      "Texas and New Mexico, United States",
+      "Asselian–Kungurian sample"
+    ],
+    "overview": "Named Early Permian Dimetrodon and cf. Dimetrodon teeth document diverse carina and cusp anatomy in a sphenacodontid matrix; neither the sample nor its topology identifies a direct mammalian ancestor.",
+    "ecology": {
+      "diet": "Predatory feeding inferred from sphenacodontid tooth anatomy; individual prey is not preserved",
+      "habitat": "Fully terrestrial apex-predator interpretation for the sampled sphenacodontids; habitat breadth is unresolved",
+      "locomotion": "Not measured by the dental sample",
+      "bodySize": "The profile does not infer a genus-wide mass or body-length range",
+      "guild": "Terrestrial predator inference bounded to the source's sampled ecological interpretation"
+    },
+    "traits": [
+      "MCZ 2779 snout with enlarged anterior maxillary tooth",
+      "MCZ 2028 and UMMP 9722 dentary teeth with lingual cusp variation",
+      "Carina and denticle character changes optimized in the sampled phylogeny"
+    ],
+    "evidenceSummary": "Figures 1–4 and the methods tie named teeth to Early Permian Texas and New Mexico localities; tooth form supports a bounded ecological interpretation, while species attribution of isolated material, performance and ancestry remain unresolved.",
+    "confidence": "medium",
+    "referenceIds": [
+      "brink-2014-dimetrodon-dentition"
+    ],
+    "firstAppearance": 290.1,
+    "lastAppearance": 273,
+    "rangeEvidenceLevel": "literature-synthesized",
+    "rangeReviewStatus": "automated-audit-passed",
+    "rangeProvisional": true
+  },
+  {
     "id": "raranimus",
     "treeNodeId": "raranimus",
     "pbdbTaxonId": "txn:164054",
@@ -2500,6 +2539,46 @@
     ],
     "firstAppearance": 205.7,
     "lastAppearance": 201.4,
+    "rangeEvidenceLevel": "literature-synthesized",
+    "rangeReviewStatus": "automated-audit-passed",
+    "rangeProvisional": true
+  },
+  {
+    "id": "morganucodonta",
+    "treeNodeId": "morganucodonta",
+    "pbdbTaxonId": "txn:175182",
+    "scientificName": "Morganucodonta",
+    "commonName": "Morganucodontans",
+    "commonNameZh": "摩尔根兽类颅骨标本组",
+    "rank": "order",
+    "parentName": "Mammaliaformes",
+    "extinct": true,
+    "geography": [
+      "Wales and China",
+      "Lower Jurassic representative material",
+      "No complete order-level distribution inferred"
+    ],
+    "overview": "Morganucodon watsoni from Wales and M. oehleri from China anchor a Lower Jurassic skull comparison with both a squamosal–dentary contact and retained articular–quadrate joint; the anatomy is not a linear transition or direct ancestry claim.",
+    "ecology": {
+      "diet": "Tooth classes are functionally differentiated, but direct diet is not observed",
+      "habitat": "Lower Jurassic source context; life habitat is unresolved",
+      "locomotion": "Not established by the skull study",
+      "bodySize": "M. watsoni skull is reported as 26 mm long; no order-wide body-size envelope is inferred",
+      "guild": "A whole-order ecological guild is not assigned"
+    },
+    "traits": [
+      "26 mm M. watsoni skull and slightly larger M. oehleri skull",
+      "Differentiated incisors, canines, premolars and molars",
+      "Squamosal–dentary contact with retained articular–quadrate joint"
+    ],
+    "evidenceSummary": "Kermack, Mussett and Rigney's pages 1–158 directly describe the two named Lower Jurassic skull samples; the profile keeps locality, taxonomic scope, diet, functional interpretation and crown placement separate.",
+    "confidence": "medium",
+    "referenceIds": [
+      "kermack-1981-morganucodon-skull",
+      "luo-2002-mesozoic-mammal-phylogeny"
+    ],
+    "firstAppearance": 201.4,
+    "lastAppearance": 145,
     "rangeEvidenceLevel": "literature-synthesized",
     "rangeReviewStatus": "automated-audit-passed",
     "rangeProvisional": true
@@ -3215,6 +3294,84 @@
     "rangeProvisional": true
   },
   {
+    "id": "teilhardina",
+    "treeNodeId": "teilhardina",
+    "pbdbTaxonId": "txn:40829",
+    "scientificName": "Teilhardina (PETM dental samples)",
+    "commonName": "PETM Teilhardina dental samples",
+    "commonNameZh": "PETM 更猴属牙齿样本",
+    "rank": "genus",
+    "parentName": "Haplorhini",
+    "extinct": true,
+    "geography": [
+      "Hengyang Basin, China",
+      "Dormaal, Belgium",
+      "Bighorn Basin, Wyoming, United States"
+    ],
+    "overview": "Separately catalogued Teilhardina dental samples from three correlated PETM sections document a short Asia-to-Europe-to-North-America appearance sequence, not one tracked population or an ancestor chain.",
+    "ecology": {
+      "diet": "Dental samples do not directly record diet",
+      "habitat": "Section and carbon-isotope context, not habitual habitat",
+      "locomotion": "Not preserved by the dental samples",
+      "bodySize": "Body mass is not directly estimated from the reported sequence",
+      "guild": "Ecological guild remains unresolved from these samples"
+    },
+    "traits": [
+      "Separately catalogued dental samples",
+      "Dental comparisons across three PETM sections",
+      "No associated postcranial skeleton"
+    ],
+    "evidenceSummary": "Smith, Rose and Gingerich document the samples, section correlations and dental comparisons on pp. 11223–11227 (Figures 1–3 and Supporting Tables). Species assignments and correlation underpin the sequence, so it is not a direct record of migration, crown membership or a global first appearance.",
+    "confidence": "medium",
+    "referenceIds": [
+      "smith-2006-teilhardina"
+    ],
+    "firstAppearance": 56,
+    "lastAppearance": 55.8,
+    "rangeEvidenceLevel": "literature-synthesized",
+    "rangeReviewStatus": "automated-audit-passed",
+    "rangeProvisional": true
+  },
+  {
+    "id": "morotopithecus",
+    "treeNodeId": "morotopithecus",
+    "pbdbTaxonId": "txn:135928",
+    "scientificName": "Morotopithecus bishopi",
+    "commonName": "Moroto postcranial sample",
+    "commonNameZh": "莫罗古猿姿势骨骼样本",
+    "rank": "genus",
+    "parentName": "Hominoidea",
+    "extinct": true,
+    "geography": [
+      "Moroto I",
+      "Moroto II",
+      "Karamoja District, Uganda"
+    ],
+    "overview": "Separate shoulder and femoral specimens MUZM 60 and MUZM 80 from Moroto I and II provide a comparative test of early-Miocene hominoid locomotion; they are not an associated skeleton or demonstrated crown-ape ancestor.",
+    "ecology": {
+      "diet": "No direct dietary evidence from the two postcranial specimens",
+      "habitat": "Moroto locality context; habitual habitat is not directly established",
+      "locomotion": "Mixed arboreal repertoire inferred by comparative functional analysis",
+      "bodySize": "Postcranial size estimates are comparative and specimen bounded",
+      "guild": "Ecological guild remains unresolved beyond locomotor interpretation"
+    },
+    "traits": [
+      "Shoulder morphology in the Moroto sample",
+      "Femoral morphology in the Moroto sample",
+      "Separate MUZM 60 and MUZM 80 specimens"
+    ],
+    "evidenceSummary": "MacLatchy and colleagues describe and compare MUZM 60 and MUZM 80 across pp. 159–183 (Figures 1–12; Tables 1–10). Their locality attribution, functional reconstruction and hominoid implications are distinct inference steps and do not establish observed behaviour or a direct ancestor.",
+    "confidence": "medium",
+    "referenceIds": [
+      "maclatchy-2000-morotopithecus"
+    ],
+    "firstAppearance": 21,
+    "lastAppearance": 20.6,
+    "rangeEvidenceLevel": "literature-synthesized",
+    "rangeReviewStatus": "automated-audit-passed",
+    "rangeProvisional": true
+  },
+  {
     "id": "dormaalocyon",
     "treeNodeId": "dormaalocyon",
     "pbdbTaxonId": "txn:331898",
@@ -3836,6 +3993,82 @@
     ],
     "firstAppearance": 228,
     "lastAppearance": 66,
+    "rangeEvidenceLevel": "literature-synthesized",
+    "rangeReviewStatus": "automated-audit-passed",
+    "rangeProvisional": true
+  },
+  {
+    "id": "chaohusaurus",
+    "treeNodeId": "chaohusaurus",
+    "pbdbTaxonId": "txn:36547",
+    "scientificName": "Chaohusaurus",
+    "commonName": "Chaohu ichthyosaur",
+    "commonNameZh": "巢湖鱼龙属",
+    "rank": "genus",
+    "parentName": "Ichthyosauria",
+    "extinct": true,
+    "geography": [
+      "South Majiashan Quarry, Chaohu, Anhui, China",
+      "Spathian Nanlinghu Formation; Procolumbites Zone"
+    ],
+    "overview": "An Early Triassic ichthyosauromorph genus represented by maternal specimen AGM I-1; delayed ossification, dental morphology, vertebral count and hypophalangeal flippers support the assignment, while species-level taxonomy remains revisable.",
+    "ecology": {
+      "diet": "Diet is not directly preserved by maternal specimen AGM I-1 and remains unresolved",
+      "habitat": "Marine ichthyosauromorph from the Majiashan depositional setting; habitual habitat is not directly resolved",
+      "locomotion": "Paddle-like flippers are preserved, but gait and swimming performance were not measured",
+      "bodySize": "AGM I-1 records an adult with embryos; a genus-wide body-size envelope is not inferred",
+      "guild": "Predatory guild is not directly observed in the maternal specimen"
+    },
+    "traits": [
+      "Maternal skeleton with two embryos and an adjacent neonate",
+      "Delayed ossification of carpals and tarsals relative to metacarpals, metatarsals and phalanges",
+      "Hypophalangeal flippers and the dental and vertebral characters used for genus assignment"
+    ],
+    "evidenceSummary": "Primary study Motani et al. documents AGM I-1 from south Majiashan Quarry in the Spathian Nanlinghu Formation and records two embryos plus a neonate. Embryo orientation and a terrestrial origin of viviparity are comparative interpretations, not directly observed behaviour or an ancestral state for all ichthyosaurs.",
+    "confidence": "medium",
+    "referenceIds": [
+      "motani-2014-chaohusaurus-viviparity"
+    ],
+    "firstAppearance": 248,
+    "lastAppearance": 248,
+    "rangeEvidenceLevel": "literature-synthesized",
+    "rangeReviewStatus": "automated-audit-passed",
+    "rangeProvisional": true
+  },
+  {
+    "id": "rhaeticosaurus",
+    "treeNodeId": "rhaeticosaurus",
+    "pbdbTaxonId": "txn:373033",
+    "scientificName": "Rhaeticosaurus mertensi",
+    "commonName": "Rhaetian plesiosaur",
+    "commonNameZh": "瑞替期蛇颈龙属",
+    "rank": "genus",
+    "parentName": "Plesiosauria",
+    "extinct": true,
+    "geography": [
+      "Clay pit #3 of Lücking brick company, 1 km north of Bonenburg, Warburg, North Rhine-Westphalia, Germany",
+      "Rhaetian dark marine mudstones of the Exter Formation"
+    ],
+    "overview": "A small-bodied Late Triassic plesiosaurian represented by holotype LWL-MFN P 64047; its articulated anatomy and phylogenetic analysis extend the sampled plesiosaurian record into the Rhaetian without making the specimen a direct ancestor.",
+    "ecology": {
+      "diet": "Diet and prey are not directly preserved by the partial holotype",
+      "habitat": "Marine mudstone depositional setting in the Rhaetian Exter Formation; habitual microhabitat remains unresolved",
+      "locomotion": "Four similar flippers and a short tail support plesiosaurian hydrofoil and paraxial-locomotion comparisons, not a measured gait",
+      "bodySize": "The subadult holotype has an estimated total length of 237 cm; a genus-wide size range is not inferred",
+      "guild": "Marine predatory ecology is a broad plesiosaurian interpretation, not a directly observed feeding record"
+    },
+    "traits": [
+      "Partial articulated skeleton preserving occiput, lower jaw, vertebral column, girdles and left limbs",
+      "Ventrally concave V-shaped neurocentral sutures in anterior and middle cervical vertebrae",
+      "Foreshortened zeugopodials and highly vascularized humeral and femoral bone tissue"
+    ],
+    "evidenceSummary": "Wintrich et al. describe holotype LWL-MFN P 64047 from a defined bed in the Exter Formation at Bonenburg, 21 m below the Triassic–Jurassic boundary. Figures and supplementary sections document the skeleton and histology; basal pliosaurid placement, fast growth and physiological implications remain topology- and interpretation-dependent.",
+    "confidence": "medium",
+    "referenceIds": [
+      "wintrich-2017-rhaeticosaurus"
+    ],
+    "firstAppearance": 205.7,
+    "lastAppearance": 201.4,
     "rangeEvidenceLevel": "literature-synthesized",
     "rangeReviewStatus": "automated-audit-passed",
     "rangeProvisional": true

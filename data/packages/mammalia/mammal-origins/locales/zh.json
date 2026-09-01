@@ -1,6 +1,6 @@
 {
   "language": "zh",
-  "version": "2026.09-static-v5-rc83",
+  "version": "2026.09-static-v5-rc84",
   "strings": {
     "entity.synapsida.name": "合弓类",
     "entity.pelycosauria.name": "盘龙类",
@@ -19,8 +19,10 @@
     "entity.liaoconodon.name": "热河真三尖齿兽",
     "entity.mammalia.name": "哺乳动物",
     "entity.raranimus.name": "达善沟基干兽孔类",
+    "profile.dimetrodon.name": "异齿龙牙齿标本组",
     "profile.raranimus.name": "达善沟基干兽孔类标本",
     "profile.haramiyavia.name": "晚三叠世哈拉米亚兽",
+    "profile.morganucodonta.name": "摩尔根兽类颅骨标本组",
     "profile.liaoconodon.name": "热河真三尖齿兽",
     "claim.claim:event:echinerpeton-neural-spine-specimen.confidenceRationale": "论文描述并图示了该骨骼，也将其与副模标本 RM 10057 及模式系列直接比较。中等置信度保留归入鉴定、保存不完整、比例复原和未经检验的生物学功能等不确定性。",
     "claim.claim:event:raranimus-basal-therapsid-snout.confidenceRationale": "正模标本、性状与四棵最短树均已发表，但材料残缺，拓扑依赖所取样矩阵，而且作者指出大山口层序缺乏可靠放射性年代控制。",
@@ -59,6 +61,10 @@
     "claim.claim:taxon:probainognathia:topology.confidenceRationale": "拓扑与速率比较来自明确取样矩阵；该主张将其与祖先关系和范围端点分开。",
     "claim.claim:taxon:therapsida:sampled-record.confidenceRationale": "来源支持分析中的类群区分与多样性结果；它未被用作总群范围、冠群日期或祖先主张。",
     "claim.claim:taxon:pelycosauria:source-bounded-range-rc49.confidenceRationale": "Pelycosauria 采用 Brocklehurst, N.; Kammerer, C.F.; Fröbisch, J.（2013）的论文，因为所引页码与定位符直接标示了研究采样的类群、标本或现生序列集合。中等置信度仅适用于 Early-synapsid family record sampled by Brocklehurst et al.；更宽泛端点保持未声明。",
+    "claim.claim:taxon:dimetrodon:taxonomy.confidenceRationale": "具名馆藏标本与被采样分析界定了该档案的证据边界；孤立材料的种级归属和高阶位置仍属分析结论。",
+    "claim.claim:taxon:dimetrodon:biogeography.confidenceRationale": "论文逐项列出得州和新墨西哥州的采样地点及相关材料；这套采样并非全球出现记录普查。",
+    "claim.claim:taxon:dimetrodon:ecology.confidenceRationale": "牙齿解剖及作者的生态解释支持有限的陆生捕食者推断，但并未直接记录每件标本的行为、猎物或运动表现。",
+    "claim.claim:taxon:dimetrodon:morphology.confidenceRationale": "论文图示并描述了具名标本；主张只覆盖被观察的材料，不外推到异齿龙属的每个物种或个体。",
     "claim.claim:taxon:dimetrodon:source-bounded-range-rc49.confidenceRationale": "Dimetrodon 采用 Brink, K.S.; Reisz, R.R.（2014）的论文，因为所引页码与定位符直接标示了研究采样的类群、标本或现生序列集合。中等置信度仅适用于 Cisuralian Dimetrodon material sampled by Brink et al.；更宽泛端点保持未声明。",
     "claim.claim:taxon:therapsida:source-bounded-range-rc49.confidenceRationale": "Therapsida 采用 Brocklehurst, N.; Kammerer, C.F.; Fröbisch, J.（2013）的论文，因为所引页码与定位符直接标示了研究采样的类群、标本或现生序列集合。中等置信度仅适用于 Kungurian–Capitanian family-level record analysed by Brocklehurst et al.；更宽泛端点保持未声明。",
     "claim.claim:taxon:dicynodontia:source-bounded-range-rc49.confidenceRationale": "Dicynodontia 采用 Angielczyk, K.D.（2003）的论文，因为所引页码与定位符直接标示了研究采样的类群、标本或现生序列集合。中等置信度仅适用于 Russian late Permian dicynodont sample analysed by Angielczyk；更宽泛端点保持未声明。",
@@ -69,6 +75,9 @@
     "claim.claim:taxon:mammaliamorpha:source-bounded-range-rc49.confidenceRationale": "Mammaliamorpha 采用 Luo, Z.-X.; Kielan-Jaworowska, Z.; Cifelli, R.L.（2002）的论文，因为所引页码与定位符直接标示了研究采样的类群、标本或现生序列集合。中等置信度仅适用于 Mesozoic mammaliamorph sample and living continuation represented in Luo et al.；更宽泛端点保持未声明。",
     "claim.claim:taxon:mammaliaformes:source-bounded-range-rc49.confidenceRationale": "Mammaliaformes 采用 Luo, Z.-X.; Kielan-Jaworowska, Z.; Cifelli, R.L.（2002）的论文，因为所引页码与定位符直接标示了研究采样的类群、标本或现生序列集合。中等置信度仅适用于 Mesozoic mammaliaform sample and living continuation represented in Luo et al.；更宽泛端点保持未声明。",
     "claim.claim:taxon:haramiyida:source-bounded-range-rc49.confidenceRationale": "Haramiyida 采用 Bi, S.; Wang, Y.; Guan, J.; Sheng, X.; Meng, J.（2014）的论文，因为所引页码与定位符直接标示了研究采样的类群、标本或现生序列集合。中等置信度仅适用于 Late Triassic tooth record through Jurassic euharamiyidan skeletons discussed by Bi et al.；更宽泛端点保持未声明。",
+    "claim.claim:taxon:morganucodonta:biogeography.confidenceRationale": "来源明确两种标本、国家和早侏罗世背景，但目级档案不能把它们转化为完整分布或起源中心。",
+    "claim.claim:taxon:morganucodonta:ecology.confidenceRationale": "牙齿分化是直接的解剖观察；除审慎的牙齿功能推断外，生态功能保持未定。",
+    "claim.claim:taxon:morganucodonta:morphology.confidenceRationale": "具名颅骨研究直接描述了相关解剖；功能和演化解释仍限定于作者的材料与类群取样。",
     "claim.claim:taxon:morganucodonta:source-bounded-range-rc49.confidenceRationale": "Morganucodonta 采用 Luo, Z.-X.; Kielan-Jaworowska, Z.; Cifelli, R.L.（2002）的论文，因为所引页码与定位符直接标示了研究采样的类群、标本或现生序列集合。中等置信度仅适用于 Morganucodontan specimens sampled in Luo et al.'s Mesozoic-mammal synthesis；更宽泛端点保持未声明。",
     "claim.claim:taxon:eutriconodonta:source-bounded-range-rc49.confidenceRationale": "Eutriconodonta 采用 Luo, Z.-X.; Kielan-Jaworowska, Z.; Cifelli, R.L.（2002）的论文，因为所引页码与定位符直接标示了研究采样的类群、标本或现生序列集合。中等置信度仅适用于 Eutriconodont specimens sampled in Luo et al.'s Mesozoic-mammal synthesis；更宽泛端点保持未声明。"
   }
