@@ -106,8 +106,8 @@ test('Catalog publishes every research preset with bilingual evidence limits and
   await page.goto('./#/catalog')
 
   const cards = page.locator('.research-preset-card')
-  await expect(cards).toHaveCount(238)
-  await expect(cards.locator('code')).toHaveText(Array(238).fill('available-with-limitations'))
+  await expect(cards).toHaveCount(249)
+  await expect(cards.locator('code')).toHaveText(Array(249).fill('available-with-limitations'))
   const lifePreset = cards.filter({ hasText: 'Life source-bound evidence' })
   await expect(lifePreset).toContainText('Limitations')
   await expect(lifePreset).toContainText('does not establish an exact origin')

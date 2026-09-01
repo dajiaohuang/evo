@@ -1,5 +1,12 @@
 # Dataset changelog
 
+## App 0.20.48 / 2026.09-static-v5-rc97 — 2026-09-01
+
+- Added 11 source-bounded, age-driven map scenes: four for Perissodactyla, three for Cetartiodactyla, and four for Turtles and lepidosaurs. Perissodactyla and Cetartiodactyla now expose 12 scenes each and Turtles and lepidosaurs exposes 13, raising the atlas from 238 to 249 scenes and from 358 to 382 scene-to-claim links.
+- Added named material, locality, formation and model windows for PETM perissodactyl samples, North American and Old World Hipparionini and Tibetan *Coelodonta*; *Indohyus*, *Peregocetus* and *Basilosaurus*; and *Cryptovaranoides*, *Megachirella*, Rhynchocephalia and Serpentes.
+- Connected all new cards to locator-bearing claims and `available` ranges sharing routed age and entity context. The atlas now has 196 age-driven routes; competing topologies, tip-dating posteriors, comparative samples, rounded ages and regional records remain distinct from direct observations, global FAD/LAD, complete distribution, direct ancestry or exact fossil-to-map co-registration.
+- Regenerated the shared package registry and manifest as RC97. Android `versionCode` and iOS build number advance to `51` / app `0.20.48`; both native apps retain the complete `native-full` catalogue, authority shards and all 109 lossless 0.1° PaleoDEM frames while Pages remains `web-light`.
+
 ## App 0.20.47 / 2026.09-static-v5-rc96 — 2026-09-01
 
 - Added 12 source-bounded, age-driven map scenes: four each for Crocodylomorphs and birds, Mammal origins, and Sponges and cnidarians. All three packages now expose 12 scenes, raising the atlas from 226 to 238 scenes and from 329 to 358 scene-to-claim links.

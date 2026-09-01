@@ -49,6 +49,110 @@
       ]
     },
     {
+      "id": "turtles-lepidosaurs-cryptovaranoides-cromhall-map",
+      "type": "explorer-preset",
+      "title": {
+        "en": "Cryptovaranoides Rhaetian topology window",
+        "zh": "Cryptovaranoides 瑞替阶拓扑窗口"
+      },
+      "description": {
+        "en": "Open the 205.7–201.4 Ma Rhaetian window to inspect holotype NHMUK PV R36822 from the Cromhall fissure-fill sample alongside competing published placements: the original crown-squamate interpretation and later anatomical and matrix reanalyses.",
+        "zh": "打开 205.7–201.4 Ma 的瑞替阶窗口，在 Cromhall 裂隙充填样本的正模标本 NHMUK PV R36822 旁检查相互竞争的已发表定位：最初的冠群有鳞类解释，以及后续的解剖和矩阵重分析。"
+      },
+      "route": "#/explore?taxon=lepidosauria&view=map&age=203.55&older=205.7&younger=201.4",
+      "entityIds": [
+        "lepidosauria"
+      ],
+      "claimIds": [
+        "claim:event:cryptovaranoides-competing-topologies",
+        "claim:taxon:lepidosauria:fossil-range"
+      ],
+      "evidenceStatus": "available-with-limitations",
+      "limitations": [
+        "The Rhaetian route is a rounded fissure-fill study window, not a direct date for NHMUK PV R36822; fissure age and referred-element identity remain bounded by the cited studies.",
+        "Whiteside et al. recover a crown-squamate placement, while Brownstein et al. and Caldwell et al. publish conflicting anatomical scorings and placements; the package preserves this as contested topology, not a secure crown-Squamata FAD or direct ancestor.",
+        "The CAO2024 map frame supplies age context while markers remain bounded occurrence samples; this scene does not establish complete distribution, global FAD/LAD, observed behaviour or exact fossil-to-map co-registration."
+      ]
+    },
+    {
+      "id": "turtles-lepidosaurs-pan-squamata-megachirella-map",
+      "type": "explorer-preset",
+      "title": {
+        "en": "Megachirella Pan-Squamata stem window",
+        "zh": "Megachirella 泛有鳞类干群窗口"
+      },
+      "description": {
+        "en": "Open the approximately 240 Ma Middle Triassic window around Megachirella wachtleri holotype PZO 628 from the Italian Alps to inspect CT anatomy and its combined-evidence stem-squamate placement on the broader Pan-Squamata route.",
+        "zh": "打开约 240 Ma 的中三叠世窗口，在意大利阿尔卑斯 Megachirella wachtleri 正模标本 PZO 628 周围检查 CT 解剖，以及其在更广义泛有鳞类路线上的综合证据干群有鳞类定位。"
+      },
+      "route": "#/explore?taxon=pan-squamata&view=map&age=240&older=240&younger=240",
+      "entityIds": [
+        "pan-squamata"
+      ],
+      "claimIds": [
+        "claim:event:megachirella-ct-stem-squamate",
+        "claim:taxon:pan-squamata:range-boundary"
+      ],
+      "evidenceStatus": "available-with-limitations",
+      "limitations": [
+        "PZO 628 is a single named Middle Triassic specimen; the rounded 240 Ma selector is a study-level horizon anchor, not a direct date for every element or a global Pan-Squamata FAD.",
+        "The combined morphology–molecular placement is an analysis result and does not identify Megachirella as a direct ancestor or convert a stem sample into a crown-Squamata origin date.",
+        "The CAO2024 map frame supplies age context while markers remain bounded occurrence samples; this scene does not establish complete distribution, observed behaviour or exact fossil-to-map co-registration."
+      ]
+    },
+    {
+      "id": "turtles-lepidosaurs-rhynchocephalia-sphenodon-map",
+      "type": "explorer-preset",
+      "title": {
+        "en": "Rhynchocephalia time-scaled disparity window",
+        "zh": "喙头蜥类时标形态差异窗口"
+      },
+      "description": {
+        "en": "Open the rounded 238 Ma–present study-sample window to inspect the fossil rhynchocephalian record beside living Sphenodon punctatus and the Herrera-Flores–Stubbs–Benton quantitative disparity and lineage-rate results.",
+        "zh": "打开约 238 Ma 至现生的研究样本窗口，在现生 Sphenodon punctatus 旁检查化石喙头蜥类记录，以及 Herrera-Flores–Stubbs–Benton 的定量形态差异与谱系速率结果。"
+      },
+      "route": "#/explore?taxon=rhynchocephalia&view=map&age=238&older=238&younger=0",
+      "entityIds": [
+        "rhynchocephalia"
+      ],
+      "claimIds": [
+        "claim:taxon:rhynchocephalia",
+        "claim:taxon:rhynchocephalia:range-boundary"
+      ],
+      "evidenceStatus": "available-with-limitations",
+      "limitations": [
+        "The 238 Ma–present route is a rounded time-scaled sample envelope from Herrera-Flores et al., not a complete global Rhynchocephalia range or an exact fossil FAD/LAD.",
+        "Fossil diversity, morphospace occupancy and lineage-rate estimates are observations and models for the compiled sample; Sphenodon is a surviving lineage, not an unchanged ancestor or proxy for every fossil member.",
+        "The CAO2024 map frame supplies age context while markers remain bounded occurrence samples; this scene does not establish complete distribution, direct ancestry, observed behaviour or exact fossil-to-map co-registration."
+      ]
+    },
+    {
+      "id": "turtles-lepidosaurs-serpentes-tip-dating-map",
+      "type": "explorer-preset",
+      "title": {
+        "en": "Serpentes tip-dating model window",
+        "zh": "蛇类末端定年模型窗口"
+      },
+      "description": {
+        "en": "Open the 117.1–104 Ma posterior window around the approximately 110.3 Ma crown-snake estimate to inspect the Hsiang et al. combined genomic, phenomic and fossil analysis, which sampled named stem snakes including Najash, Dinilysia and Coniophis.",
+        "zh": "打开约 110.3 Ma 冠群蛇估计的 117.1–104 Ma 后验窗口，检查 Hsiang 等人结合基因组、表型组与化石的分析；该分析采样了 Najash、Dinilysia 和 Coniophis 等具名干群蛇类。"
+      },
+      "route": "#/explore?taxon=serpentes&view=map&age=110.3&older=117.1&younger=104",
+      "entityIds": [
+        "serpentes"
+      ],
+      "claimIds": [
+        "claim:taxon:serpentes",
+        "claim:taxon:serpentes:range-boundary"
+      ],
+      "evidenceStatus": "available-with-limitations",
+      "limitations": [
+        "The 110.3 Ma crown estimate and 117.1–104 Ma interval are tip-dating model outputs; the available 128.5 Ma–present route also retains the separate Pan-Serpentes estimate and is not a fossil occurrence or global crown FAD/LAD.",
+        "Ancestral ecology, habitat and biogeographic reconstructions depend on topology, taxon sampling, priors and model choice; named fossil snakes constrain the analysis but are not direct ancestors of living snakes.",
+        "The CAO2024 map frame supplies age context while markers remain bounded occurrence samples; this scene does not establish complete distribution, observed behaviour or exact fossil-to-map co-registration."
+      ]
+    },
+    {
       "id": "turtles-lepidosaurs-diversity-window",
       "type": "explorer-preset",
       "title": {
