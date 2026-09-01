@@ -100,4 +100,12 @@ export const otherMammalsZhKeys = new Set<string>([
   "Juramaia",
   "Eomaia",
   "Ambolestes",
+  "MNHN PM69 and fourteen referred specimens define Eritherium azzouzorum; the source's stem-proboscidean placement is a character-matrix result, not a direct ancestry claim.",
+  "The profile is limited to the lower bone bed of phosphate bed IIa at Sidi Chennane in Morocco's Ouled Abdoun Basin; this locality does not establish the distribution or geographic origin of Proboscidea.",
+  "Cranial and dental anatomy permits comparative functional interpretation, but diet, habitual habitat, locomotion and behaviour are not directly observed in the 15-specimen hypodigm.",
+  "Holotype skull MNHN PM69 preserves a rostrum and maxillary dentition, while fourteen referred specimens extend the sampled upper and lower teeth and cranial anatomy.",
+  "Right M3 IVPP V20115 and referred material are assigned to Mimolagus aurorae in the published comparison; mimotonid and lagomorph affinities are matrix- and character-dependent, not direct ancestry.",
+  "The profile is restricted to the lower Irdin Manha Formation sample in the Erlian Basin, Nei Mongol, China; this does not establish the complete distribution or origin centre of Mimolagus or Glires.",
+  "Dental and tarsal comparisons support herbivory, locomotor and body-mass inferences for the source sample, but direct food use, habitat use and behaviour were not observed.",
+  "Holotype right upper third molar IVPP V20115 and referred teeth and tarsals directly record the dental and postcranial characters used in Mimolagus comparisons.",
 ])
