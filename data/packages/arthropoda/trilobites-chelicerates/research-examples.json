@@ -72,6 +72,163 @@
       "limitations": [
         "The two sides retain separate source, sampling, range and uncertainty boundaries; visual differences are not tests of evolutionary causation or a package-specific phylogeny."
       ]
+    },
+    {
+      "id": "trilobites-chelicerates-protolenus-tatelt-map",
+      "type": "explorer-preset",
+      "title": {
+        "en": "Tatelt Protolenus anatomy occurrence window",
+        "zh": "Tatelt组 Protolenus解剖出现窗口"
+      },
+      "description": {
+        "en": "Open a rounded 514.5 Ma Tatelt Formation map window for ash-entombed Protolenus specimens and inspect the microtomographic reconstruction of ventral limbs, labrum, mouth and digestive tissues tied to the cited study.",
+        "zh": "在取整为 5.145 亿年前的 Tatelt 组地图窗口中打开被火山灰包埋的 Protolenus 标本，检查与引文研究相连的腹侧肢、唇基、口部和消化组织微型断层扫描重建。"
+      },
+      "route": "#/explore?taxon=protolenus&view=map&age=514.5&older=515&younger=514",
+      "entityIds": [
+        "protolenus"
+      ],
+      "claimIds": [
+        "claim:event:tatelt-trilobite-3d-anatomy",
+        "claim:taxon:protolenus"
+      ],
+      "evidenceStatus": "available-with-limitations",
+      "limitations": [
+        "The rounded 514.5 Ma age is a Tatelt Formation specimen-envelope midpoint (approximately 515–514 Ma), not a direct date on a specimen or a global trilobite FAD/LAD.",
+        "The named Protolenus and Gigoutella anatomy is directly imaged; ventral homology, feeding mechanics and any phylogenetic placement remain reconstruction or model interpretations, not direct ancestry.",
+        "Map context is a sampled locality window and does not assert complete distribution, exact fossil-to-map co-registration or observed behaviour."
+      ]
+    },
+    {
+      "id": "trilobites-chelicerates-bohemolichas-sarka-map",
+      "type": "explorer-preset",
+      "title": {
+        "en": "Šárka Bohemolichas gut-content occurrence window",
+        "zh": "Šárka组 Bohemolichas肠内容物出现窗口"
+      },
+      "description": {
+        "en": "Open a rounded 464.5 Ma Šárka Formation map window for Prague Basin inventory specimen 8 of Bohemolichas incola and inspect its synchrotron gut-content mapping and bounded palaeophysiological interpretation.",
+        "zh": "在取整为 4.645 亿年前的 Šárka 组地图窗口中打开布拉格盆地 Bohemolichas incola 目录标本 8，检查同步辐射肠内容物成像及其有边界的古生理解释。"
+      },
+      "route": "#/explore?taxon=bohemolichas&view=map&age=464.5&older=466&younger=463",
+      "entityIds": [
+        "bohemolichas"
+      ],
+      "claimIds": [
+        "claim:event:bohemolichas-gut-contents",
+        "claim:taxon:bohemolichas:fossil-range"
+      ],
+      "evidenceStatus": "available-with-limitations",
+      "limitations": [
+        "The rounded 464.5 Ma age is the Šárka Formation specimen-envelope midpoint (approximately 466–463 Ma), not an exact date for inventory specimen 8 or a global genus range.",
+        "Ostracod, hyolith and stylophoran remains are direct fossil gut content; feeding rate, selectivity, chemistry and habitual diet remain one-meal inferences or model interpretations.",
+        "The map shows a sampled Prague Basin locality context and does not establish complete distribution, exact co-location or observed feeding behaviour."
+      ]
+    },
+    {
+      "id": "trilobites-chelicerates-triarthrus-beecher-map",
+      "type": "explorer-preset",
+      "title": {
+        "en": "Beecher's Bed Triarthrus respiratory-branch window",
+        "zh": "Beecher层 Triarthrus呼吸支窗口"
+      },
+      "description": {
+        "en": "Open a rounded 446.5 Ma Beecher’s Trilobite Bed map window for Triarthrus eatoni and inspect the ESEM and micro-CT filament geometry and body-wall attachment used in the respiratory-branch comparison.",
+        "zh": "在取整为 4.465 亿年前的 Beecher 三叶虫层地图窗口中打开 Triarthrus eatoni，检查用于呼吸支比较的环境扫描电镜与微型断层扫描丝状结构和体壁附着。"
+      },
+      "route": "#/explore?taxon=triarthrus&view=map&age=446.5&older=450&younger=443",
+      "entityIds": [
+        "triarthrus"
+      ],
+      "claimIds": [
+        "claim:event:trilobite-upper-limb-gill",
+        "claim:taxon:triarthrus"
+      ],
+      "evidenceStatus": "available-with-limitations",
+      "limitations": [
+        "The rounded 446.5 Ma age is a broad Upper Ordovician Beecher’s Bed sample envelope (approximately 450–443 Ma), not a direct date for Triarthrus eatoni or a global range endpoint.",
+        "Filaments and attachment are preserved morphology; respiratory performance, flow and homology are comparative functional-model hypotheses rather than measured physiology or direct ancestry.",
+        "Map markers represent sampled New York locality context and do not imply complete distribution, exact specimen co-registration or observed behaviour."
+      ]
+    },
+    {
+      "id": "trilobites-chelicerates-urokodia-chengjiang-map",
+      "type": "explorer-preset",
+      "title": {
+        "en": "Chengjiang Urokodia appendage-model window",
+        "zh": "澄江 Urokodia附肢模型窗口"
+      },
+      "description": {
+        "en": "Open a rounded 518.5 Ma Chengjiang Yu’anshan Member map window for Urokodia aequalis and inspect micro-CT pincer-like appendages, exite flaps and the seven-segmented head used in a stem-chelicerate model.",
+        "zh": "在取整为 5.185 亿年前的澄江玉案山段地图窗口中打开 Urokodia aequalis，检查用于螯肢干群模型的微型断层扫描钳状附肢、外叶瓣和七节头部。"
+      },
+      "route": "#/explore?taxon=urokodia&view=map&age=518.5&older=519&younger=518",
+      "entityIds": [
+        "urokodia"
+      ],
+      "claimIds": [
+        "claim:event:urokodia-chelicera-book-gill",
+        "claim:taxon:urokodia:fossil-range"
+      ],
+      "evidenceStatus": "available-with-limitations",
+      "limitations": [
+        "The rounded 518.5 Ma age is the Chengjiang Urokodia sample envelope (approximately 519–518 Ma), not a direct date, crown-chelicerate origin or global first appearance.",
+        "Appendages and segments are directly reconstructed from the cited material; chelicera and book-gill homology and upper stem placement depend on character scoring and phylogenetic models, not a direct ancestor sequence.",
+        "The map is a sampled Chengjiang locality context and does not assert complete distribution, exact fossil-to-map co-registration or observed feeding or locomotor behaviour."
+      ]
+    },
+    {
+      "id": "trilobites-chelicerates-mollisonia-burgess-neuroanatomy-map",
+      "type": "explorer-preset",
+      "title": {
+        "en": "Burgess Shale Mollisonia neuroanatomy window",
+        "zh": "布尔吉斯页岩 Mollisonia神经解剖窗口"
+      },
+      "description": {
+        "en": "Open a rounded 506.55 Ma Burgess Shale map window for Mollisonia symmetrica specimens MCZ 1811 and USNM 305093 and inspect elemental mapping of optic nerves, a possible cephalic synganglion and the segmental nerve cord.",
+        "zh": "在取整为 5.0655 亿年前的布尔吉斯页岩地图窗口中打开 Mollisonia symmetrica 标本 MCZ 1811 与 USNM 305093，检查视神经、可能的头部神经节和分节腹神经索的元素成像。"
+      },
+      "route": "#/explore?taxon=mollisonia&view=map&age=506.55&older=508.1&younger=505",
+      "entityIds": [
+        "mollisonia"
+      ],
+      "claimIds": [
+        "claim:event:mollisonia-neuroanatomy-mosaic",
+        "claim:taxon:mollisonia:fossil-range"
+      ],
+      "evidenceStatus": "available-with-limitations",
+      "limitations": [
+        "The rounded 506.55 Ma age is the cited Burgess Shale sample-envelope midpoint (approximately 508.1–505 Ma), not a direct date for either specimen or a global genus duration.",
+        "Elemental and positional signals support the reported neural-tissue interpretation; incomplete preservation, appendicular conflict and topology-model choice leave ancestral organization and stem placement contested.",
+        "Map context is a sampled Canadian locality window and does not establish complete distribution, exact co-registration, direct ancestry or observed behaviour."
+      ]
+    },
+    {
+      "id": "trilobites-chelicerates-megachelicerax-wheeler-map",
+      "type": "explorer-preset",
+      "title": {
+        "en": "Wheeler Megachelicerax chelicera occurrence window",
+        "zh": "惠勒组 Megachelicerax螯肢出现窗口"
+      },
+      "description": {
+        "en": "Open a rounded 502.5 Ma Wheeler Formation map window for Megachelicerax cousteaui holotype KUMIP 314091a,b and inspect its three-segmented chelicerae, prosomal limbs and lamellate opisthosomal appendages in the cited morphology model.",
+        "zh": "在取整为 5.025 亿年前的惠勒组地图窗口中打开 Megachelicerax cousteaui 正模 KUMIP 314091a、b，检查引文形态模型中的三节螯肢、前体肢和具片状结构的腹部附肢。"
+      },
+      "route": "#/explore?taxon=megachelicerax&view=map&age=502.5&older=504.5&younger=500.5",
+      "entityIds": [
+        "megachelicerax"
+      ],
+      "claimIds": [
+        "claim:event:megachelicerax-chelicerae",
+        "claim:taxon:megachelicerax:fossil-range",
+        "claim:taxon:megachelicerax:topology"
+      ],
+      "evidenceStatus": "available-with-limitations",
+      "limitations": [
+        "The rounded 502.5 Ma age is the Wheeler Formation holotype-envelope midpoint (approximately 504.5–500.5 Ma), not a direct radiometric date or global FAD.",
+        "The part and counterpart preserve the named anatomy; predation, functional performance and the bridging stem-chelicerate position remain morphology, matrix and model interpretations, not direct ancestry or observed behaviour.",
+        "Map context is a sampled Utah locality window and does not establish complete distribution or exact fossil-to-map co-registration."
+      ]
     }
   ]
 }
