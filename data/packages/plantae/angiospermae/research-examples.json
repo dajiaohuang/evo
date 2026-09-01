@@ -72,6 +72,150 @@
       "limitations": [
         "The two sides retain separate source, sampling, range and uncertainty boundaries; visual differences are not tests of evolutionary causation or a package-specific phylogeny."
       ]
+    },
+    {
+      "id": "angiospermae-non-pollen-calibration-map-window",
+      "type": "explorer-preset",
+      "title": {
+        "en": "Non-pollen crown-calibration context",
+        "zh": "非花粉冠群校准语境"
+      },
+      "description": {
+        "en": "Open the 135 Ma Angiospermae display boundary to inspect the 2026 non-pollen fossil calibration model and its stated crown-age sensitivity.",
+        "zh": "打开被子植物 135 Ma 的显示边界，检查 2026 年非花粉化石校准模型及其明确的冠群年龄敏感性。"
+      },
+      "route": "#/explore?taxon=angiospermae&view=map&age=135&older=135&younger=0",
+      "entityIds": [
+        "angiospermae"
+      ],
+      "claimIds": [
+        "claim:taxon:angiospermae:fossil-range",
+        "claim:event:crown-angiosperm-calibration-sensitivity"
+      ],
+      "evidenceStatus": "available-with-limitations",
+      "limitations": [
+        "The routed 135 Ma age is the rounded atlas navigation boundary, not the modelled 152.99–151.46 Ma crown interval. The calibration dataset contains non-pollen fossil occurrences and does not establish a pollen occurrence, a fossil locality, a global FAD or a direct ancestor."
+      ]
+    },
+    {
+      "id": "angiospermae-montsechia-map-window",
+      "type": "explorer-preset",
+      "title": {
+        "en": "Montsechia Barremian sample",
+        "zh": "Montsechia 巴列姆期样本"
+      },
+      "description": {
+        "en": "Open a Barremian map context for more than 1,000 Montsechia vidalii specimens from freshwater limestones, linked to the angiosperm range and specimen claims.",
+        "zh": "打开 Montsechia vidalii 的巴列姆期地图语境，检查 1,000 多件淡水灰岩标本及其关联的被子植物范围和标本声明。"
+      },
+      "route": "#/explore?taxon=angiospermae&view=map&age=128&older=130&younger=125",
+      "entityIds": [
+        "angiospermae"
+      ],
+      "claimIds": [
+        "claim:taxon:angiospermae:fossil-range",
+        "claim:event:barremian-montsechia"
+      ],
+      "evidenceStatus": "available-with-limitations",
+      "limitations": [
+        "The 128 Ma route is display context within the source's older 130–125 Ma Barremian conversion. The sampled leafy axes and closed single-seeded fruits support a submerged freshwater interpretation for Montsechia only, not angiosperm ancestral ecology, a global range or a direct ancestor."
+      ]
+    },
+    {
+      "id": "angiospermae-cratolirion-map-window",
+      "type": "explorer-preset",
+      "title": {
+        "en": "Cratolirion whole-plant sample",
+        "zh": "Cratolirion 整株样本"
+      },
+      "description": {
+        "en": "Open the approximately 115 Ma Crato Formation context for Cratolirion bognerianum, whose roots through reproductive organs are linked to the monocot range claim.",
+        "zh": "打开约 115 Ma 的克拉图组语境，检查从根到生殖器官均有保存的 Cratolirion bognerianum 及其关联的单子叶植物范围声明。"
+      },
+      "route": "#/explore?taxon=monocotyledones&view=map&age=115&older=115&younger=115",
+      "entityIds": [
+        "monocotyledones"
+      ],
+      "claimIds": [
+        "claim:taxon:monocotyledones:fossil-range",
+        "claim:event:crato-cratolirion"
+      ],
+      "evidenceStatus": "available-with-limitations",
+      "limitations": [
+        "The 115 Ma route is an approximate fossil anchor for the Crato specimen, not the origin or global FAD of monocots. Its crown-monocot placement is analytical and does not fix a living-family assignment or direct ancestry."
+      ]
+    },
+    {
+      "id": "angiospermae-leefructus-map-window",
+      "type": "explorer-preset",
+      "title": {
+        "en": "Leefructus eudicot sample",
+        "zh": "Leefructus 真双子叶样本"
+      },
+      "description": {
+        "en": "Open the 124 Ma Lower Yixian Formation context for Leefructus mirus and its dated 125.8–122.6 Ma bed, linked to the eudicot range claim.",
+        "zh": "打开 Leefructus mirus 的 124 Ma 下义县组语境，检查其 125.8–122.6 Ma 的定年层位及关联的真双子叶植物范围声明。"
+      },
+      "route": "#/explore?taxon=eudicotyledones&view=map&age=124&older=125.8&younger=122.6",
+      "entityIds": [
+        "eudicotyledones"
+      ],
+      "claimIds": [
+        "claim:taxon:eudicotyledones:range-boundary-rc50",
+        "claim:event:yixian-leefructus"
+      ],
+      "evidenceStatus": "available-with-limitations",
+      "limitations": [
+        "This dated bed supports a specimen-level Early Cretaceous eudicot assignment. It does not establish Ranunculaceae affinity, a global eudicot FAD, crown divergence, continuous occupancy or a literal ancestor sequence."
+      ]
+    },
+    {
+      "id": "angiospermae-lameta-phytolith-map-window",
+      "type": "explorer-preset",
+      "title": {
+        "en": "Lameta grass-phytolith sample",
+        "zh": "Lameta 禾草植硅体样本"
+      },
+      "description": {
+        "en": "Open the 66 Ma Lameta Formation context to inspect diagnostic grass phytolith morphotypes in central-Indian dinosaur coprolites, linked to the Poaceae range claim.",
+        "zh": "打开 66 Ma 的 Lameta 组语境，检查印度中部恐龙粪化石中的诊断性禾草植硅体形态及其关联的禾本科范围声明。"
+      },
+      "route": "#/explore?taxon=poaceae&view=map&age=66&older=67&younger=0",
+      "entityIds": [
+        "poaceae"
+      ],
+      "claimIds": [
+        "claim:taxon:poaceae:range-boundary-rc50",
+        "claim:taxon:poaceae:morphology"
+      ],
+      "evidenceStatus": "available-with-limitations",
+      "limitations": [
+        "The 66 Ma map age is within the rounded 67–0 Ma navigation anthology. The microscopic coprolite phytoliths support a locality-bounded grass interpretation, not a complete grass body plan, body-fossil FAD, exact crown origin or global distribution."
+      ]
+    },
+    {
+      "id": "angiospermae-corral-bluffs-fruit-map-window",
+      "type": "explorer-preset",
+      "title": {
+        "en": "Corral Bluffs legume-fruit sample",
+        "zh": "Corral Bluffs 豆科果实样本"
+      },
+      "description": {
+        "en": "Open the 65.35 Ma Corral Bluffs context for the Fabaceae fruit and associated leaflets, linked to the family range claim.",
+        "zh": "打开 65.35 Ma 的 Corral Bluffs 语境，检查豆科果实及关联小叶化石与其科级范围声明。"
+      },
+      "route": "#/explore?taxon=fabaceae&view=map&age=65.35&older=65.35&younger=65.35",
+      "entityIds": [
+        "fabaceae"
+      ],
+      "claimIds": [
+        "claim:taxon:fabaceae:range-boundary-rc50",
+        "claim:taxon:fabaceae:morphology"
+      ],
+      "evidenceStatus": "available-with-limitations",
+      "limitations": [
+        "The route is bounded to the dated Corral Bluffs fruit and leaflets. It does not fix crown-Fabaceae age, fossil subfamily placement, direct ancestry or continuous global occupancy."
+      ]
     }
   ]
 }
