@@ -1,5 +1,5 @@
 export const PACKAGE_SCHEMA_VERSION = 5
-export const DATASET_PACKAGE_VERSION = '2026.09-static-v5-rc89'
+export const DATASET_PACKAGE_VERSION = '2026.09-static-v5-rc90'
 export const DATASET_RELEASE_DATE = '2026-09-01'
 
 // Explicit source-bound Explorer presets. These mappings are intentionally
@@ -161,22 +161,39 @@ export const researchSceneDefinitions = {
   cetartiodactyla: { label: { en: 'Whippomorpha', zh: '鲸偶蹄类' }, scenes: [
     { id: 'cetartiodactyla-map-window', kind: 'map', route: '#/explore?taxon=whippomorpha&view=map&age=27.5&older=55&younger=0', entityIds: ['whippomorpha'], claimIds: ['claim:taxon:whippomorpha:root-range'] },
     { id: 'cetartiodactyla-comparison-window', kind: 'comparison', route: '#/compare?left=indohyus&right=ambulocetus', entityIds: ['indohyus', 'ambulocetus'], claimIds: ['claim:taxon:indohyus:fossil-range', 'claim:taxon:ambulocetus:fossil-range'] },
+    { id: 'cetartiodactyla-indohyus-sindkhatudi-map', kind: 'map', route: '#/explore?taxon=indohyus&view=map&age=47.5&older=48&younger=47', entityIds: ['indohyus'], claimIds: ['claim:event:indohyus-aquatic-raoellid-evidence'] },
+    { id: 'cetartiodactyla-pakicetus-ganda-kas-map', kind: 'map', route: '#/explore?taxon=pakicetus&view=map&age=49&older=50&younger=48', entityIds: ['pakicetus'], claimIds: ['claim:event:pakicetus-composite-terrestrial-skeleton'] },
+    { id: 'cetartiodactyla-ambulocetus-kuldana-map', kind: 'map', route: '#/explore?taxon=ambulocetus&view=map&age=47.5&older=48&younger=47', entityIds: ['ambulocetus'], claimIds: ['claim:event:ambulocetus-holotype-locomotion'] },
+    { id: 'cetartiodactyla-peregocetus-yumaque-map', kind: 'map', route: '#/explore?taxon=peregocetus&view=map&age=42.6&older=42.6&younger=42.6', entityIds: ['peregocetus'], claimIds: ['claim:event:peregocetus-holotype-amphibious-dispersal'] },
+    { id: 'cetartiodactyla-basilosaurus-wadi-al-hitan-map', kind: 'map', route: '#/explore?taxon=basilosaurus&view=map&age=36.35&older=37.7&younger=35', entityIds: ['basilosaurus'], claimIds: ['claim:event:basilosaurus-hind-limb-specimens'] },
+    { id: 'cetartiodactyla-aegicetus-gehannam-map', kind: 'map', route: '#/explore?taxon=aegicetus&view=map&age=37.71&older=37.71&younger=37.71', entityIds: ['aegicetus'], claimIds: ['claim:event:aegicetus-holotype-tail-propulsion'] },
   ] },
   'mammal-origins': { label: { en: 'Mammal origins', zh: '哺乳动物起源' }, scenes: [
     { id: 'mammal-origins-map-window', kind: 'map', route: '#/explore?taxon=dimetrodon&view=map&age=281.55&older=290.1&younger=273', entityIds: ['dimetrodon'], claimIds: ['claim:taxon:dimetrodon:source-bounded-range-rc49'] },
     { id: 'mammal-origins-comparison-window', kind: 'comparison', route: '#/compare?left=dimetrodon&right=morganucodonta', entityIds: ['dimetrodon', 'morganucodonta'], claimIds: ['claim:taxon:dimetrodon:source-bounded-range-rc49', 'claim:taxon:morganucodonta:source-bounded-range-rc49'] },
+    { id: 'mammal-origins-raranimus-dashankou-map', kind: 'map', route: '#/explore?taxon=raranimus&view=map&age=269.34&older=274.4&younger=264.28', entityIds: ['raranimus'], claimIds: ['claim:taxon:raranimus:fossil-range'] },
+    { id: 'mammal-origins-haramiyavia-tait-bjerg-map', kind: 'map', route: '#/explore?taxon=haramiyavia&view=map&age=203.55&older=205.7&younger=201.4', entityIds: ['haramiyavia'], claimIds: ['claim:taxon:haramiyavia:fossil-range'] },
+    { id: 'mammal-origins-liaoconodon-jiufotang-map', kind: 'map', route: '#/explore?taxon=liaoconodon&view=map&age=117.3&older=121.4&younger=113.2', entityIds: ['liaoconodon'], claimIds: ['claim:taxon:liaoconodon:fossil-range'] },
+    { id: 'mammal-origins-morganucodonta-jurassic-map', kind: 'map', route: '#/explore?taxon=morganucodonta&view=map&age=173.2&older=201.4&younger=145', entityIds: ['morganucodonta'], claimIds: ['claim:taxon:morganucodonta:source-bounded-range-rc49'] },
+    { id: 'mammal-origins-probainognathia-matrix-map', kind: 'map', route: '#/explore?taxon=probainognathia&view=map&age=205.85&older=237&younger=174.7', entityIds: ['probainognathia'], claimIds: ['claim:taxon:probainognathia:source-bounded-range-rc49'] },
   ] },
   'other-mammals': { label: { en: 'Other mammals', zh: '其他哺乳动物' }, scenes: [
     { id: 'other-mammals-map-window', kind: 'map', route: '#/explore?taxon=monotremata&view=map&age=55&older=110&younger=0', entityIds: ['monotremata'], claimIds: ['claim:taxon:monotremata:root-range'] },
     { id: 'other-mammals-comparison-window', kind: 'comparison', route: '#/compare?left=eritherium&right=mimolagus', entityIds: ['eritherium', 'mimolagus'], claimIds: ['claim:taxon:eritherium:fossil-range', 'claim:taxon:mimolagus:fossil-range'] },
+    { id: 'other-mammals-steropodon-griman-creek-map', kind: 'map', route: '#/explore?taxon=steropodon&view=map&age=105&older=110&younger=100', entityIds: ['steropodon'], claimIds: ['claim:event:steropodon-holotype-monotreme'] },
+    { id: 'other-mammals-juramaia-provenance-map', kind: 'map', route: '#/explore?taxon=juramaia&view=map&age=160&older=161&younger=159', entityIds: ['juramaia'], claimIds: ['claim:event:juramaia-conditional-provenance'] },
+    { id: 'other-mammals-eomaia-yixian-map', kind: 'map', route: '#/explore?taxon=eomaia&view=map&age=125&older=125.8&younger=124.1', entityIds: ['eomaia'], claimIds: ['claim:event:eomaia-holotype-topology'] },
+    { id: 'other-mammals-eritherium-sidi-chennane-map', kind: 'map', route: '#/explore?taxon=eritherium&view=map&age=60&older=60.5&younger=59.2', entityIds: ['eritherium'], claimIds: ['claim:event:eritherium-holotype-proboscidean'] },
+    { id: 'other-mammals-thalassocnus-pisco-map', kind: 'map', route: '#/explore?taxon=thalassocnus&view=map&age=5.5&older=8&younger=3', entityIds: ['thalassocnus'], claimIds: ['claim:event:thalassocnus-bone-density-series'] },
+    { id: 'other-mammals-onychonycteris-fossil-butte-map', kind: 'map', route: '#/explore?taxon=onychonycteris&view=map&age=51.4&older=52.5&younger=50.3', entityIds: ['onychonycteris'], claimIds: ['claim:event:onychonycteris-flight-echolocation'] },
   ] },
   primates: { label: { en: 'Primates', zh: '灵长类' }, scenes: [
     { id: 'primates-map-window', kind: 'map', route: '#/explore?taxon=teilhardina&view=map&age=55.9&older=56&younger=55.8', entityIds: ['teilhardina'], claimIds: ['claim:taxon:teilhardina:fossil-range'] },
     { id: 'primates-comparison-window', kind: 'comparison', route: '#/compare?left=teilhardina&right=morotopithecus', entityIds: ['teilhardina', 'morotopithecus'], claimIds: ['claim:taxon:teilhardina:fossil-range', 'claim:taxon:morotopithecus:fossil-range'] },
-    { id: 'primates-notharctus-map-window', kind: 'map', route: '#/explore?taxon=notharctus&view=map&age=49.25&older=50&younger=48.5', entityIds: ['notharctus'], claimIds: ['claim:taxon:notharctus:fossil-range'] },
+    { id: 'primates-notharctus-map-window', kind: 'map', route: '#/explore?taxon=notharctus&view=map&age=49.25&older=50&younger=48.5', entityIds: ['notharctus'], claimIds: ['claim:event:notharctus-grooming-claw-foot'] },
     { id: 'primates-notharctus-foot-evidence', kind: 'map', route: '#/explore?taxon=notharctus&view=map&age=49.25&older=50&younger=48.5', entityIds: ['notharctus'], claimIds: ['claim:taxon:notharctus:morphology', 'claim:event:notharctus-grooming-claw-foot'] },
     { id: 'primates-notharctus-function-comparison', kind: 'comparison', route: '#/compare?left=notharctus&right=adapiformes', entityIds: ['notharctus', 'adapiformes'], claimIds: ['claim:taxon:notharctus:morphology', 'claim:taxon:adapiformes:concept-boundary'] },
-    { id: 'primates-eosimias-map-window', kind: 'map', route: '#/explore?taxon=eosimias&view=map&age=42.75&older=45&younger=40.5', entityIds: ['eosimias'], claimIds: ['claim:taxon:eosimias:fossil-range'] },
+    { id: 'primates-eosimias-map-window', kind: 'map', route: '#/explore?taxon=eosimias&view=map&age=42.75&older=45&younger=40.5', entityIds: ['eosimias'], claimIds: ['claim:event:eosimias-isolated-tarsal-anthropoid-test'] },
     { id: 'primates-eosimias-tarsal-evidence', kind: 'map', route: '#/explore?taxon=eosimias&view=map&age=42.75&older=45&younger=40.5', entityIds: ['eosimias'], claimIds: ['claim:taxon:eosimias:taxonomy', 'claim:event:eosimias-isolated-tarsal-anthropoid-test'] },
     { id: 'primates-notharctus-eosimias-comparison', kind: 'comparison', route: '#/compare?left=notharctus&right=eosimias', entityIds: ['notharctus', 'eosimias'], claimIds: ['claim:taxon:notharctus:morphology', 'claim:taxon:eosimias:morphology'] },
   ] },
