@@ -1,0 +1,95 @@
+{
+  "schemaVersion": 1,
+  "recordType": "release-pinned-authority-archive-crosswalk",
+  "id": "worms-appendicularia-archive-crosswalk",
+  "packageId": "other-animals",
+  "provider": "Appendicularia World Database via ChecklistBank",
+  "role": "authority-crosswalk",
+  "rowEncoding": "json",
+  "encoding": "gzip",
+  "mediaType": "application/json",
+  "colIdField": "colId",
+  "totalCountField": "total",
+  "source": {
+    "archiveUrl": "https://api.checklistbank.org/dataset/1178/archive",
+    "archiveBytes": 32041,
+    "archiveSha256": "5a4a49450d581faa30d0fa3d6beb54b4b561f920f075174124efbfd8bdfa8c1f",
+    "version": "2026-09-01",
+    "versionDoi": "10.48580/d3fn.v89",
+    "license": "CC-BY-4.0",
+    "sourceLedgerPath": "data/sources/worms-appendicularia-1178-import-ledger.json",
+    "archivePath": "data/sources/archives/checklistbank-1178-appendicularia-2026-09-01.zip",
+    "metadataPath": "data/sources/archives/checklistbank-1178-appendicularia-2026-09-01.metadata.json",
+    "datasetId": "1178",
+    "metadataSha256": "66c63e58982c707986b4ca496f303625eb1135c546222c723ba084b7d4f1095b",
+    "metadataBytes": 1807
+  },
+  "scope": {
+    "colRootUsageId": "622C5",
+    "colParentClosureRootUsageId": "7NF2Z",
+    "eligibleColSpecies": 68,
+    "excludedParentClosureSpecies": {
+      "1186": 3000,
+      "1185": 78
+    },
+    "sourceDatasetId": "1178"
+  },
+  "counts": {
+    "total": 68,
+    "records": 68,
+    "accepted": 68,
+    "redirect": 0,
+    "ambiguous": 0,
+    "unmatched": 0,
+    "withheld": 0,
+    "upstreamOnly": 0
+  },
+  "files": [
+    {
+      "path": "other-animals/worms-appendicularia-000.json.gz",
+      "records": 68,
+      "bytes": 21468,
+      "sha256": "a096dd240a7e99064a63cd60a1fd5863aeacee5fd444a3abe3a2f7f8fbc5f9df",
+      "sourceBytes": 500765,
+      "sourceSha256": "4e820c939555c54a415bcd63361246aa888b722c8a6fdcf3f13192e986ef87f1",
+      "role": "col-partition",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "minColId": "3RDS7",
+      "maxColId": "KWDD"
+    }
+  ],
+  "upstreamOnlyFiles": [],
+  "deliveryProfiles": {
+    "web-light": {
+      "mode": "summary-only",
+      "records": 0,
+      "files": [],
+      "totalCompressedBytes": 0,
+      "totalSourceBytes": 0
+    },
+    "native-full": {
+      "mode": "complete",
+      "records": 68,
+      "files": [
+        "other-animals/worms-appendicularia-000.json.gz"
+      ],
+      "totalCompressedBytes": 21468,
+      "totalSourceBytes": 500765
+    }
+  },
+  "matching": {
+    "normalization": "Exact scientific name and authorship after whitespace normalization; source fields preserved.",
+    "prohibited": "No fuzzy or inferred matching."
+  },
+  "evidenceBoundary": {
+    "en": "Frozen exact nomenclatural crosswalk; not species-concept equivalence, biological dossier or expert review.",
+    "zh": "冻结的命名与原始来源对照；不是物种概念等同性、完整生物档案或专家审查。"
+  },
+  "totalCompressedBytes": 21468,
+  "totalSourceBytes": 500765,
+  "limitations": [
+    "Name.status is original nomenclatural metadata; acceptance comes from nonprovisional Taxon membership.",
+    "Matched names do not establish species-concept equivalence."
+  ]
+}
