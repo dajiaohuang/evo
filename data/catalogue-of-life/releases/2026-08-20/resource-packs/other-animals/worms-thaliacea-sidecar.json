@@ -1,0 +1,143 @@
+{
+  "schemaVersion": 1,
+  "recordType": "release-pinned-authority-archive-crosswalk",
+  "id": "worms-thaliacea-archive-crosswalk",
+  "packageId": "other-animals",
+  "provider": "World Register of Marine Species via ChecklistBank",
+  "rowEncoding": "json",
+  "colIdField": "colId",
+  "totalCountField": "total",
+  "source": {
+    "datasetId": "1185",
+    "title": "World List of Thaliacea",
+    "version": "2026-09-01",
+    "versionDoi": "10.48580/d3fw.v87",
+    "metadataBytes": 2021,
+    "metadataSha256": "24753ebb83f0e406ef6077785b1ba785aca175c4729bd12db38eb0014a0da01b",
+    "license": "CC-BY-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "archiveUrl": "https://api.checklistbank.org/dataset/1185/archive",
+    "archivePath": "data/sources/archives/checklistbank-1185-thaliacea-2026-09-01.zip",
+    "metadataPath": "data/sources/archives/checklistbank-1185-thaliacea-2026-09-01.metadata.json",
+    "archiveBytes": 59152,
+    "archiveSha256": "75b42f6c9ec693068ccaf2c28bdc34ec28a786692b633f6226c311d3d348835a",
+    "members": {
+      "metadata.yml": {
+        "bytes": 1264,
+        "sha256": "ccf3560324fe1d5b5bfade6d9a7a812e2d35bbd034c7b2ee1e0b013e4798a936"
+      },
+      "TypeMaterial.txt": {
+        "bytes": 1140,
+        "sha256": "7aa3c74f457be85c699294259be3523cecc3973f7ba88516c513a1236f6312d1"
+      },
+      "Name.txt": {
+        "bytes": 89554,
+        "sha256": "1bcb784e28a8a8373f82f6af15c75fc331613d00b891c970d6ed3c2ed3cf2778"
+      },
+      "NameRelation.txt": {
+        "bytes": 27165,
+        "sha256": "88eeb3bd13e18ecd8563dcd918a748f31f398748914cc9d4cf8c58ac75f3983a"
+      },
+      "Taxon.txt": {
+        "bytes": 47000,
+        "sha256": "a3e08debb066d38c4259f9091ea86d9ed754b1dc38a580b4db568d7bc53daf9b"
+      },
+      "Synonym.txt": {
+        "bytes": 39532,
+        "sha256": "31f1922996b5b712fa87bb431da0d412bdd7dd852930d483a8b2a6a64d627b13"
+      },
+      "SpeciesEstimate.txt": {
+        "bytes": 35,
+        "sha256": "552ac985d21f5b6e89941c9a4b07715a7f4a56106b5d50480ecf9dcba5f901e5"
+      },
+      "Reference.txt": {
+        "bytes": 77810,
+        "sha256": "024ce3f6e269acc2d642c9204367d058255336c5d396e8f8ecff453b2e32a810"
+      },
+      "NameReference.txt": {
+        "bytes": 132019,
+        "sha256": "a46969d112c60cace31c7ed943d74f8de1173f58722b3daedd1f644a01f88b3c"
+      },
+      "Distribution.txt": {
+        "bytes": 33629,
+        "sha256": "db164fedfb6897d635cbe48252c3a1df1e8e2f4df23768bd58fd08d511f36578"
+      },
+      "Media.txt": {
+        "bytes": 1164,
+        "sha256": "1c1cf50c5ead81e562a049d2a32db66b9769411020f922d21b3af0289a1a7f1c"
+      },
+      "VernacularName.txt": {
+        "bytes": 4553,
+        "sha256": "f72dcdf6bf404e26b697bf38319d25467f9ea1c22501d7fef0f4234ad699f689"
+      }
+    }
+  },
+  "scope": {
+    "colRootUsageIds": [
+      "L2QHG"
+    ],
+    "scientificName": "Thaliacea",
+    "eligibleColSpecies": 78,
+    "sourceAcceptedSpecies": 78,
+    "excludedSourceProvisional": 0
+  },
+  "matching": {
+    "normalization": "NFC and whitespace normalization only; COL trailing authorship is removed exactly.",
+    "prohibited": "No fuzzy, case-folded, accent-folded, synonym or species-concept matching."
+  },
+  "counts": {
+    "total": 78,
+    "accepted": 78,
+    "redirect": 0,
+    "ambiguous": 0,
+    "unmatched": 0,
+    "withheld": 0,
+    "upstreamOnly": 0,
+    "records": 78
+  },
+  "files": [
+    {
+      "path": "other-animals/worms-thaliacea-000.json.gz",
+      "records": 78,
+      "bytes": 24440,
+      "sha256": "259a960685aa4c755167db0a43ae2aa3bc6ad0704dbede42fa602db96c6ef0bd",
+      "sourceBytes": 265714,
+      "sourceSha256": "77d66d59ca6ded2b3cc4fb4a6521fdd6ffc2f6f8f65c0dd15cf71e202957a575",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "role": "col-partition",
+      "minColId": "32WXG",
+      "maxColId": "NDT8"
+    }
+  ],
+  "upstreamOnlyFiles": [],
+  "evidenceBoundary": {
+    "en": "Frozen WoRMS nomenclatural/source projection for the exact COL26.8 source-1185 Thaliacea root; not species-concept equivalence, a biological dossier, fossil evidence or expert review.",
+    "zh": "精确 COL26.8 source-1185 Thaliacea 根节点范围的 WoRMS 冻结命名/来源投影；不是物种概念等同性、生物档案、化石证据或专家审查。"
+  },
+  "limitations": [
+    "Source-only rows are relative only to COL source dataset 1185.",
+    "Name.status is nomenclatural metadata and is not used as taxonomic acceptance.",
+    "Synonym.taxonID targets do not remove accepted Taxon rows."
+  ],
+  "totalCompressedBytes": 24440,
+  "totalSourceBytes": 265714,
+  "deliveryProfiles": {
+    "web-light": {
+      "mode": "summary-only",
+      "records": 0,
+      "files": [],
+      "totalCompressedBytes": 0,
+      "totalSourceBytes": 0
+    },
+    "native-full": {
+      "mode": "complete",
+      "records": 78,
+      "files": [
+        "other-animals/worms-thaliacea-000.json.gz"
+      ],
+      "totalCompressedBytes": 24440,
+      "totalSourceBytes": 265714
+    }
+  }
+}
