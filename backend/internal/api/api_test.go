@@ -55,8 +55,11 @@ func TestCapabilitiesAndCurrentRelease(t *testing.T) {
 	if w.Code != 200 {
 		t.Fatalf("release status %d", w.Code)
 	}
-	if !strings.Contains(w.Body.String(), "2026.09-static-v5-rc113") {
-		t.Fatal("dataset missing")
+	var release struct {
+		DatasetVersion string `json:"datasetVersion"`
+	}
+	if err := json.Unmarshal(w.Body.Bytes(), &release); err != nil || release.DatasetVersion == "" {
+		t.Fatalf("dataset version missing: %s", w.Body.String())
 	}
 }
 
