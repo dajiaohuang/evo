@@ -30,6 +30,8 @@ describe('Appendicularia 1178 importer', () => {
     const descriptor = JSON.parse(readFileSync(join(output(one), 'worms-appendicularia-sidecar.json')))
     expect(descriptor.scope).toEqual({ colRootUsageId: '622C5', colParentClosureRootUsageId: '7NF2Z', eligibleColSpecies: 68, excludedParentClosureSpecies: { '1185': 78, '1186': 3000 }, sourceDatasetId: '1178' })
     expect(descriptor.counts).toMatchObject({ total: 68, records: 68, accepted: 68, redirect: 0, ambiguous: 0, unmatched: 0, withheld: 0, upstreamOnly: 0 })
+    expect(descriptor.provider).toBe('World Register of Marine Species via ChecklistBank')
+    expect(descriptor.evidenceBoundary.zh).toBe('冻结的精确命名学交叉映射；不是物种概念等同性、生物学档案或专家审查。')
     const rows = []
     for (const file of descriptor.files) {
       const part = JSON.parse(gunzipSync(readFileSync(join(output(one), file.path.split('/').at(-1)))))
@@ -40,6 +42,7 @@ describe('Appendicularia 1178 importer', () => {
     expect(rows.every(row => row.status === 'accepted' && row.acceptedName?.sourceRows?.some(x => x.member === 'Name.txt'))).toBe(true)
     const ledger = JSON.parse(readFileSync(join(one, 'data/sources/worms-appendicularia-1178-import-ledger.json')))
     expect(ledger.sourceArchive.sha256).toBe('5a4a49450d581faa30d0fa3d6beb54b4b561f920f075174124efbfd8bdfa8c1f')
+    expect(ledger.generatedBy.hashNormalization).toBe('CRLF to LF before SHA-256')
     expect(ledger.colInput.nodeShards.length).toBeGreaterThan(0)
     expect(createHash('sha256').update(readFileSync(archive)).digest('hex')).toBe(ledger.sourceArchive.sha256)
     expect(readFileSync(join(root, 'data/sources/worms-appendicularia-1178-import-ledger.json'))).toEqual(canonicalLedger)

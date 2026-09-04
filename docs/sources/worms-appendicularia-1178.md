@@ -4,7 +4,7 @@ This source-specific projection freezes ChecklistBank dataset 1178, *World List 
 
 The projection scopes accepted COL26.8 species descending from Appendicularia usage `622C5`. The wider Tunicata parent closure `7NF2Z` is audited only to make the boundary explicit; the sibling Thaliacea source (dataset 1185) and Ascidiacea source (dataset 1186) remain outside this projection. The measured COL scope is 68 accepted species. The archive contains 68 Species Taxon rows, all nonprovisional, and every row maps by exact scientific name plus authorship. There are no redirects, ambiguous matches, unmatched rows or source-only accepted rows. These counts describe this exact source/COL projection, not global species completeness or species-concept equivalence.
 
-The generated row shard preserves the source Name and Taxon records, original `Name.status`, source-table row locators, and every available linked Reference and NameReference record. The importer does not invent a rights holder, citation field, or missing reference: absent values remain absent and missing reference IDs remain explicitly visible. References are metadata and links, not redistributed publications.
+The committed archive preserves the original source members. The generated row shard selects the source Name and Taxon fields needed for the crosswalk, retains original `Name.status`, and records source-table row locators plus every available linked Reference and NameReference record. The importer does not invent a rights holder, citation field, or missing reference: absent values remain absent and missing reference IDs remain explicitly visible. References are metadata and links, not redistributed publications.
 
 The source citation recorded in the official metadata is: Garic, R. (2026), *World List of Appendicularia* (Version 2026-09-01), https://doi.org/10.48580/d3fn. The source URL is https://www.marinespecies.org; the archive is retrieved through ChecklistBank's dataset endpoint.
 
@@ -21,4 +21,4 @@ python -B scripts/test-appendicularia-source.py
 npm exec vitest -- run scripts/build-appendicularia-source.test.mjs
 ```
 
-The `web-light` profile publishes only descriptor/count/inventory metadata for this extension. The `native-full` profile includes the one complete 68-record gzip shard. The compressed shard is 21,468 bytes and its uncompressed JSON source projection is 500,765 bytes. This archive projection is an authority crosswalk, not a biological dossier, fossil evidence, phylogeny or expert review.
+The `web-light` profile publishes only descriptor/count/inventory metadata for this extension. The `native-full` profile includes the one complete 68-record gzip shard. The compressed shard is 21,044 bytes and its uncompressed JSON source projection is 495,089 bytes. This archive projection is an authority crosswalk, not a biological dossier, fossil evidence, phylogeny or expert review.

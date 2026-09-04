@@ -1317,15 +1317,15 @@
     }
   },
   "outputs": {
-    "descriptorSha256": "2e3a3a7e76483095d92efaa121f1f7f005c142820948fd91a1b9c138dbac8ecf",
+    "descriptorSha256": "3dc1cb3b0b175b02529087043c08df9be672aa580eb4ef7b3d57afa14749511d",
     "files": [
       {
         "path": "other-animals/worms-appendicularia-000.json.gz",
         "records": 68,
-        "bytes": 21468,
-        "sha256": "a096dd240a7e99064a63cd60a1fd5863aeacee5fd444a3abe3a2f7f8fbc5f9df",
-        "sourceBytes": 500765,
-        "sourceSha256": "4e820c939555c54a415bcd63361246aa888b722c8a6fdcf3f13192e986ef87f1",
+        "bytes": 21044,
+        "sha256": "cb8c13db5a636f376fecc734c14485e466602598ae2277b88677eac161a7b91c",
+        "sourceBytes": 495089,
+        "sourceSha256": "79b278b27d921a24b28d1f80c62cf4b36430334cd910f40d350663898f73b4cc",
         "role": "col-partition",
         "encoding": "gzip",
         "mediaType": "application/json",
@@ -1337,6 +1337,7 @@
   },
   "generatedBy": {
     "script": "scripts/build-appendicularia-source.py",
-    "scriptSha256": "54906dc9a3b9f8b280977879db1e110248246c67f9fbae4320479c5e0e89ebe5"
+    "scriptSha256": "675b1c26842092fdabf28210c2550ad0b60fa7cb03a4d115c326798ba285c45e",
+    "hashNormalization": "CRLF to LF before SHA-256"
   }
 }

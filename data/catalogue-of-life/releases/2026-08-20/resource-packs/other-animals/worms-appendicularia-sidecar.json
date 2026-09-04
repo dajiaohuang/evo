@@ -3,7 +3,7 @@
   "recordType": "release-pinned-authority-archive-crosswalk",
   "id": "worms-appendicularia-archive-crosswalk",
   "packageId": "other-animals",
-  "provider": "Appendicularia World Database via ChecklistBank",
+  "provider": "World Register of Marine Species via ChecklistBank",
   "role": "authority-crosswalk",
   "rowEncoding": "json",
   "encoding": "gzip",
@@ -48,10 +48,10 @@
     {
       "path": "other-animals/worms-appendicularia-000.json.gz",
       "records": 68,
-      "bytes": 21468,
-      "sha256": "a096dd240a7e99064a63cd60a1fd5863aeacee5fd444a3abe3a2f7f8fbc5f9df",
-      "sourceBytes": 500765,
-      "sourceSha256": "4e820c939555c54a415bcd63361246aa888b722c8a6fdcf3f13192e986ef87f1",
+      "bytes": 21044,
+      "sha256": "cb8c13db5a636f376fecc734c14485e466602598ae2277b88677eac161a7b91c",
+      "sourceBytes": 495089,
+      "sourceSha256": "79b278b27d921a24b28d1f80c62cf4b36430334cd910f40d350663898f73b4cc",
       "role": "col-partition",
       "encoding": "gzip",
       "mediaType": "application/json",
@@ -74,20 +74,20 @@
       "files": [
         "other-animals/worms-appendicularia-000.json.gz"
       ],
-      "totalCompressedBytes": 21468,
-      "totalSourceBytes": 500765
+      "totalCompressedBytes": 21044,
+      "totalSourceBytes": 495089
     }
   },
   "matching": {
-    "normalization": "Exact scientific name and authorship after whitespace normalization; source fields preserved.",
+    "normalization": "Unicode NFC and whitespace normalization for scientific name and authorship; source fields preserved.",
     "prohibited": "No fuzzy or inferred matching."
   },
   "evidenceBoundary": {
     "en": "Frozen exact nomenclatural crosswalk; not species-concept equivalence, biological dossier or expert review.",
-    "zh": "冻结的命名与原始来源对照；不是物种概念等同性、完整生物档案或专家审查。"
+    "zh": "冻结的精确命名学交叉映射；不是物种概念等同性、生物学档案或专家审查。"
   },
-  "totalCompressedBytes": 21468,
-  "totalSourceBytes": 500765,
+  "totalCompressedBytes": 21044,
+  "totalSourceBytes": 495089,
   "limitations": [
     "Name.status is original nomenclatural metadata; acceptance comes from nonprovisional Taxon membership.",
     "Matched names do not establish species-concept equivalence."
