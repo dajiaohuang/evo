@@ -46,6 +46,33 @@ class SmallOriginalSourceTests(unittest.TestCase):
                 self.assertEqual(descriptor["counts"]["sourceOnly"], expected_source_only)
                 self.assertEqual(descriptor["source"]["archiveBytes"], spec_data["archiveBytes"])
                 self.assertEqual(descriptor["source"]["archiveSha256"], spec_data["archiveSha256"])
+                self.assertEqual(descriptor["source"]["archiveAttempt"], spec_data["archiveAttempt"])
+                self.assertEqual(
+                    descriptor["source"]["archiveUrl"],
+                    f"https://api.checklistbank.org/dataset/{spec_data['dataset']}/archive?attempt={spec_data['archiveAttempt']}",
+                )
+                api_metadata = descriptor["source"]["metadata"]
+                self.assertEqual(str(api_metadata["key"]), spec_data["dataset"])
+                self.assertEqual(api_metadata["attempt"], spec_data["archiveAttempt"])
+                for field in ("version", "versionDoi", "doi", "issued", "license"):
+                    self.assertEqual(api_metadata[field], spec_data[field], field)
+                metadata_raw = (ROOT / spec_data["metadata"]).read_bytes()
+                self.assertEqual(descriptor["source"]["metadataBytes"], len(metadata_raw))
+                self.assertEqual(
+                    descriptor["source"]["metadataSha256"], hashlib.sha256(metadata_raw).hexdigest()
+                )
+                self.assertEqual(descriptor["source"]["metadataRole"], "current ChecklistBank API metadata response")
+                archive_metadata = descriptor["source"]["archiveMetadata"]
+                self.assertEqual(archive_metadata["member"], "metadata.yml")
+                self.assertEqual(archive_metadata["fields"]["doi"], None)
+                self.assertEqual(archive_metadata["fields"]["version"], "2026-09-01")
+                self.assertEqual(archive_metadata["fields"]["issued"], "2026-09-01")
+                self.assertEqual(archive_metadata["fields"]["license"], "CC-BY")
+                self.assertEqual(archive_metadata["sha256"], descriptor["source"]["members"]["metadata.yml"]["sha256"])
+                consistency = descriptor["source"]["metadataConsistency"]
+                self.assertEqual(consistency["apiResponse"]["versionDoi"], spec_data["versionDoi"])
+                self.assertEqual(consistency["archiveEmbedded"]["doi"], None)
+                self.assertEqual(consistency["differences"], ["doi", "license"])
                 self.assertEqual(len(descriptor["source"]["members"]), 12)
                 self.assertTrue(all(item["sourceBytes"] <= small.LIMIT for item in descriptor["files"] + descriptor["sourceOnlyFiles"]))
 

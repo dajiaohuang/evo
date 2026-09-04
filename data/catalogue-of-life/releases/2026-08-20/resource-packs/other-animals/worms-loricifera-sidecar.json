@@ -13,13 +13,49 @@
   "source": {
     "datasetId": "1182",
     "provider": "World Register of Marine Species via ChecklistBank",
-    "archiveUrl": "https://api.checklistbank.org/dataset/1182/archive",
+    "archiveUrl": "https://api.checklistbank.org/dataset/1182/archive?attempt=88",
+    "archiveAttempt": 88,
     "archivePath": "data/sources/archives/checklistbank-1182-loricifera-2026-09-01.zip",
     "archiveBytes": 14695,
     "archiveSha256": "e6618414a8a660def5aca98be29a78e9eb2909ccab96a9e5d54a0d28b5744c5b",
     "metadataPath": "data/sources/archives/checklistbank-1182-loricifera-2026-09-01.metadata.json",
     "metadataBytes": 2239,
     "metadataSha256": "ae2dd4b083fdd3cf00bbc0370760b3402f689fad6f2b46cf18e720052d0ccc5b",
+    "metadataRole": "current ChecklistBank API metadata response",
+    "archiveMetadata": {
+      "member": "metadata.yml",
+      "bytes": 1381,
+      "sha256": "318aed9ee97afae37bcacf028d826591c9d015baff3bf2e0df3e30bae4b5eda4",
+      "fields": {
+        "doi": null,
+        "title": "World List of Loricifera",
+        "issued": "2026-09-01",
+        "version": "2026-09-01",
+        "license": "CC-BY",
+        "website": "https://www.marinespecies.org"
+      }
+    },
+    "metadataConsistency": {
+      "status": "mismatch",
+      "apiResponse": {
+        "doi": "10.48580/d3fs",
+        "versionDoi": "10.48580/d3fs.v88",
+        "version": "2026-09-01",
+        "issued": "2026-09-01",
+        "license": "cc by"
+      },
+      "archiveEmbedded": {
+        "doi": null,
+        "version": "2026-09-01",
+        "issued": "2026-09-01",
+        "license": "CC-BY"
+      },
+      "differences": [
+        "doi",
+        "license"
+      ],
+      "boundary": "The current ChecklistBank API response and the byte-pinned archive metadata.yml are retained as separate provenance layers."
+    },
     "members": {
       "metadata.yml": {
         "bytes": 1381,
@@ -184,7 +220,7 @@
       "private": false
     },
     "sourceLedgerPath": "data/sources/worms-loricifera-archive-1182-import-ledger.json",
-    "sourceLedgerSha256": "a1487d71fcff112beda1e6d469eb4257d7c4ba0763779f83d981fb18487a86d1"
+    "sourceLedgerSha256": "2a4eb99945bfb5b8b58c4c992430046deedb0962fea4d3658bc0588a432a6744"
   },
   "scope": {
     "colRootUsageId": "B8VF6",

@@ -13,13 +13,49 @@
   "source": {
     "datasetId": "1150",
     "provider": "World Register of Marine Species via ChecklistBank",
-    "archiveUrl": "https://api.checklistbank.org/dataset/1150/archive",
+    "archiveUrl": "https://api.checklistbank.org/dataset/1150/archive?attempt=86",
+    "archiveAttempt": 86,
     "archivePath": "data/sources/archives/checklistbank-1150-rhombozoa-2026-09-01.zip",
     "archiveBytes": 23988,
     "archiveSha256": "c29902e32bdd8700988bc61a5d67096e011a3862b4176df215aada16f4a8690d",
     "metadataPath": "data/sources/archives/checklistbank-1150-rhombozoa-2026-09-01.metadata.json",
     "metadataBytes": 1608,
     "metadataSha256": "ec3091a30d6f7f546f5759d5e6536fee676a585a8c8700697be0ff63a1fb4e3f",
+    "metadataRole": "current ChecklistBank API metadata response",
+    "archiveMetadata": {
+      "member": "metadata.yml",
+      "bytes": 891,
+      "sha256": "677af697d62c336ccbbaa4519653eb9629bf30846cee561c9d76608bb7cee56a",
+      "fields": {
+        "doi": null,
+        "title": "World List of Rhombozoa",
+        "issued": "2026-09-01",
+        "version": "2026-09-01",
+        "license": "CC-BY",
+        "website": "https://www.marinespecies.org"
+      }
+    },
+    "metadataConsistency": {
+      "status": "mismatch",
+      "apiResponse": {
+        "doi": "10.48580/d3dp",
+        "versionDoi": "10.48580/d3dp.v86",
+        "version": "2026-09-01",
+        "issued": "2026-09-01",
+        "license": "cc by"
+      },
+      "archiveEmbedded": {
+        "doi": null,
+        "version": "2026-09-01",
+        "issued": "2026-09-01",
+        "license": "CC-BY"
+      },
+      "differences": [
+        "doi",
+        "license"
+      ],
+      "boundary": "The current ChecklistBank API response and the byte-pinned archive metadata.yml are retained as separate provenance layers."
+    },
     "members": {
       "metadata.yml": {
         "bytes": 891,
@@ -162,7 +198,7 @@
       "private": false
     },
     "sourceLedgerPath": "data/sources/worms-rhombozoa-archive-1150-import-ledger.json",
-    "sourceLedgerSha256": "5bc6f8d319e1afdd6f475568f5e599a9dd518f7b2f83eb43bce6b321a38631cd"
+    "sourceLedgerSha256": "474c6874ec13ae694ad976937ee695d7a9feeb95d486a1b0fb6205ef32a6882b"
   },
   "scope": {
     "colRootUsageId": "B8VFC",

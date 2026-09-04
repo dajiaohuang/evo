@@ -3,19 +3,55 @@
   "importType": "COL26.8-to-WoRMS-original-archive-projection",
   "generatedBy": {
     "scriptPath": "scripts/build-worms-small-original-sources.py",
-    "scriptSha256": "63011df96e6e9690078ca28b2d7a7df7ebba5dd65322cbb0709af1298626092b",
+    "scriptSha256": "87d8b510323b7cac1a648e9f604c379057e2d9d7f11e841d7eca547c434100aa",
     "hashNormalization": "LF"
   },
   "source": {
     "datasetId": "1182",
     "provider": "World Register of Marine Species via ChecklistBank",
-    "archiveUrl": "https://api.checklistbank.org/dataset/1182/archive",
+    "archiveUrl": "https://api.checklistbank.org/dataset/1182/archive?attempt=88",
+    "archiveAttempt": 88,
     "archivePath": "data/sources/archives/checklistbank-1182-loricifera-2026-09-01.zip",
     "archiveBytes": 14695,
     "archiveSha256": "e6618414a8a660def5aca98be29a78e9eb2909ccab96a9e5d54a0d28b5744c5b",
     "metadataPath": "data/sources/archives/checklistbank-1182-loricifera-2026-09-01.metadata.json",
     "metadataBytes": 2239,
     "metadataSha256": "ae2dd4b083fdd3cf00bbc0370760b3402f689fad6f2b46cf18e720052d0ccc5b",
+    "metadataRole": "current ChecklistBank API metadata response",
+    "archiveMetadata": {
+      "member": "metadata.yml",
+      "bytes": 1381,
+      "sha256": "318aed9ee97afae37bcacf028d826591c9d015baff3bf2e0df3e30bae4b5eda4",
+      "fields": {
+        "doi": null,
+        "title": "World List of Loricifera",
+        "issued": "2026-09-01",
+        "version": "2026-09-01",
+        "license": "CC-BY",
+        "website": "https://www.marinespecies.org"
+      }
+    },
+    "metadataConsistency": {
+      "status": "mismatch",
+      "apiResponse": {
+        "doi": "10.48580/d3fs",
+        "versionDoi": "10.48580/d3fs.v88",
+        "version": "2026-09-01",
+        "issued": "2026-09-01",
+        "license": "cc by"
+      },
+      "archiveEmbedded": {
+        "doi": null,
+        "version": "2026-09-01",
+        "issued": "2026-09-01",
+        "license": "CC-BY"
+      },
+      "differences": [
+        "doi",
+        "license"
+      ],
+      "boundary": "The current ChecklistBank API response and the byte-pinned archive metadata.yml are retained as separate provenance layers."
+    },
     "members": {
       "metadata.yml": {
         "bytes": 1381,
@@ -1528,8 +1564,8 @@
   "outputs": {
     "descriptor": {
       "path": "data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals/worms-loricifera-sidecar.json",
-      "bytes": 10969,
-      "sha256": "c73f899c5e76c338eafc3f42d2f2e24f3ba371bf2dfd93b9d9e5d157079fd8ea"
+      "bytes": 12099,
+      "sha256": "e564197224e74fe50104ed9d9184ab8ad37ba8647344e2a1b3d6e600a728e0f5"
     },
     "files": [
       {

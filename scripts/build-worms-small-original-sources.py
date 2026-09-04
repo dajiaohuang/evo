@@ -31,6 +31,8 @@ SPECS = {
         "archive": "data/sources/archives/checklistbank-1132-chaetognatha-2026-09-01.zip",
         "metadata": "data/sources/archives/checklistbank-1132-chaetognatha-2026-09-01.metadata.json",
         "archiveBytes": 45909, "archiveSha256": "c14c95f99dceb1500c1c5b99a99a3ca0d4c88a0566738f7f7fa1e329e4de47a4",
+        "archiveAttempt": 85, "version": "2026-09-01", "versionDoi": "10.48580/d3d3.v85",
+        "doi": "10.48580/d3d3", "issued": "2026-09-01", "license": "cc by",
     },
     "rhombozoa": {
         "dataset": "1150", "root": "B8VFC", "taxon": "Rhombozoa",
@@ -38,6 +40,8 @@ SPECS = {
         "archive": "data/sources/archives/checklistbank-1150-rhombozoa-2026-09-01.zip",
         "metadata": "data/sources/archives/checklistbank-1150-rhombozoa-2026-09-01.metadata.json",
         "archiveBytes": 23988, "archiveSha256": "c29902e32bdd8700988bc61a5d67096e011a3862b4176df215aada16f4a8690d",
+        "archiveAttempt": 86, "version": "2026-09-01", "versionDoi": "10.48580/d3dp.v86",
+        "doi": "10.48580/d3dp", "issued": "2026-09-01", "license": "cc by",
     },
     "loricifera": {
         "dataset": "1182", "root": "B8VF6", "taxon": "Loricifera",
@@ -45,6 +49,8 @@ SPECS = {
         "archive": "data/sources/archives/checklistbank-1182-loricifera-2026-09-01.zip",
         "metadata": "data/sources/archives/checklistbank-1182-loricifera-2026-09-01.metadata.json",
         "archiveBytes": 14695, "archiveSha256": "e6618414a8a660def5aca98be29a78e9eb2909ccab96a9e5d54a0d28b5744c5b",
+        "archiveAttempt": 88, "version": "2026-09-01", "versionDoi": "10.48580/d3fs.v88",
+        "doi": "10.48580/d3fs", "issued": "2026-09-01", "license": "cc by",
     },
 }
 
@@ -64,6 +70,24 @@ def encode(value: object, pretty: bool = False) -> bytes:
 
 def normalize(value: str | None) -> str:
     return " ".join(unicodedata.normalize("NFC", value or "").split())
+
+
+def parse_archive_metadata(raw: bytes) -> dict[str, object]:
+    """Read the simple top-level fields from the archive's metadata.yml."""
+    fields = {}
+    for line in raw.decode("utf-8").splitlines():
+        if not line or line[0].isspace() or ":" not in line:
+            continue
+        key, value = line.split(":", 1)
+        value = value.strip()
+        if value == "null":
+            parsed = None
+        elif len(value) >= 2 and value[0] == value[-1] and value[0] in "\"'":
+            parsed = value[1:-1]
+        else:
+            parsed = value
+        fields[key] = parsed
+    return {key: fields.get(key) for key in ("doi", "title", "issued", "version", "license", "website")}
 
 
 def col_bare(row: dict[str, str]) -> str:
@@ -249,15 +273,31 @@ def write_shards(directory: Path, prefix: str, rows: list[dict[str, object]], ro
 
 
 def source_info(spec: dict, metadata: dict, archive: Path, metadata_path: Path,
-                members: dict) -> dict:
+                members: dict, archive_metadata: dict[str, object],
+                archive_metadata_raw: bytes) -> dict:
     raw = archive.read_bytes()
+    archive_url = f"{ARCHIVE_BASE.format(dataset=spec['dataset'])}?attempt={spec['archiveAttempt']}"
+    consistency_fields = ("doi", "version", "issued", "license")
+    metadata_consistency = {
+        "status": "mismatch" if any(metadata.get(key) != archive_metadata.get(key)
+                                     for key in consistency_fields) else "match",
+        "apiResponse": {key: metadata.get(key) for key in ("doi", "versionDoi", "version", "issued", "license")},
+        "archiveEmbedded": {key: archive_metadata.get(key) for key in consistency_fields},
+        "differences": [key for key in consistency_fields
+                        if metadata.get(key) != archive_metadata.get(key)],
+        "boundary": "The current ChecklistBank API response and the byte-pinned archive metadata.yml are retained as separate provenance layers.",
+    }
     info = {"datasetId": spec["dataset"], "provider": "World Register of Marine Species via ChecklistBank",
-            "archiveUrl": ARCHIVE_BASE.format(dataset=spec["dataset"]),
+            "archiveUrl": archive_url, "archiveAttempt": spec["archiveAttempt"],
             "archivePath": str(archive.relative_to(ROOT)).replace("\\", "/"),
             "archiveBytes": len(raw), "archiveSha256": digest(raw),
             "metadataPath": str(metadata_path.relative_to(ROOT)).replace("\\", "/"),
             "metadataBytes": metadata_path.stat().st_size,
-            "metadataSha256": digest(metadata_path.read_bytes()), "members": members}
+            "metadataSha256": digest(metadata_path.read_bytes()),
+            "metadataRole": "current ChecklistBank API metadata response",
+            "archiveMetadata": {"member": "metadata.yml", "bytes": len(archive_metadata_raw),
+                                 "sha256": digest(archive_metadata_raw), "fields": archive_metadata},
+            "metadataConsistency": metadata_consistency, "members": members}
     for field in ("title", "version", "versionDoi", "doi", "citation", "issued",
                   "editor", "contributor", "license", "rights", "rightsHolder"):
         if field in metadata and metadata[field] is not None:
@@ -275,8 +315,18 @@ def project(key: str, output_root: Path = ROOT) -> dict:
     if identity != {"bytes": spec["archiveBytes"], "sha256": spec["archiveSha256"]}:
         raise ValueError(f"{key} archive does not match pinned bytes: {identity}")
     metadata = json.loads(metadata_path.read_text(encoding="utf-8"))
-    if str(metadata.get("key")) != spec["dataset"] or metadata.get("version") != "2026-09-01":
-        raise ValueError(f"unexpected {key} metadata identity")
+    expected_metadata = {field: spec[field] for field in
+                        ("version", "versionDoi", "doi", "issued", "license")}
+    actual_metadata = {field: metadata.get(field) for field in expected_metadata}
+    if str(metadata.get("key")) != spec["dataset"]:
+        raise ValueError(f"unexpected {key} metadata dataset key: {metadata.get('key')!r}")
+    if metadata.get("attempt") != spec["archiveAttempt"]:
+        raise ValueError(f"unexpected {key} metadata attempt: {metadata.get('attempt')!r}")
+    if actual_metadata != expected_metadata:
+        raise ValueError(f"unexpected {key} API metadata identity: {actual_metadata!r}")
+    with zipfile.ZipFile(archive) as source_archive:
+        archive_metadata_raw = source_archive.read("metadata.yml")
+    archive_metadata = parse_archive_metadata(archive_metadata_raw)
     accepted, by_key, member_counts, members = read_source(archive)
     col_rows, col_input = read_col(spec)
     records, implicated = [], set()
@@ -313,7 +363,8 @@ def project(key: str, output_root: Path = ROOT) -> dict:
                                               [row for row in records if row["status"] == outcome], outcome)
     source_files = write_shards(destination, f"{spec['prefix']}-source-only", source_only, "source-only")
     col_files = [item for outcome in ("accepted", "ambiguous", "unmatched") for item in outcome_files[outcome]]
-    source = source_info(spec, metadata, archive, metadata_path, members)
+    source = source_info(spec, metadata, archive, metadata_path, members,
+                         archive_metadata, archive_metadata_raw)
     descriptor = {"schemaVersion": 1, "recordType": "release-pinned-authority-original-archive-projection",
                   "id": f"{spec['prefix']}-archive-crosswalk", "packageId": "other-animals",
                   "provider": source["provider"], "role": "authority-crosswalk", "rowEncoding": "json",
