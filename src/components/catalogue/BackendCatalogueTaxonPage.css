@@ -1,0 +1,10 @@
+.backend-catalogue-page__note { max-width: 760px; margin: 18px 0 0; padding: 10px 12px; border-left: 2px solid var(--color-accent-dim); background: rgba(109, 218, 177, .045); color: var(--color-text-muted); font: 9px/1.55 var(--font-mono); }
+.backend-catalogue-page .catalogue-source-panel section { min-height: 0; }
+.backend-catalogue-page .catalogue-source-panel dl { display: grid; gap: 10px; margin-top: 14px; }
+.backend-catalogue-page .catalogue-source-panel dl div { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; padding-bottom: 8px; border-bottom: 1px solid var(--color-border-subtle); }
+.backend-catalogue-page .catalogue-source-panel dt { color: var(--color-text-faint); font: 8px var(--font-mono); }
+.backend-catalogue-page .catalogue-source-panel dd { color: var(--color-accent-soft); font: 9px var(--font-mono); text-align: right; }
+.backend-catalogue-page .catalogue-source-panel p { color: var(--color-text-muted); font-size: 10px; line-height: 1.6; }
+@media (max-width: 720px) {
+  .backend-catalogue-page__note { font-size: 8px; }
+}

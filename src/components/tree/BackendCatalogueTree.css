@@ -1,0 +1,76 @@
+.backend-tree {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  grid-template-rows: auto minmax(0, 1fr) auto;
+  min-width: 0;
+  min-height: 0;
+  background: radial-gradient(circle at 75% 12%, rgba(109, 218, 177, .08), transparent 38%), var(--color-bg);
+  color: var(--color-text);
+}
+
+.backend-tree__top { min-width: 0; min-height: 0; display: flex; flex-direction: column; }
+
+.backend-tree__header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 18px;
+  padding: 60px 18px 12px;
+  border-bottom: 1px solid var(--color-border-subtle);
+}
+
+.backend-tree__header > div { min-width: 0; }
+.backend-tree__header span { color: var(--color-accent); font: 7px var(--font-mono); letter-spacing: .1em; }
+.backend-tree__header h2 { margin-top: 5px; font: 500 clamp(20px, 3vw, 30px) var(--font-display); }
+.backend-tree__header p { max-width: 620px; margin-top: 5px; color: var(--color-text-muted); font-size: 10px; line-height: 1.5; }
+.backend-tree__exit { flex: 0 0 auto; padding: 7px 9px; border: 1px solid var(--color-border); background: var(--color-surface); color: var(--color-text-muted); font: 8px var(--font-mono); cursor: pointer; }
+.backend-tree__exit:hover, .backend-tree__exit:focus-visible { border-color: var(--color-accent-dim); color: var(--color-accent); }
+
+.backend-tree__status { display: flex; flex-wrap: wrap; gap: 6px 18px; padding: 8px 18px; border-bottom: 1px solid var(--color-border-subtle); color: var(--color-text-faint); font: 8px var(--font-mono); }
+.backend-tree__status span:first-child { color: var(--color-accent-soft); }
+
+.backend-tree__search { display: grid; gap: 5px; padding: 12px 18px 8px; }
+.backend-tree__search span { color: var(--color-text-faint); font: 8px var(--font-mono); }
+.backend-tree__search input { width: min(520px, 100%); min-height: 32px; padding: 0 10px; border: 1px solid var(--color-border); background: var(--color-surface); color: var(--color-text); font: 11px var(--font-sans); outline: 0; }
+.backend-tree__search input:focus { border-color: var(--color-accent-dim); box-shadow: 0 0 0 2px rgba(109, 218, 177, .1); }
+
+.backend-tree__path { display: flex; flex-wrap: wrap; gap: 4px; padding: 0 18px 9px; color: var(--color-text-faint); font: 8px var(--font-mono); }
+.backend-tree__path span { display: inline-flex; align-items: center; gap: 4px; }
+.backend-tree__path i { color: var(--color-border); font-style: normal; }
+.backend-tree__path a { color: var(--color-accent-soft); text-decoration: none; }
+.backend-tree__path a:hover, .backend-tree__path a:focus-visible { color: var(--color-accent); text-decoration: underline; }
+
+.backend-tree__results { display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: 4px; max-height: 134px; padding: 0 18px 10px; overflow: auto; }
+.backend-tree__results button { min-width: 0; padding: 7px 8px; border: 1px solid var(--color-border-subtle); background: var(--color-surface); color: var(--color-text-muted); text-align: left; cursor: pointer; }
+.backend-tree__results button:hover, .backend-tree__results button.is-selected { border-color: var(--color-accent-dim); color: var(--color-text); }
+.backend-tree__results strong, .backend-tree__results small { display: block; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.backend-tree__results strong { font-size: 9px; }
+.backend-tree__results small { margin-top: 3px; color: var(--color-text-faint); font: 7px var(--font-mono); }
+.backend-tree__results p { grid-column: 1 / -1; margin: 0; color: var(--color-text-faint); font: 8px var(--font-mono); }
+
+.backend-tree__viewport { min-height: 0; overflow: auto; overscroll-behavior: contain; contain: strict; scrollbar-color: var(--color-border) transparent; }
+.backend-tree__canvas { position: relative; min-width: 620px; }
+.backend-tree__row { position: absolute; left: 0; right: 0; display: flex; align-items: center; min-width: 0; height: 44px; border-bottom: 1px solid rgba(98, 112, 119, .14); background: transparent; }
+.backend-tree__row:hover, .backend-tree__row.is-selected { background: rgba(109, 218, 177, .055); }
+.backend-tree__row--muted, .backend-tree__row--action { color: var(--color-text-faint); font: 8px var(--font-mono); }
+.backend-tree__row--action { width: 100%; border: 0; border-bottom: 1px solid rgba(98, 112, 119, .14); text-align: left; cursor: pointer; }
+.backend-tree__row--action:hover, .backend-tree__row--action:focus-visible { color: var(--color-accent); background: var(--color-surface); }
+.backend-tree__toggle { flex: 0 0 26px; width: 26px; height: 28px; margin-right: 3px; padding: 0; border: 0; background: transparent; color: var(--color-accent); font-size: 18px; line-height: 1; cursor: pointer; }
+.backend-tree__name { display: flex; align-items: center; justify-content: space-between; gap: 20px; min-width: 0; width: 100%; padding-right: 18px; color: var(--color-text-muted); text-decoration: none; }
+.backend-tree__name:hover, .backend-tree__name:focus-visible { color: var(--color-accent-soft); }
+.backend-tree__name > span { display: flex; align-items: baseline; gap: 6px; min-width: 0; }
+.backend-tree__name i { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font: 11px var(--font-serif); }
+.backend-tree__name span small { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; color: var(--color-text-faint); font: 8px var(--font-serif); }
+.backend-tree__name > small { flex: 0 0 auto; color: var(--color-text-faint); font: 7px var(--font-mono); }
+
+.backend-tree__footer { padding: 8px 18px; border-top: 1px solid var(--color-border-subtle); color: var(--color-text-faint); font: 7px/1.45 var(--font-mono); }
+.backend-tree__error-detail { display: block; max-width: 620px; margin: 8px 0; color: var(--color-text-faint); font: 8px/1.45 var(--font-mono); }
+.backend-tree button:focus-visible, .backend-tree a:focus-visible { outline: 2px solid var(--color-accent); outline-offset: 1px; }
+
+@media (max-width: 720px) {
+  .backend-tree__header { padding-top: 54px; }
+  .backend-tree__header h2 { font-size: 20px; }
+  .backend-tree__name > small { display: none; }
+  .backend-tree__canvas { min-width: 440px; }
+}

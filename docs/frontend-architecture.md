@@ -19,6 +19,12 @@ The ordinary Web build remains `full-web` with the `web-light` delivery profile.
 Mobile builds remain `native-full`; the Pages flag does not change mobile
 behavior.
 
+The complete Web build may set `VITE_EVO_API_BASE_URL` to the Go service. When
+set, the full Catalogue tree and nomenclatural search use the current backend
+protocol directly; a failed or stale backend response is surfaced instead of
+silently falling back to an older protocol or raw hierarchy shard. Pages
+preview never uses this endpoint.
+
 ## Target independent frontends
 
 The target is three independently testable frontend applications that share
@@ -51,6 +57,20 @@ enrichment. The first contract is intentionally read-oriented:
 - `GET /v1/search/names` returns `records`, `totalMatches` and `nextCursor`.
   Nomenclatural registry results must remain visibly distinct from Atlas
   evidence dossiers; the Pages preview intentionally omits the registry.
+- `GET /v1/capabilities` advertises `treeIndex.representation:
+  "packed-adjacency"`, its resident node count, `paging: "offset-cursor"`,
+  `children: "direct-children"`, `windowed: true`, `releaseAlias`, and the
+  current `treeRoots` summaries. The current contract also declares
+  `rootCount`, the record and children endpoints, the default and maximum page
+  sizes, and the ordered compact `recordFields` list. The frontend rejects a
+  response that does not match this contract; it does not negotiate an older
+  tree format. The frontend uses this as the only launch contract for the
+  complete Catalogue tree.
+- The complete tree keeps only fetched direct-child pages and the expanded
+  path in application memory. It renders a fixed-height viewport window with
+  overscan, so a 2.4-million-node index remains fully addressable without
+  creating 2.4 million DOM nodes. Collapsing a branch releases its descendant
+  pages from the UI state.
 - `GET /v1/resources/{path}` supports byte-range download and resume with
   `Accept-Ranges`, `Content-Range`, `ETag` and `If-Range`.
 - `GET /v1/sync/files` returns `path`, `profile`, `bytes`, `sha256`,
