@@ -10,6 +10,7 @@ test.beforeEach(async ({ page }) => {
 for (const [id, prefix] of [
   ['322C4', 'worms-mollusca'], ['32N29', 'worms-porifera'],
   ['323D7', 'worms-cnidaria'], ['325RY', 'worms-annelida'], ['3233F', 'osf-orthoptera'],
+  ['NM', 'worms-nematoda'], ['KZX8B', 'worms-crustacea'],
 ]) {
   test(`native data loads ${prefix} and its independent source-only partition on demand`, async ({ page }) => {
     const requests: string[] = []

@@ -7,6 +7,8 @@ const scopes: Array<{ root: string; packageId: string; id: AuthorityArchiveColle
   { root: 'B8TXQ', packageId: 'sponges-cnidarians', id: 'worms-porifera-archive-crosswalk', title: 'WoRMS · Porifera' },
   { root: 'CN2', packageId: 'sponges-cnidarians', id: 'worms-cnidaria-archive-crosswalk', title: 'WoRMS · Cnidaria' },
   { root: 'NN', packageId: 'other-animals', id: 'worms-annelida-archive-crosswalk', title: 'WoRMS · Annelida' },
+  { root: 'NM', packageId: 'other-animals', id: 'worms-nematoda-archive-crosswalk', title: 'WoRMS · Nematoda' },
+  { root: 'KZX8B', packageId: 'crustaceans-insects', id: 'worms-crustacea-archive-crosswalk', title: 'WoRMS · Crustacea' },
   { root: 'CJBKK', packageId: 'crustaceans-insects', id: 'osf-orthoptera-archive-crosswalk', title: 'OSF · Orthoptera' },
 ]
 
