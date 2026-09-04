@@ -17,7 +17,9 @@
     "version": "2026-09-01",
     "versionDoi": "10.48580/d3fx.v90",
     "license": "CC-BY-4.0",
-    "sourceLedgerPath": "data/sources/worms-ascidiacea-1186-import-ledger.json"
+    "sourceLedgerPath": "data/sources/worms-ascidiacea-1186-import-ledger.json",
+    "archivePath": "data/sources/archives/checklistbank-1186-ascidiacea-2026-09-01.zip",
+    "metadataPath": "data/sources/archives/checklistbank-1186-ascidiacea-2026-09-01.metadata.json"
   },
   "scope": {
     "colRootUsageId": "B8V3P",
@@ -30,6 +32,8 @@
   },
   "counts": {
     "total": 3000,
+    "records": 3000,
+    "bytes": 850416,
     "accepted": 3000,
     "redirect": 0,
     "ambiguous": 0,
@@ -40,52 +44,110 @@
   "files": [
     {
       "path": "other-animals/worms-ascidiacea-000.json.gz",
-      "records": 801,
-      "bytes": 143391,
-      "sha256": "7cb1a41038e87a1d69ce1126577ee98a77aa0c2e0e2e89914ffb5b8247f7d564",
-      "sourceBytes": 2095054,
-      "sourceSha256": "29cf0bc2e0a6b696a8d031557e83ec74b91f2abdfbf8c67ac4ea864a89c8b8c0",
+      "records": 514,
+      "bytes": 143768,
+      "sha256": "6f67d9e524d81c6ca312c8d0400e0892d802e0db0561f8ed68425853634b8189",
+      "sourceBytes": 2092702,
+      "sourceSha256": "39853d1f09095894da19031790b3516ff93a043ee662553e3c35628b05b0ddb1",
+      "role": "authority-crosswalk",
+      "encoding": "gzip",
+      "mediaType": "application/json",
       "minColId": "327YW",
-      "maxColId": "44CSG"
+      "maxColId": "3JF5L"
     },
     {
       "path": "other-animals/worms-ascidiacea-001.json.gz",
-      "records": 790,
-      "bytes": 143124,
-      "sha256": "5b966d6b549393dcbb0323e2c86c1ecfd7270266958e8d7b1c7031c3c0fcaf12",
-      "sourceBytes": 2096167,
-      "sourceSha256": "77a8ed742f5f1e6921ae2850c3e74ef85002efac0fcc3eb8e382dac5267227c5",
-      "minColId": "45554",
-      "maxColId": "5TT7W"
+      "records": 474,
+      "bytes": 140533,
+      "sha256": "ec9e62ef3f25e1e29dd160f36d1630dd55c403db34ffe87718acdb705d2fe584",
+      "sourceBytes": 2091527,
+      "sourceSha256": "fe89869d664c23ce6cdc51863e634bbff702f7f986a0b1089af4bb808842dd8f",
+      "role": "authority-crosswalk",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "minColId": "3JF5M",
+      "maxColId": "4L39Y"
     },
     {
       "path": "other-animals/worms-ascidiacea-002.json.gz",
-      "records": 799,
-      "bytes": 147100,
-      "sha256": "428437c4c1f0d51bce310b83d335a1b63e38cfa7e8ac20f2df1b38469b079ccc",
-      "sourceBytes": 2096079,
-      "sourceSha256": "213c8116eb6d9c3ada9eaebc4f43310dac8ab0e319dd7aff5a93a8576520d9cd",
-      "minColId": "5TT88",
-      "maxColId": "FNSN"
+      "records": 499,
+      "bytes": 138949,
+      "sha256": "e1969cd660394100f25c0e66f6c3de269e7b789d64878e5bab5acee8c3c5ec95",
+      "sourceBytes": 2096952,
+      "sourceSha256": "7fdbdfb8707790f606319bef18c16fbb6eb7157c9a28dce642306907c149e248",
+      "role": "authority-crosswalk",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "minColId": "4L3B2",
+      "maxColId": "53XZR"
     },
     {
       "path": "other-animals/worms-ascidiacea-003.json.gz",
-      "records": 610,
-      "bytes": 113035,
-      "sha256": "9a7500d54d0a432dcff196e390823af011ff58d14ee41151258d4f95e07baf54",
-      "sourceBytes": 1577988,
-      "sourceSha256": "569e3ce6c982dc0cbf37af964a3d40fd4adcbb0b65a5c972d7b75f8b68c09fd4",
-      "minColId": "FNSS",
+      "records": 480,
+      "bytes": 143701,
+      "sha256": "5f93f5b0ca3dd681d08a9129040cb4cd114be5cbb3c9aca0e4dba0ba1008859d",
+      "sourceBytes": 2094511,
+      "sourceSha256": "dec6d2403078f97fbb67cdd9ca5c8ffb09639a32f1e79a83a6c2b8cacf8bd8b2",
+      "role": "authority-crosswalk",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "minColId": "53XZS",
+      "maxColId": "6RFS7"
+    },
+    {
+      "path": "other-animals/worms-ascidiacea-004.json.gz",
+      "records": 547,
+      "bytes": 141635,
+      "sha256": "86b965716caad0a3b590b8220ebfd2deb86e9ac536e40fd654b90e0bbc0e7069",
+      "sourceBytes": 2095998,
+      "sourceSha256": "0df4be311911bffd311d21c2e6f766482f706b725a17349f41831ce4e4be0ef3",
+      "role": "authority-crosswalk",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "minColId": "6RFTF",
+      "maxColId": "FNYV"
+    },
+    {
+      "path": "other-animals/worms-ascidiacea-005.json.gz",
+      "records": 486,
+      "bytes": 141830,
+      "sha256": "013cd67dd6dfa8142379c89ae370066ce587b7cb286800e26dd535203989115d",
+      "sourceBytes": 2014380,
+      "sourceSha256": "701f46f0351bea065e9ea63a562481b5066a4607773720946bcebfbd3a0f370c",
+      "role": "authority-crosswalk",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "minColId": "FNYW",
       "maxColId": "YQM5"
     }
   ],
   "upstreamOnlyFiles": [],
   "deliveryProfiles": {
     "web-light": {
-      "mode": "summary-only"
+      "mode": "summary-only",
+      "records": 3000,
+      "files": [
+        "other-animals/worms-ascidiacea-000.json.gz",
+        "other-animals/worms-ascidiacea-001.json.gz",
+        "other-animals/worms-ascidiacea-002.json.gz",
+        "other-animals/worms-ascidiacea-003.json.gz",
+        "other-animals/worms-ascidiacea-004.json.gz",
+        "other-animals/worms-ascidiacea-005.json.gz"
+      ],
+      "bytes": 850416
     },
     "native-full": {
-      "mode": "complete"
+      "mode": "complete",
+      "records": 3000,
+      "files": [
+        "other-animals/worms-ascidiacea-000.json.gz",
+        "other-animals/worms-ascidiacea-001.json.gz",
+        "other-animals/worms-ascidiacea-002.json.gz",
+        "other-animals/worms-ascidiacea-003.json.gz",
+        "other-animals/worms-ascidiacea-004.json.gz",
+        "other-animals/worms-ascidiacea-005.json.gz"
+      ],
+      "bytes": 850416
     }
   },
   "matching": {
