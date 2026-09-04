@@ -9,6 +9,8 @@ import type { TreeDisplayMode } from '../../types'
 import { useI18n } from '../../i18n'
 import { evolutionEvents, getTaxonProfile, taxonProfiles } from '../../services/catalog'
 import { isPagesPreview, isPreviewTaxonAllowed } from '../../config/pagesPreview'
+import { isBackendConfigured } from '../../data-client/backendClient'
+import { BackendCatalogueTree } from './BackendCatalogueTree'
 import './EvoTree.css'
 
 export type TreeMode = TreeDisplayMode
@@ -66,6 +68,7 @@ export function EvoTree() {
   const [traceLineage, setTraceLineage] = useState(false)
   const [traitOverlay, setTraitOverlay] = useState('')
   const [eventOverlay, setEventOverlay] = useState(false)
+  const [backendTreeView, setBackendTreeView] = useState(() => isBackendConfigured())
   const mode = useAppStore((state) => state.treeMode)
   const setMode = useAppStore((state) => state.setTreeMode)
   const currentAge = useAppStore((state) => state.currentAge)
@@ -313,8 +316,13 @@ export function EvoTree() {
     return () => observer.disconnect()
   }, [renderTree])
 
+  if (backendTreeView && isBackendConfigured()) {
+    return <div className="evo-tree evo-tree--backend"><BackendCatalogueTree onExit={() => setBackendTreeView(false)} /></div>
+  }
+
   return (
     <div className={`evo-tree evo-tree--${mode}`}>
+      {isBackendConfigured() && <button type="button" className="tree-backend-control" onClick={() => setBackendTreeView(true)}>{language === 'zh' ? '打开全量分类树' : 'Open full catalogue tree'}</button>}
       <div className="tree-mode-control" role="group" aria-label={t('Tree time model')}>
         <span>{t('Tree model')}</span>
         {([

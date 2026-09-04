@@ -37,10 +37,13 @@ const dataRoot = configuredDataRoot
   : `${import.meta.env.BASE_URL}data/`.replace(/\/+/g, '/')
 const jsonCache = new Map<string, unknown>()
 const inFlight = new Map<string, Promise<unknown>>()
+const windowJsonCache = new Map<string, unknown>()
+const windowInFlight = new Map<string, Promise<unknown>>()
 const loadedPackageSearch = new Map<string, RuntimeSearchEntry[]>()
 const mapJsonCache = new Map<string, unknown>()
 const mapInFlight = new Map<string, Promise<unknown>>()
 const MAP_CACHE_LIMIT = 18
+const WINDOW_CACHE_LIMIT = 12
 let worker: Worker | null = null
 let requestId = 0
 const workerRequests = new Map<number, { resolve: (data: unknown) => void; reject: (error: Error) => void }>()
@@ -164,6 +167,34 @@ export async function loadRuntimeFile<T>(file: RuntimeFile): Promise<T> {
     throw error
   })
   inFlight.set(key, request)
+  return request
+}
+
+async function loadWindowedRuntimeFile<T>(file: RuntimeFile): Promise<T> {
+  const key = cacheKey(file)
+  const cached = windowJsonCache.get(key)
+  if (cached !== undefined) {
+    windowJsonCache.delete(key)
+    windowJsonCache.set(key, cached)
+    return cached as T
+  }
+  const pending = windowInFlight.get(key)
+  if (pending) return pending as Promise<T>
+  const request = loadWithWorker<T>(file).then((data) => {
+    windowInFlight.delete(key)
+    windowJsonCache.delete(key)
+    windowJsonCache.set(key, data)
+    while (windowJsonCache.size > WINDOW_CACHE_LIMIT) {
+      const oldest = windowJsonCache.keys().next().value
+      if (oldest === undefined) break
+      windowJsonCache.delete(oldest)
+    }
+    return data
+  }, (error) => {
+    windowInFlight.delete(key)
+    throw error
+  })
+  windowInFlight.set(key, request)
   return request
 }
 
@@ -1085,7 +1116,7 @@ async function loadCatalogueRoute<T>(
     .map((url) => filesByUrl.get(url))
     .filter((file): file is NonNullable<typeof file> => Boolean(file))
   if (!routedFiles.length) return []
-  return (await Promise.all(routedFiles.map((file) => loadRuntimeFile<T[]>(file)))).flat()
+  return (await Promise.all(routedFiles.map((file) => loadWindowedRuntimeFile<T[]>(file)))).flat()
 }
 
 async function loadCatalogueHierarchyNodeFromManifest(
@@ -1166,7 +1197,7 @@ export async function searchCatalogue(query: string, limit = 12): Promise<{
     .map((url) => filesByUrl.get(url))
     .filter((file): file is NonNullable<typeof file> => Boolean(file))
     .filter((file) => compact.startsWith(file.prefix) || file.prefix.startsWith(compact))
-  const shards = await Promise.all(routedFiles.map((file) => loadRuntimeFile<CatalogueRecord[]>(file)))
+  const shards = await Promise.all(routedFiles.map((file) => loadWindowedRuntimeFile<CatalogueRecord[]>(file)))
   const statusOrder: Record<CatalogueRecord['status'], number> = { accepted: 0, synonym: 1, 'ambiguous-synonym': 2, misapplied: 3 }
   const matches = shards.flat()
     .filter((record) => record.normalizedName.startsWith(normalized))
@@ -1183,7 +1214,7 @@ export async function searchCatalogue(query: string, limit = 12): Promise<{
   const routeFiles = [...new Set(targetRoutes.flatMap(([, prefix]) => manifest.acceptedTargets.routes[prefix] ?? []))]
     .map((url) => targetFilesByUrl.get(url))
     .filter((file): file is NonNullable<typeof file> => Boolean(file))
-  const targetShards = await Promise.all(routeFiles.map((file) => loadRuntimeFile<CatalogueTargetRecord[]>(file)))
+  const targetShards = await Promise.all(routeFiles.map((file) => loadWindowedRuntimeFile<CatalogueTargetRecord[]>(file)))
   const wantedTargets = new Set(targetIds)
   const resolutionTargets = Object.fromEntries(targetShards.flat()
     .filter((record) => wantedTargets.has(record.id))
@@ -1321,6 +1352,8 @@ export function runtimeDataUrl(relativeUrl: string): string {
 export function clearRuntimeMemoryCache(): void {
   jsonCache.clear()
   inFlight.clear()
+  windowJsonCache.clear()
+  windowInFlight.clear()
   mapJsonCache.clear()
   mapInFlight.clear()
   loadedPackageSearch.clear()

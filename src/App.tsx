@@ -5,6 +5,7 @@ import { AppShell } from './components/shell/AppShell'
 import { buildRouteHash, parseRouteHash, type AppRoute } from './utils/routing'
 import { useI18n } from './i18n'
 import { isPagesPreview, isPreviewRouteLocked } from './config/pagesPreview'
+import { isBackendConfigured } from './data-client/backendClient'
 import { PagesPreviewGate } from './components/common/PagesPreviewGate'
 
 const datasetVersion = import.meta.env.VITE_DATASET_VERSION
@@ -17,6 +18,8 @@ const MethodsPage = lazy(() => import('./components/pages/InfoPages')
   .then((module) => ({ default: module.MethodsPage })))
 const CatalogueTaxonPage = lazy(() => import('./components/catalogue/CatalogueTaxonPage')
   .then((module) => ({ default: module.CatalogueTaxonPage })))
+const BackendCatalogueTaxonPage = lazy(() => import('./components/catalogue/BackendCatalogueTaxonPage')
+  .then((module) => ({ default: module.BackendCatalogueTaxonPage })))
 const TaxonPage = lazy(() => import('./components/catalog/CatalogPages')
   .then((module) => ({ default: module.TaxonPage })))
 const EventPage = lazy(() => import('./components/catalog/CatalogPages')
@@ -120,7 +123,9 @@ export default function App() {
   if (previewLocked) page = <PagesPreviewGate />
   else if (route === 'explore') page = <ExplorerWorkspace key={routeState.params.toString()} />
   else if (route === 'catalog') page = <CatalogHubPage onNavigate={navigate} />
-  else if (route === 'registry') page = <CatalogueTaxonPage release={routeState.params.get('release')} id={routeState.params.get('id')} onNavigate={navigate} />
+  else if (route === 'registry') page = isBackendConfigured()
+    ? <BackendCatalogueTaxonPage release={routeState.params.get('release')} id={routeState.params.get('id')} onNavigate={navigate} />
+    : <CatalogueTaxonPage release={routeState.params.get('release')} id={routeState.params.get('id')} onNavigate={navigate} />
   else if (route === 'research') page = <ResearchHubPage onNavigate={navigate} />
   else if (route === 'about') page = <AboutPage onNavigate={navigate} />
   else if (route === 'taxa') page = <TaxonPage id={routeState.params.get('id')} onNavigate={navigate} />

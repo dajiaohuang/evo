@@ -7,6 +7,7 @@ import type { SearchResult } from '../../types'
 import { useI18n } from '../../i18n'
 import { getPackagePublication, scientificMaturityLabel } from '../../services/publication'
 import { isPagesPreview, isPreviewRouteLocked } from '../../config/pagesPreview'
+import { isBackendConfigured, loadBackendCapabilities, searchBackendNames, type BackendNameSearchRecord } from '../../data-client/backendClient'
 import './GlobalSearch.css'
 
 type SearchResultKind = SearchResult['kind']
@@ -35,6 +36,8 @@ export function GlobalSearch({ onNavigate }: GlobalSearchProps) {
   const [catalogueTargets, setCatalogueTargets] = useState<Record<string, CatalogueTargetRecord>>({})
   const [catalogueError, setCatalogueError] = useState(false)
   const [catalogueLoading, setCatalogueLoading] = useState(false)
+  const [backendCatalogueResults, setBackendCatalogueResults] = useState<BackendNameSearchRecord[] | null>(null)
+  const [backendReleaseAlias, setBackendReleaseAlias] = useState<string | null>(null)
   const inputRef = useRef<HTMLInputElement>(null)
   const fallbackResults = searchCatalog(query).filter((result) => {
     if (!isPagesPreview) return true
@@ -81,22 +84,39 @@ export function GlobalSearch({ onNavigate }: GlobalSearchProps) {
       if (!isPagesPreview) {
         setCatalogueLoading(true)
         setCatalogueError(false)
-        void searchCatalogue(normalized).then(({ manifest, records, totalMatches, resolutionTargets }) => {
-          if (cancelled) return
-          setCatalogueManifest(manifest)
-          setCatalogueResults(records)
-          setCatalogueTotalMatches(totalMatches)
-          setCatalogueTargets(resolutionTargets)
-          setCatalogueLoading(false)
-        }).catch(() => {
-          if (!cancelled) {
-            setCatalogueResults(null)
-            setCatalogueTotalMatches(0)
-            setCatalogueTargets({})
-            setCatalogueError(true)
+        if (isBackendConfigured()) {
+          void Promise.all([loadBackendCapabilities(), searchBackendNames(normalized, { limit: 24 })]).then(([capabilities, response]) => {
+            if (cancelled) return
+            setBackendReleaseAlias(capabilities.treeIndex.releaseAlias)
+            setBackendCatalogueResults(response.records.filter((record) => record.kind === 'catalogue-name'))
+            setCatalogueTotalMatches(response.totalMatches)
             setCatalogueLoading(false)
-          }
-        })
+          }).catch(() => {
+            if (!cancelled) {
+              setBackendCatalogueResults(null)
+              setCatalogueTotalMatches(0)
+              setCatalogueError(true)
+              setCatalogueLoading(false)
+            }
+          })
+        } else {
+          void searchCatalogue(normalized).then(({ manifest, records, totalMatches, resolutionTargets }) => {
+            if (cancelled) return
+            setCatalogueManifest(manifest)
+            setCatalogueResults(records)
+            setCatalogueTotalMatches(totalMatches)
+            setCatalogueTargets(resolutionTargets)
+            setCatalogueLoading(false)
+          }).catch(() => {
+            if (!cancelled) {
+              setCatalogueResults(null)
+              setCatalogueTotalMatches(0)
+              setCatalogueTargets({})
+              setCatalogueError(true)
+              setCatalogueLoading(false)
+            }
+          })
+        }
       }
     }, 120)
     return () => {
@@ -132,6 +152,8 @@ export function GlobalSearch({ onNavigate }: GlobalSearchProps) {
     setCatalogueTargets({})
     setCatalogueError(false)
     setCatalogueLoading(false)
+    setBackendCatalogueResults(null)
+    setBackendReleaseAlias(null)
     const parsed = parseRouteHash(route)
     onNavigate(parsed.route, Object.fromEntries(parsed.params.entries()))
   }
@@ -158,6 +180,7 @@ export function GlobalSearch({ onNavigate }: GlobalSearchProps) {
                   setQuery(nextQuery)
                   setStaticResults(null)
                   setCatalogueResults(null)
+                  setBackendCatalogueResults(null)
                   setCatalogueTotalMatches(0)
                   setCatalogueTargets({})
                   setCatalogueError(false)
@@ -191,16 +214,40 @@ export function GlobalSearch({ onNavigate }: GlobalSearchProps) {
                 <div className="catalogue-search-heading">
                   <span>{language === 'zh' ? 'Catalogue of Life 命名登记册' : 'Catalogue of Life nomenclatural registry'}</span>
                   <small>
-                    {catalogueManifest?.releaseAlias ?? 'COL26.8'} · {catalogueManifest?.releaseDate ?? '2026-08-20'} · {language === 'zh' ? '上游约 80% 覆盖 · 不等同于内容档案' : '≈80% upstream coverage · not an Atlas dossier'}
-                    {catalogueResults && catalogueTotalMatches > catalogueResults.length
-                      ? ` · ${language === 'zh' ? `显示前 ${catalogueResults.length} / 共 ${catalogueTotalMatches}` : `showing ${catalogueResults.length} of ${catalogueTotalMatches}`}`
+                    {isBackendConfigured()
+                      ? `${backendReleaseAlias ?? 'current'} · ${language === 'zh' ? '后端按需索引 · 不等同于内容档案' : 'backend-routed index · not an Atlas dossier'}`
+                      : `${catalogueManifest?.releaseAlias ?? 'COL26.8'} · ${catalogueManifest?.releaseDate ?? '2026-08-20'} · ${language === 'zh' ? '上游约 80% 覆盖 · 不等同于内容档案' : '≈80% upstream coverage · not an Atlas dossier'}`}
+                    {(catalogueResults || backendCatalogueResults) && catalogueTotalMatches > (catalogueResults?.length ?? backendCatalogueResults?.length ?? 0)
+                      ? ` · ${language === 'zh' ? `显示前 ${catalogueResults?.length ?? backendCatalogueResults?.length ?? 0} / 共 ${catalogueTotalMatches}` : `showing ${catalogueResults?.length ?? backendCatalogueResults?.length ?? 0} of ${catalogueTotalMatches}`}`
                       : ''}
                   </small>
                 </div>
               )}
               {!isPagesPreview && catalogueLoading && <div className="catalogue-search-note">{language === 'zh' ? '正在按需读取名称分片…' : 'Loading the relevant name shard…'}</div>}
               {!isPagesPreview && catalogueError && <div className="catalogue-search-note catalogue-search-note--error">{language === 'zh' ? '物种注册表暂不可用，或分片完整性校验失败。' : 'The species registry is unavailable, or shard verification failed.'}</div>}
-              {!isPagesPreview && (catalogueResults ?? []).map((record) => {
+              {!isPagesPreview && isBackendConfigured() && (backendCatalogueResults ?? []).map((record) => {
+                const targetId = record.acceptedId ?? record.id
+                return <button
+                  type="button"
+                  className="catalogue-search-result"
+                  key={`backend-col:${record.id}`}
+                  onClick={() => {
+                    if (!backendReleaseAlias) return
+                    setOpen(false)
+                    setQuery('')
+                    onNavigate('registry', { release: backendReleaseAlias, id: targetId })
+                  }}
+                >
+                  <span className="search-kind search-kind--catalogue">CoL</span>
+                  <span className="search-result-copy">
+                    <strong><i>{record.title}</i>{record.authorship ? ` ${record.authorship}` : ''}</strong>
+                    <small>{record.status === 'accepted' ? (language === 'zh' ? '已接受物种名' : 'Accepted catalogue name') : `${record.status ?? record.kind} · ${language === 'zh' ? '解析至' : 'resolves to'} ${targetId}`}</small>
+                    <small>{record.source}</small>
+                  </span>
+                  <i aria-hidden="true">→</i>
+                </button>
+              })}
+              {!isPagesPreview && !isBackendConfigured() && (catalogueResults ?? []).map((record) => {
                 const targetId = record.status === 'accepted' ? record.id : record.acceptedId ?? record.id
                 const target = catalogueTargets[targetId]
                 const classification = record.classification
@@ -238,7 +285,7 @@ export function GlobalSearch({ onNavigate }: GlobalSearchProps) {
               {!isPagesPreview && query.trim().length > 0 && query.trim().length < 3 && (
                 <div className="catalogue-search-note">{language === 'zh' ? '输入至少 3 个字符以搜索完整物种登记册。' : 'Type at least 3 characters to search the complete species registry.'}</div>
               )}
-              {results.length === 0 && (catalogueResults?.length ?? 0) === 0 && !catalogueLoading && !catalogueError && query.trim().length >= 3 && (
+              {results.length === 0 && (catalogueResults?.length ?? backendCatalogueResults?.length ?? 0) === 0 && !catalogueLoading && !catalogueError && query.trim().length >= 3 && (
                 <div className="global-search-empty">{t('No catalog entry matches “{query}”.', { query })}</div>
               )}
             </div>
