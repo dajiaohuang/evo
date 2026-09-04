@@ -1,0 +1,122 @@
+{
+  "schemaVersion": 1,
+  "recordType": "release-pinned-authority-archive-crosswalk",
+  "id": "worms-nematomorpha-archive-crosswalk",
+  "packageId": "other-animals",
+  "provider": "World checklist of freshwater Nematomorpha species via ChecklistBank",
+  "rowEncoding": "json",
+  "colIdField": "colId",
+  "totalCountField": "total",
+  "source": {
+    "datasetId": 1119,
+    "title": "World checklist of freshwater Nematomorpha species",
+    "version": "Dec 2010",
+    "versionDoi": "10.48580/d3cm.v8",
+    "license": "CC-BY-4.0",
+    "archiveUrl": "https://api.checklistbank.org/dataset/1119/archive",
+    "archivePath": "data/sources/archives/checklistbank-1119-nematomorpha-2010-12.tar.gz",
+    "metadataPath": "data/sources/archives/checklistbank-1119-nematomorpha-2010-12.metadata.json",
+    "archiveBytes": 9736,
+    "archiveSha256": "cd3de3c03e103e58eaeb02fbf2d7df1b1f75e4ecaa6510f2e8a50bba9523e3b3",
+    "metadataBytes": 2005,
+    "metadataSha256": "41c31e9120d702125200a4456cd0ea151224e1b8c404a024fa470ccc03405809",
+    "members": {
+      "AcceptedInfraspecificTaxa.tsv": {
+        "bytes": 276,
+        "sha256": "fb6e85531bd7bd721030bcfc1f408f0d26f57a653796cdf9304d2bbced6500ef"
+      },
+      "AcceptedSpecies.tsv": {
+        "bytes": 77920,
+        "sha256": "358a80c075420eb7696550f88b694b8ddde86188e5b9a6085c5fa0c0916a02ec"
+      },
+      "CommonNames.tsv": {
+        "bytes": 95,
+        "sha256": "7dd66d992c2eab4da9a5a11c7c8985288f93aa876ac5f2a888595525f74e27cd"
+      },
+      "Distribution.tsv": {
+        "bytes": 12357,
+        "sha256": "af8c5e75575eb94000c4a2cc94f6dc91be668d4b94308a255930d3fdb3c08bff"
+      },
+      "NameReferences.tsv": {
+        "bytes": 35,
+        "sha256": "6515b94a60d1df3d0aec2655bac63aac4542bc0e461aa76c2a29772fbcf30620"
+      },
+      "References.tsv": {
+        "bytes": 49,
+        "sha256": "41e73dd7e0b33539316668307d325e17ff2664cb26eece6f48fb2d858be86870"
+      },
+      "SourceDatabase.tsv": {
+        "bytes": 1078,
+        "sha256": "001521517cc7ee26a6b6d0a6d5120b588e3be084a154a31a32e945a146d8ba6f"
+      },
+      "Synonyms.tsv": {
+        "bytes": 197,
+        "sha256": "edb7544a25852cce0b8661c552df4a3212fc53954ed818806558b2de776e3a55"
+      }
+    }
+  },
+  "scope": {
+    "colRootUsageId": "5B",
+    "sourceDatasetId": 1119,
+    "eligibleColSpecies": 356,
+    "sourceAcceptedSpecies": 356
+  },
+  "matching": {
+    "normalization": "NFC and whitespace normalization only; COL trailing authorship is removed exactly.",
+    "prohibited": "No fuzzy, synonym, case-folded, accent-folded or species-concept matching."
+  },
+  "counts": {
+    "total": 356,
+    "accepted": 356,
+    "redirect": 0,
+    "ambiguous": 0,
+    "unmatched": 0,
+    "withheld": 0,
+    "upstreamOnly": 0,
+    "records": 356
+  },
+  "files": [
+    {
+      "path": "other-animals/worms-nematomorpha-000.json.gz",
+      "records": 356,
+      "bytes": 26200,
+      "sha256": "e7319f567ef019e3dc6128d464c65bd4219defaf141a0ad9856b2fd10c5b2527",
+      "sourceBytes": 643895,
+      "sourceSha256": "2626c95e66b607d7f9772fd0a735465e394507a003017ebe5748e403e17b3962",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "role": "col-partition",
+      "minColId": "3BT8G",
+      "maxColId": "L5H4"
+    }
+  ],
+  "upstreamOnlyFiles": [],
+  "totalCompressedBytes": 26200,
+  "totalSourceBytes": 643895,
+  "deliveryProfiles": {
+    "web-light": {
+      "mode": "summary-only",
+      "records": 0,
+      "files": [],
+      "totalCompressedBytes": 0,
+      "totalSourceBytes": 0
+    },
+    "native-full": {
+      "mode": "complete",
+      "records": 356,
+      "files": [
+        "other-animals/worms-nematomorpha-000.json.gz"
+      ],
+      "totalCompressedBytes": 26200,
+      "totalSourceBytes": 643895
+    }
+  },
+  "evidenceBoundary": {
+    "en": "Historical 2010 freshwater Nematomorpha checklist projection; not a complete current Nematomorpha checklist, global novelty claim or species-concept equivalence.",
+    "zh": "2010 年历史淡水 Nematomorpha 名录投影；不是当前完整 Nematomorpha 名录、全球新增物种声明或物种概念等同性。"
+  },
+  "limitations": [
+    "The source is historical (Dec 2010); no current completeness claim is made.",
+    "Synonyms and infraspecific rows remain only in the pinned archive evidence."
+  ]
+}
