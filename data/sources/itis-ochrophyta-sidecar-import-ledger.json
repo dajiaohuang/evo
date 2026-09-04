@@ -16,28 +16,36 @@
         "path": "data/sources/itis-ochrophyta-col-links/45WNC-col.json",
         "bytes": 1168,
         "sha256": "af91336fc3cc4e795de85e4d436f50d814c1ff31c5e00720b331b74e3880a3e1",
-        "tsn": "573654"
+        "tsn": "573654",
+        "responseUrl": "https://api.checklistbank.org/dataset/316115/nameusage/45WNC",
+        "retrievedAt": "2026-09-04T15:39:27.890Z"
       },
       {
         "colUsageId": "45WWJ",
         "path": "data/sources/itis-ochrophyta-col-links/45WWJ-col.json",
         "bytes": 1179,
         "sha256": "d3939e4b0e7347bae6c1d0c827163c42628fbfb5a354d7165bd647d0f7d52553",
-        "tsn": "1020771"
+        "tsn": "1020771",
+        "responseUrl": "https://api.checklistbank.org/dataset/316115/nameusage/45WWJ",
+        "retrievedAt": "2026-09-04T15:39:28.214Z"
       },
       {
         "colUsageId": "45WXV",
         "path": "data/sources/itis-ochrophyta-col-links/45WXV-col.json",
         "bytes": 1107,
         "sha256": "1aa9def11c72129f1d6e68b67a6cbafddc02c270b99e876a11893fff701a9a02",
-        "tsn": "1020785"
+        "tsn": "1020785",
+        "responseUrl": "https://api.checklistbank.org/dataset/316115/nameusage/45WXV",
+        "retrievedAt": "2026-09-04T15:39:28.522Z"
       },
       {
         "colUsageId": "6RTKD",
         "path": "data/sources/itis-ochrophyta-col-links/6RTKD-col.json",
         "bytes": 1150,
         "sha256": "fd365c716d6f99f6a447ce69886aafffee23de97afdae2429512906630d1e514",
-        "tsn": "1020965"
+        "tsn": "1020965",
+        "responseUrl": "https://api.checklistbank.org/dataset/316115/nameusage/6RTKD",
+        "retrievedAt": "2026-09-04T15:39:28.828Z"
       }
     ]
   },
@@ -88,7 +96,7 @@
       "Preserve case, diacritics, punctuation and all remaining name tokens."
     ],
     "statuses": {
-      "accepted": "The normalized COL name resolves to exactly one accepted ITIS Ochrophyta species and directly equals that current ITIS name; for the four frozen COL source-link rows, the official COL name.link TSN must also equal that accepted candidate.",
+      "accepted": "The normalized COL name either resolves uniquely to a direct accepted ITIS name, or one of four frozen official COL name.link TSNs selects a direct accepted-name candidate from otherwise ambiguous name evidence.",
       "synonym-current-name-redirect": "The normalized COL name equals official ITIS invalid species-name evidence that resolves to exactly one accepted ITIS Ochrophyta species.",
       "ambiguous": "The normalized exact evidence resolves to more than one accepted ITIS Ochrophyta species TSN.",
       "unmatched": "No normalized exact accepted-name or official ITIS species-synonym evidence resolves to an accepted ITIS Ochrophyta species."
@@ -108,8 +116,8 @@
   "output": {
     "descriptor": {
       "path": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-ochrophyta-sidecar.json",
-      "bytes": 6747,
-      "sha256": "1a1209ff7438f682d86490765d3059af97d03e459ee16f4dc870303784842396"
+      "bytes": 7256,
+      "sha256": "6ebde9bc1216e7c1e7d3f50cc0720a1dfcc793c8835c829924c638fdf2045d23"
     },
     "colUsageIdShards": [
       {
@@ -144,7 +152,7 @@
   },
   "generatedBy": {
     "scriptPath": "scripts/build-itis-ochrophyta-sidecar.mjs",
-    "scriptSha256": "528a844296451149bce64a90beb1f38c404487ef382adfd4be1706a1fe7a8937",
+    "scriptSha256": "b7139f31e9d932e324fcbc773aaa19d52c27556a8504fca49cd0a8065ec60588",
     "deterministic": "Pinned input checksums, exact roots, exact SQL, representation-only normalization, code-unit ID ordering and deterministic gzip; no wall-clock fields or fuzzy matching."
   }
 }
