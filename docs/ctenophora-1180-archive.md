@@ -20,7 +20,7 @@ The committed ZIP preserves complete original Name, Taxon, NameReference and
 Reference rows. Projection shards retain selected source name/author/ID
 fields, complete citation objects, and source row locators. The COL partition
 contains 197 records and the independent upstream-only partition contains 4;
-the largest uncompressed shard is 504,367 bytes. Web delivery is
+the largest uncompressed shard is 509,707 bytes. Web delivery is
 summary-only; native-full carries all 201 projected records.
 
 The importer is offline and reproducible with the committed archive and
