@@ -277,7 +277,7 @@ export type ItisMappingStatus = 'accepted' | 'synonym-current-name-redirect' | '
 export interface ItisNomenclatureName {
   tsn: string
   scientificName: string
-  usage?: string
+  usage: string
   credibilityRating?: string | null
   completenessRating?: string | null
   currencyRating?: string | null

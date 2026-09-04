@@ -98,7 +98,7 @@ describe('Myriapoda ITIS evidence disclosure', () => {
     const native = { ...collection, delivery: { ...collection.delivery, profile: 'native-full' as const, completeRows: true } }
     loadMetadata.mockResolvedValue(manifestFor(native))
     loadRecord.mockResolvedValue({ collection: native, record: {
-      status: 'ambiguous', colUsageId: '3S67T', colScientificName: 'Lamyctes andinus', currentName: null,
+      status: 'ambiguous', colUsageId: '3S67T', colScientificName: 'Lamyctes (Metalamyctes) neglectus Lawrence, 1955', currentName: null,
       candidates: [
         { currentName: { tsn: '1089704', scientificName: 'Lamyctes andinus' }, evidence: [{}] },
         { currentName: { tsn: '1089740', scientificName: 'Lamyctes neglectus' }, evidence: [{}] },
@@ -115,7 +115,7 @@ describe('Myriapoda ITIS evidence disclosure', () => {
     const native = { ...collection, delivery: { ...collection.delivery, profile: 'native-full' as const, completeRows: true } }
     loadMetadata.mockResolvedValue(manifestFor(native))
     loadRecord.mockResolvedValue({ collection: native, record: {
-      status: 'synonym-current-name-redirect', colUsageId: '363VR', colScientificName: 'Otostigmus gravelyi',
+      status: 'synonym-current-name-redirect', colUsageId: '363VR', colScientificName: 'Digitipes gravelyi Jangi & Dass, 1984',
       currentName: { tsn: '1090822', scientificName: 'Otostigmus gravelyi', usage: 'valid' },
     } })
     const { container } = render(<MyriapodaItisEvidence colId="363VR" packageId="crustaceans-insects" lineageIds={['93']} zh={false} />)
