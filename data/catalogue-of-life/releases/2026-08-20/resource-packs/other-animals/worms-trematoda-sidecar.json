@@ -1,0 +1,135 @@
+{
+  "schemaVersion": 1,
+  "recordType": "release-pinned-authority-archive-crosswalk",
+  "id": "worms-trematoda-archive-crosswalk",
+  "packageId": "other-animals",
+  "provider": "World Register of Marine Species via ChecklistBank",
+  "rowEncoding": "json",
+  "colIdField": "colId",
+  "totalCountField": "total",
+  "source": {
+    "datasetId": "1128",
+    "title": "World List of Trematoda",
+    "version": "2026-09-01",
+    "versionDoi": "10.48580/d3cx.v86",
+    "metadataBytes": 2227,
+    "metadataSha256": "1ca47fb82724d96f18167770e24b39b9a84172e60931b0d4d5675aea521e8d79",
+    "license": "CC-BY-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "rightsHolder": "WoRMS Editorial Board",
+    "archiveUrl": "https://api.checklistbank.org/dataset/1128/archive",
+    "archiveBytes": 4128567,
+    "archiveSha256": "04440a3f5709ee38f2423d6556b1faea25c62a5421d935ff309ea7a40fc42d78",
+    "members": {
+      "metadata.yml": {
+        "bytes": 1356,
+        "sha256": "90bd7bb23a5104a05b3bf9d4c302602122736e0ef4a5d1aca9e09df81a6e81d0"
+      },
+      "TypeMaterial.txt": {
+        "bytes": 467,
+        "sha256": "0dfe3559e885c8baa68657075ec6b2b8b3efb0de4411fd685d9695f6ce9a8cb8"
+      },
+      "Name.txt": {
+        "bytes": 6723031,
+        "sha256": "2fc43f9adffb23eee1eb1e6aee8bde5424f8640bc33a2dc4b5f984fa716e49b1"
+      },
+      "NameRelation.txt": {
+        "bytes": 2333449,
+        "sha256": "cc9437db5a5d8f50d5e77bbe7a858843d359e66d4c5308548b48966dea3126a3"
+      },
+      "Taxon.txt": {
+        "bytes": 6256806,
+        "sha256": "ebaafffcd8c3efb05557ee6f7235b1f7f25dff40a99415d260e262fc00799621"
+      },
+      "Synonym.txt": {
+        "bytes": 1682708,
+        "sha256": "cbd9a07d4fc92eb1507dcb02312330bb83ca3679316a8e37569cd8794236bea1"
+      },
+      "SpeciesEstimate.txt": {
+        "bytes": 35,
+        "sha256": "552ac985d21f5b6e89941c9a4b07715a7f4a56106b5d50480ecf9dcba5f901e5"
+      },
+      "Reference.txt": {
+        "bytes": 4945058,
+        "sha256": "a8dd267099512aef87e3cb68978edb8a62cadc4be6efd79c171480b05165ea3e"
+      },
+      "NameReference.txt": {
+        "bytes": 8100737,
+        "sha256": "cb4138dbc12b249ca1e9bb5db3fd8610a7427ebf4a7f5e98ba07681c8b818525"
+      },
+      "Distribution.txt": {
+        "bytes": 4630802,
+        "sha256": "1503a0272671bfa4d1d5fccfd5a709e4c7673d631d3822483d4f1a5b3a8c594e"
+      },
+      "Media.txt": {
+        "bytes": 273,
+        "sha256": "d854052bc392b41bf85cac9fd40cc0caa2f56434d83a96818253e560a6520026"
+      },
+      "VernacularName.txt": {
+        "bytes": 2780,
+        "sha256": "f1c76f25bd7d7c4d7abb1bc77dee5b2c3d578ac469c4016c7ea8528d83baf364"
+      }
+    }
+  },
+  "scope": {
+    "colRootUsageId": "JW",
+    "wormsRootId": "19948",
+    "scientificName": "Trematoda",
+    "eligibleColSpecies": 12007,
+    "sourceAcceptedSpecies": 12064,
+    "excludedSourceProvisional": 19
+  },
+  "matching": {
+    "normalization": "NFC and whitespace normalization only; COL trailing authorship is removed exactly.",
+    "prohibited": "No fuzzy, case-folded, accent-folded, synonym or species-concept matching."
+  },
+  "counts": {
+    "total": 12007,
+    "accepted": 11965,
+    "redirect": 0,
+    "ambiguous": 0,
+    "unmatched": 42,
+    "withheld": 0,
+    "sourceOnly": 99,
+    "records": 12106
+  },
+  "files": [
+    {
+      "path": "other-animals/worms-trematoda-000.json.gz",
+      "records": 12007,
+      "bytes": 1002505,
+      "sha256": "51ea729fb7b2229878598210350d96298283c953927bc85a5f78d4f6843d1094",
+      "sourceBytes": 13368643,
+      "sourceSha256": "4dac21b85c952715e411b31e70804cef435e95fa848c63dbda3c1e74889c222c",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "role": "col-partition",
+      "minColId": "32L9P",
+      "maxColId": "ZWYX"
+    }
+  ],
+  "upstreamOnlyFiles": [
+    {
+      "path": "other-animals/worms-trematoda-source-only-000.json.gz",
+      "records": 99,
+      "bytes": 7134,
+      "sha256": "dd2116f3cfbf2911ac6fb7da29304e91552c67161685ad6bdf2f74bb27d5aa8e",
+      "sourceBytes": 78620,
+      "sourceSha256": "eadde7ee90907ae1ed7745395011ce3225047634d981ef1f463e63891a6a491e",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "role": "upstream-only",
+      "minColId": null,
+      "maxColId": null
+    }
+  ],
+  "evidenceBoundary": {
+    "en": "Frozen WoRMS nomenclatural/source projection for the exact COL26.8 source-1128 Trematoda scope; not species-concept equivalence, a biological dossier, fossil evidence or expert review.",
+    "zh": "精确 COL26.8 source-1128 Trematoda 范围的 WoRMS 冻结命名/来源投影；不是物种概念等同性、生物档案、化石证据或专家审查。"
+  },
+  "limitations": [
+    "Source-only rows are relative only to COL source dataset 1128.",
+    "Name.status is nomenclatural metadata and is not used as taxonomic acceptance.",
+    "Synonym.taxonID targets do not remove accepted Taxon rows."
+  ]
+}
