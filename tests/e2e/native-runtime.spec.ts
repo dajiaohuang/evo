@@ -10,9 +10,9 @@ test.beforeEach(async ({ page }) => {
 for (const [id, prefix] of [
   ['322C4', 'worms-mollusca'], ['32N29', 'worms-porifera'],
   ['323D7', 'worms-cnidaria'], ['325RY', 'worms-annelida'], ['3233F', 'osf-orthoptera'],
-  ['87LKG', 'worms-nematoda'], ['322FY', 'worms-crustacea'],
+  ['87LKG', 'worms-nematoda'], ['322FY', 'worms-crustacea'], ['328ST', 'worms-radiozoa'],
 ]) {
-  test(`native data loads ${prefix} and its independent source-only partition on demand`, async ({ page }) => {
+  test(`native data loads ${prefix} and its separate source-only partition on demand`, async ({ page }) => {
     const requests: string[] = []
     page.on('request', (request) => {
       if (request.url().includes(`/${prefix}-`) && request.url().endsWith('.json.gz')) requests.push(request.url())
@@ -26,7 +26,7 @@ for (const [id, prefix] of [
     await expect(details).toContainText('This record: accepted')
     expect(requests).toHaveLength(1)
     expect(requests[0]).not.toContain('/assets/data/')
-    await details.getByText('Browse independent source-only records', { exact: true }).click()
+    await details.getByText('Browse separate source-only records', { exact: true }).click()
     await expect(details.locator('details li').first()).toBeVisible()
     expect(requests.filter((url) => url.includes('upstream-only'))).toHaveLength(1)
     await expect(details).toContainText('These records have no assigned COL ID')

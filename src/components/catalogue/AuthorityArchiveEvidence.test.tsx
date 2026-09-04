@@ -41,14 +41,14 @@ describe('authority archive disclosure', () => {
   })
   it('routes the Radiozoa COL root to the WoRMS archive without loading while collapsed', async () => {
     load.mockResolvedValue({ collection: { ...collection, id: 'worms-radiozoa-archive-crosswalk', packageId: 'protists-chromists' }, record: null })
-    const { container } = render(<AuthorityArchiveEvidence colId="5X444001" packageId="protists-chromists" lineageIds={['5X444']} zh={false} />)
+    const { container } = render(<AuthorityArchiveEvidence colId="328ST" packageId="protists-chromists" lineageIds={['5X']} zh={false} />)
     const details = container.querySelector('details')!
     expect(screen.getByText(/WoRMS · Radiozoa/)).toBeInTheDocument()
     expect(load).not.toHaveBeenCalled()
     details.open = true
     fireEvent(details, new Event('toggle'))
     await screen.findByText(/does not mean this species is unmatched/)
-    expect(load).toHaveBeenCalledWith('protists-chromists', 'worms-radiozoa-archive-crosswalk', '5X444001')
+    expect(load).toHaveBeenCalledWith('protists-chromists', 'worms-radiozoa-archive-crosswalk', '328ST')
   })
   it('shows distinct OSF synonym and accepted Name IDs sharing one target OTU', async () => {
     load.mockResolvedValue({ collection: { ...collection, delivery: { ...collection.delivery, profile: 'native-full', completeRows: true } }, record: {
@@ -75,7 +75,7 @@ describe('authority archive disclosure', () => {
     const details = container.querySelector('details')!
     details.open = true
     fireEvent(details, new Event('toggle'))
-    const summary = await screen.findByText('Browse independent source-only records')
+    const summary = await screen.findByText('Browse separate source-only records')
     expect(sourceOnly).not.toHaveBeenCalled()
     const nested = summary.closest('details')!
     nested.open = true

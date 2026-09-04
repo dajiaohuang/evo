@@ -252,7 +252,7 @@ final class AppConfigurationTests: XCTestCase {
                     : ["itis-chelicerata-tsn-crosswalk"]
                 let expectedFiles = packageId == "crustaceans-insects" ? [99, 40, 3, 2] : [16]
                 let expectedUpstreamFiles = packageId == "crustaceans-insects" ? [1, 1, 1, 1] : [1]
-                let expectedRecords = packageId == "crustaceans-insects" ? [941_223, 80_890, 14_210, 9_668] : [99_511]
+                let expectedRecords = packageId == "crustaceans-insects" ? [941_223, 80_890, 17_351, 9_668] : [99_511]
                 let expectedUpstreamRecords = packageId == "crustaceans-insects" ? [27_357, 5_991, 544, 411] : [5_714]
                 let expectedDescriptorShas = packageId == "crustaceans-insects"
                     ? [

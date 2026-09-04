@@ -111,8 +111,8 @@ const expectedRichItisCollections = {
       arthropod: true,
     },
     'itis-myriapoda-tsn-crosswalk': {
-      files: 2, upstreamFiles: 1, records: 14210, upstreamRecords: 3445,
-      descriptorSha256: '7eeea9a62f0a51150f643c6f14d02511f8ab042b8264e64bbb0ec505520a5ac8',
+      files: 3, upstreamFiles: 1, records: 17351, upstreamRecords: 544,
+      descriptorSha256: 'e9bab54cc70d97d2ca9ce5284c1927f32aec35ef76e16e63cad488d2185ec0c6',
       arthropod: true,
     },
     'itis-collembola-protura-tsn-crosswalk': {
@@ -394,6 +394,17 @@ if (!foraminifera || foraminifera.provider !== 'World Foraminifera Database (WoR
   || foraminifera.files.reduce((sum, file) => sum + file.records, 0) !== 47975) {
   throw new Error('Mobile build must stage the complete Foraminifera WFD authority collection')
 }
+const radiozoa = protistsManifest.extensions?.find((extension) => extension.id === 'worms-radiozoa-archive-crosswalk')
+const radiozoaFiles = [...(radiozoa?.files ?? []), ...(radiozoa?.upstreamOnlyFiles ?? [])]
+if (!radiozoa || radiozoa.provider !== 'World Register of Marine Species via ChecklistBank'
+  || radiozoa.source?.license !== 'CC-BY-4.0' || radiozoa.delivery?.profile !== 'native-full' || radiozoa.delivery?.completeRows !== true
+  || radiozoa.files?.length !== 1 || radiozoa.upstreamOnlyFiles?.length !== 1
+  || radiozoa.delivery?.publishedFileCount !== 2 || radiozoa.delivery?.canonicalFileCount !== 2
+  || radiozoa.counts?.total !== 444 || radiozoa.counts?.accepted !== 444 || radiozoa.counts?.upstreamOnly !== 54
+  || radiozoaFiles.reduce((sum, file) => sum + file.records, 0) !== 498
+  || radiozoaFiles.some((file) => !releaseFiles.files.some((entry) => entry.url === file.url && entry.bytes === file.bytes && entry.sha256 === file.sha256))) {
+  throw new Error('Mobile build must stage every WoRMS Radiozoa COL and source-only archive shard')
+}
 const expectedProtistAuthorities = {
   'itis-ciliophora-tsn-crosswalk': { files: 4, records: 8665 },
   'itis-apicomplexa-tsn-crosswalk': { files: 1, records: 21 },
@@ -421,7 +432,7 @@ const expectedProtistAuthorities = {
   'itis-katablepharidota-tsn-crosswalk': { files: 0, records: 0 },
   'itis-hemimastigophora-tsn-crosswalk': { files: 0, records: 0 },
 }
-if (protistsManifest.extensions?.length !== Object.keys(expectedProtistAuthorities).length + 1) {
+if (protistsManifest.extensions?.length !== Object.keys(expectedProtistAuthorities).length + 2) {
   throw new Error('Mobile build must stage every declared protists/chromists authority collection')
 }
 for (const [id, expected] of Object.entries(expectedProtistAuthorities)) {
