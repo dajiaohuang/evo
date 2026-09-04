@@ -1,0 +1,144 @@
+package main
+
+import (
+	"encoding/json"
+	"flag"
+	"fmt"
+	"io"
+	"net/http"
+	"net/http/httptest"
+	"runtime"
+	"sort"
+	"sync"
+	"time"
+
+	"github.com/dajiaohuang/evo/backend/internal/api"
+	"github.com/dajiaohuang/evo/backend/internal/store"
+)
+
+type sample struct {
+	Name          string          `json:"-"`
+	Latencies     []time.Duration `json:"-"`
+	Errors        int             `json:"errors"`
+	ResponseBytes int64           `json:"-"`
+	Wall          time.Duration   `json:"-"`
+}
+
+func main() {
+	root := flag.String("data-root", "..", "Evo repository root containing data/")
+	rounds := flag.Int("rounds", 20, "sequential warm requests per endpoint")
+	concurrency := flag.Int("concurrency", 16, "parallel workers for the mixed request test")
+	flag.Parse()
+	started := time.Now()
+	data, err := store.New(*root)
+	if err != nil {
+		panic(err)
+	}
+	loadDuration := time.Since(started)
+	server := httptest.NewServer(api.NewHandler(data))
+	defer server.Close()
+	client := server.Client()
+	measure := func(name, target string, headers map[string]string, count int) sample {
+		started := time.Now()
+		result := sample{Name: name, Latencies: make([]time.Duration, 0, count)}
+		for i := 0; i < count; i++ {
+			request, _ := http.NewRequest(http.MethodGet, server.URL+target, nil)
+			for key, value := range headers {
+				request.Header.Set(key, value)
+			}
+			requestStarted := time.Now()
+			response, requestErr := client.Do(request)
+			if requestErr != nil {
+				result.Errors++
+				continue
+			}
+			bytes, _ := io.Copy(io.Discard, response.Body)
+			_ = response.Body.Close()
+			result.Latencies = append(result.Latencies, time.Since(requestStarted))
+			result.ResponseBytes += bytes
+			if response.StatusCode < 200 || response.StatusCode >= 300 {
+				result.Errors++
+			}
+		}
+		result.Wall = time.Since(started)
+		return result
+	}
+	cold := measure("cold routed search", "/v1/search/names?q=perissodactyla&limit=20", nil, 1)
+	warm := measure("warm routed search", "/v1/search/names?q=perissodactyla&limit=20", nil, *rounds)
+	entity := measure("entity evidence", "/v1/entities/perissodactyla/evidence", nil, *rounds)
+	rangeRequest := measure("resource range", "/v1/resources/data/manifest.json", map[string]string{"Range": "bytes=0-1023"}, *rounds)
+	mixed := make([]time.Duration, 0, *concurrency**rounds)
+	var mixedBytes int64
+	mixedStarted := time.Now()
+	var mixedMu sync.Mutex
+	var waitGroup sync.WaitGroup
+	for worker := 0; worker < *concurrency; worker++ {
+		waitGroup.Add(1)
+		go func() {
+			defer waitGroup.Done()
+			for i := 0; i < *rounds; i++ {
+				target := "/v1/entities/perissodactyla/evidence"
+				if i%2 == 0 {
+					target = "/v1/search/names?q=perissodactyla&limit=20"
+				}
+				requestStarted := time.Now()
+				response, requestErr := client.Get(server.URL + target)
+				var bytes int64
+				if requestErr == nil {
+					bytes, _ = io.Copy(io.Discard, response.Body)
+					_ = response.Body.Close()
+				}
+				if requestErr == nil {
+					mixedMu.Lock()
+					mixed = append(mixed, time.Since(requestStarted))
+					mixedBytes += bytes
+					mixedMu.Unlock()
+				}
+			}
+		}()
+	}
+	waitGroup.Wait()
+	mixedWall := time.Since(mixedStarted)
+	runtime.GC()
+	var memory runtime.MemStats
+	runtime.ReadMemStats(&memory)
+	output := map[string]any{
+		"datasetVersion": data.Snapshot().Manifest.DatasetVersion, "goVersion": runtime.Version(), "os": runtime.GOOS, "arch": runtime.GOARCH, "cpuCount": runtime.NumCPU(),
+		"startupLoadMs": float64(loadDuration.Microseconds()) / 1000, "heapAllocBytes": memory.HeapAlloc, "heapInuseBytes": memory.HeapInuse,
+		"samples": []any{stats(cold), stats(warm), stats(entity), stats(rangeRequest), stats(sample{Name: "mixed concurrent", Latencies: mixed, ResponseBytes: mixedBytes, Wall: mixedWall})},
+	}
+	b, _ := json.MarshalIndent(output, "", "  ")
+	fmt.Println(string(b))
+}
+
+func stats(value sample) map[string]any {
+	result := map[string]any{"name": value.Name, "count": len(value.Latencies), "errors": value.Errors, "responseBytes": value.ResponseBytes}
+	if len(value.Latencies) == 0 {
+		return result
+	}
+	values := append([]time.Duration(nil), value.Latencies...)
+	sort.Slice(values, func(i, j int) bool { return values[i] < values[j] })
+	percentile := func(p float64) float64 {
+		index := int(float64(len(values)-1) * p)
+		return float64(values[index].Microseconds()) / 1000
+	}
+	result["p50Ms"] = percentile(.50)
+	result["p95Ms"] = percentile(.95)
+	result["p99Ms"] = percentile(.99)
+	wall := value.Wall
+	if wall <= 0 {
+		wall = time.Duration(sumSeconds(values) * float64(time.Second))
+	}
+	result["throughputPerSecond"] = float64(len(values)) / wall.Seconds()
+	return result
+}
+func sumSeconds(values []time.Duration) float64 {
+	var total time.Duration
+	for _, value := range values {
+		total += value
+	}
+	if total <= 0 {
+		return 0
+	}
+	return total.Seconds()
+}
