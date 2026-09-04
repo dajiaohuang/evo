@@ -21,8 +21,10 @@ from typing import Iterable
 ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_ARCHIVE = ROOT / "data/sources/archives/checklistbank-2144-itis-2026-08-26.zip"
 DEFAULT_METADATA = ROOT / "data/sources/archives/checklistbank-2144-itis-2026-08-26.metadata.json"
-DEFAULT_OUTPUT = ROOT / "data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals"
+GLOBAL_SOURCE_ROOT = ROOT / "data/catalogue-of-life/releases/2026-08-20/global-sources"
+DEFAULT_OUTPUT = GLOBAL_SOURCE_ROOT / "itis"
 DEFAULT_DESCRIPTOR = DEFAULT_OUTPUT / "itis-global-original-rc130.json"
+DEFAULT_GLOBAL_MANIFEST = GLOBAL_SOURCE_ROOT / "manifest.json"
 DEFAULT_LEDGER = ROOT / "data/sources/itis-global-original-rc130-import-ledger.json"
 
 ARCHIVE_URL = "https://api.checklistbank.org/dataset/2144/archive"
@@ -30,7 +32,9 @@ METADATA_URL = "https://api.checklistbank.org/dataset/2144"
 ARCHIVE_BYTES = 37_788_923
 ARCHIVE_SHA256 = "d844f03071ea8ddf144d11098543b4066cb5f80d23263beb8f088d144a99b906"
 METADATA_BYTES = 5_330
-METADATA_SHA256 = "549705717476709f6a86b521ebbe1b8e05abc963773b2d037c155b5d7681c9fd"
+METADATA_SHA256 = "99d9565c8db35946009477507a94395c22cbe92b01bc307e31aebf5679234a60"
+ARCHIVE_METADATA_VERSION = "2026-07-28"
+ARCHIVE_METADATA_VERSION_DOI = "10.48580/d4ky.v118"
 SOURCE_LIMIT_BYTES = 1_750 * 1024
 
 MEMBERS = (
@@ -129,7 +133,7 @@ def emit_member(archive: zipfile.ZipFile, member: str, output: Path) -> dict[str
         first = json.loads(current[0])
         last = json.loads(current[-1])
         descriptor = {
-            "path": f"data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals/{filename}",
+            "path": relative_path(output / filename),
             "member": member,
             "records": len(current),
             "bytes": len(compressed),
@@ -198,6 +202,7 @@ def main() -> None:
     parser.add_argument("--metadata", type=Path, default=DEFAULT_METADATA)
     parser.add_argument("--output-root", type=Path, default=DEFAULT_OUTPUT)
     parser.add_argument("--descriptor", type=Path, default=DEFAULT_DESCRIPTOR)
+    parser.add_argument("--global-manifest", type=Path, default=DEFAULT_GLOBAL_MANIFEST)
     parser.add_argument("--ledger", type=Path, default=DEFAULT_LEDGER)
     args = parser.parse_args()
 
@@ -210,8 +215,10 @@ def main() -> None:
     metadata = json.loads(args.metadata.read_bytes())
     expected = {
         "key": 2144,
+        "attempt": 118,
         "version": "2026-08-26",
-        "versionDoi": "10.48580/d4ky.v120",
+        "versionDoi": ARCHIVE_METADATA_VERSION_DOI,
+        "label": f"The Integrated Taxonomic Information System ({ARCHIVE_METADATA_VERSION})",
         "doi": "10.48580/d4ky",
         "lastImportState": "finished",
     }
@@ -223,6 +230,26 @@ def main() -> None:
     with zipfile.ZipFile(args.archive) as archive:
         if set(archive.namelist()) != set(MEMBERS) | {"metadata.yaml"}:
             raise ValueError(f"unexpected archive members: {archive.namelist()}")
+        archive_metadata = archive.read("metadata.yaml")
+        archive_metadata_text = archive_metadata.decode("utf-8")
+        archive_metadata_checks = {
+            "attempt": re.search(r"(?m)^attempt:\s*'?([0-9]+)'?\s*$", archive_metadata_text),
+            "versionDoi": re.search(r"(?m)^versionDoi:\s*([^\s]+)\s*$", archive_metadata_text),
+            "label": re.search(r"(?m)^label:\s*'?(.+?)'?\s*$", archive_metadata_text),
+        }
+        if not all(archive_metadata_checks.values()):
+            raise ValueError("archive metadata.yaml is missing pinned identity fields")
+        archive_metadata_identity = {
+            "member": "metadata.yaml",
+            "bytes": len(archive_metadata),
+            "sha256": digest(archive_metadata),
+            "attempt": int(archive_metadata_checks["attempt"].group(1)),
+            "versionDoi": archive_metadata_checks["versionDoi"].group(1),
+            "label": archive_metadata_checks["label"].group(1),
+            "citationVersion": ARCHIVE_METADATA_VERSION,
+        }
+        if archive_metadata_identity["attempt"] != 118 or archive_metadata_identity["versionDoi"] != ARCHIVE_METADATA_VERSION_DOI or archive_metadata_identity["label"] != expected["label"] or f"Version {ARCHIVE_METADATA_VERSION}" not in archive_metadata_text:
+            raise ValueError(f"unexpected pinned archive metadata identity: {archive_metadata_identity}")
         members = [emit_member(archive, member, args.output_root) for member in MEMBERS]
         archive_members = [
             {"member": member, **archive_member_identity(archive, member)}
@@ -248,7 +275,9 @@ def main() -> None:
             "provider": metadata["title"],
             "title": metadata["title"],
             "alias": metadata["alias"],
+            "attempt": metadata["attempt"],
             "version": metadata["version"],
+            "label": metadata["label"],
             "issued": metadata["issued"],
             "doi": metadata["doi"],
             "versionDoi": metadata["versionDoi"],
@@ -268,6 +297,7 @@ def main() -> None:
             "editors": metadata["editor"],
             "contributors": metadata["contributor"],
             "archiveMembers": archive_members,
+            "archiveMetadata": archive_metadata_identity,
             "members": members,
         },
         "projection": {
@@ -304,6 +334,31 @@ def main() -> None:
     }
     descriptor_bytes = json_bytes(descriptor, pretty=True)
     args.descriptor.write_bytes(descriptor_bytes)
+    global_manifest = {
+        "schemaVersion": 1,
+        "recordType": "release-pinned-global-source-layer-manifest",
+        "id": "global-sources",
+        "releaseAlias": "COL26.8",
+        "releaseDate": "2026-08-20",
+        "defaultLoading": "descriptor-only",
+        "statement": "Global authority collections remain outside package ownership and the default native package budget. Runtime consumers may opt into the descriptor and stream its checksum-addressed shards.",
+        "sources": [{
+            "id": descriptor["id"],
+            "provider": descriptor["source"]["provider"],
+            "taxonomicScope": descriptor["scope"]["taxonomic"],
+            "descriptorPath": relative_path(args.descriptor),
+            "descriptorSha256": digest(descriptor_bytes),
+            "deliveryProfiles": descriptor["deliveryProfiles"],
+            "runtime": {
+                "default": "descriptor-only",
+                "optIn": "stream-native-full-shards",
+                "web": "web-light",
+                "native": "native-full",
+            },
+        }],
+    }
+    args.global_manifest.parent.mkdir(parents=True, exist_ok=True)
+    args.global_manifest.write_bytes(json_bytes(global_manifest, pretty=True))
     ledger = {
         "schemaVersion": 1,
         "importType": "checklistbank-2144-global-original-archive-projection",
@@ -316,6 +371,7 @@ def main() -> None:
             "metadataSha256": METADATA_SHA256,
             "archiveUrl": ARCHIVE_URL,
             "metadataUrl": METADATA_URL,
+            "archiveMetadata": archive_metadata_identity,
         },
         "counts": counts,
         "projectedRecords": projected,
@@ -323,6 +379,11 @@ def main() -> None:
             "path": relative_path(args.descriptor),
             "bytes": len(descriptor_bytes),
             "sha256": digest(descriptor_bytes),
+        },
+        "globalSourceManifest": {
+            "path": relative_path(args.global_manifest),
+            "bytes": args.global_manifest.stat().st_size,
+            "sha256": digest(args.global_manifest.read_bytes()),
         },
         "files": files,
         "deterministic": "Pinned archive and metadata bytes, exact UTF-8 field preservation, source row locators, fixed byte shard limit and deterministic gzip; no wall-clock fields or fuzzy matching.",

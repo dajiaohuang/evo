@@ -15,6 +15,8 @@
 
 - The Picozoa authority boundary sidecar derives from the CC BY 4.0 Catalogue of Life release `2026-08-20` (DOI `10.48580/dgywk`) and the official CC0 ITIS monthly SQLite export `itisSqlite082626` dated 2026-08-26 (DOI `10.5066/F7KH0KBK`). Neither pinned authority has an exact `Picozoa` root, and named nearby-name checks found no authority records; no neighboring taxon is substituted. The sidecar therefore contains zero inferred rows and an explicit empty native-full shard. Pages receives the descriptor summary.
 
+- RC130 retains the complete ChecklistBank ITIS dataset `2144` under CC0 1.0. Its archive-internal metadata identifies attempt 118, source version `2026-07-28` and version DOI `10.48580/d4ky.v118`. The six original tabular members are projected into 674 checksum-addressed JSONL gzip shards in the neutral global-source layer; no filter or species-concept equivalence is asserted. Pages receives descriptor-only metadata, and a future native runtime may stream the complete source layer. See [ITIS global source layer](docs/itis-global-source-layer.md).
+
 - Paleobiology Database occurrence, taxonomy, collection, reference and paleocoordinate fields are retrieved through Data Service 1.2. Cite Peters & McClennen (2016), the PBDB, and the primary references retained by occurrence ID.
 - Geological boundary values and display colors are derived from the International Chronostratigraphic Chart 2026/06. Copyright belongs to the International Commission on Stratigraphy; the current chart is offered under CC BY 4.0.
 - Open Tree of Life is used as topology and taxonomy context only; the atlas-wide navigation ontology is not presented as an OpenTree export or as a phylogenetic hypothesis.

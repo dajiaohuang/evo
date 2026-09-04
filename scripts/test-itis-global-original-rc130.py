@@ -10,7 +10,8 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[1]
-DESCRIPTOR = ROOT / "data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals/itis-global-original-rc130.json"
+DESCRIPTOR = ROOT / "data/catalogue-of-life/releases/2026-08-20/global-sources/itis/itis-global-original-rc130.json"
+GLOBAL_MANIFEST = ROOT / "data/catalogue-of-life/releases/2026-08-20/global-sources/manifest.json"
 ARCHIVE = ROOT / "data/sources/archives/checklistbank-2144-itis-2026-08-26.zip"
 METADATA = ROOT / "data/sources/archives/checklistbank-2144-itis-2026-08-26.metadata.json"
 
@@ -27,7 +28,8 @@ def main() -> None:
     descriptor = json.loads(DESCRIPTOR.read_bytes())
     metadata = json.loads(METADATA.read_bytes())
     assert descriptor["datasetKey"] == metadata["key"] == 2144
-    assert descriptor["source"]["versionDoi"] == metadata["versionDoi"] == "10.48580/d4ky.v120"
+    assert descriptor["source"]["versionDoi"] == metadata["versionDoi"] == "10.48580/d4ky.v118"
+    assert descriptor["source"]["label"] == metadata["label"] == "The Integrated Taxonomic Information System (2026-07-28)"
     assert descriptor["source"]["doi"] == metadata["doi"] == "10.48580/d4ky"
     assert descriptor["source"]["editors"] == metadata["editor"]
     assert descriptor["source"]["contributors"] == metadata["contributor"]
@@ -37,6 +39,11 @@ def main() -> None:
     assert ARCHIVE.stat().st_size == descriptor["source"]["archiveBytes"]
     assert sha256(METADATA) == descriptor["source"]["metadataSha256"]
     assert METADATA.stat().st_size == descriptor["source"]["metadataBytes"]
+    global_manifest = json.loads(GLOBAL_MANIFEST.read_bytes())
+    assert global_manifest["id"] == "global-sources"
+    assert global_manifest["defaultLoading"] == "descriptor-only"
+    assert global_manifest["sources"][0]["descriptorPath"] == "data/catalogue-of-life/releases/2026-08-20/global-sources/itis/itis-global-original-rc130.json"
+    assert global_manifest["sources"][0]["descriptorSha256"] == sha256(DESCRIPTOR)
 
     with zipfile.ZipFile(ARCHIVE) as archive:
         archive_members = {item["member"]: item for item in descriptor["source"]["archiveMembers"]}
@@ -49,6 +56,11 @@ def main() -> None:
                 while block := stream.read(1024 * 1024):
                     digest.update(block)
             assert digest.hexdigest() == identity["sha256"]
+        archive_metadata = archive.read("metadata.yaml").decode("utf-8")
+        assert "attempt: 118" in archive_metadata
+        assert "versionDoi: 10.48580/d4ky.v118" in archive_metadata
+        assert "Version 2026-07-28" in archive_metadata
+        assert descriptor["source"]["archiveMetadata"]["sha256"] == hashlib.sha256(archive.read("metadata.yaml")).hexdigest()
 
     total_records = 0
     total_compressed = 0
