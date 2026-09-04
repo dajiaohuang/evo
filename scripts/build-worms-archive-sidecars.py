@@ -22,9 +22,10 @@ SPECS = {
     'annelida': ('other-animals', 'NN', '882', 'Annelida', 18982),
     'nematoda': ('other-animals', 'NM', '799', 'Nematoda', 19604),
     'crustacea': ('crustaceans-insects', 'KZX8B', '1066', 'Crustacea', 80890),
+    'radiozoa': ('protists-chromists', '5X', '582421', 'Radiozoa', 444),
 }
 LEGACY_SPECS = {key: spec for key, spec in SPECS.items() if key not in {'annelida', 'nematoda', 'crustacea'}}
-RESOURCE_PACK_SCOPES = {'annelida', 'nematoda'}
+RESOURCE_PACK_SCOPES = {'annelida', 'nematoda', 'radiozoa'}
 ARTHROPODA_SCOPES = {'crustacea'}
 LIMIT = 2 * 1024 * 1024
 
@@ -123,7 +124,8 @@ def chunks(rows):
 
 def output_directory(key, package):
     if key in RESOURCE_PACK_SCOPES:
-        return ROOT / 'data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals'
+        pack = 'protists-chromists' if key == 'radiozoa' else 'other-animals'
+        return ROOT / f'data/catalogue-of-life/releases/2026-08-20/resource-packs/{pack}'
     if key in ARTHROPODA_SCOPES:
         return ROOT / f'data/packages/arthropoda/{package}/nomenclature'
     return ROOT / f'data/packages/invertebrata/{package}/nomenclature'
