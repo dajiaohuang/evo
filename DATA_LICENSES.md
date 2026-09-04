@@ -1,5 +1,16 @@
 # Data licenses and provenance
 
+RC116 also retains the small set of official ChecklistBank COL26.8 name records,
+contributor-source relations and source name responses needed for 40 corrected
+links. These are attributed to Catalogue of Life under CC BY 4.0 (DOI
+`10.48580/dgywk`), with CilCat/Eumycetozoa/Gymnodinium source attribution and
+licences preserved separately below. The four ITIS target links refer to the
+existing CC0 ITIS projection; their supporting COL response bytes remain CC BY
+4.0. Response URLs, original bytes and digests are retained under
+`data/sources/authority-link-evidence/`, `data/sources/itis-ochrophyta-col-links/`
+and `data/sources/cilcat-1113-source-relations*`. No linked web pages or cited
+publications are copied.
+
 The MIT license in `LICENSE` applies to software only. It does not relicense third-party scientific data, publications, names, institutional pages or media.
 
 The RC115 original-source archives are separately attributed: Aescht, E. (2012), *The World Ciliate Catalog*, version 4.0, Jan 2012 ([10.48580/d3cf.v11](https://doi.org/10.48580/d3cf.v11)), and Lado, C. & Hernández-Crespo, J. C. (2024), *Nomenclatural Database of Eumycetozoa (Myxomycota)*, May 2024 ([10.48580/d39c.v28](https://doi.org/10.48580/d39c.v28)), under CC BY 4.0; Thessen, A. (2017), *The dinoflagellate genus Gymnodinium checklist*, version 0.1 ([10.48580/d3fm.v8](https://doi.org/10.48580/d3fm.v8)), is CC0. These three frozen archives are committed under `data/sources/archives/`; their source-specific import ledgers pin the actual bytes. The derived projections retain COL26.8 identifiers and attribution (CC BY 4.0, DOI `10.48580/dgywk`) separately from each source's licence. Original nomenclatural reference metadata is retained, not the referenced publications or linked website contents. None asserts provider endorsement, independent scientific corroboration or species-concept equivalence. See [CilCat](docs/cilcat-1113-archive.md), [Eumycetozoa](docs/eumycetozoa-archive.md) and [Gymnodinium](docs/gymnodinium-archive.md).

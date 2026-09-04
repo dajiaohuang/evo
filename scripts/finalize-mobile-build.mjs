@@ -415,9 +415,9 @@ if (!trichomycetes || trichomycetes.source?.license !== 'CC-BY-4.0'
   throw new Error('Mobile build must stage the complete Trichomycetes source1033 nomenclatural archive projection')
 }
 for (const [id, total, accepted, upstreamOnly, fileCount, license] of [
-  ['cilcat-1113-archive-crosswalk', 8505, 8477, 55, 2, 'CC-BY-4.0'],
-  ['eumycetozoa-archive-crosswalk', 1337, 1330, 0, 1, 'CC-BY-4.0'],
-  ['gymnodinium-archive-crosswalk', 259, 258, 1, 2, 'CC0-1.0'],
+  ['cilcat-1113-archive-crosswalk', 8505, 8505, 27, 2, 'CC-BY-4.0'],
+  ['eumycetozoa-archive-crosswalk', 1337, 1337, 0, 1, 'CC-BY-4.0'],
+  ['gymnodinium-archive-crosswalk', 259, 259, 0, 2, 'CC0-1.0'],
 ]) {
   const source = protistsManifest.extensions?.find((extension) => extension.id === id)
   const payloads = [...(source?.files ?? []), ...(source?.upstreamOnlyFiles ?? [])]
@@ -437,7 +437,7 @@ const expectedProtistAuthorities = {
   'itis-euglenozoa-tsn-crosswalk': { files: 1, records: 276 },
   'itis-cercozoa-tsn-crosswalk': { files: 1, records: 52 },
   'itis-haptophyta-tsn-crosswalk': { files: 1, records: 90 },
-  'itis-ochrophyta-tsn-crosswalk': { files: 2, records: 3397 },
+  'itis-ochrophyta-tsn-crosswalk': { files: 2, records: 3399 },
   'itis-amoebozoa-tsn-crosswalk': { files: 1, records: 1337 },
   'itis-rhodophyta-tsn-crosswalk': { files: 1, records: 1616 },
   'itis-oomycota-tsn-crosswalk': { files: 2, records: 1536 },

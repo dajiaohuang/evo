@@ -940,8 +940,8 @@
         "license": "CC0-1.0",
         "citationDoi": "10.5066/F7KH0KBK",
         "canonicalDescriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-ochrophyta-sidecar.json",
-        "canonicalDescriptorBytes": 5639,
-        "canonicalDescriptorSha256": "9af9268af58a0468315c667e44cc63a389a658ec71ccb9a309239fc2371afffd"
+        "canonicalDescriptorBytes": 7256,
+        "canonicalDescriptorSha256": "6ebde9bc1216e7c1e7d3f50cc0720a1dfcc793c8835c829924c638fdf2045d23"
       },
       "scope": {
         "packageRootUsageIds": [
@@ -978,7 +978,7 @@
           "Preserve case, diacritics, punctuation and all remaining name tokens."
         ],
         "statuses": {
-          "accepted": "The normalized COL name resolves to exactly one accepted ITIS Ochrophyta species and directly equals that current ITIS name.",
+          "accepted": "The normalized COL name either resolves uniquely to a direct accepted ITIS name, or one of four frozen official COL name.link TSNs selects a direct accepted-name candidate from otherwise ambiguous name evidence.",
           "synonym-current-name-redirect": "The normalized COL name equals official ITIS invalid species-name evidence that resolves to exactly one accepted ITIS Ochrophyta species.",
           "ambiguous": "The normalized exact evidence resolves to more than one accepted ITIS Ochrophyta species TSN.",
           "unmatched": "No normalized exact accepted-name or official ITIS species-synonym evidence resolves to an accepted ITIS Ochrophyta species."
@@ -991,23 +991,23 @@
       },
       "counts": {
         "eligible": 1101,
-        "records": 3397,
-        "accepted": 1097,
+        "records": 3399,
+        "accepted": 1101,
         "redirects": 0,
-        "ambiguous": 4,
+        "ambiguous": 0,
         "unmatched": 0,
         "withheld": 0,
-        "upstreamOnly": 2296,
+        "upstreamOnly": 2298,
         "nonApplicable": 60417
       },
       "files": [
         {
           "path": "protists-chromists/itis-ochrophyta-sidecar-0000.jsonl.gz",
           "records": 1101,
-          "bytes": 31096,
-          "sourceBytes": 419223,
-          "sha256": "925e9d826131c71e289c20924be14a2f0281ae1839390d03f0aa086eea8c732f",
-          "sourceSha256": "e2cc9d61fc94c195a56eeb9f92ecc21f31726440e8af9c692a9dfbfe327d3097",
+          "bytes": 31384,
+          "sourceBytes": 420906,
+          "sha256": "9f9c38fdb0eb3897fd5c8c16d8230ca89f80ac10b1ef97527dae6dc2d7aa5c97",
+          "sourceSha256": "4c167ec532bfdadcc10ee7d175f4f7c954094a2a7164b79306ab80229155cf4a",
           "encoding": "gzip",
           "mediaType": "application/x-ndjson",
           "minColId": "45W37",
@@ -1016,19 +1016,19 @@
         },
         {
           "path": "protists-chromists/itis-ochrophyta-upstream-only-0000.jsonl.gz",
-          "records": 2296,
-          "bytes": 28614,
-          "sourceBytes": 841159,
-          "sha256": "a4eb096b3c447616c3d029e89247f31d083e554797885c516ea426be6d242a67",
-          "sourceSha256": "8e345f3a62e674de6cd467d6edb0ac627fa64ac75a426f998db1a2c2019221c7",
+          "records": 2298,
+          "bytes": 29465,
+          "sourceBytes": 1044108,
+          "sha256": "03e9c9fbcebfcec14972d1f85ed3bececec0cdaf0b91ae35aa4228734f9cee6c",
+          "sourceSha256": "abb989eef393d95d7726201c31680800463d9592146f959eb815e2f4193b8217",
           "encoding": "gzip",
           "mediaType": "application/x-ndjson",
           "colOwnership": null,
           "role": "upstream-only"
         }
       ],
-      "totalCompressedBytes": 59710,
-      "totalSourceBytes": 1260382,
+      "totalCompressedBytes": 60849,
+      "totalSourceBytes": 1465014,
       "deliveryProfiles": {
         "web-light": {
           "payload": "summary-only",
@@ -1044,9 +1044,9 @@
             "protists-chromists/itis-ochrophyta-sidecar-0000.jsonl.gz",
             "protists-chromists/itis-ochrophyta-upstream-only-0000.jsonl.gz"
           ],
-          "records": 3397,
-          "totalCompressedBytes": 59710,
-          "totalSourceBytes": 1260382
+          "records": 3399,
+          "totalCompressedBytes": 60849,
+          "totalSourceBytes": 1465014
         }
       },
       "limitations": [
@@ -4649,11 +4649,18 @@
             "sha256": "d8d13ca443a1e0abc768bd2da3531a04efd31b8620aa0121eb44b90c8050b5d2"
           }
         },
+        "relationEvidencePath": "data/sources/cilcat-1113-source-relations-2026-09-04.json",
+        "relationEvidenceBytes": 10472,
+        "relationEvidenceSha256": "bed5dba0300ba76a49c605c2b819c4b549b82265d777f783ab2f6146409e202f",
+        "relationRawEvidencePath": "data/sources/cilcat-1113-source-relations-raw-2026-09-04.json.gz",
+        "relationRawEvidenceBytes": 6426,
+        "relationRawEvidenceSha256": "574e9634b9419306ebf4842ad24f1c1c3b2b7eaa35d681a043e2c14bec67e597",
+        "relationCount": 28,
         "canonicalDescriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/cilcat-sidecar.json",
-        "canonicalDescriptorBytes": 4818,
-        "canonicalDescriptorSha256": "ab177a69c35cdedb794f2f150ce23f5f25ccd71213c9545688fb48a05bf41d68",
+        "canonicalDescriptorBytes": 5423,
+        "canonicalDescriptorSha256": "b13316b99386f5c4e88f7eb843ad7e8afdf2b47b6ea7b18f73dcb81806d89d48",
         "sourceLedgerPath": "data/sources/cilcat-1113-archive-import-ledger.json",
-        "sourceLedgerSha256": "295ecb15cb81fa9f66ac3b654742c61054f92b663ac554aebef2b23c9080c4c4"
+        "sourceLedgerSha256": "d3e9f650e503267c97f3618c03ab66d3ba5cb8ce12d77f7b4e5cebc4206814ef"
       },
       "scope": {
         "colSourceDatasetId": "1113",
@@ -4662,9 +4669,9 @@
         "projectedSpecies": 8505,
         "sourceAcceptedSpecies": 8532,
         "sourceProvisionalSpecies": 81,
-        "sourceOnlyAccepted": 55,
+        "sourceOnlyAccepted": 27,
         "excludedSourceProvisional": 81,
-        "matchingKey": "official sourceDatasetId=1113 plus exact full source display-name or exact separated scientific-name+authorship match; non-empty authorship conflicts remain unresolved"
+        "matchingKey": "Strict full display-name or separated name+authorship matching for 8,477 rows; 28 additional accepted outcomes use frozen COL source relations keyed to exact AcceptedTaxonID; no name-only fallback"
       },
       "matching": {
         "normalization": "UTF-8 quoted TSV; Unicode whitespace collapse only; case, diacritics, punctuation and empty fields preserved.",
@@ -4672,22 +4679,22 @@
       },
       "counts": {
         "total": 8505,
-        "accepted": 8477,
+        "accepted": 8505,
         "redirect": 0,
         "ambiguous": 0,
-        "unmatched": 28,
+        "unmatched": 0,
         "withheld": 0,
-        "upstreamOnly": 55,
-        "records": 8560
+        "upstreamOnly": 27,
+        "records": 8532
       },
       "files": [
         {
           "path": "protists-chromists/cilcat-000.json.gz",
           "records": 8505,
-          "bytes": 741236,
-          "sha256": "580ec4ec9cc4e88a0f09a0ae0f65ae2cf0a7581c208e7d1fc41abf492228f6f8",
-          "sourceBytes": 8914220,
-          "sourceSha256": "9156962ea1a520c2fbb47abd14040fe7a2fe4da127b126a9bf7ae56123fe405a",
+          "bytes": 747977,
+          "sha256": "a42b6d04efcc2bb3a62d5ff44eeefaefba7f11ba1a3615753eab6830940c2b48",
+          "sourceBytes": 8944233,
+          "sourceSha256": "00d000b8f84577fc6e1f025925c8d5ed226c730a7dc84c9701cd57077016a523",
           "minColId": "3245V",
           "maxColId": "ZYHS",
           "encoding": "gzip",
@@ -4698,11 +4705,11 @@
       "upstreamOnlyFiles": [
         {
           "path": "protists-chromists/cilcat-upstream-only-000.json.gz",
-          "records": 55,
-          "bytes": 5750,
-          "sha256": "df1e145842a69c2e51b95665337e5a228265845a66884e1023ffd2ff15f5db03",
-          "sourceBytes": 46587,
-          "sourceSha256": "228cb2bb7c42eaade4b8ff8088fce4d7f4cfab7d779e8bdb69ecdcd9fdaa5c23",
+          "records": 27,
+          "bytes": 2733,
+          "sha256": "c4dd0c8cb7a1ba0bc61a7b52ff9d810210480c3a92ad636a2602d7095e3904fc",
+          "sourceBytes": 20268,
+          "sourceSha256": "04b5d9056b043a947ab5f4ccee8481f0cfc45128f6efca83c9fd0e64aa5e19ac",
           "minColId": null,
           "maxColId": null,
           "encoding": "gzip",
@@ -4715,12 +4722,12 @@
         "zh": "冻结的 CilCat 来源追溯，不是独立科学佐证、物种概念等同、生物档案、化石证据或专家审查。"
       },
       "limitations": [
-        "Only the 8,505 strict accepted COL source-1113 species are projected; 27 additional accepted archive rows remain in a separate upstream-only partition and 81 provisional rows are excluded.",
+        "The 8,505 COL source-1113 species comprise 8,477 strict name+authorship matches and 28 accepted rows resolved only by their frozen official COL source relation; 27 additional accepted archive rows remain in a separate upstream-only partition and 81 provisional rows are excluded.",
         "The archive's nomenclatural/taxonomic references support source name provenance only; they do not constitute biological dossiers.",
         "34 TaxAccRef links point to ReferenceID 95, which is absent from References.tsv; those links retain their NameReferences locator and explicit referenceMissing=true."
       ],
-      "totalCompressedBytes": 746986,
-      "totalSourceBytes": 8960807,
+      "totalCompressedBytes": 750710,
+      "totalSourceBytes": 8964501,
       "deliveryProfiles": {
         "web-light": {
           "payload": "summary-only",
@@ -4735,20 +4742,20 @@
             "protists-chromists/cilcat-000.json.gz",
             "protists-chromists/cilcat-upstream-only-000.json.gz"
           ],
-          "records": 8560,
-          "totalCompressedBytes": 746986,
-          "totalSourceBytes": 8960807
+          "records": 8532,
+          "totalCompressedBytes": 750710,
+          "totalSourceBytes": 8964501
         }
       },
-      "descriptorSha256": "ab177a69c35cdedb794f2f150ce23f5f25ccd71213c9545688fb48a05bf41d68",
+      "descriptorSha256": "b13316b99386f5c4e88f7eb843ad7e8afdf2b47b6ea7b18f73dcb81806d89d48",
       "canonicalFileInventory": [
         {
           "path": "protists-chromists/cilcat-000.json.gz",
           "records": 8505,
-          "bytes": 741236,
-          "sha256": "580ec4ec9cc4e88a0f09a0ae0f65ae2cf0a7581c208e7d1fc41abf492228f6f8",
-          "sourceBytes": 8914220,
-          "sourceSha256": "9156962ea1a520c2fbb47abd14040fe7a2fe4da127b126a9bf7ae56123fe405a",
+          "bytes": 747977,
+          "sha256": "a42b6d04efcc2bb3a62d5ff44eeefaefba7f11ba1a3615753eab6830940c2b48",
+          "sourceBytes": 8944233,
+          "sourceSha256": "00d000b8f84577fc6e1f025925c8d5ed226c730a7dc84c9701cd57077016a523",
           "minColId": "3245V",
           "maxColId": "ZYHS",
           "encoding": "gzip",
@@ -4757,11 +4764,11 @@
         },
         {
           "path": "protists-chromists/cilcat-upstream-only-000.json.gz",
-          "records": 55,
-          "bytes": 5750,
-          "sha256": "df1e145842a69c2e51b95665337e5a228265845a66884e1023ffd2ff15f5db03",
-          "sourceBytes": 46587,
-          "sourceSha256": "228cb2bb7c42eaade4b8ff8088fce4d7f4cfab7d779e8bdb69ecdcd9fdaa5c23",
+          "records": 27,
+          "bytes": 2733,
+          "sha256": "c4dd0c8cb7a1ba0bc61a7b52ff9d810210480c3a92ad636a2602d7095e3904fc",
+          "sourceBytes": 20268,
+          "sourceSha256": "04b5d9056b043a947ab5f4ccee8481f0cfc45128f6efca83c9fd0e64aa5e19ac",
           "minColId": null,
           "maxColId": null,
           "encoding": "gzip",
@@ -4816,16 +4823,16 @@
           }
         },
         "canonicalDescriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/eumycetozoa-sidecar.json",
-        "canonicalDescriptorBytes": 3696,
-        "canonicalDescriptorSha256": "09ee1710f2a701b6fd43f3f0c16f3ae7401bc3d4cfa29c8420f4c6596c4cc270",
-        "sourceLedgerSha256": "ae66fcec60e2a6bf1ea7254e570324d1a64bf42ce2aba4a9749ef7fe210d1575"
+        "canonicalDescriptorBytes": 3835,
+        "canonicalDescriptorSha256": "3b774e3341ed7014c4e8fda89d8ee711d7e71fa2eafd0022668c4431047daf68",
+        "sourceLedgerSha256": "1f1ea4d36887a9da5997f08eb92634be9dec7a6224fc4fcd18267f6b48c93bf5"
       },
       "scope": {
         "colSourceDatasetId": 1053,
         "eligibleColSpecies": 1337,
         "projectedSpecies": 1337,
-        "matchingKey": "exact source scientific name + authorship",
-        "excludedUnlinkedAcceptedSourceRows": 15
+        "matchingKey": "exact source scientific name + authorship; seven unmatched keys linked by frozen official source-record relations",
+        "excludedUnlinkedAcceptedSourceRows": 8
       },
       "matching": {
         "normalization": "Strict UTF-8 TSV; whitespace-only name+authorship comparison.",
@@ -4833,10 +4840,10 @@
       },
       "counts": {
         "total": 1337,
-        "accepted": 1330,
+        "accepted": 1337,
         "redirect": 0,
         "ambiguous": 0,
-        "unmatched": 7,
+        "unmatched": 0,
         "withheld": 0,
         "upstreamOnly": 0,
         "records": 1337
@@ -4845,10 +4852,10 @@
         {
           "path": "protists-chromists/eumycetozoa-000.json.gz",
           "records": 1337,
-          "bytes": 137653,
-          "sha256": "4f2aba99df83fbde1f9bf4d4ea5abaa1d0b84eefa18675156968c3a5431b1154",
-          "sourceBytes": 1721723,
-          "sourceSha256": "b7814d4ffb97d1a03cc5bb6a3584cbe9661eb9dc8a657b3a716fc1ddb7d8e307",
+          "bytes": 143446,
+          "sha256": "eb273fe153e4f9c9cfec1cf8bddb4f23dd0a51126ef0b1b759c5f72fb6620ed8",
+          "sourceBytes": 1743801,
+          "sourceSha256": "f56ed2b2cb705c67c92e510aa28b40ef4cb439b15a38ee1efac1aba4fb4ba440",
           "minColId": "3574B",
           "maxColId": "ZFKF",
           "encoding": "gzip",
@@ -4864,10 +4871,10 @@
       "limitations": [
         "Only COL strict accepted species assigned source dataset 1053 are projected; no additional source-only rows are asserted.",
         "Reference links retain original type, identifiers, source row locators and empty fields.",
-        "Seven COL targets have no exact name/authorship key. Fifteen unlinked accepted archive rows are not projected; unlinked does not mean globally novel or absent from other COL sources."
+        "Seven COL targets are resolved by frozen ChecklistBank source-record relations despite source-text differences; eight accepted archive rows remain unlinked and are not projected. Unlinked does not mean globally novel or absent from other COL sources."
       ],
-      "totalCompressedBytes": 137653,
-      "totalSourceBytes": 1721723,
+      "totalCompressedBytes": 143446,
+      "totalSourceBytes": 1743801,
       "deliveryProfiles": {
         "web-light": {
           "payload": "summary-only",
@@ -4882,19 +4889,19 @@
             "protists-chromists/eumycetozoa-000.json.gz"
           ],
           "records": 1337,
-          "totalCompressedBytes": 137653,
-          "totalSourceBytes": 1721723
+          "totalCompressedBytes": 143446,
+          "totalSourceBytes": 1743801
         }
       },
-      "descriptorSha256": "09ee1710f2a701b6fd43f3f0c16f3ae7401bc3d4cfa29c8420f4c6596c4cc270",
+      "descriptorSha256": "3b774e3341ed7014c4e8fda89d8ee711d7e71fa2eafd0022668c4431047daf68",
       "canonicalFileInventory": [
         {
           "path": "protists-chromists/eumycetozoa-000.json.gz",
           "records": 1337,
-          "bytes": 137653,
-          "sha256": "4f2aba99df83fbde1f9bf4d4ea5abaa1d0b84eefa18675156968c3a5431b1154",
-          "sourceBytes": 1721723,
-          "sourceSha256": "b7814d4ffb97d1a03cc5bb6a3584cbe9661eb9dc8a657b3a716fc1ddb7d8e307",
+          "bytes": 143446,
+          "sha256": "eb273fe153e4f9c9cfec1cf8bddb4f23dd0a51126ef0b1b759c5f72fb6620ed8",
+          "sourceBytes": 1743801,
+          "sourceSha256": "f56ed2b2cb705c67c92e510aa28b40ef4cb439b15a38ee1efac1aba4fb4ba440",
           "minColId": "3574B",
           "maxColId": "ZFKF",
           "encoding": "gzip",
@@ -4967,10 +4974,10 @@
           }
         },
         "canonicalDescriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/gymnodinium-sidecar.json",
-        "canonicalDescriptorBytes": 6234,
-        "canonicalDescriptorSha256": "a19be3c4a522920f8d6017b519444db8ddc90483661f35f1bbbebdcd059bd047",
+        "canonicalDescriptorBytes": 6340,
+        "canonicalDescriptorSha256": "28a27532697d8ca8077f7894df82857c0c1812044032fc8252e6b2bbef97e5a8",
         "sourceLedgerPath": "data/sources/gymnodinium-archive-import-ledger.json",
-        "sourceLedgerSha256": "49938361767fcb9a9cc4e4933637d8f3db9dea718aac2bde43e139966619672b"
+        "sourceLedgerSha256": "b3024add56270bc37d2f835e02688036d08c925ab71f7af2336e3401249632ef"
       },
       "scope": {
         "packageId": "protists-chromists",
@@ -4986,32 +4993,32 @@
         "colStrictAcceptedSpecies": 259,
         "eligibleColSpecies": 259,
         "projectedSpecies": 259,
-        "matchingKey": "exact source scientific name + authorship",
+        "matchingKey": "258 exact source name+authorship matches and one frozen official source-record relation",
         "boundary": "Only strict accepted COL26.8 species descending from exact Gymnodinium genus 4RTJ and source dataset 1177 are included; no Dinophyceae siblings are inferred."
       },
       "matching": {
-        "normalization": "UTF-8 quoted TSV; surrounding whitespace is trimmed for name+authorship comparison only.",
+        "normalization": "UTF-8 quoted TSV; surrounding whitespace is trimmed for exact name+authorship comparison; one unmatched spelling is linked by the frozen official source-record relation.",
         "prohibited": "No fuzzy, punctuation, edit-distance, phonetic, epithet-substitution, taxon-substitution or missing-authorship matching.",
-        "unmatchedReason": "COL p-dorhnii and source p.dorhni remain unmatched because the source spelling differs."
+        "relationEvidencePath": "data/sources/authority-link-evidence/CN83B-relation.json"
       },
       "counts": {
         "total": 259,
-        "accepted": 258,
+        "accepted": 259,
         "redirect": 0,
         "ambiguous": 0,
-        "unmatched": 1,
+        "unmatched": 0,
         "withheld": 0,
-        "upstreamOnly": 1,
-        "records": 260
+        "upstreamOnly": 0,
+        "records": 259
       },
       "files": [
         {
           "path": "protists-chromists/gymnodinium-sidecar-000.json.gz",
           "records": 259,
-          "bytes": 33971,
-          "sha256": "9b01b603451753d7d19e5b4bdd08979d7700235502af44dc007b054678d0e292",
-          "sourceBytes": 437542,
-          "sourceSha256": "34dd38b1ee40e4027bbac9180967556aefe7a57325c604096d9cd11b60331f19",
+          "bytes": 34797,
+          "sha256": "c26258a420279108c045eebce6c24bc6c3395d1071282d51158a682311150cae",
+          "sourceBytes": 440664,
+          "sourceSha256": "8c6f65d7a3236fab709dd4bb2adb8bd664c3ebd46bc50d35f127441fb6a19566",
           "minColId": "3HRNL",
           "maxColId": "CN83B",
           "encoding": "gzip",
@@ -5022,11 +5029,11 @@
       "upstreamOnlyFiles": [
         {
           "path": "protists-chromists/gymnodinium-sidecar-upstream-only-000.json.gz",
-          "records": 1,
-          "bytes": 738,
-          "sha256": "bf15b243a974fa0b733f631c983980e4fcf38e06a6ef31bf4ea978086404ff96",
-          "sourceBytes": 1504,
-          "sourceSha256": "cf1c6d630027543f84ed4c25e0733db60a92ab7253659c3774222edf1ca457b2",
+          "records": 0,
+          "bytes": 20,
+          "sha256": "9ceffb7310338057cfe71a4ae1e2c98d2c485d81cdef906532a801f457a38d64",
+          "sourceBytes": 0,
+          "sourceSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
           "minColId": null,
           "maxColId": null,
           "encoding": "gzip",
@@ -5040,11 +5047,11 @@
         "zh": "冻结的来源追溯与严格命名关联；不是独立科学佐证、物种概念等同、生态或生物档案、化石证据或专家审查。"
       },
       "limitations": [
-        "One source accepted row (T284, Gymnodinium p.dorhni) remains source-only because its spelling does not exactly match COL Gymnodinium p-dorhnii.",
+        "CN83B/T284 is linked by the frozen ChecklistBank source-record relation despite differing source text; this does not assert species-concept equivalence.",
         "The source archive's IsExtinct, HasModern and HasPreHolocene fields are preserved source fields, not an Evo Atlas extant-status review."
       ],
-      "totalCompressedBytes": 34709,
-      "totalSourceBytes": 439046,
+      "totalCompressedBytes": 34817,
+      "totalSourceBytes": 440664,
       "deliveryProfiles": {
         "web-light": {
           "payload": "summary-only",
@@ -5059,20 +5066,20 @@
             "protists-chromists/gymnodinium-sidecar-000.json.gz",
             "protists-chromists/gymnodinium-sidecar-upstream-only-000.json.gz"
           ],
-          "records": 260,
-          "totalCompressedBytes": 34709,
-          "totalSourceBytes": 439046
+          "records": 259,
+          "totalCompressedBytes": 34817,
+          "totalSourceBytes": 440664
         }
       },
-      "descriptorSha256": "a19be3c4a522920f8d6017b519444db8ddc90483661f35f1bbbebdcd059bd047",
+      "descriptorSha256": "28a27532697d8ca8077f7894df82857c0c1812044032fc8252e6b2bbef97e5a8",
       "canonicalFileInventory": [
         {
           "path": "protists-chromists/gymnodinium-sidecar-000.json.gz",
           "records": 259,
-          "bytes": 33971,
-          "sha256": "9b01b603451753d7d19e5b4bdd08979d7700235502af44dc007b054678d0e292",
-          "sourceBytes": 437542,
-          "sourceSha256": "34dd38b1ee40e4027bbac9180967556aefe7a57325c604096d9cd11b60331f19",
+          "bytes": 34797,
+          "sha256": "c26258a420279108c045eebce6c24bc6c3395d1071282d51158a682311150cae",
+          "sourceBytes": 440664,
+          "sourceSha256": "8c6f65d7a3236fab709dd4bb2adb8bd664c3ebd46bc50d35f127441fb6a19566",
           "minColId": "3HRNL",
           "maxColId": "CN83B",
           "encoding": "gzip",
@@ -5081,11 +5088,11 @@
         },
         {
           "path": "protists-chromists/gymnodinium-sidecar-upstream-only-000.json.gz",
-          "records": 1,
-          "bytes": 738,
-          "sha256": "bf15b243a974fa0b733f631c983980e4fcf38e06a6ef31bf4ea978086404ff96",
-          "sourceBytes": 1504,
-          "sourceSha256": "cf1c6d630027543f84ed4c25e0733db60a92ab7253659c3774222edf1ca457b2",
+          "records": 0,
+          "bytes": 20,
+          "sha256": "9ceffb7310338057cfe71a4ae1e2c98d2c485d81cdef906532a801f457a38d64",
+          "sourceBytes": 0,
+          "sourceSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
           "minColId": null,
           "maxColId": null,
           "encoding": "gzip",

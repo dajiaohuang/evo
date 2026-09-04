@@ -26,9 +26,11 @@ reference, and 1-based table row locators including the header. Reference fields
 including empty fields, are preserved verbatim; a bibliographic association does
 not imply that the referenced publication itself was read or independently checked.
 
-Seven targets remain unmatched, with null source IDs and no invented references:
+Seven further targets use frozen official source-record relations:
 `39SDP`, `4ZT26`, `6PVT4`, `992NH`, `CDHD7`, `CDHRG`, and `CQ9TK`.
-The last record's null COL authorship remains null. Fifteen accepted source rows
+They retain source-text differences rather than claiming exact name/authorship
+matches. All 1,337 scoped COL outcomes are now accepted. The last record's null
+COL authorship remains null. Eight accepted source rows
 remain unlinked and are listed in the import ledger, not published as additional
 species. Unlinked does not mean absent from COL as a whole: identities can differ
 between releases and other sources may contain the same taxa.
@@ -42,7 +44,8 @@ python scripts/build-eumycetozoa-sidecar.py
 npx vitest run scripts/eumycetozoa-archive.test.mjs
 ```
 
-The importer reads only the committed archive and canonical COL partitions. Its
+The importer reads the committed archive, canonical COL partitions and frozen
+COL, relation and source responses in `data/sources/authority-link-evidence/`. Its
 optional `--output-root` redirects generated files, not its inputs. The descriptor,
 gzip and ledger are deterministic; tests execute two real offline rebuilds and
 compare all three outputs byte for byte, then separately inspect original ZIP

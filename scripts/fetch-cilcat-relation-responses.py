@@ -6,6 +6,7 @@ import hashlib
 import json
 import urllib.request
 from concurrent.futures import ThreadPoolExecutor
+from datetime import datetime, timezone
 from pathlib import Path
 
 
@@ -14,6 +15,7 @@ def main():
     parser.add_argument("--output", type=Path, required=True)
     parser.add_argument("--col-ids", nargs="+", required=True)
     args = parser.parse_args()
+    retrieved_at = datetime.now(timezone.utc).isoformat()
     def fetch(col_id):
         relation_url = f"https://api.checklistbank.org/dataset/316115/nameusage/{col_id}/source"
         relation_raw = urllib.request.urlopen(relation_url).read()
@@ -35,7 +37,7 @@ def main():
         )
     with ThreadPoolExecutor(max_workers=8) as pool:
         records = [item for _, item in sorted(pool.map(fetch, args.col_ids))]
-    payload = (json.dumps({"retrievedAt": "2026-09-04", "records": records}, ensure_ascii=False, separators=(",", ":")) + "\n").encode("utf-8")
+    payload = (json.dumps({"retrievedAt": retrieved_at, "records": records}, ensure_ascii=False, separators=(",", ":")) + "\n").encode("utf-8")
     args.output.parent.mkdir(parents=True, exist_ok=True)
     with args.output.open("wb") as handle:
         with gzip.GzipFile(filename="", fileobj=handle, mode="wb", mtime=0) as archive:

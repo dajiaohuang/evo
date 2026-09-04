@@ -12,7 +12,7 @@ const expected = {
   cercozoa: { roots: ['35'], total: 52, accepted: 0, file: 'itis-cercozoa-sidecar-0000.jsonl.gz' },
   ciliophora: { roots: ['3H'], total: 8507, accepted: 246, file: 'itis-ciliophora-sidecar-0000.jsonl.gz' },
   dinoflagellata: { roots: ['622D3'], total: 259, accepted: 60, file: 'itis-dinoflagellata-sidecar-0000.jsonl.gz' },
-  ochrophyta: { roots: ['5H'], total: 1101, accepted: 1097, file: 'itis-ochrophyta-sidecar-0000.jsonl.gz' },
+  ochrophyta: { roots: ['5H'], total: 1101, accepted: 1101, file: 'itis-ochrophyta-sidecar-0000.jsonl.gz' },
   oomycota: { roots: ['3SH', '3ZZ', '3FT', '3DC'], total: 1494, accepted: 53, file: 'itis-oomycota-sidecar-0000.jsonl.gz' },
 } as const
 
