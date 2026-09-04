@@ -6,7 +6,7 @@ export const itisEvidenceGroupC: ItisEvidenceScopeMap = {
     collectionId: 'itis-mollusca-brachiopoda-tsn-crosswalk',
     roots: new Set(['M2L', 'B8V3K', 'KZ']),
     excludedRoots: new Set(),
-    title: { en: 'ITIS Mollusca and Brachiopoda exact nomenclatural mapping', zh: 'ITIS 软体动物与腕足动物精确命名对应' },
+    title: { en: 'ITIS Mollusca, Brachiopoda and Graptolithina exact nomenclatural mapping', zh: 'ITIS 软体动物、腕足动物与笔石类精确命名对应' },
   },
   'porifera-cnidaria': {
     packageId: 'sponges-cnidarians',
