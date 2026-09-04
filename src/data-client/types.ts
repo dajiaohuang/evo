@@ -390,6 +390,9 @@ export type AuthorityArchiveCollectionId =
   | 'worms-nematoda-archive-crosswalk'
   | 'worms-crustacea-archive-crosswalk'
   | 'worms-radiozoa-archive-crosswalk'
+  | 'worms-chaetognatha-archive-crosswalk'
+  | 'worms-rhombozoa-archive-crosswalk'
+  | 'worms-loricifera-archive-crosswalk'
   | 'osf-orthoptera-archive-crosswalk'
   | 'chilobase-archive-crosswalk'
   | 'scorpion-files-archive-crosswalk'
@@ -411,7 +414,7 @@ export interface AuthorityArchiveRecord {
   colId: string | null
   colScientificName: string | null
   colAuthorship: string | null
-  status: 'accepted' | 'redirect' | 'ambiguous' | 'unmatched' | 'withheld' | 'upstream-only'
+  status: 'accepted' | 'redirect' | 'ambiguous' | 'unmatched' | 'withheld' | 'upstream-only' | 'source-only'
   matchedName: AuthorityArchiveName | null
   acceptedName: AuthorityArchiveName | null
   candidates: AuthorityArchiveName[]
@@ -425,7 +428,7 @@ export interface RuntimeAuthorityArchiveCollection {
   recordType: 'release-pinned-authority-archive-crosswalk'
   provider: string
   packageId: string
-  source: { license: 'CC-BY-4.0' | 'CC0-1.0'; [key: string]: unknown }
+  source: { license: 'CC-BY-4.0' | 'CC0-1.0' | 'cc by'; [key: string]: unknown }
   scope: Record<string, unknown>
   matching: Record<string, unknown>
   counts: { total: number; accepted: number; redirect: number; ambiguous: number; unmatched: number; withheld: number; upstreamOnly: number }

@@ -1,5 +1,11 @@
 # Dataset changelog
 
+## 2026.09-static-v5-rc136 — 2026-09-05
+
+- Added frozen original-source projections for all 132 Chaetognatha, 122 Rhombozoa and 46 Loricifera COL26.8 rows. All 300 COL rows match non-provisional accepted source names exactly after NFC and whitespace normalization; no fuzzy match, synonym resolution or species-concept equivalence is asserted.
+- Retained one additional accepted Loricifera source record separately with `colId: null`. Full-data delivery contains 301 records in four deterministic gzip files. Pages publishes complete summaries and canonical inventories without row payloads, while Android and iOS contain every shard.
+- Pinned the exact successful ChecklistBank archive attempts 85, 86 and 88, API responses, archive-member hashes and row locators. API DOI/licence fields and the embedded archive metadata are retained as distinct evidence layers. The 2,183,133-species COL baseline, app version, native build number and storage allowances remain unchanged. No compatibility layer or new content-validation framework was added. See [RC136 source scope and reproduction](../docs/original-sources-rc136.md).
+
 ## 2026.09-static-v5-rc131 — 2026-09-05
 
 - Added release-pinned original-source projections for all 2,940 COL26.8 Scorpiones rows from *The Scorpion Files* (ChecklistBank 1164) and all 3,141 Chilopoda rows from ChiloBase (ChecklistBank 1042). Exact, NFC-and-whitespace-normalized name matching retains 5,141 accepted matches and 940 explicit unmatched outcomes; no fuzzy match or species-concept equivalence is asserted.

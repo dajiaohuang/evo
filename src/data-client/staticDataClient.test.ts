@@ -1045,11 +1045,14 @@ describe('static runtime release coherence', () => {
     ['NN', 'worms-annelida-archive-crosswalk', 'worms-annelida', 'other-animals'],
     ['NM', 'worms-nematoda-archive-crosswalk', 'worms-nematoda', 'other-animals'],
     ['5X', 'worms-radiozoa-archive-crosswalk', 'worms-radiozoa', 'protists-chromists'],
+    ['36', 'worms-chaetognatha-archive-crosswalk', 'worms-chaetognatha', 'other-animals'],
+    ['B8VFC', 'worms-rhombozoa-archive-crosswalk', 'worms-rhombozoa', 'other-animals'],
+    ['B8VF6', 'worms-loricifera-archive-crosswalk', 'worms-loricifera', 'other-animals'],
   ] as const)('loads a residual WoRMS %s archive extension from the catalogue resource pack', async (root, collectionId, prefix, packageId) => {
     Object.defineProperty(globalThis, 'Worker', { configurable: true, value: undefined })
     const rows = [{ colId: root === '5X' ? '328ST' : `${root}001`, status: 'accepted', matchedName: null, acceptedName: null, candidates: [], mappingBasis: 'exact', sourceRows: [] }]
     const body = JSON.stringify(rows)
-    const sourceOnlyRows = [{ colId: null, status: 'upstream-only', matchedName: null, acceptedName: null, candidates: [], mappingBasis: 'source-only', sourceRows: [] }]
+    const sourceOnlyRows = [{ colId: null, status: collectionId === 'worms-loricifera-archive-crosswalk' ? 'source-only' : 'upstream-only', matchedName: null, acceptedName: null, candidates: [], mappingBasis: 'source-only', sourceRows: [] }]
     const sourceOnlyBody = JSON.stringify(sourceOnlyRows)
     const colId = rows[0].colId
     const file = { path: `${packageId}/${prefix}-sidecar-0000.json.gz`, url: `releases/dataset-archive/catalogue/resource-packs/${packageId}/${prefix}-sidecar-0000.json.gz`, records: 1, bytes: body.length, sourceBytes: body.length, sha256: await sha256Text(body), sourceSha256: await sha256Text(body), minColId: colId, maxColId: colId, role: 'col-partition' }

@@ -20,6 +20,9 @@ const sources = [
   ['worms-kinorhyncha-archive-crosswalk', 'worms-kinorhyncha-sidecar.json', 'worms-kinorhyncha-archive-1153-import-ledger.json'],
   ['worms-nematomorpha-archive-crosswalk', 'worms-nematomorpha-sidecar.json', 'worms-nematomorpha-archive-1119-import-ledger.json'],
   ['worms-ctenophora-archive-crosswalk', 'worms-ctenophora-sidecar.json', 'worms-ctenophora-archive-1180-import-ledger.json'],
+  ['worms-chaetognatha-archive-crosswalk', 'worms-chaetognatha-sidecar.json', 'worms-chaetognatha-archive-1132-import-ledger.json'],
+  ['worms-rhombozoa-archive-crosswalk', 'worms-rhombozoa-sidecar.json', 'worms-rhombozoa-archive-1150-import-ledger.json'],
+  ['worms-loricifera-archive-crosswalk', 'worms-loricifera-sidecar.json', 'worms-loricifera-archive-1182-import-ledger.json'],
   ['worms-thaliacea-archive-crosswalk', 'worms-thaliacea-sidecar.json', 'worms-thaliacea-archive-1185-import-ledger.json'],
   ['worms-appendicularia-archive-crosswalk', 'worms-appendicularia-sidecar.json', 'worms-appendicularia-1178-import-ledger.json'],
   ['worms-oligochaeta-archive-crosswalk', 'worms-oligochaeta-sidecar.json', 'worms-oligochaeta-archive-1099-import-ledger.json'],
@@ -47,6 +50,7 @@ const extensions = sources.map(([id, filename, ledgerFilename]) => {
   const totalSourceBytes = inventory.reduce((sum, file) => sum + file.sourceBytes, 0)
   return {
     ...descriptor,
+    recordType: 'release-pinned-authority-archive-crosswalk',
     counts: { ...descriptor.counts, records },
     files,
     upstreamOnlyFiles,

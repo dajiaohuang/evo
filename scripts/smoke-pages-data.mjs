@@ -804,8 +804,8 @@ if (catalogue.resourcePacks?.packageCount !== 7
         'itis-nematoda-tsn-crosswalk': { eligible: 19604, records: 20849, accepted: 1899, redirects: 36, ambiguous: 1, unmatched: 17668, upstreamOnly: 1245, nonApplicable: 79557, files: 4 },
         'itis-annelida-tsn-crosswalk': { eligible: 18982, records: 24074, accepted: 4301, redirects: 122, ambiguous: 1, unmatched: 14558, upstreamOnly: 5092, nonApplicable: 80179, files: 4 },
       }
-      if (extensions.length !== 46 || manifestFile.extensionFileCount !== 0 || manifestFile.canonicalExtensionFileCount !== 214) {
-        failures.push('other-animals: Pages must publish all 46 authority summaries and no row shards')
+      if (extensions.length !== 49 || manifestFile.extensionFileCount !== 0 || manifestFile.canonicalExtensionFileCount !== 218) {
+        failures.push('other-animals: Pages must publish all 49 authority summaries and no row shards')
       }
       const annelidaArchive = extensions.find((candidate) => candidate.id === 'worms-annelida-archive-crosswalk')
       if (!annelidaArchive || annelidaArchive.source?.license !== 'CC-BY-4.0'
@@ -825,17 +825,20 @@ if (catalogue.resourcePacks?.packageCount !== 7
         || nematodaArchive.delivery.canonicalFileCount !== 9 || nematodaArchive.canonicalFileInventory?.length !== 9) {
         failures.push('other-animals: WoRMS Nematoda must preserve its complete inventory while omitting row shards on Pages')
       }
-      for (const [id, total, label] of [
-        ['worms-thaliacea-archive-crosswalk', 78, 'Thaliacea'],
-        ['worms-appendicularia-archive-crosswalk', 68, 'Appendicularia'],
+      for (const [id, total, upstreamOnly, fileCount, license, label] of [
+        ['worms-thaliacea-archive-crosswalk', 78, 0, 1, 'CC-BY-4.0', 'Thaliacea'],
+        ['worms-appendicularia-archive-crosswalk', 68, 0, 1, 'CC-BY-4.0', 'Appendicularia'],
+        ['worms-chaetognatha-archive-crosswalk', 132, 0, 1, 'cc by', 'Chaetognatha'],
+        ['worms-rhombozoa-archive-crosswalk', 122, 0, 1, 'cc by', 'Rhombozoa'],
+        ['worms-loricifera-archive-crosswalk', 46, 1, 2, 'cc by', 'Loricifera'],
       ]) {
         const archive = extensions.find((candidate) => candidate.id === id)
-        if (!archive || archive.source?.license !== 'CC-BY-4.0'
-          || archive.counts?.total !== total || archive.counts?.accepted !== total || archive.counts?.upstreamOnly !== 0
+        if (!archive || archive.source?.license !== license
+          || archive.counts?.total !== total || archive.counts?.accepted !== total || archive.counts?.upstreamOnly !== upstreamOnly
           || archive.delivery?.profile !== 'web-light' || archive.delivery?.completeRows !== false
           || archive.files?.length !== 0 || archive.upstreamOnlyFiles?.length !== 0
-          || archive.delivery?.publishedFileCount !== 0 || archive.delivery?.canonicalFileCount !== 1
-          || archive.canonicalFileInventory?.length !== 1
+          || archive.delivery?.publishedFileCount !== 0 || archive.delivery?.canonicalFileCount !== fileCount
+          || archive.canonicalFileInventory?.length !== fileCount
           || archive.canonicalFileInventory.some((file) => !file.path || file.sha256?.length !== 64 || existsSync(join(dataRoot, current.releaseBase, 'catalogue/resource-packs', file.path)))) {
           failures.push(`other-animals: ${label} must preserve its complete inventory while omitting row shards on Pages`)
         }

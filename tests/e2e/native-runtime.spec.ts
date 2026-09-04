@@ -11,7 +11,7 @@ for (const [id, prefix] of [
   ['322C4', 'worms-mollusca'], ['32N29', 'worms-porifera'],
   ['323D7', 'worms-cnidaria'], ['325RY', 'worms-annelida'], ['3233F', 'osf-orthoptera'],
   ['87LKG', 'worms-nematoda'], ['322FY', 'worms-crustacea'], ['328ST', 'worms-radiozoa'],
-  ['326BJ', 'chilobase'], ['345WT', 'scorpion-files'],
+  ['326BJ', 'chilobase'], ['345WT', 'scorpion-files'], ['32C2F', 'worms-loricifera'],
 ]) {
   test(`native data loads ${prefix} and its separate source-only partition on demand`, async ({ page }) => {
     const requests: string[] = []
@@ -29,8 +29,29 @@ for (const [id, prefix] of [
     expect(requests[0]).not.toContain('/assets/data/')
     await details.getByText('Browse separate source-only records', { exact: true }).click()
     await expect(details.locator('details li').first()).toBeVisible()
-    expect(requests.filter((url) => url.includes('upstream-only'))).toHaveLength(1)
+    expect(requests.filter((url) => /(?:upstream|source)-only/.test(url))).toHaveLength(1)
     await expect(details).toContainText('These records have no assigned COL ID')
+  })
+}
+
+for (const [id, prefix] of [
+  ['34DQ4', 'worms-chaetognatha'], ['35VXG', 'worms-rhombozoa'],
+]) {
+  test(`native data loads complete ${prefix} mapping on demand`, async ({ page }) => {
+    const requests: string[] = []
+    page.on('request', (request) => {
+      if (request.url().includes(`/${prefix}-`) && request.url().endsWith('.json.gz')) requests.push(request.url())
+    })
+    await page.goto(`./#/registry?release=COL26.8&id=${id}`)
+    const details = page.locator('.catalogue-authority-disclosure').filter({ has: page.locator('summary').filter({ hasText: '— Source name mapping' }) })
+    await expect(details.locator('summary')).toBeVisible()
+    await expect(details).not.toHaveAttribute('open')
+    expect(requests).toEqual([])
+    await details.locator('summary').click()
+    await expect(details).toContainText('This record: accepted')
+    expect(requests).toHaveLength(1)
+    expect(requests[0]).not.toContain('/assets/data/')
+    await expect(details.getByText('Browse separate source-only records', { exact: true })).toHaveCount(0)
   })
 }
 

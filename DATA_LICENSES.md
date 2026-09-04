@@ -1,5 +1,17 @@
 # Data licenses and provenance
 
+RC136 retains the exact successful ChecklistBank archives and API metadata for
+*World List of Chaetognatha* (1132, attempt 85, version DOI
+`10.48580/d3d3.v85`), *World List of Rhombozoa* (1150, attempt 86, version DOI
+`10.48580/d3dp.v86`) and *World List of Loricifera* (1182, attempt 88, version
+DOI `10.48580/d3fs.v88`). The API metadata declares `cc by`; the byte-pinned
+archive metadata independently declares `CC-BY` and omits the API DOI. Both
+provenance layers and their differences are retained rather than merged. The
+archives, member hashes and minimal derived crosswalk rows are redistributed
+with separate COL26.8 attribution; referenced publications, linked pages and
+remote media are not redistributed. See [scope, boundaries and
+reproduction](docs/original-sources-rc136.md).
+
 RC131 retains the official ChecklistBank archives and metadata for *The
 Scorpion Files* (1164, version DOI `10.48580/d3f6.v47`, version `Jul 2026`)
 and *A World Catalogue of Centipedes (Chilopoda) for the Web* (ChiloBase

@@ -1,0 +1,344 @@
+{
+  "schemaVersion": 1,
+  "recordType": "release-pinned-authority-original-archive-projection",
+  "id": "worms-loricifera-archive-crosswalk",
+  "packageId": "other-animals",
+  "provider": "World Register of Marine Species via ChecklistBank",
+  "role": "authority-crosswalk",
+  "rowEncoding": "json",
+  "encoding": "gzip",
+  "mediaType": "application/json",
+  "colIdField": "colId",
+  "totalCountField": "total",
+  "source": {
+    "datasetId": "1182",
+    "provider": "World Register of Marine Species via ChecklistBank",
+    "archiveUrl": "https://api.checklistbank.org/dataset/1182/archive?attempt=88",
+    "archiveAttempt": 88,
+    "archivePath": "data/sources/archives/checklistbank-1182-loricifera-2026-09-01.zip",
+    "archiveBytes": 14695,
+    "archiveSha256": "e6618414a8a660def5aca98be29a78e9eb2909ccab96a9e5d54a0d28b5744c5b",
+    "metadataPath": "data/sources/archives/checklistbank-1182-loricifera-2026-09-01.metadata.json",
+    "metadataBytes": 2239,
+    "metadataSha256": "ae2dd4b083fdd3cf00bbc0370760b3402f689fad6f2b46cf18e720052d0ccc5b",
+    "metadataRole": "current ChecklistBank API metadata response",
+    "archiveMetadata": {
+      "member": "metadata.yml",
+      "bytes": 1381,
+      "sha256": "318aed9ee97afae37bcacf028d826591c9d015baff3bf2e0df3e30bae4b5eda4",
+      "fields": {
+        "doi": null,
+        "title": "World List of Loricifera",
+        "issued": "2026-09-01",
+        "version": "2026-09-01",
+        "license": "CC-BY",
+        "website": "https://www.marinespecies.org"
+      }
+    },
+    "metadataConsistency": {
+      "status": "mismatch",
+      "apiResponse": {
+        "doi": "10.48580/d3fs",
+        "versionDoi": "10.48580/d3fs.v88",
+        "version": "2026-09-01",
+        "issued": "2026-09-01",
+        "license": "cc by"
+      },
+      "archiveEmbedded": {
+        "doi": null,
+        "version": "2026-09-01",
+        "issued": "2026-09-01",
+        "license": "CC-BY"
+      },
+      "differences": [
+        "doi",
+        "license"
+      ],
+      "boundary": "The current ChecklistBank API response and the byte-pinned archive metadata.yml are retained as separate provenance layers."
+    },
+    "members": {
+      "metadata.yml": {
+        "bytes": 1381,
+        "sha256": "318aed9ee97afae37bcacf028d826591c9d015baff3bf2e0df3e30bae4b5eda4"
+      },
+      "TypeMaterial.txt": {
+        "bytes": 1145,
+        "sha256": "19b7ec0518ff9190a61cf836cc671c0298356207bfe7c8c4b891cf8f6060e1db"
+      },
+      "Name.txt": {
+        "bytes": 17858,
+        "sha256": "c916dfc4ee870cbeac389cd2306c3d92735f6eccfabbd11f8076ad7d6953b69f"
+      },
+      "NameRelation.txt": {
+        "bytes": 5565,
+        "sha256": "49504d296888bbec2adc6a13fc0eb12a7630ab7dd04f2bf312f72e173d5e1e27"
+      },
+      "Taxon.txt": {
+        "bytes": 25047,
+        "sha256": "7394c82c7dc4e78815330bc207a56604e362574e58eae02487af9d694033162e"
+      },
+      "Synonym.txt": {
+        "bytes": 76,
+        "sha256": "509b7fe3a1fabc6ed435b65428db14dba015fecb2e8b1624f9229524afae606b"
+      },
+      "SpeciesEstimate.txt": {
+        "bytes": 35,
+        "sha256": "552ac985d21f5b6e89941c9a4b07715a7f4a56106b5d50480ecf9dcba5f901e5"
+      },
+      "Reference.txt": {
+        "bytes": 19800,
+        "sha256": "c871db90c522071d021886b10d1040d423bd7edeb9fe642121b672723ca94202"
+      },
+      "NameReference.txt": {
+        "bytes": 14157,
+        "sha256": "99e6bbc02f8f7b9761a00723d7933e0fe31d6c38646a50b9b56753272b4aa6f0"
+      },
+      "Distribution.txt": {
+        "bytes": 4422,
+        "sha256": "32e6381f19b10650e929e196e73d5c2512f05f9346aee90e1a277ab576a9f3c1"
+      },
+      "Media.txt": {
+        "bytes": 53,
+        "sha256": "5b8ba8713a7b0dab1f205b5cc88833f0b0cef2808fa764e694a21c48ac2ccbe0"
+      },
+      "VernacularName.txt": {
+        "bytes": 84,
+        "sha256": "05a4f4fcd23a3df88dd515e04bb07907545a1621373a92a740fa1b9ed9a1c564"
+      }
+    },
+    "title": "World List of Loricifera",
+    "version": "2026-09-01",
+    "versionDoi": "10.48580/d3fs.v88",
+    "doi": "10.48580/d3fs",
+    "citation": "<div class=\"csl-entry\">Fujimoto, S., &amp; S&oslash;rensen, M. V. (2026). <span style=\"font-style: italic\">World List of Loricifera</span> (Version 2026-09-01). https://doi.org/10.48580/d3fs</div>",
+    "issued": "2026-09-01",
+    "editor": [
+      {
+        "orcid": "0000-0002-1739-3010",
+        "given": "Shinta",
+        "family": "Fujimoto",
+        "email": "shinta.f@water-bears.com",
+        "name": "Fujimoto S.",
+        "orcidAsUrl": "https://orcid.org/0000-0002-1739-3010"
+      },
+      {
+        "given": "Martin Vinther",
+        "family": "Sørensen",
+        "name": "Sørensen M. V."
+      }
+    ],
+    "contributor": [
+      {
+        "country": "BE",
+        "name": "Vlaams Instituut voor de Zee",
+        "address": "Belgium",
+        "organisation": "Vlaams Instituut voor de Zee"
+      },
+      {
+        "name": "Yamaguchi University Graduate School of Sciences and Technology for Innovation",
+        "organisation": "Yamaguchi University Graduate School of Sciences and Technology for Innovation"
+      },
+      {
+        "country": "DK",
+        "name": "University of Copenhagen; Faculty of Science Natural History Museum of Denmark",
+        "address": "Denmark",
+        "organisation": "University of Copenhagen; Faculty of Science Natural History Museum of Denmark"
+      }
+    ],
+    "license": "cc by",
+    "metadata": {
+      "created": "2019-11-20T11:07:46.255777",
+      "createdBy": 102,
+      "modified": "2026-09-02T01:05:46.02041",
+      "modifiedBy": 304,
+      "key": 1182,
+      "type": "taxonomic",
+      "origin": "external",
+      "attempt": 88,
+      "imported": "2026-09-02T01:05:46.448615",
+      "lastImportAttempt": "2026-09-02T01:05:46.451573",
+      "lastImportState": "finished",
+      "size": 70,
+      "doi": "10.48580/d3fs",
+      "versionDoi": "10.48580/d3fs.v88",
+      "title": "World List of Loricifera",
+      "alias": "WoRMS Loricifera",
+      "description": "This global marine species list is part of the World Register of Marine Species database, which aims to provide the most authoritative list of names of all marine species globally. Data have been contributed to the Catalogue of Life via the WoRMS, hosted by the Flanders Marine Institute (VLIZ).",
+      "issued": "2026-09-01",
+      "version": "2026-09-01",
+      "contact": {
+        "email": "info@marinespecies.org"
+      },
+      "editor": [
+        {
+          "orcid": "0000-0002-1739-3010",
+          "given": "Shinta",
+          "family": "Fujimoto",
+          "email": "shinta.f@water-bears.com",
+          "name": "Fujimoto S.",
+          "orcidAsUrl": "https://orcid.org/0000-0002-1739-3010"
+        },
+        {
+          "given": "Martin Vinther",
+          "family": "Sørensen",
+          "name": "Sørensen M. V."
+        }
+      ],
+      "contributor": [
+        {
+          "country": "BE",
+          "name": "Vlaams Instituut voor de Zee",
+          "address": "Belgium",
+          "organisation": "Vlaams Instituut voor de Zee"
+        },
+        {
+          "name": "Yamaguchi University Graduate School of Sciences and Technology for Innovation",
+          "organisation": "Yamaguchi University Graduate School of Sciences and Technology for Innovation"
+        },
+        {
+          "country": "DK",
+          "name": "University of Copenhagen; Faculty of Science Natural History Museum of Denmark",
+          "address": "Denmark",
+          "organisation": "University of Copenhagen; Faculty of Science Natural History Museum of Denmark"
+        }
+      ],
+      "geographicScope": "Global",
+      "taxonomicScope": "loriciferans",
+      "temporalScope": "1758-2026",
+      "taxonomicGroupScope": [
+        "eukaryotes",
+        "animals",
+        "otheranimals"
+      ],
+      "confidence": 4,
+      "completeness": 95,
+      "license": "cc by",
+      "url": "https://www.marinespecies.org",
+      "logo": "https://www.marinespecies.org/documents/WoRMS%20branding/WoRMS_logo_blue_negative.png",
+      "label": "World List of Loricifera (2026-09-01)",
+      "citation": "<div class=\"csl-entry\">Fujimoto, S., &amp; S&oslash;rensen, M. V. (2026). <span style=\"font-style: italic\">World List of Loricifera</span> (Version 2026-09-01). https://doi.org/10.48580/d3fs</div>",
+      "private": false
+    },
+    "sourceLedgerPath": "data/sources/worms-loricifera-archive-1182-import-ledger.json",
+    "sourceLedgerSha256": "2a4eb99945bfb5b8b58c4c992430046deedb0962fea4d3658bc0588a432a6744"
+  },
+  "scope": {
+    "colRootUsageId": "B8VF6",
+    "scientificName": "Loricifera",
+    "eligibleColSpecies": 46,
+    "sourceSpeciesRankTaxa": 47,
+    "sourceStrictAcceptedSpecies": 47,
+    "provisionalExcluded": 0
+  },
+  "matching": {
+    "normalization": "NFC followed by Unicode whitespace normalization; exact trailing COL authorship is removed.",
+    "prohibited": "No fuzzy, case-folded, accent-folded, synonym, redirect or species-concept matching."
+  },
+  "counts": {
+    "total": 46,
+    "accepted": 46,
+    "ambiguous": 0,
+    "unmatched": 0,
+    "redirect": 0,
+    "withheld": 0,
+    "sourceOnly": 1,
+    "upstreamOnly": 1,
+    "records": 47
+  },
+  "files": [
+    {
+      "path": "other-animals/worms-loricifera-accepted-000.json.gz",
+      "records": 46,
+      "bytes": 17084,
+      "sha256": "9a278549d7021a505a92cb979b13e7d1ee120b257c8da5cbe9fec90cbe700038",
+      "sourceBytes": 330066,
+      "sourceSha256": "d18a084e310287055deb4da99d958784915c4ad26bb56c1cab56428866dcf5cb",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "role": "accepted",
+      "minColId": "32C2F",
+      "maxColId": "JVB4"
+    }
+  ],
+  "outcomeFiles": {
+    "accepted": [
+      {
+        "path": "other-animals/worms-loricifera-accepted-000.json.gz",
+        "records": 46,
+        "bytes": 17084,
+        "sha256": "9a278549d7021a505a92cb979b13e7d1ee120b257c8da5cbe9fec90cbe700038",
+        "sourceBytes": 330066,
+        "sourceSha256": "d18a084e310287055deb4da99d958784915c4ad26bb56c1cab56428866dcf5cb",
+        "encoding": "gzip",
+        "mediaType": "application/json",
+        "role": "accepted",
+        "minColId": "32C2F",
+        "maxColId": "JVB4"
+      }
+    ],
+    "ambiguous": [],
+    "unmatched": []
+  },
+  "sourceOnlyFiles": [
+    {
+      "path": "other-animals/worms-loricifera-source-only-000.json.gz",
+      "records": 1,
+      "bytes": 1080,
+      "sha256": "b16953dfbe87f1008e105d8b43960b594de38c5c69397ce7e8b81c46c582526f",
+      "sourceBytes": 3378,
+      "sourceSha256": "fb60feff6b715d51d1342a8ba5a7423675fc3388981d7cd85d3793155fbc919c",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "role": "source-only"
+    }
+  ],
+  "upstreamOnlyFiles": [
+    {
+      "path": "other-animals/worms-loricifera-source-only-000.json.gz",
+      "records": 1,
+      "bytes": 1080,
+      "sha256": "b16953dfbe87f1008e105d8b43960b594de38c5c69397ce7e8b81c46c582526f",
+      "sourceBytes": 3378,
+      "sourceSha256": "fb60feff6b715d51d1342a8ba5a7423675fc3388981d7cd85d3793155fbc919c",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "role": "source-only"
+    }
+  ],
+  "totals": {
+    "records": 46,
+    "sourceOnlyRecords": 1,
+    "compressedBytes": 17084,
+    "sourceCompressedBytes": 1080,
+    "sourceBytes": 330066,
+    "sourceOnlySourceBytes": 3378
+  },
+  "deliveryProfiles": {
+    "web-light": {
+      "mode": "summary-only",
+      "records": 0,
+      "files": [],
+      "totalCompressedBytes": 0,
+      "totalSourceBytes": 0
+    },
+    "native-full": {
+      "mode": "complete",
+      "records": 47,
+      "files": [
+        "other-animals/worms-loricifera-accepted-000.json.gz",
+        "other-animals/worms-loricifera-source-only-000.json.gz"
+      ],
+      "totalCompressedBytes": 18164,
+      "totalSourceBytes": 333444
+    }
+  },
+  "evidenceBoundary": {
+    "en": "Frozen original WoRMS archive projection; not species-concept equivalence, fossil evidence or expert review.",
+    "zh": "冻结的WoRMS原始归档投影；不是物种概念等同性、化石证据或专家审查。"
+  },
+  "limitations": [
+    "Source-only rows retain null COL ownership.",
+    "Only the exact pinned archive is replayed; no live endpoint is used.",
+    "Archive completeness and nomenclatural status do not establish biological completeness."
+  ]
+}
