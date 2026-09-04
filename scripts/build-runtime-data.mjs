@@ -13,6 +13,12 @@ const requestedOutput = outputIndex >= 0 ? args[outputIndex + 1] : 'dist/data'
 if (!requestedOutput) throw new Error('--out requires a path')
 const paleotopographyIndex = args.indexOf('--paleotopography')
 const deliveryProfileIndex = args.indexOf('--profile')
+const editionIndex = args.indexOf('--edition')
+const edition = editionIndex >= 0 ? args[editionIndex + 1] : 'full-web'
+if (edition !== 'full-web' && edition !== 'pages-preview') {
+  throw new Error('--edition must be full-web or pages-preview')
+}
+const pagesPreview = edition === 'pages-preview'
 const deliveryProfile = deliveryProfileIndex >= 0
   ? args[deliveryProfileIndex + 1]
   : (paleotopographyIndex >= 0 && args[paleotopographyIndex + 1] === 'native-full' ? 'native-full' : 'web-light')
@@ -57,9 +63,24 @@ const claims = readJson('data/evidence/claims.json')
 const references = readJson('data/references.json')
 const events = readJson('data/events.json')
 const stories = readJson('data/stories.json')
-const publishedStories = stories.filter((story) => story.evidenceStatus === 'available-with-limitations')
 const places = readJson('data/places.json')
 const media = readJson('data/media.json')
+const previewDefinition = readJson('data/pages-preview.json')
+const previewPackageIds = new Set(previewDefinition.packageIds)
+if (pagesPreview) {
+  const packageIds = new Set(previewDefinition.packageIds)
+  const taxonIds = new Set(previewDefinition.taxonIds)
+  const storyIds = new Set(previewDefinition.storyIds)
+  const eventIds = new Set(previewDefinition.eventIds)
+  registry.packages = registry.packages.filter((entry) => packageIds.has(entry.id))
+  entities.splice(0, entities.length, ...entities.filter((entity) => taxonIds.has(entity.id)))
+  profiles.splice(0, profiles.length, ...profiles.filter((profile) => taxonIds.has(profile.id) || (profile.treeNodeId && taxonIds.has(profile.treeNodeId))))
+  events.splice(0, events.length, ...events.filter((event) => eventIds.has(event.id)))
+  stories.splice(0, stories.length, ...stories.filter((story) => storyIds.has(story.id)))
+  places.splice(0, places.length)
+  media.splice(0, media.length, ...media.filter((asset) => taxonIds.has(asset.taxonId)))
+}
+const publishedStories = stories.filter((story) => story.evidenceStatus === 'available-with-limitations')
 const calibrations = readJson('data/packages/mammalia/perissodactyla/phylogeny/calibrations.json')
 const periodMetadata = readJson('data/period-map-metadata.json')
 const paleogeographyProvenance = readJson('data/paleogeography/provenance.json')
@@ -790,9 +811,10 @@ let occurrenceTotal = 0
 let unresolvedPackageAssignmentCount = 0
 for (const period of timeScale.units.filter((unit) => unit.itp === 'period')) {
   const records = readJson(`data/fossils/${period.nam.toLowerCase()}.json`)
-  occurrenceTotal += records.length
   for (const record of records) {
     const packageId = record.packageId ?? packageForPbdbTaxon.get(record.tid) ?? 'atlas-core'
+    if (pagesPreview && !previewPackageIds.has(packageId)) continue
+    occurrenceTotal += 1
     if (record.packageAssignmentStatus === 'unresolved' || (!record.packageId && !packageForPbdbTaxon.has(record.tid))) unresolvedPackageAssignmentCount += 1
     const key = `${packageId}:${period.nam}`
     if (!occurrencesByPackagePeriod.has(key)) occurrencesByPackagePeriod.set(key, [])
@@ -1284,6 +1306,30 @@ const mapsManifestFile = writeJson('maps/manifest.json', {
   snapshots: mapSnapshots,
 }, true)
 
+let catalogueRuntimeManifest
+let catalogueManifestFile
+if (pagesPreview) {
+  catalogueRuntimeManifest = {
+    schemaVersion: 1,
+    edition: 'github-pages-preview',
+    releaseAlias: 'PAGES-PREVIEW',
+    releaseDate: sourceManifest.generatedAt,
+    relationshipToAtlas: 'The nomenclatural registry is intentionally omitted from the GitHub Pages preview edition.',
+    provenance: { edition: 'github-pages-preview', source: 'omitted-by-preview-scope' },
+    sourceChecklists: { files: [] },
+    counts: { acceptedSpecies: 0, resolvingNameUsages: {} },
+    search: { files: [], routes: {}, totalCompressedBytes: 0 },
+    acceptedTargets: { records: 0, uniqueRefRecords: 0, files: [], routes: {}, totalCompressedBytes: 0 },
+    hierarchy: {
+      counts: { nodes: 0, higherTaxonNodes: 0, acceptedSpeciesNodes: 0, acceptedSpeciesEdges: 0, directChildEdges: 0 },
+      nodes: { files: [], routes: {} },
+      children: { files: [], routes: {} },
+    },
+    ownership: { schemaVersion: 1, projectionType: 'omitted-by-preview-scope', packageCount: 0, acceptedSpecies: 0, assignedSpecies: 0, unmatchedSpecies: 0, bytes: 0 },
+    resourcePacks: { schemaVersion: 1, packageType: 'omitted-by-preview-scope', packageCount: 0, acceptedSpeciesCount: 0, manifests: {} },
+  }
+  catalogueManifestFile = writeJson('catalogue/manifest.json', catalogueRuntimeManifest, true)
+} else {
 const catalogueSourceRoot = join(rootDir, 'data/catalogue-of-life/releases/2026-08-20/registry')
 function copyCatalogueFile(sourceFile) {
   const written = write(`catalogue/${sourceFile.path}`, readFileSync(join(catalogueSourceRoot, ...sourceFile.path.split('/'))))
@@ -1443,7 +1489,7 @@ if (catalogueResourcePackAcceptedSpecies !== catalogueResourcePacksSourceManifes
     .reduce((sum, entry) => sum + entry.acceptedSpeciesCount, 0)) {
   throw new Error('Catalogue nomenclatural resource-pack total does not match ownership')
 }
-const catalogueRuntimeManifest = {
+catalogueRuntimeManifest = {
   ...catalogueSourceManifest,
   provenance: catalogueProvenance,
   sourceChecklists: { ...catalogueSourceManifest.sourceChecklists, url: catalogueSourcesFile.url },
@@ -1481,7 +1527,8 @@ const catalogueRuntimeManifest = {
     },
   },
 }
-const catalogueManifestFile = writeJson('catalogue/manifest.json', catalogueRuntimeManifest, true)
+catalogueManifestFile = writeJson('catalogue/manifest.json', catalogueRuntimeManifest, true)
+}
 
 const coreCompressedBytes = Object.values(core).reduce((sum, file) => sum + file.bytes, 0)
 const current = {
@@ -1489,6 +1536,17 @@ const current = {
   datasetVersion: sourceManifest.datasetVersion,
   appVersion: sourceManifest.appVersion,
   publication: 'GitHub Pages static data platform',
+  edition: pagesPreview ? 'github-pages-preview' : 'full-web',
+  ...(pagesPreview ? {
+    previewScope: {
+      packageIds: [...previewPackageIds],
+      taxonIds: previewDefinition.taxonIds,
+      storyIds: previewDefinition.storyIds,
+      eventIds: previewDefinition.eventIds,
+      catalogue: 'omitted',
+      paleotopography: 'web-preview-0.3-degree-source-grids',
+    },
+  } : {}),
   deliveryProfile,
   scopeStatement: sourceManifest.scopeStatement,
   includedMajorGroups: sourceManifest.includedMajorGroups,

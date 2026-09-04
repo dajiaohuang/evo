@@ -16,7 +16,7 @@ function run(args) {
 }
 
 run(['run', 'release:metadata'])
-run(['run', 'data:stage'])
+run(['run', process.env.VITE_PAGES_PREVIEW === 'true' ? 'data:stage:pages' : 'data:stage'])
 run(['run', 'typecheck'])
 run(['exec', '--', 'vite', 'build'])
 run(['run', 'static:generate'])

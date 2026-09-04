@@ -10,6 +10,7 @@ const scopes: Array<{ root: string; packageId: string; id: AuthorityArchiveColle
   { root: 'NM', packageId: 'other-animals', id: 'worms-nematoda-archive-crosswalk', title: 'WoRMS · Nematoda' },
   { root: 'KZX8B', packageId: 'crustaceans-insects', id: 'worms-crustacea-archive-crosswalk', title: 'WoRMS · Crustacea' },
   { root: '5X', packageId: 'protists-chromists', id: 'worms-radiozoa-archive-crosswalk', title: 'WoRMS · Radiozoa' },
+  { root: 'Z', packageId: 'protists-chromists', id: 'trichomycetes-archive-crosswalk', title: 'ChecklistBank source-1033 · Trichomycetes' },
   { root: 'CJBKK', packageId: 'crustaceans-insects', id: 'osf-orthoptera-archive-crosswalk', title: 'OSF · Orthoptera' },
 ]
 
