@@ -5,25 +5,36 @@ import (
 	"encoding/json"
 	"net/http"
 	"net/http/httptest"
+	"net/url"
 	"os"
 	"path/filepath"
 	"strings"
+	"sync"
 	"testing"
 
 	"github.com/dajiaohuang/evo/backend/internal/store"
 )
 
+var (
+	testStoreOnce sync.Once
+	testStore     *store.Store
+	testStoreErr  error
+)
+
 func testHandler(t *testing.T) http.Handler {
 	t.Helper()
-	root, err := filepath.Abs(filepath.Join("..", "..", ".."))
-	if err != nil {
-		t.Fatal(err)
+	testStoreOnce.Do(func() {
+		root, err := filepath.Abs(filepath.Join("..", "..", ".."))
+		if err != nil {
+			testStoreErr = err
+			return
+		}
+		testStore, testStoreErr = store.New(root)
+	})
+	if testStoreErr != nil {
+		t.Fatal(testStoreErr)
 	}
-	s, err := store.New(root)
-	if err != nil {
-		t.Fatal(err)
-	}
-	return NewHandler(s)
+	return NewHandler(testStore)
 }
 
 func request(t *testing.T, h http.Handler, method, target string, headers map[string]string) *httptest.ResponseRecorder {
@@ -53,6 +64,13 @@ func TestCapabilitiesAndCurrentRelease(t *testing.T) {
 	if capabilities["profiles"] == nil {
 		t.Fatal("profiles missing")
 	}
+	treeIndex, ok := capabilities["treeIndex"].(map[string]any)
+	if !ok || treeIndex["representation"] != "packed-adjacency" || treeIndex["releaseAlias"] == "" {
+		t.Fatalf("tree index missing or incomplete: %v", capabilities["treeIndex"])
+	}
+	if roots, ok := capabilities["treeRoots"].([]any); !ok || len(roots) == 0 {
+		t.Fatalf("tree roots missing: %v", capabilities["treeRoots"])
+	}
 	w = request(t, h, "GET", "/v1/releases/current", nil)
 	if w.Code != 200 {
 		t.Fatalf("release status %d", w.Code)
@@ -62,6 +80,37 @@ func TestCapabilitiesAndCurrentRelease(t *testing.T) {
 	}
 	if err := json.Unmarshal(w.Body.Bytes(), &release); err != nil || release.DatasetVersion == "" {
 		t.Fatalf("dataset version missing: %s", w.Body.String())
+	}
+}
+
+func TestCatalogueTreePagingContract(t *testing.T) {
+	h := testHandler(t)
+	s := h.(*Handler).Store.Snapshot()
+	if s.Taxonomy == nil || s.Taxonomy.NodeCount() < 1000000 {
+		t.Fatalf("resident taxonomy is not loaded: %#v", s.Taxonomy)
+	}
+	rootID := s.Taxonomy.RootID()
+	w := request(t, h, "GET", "/v1/catalogue/taxa/"+url.PathEscape(rootID)+"/children?limit=3", nil)
+	if w.Code != http.StatusOK {
+		t.Fatalf("tree children status %d: %s", w.Code, w.Body.String())
+	}
+	var value struct {
+		SchemaVersion   int                 `json:"schemaVersion"`
+		APIVersion      string              `json:"apiVersion"`
+		ProtocolVersion string              `json:"protocolVersion"`
+		DatasetVersion  string              `json:"datasetVersion"`
+		ParentID        string              `json:"parentId"`
+		Total           int                 `json:"total"`
+		Records         []store.TaxonRecord `json:"records"`
+	}
+	if err := json.Unmarshal(w.Body.Bytes(), &value); err != nil {
+		t.Fatal(err)
+	}
+	if value.SchemaVersion != 1 || value.APIVersion != store.ProtocolVersion || value.ProtocolVersion != store.ProtocolVersion || value.DatasetVersion == "" || value.ParentID != rootID || value.Total < len(value.Records) || len(value.Records) > 3 {
+		t.Fatalf("unexpected tree page: %s", w.Body.String())
+	}
+	if len(value.Records) > 0 && value.Records[0].ID == "" {
+		t.Fatal("tree child has no id")
 	}
 }
 

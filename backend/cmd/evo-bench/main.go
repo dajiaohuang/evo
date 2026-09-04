@@ -7,6 +7,7 @@ import (
 	"io"
 	"net/http"
 	"net/http/httptest"
+	"net/url"
 	"runtime"
 	"sort"
 	"sync"
@@ -65,6 +66,9 @@ func main() {
 	}
 	cold := measure("cold routed search", "/v1/search/names?q=perissodactyla&limit=20", nil, 1)
 	warm := measure("warm routed search", "/v1/search/names?q=perissodactyla&limit=20", nil, *rounds)
+	rootID := data.Snapshot().Taxonomy.RootID()
+	treeNode := measure("resident tree node lookup", "/v1/catalogue/taxa/"+url.PathEscape(rootID), nil, *rounds)
+	treeChildren := measure("resident tree children page", "/v1/catalogue/taxa/"+url.PathEscape(rootID)+"/children?limit=100", nil, *rounds)
 	entity := measure("entity evidence", "/v1/entities/perissodactyla/evidence", nil, *rounds)
 	rangeRequest := measure("resource range", "/v1/resources/data/manifest.json", map[string]string{"Range": "bytes=0-1023"}, *rounds)
 	mixed := make([]time.Duration, 0, *concurrency**rounds)
@@ -80,6 +84,8 @@ func main() {
 				target := "/v1/entities/perissodactyla/evidence"
 				if i%2 == 0 {
 					target = "/v1/search/names?q=perissodactyla&limit=20"
+				} else if i%3 == 0 {
+					target = "/v1/catalogue/taxa/" + url.PathEscape(rootID) + "/children?limit=100"
 				}
 				requestStarted := time.Now()
 				response, requestErr := client.Get(server.URL + target)
@@ -102,12 +108,17 @@ func main() {
 	runtime.GC()
 	var memory runtime.MemStats
 	runtime.ReadMemStats(&memory)
+	treeStorage := data.Snapshot().Taxonomy.StorageStats()
 	output := map[string]any{
 		"datasetVersion": data.Snapshot().Manifest.DatasetVersion, "goVersion": runtime.Version(), "os": runtime.GOOS, "arch": runtime.GOARCH, "cpuCount": runtime.NumCPU(),
 		"startupLoadMs": float64(loadDuration.Microseconds()) / 1000, "heapAllocBytes": memory.HeapAlloc, "heapInuseBytes": memory.HeapInuse,
-		"samples": []any{stats(cold), stats(warm), stats(entity), stats(rangeRequest), stats(sample{Name: "mixed concurrent", Latencies: mixed, ResponseBytes: mixedBytes, Wall: mixedWall})},
+		"treeStorage": treeStorage,
+		"samples":     []any{stats(cold), stats(warm), stats(treeNode), stats(treeChildren), stats(entity), stats(rangeRequest), stats(sample{Name: "mixed concurrent", Latencies: mixed, ResponseBytes: mixedBytes, Wall: mixedWall})},
 	}
-	b, _ := json.MarshalIndent(output, "", "  ")
+	b, err := json.MarshalIndent(output, "", "  ")
+	if err != nil {
+		panic(err)
+	}
 	fmt.Println(string(b))
 }
 
@@ -127,18 +138,14 @@ func stats(value sample) map[string]any {
 	result["p99Ms"] = percentile(.99)
 	wall := value.Wall
 	if wall <= 0 {
-		wall = time.Duration(sumSeconds(values) * float64(time.Second))
+		var total time.Duration
+		for _, latency := range values {
+			total += latency
+		}
+		wall = total
 	}
-	result["throughputPerSecond"] = float64(len(values)) / wall.Seconds()
+	if wall > 0 {
+		result["throughputPerSecond"] = float64(len(values)) / wall.Seconds()
+	}
 	return result
-}
-func sumSeconds(values []time.Duration) float64 {
-	var total time.Duration
-	for _, value := range values {
-		total += value
-	}
-	if total <= 0 {
-		return 0
-	}
-	return total.Seconds()
 }

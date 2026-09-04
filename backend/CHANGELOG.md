@@ -3,6 +3,9 @@
 ## Unreleased
 
 - Rebased the backend integration onto RC114 and verified the new Trichomycetes extension resource is delivered byte-for-byte.
+- Added a resident packed COL hierarchy with bounded direct-child pages, root summaries and a release-alias capability descriptor for large-tree clients.
+- Added a strict, rebuildable `catalogue-tree.bin` runtime artifact and `evo-index -tree-out`; invalid or stale artifacts are rebuilt from the canonical hierarchy shards.
+- Added in-flight shard-load deduplication, byte-bounded raw/search caches, consistent protocol metadata, and full-tree benchmark samples.
 
 ## 2026-09-04 — protocol v1 foundation
 

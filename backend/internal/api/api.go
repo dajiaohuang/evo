@@ -76,6 +76,24 @@ func setCORS(w http.ResponseWriter) {
 
 func (h *Handler) capabilities(w http.ResponseWriter, r *http.Request) {
 	s := h.Store.Snapshot()
+	treeIndex := map[string]any{
+		"representation":   "packed-adjacency",
+		"nodeCount":        0,
+		"paging":           "offset-cursor",
+		"children":         "direct-children",
+		"windowed":         true,
+		"releaseAlias":     s.Catalogue.ReleaseAlias,
+		"recordEndpoint":   "/v1/catalogue/taxa/{id}",
+		"childrenEndpoint": "/v1/catalogue/taxa/{id}/children",
+		"pageSize":         map[string]int{"default": 100, "max": 500},
+		"recordFields":     []string{"id", "parentId", "scientificName", "authorship", "rank", "status", "sourceDatasetId", "childCount"},
+	}
+	var treeRoots []store.TaxonRecord
+	if s.Taxonomy != nil {
+		treeIndex["nodeCount"] = s.Taxonomy.NodeCount()
+		treeRoots = s.Taxonomy.RootRecords()
+	}
+	treeIndex["rootCount"] = len(treeRoots)
 	writeJSON(w, r, http.StatusOK, map[string]any{
 		"schemaVersion": 1, "apiVersion": store.ProtocolVersion, "protocolVersion": store.ProtocolVersion,
 		"datasetVersion": s.Manifest.DatasetVersion, "appVersion": s.Manifest.AppVersion,
@@ -84,9 +102,10 @@ func (h *Handler) capabilities(w http.ResponseWriter, r *http.Request) {
 			"full":      map[string]any{"available": true, "offline": true, "scope": "complete current data release"},
 			"web-light": map[string]any{"available": true, "offline": false, "scope": "client-selected subset; not a backend authorization boundary"},
 		},
-		"features":       []string{"entity-query", "catalogue-name-search", "catalogue-hierarchy", "evidence-and-sources", "package-files", "scene-data", "paleogeography", "paleotopography", "range-etag", "resumable-sync", "atomic-release-reload"},
-		"endpoints":      map[string]string{"currentRelease": "/v1/releases/current", "entities": "/v1/entities/{id}", "search": "/v1/search/names?q={query}", "children": "/v1/entities/{id}/children", "evidence": "/v1/entities/{id}/evidence", "resource": "/v1/resources/{data-path}", "sync": "/v1/sync/files?profile=full", "maps": "/v1/maps/manifest"},
-		"queryIndexes":   map[string]any{"atlasEntities": "in-memory 403-record registry", "catalogueNames": "COL26.8 prefix gzip-NDJSON shards", "catalogueHierarchy": "SHA-256 first-byte routed gzip-NDJSON shards"},
+		"features":     []string{"entity-query", "catalogue-name-search", "catalogue-hierarchy", "evidence-and-sources", "package-files", "scene-data", "paleogeography", "paleotopography", "range-etag", "resumable-sync", "atomic-release-reload"},
+		"endpoints":    map[string]string{"currentRelease": "/v1/releases/current", "entities": "/v1/entities/{id}", "search": "/v1/search/names?q={query}", "children": "/v1/entities/{id}/children", "evidence": "/v1/entities/{id}/evidence", "resource": "/v1/resources/{data-path}", "sync": "/v1/sync/files?profile=full", "maps": "/v1/maps/manifest"},
+		"queryIndexes": map[string]any{"atlasEntities": "in-memory 403-record registry", "catalogueNames": "release search shards", "catalogueHierarchy": "resident packed adjacency"},
+		"treeIndex":    treeIndex, "treeRoots": treeRoots,
 		"scopeStatement": s.Manifest.ScopeStatement, "wholeLifeCoverageClaim": s.Manifest.WholeLifeClaim,
 	}, "public, max-age=60")
 }
@@ -125,7 +144,7 @@ func (h *Handler) entities(w http.ResponseWriter, r *http.Request) {
 	}
 	items := make([]json.RawMessage, end-offset)
 	copy(items, s.Entities[offset:end])
-	out := map[string]any{"schemaVersion": 1, "apiVersion": store.ProtocolVersion, "datasetVersion": s.Manifest.DatasetVersion, "records": items, "total": len(s.Entities), "limit": limit, "cursor": offset}
+	out := map[string]any{"schemaVersion": 1, "apiVersion": store.ProtocolVersion, "protocolVersion": store.ProtocolVersion, "datasetVersion": s.Manifest.DatasetVersion, "records": items, "total": len(s.Entities), "limit": limit, "cursor": offset}
 	if end < len(s.Entities) {
 		out["nextCursor"] = encodeCursor(end)
 	}
@@ -184,6 +203,7 @@ func (h *Handler) entityResponse(w http.ResponseWriter, r *http.Request, s *stor
 	object["rangeEvidence"] = ranges
 	object["schemaVersion"] = json.RawMessage("1")
 	object["apiVersion"] = json.RawMessage(`"v1"`)
+	object["protocolVersion"] = json.RawMessage(`"v1"`)
 	object["datasetVersion"] = json.RawMessage(strconv.Quote(s.Manifest.DatasetVersion))
 	object["entityId"] = json.RawMessage(strconv.Quote(id))
 	object["queryStatus"] = json.RawMessage(`"represented-descendant-closure"`)
@@ -205,33 +225,26 @@ func (h *Handler) children(w http.ResponseWriter, r *http.Request, s *store.Snap
 		for _, childID := range ids[offset:end] {
 			items = append(items, s.EntitiesByID[childID])
 		}
-		out := map[string]any{"schemaVersion": 1, "apiVersion": store.ProtocolVersion, "datasetVersion": s.Manifest.DatasetVersion, "parentId": id, "queryStatus": "represented-descendant-closure", "records": items, "total": len(ids), "limit": limit}
+		out := map[string]any{"schemaVersion": 1, "apiVersion": store.ProtocolVersion, "protocolVersion": store.ProtocolVersion, "datasetVersion": s.Manifest.DatasetVersion, "parentId": id, "queryStatus": "represented-descendant-closure", "records": items, "total": len(ids), "limit": limit}
 		if end < len(ids) {
 			out["nextCursor"] = encodeCursor(end)
 		}
 		writeJSON(w, r, http.StatusOK, out, "public, max-age=60")
 		return
 	}
-	items, err := s.CatalogueChildren(id)
+	limit, offset := pagination(r, 100, 500)
+	items, total, found, err := s.CatalogueChildrenPage(id, offset, limit)
 	if err != nil {
 		errorJSON(w, http.StatusInternalServerError, "catalogue_read_failed", err.Error())
 		return
 	}
-	if items == nil {
+	if !found {
 		errorJSON(w, http.StatusNotFound, "entity_not_found", "entity or catalogue parent not found")
 		return
 	}
-	limit, offset := pagination(r, 100, 500)
-	if offset > len(items) {
-		offset = len(items)
-	}
-	end := offset + limit
-	if end > len(items) {
-		end = len(items)
-	}
-	out := map[string]any{"schemaVersion": 1, "apiVersion": store.ProtocolVersion, "datasetVersion": s.Manifest.DatasetVersion, "parentId": id, "queryStatus": "catalogue-direct-children", "records": items[offset:end], "total": len(items), "limit": limit}
-	if end < len(items) {
-		out["nextCursor"] = encodeCursor(end)
+	out := map[string]any{"schemaVersion": 1, "apiVersion": store.ProtocolVersion, "protocolVersion": store.ProtocolVersion, "datasetVersion": s.Manifest.DatasetVersion, "parentId": id, "queryStatus": "catalogue-direct-children", "records": items, "total": total, "limit": limit}
+	if offset+len(items) < total {
+		out["nextCursor"] = encodeCursor(offset + len(items))
 	}
 	writeJSON(w, r, http.StatusOK, out, "public, max-age=60")
 }
@@ -245,12 +258,13 @@ func (h *Handler) evidence(w http.ResponseWriter, r *http.Request, s *store.Snap
 		}
 	}
 	ranges, claims, references := s.Evidence(id)
-	writeJSON(w, r, http.StatusOK, map[string]any{"schemaVersion": 1, "apiVersion": store.ProtocolVersion, "datasetVersion": s.Manifest.DatasetVersion, "entityId": id, "ranges": ranges, "claims": claims, "references": references, "status": "source-bounded"}, "public, max-age=60")
+	writeJSON(w, r, http.StatusOK, map[string]any{"schemaVersion": 1, "apiVersion": store.ProtocolVersion, "protocolVersion": store.ProtocolVersion, "datasetVersion": s.Manifest.DatasetVersion, "entityId": id, "ranges": ranges, "claims": claims, "references": references, "status": "source-bounded"}, "public, max-age=60")
 }
 
 func (h *Handler) search(w http.ResponseWriter, r *http.Request) {
 	query := r.URL.Query().Get("q")
 	s := h.Store.Snapshot()
+	catalogueSource := s.Catalogue.ReleaseAlias + "-nomenclatural-registry"
 	catalogue, catalogueTotal, err := s.SearchCatalogue(query)
 	if err != nil {
 		errorJSON(w, http.StatusInternalServerError, "search_failed", err.Error())
@@ -271,7 +285,7 @@ func (h *Handler) search(w http.ResponseWriter, r *http.Request) {
 		}
 	}
 	for _, value := range catalogue {
-		records = append(records, map[string]any{"id": value.ID, "kind": "catalogue-name", "title": value.ScientificName, "authorship": value.Authorship, "status": value.Status, "acceptedId": value.AcceptedID, "parentId": value.ParentID, "sourceDatasetId": value.SourceDatasetID, "source": "COL26.8-nomenclatural-registry", "recordUrl": "/v1/catalogue/taxa/" + value.ID})
+		records = append(records, map[string]any{"id": value.ID, "kind": "catalogue-name", "title": value.ScientificName, "authorship": value.Authorship, "status": value.Status, "acceptedId": value.AcceptedID, "parentId": value.ParentID, "sourceDatasetId": value.SourceDatasetID, "source": catalogueSource, "recordUrl": "/v1/catalogue/taxa/" + value.ID})
 	}
 	limit, offset := pagination(r, 20, 100)
 	if offset > len(records) {
@@ -281,7 +295,7 @@ func (h *Handler) search(w http.ResponseWriter, r *http.Request) {
 	if end > len(records) {
 		end = len(records)
 	}
-	out := map[string]any{"schemaVersion": 1, "apiVersion": store.ProtocolVersion, "datasetVersion": s.Manifest.DatasetVersion, "query": query, "normalizedQuery": normalizeForResponse(query), "records": records[offset:end], "totalMatches": len(core) + catalogueTotal, "limit": limit, "sources": []string{"atlas-dossier-registry", "COL26.8-nomenclatural-registry"}}
+	out := map[string]any{"schemaVersion": 1, "apiVersion": store.ProtocolVersion, "protocolVersion": store.ProtocolVersion, "datasetVersion": s.Manifest.DatasetVersion, "query": query, "normalizedQuery": normalizeForResponse(query), "records": records[offset:end], "totalMatches": len(core) + catalogueTotal, "limit": limit, "sources": []string{"atlas-dossier-registry", catalogueSource}}
 	if end < len(records) {
 		out["nextCursor"] = encodeCursor(end)
 	}
@@ -315,7 +329,7 @@ func (h *Handler) catalogueRoute(w http.ResponseWriter, r *http.Request) {
 			errorJSON(w, http.StatusNotFound, "catalogue_taxon_not_found", "catalogue record not found")
 			return
 		}
-		writeJSON(w, r, http.StatusOK, map[string]any{"schemaVersion": 1, "apiVersion": store.ProtocolVersion, "datasetVersion": s.Manifest.DatasetVersion, "entityId": id, "record": raw, "releaseAlias": s.Catalogue.ReleaseAlias}, "public, max-age=300")
+		writeJSON(w, r, http.StatusOK, map[string]any{"schemaVersion": 1, "apiVersion": store.ProtocolVersion, "protocolVersion": store.ProtocolVersion, "datasetVersion": s.Manifest.DatasetVersion, "entityId": id, "record": raw, "releaseAlias": s.Catalogue.ReleaseAlias}, "public, max-age=300")
 		return
 	}
 	if len(parts) == 3 && parts[2] == "children" {
@@ -328,22 +342,19 @@ func (h *Handler) catalogueRoute(w http.ResponseWriter, r *http.Request) {
 			errorJSON(w, 404, "catalogue_taxon_not_found", "catalogue parent not found")
 			return
 		}
-		items, err := s.CatalogueChildren(id)
+		limit, offset := pagination(r, 100, 500)
+		items, total, found, err := s.CatalogueChildrenPage(id, offset, limit)
 		if err != nil {
 			errorJSON(w, 500, "catalogue_read_failed", err.Error())
 			return
 		}
-		limit, offset := pagination(r, 100, 500)
-		if offset > len(items) {
-			offset = len(items)
+		if !found {
+			errorJSON(w, 404, "catalogue_taxon_not_found", "catalogue parent not found")
+			return
 		}
-		end := offset + limit
-		if end > len(items) {
-			end = len(items)
-		}
-		out := map[string]any{"schemaVersion": 1, "apiVersion": store.ProtocolVersion, "datasetVersion": s.Manifest.DatasetVersion, "parentId": id, "queryStatus": "catalogue-direct-children", "records": items[offset:end], "total": len(items), "limit": limit}
-		if end < len(items) {
-			out["nextCursor"] = encodeCursor(end)
+		out := map[string]any{"schemaVersion": 1, "apiVersion": store.ProtocolVersion, "protocolVersion": store.ProtocolVersion, "datasetVersion": s.Manifest.DatasetVersion, "parentId": id, "queryStatus": "catalogue-direct-children", "records": items, "total": total, "limit": limit}
+		if offset+len(items) < total {
+			out["nextCursor"] = encodeCursor(offset + len(items))
 		}
 		writeJSON(w, r, 200, out, "public, max-age=60")
 		return
@@ -375,7 +386,7 @@ func (h *Handler) packageRoute(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 	files := s.PackageFiles(id)
-	writeJSON(w, r, http.StatusOK, map[string]any{"schemaVersion": 1, "apiVersion": store.ProtocolVersion, "datasetVersion": s.Manifest.DatasetVersion, "package": p.Raw, "files": files, "fileCount": len(files), "offline": true, "download": "Use /v1/resources/{path} with each descriptor's sha256 and Range support."}, "public, max-age=300")
+	writeJSON(w, r, http.StatusOK, map[string]any{"schemaVersion": 1, "apiVersion": store.ProtocolVersion, "protocolVersion": store.ProtocolVersion, "datasetVersion": s.Manifest.DatasetVersion, "package": p.Raw, "files": files, "fileCount": len(files), "offline": true, "download": "Use /v1/resources/{path} with each descriptor's sha256 and Range support."}, "public, max-age=300")
 }
 
 func (h *Handler) maps(w http.ResponseWriter, r *http.Request) {
@@ -402,7 +413,7 @@ func (h *Handler) mapFrame(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 	writeJSON(w, r, http.StatusOK, map[string]any{
-		"schemaVersion": 1, "apiVersion": store.ProtocolVersion, "datasetVersion": s.Manifest.DatasetVersion,
+		"schemaVersion": 1, "apiVersion": store.ProtocolVersion, "protocolVersion": store.ProtocolVersion, "datasetVersion": s.Manifest.DatasetVersion,
 		"selection": map[string]any{"layerId": layer, "requestedAgeMa": age, "selectedAgeMa": frame.AgeMa, "deltaMa": absFloat(frame.AgeMa - age), "method": "nearest", "tieBreak": "younger"},
 		"frame":     frame, "resourceUrl": "/v1/resources/" + frame.File.Path,
 	}, "public, max-age=300")
@@ -418,7 +429,7 @@ func (h *Handler) scenes(w http.ResponseWriter, r *http.Request) {
 			return
 		}
 		if kind == "stories" {
-			writeJSON(w, r, 200, map[string]any{"schemaVersion": 1, "apiVersion": store.ProtocolVersion, "datasetVersion": s.Manifest.DatasetVersion, "kind": "stories", "records": json.RawMessage(stories)}, "public, max-age=300")
+			writeJSON(w, r, 200, map[string]any{"schemaVersion": 1, "apiVersion": store.ProtocolVersion, "protocolVersion": store.ProtocolVersion, "datasetVersion": s.Manifest.DatasetVersion, "kind": "stories", "records": json.RawMessage(stories)}, "public, max-age=300")
 			return
 		}
 	}
@@ -428,13 +439,13 @@ func (h *Handler) scenes(w http.ResponseWriter, r *http.Request) {
 			errorJSON(w, 500, "scene_read_failed", err.Error())
 			return
 		}
-		writeJSON(w, r, 200, map[string]any{"schemaVersion": 1, "apiVersion": store.ProtocolVersion, "datasetVersion": s.Manifest.DatasetVersion, "kind": "events", "records": json.RawMessage(events)}, "public, max-age=300")
+		writeJSON(w, r, 200, map[string]any{"schemaVersion": 1, "apiVersion": store.ProtocolVersion, "protocolVersion": store.ProtocolVersion, "datasetVersion": s.Manifest.DatasetVersion, "kind": "events", "records": json.RawMessage(events)}, "public, max-age=300")
 		return
 	}
 	if kind == "" {
 		stories, _ := s.ReadJSON("data/stories.json")
 		events, _ := s.ReadJSON("data/events.json")
-		writeJSON(w, r, 200, map[string]any{"schemaVersion": 1, "apiVersion": store.ProtocolVersion, "datasetVersion": s.Manifest.DatasetVersion, "stories": json.RawMessage(stories), "events": json.RawMessage(events)}, "public, max-age=300")
+		writeJSON(w, r, 200, map[string]any{"schemaVersion": 1, "apiVersion": store.ProtocolVersion, "protocolVersion": store.ProtocolVersion, "datasetVersion": s.Manifest.DatasetVersion, "stories": json.RawMessage(stories), "events": json.RawMessage(events)}, "public, max-age=300")
 		return
 	}
 	errorJSON(w, http.StatusNotFound, "scene_not_found", "scene kind must be stories or events")
@@ -452,7 +463,7 @@ func (h *Handler) syncFiles(w http.ResponseWriter, r *http.Request) {
 	}
 	since := r.URL.Query().Get("since")
 	if since == s.Manifest.DatasetVersion {
-		writeJSON(w, r, 200, map[string]any{"schemaVersion": 1, "apiVersion": store.ProtocolVersion, "datasetVersion": since, "releaseVersion": since, "profile": profile, "upToDate": true, "complete": true, "files": []any{}}, "no-store")
+		writeJSON(w, r, 200, map[string]any{"schemaVersion": 1, "apiVersion": store.ProtocolVersion, "protocolVersion": store.ProtocolVersion, "datasetVersion": since, "releaseVersion": since, "profile": profile, "upToDate": true, "complete": true, "files": []any{}}, "no-store")
 		return
 	}
 	prefix := r.URL.Query().Get("prefix")
@@ -486,7 +497,7 @@ func (h *Handler) syncFiles(w http.ResponseWriter, r *http.Request) {
 		}
 		descriptors = append(descriptors, map[string]any{"path": file.Path, "profile": profile, "bytes": file.Bytes, "sha256": file.SHA256, "mediaType": file.MediaType, "encoding": file.Encoding, "releaseVersion": s.Manifest.DatasetVersion, "url": "/v1/resources/" + file.Path})
 	}
-	out := map[string]any{"schemaVersion": 1, "apiVersion": store.ProtocolVersion, "datasetVersion": s.Manifest.DatasetVersion, "releaseVersion": s.Manifest.DatasetVersion, "fromVersion": since, "deltaFrom": since, "profile": profile, "complete": end == len(files), "totalFiles": len(files), "records": descriptors, "files": descriptors, "resourceBase": "/v1/resources/", "range": "Use Range and If-Range with each file descriptor's ETag."}
+	out := map[string]any{"schemaVersion": 1, "apiVersion": store.ProtocolVersion, "protocolVersion": store.ProtocolVersion, "datasetVersion": s.Manifest.DatasetVersion, "releaseVersion": s.Manifest.DatasetVersion, "fromVersion": since, "deltaFrom": since, "profile": profile, "complete": end == len(files), "totalFiles": len(files), "records": descriptors, "files": descriptors, "resourceBase": "/v1/resources/", "range": "Use Range and If-Range with each file descriptor's ETag."}
 	if end < len(files) {
 		out["nextCursor"] = encodeCursor(end)
 	}

@@ -14,7 +14,8 @@ import (
 
 func main() {
 	dataRoot := flag.String("data-root", ".", "Evo repository root containing data/")
-	out := flag.String("out", "backend/index/current.json", "atomic output path")
+	out := flag.String("out", "index/current.json", "atomic output path")
+	treeOut := flag.String("tree-out", "index/catalogue-tree.bin", "atomic packed catalogue hierarchy output path")
 	flag.Parse()
 	s, err := store.New(*dataRoot)
 	if err != nil {
@@ -52,5 +53,8 @@ func main() {
 	if err = os.Rename(tmpName, *out); err != nil {
 		log.Fatal(err)
 	}
-	fmt.Printf("indexed %d files (%d bytes) for %s -> %s\n", len(files), total, snapshot.Manifest.DatasetVersion, *out)
+	if err := snapshot.WriteTaxonArtifact(*treeOut); err != nil {
+		log.Fatal(err)
+	}
+	fmt.Printf("indexed %d files (%d bytes) for %s -> %s; packed tree -> %s\n", len(files), total, snapshot.Manifest.DatasetVersion, *out, *treeOut)
 }
