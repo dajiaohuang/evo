@@ -493,7 +493,7 @@ async function packageAuthorityArchiveCollection(
       candidate.id === collectionId && candidate.recordType === 'release-pinned-authority-archive-crosswalk'
     ))
     if (!collection || collection.packageId !== packageId) throw new Error(`Catalogue resource pack ${packageId} does not publish authority archive ${collectionId}`)
-    return collection as import('./types').RuntimeAuthorityArchiveCollection
+    return collection
   }
   const manifest = await loadPackageManifest(packageId)
   const collection = manifest.nomenclatureCollections?.find((candidate): candidate is import('./types').RuntimeAuthorityArchiveCollection => (
