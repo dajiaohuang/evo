@@ -11,7 +11,7 @@ for (const [id, scope] of [
       if (/\/(?:worms-(?:mollusca|porifera|cnidaria|annelida|radiozoa)|osf-orthoptera)-(?:upstream-only-)?\d{3}\.json\.gz/.test(request.url())) archiveRequests.push(request.url())
     })
     await page.goto(`./#/registry?release=COL26.8&id=${id}`)
-    const details = page.locator('.catalogue-authority-disclosure')
+    const details = page.locator('.catalogue-authority-disclosure').filter({ hasText: `${scope} — Source name mapping` })
     await expect(details.locator('summary')).toContainText(scope)
     await expect(details).not.toHaveAttribute('open')
     await details.locator('summary').click()

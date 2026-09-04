@@ -1,5 +1,11 @@
 # Dataset changelog
 
+## App 0.20.63 / 2026.09-static-v5-rc112 — 2026-09-04
+
+- Exposed the remaining 15 typed package ITIS scopes through default-collapsed source details: Crocodylia, Perissodactyla, Cetartiodactyla, Primates, Crustacea, Actinopterygii, Agnatha/Myxini, Sarcopterygii, Insecta, non-crocodylian reptiles, Mollusca/Brachiopoda/Graptolithina, Porifera/Cnidaria, Echinodermata, Carnivora and other mammals. The three existing scopes remain available; exact lineage and resolved package ownership control applicability.
+- Fixed the Mollusca package reader's stale counts to match its existing 159,801 COL outcomes and 7,219 accepted-name matches, including seven represented Rhabdopleura species. The package grouping does not imply molluscan or brachiopod affinity for Graptolithina. No scientific rows were added or changed.
+- Pages retains summary-only source details. Android and iOS build `66` retain all full-native rows and use the matching COL-ID shard on expansion. Source access is not new species coverage, biological dossier enrichment or scientific review. The Species Fungorum Oomycota snapshot gap remains open.
+
 ## App 0.20.62 / 2026.09-static-v5-rc111 — 2026-09-04
 
 - Added default-collapsed ITIS source details for Chondrichthyes and Chelicerata, reusing the existing Myriapoda disclosure. Exact lineage and package scopes retain the Trilobita and Euthycarcinoidea exclusions. Pages loads summaries only; native lookups load one matching COL-ID shard.
