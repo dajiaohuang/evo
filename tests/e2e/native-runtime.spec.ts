@@ -11,6 +11,7 @@ for (const [id, prefix] of [
   ['322C4', 'worms-mollusca'], ['32N29', 'worms-porifera'],
   ['323D7', 'worms-cnidaria'], ['325RY', 'worms-annelida'], ['3233F', 'osf-orthoptera'],
   ['87LKG', 'worms-nematoda'], ['322FY', 'worms-crustacea'], ['328ST', 'worms-radiozoa'],
+  ['326BJ', 'chilobase'], ['345WT', 'scorpion-files'],
 ]) {
   test(`native data loads ${prefix} and its separate source-only partition on demand`, async ({ page }) => {
     const requests: string[] = []

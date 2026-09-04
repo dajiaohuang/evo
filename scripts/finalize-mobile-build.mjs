@@ -206,7 +206,8 @@ for (const [packageId, expectedCollections] of Object.entries(expectedRichItisCo
   if (!Array.isArray(collections)) throw new Error(`Mobile build is missing ${packageId} nomenclature collections`)
   const additionalAuthorityCollections = {
     echinoderms: 1, 'crocodylomorphs-birds': 1,
-    'molluscs-brachiopods': 1, 'sponges-cnidarians': 2, 'crustaceans-insects': 2,
+    'molluscs-brachiopods': 1, 'sponges-cnidarians': 2, 'crustaceans-insects': 3,
+    'trilobites-chelicerates': 1,
   }[packageId] ?? 0
   if (collections.length !== Object.keys(expectedCollections).length + additionalAuthorityCollections) {
     throw new Error(`Mobile build has an unexpected ${packageId} nomenclature collection count`)
@@ -285,6 +286,22 @@ for (const [packageId, expectedCollections] of Object.entries(expectedRichItisCo
       || worms.counts?.total !== 11891 || !wormsInventoryRecord
       || wormsFile.bytes !== wormsInventoryRecord.bytes || wormsFile.sha256 !== wormsInventoryRecord.sha256) {
       throw new Error('Mobile build must retain the complete WoRMS Echinodermata authority collection')
+    }
+  }
+  const expectedSpecialistArchive = {
+    'crustaceans-insects': { id: 'chilobase-archive-crosswalk', files: 3, upstreamFiles: 1, total: 3141, accepted: 2269, unmatched: 872, upstreamOnly: 872 },
+    'trilobites-chelicerates': { id: 'scorpion-files-archive-crosswalk', files: 8, upstreamFiles: 1, total: 2940, accepted: 2872, unmatched: 68, upstreamOnly: 67 },
+  }[packageId]
+  if (expectedSpecialistArchive) {
+    const authority = collections.find((entry) => entry.id === expectedSpecialistArchive.id)
+    if (!authority || authority.provider !== 'ChecklistBank' || authority.source?.license !== 'CC-BY-4.0'
+      || authority.files?.length !== expectedSpecialistArchive.files
+      || authority.upstreamOnlyFiles?.length !== expectedSpecialistArchive.upstreamFiles
+      || authority.counts?.total !== expectedSpecialistArchive.total
+      || authority.counts?.accepted !== expectedSpecialistArchive.accepted
+      || authority.counts?.unmatched !== expectedSpecialistArchive.unmatched
+      || authority.counts?.upstreamOnly !== expectedSpecialistArchive.upstreamOnly) {
+      throw new Error(`Mobile build must retain the complete ${expectedSpecialistArchive.id} authority collection`)
     }
   }
 }

@@ -1,5 +1,11 @@
 # Dataset changelog
 
+## 2026.09-static-v5-rc131 — 2026-09-05
+
+- Added release-pinned original-source projections for all 2,940 COL26.8 Scorpiones rows from *The Scorpion Files* (ChecklistBank 1164) and all 3,141 Chilopoda rows from ChiloBase (ChecklistBank 1042). Exact, NFC-and-whitespace-normalized name matching retains 5,141 accepted matches and 940 explicit unmatched outcomes; no fuzzy match or species-concept equivalence is asserted.
+- Retained 939 accepted source records separately with null COL ownership. Full-data delivery contains 7,020 records in 13 deterministic gzip files (693,252 compressed bytes; 20,723,052 uncompressed bytes). The Scorpion Files is attached to `trilobites-chelicerates`; ChiloBase is attached to `crustaceans-insects`. Pages publishes the complete summaries and canonical inventories without row payloads, while Android and iOS contain every shard.
+- Preserved the exact source archives, ChecklistBank metadata, archive-member hashes and row locators. The 2,183,133-species COL baseline, app version and native build number remain unchanged. No compatibility layer or new content-validation framework was added. See [RC131 source scope and reproduction](../docs/original-sources-rc131.md).
+
 ## 2026.09-static-v5-rc123 — 2026-09-05
 
 - Refined the pinned World Register of Marine Species Bryozoa dataset 1081 projection by accepting 14 additional exact names whose only difference is Unicode NFC composition. Every normalized key is unique on both sides and resolves to one non-provisional accepted Species row; no fuzzy match or species-concept equivalence is asserted.

@@ -391,6 +391,8 @@ export type AuthorityArchiveCollectionId =
   | 'worms-crustacea-archive-crosswalk'
   | 'worms-radiozoa-archive-crosswalk'
   | 'osf-orthoptera-archive-crosswalk'
+  | 'chilobase-archive-crosswalk'
+  | 'scorpion-files-archive-crosswalk'
   | 'trichomycetes-archive-crosswalk'
   | 'cilcat-1113-archive-crosswalk'
   | 'eumycetozoa-archive-crosswalk'

@@ -1,0 +1,254 @@
+{
+  "schemaVersion": 1,
+  "recordType": "release-pinned-authority-archive-crosswalk",
+  "id": "scorpion-files-archive-crosswalk",
+  "packageId": "trilobites-chelicerates",
+  "provider": "ChecklistBank",
+  "role": "authority-crosswalk",
+  "rowEncoding": "json",
+  "encoding": "gzip",
+  "mediaType": "application/json",
+  "colIdField": "colId",
+  "totalCountField": "total",
+  "source": {
+    "datasetId": "1164",
+    "provider": "ChecklistBank",
+    "title": "The Scorpion Files",
+    "version": "Jul 2026",
+    "versionDoi": "10.48580/d3f6.v47",
+    "doi": "10.48580/d3f6",
+    "issued": "2026-07-06",
+    "license": "CC-BY-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "rights": null,
+    "licenseEvidence": {
+      "authority": "ChecklistBank API metadata",
+      "metadataPath": "data/sources/archives/checklistbank-1164-scorpion-files.metadata.json",
+      "field": "license",
+      "value": "cc by",
+      "spdx": "CC-BY-4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "archiveUrl": "https://api.checklistbank.org/dataset/1164/archive",
+    "metadataUrl": "https://api.checklistbank.org/dataset/1164",
+    "retrievedAt": "2026-09-05T04:47:19+08:00",
+    "archivePath": "data/sources/archives/checklistbank-1164-scorpion-files.zip",
+    "archiveBytes": 168659,
+    "archiveSha256": "bf13d82d5809d39c6526df683b48293aeadf72ebda514ede6eafe011d3fa814f",
+    "metadataPath": "data/sources/archives/checklistbank-1164-scorpion-files.metadata.json",
+    "metadataBytes": 2396,
+    "metadataSha256": "9702bdc4522de80cd536a50e96de8eefa330b9c6aaf2e55f162c953b25f08877",
+    "members": {
+      "distribution.txt": {
+        "bytes": 5151,
+        "sha256": "313bd6b6f4bf24429ad2d4ea406a94f9cb884a1fdc45f8628889b05c5897690a"
+      },
+      "meta.yaml": {
+        "bytes": 1297,
+        "sha256": "5816ffcabf1da5618f5e68778c4fcf92089bfd625ee124eff76502c719607d02"
+      },
+      "name_usage.txt": {
+        "bytes": 1277362,
+        "sha256": "cbb8bfaabd52be3a2a356e6efc9de20f14b8ca43346c88dbf5a891e31f4a7e93"
+      },
+      "vernacular.txt": {
+        "bytes": 1378,
+        "sha256": "bd8b87e689b41c2384bb2a3f22031d9cf000503951bad09b4f32cb37c75eecd3"
+      }
+    },
+    "archiveMemberEvidence": {
+      "member": "meta.yaml",
+      "fields": {
+        "title": "The Scorpion Files",
+        "version": "Jul 2026",
+        "issued": "2026-07-07",
+        "license": "cc by"
+      },
+      "licenseMeaning": "Archive member metadata only; it is not the ChecklistBank API licence authority."
+    },
+    "apiMetadataVersion": {
+      "title": "The Scorpion Files",
+      "version": "Jul 2026",
+      "issued": "2026-07-06",
+      "license": "cc by"
+    },
+    "versionConsistency": "title/version match; archive-issued/release date is preserved separately from API issued metadata; licence is established only from ChecklistBank API metadata"
+  },
+  "scope": {
+    "colRootUsageId": "42N",
+    "scientificName": "Scorpiones",
+    "eligibleColSpecies": 2940,
+    "sourceSpeciesRankAccepted": 2939
+  },
+  "matching": {
+    "normalization": "NFC followed by Unicode whitespace normalization; exact trailing COL authorship is removed.",
+    "prohibited": "No fuzzy, case-folded, accent-folded, synonym, redirect or species-concept matching."
+  },
+  "counts": {
+    "total": 2940,
+    "accepted": 2872,
+    "ambiguous": 0,
+    "unmatched": 68,
+    "upstreamOnly": 67,
+    "records": 3007
+  },
+  "files": [
+    {
+      "path": "other-animals/scorpion-files-000.json.gz",
+      "records": 404,
+      "bytes": 55052,
+      "sha256": "5632e7758fc10e7c0b5ca60a0fcd4bc5c300866940162ddae9e338b88e49a447",
+      "sourceBytes": 2095833,
+      "sourceSha256": "6be965a67e19e21a419486cb4eedf6851ab61e9ecba77a859e4a24006a681a3d",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "role": "col-partition",
+      "minColId": "345WT",
+      "maxColId": "438SV"
+    },
+    {
+      "path": "other-animals/scorpion-files-001.json.gz",
+      "records": 400,
+      "bytes": 53884,
+      "sha256": "0f0846376b5a387fd9f0194dc44e936062462ec68ecf74f25a7cd27d59b0b490",
+      "sourceBytes": 2093431,
+      "sourceSha256": "a1597c2335545aae051bbe3e7469f41571ff6438e3aa85c0eca59e429a14b3d9",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "role": "col-partition",
+      "minColId": "438SW",
+      "maxColId": "5797Z"
+    },
+    {
+      "path": "other-animals/scorpion-files-002.json.gz",
+      "records": 410,
+      "bytes": 55974,
+      "sha256": "53d8883801f4f50a9f39662e949aae51ae20cae7b39328253beff4243bdac423",
+      "sourceBytes": 2093333,
+      "sourceSha256": "c44bfe5b02159572cedd2169b723660340095e29c1b1d888397ebb6a5d79660f",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "role": "col-partition",
+      "minColId": "57982",
+      "maxColId": "69GZ9"
+    },
+    {
+      "path": "other-animals/scorpion-files-003.json.gz",
+      "records": 408,
+      "bytes": 58492,
+      "sha256": "065afc6f792f547c39a7863de6ac67c61e6637b8c8890ecc82217d5fbebcc15c",
+      "sourceBytes": 2093244,
+      "sourceSha256": "fa56aeb1f0d59b47ea351d3a5eed25a9e8692594abb5514f70d2ab191bb2467f",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "role": "col-partition",
+      "minColId": "69GZB",
+      "maxColId": "78HDG"
+    },
+    {
+      "path": "other-animals/scorpion-files-004.json.gz",
+      "records": 408,
+      "bytes": 60129,
+      "sha256": "53a42fd2ae11c19422a50ec8aa45c4dcdc22037bf0e02afc143ffa92071dcbab",
+      "sourceBytes": 2094024,
+      "sourceSha256": "b76edaf5855525583595f3686549e73eccfd5c8b193a6848fc891aa4d7f6fdcc",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "role": "col-partition",
+      "minColId": "78HDH",
+      "maxColId": "98YHJ"
+    },
+    {
+      "path": "other-animals/scorpion-files-005.json.gz",
+      "records": 411,
+      "bytes": 64033,
+      "sha256": "49bbc77eb6242095f7dcbbcab96c4392f4c52b173c38cf27404cc7648c742220",
+      "sourceBytes": 2095216,
+      "sourceSha256": "5fb5a8cf5bf65db2c0082b49e4ea42013f3e48d553cd1b6d0fe9990c7eb00a57",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "role": "col-partition",
+      "minColId": "98YHK",
+      "maxColId": "MNKY"
+    },
+    {
+      "path": "other-animals/scorpion-files-006.json.gz",
+      "records": 407,
+      "bytes": 55171,
+      "sha256": "156e8fd7a1771d69bf498b235ab8cf50469ff6980af434001595a49e74432f99",
+      "sourceBytes": 2095250,
+      "sourceSha256": "204ec51318258bf0485df9459d0a19de84121af060f1b3b853f176b7087e4a09",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "role": "col-partition",
+      "minColId": "MNKZ",
+      "maxColId": "VPD5B"
+    },
+    {
+      "path": "other-animals/scorpion-files-007.json.gz",
+      "records": 92,
+      "bytes": 14821,
+      "sha256": "24616b1dd8147bd25275db2428d187fabca9cb415bf2917865beb0c934575920",
+      "sourceBytes": 471251,
+      "sourceSha256": "d854444d628f3c0d6f97227d09df1c503d59fdf303a11f53ba24ef38870ae5de",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "role": "col-partition",
+      "minColId": "VPD6D",
+      "maxColId": "ZXMT"
+    }
+  ],
+  "upstreamOnlyFiles": [
+    {
+      "path": "other-animals/scorpion-files-upstream-only-000.json.gz",
+      "records": 67,
+      "bytes": 10144,
+      "sha256": "999a980b1a3d079826b0ad141646f77af3ccdd12b01d1ac447c5538ff90dd611",
+      "sourceBytes": 185526,
+      "sourceSha256": "45ff31e2afd241d415e6e2d214f8275779e78179365d6f41ae36f64ea855a2e7",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "role": "upstream-only"
+    }
+  ],
+  "totals": {
+    "records": 3007,
+    "compressedBytes": 427700,
+    "sourceBytes": 15317108
+  },
+  "deliveryProfiles": {
+    "web-light": {
+      "mode": "summary-only",
+      "records": 0,
+      "files": [],
+      "totalCompressedBytes": 0,
+      "totalSourceBytes": 0
+    },
+    "native-full": {
+      "mode": "complete",
+      "records": 3007,
+      "files": [
+        "other-animals/scorpion-files-000.json.gz",
+        "other-animals/scorpion-files-001.json.gz",
+        "other-animals/scorpion-files-002.json.gz",
+        "other-animals/scorpion-files-003.json.gz",
+        "other-animals/scorpion-files-004.json.gz",
+        "other-animals/scorpion-files-005.json.gz",
+        "other-animals/scorpion-files-006.json.gz",
+        "other-animals/scorpion-files-007.json.gz",
+        "other-animals/scorpion-files-upstream-only-000.json.gz"
+      ],
+      "totalCompressedBytes": 427700,
+      "totalSourceBytes": 15317108
+    }
+  },
+  "evidenceBoundary": {
+    "en": "Frozen exact nomenclatural crosswalk from the named ChecklistBank authority; not species-concept equivalence, a biological dossier, fossil evidence or expert review.",
+    "zh": "来自指定 ChecklistBank 权威源的冻结严格命名交叉映射；不是物种概念等同性、生物档案、化石证据或专家审查。"
+  },
+  "limitations": [
+    "Source-only accepted rows retain null COL ownership.",
+    "Only the pinned archive is replayed; no live endpoint is used during projection.",
+    "Archive completeness does not establish biological completeness."
+  ]
+}
