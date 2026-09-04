@@ -1454,14 +1454,14 @@
   ],
   "generatedBy": {
     "script": "scripts/build-worms-nematoda2302-source.py",
-    "scriptSha256": "6621fefe3fc84fb792e0c4492d671ad1c0e7800aa4d246730edf331c40983b1d",
+    "scriptSha256": "eab8e6da93e56c28e8c87ddc3633b6c6bc86feb9a86c7082feae4e01de79a530",
     "hashNormalization": "LF"
   },
   "outputs": {
     "descriptor": {
       "path": "data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals/worms-nematoda2302-sidecar.json",
-      "bytes": 21187,
-      "sha256": "37f886964a1e705f622605bc9b8dc95026a2f2ad36e0a5937f54f5e121970059"
+      "bytes": 22166,
+      "sha256": "4f26afa5a4d576b4dad031945dad910e7858a9cc29acd1f1e63b6df790215888"
     },
     "files": [
       {
@@ -1755,10 +1755,10 @@
       {
         "path": "other-animals/worms-nematoda2302-source-only-000.json.gz",
         "records": 1274,
-        "bytes": 124642,
-        "sha256": "81b80b2f1a80d8cf6266d323287b8423278600fe6fc1bb67e61b56d4eae7d08b",
-        "sourceBytes": 1796287,
-        "sourceSha256": "ebf44180d0ed90fdd8e28bf2ca263b2d5e68b49a76f54f0caf81f80baa39e032",
+        "bytes": 127351,
+        "sha256": "6943082f3fa70e35f859a07119b3ef2fd0bc43d2350b4e413a02db56edfe221d",
+        "sourceBytes": 1950441,
+        "sourceSha256": "6aa0a38318a4248631f264be3dba626e8eb929442df112a14d6ee16170a9708d",
         "encoding": "gzip",
         "mediaType": "application/json",
         "role": "source-only"
@@ -1768,10 +1768,10 @@
       {
         "path": "other-animals/worms-nematoda2302-source-only-000.json.gz",
         "records": 1274,
-        "bytes": 124642,
-        "sha256": "81b80b2f1a80d8cf6266d323287b8423278600fe6fc1bb67e61b56d4eae7d08b",
-        "sourceBytes": 1796287,
-        "sourceSha256": "ebf44180d0ed90fdd8e28bf2ca263b2d5e68b49a76f54f0caf81f80baa39e032",
+        "bytes": 127351,
+        "sha256": "6943082f3fa70e35f859a07119b3ef2fd0bc43d2350b4e413a02db56edfe221d",
+        "sourceBytes": 1950441,
+        "sourceSha256": "6aa0a38318a4248631f264be3dba626e8eb929442df112a14d6ee16170a9708d",
         "encoding": "gzip",
         "mediaType": "application/json",
         "role": "source-only"
@@ -1779,7 +1779,23 @@
     ]
   },
   "scopeAudit": {
-    "method": "All archive Taxon species rows were checked by explicit Nematoda phylum field and parent closure; exact matching candidates additionally require non-empty order and family fields.",
+    "method": "All archive Taxon species rows were checked by explicit Nematoda phylum field and parent closure. Retention uses the explicit-phylum scope; Aphia 799 closure is reported as a separate subset. Exact matching candidates additionally require non-empty order and family fields.",
+    "explicitPhylumScope": {
+      "criterion": "Accepted Species rows with explicit Taxon.phylum=Nematoda.",
+      "speciesRows": 20814,
+      "acceptedSpecies": 20810,
+      "sourceOnly": 1274,
+      "sourceOnlyOutsideAphiaClosure": 1163,
+      "sourceOnlyWithinAphiaClosure": 111
+    },
+    "aphia799ClosureScope": {
+      "criterion": "Accepted Species rows whose parent chain reaches Aphia 799; audit subset only.",
+      "rootAphiaId": "799",
+      "acceptedSpecies": 19647,
+      "matchableSpecies": 19629,
+      "sourceOnly": 111,
+      "outsideClosureRetainedByPhylumScope": 1163
+    },
     "speciesRows": 20814,
     "sourceAcceptedSpecies": 20810,
     "matchableSourceSpecies": 19629,
