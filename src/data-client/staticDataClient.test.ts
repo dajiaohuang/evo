@@ -1043,14 +1043,15 @@ describe('static runtime release coherence', () => {
   it.each([
     ['NN', 'worms-annelida-archive-crosswalk', 'worms-annelida', 'other-animals'],
     ['NM', 'worms-nematoda-archive-crosswalk', 'worms-nematoda', 'other-animals'],
-    ['5X444', 'worms-radiozoa-archive-crosswalk', 'worms-radiozoa', 'protists-chromists'],
+    ['5X', 'worms-radiozoa-archive-crosswalk', 'worms-radiozoa', 'protists-chromists'],
   ] as const)('loads a residual WoRMS %s archive extension from the catalogue resource pack', async (root, collectionId, prefix, packageId) => {
     Object.defineProperty(globalThis, 'Worker', { configurable: true, value: undefined })
-    const rows = [{ colId: `${root}001`, status: 'accepted', matchedName: null, acceptedName: null, candidates: [], mappingBasis: 'exact', sourceRows: [] }]
+    const rows = [{ colId: root === '5X' ? '328ST' : `${root}001`, status: 'accepted', matchedName: null, acceptedName: null, candidates: [], mappingBasis: 'exact', sourceRows: [] }]
     const body = JSON.stringify(rows)
     const sourceOnlyRows = [{ colId: null, status: 'upstream-only', matchedName: null, acceptedName: null, candidates: [], mappingBasis: 'source-only', sourceRows: [] }]
     const sourceOnlyBody = JSON.stringify(sourceOnlyRows)
-    const file = { path: `${packageId}/${prefix}-sidecar-0000.json.gz`, url: `releases/dataset-archive/catalogue/resource-packs/${packageId}/${prefix}-sidecar-0000.json.gz`, records: 1, bytes: body.length, sourceBytes: body.length, sha256: await sha256Text(body), sourceSha256: await sha256Text(body), minColId: `${root}001`, maxColId: `${root}001`, role: 'col-partition' }
+    const colId = rows[0].colId
+    const file = { path: `${packageId}/${prefix}-sidecar-0000.json.gz`, url: `releases/dataset-archive/catalogue/resource-packs/${packageId}/${prefix}-sidecar-0000.json.gz`, records: 1, bytes: body.length, sourceBytes: body.length, sha256: await sha256Text(body), sourceSha256: await sha256Text(body), minColId: colId, maxColId: colId, role: 'col-partition' }
     const upstreamFile = { path: `${packageId}/${prefix}-upstream-only-0000.json.gz`, url: `releases/dataset-archive/catalogue/resource-packs/${packageId}/${prefix}-upstream-only-0000.json.gz`, records: 1, bytes: sourceOnlyBody.length, sourceBytes: sourceOnlyBody.length, sha256: await sha256Text(sourceOnlyBody), sourceSha256: await sha256Text(sourceOnlyBody), role: 'upstream-only' }
     const extension = { id: collectionId, recordType: 'release-pinned-authority-archive-crosswalk', provider: 'World Register of Marine Species via ChecklistBank', packageId, source: { license: 'CC-BY-4.0' }, counts: { total: 1, accepted: 1, redirect: 0, ambiguous: 0, unmatched: 0, withheld: 0, upstreamOnly: 1 }, files: [file], upstreamOnlyFiles: [upstreamFile], canonicalFileInventory: [file, upstreamFile], delivery: { profile: 'native-full', completeRows: true, publishedFileCount: 2, canonicalFileCount: 2 } }
     const packManifest = { schemaVersion: 1, packageType: 'static-nomenclatural-resource-pack', packageId, version: 'dataset-archive', source: { releaseAlias: 'COL26.8' }, acceptedSpeciesCount: 99161, extensions: [extension] }
@@ -1068,7 +1069,7 @@ describe('static runtime release coherence', () => {
       return { ok: false, status: 404, arrayBuffer: async () => new ArrayBuffer(0) }
     }))
     const client = await import('./staticDataClient')
-    await expect(client.loadPackageAuthorityArchiveRecord(packageId, collectionId, `${root}001`)).resolves.toMatchObject({ record: rows[0] })
+    await expect(client.loadPackageAuthorityArchiveRecord(packageId, collectionId, colId)).resolves.toMatchObject({ record: rows[0] })
     expect((globalThis.fetch as ReturnType<typeof vi.fn>).mock.calls.filter(([input]) => String(input).includes(`${prefix}-sidecar`))).toHaveLength(1)
     await expect(client.loadPackageAuthorityArchiveSourceOnly(packageId, collectionId, 0)).resolves.toEqual(sourceOnlyRows)
 
@@ -1085,7 +1086,7 @@ describe('static runtime release coherence', () => {
       return responseFor(webPack)
     }))
     const webClient = await import('./staticDataClient')
-    await expect(webClient.loadPackageAuthorityArchiveRecord(packageId, collectionId, `${root}001`)).resolves.toMatchObject({ record: null, collection: { delivery: { completeRows: false } } })
+    await expect(webClient.loadPackageAuthorityArchiveRecord(packageId, collectionId, colId)).resolves.toMatchObject({ record: null, collection: { delivery: { completeRows: false } } })
     await expect(webClient.loadPackageAuthorityArchiveSourceOnly(packageId, collectionId, 0)).rejects.toThrow('full Android/iOS data profile')
   })
 
@@ -1108,7 +1109,7 @@ describe('static runtime release coherence', () => {
       { scope: 'echinodermata', packageId: 'echinoderms', collectionId: 'itis-echinodermata-tsn-crosswalk', total: 11891, accepted: 3692, redirects: 51, ambiguous: 9, unmatched: 8139, upstreamOnly: 278, canonicalFileCount: 3 },
       { scope: 'crustacea', packageId: 'crustaceans-insects', collectionId: 'itis-crustacea-tsn-crosswalk', total: 80890, accepted: 26395, redirects: 115, ambiguous: 38, unmatched: 54342, upstreamOnly: 5991, canonicalFileCount: 41 },
       { scope: 'insecta', packageId: 'crustaceans-insects', collectionId: 'itis-insecta-tsn-crosswalk', total: 941223, accepted: 176406, redirects: 2887, ambiguous: 692, unmatched: 761238, upstreamOnly: 27357, canonicalFileCount: 100 },
-      { scope: 'myriapoda', packageId: 'crustaceans-insects', collectionId: 'itis-myriapoda-tsn-crosswalk', total: 17351, accepted: 5904, redirects: 58, ambiguous: 17, unmatched: 11372, upstreamOnly: 544, canonicalFileCount: 3 },
+      { scope: 'myriapoda', packageId: 'crustaceans-insects', collectionId: 'itis-myriapoda-tsn-crosswalk', total: 17351, accepted: 5904, redirects: 58, ambiguous: 17, unmatched: 11372, upstreamOnly: 544, canonicalFileCount: 4 },
       { scope: 'chelicerata', packageId: 'trilobites-chelicerates', collectionId: 'itis-chelicerata-tsn-crosswalk', total: 99511, accepted: 74948, redirects: 146, ambiguous: 141, unmatched: 24276, upstreamOnly: 5714, canonicalFileCount: 17 },
       { scope: 'reptilia-non-crocodylia', packageId: 'turtles-lepidosaurs', collectionId: 'itis-reptilia-tsn-crosswalk', total: 12622, accepted: 9805, redirects: 70, ambiguous: 3, unmatched: 2744, upstreamOnly: 655, canonicalFileCount: 10 },
       { scope: 'crocodylia', packageId: 'crocodylomorphs-birds', collectionId: 'itis-crocodylia-tsn-crosswalk', total: 27, accepted: 26, redirects: 1, ambiguous: 0, unmatched: 0, upstreamOnly: 0, canonicalFileCount: 1 },

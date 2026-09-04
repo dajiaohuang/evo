@@ -231,7 +231,7 @@ public class AppInstrumentedTest {
                 int[] expectedUpstreamFiles = packageId.equals("crustaceans-insects")
                         ? new int[]{1, 1, 1, 1} : new int[]{1};
                 int[] expectedRecords = packageId.equals("crustaceans-insects")
-                        ? new int[]{941223, 80890, 14210, 9668} : new int[]{99511};
+                        ? new int[]{941223, 80890, 17351, 9668} : new int[]{99511};
                 int[] expectedUpstreamRecords = packageId.equals("crustaceans-insects")
                         ? new int[]{27357, 5991, 544, 411} : new int[]{5714};
                 String[] expectedDescriptorShas = packageId.equals("crustaceans-insects")
