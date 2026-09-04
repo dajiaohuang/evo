@@ -1,5 +1,12 @@
 # Dataset changelog
 
+## App 0.20.57 / 2026.09-static-v5-rc106 — 2026-09-04
+
+- Fixed Android packaging: the Android Gradle Plugin asset merger stripped `.gz` extensions and decompressed scientific files, breaking the shared client's release URLs. A supported merged-assets transform now preserves Capacitor's synced public tree byte-for-byte before APK/AAB packaging; non-public plugin assets remain merged normally.
+- Updated existing Android/iOS native tests for all four rc105 authority archives and the current 312 research scenes / 513 claim links. Fixed Java compilation errors discovered by the first local SDK build.
+- Added native WebView loading smoke tests and an unsigned macOS iOS simulator CI job with a shared Xcode test scheme. Compilation and simulator evidence are distinct from device coverage, signing and store publication.
+- Both native projects advance to build `60`. This delivery-only release preserves the scientific content, source boundaries and full-native/lightweight-Pages split of rc105; its new release path avoids replacing an existing immutable release.
+
 ## App 0.20.56 / 2026.09-static-v5-rc105 — 2026-09-04
 
 - Added independent, pinned WoRMS and Orthoptera Species File archive crosswalks for all 216,098 strict accepted COL species in four exact scopes: Mollusca, Porifera, Cnidaria and Orthoptera. Direct matches, explicit redirects, ambiguity, unmatched names and withheld relations remain separate outcomes, not species-concept equivalence assertions.

@@ -23,6 +23,8 @@ dist-mobile/                 # 临时生成的移动客户端壳，不提交
 
 ## 数据与离线边界
 
+rc106 / app `0.20.57` / build `60` 修复 Android 实际打包时 `.gz` 被解压并去除后缀的问题。Gradle 使用 `SingleArtifact.ASSETS` 转换，在资源合并后恢复同步生成的 `public/` 原始字节；其他插件资产照常合并。两个平台补充实际 WebView 加载测试，并把已有内容断言同步到 rc105 的四组档案、312 个场景和 513 条场景—主张链接。科学内容与来源范围不变，新发布路径用于保持旧发布不可变。
+
 rc105 将两端同步到 build `59` / app `0.20.56`。新增 WoRMS 软体动物、海绵、刺胞动物和 OSF 直翅目四个独立档案对应层，覆盖这四个范围的全部 216,098 条 COL 接受种记录，并单列没有 COL 对应的来源接受种。原生数据保留全部记录分片，详情默认收起，打开时只读当前物种所在分片；源特有记录可另行展开浏览。Pages 只交付摘要与清单，不把未交付逐条记录误报成未匹配。原生编译、签名和商店发布仍须各平台工具链完成，数据同步不等于已发布安装包。
 
 rc104 将两端同步到 build `58` / app `0.20.55`。403 个导航节点的首段摘要改为直接关联的完整证据主张及现有中文译文，并保留来源引用、不确定性和简短导航边界；不再只展示通用导航说明，也不将这些摘要宣称为新增物种长档案。127 份叙述档案、312 个研究场景和物种名录范围保持不变，原生全量/Pages 轻量分流不变。
@@ -144,7 +146,16 @@ npm ci
 npm run mobile:doctor
 ```
 
-Android 构建还需要 Android Studio 2025.2.1+、JDK 21 和 Android SDK 36。iOS 构建必须在 macOS 上使用 Xcode 26+；首次打开工程后在 Signing & Capabilities 中选择开发团队。
+Android 命令行构建需要 JDK 21、Android SDK 36 和工程自带的 Gradle Wrapper；Android Studio 2025.2.1+ 可用于交互开发，但不是命令行构建的前提。iOS 构建必须在 macOS 上使用 Xcode 26+；模拟器测试无需开发团队或生产签名，真机与发布构建才需要相应签名配置。
+
+完成 `mobile:sync` 后，可在 `android/` 运行：
+
+```bash
+./gradlew :app:assembleDebug :app:testDebugUnitTest :app:assembleDebugAndroidTest
+./gradlew :app:connectedDebugAndroidTest
+```
+
+Windows 使用 `gradlew.bat`。第二条命令需要已启动的模拟器或测试设备。macOS 的 `.github/workflows/native-ios.yml` 会同步全量资源并运行共享 `App` scheme 的 hosted `AppTests`，不签名、不发布商店；失败时保留 XCTest 结果供诊断。
 
 ## 构建与同步
 
