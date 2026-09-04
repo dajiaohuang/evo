@@ -143,6 +143,13 @@ const richPackageNomenclatureSources = {
     rowEncoding: 'json', colIdField: 'colId', totalCountField: 'total',
   }, {
     kind: 'range-sharded',
+    descriptorPath: 'data/packages/arthropoda/crustaceans-insects/nomenclature/worms-crustacea-sidecar.json',
+    expectedId: 'worms-crustacea-archive-crosswalk',
+    expectedProvider: 'World Register of Marine Species via ChecklistBank',
+    expectedLicense: 'CC-BY-4.0',
+    rowEncoding: 'json', colIdField: 'colId', totalCountField: 'total',
+  }, {
+    kind: 'range-sharded',
     descriptorPath: 'data/packages/arthropoda/crustaceans-insects/nomenclature/itis-tsn-sidecar.json',
     expectedId: 'itis-crustacea-tsn-crosswalk',
     expectedProvider: 'Integrated Taxonomic Information System',
