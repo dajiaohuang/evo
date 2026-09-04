@@ -33,7 +33,7 @@ final class AppConfigurationTests: XCTestCase {
         var ready = false
         for _ in 0..<450 {
             ready = try await evaluateAsync("""
-            Boolean(document.readyState === 'complete'
+            return Boolean(document.readyState === 'complete'
               && location.protocol !== 'about:'
               && document.querySelector('#root')?.children.length > 0
               && document.querySelector('main'))
