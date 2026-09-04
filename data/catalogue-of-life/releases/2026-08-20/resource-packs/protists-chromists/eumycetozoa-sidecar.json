@@ -41,7 +41,7 @@
     "eligibleColSpecies": 1337,
     "projectedSpecies": 1337,
     "matchingKey": "exact source scientific name + authorship",
-    "excludedUnlinkedAcceptedSourceRows": 15
+    "excludedUnlinkedAcceptedSourceRows": 8
   },
   "matching": {
     "normalization": "Strict UTF-8 TSV; whitespace-only name+authorship comparison.",
@@ -49,10 +49,10 @@
   },
   "counts": {
     "total": 1337,
-    "accepted": 1330,
+    "accepted": 1337,
     "redirect": 0,
     "ambiguous": 0,
-    "unmatched": 7,
+    "unmatched": 0,
     "withheld": 0,
     "upstreamOnly": 0,
     "records": 1337
@@ -61,10 +61,10 @@
     {
       "path": "protists-chromists/eumycetozoa-000.json.gz",
       "records": 1337,
-      "bytes": 137653,
-      "sha256": "4f2aba99df83fbde1f9bf4d4ea5abaa1d0b84eefa18675156968c3a5431b1154",
-      "sourceBytes": 1721723,
-      "sourceSha256": "b7814d4ffb97d1a03cc5bb6a3584cbe9661eb9dc8a657b3a716fc1ddb7d8e307",
+      "bytes": 138324,
+      "sha256": "1213a0cf16c6b8c5982044b87827c0e60c7e05a774b904af9952045badb064c0",
+      "sourceBytes": 1728987,
+      "sourceSha256": "01ecc124ec279efbf7435902299e04216acca56a607847404244e9ac03800ffb",
       "minColId": "3574B",
       "maxColId": "ZFKF",
       "encoding": "gzip",
@@ -82,8 +82,8 @@
     "Reference links retain original type, identifiers, source row locators and empty fields.",
     "Seven COL targets have no exact name/authorship key. Fifteen unlinked accepted archive rows are not projected; unlinked does not mean globally novel or absent from other COL sources."
   ],
-  "totalCompressedBytes": 137653,
-  "totalSourceBytes": 1721723,
+  "totalCompressedBytes": 138324,
+  "totalSourceBytes": 1728987,
   "deliveryProfiles": {
     "web-light": {
       "payload": "summary-only",
@@ -98,8 +98,8 @@
         "protists-chromists/eumycetozoa-000.json.gz"
       ],
       "records": 1337,
-      "totalCompressedBytes": 137653,
-      "totalSourceBytes": 1721723
+      "totalCompressedBytes": 138324,
+      "totalSourceBytes": 1728987
     }
   }
 }
