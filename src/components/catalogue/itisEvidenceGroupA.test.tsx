@@ -21,7 +21,7 @@ function collection(id: RuntimeItisNomenclatureCollection['id'], packageId: stri
   return {
     schemaVersion: 1, id, recordType: 'release-pinned-exact-nomenclatural-crosswalk', provider: 'Integrated Taxonomic Information System', packageId,
     source: { exportDate: '2026-08-26' }, matching: {}, counts: { total: 1, accepted: 1, synonymCurrentNameRedirect: 0, ambiguous: 0, unmatched: 0, itisCurrentSpecies: 1, itisSpeciesSynonymLinks: 0, itisUpstreamOnly: 0 },
-    files: [{ path: 'real-sidecar-000.jsonl.gz', records: 1, firstColUsageId: '000', lastColUsageId: 'ZZZZ', bytes: 1, sha256: 'fixture', sourceBytes: 1, sourceSha256: 'fixture' }], upstreamOnlyFiles: [], canonicalFileInventory: [], descriptorSha256: 'fixture',
+    files: [{ path: 'fixture-sidecar-000.jsonl.gz', url: 'fixture-sidecar-000.jsonl.gz', records: 1, minColId: '000', maxColId: 'ZZZZ', bytes: 1, sha256: 'fixture', sourceBytes: 1, sourceSha256: 'fixture' }], upstreamOnlyFiles: [], canonicalFileInventory: [], descriptorSha256: 'fixture',
     evidenceBoundary: { en: 'A name crosswalk, not an extantness audit.', zh: '名称对应，不是现存状态审查。' }, limitations: [], delivery: { profile: completeRows ? 'native-full' : 'web-light', completeRows, publishedFileCount: completeRows ? 1 : 0, canonicalFileCount: 1 },
   }
 }
