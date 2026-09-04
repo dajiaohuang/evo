@@ -10,3 +10,9 @@ accepted species rows match the 356 COL accepted rows by NFC/whitespace-normaliz
 name plus authorship. This is historical source evidence, not a complete
 currently-known Nematomorpha checklist, a global novelty claim, or a
 species-concept equivalence assertion.
+
+The original `References.tsv` and `NameReferences.tsv` tables contain headers
+but no data rows. Empty projected reference lists therefore record missing
+row-level bibliography in this source, not complete citation coverage. The
+source checklist's own metadata, identifiers and original species rows remain
+available for attribution and inspection.
