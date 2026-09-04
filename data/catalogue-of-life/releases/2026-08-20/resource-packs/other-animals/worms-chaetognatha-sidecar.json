@@ -1,0 +1,261 @@
+{
+  "schemaVersion": 1,
+  "recordType": "release-pinned-authority-original-archive-projection",
+  "id": "worms-chaetognatha-archive-crosswalk",
+  "packageId": "other-animals",
+  "provider": "World Register of Marine Species via ChecklistBank",
+  "role": "authority-crosswalk",
+  "rowEncoding": "json",
+  "encoding": "gzip",
+  "mediaType": "application/json",
+  "colIdField": "colId",
+  "totalCountField": "total",
+  "source": {
+    "datasetId": "1132",
+    "provider": "World Register of Marine Species via ChecklistBank",
+    "archiveUrl": "https://api.checklistbank.org/dataset/1132/archive",
+    "archivePath": "data/sources/archives/checklistbank-1132-chaetognatha-2026-09-01.zip",
+    "archiveBytes": 45909,
+    "archiveSha256": "c14c95f99dceb1500c1c5b99a99a3ca0d4c88a0566738f7f7fa1e329e4de47a4",
+    "metadataPath": "data/sources/archives/checklistbank-1132-chaetognatha-2026-09-01.metadata.json",
+    "metadataBytes": 2144,
+    "metadataSha256": "fd330150488b3bcbe44cf3932b34d8edc8064e05fc4a3626107e8c4b176da6e8",
+    "members": {
+      "metadata.yml": {
+        "bytes": 1446,
+        "sha256": "bc1b136ca81b3c54d3e7297e41297bdfcdd3cd72f2b9ea839103f1d2b54bec13"
+      },
+      "TypeMaterial.txt": {
+        "bytes": 401,
+        "sha256": "ad55c2a0f6193bfe37299685592e1868e77332ed44cdca7b72cc500e430713a8"
+      },
+      "Name.txt": {
+        "bytes": 91129,
+        "sha256": "8992549055174d172b8687cd1ab3cce3bbc9d935f6b33553d8bfd2400ceb85b7"
+      },
+      "NameRelation.txt": {
+        "bytes": 18843,
+        "sha256": "38c5c485d29891eef407744fa37c61eb4c2ff4440791884cc36af08415613a4d"
+      },
+      "Taxon.txt": {
+        "bytes": 62883,
+        "sha256": "dbdf4895962ab941da05d9f3e4356aa3aba1fdaf5e41300b6e229b7ae84fddce"
+      },
+      "Synonym.txt": {
+        "bytes": 17330,
+        "sha256": "5dcf63658261bbe4f6fc9fdeea7d2fe356f2259152a113fa28d5e53cbc991f44"
+      },
+      "SpeciesEstimate.txt": {
+        "bytes": 35,
+        "sha256": "552ac985d21f5b6e89941c9a4b07715a7f4a56106b5d50480ecf9dcba5f901e5"
+      },
+      "Reference.txt": {
+        "bytes": 57942,
+        "sha256": "585c67491b687df47a19eabdc598e1f9e3dfb534596d0582b8bb49cd7af6f767"
+      },
+      "NameReference.txt": {
+        "bytes": 109399,
+        "sha256": "4770f8e828ffc532f967e6de504ad340d0085712611209cb056952b96211fb1e"
+      },
+      "Distribution.txt": {
+        "bytes": 30260,
+        "sha256": "0578a210a45ab76da6610c8eb305a7085e171effc1462449bee9225cb887aab5"
+      },
+      "Media.txt": {
+        "bytes": 934,
+        "sha256": "e49aa5562caca49b1edffbbcc84d93d82fa5a6ed2c46dafff8ef2a1a82aa0d92"
+      },
+      "VernacularName.txt": {
+        "bytes": 3038,
+        "sha256": "9043f67218740508df780cf5e8e28dc06d1bbc439ee4277e17cddfca4d7fd6b6"
+      }
+    },
+    "title": "World List of Chaetognatha",
+    "version": "2026-09-01",
+    "versionDoi": "10.48580/d3d3.v85",
+    "doi": "10.48580/d3d3",
+    "citation": "<div class=\"csl-entry\">Thuesen, E. (2026). <span style=\"font-style: italic\">World List of Chaetognatha</span> (Version 2026-09-01). https://doi.org/10.48580/d3d3</div>",
+    "issued": "2026-09-01",
+    "editor": [
+      {
+        "given": "Erik",
+        "family": "Thuesen",
+        "email": "thuesene@evergreen.edu",
+        "name": "Thuesen E."
+      }
+    ],
+    "contributor": [
+      {
+        "country": "US",
+        "name": "The Evergreen State College Laboratory One",
+        "address": "United States of America",
+        "organisation": "The Evergreen State College Laboratory One"
+      },
+      {
+        "country": "BE",
+        "name": "Vlaams Instituut voor de Zee",
+        "address": "Belgium",
+        "organisation": "Vlaams Instituut voor de Zee"
+      }
+    ],
+    "license": "cc by",
+    "metadata": {
+      "created": "2019-11-20T11:07:46.255777",
+      "createdBy": 102,
+      "modified": "2026-09-02T00:45:48.507236",
+      "modifiedBy": 304,
+      "key": 1132,
+      "type": "taxonomic",
+      "origin": "external",
+      "attempt": 85,
+      "imported": "2026-09-02T00:45:48.881669",
+      "lastImportAttempt": "2026-09-02T00:45:48.886781",
+      "lastImportState": "finished",
+      "size": 366,
+      "doi": "10.48580/d3d3",
+      "versionDoi": "10.48580/d3d3.v85",
+      "title": "World List of Chaetognatha",
+      "alias": "WoRMS Chaetognatha",
+      "description": "The checklist constitutes a list of all currently known and accepted species of arrow worms (Chaetognatha). Chaetognaths are small marine predators, many of which are planktonic. Arrow worms are found throughout Earth's oceans, including the open ocean, tide pools, polar waters, marine caves, coastal lagoons, and the deep sea. This global marine species list is part of the World Register of Marine Species database, which aims to provide the most authoritative list of names of all marine species globally. Data have been contributed to the Catalogue of Life via the WoRMS, hosted by the Flanders Marine Institute (VLIZ).",
+      "issued": "2026-09-01",
+      "version": "2026-09-01",
+      "contact": {
+        "email": "info@marinespecies.org"
+      },
+      "editor": [
+        {
+          "given": "Erik",
+          "family": "Thuesen",
+          "email": "thuesene@evergreen.edu",
+          "name": "Thuesen E."
+        }
+      ],
+      "contributor": [
+        {
+          "country": "US",
+          "name": "The Evergreen State College Laboratory One",
+          "address": "United States of America",
+          "organisation": "The Evergreen State College Laboratory One"
+        },
+        {
+          "country": "BE",
+          "name": "Vlaams Instituut voor de Zee",
+          "address": "Belgium",
+          "organisation": "Vlaams Instituut voor de Zee"
+        }
+      ],
+      "geographicScope": "Global",
+      "taxonomicScope": "arrow worms",
+      "temporalScope": "1758-2026",
+      "taxonomicGroupScope": [
+        "eukaryotes",
+        "animals",
+        "otheranimals"
+      ],
+      "confidence": 5,
+      "completeness": 100,
+      "license": "cc by",
+      "url": "https://www.marinespecies.org",
+      "logo": "https://www.marinespecies.org/documents/WoRMS%20branding/WoRMS_logo_blue_negative.png",
+      "label": "World List of Chaetognatha (2026-09-01)",
+      "citation": "<div class=\"csl-entry\">Thuesen, E. (2026). <span style=\"font-style: italic\">World List of Chaetognatha</span> (Version 2026-09-01). https://doi.org/10.48580/d3d3</div>",
+      "private": false
+    },
+    "sourceLedgerPath": "data/sources/worms-chaetognatha-archive-1132-import-ledger.json",
+    "sourceLedgerSha256": "6f78ae49b0d653d1962203828dc90e6e27daa546d4f5f7becba4a99dc0429fb9"
+  },
+  "scope": {
+    "colRootUsageId": "36",
+    "scientificName": "Chaetognatha",
+    "eligibleColSpecies": 132,
+    "sourceSpeciesRankTaxa": 132,
+    "sourceStrictAcceptedSpecies": 132,
+    "provisionalExcluded": 0
+  },
+  "matching": {
+    "normalization": "NFC followed by Unicode whitespace normalization; exact trailing COL authorship is removed.",
+    "prohibited": "No fuzzy, case-folded, accent-folded, synonym, redirect or species-concept matching."
+  },
+  "counts": {
+    "total": 132,
+    "accepted": 132,
+    "ambiguous": 0,
+    "unmatched": 0,
+    "redirect": 0,
+    "withheld": 0,
+    "sourceOnly": 0,
+    "upstreamOnly": 0,
+    "records": 132
+  },
+  "files": [
+    {
+      "path": "other-animals/worms-chaetognatha-accepted-000.json.gz",
+      "records": 132,
+      "bytes": 50420,
+      "sha256": "23dcf0f24dfc7af01aa088ed29314c92bba9a3b4bb2721c0c27a56cbe85cf5f7",
+      "sourceBytes": 1092763,
+      "sourceSha256": "224c0e74141a49783a017356517e7d70c050b3e05960dc8b2fb27503d439b119",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "role": "accepted",
+      "minColId": "34DQ4",
+      "maxColId": "V99PP"
+    }
+  ],
+  "outcomeFiles": {
+    "accepted": [
+      {
+        "path": "other-animals/worms-chaetognatha-accepted-000.json.gz",
+        "records": 132,
+        "bytes": 50420,
+        "sha256": "23dcf0f24dfc7af01aa088ed29314c92bba9a3b4bb2721c0c27a56cbe85cf5f7",
+        "sourceBytes": 1092763,
+        "sourceSha256": "224c0e74141a49783a017356517e7d70c050b3e05960dc8b2fb27503d439b119",
+        "encoding": "gzip",
+        "mediaType": "application/json",
+        "role": "accepted",
+        "minColId": "34DQ4",
+        "maxColId": "V99PP"
+      }
+    ],
+    "ambiguous": [],
+    "unmatched": []
+  },
+  "sourceOnlyFiles": [],
+  "upstreamOnlyFiles": [],
+  "totals": {
+    "records": 132,
+    "sourceOnlyRecords": 0,
+    "compressedBytes": 50420,
+    "sourceCompressedBytes": 0,
+    "sourceBytes": 1092763,
+    "sourceOnlySourceBytes": 0
+  },
+  "deliveryProfiles": {
+    "web-light": {
+      "mode": "summary-only",
+      "records": 0,
+      "files": [],
+      "totalCompressedBytes": 0,
+      "totalSourceBytes": 0
+    },
+    "native-full": {
+      "mode": "complete",
+      "records": 132,
+      "files": [
+        "other-animals/worms-chaetognatha-accepted-000.json.gz"
+      ],
+      "totalCompressedBytes": 50420,
+      "totalSourceBytes": 1092763
+    }
+  },
+  "evidenceBoundary": {
+    "en": "Frozen original WoRMS archive projection; not species-concept equivalence, fossil evidence or expert review.",
+    "zh": "冻结的WoRMS原始归档投影；不是物种概念等同性、化石证据或专家审查。"
+  },
+  "limitations": [
+    "Source-only rows retain null COL ownership.",
+    "Only the exact pinned archive is replayed; no live endpoint is used.",
+    "Archive completeness and nomenclatural status do not establish biological completeness."
+  ]
+}
