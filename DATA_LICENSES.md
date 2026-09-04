@@ -1,5 +1,15 @@
 # Data licenses and provenance
 
+RC120 retains the original ChecklistBank archives and metadata for World
+Kinorhyncha Database (1153, DOI `10.48580/d3ds.v86`), the historical *World
+checklist of freshwater Nematomorpha species* (1119, DOI `10.48580/d3cm.v8`)
+and *Phylum Ctenophora: list of all valid species names. Electronic internet
+document* (1180, DOI `10.48580/d3fq.v88`). Their pinned metadata declares CC
+BY. Source attribution and original table contents remain in the archives;
+referenced publications, linked pages and remote media are not redistributed.
+Derived rows retain separate COL26.8 attribution. See [scope, boundaries and
+reproduction](docs/original-sources-rc120.md).
+
 RC119 retains the original September 1, 2026 archives and metadata for World
 List of Cestoda (1127, DOI `10.48580/d3cw.v84`), World Nemertea Database (1085,
 DOI `10.48580/d3bg.v89`) and World Gastrotricha Database (1122, DOI

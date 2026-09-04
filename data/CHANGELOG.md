@@ -1,5 +1,11 @@
 # Dataset changelog
 
+## 2026.09-static-v5-rc120 — 2026-09-05
+
+- Added frozen original-source projections for 362 Kinorhyncha, 356 Nematomorpha and 197 Ctenophora COL records. All 915 COL rows match accepted source names exactly; four separately retained Ctenophora source records have no exact COL source-boundary match. This improves source traceability without changing the 2,183,133-species COL baseline.
+- Full-data delivery now includes all 919 rows in four compressed files (198,537 bytes), each below 2 MiB uncompressed. Pages retains the same source summaries and canonical hashes without row payloads; Android and iOS inventories include every row file.
+- Preserved the actual September 2026 Kinorhyncha/Ctenophora archives and the historical December 2010 Nematomorpha archive. The latter supplies no bibliography data rows, which remains explicit. Isolated rebuilds reproduce canonical bytes. No app version, native build number, storage allowance, compatibility layer or content-validation framework change. See [source scope and reproduction](../docs/original-sources-rc120.md).
+
 ## 2026.09-static-v5-rc119 — 2026-09-05
 
 - Added original-source projections for 3,015 Cestoda, 1,364 Nemertea and 903 Gastrotricha COL records: 5,269 exact accepted-name matches, 13 unmatched and 54 separately retained source-only concepts. These improve source traceability; the 2,183,133-species COL baseline is unchanged.
