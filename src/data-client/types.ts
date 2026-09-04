@@ -373,6 +373,7 @@ export type AuthorityArchiveCollectionId =
   | 'worms-mollusca-archive-crosswalk'
   | 'worms-porifera-archive-crosswalk'
   | 'worms-cnidaria-archive-crosswalk'
+  | 'worms-annelida-archive-crosswalk'
   | 'osf-orthoptera-archive-crosswalk'
 
 export interface AuthorityArchiveName {
