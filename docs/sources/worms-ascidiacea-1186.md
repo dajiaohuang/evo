@@ -9,3 +9,11 @@ Reproduce with:
 ```text
 python -B scripts/build-ascidiacea-source.py --archive data/sources/archives/checklistbank-1186-ascidiacea-2026-09-01.zip --metadata data/sources/archives/checklistbank-1186-ascidiacea-2026-09-01.metadata.json
 ```
+
+`--output-root` selects a repository-mirror output root for every generated
+file, including the ledger; inputs stay pinned to the repository. Pages ships
+no row shards for this extension, while full-data delivery includes every row.
+Direct Name/Taxon and NameReference citations are retained with original
+Reference objects and table-row locators. Original `Name.status` remains
+nomenclatural metadata; strict acceptance is derived from nonprovisional Taxon
+membership, not that field. These are source evidence, not detailed species dossiers.
