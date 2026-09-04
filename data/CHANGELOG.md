@@ -1,5 +1,12 @@
 # Dataset changelog
 
+## App 0.20.55 / 2026.09-static-v5-rc104 — 2026-09-04
+
+- Replaced boilerplate-first descriptions for all 403 navigation nodes with a complete, directly linked scientific claim and its existing Chinese translation. Selection prefers taxonomy and morphology before other evidence types and is stable by claim ID within a type.
+- Kept the original uncertainty wording, supporting references and a short navigation/non-dossier boundary. This exposes existing evidence on first selection; it adds no new scientific assertions, species dossiers, phylogenies or human-review decisions.
+- Retained 127 narrative profiles, 312 scenes, 513 scene-to-claim links and 258 age-driven routes. Catalogue coverage is unchanged and must not be confused with these educational-node descriptions.
+- Android and iOS advance to build `58` / app `0.20.55` with the complete native data; Pages stays `web-light` under the existing capacity gate.
+
 ## App 0.20.54 / 2026.09-static-v5-rc103 — 2026-09-04
 
 - Added 18 bilingual, source-linked research scenes across Tetrapod transition, Echinoderms, Dinosauria, Crustaceans and insects, Carnivora, and Trilobites and chelicerates. The atlas now exposes 312 scenes, 513 scene-to-claim links, and 258 age-driven routes.

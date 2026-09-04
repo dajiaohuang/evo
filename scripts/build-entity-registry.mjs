@@ -37,6 +37,7 @@ const claims = readJson('data/evidence/claims.json')
 const claimsById = new Map(claims.map((claim) => [claim.id, claim]))
 const references = readJson('data/references.json')
 const claimRationalesZh = readJson('data/evidence/claim-rationales.zh.json')
+const claimStatementsZh = readJson('data/evidence/claim-statements.zh.json')
 const events = readJson('data/events.json')
 const stories = readJson('data/stories.json')
 const publishedStories = stories.filter((story) => story.evidenceStatus === 'available-with-limitations')
@@ -173,7 +174,20 @@ function descendantIds(node, output = []) {
   return output
 }
 
-function navigationDescription(node, packageId, descendantCount, directClaimCount) {
+function summaryClaimFor(directClaims) {
+  const priority = ['taxonomy', 'morphology', 'topology', 'fossil-range', 'biogeography', 'ecology', 'divergence-time']
+  const rank = (claim) => priority.includes(claim.claimType) ? priority.indexOf(claim.claimType) : priority.length
+  return directClaims.filter((claim) => claim.claimKind === 'scientific'
+    && claimStatementsZh[claim.statement]
+    && claim.referenceLinks.some((link) => link.relation === 'supports' && (link.pages || link.figure || link.table || link.quoteLocator)))
+    .sort((left, right) => rank(left) - rank(right) || left.id.localeCompare(right.id))[0]
+}
+
+function navigationDescription(node, packageId, descendantCount, directClaimCount, summaryClaim) {
+  if (summaryClaim) return {
+    en: `${summaryClaim.statement} This navigation entry is not a phylogeny or a complete taxon dossier.`,
+    zh: `${claimStatementsZh[summaryClaim.statement]} 此导航摘要不表示系统发育或完整的类群档案。`,
+  }
   const packageDefinition = packageDefinitionById.get(packageId)
   if (!packageDefinition) throw new Error(`Entity ${node.id} has no package definition`)
   const rankedEntryEn = node.rank
@@ -455,7 +469,8 @@ const entities = flattenTree(ontology).map((node) => {
   const parentId = parents.get(node.id)
   const packageId = packageForEntity(node.id)
   const descendantEntityIds = descendantIds(node)
-  const directClaimCount = claims.filter((claim) => claim.subjectId === `taxon:${node.id}`).length
+  const directClaims = claims.filter((claim) => claim.subjectId === `taxon:${node.id}`)
+  const summaryClaim = summaryClaimFor(directClaims)
   const ranges = rangesByEntityId.get(node.id) ?? []
   const globalRange = ranges.find((range) => range.rangeKind === 'global-composite')
   if (!globalRange) throw new Error(`Entity ${node.id} has no canonical global range`)
@@ -480,7 +495,7 @@ const entities = flattenTree(ontology).map((node) => {
     },
     synonyms: [],
     rank: node.rank || 'not-applicable',
-    definition: navigationDescription(node, packageId, descendantEntityIds.length, directClaimCount),
+    definition: navigationDescription(node, packageId, descendantEntityIds.length, directClaims.length, summaryClaim),
     compositionScope: {
       includesSelf: true,
       descendantEntityIds,
@@ -494,7 +509,7 @@ const entities = flattenTree(ontology).map((node) => {
       provisional: globalRange.evidenceLevel !== 'expert-reviewed',
     },
     externalIds: node.taxonId ? { pbdb: node.taxonId } : {},
-    referenceIds: [...new Set([...ranges.flatMap((range) => range.referenceLocators.map((locator) => locator.referenceId)), ...evidence.references, ...(node.taxonId ? ['pbdb-taxa-2026-07-19'] : [])])],
+    referenceIds: [...new Set([...ranges.flatMap((range) => range.referenceLocators.map((locator) => locator.referenceId)), ...evidence.references, ...(summaryClaim?.referenceLinks.map((link) => link.referenceId) ?? []), ...(node.taxonId ? ['pbdb-taxa-2026-07-19'] : [])])],
     evidenceStatus: evidence.support,
     limitations: [
       evidence.conflicts,
