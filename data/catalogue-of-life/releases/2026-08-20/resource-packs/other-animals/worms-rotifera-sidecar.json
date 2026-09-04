@@ -1,0 +1,96 @@
+{
+  "schemaVersion": 1,
+  "recordType": "release-pinned-authority-archive-crosswalk",
+  "id": "rotifera-298081-archive-crosswalk",
+  "packageId": "other-animals",
+  "provider": "Rotifer World Catalogue via ChecklistBank",
+  "rowEncoding": "json",
+  "encoding": "gzip",
+  "mediaType": "application/json",
+  "colIdField": "colId",
+  "totalCountField": "total",
+  "source": {
+    "datasetId": 298081,
+    "version": "1.0",
+    "versionDoi": "10.48580/dg8gp",
+    "license": "CC-BY-4.0",
+    "archiveUrl": "https://api.checklistbank.org/dataset/298081/archive",
+    "archiveBytes": 105464,
+    "archiveSha256": "14a05b8cf2f309e90d71dde72de87a82503915fe220f95abbc9b6e251a97ba81",
+    "metadataSha256": "351079ab9b22f8a49327154cfbb3542268b539a886eeb682107c8b950976e201",
+    "sourceLedgerPath": "data/sources/rotifera-298081-import-ledger.json",
+    "members": {
+      "NameUsage.tsv": {
+        "bytes": 873060,
+        "sha256": "b6e12727bd3e8f3150d559f90acc40c1b96bcdb294fbb0a0b235f580b347fc2d",
+        "rows": 4018
+      }
+    },
+    "archivePath": "data/sources/archives/checklistbank-298081-rotifera-2026-09-05.zip",
+    "metadataPath": "data/sources/archives/checklistbank-298081-rotifera-2026-09-05.metadata.json"
+  },
+  "scope": {
+    "colRootUsageId": "5Y",
+    "sourceDatasetId": 298081,
+    "colStrictAcceptedSpecies": 2467,
+    "validSourceSpecies": 2467
+  },
+  "matching": {
+    "prohibited": "No synonym, fuzzy, case-folded, diacritic-stripped or species-concept matching.",
+    "normalization": "NFC and Unicode whitespace normalization only; COL trailing authorship is removed exactly."
+  },
+  "counts": {
+    "total": 2467,
+    "accepted": 2467,
+    "redirect": 0,
+    "ambiguous": 0,
+    "unmatched": 0,
+    "withheld": 0,
+    "upstreamOnly": 0,
+    "records": 2467
+  },
+  "files": [
+    {
+      "path": "other-animals/worms-rotifera-000.json.gz",
+      "records": 2467,
+      "bytes": 123935,
+      "sha256": "2d1fa2fc197d050f948d74fa9861b8195d63c82abe060a8692c59a2724937214",
+      "sourceBytes": 1905818,
+      "sourceSha256": "6401e2421cc751e22f765259ff927f35fe27875c9c4b002375e602602edd6c25",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "role": "col-partition",
+      "minColId": "33MV6",
+      "maxColId": "XQM7"
+    }
+  ],
+  "upstreamOnlyFiles": [],
+  "evidenceBoundary": {
+    "en": "A frozen exact nomenclatural crosswalk, not a global checklist or species-concept equivalence claim.",
+    "zh": "冻结的原始命名来源对照；不是全球物种全集或物种概念等同性结论。"
+  },
+  "limitations": [
+    "Invalid, synonym and bare-name source rows are retained only in the frozen input evidence and are not promoted to accepted species.",
+    "Source-only rows are not claims of global novelty."
+  ],
+  "deliveryProfiles": {
+    "web-light": {
+      "mode": "summary-only",
+      "records": 0,
+      "files": [],
+      "totalCompressedBytes": 0,
+      "totalSourceBytes": 0
+    },
+    "native-full": {
+      "mode": "complete",
+      "records": 2467,
+      "files": [
+        "other-animals/worms-rotifera-000.json.gz"
+      ],
+      "totalCompressedBytes": 123935,
+      "totalSourceBytes": 1905818
+    }
+  },
+  "totalCompressedBytes": 123935,
+  "totalSourceBytes": 1905818
+}

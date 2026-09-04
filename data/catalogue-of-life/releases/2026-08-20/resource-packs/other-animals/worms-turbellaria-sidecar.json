@@ -1,0 +1,230 @@
+{
+  "schemaVersion": 1,
+  "recordType": "release-pinned-authority-archive-crosswalk",
+  "id": "worms-turbellaria-archive-crosswalk",
+  "packageId": "other-animals",
+  "provider": "World Register of Marine Species via ChecklistBank",
+  "rowEncoding": "json",
+  "colIdField": "colId",
+  "totalCountField": "total",
+  "source": {
+    "datasetId": "1193",
+    "title": "World List of turbellarian worms: Acoelomorpha, Catenulida, Rhabditophora",
+    "version": "2026-09-01",
+    "versionDoi": "10.48580/d3g6.v88",
+    "metadataBytes": 3037,
+    "metadataSha256": "e538cf86d0be7a86d7fa41803b038ddebd7f1607af75afcb522ef3aba7c210ec",
+    "license": "CC-BY-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "rightsHolder": "WoRMS Editorial Board",
+    "archiveUrl": "https://api.checklistbank.org/dataset/1193/archive",
+    "archivePath": "data/sources/archives/checklistbank-1193-turbellaria-2026-09-01.zip",
+    "metadataPath": "data/sources/archives/checklistbank-1193-turbellaria-2026-09-01.metadata.json",
+    "archiveBytes": 2320899,
+    "archiveSha256": "ef2402cab1d39b2569c18e415a6c9c3acdc7e197c7ab6e92158488b6863fe8ce",
+    "members": {
+      "metadata.yml": {
+        "bytes": 1872,
+        "sha256": "6944f926424322befd86c9ab3babe44053859d35a4cec6d904ab8041de24b9f9"
+      },
+      "TypeMaterial.txt": {
+        "bytes": 198063,
+        "sha256": "4c256ef201b123e03b288c71d4391f388e140adf4e3558a31f6685d23cf20825"
+      },
+      "Name.txt": {
+        "bytes": 3704978,
+        "sha256": "621a17dc01247a1aceda554f69db82feafaca5087812ee4d546e5e0048aa4305"
+      },
+      "NameRelation.txt": {
+        "bytes": 1086688,
+        "sha256": "7e423345ad5a8cab987726c3e95594824aac1980d056eb35631de1c43cb63bcc"
+      },
+      "Taxon.txt": {
+        "bytes": 3355038,
+        "sha256": "4f698acf1fca6e649b9177113ec77e5545f024b78c431cd6b6d4e38af3fefac8"
+      },
+      "Synonym.txt": {
+        "bytes": 961643,
+        "sha256": "051d85ff52ecb03a299c9af358fbe84d33600d0d152b23b905e2817bfabc9b1e"
+      },
+      "SpeciesEstimate.txt": {
+        "bytes": 35,
+        "sha256": "552ac985d21f5b6e89941c9a4b07715a7f4a56106b5d50480ecf9dcba5f901e5"
+      },
+      "Reference.txt": {
+        "bytes": 1123703,
+        "sha256": "93cdf0a49998aafea4e2358d510c6016c73e985ad7800d42109269af2794840a"
+      },
+      "NameReference.txt": {
+        "bytes": 3097290,
+        "sha256": "b05bb24fbe4e8efb242f2f59a6ed7bd63bfd997090185c186e47cd1d9f1acab7"
+      },
+      "Distribution.txt": {
+        "bytes": 6824629,
+        "sha256": "9700fd2c6affc1389df6ca919ea51910034c2f6ec89b72352d33488a9d3c6f0f"
+      },
+      "Media.txt": {
+        "bytes": 918740,
+        "sha256": "47782867a5d7ab9f18548fbe2475fa5569437981a9a17604ed2ff0c224550cdd"
+      },
+      "VernacularName.txt": {
+        "bytes": 7244,
+        "sha256": "7608122087198aab21411085569d5716c783116c443e340880db39dc6a5b50a9"
+      }
+    }
+  },
+  "scope": {
+    "colRootUsageIds": [
+      "7NF2H",
+      "7NF2L",
+      "7NF2P",
+      "7NF2W"
+    ],
+    "scientificName": "Turbellaria",
+    "eligibleColSpecies": 6508,
+    "sourceAcceptedSpecies": 6523,
+    "excludedSourceProvisional": 37
+  },
+  "matching": {
+    "normalization": "NFC and whitespace normalization only; COL trailing authorship is removed exactly.",
+    "prohibited": "No fuzzy, case-folded, accent-folded, synonym or species-concept matching."
+  },
+  "counts": {
+    "total": 6508,
+    "accepted": 6493,
+    "redirect": 0,
+    "ambiguous": 0,
+    "unmatched": 15,
+    "withheld": 0,
+    "upstreamOnly": 30,
+    "records": 6538
+  },
+  "files": [
+    {
+      "path": "other-animals/worms-turbellaria-000.json.gz",
+      "records": 1208,
+      "bytes": 199547,
+      "sha256": "35556ef08da6c13e56c114ed7bb63677d9698b8889fb23f0d4d453d00324f116",
+      "sourceBytes": 2093095,
+      "sourceSha256": "7b26f3cfc51c282be606a157376ef8db972c14f098dbe70266cec83864b843f5",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "role": "col-partition",
+      "minColId": "322VJ",
+      "maxColId": "42V3T"
+    },
+    {
+      "path": "other-animals/worms-turbellaria-001.json.gz",
+      "records": 1074,
+      "bytes": 196567,
+      "sha256": "ad79470717db0066f08eedc05a732a543f2af61c1ee47642ba2fa6af3e36ba5b",
+      "sourceBytes": 2095018,
+      "sourceSha256": "85669a16f4080e01670ca56d45f2a85d82c6486d736fb8bbd71dae7efeefdcb3",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "role": "col-partition",
+      "minColId": "42V3W",
+      "maxColId": "4MYQZ"
+    },
+    {
+      "path": "other-animals/worms-turbellaria-002.json.gz",
+      "records": 1050,
+      "bytes": 187391,
+      "sha256": "f8c61578bcbdc3aae3363b7ca55e9daab97a18a6226802d4591ecb2f201d2a6d",
+      "sourceBytes": 2094381,
+      "sourceSha256": "213d2b27ef7457c73bc353912aebc2ea556d11818ac01db422471d9635971238",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "role": "col-partition",
+      "minColId": "4MYR2",
+      "maxColId": "66T48"
+    },
+    {
+      "path": "other-animals/worms-turbellaria-003.json.gz",
+      "records": 1098,
+      "bytes": 222138,
+      "sha256": "773318dbbea75f7c70066cc0928923f3657fb8460ac5086dea0f01866c877cc1",
+      "sourceBytes": 2092409,
+      "sourceSha256": "e49820378154617ba77fde6d85bb5541e5601418fe83520a16588488bd727706",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "role": "col-partition",
+      "minColId": "66T49",
+      "maxColId": "77XHK"
+    },
+    {
+      "path": "other-animals/worms-turbellaria-004.json.gz",
+      "records": 1064,
+      "bytes": 201649,
+      "sha256": "db2abde50cc45f0c2c65ac8a83a0594823282fd4792442650f4b5301f382bd10",
+      "sourceBytes": 2094962,
+      "sourceSha256": "d01ce86a1f61ded0a6c9c9d3a196b479922f262680df291ec2d514abf5307b23",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "role": "col-partition",
+      "minColId": "77XHL",
+      "maxColId": "CQYGH"
+    },
+    {
+      "path": "other-animals/worms-turbellaria-005.json.gz",
+      "records": 1014,
+      "bytes": 166375,
+      "sha256": "b0c226fdb4bbb17d84e270857329f26c29ad3449df8a2c450ce0ba81490bb248",
+      "sourceBytes": 1865461,
+      "sourceSha256": "6e93c9c238cc4baaeceeb6ee2d9eadf89f5f612c8a864362d663a478e28fb81c",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "role": "col-partition",
+      "minColId": "CQYGJ",
+      "maxColId": "ZYHD"
+    }
+  ],
+  "upstreamOnlyFiles": [
+    {
+      "path": "other-animals/worms-turbellaria-source-only-000.json.gz",
+      "records": 30,
+      "bytes": 4592,
+      "sha256": "aa01e27d19b9f284adec189948e3a5023deca18e5d1aabd45853d8a84107b394",
+      "sourceBytes": 36578,
+      "sourceSha256": "dbf6a4dd162669d5918e6155a54253b123fa6bec378ffae28c264e1a7ff0e3ed",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "role": "upstream-only"
+    }
+  ],
+  "evidenceBoundary": {
+    "en": "Frozen WoRMS nomenclatural/source projection for the exact COL26.8 source-1193 Turbellaria roots; not species-concept equivalence, a biological dossier, fossil evidence or expert review.",
+    "zh": "精确 COL26.8 source-1193 涡虫类根节点范围的 WoRMS 冻结命名/来源投影；不是物种概念等同性、生物档案、化石证据或专家审查。"
+  },
+  "limitations": [
+    "Source-only rows are relative only to COL source dataset 1193.",
+    "Name.status is nomenclatural metadata and is not used as taxonomic acceptance.",
+    "Synonym.taxonID targets do not remove accepted Taxon rows."
+  ],
+  "totalCompressedBytes": 1178259,
+  "totalSourceBytes": 12371904,
+  "deliveryProfiles": {
+    "web-light": {
+      "mode": "summary-only",
+      "records": 0,
+      "files": [],
+      "totalCompressedBytes": 0,
+      "totalSourceBytes": 0
+    },
+    "native-full": {
+      "mode": "complete",
+      "records": 6538,
+      "files": [
+        "other-animals/worms-turbellaria-000.json.gz",
+        "other-animals/worms-turbellaria-001.json.gz",
+        "other-animals/worms-turbellaria-002.json.gz",
+        "other-animals/worms-turbellaria-003.json.gz",
+        "other-animals/worms-turbellaria-004.json.gz",
+        "other-animals/worms-turbellaria-005.json.gz",
+        "other-animals/worms-turbellaria-source-only-000.json.gz"
+      ],
+      "totalCompressedBytes": 1178259,
+      "totalSourceBytes": 12371904
+    }
+  }
+}

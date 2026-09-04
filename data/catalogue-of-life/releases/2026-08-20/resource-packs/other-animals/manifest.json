@@ -6195,6 +6195,717 @@
           "requestPolicy": "Read one inclusive COL-ID range and require an exact colId; range membership is not a scientific identity match."
         }
       }
+    },
+    {
+      "schemaVersion": 1,
+      "recordType": "release-pinned-authority-archive-crosswalk",
+      "id": "worms-ascidiacea-archive-crosswalk",
+      "packageId": "other-animals",
+      "provider": "Ascidiacea World Database via ChecklistBank",
+      "role": "authority-crosswalk",
+      "rowEncoding": "json",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "colIdField": "colId",
+      "totalCountField": "total",
+      "source": {
+        "archiveUrl": "https://api.checklistbank.org/dataset/1186/archive",
+        "archiveBytes": 692018,
+        "archiveSha256": "10f7ee92363e3fab5df9964a494b59e1d79a5214f38b9e796f73afd51558863a",
+        "version": "2026-09-01",
+        "versionDoi": "10.48580/d3fx.v90",
+        "license": "CC-BY-4.0",
+        "sourceLedgerPath": "data/sources/worms-ascidiacea-1186-import-ledger.json",
+        "archivePath": "data/sources/archives/checklistbank-1186-ascidiacea-2026-09-01.zip",
+        "metadataPath": "data/sources/archives/checklistbank-1186-ascidiacea-2026-09-01.metadata.json",
+        "datasetId": "1186",
+        "metadataSha256": "c97e6682634c2e90034cf1c6cf90b0d5b821392d96b5de11ca8b5e157cd291fb",
+        "metadataBytes": 3728,
+        "canonicalDescriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals/worms-ascidiacea-sidecar.json",
+        "canonicalDescriptorBytes": 5801,
+        "canonicalDescriptorSha256": "c70efa14d1d077b28bf93b77314d125243457d20e6dca152b37ab04eac0494d1",
+        "sourceLedgerSha256": "aa1438a4bc5bfbbf35f259f042a69f1fa1c6a99c6386d8439859faf0dd6ea488"
+      },
+      "scope": {
+        "colRootUsageId": "B8V3P",
+        "colParentClosureRootUsageId": "7NF2Z",
+        "eligibleColSpecies": 3000,
+        "excludedParentClosureSpecies": {
+          "1178": 68,
+          "1185": 78
+        },
+        "sourceDatasetId": "1186"
+      },
+      "counts": {
+        "total": 3000,
+        "records": 3000,
+        "accepted": 3000,
+        "redirect": 0,
+        "ambiguous": 0,
+        "unmatched": 0,
+        "withheld": 0,
+        "upstreamOnly": 0
+      },
+      "files": [
+        {
+          "path": "other-animals/worms-ascidiacea-000.json.gz",
+          "records": 514,
+          "bytes": 143768,
+          "sha256": "6f67d9e524d81c6ca312c8d0400e0892d802e0db0561f8ed68425853634b8189",
+          "sourceBytes": 2092702,
+          "sourceSha256": "39853d1f09095894da19031790b3516ff93a043ee662553e3c35628b05b0ddb1",
+          "role": "col-partition",
+          "encoding": "gzip",
+          "mediaType": "application/json",
+          "minColId": "327YW",
+          "maxColId": "3JF5L"
+        },
+        {
+          "path": "other-animals/worms-ascidiacea-001.json.gz",
+          "records": 474,
+          "bytes": 140533,
+          "sha256": "ec9e62ef3f25e1e29dd160f36d1630dd55c403db34ffe87718acdb705d2fe584",
+          "sourceBytes": 2091527,
+          "sourceSha256": "fe89869d664c23ce6cdc51863e634bbff702f7f986a0b1089af4bb808842dd8f",
+          "role": "col-partition",
+          "encoding": "gzip",
+          "mediaType": "application/json",
+          "minColId": "3JF5M",
+          "maxColId": "4L39Y"
+        },
+        {
+          "path": "other-animals/worms-ascidiacea-002.json.gz",
+          "records": 499,
+          "bytes": 138949,
+          "sha256": "e1969cd660394100f25c0e66f6c3de269e7b789d64878e5bab5acee8c3c5ec95",
+          "sourceBytes": 2096952,
+          "sourceSha256": "7fdbdfb8707790f606319bef18c16fbb6eb7157c9a28dce642306907c149e248",
+          "role": "col-partition",
+          "encoding": "gzip",
+          "mediaType": "application/json",
+          "minColId": "4L3B2",
+          "maxColId": "53XZR"
+        },
+        {
+          "path": "other-animals/worms-ascidiacea-003.json.gz",
+          "records": 480,
+          "bytes": 143701,
+          "sha256": "5f93f5b0ca3dd681d08a9129040cb4cd114be5cbb3c9aca0e4dba0ba1008859d",
+          "sourceBytes": 2094511,
+          "sourceSha256": "dec6d2403078f97fbb67cdd9ca5c8ffb09639a32f1e79a83a6c2b8cacf8bd8b2",
+          "role": "col-partition",
+          "encoding": "gzip",
+          "mediaType": "application/json",
+          "minColId": "53XZS",
+          "maxColId": "6RFS7"
+        },
+        {
+          "path": "other-animals/worms-ascidiacea-004.json.gz",
+          "records": 547,
+          "bytes": 141635,
+          "sha256": "86b965716caad0a3b590b8220ebfd2deb86e9ac536e40fd654b90e0bbc0e7069",
+          "sourceBytes": 2095998,
+          "sourceSha256": "0df4be311911bffd311d21c2e6f766482f706b725a17349f41831ce4e4be0ef3",
+          "role": "col-partition",
+          "encoding": "gzip",
+          "mediaType": "application/json",
+          "minColId": "6RFTF",
+          "maxColId": "FNYV"
+        },
+        {
+          "path": "other-animals/worms-ascidiacea-005.json.gz",
+          "records": 486,
+          "bytes": 141830,
+          "sha256": "013cd67dd6dfa8142379c89ae370066ce587b7cb286800e26dd535203989115d",
+          "sourceBytes": 2014380,
+          "sourceSha256": "701f46f0351bea065e9ea63a562481b5066a4607773720946bcebfbd3a0f370c",
+          "role": "col-partition",
+          "encoding": "gzip",
+          "mediaType": "application/json",
+          "minColId": "FNYW",
+          "maxColId": "YQM5"
+        }
+      ],
+      "upstreamOnlyFiles": [],
+      "deliveryProfiles": {
+        "web-light": {
+          "records": 0,
+          "files": [],
+          "totalCompressedBytes": 0,
+          "totalSourceBytes": 0
+        },
+        "native-full": {
+          "records": 3000,
+          "files": [
+            "other-animals/worms-ascidiacea-000.json.gz",
+            "other-animals/worms-ascidiacea-001.json.gz",
+            "other-animals/worms-ascidiacea-002.json.gz",
+            "other-animals/worms-ascidiacea-003.json.gz",
+            "other-animals/worms-ascidiacea-004.json.gz",
+            "other-animals/worms-ascidiacea-005.json.gz"
+          ],
+          "totalCompressedBytes": 850416,
+          "totalSourceBytes": 12486070
+        }
+      },
+      "matching": {
+        "normalization": "Exact scientific name and authorship after whitespace normalization; source fields preserved.",
+        "prohibited": "No fuzzy or inferred matching."
+      },
+      "evidenceBoundary": {
+        "en": "Frozen exact nomenclatural crosswalk; not species-concept equivalence, biological dossier or expert review.",
+        "zh": "冻结的命名与原始来源对照；不是物种概念等同性、完整生物档案或专家审查。"
+      },
+      "totalCompressedBytes": 850416,
+      "totalSourceBytes": 12486070,
+      "limitations": [
+        "Name.status is original nomenclatural metadata; acceptance comes from nonprovisional Taxon membership.",
+        "Matched names do not establish species-concept equivalence."
+      ],
+      "descriptorSha256": "c70efa14d1d077b28bf93b77314d125243457d20e6dca152b37ab04eac0494d1",
+      "canonicalFileInventory": [
+        {
+          "path": "other-animals/worms-ascidiacea-000.json.gz",
+          "records": 514,
+          "bytes": 143768,
+          "sha256": "6f67d9e524d81c6ca312c8d0400e0892d802e0db0561f8ed68425853634b8189",
+          "sourceBytes": 2092702,
+          "sourceSha256": "39853d1f09095894da19031790b3516ff93a043ee662553e3c35628b05b0ddb1",
+          "role": "col-partition",
+          "encoding": "gzip",
+          "mediaType": "application/json",
+          "minColId": "327YW",
+          "maxColId": "3JF5L"
+        },
+        {
+          "path": "other-animals/worms-ascidiacea-001.json.gz",
+          "records": 474,
+          "bytes": 140533,
+          "sha256": "ec9e62ef3f25e1e29dd160f36d1630dd55c403db34ffe87718acdb705d2fe584",
+          "sourceBytes": 2091527,
+          "sourceSha256": "fe89869d664c23ce6cdc51863e634bbff702f7f986a0b1089af4bb808842dd8f",
+          "role": "col-partition",
+          "encoding": "gzip",
+          "mediaType": "application/json",
+          "minColId": "3JF5M",
+          "maxColId": "4L39Y"
+        },
+        {
+          "path": "other-animals/worms-ascidiacea-002.json.gz",
+          "records": 499,
+          "bytes": 138949,
+          "sha256": "e1969cd660394100f25c0e66f6c3de269e7b789d64878e5bab5acee8c3c5ec95",
+          "sourceBytes": 2096952,
+          "sourceSha256": "7fdbdfb8707790f606319bef18c16fbb6eb7157c9a28dce642306907c149e248",
+          "role": "col-partition",
+          "encoding": "gzip",
+          "mediaType": "application/json",
+          "minColId": "4L3B2",
+          "maxColId": "53XZR"
+        },
+        {
+          "path": "other-animals/worms-ascidiacea-003.json.gz",
+          "records": 480,
+          "bytes": 143701,
+          "sha256": "5f93f5b0ca3dd681d08a9129040cb4cd114be5cbb3c9aca0e4dba0ba1008859d",
+          "sourceBytes": 2094511,
+          "sourceSha256": "dec6d2403078f97fbb67cdd9ca5c8ffb09639a32f1e79a83a6c2b8cacf8bd8b2",
+          "role": "col-partition",
+          "encoding": "gzip",
+          "mediaType": "application/json",
+          "minColId": "53XZS",
+          "maxColId": "6RFS7"
+        },
+        {
+          "path": "other-animals/worms-ascidiacea-004.json.gz",
+          "records": 547,
+          "bytes": 141635,
+          "sha256": "86b965716caad0a3b590b8220ebfd2deb86e9ac536e40fd654b90e0bbc0e7069",
+          "sourceBytes": 2095998,
+          "sourceSha256": "0df4be311911bffd311d21c2e6f766482f706b725a17349f41831ce4e4be0ef3",
+          "role": "col-partition",
+          "encoding": "gzip",
+          "mediaType": "application/json",
+          "minColId": "6RFTF",
+          "maxColId": "FNYV"
+        },
+        {
+          "path": "other-animals/worms-ascidiacea-005.json.gz",
+          "records": 486,
+          "bytes": 141830,
+          "sha256": "013cd67dd6dfa8142379c89ae370066ce587b7cb286800e26dd535203989115d",
+          "sourceBytes": 2014380,
+          "sourceSha256": "701f46f0351bea065e9ea63a562481b5066a4607773720946bcebfbd3a0f370c",
+          "role": "col-partition",
+          "encoding": "gzip",
+          "mediaType": "application/json",
+          "minColId": "FNYW",
+          "maxColId": "YQM5"
+        }
+      ],
+      "integration": {
+        "clientParityRequirement": "Full-data builds retain every declared row file; Pages publishes summaries only. Client and backend infrastructure evolves independently.",
+        "lookup": {
+          "strategy": "lexicographic-colId-range-v1",
+          "ordering": "Unicode code-unit ascending",
+          "requestPolicy": "Read one inclusive COL-ID range and require an exact colId; range membership is not a scientific identity match."
+        }
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "recordType": "release-pinned-authority-archive-crosswalk",
+      "id": "worms-turbellaria-archive-crosswalk",
+      "packageId": "other-animals",
+      "provider": "World Register of Marine Species via ChecklistBank",
+      "rowEncoding": "json",
+      "colIdField": "colId",
+      "totalCountField": "total",
+      "source": {
+        "datasetId": "1193",
+        "title": "World List of turbellarian worms: Acoelomorpha, Catenulida, Rhabditophora",
+        "version": "2026-09-01",
+        "versionDoi": "10.48580/d3g6.v88",
+        "metadataBytes": 3037,
+        "metadataSha256": "e538cf86d0be7a86d7fa41803b038ddebd7f1607af75afcb522ef3aba7c210ec",
+        "license": "CC-BY-4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "rightsHolder": "WoRMS Editorial Board",
+        "archiveUrl": "https://api.checklistbank.org/dataset/1193/archive",
+        "archivePath": "data/sources/archives/checklistbank-1193-turbellaria-2026-09-01.zip",
+        "metadataPath": "data/sources/archives/checklistbank-1193-turbellaria-2026-09-01.metadata.json",
+        "archiveBytes": 2320899,
+        "archiveSha256": "ef2402cab1d39b2569c18e415a6c9c3acdc7e197c7ab6e92158488b6863fe8ce",
+        "members": {
+          "metadata.yml": {
+            "bytes": 1872,
+            "sha256": "6944f926424322befd86c9ab3babe44053859d35a4cec6d904ab8041de24b9f9"
+          },
+          "TypeMaterial.txt": {
+            "bytes": 198063,
+            "sha256": "4c256ef201b123e03b288c71d4391f388e140adf4e3558a31f6685d23cf20825"
+          },
+          "Name.txt": {
+            "bytes": 3704978,
+            "sha256": "621a17dc01247a1aceda554f69db82feafaca5087812ee4d546e5e0048aa4305"
+          },
+          "NameRelation.txt": {
+            "bytes": 1086688,
+            "sha256": "7e423345ad5a8cab987726c3e95594824aac1980d056eb35631de1c43cb63bcc"
+          },
+          "Taxon.txt": {
+            "bytes": 3355038,
+            "sha256": "4f698acf1fca6e649b9177113ec77e5545f024b78c431cd6b6d4e38af3fefac8"
+          },
+          "Synonym.txt": {
+            "bytes": 961643,
+            "sha256": "051d85ff52ecb03a299c9af358fbe84d33600d0d152b23b905e2817bfabc9b1e"
+          },
+          "SpeciesEstimate.txt": {
+            "bytes": 35,
+            "sha256": "552ac985d21f5b6e89941c9a4b07715a7f4a56106b5d50480ecf9dcba5f901e5"
+          },
+          "Reference.txt": {
+            "bytes": 1123703,
+            "sha256": "93cdf0a49998aafea4e2358d510c6016c73e985ad7800d42109269af2794840a"
+          },
+          "NameReference.txt": {
+            "bytes": 3097290,
+            "sha256": "b05bb24fbe4e8efb242f2f59a6ed7bd63bfd997090185c186e47cd1d9f1acab7"
+          },
+          "Distribution.txt": {
+            "bytes": 6824629,
+            "sha256": "9700fd2c6affc1389df6ca919ea51910034c2f6ec89b72352d33488a9d3c6f0f"
+          },
+          "Media.txt": {
+            "bytes": 918740,
+            "sha256": "47782867a5d7ab9f18548fbe2475fa5569437981a9a17604ed2ff0c224550cdd"
+          },
+          "VernacularName.txt": {
+            "bytes": 7244,
+            "sha256": "7608122087198aab21411085569d5716c783116c443e340880db39dc6a5b50a9"
+          }
+        },
+        "canonicalDescriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals/worms-turbellaria-sidecar.json",
+        "canonicalDescriptorBytes": 8347,
+        "canonicalDescriptorSha256": "73609d627af56ec5eb7a004d7106036fd083d8f1ccbf25e8fa840d4e9207d459",
+        "sourceLedgerPath": "data/sources/worms-turbellaria-archive-1193-import-ledger.json",
+        "sourceLedgerSha256": "33ed30ec56e85a53a5f95eb3cfc7eab622921f355d96b6abbda45f501cec82f1"
+      },
+      "scope": {
+        "colRootUsageIds": [
+          "7NF2H",
+          "7NF2L",
+          "7NF2P",
+          "7NF2W"
+        ],
+        "scientificName": "Turbellaria",
+        "eligibleColSpecies": 6508,
+        "sourceAcceptedSpecies": 6523,
+        "excludedSourceProvisional": 37
+      },
+      "matching": {
+        "normalization": "NFC and whitespace normalization only; COL trailing authorship is removed exactly.",
+        "prohibited": "No fuzzy, case-folded, accent-folded, synonym or species-concept matching."
+      },
+      "counts": {
+        "total": 6508,
+        "accepted": 6493,
+        "redirect": 0,
+        "ambiguous": 0,
+        "unmatched": 15,
+        "withheld": 0,
+        "upstreamOnly": 30,
+        "records": 6538
+      },
+      "files": [
+        {
+          "path": "other-animals/worms-turbellaria-000.json.gz",
+          "records": 1208,
+          "bytes": 199547,
+          "sha256": "35556ef08da6c13e56c114ed7bb63677d9698b8889fb23f0d4d453d00324f116",
+          "sourceBytes": 2093095,
+          "sourceSha256": "7b26f3cfc51c282be606a157376ef8db972c14f098dbe70266cec83864b843f5",
+          "encoding": "gzip",
+          "mediaType": "application/json",
+          "role": "col-partition",
+          "minColId": "322VJ",
+          "maxColId": "42V3T"
+        },
+        {
+          "path": "other-animals/worms-turbellaria-001.json.gz",
+          "records": 1074,
+          "bytes": 196567,
+          "sha256": "ad79470717db0066f08eedc05a732a543f2af61c1ee47642ba2fa6af3e36ba5b",
+          "sourceBytes": 2095018,
+          "sourceSha256": "85669a16f4080e01670ca56d45f2a85d82c6486d736fb8bbd71dae7efeefdcb3",
+          "encoding": "gzip",
+          "mediaType": "application/json",
+          "role": "col-partition",
+          "minColId": "42V3W",
+          "maxColId": "4MYQZ"
+        },
+        {
+          "path": "other-animals/worms-turbellaria-002.json.gz",
+          "records": 1050,
+          "bytes": 187391,
+          "sha256": "f8c61578bcbdc3aae3363b7ca55e9daab97a18a6226802d4591ecb2f201d2a6d",
+          "sourceBytes": 2094381,
+          "sourceSha256": "213d2b27ef7457c73bc353912aebc2ea556d11818ac01db422471d9635971238",
+          "encoding": "gzip",
+          "mediaType": "application/json",
+          "role": "col-partition",
+          "minColId": "4MYR2",
+          "maxColId": "66T48"
+        },
+        {
+          "path": "other-animals/worms-turbellaria-003.json.gz",
+          "records": 1098,
+          "bytes": 222138,
+          "sha256": "773318dbbea75f7c70066cc0928923f3657fb8460ac5086dea0f01866c877cc1",
+          "sourceBytes": 2092409,
+          "sourceSha256": "e49820378154617ba77fde6d85bb5541e5601418fe83520a16588488bd727706",
+          "encoding": "gzip",
+          "mediaType": "application/json",
+          "role": "col-partition",
+          "minColId": "66T49",
+          "maxColId": "77XHK"
+        },
+        {
+          "path": "other-animals/worms-turbellaria-004.json.gz",
+          "records": 1064,
+          "bytes": 201649,
+          "sha256": "db2abde50cc45f0c2c65ac8a83a0594823282fd4792442650f4b5301f382bd10",
+          "sourceBytes": 2094962,
+          "sourceSha256": "d01ce86a1f61ded0a6c9c9d3a196b479922f262680df291ec2d514abf5307b23",
+          "encoding": "gzip",
+          "mediaType": "application/json",
+          "role": "col-partition",
+          "minColId": "77XHL",
+          "maxColId": "CQYGH"
+        },
+        {
+          "path": "other-animals/worms-turbellaria-005.json.gz",
+          "records": 1014,
+          "bytes": 166375,
+          "sha256": "b0c226fdb4bbb17d84e270857329f26c29ad3449df8a2c450ce0ba81490bb248",
+          "sourceBytes": 1865461,
+          "sourceSha256": "6e93c9c238cc4baaeceeb6ee2d9eadf89f5f612c8a864362d663a478e28fb81c",
+          "encoding": "gzip",
+          "mediaType": "application/json",
+          "role": "col-partition",
+          "minColId": "CQYGJ",
+          "maxColId": "ZYHD"
+        }
+      ],
+      "upstreamOnlyFiles": [
+        {
+          "path": "other-animals/worms-turbellaria-source-only-000.json.gz",
+          "records": 30,
+          "bytes": 4592,
+          "sha256": "aa01e27d19b9f284adec189948e3a5023deca18e5d1aabd45853d8a84107b394",
+          "sourceBytes": 36578,
+          "sourceSha256": "dbf6a4dd162669d5918e6155a54253b123fa6bec378ffae28c264e1a7ff0e3ed",
+          "encoding": "gzip",
+          "mediaType": "application/json",
+          "role": "upstream-only"
+        }
+      ],
+      "evidenceBoundary": {
+        "en": "Frozen WoRMS nomenclatural/source projection for the exact COL26.8 source-1193 Turbellaria roots; not species-concept equivalence, a biological dossier, fossil evidence or expert review.",
+        "zh": "精确 COL26.8 source-1193 涡虫类根节点范围的 WoRMS 冻结命名/来源投影；不是物种概念等同性、生物档案、化石证据或专家审查。"
+      },
+      "limitations": [
+        "Source-only rows are relative only to COL source dataset 1193.",
+        "Name.status is nomenclatural metadata and is not used as taxonomic acceptance.",
+        "Synonym.taxonID targets do not remove accepted Taxon rows."
+      ],
+      "totalCompressedBytes": 1178259,
+      "totalSourceBytes": 12371904,
+      "deliveryProfiles": {
+        "web-light": {
+          "records": 0,
+          "files": [],
+          "totalCompressedBytes": 0,
+          "totalSourceBytes": 0
+        },
+        "native-full": {
+          "records": 6538,
+          "files": [
+            "other-animals/worms-turbellaria-000.json.gz",
+            "other-animals/worms-turbellaria-001.json.gz",
+            "other-animals/worms-turbellaria-002.json.gz",
+            "other-animals/worms-turbellaria-003.json.gz",
+            "other-animals/worms-turbellaria-004.json.gz",
+            "other-animals/worms-turbellaria-005.json.gz",
+            "other-animals/worms-turbellaria-source-only-000.json.gz"
+          ],
+          "totalCompressedBytes": 1178259,
+          "totalSourceBytes": 12371904
+        }
+      },
+      "descriptorSha256": "73609d627af56ec5eb7a004d7106036fd083d8f1ccbf25e8fa840d4e9207d459",
+      "canonicalFileInventory": [
+        {
+          "path": "other-animals/worms-turbellaria-000.json.gz",
+          "records": 1208,
+          "bytes": 199547,
+          "sha256": "35556ef08da6c13e56c114ed7bb63677d9698b8889fb23f0d4d453d00324f116",
+          "sourceBytes": 2093095,
+          "sourceSha256": "7b26f3cfc51c282be606a157376ef8db972c14f098dbe70266cec83864b843f5",
+          "encoding": "gzip",
+          "mediaType": "application/json",
+          "role": "col-partition",
+          "minColId": "322VJ",
+          "maxColId": "42V3T"
+        },
+        {
+          "path": "other-animals/worms-turbellaria-001.json.gz",
+          "records": 1074,
+          "bytes": 196567,
+          "sha256": "ad79470717db0066f08eedc05a732a543f2af61c1ee47642ba2fa6af3e36ba5b",
+          "sourceBytes": 2095018,
+          "sourceSha256": "85669a16f4080e01670ca56d45f2a85d82c6486d736fb8bbd71dae7efeefdcb3",
+          "encoding": "gzip",
+          "mediaType": "application/json",
+          "role": "col-partition",
+          "minColId": "42V3W",
+          "maxColId": "4MYQZ"
+        },
+        {
+          "path": "other-animals/worms-turbellaria-002.json.gz",
+          "records": 1050,
+          "bytes": 187391,
+          "sha256": "f8c61578bcbdc3aae3363b7ca55e9daab97a18a6226802d4591ecb2f201d2a6d",
+          "sourceBytes": 2094381,
+          "sourceSha256": "213d2b27ef7457c73bc353912aebc2ea556d11818ac01db422471d9635971238",
+          "encoding": "gzip",
+          "mediaType": "application/json",
+          "role": "col-partition",
+          "minColId": "4MYR2",
+          "maxColId": "66T48"
+        },
+        {
+          "path": "other-animals/worms-turbellaria-003.json.gz",
+          "records": 1098,
+          "bytes": 222138,
+          "sha256": "773318dbbea75f7c70066cc0928923f3657fb8460ac5086dea0f01866c877cc1",
+          "sourceBytes": 2092409,
+          "sourceSha256": "e49820378154617ba77fde6d85bb5541e5601418fe83520a16588488bd727706",
+          "encoding": "gzip",
+          "mediaType": "application/json",
+          "role": "col-partition",
+          "minColId": "66T49",
+          "maxColId": "77XHK"
+        },
+        {
+          "path": "other-animals/worms-turbellaria-004.json.gz",
+          "records": 1064,
+          "bytes": 201649,
+          "sha256": "db2abde50cc45f0c2c65ac8a83a0594823282fd4792442650f4b5301f382bd10",
+          "sourceBytes": 2094962,
+          "sourceSha256": "d01ce86a1f61ded0a6c9c9d3a196b479922f262680df291ec2d514abf5307b23",
+          "encoding": "gzip",
+          "mediaType": "application/json",
+          "role": "col-partition",
+          "minColId": "77XHL",
+          "maxColId": "CQYGH"
+        },
+        {
+          "path": "other-animals/worms-turbellaria-005.json.gz",
+          "records": 1014,
+          "bytes": 166375,
+          "sha256": "b0c226fdb4bbb17d84e270857329f26c29ad3449df8a2c450ce0ba81490bb248",
+          "sourceBytes": 1865461,
+          "sourceSha256": "6e93c9c238cc4baaeceeb6ee2d9eadf89f5f612c8a864362d663a478e28fb81c",
+          "encoding": "gzip",
+          "mediaType": "application/json",
+          "role": "col-partition",
+          "minColId": "CQYGJ",
+          "maxColId": "ZYHD"
+        },
+        {
+          "path": "other-animals/worms-turbellaria-source-only-000.json.gz",
+          "records": 30,
+          "bytes": 4592,
+          "sha256": "aa01e27d19b9f284adec189948e3a5023deca18e5d1aabd45853d8a84107b394",
+          "sourceBytes": 36578,
+          "sourceSha256": "dbf6a4dd162669d5918e6155a54253b123fa6bec378ffae28c264e1a7ff0e3ed",
+          "encoding": "gzip",
+          "mediaType": "application/json",
+          "role": "upstream-only"
+        }
+      ],
+      "integration": {
+        "clientParityRequirement": "Full-data builds retain every declared row file; Pages publishes summaries only. Client and backend infrastructure evolves independently.",
+        "lookup": {
+          "strategy": "lexicographic-colId-range-v1",
+          "ordering": "Unicode code-unit ascending",
+          "requestPolicy": "Read one inclusive COL-ID range and require an exact colId; range membership is not a scientific identity match."
+        }
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "recordType": "release-pinned-authority-archive-crosswalk",
+      "id": "rotifera-298081-archive-crosswalk",
+      "packageId": "other-animals",
+      "provider": "Rotifer World Catalogue via ChecklistBank",
+      "rowEncoding": "json",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "colIdField": "colId",
+      "totalCountField": "total",
+      "source": {
+        "datasetId": 298081,
+        "version": "1.0",
+        "versionDoi": "10.48580/dg8gp",
+        "license": "CC-BY-4.0",
+        "archiveUrl": "https://api.checklistbank.org/dataset/298081/archive",
+        "archiveBytes": 105464,
+        "archiveSha256": "14a05b8cf2f309e90d71dde72de87a82503915fe220f95abbc9b6e251a97ba81",
+        "metadataSha256": "351079ab9b22f8a49327154cfbb3542268b539a886eeb682107c8b950976e201",
+        "sourceLedgerPath": "data/sources/rotifera-298081-import-ledger.json",
+        "members": {
+          "NameUsage.tsv": {
+            "bytes": 873060,
+            "sha256": "b6e12727bd3e8f3150d559f90acc40c1b96bcdb294fbb0a0b235f580b347fc2d",
+            "rows": 4018
+          }
+        },
+        "archivePath": "data/sources/archives/checklistbank-298081-rotifera-2026-09-05.zip",
+        "metadataPath": "data/sources/archives/checklistbank-298081-rotifera-2026-09-05.metadata.json",
+        "canonicalDescriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals/worms-rotifera-sidecar.json",
+        "canonicalDescriptorBytes": 3243,
+        "canonicalDescriptorSha256": "50c4cfb40a4ef0b78359c4114baff5dff92e05264f265bb873ef37bd7f3071a9",
+        "sourceLedgerSha256": "b4265a06f42aa227d1121427382fd295fac1a9c0e7a5365a896770d9122302ce"
+      },
+      "scope": {
+        "colRootUsageId": "5Y",
+        "sourceDatasetId": 298081,
+        "colStrictAcceptedSpecies": 2467,
+        "validSourceSpecies": 2467
+      },
+      "matching": {
+        "prohibited": "No synonym, fuzzy, case-folded, diacritic-stripped or species-concept matching.",
+        "normalization": "NFC and Unicode whitespace normalization only; COL trailing authorship is removed exactly."
+      },
+      "counts": {
+        "total": 2467,
+        "accepted": 2467,
+        "redirect": 0,
+        "ambiguous": 0,
+        "unmatched": 0,
+        "withheld": 0,
+        "upstreamOnly": 0,
+        "records": 2467
+      },
+      "files": [
+        {
+          "path": "other-animals/worms-rotifera-000.json.gz",
+          "records": 2467,
+          "bytes": 123935,
+          "sha256": "2d1fa2fc197d050f948d74fa9861b8195d63c82abe060a8692c59a2724937214",
+          "sourceBytes": 1905818,
+          "sourceSha256": "6401e2421cc751e22f765259ff927f35fe27875c9c4b002375e602602edd6c25",
+          "encoding": "gzip",
+          "mediaType": "application/json",
+          "role": "col-partition",
+          "minColId": "33MV6",
+          "maxColId": "XQM7"
+        }
+      ],
+      "upstreamOnlyFiles": [],
+      "evidenceBoundary": {
+        "en": "A frozen exact nomenclatural crosswalk, not a global checklist or species-concept equivalence claim.",
+        "zh": "冻结的原始命名来源对照；不是全球物种全集或物种概念等同性结论。"
+      },
+      "limitations": [
+        "Invalid, synonym and bare-name source rows are retained only in the frozen input evidence and are not promoted to accepted species.",
+        "Source-only rows are not claims of global novelty."
+      ],
+      "deliveryProfiles": {
+        "web-light": {
+          "records": 0,
+          "files": [],
+          "totalCompressedBytes": 0,
+          "totalSourceBytes": 0
+        },
+        "native-full": {
+          "records": 2467,
+          "files": [
+            "other-animals/worms-rotifera-000.json.gz"
+          ],
+          "totalCompressedBytes": 123935,
+          "totalSourceBytes": 1905818
+        }
+      },
+      "totalCompressedBytes": 123935,
+      "totalSourceBytes": 1905818,
+      "descriptorSha256": "50c4cfb40a4ef0b78359c4114baff5dff92e05264f265bb873ef37bd7f3071a9",
+      "canonicalFileInventory": [
+        {
+          "path": "other-animals/worms-rotifera-000.json.gz",
+          "records": 2467,
+          "bytes": 123935,
+          "sha256": "2d1fa2fc197d050f948d74fa9861b8195d63c82abe060a8692c59a2724937214",
+          "sourceBytes": 1905818,
+          "sourceSha256": "6401e2421cc751e22f765259ff927f35fe27875c9c4b002375e602602edd6c25",
+          "encoding": "gzip",
+          "mediaType": "application/json",
+          "role": "col-partition",
+          "minColId": "33MV6",
+          "maxColId": "XQM7"
+        }
+      ],
+      "integration": {
+        "clientParityRequirement": "Full-data builds retain every declared row file; Pages publishes summaries only. Client and backend infrastructure evolves independently.",
+        "lookup": {
+          "strategy": "lexicographic-colId-range-v1",
+          "ordering": "Unicode code-unit ascending",
+          "requestPolicy": "Read one inclusive COL-ID range and require an exact colId; range membership is not a scientific identity match."
+        }
+      }
     }
   ]
 }

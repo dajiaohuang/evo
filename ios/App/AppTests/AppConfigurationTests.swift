@@ -546,7 +546,19 @@ final class AppConfigurationTests: XCTestCase {
                 XCTAssertEqual(itisRecords, 158_805)
             } else if packageId == "other-animals" {
                 let extensions = try XCTUnwrap(pack["extensions"] as? [[String: Any]])
-                XCTAssertEqual(extensions.count, 33)
+                XCTAssertEqual(extensions.count, 36)
+                try verifyAuthorityArchiveCollection(
+                    collection: try XCTUnwrap(extensions.first { ($0["id"] as? String) == "worms-ascidiacea-archive-crosswalk" }),
+                    inventory: files, below: dataRoot, expectedFiles: 6, expectedUpstreamFiles: 0,
+                    expectedRecords: 3_000, expectedUpstreamRecords: 0, label: "Ascidiacea")
+                try verifyAuthorityArchiveCollection(
+                    collection: try XCTUnwrap(extensions.first { ($0["id"] as? String) == "worms-turbellaria-archive-crosswalk" }),
+                    inventory: files, below: dataRoot, expectedFiles: 6, expectedUpstreamFiles: 1,
+                    expectedRecords: 6_508, expectedUpstreamRecords: 30, label: "Turbellaria")
+                try verifyAuthorityArchiveCollection(
+                    collection: try XCTUnwrap(extensions.first { ($0["id"] as? String) == "rotifera-298081-archive-crosswalk" }),
+                    inventory: files, below: dataRoot, expectedFiles: 1, expectedUpstreamFiles: 0,
+                    expectedRecords: 2_467, expectedUpstreamRecords: 0, label: "Rotifer World Catalogue")
                 try verifyAuthorityArchiveCollection(
                     collection: try XCTUnwrap(extensions.first { ($0["id"] as? String) == "worms-bryozoa-archive-crosswalk" }),
                     inventory: files, below: dataRoot, expectedFiles: 29, expectedUpstreamFiles: 1,
