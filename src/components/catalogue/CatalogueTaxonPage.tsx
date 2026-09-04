@@ -30,7 +30,7 @@ import type {
 import type { AppRoute } from '../../utils/routing'
 import { useI18n } from '../../i18n'
 import { AuthorityArchiveEvidence } from './AuthorityArchiveEvidence'
-import { MyriapodaItisEvidence } from './MyriapodaItisEvidence'
+import { PackageItisEvidence } from './MyriapodaItisEvidence'
 import './CatalogueTaxonPage.css'
 
 interface CatalogueTaxonPageProps {
@@ -387,7 +387,7 @@ function CatalogueTaxonRecord({ release, id, onNavigate }: CatalogueTaxonPagePro
             </div>}
             {node.sourceDatasetId && sourcesStatus === 'ready' && !source && <p>{zh ? `来源 datasetID ${node.sourceDatasetId} 未列入本版来源清单。` : `Source datasetID ${node.sourceDatasetId} is not listed in this release's source checklist file.`}</p>}
             {speciesOwner && <AuthorityArchiveEvidence colId={node.id} packageId={speciesOwner.entry.id} lineageIds={lineage.map((ancestor) => ancestor.id)} zh={zh} />}
-            {node.rank === 'species' && node.status === 'accepted' && speciesOwner?.entry.id === 'crustaceans-insects' && <MyriapodaItisEvidence colId={node.id} packageId={speciesOwner.entry.id} lineageIds={lineage.map((ancestor) => ancestor.id)} zh={zh} />}
+            {node.rank === 'species' && node.status === 'accepted' && speciesOwner && (['myriapoda', 'chondrichthyes', 'chelicerata'] as const).map((scope) => <PackageItisEvidence key={scope} scope={scope} colId={node.id} packageId={speciesOwner.entry.id} lineageIds={lineage.map((ancestor) => ancestor.id)} zh={zh} />)}
             {(['angiospermae', 'gymnosperms', 'early-land-plants', 'other-plants'].includes(speciesOwner?.entry.id ?? '')) && (wfoStatus === 'idle' || wfoStatus === 'loading') && <p>{zh ? '正在读取固定 WFO 植物名录精确映射…' : 'Loading the pinned exact WFO Plant List mapping…'}</p>}
             {(['angiospermae', 'gymnosperms', 'early-land-plants', 'other-plants'].includes(speciesOwner?.entry.id ?? '')) && wfoStatus === 'error' && <p className="catalogue-inline-error">{zh ? 'WFO 分片读取或完整性校验失败；COL26.8 记录仍可使用。' : 'The WFO shard could not be read or verified; the COL26.8 record remains available.'}</p>}
             {wfoStatus === 'ready' && wfo?.record.colId === node.id && <div className="catalogue-lpsn-card catalogue-wfo-card">
