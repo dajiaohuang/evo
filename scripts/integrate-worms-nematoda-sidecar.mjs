@@ -2,6 +2,7 @@ import { createHash } from 'node:crypto'
 import { readFileSync, writeFileSync } from 'node:fs'
 import { dirname, join, resolve } from 'node:path'
 import { fileURLToPath } from 'node:url'
+import { replaceOwnedExtensions, summarizeExtensions } from './manifest-extension-utils.mjs'
 
 const defaultRoot = resolve(dirname(fileURLToPath(import.meta.url)), '..')
 
@@ -50,10 +51,7 @@ export function integrateWormsNematoda({ rootDir = defaultRoot } = {}) {
   }
   const packManifestPath = join(packRoot, 'manifest.json')
   const packManifest = readJson(packManifestPath)
-  const extensions = [...(packManifest.extensions ?? [])]
-  const index = extensions.findIndex((candidate) => candidate.id === extension.id)
-  if (index < 0) extensions.push(extension)
-  else extensions[index] = extension
+  const extensions = replaceOwnedExtensions(packManifest.extensions ?? [], [extension], (candidate) => candidate.id === extension.id)
   packManifest.extensions = extensions
   const packRecord = writeJson(packManifestPath, packManifest)
   const collectionPath = join(releaseRoot, 'resource-packs/manifest.json')
@@ -62,8 +60,7 @@ export function integrateWormsNematoda({ rootDir = defaultRoot } = {}) {
   if (!pack) throw new Error('other-animals resource pack is missing from collection manifest')
   pack.manifestBytes = packRecord.bytes
   pack.manifestSha256 = packRecord.sha256
-  pack.extensionCount = extensions.length
-  pack.extensionFileCount = extensions.reduce((sum, item) => sum + item.files.length + (item.upstreamOnlyFiles?.length ?? 0), 0)
+  Object.assign(pack, summarizeExtensions(extensions))
   writeJson(collectionPath, collection)
   return { id: extension.id, records, fileCount: inventory.length, extensionCount: extensions.length }
 }

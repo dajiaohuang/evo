@@ -20,6 +20,8 @@ To reproduce with the pinned offline inputs:
 
 ```text
 python -B scripts/build-worms-archive-sidecars.py --scope nematoda --archive /source-cache/dataset-2011.zip --acquisition /source-cache/acquisition.json
+node scripts/integrate-worms-nematoda-sidecar.mjs
+npm run data:manifest
 ```
 
-The importer verifies the pinned archive and acquisition metadata before reading the complete archive, checks all Species rows through parent closure, and emits deterministic gzip JSON shards. A later archive is a new source snapshot and must not silently reuse this ledger or identifier.
+The importer verifies the pinned archive and acquisition metadata before reading the complete archive, checks all Species rows through parent closure, and emits deterministic gzip JSON shards. The integration step replaces only this source extension, preserves existing ITIS and WoRMS collections, and updates the resource-pack inventory. A later archive is a new source snapshot and must not silently reuse this ledger or identifier.
