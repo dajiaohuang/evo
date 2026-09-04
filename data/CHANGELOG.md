@@ -1,5 +1,11 @@
 # Dataset changelog
 
+## 2026.09-static-v5-rc137 — 2026-09-05
+
+- Added frozen original-source projections for all 100 Gnathostomulida and 23 Priapulida COL26.8 rows. Every row matches one non-provisional accepted source name exactly after NFC and whitespace normalization; no fuzzy match, synonym resolution or species-concept equivalence is asserted.
+- Full-data delivery contains 123 records in two deterministic gzip files. Pages publishes complete summaries and canonical inventories without row payloads, while Android and iOS include and verify both shards on demand.
+- Pinned ChecklistBank dataset 1125 and 1124 archive attempt 87, API responses, archive-member hashes and source row locators. The API `cc by` label and embedded archive `CC-BY` label remain separate evidence without inferring a licence version. The 2,183,133-species COL baseline and native build numbers remain unchanged. No compatibility layer or new content-validation framework was added. See [RC128 source scope and reproduction](../docs/worms-small-original-sources-rc128.md).
+
 ## 2026.09-static-v5-rc136 — 2026-09-05
 
 - Added frozen original-source projections for all 132 Chaetognatha, 122 Rhombozoa and 46 Loricifera COL26.8 rows. All 300 COL rows match non-provisional accepted source names exactly after NFC and whitespace normalization; no fuzzy match, synonym resolution or species-concept equivalence is asserted.

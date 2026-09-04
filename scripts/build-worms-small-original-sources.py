@@ -52,6 +52,24 @@ SPECS = {
         "archiveAttempt": 88, "version": "2026-09-01", "versionDoi": "10.48580/d3fs.v88",
         "doi": "10.48580/d3fs", "issued": "2026-09-01", "license": "cc by",
     },
+    "gnathostomulida": {
+        "dataset": "1125", "root": "B8VF3", "taxon": "Gnathostomulida",
+        "prefix": "worms-gnathostomulida", "expected": 100,
+        "archive": "data/sources/archives/checklistbank-1125-gnathostomulida-2026-09-01.zip",
+        "metadata": "data/sources/archives/checklistbank-1125-gnathostomulida-2026-09-01.metadata.json",
+        "archiveBytes": 20438, "archiveSha256": "f09e0292a17bba924b5a61342dcd45974fbd2c5a1c71db3d77312b227284bf75",
+        "archiveAttempt": 87, "version": "2026-09-01", "versionDoi": "10.48580/d3ct.v87",
+        "doi": "10.48580/d3ct", "issued": "2026-09-01", "license": "cc by",
+    },
+    "priapulida": {
+        "dataset": "1124", "root": "B8VF9", "taxon": "Priapulida",
+        "prefix": "worms-priapulida", "expected": 23,
+        "archive": "data/sources/archives/checklistbank-1124-priapulida-2026-09-01.zip",
+        "metadata": "data/sources/archives/checklistbank-1124-priapulida-2026-09-01.metadata.json",
+        "archiveBytes": 17809, "archiveSha256": "e01eb9ac67b1cf8035caf2bd62ee7f741e7c258bba59fd9e911e47d32536dfeb",
+        "archiveAttempt": 87, "version": "2026-09-01", "versionDoi": "10.48580/d3cs.v87",
+        "doi": "10.48580/d3cs", "issued": "2026-09-01", "license": "cc by",
+    },
 }
 
 
@@ -369,7 +387,7 @@ def project(key: str, output_root: Path = ROOT) -> dict:
                   "id": f"{spec['prefix']}-archive-crosswalk", "packageId": "other-animals",
                   "provider": source["provider"], "role": "authority-crosswalk", "rowEncoding": "json",
                   "encoding": "gzip", "mediaType": "application/json", "colIdField": "colId",
-                  "totalCountField": "total", "source": source,
+                  "totalCountField": "total", "source": dict(source),
                   "scope": {"colRootUsageId": spec["root"], "scientificName": spec["taxon"],
                             "eligibleColSpecies": len(col_rows), "sourceSpeciesRankTaxa": member_counts["speciesRankTaxa"],
                             "sourceStrictAcceptedSpecies": len(accepted),
@@ -397,6 +415,8 @@ def project(key: str, output_root: Path = ROOT) -> dict:
                                   "Only the exact pinned archive is replayed; no live endpoint is used.",
                                   "Archive completeness and nomenclatural status do not establish biological completeness."]}
     descriptor_path = destination / f"{spec['prefix']}-sidecar.json"
+    ledger_path = output_root / f"data/sources/{spec['prefix']}-archive-{spec['dataset']}-import-ledger.json"
+    descriptor["source"]["sourceLedgerPath"] = str(ledger_path.relative_to(output_root)).replace("\\", "/")
     descriptor_bytes = encode(descriptor, pretty=True)
     descriptor_path.write_bytes(descriptor_bytes)
     ledger = {"schemaVersion": 1, "importType": "COL26.8-to-WoRMS-original-archive-projection",
@@ -415,9 +435,6 @@ def project(key: str, output_root: Path = ROOT) -> dict:
     ledger_path = output_root / f"data/sources/{spec['prefix']}-archive-{spec['dataset']}-import-ledger.json"
     ledger_path.parent.mkdir(parents=True, exist_ok=True)
     ledger_path.write_bytes(encode(ledger, pretty=True))
-    descriptor["source"]["sourceLedgerPath"] = str(ledger_path.relative_to(output_root)).replace("\\", "/")
-    descriptor["source"]["sourceLedgerSha256"] = digest(ledger_path.read_bytes())
-    descriptor_path.write_bytes(encode(descriptor, pretty=True))
     return {"key": key, "counts": descriptor["counts"], "source": {"bytes": len(raw), "sha256": digest(raw)},
             "shards": len(col_files) + len(source_files)}
 

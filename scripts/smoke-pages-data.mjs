@@ -804,8 +804,8 @@ if (catalogue.resourcePacks?.packageCount !== 7
         'itis-nematoda-tsn-crosswalk': { eligible: 19604, records: 20849, accepted: 1899, redirects: 36, ambiguous: 1, unmatched: 17668, upstreamOnly: 1245, nonApplicable: 79557, files: 4 },
         'itis-annelida-tsn-crosswalk': { eligible: 18982, records: 24074, accepted: 4301, redirects: 122, ambiguous: 1, unmatched: 14558, upstreamOnly: 5092, nonApplicable: 80179, files: 4 },
       }
-      if (extensions.length !== 49 || manifestFile.extensionFileCount !== 0 || manifestFile.canonicalExtensionFileCount !== 218) {
-        failures.push('other-animals: Pages must publish all 49 authority summaries and no row shards')
+      if (extensions.length !== 51 || manifestFile.extensionFileCount !== 0 || manifestFile.canonicalExtensionFileCount !== 220) {
+        failures.push('other-animals: Pages must publish all 51 authority summaries and no row shards')
       }
       const annelidaArchive = extensions.find((candidate) => candidate.id === 'worms-annelida-archive-crosswalk')
       if (!annelidaArchive || annelidaArchive.source?.license !== 'CC-BY-4.0'
@@ -831,6 +831,8 @@ if (catalogue.resourcePacks?.packageCount !== 7
         ['worms-chaetognatha-archive-crosswalk', 132, 0, 1, 'cc by', 'Chaetognatha'],
         ['worms-rhombozoa-archive-crosswalk', 122, 0, 1, 'cc by', 'Rhombozoa'],
         ['worms-loricifera-archive-crosswalk', 46, 1, 2, 'cc by', 'Loricifera'],
+        ['worms-gnathostomulida-archive-crosswalk', 100, 0, 1, 'cc by', 'Gnathostomulida'],
+        ['worms-priapulida-archive-crosswalk', 23, 0, 1, 'cc by', 'Priapulida'],
       ]) {
         const archive = extensions.find((candidate) => candidate.id === id)
         if (!archive || archive.source?.license !== license

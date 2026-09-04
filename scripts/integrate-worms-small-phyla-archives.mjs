@@ -23,6 +23,8 @@ const sources = [
   ['worms-chaetognatha-archive-crosswalk', 'worms-chaetognatha-sidecar.json', 'worms-chaetognatha-archive-1132-import-ledger.json'],
   ['worms-rhombozoa-archive-crosswalk', 'worms-rhombozoa-sidecar.json', 'worms-rhombozoa-archive-1150-import-ledger.json'],
   ['worms-loricifera-archive-crosswalk', 'worms-loricifera-sidecar.json', 'worms-loricifera-archive-1182-import-ledger.json'],
+  ['worms-gnathostomulida-archive-crosswalk', 'worms-gnathostomulida-sidecar.json', 'worms-gnathostomulida-archive-1125-import-ledger.json'],
+  ['worms-priapulida-archive-crosswalk', 'worms-priapulida-sidecar.json', 'worms-priapulida-archive-1124-import-ledger.json'],
   ['worms-thaliacea-archive-crosswalk', 'worms-thaliacea-sidecar.json', 'worms-thaliacea-archive-1185-import-ledger.json'],
   ['worms-appendicularia-archive-crosswalk', 'worms-appendicularia-sidecar.json', 'worms-appendicularia-1178-import-ledger.json'],
   ['worms-oligochaeta-archive-crosswalk', 'worms-oligochaeta-sidecar.json', 'worms-oligochaeta-archive-1099-import-ledger.json'],

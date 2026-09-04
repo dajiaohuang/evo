@@ -36,6 +36,7 @@ for (const [id, prefix] of [
 
 for (const [id, prefix] of [
   ['34DQ4', 'worms-chaetognatha'], ['35VXG', 'worms-rhombozoa'],
+  ['3GLZ3', 'worms-gnathostomulida'], ['3JCX7', 'worms-priapulida'],
 ]) {
   test(`native data loads complete ${prefix} mapping on demand`, async ({ page }) => {
     const requests: string[] = []
