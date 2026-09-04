@@ -210,7 +210,7 @@ def main():
             continue
         source_only.append({
             "colId": None,
-            "status": "source-only",
+            "status": "upstream-only",
             "matchedName": {"id": source["AcceptedTaxonID"], "scientificName": clean(f"{source['Genus']} {source['SpeciesEpithet']}"), "authorship": source["AuthorString"], "status": source["Sp2000NameStatus"], "url": source["SpeciesURL"] or None},
             "acceptedName": None,
             "candidates": [],
@@ -238,7 +238,7 @@ def main():
     compressed = write_gzip(output, payload)
     upstream_compressed = write_gzip(upstream, upstream_payload)
     files = [file_entry(output, crosswalk, compressed, payload, root)]
-    upstream_file = {**file_entry(upstream, source_only, upstream_compressed, upstream_payload, root), "role": "source-only", "colOwnership": None}
+    upstream_file = {**file_entry(upstream, source_only, upstream_compressed, upstream_payload, root), "role": "upstream-only", "colOwnership": None}
     counts = {"total": 259, "accepted": 258, "redirect": 0, "ambiguous": 0, "unmatched": 1, "withheld": 0, "upstreamOnly": 1, "records": 260}
     descriptor_value = {
         "schemaVersion": 1,
