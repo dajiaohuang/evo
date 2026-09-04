@@ -177,9 +177,9 @@ export function buildWfoPlantProjections({ crosswalkPath = DEFAULT_CROSSWALK, re
     manifestBytes: manifestBytes.byteLength,
     manifestSha256: sha256(manifestBytes),
     extensionCount: otherManifest.extensions.length,
-    extensionFileCount: otherManifest.extensions.reduce((sum, item) => sum + item.files.length, 0),
-    extensionCompressedBytes: otherManifest.extensions.reduce((sum, item) => sum + item.totalCompressedBytes, 0),
-    extensionSourceBytes: otherManifest.extensions.reduce((sum, item) => sum + item.totalSourceBytes, 0),
+    extensionFileCount: otherManifest.extensions.reduce((sum, item) => sum + item.files.length + (item.upstreamOnlyFiles?.length ?? 0), 0),
+    extensionCompressedBytes: otherManifest.extensions.reduce((sum, item) => sum + item.totalCompressedBytes + (item.upstreamOnlyFiles ?? []).reduce((bytes, file) => bytes + file.bytes, 0), 0),
+    extensionSourceBytes: otherManifest.extensions.reduce((sum, item) => sum + item.totalSourceBytes + (item.upstreamOnlyFiles ?? []).reduce((bytes, file) => bytes + file.sourceBytes, 0), 0),
   })
   collection.authoritativeSupplements = {
     ...(collection.authoritativeSupplements ?? {}),

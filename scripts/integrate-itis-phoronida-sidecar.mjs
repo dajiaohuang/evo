@@ -2,6 +2,7 @@ import { createHash } from 'node:crypto'
 import { readFileSync, writeFileSync } from 'node:fs'
 import { dirname, join, resolve } from 'node:path'
 import { fileURLToPath } from 'node:url'
+import { replaceOwnedExtensions } from './manifest-extension-utils.mjs'
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..')
 const resourceRoot = join(root, 'data/catalogue-of-life/releases/2026-08-20/resource-packs')
@@ -108,7 +109,7 @@ const extension = {
 }
 
 const packManifest = readJson(packManifestPath)
-packManifest.extensions = [...(packManifest.extensions ?? []).filter((candidate) => candidate.id !== extension.id), extension]
+packManifest.extensions = replaceOwnedExtensions(packManifest.extensions ?? [], [extension], (candidate) => candidate.id === extension.id)
 const packManifestRecord = writeJson(packManifestPath, packManifest)
 const collectionManifest = readJson(collectionManifestPath)
 const pack = collectionManifest.packs.find((candidate) => candidate.packageId === 'other-animals')
@@ -116,6 +117,6 @@ if (!pack) throw new Error('Missing other-animals resource-pack descriptor')
 pack.manifestBytes = packManifestRecord.bytes
 pack.manifestSha256 = packManifestRecord.sha256
 pack.extensionCount = packManifest.extensions.length
-pack.extensionFileCount = packManifest.extensions.reduce((sum, candidate) => sum + candidate.files.length, 0)
+pack.extensionFileCount = packManifest.extensions.reduce((sum, candidate) => sum + candidate.files.length + (candidate.upstreamOnlyFiles?.length ?? 0), 0)
 writeJson(collectionManifestPath, collectionManifest)
 console.log(`Integrated Phoronida ITIS authority sidecar with ${files.length} canonical files.`)

@@ -48,6 +48,7 @@ const taxa = [
   { slug: 'nematoda', label: 'Nematoda' },
   { slug: 'annelida', label: 'Annelida' },
 ]
+const ownedExtensionIds = new Set(taxa.map(({ slug }) => `itis-${slug}-tsn-crosswalk`))
 
 const bryozoaPath = join(packRoot, 'itis-bryozoa-sidecar.json')
 const bryozoa = readJson(bryozoaPath)
@@ -169,7 +170,7 @@ const extensions = taxa.map(({ slug, label }) => {
 })
 
 const packManifest = readJson(packManifestPath)
-packManifest.extensions = replaceOwnedExtensions(packManifest.extensions ?? [], extensions, (extension) => extension.id.startsWith('itis-'))
+packManifest.extensions = replaceOwnedExtensions(packManifest.extensions ?? [], extensions, (extension) => ownedExtensionIds.has(extension.id))
 const packManifestRecord = writeJson(packManifestPath, packManifest)
 
 const collectionManifest = readJson(collectionManifestPath)
@@ -178,9 +179,9 @@ if (!pack) throw new Error('Missing other-animals resource-pack descriptor')
 pack.manifestBytes = packManifestRecord.bytes
 pack.manifestSha256 = packManifestRecord.sha256
 pack.extensionCount = packManifest.extensions.length
-pack.extensionFileCount = packManifest.extensions.reduce((sum, extension) => sum + extension.files.length, 0)
-pack.extensionCompressedBytes = packManifest.extensions.reduce((sum, extension) => sum + extension.totalCompressedBytes, 0)
-pack.extensionSourceBytes = packManifest.extensions.reduce((sum, extension) => sum + extension.totalSourceBytes, 0)
+pack.extensionFileCount = packManifest.extensions.reduce((sum, extension) => sum + extension.files.length + (extension.upstreamOnlyFiles?.length ?? 0), 0)
+pack.extensionCompressedBytes = packManifest.extensions.reduce((sum, extension) => sum + extension.totalCompressedBytes + (extension.upstreamOnlyFiles ?? []).reduce((bytes, file) => bytes + file.bytes, 0), 0)
+pack.extensionSourceBytes = packManifest.extensions.reduce((sum, extension) => sum + extension.totalSourceBytes + (extension.upstreamOnlyFiles ?? []).reduce((bytes, file) => bytes + file.sourceBytes, 0), 0)
 writeJson(collectionManifestPath, collectionManifest)
 
 console.log(`Integrated ${extensions.length} ITIS other-animals authority scopes with ${pack.extensionFileCount} canonical files.`)
