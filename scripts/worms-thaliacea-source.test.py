@@ -39,6 +39,8 @@ class ThaliaceaProjectionTests(unittest.TestCase):
             self.assertEqual(descriptor['source']['archiveSha256'], mod.ARCHIVE_SHA)
             self.assertEqual(descriptor['source']['archiveBytes'], mod.ARCHIVE_BYTES)
             self.assertEqual(descriptor['source']['versionDoi'], '10.48580/d3fw.v87')
+            metadata = json.loads(mod.METADATA.read_bytes())
+            self.assertEqual(descriptor['source']['citation'], metadata['citation'])
             self.assertEqual(descriptor['rowEncoding'], 'json')
             self.assertTrue(all(p['mediaType'] == 'application/json' for p in descriptor['files'] + descriptor['upstreamOnlyFiles']))
             self.assertTrue(all(p['sourceBytes'] <= mod.SHARD_LIMIT for p in descriptor['files'] + descriptor['upstreamOnlyFiles']))
