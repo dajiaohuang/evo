@@ -1,5 +1,11 @@
 # Dataset changelog
 
+## App 0.20.64 / 2026.09-static-v5-rc113 — 2026-09-04
+
+- Added collapsed species-page ITIS details for Amphibia, Collembola/Protura, all 28 existing OtherAnimals scopes and the eight Protist scopes with COL records. Exact owner and lineage boundaries are preserved; Oomycota uses the existing 1,494-record four-order projection, not the entire phylum.
+- Added an opt-in ITIS browser to the data registry. Native users can select a package, collection, COL/source-only partition and one file, then page or search within that file. This also exposes the separate Fungi and Bacteria ITIS collections and source-only Protist scopes that cannot be attached to a COL species page. Web remains summary-only; empty scopes remain explicitly empty.
+- Source-only records remain separate from COL ownership and are not counted as globally unique additional species. ITIS does not substitute for Index Fungorum or LPSN. This release adds no scientific rows, validation framework or expert-review claims. Android and iOS advance to build `67`, retaining the complete native data; the Species Fungorum Oomycota snapshot gap remains open.
+
 ## App 0.20.63 / 2026.09-static-v5-rc112 — 2026-09-04
 
 - Exposed the remaining 15 typed package ITIS scopes through default-collapsed source details: Crocodylia, Perissodactyla, Cetartiodactyla, Primates, Crustacea, Actinopterygii, Agnatha/Myxini, Sarcopterygii, Insecta, non-crocodylian reptiles, Mollusca/Brachiopoda/Graptolithina, Porifera/Cnidaria, Echinodermata, Carnivora and other mammals. The three existing scopes remain available; exact lineage and resolved package ownership control applicability.
