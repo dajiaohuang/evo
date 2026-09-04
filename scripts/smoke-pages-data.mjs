@@ -855,8 +855,9 @@ if (catalogue.resourcePacks?.packageCount !== 7
         'itis-hemimastigophora-tsn-crosswalk': { eligible: 0, records: 0, accepted: 0, redirects: 0, ambiguous: 0, unmatched: 0, upstreamOnly: 0, nonApplicable: 61518, files: 0 },
       }
       const radiozoa = extensions.find((candidate) => candidate.id === 'worms-radiozoa-archive-crosswalk')
+      const trichomycetes = extensions.find((candidate) => candidate.id === 'trichomycetes-archive-crosswalk')
       const canonicalItisFiles = Object.values(expectedItis).reduce((sum, counts) => sum + counts.files, 0)
-      if (extensions.length !== Object.keys(expectedItis).length + 2 || !foraminifera || !radiozoa
+      if (extensions.length !== Object.keys(expectedItis).length + 3 || !foraminifera || !radiozoa || !trichomycetes
         || foraminifera.provider !== 'World Foraminifera Database (WoRMS) through ChecklistBank'
         || foraminifera.source?.license !== 'CC-BY-4.0'
         || foraminifera.source?.sourceDatasetKey !== 1157
@@ -873,9 +874,14 @@ if (catalogue.resourcePacks?.packageCount !== 7
         || radiozoa.delivery?.completeRows !== false || radiozoa.files?.length !== 0
         || radiozoa.upstreamOnlyFiles?.length !== 0 || radiozoa.delivery?.publishedFileCount !== 0
         || radiozoa.delivery?.canonicalFileCount !== 2 || radiozoa.canonicalFileInventory?.length !== 2
-        || manifestFile.extensionFileCount !== 0 || manifestFile.canonicalExtensionFileCount !== canonicalItisFiles + 7
-          || [...foraminifera.canonicalFileInventory, ...radiozoa.canonicalFileInventory].some((file) => !file.path || file.sha256?.length !== 64 || file.sourceSha256?.length !== 64)) {
-        failures.push('protists-chromists: Pages must publish the complete Foraminifera and Radiozoa authority summaries and hashes without row shards')
+        || trichomycetes.source?.license !== 'CC-BY-4.0' || trichomycetes.counts?.total !== 96 || trichomycetes.counts?.accepted !== 96
+        || trichomycetes.counts?.upstreamOnly !== 0 || trichomycetes.delivery?.profile !== 'web-light'
+        || trichomycetes.delivery?.completeRows !== false || trichomycetes.files?.length !== 0
+        || trichomycetes.upstreamOnlyFiles?.length !== 0 || trichomycetes.delivery?.publishedFileCount !== 0
+        || trichomycetes.delivery?.canonicalFileCount !== 1 || trichomycetes.canonicalFileInventory?.length !== 1
+        || manifestFile.extensionFileCount !== 0 || manifestFile.canonicalExtensionFileCount !== canonicalItisFiles + 8
+          || [...foraminifera.canonicalFileInventory, ...radiozoa.canonicalFileInventory, ...trichomycetes.canonicalFileInventory].some((file) => !file.path || file.sha256?.length !== 64 || file.sourceSha256?.length !== 64)) {
+        failures.push('protists-chromists: Pages must publish the complete Foraminifera, Radiozoa and Trichomycetes authority summaries and hashes without row shards')
       }
       for (const [id, counts] of Object.entries(expectedItis)) {
         const authority = extensions.find((candidate) => candidate.id === id)

@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "importType": "COL26.8-to-ChecklistBank-1033-Ichthyosporea-source-archive",
+  "source": {
+    "provider": "University of Kansas Trichomycetes database via Catalogue of Life ChecklistBank",
+    "license": "CC-BY-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "archiveUrl": "https://api.checklistbank.org/dataset/1033/archive",
+    "archiveBytes": 38716,
+    "archiveSha256": "ad2f2a5e8b9feab455f73ac390be34908687f79fea4c858ade29e52a8acfc33e",
+    "archiveEncoding": "gzip-compressed tar (HTTP Content-Type application/zip)",
+    "version": "Oct 2017",
+    "versionDoi": "10.48580/d38n.v9",
+    "retrievedAt": "2026-09-04",
+    "members": {
+      "AcceptedSpecies.tsv": {
+        "bytes": 127410,
+        "sha256": "9da126ad47bcd7d0e65b7af57557080670f4da91665f2e12d0d73a32e16e16c8"
+      },
+      "NameReferences.tsv": {
+        "bytes": 12752,
+        "sha256": "0978f2b4ee21773915dcb72065e3241a89ea5af1ff5f3ffc1e5bad0d1cc2cf3d"
+      },
+      "References.tsv": {
+        "bytes": 65553,
+        "sha256": "111524fb2307cdac5ce9f072a2fb67336ea7b027ac397004b75f7577dfd045c7"
+      },
+      "SourceDatabase.tsv": {
+        "bytes": 1134,
+        "sha256": "627bcd69e5edab0dc0e763ce65c793f4215b9362dbd6261541128c63abf00f79"
+      }
+    }
+  },
+  "inputs": [
+    {
+      "path": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/species-000.jsonl.gz",
+      "bytes": 666110,
+      "sha256": "02aef7f0f72b0ae5a05f04b0f46ccc4ee0a45993bab4ddd84414188cc878f015"
+    },
+    {
+      "path": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/species-001.jsonl.gz",
+      "bytes": 564427,
+      "sha256": "6efd0ffb445696b1054673c532ad732157a5f1772c6e4b427e625d5b095a0c69"
+    }
+  ],
+  "scopeAudit": {
+    "method": "Exact name+authorship; source Kingdom Protozoa and Class Ichthyosporea",
+    "archiveAcceptedSpeciesRows": 385,
+    "archiveProtozoaRows": 98,
+    "archiveIchthyosporeaRows": 96,
+    "colEligibleSpecies": 96,
+    "matchedUniqueSourceAcceptedTaxonIds": 96,
+    "excludedFungiRows": 287,
+    "excludedOtherProtozoaRows": 2,
+    "excludedOtherProtozoaIds": [
+      "255335",
+      "254534"
+    ]
+  },
+  "output": {
+    "path": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/trichomycetes-000.json.gz",
+    "bytes": 11454,
+    "sha256": "2be9445a4a1fe2fccdbf3bf0d73817c84b6ba7e5c3870a33832617f45cb45ef2",
+    "sourceBytes": 131533,
+    "sourceSha256": "967ce6cbcfb997322d780f2e9d4846ad92772cba6df494f066f6cae0b853613a"
+  },
+  "descriptor": {
+    "path": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/trichomycetes-sidecar.json",
+    "bytes": 3741,
+    "sha256": "d7e40f539deb8f20f420f94dcaacc5cf4f5baebe26c8a5ed3288178419aa054a"
+  }
+}
