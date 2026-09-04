@@ -33,6 +33,16 @@ class OligochaetaProjectionTests(unittest.TestCase):
             self.assertEqual(descriptor['source']['archiveSha256'], mod.ARCHIVE_SHA)
             self.assertEqual(descriptor['source']['archiveBytes'], mod.ARCHIVE_BYTES)
             self.assertEqual(descriptor['source']['versionDoi'], '10.48580/d3bx.v85')
+            metadata = json.loads(mod.METADATA.read_text(encoding='utf8'))
+            for field in ('doi', 'issued', 'citation', 'editor', 'contributor'):
+                self.assertEqual(descriptor['source'][field], metadata[field], field)
+            self.assertEqual(descriptor['scope']['colRootUsageIds'], ['B8W74'])
+            self.assertEqual(descriptor['scope']['eligibleColSpecies'], 4403)
+            self.assertEqual(descriptor['scope']['sourceAcceptedSpecies'], 4564)
+            self.assertEqual(descriptor['scope']['excludedSourceProvisional'], 12)
+            self.assertEqual(descriptor['counts'], {'total': 4403, 'accepted': 4350, 'redirect': 0,
+                                                     'ambiguous': 0, 'unmatched': 53, 'withheld': 0,
+                                                     'upstreamOnly': 214, 'records': 4617})
             self.assertEqual(descriptor['rowEncoding'], 'json')
             self.assertTrue(all(p['mediaType'] == 'application/json' for p in descriptor['files'] + descriptor['upstreamOnlyFiles']))
             self.assertTrue(all(p['sourceBytes'] <= mod.SHARD_LIMIT for p in descriptor['files'] + descriptor['upstreamOnlyFiles']))
@@ -53,6 +63,14 @@ class OligochaetaProjectionTests(unittest.TestCase):
                     raw = archive.read(member)
                     self.assertEqual(len(raw), expected['bytes'], member)
                     self.assertEqual(hashlib.sha256(raw).hexdigest(), expected['sha256'], member)
+                expected_member_rows = {'TypeMaterial.txt': 902, 'Name.txt': 13175,
+                                        'NameRelation.txt': 9740, 'Taxon.txt': 5515,
+                                        'Synonym.txt': 3505, 'SpeciesEstimate.txt': 0,
+                                        'Reference.txt': 3066, 'NameReference.txt': 28749,
+                                        'Distribution.txt': 3508, 'Media.txt': 54,
+                                        'VernacularName.txt': 86}
+                for member, expected_rows in expected_member_rows.items():
+                    self.assertEqual(len(archive.read(member).splitlines()) - 1, expected_rows, member)
                 name_rows = list(csv.DictReader(io.TextIOWrapper(archive.open('Name.txt'), encoding='utf-8-sig'), delimiter='\t'))
                 names_raw = {r['ID']: r for r in name_rows}
                 name_row_numbers = {r['ID']: i for i, r in enumerate(name_rows, 2)}
