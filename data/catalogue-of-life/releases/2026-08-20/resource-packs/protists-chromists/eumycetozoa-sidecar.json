@@ -14,13 +14,34 @@
     "archiveBytes": 131700,
     "archiveSha256": "2d8a55a43d7273bfabaa19c16942c9258b7ca00c17319fead95c562af40f24b1",
     "version": "May 2024",
-    "sourceLedgerPath": "data/sources/eumycetozoa-archive-import-ledger.json"
+    "sourceLedgerPath": "data/sources/eumycetozoa-archive-import-ledger.json",
+    "sourceDatasetId": 1053,
+    "versionDoi": "10.48580/d39c.v28",
+    "retrievedAt": "2026-09-04",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "archiveEncoding": "zip",
+    "canonicalArchivePath": "data/sources/archives/checklistbank-1053-eumycetozoa-2024-05.zip",
+    "members": {
+      "AcceptedSpecies.tsv": {
+        "bytes": 332753,
+        "sha256": "0c50954835e28ad8f48f292c83595541509a765e8d9ce844a6799394c454b692"
+      },
+      "NameReferencesLinks.tsv": {
+        "bytes": 130977,
+        "sha256": "3d60f0a453d973dc0eb749f4417411a4a6e7f3a23432602c6ccfbb3999def82f"
+      },
+      "References.tsv": {
+        "bytes": 185452,
+        "sha256": "640c559bae9a67ce5ea573bd8d743a987233ce65a0fa9208957b61887b3b244b"
+      }
+    }
   },
   "scope": {
     "colSourceDatasetId": 1053,
     "eligibleColSpecies": 1337,
     "projectedSpecies": 1337,
-    "matchingKey": "exact source scientific name + authorship"
+    "matchingKey": "exact source scientific name + authorship",
+    "excludedUnlinkedAcceptedSourceRows": 15
   },
   "matching": {
     "normalization": "Strict UTF-8 TSV; whitespace-only name+authorship comparison.",
@@ -40,10 +61,10 @@
     {
       "path": "protists-chromists/eumycetozoa-000.json.gz",
       "records": 1337,
-      "bytes": 127209,
-      "sha256": "73f9ac119bbec18a97db23f9e59bf4a64aaf9d135533a19a7a2c8b8a12bbe1e2",
-      "sourceBytes": 1587526,
-      "sourceSha256": "c7a91a21eff4585dc9eb2f656741d40f4d7d55971402323bf5028b329b569b06",
+      "bytes": 137653,
+      "sha256": "4f2aba99df83fbde1f9bf4d4ea5abaa1d0b84eefa18675156968c3a5431b1154",
+      "sourceBytes": 1721723,
+      "sourceSha256": "b7814d4ffb97d1a03cc5bb6a3584cbe9661eb9dc8a657b3a716fc1ddb7d8e307",
       "minColId": "3574B",
       "maxColId": "ZFKF",
       "encoding": "gzip",
@@ -58,11 +79,11 @@
   },
   "limitations": [
     "Only COL strict accepted species assigned source dataset 1053 are projected; no additional source-only rows are asserted.",
-    "Reference links retain original type, identifiers, source row locators and empty fields."
+    "Reference links retain original type, identifiers, source row locators and empty fields.",
+    "Seven COL targets have no exact name/authorship key. Fifteen unlinked accepted archive rows are not projected; unlinked does not mean globally novel or absent from other COL sources."
   ],
-  "descriptorSha256": "",
-  "totalCompressedBytes": 127209,
-  "totalSourceBytes": 1587526,
+  "totalCompressedBytes": 137653,
+  "totalSourceBytes": 1721723,
   "deliveryProfiles": {
     "web-light": {
       "payload": "summary-only",
@@ -77,8 +98,8 @@
         "protists-chromists/eumycetozoa-000.json.gz"
       ],
       "records": 1337,
-      "totalCompressedBytes": 127209,
-      "totalSourceBytes": 1587526
+      "totalCompressedBytes": 137653,
+      "totalSourceBytes": 1721723
     }
   }
 }
