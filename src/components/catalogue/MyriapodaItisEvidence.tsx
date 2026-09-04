@@ -118,7 +118,7 @@ function MyriapodaItisEvidencePanel({ colId, packageId, zh }: MyriapodaItisEvide
 }
 
 export function MyriapodaItisEvidence({ colId, packageId, lineageIds, zh }: MyriapodaItisEvidenceProps) {
-  const applicable = packageId === 'crustaceans-insects' && lineageIds.some((id) => COL_ROOTS.has(id))
+  const applicable = packageId === 'crustaceans-insects' && lineageIds.some((id) => COL_ROOTS.has(id)) && !lineageIds.includes('L25JL')
   if (!applicable) return null
   const identity = `${colId}|${packageId}|${lineageIds.join('|')}`
   return <MyriapodaItisEvidencePanel key={identity} colId={colId} packageId={packageId} lineageIds={lineageIds} zh={zh} />

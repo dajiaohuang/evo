@@ -174,5 +174,6 @@ describe('Myriapoda ITIS evidence disclosure', () => {
   it('does not render for another package or unrelated lineage', () => {
     expect(render(<MyriapodaItisEvidence colId="X" packageId="other-animals" lineageIds={['93']} zh />).container.querySelector('details')).toBeNull()
     expect(render(<MyriapodaItisEvidence colId="X" packageId="crustaceans-insects" lineageIds={['H6']} zh />).container.querySelector('details')).toBeNull()
+    expect(render(<MyriapodaItisEvidence colId="P55BK" packageId="crustaceans-insects" lineageIds={['L2G4H', 'L25JL']} zh />).container.querySelector('details')).toBeNull()
   })
 })
