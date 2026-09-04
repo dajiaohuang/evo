@@ -15,11 +15,18 @@ restricted to source dataset 1193, excluding other-source Cestoda/Trematoda;
 this is a traditional source collection boundary, not a modern monophyly claim.
 
 The COL closure contains 6,508 accepted species. Exact normalized
-scientific-name plus authorship matching yields 6,493 accepted mappings and 15
-unmatched COL outcomes. The 30 accepted source rows not implicated by exact
-matches are retained in an independent upstream-only projection relative only
-to this COL source scope, not as globally new species. No fuzzy, synonym,
-taxon-substitution or species-concept matching is used.
+scientific-name plus authorship matching (Unicode NFC, collapsed/trimmed
+Unicode whitespace, and canonical whitespace around commas and ampersands)
+yields 6,495 accepted mappings and 13 unmatched COL outcomes. The 28 accepted
+source rows not implicated by exact matches are retained in an independent
+upstream-only projection relative only to this COL source scope, not as
+globally new species. No fuzzy, synonym, taxon-substitution or species-concept
+matching is used.
+
+The two newly replayed matches (`Gieysztoria sibirica` and `Paraparaba
+phocaica`) differ only in author-string whitespace around an ampersand or
+comma. Species spelling, author tokens, punctuation and diacritics remain exact
+requirements.
 
 Names, authorship, source IDs, original fields, reference records and member
 row locators are preserved, including empty fields and missing references.

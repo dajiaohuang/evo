@@ -7,6 +7,12 @@ mod = importlib.util.module_from_spec(spec); spec.loader.exec_module(mod)
 
 
 class TurbellariaProjectionTests(unittest.TestCase):
+    def test_normalization_is_nfc_and_punctuation_whitespace_only(self):
+        self.assertEqual(mod.norm('  Alpha\u0301  beta,Author  &Co  '), 'Alphá beta, Author & Co')
+        self.assertEqual(mod.col_bare({'scientificName': 'Alpha beta Author, 1900', 'authorship': 'Author, 1900'}), 'Alpha beta')
+        self.assertEqual(mod.col_bare({'scientificName': 'Alpha betaAuthor, 1900', 'authorship': 'Author, 1900'}), 'Alpha betaAuthor, 1900')
+        self.assertNotEqual(mod.norm('Alpha beta'), mod.norm('alpha beta'))
+
     def test_real_offline_rebuild_is_deterministic_and_preserves_scope_counts(self):
         canonical_ledger = ROOT / 'data/sources/worms-turbellaria-archive-1193-import-ledger.json'
         ledger_before = canonical_ledger.read_bytes()
@@ -29,15 +35,15 @@ class TurbellariaProjectionTests(unittest.TestCase):
             rows = sum((json.loads(gzip.decompress((roots[0] / p['path'].split('/')[-1]).read_bytes())) for p in descriptor['files']), [])
             source_only = sum((json.loads(gzip.decompress((roots[0] / p['path'].split('/')[-1]).read_bytes())) for p in descriptor['upstreamOnlyFiles']), [])
             self.assertEqual(len(rows), 6508)
-            self.assertEqual(len(source_only), 30)
-            self.assertEqual(descriptor['counts'], {'total': 6508, 'accepted': 6493, 'redirect': 0,
-                                                    'ambiguous': 0, 'unmatched': 15, 'withheld': 0,
-                                                    'upstreamOnly': 30, 'records': 6538})
+            self.assertEqual(len(source_only), 28)
+            self.assertEqual(descriptor['counts'], {'total': 6508, 'accepted': 6495, 'redirect': 0,
+                                                    'ambiguous': 0, 'unmatched': 13, 'withheld': 0,
+                                                    'upstreamOnly': 28, 'records': 6536})
             self.assertEqual(descriptor['source']['archiveSha256'], mod.ARCHIVE_SHA)
             self.assertEqual(descriptor['source']['archiveBytes'], mod.ARCHIVE_BYTES)
             self.assertTrue(all(p['sourceBytes'] <= mod.SHARD_LIMIT for p in descriptor['files'] + descriptor['upstreamOnlyFiles']))
             self.assertEqual(sum(p['records'] for p in descriptor['files']), 6508)
-            self.assertEqual(sum(p['records'] for p in descriptor['upstreamOnlyFiles']), 30)
+            self.assertEqual(sum(p['records'] for p in descriptor['upstreamOnlyFiles']), 28)
             for p in descriptor['files'] + descriptor['upstreamOnlyFiles']:
                 self.assertEqual(p['sha256'], hashlib.sha256((roots[0] / p['path'].split('/')[-1]).read_bytes()).hexdigest())
             self.assertTrue(all(row['status'] != 'redirect' for row in rows))
