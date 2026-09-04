@@ -18,6 +18,10 @@ def digest(data):
     return hashlib.sha256(data).hexdigest()
 
 
+def script_digest(path):
+    return digest(path.read_bytes().replace(b'\r\n', b'\n'))
+
+
 def dump(obj, pretty=False):
     return (json.dumps(obj, ensure_ascii=False, indent=2 if pretty else None,
                        separators=None if pretty else (',', ':')) + '\n').encode('utf-8')
@@ -28,7 +32,7 @@ def norm(value):
 
 
 def col_bare(row):
-    name, author = row.get('scientificName') or '', row.get('authorship') or ''
+    name, author = norm(row.get('scientificName')), norm(row.get('authorship'))
     suffix = ' ' + author
     return name[:-len(suffix)] if author and name.endswith(suffix) else name
 
@@ -109,6 +113,9 @@ def source_references(taxon, name, refs, references):
             ref, row = references[rid]
             item['reference'] = ref
             item['sourceRows'] = [{'member': 'Reference.txt', 'row': row}]
+        else:
+            item['reference'] = None
+            item['sourceRows'] = []
         result.append(item)
     return result
 
@@ -120,6 +127,10 @@ def project(archive, output_root=None):
     source, references, name_refs, members, synonym_count, provisional_count = read_archive(archive)
     metadata_bytes = METADATA.read_bytes()
     metadata = json.loads(metadata_bytes)
+    if (metadata.get('key'), metadata.get('title'), metadata.get('version'),
+            metadata.get('versionDoi')) != (1128, 'World List of Trematoda',
+                                            '2026-09-01', '10.48580/d3cx.v86'):
+        raise ValueError('unexpected ChecklistBank metadata identity')
     col, col_sha, col_inputs = read_col()
     by_key = {}
     for tid, (taxon, name, taxon_row, name_row) in source.items():
@@ -186,8 +197,13 @@ def project(archive, output_root=None):
                   'id': 'worms-trematoda-archive-crosswalk', 'packageId': 'other-animals',
                   'provider': 'World Register of Marine Species via ChecklistBank', 'rowEncoding': 'json',
                   'colIdField': 'colId', 'totalCountField': 'total',
-                  'source': {'datasetId': '1128', 'title': metadata['title'], 'version': metadata['version'],
-                             'versionDoi': metadata['versionDoi'], 'metadataBytes': len(metadata_bytes),
+                  'source': {'datasetId': '1128', 'title': metadata['title'], 'doi': metadata.get('doi'),
+                             'version': metadata['version'], 'versionDoi': metadata['versionDoi'],
+                             'issued': metadata.get('issued'), 'citation': metadata.get('citation'),
+                             'editor': metadata.get('editor'), 'contributor': metadata.get('contributor'),
+                             'metadataLicense': metadata.get('license'), 'rights': metadata.get('license'),
+                             'metadataRecord': metadata,
+                             'metadataBytes': len(metadata_bytes),
                              'metadataSha256': digest(metadata_bytes), 'license': 'CC-BY-4.0',
                              'licenseUrl': 'https://creativecommons.org/licenses/by/4.0/',
                              'rightsHolder': 'WoRMS Editorial Board', 'archiveUrl': 'https://api.checklistbank.org/dataset/1128/archive',
@@ -195,7 +211,7 @@ def project(archive, output_root=None):
                   'scope': {'colRootUsageId': COL_ROOT, 'wormsRootId': '19948', 'scientificName': 'Trematoda',
                             'eligibleColSpecies': len(col), 'sourceAcceptedSpecies': len(source),
                             'excludedSourceProvisional': provisional_count},
-                  'matching': {'normalization': 'NFC and whitespace normalization only; COL trailing authorship is removed exactly.',
+                  'matching': {'normalization': 'NFC followed by whitespace normalization; COL trailing authorship is removed after normalization exactly.',
                                'prohibited': 'No fuzzy, case-folded, accent-folded, synonym or species-concept matching.'},
                   'counts': {'total': len(records), **counts, 'upstreamOnly': len(upstream), 'records': len(all_rows)},
                   'files': col_files, 'upstreamOnlyFiles': source_files,
@@ -208,7 +224,8 @@ def project(archive, output_root=None):
     descriptor_path = destination / 'worms-trematoda-sidecar.json'; descriptor_path.write_bytes(dump(descriptor, True))
     ledger = {'schemaVersion': 1, 'importType': 'COL26.8-to-WoRMS-1128-archive-projection',
               'source': descriptor['source'], 'registryManifestSha256': col_sha, 'registryInputs': col_inputs,
-              'generatedBy': {'script': 'scripts/build-worms-trematoda-source.py', 'scriptSha256': digest(Path(__file__).read_bytes())},
+              'generatedBy': {'script': 'scripts/build-worms-trematoda-source.py', 'scriptSha256': script_digest(Path(__file__)),
+                              'hashNormalization': 'LF'},
               'outputs': {'files': descriptor['files'], 'upstreamOnlyFiles': descriptor['upstreamOnlyFiles']},
               'scopeAudit': {'colRootUsageId': COL_ROOT, 'colSpecies': len(col), 'sourceAcceptedSpecies': len(source),
                              'sourceProvisionalExcluded': provisional_count, 'upstreamOnly': len(upstream), 'parsedSynonymRows': synonym_count,
