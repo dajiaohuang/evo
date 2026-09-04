@@ -95,28 +95,28 @@
   "files": [
     {
       "path": "other-animals/worms-nemertea-000.json.gz",
-      "records": 896,
-      "bytes": 198123,
-      "sha256": "7dd3d7c85bd77872d6cf8c2c7e7a5a337ceafba129979fdb7080440202579251",
-      "sourceBytes": 2096330,
-      "sourceSha256": "2d7e9289e639589215d1470f3b254f73995b3cf17953d4057b3aff70651034cd",
+      "records": 823,
+      "bytes": 193390,
+      "sha256": "dccc58233b56fd925c07cbde95a0acc491336c3026deab734c3f83fe88855033",
+      "sourceBytes": 2096832,
+      "sourceSha256": "9b7c9845a218254d0ea193c39588561de80136e13e66f54a1fca0384e48f8273",
       "encoding": "gzip",
       "mediaType": "application/json",
       "role": "col-partition",
       "minColId": "32KJP",
-      "maxColId": "7F9HF"
+      "maxColId": "74JCH"
     },
     {
       "path": "other-animals/worms-nemertea-001.json.gz",
-      "records": 468,
-      "bytes": 102392,
-      "sha256": "6c12e47c9464eaebf8663df9698f4957d7707b0bc1c5e116b90ec3c5057771c6",
-      "sourceBytes": 1071005,
-      "sourceSha256": "c0717e7191e45ba1d606b2a829d4ca80c9f24e5a667c92d213277539750aa1bc",
+      "records": 541,
+      "bytes": 126266,
+      "sha256": "da80080a5218f4a0463cdd4dd32c365e1392bab31b083f94dde2d43008b581fd",
+      "sourceBytes": 1362601,
+      "sourceSha256": "03d7aa1253611da309015294909b88e959cf90a28a3089c886c1cdca88387ecd",
       "encoding": "gzip",
       "mediaType": "application/json",
       "role": "col-partition",
-      "minColId": "7F9HH",
+      "minColId": "74JCL",
       "maxColId": "ZS8H"
     }
   ],
@@ -124,17 +124,17 @@
     {
       "path": "other-animals/worms-nemertea-source-only-000.json.gz",
       "records": 12,
-      "bytes": 3032,
-      "sha256": "1e0f76b8ebd86f2a7fcd76a9cfbc81f1ed10433734b809688d3ed00cc4ec9801",
-      "sourceBytes": 19688,
-      "sourceSha256": "7b41613f7d47bc3f8dc64cf37970b61e69311c970579b4b2df8f7373b326b892",
+      "bytes": 3147,
+      "sha256": "6a430a3e45e5025c4ec9bf615fcfa0b498a53e7485f6c43df58c8f034095ad36",
+      "sourceBytes": 20980,
+      "sourceSha256": "f4b37885be0af8a2ebc5e9390dfff76e8cd566694278fec2d333a4fda42841c4",
       "encoding": "gzip",
       "mediaType": "application/json",
       "role": "upstream-only"
     }
   ],
-  "totalCompressedBytes": 303547,
-  "totalSourceBytes": 3187023,
+  "totalCompressedBytes": 322803,
+  "totalSourceBytes": 3480413,
   "deliveryProfiles": {
     "web-light": {
       "mode": "summary-only",
@@ -151,12 +151,13 @@
         "other-animals/worms-nemertea-001.json.gz",
         "other-animals/worms-nemertea-source-only-000.json.gz"
       ],
-      "totalCompressedBytes": 303547,
-      "totalSourceBytes": 3187023
+      "totalCompressedBytes": 322803,
+      "totalSourceBytes": 3480413
     }
   },
   "evidenceBoundary": {
-    "en": "Frozen WoRMS nomenclatural/source projection for exact COL26.8 source-1085 Nemertea scope; not species-concept equivalence or global novelty claim."
+    "en": "Frozen WoRMS nomenclatural/source projection for exact COL26.8 source-1085 Nemertea scope; not species-concept equivalence or global novelty claim.",
+    "zh": "精确 COL26.8 source-1085 Nemertea 范围的 WoRMS 冻结命名/来源投影；不是物种概念等同性或全球新增物种声明。"
   },
   "limitations": [
     "Synonym and provisional source rows are retained in the pinned archive evidence but are not promoted as accepted species.",
