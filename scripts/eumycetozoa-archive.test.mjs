@@ -13,7 +13,7 @@ const outputs = [`${base}eumycetozoa-sidecar.json`, `${base}eumycetozoa-000.json
 const sha = (bytes) => createHash('sha256').update(bytes).digest('hex')
 const readJson = (path) => JSON.parse(readFileSync(path, 'utf8'))
 
-test('source1053 retains 1330 exact matches and seven unresolved COL names without inventing source IDs', () => {
+test('source1053 retains 1330 exact matches and links seven differing source records by official ID', () => {
   const descriptor = readJson(outputs[0])
   const bytes = readFileSync(outputs[1])
   const rows = JSON.parse(gunzipSync(bytes))
@@ -28,12 +28,20 @@ test('source1053 retains 1330 exact matches and seven unresolved COL names witho
   assert.equal(new Set(matched.map((row) => row.sourceAcceptedTaxonId)).size, 1337)
   assert.ok(matched.every((row) => row.sourceAcceptedTaxonId && row.nameReferences.length === 1))
   assert.deepEqual(unmatched, [])
-  for (const row of unmatched) {
-    assert.equal(row.sourceAcceptedTaxonId, null)
-    assert.equal(row.matchedName, null)
-    assert.equal(row.acceptedName, null)
-    assert.deepEqual(row.candidates, [])
-    assert.deepEqual(row.nameReferences, [])
+  for (const [colId, sourceId] of [['39SDP', '626'], ['4ZT26', '1265'], ['6PVT4', '787'], ['992NH', '989'], ['CDHD7', '779'], ['CDHRG', '703'], ['CQ9TK', '499']]) {
+    const row = rows.find((item) => item.colId === colId)
+    assert.equal(row.sourceAcceptedTaxonId, sourceId)
+    assert.equal(row.sourceRelation.colRecord.id, colId)
+    assert.equal(row.sourceRelation.relation.id, row.sourceRelation.colRecord.verbatimSourceKey)
+    assert.equal(row.sourceRelation.relation.sourceDatasetKey, 1053)
+    assert.equal(row.sourceRelation.relation.sourceId, sourceId)
+    for (const response of row.sourceRelation.responses) {
+      const raw = readFileSync(`data/sources/authority-link-evidence/${response.file}`)
+      assert.equal(raw.length, response.bytes)
+      assert.equal(sha(raw), response.sha256)
+      assert.ok(response.url.startsWith('https://api.checklistbank.org/dataset/'))
+      assert.ok(response.retrievedAt.startsWith('2026-09-04T'))
+    }
   }
   assert.equal(rows.find((row) => row.colId === 'CQ9TK').colAuthorship, null)
   const ledger = readJson(ledgerPath)

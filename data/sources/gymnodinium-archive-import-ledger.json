@@ -71,17 +71,94 @@
     }
   ],
   "scopeAudit": {
-    "method": "Exact source scientific name+authorship under source dataset 1177 and COL root 4RTJ",
+    "method": "258 exact source name+authorship matches and one official source-record relation under source dataset 1177 and COL root 4RTJ",
     "archiveAcceptedSpeciesRows": 259,
     "nameReferenceRows": 309,
     "bibliographyRows": 99,
     "colEligibleSpecies": 259,
-    "matchedSourceAcceptedTaxonIds": 258,
-    "sourceOnlyRows": 1,
-    "unmatchedColRows": 1
+    "matchedSourceAcceptedTaxonIds": 259,
+    "sourceOnlyRows": 0,
+    "unmatchedColRows": 0,
+    "officialRelationEvidence": {
+      "CN83B": {
+        "sourceId": "T284",
+        "relation": {
+          "id": 344951438,
+          "datasetKey": 316115,
+          "sectorKey": 637,
+          "sourceId": "T284",
+          "sourceDatasetKey": 1177,
+          "sourceEntity": "name usage"
+        },
+        "colRecord": {
+          "created": "2026-08-04T02:35:00.639906",
+          "createdBy": 102,
+          "modified": "2026-08-04T02:35:00.639906",
+          "modifiedBy": 102,
+          "datasetKey": 316115,
+          "id": "CN83B",
+          "sectorKey": 637,
+          "verbatimSourceKey": 344951438,
+          "name": {
+            "created": "2026-08-04T02:35:00.639906",
+            "createdBy": 102,
+            "modified": "2026-08-04T02:35:00.639906",
+            "modifiedBy": 102,
+            "datasetKey": 316115,
+            "id": "lL5IZlpXy5Pj9G57WRSmF2",
+            "sectorKey": 637,
+            "verbatimSourceKey": 344951438,
+            "namesIndexId": 4000976,
+            "scientificName": "Gymnodinium p-dorhnii",
+            "rank": "species",
+            "genus": "Gymnodinium",
+            "specificEpithet": "p-dorhnii",
+            "code": "botanical",
+            "origin": "source",
+            "type": "scientific",
+            "parsed": true,
+            "notho": []
+          },
+          "status": "accepted",
+          "origin": "source",
+          "parentId": "4RTJ",
+          "referenceIds": [
+            "dbb1456e-0925-4d71-a79e-f2e747fdb03f"
+          ],
+          "scrutinizer": "Thessen A.",
+          "scrutinizerDate": "2017-06",
+          "extinct": false,
+          "label": "Gymnodinium p-dorhnii",
+          "labelHtml": "<i>Gymnodinium p-dorhnii</i>"
+        },
+        "responses": [
+          {
+            "file": "CN83B-col.json",
+            "url": "https://api.checklistbank.org/dataset/316115/nameusage/CN83B",
+            "retrievedAt": "2026-09-04T15:39:26.940Z",
+            "bytes": 882,
+            "sha256": "7a2b5292c5a68582dddbedfd00591074676b1949238f6e2dee765019c4b506bd"
+          },
+          {
+            "file": "CN83B-relation.json",
+            "url": "https://api.checklistbank.org/dataset/316115/nameusage/CN83B/source",
+            "retrievedAt": "2026-09-04T15:39:27.256Z",
+            "bytes": 122,
+            "sha256": "1a36e7950890fee9acfa06b4016ac6d56c59f3873d4bbbc3a05309454d131fdc"
+          },
+          {
+            "file": "CN83B-source.json",
+            "url": "https://api.checklistbank.org/dataset/1177/nameusage/T284",
+            "retrievedAt": "2026-09-04T15:39:27.578Z",
+            "bytes": 850,
+            "sha256": "d2441f28ef2ef3e2b88a5a7dea0b794995224481310393a2b17db7b15236eb4b"
+          }
+        ]
+      }
+    }
   },
   "matchingContract": {
-    "normalization": "UTF-8 quoted TSV; exact source-record relation is preferred where frozen; otherwise surrounding whitespace is trimmed for name+authorship comparison only.",
+    "normalization": "UTF-8 quoted TSV; surrounding whitespace is trimmed for exact name+authorship comparison; one unmatched spelling is linked by the frozen official source-record relation.",
     "prohibited": "No fuzzy, punctuation, edit-distance, phonetic, epithet-substitution, taxon-substitution or missing-authorship matching.",
     "relationEvidencePath": "data/sources/authority-link-evidence/CN83B-relation.json"
   },
@@ -97,10 +174,10 @@
   },
   "output": {
     "path": "protists-chromists/gymnodinium-sidecar-000.json.gz",
-    "bytes": 34116,
-    "sha256": "177dd9b7374e8f94c773f55c2f1fd12df2b403f992b1204860d02f8acfffb102",
-    "sourceBytes": 438900,
-    "sourceSha256": "2e1b068966277a15ff5feeccaddc9d46475649b7f3578f2014328e8c146234f7",
+    "bytes": 34797,
+    "sha256": "c26258a420279108c045eebce6c24bc6c3395d1071282d51158a682311150cae",
+    "sourceBytes": 440664,
+    "sourceSha256": "8c6f65d7a3236fab709dd4bb2adb8bd664c3ebd46bc50d35f127441fb6a19566",
     "upstreamOnly": {
       "path": "protists-chromists/gymnodinium-sidecar-upstream-only-000.json.gz",
       "records": 0,
@@ -117,8 +194,8 @@
     },
     "descriptor": {
       "path": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/gymnodinium-sidecar.json",
-      "bytes": 6279,
-      "sha256": "bf3405d99be30795ebfa09f4cc3636bc94a007c0e923f110aa8fb779aae99f21"
+      "bytes": 6340,
+      "sha256": "28a27532697d8ca8077f7894df82857c0c1812044032fc8252e6b2bbef97e5a8"
     }
   },
   "deliveryContract": {

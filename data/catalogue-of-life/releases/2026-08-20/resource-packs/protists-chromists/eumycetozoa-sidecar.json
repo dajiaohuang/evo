@@ -40,7 +40,7 @@
     "colSourceDatasetId": 1053,
     "eligibleColSpecies": 1337,
     "projectedSpecies": 1337,
-    "matchingKey": "official ChecklistBank source-record relation where available; otherwise exact source scientific name + authorship",
+    "matchingKey": "exact source scientific name + authorship; seven unmatched keys linked by frozen official source-record relations",
     "excludedUnlinkedAcceptedSourceRows": 8
   },
   "matching": {
@@ -61,10 +61,10 @@
     {
       "path": "protists-chromists/eumycetozoa-000.json.gz",
       "records": 1337,
-      "bytes": 138324,
-      "sha256": "1213a0cf16c6b8c5982044b87827c0e60c7e05a774b904af9952045badb064c0",
-      "sourceBytes": 1728987,
-      "sourceSha256": "01ecc124ec279efbf7435902299e04216acca56a607847404244e9ac03800ffb",
+      "bytes": 143446,
+      "sha256": "eb273fe153e4f9c9cfec1cf8bddb4f23dd0a51126ef0b1b759c5f72fb6620ed8",
+      "sourceBytes": 1743801,
+      "sourceSha256": "f56ed2b2cb705c67c92e510aa28b40ef4cb439b15a38ee1efac1aba4fb4ba440",
       "minColId": "3574B",
       "maxColId": "ZFKF",
       "encoding": "gzip",
@@ -82,8 +82,8 @@
     "Reference links retain original type, identifiers, source row locators and empty fields.",
     "Seven COL targets are resolved by frozen ChecklistBank source-record relations despite source-text differences; eight accepted archive rows remain unlinked and are not projected. Unlinked does not mean globally novel or absent from other COL sources."
   ],
-  "totalCompressedBytes": 138324,
-  "totalSourceBytes": 1728987,
+  "totalCompressedBytes": 143446,
+  "totalSourceBytes": 1743801,
   "deliveryProfiles": {
     "web-light": {
       "payload": "summary-only",
@@ -98,8 +98,8 @@
         "protists-chromists/eumycetozoa-000.json.gz"
       ],
       "records": 1337,
-      "totalCompressedBytes": 138324,
-      "totalSourceBytes": 1728987
+      "totalCompressedBytes": 143446,
+      "totalSourceBytes": 1743801
     }
   }
 }

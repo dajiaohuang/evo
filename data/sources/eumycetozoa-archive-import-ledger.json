@@ -43,7 +43,614 @@
     }
   ],
   "scopeAudit": {
-    "method": "Exact name+authorship match restricted to COL sourceDatasetId 1053",
+    "method": "1330 exact name+authorship matches and seven explicit ChecklistBank source-record relations, restricted to COL sourceDatasetId 1053",
+    "officialRelationEvidence": {
+      "39SDP": {
+        "sourceId": "626",
+        "relation": {
+          "id": 347694978,
+          "datasetKey": 316115,
+          "sectorKey": 67375,
+          "sourceId": "626",
+          "sourceDatasetKey": 1053,
+          "sourceEntity": "name usage"
+        },
+        "colRecord": {
+          "created": "2026-08-07T19:00:49.180302",
+          "createdBy": 102,
+          "modified": "2026-08-07T19:00:49.180302",
+          "modifiedBy": 102,
+          "datasetKey": 316115,
+          "id": "39SDP",
+          "sectorKey": 67375,
+          "verbatimSourceKey": 347694978,
+          "name": {
+            "created": "2026-08-07T19:00:49.180302",
+            "createdBy": 102,
+            "modified": "2026-08-07T19:00:49.180302",
+            "modifiedBy": 102,
+            "datasetKey": 316115,
+            "id": "e25QNXgh0Z7P4CZ0ku_40",
+            "sectorKey": 67375,
+            "verbatimSourceKey": 347694978,
+            "namesIndexId": 3226067,
+            "scientificName": "Endostelium zonatum",
+            "authorship": "(L.S.Olive & Stoian.) W.E.Benn. & L.S.Olive, 1984",
+            "rank": "species",
+            "genus": "Endostelium",
+            "specificEpithet": "zonatum",
+            "combinationAuthorship": {
+              "authors": [
+                "W.E.Benn.",
+                "L.S.Olive"
+              ],
+              "year": "1984"
+            },
+            "basionymAuthorship": {
+              "authors": [
+                "L.S.Olive",
+                "Stoian."
+              ]
+            },
+            "code": "botanical",
+            "origin": "source",
+            "type": "scientific",
+            "remarks": "new combination, valid: Yes",
+            "parsed": true,
+            "notho": []
+          },
+          "status": "accepted",
+          "origin": "source",
+          "parentId": "4BQ5",
+          "link": "https://eumycetozoa.com/data/report.php?numr=2107&tipo=Rtax",
+          "referenceIds": [
+            "a270bd8f-a791-4611-a0e9-4421a148d644"
+          ],
+          "scrutinizer": "Lado,C.",
+          "scrutinizerDate": "2024",
+          "label": "Endostelium zonatum (L.S.Olive & Stoian.) W.E.Benn. & L.S.Olive, 1984",
+          "labelHtml": "<i>Endostelium zonatum</i> (L.S.Olive & Stoian.) W.E.Benn. & L.S.Olive, 1984"
+        },
+        "responses": [
+          {
+            "file": "39SDP-col.json",
+            "url": "https://api.checklistbank.org/dataset/316115/nameusage/39SDP",
+            "retrievedAt": "2026-09-04T15:39:20.307Z",
+            "bytes": 1262,
+            "sha256": "dbaf6190bd3ea5a9771cdcc1452878db146a819b27d08b55291648cad3fc6089"
+          },
+          {
+            "file": "39SDP-relation.json",
+            "url": "https://api.checklistbank.org/dataset/316115/nameusage/39SDP/source",
+            "retrievedAt": "2026-09-04T15:39:20.619Z",
+            "bytes": 123,
+            "sha256": "50032730988ae832e916c6d84f8bcbe0bf4b1d4b17f451eec82fb0671dcfa1cc"
+          },
+          {
+            "file": "39SDP-source.json",
+            "url": "https://api.checklistbank.org/dataset/1053/nameusage/626",
+            "retrievedAt": "2026-09-04T15:39:20.940Z",
+            "bytes": 1141,
+            "sha256": "f5e8a05a0e24d9379aee13c1b100fb77541173e9fe87878d24a78d2e6bed6d41"
+          }
+        ]
+      },
+      "4ZT26": {
+        "sourceId": "1265",
+        "relation": {
+          "id": 347690455,
+          "datasetKey": 316115,
+          "sectorKey": 67374,
+          "sourceId": "1265",
+          "sourceDatasetKey": 1053,
+          "sourceEntity": "name usage"
+        },
+        "colRecord": {
+          "created": "2026-08-07T19:00:12.265593",
+          "createdBy": 102,
+          "modified": "2026-08-07T19:00:12.265593",
+          "modifiedBy": 102,
+          "datasetKey": 316115,
+          "id": "4ZT26",
+          "sectorKey": 67374,
+          "verbatimSourceKey": 347690455,
+          "name": {
+            "created": "2026-08-07T19:00:12.265593",
+            "createdBy": 102,
+            "modified": "2026-08-07T19:00:12.265593",
+            "modifiedBy": 102,
+            "datasetKey": 316115,
+            "id": "5pyqeKMcgEveA8J3ZZ-o32",
+            "sectorKey": 67374,
+            "verbatimSourceKey": 347690455,
+            "namesIndexId": 8635184,
+            "scientificName": "Stemonitopsis reticulata",
+            "authorship": "(H.C.Gilbert) Nann.-Bremek. & Y.Yamam., 1995",
+            "rank": "species",
+            "genus": "Stemonitopsis",
+            "specificEpithet": "reticulata",
+            "combinationAuthorship": {
+              "authors": [
+                "Nann.-Bremek.",
+                "Y.Yamam."
+              ],
+              "year": "1995"
+            },
+            "basionymAuthorship": {
+              "authors": [
+                "H.C.Gilbert"
+              ]
+            },
+            "code": "botanical",
+            "origin": "source",
+            "type": "scientific",
+            "remarks": "new combination, valid: Yes",
+            "parsed": true,
+            "notho": []
+          },
+          "status": "accepted",
+          "origin": "source",
+          "parentId": "7MCH",
+          "link": "https://eumycetozoa.com/data/report.php?numr=942&tipo=Rtax",
+          "referenceIds": [
+            "b11bdbe5-3f08-4825-88e6-18a6d3a47ebb"
+          ],
+          "scrutinizer": "Lado,C.",
+          "scrutinizerDate": "2024",
+          "label": "Stemonitopsis reticulata (H.C.Gilbert) Nann.-Bremek. & Y.Yamam., 1995",
+          "labelHtml": "<i>Stemonitopsis reticulata</i> (H.C.Gilbert) Nann.-Bremek. & Y.Yamam., 1995"
+        },
+        "responses": [
+          {
+            "file": "4ZT26-col.json",
+            "url": "https://api.checklistbank.org/dataset/316115/nameusage/4ZT26",
+            "retrievedAt": "2026-09-04T15:39:21.269Z",
+            "bytes": 1262,
+            "sha256": "1bf232053ee02b63fa91bf3939f2a3aee0e8a3af50f4c417886d78370bb15c65"
+          },
+          {
+            "file": "4ZT26-relation.json",
+            "url": "https://api.checklistbank.org/dataset/316115/nameusage/4ZT26/source",
+            "retrievedAt": "2026-09-04T15:39:21.581Z",
+            "bytes": 124,
+            "sha256": "bb06486e7c89619d7b757da99e7ce220722ae80b29f4babd2f8e9dc3f39c90cb"
+          },
+          {
+            "file": "4ZT26-source.json",
+            "url": "https://api.checklistbank.org/dataset/1053/nameusage/1265",
+            "retrievedAt": "2026-09-04T15:39:21.902Z",
+            "bytes": 1144,
+            "sha256": "db3ea1a88eaccc57b8ce748bf7b914d6910848fac91a7402542d64d34305840a"
+          }
+        ]
+      },
+      "6PVT4": {
+        "sourceId": "787",
+        "relation": {
+          "id": 347689647,
+          "datasetKey": 316115,
+          "sectorKey": 67374,
+          "sourceId": "787",
+          "sourceDatasetKey": 1053,
+          "sourceEntity": "name usage"
+        },
+        "colRecord": {
+          "created": "2026-08-07T19:00:05.889238",
+          "createdBy": 102,
+          "modified": "2026-08-07T19:00:05.889238",
+          "modifiedBy": 102,
+          "datasetKey": 316115,
+          "id": "6PVT4",
+          "sectorKey": 67374,
+          "verbatimSourceKey": 347689647,
+          "name": {
+            "created": "2026-08-07T19:00:05.889238",
+            "createdBy": 102,
+            "modified": "2026-08-07T19:00:05.889238",
+            "modifiedBy": 102,
+            "datasetKey": 316115,
+            "id": "VJimWEGm5mO8-4AAxguL52",
+            "sectorKey": 67374,
+            "verbatimSourceKey": 347689647,
+            "namesIndexId": 5012715,
+            "scientificName": "Licea alpina",
+            "authorship": "A.Sánchez, G.Moreno & D.W.Mitch., 2010",
+            "rank": "species",
+            "genus": "Licea",
+            "specificEpithet": "alpina",
+            "combinationAuthorship": {
+              "authors": [
+                "A.Sánchez",
+                "G.Moreno",
+                "D.W.Mitch."
+              ],
+              "year": "2010"
+            },
+            "code": "botanical",
+            "origin": "source",
+            "type": "scientific",
+            "remarks": "original combination, valid: Yes",
+            "parsed": true,
+            "notho": []
+          },
+          "status": "accepted",
+          "origin": "source",
+          "parentId": "638R7",
+          "link": "https://eumycetozoa.com/data/report.php?numr=3097&tipo=Rtax",
+          "referenceIds": [
+            "38e7383a-6685-44f1-af0b-dd65075e5594"
+          ],
+          "scrutinizer": "Lado,C.",
+          "scrutinizerDate": "2024",
+          "label": "Licea alpina A.Sánchez, G.Moreno & D.W.Mitch., 2010",
+          "labelHtml": "<i>Licea alpina</i> A.Sánchez, G.Moreno & D.W.Mitch., 2010"
+        },
+        "responses": [
+          {
+            "file": "6PVT4-col.json",
+            "url": "https://api.checklistbank.org/dataset/316115/nameusage/6PVT4",
+            "retrievedAt": "2026-09-04T15:39:22.223Z",
+            "bytes": 1167,
+            "sha256": "7031831bbfa884e71a2638d68b40b33658e44b4c8e57d3075ba09d62714b3e91"
+          },
+          {
+            "file": "6PVT4-relation.json",
+            "url": "https://api.checklistbank.org/dataset/316115/nameusage/6PVT4/source",
+            "retrievedAt": "2026-09-04T15:39:22.522Z",
+            "bytes": 123,
+            "sha256": "6cd282816cd120a49e2c12b7f8803e0382ad0ddd0cd31bcd5b739a56c6d598c8"
+          },
+          {
+            "file": "6PVT4-source.json",
+            "url": "https://api.checklistbank.org/dataset/1053/nameusage/787",
+            "retrievedAt": "2026-09-04T15:39:22.825Z",
+            "bytes": 1045,
+            "sha256": "e248f747ada682d2be432a67f1f1a67517e4b0feee5cea3fb9ae95bd21532807"
+          }
+        ]
+      },
+      "992NH": {
+        "sourceId": "989",
+        "relation": {
+          "id": 347690039,
+          "datasetKey": 316115,
+          "sectorKey": 67374,
+          "sourceId": "989",
+          "sourceDatasetKey": 1053,
+          "sourceEntity": "name usage"
+        },
+        "colRecord": {
+          "created": "2026-08-07T19:00:05.889238",
+          "createdBy": 102,
+          "modified": "2026-08-07T19:00:05.889238",
+          "modifiedBy": 102,
+          "datasetKey": 316115,
+          "id": "992NH",
+          "sectorKey": 67374,
+          "verbatimSourceKey": 347690039,
+          "name": {
+            "created": "2026-08-07T19:00:05.889238",
+            "createdBy": 102,
+            "modified": "2026-08-07T19:00:05.889238",
+            "modifiedBy": 102,
+            "datasetKey": 316115,
+            "id": "4637dfVwMktJAS9YWPCh10",
+            "sectorKey": 67374,
+            "verbatimSourceKey": 347690039,
+            "namesIndexId": 6842043,
+            "scientificName": "Perichaena pseudoliceoides",
+            "authorship": "A.Kuhnt & Mar.Mey,, 2021",
+            "rank": "species",
+            "genus": "Perichaena",
+            "specificEpithet": "pseudoliceoides",
+            "combinationAuthorship": {
+              "authors": [
+                "A.Kuhnt",
+                "Mar.Mey"
+              ],
+              "year": "2021"
+            },
+            "code": "botanical",
+            "origin": "source",
+            "type": "scientific",
+            "remarks": "original combination, valid: Yes",
+            "parsed": true,
+            "notho": []
+          },
+          "status": "accepted",
+          "origin": "source",
+          "parentId": "6L7B",
+          "link": "https://eumycetozoa.com/data/report.php?numr=3443&tipo=Rtax",
+          "referenceIds": [
+            "3b34bf94-cdb5-4387-bd41-03e08c7f2867"
+          ],
+          "scrutinizer": "Lado,C.",
+          "scrutinizerDate": "2024",
+          "label": "Perichaena pseudoliceoides A.Kuhnt & Mar.Mey,, 2021",
+          "labelHtml": "<i>Perichaena pseudoliceoides</i> A.Kuhnt & Mar.Mey,, 2021"
+        },
+        "responses": [
+          {
+            "file": "992NH-col.json",
+            "url": "https://api.checklistbank.org/dataset/316115/nameusage/992NH",
+            "retrievedAt": "2026-09-04T15:39:23.136Z",
+            "bytes": 1160,
+            "sha256": "d1ec356afbcc60683cbd498f0521336cb92f27ebd6643bfabb58e58d09b073db"
+          },
+          {
+            "file": "992NH-relation.json",
+            "url": "https://api.checklistbank.org/dataset/316115/nameusage/992NH/source",
+            "retrievedAt": "2026-09-04T15:39:23.440Z",
+            "bytes": 123,
+            "sha256": "f124236329d7a259c0321e4fd9e61ba83e56abd4594ca3a597143e462cda4d6e"
+          },
+          {
+            "file": "992NH-source.json",
+            "url": "https://api.checklistbank.org/dataset/1053/nameusage/989",
+            "retrievedAt": "2026-09-04T15:39:23.753Z",
+            "bytes": 1039,
+            "sha256": "49ac440264747af2c818f59788087a208bdb916598e725f361d63d1f5ec1dcf6"
+          }
+        ]
+      },
+      "CDHD7": {
+        "sourceId": "779",
+        "relation": {
+          "id": 347690549,
+          "datasetKey": 316115,
+          "sectorKey": 67374,
+          "sourceId": "779",
+          "sourceDatasetKey": 1053,
+          "sourceEntity": "name usage"
+        },
+        "colRecord": {
+          "created": "2026-08-07T19:00:12.265593",
+          "createdBy": 102,
+          "modified": "2026-08-07T19:00:12.265593",
+          "modifiedBy": 102,
+          "datasetKey": 316115,
+          "id": "CDHD7",
+          "sectorKey": 67374,
+          "verbatimSourceKey": 347690549,
+          "name": {
+            "created": "2026-08-07T19:00:12.265593",
+            "createdBy": 102,
+            "modified": "2026-08-07T19:00:12.265593",
+            "modifiedBy": 102,
+            "datasetKey": 316115,
+            "id": "UDtMu67a--u7B4-Peuoy80",
+            "sectorKey": 67374,
+            "verbatimSourceKey": 347690549,
+            "namesIndexId": 4817283,
+            "scientificName": "Lamproderma zonatopulchellum",
+            "authorship": "Yatsiuk, Leontyev, López-Vill. & Schnittler,, 2023",
+            "rank": "species",
+            "genus": "Lamproderma",
+            "specificEpithet": "zonatopulchellum",
+            "combinationAuthorship": {
+              "authors": [
+                "Yatsiuk",
+                "Leontyev",
+                "López-Vill.",
+                "Schnittler"
+              ],
+              "year": "2023"
+            },
+            "code": "botanical",
+            "origin": "source",
+            "type": "scientific",
+            "remarks": "original combination, valid: Yes",
+            "parsed": true,
+            "notho": []
+          },
+          "status": "accepted",
+          "origin": "source",
+          "parentId": "639H8",
+          "link": "https://eumycetozoa.com/data/report.php?numr=3464&tipo=Rtax",
+          "referenceIds": [
+            "5d0c5663-1c04-48f6-af94-14df1235b77d"
+          ],
+          "scrutinizer": "Lado,C.",
+          "scrutinizerDate": "2024",
+          "label": "Lamproderma zonatopulchellum Yatsiuk, Leontyev, López-Vill. & Schnittler,, 2023",
+          "labelHtml": "<i>Lamproderma zonatopulchellum</i> Yatsiuk, Leontyev, López-Vill. & Schnittler,, 2023"
+        },
+        "responses": [
+          {
+            "file": "CDHD7-col.json",
+            "url": "https://api.checklistbank.org/dataset/316115/nameusage/CDHD7",
+            "retrievedAt": "2026-09-04T15:39:24.087Z",
+            "bytes": 1279,
+            "sha256": "35b99446ed7da370f88af18d848763c83507b3e231d38cdf51a45ea026866d74"
+          },
+          {
+            "file": "CDHD7-relation.json",
+            "url": "https://api.checklistbank.org/dataset/316115/nameusage/CDHD7/source",
+            "retrievedAt": "2026-09-04T15:39:24.406Z",
+            "bytes": 123,
+            "sha256": "e499d5ce710ca57e65601306e9071fea34b40ee5c22ab1879ab88d31df765d6f"
+          },
+          {
+            "file": "CDHD7-source.json",
+            "url": "https://api.checklistbank.org/dataset/1053/nameusage/779",
+            "retrievedAt": "2026-09-04T15:39:24.712Z",
+            "bytes": 1158,
+            "sha256": "d0899fecd7754f3add886c6f769b0d4bc2ebc29e6c10274bb50c02da34917f45"
+          }
+        ]
+      },
+      "CDHRG": {
+        "sourceId": "703",
+        "relation": {
+          "id": 347688366,
+          "datasetKey": 316115,
+          "sectorKey": 67372,
+          "sourceId": "703",
+          "sourceDatasetKey": 1053,
+          "sourceEntity": "name usage"
+        },
+        "colRecord": {
+          "created": "2026-08-07T18:59:42.22397",
+          "createdBy": 102,
+          "modified": "2026-08-07T18:59:42.22397",
+          "modifiedBy": 102,
+          "datasetKey": 316115,
+          "id": "CDHRG",
+          "sectorKey": 67372,
+          "verbatimSourceKey": 347688366,
+          "name": {
+            "created": "2026-08-07T18:59:42.22397",
+            "createdBy": 102,
+            "modified": "2026-08-07T18:59:42.22397",
+            "modifiedBy": 102,
+            "datasetKey": 316115,
+            "id": "GY0SoItV6N8q0_cPk2rff1",
+            "sectorKey": 67372,
+            "verbatimSourceKey": 347688366,
+            "namesIndexId": 4254068,
+            "scientificName": "Heterostelium migratissimum",
+            "authorship": "(Cavender, J.C.Landolt, Romeralo, Perrigo, Vadell & S.L.Stephenson) S.Baldauf, S.Sheikh & Thulin, 2018",
+            "rank": "species",
+            "genus": "Heterostelium",
+            "specificEpithet": "migratissimum",
+            "combinationAuthorship": {
+              "authors": [
+                "S.Baldauf",
+                "S.Sheikh",
+                "Thulin"
+              ],
+              "year": "2018"
+            },
+            "basionymAuthorship": {
+              "authors": [
+                "Cavender",
+                "J.C.Landolt",
+                "Romeralo",
+                "Perrigo",
+                "Vadell",
+                "S.L.Stephenson"
+              ]
+            },
+            "code": "botanical",
+            "origin": "source",
+            "type": "scientific",
+            "remarks": "new combination, valid: Yes",
+            "parsed": true,
+            "notho": []
+          },
+          "status": "accepted",
+          "origin": "source",
+          "parentId": "4WSW",
+          "link": "https://eumycetozoa.com/data/report.php?numr=3256&tipo=Rtax",
+          "referenceIds": [
+            "6aa6f678-6bd9-49ba-90c9-0394d7f0b9de"
+          ],
+          "scrutinizer": "Lado,C.",
+          "scrutinizerDate": "2024",
+          "label": "Heterostelium migratissimum (Cavender, J.C.Landolt, Romeralo, Perrigo, Vadell & S.L.Stephenson) S.Baldauf, S.Sheikh & Thulin, 2018",
+          "labelHtml": "<i>Heterostelium migratissimum</i> (Cavender, J.C.Landolt, Romeralo, Perrigo, Vadell & S.L.Stephenson) S.Baldauf, S.Sheikh & Thulin, 2018"
+        },
+        "responses": [
+          {
+            "file": "CDHRG-col.json",
+            "url": "https://api.checklistbank.org/dataset/316115/nameusage/CDHRG",
+            "retrievedAt": "2026-09-04T15:39:25.042Z",
+            "bytes": 1508,
+            "sha256": "f7bdc9851926d7d082bdc60ac236d512be22647726675fbe4668891cd4f0fe74"
+          },
+          {
+            "file": "CDHRG-relation.json",
+            "url": "https://api.checklistbank.org/dataset/316115/nameusage/CDHRG/source",
+            "retrievedAt": "2026-09-04T15:39:25.347Z",
+            "bytes": 123,
+            "sha256": "ea0fe0f647cb4e2e24cab3f2365f51d239008d63391226a7a4dc186f55990c43"
+          },
+          {
+            "file": "CDHRG-source.json",
+            "url": "https://api.checklistbank.org/dataset/1053/nameusage/703",
+            "retrievedAt": "2026-09-04T15:39:25.663Z",
+            "bytes": 1316,
+            "sha256": "8055d8a658f35eaa69f0a7232d32530a42e000026d9acd43a6f9a936f7110133"
+          }
+        ]
+      },
+      "CQ9TK": {
+        "sourceId": "499",
+        "relation": {
+          "id": 347689023,
+          "datasetKey": 316115,
+          "sectorKey": 67374,
+          "sourceId": "499",
+          "sourceDatasetKey": 1053,
+          "sourceEntity": "name usage"
+        },
+        "colRecord": {
+          "created": "2026-08-07T19:00:05.889238",
+          "createdBy": 102,
+          "modified": "2026-08-07T19:00:05.889238",
+          "modifiedBy": 102,
+          "datasetKey": 316115,
+          "id": "CQ9TK",
+          "sectorKey": 67374,
+          "verbatimSourceKey": 347689023,
+          "name": {
+            "created": "2026-08-07T19:00:05.889238",
+            "createdBy": 102,
+            "modified": "2026-08-07T19:00:05.889238",
+            "modifiedBy": 102,
+            "datasetKey": 316115,
+            "id": "sbCWjGzIiWNpAdok5G7FU",
+            "sectorKey": 67374,
+            "verbatimSourceKey": 347689023,
+            "namesIndexId": 2888720,
+            "scientificName": "Diderma verrucocapillitia",
+            "rank": "species",
+            "genus": "Diderma",
+            "specificEpithet": "verrucocapillitia",
+            "code": "botanical",
+            "origin": "source",
+            "type": "scientific",
+            "remarks": "original combination, valid: Yes",
+            "parsed": true,
+            "notho": []
+          },
+          "status": "accepted",
+          "origin": "source",
+          "parentId": "455V",
+          "link": "https://eumycetozoa.com/data/report.php?numr=3453&tipo=Rtax",
+          "referenceIds": [
+            "cea47002-174a-4d70-a722-788810f64b62"
+          ],
+          "scrutinizer": "Lado,C.",
+          "scrutinizerDate": "2024",
+          "label": "Diderma verrucocapillitia",
+          "labelHtml": "<i>Diderma verrucocapillitia</i>"
+        },
+        "responses": [
+          {
+            "file": "CQ9TK-col.json",
+            "url": "https://api.checklistbank.org/dataset/316115/nameusage/CQ9TK",
+            "retrievedAt": "2026-09-04T15:39:25.992Z",
+            "bytes": 993,
+            "sha256": "b4012c2e8ff3bc67d348d11b0287068af880a1392b433216713375d82fb89d32"
+          },
+          {
+            "file": "CQ9TK-relation.json",
+            "url": "https://api.checklistbank.org/dataset/316115/nameusage/CQ9TK/source",
+            "retrievedAt": "2026-09-04T15:39:26.308Z",
+            "bytes": 123,
+            "sha256": "24bd946b5dd16c7d876f14a564cd7dfa8f6136007fdea5eb22635eba6aad6a02"
+          },
+          {
+            "file": "CQ9TK-source.json",
+            "url": "https://api.checklistbank.org/dataset/1053/nameusage/499",
+            "retrievedAt": "2026-09-04T15:39:26.618Z",
+            "bytes": 1063,
+            "sha256": "c54b7f6ab856d61644b5797c532d95a8a7ce6e326f8d45d2444499231afc1c78"
+          }
+        ]
+      }
+    },
     "archiveAcceptedSpeciesRows": 1345,
     "colEligibleSpecies": 1337,
     "matchedUniqueSourceAcceptedTaxonIds": 1337,
@@ -63,14 +670,14 @@
   },
   "output": {
     "path": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/eumycetozoa-000.json.gz",
-    "bytes": 138324,
-    "sha256": "1213a0cf16c6b8c5982044b87827c0e60c7e05a774b904af9952045badb064c0",
-    "sourceBytes": 1728987,
-    "sourceSha256": "01ecc124ec279efbf7435902299e04216acca56a607847404244e9ac03800ffb"
+    "bytes": 143446,
+    "sha256": "eb273fe153e4f9c9cfec1cf8bddb4f23dd0a51126ef0b1b759c5f72fb6620ed8",
+    "sourceBytes": 1743801,
+    "sourceSha256": "f56ed2b2cb705c67c92e510aa28b40ef4cb439b15a38ee1efac1aba4fb4ba440"
   },
   "descriptor": {
     "path": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/eumycetozoa-sidecar.json",
-    "bytes": 3836,
-    "sha256": "19a7a6ea12f7fcd38fadc04d26d23c33255981b44ce1c66e77ce45fd7eaeac5c"
+    "bytes": 3835,
+    "sha256": "3b774e3341ed7014c4e8fda89d8ee711d7e71fa2eafd0022668c4431047daf68"
   }
 }
