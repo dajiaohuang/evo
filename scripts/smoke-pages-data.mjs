@@ -790,7 +790,7 @@ if (catalogue.resourcePacks?.packageCount !== 7
         'itis-nematoda-tsn-crosswalk': { eligible: 19604, records: 20849, accepted: 1899, redirects: 36, ambiguous: 1, unmatched: 17668, upstreamOnly: 1245, nonApplicable: 79557, files: 4 },
         'itis-annelida-tsn-crosswalk': { eligible: 18982, records: 24074, accepted: 4301, redirects: 122, ambiguous: 1, unmatched: 14558, upstreamOnly: 5092, nonApplicable: 80179, files: 4 },
       }
-      if (extensions.length !== 46 || manifestFile.extensionFileCount !== 0 || manifestFile.canonicalExtensionFileCount !== 211) {
+      if (extensions.length !== 46 || manifestFile.extensionFileCount !== 0 || manifestFile.canonicalExtensionFileCount !== 214) {
         failures.push('other-animals: Pages must publish all 46 authority summaries and no row shards')
       }
       const annelidaArchive = extensions.find((candidate) => candidate.id === 'worms-annelida-archive-crosswalk')

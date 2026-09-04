@@ -602,8 +602,8 @@ final class AppConfigurationTests: XCTestCase {
                     expectedRecords: 2_467, expectedUpstreamRecords: 0, label: "Rotifer World Catalogue")
                 try verifyAuthorityArchiveCollection(
                     collection: try XCTUnwrap(extensions.first { ($0["id"] as? String) == "worms-bryozoa-archive-crosswalk" }),
-                    inventory: files, below: dataRoot, expectedFiles: 29, expectedUpstreamFiles: 1,
-                    expectedRecords: 20_367, expectedUpstreamRecords: 216, label: "WoRMS Bryozoa")
+                    inventory: files, below: dataRoot, expectedFiles: 32, expectedUpstreamFiles: 1,
+                    expectedRecords: 20_367, expectedUpstreamRecords: 202, label: "WoRMS Bryozoa")
                 try verifyAuthorityArchiveCollection(
                     collection: try XCTUnwrap(extensions.first { ($0["id"] as? String) == "worms-monogenea-archive-crosswalk" }),
                     inventory: files, below: dataRoot, expectedFiles: 18, expectedUpstreamFiles: 1,

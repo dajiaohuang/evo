@@ -574,7 +574,7 @@ public class AppInstrumentedTest {
                 verifyAuthorityArchiveCollection(context, files, findCollection(extensions, "rotifera-298081-archive-crosswalk"),
                         1, 0, 2467, 0, "Rotifer World Catalogue");
                 verifyAuthorityArchiveCollection(context, files, findCollection(extensions, "worms-bryozoa-archive-crosswalk"),
-                        29, 1, 20367, 216, "WoRMS Bryozoa");
+                        32, 1, 20367, 202, "WoRMS Bryozoa");
                 verifyAuthorityArchiveCollection(context, files, findCollection(extensions, "worms-monogenea-archive-crosswalk"),
                         18, 1, 5852, 43, "WoRMS Monogenea");
                 verifyAuthorityArchiveCollection(context, files, findCollection(extensions, "worms-trematoda-archive-crosswalk"),

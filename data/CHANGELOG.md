@@ -1,5 +1,11 @@
 # Dataset changelog
 
+## 2026.09-static-v5-rc123 — 2026-09-05
+
+- Refined the pinned World Register of Marine Species Bryozoa dataset 1081 projection by accepting 14 additional exact names whose only difference is Unicode NFC composition. Every normalized key is unique on both sides and resolves to one non-provisional accepted Species row; no fuzzy match or species-concept equivalence is asserted.
+- The source boundary remains 20,367 COL26.8 rows: 20,325 exact accepted matches, 6 accepted redirects and 36 unmatched rows, with 202 source-owned accepted concepts retained separately. Full-data delivery contains 20,569 records in 33 deterministic gzip files; Pages remains summary-only.
+- Archive bytes, member hashes, source locators, license and citation are unchanged and independently replayed. The 2,183,133-species COL baseline, app version and native build number remain unchanged. No compatibility layer or new content-validation framework was added. See [Bryozoa source scope and reproduction](../docs/bryozoa-1081-archive.md).
+
 ## 2026.09-static-v5-rc122 — 2026-09-05
 
 - Added frozen original-source projections for the 4,403 Oligochaeta and 14,430 Polychaeta COL26.8 rows in their exact source-owned boundaries: 18,655 exact accepted-name matches and 178 unmatched rows. A further 393 source-owned accepted concepts are retained separately without asserting COL identity or globally new species.
