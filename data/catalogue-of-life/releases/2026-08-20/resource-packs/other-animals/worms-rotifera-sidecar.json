@@ -19,17 +19,20 @@
     "archiveSha256": "14a05b8cf2f309e90d71dde72de87a82503915fe220f95abbc9b6e251a97ba81",
     "metadataSha256": "351079ab9b22f8a49327154cfbb3542268b539a886eeb682107c8b950976e201",
     "sourceLedgerPath": "data/sources/rotifera-298081-import-ledger.json",
-    "sourceLedgerSha256": "8d1bac18221d5501501ae94d7e5771441dd6de7486ba20ddef706211366dd1fc",
+    "sourceLedgerSha256": "5e6248a28d8e1988d0cf523547fcf849d921f19e10657091d71ca0daba250698",
     "members": {
       "NameUsage.tsv": {
         "bytes": 873060,
         "sha256": "b6e12727bd3e8f3150d559f90acc40c1b96bcdb294fbb0a0b235f580b347fc2d",
         "rows": 4018
       }
-    }
+    },
+    "archivePath": "data/sources/archives/checklistbank-298081-rotifera-2026-09-05.zip",
+    "metadataPath": "data/sources/archives/checklistbank-298081-rotifera-2026-09-05.metadata.json"
   },
   "scope": {
     "colRootUsageId": "5Y",
+    "sourceDatasetId": 298081,
     "colStrictAcceptedSpecies": 2467,
     "validSourceSpecies": 2467
   },
@@ -52,7 +55,10 @@
       "bytes": 123935,
       "sha256": "2d1fa2fc197d050f948d74fa9861b8195d63c82abe060a8692c59a2724937214",
       "sourceBytes": 1905818,
-      "sourceSha256": "6401e2421cc751e22f765259ff927f35fe27875c9c4b002375e602602edd6c25"
+      "sourceSha256": "6401e2421cc751e22f765259ff927f35fe27875c9c4b002375e602602edd6c25",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "role": "native-full"
     }
   ],
   "upstreamOnlyFiles": [],
@@ -62,5 +68,29 @@
   "limitations": [
     "Invalid, synonym and bare-name source rows are retained only in the frozen input evidence and are not promoted to accepted species.",
     "Source-only rows are not claims of global novelty."
-  ]
+  ],
+  "deliveryProfiles": {
+    "web-light": {
+      "payload": "summary-only",
+      "records": 0,
+      "files": []
+    },
+    "native-full": {
+      "payload": "complete",
+      "records": 2467,
+      "files": [
+        {
+          "path": "other-animals/worms-rotifera-000.json.gz",
+          "records": 2467,
+          "bytes": 123935,
+          "sha256": "2d1fa2fc197d050f948d74fa9861b8195d63c82abe060a8692c59a2724937214",
+          "sourceBytes": 1905818,
+          "sourceSha256": "6401e2421cc751e22f765259ff927f35fe27875c9c4b002375e602602edd6c25",
+          "encoding": "gzip",
+          "mediaType": "application/json",
+          "role": "native-full"
+        }
+      ]
+    }
+  }
 }
