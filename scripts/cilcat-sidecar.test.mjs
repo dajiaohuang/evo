@@ -8,6 +8,7 @@ import { describe, expect, test } from 'vitest'
 
 const root = resolve(import.meta.dirname, '..')
 const archivePath = join(root, 'data/sources/archives/checklistbank-1113-cilcat-2012-01-16.tar.gz')
+const rawRelationsPath = join(root, 'data/sources/cilcat-1113-source-relations-raw-2026-09-04.json.gz')
 const relative = 'data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists'
 const sha256 = (bytes) => createHash('sha256').update(bytes).digest('hex')
 
@@ -17,6 +18,9 @@ describe('CilCat 1113 source projection', () => {
     expect(archive.length).toBe(296399)
     expect(sha256(archive)).toBe('cd0e0bad24a8b790cb404575f05b80eb26a6f913e5b770c011bcb6316fff15ed')
     expect(archive.subarray(0, 2).toString('hex')).toBe('1f8b')
+    const rawRelations = readFileSync(rawRelationsPath)
+    expect(rawRelations.length).toBe(6426)
+    expect(sha256(rawRelations)).toBe('574e9634b9419306ebf4842ad24f1c1c3b2b7eaa35d681a043e2c14bec67e597')
 
     const temporaryRoot = mkdtempSync(join(tmpdir(), 'evo-cilcat-'))
     try {
@@ -45,10 +49,12 @@ describe('CilCat 1113 source projection', () => {
       expect(rows.every((row) => row.matchedName?.status === 'accepted name')).toBe(true)
       expect(rows.filter((row) => row.sourceRelation)).toHaveLength(28)
       expect(rows.filter((row) => row.sourceRelation?.relationResponseSha256 && row.sourceRelation?.sourceResponseSha256)).toHaveLength(28)
+      expect(rows.filter((row) => row.sourceRelation?.relationUrl.includes('/source') && row.sourceRelation?.sourceUrl.includes('/nameusage/'))).toHaveLength(28)
       expect(upstream.every((row) => row.colId === null && row.status === 'upstream-only')).toBe(true)
       expect(descriptor.scope.sourceProvisionalSpecies).toBe(81)
       expect(descriptor.scope.excludedSourceProvisional).toBe(81)
       expect(descriptor.source.members['NameReferences.tsv']).toMatchObject({ bytes: 167078 })
+      expect(descriptor.source).toMatchObject({ relationCount: 28, relationRawEvidenceBytes: 6426, relationRawEvidenceSha256: '574e9634b9419306ebf4842ad24f1c1c3b2b7eaa35d681a043e2c14bec67e597' })
       expect(rows.concat(upstream).filter((row) => row.nameReferences.some((ref) => ref.referenceMissing))).toHaveLength(34)
     } finally {
       rmSync(temporaryRoot, { recursive: true, force: true })
