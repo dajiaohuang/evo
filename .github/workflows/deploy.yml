@@ -36,8 +36,9 @@ jobs:
         run: npm run build
         env:
           DEPLOYMENT_COMMIT_SHA: ${{ github.event.workflow_run.head_sha }}
+          VITE_PAGES_PREVIEW: 'true'
       - run: npm run pages:budget
-      - run: npm run pages:smoke
+      - run: npm run pages:smoke:preview
       - uses: actions/configure-pages@v6
       - uses: actions/upload-pages-artifact@v5
         with:

@@ -12,6 +12,7 @@ import { buildRouteHash, getFiniteRouteNumber, parseRouteHash } from '../../util
 import { MAX_MAP_ZOOM, MIN_MAP_ZOOM } from '../../constants'
 import { loadPackageForEntity } from '../../data-client/staticDataClient'
 import { useI18n } from '../../i18n'
+import { isPagesPreview, isPreviewTaxonAllowed } from '../../config/pagesPreview'
 import { GeoTimeline } from '../timeline/GeoTimeline'
 import { SpeciesDetail } from '../details/SpeciesDetail'
 import { ErrorBoundary } from '../common/ErrorBoundary'
@@ -140,13 +141,17 @@ export function ExplorerWorkspace({ dashboard = false }: ExplorerWorkspaceProps)
   const selectedPublication = getEntityPublication(profileContext?.treeNodeId ?? selectedNodeId)
   const searchResults = useMemo(() => {
     const needle = query.trim().toLowerCase()
-    if (!needle) return nodes.filter((node) => ['life', 'mammalia', 'dinosauria', 'tetrapoda', 'arthropoda'].includes(node.id))
-    return nodes.filter((node) => (
-      node.name.toLowerCase().includes(needle)
-      || node.commonName?.toLowerCase().includes(needle)
-      || node.commonNameZh?.toLowerCase().includes(needle)
-      || getTaxonProfile(node.id)?.commonNameZh.includes(needle)
-    )).slice(0, 8)
+    if (!needle) return nodes.filter((node) => (
+      ['life', 'mammalia', 'dinosauria', 'tetrapoda', 'arthropoda'].includes(node.id)
+      && (!isPagesPreview || isPreviewTaxonAllowed(node.id))
+    ))
+    return nodes.filter((node) => {
+      if (isPagesPreview && !isPreviewTaxonAllowed(node.id)) return false
+      return node.name.toLowerCase().includes(needle)
+        || node.commonName?.toLowerCase().includes(needle)
+        || node.commonNameZh?.toLowerCase().includes(needle)
+        || getTaxonProfile(node.id)?.commonNameZh.includes(needle)
+    }).slice(0, 8)
   }, [nodes, query])
 
   useEffect(() => {
@@ -169,13 +174,13 @@ export function ExplorerWorkspace({ dashboard = false }: ExplorerWorkspaceProps)
     const requestedTreeMode = params.get('treeMode') as TreeDisplayMode | null
     if (requestedTreeMode && TREE_MODES.has(requestedTreeMode)) setTreeMode(requestedTreeMode)
     const taxon = params.get('taxon')
-    if (taxon) {
+    if (taxon && (!isPagesPreview || isPreviewTaxonAllowed(taxon))) {
       const node = nodes.find((candidate) => candidate.id === taxon)
       if (node) {
         void selectSubject({ nodeId: node.id, taxonId: node.taxonId })
       }
     }
-    if (profileContext?.pbdbTaxonId) {
+    if (profileContext?.pbdbTaxonId && (!isPagesPreview || isPreviewTaxonAllowed(profileContext.id))) {
       void selectSubject({ nodeId: profileContext.treeNodeId ?? null, taxonId: profileContext.pbdbTaxonId })
     }
     // Initial URL hydration only.
@@ -187,7 +192,7 @@ export function ExplorerWorkspace({ dashboard = false }: ExplorerWorkspaceProps)
   }, [currentPeriod, loadOccurrencesForInterval])
 
   useEffect(() => {
-    if (selectedNodeId) void loadPackageForEntity(selectedNodeId).catch(() => undefined)
+    if (selectedNodeId && (!isPagesPreview || isPreviewTaxonAllowed(selectedNodeId))) void loadPackageForEntity(selectedNodeId).catch(() => undefined)
   }, [selectedNodeId])
 
   useEffect(() => {
@@ -226,6 +231,7 @@ export function ExplorerWorkspace({ dashboard = false }: ExplorerWorkspaceProps)
   }, [context, coordinateMode, currentAge, dashboard, datasetAccepted, markerMode, selectedNodeId, selectedOccurrence?.oid, treeMode, view, viewState])
 
   const chooseNode = (node: FlatNode) => {
+    if (isPagesPreview && !isPreviewTaxonAllowed(node.id)) return
     void selectSubject({ nodeId: node.id, taxonId: node.taxonId })
     const midpoint = (node.firstAppearance + node.lastAppearance) / 2
     if (Number.isFinite(midpoint)) setTime(midpoint)
@@ -341,6 +347,12 @@ export function ExplorerWorkspace({ dashboard = false }: ExplorerWorkspaceProps)
             ))}
           </div>
         </div>
+
+        {isPagesPreview && <p className="preview-scope-note" role="note">
+          {language === 'zh'
+            ? '预览版只开放精选资源包；其他树节点仍用于上下文展示，打开其完整内容请使用完整版 Web。'
+            : 'This preview opens selected resource packages only. Other tree nodes remain visible for context; use the full Web edition to open them.'}
+        </p>}
 
         <div className="navigator-section navigator-section--time">
           <span className="navigator-label">{t('Current context')}</span>

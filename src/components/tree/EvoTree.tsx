@@ -8,6 +8,7 @@ import calibrationData from '../../../data/packages/mammalia/perissodactyla/phyl
 import type { TreeDisplayMode } from '../../types'
 import { useI18n } from '../../i18n'
 import { evolutionEvents, getTaxonProfile, taxonProfiles } from '../../services/catalog'
+import { isPagesPreview, isPreviewTaxonAllowed } from '../../config/pagesPreview'
 import './EvoTree.css'
 
 export type TreeMode = TreeDisplayMode
@@ -102,6 +103,7 @@ export function EvoTree() {
   }, [language])
 
   const handleNodeClick = useCallback((nodeId: string) => {
+    if (isPagesPreview && !isPreviewTaxonAllowed(nodeId)) return
     const node = findNode([treeData as TreeNode], nodeId)
       ?? findNode([perissodactylHypothesisData.root as TreeNode], nodeId)
     void selectSubject({ nodeId, taxonId: node?.taxonId })
@@ -146,9 +148,10 @@ export function EvoTree() {
         .attr('transform', (_node, index) => `translate(0,${67 + index * rowHeight})`)
         .attr('role', 'treeitem')
         .attr('tabindex', 0)
+        .attr('aria-disabled', (node) => isPagesPreview && !isPreviewTaxonAllowed(node.data.id) ? 'true' : null)
         .attr('aria-label', (node) => `${nodeLabel(node.data)}: ${rangeLabel(node.data, t('present'), t('Unavailable'))}`)
-        .style('cursor', 'pointer')
-        .style('opacity', (node) => inLineage(node) ? 1 : .05)
+        .style('cursor', (node) => isPagesPreview && !isPreviewTaxonAllowed(node.data.id) ? 'not-allowed' : 'pointer')
+        .style('opacity', (node) => isPagesPreview && !isPreviewTaxonAllowed(node.data.id) ? .42 : inLineage(node) ? 1 : .05)
         .on('click', (_event, node) => handleNodeClick(node.data.id))
         .on('keydown', (event: KeyboardEvent, node) => {
           if (event.key !== 'Enter' && event.key !== ' ') return
@@ -188,8 +191,9 @@ export function EvoTree() {
           return `rotate(${point.x * 180 / Math.PI - 90}) translate(${point.y},0)`
         })
         .attr('role', 'treeitem').attr('tabindex', 0)
+        .attr('aria-disabled', (node) => isPagesPreview && !isPreviewTaxonAllowed(node.data.id) ? 'true' : null)
         .attr('aria-label', (node) => `${nodeLabel(node.data)}: ${rangeLabel(node.data, t('present'), t('Unavailable'))}`)
-        .style('cursor', 'pointer').style('opacity', (node) => nodeOpacity(node))
+        .style('cursor', (node) => isPagesPreview && !isPreviewTaxonAllowed(node.data.id) ? 'not-allowed' : 'pointer').style('opacity', (node) => isPagesPreview && !isPreviewTaxonAllowed(node.data.id) ? .42 : nodeOpacity(node))
         .on('click', (_event, node) => handleNodeClick(node.data.id))
         .on('keydown', (event: KeyboardEvent, node) => {
           if (event.key !== 'Enter' && event.key !== ' ') return
@@ -236,8 +240,9 @@ export function EvoTree() {
           return `translate(${xFor(point)},${yFor(point)})`
         })
         .attr('role', 'treeitem').attr('tabindex', 0)
+        .attr('aria-disabled', (node) => isPagesPreview && !isPreviewTaxonAllowed(node.data.id) ? 'true' : null)
         .attr('aria-label', (node) => `${nodeLabel(node.data)}: ${rangeLabel(node.data, t('present'), t('Unavailable'))}`)
-        .style('cursor', 'pointer').style('opacity', (node) => nodeOpacity(node, .3))
+        .style('cursor', (node) => isPagesPreview && !isPreviewTaxonAllowed(node.data.id) ? 'not-allowed' : 'pointer').style('opacity', (node) => isPagesPreview && !isPreviewTaxonAllowed(node.data.id) ? .42 : nodeOpacity(node, .3))
         .on('click', (_event, node) => handleNodeClick(node.data.id))
         .on('keydown', (event: KeyboardEvent, node) => {
           if (event.key !== 'Enter' && event.key !== ' ') return
@@ -278,8 +283,9 @@ export function EvoTree() {
     const nodes = g.selectAll<SVGGElement, d3.HierarchyNode<TreeNode>>('g.node').data(root.descendants()).join('g').attr('class', 'node')
       .attr('transform', (node) => `translate(${node.x},${node.y})`)
       .attr('role', 'treeitem').attr('tabindex', 0)
+      .attr('aria-disabled', (node) => isPagesPreview && !isPreviewTaxonAllowed(node.data.id) ? 'true' : null)
       .attr('aria-label', (node) => `${nodeLabel(node.data)}: ${rangeLabel(node.data, t('present'), t('Unavailable'))}`)
-      .style('cursor', 'pointer').style('opacity', (node) => nodeOpacity(node, .2))
+      .style('cursor', (node) => isPagesPreview && !isPreviewTaxonAllowed(node.data.id) ? 'not-allowed' : 'pointer').style('opacity', (node) => isPagesPreview && !isPreviewTaxonAllowed(node.data.id) ? .42 : nodeOpacity(node, .2))
       .on('click', (_event, node) => handleNodeClick(node.data.id))
       .on('keydown', (event: KeyboardEvent, node) => {
         if (event.key !== 'Enter' && event.key !== ' ') return
@@ -322,6 +328,11 @@ export function EvoTree() {
           <button key={value} className={mode === value ? 'is-active' : ''} onClick={() => setMode(value)}>{t(label)}</button>
         ))}
       </div>
+      {isPagesPreview && <p className="tree-preview-note" role="note">
+        {language === 'zh'
+          ? '预览版中的灰显节点仅用于上下文，精选资源包之外的完整档案请使用完整版 Web。'
+          : 'Dimmed nodes remain for context; full dossiers outside the selected resource packages are available in the full Web edition.'}
+      </p>}
       <div className="tree-overlay-control" role="group" aria-label={t('Tree overlays and focus')}>
         <button disabled={!selectedSourceNode?.children?.length} onClick={toggleSelectedCollapse}>{t(selectedSourceNode && collapsedIds.has(selectedSourceNode.id) ? 'Expand selected clade' : 'Collapse selected clade')}</button>
         <button className={traceLineage ? 'is-active' : ''} aria-pressed={traceLineage} disabled={!selectedNodeId} onClick={() => setTraceLineage((current) => !current)}>{t('Lineage trace')}</button>

@@ -22,6 +22,7 @@
 .portal-card-grid > button, .portal-card-grid > article, .portal-card-grid > a { min-height: 230px; padding: 24px; display: flex; flex-direction: column; align-items: flex-start; border: 1px solid var(--color-border-subtle); background: var(--color-surface); color: var(--color-text); text-align: left; text-decoration: none; }
 .portal-card-grid > button { cursor: pointer; }
 .portal-card-grid > button:hover, .portal-card-grid > a:hover { border-color: var(--color-accent-dim); transform: translateY(-2px); }
+.portal-card-grid > .portal-card--locked { border-style: dashed; color: var(--color-text-muted); opacity: .72; }
 .portal-card-grid--catalog { grid-template-columns: repeat(3, 1fr); }
 .portal-card-grid small { color: var(--color-accent); font: 8px var(--font-mono); text-transform: uppercase; }
 .portal-card-grid h3 { margin-top: 13px; font: 500 24px var(--font-display); }
@@ -62,6 +63,8 @@
 .community-links { display: grid; grid-template-columns: 1fr 1fr; gap: 9px; }
 .community-links a { padding: 22px; border: 1px solid var(--color-border-subtle); background: var(--color-surface); color: var(--color-text); text-decoration: none; }
 .community-links a:hover { border-color: var(--color-accent-dim); }
+.community-links .community-link--locked { margin-top: 0; padding: 22px; border: 1px dashed var(--color-border-subtle); background: var(--color-surface); color: var(--color-text); }
+.community-links .community-link--locked > span { margin-top: 7px; color: var(--color-text-faint); font-size: 9px; }
 .community-links strong, .community-links span { display: block; }
 .community-links strong { font: 500 17px var(--font-serif); }
 .community-links span { margin-top: 7px; color: var(--color-text-faint); font-size: 9px; }

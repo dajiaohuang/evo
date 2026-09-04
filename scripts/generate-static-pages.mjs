@@ -12,12 +12,19 @@ const basePath = '/evo'
 const baseUrl = `${origin}${basePath}`
 const repositoryUrl = 'https://github.com/dajiaohuang/evo'
 const manifest = readJson('data/manifest.json')
+const pagesPreview = process.env.VITE_PAGES_PREVIEW === 'true'
+const previewDefinition = readJson('data/pages-preview.json')
+const previewPackageIds = new Set(previewDefinition.packageIds)
+const previewTaxonIds = new Set(previewDefinition.taxonIds)
+const previewEventIds = new Set(previewDefinition.eventIds)
+const previewStoryIds = new Set(previewDefinition.storyIds)
 const releaseHistory = existsSync(join(distRoot, 'data', 'releases.json')) ? readJson('dist/data/releases.json') : { releases: [{ datasetVersion: manifest.datasetVersion, generatedAt: manifest.generatedAt, bytes: 0, filesIndex: '' }] }
-const entities = readJson('data/registry/entities/entities.json')
-const registry = readJson('data/registry/package-registry.json')
-const profiles = readJson('data/registry/taxon-profiles.json')
-const events = readJson('data/events.json')
-const stories = readJson('data/stories.json').filter((story) => story.evidenceStatus === 'available-with-limitations')
+const entities = readJson('data/registry/entities/entities.json').filter((entity) => !pagesPreview || previewTaxonIds.has(entity.id))
+const sourceRegistry = readJson('data/registry/package-registry.json')
+const registry = { ...sourceRegistry, packages: sourceRegistry.packages.filter((entry) => !pagesPreview || previewPackageIds.has(entry.id)) }
+const profiles = readJson('data/registry/taxon-profiles.json').filter((profile) => !pagesPreview || previewTaxonIds.has(profile.id) || (profile.treeNodeId && previewTaxonIds.has(profile.treeNodeId)))
+const events = readJson('data/events.json').filter((event) => !pagesPreview || previewEventIds.has(event.id))
+const stories = readJson('data/stories.json').filter((story) => story.evidenceStatus === 'available-with-limitations' && (!pagesPreview || previewStoryIds.has(story.id)))
 const claims = readJson('data/evidence/claims.json')
 const claimStatementsZh = readJson('data/evidence/claim-statements.zh.json')
 const chineseTranslations = loadChineseTranslations()
@@ -25,7 +32,9 @@ const references = readJson('data/references.json')
 const timeScale = readJson('data/time-scale.json')
 const media = readJson('data/media.json')
 const periodUnits = timeScale.units.filter((unit) => unit.itp === 'period')
-const occurrences = periodUnits.flatMap((period) => readJson(`data/fossils/${period.nam.toLowerCase()}.json`).map((record) => ({ ...record, period: period.nam })))
+const occurrences = periodUnits.flatMap((period) => readJson(`data/fossils/${period.nam.toLowerCase()}.json`)
+  .filter((record) => !pagesPreview || previewPackageIds.has(record.packageId ?? 'atlas-core'))
+  .map((record) => ({ ...record, period: period.nam })))
 
 const entityById = new Map(entities.map((entry) => [entry.id, entry]))
 const packageById = new Map(registry.packages.map((entry) => [entry.id, entry]))
@@ -509,6 +518,7 @@ for (const story of stories) {
   }
 }
 
+if (!pagesPreview) {
 for (const interval of timeScale.units) {
   const slug = intervalSlug(interval)
   const parent = timeScale.units.find((candidate) => candidate.oid === interval.pid)
@@ -660,6 +670,8 @@ for (const asset of media) {
   }
 }
 
+}
+
 writeCollectionIndex({
   kind: 'taxa', titleEn: 'Taxa', titleZh: '类群',
   descriptionEn: 'Every registered taxon and navigation concept, with maturity and evidence boundaries kept visible.',
@@ -668,6 +680,7 @@ writeCollectionIndex({
 })
 writeCollectionIndex({ kind: 'events', titleEn: 'Evolutionary events', titleZh: '演化事件', descriptionEn: 'Bounded evolutionary transitions with claims, sources, uncertainty and reproducible Explorer handoffs.', descriptionZh: '具有主张、来源、不确定性和可复现探索器入口的演化转折。', items: events.map((event) => ({ path: `events/${event.id}/`, titleEn: event.title, titleZh: event.titleZh, metaEn: `${event.startAge}–${event.endAge} Ma · ${event.category}`, metaZh: `${event.startAge}–${event.endAge} Ma · ${localize('zh', event.category)}` })) })
 writeCollectionIndex({ kind: 'stories', titleEn: 'Guided stories', titleZh: '引导故事', descriptionEn: 'Published editorial narratives whose steps resolve to claims and reproducible Explorer states.', descriptionZh: '每一步均解析到主张和可复现探索器状态的已发布编辑叙事。', items: stories.map((story) => ({ path: `stories/${story.id}/`, titleEn: story.title, titleZh: story.titleZh, metaEn: `${story.durationMinutes} min · ${story.steps.length} steps`, metaZh: `${story.durationMinutes} 分钟 · ${story.steps.length} 步` })) })
+if (!pagesPreview) {
 writeCollectionIndex({ kind: 'intervals', titleEn: 'Geological intervals', titleZh: '地质年代', descriptionEn: `Versioned eons, eras, periods, epochs and ages from the International Chronostratigraphic Chart ${timeScale.officialVersion}.`, descriptionZh: `来自国际年代地层表 ${timeScale.officialVersion} 的版本化宙、代、纪、世和期。`, items: timeScale.units.map((interval) => ({ path: `intervals/${intervalSlug(interval)}/`, titleEn: interval.nam, titleZh: interval.namZh, metaEn: `${interval.itp} · ${interval.eag}–${interval.lag} Ma`, metaZh: `${({ eon: '宙', era: '代', period: '纪', epoch: '世', age: '期' }[interval.itp] ?? interval.itp)} · ${interval.eag}–${interval.lag} Ma` })) })
 writeCollectionIndex({ kind: 'formations', titleEn: 'Formations', titleZh: '地层组', descriptionEn: 'Named formation fields aggregated from the bounded occurrence snapshot, with sampling caveats and source identifiers.', descriptionZh: '从有界化石记录快照聚合的地层组字段，并保留采样局限和来源标识符。', items: formationGroups.map((formation) => ({ path: `formations/${formation.slug}/`, titleEn: formation.name, titleZh: formation.name, metaEn: `${formation.occurrenceCount.toLocaleString()} records · ${formation.olderMa}–${formation.youngerMa} Ma`, metaZh: `${formation.occurrenceCount.toLocaleString()} 条记录 · ${formation.olderMa}–${formation.youngerMa} Ma` })) })
 writeCollectionIndex({ kind: 'localities', titleEn: 'Fossil localities', titleZh: '化石采集地', descriptionEn: 'PBDB collection identifiers with bounded occurrence, coordinate, formation and reconstruction context.', descriptionZh: '带有有界记录、坐标、地层组和古地理重建上下文的 PBDB 采集编号。', items: localityGroups.map((locality) => ({ path: `localities/${locality.slug}/`, titleEn: `PBDB collection ${locality.name}`, titleZh: `PBDB 采集记录 ${locality.name}`, metaEn: `${locality.occurrenceCount.toLocaleString()} records · ${[...locality.countries].join(' · ')}`, metaZh: `${locality.occurrenceCount.toLocaleString()} 条记录 · ${[...locality.countries].join(' · ')}` })) })
@@ -675,6 +688,7 @@ writeCollectionIndex({ kind: 'traits', titleEn: 'Traits', titleZh: '性状', des
 writeCollectionIndex({ kind: 'references', titleEn: 'References', titleZh: '参考文献', descriptionEn: 'The source ledger used by published entities, claims, ranges, events and stories.', descriptionZh: '公开实体、主张、年代范围、事件和故事使用的来源账本。', items: references.map((reference) => ({ path: `references/${reference.id}/`, titleEn: reference.title, titleZh: reference.title, metaEn: `${reference.authors} · ${reference.publishedYear ?? reference.accessedAt ?? 'n.d.'}`, metaZh: `${reference.authors} · ${reference.publishedYear ?? reference.accessedAt ?? '无日期'}` })) })
 writeCollectionIndex({ kind: 'media', titleEn: 'Media', titleZh: '媒体', descriptionEn: 'Rights-aware external records and AI-assisted interpretive reconstructions whose page presentation always pairs each image with explicit uncertainty.', descriptionZh: '保留权利信息的外部记录，以及在页面展示中始终与 AI 辅助说明和明确不确定性配对的解释性复原。', items: media.map((asset) => ({ path: `media/${asset.id}/`, titleEn: asset.title, titleZh: asset.titleZh ?? localize('zh', asset.title), metaEn: `${asset.type} · ${asset.rightsStatus}`, metaZh: `${localize('zh', asset.type)} · ${localize('zh', asset.rightsStatus)}` })) })
 writeCollectionIndex({ kind: 'datasets', titleEn: 'Dataset releases', titleZh: '数据集版本', descriptionEn: 'Versioned static releases with scope, checksums, downloads and known limitations.', descriptionZh: '带有范围、校验和、下载及已知局限的版本化静态发布。', items: releaseHistory.releases.map((release) => ({ path: `datasets/${release.datasetVersion}/`, titleEn: release.datasetVersion, titleZh: release.datasetVersion, metaEn: `${release.generatedAt} · ${(release.bytes / 1024 / 1024).toFixed(2)} MiB retained artifacts`, metaZh: `${release.generatedAt} · ${(release.bytes / 1024 / 1024).toFixed(2)} MiB 保留产物` })) })
+}
 
 for (const language of ['en', 'zh']) {
   const text = labels[language]
@@ -687,6 +701,7 @@ for (const language of ['en', 'zh']) {
 }
 sitemapUrls.add(`${baseUrl}/methods/`)
 
+if (!pagesPreview) {
 for (const language of ['en', 'zh']) {
   const text = labels[language]
   const path = language === 'en' ? `datasets/${manifest.datasetVersion}/` : `zh/datasets/${manifest.datasetVersion}/`
@@ -712,11 +727,14 @@ for (const release of releaseHistory.releases.filter((entry) => entry.datasetVer
   }
   sitemapUrls.add(`${baseUrl}/datasets/${release.datasetVersion}/`)
 }
+}
 
 write('static.css', staticCss)
 write('sitemap.xml', `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${[...sitemapUrls].sort().map((url) => `  <url><loc>${xmlEscape(url)}</loc><lastmod>${manifest.generatedAt}</lastmod></url>`).join('\n')}\n</urlset>\n`)
 write('robots.txt', `User-agent: *\nAllow: ${basePath}/\nSitemap: ${baseUrl}/sitemap.xml\n`)
-write('feed.xml', `<?xml version="1.0" encoding="UTF-8"?>\n<feed xmlns="http://www.w3.org/2005/Atom"><title>Evo Atlas releases</title><id>${baseUrl}/feed.xml</id><updated>${manifest.generatedAt}T00:00:00Z</updated><link href="${baseUrl}/feed.xml" rel="self"/><entry><title>${xmlEscape(manifest.datasetVersion)}</title><id>${baseUrl}/datasets/${xmlEscape(manifest.datasetVersion)}/</id><updated>${manifest.generatedAt}T00:00:00Z</updated><link href="${baseUrl}/datasets/${xmlEscape(manifest.datasetVersion)}/"/><summary>${xmlEscape(manifest.scopeStatement)}</summary></entry></feed>\n`)
+const feedEntryPath = pagesPreview ? 'methods/' : `datasets/${manifest.datasetVersion}/`
+const feedEntryTitle = pagesPreview ? `${manifest.appVersion} GitHub Pages preview` : manifest.datasetVersion
+write('feed.xml', `<?xml version="1.0" encoding="UTF-8"?>\n<feed xmlns="http://www.w3.org/2005/Atom"><title>Evo Atlas releases</title><id>${baseUrl}/feed.xml</id><updated>${manifest.generatedAt}T00:00:00Z</updated><link href="${baseUrl}/feed.xml" rel="self"/><entry><title>${xmlEscape(feedEntryTitle)}</title><id>${baseUrl}/${feedEntryPath}</id><updated>${manifest.generatedAt}T00:00:00Z</updated><link href="${baseUrl}/${feedEntryPath}"/><summary>${xmlEscape(manifest.scopeStatement)}</summary></entry></feed>\n`)
 write('404.html', `<!doctype html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex"><link rel="stylesheet" href="${basePath}/static.css"><title>Page not found — Evo Atlas</title></head><body><main class="page"><span class="eyebrow">404 / Evo Atlas</span><h1>Evidence page not found.</h1><p class="dek">This static entry does not exist in the published dataset. You can continue in the catalog or Explorer.</p><div class="actions"><a class="button" href="${basePath}/#/catalog">Open catalog</a><a class="button secondary" href="${basePath}/#/explore">Open Explorer</a></div></main></body></html>`)
 const pageCounts = {
   taxa: taxonPageCount,

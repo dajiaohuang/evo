@@ -22,10 +22,14 @@ import type {
 import type { TreeNode } from '../types/tree'
 import { periods, timeScaleUnits } from './geology'
 import { getEntityPublication } from './publication'
+import { isPagesPreview, isPreviewEventAllowed, isPreviewStoryAllowed, isPreviewTaxonAllowed } from '../config/pagesPreview'
 
-export const taxonProfiles = profilesData as TaxonProfile[]
+const allTaxonProfiles = profilesData as TaxonProfile[]
+export const taxonProfiles = isPagesPreview
+  ? allTaxonProfiles.filter((profile) => isPreviewTaxonAllowed(profile.id))
+  : allTaxonProfiles
 const evidenceClaimById = new Map((evidenceClaimsData as EvidenceClaim[]).map((claim) => [claim.id, claim]))
-export const evolutionEvents = eventsData.map((event) => {
+const allEvolutionEvents = eventsData.map((event) => {
   const eventClaims = event.claimIds.flatMap((claimId) => {
     const claim = evidenceClaimById.get(claimId)
     return claim ? [claim] : []
@@ -36,7 +40,13 @@ export const evolutionEvents = eventsData.map((event) => {
     referenceIds: [...new Set(eventClaims.flatMap((claim) => claim.referenceLinks.map((link) => link.referenceId)))],
   }
 }) as EvolutionEvent[]
-export const evolutionStories = (storiesData as EvolutionStory[]).filter((story) => story.evidenceStatus === 'available-with-limitations')
+export const evolutionEvents = isPagesPreview
+  ? allEvolutionEvents.filter((event) => isPreviewEventAllowed(event.id))
+  : allEvolutionEvents
+const allEvolutionStories = (storiesData as EvolutionStory[]).filter((story) => story.evidenceStatus === 'available-with-limitations')
+export const evolutionStories = isPagesPreview
+  ? allEvolutionStories.filter((story) => isPreviewStoryAllowed(story.id))
+  : allEvolutionStories
 export const references = referencesData as ReferenceRecord[]
 export const places = placesData as PlaceRecord[]
 export const perissodactylCalibrations = perissodactylCalibrationsData.estimates as DivergenceEstimate[]
