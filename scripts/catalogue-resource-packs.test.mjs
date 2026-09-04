@@ -148,7 +148,7 @@ describe('COL26.8 static nomenclatural resource packs', () => {
 
   it('publishes every Other Animals ITIS summary and native-full file inventory', () => {
     const descriptor = collection.packs.find((pack) => pack.packageId === 'other-animals')
-    expect(descriptor).toMatchObject({ acceptedSpeciesCount: 99161, fileCount: 4, extensionCount: 46, extensionFileCount: 214 })
+    expect(descriptor).toMatchObject({ acceptedSpeciesCount: 99161, fileCount: 4, extensionCount: 49, extensionFileCount: 218 })
     const manifest = JSON.parse(readFileSync(join(resourcePacksRoot, descriptor.manifestPath), 'utf8'))
     const extension = manifest.extensions.find((candidate) => candidate.id === 'itis-phoronida-tsn-crosswalk')
     expect(extension).toMatchObject({
@@ -205,6 +205,9 @@ describe('COL26.8 static nomenclatural resource packs', () => {
     for (const [id, expected] of Object.entries({
       'worms-oligochaeta-archive-crosswalk': { total: 4403, accepted: 4350, unmatched: 53, upstreamOnly: 214, files: 6, upstreamFiles: 1, license: 'CC-BY-4.0' },
       'worms-polychaeta-archive-crosswalk': { total: 14430, accepted: 14305, unmatched: 125, upstreamOnly: 179, files: 18, upstreamFiles: 1, license: 'cc by' },
+      'worms-chaetognatha-archive-crosswalk': { total: 132, accepted: 132, unmatched: 0, upstreamOnly: 0, files: 1, upstreamFiles: 0, license: 'cc by' },
+      'worms-rhombozoa-archive-crosswalk': { total: 122, accepted: 122, unmatched: 0, upstreamOnly: 0, files: 1, upstreamFiles: 0, license: 'cc by' },
+      'worms-loricifera-archive-crosswalk': { total: 46, accepted: 46, unmatched: 0, upstreamOnly: 1, files: 1, upstreamFiles: 1, license: 'cc by' },
     })) {
       const archive = manifest.extensions.find((candidate) => candidate.id === id)
       expect(archive).toMatchObject({

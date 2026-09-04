@@ -367,7 +367,7 @@ const expectedOtherAnimalAuthorities = {
   'itis-nematoda-tsn-crosswalk': { files: 4, records: 20849 },
   'itis-annelida-tsn-crosswalk': { files: 4, records: 24074 },
 }
-if (otherAnimalsManifest.extensions?.length !== Object.keys(expectedOtherAnimalAuthorities).length + 18) {
+if (otherAnimalsManifest.extensions?.length !== Object.keys(expectedOtherAnimalAuthorities).length + 21) {
   throw new Error('Mobile build must stage every declared other-animals ITIS and WoRMS authority collection')
 }
 const annelidaArchive = otherAnimalsManifest.extensions.find((extension) => extension.id === 'worms-annelida-archive-crosswalk')
@@ -390,18 +390,22 @@ if (!nematodaArchive || nematodaArchive.source?.license !== 'CC-BY-4.0'
   || nematodaArchiveFiles.some((file) => !releaseFiles.files.some((entry) => entry.url === file.url && entry.bytes === file.bytes && entry.sha256 === file.sha256))) {
   throw new Error('Mobile build must stage every WoRMS Nematoda COL and source-only archive shard')
 }
-for (const [id, records, label] of [
-  ['worms-thaliacea-archive-crosswalk', 78, 'Thaliacea'],
-  ['worms-appendicularia-archive-crosswalk', 68, 'Appendicularia'],
+for (const [id, total, accepted, upstreamOnly, fileCount, upstreamFileCount, license, label] of [
+  ['worms-thaliacea-archive-crosswalk', 78, 78, 0, 1, 0, 'CC-BY-4.0', 'Thaliacea'],
+  ['worms-appendicularia-archive-crosswalk', 68, 68, 0, 1, 0, 'CC-BY-4.0', 'Appendicularia'],
+  ['worms-chaetognatha-archive-crosswalk', 132, 132, 0, 1, 0, 'cc by', 'Chaetognatha'],
+  ['worms-rhombozoa-archive-crosswalk', 122, 122, 0, 1, 0, 'cc by', 'Rhombozoa'],
+  ['worms-loricifera-archive-crosswalk', 46, 46, 1, 1, 1, 'cc by', 'Loricifera'],
 ]) {
   const archive = otherAnimalsManifest.extensions.find((extension) => extension.id === id)
   const files = [...(archive?.files ?? []), ...(archive?.upstreamOnlyFiles ?? [])]
-  if (!archive || archive.source?.license !== 'CC-BY-4.0'
+  if (!archive || archive.source?.license !== license
     || archive.delivery?.profile !== 'native-full' || archive.delivery?.completeRows !== true
-    || archive.files?.length !== 1 || archive.upstreamOnlyFiles?.length !== 0
-    || archive.counts?.total !== records || archive.counts?.accepted !== records || archive.counts?.upstreamOnly !== 0
-    || archive.delivery?.publishedFileCount !== 1 || archive.delivery?.canonicalFileCount !== 1
-    || files.reduce((sum, file) => sum + file.records, 0) !== records
+    || archive.files?.length !== fileCount || archive.upstreamOnlyFiles?.length !== upstreamFileCount
+    || archive.counts?.total !== total || archive.counts?.accepted !== accepted || archive.counts?.upstreamOnly !== upstreamOnly
+    || archive.delivery?.publishedFileCount !== fileCount + upstreamFileCount
+    || archive.delivery?.canonicalFileCount !== fileCount + upstreamFileCount
+    || files.reduce((sum, file) => sum + file.records, 0) !== total + upstreamOnly
     || files.some((file) => !releaseFiles.files.some((entry) => entry.url === file.url && entry.bytes === file.bytes && entry.sha256 === file.sha256))) {
     throw new Error(`Mobile build must stage the complete ${label} archive projection`)
   }
