@@ -373,6 +373,7 @@ export type AuthorityArchiveCollectionId =
   | 'worms-mollusca-archive-crosswalk'
   | 'worms-porifera-archive-crosswalk'
   | 'worms-cnidaria-archive-crosswalk'
+  | 'worms-annelida-archive-crosswalk'
   | 'osf-orthoptera-archive-crosswalk'
 
 export interface AuthorityArchiveName {
@@ -1186,7 +1187,29 @@ export interface CatalogueItisProtistsResourcePackExtension extends Omit<Catalog
   id: `itis-${CatalogueItisProtistsScope}-tsn-crosswalk`
 }
 
-export type CatalogueResourcePackExtension = CatalogueLpsnResourcePackExtension | CatalogueIctvResourcePackExtension | CatalogueWfoPlantResourcePackExtension | CatalogueIndexFungorumResourcePackExtension | CatalogueForaminiferaResourcePackExtension | CatalogueItisOtherAnimalsResourcePackExtension | CatalogueItisProtistsResourcePackExtension
+export interface CatalogueAuthorityArchiveResourcePackExtension {
+  schemaVersion: 1
+  id: AuthorityArchiveCollectionId
+  recordType: 'release-pinned-authority-archive-crosswalk'
+  provider: string
+  packageId: string
+  source: { license: 'CC-BY-4.0'; [key: string]: unknown }
+  scope: Record<string, unknown>
+  matching: Record<string, unknown>
+  counts: { total: number; accepted: number; redirect: number; ambiguous: number; unmatched: number; withheld: number; upstreamOnly: number }
+  files: CatalogueResourcePackPayloadFile[]
+  upstreamOnlyFiles: CatalogueResourcePackPayloadFile[]
+  canonicalFileInventory: Array<CatalogueResourcePackPayloadFile & { role: 'col-partition' | 'upstream-only' }>
+  descriptorSha256: string
+  totalCompressedBytes: number
+  totalSourceBytes: number
+  delivery: { profile: 'web-light' | 'native-full'; completeRows: boolean; publishedFileCount: number; canonicalFileCount: number }
+  evidenceBoundary: { en: string; zh: string }
+  limitations: string[]
+  integration: { clientParityRequirement: string; lookup: { strategy: 'lexicographic-colId-range-v1'; ordering: string; requestPolicy: string } }
+}
+
+export type CatalogueResourcePackExtension = CatalogueLpsnResourcePackExtension | CatalogueIctvResourcePackExtension | CatalogueWfoPlantResourcePackExtension | CatalogueIndexFungorumResourcePackExtension | CatalogueForaminiferaResourcePackExtension | CatalogueItisOtherAnimalsResourcePackExtension | CatalogueItisProtistsResourcePackExtension | CatalogueAuthorityArchiveResourcePackExtension
 
 export interface CatalogueResourcePackManifest {
   schemaVersion: 1

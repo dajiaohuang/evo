@@ -487,6 +487,14 @@ async function packageAuthorityArchiveCollection(
   packageId: string,
   collectionId: import('./types').AuthorityArchiveCollectionId,
 ) {
+  if (packageId === 'other-animals') {
+    const catalogueManifest = await loadCatalogueResourcePackManifest(packageId)
+    const collection = catalogueManifest.extensions?.find((candidate): candidate is import('./types').CatalogueAuthorityArchiveResourcePackExtension => (
+      candidate.id === collectionId && candidate.recordType === 'release-pinned-authority-archive-crosswalk'
+    ))
+    if (!collection || collection.packageId !== packageId) throw new Error(`Catalogue resource pack ${packageId} does not publish authority archive ${collectionId}`)
+    return collection
+  }
   const manifest = await loadPackageManifest(packageId)
   const collection = manifest.nomenclatureCollections?.find((candidate): candidate is import('./types').RuntimeAuthorityArchiveCollection => (
     candidate.id === collectionId && candidate.recordType === 'release-pinned-authority-archive-crosswalk'

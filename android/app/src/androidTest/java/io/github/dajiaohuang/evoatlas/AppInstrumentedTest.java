@@ -544,7 +544,9 @@ public class AppInstrumentedTest {
                 assertEquals(158805, itisRecords);
             } else if (packageId.equals("other-animals")) {
                 JSONArray extensions = pack.getJSONArray("extensions");
-                assertEquals(28, extensions.length());
+                assertEquals(29, extensions.length());
+                verifyAuthorityArchiveCollection(context, files, findCollection(extensions, "worms-annelida-archive-crosswalk"),
+                        8, 1, 18982, 1090, "WoRMS Annelida");
                 String[] expectedIds = new String[]{
                     "itis-platyhelminthes-tsn-crosswalk", "itis-rotifera-tsn-crosswalk", "itis-bryozoa-tsn-crosswalk",
                     "itis-nemertea-tsn-crosswalk", "itis-tunicata-cephalochordata-tsn-crosswalk", "itis-acanthocephala-tsn-crosswalk",

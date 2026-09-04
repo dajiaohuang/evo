@@ -781,8 +781,18 @@ if (catalogue.resourcePacks?.packageCount !== 7
         'itis-nematoda-tsn-crosswalk': { eligible: 19604, records: 20849, accepted: 1899, redirects: 36, ambiguous: 1, unmatched: 17668, upstreamOnly: 1245, nonApplicable: 79557, files: 4 },
         'itis-annelida-tsn-crosswalk': { eligible: 18982, records: 24074, accepted: 4301, redirects: 122, ambiguous: 1, unmatched: 14558, upstreamOnly: 5092, nonApplicable: 80179, files: 4 },
       }
-      if (extensions.length !== 28 || manifestFile.extensionFileCount !== 0 || manifestFile.canonicalExtensionFileCount !== 70) {
-        failures.push('other-animals: Pages must publish 28 ITIS authority summaries and no row shards')
+      if (extensions.length !== 29 || manifestFile.extensionFileCount !== 0 || manifestFile.canonicalExtensionFileCount !== 79) {
+        failures.push('other-animals: Pages must publish 28 ITIS and one WoRMS authority summaries and no row shards')
+      }
+      const annelidaArchive = extensions.find((candidate) => candidate.id === 'worms-annelida-archive-crosswalk')
+      if (!annelidaArchive || annelidaArchive.source?.license !== 'CC-BY-4.0'
+        || annelidaArchive.counts?.total !== 18982 || annelidaArchive.counts?.upstreamOnly !== 1090
+        || annelidaArchive.delivery?.profile !== 'web-light' || annelidaArchive.delivery.completeRows !== false
+        || annelidaArchive.files?.length !== 0 || annelidaArchive.upstreamOnlyFiles?.length !== 0
+        || annelidaArchive.delivery.publishedFileCount !== 0 || annelidaArchive.delivery.canonicalFileCount !== 9
+        || annelidaArchive.canonicalFileInventory?.length !== 9
+        || annelidaArchive.canonicalFileInventory.some((file) => !file.path || file.sha256?.length !== 64 || existsSync(join(dataRoot, current.releaseBase, 'catalogue/resource-packs', file.path)))) {
+        failures.push('other-animals: WoRMS Annelida must preserve its complete inventory while omitting row shards on Pages')
       }
       for (const [id, counts] of Object.entries(expected)) {
         const authority = extensions.find((candidate) => candidate.id === id)

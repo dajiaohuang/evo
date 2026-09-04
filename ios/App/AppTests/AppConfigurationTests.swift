@@ -542,7 +542,11 @@ final class AppConfigurationTests: XCTestCase {
                 XCTAssertEqual(itisRecords, 158_805)
             } else if packageId == "other-animals" {
                 let extensions = try XCTUnwrap(pack["extensions"] as? [[String: Any]])
-                XCTAssertEqual(extensions.count, 28)
+                XCTAssertEqual(extensions.count, 29)
+                try verifyAuthorityArchiveCollection(
+                    collection: try XCTUnwrap(extensions.first { ($0["id"] as? String) == "worms-annelida-archive-crosswalk" }),
+                    inventory: files, below: dataRoot, expectedFiles: 8, expectedUpstreamFiles: 1,
+                    expectedRecords: 18_982, expectedUpstreamRecords: 1_090, label: "WoRMS Annelida")
                 let expectedIds = [
                     "itis-platyhelminthes-tsn-crosswalk", "itis-rotifera-tsn-crosswalk", "itis-bryozoa-tsn-crosswalk",
                     "itis-nemertea-tsn-crosswalk", "itis-tunicata-cephalochordata-tsn-crosswalk", "itis-acanthocephala-tsn-crosswalk",

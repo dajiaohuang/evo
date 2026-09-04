@@ -19,7 +19,9 @@ SPECS = {
     'mollusca': ('molluscs-brachiopods', 'M2L', '51', 'Mollusca', 154718),
     'porifera': ('sponges-cnidarians', 'B8TXQ', '558', 'Porifera', 9899),
     'cnidaria': ('sponges-cnidarians', 'CN2', '1267', 'Cnidaria', 20622),
+    'annelida': ('other-animals', 'NN', '882', 'Annelida', 18982),
 }
+LEGACY_SPECS = {key: spec for key, spec in SPECS.items() if key != 'annelida'}
 LIMIT = 2 * 1024 * 1024
 
 
@@ -140,9 +142,9 @@ def write_shards(directory, prefix, records, source_only):
     return files, upstream
 
 
-def read_archive(path):
-    parents, scoped, anomalies = {}, {k: {} for k in SPECS}, []
-    roots = {spec[2]: key for key, spec in SPECS.items()}
+def read_archive(path, specs=SPECS):
+    parents, scoped, anomalies = {}, {k: {} for k in specs}, []
+    roots = {spec[2]: key for key, spec in specs.items()}
     with zipfile.ZipFile(path) as archive:
         meta, eml = archive.read('meta.xml'), archive.read('eml.xml')
         fields = ET.fromstring(meta).findall('{*}core/{*}field')
@@ -170,7 +172,7 @@ def read_archive(path):
                     if root:
                         row['_ordinal'] = ordinal
                         scoped[roots[root]][tid] = row
-                    if row['taxonomicStatus'] == 'accepted' and row.get('phylum') in {s[3] for s in SPECS.values()} and not root:
+                    if row['taxonomicStatus'] == 'accepted' and row.get('phylum') in {s[3] for s in specs.values()} and not root:
                         anomalies.append({'id': tid, 'scientificName': row['scientificName'],
                                           'phylum': row['phylum'], 'parentNameUsageID': aphia(row.get('parentNameUsageID'))})
         member.update(rows=count, rowConvention='one-based logical TSV record ordinal including header; first data record is 2')
@@ -179,11 +181,11 @@ def read_archive(path):
     return scoped, metadata, anomalies
 
 
-def read_col():
+def read_col(specs=SPECS):
     manifest_bytes = (REGISTRY / 'manifest.json').read_bytes()
     paths = [REGISTRY / f['path'] for f in json.loads(manifest_bytes)['hierarchy']['nodes']['files']]
-    parents, scoped = {}, {k: {} for k in SPECS}
-    roots = {spec[1]: key for key, spec in SPECS.items()}
+    parents, scoped = {}, {k: {} for k in specs}
+    roots = {spec[1]: key for key, spec in specs.items()}
     for pass_number in (1, 2):
         for path in paths:
             with gzip.open(path, 'rt', encoding='utf-8') as stream:
@@ -201,7 +203,7 @@ def read_col():
                         if row['id'] in target:
                             raise ValueError(f'duplicate COL ID {row["id"]}')
                         target[row['id']] = row
-    for key, spec in SPECS.items():
+    for key, spec in specs.items():
         if len(scoped[key]) != spec[4]:
             raise ValueError(f'COL {key} scope changed')
     return scoped, digest(manifest_bytes)
@@ -211,6 +213,7 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--archive', type=Path, required=True)
     parser.add_argument('--acquisition', type=Path, required=True)
+    parser.add_argument('--scope', choices=['annelida'], help='Generate Annelida separately; omission preserves the three RC105 scopes.')
     args = parser.parse_args()
     with args.archive.open('rb') as stream:
         archive_identity = stream_digest(stream)
@@ -224,15 +227,17 @@ def main():
         raise ValueError('unexpected ChecklistBank metadata identity')
     if acquisition.get('archiveUrl') != ARCHIVE_URL or acquisition.get('sha256') != ARCHIVE_SHA or not acquisition.get('metadataStable'):
         raise ValueError('acquisition evidence does not match pinned source')
-    scoped, members, anomalies = read_archive(args.archive)
-    col, col_manifest_sha = read_col()
+    selected_specs = {args.scope: SPECS[args.scope]} if args.scope else LEGACY_SPECS
+    scoped, members, anomalies = read_archive(args.archive, selected_specs)
+    col, col_manifest_sha = read_col(selected_specs)
     coverage = json.loads((ROOT / 'data/registry/package-species-coverage.json').read_bytes())['packageCounts']
     source = {'provider': 'World Register of Marine Species via ChecklistBank', 'license': 'CC-BY-4.0',
               'licenseUrl': 'https://creativecommons.org/licenses/by/4.0/', 'rightsHolder': 'WoRMS Editorial Board',
               'archiveUrl': ARCHIVE_URL, 'archiveBytes': ARCHIVE_BYTES, 'archiveSha256': ARCHIVE_SHA,
               'attempt': 148, 'version': metadata['version'], 'versionDoi': metadata['versionDoi'],
               'retrievedAt': acquisition['retrievedAt'], 'immutableUrlClaimed': False, 'members': members}
-    ledger_path = 'data/sources/worms-archive-2011-import-ledger.json'
+    ledger_path = ('data/sources/worms-annelida-archive-2011-import-ledger.json'
+                   if args.scope == 'annelida' else 'data/sources/worms-archive-2011-import-ledger.json')
     ledger = {'schemaVersion': 1, 'importType': 'COL26.8-to-WoRMS-2011-archive-authority-sidecars',
               'source': source, 'metadataSha256': digest(metadata_bytes),
               'registryManifestSha256': col_manifest_sha,
@@ -241,7 +246,7 @@ def main():
                              'scopes': {k: {'speciesRows': len(rows), 'acceptedSpecies': sum(r['taxonomicStatus'] == 'accepted' for r in rows.values())} for k, rows in scoped.items()}}}
     ledger_bytes = encode(ledger, pretty=True)
     (ROOT / ledger_path).write_bytes(ledger_bytes)
-    for key, spec in SPECS.items():
+    for key, spec in selected_specs.items():
         package, col_root, worms_root, phylum, expected = spec
         accepted = {tid: r for tid, r in scoped[key].items() if r['taxonomicStatus'] == 'accepted'}
         by_name = {}
@@ -260,9 +265,13 @@ def main():
                      'sourceRows': [{'member': 'taxon.txt', 'row': row['_ordinal']}]}
                     for tid, row in sorted(accepted.items()) if tid not in implicated]
         prefix = f'worms-{key}'
-        directory = ROOT / f'data/packages/invertebrata/{package}/nomenclature'
+        directory = (ROOT / 'data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals'
+                     if key == 'annelida' else ROOT / f'data/packages/invertebrata/{package}/nomenclature')
         directory.mkdir(parents=True, exist_ok=True)
         files, upstream_files = write_shards(directory, prefix, records, upstream)
+        if key == 'annelida':
+            for item in files + upstream_files:
+                item['path'] = item['path'].replace('nomenclature/', 'other-animals/')
         descriptor = {'schemaVersion': 1, 'recordType': 'release-pinned-authority-archive-crosswalk',
                       'id': f'{prefix}-archive-crosswalk', 'packageId': package, 'provider': source['provider'],
                       'rowEncoding': 'json', 'colIdField': 'colId', 'totalCountField': 'total',

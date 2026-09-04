@@ -1353,7 +1353,8 @@ for (const sourcePackDescriptor of catalogueResourcePacksSourceManifest.packs) {
     throw new Error(`${sourcePack.packageId}: catalogue resource-pack shard counts do not match its manifest`)
   }
   const runtimeExtensions = (sourcePack.extensions ?? []).map((extension) => {
-    const canonicalExtensionFiles = extension.files.map((sourceFile) => {
+    const sourceExtensionFiles = [...extension.files, ...(extension.upstreamOnlyFiles ?? [])]
+    const canonicalExtensionFiles = sourceExtensionFiles.map((sourceFile) => {
       const sourcePath = join(catalogueResourcePacksSourceRoot, ...sourceFile.path.split('/'))
       const sourceBytes = readFileSync(sourcePath)
       if (sha256(sourceBytes) !== sourceFile.sha256 || sourceBytes.byteLength !== sourceFile.bytes) {
@@ -1373,23 +1374,26 @@ for (const sourcePackDescriptor of catalogueResourcePacksSourceManifest.packs) {
       throw new Error(`${sourcePack.packageId}/${extension.id}: delivery profile does not match the canonical extension inventory`)
     }
     const publishRows = !extension.deliveryProfiles || deliveryProfile === 'native-full'
-    const extensionFiles = publishRows ? canonicalExtensionFiles.map(({ sourceFile, sourceBytes }) => ({
+    const publish = (sourceFiles) => publishRows ? sourceFiles.map(({ sourceFile, sourceBytes }) => ({
       ...sourceFile,
       ...write(`catalogue/resource-packs/${sourceFile.path}`, sourceBytes),
     })) : []
+    const extensionFiles = publish(canonicalExtensionFiles.slice(0, extension.files.length))
+    const upstreamOnlyFiles = publish(canonicalExtensionFiles.slice(extension.files.length))
     return {
       ...extension,
-      canonicalFileInventory: extension.files,
+      canonicalFileInventory: extension.canonicalFileInventory ?? canonicalExtensionFiles.map(({ sourceFile }) => sourceFile),
       files: extensionFiles,
+      upstreamOnlyFiles,
       delivery: {
         profile: deliveryProfile,
         completeRows: publishRows,
-        publishedFileCount: extensionFiles.length,
+        publishedFileCount: extensionFiles.length + upstreamOnlyFiles.length,
         canonicalFileCount: canonicalExtensionFiles.length,
       },
     }
   })
-  const runtimeExtensionFileCount = runtimeExtensions.reduce((sum, extension) => sum + extension.files.length, 0)
+  const runtimeExtensionFileCount = runtimeExtensions.reduce((sum, extension) => sum + extension.files.length + (extension.upstreamOnlyFiles?.length ?? 0), 0)
   const canonicalExtensionFileCount = runtimeExtensions.reduce((sum, extension) => sum + extension.delivery.canonicalFileCount, 0)
   if (runtimeExtensions.length !== (sourcePackDescriptor.extensionCount ?? 0)
     || canonicalExtensionFileCount !== (sourcePackDescriptor.extensionFileCount ?? 0)) {
@@ -1420,7 +1424,7 @@ for (const sourcePackDescriptor of catalogueResourcePacksSourceManifest.packs) {
     for (const file of runtimeFiles) {
       zipEntries[basename(file.url)] = new Uint8Array(readFileSync(join(outputRoot, file.url)))
     }
-    for (const file of runtimeExtensions.flatMap((extension) => extension.files)) {
+    for (const file of runtimeExtensions.flatMap((extension) => [...extension.files, ...(extension.upstreamOnlyFiles ?? [])])) {
       zipEntries[basename(file.url)] = new Uint8Array(readFileSync(join(outputRoot, file.url)))
     }
     write(`downloads/${sourcePack.packageId}-${sourceManifest.datasetVersion}.zip`, deterministicZip(zipEntries, { level: 0 }))

@@ -7,10 +7,12 @@ import { join } from 'node:path'
 import { fileURLToPath } from 'node:url'
 
 const root = fileURLToPath(new URL('../', import.meta.url))
-const cases = [['molluscs-brachiopods', 'worms-mollusca', 154718], ['sponges-cnidarians', 'worms-porifera', 9899], ['sponges-cnidarians', 'worms-cnidaria', 20622]]
+const cases = [['molluscs-brachiopods', 'worms-mollusca', 154718], ['sponges-cnidarians', 'worms-porifera', 9899], ['sponges-cnidarians', 'worms-cnidaria', 20622], ['other-animals', 'worms-annelida', 18982]]
 describe('WoRMS archive sidecars', () => {
   for (const [pkg, prefix, total] of cases) it(`${prefix} has verified arrays and ranges`, () => {
-    const dir = join(root, 'data/packages/invertebrata', pkg, 'nomenclature')
+    const dir = pkg === 'other-animals'
+      ? join(root, 'data/catalogue-of-life/releases/2026-08-20/resource-packs', pkg)
+      : join(root, 'data/packages/invertebrata', pkg, 'nomenclature')
     const descriptor = JSON.parse(readFileSync(join(dir, `${prefix}-sidecar.json`)))
     expect(descriptor.counts.total).toBe(total)
     expect(descriptor.rowEncoding).toBe('json')

@@ -1,5 +1,12 @@
 # Dataset changelog
 
+## App 0.20.58 / 2026.09-static-v5-rc107 — 2026-09-04
+
+- Added a separate WoRMS Annelida archive projection for all 18,982 strict accepted COL species in that scope, with explicit matching outcomes and a distinct source-only accepted partition. The existing COL and ITIS records remain separate and unchanged.
+- Kept Other Animals' mixed-package boundary explicit: the remaining 80,179 COL species are outside this source scope. Source-only names do not become extra COL species or a claimed deduplicated union of all authorities.
+- Pages exposes summary metadata without the new row shards; Android and iOS build `61` retain the complete native-full inventory and on-demand independent-source lookup. Detailed source controls remain collapsed by default.
+- See [source provenance and interpretation](../docs/worms-annelida-archive.md). No fossil content, rich-profile maturity or human-review status is promoted.
+
 ## App 0.20.57 / 2026.09-static-v5-rc106 — 2026-09-04
 
 - Fixed Android packaging: the Android Gradle Plugin asset merger stripped `.gz` extensions and decompressed scientific files, breaking the shared client's release URLs. A supported merged-assets transform now preserves Capacitor's synced public tree byte-for-byte before APK/AAB packaging; non-public plugin assets remain merged normally.
