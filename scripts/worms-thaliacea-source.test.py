@@ -7,6 +7,12 @@ mod = importlib.util.module_from_spec(spec); spec.loader.exec_module(mod)
 
 
 class ThaliaceaProjectionTests(unittest.TestCase):
+    def test_thaliacea_document_is_utf8_without_mojibake(self):
+        raw = (ROOT / 'docs/thaliacea-1185-archive.md').read_bytes()
+        text = raw.decode('utf-8')
+        self.assertNotIn(bytes((0xc3, 0xa2)), raw)
+        self.assertNotIn('\ufffd', text)
+
     def test_real_offline_rebuild_is_deterministic_and_preserves_scope_counts(self):
         canonical_ledger = ROOT / 'data/sources/worms-thaliacea-archive-1185-import-ledger.json'
         ledger_before = canonical_ledger.read_bytes()
