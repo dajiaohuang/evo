@@ -1,7 +1,7 @@
 # WoRMS Thaliacea archive projection (1185)
 
-This source-specific projection freezes ChecklistBank dataset 1185, “World
-List of Thaliacea”, version 2026-09-01, version DOI `10.48580/d3fw.v87`.
+This source-specific projection freezes ChecklistBank dataset 1185, "World
+List of Thaliacea", version 2026-09-01, version DOI `10.48580/d3fw.v87`.
 The committed official `/archive` bytes are 59,152 with SHA-256
 `75b42f6c9ec693068ccaf2c28bdc34ec28a786692b633f6226c311d3d348835a`.
 The source metadata records the licence as `cc by`, the archive locator as
