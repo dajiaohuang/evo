@@ -70,6 +70,8 @@ def source_record(taxon: dict[str, str], name: dict[str, str],
         "extinct": taxon.get("extinct"), "parentId": taxon.get("parentID"),
         "referenceIds": ref_ids,
         "references": [references[rid][1] for rid in ref_ids if rid in references],
+        "referenceRows": [{"member": "Reference.txt", "row": references[rid][0], "referenceID": rid}
+                          for rid in ref_ids if rid in references],
         "referenceMissing": [rid for rid in ref_ids if rid not in references],
         "nameReferenceRows": [{"member": "NameReference.txt", "row": ordinal, **row}
                                for ordinal, row in name_refs.get(name["ID"], [])],
@@ -141,7 +143,14 @@ def read_col() -> tuple[list[dict[str, str]], dict[str, object]]:
     manifest_path = REGISTRY / "manifest.json"
     manifest_bytes = manifest_path.read_bytes()
     manifest = json.loads(manifest_bytes)
-    paths = [REGISTRY / item["path"] for item in manifest["hierarchy"]["nodes"]["files"]]
+    node_inputs = []
+    paths = []
+    for item in manifest["hierarchy"]["nodes"]["files"]:
+        path = REGISTRY / item["path"]
+        payload = path.read_bytes()
+        node_inputs.append({"path": f"data/catalogue-of-life/releases/2026-08-20/registry/{item['path']}",
+                            "bytes": len(payload), "sha256": digest(payload)})
+        paths.append(path)
     parents: dict[str, str | None] = {}
     for path in paths:
         with gzip.open(path, "rt", encoding="utf-8") as stream:
@@ -165,8 +174,9 @@ def read_col() -> tuple[list[dict[str, str]], dict[str, object]]:
                                  "colAuthorship": row.get("authorship")})
     if len(rows) != COL_EXPECTED:
         raise ValueError(f"expected {COL_EXPECTED} canonical COL Bryozoa rows, got {len(rows)}")
-    return rows, {"path": str(manifest_path.relative_to(ROOT)).replace("\\", "/"),
-                  "bytes": len(manifest_bytes), "sha256": digest(manifest_bytes)}
+    return rows, {"manifest": {"path": str(manifest_path.relative_to(ROOT)).replace("\\", "/"),
+                                "bytes": len(manifest_bytes), "sha256": digest(manifest_bytes)},
+                  "nodeShards": node_inputs}
 
 
 def gzip_bytes(raw: bytes) -> bytes:
@@ -231,6 +241,7 @@ def main() -> None:
         candidates = accepted_by_key.get(key, [])
         status = "accepted" if len(candidates) == 1 else "ambiguous" if candidates else "unmatched"
         matched = candidates[0] if len(candidates) == 1 else None
+        matched_name = matched
         source_rows = []
         if matched:
             implicated.add(matched["id"])
@@ -240,17 +251,26 @@ def main() -> None:
             targets = {entry["target"]["id"] for entry in redirects}
             if len(targets) == 1:
                 status = "redirect"
-                matched = next(entry["target"] for entry in redirects)
+                redirect = next(entry for entry in redirects if entry["target"]["id"] in targets)
+                matched = redirect["target"]
+                matched_name = {"id": redirect["name"]["ID"], "nameId": redirect["name"]["ID"],
+                                "scientificName": redirect["name"].get("scientificName"),
+                                "authorship": redirect["name"].get("authorship"),
+                                "rank": redirect["name"].get("rank"), "status": "synonym",
+                                "nameStatus": redirect["name"].get("status"),
+                                "sourceRows": [{"member": "Synonym.txt", "row": redirect["relationOrdinal"]},
+                                               {"member": "Name.txt", "row": redirect["nameOrdinal"]}]}
                 implicated.add(matched["id"])
                 source_rows = [{"member": "Synonym.txt", "row": entry["relationOrdinal"]} for entry in redirects]
                 source_rows += matched["sourceRows"]
             elif len(targets) > 1:
                 status = "ambiguous"
+                candidates = [entry["target"] for entry in redirects]
         counts[status] += 1
         records.append({
             "colId": col["colId"], "colScientificName": col.get("colScientificName"),
             "colAuthorship": col.get("colAuthorship"), "status": status,
-            "matchedName": matched, "acceptedName": matched if status in {"accepted", "redirect"} else None,
+            "matchedName": matched_name, "acceptedName": matched if status in {"accepted", "redirect"} else None,
             "candidates": candidates if status == "ambiguous" else [],
             "mappingBasis": "Exact scientificName+authorship; explicit ColDP synonym target may redirect.",
             "sourceRows": sorted(source_rows, key=lambda row: (row["member"], row["row"])),
@@ -291,6 +311,7 @@ def main() -> None:
         "schemaVersion": 1, "recordType": "release-pinned-authority-archive-crosswalk",
         "id": "worms-bryozoa-archive-crosswalk", "packageId": "other-animals",
         "provider": "World Register of Marine Species via ChecklistBank", "rowEncoding": "json",
+        "role": "authority-crosswalk", "encoding": "gzip", "mediaType": "application/json",
         "colIdField": "colId", "totalCountField": "total",
         "source": {**ledger["source"], "sourceLedgerPath": "data/sources/worms-bryozoa-1081-import-ledger.json"},
         "scope": {"colRootUsageId": COL_ROOT, "scientificName": "Bryozoa",
@@ -300,6 +321,19 @@ def main() -> None:
                      "prohibited": "No fuzzy, case-folded, accent-folded, inferred or concept matching."},
         "counts": {"total": len(records), **counts, "upstreamOnly": len(upstream)},
         "files": shard_info["files"], "upstreamOnlyFiles": shard_info["upstreamOnlyFiles"],
+        "totals": {"records": len(records), "sourceOnlyRecords": len(upstream),
+                   "compressedBytes": sum(item["bytes"] for item in shard_info["files"]),
+                   "sourceCompressedBytes": sum(item["bytes"] for item in shard_info["upstreamOnlyFiles"]),
+                   "sourceBytes": sum(item["sourceBytes"] for item in shard_info["files"]),
+                   "sourceOnlySourceBytes": sum(item["sourceBytes"] for item in shard_info["upstreamOnlyFiles"])},
+        "deliveryProfiles": {
+            "web-light": {"payload": "summary-only", "files": [], "records": 0,
+                          "totalCompressedBytes": 0, "totalSourceBytes": 0},
+            "native-full": {"payload": "complete",
+                            "files": [item["path"] for item in shard_info["files"] + shard_info["upstreamOnlyFiles"]],
+                            "records": len(records) + len(upstream),
+                            "totalCompressedBytes": sum(item["bytes"] for item in shard_info["files"] + shard_info["upstreamOnlyFiles"]),
+                            "totalSourceBytes": sum(item["sourceBytes"] for item in shard_info["files"] + shard_info["upstreamOnlyFiles"])}},
         "evidenceBoundary": {"en": "Frozen exact WoRMS nomenclatural crosswalk; not species-concept equivalence, global richness, fossil evidence or expert review.",
                              "zh": "冻结的WoRMS严格命名交叉映射；不是物种概念等同性、全球丰富度、化石证据或专家审查。"},
         "limitations": ["The 2026-09-01 WoRMS archive is not the COL26.8 source snapshot.",
