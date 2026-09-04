@@ -36,7 +36,11 @@
         "bytes": 967,
         "sha256": "d8d13ca443a1e0abc768bd2da3531a04efd31b8620aa0121eb44b90c8050b5d2"
       }
-    }
+    },
+    "relationEvidencePath": "data/sources/cilcat-1113-source-relations-2026-09-04.json",
+    "relationEvidenceBytes": 10472,
+    "relationEvidenceSha256": "bed5dba0300ba76a49c605c2b819c4b549b82265d777f783ab2f6146409e202f",
+    "relationCount": 28
   },
   "scope": {
     "colSourceDatasetId": "1113",
@@ -45,7 +49,7 @@
     "projectedSpecies": 8505,
     "sourceAcceptedSpecies": 8532,
     "sourceProvisionalSpecies": 81,
-    "sourceOnlyAccepted": 55,
+    "sourceOnlyAccepted": 27,
     "excludedSourceProvisional": 81,
     "matchingKey": "official sourceDatasetId=1113 plus exact full source display-name or exact separated scientific-name+authorship match; non-empty authorship conflicts remain unresolved"
   },
@@ -55,22 +59,22 @@
   },
   "counts": {
     "total": 8505,
-    "accepted": 8477,
+    "accepted": 8505,
     "redirect": 0,
     "ambiguous": 0,
-    "unmatched": 28,
+    "unmatched": 0,
     "withheld": 0,
-    "upstreamOnly": 55,
-    "records": 8560
+    "upstreamOnly": 27,
+    "records": 8532
   },
   "files": [
     {
       "path": "protists-chromists/cilcat-000.json.gz",
       "records": 8505,
-      "bytes": 741236,
-      "sha256": "580ec4ec9cc4e88a0f09a0ae0f65ae2cf0a7581c208e7d1fc41abf492228f6f8",
-      "sourceBytes": 8914220,
-      "sourceSha256": "9156962ea1a520c2fbb47abd14040fe7a2fe4da127b126a9bf7ae56123fe405a",
+      "bytes": 747977,
+      "sha256": "a42b6d04efcc2bb3a62d5ff44eeefaefba7f11ba1a3615753eab6830940c2b48",
+      "sourceBytes": 8944233,
+      "sourceSha256": "00d000b8f84577fc6e1f025925c8d5ed226c730a7dc84c9701cd57077016a523",
       "minColId": "3245V",
       "maxColId": "ZYHS",
       "encoding": "gzip",
@@ -81,11 +85,11 @@
   "upstreamOnlyFiles": [
     {
       "path": "protists-chromists/cilcat-upstream-only-000.json.gz",
-      "records": 55,
-      "bytes": 5750,
-      "sha256": "df1e145842a69c2e51b95665337e5a228265845a66884e1023ffd2ff15f5db03",
-      "sourceBytes": 46587,
-      "sourceSha256": "228cb2bb7c42eaade4b8ff8088fce4d7f4cfab7d779e8bdb69ecdcd9fdaa5c23",
+      "records": 27,
+      "bytes": 2733,
+      "sha256": "c4dd0c8cb7a1ba0bc61a7b52ff9d810210480c3a92ad636a2602d7095e3904fc",
+      "sourceBytes": 20268,
+      "sourceSha256": "04b5d9056b043a947ab5f4ccee8481f0cfc45128f6efca83c9fd0e64aa5e19ac",
       "minColId": null,
       "maxColId": null,
       "encoding": "gzip",
@@ -98,12 +102,12 @@
     "zh": "冻结的 CilCat 来源追溯，不是独立科学佐证、物种概念等同、生物档案、化石证据或专家审查。"
   },
   "limitations": [
-    "Only the 8,505 strict accepted COL source-1113 species are projected; 27 additional accepted archive rows remain in a separate upstream-only partition and 81 provisional rows are excluded.",
+    "The 8,505 COL source-1113 species comprise 8,477 strict name+authorship matches and 28 accepted rows resolved only by their frozen official COL source relation; 27 additional accepted archive rows remain in a separate upstream-only partition and 81 provisional rows are excluded.",
     "The archive's nomenclatural/taxonomic references support source name provenance only; they do not constitute biological dossiers.",
     "34 TaxAccRef links point to ReferenceID 95, which is absent from References.tsv; those links retain their NameReferences locator and explicit referenceMissing=true."
   ],
-  "totalCompressedBytes": 746986,
-  "totalSourceBytes": 8960807,
+  "totalCompressedBytes": 750710,
+  "totalSourceBytes": 8964501,
   "deliveryProfiles": {
     "web-light": {
       "payload": "summary-only",
@@ -118,9 +122,9 @@
         "protists-chromists/cilcat-000.json.gz",
         "protists-chromists/cilcat-upstream-only-000.json.gz"
       ],
-      "records": 8560,
-      "totalCompressedBytes": 746986,
-      "totalSourceBytes": 8960807
+      "records": 8532,
+      "totalCompressedBytes": 750710,
+      "totalSourceBytes": 8964501
     }
   }
 }
