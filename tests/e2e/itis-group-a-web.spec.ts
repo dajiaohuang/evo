@@ -7,9 +7,9 @@ test.beforeEach(async ({ page }) => {
   })
 })
 
-for (const [id, title] of [
-  ['3FFQ3', 'Crocodylia'], ['35JV8', 'Perissodactyla'], ['342N9', 'Cetartiodactyla'],
-  ['34B7X', 'Primates'], ['322FY', 'Crustacea'],
+for (const [id, title, total] of [
+  ['3FFQ3', 'Crocodylia', 27], ['35JV8', 'Perissodactyla', 19], ['342N9', 'Cetartiodactyla', 503],
+  ['34B7X', 'Primates', 530], ['322FY', 'Crustacea', 80890],
 ] as const) {
   test(`Web ${title} shows the ITIS summary without a row fetch`, async ({ page }) => {
     const rowRequests: string[] = []
@@ -22,7 +22,8 @@ for (const [id, title] of [
     await expect(details).not.toHaveAttribute('open')
     await expect.poll(() => rowRequests.length).toBe(0)
     await details.locator('summary').click()
-    await expect(details).toContainText('A name crosswalk, not an extantness audit.')
+    await expect(details).toContainText('Web provides the summary only; row-level mappings ship with the complete Android and iOS data profile.')
+    await expect(details.locator('dd').first()).toHaveText(total.toLocaleString('en-US'))
     expect(rowRequests).toEqual([])
   })
 }

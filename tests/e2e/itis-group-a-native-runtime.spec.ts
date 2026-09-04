@@ -8,11 +8,11 @@ test.beforeEach(async ({ page }) => {
 })
 
 for (const [id, title, name, tsn, shard] of [
-  ['3FFQ3', 'Crocodylia', 'Gavialis gangeticus', '202218', 'itis-crocodylia-sidecar-'],
-  ['35JV8', 'Perissodactyla', 'Dicerorhinus sumatrensis', '625002', 'itis-perissodactyla-sidecar-'],
-  ['342N9', 'Cetartiodactyla', 'Dama dama', '552472', 'itis-cetartiodactyla-sidecar-'],
-  ['34B7X', 'Primates', 'Daubentonia madagascariensis', '572886', 'itis-primates-sidecar-'],
-  ['322FY', 'Crustacea', 'Cryptosoma bairdii', '621742', 'itis-crustacea-sidecar-'],
+  ['3FFQ3', 'Crocodylia', 'Gavialis gangeticus', '202218', 'itis-tsn-sidecar-'],
+  ['35JV8', 'Perissodactyla', 'Dicerorhinus sumatrensis', '625002', 'itis-tsn-sidecar-'],
+  ['342N9', 'Cetartiodactyla', 'Dama dama', '552472', 'itis-tsn-sidecar-'],
+  ['34B7X', 'Primates', 'Daubentonia madagascariensis', '572886', 'itis-tsn-sidecar-'],
+  ['322FY', 'Crustacea', 'Cryptosoma bairdii', '621742', 'itis-tsn-sidecar-'],
 ] as const) {
   test(`native ${title} loads one exact ITIS shard and evidence`, async ({ page }) => {
     const requests: string[] = []
