@@ -20,14 +20,26 @@ class RotiferaSourceTest(unittest.TestCase):
             self.assertEqual(left, right)
             pack = outs[0] / 'data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals'
             descriptor = json.loads((pack / 'worms-rotifera-sidecar.json').read_text(encoding='utf8'))
-            self.assertEqual(descriptor['counts'], {'total': 2467, 'accepted': 2467, 'redirect': 0, 'ambiguous': 0, 'unmatched': 0, 'withheld': 0, 'upstreamOnly': 0})
+            self.assertEqual(descriptor['counts'], {'total': 2467, 'accepted': 2467, 'redirect': 0, 'ambiguous': 0, 'unmatched': 0, 'withheld': 0, 'upstreamOnly': 0, 'records': 2467})
+            self.assertEqual(descriptor['scope']['sourceDatasetId'], 298081)
+            self.assertEqual(descriptor['deliveryProfiles']['web-light'], {'mode': 'summary-only', 'records': 0, 'files': [], 'totalCompressedBytes': 0, 'totalSourceBytes': 0})
+            native = descriptor['deliveryProfiles']['native-full']
+            self.assertEqual(native['mode'], 'complete'); self.assertEqual(native['records'], 2467); self.assertEqual(native['files'], [f['path'] for f in descriptor['files']])
+            self.assertEqual(native['totalCompressedBytes'], sum(f['bytes'] for f in descriptor['files']))
+            self.assertEqual(native['totalSourceBytes'], sum(f['sourceBytes'] for f in descriptor['files']))
+            for f in descriptor['files']:
+                self.assertLessEqual(f['bytes'], 2 * 1024 * 1024); self.assertEqual(f['encoding'], 'gzip'); self.assertEqual(f['role'], 'col-partition'); self.assertTrue(f['minColId'] <= f['maxColId'])
             rows = json.loads(gzip.open(pack / 'worms-rotifera-000.json.gz', 'rt', encoding='utf8').read())
             with zipfile.ZipFile(SOURCE_DIR / 'checklistbank-298081-rotifera-2026-09-05.zip') as archive:
                 source = list(csv.DictReader(archive.read('NameUsage.tsv').decode('utf-8-sig').splitlines(), delimiter='\t'))
-            expected = [(r['ID'], r['scientificName'], r['authorship']) for r in source if r['rank'] == 'species' and r['status'] == 'valid']
-            actual = [(r['matchedName']['id'], r['matchedName']['scientificName'], r['matchedName']['authorship']) for r in rows]
-            self.assertEqual(sorted(actual), sorted(expected))
-            self.assertEqual({r['sourceRows'][0]['row'] for r in rows}, {i + 2 for i, r in enumerate(source) if r['rank'] == 'species' and r['status'] == 'valid'})
+            expected = {i + 2: (r['ID'], r['scientificName'], r['authorship']) for i, r in enumerate(source) if r['rank'] == 'species' and r['status'] == 'valid'}
+            for row in rows:
+                locator = next(x['row'] for x in row['sourceRows'] if x['member'] == 'NameUsage.tsv')
+                self.assertEqual((row['matchedName']['id'], row['matchedName']['scientificName'], row['matchedName']['authorship']), expected[locator])
+            self.assertEqual(set(expected), {next(x['row'] for x in r['sourceRows'] if x['member'] == 'NameUsage.tsv') for r in rows})
+            ledger = json.loads((outs[0] / 'data/sources/rotifera-298081-import-ledger.json').read_text(encoding='utf8'))
+            self.assertEqual(ledger['generatedBy']['scriptSha256'], hashlib.sha256(SCRIPT.read_bytes()).hexdigest())
+            self.assertEqual(ledger['outputs']['descriptor']['sha256'], hashlib.sha256((pack / 'worms-rotifera-sidecar.json').read_bytes()).hexdigest())
             self.assertEqual(before, {p.name: p.read_bytes() for p in [*canonical.glob('worms-rotifera-*'), ROOT / 'data/sources/rotifera-298081-import-ledger.json']})
 
 if __name__ == '__main__': unittest.main()
