@@ -15,8 +15,14 @@ class NematomorphaTest(unittest.TestCase):
    pack=outs[0]/'data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals';d=json.loads((pack/'worms-nematomorpha-sidecar.json').read_text(encoding='utf8'));self.assertEqual(d['counts'],{'total':356,'accepted':356,'redirect':0,'ambiguous':0,'unmatched':0,'withheld':0,'upstreamOnly':0,'records':356});self.assertEqual(d['deliveryProfiles']['web-light']['mode'],'summary-only');self.assertEqual(d['deliveryProfiles']['native-full']['records'],356)
    rows=sum([json.load(gzip.open(pack/f'worms-nematomorpha-{i:03d}.json.gz','rt',encoding='utf8')) for i in range(len(d['files']))],[])
    import tarfile
-   with tarfile.open(fileobj=gzip.open(ARCH,'rb'),mode='r:') as tar: src=list(csv.DictReader(tar.extractfile('AcceptedSpecies.tsv').read().decode('utf-8-sig').splitlines(),delimiter='\t'))
+   with tarfile.open(fileobj=gzip.open(ARCH,'rb'),mode='r:') as tar:
+    src=list(csv.DictReader(tar.extractfile('AcceptedSpecies.tsv').read().decode('utf-8-sig').splitlines(),delimiter='\t')); self.assertEqual(list(csv.DictReader(tar.extractfile('References.tsv').read().decode('utf-8-sig').splitlines(),delimiter='\t')),[]); self.assertEqual(list(csv.DictReader(tar.extractfile('NameReferences.tsv').read().decode('utf-8-sig').splitlines(),delimiter='\t')),[])
    expected={i+2:(r['AcceptedTaxonID'], ' '.join(x for x in [r['Genus'],r['SubGenusName'] and '('+r['SubGenusName']+')',r['SpeciesEpithet']] if x),r['AuthorString']) for i,r in enumerate(src)}
+   projected=set()
    for r in rows:
     loc=next(x['row'] for x in r['sourceRows'] if x['member']=='AcceptedSpecies.tsv');self.assertEqual((r['acceptedName']['id'],r['acceptedName']['scientificName'],r['acceptedName']['authorship']),expected[loc]);self.assertEqual(r['acceptedName']['raw']['AcceptedTaxonID'],expected[loc][0])
+    projected.add(r['acceptedName']['id'])
+   self.assertEqual(projected,{r['AcceptedTaxonID'] for r in src})
+   ledger=json.loads((outs[0]/'data/sources/worms-nematomorpha-archive-1119-import-ledger.json').read_text(encoding='utf8')); self.assertEqual(ledger['scopeAudit']['referenceRows'],0); self.assertEqual(ledger['scopeAudit']['nameReferenceRows'],0)
+  self.assertEqual(before,{p.name:p.read_bytes() for p in [*canon.glob('worms-nematomorpha-*'),ROOT/'data/sources/worms-nematomorpha-archive-1119-import-ledger.json']})
 if __name__=='__main__':unittest.main()
