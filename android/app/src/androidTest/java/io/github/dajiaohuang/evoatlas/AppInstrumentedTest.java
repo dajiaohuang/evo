@@ -241,7 +241,7 @@ public class AppInstrumentedTest {
                         "7eeea9a62f0a51150f643c6f14d02511f8ab042b8264e64bbb0ec505520a5ac8",
                         "bf90e217fa6871bb1e59807b721ed88403c47e9aa2712a782ef40146b906fdf2"}
                         : new String[]{"90383cc2bf44dc092b59c7ed131169317a0a613699aa6485c6f3e9b74decfa3c"};
-                assertEquals(expectedIds.length + (packageId.equals("crustaceans-insects") ? 1 : 0), collections.length());
+                assertEquals(expectedIds.length + (packageId.equals("crustaceans-insects") ? 2 : 0), collections.length());
                 for (int index = 0; index < expectedIds.length; index += 1) {
                     JSONObject collection = findCollection(collections, expectedIds[index]);
                     assertNotNull(packageId + " ITIS collection missing: " + expectedIds[index], collection);
