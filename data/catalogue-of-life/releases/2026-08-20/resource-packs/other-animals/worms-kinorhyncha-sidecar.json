@@ -1,0 +1,153 @@
+{
+  "schemaVersion": 1,
+  "recordType": "release-pinned-authority-archive-crosswalk",
+  "id": "worms-kinorhyncha-archive-crosswalk",
+  "packageId": "other-animals",
+  "provider": "World Register of Marine Species via ChecklistBank",
+  "rowEncoding": "json",
+  "encoding": "gzip",
+  "mediaType": "application/json",
+  "role": "authority-crosswalk",
+  "colIdField": "colId",
+  "totalCountField": "total",
+  "source": {
+    "datasetId": "1153",
+    "title": "World Kinorhyncha Database",
+    "version": "2026-09-01",
+    "versionDoi": "10.48580/d3ds.v86",
+    "metadataPath": "data/sources/archives/checklistbank-1153-kinorhyncha-2026-09-01.metadata.json",
+    "metadataBytes": 2968,
+    "metadataSha256": "32a6f94031e3c87349fceaf49847c839ad1c084883958bec9d2dd32abb16da59",
+    "license": "CC-BY-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "archiveUrl": "https://api.checklistbank.org/dataset/1153/archive",
+    "archivePath": "data/sources/archives/checklistbank-1153-kinorhyncha-2026-09-01.zip",
+    "archiveBytes": 318152,
+    "archiveSha256": "c1bcb2e24081c67db0f2a3c879642ff0d4f10bed75d606111f6c5e44cfd3d470",
+    "members": {
+      "metadata.yml": {
+        "bytes": 2155,
+        "sha256": "d884bd54421cb209ffb931eff5974aa6c9ce9060a5a93e74668fa768ae41271a"
+      },
+      "TypeMaterial.txt": {
+        "bytes": 1120363,
+        "sha256": "4d6d0de42ef283f52177d424fd71c362da77c2a547f8c3f1e3d327d731362519"
+      },
+      "Name.txt": {
+        "bytes": 193787,
+        "sha256": "3bf9ebe9689fb2af82ebf842525508dd9fc96176f468d7a7b7dbb4ba40b28f8a"
+      },
+      "NameRelation.txt": {
+        "bytes": 70896,
+        "sha256": "2374fa8ed35482fde61fa900f3d887113249f544da255780639caca97516a6e3"
+      },
+      "Taxon.txt": {
+        "bytes": 161880,
+        "sha256": "4f6ce8df0ec1be52fdad64cb592ccc6d6aa339a5f9e8d961b13af6baa4696db1"
+      },
+      "Synonym.txt": {
+        "bytes": 60325,
+        "sha256": "bec399d6afd17f2f52bbb718404307b2f47e67b0afd44d60e4e85515678ca8dc"
+      },
+      "SpeciesEstimate.txt": {
+        "bytes": 180,
+        "sha256": "0ee11a9793d7afbf7abc07c2e533adcb30d8fda25f1498511b7907804feb5cc9"
+      },
+      "Reference.txt": {
+        "bytes": 228781,
+        "sha256": "4df0ad137495f0ce526305704c9160fb3a57c63a1f0e1f3bdea7aa57a02f0264"
+      },
+      "NameReference.txt": {
+        "bytes": 1182752,
+        "sha256": "ba1c2f6665b9e8c4564931c79fec75b2dc4f3ed9fca2bb5870ba7d9040165af3"
+      },
+      "Distribution.txt": {
+        "bytes": 14813,
+        "sha256": "c6c657ad2cc7ccd73c50429899edc351c1fc5b6917d946451d1b2b3895c8e684"
+      },
+      "Media.txt": {
+        "bytes": 3448,
+        "sha256": "9c2d5387b2703cc83bbc4d2e8755bcb1dc9282ee4c2b53816a83a044b5d755ba"
+      },
+      "VernacularName.txt": {
+        "bytes": 1208,
+        "sha256": "2e0e80c16f9169d7c08a8b9f4141abc5acd3ae9a413d82d5a7ae123c95553c33"
+      }
+    }
+  },
+  "scope": {
+    "colRootUsageId": "B8VF5",
+    "eligibleColSpecies": 362,
+    "sourceAcceptedSpecies": 362,
+    "sourceSpeciesRankTaxa": 362,
+    "excludedSourceProvisional": 0,
+    "scientificName": "Kinorhyncha"
+  },
+  "matching": {
+    "normalization": "NFC and whitespace normalization only; COL trailing authorship removed exactly.",
+    "prohibited": "No fuzzy, case-folded, accent-folded, synonym or species-concept matching."
+  },
+  "counts": {
+    "total": 362,
+    "records": 362,
+    "accepted": 362,
+    "redirect": 0,
+    "ambiguous": 0,
+    "unmatched": 0,
+    "withheld": 0,
+    "upstreamOnly": 0
+  },
+  "files": [
+    {
+      "path": "other-animals/worms-kinorhyncha-000.json.gz",
+      "records": 362,
+      "bytes": 124825,
+      "sha256": "7f8a71ddbb9015a3d116f440656b8e6a78c371f68dec58c9a5fbc8c755ec35ee",
+      "sourceBytes": 1339874,
+      "sourceSha256": "f0543ff9374a9cfe6962e91aa38cc9b9a960e455fb0e7e9c35f02a332e2a076a",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "role": "col-partition",
+      "minColId": "37KDR",
+      "maxColId": "XKWH"
+    }
+  ],
+  "upstreamOnlyFiles": [
+    {
+      "path": "other-animals/worms-kinorhyncha-source-only-000.json.gz",
+      "records": 0,
+      "bytes": 23,
+      "sha256": "abc129be8d26e8d4afe9ce45f9d5a73c8ed9aa62810ca24ee789fe4581dc4a80",
+      "sourceBytes": 3,
+      "sourceSha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "role": "upstream-only"
+    }
+  ],
+  "totalCompressedBytes": 124848,
+  "totalSourceBytes": 1339877,
+  "deliveryProfiles": {
+    "web-light": {
+      "mode": "summary-only",
+      "records": 0,
+      "files": [],
+      "totalCompressedBytes": 0,
+      "totalSourceBytes": 0
+    },
+    "native-full": {
+      "mode": "complete",
+      "records": 362,
+      "files": [
+        "other-animals/worms-kinorhyncha-000.json.gz",
+        "other-animals/worms-kinorhyncha-source-only-000.json.gz"
+      ],
+      "totalCompressedBytes": 124848,
+      "totalSourceBytes": 1339877
+    }
+  },
+  "evidenceBoundary": {
+    "en": "Frozen exact nomenclatural crosswalk for source 1153 Kinorhyncha; not species-concept equivalence, a biological dossier, fossil evidence or expert review.",
+    "zh": "冻结的严格命名交叉映射；不是物种概念等同性、生物档案、化石证据或专家审查。"
+  }
+}
