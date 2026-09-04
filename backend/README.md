@@ -10,7 +10,7 @@ From the repository root:
 go -C backend run ./cmd/evo-api -data-root .. -addr :8787
 ```
 
-The server starts only after loading the current release, the core 403-entry registry, profiles, ranges, claims, references, package registry and COL26.8 manifest. Large COL hierarchy/name shards, map frames and payload files remain lazy.
+The server starts only after loading the current release, the core 403-entry registry, profiles, ranges, claims, references, package registry, catalogue manifest and the complete current COL hierarchy into a packed in-memory node/adjacency index. Search shards, map frames and payload files remain lazy.
 
 Useful endpoints:
 
@@ -41,7 +41,7 @@ The full offline profile is the native client data contract. Sync is stable-path
 The server can start using checksums already recorded in `data/manifest.json`. To create a complete hash-addressed index, including files whose digest is not in that generated map:
 
 ```powershell
-go -C backend run ./cmd/evo-index -data-root .. -out index/current.json
+go -C backend run ./cmd/evo-index -data-root .. -out index/current.json -tree-out index/catalogue-tree.bin
 ```
 
 The command walks the exact data tree, calculates SHA-256 with bounded memory, and replaces the output by atomic rename. The generated index is a delivery artifact, not a replacement for `data/manifest.json`.
@@ -49,7 +49,8 @@ The command walks the exact data tree, calculates SHA-256 with bounded memory, a
 ## Design and scientific boundaries
 
 - Atlas entity queries use the generated 403-entry registry and explicitly label represented descendant closure; this is navigation data, not a complete phylogeny.
-- COL26.8 accepted species, resolving usages, hierarchy and accepted targets are queried through committed prefix/routing manifests. Requests never decompress all 2.18 million accepted species.
+- The current catalogue release's accepted hierarchy is resident as packed node records plus contiguous parent-to-child adjacency. Direct-child pages are bounded and do not decompress or sort a child shard per request. Search, resolving usages and accepted-target fallback remain routed and lazy; requests never decompress all name rows.
+- `GET /v1/capabilities` exposes `treeIndex` and `treeRoots`. `treeIndex.releaseAlias` is the release selector for catalogue record links; clients do not need to read or interpret the raw catalogue manifest.
 - Evidence responses preserve source-bounded claim, range, reference and uncertainty records already present in `data/`.
 - Map responses expose nearest-frame selection metadata and preserve separate reconstructed geometry, observation and paleotopography resources. No interpolation is introduced.
 - A release reload constructs a new immutable snapshot and swaps it under a lock. The executable uses one startup snapshot; an embedding host can call `Store.Reload` for the same atomic replacement without serving a partially imported version.

@@ -123,6 +123,7 @@ type Snapshot struct {
 	PackageRegistry  json.RawMessage
 	PackagesByID     map[string]Package
 	Catalogue        CatalogueManifest
+	Taxonomy         *TaxonIndex
 	Files            map[string]FileInfo
 	FileOrder        []string
 	FilesMu          sync.RWMutex
@@ -130,11 +131,25 @@ type Snapshot struct {
 	ShardMu          sync.Mutex
 	ShardCache       map[string][]json.RawMessage
 	ShardCacheBytes  int64
+	ShardLoads       map[string]*shardLoad
 	SearchMu         sync.Mutex
 	SearchCache      map[string]SearchShard
 	SearchCacheBytes int64
+	SearchLoads      map[string]*searchLoad
 	MapMu            sync.Mutex
 	MapManifest      map[string]any
+}
+
+type shardLoad struct {
+	done   chan struct{}
+	values []json.RawMessage
+	err    error
+}
+
+type searchLoad struct {
+	done  chan struct{}
+	shard SearchShard
+	err   error
 }
 
 // Store keeps an immutable snapshot behind a small lock. Reload constructs a
@@ -196,7 +211,7 @@ func loadSnapshot(root string) (*Snapshot, error) {
 		Root: root, DataRoot: dataRoot, Manifest: manifest,
 		EntitiesByID: map[string]json.RawMessage{}, EntityMeta: map[string]Entity{}, EntitySearchText: map[string]string{}, ChildrenByID: map[string][]string{},
 		ProfilesByID: map[string]json.RawMessage{}, RangesByEntity: map[string][]json.RawMessage{}, ClaimsBySubject: map[string][]json.RawMessage{}, ClaimsByID: map[string]json.RawMessage{}, ReferencesByID: map[string]json.RawMessage{},
-		PackagesByID: map[string]Package{}, Files: map[string]FileInfo{}, ShardCache: map[string][]json.RawMessage{}, SearchCache: map[string]SearchShard{},
+		PackagesByID: map[string]Package{}, Files: map[string]FileInfo{}, ShardCache: map[string][]json.RawMessage{}, ShardLoads: map[string]*shardLoad{}, SearchCache: map[string]SearchShard{}, SearchLoads: map[string]*searchLoad{},
 	}
 	if err := loadEntities(s); err != nil {
 		return nil, err
@@ -219,6 +234,11 @@ func loadSnapshot(root string) (*Snapshot, error) {
 	if err := loadCatalogue(s); err != nil {
 		return nil, err
 	}
+	taxonomy, err := loadTaxonIndex(s)
+	if err != nil {
+		return nil, err
+	}
+	s.Taxonomy = taxonomy
 	if err := indexFiles(s); err != nil {
 		return nil, err
 	}
@@ -585,7 +605,36 @@ func (s *Snapshot) ReadShard(path string) ([]json.RawMessage, error) {
 		s.ShardMu.Unlock()
 		return values, nil
 	}
+	if load, ok := s.ShardLoads[path]; ok {
+		s.ShardMu.Unlock()
+		<-load.done
+		return load.values, load.err
+	}
+	load := &shardLoad{done: make(chan struct{})}
+	s.ShardLoads[path] = load
 	s.ShardMu.Unlock()
+
+	values, err := s.readShardFile(path)
+	s.ShardMu.Lock()
+	delete(s.ShardLoads, path)
+	load.values, load.err = values, err
+	if err == nil {
+		cost := shardCacheCost(values)
+		if cost <= maxShardCacheBytes {
+			if s.ShardCacheBytes+cost > maxShardCacheBytes {
+				s.ShardCache = map[string][]json.RawMessage{}
+				s.ShardCacheBytes = 0
+			}
+			s.ShardCache[path] = values
+			s.ShardCacheBytes += cost
+		}
+	}
+	close(load.done)
+	s.ShardMu.Unlock()
+	return values, err
+}
+
+func (s *Snapshot) readShardFile(path string) ([]json.RawMessage, error) {
 	fullPath := filepath.Join(s.Root, "data/catalogue-of-life/releases/2026-08-20/registry", filepath.FromSlash(path))
 	file, err := os.Open(fullPath)
 	if err != nil {
@@ -608,15 +657,15 @@ func (s *Snapshot) ReadShard(path string) ([]json.RawMessage, error) {
 		}
 		values = append(values, append(json.RawMessage(nil), value...))
 	}
-	s.ShardMu.Lock()
-	if s.ShardCacheBytes+int64(len(values)) > maxShardCacheBytes {
-		s.ShardCache = map[string][]json.RawMessage{}
-		s.ShardCacheBytes = 0
-	}
-	s.ShardCache[path] = values
-	s.ShardCacheBytes += int64(len(values))
-	s.ShardMu.Unlock()
 	return values, nil
+}
+
+func shardCacheCost(values []json.RawMessage) int64 {
+	cost := int64(len(values)) * 24
+	for _, value := range values {
+		cost += int64(len(value)) + int64(cap(value)-len(value))
+	}
+	return cost
 }
 
 func routePrefix(id string) string {
@@ -656,11 +705,51 @@ func (s *Snapshot) lookup(files []CatalogueFile, id, field string) (json.RawMess
 }
 
 func (s *Snapshot) CatalogueNode(id string) (json.RawMessage, error) {
+	if s.Taxonomy != nil {
+		if record, ok := s.Taxonomy.Record(id); ok {
+			return json.Marshal(record)
+		}
+	}
 	raw, err := s.lookup(s.Catalogue.Hierarchy.Nodes.Files, id, "id")
 	if err != nil || raw != nil {
 		return raw, err
 	}
 	return s.lookup(s.Catalogue.AcceptedTargets.Files, id, "id")
+}
+
+// CatalogueChildrenPage uses the resident packed hierarchy for current-tree
+// traversal. The raw-shard path remains only for accepted-target records that
+// are outside the hierarchy index.
+func (s *Snapshot) CatalogueChildrenPage(parentID string, offset, limit int) ([]json.RawMessage, int, bool, error) {
+	if s.Taxonomy != nil {
+		records, total, exists := s.Taxonomy.ChildrenPage(parentID, offset, limit)
+		if exists {
+			result := make([]json.RawMessage, 0, len(records))
+			for _, record := range records {
+				raw, err := json.Marshal(record)
+				if err != nil {
+					return nil, 0, false, err
+				}
+				result = append(result, raw)
+			}
+			return result, total, true, nil
+		}
+	}
+	items, err := s.CatalogueChildren(parentID)
+	if err != nil {
+		return nil, 0, false, err
+	}
+	if items == nil {
+		return nil, 0, false, nil
+	}
+	if offset > len(items) {
+		offset = len(items)
+	}
+	end := offset + limit
+	if end > len(items) {
+		end = len(items)
+	}
+	return items[offset:end], len(items), true, nil
 }
 
 func (s *Snapshot) CatalogueChildren(parentID string) ([]json.RawMessage, error) {
@@ -712,7 +801,6 @@ type CatalogueRecord struct {
 	AcceptedID      *string `json:"acceptedId"`
 	ParentID        *string `json:"parentId"`
 	SourceDatasetID *string `json:"sourceDatasetId"`
-	Classification  []any   `json:"classification"`
 }
 
 type SearchShard struct {
@@ -811,9 +899,22 @@ func (s *Snapshot) searchRecords(path string) (SearchShard, error) {
 		s.SearchMu.Unlock()
 		return shard, nil
 	}
+	if load, ok := s.SearchLoads[path]; ok {
+		s.SearchMu.Unlock()
+		<-load.done
+		return load.shard, load.err
+	}
+	load := &searchLoad{done: make(chan struct{})}
+	s.SearchLoads[path] = load
 	s.SearchMu.Unlock()
-	values, err := s.ReadShard(path)
+
+	values, err := s.readShardFile(path)
 	if err != nil {
+		s.SearchMu.Lock()
+		delete(s.SearchLoads, path)
+		load.err = err
+		close(load.done)
+		s.SearchMu.Unlock()
 		return SearchShard{}, err
 	}
 	records := make([]CatalogueRecord, 0, len(values))
@@ -828,14 +929,38 @@ func (s *Snapshot) searchRecords(path string) (SearchShard, error) {
 	}
 	shard := SearchShard{Records: records, Prefix3: prefix3}
 	s.SearchMu.Lock()
-	if s.SearchCacheBytes+int64(len(records))*160 > maxShardCacheBytes {
-		s.SearchCache = map[string]SearchShard{}
-		s.SearchCacheBytes = 0
+	delete(s.SearchLoads, path)
+	load.shard = shard
+	cost := searchShardCost(shard)
+	if cost <= maxShardCacheBytes {
+		if s.SearchCacheBytes+cost > maxShardCacheBytes {
+			s.SearchCache = map[string]SearchShard{}
+			s.SearchCacheBytes = 0
+		}
+		s.SearchCache[path] = shard
+		s.SearchCacheBytes += cost
 	}
-	s.SearchCache[path] = shard
-	s.SearchCacheBytes += int64(len(records)) * 160
+	close(load.done)
 	s.SearchMu.Unlock()
 	return shard, nil
+}
+
+func searchShardCost(shard SearchShard) int64 {
+	cost := int64(len(shard.Records)) * 128
+	for _, record := range shard.Records {
+		cost += int64(len(record.NormalizedName) + len(record.ID) + len(record.ScientificName) + lenPtr(record.Authorship) + len(record.Rank) + len(record.Status) + lenPtr(record.AcceptedID) + lenPtr(record.ParentID) + lenPtr(record.SourceDatasetID))
+	}
+	for key, values := range shard.Prefix3 {
+		cost += int64(len(key) + 16 + len(values)*24)
+	}
+	return cost
+}
+
+func lenPtr(value *string) int {
+	if value == nil {
+		return 0
+	}
+	return len(*value)
 }
 
 func firstRunes(value string, count int) string {
