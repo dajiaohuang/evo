@@ -176,7 +176,7 @@ for (const packageEntry of packageRegistry.packages) {
       id: 'itis-insecta-tsn-crosswalk', total: 941223, accepted: 176406, redirects: 2887, ambiguous: 692, unmatched: 761238, upstreamOnly: 27357, files: 100,
     })
     checkItisSummaryOnlyCollection('crustaceans-insects', nomenclatureCollections, {
-      id: 'itis-myriapoda-tsn-crosswalk', total: 14210, accepted: 3040, redirects: 0, ambiguous: 2, unmatched: 11168, upstreamOnly: 3445, files: 3,
+      id: 'itis-myriapoda-tsn-crosswalk', total: 17351, accepted: 5904, redirects: 58, ambiguous: 17, unmatched: 11372, upstreamOnly: 544, files: 4,
     })
     checkItisSummaryOnlyCollection('crustaceans-insects', nomenclatureCollections, {
       id: 'itis-collembola-protura-tsn-crosswalk', total: 9668, accepted: 2075, redirects: 25, ambiguous: 4, unmatched: 7564, upstreamOnly: 411, files: 3,
@@ -854,8 +854,9 @@ if (catalogue.resourcePacks?.packageCount !== 7
         'itis-katablepharidota-tsn-crosswalk': { eligible: 0, records: 0, accepted: 0, redirects: 0, ambiguous: 0, unmatched: 0, upstreamOnly: 0, nonApplicable: 61518, files: 0 },
         'itis-hemimastigophora-tsn-crosswalk': { eligible: 0, records: 0, accepted: 0, redirects: 0, ambiguous: 0, unmatched: 0, upstreamOnly: 0, nonApplicable: 61518, files: 0 },
       }
+      const radiozoa = extensions.find((candidate) => candidate.id === 'worms-radiozoa-archive-crosswalk')
       const canonicalItisFiles = Object.values(expectedItis).reduce((sum, counts) => sum + counts.files, 0)
-      if (extensions.length !== Object.keys(expectedItis).length + 1 || !foraminifera
+      if (extensions.length !== Object.keys(expectedItis).length + 2 || !foraminifera || !radiozoa
         || foraminifera.provider !== 'World Foraminifera Database (WoRMS) through ChecklistBank'
         || foraminifera.source?.license !== 'CC-BY-4.0'
         || foraminifera.source?.sourceDatasetKey !== 1157
@@ -866,9 +867,15 @@ if (catalogue.resourcePacks?.packageCount !== 7
         || foraminifera.files?.length !== 0 || foraminifera.delivery?.publishedFileCount !== 0
         || foraminifera.delivery?.canonicalFileCount !== 5
         || foraminifera.canonicalFileInventory?.length !== 5
-        || manifestFile.extensionFileCount !== 0 || manifestFile.canonicalExtensionFileCount !== canonicalItisFiles + 5
-        || foraminifera.canonicalFileInventory.some((file) => !file.path || file.sha256?.length !== 64 || file.sourceSha256?.length !== 64)) {
-        failures.push('protists-chromists: Pages must publish the complete Foraminifera authority summary and hashes without row shards')
+        || radiozoa.provider !== 'World Register of Marine Species via ChecklistBank'
+        || radiozoa.source?.license !== 'CC-BY-4.0' || radiozoa.counts?.total !== 444 || radiozoa.counts?.accepted !== 444
+        || radiozoa.counts?.upstreamOnly !== 54 || radiozoa.delivery?.profile !== 'web-light'
+        || radiozoa.delivery?.completeRows !== false || radiozoa.files?.length !== 0
+        || radiozoa.upstreamOnlyFiles?.length !== 0 || radiozoa.delivery?.publishedFileCount !== 0
+        || radiozoa.delivery?.canonicalFileCount !== 2 || radiozoa.canonicalFileInventory?.length !== 2
+        || manifestFile.extensionFileCount !== 0 || manifestFile.canonicalExtensionFileCount !== canonicalItisFiles + 7
+          || [...foraminifera.canonicalFileInventory, ...radiozoa.canonicalFileInventory].some((file) => !file.path || file.sha256?.length !== 64 || file.sourceSha256?.length !== 64)) {
+        failures.push('protists-chromists: Pages must publish the complete Foraminifera and Radiozoa authority summaries and hashes without row shards')
       }
       for (const [id, counts] of Object.entries(expectedItis)) {
         const authority = extensions.find((candidate) => candidate.id === id)

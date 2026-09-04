@@ -1,5 +1,12 @@
 # Dataset changelog
 
+## App 0.20.61 / 2026.09-static-v5-rc110 — 2026-09-04
+
+- Fixed the ITIS Myriapoda comparison boundary: COL places Chilopoda at a separate `93` root rather than under `L2G4H`. All 3,141 previously omitted COL records now have explicit outcomes: 2,864 accepted matches, 58 official synonym redirects, 15 ambiguous and 204 unmatched. The original 14,210 records remain unchanged.
+- Repartitioned the existing ITIS evidence without a new source download: Myriapoda now contains 17,351 COL outcomes and 544 source-only records in four shards. Ambiguous candidate targets remain evidence, not confirmed species-concept equivalence.
+- Added the frozen WoRMS Radiozoa projection for all 444 scoped COL records, with 54 separate source-only accepted concepts. Its two shards total 23,103 compressed bytes. COL's Polycystina source also derives from WoRMS, so this is not independent scientific corroboration.
+- Android and iOS build `64` include every resulting shard. Pages keeps lightweight summaries; a new collapsed Myriapoda disclosure exposes the existing lookup API for both Myriapoda and the separate Chilopoda lineage. See [arthropod scope and counts](../docs/itis-arthropods-authority.md) and [Radiozoa provenance](../docs/worms-radiozoa-archive.md). No biological dossiers, fossil coverage or human-review status are promoted.
+
 ## App 0.20.60 / 2026.09-static-v5-rc109 — 2026-09-04
 
 - Added independent frozen WoRMS name/status projections for all 19,604 scoped COL Nematoda species and 80,890 scoped Crustacea species. Exact accepted matches, explicit redirects, ambiguity, unmatched names and withheld mappings remain distinct.

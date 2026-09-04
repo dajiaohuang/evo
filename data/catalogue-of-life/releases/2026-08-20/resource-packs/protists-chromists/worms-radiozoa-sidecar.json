@@ -1,0 +1,95 @@
+{
+  "schemaVersion": 1,
+  "recordType": "release-pinned-authority-archive-crosswalk",
+  "id": "worms-radiozoa-archive-crosswalk",
+  "packageId": "protists-chromists",
+  "provider": "World Register of Marine Species via ChecklistBank",
+  "rowEncoding": "json",
+  "colIdField": "colId",
+  "totalCountField": "total",
+  "source": {
+    "provider": "World Register of Marine Species via ChecklistBank",
+    "license": "CC-BY-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "rightsHolder": "WoRMS Editorial Board",
+    "archiveUrl": "https://api.checklistbank.org/dataset/2011/archive",
+    "archiveBytes": 342751141,
+    "archiveSha256": "8419d301b08e1f119557ead2222d7efd8f01a3f3ca3b6c9ff1edd062bfa312c6",
+    "attempt": 148,
+    "version": "2026-09-01",
+    "versionDoi": "10.48580/d4fd.v148",
+    "retrievedAt": "2026-09-04T03:49:48.539Z",
+    "immutableUrlClaimed": false,
+    "members": {
+      "taxon.txt": {
+        "bytes": 1280833469,
+        "sha256": "965c04a301ac98eed017d37ba78ec541b6e530f76d75ac729f429991c8e584ee",
+        "rows": 1565652,
+        "rowConvention": "one-based logical TSV record ordinal including header; first data record is 2"
+      },
+      "meta.xml": {
+        "bytes": 6844,
+        "sha256": "1f9a6c73256ad4832e70146c35e2d75e885bb598edfcd0cee273c3a37fcf50a6"
+      },
+      "eml.xml": {
+        "bytes": 10948,
+        "sha256": "bb3504da29a78970d7bdee0289fa1e7b9ca568870c204af4eb307d228a0ae950"
+      }
+    },
+    "sourceLedgerPath": "data/sources/worms-radiozoa-archive-2011-import-ledger.json",
+    "sourceLedgerSha256": "0677d1322017a21afaa2bebaa0427545a46a02ab70a9fc46af55811b25e7cb17"
+  },
+  "scope": {
+    "colRootUsageId": "5X",
+    "wormsRootId": "582421",
+    "scientificName": "Radiozoa",
+    "eligibleColSpecies": 444,
+    "packageStrictAcceptedSpecies": 61518,
+    "excludedPackageRemainder": 61074
+  },
+  "matching": {
+    "normalization": "Remove only exact trailing COL space+authorship suffix, then normalize whitespace for comparison; preserve source fields unchanged.",
+    "redirect": "Explicit acceptedNameUsageID to accepted Species target inside the same source root; invalid or mixed targets withheld.",
+    "prohibited": "No fuzzy, case-folded, accent-folded, inferred or species-concept matching."
+  },
+  "counts": {
+    "total": 444,
+    "accepted": 444,
+    "redirect": 0,
+    "ambiguous": 0,
+    "unmatched": 0,
+    "withheld": 0,
+    "upstreamOnly": 54
+  },
+  "files": [
+    {
+      "path": "protists-chromists/worms-radiozoa-000.json.gz",
+      "records": 444,
+      "bytes": 21199,
+      "sha256": "cb6e5aaec2c4fdb71d491d1aa3deed6333fa7e6aa993a3fba12d37197228e505",
+      "sourceBytes": 342872,
+      "sourceSha256": "cd5c5e2f92f62f920d8cb3f5543f657912bdd8b105133cc9874e6e69549f012d",
+      "minColId": "328ST",
+      "maxColId": "YT4J"
+    }
+  ],
+  "upstreamOnlyFiles": [
+    {
+      "path": "protists-chromists/worms-radiozoa-upstream-only-000.json.gz",
+      "records": 54,
+      "bytes": 1904,
+      "sha256": "42ae8a92a2a4bb4c9323cb966080f52e2fb75eb198e4a965bbd2dd8215b266db",
+      "sourceBytes": 27437,
+      "sourceSha256": "84c9c0d3e48d52c77e9c328ead5bf659061ff90a1d4c762e13192a9ec39b867e"
+    }
+  ],
+  "evidenceBoundary": {
+    "en": "A frozen exact nomenclatural crosswalk; not species-concept equivalence, a biological dossier, fossil evidence or expert review.",
+    "zh": "冻结的严格命名交叉映射；不是物种概念等同性、生物档案、化石证据或专家审查。"
+  },
+  "limitations": [
+    "Source-only accepted concepts retain null COL ownership.",
+    "Only name/status/identifier projections are redistributed, not raw archives or ancillary members.",
+    "The parent-closure anomaly audit remains explicit; no completeness claim about all marine diversity."
+  ]
+}

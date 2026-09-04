@@ -70,6 +70,11 @@ class MatchingTests(unittest.TestCase):
             data = (directory / Path(files[0]['path']).name).read_bytes()
             self.assertEqual(data[9], 255)
 
+    def test_default_scope_is_unchanged_and_radiozoa_is_opt_in(self):
+        self.assertEqual(tuple(worms.LEGACY_SPECS), ('mollusca', 'porifera', 'cnidaria'))
+        self.assertEqual(worms.SPECS['radiozoa'][1:], ('5X', '582421', 'Radiozoa', 444))
+        self.assertEqual(worms.output_directory('radiozoa', 'protists-chromists').as_posix().split('/')[-2:], ['resource-packs', 'protists-chromists'])
+
 
 if __name__ == '__main__':
     unittest.main()

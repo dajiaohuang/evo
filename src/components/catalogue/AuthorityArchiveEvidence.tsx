@@ -9,6 +9,7 @@ const scopes: Array<{ root: string; packageId: string; id: AuthorityArchiveColle
   { root: 'NN', packageId: 'other-animals', id: 'worms-annelida-archive-crosswalk', title: 'WoRMS · Annelida' },
   { root: 'NM', packageId: 'other-animals', id: 'worms-nematoda-archive-crosswalk', title: 'WoRMS · Nematoda' },
   { root: 'KZX8B', packageId: 'crustaceans-insects', id: 'worms-crustacea-archive-crosswalk', title: 'WoRMS · Crustacea' },
+  { root: '5X', packageId: 'protists-chromists', id: 'worms-radiozoa-archive-crosswalk', title: 'WoRMS · Radiozoa' },
   { root: 'CJBKK', packageId: 'crustaceans-insects', id: 'osf-orthoptera-archive-crosswalk', title: 'OSF · Orthoptera' },
 ]
 
@@ -28,8 +29,8 @@ function SourceOnlyRecords({ collection, fileIndex, zh }: { collection: RuntimeA
       .catch(() => { if (!cancelled) setFailed(true) })
     return () => { cancelled = true }
   }, [collection, fileIndex])
-  if (failed) return <p role="alert">{zh ? '独立记录读取失败；收起后可重试。' : 'Independent records could not be loaded; close and reopen to retry.'}</p>
-  if (!records) return <p role="status">{zh ? '正在读取独立记录…' : 'Loading independent records…'}</p>
+  if (failed) return <p role="alert">{zh ? '单独记录读取失败；收起后可重试。' : 'Separate records could not be loaded; close and reopen to retry.'}</p>
+  if (!records) return <p role="status">{zh ? '正在读取单独记录…' : 'Loading separate records…'}</p>
   return <>
     <ul>{records.slice(0, visible).map((record, index) => {
       const name = record.acceptedName ?? record.matchedName
@@ -43,7 +44,7 @@ function SourceOnlyDisclosure({ collection, zh }: { collection: RuntimeAuthority
   const [expanded, setExpanded] = useState(false)
   const [fileIndex, setFileIndex] = useState(0)
   return <details onToggle={(event) => { if (event.target === event.currentTarget) setExpanded(event.currentTarget.open) }}>
-    <summary>{zh ? '浏览不属于 COL 对应关系的独立源记录' : 'Browse independent source-only records'}</summary>
+    <summary>{zh ? '浏览单独的 source-only 记录' : 'Browse separate source-only records'}</summary>
     <p>{zh ? '这些记录没有被分配 COL ID，不计入 COL 接受种总数。' : 'These records have no assigned COL ID and are not added to the COL accepted-species total.'}</p>
     {collection.upstreamOnlyFiles.length > 1 && <label>{zh ? '记录分组' : 'Record group'} <select value={fileIndex} onChange={(event) => setFileIndex(Number(event.target.value))}>{collection.upstreamOnlyFiles.map((file, index) => <option key={file.url} value={index}>{index + 1} · {file.records}</option>)}</select></label>}
     {expanded && <SourceOnlyRecords key={fileIndex} collection={collection} fileIndex={fileIndex} zh={zh} />}
@@ -96,7 +97,7 @@ export function AuthorityArchiveEvidence({ colId, packageId, lineageIds, zh }: {
   const [expanded, setExpanded] = useState(false)
   if (!scope) return null
   return <details className="catalogue-authority-disclosure" onToggle={(event) => { if (event.target === event.currentTarget) setExpanded(event.currentTarget.open) }}>
-    <summary>{scope.title} — {zh ? '查看独立来源对应' : 'Independent source mapping'}</summary>
+    <summary>{scope.title} — {zh ? '查看来源名称对照' : 'Source name mapping'}</summary>
     {expanded && <ArchiveRecord key={`${colId}:${scope.id}`} scope={scope} colId={colId} zh={zh} />}
   </details>
 }
