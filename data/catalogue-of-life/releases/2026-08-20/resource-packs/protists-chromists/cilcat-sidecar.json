@@ -45,9 +45,9 @@
     "projectedSpecies": 8505,
     "sourceAcceptedSpecies": 8532,
     "sourceProvisionalSpecies": 81,
-    "sourceOnlyAccepted": 27,
+    "sourceOnlyAccepted": 55,
     "excludedSourceProvisional": 81,
-    "matchingKey": "official sourceDatasetId=1113 plus exact scientific-name association; authorship exact where available"
+    "matchingKey": "official sourceDatasetId=1113 plus exact full source display-name or exact separated scientific-name+authorship match; non-empty authorship conflicts remain unresolved"
   },
   "matching": {
     "normalization": "UTF-8 quoted TSV; Unicode whitespace collapse only; case, diacritics, punctuation and empty fields preserved.",
@@ -60,8 +60,8 @@
     "ambiguous": 0,
     "unmatched": 28,
     "withheld": 0,
-    "upstreamOnly": 27,
-    "records": 8532
+    "upstreamOnly": 55,
+    "records": 8560
   },
   "files": [
     {
@@ -81,11 +81,11 @@
   "upstreamOnlyFiles": [
     {
       "path": "protists-chromists/cilcat-upstream-only-000.json.gz",
-      "records": 27,
-      "bytes": 2733,
-      "sha256": "c4dd0c8cb7a1ba0bc61a7b52ff9d810210480c3a92ad636a2602d7095e3904fc",
-      "sourceBytes": 20268,
-      "sourceSha256": "04b5d9056b043a947ab5f4ccee8481f0cfc45128f6efca83c9fd0e64aa5e19ac",
+      "records": 55,
+      "bytes": 5750,
+      "sha256": "df1e145842a69c2e51b95665337e5a228265845a66884e1023ffd2ff15f5db03",
+      "sourceBytes": 46587,
+      "sourceSha256": "228cb2bb7c42eaade4b8ff8088fce4d7f4cfab7d779e8bdb69ecdcd9fdaa5c23",
       "minColId": null,
       "maxColId": null,
       "encoding": "gzip",
@@ -102,8 +102,8 @@
     "The archive's nomenclatural/taxonomic references support source name provenance only; they do not constitute biological dossiers.",
     "34 TaxAccRef links point to ReferenceID 95, which is absent from References.tsv; those links retain their NameReferences locator and explicit referenceMissing=true."
   ],
-  "totalCompressedBytes": 743969,
-  "totalSourceBytes": 8934488,
+  "totalCompressedBytes": 746986,
+  "totalSourceBytes": 8960807,
   "deliveryProfiles": {
     "web-light": {
       "payload": "summary-only",
@@ -118,9 +118,9 @@
         "protists-chromists/cilcat-000.json.gz",
         "protists-chromists/cilcat-upstream-only-000.json.gz"
       ],
-      "records": 8532,
-      "totalCompressedBytes": 743969,
-      "totalSourceBytes": 8934488
+      "records": 8560,
+      "totalCompressedBytes": 746986,
+      "totalSourceBytes": 8960807
     }
   }
 }

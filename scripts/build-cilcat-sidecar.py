@@ -69,6 +69,12 @@ def main():
     source = tsv(members["AcceptedSpecies.tsv"])
     name_refs = tsv(members["NameReferences.tsv"])
     references = tsv(members["References.tsv"])
+    source_ids = [row["AcceptedTaxonID"] for row in source]
+    reference_ids = [row["ReferenceID"] for row in references]
+    if len(source_ids) != len(set(source_ids)):
+        raise SystemExit("duplicate AcceptedTaxonID in AcceptedSpecies.tsv")
+    if len(reference_ids) != len(set(reference_ids)):
+        raise SystemExit("duplicate ReferenceID in References.tsv")
     refs_by_id = {row["ReferenceID"]: (index, row) for index, row in enumerate(references, 2)}
     refs_by_source = {}
     for index, link in enumerate(name_refs, 2):
@@ -126,7 +132,10 @@ def main():
         )
         candidates = by_name.get(bare, [])
         exact = [row for row in candidates if col_authorship and clean(row["AuthorString"]) == col_authorship]
-        full = by_display.get(col_name, [])
+        # A full display-name hit is still invalid when COL supplies a
+        # conflicting non-empty authorship.  Never let the display field
+        # silently override the separated authorship field.
+        full = [row for row in by_display.get(col_name, []) if not col_authorship or clean(row["AuthorString"]) == col_authorship]
         if len(full) == 1:
             selected = full[0]
             basis = "Official sourceDatasetId=1113 plus exact full source display-name match."
@@ -195,7 +204,7 @@ def main():
 
     source_only = [
         row for row in source
-        if row["Sp2000NameStatus"] == "accepted name" and row["AcceptedTaxonID"] not in claimed_source_ids
+        if row["Sp2000NameStatus"] == "accepted name" and row["AcceptedTaxonID"] not in matched_source_ids
     ]
     upstream = []
     for row in source_only:
@@ -242,7 +251,7 @@ def main():
         "colIdField": "colId",
         "totalCountField": "total",
         "source": {"datasetId": "1113", "title": "The World Ciliate Catalog", "version": "4.0, Jan 2012", "versionDoi": "10.48580/d3cf.v11", "license": "CC-BY-4.0", "licenseUrl": "https://creativecommons.org/licenses/by/4.0/", "archiveUrl": ARCHIVE_URL, "archiveBytes": ARCHIVE_BYTES, "archiveSha256": ARCHIVE_SHA, "archiveEncoding": "gzip-compressed tar (HTTP Content-Type application/zip)", "retrievedAt": "2026-09-04", "members": {key: {"bytes": len(value), "sha256": digest(value)} for key, value in members.items()}},
-        "scope": {"colSourceDatasetId": "1113", "colPackageId": "protists-chromists", "eligibleColSpecies": len(output), "projectedSpecies": len(output), "sourceAcceptedSpecies": sum(row["Sp2000NameStatus"] == "accepted name" for row in source), "sourceProvisionalSpecies": sum(row["Sp2000NameStatus"] == "provisionally accepted name" for row in source), "sourceOnlyAccepted": len(upstream), "excludedSourceProvisional": sum(row["Sp2000NameStatus"] == "provisionally accepted name" for row in source), "matchingKey": "official sourceDatasetId=1113 plus exact scientific-name association; authorship exact where available"},
+        "scope": {"colSourceDatasetId": "1113", "colPackageId": "protists-chromists", "eligibleColSpecies": len(output), "projectedSpecies": len(output), "sourceAcceptedSpecies": sum(row["Sp2000NameStatus"] == "accepted name" for row in source), "sourceProvisionalSpecies": sum(row["Sp2000NameStatus"] == "provisionally accepted name" for row in source), "sourceOnlyAccepted": len(upstream), "excludedSourceProvisional": sum(row["Sp2000NameStatus"] == "provisionally accepted name" for row in source), "matchingKey": "official sourceDatasetId=1113 plus exact full source display-name or exact separated scientific-name+authorship match; non-empty authorship conflicts remain unresolved"},
         "matching": {"normalization": "UTF-8 quoted TSV; Unicode whitespace collapse only; case, diacritics, punctuation and empty fields preserved.", "prohibited": "No fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered or taxon-substituted matching."},
         "counts": {"total": len(output), "accepted": sum(row["status"] == "accepted" for row in output), "redirect": 0, "ambiguous": sum(row["status"] == "ambiguous" for row in output), "unmatched": sum(row["status"] == "unmatched" for row in output), "withheld": 0, "upstreamOnly": len(upstream), "records": len(output) + len(upstream)},
         "files": files,
@@ -260,7 +269,7 @@ def main():
     ledger_path = args.output_root / LEDGER_NAME
     ledger_path.parent.mkdir(parents=True, exist_ok=True)
     ledger_path.write_bytes((json.dumps(ledger, ensure_ascii=False, indent=2) + "\n").encode())
-    print(json.dumps({"accepted": len(output), "sourceOnlyAccepted": len(upstream), "excludedProvisional": descriptor["scope"]["excludedSourceProvisional"], "bytes": len(out_bytes) + len(upstream_bytes)}))
+    print(json.dumps({"accepted": descriptor["counts"]["accepted"], "unmatched": descriptor["counts"]["unmatched"], "sourceOnlyAccepted": len(upstream), "excludedProvisional": descriptor["scope"]["excludedSourceProvisional"], "bytes": len(out_bytes) + len(upstream_bytes)}))
 
 
 if __name__ == "__main__":
