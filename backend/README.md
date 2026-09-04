@@ -60,4 +60,4 @@ The command walks the exact data tree, calculates SHA-256 with bounded memory, a
 go -C backend test ./...
 ```
 
-Tests exercise actual RC113 data for entity queries, evidence, routed name search, children, range/ETag resources, sync descriptors and scene payloads. They are functional checks, not a claim that the underlying scientific release is exhaustive.
+Tests exercise the current pinned release data for entity queries, evidence, routed name search, children, range/ETag resources, sync descriptors and scene payloads. They are functional checks, not a claim that the underlying scientific release is exhaustive.

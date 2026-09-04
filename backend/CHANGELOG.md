@@ -1,5 +1,9 @@
 # Go backend change log
 
+## Unreleased
+
+- Rebased the backend integration onto RC114 and verified the new Trichomycetes extension resource is delivered byte-for-byte.
+
 ## 2026-09-04 — protocol v1 foundation
 
 - Added an independent Go HTTP backend under `backend/` on `feat/go-backend`.
