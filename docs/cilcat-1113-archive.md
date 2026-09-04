@@ -17,8 +17,10 @@ python -B scripts/build-cilcat-sidecar.py --output-root <output-root>
 The archive contains 8,613 accepted-species-status rows: 8,532 accepted and
 81 provisionally accepted.  Against the 8,505 COL species owned by source
 dataset 1113, strict full name+authorship matching produces 8,477 accepted and
-28 unresolved (no name-only fallback); 27 additional accepted archive rows are
-retained as `upstream-only`.  Thus the two partitions contain 8,532 records.
+28 unresolved (no name-only fallback); 55 accepted archive rows not strictly
+matched to COL are retained as `upstream-only`.  Twenty-eight of those overlap
+the unresolved COL candidate names, so this is not a claim of 55 globally new
+species.  Thus the two partitions contain 8,560 records.
 The projection preserves source row locators, `TaxAccRef`-derived
 `NameReferences.tsv` links, and explicit `referenceMissing` markers for the 34
 links to absent ReferenceID 95 rows. Empty source fields remain empty.
