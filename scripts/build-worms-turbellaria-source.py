@@ -85,7 +85,7 @@ def read_col():
             seen.add(current); current = parents.get(current)
         if current in COL_ROOTS:
             rows[row['id']] = row
-    return rows, digest(manifest), [{'path': f['path'], 'bytes': len((REGISTRY / f['path']).read_bytes()), 'sha256': digest((REGISTRY / f['path']).read_bytes())} for f in files]
+    return rows, digest(manifest), [{'path': f'data/catalogue-of-life/releases/2026-08-20/registry/{f["path"]}', 'bytes': len((REGISTRY / f['path']).read_bytes()), 'sha256': digest((REGISTRY / f['path']).read_bytes())} for f in files]
 
 
 def row_locators(taxon, name, refs, references, taxon_row, name_row):
@@ -204,10 +204,10 @@ def project(archive, output_root=None):
                   'limitations': ['Source-only rows are relative only to COL source dataset 1193.', 'Name.status is nomenclatural metadata and is not used as taxonomic acceptance.', 'Synonym.taxonID targets do not remove accepted Taxon rows.'],
                   'totalCompressedBytes': sum(x['bytes'] for x in col_files + source_files),
                   'totalSourceBytes': sum(x['sourceBytes'] for x in col_files + source_files),
-                  'deliveryProfiles': {'web-light': {'mode': 'summary-only', 'records': 0, 'files': 0,
+                  'deliveryProfiles': {'web-light': {'mode': 'summary-only', 'records': 0, 'files': [],
                                                       'totalCompressedBytes': 0, 'totalSourceBytes': 0},
                                        'native-full': {'mode': 'complete', 'records': len(all_rows),
-                                                       'files': len(col_files) + len(source_files),
+                                                       'files': [x['path'] for x in col_files + source_files],
                                                        'totalCompressedBytes': sum(x['bytes'] for x in col_files + source_files),
                                                        'totalSourceBytes': sum(x['sourceBytes'] for x in col_files + source_files)}}}
     descriptor_path = destination / 'worms-turbellaria-sidecar.json'; descriptor_path.write_bytes(dump(descriptor, True))
