@@ -1,0 +1,333 @@
+{
+  "schemaVersion": 1,
+  "recordType": "release-pinned-authority-archive-crosswalk",
+  "id": "mdd-mammalia-archive-crosswalk",
+  "packageId": "other-animals",
+  "provider": "The Mammal Diversity Database via ChecklistBank",
+  "role": "authority-crosswalk",
+  "rowEncoding": "json",
+  "encoding": "gzip",
+  "mediaType": "application/json",
+  "colIdField": "colId",
+  "totalCountField": "total",
+  "source": {
+    "datasetId": "9802",
+    "title": "The Mammal Diversity Database",
+    "alias": "MDD",
+    "version": "2.1",
+    "issued": "2025-04-06",
+    "doi": "10.48580/dfp2",
+    "versionDoi": null,
+    "archiveMetadataDoi": null,
+    "citation": "<div class=\"csl-entry\">Upham, N., Huckaby, D., Burgin, C., Widness, J., Becker, M., Handika, H., &amp; Zijlstra, J. (2025). <span style=\"font-style: italic\">The Mammal Diversity Database</span> (2.1). https://doi.org/10.48580/dfp2</div>",
+    "editor": null,
+    "contributor": null,
+    "license": "CC-BY-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "archiveUrl": "https://api.checklistbank.org/dataset/9802/archive",
+    "archivePath": "data/sources/archives/checklistbank-9802-mdd.zip",
+    "metadataPath": "data/sources/archives/checklistbank-9802-mdd.metadata.json",
+    "archiveBytes": 3189955,
+    "archiveSha256": "da2c04ec869539b949b4af8a8484ccc4901c0848f06822b0257c92d56d835ed2",
+    "metadataBytes": 7556,
+    "metadataSha256": "163344357b472daed7f153e5ff1cfabaa6f30415ce3517cc9050c4657df0662d",
+    "internalMetadata": {
+      "bytes": 7163,
+      "sha256": "219f43f1ab9e97904fa59250e6b9e05c03b6b3c88024cbd7ac9d32549be8b78a"
+    },
+    "members": {
+      "NameUsage.tsv": {
+        "bytes": 11520995,
+        "sha256": "02701fd89e3032b3d12b8c0f7da57eafc231f4ce9bf5cd554fcc79a2c8504ae7"
+      },
+      "TypeMaterial.tsv": {
+        "bytes": 1139353,
+        "sha256": "d7c2323b95e1868a2b1d7999196e54318dde2f29467f7e0ea32847882bb64f9a"
+      },
+      "VernacularName.tsv": {
+        "bytes": 506995,
+        "sha256": "d5241cbbdf22326f149c3a4e3693b580be18b946b43794067cc89912f9b08891"
+      },
+      "Reference.tsv": {
+        "bytes": 1806358,
+        "sha256": "961bc14448f8602c2c4d6687e280bf044a8cafd52ab925a78b037154267ab765"
+      },
+      "metadata.yaml": {
+        "bytes": 7163,
+        "sha256": "219f43f1ab9e97904fa59250e6b9e05c03b6b3c88024cbd7ac9d32549be8b78a"
+      },
+      "logo.png": {
+        "bytes": 28218,
+        "sha256": "abe1252cfb735add27f7ffd5eaddbdf7fac1b0392d59c1319f842c28239eab8b"
+      },
+      "Distribution.tsv": {
+        "bytes": 953235,
+        "sha256": "ba7e8769c3241c46711972605c47ffbc1aeb94f7f9d6e2e3102b34c1bafaf734"
+      }
+    },
+    "metadataConsistency": {
+      "title": true,
+      "version": true,
+      "issued": true,
+      "license": true,
+      "taxonomicScope": true,
+      "doiNote": "ChecklistBank dataset DOI and archive metadata DOI are retained as distinct identifiers; they are not asserted equal."
+    }
+  },
+  "scope": {
+    "colRootUsageId": "6224G",
+    "colRootScientificName": "Mammalia",
+    "colRelease": "COL26.8",
+    "colStrictAcceptedSpecies": 6461,
+    "sourceDatasetId": "9802",
+    "sourceStrictAcceptedSpecies": 6801
+  },
+  "matching": {
+    "normalization": "Unicode NFC and whitespace normalization on scientific names only; COL trailing authorship is removed exactly.",
+    "prohibited": "No fuzzy, case-folded, accent-folded, authorship, synonym, taxon-substitution or species-concept matching."
+  },
+  "counts": {
+    "total": 6461,
+    "accepted": 5026,
+    "redirect": 0,
+    "ambiguous": 0,
+    "unmatched": 1435,
+    "withheld": 0,
+    "upstreamOnly": 1775,
+    "records": 8236
+  },
+  "files": [
+    {
+      "path": "other-animals/mdd-mammalia-000.json.gz",
+      "records": 535,
+      "bytes": 170203,
+      "sha256": "2de9440731f46676016756eebd6543aae850d5f055135910b1198598dc42f1c6",
+      "sourceBytes": 2095727,
+      "sourceSha256": "aebf663f786b3bb8c1e652d7bc76db671ce55683c7816847943c780739596c8c",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "role": "col-partition",
+      "minColId": "323B3",
+      "maxColId": "3M374"
+    },
+    {
+      "path": "other-animals/mdd-mammalia-001.json.gz",
+      "records": 533,
+      "bytes": 172489,
+      "sha256": "594d3a9b24af922ff74f53d7bf866bc7f0359ed95269916c724b109e73839532",
+      "sourceBytes": 2095805,
+      "sourceSha256": "0b37fe4698faa463617e302fefbd810b0210be10c44ef886ae6540b78abe5869",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "role": "col-partition",
+      "minColId": "3M376",
+      "maxColId": "4256R"
+    },
+    {
+      "path": "other-animals/mdd-mammalia-002.json.gz",
+      "records": 726,
+      "bytes": 174655,
+      "sha256": "c70fc5cf28793b306452f8e94af2e79530097183e944939577f663215b9575fb",
+      "sourceBytes": 2095519,
+      "sourceSha256": "576fd99b3205e198f893c797d8cedfabead1cb1b1c09cf8115137571f34e75a2",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "role": "col-partition",
+      "minColId": "4256T",
+      "maxColId": "4B7K6"
+    },
+    {
+      "path": "other-animals/mdd-mammalia-003.json.gz",
+      "records": 521,
+      "bytes": 172507,
+      "sha256": "270e36dd1c54e906132f3ff2feb80da33f987d1b8a79f844264c4a7678fca51d",
+      "sourceBytes": 2095287,
+      "sourceSha256": "c9286b9637c5c9ac6785068417776047d605c4dea942a0eb730a1d3568e3c67c",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "role": "col-partition",
+      "minColId": "4B7K7",
+      "maxColId": "4P4HS"
+    },
+    {
+      "path": "other-animals/mdd-mammalia-004.json.gz",
+      "records": 543,
+      "bytes": 171681,
+      "sha256": "08087625823aca646b04bca8dc09c86c62336dc8b032d44d6d154587fcc09bd2",
+      "sourceBytes": 2095495,
+      "sourceSha256": "5812f508bf72ccf7fd60f30e478b7fe1dacd941ce140b488cbcae531e318fe64",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "role": "col-partition",
+      "minColId": "4P4HT",
+      "maxColId": "5383R"
+    },
+    {
+      "path": "other-animals/mdd-mammalia-005.json.gz",
+      "records": 562,
+      "bytes": 180081,
+      "sha256": "08fa139b2a2fa6c69482cdb012eab70890d8e97af2be464246ae390790ee50f6",
+      "sourceBytes": 2096327,
+      "sourceSha256": "99313c112cc0f2b6f4f011c6415f83b5aa6b93de80148a394fce4552ff2413a6",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "role": "col-partition",
+      "minColId": "5383S",
+      "maxColId": "64ZMM"
+    },
+    {
+      "path": "other-animals/mdd-mammalia-006.json.gz",
+      "records": 615,
+      "bytes": 183343,
+      "sha256": "0e4d4b7edb8bbc70d897d21edd21b75f1fc7612915016fd4dabe8e811b2ab1fd",
+      "sourceBytes": 2093922,
+      "sourceSha256": "e0fe358033bc2f6b56ced9df58dfc3d6ecd11c050cbc602640ea141e4fc84c45",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "role": "col-partition",
+      "minColId": "64ZXL",
+      "maxColId": "6PWS4"
+    },
+    {
+      "path": "other-animals/mdd-mammalia-007.json.gz",
+      "records": 584,
+      "bytes": 191938,
+      "sha256": "eeafc5c2c86b48fef89d93d2c9f6c5a60db24cd217b71daeeea75daf6a2d8ce9",
+      "sourceBytes": 2095119,
+      "sourceSha256": "1782d5b8381a5e7300f6ac1c4d8e02e92cdfdc7794985ab534cf7701f7446bf8",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "role": "col-partition",
+      "minColId": "6Q223",
+      "maxColId": "79QYQ"
+    },
+    {
+      "path": "other-animals/mdd-mammalia-008.json.gz",
+      "records": 675,
+      "bytes": 191939,
+      "sha256": "c852d3eef022f26e4945d29a6f3f21880b75bba5aec9d656becce254f42620cd",
+      "sourceBytes": 2095573,
+      "sourceSha256": "49c5b990f85178b32e64cb361637ae10e9f7bb44d8d47ed9bb79bc3db81b33c4",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "role": "col-partition",
+      "minColId": "79RYL",
+      "maxColId": "C5QC"
+    },
+    {
+      "path": "other-animals/mdd-mammalia-009.json.gz",
+      "records": 608,
+      "bytes": 186677,
+      "sha256": "372d810688bc84a9dcaf5ef9889ad271935b8a682d6e9f388cde5f3465998282",
+      "sourceBytes": 2096158,
+      "sourceSha256": "148977b01c72fbdc9c5fd3103f5b76a4c7457eee18429c57433b4fd29ecc8ff0",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "role": "col-partition",
+      "minColId": "C5QF",
+      "maxColId": "PVZG"
+    },
+    {
+      "path": "other-animals/mdd-mammalia-010.json.gz",
+      "records": 559,
+      "bytes": 148445,
+      "sha256": "4bbeb7db57166e8829aeec000a11fde34910543e2ca9a91001897a1276965b7c",
+      "sourceBytes": 1803688,
+      "sourceSha256": "c5c38e28130e7885f2fbaf925dddcb138695a3dbb36f806dde408e14e70c596d",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "role": "col-partition",
+      "minColId": "PW5R",
+      "maxColId": "ZZ3R"
+    }
+  ],
+  "upstreamOnlyFiles": [
+    {
+      "path": "other-animals/mdd-mammalia-source-only-000.json.gz",
+      "records": 528,
+      "bytes": 168829,
+      "sha256": "6a6f96dc04bf26ff57379930ad37c6edcaba1d1ee5cc45947b2378bd023f2fea",
+      "sourceBytes": 2093741,
+      "sourceSha256": "f9d3168eefe627ea1271d34d60f1d5b68bcd26dcaa1a877fe4c86ffb1692f887",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "role": "upstream-only"
+    },
+    {
+      "path": "other-animals/mdd-mammalia-source-only-001.json.gz",
+      "records": 528,
+      "bytes": 165219,
+      "sha256": "d836d82f259aa50cc1cfc54d0a690111444040701eb5a997bd2abe87baa80924",
+      "sourceBytes": 2094963,
+      "sourceSha256": "90fa881b2a271d817c4c61c749b19a514a204062cffc231fd8ea878173c1eba0",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "role": "upstream-only"
+    },
+    {
+      "path": "other-animals/mdd-mammalia-source-only-002.json.gz",
+      "records": 429,
+      "bytes": 165215,
+      "sha256": "932ca13c95de6fe10df6191684a97c6b52d33b91cda8c0259b4db2e3c541a7d3",
+      "sourceBytes": 2094302,
+      "sourceSha256": "e4e6496ad7152590844f0bdeae67080d8cb7e281af0bfe3ca1e61b36cf2375d8",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "role": "upstream-only"
+    },
+    {
+      "path": "other-animals/mdd-mammalia-source-only-003.json.gz",
+      "records": 290,
+      "bytes": 108234,
+      "sha256": "5c7dba1158cc7d3bd1033b96671b5ea661be4c9900d09b5f87ad4e22dffecf33",
+      "sourceBytes": 1127752,
+      "sourceSha256": "fd497d9098444797945e728bc6bc74e7430e02ae1acbcc708809dd7f9168cb7c",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "role": "upstream-only"
+    }
+  ],
+  "totalCompressedBytes": 2551455,
+  "totalSourceBytes": 30169378,
+  "deliveryProfiles": {
+    "web-light": {
+      "mode": "summary-only",
+      "records": 0,
+      "files": [],
+      "totalCompressedBytes": 0,
+      "totalSourceBytes": 0
+    },
+    "native-full": {
+      "mode": "complete",
+      "records": 8236,
+      "files": [
+        "other-animals/mdd-mammalia-000.json.gz",
+        "other-animals/mdd-mammalia-001.json.gz",
+        "other-animals/mdd-mammalia-002.json.gz",
+        "other-animals/mdd-mammalia-003.json.gz",
+        "other-animals/mdd-mammalia-004.json.gz",
+        "other-animals/mdd-mammalia-005.json.gz",
+        "other-animals/mdd-mammalia-006.json.gz",
+        "other-animals/mdd-mammalia-007.json.gz",
+        "other-animals/mdd-mammalia-008.json.gz",
+        "other-animals/mdd-mammalia-009.json.gz",
+        "other-animals/mdd-mammalia-010.json.gz",
+        "other-animals/mdd-mammalia-source-only-000.json.gz",
+        "other-animals/mdd-mammalia-source-only-001.json.gz",
+        "other-animals/mdd-mammalia-source-only-002.json.gz",
+        "other-animals/mdd-mammalia-source-only-003.json.gz"
+      ],
+      "totalCompressedBytes": 2551455,
+      "totalSourceBytes": 30169378
+    }
+  },
+  "evidenceBoundary": {
+    "en": "Frozen The Mammal Diversity Database archive projection for strict accepted COL26.8 Mammalia; not species-concept equivalence, a biological dossier, fossil evidence or expert review.",
+    "zh": "冻结的 The Mammal Diversity Database 档案投影，范围为严格 accepted 的 COL26.8 Mammalia；不是物种概念等同性、生物档案、化石证据或专家审查。"
+  },
+  "limitations": [
+    "Source-only rows are relative only to this COL26.8 scope and are not global novelty claims.",
+    "Archive status and source fields are preserved; exact matching does not infer taxonomic equivalence.",
+    "GitHub Pages web-light carries the descriptor summary only; native-full carries every listed row shard."
+  ]
+}
