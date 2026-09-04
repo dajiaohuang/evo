@@ -37,9 +37,23 @@ class SmallAuthoritySourceTest(unittest.TestCase):
                 self.assertEqual(result["counts"]["upstreamOnly"], expected["upstreamOnly"])
                 descriptor = next(Path(tmp).rglob(f"{builder.SPECS[scope]['prefix']}-sidecar.json"))
                 body = json.loads(descriptor.read_text(encoding="utf-8"))
+                ledger = json.loads((Path(tmp) / f"data/sources/{builder.SPECS[scope]['prefix']}-archive-{builder.SPECS[scope]['dataset']}-import-ledger.json").read_text(encoding="utf-8"))
                 self.assertEqual(body["source"]["archiveBytes"], builder.SPECS[scope]["archiveBytes"])
                 self.assertEqual(body["source"]["archiveSha256"], builder.SPECS[scope]["archiveSha256"])
-                self.assertEqual(body["source"]["versionConsistency"].split(";")[0], "title/version/license match")
+                self.assertNotIn("sourceLedgerPath", body["source"])
+                self.assertNotIn("sourceLedgerSha256", body["source"])
+                ledger_descriptor = ledger["outputs"]["descriptor"]
+                descriptor_bytes = descriptor.read_bytes()
+                self.assertEqual(ledger_descriptor["bytes"], len(descriptor_bytes))
+                self.assertEqual(ledger_descriptor["sha256"], hashlib.sha256(descriptor_bytes).hexdigest())
+                self.assertEqual(body["source"]["licenseEvidence"]["authority"], "ChecklistBank API metadata")
+                self.assertEqual(body["source"]["licenseEvidence"]["value"], "cc by")
+                if scope == "chilobase":
+                    self.assertNotIn("license", body["source"]["archiveMemberEvidence"]["fields"])
+                    self.assertIn("no archive-member licence is inferred", body["source"]["archiveMemberEvidence"]["licenseMeaning"])
+                else:
+                    self.assertEqual(body["source"]["archiveMemberEvidence"]["fields"]["license"], "cc by")
+                self.assertIn("licence is established only from ChecklistBank API metadata", body["source"]["versionConsistency"])
                 for item in body["files"] + body["upstreamOnlyFiles"]:
                     self.assertLessEqual(item["sourceBytes"], 2 * 1024 * 1024)
 

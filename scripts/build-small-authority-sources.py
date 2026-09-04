@@ -263,18 +263,30 @@ def project(which: str, output_root: Path = ROOT):
         old.unlink()
     files = write_shards(destination, spec["prefix"], records, "col-partition")
     upstream_files = write_shards(destination, f"{spec['prefix']}-upstream-only", source_only, "upstream-only")
+    archive_member = "meta.yaml" if spec["dataset"] == "1164" else "SourceDatabase.tsv"
+    archive_fields = {"title": spec["title"], "version": spec["archiveVersion"]}
+    if spec["dataset"] == "1164":
+        archive_fields.update(issued=spec["archiveIssued"], license="cc by")
+    else:
+        archive_fields["releaseDate"] = spec["archiveIssued"]
     source = {"datasetId": spec["dataset"], "provider": "ChecklistBank",
               "title": metadata["title"], "version": metadata["version"], "versionDoi": metadata["versionDoi"],
               "doi": metadata.get("doi"), "issued": metadata.get("issued"), "license": "CC-BY-4.0",
               "licenseUrl": "https://creativecommons.org/licenses/by/4.0/", "rights": metadata.get("rights"),
+              "licenseEvidence": {"authority": "ChecklistBank API metadata", "metadataPath": spec["metadata"],
+                                  "field": "license", "value": metadata["license"], "spdx": "CC-BY-4.0",
+                                  "url": "https://creativecommons.org/licenses/by/4.0/"},
               "archiveUrl": f"https://api.checklistbank.org/dataset/{spec['dataset']}/archive",
               "metadataUrl": f"https://api.checklistbank.org/dataset/{spec['dataset']}",
               "retrievedAt": RETRIEVED_AT, "archivePath": spec["archive"], "archiveBytes": len(archive_raw),
               "archiveSha256": digest(archive_raw), "metadataPath": spec["metadata"], "metadataBytes": len(metadata_raw),
               "metadataSha256": digest(metadata_raw), "members": members,
-              "archiveMetadataVersion": {"title": spec["title"], "version": spec["archiveVersion"], "issued": spec["archiveIssued"], "license": "cc by"},
+              "archiveMemberEvidence": {"member": archive_member, "fields": archive_fields,
+                                         "licenseMeaning": "Archive member metadata only; it is not the ChecklistBank API licence authority."
+                                         if spec["dataset"] == "1164" else
+                                         "SourceDatabase.tsv has no licence field; no archive-member licence is inferred."},
               "apiMetadataVersion": {"title": metadata["title"], "version": metadata["version"], "issued": metadata.get("issued"), "license": metadata.get("license")},
-              "versionConsistency": "title/version/license match; archive-issued is preserved separately from API issued metadata"}
+              "versionConsistency": "title/version match; archive-issued/release date is preserved separately from API issued metadata; licence is established only from ChecklistBank API metadata"}
     descriptor = {"schemaVersion": 1, "recordType": "release-pinned-authority-archive-crosswalk",
                   "id": f"{spec['prefix']}-archive-crosswalk", "packageId": spec["packageId"],
                   "provider": "ChecklistBank", "role": "authority-crosswalk", "rowEncoding": "json",
@@ -310,9 +322,6 @@ def project(which: str, output_root: Path = ROOT):
     ledger_bytes = encode(ledger, pretty=True)
     ledger_path.parent.mkdir(parents=True, exist_ok=True)
     ledger_path.write_bytes(ledger_bytes)
-    descriptor["source"]["sourceLedgerPath"] = str(ledger_path.relative_to(output_root)).replace("\\", "/")
-    descriptor["source"]["sourceLedgerSha256"] = digest(ledger_bytes)
-    descriptor_path.write_bytes(encode(descriptor, pretty=True))
     return {"scope": which, "root": spec["rootId"], "counts": descriptor["counts"], "files": len(files) + len(upstream_files),
             "compressedBytes": descriptor["totals"]["compressedBytes"], "sourceBytes": descriptor["totals"]["sourceBytes"]}
 

@@ -21,6 +21,14 @@
     "license": "CC-BY-4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
     "rights": null,
+    "licenseEvidence": {
+      "authority": "ChecklistBank API metadata",
+      "metadataPath": "data/sources/archives/checklistbank-1042-chilobase.metadata.json",
+      "field": "license",
+      "value": "cc by",
+      "spdx": "CC-BY-4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
     "archiveUrl": "https://api.checklistbank.org/dataset/1042/archive",
     "metadataUrl": "https://api.checklistbank.org/dataset/1042",
     "retrievedAt": "2026-09-05T04:47:19+08:00",
@@ -64,11 +72,14 @@
         "sha256": "ebffd100673720a786114638abe4b65308f7db21b04ff5628563fd446878ca27"
       }
     },
-    "archiveMetadataVersion": {
-      "title": "A World Catalogue of Centipedes (Chilopoda) for the Web",
-      "version": "1.01, May 2006",
-      "issued": "2006-10-10",
-      "license": "cc by"
+    "archiveMemberEvidence": {
+      "member": "SourceDatabase.tsv",
+      "fields": {
+        "title": "A World Catalogue of Centipedes (Chilopoda) for the Web",
+        "version": "1.01, May 2006",
+        "releaseDate": "2006-10-10"
+      },
+      "licenseMeaning": "SourceDatabase.tsv has no licence field; no archive-member licence is inferred."
     },
     "apiMetadataVersion": {
       "title": "A World Catalogue of Centipedes (Chilopoda) for the Web",
@@ -76,9 +87,7 @@
       "issued": "2006-10-10",
       "license": "cc by"
     },
-    "versionConsistency": "title/version/license match; archive-issued is preserved separately from API issued metadata",
-    "sourceLedgerPath": "data/sources/chilobase-archive-1042-import-ledger.json",
-    "sourceLedgerSha256": "966dc43c9af3b77f7f17480416c22d5113c3de87c4c34fa4d94fe333e35218c1"
+    "versionConsistency": "title/version match; archive-issued/release date is preserved separately from API issued metadata; licence is established only from ChecklistBank API metadata"
   },
   "scope": {
     "colRootUsageId": "93",
