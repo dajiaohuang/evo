@@ -1,0 +1,157 @@
+{
+  "schemaVersion": 1,
+  "recordType": "release-pinned-authority-archive-crosswalk",
+  "id": "worms-ctenophora-archive-crosswalk",
+  "packageId": "other-animals",
+  "provider": "World Register of Marine Species via ChecklistBank",
+  "rowEncoding": "json",
+  "colIdField": "colId",
+  "totalCountField": "total",
+  "source": {
+    "datasetId": "1180",
+    "title": "Phylum Ctenophora: list of all valid species names. Electronic internet document",
+    "version": "2026-09-01",
+    "versionDoi": "10.48580/d3fq.v88",
+    "metadataBytes": 1949,
+    "metadataSha256": "be290d1d2624cc55f49a9e560f00f92850dc5eba27165a739d03694e62aa97a8",
+    "license": "CC-BY-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "rightsHolder": "WoRMS Editorial Board",
+    "archiveUrl": "https://api.checklistbank.org/dataset/1180/archive",
+    "archivePath": "data/sources/archives/checklistbank-1180-ctenophora-2026-09-01.zip",
+    "metadataPath": "data/sources/archives/checklistbank-1180-ctenophora-2026-09-01.metadata.json",
+    "archiveBytes": 136436,
+    "archiveSha256": "63feaa32a25368a8a5eae966d224f0345c1d120b6e777c0eb19353fdebc965a9",
+    "members": {
+      "metadata.yml": {
+        "bytes": 1270,
+        "sha256": "6b81b0d0abb203cee1eea0e1bbc041ef45a28b4942e360abb7ea0a40e27a0184"
+      },
+      "TypeMaterial.txt": {
+        "bytes": 2091,
+        "sha256": "5590b6d78deff5293055c3048834f6bb8724735c2aed27f6cf74234103736720"
+      },
+      "Name.txt": {
+        "bytes": 161155,
+        "sha256": "35c70138733539724bf3941a5bafa6b5d1a55afe2a3027b23a085377432168a7"
+      },
+      "NameRelation.txt": {
+        "bytes": 63291,
+        "sha256": "03e018eab5c9314c40db92b1689c797d752d0348851b0416ba12581d4c56b16a"
+      },
+      "Taxon.txt": {
+        "bytes": 117568,
+        "sha256": "d09774882237a8067ae82815f916f41aafc7b8bb44b904c8f9814009be9cafbc"
+      },
+      "Synonym.txt": {
+        "bytes": 59542,
+        "sha256": "2cfb6778548306ef80d773dcc151be41e288477ac6397ddc1b180e15b546a8b7"
+      },
+      "SpeciesEstimate.txt": {
+        "bytes": 35,
+        "sha256": "552ac985d21f5b6e89941c9a4b07715a7f4a56106b5d50480ecf9dcba5f901e5"
+      },
+      "Reference.txt": {
+        "bytes": 111463,
+        "sha256": "85733bb39d25b23de13762ee6e684309cb2b14f1e295d2c6977d4a955af8ea48"
+      },
+      "NameReference.txt": {
+        "bytes": 433484,
+        "sha256": "92948e54529a60adfe173e7d698e55c7f3e496b6f714136988f84694b5c92fb9"
+      },
+      "Distribution.txt": {
+        "bytes": 51257,
+        "sha256": "07bb70dafa4341b84f45d0b98e8c7d5cd09990c3d94c1c2775d47007fe921379"
+      },
+      "Media.txt": {
+        "bytes": 19758,
+        "sha256": "f9ac51e7e2f5b970623adaa0ee2c40092e50fd970bff7b1b5a1a0fac81fb7a42"
+      },
+      "VernacularName.txt": {
+        "bytes": 10627,
+        "sha256": "99f64cca96bd721bd84e5705ae79115a6b3e82a432307ccfdc5852c83358c5f5"
+      }
+    }
+  },
+  "scope": {
+    "colRootUsageIds": [
+      "B8V3L"
+    ],
+    "scientificName": "Ctenophora",
+    "eligibleColSpecies": 197,
+    "sourceAcceptedSpecies": 201,
+    "excludedSourceProvisional": 0
+  },
+  "matching": {
+    "normalization": "NFC and whitespace normalization only; COL trailing authorship is removed exactly.",
+    "prohibited": "No fuzzy, case-folded, accent-folded, synonym or species-concept matching."
+  },
+  "counts": {
+    "total": 197,
+    "accepted": 197,
+    "redirect": 0,
+    "ambiguous": 0,
+    "unmatched": 0,
+    "withheld": 0,
+    "upstreamOnly": 4,
+    "records": 201
+  },
+  "files": [
+    {
+      "path": "other-animals/worms-ctenophora-000.json.gz",
+      "records": 197,
+      "bytes": 45489,
+      "sha256": "94c3590692272852acb89f4ae75c9af9ddaac4973e998bb3ce1f6638874768ca",
+      "sourceBytes": 504367,
+      "sourceSha256": "ec54cfa55cdf89e09e46e6b17e6e003ece94f6dfd73d26276e7b43c8e456f2cd",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "role": "col-partition",
+      "minColId": "326LZ",
+      "maxColId": "ZWSP"
+    }
+  ],
+  "upstreamOnlyFiles": [
+    {
+      "path": "other-animals/worms-ctenophora-source-only-000.json.gz",
+      "records": 4,
+      "bytes": 1875,
+      "sha256": "d234d800ed60baa8caea046f2a97bbb9809628d63321e78e3ea1035e4efcf234",
+      "sourceBytes": 11323,
+      "sourceSha256": "09d23a4a77fd4c52e3d7bdf9db9293074bfa532488818ae9a40254e955ac8115",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "role": "upstream-only"
+    }
+  ],
+  "evidenceBoundary": {
+    "en": "Frozen WoRMS nomenclatural/source projection for the exact COL26.8 source-1180 Ctenophora root; not species-concept equivalence, a biological dossier, fossil evidence or expert review.",
+    "zh": "精确 COL26.8 source-1180 Ctenophora 根节点范围的 WoRMS 冻结命名/来源投影；不是物种概念等同性、生物档案、化石证据或专家审查。"
+  },
+  "limitations": [
+    "Source-only rows are relative only to COL source dataset 1180.",
+    "Name.status is nomenclatural metadata and is not used as taxonomic acceptance.",
+    "Synonym.taxonID targets do not remove accepted Taxon rows."
+  ],
+  "totalCompressedBytes": 47364,
+  "totalSourceBytes": 515690,
+  "deliveryProfiles": {
+    "web-light": {
+      "mode": "summary-only",
+      "records": 0,
+      "files": [],
+      "totalCompressedBytes": 0,
+      "totalSourceBytes": 0
+    },
+    "native-full": {
+      "mode": "complete",
+      "records": 201,
+      "files": [
+        "other-animals/worms-ctenophora-000.json.gz",
+        "other-animals/worms-ctenophora-source-only-000.json.gz"
+      ],
+      "totalCompressedBytes": 47364,
+      "totalSourceBytes": 515690
+    }
+  }
+}
