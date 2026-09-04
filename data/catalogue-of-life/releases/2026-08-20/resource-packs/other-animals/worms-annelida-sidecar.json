@@ -1,0 +1,165 @@
+{
+  "schemaVersion": 1,
+  "recordType": "release-pinned-authority-archive-crosswalk",
+  "id": "worms-annelida-archive-crosswalk",
+  "packageId": "other-animals",
+  "provider": "World Register of Marine Species via ChecklistBank",
+  "rowEncoding": "json",
+  "colIdField": "colId",
+  "totalCountField": "total",
+  "source": {
+    "provider": "World Register of Marine Species via ChecklistBank",
+    "license": "CC-BY-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "rightsHolder": "WoRMS Editorial Board",
+    "archiveUrl": "https://api.checklistbank.org/dataset/2011/archive",
+    "archiveBytes": 342751141,
+    "archiveSha256": "8419d301b08e1f119557ead2222d7efd8f01a3f3ca3b6c9ff1edd062bfa312c6",
+    "attempt": 148,
+    "version": "2026-09-01",
+    "versionDoi": "10.48580/d4fd.v148",
+    "retrievedAt": "2026-09-04T03:49:48.539Z",
+    "immutableUrlClaimed": false,
+    "members": {
+      "taxon.txt": {
+        "bytes": 1280833469,
+        "sha256": "965c04a301ac98eed017d37ba78ec541b6e530f76d75ac729f429991c8e584ee",
+        "rows": 1565652,
+        "rowConvention": "one-based logical TSV record ordinal including header; first data record is 2"
+      },
+      "meta.xml": {
+        "bytes": 6844,
+        "sha256": "1f9a6c73256ad4832e70146c35e2d75e885bb598edfcd0cee273c3a37fcf50a6"
+      },
+      "eml.xml": {
+        "bytes": 10948,
+        "sha256": "bb3504da29a78970d7bdee0289fa1e7b9ca568870c204af4eb307d228a0ae950"
+      }
+    },
+    "sourceLedgerPath": "data/sources/worms-annelida-archive-2011-import-ledger.json",
+    "sourceLedgerSha256": "9fd331cb683da89a3c528b3e69dbe4726235fba2bd1231844f7a93a520707074"
+  },
+  "scope": {
+    "colRootUsageId": "NN",
+    "wormsRootId": "882",
+    "scientificName": "Annelida",
+    "eligibleColSpecies": 18982,
+    "packageStrictAcceptedSpecies": 99161,
+    "excludedPackageRemainder": 80179
+  },
+  "matching": {
+    "normalization": "Remove only exact trailing COL space+authorship suffix, then normalize whitespace for comparison; preserve source fields unchanged.",
+    "redirect": "Explicit acceptedNameUsageID to accepted Species target inside the same source root; invalid or mixed targets withheld.",
+    "prohibited": "No fuzzy, case-folded, accent-folded, inferred or species-concept matching."
+  },
+  "counts": {
+    "total": 18982,
+    "accepted": 18791,
+    "redirect": 29,
+    "ambiguous": 0,
+    "unmatched": 160,
+    "withheld": 2,
+    "upstreamOnly": 1090
+  },
+  "files": [
+    {
+      "path": "other-animals/worms-annelida-000.json.gz",
+      "records": 2735,
+      "bytes": 134230,
+      "sha256": "1fce59413d71c35115554f5fadeb8b058c5d7cea6890f53596208b01963d91ea",
+      "sourceBytes": 2096830,
+      "sourceSha256": "32634c91283b05e58d744cf182837a9bc4a3177f251cf7953b73a9da9085af49",
+      "minColId": "325RW",
+      "maxColId": "3Y6W5"
+    },
+    {
+      "path": "other-animals/worms-annelida-001.json.gz",
+      "records": 2723,
+      "bytes": 136484,
+      "sha256": "b118244531c202525e6f128a6764a9f93e502b56abe8cd2e5d721604b3707701",
+      "sourceBytes": 2097024,
+      "sourceSha256": "dc3230f87eaea0baa01c0c6fb6cc6b052ffb9d99abe8935031b47d8e84b68eca",
+      "minColId": "3Y6W6",
+      "maxColId": "4P8K9"
+    },
+    {
+      "path": "other-animals/worms-annelida-002.json.gz",
+      "records": 2717,
+      "bytes": 139516,
+      "sha256": "8f0e5f8d967af93a03c005135b94a4df8743b55b6ad449b2e38f00ee2fe00228",
+      "sourceBytes": 2096468,
+      "sourceSha256": "9eaae20f0cc3eda95c0ccf7f563243fa22241e6e841675017b8c725df4ce7386",
+      "minColId": "4P8KB",
+      "maxColId": "6GYJ6"
+    },
+    {
+      "path": "other-animals/worms-annelida-003.json.gz",
+      "records": 2723,
+      "bytes": 145909,
+      "sha256": "e297e1464cc96a1afdb81ef6c353d10798e6204d2e62657008d832ec727b94f6",
+      "sourceBytes": 2096331,
+      "sourceSha256": "fa3b114e73535ada5eda3b587bbc7ff43dd2fee93a0d63e29f6a9abc0ced2878",
+      "minColId": "6GYJ7",
+      "maxColId": "77BLT"
+    },
+    {
+      "path": "other-animals/worms-annelida-004.json.gz",
+      "records": 2692,
+      "bytes": 134157,
+      "sha256": "c2f50bfeaa454c4f39d3f585a01de5949e57a103e97feb3152b9b83ec9fe010c",
+      "sourceBytes": 2096811,
+      "sourceSha256": "352bc4893f8c868adf3a4a76de6668b8e4b3ea07c884eaa24ca302848a44b1fe",
+      "minColId": "77CGD",
+      "maxColId": "8L8WR"
+    },
+    {
+      "path": "other-animals/worms-annelida-005.json.gz",
+      "records": 2683,
+      "bytes": 126900,
+      "sha256": "32fa75a4e6049e54ef8c8aa18a2d86743b2759bff457f1495c2d5e702d2f33d1",
+      "sourceBytes": 2096840,
+      "sourceSha256": "5963f2aa4a77fc2547691476333f35c8a03e0d8ad02498976aacd413ac20b5e5",
+      "minColId": "8L8WS",
+      "maxColId": "CL22Z"
+    },
+    {
+      "path": "other-animals/worms-annelida-006.json.gz",
+      "records": 2703,
+      "bytes": 135573,
+      "sha256": "839d5e7721101053943d524665f245e846ee8752e85f66bbfe4d94b2006f2039",
+      "sourceBytes": 2096902,
+      "sourceSha256": "155cb7c6a3036223b9954ea926c5c2655cd3da087fb84549d02e171be0d8512e",
+      "minColId": "CL23V",
+      "maxColId": "ZRT6"
+    },
+    {
+      "path": "other-animals/worms-annelida-007.json.gz",
+      "records": 6,
+      "bytes": 704,
+      "sha256": "fd213bf9856b54cf962c81df75826d8c4bd47a943e799df4eb5b0140e9d44736",
+      "sourceBytes": 4736,
+      "sourceSha256": "2f397f670dad08fc7d8af3ef4cbdedf9becc9d99d8904678c02c2c538868e55d",
+      "minColId": "ZRT7",
+      "maxColId": "ZYBG"
+    }
+  ],
+  "upstreamOnlyFiles": [
+    {
+      "path": "other-animals/worms-annelida-upstream-only-000.json.gz",
+      "records": 1090,
+      "bytes": 35252,
+      "sha256": "0a9ad605f33ecb1ef6e0ed2cec70ab32e41af46f8e8e32ef55a5d61e2b1cc707",
+      "sourceBytes": 566034,
+      "sourceSha256": "ccc943947b4e6fa5ed5ecd89e3b0919428641a7763f02ea4a670a4658b8a04f4"
+    }
+  ],
+  "evidenceBoundary": {
+    "en": "A frozen exact nomenclatural crosswalk; not species-concept equivalence, a biological dossier, fossil evidence or expert review.",
+    "zh": "冻结的严格命名交叉映射；不是物种概念等同性、生物档案、化石证据或专家审查。"
+  },
+  "limitations": [
+    "Source-only accepted concepts retain null COL ownership.",
+    "Only name/status/identifier projections are redistributed, not raw archives or ancillary members.",
+    "The parent-closure anomaly audit remains explicit; no completeness claim about all marine diversity."
+  ]
+}
