@@ -9,6 +9,12 @@ function itisUrl(tsn: string) {
   return `https://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=${encodeURIComponent(tsn)}`
 }
 
+function candidateName(candidate: NonNullable<ItisNomenclatureRecord['candidates']>[number]) {
+  if (candidate.currentName) return candidate.currentName
+  if (candidate.tsn && candidate.scientificName) return { tsn: candidate.tsn, scientificName: candidate.scientificName }
+  return null
+}
+
 function StatusLabel({ status, zh }: { status: ItisNomenclatureRecord['status']; zh: boolean }) {
   const labels = {
     accepted: zh ? '接受名精确对应' : 'Exact accepted-name match',
@@ -27,7 +33,11 @@ function RecordDetail({ record, zh }: { record: ItisNomenclatureRecord | null; z
     {record.currentName && <p>{zh ? '当前 ITIS 名称：' : 'Current ITIS name: '}<a href={itisUrl(record.currentName.tsn)} target="_blank" rel="noreferrer">{record.currentName.scientificName} ({record.currentName.tsn}) ↗</a></p>}
     {record.status === 'ambiguous' && record.candidates && <>
       <p>{zh ? '保留的精确候选：' : 'Retained exact candidates:'}</p>
-      <ul>{record.candidates.map((candidate) => <li key={candidate.tsn}><a href={itisUrl(candidate.tsn)} target="_blank" rel="noreferrer">{candidate.scientificName} ({candidate.tsn}) ↗</a></li>)}</ul>
+      <ul>{record.candidates.map((candidate, index) => {
+        const name = candidateName(candidate)
+        if (!name) return <li key={index}>{zh ? '候选记录缺少 ITIS 名称标识。' : 'Candidate record has no ITIS name identifier.'}</li>
+        return <li key={name.tsn}><a href={itisUrl(name.tsn)} target="_blank" rel="noreferrer">{name.scientificName} ({name.tsn}) ↗</a></li>
+      })}</ul>
     </>}
     {record.status === 'synonym-current-name-redirect' && <p>{zh ? '该重定向只依据 ITIS 明示的 species synonym 关系。' : 'This redirect follows only the explicit ITIS species-synonym relation.'}</p>}
   </>

@@ -94,6 +94,36 @@ describe('Myriapoda ITIS evidence disclosure', () => {
     expect(loadRecord).toHaveBeenCalledTimes(2)
   })
 
+  it('renders nested candidates for the real 3S67T ambiguous record', async () => {
+    const native = { ...collection, delivery: { ...collection.delivery, profile: 'native-full' as const, completeRows: true } }
+    loadMetadata.mockResolvedValue(manifestFor(native))
+    loadRecord.mockResolvedValue({ collection: native, record: {
+      status: 'ambiguous', colUsageId: '3S67T', colScientificName: 'Lamyctes andinus', currentName: null,
+      candidates: [
+        { currentName: { tsn: '1089704', scientificName: 'Lamyctes andinus' }, evidence: [{}] },
+        { currentName: { tsn: '1089740', scientificName: 'Lamyctes neglectus' }, evidence: [{}] },
+      ],
+    } })
+    const { container } = render(<MyriapodaItisEvidence colId="3S67T" packageId="crustaceans-insects" lineageIds={['93']} zh={false} />)
+    openDetails(container)
+    await screen.findByText('Multiple exact candidates')
+    expect(screen.getByRole('link', { name: /Lamyctes andinus \(1089704\)/ })).toBeVisible()
+    expect(screen.getByRole('link', { name: /Lamyctes neglectus \(1089740\)/ })).toBeVisible()
+  })
+
+  it('renders the explicit redirect target for the real 363VR record', async () => {
+    const native = { ...collection, delivery: { ...collection.delivery, profile: 'native-full' as const, completeRows: true } }
+    loadMetadata.mockResolvedValue(manifestFor(native))
+    loadRecord.mockResolvedValue({ collection: native, record: {
+      status: 'synonym-current-name-redirect', colUsageId: '363VR', colScientificName: 'Otostigmus gravelyi',
+      currentName: { tsn: '1090822', scientificName: 'Otostigmus gravelyi', usage: 'valid' },
+    } })
+    const { container } = render(<MyriapodaItisEvidence colId="363VR" packageId="crustaceans-insects" lineageIds={['93']} zh={false} />)
+    openDetails(container)
+    await screen.findByText('Explicit synonym redirect')
+    expect(screen.getByRole('link', { name: /Otostigmus gravelyi \(1090822\)/ })).toHaveAttribute('href', expect.stringContaining('search_value=1090822'))
+  })
+
   it('does not show not-found while metadata or native row is pending', async () => {
     const native = { ...collection, delivery: { ...collection.delivery, profile: 'native-full' as const, completeRows: true } }
     const metadata = deferred<never>()
