@@ -111,6 +111,13 @@ def main():
     for i, r in enumerate(src, 2):
         key = (norm(r["Genus"] + " " + r["SpeciesEpithet"]), norm(r["AuthorString"]))
         bykey.setdefault(key, []).append((r, i))
+    relation_dir = ROOT / "data/sources/authority-link-evidence"
+    relations = {}
+    for relation_file in relation_dir.glob("*-relation.json"):
+        col_id = relation_file.name.removesuffix("-relation.json")
+        relation = json.loads(relation_file.read_text(encoding="utf-8"))
+        if relation.get("sourceDatasetKey") == 1053:
+            relations[col_id] = str(relation["sourceId"])
     if len(targets) != 1337 or len({c["id"] for c in targets}) != len(targets):
         raise SystemExit("pinned COL source1053 scope changed")
     out = []
@@ -119,6 +126,13 @@ def main():
         n = c["scientificName"]
         bare = n[: -len(a) - 1] if a and n.endswith(" " + a) else n
         mm = bykey.get((norm(bare), a), [])
+        relation_basis = None
+        if len(mm) != 1 and c["id"] in relations:
+            source_id = relations[c["id"]]
+            linked = [(r, i) for i, r in enumerate(src, 2) if r["AcceptedTaxonID"] == source_id]
+            if len(linked) == 1:
+                mm = linked
+                relation_basis = "ChecklistBank source-record relation; source name/authorship text is preserved."
         if len(mm) != 1:
             out.append(
                 {
@@ -168,7 +182,7 @@ def main():
                 "matchedName": matched,
                 "acceptedName": matched,
                 "candidates": [],
-                "mappingBasis": "Exact source name+authorship match; source fields preserved.",
+                "mappingBasis": relation_basis or "Exact source name+authorship match; source fields preserved.",
                 "sourceRows": [{"member": "AcceptedSpecies.tsv", "row": ordinal}],
                 "sourceAcceptedTaxonId": sid,
                 "sourceUrl": r["SpeciesURL"],

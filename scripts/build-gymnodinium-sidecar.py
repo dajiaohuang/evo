@@ -167,6 +167,9 @@ def main():
 
     crosswalk = []
     used_source_ids = set()
+    relation_path = root / "data/sources/authority-link-evidence/CN83B-relation.json"
+    relation = json.loads(relation_path.read_text(encoding="utf-8")) if relation_path.exists() else None
+    linked_source_id = str(relation["sourceId"]) if relation and relation.get("sourceDatasetKey") == 1177 else None
     for col in col_rows:
         authorship = clean(col.get("authorship"))
         match = by_key.get(exact_key(col_bare(col).split(" ", 1)[0], col_bare(col).split(" ", 1)[1], authorship))
@@ -177,6 +180,12 @@ def main():
             "sourceRows": [],
             "candidates": [],
         }
+        if match is None and col["id"] == "CN83B" and linked_source_id:
+            source = next((r for r in source_rows if r["AcceptedTaxonID"] == linked_source_id), None)
+            match = (next((i for i,r in enumerate(source_rows, 2) if r is source), None), source) if source else None
+            relation_basis = "ChecklistBank source-record relation; source name/authorship text differs and is preserved."
+        else:
+            relation_basis = "Exact source scientific name+authorship match; all AcceptedSpecies fields are preserved."
         if match is None:
             base.update({"status": "unmatched", "mappingBasis": "No exact source scientific name+authorship match; punctuation and epithet spelling are not normalized.", "sourceAcceptedTaxonId": None})
             crosswalk.append(base)
@@ -194,7 +203,7 @@ def main():
             "status": "accepted",
             "matchedName": matched,
             "acceptedName": matched,
-            "mappingBasis": "Exact source scientific name+authorship match; all AcceptedSpecies fields are preserved.",
+            "mappingBasis": relation_basis,
             "sourceRows": [{"member": "AcceptedSpecies.tsv", "row": row_number}],
             "sourceAcceptedTaxonId": source["AcceptedTaxonID"],
             "sourceUrl": source["SpeciesURL"] or None,
@@ -222,9 +231,9 @@ def main():
             "sourceAcceptedRecord": source,
             "nameReferences": refs_by_taxon.get(source["AcceptedTaxonID"], []),
         })
-    if len(crosswalk) != 259 or len(source_only) != 1:
+    if len(crosswalk) != 259 or len(source_only) != 0:
         raise SystemExit("unexpected Gymnodinium matching totals")
-    if sum(row["status"] == "accepted" for row in crosswalk) != 258 or sum(row["status"] == "unmatched" for row in crosswalk) != 1:
+    if sum(row["status"] == "accepted" for row in crosswalk) != 259 or sum(row["status"] == "unmatched" for row in crosswalk) != 0:
         raise SystemExit("unexpected Gymnodinium outcome counts")
 
     payload = jsonl_bytes(crosswalk)
@@ -239,7 +248,7 @@ def main():
     upstream_compressed = write_gzip(upstream, upstream_payload)
     files = [file_entry(output, crosswalk, compressed, payload, root)]
     upstream_file = {**file_entry(upstream, source_only, upstream_compressed, upstream_payload, root), "role": "upstream-only", "colOwnership": None}
-    counts = {"total": 259, "accepted": 258, "redirect": 0, "ambiguous": 0, "unmatched": 1, "withheld": 0, "upstreamOnly": 1, "records": 260}
+    counts = {"total": 259, "accepted": 259, "redirect": 0, "ambiguous": 0, "unmatched": 0, "withheld": 0, "upstreamOnly": 0, "records": 259}
     descriptor_value = {
         "schemaVersion": 1,
         "recordType": "release-pinned-authority-archive-crosswalk",
@@ -251,12 +260,12 @@ def main():
         "totalCountField": "total",
         "source": {"provider": "The dinoflagellate genus Gymnodinium checklist via Catalogue of Life ChecklistBank", "license": "CC0-1.0", "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/", "archiveUrl": URL, "archiveBytes": ARCHIVE_BYTES, "archiveSha256": SHA, "archiveEncoding": "gzip-compressed tar (HTTP Content-Type application/zip)", "version": source_database[0]["DatabaseVersion"], "versionDate": source_database[0]["ReleaseDate"], "sourceDatabase": source_database[0], "retrievedAt": "2026-09-04", "members": {name: {"bytes": len(value), "sha256": digest(value)} for name, value in members.items()}},
         "scope": {"packageId": "protists-chromists", "colSourceDatasetId": SOURCE_DATASET, "colRootUsageId": COL_ROOT, "colRootScientificName": root_record["scientificName"], "colRootRank": root_record["rank"], "sourceKingdom": "Chromista", "sourcePhylum": "Miozoa", "sourceClass": "Dinophyceae", "sourceOrder": "Gymnodiniales", "sourceGenus": "Gymnodinium", "colStrictAcceptedSpecies": 259, "eligibleColSpecies": 259, "projectedSpecies": 259, "matchingKey": "exact source scientific name + authorship", "boundary": "Only strict accepted COL26.8 species descending from exact Gymnodinium genus 4RTJ and source dataset 1177 are included; no Dinophyceae siblings are inferred."},
-        "matching": {"normalization": "UTF-8 quoted TSV; surrounding whitespace is trimmed for name+authorship comparison only.", "prohibited": "No fuzzy, punctuation, edit-distance, phonetic, epithet-substitution, taxon-substitution or missing-authorship matching.", "unmatchedReason": "COL p-dorhnii and source p.dorhni remain unmatched because the source spelling differs."},
+        "matching": {"normalization": "UTF-8 quoted TSV; exact source-record relation is preferred where frozen; otherwise surrounding whitespace is trimmed for name+authorship comparison only.", "prohibited": "No fuzzy, punctuation, edit-distance, phonetic, epithet-substitution, taxon-substitution or missing-authorship matching.", "relationEvidencePath": "data/sources/authority-link-evidence/CN83B-relation.json"},
         "counts": counts,
         "files": files,
         "upstreamOnlyFiles": [upstream_file],
         "evidenceBoundary": {"en": "Frozen source provenance and exact nomenclatural linkage only; this is not independent scientific corroboration, species-concept equivalence, an ecological or biological dossier, fossil evidence or expert review.", "zh": "冻结的来源追溯与严格命名关联；不是独立科学佐证、物种概念等同、生态或生物档案、化石证据或专家审查。"},
-        "limitations": ["One source accepted row (T284, Gymnodinium p.dorhni) remains source-only because its spelling does not exactly match COL Gymnodinium p-dorhnii.", "The source archive's IsExtinct, HasModern and HasPreHolocene fields are preserved source fields, not an Evo Atlas extant-status review."],
+        "limitations": ["CN83B/T284 is linked by the frozen ChecklistBank source-record relation despite differing source text; this does not assert species-concept equivalence.", "The source archive's IsExtinct, HasModern and HasPreHolocene fields are preserved source fields, not an Evo Atlas extant-status review."],
         "totalCompressedBytes": len(compressed) + len(upstream_compressed), "totalSourceBytes": len(payload) + len(upstream_payload),
         "deliveryProfiles": {"web-light": {"payload": "summary-only", "files": [], "records": 0, "totalCompressedBytes": 0, "totalSourceBytes": 0}, "native-full": {"payload": "complete", "files": [files[0]["path"], upstream_file["path"]], "records": 260, "totalCompressedBytes": len(compressed) + len(upstream_compressed), "totalSourceBytes": len(payload) + len(upstream_payload)}},
     }
