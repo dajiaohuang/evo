@@ -600,6 +600,8 @@ public class AppInstrumentedTest {
                 assertTrue(delivery.getBoolean("completeRows"));
                 verifyAuthorityArchiveCollection(context, files, findCollection(extensions, "worms-radiozoa-archive-crosswalk"),
                         1, 1, 444, 54, "WoRMS Radiozoa");
+                verifyAuthorityArchiveCollection(context, files, findCollection(extensions, "trichomycetes-archive-crosswalk"),
+                        1, 0, 96, 0, "Trichomycetes source1033");
                 JSONArray extensionFiles = authority.getJSONArray("files");
                 assertEquals(5, extensionFiles.length());
                 for (int fileIndex = 0; fileIndex < extensionFiles.length(); fileIndex += 1) {
@@ -624,7 +626,7 @@ public class AppInstrumentedTest {
                 };
                 int[] expectedFiles = new int[]{4, 1, 2, 1, 1, 1, 2, 1, 1, 2, 0, 0, 1, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0};
                 int[] expectedRecords = new int[]{8665, 21, 1110, 276, 52, 90, 3397, 1337, 1616, 1536, 0, 0, 53, 0, 0, 0, 0, 0, 1416, 4, 0, 0, 0, 0, 0};
-                assertEquals(expectedIds.length + 2, extensions.length());
+                assertEquals(expectedIds.length + 3, extensions.length());
                 for (int extensionIndex = 0; extensionIndex < expectedIds.length; extensionIndex += 1) {
                     JSONObject itisAuthority = findCollection(extensions, expectedIds[extensionIndex]);
                     assertNotNull("ITIS protists/chromists authority missing", itisAuthority);

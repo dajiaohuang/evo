@@ -614,6 +614,10 @@ final class AppConfigurationTests: XCTestCase {
                     collection: try XCTUnwrap(extensions.first { ($0["id"] as? String) == "worms-radiozoa-archive-crosswalk" }),
                     inventory: files, below: dataRoot, expectedFiles: 1, expectedUpstreamFiles: 1,
                     expectedRecords: 444, expectedUpstreamRecords: 54, label: "WoRMS Radiozoa")
+                try verifyAuthorityArchiveCollection(
+                    collection: try XCTUnwrap(extensions.first { ($0["id"] as? String) == "trichomycetes-archive-crosswalk" }),
+                    inventory: files, below: dataRoot, expectedFiles: 1, expectedUpstreamFiles: 0,
+                    expectedRecords: 96, expectedUpstreamRecords: 0, label: "Trichomycetes source1033")
                 let expectedIds = [
                     "itis-ciliophora-tsn-crosswalk", "itis-apicomplexa-tsn-crosswalk", "itis-dinoflagellata-tsn-crosswalk",
                     "itis-euglenozoa-tsn-crosswalk", "itis-cercozoa-tsn-crosswalk", "itis-haptophyta-tsn-crosswalk",
@@ -629,7 +633,7 @@ final class AppConfigurationTests: XCTestCase {
                 let expectedFiles = [4, 1, 2, 1, 1, 1, 2, 1, 1, 2, 0, 0, 1, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0]
                 let expectedRecords = [8_665, 21, 1_110, 276, 52, 90, 3_397, 1_337, 1_616, 1_536, 0, 0, 53, 0, 0, 0, 0, 0, 1_416, 4, 0, 0, 0, 0, 0]
                 let itisAuthorities = extensions.filter { ($0["provider"] as? String) == "Integrated Taxonomic Information System" }
-                XCTAssertEqual(extensions.count, expectedIds.count + 2)
+                XCTAssertEqual(extensions.count, expectedIds.count + 3)
                 XCTAssertEqual(itisAuthorities.count, expectedIds.count)
                 for extensionIndex in expectedIds.indices {
                     let itisAuthority = try XCTUnwrap(itisAuthorities.first { ($0["id"] as? String) == expectedIds[extensionIndex] }, "ITIS protists/chromists authority missing")
