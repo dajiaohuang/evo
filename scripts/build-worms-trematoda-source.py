@@ -11,6 +11,7 @@ ARCHIVE_BYTES = 4128567
 COL_SOURCE = '1128'
 COL_ROOT = 'JW'
 OUT = ROOT / 'data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals'
+SHARD_LIMIT = 2 * 1024 * 1024
 
 
 def digest(data):
@@ -155,19 +156,32 @@ def project(archive, output_root=None):
     destination.mkdir(parents=True, exist_ok=True)
     all_rows = records + upstream
     import gzip
-    def write_shard(name, rows):
-        payload = dump(rows)
-        compressed = gzip.compress(payload, compresslevel=9, mtime=0)
-        compressed = compressed[:9] + bytes([255]) + compressed[10:]
-        (destination / name).write_bytes(compressed)
-        item = {'path': f'other-animals/{name}', 'records': len(rows), 'bytes': len(compressed),
-                'sha256': digest(compressed), 'sourceBytes': len(payload), 'sourceSha256': digest(payload),
-                'encoding': 'gzip', 'mediaType': 'application/json', 'role': 'col-partition'}
-        if rows:
-            item.update(minColId=rows[0].get('colId'), maxColId=rows[-1].get('colId'))
-        return item
-    col_file = write_shard('worms-trematoda-000.json.gz', records)
-    source_file = write_shard('worms-trematoda-source-only-000.json.gz', upstream)
+    def write_shards(prefix, rows, role):
+        parts, current, used = [], [], 2
+        for row in rows:
+            size = len(dump(row)) + 1
+            if current and used + size > SHARD_LIMIT:
+                parts.append(current); current, used = [row], 2 + size
+            else:
+                current.append(row); used += size
+        if current or not parts:
+            parts.append(current)
+        items = []
+        for index, part in enumerate(parts):
+            name = f'{prefix}-{index:03d}.json.gz'
+            payload = dump(part)
+            compressed = gzip.compress(payload, compresslevel=9, mtime=0)
+            compressed = compressed[:9] + bytes([255]) + compressed[10:]
+            (destination / name).write_bytes(compressed)
+            item = {'path': f'other-animals/{name}', 'records': len(part), 'bytes': len(compressed),
+                    'sha256': digest(compressed), 'sourceBytes': len(payload), 'sourceSha256': digest(payload),
+                    'encoding': 'gzip', 'mediaType': 'application/json', 'role': role}
+            if part and role == 'col-partition':
+                item.update(minColId=part[0].get('colId'), maxColId=part[-1].get('colId'))
+            items.append(item)
+        return items
+    col_files = write_shards('worms-trematoda', records, 'col-partition')
+    source_files = write_shards('worms-trematoda-source-only', upstream, 'upstream-only')
     descriptor = {'schemaVersion': 1, 'recordType': 'release-pinned-authority-archive-crosswalk',
                   'id': 'worms-trematoda-archive-crosswalk', 'packageId': 'other-animals',
                   'provider': 'World Register of Marine Species via ChecklistBank', 'rowEncoding': 'json',
@@ -184,12 +198,12 @@ def project(archive, output_root=None):
                   'matching': {'normalization': 'NFC and whitespace normalization only; COL trailing authorship is removed exactly.',
                                'prohibited': 'No fuzzy, case-folded, accent-folded, synonym or species-concept matching.'},
                   'counts': {'total': len(records), **counts, 'upstreamOnly': len(upstream), 'records': len(all_rows)},
-                  'files': [col_file], 'upstreamOnlyFiles': [{**source_file, 'role': 'upstream-only'}],
+                  'files': col_files, 'upstreamOnlyFiles': source_files,
                   'evidenceBoundary': {'en': 'Frozen WoRMS nomenclatural/source projection for the exact COL26.8 source-1128 Trematoda scope; not species-concept equivalence, a biological dossier, fossil evidence or expert review.',
                                        'zh': '精确 COL26.8 source-1128 Trematoda 范围的 WoRMS 冻结命名/来源投影；不是物种概念等同性、生物档案、化石证据或专家审查。'},
                   'limitations': ['Source-only rows are relative only to COL source dataset 1128.', 'Name.status is nomenclatural metadata and is not used as taxonomic acceptance.', 'Synonym.taxonID targets do not remove accepted Taxon rows.'],
-                  'totalCompressedBytes': col_file['bytes'] + source_file['bytes'],
-                  'totalSourceBytes': col_file['sourceBytes'] + source_file['sourceBytes'],
+                  'totalCompressedBytes': sum(x['bytes'] for x in col_files + source_files),
+                  'totalSourceBytes': sum(x['sourceBytes'] for x in col_files + source_files),
                   'deliveryProfiles': {'web-light': {'mode': 'summary-only'}, 'native-full': {'mode': 'complete'}}}
     descriptor_path = destination / 'worms-trematoda-sidecar.json'; descriptor_path.write_bytes(dump(descriptor, True))
     ledger = {'schemaVersion': 1, 'importType': 'COL26.8-to-WoRMS-1128-archive-projection',
@@ -203,7 +217,8 @@ def project(archive, output_root=None):
     ledger_path.parent.mkdir(parents=True, exist_ok=True)
     ledger_path.write_bytes(dump(ledger, True))
     print(json.dumps({'counts': descriptor['counts'], 'sourceArchive': {'bytes': len(raw), 'sha256': digest(raw)},
-                      'shards': [{'bytes': x['bytes'], 'sha256': x['sha256']} for x in [col_file, source_file]]}))
+                      'shards': [{'bytes': x['bytes'], 'sourceBytes': x['sourceBytes'], 'sha256': x['sha256']}
+                                 for x in col_files + source_files]}))
 
 
 def main():
