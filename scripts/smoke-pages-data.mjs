@@ -168,7 +168,7 @@ for (const packageEntry of packageRegistry.packages) {
       id: 'itis-porifera-cnidaria-tsn-crosswalk', total: 30521, accepted: 4242, redirects: 50, ambiguous: 3, unmatched: 26226, upstreamOnly: 2218, files: 6,
     })
   } else if (packageEntry.id === 'crustaceans-insects') {
-    if (nomenclatureCollections.length !== 5) failures.push('crustaceans-insects: expected four ITIS and one OSF nomenclature collections')
+    if (nomenclatureCollections.length !== 6) failures.push('crustaceans-insects: expected four ITIS, one WoRMS and one OSF nomenclature collections')
     checkItisSummaryOnlyCollection('crustaceans-insects', nomenclatureCollections, {
       id: 'itis-crustacea-tsn-crosswalk', total: 80890, accepted: 26395, redirects: 115, ambiguous: 38, unmatched: 54342, upstreamOnly: 5991, files: 41,
     })
@@ -181,6 +181,15 @@ for (const packageEntry of packageRegistry.packages) {
     checkItisSummaryOnlyCollection('crustaceans-insects', nomenclatureCollections, {
       id: 'itis-collembola-protura-tsn-crosswalk', total: 9668, accepted: 2075, redirects: 25, ambiguous: 4, unmatched: 7564, upstreamOnly: 411, files: 3,
     })
+    const wormsCrustacea = nomenclatureCollections.find((collection) => collection.id === 'worms-crustacea-archive-crosswalk')
+    if (!wormsCrustacea || wormsCrustacea.provider !== 'World Register of Marine Species via ChecklistBank'
+      || wormsCrustacea.source?.license !== 'CC-BY-4.0' || wormsCrustacea.counts?.total !== 80890
+      || wormsCrustacea.counts?.upstreamOnly !== 8675 || wormsCrustacea.delivery?.profile !== 'web-light'
+      || wormsCrustacea.delivery.completeRows !== false || wormsCrustacea.files?.length !== 0
+      || wormsCrustacea.upstreamOnlyFiles?.length !== 0 || wormsCrustacea.delivery.canonicalFileCount !== 33
+      || wormsCrustacea.canonicalFileInventory?.length !== 33) {
+      failures.push('crustaceans-insects: WoRMS Crustacea must preserve its complete inventory while omitting row shards on Pages')
+    }
   } else if (packageEntry.id === 'trilobites-chelicerates') {
     if (nomenclatureCollections.length !== 1) failures.push('trilobites-chelicerates: expected one ITIS nomenclature collection')
     checkItisSummaryOnlyCollection('trilobites-chelicerates', nomenclatureCollections, {
@@ -781,8 +790,8 @@ if (catalogue.resourcePacks?.packageCount !== 7
         'itis-nematoda-tsn-crosswalk': { eligible: 19604, records: 20849, accepted: 1899, redirects: 36, ambiguous: 1, unmatched: 17668, upstreamOnly: 1245, nonApplicable: 79557, files: 4 },
         'itis-annelida-tsn-crosswalk': { eligible: 18982, records: 24074, accepted: 4301, redirects: 122, ambiguous: 1, unmatched: 14558, upstreamOnly: 5092, nonApplicable: 80179, files: 4 },
       }
-      if (extensions.length !== 29 || manifestFile.extensionFileCount !== 0 || manifestFile.canonicalExtensionFileCount !== 79) {
-        failures.push('other-animals: Pages must publish 28 ITIS and one WoRMS authority summaries and no row shards')
+      if (extensions.length !== 30 || manifestFile.extensionFileCount !== 0 || manifestFile.canonicalExtensionFileCount !== 88) {
+        failures.push('other-animals: Pages must publish 28 ITIS and two WoRMS authority summaries and no row shards')
       }
       const annelidaArchive = extensions.find((candidate) => candidate.id === 'worms-annelida-archive-crosswalk')
       if (!annelidaArchive || annelidaArchive.source?.license !== 'CC-BY-4.0'
@@ -793,6 +802,14 @@ if (catalogue.resourcePacks?.packageCount !== 7
         || annelidaArchive.canonicalFileInventory?.length !== 9
         || annelidaArchive.canonicalFileInventory.some((file) => !file.path || file.sha256?.length !== 64 || existsSync(join(dataRoot, current.releaseBase, 'catalogue/resource-packs', file.path)))) {
         failures.push('other-animals: WoRMS Annelida must preserve its complete inventory while omitting row shards on Pages')
+      }
+      const nematodaArchive = extensions.find((candidate) => candidate.id === 'worms-nematoda-archive-crosswalk')
+      if (!nematodaArchive || nematodaArchive.source?.license !== 'CC-BY-4.0'
+        || nematodaArchive.counts?.total !== 19604 || nematodaArchive.counts?.upstreamOnly !== 2104
+        || nematodaArchive.delivery?.profile !== 'web-light' || nematodaArchive.delivery.completeRows !== false
+        || nematodaArchive.files?.length !== 0 || nematodaArchive.upstreamOnlyFiles?.length !== 0
+        || nematodaArchive.delivery.canonicalFileCount !== 9 || nematodaArchive.canonicalFileInventory?.length !== 9) {
+        failures.push('other-animals: WoRMS Nematoda must preserve its complete inventory while omitting row shards on Pages')
       }
       for (const [id, counts] of Object.entries(expected)) {
         const authority = extensions.find((candidate) => candidate.id === id)
