@@ -15,6 +15,7 @@ import hashlib
 import io
 import json
 import re
+import unicodedata
 import zipfile
 from collections import defaultdict
 from pathlib import Path
@@ -36,7 +37,7 @@ def digest(data: bytes) -> str:
 
 
 def normalize(value: str | None) -> str:
-    return " ".join((value or "").split())
+    return " ".join(unicodedata.normalize("NFC", value or "").split())
 
 
 def encode(value: object, pretty: bool = False) -> bytes:
@@ -62,6 +63,12 @@ def source_record(taxon: dict[str, str], name: dict[str, str],
     refs = sorted({v for v in [name.get("referenceID"), taxon.get("referenceID")] if v})
     refs.extend(r["referenceID"] for _, r in name_refs.get(name["ID"], []) if r.get("referenceID"))
     ref_ids = sorted(set(refs))
+    source_rows = [
+        {"member": "Taxon.txt", "row": taxon_ordinal},
+        {"member": "Name.txt", "row": name_ordinal},
+        *({"member": "NameReference.txt", "row": ordinal} for ordinal, _ in name_refs.get(name["ID"], [])),
+        *({"member": "Reference.txt", "row": references[rid][0]} for rid in ref_ids if rid in references),
+    ]
     return {
         "id": taxon["ID"], "nameId": name["ID"],
         "scientificName": name.get("scientificName"),
@@ -76,16 +83,15 @@ def source_record(taxon: dict[str, str], name: dict[str, str],
         "nameReferenceRows": [{"member": "NameReference.txt", "row": ordinal, **row}
                                for ordinal, row in name_refs.get(name["ID"], [])],
         "link": taxon.get("link") or name.get("link"),
-        "sourceRows": [
-            {"member": "Taxon.txt", "row": taxon_ordinal},
-            {"member": "Name.txt", "row": name_ordinal},
-            *([{"member": "NameReference.txt", "row": relation_ordinal}] if relation_ordinal else []),
-        ],
+        "sourceRows": source_rows,
     }
 
 
 def read_source(path: Path):
     with zipfile.ZipFile(path) as archive:
+        members = {info.filename: {"bytes": info.file_size, "sha256": digest(archive.read(info.filename))}
+                   for info in archive.infolist()}
+
         def rows(member: str):
             with io.TextIOWrapper(archive.open(member), encoding="utf-8-sig", newline="") as stream:
                 yield from csv.DictReader(stream, delimiter="\t")
@@ -136,7 +142,7 @@ def read_source(path: Path):
         "Synonym.txt": {"rows": len(synonyms)}, "NameReference.txt": {"rows": len(name_refs)},
         "Reference.txt": {"rows": len(references)},
         "speciesRankTaxa": species_rank_taxa, "provisionalSpecies": provisional_species,
-    }
+    }, members
 
 
 def read_col() -> tuple[list[dict[str, str]], dict[str, object]]:
@@ -230,7 +236,7 @@ def main() -> None:
     if str(metadata.get("key")) != SOURCE_ID or metadata.get("version") != "2026-09-01" or metadata.get("license") != "cc by":
         raise ValueError("unexpected dataset 1081 metadata identity")
     source_sha = digest(args.archive.read_bytes())
-    accepted, accepted_by_key, synonym_by_key, member_counts = read_source(args.archive)
+    accepted, accepted_by_key, synonym_by_key, member_counts, archive_members = read_source(args.archive)
     col_rows, col_input = read_col()
     col_rows = sorted(col_rows, key=lambda row: row["colId"])
     records: list[dict[str, object]] = []
@@ -272,7 +278,7 @@ def main() -> None:
             "colAuthorship": col.get("colAuthorship"), "status": status,
             "matchedName": matched_name, "acceptedName": matched if status in {"accepted", "redirect"} else None,
             "candidates": candidates if status == "ambiguous" else [],
-            "mappingBasis": "Exact scientificName+authorship; explicit ColDP synonym target may redirect.",
+            "mappingBasis": "Exact NFC+whitespace scientificName+authorship; explicit ColDP synonym target may redirect.",
             "sourceRows": sorted(source_rows, key=lambda row: (row["member"], row["row"])),
         })
     upstream = []
@@ -293,15 +299,22 @@ def main() -> None:
                     "license": "CC-BY-4.0", "archiveUrl": ARCHIVE_URL,
                     "archiveBytes": ARCHIVE_BYTES, "archiveSha256": source_sha,
                     "archivePath": "data/sources/archives/checklistbank-1081-bryozoa-2026-09-01.zip",
-                    "version": metadata["version"], "versionDoi": metadata.get("versionDoi"),
+                    "title": metadata.get("title"), "version": metadata["version"], "versionDoi": metadata.get("versionDoi"),
+                    "citation": metadata.get("citation"), "metadata": metadata,
+                    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
                     "metadataPath": "data/sources/archives/checklistbank-1081-bryozoa-2026-09-01.metadata.json",
-                    "metadataBytes": args.metadata.stat().st_size, "metadataSha256": digest(args.metadata.read_bytes())},
+                    "metadataBytes": args.metadata.stat().st_size, "metadataSha256": digest(args.metadata.read_bytes()),
+                    "members": archive_members},
         "scope": {"colRootUsageId": COL_ROOT, "eligibleColSpecies": len(col_rows),
                   "sourceSpeciesRankTaxa": member_counts["speciesRankTaxa"],
                   "sourceStrictAcceptedSpecies": len(accepted),
                   "provisionalExcluded": member_counts["provisionalSpecies"]},
         "colInput": col_input,
         "members": member_counts,
+        "scopeAudit": {"colRootUsageId": COL_ROOT, "colSpecies": len(col_rows),
+                        "sourceAcceptedSpecies": len(accepted), "sourceOnly": len(upstream),
+                        "residualUnmatched": counts["unmatched"],
+                        "residualAmbiguous": counts["ambiguous"]},
     }
     ledger_dir = args.output_root / "data/sources"
     ledger_dir.mkdir(parents=True, exist_ok=True)
@@ -316,7 +329,7 @@ def main() -> None:
         "source": {**ledger["source"], "sourceLedgerPath": "data/sources/worms-bryozoa-1081-import-ledger.json"},
         "scope": {"colRootUsageId": COL_ROOT, "scientificName": "Bryozoa",
                   "eligibleColSpecies": len(col_rows), "sourceStrictAcceptedSpecies": len(accepted)},
-        "matching": {"normalization": "Whitespace normalization only; exact scientificName and authorship, preserving source fields.",
+        "matching": {"normalization": "NFC followed by whitespace normalization; exact scientificName and authorship, preserving source fields.",
                      "synonym": "Explicit Synonym.taxonID target to a strict accepted Species taxon may redirect.",
                      "prohibited": "No fuzzy, case-folded, accent-folded, inferred or concept matching."},
         "counts": {"total": len(records), **counts, "upstreamOnly": len(upstream)},
