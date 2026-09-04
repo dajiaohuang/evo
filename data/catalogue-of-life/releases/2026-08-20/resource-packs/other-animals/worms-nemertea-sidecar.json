@@ -1,0 +1,165 @@
+{
+  "schemaVersion": 1,
+  "recordType": "release-pinned-authority-archive-crosswalk",
+  "id": "worms-nemertea-archive-crosswalk",
+  "packageId": "other-animals",
+  "provider": "World Register of Marine Species via ChecklistBank",
+  "rowEncoding": "json",
+  "colIdField": "colId",
+  "totalCountField": "total",
+  "source": {
+    "datasetId": 1085,
+    "title": "World Nemertea Database",
+    "version": "2026-09-01",
+    "versionDoi": "10.48580/d3bg.v89",
+    "license": "CC-BY-4.0",
+    "archiveUrl": "https://api.checklistbank.org/dataset/1085/archive",
+    "archivePath": "data/sources/archives/checklistbank-1085-nemertea-2026-09-01.zip",
+    "metadataPath": "data/sources/archives/checklistbank-1085-nemertea-2026-09-01.metadata.json",
+    "archiveBytes": 440016,
+    "archiveSha256": "739531754268619a6bea16de394eb782d218d87a402291c1adc9a5ce098a06d0",
+    "metadataBytes": 3099,
+    "metadataSha256": "cdd8da099aca7172dd4016d5f17236e0124b05ce79e5affb556007d524f57e5f",
+    "members": {
+      "metadata.yml": {
+        "bytes": 1865,
+        "sha256": "5662f1dc00c251fbc345f63ee1100a3c0b93d9d21cb6df1f534253a2e3291b28"
+      },
+      "TypeMaterial.txt": {
+        "bytes": 3491,
+        "sha256": "40f830504782316613164addbc2d04fc9073fb674ff68458203d3cf1120d3a87"
+      },
+      "Name.txt": {
+        "bytes": 976495,
+        "sha256": "bc2abaff1f845529553e67325061aa818482f3f79904751424064efa58b064ba"
+      },
+      "NameRelation.txt": {
+        "bytes": 377827,
+        "sha256": "eff1a84c205369c5261ca44fa3a5351ee1a643535dabc130bc34609ab5800592"
+      },
+      "Taxon.txt": {
+        "bytes": 686443,
+        "sha256": "892e51792e2e5ed2ff35ba308d9988887efbb8e6deae9965da2f6c12671f155f"
+      },
+      "Synonym.txt": {
+        "bytes": 331076,
+        "sha256": "6bcbf9ab4f8d8dbf14e8d89a1c22fd3fb1c335ddc546da90f1f75669a850687f"
+      },
+      "SpeciesEstimate.txt": {
+        "bytes": 178,
+        "sha256": "6affc62cf4d9bd9bf9a442bf47aa5cd119da2ec9e2b53a19593f76c291c15603"
+      },
+      "Reference.txt": {
+        "bytes": 405733,
+        "sha256": "95fe72cccec26bcf9bcee09e9d6d13080bc9a250e59d38be3be668af12fea611"
+      },
+      "NameReference.txt": {
+        "bytes": 1378645,
+        "sha256": "1d1194b52d3e4e47b426a3f38c313480483bf5ea9684924b3af35213570777dd"
+      },
+      "Distribution.txt": {
+        "bytes": 101344,
+        "sha256": "5a70d60024ba430cc55c237c40128b270d6e898ca57cd1c0bf02623fb95f82d5"
+      },
+      "Media.txt": {
+        "bytes": 63215,
+        "sha256": "d365a5654b5edf9a3dda234644c9f7d3203bb4463542c7a1fdafaa3df1ecf5aa"
+      },
+      "VernacularName.txt": {
+        "bytes": 10331,
+        "sha256": "8165995533a023acd572a74f9eb753ecda75051e860f23a2bcb70d6b3e7273a5"
+      }
+    }
+  },
+  "scope": {
+    "colRootUsageId": "5C",
+    "sourceDatasetId": 1085,
+    "eligibleColSpecies": 1364,
+    "sourceAcceptedSpecies": 1373,
+    "excludedSourceProvisional": 1
+  },
+  "matching": {
+    "normalization": "NFC and whitespace normalization only; COL trailing authorship is removed exactly.",
+    "prohibited": "No fuzzy, synonym, case-folded, accent-folded or species-concept matching."
+  },
+  "counts": {
+    "total": 1364,
+    "accepted": 1361,
+    "redirect": 0,
+    "ambiguous": 0,
+    "unmatched": 3,
+    "withheld": 0,
+    "upstreamOnly": 12,
+    "records": 1376
+  },
+  "files": [
+    {
+      "path": "other-animals/worms-nemertea-000.json.gz",
+      "records": 896,
+      "bytes": 198123,
+      "sha256": "7dd3d7c85bd77872d6cf8c2c7e7a5a337ceafba129979fdb7080440202579251",
+      "sourceBytes": 2096330,
+      "sourceSha256": "2d7e9289e639589215d1470f3b254f73995b3cf17953d4057b3aff70651034cd",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "role": "col-partition",
+      "minColId": "32KJP",
+      "maxColId": "7F9HF"
+    },
+    {
+      "path": "other-animals/worms-nemertea-001.json.gz",
+      "records": 468,
+      "bytes": 102392,
+      "sha256": "6c12e47c9464eaebf8663df9698f4957d7707b0bc1c5e116b90ec3c5057771c6",
+      "sourceBytes": 1071005,
+      "sourceSha256": "c0717e7191e45ba1d606b2a829d4ca80c9f24e5a667c92d213277539750aa1bc",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "role": "col-partition",
+      "minColId": "7F9HH",
+      "maxColId": "ZS8H"
+    }
+  ],
+  "upstreamOnlyFiles": [
+    {
+      "path": "other-animals/worms-nemertea-source-only-000.json.gz",
+      "records": 12,
+      "bytes": 3032,
+      "sha256": "1e0f76b8ebd86f2a7fcd76a9cfbc81f1ed10433734b809688d3ed00cc4ec9801",
+      "sourceBytes": 19688,
+      "sourceSha256": "7b41613f7d47bc3f8dc64cf37970b61e69311c970579b4b2df8f7373b326b892",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "role": "upstream-only"
+    }
+  ],
+  "totalCompressedBytes": 303547,
+  "totalSourceBytes": 3187023,
+  "deliveryProfiles": {
+    "web-light": {
+      "mode": "summary-only",
+      "records": 0,
+      "files": [],
+      "totalCompressedBytes": 0,
+      "totalSourceBytes": 0
+    },
+    "native-full": {
+      "mode": "complete",
+      "records": 1376,
+      "files": [
+        "other-animals/worms-nemertea-000.json.gz",
+        "other-animals/worms-nemertea-001.json.gz",
+        "other-animals/worms-nemertea-source-only-000.json.gz"
+      ],
+      "totalCompressedBytes": 303547,
+      "totalSourceBytes": 3187023
+    }
+  },
+  "evidenceBoundary": {
+    "en": "Frozen WoRMS nomenclatural/source projection for exact COL26.8 source-1085 Nemertea scope; not species-concept equivalence or global novelty claim."
+  },
+  "limitations": [
+    "Synonym and provisional source rows are retained in the pinned archive evidence but are not promoted as accepted species.",
+    "Source-only rows are not global novelty claims."
+  ]
+}
