@@ -560,11 +560,11 @@ public class AppInstrumentedTest {
                 verifyAuthorityArchiveCollection(context, files, findCollection(extensions, "worms-ctenophora-archive-crosswalk"),
                         1, 1, 197, 4, "Ctenophora");
                 verifyAuthorityArchiveCollection(context, files, findCollection(extensions, "worms-chaetognatha-archive-crosswalk"),
-                        1, 0, 132, 0, "Chaetognatha");
+                        1, 0, 132, 0, "cc by", "Chaetognatha");
                 verifyAuthorityArchiveCollection(context, files, findCollection(extensions, "worms-rhombozoa-archive-crosswalk"),
-                        1, 0, 122, 0, "Rhombozoa");
+                        1, 0, 122, 0, "cc by", "Rhombozoa");
                 verifyAuthorityArchiveCollection(context, files, findCollection(extensions, "worms-loricifera-archive-crosswalk"),
-                        1, 1, 46, 1, "Loricifera");
+                        1, 1, 46, 1, "cc by", "Loricifera");
                 verifyAuthorityArchiveCollection(context, files, findCollection(extensions, "worms-thaliacea-archive-crosswalk"),
                         1, 0, 78, 0, "Thaliacea");
                 verifyAuthorityArchiveCollection(context, files, findCollection(extensions, "worms-appendicularia-archive-crosswalk"),
