@@ -16,7 +16,9 @@ The inputs are the official ITIS monthly SQLite export `itisSqlite082626` (CC0 1
 
 Every selected COL row has one explicit outcome. Accepted results resolve to exactly one valid ITIS current species; a redirect follows official ITIS species-synonym evidence to exactly one current species. Multiple exact current targets remain ambiguous, and absent exact evidence remains unmatched. Matching is representation-only: no fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered, broader-root, or taxon-substitution inference is used.
 
-The packages are mixed navigation packages, so their non-applicable remainders are not additive. Insecta, Crustacea and Myriapoda remain separate exact scopes in `crustaceans-insects`; the Myriapoda sidecar excludes the one `Euthycarcinoidea` COL record and covers 17,351 living COL rows from exact roots `L2G4H` and `93` (Myriapoda and Chilopoda). Chelicerata is the living branch of `trilobites-chelicerates`; all 4,615 Trilobita records remain explicitly non-applicable because ITIS has no current Trilobita authority branch.
+The packages are mixed navigation packages, so their non-applicable remainders are not additive. Insecta, Crustacea and Myriapoda remain separate exact scopes in `crustaceans-insects`; the Myriapoda sidecar excludes the one `Euthycarcinoidea` COL record and covers 17,351 strict accepted COL rows from exact roots `L2G4H` and `93` (Myriapoda and Chilopoda). Chelicerata is the selected branch of `trilobites-chelicerates`; all 4,615 Trilobita records remain explicitly non-applicable because this frozen ITIS source has no current Trilobita authority branch.
+
+The legacy `livingScope` and `colLivingAcceptedSpecies` fields remain for compatibility. They identify the declared accepted-name scope, not an audit of present-day living species: the projected COL/ITIS records do not carry an extinct/extant assertion. Accepted or valid nomenclatural status must not be read as evidence that a species is extant.
 
 ## Delivery contract
 
