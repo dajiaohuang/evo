@@ -4,6 +4,7 @@ import { dirname, join, resolve } from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { gunzipSync } from 'node:zlib'
 import { deterministicGzip } from './archive-determinism.mjs'
+import { replaceOwnedExtensions } from './manifest-extension-utils.mjs'
 
 const SCRIPT_PATH = fileURLToPath(import.meta.url)
 const REPOSITORY_ROOT = resolve(dirname(SCRIPT_PATH), '..')
@@ -233,7 +234,7 @@ export function buildBacteriaLpsnSidecar({ resourcePacksRoot, crosswalkPath }) {
   // collections (for example the CC0 ITIS non-LPSN scope) beside it.
   const nextBacteriaManifest = {
     ...bacteriaManifest,
-    extensions: [...(bacteriaManifest.extensions ?? []).filter((item) => item.id !== extension.id), extension],
+    extensions: replaceOwnedExtensions(bacteriaManifest.extensions ?? [], [extension], (item) => item.id === extension.id),
   }
   const bacteriaManifestBytes = Buffer.from(`${JSON.stringify(nextBacteriaManifest, null, 2)}\n`, 'utf8')
   writeFileSync(bacteriaManifestPath, bacteriaManifestBytes)
@@ -246,9 +247,9 @@ export function buildBacteriaLpsnSidecar({ resourcePacksRoot, crosswalkPath }) {
     manifestBytes: bacteriaManifestBytes.byteLength,
     manifestSha256: sha256(bacteriaManifestBytes),
     extensionCount: nextBacteriaManifest.extensions.length,
-    extensionFileCount: nextBacteriaManifest.extensions.reduce((sum, item) => sum + item.files.length, 0),
-    extensionCompressedBytes: nextBacteriaManifest.extensions.reduce((sum, item) => sum + item.totalCompressedBytes, 0),
-    extensionSourceBytes: nextBacteriaManifest.extensions.reduce((sum, item) => sum + item.totalSourceBytes, 0),
+    extensionFileCount: nextBacteriaManifest.extensions.reduce((sum, item) => sum + item.files.length + (item.upstreamOnlyFiles?.length ?? 0), 0),
+    extensionCompressedBytes: nextBacteriaManifest.extensions.reduce((sum, item) => sum + item.totalCompressedBytes + (item.upstreamOnlyFiles ?? []).reduce((bytes, file) => bytes + file.bytes, 0), 0),
+    extensionSourceBytes: nextBacteriaManifest.extensions.reduce((sum, item) => sum + item.totalSourceBytes + (item.upstreamOnlyFiles ?? []).reduce((bytes, file) => bytes + file.sourceBytes, 0), 0),
   }
   writeFileSync(collectionManifestPath, `${JSON.stringify(collection, null, 2)}\n`, 'utf8')
   return { extension, bacteriaManifestBytes }
