@@ -32,6 +32,12 @@ describe('Appendicularia 1178 importer', () => {
     expect(descriptor.counts).toMatchObject({ total: 68, records: 68, accepted: 68, redirect: 0, ambiguous: 0, unmatched: 0, withheld: 0, upstreamOnly: 0 })
     expect(descriptor.provider).toBe('World Register of Marine Species via ChecklistBank')
     expect(descriptor.evidenceBoundary.zh).toBe('冻结的精确命名学交叉映射；不是物种概念等同性、生物学档案或专家审查。')
+    const sourceMetadata = JSON.parse(readFileSync(metadata))
+    expect(descriptor.source.title).toBe(sourceMetadata.title)
+    expect(descriptor.source.version).toBe(sourceMetadata.version)
+    expect(descriptor.source.versionDoi).toBe(sourceMetadata.versionDoi)
+    expect(descriptor.source.citation).toBe(sourceMetadata.citation)
+    expect(descriptor.source.archiveMembers).toHaveLength(12)
     const rows = []
     for (const file of descriptor.files) {
       const part = JSON.parse(gunzipSync(readFileSync(join(output(one), file.path.split('/').at(-1)))))
