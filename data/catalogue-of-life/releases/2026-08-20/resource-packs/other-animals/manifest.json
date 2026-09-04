@@ -7625,6 +7625,516 @@
           "requestPolicy": "Read one inclusive COL-ID range and require an exact colId; range membership is not a scientific identity match."
         }
       }
+    },
+    {
+      "schemaVersion": 1,
+      "recordType": "release-pinned-authority-archive-crosswalk",
+      "id": "worms-kinorhyncha-archive-crosswalk",
+      "packageId": "other-animals",
+      "provider": "World Register of Marine Species via ChecklistBank",
+      "rowEncoding": "json",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "role": "authority-crosswalk",
+      "colIdField": "colId",
+      "totalCountField": "total",
+      "source": {
+        "datasetId": "1153",
+        "title": "World Kinorhyncha Database",
+        "version": "2026-09-01",
+        "versionDoi": "10.48580/d3ds.v86",
+        "metadataPath": "data/sources/archives/checklistbank-1153-kinorhyncha-2026-09-01.metadata.json",
+        "metadataBytes": 2968,
+        "metadataSha256": "32a6f94031e3c87349fceaf49847c839ad1c084883958bec9d2dd32abb16da59",
+        "license": "CC-BY-4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "archiveUrl": "https://api.checklistbank.org/dataset/1153/archive",
+        "archivePath": "data/sources/archives/checklistbank-1153-kinorhyncha-2026-09-01.zip",
+        "archiveBytes": 318152,
+        "archiveSha256": "c1bcb2e24081c67db0f2a3c879642ff0d4f10bed75d606111f6c5e44cfd3d470",
+        "members": {
+          "metadata.yml": {
+            "bytes": 2155,
+            "sha256": "d884bd54421cb209ffb931eff5974aa6c9ce9060a5a93e74668fa768ae41271a"
+          },
+          "TypeMaterial.txt": {
+            "bytes": 1120363,
+            "sha256": "4d6d0de42ef283f52177d424fd71c362da77c2a547f8c3f1e3d327d731362519"
+          },
+          "Name.txt": {
+            "bytes": 193787,
+            "sha256": "3bf9ebe9689fb2af82ebf842525508dd9fc96176f468d7a7b7dbb4ba40b28f8a"
+          },
+          "NameRelation.txt": {
+            "bytes": 70896,
+            "sha256": "2374fa8ed35482fde61fa900f3d887113249f544da255780639caca97516a6e3"
+          },
+          "Taxon.txt": {
+            "bytes": 161880,
+            "sha256": "4f6ce8df0ec1be52fdad64cb592ccc6d6aa339a5f9e8d961b13af6baa4696db1"
+          },
+          "Synonym.txt": {
+            "bytes": 60325,
+            "sha256": "bec399d6afd17f2f52bbb718404307b2f47e67b0afd44d60e4e85515678ca8dc"
+          },
+          "SpeciesEstimate.txt": {
+            "bytes": 180,
+            "sha256": "0ee11a9793d7afbf7abc07c2e533adcb30d8fda25f1498511b7907804feb5cc9"
+          },
+          "Reference.txt": {
+            "bytes": 228781,
+            "sha256": "4df0ad137495f0ce526305704c9160fb3a57c63a1f0e1f3bdea7aa57a02f0264"
+          },
+          "NameReference.txt": {
+            "bytes": 1182752,
+            "sha256": "ba1c2f6665b9e8c4564931c79fec75b2dc4f3ed9fca2bb5870ba7d9040165af3"
+          },
+          "Distribution.txt": {
+            "bytes": 14813,
+            "sha256": "c6c657ad2cc7ccd73c50429899edc351c1fc5b6917d946451d1b2b3895c8e684"
+          },
+          "Media.txt": {
+            "bytes": 3448,
+            "sha256": "9c2d5387b2703cc83bbc4d2e8755bcb1dc9282ee4c2b53816a83a044b5d755ba"
+          },
+          "VernacularName.txt": {
+            "bytes": 1208,
+            "sha256": "2e0e80c16f9169d7c08a8b9f4141abc5acd3ae9a413d82d5a7ae123c95553c33"
+          }
+        },
+        "canonicalDescriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals/worms-kinorhyncha-sidecar.json",
+        "canonicalDescriptorBytes": 4829,
+        "canonicalDescriptorSha256": "9b63959d79447a3460c95794ce95f60410122732b3cb4d5f27f24af79ac6ff2a",
+        "sourceLedgerPath": "data/sources/worms-kinorhyncha-archive-1153-import-ledger.json",
+        "sourceLedgerSha256": "0f68f9999b792fddb8e53808b92064f0347a938099708ecbf3917176fe9a91af"
+      },
+      "scope": {
+        "colRootUsageId": "B8VF5",
+        "scientificName": "Kinorhyncha",
+        "eligibleColSpecies": 362,
+        "sourceAcceptedSpecies": 362,
+        "sourceSpeciesRankTaxa": 362,
+        "excludedSourceProvisional": 0
+      },
+      "matching": {
+        "normalization": "NFC and whitespace normalization only; COL trailing authorship removed exactly.",
+        "prohibited": "No fuzzy, case-folded, accent-folded, synonym or species-concept matching."
+      },
+      "counts": {
+        "total": 362,
+        "records": 362,
+        "accepted": 362,
+        "redirect": 0,
+        "ambiguous": 0,
+        "unmatched": 0,
+        "withheld": 0,
+        "upstreamOnly": 0
+      },
+      "files": [
+        {
+          "path": "other-animals/worms-kinorhyncha-000.json.gz",
+          "records": 362,
+          "bytes": 124825,
+          "sha256": "7f8a71ddbb9015a3d116f440656b8e6a78c371f68dec58c9a5fbc8c755ec35ee",
+          "sourceBytes": 1339874,
+          "sourceSha256": "f0543ff9374a9cfe6962e91aa38cc9b9a960e455fb0e7e9c35f02a332e2a076a",
+          "encoding": "gzip",
+          "mediaType": "application/json",
+          "role": "col-partition",
+          "minColId": "37KDR",
+          "maxColId": "XKWH"
+        }
+      ],
+      "upstreamOnlyFiles": [],
+      "totalCompressedBytes": 124825,
+      "totalSourceBytes": 1339874,
+      "deliveryProfiles": {
+        "web-light": {
+          "records": 0,
+          "files": [],
+          "totalCompressedBytes": 0,
+          "totalSourceBytes": 0
+        },
+        "native-full": {
+          "records": 362,
+          "files": [
+            "other-animals/worms-kinorhyncha-000.json.gz"
+          ],
+          "totalCompressedBytes": 124825,
+          "totalSourceBytes": 1339874
+        }
+      },
+      "evidenceBoundary": {
+        "en": "Frozen exact nomenclatural crosswalk for source 1153 Kinorhyncha; not species-concept equivalence, a biological dossier, fossil evidence or expert review.",
+        "zh": "冻结的严格命名交叉映射；不是物种概念等同性、生物档案、化石证据或专家审查。"
+      },
+      "descriptorSha256": "9b63959d79447a3460c95794ce95f60410122732b3cb4d5f27f24af79ac6ff2a",
+      "canonicalFileInventory": [
+        {
+          "path": "other-animals/worms-kinorhyncha-000.json.gz",
+          "records": 362,
+          "bytes": 124825,
+          "sha256": "7f8a71ddbb9015a3d116f440656b8e6a78c371f68dec58c9a5fbc8c755ec35ee",
+          "sourceBytes": 1339874,
+          "sourceSha256": "f0543ff9374a9cfe6962e91aa38cc9b9a960e455fb0e7e9c35f02a332e2a076a",
+          "encoding": "gzip",
+          "mediaType": "application/json",
+          "role": "col-partition",
+          "minColId": "37KDR",
+          "maxColId": "XKWH"
+        }
+      ],
+      "integration": {
+        "clientParityRequirement": "Full-data builds retain every declared row file; Pages publishes summaries only. Client and backend infrastructure evolves independently.",
+        "lookup": {
+          "strategy": "lexicographic-colId-range-v1",
+          "ordering": "Unicode code-unit ascending",
+          "requestPolicy": "Read one inclusive COL-ID range and require an exact colId; range membership is not a scientific identity match."
+        }
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "recordType": "release-pinned-authority-archive-crosswalk",
+      "id": "worms-nematomorpha-archive-crosswalk",
+      "packageId": "other-animals",
+      "provider": "World checklist of freshwater Nematomorpha species via ChecklistBank",
+      "rowEncoding": "json",
+      "colIdField": "colId",
+      "totalCountField": "total",
+      "source": {
+        "datasetId": 1119,
+        "title": "World checklist of freshwater Nematomorpha species",
+        "version": "Dec 2010",
+        "versionDoi": "10.48580/d3cm.v8",
+        "license": "CC-BY-4.0",
+        "archiveUrl": "https://api.checklistbank.org/dataset/1119/archive",
+        "archivePath": "data/sources/archives/checklistbank-1119-nematomorpha-2010-12.tar.gz",
+        "metadataPath": "data/sources/archives/checklistbank-1119-nematomorpha-2010-12.metadata.json",
+        "archiveBytes": 9736,
+        "archiveSha256": "cd3de3c03e103e58eaeb02fbf2d7df1b1f75e4ecaa6510f2e8a50bba9523e3b3",
+        "metadataBytes": 2005,
+        "metadataSha256": "41c31e9120d702125200a4456cd0ea151224e1b8c404a024fa470ccc03405809",
+        "members": {
+          "AcceptedInfraspecificTaxa.tsv": {
+            "bytes": 276,
+            "sha256": "fb6e85531bd7bd721030bcfc1f408f0d26f57a653796cdf9304d2bbced6500ef"
+          },
+          "AcceptedSpecies.tsv": {
+            "bytes": 77920,
+            "sha256": "358a80c075420eb7696550f88b694b8ddde86188e5b9a6085c5fa0c0916a02ec"
+          },
+          "CommonNames.tsv": {
+            "bytes": 95,
+            "sha256": "7dd66d992c2eab4da9a5a11c7c8985288f93aa876ac5f2a888595525f74e27cd"
+          },
+          "Distribution.tsv": {
+            "bytes": 12357,
+            "sha256": "af8c5e75575eb94000c4a2cc94f6dc91be668d4b94308a255930d3fdb3c08bff"
+          },
+          "NameReferences.tsv": {
+            "bytes": 35,
+            "sha256": "6515b94a60d1df3d0aec2655bac63aac4542bc0e461aa76c2a29772fbcf30620"
+          },
+          "References.tsv": {
+            "bytes": 49,
+            "sha256": "41e73dd7e0b33539316668307d325e17ff2664cb26eece6f48fb2d858be86870"
+          },
+          "SourceDatabase.tsv": {
+            "bytes": 1078,
+            "sha256": "001521517cc7ee26a6b6d0a6d5120b588e3be084a154a31a32e945a146d8ba6f"
+          },
+          "Synonyms.tsv": {
+            "bytes": 197,
+            "sha256": "edb7544a25852cce0b8661c552df4a3212fc53954ed818806558b2de776e3a55"
+          }
+        },
+        "canonicalDescriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals/worms-nematomorpha-sidecar.json",
+        "canonicalDescriptorBytes": 4293,
+        "canonicalDescriptorSha256": "021563199dd7361ca756250eb73fe1186bc2b5663f5dfb4f94ff9dc89c549635",
+        "sourceLedgerPath": "data/sources/worms-nematomorpha-archive-1119-import-ledger.json",
+        "sourceLedgerSha256": "f4c9c6ee6bdfcd410c2a1004c91fc5403463e5360c9d20ff472a1d5364874983"
+      },
+      "scope": {
+        "colRootUsageId": "5B",
+        "sourceDatasetId": 1119,
+        "eligibleColSpecies": 356,
+        "sourceAcceptedSpecies": 356
+      },
+      "matching": {
+        "normalization": "NFC and whitespace normalization only; COL trailing authorship is removed exactly.",
+        "prohibited": "No fuzzy, synonym, case-folded, accent-folded or species-concept matching."
+      },
+      "counts": {
+        "total": 356,
+        "accepted": 356,
+        "redirect": 0,
+        "ambiguous": 0,
+        "unmatched": 0,
+        "withheld": 0,
+        "upstreamOnly": 0,
+        "records": 356
+      },
+      "files": [
+        {
+          "path": "other-animals/worms-nematomorpha-000.json.gz",
+          "records": 356,
+          "bytes": 26200,
+          "sha256": "e7319f567ef019e3dc6128d464c65bd4219defaf141a0ad9856b2fd10c5b2527",
+          "sourceBytes": 643895,
+          "sourceSha256": "2626c95e66b607d7f9772fd0a735465e394507a003017ebe5748e403e17b3962",
+          "encoding": "gzip",
+          "mediaType": "application/json",
+          "role": "col-partition",
+          "minColId": "3BT8G",
+          "maxColId": "L5H4"
+        }
+      ],
+      "upstreamOnlyFiles": [],
+      "totalCompressedBytes": 26200,
+      "totalSourceBytes": 643895,
+      "deliveryProfiles": {
+        "web-light": {
+          "records": 0,
+          "files": [],
+          "totalCompressedBytes": 0,
+          "totalSourceBytes": 0
+        },
+        "native-full": {
+          "records": 356,
+          "files": [
+            "other-animals/worms-nematomorpha-000.json.gz"
+          ],
+          "totalCompressedBytes": 26200,
+          "totalSourceBytes": 643895
+        }
+      },
+      "evidenceBoundary": {
+        "en": "Historical 2010 freshwater Nematomorpha checklist projection; not a complete current Nematomorpha checklist, global novelty claim or species-concept equivalence.",
+        "zh": "2010 年历史淡水 Nematomorpha 名录投影；不是当前完整 Nematomorpha 名录、全球新增物种声明或物种概念等同性。"
+      },
+      "limitations": [
+        "The source is historical (Dec 2010); no current completeness claim is made.",
+        "Synonyms and infraspecific rows remain only in the pinned archive evidence."
+      ],
+      "descriptorSha256": "021563199dd7361ca756250eb73fe1186bc2b5663f5dfb4f94ff9dc89c549635",
+      "canonicalFileInventory": [
+        {
+          "path": "other-animals/worms-nematomorpha-000.json.gz",
+          "records": 356,
+          "bytes": 26200,
+          "sha256": "e7319f567ef019e3dc6128d464c65bd4219defaf141a0ad9856b2fd10c5b2527",
+          "sourceBytes": 643895,
+          "sourceSha256": "2626c95e66b607d7f9772fd0a735465e394507a003017ebe5748e403e17b3962",
+          "encoding": "gzip",
+          "mediaType": "application/json",
+          "role": "col-partition",
+          "minColId": "3BT8G",
+          "maxColId": "L5H4"
+        }
+      ],
+      "integration": {
+        "clientParityRequirement": "Full-data builds retain every declared row file; Pages publishes summaries only. Client and backend infrastructure evolves independently.",
+        "lookup": {
+          "strategy": "lexicographic-colId-range-v1",
+          "ordering": "Unicode code-unit ascending",
+          "requestPolicy": "Read one inclusive COL-ID range and require an exact colId; range membership is not a scientific identity match."
+        }
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "recordType": "release-pinned-authority-archive-crosswalk",
+      "id": "worms-ctenophora-archive-crosswalk",
+      "packageId": "other-animals",
+      "provider": "World Register of Marine Species via ChecklistBank",
+      "rowEncoding": "json",
+      "colIdField": "colId",
+      "totalCountField": "total",
+      "source": {
+        "datasetId": "1180",
+        "title": "Phylum Ctenophora: list of all valid species names. Electronic internet document",
+        "version": "2026-09-01",
+        "versionDoi": "10.48580/d3fq.v88",
+        "metadataBytes": 1949,
+        "metadataSha256": "be290d1d2624cc55f49a9e560f00f92850dc5eba27165a739d03694e62aa97a8",
+        "license": "CC-BY-4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "archiveUrl": "https://api.checklistbank.org/dataset/1180/archive",
+        "archivePath": "data/sources/archives/checklistbank-1180-ctenophora-2026-09-01.zip",
+        "metadataPath": "data/sources/archives/checklistbank-1180-ctenophora-2026-09-01.metadata.json",
+        "archiveBytes": 136436,
+        "archiveSha256": "63feaa32a25368a8a5eae966d224f0345c1d120b6e777c0eb19353fdebc965a9",
+        "members": {
+          "metadata.yml": {
+            "bytes": 1270,
+            "sha256": "6b81b0d0abb203cee1eea0e1bbc041ef45a28b4942e360abb7ea0a40e27a0184"
+          },
+          "TypeMaterial.txt": {
+            "bytes": 2091,
+            "sha256": "5590b6d78deff5293055c3048834f6bb8724735c2aed27f6cf74234103736720"
+          },
+          "Name.txt": {
+            "bytes": 161155,
+            "sha256": "35c70138733539724bf3941a5bafa6b5d1a55afe2a3027b23a085377432168a7"
+          },
+          "NameRelation.txt": {
+            "bytes": 63291,
+            "sha256": "03e018eab5c9314c40db92b1689c797d752d0348851b0416ba12581d4c56b16a"
+          },
+          "Taxon.txt": {
+            "bytes": 117568,
+            "sha256": "d09774882237a8067ae82815f916f41aafc7b8bb44b904c8f9814009be9cafbc"
+          },
+          "Synonym.txt": {
+            "bytes": 59542,
+            "sha256": "2cfb6778548306ef80d773dcc151be41e288477ac6397ddc1b180e15b546a8b7"
+          },
+          "SpeciesEstimate.txt": {
+            "bytes": 35,
+            "sha256": "552ac985d21f5b6e89941c9a4b07715a7f4a56106b5d50480ecf9dcba5f901e5"
+          },
+          "Reference.txt": {
+            "bytes": 111463,
+            "sha256": "85733bb39d25b23de13762ee6e684309cb2b14f1e295d2c6977d4a955af8ea48"
+          },
+          "NameReference.txt": {
+            "bytes": 433484,
+            "sha256": "92948e54529a60adfe173e7d698e55c7f3e496b6f714136988f84694b5c92fb9"
+          },
+          "Distribution.txt": {
+            "bytes": 51257,
+            "sha256": "07bb70dafa4341b84f45d0b98e8c7d5cd09990c3d94c1c2775d47007fe921379"
+          },
+          "Media.txt": {
+            "bytes": 19758,
+            "sha256": "f9ac51e7e2f5b970623adaa0ee2c40092e50fd970bff7b1b5a1a0fac81fb7a42"
+          },
+          "VernacularName.txt": {
+            "bytes": 10627,
+            "sha256": "99f64cca96bd721bd84e5705ae79115a6b3e82a432307ccfdc5852c83358c5f5"
+          }
+        },
+        "canonicalDescriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals/worms-ctenophora-sidecar.json",
+        "canonicalDescriptorBytes": 5583,
+        "canonicalDescriptorSha256": "876dea03cafe6d6a51b956ae38d21c8b135030cba8088872924f76489d9536d0",
+        "sourceLedgerPath": "data/sources/worms-ctenophora-archive-1180-import-ledger.json",
+        "sourceLedgerSha256": "cee43f16d12722a365e3065811aade3cf7fa7a74306dcfcf929688b7bab97870"
+      },
+      "scope": {
+        "colRootUsageIds": [
+          "B8V3L"
+        ],
+        "scientificName": "Ctenophora",
+        "eligibleColSpecies": 197,
+        "sourceAcceptedSpecies": 201,
+        "excludedSourceProvisional": 0
+      },
+      "matching": {
+        "normalization": "NFC and whitespace normalization only; COL trailing authorship is removed exactly.",
+        "prohibited": "No fuzzy, case-folded, accent-folded, synonym or species-concept matching."
+      },
+      "counts": {
+        "total": 197,
+        "accepted": 197,
+        "redirect": 0,
+        "ambiguous": 0,
+        "unmatched": 0,
+        "withheld": 0,
+        "upstreamOnly": 4,
+        "records": 201
+      },
+      "files": [
+        {
+          "path": "other-animals/worms-ctenophora-000.json.gz",
+          "records": 197,
+          "bytes": 45633,
+          "sha256": "9c591f783b7b6d5cc7c4ad2971267ed21e8151c49f804ea1f68089abac630ca4",
+          "sourceBytes": 509707,
+          "sourceSha256": "cbd6bda7179f6396974c6461356382037e4edf1088e3b7160afed7b0399795ef",
+          "encoding": "gzip",
+          "mediaType": "application/json",
+          "role": "col-partition",
+          "minColId": "326LZ",
+          "maxColId": "ZWSP"
+        }
+      ],
+      "upstreamOnlyFiles": [
+        {
+          "path": "other-animals/worms-ctenophora-source-only-000.json.gz",
+          "records": 4,
+          "bytes": 1879,
+          "sha256": "431e0a6386cb80e4e1efc96be1d7c8e6d328967c7ac40a0af6b11d0cd33058d1",
+          "sourceBytes": 11468,
+          "sourceSha256": "5903a2dae89348e0d10038660629547c8b2363da104fb634ae593ca72ffa1077",
+          "encoding": "gzip",
+          "mediaType": "application/json",
+          "role": "upstream-only"
+        }
+      ],
+      "evidenceBoundary": {
+        "en": "Frozen WoRMS nomenclatural/source projection for the exact COL26.8 source-1180 Ctenophora root; not species-concept equivalence, a biological dossier, fossil evidence or expert review.",
+        "zh": "精确 COL26.8 source-1180 Ctenophora 根节点范围的 WoRMS 冻结命名/来源投影；不是物种概念等同性、生物档案、化石证据或专家审查。"
+      },
+      "limitations": [
+        "Source-only rows are relative only to COL source dataset 1180.",
+        "Name.status is nomenclatural metadata and is not used as taxonomic acceptance.",
+        "Synonym.taxonID targets do not remove accepted Taxon rows."
+      ],
+      "totalCompressedBytes": 47512,
+      "totalSourceBytes": 521175,
+      "deliveryProfiles": {
+        "web-light": {
+          "records": 0,
+          "files": [],
+          "totalCompressedBytes": 0,
+          "totalSourceBytes": 0
+        },
+        "native-full": {
+          "records": 201,
+          "files": [
+            "other-animals/worms-ctenophora-000.json.gz",
+            "other-animals/worms-ctenophora-source-only-000.json.gz"
+          ],
+          "totalCompressedBytes": 47512,
+          "totalSourceBytes": 521175
+        }
+      },
+      "descriptorSha256": "876dea03cafe6d6a51b956ae38d21c8b135030cba8088872924f76489d9536d0",
+      "canonicalFileInventory": [
+        {
+          "path": "other-animals/worms-ctenophora-000.json.gz",
+          "records": 197,
+          "bytes": 45633,
+          "sha256": "9c591f783b7b6d5cc7c4ad2971267ed21e8151c49f804ea1f68089abac630ca4",
+          "sourceBytes": 509707,
+          "sourceSha256": "cbd6bda7179f6396974c6461356382037e4edf1088e3b7160afed7b0399795ef",
+          "encoding": "gzip",
+          "mediaType": "application/json",
+          "role": "col-partition",
+          "minColId": "326LZ",
+          "maxColId": "ZWSP"
+        },
+        {
+          "path": "other-animals/worms-ctenophora-source-only-000.json.gz",
+          "records": 4,
+          "bytes": 1879,
+          "sha256": "431e0a6386cb80e4e1efc96be1d7c8e6d328967c7ac40a0af6b11d0cd33058d1",
+          "sourceBytes": 11468,
+          "sourceSha256": "5903a2dae89348e0d10038660629547c8b2363da104fb634ae593ca72ffa1077",
+          "encoding": "gzip",
+          "mediaType": "application/json",
+          "role": "upstream-only"
+        }
+      ],
+      "integration": {
+        "clientParityRequirement": "Full-data builds retain every declared row file; Pages publishes summaries only. Client and backend infrastructure evolves independently.",
+        "lookup": {
+          "strategy": "lexicographic-colId-range-v1",
+          "ordering": "Unicode code-unit ascending",
+          "requestPolicy": "Read one inclusive COL-ID range and require an exact colId; range membership is not a scientific identity match."
+        }
+      }
     }
   ]
 }
