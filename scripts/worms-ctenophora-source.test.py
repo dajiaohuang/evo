@@ -71,6 +71,9 @@ class CtenophoraProjectionTests(unittest.TestCase):
                     self.assertIn({'member': 'Name.txt', 'row': name_row_numbers[name['ID']]}, out['sourceRows'])
                     for row_number in name_reference_rows.get(name['ID'], []):
                         self.assertIn({'member': 'NameReference.txt', 'row': row_number}, out['sourceRows'])
+                    for reference_id in {name.get('referenceID'), taxon.get('referenceID')} - {None, ''}:
+                        if reference_id in references_raw:
+                            self.assertIn({'member': 'Reference.txt', 'row': reference_row_numbers[reference_id]}, out['sourceRows'])
                     expected_ids = name_reference_ids.get(name['ID'], set()) | {name.get('referenceID'), taxon.get('referenceID')}
                     expected_ids = {rid.strip() for rid in expected_ids if rid and rid.strip()}
                     self.assertEqual({ref['referenceID'] for ref in out['references']}, expected_ids)

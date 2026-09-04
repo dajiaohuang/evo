@@ -10,7 +10,6 @@
     "metadataSha256": "be290d1d2624cc55f49a9e560f00f92850dc5eba27165a739d03694e62aa97a8",
     "license": "CC-BY-4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
-    "rightsHolder": "WoRMS Editorial Board",
     "archiveUrl": "https://api.checklistbank.org/dataset/1180/archive",
     "archivePath": "data/sources/archives/checklistbank-1180-ctenophora-2026-09-01.zip",
     "metadataPath": "data/sources/archives/checklistbank-1180-ctenophora-2026-09-01.metadata.json",
@@ -1352,23 +1351,23 @@
   ],
   "generatedBy": {
     "script": "scripts/build-worms-ctenophora-source.py",
-    "scriptSha256": "7cb5bf974d08c5cadc5d95625bf177eb574c6b772c3bda61341016c8671c1d02",
+    "scriptSha256": "0b9ae143e7ee7c2c0935e7e2b504e8ab1ee8d4a4339875d088db34bfd1cb6c45",
     "hashNormalization": "LF"
   },
   "outputs": {
     "descriptor": {
       "path": "data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals/worms-ctenophora-sidecar.json",
-      "bytes": 5628,
-      "sha256": "ab731e19125f298a1d054f4724e5a91c174aca2e446b1c9b6dde171cda9d6c89"
+      "bytes": 5583,
+      "sha256": "876dea03cafe6d6a51b956ae38d21c8b135030cba8088872924f76489d9536d0"
     },
     "files": [
       {
         "path": "other-animals/worms-ctenophora-000.json.gz",
         "records": 197,
-        "bytes": 45489,
-        "sha256": "94c3590692272852acb89f4ae75c9af9ddaac4973e998bb3ce1f6638874768ca",
-        "sourceBytes": 504367,
-        "sourceSha256": "ec54cfa55cdf89e09e46e6b17e6e003ece94f6dfd73d26276e7b43c8e456f2cd",
+        "bytes": 45633,
+        "sha256": "9c591f783b7b6d5cc7c4ad2971267ed21e8151c49f804ea1f68089abac630ca4",
+        "sourceBytes": 509707,
+        "sourceSha256": "cbd6bda7179f6396974c6461356382037e4edf1088e3b7160afed7b0399795ef",
         "encoding": "gzip",
         "mediaType": "application/json",
         "role": "col-partition",
@@ -1380,10 +1379,10 @@
       {
         "path": "other-animals/worms-ctenophora-source-only-000.json.gz",
         "records": 4,
-        "bytes": 1875,
-        "sha256": "d234d800ed60baa8caea046f2a97bbb9809628d63321e78e3ea1035e4efcf234",
-        "sourceBytes": 11323,
-        "sourceSha256": "09d23a4a77fd4c52e3d7bdf9db9293074bfa532488818ae9a40254e955ac8115",
+        "bytes": 1879,
+        "sha256": "431e0a6386cb80e4e1efc96be1d7c8e6d328967c7ac40a0af6b11d0cd33058d1",
+        "sourceBytes": 11468,
+        "sourceSha256": "5903a2dae89348e0d10038660629547c8b2363da104fb634ae593ca72ffa1077",
         "encoding": "gzip",
         "mediaType": "application/json",
         "role": "upstream-only"
