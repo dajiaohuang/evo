@@ -306,6 +306,81 @@
         "The current Darriwilian boundaries provide a stage-scale proxy for a late-Darriwilian occurrence, not a point date. The Botting–Muir material is a named locality and articulated specimen record; it does not establish a global holothurian FAD, origin centre, direct ancestor, complete distribution or exact map-marker co-location, and the disputed Cambrian PBDB identification remains excluded.",
         "当前达瑞威尔阶界线只是晚达瑞威尔期出现记录的阶级尺度代理，不是点年龄。Botting–Muir 材料是具名地点和关节标本记录；它不能建立海参类全球首现、起源中心、直系祖先、完整分布或精确地图标记共定位，存在争议的寒武纪 PBDB 鉴定仍被排除。"
       ]
+    },
+    {
+      "id": "echinoderms-delgadella-stereom-ossicles-map",
+      "type": "explorer-preset",
+      "title": {
+        "en": "Cambrian isolated stereom window",
+        "zh": "寒武纪孤立 stereom 窗口"
+      },
+      "description": {
+        "en": "Use the source-calibrated approximately 525–520 Ma early Cambrian interval as generic map context and read the linked evidence for isolated stereom ossicles from the Delgadella anabara Zone. Ossicle microstructure is fossil evidence, not an articulated animal or a demonstrated ancestor.",
+        "zh": "以来源校准的约 525–520 Ma 早寒武世区间作为一般地图背景，阅读关联证据中 Delgadella anabara 带的孤立 stereom 骨片。骨片微结构是化石证据，并非关节连接动物或已证实的祖先。"
+      },
+      "route": "#/explore?taxon=echinodermata&view=map&age=522.5&older=525&younger=520",
+      "entityIds": [
+        "echinodermata"
+      ],
+      "claimIds": [
+        "claim:taxon:echinodermata:earliest-stereom-ossicles"
+      ],
+      "evidenceStatus": "available-with-limitations",
+      "limitations": [
+        "The age is the source’s approximate 2013 calibration, older than the atlas’s current formal Stage 3 boundary scheme, and is not a point date or a global Echinodermata FAD.",
+        "Isolated stereom records skeletal microstructure without body plan, locality-wide abundance or complete anatomy; echinoderm affinity and the inference of early skeleton acquisition remain distinct from a named species, direct ancestry, complete distribution or exact fossil-to-paleomap co-registration.",
+        "The route opens generic taxon/period map context; it has no study-locality or specimen selector. Read the linked evidence dossier for the cited material. Available markers are separate occurrence records and do not locate or guarantee those study samples."
+      ]
+    },
+    {
+      "id": "echinoderms-eriaster-ibexensis-utah-map",
+      "type": "explorer-preset",
+      "title": {
+        "en": "Eriaster ibexensis top-Tremadocian body-fossil window",
+        "zh": "Eriaster ibexensis 特雷马多克阶顶部身体化石窗口"
+      },
+      "description": {
+        "en": "Use the latest-Tremadocian temporal anchor as generic map context and read Blake and Guensburg’s linked evidence for Eriaster ibexensis from Utah. Their asteroid body-fossil interpretation is distinct from earlier Asteriacites traces with problematic producer attribution.",
+        "zh": "以最晚特雷马多克期时间锚点作为一般地图背景，阅读 Blake 与 Guensburg 关于犹他州 Eriaster ibexensis 的关联证据。其海星身体化石解释与更早但产迹者归属存疑的 Asteriacites 遗迹保持区分。"
+      },
+      "route": "#/explore?taxon=asteroidea&view=map&age=478&older=478&younger=477.1",
+      "entityIds": [
+        "asteroidea"
+      ],
+      "claimIds": [
+        "claim:taxon:asteroidea:top-tremadocian-body-fossil"
+      ],
+      "evidenceStatus": "available-with-limitations",
+      "limitations": [
+        "The 478 Ma selector is a rounded stage-level placement at the very top of the Tremadocian, not a directly dated specimen or a global Asteroidea FAD.",
+        "Eriaster morphology supports an asteroid body-fossil assignment, while the excluded Asteriacites traces cannot identify a producer. The occurrence does not establish a direct ancestor, complete distribution, observed ecology or exact specimen-to-paleomap co-registration.",
+        "The route opens generic taxon/period map context; it has no study-locality or specimen selector. Read the linked evidence dossier for the cited material. Available markers are separate occurrence records and do not locate or guarantee those study samples."
+      ]
+    },
+    {
+      "id": "echinoderms-kinzers-eocystites-lepidocystis-map",
+      "type": "explorer-preset",
+      "title": {
+        "en": "Early Cambrian articulated echinoderm-fauna window",
+        "zh": "早寒武世关节连接棘皮动物群窗口"
+      },
+      "description": {
+        "en": "Use the rounded 515.3–509.7 Ma interval as generic map context and read the linked synthesis of articulated Eocystites and Lepidocystis records from Kinzers and Parker Slate. Smith, Zamora and Álvaro use these assemblages to document differentiated body plans by about 510 Ma.",
+        "zh": "以取整的 515.3–509.7 Ma 区间作为一般地图背景，阅读关联综述中 Kinzers 与 Parker Slate 的关节连接 Eocystites 和 Lepidocystis 记录。Smith、Zamora 与 Álvaro 以这些组合记录约 510 Ma 已有分化的体型方案。"
+      },
+      "route": "#/explore?taxon=echinodermata&view=map&age=512.5&older=515.3&younger=509.7",
+      "entityIds": [
+        "echinodermata"
+      ],
+      "claimIds": [
+        "claim:taxon:echinodermata:articulated-faunas-510ma"
+      ],
+      "evidenceStatus": "available-with-limitations",
+      "limitations": [
+        "The 515.3–509.7 Ma values are PBDB occurrence envelopes for sampled formations and a rounded literature synthesis, not direct dates for every specimen or a global origin boundary.",
+        "Articulated bodies and differentiated plans are direct observations; taxonomic assignment, ecological setting and rapid body-plan diversification are literature-level interpretations. The map does not establish a single ancestral lineage, complete distribution, exact abundance or fossil-marker co-registration.",
+        "The route opens generic taxon/period map context; it has no study-locality or specimen selector. Read the linked evidence dossier for the cited material. Available markers are separate occurrence records and do not locate or guarantee those study samples."
+      ]
     }
   ]
 }

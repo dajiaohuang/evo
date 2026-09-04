@@ -293,6 +293,85 @@
         "Nasal-horn, rostrum and postorbital-horn variation and intermediate combinations are cranial and stratigraphic observations; interpreting them as an ontogenetic or evolutionary trend is an analysis, not a direct ancestor–descendant series, and Triceratops–Torosaurus taxonomy remains contested.",
         "The cited studies do not directly determine diet, habitat, locomotion or ecological guild. PBDB coordinates represent bounded collection records, not exact study-skull locations, complete distribution or fossil-to-paleomap co-registration."
       ]
+    },
+    {
+      "id": "dinosauria-oviraptorid-ukhaa-tolg-egg-window",
+      "type": "explorer-preset",
+      "title": {
+        "en": "Oviraptorid Ukhaa Tolgod nest-association window",
+        "zh": "窃蛋龙类乌哈托格德巢穴关联窗口"
+      },
+      "description": {
+        "en": "Use the 75–71 Ma interval as generic taxon/age map context and read the linked evidence for IGM 100/979, a partial oviraptorid skeleton over a circular egg clutch from the Djadokhta Formation at Ukhaa Tolgod. The dossier distinguishes the preserved association from behavioural interpretation.",
+        "zh": "以 75–71 Ma 区间作为一般类群/时间地图背景，阅读关联证据中的 IGM 100/979：来自乌哈托格德达扎多赫塔组、保存于圆形蛋窝上方的窃蛋龙类部分骨架。档案区分保存的关联关系与行为解释。"
+      },
+      "route": "#/explore?taxon=oviraptorosauria&view=map&age=73&older=75&younger=71",
+      "entityIds": [
+        "oviraptorosauria"
+      ],
+      "claimIds": [
+        "claim:event:oviraptorid-igm100979-nest-association"
+      ],
+      "evidenceStatus": "available-with-limitations",
+      "limitations": [
+        "IGM 100/979 is a single partial specimen from the Djadokhta Formation at Ukhaa Tolgod; the 75–71 Ma route is a formation-level sample window, not a direct date for every element or a global oviraptorosaurian FAD/LAD.",
+        "The folded limbs over at least fifteen eggs and the lack of evident transport support a brooding or parental-care interpretation, but they do not directly observe behaviour or establish a single, complete nesting system.",
+        "The route opens generic taxon/period map context; it has no study-locality or specimen selector. Read the linked evidence dossier for the cited material. Available markers are separate occurrence records and do not locate or guarantee those study samples."
+      ]
+    },
+    {
+      "id": "dinosauria-edmontosaurus-hell-creek-mummy-window",
+      "type": "explorer-preset",
+      "title": {
+        "en": "Edmontosaurus Hell Creek skin-taphonomy window",
+        "zh": "埃德蒙顿龙地狱溪组皮肤埋藏学窗口"
+      },
+      "description": {
+        "en": "Use the 67–66 Ma interval as generic taxon/age map context and read the linked study of NDGS 2000, a skin-bearing Edmontosaurus specimen from North Dakota’s Hell Creek Formation, with CT, sediment and feeding-trace evidence for its preservation.",
+        "zh": "以 67–66 Ma 区间作为一般类群/时间地图背景，阅读关联研究中的 NDGS 2000：来自北达科他州地狱溪组的带皮肤埃德蒙顿龙标本，以及关于其保存过程的 CT、沉积物与取食痕迹证据。"
+      },
+      "route": "#/explore?taxon=edmontosaurus&view=map&age=66.5&older=67&younger=66",
+      "entityIds": [
+        "edmontosaurus"
+      ],
+      "claimIds": [
+        "claim:event:edmontosaurus-ndgs2000-skin-taphonomy",
+        "claim:taxon:edmontosaurus:source-bounded-range-rc49"
+      ],
+      "evidenceStatus": "available-with-limitations",
+      "limitations": [
+        "NDGS 2000 is one carcass from the Hell Creek Formation in North Dakota; 67–66 Ma follows the sampled latest-Cretaceous cranial and mummy envelope, not a direct date for every tissue or a global Edmontosaurus FAD/LAD.",
+        "Skin draped over bones, punctures, hook scores and CT-visible manus anatomy are observations. Scavenging-assisted deflation, desiccation and burial are a proposed taphonomic pathway for this carcass, not a universal preservation recipe or evidence of original colour or physiology.",
+        "The route opens generic taxon/period map context; it has no study-locality or specimen selector. Read the linked evidence dossier for the cited material. Available markers are separate occurrence records and do not locate or guarantee those study samples."
+      ]
+    },
+    {
+      "id": "dinosauria-tyrannosaurus-osteophagy-hell-creek-window",
+      "type": "explorer-preset",
+      "title": {
+        "en": "Tyrannosaurus western North American osteophagy window",
+        "zh": "霸王龙北美西部食骨证据窗口"
+      },
+      "description": {
+        "en": "Use the 68–66 Ma latest-Maastrichtian interval as generic map context and read the linked osteophagy evidence. MOR 799 bite traces are from Montana’s Hell Creek Formation; coprolite SMNH P2609.1 is from Saskatchewan’s Frenchman Formation. The adult skull sample supplies a separate model of Tyrannosaurus bone-fracturing capability.",
+        "zh": "以 68–66 Ma 最晚马斯特里赫特期区间作为一般地图背景，阅读关联的食骨证据。MOR 799 咬痕来自蒙大拿州地狱溪组，粪化石 SMNH P2609.1 来自萨斯喀彻温省 Frenchman 组；成年头骨样本另行提供霸王龙碎骨能力的模型。"
+      },
+      "route": "#/explore?taxon=tyrannosaurus&view=map&age=67&older=68&younger=66",
+      "entityIds": [
+        "tyrannosaurus"
+      ],
+      "claimIds": [
+        "claim:event:tyrannosaurus-osteophagy-biomechanics",
+        "claim:taxon:tyrannosaurus:fossil-range",
+        "claim:taxon:tyrannosaurus:morphology",
+        "claim:taxon:tyrannosaurus:ecology"
+      ],
+      "evidenceStatus": "available-with-limitations",
+      "limitations": [
+        "Approximately eighty tooth traces on the Triceratops ilium MOR 799 and bone in coprolite SMNH P2609.1 document bone interaction and ingestion in bounded contexts; the 68–66 Ma route is a latest-Maastrichtian sample window, not a global FAD/LAD.",
+        "Bite force and tooth-pressure values are muscle-and-lever model outputs from BHI 3033 and six comparative adult skulls. They test capability rather than directly observing a feeding event or proving that every Tyrannosaurus used the same strategy.",
+        "The route opens generic taxon/period map context; it has no study-locality or specimen selector. Read the linked evidence dossier for the cited material. Available markers are separate occurrence records and do not locate or guarantee those study samples."
+      ]
     }
   ]
 }

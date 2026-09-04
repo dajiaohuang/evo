@@ -46,7 +46,7 @@ export function TemporalPackageCards({ ageMa }: TemporalPackageCardsProps) {
         const exampleTitle = language === 'zh' ? card.example.title.zh : card.example.title.en
         const exampleDescription = language === 'zh' ? card.example.description.zh : card.example.description.en
         return <article className="map-temporal-card" key={`${card.packageId}:${card.example.id}`}>
-          <div className="map-temporal-card__meta"><span>{t(card.example.type === 'comparison' ? 'Comparison' : 'Research scene')}</span><code>{card.range.olderMa}–{card.range.youngerMa} Ma</code></div>
+          <div className="map-temporal-card__meta"><span>{t(card.example.type === 'comparison' ? 'Comparison' : 'Research scene')}</span><code>{card.olderMa}–{card.youngerMa} Ma</code></div>
           <h3>{title}</h3><strong>{exampleTitle}</strong><p>{exampleDescription}</p>
           <dl><div><dt>{t('Range evidence')}</dt><dd>{card.range.taxonomicConcept}</dd></div><div><dt>{t('Geographic scope')}</dt><dd>{card.range.geographicScope}</dd></div></dl>
           <p className="map-temporal-card__limitation"><b>{t('Limitations')}</b>{t(card.example.limitations[0] ?? 'The linked evidence keeps its stated boundary.')}</p>

@@ -1,5 +1,13 @@
 # Dataset changelog
 
+## App 0.20.54 / 2026.09-static-v5-rc103 — 2026-09-04
+
+- Added 18 bilingual, source-linked research scenes across Tetrapod transition, Echinoderms, Dinosauria, Crustaceans and insects, Carnivora, and Trilobites and chelicerates. The atlas now exposes 312 scenes, 513 scene-to-claim links, and 258 age-driven routes.
+- Kept developmental experiments, genomic topologies, clock estimates, isolated skeletal material, nest associations, preservation models, and feeding biomechanics distinct from directly observed history or behaviour.
+- Source review makes map routes explicit taxon/period context rather than selected study specimens. It separates Hell Creek bite-trace evidence from the Frenchman Formation coprolite, identifies older Zachełmie evidence as outside the displayed synthesis interval, and labels the early-stereom interval as the source’s historical calibration rather than current Stage 3 boundaries.
+- Fixed map-card time matching to intersect each explicit scene window with its claim-linked published range. Dated scenes no longer appear throughout a taxon's broader history, and card age labels show the matching intersection.
+- Android and iOS advance to build `57` / app `0.20.54` with the same complete native dataset. Pages retains the lighter delivery profile and unchanged capacity limits. Human and external scientific review statuses are not promoted.
+
 ## App 0.20.53 / 2026.09-static-v5-rc102 — 2026-09-04
 
 - Added six source-bounded research scenes covering the Avalon assemblage, Snowy Plains amniote-track interpretation, competing placental topology models, *Micrina*, *Octopus bimaculoides*, and *Lingula anatina*.

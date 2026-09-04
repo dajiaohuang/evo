@@ -1,4 +1,5 @@
 import type { RuntimeRangeEvidence, RuntimeResearchExample } from '../../data-client/types'
+import { getFiniteRouteNumber, parseRouteHash } from '../../utils/routing'
 
 export interface TemporalPackageSource {
   id: string
@@ -14,6 +15,8 @@ export interface TemporalPackageCard {
   packageTitleZh: string
   example: RuntimeResearchExample
   range: RuntimeRangeEvidence
+  olderMa: number
+  youngerMa: number
 }
 
 function rangeContainsAge(range: RuntimeRangeEvidence, ageMa: number): boolean {
@@ -33,11 +36,19 @@ function compareRanges(left: RuntimeRangeEvidence, right: RuntimeRangeEvidence):
 /**
  * A research scene is time-relevant only when one of its linked entities has a
  * published interval at the selected age and that interval shares a claim ID
- * with the scene. This deliberately does not treat an unlinked package range
- * as evidence for a scene.
+ * with the scene. An explicit scene window further narrows that interval;
+ * the taxon's broader range must not surface a dated scene at another time.
+ * Unbounded evidence-entry routes retain their linked published interval.
  */
 export function findTemporalPackageCards(packages: TemporalPackageSource[], ageMa: number): TemporalPackageCard[] {
   return packages.flatMap((pack) => pack.examples.flatMap((example) => {
+    const { params } = parseRouteHash(example.route)
+    const older = getFiniteRouteNumber(params, 'older')
+    const younger = getFiniteRouteNumber(params, 'younger')
+    const anchor = older === null && younger === null ? getFiniteRouteNumber(params, 'age') : null
+    const sceneOlder = older ?? anchor ?? Infinity
+    const sceneYounger = younger ?? anchor ?? -Infinity
+    if (ageMa > sceneOlder || ageMa < sceneYounger) return []
     const exampleClaims = new Set(example.claimIds)
     const range = pack.ranges
       .filter((candidate) => example.entityIds.includes(candidate.entityId)
@@ -50,6 +61,8 @@ export function findTemporalPackageCards(packages: TemporalPackageSource[], ageM
       packageTitleZh: pack.titleZh,
       example,
       range,
+      olderMa: Math.min(range.olderMa, sceneOlder),
+      youngerMa: Math.max(range.youngerMa, sceneYounger),
     }] : []
   })).sort((left, right) => left.packageTitle.localeCompare(right.packageTitle) || left.example.title.en.localeCompare(right.example.title.en))
 }
