@@ -10,11 +10,19 @@ class NemerteaTest(unittest.TestCase):
     o=Path(t)/x; subprocess.run(['python','-B',str(SCRIPT),'--archive',str(ARCH),'--metadata',str(META),'--output-root',str(o)],cwd=ROOT,check=True,capture_output=True,text=True);outs.append(o)
    files=lambda o:sorted((p.relative_to(o),hashlib.sha256(p.read_bytes()).hexdigest()) for p in o.rglob('*') if p.is_file())
    self.assertEqual(files(outs[0]),files(outs[1])); pack=outs[0]/'data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals'; d=json.loads((pack/'worms-nemertea-sidecar.json').read_text(encoding='utf8')); self.assertEqual(d['counts'],{'total':1364,'accepted':1361,'redirect':0,'ambiguous':0,'unmatched':3,'withheld':0,'upstreamOnly':12,'records':1376}); self.assertEqual(d['deliveryProfiles']['web-light']['mode'],'summary-only'); self.assertEqual(d['deliveryProfiles']['native-full']['records'],1376)
-   rows=sum([json.load(gzip.open(pack/f'worms-nemertea-{i:03d}.json.gz','rt',encoding='utf8')) for i in range(len(d['files']))],[])
-   with zipfile.ZipFile(ARCH) as z: src=list(csv.DictReader(z.read('Name.txt').decode('utf-8-sig').splitlines(),delimiter='\t'))
-   expected={i+2:(r['ID'],r['scientificName'],r.get('authorship')) for i,r in enumerate(src)}
+   for p in outs[0].rglob('*'):
+    if p.is_file():
+     canonical_path=ROOT/p.relative_to(outs[0]); self.assertTrue(canonical_path.exists()); self.assertEqual(p.read_bytes(),canonical_path.read_bytes())
+   rows=sum([json.load(gzip.open(pack/f'worms-nemertea-{i:03d}.json.gz','rt',encoding='utf8')) for i in range(len(d['files']))],[]); rows += json.load(gzip.open(pack/'worms-nemertea-source-only-000.json.gz','rt',encoding='utf8'))
+   with zipfile.ZipFile(ARCH) as z:
+    names=list(csv.DictReader(z.read('Name.txt').decode('utf-8-sig').splitlines(),delimiter='\t')); taxa=list(csv.DictReader(z.read('Taxon.txt').decode('utf-8-sig').splitlines(),delimiter='\t')); refs={r['ID']:r for r in csv.DictReader(z.read('Reference.txt').decode('utf-8-sig').splitlines(),delimiter='\t')}
+   expected={i+2:(r['ID'],r['scientificName'],r.get('authorship')) for i,r in enumerate(names)}; taxa_by_id={r['ID']:r for r in taxa}; source_ids=set()
    for r in rows:
-    if r['status']!='accepted': continue
-    loc=next(x['row'] for x in r['sourceRows'] if x['member']=='Name.txt'); self.assertEqual((r['matchedName']['id'],r['matchedName']['scientificName'],r['matchedName']['authorship']),expected[loc])
-   self.assertEqual(before,{p.name:p.read_bytes() for p in [*canon.glob('worms-nemertea-*'),ROOT/'data/sources/worms-nemertea-archive-1085-import-ledger.json']})
+    if not r.get('acceptedName'): continue
+    nl=next(x for x in r['sourceRows'] if x['member']=='Name.txt'); tl=next(x for x in r['sourceRows'] if x['member']=='Taxon.txt'); name=expected[nl['row']]; tax=taxa_by_id[r['acceptedName']['taxonId']]; source_ids.add(r['acceptedName']['taxonId'])
+    self.assertEqual((r['acceptedName']['nameId'],r['acceptedName']['scientificName'],r['acceptedName']['authorship']),name); self.assertEqual(r['acceptedName']['taxonId'],tax['ID']); self.assertEqual(tl['row'],next(i+2 for i,x in enumerate(taxa) if x['ID']==tax['ID']))
+    for q in r.get('references',[]):
+     self.assertIn(q['referenceID'],refs); self.assertEqual(q.get('reference',{}),refs[q['referenceID']])
+     if q.get('sourceRows'): self.assertEqual(q['sourceRows'][0]['row'],next(i+2 for i,x in enumerate(refs.values()) if x['ID']==q['referenceID']))
+   self.assertEqual(len(source_ids),1373); self.assertEqual(before,{p.name:p.read_bytes() for p in [*canon.glob('worms-nemertea-*'),ROOT/'data/sources/worms-nemertea-archive-1085-import-ledger.json']})
 if __name__=='__main__':unittest.main()
