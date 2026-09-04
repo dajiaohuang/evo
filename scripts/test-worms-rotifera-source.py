@@ -18,6 +18,8 @@ class RotiferaSourceTest(unittest.TestCase):
             left = sorted((p.relative_to(outs[0]), hashlib.sha256(p.read_bytes()).hexdigest()) for p in outs[0].rglob('*') if p.is_file())
             right = sorted((p.relative_to(outs[1]), hashlib.sha256(p.read_bytes()).hexdigest()) for p in outs[1].rglob('*') if p.is_file())
             self.assertEqual(left, right)
+            for relative, digest in left:
+                self.assertEqual(digest, hashlib.sha256((ROOT / relative).read_bytes()).hexdigest(), str(relative))
             pack = outs[0] / 'data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals'
             descriptor = json.loads((pack / 'worms-rotifera-sidecar.json').read_text(encoding='utf8'))
             self.assertEqual(descriptor['counts'], {'total': 2467, 'accepted': 2467, 'redirect': 0, 'ambiguous': 0, 'unmatched': 0, 'withheld': 0, 'upstreamOnly': 0, 'records': 2467})
@@ -28,7 +30,7 @@ class RotiferaSourceTest(unittest.TestCase):
             self.assertEqual(native['totalCompressedBytes'], sum(f['bytes'] for f in descriptor['files']))
             self.assertEqual(native['totalSourceBytes'], sum(f['sourceBytes'] for f in descriptor['files']))
             for f in descriptor['files']:
-                self.assertLessEqual(f['bytes'], 2 * 1024 * 1024); self.assertEqual(f['encoding'], 'gzip'); self.assertEqual(f['role'], 'col-partition'); self.assertTrue(f['minColId'] <= f['maxColId'])
+                self.assertLessEqual(f['sourceBytes'], 2 * 1024 * 1024); self.assertEqual(f['encoding'], 'gzip'); self.assertEqual(f['role'], 'col-partition'); self.assertTrue(f['minColId'] <= f['maxColId'])
             rows = json.loads(gzip.open(pack / 'worms-rotifera-000.json.gz', 'rt', encoding='utf8').read())
             with zipfile.ZipFile(SOURCE_DIR / 'checklistbank-298081-rotifera-2026-09-05.zip') as archive:
                 source = list(csv.DictReader(archive.read('NameUsage.tsv').decode('utf-8-sig').splitlines(), delimiter='\t'))
