@@ -36,7 +36,7 @@ class MonogeneaProjectionTests(unittest.TestCase):
             descriptor = json.loads((first_root / relative / "worms-monogenea-sidecar.json").read_text(encoding="utf-8"))
             self.assertEqual(descriptor["scope"]["colStrictAcceptedSpecies"], 5852)
             self.assertEqual(descriptor["scope"]["sourceStrictAcceptedSpecies"], 5878)
-            self.assertEqual(descriptor["counts"], {"total": 5895, "accepted": 5835, "redirect": 0, "ambiguous": 0, "unmatched": 17, "withheld": 0, "upstreamOnly": 43, "records": 5895})
+            self.assertEqual(descriptor["counts"], {"total": 5852, "accepted": 5835, "redirect": 0, "ambiguous": 0, "unmatched": 17, "withheld": 0, "upstreamOnly": 43, "records": 5895})
             self.assertEqual(sum(x["records"] for x in descriptor["files"]), 5852)
             self.assertEqual(sum(x["records"] for x in descriptor["upstreamOnlyFiles"]), 43)
             self.assertEqual(descriptor["source"]["archiveSha256"], hashlib.sha256(ARCHIVE.read_bytes()).hexdigest())
@@ -45,9 +45,23 @@ class MonogeneaProjectionTests(unittest.TestCase):
                 if path.name.endswith(".json.gz") and "upstream-only" not in path.name:
                     import gzip
                     rows.extend(json.loads(gzip.open(path, "rt", encoding="utf-8").read()))
-            accepted = next(row for row in rows if row["status"] == "accepted")
-            self.assertTrue(all(row["sourceAcceptedTaxonId"] and row["sourceNameId"] for row in rows if row["status"] == "accepted"))
-            self.assertTrue(accepted["matchedName"]["nameReferences"] is not None)
+            accepted = [row for row in rows if row["status"] == "accepted"]
+            self.assertEqual(len(accepted), 5835)
+            self.assertTrue(all(row["sourceAcceptedTaxonId"] and row["sourceNameId"] for row in accepted))
+            self.assertTrue(all("taxonReference" in row["matchedName"] and "nameReference" in row["matchedName"] for row in accepted))
+            self.assertTrue(all(row["sourceRows"] for row in accepted))
+            self.assertEqual(len({row["sourceAcceptedTaxonId"] for row in accepted}), 5835)
+            self.assertTrue(all({locator["member"] for locator in row["sourceRows"]} == {"Name.txt", "Taxon.txt"} for row in accepted))
+            canonical = ROOT / relative
+            for path in first_files:
+                self.assertEqual(path.read_bytes(), (canonical / path.name).read_bytes())
+            ledger = Path(first) / "data/sources/worms-monogenea-archive-2026-09-01-import-ledger.json"
+            canonical_ledger = ROOT / "data/sources/worms-monogenea-archive-2026-09-01-import-ledger.json"
+            self.assertEqual(ledger.read_bytes(), canonical_ledger.read_bytes())
+            ledger_json = json.loads(ledger.read_text(encoding="utf-8"))
+            self.assertIn("generatedBy", ledger_json)
+            self.assertEqual(len(ledger_json["colInputs"]), 4)
+            self.assertEqual(len(ledger_json["source"]["members"]), 12)
 
 
 if __name__ == "__main__":
