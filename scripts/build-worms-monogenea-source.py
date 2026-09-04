@@ -20,9 +20,7 @@ from collections import defaultdict
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 COL_ROOT = ROOT / "data/catalogue-of-life/releases/2026-08-20"
 COL_PACK = COL_ROOT / "resource-packs/other-animals"
-DEFAULT_ARCHIVE = pathlib.Path(
-    r"D:/repo/repostew/.repostew/source-cache/monogenea-1126-2026-09-04/archive.bin"
-)
+DEFAULT_ARCHIVE = ROOT / "data/sources/archives/worms-monogenea-2026-09-01.zip"
 ARCHIVE_URL = "https://api.checklistbank.org/dataset/1126/archive"
 ARCHIVE_SHA256 = "f11c11f3ca7c8b5a858e36906f87e1aa81ea3438475e736b63efbda0e59f8699"
 ARCHIVE_BYTES = 1235337
@@ -77,13 +75,15 @@ def read_tsv(archive: zipfile.ZipFile, member: str) -> list[dict[str, str]]:
 
 def source_name(name: dict[str, str], taxon: dict[str, str]) -> dict[str, object]:
     return {
-        "id": name["ID"],
+        "id": taxon["ID"],
+        "nameId": name["ID"],
         "scientificName": name["scientificName"],
         "authorship": name.get("authorship", ""),
         "rank": name.get("rank", ""),
         "status": "accepted",
         "url": name.get("link", ""),
-        "referenceId": name.get("referenceID") or None,
+        "referenceId": taxon.get("referenceID") or None,
+        "nameReferenceId": name.get("referenceID") or None,
         "publishedInYear": name.get("publishedInYear") or None,
         "publishedInPage": name.get("publishedInPage") or None,
         "parentId": taxon.get("parentID") or None,
@@ -150,18 +150,16 @@ def load_source(path: pathlib.Path) -> tuple[dict, dict[str, list[dict]], dict[s
     refs_for_name: dict[str, list[dict[str, object]]] = defaultdict(list)
     for index, row in enumerate(name_refs, 2):
         reference_id = row.get("referenceID") or row.get("ReferenceID") or ""
+        item = {"referenceId": reference_id or None, "sourceRows": [{"member": "NameReference.txt", "row": index}]}
         if reference_id and reference_id in refs_by_id:
             ref_row, ref = refs_by_id[reference_id]
-            refs_for_name[row.get("nameID") or row.get("NameID", "")].append(
-                {
-                    "referenceId": reference_id,
-                    "sourceRows": [
-                        {"member": "NameReference.txt", "row": index},
-                        {"member": "Reference.txt", "row": ref_row},
-                    ],
-                    "reference": ref,
-                }
-            )
+            item["sourceRows"].append({"member": "Reference.txt", "row": ref_row})
+            item["reference"] = ref
+            item["referenceMissing"] = False
+        else:
+            item["reference"] = None
+            item["referenceMissing"] = True
+        refs_for_name[row.get("nameID") or row.get("NameID", "")].append(item)
     taxon_rows: dict[str, list[dict]] = defaultdict(list)
     for index, row in enumerate(taxa, 2):
         name = names_by_id.get(row.get("nameID", ""))
@@ -180,13 +178,15 @@ def load_source(path: pathlib.Path) -> tuple[dict, dict[str, list[dict]], dict[s
         "archiveUrl": ARCHIVE_URL,
         "archiveBytes": len(raw),
         "archiveSha256": digest(raw),
+        "archiveEncoding": "ZIP (ColDP archive)",
+        "archivePath": "data/sources/archives/worms-monogenea-2026-09-01.zip",
         "version": SOURCE_VERSION,
         "versionDoi": "10.48580/d3cv.v86",
         "metadataYamlSha256": digest(metadata.encode("utf-8")),
         "license": "CC-BY-4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
         "provider": "World Register of Marine Species via ChecklistBank",
-        "retrievedAt": "2026-09-05",
+        "retrievedAt": "2026-09-04",
     }
     return source_meta, accepted, refs_for_name
 
@@ -217,7 +217,8 @@ def main() -> None:
                 "candidates": [],
                 "mappingBasis": "Exact source scientificName+authorship match; source fields preserved.",
                 "sourceRows": [{"member": "Name.txt", "row": name["_nameRow"]}, {"member": "Taxon.txt", "row": taxon["_taxonRow"]}],
-                "sourceAcceptedTaxonId": name["ID"],
+                "sourceAcceptedTaxonId": taxon["ID"],
+                "sourceNameId": name["ID"],
             }
             implicated.add(name["ID"])
             counts["accepted"] += 1
@@ -235,7 +236,7 @@ def main() -> None:
         name, taxon = item["name"], item["taxon"]
         accepted_name = source_name(name, taxon)
         accepted_name["nameReferences"] = refs_for_name.get(sid, [])
-        upstream.append({"colId": None, "colScientificName": None, "colAuthorship": None, "status": "upstream-only", "matchedName": None, "acceptedName": accepted_name, "candidates": [], "mappingBasis": "Accepted source concept has no exact COL ownership; not a global-new-species claim.", "sourceRows": [{"member": "Name.txt", "row": name["_nameRow"]}, {"member": "Taxon.txt", "row": taxon["_taxonRow"]}], "sourceAcceptedTaxonId": sid})
+        upstream.append({"colId": None, "colScientificName": None, "colAuthorship": None, "status": "upstream-only", "matchedName": None, "acceptedName": accepted_name, "candidates": [], "mappingBasis": "Accepted source concept has no exact COL ownership; not a global-new-species claim.", "sourceRows": [{"member": "Name.txt", "row": name["_nameRow"]}, {"member": "Taxon.txt", "row": taxon["_taxonRow"]}], "sourceAcceptedTaxonId": taxon["ID"], "sourceNameId": name["ID"]})
     out_dir = args.output_root / COL_PACK.relative_to(ROOT)
     out_dir.mkdir(parents=True, exist_ok=True)
     files, upstream_files = [], []
@@ -249,7 +250,7 @@ def main() -> None:
             if not is_upstream:
                 entry.update(minColId=part[0]["colId"], maxColId=part[-1]["colId"])
             (upstream_files if is_upstream else files).append(entry)
-    descriptor = {"schemaVersion": 1, "recordType": "release-pinned-authority-archive-crosswalk", "id": f"{PREFIX}-archive-crosswalk", "packageId": "other-animals", "provider": source["provider"], "rowEncoding": "json", "colIdField": "colId", "totalCountField": "total", "source": source, "scope": {"colSourceDatasetId": SOURCE_DATASET, "colRelease": "COL26.8", "colStrictAcceptedSpecies": COL_EXPECTED, "sourceStrictAcceptedSpecies": SOURCE_EXPECTED, "sourceRoot": "Monogenea", "packageOwnership": "other-animals residual route"}, "matching": {"normalization": "Exact scientificName+authorship after whitespace normalization only.", "prohibited": "No fuzzy, case-folded, accent-folded, inferred or species-concept matching."}, "counts": {"total": len(records), **counts, "upstreamOnly": len(upstream), "records": len(records)}, "files": files, "upstreamOnlyFiles": upstream_files, "deliveryProfiles": {"web-light": {"records": 0, "files": []}, "native-full": {"records": len(records) + len(upstream), "files": [x["path"] for x in files + upstream_files]}}, "evidenceBoundary": {"en": "Frozen WoRMS source traceability; not independent scientific corroboration, species-concept equivalence, biological dossier, fossil evidence or expert review.", "zh": "冻结的 WoRMS 来源追溯；不是独立科学佐证、物种概念等同、生物档案、化石证据或专家审查。"}, "limitations": ["Unmatched COL rows and source-only accepted concepts are retained explicitly; neither is called globally new.", "Source archive and COL26.8 are different snapshots (2026-09-01 vs 2026-08-20)."]}
+    descriptor = {"schemaVersion": 1, "recordType": "release-pinned-authority-archive-crosswalk", "id": f"{PREFIX}-archive-crosswalk", "packageId": "other-animals", "provider": source["provider"], "rowEncoding": "json", "colIdField": "colId", "totalCountField": "total", "source": source, "scope": {"colSourceDatasetId": SOURCE_DATASET, "colRelease": "COL26.8", "colStrictAcceptedSpecies": COL_EXPECTED, "sourceStrictAcceptedSpecies": SOURCE_EXPECTED, "sourceRoot": "Monogenea", "packageOwnership": "other-animals residual route"}, "matching": {"normalization": "Exact scientificName+authorship after whitespace normalization only.", "prohibited": "No fuzzy, case-folded, accent-folded, inferred or species-concept matching."}, "counts": {"total": len(records) + len(upstream), **counts, "upstreamOnly": len(upstream), "records": len(records) + len(upstream)}, "files": files, "upstreamOnlyFiles": upstream_files, "totalCompressedBytes": sum(x["bytes"] for x in files + upstream_files), "totalSourceBytes": sum(x["sourceBytes"] for x in files + upstream_files), "deliveryProfiles": {"web-light": {"records": 0, "files": [], "totalCompressedBytes": 0, "totalSourceBytes": 0}, "native-full": {"records": len(records) + len(upstream), "files": [x["path"] for x in files + upstream_files], "totalCompressedBytes": sum(x["bytes"] for x in files + upstream_files), "totalSourceBytes": sum(x["sourceBytes"] for x in files + upstream_files)}}, "evidenceBoundary": {"en": "Frozen WoRMS source traceability; not independent scientific corroboration, species-concept equivalence, biological dossier, fossil evidence or expert review.", "zh": "冻结的 WoRMS 来源追溯；不是独立科学佐证、物种概念等同、生物档案、化石证据或专家审查。"}, "limitations": ["Unmatched COL rows and source-only accepted concepts are retained explicitly; neither is called globally new.", "Source archive and COL26.8 are different snapshots (2026-09-01 vs 2026-08-20)."]}
     descriptor_path = out_dir / DESCRIPTOR_NAME
     descriptor_bytes = encode(descriptor, pretty=True)
     descriptor_path.write_bytes(descriptor_bytes)
