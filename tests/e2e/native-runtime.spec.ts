@@ -71,3 +71,28 @@ for (const [id, name, tsn] of [
     expect(requests[0]).not.toContain('/assets/data/')
   })
 }
+
+for (const [id, expectedStatus, names] of [
+  ['3S67T', 'Multiple exact candidates', ['Lamyctes andinus', 'Lamyctes neglectus']],
+  ['363VR', 'Explicit synonym redirect', ['Otostigmus gravelyi']],
+] as const) {
+  test(`native Myriapoda mapping preserves ${id} status and source links`, async ({ page }) => {
+    const requests: string[] = []
+    page.on('request', (request) => {
+      if (request.url().includes('itis-myriapoda-sidecar-') && request.url().endsWith('.jsonl.gz')) requests.push(request.url())
+    })
+    await page.goto(`./#/registry?release=COL26.8&id=${id}`)
+    const details = page.locator('.catalogue-authority-disclosure').filter({ hasText: 'ITIS Myriapoda exact nomenclatural mapping' })
+    await expect(details).not.toHaveAttribute('open')
+    expect(requests).toHaveLength(0)
+    await details.locator('summary').click()
+    await expect(details).toContainText(expectedStatus)
+    for (const name of names) await expect(details).toContainText(name)
+    await expect(details).not.toContainText('undefined')
+    for (const tsn of id === '3S67T' ? ['1089704', '1089740'] : ['1090822']) {
+      await expect(details.locator(`a[href*="search_value=${tsn}"]`)).toBeVisible()
+    }
+    expect(requests).toHaveLength(1)
+    expect(requests[0]).not.toContain('/assets/data/')
+  })
+}
