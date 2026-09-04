@@ -1,0 +1,169 @@
+{
+  "schemaVersion": 1,
+  "importType": "COL26.8-to-OSF-Sep-2026-exact-orthoptera-crosswalk",
+  "generatedFrom": {
+    "acquisitionPath": "D:/repo/repostew/.repostew/source-cache/osf-1021-2026-09-04/acquisition.json",
+    "acquisitionSha256": "68dca1942aa56fd6557c8ecb244ec62ea5eba1da6f822c25d8d8ea9b5d830d76",
+    "archivePath": "external source-cache/dataset-1021.zip",
+    "archiveSha256": "1a7fab3d43b19eb2ef21d56180bfb25de641aaee5f522b9603aac2f2e22a9575",
+    "registryManifestPath": "data/catalogue-of-life/releases/2026-08-20/registry/manifest.json",
+    "registryManifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151"
+  },
+  "sourceMembers": {
+    "Name.tsv": {
+      "rows": 79426,
+      "sha256": "cf5265632677d5403f314a8e4ca052dea78ac403638230ae5edc3ab5341315df",
+      "rowConvention": "one-based physical TSV row including header"
+    },
+    "Taxon.tsv": {
+      "rows": 41233,
+      "sha256": "87166951da17556aaac8093c782ac93245fdfb98c93ebf9c182cfe047d5a0564",
+      "rowConvention": "one-based physical TSV row including header"
+    },
+    "Synonym.tsv": {
+      "rows": 36618,
+      "sha256": "24e613cb02410f8ae4545023ad8ac566102f147d417759b409569f5a6974e035",
+      "rowConvention": "one-based physical TSV row including header"
+    }
+  },
+  "totals": {
+    "total": 30859,
+    "accepted": 30813,
+    "redirect": 21,
+    "ambiguous": 5,
+    "unmatched": 20,
+    "withheld": 0,
+    "upstreamOnly": 53
+  },
+  "output": {
+    "descriptor": {
+      "path": "data/packages/arthropoda/crustaceans-insects/nomenclature/osf-orthoptera-sidecar.json",
+      "bytes": 7869,
+      "sha256": "f356223553665a07edfc1f34d182abe5429137189853ab8c29c835edfc1a23c3"
+    },
+    "files": [
+      {
+        "path": "data/packages/arthropoda/crustaceans-insects/nomenclature/osf-orthoptera-000.json.gz",
+        "records": 2940,
+        "bytes": 150679,
+        "sha256": "ad460160c37f650dd54b4d3bf533d140ad39efa282cd3db627481cbdda0ab207",
+        "sourceBytes": 2096496,
+        "sourceSha256": "cb1313175516f845bd0523eab3cdeb6a9562ea61334939376ece7daebe855e9d",
+        "minColId": "3233F",
+        "maxColId": "3KP8F"
+      },
+      {
+        "path": "data/packages/arthropoda/crustaceans-insects/nomenclature/osf-orthoptera-001.json.gz",
+        "records": 2966,
+        "bytes": 153391,
+        "sha256": "685ca8f974219ffbca9d963807f3d8ddab0edf22a1c78967ea3fee7c74ed4e9c",
+        "sourceBytes": 2096567,
+        "sourceSha256": "241b3bdb4a075a9bb4cbebb3c1820faab04c681c83b36f41dd7b42884511235b",
+        "minColId": "3KP8G",
+        "maxColId": "44G6Q"
+      },
+      {
+        "path": "data/packages/arthropoda/crustaceans-insects/nomenclature/osf-orthoptera-002.json.gz",
+        "records": 2952,
+        "bytes": 155563,
+        "sha256": "7b7d012d1d3474e3a56ed7fa4b4e6310655fd913591d8570e61ac140463bcde7",
+        "sourceBytes": 2096478,
+        "sourceSha256": "6ab68315c825b9d7a46509c3510656cd59d60966912cc162cc08fdd79a5a2be3",
+        "minColId": "44G6R",
+        "maxColId": "4MGFB"
+      },
+      {
+        "path": "data/packages/arthropoda/crustaceans-insects/nomenclature/osf-orthoptera-003.json.gz",
+        "records": 2943,
+        "bytes": 154218,
+        "sha256": "8a3eb18fc8cfb678d64881868da78f165b8b8ee8f934d9d69e478206ec96075f",
+        "sourceBytes": 2097055,
+        "sourceSha256": "302b07ecfbd76dd6e0e4a90eb48c0eafd715e025e0717c935028fb1baf6c3760",
+        "minColId": "4MGFC",
+        "maxColId": "55LSN"
+      },
+      {
+        "path": "data/packages/arthropoda/crustaceans-insects/nomenclature/osf-orthoptera-004.json.gz",
+        "records": 2949,
+        "bytes": 163857,
+        "sha256": "d121580e36233e714d2e26183fe9aff8611ad5567e3cc969135deb151fabd657",
+        "sourceBytes": 2096686,
+        "sourceSha256": "bb9a28a03ed9c66322d9437c72088e9f40b55a3b937d04781a45cdc02adc3b75",
+        "minColId": "55LSP",
+        "maxColId": "68BS9"
+      },
+      {
+        "path": "data/packages/arthropoda/crustaceans-insects/nomenclature/osf-orthoptera-005.json.gz",
+        "records": 2958,
+        "bytes": 166744,
+        "sha256": "0db4d8d448acf1c966fd1f4615e07263ea7251482602e667f3ccaae729c70ec2",
+        "sourceBytes": 2096959,
+        "sourceSha256": "9369267cab47f5adcd5b4f906b6709d1c6362fe465f05927974a74bca36ebf6c",
+        "minColId": "68BSN",
+        "maxColId": "6SPXY"
+      },
+      {
+        "path": "data/packages/arthropoda/crustaceans-insects/nomenclature/osf-orthoptera-006.json.gz",
+        "records": 2961,
+        "bytes": 172144,
+        "sha256": "29ebd0ccaca2a772d5021de5936bec83bdb0e7cf95e3ff2f0faa492821b09179",
+        "sourceBytes": 2096649,
+        "sourceSha256": "accfeef48908e9ecfa97d48464c76a0b8d539fcc1a0ac8ec58e0619bd1ce197e",
+        "minColId": "6SPY5",
+        "maxColId": "7BR62"
+      },
+      {
+        "path": "data/packages/arthropoda/crustaceans-insects/nomenclature/osf-orthoptera-007.json.gz",
+        "records": 2930,
+        "bytes": 164833,
+        "sha256": "cde1226e392395b38790dec9466d1ef1954602a5ae421a55eadc0fad02a3d175",
+        "sourceBytes": 2096535,
+        "sourceSha256": "0c3335f9118b9af09dfaaa9a84c18611622e7eb2c5f10ec24ed115c39ec797a7",
+        "minColId": "7BR76",
+        "maxColId": "8QJYS"
+      },
+      {
+        "path": "data/packages/arthropoda/crustaceans-insects/nomenclature/osf-orthoptera-008.json.gz",
+        "records": 2896,
+        "bytes": 166475,
+        "sha256": "71348a1129f29279d48f71c9a6a6b3eaefd3a9e680a8c5b3edf226b6a6211e33",
+        "sourceBytes": 2096488,
+        "sourceSha256": "f8a26e6a4f9c6f34c86b315333020204f629f42d2fe65f94ea4141671cf5e4ac",
+        "minColId": "8QJYT",
+        "maxColId": "CYW9"
+      },
+      {
+        "path": "data/packages/arthropoda/crustaceans-insects/nomenclature/osf-orthoptera-009.json.gz",
+        "records": 2940,
+        "bytes": 154476,
+        "sha256": "41ba3dcd6ad9b6db13411cb44171e7eac09e3026440ec0f0d0d05b19f2aa4c13",
+        "sourceBytes": 2096885,
+        "sourceSha256": "ba52b801eb6fd300afc32ec1093b8b4369b6616d228d58348e39841d0232b072",
+        "minColId": "CYWB",
+        "maxColId": "V59BV"
+      },
+      {
+        "path": "data/packages/arthropoda/crustaceans-insects/nomenclature/osf-orthoptera-010.json.gz",
+        "records": 1424,
+        "bytes": 77082,
+        "sha256": "44c54b5f3539b78fac5467d1802706ab1dbaf567f03dcd3e8d1d52b9e3bcecf9",
+        "sourceBytes": 1026377,
+        "sourceSha256": "ffcb77fb15e37cf5f8e25a990bfda423fd977e05963a7f9c2a1388dbf96b710c",
+        "minColId": "V59FD",
+        "maxColId": "ZY4P"
+      }
+    ],
+    "upstreamOnly": {
+      "path": "data/packages/arthropoda/crustaceans-insects/nomenclature/osf-orthoptera-upstream-only-000.json.gz",
+      "records": 53,
+      "bytes": 3066,
+      "sha256": "941e9eaf9cdee537def9aa78191ca613a5df2e3fb694cbdab501bed74118d25f",
+      "sourceBytes": 36595,
+      "sourceSha256": "8bc19e66a9b7ce13ba833fb63b85127a79483b90e700803a5c799e388c497e41"
+    }
+  },
+  "generatedBy": {
+    "scriptPath": "scripts/build-osf-orthoptera-sidecar.py",
+    "deterministic": true
+  }
+}
