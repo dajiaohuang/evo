@@ -13,13 +13,49 @@
   "source": {
     "datasetId": "1132",
     "provider": "World Register of Marine Species via ChecklistBank",
-    "archiveUrl": "https://api.checklistbank.org/dataset/1132/archive",
+    "archiveUrl": "https://api.checklistbank.org/dataset/1132/archive?attempt=85",
+    "archiveAttempt": 85,
     "archivePath": "data/sources/archives/checklistbank-1132-chaetognatha-2026-09-01.zip",
     "archiveBytes": 45909,
     "archiveSha256": "c14c95f99dceb1500c1c5b99a99a3ca0d4c88a0566738f7f7fa1e329e4de47a4",
     "metadataPath": "data/sources/archives/checklistbank-1132-chaetognatha-2026-09-01.metadata.json",
     "metadataBytes": 2144,
     "metadataSha256": "fd330150488b3bcbe44cf3932b34d8edc8064e05fc4a3626107e8c4b176da6e8",
+    "metadataRole": "current ChecklistBank API metadata response",
+    "archiveMetadata": {
+      "member": "metadata.yml",
+      "bytes": 1446,
+      "sha256": "bc1b136ca81b3c54d3e7297e41297bdfcdd3cd72f2b9ea839103f1d2b54bec13",
+      "fields": {
+        "doi": null,
+        "title": "World List of Chaetognatha",
+        "issued": "2026-09-01",
+        "version": "2026-09-01",
+        "license": "CC-BY",
+        "website": "https://www.marinespecies.org"
+      }
+    },
+    "metadataConsistency": {
+      "status": "mismatch",
+      "apiResponse": {
+        "doi": "10.48580/d3d3",
+        "versionDoi": "10.48580/d3d3.v85",
+        "version": "2026-09-01",
+        "issued": "2026-09-01",
+        "license": "cc by"
+      },
+      "archiveEmbedded": {
+        "doi": null,
+        "version": "2026-09-01",
+        "issued": "2026-09-01",
+        "license": "CC-BY"
+      },
+      "differences": [
+        "doi",
+        "license"
+      ],
+      "boundary": "The current ChecklistBank API response and the byte-pinned archive metadata.yml are retained as separate provenance layers."
+    },
     "members": {
       "metadata.yml": {
         "bytes": 1446,
@@ -162,7 +198,7 @@
       "private": false
     },
     "sourceLedgerPath": "data/sources/worms-chaetognatha-archive-1132-import-ledger.json",
-    "sourceLedgerSha256": "6f78ae49b0d653d1962203828dc90e6e27daa546d4f5f7becba4a99dc0429fb9"
+    "sourceLedgerSha256": "fbde465352d51df4ef32ad6c50898f594df790f7e90a0fdfd800b5e2ac537b05"
   },
   "scope": {
     "colRootUsageId": "36",

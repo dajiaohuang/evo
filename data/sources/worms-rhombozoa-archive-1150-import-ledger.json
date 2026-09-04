@@ -3,19 +3,55 @@
   "importType": "COL26.8-to-WoRMS-original-archive-projection",
   "generatedBy": {
     "scriptPath": "scripts/build-worms-small-original-sources.py",
-    "scriptSha256": "63011df96e6e9690078ca28b2d7a7df7ebba5dd65322cbb0709af1298626092b",
+    "scriptSha256": "87d8b510323b7cac1a648e9f604c379057e2d9d7f11e841d7eca547c434100aa",
     "hashNormalization": "LF"
   },
   "source": {
     "datasetId": "1150",
     "provider": "World Register of Marine Species via ChecklistBank",
-    "archiveUrl": "https://api.checklistbank.org/dataset/1150/archive",
+    "archiveUrl": "https://api.checklistbank.org/dataset/1150/archive?attempt=86",
+    "archiveAttempt": 86,
     "archivePath": "data/sources/archives/checklistbank-1150-rhombozoa-2026-09-01.zip",
     "archiveBytes": 23988,
     "archiveSha256": "c29902e32bdd8700988bc61a5d67096e011a3862b4176df215aada16f4a8690d",
     "metadataPath": "data/sources/archives/checklistbank-1150-rhombozoa-2026-09-01.metadata.json",
     "metadataBytes": 1608,
     "metadataSha256": "ec3091a30d6f7f546f5759d5e6536fee676a585a8c8700697be0ff63a1fb4e3f",
+    "metadataRole": "current ChecklistBank API metadata response",
+    "archiveMetadata": {
+      "member": "metadata.yml",
+      "bytes": 891,
+      "sha256": "677af697d62c336ccbbaa4519653eb9629bf30846cee561c9d76608bb7cee56a",
+      "fields": {
+        "doi": null,
+        "title": "World List of Rhombozoa",
+        "issued": "2026-09-01",
+        "version": "2026-09-01",
+        "license": "CC-BY",
+        "website": "https://www.marinespecies.org"
+      }
+    },
+    "metadataConsistency": {
+      "status": "mismatch",
+      "apiResponse": {
+        "doi": "10.48580/d3dp",
+        "versionDoi": "10.48580/d3dp.v86",
+        "version": "2026-09-01",
+        "issued": "2026-09-01",
+        "license": "cc by"
+      },
+      "archiveEmbedded": {
+        "doi": null,
+        "version": "2026-09-01",
+        "issued": "2026-09-01",
+        "license": "CC-BY"
+      },
+      "differences": [
+        "doi",
+        "license"
+      ],
+      "boundary": "The current ChecklistBank API response and the byte-pinned archive metadata.yml are retained as separate provenance layers."
+    },
     "members": {
       "metadata.yml": {
         "bytes": 891,
@@ -1506,8 +1542,8 @@
   "outputs": {
     "descriptor": {
       "path": "data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals/worms-rhombozoa-sidecar.json",
-      "bytes": 8857,
-      "sha256": "5cf7af50de9e1e9ae7db3a45f157f4ea57ebc212111c925e5ef8886dfe255cfe"
+      "bytes": 9985,
+      "sha256": "f0d176c58193a78ce576de4389c8811a7864df5b92b52201cfcf6d521d1678a4"
     },
     "files": [
       {
