@@ -603,11 +603,11 @@ public class AppInstrumentedTest {
                 verifyAuthorityArchiveCollection(context, files, findCollection(extensions, "trichomycetes-archive-crosswalk"),
                         1, 0, 96, 0, "Trichomycetes source1033");
                 verifyAuthorityArchiveCollection(context, files, findCollection(extensions, "cilcat-1113-archive-crosswalk"),
-                        1, 1, 8505, 55, "CilCat");
+                        1, 1, 8505, 27, "CilCat");
                 verifyAuthorityArchiveCollection(context, files, findCollection(extensions, "eumycetozoa-archive-crosswalk"),
                         1, 0, 1337, 0, "Eumycetozoa");
                 verifyAuthorityArchiveCollection(context, files, findCollection(extensions, "gymnodinium-archive-crosswalk"),
-                        1, 1, 259, 1, "CC0-1.0", "Gymnodinium");
+                        1, 1, 259, 0, "CC0-1.0", "Gymnodinium");
                 JSONArray extensionFiles = authority.getJSONArray("files");
                 assertEquals(5, extensionFiles.length());
                 for (int fileIndex = 0; fileIndex < extensionFiles.length(); fileIndex += 1) {
@@ -631,7 +631,7 @@ public class AppInstrumentedTest {
                     "itis-hemimastigophora-tsn-crosswalk"
                 };
                 int[] expectedFiles = new int[]{4, 1, 2, 1, 1, 1, 2, 1, 1, 2, 0, 0, 1, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0};
-                int[] expectedRecords = new int[]{8665, 21, 1110, 276, 52, 90, 3397, 1337, 1616, 1536, 0, 0, 53, 0, 0, 0, 0, 0, 1416, 4, 0, 0, 0, 0, 0};
+                int[] expectedRecords = new int[]{8665, 21, 1110, 276, 52, 90, 3399, 1337, 1616, 1536, 0, 0, 53, 0, 0, 0, 0, 0, 1416, 4, 0, 0, 0, 0, 0};
                 assertEquals(expectedIds.length + 6, extensions.length());
                 for (int extensionIndex = 0; extensionIndex < expectedIds.length; extensionIndex += 1) {
                     JSONObject itisAuthority = findCollection(extensions, expectedIds[extensionIndex]);
@@ -718,7 +718,7 @@ public class AppInstrumentedTest {
         assertEquals(157044, indexFungorumIdentifierRecords);
         assertEquals(47975, foraminiferaAuthorityRecords);
         assertEquals(107824, otherAnimalsItisRecords);
-        assertEquals(19573, protistsItisRecords);
+        assertEquals(19575, protistsItisRecords);
         assertEquals(17554, ictvSpeciesRecords);
         assertEquals(19285, ictvIsolateRecords);
         assertEquals(61449, wfoSupplementRecords);
