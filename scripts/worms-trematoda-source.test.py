@@ -12,13 +12,13 @@ class TrematodaProjectionTests(unittest.TestCase):
             mod.project(mod.ARCHIVE, Path(one)); mod.project(mod.ARCHIVE, Path(two))
             roots = [Path(one) / 'data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals',
                      Path(two) / 'data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals']
-            names = ['worms-trematoda-000.json.gz', 'worms-trematoda-source-only-000.json.gz', 'worms-trematoda-sidecar.json']
+            names = sorted(p.name for p in roots[0].glob('worms-trematoda*.json.gz')) + ['worms-trematoda-sidecar.json']
             for name in names:
                 a = (roots[0] / name).read_bytes(); b = (roots[1] / name).read_bytes()
                 self.assertEqual(a, b, name)
-            rows = json.loads(gzip.decompress((roots[0] / names[0]).read_bytes()))
-            source_only = json.loads(gzip.decompress((roots[0] / names[1]).read_bytes()))
-            descriptor = json.loads((roots[0] / names[2]).read_text(encoding='utf8'))
+            descriptor = json.loads((roots[0] / 'worms-trematoda-sidecar.json').read_text(encoding='utf8'))
+            rows = sum((json.loads(gzip.decompress((roots[0] / p['path'].split('/')[-1]).read_bytes())) for p in descriptor['files']), [])
+            source_only = sum((json.loads(gzip.decompress((roots[0] / p['path'].split('/')[-1]).read_bytes())) for p in descriptor['upstreamOnlyFiles']), [])
             self.assertEqual(len(rows), 12007)
             self.assertEqual(len(source_only), 99)
             self.assertEqual(descriptor['counts'], {'total': 12007, 'accepted': 11965, 'redirect': 0,
@@ -26,9 +26,11 @@ class TrematodaProjectionTests(unittest.TestCase):
                                                     'upstreamOnly': 99, 'records': 12106})
             self.assertEqual(descriptor['source']['archiveSha256'], mod.ARCHIVE_SHA)
             self.assertEqual(descriptor['source']['archiveBytes'], mod.ARCHIVE_BYTES)
-            self.assertEqual(descriptor['files'][0]['sha256'], hashlib.sha256((roots[0] / names[0]).read_bytes()).hexdigest())
-            self.assertEqual(descriptor['files'][0]['records'], 12007)
-            self.assertEqual(descriptor['upstreamOnlyFiles'][0]['records'], 99)
+            self.assertTrue(all(p['sourceBytes'] <= mod.SHARD_LIMIT for p in descriptor['files'] + descriptor['upstreamOnlyFiles']))
+            self.assertEqual(sum(p['records'] for p in descriptor['files']), 12007)
+            self.assertEqual(sum(p['records'] for p in descriptor['upstreamOnlyFiles']), 99)
+            for p in descriptor['files'] + descriptor['upstreamOnlyFiles']:
+                self.assertEqual(p['sha256'], hashlib.sha256((roots[0] / p['path'].split('/')[-1]).read_bytes()).hexdigest())
             self.assertTrue(all(row['status'] != 'redirect' for row in rows))
             self.assertTrue(all(row['status'] == 'upstream-only' for row in source_only))
             self.assertEqual(descriptor['scope']['excludedSourceProvisional'], 19)
