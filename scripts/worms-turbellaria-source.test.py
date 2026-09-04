@@ -16,6 +16,8 @@ class TurbellariaProjectionTests(unittest.TestCase):
             for name in names:
                 a = (roots[0] / name).read_bytes(); b = (roots[1] / name).read_bytes()
                 self.assertEqual(a, b, name)
+                canonical = ROOT / 'data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals' / name
+                self.assertEqual(a, canonical.read_bytes(), f'canonical {name}')
             descriptor = json.loads((roots[0] / 'worms-turbellaria-sidecar.json').read_text(encoding='utf8'))
             ledgers = [Path(one) / 'data/sources/worms-turbellaria-archive-1193-import-ledger.json', Path(two) / 'data/sources/worms-turbellaria-archive-1193-import-ledger.json']
             self.assertEqual(ledgers[0].read_bytes(), ledgers[1].read_bytes())
@@ -44,12 +46,17 @@ class TurbellariaProjectionTests(unittest.TestCase):
             projected = {r['acceptedName']['aphiaId']: r for r in rows + source_only if r['acceptedName']}
             with zipfile.ZipFile(mod.ARCHIVE) as archive:
                 names_raw = {r['ID']: r for r in csv.DictReader(io.TextIOWrapper(archive.open('Name.txt'), encoding='utf-8-sig'), delimiter='\t')}
+                taxon_rows = {r['ID']: i for i, r in enumerate(csv.DictReader(io.TextIOWrapper(archive.open('Taxon.txt'), encoding='utf-8-sig'), delimiter='\t'), 2)}
                 for tid, (taxon, name, _, _) in source.items():
                     self.assertIn(tid, projected)
                     self.assertEqual(projected[tid]['acceptedName']['scientificName'], name['scientificName'])
                     self.assertEqual(projected[tid]['acceptedName']['authorship'], name['authorship'])
                     self.assertEqual(projected[tid]['acceptedName']['id'], taxon['ID'])
                     self.assertEqual(names_raw[name['ID']]['scientificName'], name['scientificName'])
+                    self.assertIn({'member': 'Taxon.txt', 'row': taxon_rows[taxon['ID']]}, projected[tid]['sourceRows'])
+                    for ref in projected[tid]['references']:
+                        if not ref['missing']:
+                            self.assertEqual(ref['reference']['ID'], ref['referenceID'])
 
 
 if __name__ == '__main__':
