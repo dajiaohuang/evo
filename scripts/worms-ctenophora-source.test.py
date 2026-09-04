@@ -56,8 +56,10 @@ class CtenophoraProjectionTests(unittest.TestCase):
                 references_raw = {r['ID']: r for r in reference_rows}
                 reference_row_numbers = {r['ID']: i for i, r in enumerate(reference_rows, 2)}
                 name_reference_ids = {}
-                for r in csv.DictReader(io.TextIOWrapper(archive.open('NameReference.txt'), encoding='utf-8-sig'), delimiter='\t'):
+                name_reference_rows = {}
+                for row_number, r in enumerate(csv.DictReader(io.TextIOWrapper(archive.open('NameReference.txt'), encoding='utf-8-sig'), delimiter='\t'), 2):
                     name_reference_ids.setdefault(r['nameID'], set()).add(r['referenceID'])
+                    name_reference_rows.setdefault(r['nameID'], []).append(row_number)
                 for tid, (taxon, name, _, _) in source.items():
                     self.assertIn(tid, projected)
                     self.assertEqual(projected[tid]['acceptedName']['scientificName'], name['scientificName'])
@@ -67,6 +69,8 @@ class CtenophoraProjectionTests(unittest.TestCase):
                     out = projected[tid]
                     self.assertIn({'member': 'Taxon.txt', 'row': taxon_rows[taxon['ID']]}, out['sourceRows'])
                     self.assertIn({'member': 'Name.txt', 'row': name_row_numbers[name['ID']]}, out['sourceRows'])
+                    for row_number in name_reference_rows.get(name['ID'], []):
+                        self.assertIn({'member': 'NameReference.txt', 'row': row_number}, out['sourceRows'])
                     expected_ids = name_reference_ids.get(name['ID'], set()) | {name.get('referenceID'), taxon.get('referenceID')}
                     expected_ids = {rid.strip() for rid in expected_ids if rid and rid.strip()}
                     self.assertEqual({ref['referenceID'] for ref in out['references']}, expected_ids)
