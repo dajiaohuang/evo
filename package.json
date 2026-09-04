@@ -42,6 +42,7 @@
     "data:review:validate": "node scripts/validate-platform.mjs review",
     "data:build": "node scripts/build-runtime-data.mjs --out dist/data --profile web-light",
     "data:stage": "node scripts/build-runtime-data.mjs --out public/data --profile web-light",
+    "data:stage:pages": "node scripts/build-runtime-data.mjs --out public/data --profile web-light --edition pages-preview",
     "data:stage:mobile": "node scripts/build-runtime-data.mjs --out public/data --profile native-full",
     "data:manifest": "node scripts/build-manifest.mjs",
     "data:indexes": "node scripts/build-taxon-index.mjs",
@@ -55,6 +56,7 @@
     "source:budget": "node scripts/check-source-budget.mjs",
     "pages:budget": "node scripts/check-pages-budget.mjs",
     "pages:smoke": "node scripts/smoke-pages-data.mjs",
+    "pages:smoke:preview": "node scripts/smoke-pages-preview.mjs",
     "verify": "npm run lint && npm test && npm run data:registry:check && npm run data:registry:validate && npm run data:packages:validate && npm run data:claims:validate && npm run data:translations:validate && npm run data:provenance:validate && npm run data:review:validate && npm run review:check && npm run data:validate && npm run source:budget && npm run build && npm run size:check && npm run pages:budget && npm run pages:smoke && npm run mobile:build && npm run v1:readiness && npm run test:e2e"
   },
   "dependencies": {

@@ -1419,6 +1419,15 @@ export interface CurrentRuntimeManifest {
   datasetVersion: string
   appVersion: string
   publication: string
+  edition?: 'full-web' | 'github-pages-preview'
+  previewScope?: {
+    packageIds: string[]
+    taxonIds: string[]
+    storyIds: string[]
+    eventIds: string[]
+    catalogue: 'omitted'
+    paleotopography: string
+  }
   deliveryProfile: 'web-light' | 'native-full'
   scopeStatement: string
   includedMajorGroups: string[]

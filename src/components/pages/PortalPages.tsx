@@ -7,6 +7,7 @@ import { buildEvidenceIssueUrl, getEntityPublication, getPackagePublication, pub
 import type { AppRoute } from '../../utils/routing'
 import { useI18n } from '../../i18n'
 import { EvidenceStatus } from '../common/EvidenceStatus'
+import { isPagesPreview, isPreviewPackageAllowed } from '../../config/pagesPreview'
 import './PortalPages.css'
 
 interface PortalPageProps {
@@ -31,11 +32,20 @@ export function CatalogHubPage({ onNavigate }: PortalPageProps) {
   const flagshipProfileCount = taxonProfiles.filter((profile) => getEntityPublication(profile.treeNodeId ?? profile.id)?.packageId === 'perissodactyla').length
   const scaffolds = publicationPackages.filter((entry) => entry.scientificMaturity === 'generated-scaffold')
   const staticCatalogBase = `${import.meta.env.BASE_URL}${language === 'zh' ? 'zh/' : ''}`
+  const previewLockedCards = [
+    ['Geological intervals', 'Time-scale directory', 'The preview keeps time context in the Explorer; the complete interval directory is available in the full Web edition.'],
+    ['Formations', 'Formation directory', 'Formation-level browsing is available in the full Web edition.'],
+    ['Localities', 'Locality directory', 'Locality-level browsing is available in the full Web edition.'],
+    ['Traits', 'Trait directory', 'Trait-level browsing is available in the full Web edition.'],
+    ['References', 'Reference directory', 'Reference-level browsing is available in the full Web edition.'],
+    ['Media', 'Media directory', 'Media browsing is available in the full Web edition.'],
+    ['Datasets', 'Dataset registry', 'Release and download browsing is available in the full Web edition.'],
+  ] as const
 
   useEffect(() => {
     let cancelled = false
     loadPackageRegistry()
-      .then((registry) => Promise.all(registry.packages.map(async (entry) => {
+      .then((registry) => Promise.all(registry.packages.filter((entry) => !isPagesPreview || isPreviewPackageAllowed(entry.id)).map(async (entry) => {
         const payload = await loadPackageResearchExamples(entry.id)
         return payload.examples.map((example) => ({ ...example, packageId: entry.id }))
       })))
@@ -55,7 +65,7 @@ export function CatalogHubPage({ onNavigate }: PortalPageProps) {
         <h1>{t('Find a branch. Inspect its evidence boundary.')}</h1>
         <p>{t('Catalog separates nomenclatural coverage, source-linked packages and richly curated dossiers, so coverage never masquerades as scientific maturity.')}</p>
         <div className="portal-actions">
-          <button className="button button--primary" onClick={() => onNavigate('taxa')}>{t('Browse taxon dossiers')}</button>
+          <button className="button button--primary" onClick={() => onNavigate('taxa', isPagesPreview ? { id: 'perissodactyla' } : undefined)}>{t(isPagesPreview ? 'Open selected taxon dossier' : 'Browse taxon dossiers')}</button>
           <button className="button button--ghost" onClick={() => onNavigate('events')}>{t('Browse evolutionary events')}</button>
           <button className="button button--ghost" onClick={() => onNavigate('stories')}>{t('Follow a field story')}</button>
         </div>
@@ -77,6 +87,11 @@ export function CatalogHubPage({ onNavigate }: PortalPageProps) {
       <section className="portal-section">
         <div className="portal-section__heading"><span>02</span><div><small>{t('Ways in')}</small><h2>{t('Choose the object you need')}</h2></div></div>
         <div className="portal-card-grid portal-card-grid--catalog">
+          {isPagesPreview ? <>
+            <a href={`${staticCatalogBase}taxa/perissodactyla/`}><small>{t('Taxa')}</small><h3>{flagshipProfileCount} {t('selected dossiers')}</h3><p>{t('Selected Perissodactyla evidence remains available in this preview edition.')}</p><i>→</i></a>
+            <a href={`${staticCatalogBase}events/`}><small>{t('Events')}</small><h3>{evolutionEvents.length} {t('selected events')}</h3><p>{t('Selected event context remains available in this preview edition.')}</p><i>→</i></a>
+            {previewLockedCards.map(([label, title, description]) => <article className="portal-card portal-card--locked" key={label} aria-disabled="true"><small>{t(label)}</small><h3>{t(title)}</h3><p>{t(description)}</p><i aria-hidden="true">—</i></article>)}
+          </> : <>
           <a href={`${staticCatalogBase}taxa/`}><small>{t('Taxa')}</small><h3>{manifest.records.registryEntities} {t('stable entries')}</h3><p>{t('Definitions, ranges, package ownership and evidence boundaries.')}</p><i>→</i></a>
           <a href={`${staticCatalogBase}events/`}><small>{t('Events')}</small><h3>{evolutionEvents.length} {t('bounded events')}</h3><p>{t('Observations, interpretations and unresolved questions kept separate.')}</p><i>→</i></a>
           <a href={`${staticCatalogBase}intervals/`}><small>{t('Geological intervals')}</small><h3>{manifest.records.timeScaleUnits} {t('versioned units')}</h3><p>{t('ICS-bound ages, hierarchy, uncertainty and source locators.')}</p><i>→</i></a>
@@ -86,6 +101,7 @@ export function CatalogHubPage({ onNavigate }: PortalPageProps) {
           <a href={`${staticCatalogBase}references/`}><small>{t('References')}</small><h3>{manifest.records.references} {t('source records')}</h3><p>{t('Roles, fitness, identifiers and stable citation pages.')}</p><i>→</i></a>
           <a href={`${staticCatalogBase}media/`}><small>{t('Media')}</small><h3>{manifest.records.mediaAssets} {t('rights-aware records')}</h3><p>{t('Attribution, rights and represented taxon remain visible.')}</p><i>→</i></a>
           <a href={`${staticCatalogBase}datasets/`}><small>{t('Datasets')}</small><h3>{manifest.records.dataPackages} {t('static packages')}</h3><p>{t('Versions, checksums, review state and offline downloads.')}</p><i>→</i></a>
+          </>}
         </div>
       </section>
 
@@ -191,7 +207,9 @@ export function AboutPage({ onNavigate }: PortalPageProps) {
           <a href="https://github.com/dajiaohuang/evo/blob/main/CONTRIBUTING.md" target="_blank" rel="noreferrer"><strong>{t('Contributing guide')}</strong><span>{t('Code, content and translation paths')}</span></a>
           <a href="https://github.com/dajiaohuang/evo/blob/main/SCIENTIFIC_REVIEW.md" target="_blank" rel="noreferrer"><strong>{t('Scientific review protocol')}</strong><span>{t('Identity, scope, decisions and conflicts')}</span></a>
           <a href="https://github.com/dajiaohuang/evo/blob/main/ROADMAP.md" target="_blank" rel="noreferrer"><strong>{t('Public roadmap')}</strong><span>{t('Vertical slices before breadth')}</span></a>
-          <a href={`${staticBase}datasets/`}><strong>{t('Release history')}</strong><span>{t('Versioned datasets and machine-readable artifacts')}</span></a>
+          {isPagesPreview
+            ? <span className="community-link community-link--locked" aria-disabled="true"><strong>{t('Release history')}</strong><span>{language === 'zh' ? '完整发布历史请使用完整版 Web。' : 'The complete release history is available in the full Web edition.'}</span></span>
+            : <a href={`${staticBase}datasets/`}><strong>{t('Release history')}</strong><span>{t('Versioned datasets and machine-readable artifacts')}</span></a>}
           <a href="https://github.com/dajiaohuang/evo/blob/main/DATA_LICENSES.md" target="_blank" rel="noreferrer"><strong>{t('Data and content licenses')}</strong><span>{t('Source-specific rights and redistribution boundaries')}</span></a>
           <a href={buildEvidenceIssueUrl()} target="_blank" rel="noreferrer"><strong>{t('Report an evidence issue')}</strong><span>{t('Version and page context are prefilled')}</span></a>
         </div>

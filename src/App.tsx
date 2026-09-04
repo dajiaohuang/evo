@@ -4,6 +4,8 @@ import { ErrorBoundary } from './components/common/ErrorBoundary'
 import { AppShell } from './components/shell/AppShell'
 import { buildRouteHash, parseRouteHash, type AppRoute } from './utils/routing'
 import { useI18n } from './i18n'
+import { isPagesPreview, isPreviewRouteLocked } from './config/pagesPreview'
+import { PagesPreviewGate } from './components/common/PagesPreviewGate'
 
 const datasetVersion = import.meta.env.VITE_DATASET_VERSION
 
@@ -45,6 +47,7 @@ export default function App() {
   const { language, t } = useI18n()
   const [routeState, setRouteState] = useState(() => parseRouteHash(window.location.hash))
   const route = routeState.route
+  const previewLocked = isPagesPreview && isPreviewRouteLocked(route, routeState.params)
   const loadIntervals = useAppStore((s) => s.loadIntervals)
 
   useEffect(() => {
@@ -101,7 +104,7 @@ export default function App() {
         applyMetadata(entityTitle, description, staticPath)
       })
     } else {
-      const staticPath = route === 'methods' ? 'methods/' : route === 'data' ? `datasets/${datasetVersion}/` : ''
+      const staticPath = route === 'methods' ? 'methods/' : route === 'data' && !isPagesPreview ? `datasets/${datasetVersion}/` : ''
       applyMetadata(null, fallbackDescription, staticPath)
     }
     return () => { cancelled = true }
@@ -114,7 +117,8 @@ export default function App() {
   }, [])
 
   let page
-  if (route === 'explore') page = <ExplorerWorkspace key={routeState.params.toString()} />
+  if (previewLocked) page = <PagesPreviewGate />
+  else if (route === 'explore') page = <ExplorerWorkspace key={routeState.params.toString()} />
   else if (route === 'catalog') page = <CatalogHubPage onNavigate={navigate} />
   else if (route === 'registry') page = <CatalogueTaxonPage release={routeState.params.get('release')} id={routeState.params.get('id')} onNavigate={navigate} />
   else if (route === 'research') page = <ResearchHubPage onNavigate={navigate} />
