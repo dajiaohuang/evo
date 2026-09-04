@@ -13,7 +13,8 @@
   "source": {
     "datasetId": "1124",
     "provider": "World Register of Marine Species via ChecklistBank",
-    "archiveUrl": "https://api.checklistbank.org/dataset/1124/archive",
+    "archiveAttempt": 87,
+    "archiveUrl": "https://api.checklistbank.org/dataset/1124/archive?attempt=87",
     "archivePath": "data/sources/archives/checklistbank-1124-priapulida-2026-09-01.zip",
     "archiveBytes": 17809,
     "archiveSha256": "e01eb9ac67b1cf8035caf2bd62ee7f741e7c258bba59fd9e911e47d32536dfeb",
@@ -106,8 +107,7 @@
       "bytes": 1832,
       "sha256": "15c0166e88a5cc712d260941fcbbd649faaf43df5fba9f74b6b03d40b7d41341"
     },
-    "sourceLedgerPath": "data/sources/worms-priapulida-archive-1124-import-ledger.json",
-    "sourceLedgerSha256": "53ee681e7dedce29338afb7835ae6c24a9487fd80769f05271be183d315ca759"
+    "sourceLedgerPath": "data/sources/worms-priapulida-archive-1124-import-ledger.json"
   },
   "scope": {
     "colRootUsageId": "B8VF9",

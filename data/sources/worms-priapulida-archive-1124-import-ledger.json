@@ -3,13 +3,14 @@
   "importType": "COL26.8-to-WoRMS-original-archive-projection",
   "generatedBy": {
     "scriptPath": "scripts/build-worms-small-original-sources.py",
-    "scriptSha256": "e8284cd289092463170ba4ce2d80f4e5d87f413f027d1537def9b67142f66fa4",
+    "scriptSha256": "ec67f3026aba341ac7c2ac58e4e61b4a1efb1451d2c59a1a2f8ecede882cf291",
     "hashNormalization": "LF"
   },
   "source": {
     "datasetId": "1124",
     "provider": "World Register of Marine Species via ChecklistBank",
-    "archiveUrl": "https://api.checklistbank.org/dataset/1124/archive",
+    "archiveAttempt": 87,
+    "archiveUrl": "https://api.checklistbank.org/dataset/1124/archive?attempt=87",
     "archivePath": "data/sources/archives/checklistbank-1124-priapulida-2026-09-01.zip",
     "archiveBytes": 17809,
     "archiveSha256": "e01eb9ac67b1cf8035caf2bd62ee7f741e7c258bba59fd9e911e47d32536dfeb",
@@ -1450,8 +1451,8 @@
   "outputs": {
     "descriptor": {
       "path": "data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals/worms-priapulida-sidecar.json",
-      "bytes": 6286,
-      "sha256": "80789db25e2fc82e5bb49cecfdacb2d1ec544ea7de9487133edf415f9ea57327"
+      "bytes": 6412,
+      "sha256": "2319e4da6b4fc00043c8ef07236d6e8b534701f8863563a6b455b79430b776f3"
     },
     "files": [
       {

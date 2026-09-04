@@ -13,7 +13,8 @@
   "source": {
     "datasetId": "1125",
     "provider": "World Register of Marine Species via ChecklistBank",
-    "archiveUrl": "https://api.checklistbank.org/dataset/1125/archive",
+    "archiveAttempt": 87,
+    "archiveUrl": "https://api.checklistbank.org/dataset/1125/archive?attempt=87",
     "archivePath": "data/sources/archives/checklistbank-1125-gnathostomulida-2026-09-01.zip",
     "archiveBytes": 20438,
     "archiveSha256": "f09e0292a17bba924b5a61342dcd45974fbd2c5a1c71db3d77312b227284bf75",
@@ -104,8 +105,7 @@
       "bytes": 1752,
       "sha256": "4eb281f6c0361f4966823562fdab52a6182a8b14c7577e5aa6de3f57806c462d"
     },
-    "sourceLedgerPath": "data/sources/worms-gnathostomulida-archive-1125-import-ledger.json",
-    "sourceLedgerSha256": "03c84de6323caf12c5f7e97d35a88744e4b1df99fd46da358b2c389bcbebf53d"
+    "sourceLedgerPath": "data/sources/worms-gnathostomulida-archive-1125-import-ledger.json"
   },
   "scope": {
     "colRootUsageId": "B8VF3",
