@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "importType": "COL26.8-to-ChecklistBank-1053-source-archive",
+  "source": {
+    "provider": "Eumycetozoa database",
+    "license": "CC-BY-4.0",
+    "archiveUrl": "https://api.checklistbank.org/dataset/1053/archive",
+    "archiveBytes": 131700,
+    "archiveSha256": "2d8a55a43d7273bfabaa19c16942c9258b7ca00c17319fead95c562af40f24b1",
+    "version": "May 2024",
+    "sourceLedgerPath": "data/sources/eumycetozoa-archive-import-ledger.json"
+  },
+  "scopeAudit": {
+    "method": "Exact name+authorship match restricted to COL sourceDatasetId 1053",
+    "archiveAcceptedSpeciesRows": 1345,
+    "colEligibleSpecies": 1337,
+    "matchedUniqueSourceAcceptedTaxonIds": 1331,
+    "sourceReferenceLinks": 3926,
+    "sourceReferences": 2932
+  },
+  "output": {
+    "path": "protists-chromists/eumycetozoa-000.json.gz",
+    "bytes": 127209,
+    "sha256": "73f9ac119bbec18a97db23f9e59bf4a64aaf9d135533a19a7a2c8b8a12bbe1e2",
+    "sourceBytes": 1587526,
+    "sourceSha256": "c7a91a21eff4585dc9eb2f656741d40f4d7d55971402323bf5028b329b569b06"
+  }
+}
