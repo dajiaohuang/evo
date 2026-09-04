@@ -24,7 +24,8 @@ SPECS = {
     'crustacea': ('crustaceans-insects', 'KZX8B', '1066', 'Crustacea', 80890),
     'radiozoa': ('protists-chromists', '5X', '582421', 'Radiozoa', 444),
 }
-LEGACY_SPECS = {key: spec for key, spec in SPECS.items() if key not in {'annelida', 'nematoda', 'crustacea'}}
+LEGACY_SCOPE_KEYS = ('mollusca', 'porifera', 'cnidaria')
+LEGACY_SPECS = {key: SPECS[key] for key in LEGACY_SCOPE_KEYS}
 RESOURCE_PACK_SCOPES = {'annelida', 'nematoda', 'radiozoa'}
 ARTHROPODA_SCOPES = {'crustacea'}
 LIMIT = 2 * 1024 * 1024
