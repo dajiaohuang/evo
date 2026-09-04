@@ -274,22 +274,32 @@ export interface RuntimeAviListNomenclatureCollection {
 
 export type ItisMappingStatus = 'accepted' | 'synonym-current-name-redirect' | 'ambiguous' | 'unmatched' | 'non-applicable'
 
+export interface ItisNomenclatureName {
+  tsn: string
+  scientificName: string
+  usage?: string
+  credibilityRating?: string | null
+  completenessRating?: string | null
+  currencyRating?: string | null
+  updateDate?: string | null
+}
+
+export interface ItisNomenclatureCandidate {
+  /** Current runtime rows use nested currentName; older sidecars used flat fields. */
+  currentName?: Pick<ItisNomenclatureName, 'tsn' | 'scientificName'>
+  tsn?: string
+  scientificName?: string
+  evidence?: unknown[]
+}
+
 export interface ItisNomenclatureRecord {
   status: ItisMappingStatus
   colUsageId: string
   colScientificName: string
   colAuthorship?: string | null
   exactMatchName?: string
-  currentName?: {
-    tsn: string
-    scientificName: string
-    usage: string
-    credibilityRating?: string | null
-    completenessRating?: string | null
-    currencyRating?: string | null
-    updateDate?: string | null
-  } | null
-  candidates?: Array<{ tsn: string; scientificName: string }>
+  currentName?: ItisNomenclatureName | null
+  candidates?: ItisNomenclatureCandidate[]
 }
 
 export type RuntimeItisNomenclatureCollectionId =
