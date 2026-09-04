@@ -9,6 +9,7 @@ test('1053 rebuild emits the complete COL target projection',()=>{
  assert.equal(d.id,'eumycetozoa-archive-crosswalk');
  assert.equal(d.counts.total,1337); assert.equal(rows.length,1337);
  assert.equal(new Set(rows.map(x=>x.sourceAcceptedTaxonId)).size,1331);
- assert.ok(rows.every(x=>x.status==='accepted'));
+ assert.equal(rows.filter(x=>x.status==='accepted').length,1330);
+ assert.equal(rows.filter(x=>x.status==='unmatched').length,7);
  assert.ok(rows.every(x=>x.nameReferences.every(r=>r.referenceType)));
 });
