@@ -9,18 +9,26 @@ citation, editor, contributors and licence.
 
 The release-scoped COL26.8 Nematoda root contains 19,604 accepted species. The
 archive has 20,810 non-provisional Species rows whose explicit phylum is
-Nematoda; 19,647 of those also have a complete parent closure to source Aphia
-799. Matching uses only NFC and whitespace normalization, removing only the
-exact trailing COL authorship suffix. It is case-sensitive and does not use
-fuzzy matching, synonym inference or species-concept equivalence.
+Nematoda. This explicit-phylum set is the retained source scope. A separate
+parent-closure audit finds 19,647 of those rows beneath source Aphia 799; the
+remaining 1,163 accepted rows are retained because their archive rows explicitly
+declare phylum Nematoda, but they are not Aphia-799 closure members. Matching
+uses only NFC and whitespace normalization, removing only the exact trailing COL
+authorship suffix. It is case-sensitive and does not use fuzzy matching, synonym
+inference or species-concept equivalence.
 
 The generated projection currently records 19,536 accepted exact matches, one
 ambiguous key, 67 unmatched COL rows and 1,274 source-only rows. The latter are
-kept in a separate source-only shard and do not receive COL ownership. Every
-accepted, ambiguous and unmatched row retains Taxon/Name/NameReference
-locators and the available Reference rows; source-only rows retain the same
-evidence links. Ancillary archive members are not redistributed as row data,
-but their bytes and SHA-256 digests are recorded in the descriptor and ledger.
+kept in a separate source-only shard and do not receive COL ownership. Of the
+source-only rows, 1,163 are outside the Aphia-799 closure and 111 are inside it;
+all remain explicit-phylum records rather than being presented as a closure
+inventory. The COL-only boundary is also explicit: 49 unmatched COL rows have
+no source candidate and therefore have empty `sourceRows`, while 56 unmatched
+COL rows have no linked references. Those rows remain in the COL partition and
+are not relabeled as source-only. Source-only rows retain source locators and
+any available references, which may be empty when the archive has no reference
+linkage. Ancillary archive members are not redistributed as row data, but their
+bytes and SHA-256 digests are recorded in the descriptor and ledger.
 
 The Web profile is summary-only and the native profile is complete. Each gzip
 shard's uncompressed JSON payload is below 2 MiB. Re-run the offline importer

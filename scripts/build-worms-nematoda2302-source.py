@@ -3,6 +3,9 @@
 The archive is read locally and is part of the source evidence.  Matching is
 deliberately limited to NFC-normalized, whitespace-normalized scientific name
 and authorship; no synonym, fuzzy, case or species-concept inference is made.
+The retained source scope is the explicit ``Taxon.phylum=Nematoda`` set.  The
+Aphia 799 parent closure is recorded as a separate audit subset and is not used
+to discard otherwise explicit Nematoda source rows.
 """
 import argparse
 import csv
@@ -261,15 +264,19 @@ def project(archive_path, metadata_path, output_root=None):
                         'mappingBasis': 'Exact NFC+whitespace-normalized source scientific name and authorship; no fuzzy or concept-equivalence fallback.',
                         'sourceRows': locators, 'references': refs})
     source_only = []
+    source_only_ids = []
     for taxon_id, (taxon, name, taxon_row, name_row) in sorted(source.items()):
         if taxon_id in implicated:
             continue
+        source_only_ids.append(taxon_id)
         source_only.append({'colId': None, 'colScientificName': None, 'colAuthorship': None,
                             'status': 'source-only', 'matchedName': None,
                             'acceptedName': source_name(taxon, name), 'candidates': [],
-                            'mappingBasis': 'Accepted Nemys source concept not linked by a unique exact COL name+authorship; not a new global species claim.',
+                            'mappingBasis': 'Accepted Nemys concept in the explicit Taxon.phylum=Nematoda scope, not linked by a unique exact COL name+authorship; not a new global species claim. Aphia 799 parent closure is reported separately and is not required for retention.',
                             'sourceRows': source_locators(taxon, name, taxon_row, name_row, name_refs, references),
                             'references': source_references(taxon, name, name_refs, references)})
+    source_only_outside_aphia_closure = sum(taxon_id not in rooted_source for taxon_id in source_only_ids)
+    source_only_within_aphia_closure = sum(taxon_id in rooted_source for taxon_id in source_only_ids)
     output_base = Path(output_root) if output_root else ROOT
     destination = output_base / OUT.relative_to(ROOT)
     destination.mkdir(parents=True, exist_ok=True)
@@ -298,11 +305,28 @@ def project(archive_path, metadata_path, output_root=None):
         'role': 'authority-crosswalk', 'rowEncoding': 'json', 'encoding': 'gzip',
         'mediaType': 'application/json', 'colIdField': 'colId', 'totalCountField': 'total',
         'source': source_info,
-        'scope': {'colRootUsageId': COL_ROOT, 'sourceRootAphiaId': '799', 'scientificName': 'Nematoda',
+        'scope': {'colRootUsageId': COL_ROOT, 'sourceRootAphiaId': '799',
+                  'sourceRootAphiaIdRole': 'audit-only parent-closure subset; explicit-phylum rows outside this closure are retained',
+                  'scientificName': 'Nematoda',
                   'eligibleColSpecies': len(col), 'sourceSpeciesRows': species_rows,
                   'sourceAcceptedSpecies': len(source), 'matchableSourceSpecies': len(matchable),
                   'excludedSourceProvisional': provisional,
-                  'excludedFromExactScope': len(source) - len(matchable)},
+                  'excludedFromExactScope': len(source) - len(matchable),
+                  'sourceScope': {
+                      'criterion': 'Accepted Species rows with explicit Taxon.phylum=Nematoda; parent closure is not required for retention.',
+                      'acceptedSpecies': len(source),
+                      'sourceOnlySpecies': len(source_only),
+                      'sourceOnlyOutsideAphiaClosure': source_only_outside_aphia_closure,
+                      'sourceOnlyWithinAphiaClosure': source_only_within_aphia_closure,
+                  },
+                  'aphiaClosureScope': {
+                      'criterion': 'Accepted Species rows whose Taxon parent chain reaches Aphia 799; this is an audit subset of the explicit-phylum scope.',
+                      'rootAphiaId': '799',
+                      'acceptedSpecies': len(rooted_source),
+                      'matchableSpecies': len(matchable),
+                      'sourceOnlySpecies': source_only_within_aphia_closure,
+                      'outsideClosureRetainedByPhylumScope': len(source) - len(rooted_source),
+                  }},
         'matching': {'normalization': 'NFC and whitespace normalization only; COL trailing authorship is removed exactly.',
                      'prohibited': 'No fuzzy, case-folded, accent-folded, synonym, inferred or species-concept matching.'},
         'counts': {'total': len(records), **counts, 'sourceOnly': len(source_only),
@@ -311,6 +335,7 @@ def project(archive_path, metadata_path, output_root=None):
         'evidenceBoundary': {'en': 'Frozen Nemys nomenclatural archive projection for COL26.8 Nematoda; not species-concept equivalence, a biological dossier, fossil evidence or expert review.',
                              'zh': '面向 COL26.8 Nematoda 的冻结 Nemys 命名档案投影；不是物种概念等同性、生物档案、化石证据或专家审查。'},
         'limitations': ['Source-only concepts retain null COL ownership and are not a global new-species claim.',
+                        f'{source_only_outside_aphia_closure} source-only concepts are outside the Aphia 799 parent closure but are retained because their archive Taxon row explicitly declares phylum Nematoda; they are not Aphia-799 closure members.',
                         'Ancillary source members are retained by archive hash but are not projected into row payloads.',
                         'Exact name matching does not establish equivalent species concepts or higher-classification identity.'],
         'totalCompressedBytes': sum(item['bytes'] for item in all_files),
@@ -335,7 +360,23 @@ def project(archive_path, metadata_path, output_root=None):
         'outputs': {'descriptor': {'path': f'data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals/{PREFIX}-sidecar.json',
                                    'bytes': len(descriptor_bytes), 'sha256': digest(descriptor_bytes)},
                     'files': col_files, 'sourceOnlyFiles': source_files, 'upstreamOnlyFiles': source_files},
-        'scopeAudit': {'method': 'All archive Taxon species rows were checked by explicit Nematoda phylum field and parent closure; exact matching candidates additionally require non-empty order and family fields.',
+        'scopeAudit': {'method': 'All archive Taxon species rows were checked by explicit Nematoda phylum field and parent closure. Retention uses the explicit-phylum scope; Aphia 799 closure is reported as a separate subset. Exact matching candidates additionally require non-empty order and family fields.',
+                       'explicitPhylumScope': {
+                           'criterion': 'Accepted Species rows with explicit Taxon.phylum=Nematoda.',
+                           'speciesRows': species_rows,
+                           'acceptedSpecies': len(source),
+                           'sourceOnly': len(source_only),
+                           'sourceOnlyOutsideAphiaClosure': source_only_outside_aphia_closure,
+                           'sourceOnlyWithinAphiaClosure': source_only_within_aphia_closure,
+                       },
+                       'aphia799ClosureScope': {
+                           'criterion': 'Accepted Species rows whose parent chain reaches Aphia 799; audit subset only.',
+                           'rootAphiaId': '799',
+                           'acceptedSpecies': len(rooted_source),
+                           'matchableSpecies': len(matchable),
+                           'sourceOnly': source_only_within_aphia_closure,
+                           'outsideClosureRetainedByPhylumScope': len(source) - len(rooted_source),
+                       },
                        'speciesRows': species_rows, 'sourceAcceptedSpecies': len(source),
                        'matchableSourceSpecies': len(matchable),
                        'sourceProvisionalExcluded': provisional, 'sourceOnly': len(source_only),

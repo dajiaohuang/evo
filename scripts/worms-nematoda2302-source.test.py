@@ -36,6 +36,24 @@ class Nematoda2302ProjectionTest(unittest.TestCase):
         descriptor = json.loads((OUT / f'{PREFIX}-sidecar.json').read_text(encoding='utf-8'))
         self.assertEqual(descriptor['scope']['eligibleColSpecies'], 19604)
         self.assertEqual(descriptor['scope']['sourceAcceptedSpecies'], 20810)
+        self.assertEqual(descriptor['scope']['sourceRootAphiaId'], '799')
+        self.assertEqual(descriptor['scope']['sourceRootAphiaIdRole'],
+                         'audit-only parent-closure subset; explicit-phylum rows outside this closure are retained')
+        self.assertEqual(descriptor['scope']['sourceScope'], {
+            'criterion': 'Accepted Species rows with explicit Taxon.phylum=Nematoda; parent closure is not required for retention.',
+            'acceptedSpecies': 20810,
+            'sourceOnlySpecies': 1274,
+            'sourceOnlyOutsideAphiaClosure': 1163,
+            'sourceOnlyWithinAphiaClosure': 111,
+        })
+        self.assertEqual(descriptor['scope']['aphiaClosureScope'], {
+            'criterion': 'Accepted Species rows whose Taxon parent chain reaches Aphia 799; this is an audit subset of the explicit-phylum scope.',
+            'rootAphiaId': '799',
+            'acceptedSpecies': 19647,
+            'matchableSpecies': 19629,
+            'sourceOnlySpecies': 111,
+            'outsideClosureRetainedByPhylumScope': 1163,
+        })
         self.assertEqual(descriptor['counts'], {
             'total': 19604, 'accepted': 19536, 'ambiguous': 1,
             'unmatched': 67, 'sourceOnly': 1274, 'upstreamOnly': 1274,
@@ -58,6 +76,8 @@ class Nematoda2302ProjectionTest(unittest.TestCase):
         self.assertEqual(len(rows), 19604)
         self.assertEqual({row['status'] for row in rows}, {'accepted', 'ambiguous', 'unmatched'})
         self.assertTrue(all('sourceRows' in row and 'references' in row for row in rows))
+        self.assertEqual(sum(row['status'] == 'unmatched' and not row['sourceRows'] for row in rows), 49)
+        self.assertEqual(sum(row['status'] == 'unmatched' and not row['references'] for row in rows), 56)
         source_only = json.loads(gzip.decompress((OUT / f'{PREFIX}-source-only-000.json.gz').read_bytes()))
         self.assertEqual(len(source_only), 1274)
         self.assertTrue(all(row['status'] == 'source-only' for row in source_only))

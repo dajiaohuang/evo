@@ -181,13 +181,29 @@
   "scope": {
     "colRootUsageId": "NM",
     "sourceRootAphiaId": "799",
+    "sourceRootAphiaIdRole": "audit-only parent-closure subset; explicit-phylum rows outside this closure are retained",
     "scientificName": "Nematoda",
     "eligibleColSpecies": 19604,
     "sourceSpeciesRows": 20814,
     "sourceAcceptedSpecies": 20810,
     "matchableSourceSpecies": 19629,
     "excludedSourceProvisional": 4,
-    "excludedFromExactScope": 1181
+    "excludedFromExactScope": 1181,
+    "sourceScope": {
+      "criterion": "Accepted Species rows with explicit Taxon.phylum=Nematoda; parent closure is not required for retention.",
+      "acceptedSpecies": 20810,
+      "sourceOnlySpecies": 1274,
+      "sourceOnlyOutsideAphiaClosure": 1163,
+      "sourceOnlyWithinAphiaClosure": 111
+    },
+    "aphiaClosureScope": {
+      "criterion": "Accepted Species rows whose Taxon parent chain reaches Aphia 799; this is an audit subset of the explicit-phylum scope.",
+      "rootAphiaId": "799",
+      "acceptedSpecies": 19647,
+      "matchableSpecies": 19629,
+      "sourceOnlySpecies": 111,
+      "outsideClosureRetainedByPhylumScope": 1163
+    }
   },
   "matching": {
     "normalization": "NFC and whitespace normalization only; COL trailing authorship is removed exactly.",
@@ -494,10 +510,10 @@
     {
       "path": "other-animals/worms-nematoda2302-source-only-000.json.gz",
       "records": 1274,
-      "bytes": 124642,
-      "sha256": "81b80b2f1a80d8cf6266d323287b8423278600fe6fc1bb67e61b56d4eae7d08b",
-      "sourceBytes": 1796287,
-      "sourceSha256": "ebf44180d0ed90fdd8e28bf2ca263b2d5e68b49a76f54f0caf81f80baa39e032",
+      "bytes": 127351,
+      "sha256": "6943082f3fa70e35f859a07119b3ef2fd0bc43d2350b4e413a02db56edfe221d",
+      "sourceBytes": 1950441,
+      "sourceSha256": "6aa0a38318a4248631f264be3dba626e8eb929442df112a14d6ee16170a9708d",
       "encoding": "gzip",
       "mediaType": "application/json",
       "role": "source-only"
@@ -507,10 +523,10 @@
     {
       "path": "other-animals/worms-nematoda2302-source-only-000.json.gz",
       "records": 1274,
-      "bytes": 124642,
-      "sha256": "81b80b2f1a80d8cf6266d323287b8423278600fe6fc1bb67e61b56d4eae7d08b",
-      "sourceBytes": 1796287,
-      "sourceSha256": "ebf44180d0ed90fdd8e28bf2ca263b2d5e68b49a76f54f0caf81f80baa39e032",
+      "bytes": 127351,
+      "sha256": "6943082f3fa70e35f859a07119b3ef2fd0bc43d2350b4e413a02db56edfe221d",
+      "sourceBytes": 1950441,
+      "sourceSha256": "6aa0a38318a4248631f264be3dba626e8eb929442df112a14d6ee16170a9708d",
       "encoding": "gzip",
       "mediaType": "application/json",
       "role": "source-only"
@@ -522,11 +538,12 @@
   },
   "limitations": [
     "Source-only concepts retain null COL ownership and are not a global new-species claim.",
+    "1163 source-only concepts are outside the Aphia 799 parent closure but are retained because their archive Taxon row explicitly declares phylum Nematoda; they are not Aphia-799 closure members.",
     "Ancillary source members are retained by archive hash but are not projected into row payloads.",
     "Exact name matching does not establish equivalent species concepts or higher-classification identity."
   ],
-  "totalCompressedBytes": 4290416,
-  "totalSourceBytes": 46750746,
+  "totalCompressedBytes": 4293125,
+  "totalSourceBytes": 46904900,
   "deliveryProfiles": {
     "web-light": {
       "mode": "summary-only",
@@ -563,8 +580,8 @@
         "other-animals/worms-nematoda2302-021.json.gz",
         "other-animals/worms-nematoda2302-source-only-000.json.gz"
       ],
-      "totalCompressedBytes": 4290416,
-      "totalSourceBytes": 46750746
+      "totalCompressedBytes": 4293125,
+      "totalSourceBytes": 46904900
     }
   }
 }
