@@ -18,7 +18,7 @@ test('Ochrophyta sidecar covers the exact COL and ITIS roots', () => {
   assert.equal(descriptor.scope.colStrictAcceptedSpecies, 1101)
   assert.equal(descriptor.sources.itis.rootTsn, '969917')
   assert.equal(descriptor.counts.total, 1101)
-  assert.deepEqual(descriptor.counts, { total: 1101, accepted: 1097, synonymCurrentNameRedirect: 0, ambiguous: 4, unmatched: 0, itisCurrentSpecies: 3399, itisSpeciesSynonymLinks: 795, itisUpstreamOnly: 2296 })
+  assert.deepEqual(descriptor.counts, { total: 1101, accepted: 1101, synonymCurrentNameRedirect: 0, ambiguous: 0, unmatched: 0, itisCurrentSpecies: 3399, itisSpeciesSynonymLinks: 795, itisUpstreamOnly: 2298 })
 })
 
 test('Ochrophyta row shards are deterministic and native-complete', () => {
@@ -26,5 +26,9 @@ test('Ochrophyta row shards are deterministic and native-complete', () => {
   const upstream = descriptor.upstreamOnly.files.flatMap(rows)
   assert.equal(matched.length, 1101); assert.equal(new Set(matched.map((row) => row.colUsageId)).size, 1101)
   assert.ok(matched.every((row) => row.exactMatchName === colExactMatchName({ scientificName: row.colScientificName, authorship: row.colAuthorship })))
-  assert.equal(upstream.length, 2296); assert.ok(upstream.every((row) => row.colUsageId === null && row.currentName.usage === 'accepted'))
+  assert.equal(upstream.length, 2298); assert.ok(upstream.every((row) => row.colUsageId === null && row.currentName.usage === 'accepted'))
+  for (const [colUsageId, tsn] of [['45WNC', '573654'], ['45WWJ', '1020771'], ['45WXV', '1020785'], ['6RTKD', '1020965']]) {
+    const row = matched.find((candidate) => candidate.colUsageId === colUsageId)
+    assert.equal(row.status, 'accepted'); assert.equal(row.currentName.tsn, tsn); assert.equal(row.colSourceLink.evidence, 'COL name.link'); assert.equal(row.candidateEvidence.length, 2)
+  }
 })
