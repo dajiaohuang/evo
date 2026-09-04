@@ -1,8 +1,8 @@
 # Orthoptera Species File authority-sidecar audit
 
-Status: **blocked before data acquisition** on 2026-08-31. No Orthoptera Species File (OSF) response, canonical crosswalk, package-local sidecar, source ledger or runtime file is committed by this change.
+Status: **independent official archive acquired and projected in RC105** on 2026-09-04. The public ChecklistBank dataset 1021 archive (Sep 2026, attempt 56, DOI `10.48580/d388.v56`) now supplies the source snapshot. All 30,859 scoped COL records have explicit outcomes, and 53 source-only accepted concepts are separate. See [current archive provenance and delivery](authority-archives-rc105.md).
 
-The scientific and licensing route is viable in principle, but the controlling TaxonWorks production host returned no HTTP response from this build environment. Publishing a crosswalk derived only from the existing Catalogue of Life sector would falsely present the already-pinned COL26.8 names as an independent OSF retrieval. The acquisition therefore stops at this evidence record.
+The direct TaxonWorks API route below remains a **historical 2026-08-31 investigation**: the production host returned no HTTP response from this build environment. RC105 does not claim API pagination succeeded. It uses a complete separately retrieved official ColDP archive instead; this is not a crosswalk derived only from the existing COL sector. The API-specific proposed acquisition and earlier failure record below are retained as history, not the current archive status.
 
 ## Exact COL26.8 scope
 

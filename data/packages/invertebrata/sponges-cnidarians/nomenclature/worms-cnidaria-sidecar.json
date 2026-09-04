@@ -1,0 +1,165 @@
+{
+  "schemaVersion": 1,
+  "recordType": "release-pinned-authority-archive-crosswalk",
+  "id": "worms-cnidaria-archive-crosswalk",
+  "packageId": "sponges-cnidarians",
+  "provider": "World Register of Marine Species via ChecklistBank",
+  "rowEncoding": "json",
+  "colIdField": "colId",
+  "totalCountField": "total",
+  "source": {
+    "provider": "World Register of Marine Species via ChecklistBank",
+    "license": "CC-BY-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "rightsHolder": "WoRMS Editorial Board",
+    "archiveUrl": "https://api.checklistbank.org/dataset/2011/archive",
+    "archiveBytes": 342751141,
+    "archiveSha256": "8419d301b08e1f119557ead2222d7efd8f01a3f3ca3b6c9ff1edd062bfa312c6",
+    "attempt": 148,
+    "version": "2026-09-01",
+    "versionDoi": "10.48580/d4fd.v148",
+    "retrievedAt": "2026-09-04T03:49:48.539Z",
+    "immutableUrlClaimed": false,
+    "members": {
+      "taxon.txt": {
+        "bytes": 1280833469,
+        "sha256": "965c04a301ac98eed017d37ba78ec541b6e530f76d75ac729f429991c8e584ee",
+        "rows": 1565652,
+        "rowConvention": "one-based logical TSV record ordinal including header; first data record is 2"
+      },
+      "meta.xml": {
+        "bytes": 6844,
+        "sha256": "1f9a6c73256ad4832e70146c35e2d75e885bb598edfcd0cee273c3a37fcf50a6"
+      },
+      "eml.xml": {
+        "bytes": 10948,
+        "sha256": "bb3504da29a78970d7bdee0289fa1e7b9ca568870c204af4eb307d228a0ae950"
+      }
+    },
+    "sourceLedgerPath": "data/sources/worms-archive-2011-import-ledger.json",
+    "sourceLedgerSha256": "dc546f1da6ac2cafbe7207ffbf2be33aa0190daf4d211f262122b49543155d57"
+  },
+  "scope": {
+    "colRootUsageId": "CN2",
+    "wormsRootId": "1267",
+    "scientificName": "Cnidaria",
+    "eligibleColSpecies": 20622,
+    "packageStrictAcceptedSpecies": 30521,
+    "excludedPackageRemainder": 9899
+  },
+  "matching": {
+    "normalization": "Remove only exact trailing COL space+authorship suffix, then normalize whitespace for comparison; preserve source fields unchanged.",
+    "redirect": "Explicit acceptedNameUsageID to accepted Species target inside the same source root; invalid or mixed targets withheld.",
+    "prohibited": "No fuzzy, case-folded, accent-folded, inferred or species-concept matching."
+  },
+  "counts": {
+    "total": 20622,
+    "accepted": 20602,
+    "redirect": 2,
+    "ambiguous": 0,
+    "unmatched": 16,
+    "withheld": 2,
+    "upstreamOnly": 1328
+  },
+  "files": [
+    {
+      "path": "nomenclature/worms-cnidaria-000.json.gz",
+      "records": 2746,
+      "bytes": 130728,
+      "sha256": "16f6ac77b51e3d21a0f94c3dc43025902375be489769af3a69982ec1607994f3",
+      "sourceBytes": 2096660,
+      "sourceSha256": "e93dd7659c3844e8f74c69fef7add712092cc190ba29b04ee916bf1ca3145fba",
+      "minColId": "323D7",
+      "maxColId": "467MC"
+    },
+    {
+      "path": "nomenclature/worms-cnidaria-001.json.gz",
+      "records": 2727,
+      "bytes": 134275,
+      "sha256": "0d7111190467244b28b534cfec9222af23498cda4310c9fefccf2fe3deb59aa4",
+      "sourceBytes": 2097101,
+      "sourceSha256": "061526ff1ac651ac136430926e3fef3b3f5836a48e8e92d8ee58def6505b8a32",
+      "minColId": "467MD",
+      "maxColId": "5WGTK"
+    },
+    {
+      "path": "nomenclature/worms-cnidaria-002.json.gz",
+      "records": 2731,
+      "bytes": 143772,
+      "sha256": "fd9cb22663f91a58d39e1e2c7e6116f4939e0c8297da9dc8ee38db7df2a09859",
+      "sourceBytes": 2096647,
+      "sourceSha256": "df6d384ea372317d82e3872e8b7f97eea9aeaa20dc602bf18b9ed2acf34e3fad",
+      "minColId": "5WGTM",
+      "maxColId": "75RWS"
+    },
+    {
+      "path": "nomenclature/worms-cnidaria-003.json.gz",
+      "records": 2704,
+      "bytes": 137868,
+      "sha256": "68533c766bc158255097aa326ea2779ab595c7ee6fdf689c6f2e9365edaa4156",
+      "sourceBytes": 2096540,
+      "sourceSha256": "503eca526c0ffd2088ffe48cb3f412ad6c972ba5ceeb21c29b3cf032bd15e651",
+      "minColId": "75S7G",
+      "maxColId": "865DK"
+    },
+    {
+      "path": "nomenclature/worms-cnidaria-004.json.gz",
+      "records": 2684,
+      "bytes": 129336,
+      "sha256": "651abbbb9d43c4781d87b9744748a0a228ed3d81a57a8b039da50533f7d61f08",
+      "sourceBytes": 2096680,
+      "sourceSha256": "3c01dfc386b5bfeaa99d7e72faf854ff7673f1144ec3f7f01514143b119c1cad",
+      "minColId": "865DL",
+      "maxColId": "BDQPP"
+    },
+    {
+      "path": "nomenclature/worms-cnidaria-005.json.gz",
+      "records": 2651,
+      "bytes": 133616,
+      "sha256": "7f7e13e86235264a6c254a77bfd283e9c117439f41b7e663334de7bc4d1ee861",
+      "sourceBytes": 2096835,
+      "sourceSha256": "de74f653bd8fc084d315a01d2f98fb64469ceb788b47a5375b2dbc1c96227cfa",
+      "minColId": "BDQPQ",
+      "maxColId": "C2L2L"
+    },
+    {
+      "path": "nomenclature/worms-cnidaria-006.json.gz",
+      "records": 2691,
+      "bytes": 130604,
+      "sha256": "bbf9c9b637f401b0aa72f322cf40fe41d35661ff86aee51745060b2cee452860",
+      "sourceBytes": 2096812,
+      "sourceSha256": "f226eb39bc7b7141badde1872652815deb3d3ca60054f6efb753d08c3df3a903",
+      "minColId": "C2L2M",
+      "maxColId": "KZHLH"
+    },
+    {
+      "path": "nomenclature/worms-cnidaria-007.json.gz",
+      "records": 1688,
+      "bytes": 86369,
+      "sha256": "5aa285aba1bc0441b7d3a2e20c89f9c55639b73e40b3f0c865308851fe0e0141",
+      "sourceBytes": 1310060,
+      "sourceSha256": "b7cd2e60117b0f1fae1400706738a50b05245eac12d179c5b3b9669f114119c7",
+      "minColId": "KZHM2",
+      "maxColId": "ZYTD"
+    }
+  ],
+  "upstreamOnlyFiles": [
+    {
+      "path": "nomenclature/worms-cnidaria-upstream-only-000.json.gz",
+      "records": 1328,
+      "bytes": 34552,
+      "sha256": "ffd95ac349d154f2b2ef55b8d5638d382ccb9ccf0283f25584f50b51ace2c381",
+      "sourceBytes": 682908,
+      "sourceSha256": "5c4f92d0b6bbcf8e56598e905269f651be4170fb121da213f712ac42f6be3696"
+    }
+  ],
+  "evidenceBoundary": {
+    "en": "A frozen exact nomenclatural crosswalk; not species-concept equivalence, a biological dossier, fossil evidence or expert review.",
+    "zh": "冻结的严格命名交叉映射；不是物种概念等同性、生物档案、化石证据或专家审查。"
+  },
+  "limitations": [
+    "Source-only accepted concepts retain null COL ownership.",
+    "Only name/status/identifier projections are redistributed, not raw archives or ancillary members.",
+    "The parent-closure anomaly audit remains explicit; no completeness claim about all marine diversity."
+  ]
+}

@@ -143,7 +143,9 @@ async function loadWithWorker<T>(file: RuntimeFile): Promise<T> {
   const id = ++requestId
   return new Promise<T>((resolve, reject) => {
     workerRequests.set(id, { resolve: (data) => resolve(data as T), reject })
-    activeWorker.postMessage({ id, url: dataUrl(file.url), sha256: file.sha256, sourceSha256: file.sourceSha256, mediaType: file.mediaType })
+    // Resolve native ./data against the document, not the worker's assets/ URL.
+    const url = new URL(dataUrl(file.url), document.baseURI).href
+    activeWorker.postMessage({ id, url, sha256: file.sha256, sourceSha256: file.sourceSha256, mediaType: file.mediaType })
   })
 }
 
@@ -479,6 +481,54 @@ export async function loadPackageItisAuthorityRecord(
     throw new Error(`ITIS ${scope} authority collection does not match its pinned runtime contract`)
   }
   return result
+}
+
+async function packageAuthorityArchiveCollection(
+  packageId: string,
+  collectionId: import('./types').AuthorityArchiveCollectionId,
+) {
+  const manifest = await loadPackageManifest(packageId)
+  const collection = manifest.nomenclatureCollections?.find((candidate): candidate is import('./types').RuntimeAuthorityArchiveCollection => (
+    candidate.id === collectionId && candidate.recordType === 'release-pinned-authority-archive-crosswalk'
+  ))
+  if (!collection || collection.packageId !== packageId) throw new Error(`Runtime package ${packageId} does not publish authority archive ${collectionId}`)
+  return collection
+}
+
+export async function loadPackageAuthorityArchiveRecord(
+  packageId: string,
+  collectionId: import('./types').AuthorityArchiveCollectionId,
+  colId: string,
+): Promise<{ collection: import('./types').RuntimeAuthorityArchiveCollection; record: import('./types').AuthorityArchiveRecord | null }> {
+  const collection = await packageAuthorityArchiveCollection(packageId, collectionId)
+  // Web deliberately publishes metadata without row shards. This is not an unmatched taxon.
+  if (!collection.delivery.completeRows || collection.delivery.profile !== 'native-full') return { collection, record: null }
+  const file = collection.files.find((candidate) => candidate.minColId !== undefined && candidate.maxColId !== undefined
+    && candidate.minColId <= colId && candidate.maxColId >= colId)
+  if (!file) return { collection, record: null }
+  const records = await loadRuntimeFile<import('./types').AuthorityArchiveRecord[]>(file)
+  if (records.length !== file.records || records[0]?.colId !== file.minColId || records.at(-1)?.colId !== file.maxColId) {
+    throw new Error(`Authority archive shard does not match its COL range: ${collectionId}`)
+  }
+  return { collection, record: records.find((record) => record.colId === colId) ?? null }
+}
+
+export async function loadPackageAuthorityArchiveSourceOnly(
+  packageId: string,
+  collectionId: import('./types').AuthorityArchiveCollectionId,
+  fileIndex: number,
+): Promise<import('./types').AuthorityArchiveRecord[]> {
+  const collection = await packageAuthorityArchiveCollection(packageId, collectionId)
+  if (!collection.delivery.completeRows || collection.delivery.profile !== 'native-full') {
+    throw new Error('Source-only records require the full Android/iOS data profile')
+  }
+  const file = collection.upstreamOnlyFiles[fileIndex]
+  if (!file) throw new Error('Source-only file is not present in this collection')
+  const records = await loadRuntimeFile<import('./types').AuthorityArchiveRecord[]>(file)
+  if (records.length !== file.records || records.some((record) => record.colId !== null || record.status !== 'upstream-only')) {
+    throw new Error('Source-only records do not match their independent partition')
+  }
+  return records
 }
 
 export async function loadPackageForEntity(entityId: string): Promise<RuntimePackageManifest | null> {

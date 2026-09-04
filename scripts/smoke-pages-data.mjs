@@ -129,6 +129,14 @@ for (const packageEntry of packageRegistry.packages) {
     checkFile(shard, `package ${packageEntry.id} occurrence`)
   }
   const nomenclatureCollections = manifest.nomenclatureCollections ?? []
+  for (const collection of nomenclatureCollections.filter((item) => item.recordType === 'release-pinned-authority-archive-crosswalk')) {
+    if (collection.delivery?.profile !== 'web-light' || collection.delivery?.completeRows !== false
+      || collection.files?.length !== 0 || collection.upstreamOnlyFiles?.length !== 0
+      || collection.delivery?.publishedFileCount !== 0
+      || collection.canonicalFileInventory?.length !== collection.delivery?.canonicalFileCount) {
+      failures.push(`${packageEntry.id}: archive authority must remain summary-only on Pages`)
+    }
+  }
   let wormsCollection = null
   if (packageEntry.id === 'echinoderms') {
     wormsCollection = nomenclatureCollections.find((collection) => collection.id === 'worms-aphiaid-crosswalk')
@@ -150,17 +158,17 @@ for (const packageEntry of packageRegistry.packages) {
       id: 'itis-echinodermata-tsn-crosswalk', total: 11891, accepted: 3692, redirects: 51, ambiguous: 9, unmatched: 8139, upstreamOnly: 278, files: 3,
     })
   } else if (packageEntry.id === 'molluscs-brachiopods') {
-    if (nomenclatureCollections.length !== 1) failures.push('molluscs-brachiopods: expected one ITIS nomenclature collection')
+    if (nomenclatureCollections.length !== 2) failures.push('molluscs-brachiopods: expected ITIS and WoRMS nomenclature collections')
     checkItisSummaryOnlyCollection('molluscs-brachiopods', nomenclatureCollections, {
       id: 'itis-mollusca-brachiopoda-tsn-crosswalk', total: 159801, accepted: 7219, redirects: 256, ambiguous: 16, unmatched: 152310, upstreamOnly: 4289, files: 60,
     })
   } else if (packageEntry.id === 'sponges-cnidarians') {
-    if (nomenclatureCollections.length !== 1) failures.push('sponges-cnidarians: expected one ITIS nomenclature collection')
+    if (nomenclatureCollections.length !== 3) failures.push('sponges-cnidarians: expected ITIS and two WoRMS nomenclature collections')
     checkItisSummaryOnlyCollection('sponges-cnidarians', nomenclatureCollections, {
       id: 'itis-porifera-cnidaria-tsn-crosswalk', total: 30521, accepted: 4242, redirects: 50, ambiguous: 3, unmatched: 26226, upstreamOnly: 2218, files: 6,
     })
   } else if (packageEntry.id === 'crustaceans-insects') {
-    if (nomenclatureCollections.length !== 4) failures.push('crustaceans-insects: expected four ITIS nomenclature collections')
+    if (nomenclatureCollections.length !== 5) failures.push('crustaceans-insects: expected four ITIS and one OSF nomenclature collections')
     checkItisSummaryOnlyCollection('crustaceans-insects', nomenclatureCollections, {
       id: 'itis-crustacea-tsn-crosswalk', total: 80890, accepted: 26395, redirects: 115, ambiguous: 38, unmatched: 54342, upstreamOnly: 5991, files: 41,
     })

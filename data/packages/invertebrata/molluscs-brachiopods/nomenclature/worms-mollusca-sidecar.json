@@ -1,0 +1,645 @@
+{
+  "schemaVersion": 1,
+  "recordType": "release-pinned-authority-archive-crosswalk",
+  "id": "worms-mollusca-archive-crosswalk",
+  "packageId": "molluscs-brachiopods",
+  "provider": "World Register of Marine Species via ChecklistBank",
+  "rowEncoding": "json",
+  "colIdField": "colId",
+  "totalCountField": "total",
+  "source": {
+    "provider": "World Register of Marine Species via ChecklistBank",
+    "license": "CC-BY-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "rightsHolder": "WoRMS Editorial Board",
+    "archiveUrl": "https://api.checklistbank.org/dataset/2011/archive",
+    "archiveBytes": 342751141,
+    "archiveSha256": "8419d301b08e1f119557ead2222d7efd8f01a3f3ca3b6c9ff1edd062bfa312c6",
+    "attempt": 148,
+    "version": "2026-09-01",
+    "versionDoi": "10.48580/d4fd.v148",
+    "retrievedAt": "2026-09-04T03:49:48.539Z",
+    "immutableUrlClaimed": false,
+    "members": {
+      "taxon.txt": {
+        "bytes": 1280833469,
+        "sha256": "965c04a301ac98eed017d37ba78ec541b6e530f76d75ac729f429991c8e584ee",
+        "rows": 1565652,
+        "rowConvention": "one-based logical TSV record ordinal including header; first data record is 2"
+      },
+      "meta.xml": {
+        "bytes": 6844,
+        "sha256": "1f9a6c73256ad4832e70146c35e2d75e885bb598edfcd0cee273c3a37fcf50a6"
+      },
+      "eml.xml": {
+        "bytes": 10948,
+        "sha256": "bb3504da29a78970d7bdee0289fa1e7b9ca568870c204af4eb307d228a0ae950"
+      }
+    },
+    "sourceLedgerPath": "data/sources/worms-archive-2011-import-ledger.json",
+    "sourceLedgerSha256": "dc546f1da6ac2cafbe7207ffbf2be33aa0190daf4d211f262122b49543155d57"
+  },
+  "scope": {
+    "colRootUsageId": "M2L",
+    "wormsRootId": "51",
+    "scientificName": "Mollusca",
+    "eligibleColSpecies": 154718,
+    "packageStrictAcceptedSpecies": 159801,
+    "excludedPackageRemainder": 5083
+  },
+  "matching": {
+    "normalization": "Remove only exact trailing COL space+authorship suffix, then normalize whitespace for comparison; preserve source fields unchanged.",
+    "redirect": "Explicit acceptedNameUsageID to accepted Species target inside the same source root; invalid or mixed targets withheld.",
+    "prohibited": "No fuzzy, case-folded, accent-folded, inferred or species-concept matching."
+  },
+  "counts": {
+    "total": 154718,
+    "accepted": 144529,
+    "redirect": 208,
+    "ambiguous": 3,
+    "unmatched": 9943,
+    "withheld": 35,
+    "upstreamOnly": 1253
+  },
+  "files": [
+    {
+      "path": "nomenclature/worms-mollusca-000.json.gz",
+      "records": 2882,
+      "bytes": 136728,
+      "sha256": "5adddd95e9998da2e5d65d2b595fefb2796c0f5a4ae48bb7b6ce8ad88d4f663c",
+      "sourceBytes": 2097046,
+      "sourceSha256": "4f44b08e1ed93e550f3875aff0fd03f4f87b77cf137eea67cf7fe58750347657",
+      "minColId": "322C4",
+      "maxColId": "37HLV"
+    },
+    {
+      "path": "nomenclature/worms-mollusca-001.json.gz",
+      "records": 2919,
+      "bytes": 137721,
+      "sha256": "9cfce30cbcb85a6a3b19d56e926a1d603614f739918ef48c65b36218ab716025",
+      "sourceBytes": 2096546,
+      "sourceSha256": "1da7e23f3c5863d8f8b0f1ea269edb48e6bd2be636f7265b85348464d9e4d1b9",
+      "minColId": "37HLW",
+      "maxColId": "3FLNY"
+    },
+    {
+      "path": "nomenclature/worms-mollusca-002.json.gz",
+      "records": 2963,
+      "bytes": 135627,
+      "sha256": "5e482bff2796ec53d0b095b0746605f656f10517098495432894626fbee2be61",
+      "sourceBytes": 2096898,
+      "sourceSha256": "472ba49cde13e0e9ff32d6b98e35d95a8bcd15ae58581dfd0b763fa63768f2e8",
+      "minColId": "3FLNZ",
+      "maxColId": "3KMWC"
+    },
+    {
+      "path": "nomenclature/worms-mollusca-003.json.gz",
+      "records": 2987,
+      "bytes": 137678,
+      "sha256": "bf3633b241443ee1375ee5180ecb20953c3f5f80c37026940fc5368a51611499",
+      "sourceBytes": 2096893,
+      "sourceSha256": "205adb8b9569b64147f62566218c2b9925b4401fcc457785821f42517cb44e28",
+      "minColId": "3KMWD",
+      "maxColId": "3R57T"
+    },
+    {
+      "path": "nomenclature/worms-mollusca-004.json.gz",
+      "records": 2933,
+      "bytes": 140471,
+      "sha256": "a35d127935e3b6f077a060393acff1cb36173ac420b6cf853fe2b63ec462e17d",
+      "sourceBytes": 2096564,
+      "sourceSha256": "55dfab1fe7c8b4259a1eaa7436b66ad59234c66e1df66d0e012774dfd6c239b1",
+      "minColId": "3R57V",
+      "maxColId": "3X6RL"
+    },
+    {
+      "path": "nomenclature/worms-mollusca-005.json.gz",
+      "records": 2918,
+      "bytes": 138698,
+      "sha256": "3d9f8b0b221fc6db426f3c5a6b0a97f0c49a2bffd03273131c7284080259a069",
+      "sourceBytes": 2096661,
+      "sourceSha256": "6128eb74e7b0f326741c09b3d857cc116ad7796d7b8d289db1dbbf1cb8970313",
+      "minColId": "3X6RM",
+      "maxColId": "43RGD"
+    },
+    {
+      "path": "nomenclature/worms-mollusca-006.json.gz",
+      "records": 2950,
+      "bytes": 139255,
+      "sha256": "ff93a15f23dbcc1ab1cea7dd79428ff9882993adb1324a5cef1f238e0e1fa393",
+      "sourceBytes": 2096823,
+      "sourceSha256": "9b76154d2cb517d3fc6161314d3e3597c9963415b224f6778834ed48d0dc4bca",
+      "minColId": "43RGG",
+      "maxColId": "47YMP"
+    },
+    {
+      "path": "nomenclature/worms-mollusca-007.json.gz",
+      "records": 3026,
+      "bytes": 136851,
+      "sha256": "62bf64b12611dc39a47713f6cac510b6d88885efa72903f5b5c523db35e49091",
+      "sourceBytes": 2096826,
+      "sourceSha256": "eb810ecb25c763b51ecef8c3d0e7273ee3fdf02c738124468b8775a63d3c9abe",
+      "minColId": "47YMQ",
+      "maxColId": "4DKK9"
+    },
+    {
+      "path": "nomenclature/worms-mollusca-008.json.gz",
+      "records": 2978,
+      "bytes": 139537,
+      "sha256": "ff2150cf6c2a17570155471585ebdfca3345d3bd791982360e68051f7214af5b",
+      "sourceBytes": 2096943,
+      "sourceSha256": "b1702959a92b1368281f243e00339f45c59cf26b7c1e53f994bb97a0c9dee464",
+      "minColId": "4DKKC",
+      "maxColId": "4MFTD"
+    },
+    {
+      "path": "nomenclature/worms-mollusca-009.json.gz",
+      "records": 3042,
+      "bytes": 138458,
+      "sha256": "a5bc32d06747d6b1300b9a027a244a4860c61e01e7d1480e46362b7caeea2dd2",
+      "sourceBytes": 2097052,
+      "sourceSha256": "26789eb45eae0391656e4790036da9fe0324f2178e6bb545b4d96e6c425cc73e",
+      "minColId": "4MFTG",
+      "maxColId": "4R7JB"
+    },
+    {
+      "path": "nomenclature/worms-mollusca-010.json.gz",
+      "records": 2904,
+      "bytes": 139563,
+      "sha256": "e88fdabf4019e3529d7cde8c15bac701c27cd7a989d15e8b2606a565877be1bd",
+      "sourceBytes": 2096741,
+      "sourceSha256": "be22f151918c057b9eaa2df6d5c16733b901915895fbada3180d4670de7b857d",
+      "minColId": "4R7JC",
+      "maxColId": "4XT33"
+    },
+    {
+      "path": "nomenclature/worms-mollusca-011.json.gz",
+      "records": 2938,
+      "bytes": 138020,
+      "sha256": "88ac8e34f3389e70eedd6e25ce89b86ede1acd4b8e3545fe77431e82367a7128",
+      "sourceBytes": 2097081,
+      "sourceSha256": "c3026b8ab9227a963f50468578cdbbda116c62836f7ac7e775f34208a9aef323",
+      "minColId": "4XT34",
+      "maxColId": "55JJR"
+    },
+    {
+      "path": "nomenclature/worms-mollusca-012.json.gz",
+      "records": 2876,
+      "bytes": 133464,
+      "sha256": "0b3d203e64e9420abd30b0f29a8366f6d176cf03c10fefc01c9430bb9a1721d0",
+      "sourceBytes": 2096764,
+      "sourceSha256": "21b09b09ae973ab2aaa11e1be3aad94ecb8b1dcdb73cb74ae10db8d62910f25e",
+      "minColId": "55JJS",
+      "maxColId": "59NXV"
+    },
+    {
+      "path": "nomenclature/worms-mollusca-013.json.gz",
+      "records": 2839,
+      "bytes": 131636,
+      "sha256": "61b312a69134edb5e79a5968a93c74e595d3cda070497bc071b8ad8bb5d11ad7",
+      "sourceBytes": 2096660,
+      "sourceSha256": "dfea5fa12c7f9fabe4a0f0e37584f70511620938abf54e9b787f407622feb4f4",
+      "minColId": "59NXX",
+      "maxColId": "5D4RZ"
+    },
+    {
+      "path": "nomenclature/worms-mollusca-014.json.gz",
+      "records": 2909,
+      "bytes": 153041,
+      "sha256": "920f7c4b3b53c1192b3a78534615240b8d6275caaa8e384c8506aba1b09ec39c",
+      "sourceBytes": 2096867,
+      "sourceSha256": "be0169eb4edb646d1cc75395cfbdd704b0f3dab3491c50b1a393738aa446e34e",
+      "minColId": "5D4TR",
+      "maxColId": "64TJ5"
+    },
+    {
+      "path": "nomenclature/worms-mollusca-015.json.gz",
+      "records": 2946,
+      "bytes": 153780,
+      "sha256": "771b8dd7b6337a9a2bd2ec97d21e55baff53805390b4ce4ecd76ff31d2ff3f48",
+      "sourceBytes": 2096905,
+      "sourceSha256": "2b50224ad9676e405ff65e85c064df0ef58a84932b9d064ec8705d6d1894edcc",
+      "minColId": "64TJ6",
+      "maxColId": "6BPRY"
+    },
+    {
+      "path": "nomenclature/worms-mollusca-016.json.gz",
+      "records": 2976,
+      "bytes": 145382,
+      "sha256": "7611df5c9236ad65a09d80248c12995be3d965f96922ce6567fe3686a660bfca",
+      "sourceBytes": 2096663,
+      "sourceSha256": "14b4eaada3c663c6ce611e40703a21e0f78511726ce7fe4bd4d408c138f3f315",
+      "minColId": "6BPS4",
+      "maxColId": "6HQF6"
+    },
+    {
+      "path": "nomenclature/worms-mollusca-017.json.gz",
+      "records": 2932,
+      "bytes": 148268,
+      "sha256": "923d6d56cb3a1f8633f595ea7de5e339722aefa83be9425793b75681f9031878",
+      "sourceBytes": 2096434,
+      "sourceSha256": "797e12e1c6797786b907f961f5c919745b76fdd9fa9fc330d60f9f051903b2da",
+      "minColId": "6HQF9",
+      "maxColId": "6NB25"
+    },
+    {
+      "path": "nomenclature/worms-mollusca-018.json.gz",
+      "records": 2970,
+      "bytes": 154124,
+      "sha256": "7971d0d50f3dd8d35a0387d21b5a0609403a897acee4cf3d5d38bd71d2f7fd70",
+      "sourceBytes": 2096810,
+      "sourceSha256": "50ce77425e27da24ce027eb97efb8638bf71f08e469a6490e3b8b55351360a4c",
+      "minColId": "6NB26",
+      "maxColId": "6TSWR"
+    },
+    {
+      "path": "nomenclature/worms-mollusca-019.json.gz",
+      "records": 2968,
+      "bytes": 153973,
+      "sha256": "523588aeb294937109194410759d1bcef0e7f4ec9f3e13a112735e13c052fa8e",
+      "sourceBytes": 2096711,
+      "sourceSha256": "9b74df6dfffa6bf5e37d9ca699bbe1874594b6a7c420d0ce1c63d110d748e107",
+      "minColId": "6TSWT",
+      "maxColId": "72832"
+    },
+    {
+      "path": "nomenclature/worms-mollusca-020.json.gz",
+      "records": 2945,
+      "bytes": 156086,
+      "sha256": "e70b8d3652dcab5d5f1cde4fdb9760bc8e4cd2993a35061da4185330656422c0",
+      "sourceBytes": 2097096,
+      "sourceSha256": "6b34b286524c8b3868c00cf82aea9b5c39c24e3514c6a144091f0755eb8dd940",
+      "minColId": "72833",
+      "maxColId": "77TRW"
+    },
+    {
+      "path": "nomenclature/worms-mollusca-021.json.gz",
+      "records": 2993,
+      "bytes": 155158,
+      "sha256": "7e31e921b0da6d2b45eae272484d898391a48d4b5d8db20b3685dacacfe9484e",
+      "sourceBytes": 2096875,
+      "sourceSha256": "d90c11f049c7b345552323abbfcb224ed74081d12d944a2269d70eafc9c87d0b",
+      "minColId": "77TZT",
+      "maxColId": "7F6NF"
+    },
+    {
+      "path": "nomenclature/worms-mollusca-022.json.gz",
+      "records": 2770,
+      "bytes": 141208,
+      "sha256": "397dafe9c7a9806be9273d9c09fd7f43f7d45b5ac97e253b3cf0b1736f4bfa3d",
+      "sourceBytes": 2096490,
+      "sourceSha256": "3f3262c82e53ec2c238a70b9ec73f182df991afbd0b11119e24a3c71d13d15ae",
+      "minColId": "7F6PM",
+      "maxColId": "7Q9FW"
+    },
+    {
+      "path": "nomenclature/worms-mollusca-023.json.gz",
+      "records": 2698,
+      "bytes": 131330,
+      "sha256": "de39de1b829f9503b6c3e68ff94d90409aece8d8eb5785d898cda30dc7a3a067",
+      "sourceBytes": 2096833,
+      "sourceSha256": "842e653ddfe70b4593359ceac33be194624e0831e6865506e59679a8f5bfa339",
+      "minColId": "7Q9FX",
+      "maxColId": "7QTR7"
+    },
+    {
+      "path": "nomenclature/worms-mollusca-024.json.gz",
+      "records": 2695,
+      "bytes": 130577,
+      "sha256": "2eff6617d515f0beba8068068d34c6279bcf955a4d3950ea54bb2f5333243bc7",
+      "sourceBytes": 2097075,
+      "sourceSha256": "b260476ba5a5a8a1cd0ccd281d12fd735eaf3eb9e0e34c345b5a1d0caac85e41",
+      "minColId": "7QTR8",
+      "maxColId": "7R9VD"
+    },
+    {
+      "path": "nomenclature/worms-mollusca-025.json.gz",
+      "records": 2703,
+      "bytes": 131209,
+      "sha256": "5611bc237497b62de570c757ec101b27344f2fbb338afeabe0b7acc318c60687",
+      "sourceBytes": 2097015,
+      "sourceSha256": "dd4def2af2442e0c092274ac6b6f75a793f1f3cd234f80ce56c168fd3f17e6c7",
+      "minColId": "7R9VH",
+      "maxColId": "7RRJ7"
+    },
+    {
+      "path": "nomenclature/worms-mollusca-026.json.gz",
+      "records": 2692,
+      "bytes": 133647,
+      "sha256": "8b1223cdb483cd569b42d9f5f09472cc81517a289bbe5ebc15534e8d0010a500",
+      "sourceBytes": 2096980,
+      "sourceSha256": "e88936fc167fdedd03d4876a7db59842296fb2148a1f7da55d412a0696663f33",
+      "minColId": "7RRJ8",
+      "maxColId": "7S8XG"
+    },
+    {
+      "path": "nomenclature/worms-mollusca-027.json.gz",
+      "records": 2700,
+      "bytes": 131953,
+      "sha256": "528c1184e372e081a6cea72beb2a6f4f0a1fcb7fa110dea05d27eafd889bb9d4",
+      "sourceBytes": 2096436,
+      "sourceSha256": "7c41abb461a61ad83718e7ea8557297e6dd4a299b19ce578c98ac1becb5c1b87",
+      "minColId": "7S8XJ",
+      "maxColId": "7SR3K"
+    },
+    {
+      "path": "nomenclature/worms-mollusca-028.json.gz",
+      "records": 2689,
+      "bytes": 134425,
+      "sha256": "f7b7268c9716fb179fa5682b2007765e4a17bd5cb51f7a40583069d31b6f33fd",
+      "sourceBytes": 2096712,
+      "sourceSha256": "f73925cc8d2fd49b91bbacad456121c0508cd5995b5b7f3c431b9b8fa208585c",
+      "minColId": "7SR3L",
+      "maxColId": "7T6CZ"
+    },
+    {
+      "path": "nomenclature/worms-mollusca-029.json.gz",
+      "records": 2701,
+      "bytes": 132598,
+      "sha256": "ec4d6b2ab18a0bc65fad9e6177cd1ed3803c3f1e50d9205c043c49fcb668f9bc",
+      "sourceBytes": 2096447,
+      "sourceSha256": "a4efad1947e8639b4b43fac6605f5c99fcd1bf482ef0c8f9c5e246445fe016c0",
+      "minColId": "7T6D4",
+      "maxColId": "7TM2Y"
+    },
+    {
+      "path": "nomenclature/worms-mollusca-030.json.gz",
+      "records": 2687,
+      "bytes": 141171,
+      "sha256": "55ed709359cd9b652004bec07d189a3f3f3f5f36108c829a64014fa378c31221",
+      "sourceBytes": 2096370,
+      "sourceSha256": "b2e7814f1d336fb54b35e7067badb431675ba671f5f6aff8c0acf3107c9fd32b",
+      "minColId": "7TM2Z",
+      "maxColId": "876WP"
+    },
+    {
+      "path": "nomenclature/worms-mollusca-031.json.gz",
+      "records": 2709,
+      "bytes": 153772,
+      "sha256": "33e658bb049d925f72c0724ce397f160c2aefeac3d8559cb813a35152fa99971",
+      "sourceBytes": 2097031,
+      "sourceSha256": "1c4314fe4873219ae7fcb299200a4bdb506e822310514264280fc141f175753a",
+      "minColId": "876WQ",
+      "maxColId": "8NCH6"
+    },
+    {
+      "path": "nomenclature/worms-mollusca-032.json.gz",
+      "records": 2680,
+      "bytes": 146119,
+      "sha256": "a832b6e38458a6b13a66062757de2c5128b358034073c3d2651db267f8c266f3",
+      "sourceBytes": 2096408,
+      "sourceSha256": "c9f9ace5bcd4b9de4b3f8edbf92278eb7553e4e41d57b17c727a873706811281",
+      "minColId": "8NCH7",
+      "maxColId": "8V2TX"
+    },
+    {
+      "path": "nomenclature/worms-mollusca-033.json.gz",
+      "records": 2720,
+      "bytes": 133688,
+      "sha256": "2bb61537201dcf1451c20063a9012002b1059891d904728551526e81eb751592",
+      "sourceBytes": 2096898,
+      "sourceSha256": "8ac022b7789e52c7020e16dd32f2a8850c38a30688eacdc7d3c601c8322bb1d2",
+      "minColId": "8V2V6",
+      "maxColId": "8YMB3"
+    },
+    {
+      "path": "nomenclature/worms-mollusca-034.json.gz",
+      "records": 2724,
+      "bytes": 131696,
+      "sha256": "2935d0e7a6dc9b7570b05f7df811f36c56991314f7a9c85cdb6c01d268a45929",
+      "sourceBytes": 2096613,
+      "sourceSha256": "5bcb3a6cb9d60976cfd9cbb521c8435ce8f79be863fcc7dce5ed526129da2592",
+      "minColId": "8YMB4",
+      "maxColId": "9BTV"
+    },
+    {
+      "path": "nomenclature/worms-mollusca-035.json.gz",
+      "records": 2703,
+      "bytes": 144698,
+      "sha256": "ac902b4951426cc7d507b09ace6e21ab076766c0ee78ecf75bce2df88f8a3580",
+      "sourceBytes": 2096606,
+      "sourceSha256": "1a2c0f82691ee1717c77fde4d91ef2a94d4c9b59442f5f4bba58d08fc36a2b26",
+      "minColId": "9BWR8",
+      "maxColId": "9HBC6"
+    },
+    {
+      "path": "nomenclature/worms-mollusca-036.json.gz",
+      "records": 2729,
+      "bytes": 137311,
+      "sha256": "90b1aa95437ce166a59c5ab185315038c3640c9a87abec380de3bcbe883c50a2",
+      "sourceBytes": 2096562,
+      "sourceSha256": "cf025c1b546bbd03054dc8dbcdd48ebcce80efc96c7e832a9a8c29b4366ad69e",
+      "minColId": "9HBDC",
+      "maxColId": "9X7W6"
+    },
+    {
+      "path": "nomenclature/worms-mollusca-037.json.gz",
+      "records": 2705,
+      "bytes": 142708,
+      "sha256": "819fefe70fdafb305a8b069dded461575382e4deec6733363a17c66aa602a73e",
+      "sourceBytes": 2096386,
+      "sourceSha256": "c315cbb963f073bb7f2bc683f8a9d055551d90ffec1b40f76d0e09278f53960f",
+      "minColId": "9X7W8",
+      "maxColId": "B6F36"
+    },
+    {
+      "path": "nomenclature/worms-mollusca-038.json.gz",
+      "records": 2700,
+      "bytes": 144125,
+      "sha256": "8a59dd4803c4c84c8c5085b06f38ffd1110ac6c1859376dc4910fbef81dd64de",
+      "sourceBytes": 2096450,
+      "sourceSha256": "005c3caa04337bc94a098fda22c5b8ee91657bc19c10270aae55511cd29c674c",
+      "minColId": "B6F39",
+      "maxColId": "B8TGR"
+    },
+    {
+      "path": "nomenclature/worms-mollusca-039.json.gz",
+      "records": 2718,
+      "bytes": 138810,
+      "sha256": "3114091396e49a66e061ccea8ed4dc728268cda885a67a8d2409cf62de6826b3",
+      "sourceBytes": 2096860,
+      "sourceSha256": "e5813530a571ddc42dcf633a055557df4a159310a493dd13a5d2c3efc7f604cb",
+      "minColId": "B8TGV",
+      "maxColId": "BRHB8"
+    },
+    {
+      "path": "nomenclature/worms-mollusca-040.json.gz",
+      "records": 2718,
+      "bytes": 142197,
+      "sha256": "e19ba2b6db66d136ab9965821b0022ae6fd127d7e42b8718c6c9463ee7b7060c",
+      "sourceBytes": 2097112,
+      "sourceSha256": "0727c67d3251159a7074ce7f1c5bebfca848c1928ce977cb0956edffe56fcc3b",
+      "minColId": "BRHBG",
+      "maxColId": "C5GZY"
+    },
+    {
+      "path": "nomenclature/worms-mollusca-041.json.gz",
+      "records": 2690,
+      "bytes": 145007,
+      "sha256": "81c733f86abedcca153769172b7eb6c7bc683e792a845baa24fa7cf22a39a7ca",
+      "sourceBytes": 2096589,
+      "sourceSha256": "5a6954538b79169b5443ce3d988c11b4fcab2efae3698e22f7b47a9804776017",
+      "minColId": "C5GZZ",
+      "maxColId": "C8LWQ"
+    },
+    {
+      "path": "nomenclature/worms-mollusca-042.json.gz",
+      "records": 2697,
+      "bytes": 139647,
+      "sha256": "146e1c6bb77c2ca30e84a3333129f48e78c539461315a51e87d5e1d6339702df",
+      "sourceBytes": 2096708,
+      "sourceSha256": "6a02ef3ac68dc7898b518e6b16fb317e2b357fdaf86736809abd6cebdb34afe2",
+      "minColId": "C8LWS",
+      "maxColId": "CGMWN"
+    },
+    {
+      "path": "nomenclature/worms-mollusca-043.json.gz",
+      "records": 2705,
+      "bytes": 147260,
+      "sha256": "22b024758a58f8e88374fc94e97aa2a2d8412452f7a22f97e9dbf63a90ca3752",
+      "sourceBytes": 2096674,
+      "sourceSha256": "5195fe58c9e702b446cdde1928978bff1aa4565b4afad7f77ce34422833799c1",
+      "minColId": "CGMWR",
+      "maxColId": "CN6XJ"
+    },
+    {
+      "path": "nomenclature/worms-mollusca-044.json.gz",
+      "records": 2686,
+      "bytes": 150874,
+      "sha256": "b4f3ba64656b6c69239c318a495f96b860305d82bea568a60e70c96089741aa5",
+      "sourceBytes": 2096697,
+      "sourceSha256": "bc85ddcb60f7ab50d7ee4688e1e818b90c9ec006c10444726d11199f0f93bee3",
+      "minColId": "CN6XK",
+      "maxColId": "CTLGB"
+    },
+    {
+      "path": "nomenclature/worms-mollusca-045.json.gz",
+      "records": 2836,
+      "bytes": 140749,
+      "sha256": "0d20ba540930cc8fa901eaea11aebc127c0e8f587281419265b3e71698326458",
+      "sourceBytes": 2096763,
+      "sourceSha256": "cb31a051f7156d91856f8eac5c471eda927352852970d641b65e642286a6777b",
+      "minColId": "CTLGC",
+      "maxColId": "G7VG"
+    },
+    {
+      "path": "nomenclature/worms-mollusca-046.json.gz",
+      "records": 2824,
+      "bytes": 143229,
+      "sha256": "b4475908bf3d93c7d95d93e3ad7fe5bb4090e1e31d7cd960914c8becb849bdc8",
+      "sourceBytes": 2097067,
+      "sourceSha256": "41e68072222b93d77b4d69be0da7a8bca2bfe57900588d746fb6c7ddc8f7d749",
+      "minColId": "G7VH",
+      "maxColId": "KZD2Q"
+    },
+    {
+      "path": "nomenclature/worms-mollusca-047.json.gz",
+      "records": 2746,
+      "bytes": 144359,
+      "sha256": "598ebfb2d39fcf012de3d4741f1e3df471833567f4978366ec19564b70240bb5",
+      "sourceBytes": 2096754,
+      "sourceSha256": "c08479c918661b069b9683de268d10e61786c9ee13230802d69684caf1bce085",
+      "minColId": "KZD36",
+      "maxColId": "MMJR"
+    },
+    {
+      "path": "nomenclature/worms-mollusca-048.json.gz",
+      "records": 2826,
+      "bytes": 138266,
+      "sha256": "4a4ff0174724b7377b86ab21be5c494355387a6df7ad1b65d4a720ef2f66c0dd",
+      "sourceBytes": 2097084,
+      "sourceSha256": "7d820bd79c115ea7b571d21f74e1328292d46bd914b38a3a0d49ab63ef31c47c",
+      "minColId": "MMJS",
+      "maxColId": "RR9D"
+    },
+    {
+      "path": "nomenclature/worms-mollusca-049.json.gz",
+      "records": 2773,
+      "bytes": 143279,
+      "sha256": "0584ccde150935252684aa988842c67c7635dae87f99f9fb32162bc45635af6a",
+      "sourceBytes": 2096706,
+      "sourceSha256": "ec4cc07af69d2462f5fbdb94baebf6bb49bd863549374127fbdff3870f703efc",
+      "minColId": "RR9F",
+      "maxColId": "V5D7Q"
+    },
+    {
+      "path": "nomenclature/worms-mollusca-050.json.gz",
+      "records": 2706,
+      "bytes": 154279,
+      "sha256": "52fdabf7f6694842d003b574755860211daf2e53c73a3fc4b8bf1f53a828bd35",
+      "sourceBytes": 2096951,
+      "sourceSha256": "344ca6fb27076b94e4c6f4691ac48a4167ab6758f0005f5a79f5f69683edfdf7",
+      "minColId": "V5D8K",
+      "maxColId": "V99ZS"
+    },
+    {
+      "path": "nomenclature/worms-mollusca-051.json.gz",
+      "records": 2702,
+      "bytes": 158179,
+      "sha256": "503682c9e4804d92a546eae63ed1886b6cce38495018d8991a8885df3d8c81b7",
+      "sourceBytes": 2096823,
+      "sourceSha256": "af7735304c74ac69044ae95e14396f7ed747c04270fdb29f5aff568bb226dea9",
+      "minColId": "V99ZV",
+      "maxColId": "VC6VT"
+    },
+    {
+      "path": "nomenclature/worms-mollusca-052.json.gz",
+      "records": 2704,
+      "bytes": 155845,
+      "sha256": "b0943a63a24b0f3b3604af42e0dc264919e8092b2c84b2b0db1c417ca18521c5",
+      "sourceBytes": 2096577,
+      "sourceSha256": "c472197b443c0425049b086430242725189d476b8a97ddddf947913b070c42f7",
+      "minColId": "VC6VZ",
+      "maxColId": "VFTH9"
+    },
+    {
+      "path": "nomenclature/worms-mollusca-053.json.gz",
+      "records": 2687,
+      "bytes": 152730,
+      "sha256": "4c3e6438ec2bdb95fa94c7c0882f8841b7a37932f565682d9b6d3e7627e320fa",
+      "sourceBytes": 2096515,
+      "sourceSha256": "b86797444fc663c1de40bd58e3d9490e85f2d841dbcce33a4692eb90d69b13fb",
+      "minColId": "VFTJ5",
+      "maxColId": "VV2S"
+    },
+    {
+      "path": "nomenclature/worms-mollusca-054.json.gz",
+      "records": 2862,
+      "bytes": 136898,
+      "sha256": "5d3bfb473d1eedd2c508c305295f6683ae13b7ddd394391384a54427265a8d77",
+      "sourceBytes": 2096752,
+      "sourceSha256": "bfc69ecdacaa1f00f2b3f4c01fcdb30015d505235ef249b4dbb55024b3eeecc3",
+      "minColId": "VV2V",
+      "maxColId": "ZY6W"
+    },
+    {
+      "path": "nomenclature/worms-mollusca-055.json.gz",
+      "records": 39,
+      "bytes": 2340,
+      "sha256": "130a150634f95c68b612ff0afc5a8bace168a29617c4f1332c611d359a1ae6c8",
+      "sourceBytes": 29864,
+      "sourceSha256": "b2e6716ddf03a872130ad2c751d7689553c10d94413e51b75057bf4b46d642c8",
+      "minColId": "ZY6X",
+      "maxColId": "ZYW8"
+    }
+  ],
+  "upstreamOnlyFiles": [
+    {
+      "path": "nomenclature/worms-mollusca-upstream-only-000.json.gz",
+      "records": 1253,
+      "bytes": 38112,
+      "sha256": "1345d59fde707e35901a98796e0c79ee433651c32d6b18fcd5bd36734c43f105",
+      "sourceBytes": 642842,
+      "sourceSha256": "72120aade254356d50fa7e30053275ceb1408024d0e357fb64720a14099669b8"
+    }
+  ],
+  "evidenceBoundary": {
+    "en": "A frozen exact nomenclatural crosswalk; not species-concept equivalence, a biological dossier, fossil evidence or expert review.",
+    "zh": "冻结的严格命名交叉映射；不是物种概念等同性、生物档案、化石证据或专家审查。"
+  },
+  "limitations": [
+    "Source-only accepted concepts retain null COL ownership.",
+    "Only name/status/identifier projections are redistributed, not raw archives or ancillary members.",
+    "The parent-closure anomaly audit remains explicit; no completeness claim about all marine diversity."
+  ]
+}

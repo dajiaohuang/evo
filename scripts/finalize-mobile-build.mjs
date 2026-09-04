@@ -204,9 +204,23 @@ for (const [packageId, expectedCollections] of Object.entries(expectedRichItisCo
   const manifest = JSON.parse(readFileSync(join(sourceDataRoot, ...descriptor.url.split('/')), 'utf8'))
   const collections = manifest.nomenclatureCollections
   if (!Array.isArray(collections)) throw new Error(`Mobile build is missing ${packageId} nomenclature collections`)
-  const additionalAuthorityCollections = packageId === 'echinoderms' || packageId === 'crocodylomorphs-birds' ? 1 : 0
+  const additionalAuthorityCollections = {
+    echinoderms: 1, 'crocodylomorphs-birds': 1,
+    'molluscs-brachiopods': 1, 'sponges-cnidarians': 2, 'crustaceans-insects': 1,
+  }[packageId] ?? 0
   if (collections.length !== Object.keys(expectedCollections).length + additionalAuthorityCollections) {
     throw new Error(`Mobile build has an unexpected ${packageId} nomenclature collection count`)
+  }
+  for (const collection of collections.filter((item) => item.recordType === 'release-pinned-authority-archive-crosswalk')) {
+    const files = [...collection.files, ...collection.upstreamOnlyFiles]
+    if (collection.delivery?.profile !== 'native-full' || collection.delivery?.completeRows !== true
+      || files.length !== collection.delivery?.canonicalFileCount
+      || collection.delivery?.publishedFileCount !== files.length
+      || collection.files.reduce((sum, file) => sum + file.records, 0) !== collection.counts.total
+      || collection.upstreamOnlyFiles.reduce((sum, file) => sum + file.records, 0) !== collection.counts.upstreamOnly
+      || files.some((file) => !releaseFiles.files.some((entry) => entry.url === file.url && entry.sha256 === file.sha256 && entry.bytes === file.bytes))) {
+      throw new Error(`Mobile build must include every archive authority partition: ${packageId}/${collection.id}`)
+    }
   }
   for (const [id, expected] of Object.entries(expectedCollections)) {
     const collection = collections.find((entry) => entry.id === id)
