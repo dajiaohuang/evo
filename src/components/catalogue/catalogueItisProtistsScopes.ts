@@ -28,7 +28,7 @@ export const catalogueItisProtistsScopes: readonly CatalogueItisScopeConfig[] = 
     collectionId: 'itis-bigyra-tsn-crosswalk',
     roots: new Set(['622CB']),
     excludedRoots: new Set(),
-    title: { en: 'ITIS Bigyra exact nomenclatural mapping', zh: 'ITIS 双鞭毛类精确命名对应' },
+    title: { en: 'ITIS Bigyra exact nomenclatural mapping', zh: 'ITIS Bigyra 精确命名对应' },
   },
   {
     scope: 'cercozoa',
@@ -36,7 +36,7 @@ export const catalogueItisProtistsScopes: readonly CatalogueItisScopeConfig[] = 
     collectionId: 'itis-cercozoa-tsn-crosswalk',
     roots: new Set(['35']),
     excludedRoots: new Set(),
-    title: { en: 'ITIS Cercozoa exact nomenclatural mapping', zh: 'ITIS 有孔虫类精确命名对应' },
+    title: { en: 'ITIS Cercozoa exact nomenclatural mapping', zh: 'ITIS Cercozoa 精确命名对应' },
   },
   {
     scope: 'ciliophora',
