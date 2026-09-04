@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "recordType": "release-pinned-authority-archive-crosswalk",
-  "id": "worms-trichomycetes-archive-crosswalk",
+  "id": "trichomycetes-archive-crosswalk",
   "packageId": "protists-chromists",
   "provider": "Trichomycetes – Fungi Associated with Arthropods via ChecklistBank",
   "rowEncoding": "json",
@@ -18,7 +18,24 @@
     "version": "Oct 2017",
     "versionDoi": "10.48580/d38n.v9",
     "retrievedAt": "2026-09-04",
-    "sourceLedgerPath": "data/sources/worms-trichomycetes-archive-import-ledger.json"
+    "members": {
+      "AcceptedSpecies.tsv": {
+        "bytes": 127410,
+        "sha256": "9da126ad47bcd7d0e65b7af57557080670f4da91665f2e12d0d73a32e16e16c8"
+      },
+      "NameReferences.tsv": {
+        "bytes": 12752,
+        "sha256": "0978f2b4ee21773915dcb72065e3241a89ea5af1ff5f3ffc1e5bad0d1cc2cf3d"
+      },
+      "References.tsv": {
+        "bytes": 65553,
+        "sha256": "111524fb2307cdac5ce9f072a2fb67336ea7b027ac397004b75f7577dfd045c7"
+      },
+      "SourceDatabase.tsv": {
+        "bytes": 1134,
+        "sha256": "627bcd69e5edab0dc0e763ce65c793f4215b9362dbd6261541128c63abf00f79"
+      }
+    }
   },
   "scope": {
     "colSourceDatasetId": 1033,
@@ -26,13 +43,18 @@
     "sourcePhylum": "Choanozoa",
     "sourceClass": "Ichthyosporea",
     "eligibleColSpecies": 96,
+    "projectedSpecies": 96,
     "excludedSourceFungiRows": 287,
     "excludedOtherProtozoaRows": 2,
+    "excludedOtherProtozoaIds": [
+      "255335",
+      "254534"
+    ],
     "matchingKey": "exact source scientific name + authorship"
   },
   "matching": {
-    "normalization": "Whitespace-only comparison of COL scientificName/authorship to source Genus + SpeciesEpithet/AuthorString; source fields preserved.",
-    "prohibited": "No fuzzy or inferred species-concept matching."
+    "normalization": "Strict UTF-8 quoted TSV; whitespace-only name+authorship comparison.",
+    "prohibited": "No fuzzy or inferred matching."
   },
   "counts": {
     "total": 96,
@@ -46,12 +68,12 @@
   },
   "files": [
     {
-      "path": "protists-chromists/worms-trichomycetes-000.json.gz",
+      "path": "protists-chromists/trichomycetes-000.json.gz",
       "records": 96,
-      "bytes": 9849,
-      "sha256": "068804f9ac7ae64101993e894857efbb50f3d3ac005bc7af7fc7e6f675b675af",
-      "sourceBytes": 114958,
-      "sourceSha256": "bcb8a3e1f1d482e794715e22b33838ef9284aff505c9ee9675f5732664e50b5f",
+      "bytes": 10671,
+      "sha256": "db326ce95f2a10b0f64a4e65509869d50be87c40785ef1a52c6e5dd0dac53b51",
+      "sourceBytes": 122436,
+      "sourceSha256": "5877757849838a7e48aed7bec97877fe244838bc4c10c88d45712921f07df829",
       "minColId": "39XYC",
       "maxColId": "J3RD",
       "encoding": "gzip",
@@ -61,16 +83,15 @@
   ],
   "upstreamOnlyFiles": [],
   "evidenceBoundary": {
-    "en": "A frozen source-provenance projection for COL names; not independent scientific corroboration, species-concept equivalence, a biological dossier, fossil evidence or expert review.",
-    "zh": "COL 名称的冻结来源追溯投影；不是独立科学佐证、物种概念等同、生物档案、化石证据或专家审查。"
+    "en": "Frozen source provenance, not independent scientific corroboration, species-concept equivalence, biological dossier, fossil evidence or expert review.",
+    "zh": "冻结的来源追溯，不是独立科学佐证、物种概念等同、生物档案、化石证据或专家审查。"
   },
   "limitations": [
-    "Only the 96 COL strict accepted species assigned source dataset 1033 and matching Protozoa/Ichthyosporea rows are projected; 287 Fungi rows and two other Protozoa rows are excluded, not upstream-only records.",
-    "Only selected nomenclatural, status, identifier and linked reference fields are redistributed; this is not the raw archive."
+    "Only the 96 COL strict accepted source-1033 Ichthyosporea rows are projected; excluded rows are not upstream-only."
   ],
   "descriptorSha256": "",
-  "totalCompressedBytes": 9849,
-  "totalSourceBytes": 114958,
+  "totalCompressedBytes": 10671,
+  "totalSourceBytes": 122436,
   "deliveryProfiles": {
     "web-light": {
       "payload": "summary-only",
@@ -82,11 +103,11 @@
     "native-full": {
       "payload": "complete",
       "files": [
-        "protists-chromists/worms-trichomycetes-000.json.gz"
+        "protists-chromists/trichomycetes-000.json.gz"
       ],
       "records": 96,
-      "totalCompressedBytes": 9849,
-      "totalSourceBytes": 114958
+      "totalCompressedBytes": 10671,
+      "totalSourceBytes": 122436
     }
   }
 }
