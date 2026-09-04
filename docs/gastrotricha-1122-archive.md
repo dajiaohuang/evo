@@ -17,9 +17,11 @@ and whitespace-normalized scientific-name plus authorship matching produced
 case-folded, or concept matching is used. Source-only is relative only to
 this COL source-1122 boundary and is not a claim of globally new species.
 
-The committed shards preserve the original Name, Taxon, NameReference and
-Reference fields and row locators. The COL partition has 903 records and the
-independent upstream-only partition has 3 records; the largest uncompressed
+The committed ZIP preserves the complete original Name, Taxon, NameReference
+and Reference rows. The projected shards retain the selected source
+name/author/ID fields, complete citation objects, and source row locators.
+The COL partition has 903 records and the independent upstream-only partition
+has 3 records; the largest uncompressed
 shard is 2,038,000 bytes (below the approximately 2 MiB bound). Web delivery
 is summary-only; native-full carries all 906 projected records.
 
