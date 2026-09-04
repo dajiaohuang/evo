@@ -43,6 +43,8 @@ describe('WoRMS archive sidecars', () => {
     const implicated = new Set(rows.flatMap((row) => [row.acceptedName?.id, ...row.candidates.map((candidate) => candidate.id)]).filter(Boolean))
     expect(upstreamRows.every((row) => !implicated.has(row.acceptedName.id))).toBe(true)
     expect(new Set(upstreamRows.map((row) => row.acceptedName.id)).size).toBe(upstreamRows.length)
+    const expectedPathPrefix = pkg === 'protists-chromists' ? 'protists-chromists/' : pkg === 'other-animals' ? 'other-animals/' : 'nomenclature/'
+    expect([...descriptor.files, ...descriptor.upstreamOnlyFiles].every((file) => file.path.startsWith(expectedPathPrefix))).toBe(true)
     const ledgerBytes = readFileSync(join(root, descriptor.source.sourceLedgerPath))
     expect(createHash('sha256').update(ledgerBytes).digest('hex')).toBe(descriptor.source.sourceLedgerSha256)
     const sourceScope = JSON.parse(ledgerBytes).scopeAudit.scopes[prefix.replace('worms-', '')]

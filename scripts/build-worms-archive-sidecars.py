@@ -291,7 +291,7 @@ def main():
         files, upstream_files = write_shards(directory, prefix, records, upstream)
         if key in RESOURCE_PACK_SCOPES:
             for item in files + upstream_files:
-                item['path'] = item['path'].replace('nomenclature/', 'other-animals/')
+                item['path'] = item['path'].replace('nomenclature/', f'{package}/')
         descriptor = {'schemaVersion': 1, 'recordType': 'release-pinned-authority-archive-crosswalk',
                       'id': f'{prefix}-archive-crosswalk', 'packageId': package, 'provider': source['provider'],
                       'rowEncoding': 'json', 'colIdField': 'colId', 'totalCountField': 'total',
