@@ -23,6 +23,10 @@ for (const [id, scope] of [
 }
 
 test('real Chilopoda species exposes the collapsed dual-root ITIS summary', async ({ page }) => {
+  const requests: string[] = []
+  page.on('request', (request) => {
+    if (request.url().includes('itis-myriapoda-sidecar-') && request.url().endsWith('.jsonl.gz')) requests.push(request.url())
+  })
   await page.addInitScript(() => window.localStorage.setItem('evo-atlas-language', 'en'))
   await page.goto('./#/registry?release=COL26.8&id=5VXN8')
   const details = page.locator('.catalogue-authority-disclosure').filter({ hasText: 'ITIS Myriapoda exact nomenclatural mapping' })
@@ -32,4 +36,6 @@ test('real Chilopoda species exposes the collapsed dual-root ITIS summary', asyn
   await expect(details).toContainText('COL records in scope')
   await expect(details).toContainText('17,351')
   await expect(details).toContainText('Separate ITIS source-only species')
+  await expect(details).not.toContainText('This COL ID was not found')
+  expect(requests).toHaveLength(0)
 })
