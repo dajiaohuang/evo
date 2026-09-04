@@ -933,7 +933,7 @@ const itisProtistsContracts: Record<import('./types').CatalogueItisProtistsScope
   euglenozoa: { eligible: 0, accepted: 0, redirects: 0, ambiguous: 0, unmatched: 0, upstreamOnly: 276, nonApplicable: 61518, canonicalFileCount: 1 },
   cercozoa: { eligible: 52, accepted: 0, redirects: 0, ambiguous: 0, unmatched: 52, upstreamOnly: 0, nonApplicable: 61466, canonicalFileCount: 1 },
   haptophyta: { eligible: 0, accepted: 0, redirects: 0, ambiguous: 0, unmatched: 0, upstreamOnly: 90, nonApplicable: 61518, canonicalFileCount: 1 },
-  ochrophyta: { eligible: 1101, accepted: 1097, redirects: 0, ambiguous: 4, unmatched: 0, upstreamOnly: 2296, nonApplicable: 60417, canonicalFileCount: 2 },
+  ochrophyta: { eligible: 1101, accepted: 1101, redirects: 0, ambiguous: 0, unmatched: 0, upstreamOnly: 2298, nonApplicable: 60417, canonicalFileCount: 2 },
   amoebozoa: { eligible: 1337, accepted: 0, redirects: 0, ambiguous: 0, unmatched: 1337, upstreamOnly: 0, nonApplicable: 60181, canonicalFileCount: 1 },
   rhodophyta: { eligible: 0, accepted: 0, redirects: 0, ambiguous: 0, unmatched: 0, upstreamOnly: 1616, nonApplicable: 61518, canonicalFileCount: 1 },
   oomycota: { eligible: 1494, accepted: 53, redirects: 1, ambiguous: 0, unmatched: 1440, upstreamOnly: 42, nonApplicable: 60024, canonicalFileCount: 2 },
