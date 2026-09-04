@@ -84,13 +84,21 @@ final class AppConfigurationTests: XCTestCase {
         let files = try XCTUnwrap(inventory["files"] as? [[String: Any]])
         XCTAssertGreaterThan(files.count, 3_700)
 
+        var interactiveFileCount = 0
+        for record in files {
+            let path = try XCTUnwrap(record["url"] as? String)
+            if path.contains("/downloads/") { continue }
+            try verifyBundled(record: record, below: dataRoot)
+            interactiveFileCount += 1
+        }
+        print("Verified \(interactiveFileCount) interactive inventory files in the compiled iOS bundle")
+
         for area in ["/core/", "/packages/", "/occurrences/", "/maps/", "/catalogue/"] {
             let sample = files.first { record in
                 guard let path = record["url"] as? String else { return false }
                 return !path.contains("/downloads/") && path.contains(area)
             }
-            let record = try XCTUnwrap(sample, "Missing bundled inventory area \(area)")
-            try verifyBundled(record: record, below: dataRoot)
+            _ = try XCTUnwrap(sample, "Missing bundled inventory area \(area)")
         }
 
         let mapsDescriptor = try XCTUnwrap((current["maps"] as? [String: Any])?["manifest"] as? [String: Any])
