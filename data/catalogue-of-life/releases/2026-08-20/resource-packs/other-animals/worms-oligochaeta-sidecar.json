@@ -1,0 +1,275 @@
+{
+  "schemaVersion": 1,
+  "recordType": "release-pinned-authority-archive-crosswalk",
+  "id": "worms-oligochaeta-archive-crosswalk",
+  "packageId": "other-animals",
+  "provider": "World Register of Marine Species via ChecklistBank",
+  "rowEncoding": "json",
+  "colIdField": "colId",
+  "totalCountField": "total",
+  "source": {
+    "datasetId": "1099",
+    "title": "World List of Marine Oligochaeta",
+    "version": "2026-09-01",
+    "versionDoi": "10.48580/d3bx.v85",
+    "doi": "10.48580/d3bx",
+    "issued": "2026-09-01",
+    "citation": "<div class=\"csl-entry\">Martin, P., Reynolds, J., &amp; van Haaren, T. (2026). <span style=\"font-style: italic\">World List of Marine Oligochaeta</span> (Version 2026-09-01). https://doi.org/10.48580/d3bx</div>",
+    "editor": [
+      {
+        "orcid": "0000-0001-8008-5558",
+        "given": "Patrick",
+        "family": "Martin",
+        "email": "patrick.martin@naturalsciences.be",
+        "name": "Martin P.",
+        "orcidAsUrl": "https://orcid.org/0000-0001-8008-5558"
+      },
+      {
+        "given": "John",
+        "family": "Reynolds",
+        "email": "info@marinespecies.org",
+        "name": "Reynolds J."
+      },
+      {
+        "given": "Ton",
+        "family": "van Haaren",
+        "email": "tonvanhaaren@eurofins.com",
+        "name": "van Haaren T."
+      }
+    ],
+    "contributor": [
+      {
+        "country": "BE",
+        "name": "Vlaams Instituut voor de Zee",
+        "address": "Belgium",
+        "organisation": "Vlaams Instituut voor de Zee"
+      },
+      {
+        "country": "BE",
+        "name": "Koninklijk Belgisch Instituut voor Natuurwetenschappen",
+        "address": "Belgium",
+        "organisation": "Koninklijk Belgisch Instituut voor Natuurwetenschappen"
+      },
+      {
+        "name": "WoRMS Editorial Board",
+        "organisation": "WoRMS Editorial Board"
+      },
+      {
+        "country": "NL",
+        "name": "Eurofins Aquasense",
+        "address": "Netherlands",
+        "organisation": "Eurofins Aquasense"
+      }
+    ],
+    "metadataBytes": 2334,
+    "metadataSha256": "221fd2e7df87c6106d4326f047d92e98c0bc88437927a73644ca85c539af49f2",
+    "license": "CC-BY-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "archiveUrl": "https://api.checklistbank.org/dataset/1099/archive",
+    "archivePath": "data/sources/archives/checklistbank-1099-oligochaeta-2026-09-01.zip",
+    "metadataPath": "data/sources/archives/checklistbank-1099-oligochaeta-2026-09-01.metadata.json",
+    "archiveBytes": 1592402,
+    "archiveSha256": "41a1388a97e661d8c749cfc5c04ced11eacf415aca56fa07f0279a7f5bcf7cdc",
+    "members": {
+      "metadata.yml": {
+        "bytes": 1457,
+        "sha256": "23ca2adbebdc92b7b1cb12d123337201cf22cd69b500780970cd8574161461c7"
+      },
+      "TypeMaterial.txt": {
+        "bytes": 227344,
+        "sha256": "3919e354c06827c9033ed4ce4943093bef95d794806bf2d26158f2790f8fa453"
+      },
+      "Name.txt": {
+        "bytes": 3253601,
+        "sha256": "f6dd75e07b5854de171f5cdfa193f7cdcbd84298498ffe56241ac3640532358a"
+      },
+      "NameRelation.txt": {
+        "bytes": 987971,
+        "sha256": "bcc06e2569bf1ea5d90706ac093787c4b4efda297f3c5ef1ee895a51f5d826d7"
+      },
+      "Taxon.txt": {
+        "bytes": 2141249,
+        "sha256": "e575b4e4146c31837295d8791dbb63aff9c27d3913e9219746556ff4667c8373"
+      },
+      "Synonym.txt": {
+        "bytes": 726678,
+        "sha256": "4f6089d607c8cfdeff2906a650f668d341d6070ec00188cd3ea5402e836a4223"
+      },
+      "SpeciesEstimate.txt": {
+        "bytes": 35,
+        "sha256": "552ac985d21f5b6e89941c9a4b07715a7f4a56106b5d50480ecf9dcba5f901e5"
+      },
+      "Reference.txt": {
+        "bytes": 1320228,
+        "sha256": "79cf91ee3ae3eb017b63d1a60b32d5282554ef799ea15cf4634c2fe41673cf47"
+      },
+      "NameReference.txt": {
+        "bytes": 5125622,
+        "sha256": "1832166f930cc20cf0fc9daf68eefac4fc120266e0a82004de2c1445c5a01c8a"
+      },
+      "Distribution.txt": {
+        "bytes": 425157,
+        "sha256": "74acc48096b00f0fcc77fe07bf6db0e509e27c00d31c3f0cfd444834d29699c6"
+      },
+      "Media.txt": {
+        "bytes": 16007,
+        "sha256": "565617593e917eaa6c6643e67ea8bd6c38c2ed2daae8747e52d62e7e2a7f2d87"
+      },
+      "VernacularName.txt": {
+        "bytes": 6538,
+        "sha256": "d32e13b5597c05772e4c36caa27f90cece72cd201cca089c9effeabc8b1dfb9c"
+      }
+    }
+  },
+  "scope": {
+    "colRootUsageIds": [
+      "B8W74"
+    ],
+    "scientificName": "Oligochaeta",
+    "eligibleColSpecies": 4403,
+    "sourceAcceptedSpecies": 4564,
+    "excludedSourceProvisional": 12
+  },
+  "matching": {
+    "normalization": "NFC and whitespace normalization only; COL trailing authorship is removed exactly.",
+    "prohibited": "No fuzzy, case-folded, accent-folded, synonym or species-concept matching."
+  },
+  "counts": {
+    "total": 4403,
+    "accepted": 4350,
+    "redirect": 0,
+    "ambiguous": 0,
+    "unmatched": 53,
+    "withheld": 0,
+    "upstreamOnly": 214,
+    "records": 4617
+  },
+  "files": [
+    {
+      "path": "other-animals/worms-oligochaeta-000.json.gz",
+      "records": 761,
+      "bytes": 191791,
+      "sha256": "8127c08ae157e87605cba8c25a1048a6ca4b0680a875a72f333b554b2a473490",
+      "sourceBytes": 2091974,
+      "sourceSha256": "faf091ecfc80135139b63ab927368e135509c572930f2bc35a46ced27611605e",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "role": "col-partition",
+      "minColId": "34FPQ",
+      "maxColId": "4Z8M4"
+    },
+    {
+      "path": "other-animals/worms-oligochaeta-001.json.gz",
+      "records": 703,
+      "bytes": 230038,
+      "sha256": "035b26c45544122eb150b2cd3483849326abe03dba0d60db6b28728acc22ee91",
+      "sourceBytes": 2095465,
+      "sourceSha256": "93f3f234355da5a167918f6dce244c4dd9e95d22c5bb5f8e2f084db0c15f1cd5",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "role": "col-partition",
+      "minColId": "4Z8M5",
+      "maxColId": "76PD7"
+    },
+    {
+      "path": "other-animals/worms-oligochaeta-002.json.gz",
+      "records": 886,
+      "bytes": 183885,
+      "sha256": "0e46997825c56c85fd8d409da3a51595d408a94a2d4f82d1d88280f62784ef1d",
+      "sourceBytes": 2094179,
+      "sourceSha256": "2de49017dbf47479588d4a1d9b78bc92975db305bead105c28abdd49b6f5efdf",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "role": "col-partition",
+      "minColId": "76PDX",
+      "maxColId": "85WS6"
+    },
+    {
+      "path": "other-animals/worms-oligochaeta-003.json.gz",
+      "records": 932,
+      "bytes": 146948,
+      "sha256": "16f1cdbe8463632a94b0714c7b5f66550038137fb3f0c64198b3c1e0ce68cc4d",
+      "sourceBytes": 2096004,
+      "sourceSha256": "df90b72888953e3f96a6b301cb521b400c599e4a48054d95e76735183e458ab0",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "role": "col-partition",
+      "minColId": "85WS9",
+      "maxColId": "9XJYR"
+    },
+    {
+      "path": "other-animals/worms-oligochaeta-004.json.gz",
+      "records": 914,
+      "bytes": 150995,
+      "sha256": "f28f94c696290dd642c68ed8208ada101f61187f725d35d63bf9bea6f43eb3f3",
+      "sourceBytes": 2095760,
+      "sourceSha256": "33cb84a505ad61c4dd232efa5271406c39b5b4133b7da07611eb752ee6371c57",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "role": "col-partition",
+      "minColId": "9XL9H",
+      "maxColId": "QPMCZ"
+    },
+    {
+      "path": "other-animals/worms-oligochaeta-005.json.gz",
+      "records": 207,
+      "bytes": 40912,
+      "sha256": "b1a956d6dd37147bf3c3a44b039e5aa5c3ec379175263dd4cb2e327fd9b4ddbe",
+      "sourceBytes": 442092,
+      "sourceSha256": "33289e731c90568fb5237d486519157dd0e6bb618e118aae4dba15597f3cb831",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "role": "col-partition",
+      "minColId": "QPMDS",
+      "maxColId": "ZS5C"
+    }
+  ],
+  "upstreamOnlyFiles": [
+    {
+      "path": "other-animals/worms-oligochaeta-source-only-000.json.gz",
+      "records": 214,
+      "bytes": 33484,
+      "sha256": "5deb4a063a8207c6131f025e78134035dc3bcb3a5d7c7260b16a22d404652b42",
+      "sourceBytes": 404271,
+      "sourceSha256": "dc829f8f8082020da4c880c0be54d4b38740aba290dd066348694794d1904964",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "role": "upstream-only"
+    }
+  ],
+  "evidenceBoundary": {
+    "en": "Frozen WoRMS nomenclatural/source projection for the exact COL26.8 source-1099 Oligochaeta root; not species-concept equivalence, a biological dossier, fossil evidence or expert review.",
+    "zh": "精确 COL26.8 source-1099 Oligochaeta 根节点范围的 WoRMS 冻结命名/来源投影；不是物种概念等同性、生物档案、化石证据或专家审查。"
+  },
+  "limitations": [
+    "Source-only rows are relative only to COL source dataset 1099.",
+    "Name.status is nomenclatural metadata and is not used as taxonomic acceptance.",
+    "Synonym.taxonID targets do not remove accepted Taxon rows."
+  ],
+  "totalCompressedBytes": 978053,
+  "totalSourceBytes": 11319745,
+  "deliveryProfiles": {
+    "web-light": {
+      "mode": "summary-only",
+      "records": 0,
+      "files": [],
+      "totalCompressedBytes": 0,
+      "totalSourceBytes": 0
+    },
+    "native-full": {
+      "mode": "complete",
+      "records": 4617,
+      "files": [
+        "other-animals/worms-oligochaeta-000.json.gz",
+        "other-animals/worms-oligochaeta-001.json.gz",
+        "other-animals/worms-oligochaeta-002.json.gz",
+        "other-animals/worms-oligochaeta-003.json.gz",
+        "other-animals/worms-oligochaeta-004.json.gz",
+        "other-animals/worms-oligochaeta-005.json.gz",
+        "other-animals/worms-oligochaeta-source-only-000.json.gz"
+      ],
+      "totalCompressedBytes": 978053,
+      "totalSourceBytes": 11319745
+    }
+  }
+}

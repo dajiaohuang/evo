@@ -1,0 +1,445 @@
+{
+  "schemaVersion": 1,
+  "recordType": "release-pinned-authority-archive-crosswalk",
+  "id": "worms-polychaeta-archive-crosswalk",
+  "packageId": "other-animals",
+  "provider": "World Register of Marine Species via ChecklistBank",
+  "role": "authority-crosswalk",
+  "rowEncoding": "json",
+  "encoding": "gzip",
+  "mediaType": "application/json",
+  "colIdField": "colId",
+  "totalCountField": "total",
+  "source": {
+    "datasetId": "1090",
+    "title": "World Polychaeta Database",
+    "version": "2026-09-01",
+    "versionDoi": "10.48580/d3bm.v87",
+    "doi": "10.48580/d3bm",
+    "issued": "2026-09-01",
+    "citation": "<div class=\"csl-entry\">Read, G., &amp; Fauchald, K. (2026). <span style=\"font-style: italic\">World Polychaeta Database</span> (Version 2026-09-01). https://doi.org/10.48580/d3bm</div>",
+    "editor": [
+      {
+        "given": "Geoffrey",
+        "family": "Read",
+        "name": "Read G."
+      },
+      {
+        "given": "Kristian",
+        "family": "Fauchald",
+        "name": "Fauchald K."
+      }
+    ],
+    "contributor": [
+      {
+        "name": "Earth Sciences New Zealand",
+        "organisation": "Earth Sciences New Zealand"
+      },
+      {
+        "country": "BE",
+        "name": "Vlaams Instituut voor de Zee",
+        "address": "Belgium",
+        "organisation": "Vlaams Instituut voor de Zee"
+      }
+    ],
+    "metadataBytes": 1838,
+    "metadataSha256": "6c0952463a1bea38a4d427d5c507470ed0b249e7153cf6309ac9854235426b82",
+    "license": "cc by",
+    "archiveUrl": "https://api.checklistbank.org/dataset/1090/archive",
+    "archivePath": "data/sources/archives/checklistbank-1090-polychaeta-2026-09-01.zip",
+    "metadataPath": "data/sources/archives/checklistbank-1090-polychaeta-2026-09-01.metadata.json",
+    "archiveBytes": 8012363,
+    "archiveSha256": "7fa6faf140590eed2e79a828180c74b6bb4c184e80aa1b66634dae1c10734d27",
+    "members": {
+      "metadata.yml": {
+        "bytes": 1174,
+        "sha256": "1eeaa7b6b0292f1a209b69da06203495c8f92a2dd9100f22d47bd7aa473a4b1c"
+      },
+      "TypeMaterial.txt": {
+        "bytes": 2767319,
+        "sha256": "592655ddcade8ca65ca51fc9846ae6a6e070b386c4347975f1e1399019c44d1e"
+      },
+      "Name.txt": {
+        "bytes": 8580001,
+        "sha256": "1b362eb8298bf03bd4dee66e9d6c6c1efec9e02db1b470b48db13c1b0afc174d"
+      },
+      "NameRelation.txt": {
+        "bytes": 3071033,
+        "sha256": "3897297ad1bb14760670d871e83d4930263605d9fdb2ec87e7ec1a003c6642e4"
+      },
+      "Taxon.txt": {
+        "bytes": 6677314,
+        "sha256": "be6134ade1a7dea4edcdbbc8eeb763aaf36b40eede05d5cad7b9bc953b3c7dbd"
+      },
+      "Synonym.txt": {
+        "bytes": 4460753,
+        "sha256": "87eaffbcf021f7cbfe3ef52326f6612a0fec57679c4553ec621ad0670c5cef1e"
+      },
+      "SpeciesEstimate.txt": {
+        "bytes": 178,
+        "sha256": "8c2f102d7054e2581a099bdd644e87a4a23deee4b77ee3a3ee3547bb628ce6c7"
+      },
+      "Reference.txt": {
+        "bytes": 3864262,
+        "sha256": "639adb4c960fd2d2bf97da6e0d9ca90e09ab33309c7d29dd3be79d04125b6def"
+      },
+      "NameReference.txt": {
+        "bytes": 30806633,
+        "sha256": "0ef5b1108972c56366891db780fef58592a0712d078b9cf0b4d84d30d20a27c7"
+      },
+      "Distribution.txt": {
+        "bytes": 2086061,
+        "sha256": "20a7991f19e75a8383eb349e932a1914b21def6cc191121053d380594a49281d"
+      },
+      "Media.txt": {
+        "bytes": 94154,
+        "sha256": "9a1228fc290ecd38c638ac41f5981f3e20e7deb3d19a9ae32c4a48eed0a2e458"
+      },
+      "VernacularName.txt": {
+        "bytes": 112007,
+        "sha256": "384b6de495f8d809abc038d63aac0d22e0d39e92a37d978a7a901e2a94a38a1e"
+      }
+    }
+  },
+  "scope": {
+    "colRootUsageIds": [
+      "B8TXG"
+    ],
+    "scientificName": "Polychaeta",
+    "eligibleColSpecies": 14430,
+    "sourceAcceptedSpecies": 14484,
+    "excludedSourceProvisional": 53
+  },
+  "matching": {
+    "normalization": "NFC and whitespace normalization only; COL trailing authorship is removed exactly.",
+    "prohibited": "No fuzzy, case-folded, accent-folded, synonym or species-concept matching."
+  },
+  "counts": {
+    "total": 14430,
+    "accepted": 14305,
+    "redirect": 0,
+    "ambiguous": 0,
+    "unmatched": 125,
+    "withheld": 0,
+    "sourceOnly": 179,
+    "upstreamOnly": 179,
+    "records": 14609
+  },
+  "files": [
+    {
+      "path": "other-animals/worms-polychaeta-000.json.gz",
+      "records": 754,
+      "bytes": 257420,
+      "sha256": "305145e14bfbe48d2cc3ec76f2c805b6099ef7b00d32334d86ed61c682dedc85",
+      "sourceBytes": 2096227,
+      "sourceSha256": "9b51880320a4763c2ad8fd97f47b5c2c5547615720d645d23b1ca8b323cc953a",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "role": "col-partition",
+      "minColId": "325RW",
+      "maxColId": "3CZ7W"
+    },
+    {
+      "path": "other-animals/worms-polychaeta-001.json.gz",
+      "records": 712,
+      "bytes": 256856,
+      "sha256": "487ab8e8949fe8a654789b1da53a592145903090a0e05989193d5fe90946388a",
+      "sourceBytes": 2094579,
+      "sourceSha256": "6bbd6530b8604f0462b2f1637e61e93f0c58fb2b232c74182fdac34188467b0f",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "role": "col-partition",
+      "minColId": "3CZ7X",
+      "maxColId": "3N7DV"
+    },
+    {
+      "path": "other-animals/worms-polychaeta-002.json.gz",
+      "records": 790,
+      "bytes": 251952,
+      "sha256": "d994f99053a5e6809d93efd0672511f0cff02d743ab6805dd2a515a732a5a713",
+      "sourceBytes": 2094700,
+      "sourceSha256": "97227493ef8fdf40a84b3f59fb0326b9439c2eee67138656ea7f87db6e3f2a0c",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "role": "col-partition",
+      "minColId": "3N7DW",
+      "maxColId": "3XQ5S"
+    },
+    {
+      "path": "other-animals/worms-polychaeta-003.json.gz",
+      "records": 752,
+      "bytes": 254676,
+      "sha256": "d09712e35ae0fb75223f2329776f61ec12fff627c5768ad3aba3ee38659bdda7",
+      "sourceBytes": 2094858,
+      "sourceSha256": "84e6da2ac4168e2e9cc18db31ff9fc75a483b2cd900af754af69a9679caa4857",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "role": "col-partition",
+      "minColId": "3XQ5T",
+      "maxColId": "474R3"
+    },
+    {
+      "path": "other-animals/worms-polychaeta-004.json.gz",
+      "records": 763,
+      "bytes": 260987,
+      "sha256": "2281232e222e0587a6ccf21daabcef1ba6e999431869828d5ef58d1c3a4ac133",
+      "sourceBytes": 2095036,
+      "sourceSha256": "746587e3c1d6de2ed2e99ebb879d175359636e12d1af94ea99dd4e4f89c4669d",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "role": "col-partition",
+      "minColId": "474R4",
+      "maxColId": "4DLSF"
+    },
+    {
+      "path": "other-animals/worms-polychaeta-005.json.gz",
+      "records": 696,
+      "bytes": 268285,
+      "sha256": "9f58c11fad6e9c5221a1fc76454ce18c97faafc03e2f1bc986a678d18390c045",
+      "sourceBytes": 2095929,
+      "sourceSha256": "dacd3cbd359b76ca05a5ff8c126f1d2a4f95bf42c321485c20a6685ce33534f9",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "role": "col-partition",
+      "minColId": "4DLSG",
+      "maxColId": "4M9XL"
+    },
+    {
+      "path": "other-animals/worms-polychaeta-006.json.gz",
+      "records": 812,
+      "bytes": 245860,
+      "sha256": "e7c895f14db20d5d6d964a4528dacc57e43e5ef722cb2aab8980feb07735237c",
+      "sourceBytes": 2094296,
+      "sourceSha256": "4d20cb16ff4b7570f17d7e00a6b9fe43e83913b7147471736c5d296c4dbaaad7",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "role": "col-partition",
+      "minColId": "4M9XM",
+      "maxColId": "4X6HG"
+    },
+    {
+      "path": "other-animals/worms-polychaeta-007.json.gz",
+      "records": 699,
+      "bytes": 249419,
+      "sha256": "3a805fdb941459d716e3472b1536ef4ce5282505dea481bc5c71edd2ab13bfad",
+      "sourceBytes": 2095612,
+      "sourceSha256": "5aedcc6466f42758ddb42e814c5700b06948973b38fde0614e8b34db4fd1daab",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "role": "col-partition",
+      "minColId": "4X6HH",
+      "maxColId": "54K7Z"
+    },
+    {
+      "path": "other-animals/worms-polychaeta-008.json.gz",
+      "records": 743,
+      "bytes": 271271,
+      "sha256": "ad5e55ba429bbcb85428ed8436b4e5c72cb8f2aceefb932f329bc21371a4c369",
+      "sourceBytes": 2089636,
+      "sourceSha256": "5d467d7b4df81a139fe2caf29a16bd81fdae622de7f9e5b5a6e82a1e6de0a2ae",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "role": "col-partition",
+      "minColId": "54K82",
+      "maxColId": "66DBW"
+    },
+    {
+      "path": "other-animals/worms-polychaeta-009.json.gz",
+      "records": 706,
+      "bytes": 288709,
+      "sha256": "8397ce69ceb9a3726cbee96e87a9ed80dfd627bed9250b264a49371ea9b7ed77",
+      "sourceBytes": 2095083,
+      "sourceSha256": "d3fd24d3408afce5a125ab64d3694466aa56d4934b79cd3d26c61df28445e4a4",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "role": "col-partition",
+      "minColId": "66DBZ",
+      "maxColId": "6KZ68"
+    },
+    {
+      "path": "other-animals/worms-polychaeta-010.json.gz",
+      "records": 769,
+      "bytes": 275351,
+      "sha256": "e7215cbef6b84110098e048919d831ed18a59b565274f4001fb1703883900b38",
+      "sourceBytes": 2096357,
+      "sourceSha256": "25946726d3d4bd8298388d7e436b60647ed4f1a5cedfc053876f638e8631bfbe",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "role": "col-partition",
+      "minColId": "6KZNJ",
+      "maxColId": "6T2PL"
+    },
+    {
+      "path": "other-animals/worms-polychaeta-011.json.gz",
+      "records": 786,
+      "bytes": 285212,
+      "sha256": "c8b54969a4e4bbcb1f6f804eb256161e07449fbf910bb930463a1fd424796754",
+      "sourceBytes": 2094810,
+      "sourceSha256": "ead38b796dc7cd9cee01c245550bf53e7ad76e11ddde2e3a6ec4bff870231e06",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "role": "col-partition",
+      "minColId": "6T2PM",
+      "maxColId": "73PHY"
+    },
+    {
+      "path": "other-animals/worms-polychaeta-012.json.gz",
+      "records": 783,
+      "bytes": 277307,
+      "sha256": "1ade4c25af29d236d36eb6e8218711983edbde2b47700a40b686215f0fe9e611",
+      "sourceBytes": 2095793,
+      "sourceSha256": "ae233bec9521d524737fd90e69513bc66f2d7dd385f00758fc4cabc0adc5230a",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "role": "col-partition",
+      "minColId": "73QQP",
+      "maxColId": "7BQ7T"
+    },
+    {
+      "path": "other-animals/worms-polychaeta-013.json.gz",
+      "records": 981,
+      "bytes": 230666,
+      "sha256": "f2078788cbcd24d96c3c72ac7d33f9cd413b9953278d08bb8a6ba7e6158b9662",
+      "sourceBytes": 2094239,
+      "sourceSha256": "74c5c7c4b71a39ed2c025cb7d5bf8be4dc8a0987f87fdd52836bd26a32919a81",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "role": "col-partition",
+      "minColId": "7BQ7V",
+      "maxColId": "8M34W"
+    },
+    {
+      "path": "other-animals/worms-polychaeta-014.json.gz",
+      "records": 1095,
+      "bytes": 168682,
+      "sha256": "f8e8612c069c4e40fdbb7e23d51b3328c9d92f44ed87d9cde411b1cc98866ad2",
+      "sourceBytes": 2095267,
+      "sourceSha256": "866976b2e391130a0015e555cfc9bd9c8a3d160697bdafceea8e58b4499ceaa1",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "role": "col-partition",
+      "minColId": "8M34Z",
+      "maxColId": "B47MM"
+    },
+    {
+      "path": "other-animals/worms-polychaeta-015.json.gz",
+      "records": 1013,
+      "bytes": 209390,
+      "sha256": "48b49a18e6146939e4a6e2ff2f12b2204a3669d0fa7b39f68fddf1f4bc11eb88",
+      "sourceBytes": 2094280,
+      "sourceSha256": "f6bc19cc4a1291200a1ab075209c987d011a7b85b3ede61ed6a2c9060cb12f6b",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "role": "col-partition",
+      "minColId": "B485T",
+      "maxColId": "D27V"
+    },
+    {
+      "path": "other-animals/worms-polychaeta-016.json.gz",
+      "records": 827,
+      "bytes": 240503,
+      "sha256": "4c8c98d31e0781c937550b334a04b55cb05b27e1162cd2e11afc5602031b1d9d",
+      "sourceBytes": 2094257,
+      "sourceSha256": "4ccb2bc5c5c11c85f630387c1e4c03bd6ad8a5d801e9afcaea3ee6fc00dea5d9",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "role": "col-partition",
+      "minColId": "D27W",
+      "maxColId": "N6NN"
+    },
+    {
+      "path": "other-animals/worms-polychaeta-017.json.gz",
+      "records": 749,
+      "bytes": 204820,
+      "sha256": "58c78f7512586361350cfc08f3044391f1bfa022255581e054fbc7715b716ded",
+      "sourceBytes": 1807652,
+      "sourceSha256": "d19e4f9bffaecb3bf3539881789db76ae5a325228e070a7865ce9d9eac2d58cd",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "role": "col-partition",
+      "minColId": "N6NR",
+      "maxColId": "ZYBG"
+    }
+  ],
+  "sourceOnlyFiles": [
+    {
+      "path": "other-animals/worms-polychaeta-source-only-000.json.gz",
+      "records": 179,
+      "bytes": 37116,
+      "sha256": "3441137b78e03ac861c3804a081993e4bf61e69b5b775d4b0eae795f5668dd59",
+      "sourceBytes": 333362,
+      "sourceSha256": "660c29c33a4ca577a6a898ad55897a714d45f1395d62ae7f39bbb6f8bf6b5093",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "role": "source-only"
+    }
+  ],
+  "upstreamOnlyFiles": [
+    {
+      "path": "other-animals/worms-polychaeta-source-only-000.json.gz",
+      "records": 179,
+      "bytes": 37116,
+      "sha256": "3441137b78e03ac861c3804a081993e4bf61e69b5b775d4b0eae795f5668dd59",
+      "sourceBytes": 333362,
+      "sourceSha256": "660c29c33a4ca577a6a898ad55897a714d45f1395d62ae7f39bbb6f8bf6b5093",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "role": "source-only"
+    }
+  ],
+  "evidenceBoundary": {
+    "en": "Frozen WoRMS nomenclatural/source projection for the exact COL26.8 source-1090 Polychaeta root; not species-concept equivalence, a biological dossier, fossil evidence or expert review.",
+    "zh": "精确 COL26.8 source-1090 Polychaeta 根节点范围的 WoRMS 冻结命名/来源投影；不是物种概念等同性、生物档案、化石证据或专家审查。"
+  },
+  "limitations": [
+    "Source-only rows are relative only to COL source dataset 1090.",
+    "Name status is nomenclatural metadata and is not used as taxonomic acceptance.",
+    "Synonym.taxonID targets do not remove accepted Taxon rows."
+  ],
+  "totalCompressedBytes": 4534482,
+  "totalSourceBytes": 37751973,
+  "totals": {
+    "records": 14430,
+    "sourceOnlyRecords": 179,
+    "compressedBytes": 4497366,
+    "sourceCompressedBytes": 37116,
+    "sourceBytes": 37418611,
+    "sourceOnlySourceBytes": 333362
+  },
+  "deliveryProfiles": {
+    "web-light": {
+      "mode": "summary-only",
+      "records": 0,
+      "files": [],
+      "totalCompressedBytes": 0,
+      "totalSourceBytes": 0
+    },
+    "native-full": {
+      "mode": "complete",
+      "records": 14609,
+      "files": [
+        "other-animals/worms-polychaeta-000.json.gz",
+        "other-animals/worms-polychaeta-001.json.gz",
+        "other-animals/worms-polychaeta-002.json.gz",
+        "other-animals/worms-polychaeta-003.json.gz",
+        "other-animals/worms-polychaeta-004.json.gz",
+        "other-animals/worms-polychaeta-005.json.gz",
+        "other-animals/worms-polychaeta-006.json.gz",
+        "other-animals/worms-polychaeta-007.json.gz",
+        "other-animals/worms-polychaeta-008.json.gz",
+        "other-animals/worms-polychaeta-009.json.gz",
+        "other-animals/worms-polychaeta-010.json.gz",
+        "other-animals/worms-polychaeta-011.json.gz",
+        "other-animals/worms-polychaeta-012.json.gz",
+        "other-animals/worms-polychaeta-013.json.gz",
+        "other-animals/worms-polychaeta-014.json.gz",
+        "other-animals/worms-polychaeta-015.json.gz",
+        "other-animals/worms-polychaeta-016.json.gz",
+        "other-animals/worms-polychaeta-017.json.gz",
+        "other-animals/worms-polychaeta-source-only-000.json.gz"
+      ],
+      "totalCompressedBytes": 4534482,
+      "totalSourceBytes": 37751973
+    }
+  }
+}

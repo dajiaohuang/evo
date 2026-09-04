@@ -148,7 +148,7 @@ describe('COL26.8 static nomenclatural resource packs', () => {
 
   it('publishes every Other Animals ITIS summary and native-full file inventory', () => {
     const descriptor = collection.packs.find((pack) => pack.packageId === 'other-animals')
-    expect(descriptor).toMatchObject({ acceptedSpeciesCount: 99161, fileCount: 4, extensionCount: 44, extensionFileCount: 185 })
+    expect(descriptor).toMatchObject({ acceptedSpeciesCount: 99161, fileCount: 4, extensionCount: 46, extensionFileCount: 211 })
     const manifest = JSON.parse(readFileSync(join(resourcePacksRoot, descriptor.manifestPath), 'utf8'))
     const extension = manifest.extensions.find((candidate) => candidate.id === 'itis-phoronida-tsn-crosswalk')
     expect(extension).toMatchObject({
@@ -201,6 +201,28 @@ describe('COL26.8 static nomenclatural resource packs', () => {
       const bytes = readFileSync(join(resourcePacksRoot, file.path))
       expect(sha256(bytes)).toBe(file.sha256)
       expect(JSON.parse(gunzipSync(bytes))).toHaveLength(file.records)
+    }
+    for (const [id, expected] of Object.entries({
+      'worms-oligochaeta-archive-crosswalk': { total: 4403, accepted: 4350, unmatched: 53, upstreamOnly: 214, files: 6, upstreamFiles: 1, license: 'CC-BY-4.0' },
+      'worms-polychaeta-archive-crosswalk': { total: 14430, accepted: 14305, unmatched: 125, upstreamOnly: 179, files: 18, upstreamFiles: 1, license: 'cc by' },
+    })) {
+      const archive = manifest.extensions.find((candidate) => candidate.id === id)
+      expect(archive).toMatchObject({
+        provider: 'World Register of Marine Species via ChecklistBank',
+        source: { license: expected.license },
+        counts: { total: expected.total, accepted: expected.accepted, unmatched: expected.unmatched, upstreamOnly: expected.upstreamOnly },
+        deliveryProfiles: {
+          'web-light': { records: 0, files: [] },
+          'native-full': { records: expected.total + expected.upstreamOnly },
+        },
+      })
+      expect(archive.files).toHaveLength(expected.files)
+      expect(archive.upstreamOnlyFiles).toHaveLength(expected.upstreamFiles)
+      for (const file of [...archive.files, ...archive.upstreamOnlyFiles]) {
+        const bytes = readFileSync(join(resourcePacksRoot, file.path))
+        expect(sha256(bytes)).toBe(file.sha256)
+        expect(JSON.parse(gunzipSync(bytes))).toHaveLength(file.records)
+      }
     }
   })
 })
