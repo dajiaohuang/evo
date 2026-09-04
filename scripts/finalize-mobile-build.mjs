@@ -457,7 +457,7 @@ const expectedProtistAuthorities = {
   'itis-katablepharidota-tsn-crosswalk': { files: 0, records: 0 },
   'itis-hemimastigophora-tsn-crosswalk': { files: 0, records: 0 },
 }
-if (protistsManifest.extensions?.length !== Object.keys(expectedProtistAuthorities).length + 3) {
+if (protistsManifest.extensions?.length !== Object.keys(expectedProtistAuthorities).length + 6) {
   throw new Error('Mobile build must stage every declared protists/chromists authority collection')
 }
 for (const [id, expected] of Object.entries(expectedProtistAuthorities)) {
