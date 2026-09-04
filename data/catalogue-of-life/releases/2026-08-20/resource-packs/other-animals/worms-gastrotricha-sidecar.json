@@ -1,0 +1,157 @@
+{
+  "schemaVersion": 1,
+  "recordType": "release-pinned-authority-archive-crosswalk",
+  "id": "worms-gastrotricha-archive-crosswalk",
+  "packageId": "other-animals",
+  "provider": "World Register of Marine Species via ChecklistBank",
+  "rowEncoding": "json",
+  "colIdField": "colId",
+  "totalCountField": "total",
+  "source": {
+    "datasetId": "1122",
+    "title": "World Gastrotricha Database",
+    "version": "2026-09-01",
+    "versionDoi": "10.48580/d3cq.v86",
+    "metadataBytes": 2221,
+    "metadataSha256": "e5c62b1b2c9518ee80379d8550e714475edbc19228714a3d9c6bdce248dc282a",
+    "license": "CC-BY-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "rightsHolder": "WoRMS Editorial Board",
+    "archiveUrl": "https://api.checklistbank.org/dataset/1122/archive",
+    "archivePath": "data/sources/archives/checklistbank-1122-gastrotricha-2026-09-01.zip",
+    "metadataPath": "data/sources/archives/checklistbank-1122-gastrotricha-2026-09-01.metadata.json",
+    "archiveBytes": 138207,
+    "archiveSha256": "3828913cfe33e8a5184ad6ab86f9d824a897fa7f6ad85967365c292e33079653",
+    "members": {
+      "metadata.yml": {
+        "bytes": 1345,
+        "sha256": "250dc834f4e2c21111dda1aa94c346946469e3c07e72d2c0b77099a94b0348e4"
+      },
+      "TypeMaterial.txt": {
+        "bytes": 276,
+        "sha256": "15b2acce781f89e54386f4d8a629ab5d144a9a53c6f4abd6563c8be361f3ee8d"
+      },
+      "Name.txt": {
+        "bytes": 348090,
+        "sha256": "27cbbb6ec87a4c0c9ec45e6ac6bb28fddb8f95dfb8c06b9eb795fd843056dab3"
+      },
+      "NameRelation.txt": {
+        "bytes": 103585,
+        "sha256": "5abcc0dcbdc0897a6c18e5e5f5d9a50344edd0063583ec4ce50c8a3a7e25f0bf"
+      },
+      "Taxon.txt": {
+        "bytes": 397414,
+        "sha256": "af93509c631f339d84b698a8982d8ba5cfef7f553b0ca010b52d136150f34227"
+      },
+      "Synonym.txt": {
+        "bytes": 54057,
+        "sha256": "7e494e4b1222c4d2308f9caa343ab3d4e21536408a82ba3fc862174548da67f2"
+      },
+      "SpeciesEstimate.txt": {
+        "bytes": 35,
+        "sha256": "552ac985d21f5b6e89941c9a4b07715a7f4a56106b5d50480ecf9dcba5f901e5"
+      },
+      "Reference.txt": {
+        "bytes": 122504,
+        "sha256": "5e27f3b7b393d8eca3178e2e0904824c4bfec726dd1bf62f5959c285a9e8b306"
+      },
+      "NameReference.txt": {
+        "bytes": 418991,
+        "sha256": "3deabbb245f7b29e435413211f9b3eb38dfcbaabeef40fca83eff4ea07bc795d"
+      },
+      "Distribution.txt": {
+        "bytes": 153968,
+        "sha256": "4afc519806af278f441fc2e4db95a947cf022f8cc0bf024ae974fc67088f0d5d"
+      },
+      "Media.txt": {
+        "bytes": 371,
+        "sha256": "c876b58dc5a1d3332f6370e63bf15ff7c086ee51b6bc9af0d45ee985b326a6ba"
+      },
+      "VernacularName.txt": {
+        "bytes": 264,
+        "sha256": "82062099592da3b21d002cab56a5c26425f4b2aaecb2b5b24b5834296885c9f7"
+      }
+    }
+  },
+  "scope": {
+    "colRootUsageIds": [
+      "B8V3M"
+    ],
+    "scientificName": "Gastrotricha",
+    "eligibleColSpecies": 903,
+    "sourceAcceptedSpecies": 903,
+    "excludedSourceProvisional": 1
+  },
+  "matching": {
+    "normalization": "NFC and whitespace normalization only; COL trailing authorship is removed exactly.",
+    "prohibited": "No fuzzy, case-folded, accent-folded, synonym or species-concept matching."
+  },
+  "counts": {
+    "total": 903,
+    "accepted": 900,
+    "redirect": 0,
+    "ambiguous": 0,
+    "unmatched": 3,
+    "withheld": 0,
+    "upstreamOnly": 3,
+    "records": 906
+  },
+  "files": [
+    {
+      "path": "other-animals/worms-gastrotricha-000.json.gz",
+      "records": 903,
+      "bytes": 139577,
+      "sha256": "7272ca83efecf03a014aaf6327406c0426771559de9cf877c65c253425f59084",
+      "sourceBytes": 2038000,
+      "sourceSha256": "75ec62aa6c95be26c1bdc95bd89af8ab0d32f935a88b921019a278afd4ad46a3",
+      "encoding": "gzip",
+      "mediaType": "application/x-ndjson",
+      "role": "col-partition",
+      "minColId": "33WDG",
+      "maxColId": "Z5DF"
+    }
+  ],
+  "upstreamOnlyFiles": [
+    {
+      "path": "other-animals/worms-gastrotricha-source-only-000.json.gz",
+      "records": 3,
+      "bytes": 2720,
+      "sha256": "6386f1f33d2c23d8b2e5f820e261ca7efe06e5ec160b4fbfe5aea373c759e495",
+      "sourceBytes": 18267,
+      "sourceSha256": "da264ee9fa87f4ee05fb1e86990e683dda007e8a70c2e439d70e0b33fae5b95e",
+      "encoding": "gzip",
+      "mediaType": "application/x-ndjson",
+      "role": "upstream-only"
+    }
+  ],
+  "evidenceBoundary": {
+    "en": "Frozen WoRMS nomenclatural/source projection for the exact COL26.8 source-1122 Gastrotricha root; not species-concept equivalence, a biological dossier, fossil evidence or expert review.",
+    "zh": "精确 COL26.8 source-1122 Gastrotricha 根节点范围的 WoRMS 冻结命名/来源投影；不是物种概念等同性、生物档案、化石证据或专家审查。"
+  },
+  "limitations": [
+    "Source-only rows are relative only to COL source dataset 1122.",
+    "Name.status is nomenclatural metadata and is not used as taxonomic acceptance.",
+    "Synonym.taxonID targets do not remove accepted Taxon rows."
+  ],
+  "totalCompressedBytes": 142297,
+  "totalSourceBytes": 2056267,
+  "deliveryProfiles": {
+    "web-light": {
+      "mode": "summary-only",
+      "records": 0,
+      "files": [],
+      "totalCompressedBytes": 0,
+      "totalSourceBytes": 0
+    },
+    "native-full": {
+      "mode": "complete",
+      "records": 906,
+      "files": [
+        "other-animals/worms-gastrotricha-000.json.gz",
+        "other-animals/worms-gastrotricha-source-only-000.json.gz"
+      ],
+      "totalCompressedBytes": 142297,
+      "totalSourceBytes": 2056267
+    }
+  }
+}
