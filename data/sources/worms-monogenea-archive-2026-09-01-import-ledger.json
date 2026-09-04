@@ -1,0 +1,171 @@
+{
+  "schemaVersion": 1,
+  "importType": "COL26.8-to-WoRMS-Monogenea-archive-crosswalk",
+  "source": {
+    "archiveUrl": "https://api.checklistbank.org/dataset/1126/archive",
+    "archiveBytes": 1235337,
+    "archiveSha256": "f11c11f3ca7c8b5a858e36906f87e1aa81ea3438475e736b63efbda0e59f8699",
+    "version": "2026-09-01",
+    "versionDoi": "10.48580/d3cv.v86",
+    "metadataYamlSha256": "664d1c6f4af5285ab52a52a5b5f89775c3398cef39480b00cb20311a8bd7d61f",
+    "license": "CC-BY-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "provider": "World Register of Marine Species via ChecklistBank",
+    "retrievedAt": "2026-09-05"
+  },
+  "scopeAudit": {
+    "colStrictAcceptedSpecies": 5852,
+    "sourceStrictAcceptedSpecies": 5878,
+    "matched": 5835,
+    "unmatched": 17,
+    "ambiguous": 0,
+    "sourceOnly": 43
+  },
+  "output": {
+    "descriptorPath": "data\\catalogue-of-life\\releases\\2026-08-20\\resource-packs\\other-animals\\worms-monogenea-sidecar.json",
+    "descriptorBytes": 8233,
+    "descriptorSha256": "d747532cac56644cbad7f93b6cb1b736752e095d3ac1a42e4c90fb9c9cb6c5a4",
+    "files": [
+      {
+        "path": "other-animals/worms-monogenea-000.json.gz",
+        "records": 550,
+        "bytes": 110417,
+        "sha256": "09509c824482aceede1ba01637d11731c695824413aa9103509f569b1b59e451",
+        "sourceBytes": 2097073,
+        "sourceSha256": "d9459628e864ae536eb5af829c4c7a92e749b58feffa76eb37e4fe179f8b1dfc",
+        "minColId": "32LDD",
+        "maxColId": "33VRS"
+      },
+      {
+        "path": "other-animals/worms-monogenea-001.json.gz",
+        "records": 474,
+        "bytes": 132790,
+        "sha256": "64ced1e06132a9f2ab41da3d6fa0df2f8a392f01f53b360e99de9bc9e9d27896",
+        "sourceBytes": 2093170,
+        "sourceSha256": "81c5916fe286089361e48b1309a98f51e7f0997afac6763038b8734c0c530d73",
+        "minColId": "33VRT",
+        "maxColId": "3HYXN"
+      },
+      {
+        "path": "other-animals/worms-monogenea-002.json.gz",
+        "records": 456,
+        "bytes": 128082,
+        "sha256": "de34ca4ffa0c0f566631cf7c20563b3150f55375da46a972fad5a2ad7b3315ce",
+        "sourceBytes": 2092440,
+        "sourceSha256": "311ebbf720edf8111eb31d394b03a751897148b64a3f53105ce90463e7eceba7",
+        "minColId": "3HYXQ",
+        "maxColId": "3PSWW"
+      },
+      {
+        "path": "other-animals/worms-monogenea-003.json.gz",
+        "records": 477,
+        "bytes": 148462,
+        "sha256": "93d67c3a6f83600cf2b76aaab5471d161c88f619477959521f8606f315329343",
+        "sourceBytes": 2096764,
+        "sourceSha256": "382a5eb372b71ce61945825572bf8dde965c5f7b5a39e4c651e50f58c10c5d2e",
+        "minColId": "3PSWX",
+        "maxColId": "4LP4D"
+      },
+      {
+        "path": "other-animals/worms-monogenea-004.json.gz",
+        "records": 430,
+        "bytes": 137822,
+        "sha256": "955f45539a8aeca88f994b242ee6fabd20cb820de5c7b67928a6bba726f3c39c",
+        "sourceBytes": 2094883,
+        "sourceSha256": "fe44a5c0fd66161c1f7426bf7890ed5653226f7cf03f7f493dcf3bb8147900c1",
+        "minColId": "4LP4F",
+        "maxColId": "55QY8"
+      },
+      {
+        "path": "other-animals/worms-monogenea-005.json.gz",
+        "records": 487,
+        "bytes": 132510,
+        "sha256": "ec8c71430e734eede4346abf6629d382b8127c8f337a4159fafe2b67d454eb08",
+        "sourceBytes": 2094263,
+        "sourceSha256": "187d835d893966819825dfbb0ce1181a10b3d4bed7c0b278360b955ae5be4948",
+        "minColId": "55QY9",
+        "maxColId": "6BZV2"
+      },
+      {
+        "path": "other-animals/worms-monogenea-006.json.gz",
+        "records": 514,
+        "bytes": 135908,
+        "sha256": "10783ee81830514364dcd5bf94b8dc3bcca66f320b9f9ef5f59334bfa8af421a",
+        "sourceBytes": 2090903,
+        "sourceSha256": "39a8fcb8fd37d010ffa9bdfe33c05e08879e05911f80e2267195e0653aef91d4",
+        "minColId": "6BZV4",
+        "maxColId": "6M2Q4"
+      },
+      {
+        "path": "other-animals/worms-monogenea-007.json.gz",
+        "records": 462,
+        "bytes": 163140,
+        "sha256": "c0a7eeeb0555b14a26cc9a0fee06baf150ea62106bed3f786a2a2bb2bd7be631",
+        "sourceBytes": 2093015,
+        "sourceSha256": "425df388c5be69cc095be134227345069cb8de7b845a9a83d4cd1ebf37f198e9",
+        "minColId": "6M2XC",
+        "maxColId": "785MQ"
+      },
+      {
+        "path": "other-animals/worms-monogenea-008.json.gz",
+        "records": 463,
+        "bytes": 145724,
+        "sha256": "a8dde0c53257b17e6629f525c13acf54ff20b85c6f6e5c40dc82806a942ed7ce",
+        "sourceBytes": 2096082,
+        "sourceSha256": "430a8df60f99d137328571b2eae376c9cc12daa63a351fc78102808814b4b70c",
+        "minColId": "785MR",
+        "maxColId": "7ZJ7K"
+      },
+      {
+        "path": "other-animals/worms-monogenea-009.json.gz",
+        "records": 539,
+        "bytes": 126517,
+        "sha256": "6125b41b2605ee03a9aab0285d7b346be95c4f096f0c0d1032ee4315f5ae80b5",
+        "sourceBytes": 2095694,
+        "sourceSha256": "760445e385e2b92510e4fca121bcfd155be90b6cf41f224c6888f66432b8ecf1",
+        "minColId": "7ZJ7M",
+        "maxColId": "BXS7G"
+      },
+      {
+        "path": "other-animals/worms-monogenea-010.json.gz",
+        "records": 528,
+        "bytes": 124425,
+        "sha256": "bd46a65089fdee6fe42585e7cfa6b79e3464e09803aedb2d37e5711aa433b2bf",
+        "sourceBytes": 2093706,
+        "sourceSha256": "3371d958f0c4ca29689d9266c4963d482819303ab97e88a05b11060f3f169e9c",
+        "minColId": "BXS7H",
+        "maxColId": "N6WV"
+      },
+      {
+        "path": "other-animals/worms-monogenea-011.json.gz",
+        "records": 456,
+        "bytes": 124700,
+        "sha256": "1f3a2c45998cfcabf8cfff8f64d49d052f5bc26049d2e5ce802f36992a0407f4",
+        "sourceBytes": 2090342,
+        "sourceSha256": "5b2a49239d0530d60cf10ba610c183602e32a7b6871635aa8d7f2f39f53da1ea",
+        "minColId": "N8HS",
+        "maxColId": "YTLX"
+      },
+      {
+        "path": "other-animals/worms-monogenea-012.json.gz",
+        "records": 16,
+        "bytes": 5629,
+        "sha256": "8180b088deae0d1b0022d3a0cc9cb17805c3a1006df6f10625bb2a7d20733530",
+        "sourceBytes": 94354,
+        "sourceSha256": "1a208b5f908b8404314dbbb59be11ef4b768cc8dde0ab7c0748110b0622723e9",
+        "minColId": "YTLY",
+        "maxColId": "ZVTG"
+      }
+    ],
+    "upstreamOnlyFiles": [
+      {
+        "path": "other-animals/worms-monogenea-upstream-only-000.json.gz",
+        "records": 43,
+        "bytes": 10016,
+        "sha256": "f3e345cb37cbff01ac616166158fb00c1bbb7a2199f23dfa37c64c2dc181eced",
+        "sourceBytes": 83988,
+        "sourceSha256": "270c034432a61967affedb6fa7b7fffa90bb8b4952eda1e04da9a910200669a0"
+      }
+    ]
+  }
+}
