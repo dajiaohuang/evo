@@ -1,0 +1,84 @@
+{
+  "schemaVersion": 1,
+  "recordType": "release-pinned-authority-archive-crosswalk",
+  "id": "eumycetozoa-archive-crosswalk",
+  "packageId": "protists-chromists",
+  "provider": "Eumycetozoa database via Catalogue of Life ChecklistBank",
+  "rowEncoding": "json",
+  "colIdField": "colId",
+  "totalCountField": "total",
+  "source": {
+    "provider": "Eumycetozoa database",
+    "license": "CC-BY-4.0",
+    "archiveUrl": "https://api.checklistbank.org/dataset/1053/archive",
+    "archiveBytes": 131700,
+    "archiveSha256": "2d8a55a43d7273bfabaa19c16942c9258b7ca00c17319fead95c562af40f24b1",
+    "version": "May 2024",
+    "sourceLedgerPath": "data/sources/eumycetozoa-archive-import-ledger.json"
+  },
+  "scope": {
+    "colSourceDatasetId": 1053,
+    "eligibleColSpecies": 1337,
+    "projectedSpecies": 1337,
+    "matchingKey": "exact source scientific name + authorship"
+  },
+  "matching": {
+    "normalization": "Strict UTF-8 TSV; whitespace-only name+authorship comparison.",
+    "prohibited": "No fuzzy or inferred matching."
+  },
+  "counts": {
+    "total": 1337,
+    "accepted": 1330,
+    "redirect": 0,
+    "ambiguous": 0,
+    "unmatched": 7,
+    "withheld": 0,
+    "upstreamOnly": 0,
+    "records": 1337
+  },
+  "files": [
+    {
+      "path": "protists-chromists/eumycetozoa-000.json.gz",
+      "records": 1337,
+      "bytes": 127209,
+      "sha256": "73f9ac119bbec18a97db23f9e59bf4a64aaf9d135533a19a7a2c8b8a12bbe1e2",
+      "sourceBytes": 1587526,
+      "sourceSha256": "c7a91a21eff4585dc9eb2f656741d40f4d7d55971402323bf5028b329b569b06",
+      "minColId": "3574B",
+      "maxColId": "ZFKF",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "role": "col-partition"
+    }
+  ],
+  "upstreamOnlyFiles": [],
+  "evidenceBoundary": {
+    "en": "Frozen source provenance for COL names; not an independent scientific validation or biological dossier.",
+    "zh": "COL 名称的冻结来源追溯；不是独立科学验证或生物档案。"
+  },
+  "limitations": [
+    "Only COL strict accepted species assigned source dataset 1053 are projected; no additional source-only rows are asserted.",
+    "Reference links retain original type, identifiers, source row locators and empty fields."
+  ],
+  "descriptorSha256": "",
+  "totalCompressedBytes": 127209,
+  "totalSourceBytes": 1587526,
+  "deliveryProfiles": {
+    "web-light": {
+      "payload": "summary-only",
+      "files": [],
+      "records": 0,
+      "totalCompressedBytes": 0,
+      "totalSourceBytes": 0
+    },
+    "native-full": {
+      "payload": "complete",
+      "files": [
+        "protists-chromists/eumycetozoa-000.json.gz"
+      ],
+      "records": 1337,
+      "totalCompressedBytes": 127209,
+      "totalSourceBytes": 1587526
+    }
+  }
+}
