@@ -3,7 +3,7 @@
   "importType": "COL26.8-to-ChecklistBank-authority-archive-projection",
   "generatedBy": {
     "scriptPath": "scripts/build-small-authority-sources.py",
-    "scriptSha256": "a1a550dead9da0f969f2c900ad787c15394b7db8efc178c0576dd57951b56b7d",
+    "scriptSha256": "9d0dcdae55048114f368cd2ddb8ef662174f85ee19996a190dbd88dc6b5a0798",
     "hashNormalization": "LF"
   },
   "source": {
@@ -17,6 +17,14 @@
     "license": "CC-BY-4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
     "rights": null,
+    "licenseEvidence": {
+      "authority": "ChecklistBank API metadata",
+      "metadataPath": "data/sources/archives/checklistbank-1042-chilobase.metadata.json",
+      "field": "license",
+      "value": "cc by",
+      "spdx": "CC-BY-4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
     "archiveUrl": "https://api.checklistbank.org/dataset/1042/archive",
     "metadataUrl": "https://api.checklistbank.org/dataset/1042",
     "retrievedAt": "2026-09-05T04:47:19+08:00",
@@ -60,11 +68,14 @@
         "sha256": "ebffd100673720a786114638abe4b65308f7db21b04ff5628563fd446878ca27"
       }
     },
-    "archiveMetadataVersion": {
-      "title": "A World Catalogue of Centipedes (Chilopoda) for the Web",
-      "version": "1.01, May 2006",
-      "issued": "2006-10-10",
-      "license": "cc by"
+    "archiveMemberEvidence": {
+      "member": "SourceDatabase.tsv",
+      "fields": {
+        "title": "A World Catalogue of Centipedes (Chilopoda) for the Web",
+        "version": "1.01, May 2006",
+        "releaseDate": "2006-10-10"
+      },
+      "licenseMeaning": "SourceDatabase.tsv has no licence field; no archive-member licence is inferred."
     },
     "apiMetadataVersion": {
       "title": "A World Catalogue of Centipedes (Chilopoda) for the Web",
@@ -72,7 +83,7 @@
       "issued": "2006-10-10",
       "license": "cc by"
     },
-    "versionConsistency": "title/version/license match; archive-issued is preserved separately from API issued metadata"
+    "versionConsistency": "title/version match; archive-issued/release date is preserved separately from API issued metadata; licence is established only from ChecklistBank API metadata"
   },
   "registry": {
     "path": "data/catalogue-of-life/releases/2026-08-20/registry/manifest.json",
@@ -1383,8 +1394,8 @@
   "outputs": {
     "descriptor": {
       "path": "data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals/chilobase-sidecar.json",
-      "bytes": 6731,
-      "sha256": "aa44f9d16df1b93633f3070d85b7cbf422eebb3fd3334b1943b05b8b8b7191ac"
+      "bytes": 7260,
+      "sha256": "bcfbeef2a4c34dee51e16cc1119f9250a5504318232e89f1aa7de94c7bbeb482"
     },
     "files": [
       {

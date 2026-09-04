@@ -3,7 +3,7 @@
   "importType": "COL26.8-to-ChecklistBank-authority-archive-projection",
   "generatedBy": {
     "scriptPath": "scripts/build-small-authority-sources.py",
-    "scriptSha256": "a1a550dead9da0f969f2c900ad787c15394b7db8efc178c0576dd57951b56b7d",
+    "scriptSha256": "9d0dcdae55048114f368cd2ddb8ef662174f85ee19996a190dbd88dc6b5a0798",
     "hashNormalization": "LF"
   },
   "source": {
@@ -17,6 +17,14 @@
     "license": "CC-BY-4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
     "rights": null,
+    "licenseEvidence": {
+      "authority": "ChecklistBank API metadata",
+      "metadataPath": "data/sources/archives/checklistbank-1164-scorpion-files.metadata.json",
+      "field": "license",
+      "value": "cc by",
+      "spdx": "CC-BY-4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
     "archiveUrl": "https://api.checklistbank.org/dataset/1164/archive",
     "metadataUrl": "https://api.checklistbank.org/dataset/1164",
     "retrievedAt": "2026-09-05T04:47:19+08:00",
@@ -44,11 +52,15 @@
         "sha256": "bd8b87e689b41c2384bb2a3f22031d9cf000503951bad09b4f32cb37c75eecd3"
       }
     },
-    "archiveMetadataVersion": {
-      "title": "The Scorpion Files",
-      "version": "Jul 2026",
-      "issued": "2026-07-07",
-      "license": "cc by"
+    "archiveMemberEvidence": {
+      "member": "meta.yaml",
+      "fields": {
+        "title": "The Scorpion Files",
+        "version": "Jul 2026",
+        "issued": "2026-07-07",
+        "license": "cc by"
+      },
+      "licenseMeaning": "Archive member metadata only; it is not the ChecklistBank API licence authority."
     },
     "apiMetadataVersion": {
       "title": "The Scorpion Files",
@@ -56,7 +68,7 @@
       "issued": "2026-07-06",
       "license": "cc by"
     },
-    "versionConsistency": "title/version/license match; archive-issued is preserved separately from API issued metadata"
+    "versionConsistency": "title/version match; archive-issued/release date is preserved separately from API issued metadata; licence is established only from ChecklistBank API metadata"
   },
   "registry": {
     "path": "data/catalogue-of-life/releases/2026-08-20/registry/manifest.json",
@@ -1366,8 +1378,8 @@
   "outputs": {
     "descriptor": {
       "path": "data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals/scorpion-files-sidecar.json",
-      "bytes": 8650,
-      "sha256": "b82903475ec88e210c323a46cfd899ba5bca1269dda74a1591d1775a0af31c98"
+      "bytes": 9199,
+      "sha256": "9c9e302663144d8566abcba02abee8922be0ddec066c32f6a2178607eb09cb60"
     },
     "files": [
       {

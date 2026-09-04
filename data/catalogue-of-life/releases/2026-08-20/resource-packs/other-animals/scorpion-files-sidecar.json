@@ -21,6 +21,14 @@
     "license": "CC-BY-4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
     "rights": null,
+    "licenseEvidence": {
+      "authority": "ChecklistBank API metadata",
+      "metadataPath": "data/sources/archives/checklistbank-1164-scorpion-files.metadata.json",
+      "field": "license",
+      "value": "cc by",
+      "spdx": "CC-BY-4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
     "archiveUrl": "https://api.checklistbank.org/dataset/1164/archive",
     "metadataUrl": "https://api.checklistbank.org/dataset/1164",
     "retrievedAt": "2026-09-05T04:47:19+08:00",
@@ -48,11 +56,15 @@
         "sha256": "bd8b87e689b41c2384bb2a3f22031d9cf000503951bad09b4f32cb37c75eecd3"
       }
     },
-    "archiveMetadataVersion": {
-      "title": "The Scorpion Files",
-      "version": "Jul 2026",
-      "issued": "2026-07-07",
-      "license": "cc by"
+    "archiveMemberEvidence": {
+      "member": "meta.yaml",
+      "fields": {
+        "title": "The Scorpion Files",
+        "version": "Jul 2026",
+        "issued": "2026-07-07",
+        "license": "cc by"
+      },
+      "licenseMeaning": "Archive member metadata only; it is not the ChecklistBank API licence authority."
     },
     "apiMetadataVersion": {
       "title": "The Scorpion Files",
@@ -60,9 +72,7 @@
       "issued": "2026-07-06",
       "license": "cc by"
     },
-    "versionConsistency": "title/version/license match; archive-issued is preserved separately from API issued metadata",
-    "sourceLedgerPath": "data/sources/scorpion-files-archive-1164-import-ledger.json",
-    "sourceLedgerSha256": "131d8f6e7b9772d6597cb6152f62d85b5e7d9d39581591ee3d672dfd1b2665d8"
+    "versionConsistency": "title/version match; archive-issued/release date is preserved separately from API issued metadata; licence is established only from ChecklistBank API metadata"
   },
   "scope": {
     "colRootUsageId": "42N",
