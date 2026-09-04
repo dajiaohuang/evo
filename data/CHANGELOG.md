@@ -1,5 +1,12 @@
 # Dataset changelog
 
+## 2026.09-static-v5-rc117 — 2026-09-05
+
+- Added original WoRMS source archives and exact projections for 20,367 Bryozoa, 5,852 Monogenea and 12,007 Trematoda COL species records. Outcomes are 38,111 accepted-name matches, six explicit Bryozoa synonym redirects and 109 unmatched records. These are source-traceability improvements, not new biological dossiers or independent scientific corroboration.
+- Retained 358 unlinked accepted source records separately with null COL IDs. The three September 2026 archives contain 38,475 nonprovisional accepted species; source scope and date differ from COL26.8, so this is not a globally deduplicated species addition. The 2,183,133-species COL baseline is unchanged.
+- All 67 new evidence files are bounded to 2 MiB uncompressed and included in full-data inventories. Pages publishes summaries and inventories without these row payloads. Original archives remain separate build-time evidence. The measured canonical data/code footprint is approximately 891 MiB; its limit increases from 875 to 900 MiB. Complete native application resources measure 801.76 MiB, so the repository's native packaging allowance increases from 800 to 825 MiB without omitting content. The Pages limit is unchanged. These are artifact sizes, not resident-memory measurements.
+- No compatibility layer, content-validation system, app version or native build-number change. Existing import/replay and delivery tests cover the new source files. Human scientific review status remains unchanged. See [source scope and reproduction](../docs/worms-original-sources-rc117.md).
+
 ## 2026.09-static-v5-rc116 — 2026-09-04
 
 - Resolved 28 CilCat, seven Eumycetozoa and one Gymnodinium previously unmatched COL names using frozen official COL-to-source relations and actual accepted source records. Original spelling and authorship differences remain explicit; these are not fuzzy matches or independent scientific corroboration.

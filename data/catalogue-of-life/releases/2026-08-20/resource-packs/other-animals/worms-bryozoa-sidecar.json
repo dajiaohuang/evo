@@ -1,0 +1,414 @@
+{
+  "schemaVersion": 1,
+  "recordType": "release-pinned-authority-archive-crosswalk",
+  "id": "worms-bryozoa-archive-crosswalk",
+  "packageId": "other-animals",
+  "provider": "World Register of Marine Species via ChecklistBank",
+  "rowEncoding": "json",
+  "role": "authority-crosswalk",
+  "encoding": "gzip",
+  "mediaType": "application/json",
+  "colIdField": "colId",
+  "totalCountField": "total",
+  "source": {
+    "datasetId": "1081",
+    "provider": "World Register of Marine Species via ChecklistBank",
+    "license": "CC-BY-4.0",
+    "archiveUrl": "https://api.checklistbank.org/dataset/1081/archive",
+    "archiveBytes": 2203981,
+    "archiveSha256": "93081ce57720a84ca271126c5d748a9d2663a1ffc1d900b3fb380f94c696c0fb",
+    "archivePath": "data/sources/archives/checklistbank-1081-bryozoa-2026-09-01.zip",
+    "version": "2026-09-01",
+    "versionDoi": "10.48580/d3bb.v89",
+    "metadataPath": "data/sources/archives/checklistbank-1081-bryozoa-2026-09-01.metadata.json",
+    "metadataBytes": 2037,
+    "metadataSha256": "768e9ab9d6c0ccb5b2bf191a6171f6da50690b02cf3770f85e3bae874fb75201",
+    "sourceLedgerPath": "data/sources/worms-bryozoa-1081-import-ledger.json"
+  },
+  "scope": {
+    "colRootUsageId": "622CG",
+    "scientificName": "Bryozoa",
+    "eligibleColSpecies": 20367,
+    "sourceStrictAcceptedSpecies": 20533
+  },
+  "matching": {
+    "normalization": "Whitespace normalization only; exact scientificName and authorship, preserving source fields.",
+    "synonym": "Explicit Synonym.taxonID target to a strict accepted Species taxon may redirect.",
+    "prohibited": "No fuzzy, case-folded, accent-folded, inferred or concept matching."
+  },
+  "counts": {
+    "total": 20367,
+    "accepted": 20311,
+    "redirect": 6,
+    "ambiguous": 0,
+    "unmatched": 50,
+    "withheld": 0,
+    "upstreamOnly": 216
+  },
+  "files": [
+    {
+      "path": "other-animals/worms-bryozoa-000.json.gz",
+      "records": 573,
+      "bytes": 136524,
+      "sha256": "ba9e8801c193b7615950e393458f49580114b907bbb69bd70fd927f79970f548",
+      "sourceBytes": 2095932,
+      "sourceSha256": "bfb1c0bd40c0a4354209850ac95ab1415cfe39753e5018c4cc2df7c0d0814396",
+      "minColId": "322VM",
+      "maxColId": "3LYFR"
+    },
+    {
+      "path": "other-animals/worms-bryozoa-001.json.gz",
+      "records": 644,
+      "bytes": 142240,
+      "sha256": "a2c821705b5eb1570162e981fb6e941a633fc11b66854e52e274dd86eb2bf684",
+      "sourceBytes": 2090066,
+      "sourceSha256": "a1abef0d45f37e2c1c78d1b433604abc004ef6f34411d9ce7908e88c152e04e8",
+      "minColId": "3LYFS",
+      "maxColId": "47MSS"
+    },
+    {
+      "path": "other-animals/worms-bryozoa-002.json.gz",
+      "records": 611,
+      "bytes": 131115,
+      "sha256": "d5d7b9102f8177af0449e6d2f61df023108697fbae282f140bac4e5ef05b58ff",
+      "sourceBytes": 2088789,
+      "sourceSha256": "097fa2f768d6a5aded674604dca0967cad9ed86713e732baa34610f5dd590a9c",
+      "minColId": "47MST",
+      "maxColId": "4S3H6"
+    },
+    {
+      "path": "other-animals/worms-bryozoa-003.json.gz",
+      "records": 572,
+      "bytes": 136383,
+      "sha256": "624d97b5d7ce0556495463519142d78a257b61a40afaf2b738ba06c1fc6572a6",
+      "sourceBytes": 2096451,
+      "sourceSha256": "edcf25da6260987aaa470a78834de761d5f67b3a1d9fd82da83effeda3ca09f2",
+      "minColId": "4S3H7",
+      "maxColId": "58Y8P"
+    },
+    {
+      "path": "other-animals/worms-bryozoa-004.json.gz",
+      "records": 537,
+      "bytes": 141831,
+      "sha256": "90aebf6ce704fb4fd5dbd488c82b25d3e7ebe6111fc04e1084f679909fd659aa",
+      "sourceBytes": 2096210,
+      "sourceSha256": "d5dcf1f5f7accd259d7aeba7461631c6a1985f460a49d2fcc92b0a8dcaee7b13",
+      "minColId": "58Y8Q",
+      "maxColId": "69R8L"
+    },
+    {
+      "path": "other-animals/worms-bryozoa-005.json.gz",
+      "records": 615,
+      "bytes": 146936,
+      "sha256": "ec68171ea150afecbf00e8aec6e8317f52404a4e2b2517a10daca290a8c8df4d",
+      "sourceBytes": 2096096,
+      "sourceSha256": "e743e96d97c3a192d420922cf74ea6dcfe45a57d9c092fcba8b4c11870cfd74c",
+      "minColId": "69X6Q",
+      "maxColId": "6WW3L"
+    },
+    {
+      "path": "other-animals/worms-bryozoa-006.json.gz",
+      "records": 621,
+      "bytes": 145604,
+      "sha256": "5069dd7ecf865f434c63b42fccf7da9f11ef0787589fda0a4e9fe353fefd7717",
+      "sourceBytes": 2096637,
+      "sourceSha256": "74524a4a57ccf6ebc19192d7e5365ddfed2efd730eecf15c07d64d3730d3f6c9",
+      "minColId": "6WW3M",
+      "maxColId": "865VC"
+    },
+    {
+      "path": "other-animals/worms-bryozoa-007.json.gz",
+      "records": 735,
+      "bytes": 85540,
+      "sha256": "4340a7717ae46d27e9af4fb6f957105caed234daf173e6cca33c9a0701f78d80",
+      "sourceBytes": 2095659,
+      "sourceSha256": "d1feb8548df60465934cfd029231279317179273044a1412b664c4569ababbe9",
+      "minColId": "865VD",
+      "maxColId": "867RH"
+    },
+    {
+      "path": "other-animals/worms-bryozoa-008.json.gz",
+      "records": 708,
+      "bytes": 92017,
+      "sha256": "95acb109ae6ca9240addcd1c0163faceb0908d67e906e6015a688f1a09057a84",
+      "sourceBytes": 2095129,
+      "sourceSha256": "242617af4840f5a6b0317a877002dd5c4a5693554bfe768e4630e5fb1b87e975",
+      "minColId": "867RJ",
+      "maxColId": "868S6"
+    },
+    {
+      "path": "other-animals/worms-bryozoa-009.json.gz",
+      "records": 716,
+      "bytes": 86609,
+      "sha256": "057a700076b56de15a986b17bdea3a114d5decb736a9a8786ca19fff299bc97e",
+      "sourceBytes": 2096655,
+      "sourceSha256": "2552e12af5353b38a1042666995260b8116fc9e29905a89f317715fa4774c5a4",
+      "minColId": "868S7",
+      "maxColId": "86BPJ"
+    },
+    {
+      "path": "other-animals/worms-bryozoa-010.json.gz",
+      "records": 726,
+      "bytes": 82233,
+      "sha256": "6a4bd74a26ddbf8b2eec3a5f785bd61f128bc0c820853a941d2604c4f8d1d594",
+      "sourceBytes": 2095035,
+      "sourceSha256": "3444692f903f654e249638a6912b659b21973511a056d33937d9dc2a477485b3",
+      "minColId": "86BPK",
+      "maxColId": "86D48"
+    },
+    {
+      "path": "other-animals/worms-bryozoa-011.json.gz",
+      "records": 773,
+      "bytes": 81226,
+      "sha256": "6df1c9fbda838b35cb73b42774b0e58ace47f395969e5aadf2f917ac9819b3bb",
+      "sourceBytes": 2095422,
+      "sourceSha256": "c32e0adf453dc28ad9c7bdcd1ed68b7554a4c81c765c3ad931f91396c7adaf96",
+      "minColId": "86D49",
+      "maxColId": "86F2Z"
+    },
+    {
+      "path": "other-animals/worms-bryozoa-012.json.gz",
+      "records": 754,
+      "bytes": 87089,
+      "sha256": "5871e190c00fe88dddc75c86b4b1439ac2c98d2b9f0393211754b7a70d5fd08e",
+      "sourceBytes": 2094773,
+      "sourceSha256": "8891b1905cb618946f19ba9b481f18666ec05a4f212bce1c9b928451993187c1",
+      "minColId": "86F32",
+      "maxColId": "86FYP"
+    },
+    {
+      "path": "other-animals/worms-bryozoa-013.json.gz",
+      "records": 773,
+      "bytes": 83350,
+      "sha256": "7ca6de051dc2195d3971cd2c685dd2ffb997456f290dec01ae63763784b7498e",
+      "sourceBytes": 2097087,
+      "sourceSha256": "6bb6690ddd4121bf1ba8b5230dc43fd0f4171aba6583de5d2b2771acb1c4df48",
+      "minColId": "86FYQ",
+      "maxColId": "86GWW"
+    },
+    {
+      "path": "other-animals/worms-bryozoa-014.json.gz",
+      "records": 789,
+      "bytes": 80228,
+      "sha256": "64cf4494c74c74c5b1c28335fe50d2f80771fadd1cf0de4e53142febb1098d01",
+      "sourceBytes": 2096900,
+      "sourceSha256": "11551b7347f25681b068e0db13ffd38656814ee8c81c06ad4830961ab06ad28f",
+      "minColId": "86GWX",
+      "maxColId": "86HVG"
+    },
+    {
+      "path": "other-animals/worms-bryozoa-015.json.gz",
+      "records": 796,
+      "bytes": 76957,
+      "sha256": "a915cbe13c8003b0af895a3aceda6d2eb0d66e550ec4aa561e2e7ffe3c9ca52f",
+      "sourceBytes": 2093380,
+      "sourceSha256": "bb8f4cba6df8ffc72a0fb2cdfc97231179ff78fb023b73bf32e4ac5f8492e9eb",
+      "minColId": "86HVH",
+      "maxColId": "86JTS"
+    },
+    {
+      "path": "other-animals/worms-bryozoa-016.json.gz",
+      "records": 764,
+      "bytes": 81207,
+      "sha256": "2c55d800f188b353231d39fced73327a20b835642b085cdef85937eb81a461bf",
+      "sourceBytes": 2097072,
+      "sourceSha256": "51338fea19fc0374904841fe73ac85ded5d4eac868476ae6b9e8c00a3c15ff49",
+      "minColId": "86JTT",
+      "maxColId": "86KS2"
+    },
+    {
+      "path": "other-animals/worms-bryozoa-017.json.gz",
+      "records": 762,
+      "bytes": 81285,
+      "sha256": "e5c362b206c1c1273d30cd7494fc0200091f288f1b8ebba9b8c98052145aa546",
+      "sourceBytes": 2096127,
+      "sourceSha256": "0ae31cd4b773b264763c95c13e521abeed60e901a45a3c47ee3269781fd07713",
+      "minColId": "86KS3",
+      "maxColId": "86LPZ"
+    },
+    {
+      "path": "other-animals/worms-bryozoa-018.json.gz",
+      "records": 772,
+      "bytes": 75221,
+      "sha256": "e4c2ffee4cf47d32fd62d8686ba3b757e20260e4b49cf5674c0cafea4be246d7",
+      "sourceBytes": 2096551,
+      "sourceSha256": "9ac4cfe73f245225d38f766c1f6cbb8ef184485de1fb67472c5dfa5f7f730382",
+      "minColId": "86LQ2",
+      "maxColId": "86MNN"
+    },
+    {
+      "path": "other-animals/worms-bryozoa-019.json.gz",
+      "records": 740,
+      "bytes": 83349,
+      "sha256": "0b8c25982eb3caeaef400e61648024bdb92a2aea2a67bb93e9fe35c02a87fc8c",
+      "sourceBytes": 2095501,
+      "sourceSha256": "8d1625bb8ba4f2fc7333db6af82f3bae045a06c1a96f03ed3a9cb0e0333e56fb",
+      "minColId": "86MNP",
+      "maxColId": "86NKK"
+    },
+    {
+      "path": "other-animals/worms-bryozoa-020.json.gz",
+      "records": 774,
+      "bytes": 79104,
+      "sha256": "437fc46f47705927b0e9503aa562be7e2d25779dbcd72479df60d9b975a9b18b",
+      "sourceBytes": 2096031,
+      "sourceSha256": "870e9d7d9ed67dc8d154523b8d779f84748f099982806b479e725ca4ff4be003",
+      "minColId": "86NKL",
+      "maxColId": "86PJ2"
+    },
+    {
+      "path": "other-animals/worms-bryozoa-021.json.gz",
+      "records": 759,
+      "bytes": 78616,
+      "sha256": "771f28f84bfb895f42df4114758e198fd50ebf7c18dec41bf5d3c1167d4b8a95",
+      "sourceBytes": 2093229,
+      "sourceSha256": "526faebac120252109b14aea29ccd1d1cd22ccb8526491e1769cb98dd14f764e",
+      "minColId": "86PJ3",
+      "maxColId": "86QG3"
+    },
+    {
+      "path": "other-animals/worms-bryozoa-022.json.gz",
+      "records": 739,
+      "bytes": 81861,
+      "sha256": "d0e9614f5bf81efb1957a0bcb61b08b191f21af2845f8d0cfab3ba6cac7a56be",
+      "sourceBytes": 2095301,
+      "sourceSha256": "a3ba94732186be412e5885c0cdf9652d1cc4a60d86f9b4f4efd1fdd1c7ba1702",
+      "minColId": "86QG4",
+      "maxColId": "86RCD"
+    },
+    {
+      "path": "other-animals/worms-bryozoa-023.json.gz",
+      "records": 765,
+      "bytes": 78741,
+      "sha256": "f3960b3152ab8f826954f0268f1d138f1f5538472457530e1fceb231702aa289",
+      "sourceBytes": 2095604,
+      "sourceSha256": "a57d754e31476e1862795d8677bbdad7187dd509025925a0597075e82929036e",
+      "minColId": "86RCF",
+      "maxColId": "86S99"
+    },
+    {
+      "path": "other-animals/worms-bryozoa-024.json.gz",
+      "records": 747,
+      "bytes": 80319,
+      "sha256": "7a7299204c48b99595da64292c5a77cba6dc143f26644877d91780b5a324c37b",
+      "sourceBytes": 2096375,
+      "sourceSha256": "6fc0fa109130f418439afc1e8e8d59b95e6f3756054d8532a5557e03ac44b0d0",
+      "minColId": "86S9B",
+      "maxColId": "86T6G"
+    },
+    {
+      "path": "other-animals/worms-bryozoa-025.json.gz",
+      "records": 765,
+      "bytes": 81547,
+      "sha256": "5fb651a017fab71ffdd879f226531d3be73cc5d706db5997750895e2aa41f49d",
+      "sourceBytes": 2096798,
+      "sourceSha256": "0de1a4122ec7af203332f1cc542374177ab03a73feeb21e51635ce19314a1026",
+      "minColId": "86T6H",
+      "maxColId": "86V4D"
+    },
+    {
+      "path": "other-animals/worms-bryozoa-026.json.gz",
+      "records": 632,
+      "bytes": 115632,
+      "sha256": "9715841625fb454e6fca0904ec5f58b2276bce69940f997614ca6991e0a8a96e",
+      "sourceBytes": 2094761,
+      "sourceSha256": "e5a0d9c5169e7b4835cda1d1ba976e976a566ddc158dfc79f5812e512c79e4dd",
+      "minColId": "86V4F",
+      "maxColId": "G3F4"
+    },
+    {
+      "path": "other-animals/worms-bryozoa-027.json.gz",
+      "records": 612,
+      "bytes": 129981,
+      "sha256": "ef3dd3b05e719c199294b04a3c41c84c7959cb32c149d1531d054fb676b9660e",
+      "sourceBytes": 2094759,
+      "sourceSha256": "bb4b5a3ab09704b8d6d480c935fc5b1e530f1a920566759497308a415ffc1ce6",
+      "minColId": "G3F5",
+      "maxColId": "S3S3"
+    },
+    {
+      "path": "other-animals/worms-bryozoa-028.json.gz",
+      "records": 593,
+      "bytes": 131159,
+      "sha256": "1e0e8cc1438c8aebbbf31106716fd3d6b9a70c61a8c6ed60abe5c72d8f5bfdd5",
+      "sourceBytes": 2083138,
+      "sourceSha256": "24a2b27600202caa2536303dbbee15a5f0153b2f7f3f345e69bdd6cedff77f7f",
+      "minColId": "S3S4",
+      "maxColId": "ZYZB"
+    }
+  ],
+  "upstreamOnlyFiles": [
+    {
+      "path": "other-animals/worms-bryozoa-upstream-only-000.json.gz",
+      "records": 216,
+      "bytes": 23126,
+      "sha256": "ed696ca65e48c2ab764d88fac698e2c56140ed5305021c9dd7365f9a19f8389c",
+      "sourceBytes": 344932,
+      "sourceSha256": "c8cc090ca2940e9b9b862a4feb334f62d87579ff5d58a5f0a962b00d7017ece0"
+    }
+  ],
+  "totals": {
+    "records": 20367,
+    "sourceOnlyRecords": 216,
+    "compressedBytes": 2913904,
+    "sourceCompressedBytes": 23126,
+    "sourceBytes": 60751468,
+    "sourceOnlySourceBytes": 344932
+  },
+  "deliveryProfiles": {
+    "web-light": {
+      "payload": "summary-only",
+      "files": [],
+      "records": 0,
+      "totalCompressedBytes": 0,
+      "totalSourceBytes": 0
+    },
+    "native-full": {
+      "payload": "complete",
+      "files": [
+        "other-animals/worms-bryozoa-000.json.gz",
+        "other-animals/worms-bryozoa-001.json.gz",
+        "other-animals/worms-bryozoa-002.json.gz",
+        "other-animals/worms-bryozoa-003.json.gz",
+        "other-animals/worms-bryozoa-004.json.gz",
+        "other-animals/worms-bryozoa-005.json.gz",
+        "other-animals/worms-bryozoa-006.json.gz",
+        "other-animals/worms-bryozoa-007.json.gz",
+        "other-animals/worms-bryozoa-008.json.gz",
+        "other-animals/worms-bryozoa-009.json.gz",
+        "other-animals/worms-bryozoa-010.json.gz",
+        "other-animals/worms-bryozoa-011.json.gz",
+        "other-animals/worms-bryozoa-012.json.gz",
+        "other-animals/worms-bryozoa-013.json.gz",
+        "other-animals/worms-bryozoa-014.json.gz",
+        "other-animals/worms-bryozoa-015.json.gz",
+        "other-animals/worms-bryozoa-016.json.gz",
+        "other-animals/worms-bryozoa-017.json.gz",
+        "other-animals/worms-bryozoa-018.json.gz",
+        "other-animals/worms-bryozoa-019.json.gz",
+        "other-animals/worms-bryozoa-020.json.gz",
+        "other-animals/worms-bryozoa-021.json.gz",
+        "other-animals/worms-bryozoa-022.json.gz",
+        "other-animals/worms-bryozoa-023.json.gz",
+        "other-animals/worms-bryozoa-024.json.gz",
+        "other-animals/worms-bryozoa-025.json.gz",
+        "other-animals/worms-bryozoa-026.json.gz",
+        "other-animals/worms-bryozoa-027.json.gz",
+        "other-animals/worms-bryozoa-028.json.gz",
+        "other-animals/worms-bryozoa-upstream-only-000.json.gz"
+      ],
+      "records": 20583,
+      "totalCompressedBytes": 2937030,
+      "totalSourceBytes": 61096400
+    }
+  },
+  "evidenceBoundary": {
+    "en": "Frozen exact WoRMS nomenclatural crosswalk; not species-concept equivalence, global richness, fossil evidence or expert review.",
+    "zh": "冻结的WoRMS严格命名交叉映射；不是物种概念等同性、全球丰富度、化石证据或专家审查。"
+  },
+  "limitations": [
+    "The 2026-09-01 WoRMS archive is not the COL26.8 source snapshot.",
+    "Source-only rows have null COL ownership and are not deduplicated global species additions.",
+    "The archive is supplied as an explicit pinned input; no moving live endpoint is used."
+  ]
+}
