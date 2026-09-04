@@ -206,7 +206,7 @@ for (const [packageId, expectedCollections] of Object.entries(expectedRichItisCo
   if (!Array.isArray(collections)) throw new Error(`Mobile build is missing ${packageId} nomenclature collections`)
   const additionalAuthorityCollections = {
     echinoderms: 1, 'crocodylomorphs-birds': 1,
-    'molluscs-brachiopods': 1, 'sponges-cnidarians': 2, 'crustaceans-insects': 1,
+    'molluscs-brachiopods': 1, 'sponges-cnidarians': 2, 'crustaceans-insects': 2,
   }[packageId] ?? 0
   if (collections.length !== Object.keys(expectedCollections).length + additionalAuthorityCollections) {
     throw new Error(`Mobile build has an unexpected ${packageId} nomenclature collection count`)
@@ -350,7 +350,7 @@ const expectedOtherAnimalAuthorities = {
   'itis-nematoda-tsn-crosswalk': { files: 4, records: 20849 },
   'itis-annelida-tsn-crosswalk': { files: 4, records: 24074 },
 }
-if (otherAnimalsManifest.extensions?.length !== Object.keys(expectedOtherAnimalAuthorities).length + 1) {
+if (otherAnimalsManifest.extensions?.length !== Object.keys(expectedOtherAnimalAuthorities).length + 2) {
   throw new Error('Mobile build must stage every declared other-animals ITIS and WoRMS authority collection')
 }
 const annelidaArchive = otherAnimalsManifest.extensions.find((extension) => extension.id === 'worms-annelida-archive-crosswalk')
@@ -362,6 +362,16 @@ if (!annelidaArchive || annelidaArchive.source?.license !== 'CC-BY-4.0'
   || annelidaArchiveFiles.reduce((sum, file) => sum + file.records, 0) !== 20072
   || annelidaArchiveFiles.some((file) => !releaseFiles.files.some((entry) => entry.url === file.url && entry.bytes === file.bytes && entry.sha256 === file.sha256))) {
   throw new Error('Mobile build must stage every WoRMS Annelida COL and source-only archive shard')
+}
+const nematodaArchive = otherAnimalsManifest.extensions.find((extension) => extension.id === 'worms-nematoda-archive-crosswalk')
+const nematodaArchiveFiles = [...(nematodaArchive?.files ?? []), ...(nematodaArchive?.upstreamOnlyFiles ?? [])]
+if (!nematodaArchive || nematodaArchive.source?.license !== 'CC-BY-4.0'
+  || nematodaArchive.delivery?.profile !== 'native-full' || !nematodaArchive.delivery.completeRows
+  || nematodaArchive.files.length !== 8 || nematodaArchive.upstreamOnlyFiles.length !== 1
+  || nematodaArchive.delivery.publishedFileCount !== 9 || nematodaArchive.delivery.canonicalFileCount !== 9
+  || nematodaArchiveFiles.reduce((sum, file) => sum + file.records, 0) !== 21708
+  || nematodaArchiveFiles.some((file) => !releaseFiles.files.some((entry) => entry.url === file.url && entry.bytes === file.bytes && entry.sha256 === file.sha256))) {
+  throw new Error('Mobile build must stage every WoRMS Nematoda COL and source-only archive shard')
 }
 for (const [id, expected] of Object.entries(expectedOtherAnimalAuthorities)) {
   const authority = otherAnimalsManifest.extensions?.find((extension) => extension.id === id)
