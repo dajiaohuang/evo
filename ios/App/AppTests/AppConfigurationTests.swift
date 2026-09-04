@@ -22,15 +22,12 @@ final class AppConfigurationTests: XCTestCase {
 
     @MainActor
     func testCapacitorWebViewRendersAndReadsNativeFullData() async throws {
-        let window = UIWindow(frame: UIScreen.main.bounds)
-        let controller = CAPBridgeViewController()
-        window.rootViewController = controller
-        window.makeKeyAndVisible()
+        let controller = try XCTUnwrap(UIApplication.shared.connectedScenes
+            .compactMap { $0 as? UIWindowScene }
+            .flatMap { $0.windows }
+            .compactMap { $0.rootViewController as? CAPBridgeViewController }
+            .first, "Hosted application did not create its Capacitor scene")
         controller.loadViewIfNeeded()
-        defer {
-            window.isHidden = true
-            window.rootViewController = nil
-        }
 
         let webView = try XCTUnwrap(findWebView(in: controller.view), "Capacitor host did not create a WKWebView")
         var ready = false
@@ -397,11 +394,11 @@ final class AppConfigurationTests: XCTestCase {
                 XCTAssertNil(package["nomenclatureCollections"], "Only declared authority-backed rich packages may carry nomenclature collections")
             }
         }
-        XCTAssertEqual(researchExamples, 24)
-        XCTAssertEqual(researchClaimLinks, 34)
+        XCTAssertEqual(researchExamples, 312)
+        XCTAssertEqual(researchClaimLinks, 513)
         XCTAssertEqual(phylogenyPackages, 2)
         XCTAssertEqual(wormsNomenclatureRecords, 11_891)
-        XCTAssertEqual(richItisNomenclatureRecords, 214_855)
+        XCTAssertEqual(richItisNomenclatureRecords, 214_862)
         XCTAssertEqual(arthropodItisFiles, 164)
         XCTAssertEqual(arthropodItisNomenclatureRecords, 1_188_420)
         XCTAssertEqual(reptiliaItisFiles, 10)
@@ -454,8 +451,8 @@ final class AppConfigurationTests: XCTestCase {
             XCTAssertEqual(pack["acceptedSpeciesCount"] as? Int, packageRecords)
             if packageId == "archaea" || packageId == "bacteria" {
                 let extensions = try XCTUnwrap(pack["extensions"] as? [[String: Any]])
-                XCTAssertEqual(extensions.count, 1)
-                let lpsn = try XCTUnwrap(extensions.first)
+                XCTAssertEqual(extensions.count, packageId == "bacteria" ? 2 : 1)
+                let lpsn = try XCTUnwrap(extensions.first { ($0["id"] as? String) == "lpsn-identifiers" })
                 XCTAssertEqual(lpsn["id"] as? String, "lpsn-identifiers")
                 XCTAssertEqual(lpsn["provider"] as? String, "LPSN")
                 XCTAssertEqual((lpsn["counts"] as? [String: Any])?["resolved"] as? Int, packageId == "archaea" ? 790 : 21_570)
@@ -467,6 +464,25 @@ final class AppConfigurationTests: XCTestCase {
                     XCTAssertEqual(extensionFile["sha256"] as? String, extensionInventoryRecord["sha256"] as? String)
                     try verifyBundled(record: extensionInventoryRecord, below: dataRoot)
                     lpsnIdentifierRecords += try XCTUnwrap(extensionFile["records"] as? Int)
+                }
+                if packageId == "bacteria" {
+                    let itis = try XCTUnwrap(extensions.first { ($0["id"] as? String) == "itis-bacteria-tsn-crosswalk" })
+                    XCTAssertEqual((itis["source"] as? [String: Any])?["license"] as? String, "CC0-1.0")
+                    XCTAssertEqual((itis["delivery"] as? [String: Any])?["profile"] as? String, "native-full")
+                    XCTAssertEqual((itis["counts"] as? [String: Any])?["eligible"] as? Int, 4_827)
+                    XCTAssertEqual((itis["counts"] as? [String: Any])?["upstreamOnly"] as? Int, 9_348)
+                    let itisFiles = try XCTUnwrap(itis["files"] as? [[String: Any]])
+                    XCTAssertEqual(itisFiles.count, 8)
+                    var itisRecords = 0
+                    for file in itisFiles {
+                        let path = try XCTUnwrap(file["url"] as? String)
+                        let record = try XCTUnwrap(files.first { ($0["url"] as? String) == path })
+                        XCTAssertEqual(file["bytes"] as? Int, record["bytes"] as? Int)
+                        XCTAssertEqual(file["sha256"] as? String, record["sha256"] as? String)
+                        try verifyBundled(record: record, below: dataRoot)
+                        itisRecords += try XCTUnwrap(file["records"] as? Int)
+                    }
+                    XCTAssertEqual(itisRecords, 14_175)
                 }
             } else if packageId == "fungi" {
                 let extensions = try XCTUnwrap(pack["extensions"] as? [[String: Any]])
@@ -778,6 +794,7 @@ final class AppConfigurationTests: XCTestCase {
         return try XCTUnwrap(JSONSerialization.jsonObject(with: data) as? [String: Any])
     }
 
+    @MainActor
     private func findWebView(in view: UIView) -> WKWebView? {
         if let webView = view as? WKWebView { return webView }
         for subview in view.subviews {
@@ -786,6 +803,7 @@ final class AppConfigurationTests: XCTestCase {
         return nil
     }
 
+    @MainActor
     private func evaluateAsync(_ script: String, in webView: WKWebView) async throws -> Any? {
         try await withCheckedThrowingContinuation { continuation in
             webView.callAsyncJavaScript(

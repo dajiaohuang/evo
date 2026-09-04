@@ -396,11 +396,11 @@ public class AppInstrumentedTest {
                 assertTrue("only the declared authority-backed rich packages may carry nomenclature collections", !pack.has("nomenclatureCollections"));
             }
         }
-        assertEquals(24, researchExamples);
-        assertEquals(34, researchClaimLinks);
+        assertEquals(312, researchExamples);
+        assertEquals(513, researchClaimLinks);
         assertEquals(2, phylogenyPackages);
         assertEquals(11891, wormsNomenclatureRecords);
-        assertEquals(214855, richItisNomenclatureRecords);
+        assertEquals(214862, richItisNomenclatureRecords);
         assertEquals(164, arthropodItisFiles);
         assertEquals(1188420, arthropodItisNomenclatureRecords);
         assertEquals(10, reptiliaItisFiles);
@@ -453,8 +453,8 @@ public class AppInstrumentedTest {
             assertEquals(pack.getInt("acceptedSpeciesCount"), packageRecords);
             if (packageId.equals("archaea") || packageId.equals("bacteria")) {
                 JSONArray extensions = pack.getJSONArray("extensions");
-                assertEquals(1, extensions.length());
-                JSONObject extension = extensions.getJSONObject(0);
+                assertEquals(packageId.equals("bacteria") ? 2 : 1, extensions.length());
+                JSONObject extension = findCollection(extensions, "lpsn-identifiers");
                 assertEquals("lpsn-identifiers", extension.getString("id"));
                 assertEquals("LPSN", extension.getString("provider"));
                 int expectedResolved = packageId.equals("archaea") ? 790 : 21570;
@@ -468,6 +468,27 @@ public class AppInstrumentedTest {
                     assertEquals(extensionFile.getString("sha256"), extensionInventoryRecord.getString("sha256"));
                     verifyAssetRecord(context, extensionInventoryRecord);
                     lpsnIdentifierRecords += extensionFile.getInt("records");
+                }
+                if (packageId.equals("bacteria")) {
+                    JSONObject itis = findCollection(extensions, "itis-bacteria-tsn-crosswalk");
+                    assertNotNull(itis);
+                    assertEquals("CC0-1.0", itis.getJSONObject("source").getString("license"));
+                    assertEquals("native-full", itis.getJSONObject("delivery").getString("profile"));
+                    assertEquals(4827, itis.getJSONObject("counts").getInt("eligible"));
+                    assertEquals(9348, itis.getJSONObject("counts").getInt("upstreamOnly"));
+                    JSONArray itisFiles = itis.getJSONArray("files");
+                    assertEquals(8, itisFiles.length());
+                    int itisRecords = 0;
+                    for (int index = 0; index < itisFiles.length(); index += 1) {
+                        JSONObject file = itisFiles.getJSONObject(index);
+                        JSONObject record = findInventoryRecord(files, file.getString("url"));
+                        assertNotNull("ITIS Bacteria shard missing from release inventory", record);
+                        assertEquals(file.getInt("bytes"), record.getInt("bytes"));
+                        assertEquals(file.getString("sha256"), record.getString("sha256"));
+                        verifyAssetRecord(context, record);
+                        itisRecords += file.getInt("records");
+                    }
+                    assertEquals(14175, itisRecords);
                 }
             } else if (packageId.equals("fungi")) {
                 JSONArray extensions = pack.getJSONArray("extensions");
