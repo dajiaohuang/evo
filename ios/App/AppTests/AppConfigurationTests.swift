@@ -237,11 +237,15 @@ final class AppConfigurationTests: XCTestCase {
             } else if packageId == "crustaceans-insects" || packageId == "trilobites-chelicerates" {
                 let collections = try XCTUnwrap(package["nomenclatureCollections"] as? [[String: Any]])
                 if packageId == "crustaceans-insects" {
-                    XCTAssertEqual(collections.count, 5)
+                    XCTAssertEqual(collections.count, 6)
                     try verifyAuthorityArchiveCollection(
                         collection: try XCTUnwrap(collections.first { ($0["id"] as? String) == "osf-orthoptera-archive-crosswalk" }),
                         inventory: files, below: dataRoot, expectedFiles: 11, expectedUpstreamFiles: 1,
                         expectedRecords: 30_859, expectedUpstreamRecords: 53, label: "OSF Orthoptera")
+                    try verifyAuthorityArchiveCollection(
+                        collection: try XCTUnwrap(collections.first { ($0["id"] as? String) == "worms-crustacea-archive-crosswalk" }),
+                        inventory: files, below: dataRoot, expectedFiles: 30, expectedUpstreamFiles: 3,
+                        expectedRecords: 80_890, expectedUpstreamRecords: 8_675, label: "WoRMS Crustacea")
                 }
                 let expectedIds = packageId == "crustaceans-insects"
                     ? ["itis-insecta-tsn-crosswalk", "itis-crustacea-tsn-crosswalk", "itis-myriapoda-tsn-crosswalk", "itis-collembola-protura-tsn-crosswalk"]

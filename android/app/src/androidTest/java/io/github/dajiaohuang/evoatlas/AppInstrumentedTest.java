@@ -217,9 +217,11 @@ public class AppInstrumentedTest {
             } else if (packageId.equals("crustaceans-insects") || packageId.equals("trilobites-chelicerates")) {
                 JSONArray collections = pack.getJSONArray("nomenclatureCollections");
                 if (packageId.equals("crustaceans-insects")) {
-                    assertEquals(5, collections.length());
+                    assertEquals(6, collections.length());
                     verifyAuthorityArchiveCollection(context, files, findCollection(collections, "osf-orthoptera-archive-crosswalk"),
                             11, 1, 30859, 53, "OSF Orthoptera");
+                    verifyAuthorityArchiveCollection(context, files, findCollection(collections, "worms-crustacea-archive-crosswalk"),
+                            30, 3, 80890, 8675, "WoRMS Crustacea");
                 }
                 String[] expectedIds = packageId.equals("crustaceans-insects")
                         ? new String[]{"itis-insecta-tsn-crosswalk", "itis-crustacea-tsn-crosswalk", "itis-myriapoda-tsn-crosswalk", "itis-collembola-protura-tsn-crosswalk"}
