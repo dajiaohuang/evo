@@ -1,6 +1,6 @@
 import { act, fireEvent, render, screen } from '@testing-library/react'
 import { afterEach, describe, expect, it, vi } from 'vitest'
-import { MyriapodaItisEvidence } from './MyriapodaItisEvidence'
+import { MyriapodaItisEvidence, PackageItisEvidence } from './MyriapodaItisEvidence'
 import { loadPackageItisAuthorityRecord, loadPackageManifest } from '../../data-client/staticDataClient'
 import type { RuntimeItisNomenclatureCollection } from '../../data-client/types'
 
@@ -175,5 +175,24 @@ describe('Myriapoda ITIS evidence disclosure', () => {
     expect(render(<MyriapodaItisEvidence colId="X" packageId="other-animals" lineageIds={['93']} zh />).container.querySelector('details')).toBeNull()
     expect(render(<MyriapodaItisEvidence colId="X" packageId="crustaceans-insects" lineageIds={['H6']} zh />).container.querySelector('details')).toBeNull()
     expect(render(<MyriapodaItisEvidence colId="P55BK" packageId="crustaceans-insects" lineageIds={['L2G4H', 'L25JL']} zh />).container.querySelector('details')).toBeNull()
+  })
+
+  it('routes the Chondrichthyes root to its own ITIS collection', async () => {
+    const chondrichthyes = { ...collection, id: 'itis-chondrichthyes-tsn-crosswalk' as const, packageId: 'chondrichthyes' }
+    loadMetadata.mockResolvedValue(manifestFor(chondrichthyes))
+    const { container } = render(<PackageItisEvidence scope="chondrichthyes" colId="8X6G5" packageId="chondrichthyes" lineageIds={['8X6G5']} zh={false} />)
+    openDetails(container)
+    await screen.findByText('ITIS Chondrichthyes exact nomenclatural mapping')
+    expect(loadMetadata).toHaveBeenCalledWith('chondrichthyes')
+  })
+
+  it('routes Chelicerata and excludes the TRL Trilobita root', async () => {
+    const chelicerata = { ...collection, id: 'itis-chelicerata-tsn-crosswalk' as const, packageId: 'trilobites-chelicerates' }
+    loadMetadata.mockResolvedValue(manifestFor(chelicerata))
+    const included = render(<PackageItisEvidence scope="chelicerata" colId="KZWYC" packageId="trilobites-chelicerates" lineageIds={['KZWYC']} zh={false} />)
+    openDetails(included.container)
+    await screen.findByText('ITIS Chelicerata exact nomenclatural mapping')
+    expect(loadMetadata).toHaveBeenCalledWith('trilobites-chelicerates')
+    expect(render(<PackageItisEvidence scope="chelicerata" colId="TRL" packageId="trilobites-chelicerates" lineageIds={['KZWYC', 'TRL']} zh={false} />).container.querySelector('details')).toBeNull()
   })
 })
