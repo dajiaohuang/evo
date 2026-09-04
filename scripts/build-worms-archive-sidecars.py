@@ -20,8 +20,12 @@ SPECS = {
     'porifera': ('sponges-cnidarians', 'B8TXQ', '558', 'Porifera', 9899),
     'cnidaria': ('sponges-cnidarians', 'CN2', '1267', 'Cnidaria', 20622),
     'annelida': ('other-animals', 'NN', '882', 'Annelida', 18982),
+    'nematoda': ('other-animals', 'NM', '799', 'Nematoda', 19604),
+    'crustacea': ('crustaceans-insects', 'KZX8B', '1066', 'Crustacea', 80890),
 }
-LEGACY_SPECS = {key: spec for key, spec in SPECS.items() if key != 'annelida'}
+LEGACY_SPECS = {key: spec for key, spec in SPECS.items() if key not in {'annelida', 'nematoda', 'crustacea'}}
+RESOURCE_PACK_SCOPES = {'annelida', 'nematoda'}
+ARTHROPODA_SCOPES = {'crustacea'}
 LIMIT = 2 * 1024 * 1024
 
 
@@ -115,6 +119,20 @@ def chunks(rows):
         used += size
     if current:
         yield current
+
+
+def output_directory(key, package):
+    if key in RESOURCE_PACK_SCOPES:
+        return ROOT / 'data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals'
+    if key in ARTHROPODA_SCOPES:
+        return ROOT / f'data/packages/arthropoda/{package}/nomenclature'
+    return ROOT / f'data/packages/invertebrata/{package}/nomenclature'
+
+
+def ledger_relative_path(scope):
+    return (f'data/sources/worms-{scope}-archive-2011-import-ledger.json'
+            if scope in RESOURCE_PACK_SCOPES | ARTHROPODA_SCOPES
+            else 'data/sources/worms-archive-2011-import-ledger.json')
 
 
 def write_shards(directory, prefix, records, source_only):
@@ -213,7 +231,8 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--archive', type=Path, required=True)
     parser.add_argument('--acquisition', type=Path, required=True)
-    parser.add_argument('--scope', choices=['annelida'], help='Generate Annelida separately; omission preserves the three RC105 scopes.')
+    parser.add_argument('--scope', choices=sorted(RESOURCE_PACK_SCOPES | ARTHROPODA_SCOPES),
+                        help='Generate one additional scope separately; omission preserves the three RC105 scopes.')
     args = parser.parse_args()
     with args.archive.open('rb') as stream:
         archive_identity = stream_digest(stream)
@@ -236,8 +255,7 @@ def main():
               'archiveUrl': ARCHIVE_URL, 'archiveBytes': ARCHIVE_BYTES, 'archiveSha256': ARCHIVE_SHA,
               'attempt': 148, 'version': metadata['version'], 'versionDoi': metadata['versionDoi'],
               'retrievedAt': acquisition['retrievedAt'], 'immutableUrlClaimed': False, 'members': members}
-    ledger_path = ('data/sources/worms-annelida-archive-2011-import-ledger.json'
-                   if args.scope == 'annelida' else 'data/sources/worms-archive-2011-import-ledger.json')
+    ledger_path = ledger_relative_path(args.scope) if args.scope else 'data/sources/worms-archive-2011-import-ledger.json'
     ledger = {'schemaVersion': 1, 'importType': 'COL26.8-to-WoRMS-2011-archive-authority-sidecars',
               'source': source, 'metadataSha256': digest(metadata_bytes),
               'registryManifestSha256': col_manifest_sha,
@@ -265,11 +283,10 @@ def main():
                      'sourceRows': [{'member': 'taxon.txt', 'row': row['_ordinal']}]}
                     for tid, row in sorted(accepted.items()) if tid not in implicated]
         prefix = f'worms-{key}'
-        directory = (ROOT / 'data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals'
-                     if key == 'annelida' else ROOT / f'data/packages/invertebrata/{package}/nomenclature')
+        directory = output_directory(key, package)
         directory.mkdir(parents=True, exist_ok=True)
         files, upstream_files = write_shards(directory, prefix, records, upstream)
-        if key == 'annelida':
+        if key in RESOURCE_PACK_SCOPES:
             for item in files + upstream_files:
                 item['path'] = item['path'].replace('nomenclature/', 'other-animals/')
         descriptor = {'schemaVersion': 1, 'recordType': 'release-pinned-authority-archive-crosswalk',
