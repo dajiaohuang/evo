@@ -1,5 +1,12 @@
 # Dataset changelog
 
+## 2026.09-static-v5-rc118 — 2026-09-05
+
+- Added frozen original-source projections for 3,000 Ascidiacea, 6,508 Turbellaria-source and 2,467 Rotifer World Catalogue COL records: 11,960 exact accepted-name matches, 15 unmatched and 30 separately retained source-only concepts. No globally new species or species-concept equivalence is claimed; the 2,183,133-species COL baseline is unchanged.
+- Corrected source scope before publication: the Ascidiacea projection excludes 146 other Tunicata records, while the Turbellaria source projection includes 39 source-owned species outside its originally selected subphylum roots. Turbellaria is the source's traditional grouping, not a claim of modern monophyly.
+- All 14 new compressed row files (2,152,610 bytes) remain within 2 MiB uncompressed per file. Full-data delivery includes every row; Pages retains summaries only. Original citations and row locators remain outside the resident tree.
+- Added no compatibility layer or content-validation framework. Fixed isolated output roots, pinned source-script line endings for cross-platform ledgers, and extended existing replay/native inventory tests. App version, native build number, storage allowances and human review status are unchanged. See [scope and reproduction](../docs/original-sources-rc118.md).
+
 ## 2026.09-static-v5-rc117 — 2026-09-05
 
 - Added original WoRMS source archives and exact projections for 20,367 Bryozoa, 5,852 Monogenea and 12,007 Trematoda COL species records. Outcomes are 38,111 accepted-name matches, six explicit Bryozoa synonym redirects and 109 unmatched records. These are source-traceability improvements, not new biological dossiers or independent scientific corroboration.

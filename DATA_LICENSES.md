@@ -1,5 +1,11 @@
 # Data licenses and provenance
 
+RC118 retains the original CC BY 4.0 Ascidiacea (1186), Turbellaria (1193) and
+Rotifer World Catalogue (298081) archives and metadata. Source-specific pinned
+hashes, dates, attribution and evidence boundaries are documented in
+[the source note](docs/original-sources-rc118.md). These are original-source
+projections, not independent expert corroboration or globally new species.
+
 RC117 retains the original September 1, 2026 WoRMS ColDP archives for *World List of Bryozoa* (ChecklistBank 1081, DOI `10.48580/d3bb.v89`), *World List of Monogenea* (1126, DOI `10.48580/d3cv.v86`) and *World List of Trematoda* (1128, DOI `10.48580/d3cx.v86`), under CC BY 4.0. The source metadata and `metadata.yml` retain the original editors, contributors and attribution. Exact archive/member hashes and projected reference metadata are retained in `data/sources/`; referenced publications, linked web pages and remote media are not copied. Derived rows retain the separate COL26.8 attribution (DOI `10.48580/dgywk`, CC BY 4.0). Neither matching nor redistribution implies provider endorsement or independent scientific corroboration. See [scope and reproduction](docs/worms-original-sources-rc117.md).
 
 RC116 also retains the small set of official ChecklistBank COL26.8 name records,

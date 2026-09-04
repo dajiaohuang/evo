@@ -546,7 +546,13 @@ public class AppInstrumentedTest {
                 assertEquals(158805, itisRecords);
             } else if (packageId.equals("other-animals")) {
                 JSONArray extensions = pack.getJSONArray("extensions");
-                assertEquals(33, extensions.length());
+                assertEquals(36, extensions.length());
+                verifyAuthorityArchiveCollection(context, files, findCollection(extensions, "worms-ascidiacea-archive-crosswalk"),
+                        6, 0, 3000, 0, "Ascidiacea");
+                verifyAuthorityArchiveCollection(context, files, findCollection(extensions, "worms-turbellaria-archive-crosswalk"),
+                        6, 1, 6508, 30, "Turbellaria");
+                verifyAuthorityArchiveCollection(context, files, findCollection(extensions, "rotifera-298081-archive-crosswalk"),
+                        1, 0, 2467, 0, "Rotifer World Catalogue");
                 verifyAuthorityArchiveCollection(context, files, findCollection(extensions, "worms-bryozoa-archive-crosswalk"),
                         29, 1, 20367, 216, "WoRMS Bryozoa");
                 verifyAuthorityArchiveCollection(context, files, findCollection(extensions, "worms-monogenea-archive-crosswalk"),

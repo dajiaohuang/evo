@@ -350,7 +350,7 @@ const expectedOtherAnimalAuthorities = {
   'itis-nematoda-tsn-crosswalk': { files: 4, records: 20849 },
   'itis-annelida-tsn-crosswalk': { files: 4, records: 24074 },
 }
-if (otherAnimalsManifest.extensions?.length !== Object.keys(expectedOtherAnimalAuthorities).length + 5) {
+if (otherAnimalsManifest.extensions?.length !== Object.keys(expectedOtherAnimalAuthorities).length + 8) {
   throw new Error('Mobile build must stage every declared other-animals ITIS and WoRMS authority collection')
 }
 const annelidaArchive = otherAnimalsManifest.extensions.find((extension) => extension.id === 'worms-annelida-archive-crosswalk')
