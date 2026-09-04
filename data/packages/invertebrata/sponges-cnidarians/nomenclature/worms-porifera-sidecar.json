@@ -1,0 +1,125 @@
+{
+  "schemaVersion": 1,
+  "recordType": "release-pinned-authority-archive-crosswalk",
+  "id": "worms-porifera-archive-crosswalk",
+  "packageId": "sponges-cnidarians",
+  "provider": "World Register of Marine Species via ChecklistBank",
+  "rowEncoding": "json",
+  "colIdField": "colId",
+  "totalCountField": "total",
+  "source": {
+    "provider": "World Register of Marine Species via ChecklistBank",
+    "license": "CC-BY-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "rightsHolder": "WoRMS Editorial Board",
+    "archiveUrl": "https://api.checklistbank.org/dataset/2011/archive",
+    "archiveBytes": 342751141,
+    "archiveSha256": "8419d301b08e1f119557ead2222d7efd8f01a3f3ca3b6c9ff1edd062bfa312c6",
+    "attempt": 148,
+    "version": "2026-09-01",
+    "versionDoi": "10.48580/d4fd.v148",
+    "retrievedAt": "2026-09-04T03:49:48.539Z",
+    "immutableUrlClaimed": false,
+    "members": {
+      "taxon.txt": {
+        "bytes": 1280833469,
+        "sha256": "965c04a301ac98eed017d37ba78ec541b6e530f76d75ac729f429991c8e584ee",
+        "rows": 1565652,
+        "rowConvention": "one-based logical TSV record ordinal including header; first data record is 2"
+      },
+      "meta.xml": {
+        "bytes": 6844,
+        "sha256": "1f9a6c73256ad4832e70146c35e2d75e885bb598edfcd0cee273c3a37fcf50a6"
+      },
+      "eml.xml": {
+        "bytes": 10948,
+        "sha256": "bb3504da29a78970d7bdee0289fa1e7b9ca568870c204af4eb307d228a0ae950"
+      }
+    },
+    "sourceLedgerPath": "data/sources/worms-archive-2011-import-ledger.json",
+    "sourceLedgerSha256": "dc546f1da6ac2cafbe7207ffbf2be33aa0190daf4d211f262122b49543155d57"
+  },
+  "scope": {
+    "colRootUsageId": "B8TXQ",
+    "wormsRootId": "558",
+    "scientificName": "Porifera",
+    "eligibleColSpecies": 9899,
+    "packageStrictAcceptedSpecies": 30521,
+    "excludedPackageRemainder": 20622
+  },
+  "matching": {
+    "normalization": "Remove only exact trailing COL space+authorship suffix, then normalize whitespace for comparison; preserve source fields unchanged.",
+    "redirect": "Explicit acceptedNameUsageID to accepted Species target inside the same source root; invalid or mixed targets withheld.",
+    "prohibited": "No fuzzy, case-folded, accent-folded, inferred or species-concept matching."
+  },
+  "counts": {
+    "total": 9899,
+    "accepted": 9872,
+    "redirect": 5,
+    "ambiguous": 0,
+    "unmatched": 22,
+    "withheld": 0,
+    "upstreamOnly": 60
+  },
+  "files": [
+    {
+      "path": "nomenclature/worms-porifera-000.json.gz",
+      "records": 2690,
+      "bytes": 127618,
+      "sha256": "521ff2fcaa2983e404a06eb79ec254fd1624f6a1d4b16740542b0c6fdd1e3585",
+      "sourceBytes": 2096892,
+      "sourceSha256": "31767d01a0968883367df571d8dd90a5ba639010d310740619630e0c756d2369",
+      "minColId": "32N29",
+      "maxColId": "4GR97"
+    },
+    {
+      "path": "nomenclature/worms-porifera-001.json.gz",
+      "records": 2703,
+      "bytes": 135755,
+      "sha256": "5ad06fe83e28fa7971cc136f2a909e58a5ba383588987620665374e92d7e6a7d",
+      "sourceBytes": 2096337,
+      "sourceSha256": "b68ac18ae5c7edf8047ee8e728020613ede78e77e0486dac4bbce6e5ae35ac41",
+      "minColId": "4GR98",
+      "maxColId": "6JZWZ"
+    },
+    {
+      "path": "nomenclature/worms-porifera-002.json.gz",
+      "records": 2659,
+      "bytes": 137138,
+      "sha256": "faeb01002503990d468c7658e4b725f5ea0f1512d58629132abc1e0242a3baa0",
+      "sourceBytes": 2096355,
+      "sourceSha256": "bb6f42f8eaef3f3f378833a32dbc89bd0371f402c11aa0d052e29eefb1b72dde",
+      "minColId": "6JZX5",
+      "maxColId": "B8RP6"
+    },
+    {
+      "path": "nomenclature/worms-porifera-003.json.gz",
+      "records": 1847,
+      "bytes": 92281,
+      "sha256": "108e7f710c9b937e0d03f5fe4207cecb416b47231268de25ad2a80efe72852f0",
+      "sourceBytes": 1466935,
+      "sourceSha256": "e1fa37ff47e135f1af2e144a3685e1398c66bd12888a4f4eead24913a4d521f9",
+      "minColId": "B8RP7",
+      "maxColId": "ZFQT"
+    }
+  ],
+  "upstreamOnlyFiles": [
+    {
+      "path": "nomenclature/worms-porifera-upstream-only-000.json.gz",
+      "records": 60,
+      "bytes": 2429,
+      "sha256": "b1593741f4d278bb6315ee6ae0807a21e3feb01d5285536d1f28f978bce7d0fe",
+      "sourceBytes": 31286,
+      "sourceSha256": "2fff24719e425de24959bda46a83e650b5c78e3c8d2df40ca0065c648310da32"
+    }
+  ],
+  "evidenceBoundary": {
+    "en": "A frozen exact nomenclatural crosswalk; not species-concept equivalence, a biological dossier, fossil evidence or expert review.",
+    "zh": "冻结的严格命名交叉映射；不是物种概念等同性、生物档案、化石证据或专家审查。"
+  },
+  "limitations": [
+    "Source-only accepted concepts retain null COL ownership.",
+    "Only name/status/identifier projections are redistributed, not raw archives or ancillary members.",
+    "The parent-closure anomaly audit remains explicit; no completeness claim about all marine diversity."
+  ]
+}
