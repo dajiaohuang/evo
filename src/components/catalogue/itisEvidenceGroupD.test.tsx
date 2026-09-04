@@ -15,7 +15,9 @@ const fixtures = [
 ] as const
 
 function collection(id: RuntimeItisNomenclatureCollection['id'], packageId: string, completeRows: boolean): RuntimeItisNomenclatureCollection {
-  const file = { path: 'data/test/itis-tsn-sidecar-000.jsonl.gz', url: 'releases/test/itis-tsn-sidecar-000.jsonl.gz', records: 1, minColId: '000', maxColId: 'ZZZ', bytes: 1, sourceBytes: 1, sha256: 'fixture', sourceSha256: 'fixture', mediaType: 'application/x-ndjson' as const }
+  const file = packageId === 'amphibia'
+    ? { path: 'data/packages/vertebrata/amphibia/nomenclature/itis-tsn-sidecar-000.jsonl.gz', url: 'releases/rc113/packages/amphibia/nomenclature/itis-tsn-sidecar-000.jsonl.gz', records: 1320, minColId: '323CW', maxColId: '3TSLM', bytes: 47606, sourceBytes: 524210, sha256: '2835486f15e454aa1931ed27bc0887419870a8ce96feb86235b58d12016fe257', sourceSha256: '5e883293b6389a37f2640eb7ceb7dd9a48adac0e5d4471d81a58a8fa9f47a118', mediaType: 'application/x-ndjson' as const }
+    : { path: 'data/packages/arthropoda/crustaceans-insects/nomenclature/itis-collembola-protura-sidecar-0000.jsonl.gz', url: 'releases/rc113/packages/crustaceans-insects/nomenclature/itis-collembola-protura-sidecar-0000.jsonl.gz', records: 6821, minColId: '333WW', maxColId: '6XB8P', bytes: 191800, sourceBytes: 2097038, sha256: 'abedfed6be3cf3640071bbd3c09fb81fa8d6f012d87c8f74e20b31fe3a16e61f', sourceSha256: '1237928f34daafad36cc0a378ee88ab4626c169ede5ee6f9fe53bb6f7ea219da', mediaType: 'application/x-ndjson' as const }
   return {
     schemaVersion: 1, id, recordType: 'release-pinned-exact-nomenclatural-crosswalk', provider: 'Integrated Taxonomic Information System', packageId,
     source: { exportDate: '2026-08-26' }, matching: {}, counts: { total: 1, accepted: 1, synonymCurrentNameRedirect: 0, ambiguous: 0, unmatched: 0, itisUpstreamOnly: 0 },
