@@ -1,0 +1,165 @@
+{
+  "schemaVersion": 1,
+  "recordType": "release-pinned-authority-archive-crosswalk",
+  "id": "worms-nematoda-archive-crosswalk",
+  "packageId": "other-animals",
+  "provider": "World Register of Marine Species via ChecklistBank",
+  "rowEncoding": "json",
+  "colIdField": "colId",
+  "totalCountField": "total",
+  "source": {
+    "provider": "World Register of Marine Species via ChecklistBank",
+    "license": "CC-BY-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "rightsHolder": "WoRMS Editorial Board",
+    "archiveUrl": "https://api.checklistbank.org/dataset/2011/archive",
+    "archiveBytes": 342751141,
+    "archiveSha256": "8419d301b08e1f119557ead2222d7efd8f01a3f3ca3b6c9ff1edd062bfa312c6",
+    "attempt": 148,
+    "version": "2026-09-01",
+    "versionDoi": "10.48580/d4fd.v148",
+    "retrievedAt": "2026-09-04T03:49:48.539Z",
+    "immutableUrlClaimed": false,
+    "members": {
+      "taxon.txt": {
+        "bytes": 1280833469,
+        "sha256": "965c04a301ac98eed017d37ba78ec541b6e530f76d75ac729f429991c8e584ee",
+        "rows": 1565652,
+        "rowConvention": "one-based logical TSV record ordinal including header; first data record is 2"
+      },
+      "meta.xml": {
+        "bytes": 6844,
+        "sha256": "1f9a6c73256ad4832e70146c35e2d75e885bb598edfcd0cee273c3a37fcf50a6"
+      },
+      "eml.xml": {
+        "bytes": 10948,
+        "sha256": "bb3504da29a78970d7bdee0289fa1e7b9ca568870c204af4eb307d228a0ae950"
+      }
+    },
+    "sourceLedgerPath": "data/sources/worms-nematoda-archive-2011-import-ledger.json",
+    "sourceLedgerSha256": "ec1f65e24c7d63df268df98a57caee72a7eecc96fb66ae91cf6cac21f4fd1977"
+  },
+  "scope": {
+    "colRootUsageId": "NM",
+    "wormsRootId": "799",
+    "scientificName": "Nematoda",
+    "eligibleColSpecies": 19604,
+    "packageStrictAcceptedSpecies": 99161,
+    "excludedPackageRemainder": 79557
+  },
+  "matching": {
+    "normalization": "Remove only exact trailing COL space+authorship suffix, then normalize whitespace for comparison; preserve source fields unchanged.",
+    "redirect": "Explicit acceptedNameUsageID to accepted Species target inside the same source root; invalid or mixed targets withheld.",
+    "prohibited": "No fuzzy, case-folded, accent-folded, inferred or species-concept matching."
+  },
+  "counts": {
+    "total": 19604,
+    "accepted": 19525,
+    "redirect": 1,
+    "ambiguous": 4,
+    "unmatched": 72,
+    "withheld": 2,
+    "upstreamOnly": 2104
+  },
+  "files": [
+    {
+      "path": "other-animals/worms-nematoda-000.json.gz",
+      "records": 2675,
+      "bytes": 132314,
+      "sha256": "ab86937ca065ea94bf1df6e15080257dd1a8c7cf9334ec89e631f57f57d308e6",
+      "sourceBytes": 2096688,
+      "sourceSha256": "e6ceee896039e9683f4531f82f2754d8099b6d27dab041d5c4c51be9f547bd6f",
+      "minColId": "87LKG",
+      "maxColId": "8G3TH"
+    },
+    {
+      "path": "other-animals/worms-nematoda-001.json.gz",
+      "records": 2636,
+      "bytes": 132922,
+      "sha256": "8af22bb567c257d94d8d20eca622adf9297ed76fe4bfc8604faab65522aac3b4",
+      "sourceBytes": 2096716,
+      "sourceSha256": "fbd0148f42e342cec900b89bdca3c68101c66b2806c38e0892e127343768e6a3",
+      "minColId": "8G3TL",
+      "maxColId": "8GBDX"
+    },
+    {
+      "path": "other-animals/worms-nematoda-002.json.gz",
+      "records": 2618,
+      "bytes": 134966,
+      "sha256": "915211e0dd08ab4f79219cc31af2ac7088161c300ef8d3953067b6eea82ebc9a",
+      "sourceBytes": 2096875,
+      "sourceSha256": "f1ca145bdce07c14be1ceee03e97f5c71244a5513c573bb584025ab5d927c407",
+      "minColId": "8GBF2",
+      "maxColId": "8GJ3M"
+    },
+    {
+      "path": "other-animals/worms-nematoda-003.json.gz",
+      "records": 2596,
+      "bytes": 141477,
+      "sha256": "1f015b70d8aeac1144e029c17c5e048c48b78d9f56007109fe6e00112bbc9e0b",
+      "sourceBytes": 2096409,
+      "sourceSha256": "df6fdd54346c1dc38bafdedf1cd9a9493c8db0c0374d2235b940a57a2d562f19",
+      "minColId": "8GJ3P",
+      "maxColId": "8GWYD"
+    },
+    {
+      "path": "other-animals/worms-nematoda-004.json.gz",
+      "records": 2546,
+      "bytes": 146579,
+      "sha256": "1984a69cc5857d24eeff735478be804f530f77de3fcbc53bedb25fb85baf8568",
+      "sourceBytes": 2096487,
+      "sourceSha256": "3e8e17c2f3192efa83b572af92659c524825885cc97651b660443e43ccc45882",
+      "minColId": "8GWYG",
+      "maxColId": "99Z47"
+    },
+    {
+      "path": "other-animals/worms-nematoda-005.json.gz",
+      "records": 2572,
+      "bytes": 151197,
+      "sha256": "b61d5274af47e374fd534b3c9243763db9c38daa8cebc5b1199ca1a93ac9ab7e",
+      "sourceBytes": 2096502,
+      "sourceSha256": "4804b4634116520ff52a69f2e9322a4c4901453ee0b75883e8e93869c1861dc0",
+      "minColId": "99Z48",
+      "maxColId": "B8Q3K"
+    },
+    {
+      "path": "other-animals/worms-nematoda-006.json.gz",
+      "records": 2595,
+      "bytes": 139901,
+      "sha256": "777b841137a0b26b895816f6fe3ddd3dc080ad8b43557cbe91d0972e37d1de3e",
+      "sourceBytes": 2096383,
+      "sourceSha256": "c1ba68be18989312ae2fa8ec9159cfa0ee49d23ced632e09087f59dfbd1ac450",
+      "minColId": "B8Q3L",
+      "maxColId": "CHH35"
+    },
+    {
+      "path": "other-animals/worms-nematoda-007.json.gz",
+      "records": 1366,
+      "bytes": 75024,
+      "sha256": "0a0ea2ae609efab17cf44b210a71afc73f3cf616614040f6a42c34583ce6ab28",
+      "sourceBytes": 1115654,
+      "sourceSha256": "2553e64b19cfdaf315875cc1b8a1ed82e6de6eba62f92959c5d0ce9cb2ff628e",
+      "minColId": "CHH36",
+      "maxColId": "VQ9VL"
+    }
+  ],
+  "upstreamOnlyFiles": [
+    {
+      "path": "other-animals/worms-nematoda-upstream-only-000.json.gz",
+      "records": 2104,
+      "bytes": 70837,
+      "sha256": "a2781df8b23ca67bf95436aa1ddb1697b7c827cecb404806653a32c8f003fba1",
+      "sourceBytes": 1103855,
+      "sourceSha256": "3c6b960f85f7e6a82e96a2781d45765b7ad58e042971f1aa47655a25558bf349"
+    }
+  ],
+  "evidenceBoundary": {
+    "en": "A frozen exact nomenclatural crosswalk; not species-concept equivalence, a biological dossier, fossil evidence or expert review.",
+    "zh": "冻结的严格命名交叉映射；不是物种概念等同性、生物档案、化石证据或专家审查。"
+  },
+  "limitations": [
+    "Source-only accepted concepts retain null COL ownership.",
+    "Only name/status/identifier projections are redistributed, not raw archives or ancillary members.",
+    "The parent-closure anomaly audit remains explicit; no completeness claim about all marine diversity."
+  ]
+}
