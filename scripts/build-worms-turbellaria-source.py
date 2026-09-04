@@ -1,4 +1,4 @@
-"""Project the pinned WoRMS Trematoda ColDP archive into a COL-scoped sidecar."""
+"""Project the pinned WoRMS Turbellaria ColDP archive into a COL-scoped sidecar."""
 import argparse, csv, hashlib, io, json, unicodedata, zipfile
 from pathlib import Path
 
@@ -192,7 +192,7 @@ def project(archive, output_root=None):
                              'licenseUrl': 'https://creativecommons.org/licenses/by/4.0/',
                              'rightsHolder': 'WoRMS Editorial Board', 'archiveUrl': 'https://api.checklistbank.org/dataset/1193/archive',
                              'archiveBytes': len(raw), 'archiveSha256': digest(raw), 'members': members},
-                  'scope': {'colRootUsageIds': list(COL_ROOTS), 'wormsRootId': '2', 'scientificName': 'Turbellaria',
+                  'scope': {'colRootUsageIds': list(COL_ROOTS), 'scientificName': 'Turbellaria',
                             'eligibleColSpecies': len(col), 'sourceAcceptedSpecies': len(source),
                             'excludedSourceProvisional': provisional_count},
                   'matching': {'normalization': 'NFC and whitespace normalization only; COL trailing authorship is removed exactly.',
@@ -204,11 +204,16 @@ def project(archive, output_root=None):
                   'limitations': ['Source-only rows are relative only to COL source dataset 1193.', 'Name.status is nomenclatural metadata and is not used as taxonomic acceptance.', 'Synonym.taxonID targets do not remove accepted Taxon rows.'],
                   'totalCompressedBytes': sum(x['bytes'] for x in col_files + source_files),
                   'totalSourceBytes': sum(x['sourceBytes'] for x in col_files + source_files),
-                  'deliveryProfiles': {'web-light': {'mode': 'summary-only'}, 'native-full': {'mode': 'complete'}}}
+                  'deliveryProfiles': {'web-light': {'mode': 'summary-only', 'records': 0, 'files': 0,
+                                                      'totalCompressedBytes': 0, 'totalSourceBytes': 0},
+                                       'native-full': {'mode': 'complete', 'records': len(all_rows),
+                                                       'files': len(col_files) + len(source_files),
+                                                       'totalCompressedBytes': sum(x['bytes'] for x in col_files + source_files),
+                                                       'totalSourceBytes': sum(x['sourceBytes'] for x in col_files + source_files)}}}
     descriptor_path = destination / 'worms-turbellaria-sidecar.json'; descriptor_path.write_bytes(dump(descriptor, True))
     ledger = {'schemaVersion': 1, 'importType': 'COL26.8-to-WoRMS-1193-archive-projection',
               'source': descriptor['source'], 'registryManifestSha256': col_sha, 'registryInputs': col_inputs,
-              'generatedBy': {'script': 'scripts/build-worms-trematoda-source.py', 'scriptSha256': digest(Path(__file__).read_bytes())},
+              'generatedBy': {'script': 'scripts/build-worms-turbellaria-source.py', 'scriptSha256': digest(Path(__file__).read_bytes())},
               'outputs': {'files': descriptor['files'], 'upstreamOnlyFiles': descriptor['upstreamOnlyFiles']},
               'scopeAudit': {'colRootUsageIds': list(COL_ROOTS), 'colSpecies': len(col), 'sourceAcceptedSpecies': len(source),
                              'sourceProvisionalExcluded': provisional_count, 'upstreamOnly': len(upstream), 'parsedSynonymRows': synonym_count,
