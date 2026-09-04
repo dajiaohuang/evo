@@ -32,6 +32,8 @@ class GastrotrichaProjectionTests(unittest.TestCase):
             self.assertEqual(len(source_only), descriptor['counts']['upstreamOnly'])
             self.assertEqual(descriptor['source']['archiveSha256'], mod.ARCHIVE_SHA)
             self.assertEqual(descriptor['source']['archiveBytes'], mod.ARCHIVE_BYTES)
+            self.assertEqual(descriptor['rowEncoding'], 'json')
+            self.assertTrue(all(p['mediaType'] == 'application/json' for p in descriptor['files'] + descriptor['upstreamOnlyFiles']))
             self.assertTrue(all(p['sourceBytes'] <= mod.SHARD_LIMIT for p in descriptor['files'] + descriptor['upstreamOnlyFiles']))
             self.assertEqual(sum(p['records'] for p in descriptor['files']), descriptor['counts']['total'])
             self.assertEqual(sum(p['records'] for p in descriptor['upstreamOnlyFiles']), descriptor['counts']['upstreamOnly'])

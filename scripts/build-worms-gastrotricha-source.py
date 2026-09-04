@@ -18,6 +18,10 @@ def digest(data):
     return hashlib.sha256(data).hexdigest()
 
 
+def script_digest(path):
+    return digest(path.read_bytes().replace(b'\r\n', b'\n'))
+
+
 def dump(obj, pretty=False):
     return (json.dumps(obj, ensure_ascii=False, indent=2 if pretty else None,
                        separators=None if pretty else (',', ':')) + '\n').encode('utf-8')
@@ -175,7 +179,7 @@ def project(archive, output_root=None):
             (destination / name).write_bytes(compressed)
             item = {'path': f'other-animals/{name}', 'records': len(part), 'bytes': len(compressed),
                     'sha256': digest(compressed), 'sourceBytes': len(payload), 'sourceSha256': digest(payload),
-                    'encoding': 'gzip', 'mediaType': 'application/x-ndjson', 'role': role}
+                    'encoding': 'gzip', 'mediaType': 'application/json', 'role': role}
             if part and role == 'col-partition':
                 item.update(minColId=part[0].get('colId'), maxColId=part[-1].get('colId'))
             items.append(item)
@@ -216,7 +220,7 @@ def project(archive, output_root=None):
     descriptor_bytes = dump(descriptor, True); descriptor_path.write_bytes(descriptor_bytes)
     ledger = {'schemaVersion': 1, 'importType': 'COL26.8-to-WoRMS-1122-archive-projection',
               'source': descriptor['source'], 'registryManifestSha256': col_sha, 'registryInputs': col_inputs,
-              'generatedBy': {'script': 'scripts/build-worms-gastrotricha-source.py', 'scriptSha256': digest(Path(__file__).read_bytes())},
+              'generatedBy': {'script': 'scripts/build-worms-gastrotricha-source.py', 'scriptSha256': script_digest(Path(__file__)), 'hashNormalization': 'LF'},
               'outputs': {'descriptor': {'path': 'data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals/worms-gastrotricha-sidecar.json', 'bytes': len(descriptor_bytes), 'sha256': digest(descriptor_bytes)},
                           'files': descriptor['files'], 'upstreamOnlyFiles': descriptor['upstreamOnlyFiles']},
               'scopeAudit': {'colRootUsageIds': list(COL_ROOTS), 'colSpecies': len(col), 'sourceAcceptedSpecies': len(source),
