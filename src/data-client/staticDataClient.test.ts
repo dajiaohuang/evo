@@ -590,7 +590,6 @@ describe('static runtime release coherence', () => {
     ['molluscs-brachiopods', 'worms-mollusca-archive-crosswalk'],
     ['sponges-cnidarians', 'worms-porifera-archive-crosswalk'],
     ['sponges-cnidarians', 'worms-cnidaria-archive-crosswalk'],
-    ['other-animals', 'worms-annelida-archive-crosswalk'],
     ['crustaceans-insects', 'osf-orthoptera-archive-crosswalk'],
   ] as const)('loads only the selected %s / %s archive range and no row files on Web', async (packageId, collectionId) => {
     Object.defineProperty(globalThis, 'Worker', { configurable: true, value: undefined })
@@ -1067,6 +1066,22 @@ describe('static runtime release coherence', () => {
     await expect(client.loadPackageAuthorityArchiveRecord('other-animals', 'worms-annelida-archive-crosswalk', 'NN001')).resolves.toMatchObject({ record: rows[0] })
     expect((globalThis.fetch as ReturnType<typeof vi.fn>).mock.calls.filter(([input]) => String(input).includes('worms-annelida-sidecar'))).toHaveLength(1)
     await expect(client.loadPackageAuthorityArchiveSourceOnly('other-animals', 'worms-annelida-archive-crosswalk', 0)).resolves.toEqual(sourceOnlyRows)
+
+    vi.resetModules()
+    const webExtension = { ...extension, files: [], upstreamOnlyFiles: [], delivery: { profile: 'web-light', completeRows: false, publishedFileCount: 0, canonicalFileCount: 2 } }
+    const webPack = { ...packManifest, extensions: [webExtension] }
+    const webPackFile = { ...packFile, sha256: await sha256(webPack) }
+    const webCatalogue = { ...catalogueManifest, resourcePacks: { manifests: { 'other-animals': webPackFile } } }
+    const webCatalogueFile = { ...catalogueFile, sha256: await sha256(webCatalogue) }
+    vi.stubGlobal('fetch', vi.fn(async (input: RequestInfo | URL) => {
+      const url = String(input)
+      if (url.endsWith('/data/current.json')) return responseFor({ ...current, catalogue: { ...current.catalogue, manifest: webCatalogueFile } })
+      if (url.endsWith(webCatalogueFile.url)) return responseFor(webCatalogue)
+      return responseFor(webPack)
+    }))
+    const webClient = await import('./staticDataClient')
+    await expect(webClient.loadPackageAuthorityArchiveRecord('other-animals', 'worms-annelida-archive-crosswalk', 'NN001')).resolves.toMatchObject({ record: null, collection: { delivery: { completeRows: false } } })
+    await expect(webClient.loadPackageAuthorityArchiveSourceOnly('other-animals', 'worms-annelida-archive-crosswalk', 0)).rejects.toThrow('full Android/iOS data profile')
   })
 
   it('loads each typed package ITIS collection by one range shard and rejects the Web summary', async () => {

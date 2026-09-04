@@ -1188,6 +1188,7 @@ export interface CatalogueItisProtistsResourcePackExtension extends Omit<Catalog
 }
 
 export interface CatalogueAuthorityArchiveResourcePackExtension {
+  schemaVersion: 1
   id: AuthorityArchiveCollectionId
   recordType: 'release-pinned-authority-archive-crosswalk'
   provider: string
@@ -1199,6 +1200,7 @@ export interface CatalogueAuthorityArchiveResourcePackExtension {
   files: CatalogueResourcePackPayloadFile[]
   upstreamOnlyFiles: CatalogueResourcePackPayloadFile[]
   canonicalFileInventory: Array<CatalogueResourcePackPayloadFile & { role: 'col-partition' | 'upstream-only' }>
+  descriptorSha256: string
   totalCompressedBytes: number
   totalSourceBytes: number
   delivery: { profile: 'web-light' | 'native-full'; completeRows: boolean; publishedFileCount: number; canonicalFileCount: number }

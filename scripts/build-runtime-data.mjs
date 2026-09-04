@@ -1393,7 +1393,7 @@ for (const sourcePackDescriptor of catalogueResourcePacksSourceManifest.packs) {
       },
     }
   })
-  const runtimeExtensionFileCount = runtimeExtensions.reduce((sum, extension) => sum + extension.files.length, 0)
+  const runtimeExtensionFileCount = runtimeExtensions.reduce((sum, extension) => sum + extension.files.length + (extension.upstreamOnlyFiles?.length ?? 0), 0)
   const canonicalExtensionFileCount = runtimeExtensions.reduce((sum, extension) => sum + extension.delivery.canonicalFileCount, 0)
   if (runtimeExtensions.length !== (sourcePackDescriptor.extensionCount ?? 0)
     || canonicalExtensionFileCount !== (sourcePackDescriptor.extensionFileCount ?? 0)) {
