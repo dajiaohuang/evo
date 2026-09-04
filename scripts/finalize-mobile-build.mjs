@@ -405,6 +405,15 @@ if (!radiozoa || radiozoa.provider !== 'World Register of Marine Species via Che
   || radiozoaFiles.some((file) => !releaseFiles.files.some((entry) => entry.url === file.url && entry.bytes === file.bytes && entry.sha256 === file.sha256))) {
   throw new Error('Mobile build must stage every WoRMS Radiozoa COL and source-only archive shard')
 }
+const trichomycetes = protistsManifest.extensions?.find((extension) => extension.id === 'trichomycetes-archive-crosswalk')
+if (!trichomycetes || trichomycetes.source?.license !== 'CC-BY-4.0'
+  || trichomycetes.delivery?.profile !== 'native-full' || !trichomycetes.delivery.completeRows
+  || trichomycetes.files?.length !== 1 || trichomycetes.upstreamOnlyFiles?.length !== 0
+  || trichomycetes.counts?.total !== 96 || trichomycetes.counts?.accepted !== 96
+  || trichomycetes.counts?.upstreamOnly !== 0
+  || trichomycetes.files.some((file) => file.records !== 96 || !releaseFiles.files.some((entry) => entry.url === file.url && entry.bytes === file.bytes && entry.sha256 === file.sha256))) {
+  throw new Error('Mobile build must stage the complete Trichomycetes source1033 nomenclatural archive projection')
+}
 const expectedProtistAuthorities = {
   'itis-ciliophora-tsn-crosswalk': { files: 4, records: 8665 },
   'itis-apicomplexa-tsn-crosswalk': { files: 1, records: 21 },
@@ -432,7 +441,7 @@ const expectedProtistAuthorities = {
   'itis-katablepharidota-tsn-crosswalk': { files: 0, records: 0 },
   'itis-hemimastigophora-tsn-crosswalk': { files: 0, records: 0 },
 }
-if (protistsManifest.extensions?.length !== Object.keys(expectedProtistAuthorities).length + 2) {
+if (protistsManifest.extensions?.length !== Object.keys(expectedProtistAuthorities).length + 3) {
   throw new Error('Mobile build must stage every declared protists/chromists authority collection')
 }
 for (const [id, expected] of Object.entries(expectedProtistAuthorities)) {

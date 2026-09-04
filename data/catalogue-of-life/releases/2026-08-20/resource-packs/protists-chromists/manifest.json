@@ -4468,6 +4468,147 @@
           "totalSourceBytes": 370309
         }
       }
+    },
+    {
+      "schemaVersion": 1,
+      "recordType": "release-pinned-authority-archive-crosswalk",
+      "id": "trichomycetes-archive-crosswalk",
+      "packageId": "protists-chromists",
+      "provider": "Trichomycetes – Fungi Associated with Arthropods via ChecklistBank",
+      "rowEncoding": "json",
+      "colIdField": "colId",
+      "totalCountField": "total",
+      "source": {
+        "provider": "University of Kansas Trichomycetes database via Catalogue of Life ChecklistBank",
+        "license": "CC-BY-4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "archiveUrl": "https://api.checklistbank.org/dataset/1033/archive",
+        "archiveBytes": 38716,
+        "archiveSha256": "ad2f2a5e8b9feab455f73ac390be34908687f79fea4c858ade29e52a8acfc33e",
+        "archiveEncoding": "gzip-compressed tar (HTTP Content-Type application/zip)",
+        "version": "Oct 2017",
+        "versionDoi": "10.48580/d38n.v9",
+        "retrievedAt": "2026-09-04",
+        "members": {
+          "AcceptedSpecies.tsv": {
+            "bytes": 127410,
+            "sha256": "9da126ad47bcd7d0e65b7af57557080670f4da91665f2e12d0d73a32e16e16c8"
+          },
+          "NameReferences.tsv": {
+            "bytes": 12752,
+            "sha256": "0978f2b4ee21773915dcb72065e3241a89ea5af1ff5f3ffc1e5bad0d1cc2cf3d"
+          },
+          "References.tsv": {
+            "bytes": 65553,
+            "sha256": "111524fb2307cdac5ce9f072a2fb67336ea7b027ac397004b75f7577dfd045c7"
+          },
+          "SourceDatabase.tsv": {
+            "bytes": 1134,
+            "sha256": "627bcd69e5edab0dc0e763ce65c793f4215b9362dbd6261541128c63abf00f79"
+          }
+        },
+        "canonicalDescriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/trichomycetes-sidecar.json",
+        "canonicalDescriptorBytes": 3741,
+        "canonicalDescriptorSha256": "d7e40f539deb8f20f420f94dcaacc5cf4f5baebe26c8a5ed3288178419aa054a",
+        "sourceLedgerPath": "data/sources/trichomycetes-archive-import-ledger.json",
+        "sourceLedgerSha256": "eb87c8ab9fe1c88a3f275c4c5d132db05f4e4cdd0915239ddd287ef32639cfde"
+      },
+      "scope": {
+        "colSourceDatasetId": 1033,
+        "sourceKingdom": "Protozoa",
+        "sourcePhylum": "Choanozoa",
+        "sourceClass": "Ichthyosporea",
+        "eligibleColSpecies": 96,
+        "projectedSpecies": 96,
+        "excludedSourceFungiRows": 287,
+        "excludedOtherProtozoaRows": 2,
+        "excludedOtherProtozoaIds": [
+          "255335",
+          "254534"
+        ],
+        "matchingKey": "exact source scientific name + authorship"
+      },
+      "matching": {
+        "normalization": "Strict UTF-8 quoted TSV; whitespace-only name+authorship comparison.",
+        "prohibited": "No fuzzy or inferred matching."
+      },
+      "counts": {
+        "total": 96,
+        "accepted": 96,
+        "redirect": 0,
+        "ambiguous": 0,
+        "unmatched": 0,
+        "withheld": 0,
+        "upstreamOnly": 0,
+        "records": 96
+      },
+      "files": [
+        {
+          "path": "protists-chromists/trichomycetes-000.json.gz",
+          "records": 96,
+          "bytes": 11454,
+          "sha256": "2be9445a4a1fe2fccdbf3bf0d73817c84b6ba7e5c3870a33832617f45cb45ef2",
+          "sourceBytes": 131533,
+          "sourceSha256": "967ce6cbcfb997322d780f2e9d4846ad92772cba6df494f066f6cae0b853613a",
+          "minColId": "39XYC",
+          "maxColId": "J3RD",
+          "encoding": "gzip",
+          "mediaType": "application/json",
+          "role": "col-partition"
+        }
+      ],
+      "upstreamOnlyFiles": [],
+      "evidenceBoundary": {
+        "en": "Frozen source provenance, not independent scientific corroboration, species-concept equivalence, biological dossier, fossil evidence or expert review.",
+        "zh": "冻结的来源追溯，不是独立科学佐证、物种概念等同、生物档案、化石证据或专家审查。"
+      },
+      "limitations": [
+        "Only the 96 COL strict accepted source-1033 Ichthyosporea rows are projected; excluded rows are not upstream-only."
+      ],
+      "totalCompressedBytes": 11454,
+      "totalSourceBytes": 131533,
+      "deliveryProfiles": {
+        "web-light": {
+          "payload": "summary-only",
+          "files": [],
+          "records": 0,
+          "totalCompressedBytes": 0,
+          "totalSourceBytes": 0
+        },
+        "native-full": {
+          "payload": "complete",
+          "files": [
+            "protists-chromists/trichomycetes-000.json.gz"
+          ],
+          "records": 96,
+          "totalCompressedBytes": 11454,
+          "totalSourceBytes": 131533
+        }
+      },
+      "descriptorSha256": "d7e40f539deb8f20f420f94dcaacc5cf4f5baebe26c8a5ed3288178419aa054a",
+      "canonicalFileInventory": [
+        {
+          "path": "protists-chromists/trichomycetes-000.json.gz",
+          "records": 96,
+          "bytes": 11454,
+          "sha256": "2be9445a4a1fe2fccdbf3bf0d73817c84b6ba7e5c3870a33832617f45cb45ef2",
+          "sourceBytes": 131533,
+          "sourceSha256": "967ce6cbcfb997322d780f2e9d4846ad92772cba6df494f066f6cae0b853613a",
+          "minColId": "39XYC",
+          "maxColId": "J3RD",
+          "encoding": "gzip",
+          "mediaType": "application/json",
+          "role": "col-partition"
+        }
+      ],
+      "integration": {
+        "clientParityRequirement": "Both full Apps retain every declared file byte-for-byte; Pages publishes the source summary only.",
+        "lookup": {
+          "strategy": "lexicographic-colId-range-v1",
+          "ordering": "Unicode code-unit ascending",
+          "requestPolicy": "Read the sole inclusive COL-ID range, then require an exact colId record; a range is not evidence of species membership."
+        }
+      }
     }
   ]
 }

@@ -391,6 +391,7 @@ export type AuthorityArchiveCollectionId =
   | 'worms-crustacea-archive-crosswalk'
   | 'worms-radiozoa-archive-crosswalk'
   | 'osf-orthoptera-archive-crosswalk'
+  | 'trichomycetes-archive-crosswalk'
 
 export interface AuthorityArchiveName {
   id: string

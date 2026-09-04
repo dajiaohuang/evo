@@ -31,6 +31,18 @@
       }
     }
   },
+  "inputs": [
+    {
+      "path": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/species-000.jsonl.gz",
+      "bytes": 666110,
+      "sha256": "02aef7f0f72b0ae5a05f04b0f46ccc4ee0a45993bab4ddd84414188cc878f015"
+    },
+    {
+      "path": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/species-001.jsonl.gz",
+      "bytes": 564427,
+      "sha256": "6efd0ffb445696b1054673c532ad732157a5f1772c6e4b427e625d5b095a0c69"
+    }
+  ],
   "scopeAudit": {
     "method": "Exact name+authorship; source Kingdom Protozoa and Class Ichthyosporea",
     "archiveAcceptedSpeciesRows": 385,
@@ -47,9 +59,14 @@
   },
   "output": {
     "path": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/trichomycetes-000.json.gz",
-    "bytes": 10671,
-    "sha256": "db326ce95f2a10b0f64a4e65509869d50be87c40785ef1a52c6e5dd0dac53b51",
-    "sourceBytes": 122436,
-    "sourceSha256": "5877757849838a7e48aed7bec97877fe244838bc4c10c88d45712921f07df829"
+    "bytes": 11454,
+    "sha256": "2be9445a4a1fe2fccdbf3bf0d73817c84b6ba7e5c3870a33832617f45cb45ef2",
+    "sourceBytes": 131533,
+    "sourceSha256": "967ce6cbcfb997322d780f2e9d4846ad92772cba6df494f066f6cae0b853613a"
+  },
+  "descriptor": {
+    "path": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/trichomycetes-sidecar.json",
+    "bytes": 3741,
+    "sha256": "d7e40f539deb8f20f420f94dcaacc5cf4f5baebe26c8a5ed3288178419aa054a"
   }
 }
