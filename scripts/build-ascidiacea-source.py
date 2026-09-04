@@ -18,13 +18,24 @@ def bare(r):
     n, a = r.get('scientificName',''), r.get('authorship') or ''
     return n[:-len(a)-1] if a and n.endswith(' ' + a) else n
 def key(n, a): return (' '.join((n or '').split()), ' '.join((a or '').split()))
-def source_name(n, names, taxon=None):
+def source_name(n, names, taxon=None, refs=None, nr=None):
     out = {'id': n['ID'], 'scientificName': n.get('scientificName') or '',
            'authorship': n.get('authorship') or '', 'status': n.get('status') or ''}
     if taxon:
         out['taxonID'] = taxon['ID']
         out['url'] = taxon.get('link') or f"https://www.marinespecies.org/aphia.php?p=taxdetails&id={taxon['ID'].rsplit(':',1)[-1]}"
     else: out['url'] = n.get('link') or ''
+    refs = refs or {}; nr = nr or {}
+    ids = []
+    for value in (n.get('referenceID'), taxon.get('referenceID') if taxon else None):
+        if value and value not in ids: ids.append(value)
+    for row in nr.get(n['ID'], []):
+        if row.get('referenceID') and row['referenceID'] not in ids: ids.append(row['referenceID'])
+    out['referenceIds'] = ids
+    out['references'] = [refs[i] for i in ids if i in refs]
+    out['referenceRows'] = [{'member': 'Reference.txt', 'row': refs[i]['_row'], 'referenceID': i} for i in ids if i in refs]
+    out['referenceMissing'] = [i for i in ids if i not in refs]
+    out['nameReferenceRows'] = [{'member': 'NameReference.txt', 'row': row['_row'], 'nameID': n['ID'], 'referenceID': row.get('referenceID')} for row in nr.get(n['ID'], [])]
     return out
 def read_source(path):
     with zipfile.ZipFile(path) as z:
@@ -60,29 +71,27 @@ def read_source(path):
         if n and target and target['ID'] in strict:
             syn_by_name.setdefault(key(n.get('scientificName'), n.get('authorship')), []).append((s,n,target,names.get(target.get('nameID'))))
     return strict, byname, syn_by_name, names, refs, nr, len(species), len(species) - len(strict)
-def read_col():
-    mb = (REGISTRY/'manifest.json').read_bytes(); manifest=json.loads(mb)
-    paths=[REGISTRY/f['path'] for f in manifest['hierarchy']['nodes']['files']]
-    parents={}; nodes={}; rows={}; excluded={}
+def read_col(registry=REGISTRY):
+    mb = (registry/'manifest.json').read_bytes(); manifest=json.loads(mb)
+    paths=[registry/f['path'] for f in manifest['hierarchy']['nodes']['files']]
+    parents={}; candidates=[]; rows={}; excluded={}
     for p in paths:
         for line in gzip.open(p,'rt',encoding='utf-8'):
-            r=json.loads(line); parents[r['id']]=r.get('parentId'); nodes[r['id']]=r
-    for p in paths:
-        for line in gzip.open(p,'rt',encoding='utf-8'):
-            r=json.loads(line)
-            if r.get('rank')!='species' or r.get('status')!='accepted': continue
-            x=r.get('parentId'); seen=set()
-            while x and x not in seen and x != ROOT_ID: seen.add(x); x=parents.get(x)
-            if x == ROOT_ID: rows[r['id']]=r
-    for r in nodes.values():
-        if r.get('rank') != 'species' or r.get('status') != 'accepted': continue
+            r=json.loads(line); parents[r['id']]=r.get('parentId')
+            if r.get('rank')=='species' and r.get('status')=='accepted' and str(r.get('sourceDatasetId') or '') in {'1186','1178','1185'}: candidates.append(r)
+    for r in candidates:
+        x=r.get('parentId'); seen=set()
+        while x and x not in seen and x != ROOT_ID: seen.add(x); x=parents.get(x)
+        if x == ROOT_ID: rows[r['id']]=r
+    for r in candidates:
+        if r['id'] in rows: continue
         x=r.get('parentId'); seen=set()
         while x and x not in seen and x != PARENT_ROOT_ID: seen.add(x); x=parents.get(x)
-        if x == PARENT_ROOT_ID and r['id'] not in rows:
+        if x == PARENT_ROOT_ID:
             k=str(r.get('sourceDatasetId') or 'null'); excluded[k]=excluded.get(k,0)+1
     shards=[]
     for p in paths:
-        b=p.read_bytes(); shards.append({'path':str(p.relative_to(ROOT)).replace('\\','/'),'bytes':len(b),'sha256':sha(b)})
+        b=p.read_bytes(); shards.append({'path':str(p.relative_to(registry.parent.parent)).replace('\\','/'),'bytes':len(b),'sha256':sha(b)})
     return rows, sha(mb), shards, excluded
 def record(col, candidates, syns, strict, names, refs, nr):
     targets={};
@@ -92,12 +101,7 @@ def record(col, candidates, syns, strict, names, refs, nr):
     status='accepted' if candidates else ('redirect' if len(targets)==1 else 'ambiguous' if len(targets)>1 else 'unmatched')
     if len(targets)>1: status='ambiguous'
     def obj(t,n,extra=None):
-        q=source_name(n,names,t); q['sourceRows']=[{'member':'Taxon.txt','row':t['_row']},{'member':'Name.txt','row':n['_row']}]
-        q['referenceRows']=[]; q['referenceMissing']=[]
-        for x in nr.get(n['ID'],[]):
-            q['referenceRows'].append({'member':'NameReference.txt','row':x['_row'],'nameID':n['ID'],'referenceID':x.get('referenceID')})
-            if x.get('referenceID') in refs: q['references']=[refs[x['referenceID']]]
-            else: q['referenceMissing'].append(x.get('referenceID'))
+        q=source_name(n,names,t,refs,nr); q['sourceRows']=[{'member':'Taxon.txt','row':t['_row']},{'member':'Name.txt','row':n['_row']}]
         if extra: q.update(extra)
         return q
     matched = obj(*candidates[0]) if len(candidates)==1 else None
@@ -113,10 +117,11 @@ def chunks(rows):
     if cur: out.append(cur)
     return out
 def main():
-    ap=argparse.ArgumentParser(); ap.add_argument('--archive',type=Path,required=True); ap.add_argument('--metadata',type=Path,required=True); ap.add_argument('--output-root',type=Path); a=ap.parse_args()
+    ap=argparse.ArgumentParser(); ap.add_argument('--archive',type=Path,required=True); ap.add_argument('--metadata',type=Path,required=True); ap.add_argument('--output-root',type=Path); ap.add_argument('--repo-root',type=Path,default=ROOT); ap.add_argument('--ledger-root',type=Path); a=ap.parse_args()
+    repo_root=a.repo_root.resolve(); registry=repo_root/'data/catalogue-of-life/releases/2026-08-20/registry'
     raw=a.archive.read_bytes(); assert len(raw)==ARCHIVE_BYTES and sha(raw)==ARCHIVE_SHA
     metadata=json.loads(a.metadata.read_bytes()); assert metadata['versionDoi']=='10.48580/d3fx.v90'
-    strict, byname, syns, names, refs, nr, species_total, provisional=read_source(a.archive); col, msh, node, excluded=read_col()
+    strict, byname, syns, names, refs, nr, species_total, provisional=read_source(a.archive); col, msh, node, excluded=read_col(registry)
     records=[]; implicated=set(); counts={x:0 for x in ('accepted','redirect','ambiguous','unmatched','withheld')}
     for cid,c in sorted(col.items()):
         candidates=byname.get(key(bare(c),c.get('authorship')),[]); ss=syns.get(key(bare(c),c.get('authorship')),[])
@@ -126,18 +131,20 @@ def main():
     upstream=[]
     for tid,(t) in sorted(strict.items()):
         if tid not in implicated:
-            n=names[t['nameID']]; upstream.append({'colId':None,'colScientificName':None,'colAuthorship':None,'status':'upstream-only','matchedName':None,'acceptedName':source_name(n,names,t),'candidates':[],'mappingBasis':'Strict source accepted Species not implicated by COL root rows.','sourceRows':[{'member':'Taxon.txt','row':t['_row']},{'member':'Name.txt','row':n['_row']}]})
-    out=a.output_root or ROOT/'data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals'; out.mkdir(parents=True,exist_ok=True); prefix='worms-ascidiacea'; files=[]; upfiles=[]
+            n=names[t['nameID']]; upstream.append({'colId':None,'colScientificName':None,'colAuthorship':None,'status':'upstream-only','matchedName':None,'acceptedName':source_name(n,names,t,refs,nr),'candidates':[],'mappingBasis':'Strict source accepted Species not implicated by COL root rows.','sourceRows':[{'member':'Taxon.txt','row':t['_row']},{'member':'Name.txt','row':n['_row']}]})
+    out=a.output_root or repo_root/'data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals'; out.mkdir(parents=True,exist_ok=True); prefix='worms-ascidiacea'; files=[]; upfiles=[]
     keep=set()
     for up,rows,arr in ((False,records,files),(True,upstream,upfiles)):
         for i,part in enumerate(chunks(rows)):
             name=f'{prefix}{"-upstream-only" if up else ""}-{i:03d}.json.gz'; b=gzip.compress(enc(part),compresslevel=9,mtime=0); b=bytearray(b); b[9]=255; (out/name).write_bytes(b); keep.add(name); q={'path':f'other-animals/{name}','records':len(part),'bytes':len(b),'sha256':sha(b),'sourceBytes':len(enc(part)),'sourceSha256':sha(enc(part))};
+            q.update(role='authority-crosswalk', encoding='gzip', mediaType='application/json')
             if not up: q.update(minColId=part[0]['colId'],maxColId=part[-1]['colId'])
             arr.append(q)
     for p in out.glob(prefix+'-*.json.gz'):
         if p.name not in keep: p.unlink()
-    descriptor={'schemaVersion':1,'recordType':'release-pinned-authority-archive-crosswalk','id':'worms-ascidiacea-archive-crosswalk','packageId':'other-animals','provider':'Ascidiacea World Database via ChecklistBank','role':'authority-crosswalk','rowEncoding':'json','encoding':'gzip','mediaType':'application/json','colIdField':'colId','totalCountField':'total','source':{'archiveUrl':'https://api.checklistbank.org/dataset/1186/archive','archiveBytes':ARCHIVE_BYTES,'archiveSha256':ARCHIVE_SHA,'version':'2026-09-01','versionDoi':'10.48580/d3fx.v90','license':'CC-BY-4.0','sourceLedgerPath':'data/sources/worms-ascidiacea-1186-import-ledger.json'},'scope':{'colRootUsageId':ROOT_ID,'colParentClosureRootUsageId':PARENT_ROOT_ID,'eligibleColSpecies':len(col),'excludedParentClosureSpecies':excluded},'counts':{'total':len(records),**counts,'upstreamOnly':len(upstream)},'files':files,'upstreamOnlyFiles':upfiles,'deliveryProfiles':{'web-light':{'mode':'summary-only'},'native-full':{'mode':'complete'}},'matching':{'normalization':'Exact scientific name and authorship after whitespace normalization; source fields preserved.','prohibited':'No fuzzy or inferred matching.'},'evidenceBoundary':{'en':'Frozen exact nomenclatural crosswalk; not species-concept equivalence, biological dossier or expert review.'}}
+    byte_count=sum(x['bytes'] for x in files+upfiles)
+    descriptor={'schemaVersion':1,'recordType':'release-pinned-authority-archive-crosswalk','id':'worms-ascidiacea-archive-crosswalk','packageId':'other-animals','provider':'Ascidiacea World Database via ChecklistBank','role':'authority-crosswalk','rowEncoding':'json','encoding':'gzip','mediaType':'application/json','colIdField':'colId','totalCountField':'total','source':{'archiveUrl':'https://api.checklistbank.org/dataset/1186/archive','archiveBytes':ARCHIVE_BYTES,'archiveSha256':ARCHIVE_SHA,'version':'2026-09-01','versionDoi':'10.48580/d3fx.v90','license':'CC-BY-4.0','sourceLedgerPath':'data/sources/worms-ascidiacea-1186-import-ledger.json','archivePath':'data/sources/archives/checklistbank-1186-ascidiacea-2026-09-01.zip','metadataPath':'data/sources/archives/checklistbank-1186-ascidiacea-2026-09-01.metadata.json'},'scope':{'colRootUsageId':ROOT_ID,'colParentClosureRootUsageId':PARENT_ROOT_ID,'eligibleColSpecies':len(col),'excludedParentClosureSpecies':excluded},'counts':{'total':len(records),'records':len(records),'bytes':byte_count,**counts,'upstreamOnly':len(upstream)},'files':files,'upstreamOnlyFiles':upfiles,'deliveryProfiles':{'web-light':{'mode':'summary-only','records':len(records),'files':[x['path'] for x in files],'bytes':sum(x['bytes'] for x in files)},'native-full':{'mode':'complete','records':len(records)+len(upstream),'files':[x['path'] for x in files+upfiles],'bytes':byte_count}},'matching':{'normalization':'Exact scientific name and authorship after whitespace normalization; source fields preserved.','prohibited':'No fuzzy or inferred matching.'},'evidenceBoundary':{'en':'Frozen exact nomenclatural crosswalk; not species-concept equivalence, biological dossier or expert review.'}}
     (out/f'{prefix}-sidecar.json').write_bytes(enc(descriptor,True))
     ledger={'schemaVersion':1,'importType':'COL26.8-to-Ascidiacea-1186-authority-crosswalk','sourceArchive':{'path':'data/sources/archives/checklistbank-1186-ascidiacea-2026-09-01.zip','bytes':ARCHIVE_BYTES,'sha256':ARCHIVE_SHA},'sourceMetadata':{'path':'data/sources/archives/checklistbank-1186-ascidiacea-2026-09-01.metadata.json','sha256':sha(a.metadata.read_bytes())},'colInput':{'registryManifestSha256':msh,'nodeShards':node},'scope':{'colRootUsageId':ROOT_ID,'colParentClosureRootUsageId':PARENT_ROOT_ID,'colSpecies':len(col),'sourceSpeciesRankTaxa':species_total,'provisionalExcluded':provisional,'excludedParentClosureSpecies':excluded,'counts':descriptor['counts']},'outputs':{'descriptorSha256':sha((out/f'{prefix}-sidecar.json').read_bytes()),'files':files,'upstreamOnlyFiles':upfiles}}
-    (ROOT/'data/sources/worms-ascidiacea-1186-import-ledger.json').write_bytes(enc(ledger,True)); print(json.dumps(descriptor['counts']))
+    ledger_root=(a.ledger_root or repo_root).resolve(); ledger_path=ledger_root/'data/sources/worms-ascidiacea-1186-import-ledger.json'; ledger_path.parent.mkdir(parents=True,exist_ok=True); ledger_path.write_bytes(enc(ledger,True)); print(json.dumps(descriptor['counts']))
 if __name__=='__main__': main()
