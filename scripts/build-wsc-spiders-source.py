@@ -21,6 +21,10 @@ ARCHIVE = ROOT / "data/sources/archives/checklistbank-56185-wsc-2026-08-30.zip"
 METADATA = ROOT / "data/sources/archives/checklistbank-56185-wsc-2026-08-30.metadata.json"
 ARCHIVE_SHA = "56ec2edda2d4570ee24fd67e9ab392ef0dce80fb9cef4967ba74caf00e12a390"
 ARCHIVE_BYTES = 3051808
+ARCHIVE_URL = "https://api.checklistbank.org/dataset/56185/archive?attempt=80"
+ARCHIVE_ATTEMPT = 80
+API_VERSION = "2026-08-30"
+API_VERSION_DOI = "10.48580/d4btg.v80"
 COL_SOURCE = "56185"
 COL_ROOTS = ("RN",)
 OUT = ROOT / "data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals"
@@ -219,6 +223,10 @@ def project(archive, output_root=None):
         raise ValueError("archive does not match the byte-pinned WSC archive")
     metadata_bytes = METADATA.read_bytes()
     api_metadata = json.loads(metadata_bytes)
+    if api_metadata.get("attempt") != ARCHIVE_ATTEMPT:
+        raise ValueError("metadata does not describe the pinned ChecklistBank archive attempt")
+    if api_metadata.get("version") != API_VERSION or api_metadata.get("versionDoi") != API_VERSION_DOI:
+        raise ValueError("metadata API version changed from the pinned WSC release")
     with zipfile.ZipFile(archive) as z:
         embedded_metadata_bytes = z.read("metadata.yaml")
     embedded_metadata = parse_embedded_metadata(embedded_metadata_bytes)
@@ -276,13 +284,15 @@ def project(archive, output_root=None):
 
     source_info = {
         "datasetId": COL_SOURCE, "title": api_metadata["title"],
-        "version": api_metadata["version"], "versionDoi": api_metadata["versionDoi"],
+        # These are the API release fields.  The archive's embedded metadata is
+        # retained separately below because it has a different DOI/version.
+        "version": API_VERSION, "versionDoi": API_VERSION_DOI,
         "doi": api_metadata["doi"], "issued": api_metadata["issued"],
         "citation": api_metadata["citation"], "contact": api_metadata.get("contact"),
         "creator": api_metadata.get("creator"), "contributor": api_metadata.get("contributor"),
         "metadataBytes": len(metadata_bytes), "metadataSha256": digest(metadata_bytes),
         "license": api_metadata["license"], "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
-        "archiveUrl": "https://api.checklistbank.org/dataset/56185/archive",
+        "archiveUrl": ARCHIVE_URL, "archiveAttempt": ARCHIVE_ATTEMPT,
         "archivePath": "data/sources/archives/checklistbank-56185-wsc-2026-08-30.zip",
         "metadataPath": "data/sources/archives/checklistbank-56185-wsc-2026-08-30.metadata.json",
         "archiveBytes": len(raw), "archiveSha256": digest(raw), "members": members,
