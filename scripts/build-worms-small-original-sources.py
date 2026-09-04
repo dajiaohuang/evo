@@ -311,7 +311,7 @@ def project(key: str, output_root: Path = ROOT) -> dict:
     col_files = write_shards(destination, spec["prefix"], records, "col-partition")
     source_files = write_shards(destination, f"{spec['prefix']}-upstream-only", source_only, "upstream-only")
     source = source_info(spec, metadata, archive, metadata_path, members)
-    descriptor = {"schemaVersion": 1, "recordType": "release-pinned-authority-original-archive-projection",
+    descriptor = {"schemaVersion": 1, "recordType": "release-pinned-authority-archive-crosswalk",
                   "id": f"{spec['prefix']}-archive-crosswalk", "packageId": "other-animals",
                   "provider": source["provider"], "role": "authority-crosswalk", "rowEncoding": "json",
                   "encoding": "gzip", "mediaType": "application/json", "colIdField": "colId",
