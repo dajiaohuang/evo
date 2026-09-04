@@ -1,5 +1,11 @@
 # Dataset changelog
 
+## 2026.09-static-v5-rc119 — 2026-09-05
+
+- Added original-source projections for 3,015 Cestoda, 1,364 Nemertea and 903 Gastrotricha COL records: 5,269 exact accepted-name matches, 13 unmatched and 54 separately retained source-only concepts. These improve source traceability; the 2,183,133-species COL baseline is unchanged.
+- Full-data builds include all 5,336 rows in 10 compressed files (1,062,188 bytes), each below 2 MiB uncompressed. Pages retains summaries without these row payloads. Original archive evidence stays outside the resident tree.
+- Preserved actual source names, authorship, references and row locators; isolated rebuilds reproduce the canonical outputs. Extended existing mobile inventory tests without adding a validation framework or compatibility layer. No app version, native build-number or storage allowance change. See [source scope and reproduction](../docs/original-sources-rc119.md).
+
 ## 2026.09-static-v5-rc118 — 2026-09-05
 
 - Added frozen original-source projections for 3,000 Ascidiacea, 6,508 Turbellaria-source and 2,467 Rotifer World Catalogue COL records: 11,960 exact accepted-name matches, 15 unmatched and 30 separately retained source-only concepts. No globally new species or species-concept equivalence is claimed; the 2,183,133-species COL baseline is unchanged.

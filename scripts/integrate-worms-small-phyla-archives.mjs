@@ -14,6 +14,9 @@ const sources = [
   ['worms-ascidiacea-archive-crosswalk', 'worms-ascidiacea-sidecar.json', 'worms-ascidiacea-1186-import-ledger.json'],
   ['worms-turbellaria-archive-crosswalk', 'worms-turbellaria-sidecar.json', 'worms-turbellaria-archive-1193-import-ledger.json'],
   ['rotifera-298081-archive-crosswalk', 'worms-rotifera-sidecar.json', 'rotifera-298081-import-ledger.json'],
+  ['worms-cestoda-archive-crosswalk', 'worms-cestoda-sidecar.json', 'worms-cestoda-archive-1127-import-ledger.json'],
+  ['worms-nemertea-archive-crosswalk', 'worms-nemertea-sidecar.json', 'worms-nemertea-archive-1085-import-ledger.json'],
+  ['worms-gastrotricha-archive-crosswalk', 'worms-gastrotricha-sidecar.json', 'worms-gastrotricha-archive-1122-import-ledger.json'],
 ]
 const hash = (bytes) => createHash('sha256').update(bytes).digest('hex')
 const readJson = (path) => JSON.parse(readFileSync(join(root, path), 'utf8'))

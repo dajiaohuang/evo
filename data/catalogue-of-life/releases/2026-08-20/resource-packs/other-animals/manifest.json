@@ -6906,6 +6906,689 @@
           "requestPolicy": "Read one inclusive COL-ID range and require an exact colId; range membership is not a scientific identity match."
         }
       }
+    },
+    {
+      "schemaVersion": 1,
+      "recordType": "release-pinned-authority-archive-crosswalk",
+      "id": "worms-cestoda-archive-crosswalk",
+      "packageId": "other-animals",
+      "provider": "World Register of Marine Species via ChecklistBank",
+      "rowEncoding": "json",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "role": "authority-crosswalk",
+      "colIdField": "colId",
+      "totalCountField": "total",
+      "source": {
+        "datasetId": "1127",
+        "title": "World List of Cestoda",
+        "version": "2026-09-01",
+        "versionDoi": "10.48580/d3cw.v84",
+        "metadataPath": "data/sources/archives/checklistbank-1127-cestoda-2026-09-01.metadata.json",
+        "metadataBytes": 1771,
+        "metadataSha256": "164679ad2e36776e9cebd29479afe884d01e7ee77698929fd3219d07d877a8fe",
+        "license": "CC-BY-4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "archiveUrl": "https://api.checklistbank.org/dataset/1127/archive",
+        "archivePath": "data/sources/archives/checklistbank-1127-cestoda-2026-09-01.zip",
+        "archiveBytes": 658677,
+        "archiveSha256": "f6deb567467713931bcca73f234f2d61f63d996f65bf3c0f271f188a352b1ee8",
+        "members": {
+          "metadata.yml": {
+            "bytes": 1083,
+            "sha256": "9fcbbfff369ac5e6f230f91808822ef909e20da3c067540e753343fa1a2581c0"
+          },
+          "TypeMaterial.txt": {
+            "bytes": 356,
+            "sha256": "6903ab4bb15d7621d7122285cccd38595cf951cda6e80d34e85d70e0bb29b2cc"
+          },
+          "Name.txt": {
+            "bytes": 1672622,
+            "sha256": "85ac8cc976e7e03291b50a7dee847613cc18137379df37b82921d8db7a8930bb"
+          },
+          "NameRelation.txt": {
+            "bytes": 538663,
+            "sha256": "bca73357c7d465cf20e82c6f0748739002124c3f1e5a424577a1fe535e1e8e9f"
+          },
+          "Taxon.txt": {
+            "bytes": 1551933,
+            "sha256": "47854892349b67ef615f7385cd1968a0f32fe3d558b885b90947243227165fae"
+          },
+          "Synonym.txt": {
+            "bytes": 362032,
+            "sha256": "9ac693bd578d396f7ddd2b79d9b6f279c712e0e7963f92ac1ff93c48a0d12906"
+          },
+          "SpeciesEstimate.txt": {
+            "bytes": 35,
+            "sha256": "552ac985d21f5b6e89941c9a4b07715a7f4a56106b5d50480ecf9dcba5f901e5"
+          },
+          "Reference.txt": {
+            "bytes": 665477,
+            "sha256": "944af9e01d3686cdaceb49ee980f64fdf6eca60f4eee8fa6c2e1933f1ab6f096"
+          },
+          "NameReference.txt": {
+            "bytes": 1133162,
+            "sha256": "eb082b01526e518528e9b7be9ff9f2ca8ec1d9d87c11e08819eb56c9d5466e53"
+          },
+          "Distribution.txt": {
+            "bytes": 414053,
+            "sha256": "7f9bbbc5e104e51f9b884d8417adac16e01a9fd9f01304dc92886e330eb127a8"
+          },
+          "Media.txt": {
+            "bytes": 6584,
+            "sha256": "4433e0e94e8c0b1585b1a1efe2a12aae31f23562cd777252f71c7771670b6cf6"
+          },
+          "VernacularName.txt": {
+            "bytes": 672,
+            "sha256": "b73069159dab766efabe3b5dabacdf26f71fee3276850467f0f314adb15e09b0"
+          }
+        },
+        "canonicalDescriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals/worms-cestoda-sidecar.json",
+        "canonicalDescriptorBytes": 6785,
+        "canonicalDescriptorSha256": "ce6f5a8d8528904f07116608133b3df53b219969b97cae08e644d8bf1634a051",
+        "sourceLedgerPath": "data/sources/worms-cestoda-archive-1127-import-ledger.json",
+        "sourceLedgerSha256": "1f78e77ddf8589ece2f7468d76dd6ec19b9efb552ed49a88214632331912a69e"
+      },
+      "scope": {
+        "colRootUsageId": "8Z",
+        "eligibleColSpecies": 3015,
+        "sourceAcceptedSpecies": 3047,
+        "sourceSpeciesRankTaxa": 3048,
+        "excludedSourceProvisional": 1
+      },
+      "matching": {
+        "normalization": "NFC and whitespace normalization only; COL trailing authorship removed exactly.",
+        "prohibited": "No fuzzy, case-folded, accent-folded, synonym or species-concept matching."
+      },
+      "counts": {
+        "total": 3015,
+        "records": 3054,
+        "accepted": 3008,
+        "redirect": 0,
+        "ambiguous": 0,
+        "unmatched": 7,
+        "withheld": 0,
+        "upstreamOnly": 39
+      },
+      "files": [
+        {
+          "path": "other-animals/worms-cestoda-000.json.gz",
+          "records": 861,
+          "bytes": 178407,
+          "sha256": "1cf584131c63bb68218c68443e57bc5dfff58b49f4ddaf174f77f136ebe573ba",
+          "sourceBytes": 2093419,
+          "sourceSha256": "a1350e7ecdef2f4f2abf40463c093becd4014742b5ed4ecfc732ebd6163f7827",
+          "encoding": "gzip",
+          "mediaType": "application/json",
+          "role": "col-partition",
+          "minColId": "32QSF",
+          "maxColId": "5X3CH"
+        },
+        {
+          "path": "other-animals/worms-cestoda-001.json.gz",
+          "records": 814,
+          "bytes": 174842,
+          "sha256": "4a9b405c2d90a2af2f3cbbc711b69ea3522c5b4d484b8acfaf6158f7e4ffaa8a",
+          "sourceBytes": 2092725,
+          "sourceSha256": "f35d0e4a86d9c06565755729344955f82850a5ced58790ff26ee27d248f37605",
+          "encoding": "gzip",
+          "mediaType": "application/json",
+          "role": "col-partition",
+          "minColId": "5X7MQ",
+          "maxColId": "8MYFZ"
+        },
+        {
+          "path": "other-animals/worms-cestoda-002.json.gz",
+          "records": 827,
+          "bytes": 145648,
+          "sha256": "b2e866a497c565355e2de0b3958164cc08bc0a8c6586112cc65295f4c3b70a57",
+          "sourceBytes": 2095539,
+          "sourceSha256": "22fa040e4c1ba3717fb525ce2346d4d9c076779a9172dd385d5df3e455e84919",
+          "encoding": "gzip",
+          "mediaType": "application/json",
+          "role": "col-partition",
+          "minColId": "8MYG2",
+          "maxColId": "CPSRW"
+        },
+        {
+          "path": "other-animals/worms-cestoda-003.json.gz",
+          "records": 513,
+          "bytes": 90040,
+          "sha256": "9106da9d970ff4d41a93627f82055d9083ad5cb22e9a814868f607a8387c5c53",
+          "sourceBytes": 1104375,
+          "sourceSha256": "66f9f5001e2a324c114508b4fac79f1a44ea87f222f1d8ef6d7e604067ce231f",
+          "encoding": "gzip",
+          "mediaType": "application/json",
+          "role": "col-partition",
+          "minColId": "CPSRX",
+          "maxColId": "ZLVV"
+        }
+      ],
+      "upstreamOnlyFiles": [
+        {
+          "path": "other-animals/worms-cestoda-source-only-000.json.gz",
+          "records": 39,
+          "bytes": 8151,
+          "sha256": "a2a68bd3a41789c4c3adf356d5c790681d7c89bc4c483661cacd80068c15070a",
+          "sourceBytes": 66707,
+          "sourceSha256": "b81ef1e5e392b01c03f769979e1392271a0334b137db6b47303451440809d74c",
+          "encoding": "gzip",
+          "mediaType": "application/json",
+          "role": "upstream-only"
+        }
+      ],
+      "totalCompressedBytes": 597088,
+      "totalSourceBytes": 7452765,
+      "deliveryProfiles": {
+        "web-light": {
+          "records": 0,
+          "files": [],
+          "totalCompressedBytes": 0,
+          "totalSourceBytes": 0
+        },
+        "native-full": {
+          "records": 3054,
+          "files": [
+            "other-animals/worms-cestoda-000.json.gz",
+            "other-animals/worms-cestoda-001.json.gz",
+            "other-animals/worms-cestoda-002.json.gz",
+            "other-animals/worms-cestoda-003.json.gz",
+            "other-animals/worms-cestoda-source-only-000.json.gz"
+          ],
+          "totalCompressedBytes": 597088,
+          "totalSourceBytes": 7452765
+        }
+      },
+      "evidenceBoundary": {
+        "en": "Frozen exact nomenclatural crosswalk, not species-concept equivalence, a biological dossier, fossil evidence or expert review.",
+        "zh": "冻结的严格命名交叉映射；不是物种概念等同性、生物档案、化石证据或专家审查。"
+      },
+      "descriptorSha256": "ce6f5a8d8528904f07116608133b3df53b219969b97cae08e644d8bf1634a051",
+      "canonicalFileInventory": [
+        {
+          "path": "other-animals/worms-cestoda-000.json.gz",
+          "records": 861,
+          "bytes": 178407,
+          "sha256": "1cf584131c63bb68218c68443e57bc5dfff58b49f4ddaf174f77f136ebe573ba",
+          "sourceBytes": 2093419,
+          "sourceSha256": "a1350e7ecdef2f4f2abf40463c093becd4014742b5ed4ecfc732ebd6163f7827",
+          "encoding": "gzip",
+          "mediaType": "application/json",
+          "role": "col-partition",
+          "minColId": "32QSF",
+          "maxColId": "5X3CH"
+        },
+        {
+          "path": "other-animals/worms-cestoda-001.json.gz",
+          "records": 814,
+          "bytes": 174842,
+          "sha256": "4a9b405c2d90a2af2f3cbbc711b69ea3522c5b4d484b8acfaf6158f7e4ffaa8a",
+          "sourceBytes": 2092725,
+          "sourceSha256": "f35d0e4a86d9c06565755729344955f82850a5ced58790ff26ee27d248f37605",
+          "encoding": "gzip",
+          "mediaType": "application/json",
+          "role": "col-partition",
+          "minColId": "5X7MQ",
+          "maxColId": "8MYFZ"
+        },
+        {
+          "path": "other-animals/worms-cestoda-002.json.gz",
+          "records": 827,
+          "bytes": 145648,
+          "sha256": "b2e866a497c565355e2de0b3958164cc08bc0a8c6586112cc65295f4c3b70a57",
+          "sourceBytes": 2095539,
+          "sourceSha256": "22fa040e4c1ba3717fb525ce2346d4d9c076779a9172dd385d5df3e455e84919",
+          "encoding": "gzip",
+          "mediaType": "application/json",
+          "role": "col-partition",
+          "minColId": "8MYG2",
+          "maxColId": "CPSRW"
+        },
+        {
+          "path": "other-animals/worms-cestoda-003.json.gz",
+          "records": 513,
+          "bytes": 90040,
+          "sha256": "9106da9d970ff4d41a93627f82055d9083ad5cb22e9a814868f607a8387c5c53",
+          "sourceBytes": 1104375,
+          "sourceSha256": "66f9f5001e2a324c114508b4fac79f1a44ea87f222f1d8ef6d7e604067ce231f",
+          "encoding": "gzip",
+          "mediaType": "application/json",
+          "role": "col-partition",
+          "minColId": "CPSRX",
+          "maxColId": "ZLVV"
+        },
+        {
+          "path": "other-animals/worms-cestoda-source-only-000.json.gz",
+          "records": 39,
+          "bytes": 8151,
+          "sha256": "a2a68bd3a41789c4c3adf356d5c790681d7c89bc4c483661cacd80068c15070a",
+          "sourceBytes": 66707,
+          "sourceSha256": "b81ef1e5e392b01c03f769979e1392271a0334b137db6b47303451440809d74c",
+          "encoding": "gzip",
+          "mediaType": "application/json",
+          "role": "upstream-only"
+        }
+      ],
+      "integration": {
+        "clientParityRequirement": "Full-data builds retain every declared row file; Pages publishes summaries only. Client and backend infrastructure evolves independently.",
+        "lookup": {
+          "strategy": "lexicographic-colId-range-v1",
+          "ordering": "Unicode code-unit ascending",
+          "requestPolicy": "Read one inclusive COL-ID range and require an exact colId; range membership is not a scientific identity match."
+        }
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "recordType": "release-pinned-authority-archive-crosswalk",
+      "id": "worms-nemertea-archive-crosswalk",
+      "packageId": "other-animals",
+      "provider": "World Register of Marine Species via ChecklistBank",
+      "rowEncoding": "json",
+      "colIdField": "colId",
+      "totalCountField": "total",
+      "source": {
+        "datasetId": 1085,
+        "title": "World Nemertea Database",
+        "version": "2026-09-01",
+        "versionDoi": "10.48580/d3bg.v89",
+        "license": "CC-BY-4.0",
+        "archiveUrl": "https://api.checklistbank.org/dataset/1085/archive",
+        "archivePath": "data/sources/archives/checklistbank-1085-nemertea-2026-09-01.zip",
+        "metadataPath": "data/sources/archives/checklistbank-1085-nemertea-2026-09-01.metadata.json",
+        "archiveBytes": 440016,
+        "archiveSha256": "739531754268619a6bea16de394eb782d218d87a402291c1adc9a5ce098a06d0",
+        "metadataBytes": 3099,
+        "metadataSha256": "cdd8da099aca7172dd4016d5f17236e0124b05ce79e5affb556007d524f57e5f",
+        "members": {
+          "metadata.yml": {
+            "bytes": 1865,
+            "sha256": "5662f1dc00c251fbc345f63ee1100a3c0b93d9d21cb6df1f534253a2e3291b28"
+          },
+          "TypeMaterial.txt": {
+            "bytes": 3491,
+            "sha256": "40f830504782316613164addbc2d04fc9073fb674ff68458203d3cf1120d3a87"
+          },
+          "Name.txt": {
+            "bytes": 976495,
+            "sha256": "bc2abaff1f845529553e67325061aa818482f3f79904751424064efa58b064ba"
+          },
+          "NameRelation.txt": {
+            "bytes": 377827,
+            "sha256": "eff1a84c205369c5261ca44fa3a5351ee1a643535dabc130bc34609ab5800592"
+          },
+          "Taxon.txt": {
+            "bytes": 686443,
+            "sha256": "892e51792e2e5ed2ff35ba308d9988887efbb8e6deae9965da2f6c12671f155f"
+          },
+          "Synonym.txt": {
+            "bytes": 331076,
+            "sha256": "6bcbf9ab4f8d8dbf14e8d89a1c22fd3fb1c335ddc546da90f1f75669a850687f"
+          },
+          "SpeciesEstimate.txt": {
+            "bytes": 178,
+            "sha256": "6affc62cf4d9bd9bf9a442bf47aa5cd119da2ec9e2b53a19593f76c291c15603"
+          },
+          "Reference.txt": {
+            "bytes": 405733,
+            "sha256": "95fe72cccec26bcf9bcee09e9d6d13080bc9a250e59d38be3be668af12fea611"
+          },
+          "NameReference.txt": {
+            "bytes": 1378645,
+            "sha256": "1d1194b52d3e4e47b426a3f38c313480483bf5ea9684924b3af35213570777dd"
+          },
+          "Distribution.txt": {
+            "bytes": 101344,
+            "sha256": "5a70d60024ba430cc55c237c40128b270d6e898ca57cd1c0bf02623fb95f82d5"
+          },
+          "Media.txt": {
+            "bytes": 63215,
+            "sha256": "d365a5654b5edf9a3dda234644c9f7d3203bb4463542c7a1fdafaa3df1ecf5aa"
+          },
+          "VernacularName.txt": {
+            "bytes": 10331,
+            "sha256": "8165995533a023acd572a74f9eb753ecda75051e860f23a2bcb70d6b3e7273a5"
+          }
+        },
+        "canonicalDescriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals/worms-nemertea-sidecar.json",
+        "canonicalDescriptorBytes": 5855,
+        "canonicalDescriptorSha256": "05e8b52d1ae5f690e371337437fa9f2d1ae2b60086b0ab1ba1e62622bb118285",
+        "sourceLedgerPath": "data/sources/worms-nemertea-archive-1085-import-ledger.json",
+        "sourceLedgerSha256": "41b2c86e792eee6b4cc1ff5679e66f19de9fd53eb3003ecbaca648ad85176fd6"
+      },
+      "scope": {
+        "colRootUsageId": "5C",
+        "sourceDatasetId": 1085,
+        "eligibleColSpecies": 1364,
+        "sourceAcceptedSpecies": 1373,
+        "excludedSourceProvisional": 1
+      },
+      "matching": {
+        "normalization": "NFC and whitespace normalization only; COL trailing authorship is removed exactly.",
+        "prohibited": "No fuzzy, synonym, case-folded, accent-folded or species-concept matching."
+      },
+      "counts": {
+        "total": 1364,
+        "accepted": 1361,
+        "redirect": 0,
+        "ambiguous": 0,
+        "unmatched": 3,
+        "withheld": 0,
+        "upstreamOnly": 12,
+        "records": 1376
+      },
+      "files": [
+        {
+          "path": "other-animals/worms-nemertea-000.json.gz",
+          "records": 823,
+          "bytes": 193390,
+          "sha256": "dccc58233b56fd925c07cbde95a0acc491336c3026deab734c3f83fe88855033",
+          "sourceBytes": 2096832,
+          "sourceSha256": "9b7c9845a218254d0ea193c39588561de80136e13e66f54a1fca0384e48f8273",
+          "encoding": "gzip",
+          "mediaType": "application/json",
+          "role": "col-partition",
+          "minColId": "32KJP",
+          "maxColId": "74JCH"
+        },
+        {
+          "path": "other-animals/worms-nemertea-001.json.gz",
+          "records": 541,
+          "bytes": 126266,
+          "sha256": "da80080a5218f4a0463cdd4dd32c365e1392bab31b083f94dde2d43008b581fd",
+          "sourceBytes": 1362601,
+          "sourceSha256": "03d7aa1253611da309015294909b88e959cf90a28a3089c886c1cdca88387ecd",
+          "encoding": "gzip",
+          "mediaType": "application/json",
+          "role": "col-partition",
+          "minColId": "74JCL",
+          "maxColId": "ZS8H"
+        }
+      ],
+      "upstreamOnlyFiles": [
+        {
+          "path": "other-animals/worms-nemertea-source-only-000.json.gz",
+          "records": 12,
+          "bytes": 3147,
+          "sha256": "6a430a3e45e5025c4ec9bf615fcfa0b498a53e7485f6c43df58c8f034095ad36",
+          "sourceBytes": 20980,
+          "sourceSha256": "f4b37885be0af8a2ebc5e9390dfff76e8cd566694278fec2d333a4fda42841c4",
+          "encoding": "gzip",
+          "mediaType": "application/json",
+          "role": "upstream-only"
+        }
+      ],
+      "totalCompressedBytes": 322803,
+      "totalSourceBytes": 3480413,
+      "deliveryProfiles": {
+        "web-light": {
+          "records": 0,
+          "files": [],
+          "totalCompressedBytes": 0,
+          "totalSourceBytes": 0
+        },
+        "native-full": {
+          "records": 1376,
+          "files": [
+            "other-animals/worms-nemertea-000.json.gz",
+            "other-animals/worms-nemertea-001.json.gz",
+            "other-animals/worms-nemertea-source-only-000.json.gz"
+          ],
+          "totalCompressedBytes": 322803,
+          "totalSourceBytes": 3480413
+        }
+      },
+      "evidenceBoundary": {
+        "en": "Frozen WoRMS nomenclatural/source projection for exact COL26.8 source-1085 Nemertea scope; not species-concept equivalence or global novelty claim.",
+        "zh": "精确 COL26.8 source-1085 Nemertea 范围的 WoRMS 冻结命名/来源投影；不是物种概念等同性或全球新增物种声明。"
+      },
+      "limitations": [
+        "Synonym and provisional source rows are retained in the pinned archive evidence but are not promoted as accepted species.",
+        "Source-only rows are not global novelty claims."
+      ],
+      "descriptorSha256": "05e8b52d1ae5f690e371337437fa9f2d1ae2b60086b0ab1ba1e62622bb118285",
+      "canonicalFileInventory": [
+        {
+          "path": "other-animals/worms-nemertea-000.json.gz",
+          "records": 823,
+          "bytes": 193390,
+          "sha256": "dccc58233b56fd925c07cbde95a0acc491336c3026deab734c3f83fe88855033",
+          "sourceBytes": 2096832,
+          "sourceSha256": "9b7c9845a218254d0ea193c39588561de80136e13e66f54a1fca0384e48f8273",
+          "encoding": "gzip",
+          "mediaType": "application/json",
+          "role": "col-partition",
+          "minColId": "32KJP",
+          "maxColId": "74JCH"
+        },
+        {
+          "path": "other-animals/worms-nemertea-001.json.gz",
+          "records": 541,
+          "bytes": 126266,
+          "sha256": "da80080a5218f4a0463cdd4dd32c365e1392bab31b083f94dde2d43008b581fd",
+          "sourceBytes": 1362601,
+          "sourceSha256": "03d7aa1253611da309015294909b88e959cf90a28a3089c886c1cdca88387ecd",
+          "encoding": "gzip",
+          "mediaType": "application/json",
+          "role": "col-partition",
+          "minColId": "74JCL",
+          "maxColId": "ZS8H"
+        },
+        {
+          "path": "other-animals/worms-nemertea-source-only-000.json.gz",
+          "records": 12,
+          "bytes": 3147,
+          "sha256": "6a430a3e45e5025c4ec9bf615fcfa0b498a53e7485f6c43df58c8f034095ad36",
+          "sourceBytes": 20980,
+          "sourceSha256": "f4b37885be0af8a2ebc5e9390dfff76e8cd566694278fec2d333a4fda42841c4",
+          "encoding": "gzip",
+          "mediaType": "application/json",
+          "role": "upstream-only"
+        }
+      ],
+      "integration": {
+        "clientParityRequirement": "Full-data builds retain every declared row file; Pages publishes summaries only. Client and backend infrastructure evolves independently.",
+        "lookup": {
+          "strategy": "lexicographic-colId-range-v1",
+          "ordering": "Unicode code-unit ascending",
+          "requestPolicy": "Read one inclusive COL-ID range and require an exact colId; range membership is not a scientific identity match."
+        }
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "recordType": "release-pinned-authority-archive-crosswalk",
+      "id": "worms-gastrotricha-archive-crosswalk",
+      "packageId": "other-animals",
+      "provider": "World Register of Marine Species via ChecklistBank",
+      "rowEncoding": "json",
+      "colIdField": "colId",
+      "totalCountField": "total",
+      "source": {
+        "datasetId": "1122",
+        "title": "World Gastrotricha Database",
+        "version": "2026-09-01",
+        "versionDoi": "10.48580/d3cq.v86",
+        "metadataBytes": 2221,
+        "metadataSha256": "e5c62b1b2c9518ee80379d8550e714475edbc19228714a3d9c6bdce248dc282a",
+        "license": "CC-BY-4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "rightsHolder": "WoRMS Editorial Board",
+        "archiveUrl": "https://api.checklistbank.org/dataset/1122/archive",
+        "archivePath": "data/sources/archives/checklistbank-1122-gastrotricha-2026-09-01.zip",
+        "metadataPath": "data/sources/archives/checklistbank-1122-gastrotricha-2026-09-01.metadata.json",
+        "archiveBytes": 138207,
+        "archiveSha256": "3828913cfe33e8a5184ad6ab86f9d824a897fa7f6ad85967365c292e33079653",
+        "members": {
+          "metadata.yml": {
+            "bytes": 1345,
+            "sha256": "250dc834f4e2c21111dda1aa94c346946469e3c07e72d2c0b77099a94b0348e4"
+          },
+          "TypeMaterial.txt": {
+            "bytes": 276,
+            "sha256": "15b2acce781f89e54386f4d8a629ab5d144a9a53c6f4abd6563c8be361f3ee8d"
+          },
+          "Name.txt": {
+            "bytes": 348090,
+            "sha256": "27cbbb6ec87a4c0c9ec45e6ac6bb28fddb8f95dfb8c06b9eb795fd843056dab3"
+          },
+          "NameRelation.txt": {
+            "bytes": 103585,
+            "sha256": "5abcc0dcbdc0897a6c18e5e5f5d9a50344edd0063583ec4ce50c8a3a7e25f0bf"
+          },
+          "Taxon.txt": {
+            "bytes": 397414,
+            "sha256": "af93509c631f339d84b698a8982d8ba5cfef7f553b0ca010b52d136150f34227"
+          },
+          "Synonym.txt": {
+            "bytes": 54057,
+            "sha256": "7e494e4b1222c4d2308f9caa343ab3d4e21536408a82ba3fc862174548da67f2"
+          },
+          "SpeciesEstimate.txt": {
+            "bytes": 35,
+            "sha256": "552ac985d21f5b6e89941c9a4b07715a7f4a56106b5d50480ecf9dcba5f901e5"
+          },
+          "Reference.txt": {
+            "bytes": 122504,
+            "sha256": "5e27f3b7b393d8eca3178e2e0904824c4bfec726dd1bf62f5959c285a9e8b306"
+          },
+          "NameReference.txt": {
+            "bytes": 418991,
+            "sha256": "3deabbb245f7b29e435413211f9b3eb38dfcbaabeef40fca83eff4ea07bc795d"
+          },
+          "Distribution.txt": {
+            "bytes": 153968,
+            "sha256": "4afc519806af278f441fc2e4db95a947cf022f8cc0bf024ae974fc67088f0d5d"
+          },
+          "Media.txt": {
+            "bytes": 371,
+            "sha256": "c876b58dc5a1d3332f6370e63bf15ff7c086ee51b6bc9af0d45ee985b326a6ba"
+          },
+          "VernacularName.txt": {
+            "bytes": 264,
+            "sha256": "82062099592da3b21d002cab56a5c26425f4b2aaecb2b5b24b5834296885c9f7"
+          }
+        },
+        "canonicalDescriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals/worms-gastrotricha-sidecar.json",
+        "canonicalDescriptorBytes": 5598,
+        "canonicalDescriptorSha256": "f8df9c444219a8268b39290fc5a0044733a7ddee914ff2c0116f42a369abeee7",
+        "sourceLedgerPath": "data/sources/worms-gastrotricha-archive-1122-import-ledger.json",
+        "sourceLedgerSha256": "41288e607c25e9262f70aa951eecb0df637e215f5518c776d20607c30cea6212"
+      },
+      "scope": {
+        "colRootUsageIds": [
+          "B8V3M"
+        ],
+        "scientificName": "Gastrotricha",
+        "eligibleColSpecies": 903,
+        "sourceAcceptedSpecies": 903,
+        "excludedSourceProvisional": 1
+      },
+      "matching": {
+        "normalization": "NFC and whitespace normalization only; COL trailing authorship is removed exactly.",
+        "prohibited": "No fuzzy, case-folded, accent-folded, synonym or species-concept matching."
+      },
+      "counts": {
+        "total": 903,
+        "accepted": 900,
+        "redirect": 0,
+        "ambiguous": 0,
+        "unmatched": 3,
+        "withheld": 0,
+        "upstreamOnly": 3,
+        "records": 906
+      },
+      "files": [
+        {
+          "path": "other-animals/worms-gastrotricha-000.json.gz",
+          "records": 903,
+          "bytes": 139577,
+          "sha256": "7272ca83efecf03a014aaf6327406c0426771559de9cf877c65c253425f59084",
+          "sourceBytes": 2038000,
+          "sourceSha256": "75ec62aa6c95be26c1bdc95bd89af8ab0d32f935a88b921019a278afd4ad46a3",
+          "encoding": "gzip",
+          "mediaType": "application/json",
+          "role": "col-partition",
+          "minColId": "33WDG",
+          "maxColId": "Z5DF"
+        }
+      ],
+      "upstreamOnlyFiles": [
+        {
+          "path": "other-animals/worms-gastrotricha-source-only-000.json.gz",
+          "records": 3,
+          "bytes": 2720,
+          "sha256": "6386f1f33d2c23d8b2e5f820e261ca7efe06e5ec160b4fbfe5aea373c759e495",
+          "sourceBytes": 18267,
+          "sourceSha256": "da264ee9fa87f4ee05fb1e86990e683dda007e8a70c2e439d70e0b33fae5b95e",
+          "encoding": "gzip",
+          "mediaType": "application/json",
+          "role": "upstream-only"
+        }
+      ],
+      "evidenceBoundary": {
+        "en": "Frozen WoRMS nomenclatural/source projection for the exact COL26.8 source-1122 Gastrotricha root; not species-concept equivalence, a biological dossier, fossil evidence or expert review.",
+        "zh": "精确 COL26.8 source-1122 Gastrotricha 根节点范围的 WoRMS 冻结命名/来源投影；不是物种概念等同性、生物档案、化石证据或专家审查。"
+      },
+      "limitations": [
+        "Source-only rows are relative only to COL source dataset 1122.",
+        "Name.status is nomenclatural metadata and is not used as taxonomic acceptance.",
+        "Synonym.taxonID targets do not remove accepted Taxon rows."
+      ],
+      "totalCompressedBytes": 142297,
+      "totalSourceBytes": 2056267,
+      "deliveryProfiles": {
+        "web-light": {
+          "records": 0,
+          "files": [],
+          "totalCompressedBytes": 0,
+          "totalSourceBytes": 0
+        },
+        "native-full": {
+          "records": 906,
+          "files": [
+            "other-animals/worms-gastrotricha-000.json.gz",
+            "other-animals/worms-gastrotricha-source-only-000.json.gz"
+          ],
+          "totalCompressedBytes": 142297,
+          "totalSourceBytes": 2056267
+        }
+      },
+      "descriptorSha256": "f8df9c444219a8268b39290fc5a0044733a7ddee914ff2c0116f42a369abeee7",
+      "canonicalFileInventory": [
+        {
+          "path": "other-animals/worms-gastrotricha-000.json.gz",
+          "records": 903,
+          "bytes": 139577,
+          "sha256": "7272ca83efecf03a014aaf6327406c0426771559de9cf877c65c253425f59084",
+          "sourceBytes": 2038000,
+          "sourceSha256": "75ec62aa6c95be26c1bdc95bd89af8ab0d32f935a88b921019a278afd4ad46a3",
+          "encoding": "gzip",
+          "mediaType": "application/json",
+          "role": "col-partition",
+          "minColId": "33WDG",
+          "maxColId": "Z5DF"
+        },
+        {
+          "path": "other-animals/worms-gastrotricha-source-only-000.json.gz",
+          "records": 3,
+          "bytes": 2720,
+          "sha256": "6386f1f33d2c23d8b2e5f820e261ca7efe06e5ec160b4fbfe5aea373c759e495",
+          "sourceBytes": 18267,
+          "sourceSha256": "da264ee9fa87f4ee05fb1e86990e683dda007e8a70c2e439d70e0b33fae5b95e",
+          "encoding": "gzip",
+          "mediaType": "application/json",
+          "role": "upstream-only"
+        }
+      ],
+      "integration": {
+        "clientParityRequirement": "Full-data builds retain every declared row file; Pages publishes summaries only. Client and backend infrastructure evolves independently.",
+        "lookup": {
+          "strategy": "lexicographic-colId-range-v1",
+          "ordering": "Unicode code-unit ascending",
+          "requestPolicy": "Read one inclusive COL-ID range and require an exact colId; range membership is not a scientific identity match."
+        }
+      }
     }
   ]
 }
