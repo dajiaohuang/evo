@@ -9,7 +9,7 @@ METADATA = ROOT / 'data/sources/archives/checklistbank-1193-turbellaria-2026-09-
 ARCHIVE_SHA = 'ef2402cab1d39b2569c18e415a6c9c3acdc7e197c7ab6e92158488b6863fe8ce'
 ARCHIVE_BYTES = 2320899
 COL_SOURCE = '1193'
-COL_ROOTS = ('7NF2L', '7NF2P', '7NF2W')
+COL_ROOTS = ('7NF2H', '7NF2L', '7NF2P', '7NF2W')
 OUT = ROOT / 'data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals'
 SHARD_LIMIT = 2 * 1024 * 1024
 

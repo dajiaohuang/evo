@@ -9,13 +9,14 @@ archive is 2,320,899 bytes with SHA-256
 The source projection joins `Taxon.nameID` to `Name.ID`, retains only
 `Name.rank=Species`, and excludes 37 provisional rows, leaving 6,523 accepted
 source rows. Its COL26.8 scope is the union of the exact source-1193 roots
-`Acoelomorpha` (`7NF2L`), `Catenulida` (`7NF2P`) and `Rhabditophora` (`7NF2W`);
-this is an auditable source boundary, not a claim that these roots form a
-single modern monophyletic group.
+`Platyhelminthes` (`7NF2H`) with more-specific `Acoelomorpha` (`7NF2L`),
+`Catenulida` (`7NF2P`) and `Rhabditophora` (`7NF2W`) roots. The broad root is
+restricted to source dataset 1193, excluding other-source Cestoda/Trematoda;
+this is a traditional source collection boundary, not a modern monophyly claim.
 
-The COL closure contains 6,469 accepted species. Exact normalized
-scientific-name plus authorship matching yields 6,454 accepted mappings and 15
-unmatched COL outcomes. The 69 accepted source rows not implicated by exact
+The COL closure contains 6,508 accepted species. Exact normalized
+scientific-name plus authorship matching yields 6,493 accepted mappings and 15
+unmatched COL outcomes. The 30 accepted source rows not implicated by exact
 matches are retained in an independent upstream-only projection relative only
 to this COL source scope, not as globally new species. No fuzzy, synonym,
 taxon-substitution or species-concept matching is used.
