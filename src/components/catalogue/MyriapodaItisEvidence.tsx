@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from 'react'
-import { loadPackageItisAuthorityRecord, loadPackageNomenclatureCollection } from '../../data-client/staticDataClient'
+import { loadPackageItisAuthorityRecord, loadPackageManifest } from '../../data-client/staticDataClient'
 import type { RuntimeItisNomenclatureCollection, ItisNomenclatureRecord } from '../../data-client/types'
 
 const COLLECTION_ID = 'itis-myriapoda-tsn-crosswalk' as const
@@ -40,6 +40,7 @@ export function MyriapodaItisEvidence({ colId, packageId, lineageIds, zh }: { co
   const [failed, setFailed] = useState(false)
   const [collection, setCollection] = useState<RuntimeItisNomenclatureCollection | null>(null)
   const [record, setRecord] = useState<ItisNomenclatureRecord | null>(null)
+  const [rowLoaded, setRowLoaded] = useState(false)
   const requestRef = useRef(0)
 
   useEffect(() => {
@@ -49,6 +50,7 @@ export function MyriapodaItisEvidence({ colId, packageId, lineageIds, zh }: { co
     setFailed(false)
     setCollection(null)
     setRecord(null)
+    setRowLoaded(false)
   }, [colId, packageId, lineageIds.join('|')])
 
   if (!applicable) return null
@@ -58,16 +60,19 @@ export function MyriapodaItisEvidence({ colId, packageId, lineageIds, zh }: { co
     const requestId = ++requestRef.current
     setLoading(true)
     setFailed(false)
+    setRowLoaded(false)
     try {
-      const metadata = await loadPackageNomenclatureCollection(packageId, COLLECTION_ID)
+      const manifest = await loadPackageManifest(packageId)
       if (requestId !== requestRef.current) return
-      if (metadata.collection.id !== COLLECTION_ID) throw new Error('Unexpected Myriapoda collection')
-      setCollection(metadata.collection)
-      if (metadata.collection.delivery.completeRows && metadata.collection.delivery.profile === 'native-full') {
+      const metadata = manifest.nomenclatureCollections?.find((candidate): candidate is RuntimeItisNomenclatureCollection => candidate.id === COLLECTION_ID)
+      if (!metadata) throw new Error('Runtime package does not publish the Myriapoda collection')
+      setCollection(metadata)
+      if (metadata.delivery.completeRows && metadata.delivery.profile === 'native-full') {
         const result = await loadPackageItisAuthorityRecord('myriapoda', colId)
         if (requestId !== requestRef.current) return
         setRecord(result.record)
       }
+      setRowLoaded(true)
     } catch {
       if (requestId === requestRef.current) setFailed(true)
     } finally {
@@ -75,11 +80,17 @@ export function MyriapodaItisEvidence({ colId, packageId, lineageIds, zh }: { co
     }
   }
 
-  return <details className="catalogue-authority-disclosure" onToggle={(event) => {
+  const rowReady = collection !== null && (!collection.delivery.completeRows || rowLoaded)
+
+  return <details open={expanded} className="catalogue-authority-disclosure" onToggle={(event) => {
     if (event.target !== event.currentTarget) return
     const open = event.currentTarget.open
     setExpanded(open)
-    if (open && !collection && !failed) void load()
+    if (!open) {
+      setFailed(false)
+      return
+    }
+    if (open && !loading && !failed && (!collection || !rowReady)) void load()
   }}>
     <summary>{zh ? 'ITIS 多足动物精确命名对应' : 'ITIS Myriapoda exact nomenclatural mapping'}</summary>
     {expanded && <div className="catalogue-source-card">
@@ -95,7 +106,8 @@ export function MyriapodaItisEvidence({ colId, packageId, lineageIds, zh }: { co
           <div><dt>{zh ? '独立分区 ITIS 当前种' : 'Separate ITIS source-only species'}</dt><dd>{(collection.counts.itisUpstreamOnly ?? 0).toLocaleString()}</dd></div>
         </dl>
         {!collection.delivery.completeRows && <p>{zh ? '网页版只提供摘要；逐条映射随 Android 与 iOS 完整数据提供。' : 'Web provides the summary only; row-level mappings ship with the complete Android and iOS data profile.'}</p>}
-        {collection.delivery.completeRows && <RecordDetail record={record} zh={zh} />}
+        {collection.delivery.completeRows && loading && <p role="status">{zh ? '正在读取对应的 ITIS 分片…' : 'Loading the matching ITIS shard…'}</p>}
+        {collection.delivery.completeRows && !loading && !failed && rowReady && <RecordDetail record={record} zh={zh} />}
       </>}
     </div>}
   </details>
