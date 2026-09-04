@@ -1,4 +1,4 @@
-import gzip, hashlib, importlib.util, json, tempfile, unittest
+import gzip, hashlib, importlib.util, json, tempfile, unittest, zipfile
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -24,6 +24,18 @@ class TrematodaProjectionTests(unittest.TestCase):
             self.assertEqual(descriptor['counts'], {'total': 12007, 'accepted': 11965, 'redirect': 0,
                                                     'ambiguous': 0, 'unmatched': 42, 'withheld': 0,
                                                     'upstreamOnly': 99, 'records': 12106})
+            self.assertEqual(descriptor['source']['title'], 'World List of Trematoda')
+            self.assertEqual(descriptor['source']['doi'], '10.48580/d3cx')
+            self.assertEqual(descriptor['source']['versionDoi'], '10.48580/d3cx.v86')
+            self.assertEqual(descriptor['source']['citation'], descriptor['source']['metadataRecord']['citation'])
+            self.assertEqual(descriptor['source']['editor'], descriptor['source']['metadataRecord']['editor'])
+            self.assertEqual(descriptor['source']['contributor'], descriptor['source']['metadataRecord']['contributor'])
+            self.assertEqual(descriptor['source']['rights'], descriptor['source']['metadataRecord']['license'])
+            with zipfile.ZipFile(mod.ARCHIVE) as archive:
+                self.assertEqual(set(descriptor['source']['members']), set(archive.namelist()))
+                for member, evidence in descriptor['source']['members'].items():
+                    raw = archive.read(member)
+                    self.assertEqual(evidence, {'bytes': len(raw), 'sha256': hashlib.sha256(raw).hexdigest()})
             self.assertEqual(descriptor['source']['archiveSha256'], mod.ARCHIVE_SHA)
             self.assertEqual(descriptor['source']['archiveBytes'], mod.ARCHIVE_BYTES)
             self.assertTrue(all(p['sourceBytes'] <= mod.SHARD_LIMIT for p in descriptor['files'] + descriptor['upstreamOnlyFiles']))
@@ -36,6 +48,9 @@ class TrematodaProjectionTests(unittest.TestCase):
             self.assertEqual(descriptor['scope']['excludedSourceProvisional'], 19)
             self.assertTrue(any(row['references'] for row in rows if row['status'] == 'accepted'))
             self.assertTrue(all(row['sourceRows'] for row in rows if row['status'] == 'accepted'))
+            self.assertTrue(all({'Name.txt', 'Taxon.txt'} <= {locator['member'] for locator in row['sourceRows']}
+                                for row in rows if row['status'] == 'accepted'))
+            self.assertTrue(all('sourceRows' in ref for row in rows for ref in row['references']))
 
 
 if __name__ == '__main__':
