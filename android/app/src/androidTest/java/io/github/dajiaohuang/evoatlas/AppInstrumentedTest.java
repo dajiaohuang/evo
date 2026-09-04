@@ -1,6 +1,7 @@
 package io.github.dajiaohuang.evoatlas;
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertTrue;
 
@@ -610,11 +611,11 @@ public class AppInstrumentedTest {
                     int authorityRecords = 0;
                     for (int fileIndex = 0; fileIndex < itisFiles.length(); fileIndex += 1) {
                         JSONObject itisFile = itisFiles.getJSONObject(fileIndex);
-                        JSONObject inventoryRecord = findInventoryRecord(files, itisFile.getString("url"));
-                        assertNotNull("ITIS protists/chromists shard missing from native release inventory", inventoryRecord);
-                        assertEquals(itisFile.getInt("bytes"), inventoryRecord.getInt("bytes"));
-                        assertEquals(itisFile.getString("sha256"), inventoryRecord.getString("sha256"));
-                        verifyAssetRecord(context, inventoryRecord);
+                        JSONObject itisInventoryRecord = findInventoryRecord(files, itisFile.getString("url"));
+                        assertNotNull("ITIS protists/chromists shard missing from native release inventory", itisInventoryRecord);
+                        assertEquals(itisFile.getInt("bytes"), itisInventoryRecord.getInt("bytes"));
+                        assertEquals(itisFile.getString("sha256"), itisInventoryRecord.getString("sha256"));
+                        verifyAssetRecord(context, itisInventoryRecord);
                         authorityRecords += itisFile.getInt("records");
                     }
                     assertEquals(expectedRecords[extensionIndex], authorityRecords);
@@ -663,11 +664,11 @@ public class AppInstrumentedTest {
                 JSONArray extensionFiles = wfo.getJSONArray("files");
                 for (int fileIndex = 0; fileIndex < extensionFiles.length(); fileIndex += 1) {
                     JSONObject extensionFile = extensionFiles.getJSONObject(fileIndex);
-                    JSONObject inventoryRecord = findInventoryRecord(files, extensionFile.getString("url"));
-                    assertNotNull("WFO supplement shard missing from release inventory", inventoryRecord);
-                    assertEquals(extensionFile.getInt("bytes"), inventoryRecord.getInt("bytes"));
-                    assertEquals(extensionFile.getString("sha256"), inventoryRecord.getString("sha256"));
-                    verifyAssetRecord(context, inventoryRecord);
+                    JSONObject wfoInventoryRecord = findInventoryRecord(files, extensionFile.getString("url"));
+                    assertNotNull("WFO supplement shard missing from release inventory", wfoInventoryRecord);
+                    assertEquals(extensionFile.getInt("bytes"), wfoInventoryRecord.getInt("bytes"));
+                    assertEquals(extensionFile.getString("sha256"), wfoInventoryRecord.getString("sha256"));
+                    verifyAssetRecord(context, wfoInventoryRecord);
                     wfoSupplementRecords += extensionFile.getInt("records");
                 }
             } else {

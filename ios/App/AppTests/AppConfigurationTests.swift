@@ -690,20 +690,20 @@ final class AppConfigurationTests: XCTestCase {
         var records = 0
         for file in files + upstreamFiles {
             let path = try XCTUnwrap(file["url"] as? String)
-            let inventoryRecord = try XCTUnwrap(inventory.first { ($0["url"] as? String) == path }, "\\(label) shard missing from release inventory")
+            let inventoryRecord = try XCTUnwrap(inventory.first { ($0["url"] as? String) == path }, "\(label) shard missing from release inventory")
             XCTAssertEqual(file["bytes"] as? Int, inventoryRecord["bytes"] as? Int)
             XCTAssertEqual(file["sha256"] as? String, inventoryRecord["sha256"] as? String)
             try verifyBundled(record: inventoryRecord, below: dataRoot)
             records += try XCTUnwrap(file["records"] as? Int)
         }
-        XCTAssertEqual(records, expectedRecords + expectedUpstreamRecords, "\\(label) shard records")
+        XCTAssertEqual(records, expectedRecords + expectedUpstreamRecords, "\(label) shard records")
         for canonical in canonicalInventory {
             let canonicalPath = try XCTUnwrap(canonical["path"] as? String)
             let canonicalName = String(canonicalPath.split(separator: "/").last ?? "")
             let runtime = try XCTUnwrap((files + upstreamFiles).first { file in
                 guard let path = file["url"] as? String else { return false }
                 return path.split(separator: "/").last.map(String.init) == canonicalName
-            }, "\\(label) canonical shard inventory mismatch")
+            }, "\(label) canonical shard inventory mismatch")
             XCTAssertEqual(canonical["records"] as? Int, runtime["records"] as? Int)
             XCTAssertEqual(canonical["bytes"] as? Int, runtime["bytes"] as? Int)
             XCTAssertEqual(canonical["sha256"] as? String, runtime["sha256"] as? String)
