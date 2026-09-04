@@ -1269,6 +1269,46 @@ describe('static runtime release coherence', () => {
     expect(descriptor.upstreamOnly.files[0].records).toBe(42)
   })
 
+  it('loads a real-shape Oomycota runtime extension with the complete shared-order count', async () => {
+    Object.defineProperty(globalThis, 'Worker', { configurable: true, value: undefined })
+    const records = [
+      { status: 'unmatched' as const, colUsageId: '33PPP', colScientificName: 'Oomycota first' },
+      ...Array.from({ length: 1492 }, (_, index) => ({ status: 'unmatched' as const, colUsageId: `33PPQ${String(index).padStart(4, '0')}`, colScientificName: `Oomycota ${index}` })),
+      { status: 'unmatched' as const, colUsageId: 'YGGB', colScientificName: 'Oomycota last' },
+    ]
+    const body = `${records.map((record) => JSON.stringify(record)).join('\n')}\n`
+    const file = {
+      path: 'protists-chromists/itis-oomycota-sidecar-0000.jsonl.gz',
+      url: 'releases/dataset-itis-oomycota/catalogue/resource-packs/protists-chromists/itis-oomycota-sidecar-0000.jsonl.gz',
+      records: records.length, bytes: new TextEncoder().encode(body).byteLength, sourceBytes: new TextEncoder().encode(body).byteLength,
+      sha256: await sha256Text(body), sourceSha256: await sha256Text(body), mediaType: 'application/x-ndjson' as const,
+      minColId: '33PPP', maxColId: 'YGGB', role: 'col-partition' as const,
+    }
+    const upstreamFile = { path: 'protists-chromists/itis-oomycota-upstream-only-0000.jsonl.gz', url: 'unused-upstream.jsonl.gz', records: 42, bytes: 1, sourceBytes: 1, sha256: 'a'.repeat(64), sourceSha256: 'b'.repeat(64), mediaType: 'application/x-ndjson' as const, role: 'upstream-only' as const }
+    const extension = {
+      id: 'itis-oomycota-tsn-crosswalk', recordType: 'release-pinned-exact-nomenclatural-crosswalk', provider: 'Integrated Taxonomic Information System',
+      source: { license: 'CC0-1.0' }, counts: { eligible: 1494, records: 1536, accepted: 53, redirects: 1, ambiguous: 0, unmatched: 1440, withheld: 0, upstreamOnly: 42, nonApplicable: 60024 },
+      files: [file, upstreamFile], canonicalFileInventory: [file, upstreamFile], delivery: { profile: 'native-full' as const, completeRows: true, publishedFileCount: 2, canonicalFileCount: 2 },
+      integration: { lookup: { strategy: 'lexicographic-colId-range-v1' } },
+    }
+    const packManifest = { schemaVersion: 1, packageType: 'static-nomenclatural-resource-pack', packageId: 'protists-chromists', version: 'dataset-itis-oomycota', source: { releaseAlias: 'COL26.8' }, acceptedSpeciesCount: 61518, extensions: [extension] }
+    const packFile = { url: 'releases/dataset-itis-oomycota/catalogue/resource-packs/protists-chromists/manifest.json', acceptedSpeciesCount: 61518, sha256: await sha256(packManifest) }
+    const catalogueManifest = { releaseAlias: 'COL26.8', counts: { acceptedSpecies: 2183133 }, resourcePacks: { manifests: { 'protists-chromists': packFile } } }
+    const catalogueFile = { url: 'releases/dataset-itis-oomycota/catalogue/manifest.json', sha256: await sha256(catalogueManifest) }
+    const current = { datasetVersion: 'dataset-itis-oomycota', releaseBase: 'releases/dataset-itis-oomycota/', catalogue: { manifest: catalogueFile, releaseAlias: 'COL26.8', acceptedSpecies: 2183133 } }
+    const fetchMock = vi.fn(async (input: RequestInfo | URL) => {
+      const url = String(input)
+      if (url.endsWith('/data/current.json')) return responseFor(current)
+      if (url.endsWith(catalogueFile.url)) return responseFor(catalogueManifest)
+      if (url.endsWith(packFile.url)) return responseFor(packManifest)
+      return url.endsWith(file.url) ? textResponseFor(body) : { ok: false, status: 404, arrayBuffer: async () => new ArrayBuffer(0) }
+    })
+    vi.stubGlobal('fetch', fetchMock)
+    const { loadCatalogueItisProtistsRecord } = await import('./staticDataClient')
+    await expect(loadCatalogueItisProtistsRecord('oomycota', '33PPP')).resolves.toMatchObject({ record: records[0], extension: { counts: { eligible: 1494, records: 1536 } } })
+    expect(fetchMock.mock.calls.filter(([input]) => String(input).includes('itis-oomycota-sidecar-0000'))).toHaveLength(1)
+  })
+
   it('loads only the requested direct children from a shared parent-hash shard and caches it', async () => {
     const { catalogueRoutePrefix, loadCatalogueChildren } = await import('./staticDataClient')
     const parentId = 'parent-a'
