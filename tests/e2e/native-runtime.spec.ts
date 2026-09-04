@@ -18,7 +18,7 @@ for (const [id, prefix] of [
       if (request.url().includes(`/${prefix}-`) && request.url().endsWith('.json.gz')) requests.push(request.url())
     })
     await page.goto(`./#/registry?release=COL26.8&id=${id}`)
-    const details = page.locator('.catalogue-authority-disclosure')
+    const details = page.locator('.catalogue-authority-disclosure').filter({ has: page.locator('summary').filter({ hasText: '— Source name mapping' }) })
     await expect(details.locator('summary')).toBeVisible()
     await expect(details).not.toHaveAttribute('open')
     expect(requests).toEqual([])
