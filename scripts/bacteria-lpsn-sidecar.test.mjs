@@ -107,9 +107,18 @@ describe('COL26.8 Bacteria LPSN identifier sidecar', () => {
     cpSync(join(resourcePacksRoot, 'bacteria'), join(outputRoot, 'bacteria'), { recursive: true })
     const bacteriaManifestPath = join(outputRoot, 'bacteria', 'manifest.json')
     const bacteriaManifest = JSON.parse(readFileSync(bacteriaManifestPath, 'utf8'))
-    const unrelated = (id) => ({ id, files: [{ bytes: 11, sourceBytes: 17 }], upstreamOnlyFiles: [{ bytes: 13, sourceBytes: 19 }], totalCompressedBytes: 11, totalSourceBytes: 17 })
+    const unrelated = (id) => {
+      const files = [['col', 11, 17], ['source-only', 13, 19]].map(([role, bytes, sourceBytes]) => {
+        const path = `bacteria/${id}-${role}.jsonl.gz`
+        const payload = Buffer.alloc(bytes, role === 'col' ? 1 : 2)
+        writeFileSync(join(outputRoot, path), payload)
+        return { path, bytes, sourceBytes, sha256: sha256(payload) }
+      })
+      return { id, note: 'Independent fixture', files: [files[0]], upstreamOnlyFiles: [files[1]], totalCompressedBytes: 24, totalSourceBytes: 36 }
+    }
     bacteriaManifest.extensions = [unrelated('itis-future-authority'), ...bacteriaManifest.extensions, unrelated('worms-annelida-archive-crosswalk')]
     writeFileSync(bacteriaManifestPath, `${JSON.stringify(bacteriaManifest, null, 2)}\n`)
+    const preserved = bacteriaManifest.extensions.filter((extension) => extension.note === 'Independent fixture')
     const collectionBefore = JSON.parse(readFileSync(join(outputRoot, 'manifest.json'), 'utf8'))
     const speciesBefore = readFileSync(join(outputRoot, 'bacteria', 'species-000.jsonl.gz'))
     expect(speciesBefore.byteLength).toBe(590043)
@@ -126,6 +135,12 @@ describe('COL26.8 Bacteria LPSN identifier sidecar', () => {
     expect(readFileSync(join(outputRoot, 'bacteria', 'manifest.json'))).toEqual(firstFiles.manifest)
     expect(readFileSync(join(outputRoot, 'manifest.json'))).toEqual(firstFiles.collection)
     expect(readFileSync(join(outputRoot, 'bacteria', 'species-000.jsonl.gz'))).toEqual(speciesBefore)
+    expect(JSON.parse(firstFiles.manifest).extensions.filter((extension) => extension.note === 'Independent fixture')).toEqual(preserved)
+    for (const extension of preserved) {
+      for (const file of [...extension.files, ...extension.upstreamOnlyFiles]) {
+        expect(sha256(readFileSync(join(outputRoot, file.path)))).toBe(file.sha256)
+      }
+    }
 
     const collectionAfter = JSON.parse(firstFiles.collection.toString('utf8'))
     expect(collectionAfter.packs.filter((pack) => pack.packageId !== 'bacteria'))

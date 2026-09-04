@@ -5,6 +5,7 @@ import { fileURLToPath, pathToFileURL } from 'node:url'
 import { createGunzip } from 'node:zlib'
 import { createInterface } from 'node:readline'
 import { deterministicGzip } from './archive-determinism.mjs'
+import { summarizeExtensions } from './manifest-extension-utils.mjs'
 import { buildBacteriaLpsnSidecar } from './build-bacteria-lpsn-sidecar.mjs'
 import { buildVirusIctvSidecar } from './build-virus-ictv-sidecar.mjs'
 import { buildWfoPlantProjections } from './build-wfo-plant-projections.mjs'
@@ -514,6 +515,7 @@ export function writeResourcePacks({ resourcePacksRoot, registryRoot, sourceMani
       ...generatedExtensions.filter((extension) => !existingExtensionIds.has(extension.id)),
     ]
     const manifest = {
+      ...existingManifest,
       schemaVersion: 1,
       packageType: 'static-nomenclatural-resource-pack',
       packageId: route.id,
@@ -537,7 +539,6 @@ export function writeResourcePacks({ resourcePacksRoot, registryRoot, sourceMani
       missingSourceDatasetId,
       fields: ['id', 'parentId', 'scientificName', 'authorship', 'rank', 'status', 'sourceDatasetId'],
       files,
-      ...(existingManifest?.upstreamOnlyFiles ? { upstreamOnlyFiles: existingManifest.upstreamOnlyFiles } : {}),
       ...(extensions.length ? { extensions } : {}),
       totalCompressedBytes: files.reduce((sum, file) => sum + file.bytes, 0),
       totalSourceBytes: files.reduce((sum, file) => sum + file.sourceBytes, 0),
@@ -555,10 +556,7 @@ export function writeResourcePacks({ resourcePacksRoot, registryRoot, sourceMani
       totalCompressedBytes: manifest.totalCompressedBytes,
       totalSourceBytes: manifest.totalSourceBytes,
       ...(extensions.length ? {
-        extensionCount: extensions.length,
-        extensionFileCount: extensions.reduce((sum, extension) => sum + (extension.files ?? []).length + (extension.upstreamOnlyFiles ?? []).length, 0),
-        extensionCompressedBytes: extensions.reduce((sum, extension) => sum + (extension.totalCompressedBytes ?? [...(extension.files ?? []), ...(extension.upstreamOnlyFiles ?? [])].reduce((bytes, file) => bytes + (file.bytes ?? 0), 0)), 0),
-        extensionSourceBytes: extensions.reduce((sum, extension) => sum + (extension.totalSourceBytes ?? [...(extension.files ?? []), ...(extension.upstreamOnlyFiles ?? [])].reduce((bytes, file) => bytes + (file.sourceBytes ?? 0), 0)), 0),
+        ...summarizeExtensions(extensions),
       } : {}),
     })
   }

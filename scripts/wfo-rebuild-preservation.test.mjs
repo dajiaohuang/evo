@@ -1,5 +1,5 @@
 import { createHash } from 'node:crypto'
-import { mkdtempSync, mkdirSync, readFileSync, rmSync, writeFileSync } from 'node:fs'
+import { existsSync, mkdtempSync, mkdirSync, readFileSync, rmSync, writeFileSync } from 'node:fs'
 import { tmpdir } from 'node:os'
 import { dirname, join, resolve } from 'node:path'
 import { fileURLToPath } from 'node:url'
@@ -39,8 +39,13 @@ describe('WFO projection rebuild preservation', () => {
       files: [{ path: 'other-plants/authority.jsonl.gz', bytes: independentFiles.payload.byteLength, sha256: digest(independentFiles.payload) }],
       upstreamOnlyFiles: [{ path: 'other-plants/authority-upstream.jsonl.gz', bytes: independentFiles.upstream.byteLength, sha256: digest(independentFiles.upstream) }],
     }
-    const secondIndependent = { id: 'second-independent-authority', files: independent.files }
-    writeFileSync(join(resourcePacksRoot, 'other-plants', 'manifest.json'), `${JSON.stringify({ extensions: [independent, secondIndependent] })}\n`)
+    const secondIndependent = { id: 'second-independent-authority', files: [] }
+    writeFileSync(join(resourcePacksRoot, 'other-plants', 'manifest.json'), `${JSON.stringify({ extensions: [independent, { id: 'wfo-plant-list-crosswalk', obsolete: true }, secondIndependent] })}\n`)
+    for (const packageId of packageIds) {
+      const nomenclature = join(packageRoot, packageId, 'nomenclature')
+      writeFileSync(join(nomenclature, 'independent.json'), independentFiles.descriptor)
+      writeFileSync(join(nomenclature, 'wfo-999.jsonl.gz'), 'obsolete WFO shard')
+    }
     const packs = Object.fromEntries([...packageIds, 'other-plants'].map((packageId) => [packageId, { packageId }]))
     writeFileSync(join(resourcePacksRoot, 'manifest.json'), `${JSON.stringify({ packs: Object.values(packs), authoritativeSupplements: { preexisting: { retained: true } } })}\n`)
 
@@ -48,7 +53,21 @@ describe('WFO projection rebuild preservation', () => {
     const firstOtherManifest = readFileSync(join(resourcePacksRoot, 'other-plants', 'manifest.json'))
     const firstOther = JSON.parse(firstOtherManifest)
     const firstCollection = JSON.parse(readFileSync(join(resourcePacksRoot, 'manifest.json'), 'utf8'))
-    expect(firstOther.extensions.slice(0, 2)).toEqual([independent, secondIndependent])
+    expect(firstOther.extensions.map((extension) => extension.id)).toEqual([independent.id, 'wfo-plant-list-crosswalk', secondIndependent.id])
+    expect(firstOther.extensions[0]).toEqual(independent)
+    expect(firstOther.extensions[2]).toEqual(secondIndependent)
+    expect(firstOther.extensions[1]).not.toHaveProperty('obsolete')
+    const wfoFiles = firstOther.extensions[1].files
+    expect(firstCollection.packs.find((pack) => pack.packageId === 'other-plants')).toMatchObject({
+      extensionCount: 3,
+      extensionFileCount: wfoFiles.length + 2,
+      extensionCompressedBytes: wfoFiles.reduce((sum, file) => sum + file.bytes, 0) + independentFiles.payload.length + independentFiles.upstream.length,
+    })
+    for (const packageId of packageIds) {
+      const nomenclature = join(packageRoot, packageId, 'nomenclature')
+      expect(readFileSync(join(nomenclature, 'independent.json'))).toEqual(independentFiles.descriptor)
+      expect(existsSync(join(nomenclature, 'wfo-999.jsonl.gz'))).toBe(false)
+    }
     expect(firstCollection.authoritativeSupplements.preexisting).toEqual({ retained: true })
     expect(firstCollection.authoritativeSupplements.wfoPlantList).toBeDefined()
     expect(readFileSync(join(resourcePacksRoot, 'other-plants', 'authority.json'))).toEqual(independentFiles.descriptor)

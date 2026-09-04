@@ -4,7 +4,7 @@ import { dirname, join, resolve } from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { gunzipSync } from 'node:zlib'
 import { deterministicGzip } from './archive-determinism.mjs'
-import { replaceOwnedExtensions } from './manifest-extension-utils.mjs'
+import { replaceOwnedExtensions, summarizeExtensions } from './manifest-extension-utils.mjs'
 
 const SCRIPT_PATH = fileURLToPath(import.meta.url)
 const REPOSITORY_ROOT = resolve(dirname(SCRIPT_PATH), '..')
@@ -246,10 +246,7 @@ export function buildBacteriaLpsnSidecar({ resourcePacksRoot, crosswalkPath }) {
     ...descriptor,
     manifestBytes: bacteriaManifestBytes.byteLength,
     manifestSha256: sha256(bacteriaManifestBytes),
-    extensionCount: nextBacteriaManifest.extensions.length,
-    extensionFileCount: nextBacteriaManifest.extensions.reduce((sum, item) => sum + item.files.length + (item.upstreamOnlyFiles?.length ?? 0), 0),
-    extensionCompressedBytes: nextBacteriaManifest.extensions.reduce((sum, item) => sum + item.totalCompressedBytes + (item.upstreamOnlyFiles ?? []).reduce((bytes, file) => bytes + file.bytes, 0), 0),
-    extensionSourceBytes: nextBacteriaManifest.extensions.reduce((sum, item) => sum + item.totalSourceBytes + (item.upstreamOnlyFiles ?? []).reduce((bytes, file) => bytes + file.sourceBytes, 0), 0),
+    ...summarizeExtensions(nextBacteriaManifest.extensions),
   }
   writeFileSync(collectionManifestPath, `${JSON.stringify(collection, null, 2)}\n`, 'utf8')
   return { extension, bacteriaManifestBytes }

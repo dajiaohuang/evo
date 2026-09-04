@@ -2,7 +2,7 @@ import { createHash } from 'node:crypto'
 import { readFileSync, writeFileSync } from 'node:fs'
 import { dirname, join, resolve } from 'node:path'
 import { fileURLToPath } from 'node:url'
-import { replaceOwnedExtensions } from './manifest-extension-utils.mjs'
+import { replaceOwnedExtensions, summarizeExtensions } from './manifest-extension-utils.mjs'
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..')
 const resourceRoot = join(root, 'data/catalogue-of-life/releases/2026-08-20/resource-packs')
@@ -178,10 +178,7 @@ const pack = collectionManifest.packs.find((candidate) => candidate.packageId ==
 if (!pack) throw new Error('Missing other-animals resource-pack descriptor')
 pack.manifestBytes = packManifestRecord.bytes
 pack.manifestSha256 = packManifestRecord.sha256
-pack.extensionCount = packManifest.extensions.length
-pack.extensionFileCount = packManifest.extensions.reduce((sum, extension) => sum + extension.files.length + (extension.upstreamOnlyFiles?.length ?? 0), 0)
-pack.extensionCompressedBytes = packManifest.extensions.reduce((sum, extension) => sum + extension.totalCompressedBytes + (extension.upstreamOnlyFiles ?? []).reduce((bytes, file) => bytes + file.bytes, 0), 0)
-pack.extensionSourceBytes = packManifest.extensions.reduce((sum, extension) => sum + extension.totalSourceBytes + (extension.upstreamOnlyFiles ?? []).reduce((bytes, file) => bytes + file.sourceBytes, 0), 0)
+Object.assign(pack, summarizeExtensions(packManifest.extensions))
 writeJson(collectionManifestPath, collectionManifest)
 
 console.log(`Integrated ${extensions.length} ITIS other-animals authority scopes with ${pack.extensionFileCount} canonical files.`)

@@ -4,7 +4,7 @@ import { dirname, join, resolve } from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { gunzipSync } from 'node:zlib'
 import { deterministicGzip } from './archive-determinism.mjs'
-import { replaceOwnedExtensions } from './manifest-extension-utils.mjs'
+import { replaceOwnedExtensions, summarizeExtensions } from './manifest-extension-utils.mjs'
 
 const SCRIPT_PATH = fileURLToPath(import.meta.url)
 const REPOSITORY_ROOT = resolve(dirname(SCRIPT_PATH), '..')
@@ -87,7 +87,7 @@ function sourceDescriptor(snapshot, canonicalBytes, canonicalSource) {
   }
 }
 
-export function buildWfoPlantProjections({ crosswalkPath = DEFAULT_CROSSWALK, resourcePacksRoot = DEFAULT_RESOURCE_PACKS_ROOT } = {}) {
+export function buildWfoPlantProjections({ crosswalkPath = DEFAULT_CROSSWALK, resourcePacksRoot = DEFAULT_RESOURCE_PACKS_ROOT, packageRoot = join(REPOSITORY_ROOT, 'data', 'packages', 'plantae') } = {}) {
   const canonicalBytes = readFileSync(crosswalkPath)
   const canonicalSource = gunzipSync(canonicalBytes)
   const snapshot = JSON.parse(canonicalSource.toString('utf8'))
@@ -107,7 +107,7 @@ export function buildWfoPlantProjections({ crosswalkPath = DEFAULT_CROSSWALK, re
     const expected = snapshot.packageCounts[packageId]
     const counts = { total: records.length, ...countStatuses(records) }
     if (STATUS_KEYS.some((key) => counts[key] !== expected[key]) || counts.total !== expected.total) throw new Error(`${packageId}: WFO projection counts are invalid`)
-    const root = join(REPOSITORY_ROOT, 'data', 'packages', 'plantae', packageId, 'nomenclature')
+    const root = join(packageRoot, packageId, 'nomenclature')
     mkdirSync(root, { recursive: true })
     for (const name of readdirSync(root)) {
       if (/^wfo-\d{3}\.jsonl\.gz$/u.test(name)) unlinkSync(join(root, name))
@@ -176,10 +176,7 @@ export function buildWfoPlantProjections({ crosswalkPath = DEFAULT_CROSSWALK, re
   Object.assign(descriptor, {
     manifestBytes: manifestBytes.byteLength,
     manifestSha256: sha256(manifestBytes),
-    extensionCount: otherManifest.extensions.length,
-    extensionFileCount: otherManifest.extensions.reduce((sum, item) => sum + item.files.length + (item.upstreamOnlyFiles?.length ?? 0), 0),
-    extensionCompressedBytes: otherManifest.extensions.reduce((sum, item) => sum + item.totalCompressedBytes + (item.upstreamOnlyFiles ?? []).reduce((bytes, file) => bytes + file.bytes, 0), 0),
-    extensionSourceBytes: otherManifest.extensions.reduce((sum, item) => sum + item.totalSourceBytes + (item.upstreamOnlyFiles ?? []).reduce((bytes, file) => bytes + file.sourceBytes, 0), 0),
+    ...summarizeExtensions(otherManifest.extensions),
   })
   collection.authoritativeSupplements = {
     ...(collection.authoritativeSupplements ?? {}),

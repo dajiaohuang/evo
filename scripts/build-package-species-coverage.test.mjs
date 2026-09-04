@@ -31,11 +31,14 @@ describe('baseline resource-pack writer', () => {
     }
     const authority = {
       id: 'independent-authority',
-      files: [{ path: 'bacteria/authority-000.jsonl.gz', records: 1 }],
-      upstreamOnlyFiles: [{ path: 'bacteria/authority-upstream-000.jsonl.gz', records: 1 }],
+      files: [{ path: 'bacteria/authority-000.jsonl.gz', records: 1, bytes: 9, sourceBytes: 11 }],
+      upstreamOnlyFiles: [{ path: 'bacteria/authority-upstream-000.jsonl.gz', records: 1, bytes: 8, sourceBytes: 12 }],
     }
     const packageUpstreamOnlyFiles = [{ path: 'bacteria/package-upstream-only.jsonl.gz', records: 1 }]
-    writeFileSync(join(resourcePacksRoot, 'bacteria', 'manifest.json'), JSON.stringify({ extensions: [authority], upstreamOnlyFiles: packageUpstreamOnlyFiles }))
+    writeFileSync(join(resourcePacksRoot, 'bacteria', 'manifest.json'), JSON.stringify({ extensions: [authority], upstreamOnlyFiles: packageUpstreamOnlyFiles, independentSourceNote: 'retain this source annotation' }))
+    writeFileSync(join(resourcePacksRoot, 'archaea', 'manifest.json'), JSON.stringify({ extensions: [
+      { id: 'source-before', files: [] }, { id: 'lpsn-identifiers', obsoleteOwnedField: true }, { id: 'source-after', files: [] },
+    ] }))
     writeFileSync(join(resourcePacksRoot, 'bacteria', 'authority-extension.json'), 'descriptor')
     writeFileSync(join(resourcePacksRoot, 'bacteria', 'authority-000.jsonl.gz'), 'authority')
     writeFileSync(join(resourcePacksRoot, 'bacteria', 'authority-upstream-000.jsonl.gz'), 'upstream')
@@ -47,24 +50,36 @@ describe('baseline resource-pack writer', () => {
       'viruses', 'archaea', 'bacteria', 'fungi', 'protists-chromists', 'other-plants', 'other-animals',
     ].map((packageId) => [packageId, []]))
     const packageCounts = Object.fromEntries(Object.keys(resourcePackRecords).map((packageId) => [packageId, 0]))
-    writeResourcePacks({
+    const options = {
       resourcePacksRoot,
       registryRoot,
       sourceManifest,
       resourcePackRecords,
       packageCounts,
       archaeaLpsnCrosswalk: { snapshot: { records: [], source: { sourceDatasetKey: 2015 } }, bytes: Buffer.from('{}') },
-    })
+    }
+    writeResourcePacks(options)
 
     const nextBacteriaManifest = JSON.parse(readFileSync(join(resourcePacksRoot, 'bacteria', 'manifest.json'), 'utf8'))
     expect(nextBacteriaManifest.extensions).toEqual([authority])
     expect(nextBacteriaManifest.upstreamOnlyFiles).toEqual(packageUpstreamOnlyFiles)
+    expect(nextBacteriaManifest.independentSourceNote).toBe('retain this source annotation')
     expect(existsSync(join(resourcePacksRoot, 'bacteria', 'authority-extension.json'))).toBe(true)
     expect(readFileSync(join(resourcePacksRoot, 'bacteria', 'authority-000.jsonl.gz'), 'utf8')).toBe('authority')
     expect(readFileSync(join(resourcePacksRoot, 'bacteria', 'authority-upstream-000.jsonl.gz'), 'utf8')).toBe('upstream')
     expect(existsSync(join(resourcePacksRoot, 'bacteria', 'species-999.jsonl.gz'))).toBe(false)
     expect(readFileSync(join(resourcePacksRoot, 'collection-owned-file'), 'utf8')).toBe('keep')
-    expect(JSON.parse(readFileSync(join(resourcePacksRoot, 'manifest.json'), 'utf8')).authoritativeSupplements)
-      .toEqual({ owner: 'independent-authority' })
+    const collectionPath = join(resourcePacksRoot, 'manifest.json')
+    const firstCollection = readFileSync(collectionPath, 'utf8')
+    const collection = JSON.parse(firstCollection)
+    expect(collection.authoritativeSupplements).toEqual({ owner: 'independent-authority' })
+    expect(collection.packs.find((pack) => pack.packageId === 'bacteria')).toMatchObject({
+      extensionCount: 1, extensionFileCount: 2, extensionCompressedBytes: 17, extensionSourceBytes: 23,
+    })
+    const archaea = JSON.parse(readFileSync(join(resourcePacksRoot, 'archaea', 'manifest.json'), 'utf8'))
+    expect(archaea.extensions.map((extension) => extension.id)).toEqual(['source-before', 'lpsn-identifiers', 'source-after'])
+    expect(archaea.extensions[1]).not.toHaveProperty('obsoleteOwnedField')
+    writeResourcePacks(options)
+    expect(readFileSync(collectionPath, 'utf8')).toBe(firstCollection)
   })
 })

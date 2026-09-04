@@ -1,5 +1,11 @@
 # Dataset changelog
 
+## App 0.20.59 / 2026.09-static-v5-rc108 — 2026-09-04
+
+- Fixed resource-pack rebuilding so the COL baseline and targeted authority generators preserve independent sources instead of replacing their shared directories or extension lists.
+- Retained separate source-only partitions, source attribution and existing scientific interpretation. The strict COL species total and human-review status are unchanged.
+- Pages stays lightweight; Android and iOS build `62` retain the full inventory. See [rebuild ownership and reproduction](../docs/resource-pack-rebuilds.md).
+
 ## App 0.20.58 / 2026.09-static-v5-rc107 — 2026-09-04
 
 - Added a separate WoRMS Annelida archive projection for all 18,982 strict accepted COL species in that scope, with explicit matching outcomes and a distinct source-only accepted partition. The existing COL and ITIS records remain separate and unchanged.

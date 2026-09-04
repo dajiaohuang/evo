@@ -4,7 +4,7 @@ import { dirname, join, resolve } from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { gunzipSync } from 'node:zlib'
 import { deterministicGzip } from './archive-determinism.mjs'
-import { replaceOwnedExtensions } from './manifest-extension-utils.mjs'
+import { replaceOwnedExtensions, summarizeExtensions } from './manifest-extension-utils.mjs'
 import {
   CATALOGUE_RELEASE,
   CATALOGUE_RELEASE_DATE,
@@ -233,10 +233,7 @@ export function buildFungiAuthoritySidecar({ packageRoot, crosswalkPath, descrip
     Object.assign(packageSummary, {
       manifestBytes: manifestBytes.byteLength,
       manifestSha256: sha256(manifestBytes),
-      extensionCount: packageManifest.extensions.length,
-      extensionFileCount: packageManifest.extensions.reduce((sum, extension) => sum + extension.files.length + (extension.upstreamOnlyFiles?.length ?? 0), 0),
-      extensionCompressedBytes: packageManifest.extensions.reduce((sum, extension) => sum + extension.totalCompressedBytes + (extension.upstreamOnlyFiles ?? []).reduce((bytes, file) => bytes + file.bytes, 0), 0),
-      extensionSourceBytes: packageManifest.extensions.reduce((sum, extension) => sum + extension.totalSourceBytes + (extension.upstreamOnlyFiles ?? []).reduce((bytes, file) => bytes + file.sourceBytes, 0), 0),
+      ...summarizeExtensions(packageManifest.extensions),
     })
     collection.authoritativeSupplements = {
       ...(collection.authoritativeSupplements ?? {}),
