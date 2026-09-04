@@ -152,7 +152,22 @@ final class AppConfigurationTests: XCTestCase {
                     expectedRecords: 11_891, expectedUpstreamRecords: 278, label: "ITIS Echinodermata")
             } else if packageId == "molluscs-brachiopods" || packageId == "sponges-cnidarians" {
                 let collections = try XCTUnwrap(package["nomenclatureCollections"] as? [[String: Any]])
-                XCTAssertEqual(collections.count, 1)
+                XCTAssertEqual(collections.count, packageId == "molluscs-brachiopods" ? 2 : 3)
+                if packageId == "molluscs-brachiopods" {
+                    try verifyAuthorityArchiveCollection(
+                        collection: try XCTUnwrap(collections.first { ($0["id"] as? String) == "worms-mollusca-archive-crosswalk" }),
+                        inventory: files, below: dataRoot, expectedFiles: 56, expectedUpstreamFiles: 1,
+                        expectedRecords: 154_718, expectedUpstreamRecords: 1_253, label: "WoRMS Mollusca")
+                } else {
+                    try verifyAuthorityArchiveCollection(
+                        collection: try XCTUnwrap(collections.first { ($0["id"] as? String) == "worms-porifera-archive-crosswalk" }),
+                        inventory: files, below: dataRoot, expectedFiles: 4, expectedUpstreamFiles: 1,
+                        expectedRecords: 9_899, expectedUpstreamRecords: 60, label: "WoRMS Porifera")
+                    try verifyAuthorityArchiveCollection(
+                        collection: try XCTUnwrap(collections.first { ($0["id"] as? String) == "worms-cnidaria-archive-crosswalk" }),
+                        inventory: files, below: dataRoot, expectedFiles: 8, expectedUpstreamFiles: 1,
+                        expectedRecords: 20_622, expectedUpstreamRecords: 1_328, label: "WoRMS Cnidaria")
+                }
                 let isMolluscs = packageId == "molluscs-brachiopods"
                 let collectionId = isMolluscs ? "itis-mollusca-brachiopoda-tsn-crosswalk" : "itis-porifera-cnidaria-tsn-crosswalk"
                 richItisNomenclatureRecords += try verifyRichItisCollection(
@@ -162,6 +177,13 @@ final class AppConfigurationTests: XCTestCase {
                     expectedUpstreamRecords: isMolluscs ? 4_289 : 2_218, label: "ITIS \(packageId)")
             } else if packageId == "crustaceans-insects" || packageId == "trilobites-chelicerates" {
                 let collections = try XCTUnwrap(package["nomenclatureCollections"] as? [[String: Any]])
+                if packageId == "crustaceans-insects" {
+                    XCTAssertEqual(collections.count, 5)
+                    try verifyAuthorityArchiveCollection(
+                        collection: try XCTUnwrap(collections.first { ($0["id"] as? String) == "osf-orthoptera-archive-crosswalk" }),
+                        inventory: files, below: dataRoot, expectedFiles: 11, expectedUpstreamFiles: 1,
+                        expectedRecords: 30_859, expectedUpstreamRecords: 53, label: "OSF Orthoptera")
+                }
                 let expectedIds = packageId == "crustaceans-insects"
                     ? ["itis-insecta-tsn-crosswalk", "itis-crustacea-tsn-crosswalk", "itis-myriapoda-tsn-crosswalk", "itis-collembola-protura-tsn-crosswalk"]
                     : ["itis-chelicerata-tsn-crosswalk"]
@@ -177,7 +199,7 @@ final class AppConfigurationTests: XCTestCase {
                         "bf90e217fa6871bb1e59807b721ed88403c47e9aa2712a782ef40146b906fdf2",
                     ]
                     : ["90383cc2bf44dc092b59c7ed131169317a0a613699aa6485c6f3e9b74decfa3c"]
-                XCTAssertEqual(collections.count, expectedIds.count)
+                XCTAssertEqual(collections.count, expectedIds.count + (packageId == "crustaceans-insects" ? 1 : 0))
                 for index in expectedIds.indices {
                     let collection = try XCTUnwrap(collections.first { ($0["id"] as? String) == expectedIds[index] }, "ITIS collection missing: \(expectedIds[index])")
                     XCTAssertEqual(collection["descriptorSha256"] as? String, expectedDescriptorShas[index])
@@ -643,6 +665,49 @@ final class AppConfigurationTests: XCTestCase {
             XCTAssertEqual(canonical["sha256"] as? String, runtime["sha256"] as? String)
         }
         return expectedRecords
+    }
+
+    private func verifyAuthorityArchiveCollection(collection: [String: Any], inventory: [[String: Any]], below dataRoot: URL,
+                                                  expectedFiles: Int, expectedUpstreamFiles: Int,
+                                                  expectedRecords: Int, expectedUpstreamRecords: Int,
+                                                  label: String) throws {
+        XCTAssertEqual(collection["recordType"] as? String, "release-pinned-authority-archive-crosswalk")
+        XCTAssertEqual((collection["source"] as? [String: Any])?["license"] as? String, "CC-BY-4.0")
+        let delivery = try XCTUnwrap(collection["delivery"] as? [String: Any])
+        XCTAssertEqual(delivery["profile"] as? String, "native-full")
+        XCTAssertEqual(delivery["completeRows"] as? Bool, true)
+        XCTAssertEqual(delivery["publishedFileCount"] as? Int, expectedFiles + expectedUpstreamFiles)
+        XCTAssertEqual(delivery["canonicalFileCount"] as? Int, expectedFiles + expectedUpstreamFiles)
+        let counts = try XCTUnwrap(collection["counts"] as? [String: Any])
+        XCTAssertEqual(counts["total"] as? Int, expectedRecords)
+        XCTAssertEqual(counts["upstreamOnly"] as? Int, expectedUpstreamRecords)
+        let files = try XCTUnwrap(collection["files"] as? [[String: Any]])
+        let upstreamFiles = try XCTUnwrap(collection["upstreamOnlyFiles"] as? [[String: Any]])
+        XCTAssertEqual(files.count, expectedFiles)
+        XCTAssertEqual(upstreamFiles.count, expectedUpstreamFiles)
+        let canonicalInventory = try XCTUnwrap(collection["canonicalFileInventory"] as? [[String: Any]])
+        XCTAssertEqual(canonicalInventory.count, expectedFiles + expectedUpstreamFiles)
+        var records = 0
+        for file in files + upstreamFiles {
+            let path = try XCTUnwrap(file["url"] as? String)
+            let inventoryRecord = try XCTUnwrap(inventory.first { ($0["url"] as? String) == path }, "\\(label) shard missing from release inventory")
+            XCTAssertEqual(file["bytes"] as? Int, inventoryRecord["bytes"] as? Int)
+            XCTAssertEqual(file["sha256"] as? String, inventoryRecord["sha256"] as? String)
+            try verifyBundled(record: inventoryRecord, below: dataRoot)
+            records += try XCTUnwrap(file["records"] as? Int)
+        }
+        XCTAssertEqual(records, expectedRecords + expectedUpstreamRecords, "\\(label) shard records")
+        for canonical in canonicalInventory {
+            let canonicalPath = try XCTUnwrap(canonical["path"] as? String)
+            let canonicalName = String(canonicalPath.split(separator: "/").last ?? "")
+            let runtime = try XCTUnwrap((files + upstreamFiles).first { file in
+                guard let path = file["url"] as? String else { return false }
+                return path.split(separator: "/").last.map(String.init) == canonicalName
+            }, "\\(label) canonical shard inventory mismatch")
+            XCTAssertEqual(canonical["records"] as? Int, runtime["records"] as? Int)
+            XCTAssertEqual(canonical["bytes"] as? Int, runtime["bytes"] as? Int)
+            XCTAssertEqual(canonical["sha256"] as? String, runtime["sha256"] as? String)
+        }
     }
 
     private func verifyBundled(record: [String: Any], below dataRoot: URL) throws {
