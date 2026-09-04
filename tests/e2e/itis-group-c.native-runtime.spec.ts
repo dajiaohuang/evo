@@ -1,7 +1,7 @@
 import { expect, test } from '@playwright/test'
 
 for (const [scope, id, name, tsn, prefix] of [
-  ['Mollusca and Brachiopoda', '329PB', 'Cucumerunio novaehollandiae', '983816', 'itis-mollusca-brachiopoda-sidecar-'],
+  ['Mollusca, Brachiopoda and Graptolithina', '329PB', 'Cucumerunio novaehollandiae', '983816', 'itis-mollusca-brachiopoda-tsn-sidecar-'],
   ['Porifera and Cnidaria', '323D7', 'Cryptotrochus brevipalus', '572011', 'itis-porifera-cnidaria-sidecar-'],
   ['Echinodermata', '325R4', 'Ctenodiscus australis', '989662', 'itis-echinodermata-sidecar-'],
   ['Carnivora', '339RB', 'Cynogale bennettii', '621977', 'itis-tsn-sidecar-'],

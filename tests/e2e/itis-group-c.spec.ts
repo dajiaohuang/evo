@@ -1,7 +1,7 @@
 import { expect, test } from '@playwright/test'
 
 for (const [scope, id, total] of [
-  ['Mollusca and Brachiopoda', '329PB', '159,801'],
+  ['Mollusca, Brachiopoda and Graptolithina', '329PB', '159,801'],
   ['Porifera and Cnidaria', '323D7', '30,521'],
   ['Echinodermata', '325R4', '11,891'],
   ['Carnivora', '339RB', '310'],

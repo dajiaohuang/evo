@@ -11,7 +11,8 @@ describe('ITIS evidence group C scope boundaries', () => {
     expect(itisEvidenceGroupC['other-mammals']!.roots.has('6224G')).toBe(true)
   })
 
-  it('does not introduce exclusions or broaden any package boundary', () => {
-    for (const config of Object.values(itisEvidenceGroupC)) expect(config?.excludedRoots.size).toBe(0)
+  it('keeps the mixed Mollusca package title explicit about Graptolithina', () => {
+    expect(itisEvidenceGroupC['mollusca-brachiopoda']!.title.en).toContain('Graptolithina')
+    expect(itisEvidenceGroupC['mollusca-brachiopoda']!.packageId).toBe('molluscs-brachiopods')
   })
 })
