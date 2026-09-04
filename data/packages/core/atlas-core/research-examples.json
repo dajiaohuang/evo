@@ -208,6 +208,82 @@
       "limitations": [
         "The 247.2 Ma calibration is a rounded latest Olenekian context for Ctenosauriscus GZG.V.4191 from the Upper Middle Buntsandstein near Göttingen, Germany. Its pseudosuchian placement depends on the revised character matrix and sampling is sparse and geographically biased; this is not an exact origin, global FAD, direct ancestry, complete early-archosaur distribution or exact map-marker co-location."
       ]
+    },
+    {
+      "id": "atlas-core-invertebrata-ediacaran-571-map",
+      "type": "explorer-preset",
+      "title": {
+        "en": "Avalon animal assemblage geochronology window",
+        "zh": "阿瓦隆动物组合年代学窗口"
+      },
+      "description": {
+        "en": "Inspect the upper Drook Formation fossil context near a tuff dated to 570.94 ± 0.38 Ma on Newfoundland’s Avalon Peninsula. The approximately 571 Ma route is a rounded temporal anchor; the Mistaken Point tuff dated to 566.25 ± 0.35 Ma is younger and outside this window. Fossil observations, geochronological estimates and biological affinities remain distinct.",
+        "zh": "检查纽芬兰阿瓦隆半岛上部 Drook 组中、邻近 570.94 ± 0.38 Ma 凝灰岩的化石背景。约 571 Ma 的路由是取整的时间入口；测年为 566.25 ± 0.35 Ma 的 Mistaken Point 凝灰岩更年轻，不在此窗口内。化石观察、年代学估计与生物学亲缘解释保持区分。"
+      },
+      "route": "#/explore?taxon=invertebrata&view=map&age=571&older=572&younger=570",
+      "entityIds": [
+        "invertebrata"
+      ],
+      "claimIds": [
+        "claim:taxon:invertebrata:root-range",
+        "claim:event:ediacaran-biota"
+      ],
+      "evidenceStatus": "available-with-limitations",
+      "limitations": [
+        "The approximately 571 Ma age is a directly dated regional Avalon assemblage above the Gaskiers glaciation, not the origin of animals or a global invertebrate FAD; the 635 Ma package ceiling is navigational.",
+        "Invertebrata is an informal evidence anthology, not a clade. Fossil body and trace observations, taxonomic affinities and any reconstruction of marine-shelf ecology are separate claims, and many Ediacaran affinities remain disputed.",
+        "The card names the Newfoundland study context, but the route contains no locality or specimen identifier and does not place those samples on the map. Other displayed markers do not establish that study’s distribution, a continuous lineage or direct ancestry."
+      ]
+    },
+    {
+      "id": "atlas-core-amniota-snowy-plains-358-9-map",
+      "type": "explorer-preset",
+      "title": {
+        "en": "Snowy Plains early Tournaisian track window",
+        "zh": "Snowy Plains 早图尔奈期足迹窗口"
+      },
+      "description": {
+        "en": "Inspect the clawed tracks on slab NMV P258240 from the Home Station Sandstone member of the Snowy Plains Formation at Barjarg, Victoria. The source infers an early Tournaisian age, probably 358.9–354 Ma; 356.45 Ma is only the midpoint used to open this interval. Footprint morphology is observed, while trackmaker identity and crown-amniote placement are interpretations.",
+        "zh": "检查维多利亚州 Barjarg 的 Snowy Plains 组 Home Station 砂岩段石板 NMV P258240 上的具爪足迹。来源推断其为早图尔奈期，可能落在 358.9–354 Ma；356.45 Ma 只是打开该区间的中点。足迹形态是观察，造迹者身份与冠群羊膜动物归属是解释。"
+      },
+      "route": "#/explore?taxon=amniota&view=map&age=356.45&older=358.9&younger=354",
+      "entityIds": [
+        "amniota"
+      ],
+      "claimIds": [
+        "claim:taxon:amniota:root-range"
+      ],
+      "evidenceStatus": "available-with-limitations",
+      "limitations": [
+        "The 358.9–354 Ma envelope is the source’s probable formation-age interval, not a direct radiometric date for the slab or a divergence date. Primitive-sauropsid or near-crown-amniote attribution depends on interpretation of the tracks.",
+        "Claw and manus–pes impressions are direct trace observations, while trackmaker identity, crown placement and any locomotor or terrestrial-ecology reconstruction are interpretation; no molecular clock or body-fossil model is supplied by this scene.",
+        "The route is a temporal and taxon evidence anchor without a locality or specimen identifier; it does not locate the slab on the map or establish a global Amniota FAD/LAD, complete distribution or direct ancestry."
+      ]
+    },
+    {
+      "id": "atlas-core-placentalia-model-envelope",
+      "type": "explorer-preset",
+      "title": {
+        "en": "Placental mammal chronology model envelope",
+        "zh": "胎盘类年代模型包络"
+      },
+      "description": {
+        "en": "Open the reproducible Placentalia Explorer entry to compare Murphy et al.’s 16,397-bp molecular estimate of a roughly 103 Ma deep placental split with O’Leary et al.’s MorphoBank-plus-GenBank phenomic–molecular chronology placing sampled crown diversification after K–Pg. These are model outputs and topology assumptions, not fossil observations or a direct ancestor sequence.",
+        "zh": "打开可复现的胎盘类探索器入口，对比 Murphy 等人基于 16,397 个碱基的分子分析所估计的约 1.03 亿年前胎盘类深部分化，与 O’Leary 等人结合 MorphoBank 形态性状和 GenBank 序列、将所取样冠群多样化置于 K–Pg 之后的年代模型。两者都是模型输出和拓扑假设，不是化石观察或直系祖先序列。"
+      },
+      "route": "#/explore?taxon=placentalia&view=tree",
+      "entityIds": [
+        "placentalia"
+      ],
+      "claimIds": [
+        "claim:taxon:placentalia:root-range"
+      ],
+      "evidenceStatus": "available-with-limitations",
+      "limitations": [
+        "Murphy et al. (2001) and O’Leary et al. (2013) analyze different sampled data and assumptions and yield materially different chronologies; the 100 Ma display ceiling is a rounded model context, not a geological fossil date or global Placentalia FAD.",
+        "Sequence topology, divergence times and reconstructed ancestral phenotypes are model outputs. Fossil occurrence, crown placement and ecological reconstruction are not interchangeable with those outputs, and no sampled taxon is presented as a direct ancestor.",
+        "The route exposes a globally sampled model comparison but cannot establish a complete fossil distribution, exact crown origin, uninterrupted lineage duration or paleogeographic co-registration."
+      ]
     }
   ]
 }
