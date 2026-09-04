@@ -1352,13 +1352,14 @@
   ],
   "generatedBy": {
     "script": "scripts/build-worms-gastrotricha-source.py",
-    "scriptSha256": "f745c38a9a8633474fb82088e9d2fddbacffda0f6dc74629612104acc1435b81"
+    "scriptSha256": "a72994c5729927889113d1dcbbe0d5fcf02ed4a43f7c8bc1b2ef62833dc770ee",
+    "hashNormalization": "LF"
   },
   "outputs": {
     "descriptor": {
       "path": "data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals/worms-gastrotricha-sidecar.json",
-      "bytes": 5606,
-      "sha256": "df5baf8852bd7f9f1f13b475b5af0874e2ed73495266426b23b3cfb1fe8b9488"
+      "bytes": 5598,
+      "sha256": "f8df9c444219a8268b39290fc5a0044733a7ddee914ff2c0116f42a369abeee7"
     },
     "files": [
       {
@@ -1369,7 +1370,7 @@
         "sourceBytes": 2038000,
         "sourceSha256": "75ec62aa6c95be26c1bdc95bd89af8ab0d32f935a88b921019a278afd4ad46a3",
         "encoding": "gzip",
-        "mediaType": "application/x-ndjson",
+        "mediaType": "application/json",
         "role": "col-partition",
         "minColId": "33WDG",
         "maxColId": "Z5DF"
@@ -1384,7 +1385,7 @@
         "sourceBytes": 18267,
         "sourceSha256": "da264ee9fa87f4ee05fb1e86990e683dda007e8a70c2e439d70e0b33fae5b95e",
         "encoding": "gzip",
-        "mediaType": "application/x-ndjson",
+        "mediaType": "application/json",
         "role": "upstream-only"
       }
     ]
