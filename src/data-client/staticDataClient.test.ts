@@ -590,6 +590,7 @@ describe('static runtime release coherence', () => {
     ['molluscs-brachiopods', 'worms-mollusca-archive-crosswalk'],
     ['sponges-cnidarians', 'worms-porifera-archive-crosswalk'],
     ['sponges-cnidarians', 'worms-cnidaria-archive-crosswalk'],
+    ['other-animals', 'worms-annelida-archive-crosswalk'],
     ['crustaceans-insects', 'osf-orthoptera-archive-crosswalk'],
   ] as const)('loads only the selected %s / %s archive range and no row files on Web', async (packageId, collectionId) => {
     Object.defineProperty(globalThis, 'Worker', { configurable: true, value: undefined })
