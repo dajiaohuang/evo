@@ -42,7 +42,7 @@ func TestSearchCataloguePageKeepsOnlyBoundedSortedWindow(t *testing.T) {
 			Files              []CatalogueFile `json:"files"`
 		}{MinimumQueryLength: 3, Files: []CatalogueFile{{Prefix: "abc", Path: "abc"}}}},
 		SearchCache: map[string]SearchShard{
-			"abc": {Records: records, Prefix3: map[string][]CatalogueRecord{"abc": records}},
+			"abc": {Records: records, Prefix3: map[string][]uint32{"abc": {0, 1, 2, 3}}},
 		},
 		SearchLoads: map[string]*searchLoad{},
 	}

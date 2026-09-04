@@ -844,7 +844,10 @@ type CatalogueRecord struct {
 
 type SearchShard struct {
 	Records []CatalogueRecord
-	Prefix3 map[string][]CatalogueRecord
+	// Prefix3 stores record positions instead of copying each record into a
+	// second slice. Search shards can contain many records, so this keeps the
+	// resident prefix index at four bytes per position plus slice overhead.
+	Prefix3 map[string][]uint32
 }
 
 func normalizeQuery(input string) string {
@@ -968,25 +971,11 @@ func (s *Snapshot) SearchCataloguePage(ctx context.Context, query string, offset
 		if err != nil {
 			return nil, 0, err
 		}
-		records := shard.Records
-		if len([]rune(normalized)) >= 3 {
-			key := firstRunes(normalized, 3)
-			if indexed, ok := shard.Prefix3[key]; ok {
-				records = indexed
-			} else {
-				continue
-			}
-		}
-		for recordIndex, record := range records {
-			if recordIndex&1023 == 0 {
-				if err := ctx.Err(); err != nil {
-					return nil, 0, err
-				}
-			}
+		visit := func(record CatalogueRecord) {
 			if strings.HasPrefix(record.NormalizedName, normalized) {
 				total++
 				if window == 0 {
-					continue
+					return
 				}
 				if len(queue.values) < window {
 					heap.Push(queue, record)
@@ -994,6 +983,30 @@ func (s *Snapshot) SearchCataloguePage(ctx context.Context, query string, offset
 					queue.values[0] = record
 					heap.Fix(queue, 0)
 				}
+			}
+		}
+		if len([]rune(normalized)) >= 3 {
+			key := firstRunes(normalized, 3)
+			if indexed, ok := shard.Prefix3[key]; ok {
+				for recordIndex, index := range indexed {
+					if recordIndex&1023 == 0 {
+						if err := ctx.Err(); err != nil {
+							return nil, 0, err
+						}
+					}
+					visit(shard.Records[index])
+				}
+			} else {
+				continue
+			}
+		} else {
+			for recordIndex, record := range shard.Records {
+				if recordIndex&1023 == 0 {
+					if err := ctx.Err(); err != nil {
+						return nil, 0, err
+					}
+				}
+				visit(record)
 			}
 		}
 	}
@@ -1045,13 +1058,13 @@ func (s *Snapshot) searchRecordsContext(ctx context.Context, path string) (Searc
 		return SearchShard{}, err
 	}
 	records := make([]CatalogueRecord, 0, len(values))
-	prefix3 := map[string][]CatalogueRecord{}
+	prefix3 := map[string][]uint32{}
 	for _, raw := range values {
 		var record CatalogueRecord
 		if json.Unmarshal(raw, &record) == nil {
 			records = append(records, record)
 			key := firstRunes(record.NormalizedName, 3)
-			prefix3[key] = append(prefix3[key], record)
+			prefix3[key] = append(prefix3[key], uint32(len(records)-1))
 		}
 	}
 	shard := SearchShard{Records: records, Prefix3: prefix3}
