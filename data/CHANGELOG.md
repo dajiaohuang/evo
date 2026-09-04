@@ -1,5 +1,13 @@
 # Dataset changelog
 
+## App 0.20.53 / 2026.09-static-v5-rc102 — 2026-09-04
+
+- Added six source-bounded research scenes covering the Avalon assemblage, Snowy Plains amniote-track interpretation, competing placental topology models, *Micrina*, *Octopus bimaculoides*, and *Lingula anatina*.
+- Raised Atlas core and Molluscs and brachiopods to 12 scenes each. All 24 rich-content packages now expose at least 12 scenes, for 294 research scenes, 480 scene-to-claim links, and 240 age-driven routes.
+- Local assemblages, trace fossils, molecular topologies, developmental comparisons, and living-taxon observations retain their own evidence boundaries; these entries do not establish global FAD/LAD, direct ancestry, complete distributions, or exact fossil-to-map co-registration.
+- Source review separates the approximately 571 Ma upper Drook context from the approximately 566 Ma Mistaken Point horizon, uses the probable 358.9–354 Ma Snowy Plains interval, and removes unsupported claims that generic map markers locate the cited samples.
+- Regenerated the shared registry and manifest as RC102. Android and iOS advance to build `56` / app `0.20.53`, retaining the complete `native-full` catalogue, authority shards, and 109 lossless 0.1° PaleoDEM frames; Pages remains `web-light`.
+
 ## App 0.20.52 / 2026.09-static-v5-rc101 — 2026-09-01
 
 - Added nine source-bounded, age-driven map scenes: three each for Dinosauria, Crustaceans and insects, and Trilobites and chelicerates. All three packages now expose 12 scenes, raising the atlas from 279 to 288 scenes and from 449 to 470 scene-to-claim links.
