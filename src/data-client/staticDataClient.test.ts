@@ -1105,7 +1105,7 @@ describe('static runtime release coherence', () => {
       upstreamOnly: number
       canonicalFileCount: number
     }> = [
-      { scope: 'mollusca-brachiopoda', packageId: 'molluscs-brachiopods', collectionId: 'itis-mollusca-brachiopoda-tsn-crosswalk', total: 159794, accepted: 7212, redirects: 256, ambiguous: 16, unmatched: 152310, upstreamOnly: 4289, canonicalFileCount: 60 },
+      { scope: 'mollusca-brachiopoda', packageId: 'molluscs-brachiopods', collectionId: 'itis-mollusca-brachiopoda-tsn-crosswalk', total: 159801, accepted: 7219, redirects: 256, ambiguous: 16, unmatched: 152310, upstreamOnly: 4289, canonicalFileCount: 60 },
       { scope: 'porifera-cnidaria', packageId: 'sponges-cnidarians', collectionId: 'itis-porifera-cnidaria-tsn-crosswalk', total: 30521, accepted: 4242, redirects: 50, ambiguous: 3, unmatched: 26226, upstreamOnly: 2218, canonicalFileCount: 6 },
       { scope: 'echinodermata', packageId: 'echinoderms', collectionId: 'itis-echinodermata-tsn-crosswalk', total: 11891, accepted: 3692, redirects: 51, ambiguous: 9, unmatched: 8139, upstreamOnly: 278, canonicalFileCount: 3 },
       { scope: 'crustacea', packageId: 'crustaceans-insects', collectionId: 'itis-crustacea-tsn-crosswalk', total: 80890, accepted: 26395, redirects: 115, ambiguous: 38, unmatched: 54342, upstreamOnly: 5991, canonicalFileCount: 41 },
@@ -1174,6 +1174,51 @@ describe('static runtime release coherence', () => {
       : responseFor(webManifest)))
     const webClient = await import('./staticDataClient')
     await expect(webClient.loadPackageItisAuthorityRecord(contract.scope, 'M001')).rejects.toThrow('full Android/iOS data profile')
+  })
+
+  it('loads the seven represented Rhabdopleura species from the canonical Mollusca package shards', async () => {
+    Object.defineProperty(globalThis, 'Worker', { configurable: true, value: undefined })
+    const descriptor = JSON.parse(readFileSync('data/packages/invertebrata/molluscs-brachiopods/nomenclature/itis-mollusca-brachiopoda-tsn-sidecar.json', 'utf8'))
+    const files = descriptor.colUsageIdLocator.files.map((file: { path: string; firstColUsageId: string; lastColUsageId: string }) => ({
+      ...file, url: `releases/dataset-mollusca/${file.path}`, mediaType: 'application/x-ndjson',
+      minColId: file.firstColUsageId, maxColId: file.lastColUsageId,
+    }))
+    const inventory = [...files, ...descriptor.upstreamOnly.files]
+    const collection = {
+      id: 'itis-mollusca-brachiopoda-tsn-crosswalk', packageId: 'molluscs-brachiopods',
+      provider: 'Integrated Taxonomic Information System', counts: descriptor.counts,
+      files, upstreamOnlyFiles: descriptor.upstreamOnly.files, canonicalFileInventory: inventory,
+      delivery: { profile: 'native-full', completeRows: true, canonicalFileCount: inventory.length, publishedFileCount: inventory.length },
+    }
+    const packageManifest = { packageId: collection.packageId, version: 'dataset-mollusca', files: {}, occurrences: [], nomenclatureCollections: [collection] }
+    const manifestFile = { url: 'releases/dataset-mollusca/packages/molluscs-brachiopods/manifest.json', sha256: await sha256(packageManifest) }
+    const current = { datasetVersion: 'dataset-mollusca', releaseBase: 'releases/dataset-mollusca/', packages: { manifests: { 'molluscs-brachiopods': manifestFile } } }
+    const fetchMock = vi.fn(async (input: RequestInfo | URL) => {
+      const url = String(input)
+      if (url.endsWith('/data/current.json')) return responseFor(current)
+      if (url.endsWith(manifestFile.url)) return responseFor(packageManifest)
+      const file = files.find((candidate: { url: string }) => url.endsWith(candidate.url))
+      if (!file) throw new Error(`Unexpected fixture request: ${url}`)
+      return { ok: true, status: 200, arrayBuffer: async () => Uint8Array.from(readFileSync(file.path)).buffer }
+    })
+    vi.stubGlobal('fetch', fetchMock)
+    const { loadPackageItisAuthorityRecord } = await import('./staticDataClient')
+    for (const [colUsageId, tsn, scientificName] of [
+      ['4RW6T', '206874', 'Rhabdopleura annulata'],
+      ['4RW6V', '993422', 'Rhabdopleura grimaldii'],
+      ['4RW6W', '993495', 'Rhabdopleura manubialis'],
+      ['4RW6X', '993423', 'Rhabdopleura mirabilis'],
+      ['4RW6Y', '158646', 'Rhabdopleura normani'],
+      ['4RW6Z', '993416', 'Rhabdopleura striata'],
+      ['6X49Z', '206873', 'Rhabdopleura compacta'],
+    ]) {
+      await expect(loadPackageItisAuthorityRecord('mollusca-brachiopoda', colUsageId)).resolves.toMatchObject({
+        record: { status: 'accepted', colUsageId, currentName: { tsn, scientificName } },
+        collection: { counts: { total: 159801, accepted: 7219 } },
+      })
+    }
+    // Six records share one shard; the seventh requires only one additional shard.
+    expect(fetchMock.mock.calls.filter(([input]) => String(input).endsWith('.jsonl.gz'))).toHaveLength(2)
   })
 
   it('recognizes the Nematoda and Annelida contracts in the multi-extension other-animals pack', async () => {
