@@ -33,8 +33,9 @@ function RecordDetail({ record, zh }: { record: ItisNomenclatureRecord | null; z
   </>
 }
 
-export function MyriapodaItisEvidence({ colId, packageId, lineageIds, zh }: { colId: string; packageId: string; lineageIds: string[]; zh: boolean }) {
-  const applicable = packageId === 'crustaceans-insects' && lineageIds.some((id) => COL_ROOTS.has(id))
+type MyriapodaItisEvidenceProps = { colId: string; packageId: string; lineageIds: string[]; zh: boolean }
+
+function MyriapodaItisEvidencePanel({ colId, packageId, zh }: MyriapodaItisEvidenceProps) {
   const [expanded, setExpanded] = useState(false)
   const [loading, setLoading] = useState(false)
   const [failed, setFailed] = useState(false)
@@ -44,16 +45,8 @@ export function MyriapodaItisEvidence({ colId, packageId, lineageIds, zh }: { co
   const requestRef = useRef(0)
 
   useEffect(() => {
-    requestRef.current += 1
-    setExpanded(false)
-    setLoading(false)
-    setFailed(false)
-    setCollection(null)
-    setRecord(null)
-    setRowLoaded(false)
-  }, [colId, packageId, lineageIds.join('|')])
-
-  if (!applicable) return null
+    return () => { requestRef.current += 1 }
+  }, [])
 
   const load = async () => {
     if (loading) return
@@ -111,4 +104,11 @@ export function MyriapodaItisEvidence({ colId, packageId, lineageIds, zh }: { co
       </>}
     </div>}
   </details>
+}
+
+export function MyriapodaItisEvidence({ colId, packageId, lineageIds, zh }: MyriapodaItisEvidenceProps) {
+  const applicable = packageId === 'crustaceans-insects' && lineageIds.some((id) => COL_ROOTS.has(id))
+  if (!applicable) return null
+  const identity = `${colId}|${packageId}|${lineageIds.join('|')}`
+  return <MyriapodaItisEvidencePanel key={identity} colId={colId} packageId={packageId} lineageIds={lineageIds} zh={zh} />
 }

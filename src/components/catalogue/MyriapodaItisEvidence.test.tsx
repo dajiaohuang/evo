@@ -48,7 +48,6 @@ describe('Myriapoda ITIS evidence disclosure', () => {
   it('loads summary on Web without treating the absent row as unmatched', async () => {
     loadMetadata.mockResolvedValue(manifestFor(collection))
     const { container } = render(<MyriapodaItisEvidence colId="93ABC" packageId="crustaceans-insects" lineageIds={['93']} zh={false} />)
-    const details = container.querySelector('details')!
     openDetails(container)
     await screen.findByText('A name crosswalk, not an extantness audit.')
     expect(loadMetadata).toHaveBeenCalledWith('crustaceans-insects')
@@ -61,7 +60,6 @@ describe('Myriapoda ITIS evidence disclosure', () => {
     loadMetadata.mockResolvedValue(manifestFor(native))
     loadRecord.mockResolvedValue({ collection: native, record: acceptedRecord })
     const { container } = render(<MyriapodaItisEvidence colId="93ABC" packageId="crustaceans-insects" lineageIds={['L2G4H']} zh={false} />)
-    const details = container.querySelector('details')!
     openDetails(container)
     await screen.findByText('Exact accepted-name match')
     expect(loadRecord).toHaveBeenCalledWith('myriapoda', '93ABC')
