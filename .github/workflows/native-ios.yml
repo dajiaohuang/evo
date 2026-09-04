@@ -1,0 +1,56 @@
+name: Native iOS
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: native-ios-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  ios-tests:
+    runs-on: macos-26
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - name: Stage full mobile data
+        run: npm run mobile:sync
+      - name: Select an available iPhone simulator
+        id: simulator
+        shell: bash
+        run: |
+          set -euo pipefail
+          udid="$(xcrun simctl list devices available | awk -F '[()]' '/iPhone 17 Pro \(/ { print $2; exit }')"
+          if [[ -z "$udid" ]]; then
+            udid="$(xcrun simctl list devices available | awk -F '[()]' '/iPhone .* \(/ { print $2; exit }')"
+          fi
+          [[ -n "$udid" ]] || { echo 'No available iPhone simulator found' >&2; exit 1; }
+          echo "udid=$udid" >> "$GITHUB_OUTPUT"
+      - name: Run hosted AppTests
+        run: >-
+          xcodebuild test
+          -project ios/App/App.xcodeproj
+          -scheme App
+          -configuration Debug
+          -destination "platform=iOS Simulator,id=${{ steps.simulator.outputs.udid }}"
+          -derivedDataPath ios/build
+          -resultBundlePath ios/AppTests.xcresult
+          CODE_SIGNING_ALLOWED=NO CODE_SIGNING_REQUIRED=NO
+      - name: Upload XCTest result bundle
+        if: always()
+        uses: actions/upload-artifact@v7
+        with:
+          name: ios-tests-xcresult
+          path: ios/AppTests.xcresult
+          if-no-files-found: ignore
+          retention-days: 7
