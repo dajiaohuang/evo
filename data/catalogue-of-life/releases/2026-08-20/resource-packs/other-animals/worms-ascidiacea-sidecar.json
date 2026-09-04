@@ -19,7 +19,10 @@
     "license": "CC-BY-4.0",
     "sourceLedgerPath": "data/sources/worms-ascidiacea-1186-import-ledger.json",
     "archivePath": "data/sources/archives/checklistbank-1186-ascidiacea-2026-09-01.zip",
-    "metadataPath": "data/sources/archives/checklistbank-1186-ascidiacea-2026-09-01.metadata.json"
+    "metadataPath": "data/sources/archives/checklistbank-1186-ascidiacea-2026-09-01.metadata.json",
+    "datasetId": "1186",
+    "metadataSha256": "c97e6682634c2e90034cf1c6cf90b0d5b821392d96b5de11ca8b5e157cd291fb",
+    "metadataBytes": 3728
   },
   "scope": {
     "colRootUsageId": "B8V3P",
@@ -28,12 +31,12 @@
     "excludedParentClosureSpecies": {
       "1178": 68,
       "1185": 78
-    }
+    },
+    "sourceDatasetId": "1186"
   },
   "counts": {
     "total": 3000,
     "records": 3000,
-    "bytes": 850416,
     "accepted": 3000,
     "redirect": 0,
     "ambiguous": 0,
@@ -49,7 +52,7 @@
       "sha256": "6f67d9e524d81c6ca312c8d0400e0892d802e0db0561f8ed68425853634b8189",
       "sourceBytes": 2092702,
       "sourceSha256": "39853d1f09095894da19031790b3516ff93a043ee662553e3c35628b05b0ddb1",
-      "role": "authority-crosswalk",
+      "role": "col-partition",
       "encoding": "gzip",
       "mediaType": "application/json",
       "minColId": "327YW",
@@ -62,7 +65,7 @@
       "sha256": "ec9e62ef3f25e1e29dd160f36d1630dd55c403db34ffe87718acdb705d2fe584",
       "sourceBytes": 2091527,
       "sourceSha256": "fe89869d664c23ce6cdc51863e634bbff702f7f986a0b1089af4bb808842dd8f",
-      "role": "authority-crosswalk",
+      "role": "col-partition",
       "encoding": "gzip",
       "mediaType": "application/json",
       "minColId": "3JF5M",
@@ -75,7 +78,7 @@
       "sha256": "e1969cd660394100f25c0e66f6c3de269e7b789d64878e5bab5acee8c3c5ec95",
       "sourceBytes": 2096952,
       "sourceSha256": "7fdbdfb8707790f606319bef18c16fbb6eb7157c9a28dce642306907c149e248",
-      "role": "authority-crosswalk",
+      "role": "col-partition",
       "encoding": "gzip",
       "mediaType": "application/json",
       "minColId": "4L3B2",
@@ -88,7 +91,7 @@
       "sha256": "5f93f5b0ca3dd681d08a9129040cb4cd114be5cbb3c9aca0e4dba0ba1008859d",
       "sourceBytes": 2094511,
       "sourceSha256": "dec6d2403078f97fbb67cdd9ca5c8ffb09639a32f1e79a83a6c2b8cacf8bd8b2",
-      "role": "authority-crosswalk",
+      "role": "col-partition",
       "encoding": "gzip",
       "mediaType": "application/json",
       "minColId": "53XZS",
@@ -101,7 +104,7 @@
       "sha256": "86b965716caad0a3b590b8220ebfd2deb86e9ac536e40fd654b90e0bbc0e7069",
       "sourceBytes": 2095998,
       "sourceSha256": "0df4be311911bffd311d21c2e6f766482f706b725a17349f41831ce4e4be0ef3",
-      "role": "authority-crosswalk",
+      "role": "col-partition",
       "encoding": "gzip",
       "mediaType": "application/json",
       "minColId": "6RFTF",
@@ -114,7 +117,7 @@
       "sha256": "013cd67dd6dfa8142379c89ae370066ce587b7cb286800e26dd535203989115d",
       "sourceBytes": 2014380,
       "sourceSha256": "701f46f0351bea065e9ea63a562481b5066a4607773720946bcebfbd3a0f370c",
-      "role": "authority-crosswalk",
+      "role": "col-partition",
       "encoding": "gzip",
       "mediaType": "application/json",
       "minColId": "FNYW",
@@ -125,16 +128,10 @@
   "deliveryProfiles": {
     "web-light": {
       "mode": "summary-only",
-      "records": 3000,
-      "files": [
-        "other-animals/worms-ascidiacea-000.json.gz",
-        "other-animals/worms-ascidiacea-001.json.gz",
-        "other-animals/worms-ascidiacea-002.json.gz",
-        "other-animals/worms-ascidiacea-003.json.gz",
-        "other-animals/worms-ascidiacea-004.json.gz",
-        "other-animals/worms-ascidiacea-005.json.gz"
-      ],
-      "bytes": 850416
+      "records": 0,
+      "files": [],
+      "totalCompressedBytes": 0,
+      "totalSourceBytes": 0
     },
     "native-full": {
       "mode": "complete",
@@ -147,7 +144,8 @@
         "other-animals/worms-ascidiacea-004.json.gz",
         "other-animals/worms-ascidiacea-005.json.gz"
       ],
-      "bytes": 850416
+      "totalCompressedBytes": 850416,
+      "totalSourceBytes": 12486070
     }
   },
   "matching": {
@@ -155,6 +153,13 @@
     "prohibited": "No fuzzy or inferred matching."
   },
   "evidenceBoundary": {
-    "en": "Frozen exact nomenclatural crosswalk; not species-concept equivalence, biological dossier or expert review."
-  }
+    "en": "Frozen exact nomenclatural crosswalk; not species-concept equivalence, biological dossier or expert review.",
+    "zh": "冻结的命名与原始来源对照；不是物种概念等同性、完整生物档案或专家审查。"
+  },
+  "totalCompressedBytes": 850416,
+  "totalSourceBytes": 12486070,
+  "limitations": [
+    "Name.status is original nomenclatural metadata; acceptance comes from nonprovisional Taxon membership.",
+    "Matched names do not establish species-concept equivalence."
+  ]
 }
