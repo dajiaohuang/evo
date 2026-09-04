@@ -2,6 +2,7 @@ import { mkdtempSync, readdirSync, readFileSync, rmSync, statSync } from 'node:f
 import { tmpdir } from 'node:os'
 import { join, relative, resolve } from 'node:path'
 import { spawnSync } from 'node:child_process'
+import { gunzipSync } from 'node:zlib'
 import { describe, expect, it } from 'vitest'
 
 const root = resolve(process.cwd())
@@ -41,9 +42,22 @@ describe('WoRMS Bryozoa 1081 importer', () => {
         expect(readFileSync(join(first, file))).toEqual(readFileSync(join(second, file)))
       }
       const descriptor = JSON.parse(readFileSync(join(first, 'data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals/worms-bryozoa-sidecar.json'), 'utf8'))
+      const ledger = JSON.parse(readFileSync(join(first, 'data/sources/worms-bryozoa-1081-import-ledger.json'), 'utf8'))
       expect(descriptor.counts).toMatchObject({ total: 20367, accepted: 20311, redirect: 6, unmatched: 50, upstreamOnly: 216 })
       expect(descriptor.source.archiveSha256).toBe('93081ce57720a84ca271126c5d748a9d2663a1ffc1d900b3fb380f94c696c0fb')
       expect(descriptor.scope.colRootUsageId).toBe('622CG')
+      expect(ledger.scope).toMatchObject({ eligibleColSpecies: 20367, sourceSpeciesRankTaxa: 20569, sourceStrictAcceptedSpecies: 20533, provisionalExcluded: 36 })
+      expect(ledger.colInput.nodeShards).toHaveLength(256)
+      const rows = descriptor.files.flatMap((file) => JSON.parse(gunzipSync(readFileSync(join(first, 'data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals', file.path.split('/').pop()))).toString('utf8')))
+      const redirect = rows.find((row) => row.status === 'redirect')
+      expect(redirect?.matchedName?.status).toBe('synonym')
+      expect(redirect?.matchedName?.scientificName).toBeTruthy()
+      expect(redirect?.matchedName?.sourceRows).toEqual(expect.arrayContaining([
+        expect.objectContaining({ member: 'Synonym.txt' }), expect.objectContaining({ member: 'Name.txt' }),
+      ]))
+      expect(redirect?.acceptedName?.status).toBe('accepted')
+      const referenced = rows.find((row) => row.acceptedName?.referenceRows?.length)
+      expect(referenced?.acceptedName?.referenceRows?.[0]).toEqual(expect.objectContaining({ member: 'Reference.txt' }))
     } finally {
       rmSync(first, { recursive: true, force: true })
       rmSync(second, { recursive: true, force: true })
