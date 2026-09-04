@@ -8,7 +8,7 @@ for (const [id, scope] of [
     await page.addInitScript(() => window.localStorage.setItem('evo-atlas-language', 'en'))
     const archiveRequests: string[] = []
     page.on('request', (request) => {
-      if (/\/(?:worms-(?:mollusca|porifera|cnidaria)|osf-orthoptera)-(?:upstream-only-)?\d{3}\.json\.gz/.test(request.url())) archiveRequests.push(request.url())
+      if (/\/(?:worms-(?:mollusca|porifera|cnidaria|annelida)|osf-orthoptera)-(?:upstream-only-)?\d{3}\.json\.gz/.test(request.url())) archiveRequests.push(request.url())
     })
     await page.goto(`./#/registry?release=COL26.8&id=${id}`)
     const details = page.locator('.catalogue-authority-disclosure')

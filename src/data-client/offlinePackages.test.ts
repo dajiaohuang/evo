@@ -213,6 +213,10 @@ describe('complete Atlas offline storage', () => {
     stored.clear()
     pack.extensions[0].files = []
     pack.extensions[0].upstreamOnlyFiles = []
+    // Model a new page load of the Web projection, not a mid-release mutation
+    // of an already cached native manifest.
+    const { clearRuntimeMemoryCache } = await import('./staticDataClient')
+    clearRuntimeMemoryCache()
     await saveCatalogueResourcePackOffline('archaea')
     expect([...stored.keys()].some((url) => url.endsWith(lpsnFile.url))).toBe(false)
     expect([...stored.keys()].some((url) => url.endsWith(sourceOnlyFile.url))).toBe(false)

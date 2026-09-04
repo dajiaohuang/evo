@@ -148,7 +148,7 @@ describe('COL26.8 static nomenclatural resource packs', () => {
 
   it('publishes every Other Animals ITIS summary and native-full file inventory', () => {
     const descriptor = collection.packs.find((pack) => pack.packageId === 'other-animals')
-    expect(descriptor).toMatchObject({ acceptedSpeciesCount: 99161, fileCount: 4, extensionCount: 28, extensionFileCount: 70 })
+    expect(descriptor).toMatchObject({ acceptedSpeciesCount: 99161, fileCount: 4, extensionCount: 29, extensionFileCount: 79 })
     const manifest = JSON.parse(readFileSync(join(resourcePacksRoot, descriptor.manifestPath), 'utf8'))
     const extension = manifest.extensions.find((candidate) => candidate.id === 'itis-phoronida-tsn-crosswalk')
     expect(extension).toMatchObject({
@@ -176,5 +176,18 @@ describe('COL26.8 static nomenclatural resource packs', () => {
         'native-full': { payload: 'complete', records: 24074 },
       },
     })
+    const worms = manifest.extensions.find((candidate) => candidate.id === 'worms-annelida-archive-crosswalk')
+    expect(worms).toMatchObject({
+      counts: { total: 18982, records: 20072, accepted: 18791, redirect: 29, ambiguous: 0, unmatched: 160, withheld: 2, upstreamOnly: 1090 },
+      scope: { colRootUsageId: 'NN', wormsRootId: '882', excludedPackageRemainder: 80179 },
+      deliveryProfiles: { 'web-light': { payload: 'summary-only', files: [], records: 0 }, 'native-full': { payload: 'complete', records: 20072 } },
+    })
+    expect(worms.files).toHaveLength(8)
+    expect(worms.upstreamOnlyFiles).toHaveLength(1)
+    for (const file of [...worms.files, ...worms.upstreamOnlyFiles]) {
+      const bytes = readFileSync(join(resourcePacksRoot, file.path))
+      expect(sha256(bytes)).toBe(file.sha256)
+      expect(JSON.parse(gunzipSync(bytes))).toHaveLength(file.records)
+    }
   })
 })

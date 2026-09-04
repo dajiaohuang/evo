@@ -350,8 +350,18 @@ const expectedOtherAnimalAuthorities = {
   'itis-nematoda-tsn-crosswalk': { files: 4, records: 20849 },
   'itis-annelida-tsn-crosswalk': { files: 4, records: 24074 },
 }
-if (otherAnimalsManifest.extensions?.length !== Object.keys(expectedOtherAnimalAuthorities).length) {
-  throw new Error('Mobile build must stage every declared other-animals ITIS authority collection')
+if (otherAnimalsManifest.extensions?.length !== Object.keys(expectedOtherAnimalAuthorities).length + 1) {
+  throw new Error('Mobile build must stage every declared other-animals ITIS and WoRMS authority collection')
+}
+const annelidaArchive = otherAnimalsManifest.extensions.find((extension) => extension.id === 'worms-annelida-archive-crosswalk')
+const annelidaArchiveFiles = [...(annelidaArchive?.files ?? []), ...(annelidaArchive?.upstreamOnlyFiles ?? [])]
+if (!annelidaArchive || annelidaArchive.source?.license !== 'CC-BY-4.0'
+  || annelidaArchive.delivery?.profile !== 'native-full' || !annelidaArchive.delivery.completeRows
+  || annelidaArchive.files.length !== 8 || annelidaArchive.upstreamOnlyFiles.length !== 1
+  || annelidaArchive.delivery.publishedFileCount !== 9 || annelidaArchive.delivery.canonicalFileCount !== 9
+  || annelidaArchiveFiles.reduce((sum, file) => sum + file.records, 0) !== 20072
+  || annelidaArchiveFiles.some((file) => !releaseFiles.files.some((entry) => entry.url === file.url && entry.bytes === file.bytes && entry.sha256 === file.sha256))) {
+  throw new Error('Mobile build must stage every WoRMS Annelida COL and source-only archive shard')
 }
 for (const [id, expected] of Object.entries(expectedOtherAnimalAuthorities)) {
   const authority = otherAnimalsManifest.extensions?.find((extension) => extension.id === id)
