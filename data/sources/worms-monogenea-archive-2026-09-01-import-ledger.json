@@ -3,7 +3,7 @@
   "importType": "COL26.8-to-WoRMS-Monogenea-archive-crosswalk",
   "generatedBy": {
     "script": "scripts/build-worms-monogenea-source.py",
-    "scriptSha256": "0aee9c5f68464e7041ec9f8eef65b4eddab414e56c9b55c7b3a3c46a3ad88a08"
+    "scriptSha256": "f40880c6405ed4febd628a49a40bbedccd074f9e7022c54baa42a9781d5ee89e"
   },
   "source": {
     "archiveUrl": "https://api.checklistbank.org/dataset/1126/archive",
@@ -67,7 +67,8 @@
     "license": "CC-BY-4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
     "provider": "World Register of Marine Species via ChecklistBank",
-    "retrievedAt": "2026-09-04"
+    "retrievedAt": "2026-09-04",
+    "provisionalAcceptedSpecies": 0
   },
   "sourceMembers": {
     "archive.bin": {
@@ -109,8 +110,8 @@
   },
   "output": {
     "descriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals/worms-monogenea-sidecar.json",
-    "descriptorBytes": 14294,
-    "descriptorSha256": "430925148b021fe8c898a3395d73701a61fd0712b06bdad98fe9c30e911ecdb8",
+    "descriptorBytes": 14331,
+    "descriptorSha256": "5ad9a51ea42fd74c0f93182c8f730569fe3db12a7810be0674caa664aeae2da6",
     "files": [
       {
         "path": "other-animals/worms-monogenea-000.json.gz",
