@@ -28,16 +28,16 @@ class TurbellariaProjectionTests(unittest.TestCase):
             self.assertEqual(canonical_ledger.read_bytes(), ledger_before)
             rows = sum((json.loads(gzip.decompress((roots[0] / p['path'].split('/')[-1]).read_bytes())) for p in descriptor['files']), [])
             source_only = sum((json.loads(gzip.decompress((roots[0] / p['path'].split('/')[-1]).read_bytes())) for p in descriptor['upstreamOnlyFiles']), [])
-            self.assertEqual(len(rows), 6469)
-            self.assertEqual(len(source_only), 69)
-            self.assertEqual(descriptor['counts'], {'total': 6469, 'accepted': 6454, 'redirect': 0,
+            self.assertEqual(len(rows), 6508)
+            self.assertEqual(len(source_only), 30)
+            self.assertEqual(descriptor['counts'], {'total': 6508, 'accepted': 6493, 'redirect': 0,
                                                     'ambiguous': 0, 'unmatched': 15, 'withheld': 0,
-                                                    'upstreamOnly': 69, 'records': 6538})
+                                                    'upstreamOnly': 30, 'records': 6538})
             self.assertEqual(descriptor['source']['archiveSha256'], mod.ARCHIVE_SHA)
             self.assertEqual(descriptor['source']['archiveBytes'], mod.ARCHIVE_BYTES)
             self.assertTrue(all(p['sourceBytes'] <= mod.SHARD_LIMIT for p in descriptor['files'] + descriptor['upstreamOnlyFiles']))
-            self.assertEqual(sum(p['records'] for p in descriptor['files']), 6469)
-            self.assertEqual(sum(p['records'] for p in descriptor['upstreamOnlyFiles']), 69)
+            self.assertEqual(sum(p['records'] for p in descriptor['files']), 6508)
+            self.assertEqual(sum(p['records'] for p in descriptor['upstreamOnlyFiles']), 30)
             for p in descriptor['files'] + descriptor['upstreamOnlyFiles']:
                 self.assertEqual(p['sha256'], hashlib.sha256((roots[0] / p['path'].split('/')[-1]).read_bytes()).hexdigest())
             self.assertTrue(all(row['status'] != 'redirect' for row in rows))
