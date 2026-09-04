@@ -8,10 +8,8 @@ ARCHIVE_BYTES = 105464
 ARCHIVE_URL = 'https://api.checklistbank.org/dataset/298081/archive'
 METADATA_SHA = '351079ab9b22f8a49327154cfbb3542268b539a886eeb682107c8b950976e201'
 COL_ROOT = '5Y'
-LIMIT = 2 * 1024 * 1024
-
 def sha(data): return hashlib.sha256(data).hexdigest()
-def norm(value): return ' '.join(unicodedata.normalize('NFC', value or '').replace('_', ' ').split())
+def norm(value): return ' '.join(unicodedata.normalize('NFC', value or '').split())
 def bare(row):
     name, author = row.get('scientificName', ''), row.get('authorship', '') or ''
     return name[:-len(author)-1] if author and name.endswith(' ' + author) else name
@@ -34,7 +32,7 @@ def read_source(path):
                if r.get('rank') == 'species' and r.get('status') == 'valid']
     return species, {'NameUsage.tsv': {'bytes': len(raw), 'sha256': sha(raw), 'rows': len(rows)}}
 
-def read_col():
+def read_col(output_root):
     reg = ROOT / 'data/catalogue-of-life/releases/2026-08-20/registry'
     manifest = (reg / 'manifest.json').read_bytes()
     files = json.loads(manifest.decode('utf-8'))['hierarchy']['nodes']['files']
@@ -49,7 +47,7 @@ def read_col():
                 r = json.loads(line)
                 if r.get('rank') == 'species' and r.get('status') == 'accepted' and root_for(r.get('parentId'), parents):
                     rows[r['id']] = r
-    return rows, sha(manifest)
+    return rows, sha(manifest), [{'path': f['path'], 'records': f['records'], 'bytes': f['bytes'], 'sha256': f['sha256'], 'sourceBytes': f['sourceBytes'], 'sourceSha256': f['sourceSha256']} for f in files]
 
 def source_obj(r):
     return {'id': r['ID'], 'scientificName': r['scientificName'], 'authorship': r.get('authorship') or '',
@@ -57,12 +55,12 @@ def source_obj(r):
             'link': r.get('link') or '', 'publishedInYear': r.get('publishedInYear') or ''}
 
 def main():
-    ap = argparse.ArgumentParser(); ap.add_argument('--archive', type=Path, required=True); ap.add_argument('--metadata', type=Path, required=True); ap.add_argument('--output-root', type=Path, required=True); args = ap.parse_args()
+    ap = argparse.ArgumentParser(); ap.add_argument('--archive', type=Path, required=True); ap.add_argument('--metadata', type=Path, required=True); ap.add_argument('--output-root', type=Path, default=ROOT); args = ap.parse_args()
     archive = args.archive.read_bytes()
     if len(archive) != ARCHIVE_BYTES or sha(archive) != ARCHIVE_SHA: raise ValueError('archive does not match pinned bytes')
     metadata = args.metadata.read_bytes()
     if sha(metadata) != METADATA_SHA: raise ValueError('metadata does not match pinned bytes')
-    source, members = read_source(args.archive); col, col_manifest_sha = read_col()
+    source, members = read_source(args.archive); col, col_manifest_sha, col_files = read_col(args.output_root)
     bykey = {}
     for r in source: bykey.setdefault(key(r['scientificName'], r.get('authorship')), []).append(r)
     records, used = [], set(); counts = {x: 0 for x in ('accepted','redirect','ambiguous','unmatched','withheld')}
@@ -79,14 +77,18 @@ def main():
     upstream = [{'colId': None, 'colScientificName': None, 'colAuthorship': None, 'status': 'upstream-only', 'matchedName': None,
                  'acceptedName': source_obj(r), 'candidates': [], 'mappingBasis': 'Valid source species not implicated by an exact COL Rotifera row; not global novelty.',
                  'sourceRows': [{'member': 'NameUsage.tsv', 'row': r['_ordinal']}]} for r in source if r['ID'] not in used]
-    out = args.output_root; out.mkdir(parents=True, exist_ok=True)
+    out = args.output_root / 'data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals'; out.mkdir(parents=True, exist_ok=True)
     def write(name, rows):
         raw = enc(rows); data = gzip.compress(raw, compresslevel=9, mtime=0); data = data[:9] + bytes([255]) + data[10:]
         (out / name).write_bytes(data); return {'path': 'other-animals/' + name, 'records': len(rows), 'bytes': len(data), 'sha256': sha(data), 'sourceBytes': len(raw), 'sourceSha256': sha(raw)}
     files = [write('worms-rotifera-000.json.gz', records)]; upstream_files = [write('worms-rotifera-upstream-only-000.json.gz', upstream)] if upstream else []
-    ledger = {'schemaVersion': 1, 'importType': 'COL26.8-to-Rotifer-World-Catalogue-archive-crosswalk', 'source': {'provider': 'Rotifer World Catalogue via ChecklistBank', 'datasetId': 298081, 'version': '1.0', 'versionDoi': '10.48580/dg8gp', 'license': 'CC-BY-4.0', 'archiveUrl': ARCHIVE_URL, 'archiveBytes': len(archive), 'archiveSha256': sha(archive), 'retrievedAt': '2026-09-04T16:42:42.756135Z', 'members': members}, 'metadataSha256': sha(metadata), 'registryManifestSha256': col_manifest_sha, 'scope': {'colRootUsageId': COL_ROOT, 'eligibleColSpecies': len(col), 'validSourceSpecies': len(source), 'sourceStatusRule': "rank == species and status == valid"}}
-    ledger_path = ROOT / 'data/sources/rotifera-298081-import-ledger.json'; ledger_path.parent.mkdir(parents=True, exist_ok=True); ledger_bytes = enc(ledger, True); ledger_path.write_bytes(ledger_bytes)
-    desc = {'schemaVersion': 1, 'recordType': 'release-pinned-authority-archive-crosswalk', 'id': 'rotifera-298081-archive-crosswalk', 'packageId': 'other-animals', 'provider': 'Rotifer World Catalogue via ChecklistBank', 'rowEncoding': 'json', 'encoding': 'gzip', 'mediaType': 'application/json', 'colIdField': 'colId', 'totalCountField': 'total', 'source': {'datasetId': 298081, 'version': '1.0', 'versionDoi': '10.48580/dg8gp', 'license': 'CC-BY-4.0', 'archiveUrl': ARCHIVE_URL, 'archiveBytes': len(archive), 'archiveSha256': sha(archive), 'metadataSha256': sha(metadata), 'sourceLedgerPath': 'data/sources/rotifera-298081-import-ledger.json', 'sourceLedgerSha256': sha(ledger_bytes), 'members': members}, 'scope': {'colRootUsageId': COL_ROOT, 'colStrictAcceptedSpecies': len(col), 'validSourceSpecies': len(source)}, 'matching': {'prohibited': 'No synonym, fuzzy, case-folded, diacritic-stripped or species-concept matching.'}, 'counts': {'total': len(records), **counts, 'upstreamOnly': len(upstream)}, 'files': files, 'upstreamOnlyFiles': upstream_files, 'evidenceBoundary': {'en': 'A frozen exact nomenclatural crosswalk, not a global checklist or species-concept equivalence claim.'}, 'limitations': ['Invalid, synonym and bare-name source rows are retained only in the frozen input evidence and are not promoted to accepted species.', 'Source-only rows are not claims of global novelty.']}
+    ledger = {'schemaVersion': 1, 'importType': 'COL26.8-to-Rotifer-World-Catalogue-archive-crosswalk', 'source': {'provider': 'Rotifer World Catalogue via ChecklistBank', 'datasetId': 298081, 'version': '1.0', 'versionDoi': '10.48580/dg8gp', 'license': 'CC-BY-4.0', 'archiveUrl': ARCHIVE_URL, 'archiveBytes': len(archive), 'archiveSha256': sha(archive), 'retrievedAt': '2026-09-04T16:42:42.756135Z', 'members': members}, 'metadataSha256': sha(metadata), 'registryManifestSha256': col_manifest_sha, 'scope': {'colRootUsageId': COL_ROOT, 'sourceDatasetId': 298081, 'eligibleColSpecies': len(col), 'validSourceSpecies': len(source), 'sourceStatusRule': "rank == species and status == valid"}}
+    ledger['source']['archivePath'] = 'data/sources/archives/checklistbank-298081-rotifera-2026-09-05.zip'; ledger['source']['metadataPath'] = 'data/sources/archives/checklistbank-298081-rotifera-2026-09-05.metadata.json'; ledger['colInputFiles'] = col_files; ledger['generatedBy'] = {'script': 'scripts/build-worms-rotifera-source.py'}
+    ledger_path = args.output_root / 'data/sources/rotifera-298081-import-ledger.json'; ledger_path.parent.mkdir(parents=True, exist_ok=True); ledger_bytes = enc(ledger, True); ledger_path.write_bytes(ledger_bytes)
+    desc = {'schemaVersion': 1, 'recordType': 'release-pinned-authority-archive-crosswalk', 'id': 'rotifera-298081-archive-crosswalk', 'packageId': 'other-animals', 'provider': 'Rotifer World Catalogue via ChecklistBank', 'rowEncoding': 'json', 'encoding': 'gzip', 'mediaType': 'application/json', 'colIdField': 'colId', 'totalCountField': 'total', 'source': {'datasetId': 298081, 'version': '1.0', 'versionDoi': '10.48580/dg8gp', 'license': 'CC-BY-4.0', 'archiveUrl': ARCHIVE_URL, 'archiveBytes': len(archive), 'archiveSha256': sha(archive), 'metadataSha256': sha(metadata), 'sourceLedgerPath': 'data/sources/rotifera-298081-import-ledger.json', 'sourceLedgerSha256': sha(ledger_bytes), 'members': members}, 'scope': {'colRootUsageId': COL_ROOT, 'sourceDatasetId': 298081, 'colStrictAcceptedSpecies': len(col), 'validSourceSpecies': len(source)}, 'matching': {'prohibited': 'No synonym, fuzzy, case-folded, diacritic-stripped or species-concept matching.'}, 'counts': {'total': len(records), **counts, 'upstreamOnly': len(upstream)}, 'files': files, 'upstreamOnlyFiles': upstream_files, 'evidenceBoundary': {'en': 'A frozen exact nomenclatural crosswalk, not a global checklist or species-concept equivalence claim.'}, 'limitations': ['Invalid, synonym and bare-name source rows are retained only in the frozen input evidence and are not promoted to accepted species.', 'Source-only rows are not claims of global novelty.']}
+    desc['source']['archivePath'] = 'data/sources/archives/checklistbank-298081-rotifera-2026-09-05.zip'; desc['source']['metadataPath'] = 'data/sources/archives/checklistbank-298081-rotifera-2026-09-05.metadata.json'; desc['deliveryProfiles'] = {'web-light': {'payload': 'summary-only', 'records': 0, 'files': []}, 'native-full': {'payload': 'complete', 'records': len(records) + len(upstream), 'files': files + upstream_files}}
+    for item in desc['files'] + desc['upstreamOnlyFiles']:
+        item.update(encoding='gzip', mediaType='application/json', role='native-full')
     (out / 'worms-rotifera-sidecar.json').write_bytes(enc(desc, True)); print(json.dumps(desc['counts']))
 
 if __name__ == '__main__': main()
