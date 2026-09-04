@@ -805,15 +805,11 @@ final class AppConfigurationTests: XCTestCase {
 
     @MainActor
     private func evaluateAsync(_ script: String, in webView: WKWebView) async throws -> Any? {
-        try await withCheckedThrowingContinuation { continuation in
-            webView.callAsyncJavaScript(
-                script,
-                arguments: [:],
-                in: nil,
-                contentWorld: .page
-            ) { result in
-                continuation.resume(with: result)
-            }
-        }
+        try await webView.callAsyncJavaScript(
+            script,
+            arguments: [:],
+            in: nil,
+            contentWorld: .page
+        )
     }
 }
