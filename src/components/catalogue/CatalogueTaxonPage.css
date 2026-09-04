@@ -81,6 +81,11 @@
 .catalogue-source-card div { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 15px; }
 .catalogue-source-card a, .catalogue-upstream-link { color: var(--color-accent); font: 8px var(--font-mono); text-decoration: none; text-transform: uppercase; }
 .catalogue-upstream-link { display: inline-block; margin-top: 20px; }
+.catalogue-authority-disclosure p { font-size: 13px; line-height: 1.65; }
+.catalogue-authority-disclosure .catalogue-source-card > span,
+.catalogue-authority-disclosure .catalogue-source-card a,
+.catalogue-authority-disclosure dt { font-size: 11px; line-height: 1.5; text-transform: none; }
+.catalogue-authority-disclosure dd { font-size: 13px; }
 
 @media (max-width: 820px) {
   .catalogue-taxon-heading, .catalogue-taxon-grid { grid-template-columns: 1fr; }

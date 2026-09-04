@@ -112,7 +112,7 @@ const expectedRichItisCollections = {
     },
     'itis-myriapoda-tsn-crosswalk': {
       files: 3, upstreamFiles: 1, records: 17351, upstreamRecords: 544,
-      descriptorSha256: 'e9bab54cc70d97d2ca9ce5284c1927f32aec35ef76e16e63cad488d2185ec0c6',
+      descriptorSha256: 'd2f836dc4b21afffb7fe1dbfcc9826556895a1fecff707ef514f69bc2053a296',
       arthropod: true,
     },
     'itis-collembola-protura-tsn-crosswalk': {

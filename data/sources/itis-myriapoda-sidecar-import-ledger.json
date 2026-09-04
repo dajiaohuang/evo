@@ -26,7 +26,7 @@
     "colLivingAcceptedSpecies": 17351,
     "packageStrictAcceptedSpecies": 1049133,
     "packageOutOfScopeStrictAcceptedSpecies": 1031782,
-    "boundary": "This mixed package contains Crustacea, Insecta, Myriapoda and broader Arthropoda navigation content. This sidecar covers only the strict accepted COL26.8 species descending from the exact Myriapoda root L2G4H, including Chilopoda, Diplopoda, Pauropoda and Symphyla; all remaining package-owned species are explicitly out of scope.",
+    "boundary": "This mixed package contains Crustacea, Insecta, Myriapoda and broader Arthropoda navigation content. This sidecar covers only strict accepted COL26.8 species descending from the exact Myriapoda root L2G4H plus the separately represented Chilopoda root 93; all remaining package-owned species are explicitly out of scope.",
     "livingScope": {
       "includedClasses": [
         "Chilopoda",
@@ -129,8 +129,8 @@
   "output": {
     "descriptor": {
       "path": "data/packages/arthropoda/crustaceans-insects/nomenclature/itis-myriapoda-sidecar.json",
-      "bytes": 7936,
-      "sha256": "e9bab54cc70d97d2ca9ce5284c1927f32aec35ef76e16e63cad488d2185ec0c6"
+      "bytes": 7932,
+      "sha256": "d2f836dc4b21afffb7fe1dbfcc9826556895a1fecff707ef514f69bc2053a296"
     },
     "colUsageIdShards": [
       {
@@ -185,7 +185,7 @@
   },
   "generatedBy": {
     "scriptPath": "scripts/build-itis-myriapoda-sidecar.mjs",
-    "scriptSha256": "d33f0f56f53b4aa172dc50b811367f17f30f6dfb60f8cecf65d5b787ad8567e4",
+    "scriptSha256": "473d7b472ca01fb93fd034a8972ca77cfa0749ce421960cc7964fdc7f6fbc95c",
     "deterministic": "Pinned input checksums, fixed roots, exact SQL, exact representation-only normalization, code-unit ID ordering and deterministic gzip; no wall-clock fields or fuzzy matching."
   }
 }

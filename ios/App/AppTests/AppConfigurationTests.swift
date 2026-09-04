@@ -258,7 +258,7 @@ final class AppConfigurationTests: XCTestCase {
                     ? [
                         "c168f706a7067fd6d95548777b6fe5cadf0c6b2b67b9442698d9350c521c2cdf",
                         "9fb4271dce81e92f2df706da26c379053e649f21416d81ec1d8db6bb2031490b",
-                        "e9bab54cc70d97d2ca9ce5284c1927f32aec35ef76e16e63cad488d2185ec0c6",
+                        "d2f836dc4b21afffb7fe1dbfcc9826556895a1fecff707ef514f69bc2053a296",
                         "bf90e217fa6871bb1e59807b721ed88403c47e9aa2712a782ef40146b906fdf2",
                     ]
                     : ["90383cc2bf44dc092b59c7ed131169317a0a613699aa6485c6f3e9b74decfa3c"]

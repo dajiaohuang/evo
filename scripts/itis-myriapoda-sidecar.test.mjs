@@ -54,6 +54,7 @@ describe('ITIS Myriapoda exact sidecar shards', () => {
     expect(descriptor.scope.colRootUsageId).toBe('L2G4H')
     expect(descriptor.scope.colRootUsageIds).toEqual(['L2G4H', '93'])
     expect(descriptor.scope.colAdditionalRootScientificName).toBe('Chilopoda')
+    expect(descriptor.evidenceBoundary.zh).toContain('多足动物名录')
     expect(descriptor.scope.colStrictAcceptedSpecies).toBeGreaterThan(0)
     expect(descriptor.scope.packageStrictAcceptedSpecies).toBeGreaterThan(descriptor.scope.colStrictAcceptedSpecies)
     expect(descriptor.scope.packageOutOfScopeStrictAcceptedSpecies).toBe(descriptor.scope.packageStrictAcceptedSpecies - descriptor.scope.colLivingAcceptedSpecies)
