@@ -1,0 +1,126 @@
+{
+  "schemaVersion": 1,
+  "recordType": "release-pinned-authority-archive-crosswalk",
+  "id": "cilcat-1113-archive-crosswalk",
+  "packageId": "protists-chromists",
+  "provider": "The World Ciliate Catalog via ChecklistBank",
+  "rowEncoding": "json",
+  "colIdField": "colId",
+  "totalCountField": "total",
+  "source": {
+    "datasetId": "1113",
+    "title": "The World Ciliate Catalog",
+    "version": "4.0, Jan 2012",
+    "versionDoi": "10.48580/d3cf.v11",
+    "license": "CC-BY-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "archiveUrl": "https://api.checklistbank.org/dataset/1113/archive",
+    "archiveBytes": 296399,
+    "archiveSha256": "cd0e0bad24a8b790cb404575f05b80eb26a6f913e5b770c011bcb6316fff15ed",
+    "archiveEncoding": "gzip-compressed tar (HTTP Content-Type application/zip)",
+    "retrievedAt": "2026-09-04",
+    "members": {
+      "AcceptedSpecies.tsv": {
+        "bytes": 1801734,
+        "sha256": "ed8853bbeeb84abfc7d703233404d362c586b88ad57d7aa0ae78c29c6181c3f1"
+      },
+      "NameReferences.tsv": {
+        "bytes": 167078,
+        "sha256": "9d3bcaf2542847acbbed5208c9b022419bc8c7b27315c908a1750bf1a9dd1038"
+      },
+      "References.tsv": {
+        "bytes": 171033,
+        "sha256": "529c04577afe0a46a7ddc8deeb861c7df000f4a344b17ab26de184fdc58cf20b"
+      },
+      "SourceDatabase.tsv": {
+        "bytes": 967,
+        "sha256": "d8d13ca443a1e0abc768bd2da3531a04efd31b8620aa0121eb44b90c8050b5d2"
+      }
+    }
+  },
+  "scope": {
+    "colSourceDatasetId": "1113",
+    "colPackageId": "protists-chromists",
+    "eligibleColSpecies": 8505,
+    "projectedSpecies": 8505,
+    "sourceAcceptedSpecies": 8532,
+    "sourceProvisionalSpecies": 81,
+    "sourceOnlyAccepted": 27,
+    "excludedSourceProvisional": 81,
+    "matchingKey": "official sourceDatasetId=1113 plus exact scientific-name association; authorship exact where available"
+  },
+  "matching": {
+    "normalization": "UTF-8 quoted TSV; Unicode whitespace collapse only; case, diacritics, punctuation and empty fields preserved.",
+    "prohibited": "No fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered or taxon-substituted matching."
+  },
+  "counts": {
+    "total": 8505,
+    "accepted": 8477,
+    "redirect": 0,
+    "ambiguous": 0,
+    "unmatched": 28,
+    "withheld": 0,
+    "upstreamOnly": 27,
+    "records": 8532
+  },
+  "files": [
+    {
+      "path": "protists-chromists/cilcat-000.json.gz",
+      "records": 8505,
+      "bytes": 741236,
+      "sha256": "580ec4ec9cc4e88a0f09a0ae0f65ae2cf0a7581c208e7d1fc41abf492228f6f8",
+      "sourceBytes": 8914220,
+      "sourceSha256": "9156962ea1a520c2fbb47abd14040fe7a2fe4da127b126a9bf7ae56123fe405a",
+      "minColId": "3245V",
+      "maxColId": "ZYHS",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "role": "col-partition"
+    }
+  ],
+  "upstreamOnlyFiles": [
+    {
+      "path": "protists-chromists/cilcat-upstream-only-000.json.gz",
+      "records": 27,
+      "bytes": 2733,
+      "sha256": "c4dd0c8cb7a1ba0bc61a7b52ff9d810210480c3a92ad636a2602d7095e3904fc",
+      "sourceBytes": 20268,
+      "sourceSha256": "04b5d9056b043a947ab5f4ccee8481f0cfc45128f6efca83c9fd0e64aa5e19ac",
+      "minColId": null,
+      "maxColId": null,
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "role": "upstream-only"
+    }
+  ],
+  "evidenceBoundary": {
+    "en": "Frozen CilCat source provenance, not independent scientific corroboration, species-concept equivalence, biological dossier, fossil evidence or expert review.",
+    "zh": "冻结的 CilCat 来源追溯，不是独立科学佐证、物种概念等同、生物档案、化石证据或专家审查。"
+  },
+  "limitations": [
+    "Only the 8,505 strict accepted COL source-1113 species are projected; 27 additional accepted archive rows remain in a separate upstream-only partition and 81 provisional rows are excluded.",
+    "The archive's nomenclatural/taxonomic references support source name provenance only; they do not constitute biological dossiers.",
+    "34 TaxAccRef links point to ReferenceID 95, which is absent from References.tsv; those links retain their NameReferences locator and explicit referenceMissing=true."
+  ],
+  "totalCompressedBytes": 743969,
+  "totalSourceBytes": 8934488,
+  "deliveryProfiles": {
+    "web-light": {
+      "payload": "summary-only",
+      "files": [],
+      "records": 0,
+      "totalCompressedBytes": 0,
+      "totalSourceBytes": 0
+    },
+    "native-full": {
+      "payload": "complete",
+      "files": [
+        "protists-chromists/cilcat-000.json.gz",
+        "protists-chromists/cilcat-upstream-only-000.json.gz"
+      ],
+      "records": 8532,
+      "totalCompressedBytes": 743969,
+      "totalSourceBytes": 8934488
+    }
+  }
+}

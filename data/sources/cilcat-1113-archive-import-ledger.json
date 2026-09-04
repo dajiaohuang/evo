@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 1,
+  "importType": "COL26.8-to-ChecklistBank-1113-CilCat-source-archive",
+  "source": {
+    "datasetId": "1113",
+    "title": "The World Ciliate Catalog",
+    "version": "4.0, Jan 2012",
+    "versionDoi": "10.48580/d3cf.v11",
+    "license": "CC-BY-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "archiveUrl": "https://api.checklistbank.org/dataset/1113/archive",
+    "archiveBytes": 296399,
+    "archiveSha256": "cd0e0bad24a8b790cb404575f05b80eb26a6f913e5b770c011bcb6316fff15ed",
+    "archiveEncoding": "gzip-compressed tar (HTTP Content-Type application/zip)",
+    "retrievedAt": "2026-09-04",
+    "members": {
+      "AcceptedSpecies.tsv": {
+        "bytes": 1801734,
+        "sha256": "ed8853bbeeb84abfc7d703233404d362c586b88ad57d7aa0ae78c29c6181c3f1"
+      },
+      "NameReferences.tsv": {
+        "bytes": 167078,
+        "sha256": "9d3bcaf2542847acbbed5208c9b022419bc8c7b27315c908a1750bf1a9dd1038"
+      },
+      "References.tsv": {
+        "bytes": 171033,
+        "sha256": "529c04577afe0a46a7ddc8deeb861c7df000f4a344b17ab26de184fdc58cf20b"
+      },
+      "SourceDatabase.tsv": {
+        "bytes": 967,
+        "sha256": "d8d13ca443a1e0abc768bd2da3531a04efd31b8620aa0121eb44b90c8050b5d2"
+      }
+    }
+  },
+  "inputs": [
+    {
+      "path": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/species-000.jsonl.gz",
+      "bytes": 666110,
+      "sha256": "02aef7f0f72b0ae5a05f04b0f46ccc4ee0a45993bab4ddd84414188cc878f015"
+    },
+    {
+      "path": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/species-001.jsonl.gz",
+      "bytes": 564427,
+      "sha256": "6efd0ffb445696b1054673c532ad732157a5f1772c6e4b427e625d5b095a0c69"
+    }
+  ],
+  "scopeAudit": {
+    "colSourceDatasetId": "1113",
+    "colPackageId": "protists-chromists",
+    "eligibleColSpecies": 8505,
+    "projectedSpecies": 8505,
+    "sourceAcceptedSpecies": 8532,
+    "sourceProvisionalSpecies": 81,
+    "sourceOnlyAccepted": 27,
+    "excludedSourceProvisional": 81,
+    "matchingKey": "official sourceDatasetId=1113 plus exact scientific-name association; authorship exact where available"
+  },
+  "output": {
+    "paths": [
+      "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/cilcat-000.json.gz",
+      "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/cilcat-upstream-only-000.json.gz"
+    ],
+    "bytes": 743969,
+    "sha256": "300f40574567ecc367844e82777f2fa1c9a0ec7bb42b615b129d1158db2857e1"
+  },
+  "descriptor": {
+    "path": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/cilcat-sidecar.json",
+    "bytes": 4753,
+    "sha256": "c23189000f0088a1a0b3622130989da6f7aafa64bfe734908892abb3514268b3"
+  }
+}
