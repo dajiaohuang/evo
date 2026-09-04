@@ -68,11 +68,11 @@
     "colStrictAcceptedSpecies": 259,
     "eligibleColSpecies": 259,
     "projectedSpecies": 259,
-    "matchingKey": "exact source scientific name + authorship",
+    "matchingKey": "258 exact source name+authorship matches and one frozen official source-record relation",
     "boundary": "Only strict accepted COL26.8 species descending from exact Gymnodinium genus 4RTJ and source dataset 1177 are included; no Dinophyceae siblings are inferred."
   },
   "matching": {
-    "normalization": "UTF-8 quoted TSV; exact source-record relation is preferred where frozen; otherwise surrounding whitespace is trimmed for name+authorship comparison only.",
+    "normalization": "UTF-8 quoted TSV; surrounding whitespace is trimmed for exact name+authorship comparison; one unmatched spelling is linked by the frozen official source-record relation.",
     "prohibited": "No fuzzy, punctuation, edit-distance, phonetic, epithet-substitution, taxon-substitution or missing-authorship matching.",
     "relationEvidencePath": "data/sources/authority-link-evidence/CN83B-relation.json"
   },
@@ -90,10 +90,10 @@
     {
       "path": "protists-chromists/gymnodinium-sidecar-000.json.gz",
       "records": 259,
-      "bytes": 34116,
-      "sha256": "177dd9b7374e8f94c773f55c2f1fd12df2b403f992b1204860d02f8acfffb102",
-      "sourceBytes": 438900,
-      "sourceSha256": "2e1b068966277a15ff5feeccaddc9d46475649b7f3578f2014328e8c146234f7",
+      "bytes": 34797,
+      "sha256": "c26258a420279108c045eebce6c24bc6c3395d1071282d51158a682311150cae",
+      "sourceBytes": 440664,
+      "sourceSha256": "8c6f65d7a3236fab709dd4bb2adb8bd664c3ebd46bc50d35f127441fb6a19566",
       "minColId": "3HRNL",
       "maxColId": "CN83B",
       "encoding": "gzip",
@@ -125,8 +125,8 @@
     "CN83B/T284 is linked by the frozen ChecklistBank source-record relation despite differing source text; this does not assert species-concept equivalence.",
     "The source archive's IsExtinct, HasModern and HasPreHolocene fields are preserved source fields, not an Evo Atlas extant-status review."
   ],
-  "totalCompressedBytes": 34136,
-  "totalSourceBytes": 438900,
+  "totalCompressedBytes": 34817,
+  "totalSourceBytes": 440664,
   "deliveryProfiles": {
     "web-light": {
       "payload": "summary-only",
@@ -142,8 +142,8 @@
         "protists-chromists/gymnodinium-sidecar-upstream-only-000.json.gz"
       ],
       "records": 259,
-      "totalCompressedBytes": 34136,
-      "totalSourceBytes": 438900
+      "totalCompressedBytes": 34817,
+      "totalSourceBytes": 440664
     }
   }
 }

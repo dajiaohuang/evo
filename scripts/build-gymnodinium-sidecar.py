@@ -78,6 +78,46 @@ def file_entry(path, records, payload, source_payload, root):
     }
 
 
+def frozen_relations(dataset_key):
+    directory = ROOT / "data/sources/authority-link-evidence"
+    manifest_path = directory / "manifest.json"
+    manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+    entries = {entry["file"]: entry for entry in manifest["entries"]}
+
+    def response(col_id, kind, url):
+        entry = entries[f"{col_id}-{kind}.json"]
+        raw = (directory / entry["file"]).read_bytes()
+        if (entry["url"] != url or len(raw) != entry["bytes"]
+                or hashlib.sha256(raw).hexdigest() != entry["sha256"]):
+            raise SystemExit("frozen source response identity mismatch: " + col_id)
+        return json.loads(raw), entry
+
+    result = {}
+    for col_id, source_dataset, source_id in manifest["expectedRelations"]:
+        if source_dataset != dataset_key:
+            continue
+        col_url = f"https://api.checklistbank.org/dataset/316115/nameusage/{col_id}"
+        col, col_entry = response(col_id, "col", col_url)
+        relation, relation_entry = response(col_id, "relation", col_url + "/source")
+        source, source_entry = response(col_id, "source",
+            f"https://api.checklistbank.org/dataset/{dataset_key}/nameusage/{source_id}")
+        if (col["id"] != col_id or col["datasetKey"] != 316115
+                or col["status"] != "accepted" or col["name"]["rank"] != "species"
+                or relation["datasetKey"] != 316115
+                or relation["id"] != col["verbatimSourceKey"]
+                or relation["sourceDatasetKey"] != dataset_key
+                or relation["sourceId"] != source_id
+                or relation["sourceEntity"] != "name usage"
+                or source["id"] != source_id or source["datasetKey"] != dataset_key
+                or source["status"] != "accepted"):
+            raise SystemExit("frozen COL/source relationship mismatch: " + col_id)
+        result[col_id] = {
+            "sourceId": source_id, "relation": relation,
+            "colRecord": col, "responses": [col_entry, relation_entry, source_entry],
+        }
+    return result
+
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--archive", default=str(DEFAULT))
@@ -167,9 +207,8 @@ def main():
 
     crosswalk = []
     used_source_ids = set()
-    relation_path = input_root / "data/sources/authority-link-evidence/CN83B-relation.json"
-    relation = json.loads(relation_path.read_text(encoding="utf-8")) if relation_path.exists() else None
-    linked_source_id = str(relation["sourceId"]) if relation and relation.get("sourceDatasetKey") == 1177 else None
+    relations = frozen_relations(1177)
+    linked_source_id = relations["CN83B"]["sourceId"]
     for col in col_rows:
         authorship = clean(col.get("authorship"))
         match = by_key.get(exact_key(col_bare(col).split(" ", 1)[0], col_bare(col).split(" ", 1)[1], authorship))
@@ -181,6 +220,9 @@ def main():
             "candidates": [],
         }
         if match is None and col["id"] == "CN83B" and linked_source_id:
+            original_col = relations[col["id"]]["colRecord"]["name"]
+            if clean(original_col["scientificName"]) != col_bare(col) or clean(original_col.get("authorship")) != authorship:
+                raise SystemExit("frozen relation COL label differs from the pinned species: " + col["id"])
             source = next((r for r in source_rows if r["AcceptedTaxonID"] == linked_source_id), None)
             match = (next((i for i,r in enumerate(source_rows, 2) if r is source), None), source) if source else None
             relation_basis = "ChecklistBank source-record relation; source name/authorship text differs and is preserved."
@@ -211,6 +253,8 @@ def main():
             "sourceAcceptedRecord": source,
             "nameReferences": refs_by_taxon.get(source["AcceptedTaxonID"], []),
         })
+        if relation_basis.startswith("ChecklistBank"):
+            base["sourceRelation"] = relations[col["id"]]
         crosswalk.append(base)
     crosswalk.sort(key=lambda row: row["colId"])
     source_only = []
@@ -259,8 +303,8 @@ def main():
         "colIdField": "colId",
         "totalCountField": "total",
         "source": {"provider": "The dinoflagellate genus Gymnodinium checklist via Catalogue of Life ChecklistBank", "license": "CC0-1.0", "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/", "archiveUrl": URL, "archiveBytes": ARCHIVE_BYTES, "archiveSha256": SHA, "archiveEncoding": "gzip-compressed tar (HTTP Content-Type application/zip)", "version": source_database[0]["DatabaseVersion"], "versionDate": source_database[0]["ReleaseDate"], "sourceDatabase": source_database[0], "retrievedAt": "2026-09-04", "members": {name: {"bytes": len(value), "sha256": digest(value)} for name, value in members.items()}},
-        "scope": {"packageId": "protists-chromists", "colSourceDatasetId": SOURCE_DATASET, "colRootUsageId": COL_ROOT, "colRootScientificName": root_record["scientificName"], "colRootRank": root_record["rank"], "sourceKingdom": "Chromista", "sourcePhylum": "Miozoa", "sourceClass": "Dinophyceae", "sourceOrder": "Gymnodiniales", "sourceGenus": "Gymnodinium", "colStrictAcceptedSpecies": 259, "eligibleColSpecies": 259, "projectedSpecies": 259, "matchingKey": "exact source scientific name + authorship", "boundary": "Only strict accepted COL26.8 species descending from exact Gymnodinium genus 4RTJ and source dataset 1177 are included; no Dinophyceae siblings are inferred."},
-        "matching": {"normalization": "UTF-8 quoted TSV; exact source-record relation is preferred where frozen; otherwise surrounding whitespace is trimmed for name+authorship comparison only.", "prohibited": "No fuzzy, punctuation, edit-distance, phonetic, epithet-substitution, taxon-substitution or missing-authorship matching.", "relationEvidencePath": "data/sources/authority-link-evidence/CN83B-relation.json"},
+        "scope": {"packageId": "protists-chromists", "colSourceDatasetId": SOURCE_DATASET, "colRootUsageId": COL_ROOT, "colRootScientificName": root_record["scientificName"], "colRootRank": root_record["rank"], "sourceKingdom": "Chromista", "sourcePhylum": "Miozoa", "sourceClass": "Dinophyceae", "sourceOrder": "Gymnodiniales", "sourceGenus": "Gymnodinium", "colStrictAcceptedSpecies": 259, "eligibleColSpecies": 259, "projectedSpecies": 259, "matchingKey": "258 exact source name+authorship matches and one frozen official source-record relation", "boundary": "Only strict accepted COL26.8 species descending from exact Gymnodinium genus 4RTJ and source dataset 1177 are included; no Dinophyceae siblings are inferred."},
+        "matching": {"normalization": "UTF-8 quoted TSV; surrounding whitespace is trimmed for exact name+authorship comparison; one unmatched spelling is linked by the frozen official source-record relation.", "prohibited": "No fuzzy, punctuation, edit-distance, phonetic, epithet-substitution, taxon-substitution or missing-authorship matching.", "relationEvidencePath": "data/sources/authority-link-evidence/CN83B-relation.json"},
         "counts": counts,
         "files": files,
         "upstreamOnlyFiles": [upstream_file],
@@ -272,7 +316,7 @@ def main():
     descriptor_bytes = json_bytes(descriptor_value)
     descriptor.parent.mkdir(parents=True, exist_ok=True)
     descriptor.write_bytes(descriptor_bytes)
-    ledger_value = {"schemaVersion": 1, "importType": "COL26.8-to-ChecklistBank-1177-Gymnodinium-source-archive", "source": descriptor_value["source"], "inputs": [{"path": archive.relative_to(input_root).as_posix(), "bytes": len(raw), "sha256": digest(raw)}] + canonical_inputs, "scopeAudit": {"method": "Exact source scientific name+authorship under source dataset 1177 and COL root 4RTJ", "archiveAcceptedSpeciesRows": len(source_rows), "nameReferenceRows": len(name_refs), "bibliographyRows": len(references), "colEligibleSpecies": 259, "matchedSourceAcceptedTaxonIds": 258, "sourceOnlyRows": 1, "unmatchedColRows": 1}, "matchingContract": descriptor_value["matching"], "totals": counts, "output": {"path": files[0]["path"], "bytes": len(compressed), "sha256": digest(compressed), "sourceBytes": len(payload), "sourceSha256": digest(payload), "upstreamOnly": upstream_file, "descriptor": {"path": descriptor.relative_to(root).as_posix(), "bytes": len(descriptor_bytes), "sha256": digest(descriptor_bytes)}}, "deliveryContract": {"pagesLight": "Pages needs only this descriptor and may omit row shards.", "androidIosFull": "Native full inventories must include the descriptor and both listed row-level shards unchanged.", "runtimeChange": "This import changes no runtime protocol or global manifest."}, "generatedBy": {"scriptPath": "scripts/build-gymnodinium-sidecar.py", "deterministic": "Pinned archive bytes, exact scope, exact name+authorship, source-row locators, sorted COL IDs and deterministic gzip."}}
+    ledger_value = {"schemaVersion": 1, "importType": "COL26.8-to-ChecklistBank-1177-Gymnodinium-source-archive", "source": descriptor_value["source"], "inputs": [{"path": archive.relative_to(input_root).as_posix(), "bytes": len(raw), "sha256": digest(raw)}] + canonical_inputs, "scopeAudit": {"method": "258 exact source name+authorship matches and one official source-record relation under source dataset 1177 and COL root 4RTJ", "archiveAcceptedSpeciesRows": len(source_rows), "nameReferenceRows": len(name_refs), "bibliographyRows": len(references), "colEligibleSpecies": 259, "matchedSourceAcceptedTaxonIds": len(used_source_ids), "sourceOnlyRows": len(source_only), "unmatchedColRows": counts["unmatched"], "officialRelationEvidence": relations}, "matchingContract": descriptor_value["matching"], "totals": counts, "output": {"path": files[0]["path"], "bytes": len(compressed), "sha256": digest(compressed), "sourceBytes": len(payload), "sourceSha256": digest(payload), "upstreamOnly": upstream_file, "descriptor": {"path": descriptor.relative_to(root).as_posix(), "bytes": len(descriptor_bytes), "sha256": digest(descriptor_bytes)}}, "deliveryContract": {"pagesLight": "Pages needs only this descriptor and may omit row shards.", "androidIosFull": "Native full inventories must include the descriptor and both listed row-level shards unchanged.", "runtimeChange": "This import changes no runtime protocol or global manifest."}, "generatedBy": {"scriptPath": "scripts/build-gymnodinium-sidecar.py", "deterministic": "Pinned archive bytes, exact scope, exact name+authorship, source-row locators, sorted COL IDs and deterministic gzip."}}
     ledger.parent.mkdir(parents=True, exist_ok=True)
     ledger.write_bytes(json_bytes(ledger_value))
     print(json.dumps({"counts": counts, "output": files[0], "upstreamOnly": upstream_file}, ensure_ascii=False, indent=2))
