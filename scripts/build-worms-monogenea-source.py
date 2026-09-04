@@ -142,14 +142,13 @@ def load_col() -> tuple[list[dict[str, str]], list[dict[str, object]]]:
                     ):
                         records.append(row)
     registry = json.loads((COL_ROOT / "registry/manifest.json").read_text(encoding="utf-8"))
-    parents, names = {}, {}
+    parents = {}
     for item in registry["hierarchy"]["nodes"]["files"]:
         with gzip.open(COL_ROOT / "registry" / item["path"], "rt", encoding="utf-8") as stream:
             for line in stream:
                 if line.strip():
                     row = json.loads(line)
                     parents[row["id"]] = row.get("parentId")
-                    names[row["id"]] = row.get("scientificName")
     for row in records:
         seen = set()
         current = row["id"]
@@ -205,6 +204,12 @@ def load_source(path: pathlib.Path) -> tuple[dict, dict[str, list[dict]], dict[s
         accepted[name_id] = {"name": names_by_id[name_id], "taxon": rows_for_name[0]}
     if len(accepted) != SOURCE_EXPECTED:
         raise ValueError(f"expected {SOURCE_EXPECTED} source species, got {len(accepted)}")
+    provisional = sum(
+        item["taxon"].get("provisional", "").lower() in {"1", "true", "yes"}
+        for item in accepted.values()
+    )
+    if provisional != 0:
+        raise ValueError(f"pinned Monogenea provisional species changed: {provisional}")
     source_meta = {
         "archiveUrl": ARCHIVE_URL,
         "archiveBytes": len(raw),
@@ -219,6 +224,7 @@ def load_source(path: pathlib.Path) -> tuple[dict, dict[str, list[dict]], dict[s
         "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
         "provider": "World Register of Marine Species via ChecklistBank",
         "retrievedAt": "2026-09-04",
+        "provisionalAcceptedSpecies": provisional,
     }
     return source_meta, accepted, refs_for_name, refs_by_id
 
