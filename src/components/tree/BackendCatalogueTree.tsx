@@ -10,12 +10,13 @@ import {
   type BackendTreeNodeSummary,
 } from '../../data-client/backendClient'
 import { useI18n } from '../../i18n'
+import { frontendContract } from '../../platform/frontendContract'
 import './BackendCatalogueTree.css'
 
 const ROW_HEIGHT = 44
-const OVERSCAN_ROWS = 8
-const CHILD_PAGE_LIMIT = 200
-const MAX_MATERIALIZED_ROWS = 120_000
+const OVERSCAN_ROWS = frontendContract.tree.overscanRows
+const CHILD_PAGE_LIMIT = frontendContract.tree.pageSize
+const MAX_MATERIALIZED_ROWS = frontendContract.tree.maxMaterializedRows
 
 interface ChildState {
   records: BackendTreeNodeSummary[]

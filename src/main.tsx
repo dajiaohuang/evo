@@ -6,6 +6,11 @@ import App from './App'
 import { I18nProvider } from './i18n'
 import { registerSW } from 'virtual:pwa-register'
 import { initializeNativeRuntime } from './platform/nativeRuntime'
+import { frontendContract } from './platform/frontendContract'
+
+document.documentElement.dataset.frontendTarget = frontendContract.target
+document.documentElement.dataset.frontendEdition = frontendContract.edition
+document.documentElement.dataset.contentScope = frontendContract.content.scope
 
 if (import.meta.env.VITE_NATIVE_APP === 'true') {
   document.documentElement.dataset.offlineReady = 'true'

@@ -1,4 +1,4 @@
-import { isPagesPreview } from '../config/pagesPreview'
+import { frontendContract, FRONTEND_BACKEND_PROTOCOL_VERSION, FRONTEND_TREE_PAGE_SIZE } from '../platform/frontendContract'
 
 export interface BackendTreeNodeSummary {
   id: string
@@ -91,7 +91,7 @@ const backendBaseUrl = configuredBaseUrl ? configuredBaseUrl.replace(/\/+$/, '')
 const NODE_CACHE_LIMIT = 2048
 const CHILD_PAGE_CACHE_LIMIT = 96
 const SEARCH_PAGE_CACHE_LIMIT = 24
-export const BACKEND_TREE_PAGE_SIZE = 200
+export const BACKEND_TREE_PAGE_SIZE = FRONTEND_TREE_PAGE_SIZE
 
 let capabilityPromise: Promise<BackendCapabilities> | null = null
 const nodeCache = new Map<string, BackendTreeNodeSummary>()
@@ -102,7 +102,7 @@ const searchPageCache = new Map<string, BackendNameSearchResponse>()
 const searchPageInFlight = new Map<string, Promise<BackendNameSearchResponse>>()
 
 export function isBackendConfigured(): boolean {
-  return Boolean(backendBaseUrl) && !isPagesPreview
+  return frontendContract.backend.configured
 }
 
 export function backendUrl(pathname: string): string {
@@ -124,7 +124,7 @@ function touch<T>(cache: Map<string, T>, key: string, value: T, limit: number): 
 function assertEnvelope(value: unknown): asserts value is { schemaVersion: 1; apiVersion: 'v1'; protocolVersion: 'v1'; datasetVersion: string } {
   if (!value || typeof value !== 'object') throw new Error('Evo backend returned a non-object response')
   const envelope = value as Record<string, unknown>
-  if (envelope.schemaVersion !== 1 || envelope.apiVersion !== 'v1' || envelope.protocolVersion !== 'v1' || typeof envelope.datasetVersion !== 'string') {
+  if (envelope.schemaVersion !== 1 || envelope.apiVersion !== FRONTEND_BACKEND_PROTOCOL_VERSION || envelope.protocolVersion !== FRONTEND_BACKEND_PROTOCOL_VERSION || typeof envelope.datasetVersion !== 'string') {
     throw new Error('Evo backend protocol v1 response is not the current frontend contract')
   }
 }
