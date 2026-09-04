@@ -33,11 +33,16 @@ export function createItisNameIndex(currentRows, synonymRows) {
   return names
 }
 
-export function matchColSpecies(record, names) {
+export function matchColSpecies(record, names, sourceLink = null) {
   const exactMatchName = colExactMatchName(record)
   const base = { colUsageId: String(record.id), colScientificName: String(record.scientificName), colAuthorship: clean(record.authorship), exactMatchName }
   const candidates = [...(names.get(exactMatchName)?.values() ?? [])].sort((a, b) => compare(a.current, b.current))
   const evidence = (candidate) => ({ currentName: candidate.current, evidence: [...candidate.direct.map((name) => ({ type: 'accepted-name', name })), ...candidate.synonyms.map((name) => ({ type: 'synonym', name }))] })
+  if (sourceLink) {
+    const linked = candidates.find((candidate) => candidate.current.tsn === String(sourceLink.tsn))
+    if (!linked) throw new Error(`COL ITIS source link ${sourceLink.tsn} is not an existing candidate for ${record.id}`)
+    return { status: 'accepted', record: { ...base, currentName: linked.current, candidateEvidence: candidates.map(evidence), mappingBasis: 'official-COL-name-link-to-ITIS-TSN', colSourceLink: sourceLink } }
+  }
   if (!candidates.length) return { status: 'unmatched', record: base }
   if (candidates.length > 1) return { status: 'ambiguous', record: { ...base, candidates: candidates.map(evidence) } }
   const [candidate] = candidates
