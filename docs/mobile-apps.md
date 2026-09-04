@@ -23,6 +23,8 @@ dist-mobile/                 # 临时生成的移动客户端壳，不提交
 
 ## 数据与离线边界
 
+rc111 / app `0.20.62` / build `65` 为软骨鱼类与螯肢类增加默认收起的 ITIS 来源入口；页面按真实谱系与资源归属限定范围，展开后原生端只读取一个命中分片，Web 仅提供摘要。卵菌 ITIS 读取器修正为既有四目范围的 1,494 条 COL 结果与 42 条来源独有记录，不改写数据。原计划新增的 Species Fungorum 卵菌来源层因冻结档案缺口及实时接口许可未明确而暂缓，不能把未获取的数据算作已覆盖；见[来源调查](sources/species-fungorum-live-api-oomycota-gap.md)。两端继续包含全部既有 `native-full` 内容。
+
 rc110 / app `0.20.61` / build `64` 修正 COL 唇足纲独立路径遗漏：现有 ITIS 多足动物对照增加 3,141 条明确结果，原有 14,210 条记录不变，来源独有分区重分配为 544 条。另加入放射虫 444 条 COL 对应与 54 条来源独有记录的冻结 WoRMS 投影；COL 的 Polycystina 同样源于 WoRMS，不能把它称为独立科学验证。两端装入全部分片，Pages 仅保留轻量摘要；来源查询保持折叠。见[节肢动物范围说明](itis-arthropods-authority.md)和[放射虫来源说明](worms-radiozoa-archive.md)。
 
 rc109 / app `0.20.60` / build `63` 增加线虫与甲壳类的独立 WoRMS 档案对应层：分别覆盖 19,604 与 80,890 条范围内 COL 接受种记录，并另行保留 2,104 与 8,675 条来源独有记录。两端包含全部 42 个新增分片，既有来源层不被替换；Pages 只保留摘要和完整文件清单，详细查询默认收起。来源独有记录仅相对本次 COL 比较范围，不能相加宣称全球新增物种。见[线虫来源说明](worms-nematoda-archive.md)和[甲壳类来源说明](worms-crustacea-archive.md)。
