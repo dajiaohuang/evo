@@ -403,8 +403,8 @@ public class AppInstrumentedTest {
         assertEquals(2, phylogenyPackages);
         assertEquals(11891, wormsNomenclatureRecords);
         assertEquals(214862, richItisNomenclatureRecords);
-        assertEquals(164, arthropodItisFiles);
-        assertEquals(1188420, arthropodItisNomenclatureRecords);
+        assertEquals(165, arthropodItisFiles);
+        assertEquals(1188660, arthropodItisNomenclatureRecords);
         assertEquals(10, reptiliaItisFiles);
         assertEquals(13277, reptiliaItisNomenclatureRecords);
         assertEquals(1, crocodyliaItisFiles);
