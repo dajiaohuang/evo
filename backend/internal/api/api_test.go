@@ -1,9 +1,11 @@
 package api
 
 import (
+	"bytes"
 	"encoding/json"
 	"net/http"
 	"net/http/httptest"
+	"os"
 	"path/filepath"
 	"strings"
 	"testing"
@@ -126,6 +128,31 @@ func TestResourceRangeAndETag(t *testing.T) {
 	w = request(t, h, "GET", "/v1/resources/data/../manifest.json", nil)
 	if w.Code != 400 && w.Code != 404 {
 		t.Fatalf("traversal status %d", w.Code)
+	}
+}
+
+func TestOptionalExtensionResourceIsBytePreserving(t *testing.T) {
+	h := testHandler(t)
+	handler := h.(*Handler)
+	s := handler.Store.Snapshot()
+	const resourcePath = "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/trichomycetes-sidecar.json"
+	file, ok := s.File(resourcePath)
+	if !ok {
+		t.Skip("optional Trichomycetes extension is not in this release")
+	}
+	disk, err := os.ReadFile(filepath.Join(s.Root, filepath.FromSlash(resourcePath)))
+	if err != nil {
+		t.Fatal(err)
+	}
+	w := request(t, h, "GET", "/v1/resources/"+resourcePath, nil)
+	if w.Code != http.StatusOK {
+		t.Fatalf("extension resource status %d: %s", w.Code, w.Body.String())
+	}
+	if !bytes.Equal(w.Body.Bytes(), disk) {
+		t.Fatal("extension resource was transformed instead of served byte-for-byte")
+	}
+	if file.Bytes != int64(len(disk)) {
+		t.Fatalf("extension bytes=%d, disk bytes=%d", file.Bytes, len(disk))
 	}
 }
 
