@@ -1,0 +1,436 @@
+{
+  "schemaVersion": 1,
+  "recordType": "release-pinned-authority-archive-crosswalk",
+  "id": "worms-hydrozoa-archive-crosswalk",
+  "packageId": "sponges-cnidarians",
+  "provider": "World Hydrozoa Database via ChecklistBank",
+  "role": "authority-crosswalk",
+  "rowEncoding": "json",
+  "encoding": "gzip",
+  "mediaType": "application/json",
+  "colIdField": "colId",
+  "totalCountField": "total",
+  "source": {
+    "datasetId": "1112",
+    "title": "World Hydrozoa Database",
+    "version": "2026-09-01",
+    "versionDoi": "10.48580/d3cd.v84",
+    "doi": "10.48580/d3cd",
+    "issued": "2026-09-01",
+    "citation": "<div class=\"csl-entry\">Schuchert, P., Choong, H., Galea, H., Hoeksema, B., Lindsay, D., Mańko, M., &amp; Pica, D. (2026). <span style=\"font-style: italic\">World Hydrozoa Database</span> (Version 2026-09-01). https://doi.org/10.48580/d3cd</div>",
+    "contact": {
+      "given": "Henry",
+      "family": "Choong",
+      "email": "HChoong@royalbcmuseum.bc.ca",
+      "name": "Choong H."
+    },
+    "editor": [
+      {
+        "given": "Peter",
+        "family": "Schuchert",
+        "name": "Schuchert P."
+      },
+      {
+        "given": "Henry",
+        "family": "Choong",
+        "email": "HChoong@royalbcmuseum.bc.ca",
+        "name": "Choong H."
+      },
+      {
+        "given": "Horia",
+        "family": "Galea",
+        "email": "horia.galea@gmail.com",
+        "name": "Galea H."
+      },
+      {
+        "orcid": "0000-0001-8259-3783",
+        "given": "Bert",
+        "family": "Hoeksema",
+        "email": "bert.hoeksema@naturalis.nl",
+        "name": "Hoeksema B.",
+        "orcidAsUrl": "https://orcid.org/0000-0001-8259-3783"
+      },
+      {
+        "given": "Dhugal",
+        "family": "Lindsay",
+        "email": "dhugal@jamstec.go.jp",
+        "name": "Lindsay D."
+      },
+      {
+        "orcid": "0000-0001-6872-0256",
+        "given": "Maciej",
+        "family": "Mańko",
+        "email": "maciej.manko@ug.edu.pl",
+        "name": "Mańko M.",
+        "orcidAsUrl": "https://orcid.org/0000-0001-6872-0256"
+      },
+      {
+        "given": "Daniela",
+        "family": "Pica",
+        "email": "daniela.pica@gmail.com",
+        "name": "Pica D."
+      }
+    ],
+    "contributor": [
+      {
+        "country": "US",
+        "name": "Royal British Columbia Museum",
+        "address": "United States of America",
+        "organisation": "Royal British Columbia Museum"
+      },
+      {
+        "country": "FR",
+        "name": "Hydrozoan Research Laboratory",
+        "address": "France",
+        "organisation": "Hydrozoan Research Laboratory"
+      },
+      {
+        "country": "NL",
+        "name": "Naturalis Biodiversity Center Department of Marine Zoology",
+        "address": "Netherlands",
+        "organisation": "Naturalis Biodiversity Center Department of Marine Zoology"
+      },
+      {
+        "country": "JP",
+        "name": "Japan Agency for Marine-Earth Science and Technology",
+        "address": "Japan",
+        "organisation": "Japan Agency for Marine-Earth Science and Technology"
+      },
+      {
+        "country": "PL",
+        "name": "University of Gdańsk",
+        "address": "Poland",
+        "organisation": "University of Gdańsk"
+      },
+      {
+        "country": "IT",
+        "name": "Stazione Zoologica 'Anton Dohrn' of Naples Calabria Marine Centre",
+        "address": "Italy",
+        "organisation": "Stazione Zoologica 'Anton Dohrn' of Naples Calabria Marine Centre"
+      },
+      {
+        "country": "BE",
+        "name": "Vlaams Instituut voor de Zee",
+        "address": "Belgium",
+        "organisation": "Vlaams Instituut voor de Zee"
+      }
+    ],
+    "geographicScope": "Global",
+    "taxonomicScope": "hydroids",
+    "temporalScope": "1758-2026",
+    "metadataBytes": 3535,
+    "metadataSha256": "b372620c9216bdb0efdce3d72e46aac96325dc36d43348e8938791f974b16e9b",
+    "license": "cc by",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "archiveUrl": "https://api.checklistbank.org/dataset/1112/archive?attempt=84",
+    "archiveAttempt": 84,
+    "archivePath": "data/sources/archives/checklistbank-1112-hydrozoa-2026-09-01.zip",
+    "metadataPath": "data/sources/archives/checklistbank-1112-hydrozoa-2026-09-01.metadata.json",
+    "archiveBytes": 1819351,
+    "archiveSha256": "741fdd2f4252d5b45676d1dc6f3f6d9296f022a1ce12019904c999fc8f520902",
+    "members": {
+      "metadata.yml": {
+        "bytes": 2276,
+        "sha256": "4dc84dd88ccd048c9f6c403134f32024beb66f6b5358b278f6dd7e185713e733"
+      },
+      "TypeMaterial.txt": {
+        "bytes": 60913,
+        "sha256": "5d41317d955cf034fb6720af1f5ffb51e7a9be406da87b34d819557bff462a01"
+      },
+      "Name.txt": {
+        "bytes": 2936442,
+        "sha256": "45609035e320071bc235224f939b5217812215afc2d3888ab7b611930cea8ce7"
+      },
+      "NameRelation.txt": {
+        "bytes": 1157577,
+        "sha256": "e92d64a8d9f256787aea6133bd2e846bbbb71a9c4e866b8f96426b5f1d882627"
+      },
+      "Taxon.txt": {
+        "bytes": 1911105,
+        "sha256": "69a3cbe49c85af3296959deb263caf7ec6195308d8e938391508c0d565664a00"
+      },
+      "Synonym.txt": {
+        "bytes": 1046175,
+        "sha256": "2af52a5f9b38e0c0bfc53622b1200e3c9946d4fc54619fd2c2da7922d9e7b4c9"
+      },
+      "SpeciesEstimate.txt": {
+        "bytes": 176,
+        "sha256": "7c88a3bde2d0f09a6043d1b431d711ae9678d209801eb963aed3d76b926449cb"
+      },
+      "Reference.txt": {
+        "bytes": 1239537,
+        "sha256": "e23fe063f2dcefe90ece70cf6dc118ae9df173109e04f30a7ce5cddee84a7ef5"
+      },
+      "NameReference.txt": {
+        "bytes": 5455815,
+        "sha256": "4bd4672d48fde5daf0a1b2a851e8715c81978389a2571a48ed4f6106e5cabc94"
+      },
+      "Distribution.txt": {
+        "bytes": 1206071,
+        "sha256": "b2548ed061b5581e07fb95f7cdc78d5524ebb3cf5579f2aa641e33106c36148c"
+      },
+      "Media.txt": {
+        "bytes": 394803,
+        "sha256": "12265cb99f87e6b3b99fb4e36db1b00bb8eccd59bbe3b674b0f58876ff88399c"
+      },
+      "VernacularName.txt": {
+        "bytes": 60699,
+        "sha256": "236075fa7383d86bcf458131828def20e82b36a6c92255a004aafd736451d446"
+      }
+    },
+    "embeddedMetadata": {
+      "doi": "10.14284/357",
+      "title": "World Hydrozoa Database",
+      "issued": "2026-09-01",
+      "version": "2026-09-01",
+      "license": "CC-BY",
+      "website": "https://www.marinespecies.org/hydrozoa",
+      "bytes": 2276,
+      "sha256": "4dc84dd88ccd048c9f6c403134f32024beb66f6b5358b278f6dd7e185713e733"
+    },
+    "metadataConsistency": {
+      "status": "mismatch",
+      "apiResponse": {
+        "doi": "10.48580/d3cd",
+        "versionDoi": "10.48580/d3cd.v84",
+        "version": "2026-09-01",
+        "issued": "2026-09-01",
+        "license": "cc by"
+      },
+      "archiveEmbedded": {
+        "doi": "10.14284/357",
+        "version": "2026-09-01",
+        "issued": "2026-09-01",
+        "license": "CC-BY"
+      },
+      "boundary": "The byte-pinned archive is the projection input; embedded metadata.yml is preserved byte-for-byte and the API metadata is retained separately."
+    }
+  },
+  "scope": {
+    "colRootUsageIds": [
+      "B8V3X"
+    ],
+    "scientificName": "Hydrozoa",
+    "eligibleColSpecies": 4005,
+    "sourceSpeciesRankTaxa": 4006,
+    "sourceAcceptedSpecies": 4004,
+    "excludedSourceProvisional": 2
+  },
+  "matching": {
+    "normalization": "NFC and Unicode-whitespace normalization only; exact authorship is required.",
+    "prohibited": "No fuzzy, case-folded, accent-folded, synonym, redirect or species-concept matching."
+  },
+  "counts": {
+    "total": 4005,
+    "accepted": 3997,
+    "redirect": 0,
+    "ambiguous": 0,
+    "unmatched": 8,
+    "withheld": 0,
+    "sourceOnly": 7,
+    "sourceOnlyRecords": 7,
+    "records": 4012
+  },
+  "files": [
+    {
+      "path": "nomenclature/worms-hydrozoa-000.json.gz",
+      "records": 368,
+      "bytes": 199899,
+      "sha256": "4c81984a3f0eae2d05664b44876a7788587c1a914be952cb632838761978fb32",
+      "sourceBytes": 2096335,
+      "sourceSha256": "a6c86e17c050ad9997402f4fd06c6d4c90ba9f4e603d940769457dda89ff9781",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "role": "col-partition",
+      "minColId": "3245N",
+      "maxColId": "3HP85"
+    },
+    {
+      "path": "nomenclature/worms-hydrozoa-001.json.gz",
+      "records": 415,
+      "bytes": 196379,
+      "sha256": "ac6d57fb1d71d958c73ebb2ccde1f3b331076ebfcd87914a0339d26e9571947b",
+      "sourceBytes": 2071788,
+      "sourceSha256": "daaaafc6a98bf66f878a17e2dc6227173b515ad28cc12a2328a2fe1eda938235",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "role": "col-partition",
+      "minColId": "3HP86",
+      "maxColId": "3T5BN"
+    },
+    {
+      "path": "nomenclature/worms-hydrozoa-002.json.gz",
+      "records": 354,
+      "bytes": 207841,
+      "sha256": "2db244812c8426136093683ba5622ad553ff7b661bbc932ed5d4925c3bb5e92e",
+      "sourceBytes": 2092887,
+      "sourceSha256": "4b2e83c386ad3f2de97be53a691c48e68f5b87c73abdb16f2da0810ab78c1e9e",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "role": "col-partition",
+      "minColId": "3T5BP",
+      "maxColId": "4KJGF"
+    },
+    {
+      "path": "nomenclature/worms-hydrozoa-003.json.gz",
+      "records": 448,
+      "bytes": 199617,
+      "sha256": "dec5ee934d7b38d91f739715630c58fb49c70a00d622828084e7f5f2c50216c0",
+      "sourceBytes": 2094576,
+      "sourceSha256": "1d2019bb0284b71f782709a0a405bd93a06647142bdcda68ae4b9f9c15d94db0",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "role": "col-partition",
+      "minColId": "4KJGH",
+      "maxColId": "538YW"
+    },
+    {
+      "path": "nomenclature/worms-hydrozoa-004.json.gz",
+      "records": 434,
+      "bytes": 186050,
+      "sha256": "028b18887153c085c482318919e94525a76d34c34ca6bf1a71b397a37267c272",
+      "sourceBytes": 2094068,
+      "sourceSha256": "e17c134fbf61baba07734287e339e936558569ab770bd9ff3884931581bbd8f6",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "role": "col-partition",
+      "minColId": "538YX",
+      "maxColId": "5VRN8"
+    },
+    {
+      "path": "nomenclature/worms-hydrozoa-005.json.gz",
+      "records": 376,
+      "bytes": 206724,
+      "sha256": "cb75ece8d8a5f61077dead023a95ee1de0259f50f69cf2bd088e3581abcd8acb",
+      "sourceBytes": 2093598,
+      "sourceSha256": "374737d3cba08ef31579dd38f253b3685bfc6f395cc3daa72dc4b22db22bc4d7",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "role": "col-partition",
+      "minColId": "5VWG9",
+      "maxColId": "6D5CN"
+    },
+    {
+      "path": "nomenclature/worms-hydrozoa-006.json.gz",
+      "records": 412,
+      "bytes": 206450,
+      "sha256": "47346d1a470045c29fb14190203c1431343f09bc04240372a13c40b4c16dcddd",
+      "sourceBytes": 2096737,
+      "sourceSha256": "8ce394de97c57997d183df759900b19f0af93c94d04a87a06859e0cf508101ea",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "role": "col-partition",
+      "minColId": "6D5CQ",
+      "maxColId": "6YKXS"
+    },
+    {
+      "path": "nomenclature/worms-hydrozoa-007.json.gz",
+      "records": 461,
+      "bytes": 206550,
+      "sha256": "40a0ff5622071d8e6a2fc9f0f5883096c25fa6a5907813fff584abd345fd2162",
+      "sourceBytes": 2091077,
+      "sourceSha256": "ce8675fdcfc1dbb83613d604de7fa70eab3cbe3dd0909fd1dfc91d43ed398a13",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "role": "col-partition",
+      "minColId": "6YKXW",
+      "maxColId": "8KRCJ"
+    },
+    {
+      "path": "nomenclature/worms-hydrozoa-008.json.gz",
+      "records": 508,
+      "bytes": 193635,
+      "sha256": "1fec8de6a299bcd2ae2d270b5f63a7025dc9f1ed852ca98dfa0655c36fd954c7",
+      "sourceBytes": 2068378,
+      "sourceSha256": "f07bb6df3bcec8fa24eb274867b58d852024e31bb17bba53639e3a431d6640e8",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "role": "col-partition",
+      "minColId": "8LF4B",
+      "maxColId": "TSFJ"
+    },
+    {
+      "path": "nomenclature/worms-hydrozoa-009.json.gz",
+      "records": 229,
+      "bytes": 98492,
+      "sha256": "cd696b7f76de08e4fe27569f951c88001296049b01191b195d9012ba5cf8a4c8",
+      "sourceBytes": 1048760,
+      "sourceSha256": "9ba9b6b50e3844ec00e66035aa4a8cb909cb123baaa7836605da0e175b61f8a3",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "role": "col-partition",
+      "minColId": "TWM3",
+      "maxColId": "ZXR7"
+    }
+  ],
+  "sourceOnlyFiles": [
+    {
+      "path": "nomenclature/worms-hydrozoa-source-only-000.json.gz",
+      "records": 7,
+      "bytes": 5004,
+      "sha256": "292e879fc5d874ea2601f37bc0fd3bec8dfbf2439a65ce97f116c3fcf43fb99a",
+      "sourceBytes": 24227,
+      "sourceSha256": "2c86f8389955e2226cfd3be2cc3c399bacc0888981b3c78df5624eb482bf7573",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "role": "source-only"
+    }
+  ],
+  "upstreamOnlyFiles": [
+    {
+      "path": "nomenclature/worms-hydrozoa-source-only-000.json.gz",
+      "records": 7,
+      "bytes": 5004,
+      "sha256": "292e879fc5d874ea2601f37bc0fd3bec8dfbf2439a65ce97f116c3fcf43fb99a",
+      "sourceBytes": 24227,
+      "sourceSha256": "2c86f8389955e2226cfd3be2cc3c399bacc0888981b3c78df5624eb482bf7573",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "role": "source-only"
+    }
+  ],
+  "evidenceBoundary": {
+    "en": "Frozen exact WoRMS Hydrozoa nomenclatural/source projection for COL26.8 source-1112 Hydrozoa; not species-concept equivalence, a biological dossier, fossil evidence, distribution completeness or expert review.",
+    "zh": "冻结的 COL26.8 source-1112 Hydrozoa 精确 WoRMS 命名/来源投影；不是物种概念等同性、生物档案、化石证据、分布完整性或专家审查。"
+  },
+  "limitations": [
+    "Source-only rows are relative only to the COL26.8 source-1112 Hydrozoa closure and retain null colId.",
+    "The source archive's accepted species are the exact rank/status/provisional subset; no global completeness is inferred.",
+    "Archive metadata DOI/version/license fields are preserved separately from current API metadata where they differ."
+  ],
+  "sourceAudit": {
+    "speciesRankTaxa": 4006,
+    "provisionalSpeciesExcluded": 2,
+    "archiveEmbeddedMetadataSha256": "4dc84dd88ccd048c9f6c403134f32024beb66f6b5358b278f6dd7e185713e733"
+  },
+  "totalCompressedBytes": 1906641,
+  "totalSourceBytes": 19872431,
+  "deliveryProfiles": {
+    "web-light": {
+      "mode": "summary-only",
+      "records": 0,
+      "files": [],
+      "totalCompressedBytes": 0,
+      "totalSourceBytes": 0
+    },
+    "native-full": {
+      "mode": "complete",
+      "records": 4012,
+      "files": [
+        "nomenclature/worms-hydrozoa-000.json.gz",
+        "nomenclature/worms-hydrozoa-001.json.gz",
+        "nomenclature/worms-hydrozoa-002.json.gz",
+        "nomenclature/worms-hydrozoa-003.json.gz",
+        "nomenclature/worms-hydrozoa-004.json.gz",
+        "nomenclature/worms-hydrozoa-005.json.gz",
+        "nomenclature/worms-hydrozoa-006.json.gz",
+        "nomenclature/worms-hydrozoa-007.json.gz",
+        "nomenclature/worms-hydrozoa-008.json.gz",
+        "nomenclature/worms-hydrozoa-009.json.gz",
+        "nomenclature/worms-hydrozoa-source-only-000.json.gz"
+      ],
+      "totalCompressedBytes": 1906641,
+      "totalSourceBytes": 19872431
+    }
+  }
+}
