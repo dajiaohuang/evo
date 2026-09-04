@@ -148,7 +148,7 @@ describe('COL26.8 static nomenclatural resource packs', () => {
 
   it('publishes every Other Animals ITIS summary and native-full file inventory', () => {
     const descriptor = collection.packs.find((pack) => pack.packageId === 'other-animals')
-    expect(descriptor).toMatchObject({ acceptedSpeciesCount: 99161, fileCount: 4, extensionCount: 49, extensionFileCount: 218 })
+    expect(descriptor).toMatchObject({ acceptedSpeciesCount: 99161, fileCount: 4, extensionCount: 51, extensionFileCount: 220 })
     const manifest = JSON.parse(readFileSync(join(resourcePacksRoot, descriptor.manifestPath), 'utf8'))
     const extension = manifest.extensions.find((candidate) => candidate.id === 'itis-phoronida-tsn-crosswalk')
     expect(extension).toMatchObject({
@@ -208,6 +208,8 @@ describe('COL26.8 static nomenclatural resource packs', () => {
       'worms-chaetognatha-archive-crosswalk': { total: 132, accepted: 132, unmatched: 0, upstreamOnly: 0, files: 1, upstreamFiles: 0, license: 'cc by' },
       'worms-rhombozoa-archive-crosswalk': { total: 122, accepted: 122, unmatched: 0, upstreamOnly: 0, files: 1, upstreamFiles: 0, license: 'cc by' },
       'worms-loricifera-archive-crosswalk': { total: 46, accepted: 46, unmatched: 0, upstreamOnly: 1, files: 1, upstreamFiles: 1, license: 'cc by' },
+      'worms-gnathostomulida-archive-crosswalk': { total: 100, accepted: 100, unmatched: 0, upstreamOnly: 0, files: 1, upstreamFiles: 0, license: 'cc by' },
+      'worms-priapulida-archive-crosswalk': { total: 23, accepted: 23, unmatched: 0, upstreamOnly: 0, files: 1, upstreamFiles: 0, license: 'cc by' },
     })) {
       const archive = manifest.extensions.find((candidate) => candidate.id === id)
       expect(archive).toMatchObject({

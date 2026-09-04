@@ -13,6 +13,8 @@ const scopes: Array<{ root: string; packageId: string; id: AuthorityArchiveColle
   { root: '36', packageId: 'other-animals', id: 'worms-chaetognatha-archive-crosswalk', title: 'WoRMS · Chaetognatha' },
   { root: 'B8VFC', packageId: 'other-animals', id: 'worms-rhombozoa-archive-crosswalk', title: 'WoRMS · Rhombozoa' },
   { root: 'B8VF6', packageId: 'other-animals', id: 'worms-loricifera-archive-crosswalk', title: 'WoRMS · Loricifera' },
+  { root: 'B8VF3', packageId: 'other-animals', id: 'worms-gnathostomulida-archive-crosswalk', title: 'WoRMS · Gnathostomulida' },
+  { root: 'B8VF9', packageId: 'other-animals', id: 'worms-priapulida-archive-crosswalk', title: 'WoRMS · Priapulida' },
   { root: 'Z', packageId: 'protists-chromists', id: 'trichomycetes-archive-crosswalk', title: 'ChecklistBank source-1033 · Trichomycetes' },
   { root: 'CJBKK', packageId: 'crustaceans-insects', id: 'osf-orthoptera-archive-crosswalk', title: 'OSF · Orthoptera' },
   { root: '93', packageId: 'crustaceans-insects', id: 'chilobase-archive-crosswalk', title: 'ChiloBase · Chilopoda' },

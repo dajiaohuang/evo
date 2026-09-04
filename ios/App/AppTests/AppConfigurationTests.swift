@@ -556,7 +556,7 @@ final class AppConfigurationTests: XCTestCase {
                 XCTAssertEqual(itisRecords, 158_805)
             } else if packageId == "other-animals" {
                 let extensions = try XCTUnwrap(pack["extensions"] as? [[String: Any]])
-                XCTAssertEqual(extensions.count, 49)
+                XCTAssertEqual(extensions.count, 51)
                 try verifyAuthorityArchiveCollection(
                     collection: try XCTUnwrap(extensions.first { ($0["id"] as? String) == "worms-kinorhyncha-archive-crosswalk" }),
                     inventory: files, below: dataRoot, expectedFiles: 1, expectedUpstreamFiles: 0,
@@ -581,6 +581,14 @@ final class AppConfigurationTests: XCTestCase {
                     collection: try XCTUnwrap(extensions.first { ($0["id"] as? String) == "worms-loricifera-archive-crosswalk" }),
                     inventory: files, below: dataRoot, expectedFiles: 1, expectedUpstreamFiles: 1,
                     expectedRecords: 46, expectedUpstreamRecords: 1, expectedLicense: "cc by", label: "Loricifera")
+                try verifyAuthorityArchiveCollection(
+                    collection: try XCTUnwrap(extensions.first { ($0["id"] as? String) == "worms-gnathostomulida-archive-crosswalk" }),
+                    inventory: files, below: dataRoot, expectedFiles: 1, expectedUpstreamFiles: 0,
+                    expectedRecords: 100, expectedUpstreamRecords: 0, expectedLicense: "cc by", label: "Gnathostomulida")
+                try verifyAuthorityArchiveCollection(
+                    collection: try XCTUnwrap(extensions.first { ($0["id"] as? String) == "worms-priapulida-archive-crosswalk" }),
+                    inventory: files, below: dataRoot, expectedFiles: 1, expectedUpstreamFiles: 0,
+                    expectedRecords: 23, expectedUpstreamRecords: 0, expectedLicense: "cc by", label: "Priapulida")
                 try verifyAuthorityArchiveCollection(
                     collection: try XCTUnwrap(extensions.first { ($0["id"] as? String) == "worms-thaliacea-archive-crosswalk" }),
                     inventory: files, below: dataRoot, expectedFiles: 1, expectedUpstreamFiles: 0,

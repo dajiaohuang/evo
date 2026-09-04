@@ -3,20 +3,55 @@
   "importType": "COL26.8-to-WoRMS-original-archive-projection",
   "generatedBy": {
     "scriptPath": "scripts/build-worms-small-original-sources.py",
-    "scriptSha256": "ec67f3026aba341ac7c2ac58e4e61b4a1efb1451d2c59a1a2f8ecede882cf291",
+    "scriptSha256": "72cf6116db616607f88654b62ec86444239fe683dc43f0d7d653afd99826ae23",
     "hashNormalization": "LF"
   },
   "source": {
     "datasetId": "1125",
     "provider": "World Register of Marine Species via ChecklistBank",
-    "archiveAttempt": 87,
     "archiveUrl": "https://api.checklistbank.org/dataset/1125/archive?attempt=87",
+    "archiveAttempt": 87,
     "archivePath": "data/sources/archives/checklistbank-1125-gnathostomulida-2026-09-01.zip",
     "archiveBytes": 20438,
     "archiveSha256": "f09e0292a17bba924b5a61342dcd45974fbd2c5a1c71db3d77312b227284bf75",
     "metadataPath": "data/sources/archives/checklistbank-1125-gnathostomulida-2026-09-01.metadata.json",
     "metadataBytes": 1752,
     "metadataSha256": "4eb281f6c0361f4966823562fdab52a6182a8b14c7577e5aa6de3f57806c462d",
+    "metadataRole": "current ChecklistBank API metadata response",
+    "archiveMetadata": {
+      "member": "metadata.yml",
+      "bytes": 1116,
+      "sha256": "8ab15747ac8d413f606f34631eeded433aee766b822c718376dd2ed791a854fa",
+      "fields": {
+        "doi": null,
+        "title": "World List of Gnathostomulida",
+        "issued": "2026-09-01",
+        "version": "2026-09-01",
+        "license": "CC-BY",
+        "website": "https://www.marinespecies.org"
+      }
+    },
+    "metadataConsistency": {
+      "status": "mismatch",
+      "apiResponse": {
+        "doi": "10.48580/d3ct",
+        "versionDoi": "10.48580/d3ct.v87",
+        "version": "2026-09-01",
+        "issued": "2026-09-01",
+        "license": "cc by"
+      },
+      "archiveEmbedded": {
+        "doi": null,
+        "version": "2026-09-01",
+        "issued": "2026-09-01",
+        "license": "CC-BY"
+      },
+      "differences": [
+        "doi",
+        "license"
+      ],
+      "boundary": "The current ChecklistBank API response and the byte-pinned archive metadata.yml are retained as separate provenance layers."
+    },
     "members": {
       "metadata.yml": {
         "bytes": 1116,
@@ -93,13 +128,66 @@
         "organisation": "Vlaams Instituut voor de Zee"
       }
     ],
-    "license": "CC-BY-4.0",
-    "licenseDeclared": "cc by",
-    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
-    "metadataResponse": {
-      "path": "data/sources/archives/checklistbank-1125-gnathostomulida-2026-09-01.metadata.json",
-      "bytes": 1752,
-      "sha256": "4eb281f6c0361f4966823562fdab52a6182a8b14c7577e5aa6de3f57806c462d"
+    "license": "cc by",
+    "metadata": {
+      "created": "2019-11-20T11:07:46.255777",
+      "createdBy": 102,
+      "modified": "2026-09-02T00:38:28.595745",
+      "modifiedBy": 304,
+      "key": 1125,
+      "type": "taxonomic",
+      "origin": "external",
+      "attempt": 87,
+      "imported": "2026-09-02T00:38:28.907851",
+      "lastImportAttempt": "2026-09-02T00:38:28.913909",
+      "lastImportState": "finished",
+      "size": 157,
+      "doi": "10.48580/d3ct",
+      "versionDoi": "10.48580/d3ct.v87",
+      "title": "World List of Gnathostomulida",
+      "alias": "WoRMS Gnathostomulida",
+      "description": "This global marine species list is part of the World Register of Marine Species database, which aims to provide the most authoritative list of names of all marine species globally. Data have been contributed to the Catalogue of Life via the WoRMS, hosted by the Flanders Marine Institute (VLIZ).",
+      "issued": "2026-09-01",
+      "version": "2026-09-01",
+      "contact": {
+        "email": "info@marinespecies.org"
+      },
+      "editor": [
+        {
+          "given": "Wolfgang",
+          "family": "Sterrer",
+          "email": "westerrer@gov.bm",
+          "name": "Sterrer W."
+        }
+      ],
+      "contributor": [
+        {
+          "name": "Bermuda Natural History Museum",
+          "organisation": "Bermuda Natural History Museum"
+        },
+        {
+          "country": "BE",
+          "name": "Vlaams Instituut voor de Zee",
+          "address": "Belgium",
+          "organisation": "Vlaams Instituut voor de Zee"
+        }
+      ],
+      "geographicScope": "Global",
+      "taxonomicScope": "gnathostomulids",
+      "temporalScope": "1758-2026",
+      "taxonomicGroupScope": [
+        "eukaryotes",
+        "animals",
+        "otheranimals"
+      ],
+      "confidence": 4,
+      "completeness": 90,
+      "license": "cc by",
+      "url": "https://www.marinespecies.org",
+      "logo": "https://www.marinespecies.org/documents/WoRMS%20branding/WoRMS_logo_blue_negative.png",
+      "label": "World List of Gnathostomulida (2026-09-01)",
+      "citation": "<div class=\"csl-entry\">Sterrer, W. (2026). <span style=\"font-style: italic\">World List of Gnathostomulida</span> (Version 2026-09-01). https://doi.org/10.48580/d3ct</div>",
+      "private": false
     }
   },
   "registry": {
@@ -1394,6 +1482,7 @@
     "colSpecies": 100,
     "sourceSpeciesRankTaxa": 100,
     "sourceAcceptedSpecies": 100,
+    "sourceOnly": 0,
     "provisionalExcluded": 0,
     "memberDigests": {
       "metadata.yml": {
@@ -1449,12 +1538,12 @@
   "outputs": {
     "descriptor": {
       "path": "data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals/worms-gnathostomulida-sidecar.json",
-      "bytes": 6348,
-      "sha256": "bff93def8d3f858f3311d569632508ee3693656837910f0e7c7d750ee6b15468"
+      "bytes": 10080,
+      "sha256": "fa7fc7e230bc571b0e4aa323e7a913b30bcc704a65463dd6e2ff8873dbcf8c23"
     },
     "files": [
       {
-        "path": "other-animals/worms-gnathostomulida-000.json.gz",
+        "path": "other-animals/worms-gnathostomulida-accepted-000.json.gz",
         "records": 100,
         "bytes": 37095,
         "sha256": "9a23296622d524559c0e4955d595ceb2a3ad7874c6efa76e408c0bb5e8f3e566",
@@ -1462,11 +1551,31 @@
         "sourceSha256": "fd14c6859d1bc20eca8a98c8247f0d65906a51cfaf2512191056766affab28d0",
         "encoding": "gzip",
         "mediaType": "application/json",
-        "role": "col-partition",
+        "role": "accepted",
         "minColId": "3GLZ3",
         "maxColId": "JWNT"
       }
     ],
+    "outcomeFiles": {
+      "accepted": [
+        {
+          "path": "other-animals/worms-gnathostomulida-accepted-000.json.gz",
+          "records": 100,
+          "bytes": 37095,
+          "sha256": "9a23296622d524559c0e4955d595ceb2a3ad7874c6efa76e408c0bb5e8f3e566",
+          "sourceBytes": 843342,
+          "sourceSha256": "fd14c6859d1bc20eca8a98c8247f0d65906a51cfaf2512191056766affab28d0",
+          "encoding": "gzip",
+          "mediaType": "application/json",
+          "role": "accepted",
+          "minColId": "3GLZ3",
+          "maxColId": "JWNT"
+        }
+      ],
+      "ambiguous": [],
+      "unmatched": []
+    },
+    "sourceOnlyFiles": [],
     "upstreamOnlyFiles": []
   }
 }

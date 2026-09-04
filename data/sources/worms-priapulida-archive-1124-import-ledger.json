@@ -3,20 +3,55 @@
   "importType": "COL26.8-to-WoRMS-original-archive-projection",
   "generatedBy": {
     "scriptPath": "scripts/build-worms-small-original-sources.py",
-    "scriptSha256": "ec67f3026aba341ac7c2ac58e4e61b4a1efb1451d2c59a1a2f8ecede882cf291",
+    "scriptSha256": "72cf6116db616607f88654b62ec86444239fe683dc43f0d7d653afd99826ae23",
     "hashNormalization": "LF"
   },
   "source": {
     "datasetId": "1124",
     "provider": "World Register of Marine Species via ChecklistBank",
-    "archiveAttempt": 87,
     "archiveUrl": "https://api.checklistbank.org/dataset/1124/archive?attempt=87",
+    "archiveAttempt": 87,
     "archivePath": "data/sources/archives/checklistbank-1124-priapulida-2026-09-01.zip",
     "archiveBytes": 17809,
     "archiveSha256": "e01eb9ac67b1cf8035caf2bd62ee7f741e7c258bba59fd9e911e47d32536dfeb",
     "metadataPath": "data/sources/archives/checklistbank-1124-priapulida-2026-09-01.metadata.json",
     "metadataBytes": 1832,
     "metadataSha256": "15c0166e88a5cc712d260941fcbbd649faaf43df5fba9f74b6b03d40b7d41341",
+    "metadataRole": "current ChecklistBank API metadata response",
+    "archiveMetadata": {
+      "member": "metadata.yml",
+      "bytes": 1123,
+      "sha256": "37ded6d4296e402079bc4c0f11312c3651a2696c313f54fee349dcb48307f116",
+      "fields": {
+        "doi": null,
+        "title": "World List of Priapulida",
+        "issued": "2026-09-01",
+        "version": "2026-09-01",
+        "license": "CC-BY",
+        "website": "https://www.marinespecies.org"
+      }
+    },
+    "metadataConsistency": {
+      "status": "mismatch",
+      "apiResponse": {
+        "doi": "10.48580/d3cs",
+        "versionDoi": "10.48580/d3cs.v87",
+        "version": "2026-09-01",
+        "issued": "2026-09-01",
+        "license": "cc by"
+      },
+      "archiveEmbedded": {
+        "doi": null,
+        "version": "2026-09-01",
+        "issued": "2026-09-01",
+        "license": "CC-BY"
+      },
+      "differences": [
+        "doi",
+        "license"
+      ],
+      "boundary": "The current ChecklistBank API response and the byte-pinned archive metadata.yml are retained as separate provenance layers."
+    },
     "members": {
       "metadata.yml": {
         "bytes": 1123,
@@ -95,13 +130,68 @@
         "organisation": "University of Florida Florida Museum of Natural History"
       }
     ],
-    "license": "CC-BY-4.0",
-    "licenseDeclared": "cc by",
-    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
-    "metadataResponse": {
-      "path": "data/sources/archives/checklistbank-1124-priapulida-2026-09-01.metadata.json",
-      "bytes": 1832,
-      "sha256": "15c0166e88a5cc712d260941fcbbd649faaf43df5fba9f74b6b03d40b7d41341"
+    "license": "cc by",
+    "metadata": {
+      "created": "2019-11-20T11:07:46.255777",
+      "createdBy": 102,
+      "modified": "2026-09-02T00:36:54.144638",
+      "modifiedBy": 304,
+      "key": 1124,
+      "type": "taxonomic",
+      "origin": "external",
+      "attempt": 87,
+      "imported": "2026-09-02T00:36:54.812953",
+      "lastImportAttempt": "2026-09-02T00:36:54.819702",
+      "lastImportState": "finished",
+      "size": 61,
+      "doi": "10.48580/d3cs",
+      "versionDoi": "10.48580/d3cs.v87",
+      "title": "World List of Priapulida",
+      "alias": "WoRMS Priapulida",
+      "description": "This global marine species list is part of the World Register of Marine Species database, which aims to provide the most authoritative list of names of all marine species globally. Data have been contributed to the Catalogue of Life via the WoRMS, hosted by the Flanders Marine Institute (VLIZ).",
+      "issued": "2026-09-01",
+      "version": "2026-09-01",
+      "contact": {
+        "email": "info@marinespecies.org"
+      },
+      "editor": [
+        {
+          "given": "Gustav",
+          "family": "Paulay",
+          "email": "paulay@flmnh.ufl.edu",
+          "name": "Paulay G."
+        }
+      ],
+      "contributor": [
+        {
+          "country": "BE",
+          "name": "Vlaams Instituut voor de Zee",
+          "address": "Belgium",
+          "organisation": "Vlaams Instituut voor de Zee"
+        },
+        {
+          "country": "US",
+          "name": "University of Florida Florida Museum of Natural History",
+          "address": "United States of America",
+          "organisation": "University of Florida Florida Museum of Natural History"
+        }
+      ],
+      "geographicScope": "Global",
+      "taxonomicScope": "priapulid worms",
+      "temporalScope": "1758-2026",
+      "taxonomicGroupScope": [
+        "eukaryotes",
+        "animals",
+        "otheranimals"
+      ],
+      "confidence": 4,
+      "completeness": 90,
+      "license": "cc by",
+      "url": "https://www.marinespecies.org",
+      "logo": "https://www.marinespecies.org/documents/WoRMS%20branding/WoRMS_logo_blue_negative.png",
+      "label": "World List of Priapulida (2026-09-01)",
+      "citation": "<div class=\"csl-entry\">Paulay, G. (2026). <span style=\"font-style: italic\">World List of Priapulida</span> (Version 2026-09-01). https://doi.org/10.48580/d3cs</div>",
+      "private": false
     }
   },
   "registry": {
@@ -1396,6 +1486,7 @@
     "colSpecies": 23,
     "sourceSpeciesRankTaxa": 23,
     "sourceAcceptedSpecies": 23,
+    "sourceOnly": 0,
     "provisionalExcluded": 0,
     "memberDigests": {
       "metadata.yml": {
@@ -1451,12 +1542,12 @@
   "outputs": {
     "descriptor": {
       "path": "data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals/worms-priapulida-sidecar.json",
-      "bytes": 6412,
-      "sha256": "2319e4da6b4fc00043c8ef07236d6e8b534701f8863563a6b455b79430b776f3"
+      "bytes": 10243,
+      "sha256": "6029286ada40744f846faf53a002e3d066b863cba6b47eb37eb58491924aacd1"
     },
     "files": [
       {
-        "path": "other-animals/worms-priapulida-000.json.gz",
+        "path": "other-animals/worms-priapulida-accepted-000.json.gz",
         "records": 23,
         "bytes": 12135,
         "sha256": "bc793ddb729a4f859b9f1cc8bd589d9094edc254ec29ec5ea9342192abfb5639",
@@ -1464,11 +1555,31 @@
         "sourceSha256": "ecb9d7cb145be31aeef68bb99078682aa962af416b8fe009429a3f7bf48b6555",
         "encoding": "gzip",
         "mediaType": "application/json",
-        "role": "col-partition",
+        "role": "accepted",
         "minColId": "3JCX7",
         "maxColId": "V4X7S"
       }
     ],
+    "outcomeFiles": {
+      "accepted": [
+        {
+          "path": "other-animals/worms-priapulida-accepted-000.json.gz",
+          "records": 23,
+          "bytes": 12135,
+          "sha256": "bc793ddb729a4f859b9f1cc8bd589d9094edc254ec29ec5ea9342192abfb5639",
+          "sourceBytes": 215743,
+          "sourceSha256": "ecb9d7cb145be31aeef68bb99078682aa962af416b8fe009429a3f7bf48b6555",
+          "encoding": "gzip",
+          "mediaType": "application/json",
+          "role": "accepted",
+          "minColId": "3JCX7",
+          "maxColId": "V4X7S"
+        }
+      ],
+      "ambiguous": [],
+      "unmatched": []
+    },
+    "sourceOnlyFiles": [],
     "upstreamOnlyFiles": []
   }
 }

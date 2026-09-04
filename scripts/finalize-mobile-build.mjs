@@ -367,7 +367,7 @@ const expectedOtherAnimalAuthorities = {
   'itis-nematoda-tsn-crosswalk': { files: 4, records: 20849 },
   'itis-annelida-tsn-crosswalk': { files: 4, records: 24074 },
 }
-if (otherAnimalsManifest.extensions?.length !== Object.keys(expectedOtherAnimalAuthorities).length + 21) {
+if (otherAnimalsManifest.extensions?.length !== Object.keys(expectedOtherAnimalAuthorities).length + 23) {
   throw new Error('Mobile build must stage every declared other-animals ITIS and WoRMS authority collection')
 }
 const annelidaArchive = otherAnimalsManifest.extensions.find((extension) => extension.id === 'worms-annelida-archive-crosswalk')
@@ -396,6 +396,8 @@ for (const [id, total, accepted, upstreamOnly, fileCount, upstreamFileCount, lic
   ['worms-chaetognatha-archive-crosswalk', 132, 132, 0, 1, 0, 'cc by', 'Chaetognatha'],
   ['worms-rhombozoa-archive-crosswalk', 122, 122, 0, 1, 0, 'cc by', 'Rhombozoa'],
   ['worms-loricifera-archive-crosswalk', 46, 46, 1, 1, 1, 'cc by', 'Loricifera'],
+  ['worms-gnathostomulida-archive-crosswalk', 100, 100, 0, 1, 0, 'cc by', 'Gnathostomulida'],
+  ['worms-priapulida-archive-crosswalk', 23, 23, 0, 1, 0, 'cc by', 'Priapulida'],
 ]) {
   const archive = otherAnimalsManifest.extensions.find((extension) => extension.id === id)
   const files = [...(archive?.files ?? []), ...(archive?.upstreamOnlyFiles ?? [])]

@@ -393,6 +393,8 @@ export type AuthorityArchiveCollectionId =
   | 'worms-chaetognatha-archive-crosswalk'
   | 'worms-rhombozoa-archive-crosswalk'
   | 'worms-loricifera-archive-crosswalk'
+  | 'worms-gnathostomulida-archive-crosswalk'
+  | 'worms-priapulida-archive-crosswalk'
   | 'osf-orthoptera-archive-crosswalk'
   | 'chilobase-archive-crosswalk'
   | 'scorpion-files-archive-crosswalk'

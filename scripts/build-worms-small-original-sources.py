@@ -22,7 +22,7 @@ ROOT = Path(__file__).resolve().parents[1]
 REGISTRY = ROOT / "data/catalogue-of-life/releases/2026-08-20/registry"
 OUT = ROOT / "data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals"
 LIMIT = 2 * 1024 * 1024
-ARCHIVE_BASE = "https://api.checklistbank.org/dataset/{dataset}/archive?attempt={attempt}"
+ARCHIVE_BASE = "https://api.checklistbank.org/dataset/{dataset}/archive"
 
 SPECS = {
     "chaetognatha": {
@@ -51,6 +51,24 @@ SPECS = {
         "archiveBytes": 14695, "archiveSha256": "e6618414a8a660def5aca98be29a78e9eb2909ccab96a9e5d54a0d28b5744c5b",
         "archiveAttempt": 88, "version": "2026-09-01", "versionDoi": "10.48580/d3fs.v88",
         "doi": "10.48580/d3fs", "issued": "2026-09-01", "license": "cc by",
+    },
+    "gnathostomulida": {
+        "dataset": "1125", "root": "B8VF3", "taxon": "Gnathostomulida",
+        "prefix": "worms-gnathostomulida", "expected": 100,
+        "archive": "data/sources/archives/checklistbank-1125-gnathostomulida-2026-09-01.zip",
+        "metadata": "data/sources/archives/checklistbank-1125-gnathostomulida-2026-09-01.metadata.json",
+        "archiveBytes": 20438, "archiveSha256": "f09e0292a17bba924b5a61342dcd45974fbd2c5a1c71db3d77312b227284bf75",
+        "archiveAttempt": 87, "version": "2026-09-01", "versionDoi": "10.48580/d3ct.v87",
+        "doi": "10.48580/d3ct", "issued": "2026-09-01", "license": "cc by",
+    },
+    "priapulida": {
+        "dataset": "1124", "root": "B8VF9", "taxon": "Priapulida",
+        "prefix": "worms-priapulida", "expected": 23,
+        "archive": "data/sources/archives/checklistbank-1124-priapulida-2026-09-01.zip",
+        "metadata": "data/sources/archives/checklistbank-1124-priapulida-2026-09-01.metadata.json",
+        "archiveBytes": 17809, "archiveSha256": "e01eb9ac67b1cf8035caf2bd62ee7f741e7c258bba59fd9e911e47d32536dfeb",
+        "archiveAttempt": 87, "version": "2026-09-01", "versionDoi": "10.48580/d3cs.v87",
+        "doi": "10.48580/d3cs", "issued": "2026-09-01", "license": "cc by",
     },
 }
 
