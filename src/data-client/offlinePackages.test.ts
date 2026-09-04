@@ -166,6 +166,7 @@ describe('complete Atlas offline storage', () => {
     const packFile = { url: `${releaseBase}catalogue/resource-packs/archaea/manifest.json`, acceptedSpeciesCount: 2, fileCount: 1 }
     const speciesFile = { url: `${releaseBase}catalogue/resource-packs/archaea/species-000.jsonl.gz`, records: 2 }
     const lpsnFile = { url: `${releaseBase}catalogue/resource-packs/archaea/lpsn-000.jsonl.gz`, records: 2 }
+    const sourceOnlyFile = { url: `${releaseBase}catalogue/resource-packs/archaea/lpsn-upstream-only-000.jsonl.gz`, records: 1 }
     const current = {
       datasetVersion,
       releaseBase,
@@ -179,11 +180,11 @@ describe('complete Atlas offline storage', () => {
     const pack = {
       packageId: 'archaea', packageType: 'static-nomenclatural-resource-pack', version: datasetVersion,
       source: { releaseAlias: 'TEST-COL' }, acceptedSpeciesCount: 2, files: [speciesFile],
-      extensions: [{ id: 'lpsn-identifiers', files: [lpsnFile] }],
+      extensions: [{ id: 'worms-annelida-archive-crosswalk', files: [lpsnFile], upstreamOnlyFiles: [sourceOnlyFile] }],
     }
     const responses = new Map<string, unknown>([
       ['current.json', current], [catalogueFile.url, catalogue], [packFile.url, pack],
-      [sourcesFile.url, []], [speciesFile.url, []], [lpsnFile.url, []],
+      [sourcesFile.url, []], [speciesFile.url, []], [lpsnFile.url, []], [sourceOnlyFile.url, []],
     ])
     const fetchMock = vi.fn(async (input: RequestInfo | URL) => {
       const url = String(input)
@@ -205,8 +206,15 @@ describe('complete Atlas offline storage', () => {
 
     const { saveCatalogueResourcePackOffline } = await import('./offlinePackages')
     await saveCatalogueResourcePackOffline('archaea')
-    for (const file of [catalogueFile, sourcesFile, packFile, speciesFile, lpsnFile]) {
+    for (const file of [catalogueFile, sourcesFile, packFile, speciesFile, lpsnFile, sourceOnlyFile]) {
       expect([...stored.keys()].some((url) => url.endsWith(file.url))).toBe(true)
     }
+
+    stored.clear()
+    pack.extensions[0].files = []
+    pack.extensions[0].upstreamOnlyFiles = []
+    await saveCatalogueResourcePackOffline('archaea')
+    expect([...stored.keys()].some((url) => url.endsWith(lpsnFile.url))).toBe(false)
+    expect([...stored.keys()].some((url) => url.endsWith(sourceOnlyFile.url))).toBe(false)
   })
 })
