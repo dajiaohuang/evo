@@ -167,7 +167,7 @@ def main():
 
     crosswalk = []
     used_source_ids = set()
-    relation_path = root / "data/sources/authority-link-evidence/CN83B-relation.json"
+    relation_path = input_root / "data/sources/authority-link-evidence/CN83B-relation.json"
     relation = json.loads(relation_path.read_text(encoding="utf-8")) if relation_path.exists() else None
     linked_source_id = str(relation["sourceId"]) if relation and relation.get("sourceDatasetKey") == 1177 else None
     for col in col_rows:

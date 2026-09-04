@@ -11,7 +11,7 @@ const crosswalkPath = 'data/catalogue-of-life/releases/2026-08-20/resource-packs
 const upstreamPath = 'data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/gymnodinium-sidecar-upstream-only-000.json.gz'
 const ledgerPath = 'data/sources/gymnodinium-archive-import-ledger.json'
 const sha256 = (bytes) => createHash('sha256').update(bytes).digest('hex')
-const readJsonl = (path) => gunzipSync(readFileSync(join(root, path))).toString('utf8').trimEnd().split('\n').map((line) => JSON.parse(line))
+const readJsonl = (path) => { const text = gunzipSync(readFileSync(join(root, path))).toString('utf8').trim(); return text ? text.split('\n').map((line) => JSON.parse(line)) : [] }
 
 describe('ChecklistBank 1177 Gymnodinium sidecar', () => {
   it('preserves the exact source boundary and leaves the spelling difference unmatched', () => {
@@ -20,7 +20,7 @@ describe('ChecklistBank 1177 Gymnodinium sidecar', () => {
     const upstream = readJsonl(upstreamPath)
     expect(descriptor.id).toBe('gymnodinium-archive-crosswalk')
     expect(descriptor.scope).toMatchObject({ colRootUsageId: '4RTJ', colStrictAcceptedSpecies: 259, sourceGenus: 'Gymnodinium' })
-    expect(descriptor.counts).toEqual({ total: 259, accepted: 258, redirect: 0, ambiguous: 0, unmatched: 1, withheld: 0, upstreamOnly: 1, records: 260 })
+    expect(descriptor.counts).toEqual({ total: 259, accepted: 259, redirect: 0, ambiguous: 0, unmatched: 0, withheld: 0, upstreamOnly: 0, records: 259 })
     expect(descriptor.rowEncoding).toBe('jsonl')
     expect(descriptor.files[0].path).toBe('protists-chromists/gymnodinium-sidecar-000.json.gz')
     expect(descriptor.upstreamOnlyFiles[0].path).toBe('protists-chromists/gymnodinium-sidecar-upstream-only-000.json.gz')
