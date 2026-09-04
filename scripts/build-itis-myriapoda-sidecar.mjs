@@ -17,10 +17,13 @@ const descriptorPath = join(nomenclatureRoot, 'itis-myriapoda-sidecar.json')
 const ledgerPath = join(root, 'data/sources/itis-myriapoda-sidecar-import-ledger.json')
 const ITIS_ROOT_TSN = 563885
 const COL_ROOT_USAGE_ID = 'L2G4H'
+const COL_ADDITIONAL_ROOT_USAGE_ID = '93'
+const COL_ROOT_USAGE_IDS = new Set([COL_ROOT_USAGE_ID, COL_ADDITIONAL_ROOT_USAGE_ID])
 const EXCLUDED_COL_ROOT_USAGE_ID = 'L25JL'
 const PACKAGE_ID = 'crustaceans-insects'
 const SHARD_SOURCE_LIMIT_BYTES = 2 * 1024 * 1024
 const COL_LIVING_CLASS_BREAKDOWN = [
+  { colUsageId: '93', scientificName: 'Chilopoda', acceptedSpecies: 3141 },
   { colUsageId: '7NF3S', scientificName: 'Diplopoda', acceptedSpecies: 12987 },
   { colUsageId: 'B6MLD', scientificName: 'Symphyla', acceptedSpecies: 231 },
   { colUsageId: 'B6MTL', scientificName: 'Pauropoda', acceptedSpecies: 992 },
@@ -103,7 +106,7 @@ async function loadColMyriapodaSpecies(manifest) {
         excludedSpecies += 1
         return
       }
-      if (ancestor === COL_ROOT_USAGE_ID) {
+      if (COL_ROOT_USAGE_IDS.has(ancestor)) {
         descendants.push(record)
         return
       }
@@ -227,18 +230,18 @@ async function main() {
   const descriptor = {
     schemaVersion: 1, sidecarType: 'release-pinned-exact-nomenclatural-crosswalk', packageId: PACKAGE_ID,
     scope: {
-      colRootUsageId: COL_ROOT_USAGE_ID, colRootScientificName: 'Myriapoda', colStrictAcceptedSpecies: colSpecies.length + colResult.excludedSpecies,
+      colRootUsageId: COL_ROOT_USAGE_ID, colRootUsageIds: [COL_ROOT_USAGE_ID, COL_ADDITIONAL_ROOT_USAGE_ID], colRootScientificName: 'Myriapoda', colAdditionalRootScientificName: 'Chilopoda', colStrictAcceptedSpecies: colSpecies.length + colResult.excludedSpecies,
       excludedColRootUsageId: EXCLUDED_COL_ROOT_USAGE_ID, excludedColRootScientificName: 'Euthycarcinoidea', excludedStrictAcceptedSpecies: colResult.excludedSpecies,
       colLivingAcceptedSpecies: colSpecies.length,
       packageStrictAcceptedSpecies: packageCount, packageOutOfScopeStrictAcceptedSpecies: packageCount - colSpecies.length,
-      boundary: 'This mixed package contains Crustacea, Insecta, Myriapoda and broader Arthropoda navigation content. This sidecar covers only the strict accepted COL26.8 species descending from the exact Myriapoda root L2G4H, including Chilopoda, Diplopoda, Pauropoda and Symphyla; all remaining package-owned species are explicitly out of scope.',
+      boundary: 'This mixed package contains Crustacea, Insecta, Myriapoda and broader Arthropoda navigation content. This sidecar covers only strict accepted COL26.8 species descending from the exact Myriapoda root L2G4H plus the separately represented Chilopoda root 93; all remaining package-owned species are explicitly out of scope.',
       livingScope: {
         includedClasses: ['Chilopoda', 'Diplopoda', 'Pauropoda', 'Symphyla'],
         col26_8: {
           acceptedSpecies: colSpecies.length,
           classBreakdown: COL_LIVING_CLASS_BREAKDOWN,
-          absentClasses: ['Chilopoda'],
-          note: 'COL26.8 has no accepted Chilopoda species below Myriapoda L2G4H in this pinned registry; Chilopoda is retained from ITIS through the complete upstream-only partition below.',
+          absentClasses: [],
+          note: 'COL26.8 represents Chilopoda at the exact additional root 93 outside Myriapoda L2G4H; both roots are included without broadening to their surrounding Arthropoda hierarchy.',
         },
         itis: { rootTsn: String(ITIS_ROOT_TSN), currentSpecies: currentRows.length, classBreakdown: ITIS_LIVING_CLASS_BREAKDOWN },
       },
@@ -259,7 +262,7 @@ async function main() {
     },
     evidenceBoundary: {
       en: 'This CC0 ITIS sidecar is a frozen exact nomenclatural crosswalk, not a global myriapod checklist, final classification authority, phylogeny, species-concept equivalence assertion, biological dossier or scientific-review record.',
-      zh: '此 CC0 ITIS 侧车是冻结的严格命名交叉映射；它不是全球昆虫名录、最终分类权威、系统发育树、物种概念等同性声明、生物档案或科学审查记录。',
+      zh: '此 CC0 ITIS 侧车是冻结的严格命名交叉映射；它不是全球多足动物名录、最终分类权威、系统发育树、物种概念等同性声明、生物档案或科学审查记录。',
     },
     counts: { total, ...counts, itisCurrentSpecies: currentRows.length, itisSpeciesSynonymLinks: synonymRows.length, itisUpstreamOnly: upstreamOnly.length },
     colUsageIdLocator: { key: 'colUsageId', ordering: 'Unicode code-unit ascending', sourceShardLimitBytes: SHARD_SOURCE_LIMIT_BYTES, stableAddressing: 'Binary-search non-overlapping inclusive colUsageId ranges; one detail query loads exactly one immutable JSONL gzip shard.', files: shards },
