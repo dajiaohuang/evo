@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "importType": "COL26.8-to-ChecklistBank-1033-Protozoa-source-archive",
+  "source": {
+    "provider": "University of Kansas Trichomycetes database via Catalogue of Life ChecklistBank",
+    "license": "CC-BY-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "archiveUrl": "https://api.checklistbank.org/dataset/1033/archive",
+    "archiveBytes": 38716,
+    "archiveSha256": "ad2f2a5e8b9feab455f73ac390be34908687f79fea4c858ade29e52a8acfc33e",
+    "archiveEncoding": "gzip-compressed tar (HTTP Content-Type application/zip)",
+    "version": "Oct 2017",
+    "versionDoi": "10.48580/d38n.v9",
+    "retrievedAt": "2026-09-04",
+    "sourceLedgerPath": "data/sources/worms-trichomycetes-archive-import-ledger.json"
+  },
+  "metadata": {
+    "sourceDatabase": "Trichomycetes",
+    "sourceDatabaseVersion": "Oct 2017",
+    "releaseDate": "2017-10-27",
+    "taxonomicCoverage": "Protozoa - Choanozoa (pro parte); selected Class Ichthyosporea; Fungi excluded from this projection"
+  },
+  "scopeAudit": {
+    "method": "Exact name+authorship join restricted to COL sourceDatasetId 1033, source Kingdom Protozoa and Class Ichthyosporea",
+    "colEligibleSpecies": 96,
+    "matchedUniqueSourceAcceptedTaxonIds": 96,
+    "excludedFungiRows": 287,
+    "excludedOtherProtozoaRows": 2
+  }
+}
