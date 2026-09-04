@@ -1,5 +1,5 @@
 export const PACKAGE_SCHEMA_VERSION = 5
-export const DATASET_PACKAGE_VERSION = '2026.09-static-v5-rc120'
+export const DATASET_PACKAGE_VERSION = '2026.09-static-v5-rc121'
 export const DATASET_RELEASE_DATE = '2026-09-05'
 
 // Explicit source-bound Explorer presets. These mappings are intentionally

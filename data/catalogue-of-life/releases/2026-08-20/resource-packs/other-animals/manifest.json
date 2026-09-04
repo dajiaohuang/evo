@@ -8135,6 +8135,414 @@
           "requestPolicy": "Read one inclusive COL-ID range and require an exact colId; range membership is not a scientific identity match."
         }
       }
+    },
+    {
+      "schemaVersion": 1,
+      "recordType": "release-pinned-authority-archive-crosswalk",
+      "id": "worms-thaliacea-archive-crosswalk",
+      "packageId": "other-animals",
+      "provider": "World Register of Marine Species via ChecklistBank",
+      "rowEncoding": "json",
+      "colIdField": "colId",
+      "totalCountField": "total",
+      "source": {
+        "datasetId": "1185",
+        "title": "World List of Thaliacea",
+        "version": "2026-09-01",
+        "versionDoi": "10.48580/d3fw.v87",
+        "citation": "<div class=\"csl-entry\">Garic, R., &amp; van Soest, R. (2026). <span style=\"font-style: italic\">World List of Thaliacea</span> (Version 2026-09-01). https://doi.org/10.48580/d3fw</div>",
+        "editor": [
+          {
+            "given": "Rade",
+            "family": "Garic",
+            "email": "rade.garic@unidu.hr",
+            "name": "Garic R."
+          },
+          {
+            "given": "Rob",
+            "family": "van Soest",
+            "email": "Rob.vanSoest@naturalis.nl",
+            "name": "van Soest R."
+          }
+        ],
+        "contributor": [
+          {
+            "country": "BE",
+            "name": "Vlaams Instituut voor de Zee",
+            "address": "Belgium",
+            "organisation": "Vlaams Instituut voor de Zee"
+          },
+          {
+            "name": "University of Dubrovnik Institute for Marine and Coastal Research",
+            "organisation": "University of Dubrovnik Institute for Marine and Coastal Research"
+          },
+          {
+            "country": "NL",
+            "name": "Naturalis Biodiversity Center",
+            "address": "Netherlands",
+            "organisation": "Naturalis Biodiversity Center"
+          }
+        ],
+        "metadataBytes": 2021,
+        "metadataSha256": "24753ebb83f0e406ef6077785b1ba785aca175c4729bd12db38eb0014a0da01b",
+        "license": "CC-BY-4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "archiveUrl": "https://api.checklistbank.org/dataset/1185/archive",
+        "archivePath": "data/sources/archives/checklistbank-1185-thaliacea-2026-09-01.zip",
+        "metadataPath": "data/sources/archives/checklistbank-1185-thaliacea-2026-09-01.metadata.json",
+        "archiveBytes": 59152,
+        "archiveSha256": "75b42f6c9ec693068ccaf2c28bdc34ec28a786692b633f6226c311d3d348835a",
+        "members": {
+          "metadata.yml": {
+            "bytes": 1264,
+            "sha256": "ccf3560324fe1d5b5bfade6d9a7a812e2d35bbd034c7b2ee1e0b013e4798a936"
+          },
+          "TypeMaterial.txt": {
+            "bytes": 1140,
+            "sha256": "7aa3c74f457be85c699294259be3523cecc3973f7ba88516c513a1236f6312d1"
+          },
+          "Name.txt": {
+            "bytes": 89554,
+            "sha256": "1bcb784e28a8a8373f82f6af15c75fc331613d00b891c970d6ed3c2ed3cf2778"
+          },
+          "NameRelation.txt": {
+            "bytes": 27165,
+            "sha256": "88eeb3bd13e18ecd8563dcd918a748f31f398748914cc9d4cf8c58ac75f3983a"
+          },
+          "Taxon.txt": {
+            "bytes": 47000,
+            "sha256": "a3e08debb066d38c4259f9091ea86d9ed754b1dc38a580b4db568d7bc53daf9b"
+          },
+          "Synonym.txt": {
+            "bytes": 39532,
+            "sha256": "31f1922996b5b712fa87bb431da0d412bdd7dd852930d483a8b2a6a64d627b13"
+          },
+          "SpeciesEstimate.txt": {
+            "bytes": 35,
+            "sha256": "552ac985d21f5b6e89941c9a4b07715a7f4a56106b5d50480ecf9dcba5f901e5"
+          },
+          "Reference.txt": {
+            "bytes": 77810,
+            "sha256": "024ce3f6e269acc2d642c9204367d058255336c5d396e8f8ecff453b2e32a810"
+          },
+          "NameReference.txt": {
+            "bytes": 132019,
+            "sha256": "a46969d112c60cace31c7ed943d74f8de1173f58722b3daedd1f644a01f88b3c"
+          },
+          "Distribution.txt": {
+            "bytes": 33629,
+            "sha256": "db164fedfb6897d635cbe48252c3a1df1e8e2f4df23768bd58fd08d511f36578"
+          },
+          "Media.txt": {
+            "bytes": 1164,
+            "sha256": "1c1cf50c5ead81e562a049d2a32db66b9769411020f922d21b3af0289a1a7f1c"
+          },
+          "VernacularName.txt": {
+            "bytes": 4553,
+            "sha256": "f72dcdf6bf404e26b697bf38319d25467f9ea1c22501d7fef0f4234ad699f689"
+          }
+        },
+        "canonicalDescriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals/worms-thaliacea-sidecar.json",
+        "canonicalDescriptorBytes": 6105,
+        "canonicalDescriptorSha256": "3b53163e1c4513abb87e948fed51846dcdced7ef0471bdefa33ebfe04cc90ce8",
+        "sourceLedgerPath": "data/sources/worms-thaliacea-archive-1185-import-ledger.json",
+        "sourceLedgerSha256": "f751a18c93f0732675af9a1246531281e40df86c81ca539fb3a43f801f90f324"
+      },
+      "scope": {
+        "colRootUsageIds": [
+          "L2QHG"
+        ],
+        "scientificName": "Thaliacea",
+        "eligibleColSpecies": 78,
+        "sourceAcceptedSpecies": 78,
+        "excludedSourceProvisional": 0
+      },
+      "matching": {
+        "normalization": "NFC and whitespace normalization only; COL trailing authorship is removed exactly.",
+        "prohibited": "No fuzzy, case-folded, accent-folded, synonym or species-concept matching."
+      },
+      "counts": {
+        "total": 78,
+        "accepted": 78,
+        "redirect": 0,
+        "ambiguous": 0,
+        "unmatched": 0,
+        "withheld": 0,
+        "upstreamOnly": 0,
+        "records": 78
+      },
+      "files": [
+        {
+          "path": "other-animals/worms-thaliacea-000.json.gz",
+          "records": 78,
+          "bytes": 24440,
+          "sha256": "259a960685aa4c755167db0a43ae2aa3bc6ad0704dbede42fa602db96c6ef0bd",
+          "sourceBytes": 265714,
+          "sourceSha256": "77d66d59ca6ded2b3cc4fb4a6521fdd6ffc2f6f8f65c0dd15cf71e202957a575",
+          "encoding": "gzip",
+          "mediaType": "application/json",
+          "role": "col-partition",
+          "minColId": "32WXG",
+          "maxColId": "NDT8"
+        }
+      ],
+      "upstreamOnlyFiles": [],
+      "evidenceBoundary": {
+        "en": "Frozen WoRMS nomenclatural/source projection for the exact COL26.8 source-1185 Thaliacea root; not species-concept equivalence, a biological dossier, fossil evidence or expert review.",
+        "zh": "精确 COL26.8 source-1185 Thaliacea 根节点范围的 WoRMS 冻结命名/来源投影；不是物种概念等同性、生物档案、化石证据或专家审查。"
+      },
+      "limitations": [
+        "Source-only rows are relative only to COL source dataset 1185.",
+        "Name.status is nomenclatural metadata and is not used as taxonomic acceptance.",
+        "Synonym.taxonID targets do not remove accepted Taxon rows."
+      ],
+      "totalCompressedBytes": 24440,
+      "totalSourceBytes": 265714,
+      "deliveryProfiles": {
+        "web-light": {
+          "records": 0,
+          "files": [],
+          "totalCompressedBytes": 0,
+          "totalSourceBytes": 0
+        },
+        "native-full": {
+          "records": 78,
+          "files": [
+            "other-animals/worms-thaliacea-000.json.gz"
+          ],
+          "totalCompressedBytes": 24440,
+          "totalSourceBytes": 265714
+        }
+      },
+      "descriptorSha256": "3b53163e1c4513abb87e948fed51846dcdced7ef0471bdefa33ebfe04cc90ce8",
+      "canonicalFileInventory": [
+        {
+          "path": "other-animals/worms-thaliacea-000.json.gz",
+          "records": 78,
+          "bytes": 24440,
+          "sha256": "259a960685aa4c755167db0a43ae2aa3bc6ad0704dbede42fa602db96c6ef0bd",
+          "sourceBytes": 265714,
+          "sourceSha256": "77d66d59ca6ded2b3cc4fb4a6521fdd6ffc2f6f8f65c0dd15cf71e202957a575",
+          "encoding": "gzip",
+          "mediaType": "application/json",
+          "role": "col-partition",
+          "minColId": "32WXG",
+          "maxColId": "NDT8"
+        }
+      ],
+      "integration": {
+        "clientParityRequirement": "Full-data builds retain every declared row file; Pages publishes summaries only. Client and backend infrastructure evolves independently.",
+        "lookup": {
+          "strategy": "lexicographic-colId-range-v1",
+          "ordering": "Unicode code-unit ascending",
+          "requestPolicy": "Read one inclusive COL-ID range and require an exact colId; range membership is not a scientific identity match."
+        }
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "recordType": "release-pinned-authority-archive-crosswalk",
+      "id": "worms-appendicularia-archive-crosswalk",
+      "packageId": "other-animals",
+      "provider": "World Register of Marine Species via ChecklistBank",
+      "role": "authority-crosswalk",
+      "rowEncoding": "json",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "colIdField": "colId",
+      "totalCountField": "total",
+      "source": {
+        "archiveUrl": "https://api.checklistbank.org/dataset/1178/archive",
+        "archiveBytes": 32041,
+        "archiveSha256": "5a4a49450d581faa30d0fa3d6beb54b4b561f920f075174124efbfd8bdfa8c1f",
+        "archiveMembers": [
+          {
+            "name": "metadata.yml",
+            "bytes": 1123,
+            "sha256": "03c421d7082ae9a3bb6fdde6d66f71a5e4c47582fb0fb0df416815bc0c67889b"
+          },
+          {
+            "name": "TypeMaterial.txt",
+            "bytes": 117,
+            "sha256": "aebb23b9a0f009efda0df02e34c42ad72f06ab597977829dd0efb94f7e424560"
+          },
+          {
+            "name": "Name.txt",
+            "bytes": 49610,
+            "sha256": "569b4637057c4f8aa4f1afa6e74c2a7f8df05eca5134002739a703bd1d59c0e7"
+          },
+          {
+            "name": "NameRelation.txt",
+            "bytes": 12387,
+            "sha256": "a115c8a770d1a2b48df488d4a462cc9d38818fbd125f6a732af7c51c07fbcc55"
+          },
+          {
+            "name": "Taxon.txt",
+            "bytes": 40295,
+            "sha256": "5e037105bddd0f0752e439e8a2c526e2640e2182f6ebb4062dd50cac7960265c"
+          },
+          {
+            "name": "Synonym.txt",
+            "bytes": 16695,
+            "sha256": "cbf2c4f6082db75d3e674922a167c5cd3918aa3a02df4c2aeb8872cebad4f1e7"
+          },
+          {
+            "name": "SpeciesEstimate.txt",
+            "bytes": 35,
+            "sha256": "552ac985d21f5b6e89941c9a4b07715a7f4a56106b5d50480ecf9dcba5f901e5"
+          },
+          {
+            "name": "Reference.txt",
+            "bytes": 36093,
+            "sha256": "193f5af81671a61fec4c73d228a77b4b803b36016b9245e89c72ba2b562cd6ee"
+          },
+          {
+            "name": "NameReference.txt",
+            "bytes": 78287,
+            "sha256": "55d441e97f933a38f8cbff879a269683eb9dad518697bdfbd35caee68b81fb94"
+          },
+          {
+            "name": "Distribution.txt",
+            "bytes": 52616,
+            "sha256": "f24d793645d3ea75ef0a353cfde048ce94a38b4981bb460c688df5374e2af257"
+          },
+          {
+            "name": "Media.txt",
+            "bytes": 1755,
+            "sha256": "20afa649e62be94b997da970ce925e863fd359d1f2dbac388f364e5db82fc2a9"
+          },
+          {
+            "name": "VernacularName.txt",
+            "bytes": 1947,
+            "sha256": "c7cb51655b98b82e1fe9a056a41199e063cf3fe93ee6d4ddf09b7ff44b902d1f"
+          }
+        ],
+        "title": "World List of Appendicularia",
+        "version": "2026-09-01",
+        "versionDoi": "10.48580/d3fn.v89",
+        "citation": "<div class=\"csl-entry\">Garic, R. (2026). <span style=\"font-style: italic\">World List of Appendicularia</span> (Version 2026-09-01). https://doi.org/10.48580/d3fn</div>",
+        "editor": [
+          {
+            "given": "Rade",
+            "family": "Garic",
+            "email": "rade.garic@unidu.hr",
+            "name": "Garic R."
+          }
+        ],
+        "contributor": [
+          {
+            "name": "University of Dubrovnik Institute for Marine and Coastal Research",
+            "organisation": "University of Dubrovnik Institute for Marine and Coastal Research"
+          },
+          {
+            "country": "BE",
+            "name": "Vlaams Instituut voor de Zee",
+            "address": "Belgium",
+            "organisation": "Vlaams Instituut voor de Zee"
+          }
+        ],
+        "license": "CC-BY-4.0",
+        "sourceLedgerPath": "data/sources/worms-appendicularia-1178-import-ledger.json",
+        "archivePath": "data/sources/archives/checklistbank-1178-appendicularia-2026-09-01.zip",
+        "metadataPath": "data/sources/archives/checklistbank-1178-appendicularia-2026-09-01.metadata.json",
+        "datasetId": "1178",
+        "metadataSha256": "66c63e58982c707986b4ca496f303625eb1135c546222c723ba084b7d4f1095b",
+        "metadataBytes": 1807,
+        "canonicalDescriptorPath": "data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals/worms-appendicularia-sidecar.json",
+        "canonicalDescriptorBytes": 5924,
+        "canonicalDescriptorSha256": "0ab58e232342cfaab7b12b523a23ead80cc9c6fcb8e3578d72c519f064617fe2",
+        "sourceLedgerSha256": "8a3dc82eb112e23538f319192775efb27b480f89c516a86ad8f1873a23e9a0a4"
+      },
+      "scope": {
+        "colRootUsageId": "622C5",
+        "colParentClosureRootUsageId": "7NF2Z",
+        "eligibleColSpecies": 68,
+        "excludedParentClosureSpecies": {
+          "1185": 78,
+          "1186": 3000
+        },
+        "sourceDatasetId": "1178"
+      },
+      "counts": {
+        "total": 68,
+        "records": 68,
+        "accepted": 68,
+        "redirect": 0,
+        "ambiguous": 0,
+        "unmatched": 0,
+        "withheld": 0,
+        "upstreamOnly": 0
+      },
+      "files": [
+        {
+          "path": "other-animals/worms-appendicularia-000.json.gz",
+          "records": 68,
+          "bytes": 21044,
+          "sha256": "cb8c13db5a636f376fecc734c14485e466602598ae2277b88677eac161a7b91c",
+          "sourceBytes": 495089,
+          "sourceSha256": "79b278b27d921a24b28d1f80c62cf4b36430334cd910f40d350663898f73b4cc",
+          "role": "col-partition",
+          "encoding": "gzip",
+          "mediaType": "application/json",
+          "minColId": "3RDS7",
+          "maxColId": "KWDD"
+        }
+      ],
+      "upstreamOnlyFiles": [],
+      "deliveryProfiles": {
+        "web-light": {
+          "records": 0,
+          "files": [],
+          "totalCompressedBytes": 0,
+          "totalSourceBytes": 0
+        },
+        "native-full": {
+          "records": 68,
+          "files": [
+            "other-animals/worms-appendicularia-000.json.gz"
+          ],
+          "totalCompressedBytes": 21044,
+          "totalSourceBytes": 495089
+        }
+      },
+      "matching": {
+        "normalization": "Unicode NFC and whitespace normalization for scientific name and authorship; source fields preserved.",
+        "prohibited": "No fuzzy or inferred matching."
+      },
+      "evidenceBoundary": {
+        "en": "Frozen exact nomenclatural crosswalk; not species-concept equivalence, biological dossier or expert review.",
+        "zh": "冻结的精确命名学交叉映射；不是物种概念等同性、生物学档案或专家审查。"
+      },
+      "totalCompressedBytes": 21044,
+      "totalSourceBytes": 495089,
+      "limitations": [
+        "Name.status is original nomenclatural metadata; acceptance comes from nonprovisional Taxon membership.",
+        "Matched names do not establish species-concept equivalence."
+      ],
+      "descriptorSha256": "0ab58e232342cfaab7b12b523a23ead80cc9c6fcb8e3578d72c519f064617fe2",
+      "canonicalFileInventory": [
+        {
+          "path": "other-animals/worms-appendicularia-000.json.gz",
+          "records": 68,
+          "bytes": 21044,
+          "sha256": "cb8c13db5a636f376fecc734c14485e466602598ae2277b88677eac161a7b91c",
+          "sourceBytes": 495089,
+          "sourceSha256": "79b278b27d921a24b28d1f80c62cf4b36430334cd910f40d350663898f73b4cc",
+          "role": "col-partition",
+          "encoding": "gzip",
+          "mediaType": "application/json",
+          "minColId": "3RDS7",
+          "maxColId": "KWDD"
+        }
+      ],
+      "integration": {
+        "clientParityRequirement": "Full-data builds retain every declared row file; Pages publishes summaries only. Client and backend infrastructure evolves independently.",
+        "lookup": {
+          "strategy": "lexicographic-colId-range-v1",
+          "ordering": "Unicode code-unit ascending",
+          "requestPolicy": "Read one inclusive COL-ID range and require an exact colId; range membership is not a scientific identity match."
+        }
+      }
     }
   ]
 }

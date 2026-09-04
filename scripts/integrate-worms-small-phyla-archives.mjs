@@ -20,6 +20,8 @@ const sources = [
   ['worms-kinorhyncha-archive-crosswalk', 'worms-kinorhyncha-sidecar.json', 'worms-kinorhyncha-archive-1153-import-ledger.json'],
   ['worms-nematomorpha-archive-crosswalk', 'worms-nematomorpha-sidecar.json', 'worms-nematomorpha-archive-1119-import-ledger.json'],
   ['worms-ctenophora-archive-crosswalk', 'worms-ctenophora-sidecar.json', 'worms-ctenophora-archive-1180-import-ledger.json'],
+  ['worms-thaliacea-archive-crosswalk', 'worms-thaliacea-sidecar.json', 'worms-thaliacea-archive-1185-import-ledger.json'],
+  ['worms-appendicularia-archive-crosswalk', 'worms-appendicularia-sidecar.json', 'worms-appendicularia-1178-import-ledger.json'],
 ]
 const hash = (bytes) => createHash('sha256').update(bytes).digest('hex')
 const readJson = (path) => JSON.parse(readFileSync(join(root, path), 'utf8'))

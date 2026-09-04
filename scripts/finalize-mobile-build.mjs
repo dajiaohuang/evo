@@ -350,7 +350,7 @@ const expectedOtherAnimalAuthorities = {
   'itis-nematoda-tsn-crosswalk': { files: 4, records: 20849 },
   'itis-annelida-tsn-crosswalk': { files: 4, records: 24074 },
 }
-if (otherAnimalsManifest.extensions?.length !== Object.keys(expectedOtherAnimalAuthorities).length + 14) {
+if (otherAnimalsManifest.extensions?.length !== Object.keys(expectedOtherAnimalAuthorities).length + 16) {
   throw new Error('Mobile build must stage every declared other-animals ITIS and WoRMS authority collection')
 }
 const annelidaArchive = otherAnimalsManifest.extensions.find((extension) => extension.id === 'worms-annelida-archive-crosswalk')
@@ -372,6 +372,22 @@ if (!nematodaArchive || nematodaArchive.source?.license !== 'CC-BY-4.0'
   || nematodaArchiveFiles.reduce((sum, file) => sum + file.records, 0) !== 21708
   || nematodaArchiveFiles.some((file) => !releaseFiles.files.some((entry) => entry.url === file.url && entry.bytes === file.bytes && entry.sha256 === file.sha256))) {
   throw new Error('Mobile build must stage every WoRMS Nematoda COL and source-only archive shard')
+}
+for (const [id, records, label] of [
+  ['worms-thaliacea-archive-crosswalk', 78, 'Thaliacea'],
+  ['worms-appendicularia-archive-crosswalk', 68, 'Appendicularia'],
+]) {
+  const archive = otherAnimalsManifest.extensions.find((extension) => extension.id === id)
+  const files = [...(archive?.files ?? []), ...(archive?.upstreamOnlyFiles ?? [])]
+  if (!archive || archive.source?.license !== 'CC-BY-4.0'
+    || archive.delivery?.profile !== 'native-full' || archive.delivery?.completeRows !== true
+    || archive.files?.length !== 1 || archive.upstreamOnlyFiles?.length !== 0
+    || archive.counts?.total !== records || archive.counts?.accepted !== records || archive.counts?.upstreamOnly !== 0
+    || archive.delivery?.publishedFileCount !== 1 || archive.delivery?.canonicalFileCount !== 1
+    || files.reduce((sum, file) => sum + file.records, 0) !== records
+    || files.some((file) => !releaseFiles.files.some((entry) => entry.url === file.url && entry.bytes === file.bytes && entry.sha256 === file.sha256))) {
+    throw new Error(`Mobile build must stage the complete ${label} archive projection`)
+  }
 }
 for (const [id, expected] of Object.entries(expectedOtherAnimalAuthorities)) {
   const authority = otherAnimalsManifest.extensions?.find((extension) => extension.id === id)

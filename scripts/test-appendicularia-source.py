@@ -29,6 +29,8 @@ for projected in (descriptor['source'], ledger['sourceMetadata']):
     assert projected['version'] == metadata['version']
     assert projected['versionDoi'] == metadata['versionDoi']
     assert projected['citation'] == metadata['citation']
+    assert projected['editor'] == metadata['editor']
+    assert projected['contributor'] == metadata['contributor']
 assert descriptor['source']['archiveMembers'] == archive_members
 assert ledger['sourceArchive']['members'] == archive_members
 assert descriptor['provider'] == 'World Register of Marine Species via ChecklistBank'

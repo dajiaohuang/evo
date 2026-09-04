@@ -196,6 +196,7 @@ def project(archive, output_root=None):
                   'colIdField': 'colId', 'totalCountField': 'total',
                   'source': {'datasetId': '1185', 'title': metadata['title'], 'version': metadata['version'],
                              'versionDoi': metadata['versionDoi'], 'citation': metadata['citation'],
+                             'editor': metadata['editor'], 'contributor': metadata['contributor'],
                              'metadataBytes': len(metadata_bytes),
                              'metadataSha256': digest(metadata_bytes), 'license': 'CC-BY-4.0',
                              'licenseUrl': 'https://creativecommons.org/licenses/by/4.0/',

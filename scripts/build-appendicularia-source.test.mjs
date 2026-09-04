@@ -37,6 +37,8 @@ describe('Appendicularia 1178 importer', () => {
     expect(descriptor.source.version).toBe(sourceMetadata.version)
     expect(descriptor.source.versionDoi).toBe(sourceMetadata.versionDoi)
     expect(descriptor.source.citation).toBe(sourceMetadata.citation)
+    expect(descriptor.source.editor).toEqual(sourceMetadata.editor)
+    expect(descriptor.source.contributor).toEqual(sourceMetadata.contributor)
     expect(descriptor.source.archiveMembers).toHaveLength(12)
     const rows = []
     for (const file of descriptor.files) {

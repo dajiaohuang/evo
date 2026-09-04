@@ -1,5 +1,15 @@
 # Data licenses and provenance
 
+RC121 retains the official ChecklistBank archives and metadata for *World List
+of Thaliacea* (1185, version DOI `10.48580/d3fw.v87`) and *World List of
+Appendicularia* (1178, version DOI `10.48580/d3fn.v89`), both issued
+2026-09-01 and declared CC BY. The committed metadata preserves the providers'
+actual citation, editor and contributor fields, and the archives preserve
+their original tables; the
+referenced publications, linked pages and remote media are not redistributed.
+Derived rows retain separate COL26.8 attribution. See [scope, boundaries and
+reproduction](docs/original-sources-rc121.md).
+
 RC120 retains the original ChecklistBank archives and metadata for World
 Kinorhyncha Database (1153, DOI `10.48580/d3ds.v86`), the historical *World
 checklist of freshwater Nematomorpha species* (1119, DOI `10.48580/d3cm.v8`)
