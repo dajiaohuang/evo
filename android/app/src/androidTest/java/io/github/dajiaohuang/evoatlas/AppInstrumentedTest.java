@@ -546,7 +546,13 @@ public class AppInstrumentedTest {
                 assertEquals(158805, itisRecords);
             } else if (packageId.equals("other-animals")) {
                 JSONArray extensions = pack.getJSONArray("extensions");
-                assertEquals(30, extensions.length());
+                assertEquals(33, extensions.length());
+                verifyAuthorityArchiveCollection(context, files, findCollection(extensions, "worms-bryozoa-archive-crosswalk"),
+                        29, 1, 20367, 216, "WoRMS Bryozoa");
+                verifyAuthorityArchiveCollection(context, files, findCollection(extensions, "worms-monogenea-archive-crosswalk"),
+                        18, 1, 5852, 43, "WoRMS Monogenea");
+                verifyAuthorityArchiveCollection(context, files, findCollection(extensions, "worms-trematoda-archive-crosswalk"),
+                        17, 1, 12007, 99, "WoRMS Trematoda");
                 verifyAuthorityArchiveCollection(context, files, findCollection(extensions, "worms-annelida-archive-crosswalk"),
                         8, 1, 18982, 1090, "WoRMS Annelida");
                 verifyAuthorityArchiveCollection(context, files, findCollection(extensions, "worms-nematoda-archive-crosswalk"),
