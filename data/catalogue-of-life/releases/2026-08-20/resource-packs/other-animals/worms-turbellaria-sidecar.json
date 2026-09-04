@@ -77,7 +77,6 @@
       "7NF2P",
       "7NF2W"
     ],
-    "wormsRootId": "2",
     "scientificName": "Turbellaria",
     "eligibleColSpecies": 6469,
     "sourceAcceptedSpecies": 6523,
@@ -203,10 +202,18 @@
   "totalSourceBytes": 12361479,
   "deliveryProfiles": {
     "web-light": {
-      "mode": "summary-only"
+      "mode": "summary-only",
+      "records": 0,
+      "files": 0,
+      "totalCompressedBytes": 0,
+      "totalSourceBytes": 0
     },
     "native-full": {
-      "mode": "complete"
+      "mode": "complete",
+      "records": 6538,
+      "files": 7,
+      "totalCompressedBytes": 1177539,
+      "totalSourceBytes": 12361479
     }
   }
 }

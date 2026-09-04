@@ -1,4 +1,4 @@
-import gzip, hashlib, importlib.util, json, tempfile, unittest
+import csv, gzip, hashlib, importlib.util, io, json, tempfile, unittest, zipfile
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -17,6 +17,8 @@ class TurbellariaProjectionTests(unittest.TestCase):
                 a = (roots[0] / name).read_bytes(); b = (roots[1] / name).read_bytes()
                 self.assertEqual(a, b, name)
             descriptor = json.loads((roots[0] / 'worms-turbellaria-sidecar.json').read_text(encoding='utf8'))
+            ledgers = [Path(one) / 'data/sources/worms-turbellaria-archive-1193-import-ledger.json', Path(two) / 'data/sources/worms-turbellaria-archive-1193-import-ledger.json']
+            self.assertEqual(ledgers[0].read_bytes(), ledgers[1].read_bytes())
             rows = sum((json.loads(gzip.decompress((roots[0] / p['path'].split('/')[-1]).read_bytes())) for p in descriptor['files']), [])
             source_only = sum((json.loads(gzip.decompress((roots[0] / p['path'].split('/')[-1]).read_bytes())) for p in descriptor['upstreamOnlyFiles']), [])
             self.assertEqual(len(rows), 6469)
@@ -36,6 +38,18 @@ class TurbellariaProjectionTests(unittest.TestCase):
             self.assertEqual(descriptor['scope']['excludedSourceProvisional'], 37)
             self.assertTrue(any(row['references'] for row in rows if row['status'] == 'accepted'))
             self.assertTrue(all(row['sourceRows'] for row in rows if row['status'] == 'accepted'))
+            source, _, _, _, _, provisional = mod.read_archive(mod.ARCHIVE)
+            self.assertEqual(len(source), 6523)
+            self.assertEqual(provisional, 37)
+            projected = {r['acceptedName']['aphiaId']: r for r in rows + source_only if r['acceptedName']}
+            with zipfile.ZipFile(mod.ARCHIVE) as archive:
+                names_raw = {r['ID']: r for r in csv.DictReader(io.TextIOWrapper(archive.open('Name.txt'), encoding='utf-8-sig'), delimiter='\t')}
+                for tid, (taxon, name, _, _) in source.items():
+                    self.assertIn(tid, projected)
+                    self.assertEqual(projected[tid]['acceptedName']['scientificName'], name['scientificName'])
+                    self.assertEqual(projected[tid]['acceptedName']['authorship'], name['authorship'])
+                    self.assertEqual(projected[tid]['acceptedName']['id'], taxon['ID'])
+                    self.assertEqual(names_raw[name['ID']]['scientificName'], name['scientificName'])
 
 
 if __name__ == '__main__':
