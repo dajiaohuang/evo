@@ -143,7 +143,9 @@ async function loadWithWorker<T>(file: RuntimeFile): Promise<T> {
   const id = ++requestId
   return new Promise<T>((resolve, reject) => {
     workerRequests.set(id, { resolve: (data) => resolve(data as T), reject })
-    activeWorker.postMessage({ id, url: dataUrl(file.url), sha256: file.sha256, sourceSha256: file.sourceSha256, mediaType: file.mediaType })
+    // Resolve native ./data against the document, not the worker's assets/ URL.
+    const url = new URL(dataUrl(file.url), document.baseURI).href
+    activeWorker.postMessage({ id, url, sha256: file.sha256, sourceSha256: file.sourceSha256, mediaType: file.mediaType })
   })
 }
 

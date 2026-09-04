@@ -5,6 +5,7 @@
 - Added independent, pinned WoRMS and Orthoptera Species File archive crosswalks for all 216,098 strict accepted COL species in four exact scopes: Mollusca, Porifera, Cnidaria and Orthoptera. Direct matches, explicit redirects, ambiguity, unmatched names and withheld relations remain separate outcomes, not species-concept equivalence assertions.
 - Retained separate source-only accepted concepts with null COL ownership. Only minimal name, status, identifier and source-row projections are redistributed; original archives, media, distribution and literature members are not bundled.
 - Added a default-collapsed source disclosure on the corresponding catalogue species pages. Native clients load one COL interval on demand and offer separate source-only browsing; Pages publishes source summaries and file inventories without the new row shards.
+- Fixed catalogue and PaleoDEM worker data URLs to resolve native `./data` against the document before dispatch. Previously workers under `assets/` requested `assets/data/`, so files could be correctly bundled yet catalogue pages and terrain still failed to load.
 - Android and iOS advance to build `59` / app `0.20.56`, retaining complete `native-full` content and unchanged size limits. Catalogue ownership, 403 source-linked navigation descriptions, 127 profiles, 312 scenes and human-review status remain unchanged. See [archive provenance and boundaries](../docs/authority-archives-rc105.md).
 
 ## App 0.20.55 / 2026.09-static-v5-rc104 — 2026-09-04

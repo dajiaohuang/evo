@@ -83,7 +83,7 @@ export function PaleotopographyLayer({ collection, frame, onStatus }: Props) {
     onStatus?.('loading')
     worker.postMessage({
       type: 'initialize',
-      url: runtimeDataUrl(frame.grid.url),
+      url: new URL(runtimeDataUrl(frame.grid.url), document.baseURI).href,
       sha256: frame.grid.sha256,
       decodedSha256: frame.grid.sourceSha256,
       decodedBytes: frame.grid.sourceBytes,
