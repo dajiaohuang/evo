@@ -36,4 +36,18 @@ export const itisEvidenceGroupB: ItisEvidenceScopeMap = {
     excludedRoots: new Set(['329']),
     title: { en: 'ITIS non-Crocodylia Reptilia exact nomenclatural mapping', zh: 'ITIS 非鳄类爬行动物精确命名对应' },
   },
+  amphibia: {
+    packageId: 'amphibia',
+    collectionId: 'itis-2026-08-26-tsn-crosswalk',
+    roots: new Set(['PH']),
+    excludedRoots: new Set(),
+    title: { en: 'ITIS Amphibia exact nomenclatural mapping', zh: 'ITIS 两栖类精确命名对应' },
+  },
+  'collembola-protura': {
+    packageId: 'crustaceans-insects',
+    collectionId: 'itis-collembola-protura-tsn-crosswalk',
+    roots: new Set(['KZS5W', '8NKDZ']),
+    excludedRoots: new Set(),
+    title: { en: 'ITIS Collembola and Protura exact nomenclatural mapping', zh: 'ITIS 弹尾类与原尾类精确命名对应' },
+  },
 }
