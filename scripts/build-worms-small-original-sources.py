@@ -22,7 +22,7 @@ ROOT = Path(__file__).resolve().parents[1]
 REGISTRY = ROOT / "data/catalogue-of-life/releases/2026-08-20/registry"
 OUT = ROOT / "data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals"
 LIMIT = 2 * 1024 * 1024
-ARCHIVE_BASE = "https://api.checklistbank.org/dataset/{dataset}/archive"
+ARCHIVE_BASE = "https://api.checklistbank.org/dataset/{dataset}/archive?attempt={attempt}"
 
 SPECS = {
     "chaetognatha": {
@@ -369,7 +369,7 @@ def project(key: str, output_root: Path = ROOT) -> dict:
                   "id": f"{spec['prefix']}-archive-crosswalk", "packageId": "other-animals",
                   "provider": source["provider"], "role": "authority-crosswalk", "rowEncoding": "json",
                   "encoding": "gzip", "mediaType": "application/json", "colIdField": "colId",
-                  "totalCountField": "total", "source": source,
+                  "totalCountField": "total", "source": dict(source),
                   "scope": {"colRootUsageId": spec["root"], "scientificName": spec["taxon"],
                             "eligibleColSpecies": len(col_rows), "sourceSpeciesRankTaxa": member_counts["speciesRankTaxa"],
                             "sourceStrictAcceptedSpecies": len(accepted),
@@ -397,6 +397,8 @@ def project(key: str, output_root: Path = ROOT) -> dict:
                                   "Only the exact pinned archive is replayed; no live endpoint is used.",
                                   "Archive completeness and nomenclatural status do not establish biological completeness."]}
     descriptor_path = destination / f"{spec['prefix']}-sidecar.json"
+    ledger_path = output_root / f"data/sources/{spec['prefix']}-archive-{spec['dataset']}-import-ledger.json"
+    descriptor["source"]["sourceLedgerPath"] = str(ledger_path.relative_to(output_root)).replace("\\", "/")
     descriptor_bytes = encode(descriptor, pretty=True)
     descriptor_path.write_bytes(descriptor_bytes)
     ledger = {"schemaVersion": 1, "importType": "COL26.8-to-WoRMS-original-archive-projection",
@@ -415,9 +417,6 @@ def project(key: str, output_root: Path = ROOT) -> dict:
     ledger_path = output_root / f"data/sources/{spec['prefix']}-archive-{spec['dataset']}-import-ledger.json"
     ledger_path.parent.mkdir(parents=True, exist_ok=True)
     ledger_path.write_bytes(encode(ledger, pretty=True))
-    descriptor["source"]["sourceLedgerPath"] = str(ledger_path.relative_to(output_root)).replace("\\", "/")
-    descriptor["source"]["sourceLedgerSha256"] = digest(ledger_path.read_bytes())
-    descriptor_path.write_bytes(encode(descriptor, pretty=True))
     return {"key": key, "counts": descriptor["counts"], "source": {"bytes": len(raw), "sha256": digest(raw)},
             "shards": len(col_files) + len(source_files)}
 

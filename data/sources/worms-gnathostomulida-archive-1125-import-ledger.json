@@ -3,13 +3,14 @@
   "importType": "COL26.8-to-WoRMS-original-archive-projection",
   "generatedBy": {
     "scriptPath": "scripts/build-worms-small-original-sources.py",
-    "scriptSha256": "e8284cd289092463170ba4ce2d80f4e5d87f413f027d1537def9b67142f66fa4",
+    "scriptSha256": "ec67f3026aba341ac7c2ac58e4e61b4a1efb1451d2c59a1a2f8ecede882cf291",
     "hashNormalization": "LF"
   },
   "source": {
     "datasetId": "1125",
     "provider": "World Register of Marine Species via ChecklistBank",
-    "archiveUrl": "https://api.checklistbank.org/dataset/1125/archive",
+    "archiveAttempt": 87,
+    "archiveUrl": "https://api.checklistbank.org/dataset/1125/archive?attempt=87",
     "archivePath": "data/sources/archives/checklistbank-1125-gnathostomulida-2026-09-01.zip",
     "archiveBytes": 20438,
     "archiveSha256": "f09e0292a17bba924b5a61342dcd45974fbd2c5a1c71db3d77312b227284bf75",
@@ -1448,8 +1449,8 @@
   "outputs": {
     "descriptor": {
       "path": "data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals/worms-gnathostomulida-sidecar.json",
-      "bytes": 6217,
-      "sha256": "77b3ec4b3c91968663320cf444092a12e0f64fba2441932e0add5ef682c45409"
+      "bytes": 6348,
+      "sha256": "bff93def8d3f858f3311d569632508ee3693656837910f0e7c7d750ee6b15468"
     },
     "files": [
       {
