@@ -148,7 +148,7 @@ describe('COL26.8 static nomenclatural resource packs', () => {
 
   it('publishes every Other Animals ITIS summary and native-full file inventory', () => {
     const descriptor = collection.packs.find((pack) => pack.packageId === 'other-animals')
-    expect(descriptor).toMatchObject({ acceptedSpeciesCount: 99161, fileCount: 4, extensionCount: 29, extensionFileCount: 79 })
+    expect(descriptor).toMatchObject({ acceptedSpeciesCount: 99161, fileCount: 4, extensionCount: 30, extensionFileCount: 88 })
     const manifest = JSON.parse(readFileSync(join(resourcePacksRoot, descriptor.manifestPath), 'utf8'))
     const extension = manifest.extensions.find((candidate) => candidate.id === 'itis-phoronida-tsn-crosswalk')
     expect(extension).toMatchObject({
@@ -185,6 +185,19 @@ describe('COL26.8 static nomenclatural resource packs', () => {
     expect(worms.files).toHaveLength(8)
     expect(worms.upstreamOnlyFiles).toHaveLength(1)
     for (const file of [...worms.files, ...worms.upstreamOnlyFiles]) {
+      const bytes = readFileSync(join(resourcePacksRoot, file.path))
+      expect(sha256(bytes)).toBe(file.sha256)
+      expect(JSON.parse(gunzipSync(bytes))).toHaveLength(file.records)
+    }
+    const nematoda = manifest.extensions.find((candidate) => candidate.id === 'worms-nematoda-archive-crosswalk')
+    expect(nematoda).toMatchObject({
+      provider: 'World Register of Marine Species via ChecklistBank',
+      counts: { total: 19604, records: 21708, accepted: 19525, redirect: 1, ambiguous: 4, unmatched: 72, withheld: 2, upstreamOnly: 2104 },
+      deliveryProfiles: { 'web-light': { payload: 'summary-only', files: [], records: 0 }, 'native-full': { payload: 'complete', records: 21708 } },
+    })
+    expect(nematoda.files).toHaveLength(8)
+    expect(nematoda.upstreamOnlyFiles).toHaveLength(1)
+    for (const file of [...nematoda.files, ...nematoda.upstreamOnlyFiles]) {
       const bytes = readFileSync(join(resourcePacksRoot, file.path))
       expect(sha256(bytes)).toBe(file.sha256)
       expect(JSON.parse(gunzipSync(bytes))).toHaveLength(file.records)

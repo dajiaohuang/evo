@@ -1,5 +1,12 @@
 # Dataset changelog
 
+## App 0.20.60 / 2026.09-static-v5-rc109 — 2026-09-04
+
+- Added independent frozen WoRMS name/status projections for all 19,604 scoped COL Nematoda species and 80,890 scoped Crustacea species. Exact accepted matches, explicit redirects, ambiguity, unmatched names and withheld mappings remain distinct.
+- Kept 2,104 Nematoda and 8,675 Crustacea source-only accepted concepts in separate null-COL-ID partitions. These are relative to the declared COL comparison scopes, not a globally deduplicated species increment. Existing COL, ITIS, OSF and WoRMS layers remain intact.
+- Pages keeps source summaries and canonical file inventories without the new row payloads. Android and iOS build `63` include all 42 additional shards, with range-based lookup and separate opt-in source-only browsing. No new scientific review status or biological dossiers are claimed.
+- See [Nematoda provenance](../docs/worms-nematoda-archive.md) and [Crustacea provenance](../docs/worms-crustacea-archive.md). The importer uses explicit independent scopes and ledgers while preserving its original default scope set.
+
 ## App 0.20.59 / 2026.09-static-v5-rc108 — 2026-09-04
 
 - Fixed resource-pack rebuilding so the COL baseline and targeted authority generators preserve independent sources instead of replacing their shared directories or extension lists.

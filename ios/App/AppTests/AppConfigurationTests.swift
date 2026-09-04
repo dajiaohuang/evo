@@ -237,11 +237,15 @@ final class AppConfigurationTests: XCTestCase {
             } else if packageId == "crustaceans-insects" || packageId == "trilobites-chelicerates" {
                 let collections = try XCTUnwrap(package["nomenclatureCollections"] as? [[String: Any]])
                 if packageId == "crustaceans-insects" {
-                    XCTAssertEqual(collections.count, 5)
+                    XCTAssertEqual(collections.count, 6)
                     try verifyAuthorityArchiveCollection(
                         collection: try XCTUnwrap(collections.first { ($0["id"] as? String) == "osf-orthoptera-archive-crosswalk" }),
                         inventory: files, below: dataRoot, expectedFiles: 11, expectedUpstreamFiles: 1,
                         expectedRecords: 30_859, expectedUpstreamRecords: 53, label: "OSF Orthoptera")
+                    try verifyAuthorityArchiveCollection(
+                        collection: try XCTUnwrap(collections.first { ($0["id"] as? String) == "worms-crustacea-archive-crosswalk" }),
+                        inventory: files, below: dataRoot, expectedFiles: 30, expectedUpstreamFiles: 3,
+                        expectedRecords: 80_890, expectedUpstreamRecords: 8_675, label: "WoRMS Crustacea")
                 }
                 let expectedIds = packageId == "crustaceans-insects"
                     ? ["itis-insecta-tsn-crosswalk", "itis-crustacea-tsn-crosswalk", "itis-myriapoda-tsn-crosswalk", "itis-collembola-protura-tsn-crosswalk"]
@@ -258,7 +262,7 @@ final class AppConfigurationTests: XCTestCase {
                         "bf90e217fa6871bb1e59807b721ed88403c47e9aa2712a782ef40146b906fdf2",
                     ]
                     : ["90383cc2bf44dc092b59c7ed131169317a0a613699aa6485c6f3e9b74decfa3c"]
-                XCTAssertEqual(collections.count, expectedIds.count + (packageId == "crustaceans-insects" ? 1 : 0))
+                XCTAssertEqual(collections.count, expectedIds.count + (packageId == "crustaceans-insects" ? 2 : 0))
                 for index in expectedIds.indices {
                     let collection = try XCTUnwrap(collections.first { ($0["id"] as? String) == expectedIds[index] }, "ITIS collection missing: \(expectedIds[index])")
                     XCTAssertEqual(collection["descriptorSha256"] as? String, expectedDescriptorShas[index])
@@ -542,11 +546,15 @@ final class AppConfigurationTests: XCTestCase {
                 XCTAssertEqual(itisRecords, 158_805)
             } else if packageId == "other-animals" {
                 let extensions = try XCTUnwrap(pack["extensions"] as? [[String: Any]])
-                XCTAssertEqual(extensions.count, 29)
+                XCTAssertEqual(extensions.count, 30)
                 try verifyAuthorityArchiveCollection(
                     collection: try XCTUnwrap(extensions.first { ($0["id"] as? String) == "worms-annelida-archive-crosswalk" }),
                     inventory: files, below: dataRoot, expectedFiles: 8, expectedUpstreamFiles: 1,
                     expectedRecords: 18_982, expectedUpstreamRecords: 1_090, label: "WoRMS Annelida")
+                try verifyAuthorityArchiveCollection(
+                    collection: try XCTUnwrap(extensions.first { ($0["id"] as? String) == "worms-nematoda-archive-crosswalk" }),
+                    inventory: files, below: dataRoot, expectedFiles: 8, expectedUpstreamFiles: 1,
+                    expectedRecords: 19_604, expectedUpstreamRecords: 2_104, label: "WoRMS Nematoda")
                 let expectedIds = [
                     "itis-platyhelminthes-tsn-crosswalk", "itis-rotifera-tsn-crosswalk", "itis-bryozoa-tsn-crosswalk",
                     "itis-nemertea-tsn-crosswalk", "itis-tunicata-cephalochordata-tsn-crosswalk", "itis-acanthocephala-tsn-crosswalk",
