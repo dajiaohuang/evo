@@ -77,11 +77,11 @@
   },
   "scope": {
     "colRootUsageId": "B8VF5",
+    "scientificName": "Kinorhyncha",
     "eligibleColSpecies": 362,
     "sourceAcceptedSpecies": 362,
     "sourceSpeciesRankTaxa": 362,
-    "excludedSourceProvisional": 0,
-    "scientificName": "Kinorhyncha"
+    "excludedSourceProvisional": 0
   },
   "matching": {
     "normalization": "NFC and whitespace normalization only; COL trailing authorship removed exactly.",
@@ -112,21 +112,9 @@
       "maxColId": "XKWH"
     }
   ],
-  "upstreamOnlyFiles": [
-    {
-      "path": "other-animals/worms-kinorhyncha-source-only-000.json.gz",
-      "records": 0,
-      "bytes": 23,
-      "sha256": "abc129be8d26e8d4afe9ce45f9d5a73c8ed9aa62810ca24ee789fe4581dc4a80",
-      "sourceBytes": 3,
-      "sourceSha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
-      "encoding": "gzip",
-      "mediaType": "application/json",
-      "role": "upstream-only"
-    }
-  ],
-  "totalCompressedBytes": 124848,
-  "totalSourceBytes": 1339877,
+  "upstreamOnlyFiles": [],
+  "totalCompressedBytes": 124825,
+  "totalSourceBytes": 1339874,
   "deliveryProfiles": {
     "web-light": {
       "mode": "summary-only",
@@ -139,11 +127,10 @@
       "mode": "complete",
       "records": 362,
       "files": [
-        "other-animals/worms-kinorhyncha-000.json.gz",
-        "other-animals/worms-kinorhyncha-source-only-000.json.gz"
+        "other-animals/worms-kinorhyncha-000.json.gz"
       ],
-      "totalCompressedBytes": 124848,
-      "totalSourceBytes": 1339877
+      "totalCompressedBytes": 124825,
+      "totalSourceBytes": 1339874
     }
   },
   "evidenceBoundary": {
