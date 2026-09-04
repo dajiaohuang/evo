@@ -1,0 +1,41 @@
+import type { CatalogueItisScopeConfig } from './catalogueItisScopeTypes'
+
+const otherAnimals = (scope: string, roots: string[], title: string): CatalogueItisScopeConfig => ({
+  scope,
+  packageId: 'other-animals',
+  collectionId: `itis-${scope}-tsn-crosswalk`,
+  roots: new Set(roots),
+  excludedRoots: new Set(),
+  title: { en: `ITIS ${title} exact nomenclatural mapping`, zh: `ITIS ${title}精确命名对应` },
+})
+
+export const catalogueItisOtherAnimalsScopes: CatalogueItisScopeConfig[] = [
+  otherAnimals('nematoda', ['NM'], 'Nematoda'),
+  otherAnimals('annelida', ['NN'], 'Annelida'),
+  otherAnimals('platyhelminthes', ['7NF2H'], 'Platyhelminthes'),
+  otherAnimals('rotifera', ['5Y'], 'Rotifera'),
+  otherAnimals('bryozoa', ['622CG'], 'Bryozoa'),
+  otherAnimals('nemertea', ['5C'], 'Nemertea'),
+  otherAnimals('tunicata-cephalochordata', ['7NF2Z', '7NF2Q'], 'Tunicata and Cephalochordata'),
+  otherAnimals('acanthocephala', ['622BD'], 'Acanthocephala'),
+  otherAnimals('entoprocta', ['BDTX4'], 'Entoprocta'),
+  otherAnimals('tardigrada', ['L2QNW'], 'Tardigrada'),
+  otherAnimals('chaetognatha', ['36'], 'Chaetognatha'),
+  otherAnimals('ctenophora', ['B8V3L'], 'Ctenophora'),
+  otherAnimals('kinorhyncha', ['B8VF5'], 'Kinorhyncha'),
+  otherAnimals('gastrotricha', ['B8V3M'], 'Gastrotricha'),
+  otherAnimals('priapulida', ['B8VF9'], 'Priapulida'),
+  otherAnimals('onychophora', ['BV844'], 'Onychophora'),
+  otherAnimals('hemichordata', ['4R'], 'Hemichordata'),
+  otherAnimals('sipuncula', ['63'], 'Sipuncula'),
+  otherAnimals('nematomorpha', ['5B'], 'Nematomorpha'),
+  otherAnimals('phoronida', ['5P'], 'Phoronida'),
+  otherAnimals('gnathostomulida', ['B8VF3'], 'Gnathostomulida'),
+  otherAnimals('loricifera', ['B8VF6'], 'Loricifera'),
+  otherAnimals('micrognathozoa', ['54'], 'Micrognathozoa'),
+  otherAnimals('cycliophora', ['622CL'], 'Cycliophora'),
+  otherAnimals('placozoa', ['B8V3N'], 'Placozoa'),
+  otherAnimals('xenacoelomorpha', ['7NF2K'], 'Xenacoelomorpha'),
+  otherAnimals('orthonectida', ['CVJLH'], 'Orthonectida'),
+  otherAnimals('dicyemida', ['3Z'], 'Dicyemida'),
+]

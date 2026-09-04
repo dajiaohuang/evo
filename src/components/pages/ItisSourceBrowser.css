@@ -1,0 +1,15 @@
+.itis-browser { margin-top: 24px; border-block: 1px solid var(--color-border); color: var(--color-text); }
+.itis-browser summary { padding: 18px 0; cursor: pointer; font: 500 20px var(--font-display); }
+.itis-browser__body { max-width: 760px; padding: 0 0 24px; font: 13px/1.65 var(--font-sans); overflow-wrap: anywhere; }
+.itis-browser__body p { margin-block: 12px; color: var(--color-text-muted); }
+.itis-browser__body label { display: grid; gap: 6px; margin-block: 18px; }
+.itis-browser select, .itis-browser input, .itis-browser button { min-height: 44px; max-width: 100%; padding: 9px 12px; border: 1px solid var(--color-border); background: var(--color-surface); color: var(--color-text); font: inherit; }
+.itis-browser select, .itis-browser input { width: 100%; min-width: 0; }
+.itis-browser button { cursor: pointer; }
+.itis-browser button:disabled { opacity: .45; cursor: default; }
+.itis-browser a { color: var(--color-accent); }
+.itis-browser :is(summary, select, input, button, a):focus-visible { outline: 2px solid var(--color-accent); outline-offset: 3px; }
+.itis-browser__rows { padding-left: 24px; }
+.itis-browser__rows > li { padding: 14px 0; border-top: 1px solid var(--color-border-subtle); }
+.itis-browser__rows p { margin-block: 6px; }
+.itis-browser__pagination { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; }

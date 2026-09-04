@@ -324,6 +324,7 @@ export type RuntimeItisNomenclatureCollectionId =
   | 'itis-chondrichthyes-tsn-crosswalk'
   | 'itis-agnatha-myxini-tsn-crosswalk'
   | 'itis-sarcopterygii-tsn-crosswalk'
+  | 'itis-collembola-protura-tsn-crosswalk'
 
 export type RuntimeItisPackageScope =
   | 'mollusca-brachiopoda'
@@ -344,6 +345,8 @@ export type RuntimeItisPackageScope =
   | 'chondrichthyes'
   | 'agnatha-myxini'
   | 'sarcopterygii'
+  | 'amphibia'
+  | 'collembola-protura'
 
 export interface RuntimeItisNomenclatureCollection {
   schemaVersion: 1

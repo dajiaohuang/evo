@@ -9,6 +9,7 @@ import type { CatalogueRuntimeManifest, CatalogueSpeciesCoverageEntry, Catalogue
 import type { AppRoute } from '../../utils/routing'
 import { reviewStatusLabel, scientificMaturityLabel } from '../../services/publication'
 import { useI18n } from '../../i18n'
+import { ItisSourceBrowser } from './ItisSourceBrowser'
 import './InfoPages.css'
 
 interface PageProps {
@@ -279,6 +280,7 @@ export function DataPage({ onNavigate }: PageProps) {
               </div>
             ))}
           </div>
+          <ItisSourceBrowser entries={speciesOwnership.entries} zh={language === 'zh'} />
           <p className="ownership-proof">{language === 'zh'
             ? `证明：访问 ${number(speciesOwnership.proof.visitedAcceptedSpecies)}，归属 ${number(speciesOwnership.proof.assignedSpecies)}，未归属 ${number(speciesOwnership.proof.unmatchedSpecies)}，优先级后歧义 ${number(speciesOwnership.proof.ambiguousAfterPriority)}，父链断裂 ${number(speciesOwnership.proof.brokenLineages)}。`
             : `Proof: ${number(speciesOwnership.proof.visitedAcceptedSpecies)} visited, ${number(speciesOwnership.proof.assignedSpecies)} assigned, ${number(speciesOwnership.proof.unmatchedSpecies)} unmatched, ${number(speciesOwnership.proof.ambiguousAfterPriority)} ambiguous after priority, and ${number(speciesOwnership.proof.brokenLineages)} broken lineages.`}</p>

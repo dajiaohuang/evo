@@ -27,7 +27,7 @@ function StatusLabel({ status, zh }: { status: ItisNomenclatureRecord['status'];
   return <strong>{labels[status]}</strong>
 }
 
-function RecordDetail({ record, zh }: { record: ItisNomenclatureRecord | null; zh: boolean }) {
+export function RecordDetail({ record, zh }: { record: ItisNomenclatureRecord | null; zh: boolean }) {
   if (!record) return <p>{zh ? '固定映射中未找到该 COL ID；未猜测替代记录。' : 'This COL ID was not found in the pinned mapping; no substitute was inferred.'}</p>
   return <>
     <p><StatusLabel status={record.status} zh={zh} /></p>

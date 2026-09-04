@@ -429,7 +429,7 @@ export async function loadPackageItisRecord(
 }
 
 const packageItisContracts: Record<import('./types').RuntimeItisPackageScope, {
-  packageId: 'other-animals' | 'molluscs-brachiopods' | 'sponges-cnidarians' | 'echinoderms' | 'crustaceans-insects' | 'trilobites-chelicerates' | 'turtles-lepidosaurs' | 'crocodylomorphs-birds' | 'perissodactyla' | 'cetartiodactyla' | 'primates' | 'carnivora' | 'other-mammals' | 'actinopterygii' | 'chondrichthyes' | 'early-fishes' | 'tetrapod-transition'
+  packageId: 'other-animals' | 'molluscs-brachiopods' | 'sponges-cnidarians' | 'echinoderms' | 'crustaceans-insects' | 'trilobites-chelicerates' | 'turtles-lepidosaurs' | 'crocodylomorphs-birds' | 'perissodactyla' | 'cetartiodactyla' | 'primates' | 'carnivora' | 'other-mammals' | 'actinopterygii' | 'chondrichthyes' | 'early-fishes' | 'tetrapod-transition' | 'amphibia'
   collectionId: import('./types').RuntimeItisNomenclatureCollectionId
   total: number
   accepted: number
@@ -457,6 +457,8 @@ const packageItisContracts: Record<import('./types').RuntimeItisPackageScope, {
   chondrichthyes: { packageId: 'chondrichthyes', collectionId: 'itis-chondrichthyes-tsn-crosswalk', total: 1359, accepted: 769, redirects: 18, ambiguous: 1, unmatched: 571, upstreamOnly: 183, canonicalFileCount: 2 },
   'agnatha-myxini': { packageId: 'early-fishes', collectionId: 'itis-agnatha-myxini-tsn-crosswalk', total: 141, accepted: 92, redirects: 3, ambiguous: 0, unmatched: 46, upstreamOnly: 17, canonicalFileCount: 2 },
   sarcopterygii: { packageId: 'tetrapod-transition', collectionId: 'itis-sarcopterygii-tsn-crosswalk', total: 8, accepted: 8, redirects: 0, ambiguous: 0, unmatched: 0, upstreamOnly: 0, canonicalFileCount: 1 },
+  amphibia: { packageId: 'amphibia', collectionId: 'itis-2026-08-26-tsn-crosswalk', total: 8923, accepted: 8909, redirects: 0, ambiguous: 14, unmatched: 0, upstreamOnly: 8, canonicalFileCount: 8 },
+  'collembola-protura': { packageId: 'crustaceans-insects', collectionId: 'itis-collembola-protura-tsn-crosswalk', total: 9668, accepted: 2075, redirects: 25, ambiguous: 4, unmatched: 7564, upstreamOnly: 411, canonicalFileCount: 3 },
 }
 
 export async function loadPackageItisAuthorityRecord(
