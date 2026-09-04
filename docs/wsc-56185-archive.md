@@ -1,7 +1,9 @@
 # World Spider Catalog archive projection (ChecklistBank 56185)
 
 This worker freezes the actual archive returned by the official ChecklistBank
-dataset-56185 endpoint for *The World Spider Catalog*. The committed archive is
+dataset-56185 archive endpoint
+`https://api.checklistbank.org/dataset/56185/archive?attempt=80` (import
+attempt 80) for *The World Spider Catalog*. The committed archive is
 3,051,808 bytes with SHA-256
 `56ec2edda2d4570ee24fd67e9ab392ef0dce80fb9cef4967ba74caf00e12a390`.
 The API metadata response is retained as

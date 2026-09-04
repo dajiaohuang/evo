@@ -48,13 +48,18 @@ class WscSpidersProjectionTests(unittest.TestCase):
             source = descriptor["source"]
             self.assertEqual(source["archiveBytes"], mod.ARCHIVE_BYTES)
             self.assertEqual(source["archiveSha256"], mod.ARCHIVE_SHA)
+            self.assertEqual(source["archiveUrl"], "https://api.checklistbank.org/dataset/56185/archive?attempt=80")
+            self.assertEqual(source["archiveAttempt"], 80)
             self.assertEqual(source["doi"], "10.48580/d4btg")
+            self.assertEqual(source["version"], "2026-08-30")
             self.assertEqual(source["versionDoi"], "10.48580/d4btg.v80")
             self.assertEqual(source["embeddedMetadata"]["doi"], "10.24436/2")
             self.assertEqual(source["embeddedMetadata"]["version"], "")
             self.assertEqual(source["embeddedMetadata"]["license"], "cc by")
             self.assertEqual(source["metadataConsistency"]["status"], "mismatch")
             self.assertEqual(source["license"], "cc by")
+            ledger = json.loads(ledger_path.read_text(encoding="utf-8"))
+            self.assertEqual(ledger["source"], source)
 
             rows = sum((json.loads(gzip.decompress((roots[0] / item["path"].split("/")[-1]).read_bytes()))
                         for item in descriptor["files"]), [])
@@ -111,6 +116,8 @@ class WscSpidersProjectionTests(unittest.TestCase):
         self.assertIn("doi: 10.24436/2", embedded)
         self.assertIn("version: ", embedded)
         api = json.loads(mod.METADATA.read_text(encoding="utf-8"))
+        self.assertEqual(api["attempt"], 80)
+        self.assertEqual(api["version"], "2026-08-30")
         self.assertEqual(api["versionDoi"], "10.48580/d4btg.v80")
         self.assertEqual(api["license"], "cc by")
 
