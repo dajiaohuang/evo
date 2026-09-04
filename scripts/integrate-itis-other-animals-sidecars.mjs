@@ -2,6 +2,7 @@ import { createHash } from 'node:crypto'
 import { readFileSync, writeFileSync } from 'node:fs'
 import { dirname, join, resolve } from 'node:path'
 import { fileURLToPath } from 'node:url'
+import { replaceOwnedExtensions, summarizeExtensions } from './manifest-extension-utils.mjs'
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..')
 const resourceRoot = join(root, 'data/catalogue-of-life/releases/2026-08-20/resource-packs')
@@ -47,6 +48,7 @@ const taxa = [
   { slug: 'nematoda', label: 'Nematoda' },
   { slug: 'annelida', label: 'Annelida' },
 ]
+const ownedExtensionIds = new Set(taxa.map(({ slug }) => `itis-${slug}-tsn-crosswalk`))
 
 const bryozoaPath = join(packRoot, 'itis-bryozoa-sidecar.json')
 const bryozoa = readJson(bryozoaPath)
@@ -168,7 +170,7 @@ const extensions = taxa.map(({ slug, label }) => {
 })
 
 const packManifest = readJson(packManifestPath)
-packManifest.extensions = extensions
+packManifest.extensions = replaceOwnedExtensions(packManifest.extensions ?? [], extensions, (extension) => ownedExtensionIds.has(extension.id))
 const packManifestRecord = writeJson(packManifestPath, packManifest)
 
 const collectionManifest = readJson(collectionManifestPath)
@@ -176,8 +178,7 @@ const pack = collectionManifest.packs.find((candidate) => candidate.packageId ==
 if (!pack) throw new Error('Missing other-animals resource-pack descriptor')
 pack.manifestBytes = packManifestRecord.bytes
 pack.manifestSha256 = packManifestRecord.sha256
-pack.extensionCount = extensions.length
-pack.extensionFileCount = extensions.reduce((sum, extension) => sum + extension.files.length, 0)
+Object.assign(pack, summarizeExtensions(packManifest.extensions))
 writeJson(collectionManifestPath, collectionManifest)
 
 console.log(`Integrated ${extensions.length} ITIS other-animals authority scopes with ${pack.extensionFileCount} canonical files.`)

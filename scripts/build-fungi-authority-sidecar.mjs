@@ -4,6 +4,7 @@ import { dirname, join, resolve } from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { gunzipSync } from 'node:zlib'
 import { deterministicGzip } from './archive-determinism.mjs'
+import { replaceOwnedExtensions, summarizeExtensions } from './manifest-extension-utils.mjs'
 import {
   CATALOGUE_RELEASE,
   CATALOGUE_RELEASE_DATE,
@@ -222,10 +223,7 @@ export function buildFungiAuthoritySidecar({ packageRoot, crosswalkPath, descrip
   const collectionManifestPath = join(resourcePacksRoot, 'manifest.json')
   if (existsSync(packageManifestPath) && existsSync(collectionManifestPath)) {
     const packageManifest = JSON.parse(readFileSync(packageManifestPath, 'utf8'))
-    packageManifest.extensions = [
-      ...(packageManifest.extensions ?? []).filter((candidate) => candidate.id !== descriptor.id),
-      descriptor,
-    ]
+    packageManifest.extensions = replaceOwnedExtensions(packageManifest.extensions ?? [], [descriptor], (candidate) => candidate.id === descriptor.id)
     writeFileSync(packageManifestPath, `${JSON.stringify(packageManifest, null, 2)}\n`, 'utf8')
 
     const collection = JSON.parse(readFileSync(collectionManifestPath, 'utf8'))
@@ -235,10 +233,7 @@ export function buildFungiAuthoritySidecar({ packageRoot, crosswalkPath, descrip
     Object.assign(packageSummary, {
       manifestBytes: manifestBytes.byteLength,
       manifestSha256: sha256(manifestBytes),
-      extensionCount: packageManifest.extensions.length,
-      extensionFileCount: packageManifest.extensions.reduce((sum, extension) => sum + extension.files.length, 0),
-      extensionCompressedBytes: packageManifest.extensions.reduce((sum, extension) => sum + extension.totalCompressedBytes, 0),
-      extensionSourceBytes: packageManifest.extensions.reduce((sum, extension) => sum + extension.totalSourceBytes, 0),
+      ...summarizeExtensions(packageManifest.extensions),
     })
     collection.authoritativeSupplements = {
       ...(collection.authoritativeSupplements ?? {}),

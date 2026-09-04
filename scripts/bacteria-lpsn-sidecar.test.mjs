@@ -1,5 +1,5 @@
 import { createHash } from 'node:crypto'
-import { cpSync, mkdtempSync, mkdirSync, readFileSync, rmSync } from 'node:fs'
+import { cpSync, mkdtempSync, mkdirSync, readFileSync, rmSync, writeFileSync } from 'node:fs'
 import { tmpdir } from 'node:os'
 import { dirname, join, resolve } from 'node:path'
 import { fileURLToPath } from 'node:url'
@@ -105,6 +105,20 @@ describe('COL26.8 Bacteria LPSN identifier sidecar', () => {
     mkdirSync(outputRoot, { recursive: true })
     cpSync(join(resourcePacksRoot, 'manifest.json'), join(outputRoot, 'manifest.json'))
     cpSync(join(resourcePacksRoot, 'bacteria'), join(outputRoot, 'bacteria'), { recursive: true })
+    const bacteriaManifestPath = join(outputRoot, 'bacteria', 'manifest.json')
+    const bacteriaManifest = JSON.parse(readFileSync(bacteriaManifestPath, 'utf8'))
+    const unrelated = (id) => {
+      const files = [['col', 11, 17], ['source-only', 13, 19]].map(([role, bytes, sourceBytes]) => {
+        const path = `bacteria/${id}-${role}.jsonl.gz`
+        const payload = Buffer.alloc(bytes, role === 'col' ? 1 : 2)
+        writeFileSync(join(outputRoot, path), payload)
+        return { path, bytes, sourceBytes, sha256: sha256(payload) }
+      })
+      return { id, note: 'Independent fixture', files: [files[0]], upstreamOnlyFiles: [files[1]], totalCompressedBytes: 24, totalSourceBytes: 36 }
+    }
+    bacteriaManifest.extensions = [unrelated('itis-future-authority'), ...bacteriaManifest.extensions, unrelated('worms-annelida-archive-crosswalk')]
+    writeFileSync(bacteriaManifestPath, `${JSON.stringify(bacteriaManifest, null, 2)}\n`)
+    const preserved = bacteriaManifest.extensions.filter((extension) => extension.note === 'Independent fixture')
     const collectionBefore = JSON.parse(readFileSync(join(outputRoot, 'manifest.json'), 'utf8'))
     const speciesBefore = readFileSync(join(outputRoot, 'bacteria', 'species-000.jsonl.gz'))
     expect(speciesBefore.byteLength).toBe(590043)
@@ -121,6 +135,12 @@ describe('COL26.8 Bacteria LPSN identifier sidecar', () => {
     expect(readFileSync(join(outputRoot, 'bacteria', 'manifest.json'))).toEqual(firstFiles.manifest)
     expect(readFileSync(join(outputRoot, 'manifest.json'))).toEqual(firstFiles.collection)
     expect(readFileSync(join(outputRoot, 'bacteria', 'species-000.jsonl.gz'))).toEqual(speciesBefore)
+    expect(JSON.parse(firstFiles.manifest).extensions.filter((extension) => extension.note === 'Independent fixture')).toEqual(preserved)
+    for (const extension of preserved) {
+      for (const file of [...extension.files, ...extension.upstreamOnlyFiles]) {
+        expect(sha256(readFileSync(join(outputRoot, file.path)))).toBe(file.sha256)
+      }
+    }
 
     const collectionAfter = JSON.parse(firstFiles.collection.toString('utf8'))
     expect(collectionAfter.packs.filter((pack) => pack.packageId !== 'bacteria'))
@@ -128,12 +148,11 @@ describe('COL26.8 Bacteria LPSN identifier sidecar', () => {
     const descriptor = collectionAfter.packs.find((pack) => pack.packageId === 'bacteria')
     expect(descriptor).toMatchObject({
       acceptedSpeciesCount: 26397,
-      extensionCount: 2,
-      extensionFileCount: 9,
+      extensionCount: 4,
+      extensionFileCount: 13,
     })
     expect(JSON.parse(firstFiles.manifest).extensions.map((extension) => extension.id)).toEqual([
-      'itis-bacteria-tsn-crosswalk',
-      'lpsn-identifiers',
+      'itis-future-authority', 'lpsn-identifiers', 'itis-bacteria-tsn-crosswalk', 'worms-annelida-archive-crosswalk',
     ])
     expect(first.extension).toEqual(second.extension)
     expect(first.extension.counts).toEqual({

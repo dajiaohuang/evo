@@ -148,8 +148,15 @@ describe('checked-in ITIS Mammalia authority sidecars', () => {
       const bytes = readFileSync(join(REPOSITORY_ROOT, ...ledger.generatedFrom[pathKey].split('/')))
       expect(sha256(bytes)).toBe(ledger.generatedFrom[hashKey])
     }
-    const ownershipBytes = readFileSync(join(REPOSITORY_ROOT, ...ledger.generatedFrom.colOwnershipPath.split('/')))
+    // The ledger pins the input used for the historical import, not a mutable
+    // release projection regenerated later from the same COL taxonomy.
+    const ownershipBytes = readFileSync(join(REPOSITORY_ROOT, 'data/sources/snapshots/package-species-coverage-col26.8-rc72.json'))
     expect(sha256(ownershipBytes)).toBe(ledger.generatedFrom.colOwnershipSha256)
+    const currentOwnership = JSON.parse(readFileSync(join(REPOSITORY_ROOT, ...ledger.generatedFrom.colOwnershipPath.split('/'))))
+    const historicalOwnership = JSON.parse(ownershipBytes)
+    for (const field of ['source', 'ownershipPolicy', 'entries', 'resourcePacks', 'routes', 'packageCounts', 'proof']) {
+      expect(currentOwnership[field]).toEqual(historicalOwnership[field])
+    }
     expect(ledger.generatedFrom.colOwnershipInputSemantics).toContain('historical ITIS source import contract')
     const scriptBytes = readFileSync(join(REPOSITORY_ROOT, ...ledger.generatedBy.scriptPath.split('/')))
     expect(sha256(scriptBytes)).toBe(ledger.generatedBy.scriptSha256)

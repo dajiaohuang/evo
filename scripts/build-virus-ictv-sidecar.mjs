@@ -4,6 +4,7 @@ import { dirname, join, resolve } from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { gunzipSync } from 'node:zlib'
 import { deterministicGzip } from './archive-determinism.mjs'
+import { replaceOwnedExtensions, summarizeExtensions } from './manifest-extension-utils.mjs'
 
 const SCRIPT_PATH = fileURLToPath(import.meta.url)
 const REPOSITORY_ROOT = resolve(dirname(SCRIPT_PATH), '..')
@@ -226,7 +227,7 @@ export function buildVirusIctvSidecar({ resourcePacksRoot, crosswalkPath }) {
   const species = loadSpecies(resourcePacksRoot, virusManifest)
   const crosswalk = loadCrosswalk(crosswalkPath, species)
   const extension = buildExtension(crosswalk, resourcePacksRoot)
-  const nextVirusManifest = { ...virusManifest, extensions: [extension] }
+  const nextVirusManifest = { ...virusManifest, extensions: replaceOwnedExtensions(virusManifest.extensions ?? [], [extension], (candidate) => candidate.id === extension.id) }
   const virusManifestBytes = Buffer.from(`${JSON.stringify(nextVirusManifest, null, 2)}\n`, 'utf8')
   writeFileSync(virusManifestPath, virusManifestBytes)
 
@@ -237,10 +238,7 @@ export function buildVirusIctvSidecar({ resourcePacksRoot, crosswalkPath }) {
     ...descriptor,
     manifestBytes: virusManifestBytes.byteLength,
     manifestSha256: sha256(virusManifestBytes),
-    extensionCount: 1,
-    extensionFileCount: 1,
-    extensionCompressedBytes: extension.totalCompressedBytes,
-    extensionSourceBytes: extension.totalSourceBytes,
+    ...summarizeExtensions(nextVirusManifest.extensions),
   }
   writeFileSync(collectionManifestPath, `${JSON.stringify(collection, null, 2)}\n`, 'utf8')
   return { extension, virusManifestBytes }

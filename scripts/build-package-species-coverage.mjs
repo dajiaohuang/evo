@@ -1,10 +1,11 @@
 import { createHash } from 'node:crypto'
-import { createReadStream, mkdirSync, readFileSync, rmSync, writeFileSync } from 'node:fs'
+import { createReadStream, mkdirSync, readFileSync, readdirSync, rmSync, writeFileSync } from 'node:fs'
 import { dirname, join, resolve } from 'node:path'
 import { fileURLToPath, pathToFileURL } from 'node:url'
 import { createGunzip } from 'node:zlib'
 import { createInterface } from 'node:readline'
 import { deterministicGzip } from './archive-determinism.mjs'
+import { summarizeExtensions } from './manifest-extension-utils.mjs'
 import { buildBacteriaLpsnSidecar } from './build-bacteria-lpsn-sidecar.mjs'
 import { buildVirusIctvSidecar } from './build-virus-ictv-sidecar.mjs'
 import { buildWfoPlantProjections } from './build-wfo-plant-projections.mjs'
@@ -438,11 +439,33 @@ function buildArchaeaLpsnExtension({ crosswalk, speciesRecords, packageRoot }) {
   }
 }
 
-function writeResourcePacks({ resourcePacksRoot, registryRoot, sourceManifest, resourcePackRecords, packageCounts, archaeaLpsnCrosswalk }) {
+function removeBaselineSpeciesFiles(resourcePacksRoot) {
+  for (const route of CATALOGUE_ROUTES.filter((entry) => entry.kind === 'nomenclatural-resource-pack')) {
+    const packageRoot = join(resourcePacksRoot, route.id)
+    let entries
+    try {
+      entries = readdirSync(packageRoot, { withFileTypes: true })
+    } catch (error) {
+      if (error.code === 'ENOENT') continue
+      throw error
+    }
+    for (const name of entries.filter((entry) => entry.isFile() && /^species-\d+\.jsonl\.gz$/.test(entry.name)).map((entry) => entry.name)) {
+      rmSync(join(packageRoot, name), { force: true })
+    }
+  }
+}
+
+export function writeResourcePacks({ resourcePacksRoot, registryRoot, sourceManifest, resourcePackRecords, packageCounts, archaeaLpsnCrosswalk }) {
   const expectedRoot = resolve(dirname(registryRoot), 'resource-packs')
   if (resourcePacksRoot !== expectedRoot) throw new Error(`Resource-pack output must be the sibling of the selected registry: ${expectedRoot}`)
-  rmSync(resourcePacksRoot, { recursive: true, force: true })
   mkdirSync(resourcePacksRoot, { recursive: true })
+  removeBaselineSpeciesFiles(resourcePacksRoot)
+  let existingCollectionManifest = null
+  try {
+    existingCollectionManifest = JSON.parse(readFileSync(join(resourcePacksRoot, 'manifest.json'), 'utf8'))
+  } catch (error) {
+    if (error.code !== 'ENOENT') throw error
+  }
 
   const sourcesPath = join(registryRoot, sourceManifest.sourceChecklists.path)
   const sourcesBytes = readFileSync(sourcesPath)
@@ -458,6 +481,13 @@ function writeResourcePacks({ resourcePacksRoot, registryRoot, sourceManifest, r
 
     const packageRoot = join(resourcePacksRoot, route.id)
     mkdirSync(packageRoot, { recursive: true })
+    const existingManifestPath = join(packageRoot, 'manifest.json')
+    let existingManifest = null
+    try {
+      existingManifest = JSON.parse(readFileSync(existingManifestPath, 'utf8'))
+    } catch (error) {
+      if (error.code !== 'ENOENT') throw error
+    }
     const files = chunkBySourceBytes(records).map((chunk, index) => {
       const name = `species-${String(index).padStart(3, '0')}.jsonl.gz`
       const source = ndjsonBytes(chunk)
@@ -475,10 +505,17 @@ function writeResourcePacks({ resourcePacksRoot, registryRoot, sourceManifest, r
       }
     })
     const missingSourceDatasetId = records.filter((record) => record.sourceDatasetId === null || record.sourceDatasetId === undefined).length
-    const extensions = route.id === 'archaea'
+    const generatedExtensions = route.id === 'archaea'
       ? [buildArchaeaLpsnExtension({ crosswalk: archaeaLpsnCrosswalk, speciesRecords: records, packageRoot })]
       : []
+    const generatedExtensionsById = new Map(generatedExtensions.map((extension) => [extension.id, extension]))
+    const existingExtensionIds = new Set((existingManifest?.extensions ?? []).map((extension) => extension.id))
+    const extensions = [
+      ...(existingManifest?.extensions ?? []).map((extension) => generatedExtensionsById.get(extension.id) ?? extension),
+      ...generatedExtensions.filter((extension) => !existingExtensionIds.has(extension.id)),
+    ]
     const manifest = {
+      ...existingManifest,
       schemaVersion: 1,
       packageType: 'static-nomenclatural-resource-pack',
       packageId: route.id,
@@ -519,14 +556,12 @@ function writeResourcePacks({ resourcePacksRoot, registryRoot, sourceManifest, r
       totalCompressedBytes: manifest.totalCompressedBytes,
       totalSourceBytes: manifest.totalSourceBytes,
       ...(extensions.length ? {
-        extensionCount: extensions.length,
-        extensionFileCount: extensions.reduce((sum, extension) => sum + extension.files.length, 0),
-        extensionCompressedBytes: extensions.reduce((sum, extension) => sum + extension.totalCompressedBytes, 0),
-        extensionSourceBytes: extensions.reduce((sum, extension) => sum + extension.totalSourceBytes, 0),
+        ...summarizeExtensions(extensions),
       } : {}),
     })
   }
   const manifest = {
+    ...existingCollectionManifest,
     schemaVersion: 1,
     collectionType: 'static-nomenclatural-resource-packs',
     source: {
@@ -685,4 +720,4 @@ async function main() {
   console.log(JSON.stringify({ output: options.output, packageCounts, proof }, null, 2))
 }
 
-await main()
+if (resolve(process.argv[1] ?? '') === SCRIPT_PATH) await main()

@@ -2,6 +2,7 @@ import { createHash } from 'node:crypto'
 import { readFileSync, writeFileSync } from 'node:fs'
 import { dirname, join, resolve } from 'node:path'
 import { fileURLToPath } from 'node:url'
+import { replaceOwnedExtensions, summarizeExtensions } from './manifest-extension-utils.mjs'
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..')
 const resourceRoot = join(root, 'data/catalogue-of-life/releases/2026-08-20/resource-packs')
@@ -44,7 +45,10 @@ const toRuntimeFile = (file) => ({
     : { colOwnership: null, role: 'upstream-only' }),
 })
 
-const files = [...descriptor.colUsageIdLocator.files, ...descriptor.upstreamOnly.files].map(toRuntimeFile)
+// Match the collection integrator: an empty source partition is not a runtime shard.
+const files = [...descriptor.colUsageIdLocator.files, ...descriptor.upstreamOnly.files]
+  .filter((file) => file.records > 0)
+  .map(toRuntimeFile)
 const records = descriptor.counts.total + descriptor.counts.itisUpstreamOnly
 const totalCompressedBytes = files.reduce((sum, file) => sum + file.bytes, 0)
 const totalSourceBytes = files.reduce((sum, file) => sum + file.sourceBytes, 0)
@@ -108,14 +112,13 @@ const extension = {
 }
 
 const packManifest = readJson(packManifestPath)
-packManifest.extensions = [...(packManifest.extensions ?? []).filter((candidate) => candidate.id !== extension.id), extension]
+packManifest.extensions = replaceOwnedExtensions(packManifest.extensions ?? [], [extension], (candidate) => candidate.id === extension.id)
 const packManifestRecord = writeJson(packManifestPath, packManifest)
 const collectionManifest = readJson(collectionManifestPath)
 const pack = collectionManifest.packs.find((candidate) => candidate.packageId === 'other-animals')
 if (!pack) throw new Error('Missing other-animals resource-pack descriptor')
 pack.manifestBytes = packManifestRecord.bytes
 pack.manifestSha256 = packManifestRecord.sha256
-pack.extensionCount = packManifest.extensions.length
-pack.extensionFileCount = packManifest.extensions.reduce((sum, candidate) => sum + candidate.files.length, 0)
+Object.assign(pack, summarizeExtensions(packManifest.extensions))
 writeJson(collectionManifestPath, collectionManifest)
 console.log(`Integrated Phoronida ITIS authority sidecar with ${files.length} canonical files.`)

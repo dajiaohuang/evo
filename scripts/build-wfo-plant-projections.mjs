@@ -1,9 +1,10 @@
 import { createHash } from 'node:crypto'
-import { mkdirSync, readFileSync, rmSync, writeFileSync } from 'node:fs'
+import { mkdirSync, readdirSync, readFileSync, unlinkSync, writeFileSync } from 'node:fs'
 import { dirname, join, resolve } from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { gunzipSync } from 'node:zlib'
 import { deterministicGzip } from './archive-determinism.mjs'
+import { replaceOwnedExtensions, summarizeExtensions } from './manifest-extension-utils.mjs'
 
 const SCRIPT_PATH = fileURLToPath(import.meta.url)
 const REPOSITORY_ROOT = resolve(dirname(SCRIPT_PATH), '..')
@@ -86,7 +87,7 @@ function sourceDescriptor(snapshot, canonicalBytes, canonicalSource) {
   }
 }
 
-export function buildWfoPlantProjections({ crosswalkPath = DEFAULT_CROSSWALK, resourcePacksRoot = DEFAULT_RESOURCE_PACKS_ROOT } = {}) {
+export function buildWfoPlantProjections({ crosswalkPath = DEFAULT_CROSSWALK, resourcePacksRoot = DEFAULT_RESOURCE_PACKS_ROOT, packageRoot = join(REPOSITORY_ROOT, 'data', 'packages', 'plantae') } = {}) {
   const canonicalBytes = readFileSync(crosswalkPath)
   const canonicalSource = gunzipSync(canonicalBytes)
   const snapshot = JSON.parse(canonicalSource.toString('utf8'))
@@ -106,8 +107,11 @@ export function buildWfoPlantProjections({ crosswalkPath = DEFAULT_CROSSWALK, re
     const expected = snapshot.packageCounts[packageId]
     const counts = { total: records.length, ...countStatuses(records) }
     if (STATUS_KEYS.some((key) => counts[key] !== expected[key]) || counts.total !== expected.total) throw new Error(`${packageId}: WFO projection counts are invalid`)
-    const root = join(REPOSITORY_ROOT, 'data', 'packages', 'plantae', packageId, 'nomenclature')
-    rmSync(root, { recursive: true, force: true })
+    const root = join(packageRoot, packageId, 'nomenclature')
+    mkdirSync(root, { recursive: true })
+    for (const name of readdirSync(root)) {
+      if (/^wfo-\d{3}\.jsonl\.gz$/u.test(name)) unlinkSync(join(root, name))
+    }
     const files = writeShards(root, 'wfo', records, `data/packages/plantae/${packageId}/nomenclature`, 'colId')
     const descriptor = {
       schemaVersion: 1,
@@ -129,6 +133,10 @@ export function buildWfoPlantProjections({ crosswalkPath = DEFAULT_CROSSWALK, re
 
   const otherRecords = snapshot.colRecords.filter((record) => record.packageId === 'other-plants')
   const otherRoot = join(resourcePacksRoot, 'other-plants')
+  mkdirSync(otherRoot, { recursive: true })
+  for (const name of readdirSync(otherRoot)) {
+    if (/^wfo-(?:col|upstream-only)-\d{3}\.jsonl\.gz$/u.test(name)) unlinkSync(join(otherRoot, name))
+  }
   const colFiles = writeShards(otherRoot, 'wfo-col', otherRecords, 'other-plants', 'colId')
   const upstreamFiles = writeShards(otherRoot, 'wfo-upstream-only', snapshot.upstreamOnlyRecords, 'other-plants', 'wfoId')
   const otherManifestPath = join(otherRoot, 'manifest.json')
@@ -158,7 +166,7 @@ export function buildWfoPlantProjections({ crosswalkPath = DEFAULT_CROSSWALK, re
     totalSourceBytes: [...colFiles, ...upstreamFiles].reduce((sum, file) => sum + file.sourceBytes, 0),
     limitations: snapshot.limitations,
   }
-  otherManifest.extensions = [...(otherManifest.extensions ?? []).filter((candidate) => candidate.id !== extension.id), extension]
+  otherManifest.extensions = replaceOwnedExtensions(otherManifest.extensions ?? [], [extension], (candidate) => candidate.id === extension.id)
   writeFileSync(otherManifestPath, `${JSON.stringify(otherManifest, null, 2)}\n`, 'utf8')
 
   const collectionPath = join(resourcePacksRoot, 'manifest.json')
@@ -168,12 +176,10 @@ export function buildWfoPlantProjections({ crosswalkPath = DEFAULT_CROSSWALK, re
   Object.assign(descriptor, {
     manifestBytes: manifestBytes.byteLength,
     manifestSha256: sha256(manifestBytes),
-    extensionCount: otherManifest.extensions.length,
-    extensionFileCount: extension.files.length,
-    extensionCompressedBytes: extension.totalCompressedBytes,
-    extensionSourceBytes: extension.totalSourceBytes,
+    ...summarizeExtensions(otherManifest.extensions),
   })
   collection.authoritativeSupplements = {
+    ...(collection.authoritativeSupplements ?? {}),
     wfoPlantList: {
       version: snapshot.sources.wfo.version,
       versionDoi: snapshot.sources.wfo.versionDoi,

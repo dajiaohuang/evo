@@ -1,5 +1,5 @@
 import { createHash } from 'node:crypto'
-import { cpSync, mkdtempSync, mkdirSync, readFileSync, rmSync } from 'node:fs'
+import { cpSync, mkdtempSync, mkdirSync, readFileSync, rmSync, writeFileSync } from 'node:fs'
 import { tmpdir } from 'node:os'
 import { dirname, join, resolve } from 'node:path'
 import { fileURLToPath } from 'node:url'
@@ -122,6 +122,20 @@ describe('COL26.8 Viruses ICTV MSL41.v1 and VMR sidecar', () => {
     mkdirSync(outputRoot, { recursive: true })
     cpSync(join(resourcePacksRoot, 'manifest.json'), join(outputRoot, 'manifest.json'))
     cpSync(join(resourcePacksRoot, 'viruses'), join(outputRoot, 'viruses'), { recursive: true })
+    const virusManifestPath = join(outputRoot, 'viruses', 'manifest.json')
+    const virusManifest = JSON.parse(readFileSync(virusManifestPath, 'utf8'))
+    const unrelated = (id) => {
+      const files = [['col', 11, 17], ['source-only', 13, 19]].map(([role, bytes, sourceBytes]) => {
+        const path = `viruses/${id}-${role}.jsonl.gz`
+        const payload = Buffer.alloc(bytes, role === 'col' ? 1 : 2)
+        writeFileSync(join(outputRoot, path), payload)
+        return { path, bytes, sourceBytes, sha256: sha256(payload) }
+      })
+      return { id, note: 'Independent fixture', files: [files[0]], upstreamOnlyFiles: [files[1]], totalCompressedBytes: 24, totalSourceBytes: 36 }
+    }
+    virusManifest.extensions = [unrelated('itis-future-authority'), ...virusManifest.extensions, unrelated('worms-annelida-archive-crosswalk')]
+    writeFileSync(virusManifestPath, `${JSON.stringify(virusManifest, null, 2)}\n`)
+    const preserved = virusManifest.extensions.filter((extension) => extension.note === 'Independent fixture')
     const collectionBefore = JSON.parse(readFileSync(join(outputRoot, 'manifest.json'), 'utf8'))
     const speciesBefore = readFileSync(join(outputRoot, 'viruses', 'species-000.jsonl.gz'))
     expect(speciesBefore.byteLength).toBe(758880)
@@ -138,6 +152,12 @@ describe('COL26.8 Viruses ICTV MSL41.v1 and VMR sidecar', () => {
     expect(readFileSync(join(outputRoot, 'viruses', 'manifest.json'))).toEqual(firstFiles.manifest)
     expect(readFileSync(join(outputRoot, 'manifest.json'))).toEqual(firstFiles.collection)
     expect(readFileSync(join(outputRoot, 'viruses', 'species-000.jsonl.gz'))).toEqual(speciesBefore)
+    expect(JSON.parse(firstFiles.manifest).extensions.filter((extension) => extension.note === 'Independent fixture')).toEqual(preserved)
+    for (const extension of preserved) {
+      for (const file of [...extension.files, ...extension.upstreamOnlyFiles]) {
+        expect(sha256(readFileSync(join(outputRoot, file.path)))).toBe(file.sha256)
+      }
+    }
 
     const collectionAfter = JSON.parse(firstFiles.collection.toString('utf8'))
     expect(collectionAfter.packs.filter((pack) => pack.packageId !== 'viruses'))
@@ -145,11 +165,14 @@ describe('COL26.8 Viruses ICTV MSL41.v1 and VMR sidecar', () => {
     const descriptor = collectionAfter.packs.find((pack) => pack.packageId === 'viruses')
     expect(descriptor).toMatchObject({
       acceptedSpeciesCount: 17552,
-      extensionCount: 1,
-      extensionFileCount: 1,
-      extensionCompressedBytes: first.extension.totalCompressedBytes,
-      extensionSourceBytes: first.extension.totalSourceBytes,
+      extensionCount: 3,
+      extensionFileCount: 5,
+      extensionCompressedBytes: first.extension.totalCompressedBytes + 48,
+      extensionSourceBytes: first.extension.totalSourceBytes + 72,
     })
+    expect(JSON.parse(firstFiles.manifest).extensions.map((extension) => extension.id)).toEqual([
+      'itis-future-authority', 'ictv-virus-metadata', 'worms-annelida-archive-crosswalk',
+    ])
     expect(first.extension).toEqual(second.extension)
     expect(first.extension.counts).toEqual(crosswalk.counts)
     expect(first.extension.source).toMatchObject({

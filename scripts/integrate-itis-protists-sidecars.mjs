@@ -2,6 +2,7 @@ import { createHash } from 'node:crypto'
 import { readFileSync, writeFileSync } from 'node:fs'
 import { dirname, join, resolve } from 'node:path'
 import { fileURLToPath } from 'node:url'
+import { replaceOwnedExtensions, summarizeExtensions } from './manifest-extension-utils.mjs'
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..')
 const resourceRoot = join(root, 'data/catalogue-of-life/releases/2026-08-20/resource-packs')
@@ -38,6 +39,7 @@ const taxa = [
   { slug: 'katablepharidota', label: 'Katablepharidota authority boundary' },
   { slug: 'hemimastigophora', label: 'Hemimastigophora authority boundary' },
 ]
+const ownedExtensionIds = new Set(taxa.map(({ slug }) => `itis-${slug}-tsn-crosswalk`))
 
 const sha256 = (bytes) => createHash('sha256').update(bytes).digest('hex')
 const readJson = (path) => JSON.parse(readFileSync(path, 'utf8'))
@@ -71,8 +73,6 @@ const toRuntimeFile = (file) => ({
 })
 
 const packManifest = readJson(packManifestPath)
-const nonItisExtensions = (packManifest.extensions ?? []).filter((extension) => !extension.id.startsWith('itis-'))
-
 const extensions = taxa.map(({ slug, label }) => {
   const descriptorPath = join(packRoot, `itis-${slug}-sidecar.json`)
   const descriptor = readJson(descriptorPath)
@@ -169,7 +169,7 @@ const extensions = taxa.map(({ slug, label }) => {
   }
 })
 
-packManifest.extensions = [...nonItisExtensions, ...extensions]
+packManifest.extensions = replaceOwnedExtensions(packManifest.extensions ?? [], extensions, (extension) => ownedExtensionIds.has(extension.id))
 const packManifestRecord = writeJson(packManifestPath, packManifest)
 
 const collectionManifest = readJson(collectionManifestPath)
@@ -178,10 +178,7 @@ if (!pack) throw new Error('Missing protists-chromists resource-pack descriptor'
 const allExtensions = packManifest.extensions
 pack.manifestBytes = packManifestRecord.bytes
 pack.manifestSha256 = packManifestRecord.sha256
-pack.extensionCount = allExtensions.length
-pack.extensionFileCount = allExtensions.reduce((sum, extension) => sum + extension.files.length, 0)
-pack.extensionCompressedBytes = allExtensions.reduce((sum, extension) => sum + extension.totalCompressedBytes, 0)
-pack.extensionSourceBytes = allExtensions.reduce((sum, extension) => sum + extension.totalSourceBytes, 0)
+Object.assign(pack, summarizeExtensions(allExtensions))
 writeJson(collectionManifestPath, collectionManifest)
 
 const itisFiles = extensions.reduce((sum, extension) => sum + extension.files.length, 0)
