@@ -296,6 +296,86 @@
         "Preserved forewing venation is the direct observation, while the Panodonata attribution is a morphology-based interpretation; the separate 478-locus, 136-species living sample is a topology result and does not turn the fossil into a direct ancestor or modelled age.",
         "Map markers show the bounded French formation and occurrence context, not complete distribution, ecological behaviour, abundance or exact specimen-to-map co-location."
       ]
+    },
+    {
+      "id": "crustaceans-insects-parhyale-wing-homology-window",
+      "type": "explorer-preset",
+      "title": {
+        "en": "Parhyale limb-patterning wing-homology window",
+        "zh": "Parhyale 附肢图式与翅同源窗口"
+      },
+      "description": {
+        "en": "Use 0 Ma as present-day navigation context and read the linked evidence from Parhyale hawaiensis CRISPR knockouts and comparative insect expression data testing proximal limb and wing homology.",
+        "zh": "以 0 Ma 作为现生导航背景，阅读关联的 Parhyale hawaiensis CRISPR 敲除及昆虫表达比较证据，了解近端附肢与翅同源模型的检验。"
+      },
+      "route": "#/explore?taxon=parhyale-wing-experiment&view=map&age=0&older=0&younger=0",
+      "entityIds": [
+        "parhyale-wing-experiment"
+      ],
+      "claimIds": [
+        "claim:event:parhyale-wing-homology-knockout",
+        "claim:taxon:parhyale-wing-experiment"
+      ],
+      "evidenceStatus": "available-with-limitations",
+      "limitations": [
+        "Parhyale hawaiensis and the comparative insect material are present-day laboratory and expression datasets; age 0 marks the experiment, not a fossil occurrence, an ancestral date or a global insect origin.",
+        "CRISPR phenotypes and expression domains support a testable developmental correspondence between proximal crustacean leg segments and insect body-wall or wing structures, but they do not preserve the first wing or identify one uniquely ancestral fossil precursor.",
+        "The route opens generic taxon/period map context; it has no study-locality or specimen selector. Read the linked evidence dossier for the cited material. Available markers are separate occurrence records and do not locate or guarantee those study samples."
+      ]
+    },
+    {
+      "id": "crustaceans-insects-pennsylvanian-eumetabola-window",
+      "type": "explorer-preset",
+      "title": {
+        "en": "Pennsylvanian Eumetabola fossil-sample window",
+        "zh": "宾夕法尼亚世真变态类昆虫化石样本窗口"
+      },
+      "description": {
+        "en": "Use the 315–299 Ma composite window as generic map context and read the linked descriptions of five eumetabolan fossils from French and Russian localities, including stem beetle, larval, hymenopterid, hemipteran and psocodean material.",
+        "zh": "以 315–299 Ma 复合窗口作为一般地图背景，阅读关联文献中来自法国与俄罗斯地点的五件真变态类昆虫化石描述，包括鞘翅目干群、幼虫、膜翅目干群、半翅目和啮虫目材料。"
+      },
+      "route": "#/explore?taxon=pennsylvanian-eumetabola&view=map&age=307&older=315&younger=299",
+      "entityIds": [
+        "pennsylvanian-eumetabola"
+      ],
+      "claimIds": [
+        "claim:event:pennsylvanian-eumetabola-sample",
+        "claim:taxon:pennsylvanian-eumetabola"
+      ],
+      "evidenceStatus": "available-with-limitations",
+      "limitations": [
+        "The five fossils come from multiple Moscovian and Gzhelian localities in France and Russia; 315–299 Ma is a composite sample envelope, not one lineage range, synchronous origin or direct specimen date.",
+        "Descriptions and matrix placements distinguish stem coleopterid, holometabolous larval, stem hymenopterid, hemipteran and psocodean material, but these sampled branches do not establish exact crown-order FADs or a single cause for later radiation.",
+        "The route opens generic taxon/period map context; it has no study-locality or specimen selector. Read the linked evidence dossier for the cited material. Available markers are separate occurrence records and do not locate or guarantee those study samples."
+      ]
+    },
+    {
+      "id": "crustaceans-insects-cretophasmomima-yixian-window",
+      "type": "explorer-preset",
+      "title": {
+        "en": "Cretophasmomima Yixian wing-crypsis window",
+        "zh": "Cretophasmomima 义县组翅纹拟叶窗口"
+      },
+      "description": {
+        "en": "Use the source-reported 130–122 Ma interval as generic map context and read the linked study of three Yixian Formation Cretophasmomima melanogramma specimens and their proposed comparison with the leaf-shaped Membranifolia organ.",
+        "zh": "以来源报道的 130–122 Ma 区间作为一般地图背景，阅读关联研究中三件义县组 Cretophasmomima melanogramma 标本及其与叶形 Membranifolia 器官的拟叶比较假说。"
+      },
+      "route": "#/explore?taxon=cretophasmomima&view=map&age=126&older=130&younger=122",
+      "entityIds": [
+        "cretophasmomima"
+      ],
+      "claimIds": [
+        "claim:event:cretophasmomima-crypsis",
+        "claim:taxon:cretophasmomima:fossil-range",
+        "claim:taxon:cretophasmomima:morphology",
+        "claim:taxon:cretophasmomima:ecology"
+      ],
+      "evidenceStatus": "available-with-limitations",
+      "limitations": [
+        "One female and two male specimens are reported from the Yixian Formation; 130–122 Ma converts the cited approximately 126 ± 4 Ma formation age and is not a global species range or phasmatodean origin date.",
+        "Dark wing veins and the comparison with a contemporaneous leaf-shaped plant organ are observations and a proposed functional model. The fossil does not directly measure predator avoidance, feeding behaviour or crypsis performance.",
+        "The route opens generic taxon/period map context; it has no study-locality or specimen selector. Read the linked evidence dossier for the cited material. Available markers are separate occurrence records and do not locate or guarantee those study samples."
+      ]
     }
   ]
 }

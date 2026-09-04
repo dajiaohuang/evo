@@ -306,6 +306,82 @@
         "The body plan and medial structures are directly preserved, while book-lung homology, pulmonary-cardiovascular function and terrestrial physiology remain contested interpretations constrained by incomplete respiratory anatomy and nearshore deposition.",
         "PBDB coordinates identify the sampled Waukesha locality and its separate palaeogeographic model; transport and preservation bias prevent claims of complete distribution, exact fossil-to-map co-registration or direct ancestry."
       ]
+    },
+    {
+      "id": "trilobites-chelicerates-pycnogonida-orsten-map",
+      "type": "explorer-preset",
+      "title": {
+        "en": "Cambropycnogon Upper Cambrian sea-spider window",
+        "zh": "Cambropycnogon上寒武统海蜘蛛窗口"
+      },
+      "description": {
+        "en": "Use the 500 Ma map as generic taxon/age context and read the linked evidence for larval Cambropycnogon from Swedish Upper Cambrian Orsten, originally proposed as an early sea-spider or chelicerate record.",
+        "zh": "以 500 Ma 地图作为一般类群/时间背景，阅读关联证据中瑞典上寒武统 Orsten 的 Cambropycnogon 幼体材料及其最初被提出的海蜘蛛或螯肢类归属。"
+      },
+      "route": "#/explore?taxon=pycnogonida&view=map&age=500&older=500&younger=495",
+      "entityIds": [
+        "pycnogonida"
+      ],
+      "claimIds": [
+        "claim:taxon:pycnogonida:fossil-range"
+      ],
+      "evidenceStatus": "available-with-limitations",
+      "limitations": [
+        "The 500 Ma selector is a rounded Upper Cambrian Orsten context, not a direct date for each larval specimen or a secure crown-Pycnogonida FAD; a later fossil synthesis retains the assignment as possible rather than certain.",
+        "Larval morphology and the original systematic proposal are observations and taxonomic interpretation, while chelicerate or pycnogonid placement remains contested; the scene does not establish a direct ancestor or uninterrupted lineage.",
+        "The route opens generic taxon/period map context; it has no study-locality or specimen selector. Read the linked evidence dossier for the cited material. Available markers are separate occurrence records and do not locate or guarantee those study samples."
+      ]
+    },
+    {
+      "id": "trilobites-chelicerates-xiphosura-matrix-map",
+      "type": "explorer-preset",
+      "title": {
+        "en": "Xiphosura total-group topology window",
+        "zh": "剑尾类总群拓扑窗口"
+      },
+      "description": {
+        "en": "Use the rounded 480 Ma total-group envelope as navigation context and read the linked fossil-and-living xiphosuran morphology matrix and its test of traditional synziphosurine groupings.",
+        "zh": "以取整的 480 Ma 总群包络作为导航背景，阅读关联的剑尾类化石与现生形态矩阵，以及对传统合剑尾类分组的检验。"
+      },
+      "route": "#/explore?taxon=xiphosura&view=map&age=480&older=482&younger=478",
+      "entityIds": [
+        "xiphosura"
+      ],
+      "claimIds": [
+        "claim:event:xiphosura-total-group-topology",
+        "claim:taxon:xiphosura"
+      ],
+      "evidenceStatus": "available-with-limitations",
+      "limitations": [
+        "The 480 Ma display is the older edge of a broad Xiphosura navigation envelope, not a direct date for a single specimen or a global xiphosuran FAD/LAD.",
+        "The matrix can place traditional synziphosurines on several euchelicerate stems, but topology is sensitive to coding, missing anatomy and taxon sampling; it is a classification model, not a direct ancestor sequence or habitat history.",
+        "The route opens generic taxon/period map context; it has no study-locality or specimen selector. Read the linked evidence dossier for the cited material. Available markers are separate occurrence records and do not locate or guarantee those study samples."
+      ]
+    },
+    {
+      "id": "trilobites-chelicerates-acari-devonian-map",
+      "type": "explorer-preset",
+      "title": {
+        "en": "Early Devonian Acari fossil-record window",
+        "zh": "早泥盆世螨类化石记录窗口"
+      },
+      "description": {
+        "en": "Use the rounded 410 Ma Early Devonian anchor as map context and read the linked review of early mite records and its exclusion of unsupported older assignments.",
+        "zh": "以取整的 410 Ma 早泥盆世锚点作为地图背景，阅读关联的早期螨类化石记录综述及其对缺乏支持的更早归属的排除。"
+      },
+      "route": "#/explore?taxon=acari&view=map&age=410&older=412&younger=408",
+      "entityIds": [
+        "acari"
+      ],
+      "claimIds": [
+        "claim:taxon:acari:fossil-range"
+      ],
+      "evidenceStatus": "available-with-limitations",
+      "limitations": [
+        "The 410 Ma selector follows a systematic review of more than 260 mite fossils and is a conservative oldest-reviewed-record anchor, not a direct date for every specimen or a consensus Acari crown age.",
+        "The fossil review documents occurrence and taxonomic screening; topology, divergence time and living-group relationships are not supplied by this scene, and the route does not claim a direct ancestor or global FAD/LAD.",
+        "The route opens generic taxon/period map context; it has no study-locality or specimen selector. Read the linked evidence dossier for the cited material. Available markers are separate occurrence records and do not locate or guarantee those study samples."
+      ]
     }
   ]
 }

@@ -319,6 +319,84 @@
         "The 5.95–4.10 Ma selector follows the original Zanda Basin locality magnetostratigraphy and the named partial cranial sample; it is not a universal pantherine FAD, species LAD or unchanged age model.",
         "Specimen anatomy and locality are observations, while Panthera assignment, snow-leopard affinity and an Asian biogeographic scenario are analytical hypotheses. The sampled markers do not establish complete distribution, direct ancestry or exact specimen-to-map co-location."
       ]
+    },
+    {
+      "id": "carnivora-hesperocyon-labyrinth-map",
+      "type": "explorer-preset",
+      "title": {
+        "en": "Hesperocyon bony-labyrinth hunting-model window",
+        "zh": "黄昏犬骨迷路狩猎模型窗口"
+      },
+      "description": {
+        "en": "Use the rounded 34.5 Ma selector as generic taxon/age context and read the linked μCT study of the Hesperocyon gregarius bony labyrinth and its comparative hunting-style classifier.",
+        "zh": "以取整的 34.5 Ma 选择器作为一般类群/时间背景，阅读关联的 Hesperocyon gregarius 骨迷路微型断层扫描研究及比较狩猎方式分类器。"
+      },
+      "route": "#/explore?taxon=hesperocyon&view=map&age=34.5&older=40&younger=29",
+      "entityIds": [
+        "hesperocyon"
+      ],
+      "claimIds": [
+        "claim:event:hesperocyon-bony-labyrinth-model",
+        "claim:taxon:hesperocyon:source-bounded-range-rc49"
+      ],
+      "evidenceStatus": "available-with-limitations",
+      "limitations": [
+        "The 40–29 Ma selector is the cited Hesperocyoninae sample envelope, not a direct date for the scanned skull or a global canid/carnivoran FAD or LAD.",
+        "Semicircular-canal geometry and the 82.05% classifier result are direct scan and comparative proxy-model evidence; a pounce assignment is an inference conditioned on living reference categories, scaling and phylogeny, not observed hunting behaviour or a direct ancestor.",
+        "The route opens generic taxon/period map context; it has no study-locality or specimen selector. Read the linked evidence dossier for the cited material. Available markers are separate occurrence records and do not locate or guarantee those study samples."
+      ]
+    },
+    {
+      "id": "carnivora-enaliarctos-lacm-map",
+      "type": "explorer-preset",
+      "title": {
+        "en": "Enaliarctos LACM 4321 swimming-model window",
+        "zh": "始海豹 LACM 4321 游泳模型窗口"
+      },
+      "description": {
+        "en": "Use approximately 23 Ma as generic taxon/age map context and read the linked anatomy of skeleton LACM 4321, including measured limb proportions and joint morphology used to test stem-pinniped propulsion.",
+        "zh": "以约 23 Ma 作为一般类群/时间地图背景，阅读关联的 LACM 4321 骨架解剖证据，包括用于检验鳍足形类干群推进方式的肢体比例与关节形态。"
+      },
+      "route": "#/explore?taxon=enaliarctos&view=map&age=23&older=23&younger=23",
+      "entityIds": [
+        "enaliarctos"
+      ],
+      "claimIds": [
+        "claim:event:enaliarctos-skeleton-swimming-model",
+        "claim:taxon:enaliarctos:fossil-range"
+      ],
+      "evidenceStatus": "available-with-limitations",
+      "limitations": [
+        "The approximately 23 Ma age is the primary report’s locality-level context for one LACM 4321 skeleton, not a direct date on every element, a pinnipedimorph FAD or a lineage duration.",
+        "Cranial and postcranial anatomy are observations; combined fore- and hind-limb propulsion and terrestrial competence are comparative functional models, not observed locomotion, direct ancestry or an unchanged land-to-water sequence.",
+        "The route opens generic taxon/period map context; it has no study-locality or specimen selector. Read the linked evidence dossier for the cited material. Available markers are separate occurrence records and do not locate or guarantee those study samples."
+      ]
+    },
+    {
+      "id": "carnivora-magericyon-fea-map",
+      "type": "explorer-preset",
+      "title": {
+        "en": "Magericyon feeding finite-element window",
+        "zh": "巨犬熊进食有限元窗口"
+      },
+      "description": {
+        "en": "Use the rounded 9.2 Ma selector as generic taxon/age context and read the linked study of young-adult skull B-4071 and its finite-element comparisons of canine, p4 and m1 loading.",
+        "zh": "以取整的 9.2 Ma 选择器作为一般类群/时间背景，阅读关联研究中的年轻成体头骨 B-4071 及犬齿、下前臼齿4和下第一臼齿载荷的有限元比较。"
+      },
+      "route": "#/explore?taxon=magericyon&view=map&age=9.2&older=9.7&younger=8.7",
+      "entityIds": [
+        "magericyon"
+      ],
+      "claimIds": [
+        "claim:event:magericyon-feeding-fea",
+        "claim:taxon:magericyon:fossil-range"
+      ],
+      "evidenceStatus": "available-with-limitations",
+      "limitations": [
+        "The 9.7–8.7 Ma interval is the source-bounded Magericyon locality envelope, not a direct date for B-4071 or a global amphicyonid FAD/LAD.",
+        "The complete skull is direct material and stress/force fields are reproducible model outputs; segmentation, material properties, muscle reconstruction and load normalization condition the feeding scenarios, which are not observations of prey handling or bite force.",
+        "The route opens generic taxon/period map context; it has no study-locality or specimen selector. Read the linked evidence dossier for the cited material. Available markers are separate occurrence records and do not locate or guarantee those study samples."
+      ]
     }
   ]
 }

@@ -282,6 +282,83 @@
       "limitations": [
         "The 409 Ma selector is the rounded mean of a living-lineage divergence model (reported with a 95% credibility interval), not a Coelacanthimorpha fossil FAD, a sampled specimen age, or an observed ancestral population. It does not replace the fossil record, establish direct ancestry or complete distribution, or imply exact co-registration with map markers."
       ]
+    },
+    {
+      "id": "tetrapod-transition-dipnoi-broughton-split-model-map",
+      "type": "explorer-preset",
+      "title": {
+        "en": "Lungfish–tetrapod lineage model window",
+        "zh": "肺鱼—四足动物谱系模型窗口"
+      },
+      "description": {
+        "en": "Use the rounded 409 Ma selector as generic model-time context and read the linked 21-locus, 24-calibration relaxed-clock analysis by Broughton et al. It estimates the split separating the lungfish-plus-tetrapod lineage from coelacanths; the map does not render that molecular result or locate a Dipnoi fossil.",
+        "zh": "以取整的 409 Ma 选择器作为一般模型时间背景，阅读 Broughton 等人基于 21 个位点、24 个校准的关联松弛分子钟分析。研究估计肺鱼—四足动物谱系与腔棘鱼的分化；地图并不绘制该分子分析结果，也不定位某件肺鱼化石。"
+      },
+      "route": "#/explore?taxon=dipnoi&view=map&age=409&older=409&younger=409",
+      "entityIds": [
+        "dipnoi"
+      ],
+      "claimIds": [
+        "claim:taxon:dipnoi:range-boundary"
+      ],
+      "evidenceStatus": "available-with-limitations",
+      "limitations": [
+        "The 409 Ma value is a model-based boundary for the lungfish-plus-tetrapod lineage relative to coelacanths, not a directly dated Dipnoi specimen, global FAD/LAD or crown-origin observation.",
+        "Topology, calibration and posterior uncertainty are model outputs; no sampled taxon is a direct ancestor, and the route does not reconstruct complete fossil distribution or exact fossil-to-paleomap co-registration.",
+        "The route opens generic taxon/period map context; it has no study-locality or specimen selector. Read the linked evidence dossier for the cited material. Available markers are separate occurrence records and do not locate or guarantee those study samples."
+      ]
+    },
+    {
+      "id": "tetrapod-transition-devonian-mosaic-synthesis-map",
+      "type": "explorer-preset",
+      "title": {
+        "en": "Devonian fin-to-limb mosaic window",
+        "zh": "泥盆纪鳍到肢镶嵌窗口"
+      },
+      "description": {
+        "en": "Use the 385.3–358.86 Ma navigation envelope and 375 Ma selector as generic map context, then read the linked synthesis of limbs, locomotor change and terrestriality. Clack’s review and the Zachełmie study supply distinct body-fossil and trace evidence; the older Zachełmie tracks are not dated by or included within this displayed interval.",
+        "zh": "以 385.3–358.86 Ma 导航包络及 375 Ma 选择器作为一般地图背景，再阅读关联的肢体、运动变化与陆生性综述。Clack 综述与扎赫乌米耶研究分别提供身体化石和遗迹证据；更早的扎赫乌米耶足迹不由此显示区间定年，也不落在该区间内。"
+      },
+      "route": "#/explore?taxon=tetrapodomorpha&view=map&age=375&older=385.3&younger=358.86",
+      "entityIds": [
+        "tetrapodomorpha"
+      ],
+      "claimIds": [
+        "claim:taxon:tetrapodomorpha:range-boundary",
+        "claim:event:tetrapods-on-land",
+        "claim:event:zachelmie-digit-trackways"
+      ],
+      "evidenceStatus": "available-with-limitations",
+      "limitations": [
+        "The envelope combines multiple Devonian localities and a systematic synthesis; its 375 Ma selector is a chosen navigation anchor, not one stratigraphic date or a global Tetrapodomorpha FAD/LAD.",
+        "Digit impressions, preserved limbs and anatomical mosaics are observations, while trackmaker identity, locomotor mechanics and terrestriality are separate interpretations. The evidence does not establish a direct ancestor, complete distribution, behaviour or exact fossil-to-paleomap co-registration.",
+        "The route opens generic taxon/period map context; it has no study-locality or specimen selector. Read the linked evidence dossier for the cited material. Available markers are separate occurrence records and do not locate or guarantee those study samples."
+      ]
+    },
+    {
+      "id": "tetrapod-transition-coelacanth-genome-topology-map",
+      "type": "explorer-preset",
+      "title": {
+        "en": "Coelacanth–lungfish–tetrapod topology window",
+        "zh": "腔棘鱼—肺鱼—四足动物拓扑窗口"
+      },
+      "description": {
+        "en": "Use 409 Ma as inherited navigation context and read Takezaki and Nishihara’s linked sequence-topology tests of living coelacanths, lungfishes and tetrapods, including outgroup bias and slowly evolving loci. This route does not date those tests, render their analytical topology or locate fossil specimens.",
+        "zh": "以继承的 409 Ma 作为导航背景，阅读 Takezaki 与 Nishihara 关于现生腔棘鱼、肺鱼与四足动物的关联序列拓扑检验，包括外群偏差和缓慢进化位点。本路由不为这些检验定年、不绘制其分析拓扑，也不定位化石标本。"
+      },
+      "route": "#/explore?taxon=coelacanthimorpha&view=map&age=409&older=409&younger=409",
+      "entityIds": [
+        "coelacanthimorpha"
+      ],
+      "claimIds": [
+        "claim:taxon:coelacanthimorpha"
+      ],
+      "evidenceStatus": "available-with-limitations",
+      "limitations": [
+        "The 409 Ma selector is inherited navigation context from a separate calibrated bony-fish model; Takezaki–Nishihara’s evidence is an extant sequence-topology test and does not date a fossil, define a coelacanthimorph FAD/LAD or identify a direct tetrapod ancestor.",
+        "Sequence sampling, outgroup choice and topology tests are analytical inputs and outputs. The scene does not reconstruct an unsampled population, complete fossil distribution, behaviour or exact fossil-to-paleomap co-registration.",
+        "The route opens generic taxon/period map context; it has no study-locality or specimen selector. Read the linked evidence dossier for the cited material. Available markers are separate occurrence records and do not locate or guarantee those study samples."
+      ]
     }
   ]
 }
