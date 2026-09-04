@@ -1,0 +1,261 @@
+{
+  "schemaVersion": 1,
+  "recordType": "release-pinned-authority-original-archive-projection",
+  "id": "worms-rhombozoa-archive-crosswalk",
+  "packageId": "other-animals",
+  "provider": "World Register of Marine Species via ChecklistBank",
+  "role": "authority-crosswalk",
+  "rowEncoding": "json",
+  "encoding": "gzip",
+  "mediaType": "application/json",
+  "colIdField": "colId",
+  "totalCountField": "total",
+  "source": {
+    "datasetId": "1150",
+    "provider": "World Register of Marine Species via ChecklistBank",
+    "archiveUrl": "https://api.checklistbank.org/dataset/1150/archive",
+    "archivePath": "data/sources/archives/checklistbank-1150-rhombozoa-2026-09-01.zip",
+    "archiveBytes": 23988,
+    "archiveSha256": "c29902e32bdd8700988bc61a5d67096e011a3862b4176df215aada16f4a8690d",
+    "metadataPath": "data/sources/archives/checklistbank-1150-rhombozoa-2026-09-01.metadata.json",
+    "metadataBytes": 1608,
+    "metadataSha256": "ec3091a30d6f7f546f5759d5e6536fee676a585a8c8700697be0ff63a1fb4e3f",
+    "members": {
+      "metadata.yml": {
+        "bytes": 891,
+        "sha256": "677af697d62c336ccbbaa4519653eb9629bf30846cee561c9d76608bb7cee56a"
+      },
+      "TypeMaterial.txt": {
+        "bytes": 13417,
+        "sha256": "1493374bb62e1e9235a470cc24e08cae681b68459b7626b9ba9049a139da690c"
+      },
+      "Name.txt": {
+        "bytes": 36174,
+        "sha256": "97c2625fa80d40e6a419435bbbd8bde2712501c9c981a1df16c0de03fba039fb"
+      },
+      "NameRelation.txt": {
+        "bytes": 12124,
+        "sha256": "625fe26a8e98ece13e02c5bf8b3cfabedd70730a2802032f681f4275a9287938"
+      },
+      "Taxon.txt": {
+        "bytes": 47494,
+        "sha256": "13ae577a606616e045fbfacaa68f7f971605c0cb0057e724d8461642d29f809c"
+      },
+      "Synonym.txt": {
+        "bytes": 1938,
+        "sha256": "6188d3518ea985cc664c0057135f75867c118f167df664fe873307c3dbd0eb0d"
+      },
+      "SpeciesEstimate.txt": {
+        "bytes": 35,
+        "sha256": "552ac985d21f5b6e89941c9a4b07715a7f4a56106b5d50480ecf9dcba5f901e5"
+      },
+      "Reference.txt": {
+        "bytes": 24689,
+        "sha256": "2d83cf48d96a89c931205ccf4c64e43e7d0dea992cff70a3ca90c1d676b0350a"
+      },
+      "NameReference.txt": {
+        "bytes": 44628,
+        "sha256": "42e625a5a621deccc7bff6523ca198c72fed88e29daba72136af23469a346024"
+      },
+      "Distribution.txt": {
+        "bytes": 28272,
+        "sha256": "e10379dbaabf66c48e389333f97cc7b49a3a9e6076e533c3c9e536ca87f413ba"
+      },
+      "Media.txt": {
+        "bytes": 53,
+        "sha256": "5b8ba8713a7b0dab1f205b5cc88833f0b0cef2808fa764e694a21c48ac2ccbe0"
+      },
+      "VernacularName.txt": {
+        "bytes": 384,
+        "sha256": "0b9e8fb933d6ccc576266f70cfb9a5a430cb0ce7f4a3c41a3314eecce3a90581"
+      }
+    },
+    "title": "World List of Rhombozoa",
+    "version": "2026-09-01",
+    "versionDoi": "10.48580/d3dp.v86",
+    "doi": "10.48580/d3dp",
+    "citation": "<div class=\"csl-entry\">Furuya, H. (2026). <span style=\"font-style: italic\">World List of Rhombozoa</span> (Version 2026-09-01). https://doi.org/10.48580/d3dp</div>",
+    "issued": "2026-09-01",
+    "editor": [
+      {
+        "given": "Hidetaka",
+        "family": "Furuya",
+        "email": "hfuruya@bio.sci.osaka-u.ac.jp",
+        "name": "Furuya H."
+      }
+    ],
+    "contributor": [
+      {
+        "country": "BE",
+        "name": "Vlaams Instituut voor de Zee",
+        "address": "Belgium",
+        "organisation": "Vlaams Instituut voor de Zee"
+      },
+      {
+        "country": "JP",
+        "name": "Osaka University; Graduate School of Science and School of Science Department of Biology",
+        "address": "Japan",
+        "organisation": "Osaka University; Graduate School of Science and School of Science Department of Biology"
+      }
+    ],
+    "license": "cc by",
+    "metadata": {
+      "created": "2019-11-20T11:07:46.255777",
+      "createdBy": 102,
+      "modified": "2026-09-02T00:49:52.721947",
+      "modifiedBy": 304,
+      "key": 1150,
+      "type": "taxonomic",
+      "origin": "external",
+      "attempt": 86,
+      "imported": "2026-09-02T00:49:53.067595",
+      "lastImportAttempt": "2026-09-02T00:49:53.07184",
+      "lastImportState": "finished",
+      "size": 149,
+      "doi": "10.48580/d3dp",
+      "versionDoi": "10.48580/d3dp.v86",
+      "title": "World List of Rhombozoa",
+      "alias": "WoRMS Rhombozoa",
+      "description": "World list of Rhombozoa",
+      "issued": "2026-09-01",
+      "version": "2026-09-01",
+      "contact": {
+        "email": "info@marinespecies.org"
+      },
+      "editor": [
+        {
+          "given": "Hidetaka",
+          "family": "Furuya",
+          "email": "hfuruya@bio.sci.osaka-u.ac.jp",
+          "name": "Furuya H."
+        }
+      ],
+      "contributor": [
+        {
+          "country": "BE",
+          "name": "Vlaams Instituut voor de Zee",
+          "address": "Belgium",
+          "organisation": "Vlaams Instituut voor de Zee"
+        },
+        {
+          "country": "JP",
+          "name": "Osaka University; Graduate School of Science and School of Science Department of Biology",
+          "address": "Japan",
+          "organisation": "Osaka University; Graduate School of Science and School of Science Department of Biology"
+        }
+      ],
+      "geographicScope": "Global",
+      "taxonomicScope": "Rhombozoa",
+      "temporalScope": "1758-2026",
+      "taxonomicGroupScope": [
+        "eukaryotes",
+        "animals",
+        "otheranimals"
+      ],
+      "confidence": 4,
+      "completeness": 90,
+      "license": "cc by",
+      "url": "https://www.marinespecies.org",
+      "logo": "https://www.marinespecies.org/documents/WoRMS%20branding/WoRMS_logo_blue_negative.png",
+      "label": "World List of Rhombozoa (2026-09-01)",
+      "citation": "<div class=\"csl-entry\">Furuya, H. (2026). <span style=\"font-style: italic\">World List of Rhombozoa</span> (Version 2026-09-01). https://doi.org/10.48580/d3dp</div>",
+      "private": false
+    },
+    "sourceLedgerPath": "data/sources/worms-rhombozoa-archive-1150-import-ledger.json",
+    "sourceLedgerSha256": "5bc6f8d319e1afdd6f475568f5e599a9dd518f7b2f83eb43bce6b321a38631cd"
+  },
+  "scope": {
+    "colRootUsageId": "B8VFC",
+    "scientificName": "Rhombozoa",
+    "eligibleColSpecies": 122,
+    "sourceSpeciesRankTaxa": 122,
+    "sourceStrictAcceptedSpecies": 122,
+    "provisionalExcluded": 0
+  },
+  "matching": {
+    "normalization": "NFC followed by Unicode whitespace normalization; exact trailing COL authorship is removed.",
+    "prohibited": "No fuzzy, case-folded, accent-folded, synonym, redirect or species-concept matching."
+  },
+  "counts": {
+    "total": 122,
+    "accepted": 122,
+    "ambiguous": 0,
+    "unmatched": 0,
+    "redirect": 0,
+    "withheld": 0,
+    "sourceOnly": 0,
+    "upstreamOnly": 0,
+    "records": 122
+  },
+  "files": [
+    {
+      "path": "other-animals/worms-rhombozoa-accepted-000.json.gz",
+      "records": 122,
+      "bytes": 44734,
+      "sha256": "8b85c97416e8f8ccabbfb69eb6609226d910812fb817f46c195e41c426e12fc8",
+      "sourceBytes": 926680,
+      "sourceSha256": "7356ab5b64608f997a3a3e1fab5ac0ea227c91430b15aa953028e56b5a785201",
+      "encoding": "gzip",
+      "mediaType": "application/json",
+      "role": "accepted",
+      "minColId": "35VXG",
+      "maxColId": "XQZP"
+    }
+  ],
+  "outcomeFiles": {
+    "accepted": [
+      {
+        "path": "other-animals/worms-rhombozoa-accepted-000.json.gz",
+        "records": 122,
+        "bytes": 44734,
+        "sha256": "8b85c97416e8f8ccabbfb69eb6609226d910812fb817f46c195e41c426e12fc8",
+        "sourceBytes": 926680,
+        "sourceSha256": "7356ab5b64608f997a3a3e1fab5ac0ea227c91430b15aa953028e56b5a785201",
+        "encoding": "gzip",
+        "mediaType": "application/json",
+        "role": "accepted",
+        "minColId": "35VXG",
+        "maxColId": "XQZP"
+      }
+    ],
+    "ambiguous": [],
+    "unmatched": []
+  },
+  "sourceOnlyFiles": [],
+  "upstreamOnlyFiles": [],
+  "totals": {
+    "records": 122,
+    "sourceOnlyRecords": 0,
+    "compressedBytes": 44734,
+    "sourceCompressedBytes": 0,
+    "sourceBytes": 926680,
+    "sourceOnlySourceBytes": 0
+  },
+  "deliveryProfiles": {
+    "web-light": {
+      "mode": "summary-only",
+      "records": 0,
+      "files": [],
+      "totalCompressedBytes": 0,
+      "totalSourceBytes": 0
+    },
+    "native-full": {
+      "mode": "complete",
+      "records": 122,
+      "files": [
+        "other-animals/worms-rhombozoa-accepted-000.json.gz"
+      ],
+      "totalCompressedBytes": 44734,
+      "totalSourceBytes": 926680
+    }
+  },
+  "evidenceBoundary": {
+    "en": "Frozen original WoRMS archive projection; not species-concept equivalence, fossil evidence or expert review.",
+    "zh": "冻结的WoRMS原始归档投影；不是物种概念等同性、化石证据或专家审查。"
+  },
+  "limitations": [
+    "Source-only rows retain null COL ownership.",
+    "Only the exact pinned archive is replayed; no live endpoint is used.",
+    "Archive completeness and nomenclatural status do not establish biological completeness."
+  ]
+}
