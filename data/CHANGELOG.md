@@ -1,5 +1,11 @@
 # Dataset changelog
 
+## App 0.20.65 / 2026.09-static-v5-rc114 — 2026-09-04
+
+- Replayed the Haptophyta importer against the pinned ITIS 2026-08-26 SQLite and current repository inputs. Descriptor and import-ledger provenance now use resolvable repository-relative paths and the actual ownership input digest, replacing references to a retired local worktree.
+- All 90 ITIS-only records and their deterministic gzip bytes remain unchanged. No COL root, additional species coverage, biological dossier or scientific-review status is inferred.
+- Refreshed dependent source manifests for lightweight Pages summaries and complete Android/iOS build `68` data. The existing Haptophyta regression now checks resolvable input provenance and output bytes; no new validation framework is introduced.
+
 ## App 0.20.64 / 2026.09-static-v5-rc113 — 2026-09-04
 
 - Added collapsed species-page ITIS details for Amphibia, Collembola/Protura, all 28 existing OtherAnimals scopes and the eight Protist scopes with COL records. Exact owner and lineage boundaries are preserved; Oomycota uses the existing 1,494-record four-order projection, not the entire phylum.
