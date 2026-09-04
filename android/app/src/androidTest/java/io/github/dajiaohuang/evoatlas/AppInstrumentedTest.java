@@ -701,8 +701,8 @@ public class AppInstrumentedTest {
         assertEquals(22360, lpsnIdentifierRecords);
         assertEquals(157044, indexFungorumIdentifierRecords);
         assertEquals(47975, foraminiferaAuthorityRecords);
-        assertEquals(107822, otherAnimalsItisRecords);
-        assertEquals(19501, protistsItisRecords);
+        assertEquals(107824, otherAnimalsItisRecords);
+        assertEquals(19573, protistsItisRecords);
         assertEquals(17554, ictvSpeciesRecords);
         assertEquals(19285, ictvIsolateRecords);
         assertEquals(61449, wfoSupplementRecords);
