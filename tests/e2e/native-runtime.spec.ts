@@ -50,18 +50,24 @@ test('native full-resolution PaleoDEM loads from the document data directory and
   expect(requests[0]).not.toContain('/assets/data/')
 })
 
-test('native Myriapoda mapping loads one real accepted species row on demand', async ({ page }) => {
-  const requests: string[] = []
-  page.on('request', (request) => {
-    if (request.url().includes('itis-myriapoda-sidecar-') && request.url().endsWith('.jsonl.gz')) requests.push(request.url())
+for (const [id, name, tsn] of [
+  ['323X9', 'Cryptyma cocona', '571428'],
+  ['5VXN8', 'Australobius abbreviatus', '1087545'],
+] as const) {
+  test(`native Myriapoda mapping loads ${name} from its real root on demand`, async ({ page }) => {
+    const requests: string[] = []
+    page.on('request', (request) => {
+      if (request.url().includes('itis-myriapoda-sidecar-') && request.url().endsWith('.jsonl.gz')) requests.push(request.url())
+    })
+    await page.goto(`./#/registry?release=COL26.8&id=${id}`)
+    const details = page.locator('.catalogue-authority-disclosure').filter({ hasText: 'ITIS Myriapoda exact nomenclatural mapping' })
+    await expect(details).not.toHaveAttribute('open')
+    expect(requests).toHaveLength(0)
+    await details.locator('summary').click()
+    await expect(details).toContainText('Exact accepted-name match')
+    await expect(details).toContainText(name)
+    await expect(details).toContainText(tsn)
+    expect(requests).toHaveLength(1)
+    expect(requests[0]).not.toContain('/assets/data/')
   })
-  await page.goto('./#/registry?release=COL26.8&id=323X9')
-  const details = page.locator('.catalogue-authority-disclosure').filter({ hasText: 'ITIS Myriapoda exact nomenclatural mapping' })
-  await expect(details).not.toHaveAttribute('open')
-  await details.locator('summary').click()
-  await expect(details).toContainText('Exact accepted-name match')
-  await expect(details).toContainText('Cryptyma cocona')
-  await expect(details).toContainText('571428')
-  expect(requests).toHaveLength(1)
-  expect(requests[0]).not.toContain('/assets/data/')
-})
+}
