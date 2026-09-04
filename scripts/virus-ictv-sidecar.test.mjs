@@ -1,5 +1,5 @@
 import { createHash } from 'node:crypto'
-import { cpSync, mkdtempSync, mkdirSync, readFileSync, rmSync } from 'node:fs'
+import { cpSync, mkdtempSync, mkdirSync, readFileSync, rmSync, writeFileSync } from 'node:fs'
 import { tmpdir } from 'node:os'
 import { dirname, join, resolve } from 'node:path'
 import { fileURLToPath } from 'node:url'
@@ -122,6 +122,11 @@ describe('COL26.8 Viruses ICTV MSL41.v1 and VMR sidecar', () => {
     mkdirSync(outputRoot, { recursive: true })
     cpSync(join(resourcePacksRoot, 'manifest.json'), join(outputRoot, 'manifest.json'))
     cpSync(join(resourcePacksRoot, 'viruses'), join(outputRoot, 'viruses'), { recursive: true })
+    const virusManifestPath = join(outputRoot, 'viruses', 'manifest.json')
+    const virusManifest = JSON.parse(readFileSync(virusManifestPath, 'utf8'))
+    const unrelated = (id) => ({ id, files: [{ bytes: 11, sourceBytes: 17 }], upstreamOnlyFiles: [{ bytes: 13, sourceBytes: 19 }], totalCompressedBytes: 11, totalSourceBytes: 17 })
+    virusManifest.extensions = [unrelated('itis-future-authority'), ...virusManifest.extensions, unrelated('worms-annelida-archive-crosswalk')]
+    writeFileSync(virusManifestPath, `${JSON.stringify(virusManifest, null, 2)}\n`)
     const collectionBefore = JSON.parse(readFileSync(join(outputRoot, 'manifest.json'), 'utf8'))
     const speciesBefore = readFileSync(join(outputRoot, 'viruses', 'species-000.jsonl.gz'))
     expect(speciesBefore.byteLength).toBe(758880)
@@ -145,11 +150,14 @@ describe('COL26.8 Viruses ICTV MSL41.v1 and VMR sidecar', () => {
     const descriptor = collectionAfter.packs.find((pack) => pack.packageId === 'viruses')
     expect(descriptor).toMatchObject({
       acceptedSpeciesCount: 17552,
-      extensionCount: 1,
-      extensionFileCount: 1,
-      extensionCompressedBytes: first.extension.totalCompressedBytes,
-      extensionSourceBytes: first.extension.totalSourceBytes,
+      extensionCount: 3,
+      extensionFileCount: 5,
+      extensionCompressedBytes: first.extension.totalCompressedBytes + 48,
+      extensionSourceBytes: first.extension.totalSourceBytes + 72,
     })
+    expect(JSON.parse(firstFiles.manifest).extensions.map((extension) => extension.id)).toEqual([
+      'itis-future-authority', 'ictv-virus-metadata', 'worms-annelida-archive-crosswalk',
+    ])
     expect(first.extension).toEqual(second.extension)
     expect(first.extension.counts).toEqual(crosswalk.counts)
     expect(first.extension.source).toMatchObject({

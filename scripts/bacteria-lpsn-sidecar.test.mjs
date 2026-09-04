@@ -1,5 +1,5 @@
 import { createHash } from 'node:crypto'
-import { cpSync, mkdtempSync, mkdirSync, readFileSync, rmSync } from 'node:fs'
+import { cpSync, mkdtempSync, mkdirSync, readFileSync, rmSync, writeFileSync } from 'node:fs'
 import { tmpdir } from 'node:os'
 import { dirname, join, resolve } from 'node:path'
 import { fileURLToPath } from 'node:url'
@@ -105,6 +105,11 @@ describe('COL26.8 Bacteria LPSN identifier sidecar', () => {
     mkdirSync(outputRoot, { recursive: true })
     cpSync(join(resourcePacksRoot, 'manifest.json'), join(outputRoot, 'manifest.json'))
     cpSync(join(resourcePacksRoot, 'bacteria'), join(outputRoot, 'bacteria'), { recursive: true })
+    const bacteriaManifestPath = join(outputRoot, 'bacteria', 'manifest.json')
+    const bacteriaManifest = JSON.parse(readFileSync(bacteriaManifestPath, 'utf8'))
+    const unrelated = (id) => ({ id, files: [{ bytes: 11, sourceBytes: 17 }], upstreamOnlyFiles: [{ bytes: 13, sourceBytes: 19 }], totalCompressedBytes: 11, totalSourceBytes: 17 })
+    bacteriaManifest.extensions = [unrelated('itis-future-authority'), ...bacteriaManifest.extensions, unrelated('worms-annelida-archive-crosswalk')]
+    writeFileSync(bacteriaManifestPath, `${JSON.stringify(bacteriaManifest, null, 2)}\n`)
     const collectionBefore = JSON.parse(readFileSync(join(outputRoot, 'manifest.json'), 'utf8'))
     const speciesBefore = readFileSync(join(outputRoot, 'bacteria', 'species-000.jsonl.gz'))
     expect(speciesBefore.byteLength).toBe(590043)
@@ -128,12 +133,11 @@ describe('COL26.8 Bacteria LPSN identifier sidecar', () => {
     const descriptor = collectionAfter.packs.find((pack) => pack.packageId === 'bacteria')
     expect(descriptor).toMatchObject({
       acceptedSpeciesCount: 26397,
-      extensionCount: 2,
-      extensionFileCount: 9,
+      extensionCount: 4,
+      extensionFileCount: 13,
     })
     expect(JSON.parse(firstFiles.manifest).extensions.map((extension) => extension.id)).toEqual([
-      'itis-bacteria-tsn-crosswalk',
-      'lpsn-identifiers',
+      'itis-future-authority', 'lpsn-identifiers', 'itis-bacteria-tsn-crosswalk', 'worms-annelida-archive-crosswalk',
     ])
     expect(first.extension).toEqual(second.extension)
     expect(first.extension.counts).toEqual({
