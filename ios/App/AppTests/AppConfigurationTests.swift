@@ -1,5 +1,8 @@
+import UIKit
 import XCTest
 import CryptoKit
+import WebKit
+import Capacitor
 @testable import App
 
 final class AppConfigurationTests: XCTestCase {
@@ -15,6 +18,57 @@ final class AppConfigurationTests: XCTestCase {
 
     func testSceneDelegateCanCreateTheCapacitorHost() {
         XCTAssertNotNil(SceneDelegate())
+    }
+
+    @MainActor
+    func testCapacitorWebViewRendersAndReadsNativeFullData() async throws {
+        let window = UIWindow(frame: UIScreen.main.bounds)
+        let controller = CAPBridgeViewController()
+        window.rootViewController = controller
+        window.makeKeyAndVisible()
+        controller.loadViewIfNeeded()
+        defer {
+            window.isHidden = true
+            window.rootViewController = nil
+        }
+
+        let webView = try XCTUnwrap(findWebView(in: controller.view), "Capacitor host did not create a WKWebView")
+        var ready = false
+        for _ in 0..<450 {
+            ready = try await evaluateAsync("""
+            Boolean(document.readyState === 'complete'
+              && location.protocol !== 'about:'
+              && document.querySelector('#root')?.children.length > 0
+              && document.querySelector('main'))
+            """, in: webView) as? Bool ?? false
+            if ready { break }
+            try await Task.sleep(nanoseconds: 100_000_000)
+        }
+        XCTAssertTrue(ready, "Capacitor WKWebView did not render the app within 45 seconds")
+
+        let result = try await evaluateAsync("""
+        const currentResponse = await fetch('./data/current.json', { cache: 'no-store' });
+        if (!currentResponse.ok) throw new Error(`./data/current.json: HTTP ${currentResponse.status}`);
+        const current = await currentResponse.json();
+        if (current.deliveryProfile !== 'native-full') throw new Error('Bundled current.json is not native-full');
+        const paths = [
+          './data/current.json',
+          `./data/${current.core.packages.url}`,
+          `./data/${current.catalogue.manifest.url}`,
+          `./data/${current.maps.manifest.url}`
+        ];
+        return await Promise.all(paths.map(async (path) => {
+          const response = await fetch(path, { cache: 'no-store' });
+          if (!response.ok) throw new Error(`${path}: HTTP ${response.status}`);
+          const bytes = await response.arrayBuffer();
+          return { path, bytes: bytes.byteLength };
+        }));
+        """, in: webView)
+        let files = try XCTUnwrap(result as? [[String: Any]], "Native data probe returned an unexpected result")
+        XCTAssertEqual(files.count, 4)
+        for file in files {
+            XCTAssertGreaterThan(file["bytes"] as? Int ?? 0, 0, "Empty native payload: \(file["path"] as? String ?? "unknown")")
+        }
     }
 
     func testCompleteScientificReleaseIsBundledForOfflineStartup() throws {
@@ -722,5 +776,26 @@ final class AppConfigurationTests: XCTestCase {
     private func jsonObject(at url: URL) throws -> [String: Any] {
         let data = try Data(contentsOf: url)
         return try XCTUnwrap(JSONSerialization.jsonObject(with: data) as? [String: Any])
+    }
+
+    private func findWebView(in view: UIView) -> WKWebView? {
+        if let webView = view as? WKWebView { return webView }
+        for subview in view.subviews {
+            if let webView = findWebView(in: subview) { return webView }
+        }
+        return nil
+    }
+
+    private func evaluateAsync(_ script: String, in webView: WKWebView) async throws -> Any? {
+        try await withCheckedThrowingContinuation { continuation in
+            webView.callAsyncJavaScript(
+                script,
+                arguments: [:],
+                in: nil,
+                contentWorld: .page
+            ) { result in
+                continuation.resume(with: result)
+            }
+        }
     }
 }
