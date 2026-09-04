@@ -36,7 +36,8 @@
     "validSourceSpecies": 2467
   },
   "matching": {
-    "prohibited": "No synonym, fuzzy, case-folded, diacritic-stripped or species-concept matching."
+    "prohibited": "No synonym, fuzzy, case-folded, diacritic-stripped or species-concept matching.",
+    "normalization": "NFC and Unicode whitespace normalization only; COL trailing authorship is removed exactly."
   },
   "counts": {
     "total": 2467,
@@ -65,7 +66,8 @@
   ],
   "upstreamOnlyFiles": [],
   "evidenceBoundary": {
-    "en": "A frozen exact nomenclatural crosswalk, not a global checklist or species-concept equivalence claim."
+    "en": "A frozen exact nomenclatural crosswalk, not a global checklist or species-concept equivalence claim.",
+    "zh": "冻结的原始命名来源对照；不是全球物种全集或物种概念等同性结论。"
   },
   "limitations": [
     "Invalid, synonym and bare-name source rows are retained only in the frozen input evidence and are not promoted to accepted species.",
