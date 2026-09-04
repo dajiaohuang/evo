@@ -1187,7 +1187,27 @@ export interface CatalogueItisProtistsResourcePackExtension extends Omit<Catalog
   id: `itis-${CatalogueItisProtistsScope}-tsn-crosswalk`
 }
 
-export type CatalogueResourcePackExtension = CatalogueLpsnResourcePackExtension | CatalogueIctvResourcePackExtension | CatalogueWfoPlantResourcePackExtension | CatalogueIndexFungorumResourcePackExtension | CatalogueForaminiferaResourcePackExtension | CatalogueItisOtherAnimalsResourcePackExtension | CatalogueItisProtistsResourcePackExtension
+export interface CatalogueAuthorityArchiveResourcePackExtension {
+  id: AuthorityArchiveCollectionId
+  recordType: 'release-pinned-authority-archive-crosswalk'
+  provider: string
+  packageId: string
+  source: { license: 'CC-BY-4.0'; [key: string]: unknown }
+  scope: Record<string, unknown>
+  matching: Record<string, unknown>
+  counts: { total: number; accepted: number; redirect: number; ambiguous: number; unmatched: number; withheld: number; upstreamOnly: number }
+  files: CatalogueResourcePackPayloadFile[]
+  upstreamOnlyFiles: CatalogueResourcePackPayloadFile[]
+  canonicalFileInventory: Array<CatalogueResourcePackPayloadFile & { role: 'col-partition' | 'upstream-only' }>
+  totalCompressedBytes: number
+  totalSourceBytes: number
+  delivery: { profile: 'web-light' | 'native-full'; completeRows: boolean; publishedFileCount: number; canonicalFileCount: number }
+  evidenceBoundary: { en: string; zh: string }
+  limitations: string[]
+  integration: { clientParityRequirement: string; lookup: { strategy: 'lexicographic-colId-range-v1'; ordering: string; requestPolicy: string } }
+}
+
+export type CatalogueResourcePackExtension = CatalogueLpsnResourcePackExtension | CatalogueIctvResourcePackExtension | CatalogueWfoPlantResourcePackExtension | CatalogueIndexFungorumResourcePackExtension | CatalogueForaminiferaResourcePackExtension | CatalogueItisOtherAnimalsResourcePackExtension | CatalogueItisProtistsResourcePackExtension | CatalogueAuthorityArchiveResourcePackExtension
 
 export interface CatalogueResourcePackManifest {
   schemaVersion: 1

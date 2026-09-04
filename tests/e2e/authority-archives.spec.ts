@@ -2,7 +2,7 @@ import { expect, test } from '@playwright/test'
 
 for (const [id, scope] of [
   ['322C4', 'WoRMS · Mollusca'], ['32N29', 'WoRMS · Porifera'],
-  ['323D7', 'WoRMS · Cnidaria'], ['NN', 'WoRMS · Annelida'], ['3233F', 'OSF · Orthoptera'],
+  ['323D7', 'WoRMS · Cnidaria'], ['325RY', 'WoRMS · Annelida'], ['3233F', 'OSF · Orthoptera'],
 ]) {
   test(`${scope} stays collapsed and publishes a Web summary rather than a false unmatched result`, async ({ page }) => {
     await page.addInitScript(() => window.localStorage.setItem('evo-atlas-language', 'en'))
