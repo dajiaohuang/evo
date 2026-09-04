@@ -10,7 +10,8 @@ The COL26.8 baseline contributes 5,852 strict accepted species whose
 species, determined by joining `Taxon.nameID` to `Name.ID` and requiring
 `Name.rank=Species`; a non-empty `Taxon.species` field alone is not sufficient.
 Exact scientific-name plus authorship matching yields 5,835 accepted matches,
-17 unmatched COL rows, and 43 source-only accepted concepts. Source-only rows
+17 unmatched COL rows, and 43 source-only accepted concepts (5,895 total
+native rows). Source-only rows
 retain null COL ownership and are not claims of globally new species.
 
 Source fields, original names/authorship, source IDs, source links, reference

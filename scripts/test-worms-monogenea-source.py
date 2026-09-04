@@ -9,9 +9,7 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[1]
-ARCHIVE = Path(
-    r"D:/repo/repostew/.repostew/source-cache/monogenea-1126-2026-09-04/archive.bin"
-)
+ARCHIVE = ROOT / "data/sources/archives/worms-monogenea-2026-09-01.zip"
 SCRIPT = ROOT / "scripts/build-worms-monogenea-source.py"
 
 
@@ -38,10 +36,18 @@ class MonogeneaProjectionTests(unittest.TestCase):
             descriptor = json.loads((first_root / relative / "worms-monogenea-sidecar.json").read_text(encoding="utf-8"))
             self.assertEqual(descriptor["scope"]["colStrictAcceptedSpecies"], 5852)
             self.assertEqual(descriptor["scope"]["sourceStrictAcceptedSpecies"], 5878)
-            self.assertEqual(descriptor["counts"], {"total": 5852, "accepted": 5835, "redirect": 0, "ambiguous": 0, "unmatched": 17, "withheld": 0, "upstreamOnly": 43, "records": 5852})
+            self.assertEqual(descriptor["counts"], {"total": 5895, "accepted": 5835, "redirect": 0, "ambiguous": 0, "unmatched": 17, "withheld": 0, "upstreamOnly": 43, "records": 5895})
             self.assertEqual(sum(x["records"] for x in descriptor["files"]), 5852)
             self.assertEqual(sum(x["records"] for x in descriptor["upstreamOnlyFiles"]), 43)
             self.assertEqual(descriptor["source"]["archiveSha256"], hashlib.sha256(ARCHIVE.read_bytes()).hexdigest())
+            rows = []
+            for path in first_files:
+                if path.name.endswith(".json.gz") and "upstream-only" not in path.name:
+                    import gzip
+                    rows.extend(json.loads(gzip.open(path, "rt", encoding="utf-8").read()))
+            accepted = next(row for row in rows if row["status"] == "accepted")
+            self.assertTrue(all(row["sourceAcceptedTaxonId"] and row["sourceNameId"] for row in rows if row["status"] == "accepted"))
+            self.assertTrue(accepted["matchedName"]["nameReferences"] is not None)
 
 
 if __name__ == "__main__":
