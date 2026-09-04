@@ -1040,6 +1040,35 @@ describe('static runtime release coherence', () => {
     await expect(webClient.loadCatalogueItisOtherAnimalsRecord('nemertea', 'N0682')).rejects.toThrow('full Android/iOS data profile')
   })
 
+  it('loads a residual WoRMS archive extension from the catalogue resource pack', async () => {
+    Object.defineProperty(globalThis, 'Worker', { configurable: true, value: undefined })
+    const rows = [{ colId: 'NN001', status: 'accepted', matchedName: null, acceptedName: null, candidates: [], mappingBasis: 'exact', sourceRows: [] }]
+    const body = JSON.stringify(rows)
+    const sourceOnlyRows = [{ colId: null, status: 'upstream-only', matchedName: null, acceptedName: null, candidates: [], mappingBasis: 'source-only', sourceRows: [] }]
+    const sourceOnlyBody = JSON.stringify(sourceOnlyRows)
+    const file = { path: 'other-animals/worms-annelida-sidecar-0000.json.gz', url: 'releases/dataset-archive/catalogue/resource-packs/other-animals/worms-annelida-sidecar-0000.json.gz', records: 1, bytes: body.length, sourceBytes: body.length, sha256: await sha256Text(body), sourceSha256: await sha256Text(body), minColId: 'NN001', maxColId: 'NN001', role: 'col-partition' }
+    const upstreamFile = { path: 'other-animals/worms-annelida-upstream-only-0000.json.gz', url: 'releases/dataset-archive/catalogue/resource-packs/other-animals/worms-annelida-upstream-only-0000.json.gz', records: 1, bytes: sourceOnlyBody.length, sourceBytes: sourceOnlyBody.length, sha256: await sha256Text(sourceOnlyBody), sourceSha256: await sha256Text(sourceOnlyBody), role: 'upstream-only' }
+    const extension = { id: 'worms-annelida-archive-crosswalk', recordType: 'release-pinned-authority-archive-crosswalk', provider: 'World Register of Marine Species via ChecklistBank', packageId: 'other-animals', source: { license: 'CC-BY-4.0' }, counts: { total: 1, accepted: 1, redirect: 0, ambiguous: 0, unmatched: 0, withheld: 0, upstreamOnly: 1 }, files: [file], upstreamOnlyFiles: [upstreamFile], canonicalFileInventory: [file, upstreamFile], delivery: { profile: 'native-full', completeRows: true, publishedFileCount: 2, canonicalFileCount: 2 } }
+    const packManifest = { schemaVersion: 1, packageType: 'static-nomenclatural-resource-pack', packageId: 'other-animals', version: 'dataset-archive', source: { releaseAlias: 'COL26.8' }, acceptedSpeciesCount: 99161, extensions: [extension] }
+    const packFile = { url: 'releases/dataset-archive/catalogue/resource-packs/other-animals/manifest.json', acceptedSpeciesCount: 99161, sha256: await sha256(packManifest) }
+    const catalogueManifest = { releaseAlias: 'COL26.8', counts: { acceptedSpecies: 2183133 }, resourcePacks: { manifests: { 'other-animals': packFile } } }
+    const catalogueFile = { url: 'releases/dataset-archive/catalogue/manifest.json', sha256: await sha256(catalogueManifest) }
+    const current = { datasetVersion: 'dataset-archive', releaseBase: 'releases/dataset-archive/', catalogue: { manifest: catalogueFile, releaseAlias: 'COL26.8', acceptedSpecies: 2183133 } }
+    vi.stubGlobal('fetch', vi.fn(async (input: RequestInfo | URL) => {
+      const url = String(input)
+      if (url.endsWith('/data/current.json')) return responseFor(current)
+      if (url.endsWith(catalogueFile.url)) return responseFor(catalogueManifest)
+      if (url.endsWith(packFile.url)) return responseFor(packManifest)
+      if (url.endsWith(file.url)) return textResponseFor(body)
+      if (url.endsWith(upstreamFile.url)) return textResponseFor(sourceOnlyBody)
+      return { ok: false, status: 404, arrayBuffer: async () => new ArrayBuffer(0) }
+    }))
+    const client = await import('./staticDataClient')
+    await expect(client.loadPackageAuthorityArchiveRecord('other-animals', 'worms-annelida-archive-crosswalk', 'NN001')).resolves.toMatchObject({ record: rows[0] })
+    expect((globalThis.fetch as ReturnType<typeof vi.fn>).mock.calls.filter(([input]) => String(input).includes('worms-annelida-sidecar'))).toHaveLength(1)
+    await expect(client.loadPackageAuthorityArchiveSourceOnly('other-animals', 'worms-annelida-archive-crosswalk', 0)).resolves.toEqual(sourceOnlyRows)
+  })
+
   it('loads each typed package ITIS collection by one range shard and rejects the Web summary', async () => {
     Object.defineProperty(globalThis, 'Worker', { configurable: true, value: undefined })
     const contracts: Array<{
