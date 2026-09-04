@@ -566,7 +566,7 @@ export async function loadPackageAuthorityArchiveSourceOnly(
   const file = collection.upstreamOnlyFiles[fileIndex]
   if (!file) throw new Error('Source-only file is not present in this collection')
   const records = await loadRuntimeFile<import('./types').AuthorityArchiveRecord[]>(file)
-  if (records.length !== file.records || records.some((record) => record.colId !== null || record.status !== 'upstream-only')) {
+  if (records.length !== file.records || records.some((record) => record.colId !== null || !['upstream-only', 'source-only'].includes(record.status))) {
     throw new Error('Source-only records do not match their independent partition')
   }
   return records

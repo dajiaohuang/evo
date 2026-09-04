@@ -10,6 +10,9 @@ const scopes: Array<{ root: string; packageId: string; id: AuthorityArchiveColle
   { root: 'NM', packageId: 'other-animals', id: 'worms-nematoda-archive-crosswalk', title: 'WoRMS · Nematoda' },
   { root: 'KZX8B', packageId: 'crustaceans-insects', id: 'worms-crustacea-archive-crosswalk', title: 'WoRMS · Crustacea' },
   { root: '5X', packageId: 'protists-chromists', id: 'worms-radiozoa-archive-crosswalk', title: 'WoRMS · Radiozoa' },
+  { root: '36', packageId: 'other-animals', id: 'worms-chaetognatha-archive-crosswalk', title: 'WoRMS · Chaetognatha' },
+  { root: 'B8VFC', packageId: 'other-animals', id: 'worms-rhombozoa-archive-crosswalk', title: 'WoRMS · Rhombozoa' },
+  { root: 'B8VF6', packageId: 'other-animals', id: 'worms-loricifera-archive-crosswalk', title: 'WoRMS · Loricifera' },
   { root: 'Z', packageId: 'protists-chromists', id: 'trichomycetes-archive-crosswalk', title: 'ChecklistBank source-1033 · Trichomycetes' },
   { root: 'CJBKK', packageId: 'crustaceans-insects', id: 'osf-orthoptera-archive-crosswalk', title: 'OSF · Orthoptera' },
   { root: '93', packageId: 'crustaceans-insects', id: 'chilobase-archive-crosswalk', title: 'ChiloBase · Chilopoda' },
@@ -70,7 +73,7 @@ function ArchiveRecord({ scope, colId, zh }: { scope: typeof scopes[number]; col
   const counts = collection.counts
   const version = typeof collection.source.version === 'string' ? collection.source.version : ''
   const doi = typeof collection.source.versionDoi === 'string' ? collection.source.versionDoi : ''
-  const statuses = { accepted: '接受名精确对应', redirect: '明示接受名重定向', ambiguous: '多个候选', unmatched: '没有精确对应', withheld: '保留未定', 'upstream-only': '仅权威源收录' }
+  const statuses = { accepted: '接受名精确对应', redirect: '明示接受名重定向', ambiguous: '多个候选', unmatched: '没有精确对应', withheld: '保留未定', 'upstream-only': '仅权威源收录', 'source-only': '仅权威源收录' }
   return <div className="catalogue-source-card">
     <strong>{collection.provider}</strong>
     <span>{version} · {collection.source.license}</span>

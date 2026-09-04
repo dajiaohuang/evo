@@ -50,6 +50,7 @@ const extensions = sources.map(([id, filename, ledgerFilename]) => {
   const totalSourceBytes = inventory.reduce((sum, file) => sum + file.sourceBytes, 0)
   return {
     ...descriptor,
+    recordType: 'release-pinned-authority-archive-crosswalk',
     counts: { ...descriptor.counts, records },
     files,
     upstreamOnlyFiles,
