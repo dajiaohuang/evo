@@ -7,10 +7,10 @@ import { join } from 'node:path'
 import { fileURLToPath } from 'node:url'
 
 const root = fileURLToPath(new URL('../', import.meta.url))
-const cases = [['molluscs-brachiopods', 'worms-mollusca', 154718], ['sponges-cnidarians', 'worms-porifera', 9899], ['sponges-cnidarians', 'worms-cnidaria', 20622], ['other-animals', 'worms-annelida', 18982], ['other-animals', 'worms-nematoda', 19604], ['crustaceans-insects', 'worms-crustacea', 80890]]
+const cases = [['molluscs-brachiopods', 'worms-mollusca', 154718], ['sponges-cnidarians', 'worms-porifera', 9899], ['sponges-cnidarians', 'worms-cnidaria', 20622], ['other-animals', 'worms-annelida', 18982], ['other-animals', 'worms-nematoda', 19604], ['crustaceans-insects', 'worms-crustacea', 80890], ['protists-chromists', 'worms-radiozoa', 444]]
 describe('WoRMS archive sidecars', () => {
   for (const [pkg, prefix, total] of cases) it(`${prefix} has verified arrays and ranges`, () => {
-    const dir = pkg === 'other-animals'
+    const dir = ['other-animals', 'protists-chromists'].includes(pkg)
       ? join(root, 'data/catalogue-of-life/releases/2026-08-20/resource-packs', pkg)
       : join(root, 'data/packages', pkg === 'crustaceans-insects' ? 'arthropoda' : 'invertebrata', pkg, 'nomenclature')
     const descriptor = JSON.parse(readFileSync(join(dir, `${prefix}-sidecar.json`)))
