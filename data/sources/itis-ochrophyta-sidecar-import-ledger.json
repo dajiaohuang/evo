@@ -13,30 +13,30 @@
     "sourceLinkEvidence": [
       {
         "colUsageId": "45WNC",
-        "path": ".repostew/evo-rc116-source-link-evidence/45WNC-col.json",
-        "bytes": 1167,
-        "sha256": "20581de338a6dabc199ca37ced11baf26d513e237c288422e731c68585de6727",
+        "path": "data/sources/itis-ochrophyta-col-links/45WNC-col.json",
+        "bytes": 1168,
+        "sha256": "af91336fc3cc4e795de85e4d436f50d814c1ff31c5e00720b331b74e3880a3e1",
         "tsn": "573654"
       },
       {
         "colUsageId": "45WWJ",
-        "path": ".repostew/evo-rc116-source-link-evidence/45WWJ-col.json",
-        "bytes": 1178,
-        "sha256": "6fce257f06743b6d17cb444b58256faffec0b541f3444f53688df22efcb17944",
+        "path": "data/sources/itis-ochrophyta-col-links/45WWJ-col.json",
+        "bytes": 1179,
+        "sha256": "d3939e4b0e7347bae6c1d0c827163c42628fbfb5a354d7165bd647d0f7d52553",
         "tsn": "1020771"
       },
       {
         "colUsageId": "45WXV",
-        "path": ".repostew/evo-rc116-source-link-evidence/45WXV-col.json",
-        "bytes": 1106,
-        "sha256": "70d80230a1cb4a856f7b36a45af9d12a609512c30fc6ab61309ef31f4cab9cce",
+        "path": "data/sources/itis-ochrophyta-col-links/45WXV-col.json",
+        "bytes": 1107,
+        "sha256": "1aa9def11c72129f1d6e68b67a6cbafddc02c270b99e876a11893fff701a9a02",
         "tsn": "1020785"
       },
       {
         "colUsageId": "6RTKD",
-        "path": ".repostew/evo-rc116-source-link-evidence/6RTKD-col.json",
-        "bytes": 1165,
-        "sha256": "6de0aa1474daba73d7516f0009008eb618a166066eef503bf3e8bed24db4da2b",
+        "path": "data/sources/itis-ochrophyta-col-links/6RTKD-col.json",
+        "bytes": 1150,
+        "sha256": "fd365c716d6f99f6a447ce69886aafffee23de97afdae2429512906630d1e514",
         "tsn": "1020965"
       }
     ]
@@ -88,7 +88,7 @@
       "Preserve case, diacritics, punctuation and all remaining name tokens."
     ],
     "statuses": {
-      "accepted": "The normalized COL name resolves to exactly one accepted ITIS Ochrophyta species and directly equals that current ITIS name.",
+      "accepted": "The normalized COL name resolves to exactly one accepted ITIS Ochrophyta species and directly equals that current ITIS name; for the four frozen COL source-link rows, the official COL name.link TSN must also equal that accepted candidate.",
       "synonym-current-name-redirect": "The normalized COL name equals official ITIS invalid species-name evidence that resolves to exactly one accepted ITIS Ochrophyta species.",
       "ambiguous": "The normalized exact evidence resolves to more than one accepted ITIS Ochrophyta species TSN.",
       "unmatched": "No normalized exact accepted-name or official ITIS species-synonym evidence resolves to an accepted ITIS Ochrophyta species."
@@ -108,8 +108,8 @@
   "output": {
     "descriptor": {
       "path": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-ochrophyta-sidecar.json",
-      "bytes": 6640,
-      "sha256": "f397cb57ea6f1df29f54d636c9f5070aac3fcb2c2327dccdce6bf59fe4a17e92"
+      "bytes": 6747,
+      "sha256": "1a1209ff7438f682d86490765d3059af97d03e459ee16f4dc870303784842396"
     },
     "colUsageIdShards": [
       {
@@ -128,10 +128,10 @@
       "records": 2298,
       "firstColUsageId": null,
       "lastColUsageId": null,
-      "bytes": 28637,
-      "sha256": "ba2e972d96e870f81ffb09de3c27aa26fad742c8fc1f00e4d9f31657a774f339",
-      "sourceBytes": 841884,
-      "sourceSha256": "94cc356234de2170891f6b2700dbd6ada7ff8870fa126840bfe0e5f15334dc1f",
+      "bytes": 29465,
+      "sha256": "03e9c9fbcebfcec14972d1f85ed3bececec0cdaf0b91ae35aa4228734f9cee6c",
+      "sourceBytes": 1044108,
+      "sourceSha256": "abb989eef393d95d7726201c31680800463d9592146f959eb815e2f4193b8217",
       "colOwnership": null,
       "firstTsn": "1088",
       "lastTsn": "1021186"
@@ -144,7 +144,7 @@
   },
   "generatedBy": {
     "scriptPath": "scripts/build-itis-ochrophyta-sidecar.mjs",
-    "scriptSha256": "34a4fe5c20e403d025e2c5b25083522de8a49086f663d3ff587fa315b423bd59",
+    "scriptSha256": "528a844296451149bce64a90beb1f38c404487ef382adfd4be1706a1fe7a8937",
     "deterministic": "Pinned input checksums, exact roots, exact SQL, representation-only normalization, code-unit ID ordering and deterministic gzip; no wall-clock fields or fuzzy matching."
   }
 }
