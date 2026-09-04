@@ -1,5 +1,5 @@
 """Build an offline exact-name projection of ChecklistBank Appendicularia."""
-import argparse, csv, gzip, hashlib, json, re, zipfile
+import argparse, csv, gzip, hashlib, json, re, unicodedata, zipfile
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -17,7 +17,8 @@ def enc(v, pretty=False):
 def bare(r):
     n, a = r.get('scientificName',''), r.get('authorship') or ''
     return n[:-len(a)-1] if a and n.endswith(' ' + a) else n
-def key(n, a): return (' '.join((n or '').split()), ' '.join((a or '').split()))
+def key(n, a):
+    return tuple(unicodedata.normalize('NFC', ' '.join((value or '').split())) for value in (n, a))
 def source_name(n, names, taxon=None, refs=None, nr=None):
     out = {'id': n['ID'], 'scientificName': n.get('scientificName') or '',
            'authorship': n.get('authorship') or '', 'status': n.get('status') or ''}
@@ -32,7 +33,7 @@ def source_name(n, names, taxon=None, refs=None, nr=None):
     for row in nr.get(n['ID'], []):
         if row.get('referenceID') and row['referenceID'] not in ids: ids.append(row['referenceID'])
     out['referenceIds'] = ids
-    out['references'] = [refs[i] for i in ids if i in refs]
+    out['references'] = [{k: v for k, v in refs[i].items() if k != '_row'} for i in ids if i in refs]
     out['referenceRows'] = [{'member': 'Reference.txt', 'row': refs[i]['_row'], 'referenceID': i} for i in ids if i in refs]
     out['referenceMissing'] = [i for i in ids if i not in refs]
     out['nameReferenceRows'] = [{'member': 'NameReference.txt', 'row': row['_row'], 'nameID': n['ID'], 'referenceID': row.get('referenceID')} for row in nr.get(n['ID'], [])]
@@ -143,7 +144,7 @@ def main():
     for p in out.glob(prefix+'-*.json.gz'):
         if p.name not in keep: p.unlink()
     byte_count=sum(x['bytes'] for x in files+upfiles)
-    descriptor={'schemaVersion':1,'recordType':'release-pinned-authority-archive-crosswalk','id':'worms-appendicularia-archive-crosswalk','packageId':'other-animals','provider':'Appendicularia World Database via ChecklistBank','role':'authority-crosswalk','rowEncoding':'json','encoding':'gzip','mediaType':'application/json','colIdField':'colId','totalCountField':'total','source':{'archiveUrl':'https://api.checklistbank.org/dataset/1178/archive','archiveBytes':ARCHIVE_BYTES,'archiveSha256':ARCHIVE_SHA,'version':'2026-09-01','versionDoi':'10.48580/d3fn.v89','license':'CC-BY-4.0','sourceLedgerPath':'data/sources/worms-appendicularia-1178-import-ledger.json','archivePath':'data/sources/archives/checklistbank-1178-appendicularia-2026-09-01.zip','metadataPath':'data/sources/archives/checklistbank-1178-appendicularia-2026-09-01.metadata.json'},'scope':{'colRootUsageId':ROOT_ID,'colParentClosureRootUsageId':PARENT_ROOT_ID,'eligibleColSpecies':len(col),'excludedParentClosureSpecies':excluded},'counts':{'total':len(records),'records':len(records),'bytes':byte_count,**counts,'upstreamOnly':len(upstream)},'files':files,'upstreamOnlyFiles':upfiles,'deliveryProfiles':{'web-light':{'mode':'summary-only','records':len(records),'files':[x['path'] for x in files],'bytes':sum(x['bytes'] for x in files)},'native-full':{'mode':'complete','records':len(records)+len(upstream),'files':[x['path'] for x in files+upfiles],'bytes':byte_count}},'matching':{'normalization':'Exact scientific name and authorship after whitespace normalization; source fields preserved.','prohibited':'No fuzzy or inferred matching.'},'evidenceBoundary':{'en':'Frozen exact nomenclatural crosswalk; not species-concept equivalence, biological dossier or expert review.'}}
+    descriptor={'schemaVersion':1,'recordType':'release-pinned-authority-archive-crosswalk','id':'worms-appendicularia-archive-crosswalk','packageId':'other-animals','provider':'World Register of Marine Species via ChecklistBank','role':'authority-crosswalk','rowEncoding':'json','encoding':'gzip','mediaType':'application/json','colIdField':'colId','totalCountField':'total','source':{'archiveUrl':'https://api.checklistbank.org/dataset/1178/archive','archiveBytes':ARCHIVE_BYTES,'archiveSha256':ARCHIVE_SHA,'version':'2026-09-01','versionDoi':'10.48580/d3fn.v89','license':'CC-BY-4.0','sourceLedgerPath':'data/sources/worms-appendicularia-1178-import-ledger.json','archivePath':'data/sources/archives/checklistbank-1178-appendicularia-2026-09-01.zip','metadataPath':'data/sources/archives/checklistbank-1178-appendicularia-2026-09-01.metadata.json'},'scope':{'colRootUsageId':ROOT_ID,'colParentClosureRootUsageId':PARENT_ROOT_ID,'eligibleColSpecies':len(col),'excludedParentClosureSpecies':excluded},'counts':{'total':len(records),'records':len(records),'bytes':byte_count,**counts,'upstreamOnly':len(upstream)},'files':files,'upstreamOnlyFiles':upfiles,'deliveryProfiles':{'web-light':{'mode':'summary-only','records':len(records),'files':[x['path'] for x in files],'bytes':sum(x['bytes'] for x in files)},'native-full':{'mode':'complete','records':len(records)+len(upstream),'files':[x['path'] for x in files+upfiles],'bytes':byte_count}},'matching':{'normalization':'Unicode NFC and whitespace normalization for scientific name and authorship; source fields preserved.','prohibited':'No fuzzy or inferred matching.'},'evidenceBoundary':{'en':'Frozen exact nomenclatural crosswalk; not species-concept equivalence, biological dossier or expert review.'}}
     descriptor['counts'].pop('bytes')
     descriptor['counts']['records']=len(records)+len(upstream)
     descriptor['scope']['sourceDatasetId']='1178'
@@ -153,10 +154,11 @@ def main():
     descriptor['deliveryProfiles']={
         'web-light': {'mode':'summary-only','records':0,'files':[],'totalCompressedBytes':0,'totalSourceBytes':0},
         'native-full': {'mode':'complete','records':len(records)+len(upstream),'files':[x['path'] for x in files+upfiles],'totalCompressedBytes':byte_count,'totalSourceBytes':descriptor['totalSourceBytes']}}
-    descriptor['evidenceBoundary']['zh']='冻结的命名与原始来源对照；不是物种概念等同性、完整生物档案或专家审查。'
+    descriptor['evidenceBoundary']['zh']='冻结的精确命名学交叉映射；不是物种概念等同性、生物学档案或专家审查。'
     descriptor['limitations']=['Name.status is original nomenclatural metadata; acceptance comes from nonprovisional Taxon membership.', 'Matched names do not establish species-concept equivalence.']
     (out/f'{prefix}-sidecar.json').write_bytes(enc(descriptor,True))
     ledger={'schemaVersion':1,'importType':'COL26.8-to-Appendicularia-1178-authority-crosswalk','sourceArchive':{'path':'data/sources/archives/checklistbank-1178-appendicularia-2026-09-01.zip','bytes':ARCHIVE_BYTES,'sha256':ARCHIVE_SHA},'sourceMetadata':{'path':'data/sources/archives/checklistbank-1178-appendicularia-2026-09-01.metadata.json','sha256':sha(a.metadata.read_bytes())},'colInput':{'registryManifestSha256':msh,'nodeShards':node},'scope':{'colRootUsageId':ROOT_ID,'colParentClosureRootUsageId':PARENT_ROOT_ID,'colSpecies':len(col),'sourceSpeciesRankTaxa':species_total,'provisionalExcluded':provisional,'excludedParentClosureSpecies':excluded,'counts':descriptor['counts']},'outputs':{'descriptorSha256':sha((out/f'{prefix}-sidecar.json').read_bytes()),'files':files,'upstreamOnlyFiles':upfiles}}
-    ledger['generatedBy']={'script':'scripts/build-appendicularia-source.py','scriptSha256':sha(Path(__file__).read_bytes())}
+    normalized_script=Path(__file__).read_bytes().replace(b'\r\n', b'\n')
+    ledger['generatedBy']={'script':'scripts/build-appendicularia-source.py','scriptSha256':sha(normalized_script),'hashNormalization':'CRLF to LF before SHA-256'}
     ledger_path=output_root/'data/sources/worms-appendicularia-1178-import-ledger.json'; ledger_path.parent.mkdir(parents=True,exist_ok=True); ledger_path.write_bytes(enc(ledger,True)); print(json.dumps(descriptor['counts']))
 if __name__=='__main__': main()
