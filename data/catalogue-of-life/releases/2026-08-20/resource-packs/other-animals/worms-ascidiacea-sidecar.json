@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "recordType": "release-pinned-authority-archive-crosswalk",
+  "id": "worms-ascidiacea-archive-crosswalk",
+  "packageId": "other-animals",
+  "provider": "Ascidiacea World Database via ChecklistBank",
+  "role": "authority-crosswalk",
+  "rowEncoding": "json",
+  "encoding": "gzip",
+  "mediaType": "application/json",
+  "colIdField": "colId",
+  "totalCountField": "total",
+  "source": {
+    "archiveUrl": "https://api.checklistbank.org/dataset/1186/archive",
+    "archiveBytes": 692018,
+    "archiveSha256": "10f7ee92363e3fab5df9964a494b59e1d79a5214f38b9e796f73afd51558863a",
+    "version": "2026-09-01",
+    "versionDoi": "10.48580/d3fx.v90",
+    "license": "CC-BY-4.0",
+    "sourceLedgerPath": "data/sources/worms-ascidiacea-1186-import-ledger.json"
+  },
+  "scope": {
+    "colRootUsageId": "7NF2Z",
+    "eligibleColSpecies": 3146
+  },
+  "counts": {
+    "total": 3146,
+    "accepted": 3000,
+    "redirect": 0,
+    "ambiguous": 0,
+    "unmatched": 146,
+    "withheld": 0,
+    "upstreamOnly": 0
+  },
+  "files": [
+    {
+      "path": "other-animals/worms-ascidiacea-000.json.gz",
+      "records": 838,
+      "bytes": 143883,
+      "sha256": "46400518b184d780b363a85ea0b8faa59e3abac8300589585f10670df9f6ac90",
+      "sourceBytes": 2097101,
+      "sourceSha256": "e2a08c7a4687ff3574df38b35406760b4a0693e2198097c48996b1b54c93120c",
+      "minColId": "327YW",
+      "maxColId": "44CSB"
+    },
+    {
+      "path": "other-animals/worms-ascidiacea-001.json.gz",
+      "records": 824,
+      "bytes": 143142,
+      "sha256": "5408962004dcd3649b3e37f862e67d45c1cea0a8a55e7194c2a094aa8a6efe61",
+      "sourceBytes": 2095635,
+      "sourceSha256": "63cbb7329820407adbfa97dd2019d31fc37da88fc7cdce74343ca4feee2f2848",
+      "minColId": "44CSC",
+      "maxColId": "58P28"
+    },
+    {
+      "path": "other-animals/worms-ascidiacea-002.json.gz",
+      "records": 849,
+      "bytes": 148324,
+      "sha256": "16f48fd080fb8c23de8ff1418b8c972932ccae76049c9b3043ac6131cc5cc67f",
+      "sourceBytes": 2095414,
+      "sourceSha256": "d5ddb10a05528a328c245402ef36918311882c04972d9bc34d9e53aaa8be7178",
+      "minColId": "59SYR",
+      "maxColId": "CG97V"
+    },
+    {
+      "path": "other-animals/worms-ascidiacea-003.json.gz",
+      "records": 635,
+      "bytes": 116032,
+      "sha256": "fae60a4c8efdf7551cb05f42c61a3ad7cc0fd39fb1997d14049c061585aaaf0d",
+      "sourceBytes": 1621546,
+      "sourceSha256": "d7c64041185e213698889e4b920b27a970887df35e1dbbd1dacc6214a0974cad",
+      "minColId": "CG97X",
+      "maxColId": "YQM5"
+    }
+  ],
+  "upstreamOnlyFiles": [],
+  "deliveryProfiles": {
+    "web-light": {
+      "mode": "summary-only"
+    },
+    "native-full": {
+      "mode": "complete"
+    }
+  },
+  "matching": {
+    "normalization": "Exact scientific name and authorship after whitespace normalization; source fields preserved.",
+    "prohibited": "No fuzzy or inferred matching."
+  },
+  "evidenceBoundary": {
+    "en": "Frozen exact nomenclatural crosswalk; not species-concept equivalence, biological dossier or expert review."
+  }
+}
