@@ -97,6 +97,13 @@ const richPackageNomenclatureSources = {
   }],
   'molluscs-brachiopods': [{
     kind: 'range-sharded',
+    descriptorPath: 'data/packages/invertebrata/molluscs-brachiopods/nomenclature/worms-mollusca-sidecar.json',
+    expectedId: 'worms-mollusca-archive-crosswalk',
+    expectedProvider: 'World Register of Marine Species via ChecklistBank',
+    expectedLicense: 'CC-BY-4.0',
+    rowEncoding: 'json', colIdField: 'colId', totalCountField: 'total',
+  }, {
+    kind: 'range-sharded',
     descriptorPath: 'data/packages/invertebrata/molluscs-brachiopods/nomenclature/itis-mollusca-brachiopoda-tsn-sidecar.json',
     expectedId: 'itis-mollusca-brachiopoda-tsn-crosswalk',
     expectedProvider: 'Integrated Taxonomic Information System',
@@ -106,6 +113,20 @@ const richPackageNomenclatureSources = {
   }],
   'sponges-cnidarians': [{
     kind: 'range-sharded',
+    descriptorPath: 'data/packages/invertebrata/sponges-cnidarians/nomenclature/worms-porifera-sidecar.json',
+    expectedId: 'worms-porifera-archive-crosswalk',
+    expectedProvider: 'World Register of Marine Species via ChecklistBank',
+    expectedLicense: 'CC-BY-4.0',
+    rowEncoding: 'json', colIdField: 'colId', totalCountField: 'total',
+  }, {
+    kind: 'range-sharded',
+    descriptorPath: 'data/packages/invertebrata/sponges-cnidarians/nomenclature/worms-cnidaria-sidecar.json',
+    expectedId: 'worms-cnidaria-archive-crosswalk',
+    expectedProvider: 'World Register of Marine Species via ChecklistBank',
+    expectedLicense: 'CC-BY-4.0',
+    rowEncoding: 'json', colIdField: 'colId', totalCountField: 'total',
+  }, {
+    kind: 'range-sharded',
     descriptorPath: 'data/packages/invertebrata/sponges-cnidarians/nomenclature/itis-porifera-cnidaria-sidecar.json',
     expectedId: 'itis-porifera-cnidaria-tsn-crosswalk',
     expectedProvider: 'Integrated Taxonomic Information System',
@@ -114,6 +135,13 @@ const richPackageNomenclatureSources = {
     colIdField: 'colUsageId',
   }],
   'crustaceans-insects': [{
+    kind: 'range-sharded',
+    descriptorPath: 'data/packages/arthropoda/crustaceans-insects/nomenclature/osf-orthoptera-sidecar.json',
+    expectedId: 'osf-orthoptera-archive-crosswalk',
+    expectedProvider: 'Orthoptera Species File via ChecklistBank',
+    expectedLicense: 'CC-BY-4.0',
+    rowEncoding: 'json', colIdField: 'colId', totalCountField: 'total',
+  }, {
     kind: 'range-sharded',
     descriptorPath: 'data/packages/arthropoda/crustaceans-insects/nomenclature/itis-tsn-sidecar.json',
     expectedId: 'itis-crustacea-tsn-crosswalk',
@@ -356,6 +384,9 @@ function buildRichPackageNomenclatureCollection(packageId, definition) {
       throw new Error(`${packageId}: canonical range-sharded collection descriptor is invalid`)
     }
     const packageRoot = dirname(dirname(join(rootDir, definition.descriptorPath)))
+    const compareColIds = definition.totalCountField
+      ? (left, right) => left < right ? -1 : left > right ? 1 : 0
+      : (left, right) => left.localeCompare(right)
     let previousMaxColId = null
     const validateCanonicalFile = (file, rangeKind) => {
       const sourcePath = file.path.startsWith('data/')
@@ -375,8 +406,8 @@ function buildRichPackageNomenclatureCollection(packageId, definition) {
       if (rangeKind === 'col') {
         const colIdField = definition.colIdField
         if (rows[0]?.[colIdField] !== file.minColId || rows.at(-1)?.[colIdField] !== file.maxColId
-          || rows.some((row, index) => index > 0 && rows[index - 1][colIdField].localeCompare(row[colIdField]) >= 0)
-          || (previousMaxColId !== null && previousMaxColId.localeCompare(file.minColId) >= 0)) {
+          || rows.some((row, index) => index > 0 && compareColIds(rows[index - 1][colIdField], row[colIdField]) >= 0)
+          || (previousMaxColId !== null && compareColIds(previousMaxColId, file.minColId) >= 0)) {
           throw new Error(`${packageId}: COL shard ranges are absent, overlapping or inconsistent: ${file.path}`)
         }
         previousMaxColId = file.maxColId
@@ -385,7 +416,7 @@ function buildRichPackageNomenclatureCollection(packageId, definition) {
     }
     const canonicalFiles = descriptor.files.map((file) => ({ file, bytes: validateCanonicalFile(file, 'col') }))
     const canonicalUpstreamOnlyFiles = (descriptor.upstreamOnlyFiles ?? []).map((file) => ({ file, bytes: validateCanonicalFile(file, 'upstream') }))
-    const expectedPackageRecords = isItis ? descriptor.counts.total : descriptor.counts.packageAcceptedSpecies
+    const expectedPackageRecords = descriptor.counts[definition.totalCountField ?? (isItis ? 'total' : 'packageAcceptedSpecies')]
     const expectedUpstreamOnlyRecords = isItis ? descriptor.counts.itisUpstreamOnly : descriptor.counts.upstreamOnly
     if (canonicalFiles.reduce((sum, entry) => sum + entry.file.records, 0) !== expectedPackageRecords
       || canonicalUpstreamOnlyFiles.reduce((sum, entry) => sum + entry.file.records, 0) !== expectedUpstreamOnlyRecords) {

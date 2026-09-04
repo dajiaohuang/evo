@@ -369,7 +369,53 @@ export interface RuntimeItisNomenclatureCollection {
   limitations: string[]
 }
 
-export type RuntimePackageNomenclatureCollection = RuntimeWormsNomenclatureCollection | RuntimeWfoPlantNomenclatureCollection | RuntimeAviListNomenclatureCollection | RuntimeItisNomenclatureCollection
+export type AuthorityArchiveCollectionId =
+  | 'worms-mollusca-archive-crosswalk'
+  | 'worms-porifera-archive-crosswalk'
+  | 'worms-cnidaria-archive-crosswalk'
+  | 'osf-orthoptera-archive-crosswalk'
+
+export interface AuthorityArchiveName {
+  id: string
+  nameId?: string
+  scientificName: string
+  authorship: string
+  status: string
+  url: string
+}
+
+export interface AuthorityArchiveRecord {
+  colId: string | null
+  colScientificName: string | null
+  colAuthorship: string | null
+  status: 'accepted' | 'redirect' | 'ambiguous' | 'unmatched' | 'withheld' | 'upstream-only'
+  matchedName: AuthorityArchiveName | null
+  acceptedName: AuthorityArchiveName | null
+  candidates: AuthorityArchiveName[]
+  mappingBasis: string
+  sourceRows: Array<{ member: string; row: number }>
+}
+
+export interface RuntimeAuthorityArchiveCollection {
+  schemaVersion: 1
+  id: AuthorityArchiveCollectionId
+  recordType: 'release-pinned-authority-archive-crosswalk'
+  provider: string
+  packageId: string
+  source: { license: 'CC-BY-4.0'; [key: string]: unknown }
+  scope: Record<string, unknown>
+  matching: Record<string, unknown>
+  counts: { total: number; accepted: number; redirect: number; ambiguous: number; unmatched: number; withheld: number; upstreamOnly: number }
+  files: CatalogueResourcePackPayloadFile[]
+  upstreamOnlyFiles: CatalogueResourcePackPayloadFile[]
+  canonicalFileInventory: Array<Omit<CatalogueResourcePackPayloadFile, 'url'> & { role: 'col-partition' | 'upstream-only' }>
+  descriptorSha256: string
+  delivery: { profile: 'web-light' | 'native-full'; completeRows: boolean; publishedFileCount: number; canonicalFileCount: number }
+  evidenceBoundary: { en: string; zh: string }
+  limitations: string[]
+}
+
+export type RuntimePackageNomenclatureCollection = RuntimeWormsNomenclatureCollection | RuntimeWfoPlantNomenclatureCollection | RuntimeAviListNomenclatureCollection | RuntimeItisNomenclatureCollection | RuntimeAuthorityArchiveCollection
 
 export interface RuntimePackageManifest {
   schemaVersion: number

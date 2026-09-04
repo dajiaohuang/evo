@@ -586,6 +586,61 @@ describe('static runtime release coherence', () => {
     expect(fetchMock.mock.calls.some(([input]) => String(input).endsWith(shardFiles[2].file.url))).toBe(false)
   })
 
+  it.each([
+    ['molluscs-brachiopods', 'worms-mollusca-archive-crosswalk'],
+    ['sponges-cnidarians', 'worms-porifera-archive-crosswalk'],
+    ['sponges-cnidarians', 'worms-cnidaria-archive-crosswalk'],
+    ['crustaceans-insects', 'osf-orthoptera-archive-crosswalk'],
+  ] as const)('loads only the selected %s / %s archive range and no row files on Web', async (packageId, collectionId) => {
+    Object.defineProperty(globalThis, 'Worker', { configurable: true, value: undefined })
+    const rows = ['A001', 'M001', 'Z001'].map((colId) => ({ colId, status: 'accepted' }))
+    const shardFiles = await Promise.all(rows.map(async (row, index) => {
+      const body = JSON.stringify([row])
+      const digest = await sha256Text(body)
+      return { body, file: { url: `releases/archive/packages/${packageId}/nomenclature/col-${index}.json`, records: 1, bytes: body.length, sha256: digest, minColId: row.colId, maxColId: row.colId } }
+    }))
+    const sourceOnlyRows = [{ colId: null, status: 'upstream-only' }]
+    const sourceOnlyBody = JSON.stringify(sourceOnlyRows)
+    const sourceOnlyFile = { url: `releases/archive/packages/${packageId}/nomenclature/upstream-only.json`, records: 1, bytes: sourceOnlyBody.length, sha256: await sha256Text(sourceOnlyBody) }
+    const collection = {
+      schemaVersion: 1, id: collectionId, recordType: 'release-pinned-authority-archive-crosswalk', packageId,
+      counts: { total: 3, accepted: 3, redirect: 0, ambiguous: 0, unmatched: 0, withheld: 0, upstreamOnly: 1 },
+      files: shardFiles.map(({ file }) => file), upstreamOnlyFiles: [sourceOnlyFile],
+      delivery: { profile: 'native-full', completeRows: true },
+    }
+    const manifest = { packageId, version: 'archive', nomenclatureCollections: [collection] }
+    const manifestFile = { url: `releases/archive/packages/${packageId}/manifest.json`, sha256: await sha256(manifest) }
+    const current = { datasetVersion: 'archive', releaseBase: 'releases/archive/', packages: { manifests: { [packageId]: manifestFile } } }
+    const fetchMock = vi.fn(async (input: RequestInfo | URL) => {
+      const url = String(input)
+      if (url.endsWith('/data/current.json')) return responseFor(current)
+      if (url.endsWith(manifestFile.url)) return responseFor(manifest)
+      if (url.endsWith(sourceOnlyFile.url)) return textResponseFor(sourceOnlyBody)
+      const shard = shardFiles.find(({ file }) => url.endsWith(file.url))
+      return shard ? textResponseFor(shard.body) : { ok: false, status: 404 }
+    })
+    vi.stubGlobal('fetch', fetchMock)
+    const client = await import('./staticDataClient')
+    await expect(client.loadPackageAuthorityArchiveRecord(packageId, collectionId, 'M001')).resolves.toMatchObject({ record: rows[1] })
+    await expect(client.loadPackageAuthorityArchiveRecord(packageId, collectionId, 'NO-SUCH-COL-ID')).resolves.toMatchObject({ record: null })
+    expect(fetchMock.mock.calls.filter(([input]) => String(input).includes('/nomenclature/'))).toHaveLength(1)
+    expect(fetchMock.mock.calls.some(([input]) => String(input).includes('upstream-only'))).toBe(false)
+    await expect(client.loadPackageAuthorityArchiveSourceOnly(packageId, collectionId, 0)).resolves.toEqual(sourceOnlyRows)
+    expect(fetchMock.mock.calls.filter(([input]) => String(input).includes('upstream-only'))).toHaveLength(1)
+
+    vi.resetModules()
+    const webCollection = { ...collection, files: [], upstreamOnlyFiles: [], delivery: { profile: 'web-light', completeRows: false } }
+    const webManifest = { ...manifest, nomenclatureCollections: [webCollection] }
+    const webFile = { ...manifestFile, sha256: await sha256(webManifest) }
+    const webFetch = vi.fn(async (input: RequestInfo | URL) => String(input).endsWith('/data/current.json')
+      ? responseFor({ ...current, packages: { manifests: { [packageId]: webFile } } }) : responseFor(webManifest))
+    vi.stubGlobal('fetch', webFetch)
+    const webClient = await import('./staticDataClient')
+    await expect(webClient.loadPackageAuthorityArchiveRecord(packageId, collectionId, 'M001')).resolves.toMatchObject({ collection: { delivery: { completeRows: false } }, record: null })
+    await expect(webClient.loadPackageAuthorityArchiveSourceOnly(packageId, collectionId, 0)).rejects.toThrow('full Android/iOS data profile')
+    expect(webFetch.mock.calls.some(([input]) => String(input).includes('/nomenclature/'))).toBe(false)
+  })
+
   it('loads one AviList range shard in native-full and refuses unavailable Web row data', async () => {
     Object.defineProperty(globalThis, 'Worker', { configurable: true, value: undefined })
     const rows = [
