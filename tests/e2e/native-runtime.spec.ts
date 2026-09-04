@@ -96,3 +96,26 @@ for (const [id, expectedStatus, names] of [
     expect(requests[0]).not.toContain('/assets/data/')
   })
 }
+
+for (const [scope, id, name, tsn, shardPrefix] of [
+  ['Chondrichthyes', '3247M', 'Ctenacis fehlmanni', '160559', 'itis-chondrichthyes-sidecar-'],
+  ['Chelicerata', '3235D', 'Cryptothele alluaudi', '877405', 'itis-chelicerata-sidecar-'],
+] as const) {
+  test(`native ${scope} mapping loads one real accepted row on demand`, async ({ page }) => {
+    const requests: string[] = []
+    page.on('request', (request) => {
+      if (request.url().includes(shardPrefix) && request.url().endsWith('.jsonl.gz')) requests.push(request.url())
+    })
+    await page.goto(`./#/registry?release=COL26.8&id=${id}`)
+    const details = page.locator('.catalogue-authority-disclosure').filter({ hasText: `ITIS ${scope} exact nomenclatural mapping` })
+    await expect(details.locator('summary')).toBeVisible()
+    await expect(details).not.toHaveAttribute('open')
+    expect(requests).toHaveLength(0)
+    await details.locator('summary').click()
+    await expect(details).toContainText('Exact accepted-name match')
+    await expect(details).toContainText(name)
+    await expect(details).toContainText(tsn)
+    expect(requests).toHaveLength(1)
+    expect(requests[0]).not.toContain('/assets/data/')
+  })
+}

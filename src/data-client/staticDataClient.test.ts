@@ -1,4 +1,5 @@
 import { afterEach, describe, expect, it, vi } from 'vitest'
+import { readFileSync } from 'node:fs'
 import type { CatalogueHierarchyChildRecord, CatalogueHierarchyNodeRecord, CatalogueLpsnIdentifierRecord, CatalogueNomenclaturalRecord, CatalogueRecord, CatalogueResourcePackManifest, CatalogueSourceChecklist, CatalogueSpeciesOwnership, CatalogueTargetRecord, RuntimeItisPackageScope, RuntimeMapManifest, RuntimeMapSnapshot, RuntimePaleotopographyCollection } from './types'
 
 function responseFor(value: unknown) {
@@ -1254,6 +1255,18 @@ describe('static runtime release coherence', () => {
     const { loadCatalogueItisProtistsRecord } = await import('./staticDataClient')
     await expect(loadCatalogueItisProtistsRecord('bigyra', 'B026')).resolves.toMatchObject({ record: records[26] })
     expect(fetchMock.mock.calls.filter(([input]) => String(input).includes('itis-bigyra-sidecar'))).toHaveLength(1)
+  })
+
+  it('keeps the Oomycota ITIS contract aligned with its four-order descriptor', () => {
+    const descriptor = JSON.parse(readFileSync('data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/itis-oomycota-sidecar.json', 'utf8'))
+    expect(descriptor.scope.requestedColRoot).toMatchObject({ usageId: '5K', strictAcceptedSpecies: 1673 })
+    expect(descriptor.scope.selectedSharedOrderRoots.map((root: { col: { usageId: string } }) => root.col.usageId)).toEqual(['3SH', '3ZZ', '3FT', '3DC'])
+    expect(descriptor.scope.colStrictAcceptedSpecies).toBe(1494)
+    expect(descriptor.counts).toMatchObject({ total: 1494, accepted: 53, synonymCurrentNameRedirect: 1, ambiguous: 0, unmatched: 1440, itisUpstreamOnly: 42 })
+    expect(descriptor.colUsageIdLocator.files).toHaveLength(1)
+    expect(descriptor.colUsageIdLocator.files[0]).toMatchObject({ records: 1494, firstColUsageId: '33PPP', lastColUsageId: 'YGGB' })
+    expect(descriptor.upstreamOnly.files).toHaveLength(1)
+    expect(descriptor.upstreamOnly.files[0].records).toBe(42)
   })
 
   it('loads only the requested direct children from a shared parent-hash shard and caches it', async () => {
