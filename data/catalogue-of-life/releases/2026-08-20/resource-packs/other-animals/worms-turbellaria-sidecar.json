@@ -86,107 +86,107 @@
     "excludedSourceProvisional": 37
   },
   "matching": {
-    "normalization": "NFC and whitespace normalization only; COL trailing authorship is removed exactly.",
+    "normalization": "Unicode NFC; collapse and trim Unicode whitespace; canonicalize whitespace around commas and ampersands; remove the exact normalized COL trailing authorship.",
     "prohibited": "No fuzzy, case-folded, accent-folded, synonym or species-concept matching."
   },
   "counts": {
     "total": 6508,
-    "accepted": 6493,
+    "accepted": 6495,
     "redirect": 0,
     "ambiguous": 0,
-    "unmatched": 15,
+    "unmatched": 13,
     "withheld": 0,
-    "upstreamOnly": 30,
-    "records": 6538
+    "upstreamOnly": 28,
+    "records": 6536
   },
   "files": [
     {
       "path": "other-animals/worms-turbellaria-000.json.gz",
-      "records": 1208,
-      "bytes": 199547,
-      "sha256": "35556ef08da6c13e56c114ed7bb63677d9698b8889fb23f0d4d453d00324f116",
-      "sourceBytes": 2093095,
-      "sourceSha256": "7b26f3cfc51c282be606a157376ef8db972c14f098dbe70266cec83864b843f5",
+      "records": 1203,
+      "bytes": 199029,
+      "sha256": "e2e46fde2317ebff95c9581b69bb3f82eb35352d603b5a21692c35f6b90e7116",
+      "sourceBytes": 2094178,
+      "sourceSha256": "489e511731f27a49537ab4ae5c480f90bf2b6cd95dc9bdc7b60eb7519d9e8823",
       "encoding": "gzip",
       "mediaType": "application/json",
       "role": "col-partition",
       "minColId": "322VJ",
-      "maxColId": "42V3T"
+      "maxColId": "42V3F"
     },
     {
       "path": "other-animals/worms-turbellaria-001.json.gz",
-      "records": 1074,
-      "bytes": 196567,
-      "sha256": "ad79470717db0066f08eedc05a732a543f2af61c1ee47642ba2fa6af3e36ba5b",
-      "sourceBytes": 2095018,
-      "sourceSha256": "85669a16f4080e01670ca56d45f2a85d82c6486d736fb8bbd71dae7efeefdcb3",
+      "records": 1058,
+      "bytes": 195669,
+      "sha256": "2858d08db220aa14796ae7a426acee0ec6a90f66108b079c6b9751b6f72f03cb",
+      "sourceBytes": 2095083,
+      "sourceSha256": "5938b9b00d15d07bfcee2e1b07eb20565a90fda7bcd9bb607299b3306231151a",
       "encoding": "gzip",
       "mediaType": "application/json",
       "role": "col-partition",
-      "minColId": "42V3W",
-      "maxColId": "4MYQZ"
+      "minColId": "42V3H",
+      "maxColId": "4MYFP"
     },
     {
       "path": "other-animals/worms-turbellaria-002.json.gz",
-      "records": 1050,
-      "bytes": 187391,
-      "sha256": "f8c61578bcbdc3aae3363b7ca55e9daab97a18a6226802d4591ecb2f201d2a6d",
-      "sourceBytes": 2094381,
-      "sourceSha256": "213d2b27ef7457c73bc353912aebc2ea556d11818ac01db422471d9635971238",
+      "records": 1055,
+      "bytes": 188015,
+      "sha256": "5cabbe31ffb1967431cd90ed045712c5fdeedaac91bba4a1459dfce6030e409f",
+      "sourceBytes": 2095612,
+      "sourceSha256": "348ef913e41972f448a97b6bb969c8a1e9acfe551a7c6df79b1f1d1f48465869",
       "encoding": "gzip",
       "mediaType": "application/json",
       "role": "col-partition",
-      "minColId": "4MYR2",
-      "maxColId": "66T48"
+      "minColId": "4MYFR",
+      "maxColId": "66SRZ"
     },
     {
       "path": "other-animals/worms-turbellaria-003.json.gz",
-      "records": 1098,
-      "bytes": 222138,
-      "sha256": "773318dbbea75f7c70066cc0928923f3657fb8460ac5086dea0f01866c877cc1",
-      "sourceBytes": 2092409,
-      "sourceSha256": "e49820378154617ba77fde6d85bb5541e5601418fe83520a16588488bd727706",
+      "records": 1091,
+      "bytes": 219355,
+      "sha256": "9572c9e5bb6b1d149d1e3b4bb99872f11a790869a101ff5e0638c6d5d5cb27e2",
+      "sourceBytes": 2095770,
+      "sourceSha256": "cbf7ec5274c9b8390ea7fcef75a703451a4cff5c78dfbf47dbdf602d52bc6455",
       "encoding": "gzip",
       "mediaType": "application/json",
       "role": "col-partition",
-      "minColId": "66T49",
-      "maxColId": "77XHK"
+      "minColId": "66SS4",
+      "maxColId": "77N83"
     },
     {
       "path": "other-animals/worms-turbellaria-004.json.gz",
-      "records": 1064,
-      "bytes": 201649,
-      "sha256": "db2abde50cc45f0c2c65ac8a83a0594823282fd4792442650f4b5301f382bd10",
-      "sourceBytes": 2094962,
-      "sourceSha256": "d01ce86a1f61ded0a6c9c9d3a196b479922f262680df291ec2d514abf5307b23",
+      "records": 1057,
+      "bytes": 202858,
+      "sha256": "b05f14a815df827075301fa4cc99a14a2bf68f418b3ebf14ff1afcf1469daec2",
+      "sourceBytes": 2095252,
+      "sourceSha256": "16fadcb24a6ed88316a2fb37cc1805fc77d00de1d047d6251f0ee348fbcf3887",
       "encoding": "gzip",
       "mediaType": "application/json",
       "role": "col-partition",
-      "minColId": "77XHL",
-      "maxColId": "CQYGH"
+      "minColId": "77N85",
+      "maxColId": "CQWND"
     },
     {
       "path": "other-animals/worms-turbellaria-005.json.gz",
-      "records": 1014,
-      "bytes": 166375,
-      "sha256": "b0c226fdb4bbb17d84e270857329f26c29ad3449df8a2c450ce0ba81490bb248",
-      "sourceBytes": 1865461,
-      "sourceSha256": "6e93c9c238cc4baaeceeb6ee2d9eadf89f5f612c8a864362d663a478e28fb81c",
+      "records": 1044,
+      "bytes": 170355,
+      "sha256": "3e28e43bbcbf5cc0873bb57ecc5a51a716eb2ebaa39e86ed2e7f2d009cfb96e5",
+      "sourceBytes": 1934965,
+      "sourceSha256": "84e87e2757f48d1f95b9ac1bd89562fddeb3b448c043435e314b7caa6034c837",
       "encoding": "gzip",
       "mediaType": "application/json",
       "role": "col-partition",
-      "minColId": "CQYGJ",
+      "minColId": "CQWZ3",
       "maxColId": "ZYHD"
     }
   ],
   "upstreamOnlyFiles": [
     {
       "path": "other-animals/worms-turbellaria-source-only-000.json.gz",
-      "records": 30,
-      "bytes": 4592,
-      "sha256": "aa01e27d19b9f284adec189948e3a5023deca18e5d1aabd45853d8a84107b394",
-      "sourceBytes": 36578,
-      "sourceSha256": "dbf6a4dd162669d5918e6155a54253b123fa6bec378ffae28c264e1a7ff0e3ed",
+      "records": 28,
+      "bytes": 3851,
+      "sha256": "63ebc46394353a4b6d41084c889f9adb0b28e776483bd1899b9e63c9cd4f6550",
+      "sourceBytes": 32936,
+      "sourceSha256": "85b7f84e2729b90574ac3545128a5ee399814fb88296e1170cde0b30f52c04c3",
       "encoding": "gzip",
       "mediaType": "application/json",
       "role": "upstream-only"
@@ -201,8 +201,8 @@
     "Name.status is nomenclatural metadata and is not used as taxonomic acceptance.",
     "Synonym.taxonID targets do not remove accepted Taxon rows."
   ],
-  "totalCompressedBytes": 1178259,
-  "totalSourceBytes": 12371904,
+  "totalCompressedBytes": 1179132,
+  "totalSourceBytes": 12443796,
   "deliveryProfiles": {
     "web-light": {
       "mode": "summary-only",
@@ -213,7 +213,7 @@
     },
     "native-full": {
       "mode": "complete",
-      "records": 6538,
+      "records": 6536,
       "files": [
         "other-animals/worms-turbellaria-000.json.gz",
         "other-animals/worms-turbellaria-001.json.gz",
@@ -223,8 +223,8 @@
         "other-animals/worms-turbellaria-005.json.gz",
         "other-animals/worms-turbellaria-source-only-000.json.gz"
       ],
-      "totalCompressedBytes": 1178259,
-      "totalSourceBytes": 12371904
+      "totalCompressedBytes": 1179132,
+      "totalSourceBytes": 12443796
     }
   }
 }

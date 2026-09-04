@@ -1,5 +1,5 @@
 """Project the pinned WoRMS Turbellaria ColDP archive into a COL-scoped sidecar."""
-import argparse, csv, hashlib, io, json, unicodedata, zipfile
+import argparse, csv, hashlib, io, json, re, unicodedata, zipfile
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -24,11 +24,13 @@ def dump(obj, pretty=False):
 
 
 def norm(value):
-    return ' '.join(unicodedata.normalize('NFC', value or '').split())
+    value = ' '.join(unicodedata.normalize('NFC', value or '').split())
+    value = re.sub(r'\s*,\s*', ', ', value)
+    return re.sub(r'\s*&\s*', ' & ', value).strip()
 
 
 def col_bare(row):
-    name, author = row.get('scientificName') or '', row.get('authorship') or ''
+    name, author = norm(row.get('scientificName')), norm(row.get('authorship'))
     suffix = ' ' + author
     return name[:-len(suffix)] if author and name.endswith(suffix) else name
 
@@ -140,7 +142,7 @@ def project(archive, output_root=None):
         refs = source_references(hits[0][1], hits[0][2], name_refs, references) if len(hits) == 1 else []
         records.append({'colId': cid, 'colScientificName': row['scientificName'], 'colAuthorship': row.get('authorship'),
                         'status': status, 'matchedName': matched, 'acceptedName': matched,
-                        'candidates': candidates, 'mappingBasis': 'Exact source scientific name plus authorship; no fuzzy fallback.',
+                        'candidates': candidates, 'mappingBasis': 'Exact normalized source scientific name plus authorship; no fuzzy fallback.',
                         'sourceRows': loc, 'references': refs})
     upstream = []
     for tid, (taxon, name, taxon_row, name_row) in sorted(source.items()):
@@ -148,7 +150,7 @@ def project(archive, output_root=None):
             continue
         upstream.append({'colId': None, 'colScientificName': None, 'colAuthorship': None, 'status': 'upstream-only',
                          'matchedName': None, 'acceptedName': source_name(name, taxon), 'candidates': [],
-                         'mappingBasis': 'Accepted source concept not linked by exact COL name+authorship; not a global new species claim.',
+                         'mappingBasis': 'Accepted source concept not linked by exact normalized COL name+authorship; not a global new species claim.',
                          'sourceRows': row_locators(taxon, name, name_refs, references, taxon_row, name_row),
                          'references': source_references(taxon, name, name_refs, references)})
     output_base = Path(output_root) if output_root else ROOT
@@ -197,7 +199,7 @@ def project(archive, output_root=None):
                   'scope': {'colRootUsageIds': list(COL_ROOTS), 'scientificName': 'Turbellaria',
                             'eligibleColSpecies': len(col), 'sourceAcceptedSpecies': len(source),
                             'excludedSourceProvisional': provisional_count},
-                  'matching': {'normalization': 'NFC and whitespace normalization only; COL trailing authorship is removed exactly.',
+                  'matching': {'normalization': 'Unicode NFC; collapse and trim Unicode whitespace; canonicalize whitespace around commas and ampersands; remove the exact normalized COL trailing authorship.',
                                'prohibited': 'No fuzzy, case-folded, accent-folded, synonym or species-concept matching.'},
                   'counts': {'total': len(records), **counts, 'upstreamOnly': len(upstream), 'records': len(all_rows)},
                   'files': col_files, 'upstreamOnlyFiles': source_files,
