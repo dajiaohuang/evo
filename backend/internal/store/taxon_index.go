@@ -3,6 +3,7 @@ package store
 import (
 	"bufio"
 	"compress/gzip"
+	"context"
 	"crypto/sha256"
 	"encoding/binary"
 	"encoding/json"
@@ -160,7 +161,7 @@ func loadTaxonIndexFromShards(s *Snapshot) (*TaxonIndex, error) {
 		sourceDatasetLookup: map[string]uint16{"": 0},
 	}
 	for _, file := range files {
-		if err := index.readShard(filepath.Join(s.Root, "data/catalogue-of-life/releases/2026-08-20/registry", filepath.FromSlash(file.Path))); err != nil {
+		if err := index.readShard(filepath.Join(s.Catalogue.RegistryRoot, filepath.FromSlash(file.Path))); err != nil {
 			return nil, err
 		}
 	}
@@ -797,6 +798,29 @@ func (t *TaxonIndex) RootRecords() []TaxonRecord {
 		result = append(result, t.record(root))
 	}
 	return result
+}
+
+// StreamJSONL writes every resident hierarchy node as one JSON object per
+// line. It keeps memory bounded to one encoded record for full-tree transfer.
+func (t *TaxonIndex) StreamJSONL(ctx context.Context, output io.Writer) error {
+	writer := bufio.NewWriterSize(output, 256<<10)
+	encoder := json.NewEncoder(writer)
+	for i := range t.nodes {
+		if i&1023 == 0 {
+			if err := ctx.Err(); err != nil {
+				return err
+			}
+		}
+		if err := encoder.Encode(t.record(uint32(i))); err != nil {
+			return err
+		}
+		if i&1023 == 1023 {
+			if err := writer.Flush(); err != nil {
+				return err
+			}
+		}
+	}
+	return writer.Flush()
 }
 
 func (t *TaxonIndex) record(index uint32) TaxonRecord {

@@ -24,6 +24,7 @@ GET /v1/entities/{id}/evidence
 GET /v1/search/names?q=perissodactyla&limit=20
 GET /v1/catalogue/taxa/{id}
 GET /v1/catalogue/taxa/{id}/children
+GET /v1/catalogue/tree.ndjson
 GET /v1/packages/{packageId}
 GET /v1/scenes?kind=stories|events
 GET /v1/maps/manifest
@@ -33,6 +34,8 @@ GET /v1/sync/files?profile=full&limit=500&cursor=...
 ```
 
 `/v1/resources` returns original bytes from `data/`, with a strong SHA-256 ETag, `Range`/`If-Range`, and immutable caching. Gzip payloads are deliberately served as bytes with `Content-Type: application/gzip`; clients decompress according to the descriptor's `encoding` field.
+
+`/v1/catalogue/tree.ndjson` streams the complete resident catalogue hierarchy as newline-delimited JSON, one compact node record per line. It is intended for full native-client or backend-to-backend transfer and does not build the complete response in memory.
 
 The full offline profile is the native client data contract. Sync is stable-path paginated, so an interrupted download resumes from `nextCursor` and each file can resume with `Range`. If `since` equals the current dataset version, the response is an empty up-to-date set.
 

@@ -71,6 +71,10 @@ func TestCapabilitiesAndCurrentRelease(t *testing.T) {
 	if roots, ok := capabilities["treeRoots"].([]any); !ok || len(roots) == 0 {
 		t.Fatalf("tree roots missing: %v", capabilities["treeRoots"])
 	}
+	features, ok := capabilities["features"].([]any)
+	if !ok || !contains(features, "catalogue-tree-stream") {
+		t.Fatalf("tree stream capability missing: %v", capabilities["features"])
+	}
 	w = request(t, h, "GET", "/v1/releases/current", nil)
 	if w.Code != 200 {
 		t.Fatalf("release status %d", w.Code)
@@ -81,6 +85,22 @@ func TestCapabilitiesAndCurrentRelease(t *testing.T) {
 	if err := json.Unmarshal(w.Body.Bytes(), &release); err != nil || release.DatasetVersion == "" {
 		t.Fatalf("dataset version missing: %s", w.Body.String())
 	}
+	if !strings.Contains(w.Body.String(), "/v1/resources/data/catalogue-of-life/releases/") {
+		t.Fatalf("catalogue manifest URL is not release-derived: %s", w.Body.String())
+	}
+	w = request(t, h, "HEAD", "/v1/catalogue/tree.ndjson", nil)
+	if w.Code != http.StatusOK || w.Header().Get("Content-Type") != "application/x-ndjson; charset=utf-8" {
+		t.Fatalf("tree stream HEAD contract: %d %q", w.Code, w.Header().Get("Content-Type"))
+	}
+}
+
+func contains(values []any, want string) bool {
+	for _, value := range values {
+		if value == want {
+			return true
+		}
+	}
+	return false
 }
 
 func TestCatalogueTreePagingContract(t *testing.T) {
