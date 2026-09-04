@@ -21,6 +21,8 @@ class TurbellariaProjectionTests(unittest.TestCase):
             descriptor = json.loads((roots[0] / 'worms-turbellaria-sidecar.json').read_text(encoding='utf8'))
             ledgers = [Path(one) / 'data/sources/worms-turbellaria-archive-1193-import-ledger.json', Path(two) / 'data/sources/worms-turbellaria-archive-1193-import-ledger.json']
             self.assertEqual(ledgers[0].read_bytes(), ledgers[1].read_bytes())
+            canonical_ledger = ROOT / 'data/sources/worms-turbellaria-archive-1193-import-ledger.json'
+            self.assertEqual(ledgers[0].read_bytes(), canonical_ledger.read_bytes())
             rows = sum((json.loads(gzip.decompress((roots[0] / p['path'].split('/')[-1]).read_bytes())) for p in descriptor['files']), [])
             source_only = sum((json.loads(gzip.decompress((roots[0] / p['path'].split('/')[-1]).read_bytes())) for p in descriptor['upstreamOnlyFiles']), [])
             self.assertEqual(len(rows), 6469)
@@ -45,18 +47,23 @@ class TurbellariaProjectionTests(unittest.TestCase):
             self.assertEqual(provisional, 37)
             projected = {r['acceptedName']['aphiaId']: r for r in rows + source_only if r['acceptedName']}
             with zipfile.ZipFile(mod.ARCHIVE) as archive:
-                names_raw = {r['ID']: r for r in csv.DictReader(io.TextIOWrapper(archive.open('Name.txt'), encoding='utf-8-sig'), delimiter='\t')}
+                name_rows = list(csv.DictReader(io.TextIOWrapper(archive.open('Name.txt'), encoding='utf-8-sig'), delimiter='\t'))
+                names_raw = {r['ID']: r for r in name_rows}
+                name_row_numbers = {r['ID']: i for i, r in enumerate(name_rows, 2)}
                 taxon_rows = {r['ID']: i for i, r in enumerate(csv.DictReader(io.TextIOWrapper(archive.open('Taxon.txt'), encoding='utf-8-sig'), delimiter='\t'), 2)}
+                references_raw = {r['ID']: r for r in csv.DictReader(io.TextIOWrapper(archive.open('Reference.txt'), encoding='utf-8-sig'), delimiter='\t')}
                 for tid, (taxon, name, _, _) in source.items():
                     self.assertIn(tid, projected)
                     self.assertEqual(projected[tid]['acceptedName']['scientificName'], name['scientificName'])
                     self.assertEqual(projected[tid]['acceptedName']['authorship'], name['authorship'])
                     self.assertEqual(projected[tid]['acceptedName']['id'], taxon['ID'])
                     self.assertEqual(names_raw[name['ID']]['scientificName'], name['scientificName'])
-                    self.assertIn({'member': 'Taxon.txt', 'row': taxon_rows[taxon['ID']]}, projected[tid]['sourceRows'])
-                    for ref in projected[tid]['references']:
+                    out = projected[tid]
+                    self.assertIn({'member': 'Taxon.txt', 'row': taxon_rows[taxon['ID']]}, out['sourceRows'])
+                    self.assertIn({'member': 'Name.txt', 'row': name_row_numbers[name['ID']]}, out['sourceRows'])
+                    for ref in out['references']:
                         if not ref['missing']:
-                            self.assertEqual(ref['reference']['ID'], ref['referenceID'])
+                            self.assertEqual(ref['reference'], references_raw[ref['referenceID']])
 
 
 if __name__ == '__main__':

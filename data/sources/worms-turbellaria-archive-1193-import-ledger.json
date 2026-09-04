@@ -12,6 +12,8 @@
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
     "rightsHolder": "WoRMS Editorial Board",
     "archiveUrl": "https://api.checklistbank.org/dataset/1193/archive",
+    "archivePath": "data/sources/archives/checklistbank-1193-turbellaria-2026-09-01.zip",
+    "metadataPath": "data/sources/archives/checklistbank-1193-turbellaria-2026-09-01.metadata.json",
     "archiveBytes": 2320899,
     "archiveSha256": "ef2402cab1d39b2569c18e415a6c9c3acdc7e197c7ab6e92158488b6863fe8ce",
     "members": {
@@ -1350,9 +1352,14 @@
   ],
   "generatedBy": {
     "script": "scripts/build-worms-turbellaria-source.py",
-    "scriptSha256": "88c8b8487de689e20c0f0cae6ba0cfcd383d842a1ef8c1b0da4992a8e23fbbf6"
+    "scriptSha256": "72d35ef7422e1b975a9459b8dde69f1dc37ff2c9d8acb7a3c05de04b43ddc272"
   },
   "outputs": {
+    "descriptor": {
+      "path": "data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals/worms-turbellaria-sidecar.json",
+      "bytes": 8331,
+      "sha256": "bed4cfba80de0e5f0b4f237eaf51cdb99ae873cd41600910cc432a7fd4d6e660"
+    },
     "files": [
       {
         "path": "other-animals/worms-turbellaria-000.json.gz",

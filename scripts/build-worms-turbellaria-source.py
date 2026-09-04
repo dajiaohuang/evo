@@ -191,6 +191,8 @@ def project(archive, output_root=None):
                              'metadataSha256': digest(metadata_bytes), 'license': 'CC-BY-4.0',
                              'licenseUrl': 'https://creativecommons.org/licenses/by/4.0/',
                              'rightsHolder': 'WoRMS Editorial Board', 'archiveUrl': 'https://api.checklistbank.org/dataset/1193/archive',
+                             'archivePath': 'data/sources/archives/checklistbank-1193-turbellaria-2026-09-01.zip',
+                             'metadataPath': 'data/sources/archives/checklistbank-1193-turbellaria-2026-09-01.metadata.json',
                              'archiveBytes': len(raw), 'archiveSha256': digest(raw), 'members': members},
                   'scope': {'colRootUsageIds': list(COL_ROOTS), 'scientificName': 'Turbellaria',
                             'eligibleColSpecies': len(col), 'sourceAcceptedSpecies': len(source),
@@ -210,11 +212,13 @@ def project(archive, output_root=None):
                                                        'files': [x['path'] for x in col_files + source_files],
                                                        'totalCompressedBytes': sum(x['bytes'] for x in col_files + source_files),
                                                        'totalSourceBytes': sum(x['sourceBytes'] for x in col_files + source_files)}}}
-    descriptor_path = destination / 'worms-turbellaria-sidecar.json'; descriptor_path.write_bytes(dump(descriptor, True))
+    descriptor_path = destination / 'worms-turbellaria-sidecar.json'
+    descriptor_bytes = dump(descriptor, True); descriptor_path.write_bytes(descriptor_bytes)
     ledger = {'schemaVersion': 1, 'importType': 'COL26.8-to-WoRMS-1193-archive-projection',
               'source': descriptor['source'], 'registryManifestSha256': col_sha, 'registryInputs': col_inputs,
               'generatedBy': {'script': 'scripts/build-worms-turbellaria-source.py', 'scriptSha256': digest(Path(__file__).read_bytes())},
-              'outputs': {'files': descriptor['files'], 'upstreamOnlyFiles': descriptor['upstreamOnlyFiles']},
+              'outputs': {'descriptor': {'path': 'data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals/worms-turbellaria-sidecar.json', 'bytes': len(descriptor_bytes), 'sha256': digest(descriptor_bytes)},
+                          'files': descriptor['files'], 'upstreamOnlyFiles': descriptor['upstreamOnlyFiles']},
               'scopeAudit': {'colRootUsageIds': list(COL_ROOTS), 'colSpecies': len(col), 'sourceAcceptedSpecies': len(source),
                              'sourceProvisionalExcluded': provisional_count, 'upstreamOnly': len(upstream), 'parsedSynonymRows': synonym_count,
                              'memberDigests': members}}
