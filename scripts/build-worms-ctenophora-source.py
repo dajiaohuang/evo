@@ -98,6 +98,8 @@ def row_locators(taxon, name, refs, references, taxon_row, name_row):
         loc.append({'member': 'NameReference.txt', 'row': ref_row})
         if ref.get('referenceID') in references:
             loc.append({'member': 'Reference.txt', 'row': references[ref['referenceID']][1]})
+    if name.get('referenceID') in references:
+        loc.append({'member': 'Reference.txt', 'row': references[name['referenceID']][1]})
     if taxon.get('referenceID') in references:
         loc.append({'member': 'Reference.txt', 'row': references[taxon['referenceID']][1]})
     return loc
@@ -194,7 +196,7 @@ def project(archive, output_root=None):
                              'versionDoi': metadata['versionDoi'], 'metadataBytes': len(metadata_bytes),
                              'metadataSha256': digest(metadata_bytes), 'license': 'CC-BY-4.0',
                              'licenseUrl': 'https://creativecommons.org/licenses/by/4.0/',
-                             'rightsHolder': 'WoRMS Editorial Board', 'archiveUrl': 'https://api.checklistbank.org/dataset/1180/archive',
+                             'archiveUrl': 'https://api.checklistbank.org/dataset/1180/archive',
                              'archivePath': 'data/sources/archives/checklistbank-1180-ctenophora-2026-09-01.zip',
                              'metadataPath': 'data/sources/archives/checklistbank-1180-ctenophora-2026-09-01.metadata.json',
                              'archiveBytes': len(raw), 'archiveSha256': digest(raw), 'members': members},
