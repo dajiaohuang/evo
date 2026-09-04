@@ -39,3 +39,26 @@ test('real Chilopoda species exposes the collapsed dual-root ITIS summary', asyn
   await expect(details).not.toContainText('This COL ID was not found')
   expect(requests).toHaveLength(0)
 })
+
+for (const [scope, id, total] of [
+  ['Chondrichthyes', '3247M', '1,359'],
+  ['Chelicerata', '3235D', '99,511'],
+] as const) {
+  test(`Web ${scope} disclosure stays summary-only for a real species`, async ({ page }) => {
+    const requests: string[] = []
+    page.on('request', (request) => {
+      if (request.url().includes('itis-') && request.url().endsWith('.jsonl.gz')) requests.push(request.url())
+    })
+    await page.goto(`./#/registry?release=COL26.8&id=${id}`)
+    const details = page.locator('.catalogue-authority-disclosure').filter({ hasText: `ITIS ${scope} exact nomenclatural mapping` })
+    await expect(details.locator('summary')).toBeVisible()
+    await expect(details).not.toHaveAttribute('open')
+    expect(requests).toHaveLength(0)
+    await details.locator('summary').click()
+    await expect(details).toContainText('COL records in scope')
+    await expect(details).toContainText(total)
+    await expect(details).toContainText('Web provides the summary only')
+    await expect(details).not.toContainText('This COL ID was not found')
+    expect(requests).toHaveLength(0)
+  })
+}

@@ -1,9 +1,14 @@
 import { useEffect, useRef, useState } from 'react'
 import { loadPackageItisAuthorityRecord, loadPackageManifest } from '../../data-client/staticDataClient'
-import type { RuntimeItisNomenclatureCollection, ItisNomenclatureRecord } from '../../data-client/types'
+import type { RuntimeItisNomenclatureCollection, ItisNomenclatureRecord, RuntimeItisPackageScope } from '../../data-client/types'
 
-const COLLECTION_ID = 'itis-myriapoda-tsn-crosswalk' as const
-const COL_ROOTS = new Set(['L2G4H', '93'])
+type PackageItisScope = Extract<RuntimeItisPackageScope, 'myriapoda' | 'chondrichthyes' | 'chelicerata'>
+type PackageItisEvidenceProps = { colId: string; packageId: string; lineageIds: string[]; zh: boolean; scope: PackageItisScope }
+const scopeConfig: Record<PackageItisScope, { packageId: string; collectionId: RuntimeItisNomenclatureCollection['id']; roots: Set<string>; excludedRoots: Set<string>; title: { en: string; zh: string } }> = {
+  myriapoda: { packageId: 'crustaceans-insects', collectionId: 'itis-myriapoda-tsn-crosswalk', roots: new Set(['L2G4H', '93']), excludedRoots: new Set(['L25JL']), title: { en: 'ITIS Myriapoda exact nomenclatural mapping', zh: 'ITIS 多足动物精确命名对应' } },
+  chondrichthyes: { packageId: 'chondrichthyes', collectionId: 'itis-chondrichthyes-tsn-crosswalk', roots: new Set(['8X6G5']), excludedRoots: new Set(), title: { en: 'ITIS Chondrichthyes exact nomenclatural mapping', zh: 'ITIS 软骨鱼类精确命名对应' } },
+  chelicerata: { packageId: 'trilobites-chelicerates', collectionId: 'itis-chelicerata-tsn-crosswalk', roots: new Set(['KZWYC']), excludedRoots: new Set(['TRL']), title: { en: 'ITIS Chelicerata exact nomenclatural mapping', zh: 'ITIS 螯肢类精确命名对应' } },
+}
 
 function itisUrl(tsn: string) {
   return `https://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=${encodeURIComponent(tsn)}`
@@ -43,9 +48,7 @@ function RecordDetail({ record, zh }: { record: ItisNomenclatureRecord | null; z
   </>
 }
 
-type MyriapodaItisEvidenceProps = { colId: string; packageId: string; lineageIds: string[]; zh: boolean }
-
-function MyriapodaItisEvidencePanel({ colId, packageId, zh }: MyriapodaItisEvidenceProps) {
+function PackageItisEvidencePanel({ colId, packageId, zh, scope }: PackageItisEvidenceProps) {
   const [expanded, setExpanded] = useState(false)
   const [loading, setLoading] = useState(false)
   const [failed, setFailed] = useState(false)
@@ -67,11 +70,11 @@ function MyriapodaItisEvidencePanel({ colId, packageId, zh }: MyriapodaItisEvide
     try {
       const manifest = await loadPackageManifest(packageId)
       if (requestId !== requestRef.current) return
-      const metadata = manifest.nomenclatureCollections?.find((candidate): candidate is RuntimeItisNomenclatureCollection => candidate.id === COLLECTION_ID)
-      if (!metadata) throw new Error('Runtime package does not publish the Myriapoda collection')
+      const metadata = manifest.nomenclatureCollections?.find((candidate): candidate is RuntimeItisNomenclatureCollection => candidate.id === scopeConfig[scope].collectionId)
+      if (!metadata) throw new Error(`Runtime package does not publish ${scopeConfig[scope].collectionId}`)
       setCollection(metadata)
       if (metadata.delivery.completeRows && metadata.delivery.profile === 'native-full') {
-        const result = await loadPackageItisAuthorityRecord('myriapoda', colId)
+        const result = await loadPackageItisAuthorityRecord(scope, colId)
         if (requestId !== requestRef.current) return
         setRecord(result.record)
       }
@@ -96,7 +99,7 @@ function MyriapodaItisEvidencePanel({ colId, packageId, zh }: MyriapodaItisEvide
     }
     if (open && !loading && (failed || !collection || !rowReady)) void load()
   }}>
-    <summary>{zh ? 'ITIS 多足动物精确命名对应' : 'ITIS Myriapoda exact nomenclatural mapping'}</summary>
+    <summary>{zh ? scopeConfig[scope].title.zh : scopeConfig[scope].title.en}</summary>
     {expanded && <div className="catalogue-source-card">
       {loading && <p role="status">{zh ? '正在读取固定 ITIS 摘要…' : 'Loading the pinned ITIS summary…'}</p>}
       {failed && <p role="alert">{zh ? 'ITIS 对应读取失败；请收起后重新打开重试。' : 'The ITIS mapping could not be loaded; close and reopen to retry.'}</p>}
@@ -117,9 +120,14 @@ function MyriapodaItisEvidencePanel({ colId, packageId, zh }: MyriapodaItisEvide
   </details>
 }
 
-export function MyriapodaItisEvidence({ colId, packageId, lineageIds, zh }: MyriapodaItisEvidenceProps) {
-  const applicable = packageId === 'crustaceans-insects' && lineageIds.some((id) => COL_ROOTS.has(id)) && !lineageIds.includes('L25JL')
+export function PackageItisEvidence({ colId, packageId, lineageIds, zh, scope }: PackageItisEvidenceProps) {
+  const config = scopeConfig[scope]
+  const applicable = packageId === config.packageId && lineageIds.some((id) => config.roots.has(id)) && !lineageIds.some((id) => config.excludedRoots.has(id))
   if (!applicable) return null
-  const identity = `${colId}|${packageId}|${lineageIds.join('|')}`
-  return <MyriapodaItisEvidencePanel key={identity} colId={colId} packageId={packageId} lineageIds={lineageIds} zh={zh} />
+  const identity = `${scope}|${colId}|${packageId}|${lineageIds.join('|')}`
+  return <PackageItisEvidencePanel key={identity} colId={colId} packageId={packageId} lineageIds={lineageIds} zh={zh} scope={scope} />
+}
+
+export function MyriapodaItisEvidence({ colId, packageId, lineageIds, zh }: Omit<PackageItisEvidenceProps, 'scope'>) {
+  return <PackageItisEvidence colId={colId} packageId={packageId} lineageIds={lineageIds} zh={zh} scope="myriapoda" />
 }

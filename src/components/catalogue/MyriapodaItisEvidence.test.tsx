@@ -1,6 +1,6 @@
 import { act, fireEvent, render, screen } from '@testing-library/react'
 import { afterEach, describe, expect, it, vi } from 'vitest'
-import { MyriapodaItisEvidence } from './MyriapodaItisEvidence'
+import { MyriapodaItisEvidence, PackageItisEvidence } from './MyriapodaItisEvidence'
 import { loadPackageItisAuthorityRecord, loadPackageManifest } from '../../data-client/staticDataClient'
 import type { RuntimeItisNomenclatureCollection } from '../../data-client/types'
 
@@ -175,5 +175,39 @@ describe('Myriapoda ITIS evidence disclosure', () => {
     expect(render(<MyriapodaItisEvidence colId="X" packageId="other-animals" lineageIds={['93']} zh />).container.querySelector('details')).toBeNull()
     expect(render(<MyriapodaItisEvidence colId="X" packageId="crustaceans-insects" lineageIds={['H6']} zh />).container.querySelector('details')).toBeNull()
     expect(render(<MyriapodaItisEvidence colId="P55BK" packageId="crustaceans-insects" lineageIds={['L2G4H', 'L25JL']} zh />).container.querySelector('details')).toBeNull()
+  })
+
+  it('routes the Chondrichthyes root to its own ITIS collection', async () => {
+    const chondrichthyes = { ...collection, id: 'itis-chondrichthyes-tsn-crosswalk' as const, packageId: 'chondrichthyes', delivery: { ...collection.delivery, profile: 'native-full' as const, completeRows: true } }
+    loadMetadata.mockResolvedValue(manifestFor(chondrichthyes))
+    loadRecord.mockResolvedValue({ collection: chondrichthyes, record: { status: 'accepted', colUsageId: '3247M', colScientificName: 'Ctenacis fehlmanni (Springer, 1968)', exactMatchName: 'Ctenacis fehlmanni', currentName: { tsn: '160559', scientificName: 'Ctenacis fehlmanni', usage: 'valid' } } })
+    const { container } = render(<PackageItisEvidence scope="chondrichthyes" colId="3247M" packageId="chondrichthyes" lineageIds={['8X6G5']} zh={false} />)
+    openDetails(container)
+    await screen.findByText('Exact accepted-name match')
+    expect(loadMetadata).toHaveBeenCalledWith('chondrichthyes')
+    expect(loadRecord).toHaveBeenCalledWith('chondrichthyes', '3247M')
+    expect(screen.getByRole('link', { name: /Ctenacis fehlmanni \(160559\)/ })).toBeVisible()
+  })
+
+  it('keeps Chondrichthyes Web mode metadata-only', async () => {
+    const chondrichthyes = { ...collection, id: 'itis-chondrichthyes-tsn-crosswalk' as const, packageId: 'chondrichthyes' }
+    loadMetadata.mockResolvedValue(manifestFor(chondrichthyes))
+    const { container } = render(<PackageItisEvidence scope="chondrichthyes" colId="3247M" packageId="chondrichthyes" lineageIds={['8X6G5']} zh={false} />)
+    openDetails(container)
+    await screen.findByText('ITIS Chondrichthyes exact nomenclatural mapping')
+    expect(loadRecord).not.toHaveBeenCalled()
+  })
+
+  it('routes Chelicerata and excludes the TRL Trilobita root', async () => {
+    const chelicerata = { ...collection, id: 'itis-chelicerata-tsn-crosswalk' as const, packageId: 'trilobites-chelicerates', delivery: { ...collection.delivery, profile: 'native-full' as const, completeRows: true } }
+    loadMetadata.mockResolvedValue(manifestFor(chelicerata))
+    loadRecord.mockResolvedValue({ collection: chelicerata, record: { status: 'accepted', colUsageId: '3235D', colScientificName: 'Cryptothele alluaudi Simon, 1893', exactMatchName: 'Cryptothele alluaudi', currentName: { tsn: '877405', scientificName: 'Cryptothele alluaudi', usage: 'valid' } } })
+    const included = render(<PackageItisEvidence scope="chelicerata" colId="3235D" packageId="trilobites-chelicerates" lineageIds={['KZWYC']} zh={false} />)
+    openDetails(included.container)
+    await screen.findByText('Exact accepted-name match')
+    expect(loadMetadata).toHaveBeenCalledWith('trilobites-chelicerates')
+    expect(loadRecord).toHaveBeenCalledWith('chelicerata', '3235D')
+    expect(screen.getByRole('link', { name: /Cryptothele alluaudi \(877405\)/ })).toBeVisible()
+    expect(render(<PackageItisEvidence scope="chelicerata" colId="TRL" packageId="trilobites-chelicerates" lineageIds={['KZWYC', 'TRL']} zh={false} />).container.querySelector('details')).toBeNull()
   })
 })

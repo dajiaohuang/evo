@@ -1,5 +1,12 @@
 # Dataset changelog
 
+## App 0.20.62 / 2026.09-static-v5-rc111 — 2026-09-04
+
+- Added default-collapsed ITIS source details for Chondrichthyes and Chelicerata, reusing the existing Myriapoda disclosure. Exact lineage and package scopes retain the Trilobita and Euthycarcinoidea exclusions. Pages loads summaries only; native lookups load one matching COL-ID shard.
+- Fixed the Oomycota ITIS reader's stale 1,426-row contract to match the existing four-order projection: 1,494 COL outcomes and 42 separate source-only records. The underlying source data are unchanged.
+- Investigated the planned 1,673-species Species Fungorum Oomycota projection. Available frozen archives lack the necessary source closure; two live API samples resolve names but do not establish a complete redistributable snapshot. No withheld-only placeholder projection or additional source coverage is claimed. See [source findings and remaining gap](../docs/sources/species-fungorum-live-api-oomycota-gap.md).
+- Android and iOS build `65` retain all existing full-native data. This batch changes source access and documents a data gap, not the strict COL baseline, biological dossiers, fossil coverage or human-review status.
+
 ## App 0.20.61 / 2026.09-static-v5-rc110 — 2026-09-04
 
 - Fixed the ITIS Myriapoda comparison boundary: COL places Chilopoda at a separate `93` root rather than under `L2G4H`. All 3,141 previously omitted COL records now have explicit outcomes: 2,864 accepted matches, 58 official synonym redirects, 15 ambiguous and 204 unmatched. The original 14,210 records remain unchanged.
