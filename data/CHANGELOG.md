@@ -1,5 +1,11 @@
 # Dataset changelog
 
+## 2026.09-static-v5-rc122 — 2026-09-05
+
+- Added frozen original-source projections for the 4,403 Oligochaeta and 14,430 Polychaeta COL26.8 rows in their exact source-owned boundaries: 18,655 exact accepted-name matches and 178 unmatched rows. A further 393 source-owned accepted concepts are retained separately without asserting COL identity or globally new species.
+- Full-data delivery includes all 19,226 rows in 26 deterministic gzip files (5,512,535 bytes; 49,071,718 uncompressed bytes), each below the current 2 MiB uncompressed shard boundary. Pages keeps summaries, source metadata and hashes without row payloads; Android and iOS inventories include every file.
+- Preserved the official 2026-09-01 archives, citations, editor/contributor metadata, all original archive-member hashes, source fields, references and row locators. Isolated rebuilds reproduce canonical bytes. The 2,183,133-species COL baseline, app version and native build number remain unchanged. No compatibility layer or new content-validation framework was added. See [source scope and reproduction](../docs/original-sources-rc122.md).
+
 ## 2026.09-static-v5-rc121 — 2026-09-05
 
 - Added frozen original-source projections for all 78 Thaliacea and 68 Appendicularia COL26.8 records in their exact source-owned boundaries. All 146 rows match non-provisional accepted source names exactly; no ambiguous, redirected, unmatched, withheld or source-only row is asserted.

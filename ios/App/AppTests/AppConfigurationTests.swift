@@ -546,7 +546,7 @@ final class AppConfigurationTests: XCTestCase {
                 XCTAssertEqual(itisRecords, 158_805)
             } else if packageId == "other-animals" {
                 let extensions = try XCTUnwrap(pack["extensions"] as? [[String: Any]])
-                XCTAssertEqual(extensions.count, 44)
+                XCTAssertEqual(extensions.count, 46)
                 try verifyAuthorityArchiveCollection(
                     collection: try XCTUnwrap(extensions.first { ($0["id"] as? String) == "worms-kinorhyncha-archive-crosswalk" }),
                     inventory: files, below: dataRoot, expectedFiles: 1, expectedUpstreamFiles: 0,
@@ -567,6 +567,15 @@ final class AppConfigurationTests: XCTestCase {
                     collection: try XCTUnwrap(extensions.first { ($0["id"] as? String) == "worms-appendicularia-archive-crosswalk" }),
                     inventory: files, below: dataRoot, expectedFiles: 1, expectedUpstreamFiles: 0,
                     expectedRecords: 68, expectedUpstreamRecords: 0, label: "Appendicularia")
+                try verifyAuthorityArchiveCollection(
+                    collection: try XCTUnwrap(extensions.first { ($0["id"] as? String) == "worms-oligochaeta-archive-crosswalk" }),
+                    inventory: files, below: dataRoot, expectedFiles: 6, expectedUpstreamFiles: 1,
+                    expectedRecords: 4_403, expectedUpstreamRecords: 214, label: "Oligochaeta")
+                try verifyAuthorityArchiveCollection(
+                    collection: try XCTUnwrap(extensions.first { ($0["id"] as? String) == "worms-polychaeta-archive-crosswalk" }),
+                    inventory: files, below: dataRoot, expectedFiles: 18, expectedUpstreamFiles: 1,
+                    expectedRecords: 14_430, expectedUpstreamRecords: 179,
+                    expectedLicense: "cc by", label: "Polychaeta")
                 try verifyAuthorityArchiveCollection(
                     collection: try XCTUnwrap(extensions.first { ($0["id"] as? String) == "worms-cestoda-archive-crosswalk" }),
                     inventory: files, below: dataRoot, expectedFiles: 4, expectedUpstreamFiles: 1,

@@ -1,5 +1,16 @@
 # Data licenses and provenance
 
+RC122 retains the official ChecklistBank archives and metadata for *World List
+of Marine Oligochaeta* (1099, version DOI `10.48580/d3bx.v85`) and *World
+Polychaeta Database* (1090, version DOI `10.48580/d3bm.v87`), both issued
+2026-09-01. Both source metadata records use the controlled licence value
+`cc by`; the 1099 projection also records its normalized CC BY 4.0 URL. The
+committed metadata preserves the providers' actual
+citations, editors and contributors, and the archives preserve their original
+tables. Referenced publications, linked pages and remote media are not
+redistributed. Derived rows retain separate COL26.8 attribution. See
+[scope, boundaries and reproduction](docs/original-sources-rc122.md).
+
 RC121 retains the official ChecklistBank archives and metadata for *World List
 of Thaliacea* (1185, version DOI `10.48580/d3fw.v87`) and *World List of
 Appendicularia* (1178, version DOI `10.48580/d3fn.v89`), both issued

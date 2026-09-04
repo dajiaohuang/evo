@@ -350,7 +350,7 @@ const expectedOtherAnimalAuthorities = {
   'itis-nematoda-tsn-crosswalk': { files: 4, records: 20849 },
   'itis-annelida-tsn-crosswalk': { files: 4, records: 24074 },
 }
-if (otherAnimalsManifest.extensions?.length !== Object.keys(expectedOtherAnimalAuthorities).length + 16) {
+if (otherAnimalsManifest.extensions?.length !== Object.keys(expectedOtherAnimalAuthorities).length + 18) {
   throw new Error('Mobile build must stage every declared other-animals ITIS and WoRMS authority collection')
 }
 const annelidaArchive = otherAnimalsManifest.extensions.find((extension) => extension.id === 'worms-annelida-archive-crosswalk')
@@ -385,6 +385,24 @@ for (const [id, records, label] of [
     || archive.counts?.total !== records || archive.counts?.accepted !== records || archive.counts?.upstreamOnly !== 0
     || archive.delivery?.publishedFileCount !== 1 || archive.delivery?.canonicalFileCount !== 1
     || files.reduce((sum, file) => sum + file.records, 0) !== records
+    || files.some((file) => !releaseFiles.files.some((entry) => entry.url === file.url && entry.bytes === file.bytes && entry.sha256 === file.sha256))) {
+    throw new Error(`Mobile build must stage the complete ${label} archive projection`)
+  }
+}
+for (const [id, total, accepted, unmatched, upstreamOnly, fileCount, upstreamFileCount, license, label] of [
+  ['worms-oligochaeta-archive-crosswalk', 4403, 4350, 53, 214, 6, 1, 'CC-BY-4.0', 'Oligochaeta'],
+  ['worms-polychaeta-archive-crosswalk', 14430, 14305, 125, 179, 18, 1, 'cc by', 'Polychaeta'],
+]) {
+  const archive = otherAnimalsManifest.extensions.find((extension) => extension.id === id)
+  const files = [...(archive?.files ?? []), ...(archive?.upstreamOnlyFiles ?? [])]
+  if (!archive || archive.source?.license !== license
+    || archive.delivery?.profile !== 'native-full' || archive.delivery?.completeRows !== true
+    || archive.files?.length !== fileCount || archive.upstreamOnlyFiles?.length !== upstreamFileCount
+    || archive.counts?.total !== total || archive.counts?.accepted !== accepted
+    || archive.counts?.unmatched !== unmatched || archive.counts?.upstreamOnly !== upstreamOnly
+    || archive.delivery?.publishedFileCount !== fileCount + upstreamFileCount
+    || archive.delivery?.canonicalFileCount !== fileCount + upstreamFileCount
+    || files.reduce((sum, file) => sum + file.records, 0) !== total + upstreamOnly
     || files.some((file) => !releaseFiles.files.some((entry) => entry.url === file.url && entry.bytes === file.bytes && entry.sha256 === file.sha256))) {
     throw new Error(`Mobile build must stage the complete ${label} archive projection`)
   }
