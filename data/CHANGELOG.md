@@ -1,5 +1,13 @@
 # Dataset changelog
 
+## 2026.09-static-v5-rc115 — 2026-09-04
+
+- Added frozen original-source projections for 8,505 CilCat, 1,337 Eumycetozoa and 259 Gymnodinium COL26.8 species records. Strict name/authorship outcomes are 8,477/1,330/258 accepted matches and 28/7/1 unmatched names respectively. These contributor archives trace COL's sources; they are not independent scientific corroboration, new species dossiers or expert review.
+- Retained all 55 unlinked accepted CilCat source rows separately, including 28 that are candidates of unresolved COL names. One unlinked Gymnodinium source spelling likewise remains separate. These counts are scoped unlinked source records, not globally unique additions to COL's 2,183,133 accepted species. The Eumycetozoa ledger discloses 15 unlinked source rows without claiming new species; 81 provisional CilCat rows remain excluded.
+- Kept original reference IDs, source-table locators, empty fields and explicit missing bibliography records. Each importer uses its actual frozen archive and supports offline, byte-identical regeneration; the Eumycetozoa archive is correctly identified as ZIP rather than tar/gzip.
+- Reused existing extension manifests for summary-only light delivery and complete full-data inventories. App version and native build numbers remain unchanged: frontend/backend infrastructure work uses independently verified data baselines, with milestone integration rather than compulsory synchronization for every content batch. No new validation system was added.
+- Source details: [CilCat](../docs/cilcat-1113-archive.md), [Eumycetozoa](../docs/eumycetozoa-archive.md), [Gymnodinium](../docs/gymnodinium-archive.md).
+
 ## App 0.20.65 / 2026.09-static-v5-rc114 — 2026-09-04
 
 - Replayed the Haptophyta importer against the pinned ITIS 2026-08-26 SQLite and current repository inputs. Descriptor and import-ledger provenance now use resolvable repository-relative paths and the actual ownership input digest, replacing references to a retired local worktree.

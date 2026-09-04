@@ -1,0 +1,149 @@
+{
+  "schemaVersion": 1,
+  "recordType": "release-pinned-authority-archive-crosswalk",
+  "id": "gymnodinium-archive-crosswalk",
+  "packageId": "protists-chromists",
+  "provider": "Gymnodinium checklist via Catalogue of Life ChecklistBank",
+  "rowEncoding": "jsonl",
+  "colIdField": "colId",
+  "totalCountField": "total",
+  "source": {
+    "provider": "The dinoflagellate genus Gymnodinium checklist via Catalogue of Life ChecklistBank",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "archiveUrl": "https://api.checklistbank.org/dataset/1177/archive",
+    "archiveBytes": 19661,
+    "archiveSha256": "7bfcccdfd515b7e5024718bb8c407e5521f727b166fe5a191006658715dbd8d7",
+    "archiveEncoding": "gzip-compressed tar (HTTP Content-Type application/zip)",
+    "version": "0.1",
+    "versionDate": "2017-06-12",
+    "sourceDatabase": {
+      "DatabaseFullName": "The dinoflagellate genus Gymnodinium checklist",
+      "DatabaseName": "Gymnodinium",
+      "DatabaseVersion": "0.1",
+      "ReleaseDate": "2017-06-12",
+      "AuthorsEditors": "Thessen A.",
+      "TaxonomicCoverage": "Chromista - Miozoa - Dinophyceae - Gymnodiniales",
+      "GroupNameInEnglish": "",
+      "Abstract": "This dynamic, working classification of the genus Gymnodinium contains all Gymnodinium names and organizes them into proper reconciliation groups. It was created for the purpose of automated names reconciliation by the Global Names Project. The classification originated in http://dx.doi.org/10.1371/journal.pone.0044015 and has been improved since publication. The current data set can be found at https://github.com/diatomsRcool/gymnodiniales. The data set itself can be cited as 10.5281/zenodo.437529",
+      "Organization": "Individual custodian",
+      "HomeURL": "https://github.com/diatomsRcool/gymnodiniales",
+      "Coverage": "Global",
+      "Completeness": "100",
+      "Confidence": "5",
+      "LogoFileName": "",
+      "ContactPerson": ""
+    },
+    "retrievedAt": "2026-09-04",
+    "members": {
+      "AcceptedSpecies.tsv": {
+        "bytes": 51044,
+        "sha256": "88eb1bae8845358f4193a1d33c2a7811957db37446f031dc9d078843525143bd"
+      },
+      "NameReferences.tsv": {
+        "bytes": 8069,
+        "sha256": "8af2a7ee2162e10a773e7124d7f1f4fc25ac7786f83835a8cb6795e07ada5ee1"
+      },
+      "References.tsv": {
+        "bytes": 16590,
+        "sha256": "0b077a3f09dd1d1443264681e9e2494c0d7b720b946f230e6c022d6fff029a48"
+      },
+      "SourceDatabase.tsv": {
+        "bytes": 981,
+        "sha256": "a5681703fce24dadfab429cc436c0fcab8ec224587a4e3acc0bdc692695587fc"
+      }
+    }
+  },
+  "scope": {
+    "packageId": "protists-chromists",
+    "colSourceDatasetId": "1177",
+    "colRootUsageId": "4RTJ",
+    "colRootScientificName": "Gymnodinium",
+    "colRootRank": "genus",
+    "sourceKingdom": "Chromista",
+    "sourcePhylum": "Miozoa",
+    "sourceClass": "Dinophyceae",
+    "sourceOrder": "Gymnodiniales",
+    "sourceGenus": "Gymnodinium",
+    "colStrictAcceptedSpecies": 259,
+    "eligibleColSpecies": 259,
+    "projectedSpecies": 259,
+    "matchingKey": "exact source scientific name + authorship",
+    "boundary": "Only strict accepted COL26.8 species descending from exact Gymnodinium genus 4RTJ and source dataset 1177 are included; no Dinophyceae siblings are inferred."
+  },
+  "matching": {
+    "normalization": "UTF-8 quoted TSV; surrounding whitespace is trimmed for name+authorship comparison only.",
+    "prohibited": "No fuzzy, punctuation, edit-distance, phonetic, epithet-substitution, taxon-substitution or missing-authorship matching.",
+    "unmatchedReason": "COL p-dorhnii and source p.dorhni remain unmatched because the source spelling differs."
+  },
+  "counts": {
+    "total": 259,
+    "accepted": 258,
+    "redirect": 0,
+    "ambiguous": 0,
+    "unmatched": 1,
+    "withheld": 0,
+    "upstreamOnly": 1,
+    "records": 260
+  },
+  "files": [
+    {
+      "path": "protists-chromists/gymnodinium-sidecar-000.json.gz",
+      "records": 259,
+      "bytes": 33971,
+      "sha256": "9b01b603451753d7d19e5b4bdd08979d7700235502af44dc007b054678d0e292",
+      "sourceBytes": 437542,
+      "sourceSha256": "34dd38b1ee40e4027bbac9180967556aefe7a57325c604096d9cd11b60331f19",
+      "minColId": "3HRNL",
+      "maxColId": "CN83B",
+      "encoding": "gzip",
+      "mediaType": "application/x-ndjson",
+      "role": "col-partition"
+    }
+  ],
+  "upstreamOnlyFiles": [
+    {
+      "path": "protists-chromists/gymnodinium-sidecar-upstream-only-000.json.gz",
+      "records": 1,
+      "bytes": 738,
+      "sha256": "bf15b243a974fa0b733f631c983980e4fcf38e06a6ef31bf4ea978086404ff96",
+      "sourceBytes": 1504,
+      "sourceSha256": "cf1c6d630027543f84ed4c25e0733db60a92ab7253659c3774222edf1ca457b2",
+      "minColId": null,
+      "maxColId": null,
+      "encoding": "gzip",
+      "mediaType": "application/x-ndjson",
+      "role": "upstream-only",
+      "colOwnership": null
+    }
+  ],
+  "evidenceBoundary": {
+    "en": "Frozen source provenance and exact nomenclatural linkage only; this is not independent scientific corroboration, species-concept equivalence, an ecological or biological dossier, fossil evidence or expert review.",
+    "zh": "冻结的来源追溯与严格命名关联；不是独立科学佐证、物种概念等同、生态或生物档案、化石证据或专家审查。"
+  },
+  "limitations": [
+    "One source accepted row (T284, Gymnodinium p.dorhni) remains source-only because its spelling does not exactly match COL Gymnodinium p-dorhnii.",
+    "The source archive's IsExtinct, HasModern and HasPreHolocene fields are preserved source fields, not an Evo Atlas extant-status review."
+  ],
+  "totalCompressedBytes": 34709,
+  "totalSourceBytes": 439046,
+  "deliveryProfiles": {
+    "web-light": {
+      "payload": "summary-only",
+      "files": [],
+      "records": 0,
+      "totalCompressedBytes": 0,
+      "totalSourceBytes": 0
+    },
+    "native-full": {
+      "payload": "complete",
+      "files": [
+        "protists-chromists/gymnodinium-sidecar-000.json.gz",
+        "protists-chromists/gymnodinium-sidecar-upstream-only-000.json.gz"
+      ],
+      "records": 260,
+      "totalCompressedBytes": 34709,
+      "totalSourceBytes": 439046
+    }
+  }
+}

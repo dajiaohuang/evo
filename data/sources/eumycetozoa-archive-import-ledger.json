@@ -1,0 +1,91 @@
+{
+  "schemaVersion": 1,
+  "importType": "COL26.8-to-ChecklistBank-1053-source-archive",
+  "source": {
+    "provider": "Eumycetozoa database",
+    "license": "CC-BY-4.0",
+    "archiveUrl": "https://api.checklistbank.org/dataset/1053/archive",
+    "archiveBytes": 131700,
+    "archiveSha256": "2d8a55a43d7273bfabaa19c16942c9258b7ca00c17319fead95c562af40f24b1",
+    "version": "May 2024",
+    "sourceLedgerPath": "data/sources/eumycetozoa-archive-import-ledger.json",
+    "sourceDatasetId": 1053,
+    "versionDoi": "10.48580/d39c.v28",
+    "retrievedAt": "2026-09-04",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "archiveEncoding": "zip",
+    "canonicalArchivePath": "data/sources/archives/checklistbank-1053-eumycetozoa-2024-05.zip",
+    "members": {
+      "AcceptedSpecies.tsv": {
+        "bytes": 332753,
+        "sha256": "0c50954835e28ad8f48f292c83595541509a765e8d9ce844a6799394c454b692"
+      },
+      "NameReferencesLinks.tsv": {
+        "bytes": 130977,
+        "sha256": "3d60f0a453d973dc0eb749f4417411a4a6e7f3a23432602c6ccfbb3999def82f"
+      },
+      "References.tsv": {
+        "bytes": 185452,
+        "sha256": "640c559bae9a67ce5ea573bd8d743a987233ce65a0fa9208957b61887b3b244b"
+      }
+    }
+  },
+  "inputs": [
+    {
+      "path": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/species-000.jsonl.gz",
+      "bytes": 666110,
+      "sha256": "02aef7f0f72b0ae5a05f04b0f46ccc4ee0a45993bab4ddd84414188cc878f015"
+    },
+    {
+      "path": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/species-001.jsonl.gz",
+      "bytes": 564427,
+      "sha256": "6efd0ffb445696b1054673c532ad732157a5f1772c6e4b427e625d5b095a0c69"
+    }
+  ],
+  "scopeAudit": {
+    "method": "Exact name+authorship match restricted to COL sourceDatasetId 1053",
+    "archiveAcceptedSpeciesRows": 1345,
+    "colEligibleSpecies": 1337,
+    "matchedUniqueSourceAcceptedTaxonIds": 1330,
+    "sourceReferenceLinks": 3926,
+    "sourceReferences": 2932,
+    "excludedUnlinkedAcceptedSourceIds": [
+      "33",
+      "499",
+      "626",
+      "641",
+      "664",
+      "703",
+      "779",
+      "787",
+      "989",
+      "1168",
+      "1169",
+      "1170",
+      "1171",
+      "1172",
+      "1265"
+    ],
+    "unmatchedColIds": [
+      "39SDP",
+      "4ZT26",
+      "6PVT4",
+      "992NH",
+      "CDHD7",
+      "CDHRG",
+      "CQ9TK"
+    ]
+  },
+  "output": {
+    "path": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/eumycetozoa-000.json.gz",
+    "bytes": 137653,
+    "sha256": "4f2aba99df83fbde1f9bf4d4ea5abaa1d0b84eefa18675156968c3a5431b1154",
+    "sourceBytes": 1721723,
+    "sourceSha256": "b7814d4ffb97d1a03cc5bb6a3584cbe9661eb9dc8a657b3a716fc1ddb7d8e307"
+  },
+  "descriptor": {
+    "path": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/eumycetozoa-sidecar.json",
+    "bytes": 3696,
+    "sha256": "09ee1710f2a701b6fd43f3f0c16f3ae7401bc3d4cfa29c8420f4c6596c4cc270"
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "schemaVersion": 1,
+  "importType": "COL26.8-to-ChecklistBank-1177-Gymnodinium-source-archive",
+  "source": {
+    "provider": "The dinoflagellate genus Gymnodinium checklist via Catalogue of Life ChecklistBank",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "archiveUrl": "https://api.checklistbank.org/dataset/1177/archive",
+    "archiveBytes": 19661,
+    "archiveSha256": "7bfcccdfd515b7e5024718bb8c407e5521f727b166fe5a191006658715dbd8d7",
+    "archiveEncoding": "gzip-compressed tar (HTTP Content-Type application/zip)",
+    "version": "0.1",
+    "versionDate": "2017-06-12",
+    "sourceDatabase": {
+      "DatabaseFullName": "The dinoflagellate genus Gymnodinium checklist",
+      "DatabaseName": "Gymnodinium",
+      "DatabaseVersion": "0.1",
+      "ReleaseDate": "2017-06-12",
+      "AuthorsEditors": "Thessen A.",
+      "TaxonomicCoverage": "Chromista - Miozoa - Dinophyceae - Gymnodiniales",
+      "GroupNameInEnglish": "",
+      "Abstract": "This dynamic, working classification of the genus Gymnodinium contains all Gymnodinium names and organizes them into proper reconciliation groups. It was created for the purpose of automated names reconciliation by the Global Names Project. The classification originated in http://dx.doi.org/10.1371/journal.pone.0044015 and has been improved since publication. The current data set can be found at https://github.com/diatomsRcool/gymnodiniales. The data set itself can be cited as 10.5281/zenodo.437529",
+      "Organization": "Individual custodian",
+      "HomeURL": "https://github.com/diatomsRcool/gymnodiniales",
+      "Coverage": "Global",
+      "Completeness": "100",
+      "Confidence": "5",
+      "LogoFileName": "",
+      "ContactPerson": ""
+    },
+    "retrievedAt": "2026-09-04",
+    "members": {
+      "AcceptedSpecies.tsv": {
+        "bytes": 51044,
+        "sha256": "88eb1bae8845358f4193a1d33c2a7811957db37446f031dc9d078843525143bd"
+      },
+      "NameReferences.tsv": {
+        "bytes": 8069,
+        "sha256": "8af2a7ee2162e10a773e7124d7f1f4fc25ac7786f83835a8cb6795e07ada5ee1"
+      },
+      "References.tsv": {
+        "bytes": 16590,
+        "sha256": "0b077a3f09dd1d1443264681e9e2494c0d7b720b946f230e6c022d6fff029a48"
+      },
+      "SourceDatabase.tsv": {
+        "bytes": 981,
+        "sha256": "a5681703fce24dadfab429cc436c0fcab8ec224587a4e3acc0bdc692695587fc"
+      }
+    }
+  },
+  "inputs": [
+    {
+      "path": "data/sources/archives/checklistbank-1177-gymnodinium-2026-09-04.tar.gz",
+      "bytes": 19661,
+      "sha256": "7bfcccdfd515b7e5024718bb8c407e5521f727b166fe5a191006658715dbd8d7"
+    },
+    {
+      "path": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/species-000.jsonl.gz",
+      "bytes": 666110,
+      "sha256": "02aef7f0f72b0ae5a05f04b0f46ccc4ee0a45993bab4ddd84414188cc878f015"
+    },
+    {
+      "path": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/species-001.jsonl.gz",
+      "bytes": 564427,
+      "sha256": "6efd0ffb445696b1054673c532ad732157a5f1772c6e4b427e625d5b095a0c69"
+    },
+    {
+      "path": "data/catalogue-of-life/releases/2026-08-20/registry/hierarchy/nodes/id-fd.jsonl.gz",
+      "bytes": 326600,
+      "sha256": "d9d0201924b3716708d282e842a8d2c23d8b49fac66f92a76379881937519b5b"
+    }
+  ],
+  "scopeAudit": {
+    "method": "Exact source scientific name+authorship under source dataset 1177 and COL root 4RTJ",
+    "archiveAcceptedSpeciesRows": 259,
+    "nameReferenceRows": 309,
+    "bibliographyRows": 99,
+    "colEligibleSpecies": 259,
+    "matchedSourceAcceptedTaxonIds": 258,
+    "sourceOnlyRows": 1,
+    "unmatchedColRows": 1
+  },
+  "matchingContract": {
+    "normalization": "UTF-8 quoted TSV; surrounding whitespace is trimmed for name+authorship comparison only.",
+    "prohibited": "No fuzzy, punctuation, edit-distance, phonetic, epithet-substitution, taxon-substitution or missing-authorship matching.",
+    "unmatchedReason": "COL p-dorhnii and source p.dorhni remain unmatched because the source spelling differs."
+  },
+  "totals": {
+    "total": 259,
+    "accepted": 258,
+    "redirect": 0,
+    "ambiguous": 0,
+    "unmatched": 1,
+    "withheld": 0,
+    "upstreamOnly": 1,
+    "records": 260
+  },
+  "output": {
+    "path": "protists-chromists/gymnodinium-sidecar-000.json.gz",
+    "bytes": 33971,
+    "sha256": "9b01b603451753d7d19e5b4bdd08979d7700235502af44dc007b054678d0e292",
+    "sourceBytes": 437542,
+    "sourceSha256": "34dd38b1ee40e4027bbac9180967556aefe7a57325c604096d9cd11b60331f19",
+    "upstreamOnly": {
+      "path": "protists-chromists/gymnodinium-sidecar-upstream-only-000.json.gz",
+      "records": 1,
+      "bytes": 738,
+      "sha256": "bf15b243a974fa0b733f631c983980e4fcf38e06a6ef31bf4ea978086404ff96",
+      "sourceBytes": 1504,
+      "sourceSha256": "cf1c6d630027543f84ed4c25e0733db60a92ab7253659c3774222edf1ca457b2",
+      "minColId": null,
+      "maxColId": null,
+      "encoding": "gzip",
+      "mediaType": "application/x-ndjson",
+      "role": "upstream-only",
+      "colOwnership": null
+    },
+    "descriptor": {
+      "path": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/gymnodinium-sidecar.json",
+      "bytes": 6234,
+      "sha256": "a19be3c4a522920f8d6017b519444db8ddc90483661f35f1bbbebdcd059bd047"
+    }
+  },
+  "deliveryContract": {
+    "pagesLight": "Pages needs only this descriptor and may omit row shards.",
+    "androidIosFull": "Native full inventories must include the descriptor and both listed row-level shards unchanged.",
+    "runtimeChange": "This import changes no runtime protocol or global manifest."
+  },
+  "generatedBy": {
+    "scriptPath": "scripts/build-gymnodinium-sidecar.py",
+    "deterministic": "Pinned archive bytes, exact scope, exact name+authorship, source-row locators, sorted COL IDs and deterministic gzip."
+  }
+}

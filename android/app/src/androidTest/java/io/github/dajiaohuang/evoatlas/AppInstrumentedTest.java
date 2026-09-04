@@ -602,6 +602,12 @@ public class AppInstrumentedTest {
                         1, 1, 444, 54, "WoRMS Radiozoa");
                 verifyAuthorityArchiveCollection(context, files, findCollection(extensions, "trichomycetes-archive-crosswalk"),
                         1, 0, 96, 0, "Trichomycetes source1033");
+                verifyAuthorityArchiveCollection(context, files, findCollection(extensions, "cilcat-1113-archive-crosswalk"),
+                        1, 1, 8505, 55, "CilCat");
+                verifyAuthorityArchiveCollection(context, files, findCollection(extensions, "eumycetozoa-archive-crosswalk"),
+                        1, 0, 1337, 0, "Eumycetozoa");
+                verifyAuthorityArchiveCollection(context, files, findCollection(extensions, "gymnodinium-archive-crosswalk"),
+                        1, 1, 259, 1, "CC0-1.0", "Gymnodinium");
                 JSONArray extensionFiles = authority.getJSONArray("files");
                 assertEquals(5, extensionFiles.length());
                 for (int fileIndex = 0; fileIndex < extensionFiles.length(); fileIndex += 1) {
@@ -626,7 +632,7 @@ public class AppInstrumentedTest {
                 };
                 int[] expectedFiles = new int[]{4, 1, 2, 1, 1, 1, 2, 1, 1, 2, 0, 0, 1, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0};
                 int[] expectedRecords = new int[]{8665, 21, 1110, 276, 52, 90, 3397, 1337, 1616, 1536, 0, 0, 53, 0, 0, 0, 0, 0, 1416, 4, 0, 0, 0, 0, 0};
-                assertEquals(expectedIds.length + 3, extensions.length());
+                assertEquals(expectedIds.length + 6, extensions.length());
                 for (int extensionIndex = 0; extensionIndex < expectedIds.length; extensionIndex += 1) {
                     JSONObject itisAuthority = findCollection(extensions, expectedIds[extensionIndex]);
                     assertNotNull("ITIS protists/chromists authority missing", itisAuthority);
@@ -788,9 +794,17 @@ public class AppInstrumentedTest {
                                                    int expectedFiles, int expectedUpstreamFiles,
                                                    int expectedRecords, int expectedUpstreamRecords,
                                                    String label) throws Exception {
+        verifyAuthorityArchiveCollection(context, inventory, collection, expectedFiles, expectedUpstreamFiles,
+            expectedRecords, expectedUpstreamRecords, "CC-BY-4.0", label);
+    }
+
+    private void verifyAuthorityArchiveCollection(Context context, JSONArray inventory, JSONObject collection,
+                                                   int expectedFiles, int expectedUpstreamFiles,
+                                                   int expectedRecords, int expectedUpstreamRecords,
+                                                   String expectedLicense, String label) throws Exception {
         assertNotNull(label + " collection missing", collection);
         assertEquals("release-pinned-authority-archive-crosswalk", collection.getString("recordType"));
-        assertEquals("CC-BY-4.0", collection.getJSONObject("source").getString("license"));
+        assertEquals(expectedLicense, collection.getJSONObject("source").getString("license"));
         JSONObject delivery = collection.getJSONObject("delivery");
         assertEquals("native-full", delivery.getString("profile"));
         assertTrue(delivery.getBoolean("completeRows"));

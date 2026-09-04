@@ -856,8 +856,25 @@ if (catalogue.resourcePacks?.packageCount !== 7
       }
       const radiozoa = extensions.find((candidate) => candidate.id === 'worms-radiozoa-archive-crosswalk')
       const trichomycetes = extensions.find((candidate) => candidate.id === 'trichomycetes-archive-crosswalk')
+      const originalSources = [
+        ['cilcat-1113-archive-crosswalk', 8505, 8477, 55, 2, 'CC-BY-4.0'],
+        ['eumycetozoa-archive-crosswalk', 1337, 1330, 0, 1, 'CC-BY-4.0'],
+        ['gymnodinium-archive-crosswalk', 259, 258, 1, 2, 'CC0-1.0'],
+      ]
+      for (const [id, total, accepted, upstreamOnly, fileCount, license] of originalSources) {
+        const source = extensions.find((candidate) => candidate.id === id)
+        if (!source || source.source?.license !== license
+          || source.counts?.total !== total || source.counts?.accepted !== accepted || source.counts?.upstreamOnly !== upstreamOnly
+          || source.delivery?.profile !== 'web-light' || source.delivery?.completeRows !== false
+          || source.files?.length !== 0 || source.upstreamOnlyFiles?.length !== 0
+          || source.delivery?.publishedFileCount !== 0 || source.delivery?.canonicalFileCount !== fileCount
+          || source.canonicalFileInventory?.length !== fileCount
+          || source.canonicalFileInventory.some((file) => !file.path || file.sha256?.length !== 64 || file.sourceSha256?.length !== 64)) {
+          failures.push(`${id}: light delivery must retain source summary and canonical hashes without row shards`)
+        }
+      }
       const canonicalItisFiles = Object.values(expectedItis).reduce((sum, counts) => sum + counts.files, 0)
-      if (extensions.length !== Object.keys(expectedItis).length + 3 || !foraminifera || !radiozoa || !trichomycetes
+      if (extensions.length !== Object.keys(expectedItis).length + 6 || !foraminifera || !radiozoa || !trichomycetes
         || foraminifera.provider !== 'World Foraminifera Database (WoRMS) through ChecklistBank'
         || foraminifera.source?.license !== 'CC-BY-4.0'
         || foraminifera.source?.sourceDatasetKey !== 1157
@@ -879,7 +896,7 @@ if (catalogue.resourcePacks?.packageCount !== 7
         || trichomycetes.delivery?.completeRows !== false || trichomycetes.files?.length !== 0
         || trichomycetes.upstreamOnlyFiles?.length !== 0 || trichomycetes.delivery?.publishedFileCount !== 0
         || trichomycetes.delivery?.canonicalFileCount !== 1 || trichomycetes.canonicalFileInventory?.length !== 1
-        || manifestFile.extensionFileCount !== 0 || manifestFile.canonicalExtensionFileCount !== canonicalItisFiles + 8
+        || manifestFile.extensionFileCount !== 0 || manifestFile.canonicalExtensionFileCount !== canonicalItisFiles + 13
           || [...foraminifera.canonicalFileInventory, ...radiozoa.canonicalFileInventory, ...trichomycetes.canonicalFileInventory].some((file) => !file.path || file.sha256?.length !== 64 || file.sourceSha256?.length !== 64)) {
         failures.push('protists-chromists: Pages must publish the complete Foraminifera, Radiozoa and Trichomycetes authority summaries and hashes without row shards')
       }

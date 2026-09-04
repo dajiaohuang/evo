@@ -414,6 +414,22 @@ if (!trichomycetes || trichomycetes.source?.license !== 'CC-BY-4.0'
   || trichomycetes.files.some((file) => file.records !== 96 || !releaseFiles.files.some((entry) => entry.url === file.url && entry.bytes === file.bytes && entry.sha256 === file.sha256))) {
   throw new Error('Mobile build must stage the complete Trichomycetes source1033 nomenclatural archive projection')
 }
+for (const [id, total, accepted, upstreamOnly, fileCount, license] of [
+  ['cilcat-1113-archive-crosswalk', 8505, 8477, 55, 2, 'CC-BY-4.0'],
+  ['eumycetozoa-archive-crosswalk', 1337, 1330, 0, 1, 'CC-BY-4.0'],
+  ['gymnodinium-archive-crosswalk', 259, 258, 1, 2, 'CC0-1.0'],
+]) {
+  const source = protistsManifest.extensions?.find((extension) => extension.id === id)
+  const payloads = [...(source?.files ?? []), ...(source?.upstreamOnlyFiles ?? [])]
+  if (!source || source.source?.license !== license
+    || source.counts?.total !== total || source.counts?.accepted !== accepted || source.counts?.upstreamOnly !== upstreamOnly
+    || source.delivery?.profile !== 'native-full' || source.delivery?.completeRows !== true
+    || source.delivery?.publishedFileCount !== fileCount || source.delivery?.canonicalFileCount !== fileCount
+    || payloads.length !== fileCount || payloads.reduce((sum, file) => sum + file.records, 0) !== total + upstreamOnly
+    || payloads.some((file) => !releaseFiles.files.some((entry) => entry.url === file.url && entry.bytes === file.bytes && entry.sha256 === file.sha256))) {
+    throw new Error(`Full data inventory must retain every ${id} COL and unlinked-source shard`)
+  }
+}
 const expectedProtistAuthorities = {
   'itis-ciliophora-tsn-crosswalk': { files: 4, records: 8665 },
   'itis-apicomplexa-tsn-crosswalk': { files: 1, records: 21 },
@@ -441,7 +457,7 @@ const expectedProtistAuthorities = {
   'itis-katablepharidota-tsn-crosswalk': { files: 0, records: 0 },
   'itis-hemimastigophora-tsn-crosswalk': { files: 0, records: 0 },
 }
-if (protistsManifest.extensions?.length !== Object.keys(expectedProtistAuthorities).length + 3) {
+if (protistsManifest.extensions?.length !== Object.keys(expectedProtistAuthorities).length + 6) {
   throw new Error('Mobile build must stage every declared protists/chromists authority collection')
 }
 for (const [id, expected] of Object.entries(expectedProtistAuthorities)) {
