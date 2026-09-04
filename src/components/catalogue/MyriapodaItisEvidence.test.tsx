@@ -1,4 +1,4 @@
-import { fireEvent, render, screen } from '@testing-library/react'
+import { act, fireEvent, render, screen } from '@testing-library/react'
 import { afterEach, describe, expect, it, vi } from 'vitest'
 import { MyriapodaItisEvidence } from './MyriapodaItisEvidence'
 import { loadPackageItisAuthorityRecord, loadPackageManifest } from '../../data-client/staticDataClient'
@@ -108,6 +108,19 @@ describe('Myriapoda ITIS evidence disclosure', () => {
     expect(screen.queryByText(/not found in the pinned mapping/)).toBeNull()
     row.resolve({ collection: native, record: acceptedRecord })
     await screen.findByText('Exact accepted-name match')
+  })
+
+  it('retries when a pending request fails after the disclosure was closed', async () => {
+    const pending = deferred<never>()
+    loadMetadata.mockReturnValueOnce(pending.promise).mockResolvedValueOnce(manifestFor(collection))
+    const { container } = render(<MyriapodaItisEvidence colId="93ABC" packageId="crustaceans-insects" lineageIds={['93']} zh={false} />)
+    const details = openDetails(container)
+    details.open = false
+    fireEvent(details, new Event('toggle'))
+    await act(async () => { pending.reject(new Error('closed request failed')) })
+    openDetails(container)
+    await screen.findByText('A name crosswalk, not an extantness audit.')
+    expect(loadMetadata).toHaveBeenCalledTimes(2)
   })
 
   it('closes on COL ID changes and ignores the old deferred response', async () => {

@@ -78,12 +78,13 @@ function MyriapodaItisEvidencePanel({ colId, packageId, zh }: MyriapodaItisEvide
   return <details open={expanded} className="catalogue-authority-disclosure" onToggle={(event) => {
     if (event.target !== event.currentTarget) return
     const open = event.currentTarget.open
+    if (open === expanded) return
     setExpanded(open)
     if (!open) {
       setFailed(false)
       return
     }
-    if (open && !loading && !failed && (!collection || !rowReady)) void load()
+    if (open && !loading && (failed || !collection || !rowReady)) void load()
   }}>
     <summary>{zh ? 'ITIS 多足动物精确命名对应' : 'ITIS Myriapoda exact nomenclatural mapping'}</summary>
     {expanded && <div className="catalogue-source-card">
