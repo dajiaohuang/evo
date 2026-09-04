@@ -10,7 +10,6 @@
     "metadataSha256": "e5c62b1b2c9518ee80379d8550e714475edbc19228714a3d9c6bdce248dc282a",
     "license": "CC-BY-4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
-    "rightsHolder": "WoRMS Editorial Board",
     "archiveUrl": "https://api.checklistbank.org/dataset/1122/archive",
     "archivePath": "data/sources/archives/checklistbank-1122-gastrotricha-2026-09-01.zip",
     "metadataPath": "data/sources/archives/checklistbank-1122-gastrotricha-2026-09-01.metadata.json",
@@ -65,7 +64,44 @@
         "bytes": 264,
         "sha256": "82062099592da3b21d002cab56a5c26425f4b2aaecb2b5b24b5834296885c9f7"
       }
-    }
+    },
+    "editors": [
+      {
+        "orcid": "0000-0002-6353-7281",
+        "given": "Antonio",
+        "family": "Todaro",
+        "email": "antonio.todaro@unimore.it",
+        "name": "Todaro A.",
+        "orcidAsUrl": "https://orcid.org/0000-0002-6353-7281"
+      },
+      {
+        "given": "Jean-Loup",
+        "family": "d'Hondt",
+        "email": "dhondt@mnhn.fr",
+        "name": "d'Hondt J.-L."
+      }
+    ],
+    "contributors": [
+      {
+        "country": "BE",
+        "name": "Vlaams Instituut voor de Zee",
+        "address": "Belgium",
+        "organisation": "Vlaams Instituut voor de Zee"
+      },
+      {
+        "country": "IT",
+        "name": "University of Modena e Reggio Emilia",
+        "address": "Italy",
+        "organisation": "University of Modena e Reggio Emilia"
+      },
+      {
+        "country": "FR",
+        "name": "National Natural History Museum Paris Département Milieux et Peuplements Aquatiques",
+        "address": "France",
+        "organisation": "National Natural History Museum Paris Département Milieux et Peuplements Aquatiques"
+      }
+    ],
+    "citation": "<div class=\"csl-entry\">Todaro, A., &amp; d&rsquo;Hondt, J.-L. (2026). <span style=\"font-style: italic\">World Gastrotricha Database</span> (Version 2026-09-01). https://doi.org/10.48580/d3cq</div>"
   },
   "registryManifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151",
   "registryInputs": [
@@ -1352,23 +1388,23 @@
   ],
   "generatedBy": {
     "script": "scripts/build-worms-gastrotricha-source.py",
-    "scriptSha256": "a72994c5729927889113d1dcbbe0d5fcf02ed4a43f7c8bc1b2ef62833dc770ee",
+    "scriptSha256": "76b4b2f08b0023f3d97b80ed698c0e7b13e389ae1963084bae3d29f10b86b44f",
     "hashNormalization": "LF"
   },
   "outputs": {
     "descriptor": {
       "path": "data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals/worms-gastrotricha-sidecar.json",
-      "bytes": 5598,
-      "sha256": "f8df9c444219a8268b39290fc5a0044733a7ddee914ff2c0116f42a369abeee7"
+      "bytes": 6866,
+      "sha256": "a350a96fd8b16c5b5cf639f93cbf601307325b69d891cb52ebcd8b3f432dc296"
     },
     "files": [
       {
         "path": "other-animals/worms-gastrotricha-000.json.gz",
         "records": 903,
-        "bytes": 139577,
-        "sha256": "7272ca83efecf03a014aaf6327406c0426771559de9cf877c65c253425f59084",
-        "sourceBytes": 2038000,
-        "sourceSha256": "75ec62aa6c95be26c1bdc95bd89af8ab0d32f935a88b921019a278afd4ad46a3",
+        "bytes": 140054,
+        "sha256": "0fc75dabfe5f42133738351029802483871a33333f1bf869a05f7fc1704f7386",
+        "sourceBytes": 2052362,
+        "sourceSha256": "64ab69adefd023b5ae82c84ab15a07fb66e32d794cd3742fd4c386c192fd5b91",
         "encoding": "gzip",
         "mediaType": "application/json",
         "role": "col-partition",
@@ -1380,10 +1416,10 @@
       {
         "path": "other-animals/worms-gastrotricha-source-only-000.json.gz",
         "records": 3,
-        "bytes": 2720,
-        "sha256": "6386f1f33d2c23d8b2e5f820e261ca7efe06e5ec160b4fbfe5aea373c759e495",
-        "sourceBytes": 18267,
-        "sourceSha256": "da264ee9fa87f4ee05fb1e86990e683dda007e8a70c2e439d70e0b33fae5b95e",
+        "bytes": 2723,
+        "sha256": "39883b89f83154b5470292e029c05b3a263a8bc3ddd817d7e72ab79040e6fef7",
+        "sourceBytes": 18377,
+        "sourceSha256": "f3509fbcba071348bc75861c0d908026c9be9c2d6c5c4aadac20ec7dbe94f482",
         "encoding": "gzip",
         "mediaType": "application/json",
         "role": "upstream-only"

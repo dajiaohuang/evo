@@ -100,6 +100,8 @@ def row_locators(taxon, name, refs, references, taxon_row, name_row):
             loc.append({'member': 'Reference.txt', 'row': references[ref['referenceID']][1]})
     if taxon.get('referenceID') in references:
         loc.append({'member': 'Reference.txt', 'row': references[taxon['referenceID']][1]})
+    if name.get('referenceID') in references:
+        loc.append({'member': 'Reference.txt', 'row': references[name['referenceID']][1]})
     return loc
 
 
@@ -216,6 +218,10 @@ def project(archive, output_root=None):
                                                        'files': [x['path'] for x in col_files + source_files],
                                                        'totalCompressedBytes': sum(x['bytes'] for x in col_files + source_files),
                                                        'totalSourceBytes': sum(x['sourceBytes'] for x in col_files + source_files)}}}
+    descriptor['source'].pop('rightsHolder', None)
+    descriptor['source']['editors'] = metadata.get('editor', [])
+    descriptor['source']['contributors'] = metadata.get('contributor', [])
+    descriptor['source']['citation'] = metadata.get('citation')
     descriptor_path = destination / 'worms-gastrotricha-sidecar.json'
     descriptor_bytes = dump(descriptor, True); descriptor_path.write_bytes(descriptor_bytes)
     ledger = {'schemaVersion': 1, 'importType': 'COL26.8-to-WoRMS-1122-archive-projection',

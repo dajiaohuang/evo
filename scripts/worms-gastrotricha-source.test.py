@@ -21,6 +21,7 @@ class GastrotrichaProjectionTests(unittest.TestCase):
                 canonical = ROOT / 'data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals' / name
                 self.assertEqual(a, canonical.read_bytes(), f'canonical {name}')
             descriptor = json.loads((roots[0] / 'worms-gastrotricha-sidecar.json').read_text(encoding='utf8'))
+            metadata = json.loads((ROOT / 'data/sources/archives/checklistbank-1122-gastrotricha-2026-09-01.metadata.json').read_text(encoding='utf8'))
             ledgers = [Path(one) / 'data/sources/worms-gastrotricha-archive-1122-import-ledger.json', Path(two) / 'data/sources/worms-gastrotricha-archive-1122-import-ledger.json']
             self.assertEqual(ledgers[0].read_bytes(), ledgers[1].read_bytes())
             canonical_ledger = ROOT / 'data/sources/worms-gastrotricha-archive-1122-import-ledger.json'
@@ -32,6 +33,10 @@ class GastrotrichaProjectionTests(unittest.TestCase):
             self.assertEqual(len(source_only), descriptor['counts']['upstreamOnly'])
             self.assertEqual(descriptor['source']['archiveSha256'], mod.ARCHIVE_SHA)
             self.assertEqual(descriptor['source']['archiveBytes'], mod.ARCHIVE_BYTES)
+            self.assertNotIn('rightsHolder', descriptor['source'])
+            self.assertEqual(descriptor['source']['editors'], metadata.get('editor', []))
+            self.assertEqual(descriptor['source']['contributors'], metadata.get('contributor', []))
+            self.assertEqual(descriptor['source']['citation'], metadata.get('citation'))
             self.assertEqual(descriptor['rowEncoding'], 'json')
             self.assertTrue(all(p['mediaType'] == 'application/json' for p in descriptor['files'] + descriptor['upstreamOnlyFiles']))
             self.assertTrue(all(p['sourceBytes'] <= mod.SHARD_LIMIT for p in descriptor['files'] + descriptor['upstreamOnlyFiles']))
@@ -74,6 +79,9 @@ class GastrotrichaProjectionTests(unittest.TestCase):
                         if not ref['missing']:
                             self.assertEqual(ref['reference'], references_raw[ref['referenceID']])
                             self.assertEqual(ref['sourceRows'], [{'member': 'Reference.txt', 'row': reference_row_numbers[ref['referenceID']]}])
+                    for direct in (name.get('referenceID'), taxon.get('referenceID')):
+                        if direct and direct in references_raw:
+                            self.assertIn({'member': 'Reference.txt', 'row': reference_row_numbers[direct]}, out['sourceRows'])
 
 
 if __name__ == '__main__':
