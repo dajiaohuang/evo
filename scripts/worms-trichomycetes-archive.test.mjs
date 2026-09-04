@@ -11,4 +11,7 @@ test('1033 projection is the exact 96-row Ichthyosporea boundary',()=>{
  assert.equal(rows.length,96); assert.equal(new Set(rows.map(x=>x.sourceAcceptedTaxonId)).size,96);
  assert.ok(rows.every(x=>x.status==='accepted'&&x.matchedName&&x.acceptedName&&x.sourceClassification.Class==='Ichthyosporea'));
  assert.ok(rows.every(x=>Array.isArray(x.nameReferences)));
+ assert.equal(rows.filter(x=>x.nameReferences.length===1).length,96);
+ assert.equal(rows.filter(x=>x.nameReferences[0].reference.Title==='').length,66);
+ assert.deepEqual(d.scope.excludedOtherProtozoaIds.sort(),['254534','255335']);
 });
