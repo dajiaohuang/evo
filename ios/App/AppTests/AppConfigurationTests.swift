@@ -546,7 +546,7 @@ final class AppConfigurationTests: XCTestCase {
                 XCTAssertEqual(itisRecords, 158_805)
             } else if packageId == "other-animals" {
                 let extensions = try XCTUnwrap(pack["extensions"] as? [[String: Any]])
-                XCTAssertEqual(extensions.count, 42)
+                XCTAssertEqual(extensions.count, 44)
                 try verifyAuthorityArchiveCollection(
                     collection: try XCTUnwrap(extensions.first { ($0["id"] as? String) == "worms-kinorhyncha-archive-crosswalk" }),
                     inventory: files, below: dataRoot, expectedFiles: 1, expectedUpstreamFiles: 0,
@@ -559,6 +559,14 @@ final class AppConfigurationTests: XCTestCase {
                     collection: try XCTUnwrap(extensions.first { ($0["id"] as? String) == "worms-ctenophora-archive-crosswalk" }),
                     inventory: files, below: dataRoot, expectedFiles: 1, expectedUpstreamFiles: 1,
                     expectedRecords: 197, expectedUpstreamRecords: 4, label: "Ctenophora")
+                try verifyAuthorityArchiveCollection(
+                    collection: try XCTUnwrap(extensions.first { ($0["id"] as? String) == "worms-thaliacea-archive-crosswalk" }),
+                    inventory: files, below: dataRoot, expectedFiles: 1, expectedUpstreamFiles: 0,
+                    expectedRecords: 78, expectedUpstreamRecords: 0, label: "Thaliacea")
+                try verifyAuthorityArchiveCollection(
+                    collection: try XCTUnwrap(extensions.first { ($0["id"] as? String) == "worms-appendicularia-archive-crosswalk" }),
+                    inventory: files, below: dataRoot, expectedFiles: 1, expectedUpstreamFiles: 0,
+                    expectedRecords: 68, expectedUpstreamRecords: 0, label: "Appendicularia")
                 try verifyAuthorityArchiveCollection(
                     collection: try XCTUnwrap(extensions.first { ($0["id"] as? String) == "worms-cestoda-archive-crosswalk" }),
                     inventory: files, below: dataRoot, expectedFiles: 4, expectedUpstreamFiles: 1,

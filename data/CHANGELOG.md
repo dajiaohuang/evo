@@ -1,5 +1,11 @@
 # Dataset changelog
 
+## 2026.09-static-v5-rc121 — 2026-09-05
+
+- Added frozen original-source projections for all 78 Thaliacea and 68 Appendicularia COL26.8 records in their exact source-owned boundaries. All 146 rows match non-provisional accepted source names exactly; no ambiguous, redirected, unmatched, withheld or source-only row is asserted.
+- Full-data delivery includes all 146 records in two compressed files (45,484 bytes; 760,803 uncompressed bytes). Pages retains the same source summaries, exact citations and canonical hashes without row payloads; Android and iOS inventories include both complete files.
+- Preserved the official 2026-09-01 ChecklistBank archives, all original archive-member hashes, source name/authorship/reference fields and row locators. Isolated rebuilds reproduce canonical bytes. The source-repository allowance rises from 900 to 925 MiB for subsequent original archives; Pages and mobile allowances, the 2,183,133-species COL baseline, app version and native build number are unchanged. No compatibility layer or content-validation framework was added. See [source scope and reproduction](../docs/original-sources-rc121.md).
+
 ## 2026.09-static-v5-rc120 — 2026-09-05
 
 - Added frozen original-source projections for 362 Kinorhyncha, 356 Nematomorpha and 197 Ctenophora COL records. All 915 COL rows match accepted source names exactly; four separately retained Ctenophora source records have no exact COL source-boundary match. This improves source traceability without changing the 2,183,133-species COL baseline.

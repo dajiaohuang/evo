@@ -790,8 +790,8 @@ if (catalogue.resourcePacks?.packageCount !== 7
         'itis-nematoda-tsn-crosswalk': { eligible: 19604, records: 20849, accepted: 1899, redirects: 36, ambiguous: 1, unmatched: 17668, upstreamOnly: 1245, nonApplicable: 79557, files: 4 },
         'itis-annelida-tsn-crosswalk': { eligible: 18982, records: 24074, accepted: 4301, redirects: 122, ambiguous: 1, unmatched: 14558, upstreamOnly: 5092, nonApplicable: 80179, files: 4 },
       }
-      if (extensions.length !== 42 || manifestFile.extensionFileCount !== 0 || manifestFile.canonicalExtensionFileCount !== 183) {
-        failures.push('other-animals: Pages must publish all 42 authority summaries and no row shards')
+      if (extensions.length !== 44 || manifestFile.extensionFileCount !== 0 || manifestFile.canonicalExtensionFileCount !== 185) {
+        failures.push('other-animals: Pages must publish all 44 authority summaries and no row shards')
       }
       const annelidaArchive = extensions.find((candidate) => candidate.id === 'worms-annelida-archive-crosswalk')
       if (!annelidaArchive || annelidaArchive.source?.license !== 'CC-BY-4.0'
@@ -810,6 +810,21 @@ if (catalogue.resourcePacks?.packageCount !== 7
         || nematodaArchive.files?.length !== 0 || nematodaArchive.upstreamOnlyFiles?.length !== 0
         || nematodaArchive.delivery.canonicalFileCount !== 9 || nematodaArchive.canonicalFileInventory?.length !== 9) {
         failures.push('other-animals: WoRMS Nematoda must preserve its complete inventory while omitting row shards on Pages')
+      }
+      for (const [id, total, label] of [
+        ['worms-thaliacea-archive-crosswalk', 78, 'Thaliacea'],
+        ['worms-appendicularia-archive-crosswalk', 68, 'Appendicularia'],
+      ]) {
+        const archive = extensions.find((candidate) => candidate.id === id)
+        if (!archive || archive.source?.license !== 'CC-BY-4.0'
+          || archive.counts?.total !== total || archive.counts?.accepted !== total || archive.counts?.upstreamOnly !== 0
+          || archive.delivery?.profile !== 'web-light' || archive.delivery?.completeRows !== false
+          || archive.files?.length !== 0 || archive.upstreamOnlyFiles?.length !== 0
+          || archive.delivery?.publishedFileCount !== 0 || archive.delivery?.canonicalFileCount !== 1
+          || archive.canonicalFileInventory?.length !== 1
+          || archive.canonicalFileInventory.some((file) => !file.path || file.sha256?.length !== 64 || existsSync(join(dataRoot, current.releaseBase, 'catalogue/resource-packs', file.path)))) {
+          failures.push(`other-animals: ${label} must preserve its complete inventory while omitting row shards on Pages`)
+        }
       }
       for (const [id, counts] of Object.entries(expected)) {
         const authority = extensions.find((candidate) => candidate.id === id)
