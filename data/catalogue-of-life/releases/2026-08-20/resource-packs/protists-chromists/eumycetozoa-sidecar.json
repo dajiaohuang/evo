@@ -40,7 +40,7 @@
     "colSourceDatasetId": 1053,
     "eligibleColSpecies": 1337,
     "projectedSpecies": 1337,
-    "matchingKey": "exact source scientific name + authorship",
+    "matchingKey": "official ChecklistBank source-record relation where available; otherwise exact source scientific name + authorship",
     "excludedUnlinkedAcceptedSourceRows": 8
   },
   "matching": {
@@ -80,7 +80,7 @@
   "limitations": [
     "Only COL strict accepted species assigned source dataset 1053 are projected; no additional source-only rows are asserted.",
     "Reference links retain original type, identifiers, source row locators and empty fields.",
-    "Seven COL targets have no exact name/authorship key. Fifteen unlinked accepted archive rows are not projected; unlinked does not mean globally novel or absent from other COL sources."
+    "Seven COL targets are resolved by frozen ChecklistBank source-record relations despite source-text differences; eight accepted archive rows remain unlinked and are not projected. Unlinked does not mean globally novel or absent from other COL sources."
   ],
   "totalCompressedBytes": 138324,
   "totalSourceBytes": 1728987,
