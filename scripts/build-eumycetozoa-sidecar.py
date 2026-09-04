@@ -244,7 +244,7 @@ def main():
             "colSourceDatasetId": 1053,
             "eligibleColSpecies": len(targets),
             "projectedSpecies": len(out),
-            "matchingKey": "exact source scientific name + authorship",
+            "matchingKey": "official ChecklistBank source-record relation where available; otherwise exact source scientific name + authorship",
         },
         "matching": {
             "normalization": "Strict UTF-8 TSV; whitespace-only name+authorship comparison.",
@@ -310,7 +310,7 @@ def main():
     ]
     d["scope"]["excludedUnlinkedAcceptedSourceRows"] = len(excluded)
     d["limitations"].append(
-        "Seven COL targets have no exact name/authorship key. Fifteen unlinked accepted archive rows are not projected; unlinked does not mean globally novel or absent from other COL sources."
+        "Seven COL targets are resolved by frozen ChecklistBank source-record relations despite source-text differences; eight accepted archive rows remain unlinked and are not projected. Unlinked does not mean globally novel or absent from other COL sources."
     )
     descriptor_bytes = (json.dumps(d, ensure_ascii=False, indent=2) + "\n").encode(
         "utf-8"

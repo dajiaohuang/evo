@@ -51,7 +51,7 @@ def json_bytes(value):
 
 
 def jsonl_bytes(records):
-    return ("\n".join(json.dumps(record, ensure_ascii=False, separators=(",", ":")) for record in records) + "\n").encode("utf-8")
+    return ((("\n".join(json.dumps(record, ensure_ascii=False, separators=(",", ":")) for record in records) + "\n") if records else "").encode("utf-8"))
 
 
 def write_gzip(path, payload):
@@ -267,7 +267,7 @@ def main():
         "evidenceBoundary": {"en": "Frozen source provenance and exact nomenclatural linkage only; this is not independent scientific corroboration, species-concept equivalence, an ecological or biological dossier, fossil evidence or expert review.", "zh": "冻结的来源追溯与严格命名关联；不是独立科学佐证、物种概念等同、生态或生物档案、化石证据或专家审查。"},
         "limitations": ["CN83B/T284 is linked by the frozen ChecklistBank source-record relation despite differing source text; this does not assert species-concept equivalence.", "The source archive's IsExtinct, HasModern and HasPreHolocene fields are preserved source fields, not an Evo Atlas extant-status review."],
         "totalCompressedBytes": len(compressed) + len(upstream_compressed), "totalSourceBytes": len(payload) + len(upstream_payload),
-        "deliveryProfiles": {"web-light": {"payload": "summary-only", "files": [], "records": 0, "totalCompressedBytes": 0, "totalSourceBytes": 0}, "native-full": {"payload": "complete", "files": [files[0]["path"], upstream_file["path"]], "records": 260, "totalCompressedBytes": len(compressed) + len(upstream_compressed), "totalSourceBytes": len(payload) + len(upstream_payload)}},
+        "deliveryProfiles": {"web-light": {"payload": "summary-only", "files": [], "records": 0, "totalCompressedBytes": 0, "totalSourceBytes": 0}, "native-full": {"payload": "complete", "files": [files[0]["path"], upstream_file["path"]], "records": 259, "totalCompressedBytes": len(compressed) + len(upstream_compressed), "totalSourceBytes": len(payload) + len(upstream_payload)}},
     }
     descriptor_bytes = json_bytes(descriptor_value)
     descriptor.parent.mkdir(parents=True, exist_ok=True)
