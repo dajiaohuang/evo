@@ -53,6 +53,21 @@
       "path": "data/sources/archives/checklistbank-1177-gymnodinium-2026-09-04.tar.gz",
       "bytes": 19661,
       "sha256": "7bfcccdfd515b7e5024718bb8c407e5521f727b166fe5a191006658715dbd8d7"
+    },
+    {
+      "path": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/species-000.jsonl.gz",
+      "bytes": 666110,
+      "sha256": "02aef7f0f72b0ae5a05f04b0f46ccc4ee0a45993bab4ddd84414188cc878f015"
+    },
+    {
+      "path": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/species-001.jsonl.gz",
+      "bytes": 564427,
+      "sha256": "6efd0ffb445696b1054673c532ad732157a5f1772c6e4b427e625d5b095a0c69"
+    },
+    {
+      "path": "data/catalogue-of-life/releases/2026-08-20/registry/hierarchy/nodes/id-fd.jsonl.gz",
+      "bytes": 326600,
+      "sha256": "d9d0201924b3716708d282e842a8d2c23d8b49fac66f92a76379881937519b5b"
     }
   ],
   "scopeAudit": {
@@ -78,32 +93,32 @@
     "unmatched": 1,
     "withheld": 0,
     "upstreamOnly": 1,
-    "records": 259
+    "records": 260
   },
   "output": {
-    "path": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/gymnodinium-sidecar-000.json.gz",
-    "bytes": 33949,
-    "sha256": "e41db775a5578d9c755818447ada4c1afc3d0d815fc6654773c1225e8f89315d",
-    "sourceBytes": 435070,
-    "sourceSha256": "e338c3b6f2e7083847323fc336b2471d78daac2de93e3155e7a692413e7f8437",
+    "path": "protists-chromists/gymnodinium-sidecar-000.json.gz",
+    "bytes": 33971,
+    "sha256": "9b01b603451753d7d19e5b4bdd08979d7700235502af44dc007b054678d0e292",
+    "sourceBytes": 437542,
+    "sourceSha256": "34dd38b1ee40e4027bbac9180967556aefe7a57325c604096d9cd11b60331f19",
     "upstreamOnly": {
-      "path": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/gymnodinium-sidecar-upstream-only-000.json.gz",
+      "path": "protists-chromists/gymnodinium-sidecar-upstream-only-000.json.gz",
       "records": 1,
-      "bytes": 671,
-      "sha256": "26ef74341163774612b73d7d5bee546188616c2eef78a16900ae9eed18265ead",
-      "sourceBytes": 1317,
-      "sourceSha256": "9f45264d08642bb9589c42f52265ba780c2d3206db4bc0f06959c159843fd645",
+      "bytes": 734,
+      "sha256": "55ef762cbfe45b5c18543d9da4cf19a75b9724033455cad2bce85aeae4d87e0a",
+      "sourceBytes": 1502,
+      "sourceSha256": "a635f1be15c547575e4f56e4e3c7a03599bf50ae8b72ae7821e1456e4769f36f",
       "minColId": null,
       "maxColId": null,
       "encoding": "gzip",
-      "mediaType": "application/json",
+      "mediaType": "application/x-ndjson",
       "role": "source-only",
       "colOwnership": null
     },
     "descriptor": {
       "path": "data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/gymnodinium-sidecar.json",
-      "bytes": 6455,
-      "sha256": "ee6cc26da1ae5f7b5a9429b1939cffae46fc1d6d344fcdb0ce0691ef06707fba"
+      "bytes": 6232,
+      "sha256": "7f8a8ee10623aa8a8905dae940afa004cdf2d311fea9bd18f26c929b44fc3857"
     }
   },
   "deliveryContract": {
